@@ -115,3 +115,14 @@ def test_cli_check_parse_error_exits_1(tmp_path, capsys):
     bad = tmp_path / "x.rules"; bad.write_text("p -> b\n", encoding="utf-8")
     assert main(["check", str(bad)]) == 1
     assert "x.rules:1:" in capsys.readouterr().err
+
+
+def test_unreachable_change_for_any_segment_a_target_position_can_match():
+    """Runtime applies the change to EVERY matched segment (rewrite._replacement), so the
+    check must flag a bundle that fails for any segment any target position can match —
+    not pass because the first position's first candidate succeeds."""
+    src = "[inventory]\na b\n[substitute]\na b -> [+syllabic]\n"
+    assert "UNREACHABLE_CHANGE" in codes(src)              # `b` has no [+syllabic] row
+    assert "UNREACHABLE_CHANGE" in codes("[inventory]\nk kʼ\n[substitute]\n{k kʼ} -> [+voice]\n")
+    assert "UNREACHABLE_CHANGE" not in codes("[inventory]\nk p\n[substitute]\n{k p} -> [+voice]\n")
+    assert "UNREACHABLE_CHANGE" not in codes("[inventory]\nk p\n[substitute]\nk p -> [+voice]\n")

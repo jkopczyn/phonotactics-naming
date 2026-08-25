@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Sequence
 
 __all__ = [
-    "FEATURE_NAMES", "FEATURE_ALIASES", "DERIVED_CLASSES",
+    "FEATURE_NAMES", "FEATURE_ALIASES", "DERIVED_CLASSES", "SEGMENT_ALIASES",
     "FeatureTable", "FeatureError", "load_features",
 ]
 
@@ -36,6 +36,12 @@ FEATURE_ALIASES: dict[str, str] = {
 # I-11: predeclared classes, computed from features at load time.
 DERIVED_CLASSES: tuple[str, ...] = ("C", "V", "LIQ", "NAS", "STOP", "FRIC", "GLIDE")
 
+# Input-alias rows whose vector copies a principal's exactly (I-30 fortis/lenis spellings,
+# I-34 ASCII `g`). Exact-lookup feature changes resolve to the principal, never the alias.
+SEGMENT_ALIASES: dict[str, str] = {
+    "g": "ɡ", "lˠ": "l̪ˠ", "l̠ʲ": "lʲ", "nˠ": "n̪ˠ", "n̠ʲ": "nʲ",
+}
+
 # Non-feature columns that precede the feature block (I-20).
 _EXTRA_COLUMNS: tuple[str, ...] = ("segment", "class", "source")
 _VALUES = frozenset("+-0")
@@ -58,9 +64,13 @@ class FeatureTable:
         self.segments: tuple[str, ...] = tuple(s for s, _, _ in rows)
         self._aliases = dict(aliases)
         self._index = {f: i for i, f in enumerate(FEATURE_NAMES)}
-        # Reverse map for exact-lookup feature changes; first row wins on identical vectors
-        # (alias rows such as `g`/`ɡ` copy their principal's vector exactly).
+        # Reverse map for exact-lookup feature changes. Alias rows (SEGMENT_ALIASES) copy
+        # their principal's vector exactly, so among identical vectors the first NON-alias
+        # row in file order wins; an alias is chosen only when nothing else has the vector.
         self._by_vector: dict[tuple[str, ...], str] = {}
+        for s in self.segments:
+            if s not in SEGMENT_ALIASES:
+                self._by_vector.setdefault(self._vectors[s], s)
         for s in self.segments:
             self._by_vector.setdefault(self._vectors[s], s)
 

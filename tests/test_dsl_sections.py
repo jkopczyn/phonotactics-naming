@@ -71,3 +71,10 @@ def test_unknown_syllable_key_raises():
 def test_unknown_stress_procedure_raises():
     with pytest.raises(ParseError):
         parse_rules("[inventory]\np\n[stress]\nprocedure = wibble\n", TABLE)
+
+
+def test_nuclei_must_be_vowel_sequences():
+    """`nuclei` lists licensed VOWEL sequences (I-2, spec §12.B); a consonant inside one is a
+    rule-file bug, not something group_nuclei() should silently ignore."""
+    with pytest.raises(ParseError, match="nucle"):
+        parse_rules("[inventory]\np a\n[syllable]\nnuclei = pa\n", TABLE)

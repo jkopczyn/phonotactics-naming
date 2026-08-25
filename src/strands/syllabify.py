@@ -26,7 +26,8 @@ Algorithm (plan Task 10):
    and the boundary goes before the segment of minimum sonority (ties: rightmost, keeping
    the maximal-onset spirit).
 4. Domain-initial consonants must be a legal onset (empty is fine unless
-   `onset-required = yes`, in which case the first nucleus segment is marked); word-final
+   `onset-required = yes`, in which case the first nucleus segment is marked — as is the
+   first segment of ANY later nucleus whose interlude leaves it no onset, e.g. hiatus); word-final
    consonants must be a legal coda, optionally followed by up to `len(appendix)` appendix
    segments (word-final only, never at a stem edge). An illegal edge cluster is marked whole.
 5. Legality = template ∧ onset-set ∧ coda-set ∧ sonority ∧ ¬banned, skipping `any`/`off`
@@ -292,6 +293,8 @@ def syllabify(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
             split, ok = _split_interlude(inter, spec, table)
             if not ok:
                 illegal.update(range(stop, nxt))
+            elif split == len(inter) and spec.onset_required:
+                illegal.add(nxt)                      # §12.D: an onsetless syllable (hiatus)
             starts.append(stop + split)
         # domain-final coda
         last_stop = nucs[-1][1]

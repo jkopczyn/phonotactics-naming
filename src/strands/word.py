@@ -78,11 +78,17 @@ class Word:
             out.append(seg)
         return "".join(out)
 
-    def replaced(self, start: int, stop: int, new: Sequence[str]) -> "Word":
+    def replaced(self, start: int, stop: int, new: Sequence[str], *,
+                 before_boundary: bool = False) -> "Word":
         """Return a copy with `segments[start:stop]` replaced by `new`. Annotations before the
         span are kept, those after it are shifted by the length change, and those inside it
         are dropped — except a syllable start at exactly `start`, which survives when `new`
-        is non-empty. `stress` follows its syllable (None if that syllable vanished)."""
+        is non-empty. `stress` follows its syllable (None if that syllable vanished).
+
+        A morpheme boundary at exactly `start` normally stays BEFORE the new material
+        (`$ new`); with `before_boundary=True` an insertion (`start == stop`) is placed on
+        the left side instead (`new $`), so a rule written `_ $` keeps its material in the
+        stem. Rewrite application chooses the side from the rule's environment."""
         if not (0 <= start <= stop <= len(self.segments)):
             raise IndexError(f"replaced({start}, {stop}) outside 0..{len(self.segments)}")
         new = tuple(new)
@@ -101,6 +107,8 @@ class Word:
             return seg_index(i)
 
         def boundary(i: int) -> int | None:
+            if i == start and start == stop and before_boundary:
+                return i + delta
             if i <= start:
                 return i
             if i >= stop:

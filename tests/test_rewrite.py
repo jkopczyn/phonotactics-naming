@@ -153,3 +153,19 @@ def test_bundle_with_class_name_restricts_members():
 def test_undeclared_class_raises_ruleerror():
     with pytest.raises(RuleError):
         one("[inventory]\np a\n[substitute]\nNOPE -> a\n", "pa")
+
+
+def test_epenthesis_keeps_its_side_of_a_morpheme_boundary():
+    """`_ $` inserts on the stem side of the boundary (p i $), `$ _` on the suffix side
+    (p $ i); later rules that inspect `$` must see the right morpheme."""
+    wd = Word(segments=("p",), morphemes=frozenset({1}))
+    rf, rules = rr("[inventory]\ni p\n[substitute]\n0 -> i / p _ $\n")
+    out = apply_rule(wd, rules[0], rf, TABLE, "substitute")
+    assert out.segments == ("p", "i") and out.morphemes == frozenset({2})
+    rf2, rules2 = rr("[inventory]\ni p\n[substitute]\n0 -> i / $ _ #\n")
+    out2 = apply_rule(wd, rules2[0], rf2, TABLE, "substitute")
+    assert out2.segments == ("p", "i") and out2.morphemes == frozenset({1})
+    wd3 = Word(segments=("p", "p"), morphemes=frozenset({1}))
+    rf3, rules3 = rr("[inventory]\ni p\n[substitute]\n0 -> i / $ _ p\n")
+    out3 = apply_rule(wd3, rules3[0], rf3, TABLE, "substitute")
+    assert out3.segments == ("p", "i", "p") and out3.morphemes == frozenset({1})

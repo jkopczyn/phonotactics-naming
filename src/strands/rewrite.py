@@ -241,8 +241,13 @@ def apply_rule(word: Word, rule: Rule, rf: RuleFile, table: FeatureTable, stage:
         return word
     before = word.ipa()
     out = word
+    # Insertion affinity at a `$`: an epenthesis rule whose right context starts with `$`
+    # inserts on the left (stem) side of the boundary (`p _ $` -> `pi$`); any other rule,
+    # `$ _` included, leaves the boundary before the new material (`$ _` -> `p$i`).
+    left_side = (not rule.target and bool(rule.right)
+                 and isinstance(rule.right[0].atom, str) and rule.right[0].atom == "$")
     for start, stop, new in reversed(edits):     # right-to-left keeps earlier indices valid
-        out = out.replaced(start, stop, new)
+        out = out.replaced(start, stop, new, before_boundary=left_side)
     return out.traced(TraceEntry(stage=stage, rule_id=rule.rule_id, tag=rule.tag,
                                  before=before, after=out.ipa()))
 

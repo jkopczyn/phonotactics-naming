@@ -120,3 +120,16 @@ def test_domain_without_a_nucleus_is_illegal_in_full():
 def test_onset_required_marks_a_vowel_initial_word():
     src = CV + "onset-required = yes\n"
     assert 0 in syl(src, "apa").illegal and syl(CV, "apa").illegal == frozenset()
+
+
+def test_onset_required_marks_every_onsetless_syllable_not_only_the_first():
+    """Spec §12.D: the empty onset is allowed UNLESS onset-required = yes — for every
+    syllable, not just the domain-initial one. Hiatus creates an empty onset."""
+    src = CV + "onset-required = yes\n"
+    out = syl(src, "aa")                       # no nuclei licensed: two syllables, both onsetless
+    assert out.syllables == (0, 1) and out.illegal == frozenset({0, 1})
+    src2 = ("[inventory]\np a i\n[syllable]\ntemplate = (C)N(C)\nnuclei = ai\n"
+            "onsets = p\ncodas = p\nsonority = off\nonset-required = yes\n")
+    out2 = syl(src2, "paia")                   # pai.a — the vowel after the diphthong is onsetless
+    assert out2.nuclei == ((1, 3), (3, 4)) and out2.illegal == frozenset({3})
+    assert syl(src2, "papa").illegal == frozenset()

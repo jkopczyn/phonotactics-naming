@@ -102,3 +102,16 @@ def test_contains_and_vector():
 def test_load_missing_file_raises():
     with pytest.raises(FeatureError):
         load_features(pathlib.Path(__file__).parent / "no-such-features.tsv")
+
+
+def test_apply_changes_prefers_the_canonical_row_over_an_input_alias():
+    """I-34 / I-30: alias rows (`g`, `lˠ`, `l̠ʲ`, `nˠ`, `n̠ʲ`) copy their principal's vector;
+    an exact-lookup change must resolve to the principal spelling whatever the TSV order."""
+    def toward(src, dst):
+        return {f: y for f, x, y in zip(FEATURE_NAMES, TABLE.vector(src), TABLE.vector(dst))
+                if x != y}
+    assert TABLE.apply_changes("k", {"voice": "+"}) == "ɡ"
+    assert TABLE.apply_changes("ɟ", {"front": "-"}) == "ɡ"
+    for src, dst in [("n̪ˠ", "l̪ˠ"), ("nʲ", "lʲ"), ("l̪ˠ", "n̪ˠ"), ("lʲ", "nʲ")]:
+        assert TABLE.apply_changes(src, toward(src, dst)) == dst
+    assert TABLE.apply_changes("g", {}) == "g"          # identity keeps the alias spelling

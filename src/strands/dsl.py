@@ -675,6 +675,11 @@ class _SyllableBuilder:
                 if len(nuc) < 2:
                     raise ParseError(f"nucleus {''.join(nuc)!r} is a single segment; `nuclei` "
                                      "lists licensed vowel SEQUENCES (I-2)", lineno, path)
+                for seg in nuc:
+                    if table.value(seg, "syllabic") != "+":
+                        raise ParseError(f"nucleus {''.join(nuc)!r} contains the non-vowel "
+                                         f"{seg!r}; `nuclei` lists licensed VOWEL sequences "
+                                         "(I-2, spec §12.B)", lineno, path)
         elif key == "onsets":
             self.onsets = None if value == "any" else \
                 _cluster_list(value, table, lineno, path, "onsets")

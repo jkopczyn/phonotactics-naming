@@ -147,23 +147,26 @@ class _Checker:
                     captures.add(c.atom.capture)
 
         if isinstance(r.replacement, Bundle):
-            # 6. change bundle resolves by exact lookup for at least one inventory segment
+            # 6. change bundle resolves by exact lookup for EVERY segment each target
+            #    position can match: rewrite._replacement applies it to each matched segment,
+            #    so one failing candidate is a runtime RuleError (spec §12.C).
             if self.bundle(r.replacement, line):
-                candidates = self.matching_segments(r.target[0]) if r.target else []
-                if not candidates:
-                    candidates = list(self.rf.inventory)
-                reachable = False
-                for seg in candidates:
-                    try:
-                        self.table.apply_changes(seg, r.replacement.constraints)
-                    except FeatureError:
-                        continue
-                    reachable = True
-                    break
-                if not reachable:
+                failing: list[str] = []
+                for it in r.target:
+                    candidates = self.matching_segments(it)
+                    if not candidates and it.kind == "segment":
+                        candidates = [it.value]           # type: ignore[list-item]
+                    for seg in candidates:
+                        try:
+                            self.table.apply_changes(seg, r.replacement.constraints)
+                        except FeatureError:
+                            if seg not in failing:
+                                failing.append(seg)
+                if failing:
                     self.add(line, "UNREACHABLE_CHANGE",
                              "no features.tsv segment has the vector produced by the "
-                             "feature-change bundle for any inventory segment (spec §12.C)")
+                             "feature-change bundle for " + ", ".join(repr(s) for s in failing)
+                             + " (spec §12.C)")
             return
 
         for el in r.replacement:

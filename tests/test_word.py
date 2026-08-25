@@ -91,3 +91,12 @@ def test_word_is_hashable_and_frozen():
     hash(w("a"))
     with pytest.raises(dataclasses.FrozenInstanceError):
         w("a").segments = ("b",)
+
+
+def test_replaced_insertion_can_sit_before_a_morpheme_boundary():
+    x = w("p", morphemes=frozenset({1}))
+    assert x.replaced(1, 1, ("i",)).morphemes == frozenset({1})                          # $ i
+    assert x.replaced(1, 1, ("i",), before_boundary=True).morphemes == frozenset({2})    # i $
+    # a non-empty span: a boundary at `start` stays put either way
+    y = w("p", "a", morphemes=frozenset({1}))
+    assert y.replaced(1, 2, ("i", "u"), before_boundary=True).morphemes == frozenset({1})
