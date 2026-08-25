@@ -94,7 +94,8 @@ consonants.
    (depalatalize? Cʲ → Cj? colour the adjacent vowel? broad → emphatic in Arabic?). This single
    decision shapes output more than cluster repair does. Also: /ɣ/ has no home in Welsh or
    Arabic (→ /ʁ/), Georgian lacks /f/, Welsh lacks voiced-obstruent problems but needs /ɬ/ etc.
-   left unused; Irish lenition outputs [v w j h] and voiceless sonorants.
+   left unused; Irish lenition outputs [v w j h]. (Voiceless sonorants are allophonic/verbal-
+   morphological in Irish, not phonemes — keep them out of the input inventory; irish/digest.md.)
 
 Source-side needs (Irish): an Irish phoneme inventory with the broad/slender pairs spelled out
 (inputs arrive as hand-transcribed IPA); Old Irish inventory/orthography for strand 5.
@@ -108,3 +109,28 @@ Source-side needs (Irish): an Irish phoneme inventory with the broad/slender pai
 - `arabic-phonology.pdf` — Alqarhi 2019 (English Linguistics Research 8(4)). Low-value: a
   general survey, cited in the chat only for "Egyptian is the de facto standard dialect".
 - Nothing else yet: no code, no rule files, no bibliography.
+
+## Corrections from the digest phase (2026-08-24)
+
+- **Ciara**: the user's /ˈkɪə.ɾˠə/ has a broad /k/; spelling ⟨ci⟩ and attested *ciall* /ciəl̪ˠ/
+  predict slender /c/ → /ˈciəɾˠə/ (inferred). Flagged, not silently corrected
+  (irish/digest.md §9.2, test-words.tsv).
+- **Matánach and the Dutch fricative constraint**: the /x/ follows the schwa of *-ach*, not /ɑː/,
+  so it passes Dutch's tense-vowel/voiceless-fricative ban unaltered; the ban bites only where a
+  long vowel directly precedes a voiceless fricative (*bách*). Earlier notes said otherwise.
+- **Welsh PHOIBLE row 2406 (Llanwrtyd)**: the inventory is Southern (no /ɨ/), but Llanwrtyd is in
+  administrative Powys and Breit 2019 groups traditional Y Bowyseg with North/Mid Welsh; the
+  locality's dialect affiliation is unverified in any held source. Open gap, not a conflict.
+- **WOLD Dutch**: the adapted (Dutch) side *does* carry segmented IPA; what is missing is donor-side
+  pronunciation. Earlier note ("orthography only") was wrong on the Dutch side.
+- **Strand 4 reframed**: "overlay vs pure Georgian" reduces to a few explicit project overlays on a
+  Georgian base — national-2002 romanization (apostrophe = ejective) with deviations `x`, `tch`,
+  `y`=/i/, bare-stem (no nominative -i) output; word-level ejective-vs-aspirate choice for Irish
+  /p t k/ (both attested); broad/slender options incl. broad→Cʷ via Georgian's labialization slot;
+  syncope as a native cluster-creation lever. Only "devoice everything / drop nasals" would be
+  pure overlay. Georgian shows no loan repair in the held data (preservation whitelist, not a
+  proven no-repair grammar).
+- **Digest reliability**: cross-family reviews sampled 30–45 claims per digest; verified rates
+  67–87%. All required fixes were sent back and applied (Dutch, Welsh, Irish done; Georgian,
+  Arabic in progress). Digests remain secondary sources — cite the underlying `[key p.N]` when a
+  rule matters.
