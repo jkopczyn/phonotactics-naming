@@ -1,0 +1,98 @@
+ 
+ Page 
+ 102 WELSH PHONOLOGY: SELECTED READINGS 
+ dialects differ in the restrictions they impose. A comparatively small number of factors have emerged repeatedly as relevant in determining these restrictions — the position of the item in the word, stress, and the immediate segmental environment. As these combine in various ways so the complexity of the resulting patterns increases. As so often in language an intricate pattern is created from very simple materials. 
+ A number of questions however remain unanswered. At a very basic level there are quite serious gaps in the available information. Consider able fieldwork is needed to establish reliably where the boundaries tentatively sketched in on the maps in this contribution do in fact run. Is the apparent clustering of boundaries shown on Map | a mere artifact of the inadequate data base, or is it genuine? What is the nature of the transitions? In drawing a clear line on a map we imply a sharp switch from one pattern to another, but it is equally possible that the changeover is gradual, with one pattern slowly giving way to another in an area of some confusion. This is what we find with other phonological boundaries such as when we are dealing with the addition or loss of a phoneme. Only fieldwork can establish if it is true also in the case of phonotactic constraints. 
+ It is also unclear if the assumptions on which this account is based are the most satisfactory possible. For instance we have phrased the whole account in terms of the word as a unit. What would be the effect of adopting a different unit of analysis, such as the syllable, morpheme or phrase? We have assumed that the opposition between long and short vowels is basic. To a considerable extent however, particularly in south Wales, consonant length covaries with vowel length. A short consonant follows a long vowel, as in /'karni/ ‘to sing’, and a long consonant follows a short vowel, as in /'kareg/ ‘stone’. What would the effect of turning the analysis on its head, and taking consonant length as basic? More drastically, what would be the effect of reconsidering the data presented here in terms of archiphonemes, prosodic analysis or genera tive phonology? 
+ A third angle which has not been explored here is the question of change. How has the current pattern evolved in the past? Which dialectal variants are innovatory and which reflect earlier stages of the language? In what ways is the language evolving now? Probably the most important single influence on it at present is the widespread borrowing from English. In the past loans appear to have been integrated into the native system, but this no longer seems to happen. They are used unchanged even when their form conflicts with the normal requirements of Welsh, for instance over the vowel length appropriate in a particular context. What effect will this have on the 
+ PHONOTACTIC CONSTRAINTS IN WELSH 103 
+ native system? Will it undermine the existing patterns, or merely coexist alongside the native vocabulary in an uneasy compromise? 
+ Clearly this chapter has done no more than open up the issue of phonotactics for serious consideration. In order to take it further we need both careful fieldwork and imaginative reanalysis of the available information. 
+ NOTES 
+ Data relating to Pembrokeshire derives from my own fieldwork, and I am indebted to Glyn E. Jones and Beth Thomas for information about the Llanwrtyd area and the Clwyd valley respectively. For convenience a phonemic framework is adopted here, with restrictions framed in terms of which phonemes may appear in particular positions. This should not however be taken as implying that further insights would not be derived from other approaches, and indeed some of the data discussed here is reanalysed in generative terms in Awbery (in press). 
+ In this discussion we omit consideration of recent monosyllabic loans from English as they are not integrated into the native vowel length system, and obscure its clear patterning. A fuller treatment would of course need to examine the implications of this large-scale borrowing for the native patterns themselves. 
+ There are some exceptional forms where a voiceless fricative is preceded by a short vowel, as with /os/ ‘if’, /dros/ ‘over’ and /b10/ ‘ever’ but such items form a very small minority of cases. 
+ The boundaries drawn on all the maps in this chapter are perforce hesitant since the studies on which they are based are unevenly distributed. Further work is necessary to establish exactly where the boundaries run. 
+ In north Pembrokeshire there are traces of the normal length patterning with the central vowel. In environments which normally require a long vowel it is sometimes found long, as in /'ka:van/ ‘whole’. Where the environment normally allows both long and short vowels or normally requires a short vowel then it is consistently short, as in /'kanar/ ‘early’ or /'askavn/ ‘light’. 
+ There are a further three marginal consonants which do not fit the normal patterns. The two affricates /t{/ and /d3/ appear freely alone, but do not form clusters with other consonants. 
+ to 
+ /d31w/ ‘an exclamation’, /skid3e/ ‘shoes’ /rotf/ ‘rubbish’ 
+ The third consonant /z/ appears only in loans from English such as /zu:/ ‘zoo’ and /witlz/ ‘wheels’. Note that /r/ has the allophone [r] in medial and final position in the word: [ran] ‘part’, ['a:rat] ‘other’ [mo:r] ‘sea’. 
+ ’ Note that we are referring here only to the basic unmutated forms of words. Where mutations have applied then of course a rather different range of consonants is permitted. 
+ 104. WELSH PHONOLOGY: SELECTED READINGS 
+ * The south-east is once again out of step with the rest of Wales. In most areas there is a contrast between /h/ and zero, as in /'ha:nes/ ‘history’ and /‘arval/ ‘apple’. In the south-east this contrast is lost. Both forms may appear with initial /h/ if stressed, as /‘ha:nes/ and /'ha:val/ and equally both may appear without /h/ if unstressed, as /'arnes/ and /'a:val/. This difference in the status of /h/ does not however affect the restrictions on where it may appear; it is still limited to word-initial position and the few medial contexts discussed in the text. 
+ There is one exception to this claim, since the diphthong /aj/ may appear in the prefix /ajl/ ‘re-’, as in /ajl'nejd/ ‘re-do’. Prefixes are however exceptional from the phonological point of view in other ways as well, for example in the stress patterns they impose, and do not seem to form as closely integrated a part of the overall word as do suffixes. The exceptional behaviour of /aj/ forms one puzzle among many. 
+ A LOWERING RULE FOR VOWELS AND ITS RAMIFICATIONS, IN A DIALECT OF NORTH WELSH* 
+ Alan R. Thomas 
+ The dialect of the Vale of Alun, in the old county of Flint, has a surface phonetic vowel system which is typical of varieties of North Welsh:! 
+ a Q Oo @ (= 
+ This is the maximal system evidenced in the dialects, and varieties which depart from such a system do so principally by ‘losing’ one vowel (those southern ones which have no [#] or [a]). 
+ I will be concerned with varieties which depart from this maximal system only to the extent that they have immediate relevance to the argument. 
+ FEATURE-SPECIFICATION OF THE HIGH VOWELS 
+ My concern will be with the high vowels, and with the relationship of the vowels [i] and [u] with the central vowel [9]. There are two questions to which I will address myself: 
+ 1. whether the distinctions carried by the surface segments [1], [4], [u] adequately reflect the structural contrasts within the phon ology, and 
+ 2. whether the central vowel [a] exists at all as an independent unit of structure within the phonology of the dialect. 
+ My aim, in this first section of the paper, is to show how the internal structure of this fragment of the phonology of one dialect can be clarified once we cease to concentrate on the phonetic units which are the surface structure of the phonology and, instead, build an analysis on the structural relationships which underlie them. 
+ 105 
+ 106 WELSH PHONOLOGY: SELECTED READINGS 
+ The three close vowels which concern us are exemplified in forms such as the following: 
+ [i] [mi:n| min, ‘edge’ [gwiin] = gwin, ‘wine’ 
+ [i] [tin] tyn, ‘tight’ [pur] pur, ‘pure’ 
+ [uJ] [kum] cwm, ‘valley’ [trum] trwm, ‘heavy’ 
+ Their phonological features would seem to be adequately specified — if we use vowel-features like those proposed in Chomsky and Halle (1968) — as follows: 
+ [i] [+] [u] +high +high +high —back | +back | +back —round —round +round 
+ This specification squares with the traditional phonetic descriptions of these vowels in that [4] is conventionally viewed as sharing with front [i] the feature [—round], and with [u] the feature [+back] — hence the traditional label ‘high mixed’ for it. 
+ The linking of [#] and [u] (through the shared feature [+back]) seems to be further justified when we examine an extended set of forms, in which [4] and [u] before a consonant occur in the same alternation, in which each is lowered to [a] when a monosyllabic word is extended by suffixation, and the vowel of the monosyllabic base becomes that of a penultimate syllable: 
+ [tin] -—[tan#] tynnu, ‘to pull’ [kum] — [kamo6] cymoedd, ‘valleys’ 
+ This is the alternation known as vowel mutation; there are some exceptions to the change [u—> a], but they are mainly predictable and accounted for by rule: we will consider one subset of them shortly. I will not pursue all the details of these alternations, but simply present those facts which are of immediate relevance to the argument. There are, however, a substantial set of forms with [+] which resist the 
+ alternation, examples are: 
+ [pir] [piro] puro, ‘purify’ 
+ [tin] [4inje] llun, ‘picture’ 
+ lluniau, ‘pictures’ 
+ These forms which resist the alternation form too large a set for one to be content simply to label them as exceptions; also, the orthography 
+ A LOWERING RULE FOR VOWELS IN A DIALECT OF NORTH WELSH 107 
+ reflects the fact that those instances of [#] which undergo the alternation are historically distinct from those which do not: those that undergo the alternation are written y, and those that do not are written u. 
+ Despite the fact that both sets of forms are substantial in number, it might still be argued, at this point, that we have few grounds for acceding to the orthographic hint of the distinctiveness of the two [i]’s: it might well be argued that we should do no more than include the appropriate marking in the feature-specification of those instances which resist the alternation, such that they would carry some such feature as [—#— 9]. 
+ However, consider another pair of vocalic alternations. There is a set of adjectives whose forms have a contrast between masculine and feminine. 
+ Examples are: 
+ [krun] m. — [kron] f. crwn, ‘round’ 
+ [trum] m. — [trom] f. trwm, ‘heavy’ 
+ [kritv] m. — [krerv] f. cryf, ‘strong’ 
+ [six] m. — [serx] f. sych, ‘dry’ 
+ Again, the vowels which undergo the alternations are [u] and [3], [u] alternating with the back vowel [o], and [#] with the front vowel [e]. And again, the only instances of [+] which undergo the alternation are those which have an orthographic y. There are no instances of either the front vowel [i] undergoing such an alternation, nor of [#] doing so when it is orthographically u. 
+ It is significant, too, that many of those adjectives which undergo the masculine-feminine alternation have related plural, nominal or verbal forms which undergo vowel-mutation, alternating with [9]. 
+ Thus: 
+ [krun] — [kron] — [kranjon] pl. crynion 
+ [trum]— [trom] —[tramed] adj. — trymaidd ‘sultry’ [kri:v] — [kre:v] — [krovder] n. cryftder ‘strength’ [sizx] —[se:x] — [saxder] n. sychder ‘drought’ 
+ Furthermore, instances of [+] which have an orthographic y can form the environment for an alternation [a—e] in a preceding syllable. 
+ Page 
+ 0.25x 
+ 0.5x 
+ 0.75x 
+ 1.0x 
+ 1.25x 
+ 1.5x 
+ 1.75x 
+ 2x 
+ Flip left 
+ Flip right 
+ 0.25x 
+ 0.5x 
+ 0.75x 
+ 1.0x 
+ 1.25x 
+ 1.5x 
+ 1.75x 
+ 2x 
+ Page 104 (119/303) 
+ Toggle page controls 
+ Flip left 
+ Flip right 
+ One-page view 
+ Two-page view 
+ Thumbnail view 
+ Thumbnail view 
+ Read this book aloud 
+ Zoom out 
+ Zoom in 
+ Exit fullscreen 

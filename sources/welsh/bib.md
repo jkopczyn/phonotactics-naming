@@ -370,3 +370,19 @@ tagged N./S. Wales throughout).
 3. **§7 count is achievable**: `parry1923` alone can supply well over 30 rows; the constraint
    is that both sides are in orthography, not IPA, so `target_ipa`/`source_ipa` will often be
    blank per `../ATTESTED-FORMAT.md`.
+
+### awbery1984 — Awbery, "Phonotactic constraints in Welsh" (PARTIAL)
+- Full citation: Awbery, G. M. (1984). "Phonotactic constraints in Welsh." In M. J. Ball & G. E.
+  Jones (eds.), *Welsh Phonology: Selected Readings*, pp. [start]–106. Cardiff: University of
+  Wales Press.
+- Access: archive.org controlled lending (user's account); saved by the user 2026-08-25 as a
+  DOM snapshot of the BookReader. **Coverage: pp. 102–106 only** (conclusion + notes) — the
+  BookReader renders only pages near the current view, so the chapter body with the cluster
+  tables was not captured. Re-save with all chapter pages loaded, or screenshot the table pages.
+- Files: `welsh_phonology_chapter.ugly.html` (force-added), `awbery1984-phonotactic-constraints.txt`
+- Covers so far: §0/§9 only — the conclusion states the organizing factors (position in word,
+  stress, segmental environment), the S/N consonant-length ~ vowel-length covariation, the
+  loanword note ("In the past loans appear to have been integrated into the native system, but
+  this no longer seems to happen"), and — usefully — that Awbery's data includes **Llanwrtyd**
+  (via Glyn E. Jones), the PHOIBLE 2406 locality. The SE /h/ note (p.103) is the one segment-
+  position fact present.
