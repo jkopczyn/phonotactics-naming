@@ -350,3 +350,13 @@ first against an absent or skeletal artefact; stress procedures live in separate
 (`stress/initial.py`, …) so their tasks are conflict-free; the dependency graph must be
 acyclic and honest about test fixtures (a test that needs another task's output depends on
 that task).
+
+**J. (added after re-check)** `BROAD` and `SLEN` are declared classes (ˠ-bearing consonants;
+ʲ-bearing plus the palatals), copied into every rule file; rules that mean "Irish broad
+consonant" write `BROAD`, never `[C +back]` (which under PHOIBLE vectors would exclude plain
+dorsals and include uvulars/pharyngeals). Plain unmarked consonants have `front/back = 0`;
+normalization rules that target them use an `UNMARKED` class, not feature bundles. `[inflect]`
+contains whichever named regular inflections the plan enumerates (superset of the four in
+§3). Welsh's template is one nucleus per syllable, as §12.B states; hiatus is two syllables.
+The five pre-existing strand-4 names are canon inputs, displayed verbatim in the gallery's
+reference row and never passed through the engine.
