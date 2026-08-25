@@ -1,0 +1,212 @@
+# georgian.rules — Standard Georgian (strand 4). Task 23a: [meta] [inventory] [classes]
+# [substitute] [stress] [epithets] [post-stress] [respell] and a TEMPORARY [syllable] block.
+# Task 23b: the real [syllable] whitelists, bans and [repair]. Every rule line cites its digest
+# section (sources/georgian/digest.md) or the decision-register row (spec §9) it implements.
+
+[meta]
+name = Georgian
+digest = sources/georgian/digest.md
+# I-39 / spec §12.H: the abstract epithet slots of DESC+ADJ / DESC+NOUN.
+epithet-ADJ = URI
+epithet-NOUN = NOM_I
+
+[inventory]
+# digest §1.1 chart [shosted2006 p.255]: 28 consonants, three-way laryngeal series
+# (voiced / voiceless aspirated / ejective). The chart writes the aspirated affricates bare
+# (`ts tʃ`); `tʃʰ` is the Task 1b hand row the spec (§7) and the slender-coronal rules use,
+# and `ts` keeps the chart's spelling (features.tsv has no `tsʰ` row).
+pʰ pʼ b tʰ tʼ d kʰ kʼ ɡ qʼ
+ts tsʼ dz tʃʰ tʃʼ dʒ
+m n v s z ʃ ʒ x ɣ h l
+# digest §1.7 [shosted2006 p.261]: one rhotic, tap ~ trill in free variation (PHOIBLE `[ɾ r]`,
+# §1.9). The attested rows and the romanization both write it `r`, so `r` is the canonical
+# symbol here; the phonetic default is the tap.
+r
+# digest §1.8 [shosted2006 p.261-262]: five short vowels, no length, no diphthongs (§4.4).
+i ɛ ɑ ɔ u
+# /f/ absent (§1.4); /ŋ w j/ absent (§3.2); /x ɣ/ velar with PHOIBLE and shosted2006 (§1.2).
+
+[classes]
+# I-41 / spec §12.J: the Irish source-side series, copied verbatim into every target file.
+BROAD = pˠ bˠ t̪ˠ d̪ˠ fˠ sˠ w vˠ mˠ n̪ˠ l̪ˠ ɾˠ k ɡ x ɣ ŋ
+SLEN  = pʲ bʲ tʲ dʲ fʲ ʃ vʲ mʲ nʲ lʲ ɾʲ c ɟ ç j ɲ
+
+[substitute]
+# Order matters (each rule sees the previous rule's output):
+#   1. vowels — so that Irish /a aː ə/ (front=- back=- in PHOIBLE) are Georgian /ɑ/ (back=+)
+#      before the Ci rule asks for `[V +back]`;
+#   2. the Cʷ / Ci epentheses over the still-Irish BROAD / SLEN consonants;
+#   3. the broad/slender collapse and the segment substitutions;
+#   4. the post-consonantal ejective, then the aspirate default (spec §9 row 4);
+#   5. degemination of the sequences the epentheses can create.
+
+# 1. Vowels. digest §3.4 [gabunia2021 p.13] "vowel length is not significant"; §4.4
+#    [shosted2006 p.262]; §8.3 /ɑː iː uː oː eː/ -> /ɑ i u ɔ ɛ/.
+iː -> i          %attested # digest §8.3 [gabunia2021 p.13; shosted2006 p.262]
+uː -> u          %attested # digest §8.3
+eː -> ɛ          %attested # digest §8.3
+oː -> ɔ          %attested # digest §8.3
+aː -> ɑ          %attested # digest §8.3
+ɪ  -> i          %attested # digest §3.4 [gabunia2021 p.13] "corresponding short vowels"
+ʊ  -> u          %attested # digest §3.4
+a  -> ɑ          %attested # digest §1.8 [shosted2006 p.261-262] the open vowel is /ɑ/
+e  -> ɛ          %attested # digest §1.8
+o  -> ɔ          %attested # digest §1.8
+# Georgian has no schwa (§8.2 [crouch2022-diss §1.3 p.39]); spec §7 fixes ə -> a. The digest
+# leaves /ɑ/ vs /ɛ/ open and §8.3 would prefer /əi əu/ -> /ɛi ɔu/; the spec's default wins (I-28).
+ə  -> ɑ          %design   # design: §7 (ə -> a) · digest §8.2 line 1470 open
+
+# 2. Secondary articulation (digest §8.1 Option C, an OPEN DECISION at lines 1440-1442).
+#    Cʷ: broad non-labial C -> C v before a front vowel. The class term is BROAD, never
+#    `[C +back]` (spec §12.J: that would exclude plain /k ɡ x ɣ ŋ/). The "before /i ɛ/, onsets
+#    only" restriction is ours — §8.1 Option C is unconditional. Labials excluded because /v/
+#    after a labial is not a Georgian cluster shape (§1.6: /v/ fills the sonorant slot of
+#    obstruent clusters).
+0 -> v / [BROAD -labial] _ [V +front]     %design # design: goals decision 5 (2026-08-25); digest §8.1 lines 1440-1442 open
+#    /j/ -> /i/ before the Ci rule so a lenited slender d/g does not become /ii/.
+j -> i                                    %attested # digest §3.2 [gabunia2021 p.14] yoghurt -> iogurti
+#    Ci: slender C -> C i before a back vowel (spec §9 row 2). SLEN, not `[C +front]`.
+0 -> i / [SLEN] _ [V +back]               %design # design: §9.2 · digest §8.1 Option B/C lines 1440-1442 open
+
+# 3a. Slender coronals -> the postalveolar series. Nothing in the digest decides this:
+#     §8.1 lines 1440-1442 "PROJECT OVERLAYS / an OPEN DECISION"; §8.2 line 1470 offers
+#     /tʰ tʼ d/ or /tʃʰ tʃʼ dʒ/ "(unattested for Georgian)". Spec §7 / §9 row 1 picks the
+#     affricates; /ʃ/ is native (ჩ ʃ) and stays.
+tʲ -> tʃʰ        %design   # design: §9.1 · digest §8.1 lines 1440-1442 open; §8.2 line 1470
+dʲ -> dʒ         %design   # design: §9.1 · digest §8.1 lines 1440-1442 open; §8.2 line 1470
+# 3b. Broad/slender collapse to the plain segment (spec §9 row 1: dropped on labials and
+#     dorsals; the coronal contrast is carried by 3a and the Ci rule). digest §8.2 table.
+pˠ -> p          %design   # design: §9.1 · digest §8.2 line 1466 (/p/ is an OPEN DECISION)
+pʲ -> p          %design   # design: §9.1
+bˠ -> b          %design   # design: §9.1
+bʲ -> b          %design   # design: §9.1
+t̪ˠ -> t          %design   # design: §9.1
+d̪ˠ -> d          %design   # design: §9.1
+c  -> k          %design   # design: §9.1
+ɟ  -> ɡ          %design   # design: §9.1
+sˠ -> s          %attested # digest §3.2 [gabunia2021 p.14] /s/ unchanged
+mˠ -> m          %attested # digest §8.2 one /m/
+mʲ -> m          %attested # digest §8.2
+n̪ˠ -> n          %attested # digest §8.2 one /n/
+nʲ -> n          %attested # digest §8.2
+ŋ  -> n          %design   # design: §7 (ŋ -> n) · contra digest §3.2 line 879, which gives /nɡ/
+ɲ  -> n          %attested # digest §8.2 one /n/
+l̪ˠ -> l          %attested # digest §8.2 one /l/ [wiki-help-ipa-ka n.4]
+lʲ -> l          %attested # digest §8.2
+ɾˠ -> r          %attested # digest §8.2 one rhotic [shosted2006 p.261]
+ɾʲ -> r          %attested # digest §8.2
+ç  -> x          %design   # design: §9.1 · digest §8.2 /x/ native; no palatal fricative
+# 3c. Segment substitutions.
+fˠ -> pʰ         %attested # digest §3.2 [gabunia2021 p.15] Facebook -> /pʰɛisbukʼi/; §8.2
+fʲ -> pʰ         %attested # digest §3.2 [gabunia2021 p.15]
+f  -> pʰ         %attested # digest §3.2 [gabunia2021 p.15]
+# /w/ -> /v/ is spec §9 row 6. WARNING carried from digest §3.3 (a CONFLICT): the digest's own
+# (unattested, overlay) recommendation is POSITIONAL — /w/ -> /u/ word-initially, /v/ medially
+# [rayfield2023 pp.23-24] — and Irish /w/ arrives word-initially from lenited b/m, exactly
+# where that rule would give /u/ (a hiatus vowel) instead.
+w  -> v          %design   # design: §9.6 · digest §3.3 lines 889-920 CONFLICT (positional /u/ ~ /v/)
+vˠ -> v          %attested # digest §8.2 /v/ native [shosted2006 p.261]
+vʲ -> v          %attested # digest §8.2
+
+# 4. The /p t k/ OPEN DECISION (digest §3.1). Spec §9 row 4: aspirate by default, ejective
+#    after a consonant. Digest §3.1 line 818 says of exactly this split "That is not what the
+#    source supports", and lines 862-868 recommend the ejective as the UNCONDITIONAL default
+#    ("Do not encode the 84.1%/26.5% split as a categorical environment rule"). Spec §9 fixes
+#    our default; the digest is evidence, not authority (I-29). Written as explicit segment
+#    lines: `[STOP -voice] -> [+ejective]` is UNREACHABLE_CHANGE, because PHOIBLE's `pʼ` row
+#    differs from `p` in more than raisedLarynxEjective (I-4 exact lookup).
+p -> pʼ / C _    %design # design: §9.4 · contra digest §3.1 line 818; lines 862-868
+t -> tʼ / C _    %design # design: §9.4 · contra digest §3.1 line 818; lines 862-868
+k -> kʼ / C _    %design # design: §9.4 · contra digest §3.1 line 818; lines 862-868
+tʃʰ -> tʃʼ / C _ %design # design: §9.4 applied to the affricate of 3a · digest §8.2 line 1470
+p -> pʰ          %design   # design: §9.4 · digest §3.1 line 821 Eng-like /pʰ tʰ kʰ/ [gabunia2021 p.16]
+t -> tʰ          %design   # design: §9.4 · digest §3.1 line 821
+k -> kʰ          %design   # design: §9.4 · digest §3.1 line 821
+
+# 5. Degemination of what the epentheses and /w/ -> /v/ can create (repeated segments, I-2):
+#    the /v/ of a broad consonant next to the /v/ from lenited b/m (§8.1 note, line 1447:
+#    "would merge"; slot-V /v/ is at most one per cluster [butskhrikidze2002 p.108]).
+v v -> v         %design   # design: goals decision 5 (2026-08-25) · digest §8.1 line 1447; §3.6
+i i -> i         %design   # design: §9.2 (Ci rule) · digest §3.6 degemination is exceptionless
+
+[syllable]
+# TEMPORARY (Task 23a): replaced wholesale by Task 23b's whitelists. Do not ship.
+template = any
+onsets   = any
+codas    = any
+sonority = off
+domain   = stem
+
+[stress]
+# digest §4.1 [borise2023 p.1, p.32; butskhrikidze2002 p.48, p.152]: fixed initial stress.
+procedure = initial
+# digest §4.3: stress is weak, "do not write an accent mark" — Result.ipa carries none.
+mark = off
+
+[epithets]
+# digest §6.1 [wiki-ka-grammar §Declension]: nominative -i on consonant-final roots only;
+# vowel-final roots take nothing (§3.5 [gabunia2021 p.51] duty free -> /dutʼi pʰri/).
+# Personal names are emitted as the bare stem (§5.3 D4, spec §9 row 7): this affix is
+# reached only through the NOUN slot (DESC+NOUN), never applied to a name by default.
+NOM_I  = i / C $ _ #
+# digest §6.3 [wiki-ka-name §Surnames] line 1310: -eli 'from (place)' (Jaqeli, Tsereteli).
+ELI    = ɛ l i / $ _ #
+# digest §6.3/§6.4 [wiki-ka-name §Surnames; shosted2006 p.261]: relational -uri, dissimilated
+# to -uli after a stem containing a rhotic by the [post-stress] rule below.
+URI    = u r i / $ _ #
+# digest §6.3 lines 1301-1326 [wiki-ka-name §Surnames]: -shvili 'child', -dze 'son' — "the
+# readiest epithet machinery in the language".
+SHVILI = ʃ v i l i / $ _ #
+DZE    = dz ɛ / $ _ #
+# digest §6.2 [wiki-ka-grammar §Pluralisation]: plural -eb- + nominative -i on a C-final root;
+# the stem's last /ɑ ɛ/ syncopates before it ([post-stress] below).
+EBI    = ɛ b i / C $ _ #
+
+[post-stress]
+# Affix follow-ups: these run on the affixed word (stages 3-5 re-run after affixation, spec
+# §4.6) and are gated on the `$` join, so an unaffixed word is untouched.
+# digest §6.4 [shosted2006 p.261, citing Hewitt 2005:282]: -uri -> -uli when the base contains
+# a rhotic (/kʰɑrtʰuli/ vs /tʰbilisuri/). `[-trill]*` = any run of non-rhotics.
+r -> l / r [-trill]* $ u _ i #            %attested # digest §6.4 [shosted2006 p.261]
+# digest §6.2 [wiki-ka §Morphophonology]: /ɑ ɛ/ in the stem's last syllable is lost before
+# -eb- (megobari -> megobrebi), leaving an earlier vowel in place.
+{ɑ ɛ} -> 0 / V C* _ C (C) $ ɛ b i #        %attested # digest §6.2 [wiki-ka §Morphophonology]
+
+[respell]
+# National 2002 system [ungegn-georgian p.1] (digest §5.1 table), apostrophe = ejective,
+# written AFTER the consonant (§5.3 D5, line 1213: "Not an overlay — follow the standard").
+# Overlays D1-D3 of digest §5.3 (project conventions, no national-system licence); D4 (bare
+# stem) is realised by [epithets], not here. No accents, no length, no stress mark (§5.3).
+# D3 first (chunks are opaque, I-19): `y` for /i/ in a non-initial closed syllable
+# (spec §9 row 8). "Non-initial" = a syllable precedes (`V C* .`); "closed" = at least one
+# consonant before the next boundary or the word end.
+i -> "y" / V C* . C* _ C C* .   %design # design: §9.8 · digest §5.3 D3 line 1209 (overlay, no Georgian source)
+i -> "y" / V C* . C* _ C C* #   %design # design: §9.8 · digest §5.3 D3 line 1209
+# D1: ხ /x/ as `x`, not national `kh` (Xelxyx; ISO 9984 value).
+x   -> "x"       %design   # design: digest §5.3 D1 line 1207 [wiki-ka-romanization]
+# D2: ჭ /tʃʼ/ as `tch`, not national `ch'` (Tchaeul); no precedent, drops the ejective mark.
+tʃʼ -> "tch"     %design   # design: digest §5.3 D2 line 1208
+# The national table [ungegn-georgian p.1].
+pʰ  -> "p"       %attested # digest §5.1 [ungegn-georgian p.1] ფ
+pʼ  -> "p'"      %attested # digest §5.1 [ungegn-georgian p.1] პ
+tʰ  -> "t"       %attested # digest §5.1 [ungegn-georgian p.1] თ
+tʼ  -> "t'"      %attested # digest §5.1 [ungegn-georgian p.1] ტ
+kʰ  -> "k"       %attested # digest §5.1 [ungegn-georgian p.1] ქ
+kʼ  -> "k'"      %attested # digest §5.1 [ungegn-georgian p.1] კ
+qʼ  -> "q'"      %attested # digest §5.1 [ungegn-georgian p.1] ყ (never `qu`, §5.3)
+ɡ   -> "g"       %attested # digest §5.1 [ungegn-georgian p.1] გ
+ts  -> "ts"      %attested # digest §5.1 [ungegn-georgian p.1] ც
+tsʼ -> "ts'"     %attested # digest §5.1 [ungegn-georgian p.1] წ
+dz  -> "dz"      %attested # digest §5.1 [ungegn-georgian p.1] ძ
+tʃʰ -> "ch"      %attested # digest §5.1 [ungegn-georgian p.1] ჩ (the unmodified native digraph)
+dʒ  -> "j"       %attested # digest §5.1 [ungegn-georgian p.1] ჯ
+ʃ   -> "sh"      %attested # digest §5.1 [ungegn-georgian p.1] შ
+ʒ   -> "zh"      %attested # digest §5.1 [ungegn-georgian p.1] ჟ
+ɣ   -> "gh"      %attested # digest §5.1 [ungegn-georgian p.1] ღ
+ɑ   -> "a"       %attested # digest §5.1 [ungegn-georgian p.1] ა
+ɛ   -> "e"       %attested # digest §5.1 [ungegn-georgian p.1] ე
+ɔ   -> "o"       %attested # digest §5.1 [ungegn-georgian p.1] ო
+i   -> "i"       %attested # digest §5.1 [ungegn-georgian p.1] ი
+u   -> "u"       %attested # digest §5.1 [ungegn-georgian p.1] უ
+r   -> "r"       %attested # digest §5.1 [ungegn-georgian p.1] რ
+# b d v z l m n s h pass through as themselves [ungegn-georgian p.1].
