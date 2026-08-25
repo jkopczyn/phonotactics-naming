@@ -1,0 +1,26 @@
+# A tiny file exercising the Task 5a constructs.
+# NOTE (S12): [substitute] deliberately mentions sˠ, which is NOT in this toy [inventory].
+# Off-inventory targets are legal (an Irish segment arrives before the target replaces it);
+# `strands check` reports it as the warning-level code OFF_INVENTORY, not an error.
+[meta]
+name = Mini
+digest = sources/none
+
+[inventory]
+p b t d k ɡ s ʃ m n l r a i u aː
+marginal: ʒ
+
+[classes]
+BIG = p b t d k ɡ
+
+[weights]
+front = 2.0
+
+[substitute]
+p -> b                                  # attested by default
+[C +back] -> [-back]                    %design
+sˠ ʃ -> s ʃ / #_ V                      %attested # both segments replaced
+0 -> i / # s _ [BIG]                    %attested # prothesis
+t -> 0 / _ #                            %fallback
+0 -> \1 / a:1 t _ {l n r} #             %design   # copy epenthesis via capture (I-33)
+t:1 r:2 -> \2 \1 / k _ #                %design   # metathesis via captures
