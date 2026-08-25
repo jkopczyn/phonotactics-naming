@@ -24,3 +24,45 @@ sˠ ʃ -> s ʃ / #_ V                      %attested # both segments replaced
 t -> 0 / _ #                            %fallback
 0 -> \1 / a:1 t _ {l n r} #             %design   # copy epenthesis via capture (I-33)
 t:1 r:2 -> \2 \1 / k _ #                %design   # metathesis via captures
+
+[syllable]
+template = (C)(C)N(C)(C)
+nuclei   = ai au
+onsets   = p b t d k ɡ s ʃ m n l r pl pr bl br st sp
+codas    = p t k s st ts lp
+onsets-tier = pl:A pr:A st:B
+onset-required = no
+appendix = s t
+domain   = word
+sonority = on
+bans = [V +long] C C [-coronal]
+
+[stress]
+procedure = penult
+
+[epithets]
+NISBA = i / $_ #
+
+[respell]
+ʃ -> "sh"
+aː -> "aa" / _ C                        %design
+
+[post-stress]
+a -> aː / ˈ_ #                          %design
+
+[repair]
+0 -> i / LIQ _ [C -coronal]             %attested
+cluster-fallback = same-length
+
+[templates]
+VOC = "a" LEN(NAME) VOC_M1?
+
+[mutations]
+LEN:
+p -> b / #_
+ECL:
+t -> d / #_
+
+[inflect]
+VOC_M1:
+p -> b / _ #
