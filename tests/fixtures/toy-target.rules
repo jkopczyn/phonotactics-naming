@@ -1,0 +1,60 @@
+# toy-target.rules — the pipeline's test double (plan Task 21, step 1). A complete target
+# file with every section, an [epithets] block containing NISBA and [meta] epithet-ADJ = NISBA,
+# so `adapt()` / `run_entry()` can be tested before any real target file exists. Nothing in it
+# is a claim about a language: every line is %design.
+[meta]
+name = Toy
+digest = sources/none
+epithet-ADJ = NISBA
+
+[inventory]
+p b t d k ɡ f s ʃ x h m n l r j w
+a e i o u aː iː oː
+marginal: ʒ
+
+[classes]
+# I-41 / spec §12.J: the source-side series, copied verbatim into every target file.
+BROAD = pˠ bˠ t̪ˠ d̪ˠ fˠ sˠ w vˠ mˠ n̪ˠ l̪ˠ ɾˠ k ɡ x ɣ ŋ
+SLEN  = pʲ bʲ tʲ dʲ fʲ ʃ vʲ mʲ nʲ lʲ ɾʲ c ɟ ç j ɲ
+
+[weights]
+front = 2.0
+
+[substitute]
+c -> k                                  %design
+ɟ -> ɡ                                  %design
+{ɾˠ ɾʲ} -> r                            %design
+ə -> e                                  %design
+0 -> j / SLEN _ [V +back]               %design   # slender C -> C j (I-31 shape)
+
+[syllable]
+template = (C)(C)N(C)(C)
+nuclei   = ai au
+onsets   = p b t d k ɡ f s ʃ x h m n l r j w pr br tr dr kr ɡr fr pl bl kl ɡl fl sp st sk sm sn sl
+codas    = p b t d k ɡ f s ʃ x m n l r st sk nt nd lt rt rk rs
+onset-required = no
+domain   = word
+sonority = on
+bans = ʒ ʒ
+
+[repair]
+0 -> i / LIQ _ [C -coronal]             %design
+h -> 0 / _ #                            %design
+cluster-fallback = same-length
+
+[stress]
+procedure = penult
+
+[post-stress]
+o -> oː / ˈ _ #                         %design
+
+[epithets]
+NISBA = i / $ _ #
+
+[respell]
+ʃ -> "sh"                               %design
+x -> "kh"                               %design
+j -> "y"                                %design
+ɡ -> "g"                                %design
+aː -> "aa"                              %design
+iː -> "ee"                              %design
