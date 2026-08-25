@@ -1,0 +1,234 @@
+# arabic-egy.rules — Egyptian Arabic (Cairene) target. Plan Task 24.
+# Every rule line cites sources/arabic-egy/digest.md (`digest §N line L`, `[bibkey p.N]`) or a
+# decision-register row (`design: §9.n`). Tags: %attested = the digest asserts it; %design = the
+# digest leaves it open or says the opposite (then `contra digest ...`). Spec §12.G, I-28, I-29.
+#
+# Deliberately ABSENT rules (comments, not rules):
+#   - no degemination: digest §2 line 324 "No degemination rule is stated for Cairene in any
+#     source consulted"; geminates are phonemic (line 308). Spec §12.G / R14a.
+#   - no final obstruent devoicing: digest §3.7 line 645 "No final _obstruent_ devoicing is
+#     reported by any source" (gens, zegzaag, ʒebb keep their voiced obstruent).
+#   - no emphasis spread (Emp-Sp / RES / LES, digest §8.2): design: §9.10 "off"; the digest
+#     itself warns spread would flatten the broad/slender contrast again (§8.2 warning, §9.2).
+#   - no deletion repair: digest §3.5 "Cairene repairs by epenthesis, not deletion".
+
+[meta]
+name = Egyptian Arabic (Cairene)
+digest = sources/arabic-egy/digest.md
+# I-39 / spec §12.H: abstract epithet slots -> this file's affixes.
+epithet-ADJ = NISBA
+epithet-NOUN = FEM_A
+
+[inventory]
+# digest §1 line 82 "Native, uncontested" [wiki-egy-phonology §Consonants; abdelmassih-intro;
+# hassig2011-cairene p.13], plus the emphatic series /tˤ dˤ sˤ zˤ/ (same line).
+b t d k ɡ ʔ
+f s z ʃ x ɣ ħ ʕ h
+m n r l j w
+tˤ dˤ sˤ zˤ
+# digest §1 "Additions to the PHOIBLE row": loan-only, marginal /p v ʒ/ (lines 90-92), /q/
+# (line 95, learned vocabulary), /tʃ/ (line 97, "increasingly retained"). [ɾ] is in free
+# variation with /r/ (§8.3 line 1507; wiki-help-ipa-egy note 2) and the attested rows print
+# it. /lˤ rˤ bˤ mˤ/ (lines 93-94) have no features.tsv rows and are omitted (see [substitute]).
+marginal: p v ʒ q tʃ ɾ
+# digest §1 line 129 "Vowels": short /i u a/, long /iː uː eː oː aː/.
+i u a iː uː eː oː aː
+# I-37: `e o` are inventory segments — 142/65 attested rows use them (the digest's own
+# transcription of shortened /eː oː/ and of loan vowels, §1 lines 129-155; Abdel-Massih's
+# ten-vowel table, line 151). The engine never emits them ([post-stress] raises them, §3.8 item 3).
+e o
+# digest §1 line 138: "[ɑ ɑː] in loans ... echo the vowel quality of /a/" — the emphatic/back
+# allophones of /a aː/, printed as such in 91+16 attested rows; [æ] likewise (line 129).
+marginal: ɑ ɑː æ
+
+[classes]
+# I-41 / spec §12.J: the source-side series, copied verbatim into every target file.
+BROAD = pˠ bˠ t̪ˠ d̪ˠ fˠ sˠ w vˠ mˠ n̪ˠ l̪ˠ ɾˠ k ɡ x ɣ ŋ
+SLEN  = pʲ bʲ tʲ dʲ fʲ ʃ vʲ mʲ nʲ lʲ ɾʲ c ɟ ç j ɲ
+# Every inventory segment, for "anything in between" contexts (`ANY*`) in [post-stress]:
+# the DSL has no negation, so "unstressed" is written positionally relative to `ˈ`.
+ANY = b t d k ɡ ʔ f s z ʃ x ɣ ħ ʕ h m n r l j w tˤ dˤ sˤ zˤ p v ʒ q tʃ ɾ i u a iː uː eː oː aː e o ɑ ɑː æ
+# digest §6.1 line 1040: the Cairene sun letters, "a following dental consonant or a following
+# /ʃ/" [abdelmassih-v3 pp.83-84]; /rˤ/ has no row; /l/ is not in the set (il- + l- is a
+# geminate anyway); /k ɡ/ assimilate only optionally (line 1045) and are left out.
+SUN = t tˤ d dˤ s sˤ z zˤ r n ʃ
+
+[substitute]
+# ---- consonants absent from Cairene (digest §3.6, lines 581-591) ----
+p  -> b                     %attested # digest §3.6 line 581 [ema1958 §14; kwpl-ot-cairene-loan p.5]
+v  -> f                     %attested # digest §3.6 line 582 [ema1958 §15] (also b, w; f is the first listed)
+ʒ  -> ʃ                     %attested # digest §3.6 line 583 [ema1958 §17; wiki-egy-phonology §Consonants note 2]
+dʒ -> ʒ                     %attested # digest §3.6 line 584 [ema1958 §17] 'Jeep' -> /ʒebb/
+tʃ -> ʃ                     %attested # digest §3.6 line 585 [ema1958 §17] šebs, wenš, marš
+θ  -> t                     %design   # design: digest §3.6 line 586 open — t (English loans) or s (Classical); majority t
+ð  -> z                     %design   # design: digest §3.6 line 587 open — Arabic-internal only, "not covered" for loans
+ŋ  -> n                     %design   # design: §9.12 (digest §3.6 line 590 OPEN DECISION, option 3)
+ɲ  -> n                     %design   # design: §9.12 — the slender velar nasal goes the same way (digest §8.3 line 1509: /n/ only)
+# ---- Irish labials: no emphatic /pˤ fˤ/, /bˤ mˤ/ marginal at best (digest §8.1 lines 1378-1381) ----
+pˠ -> b                     %attested # digest §3.6 line 581 [ema1958 §14] p -> b in every position
+pʲ -> b                     %attested # digest §3.6 line 581 [ema1958 §14]
+bˠ -> b                     %design   # design: §9.1 — contrast dropped on labials (digest §8.1 line 1379: /bˤ/ marginal only)
+bʲ -> b                     %design   # design: §9.1
+fˠ -> f                     %design   # design: §9.1 (digest §8.1 line 1381: no emphatic /f/ reported)
+fʲ -> f                     %design   # design: §9.1
+vʲ -> f                     %attested # digest §3.6 line 582 [ema1958 §15] v -> f
+vˠ -> w                     %design   # design: §9.1 — [vˠ] is the Connacht allophone of /w/ (irish.rules), and /w/ is native (digest §8.3 line 1510)
+mˠ -> m                     %design   # design: §9.1 (digest §8.1 line 1378: /mˤ/ marginal only)
+mʲ -> m                     %design   # design: §9.1
+# ---- Irish coronals: broad -> emphatic where an emphatic exists (design: §9.9, evidence digest
+# §8.1 lines 1326-1352: Cairene "over-assigns" emphasis to loan alveolars), slender -> plain
+# (design: §9.1; digest §8.1 line 1303 "Palatalized: no. Flatly not covered") ----
+t̪ˠ -> tˤ                    %design   # design: §9.9; evidence digest §8.1 line 1330 `t -> tˤ` [ema1958 §19-20], line 1373 /t̪ˠ/ -> tˤ
+d̪ˠ -> dˤ                    %design   # design: §9.9; evidence digest §8.1 line 1330 `d -> dˤ`, line 1374
+sˠ -> sˤ                    %design   # design: §9.9; evidence digest §8.1 line 1330 `s -> sˤ`, line 1375
+l̪ˠ -> l                     %design   # design: §9.9 — /lˤ/ (digest §8.1 line 1376) has no features.tsv row; plain /l/
+n̪ˠ -> n                     %design   # design: §9.9 — digest §8.1 line 1383 / §8.3 line 1509: no /nˤ/ anywhere
+ɾˠ -> r                     %design   # design: §9.9 — /rˤ/ (digest §8.1 line 1377) has no features.tsv row; /r/ ~ [ɾ] (§8.3 line 1507)
+tʲ -> t                     %design   # design: §9.1 (digest §8.1 line 1303)
+dʲ -> d                     %design   # design: §9.1
+nʲ -> n                     %design   # design: §9.1 (digest §8.3 line 1509)
+lʲ -> l                     %design   # design: §9.1 (digest §8.3 line 1508)
+ɾʲ -> r                     %design   # design: §9.1 (digest §8.3 line 1507)
+# /ʃ/ (Irish slender s) is kept: native Cairene /ʃ/ (digest §1 line 82). No rule needed.
+# ---- Irish dorsals and /h/ (digest §8.3 lines 1501-1515) ----
+c  -> k                     %attested # digest §8.3 line 1515: /c ɟ/ -> /k g/
+ɟ  -> ɡ                     %attested # digest §8.3 line 1515
+ç  -> x                     %design   # design: §9.1 — the slender counterpart of /x/, which is native (digest §8.3 line 1502)
+# /k ɡ x ɣ h w j/ are native (digest §8.3 lines 1501-1503, 1510; §1 line 82). No rule needed.
+# ---- Irish vowels (digest §8.4 lines 1517-1537; §1 line 129) ----
+i ə -> eː                   %design   # design: digest §8.4 line 1525 open — /iə/ -> /eː/ "unattested but phonetically defensible"
+u ə -> oː                   %design   # design: digest §8.4 line 1525 open — /uə/ -> /oː/
+ə i -> a j                  %design   # design: digest §8.4 line 1529 open — /əi/ -> /aj/ (loan diphthongs land on V+glide)
+ə u -> a w                  %design   # design: digest §8.4 line 1529 open — /əu/ -> /aw/
+ə  -> a                     %design   # design: digest §8.4 line 1534 open — /a/ preferred in unstressed syllables [ema1958 §24]; no positional split (R15)
+ɪ  -> i                     %attested # digest §1 line 129: short /i/ has the allophone [ɪ~e]
+ʊ  -> u                     %attested # digest §1 line 129: short /u/ has the allophone [ʊ~o]
+ɛ  -> i                     %design   # design: digest §1 line 129 — Cairene has no short mid phoneme (§3.8 item 3, line 737); nearest short vowel
+ɔ  -> u                     %design   # design: digest §1 line 129 — as for ɛ
+# Long vowels are carried in and left to the native length rules ([post-stress], §3.8 items 1-4):
+# digest §3.8 OPEN DECISION (lines 668-694), option 2; spec §7 "long vowels kept". No rule needed.
+
+[syllable]
+# digest §2 line 168: "σ = C₁ V(ː) C₀₋₂ — exactly one onset consonant, obligatory; a short or
+# long vowel; zero to two coda consonants" [ijllnet-cairene-english-syll p.95; broselow1976 p.34].
+template = C N (C) (C)
+# digest §2 line 202 "Onsets: Exactly one consonant, always" [broselow1976 p.48]: every single
+# consonant (including the marginals, so attested loan rows conform) and nothing longer.
+onsets = b t d k ɡ ʔ f s z ʃ x ɣ ħ ʕ h m n r l j w tˤ dˤ sˤ zˤ p v ʒ q tʃ ɾ
+# digest §2 line 242: "NO sonority restriction on the final CC ... any combination of word-final
+# consonants regardless of sonority" [broselow-arabic-syll p.3]; no source enumerates a list.
+codas = any
+sonority = off
+# digest §2 line 202: "no onsetless syllables"; line 293: "No two vowels in succession" [ema1958 §30].
+onset-required = yes
+domain = word
+# digest §2 line 236: "CCC is banned everywhere, including across a syllable ... boundary"
+# [broselow1976 p.1]; this also enforces line 227 "Word-medially: one [coda] consonant".
+bans = C C C
+
+[repair]
+# ---- morphology at a `$` boundary (the [epithets] and the article, digest §6): first, so the
+# hiatus rule below does not see the stem-final vowel before the nisba deletes it; matches
+# Broselow's order (L-Assimilation before ʔ-Insertion, line 767) ----
+# §6.2 line 1072: "The termination -V ... is deleted before suffixing /-i/" (madrasa -> madrasi).
+{a i u} -> 0 / _ $ i #                  %attested # digest §6.2 line 1072 [abdelmassih-v3 p.142]; line 1078 madrasa -> madˈrasi
+# §6.1: the definite article /il-/ is a PREFIX; the epithet mechanism (spec §4.6) attaches
+# suffixes only, so it is supplied as a `$`-joined prefix (`il$...`) and assimilated here.
+# Obligatory before the SUN class [abdelmassih-v3 pp.83-84]; the article's own /ʔ/ is the
+# ʔ-insertion below (line 1037: underlying /ʔil-/).
+l -> \1 / # i _ $ SUN:1                   %attested # digest §6.1 lines 1040-1044 ittaman, issamaka, iʃʃams [abdelmassih-v3 pp.83-84]
+# Broselow's ordering (digest §3.8 lines 765-771): ʔ-Insertion -> Word-Initial Epenthesis ->
+# I-Epenthesis; an inserted [ʔ] counts as a consonant for the CCC rule (§3.7 line 643).
+0 -> ʔ / # _ V                          %attested # digest §3.7 line 628 `Ø -> ʔ / # _ V` [broselow1976 p.25 (85), p.49 (164)]; line 630 ʔoteel, ʔotobiis
+0 -> ʔ / V _ V                          %attested # digest §3.7 line 628 Late-ʔ-Insertion is syllable-initial [broselow1976 p.49 (164)]; §2 line 295 (a)
+# §3.1(b): /s/ + obstruent -> prothesis with a glottal stop, BEFORE the anaptyxis rule.
+0 -> ʔ i / # _ s [C -sonorant]          %attested # digest §3.1(b) line 379 `Ø -> ʔi / # _ s C[-son]`; line 386 ski -> ʔiskii [broselow-position-quality p.295 (2b)]
+0 -> ʔ i / # _ ʃ [C -sonorant]          %design   # design: digest §8.5 line 1551 open — Irish /ʃC/ by analogy with /sC/ "(unattested)"
+# §3.1(a): every other initial cluster -> anaptyxis between C1 and C2 (rising clusters, /sl sw/,
+# and — digest §3.1(d) lines 417-420 open — /sr sm sn kn gn mn/, taken with the general rule).
+# §3.3: the anaptyctic vowel copies a following ROUND vowel; otherwise /i/.
+0 -> u / # C _ C [V +round]             %attested # digest §3.3 line 492 [broselow-position-quality p.295 n.4]; lines 499-503 guruub, furuut [kwpl-ot-cairene-loan p.3]
+0 -> i / # C _ C V                      %attested # digest §3.1(a) line 348 `Ø -> i / # C _ C V`; line 356 plastic -> bilastik; §3.3 line 475 default /i/
+# §3.2: CCC anywhere -> /i/ after C2 (also breaks a 3-member final cluster, §3.4 line 548).
+0 -> i / C C _ C                        %attested # digest §3.2 line 442 `Ø -> i / C C _ C` [broselow1976 p.2 (5)]; line 456 bankinut, line 458 bustiman
+
+[stress]
+# digest §4 (Watson 2011 (29) = McCarthy 1979 (2)); implemented in stress/cairene.py (Task 14).
+procedure = cairene
+
+[post-stress]
+# digest §3.8 "Cairene-internal length rules" (lines 726-763), the six items in order. Length
+# is the property Cairene stress governs (line 654); these run after assign_stress. `ˈ` is the
+# stressed syllable's start; "unstressed" is written positionally (ANY*, see [classes]).
+# 1. closed-syllable shortening
+[V +long] -> [-long] / _ C C            %attested # digest §3.8 line 726 `Vː -> V / _ C C` [broselow1976 pp.18-19 (55)/(60)]; line 728 kitaab+na -> kitabna
+# 2. unstressed long vowels shorten: before the stressed syllable, and after it
+[V +long] -> [-long] / _ ANY* ˈ         %attested # digest §3.8 line 734 `Vː -> V / [-stress]` [broselow1976 p.19 (60)]; yuˈmeen, ʕaˈlamu
+[V +long] -> [-long] / ˈ C V ANY* _     %attested # digest §3.8 line 734 [watson2011-word-stress p.3006]; ma habbiˈnaaš
+# 4. one long vowel per word: the FIRST shortens (stress already sits on the second)
+[V +long] -> [-long] / _ ANY* [V +long] %attested # digest §3.8 line 746 [abdelmassih-intro p.24 §7.2(d)]; ʃaaluu -> ʃaluu, beet -> biteen
+# 3. mid vowels raise on shortening (only shortening produces a short mid vowel in this file)
+e -> i                                  %attested # digest §3.8 line 737 `eː -> i` [broselow1976 pp.18-19]; beet -> bitha
+o -> u                                  %attested # digest §3.8 line 737 `oː -> u`; yoom -> yumkum
+# 5. a stem-final short vowel lengthens when suffixation moves stress onto it
+[V -long] -> [+long] / ˈ C _ $          %attested # digest §3.8 line 755 katabu + -ha -> kataˈbuuha [wiki-egy-phonology §Vowel lengthening]
+# 6. high-vowel syncope in the unstressed post-tonic open syllable (V C _ C V keeps CCC out)
+{i u} -> 0 / ˈ C V C _ C V              %attested # digest §3.8 line 757 `i, u -> Ø / V C _ C V` unstressed [broselow1976 p.20 (63)]; kaatib+a -> katba
+
+[epithets]
+# digest §6.2 line 1068: nisba masculine `-i` (feminine -iyya, plural -iyyiin are not generated).
+# Attaches to any stem; a stem-final short vowel is deleted by the [repair] line above (§6.2
+# line 1072). The digest's ELEVEN examples (lines 1077-1087 [abdelmassih-v3 p.142; broselow1976 p.62]):
+# nisba: masˤrˤ -> ˈmasˤrˤi 'Egyptian'
+# nisba: madrasa -> madˈrasi 'scholastic' (final -a deleted)
+# nisba: balgiika -> balˈgiːki 'Belgian' (final -a deleted)
+# nisba: turkiyya -> ˈturki 'Turkish' (the whole -iyya deleted)
+# nisba: mawdˤiʕ -> ˈmawdˤiʕi 'local'
+# nisba: taˈriːx -> taˈriːxi 'historical'
+# nisba: maˈħall -> maˈħalli 'local'
+# nisba: ħarb -> ˈħarbi 'military'
+# nisba: ziˈraːʕa -> ziˈraːʕi 'agricultural'
+# nisba: siˈjaːsa -> siˈjaːsi 'political'
+# nisba: ħuˈkuːma -> ħuˈkuːmi 'governmental'
+NISBA = i / $ _ #
+# digest §6.3 line 1113: feminine `-a` [abdelmassih-v3 p.27]; loans with inanimate referents
+# strongly prefer -a (line 1127 [ema1958 §44]). After a consonant only: a vowel-final stem
+# would need the construct/hiatus machinery (line 1115, `-it`), which is not generated.
+FEM_A = a / C $ _ #
+# DEF (il- + sun letters, digest §6.1) is a prefix and cannot be an [epithets] entry: spec §4.6
+# affixes at the word END. It is reachable as the `$`-joined prefix `il$` handled in [repair].
+
+[respell]
+# digest §5 "Recommended output convention" table (lines 994-1030) [wiki-help-ipa-egy;
+# wiki-egy-arabic §Romanization], with the spec's departures: emphatics dot-under (design: §9.11,
+# contra digest §5 line 1010 "accept the merger ... writes them plain") and long vowels doubled
+# (spec §7; contra digest lines 1017-1019 ou / ei / o). Marks are stripped in code (I-8).
+ʔ  -> ""     / # _                      %attested # digest §5 line 1008: /ʔ/ "unwritten initially"
+ʔ  -> "ʼ"                               %attested # digest §5 line 1008: "' medially" (Mo'men)
+ʕ  -> "a"    / # _                      %attested # digest §5 line 1007: /ʕ/ "a initially/finally" (Ein)
+ʕ  -> "a"    / _ #                      %attested # digest §5 line 1007 (Kawarea)
+ʕ  -> "ʼ"                               %attested # digest §5 line 1007: "' medially"
+ħ  -> "h"                               %attested # digest §5 line 1006: /ħ/ h, "accept the merger"
+x  -> "kh"                              %attested # digest §5 line 1004
+ɣ  -> "gh"                              %attested # digest §5 line 1005
+ʃ  -> "sh"                              %attested # digest §5 line 1003
+ʒ  -> "j"                               %attested # digest §5 line 1011: /p v ʒ/ -> p v j
+tʃ -> "tsh"                             %design   # design: digest §1 line 117 — Abdel-Massih writes the loan affricate as t + š
+j  -> "y"                               %attested # digest §5 line 1002
+ɡ  -> "g"                               %attested # digest §5 line 1001 (U+0261 -> ASCII g; Gamal)
+q  -> "q"                               %attested # digest §5 line 1009: "departure — write q"
+tˤ -> "ṭ"                               %design   # design: §9.11 dot-under; contra digest §5 line 1010 (plain t)
+dˤ -> "ḍ"                               %design   # design: §9.11; contra digest §5 line 1010
+sˤ -> "ṣ"                               %design   # design: §9.11; contra digest §5 line 1010
+zˤ -> "ẓ"                               %design   # design: §9.11; contra digest §5 line 1010
+ɾ  -> "r"                               %attested # digest §5 line 1001: r ~ ɾ -> r
+ɑ  -> "a"                               %attested # digest §5 line 1013: /ɑ ɑː/ -> a
+æ  -> "a"                               %attested # digest §5 line 1012: /æ æː/ -> a
+aː -> "aa"                              %design   # design: spec §7 "long vowels doubled"; digest §5 line 1013 allows aa for /ɑː/
+iː -> "ii"                              %design   # design: spec §7 "long vowels doubled"; contra digest §5 line 1015 (i)
+uː -> "uu"                              %design   # design: spec §7 "long vowels doubled"; contra digest §5 line 1017 (ou)
+eː -> "ee"                              %design   # design: spec §7 "long vowels doubled"; contra digest §5 line 1018 (ei)
+oː -> "oo"                              %design   # design: spec §7 "long vowels doubled"; contra digest §5 line 1019 (o)
+ɑː -> "aa"                              %design   # design: spec §7 "long vowels doubled"; digest §5 line 1013 aa
+# b t d k f s z m n l r h w p v i u a e o pass through as themselves (digest §5 lines 1001, 1011,
+# 1014-1017); geminates come out doubled by construction (line 1021).
