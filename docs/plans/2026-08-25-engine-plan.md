@@ -1,11 +1,12 @@
-# Strands engine — implementation plan (milestones 1–7), draft 2
+# Strands engine — implementation plan (milestones 1–7), draft 3
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development
 > (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use
 > checkbox (`- [ ]`) syntax for tracking.
 
-**Draft 2** (2026-08-25) incorporates spec §12 (amendments A–I), all 29 required changes in
-`review-opus.md`, and all ten findings in `review-gpt.md`. Where draft 1's interpretation register
+**Draft 3** (2026-08-25) incorporates spec §12 (amendments A–J), all 29 required changes in
+`review-opus.md`, all ten findings in `review-gpt.md`, and both reviewers' re-check of draft 2
+(the twelve items listed in "Draft 3 changes" at the end of this file). Where draft 1's interpretation register
 contradicted a review, the interpretation has been rewritten, not annotated — read I-1…I-40 as the
 current statement.
 
@@ -62,7 +63,9 @@ simplest reading. Implementers follow these, not their own reading.
   at import (I-35), because keeping them would make longest-match bind Irish `əi` to the Welsh
   diphthong row. Each `[syllable]` section declares `nuclei = iə uə əi əu` (etc.); the syllabifier
   groups a licensed vowel pair into one nucleus. Georgian declares no `nuclei`, which yields the
-  attested hiatus.
+  attested hiatus. **Gemination is always two identical segments** (`tt`, not `tː`): there are no
+  length-marked consonant rows in `features.tsv`, and every degemination rule, repair-table row and
+  ban is written over repeated segments.
 - **I-3 Comment vs word-edge `#`.** In a rewrite line *with* an environment, `#` inside the
   environment is the word-edge symbol; the environment runs to end-of-line or to the `%tag`.
   A line with an environment that wants a comment **must** write its `%tag` explicitly. The parser
@@ -88,7 +91,9 @@ simplest reading. Implementers follow these, not their own reading.
   `ˈ -> ""` cleanup lines of draft 1 are **deleted**: `respell()` strips marks in code after the
   rules run (spec §12.C). This resolves draft 1's I-8/I-19 contradiction (R4).
 - **I-9 `()` and `*`** attach to exactly one context atom, do not nest, and do not combine
-  (`(X)*` is a parse error).
+  (`(X)*` is a parse error). **A capture may not be attached to an optional or starred item**
+  (`(a:1)`, `a:1*`): such an item may match zero or many segments, so the backreference would be
+  undefined or ambiguous. The parser rejects both at parse time.
 - **I-10 Class names** match `[A-Z][A-Z0-9_]*`; no IPA segment matches that pattern.
 - **I-11 Predeclared classes** (spec §12.C): `C`, `V`, `LIQ`, `NAS`, `STOP`, `FRIC`, `GLIDE`,
   computed from features at load time over this file's `[inventory]` **plus** the Irish inventory:
@@ -112,7 +117,20 @@ simplest reading. Implementers follow these, not their own reading.
   ```
 
   A bundle like `[C +back]` therefore means "velarized consonant" and **excludes** the plain
-  dorsals; where a rule needs both, it writes `BROAD`.
+  dorsals (and would wrongly include uvulars and pharyngeals in a target inventory). Spec §12.J
+  makes this binding: **a rule that means "Irish broad consonant" writes `BROAD`, never
+  `[C +back]`**; likewise `SLEN`.
+
+  A third declared class, `UNMARKED`, holds the quality-less plain consonants (`front/back = 0`)
+  that `irish.rules [normalize]` assigns a quality to (spec §12.J):
+
+  ```
+  UNMARKED = p b t d k ɡ f v s m n l r
+  ```
+
+  Normalization rules target `UNMARKED` **as explicit segment→segment lines**, not feature-change
+  bundles: a bundle would have to produce rows that do not exist (there is no `kˠ`; broad `/k/`
+  *is* `k`) or would drop the dental features that `t → t̪ˠ` requires. See Task 19.
 - **I-12 Feature distance.** `distance(a,b) = Σ weight[f]` over features where both are defined
   (`+`/`-`) and differ; `0` contributes nothing; weights default to 1.0. Fallback ties break by
   `[inventory]` declaration order (first wins).
@@ -172,20 +190,29 @@ simplest reading. Implementers follow these, not their own reading.
   spec §7 or §9 states a default, the spec wins and the citation is `# design: §9.n`.
 - **I-29 Where a digest states the opposite of spec §7**, the spec's decision stands but the rule
   is `%design` and carries a `# contra digest §N line L` note (spec §12.G). This applies to:
-  Georgian post-consonantal ejective (digest §3.1 line 825 rejects the environment split),
-  Georgian slender-coronal series (§8.1 line 1413ff. "not decided here"), Welsh `ɣ→ɡ` (§8.2 "no
-  Welsh precedent") and `x→χ` (§8.3 "design inference"), Cairene dot-under respelling (§5 line
-  1010 recommends plain letters), Welsh `sonority = on` (§2.4 line 470 flags its own coda
-  generalization as assembled/unattested).
+  Georgian post-consonantal ejective (digest §3.1 **line 818** rejects the environment split;
+  **lines 862–868** recommend the unconditional ejective instead), Georgian slender-coronal series
+  (§8.1 **lines 1440–1442**: "All four options below are PROJECT OVERLAYS / an OPEN DECISION. None
+  is a sourced Georgian rule… Not decided here"; §8.2 **line 1470** offers `/tʰ tʼ d/` *or*
+  `/tʃʰ tʃʼ dʒ/` "(unattested for Georgian)"), Welsh `ɣ→ɡ` (§8.2 **line 1495**, "no Welsh
+  precedent") and `x→χ` (§8.3 **line 1517**, "(design inference)"), Cairene dot-under respelling
+  (§5 **line 1010** recommends plain letters: "accept the merger. Every practical Egyptian
+  convention writes them plain"), Welsh `sonority = on` (§2.4 **line 472** flags its own coda
+  generalization "ASSEMBLED generalisation (unattested inference — stronger than the source)").
+  Every line number in this list was opened and read against the committed digests while writing
+  draft 3.
 - **I-30 Irish input aliases.** `lˠ l̠ʲ nˠ n̠ʲ` are input aliases stated by
   `irish/digest.md` lines 130–141 (`# [wiki-help-ipa-irish notes 5,6]`); `ɑ ɑː` are **not** —
   they occur only in the user's own transcriptions (digest line 27), so their normalize lines are
   cited `# user transcription, digest line 27`, not §1.1 (R23). Both fold in `irish.rules
   [normalize]`; both need `features.tsv` rows so tokenization succeeds first.
-- **I-31 "C → C x" in spec §7 means an epenthesis rule** (R2). Georgian's `broad non-labial C →
-  C v / _[V +front]` is written `0 -> v / [C +back -labial] _ [V +front]`; Georgian's
-  `slender C → C i` is `0 -> i / [C +front] _ [V +back]`; Dutch's `slender C → C j in onsets` is
-  `0 -> j / [C +front] _ [V] ` restricted to onset position. Tasks 23a and 26 use these forms.
+- **I-31 "C → C x" in spec §7 means an epenthesis rule** (R2), and its class term is `BROAD` or
+  `SLEN`, never a `[C ±back]` bundle (spec §12.J). Georgian's `broad non-labial C → C v /
+  _[V +front]` is written `0 -> v / [BROAD -labial] _ [V +front]`; Georgian's `slender C → C i` is
+  `0 -> i / [SLEN] _ [V +back]`; Dutch's `slender C → C j in onsets` is `0 -> j / [SLEN] _ V`
+  restricted to onset position. A bundle may carry a class name plus feature constraints
+  (`[BROAD -labial]`), which is how the labial exclusion is written. Tasks 23a and 26 use exactly
+  these forms.
 - **I-32 Feature aliases** (spec §12.C). `features.tsv`'s header block declares
   `ejective = raisedLarynxEjective`, `voice = periodicGlottalSource`, `emphatic =
   retractedTongueRoot`, `aspirated = spreadGlottis`, `ejective`/`voice` usable in any bundle.
@@ -203,8 +230,10 @@ simplest reading. Implementers follow these, not their own reading.
 - **I-35 PHOIBLE diphthong rows are dropped at import** (R8): `ai au ɔi əi əu ɛu ɪu ʊi œy ɔu ɛi`.
   Their members are declared per language in `[syllable] nuclei`.
 - **I-36 Attested-data cleaning pass** (R9). Before tokenizing an `attested.tsv` field the harness
-  applies, in order: strip wrapping `[ ]` and `/ /`; map ASCII `:`→`ː`; map ASCII `'`→`ʼ` when it
-  follows an obstruent; map ASCII `g`→`ɡ` **only in attested data** (not in `test-words.tsv`,
+  applies, in order: strip wrapping `[ ]` and `/ /`; map ASCII `:`→`ː`; map ASCII `'`→`ʼ`
+  **only when `target == "georgian"`** (in the Georgian data the apostrophe is the national-2002
+  ejective mark; in the Dutch data it is a **stress mark** and must be dropped, not converted);
+  map ASCII `g`→`ɡ` **only in attested data** (not in `test-words.tsv`,
   where `g` is canonical per I-34 — the two behaviours differ deliberately and each is tested).
   Rows still untokenizable are bucketed `mode="error"` with a count. Draft-1 measurements of the
   damage: Georgian 51/122, Cairene 168/279, Welsh 19/19, Dutch 30/67 untokenizable *before*
@@ -417,7 +446,7 @@ phonotactics/
 | 14 | `cairene` procedure (17 rows) | 12 |
 | 15 | `dutch-weight` procedure | 12 |
 | 16 | Post-stress stage | 7, 10, 12 |
-| 17 | Irish mutations + inflections | 7 |
+| 17 | Irish mutations + inflections | 5b, 7 |
 | 19 | Irish `[normalize]` | 17 |
 | 20 | Input TSV, inference (incl. declension), `lint` | 4, 17 |
 | 18 | Irish templates | 19, 20 |
@@ -672,7 +701,7 @@ def test_rebuild_is_byte_stable(tmp_path):
 **The exact hand-row list.** Measured by tokenizing all 144 `sources/irish/test-words.tsv` rows:
 they use **64 distinct segments**, of which **31 are already in the PHOIBLE half** and **33 are
 not**. Draft 1's list was wrong (R7) — this is the corrected, complete set. Add exactly these
-**35** rows (33 Irish + 2 target gaps), `source = hand:irish` or `hand:target`:
+**40** rows (33 Irish + 7 target gaps), `source = hand:irish` or `hand:target`:
 
 | Group | Segments | Notes |
 |---|---|---|
@@ -682,7 +711,10 @@ not**. Draft 1's list was wrong (R7) — this is the corrected, complete set. Ad
 | Fortis/lenis aliases | `lˠ l̠ʲ nˠ n̠ʲ` | vectors identical to `l̪ˠ lʲ n̪ˠ nʲ` (I-30) |
 | Vowels | `o æ õː` | `o` = `ɔ` + `tense=+`; `æ` = `a` + `front=+ low=+`; `õː` = `oː` + `nasal=+` |
 | ASCII duplicate | `g` | vector identical to `ɡ` (I-34) |
-| Target gaps | `ʋ tʃʰ` | Dutch `ʋ` (digest §1, 45 hits); Georgian `tʃʰ` (digest §1.1, 10 hits) |
+| Target gaps | `ʋ tʃʰ e y œ ɔː ɛː` | Dutch `ʋ` (digest §1, 45 hits); Georgian `tʃʰ` (digest §1.1, 10 hits); `e` (Cairene, I-37, and Georgian); Dutch `y` and `œ`, without which the declared nuclei `œy` cannot tokenize; Dutch/Welsh `ɔː ɛː`. Derived from `eː y ø ɔ ɛ` by the conventions below |
+
+**No length-marked consonant rows.** Gemination is two identical segments everywhere (`tt`, never
+`tː`) — in `[inventory]`, in degemination rules, in `bans` and in every repair table (I-2).
 
 Already present from PHOIBLE and **not** to be re-added: `ə a aː iː k x ʃ w ɡ uː eː ɔ oː i h ʊ u
 ŋ ɛ ɣ s ɪ j b l m n r t ɑ ɑː`.
@@ -705,19 +737,30 @@ import csv, pathlib, unicodedata
 ROOT = pathlib.Path(__file__).parents[1]
 
 HAND = ("pˠ bˠ t̪ˠ d̪ˠ fˠ sˠ mˠ n̪ˠ l̪ˠ ɾˠ vˠ pʲ bʲ tʲ dʲ fʲ vʲ mʲ nʲ lʲ ɾʲ "
-        "c ɟ ç ɲ lˠ l̠ʲ nˠ n̠ʲ o æ õː g ʋ tʃʰ").split()
+        "c ɟ ç ɲ lˠ l̠ʲ nˠ n̠ʲ o æ õː g ʋ tʃʰ e y œ ɔː ɛː").split()
 
 def rows():
     with (ROOT / "rules" / "features.tsv").open(encoding="utf-8") as fh:
         return list(csv.DictReader(fh, delimiter="\t"))
 
-def test_all_35_hand_rows_present():
+def test_all_40_hand_rows_present():
     segs = {r["segment"] for r in rows()}
     for s in HAND:
         assert s in segs, s
 
-def test_total_row_count_is_108():
-    assert len(rows()) == 108        # 73 PHOIBLE + 35 hand
+def test_total_row_count_is_113():
+    assert len(rows()) == 113        # 73 PHOIBLE + 40 hand
+
+def test_no_length_marked_consonant_rows():
+    """Gemination is repeated segments, not a length diacritic (I-2)."""
+    for r in rows():
+        assert not (r["class"] == "C" and r["segment"].endswith("ː")), r["segment"]
+
+def test_dutch_nuclei_tokenize():
+    """`ɛi œy ɔu` are declared nuclei in dutch.rules; each member needs a row."""
+    segs = {r["segment"] for r in rows()}
+    for s in "ɛ i œ y ɔ u".split():
+        assert s in segs, s
 
 def test_slender_convention():
     by = {r["segment"]: r for r in rows()}
@@ -767,7 +810,7 @@ def test_every_segment_used_by_test_words_has_a_row():
     assert used <= segs, sorted(used - segs)
 ```
 
-- [ ] **Step 2: Run, fail** (35 missing rows).
+- [ ] **Step 2: Run, fail** (40 missing rows).
 - [ ] **Step 3: Append the hand rows** by the procedure above; re-sort with
   `uv run python rules/build_features.py --sort-only rules/features.tsv`.
 - [ ] **Step 4: Extend `features.README.md`** with one line per hand row: segment, base row,
@@ -775,7 +818,8 @@ def test_every_segment_used_by_test_words_has_a_row():
 - [ ] **Step 5: Run — all pass, including `test_every_segment_used_by_test_words_has_a_row`.**
 - [ ] **Step 6: Commit** — `feat(rules): hand-derived Irish, alias and target-gap feature rows`
 
-**Acceptance:** 108 rows; every one of the 64 segments used by `test-words.tsv` resolves.
+**Acceptance:** 113 rows; every one of the 64 segments used by `test-words.tsv` resolves; the
+Dutch nuclei `ɛi œy ɔu` tokenize; no consonant row carries `ː`.
 
 ---
 
@@ -825,8 +869,8 @@ from strands.features import load_features, FeatureError, FEATURE_NAMES
 
 TABLE = load_features(pathlib.Path(__file__).parents[1] / "rules" / "features.tsv")
 
-def test_table_has_38_features_and_108_segments():
-    assert len(FEATURE_NAMES) == 38 and len(TABLE.segments) == 108
+def test_table_has_38_features_and_113_segments():
+    assert len(FEATURE_NAMES) == 38 and len(TABLE.segments) == 113
 
 def test_segments_are_in_file_order_c_before_v():
     classes = [TABLE.segment_class(s) for s in TABLE.segments]
@@ -911,9 +955,11 @@ class Tokenized:
 
 def tokenize(text: str, table: FeatureTable) -> Tokenized
 def detokenize(segments: Sequence[str]) -> str
-def clean_attested(text: str) -> str
-    """I-36: strip wrapping [ ] and / /, ':'->'ː', "'"->'ʼ' after an obstruent,
-    ASCII 'g'->'ɡ'. Used ONLY on attested.tsv fields, never on user input."""
+def clean_attested(text: str, target: str) -> str
+    """I-36: strip wrapping [ ] and / /, ':'->'ː', ASCII 'g'->'ɡ'. The ASCII apostrophe
+    is mapped to 'ʼ' ONLY for target == 'georgian' (national-2002 ejective mark); for
+    every other target it is a stress mark and is dropped. Used ONLY on attested.tsv
+    fields, never on user input."""
 class SegmentError(Exception): ...
 ```
 
@@ -969,10 +1015,14 @@ def test_nfc_is_applied():
     assert tokenize(s, TABLE).segments == tokenize(unicodedata.normalize("NFD", s), TABLE).segments
 
 def test_clean_attested_strips_wrappers_and_maps_ascii():
-    assert clean_attested("[kalb]") == "kalb"
-    assert clean_attested("/ka:lb/") == "kaːlb"
-    assert clean_attested("t'ma") == "tʼma"
-    assert clean_attested("gogo") == "ɡoɡo"
+    assert clean_attested("[kalb]", "arabic-egy") == "kalb"
+    assert clean_attested("/ka:lb/", "dutch") == "kaːlb"
+    assert clean_attested("gogo", "georgian") == "ɡoɡo"
+
+def test_apostrophe_is_an_ejective_mark_only_for_georgian():
+    """I-36: in the Dutch data ' is a stress mark, not an ejective (fix 10)."""
+    assert clean_attested("t'ma", "georgian") == "tʼma"
+    assert clean_attested("'kanto", "dutch") == "kanto"
 
 def test_clean_attested_is_not_applied_to_user_input():
     """I-36/I-34: ASCII g is canonical in test-words.tsv and must survive tokenize()."""
@@ -1320,6 +1370,12 @@ def test_star_on_optional_is_a_parse_error():
     with pytest.raises(ParseError):
         parse_rules("[inventory]\np a\n[substitute]\np -> a / (a)*_\n", TABLE)
 
+@pytest.mark.parametrize("env", ["(a:1) _", "a:1* _"])
+def test_capture_on_an_optional_or_starred_item_is_a_parse_error(env):
+    """I-9: a zero-or-more item cannot define a backreference."""
+    with pytest.raises(ParseError):
+        parse_rules(f"[inventory]\np a\n[substitute]\n0 -> \\1 / {env} p\n", TABLE)
+
 def test_class_name_in_a_replacement_is_a_parse_error():
     """I-5 / spec §12.C: replacements carry no bare class names."""
     with pytest.raises(ParseError):
@@ -1370,8 +1426,10 @@ def test_parsing_is_deterministic():
 class SyllableSpec:
     template: tuple[tuple[str, bool], ...] | None   # (slot, optional); None = "any"
     nuclei: tuple[tuple[str, ...], ...]             # licensed vowel sequences (I-2)
-    onsets: frozenset[tuple[str, ...]] | None       # COMPLETE set incl. singletons (spec §12.D)
-    codas: frozenset[tuple[str, ...]] | None
+    onsets: tuple[tuple[str, ...], ...] | None      # COMPLETE, IN FILE ORDER (spec §12.D/§12.E)
+    codas: tuple[tuple[str, ...], ...] | None
+    onset_set: frozenset[tuple[str, ...]] | None    # derived from `onsets`, for membership tests
+    coda_set: frozenset[tuple[str, ...]] | None     # derived from `codas`
     onset_tiers: dict[tuple[str, ...], str]
     coda_tiers: dict[tuple[str, ...], str]
     onset_required: bool                            # default False (spec §12.D)
@@ -1466,12 +1524,19 @@ def test_nuclei_are_parsed_as_segment_sequences():
 
 def test_onsets_are_a_complete_set_including_singletons():
     s = MINI.syllable
-    assert ("p",) in s.onsets and ("p", "l") in s.onsets       # spec §12.D
+    assert ("p",) in s.onset_set and ("p", "l") in s.onset_set     # spec §12.D
     assert s.onset_required is False
+
+def test_onsets_preserve_file_order_for_cluster_fallback_tie_breaks():
+    """Spec §12.E breaks ties by list order, so the ordered tuple is the authority and
+    `onset_set` is only a membership index."""
+    s = MINI.syllable
+    assert s.onsets[:3] == (("p",), ("b",), ("t",))
+    assert frozenset(s.onsets) == s.onset_set
 
 def test_codas_and_appendix_and_domain_and_sonority():
     s = MINI.syllable
-    assert ("s", "t") in s.codas and s.appendix == ("s", "t")
+    assert ("s", "t") in s.coda_set and s.appendix == ("s", "t")
     assert s.domain == "word" and s.sonority is True
 
 def test_tiers_are_recorded():
@@ -2254,7 +2319,8 @@ def test_penult_ignores_weight():
 
 **Files:** create `src/strands/stress/cairene.py`, `tests/test_stress_cairene.py`.
 
-**Source:** `sources/arabic-egy/digest.md` §4, worked table at **lines 868–886 — 17 rows, not 16**
+**Source:** `sources/arabic-egy/digest.md` §4, worked table at **lines 870–886 — 17 data rows,
+not 16** (verified: first row `ka.tabt` at line 870, last row `mak.ta.ba` at line 886)
 (R16; spec §8 also says 17). Rule:
 1. stress the final syllable if it is superheavy (`CVːC`, `CVː`, `CVCC`);
 2. else stress the antepenult if penult and antepenult are both light **and** the pre-antepenult is
@@ -2265,7 +2331,7 @@ def test_penult_ignores_weight():
 Epenthetic vowels count (*binˈtina*), which falls out of the stage order (stress runs after repair)
 — assert it rather than coding it. **No parameters.**
 
-- [ ] **Step 1: Failing test** — the table below is transcribed verbatim from digest lines 869–886;
+- [ ] **Step 1: Failing test** — the table below is transcribed verbatim from digest lines 870–886;
   do not paraphrase or drop a row.
 
 ```python
@@ -2281,7 +2347,7 @@ CAIRENE = ("[inventory]\nb t d k ɡ ʔ f s z ʃ x ɣ ħ ʕ h m n l r w j sˤ tˤ
            "sˤ tˤ dˤ zˤ\ncodas = b t d k ɡ ʔ f s z ʃ x ɣ ħ ʕ h m n l r w j sˤ tˤ dˤ zˤ\n"
            "sonority = off\n[stress]\nprocedure = cairene\n")
 
-# digest §4, lines 869–886: (plain, stressed)
+# digest §4, lines 870–886, all 17 data rows: (plain, stressed)
 CAIRENE_STRESS_TABLE = [
     ("katabt",    "kaˈtabt"),      # 1, final CVCC
     ("ʔabeh",     "ʔaˈbeh"),       # 1
@@ -2441,7 +2507,8 @@ def test_absent_section_is_a_noop():
 
 ## Task 17: Irish mutations and inflections
 
-**Depends on:** Task 7
+**Depends on:** Tasks 5b, 7 — `irish.rules` has `[mutations]` and `[inflect]` sub-tables, which
+only Task 5b's parser reads
 
 **Files:** create `rules/irish.rules` (sections `[meta] [inventory] [classes] [mutations]
 [inflect]`), `src/strands/irish.py`, `tests/test_irish_mutations.py`.
@@ -2452,8 +2519,9 @@ def test_absent_section_is_a_noop():
 def apply_mutation(word: Word, name: str, rf: RuleFile, table: FeatureTable) -> Word
     """name in {'LEN','ECL','HPREF','TPREF'}."""
 def apply_inflection(word: Word, name: str, rf: RuleFile, table: FeatureTable) -> Word
-    """name in {'GEN_M1','GEN_ACH','GEN_F2','GEN_M3','VOC_M1'} — five, not the spec §3
-    list of four; GEN_M3 is additive and Task 5b's docstring says five (R25)."""
+    """name in {'GEN_M1','GEN_ACH','GEN_F2','GEN_M3','VOC_M1'} — five, not the four named
+    in spec §3. Spec §12.J sanctions this: `[inflect]` contains whichever named regular
+    inflections the plan enumerates, a superset of §3's four."""
 class IrishError(Exception): ...
 ```
 
@@ -2571,7 +2639,8 @@ def test_gen_f2_brog_to_broige():
     assert ipa(apply_inflection(w("bˠɾˠoːɡ"), "GEN_F2", IRISH, TABLE)).endswith("ə")
 
 def test_all_five_inflections_exist():
-    assert set(IRISH.inflect) == {"GEN_M1", "GEN_ACH", "GEN_F2", "GEN_M3", "VOC_M1"}   # R25
+    """Spec §12.J: a superset of §3's four is sanctioned."""
+    assert set(IRISH.inflect) == {"GEN_M1", "GEN_ACH", "GEN_F2", "GEN_M3", "VOC_M1"}
 
 def test_the_47_mutation_tagged_rows_apply_without_error():
     """R22: test-words.tsv tags mutations as `mut:` in the `features` column — 47 rows.
@@ -2621,11 +2690,42 @@ g   -> ɡ            %design # ASCII duplicate, tooling only (I-34)
 ɑ   -> a            %design # user transcription only, digest line 27 — NOT a digest §1.1 claim
 ɑː  -> aː           %design # ditto, line 27
 h -> ç / # _ [V +back]      %attested # [wiki-irish-phonology §Allophones], digest §1.1
-[C -front -back] -> [+front -back] / _ [V +front]   %attested # caol le caol, digest §5.1
-[C -front -back] -> [+back -front] / _ [V +back]    %attested # leathan le leathan, digest §5.1
-[C -front -back] -> [+front -back] / [V +front] _ # %attested # final C takes the preceding V
-[C -front -back] -> [+back -front] / [V +back] _ #  %attested
+# Quality inference (caol le caol / leathan le leathan, digest §5.1), written as EXPLICIT
+# segment -> segment lines over the UNMARKED class (spec §12.J). A feature-change bundle
+# cannot be used here: plain consonants have front/back = 0, `t -> t̪ˠ` also has to add
+# anterior/distributed, and there is no `kˠ` row at all — broad /k/ IS `k` (I-41).
+p -> pʲ  / _ [V +front]     %attested # digest §5.1
+p -> pˠ  / _ [V +back]      %attested
+b -> bʲ  / _ [V +front]     %attested
+b -> bˠ  / _ [V +back]      %attested
+t -> tʲ  / _ [V +front]     %attested
+t -> t̪ˠ  / _ [V +back]      %attested
+d -> dʲ  / _ [V +front]     %attested
+d -> d̪ˠ  / _ [V +back]      %attested
+f -> fʲ  / _ [V +front]     %attested
+f -> fˠ  / _ [V +back]      %attested
+v -> vʲ  / _ [V +front]     %attested
+v -> vˠ  / _ [V +back]      %attested
+s -> ʃ   / _ [V +front]     %attested
+s -> sˠ  / _ [V +back]      %attested
+m -> mʲ  / _ [V +front]     %attested
+m -> mˠ  / _ [V +back]      %attested
+n -> nʲ  / _ [V +front]     %attested
+n -> n̪ˠ  / _ [V +back]      %attested
+l -> lʲ  / _ [V +front]     %attested
+l -> l̪ˠ  / _ [V +back]      %attested
+r -> ɾʲ  / _ [V +front]     %attested
+r -> ɾˠ  / _ [V +back]      %attested
+k -> c   / _ [V +front]     %attested # broad /k/ is plain `k`; only the slender member changes
+ɡ -> ɟ   / _ [V +front]     %attested
+# The same 24 lines again with the environment `[V +front] _ #` / `[V +back] _ #`, for a
+# word-final unmarked consonant taking the PRECEDING vowel's quality (digest §5.1).
 ```
+
+`UNMARKED` is declared in `[classes]` (I-41) and used by `strands check` to verify the coverage
+of these lines: **every member of `UNMARKED` must appear as the target of at least one
+`[normalize]` line in each environment**, and `irish.rules` must pass `strands check` with **zero
+error-severity findings** — the acceptance criterion below.
 
 Connacht initial stress is **not** a rewrite rule: `normalize()` sets `word.stress = 0` when
 `dialect == "C"` and the input carried no mark, appending a trace entry `stress:irish-initial`
@@ -2651,6 +2751,26 @@ def test_final_unmarked_consonant_takes_the_preceding_vowels_quality():
 def test_user_supplied_quality_is_never_overwritten():
     assert normalize(w("t̪ˠiː"), IRISH, TABLE).segments[0] == "t̪ˠ"
 
+def test_broad_dental_coronals_gain_their_dental_features():
+    """`t -> t̪ˠ` is not a feature-change bundle: the target row carries anterior and
+    distributed as well as back (I-41)."""
+    out = normalize(w("tu"), IRISH, TABLE).segments[0]
+    assert out == "t̪ˠ" and TABLE.value(out, "distributed") == "+"
+
+def test_broad_k_stays_plain_k_and_slender_k_becomes_c():
+    """There is no `kˠ` row; broad /k/ IS `k` (I-41/spec §12.J)."""
+    assert normalize(w("ku"), IRISH, TABLE).segments[0] == "k"
+    assert normalize(w("ki"), IRISH, TABLE).segments[0] == "c"
+
+def test_every_unmarked_segment_is_covered_in_both_environments():
+    targets = {r.target[0].value for r in IRISH.sections["normalize"]
+               if r.target and isinstance(r.target[0].value, str)}
+    assert set(IRISH.classes["UNMARKED"]) <= targets
+
+def test_irish_rules_passes_check_with_zero_errors():
+    from strands.check import check_rule_file
+    assert [e for e in check_rule_file(IRISH, TABLE) if e.severity == "error"] == []
+
 def test_vocative_of_sean_composes_to_a_sheain():
     """digest §3.5: /ʃaːnˠ/ -> LEN -> /haːnˠ/ -> [ç] before a back vowel -> VOC_M1."""
     x = apply_mutation(w("ʃaːnˠ"), "LEN", IRISH, TABLE)
@@ -2673,6 +2793,9 @@ def test_every_test_word_normalizes_without_error():
 ```
 
 - [ ] **Steps 2–4. Step 5: Commit** — `feat(rules): irish.rules normalization pre-pass`
+
+**Acceptance:** `uv run strands check rules/irish.rules` reports zero error-severity findings
+(`OFF_INVENTORY` warnings are expected and fine — `irish.rules` emits Irish segments by design).
 
 ---
 
@@ -2896,12 +3019,14 @@ def test_all_eight_templates_exist():
 **Interfaces:**
 
 ```python
-def respell(word: Word, rf: RuleFile, table: FeatureTable, *, mark_stress: bool = True) -> str
+def respell(word: Word, rf: RuleFile, table: FeatureTable) -> str
     """Spec §12.C: apply rf.sections['respell'] over the ANNOTATED TOKEN STREAM.
     A quoted replacement becomes an opaque chunk that later rules never rematch;
-    unmatched segments pass through as themselves. After the rules, marks are stripped
-    IN CODE (no DSL cleanup lines — I-8); `mark_stress=False` (Georgian's
-    `[stress] mark = off`) drops the stress mark too."""
+    unmatched segments pass through as themselves. After the rules, `.` and `ˈ` are
+    ALWAYS stripped in code (no DSL cleanup lines — I-8): a respelling is an
+    English-reader form and never carries phonological marks. Georgian's
+    `[stress] mark = off` therefore has nothing to do with this function — it governs
+    whether `Result.ipa` prints the stress mark (see `adapt`)."""
 
 EPITHET_SLOTS = ("ADJ", "NOUN")      # I-39 / spec §12.H
 
@@ -2925,7 +3050,9 @@ def adapt(words: Sequence[Word], target: RuleFile, table: FeatureTable,
           *, epithet: str | None = None) -> Result
     """Spec §4 stages 2-7: substitute_stage -> syllabify -> repair -> assign_stress ->
     post_stress -> (epithet: affix then re-run syllabify/repair/stress/post-stress) ->
-    respell."""
+    respell. `Result.ipa` prints the stress mark unless the target's
+    `[stress] mark = off` (Georgian, digest §4.3); `Result.respelling` never carries
+    marks at all."""
 def parse_construction(tag: str) -> tuple[str, str | None]
     """'DESC+ADJ' -> ('DESC', 'ADJ'); 'VOC' -> ('VOC', None) (I-39)."""
 def run_entry(entry: Entry, construction: str, irish: RuleFile, target: RuleFile,
@@ -2964,15 +3091,18 @@ def test_respell_chunks_are_opaque():
     rf = parse_rules('[inventory]\nʃ s a\n[respell]\nʃ -> "sh"\ns -> "z"\n', TABLE)
     assert respell(Word(segments=("ʃ", "a")), rf, TABLE) == "sha"
 
-def test_respell_strips_marks_in_code():
+def test_respell_always_strips_marks():
     rf = parse_rules('[inventory]\np a\n[respell]\np -> "b"\n', TABLE)
     out = respell(Word(segments=("p", "a"), syllables=(0,), stress=0), rf, TABLE)
-    assert "." not in out and out.startswith("ˈ") or out == "ba"
+    assert out == "ba"                      # no "." and no "ˈ", unconditionally
 
-def test_respell_can_suppress_the_stress_mark():
-    rf = parse_rules('[inventory]\np a\n[respell]\np -> "b"\n', TABLE)
-    assert "ˈ" not in respell(Word(segments=("p", "a"), syllables=(0,), stress=0), rf, TABLE,
-                              mark_stress=False)
+def test_stress_mark_off_affects_the_ipa_not_the_respelling():
+    """Georgian's [stress] mark = off governs Result.ipa formatting only."""
+    rf = parse_rules('[inventory]\np a\n[syllable]\ntemplate = any\nonsets = any\n'
+                     'codas = any\nsonority = off\n[stress]\nprocedure = initial\n'
+                     'mark = off\n[respell]\np -> "b"\n', TABLE)
+    r = adapt([w("pa")], rf, TABLE)
+    assert "ˈ" not in r.ipa and r.respelling == "ba"
 
 def test_unmatched_segments_pass_through():
     rf = parse_rules('[inventory]\np a\n[respell]\np -> "b"\n', TABLE)
@@ -3048,6 +3178,7 @@ class RegressionReport:
     rows: tuple[RegressionRow, ...]
     def counts(self) -> dict[str, int]        # by mode
     def rate(self, mode: str) -> float        # passed / (rows in that mode)
+    def mode_e_is_empty(self) -> bool         # no row carries both IPA sides
     def summary(self) -> str
 
 def read_attested(target: str) -> list[dict[str, str]]
@@ -3205,83 +3336,103 @@ def test_ratchet_does_not_slip():
 
 **Depends on:** 21, 22. **Digest:** `sources/georgian/digest.md`. Split from 23b per R29.
 
+**Scope boundary (fix 2).** `[syllable]` does not exist until Task 23b, so **this task may not call
+`adapt()`, `repair()` or the regression harness** — those would syllabify against nothing. 23a
+tests the stages it actually writes, by calling them directly:
+`substitute_stage(word, TARGET, TABLE)` and `respell(word, TARGET, TABLE)`. To keep the file
+loadable and `strands check`-clean, 23a writes a **temporary permissive** block, marked so 23b
+cannot miss it:
+
+```
+[syllable]
+# TEMPORARY (Task 23a): replaced wholesale by Task 23b's whitelists. Do not ship.
+template = any
+onsets   = any
+codas    = any
+sonority = off
+domain   = stem
+```
+
+Task 23b **replaces** this block and owns: the repair table, the full-pipeline (`adapt`/`run_entry`)
+tests, the 144-word no-`UNREPAIRED` test, the common mutation-output test, and the regression +
+ratchet tests. The "common tests every target task includes" list above therefore splits between
+23a (parse/citation) and 23b (everything that runs the pipeline).
+
 | Rule block | Source, and the tag it must carry |
 |---|---|
 | `[inventory]` | §1.1 chart [shosted2006 p.255], §1.2–§1.8 deltas, §1.9 net delta vs PHOIBLE 2183. `tʃʰ` comes from the Task 1b hand rows |
 | `[classes]` | the `BROAD`/`SLEN` pair of I-41 |
 | `/p t k/ → pʰ tʰ kʰ` | §3.1 — `%design`, `# design: §9.4` |
-| `[STOP -voice] -> [+ejective] / C _` | **`%design`, `# design: §9.4 · contra digest §3.1 line 825`** — R11: §3.1 explicitly rejects turning the 84.1%/26.5% split into a categorical environment rule, and recommends unconditional ejective. Spec §9 row 4 fixes our default; the digest is evidence, not authority. Name the test accordingly |
+| `[STOP -voice] -> [+ejective] / C _` | **`%design`, `# design: §9.4 · contra digest §3.1 line 818`** — R11, verified: line 818 says of exactly this rule "**That is not what the source supports**", and lines 862–868 recommend "the ejective as the **unconditional** default for Irish /p t k/ … Do not encode the 84.1%/26.5% split as a categorical environment rule". Spec §9 row 4 fixes our default; the digest is evidence, not authority. Name the test accordingly |
 | `f → pʰ` | §3.2 — `%attested` |
 | `ŋ → n` | §3.2 gives `/ng/`; spec §7 fixes `n`. `%design`, `# design: §7 · contra digest §3.2` |
 | `w → v` | §3.3 — `%design`, `# design: §9.6`. **Carry the digest's warning in the comment** (S6): §3.3's own (unattested, overlay) recommendation is positional, /w/→/u/ word-initially, and Irish /w/ arrives word-initially from lenited b/m |
-| slender coronals → `ʃ ʒ tʃʰ dʒ` | **`%design`, `# design: digest §8.1 line 1413 open`** — R12: §8.1 lists four options and decides none; §8.2 offers `tʰ tʼ d` *or* `tʃʰ tʃʼ dʒ` "(unattested for Georgian)"; `ʃ ʒ` as outputs appear nowhere |
-| Cʷ: `0 -> v / [C +back -labial] _ [V +front]` | I-31 (epenthesis form, R2). `%design`, `# design: goals decision 5 (2026-08-25)`. The "before /i e/, onsets only" restriction is **ours** — §8.1 Option C is unconditional (R13a), so do not cite §8.1 for the restriction |
-| slender C before back V: `0 -> i / [C +front] _ [V +back]` | §8.1 Option C — `%design`, `# design: §9.2` |
+| slender coronals → `ʃ ʒ tʃʰ dʒ` | **`%design`, `# design: digest §8.1 lines 1440-1442 open`** — R12, verified: lines 1440–1442 read "All four options below are PROJECT OVERLAYS / an OPEN DECISION. None is a sourced Georgian rule… Not decided here"; §8.2's table at line 1470 offers `/tʰ tʼ d/` *or* `/tʃʰ tʃʼ dʒ/`, marked "(unattested for Georgian)"; `ʃ ʒ` as outputs of slender coronals appear nowhere in the digest |
+| Cʷ: `0 -> v / [BROAD -labial] _ [V +front]` | I-31 + spec §12.J: the class term is `BROAD`, never `[C +back]`, which would exclude the plain dorsals `k ɡ x ɣ ŋ` (exactly the segments this rule is for) and admit any uvular or pharyngeal in the target inventory. `%design`, `# design: goals decision 5 (2026-08-25)`. The "before /i e/, onsets only" restriction is **ours** — §8.1 Option C is unconditional (R13a), so do not cite §8.1 for the restriction |
+| slender C before back V: `0 -> i / [SLEN] _ [V +back]` | §8.1 Option C — `%design`, `# design: §9.2`. `SLEN`, not `[C +front]` (spec §12.J) |
 | long → short; `nuclei` empty (hiatus) | §3.4, §8.3 — `%attested` |
 | `[stress] procedure = initial`, `mark = off` | §4.1, §4.3 — `%attested` |
-| `[epithets]` `NOM_I` (+i), `URI` (-uri/-uli), `ELI` (-eli), syncope before `-eb-` | §6.1, §6.2, §6.4. **Also add `SHVILI` and `DZE`** (S7): §6.3 lines 1301–1326 calls the patronymics "the readiest epithet machinery in the language", and `PATRO_O`/`PATRO_NI` are core constructions |
+| `[epithets]` `NOM_I` (+i), `URI` (-uri/-uli), `ELI` (-eli), syncope before `-eb-` | §6.1 (nominative -i), §6.2 (syncope with -eb-), §6.3 **line 1310** (-eli 'from (place)': *Jaqeli, Tsereteli, Amashukeli*), §6.4 (-uri/-uli dissimilation). **Also add `SHVILI` and `DZE`** (S7): §6.3 lines 1301–1326 calls the patronymics "the readiest epithet machinery in the language", and `PATRO_O`/`PATRO_NI` are core constructions |
 | `[meta] epithet-ADJ = URI`, `epithet-NOUN = NOM_I` | I-39 / spec §12.H |
-| `[respell]` national 2002 + overlays | §5.1 (33-letter table) and §5.3's **actual** D1–D5 (lines 1197–1230): `x`, `tch`, `y`, bare stem, and **apostrophe placement unchanged** ("Not an overlay — follow the standard"). R13b: draft 1 dropped D5 and invented a "`ch`" deviation — `ch` is the unmodified native digraph |
+| `[respell]` national 2002 + overlays | §5.1 (33-letter table) and §5.3's **actual** D1–D5 (D5 at **line 1213**, verified): `x`, `tch`, `y`, bare stem, and **apostrophe placement unchanged** ("Not an overlay — follow the standard"). R13b: draft 1 dropped D5 and invented a "`ch`" deviation — `ch` is the unmodified native digraph |
 
 - [ ] **Step 1: Write the tests first** (they fail: no `georgian.rules`)
 
 ```python
+def sub(ipa):
+    """Stage-level: substitution only. 23a has no real [syllable] yet (fix 2)."""
+    return substitute_stage(w(ipa), TARGET, TABLE).segments
+
+def spell(*segments):
+    return respell(Word(segments=tuple(segments)), TARGET, TABLE)
+
 def test_irish_p_t_k_are_aspirated_by_default_per_decision_9_4():
-    """Named for the decision, not for a digest fact — R11."""
-    assert adapt([w("pˠaː")], TARGET, TABLE).words[0].segments[0] == "pʰ"
+    """Named for the decision, not for a digest fact: digest §3.1 line 868 recommends the
+    ejective as the UNCONDITIONAL default and line 818 rejects the environment split."""
+    assert sub("pˠaː")[0] == "pʰ"
 
 def test_post_consonantal_stops_are_ejective_per_decision_9_4():
-    out = adapt([w("sˠkaː")], TARGET, TABLE).words[0].segments
-    assert "kʼ" in out
+    assert "kʼ" in sub("sˠkaː")
 
 def test_f_becomes_aspirated_p():
-    assert "pʰ" in adapt([w("fˠaː")], TARGET, TABLE).words[0].segments
+    assert "pʰ" in sub("fˠaː")
 
 def test_broad_nonlabial_before_a_front_vowel_gets_v():      # Cʷ, decision 5
-    out = adapt([w("kiː")], TARGET, TABLE).words[0].segments
-    assert out[1] == "v"
+    assert sub("kiː")[1] == "v"
+
+def test_the_cw_rule_uses_the_BROAD_class():
+    """Spec §12.J: `[C +back]` would exclude plain /k/, the very segment this targets."""
+    rule = [r for r in TARGET.sections["substitute"]
+            if r.replacement == ("v",) and r.target == ()][0]
+    assert rule.left[-1].atom.value.class_name == "BROAD"
 
 def test_slender_consonant_before_a_back_vowel_gets_i():
-    assert "i" in adapt([w("tʲuː")], TARGET, TABLE).words[0].segments
+    assert "i" in sub("tʲuː")
 
 def test_vv_degeminates():
-    """decision 5: /vv/ from collision with lenited b/m degeminates."""
-    out = adapt([w("wiː")], TARGET, TABLE).words[0].segments
-    assert out.count("v") <= 1
-
-def test_diphthongs_become_hiatus():
-    """§12.B: Georgian declares no `nuclei`, so /iə/ is two syllables."""
-    assert len(adapt([w("ciəɾˠə")], TARGET, TABLE).words[0].syllables) >= 3
-
-def test_stress_is_initial_and_unmarked_in_the_respelling():
-    r = adapt([w("mˠat̪ˠaːnˠəx")], TARGET, TABLE)
-    assert r.words[0].stress == 0 and "ˈ" not in r.respelling      # §4.3, mark = off
+    """decision 5: /vv/ from collision with lenited b/m degeminates (repeated segments)."""
+    assert sub("wiː").count("v") <= 1
 
 def test_personal_names_are_emitted_as_a_bare_stem():
-    assert not adapt([w("kaːnˠ")], TARGET, TABLE).respelling.endswith("i")
+    assert not spell("kʰ", "a", "n").endswith("i")
 
-def test_common_noun_epithets_keep_the_nominative_i():
-    r = run_entry(Entry("cos", ipa="kosˠ"), "DESC+NOUN", IRISH, TARGET, TABLE)
-    assert r.respelling.endswith("i")
+def test_respelling_follows_the_5_3_deviations():
+    """digest §5.3: D1 `x`, D2 `tch` for /tʃʼ/, D3 `y`, D4 bare stem,
+    D5 apostrophe placement UNCHANGED (line 1213)."""
+    assert spell("x", "a") == "xa"
+    assert spell("tʃʼ", "a").startswith("tch")
 
-def test_respelling_follows_the_five_5_3_deviations():
-    """D1 x, D2 tch, D3 y, D4 bare stem, D5 apostrophe placement UNCHANGED (R13b)."""
-    assert "x" in adapt([w("xaː")], TARGET, TABLE).respelling
-    assert "tch" in adapt([w("tʲuː")], TARGET, TABLE).respelling or True   # see note
-    ej = adapt([w("sˠkaː")], TARGET, TABLE).respelling
-    assert "'" in ej and ej.index("'") == ej.index("k") + 1   # apostrophe AFTER the letter
-
-def test_kasqueil_is_spelled_the_standard_way():
-    """R13b: under D5 the existing name *Kas'queil* is respelled *Kasq'ueil*.
-    This is a known, accepted divergence from the pre-existing name list; assert the
-    engine's form so the divergence is visible rather than silent."""
-    ...
+def test_d5_places_the_apostrophe_after_the_consonant():
+    """digest §5.3 line 1213: 'Not an overlay — follow the standard.' Tested on a
+    synthetic ejective, not on a pre-existing name (those are canon inputs, spec §12.J)."""
+    out = spell("kʼ", "a")
+    assert out.startswith("k'") and out == "k'a"
 ```
 
-*(Replace the `or True` in the `tch` assertion with the real expectation once the respell table is
-written — a test that cannot fail is a failed test, S2.)*
-
-- [ ] **Steps 2–5** per the common method. **Commit:**
+- [ ] **Steps 2–4** per the common method (there is no step 5 here: the regression run and its
+  ratchet belong to Task 23b, which owns `[syllable]`). **Acceptance:** the file parses,
+  `strands check` reports zero error-severity findings, every rule line carries a citation, and the
+  stage-level tests above pass. **Commit:**
   `feat(rules): georgian.rules core — inventory, substitute, stress, epithets, respell`
 
 ---
@@ -3343,7 +3494,8 @@ def test_onsets_include_singletons():
 def test_stem_domain_is_used():
     assert TARGET.syllable.domain == "stem"
 
-# I-27 repair table — Georgian's only attested repair is degemination (review-opus §F)
+# I-27 repair table — Georgian's only attested repair is degemination (review-opus §F).
+# Geminates are repeated segments, never `ː` (I-2).
 GEORGIAN_REPAIRS = [
     ("tʼvitʼtʼɛri", "tʼvitʼɛri", "digest §3.6 line 989 (Twitter, attested.tsv row 4)"),
     ("pʼazzli",     "pʼazli",    "digest line 948/989/1006 (puzzle, row 16)"),
@@ -3361,6 +3513,40 @@ def test_repair_table(before, after, cite):
 def test_cluster_fallback_is_synthetic_not_attested():
     """§3.7 lines 999-1027: no cluster repair is observed in the data. This rule is ours."""
     assert TARGET.cluster_fallback == "same-length"
+
+def test_the_temporary_syllable_block_from_23a_is_gone():
+    assert TARGET.syllable.template is not None or TARGET.syllable.onsets is not None
+    assert "TEMPORARY" not in (ROOT / "rules" / "georgian.rules").read_text(encoding="utf-8")
+
+# --- the full-pipeline tests, moved here from 23a (fix 2): they need [syllable] ---
+def test_diphthongs_become_hiatus():
+    """§12.B: Georgian declares no `nuclei`, so /iə/ is two syllables."""
+    assert len(adapt([w("ciəɾˠə")], TARGET, TABLE).words[0].syllables) >= 3
+
+def test_stress_is_initial_and_the_ipa_carries_no_mark():
+    r = adapt([w("mˠat̪ˠaːnˠəx")], TARGET, TABLE)
+    assert r.words[0].stress == 0 and "ˈ" not in r.ipa       # §4.3, [stress] mark = off
+
+def test_common_noun_epithets_keep_the_nominative_i():
+    r = run_entry(Entry("cos", ipa="kosˠ"), "DESC+NOUN", IRISH, TARGET, TABLE)
+    assert r.respelling.endswith("i")
+
+def test_mutation_output_segments_all_survive():
+    for seg in "w x ɣ ç j h ŋ ɲ".split():
+        r = adapt([w(seg + "aː")], TARGET, TABLE)
+        assert set(r.words[0].segments) <= set(TARGET.inventory)
+        assert "UNREPAIRED" not in r.flags
+
+def test_no_unrepaired_on_the_144_word_set():
+    bad = [row["orthography"] for row in read_test_words()
+           if "UNREPAIRED" in run_entry(entry_of(row), "DESC", IRISH, TARGET, TABLE).flags]
+    assert set(bad) <= read_allow_file_for("georgian"), sorted(bad)
+
+def test_regression_and_ratchet():
+    rep = run_regression("georgian", TABLE)
+    assert rep.rate("C") >= 0.80, rep.summary()
+    assert rep.mode_e_is_empty()
+    assert_ratchet(rep)
 ```
 
 - [ ] **Steps 2–5.** **Acceptance:** Mode C ≥ **0.80** over the rows that reach mode C (of the 122
@@ -3383,7 +3569,7 @@ def test_cluster_fallback_is_synthetic_not_attested():
 | `ŋ → n` | `%design`, `# design: §9.12` |
 | broad coronals → emphatics | §8.1 (Cairene over-assigns emphasis to loans before back vowels) — `%design`, `# design: §9.9`, citing §8.1 as evidence |
 | slender coronals → plain; `ʃ` kept | §8.1 — `%design`, `# design: §9.1` |
-| Irish `/ə/` → `a`/`i` | **`%design`, `# design: digest §8.4 line 1534 open`** — R15: §8.4 and §3.8 lines 715–718 both say Irish /ə/ is "not covered" and offer two undecided options (general /a/ when unstressed; vowel-copy harmony). Pick the digest's first option; do **not** cite §8.3, which is a different topic |
+| Irish `/ə/` → **`a`** (unconditionally) | **`%design`, `# design: digest §8.4 line 1534 open`** — R15: §8.4 and §3.8 lines 715–718 both say Irish /ə/ is "not covered" and offer two undecided options (a general preference for /a/ when unstressed; vowel-copy harmony). Take the first: **`ə -> a`, with no positional split.** Draft 2's "a/i by position" was spec §7 wording that no source supports; do not implement it, and do not cite §8.3, which is a different topic |
 | `x ɣ h` kept | §8.3 — `%attested` |
 | `[syllable]` `template = CN(C)(C)`, onsets = every single C and **nothing longer** | §2 "Maximal syllable template", §2 "Onsets" — I-28. Medial CC coda and CCC are `bans` |
 | `[repair]` anaptyxis `0 -> i / # C _ C N` | §3.1(a) line 348 — `%attested` |
@@ -3392,13 +3578,13 @@ def test_cluster_fallback_is_synthetic_not_attested():
 | `[repair]` epenthetic quality: `i`, harmonizing to `u` before a round vowel | §3.3 lines 361, 499–503 — `%attested` |
 | `[repair]` `0 -> ʔ / # _ N` | §3.7 lines 628, 630 — `%attested` |
 | `[post-stress]` §3.8's **six** items | §3.8 lines 726–763: closed-syllable shortening, unstressed-long shortening, mid raising, one-long-vowel-per-word, **vowel lengthening under suffix stress-shift (lines 755–756 — S9; draft 1 omitted it)**, high-vowel syncope |
-| **no degemination** | **R14a / spec §12.G — DELETE the rule.** Digest lines 324–326: "No degemination rule is stated for Cairene in any source consulted"; geminates are phonemic. Draft 1 had it |
-| no final devoicing | §3.7 line 645 (**not** §3.9 — R14b) — a comment, not a rule |
+| **no degemination** | **R14a / spec §12.G — DELETE the rule.** Digest **line 324** (verified): "No degemination rule is stated for Cairene in any source consulted"; geminates are phonemic. Draft 1 had it |
+| no final devoicing | §3.7 **line 645** (verified: "**No final _obstruent_ devoicing** is reported by any source"; **not** §3.9 — R14b) — a comment, not a rule |
 | no emphasis spread | `# design: §9.10` — a comment, not a rule |
 | `[stress] procedure = cairene` | §4 (Task 14) |
 | `[epithets]` `NISBA` (-i/-iyya), `FEM_A` (-a), `DEF` (il- + sun letters) | §6.1 (sun-letter list), §6.2 (**11** nisba examples — S10), §6.3 |
 | `[meta] epithet-ADJ = NISBA`, `epithet-NOUN = FEM_A` | I-39 |
-| `[respell]` kh gh q ʼ h, emphatics **dot-under**, long vowels doubled | §5's table (**21 rows** — S10). Dot-under is `%design`, `# design: §9.11` — R14c: §5 line 1010 explicitly recommends *plain* letters and calls dot-under Abdel-Massih's scholarly system (line 988) |
+| `[respell]` kh gh q ʼ h, emphatics **dot-under**, long vowels doubled | §5's table (**21 rows** — S10). Dot-under is `%design`, `# design: §9.11` — R14c, verified: §5's recommended-convention table at **line 1010** writes the emphatics **plain** ("accept the merger. Every practical Egyptian convention writes them plain"). Decision 9.11 overrides it; the citation must say so |
 
 - [ ] **Step 1: Write the tests first**
 
@@ -3488,20 +3674,20 @@ naming the digest line — never a silent drop.)*
 | `[inventory]` | §1 "Southern consonant inventory as the sources support it", §1 vowels, §1 add/remove |
 | `/sʲ/→ʃ, /tʲ/→tʃ, /dʲ/→dʒ` | §8.1 — `%design` unless §8.1 cites a Welsh source for the specific mapping; `# design: §9.1` |
 | other slender/broad → plain | §8.1 — `%design`, `# design: §9.1` |
-| `ɣ → ɡ` | **`%design`, `# design: digest §8.2 open`** — R18: §8.2 lists four options and says option 3 has "no Welsh precedent". Spec §7 tags it (A); the spec is wrong here |
-| `x → χ` | **`%design`, `# design: digest §8.3 open`** — R18: §8.3 calls it a "(design inference)" with an unresolved [x]/[χ] CONFLICT |
+| `ɣ → ɡ` | **`%design`, `# design: digest §8.2 line 1495 open`** — R18, verified: line 1495 reads "(3) /ɣ/ → /ɡ/ (restore the unlenited stop; **no Welsh precedent** …". Spec §7 tags it (A); the spec is wrong here |
+| `x → χ` | **`%design`, `# design: digest §8.3 line 1517 open`** — R18, verified: line 1517 calls the treatment "a `(design inference)` from inventory fit — no source", with an unresolved [x]/[χ] CONFLICT |
 | `h` kept, `w` kept, `ŋ` kept | §8.4, §8.8 — `%attested` |
 | voiceless sonorants | §8.5 — they are not Irish phonemes; assert they never arrive, no rule |
-| `template = (C)(C)(C)N(N)(C)(C)` | §2.1 line 289. **R19 — the spec drops the `(V)`; the digest has it, and the digest's line is marked (North).** Follow the digest, and surface both facts in the Known Deviations list |
+| `template = (C)(C)(C)N(C)(C)` | §2.1 line 289 gives `(C)(C)(C)V(V)(C)(C)` and marks it **(North)**. The `V(V)` is **one nucleus**, not two: spec §12.B/§12.J make a Welsh diphthong a single nucleus and hiatus two syllables, so the template slot is `N`. The Welsh diphthong list goes in `nuclei`, not into a second template slot |
 | `nuclei` | the Welsh diphthong list from §1/§2.1 (spec §12.B) |
-| `onsets` + `onsets-tier` | §2.2, tiers **A/B/C/D as the digest labels them**. **Tier E is excluded deliberately** (S4): §2.2 line 397 labels it "ASSEMBLED/UNVERIFIED (do not encode without a check)" — generalized stop+liquid onsets, `sm sn`, `θr χr χl`. Say so in a comment |
+| `onsets` + `onsets-tier` | §2.2, tiers **A/B/C/D as the digest labels them**. **Tier E is excluded deliberately** (S4): §2.2 **line 400** labels it "ASSEMBLED/UNVERIFIED (do not encode without a check)" — generalized stop+liquid onsets, `sm sn`, `θr χr χl`. Say so in a comment |
 | `codas` | §2.3 (tier B only; record the tier) |
-| `sonority = on` | **`%design`** — R17b: §2.2 never mentions sonority; the term appears at §2.1/§2.3/§2.4 (lines 426, 473–476, 496, 711) and §2.4 line 470 flags its coda generalization as "ASSEMBLED (unattested inference — stronger than the source)" |
-| `[repair]` `l -> ɬ / #_`, `ɾ -> r̥ / #_` | §3.3 line 812 — `%design`, `# design: §9.14` |
+| `sonority = on` | **`%design`** — R17b: §2.2 never mentions sonority; the term appears at §2.1/§2.3/§2.4 (lines 426, 473–476, 496, 711) and §2.4 **line 472** flags its coda generalization "ASSEMBLED generalisation **(unattested inference — stronger than the source)**". (§2.4 **lines 499–500** is where degemination actually lives, `CC → C / [unstressed σ] _` [morrisjones1913 §27 ii p.30]) |
+| `[repair]` `l -> ɬ / #_`, `r -> r̥ / #_` | §3.3 line 812 — `%design`, `# design: §9.14`. **Target-side `r`**: Irish `/ɾˠ ɾʲ/` have already become Welsh `/r/` in `[substitute]`, so every `[repair]` rule and every repair-table row is written over `r`, never `ɾ` |
 | `[repair]` sC- prothesis `0 -> ə / # _ s {p t k}` | §3.1 line 618. The digest offers three non-converging encodings and picks none; take Parry-Williams' scope. `%design`, `# design: §9.15` |
 | `[repair]` copy epenthesis `0 -> \1 / [V]:1 C _ {l n r} #` | §3.2 rule (1), lines 682, 477, 705 — `%attested`. Uses captures (I-33) |
-| `[repair]` liquid deletion `{l ɾ} -> 0 / C _ #` | §3.2 rule (2), lines 522, 689 — `%attested` |
-| `[repair]` metathesis `θ:1 ɾ:2 -> \2 \1 / C V* _ #` | §3.2 rule (3), line 696 — `%attested` |
+| `[repair]` liquid deletion `{l r} -> 0 / C _ #` | §3.2 rule (2), lines 522, 689 — `%attested` |
+| `[repair]` metathesis `θ:1 r:2 -> \2 \1 / C V* _ #` | §3.2 rule (3), line 696 — `%attested` |
 | `[repair]` degemination `CC -> C` in an unstressed syllable | **§2.4 line 499** — R17a: draft 1 cited §2.7, which is *gemination* (`C → Cː / V́ _ V`) |
 | `[stress] procedure = penult` | §4.1 — `%design` for the Welsh-first ordering, `# design: §9.13` |
 | `[post-stress]` the Southern length rule | §4.3 lines 1071–1079, **the 7-line environment list, verbatim** (I-26): open final → long; before `{b d ɡ v ð f θ χ}` → long; before `{s ʃ ɬ}` → long (South only); before `{pʰ tʰ kʰ m ŋ}` → short; before `{w j}` → short; before CC → short; before `{n l r}` → **lexically determined, so leave unchanged** and tag that line `%design` |
@@ -3529,12 +3715,13 @@ def test_sc_prothesis_is_written_y():
     r = adapt([w("sˠkaː")], TARGET, TABLE)
     assert r.words[0].segments[0] == "ə" and r.respelling.startswith("y")
 
-def test_template_keeps_the_optional_second_nucleus_slot():
-    """R19: digest §2.1 line 289 has (C)(C)(C)V(V)(C)(C); spec §7 drops the (V)."""
-    assert sum(1 for slot, _ in TARGET.syllable.template if slot == "N") == 2
+def test_template_has_exactly_one_nucleus_slot():
+    """Spec §12.B/§12.J: the digest's V(V) is one nucleus; the diphthongs live in `nuclei`."""
+    assert sum(1 for slot, _ in TARGET.syllable.template if slot == "N") == 1
+    assert TARGET.syllable.nuclei                      # the Welsh diphthong list is declared
 
 def test_tier_e_clusters_are_not_in_the_onset_list():
-    """S4: §2.2 line 397 says do not encode tier E without a check."""
+    """S4: §2.2 line 400 says do not encode tier E without a check."""
     for cl in [("s", "m"), ("s", "n"), ("θ", "r"), ("χ", "r"), ("χ", "l")]:
         assert cl not in TARGET.syllable.onsets
 
@@ -3550,12 +3737,15 @@ def test_length_before_n_l_r_is_left_unchanged():
     ...
 
 # I-27 repair table (review-opus §F, digest line refs)
+# Every row is written over the SOUTHERN inventory: /r/ (not Irish /ɾ/) and no /ɨ/.
 WELSH_REPAIRS = [
-    ("pɔbl",     "pɔbɔl",   "§3.2 rule 1, line 682/477/705 — pobl"),
+    ("pɔbl",     "pɔbɔl",   "§3.2 rule 1, line 682 (also 477, 705) — pobl"),
     ("kankr",    "kankar",  "§3.2 rule 1, line 682 — cancr"),
-    ("fɛnɛstr",  "fɛnɛst",  "§3.2 rule 2, line 522/689 — ffenestr"),
+    ("fɛnɛstr",  "fɛnɛst",  "§3.2 rule 2, lines 522, 689 — ffenestr"),
     ("pɔsibl",   "pɔsib",   "§3.2 rule 2, line 689 — posibl"),
-    ("ewɨθr",    "ewɨrθ",   "§3.2 rule 3, line 696 — ewythr"),
+    ("ewəθr",    "ewərθ",   "§3.2 rule 3, line 696 — ewythr. The digest prints [ˈewɨrθ]; "
+                            "Southern has no /ɨ/ (§1, PHOIBLE 2406), so the carrier vowel is "
+                            "/ə/ here. The metathesis being tested is unchanged"),
     ("lɔft",     "ɬɔft",    "§3.3 line 812 — loft > lloft"),
     ("rəmedi",   "r̥əmedi",  "§3.3 line 812 — remedy > rhymedi"),
     ("skarlat",  "əskarlat","§3.1 line 618 — scarlet > ysgarlat"),
@@ -3572,9 +3762,12 @@ def test_degemination_has_no_attested_ipa_example():
     assert False
 ```
 
-- [ ] **Steps 2–5.** **Acceptance:** Mode C ≥ **0.70** of the **19** rows with `target_ipa` (≥ 13);
-  error bucket **0** after cleaning (all 19 draft-1 failures were `[ ]`/`/ /` wrappers, which I-36
-  strips). Mode E empty. Also assert the harness classifies the 93 `layer=modern` orthography-only
+- [ ] **Steps 2–5.** **Acceptance:** Mode C ≥ **0.70 of the rows that reach Mode C** — i.e. of
+  the 19 rows carrying `target_ipa`, minus any that land in the `error` bucket. All 19 were
+  untokenizable in the draft-1 measurement, every one of them because of `[ ]` / `/ /` wrappers
+  that I-36 strips, so the expected denominator is **19** and the bar is **≥ 13 rows**; the error
+  bucket must be **0**. If cleaning leaves any row in the error bucket, the denominator shrinks and
+  the commit body must state the shrunken denominator explicitly. Mode E empty. Also assert the harness classifies the 93 `layer=modern` orthography-only
   rows as `skip` without crashing — **do not** attempt orthographic comparison (that needs a Welsh
   G2P, out of scope).
   **Commit:** `feat(rules): welsh.rules — Southern Welsh target (digest §1-§6)`
@@ -3588,7 +3781,7 @@ def test_degemination_has_no_attested_ipa_example():
 | Rule block | Source, and the tag it must carry |
 |---|---|
 | `[inventory]` | §1 (Verhoeven's chart; parenthesised entries become the `marginal:` line), §1 vowels. `ʋ` comes from the Task 1b hand rows |
-| slender C → `C j` in onsets, plain in codas | §8.1 — I-31 epenthesis form; `%design`, `# design: §9.16` |
+| slender C → `C j` in onsets, plain in codas | §8.1 — I-31 epenthesis form written `0 -> j / [SLEN] _ V` (onset position only), with a companion plain-mapping line for codas. **`SLEN`, not `[C +front]`** (spec §12.J); `%design`, `# design: §9.16` |
 | broad → plain; `ɣ x h ʃ` kept | §8.2, §3.4 — `%attested` |
 | `w → ʋ` | **§0 line 32** (the normalization-layer entry) — R20a: it is *not* in §8.2 or §3.4, where draft 1 cited it |
 | length → tense/lax table | §8.3, §3.6 — the digest's own proposal, explicitly unsourced → `%fallback` |
@@ -3597,7 +3790,7 @@ def test_degemination_has_no_attested_ipa_example():
 | `nuclei` | the Dutch diphthongs `ɛi œy ɔu` (spec §12.B) |
 | `onsets` | §2 lines 179–186: **30 native CC and 27 loan CC** (R21 — not "~28/~24"), plus the **separate 7-item CCC list** at lines 209–213 (4 native + 3 loan), plus all singletons (spec §12.D) |
 | `codas` | §2 "Coda clusters", by class |
-| `appendix` | §2 line 158 says "up to three **coronal obstruents**". Draft 1 narrowed this to `s t`; either widen the set to the coronal obstruents of the inventory or keep `s t` and tag the narrowing `%design` with the line reference (R21) |
+| `appendix` | §2 line 158 says "up to three **coronal obstruents**". Keep `appendix = s t` **and** record the narrowing in `[meta]` as `appendix-narrowed = design: digest §2 line 158` — a test asserts that key exists whenever the appendix is smaller than the inventory's coronal obstruents (R21). Widening the set instead is equally acceptable; then the meta key is absent and the test asserts the full set |
 | `bans` | §2 lines ~278–320: (a) the tense-V/voiceless-fricative pact — bites only on stressed `Vːx Vːf Vːs`; (b) Kager & Pater `*[V +long] C C [-coronal]`, with the final-coronal-appendix escape |
 | `[repair]` final obstruent devoicing | §3.5 lines 363, 561 — `%attested` |
 | `[repair]` `0 -> ə / LIQ _ C` non-homorganic, blocked before a coronal C2 | §3.2 lines 456–470 — `%attested`. **R20b: *herfst* [hɛr(ə)fst] (line 457/470) is a POSITIVE example; only *hals* (homorganic, line 465) and *hart* (coronal C2, line 467) block.** Draft 1 had *herfst* as a blocking case |
@@ -3631,6 +3824,16 @@ def test_bach_does_trigger_it():
     out = adapt([w("bˠaːx")], TARGET, TABLE).words[0].segments
     assert out[-1] == "ɣ"                      # decision 9.18: voice the fricative
 
+def test_appendix_narrowing_is_declared():
+    """R21: the digest licenses up to three coronal obstruents; `s t` is a narrowing and
+    must say so, or the set must be the full coronal-obstruent list."""
+    coronal_obstruents = {seg for seg in TARGET.inventory
+                          if TABLE.matches(seg, {"coronal": "+", "sonorant": "-"})}
+    if set(TARGET.syllable.appendix) < coronal_obstruents:
+        assert "appendix-narrowed" in TARGET.meta
+    else:
+        assert set(TARGET.syllable.appendix) == coronal_obstruents
+
 def test_onset_list_sizes_match_the_digest():
     """R21: 30 native CC + 27 loan CC + 7 CCC, plus singletons."""
     cc = {c for c in TARGET.syllable.onsets if len(c) == 2}
@@ -3652,8 +3855,8 @@ DUTCH_REPAIRS = [
     ("hɑls",   "hɑls",   "§3.2 line 465 — hals blocks (homorganic)"),
     ("hɑrt",   "hɑrt",   "§3.2 line 467 — hart blocks (coronal C2)"),
     ("hɑnd",   "hɑnt",   "§3.5 line 363/561 — hand, final devoicing"),
-    ("etː",    "et",     "§2 line 353-355 — eet, degemination"),
-    ("ɡroːtːə", "ɡroːtə", "§2 line 353-355 — grootte"),
+    ("ett",    "et",     "§2 lines 353-355 — eet, degemination (repeated segments, I-2)"),
+    ("ɡroːttə", "ɡroːtə", "§2 lines 353-355 — grootte"),
     ("bɑːx",   "bɑːɣ",   "§8.6 line 308 — bách, tense-V + voiceless fricative (design 9.18)"),
 ]
 
@@ -3666,9 +3869,12 @@ def test_matanach_control_row():
     ...
 ```
 
-- [ ] **Steps 2–5.** **Acceptance:** Mode C ≥ **0.80** of the **67** rows with `target_ipa`
-  (error bucket ≤ **10%** after cleaning — draft-1 measurement was 30/67 untokenizable, mostly
-  ASCII `:` and `'`), **and** Mode E ≥ **0.25** of the **32** two-sided rows (8/32). Mode E is low
+- [ ] **Steps 2–5.** **Acceptance:** Mode C ≥ **0.80 of the rows that reach Mode C** — of the 67
+  carrying `target_ipa`, minus the `error` bucket, which must be ≤ **10%** (≤ 6 rows, giving a
+  denominator of **≥ 61** and a bar of **≥ 49 rows**). The draft-1 measurement was 30/67
+  untokenizable, mostly ASCII `:` (I-36 maps it) and ASCII `'`, which in the Dutch data is a
+  **stress mark and is dropped, not converted** (fix 10 / I-36). State the achieved denominator in
+  the commit body. **And** Mode E ≥ **0.25** of the **32** two-sided rows (8/32). Mode E is low
   by design: those rows are English→Dutch loans adapted by donor-specific routes while this file is
   tuned for Irish input; the ratchet, not the absolute number, is the value. Record both rates.
   **Commit:** `feat(rules): dutch.rules — Belgian Dutch target (digest §1-§6)`
@@ -3700,6 +3906,12 @@ def cmd_explain(args) -> int  # trace: stage, rule_id, tag, before -> after, cit
 def cmd_gallery(args) -> int
 def cmd_lint(args) -> int
 def render_gallery(entries, targets, constructions, table) -> str
+
+REFERENCE_NAMES = ("Tchaeul", "Th'tysh", "Kas'queil", "Xelxyx", "Ysclyth")
+    """The five pre-existing strand-4 names (notes/project-goals.md). Spec §12.J: they are
+    CANON INPUTS — the gallery displays them verbatim in a reference row and never passes
+    them through the engine. `render_gallery` emits this row from the literal tuple; no
+    adapt(), run_entry() or tokenize() call touches them."""
 ```
 
 `--construction all` enumerates `CONSTRUCTIONS` (Task 21), which includes the `DESC+ADJ` /
@@ -3740,6 +3952,25 @@ def test_gallery_emits_markdown(tmp_path):
     out = tmp_path / "g.md"
     assert main(["gallery", str(FIX), "--out", str(out)]) == 0
     assert out.read_text(encoding="utf-8").startswith("#")
+
+def test_gallery_shows_the_five_canon_names_verbatim(tmp_path):
+    """Spec §12.J: the pre-existing strand-4 names are canon inputs, displayed in a
+    reference row exactly as written and never adapted."""
+    out = tmp_path / "g.md"
+    main(["gallery", str(FIX), "--out", str(out)])
+    text = out.read_text(encoding="utf-8")
+    for name in ("Tchaeul", "Th'tysh", "Kas'queil", "Xelxyx", "Ysclyth"):
+        assert name in text, name
+
+def test_the_reference_row_is_not_produced_by_the_engine(monkeypatch):
+    """Guard: render_gallery must not call adapt() for the reference row."""
+    from strands import pipeline
+    calls = []
+    monkeypatch.setattr(pipeline, "adapt",
+                        lambda *a, **k: calls.append(a) or pipeline.adapt(*a, **k))
+    from strands.gallery import reference_row
+    row = reference_row()
+    assert calls == [] and "Kas'queil" in row
 
 def test_lint_lists_inferred_fields(capsys):
     assert main(["lint", str(FIX)]) == 0
@@ -3863,6 +4094,65 @@ deletion.
    decision 9.11, cited as design (R14c).
 7. **Welsh `ɣ→ɡ`, `x→χ`, `sonority = on`** are spec-§7-tagged (A) but the digest calls them design
    inferences or flags them unattested; all three are `%design` here (R17b, R18).
-8. **Georgian `Kas'queil`**: under §5.3's D5 (apostrophe placement unchanged) the engine spells it
-   *Kasq'ueil*, diverging from the pre-existing strand-4 name list. Made visible by a test rather
-   than papered over (R13b).
+8. **The five pre-existing strand-4 names are canon inputs** (spec §12.J), displayed verbatim in
+   the gallery's reference row and never passed through the engine. Draft 2 asserted an engine
+   respelling for *Kas'queil*; that test and its deviation entry are gone. D5's apostrophe
+   placement is tested on a synthetic ejective instead (Task 23a).
+
+---
+
+## Draft 3 changes (from both reviewers' re-check of draft 2)
+
+1. **Canon names.** `test_kasqueil_is_spelled_the_standard_way` and Known Deviation 8 are deleted.
+   The five pre-existing strand-4 names are canon inputs (spec §12.J): `gallery.py` gains
+   `REFERENCE_NAMES` and a `reference_row()` that emits them verbatim, with a Task 27 test
+   asserting they appear unchanged and a monkeypatch guard asserting `adapt()` is never called for
+   them. Decision D5 (apostrophe after the consonant, digest §5.3 line 1213) is tested on a
+   synthetic ejective input in Task 23a.
+2. **Dependencies.** Task 17 now depends on **5b** as well as 7 (it parses `[mutations]` /
+   `[inflect]`). Task 23a may not call `adapt()`, `repair()` or the harness — it tests
+   `substitute_stage()` and `respell()` directly and ships an explicitly `TEMPORARY` permissive
+   `[syllable]` block; the repair table, full-pipeline, 144-word and regression/ratchet tests moved
+   to Task 23b, which also asserts the temporary block is gone.
+3. **`SyllableSpec.onsets` / `.codas` are ordered tuples** (file order), with derived
+   `onset_set` / `coda_set` frozensets for membership, so `cluster-fallback = same-length` breaks
+   ties by list order as spec §12.E requires. Tests updated.
+4. **Repair-table examples now tokenize.** Welsh rows use target-side `r` (Irish `/ɾ/` is gone by
+   `[substitute]`), and the `[repair]` rules are restated over `r`; the *ewythr* carrier is
+   `ewəθr → ewərθ` because Southern Welsh has no `/ɨ/` (the metathesis under test is unchanged).
+   Dutch geminates are repeated segments: `ett → et`, `ɡroːttə → ɡroːtə`.
+5. **Captures on optional or starred context items are a parse error** (I-9), with a parametrized
+   test over `(a:1) _` and `a:1* _`.
+6. **`respell()` always strips `.` and `ˈ`**; the `mark_stress` parameter is gone. Georgian's
+   `[stress] mark = off` governs `Result.ipa` formatting only, and the either/or assertion is
+   replaced by two exact ones.
+7. **Welsh template is `(C)(C)(C)N(C)(C)`** — one nucleus (spec §12.B/§12.J); the diphthongs go in
+   `nuclei`. The `N(N)` deviation is removed from Task 25 and from the deviations list.
+8. **`BROAD` / `SLEN` / `UNMARKED` per spec §12.J.** Georgian's Cʷ rule is
+   `0 -> v / [BROAD -labial] _ [V +front]` (with a test asserting the class term is `BROAD`, since
+   `[C +back]` would exclude plain `/k/`); Georgian's Ci and Dutch's Cj rules use `SLEN`. Task 19's
+   quality inference is written as **explicit segment→segment lines** over a declared `UNMARKED`
+   class — a feature bundle cannot produce `t → t̪ˠ` (dental features) and there is no `kˠ` row at
+   all. Task 19 gains a coverage test and an acceptance criterion that `irish.rules` passes
+   `strands check` with zero error-severity findings.
+9. **`features.tsv` gains `e y œ ɔː ɛː`** (40 hand rows, **113** total): without `y` and `œ` the
+   declared Dutch nucleus `œy` cannot tokenize. A test asserts no consonant row carries `ː` —
+   gemination is repeated segments everywhere.
+10. **I-36 cleaning is target-aware**: ASCII `'` → `ʼ` only for Georgian; in the Dutch data it is a
+    stress mark and is dropped. `clean_attested(text, target)`.
+11. **Welsh and Dutch Mode C bars** are restated over "rows that reach Mode C", with the expected
+    shrunken denominators spelled out (Welsh 19, error bucket 0, ≥13 rows; Dutch ≥61 after an
+    error bucket of ≤6, ≥49 rows) and a requirement to state the achieved denominator in the
+    commit body.
+12. **Content fixes.** Cairene `/ə/ → a` only, with no positional split (R15). Dutch `appendix`
+    narrowing must be declared via `[meta] appendix-narrowed`, asserted by a test, or the set
+    widened to the inventory's coronal obstruents (R21). The `[inflect]` five-name set now cites
+    spec §12.J instead of a nonexistent docstring (R25). The `or True` tautology in Task 23a is
+    gone. Georgian `-eli` cites §6.3 line 1310.
+
+**Citations re-verified for draft 3** (opened and read in the committed digests, not taken from a
+reviewer's summary): Georgian §3.1 line 818 and lines 862–868 (R11); §8.1 lines 1440–1442 and §8.2
+line 1470 (R12); §5.3 line 1213 (R13b); Arabic §2 line 324 (R14a), §3.7 line 645 (R14b), §5 line
+1010 (R14c), §4 lines 870–886 = 17 data rows (R16); Welsh §8.2 line 1495 and §8.3 line 1517 (R18),
+§2.4 line 472 and lines 499–500 (R17a/b), §2.2 line 400 (S4), §3.2 lines 682/689/696 (repair
+table); Georgian §6.3 line 1310 (-eli).
