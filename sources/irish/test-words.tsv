@@ -1,0 +1,103 @@
+orthography	ipa	dialect	gloss	category	features	note
+Ciara	ˈkɪə.ɾˠə	C	Ciara (f. given name)	name	bs:dorsal;dip:iə;seg:ɾˠ;str:initial	user's own transcription; see digest §9.2 — expected Connacht form would be /ˈciəɾˠə/ with slender /c/
+Matánach	ˈmˠat̪ˠɑːnˠəx	C	'Burly' (epithet)	epithet	bs:labial;bs:coronal;seg:t̪ˠ;seg:x;len:V;mor:suffix-ach;str:initial	user's own transcription; contrast Munster stress on the long á, wiki-irish-phonology §Munster
+Lasairchos	ˈl̪ˠɑsˠəɾʲxosˠ	C	'Flamefoot' (compound epithet)	epithet	seg:l̪ˠ;seg:ɾʲ;seg:x;mor:compound;mut:lenition;eps:blocked;str:compound	user's own transcription; second element cos /kosˠ/ appears lenited as /xosˠ/ — noun+noun lenition unattested in this source set, digest §3.6
+Seán	ʃaːnˠ	std	John (m. given name)	name	seg:ʃ;len:V;str:initial	wiki-irish-orthography §Grapheme to phoneme correspondence
+a Sheáin	ə çaːnʲ	M	'O Seán' (vocative)	name	seg:ç;bs:coronal;mut:lenition;mor:vocative;len:V	wiki-irish-phonology §Vowel backness (Ó Sé 2000, Dingle); vocative = lenition + slenderized stem
+Siobhán	ˈʃʊwaːnˠ	std	Joan (f. given name)	name	seg:ʃ;seg:w;len:V;str:initial	wiki-irish-orthography §Grapheme to phoneme correspondence
+Eoin	oːnʲ	std	Owen/John (m. given name)	name	seg:nʲ;len:V	wiki-irish-orthography §Grapheme to phoneme correspondence; vowel-initial word
+Eoghan	ˈoːənˠ	std	Owen (m. given name)	name	len:V;str:initial	wiki-irish-orthography §Grapheme to phoneme correspondence; vowel hiatus /oː.ə/
+Diarmaid	dʲiərmədʲ	std	Dermot (m. given name)	name	bs:coronal;dip:iə;seg:ɾˠ	wiki-irish-orthography §Grapheme to phoneme correspondence
+fionn	fʲʊn̪ˠ	std	fair, light-haired / Fionn (m. given name)	name	bs:labial;seg:n̪ˠ	wiki-irish-orthography §Grapheme to phoneme correspondence; doubles as descriptor
+Bríd	bʲɾʲiːdʲ	C	Bridget (f. given name)	name	bs:labial;seg:ɾʲ;syl:onsetCC;len:V;bs:coronal	(constructed) — onset from breá /bʲɾʲaː/, coda from cuid /kɪdʲ/
+Niamh	nʲiəw	C	Niamh (f. given name)	name	seg:nʲ;dip:iə;seg:w	(constructed) — ⟨ia⟩=/iə/ per bliain /bʲlʲiənʲ/; final ⟨mh⟩=/w/ per léamh /l̠ʲeːw/
+Aoife	ˈiːfʲə	C	Eva (f. given name)	name	len:V;bs:labial	(constructed) — ⟨aoi⟩=/iː/ per gaois /ɡiːʃ/
+Caoimhe	ˈkiːvʲə	C	Keeva (f. given name)	name	len:V;seg:vʲ;bs:dorsal	(constructed) — ⟨aoi⟩=/iː/ per caoi /kiː/; ⟨mh⟩ slender = /vʲ/
+Pádraig	ˈpˠaːd̪ˠɾˠəɟ	C	Patrick (m. given name)	name	len:V;seg:ɾˠ;seg:c-ɟ;syl:codaCC	(constructed) — final ⟨aig⟩=/əɟ/ per carraig /ˈkaɾˠəɟ/
+Cathal	ˈkahəl̪ˠ	C	Cathal (m. given name)	name	seg:h;seg:l̪ˠ	(constructed) — intervocalic ⟨th⟩=/h/ per athair /ˈahəɾʲ/; /h/ may elide
+Tadhg	t̪ˠəiɡ	C	Timothy (m. given name)	name	seg:t̪ˠ;dip:əi	(constructed) — ⟨adh⟩=/əi/ per adharc /əiɾˠk/
+Rónán	ˈɾˠoːnˠaːnˠ	C	Ronan (m. given name)	name	seg:ɾˠ;len:V;str:initial	(constructed); two long vowels, second unstressed — Connacht keeps it long, Ulster would shorten (green1997 p.76)
+Gráinne	ˈɡɾˠaːnʲə	C	Grania (f. given name)	name	syl:onsetCC;seg:ɾˠ;len:V;seg:nʲ	(constructed) — onset per gnáth-type Cɾ; ⟨inne⟩ per airne /aːɾˠn̠ʲə/
+Sorcha	ˈsˠɔɾˠəxə	C	Sorcha (f. given name)	name	seg:ɾˠ;seg:x;eps:epenthetic	(constructed) — exactly parallel to attested dorcha /ˈd̪ˠɔɾˠəxə/
+Saoirse	ˈsˠiːɾˠʃə	C	Saoirse (f. given name), 'freedom'	name	len:V;seg:ɾˠ;seg:ʃ;syl:qualmismatch	(constructed) — broad /ɾˠ/ before slender /ʃ/, per attested doirse /ˈd̪ˠoːɾˠʃə/
+Órla	ˈoːɾˠl̪ˠə	C	Orla (f. given name)	name	len:V;seg:ɾˠ;seg:l̪ˠ;syl:codaCC;eps:blocked	(constructed) — parallel to attested orlach /ˈoːɾˠl̪ˠax/; long vowel blocks epenthesis
+Oisín	ˈɔʃiːnʲ	C	Oisín (m. given name)	name	seg:ʃ;len:V;seg:nʲ;str:initial	(constructed); commonly heard with second-syllable stress outside Connacht
+Úna	ˈuːnˠə	C	Una (f. given name)	name	len:V	(constructed)
+Brian	bʲɾʲiənˠ	C	Brian (m. given name)	name	bs:labial;seg:ɾʲ;syl:onsetCC;dip:iə	(constructed) — per bliain /bʲlʲiənʲ/
+Nuala	ˈn̪ˠuəl̪ˠə	C	Nuala (f. given name)	name	seg:n̪ˠ;dip:uə;seg:l̪ˠ	(constructed) — ⟨ua⟩=/uə/ per fuar /fˠuəɾˠ/
+Máire	ˈmˠaːɾʲə	C	Mary (f. given name)	name	bs:labial;len:V;seg:ɾʲ	(constructed)
+Séamus	ˈʃeːmˠəsˠ	C	James (m. given name)	name	seg:ʃ;len:V;bs:labial	(constructed)
+Dónall	ˈd̪ˠoːnˠəl̪ˠ	C	Donal (m. given name)	name	seg:t̪ˠ;len:V;seg:l̪ˠ	(constructed)
+Colm	ˈkɔl̪ˠəmˠ	std	dove / Colm (m. given name)	name	seg:l̪ˠ;eps:epenthetic;bs:labial	wiki-irish-phonology §Post-vocalic consonant clusters and epenthesis; l+m triggers epenthesis
+Ní Bhriain	nʲiː vʲɾʲiənʲ	C	'daughter of Brian' (patronymic)	name	seg:nʲ;seg:vʲ;mut:lenition;mor:patronymic;dip:iə;syl:onsetCC	(constructed) — Ní lenites the following name, wiki-irish-name §Ó and Mac surnames
+mac	mˠak	std	son	descriptor	bs:labial;bs:dorsal	wiki-irish-orthography §Grapheme to phoneme correspondence; nominative of the mac/mic genitive pair
+mic	mʲɪc	std	son's, sons	descriptor	bs:labial;seg:c-ɟ;mor:genitive	wiki-irish-orthography §Grapheme to phoneme correspondence; genitive by slenderization of BOTH consonants — the pair to test quality-neutralizing targets
+caisleán	ˈkaʃl̠ʲaːnˠ	std	castle	descriptor	seg:ʃ;seg:lʲ;len:V;syl:codaCC	wiki-irish-orthography §Grapheme to phoneme correspondence
+caisleáin	ˈkaʃl̠ʲaːnʲ	std	castle's	descriptor	seg:ʃ;seg:lʲ;len:V;seg:nʲ;mor:genitive	wiki-irish-orthography §Grapheme to phoneme correspondence; genitive differs from nominative ONLY in final consonant quality
+bán	bˠaːnˠ	std	white, fair	descriptor	bs:labial;len:V	wiki-irish-orthography §Grapheme to phoneme correspondence; colour epithet, e.g. Máire Bhán
+dubh	d̪ˠʊw	std	black	descriptor	seg:t̪ˠ;seg:w	wiki-irish-orthography §Grapheme to phoneme correspondence; Connacht medial/final ⟨bh⟩=[vˠ] per wiki-irish-phonology §Allophones
+dearg	ˈdʲaɾˠəɡ	std	red	descriptor	bs:coronal;seg:ɾˠ;eps:epenthetic	wiki-irish-phonology §Post-vocalic consonant clusters and epenthesis; near-minimal pair with léirigh (underlying schwa), irish-schwa-kwpl p.5
+gorm	ˈɡɔɾˠəmˠ	std	blue	descriptor	seg:ɾˠ;bs:labial;eps:epenthetic	wiki-irish-phonology §Post-vocalic consonant clusters and epenthesis; the worked epenthesis example
+mór	mˠoːɾˠ	std	big	descriptor	bs:labial;len:V;seg:ɾˠ	wiki-irish-orthography; epithet slot 'Mór' between given name and surname
+mhór	woːɾˠ	std	big (lenited)	descriptor	seg:w;len:V;seg:ɾˠ;mut:lenition	wiki-irish-orthography §Grapheme to phoneme correspondence; word-initial /w/ from lenited /mˠ/
+ard	aːɾˠd̪ˠ	std	high, tall	descriptor	len:V;seg:ɾˠ;seg:t̪ˠ;syl:codaCC;eps:blocked	wiki-irish-orthography; vowel lengthened before ⟨rd⟩ (wiki-irish-phonology §Lengthening before fortis sonorants)
+dorcha	ˈd̪ˠɔɾˠəxə	std	dark	descriptor	seg:t̪ˠ;seg:ɾˠ;seg:x;eps:epenthetic	wiki-irish-phonology §Post-vocalic consonant clusters and epenthesis; /x/ counts as dorsal and triggers epenthesis
+ciúin	cuːnʲ	std	quiet	descriptor	seg:c-ɟ;len:V;seg:nʲ	wiki-irish-orthography §Grapheme to phoneme correspondence
+breá	bʲɾʲaː	std	fine	descriptor	bs:labial;seg:ɾʲ;syl:onsetCC;len:V	wiki-irish-phonology §Word-initial consonant clusters (Ní Chiosáin 1999)
+bacach	bˠəˈkax	M	lame; poor	epithet	bs:labial;seg:x;mor:suffix-ach;str:munster	wiki-irish-phonology §Munster (Ó Cuív 1944); Connacht would be /ˈbˠakəx/ — the -ach stress test case
+taoiseach	ˈt̪ˠiːʃəx	std	chieftain, leader	epithet	seg:t̪ˠ;len:V;seg:ʃ;seg:x;mor:suffix-ach;str:initial	wiki-irish-orthography §Grapheme to phoneme correspondence
+Gaelach	ˈɡeːlˠəx	std	Gaelic	epithet	len:V;seg:l̪ˠ;seg:x;mor:suffix-ach	wiki-irish-orthography §Grapheme to phoneme correspondence
+leisciúil	ˈl̠ʲɛʃcuːlʲ	std	lazy	epithet	seg:lʲ;seg:ʃ;seg:c-ɟ;len:V;mor:suffix-úil	wiki-irish-orthography §Grapheme to phoneme correspondence
+bádóir	ˈbˠaːd̪ˠoːɾʲ	std	boatman	epithet	bs:labial;len:V;seg:t̪ˠ;seg:ɾʲ;mor:suffix-óir	wiki-irish-orthography §Grapheme to phoneme correspondence
+cailín	ˈkalʲiːnʲ	C	girl	descriptor	bs:dorsal;seg:lʲ;len:V;seg:nʲ;mor:suffix-ín;str:initial	wiki-irish-orthography; Munster /kaˈlʲiːnʲ/ (wiki-irish-phonology §Munster), Ulster shortens to [ˈkalʲinʲ] (green1997 p.76) — one word, three dialect outputs
+cnoc	kɾˠʊk	C	hill	descriptor	syl:onsetCC;syl:CnCr;seg:ɾˠ	wiki-irish-phonology §Word-initial consonant clusters; Connacht/Donegal/Mayo replace the nasal with /ɾˠ/
+cnaipe	ˈkn̪ˠapʲə	std	button	descriptor	syl:onsetCC;seg:n̪ˠ;bs:labial	wiki-irish-phonology §Word-initial consonant clusters; the /kn/ form the Cn→Cɾ dialects do NOT have
+mná	mˠɾˠaː	C	women	descriptor	syl:onsetCC;syl:CnCr;seg:ɾˠ;len:V	wiki-irish-phonology §Word-initial consonant clusters; citation form /mˠn̪ˠaː/ is the one irregular labial+nasal onset
+sneachta	ˈʃnʲaxt̪ˠə	std	snow	descriptor	syl:onsetCC;syl:sC;seg:nʲ;seg:x;seg:t̪ˠ;syl:codaCC	wiki-irish-phonology §Word-initial consonant clusters
+splanc	sˠpˠl̪ˠaŋk	std	flash, spark	descriptor	syl:onsetCCC;syl:sC;seg:l̪ˠ;seg:ŋ;syl:codaCC	wiki-irish-phonology §Word-initial consonant clusters; CCCVCC — the maximal donor shape
+spraoi	sˠpˠɾˠiː	std	fun	descriptor	syl:onsetCCC;syl:sC;seg:ɾˠ;len:V	wiki-irish-phonology §Word-initial consonant clusters
+speal	sˠpʲal	std	scythe	descriptor	syl:onsetCC;syl:sC;syl:qualmismatch;bs:labial	wiki-irish-phonology §Word-initial consonant clusters; broad /sˠ/ before SLENDER /pʲ/ — the onset quality-mismatch case
+sméara	sˠmʲeːɾˠə	std	berries	descriptor	syl:onsetCC;syl:sC;syl:qualmismatch;bs:labial;len:V;seg:ɾˠ	wiki-irish-phonology §Word-initial consonant clusters; second quality-mismatch case
+scéal	ʃceːl̪ˠ	std	story	descriptor	syl:onsetCC;syl:sC;seg:ʃ;seg:c-ɟ;len:V;seg:l̪ˠ	wiki-irish-phonology §Word-initial consonant clusters; also attested /sˠceːl̪ˠ/ (mismatch variant)
+stríoc	ʃtʲɾʲiːk	std	streak	descriptor	syl:onsetCCC;syl:sC;seg:ʃ;seg:ɾʲ;len:V;bs:dorsal	wiki-irish-phonology §Word-initial consonant clusters
+beirt	bʲɛɾˠtʲ	std	two people	descriptor	bs:labial;seg:ɾˠ;bs:coronal;syl:codaCC;syl:qualmismatch	wiki-irish-phonology §Post-vocalic consonant clusters and epenthesis; broad /ɾˠ/ before slender /tʲ/ — the CODA quality-mismatch case
+ceann	caːn̪ˠ	std	head, one	descriptor	seg:c-ɟ;len:V;seg:n̪ˠ	wiki-irish-orthography; /can̪ˠ/ in wiki-irish-phonology §Sandhi, /cəun̪ˠ/ in Dingle — the ⟨nn⟩ lengthening dialect split, digest §4.2
+cois	kɔʃ	std	foot (dat.)	descriptor	bs:dorsal;seg:ʃ	wiki-irish-orthography §Grapheme to phoneme correspondence; the second element of Lasairchos
+súil	suːlʲ	std	eye	descriptor	len:V;seg:lʲ	wiki-irish-orthography §Grapheme to phoneme correspondence
+ainm	ˈanʲəmʲ	std	name	descriptor	seg:nʲ;bs:labial;eps:epenthetic	wiki-irish-phonology §Post-vocalic consonant clusters and epenthesis; near-minimal pair with anam /ˈanˠəmˠ/ (underlying schwa), irish-schwa-kwpl p.5
+oíche	ˈiːçə	std	night	descriptor	len:V;seg:ç	wiki-irish-orthography §Grapheme to phoneme correspondence
+dorn	d̪ˠoːɾˠn̪ˠ	std	fist	descriptor	seg:t̪ˠ;len:V;seg:ɾˠ;seg:n̪ˠ;syl:codaCC	wiki-irish-orthography §Grapheme to phoneme correspondence
+long	l̪ˠuːŋɡ	std	ship	descriptor	seg:l̪ˠ;len:V;seg:ŋ;syl:codaCC;eps:blocked	wiki-irish-orthography §Grapheme to phoneme correspondence; homorganic /ŋɡ/ blocks epenthesis (green1997 p.154)
+fuar	fˠuəɾˠ	std	cold	descriptor	bs:labial;dip:uə;seg:ɾˠ	wiki-irish-orthography §Grapheme to phoneme correspondence
+adharc	əiɾˠk	std	horn	descriptor	dip:əi;seg:ɾˠ;syl:codaCC	wiki-irish-orthography §Grapheme to phoneme correspondence
+leabhar	l̠ʲəuɾʲ	std	book	descriptor	seg:lʲ;dip:əu;seg:ɾʲ	wiki-irish-orthography §Grapheme to phoneme correspondence (form given for 'leabhair')
+naomh	n̪ˠiːvˠ	C	saint	descriptor	seg:n̪ˠ;len:V;seg:w	wiki-irish-phonology §Allophones; Connacht realizes final /w/ as [vˠ]
+gealbhan	ˈɟal̪ˠəwən̪ˠ	std	sparrow	descriptor	seg:c-ɟ;seg:l̪ˠ;seg:w;seg:n̪ˠ;eps:epenthetic	wiki-irish-phonology §Post-vocalic consonant clusters and epenthesis
+dhorn	ɣoːɾˠn̪ˠ	std	fist (lenited)	descriptor	seg:ɣ;len:V;seg:ɾˠ;seg:n̪ˠ;mut:lenition	wiki-irish-orthography §Grapheme to phoneme correspondence; WORD-INITIAL /ɣ/ — no home in Welsh or Arabic
+dhearg	ˈjaɾˠəɡ	std	red (lenited)	descriptor	seg:j;seg:ɾˠ;eps:epenthetic;mut:lenition	wiki-irish-orthography §Grapheme to phoneme correspondence; word-initial /j/
+chrom	xɾˠɔmˠ	std	bent (lenited)	descriptor	seg:x;seg:ɾˠ;syl:onsetCC;bs:labial;mut:lenition	wiki-irish-phonology §Word-initial consonant clusters; mutation-only onset /xɾˠ/
+bhlas	wl̪ˠasˠ	std	tasted (lenited)	descriptor	seg:w;seg:l̪ˠ;syl:onsetCC;mut:lenition	wiki-irish-phonology §Word-initial consonant clusters; mutation-only onset /wl̪ˠ/
+shnámh	hn̪ˠaːw	std	swam (lenited)	descriptor	seg:h;seg:n̪ˠ;syl:onsetCC;len:V;seg:w;mut:lenition	wiki-irish-phonology §Word-initial consonant clusters; mutation-only onset /hn̪ˠ/
+ngasúr	ˈŋasˠuːɾˠ	std	boy (eclipsed)	descriptor	seg:ŋ;len:V;seg:ɾˠ;mut:eclipsis	wiki-irish-orthography §Grapheme to phoneme correspondence; WORD-INITIAL /ŋ/
+ngeata	ˈɲat̪ˠə	std	gate (eclipsed)	descriptor	seg:ɲ;seg:t̪ˠ;mut:eclipsis	wiki-irish-orthography §Grapheme to phoneme correspondence; WORD-INITIAL /ɲ/
+mbláth	mˠl̪ˠaː	std	flower (eclipsed)	descriptor	bs:labial;seg:l̪ˠ;syl:onsetCC;len:V;mut:eclipsis	wiki-irish-phonology §Word-initial consonant clusters
+na héisc	n̪ˠə heːʃc	std	the fish (pl.)	descriptor	seg:n̪ˠ;seg:h;len:V;seg:ʃ;seg:c-ɟ;mut:hproth	wiki-irish-orthography §Grapheme to phoneme correspondence; h-prothesis
+an tsneachta	ə tʲɾʲaxt̪ˠə	C	the snow (gen.)	descriptor	bs:coronal;seg:ɾʲ;seg:x;seg:t̪ˠ;mut:tproth;syl:CnCr	wiki-irish-phonology §Word-initial consonant clusters; article + lenited /ʃnʲ/ gives /tʲɾʲ/ in the Cn→Cɾ dialects
+droch-dhuine	ˈd̪ˠɾˠɔxˈɣinʲə	std	bad person	epithet	seg:t̪ˠ;seg:ɾˠ;seg:x;seg:ɣ;seg:nʲ;mor:compound;mut:lenition;str:compound	wiki-irish-phonology §Compound words; TWO primary stresses; /ɣ/ at the compound seam
+drochbhéasach	ˈd̪ˠɾˠɔxˌvʲeːsəx	std	ill-mannered	epithet	seg:ɾˠ;seg:x;seg:vʲ;len:V;mor:compound;mor:suffix-ach;str:compound	wiki-irish-phonology §Compound words; primary + secondary stress
+Fíor-Dhia	ˈfʲiːɾˠˈjiːə	std	True God	epithet	bs:labial;len:V;seg:ɾˠ;seg:j;mor:compound;mut:lenition;str:compound	wiki-irish-phonology §Compound words; /j/ at the compound seam; vowel hiatus /iː.ə/
+lagphortach	ˈl̪ˠaɡˌfˠɔɾˠt̪ˠəx	std	spent bog	epithet	seg:l̪ˠ;bs:labial;seg:ɾˠ;seg:t̪ˠ;seg:x;mor:compound;mor:suffix-ach;str:compound	wiki-irish-phonology §Compound words; the default compound pattern ˈσ…ˌσ; /f/ from lenited /pˠ/
+garmhac	ˈɡaɾˠwak	std	grandson	epithet	seg:ɾˠ;seg:w;bs:dorsal;mor:compound;eps:blocked	wiki-irish-orthography §Epenthesis; MORPHEME BOUNDARY blocks the expected /ɾˠ_w/ epenthesis
+carrbhealach	ˈkaːɾˠvʲalˠəx	std	carriageway	epithet	len:V;seg:ɾˠ;seg:vʲ;seg:l̪ˠ;seg:x;mor:compound;eps:blocked	wiki-irish-orthography §Epenthesis; morpheme boundary + long vowel both block
+an-chiúin	ˈan̪ˠçuːnʲ	std	very quiet	epithet	seg:n̪ˠ;seg:ç;len:V;seg:nʲ;mor:compound;mut:lenition	wiki-irish-orthography §Epenthesis; /ç/ before a back vowel
+Ard-Easpag	ˈaːɾˠd̪ˠˈæsˠpˠəɡ	std	Archbishop	epithet	len:V;seg:ɾˠ;seg:t̪ˠ;mor:compound;str:compound	wiki-irish-phonology §Compound words; two primary stresses; note the [æ] allophone
+ardnósach	ˈaːɾˠd̪ˠˌn̪ˠõːsəx	std	haughty	epithet	len:V;seg:ɾˠ;seg:t̪ˠ;seg:n̪ˠ;seg:x;mor:compound;mor:suffix-ach;str:compound	wiki-irish-phonology §Compound words; nasalized [õː] adjacent to a nasal
+an-mhaith	ˈanˈwa	std	very good	epithet	seg:w;mor:compound;mut:lenition;str:compound	wiki-irish-phonology §Compound words; two primary stresses; /w/ from lenited /mˠ/
+fíoruisce	ˈfʲiːɾˠˌɪʃcə	std	spring water	epithet	bs:labial;len:V;seg:ɾˠ;seg:ʃ;seg:c-ɟ;mor:compound;str:compound	wiki-irish-phonology §Compound words
+borb	ˈbˠɔɾˠəbˠ	std	abrupt, fierce	epithet	bs:labial;seg:ɾˠ;eps:epenthetic	wiki-irish-phonology §Post-vocalic consonant clusters and epenthesis
+fearg	ˈfʲaɾˠəɡ	std	anger	descriptor	bs:labial;seg:ɾˠ;eps:epenthetic	wiki-irish-phonology §Post-vocalic consonant clusters and epenthesis
+téarma	ˈtʲeːɾˠmˠə	std	term	descriptor	bs:coronal;len:V;seg:ɾˠ;bs:labial;eps:blocked	wiki-irish-phonology §Post-vocalic consonant clusters and epenthesis; long vowel blocks epenthesis
+dualgas	ˈd̪ˠuəl̪ˠɡəsˠ	std	duty	descriptor	seg:t̪ˠ;dip:uə;seg:l̪ˠ;eps:blocked;syl:codaCC	wiki-irish-phonology §Post-vocalic consonant clusters and epenthesis; diphthong blocks epenthesis
+Cairmilíteach	ˈkaɾʲmʲəlʲiːtʲəx	std	Carmelite	epithet	seg:ɾʲ;bs:labial;seg:lʲ;len:V;bs:coronal;seg:x;mor:suffix-ach;eps:blocked	wiki-irish-phonology §Post-vocalic consonant clusters and epenthesis; ≥3 syllables blocks epenthesis IN CONNACHT ONLY (green1997 pp.152-153)
+seirbhís	ˈʃɛɾʲəvʲiːʃ	std	service	descriptor	seg:ʃ;seg:ɾʲ;seg:vʲ;len:V;eps:epenthetic	wiki-irish-phonology §Post-vocalic consonant clusters and epenthesis; slender-quality epenthesis environment
+tobac	təˈbak	std	tobacco	descriptor	seg:t̪ˠ;bs:dorsal;str:initial	wiki-irish-phonology §Stress; a loanword with EXCEPTIONAL non-initial stress in Connacht/Ulster
