@@ -134,3 +134,25 @@ Source-side needs (Irish): an Irish phoneme inventory with the broad/slender pai
   67–87%. All required fixes were sent back and applied (Dutch, Welsh, Irish done; Georgian,
   Arabic in progress). Digests remain secondary sources — cite the underlying `[key p.N]` when a
   rule matters.
+
+## Decisions from the user, 2026-08-24 (after the step-2 report)
+
+1. **Broad/slender**: user has no view; asked for speculative defaults. Working defaults proposed
+   by Claude (see report follow-up in chat; to be written into each rule file as a labelled
+   design choice): keep the contrast on coronals only, via each target's native palatal
+   series (/ʃ tʃ dʒ/ where available); drop it on labials and dorsals; slender C before a back
+   vowel gets a yod onglide where the target has a device for it (Welsh ⟨si/di/ti⟩, Dutch Cj,
+   Georgian Ci) and nothing in Arabic; broad coronals → emphatics in Arabic, no emphasis
+   spread implemented.
+2. **The generator emits mutated/inflected Irish forms** (vocative, genitive chains, article
+   phrases). Every target rule file must handle word-initial /w x ɣ ç j h ŋ ɲ/ and the
+   mutation-onset clusters.
+3. **Romanization: English-reader respelling** for all five outputs (not authentic target
+   orthography + key).
+4. **Strand 4: reduce deviations from actual Georgian.** Consequence: spelling choices (`x`,
+   `tch`, `y`) belong to the respelling layer under (3) and are not phonological deviations;
+   the phonological overlays should shrink to inventory-forced repairs only. Bare-stem output
+   for *personal names* is attested Georgian practice (Davit, Tamar, Levan, Zurab, Nikoloz are
+   consonant-final in citation form) and so is not a deviation; common-noun epithets keep -i.
+   Default to Gabunia's *measured* pattern (aspirate by default, ejective post-consonantally)
+   rather than the prescriptive all-ejective norm; drop word-level laryngeal harmony.
