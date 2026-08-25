@@ -91,7 +91,7 @@ citing Watson 2002 p.21; abdelmassih-intro; hassig2011-cairene p.13].
 | /v/ | loan-only, marginal; substitutes to /f/ (also /b/, /w/) | [wiki-egy-phonology §Consonants note 2]; "[v] is an allophone of /f/", e.g. [ravd] for /rafd/ 'refusal', "mainly found in loanwords" [ema1958 §13 n.1, §15]. |
 | /ʒ/ | loan-only, marginal; substitutes to /ʃ/ | "tends to merge with [ʃ]": garage is mostly [ɡɑˈɾɑːʃ] "even by educated speakers" [wiki-egy-phonology §Consonants note 2]. Hafez agrees, attributing the /ʃ/ outcome to a Coptic substrate: garaaǧ ~ garaaš [ema1958 §17]. |
 | /rˤ/ | **underlying emphatic** for Broselow; "additional marginal consonant" for Watson | Broselow lists /tˤ dˤ sˤ zˤ **rˤ lˤ**/ as the underlyingly emphatic set [broselow1976 p.xiii]. Watson calls /ɾˤ bˤ mˤ lˤ/ "additional consonants ... with marginal status", with minimal pairs [ˈbɑʔɑɾi] 'my cows' vs [ˈbæʔæɾi] 'cow-like' [wiki-egy-phonology §Consonants note 4, citing Watson 2002 p.22]. `CONFLICT:` underlying (Broselow) vs. marginal (Watson) — but both have /rˤ/ and /lˤ/. **Abdel-Massih sides with Broselow**: "the emphatic counterparts of the PLAIN /t d s z l r/", six phonemic emphatics /tˤ dˤ sˤ zˤ lˤ rˤ/ [abdelmassih-intro p.6]. `CONFLICT` again with hassig2011-cairene p.13–14, which has four and analyses [lˤ rˤ] as allophones. Two of three sources give six. |
-| /bˤ mˤ/ | marginal, chiefly in loans | minimal pair /bˤaːbˤa/ [ˈbɑːbɑ] 'patriarch' vs /baːba/ [ˈbæːbæ] 'Paopi' [wiki-egy-phonology §Consonants note 4]. Broselow reports only `mayya` /ˈmɑjjɑ/ 'water' as an /mˤ/ candidate, and notes transcribers disagree about it [broselow1976 p.57 n.8]. She does **not** report emphatic /b/ or /f/ as a class. |
+| /bˤ mˤ/ | marginal, chiefly in loans | minimal pair /bˤaːbˤa/ [ˈbɑːbɑ] 'patriarch' vs /baːba/ [ˈbæːbæ] 'Paopi' [wiki-egy-phonology §Consonants note 4]. Broselow's footnote gives **"three possible exceptions"** to the rule that every emphatic word contains an underlying emphatic — (i) `mayya` /ˈmɑjjɑ/ 'water', transcribed emphatic by Lehn & Abboud but plain by Abdel-Massih; (ii) `ħammˤa` 'boil' vs plain `ħamma` 'he bathed'; (iii) `ʕumˤʔ` 'depth' vs plain `ʕunʔ` 'neck' [broselow1976 p.57 n.8]. Only (i) is disputed between transcribers; (ii) and (iii) are minimal pairs in her own data. She does **not** report emphatic /b/ or /f/ as a class. |
 | /q/ | marginal; learned/Literary vocabulary only | `CONFLICT` and detail in §0 above. In Broselow's terms /q/ is the one segment that is **always** emphatic: "All segments except /q/ occur both emphatic and non-emphatic" [broselow1976 p.32], and it triggers emphasis in its syllable [broselow1976 p.xiii]. Note Hafez treats /q/ as an available segment that loans can be *given*: `k → q / _ back V` (see §3) [ema1958 §19–20]. |
 | /ŋ/ | not a phoneme; occurs as an allophone of /n m/ before a velar | /m/ → [ŋ] before a velar within the phonological word [hassig2011-cairene p.35, p.65 n.10]. Cairene also has /nb/ → [mb] (/zanb/ → [zæmb]) [wiki-egy-phonology §Assimilation]. Loan data shows source /ŋ/ simply **retained**: 'spring' → [ʔispiriŋ] [broselow-position-quality p.295]; Hafez's data has `weng` 'wing', `zegzaag`, `t(e)reng` with `ng` and no comment [ema1958 §32, §24]. |
 | /tʃ/ | not native; → /ʃ/, though increasingly retained | šebs~šibs 'chips', wenš 'winch', marš 'march', konšertu 'concerto', šiili 'Chile' [ema1958 §17]; but hypercorrect /tšok/ 'shock' shows /tʃ/ being inserted where it does not belong [ema1958 §38], and Galal's data keeps it: `kalatʃ` 'clutch', `ʔisbiitʃ` 'speech' [kwpl-ot-cairene-loan p.2–3]. |
@@ -337,11 +337,13 @@ epenthesis rules unusually safe to implement.
 
 ### 3.1 Illicit onset cluster — the central rule, and it is SONORITY-CONDITIONED
 
-Cairene has no complex onsets at all (§2), so every donor onset cluster must be repaired. Which
-repair applies depends on the sonority profile of the cluster:
+Cairene has no complex onsets at all (§2), so every donor onset cluster must be repaired. The
+repair is sonority-conditioned — but **the conditioning is only established for the two cluster
+classes the sources actually instantiate**, (a) and (b) below. Classes outside them are listed in
+(d) and are unresolved; do not let the headline rule generalize over them.
 
-**(a) Rising sonority (obstruent + liquid/glide, and /s/ + liquid/glide) → ANAPTYXIS, vowel inserted
-INSIDE the cluster, between C1 and C2. No glottal stop.**
+**(a) Obstruent + liquid/glide, and attested /sl/, /sw/ → ANAPTYXIS: vowel inserted INSIDE the
+cluster, between C1 and C2. No glottal stop.**
 
 `Ø → i / # C _ C V` where C1C2 rises in sonority
 
@@ -365,9 +367,11 @@ INSIDE the cluster, between C1 and C2. No glottal stop.**
 | balcon | balakoona | [ema1958 §29] |
 
 Note **/sl/ and /sw/ pattern with the rising group** (silayd, siwetar), not with /s/+stop
-[broselow-position-quality p.295 (2a)]. The split is /s/+**obstruent** vs everything else — but
-Broselow hedges the sonorant side as "(and possibly some or all S-resonant clusters)", so /sm sn/
-are **not** settled by this data. See §9.4.
+[broselow-position-quality p.295 (2a)]. Those two are the *only* S+sonorant clusters attested.
+Broselow's own typological statement hedges the whole class — mixed-pattern languages insert
+before "S-stop clusters **(and possibly some or all S-resonant clusters)**"
+[broselow-position-quality p.704 of the .txt extraction; printed p.308] — so **/sr sm sn/ are not
+settled by this data**. See (d) and §9.4.
 
 **(b) /s/ + obstruent → PROTHESIS, vowel inserted BEFORE the cluster, plus an inserted
 glottal stop to give the new syllable an onset.**
@@ -406,6 +410,18 @@ two vowels inserted [broselow-position-quality p.298 n.5]. Same shape in Hafez: 
 /ʔes-te-retš/ [ema1958 §29], and in the L2 data: *spring* → ʔisbiring, *spleen* → ʔisbileen
 [ijllnet-cairene-english-syll p.108].
 
+**(d) Everything else → UNRESOLVED. Do not dispatch these from (a) or (b).**
+
+| donor onset | why it is not covered |
+|---|---|
+| **/sr/** | no attested example; `silajd`/`siwetar` instantiate /sl/ and /sw/ only, and Broselow's hedge covers "some or all S-resonant clusters". Options: anaptyxis `sir-` by analogy with /sl sw/, or prothesis `ʔisr-` by analogy with /s/+stop. |
+| **/sm/, /sn/** | same; no source has an /sm/ or /sn/ example. |
+| **/kn/, /gn/, /mn/** (stop/nasal + nasal) | no Cairene source has a stop+nasal onset at all. Their sonority profile is *falling*, like /s/+stop, which would suggest prothesis — but that is an inference from typology, not a Cairene finding. Options: prothesis `ʔikn-`, or anaptyxis `kin-`. |
+| **/ʃC/** (Irish slender s + C) | `(unattested)`; see §8.5. |
+
+These four rows are the difference between a rule file that is faithful to the sources and one
+that quietly invents Cairene. Irish supplies all of them.
+
 `CONFLICT (internal to Broselow, and it matters).` broselow1976 p.23 rule (80) states Word-Initial
 Epenthesis as **unconditional prothesis** `Ø → i / # _ CC`, with no sonority condition and no
 glottal stop: imperatives `iktib` 'write!', `iʃrab` 'drink!', `irmi` 'throw!', `imʃi` 'go!'; derived
@@ -413,8 +429,11 @@ verbs `itgamaʕ`, `igtamaʕ`, `istaʔbil`; the article /l/ → `il`. broselow-po
 gives the sonority-conditioned mixed system above.
 **These are not really in competition** — 1976 describes clusters derived by *native morphology*,
 2015 describes *borrowing*. **For an Irish-input generator, implement the 2015 mixed pattern.**
-Hafez independently confirms the mixed pattern for loans [ema1958 §29] and even records a doublet:
-*classeur* → /ʔaklaseer/ (prothesis) ~ /kelaseer/ (anaptyxis).
+Hafez's data are **compatible** with the mixed pattern — she documents both pre-cluster and
+cluster-internal vowels — but she states no sonority-conditioned division, and she records a
+doublet on the same word: *classeur* → /ʔaklaseer/ (prothesis) ~ /kelaseer/ (anaptyxis)
+[ema1958 §29]. So the *conditioning* rests on Broselow and Galal; Hafez corroborates only that
+both sites are used.
 
 ### 3.2 Three-consonant sequences (CCC) — epenthesis after C2
 
@@ -565,11 +584,33 @@ Attested mappings first; `(fallback)` marks a feature-nearest guess.
 | /dʒ/ | **ʒ** (thence often ʃ) | 'Jeep' → /ʒebb/ [ema1958 §17]. |
 | /tʃ/ | **ʃ** | šebs 'chips', wenš 'winch', marš 'march', konšertu 'concerto', šiili 'Chile' [ema1958 §17]. Often retained: kalatʃ 'clutch', ʔisbiitʃ 'speech' [kwpl-ot-cairene-loan p.2–3]. |
 | /θ/ | **t** (English loans) / **s** (Classical loans) | tormos 'thermos', termometr, termostaat ~ sermostaat, and `talaata` 'three'; the /s/ side is the Classical stratum, `saqaafa` ~ `saʔaafa` < *thaqaafah* [ema1958 §16]. `CONFLICT:` "Non-Egyptianized loanwords having interdental consonants (/θ/, /ð/) are approximated to the sibilants [s], [z]" [wiki-egy-phonology §Consonants note 5]. |
-| /ð/ | **z** (learned) / **d** (inherited) | ʔizaːʕa < ʔiðaːʕa; deːl < *ðajl [wiki-egy-phonology §Consonants]. `not covered` by ema1958. |
-| /q/ (donor) | **ʔ** or **k** | "Non-Egyptianized loanwords with /q/ may either be Egyptianized to [ʔ] or approximated to [k], with the front vowel /æ/ being backed to [ɑ] in a word having an open vowel in the latter case" [wiki-egy-phonology §Consonants note 5]. |
-| /g/ (donor) | **g** normally, but **ʁ~ɣ** in a documented set | fonoXrââf 'phonograph', talleXrââf 'telegraph', mâXnâtiis 'magnet' — Hafez attributes this to Levantine jīm making ġayn the Arabic script's way of writing foreign /g/ [ema1958 §21, note 2]. A spelling-mediated, not a phonetic, repair. |
-| /ŋ/ | **ŋ** (retained) or **ng** | 'spring' → ʔispiriŋ [broselow-position-quality p.295]; weng 'wing', zegzaag, t(e)reng [ema1958 §24, §32], with no comment from either author. |
+| /ð/ | **z** (learned) / **d** (inherited) | ʔizaːʕa < ʔiðaːʕa; deːl < *ðajl [wiki-egy-phonology §Consonants]. **Both examples are Arabic-internal history, not foreign loans**; no non-Arabic loan row instantiates this in `attested.tsv`. `not covered` by ema1958. |
+| /q/ (donor) | **ʔ** or **k** *(no attested row in `attested.tsv`)* | "Non-Egyptianized loanwords with /q/ may either be Egyptianized to [ʔ] or approximated to [k], with the front vowel /æ/ being backed to [ɑ] in a word having an open vowel in the latter case" [wiki-egy-phonology §Consonants note 5]. |
+| /g/ (donor) | **g** *(inventory-based fallback — no attested identity loan row; Cairene simply has /g/)*, but **ʁ~ɣ** in a documented set | fonoXrââf 'phonograph', talleXrââf 'telegraph', mâXnâtiis 'magnet' — Hafez attributes this to Levantine jīm making ġayn the Arabic script's way of writing foreign /g/ [ema1958 §21, note 2]. A spelling-mediated, not a phonetic, repair. |
+| /ŋ/ | **OPEN DECISION** — see below | 'spring' → ʔispiriŋ [broselow-position-quality p.295]; weng 'wing', zegzaag, t(e)reng [ema1958 §24, §32], with no comment from either author. |
 | /x/, /ɣ/, /h/ | **x**, **ɣ**, **h** — native, no repair | [wiki-egy-phonology §Consonants]. Neither Hafez nor Galal has occasion to discuss them as inputs: `not covered` as a loan mapping, but the segments exist. |
+
+> ### OPEN DECISION — does the output inventory admit /ŋ/?
+>
+> `CONFLICT (inventory vs. loan data).` §1 has /ŋ/ as **not a phoneme** — it arises only as an
+> allophone of /n m/ before a velar [hassig2011-cairene p.35, p.65 n.10; wiki-egy-phonology
+> §Assimilation], and it is absent from every inventory chart consulted (Watson via Wikipedia,
+> Abdel-Massih Table 1, Hassig, LAPSyD, the PHOIBLE row). But the loan data **retains** it:
+> Broselow prints `[ʔispiriŋ]` 'spring' [broselow-position-quality p.295], and Hafez's `weng`
+> 'wing', `zegzaag`, `t(e)reng` are consistent with either reading. Neither author comments.
+>
+> The evidence is one printed transcription against every inventory in the bibliography. Irish
+> has /ŋ/ (and /ŋʲ/), so the generator will hit this on real input. Options:
+> 1. **Admit marginal /ŋ/** alongside /p v ʒ/, on Broselow's transcription. Consistent with the
+>    loan datum; inconsistent with every inventory.
+> 2. **Rewrite to /n/+/g/** — output `ng`, which is what the phonology predicts (an /n/ that
+>    assimilates to a following velar) and what Hafez's spellings are equally compatible with.
+>    Note this only works before a velar; word-finally (Irish *long* /l̪ˠɔŋ/) it would give
+>    a final /ng/ cluster, which §2 licenses as a final CC.
+> 3. **Rewrite to /n/** outright, losing the segment.
+> Option 2 is the one that follows from the Cairene grammar rather than from a single
+> transcription, but the digest does not choose. This belongs on the same register dial as
+> /p v ʒ tʃ/ and initial CC (§1) — **pick one point and hold it**.
 
 **Idiosyncratic substitutions** Hafez reports with no stated conditioning [ema1958 §22]:
 `z → s` (jeans > gens), `k → g` (cravate > gârâfâttâ), `m → n` (album > ʔalboon, diplôme >
@@ -589,20 +630,30 @@ voiced"; passeport → /bâzboor/, `s → z / _ b` agreeing with the /b/ that re
   Loan evidence: accessoire → /ʔekseswââr/, autobus → /ʔotobiis/, hôtel → /ʔoteel/, élastique →
   /ʔastek/ [ema1958 §28]; [ʔotobiːs] [broselow-arabic-syll p.2]; America → [ʔamriːka]
   [ojml-cairene-syllable p.260].
+  **Two transcription levels, reconciled**: Abdel-Massih's lexicon prints the same word **without**
+  the glottal stop, `utubiis` [abdelmassih-v4 p.150], as do his other vowel-initial entries. This
+  is not a competing output form but a difference in representation level — his lexicon cites
+  stems, and Broselow's Late-ʔ-Insertion is a **postlexical** rule that supplies [ʔ] only where a
+  syllable would otherwise begin with a vowel, i.e. phrase-initially or after a pause
+  [broselow1976 p.49 (164)]. A rule file should store the vowel-initial stem and insert [ʔ] at
+  output time, exactly as Broselow orders it. *(The reconciliation is this digest's, from the two
+  sources' rule ordering; neither states it.)*
   Broselow's ʔ-Insertion is ordered **before** the CCC rule, so an inserted [ʔ] can itself be the
   third consonant and trigger epenthesis: /ʃugl ʔibnak/ → ʃugli ʔibnak 'your son's work'
   [broselow1976 pp.25–26 (87): "an initial glottal stop is counted as a
   third consonant, triggering the application of I Ep"].
-- **No final devoicing** is reported by any source. `not covered` — and given `gens`, `zegzaag`,
-  `ʒebb`, `katsabb`, final voiced obstruents plainly survive [ema1958 §31, §22].
+- **No final _obstruent_ devoicing** is reported by any source: `gens`, `zegzaag`, `ʒebb`,
+  `katsabb` all keep a final voiced obstruent [ema1958 §22, §31]. Cairene **does** have a narrow
+  final *sonorant* devoicing allophone — utterance-final /r l/ devoice after a voiceless obstruent
+  (`ʔatˤr̥`, `ratˤl̥`, `ʔifl̥`) [abdelmassih-intro p.27; abdelmassih-v3 p.42] — see §1 and §8.3.
 - **Final-vowel addition**: not a general rule, but see §3.9 — inanimate loans strongly prefer to
   end in feminine /-a/.
 
 ### 3.8 Vowel adaptation
 
-**Donor vowel LENGTH is not inherited. Length is assigned by Cairene stress.** This is the single
-most consequential statement in the loanword literature for an Irish-input generator, and Hafez
-states it directly:
+**Donor vowel length is not what determines Cairene length; Cairene stress is.** This is the most
+consequential statement in the loanword literature for an Irish-input generator — but read what it
+does and does not establish (see the OPEN DECISION box below). Hafez:
 > "vowels are especially lengthened when they are in a stressed syllable, **stress following EA
 > patterns rather than following the model pronunciation of the loanword in the SL**. Such
 > lengthening is basic to stressed syllables in EA as it is a syllable-timed language while many
@@ -612,6 +663,33 @@ states it directly:
 Examples: gaˈloon 'gallon', sâˈloon 'salon', ˈluuri 'lorry', kaˈtaawet 'cutout', maˈdaam 'madame',
 seˈwiitâr 'sweater', dântˈeel 'dentelle', ʔetikˈeet 'étiquette', teliˈfoon 'telephone',
 telefezˈjoon 'television' [ema1958 §26].
+
+> ### OPEN DECISION — how Irish quantity enters the derivation
+>
+> **What the sources establish:** (a) Cairene assigns stress by its own rule regardless of the
+> donor's stress [ema1958 §26, §34]; (b) a stressed syllable is lengthened [ema1958 §26];
+> (c) once quantity is present, native rules shorten it in closed syllables, in unstressed
+> syllables, and down to one long vowel per word (§3.8 rules 1–4).
+>
+> **What they do NOT establish:** that a donor long vowel is *erased* on the way in. Hafez says
+> only that vowels are "especially lengthened when they are in a stressed syllable" and that
+> stress follows EA rather than source patterns. She does not test, and her corpus cannot test,
+> whether donor quantity is preserved where Cairene would independently permit it — **every
+> `source_ipa` cell in `attested.tsv` is empty because no source states the donor pronunciation**
+> (§7). Several of her own forms are compatible with inheritance (`ˈluuri` < *lorry*,
+> `maˈdaam` < *madame*), and the digest cannot separate "inherited" from "assigned by stress and
+> coincidentally matching".
+>
+> **Therefore the input mapping from Irish long/short quantity to Cairene underlying quantity is
+> `not covered` and is a design decision.** Two coherent positions:
+> 1. **Discard donor quantity**: map every Irish vowel to a Cairene short vowel, let the stress
+>    rule lengthen, then let §3.8 shorten. Maximally faithful to Hafez's stated generalization;
+>    loses Irish length entirely as a contrast.
+> 2. **Carry donor quantity in, then let the native rules act on it**: map Irish /iː/ → /iː/ etc.,
+>    and rely on §3.8 rules 1–4 to remove it wherever Cairene disallows it. Not contradicted by
+>    anything in the sources, and preserves more of the Irish input.
+>
+> Do **not** encode "donor length is erased" as a rule — that is stronger than the evidence.
 
 `CONFLICT (a gap, not a disagreement): bib.md describes broselow-stress-adaptation as covering
 "what happens to source-language stress in loans". It contains no Arabic loanword data at all` —
@@ -751,7 +829,11 @@ backwards will mis-stress a large share of generated names:
 > [ˈmadrase]." [watson2011-word-stress p.2991]
 
 For runs of four or more light syllables, which step 2 cannot resolve, Watson and McCarthy both
-give Langendoen's (1968) fuller rule: stress the penult or antepenult — whichever is separated by
+give Langendoen's (1968) fuller rule. **Note its evidential domain**: Watson says such long
+all-light strings are *unattested in native Cairene vocabulary*, and the evidence for the rule is
+Cairene pronunciation of Classical Arabic (Mitchell 1960/1975) [watson2011-word-stress
+pp.3003–3004]. It is the best available extension for long generated forms — the tool will
+produce strings Cairene words never have — but it is not observed native lexical phonotactics: stress the penult or antepenult — whichever is separated by
 an **even** number of syllables from the rightmost non-final heavy syllable, or, if there is
 none, from the left word boundary [watson2011-word-stress p.3004 (30c);
 mccarthy1979-stress-syll p.447 (5)]. Equivalently: group light syllables into left-headed pairs
@@ -810,9 +892,11 @@ three environments (all in §3.8): before CC, when unstressed, and (for /eː oː
 shortened, since the shortened output merges with /i u/. Long vowels are otherwise **always
 stressed** [wiki-egy-phonology §Vowels]. Word-final CVː is banned [hassig2011-cairene p.31].
 
-**Practical consequence for Irish input**: an Irish long vowel survives only if the Cairene stress
-rule happens to put stress on that syllable and the syllable is not closed by two consonants.
-Everywhere else it shortens — and /eː oː/ shorten all the way to [e o] ≈ /i u/.
+**Practical consequence for Irish input**: *once a long vowel is present in the Cairene form*, it
+survives only where the stress rule puts stress on that syllable, the syllable is not closed by
+two consonants, and no other long vowel already occupies the word. Everywhere else it shortens —
+and /eː oː/ shorten all the way to [e o] ≈ /i u/. **Whether Irish length gets into the Cairene
+form in the first place is unresolved — see the OPEN DECISION box in §3.8.**
 
 ### Stress vs. epenthesis ordering
 
@@ -930,7 +1014,7 @@ a way that would make two generated names collide:
 | /ɪ e/ | **e** | |
 | /i iː/ | **i** | |
 | /ʊ o/ | **o** | |
-| /u uː/ | **ou** | *Foul, Nounou* — `ou` reads correctly to an English eye |
+| /u uː/ | **ou** | *Foul, Nounou* — this is the Egyptian popular spelling [wiki-help-ipa-egy]; the claim that it reads well to an English eye is a project judgement, not a source claim |
 | /eː/ | **ei** | *Leil* |
 | /oː/ | **o** | *Roh* |
 | /aj aw ej/ | ay aw ey | |
@@ -962,7 +1046,8 @@ Form **/il-/**, Cairene, *not* MSA `al-`. Underlyingly /ʔil-/, and the /ʔ/ "al
   'the camel' [abdelmassih-v3 p.83].
 - **After a vowel the article is `l-`**, and still assimilates: `itˤtˤaaliba lgidiida` 'the new
   student (f)', `itˤtˤaaliba nnabiiha` 'the intelligent student' [abdelmassih-v3 p.83, pp.42–43].
-- Before a /ʔ/-initial stem: `il-`, e.g. `ilʔarnab` 'the rabbit'.
+- Before a /ʔ/-initial stem: `il-`, e.g. `(ʔ)arnab` → `ilʔarnab` 'the rabbit', `(ʔ)adab` →
+  `ilʔadab` 'the literature' [abdelmassih-v3 p.84].
 - A small class takes **`l- ~ lil-`** with the stem's /ʔ/ dropped — Form VIII verbal nouns,
   the `ʔaCCaC` colour adjectives, and `itneen` 'two': `ʔaħmarˤ` → `laħmarˤ ~ illaħmarˤ` 'the red'
   [abdelmassih-v3 p.84]. **This matters directly**: the elative/colour pattern in item 4 below
@@ -976,7 +1061,7 @@ list for a rule file: obligatory before /t tˤ d dˤ s sˤ z zˤ r rˤ n/ and /�
 enumerated set is exactly "t, ṭ, d, ḍ, s, ṣ, z, ẓ, r, ṛ, and n" plus /ʃ/ — **/l/ is not in it**,
 since il- + l- gives a geminate anyway [abdelmassih-v3 p.83]); optional before /k g/;
 none before /ʔ b f q x ɣ ħ ʕ h m w j/ (and the loan segments /p v ʒ/ are unclassified —
-a design decision; /ʒ/ patterns with /ʃ/ phonetically and could reasonably assimilate).
+a design decision — `(unattested)`: Abdel-Massih classifies /ʃ/, not loan /ʒ/, and no source says what the article does before a loan segment. That /ʒ/ would pattern with /ʃ/ is this digest's inference from their shared place, not a finding).
 
 ### 2. Nisba (relative adjective) — the workhorse for place/origin epithets
 
@@ -1155,20 +1240,25 @@ phrase.
 
 See **`attested.tsv`** in this directory (format: `../ATTESTED-FORMAT.md`).
 
-**Count: 314 rows** (plus a header).
+**Count: 312 rows** (plus a header). Of these, **301 are attestations** and **11 are predicted,
+not observed** — the latter carry the literal token `PREDICTED-NOT-ATTESTED: ` at the start of the
+`note` field so they can be filtered mechanically (`awk -F'\t' '$8 !~ /^PREDICTED-NOT-ATTESTED/'`).
+Two Makkan (Hijazi) rows that an earlier draft kept "for contrast" have been removed outright:
+they are not Egyptian data and do not belong in this file.
 
 Provenance mix:
 - **231 rows from `ema1958` (Hafez 1996)** — a loanword-integration article, whose examples are
   given in running text with the author's own transcription. This is the bulk of the file.
 - **20 rows from `kwpl-ot-cairene-loan` (Galal 2004)** — his two numbered data sets, re-read
   from the PDF page images because the `.txt` extraction garbles several forms.
-- **10 rows from `broselow-position-quality` (2015)**, +1 from `broselow-arabic-syll` — Broselow's Cairene English-loan list,
+- **8 rows from `broselow-position-quality` (2015)**, +1 dual-provenanced with `ema1958` — Broselow's Cairene English-loan list,
   which independently corroborates Galal's forms and adds the sonority split.
 - **28 rows from the Abdel-Massih volumes** (14 from `-v4`, 10 from `-intro`, 4 from `-v3`) — established loans as they appear in a
   dictionary and a teaching grammar, every one confirmed against the PDF page images.
 - **13 rows from Wikipedia** (`wiki-egy-phonology`, `wiki-egy-arabic`, `wiki-help-ipa-egy`),
   several of which Wikipedia itself sources to Hinds & Badawi 1986 or Watson 2002.
-- **11 rows from `ijllnet-cairene-english-syll` (Khalifa 2018)**, which are **not observed data
+- **11 rows from `ijllnet-cairene-english-syll` (Khalifa 2018)**, prefixed
+  `PREDICTED-NOT-ATTESTED:`, which are **not observed data
   at all**: they come from a starred table headed "Error", introduced with "it is expected that
   the Cairene learners will … tend to…" — i.e. they are the author's *predictions* of L2 errors,
   not recorded productions and not lexicalized loans. They are kept because they are the only
@@ -1177,7 +1267,7 @@ Provenance mix:
   of any count. §3.4's three-member-coda evidence rests on them and is correspondingly weak.
 
 **Biases to be aware of:**
-1. **Donor mix is European.** 169 English, 98 French, 37 Italian, 5 Turkish, 3 Spanish, 1 Latin, 1 Japanese. There is no Celtic, no Germanic beyond English, and nothing with a palatalization
+1. **Donor mix is European.** 167 English, 98 French, 37 Italian, 5 Turkish, 3 Spanish, 1 Latin, 1 Japanese. There is no Celtic, no Germanic beyond English, and nothing with a palatalization
    contrast. §8's palatalization question therefore has no data behind it and cannot get any
    from this file.
 2. **`source_ipa` is blank in EVERY row.** None of the sources states the donor pronunciation —
@@ -1187,13 +1277,17 @@ Provenance mix:
 3. **The `ema1958` rows do not show emphatics.** The OpenEdition online text has the emphatic
    diacritics stripped (the journal states this); every row from that source carries
    `emphatics unmarked in source` in the note column. **Absence of an emphatic in one of those
-   rows is not evidence of a plain consonant.** The `target_ipa` in those rows is a mechanical
+   rows is unverifiable, NOT evidence of a plain consonant** — never use it as negative evidence. The `target_ipa` in those rows is a mechanical
    conversion of Hafez's transcription and inherits the same gap. (Her `â` symbol is read as
    /ɑ/; that identification is an inference from its distribution, not something the readable
    text states.)
 4. **Abdel-Massih's lexicon states no etymologies**, so every donor language in those 28 rows is
    this digest's inference and is marked as such in the note column.
-5. **Register.** Hafez shows that the degree of integration is socially conditioned (§1), and her
+5. **Status is encoded in the note field, not in a column.** `../ATTESTED-FORMAT.md` fixes the
+   schema at eight columns and is shared across all the target languages, so this digest did not
+   add a `layer` column unilaterally. If the format owner wants one, that would be cleaner than a
+   note prefix; until then the `PREDICTED-NOT-ATTESTED: ` token is the filter.
+6. **Register.** Hafez shows that the degree of integration is socially conditioned (§1), and her
    corpus deliberately includes both integrated and resistant forms. The file therefore contains
    doublets (`vella ~ fella`, `garaaǧ ~ garaaš`, `prââvu ~ berââvu`). Both members are real; a
    generator must pick a register.
@@ -1235,7 +1329,10 @@ donor.** This is Hafez's "overdifferentiation":
 
 Stated as a rule: `[alveolar] → [emphatic] / _ [back V]`, i.e.
 `t → tˤ`, `d → dˤ`, `s → sˤ`, `z → zˤ`, and additionally `k → q`.
-Attested [ema1958 §20, §5]:
+Attested [ema1958 §20, §5] — **but note the transcriptions below cannot be checked
+segment-by-segment**: the online Hafez text has the emphatic diacritics stripped (§7 bias 3), so
+the prose rule is verifiable while the exact marking on each form is not. Absence of a dot in any
+Hafez-derived form is **unverifiable, not evidence of a plain consonant**:
 - t → tˤ: tânt 'tante', bâttârejjâ 'battery', bont 'point', tâblejjâ 'table', etâljâ 'Italia',
   bântâloon 'pantalon', šuut 'shoot', qobtâân 'capitaine'
 - d → dˤ: moodâ 'moda' — here stated as `d → dˤ / [back V] _`, i.e. *preceded* by a back vowel
@@ -1245,7 +1342,9 @@ Attested [ema1958 §20, §5]:
 **Independently corroborated by Abdel-Massih's lexicon**, which prints established loans with
 emphatics the donor did not have — `lukanḍa` /luˈkandˤa/ 'hotel' < Ital. *locanda*
 [abdelmassih-v4 p.147]; `ṣaloon` /sˤaˈloːn/ < Fr. *salon* [abdelmassih-v4 p.150];
-`tiṛamwaay` /tiˈrˤamwaːj/ < Eng. *tramway* [abdelmassih-v4 p.150]. In each the emphatic sits
+`tiṛamwaay` /tiˈrˤamwaːj/ < Eng. *tramway* [abdelmassih-v4 p.150]. (**The donor identifications
+are inferred**: Abdel-Massih's lexicon states no etymologies — see §7 bias 4. What is
+PDF-verified is the Cairene form and its emphatic dot, not where the word came from.) In each the emphatic sits
 next to a back vowel, exactly as Hafez's rule predicts. (An earlier draft listed `braavo` as a
 fourth case; it is **not** one — Abdel-Massih prints it plain, with no emphatic
 [abdelmassih-intro p.26].)
@@ -1276,7 +1375,7 @@ mapping would need for labials and nasals, where no emphatic counterpart otherwi
 | /sˠ/ | **sˤ** yes | core emphatic |
 | /l̪ˠ/ | **lˤ** yes | underlying emphatic for Broselow [broselow1976 p.xiii]; "marginal" for Watson [wiki-egy-phonology §Consonants note 4] |
 | /ɾˠ/ (broad r) | **rˤ** yes | underlying for Broselow; marginal for Watson; attested in a European loan (parachute) |
-| /mˠ/ | **mˤ** marginal only | mayya; transcribers disagree [broselow1976 p.57 n.8]; Watson posits it [wiki-egy-phonology note 4] |
+| /mˠ/ | **mˤ** marginal only | three candidate sets in Broselow: `mayya` (disputed between transcribers), `ħammˤa` 'boil' vs `ħamma` 'he bathed', `ʕumˤʔ` 'depth' vs `ʕunʔ` 'neck' [broselow1976 p.57 n.8]; Watson posits /mˤ/ independently [wiki-egy-phonology §Consonants note 4] |
 | /bˠ/ | **bˤ** marginal only | bˤaːbˤa 'patriarch' [wiki-egy-phonology note 4] |
 | /pˠ/ | — | /p/ is itself loan-only; no /pˤ/ |
 | /fˠ/ | — | Broselow explicitly does **not** report emphatic /f/ as a class [broselow1976]. `not covered` |
@@ -1412,7 +1511,7 @@ grammar, and the digest flags it rather than deciding it.
 | /v/ | /v/ marginal, else /f/ or /b/ | [ema1958 §15] |
 | /f/ | /f/ exists | direct |
 | /p/ | /p/ marginal, else /b/ | [ema1958 §14; kwpl-ot-cairene-loan p.6–7] |
-| /ŋ/ | not a phoneme; allophone of /n m/ before velars | but loan data simply **retains** it: ʔispiriŋ 'spring' [broselow-position-quality p.295], weng 'wing' [ema1958]. Recommend: retain, or write `ng` |
+| /ŋ/ | not a phoneme; allophone of /n m/ before velars | but one loan transcription **retains** it: ʔispiriŋ 'spring' [broselow-position-quality p.295]; weng 'wing' [ema1958 §24] is compatible with either reading. **OPEN DECISION — see the box in §3.6.** |
 | /c ɟ/ (if the Irish transcription uses them for slender k/g) | /k g/ | plain, plus whatever slender treatment §8.1 settles on |
 
 ### 8.4 Irish vowel length and diphthongs
@@ -1477,13 +1576,16 @@ would be exposed to the same reanalysis; whether the tool should imitate that is
    again by spread. Whether to implement spread at all, and if so which of the three rules, is
    undecided (§8.2).
 3. **Half the Irish broad series has no emphatic counterpart** (/p f k g ŋ x ɣ w n/). The
-   /mˤ/-style "surfaces plain, backs its vowels" device is attested but marginal and disputed
-   [broselow1976 p.57 n.8; wiki-egy-phonology §Consonants note 4]. Whether to extend it is
+   /mˤ/-style "surfaces plain, backs its vowels" device rests on Broselow's three candidate
+   exception sets — `mayya` (disputed), `ħammˤa`/`ħamma`, `ʕumˤʔ`/`ʕunʔ` — plus Watson's
+   independent positing of /mˤ bˤ/ [broselow1976 p.57 n.8; wiki-egy-phonology §Consonants note 4]. Whether to extend it is
    undecided.
-4. **Where exactly the /s/+C prothesis boundary falls.** /sl sw/ take anaptyxis (silajd,
-   siwetar) while /sk st sp/ take prothesis [broselow-position-quality p.295]. Where do /sm sn/
-   fall? And stop+nasal onsets (/kn gn mn/, which Irish has) are **falling** sonority like
-   /s/+stop but are not /s/-initial; no source has an example. `not covered`.
+4. **Where exactly the /s/+C prothesis boundary falls.** Only /sl/ and /sw/ are attested with
+   anaptyxis (`silajd`, `siwetar`), against /sk st sp/ with prothesis
+   [broselow-position-quality p.295]; Broselow's own typological statement hedges the sonorant
+   side as "some or all S-resonant clusters". So **/sr sm sn/ are unresolved**, and so are
+   stop+nasal onsets **/kn gn mn/**, which Irish has and which no Cairene source instantiates at
+   all. Options for each are tabulated in **§3.1 branch (d)**.
 5. **/θ ð/ in a non-Arabic donor**: `t d` (Hafez, from English loans) or `s z` (Wikipedia's
    stated rule for non-Egyptianized loans)? Both are cited in §3.6. Irish has neither segment,
    so this may not matter.
@@ -1500,3 +1602,13 @@ would be exposed to the same reanalysis; whether the tool should imitate that is
    optional "creole-style reduction layer" would need one. Nothing in these sources supports it.
 9. **The Hafez appendix and six data tables are images** and could not be read offline; the
    transcription key used for the 231 attested rows drawn from it is reconstructed from usage. See digest-log.md.
+10. **How Irish quantity enters the derivation** — the sources fix what happens to length once
+    it is present, not whether donor length is inherited. See the **OPEN DECISION** box in §3.8;
+    this is the item most likely to change the character of the output.
+11. **Does the output inventory admit marginal /ŋ/?** One printed loan transcription against every
+    inventory chart in the bibliography. See the **OPEN DECISION** box in §3.6. Irish has /ŋ/, so
+    this is not hypothetical.
+12. **Which point on the register dial?** /p v ʒ tʃ/, initial CC and /ŋ/ all covary with
+    integration and prestige [ema1958 §38, §57–60]. The digest documents the dial but does not
+    pick a point, because that is a decision about how the culture should sound rather than a
+    fact in the sources. A deterministic generator needs one point picked and held.

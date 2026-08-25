@@ -175,3 +175,105 @@ extractions were spot-checked by the lead against the PDF page images — Galal'
 (pp.2–3), because the `.txt` garbles several forms, and the Khalifa coda/onset statements
 (pp.92–99), because bib.md flags the venue as low-selectivity. Both checked out; the Galal forms
 in `attested.tsv` are the PDF readings, not the `.txt` ones.
+
+---
+
+## Revision 2 — after the cross-family (GPT-5.6) review
+
+Source: `review.md` in this directory. Its citation spot-check ran 40 claims: **34 verified,
+4 overstated, 1 misquoted, 1 unverifiable** (the unverifiable one is not judged false — it is an
+exact-diacritic claim in the Hafez text, whose emphatic marks are stripped online).
+
+### Required fixes — all seven applied
+
+1. **Donor vowel length: categorical claim retracted, Irish quantity mapping marked unresolved.**
+   §3.8 previously read "Donor vowel LENGTH is not inherited", and §4 strengthened it to "an Irish
+   long vowel survives only if…". Hafez says only that vowels are "especially lengthened when they
+   are in a stressed syllable" and that stress follows EA rather than source patterns
+   [ema1958 §26] — she does not establish that donor quantity is *erased on the way in*, and the
+   corpus cannot test it because every `source_ipa` cell is empty. §3.8 now carries an
+   **OPEN DECISION** box separating what the sources establish (stress assignment, and the native
+   shortening rules that act on quantity *once present*) from what they do not (the input
+   mapping), and lays out the two coherent positions. §4's restatement is qualified to match.
+2. **attested.tsv, three changes.** (a) Row 297 `bṛaavo /bɾˤaːvo/` → **`braavo /braːvo/`**; both
+   cited Abdel-Massih pages print it plain, and §8 already said so — the TSV contradicted the
+   prose. (b) The two **Makkan (Hijazi)** rows (`birek` 'break', `ʔiskaib` 'Skype') are **removed**;
+   the source labels them Makkan and they are not Egyptian data. (c) The eleven Khalifa
+   predicted-error rows now carry the literal token **`PREDICTED-NOT-ATTESTED: `** at the head of
+   the `note` field, so a parser can filter them with
+   `awk -F'\t' '$8 !~ /^PREDICTED-NOT-ATTESTED/'`. Row count 314 → **312** (301 attestations +
+   11 predictions).
+3. **"No final devoicing" → "no final _obstruent_ devoicing"** (§3.7). The old wording contradicted
+   §1 and §8.3, which report Abdel-Massih's utterance-final devoicing of /r l/ after a voiceless
+   obstruent. Both facts now stated together.
+4. **Onset repair narrowed to attested classes.** §3.1's headline no longer presents a complete
+   sonority-conditioned algorithm. Branch **(a)** is now "obstruent + liquid/glide, and attested
+   /sl/, /sw/"; a new branch **(d) UNRESOLVED** tabulates **/sr/**, **/sm sn/**, **/kn gn mn/** and
+   **/ʃC/** with the options for each and why none is settled. `/sr/` had been silently grouped
+   with `/sl sw/` on the strength of `silajd`/`siwetar`, which instantiate only /sl/ and /sw/;
+   Broselow's own hedge covers "some or all S-resonant clusters". §3.1 also no longer says Hafez
+   "independently confirms" the *conditioning* — her data are compatible with it but she states no
+   sonority division, and she records a prothesis/anaptyxis doublet on `classeur`.
+5. **/mˤ/ corrected.** Broselow's footnote gives **"three possible exceptions"**, not one:
+   `mayya` (emphatic for Lehn & Abboud, plain for Abdel-Massih), `ħammˤa` 'boil' vs `ħamma` 'he
+   bathed', and `ʕumˤʔ` 'depth' vs `ʕunʔ` 'neck' [broselow1976 p.57 n.8, verified]. Only the first
+   is disputed between transcribers; the other two are minimal pairs in her own data. Fixed in §1,
+   §8.1 and §9.3 — this materially strengthens the evidence base for a broad→emphatic mapping on
+   labials.
+6. **/ŋ/ surfaced as an OPEN DECISION** (§3.6, cross-referenced from §8.3). §1 had it as
+   non-phonemic while §3.6/§8.3 recommended retaining loan `[ŋ]`, with the decision never made.
+   The box states the evidence honestly — one printed Broselow transcription (`[ʔispiriŋ]`)
+   against every inventory chart in the bibliography — gives three options (admit marginal /ŋ/;
+   rewrite to /n/+/g/; rewrite to /n/), notes that option 2 follows from the Cairene grammar
+   rather than from a single transcription, and declines to choose. Irish has /ŋ/, so this will
+   be hit on real input.
+7. **Slash delimiters stripped** from all 28 Abdel-Massih-derived `target_ipa` cells
+   (`/paˈɾiːs/` → `paˈɾiːs`), matching the rest of the file and the format spec.
+
+### Suggestions — all four taken
+
+- **§4 parity rule provenance stated.** The Langendoen even-parity extension for long all-light
+  strings now says explicitly that Watson calls such strings *unattested in native Cairene* and
+  that the evidence is Cairene pronunciation of Classical Arabic [watson2011-word-stress
+  pp.3003–3004]. It remains the best available extension for generated forms, but is no longer
+  presented as observed native phonotactics.
+- **Inferred etymologies marked.** §8.1's three loan-emphasis cases now say the donor
+  identifications are inferred (Abdel-Massih states no etymologies); what is PDF-verified is the
+  Cairene form and its emphatic dot.
+- **Loan /ʒ/ article assimilation tagged `(unattested)`** in §6.1 — Abdel-Massih classifies /ʃ/,
+  not loan /ʒ/, and the /ʒ/-patterns-with-/ʃ/ move is this digest's inference.
+- **The `ʔotobiis` duplicate re-provenanced** rather than dropped: the row now carries
+  `broselow-arabic-syll p.2; ema1958 §28`, since Broselow does not name the dialect and Hafez
+  supplies the Cairene attestation of the same word.
+
+### Also fixed, from review §§2–4
+
+- **`ʔotobiis` vs `utubiis` reconciled** (§3.7). Not two competing outputs: Abdel-Massih's lexicon
+  cites vowel-initial stems, and Late-ʔ-Insertion is postlexical [broselow1976 p.49 (164)]. A rule
+  file should store the stem and insert [ʔ] at output time. Flagged as the digest's reconciliation,
+  since neither source states it.
+- **`/g/ → g` relabelled an inventory-based fallback** — no attested identity-loan row exists; only
+  the exceptional `/g/ → ɣ~ʁ` set is instantiated.
+- **`/ð/` and donor `/q/` rows marked as lacking any attested loan row**; `/ð/`'s examples are
+  Arabic-internal history, not foreign loans.
+- **`ilʔarnab` given its local citation** [abdelmassih-v3 p.84].
+- **§5's "`ou` reads correctly to an English eye" relabelled a project judgement**, not a source
+  claim.
+- **§7 bias 3 strengthened**: absence of an emphatic in a Hafez-derived row is *unverifiable*, not
+  evidence of a plain consonant — "never use it as negative evidence". §8.1 carries the same
+  warning at the point of use.
+- §7 counts, donor mix and provenance table updated to the new totals.
+
+### Disagreed with / not done
+
+- **No `layer` column was added to `attested.tsv`.** `../ATTESTED-FORMAT.md` fixes an eight-column
+  schema and is shared by every target language in this project; changing it unilaterally from one
+  language's directory would desynchronise the others. The `PREDICTED-NOT-ATTESTED: ` note prefix
+  is machine-filterable and keeps the file spec-compliant. **If the format owner wants a real
+  status column, that is the better fix and should be made in `ATTESTED-FORMAT.md` first**, then
+  applied across all languages at once. Recorded in §7 bias 5.
+- **The review's "choose one output register" point is acknowledged but deliberately not acted
+  on.** /p v ʒ tʃ/, initial CC and /ŋ/ all vary with integration and prestige, and the digest
+  documents the dial (§1) and now surfaces /ŋ/ (§3.6). Picking the point on it is a design choice
+  about how the fictional culture should sound, not a fact recoverable from the sources — it
+  belongs to the tool's author, and the digest's job is to make the choice visible and costed.

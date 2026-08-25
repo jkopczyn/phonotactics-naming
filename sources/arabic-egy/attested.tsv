@@ -258,9 +258,7 @@ eng	ski		ʔiskii	ʔiskiː	epenthesis	broselow-position-quality p.295 ex.(2b)	pro
 eng	study		ʔistadi	ʔistadi	epenthesis	broselow-position-quality p.295 ex.(2b)	prothesis + glottal stop before /st/
 eng	spring		ʔispiriŋ	ʔispiriŋ	epenthesis	broselow-position-quality p.295 ex.(2b)	prothesis before /sp/ AND anaptyxis in /pr/; NOTE /p/ and /ŋ/ both retained as printed
 eng	street		ʔistiriit	ʔistiriːt	epenthesis	broselow-position-quality p.298 n.5	3-consonant onset: prothesis + glottal stop + anaptyxis, two vowels inserted
-eng	break		birek	birek	epenthesis	broselow-position-quality p.295	MAKKAN (Hijazi), NOT Cairene - source labels it so; kept for contrast
-eng	skype		ʔiskaib	ʔiskaib	epenthesis	broselow-position-quality p.295	MAKKAN (Hijazi), NOT Cairene - source labels it so; kept for contrast
-fra	autobus		ʔotobiis	ʔotobiːs	epenthesis	broselow-arabic-syll p.2	source says "borrowed into Arabic", not specifically Cairene; illustrates obligatory onset glottal stop
+fra	autobus		ʔotobiis	ʔotobiːs	epenthesis	broselow-arabic-syll p.2; ema1958 §28	Broselow says only "borrowed into Arabic" and does not name the dialect; the Cairene attestation of the same word is ema1958 §28 (/?otobiis/). Kept as one row, dual-provenanced, rather than as a general-Arabic duplicate
 eng	garage		garaaʃ	ɡɑˈɾɑːʃ	substitution;vowel	wiki-egy-phonology §Consonants	via Fr.; loan /ʒ/ merges with /ʃ/ even in educated speech; [ɑ] backing in a European loan
 eng	jacket		jakitta	ʒæˈkettæ	substitution;gemination;vowel	wiki-egy-arabic §Romanization n.p-j-v-marginal	less-educated variant [zækettæ]; final -a added; geminate
 eng	Pepsi		bebsi	ˈbebsi	substitution	wiki-egy-arabic §Romanization n.p-j-v-marginal	p->b; educated variant [ˈpepsi] retains /p/
@@ -274,42 +272,42 @@ fra	Georges		George	ʒoɾʒ	substitution	wiki-help-ipa-egy §Non-native Consonan
 tur	pembe		bamba		substitution;vowel	wiki-egy-arabic §Color/defect nouns	'pink'; Hinds & Badawi 1986 p.104
 fra	beige		beeع		substitution	wiki-egy-arabic §Color/defect nouns	'beige'; Hinds & Badawi 1986 p.104; the article's own rendering is corrupt (Arabic ع mid-word) - see the abdelmassih-intro p.14 row beez /beːʒ/ for the reliable form
 eng	Allenby		il-linbi	elˈlembi	substitution;gemination;vowel	wiki-egy-phonology §Assimilation	/nb/ -> [mb]; word-initial il- reanalyzed as the definite article
-eng	street		ʔistiriit		epenthesis	ijllnet-cairene-english-syll p.108	PREDICTED L2 error (starred table headed "Error"), not observed data, not a lexicalized loan; variant [sitriːt]; source_ipa not given by the paper
-eng	spring		ʔisbiring		epenthesis;substitution	ijllnet-cairene-english-syll p.108	PREDICTED L2 error (starred table headed "Error"), not observed data, not a lexicalized loan; sCC onset; p->b; source_ipa not given by the paper
-eng	spleen		ʔisbileen		epenthesis;substitution	ijllnet-cairene-english-syll p.108	PREDICTED L2 error (starred table headed "Error"), not observed data, not a lexicalized loan; source_ipa not given by the paper
-eng	splash		ʔisbilaʃ		epenthesis;substitution	ijllnet-cairene-english-syll p.108	PREDICTED L2 error (starred table headed "Error"), not observed data, not a lexicalized loan; source_ipa not given by the paper
-eng	play		bilay		epenthesis;substitution	ijllnet-cairene-english-syll p.108	PREDICTED L2 error (starred table headed "Error"), not observed data, not a lexicalized loan; p->b + anaptyxis; source_ipa not given by the paper
-eng	floor		filoor		epenthesis	ijllnet-cairene-english-syll p.108	PREDICTED L2 error (starred table headed "Error"), not observed data, not a lexicalized loan; variant [ʔifloor]; source_ipa not given by the paper
-eng	criticise		kiritisaiz		epenthesis	ijllnet-cairene-english-syll p.108	PREDICTED L2 error (starred table headed "Error"), not observed data, not a lexicalized loan; source_ipa not given by the paper
-eng	institute		ʔinistitjuːt		epenthesis	ijllnet-cairene-english-syll p.109	PREDICTED L2 error (starred table headed "Error"), not observed data, not a lexicalized loan; onsetless word repaired with ʔ; source_ipa not given by the paper
-eng	middle		middile		epenthesis	ijllnet-cairene-english-syll p.109	PREDICTED L2 error (starred table headed "Error"), not observed data, not a lexicalized loan; syllabic /l/ repaired by epenthesis; source_ipa not given by the paper
-eng	strength		strengith		epenthesis	ijllnet-cairene-english-syll p.110	PREDICTED L2 error (starred table headed "Error"), not observed data, not a lexicalized loan; CCC coda broken before final C; source_ipa not given by the paper
-eng	tempts		tempits		epenthesis	ijllnet-cairene-english-syll p.110	PREDICTED L2 error (starred table headed "Error"), not observed data, not a lexicalized loan; CCCC coda broken; source_ipa not given by the paper
-fra	Paris		paríis	/paˈɾiːs/	substitution;length	abdelmassih-intro p.2, p.14	/p/ listed as occurring only in borrowings; donor inferred, not stated in source
-ita	villa		villa	/ˈvilla/	none	abdelmassih-intro p.2	cited as one of three examples licensing /v/; donor inferred, not stated in source
-fra	jaquette		žakítta	/ʒaˈkitta/	substitution;gemination;vowel	abdelmassih-intro p.2	glossed 'jacket'; cited as licensing /ž/; donor inferred (Fr or Eng), not stated in source
-eng	television		tilivizyóon	/tiliviˈzjoːn/	substitution;glide;length	abdelmassih-intro p.14	v4 p.78 gives tilivisyoon with /s/ — internal conflict; donor inferred, not stated in source
-ita	gelati		žiláati	/ʒiˈlaːti/	substitution;length	abdelmassih-intro p.14	glossed 'ice cream'; donor inferred, not stated in source
-eng	aspirin		ʔaspiríin	/ʔaspiˈɾiːn/	epenthesis;length	abdelmassih-intro p.14	initial ʔ obligatory — EA words never begin with a vowel (p.24); donor inferred, not stated in source
-fra	beige		béež	/beːʒ/	substitution;length	abdelmassih-intro p.14	donor inferred, not stated in source
-fra	Belgique		balžíka	/balˈʒika/	substitution	abdelmassih-intro p.14	v3 p.142 gives baljiika — internal conflict; donor inferred, not stated in source
-fra	Pakistan		pakistáan	/pakisˈtaːn/	length	abdelmassih-intro p.14	donor inferred, not stated in source
-ita	bravo		bṛaavo	/bɾˤaːvo/	none	abdelmassih-intro p.26; abdelmassih-v3 p.42	cited by him as one of only two examples of a word-initial CC cluster; donor inferred, not stated in source
-fra	kilo		kiilu	/ˈkiːlu/	length	abdelmassih-v3 p.18	his own example of a vowel-final loan that takes no pronominal suffix; donor inferred, not stated in source
-fra	radio		radyu	/ˈɾadju/	glide;vowel	abdelmassih-v3 p.18	same list of vowel-final loans; donor inferred, not stated in source
-ita	bagno		banyu	/ˈbanju/	glide;vowel	abdelmassih-v3 p.18	glossed 'bathtub'; same list; donor inferred, not stated in source
-ita	antenna		antinna	/anˈtinna/	vowel	abdelmassih-v3 p.18	same list; gemination retained; donor inferred, not stated in source
-eng	basketball		baskitbool	/baskitboːl/	epenthesis;length	abdelmassih-v4 p.71	/i/ breaks the *skC cluster; donor inferred, not stated in source
-ita	pagliaccio		bilyatšu	/biljatʃu/	substitution;glide	abdelmassih-v4 p.71	glossed 'clown'; /tʃ/ realised as a t+š sequence, not an affricate phoneme; donor inferred, not stated in source
-eng	launch		lanš	/lanʃ/	substitution	abdelmassih-v4 p.73	glossed 'launch; boat (n)'; final CC licit only word-finally; donor inferred, not stated in source
-ita	piano		piyaanu	/pijaːnu/	glide;length	abdelmassih-v4 p.76	/j/ inserted to break the vowel sequence; donor inferred, not stated in source
-fra	placeur		plaseer	/plaseːɾ/	length	abdelmassih-v4 p.79	glossed 'movie usher' (ʕaamil sinima ~ plaseer); rare initial CC; donor inferred, not stated in source
-fra	benzine		banziin	/banziːn/	length	abdelmassih-v4 p.145	glossed 'gasoline'; derived banziina 'gas station'; donor inferred, not stated in source
-ita	bicicletta		biskilitta	/biskilitta/	substitution;metathesis	abdelmassih-v4 p.145	donor inferred, not stated in source
-eng	express		iksibrees	/iksibɾeːs/	epenthesis;length	abdelmassih-v4 p.146	glossed 'express train'; initial /i/ prothesis + medial /i/; donor inferred, not stated in source
-eng	captain		kabtin	/kabtin/	substitution	abdelmassih-v4 p.147	p>b; donor inferred, not stated in source
-fra	caoutchouc		kawitš	/kawitʃ/	substitution	abdelmassih-v4 p.147	glossed 'tire'; final /tʃ/ as a t+š sequence; donor inferred, not stated in source
-ita	locanda		lukanḍa	/lukandˤa/	substitution	abdelmassih-v4 p.147	glossed 'hotel'; /d/ emphaticised to /ḍ/; donor inferred, not stated in source
-fra	salon		ṣaloon	/sˤaloːn/	substitution;length	abdelmassih-v4 p.150	glossed 'train compartment'; /s/ emphaticised to /ṣ/ next to back vowel; donor inferred, not stated in source
-eng	tramway		tiṛamwaay	/tiɾˤamwaːj/	epenthesis;length	abdelmassih-v4 p.150	listed as "tiṛaam ~ tiṛamwaay"; /i/ breaks the initial *tr cluster; donor inferred, not stated in source
-fra	autobus		utubiis	/utubiːs/	vowel;length	abdelmassih-v4 p.150	donor inferred, not stated in source
+eng	street		ʔistiriit		epenthesis	ijllnet-cairene-english-syll p.108	PREDICTED-NOT-ATTESTED: PREDICTED L2 error (starred table headed "Error"), not observed data, not a lexicalized loan; variant [sitriːt]; source_ipa not given by the paper
+eng	spring		ʔisbiring		epenthesis;substitution	ijllnet-cairene-english-syll p.108	PREDICTED-NOT-ATTESTED: PREDICTED L2 error (starred table headed "Error"), not observed data, not a lexicalized loan; sCC onset; p->b; source_ipa not given by the paper
+eng	spleen		ʔisbileen		epenthesis;substitution	ijllnet-cairene-english-syll p.108	PREDICTED-NOT-ATTESTED: PREDICTED L2 error (starred table headed "Error"), not observed data, not a lexicalized loan; source_ipa not given by the paper
+eng	splash		ʔisbilaʃ		epenthesis;substitution	ijllnet-cairene-english-syll p.108	PREDICTED-NOT-ATTESTED: PREDICTED L2 error (starred table headed "Error"), not observed data, not a lexicalized loan; source_ipa not given by the paper
+eng	play		bilay		epenthesis;substitution	ijllnet-cairene-english-syll p.108	PREDICTED-NOT-ATTESTED: PREDICTED L2 error (starred table headed "Error"), not observed data, not a lexicalized loan; p->b + anaptyxis; source_ipa not given by the paper
+eng	floor		filoor		epenthesis	ijllnet-cairene-english-syll p.108	PREDICTED-NOT-ATTESTED: PREDICTED L2 error (starred table headed "Error"), not observed data, not a lexicalized loan; variant [ʔifloor]; source_ipa not given by the paper
+eng	criticise		kiritisaiz		epenthesis	ijllnet-cairene-english-syll p.108	PREDICTED-NOT-ATTESTED: PREDICTED L2 error (starred table headed "Error"), not observed data, not a lexicalized loan; source_ipa not given by the paper
+eng	institute		ʔinistitjuːt		epenthesis	ijllnet-cairene-english-syll p.109	PREDICTED-NOT-ATTESTED: PREDICTED L2 error (starred table headed "Error"), not observed data, not a lexicalized loan; onsetless word repaired with ʔ; source_ipa not given by the paper
+eng	middle		middile		epenthesis	ijllnet-cairene-english-syll p.109	PREDICTED-NOT-ATTESTED: PREDICTED L2 error (starred table headed "Error"), not observed data, not a lexicalized loan; syllabic /l/ repaired by epenthesis; source_ipa not given by the paper
+eng	strength		strengith		epenthesis	ijllnet-cairene-english-syll p.110	PREDICTED-NOT-ATTESTED: PREDICTED L2 error (starred table headed "Error"), not observed data, not a lexicalized loan; CCC coda broken before final C; source_ipa not given by the paper
+eng	tempts		tempits		epenthesis	ijllnet-cairene-english-syll p.110	PREDICTED-NOT-ATTESTED: PREDICTED L2 error (starred table headed "Error"), not observed data, not a lexicalized loan; CCCC coda broken; source_ipa not given by the paper
+fra	Paris		paríis	paˈɾiːs	substitution;length	abdelmassih-intro p.2, p.14	/p/ listed as occurring only in borrowings; donor inferred, not stated in source
+ita	villa		villa	ˈvilla	none	abdelmassih-intro p.2	cited as one of three examples licensing /v/; donor inferred, not stated in source
+fra	jaquette		žakítta	ʒaˈkitta	substitution;gemination;vowel	abdelmassih-intro p.2	glossed 'jacket'; cited as licensing /ž/; donor inferred (Fr or Eng), not stated in source
+eng	television		tilivizyóon	tiliviˈzjoːn	substitution;glide;length	abdelmassih-intro p.14	v4 p.78 gives tilivisyoon with /s/ — internal conflict; donor inferred, not stated in source
+ita	gelati		žiláati	ʒiˈlaːti	substitution;length	abdelmassih-intro p.14	glossed 'ice cream'; donor inferred, not stated in source
+eng	aspirin		ʔaspiríin	ʔaspiˈɾiːn	epenthesis;length	abdelmassih-intro p.14	initial ʔ obligatory — EA words never begin with a vowel (p.24); donor inferred, not stated in source
+fra	beige		béež	beːʒ	substitution;length	abdelmassih-intro p.14	donor inferred, not stated in source
+fra	Belgique		balžíka	balˈʒika	substitution	abdelmassih-intro p.14	v3 p.142 gives baljiika — internal conflict; donor inferred, not stated in source
+fra	Pakistan		pakistáan	pakisˈtaːn	length	abdelmassih-intro p.14	donor inferred, not stated in source
+ita	bravo		braavo	braːvo	none	abdelmassih-intro p.26; abdelmassih-v3 p.42	cited by him as one of only two examples of a word-initial CC cluster; PLAIN /r/ - no emphatic dot in the source (an earlier draft had bṛaavo); donor inferred, not stated in source
+fra	kilo		kiilu	ˈkiːlu	length	abdelmassih-v3 p.18	his own example of a vowel-final loan that takes no pronominal suffix; donor inferred, not stated in source
+fra	radio		radyu	ˈɾadju	glide;vowel	abdelmassih-v3 p.18	same list of vowel-final loans; donor inferred, not stated in source
+ita	bagno		banyu	ˈbanju	glide;vowel	abdelmassih-v3 p.18	glossed 'bathtub'; same list; donor inferred, not stated in source
+ita	antenna		antinna	anˈtinna	vowel	abdelmassih-v3 p.18	same list; gemination retained; donor inferred, not stated in source
+eng	basketball		baskitbool	baskitboːl	epenthesis;length	abdelmassih-v4 p.71	/i/ breaks the *skC cluster; donor inferred, not stated in source
+ita	pagliaccio		bilyatšu	biljatʃu	substitution;glide	abdelmassih-v4 p.71	glossed 'clown'; /tʃ/ realised as a t+š sequence, not an affricate phoneme; donor inferred, not stated in source
+eng	launch		lanš	lanʃ	substitution	abdelmassih-v4 p.73	glossed 'launch; boat (n)'; final CC licit only word-finally; donor inferred, not stated in source
+ita	piano		piyaanu	pijaːnu	glide;length	abdelmassih-v4 p.76	/j/ inserted to break the vowel sequence; donor inferred, not stated in source
+fra	placeur		plaseer	plaseːɾ	length	abdelmassih-v4 p.79	glossed 'movie usher' (ʕaamil sinima ~ plaseer); rare initial CC; donor inferred, not stated in source
+fra	benzine		banziin	banziːn	length	abdelmassih-v4 p.145	glossed 'gasoline'; derived banziina 'gas station'; donor inferred, not stated in source
+ita	bicicletta		biskilitta	biskilitta	substitution;metathesis	abdelmassih-v4 p.145	donor inferred, not stated in source
+eng	express		iksibrees	iksibɾeːs	epenthesis;length	abdelmassih-v4 p.146	glossed 'express train'; initial /i/ prothesis + medial /i/; donor inferred, not stated in source
+eng	captain		kabtin	kabtin	substitution	abdelmassih-v4 p.147	p>b; donor inferred, not stated in source
+fra	caoutchouc		kawitš	kawitʃ	substitution	abdelmassih-v4 p.147	glossed 'tire'; final /tʃ/ as a t+š sequence; donor inferred, not stated in source
+ita	locanda		lukanḍa	lukandˤa	substitution	abdelmassih-v4 p.147	glossed 'hotel'; /d/ emphaticised to /ḍ/; donor inferred, not stated in source
+fra	salon		ṣaloon	sˤaloːn	substitution;length	abdelmassih-v4 p.150	glossed 'train compartment'; /s/ emphaticised to /ṣ/ next to back vowel; donor inferred, not stated in source
+eng	tramway		tiṛamwaay	tiɾˤamwaːj	epenthesis;length	abdelmassih-v4 p.150	listed as "tiṛaam ~ tiṛamwaay"; /i/ breaks the initial *tr cluster; donor inferred, not stated in source
+fra	autobus		utubiis	utubiːs	vowel;length	abdelmassih-v4 p.150	donor inferred, not stated in source
