@@ -1,0 +1,798 @@
+       Studies in Generative Grammar 45
+
+
+
+
+                   Harry van der Hulst
+                       Nancy A. Ritter
+                             (Editors)
+
+
+
+
+The Syllable
+Views and Facts
+Contents
+
+
+  Contributors                                                      xi
+
+  Abbreviations                                                    xv
+
+  1 Introducing the volume                                           1
+  Harry van der Hulst & Nancy A. Ritter
+
+
+Part I: General Issues                                                   (
+
+  2 Theories of the syllable                                       13
+  Harry van der Hulst & Nancy A. Ritter
+
+  3 Morpheme structure constraints and the phonotactics of Dutch   53
+  Geert Booij
+
+  4 Syllables in Danish                                            69
+  Hans Basboll
+
+  5 The syllable in Hindi                                          93
+  Manjari Ohala
+
+
+Part II: Government Phonology
+
+  6 Head-Driven Phonology                                          113
+  Harry van der Hulst & Nancy A. Ritter
+
+  1 The syllable in German: Exploring an alternative               169
+  Wiebke Brockhaus
+
+  8 Consonant clusters and governing relations: Polish initial
+     consonant sequences                                           219
+  Eugeniusz Cyran & Edmund Gussmann
+3      Morpheme structure constraints and the
+       phonotactics of Dutch
+
+Geert Rooij
+
+
+1. Introduction
+
+
+In traditional generative phonology of the SPE type (Chomsky & Halle 1968),
+it was assumed that the phonotactics of a language are to be accounted for by
+   o mechanisms, morpheme structure conditions (MSCs) and phonological
+rules. Morpheme structure conditions apply to underlying lexical representa-
+tions of morphemes, and phonological rules derive the surface form from the
+underlying form. Together, they define the possible combinations of the sounds
+of a language (Postal 1968).
+   Due to two influential articles, Hooper (1972) and Vennemann (1972), the
+syllable was reintroduced into phonology. Hooper argued that the syllable is not
+only indispensable as one of the domains of application of phonological rules,
+but also as a unit of phonotactic restrictions. The principles for the division of a
+word into syllables have a phonotactic impact which can be characterized as
+follows:
+
+(1)   A word is phonotactically well-formed if it can be divided exhaustively
+      into one or more well-formed syllables.
+
+For instance, since the string abkmar cannot be exhaustively divided into well-
+formed English syllables, this string is not a possible word of English.
+   Note that this formulation implies that we no longer speak about the well-
+formedness of morphemes, but about the well-formedness of words. The reason
+     this is that in a language where, for instance, a morpheme ending in an
+obstruent-liquid cluster is always followed by a vowel-initial morpheme, that
+morpheme as such may be unpronounceable, and prosodically ill-formed, but
+this will not imply its ill-formedness. For example, in Dutch there are a number
+of non-native morphemes that end in an obstruent-liquid cluster, and that are
+always followed by a vowel-initial suffix. That is, these morphemes do not
+occur as independent words:
+54     deert Hom]
+
+
+(2) penetr-eer       'to penetrate'
+    con-sacr-eer     'to consecrate'
+    celebr-eer       'to celebrate'
+    vibr-eer         'to vibrate'
+    emigr-eer        'to emigrate'
+    castr-eer        'to castrate'
+
+The morpheme-final obstruent-liquid clusters will never have to surface as
+codas. The prosodie well-formedness of words with these morphemes is gua-
+ranteed. Similar observations can be found in Kenstowicz & Kisseberth (1977:
+ 145) for Tunica, and they concluded that in such cases it is the word rather than
+the morpheme that is the domain of phonotactic constraints.
+    A similar example from Italian is the following. Italian words are subject to a
+prosodie minimality condition (Thornton 1996) that they must be minimal l\^^
+bisyllabic. Italian words usually end in a vowel which functions as a morpho^P
+logical ending. Thus, Italian has lexical morphemes such as pizz- (followed by
+the ending -a or -e, together forming the words pizza 'id.' and pizze 'pizza, pi.'
+respectively). Clearly, the morpheme pizz does not obey the prosodie minima-
+lity conditions of Italian. This, however, is not a problem if the phonotactic
+constraints of a language do not refer to morphemes, but to (prosodie) words.
+    This argument can also be made on the basis of Semitic languages where
+lexical morphemes can consist of a sequence of consonants without intervening
+vowels. That is, these lexical morphemes are always unsyllabifiable. However,
+this is no problem since the non-concatenative morphology of these languages
+will take care of this, and will insert vowels in between the consonants. Conse-
+quently, syllabification will be possible.
+    An important implication of this approach is that it introduces output con-
+straints into phonology: the phonological well-formedness of words is deter-
+mined at the output level since principle (1) is an output constraint that applies
+after morphology and syllabification have taken place. In other words, there is
+no direct statement in the grammar as to which sequences of sounds form pos-
+sible morphemes: the segmental make-up of morphemes reflect the phono-
+logical rules and constraints (including the syllable structure constraints) of the
+language in question. In this respect, Hooper's position can be seen as a precur-
+sor to present-day output constraint-based theories of grammar.
+    This raises the question as to whether we can completely do without mor-
+pheme structure constraints in stating the full set of phonotactic generalizations
+for a particular language. In this chapter, an attempt will be made to answer this
+question on the basis of an analysis of the phonology of Dutch. The following
+claims will be made:
+ - the morpheme remains a relevant domain of phonotactics because some
+    phonological constraints must refer to the morpheme as their domain;
+                                                      The phonotactics of Dutch    55
+
+
+    - there are certain phonological generalizations with respect to patterns of
+      alternation that can only be expressed straightforwardly by referring to the
+      underlying forms of morphemes.
+      The structure of this chapter is as follows: in section 2,1 will show that many
+   phonotactic restrictions are not expressed directly, but follow from the system
+   of phonological constraints of a language through the mechanism of lexicon
+   optimization. Section 3 then provides evidence for the role of the morpheme as
+   a domain of phonological constraints. In section 4, I will discuss some facts of
+   Dutch that suggest that certain generalizations can only be made by referring to
+   the underlying level. The conclusions are summarized in section 5.
+
+
+
+4fe~- Lexicon optimization
+
+
+   In an Optimality-Theoretical (OT) phonological analysis, the choice of a par-
+   ticular string of segments as the underlying form of a morpheme is a matter of
+   lexicon optimization (Prince & Smolensky 1993, Itô et al. 1995). The starting
+   point of the OT approach is the idealization called 'the richness of the base'
+   which says that "for the purposes of deducing the possible outputs of the
+   grammar, [...] all inputs are possible" (Prince & Smolensky 1993: 191). The
+   projection of the structure of a language's grammar into its lexicon is governed
+   by the principle of lexicon optimization, which states that of all possible inputs
+   for a particular output, the input chosen is the one that is most harmonic, in that
+   it incurs the least significant violations of the constraints (Prince & Smolensky
+   1993: 192). Furthermore, the choice must be such that phonological alternations
+   (allomorphy) can be accounted for.
+       Lexicon optimization implies that the underlying form of a morpheme does
+   not contain superfluous segments, segments that will never come to the surface.
+   For instance, Dutch has a rule of prevocalic schwa-deletion that deletes a schwa
+   before a vowel in the same prosodie word:
+
+   (3)   Roma + ein -» Romein 'Roman'
+         zijd» + ig -> zijdig 'silky'
+         kado + on  -» kaden  'quays'
+56     deert Hom/
+
+
+The existence of this rule implies that we could assume the following underly-
+ing form /boe:k/ for the word beek [be:k] 'brook', because the schwa will al-
+ways be deleted in surface form. This is clearly absurd: when there is no alter-
+nation, the language learner has no evidence for such an underlying form with a
+prevocalic schwa, and will construct the underlying form /be:k/. The preference
+for /be:k/ above /boe:k/ as the underlying form of [be:k] thus follows from the
+fact that the first underlying form implies a smaller number of violations of the
+faithfulness constraints than the second.
+   Thus, the prohibition on prevocalic schwa in Dutch is reflected by the ab-
+sence of schwa-vowel sequences in morpheme-internal position in the set of
+lexical morphemes of Dutch.
+   The effect of lexicon optimization can be further illustrated as follows. Pro-
+sodie words of Dutch are subject to the constraint that they cannot begin with a
+schwa (Booij 1995: 47). The consequence of this constraint is that no lexical^
+morpheme of Dutch begins with a schwa, because these lexical morphemes can"
+surface as such as a prosodie word, without additional morphological processes
+applying that would put the schwa in non-initial position. For the same reason,
+Dutch suffixes can begin with a schwa since they will never form the beginning
+of a prosodie word. Dutch prefixes, on the other hand, may not begin with a
+schwa since they must be suitable for appearing at the beginning of a prosodie
+word. Thus, by combining prosodie output conditions with lexicon optimiza-
+tion, it is immediately clear why prefixes and lexical morphemes pattern alike
+in this case, and that suffixes pattern differently.
+   Another example of optimization is that Dutch suffixes can be vowelless,
+unlike lexical morphemes and prefixes. In that case, they consist of coronal
+obstruents only: /s/, /t/ or a combination thereof. This is because, like most
+Germanic languages, Dutch allows for an 'appendix' of coronal obstruents at
+the end of a prosodie word, after the last syllable:
+
+(4)   koor-ts         [ko:r-ts]          'fever'
+      herf-st         [herf-st]          'autumn'
+      groot-st        [yro:t-st]         'biggest'
+      vermoei-dst     [vermu:j-tst]      'most tired'
+
+Thus, the regularity that consonantal suffixes consist of coronal obstruents only,
+need not be stated as a morpheme structure constraint for suffixes, but follows
+from lexicon optimization: a suffix /k/ would not be of much use because it
+would lead to many phonotactic violations and hence suffer from a very re-
+stricted usability.
+    The shape of Dutch suffixes is also determined by a cooccurrence constraint
+on obstruents, given by Yip (1991) for English, and also holding for Dutch: in a
+cluster of two obstruents within a prosodie word the second one is always a
+                                                       Thi' phonolaclics of Dutch   57
+
+
+    coronal (cf. Yip 1991, Lamontagne 1993 for English, and Booij 1995: 45 for
+    Dutch). In these cases, the morphological system of Dutch conspires to comply
+    with these cluster conditions: obstruent-initial suffixes of Dutch always begin
+    with a coronal obstruent. This guarantees that in an obstruent cluster at the
+    border between two morphemes, a stem-final obstruent is always followed by a
+    coronal one. (The only exception is the suffix -baar '-able'; however, this suf-
+    fix forms a phonological word of its own, and therefore, suffixation will not
+    lead to the violation of these linear constraints, which hold within the domain of
+    the prosodie word.)
+       A final example of a prosodie output constraint that serves to illustrate the
+    working of lexicon optimization is that in Dutch the voiced fricatives /v/ and /z/
+    do not occur in ambisyllabic position. Dutch consonants are ambisyllabic in
+    intervocalic position if the preceding vowel is short, because of the minimal
+     hyme constraint that requires that two positions are filled in the rhyme of a
+K   ^yllable (Booij 1995: 31). For instance, in a word such as adder 'snake' with
+    the underlying form /udar/ the /d/ will close the first syllable (ud) because the
+    preceding vowel is short and thus fills only one position; simultaneously, it
+    forms the onset of the second syllable (dor). The ambisyllabicity blocks sylla-
+    ble-final devoicing of the /d/ (Booij 1995: 63). Ambisyllabicity, however, is not
+    possible for /v/ and /z/ (the only exceptions to this constraint on ambisyllabicity
+    of/v z/ are the loan words puzzel [pvzol] 'puzzle', mazzel [muzal] 'luck', and
+    razzia [ruziija:] 'round up'). Therefore, we only find /v/ and /z/ within mor-
+    phemes after long vowels, both morpheme-internally and at the right boundary.
+    On the surface, morpheme-final /v/ and /z/ would be voiceless after a short
+    vowel anyway because in coda position obstruents are always voiceless in
+    Dutch (1'inal Devoicing), unless these obstruents are followed by a vowel-
+    initial suffix which puts these morpheme-final obstruents in onset position. Yet,
+    this does not make it possible to have /v/ or /z/ after a short vowel in mor-
+    pheme-final position, because this would lead to ill-formed phonetic represen-
+    tations when vowel-initial suffixes are added to such morphemes:
+
+    (5)   a. dissel    /disal/          'pole'
+)            gaffel    /yufal/          'fork'
+
+             reuzel    /raizal/          'fat'
+             ezel      /e:zol/           'donkey'
+             haver     /ha:vor/         'oats'
+58      Geen Rooij
+
+
+        graaf         /yra:v/      [yra:f]     'earl'       graven    'pi.'       [yra:vr»n]
+        graaf         /yra:f/      [yra:f]     'graph'      grafen    'pi.'       [yraifon]
+        kaas          /ka:z/       [ka:s]      'cheese'     kazen     'pi.'       [ka:zon]
+        kies          /ki:s/       [ki:s]      'delicate'   kiese     'attr. form' [ki:sn]
+
+      b. *dizzel     /dizr»!/,     *gavvel
+
+      c. dis       /dis/         'to serve',      */diz/    dissen    'inf.'     [dison]
+         paf       /paf/         'to smoke',      */puv/    paffen    'inf.'     [pufon]
+
+This constraint is also related to vowel lengthening. A number of Dutch nouns
+exhibit vowel lengthening, which is the historical residue of open syllable
+lengthening in middle Dutch:
+
+(6)     schip      'ship'          [sxip]                   schepen   'pi.'      [sxe:prm]
+        weg        'road'          [wcx]                    wegen     'pi.'      [weiyan]
+        graf       'grave'         [yraf]                   graven    'pi.'      [yra:vr»n]
+        glas       'glass'         [vlas]                   glazen    'pi.'      [yla:zon]
+
+The last two examples are the most interesting ones, because here the vowel
+length alternation serves to obey the prohibition on ambisyllabic /v z/. For each
+of these nouns, the two allomorphs will have to be listed in the lexicon, for
+instance /yruf/ and /yra:v/, both of which are optimal with respect to the /v z/-
+constraint.
+   In all these examples, phonological constraints on the well-formedness of
+prosodie words of Dutch have implications for the kind of morphemes that we
+find in Dutch. However, there are also constraints that hold within morphemes
+only, not within prosodie words. That is, the domain of the morpheme still
+plays a direct role in a proper account of phonotactic constraints. This will be
+shown in the next section.
+
+
+
+3. Phonological constraints on morphemes
+
+
+A clear case of a morpheme structure constraint of Dutch, observed by Zon-
+neveld (1983), is that we do not find clusters of voiced obstruents morpheme-
+initially and morpheme-internally: such clusters are always voiceless, with the
+exception of a few loans like labda [lubda] 'lambda' and budget [bœd^ct] 'id.'.
+That is, voiced obstruent clusters are only found morpheme-finally. The rele-
+vant morphemes only end in a voiced obstruent cluster underlyingly because
+                                                    The phonotaclics of Dutch   59
+
+
+these voiced obstruent clusters surface in plural forms and in derived words;
+spoken in isolation, such morpheme-final clusters will always be realized as
+voiceless due to final devoicing:
+
+(7) hoofd       'head'     /ho:vd/   [ho:ft]     - hoofden   'pi.' [hoivdcsn]
+    maagd       'virgin'   /ma:yd/   [ma:xt]     - maagden ' p i ' [maiydon]
+    smaragd     'emerald' /sma:ruyd/ [sma:raxt] - smaragden 'pi.' [sma:raydan]
+    voogd       'guardian' /vo:yd/   [vo:xt]     - voogden 'pi.' [vo:ydon]
+    jeugd       'youth'    /j0:yd/   U0:xt]     ~ jeugdig 'youthful' [j0:ydox]
+
+The fact that loans such as labda are pronounced with [bd] shows that this
+condition on obstruent clusters is a static regularity only, but still a regularity
+that needs to be expressed.
+    Across morpheme boundaries, the occurrence of voiced obstruent clusters is
+   [restricted. They are created, for instance, in the past tense forms of verbs of
+which the stem ends in a voiced obstruent, and in nouns formed with the suf-
+fix(es) -de, as in:
+
+(8)   tobde       [tDbda]      'toiled'
+      draafde     [draivdo]    'ran'
+      hoosde      [ho:zdo]     'scooped'
+      zaagde      [zaïydo]     'sawed'
+
+(9)   liefde      [li:vdo]     'love'
+      vijfde      [veivdo]      'fifth'
+
+    One may think of avoiding the conclusion that morphemes still play a role as
+ phonotactic domains by using underspecification. In a lexical morpheme such
+ as akte /ukto/ 'act' we could leave the obstruent cluster unspecified for [voice],
+ whereas stem-final obstruent clusters must be specified underlyingly for this
+ feature because there are lexical contrasts like hoofd 'head' versus kaft /kaft/
+ 'cover', and maagd 'virgin' versus macht /muxt/ 'power'. For non-morpheme-
+fclnal obstruent clusters, the feature [-voice] would then be provided by a de-
+ fault rule at the end of the derivation. However, underspecification is at odds
+ with the concept of lexicon optimization in output-constraint-based phonology.
+ Moreover, underspecification does not express the generalization discussed
+ here: in an underspecification approach it could also be the case that only half
+ of the morphemes of Dutch have morpheme-internal voiceless obstruent
+60      Geert Kooi)
+
+
+clusters, i.e. are underspecified with respect to [voice]. In other words, we
+would not express that [voice] does not have a contrastive function in mor-
+pheme-internal obstruent clusters: there is, for instance, no possible morpheme
+agde /ogdo/ besides akte.
+   This generalization can be expressed as an alignment constraint (McCarthy
+& Prince 1994). Alignment constraints can express that certain constraints only
+apply to specific morphologically defined domains. The alignment constraint
+that we need for Dutch is that a cluster of voiced obstruents must align with the
+right morpheme boundary:
+
+(10) Align ( [-son] [-son], R, M, R)
+               [+voice]
+
+For instance, in hoofd 'head' the voiced obstruent cluster aligns with the
+edge of the morpheme. The constraint excludes voiced obstruent clusters at the
+beginning of a morpheme and morpheme-internally, and therefore, we do not
+find complex onsets with voiced obstruent clusters. Clusters such as /sp, st, sk/
+are possible, but /zb, zd, zg/ are completely out. In the poly-morphemic word
+lob-de [tobdo] 'toiled' (the past tense of tob /tob/ 'to toil'), however, it is the
+first of the two voiced obstruents that aligns with a right morpheme boundary.
+This form violates constraint (10) if the cluster /bd/ is assumed to share the
+feature [+voice], but is nevertheless selected as the correct phonetic form since
+the voiceless realization [tr>pfc>] violates Faithfulness: the feature [+voice] of the
+l AI of the past tense morpheme de would not surface in that case. That is, Faith-
+fulness is ranked above the alignment constraint ( 10).
+    Thus, alignment constraints can, at least partially, take over the role of the
+traditional morpheme structure constraints. But, note the crucial difference that
+alignment constraints do not pertain to underlying forms, but to surface forms,
+and can be violated.
+    A second example of a condition that pertains to Dutch morphemes is the
+following generalization made by Van Oostendorp (1995: 141):
+
+( 1 1 ) "In (monomorphemic) forms we do not find sequences of schwa-headed^^
+        syllables"
+
+Indeed, it is derived words where such sequences do arise, because both pre-
+fixes and suffixes can have schwa as their only vowel, and such syllables can
+be attached to a stem in a position adjacent to a schwa-syllable:
+                                                       The phonotactics of Dutch    61
+
+
+   (12) go-bo-lazor          'cheating'
+        g3-v3r-sier          'decorating'
+        go-lukk-agor         'happier'
+        vor-rukk-obk          'delicious'
+        wandol-on            'to walk'
+        lekkor-dar           'nicer'
+
+   This generalization not only underlines the phonotactic role of the (lexical)
+   morpheme, but also implies that phonotactics has to do with prosody above the
+   level of the syllable. In this case, it is the foot that is at stake. Dutch feet are
+   preferably trochees, and otherwise monosyllabic. The (first or only) syllable
+   that heads the foot must contain a full vowel. Schwa-headed syllables that are
+   left over cannot form feet of their own, and are presumably dominated directly
+       the prosodie word-node. Given these assumptions about the Dutch foot, the
+    eneralization can be expressed as follows:
+
+  (13) Lexical morphemes of Dutch consist exhaustively of feet.
+
+  This generalization can be interpreted as a prosodie output condition with the
+  morpheme as its domain. This formulation not only covers the prohibition on
+  sequences of schwa-headed syllables (11), but also implies that lexical mor-
+  phemes cannot begin with a schwa-headed syllable, because Dutch feet are left-
+  headed. Lexical morphemes that begin with a schwa-headed syllable are indeed
+  very rare. There are a few exceptions, but such words usually have a polymor-
+  phemic origin: the schwa-syllable is an old prefix, be- or ge-. In addition, there
+  are a few French loans in which the unstressed mid vowel has been reduced to a
+  schwa; in the examples given here, the first e in these words stands for schwa:
+
+  (14) simplex onsets: begonia 'id.', beton 'concrete', debacle 'failure', gelei
+       'jelly', legaat 'legacy', mêlasse "\A.\penose 'mafia', tenor 'id.'
+       complex onsets: breton 'Breton', krepeer 'to die', plezier 'fun'
+
+Al he relevant condition on the (native) lexical morphemes of Dutch has to refer
+ to both prosodie information and morphological information (the domain 'lexi-
+ cal morpheme' or 'root'). This is in accordance with the conclusions in Booij &
+ Lieber (1993), who showed that simultaneous reference to the phonological and
+ the morphological structure of a word has to be allowed for. This conclusion
+ concerning the simultaneous reference to prosodie and morphological structure
+ is also in line with McCarthy & Prince (1994), who argued in favor of a family
+62     Geert Booij
+
+
+of alignment constraints, which account for certain aspects of the relation
+between prosodie structure and morphological structure, and also refer simulta-
+neously to prosodie and morphological structure. An alignment analysis of this
+generalization is possible in this case as well (see also Kager 1996 for an
+example of a prosodie condition on a morphological category, stems).
+    We can express generalization (13) by requiring the alignment of a foot
+boundary with both the left, and the right morpheme boundary. This will ex-
+clude unfooted morpheme-initial schwa-syllables at the beginning of a lexical
+morpheme, and sequences of two schwa-syllables, of which the second is un-
+footed, at the end of a lexical morpheme.
+    The right alignment constraint will be violated if a vowel-initial suffix is
+attached, which causes a morpheme-final consonant to become the first seg-
+ment of another foot, as in the infinitive form [[wancJef\ven]v 'to walk' with the
+prosodie structure ((wun)0(d3)0)F(lon)0. The prohibition on empty onsets will bag
+ranked higher than the relevant alignment constraint.
+    It is of course possible to replace condition (13) with an alignment constraint
+on prosodie words rather than on lexical morphemes: align the left and the right
+boundary of a prosodie word with a foot boundary. This alignment condition
+will then be violated at a large scale, by several kinds of prefixed and suffixed
+words. This will not cause problems for the computation of the correct phonetic
+forms, but - and this is the crucial problem - it leaves unexpressed that native
+monomorphemic words never violate it.
+    The conclusion therefore is that if we want to express the correct generaliza-
+tions about the phonotactics of the morphemes of a language in terms of pro-
+sodie output conditions, we still need to refer to the boundaries of morphemes.
+    What remains to be seen, however, is whether all phonotactic constraints that
+only hold within morphemes can be described in terms of alignment. For ex-
+ample, it has been observed that in Semitic languages with their well-known
+triliteral verbal roots there are constraints on the combination of consonants that
+are found in such roots (Greenberg 1950). Such constraints are not a matter of
+alignment of prosodie constituency with morpheme boundaries, and have to
+refer to the verbal root morpheme as their domain. Within verbal roots we do
+not find combinations of similar consonants, such as front consonants or conso-^
+nants from the set {l r n}, whereas they do occur in other morphemes such as'
+the numeral tsc 'nine' (two front consonants), and in complex forms such as the
+prefixed Arabic form narkabu 'we ride' with two consonants from the set {l r
+n} (Greenberg 1950:178). These restrictions can certainly be seen as instantia-
+tions of dissimilation constraints or OCR-effects, but it is clear that such con-
+straints only hold for a particular class of morphemes, verbal roots. It does not
+matter whether such linear constraints are interpreted as input constraints or
+output constraints, the point is that they only pertain to a subset of morphemes,
+                                                   The phonotactics of Dutch     63
+
+
+not to (prosodie) words. Thus, it appears that the morpheme still has to play a
+role as a domain of phonotactic generalizations.
+   This is also the conclusion drawn by Kenstowicz & Kisseberth (1977: 146)
+on the basis of data from Desano provided in Kaye ( 1974). In this language, all
+syllables of a morpheme are either oral or nasal syllables, whereas a complex
+word can consist of both oral and nasal syllables. Therefore, they conclude that
+the morpheme still is a relevant domain of phonotactic generalizations.
+   Other examples of such constraints come from the description of Ngiti in
+Kutsch Lojenga (1994: 35-36). In this language, the following constraints hold:
+
+ (15) (i) The affricates /pf/ and /bv/ can only be followed by [+round] vowels in
+      monomorphemic forms;
+      (ii) The palatal stops /ky, /gy/, and /ngy/ are only found followed by
+fe    [-back] vowels in monomorphemic forms.
+
+In complex forms, such as reduplicated forms, these constraints can be violated.
+For instance, in the sequence /ipfo-ipfo/ 'moldy' from the root ipfo 'to mold',
+the word-internal vowel hiatus is resolved by deletion of the first vowel. Hence,
+in the phonetic form [ipfipfo], the affricate [pf] precedes a non-round vowel.
+Thus, the relevant constraints are valid within the domain of the morpheme
+only.
+   Again, one could formulate these constraints as general constraints on the
+phonetic forms of words, which are violated in complex forms only, due to
+their being overruled by other constraints such as faithfulness constraints. The
+problem then remains, as before, that generalizations about classes of mor-
+phemes that are characteristic for a particular language remain unexpressed.
+Therefore, it appears that the morpheme must be kept as a relevant domain of
+phonological output constraints.
+
+
+
+4. Phonological constraints on underlying forms?
+
+
+In this section, I will argue that certain generalizations with respect to the pho-
+nology of Dutch can only be made at the underlying level. These facts suggest
+that the underlying level still has to play a role as a level of phonological gen-
+eralizations, although many phonotactic generalizations are better stated as
+output conditions.
+64      Geert Booij
+
+
+   The phonological generalizations involved do not primarily concern phono-
+tactics, but the systematic lack of certain alternations in Dutch. After long vow-
+els (VV), fricatives in morpheme-final position are always voiced, at least at the
+underlying level (if they are not followed by a vowel-initial suffix, they will
+surface voiceless because of the devoicing of obstruents in coda position).
+Consider the following data:
+
+(16)    raaf 'raven'     /ra:v/   [ra:f]     - raven      'pi.'   [ra:vnn]
+       *raaf             /naff    [ra:f]     - rafen      'pi.    [ra:fon]
+        kaas 'cheese'    /ka:z/   [kas]      - kazen      'pi.'   [ka:zon]
+       *kaas             /ka:s/   [ka:s]     - käsen      'pi.'   [ka:snn]
+        zaag 'saw'       /za:g/   [za:x]     - zagen      'pi.'   [zaivan]
+       *zaach            /za:x/   [za:x]     - zachen     'pi.'   [za:xon]
+
+Morpheme-internally we do find voiceless fricatives after long vowels, as in ^
+
+(17) oefen 'to practice' /u:fon/, plafond 'ceiling' [pla:fon], goochem 'smart'
+     /Yoixam/, goochel 'to juggle' [yoixol], Pasen 'Easter' [pa:son], asem
+     'breath' [a:som], desem 'leaven' [deisom]
+
+That is, the type of alternation that we find is [VVf/s/x - VVv/z/y^n], and not
+[VVf/s/x - VVf/s/xan]. (Some exceptions do occur, however, for instance the
+morpheme pies 'to piss', with the infinitive piesen [pi:son], and the loan graaf
+'graph' [vra:f] with the plural grafen [yraifon].) Note that the constraint does
+not always hold for fricatives preceded by a diphthong. Diphthongs do occur
+before /si, as in
+
+(18) eisen 'to demand' /cison/, kousen 'stockings' /kousen/
+
+The relevant constraint is therefore the following:
+
+(19) * long vowel + [-son, +cont, -voice]]M
+
+where 'M' refers to 'morpheme'. This constraint only makes sense if it refers to
+underlying forms; if the morpheme appears as an independent word, the mor-
+pheme-final obstruent will be voiceless anyway, because of final devoicing.
+That is, if (19) were an output constraint, a word like kaas /ka:z/ 'cheese' with
+the phonetic form [ka:s] would violate the constraint although this morpheme
+obeys the constraint at the underlying level.
+   In complex words, the morpheme-final underlyingly voiced fricative may
+also devoice due to a morpholexical rule of devoicing that is triggered by spe-
+cific suffixes such as -elijk and -enis:
+                                                         The phonotactics of Dutch   65
+
+
+  (20) graf-elijk         'of an earl'           [yraifnbk]
+       lief-elijk         'peaceful'             [liifobk]
+       vres-elijk         'horrible'             [vre:sobk]
+       laf-enis           'food'                 [laifoms]
+
+  Moreover, the sequence long vowel + /s/ does occur in morpheme-final position
+  within the bound morpheme -isch /i:s/, which suggests that this restriction
+  pertains to lexical morphemes only.
+     An apparent exception to the non-occurrence of the alternation [VVs -
+  VVsV] is created by the suffix /s/ used to derive adjectives from nouns. For the
+  noun Fries /fri:z/ 'Frisian', for instance, we get the following pattern:
+
+  (21) noun: sg. Fries      /fri:z/    [fri:s]     plural Friezen /fri:z+on/ [fri:zon]
+       adjective: Fries     /fri:z+s/ [fri:s]      inflected form /fri:z+s+3/ [friiso]
+
+  So in the case of this derived adjective we do get the pair: [VVs - VVsV]. This
+  is in accordance with the constraint because there is no longer a Izl in intervo-
+  calic position: it is deleted before the next /s/. Note that this [s] is in morpheme-
+  final position after a long vowel. Yet, it does not violate the constraint because
+  it is not tautomorphemic with the preceding long vowel.
+      The implication of this generalization concerning the kind of alternations
+  that are normal in Dutch is that there is evidence for constraints on underlying
+  forms. In this case, the constraint is that in morpheme-final position after a long
+  vowel, voiceless fricatives do not occur.
+      A similar example of a co-occurrence constraint of Dutch that applies at the
+  underlying level is that a /b/ at the end of a morpheme can only be preceded by
+  a short vowel (i.e. not by a long vowel or a sonorant consonant). We would
+  never hear that /b/ anyway after a long vowel or a consonant when the mor-
+  pheme is pronounced as an independent word because of the devoicing of ob-
+  struents in coda position. Yet, there is an empirical consequence, since the
+  constraint implies that we do not find alternations of the type
+
+£22) [Vlp] - [Vlbo], [Vrp] - [Vrto], [Vmp] - [Vmbo], [VVp] - [VVbo]
+
+  in which -o is the beginning of a suffix. The /b/ can follow a long vowel or a
+  sonorant consonant morpheme-internally, as in
+66     Geert Boot/
+
+
+(23) album 'id.', albast 'alabaster', Elbe 'id.', Albanië 'Albania', amber
+     'amber', kabel 'cable', nobel 'noble', fobie 'phobia'
+
+The only exception I know of is the loan morpheme -foob 'fearing'.
+  The constraint is therefore the following:
+
+(24) If /b/ is morpheme-final, it must be preceded by a short vowel.
+
+Note that a root like -foob /fo:b/ would not violate constraint (24) if this were an
+output constraint, since it is pronounced as [fo:p]. Nevertheless, we want to
+exclude such morphemes as regular morphemes of Dutch. In other words, we
+cannot determine at the surface whether a morpheme violates this constraint,
+unless it is followed by a vowel-initial suffix that prohibits final devoicing from
+applying.
+   In conclusion, if we want to express that certain systematic gaps exist in
+patterns of alternations that we find in the phonetic forms of morphemes,
+phonological theory should allow for making static generalizations about
+phonotactic patterns at the underlying level. They do not follow from a lan-
+guage-particular ranking of universal output constraints; in the course of history
+of a particular language, certain combinations of segments became gaps in the
+make-up of morphemes in spite of the fact that such combinations are perfectly
+pronounceable in that language. Such gaps are characteristic of that language,
+have a systematical nature, and therefore need to be expressed.
+   A possible way of avoiding the conclusion that certain generalizations have
+to be made with respect to underlying forms is the introduction of output-to-
+output correspondence constraints, as proposed in more recent work in the OT-
+framework. For instance, we could state the constraint that in a set of two re-
+lated words the sequence [Vlp] in one word cannot correspond to the sequence
+[Vlb] in the other. However, this solution introduces a very powerful mecha-
+nism into the grammar, and thus it is an open issue whether such a solution is
+satisfactory.
+
+
+
+5. Conclusions
+
+
+The first important conclusion of this chapter about phonotactics is that once
+we recognize the role of prosodie output constraints in phonology, a lot of the
+phonotactics of a language is no longer expressed directly, by means of mor-
+pheme structure conditions, but only indirectly, through the principle of lexicon
+optimization. The phonotactic effects of prosodie constraints on the linear se-
+                                                        The phonotactics of Dutch       67
+
+
+ quencing of segments in morphemes are of an indirect nature since we cannot
+ make direct statements about the prosodie properties of morphemes at the un-
+ derlying level if prosodie structure is not specified at that level. By relating
+ phonotactics to prosodie constraints, we also explain why, for instance, prefixes
+ and lexical morphemes form one class with respect to constraints on mor-
+ pheme-initial sequences, and why suffixes do not belong to the same class.
+    Secondly, we have seen that a proper account of the phonotactics of a lan-
+ guage still requires reference to the morpheme. Such constraints can sometimes
+ be expressed as alignment constraints, in which alignment of certain phonolo-
+ gical properties with morpheme boundaries is required. There are also linear
+ constraints on sound sequences that cannot be expressed as alignment con-
+ straints but still have the morpheme, or a subset of morphemes, as their domain.
+ These constraints can thus be seen as output constraints with the morpheme as
+wheir domain.
+" Thirdly, there are also regularities that can only be stated as regularities with
+ respect to the underlying level. That is, it appears that some of the classical
+ (underlying level) morpheme structure conditions are still necessary in order to
+ capture certain generalizations about the alternation patterns of a language,
+ unless one allows for the introduction of output-to-ourput correspondence con-
+ straints.
+
+
+ Acknowledgments
+
+ 1 would like to thank Ben Hermans, Harry van der Hulst, Gjert Kristoffersen,
+ Claartje Levelt, Shelly Lieber, Marc van Oostendorp, Nancy Ritter, Laura
+ Walsh Dickey, and two anonymous reviewers for their comments and ques-
+ tions. The research for this chapter was partially carried out at the Max Planck
+ Institute für Psycholinguistik, Nijmegen.
+
+
+ References
+
+'Booij, G.E
+    1995     The phonology of Dutch. Oxford: Clarendon Press.
+ Booij, G E & R Lieber
+    1993    On the simultaneity of morphological and prosodie structure. In E. Kaisse & S.
+            Hargus (eds.), Studies in lexical phonology. San Diego: Academic Press, 23-44.
+ Chomsky, N & M Halle
+    1968    The sound pattern ofKnglish. New York: Harper & Row.
+68          deert Booij
+
+
+Greenberg, J.
+    1950     The patterning of root morphemes in Semitic. Word6, 162-181.
+Hooper, J B
+    1972     The syllable in phonological theory language 48, 525-540.
+Itô, J , R A Mester & J Padgett
+    1995     Licensing and underspecification in optimally theory Linguistic inquiry 26, 571-
+             614.
+Kager, R
+    1996     Stem disyllabicity in Guugu Yimidhirr In M Nespor & N. Smith (eds.) Dam
+             phonology. HIL phonology papers II The Hague: Holland Academic Graphics,
+             59-101.
+Kaye, J D
+     1974    Morpheme structure constraints live! Montreal working papers in linguistics 3,
+             55-62.
+Kenstowicz, M. & C. Kisseberth
+    1 977     Topics in phonological theory. New York: Academic Press.
+Kutsch Lojenga, C.
+    1994     Ngiti. A Central-Sudanic language of Zaire Köln: Rüdiger Koppe Verlag (Nilo-
+             Saharan, 9)
+Lamontagne, G.
+    1993     Syllabification and consonant cooccurrence conditions. PhD dissertation. Uni-
+             versity of Massachusetts at Amherst (published by GLSA).
+McCarthy, J J & A S Prince
+    1994     Generalized alignment. In G.E. Booij & J van Marie (eds ), Yearbook of mor-
+             phology 1993 Dordrecht: Kluwer, 79-153.
+Oostendorp, M. van
+    1995     Vowel quality and phonological projection PhD dissertation. Tilburg University.
+Prince, A. S & P. Smolensky
+    1993     Optimality theory. Constraint interaction in generative grammar Ms , Rutgers
+             University and University of Boulder, Colorado.
+Postal, P
+    1968     Aspects of phonological theory New York: Harper & Row.
+Thornton, A M
+    1996     On some phenomena of prosodie morphology in Italian: Accorciamenti, hypo-
+             coristics and prosodie delimitation I'rohus 6, 81-1 12
+Vcnnemann, Th
+    1 972    On the theory of syllabic phonology. Linguistische Berichte 18, 1-18
+Yip, M
+    1991     Coronals, consonant clusters and the coda condition. In C. Paradis & J -F Prunct
+             (eds ), The special status of coronals; internal and external evidence San Diego:
+             Academic Press, 61-78.
+Zonneveld, W.
+    1983     Lexical and phonological properties of Dutch voicing assimilation In M. van den
+             Broecke, V.J. van Heuvcn & W. Zonneveld (eds.), Sound structures. Studies tor
+             Antonie Cohen. Dordrecht: Foris, 297-312.
+  9 Hungarian syllable structure: Arguments for/against complex
+     constituents                                                 249
+  Miklós Törkenczy & Péter Siptâr
+
+  10 The Latin syllable                                           285
+  Giovanna Marotta
+
+  11 Syllables in Western Koromfe                                 311
+  John R. Rennison
+
+
+Part HI: Morale Phonology
+
+  12 The syllable in Luganda phonology and morphology             349
+  Larry M. Hyman & Francis X. Katamba
+
+  13 Kihehe syllable structure                                    417
+  David Odden & Mary Odden
+
+  14 Dschang syllable structure                                   447
+  Steven Bird
+
+  15 The syllable in Chinese                                      477
+  San Duanmu
+
+  16 The syllable and syllabification in Modem Spoken Arabic
+      (§ancanïand Cairene)                                        501
+  Janet C.E. Watson
+
+  17 The Romansch syllable                                        527
+  Jean-Pierre Montreuil
+
+
+Part IV: Optimally Theory
+
+  18 Syllables and phonotactics in Irish                          551
+  Maire Ni Chiosàin
+
+  19 A preliminary account of some aspects of Leurbost
+      Gaelic syllable structure                                   577
+  Non>al Smith
+
+  20 Quantity in Norwegian syllable structure                     631
+  Gjerl Kristoffersen
+Part V: Other approaches
+
+  21 A syllable-level feature in Finnish                                651
+  Richard Ogden
+
+  22 Sievers' Law in Vedic                                              673
+  Andrea Calabrese
+
+
+Indexes
+
+  Index of authors                                                      753
+
+  Index of languages                                                    763
+
+  Index of subjects                                                     767
+
+
+
+
+<Q Copyright 1999 by Walter de Gruytcr GmbH & Co. KG, D-10785 Berlin.
+

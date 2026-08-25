@@ -1,0 +1,889 @@
+Royal Netherlands Academy of Arts and Sciences
+(KNAW)
+
+
+Quantity and the Three-Syllable WIndow in Dutch Word Stress
+van Oostendorp, M.
+
+
+
+published in
+Language And Linguistics Compass
+2012
+
+
+
+
+document version
+Publisher's PDF, also known as Version of record
+
+
+
+
+Link to publication in KNAW Research Portal
+
+
+
+
+citation for published version (APA)
+van Oostendorp, M. (2012). Quantity and the Three-Syllable WIndow in Dutch Word Stress. Language And
+Linguistics Compass.
+
+
+
+
+General rights
+Copyright and moral rights for the publications made accessible in the public portal are retained by the authors and/or other copyright owners
+and it is a condition of accessing publications that users recognise and abide by the legal requirements associated with these rights.
+
+       • Users may download and print one copy of any publication from the KNAW public portal for the purpose of private study or
+research.
+       • You may not further distribute the material or use it for any profit-making activity or commercial gain.
+       • You may freely distribute the URL identifying the publication in the KNAW public portal.
+
+Take down policy
+If you believe that this document breaches copyright please contact us providing details, and we will remove access to the work immediately
+and investigate your claim.
+
+
+E-mail address:
+pure@knaw.nl
+
+
+
+
+Download date: 25. Aug. 2026
+Language and Linguistics Compass 6/6 (2012): 343–358, 10.1002/lnc3.339
+
+
+
+
+Quantity and the Three-Syllable Window in Dutch Word
+Stress
+Marc van Oostendorp*
+Meertens Instituut, Amsterdam & Leiden University
+
+
+
+Abstract
+This paper considers the state-of-the-art in the (generative) study of Dutch word stress. In the past
+25 years, consensus has been reached on a number of properties of the Dutch stress system, such
+that it obeys the so-called three-syllable window and that it is quantity sensitive. However, not all
+of these arguments are equally convincing in the light of modern developments in phonological
+theory, in particular since experimental data on native speakers’ intuitions are missing. Although
+there is strong evidence for quality-sensitivity (in particular to the quality of schwa), the evidence
+for quantity-sensitivity is not so strong, given that the main sources of loanwords (which are
+usually argued to be quantity-sensitive) themselves are quantity-sensitive.
+
+
+
+1. Introduction
+The representation of word stress in Dutch has been a topic of quite some research in
+generative phonology. The generally accepted view is that this stress system is not very
+different from that of other West-Germanic languages such as German (Wiese 2000),
+English (Hammond 1999) and Frisian (Visser 1997). For all these languages, it has been
+claimed that main stress falls on one of the last three syllables of the word, and that it is
+partly unpredictable, and partly determined by phonological regularities such a syllable
+quantity.
+   In this article, I will give critical evaluation of the literature, with an emphasis on Van
+der Hulst (1984), Trommelen and Zonneveld 1989, Kager (1989), Nouveau (1994), Van
+Oostendorp (1997) and Gussenhoven (2009). As far as I can tell, almost all major publica-
+tions are based on the assumption that Dutch has a quantity-sensitive stress system, i.e.
+the difference between light and heavy syllables is somehow taken into account in the
+computation of stress. In generative terms, this meant that quantity-sensitivity was consid-
+ered to somehow be part of the native speaker’s knowledge of the stress system.1
+   I show that the empirical basis for this assumption has never been strong. Certain regulari-
+ties exist, but (i) there are ‘exceptions’ to these as well, and (ii) at least some of the regulari-
+ties find an explanation in other factors, e.g. in the fact that most borrowings themselves
+have been taken from languages with a quantity-sensitive stress system. If the regularities are
+not very strong and if there is no reason to assume that speakers have knowledge of these
+regularities, there is little reason to try to describe them in phonological terms – at least if we
+believe that the ultimate goal of phonology is to describe knowledge of sound systems.
+   With respect to point (i) just mentioned, the reasoning has usually been that the
+exceptions should be marked in the lexicon. Also the more recent OT literature on
+Dutch stress assignment (Nouveau 1994; Oostendorp (1997); Geerts 2008; Gussenhoven
+2009) has adopted this assumption. The methodological question which arises in this
+case is how we decide which forms are the rule and which are the exceptions and, if all
+
+ª 2012 The Author
+Language and Linguistics Compass ª 2012 Blackwell Publishing Ltd
+344 Marc van Oostendorp
+
+patterns are possible, why we need to assume that there is a process of ‘assigning’ stress at
+all.
+   Implicitly, the answer to this has usually been to relegate as much work to the grammar as
+possible. Underlying this assumption is one of representational economy: the best account is
+one which posits the smallest number of specifications in the lexicon. This idea of economy
+seems mostly abandoned, for instance in the advent of theories such as Government Phonol-
+ogy and Optimality Theory, which makes the whole enterprise of devising an algorithm for
+assigning mostly unpredictable stress spurious. The literature on stress, which stems mostly
+from the 1980s and 1990s, has so far not been reevaluated under this light, however.
+   The structure of this paper is as follows. In Section 2 I discuss the so-called three-sylla-
+ble window, the claim that Dutch stress is on one of the last three syllables of the word.
+Subsequently, we move to various types of weight which have been assumed to be rele-
+vant for stress assigment. Section 3 discusses the role of schwa and the distinction
+between light and heavy syllables. Section 4 provides an overview of the relevant data on
+so-called superheavy syllables. Section 5 closes off with a discussion on the way in which
+we should evaluate at the first sight rather mixed results on quantity-sensitivity in Dutch.
+
+2. The Three-Syllable Window
+The examples in (1) show that Dutch stress is at least partly lexical: These pairs of words
+differ from each other only in the location of stress, not in their segmental content or
+any other lexical property.
+
+(1) kanon ‘gun’ [ka'n n] canon ['kan n] ‘norm’
+                                        c                          c
+
+If Dutch stress were indisputably a purely unpredictable property of words, there obvi-
+ously would not be a lot of discussion about it. Every word would have its specification
+of a stress position in the lexicon, and the phonological grammar could stay silent. How-
+ever, all scholars on Dutch of the past decades seem to agree that there are several restric-
+tions as to the position of primary stress (Booij 1995; Daelemans et al. 1994; Geerts
+2008; Gussenhoven 1993, 2009; Kager 1989; Kager and Visch 1983; Kager et al. 1987;
+Kager and Zonneveld 1986; Kooij 1978; Lahiri and Kooreman 1988; Langeweg 1988;
+van Marle 1980; Neijt and Zonneveld 1982; Nouveau 1994; van Oostendorp 1997;
+Rietveld et al. 2004; Trommelen 1991; Trommelen and Zonneveld 1989, 1999; Visch
+and Kager 1984; Van Zonneveld 1984; Zonneveld 1993, 2003). The strongest consensus
+is probably on the claim that Dutch is subject to a three-syllable window, familiar also
+from many other Indo-European languages. Stress outside of this window, i.e. on the
+preantepenultimate syllable of the word, is indeed rarely attested:
+
+(2) *['makaroni]
+
+In spite of this general consensus, it is hard to find clear evidence that this window plays or
+has ever played an active role in the synchronic phonology of Dutch. As is well known,
+(West-)Germanic had systematic initial stress, so we might expect long words of this origin
+to have shifted; but it is difficult to find monomorphemic West-Germanic forms which
+have the required length. Trommelen (1989) argues that at least verbs tend to have at most
+one full vowel plus an optional schwa-headed syllable. Also longer nouns are borrowed
+from other languages. The relevant words in contemparary Dutch thus have all been
+
+ª 2012 The Author                                                      Language and Linguistics Compass 6/6 (2012): 343–358, 10.1002/lnc3.339
+Language and Linguistics Compass ª 2012 Blackwell Publishing Ltd
+                                                                                                       Dutch Word Stress 345
+
+loanwords at some stage. The original West Germanic pattern changed under the influence
+of Latin or French or other Indo-European languages, in which the lexicon respects the
+three-syllable window already. The macaroni example in (2), for instance, is from Italian,
+in which all words except for the third person plural of some verbs respect the window
+(Krämer 2009): in order to get a window violation in the Dutch word, we would have to
+disrespect the Italian original and there seems little reason to do so.
+   As a matter of fact, there are two known classes of exceptions to the generalisation.
+The first consists of toponyms such as Scheveningen, Amerongen and Wageningen; the second
+is a class of Latin grammatical terms such as infinitief, accusatief and nominatief which all
+have initial stress. Admittedly, these two classes are small, but there is no specific reason
+to see these words as somehow not belonging to the Dutch lexicon or as being more
+foreign to it than many of the trisyllabic words. Actually, a CELEX search2 shows a
+few more individual examples:
+
+(3) reutemeteut ‘caboodle’, ammelaken ‘table cloth’, tingeltangel ‘honkeytonk’, Erlenmeyer
+      ‘Erlenmeyer flask’
+
+The list is obviously not very long, two of the words have some reduplicative quality to
+them (however that may be interpreted from a theoretical point of view), ammelaken is a
+word which was unknown to the author of this article and which may have a com-
+pound-like quality to those who do know it, and erlenmeyer is eponymous – while names
+have been argued to have a separate stress pattern.
+   The crucial argument that Dutch respects the three-syllable window thus is that excep-
+tions may be ignored by phonological theory as long as they are few in number. It is not
+so evident, however, what this argument is based on. In order to make it precise, let us
+assume a concrete analysis of Dutch stress, for instance within Optimality Theory. The
+three-syllable window could be made to follow from the (plausible) assumptions that
+Dutch has trochaic feet,3 that stress is typically on the rightmost of these feet, and finally
+that the last syllable can be ‘extrametrical’ (not parsed into a foot), or ‘catalectic’ (i.e.
+empty, so that a word ending in a phonological bisyllabic trochee ends in a stressed sylla-
+ble phonetically). This complex will give us the impossibility of preantepenultimate stress
+allowing all other possibilities:4
+(4) makaroni                                           STRESS RIGHTMOST FOOT                        PARSE-SYLLABLE
+         (maka)('roni)
+      ('maka)roni                                                                                             W*
+      ('maka)(roni)                                                W*
+
+   But we somehow have to include words like infinitief into the picture. One way to do
+this would be to mark stress on this word and assume that faithfulness to this marking is
+dominant:5
+(5) 'infinitief                              FAITHFULNESS            STRESS RIGHTMOST                     PARSE-SYLLABLE
+                                                                               FOOT
+           a ('infi)nitief                                                                                            *
+      b ('infi)(nitief)                                                         W*                                    L
+      c (infi)('nitief)                              W*                                                               L
+
+
+ª 2012 The Author                                                   Language and Linguistics Compass 6/6 (2012): 343–358, 10.1002/lnc3.339
+Language and Linguistics Compass ª 2012 Blackwell Publishing Ltd
+346 Marc van Oostendorp
+
+   Obviously, however, as soon as faithfulness outranks everything else, we are no longer
+really saying that there is a three-syllable window in the language. The constraints are
+there, but they are low-ranked, as in any language which does not satisfy them at all.
+One way out would be to assume that this ranking is specific for words such as infinitief,
+etc. (for instance because there is a cophonology applying only to grammatical terms and
+a few other words). The issue is, however, that it is not clear what would be gained by
+this latter move as compared to the assumption that faithfulness is dominant for all words,
+and it just happens that most words have stress somewhere on one of the last three sylla-
+bles. In other words, although it is clear that there is a statistical tendency of avoiding
+preantepenultimate stress, it is not clear why this should be turned into an absolute truth,
+also because there is an alternative explanation which may be even more suitable for the
+pattern at hand: the words have kept their original stress pattern from the source
+language.
+   Crucial evidence would come from the way in which loanwords from languages with-
+out a three-syllable window are treated, but I have not been able to find an uncontrover-
+sial instance of this in the literature. Furthermore, showing that words from those
+languages get regularized to e.g. penultimate stress, would not be sufficient. It could be
+that penultimate stress simply is the default (that definitely seems the most likely position
+for such a status), so that we need to show that loanwords never get regularized to ante-
+penultimate or ultimate stress. As far as I am aware, evidence about this is lacking.
+   Another type of evidence would be alternations such as we find for instance in Greek.
+In this language, if we combine a stem that has antepenultimate stress with a clitic or a
+suffix, the stress shifts [in the case of clitics, the stress on the noun is kept as some kind
+of secondary stress, see (6a–b); this is not the case for the inflectional suffix in (6d)]:
+
+(6)     a.      góndola (id) > gondolá-mu ‘my gondola’
+        b.      o jı́tonas ‘the neighbour’ > o jı́tonás mas ‘our neighbour’
+        c.      cf. stafı́da > stafı́da-mu (without stress shift)
+        d.      to máthima ‘the lesson’ > to mathı́matos ‘of the lesson’
+
+Dutch lacks any alternations of this type. This should not be counted as evidence against
+a three-syllable window, since there simply are also no clitics or suffixes forcing violation
+of this putative constraint. The evidence is thus completely neutral on this point. But the
+lack of alternations of this type would make it definitely hard for a language-learner to
+detect the activity of the putative constraint.
+   The little evidence we do have in the literature concerns a study by Nouveau (1994)
+on the acquisition of stress, where the author used nonsense words to test children’s
+knowledge. Two of these nonsense words had the required length (both of them were
+four syllables long). Two parts of Nouveau’s study are relevant for our present purposes.
+In the first place, Nouveau did a ‘pretest’ with 20 adult informants, who were asked to
+read the words aloud. The stress was then transcribed. It turned out that no informant
+was ever tempted to put stress on the first syllable of such long words (P.ant = preante-
+penultimate, Ant = antepenultimate, Pen = penultimate, Fin = final):
+
+(7)                          P.ant        Ant       Pen        Fin
+        karabilo             0            1         18         1
+        monitaron            0            6         8          6
+
+
+ª 2012 The Author                                                    Language and Linguistics Compass 6/6 (2012): 343–358, 10.1002/lnc3.339
+Language and Linguistics Compass ª 2012 Blackwell Publishing Ltd
+                                                                                                            Dutch Word Stress 347
+
+These data are suggestive, but one would of course need more of them to start making
+statistical sense. Furthermore, the fact that in a group of 20 individuals nobody puts the
+stress on the first four syllables, does not necessarily mean that it is disallowed on that syl-
+lable; notice that all other words in the experiment were shorter, so that the bias could
+even be due to some repetition effect inherent in the experimental design (people got
+used to putting stress on one of the last three syllables, because these were usually the
+only syllables available).
+   The second piece of information which might be relevant, although even more diffi-
+cult to interpret, is the result of the experiment with (3- and 4-year-old) children. They
+were presented with a doll which was given a name by the researcher. This name was
+one of the nonsense words combined with one of the logically possible stresses. After a
+while, the children were asked to repeat these names, and it was recorded whether they
+did so correctly or not.
+
+(8)     Three-year-olds
+                    P.ant                 Ant        Pen           Fin
+        karabilo    65%                   30%        20%           65%
+        monitaron 50%                     35%        45%           55%
+        Four-year-olds
+                    P.ant                 Ant        Pen           Fin
+        karabilo    70%                   30%        5%            50%
+        monitaron 60%                     35%        65%           55%
+
+These tables should be read in the following way. When children were asked to repeat
+kárabilo, 65% of the 3-year-olds did so incorrectly; when they had to repeat karábilo, 30%
+made a mistake, etc. (Only mistakes were counted that influenced the stress pattern, such
+as replacing the accent, or deleting certain syllables, etc.)
+   We have performed a similarly small online study in which informants (26 participants,
+all from the Netherlands, all with Dutch as their native language) were asked about the
+stress patterns in (Dutch versions of) biblical names. Most of these names are unknown
+even to many observant Jews and Christians, for instance because they occur only once
+in the bible. Informants got a list of approximately 50 names, and had to indicate where
+(main) stress should be according to their intuition. The study presented here is a pilot
+study, but it shows data very similar to those of Nouveau:
+
+(9)                                 P.P.ant         P.ant          Ant   Pen       Fin
+        timnatcheres                –               42             0     42        3
+        parsandata                  –               23             15    50        0
+        leviatan                    –               19             7     69        3
+        hermogenes                  –               7              46    38        0
+        benhinnomdal                –               3              69    11        3
+        akrabattene                 19              3              23    42        0
+        apollonia                   7               11             76    0         7
+
+As a matter of fact, it turns out that in these words the preantepenultimate syllable was
+systematically preferred as a stress location over the final syllable, although this difference
+is rather small in each case. It is possible that in some of these cases the names were anal-
+ysed as being compounds, which may explain then some of the stresses outside of the
+
+ª 2012 The Author                                                        Language and Linguistics Compass 6/6 (2012): 343–358, 10.1002/lnc3.339
+Language and Linguistics Compass ª 2012 Blackwell Publishing Ltd
+348 Marc van Oostendorp
+
+three-syllable window, but that would merely show that Dutch speakers consider long
+words impossible.
+   Obviously, these data are less supportive of the idea that Dutch has an active constraint
+against preantepenultimate stress, although it does show that there may be a default, or at
+least a preference for penultimate stress. Although children made a lot of ‘errors’ when
+having to repeat the ‘impossible’ pattern, they also did so for other positions, and in some
+cases even more so (e.g. the penultimate position on monitaron triggered more errors in
+four-year-olds than the preantepenultimate). Of course, also this can hardly be counted as
+an argument against such a constraint either; the evidence is again simply neutral. How-
+ever this may be, even though a large majority of words satisfy the constraint, clear evi-
+dence for the three-syllable window as a synchronic constraint of Dutch phonology
+seems lacking.
+
+3. Quantity Sensitivity
+
+3.1. SCHWA
+Another generalisation for which there is strong scholarly support in the literature is
+weight sensitivity. Generally, four levels of weight are distinguished: (i) schwa syllables,
+(ii) light syllables, (iii) heavy syllables, (iv) superheavy syllables, where the first are sup-
+posed to avoid stress altogether, whereas the last should be always stressed (Daelemans
+et al. 1994).
+    The evidence that we should distinguish schwa syllables from the rest is strong. There
+simply are no lexical words with a schwa syllable carrying lexical stress, although schwa
+can carry contrastive stress in very specific contexts:
+
+(10)      Ik      zeg          geen        codá          maar     codé
+          I       don’t        say         [kod'a]        but      [kod' ]
+                                                                        e
+
+Since such contrastive stress can basically overrule all lexical specifications, we consider
+this to be irrelevant for the issue at hand, except that it shows that stress on schwa is not
+a phonetic impossibility and therefore that the stress avoidance of schwa outside contras-
+tive positions is a phonological fact.
+   As a matter of fact, Van der Hulst (1984:233) notes as a tendency that stress immedi-
+ately precedes schwa, i.e. in words ending in a schwa-headed syllable, stress is on
+the prefinal syllable. Van der Hulst mentions the examples in (a) as an exhaustive list of
+‘exceptions’ to this generalisation and a CELEX search yields the additional examples in
+(b):
+
+(11)      a.      Mánchester (place name), ármoede ‘poverty’, Nı́jmegen (place name), wéduwe
+                   (widow), óórkonde (deed), Bétuwe (place name), Véluwe (place name)
+          b.      máluwe (malva), clı́toris (id), s¢yfilis (syphilis), cánnabis (id), sáuriër (saurus),
+                   térriër (dog)
+
+However, all of these are somewhat problematic. I am not sure that Manchester counts as
+a Dutch word; armoede and oorkonde (and possibly also Nijmegen) could count as prosodic
+compounds (see Section 5), the words which are spelled in <is> have a front vowel at
+least for me (and furthermore clitoris seems to have penultimate stress for many speakers);
+
+ª 2012 The Author                                                    Language and Linguistics Compass 6/6 (2012): 343–358, 10.1002/lnc3.339
+Language and Linguistics Compass ª 2012 Blackwell Publishing Ltd
+                                                                                                      Dutch Word Stress 349
+
+and the other forms (weduwe, betuwe, veluwe, maluwe, sauriër, terriër) all end in a sequence
+high vowel-glide-schwa, on which see e.g. Trommelen (1983), Zonneveld (1993), van
+Oostendorp (2000).
+   The line of reasoning we followed in Section 2 to disqualify the three-syllable win-
+dow as a generalisation of Dutch synchronic phonology doesn’t apply at least for the
+stresslessness of schwa, since there are no exceptions and furthermore, there is an
+independent indication that the relation between being unstressed and being schwa is
+strong in Dutch. The language has vocalic reduction. Depending on a number of
+factors, including the quality of the original vowel, style level of speech and the
+syllable structure, unstressed vowels get reduced to schwa. In particular [e] in open
+syllables is very sensitive to reduction, so that [e] in stressed position, and [ ] in                                          e
+unstressed position are almost in complementary distribution (‘t Hart 1967; Booij
+1976, 1982; Kager 1989; Koopmans-van Beinum 1980; van Oostendorp 2000; Zonne-
+veld 1993). Since there are alternations and these are triggered by stress, the connec-
+tion between metrical weakness and being schwa seems to be a real fact of Dutch
+synchronic phonology.
+
+3.2. LIGHT AND HEAVY SYLLABLES
+The distinction between light and heavy syllables is a little bit more controversial. We
+could raise two issues.6 First, the definition of the distinction is somewhat unusual. Sec-
+ondly, we could wonder whether we need to refer to the distinction at all.
+   The definition issue is the following one. Disregarding schwa, Dutch has two sets of
+vowels: tense vowels, which only occur in open syllables, and lax vowels, which only
+occur in closed syllables.7 According to some authors (for instance, Zonneveld 1993;
+Kooij and van Oostendorp 2004), this phonotactic pattern can be described by assum-
+ing that the tense vowels are phonologically long – many of them are so phonetically
+as well, although the high tense vowels are not – and furthermore that every Dutch
+syllable is minimally bimoraic. This implies that there are basically two types of syllables
+in Dutch: C(C)VV and C(C)VC. The curious thing is, however, that the available evi-
+dence seems to point in the direction of CVV being light and CVC being heavy. This
+is quite unexpected: existing typologies of syllable weight would predict that it is the
+opposite.8
+   The evidence in favour of a heavy-light distinction in Dutch is a little bit subtle, to say
+the least. I will discuss two types of evidence. In Section 3.3 I will turn to putative evi-
+dence that the distinction plays a role in the calculation of secondary stress. Here, I con-
+centrate on the special role of the penultimate syllable. Many authors have pointed to the
+generalisation in (12):
+
+(12)      When the penultimate syllable is heavy, stress cannot be on the antepenultimate.
+
+(13)      Agénda, fricandéau, *ágenda, *frı́candeau
+
+A careful study based on a word list is provided by Van der Hulst (1984). Assuming
+that tense vowels are long, Van der Hulst reports zero words with initial stress for
+trisyllabic words of the shapes in (14a); if the penultimate syllable is open, on the
+other hand, we do find cases with initial stress. After each pattern we give two num-
+bers; the first is the number of words in Van der Hulst’s data which had initial stress,
+
+ª 2012 The Author                                                  Language and Linguistics Compass 6/6 (2012): 343–358, 10.1002/lnc3.339
+Language and Linguistics Compass ª 2012 Blackwell Publishing Ltd
+350 Marc van Oostendorp
+
+the second the total number of words with the relevant syllable profile (Van der
+Hulst 1984:223):
+
+(14)      a.      No initial stress when penultimate syllable is closed: VC-VC-VC (0 ⁄ 15),
+                   VC-VC-VV (0 ⁄ 28), VV-VC-VC (0 ⁄ 19), VV-VC-VV (0 ⁄ 54)
+          b.      Initial stress when penultimate syllable is open: VC-VV-VV (21 ⁄ 72),
+                   VV-VV-VV (59 ⁄ 182), VV-VV-VC (60 ⁄ 115), VC-VV-VC (40 ⁄ 66)
+
+However, a CELEX search shows counterexamples for each of the classes in (14a) that
+are supposed to be impossible:
+
+(15)      a.      ’VC. VC. VC                      mangistan, badminton
+          b.      ’VC. VC. VV                      chimpanzee
+          c.      ‘VV.VC.VV                        shoarma
+          d.      (VC).’VV.VC.VC                   sanniyasin
+
+I have to add to this that many native speakers in an informal survey put stress
+on the heavy syllable in both (c) and (d), so that we could possibly say that words
+with a heavy penultimate and a light antepenultimate syllable never have stress on
+the latter; but I know of no theory which could make this particular prediction.
+(Also, it is clear that the penultimate syllable is a default location for stress, also if it
+is light.)
+   The following graph shows the differences between stress patterns in words with an
+open (blue line) and closed (red, dashed line) penultimate syllable. It can be clearly seen
+that in both cases, there is a strong tendency to put stress on that penultimate syllable.
+For heavy syllables we find less stress on other positions, but this is true both for the
+antepenultimate and the ultimate syllable:
+
+
+
+
+ª 2012 The Author                                                  Language and Linguistics Compass 6/6 (2012): 343–358, 10.1002/lnc3.339
+Language and Linguistics Compass ª 2012 Blackwell Publishing Ltd
+                                                                                                      Dutch Word Stress 351
+
+   The difference between open and closed penultimate syllables is of course still signifi-
+cant, but it seems to me that neither chimpanzee nor badminton sounds very eccentric to
+the average Dutch ear.
+   According to most authors (Van der Hulst 1984; Trommelen and Zonneveld 1989;
+Kager 1989; Nouveau 1994), weight is visible on the final syllable as well, albeit in a
+slightly more complicated way: in words of the shape VX-VV-VC there is a preference
+for initial stress over penultimate stress, which may be caused by the fact that the latter
+two syllables do not form a good trochee together. This is confirmed by the following
+graph, based again on a CELEX search:
+
+
+
+
+   However, this graph also shows that the other two stress patterns are also possible for
+words of this type (as a matter of fact, there are even more cases of stress on the final
+syllable), and it is not clear what to make of that.
+   Furthermore, it is not clear to what extent a language learner needs to know the gen-
+eralisations in (10) in any relevant sense of the word ‘to know’, since this type of weight
+sensitivity is present also in the most common source languages for loanwords.
+   On the other hand, there is some evidence that stress patterns violating (12) are treated as
+marked by the language users: they tend to undergo regularization. This evidence again
+comes from experiments with nonsense words. Nouveau’s (1994) test with adults contained
+four three-syllabic words with a heavy penultimate syllable. As before, we indicate the num-
+ber of informants who assigned initial stress, and the total number of renditions of the word:
+
+(16)      ka-nak-ta            (0 ⁄ 20)
+          ma-rot-ko            (0 ⁄ 20)
+          ta-lak-tan           (2 ⁄ 20)
+          ba-ral-ton           (6 ⁄ 20)
+
+At least in the final case the number of responses which gave initial stress were 1:3, i.e. at
+chance level (since there were three syllables). Furthermore, in the first two examples (in
+
+
+ª 2012 The Author                                                  Language and Linguistics Compass 6/6 (2012): 343–358, 10.1002/lnc3.339
+Language and Linguistics Compass ª 2012 Blackwell Publishing Ltd
+352 Marc van Oostendorp
+
+which the final syllable is open), the fact that there were no stresses on the initial syllable
+might be related to the fact that nobody stressed the final syllable in these cases either:
+everybody said kanákta and marótko. A further point to note is that the example which
+does show final stress is the only one in which the penultimate is closed by a sonorant,
+which should count as the ‘heaviest’ of consonants.
+  Zonneveld (2003) did a similar experiment with a group of 44 students, and found the
+patterns such as the following:
+
+(17)      a.      to-gar-ma              4       39       1
+                  te-man-do              3       40       1
+          b.      po-tran-dat            7       22       15
+                  tri-men-tok            13      20       11
+
+Zonneveld (2003) concludes from this that antepenultimate stress is impossible on words
+ending in a VC-VV pattern. This is indeed something that seems to arise from these
+experimental data, but as far as I can see it does not take into account the real words
+chimpanzee and (possibly) shoarma.
+   It thus seems fair to say that there are several statistical tendencies in the lexical mate-
+rial, which are partly to be related to weight. The very scarce test data we have indicates
+that at least some of these tendencies are reflected in informants’ response to nonsense
+words, but these do not reflect very hard facts: there is always variation. Clearly,
+much more experimental work is needed here, but in the absence of this, I would con-
+clude that there is little reason why analysts have been so uniform in their adoption of
+the assumption that Dutch stress is quantity-sensitive; an alternative analysis seems also
+feasible.
+
+3.3. QUANTITY IN SECONDARY STRESS
+In the literature we find some suggestions that secondary stress might be sensitive to sylla-
+ble weight as well. Dutch has a productive process of vowel reduction to schwa in
+unstressed position (Booij 1976, 1982; Kager 1989; van Oostendorp 2000; Geerts 2008),
+which however is sensitive to a number of factors, such as word frequency and vowel
+height which we will not be concerned with here.
+   One position where we might see this at work is in the analysis of words of four sylla-
+bles of which the last one has primary stress. The first syllable in such words will carry
+secondary stress. The other two syllables will both be subject to (optional) reduction
+when they are open:
+
+(18)      temperatuur            ['temp r 'tyr]
+                                             e           ‘temperature’
+          fonologie              ['fon l 'qi]
+                                       ee                ‘phonology’
+          individu               ['Ind v 'dy]
+                                       e e               ‘individual’
+
+A few things should be noted about these examples. First, these forms sound very infor-
+mal with reduction, and that is a bit unnatural since long words such as these usually
+belong to the learned lexicon. Secondly, the two positions are different in an interesting
+way: reduction of the second unstressed position (the one in the third syllable of the
+word) implies reduction in the first unstressed position (in the second syllable of the
+word). Thus, ['fon lo'qi] is possible, but *['fonol 'qi] is not.
+                             e                                        e
+
+ª 2012 The Author                                                  Language and Linguistics Compass 6/6 (2012): 343–358, 10.1002/lnc3.339
+Language and Linguistics Compass ª 2012 Blackwell Publishing Ltd
+                                                                                                           Dutch Word Stress 353
+
+  However, things change when the second syllable is closed, according to Trommelen
+and Zonneveld (1989:119):
+
+(19)      constantinopel           [k nstant 'nop l]
+                                      e     c             e        ‘constantinople’
+          testosteron              [test st 'r n]
+                                      c e c                        ‘testosteron’
+          conservatief             [k nserv 'tif]
+                                       e    c                      ‘conservative’9
+
+Trommelen and Zonneveld (1989) take these data as an argument that the prosodic struc-
+tures of (12) and (13) are different: the closed second syllables in (13) are heads of sec-
+ondary stress feet, but the open second syllables in (12) are not. A general rule reducing
+vowels then treats the two positions differently. (Similar claims have been made for
+English by Ross 1972).
+   This is not the only option we have, however. Van Oostendorp (1995) suggests that it
+is rather the reduction rule which is sensitive to syllable structure. The reason is that
+schwa seems to avoid closed syllables also when it is not the result of reduction. For
+instance, underlying schwa can not be followed by any (non-coronal) obstruent either.
+Furthermore, Booij (1995) notices that reduction is possible in some cases under the con-
+dition that the coda consonant is deleted at the same time. But if the reduction rule is
+sensitive to the absence or presence of a coda, there is no more reason to assume that
+secondary stress placement is.
+
+4. Superheavy Syllables
+The last category of syllable weight seems a bit less controversial. Superheavy syllables
+– consisting of a tense vowel followed by a consonant or a lax vowel followed by at
+least two consonants – are very strong attractors of word stress. They typically occur
+at the end of the word, and if they do, they are often stressed (Van der Hulst
+1984:217):
+
+(20)      olı́jf ‘olive’, vióól ‘violin’, citróén ‘lemon’, alárm ‘alarm’, protést ‘protest’
+
+However, this generalisation is not exceptionless:
+
+(21)      króépoek ‘krupuk, prawn crackers’, árbeid ‘labour’, vámpier ‘vampire’, nónsens
+           ‘nonsense’, ámbacht ‘craft’, ásbest ‘asbestos’, lı́chaam ‘body’
+
+Such words have been analysed as prosodic compounds by Trommelen and Zonneveld
+(1989:160), i.e. as words which have the prosodic structure of compounds in spite of the
+fact that neither of the constituent parts occurs as an independent word (or in many cases
+even as a part in any other compound); in other words, they are seen as compounds
+which consist of two cranberry-morphs. Compound stress in Dutch is on the first member
+of the compound, at least for nouns (Booij 1995).
+   Trommelen and Zonneveld (1989) make a few observations supporting a prosodic
+compound analysis, of which we will mention two. The first is that cranberry-morphs
+are typically monosyllabic in Dutch, and the exceptional patterns such as those in (15) are
+almost all bisyllabic.10 The second concerns the suffixes -elijk and -ig. Trommelen and
+Zonneveld (1989) state:
+
+ª 2012 The Author                                                       Language and Linguistics Compass 6/6 (2012): 343–358, 10.1002/lnc3.339
+Language and Linguistics Compass ª 2012 Blackwell Publishing Ltd
+354 Marc van Oostendorp
+
+(22)      These specific suffixes will normally get attached to base words which have one
+           of the following properties: final stress (including monosyllabic words […]);
+           or compound.11
+
+Thus the adjectivising suffix -elijk can be attached to fatsóén (‘decency’; stress final) and
+stáátsrecht (constitutional law) to derive fatsóénlijk and staatsréchtelijk (notice that stress shifts
+in the latter case), but not to únie (union) with penultimate stress (*únielijk, *unı́élijk).
+Interestingly, on the other hand the suffix can be attached to lı́chaam ‘body’ to derive
+lichámelijk ‘physical’ (with stress shift). Since lı́chaam clearly is not monosyllabic, it follows
+from the classification in (16) that it is a compound.
+    Neither of Trommelen and Zonneveld’s (1989) arguments may be completely compel-
+ling. The observation that cranberry-morphs tend to be monosyllabic is in itself unex-
+plained; and suffixation with -elijk (or -ig) is not productive in Dutch (De Haas and
+Trommelen 1993). However, taken together, and with the observation that apart from
+some bisyllabic cases there seem to be no words ending in unstressed superheavy syllables,
+the indications seem to be quite strong that the notion of superheavy syllable does play a
+role in the analysis of Dutch.
+
+5. Discussion: Is Dutch Stress Sensitive to Quantity?
+We can thus see that there are various statistical tendencies to be shown in the Dutch
+lexicon. The strongest among these is probably a preference for penultimate stress, which
+for instance has resulted in stress shifts such as notúlen ‘minutes’ (from nótulen) en catalógus
+‘catalogue’ (from catálogus).
+   Based on previous literature, the evidence for the role of quantity is somewhat para-
+doxical. This literature, as summarized above, assumes that there is a four-way scale of
+weight for Dutch syllables: C(C) < CV(V) < CVC < CVVC, CVCC. We have seen
+that the evidence is rather strong for the lower end of the scale as well as for the
+higher end, i.e. that schwa syllables are really weaker and superheavy syllables are really
+stronger than other syllables. The evidence for a ‘core’ distinction between heavy and
+light syllables is much weaker however. This is a rather curious state of affairs, and in
+need of an explanation.
+   One direction to go would be to distinguish two types of quantity sensitivity.
+Traditionally, sensitivity to quantity implies counting rhyme positions or moras: those
+segments with two such positions are heavy, those without two such positions are
+light. I would argue that Dutch grammar does not possess this type of counting
+mechanism.
+   In the case of schwa, the weightlessness issue seems a bit different: both open and
+closed schwa syllables count as extra light. It does not seem to be the quantity of seg-
+ments but rather the quality of the head which counts.12 I propose that Dutch has the
+quality type of weight-sensitivity, but not the quantity type. The relevant generalisation is
+the one in (23):
+
+(23)      Syllables with an empty head should occur in the weak position of a trochee.
+
+The intuition behind this is that weak metrical positions should not contain too much
+phonological material, and inversely.13 One could debate about the precise definition
+of ‘emptiness’, but it does not seem unreasonable to say that schwa is heavily
+
+ª 2012 The Author                                                  Language and Linguistics Compass 6/6 (2012): 343–358, 10.1002/lnc3.339
+Language and Linguistics Compass ª 2012 Blackwell Publishing Ltd
+                                                                                                      Dutch Word Stress 355
+
+underspecified, at least in Dutch, where it functions as an epenthetic vowel and as
+the output of vowel reduction (Booij 1995; van Oostendorp 2000). It is thus empty
+in a relative sense.
+   The claim in (17) can then be generalized to superheavy syllables. Following
+McCarthy’s (1979) analysis of Arabic stress, Langeweg (1988) proposes that superheavy
+syllables consist of a ‘normal’ syllable followed by an extra consonant. In Zonneveld
+(1993) this same idea is formalised as assuming that superheavy syllables are bisyllabic
+complexes of which the second syllable consists of an onset consonant only. The pre-
+vious syllable can be a closed syllable with a lax vowel or an open syllable with a
+tense (possibly long) vowel. This thus implies that there is a one to one correlation
+between being tense and being in an open syllable, on which see van Oostendorp
+(2000), Botma and van Oostendorp (Ms). Because the second syllable clearly counts as
+an empty headed syllable, it should be subject to (23). That is the reason why the
+preceding syllable (which contains the audible nucleus of the ‘superheavy’ complex)
+attracts stress.
+   If we take these two ideas together, we can thus generalize over the behaviour of
+schwa syllables and the ‘extra consonant’ of superheavy syllables.14 Both of them
+involve emptiness in some sense, and both of them are sensitive to (23) in Dutch. Seen
+in this way, Dutch has no quantity sensitivity in the traditional sense of the word. It
+has quantity-insensitive trochees with as its only extra restriction that ‘empty’ vowels
+should occur in the weak position of a foot (it thus is rather quality-sensitive in some
+way).15
+   The claim that Dutch is not quantity-sensitive does not mean that the stress system
+does not interact with syllable structure at all. Gussenhoven (2009) shows that stressed
+tense vowels lengthen. He analyses this within a theory which basically assumes quan-
+tity-sensitivity, but we can readily understand the fact without such an assumption. We
+find lengthening of stressed vowels in open syllables also e.g. in Italian, a language for
+which there is little evidence of quantity sensitivity (Krämer 2009). In terms of Opti-
+mality Theory, we may say that faithfulness to underlying length of tense vowels is
+irrelevant, and length is determined exclusively by constraints regulating the interaction
+with stressed positions. Furthermore, it should be noted that weight considerations
+clearly play a role in the Dutch lexicon in the form of tendencies as we have seen
+above. In this context, the findings of Daelemans et al. (1994) become relevant. In a
+‘data-oriented’ study, these authors showed that machines can acquire the stress pattern
+of Dutch with a reasonable amount of succes, and that this success is bigger when
+information is provided on the weight of syllables. Unfortunately, Daelemans et al.
+worked with a scale which just ran from ‘superlight’ (=schwa) to ‘superheavy’ without
+discriminating the various sources of weight which we established above. (Also, much
+to their own surprise, they found a small quality effect, not otherwise discussed here:
+syllables with [e] tended to attract more stress than would be expected given they posi-
+tions they were in. One reason behind this effect is that ⁄ e ⁄ is particularly prone to
+schwa reduction; thus, whenever we find an unreduced [e] we can be rather sure that
+we are dealing with a stressed vowel.)
+   Since these tendencies themselves ultimately may find an explanation in the source lan-
+guages from which Dutch has extensively borrowed, there may not be a reason to incor-
+porate them into the phonological grammar. The extensive work which Dutch
+phonologists did in the 1980s and 1990s has definitely uncovered many interesting statis-
+tical generalisations, which need to be explained – but maybe they were not always about
+the phonological knowledge of a native speaker.
+
+ª 2012 The Author                                                  Language and Linguistics Compass 6/6 (2012): 343–358, 10.1002/lnc3.339
+Language and Linguistics Compass ª 2012 Blackwell Publishing Ltd
+356 Marc van Oostendorp
+
+Short Biography
+Marc van Oostendorp (Rotterdam, The Netherlands, 1967; MA in Linguistics, Tilburg
+University, 1991; PhD, Tilburg University, 1995). Currently employed at Meertens Insti-
+tute ⁄ Royal Netherlands Academy of Arts and Sciences (Senior Researcher; since 1999)
+and Leiden University (Professor of Phonology; since 2008). Previous employers include
+the University of Amsterdam. Academic Prizes and Awards include the AVT ⁄ Anéla Dis-
+sertation Price for the best linguistics dissertation in the Netherlands (1996), and the LOT
+Oeuvre Prize for Popularisation of Linguistics (2007). He serves on the Editorial
+Boards of the journals Phonology (CUP) and Language Problems and Language Planning
+(Benjamins).
+
+Acknowledgement
+I wish to thank my colleagues Geert Booij, Ben Hermans, Björn Köhnlein and Willem
+Visser for enlightening discussion. Furthermore, this paper has been considerably
+benefited from some comments of two anonymous reviewers. All usual disclaimers
+apply.
+
+Notes
+* Correspondence address: Marc van Oostendorp, Joan Muyskenweg 25, Amsterdam, Netherlands, 1096 CJ. Email:
+marc.van.oostendorp@meertens.knaw.nl
+1
+   A reviewer points out that in his view the mentalistic claim of generative phonology should not be taken too
+seriously, and phonologists describe the patterns which they find. The claim of this paper is not just that the men-
+talistic claim should be taken more seriously – by eliminating complexities from the Dutch system which do not
+belong there we also gain insight in what is a possible phonological system – but also that many of the ‘patterns’ are
+less than real: they describe statistic tendencies at best.
+2
+   CELEX (http: ⁄ ⁄ celex.mpi.nl ⁄ ) is a huge database with Dutch words, based on a number of balanced corpora of
+written Dutch. For this article, I have used the section ‘Dutch lemma’s’ and selected only the monomorphemic
+words.. Morphology interacts with stress in a very interesting way in Dutch, but that is not the topic of this paper.
+3
+   One convincing argument for trochaic foot which is not directly based on stress, but rather on an intonational
+phenomenon called the ‘chanted call’, can be found in Gussenhoven (1993).
+4
+   We will just assume trochaic feet, so that the constraint disallowing iambs is not needed in the tableaux.
+5
+   In this example, the form with only one foot wins, because of the relative ranking of Stress-rightmost and Parse-
+syllable. We could also reverse the ranking, in which case (b) would win, which is phonetically equivalent. Since
+this is a sample analysis, there is no reason to go into this discussion here.
+6
+   Booij (1995:101, fn. 8) is one of the few recent sources who cast doubt on the weight sensitivity of Dutch stress.
+7
+   The generalisation as described here is true word internally. At the edges of word, we can have at most one extra
+non-coronal consonant, so that final tense vowels can be in a syllable closed by one, and lax vowels in a syllable
+closed by two consonants. Furthermore, one or more voiceless coronal obstruents (s or t) can follow this complex.
+8
+   This problem can be solved under an alternative view of syllable structure and its relation to segmental phonology
+which has it that phonologically tense and lax vowels are all short, the only relevant distinction being one which is
+described by a feature such as [tense], [lax] or [ATR], so that Dutch has two types of syllables, of which CV would
+be light and CVC would be heavy (van Oostendorp 2000).
+9
+   Although this is orthogonal to the discussion, I note that I do not personally agree with these judgements. In par-
+ticular, I would never pronounce conservatief in the way indicated, but rather as [k ns rvatif] or, in the ultimate case,
+                                                                                              e c
+[k ns rv tif]. The reason for this could be that the schwa in the second syllable is underlying for speakers like me,
+    e e c
+and not the result of reduction. I agree with the other judgements.
+10
+    Trommelen and Zonneveld do not mention exceptions; Van der Hulst (1984) mentions ‘an almost total absence
+of exceptions’ to the rule that in trisyllabic words ending in a superheavy syllable the last syllable is stressed, but
+does not mention any of the exceptions which he suggests might exist. I suppose ‘olifant ‘elephant’ is one of these.
+11
+    Deze specifieke suffixen hechten normaal aan aan grondwoorden die een van de volgende eigenschappen heb-
+ben: eindklemtoon (inclusief monosyllabisch, en met schwa in de laatste lettergreep; of geprefigeerd); of samenges-
+teld (Trommelen and Zonneveld 1989:164).
+12
+    But see Kager (1989) for arguments that the lightness of schwa should be attributed to it being moraless.
+
+
+ª 2012 The Author                                                  Language and Linguistics Compass 6/6 (2012): 343–358, 10.1002/lnc3.339
+Language and Linguistics Compass ª 2012 Blackwell Publishing Ltd
+                                                                                                      Dutch Word Stress 357
+13
+    Similar ideas were expressed in Moortgat and Van der Hulst (1981), Zonneveld (1993) and van Oostendorp
+(1995, 1997).
+14
+    A reviewer points out that Trommelen (1983) has already drawn a connection between superheavy syllables and
+schwa syllables. Notice, however, that this connection is a little bit different in Trommelen’s (1983) work: there, it
+is pointed out that tense vowels and schwas both can be followed by either nothing or at most one non-coronal
+consonant, whereas lax vowels can be followed by one or two non-coronal consonants. (In both cases, more voice-
+less coronal plosives may follow.)
+15
+    Another way in which they might be considered quantity sensitive is the special behaviour of high vowels that
+seem to avoid stress. Note that many of the ‘problematic’ cases in (11) have a high vowel in the position where
+one would regularly expect stress. Another case which might show the same is the contrast between the names
+Unicef (stress on the first syllable) and Unesco (stress on the regular penultimate syllable).
+
+
+Works Cited
+Booij, Geert. 1976. Klinkerreductie in het Nederlands. Leuvense Bijdragen 65. 461–70.
+——. 1982. Fonologische en fonetische aspecten van klinkerreductie. Spektator 11. 295–301.
+——. 1995. The phonology of Dutch. Oxford: Oxford University Press.
+Botma, Bert, and Marc van Oostendorp. Ms. A propos of the Dutch vowel system 21 years on, 22 years on, Leiden
+  University.
+Daelemans, Walter, Steven Gillis, and G. Durieux. 1994. The acquisition of stress. A data-oriented approach. Com-
+  putational Linguistics 20(3). 421–51.
+De Haas, Wim, and Mieke Trommelen. 1993. Morfologisch handboek van het Nederlands. The Hague: Sdu.
+Don, Jan, and Wim Zonneveld. 1988. CV Phonology. Theory and machine in Dutch stress assignment. PRIPU
+  13. 8–32.
+Ernestus, Mirjam. 2000. Voice assimilation and segment reduction in casual Dutch. Utrecht: LOT.
+Geerts, Twan. 2008. More about less. Fast speech phonology: the cases of French and Dutch. Radboud Universiteit
+  Nijmegen: PhD Dissertation.
+Gussenhoven, Carlos. 1993. The Dutch foot and the chanted call. Journal of Linguistics 29. 37–63.
+——. 2009. Vowel duration, syllable quantity, and stress in Dutch. The nature of the word. Essays in honor of Paul
+  Kiparsky, ed. by Kristin Hanson and Sharon Inkelas, 181–98. Cambridge, MA ⁄ London, UK: MIT Press.
+Hammond, Michael. 1999. The phonology of English. A prosodic-optimality theoretic approach. Oxford: Oxford
+  University Press.
+Hart, Johan ‘t. 1976. Fonetische steunpunten. De Nieuwe Taalgids 62. 168–74.
+——, and Michael Moortgat. 1981. Prosodische fonologie en de accentuatie van Nederlandse woorden, of: Leeft
+  het Nederlands op grote voet. Verslag van de 150e vergadering van de Nederlandse vereniging van fonetische
+  wetenschappen. Amsterdam. 1–25.
+Kager, René. 1989. A metrical theory of stress and destressing in English and Dutch. Dordrecht: Foris.
+——, and Ellis Visch. 1983. Een metrische analyse van ritmische klemtoonverschijnselen. Utrecht: MA thesis.
+——, ——, and Wim Zonneveld. 1987. Nederlandse woordklemtoon (hoofdklemtoon, bijklemtoon, reductie,
+  voeten). GLOT 10. 197–226.
+——, and Wim Zonneveld. 1986. Schwa, syllables and extrametricality in Dutch. The Linguistic Review 5. 197–
+  221.
+Kooij, Jan G. 1978. Aksentregels en syllabestruktuur in het Nederlands. De Nieuwe Taalgids 71. 543–8.
+——, and Marc van Oostendorp. 2004. Fonologie. Uitnodiging tot de klankleer van het Nederlands. Amsterdam:
+  AUP.
+Koopmans-van Beinum, Florien. 1980. Vowel contrast reduction. An acoustic and perceptual study of Dutch
+  vowels in various speech conditions. University of Amsterdam: PhD dissertation.
+Krämer, Martin. 2009. The phonology of Italian. Oxford: Oxford University Press.
+Lahiri, Aditi, and J. Kooreman. 1988. Syllable weight and quantity in Dutch. WCCFL 7. 217–28.
+Langeweg, Simone. 1988. The stress system of Dutch. Leiden University: PhD dissertation.
+van Marle, Jaap. 1980. The stress pattern of Dutch simplex words. A first approximation. Studies in Dutch phonol-
+  ogy, ed. by Wim Zonneveld, Frans van Coetsem and O. W. Robinson, 79–121. The Hague: Nijhoff.
+Martin, W. 1968. De verdoffing van gedekte en ongedekte e in niethoofd-tonige positie bij Romaanse leenwoor-
+  den in het Nederlands. De Nieuwe Taalgids 61. 162–81.
+McCarthy, John. 1979. On stress and syllabification. Linguistic Inquiry 10. 443–66.
+Neijt, Anneke, and Wim Zonneveld. 1982. Metrische fonologie. De representatie van klemtoon in Nederlandse
+  monomorfematische woorden. De Nieuwe Taalgids 75. 527–47.
+Nouveau, Dominique. 1994. Language acquisition, metrical theory, and optimality. A study of Dutch word stress.
+  Utrecht University: PhD dissertation.
+van Oostendorp, Marc. 1995. Vowel quality and syllable projection. Tilburg University: PhD dissertation.
+——. 1997. Lexicale variatie in de optimaliteitstheorie. Nederlandse Taalkunde 1997. 13–145.
+
+
+ª 2012 The Author                                                  Language and Linguistics Compass 6/6 (2012): 343–358, 10.1002/lnc3.339
+Language and Linguistics Compass ª 2012 Blackwell Publishing Ltd
+358 Marc van Oostendorp
+
+——. 2000. Phonological projection. Berlin: Mouton De Gruyter.
+Rietveld, Toni, Joop Kerkhoff, and Carlos Gussenhoven. 2004. Word prosodic structure and vowel duration in
+  Dutch. Journal of Phonetics 32. 349–71.
+Ross, John R. 1972. A reanalysis of English word stress. Contributions to generative phonology, ed. by M. Brame,
+  231–45. Austin and London: University of Texas Press.
+Trommelen, Mieke. 1983. The syllable in Dutch. With special reference to diminutive formation. Dordrecht:
+  Foris.
+——. 1989. Lettergreepstructuur en woordcategorie. De Nieuwe Taalgids 82. 64–77.
+——. 1991. Dutch word stress. Extrametricality and feet. The Berkeley Conference on Dutch Linguistics 1989.
+  Issues and Controversie, ed. by T. F. Shannon and J. P. Snapper, 157–73. Lanhan: University Press of America.
+——, and Wim Zonneveld. 1989. Klemtoon en metrische fonologie. Muiderberg: Coutinho.
+——, and ——. 1999. Word stress in English and Dutch. Word prosodic systems of the languages of Europe, ed.
+  by H. van der Hulst, 132–3. Berlin: Mouton de Gruyter.
+Van der Hulst, Harry. 1984. Syllable structure and stress in Dutch. Leiden University: PhD Dissertation.
+Visch, Ellis. 1989. The rhythm rule in English and Dutch. Utrecht: Proefschrift.
+——, and René Kager. 1984. Syllable-weight and Dutch word stress. Linguistics in the Netherlands, ed. by Hans
+  Bennis and Wus van Lessen Kloeke, 231. Dordrecht: Foris.
+Visser, Willem. 1997. The syllable in frisian. The Hague: Holland Academic Graphics.
+Wiese, Richard. 2000. The phonology of German. Oxford: Oxford University Press.
+Zonneveld, Ron van. 1982. Met de ritmische hangmat in de metrische boom. Tabu 12. 65–85.
+——. 1984. Word rhythm and the Janus syllable. The structure of phonological representations II, ed. by Harry
+  van der Hulst and Norval Smith, 133–40. Dordrecht: Dordrecht-Foris.
+Zonneveld, Wim. 1993. Schwa, superheavies, stress and syllables in Dutch. The Linguistic Review 10. 61–110.
+——. 2003. Zijn er op vooruit gegaan in de fonologie? Fonologische kruispunten. Studies op het gebied van de
+  Nederlandse taalkunde, ed. by Georges de Schutter and Steven Gillis, 24. Gent: KANTL.
+
+
+
+
+ª 2012 The Author                                                  Language and Linguistics Compass 6/6 (2012): 343–358, 10.1002/lnc3.339
+Language and Linguistics Compass ª 2012 Blackwell Publishing Ltd
+

@@ -1,0 +1,4249 @@
+
+Contrastieve analyses van het fonemisch systeem van het Nederlands 
+Contrastieve analyses met het Duits, Engels, Frans, Italiaans en Pools
+     
+
+1685925502920
+     
+     
+     
+Student: Milou Leeijen
+Studentnummer: 5690994
+MA Meertaligheid en Taalverwerving
+MA Scriptie
+Universiteit Utrecht
+Eerste lezer: Dr. Ellen-Petra Kester
+Tweede lezer: Dr. Jacomine Nortier
+19 augustus 2019
+Inhoud
+ TOC \h \u \z Begrippenlijst PAGEREF _heading=h.2et92p0 \h 3
+Samenvatting5
+1. Inleiding PAGEREF _heading=h.1t3h5sf \h 6
+1.1 Klankverwerving van T1 PAGEREF _heading=h.4d34og8 \h 6
+1.2 De rol van T1 in T2-verwerving PAGEREF _heading=h.2s8eyo1 \h 9
+1.3 Uitspraakverwerving van het Nederlands als T2 PAGEREF _heading=h.17dp8vu \h 12
+1.4 Probleemstelling PAGEREF _heading=h.3rdcrjn \h 15
+2. Methode PAGEREF _heading=h.26in1rg \h 16
+3. Resultaten PAGEREF _heading=h.lnxbz9 \h 17
+3.1 Nederlandse consonanten PAGEREF _heading=h.kcblf3os5tvv \h 18
+3.2 Nederlandse vocalen PAGEREF _heading=h.44sinio \h 22
+3.3 Nederlandse diftongen PAGEREF _heading=h.2jxsxqh \h 24
+3.4 Contrastieve analyse Duits - Nederlands PAGEREF _heading=h.z337ya \h 25
+3.4.1 Duits - Nederlands: Consonanten PAGEREF _heading=h.3j2qqm3 \h 26
+3.4.2 Duits - Nederlands: Vocalen PAGEREF _heading=h.1y810tw \h 28
+3.4.3 Duits - Nederlands: Diftongen PAGEREF _heading=h.4i7ojhp \h 30
+3.5 Contrastieve analyse Engels - Nederlands PAGEREF _heading=h.2xcytpi \h 31
+3.5.1 Engels - Nederlands: Consonanten PAGEREF _heading=h.1ci93xb \h 33
+3.5.2 Engels - Nederlands: Vocalen PAGEREF _heading=h.3whwml4 \h 35
+3.5.3 Engels - Nederlands: Diftongen PAGEREF _heading=h.2bn6wsx \h 37
+3.6 Contrastieve analyse Frans - Nederlands PAGEREF _heading=h.qsh70q \h 39
+3.6.1 Frans - Nederlands: Consonanten PAGEREF _heading=h.3as4poj \h 39
+3.6.2 Frans - Nederlands: Vocalen PAGEREF _heading=h.1pxezwc \h 41
+3.6.3 Frans - Nederlands: Diftongen PAGEREF _heading=h.49x2ik5 \h 43
+3.7 Contrastieve analyse Italiaans - Nederlands PAGEREF _heading=h.2p2csry \h 44
+3.7.1 Italiaans - Nederlands: Consonanten PAGEREF _heading=h.147n2zr \h 45
+3.7.2 Italiaans - Nederlands: Vocalen PAGEREF _heading=h.3o7alnk \h 47
+3.7.3 Italiaans - Nederlands: Diftongen PAGEREF _heading=h.23ckvvd \h 48
+3.8 Contrastieve analyse Pools - Nederlands50
+3.8.1 Pools - Nederlands: Consonanten PAGEREF _heading=h.32hioqz \h 51
+3.8.2 Pools - Nederlands: Vocalen PAGEREF _heading=h.1hmsyys \h 53
+3.8.3 Pools - Nederlands: Diftongen PAGEREF _heading=h.41mghml \h 54
+4. Conclusie PAGEREF _heading=h.2grqrue \h 55
+5. Aanbevelingen voor ‘Moedertaal in het Nederlands als Tweede Taal’ PAGEREF _heading=h.4f1mdlm \h 68
+5.1 Consonanten PAGEREF _heading=h.2u6wntf \h 68
+5.2 Vocalen PAGEREF _heading=h.19c6y18 \h 69
+5.3 Diftongen70
+6. Discussie71
+Bibliografie PAGEREF _heading=h.m2qig1j2o45g \h 73
+Bijlagen PAGEREF _heading=h.37m2jsg \h 77
+Bijlage 1: Alle klinkers en consonanten PAGEREF _heading=h.1mrcu09 \h 77
+Bijlage 2: Voorbeeldwoorden Nederlands: Consonanten PAGEREF _heading=h.111kx3o \h 79
+Bijlage 3: Voorbeeldwoorden Nederlands: Vocalen en (pseudo)diftongen80 PAGEREF _heading=h.3l18frh \h 
+Bijlage 4: Duitse consonanten: Voorbeeldwoorden PAGEREF _heading=h.206ipza \h 81
+Bijlage 5: Duitse vocalen: Voorbeeldwoorden PAGEREF _heading=h.2zbgiuw \h 82
+Bijlage 6: Engelse consonanten: Voorbeeldwoorden PAGEREF _heading=h.3ygebqi \h 83
+Bijlage 7: Engelse vocalen: Voorbeeldwoorden PAGEREF _heading=h.2dlolyb \h 84
+Bijlage 8: Franse consonanten: Voorbeeldwoorden PAGEREF _heading=h.sqyw64 \h 85
+Bijlage 9: Franse vocalen: Voorbeeldwoorden PAGEREF _heading=h.1rvwp1q \h 86
+Bijlage 10: Italiaanse consonanten: Voorbeeldwoorden PAGEREF _heading=h.4bvk7pj \h 87
+Bijlage 11: Italiaanse vocalen: Voorbeeldwoorden88
+Bijlage 12: Poolse consonanten: Voorbeeldwoorden89
+Bijlage 13: Poolse vocalen: Voorbeeldwoorden PAGEREF _heading=h.1jlao46 \h 90
+Begrippenlijst
+Accent
+ | Gemarkeerde uitspraak waar de moedertaal in weerklinkt.
+ | 
+Allofoon
+ | Twee klanken die op verschillende manier worden uitgesproken, maar niet betekenisonderscheidend zijn (het zijn geen fonemen). 
+ | 
+Coda
+ | De laatste positie in een woord, meestal een medeklinker of meerdere medeklinkers (in het Nederlands).
+ | 
+Consonant
+ | Een medeklinker, waarbij de stemplooien wel of niet kunnen trillen.
+ | 
+Diakritisch teken
+ | Een teken dat een accent of markering aangeeft bij de uitspraak van het foneem waar het achter staat. Dit betekent een andere uitspraak dan het standaard foneem.
+ | 
+Diftong
+ | Tweeklank. Twee vocalen die van de ene in de andere glijdt. Bijvoorbeeld [ei].
+ | 
+Discriminatieve vaardigheden
+ | Het kunnen onderscheiden van fonemen op basis van hun fonetische eigenschappen. Zie ook klankdiscriminatie.
+ | 
+Foneem
+ | Een klank die betekenisonderscheidend is.
+ | 
+Interferentie 
+ | Negatieve transfer. Het onterecht toepassen van de regels van de moedertaal op de tweede taal. Hier komen incorrecte of gemarkeerde uitspraken uit voort.  
+ | 
+Klankdiscriminatie
+ | Het fonetisch contrast kunnen onderscheiden op een continuüm van twee fonemen, die kunnen verschillen in stemhebbendheid, formanten of duratie, bijvoorbeeld het contrast tussen /p/ (stemloze plosief) en /b/ (stemhebbende plosief). [pot - bot].
+ | 
+Lexicon
+ | De woordenschat van een individu of taal.
+ | 
+Minimaal paar
+ | Woordparen die maar op één foneem verschillen en daardoor een andere betekenis krijgen. Bijvoorbeeld [pot - bot] of [maan - man].
+ | 
+
+ | 
+ | 
+Nederlands als 
+tweede taal (NT2)
+ | Het Nederlands dat niet als moedertaal wordt geleerd, vaak nadat er al een andere moedertaal is verworven (of 2T1, zie T1). Ook als het Nederlands als een derde of vierde taal wordt verworven, door bijvoorbeeld volwassenen, wordt dit de T2 genoemd. 
+ | 
+Segmenteren
+ | Een stroom van woorden of zinnen in kleinere eenheden opdelen, zoals woorden, lettergrepen of fonemen.
+ | 
+T1 (eerste taal)
+ | De moedertaal van een persoon. De taal die doorgaans tussen de leeftijd van 0 en 7 jaar wordt verworven. De zogeheten moedertaal hoeft niet per se door de moeder van het kind gesproken te worden, maar het betreft de taal die het meest gesproken wordt (door de ouders of verzorgers). In sommige gevallen wordt er gesproken over 2T1 (ook wel 2L1 of simultane tweetaligheid genoemd), dat wil zeggen twee moedertalen die tegelijkertijd verworven worden.
+ | 
+Transfer
+ | Regels uit de moedertaal toepassen op een tweede taal, waarbij het resultaat overeenkomt met het systeem van de tweede taal. 
+ | 
+Vocaal
+ | Een klinker, een foneem waarbij de stemplooien altijd trillen.
+ | 
+
+
+Samenvatting 
+De receptieve taalvaardigheden van een baby ontwikkelen zich al vóór de geboorte en na de geboorte ontwikkelen deze vaardigheden zich razendsnel verder: binnen de leeftijd van zes maanden zijn baby’s al bekend met de klinkers van de moedertaal en tussen de tien en twaalf maanden zijn ze bekend met de medeklinkers uit de moedertaal. Tijdens verwerving van de moedertaal, neemt ook het vermogen om alle spraakklanken van natuurlijke talen te kunnen onderscheiden af. Dit maakt het lastig om klinkers en medeklinkers uit een andere taal, die niet tot de moedertaal behoren, te kunnen herkennen en te leren uitspreken bij het leren of verwerven van een tweede taal. 
+In dit afstudeeronderzoek wordt onderzocht welke fonemen voorkomen in het Nederlands en worden alle fonemen uit het Duits, Engels, Frans, Italiaans en Pools vergeleken met de fonemen van het Nederlands. Hierbij wordt beschreven of er mogelijk interferentie optreedt: het overnemen van kenmerken van klanken uit de moedertaal, waardoor er een accent of gemarkeerde uitspraak aanwezig zal zijn. Dit overzicht biedt inzicht in welke klanken per moedertaal mogelijk extra aandacht nodig hebben in het NT2-onderwijs, omdat ze niet voorkomen in het Duits, Engels, Frans, Italiaans of Pools, maar wel tot het Nederlands behoren. 
+
+Sleutelwoorden:  
+Contrastieve analyse - International Phonetic Alphabet - NT2 - Interferentie - Foneemdiscriminatie 
+     
+
+1. Inleiding 
+Met behulp van het spraakorgaan worden klanken geproduceerd. Hiermee heeft ieder mens de potentie om alle talen van de wereld te spreken, mits er geen (ernstige) afwijkingen zijn aan het spraak- of gehoororgaan. In veel landen worden vreemde talen op latere leeftijd aangeboden in het onderwijs en komt er expliciete instructie bij kijken, waarbij meestal gebruik wordt gemaakt van de metalinguïstische kennis van de leerder. Bij beide processen komt perceptie vóór productie. Daarnaast zijn er ook grote verschillen tussen vreemde- of tweedetaalverwerving en natuurlijke taalverwerving. In Paragraaf 1.1 wordt de natuurlijke verwerving van klanken van de moedertaal toegelicht, waarna in Paragraaf 1.2 de rol van de moedertaal tijdens het leerproces van een vreemde/tweede taal wordt besproken. In Paragraaf 1.3 wordt er op het leerproces van uitspraak in een vreemde taal ingegaan. Vervolgens worden in Paragraaf 1.4 de probleemstelling en aanleiding van dit onderzoek besproken. Hoofdstuk 2 omvat de methode en in Hoofdstuk 3 worden de resultaten, de contrastieve analyses, van dit onderzoek gepresenteerd. Hoofdstuk 4 omvat de conclusie, op basis waarvan er adviezen voor het NT2-onderwijs worden gegeven in Hoofdstuk 5. Tot slot omvat Hoofdstuk 6 de discussie.
+1.1 Klankverwerving van T1
+Het gehoororgaan is vanaf de geboorte van een baby volledig ontwikkeld, maar dit betekent niet dat een baby geluiden waarneemt zoals een volwassene dit doet (Koopmans-van Beinum & Den Os, 1993). Het vergt neurale rijping en ontwikkeling om woorden en klanken te segmenteren uit een continue stroom van spraakgeluiden, waarin geen eenduidige aanwijzingen zijn voor de bepaling van woordgrenzen. De ontwikkeling in de perceptie van spraak is zeer groot in het eerste levensjaar (Koopmans-van Beinum & Den Os, 1993): zo zouden baby’s vanaf een maand fonemen al van elkaar kunnen onderscheiden (Polak & Veerkamp, 2009). Dit wordt klankdiscriminatie genoemd, en men neemt aan dat dit een aangeboren vermogen is (Polak & Veerkamp, 2009). 
+Op grond van input leert een baby al snel steeds beter de klanken van de taal die om hem of haar heen gesproken wordt op een categoriale manier waar te nemen (Koopmans-van Beinum & Den Os, 1993; Polak & Veerkamp, 2009). Dit betekent ook dat de sensitiviteit en het vermogen om andere klanken, die niet in de gesproken taal uit de omgeving (in veel gevallen de moedertaal) voorkomen, afneemt (Pierrehumbert, 2003; Polak & Veerkamp, 2009). Volgens Koopmans-van Beinum en Den Os (1993) neemt dit vermogen af rond de 10-12 maanden en kunnen onnodige contrasten dan worden verwaarloosd, vermoedelijk omdat het niet efficiënt is om contrasten die niet in de moedertaal voorkomen verder te ontwikkelen. Zo kan een baby van 6-8 maanden, die het Engels als moedertaal verwerft, zowel het contrast tussen de <bilabiale /b/> en de <alveolaire /d/>, dat in het Engels bestaat, als het contrast tussen de <alveolaire /d/> en de <retroflexe /ɖ/>, dat in het Hindi bestaat, onderscheiden (Koopmans-van Beinum & Den Os, 1993). Een baby van 10-12 maanden, die het Engels als moedertaal verwerft, kan het contrast in het Hindi niet (meer) waarnemen (Koopmans-van Beinum & Den Os, 1993). De waarneming van klinkers is minder categoriaal dan van medeklinkers (Koopmans-van Beinum & Den Os, 1993). Kuhl et al. (1992) (in Koopmans-van Beinum & Den Os, 1993) hebben aangetoond dat de klinkercategorieën uit de moedertaal bij een leeftijd van 6 maanden al gedefinieerd zijn. Met behulp van centrale en perifere prototypische klinkers is er een perceptief magneet effect gevonden. Dit houdt in dat de klinkerwaarneming naar het prototype van de moedertaal getrokken wordt en niet naar prototypische klinkers van andere talen (Koopmans-van Beinum & Den Os, 1993). 
+Er moet een lexicon worden opgebouwd, wat volgens Fikkert (2008) gebeurt met behulp van abstracte representaties: de meest belangrijke en relevante fonologische kenmerken. Fikkert (2008) wijst op de relatie tussen woordherkenning en woordproductie: deze vaardigheden worden verbonden door de klankrepresentaties die zich in het mentale lexicon bevinden. De klankrepresentaties van de moedertaal zorgen er niet alleen voor dat woorden herkend kunnen worden, maar zorgen ook voor de articulatorische bewegingen die nodig zijn om de woorden uit te spreken. De logische volgorde van dit ontwikkelingsproces is dat de perceptie vooroploopt en dat de productie pas later volgt, wat meestal ook het geval is (Fikkert, 2008). Niet veel later dan dat een baby klanken kan discrimineren, gaat een baby namelijk zelf klanken produceren: dit begint met vocaliseren en verandert geleidelijk in brabbelen. Rond de 10-12 maanden worden de brabbels taalspecifiek (Fikkert, 2008). Tussen de 1;0 en 2;6 jaar begint de fase van de eenwoordzin, waarin vaak zelfstandige naamwoorden worden geuit, zoals ‘bal’ en ‘bed’, die een hele zin representeren (Polak & Veerkamp, 2009). Het lexicon breidt zich daarna snel uit en de verschillende articulatiepunten van de klanken uit de moedertaal zullen, naast de vroege herkenning, ook steeds beter gebruikt kunnen worden (Fikkert, 2008).
+Om het volwassen fonologische verwerkingssysteem te begrijpen, beschrijft Pierrehumbert (2003) gemeenschappelijke kenmerken van spraakverwerkingsmodellen. Zo zouden deze modellen ten eerste een snel en automatisch coderingssysteem hebben dat algemene eigenschappen van de taal gebruikt om de stroom van spraak te segmenteren,  ten  tweede  is  er  een  lexicon  dat  de  link  legt  tussen  woordvorm  en -betekenis en ten derde beschikken de modellen over de vaardigheid om lexicale entiteiten te abstraheren tot een concept (Pierrehumbert, 2003). Belangrijk hierbij is het kunnen identificeren van mogelijke woordgrenzen met behulp van het lexicon en het identificeren van fonemen met behulp van statistisch leren (Pierrehumbert, 2003). 
+1.2 De rol van T1 in T2-verwerving
+Wanneer men een tweede taal leert, beschikt men doorgaans al over een volledige set van klanken en over een set aan concepten die verbonden is aan een mentaal lexicon, namelijk die van de moedertaal. Met behulp hiervan lijkt het makkelijker dan bij een moedertaal om de vaardigheden voor woordherkenning en woordproductie te ontwikkelen, mede doordat de luister- en leesvaardigheid in de moedertaal is ontwikkeld om het leren van woorden en vaardigheden in de tweede taal te ondersteunen. Toch kost het veel T2-leerders veel tijd om een vreemde taal te beheersen en is het foutloos gebruiken van de taal, zoals een moedertaalspreker dat kan, voor de meesten niet haalbaar. Hierbij moet natuurlijk onderscheid gemaakt worden tussen vroege tweetaligheid en late tweetaligheid. Vaardigheden in een tweede taal komen over het algemeen dichter in de buurt van moedertaalsprekers als de taal in vroege of late kinderjaren geleerd wordt, dan wanneer sprekers tijdens hun adolescentie of (veel) later de tweede taal leren (Flege, 2002).  
+Het debat rond de positieve en negatieve effecten van (niet-simultane) meertaligheid is zeer complex. Dit komt doordat de methodologie en doelgroep variabel zijn, wat ervoor zorgt dat er geen eenduidige onderzoeksresultaten zijn. Een belangrijke theorie die hierbij is ontstaan in 1980, is het Separate Underlying Proficiency Model of Bilingualism, waarbij wordt aangenomen dat alle talen die de leerder spreekt en leert gescheiden zijn en waarbij er geen overdracht kan plaatsvinden tussen de talen (Cummins, 1980 in Baker, 2006). Dit zou betekenen dat de T1 nooit een rol speelt in T2-verwerving en dat alle leerlingen tegen dezelfde problemen aanlopen (Leufkens, 2019). Lesmethoden voor het NT2-onderwijs zijn ook vaak gebaseerd op deze theorie: onderwerpen die in het algemeen moeilijk zijn, krijgen meer aandacht dan relatief makkelijke onderwerpen (Leufkens, 2019). Deze theorie past echter niet bij talrijke onderzoeksbevindingen (Leufkens, 2019).
+In 1981 beschreef Cummins (in Baker, 2006) dan ook een meer passende theorie: het model van meertaligheid van Common Underlying Proficiency. Dit model berust op één centraal verwerkingssysteem dat aan meertaligheid ten grondslag ligt: er is één bron voor gedachten en voor informatieverwerking. De voorwaarde voor het centrale verwerkingssysteem is dat de taal waarin gecommuniceerd wordt voldoende verworven is (Baker, 2006). Als er aan deze voorwaarde voldaan wordt, kan nieuw opgedane kennis in de ene taal overgedragen worden op de andere taal, zonder dat de kennis opnieuw opgedaan dient te worden. Dit lijkt aannemelijk, omdat gedachten en concepten niet per se gebonden zijn aan een specifieke taal waarin ze opgeslagen zijn. Aanhangers van het meertaligheidmodel van Common Underlying Proficiency gaan ervan uit dat de moedertaal invloed heeft op het leren van een tweede taal. Met deze invloed kan er transfer optreden, die zowel positief als negatief kan zijn (Gas, 1979). Positieve transfer houdt in dat tweedetaalleerders kenmerken van de moedertaal toepassen op de tweede taal, waarbij de kenmerken in beide talen overeenkomen (Gas, 1979). Negatieve transfer (ook wel interferentie genoemd) houdt in dat tweedetaalleerders kenmerken van de moedertaal toepassen op de tweede taal, waarbij de kenmerken niet overeenkomen. Dit kan voor taalspecifieke fouten zorgen (Gas, 1979; Leufkens, 2019). Het laatste woord over de rol van interferentie bij het leren van een tweede taal is echter nog niet gezegd.
+Om erachter te komen of de moedertaal invloed zal hebben op het leren van een tweede taal, en of er dus transfer en interferentie zal optreden, is het maken van een systematische contrastieve analyse tussen beide talen een bruikbare en veel uitgevoerde methode, die uitgaat van de Contrastieve Analyse Hypothese (Wardhaugh, 1970). Er is kritiek geweest op deze methode en op de Contrastieve Analyse Hypothese, omdat de analyses vaak niet diepgaand genoeg waren, en omdat de voorspellingen betreft interferentie, die uit deze hypothese voortkomen, niet altijd werden bevestigd (Wardhaugh, 1970). Bovendien kunnen gemaakte fouten niet altijd verklaard worden vanuit de moedertaal. Bij deze hypothese wordt echter geen rekening gehouden met individuele sprekervariatie en worden enkel taalspecifieke fouten voorspeld. Een contrastieve analyse kan ook anders gebruikt worden: het simpelweg beschrijven van overeenkomsten en verschillen tussen beide talen (Khansir & Pakdel, 2019). Met behulp van deze overeenkomsten en verschillen, kan de docent inspelen op mogelijke moeilijkheden die leerlingen kunnen ondervinden aan de hand van de verschillen tussen de moedertaal en de vreemde- of tweedetaal. 
+Het project van de Universiteit Utrecht genaamd ‘Moedertaal in het onderwijs Nederlands als Tweede Taal’ (MoedINT2) gaat uit van de theorie van Cummins van het meertaligheidmodel. Aan dit project is een webapplicatie verbonden, met informatie over verschillende moedertalen in contrast met het Nederlands (Leufkens & Hebing, 2018). Deze informatie biedt docenten en taalcoaches beter inzicht in de mogelijkheden en moeilijkheden per leerling, omdat de informatie gericht is op de rol van de T1 bij het leren van de T2, het Nederlands (Leufkens, 2019). Bovendien bezitten docenten en taalcoaches niet alle kennis over de moedertalen van hun leerlingen, en kunnen zij met behulp van deze informatie betere en meer gerichte ondersteuning geven. Het huidige afstudeeronderzoek wordt ook in het kader van Moedertaal in NT2 geschreven, met als praktisch onderzoeksdoel de informatie op de webapplicatie met betrekking tot het verbeteren van de uitspraak uitbreiden.
+1.3 Uitspraakverwerving van het Nederlands als T2
+Om erachter te komen of klanken betekenisonderscheidend zijn, kan er een minimaleparentest gedaan worden (Kooij & Van Oostendorp, 2003). Dit houdt in dat twee woorden slechts op één klank van elkaar verschillen, waarbij de betekenis van de woorden ook verschillend is. Zo zijn de /f/ en de /v/ verschillende fonemen in het Nederlands, te testen doordat de woorden fee en vee een verschillende betekenis hebben. Kooij en Van Oostendorp (2003) spreken hierbij van een zogeheten kritische periode voor taalverwerving. Tot een bepaalde leeftijd kan elk kind alle mogelijke fonemen probleemloos leren. Na deze periode is het bijna onmogelijk om zonder accent te spreken (Kooij & Van Oostendorp, 2003). Naast deze kritische periode, zijn er meerdere factoren die een rol spelen bij de vaardigheden in de T2. De kwaliteit en kwantiteit van de input die een tweedetaalleerder krijgt, is belangrijk voor het niveau dat de leerder behaalt in de tweede taal (Flege, 2002). Daarnaast kan de lengte van het verblijf in het T2-sprekende land, en daarmee de hoeveelheid input, een rol spelen, evenals de mate van contact met moedertaalsprekers en de hoeveelheid T2-output (Flege, 2002). Minimale fonemische verschillen komen soms niet in de moedertaal voor, waardoor er interferentie kan optreden tussen de T1 en de T2 (Kooij & Van Oostendorp, 2003). De klankverschillen die hieruit voortkomen, worden vaak waargenomen als accent (Flege, 2002). Naast de problemen die door interferentie kunnen ontstaan, kunnen fonemen die totaal ontbreken in de moedertaal ook lastig zijn voor de tweedetaalleerder (Kooij & Van Oostendorp, 2003).
+Uit onderzoek van Van Heuven (2011) is bijvoorbeeld gebleken dat drie Turkse NT2-sprekers, die al minstens acht jaar in Nederland wonen en werken, de Nederlandse klinkers niet goed kunnen uitspreken. Dit resultaat komt voort uit beoordelingen over de uitspraak van woorden die door de Turkse NT2-sprekers zijn geuit, door twintig moedertaalsprekers van het Nederlands aan de hand van de vraag welke klinker zij dachten dat de spreker bedoelde. In slechts 60% van de gevallen werd de bedoelde klinker correct herkend door de beoordelaars. Dit verklaart Van Heuven (2011) aan de hand van klinkerduur en formantfrequenties van de sprekers. Doordat er in het Turks geen onderscheid is tussen lange en korte klinkers (zoals de Nederlandse a en aa), liggen de frequenties van de tweede formant bij de NT2-sprekers van beide klinkers op ongeveer dezelfde positie, terwijl de frequentie van de tweede formant van de Nederlandse controle sprekers duidelijker uit elkaar liggen (Van Heuven, 2011). Ook bestaan er in het Turks maar twee posities voor de tong tijdens het uitspreken van klinkers: de tong is of hoog in verhouding tot het gehemelte, of de tong is laag in verhouding tot het gehemelte, in tegenstelling tot het Nederlands dat ook een middenpositie voor de tong kent (Van Heuven, 2011). Doordat het Turks deze vormen van onderscheid niet heeft, is het wellicht moeilijk voor de sprekers om deze vormen van onderscheid in de tweede taal opeens toe te moeten passen. De verwarring die bij Nederlandse luisteraars ontstaat, komt door interferentie bij Turkse sprekers van het Nederlands vanuit de Turkse moedertaal. 
+Naast het effect dat de T1 op de T2 kan hebben, bespreekt Flege (2002) ook het effect dat de T2 op de T1 kan hebben. Uit experimenten blijkt namelijk dat de T1 eigenschappen van de T2 overneemt, in vergelijking met de uitspraak van eentaligen in de T1. Hij beargumenteert dat de fonemen van de T1 en T2 in een common phonological space liggen opgeslagen en elkaar daardoor zullen beïnvloeden. De T2 bestaat hierbij uit nieuwe fonemen en uit aanpassingen van de fonemen uit de T1. De klank uit de T2 wordt bijvoorbeeld geassimileerd waargenomen als de klank uit de T1, waardoor de T2-klank gelijkgesteld wordt aan de T1-uitspraak. Hierdoor zullen er minder snel nieuwe categorieën gevormd worden. Bovendien worden nieuwe categorieën eerder gevormd wanneer de klanken verder uit elkaar liggen (Flege, 2002). Dit neemt niet weg dat de mogelijkheid om nieuwe categorieën te vormen behouden blijft gedurende het gehele leven. De mate van assimilatie en dissimilatie bepalen of er nieuwe categorieën gevormd worden of niet: bij assimilatie is er te weinig afstand tussen de klanken om een nieuwe categorie aan te maken en bij dissimilatie is de afstand voldoende om een nieuwe categorie aan te maken (Flege, 2002). Als er assimilatie optreedt, worden de T1 en T2 klanken samengevoegd tot één categorie en zal er ook interferentie zijn vanuit de T1, mogelijk waargenomen als accent door moedertaalsprekers van de T2 of als een gemarkeerde uitspraak (Flege, 2002).
+1.4 Probleemstelling
+Elke taal heeft een eigen set aan letters en bijbehorende klanken. Zo heeft elke taal ook een eigen set aan International Phonetic Alphabet (IPA) symbolen, die één mogelijke klank representeren, waarmee alle klanken uit de taal geuit kunnen worden (International Phonetic Alphabet, 2018). Er bestaat nog geen uitputtend overzicht van IPA-contrasten van talen in verhouding tot het (leren van het) Nederlands. Met een contrastief overzicht, wordt het inzichtelijk voor leerders en leraren welke moedertaalsprekers tegen welke moeilijkheden aan zullen lopen en welke moedertaalsprekers bepaalde klanken al kennen. Zo kan er beter in kaart gebracht worden welke moeilijkheden dit zijn, waar mogelijke uitspraakproblemen vandaan komen, waar een accent of gemarkeerde uitspraak hoorbaar zal zijn, en op welke manier hier eventueel op ingespeeld kan worden. 
+Uitspraakproblemen zoals hier beschreven komen niet voort uit fysieke tekortkomingen. Het gaat hier om beschrijvingen van de geïdealiseerde spreker en leerder. Vaak is het gehoor van belang en het bewust kunnen omgaan met klanken of taal in het algemeen, om te kunnen onderscheiden welke klanken de T2-leerder zelf maakt en waar (ongeveer) de grens met een ander foneem ligt. Om dit in kaart te brengen, is kennis van de Nederlandse fonemen belangrijk, maar ook welke taalspecifieke fonemen de T2-leerders wel al kennen en nog niet kennen. Zo bestaat er in het Chinees en Japans bijvoorbeeld geen betekenisonderscheid tussen de /l/ en de /r/, waarbij het in het Nederlands wel om twee unieke fonemen gaat. Hierdoor is het voor een moedertaalspreker van het Chinees en van het Japans lastig om deze klanken te onderscheiden bij het leren van het Nederlands (Kooij & Van Oostendorp, 2003). Chinese en Japanse moedertaalsprekers kunnen de kennis van de moedertaal niet gebruiken om de woorden liet en riet van elkaar te onderscheiden: interferentie vanuit de moedertaal zal optreden. Deze leerders van het Nederlands zullen nieuwe discriminatieve vaardigheden voor dit minimale paar </l/ en /r/> aan moeten leren. Dit onderzoek leidt tot de centrale onderzoeksvraag: Wat zijn de overeenkomende consonanten, vocalen en diftongen tussen het Nederlands en het Duits, Engels, Frans, Italiaans en Pools, en welke klanken zijn uniek voor deze talen in verhouding tot het Nederlands? Deze onderzoeksvraag wordt opgesplitst in twee vragen: (1) Hoe kunnen we het fonologische systeem van het Nederlands, het Duits, het Engels, het Frans, het Italiaans en het Pools beschrijven? en (2) Hoe kunnen we de beschrijving van het fonologische systemen van het Duits, het Engels, het Frans, het Italiaans en het Pools met het fonologische systeem van het Nederlands vergelijken? 
+
+2. Methode
+Om de centrale onderzoeksvraag te beantwoorden, zijn er contrastieve analyses van de fonemen van het Standaardnederlands (zoals dat voornamelijk in Nederland gesproken wordt) gemaakt met standaardvarianten van de volgende talen: Duits, Engels, Frans, Italiaans en Pools. De contrastieve analyses zijn geschreven vanuit het perspectief van NT2-verwerving. Ze zijn gericht op overeenkomsten en verschillen van bovengenoemde talen in verhouding tot het Standaardnederlands en zijn gebaseerd op beschrijvende literatuur over de fonologische systemen van deze talen, die de ideale spreker representeren. Als eerste wordt een overzicht van alle spraakklanken in het Nederlands gegeven: de consonanten (medeklinkers), vocalen (klinkers) en diftongen (tweeklanken). Dit is met behulp van het International Phonetic Alphabet (IPA) gedaan, waarbinnen alle klanken aan unieke symbolen zijn gekoppeld (Gussenhoven, 2007; International Phonetic Alphabet, 2018). Gussenhoven (2007) geeft argumenten voor het maken van transcripties op allofonische wijze ten behoeve van L2-leerders. Dit onderzoek bestaat echter niet uit transcripties van gesproken taal, maar bestaat voornamelijk uit een beschrijvende weergave van de spraakklanken die in de genoemde talen voorkomen. Na de inventarisatie van de Nederlandse klanken, is er per taal een contrastieve analyse met deze klanken weergegeven. 
+3. Resultaten
+Er zijn naar schatting 24 miljoen sprekers van het Nederlands, waarvan 17 miljoen sprekers in Nederland, 6,5 miljoen sprekers in België en 400.000 sprekers in Suriname wonen (Nederlandse Taalunie, 2019). De Nederlandse Taalunie (2019) verdeelt het Standaardnederlands dan ook onder deze drie variëteiten, omdat het Nederlands in deze landen anders klinkt en soms unieke woorden heeft. Hiernaast is het Nederlands ook één van de officiële talen in Aruba, Curaçao en Sint-Maarten (Gussenhoven, 1999; Nederlandse Taalunie, 2019; Niederländische Philologie, 2016). Bovendien is het mogelijk om, buiten deze landen om, in veertig verschillende landen aan zo’n 150 universiteiten het Nederlands als Vreemde Taal te studeren en krijgen zo’n 400.000 leerlingen in het buitenland Nederlandse les op niet-universitair niveau (Nederlandse Taalunie, 2019). Het Nederlands staat in de top veertig van de meest gesproken talen in de wereld, op de achtste plaats met het aantal moedertaalsprekers binnen Europa en het neemt de twaalfde positie in op het internet, naast de grote rol die het Nederlands speelt in sociale media (Nederlandse Taalunie, 2019). 
+Het International Phonetic Alphabet (2018) biedt een overzicht van alle mogelijke fonemen, zowel consonanten als vocalen. Het articulatiepunt voor vocalen fluctueert en verschilt voor de individuele uitspraak van elke individuele spreker, afhankelijk van de context. De positie van de klinkers in de tabel is een indicatie van het gemiddelde articulatiepunt (zie Bijlage 1 voor alle articulatiepunten van alle mogelijke klinkers en medeklinkers). Bij het articulatiepunt van vocalen wordt telkens de positie van de tong beschreven. 
+3.1 Nederlandse consonanten
+Het Nederlands kent 19 officiële consonantfonemen (Van Oostendorp, 2018). Figuur 1 geeft een doorsnee weergave van de articulatiepunten van het Nederlands (Collins & Mees, 2003). De plosieven bestaan uit drie stemloze fonemen: bilabiale /p/ (pit), alveolaire /t/ (tip) en velaire /k/ (kip), en twee stemhebbende fonemen: bilabiale /b/ (bus) en alveolaire /d/ (dip). De nasale fonemen zijn allen stemhebbend: de bilabiale /m/ (mint), alveolaire /n/ (nier) en velaire /ŋ/ (ring). De stemhebbende alveolaire tap of flap is de /ɾ/ (rat). De stemloze fricatieven zijn de labiodentale /f/ (fit), alveolaire /s/ (sip) en de velaire /x/ (lichaam). De stemhebbende fricatieven zijn de labiodentale /v/ (vis), alveolaire /z/ (zee), velaire /ɣ/ (gaan) en de stemhebbende glottale /ɦ/ (hier). De [h] wordt
+ 
+Figuur 1: Doorsnede van Nederlandse articulatiepunten. 
+(1) Bilabiaal, met twee lippen (2) Labiodentaal, met de onderlip tegen de boventanden (3) Alveolair, tongpunt tegen alveolaire ribbel (4) Post-alveolair, met tongpunt dichtbij het gehemelte en de alveolaire ribbel (5) Palataal, met het tongblad dichtbij het gehemelte (6) Velair, met de achterkant van de tong richting het velum (7) Uvulair, met achterkant van de tong tegen het velum (8) Glottaal, met de stemplooien (Collins & Mees, 2003, p.37).
+door sommige sprekers ook stemloos uitgesproken, /h/, en in sommige dialecten wordt een [h] niet uitgesproken, met name in het zuidwesten en in het Vlaams. De /h/ is dus een allofoon van de /ɦ/. De approximanten zijn stemhebbend: labiodentale /υ/ (wit) en palatale /j/ (jas). De enige laterale approximant is de alveolaire /l/ (lip), die over het algemeen ‘clear’ wordt uitgesproken (Collins & Mees, 2003; Booij, 1995; Gussenhoven, 1999; Gussenhoven, 2007; Van Oostendorp, 2018). 
+Daarnaast zijn er zes fonemen die niet officieel tot het Nederlands behoren, maar wel in deze taal voorkomen: de stemloze palatale plosief /c/, die voorkomt in woorden zoals nootje en ketjap, de stemhebbende velaire plosief /ɡ/, die voorkomt in leenwoorden, zoals goal en game, de plosieve glottale stop /ʔ/, die voorkomt in woord initiële positie die met een klinker begint en als de lettergreepgrens tussen twee klinkers ligt, zoals in appel en beëindigen, de palatale nasaal /ɲ/, die voorkomt in woorden zoals oranje en bonje, de stemloze post-alveolaire fricatief /ʃ/, die voorkomt in (leen)woorden zoals sjabloon en shop en de stemhebbende post-alveolaire fricatief /ʒ/, die voorkomt in woorden zoals garage en jam (Gussenhoven, 1999; Gussenhoven, 2007). De /c/, /ɲ/, /ʃ/ en /ʒ/ zijn IPA-symbolen van de combinaties /tj/, /nj/ of /ntj/, /sj/ en /zj/. De /ɡ/ is tevens een allofoon van de /k/ in het Nederlands, wanneer er achterwaartse assimilatie plaatsvindt, zoals in het woord zakdoek [ˈzɑɡduk] (Van Oostendorp, 2018). Daarnaast kunnen de combinaties van fonemen /t/ en /d/ gecombineerd worden met de /ʃ/ en /ʒ/, tot de stemloze post-alveolaire affricaat /tʃ/ (chat) en de stemhebbende post-alveolaire affricaat /dʒ/ (gel) respectievelijk, die slechts in leenwoorden voorkomen. 
+Verder kent de [r] in het Nederlands erg veel regionale variatie en variatie die afhankelijk is van de positie binnen het woord (Sebregts, 2014). De drie meest voorkomende uitspraken, zijn de alveolaire tap of flap /ɾ/, die wordt-initieel voorkomt (rat) [ɾɑt] (ook bekend als de tongpunt-r), de stemhebbende uvulare tril /ʀ/, die af en toe voorkomt (rood) [ʀoːt] (ook bekend als de huig-r), en de stemhebbende alveolaire approximant /ɹ/, die in de coda van een woord voorkomt (daar) [daːɹ] (ook bekend als de Gooise r) (Gussenhoven, 1999; Sebregts, 2014).
+De alveolaire tap of flap /ɾ/ wordt als de meest standaardvariant beschouwd, en deze realisatie van de [r] komt met name voor in de Randstad, Noord-Oost Nederland en in Vlaanderen (Gussenhoven, 1999; Sebregts, 2014). Overeenkomsten met een van de andere twee allofonen kunnen in veel contexten ook positieve transfer vanuit de T1 in het Nederlands opleveren, daarom worden ze meegenomen in deze analyse. Hiernaast wordt de stemloze uvulaire fricatief /χ/ (acht) in het noorden, boven de Maas en Waal, gebruikt als allofoon van de velaire fricatief /x/ (Gussenhoven, 1999). Het Nederlands heeft geen laterale fricatieven en geen dentale, retroflexe en faryngale fonemen. Tabel 1 geeft een overzicht van alle consonanten in het Nederlands. Zie Bijlage 2 voor voorbeelden van woorden waar de klanken van het Standaardnederlands in voorkomen.
+
+
+
+     
+ | Bilabiaal
+ | Labio- dentaal
+ | Dentaal
+ | Alveolair
+ | Post- alveolair
+ | Retroflex
+ | Palataal
+ | Velair
+ | Uvulair
+ | Faryngaal
+ | Glottaal
+ | 
+Plosief
+ | p
+ | b
+ |      
+ | 
+ | 
+ |      
+ | t
+ | d
+ |      
+ | 
+ | 
+ | 
+ | (c)
+ |      
+ | k
+ | (ɡ)
+ |      
+ | 
+ | 
+ | 
+ | (ʔ)
+ |      
+ | 
+Nasaal
+ | 
+ | m
+ | 
+ | 
+ | 
+ | 
+ | 
+ | n
+ | 
+ | 
+ | 
+ | 
+ |      
+ | (ɲ)
+ |      
+ | ŋ
+ | 
+ | 
+ | 
+ | 
+ |      
+ | 
+ | 
+Tril
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ |      
+ | 
+ | 
+ | 
+ | 
+ | 
+ |      
+ | 
+ | 
+ | 
+ | [ʀ]
+ |      
+ | 
+ | 
+ | 
+ | 
+Tap/Flap
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | ɾ
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ |      
+ | 
+ | 
+ |      
+ | 
+ | 
+ | 
+ |      
+ | 
+Fricatief
+ | 
+ | 
+ | f
+ | v
+ |      
+ | 
+ | s
+ | z
+ | (ʃ)
+ | (ʒ)
+ |      
+ | 
+ | 
+ | 
+ | x
+ | ɣ
+ | [χ]
+ | 
+ | 
+ | 
+ | [h]
+ | ɦ
+ | 
+Lateraal fricatief
+ | 
+ | 
+ |      
+ | 
+ |      
+ | 
+ | 
+ |      
+ | 
+ | 
+ | 
+ |      
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Approximant
+ | 
+ | 
+ | 
+ | υ
+ |      
+ | 
+ | 
+ | [ɹ]
+ |      
+ | 
+ |      
+ | 
+ | 
+ | j
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Lateraal approximant
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | l
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+
+Tabel 1: Consonanten in het Nederlands in een overzicht van links naar rechts: het articulatiepunt, en van boven naar beneden: de articulatiewijze. In elke cel met twee klanken is het linker foneem stemloos en het rechter foneem stemhebbend. De klanken tussen blokhaken zijn allofonen van de [r] en de [g/ch]. De klanken tussen haakjes in het grijs, zijn klanken die voornamelijk in leenwoorden voorkomen. Gebaseerd op in de tekst genoemde bronnen. 
+3.2 Nederlandse vocalen 
+De vocalen van het Nederlands bestaan uit drie groepen: de eerste groep bestaat uit vijf korte klinkers plus één gereduceerde klinker, de tweede groep bestaat uit zeven lange klinkers en de derde groep bestaat uit tien marginale klinkers. De marginale klinkers komen alleen voor in leenwoorden, bijvoorbeeld uit het Engels, Duits of Frans (zie Bijlage 3 voor voorbeeldwoorden) (Gussenhoven, 1999). De korte klinkers zijn de /ɪ/ (vis), die half-voor wordt gearticuleerd met de positie van de tong bijna-gesloten tegen het gehemelte aan met gespreide lippen, de /ʏ/ (nut), die ook half-voor gearticuleerd wordt, met de tong bijna-gesloten tegen het gehemelte aan, maar met geronde lippen, de /ɛ/ (pet), die half-voor wordt gearticuleerd, laag-midden met gespreide lippen, de /ɑ/ (pan), die achterin gearticuleerd wordt, open met gespreide lippen, de /ɔ/ (bot), die achter laag-midden gearticuleerd wordt met geronde lippen en de gereduceerde schwa /ə/ (lopen), die centraal midden wordt gearticuleerd (Collins & Mees, 2003; Booij, 1995; Gussenhoven, 1999; Gussenhoven, 2007; International Phonetic Alphabet, 2018; Van Oostendorp, 2018). 
+De lange klinkers zijn de /i/ (vies), die hoog voor, gesloten gearticuleerd wordt met gespreide lippen, de /y/ (fuut) die ook hoog voor, gesloten gearticuleerd wordt, maar met geronde lippen, de /eː/ (been), die voor hoog-midden wordt gearticuleerd met gespreide lippen, de /øː/ (neus), die half-voor, hoog-midden gearticuleerd wordt met geronde lippen, de /aː/ (maan), die centraal open, met gespreide lippen gearticuleerd wordt, de /oː/ (boot), die met geronde lippen, achter, hoog-midden gearticuleerd wordt en de /u/ (moed), die met geronde lippen, achter gesloten gearticuleerd wordt (Collins & Mees, 2003; Booij, 1995; Gussenhoven, 1999; Gussenhoven, 2007; International Phonetic Alphabet, 2018; Van Oostendorp, 2018). Figuur 2 geeft een schematisch overzicht van de Nederlandse articulatiepunten. Zie Bijlage 3 voor alle Nederlandse klinkers inclusief voorbeeldwoorden van alle vocale klanken. 
+De marginale klinkers, die voorkomen in leenwoorden, zijn onderverdeeld in orale en nasale klinkers. De orale marginale klinkers zijn de /iː/ zoals in analyse, de /yː/ zoals in centrifuge, de /uː/ zoals in cruise, de /ɛː/ zoals in scène, de /œː/ zoals in freule, de /ɔː/ zoals in roze en de /ɑː/ zoals in cast. De nasale marginale klinkers zijn de /ɛ̃ː/ zoals in hautain, de /ɑ̃ː/ zoals in genre, de /ɔ̃ː/ zoals in chanson (Gussenhoven, 1999; Gussenhoven, 2007). Naast de vaste en marginale vocalen, kunnen er in het Nederlands ook vrije vocaalreeksen tot stand komen, door bepaalde vocalen te combineren. De mogelijke vocaalreeksen zijn de volgende: /eːu/ als in leeuw, /iu/ zoals in nieuw, /yu/ zoals in duw, /ui/ zoals in stoei, /aːi/ zoals in maai en /oːi/ zoals in mooi (Collins & Mees, 2003). Linke (2018) duidt deze klinkercombinaties als pseudo-diftongen. Gussenhoven (2007) geeft alternatieve samenstellingen van fonemen voor deze pseudo-diftongen: /eːu/ kan genoteerd worden als /eːw/, /iu/ kan genoteerd worden als /iw/, /yu/ kan genoteerd worden als /yw/, /ui/ kan genoteerd worden als /uj/, /aːi/ kan genoteerd worden als /aːj/ en /oːi/ kan genoteerd worden als /oːj/. Ten slotte zijn ook de korte vocaalreeksen /ɑi/, zoals in Thailand en /ɔi/, zoals in hoi mogelijk in het Nederlands.
+     
+ | Voor
+ | Half-
+Voor
+ | Centraal
+ | Half-
+Achter
+ | Achter
+ | 
+Gesloten
+ | i
+ | •11430063500
+ | y
+ | 
+ | 
+ | 
+ | ɨ
+ | •
+ | ʉ
+ | 
+ | 
+ | 
+ | ɯ
+ | •7620163500
+ | u
+ | 
+Bijna-Gesloten
+ | 
+ | 
+ | 
+ | ɪ
+ | ʏ
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | ʊ
+ | 
+ | 
+ | 
+ | 
+Hoog-Midden
+ |      
+ | 
+ | e
+ | •
+ | ø
+ | 
+ | 
+ | ɘ
+ | •
+ | ɵ-444499-558799
+ | 
+ | 
+ | ɤ
+ | •
+ | o
+ | 
+Midden
+ | -88899-914399
+
+
+ |      
+ | 
+ | 
+ | 
+ |      
+ | 
+ | 
+ | ə
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Laag-midden
+ | 
+ |      
+ |      
+ | 
+ | ɛ
+ | •
+ | œ
+ | 
+ | ɜ
+ | •
+ | ɞ
+ | 
+ | ʌ
+ | •
+ | ɔ
+ | 
+Bijna-Open
+ |      
+ | 
+ |      
+ | 
+ | 
+ | æ
+ | 
+ | 
+ | 
+ | ɐ
+ | 
+ | 
+ | 
+ | 
+ |      
+ | 
+Open
+ | 
+ |      
+ |      
+ | 
+ | 
+ | 
+ | a
+ | •
+ | 
+ | ä
+ |      
+ |      
+ | ɑ
+ | •
+ | ɒ
+ | 
+Figuur 2: Vocalen in het Nederlands in een overzicht van articulatiepunten. Van links naar rechts: de tong van voor- tot achterin de mond, en van boven naar beneden: de verhouding van de tong ten opzichte van het gehemelte (Gussenhoven, 1999; International Phonetic Alphabet, 2018).
+3.3 Nederlandse diftongen 
+Het Nederlands heeft drie officiële diftongen (tweeklanken) (zie Bijlage 3). Dit zijn de /ɛi/ als in blijf en reis, de /œy/ als in huis en de /ɑu/ als in blauw en zout (Van Oostendorp, 2018). De tweeklanken beginnen in laag-midden tot open positie en eindigen hoog, zoals in figuur 3 wordt weergegeven (Gussenhoven, 2007). De /ɛi/ wordt voor gearticuleerd, glijdt van de /ɛ/ naar de /i/ en behoudt daarbij de gespreide vorm van de lippen (Van Oostendorp, 2018). De /œy/ wordt ook voor gearticuleerd, glijdt van de /œ/ naar de /y/ en behoudt daarbij de geronde lippen (Van Oostendorp, 2018). Opmerkelijk is dat de /œ/ niet op zichzelf voorkomt in het Nederlands. De /ɑu/ wordt achter gearticuleerd, glijdt van de /ɑ/ naar de /u/, begint met gespreide lippen en eindigt met geronde lippen, waarbij het eerste element door sommige sprekers ook meer gerond wordt gearticuleerd 44452319973
+00
+(Van Oostendorp, 2018). 
+i342900292100342900292100
+ | •
+ | y
+ | 
+ | 
+ | 
+ | ɨ
+ | •
+ | ʉ
+ | 
+ | 
+ | 
+ | ɯ
+ | •
+ | u
+ | 
+     
+ | 
+ | 
+ | ɪ
+ | ʏ
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | ʊ
+ | 152400139700152400139700
+ | 
+ | 
+ | 
+     
+ | 
+ | e
+ | •
+ | ø
+ | -304799-279399-304799-279399
+ | 
+ | ɘ
+ | •
+ | ɵ
+ | 
+ | 
+ | ɤ
+ | •
+ | o
+ | 
+
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | ə
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+
+ | 
+ | 
+ | 
+ | ɛ
+ | •
+ | œ
+ | 
+ | ɜ
+ | •
+ | ɞ
+ | 
+ | ʌ
+ | •
+ | ɔ
+ | 
+     
+ | 
+ | 
+ | 
+ | 
+ | æ
+ | 
+ | 
+ | 
+ | ɐ
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+     
+ |      
+ | 
+ | 
+ | 
+ | 
+ | a
+ | •
+ | 
+ | ä
+ | 
+ | 
+ | ɑ
+ | •
+ | ɒ
+ | 
+Figuur 3: De Nederlandse diftongen in een diagram (Van Oostendorp, 2018; International Phonetic Alphabet, 2018).  
+3.4 Contrastieve analyse Duits - Nederlands
+Volgens het Centraal Bureau voor de Statistiek (2019) waren er in 2017 in Nederland 10.335 nieuwe immigranten uit Duitsland en 801 nieuwe immigranten uit Oostenrijk, waar het Duits de officiële taal is. Daarnaast kwamen er in 2017 meer dan 1.000 nieuwe immigranten uit landen waar het Duits een van de officiële talen is, waaronder Zwitserland en Luxemburg (Centraal Bureau voor de Statistiek, 2019). Op 1 januari 2018 telde Nederland in totaal 75.037 inwoners met een Duitse nationaliteit, waarvan er 8.908 onder de twintig jaar oud zijn, en in totaal 4.457 inwoners met een Oostenrijkse nationaliteit, waarvan er 434 onder de twintig jaar oud zijn (Centraal Bureau voor de Statistiek, 2018). Het totaal aantal inwoners in Nederland met een Duitse nationaliteit is in tien jaar gestegen van 62.387 inwoners in 2008, 72.627 inwoners in 2013, naar 75.037 in 2018 (Centraal Bureau voor de Statistiek, 2018). Deze grote aantallen recentelijke migranten laten zien dat er mogelijk een toename is van Duitstaligen die Nederlands leren. Voor degenen die hier al lang wonen, geldt dit mogelijk niet.
+3.4.1 Duits - Nederlands: Consonanten 
+In tabel 2 staat een overzicht van de Duitse consonanten in vergelijking met de Nederlandse consonanten. De overeenkomende consonanten tussen het Duits en het Nederlands, zijn de bilabiale plosieven /p/ (passe) en /b/ (Baβ), de alveolaire plosieven /t/ (Tasse) en /d/ (das), de velaire plosieven /k/ (Kasse) en /ɡ/ (Gasse), de glottale stop /ʔ/ (Apfel), de bilabiale nasaal /m/ (Masse), de alveolaire nasaal /n/ (nasse), de velaire nasaal /ŋ/ (lange), de uvulaire trill /ʀ/ (Herren), de labiodentale fricatieven /f/ (fasse) en /v/ (Wasser), de alveolaire fricatieven /s/ (reiβe) en /z/ (reise), de post-alveolaire fricatieven /ʃ/ (rasche) en /ʒ/ (Garage), de palatale approximant /j/ (ja), de stemloze velaire fricatief /x/ (brauch) en de alveolaire lateraal approximant /l/ (lasse) (Kohler, 1999). De alveolaire lateraal approximant /l/ is in alle gevallen een ‘clear’ /l/, net zoals in het Nederlands (Joyce, 2011c). Daarnaast komt de stemloze uvulaire fricatief /χ/ (Dach), die in het noorden van Nederland gebruikt wordt, ook in het Duits voor, evenals de /x/, die voorkomt na hoog-midden tot open lange klinkers die achter gearticuleerd worden (Kohler, 1999). De stemloze glottale fricatief /h/ (hasse) komt ook voor in het Duits, evenals in het Nederlands als allofoon van de [h] (Kohler, 1999). 
+
+ | Bilabiaal
+ | Labio-dentaal
+ | Dentaal
+ | Alveolair
+ | Post-alveolair
+ | Retroflex
+ | Palataal
+ | Velair
+ | Uvulair
+ | Faryngaal
+ | Glottaal
+ | 
+Plosief
+ | p
+ | b
+ | 
+ | 
+ | 
+ | 
+ | t
+ | d
+ | 
+ | 
+ | 
+ | 
+ | (c)
+ | 
+ | k
+ | ɡ
+ | 
+ | 
+ | 
+ | 
+ | ʔ
+ | 
+ | 
+Nasaal
+ | 
+ | m
+ | 
+ | 
+ | 
+ | 
+ | 
+ | n
+ | 
+ | 
+ | 
+ | 
+ | 
+ | (ɲ)
+ | 
+ | ŋ
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Tril
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | [ʀ]
+ | 
+ | 
+ | 
+ | 
+ | 
+Tap/Flap
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | ɾ
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Fricatief
+ | 
+ | 
+ | f
+ | v
+ | 
+ | 
+ | s
+ | z
+ | ʃ
+ | ʒ
+ | 
+ | 
+ | [ç]
+ | 
+ | x
+ | ɣ
+ | [χ]
+ | ʁ
+ | 
+ | 
+ | h
+ | ɦ
+ | 
+Lateraal fricatief
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Approximant
+ | 
+ | 
+ | 
+ | υ
+ | 
+ | 
+ | 
+ | [ɹ]
+ | 
+ | 
+ | 
+ | 
+ | 
+ | j
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Lateraal approximant
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | l
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Tabel 2: Drie soorten consonanten: (1) overeenkomende consonanten tussen het Nederlands en Duits (zwart), (2) niet-overeenkomende consonanten die wel in het Nederlands, maar niet in het Duits voorkomen (rood), en (3) niet-overeenkomende consonanten die wel in het Duits, maar niet in het Nederlands voorkomen (groen). Gebaseerd op in de tekst genoemde bronnen.
+ De klanken die in het Duits voorkomen, maar niet in het Nederlands, zijn de stemloze palatale fricatief /ç/ (dich) en de stemhebbende uvulaire fricatief /ʁ/ (Rasse) (Kohler, 1999; Van Oostendorp, 2018). Tevens is de palatale fricatief /ç/ [fʁaʊçən] (‘frauchen’) een allofoon van de [x], evenals de stemloze uvulaire fricatief /χ/ [ʁaʊχən] (‘rauchen’). Uit de context blijkt welke klank in welke positie verschijnt (Kohler, 1999). De uvulaire fricatief /ʁ/ heeft een andere articulatiewijze wanneer deze klank intervocaal is; dan is het een uvulaire approximant (Herren) (Kohler, 1999). Verder wordt de [r] in het zuiden en in Oostenrijk uitgesproken als de alveolaire trill /r/ (Joyce, 2011d). De stemloze palatale plosief /c/, palatale nasaal /ɲ/, alveolaire tap of flap /ɾ/, stemhebbende velaire fricatief /ɣ/, stemhebbende glottale /ɦ/ en labiodentale approximant /υ/, die in het Nederlands voorkomen, komen niet voor in het Duits (Kohler, 1999; Van Oostendorp, 2018). 
+Het Duits kent wel drie vormen voor de [x], maar niet de stemhebbende velaire fricatief /ɣ/ (in het Nederlands gaan). Het minimale paar </x/ en /ɣ/> levert daardoor mogelijk problemen op voor Duitse sprekers van het Nederlands. Doordat in het Duits het grafeem [w] wordt gerealiseerd als de stemhebbende labiodentale fricatief /v/ (Joyce, 2011e), is het mogelijk lastig voor Duitstaligen dat deze letter op een andere wijze wordt uitgesproken in het Nederlands, namelijk als de stemhebbende labiodentale approximant /ʋ/. Dit levert in eerste instantie mogelijk interferentie op, waarin Duitse moedertaalsprekers bijvoorbeeld moeite kunnen hebben met het verschil tussen wat en vat. Zie Bijlage 4 voor voorbeeldwoorden van alle Duitse consonanten.
+3.4.2 Duits - Nederlands: Vocalen 
+De vocalen die overeenkomen tussen het Duits en het Nederlands, zijn de korte klinker /ɪ/ (bitten), die half-voor wordt gearticuleerd bijna-gesloten met de tong tegen het gehemelte aan met gespreide lippen, /ʏ/ (Hütten), die ook half-voor wordt gearticuleerd bijna-gesloten, maar met geronde lippen, /ɛ/ (Betten), die half-voor, laag-midden gearticuleerd wordt met gespreide lippen, /ɔ/ (Botten), die achter en laag-midden gearticuleerd wordt met geronde lippen, de gereduceerde klinker schwa /ə/ (Beute), die centraal midden gearticuleerd wordt en de lange klinkers /i/ (bieten), die voor en gesloten gearticuleerd wordt met gespreide lippen, /y/ (hüten), die ook voor en gesloten gearticuleerd wordt, maar met geronde lippen, /aː/ (baten), die centraal en open gearticuleerd wordt met gespreide lippen en een lange klinkerduur heeft en de /u/ (sputen) en /uː/ (Stuhl), die achter en gesloten gearticuleerd worden met geronde lippen (Kohler, 1999; Joyce, 2011b; International Phonetic Alphabet, 2018). Daarnaast zijn er enkele klinkers die in het Nederlands en Duits op hetzelfde articulatiepunt gevormd worden, maar waarbij de Nederlandse variant een langere klinkerduur heeft, aangeduid met dubbele punt: de Nederlandse /eː/ wordt voorin hoog-midden gearticuleerd met gespreide lippen, evenals de Duitse /e/ (beten), de Nederlandse /øː/ wordt half-voor hoog-midden gearticuleerd met geronde lippen, evenals de Duitse /ø/ (Goethe) en de Nederlandse /oː/ wordt achter hoog-midden gearticuleerd met geronde lippen, evenals de Duitse /o/ (boten) (Kohler, 1999; International Phonetic Alphabet, 2018).
+Daarnaast heeft het Duits twee klanken, die in het Nederlands niet voorkomen, maar wel in de korte of juist lange variant. De [a] komt zowel in het Duits als in het Nederlands in de lange variant voor, de /aː/, maar in het Duits is er ook de korte variant /a/ (hatten), die op een ander articulatiepunt gevormd wordt dan de Nederlandse korte klinker /ɑ/, namelijk centraal open, in plaats van achter en open (Kohler, 1999; International Phonetic Alphabet, 2018; Van Oostendorp, 2018). Dit zou mogelijk interferentie kunnen opleveren bij Duitse moedertaalsprekers die in plaats van de /ɑ/ de /a/ zullen gebruiken. De andere klank betreft de [e], die zowel in het Duits als in het Nederlands in de korte variant voorkomt als /ɛ/, maar in het Duits ook in de lange variant /ɛː/ (bäten), die op een ander articulatiepunt gevormd wordt dan de Nederlandse lange variant /eː/, namelijk half-voor laag-midden in plaats van voor en hoog-midden (Kohler, 1999; International Phonetic Alphabet, 2018). Ook deze klank zou mogelijk interferentie kunnen opleveren bij Duitse moedertaalsprekers die in plaats van de /eː/ de /ɛː/ zullen gebruiken. Tevens kent het Nederlands deze klank wel, als orale marginale klinker, bijvoorbeeld in het woord crème. De Duitse lange klinker /uː/ (Stuhl) komt ook voor in het Nederlands, ook als orale marginale klinker in bijvoorbeeld het woord rouge. Verder heeft het Duits twee vocalen die niet voorkomen in het Nederlands: de /œ/ (Götter), die centraal laag-midden gearticuleerd wordt met geronde lippen, die in het Nederlands wel in de diftong /œy/ voorkomt, en de /ʊ/ (Butter), die half-achter en bijna-gesloten gearticuleerd wordt met geronde lippen (Kohler, 1999; International Phonetic Alphabet, 2018). Zie Bijlage 5 voor voorbeeldwoorden van alle Duitse klinkers. 
+Tot slot kent het Duits de centrale, bijna-open klinker /ɐ/, die voorkomt in woorden die eindigen op -er, zoals het woord Butter [‘bʊtɐ] (Kohler, 1999). Deze uitspraak van -(e)r wordt ook wel de vocalic -r genoemd (Joyce, 2011d). Deze klank is ook te combineren met andere klinkers, waardoor een soort pseudo-diftongen lijken te ontstaan. De mogelijkheden zijn: /iɐ/, /yɐ/, /ɪɐ/, /ʏɐ/, /eɐ/, /øɐ/, /ɛɐ/, /ɛːɐ/, /œɐ/, /aɐ/, /aːɐ/, /ɔɐ/, /oɐ/, /uɐ/ en /ʊɐ/ (Kohler, 1999).
+3.4.3 Duits - Nederlands: Diftongen 
+Het Duits kent drie diftongen, de /aɪ/ (beiden), /ɔɪ/ (Beuten) en /aʊ/ (bauten) (Kohler, 1999). Hoewel de [ei] vaak geschreven wordt in Duitse woorden, zoals beiden en frei, is de corresponderende uitspraak van deze lettercombinatie altijd /aɪ/ (Joyce, 2011a). Toch is het waarschijnlijk relatief makkelijk voor Duitse moedertaalsprekers om de Nederlandse diftong /ɛi/ (eis) uit te leren spreken, omdat de individuele klanken /ɛ/ en /i/ ook in het Duits voorkomen. Dit geldt ook voor de Nederlandse diftong /œy/ (buit). Doordat de /œ/ en de /y/ in het Duits voorkomen, is het waarschijnlijk relatief makkelijk voor Duitse moedertaalsprekers om de /œy/ uit te leren spreken. Bovendien lijkt de Duitse /aʊ/ (bauten) erg op de Nederlandse /ɑu/, maar wordt de Duitse /a/ uit de /aʊ/ half-voor in plaats van achter uitgesproken en de /ʊ/ half-achter en bijna-gesloten, in plaats van achter en gesloten (International Phonetic Alphabet, 2018). Beide tweeklanken glijden van een vocaal met gespreide lippen naar een vocaal met geronde lippen.
+De meeste pseudo-diftongen die in het Nederlands voorkomen, zijn mogelijk makkelijk uit te spreken voor Duitse moedertaalsprekers, omdat de individuele vocalen bijna allemaal op zichzelf voorkomen in de Duitse taal. De /i/ en de /u/ voor de /iu/ (nieuw), de /y/ en de /u/ voor de /yu/ (uw), de /u/ en de /i/ voor de /ui/ (oei) en de /aː/ en /i/ voor de /aːi/ (aai) zouden zonder problemen uitgesproken moeten kunnen worden. Daarnaast dienen er twee Duitse vocalen een langere klankduur te krijgen dan bekend is in het Duits: de /e/ wordt langer aangehouden, als een /eː/, die samen met de /u/ de /eːu/ (eeuw) wordt, evenals de /o/, die langer aangehouden wordt, als een /oː/, die samen met de /i/ de /oːi/ (ooi) wordt. Zie Bijlage 5 voor voorbeeldwoorden van alle Duitse diftongen.
+3.5 Contrastieve analyse Engels - Nederlands 
+Volgens het Centraal Bureau voor de Statistiek (2019) waren er in 2017 in Nederland 6.461 nieuwe immigranten uit het Verenigd Koninkrijk, 6.208 nieuwe immigranten uit de Verenigde Staten, 1.528 nieuwe immigranten uit Australië en 1.331 nieuwe immigranten uit Canada. Daarnaast komen er honderden nieuwe immigranten uit landen waar het Engels een van de officiële talen is, zoals de Filipijnen, Gambia, India, Nieuw-Zeeland en Ierland (Centraal Bureau voor de Statistiek, 2019). Het absolute aantal moedertaalsprekers en tweedetaalsprekers is niet vast te stellen en het is eveneens moeilijk meetbaar hoe groot hun kennis van het Nederlands is. Daarnaast speelt de leeftijd van aankomst in Nederland een grote rol bij de vraag of de immigranten het Engels als moedertaal beheersen en of ze het Engels als tweede taal mogelijk beheersen. Landen waarin het Engels bijvoorbeeld in het onderwijs een verplichte vreemde taal is, zijn Oostenrijk, Denemarken, Estland, Finland, Nepal, Noorwegen, Somalië en Zweden (Simons & Fennig, 2018). Het aanbod van het Engels in het onderwijs kan uiteenlopen van instructietaal, zoals bijvoorbeeld in de CLIL methode, tot grammaticaonderwijs, dat minder gericht is op communicatie en uitspraak, waardoor het niveau van de leerlingen ook uiteenloopt.
+Op 1 januari 2018 waren er in totaal 46.013 inwoners in Nederland met een Britse nationaliteit, 6.198 met een Ierse nationaliteit en 3.720 met een Australische nationaliteit (Centraal Bureau voor de Statistiek, 2018). Daarnaast waren er op dat moment ook 19.562 inwoners in Nederland met een Amerikaanse nationaliteit (waarbij rekening gehouden moet worden met mogelijk sprekers van andere moedertalen dan het Engels) en 4.444 inwoners met een Canadese nationaliteit, waarbij rekening gehouden moet worden met mogelijke moedertaalsprekers van het Canadees-Frans, in plaats van het Engels (Centraal Bureau voor de Statistiek, 2018). 
+Een contrastieve analyse van het Engels - Nederlands zal zeer waardevol zijn, omdat het vermoedelijke aantal sprekers van het Engels (zowel als moedertaal en tweede taal als vreemde taal) in Nederland hoog is. Daarnaast waren er in 2017 meer dan 15.000 recentelijke migranten, die wellicht Nederlands willen of moeten leren spreken. In deze analyse wordt voornamelijk uitgegaan van het Brits-Engels Received Pronunciation (RP), maar worden verschillen met het Amerikaans-Engels General American (GA) ook bekeken, omdat deze (gestandaardiseerde) variëteiten (vermoedelijk) het meest gesproken worden. Voor zowel het Brits-Engels als het Amerikaans-Engels geldt dat er veel taalvariatie is, maar in dit onderzoek wordt uitgegaan van beschrijvingen in de literatuur van de standaardvarianten.  
+3.5.1 Engels - Nederlands: Consonanten 
+Tabel 3 biedt een overzicht van de consonanten die in het Engels voorkomen en overeenkomen of niet met het Nederlands. De overeenkomende consonanten tussen het Engels (RP), het Amerikaans-Engels (GA) en het Nederlands, zijn de bilabiale plosieven /p/ (pie) en /b/ (bus), de alveolaire plosieven /t/ (tie) en /d/ (dye), de velaire plosieven /k/ (kiss) en /ɡ/ (grip), de glottale stop /ʔ/ (apple), de bilabiale nasaal /m/ (mix), de alveolaire nasaal /n/ (new), de velaire nasaal /ŋ/ (king), de labiodentale fricatieven /f/ (fire) en /v/ (vie), de alveolaire fricatieven /s/ (sip) en /z/ (zip), de post-alveolaire fricatieven /ʃ/ (shell) en /ʒ/ (measure), de glottale fricatief /h/ (hello), de palatale approximant /j/ (your) en de alveolaire lateraal approximant /l/ (little) (Ladefoged, 1999; Roach, 2004). De [l] is in het Engels ‘clear’ als deze vóór een klinker staat, en ‘dark’ in alle andere gevallen (Roach, 2004). Tussen stemhebbende klanken kan de [h] ook als een stemhebbende glottale fricatief /ɦ/ uitgesproken worden (Roach, 2004). Daarnaast heeft het Brits-Engels ook een uitspraak van de [r], de alveolaire approximant /ɹ/ (rye), die in het Nederlands ook voorkomt in initiële positie (International Phonetic Alphabet, 2018; Roach, 2004). 
+De Nederlandse consonanten die niet in het Standaard Engels (zowel RP als GA) voorkomen, zijn de stemhebbende labiodentale approximant /υ/ (wol) en de velaire fricatieven: zowel de stemloze /x/ (lichaam) als de stemhebbende /ɣ/ (gas) (Ladefoged, 1999; Roach, 2004; Van Oostendorp, 2018). De stemhebbende labiodentale approximant /υ/, die de letter [w] representeert, bestaat in het Engels wel, maar wordt op een ander articulatiepunt gevormd: het is een labiaal-velaire approximant /w/ (water) (Ladefoged, 1999; Roach, 2004). Dit betekent dat de klank niet met de boventanden (bijna) tegen de onderlip aan gearticuleerd wordt, maar meer met de achterkant van de tong richting het velum. Dit zou mogelijk interferentie kunnen opleveren. Naast deze wel- en niet-overeenkomende consonanten, heeft het Standaard Engels nog twee klanken, die in het Nederlands niet voorkomen: de stemloze dentale fricatief /θ/ (thing) en de stemhebbende dentale fricatief /ð/ (that) (Roach, 2004; Van Oostendorp, 2018). Tot slot kent het Standaard Engels de combinatie tussen alveolaire plosieven /t/ en /d/ met de post-alveolaire fricatieven /ʃ/ en /ʒ/, wat resulteert in de stemloze post-alveolaire affricaat /tʃ/ (chin) en de stemhebbende post-alveolaire affricaat /dʒ/ (gin) respectievelijk (Ladefoged, 1999). Deze klanken komen in het Nederlands alleen voor in leenwoorden. 
+Het grootste verschil tussen het Brits-Engels en het Amerikaans-Engels, is de uitspraak van de letter [r], met name wanneer deze na een klinker binnen een lettergreep komt zoals in het woord hard; dit is de retroflexe approximant /ɻ/ [hɑːɻd] (Gómez, 2009). Hiernaast komt de alveolaire approximant /ɹ/ ook voor in het Amerikaans-Engels, die voorkomt in pre-vocale positie (red) [ɹed] of in clusters (train) [tɹeɪn] (Gómez, 2009). Tevens komt de alveolaire tap of flap /ɾ/ (parish) [‘pæɾɪʃ] voor in het Amerikaans-Engels, die soms de /ɹ/ vervangt. Dit gebeurt op twee posities: de intervocale positie, waarbij de klemtoon op de eerste klinker ligt, en wanneer de [r] twee woorden in een zin verbindt (Gómez, 2009). Deze klank komt overeen met de meest standaard [r]-variant van het Nederlands. Zie Bijlage 6 voor voorbeeldwoorden van alle Engelse consonanten.
+
+ | Bilabiaal
+ | Labio- dentaal
+ | Dentaal
+ | Alveolair
+ | Post- alveolair
+ | Retroflex
+ | Palataal
+ | Velair
+ | Uvulair
+ | Faryngaal
+ | Glottaal
+ | 
+Plosief
+ | p
+ | b
+ |      
+ | 
+ | 
+ | 
+ | t
+ | d
+ |      
+ | 
+ | 
+ | 
+ | (c)
+ | 
+ | k
+ | ɡ
+ |      
+ | 
+ | 
+ | 
+ | ʔ
+ | 
+ | 
+Nasaal
+ |      
+ | m
+ | 
+ | 
+ | 
+ | 
+ | 
+ | n
+ | 
+ | 
+ | 
+ | 
+ | 
+ | (ɲ)
+ |      
+ | ŋ
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Tril
+ | 
+ |      
+ | 
+ | 
+ | 
+ | 
+ | 
+ |      
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ |      
+ | 
+ | [ʀ]
+ | 
+ | 
+ | 
+ | 
+ | 
+Tap/Flap
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | [ɾ]
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ |      
+ |      
+ | 
+Fricatief
+ | 
+ | 
+ | f
+ | v
+ | θ
+ | ð
+ | s
+ | z
+ | ʃ
+ | ʒ
+ |      
+ | 
+ | 
+ | 
+ | x
+ | ɣ
+ | [χ]
+ | 
+ | 
+ | 
+ | h
+ | [ɦ]
+ | 
+Lateraal fricatief
+ | 
+ | 
+ |      
+ | 
+ |      
+ | 
+ | 
+ |      
+ |      
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ |      
+ | 
+ | 
+Approximant
+ | 
+ | 
+ | 
+ | υ
+ | 
+ | 
+ | 
+ | ɹ
+ | 
+ | 
+ | 
+ | [ɻ]
+ |      
+ | j
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Lateraal approximant
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | l
+ | 
+ | 
+ | 
+ |      
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Tabel 3: Drie soorten consonanten: (1) overeenkomende consonanten tussen het Nederlands en Engels (zwart), (2) niet-overeenkomende consonanten die wel in het Nederlands, maar niet in het Engels voorkomen (rood), en (3) niet-overeenkomende consonanten die wel in het Engels, maar niet in het Nederlands voorkomen (groen). Gebaseerd op in de tekst genoemde bronnen.
+3.5.2 Engels - Nederlands: Vocalen 
+De vocalen die overeenkomen tussen het Engels en het Nederlands, zijn de korte klinker /ɪ/ (pit), die half-voor wordt gearticuleerd bijna-gesloten met gespreide lippen, de /i/, die in het Engels zwak is zoals in happy en in het Nederlands de lange klinker is zoals in vies, en de gereduceerde klinker schwa /ə/ (happen), die midden centraal wordt gearticuleerd (Collins & Mees, 2003). Ook de Engelse /u/ zoals in truth komt op papier overeen met de Nederlandse /u/ zoals in hoed en lijkt de Engelse /uː/ zoals in food hier ook op, maar deze wordt langer uitgesproken. De Engelse /iː/ (mean) komt overeen met de orale marginale consonant /iː/, die in het Nederlands in (Engelse) leenwoorden voorkomt.  Daarnaast lijken de korte klinkers /ɛ/ uit het Nederlands en /e/ uit het Engels erg op elkaar: de /ɛ/ wordt laag-midden en half-voor gearticuleerd, terwijl de /e/ (dress) hoog-midden en voor wordt gearticuleerd, met de tong iets hoger en iets meer naar voren in de mond (International Phonetic Alphabet, 2018). Ook de Engelse korte klinker /e/ lijkt op de Nederlandse lange klinker /eː/. Het articulatiepunt en stand van de lippen van beide klanken is hetzelfde, hoog-midden, voor en gespreid, maar de Nederlandse klank wordt langer aangehouden, aangeduid met de dubbele punt. Hetzelfde geldt voor de Engelse lange klinker /ɑː/ (palm) [pɑːm], die op hetzelfde articulatiepunt gevormd wordt als de Nederlandse korte klinker /ɑ/, namelijk achter en open.
+Ook de Engelse /ɒ/ (lot) lijkt op de /ɑ/ uit het Nederlands: ze worden op hetzelfde articulatiepunt gevormd, open en achter, maar de /ɒ/ wordt met geronde lippen gearticuleerd en de /ɑ/ met gespreide lippen (International Phonetic Alphabet, 2018). Hetzelfde geldt voor de Engelse /ʌ/ (fun) en de /ɔ/ uit het Nederlands: het articulatiepunt is laag-midden en achter, waarbij de /ʌ/ gespreid is en de /ɔ/ gerond (International Phonetic Alphabet, 2018). Bovendien geldt dit ook voor de Engelse /e/ (bed) en de Nederlandse /øː/ (neus), waarbij het articulatiepunt half-voor/voor en hoog-midden is, waarbij de /e/ met gespreide lippen en kort uitgesproken wordt en de /øː/ met geronde lippen en een langere klinkerduur heeft. Dit geldt ook voor de geronde klinkers /y/ (in het Nederlands fuut), die voor en gesloten gearticuleerd wordt, en /ʏ/ (in het Nederlands hut), die half-voor en bijna-gesloten wordt gearticuleerd, die in het Engels niet voorkomen, waarvan de gespreide tegenhangers wel bestaan in het Engels: de /i/ (happy), die voor en gesloten uitgesproken wordt, en de /ɪ/ (kit), die half-voor en bijna-gesloten wordt gearticuleerd. Doordat deze klinkers paren zijn die op hetzelfde articulatiepunt gevormd worden, maar met een andere vorm van de lippen, levert dit de mogelijkheid op om de klank snel te leren en een nieuwe categorie te vormen. Hierbij kan de bekende klank uitgesproken worden, maar dan met de tegenovergestelde vorm van de lippen, waardoor de juiste klank automatisch ontstaat.  
+De Engelse korte klinker /æ/ (cat), die half-voor bijna-open gearticuleerd wordt, ligt in de buurt van twee Nederlandse klinkers: de korte klinker /ɛ/, die half-voor en laag-midden gearticuleerd wordt en de lange klinker /aː/, die centraal open gearticuleerd wordt en een langere duur heeft (International Phonetic Alphabet, 2018). Hierbij zou interferentie kunnen optreden, omdat de Nederlandse klinkers niet identiek zijn aan die van het Engels. Zie Bijlage 7 voor voorbeeldwoorden van alle Engelse klinkers.
+3.5.3 Engels - Nederlands: Diftongen
+De drie officiële Nederlandse diftongen bestaan niet in de Engelse taal. Wel zijn er twee diftongen die erg op de Nederlandse lijken, maar op andere articulatiepunten gevormd worden. De Engelse /aʊ/ (house) glijdt van centraal open en gespreid naar half-achter bijna-gesloten en gerond, terwijl de Nederlandse /ɑu/ van achter open en gespreid naar achter gesloten en gerond glijdt (International Phonetic Alphabet, 2018; Roach, 2004; Van Oostendorp, 2018). Daarnaast komt de Engelse /eɪ/ (game), die van voor hoog-midden naar half-voor bijna-gesloten glijdt met gespreide lippen, ook in de buurt van de Nederlandse /ɛi/ (eis), die half-voor laag-midden naar voor gesloten glijdt met gespreide lippen (International Phonetic Alphabet, 2018). Tot slot zal de /œy/ (huis) relatief lastiger zijn om uit te spreken voor moedertaalsprekers van het Engels, omdat deze klanken niet individueel voorkomen in het Engels (Roach, 2004). Hiervoor zouden zij eerst de tegenhangende klank van de /i/ kunnen leren uitspreken: de /y/ wordt op hetzelfde articulatiepunt gevormd als de /i/, namelijk voor en gesloten, maar in plaats van met gespreide lippen zoals bij de /i/, worden de /y/ met geronde lippen gearticuleerd (International Phonetic Alphabet, 2018). De /œ/ wordt daarentegen op een voor Engelstaligen onbekend articulatiepunt gevormd: centraal laag-midden met geronde lippen. Het zal daardoor lastig zijn om de tweeklank /œy/ goed te leren uitspreken.
+Sommige pseudo-diftongen die in het Nederlands voorkomen, zijn waarschijnlijk moeilijk uit te spreken voor Engelse moedertaalsprekers, omdat de individuele vocalen op zichzelf niet voorkomen in het Engels. Bepaalde vocalen uit het Engels dienen een langere of kortere klankduur te krijgen dan bekend is in het Engels: de /e/ wordt langer aangehouden, als een /eː/, en deze wordt samengevoegd met de /u/, die korter aangehouden wordt dan de Engelse /uː/, waarbij de /eːu/ (eeuw) gevormd wordt, evenals de /u/, die korter aangehouden wordt dan de Engelse /uː/, die na de /i/ samen de /iu/ (nieuw) vormt en vóór de /i/ samen de /ui/ (oei) vormt. De Nederlandse pseudo-diftongen /yu/ (uw),  /oːi/ (ooi) en /aːi/ (aai) bezitten klinkers die in het Engels niet bekend zijn: de /y/, /oː/ en /aː/ (Roach, 2004). Tevens is de /u/ in /yu/ ook hier korter dan de Engelse /uː/. De /oːi/ (ooi) en /aːi/ (aai) zullen waarschijnlijk korter worden uitgesproken, of op een ander articulatiepunt. Bovendien lijken twee Engelse diftongen erg op twee Nederlandse pseudo-diftongen: de Engelse /ɔɪ/ in boy lijkt bijvoorbeeld op de Nederlandse /ɔi/ in hoi, de Engelse /aɪ/ in pie lijkt erg op de Nederlandse /ɑi/ in Thailand. Mogelijk worden deze korte Engelse diftongen ook in plaats van de langere pseudo-diftongen /oːi/ (ooi) en /aːi/ (aai) in het Nederlands gebruikt. Zie Bijlage 7 voor voorbeeldwoorden van alle diftongen in het Engels. 
+3.6 Contrastieve analyse Frans - Nederlands
+Volgens het Centraal Bureau voor de Statistiek (2019) waren er in 2017 in Nederland 4.701 nieuwe immigranten uit Frankrijk en tien- tot honderdtallen nieuwe immigranten uit onder andere Democratische Republiek Congo, Ivoorkust en Togo. Op 1 januari 2018 waren er in Nederland in totaal 24.180 inwoners met de Franse nationaliteit, 826 inwoners met een nationaliteit uit de Democratische Republiek Congo, en honderden inwoners met nationaliteiten uit landen waar het Frans de officiële of één van de officiële talen is, zoals Belgisch, Canadees, Rwandees, Kameroens en Frans-Guinees (Centraal Bureau voor de Statistiek, 2018).  
+3.6.1 Frans - Nederlands: Consonanten 
+Tabel 4 geeft een overzicht van alle consonanten in het Frans, die overeenkomen met het Nederlands, en de niet-overeenkomende consonanten. De overeenkomende consonanten tussen het Frans en het Nederlands, zijn de bilabiale plosieven /p/ (pou) en /b/ (boue), de alveolaire plosieven /t/ (tout) en /d/ (doux), de velaire plosieven /k/ (cou) en /ɡ/ (goût), de bilabiale nasaal /m/ (mou), de alveolaire nasaal /n/ (nous), de palatale nasaal /ɲ/ (agneau), de velaire nasaal /ŋ/ (parking), die alleen in finale positie in leenwoorden voorkomt, de labiodentale fricatieven /f/ (fou) en /v/ (vous), de alveolaire fricatieven /s/ (sous) en /z/ (zoo), de post-alveolaire fricatieven /ʃ/ (chou) en /ʒ/ (joue) en de alveolaire lateraal approximant /l/ (loup) (Jakobson & Lotz, 1949; Fougeron & Smith, 1999). De Nederlandse consonanten, die niet in het Frans voorkomen, zijn de palatale plosief /c/ (ketjap), de glottale stop /ʔ/ (ʔappel), de stemloze velaire fricatief /x/ (lichaam), de stemhebbende velaire fricatief /ɣ/ (gat), de stemhebbende glottale fricatief /ɦ/ inclusief de stemloze allofoon /h/ (hoop), de labiodentale approximant /ʋ/ (woest), de palatale approximant /j/ (jas) en de meeste varianten van de [r] (Fougeron & Smith, 1999; Van Oostendorp, 2018). 
+     
+ | Bilabiaal
+ | Labio-dentaal
+ | Dentaal
+ | Alveolair
+ | Post-alveolair
+ | Retroflex
+ | Palataal
+ | Velair
+ | Uvulair
+ | Faryngaal
+ | Glottaal
+ | 
+Plosief
+ | p
+ | b
+ | 
+ | 
+ | 
+ | 
+ | t
+ | d
+ | 
+ | 
+ | 
+ | 
+ | (c)
+ | 
+ | k
+ | ɡ
+ | 
+ | 
+ | 
+ | 
+ | ʔ
+ | 
+ | 
+Nasaal
+ | 
+ | m
+ | 
+ | 
+ | 
+ | 
+ | 
+ | n
+ | 
+ | 
+ | 
+ | 
+ | 
+ | ɲ
+ | 
+ | (ŋ)
+ | 
+ | 
+ | 
+ |      
+ | 
+ | 
+ | 
+Tril
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | [ʀ]
+ | 
+ | 
+ | 
+ | 
+ | 
+Tap/Flap
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | ɾ
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Fricatief
+ | 
+ | 
+ | f
+ | v
+ | 
+ | 
+ | s
+ | z
+ | ʃ
+ | ʒ
+ | 
+ | 
+ | 
+ | 
+ | x
+ | ɣ
+ | [χ]
+ | ʁ
+ | 
+ | 
+ | [h]
+ | ɦ
+ | 
+Lateraal fricatief
+ |      
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Approximant
+ |      
+ | 
+ | 
+ | υ
+ | 
+ | 
+ | 
+ | [ɹ]
+ | 
+ | 
+ | 
+ | 
+ | 
+ | j
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Lateraal approximant
+ |      
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | l
+ | 
+ | 
+ |      
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Tabel 4: Drie soorten consonanten: (1) overeenkomende consonanten tussen het Nederlands en Frans (zwart), (2) niet-overeenkomende consonanten die wel in het Nederlands, maar niet in het Frans voorkomen (rood), en (3) niet-overeenkomende consonanten die wel in het Frans, maar niet in het Nederlands voorkomen (groen). Gebaseerd op in de tekst genoemde bronnen.
+
+Consonanten die niet in het Nederlands voorkomen, maar wel in het Frans, zijn de palatale centrale approximant /j/ (sien), die correspondeert met de /i/ (zoals in het woord si ), de labiaal-palatale centrale approximant /ɥ/ (suint), die correspondeert met de /y/ (zoals in het woord su), de labiaal-velaire centrale approximant /w/ (soin), die correspondeert met de /u/ (zoals in het woord sous) en de stemhebbende uvulaire fricatief /ʁ/ (roue) (Fougeron & Smith, 1999). In het geval van de approximant /j/ is er een contrast met de /i/ in finale positie (abbaye [abei] (‘abdij’) versus abeille [abej] (‘bij’)) en is <j – i> een minimaal paar (Fougeron & Smith, 1999; Van Oostendorp, 2018).
+Voor sommige Franse sprekers is de uvulaire tril /ʀ/ (roue) gebruikelijk, als allofoon van de /ʁ/, die tevens als allofoon van de [r] voorkomt in het Nederlands (Fougeron & Smith, 1999). Zie Bijlage 8 voor voorbeeldwoorden waar de Franse consonanten in voorkomen.
+3.6.2 Frans - Nederlands: Vocalen
+De vocalen die overeenkomen tussen het Frans en het Nederlands, zijn de korte klinkers /ɛ/ (sait), die half-voor laag-midden met gespreide lippen gearticuleerd wordt en /ɔ/ (sort), die achter laag-midden met geronde lippen gearticuleerd wordt, de gereduceerde klinker schwa /ə/ (ce), die centraal midden gearticuleerd wordt en de lange klinkers /i/ (si), die voor en gesloten met gespreide lippen gearticuleerd wordt, /y/ (su), die ook voor en gesloten, maar met geronde lippen gearticuleerd wordt en /u/ (sous), die achter gesloten met geronde lippen gearticuleerd wordt (Jakobson & Lotz, 1949; Fougeron & Smith, 1999). Daarnaast kent het Frans ook drie vocalen, die in het Frans korter zijn dan in het Nederlands: de /e/ (ses), die voor hoog-midden met gespreide lippen gearticuleerd wordt, de /ø/ (ceux), die half-voor hoog-midden met geronde lippen gearticuleerd wordt, de /a/ (sa), die centraal en open met gespreide lippen gearticuleerd wordt en de /o/ (sot), die achter en hoog-midden met geronde lippen gearticuleerd wordt (Fougeron & Smith, 1999; International Phonetic Alphabet, 2018). Mogelijk spreken Franse NT2-sprekers deze korter uit dan gebruikelijk is in het Nederlands. Sommige Franse sprekers hebben een contrast tussen de /a/ [sa] en /ɑ/ [sɑ] (sa betekent ‘zijn’ of ‘haar’), waardoor er bij sprekers die dit contrast niet kennen interferentie kan ontstaan bij de Nederlandse /ɑ/: zij zullen deze als een /a/ uitspreken (Fougeron & Smith, 1999). De drie nasale klinkers, die in het Nederlands in leenwoorden voorkomen, komen uit het Frans: de /ɛ̃ː/ zoals in enfin (‘tenslotte’), de /ɑ̃ː/ zoals in genre (‘soort’) en de /ɔ̃ː/ zoals in chanson (‘lied’) (Jakobson & Lotz, 1949; Fougeron & Smith, 1999; Gussenhoven, 1999; Gussenhoven, 2007). Tot slot kent het Frans de klinker /œ/ (soeur), die centraal laag-midden met geronde lippen gearticuleerd wordt en die in het Nederlands ook alleen voorkomen in Franse leenwoorden (Fougeron & Smith, 1999). Zie Bijlage 9 voor voorbeeldwoorden van alle Franse klinkers. 
+De Nederlandse klinkers die niet bekend zijn in het Frans, kunnen problemen opleveren in de uitspraak. De /ɪ/ bestaat niet in het Frans (Fougeron & Smith, 1999), waardoor het moeilijk kan zijn om het contrast tussen de <korte klinker /ɪ/> en de <lange klinker /i/> te onderscheiden. Dit geldt ook voor de korte klinker /ʏ/, die in het contrast tussen de <korte klinker /ʏ/> en de <lange klinker /y/> moeilijk te onderscheiden kan zijn van de lange klinker. Hierbij treedt mogelijk interferentie op door de lange klinkers uit het Frans. 
+3.6.3 Frans - Nederlands: Diftongen
+Het Frans heeft geen officiële diftongen (Fougeron & Smith, 1999). Dit zorgt er mogelijk voor dat Franse sprekers niet goed weten hoe zij tweeklanken in andere talen moeten uitspreken. Bepaalde combinaties in het Frans lijken op Nederlandse tweeklanken, wat de verwerving kan vereenvoudigen. Een voorbeeld hiervan is het woord soleil [sɔǀɛj] (‘zon’) (Fougeron & Smith, 1999), waarbij het diakritisch teken j na de ɛ getranscribeerd wordt. Dit komt heel dicht in de buurt van de Nederlandse diftong /ɛi/. Ook de combinatie /ei/ komt voor in finale positie, zoals in het woord abbaye [abei] (‘abdij’), en de combinatie /ej/, zoals in het woord abeille [abej] (‘bij’), die ook in de buurt van de Nederlandse diftong /ɛi/ komen (Fougeron & Smith, 1999). Daarnaast kan er ook een /j/ tussen twee klinkers in komen, zoals in het woord voyageur [vwɑjaʒœʁ] (‘reiziger’). De palatale centrale approximant /j/ correspondeert met de klinker die voor en gesloten gearticuleerd wordt: de /i/. Bovendien komen de /œ/ en de /y/ in het Frans voor, waardoor het waarschijnlijk relatief makkelijk is voor Franse moedertaalsprekers om de Nederlandse diftong /œy/ uit te leren spreken. De diftong /ɑu/ zal lastig zijn voor Franse sprekers, omdat de /ɑ/ niet voor alle sprekers onderscheidend is , hoewel de /u/ (nous) wel in het Frans bestaat. 
+Sommige pseudo-diftongen die in het Nederlands voorkomen, zijn mogelijk makkelijk uit te spreken voor Franse moedertaalsprekers, omdat de individuele vocalen op zichzelf voorkomen in het Frans. De /i/ en de /u/ voor de /iu/ (nieuw), de /y/ en de /u/ voor de /yu/ (uw) en de /u/ en de /i/ voor de /ui/ (oei) zouden zonder veel problemen uitgesproken moeten kunnen worden. Daarnaast dienen er drie vocalen uit het Frans een langere klankduur te krijgen dan bekend is in het Frans: de /e/ wordt langer aangehouden, als een /eː/, en deze wordt samen met de /u/ de /eːu/ (eeuw), evenals de /o/, die wordt langer aangehouden, als een /oː/, die samen met de /i/ de /oːi/ (ooi) wordt en de /a/, die langer aangehouden wordt als /aː/, die samen met de /i/ de /aːi/ (aai) wordt. De /ɑ/ in /ɑi/ (Thailand) is voor sommige sprekers makkelijker, omdat deze Fransen deze /ɑ/ onderscheiden van de /a/. De /ɔi/ (hoi) zal relatief makkelijk uit te leren spreken zijn voor Franse moedertaalsprekers, omdat beide klanken individueel in de moedertaal voorkomen. Ze dienen er enkel rekening mee houden dat zij deze klank niet uitspreken volgens het Franse grafeem/klanksysteem, zoals het woord soin [swɛ̃ː].
+3.7 Contrastieve analyse Italiaans - Nederlands
+Volgens het Centraal Bureau voor de Statistiek (2019) waren er in 2017 in Nederland 6.500 nieuwe immigranten uit Italië. Daarnaast waren er 192 nieuwe immigranten uit Slovenië en 904 nieuwe immigranten uit Zwitserland, waar het Italiaans één van de officiële talen is (Centraal Bureau voor de Statistiek, 2019). Op 1 januari 2018 waren er in Nederland in totaal 35.460 inwoners met een Italiaanse nationaliteit, 2.649 inwoners met een Zwitserse nationaliteit en 1.247 inwoners met een Sloveense nationaliteit (Centraal Bureau voor de Statistiek, 2018). In tien jaar tijd zijn de inwoners in Nederland met een Italiaanse nationaliteit bijna verdubbeld (Centraal Bureau voor de Statistiek, 2018).
+
+3.7.1 Italiaans - Nederlands: Consonanten 
+Tabel 5 geeft een overzicht van de overeenkomende en verschillende consonanten tussen het Italiaans en het Nederlands. De overeenkomende consonanten tussen het Italiaans en het Nederlands, zijn de bilabiale plosieven /p/ (pane) en /b/ (bare), de alveolaire plosieven /t/ (tale) en /d/ (dare), de velaire plosieven /k/ (care) en /ɡ/ (gare), de bilabiale nasaal /m/ (male), de alveolaire nasaal /n/ (nome), de palatale nasaal /ɲ/ (gnomo), de alveolaire tril /r/ (rare), de labiodentale fricatieven /f/ (fare) en /v/ (avare), de alveolaire fricatieven /s/ (sali) en /z/ (osare), de post-alveolaire fricatieven /ʃ/ (sciali), de palatale approximant /j/ (ione) en de alveolaire lateraal approximant /l/ (larghe) (Adams, 2008; Jones & Camilli, 1933; Rogers & d’Arcangeli, 2004; Van Oostendorp, 2018). De [ŋ] is tevens een klank die voorkomt in het Italiaans als er een [n] vóór de /k/ of /g/ komt zoals in tango, de [r] kan voorkomen als een alveolaire tap of flap /ɾ/ in intervocale positie (tussen twee klinkers in) en de [ɱ] kan voorkomen als een labiodentale nasaal als deze vóór een /f/ of /v/ komt, bijvoorbeeld in de woorden ánfora [aɱfɔra] en ínvido [iɱvidɔ] (Jones & Camilli, 1933; Rogers & d’Arcangeli, 2004). 
+Naast deze consonanten, kent het Italiaans ook nog de palatale laterale approximant /ʎ/ (gliene), die niet in het Nederlands voorkomt, evenals de labiaal-velaire approximant /w/ (uomo) (Adams, 2008; Rogers & d’Arcangeli, 2004; Van Oostendorp, 2018). Deze laatste klank wordt niet met de boventanden (bijna) tegen de onderlip aan gearticuleerd wordt zoals de Nederlandse labiodentale approximant /ʋ/ (woest), maar de klank wordt meer met de achterkant van de tong richting het velum gearticuleerd. Dit zou mogelijk interferentie kunnen opleveren. Bovendien komen de gecombineerde klanken stemloze alveolaire affricaat /ʦ/ (pazza), stemhebbende alveolaire affricaat /ʣ/ (gazza), stemloze post-alveolaire affricaat /ʧ/ (cialda) en stemhebbende post-alveolaire affricaat /ʤ/ (giallo) voor in het Italiaans (Rogers & d’Arcangeli, 2004).
+     
+ | Bilabiaal
+ | Labio-dentaal
+ | Dentaal
+ | Alveolair
+ | Post-alveolair
+ | Retroflex
+ | Palataal
+ | Velair
+ | Uvulair
+ | Faryngaal
+ | Glottaal
+ | 
+Plosief
+ | p
+ | b
+ | 
+ | 
+ | 
+ | 
+ | t
+ | d
+ | 
+ | 
+ | 
+ | 
+ | (c)
+ | 
+ | k
+ | ɡ
+ | 
+ | 
+ | 
+ | 
+ | ʔ
+ | 
+ | 
+Nasaal
+ | 
+ | m
+ | 
+ | 
+ | 
+ | 
+ | 
+ | n
+ | 
+ | 
+ | 
+ | 
+ | 
+ | ɲ
+ | 
+ | [ŋ]
+ |      
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Tril
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | r
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | [ʀ]
+ | 
+ | 
+ | 
+ | 
+ | 
+Tap/Flap
+ | 
+ | 
+ |      
+ | 
+ | 
+ | 
+ | 
+ | [ɾ]
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Fricatief
+ | 
+ | 
+ | f
+ | v
+ | 
+ | 
+ | s
+ | z
+ | ʃ
+ | (ʒ)
+ | 
+ | 
+ | 
+ | 
+ | x
+ | ɣ
+ | [χ]
+ | 
+ | 
+ | 
+ | [h]
+ | ɦ
+ | 
+Lateraal fricatief
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ |      
+ | 
+ | 
+ | 
+ | 
+ | 
+Approximant
+ | 
+ | 
+ | 
+ | υ
+ | 
+ | 
+ |      
+ | [ɹ]
+ | 
+ | 
+ | 
+ | 
+ | 
+ | j
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Lateraal approximant
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | l
+ | 
+ |      
+ | 
+ | 
+ |      
+ | ʎ
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Tabel 5: Drie soorten consonanten: (1) overeenkomende consonanten tussen het Nederlands en Italiaans (zwart), (2) niet-overeenkomende consonanten die wel in het Nederlands, maar niet in het Italiaans voorkomen (rood), en (3) niet-overeenkomende consonanten die wel in het Italiaans, maar niet in het Nederlands voorkomen (groen). Gebaseerd op in de tekst genoemde bronnen.
+ De Nederlandse consonanten, die niet het in Italiaans voorkomen, zijn de palatale plosief /c/ (ketjap), de glottale stop /ʔ/ (ʔappel), de uvulaire tril /ʀ/ (raam), de stemhebbende post-alveolaire fricatief /ʒ/ (jury), de velaire fricatieven /x/ (lichaam) en /ɣ/ (gat), de uvulaire fricatief /χ/ (acht), de glottale fricatieven /h/ en /ɦ/ (hoop), de labiodentale approximant /ʋ/ (wol), de alveolaire approximant /ɹ/ (door) en de velaire nasaal /ŋ/ wordt niet als foneem onderscheiden in het Italiaans (Rogers & d’Arcangeli, 2004; Van Oostendorp, 2018). De stemhebbende post-alveolaire fricatief /ʒ/, die in het Nederlands voorkomt in leenwoorden, is relatief makkelijk te leren uitspreken voor Italiaanse moedertaalsprekers, omdat de stemloze variant /ʃ/ voorkomt in het Italiaans. Zie Bijlage 10 voor voorbeeldwoorden van alle Italiaanse consonanten.
+3.7.2 Italiaans - Nederlands: Vocalen 
+De vocalen die overeenkomen tussen het Italiaans en het Nederlands, zijn de lange klinker /i/ (bile), de korte klinker /ɛ/ (bene), de korte klinker /ɔ/ (boia) en de lange klinker /u/ (buio) (Adams, 2008; Clivio & Danesi, 2000; Jones & Camilli, 1933; Rogers & d‘Arcangeli, 2004; Van Oostendorp, 2018). De overige drie Italiaanse klinkers hebben in het Nederlands een langere duur: de /e/ (bere), de /a/ (bara) en de /o/ (borgo) zijn in het Nederlands de /eː/, /aː/ en /oː/ respectievelijk (Rogers & d’Arcangeli, 2004; Van Oostendorp, 2018). Deze kunnen in het Italiaans bovendien ook een lange duur hebben, wanneer deze in een open syllabe voorkomen en de primaire klemtoon krijgen (Clivio & Danesi, 2000). De vocalen die niet voorkomen in het Italiaans, maar wel in het Nederlands, zijn de korte klinker /ɪ/, de korte klinker /ʏ/, de lange klinker /y/, de korte klinker /ɑ/, de lange klinker /øː/ en de gereduceerde klinker schwa /ə/ (Rogers & d’Arcangeli, 2004; Van Oostendorp, 2018). Daarnaast komen de orale en nasale marginale klinkers uit het Nederlands, die in leenwoorden voorkomen, ook niet voor in het Italiaans (Rogers & d’Arcangeli, 2004). 
+Het onderscheid tussen lange en korte klinkers zal voor moedertaalsprekers van het Italiaans lastig zijn, omdat deze klanken niet betekenisonderscheidend zijn, maar het Italiaans kent wel langere vocalen, aangeduid met een dubbele punt in transcripten (bijvoorbeeld [seˈgreːto]) (Adams, 2008). Het verschil tussen de <korte klinker /ɪ/> en de <lange klinker /i/> zal lastig zijn voor Italiaanse NT2-leerders, evenals het verschil tussen de <korte klinker /ʏ/> en de <lange klinker /y/> en de <korte klinker /ɑ/> en de <lange klinker /aː/> . Bovendien is het onderscheid tussen de <korte klinker /ɛ/> en de <lange klinker /eː/>, en de <korte klinker /ɔ/> en de <lange klinker /oː/> anders dan in het Italiaans, omdat de lange klinkers in het Nederlands langer aangehouden moeten worden. Dit levert mogelijk interferentie op vanuit de Italiaanse klinkers /e/ en /o/. De /y/ en de /øː/ zijn waarschijnlijk relatief makkelijk te leren: de /y/ wordt op hetzelfde articulatiepunt gevormd als de /i/, namelijk voor en gesloten, maar in plaats van met gespreide lippen zoals bij de /i/, wordt de /y/ met geronde lippen gearticuleerd (International Phonetic Alphabet, 2018). De /øː/ wordt op bijna hetzelfde articulatiepunt gevormd als de /e/, namelijk half-voor en hoog-midden en met geronde lippen, in plaats van voor en hoog-midden met gespreide lippen, zoals de Italiaanse moedertaalsprekers kennen (International Phonetic Alphabet, 2018). Zie Bijlage 11 voor voorbeeldwoorden van alle Italiaanse klinkers.
+3.7.3 Italiaans - Nederlands: Diftongen
+Het Italiaans heeft geen officiële diftongen (Rogers & d’Arcangeli, 2004). De individuele klinkers van de /ɛi/ komen in het Italiaans wel voor: de /ɛ/ (bene) en de /i/(bile), waardoor het mogelijk makkelijk is om deze diftong te leren. Van de diftong /ɑu/ komt enkel de /u/ in het Italiaans voor, maar de /ɑ/ lijkt wel op de /a/ uit het Italiaans. Het verschil is dat de Italiaanse /a/ centraal en open gearticuleerd wordt, terwijl de Nederlandse /ɑ/ verder naar achter gearticuleerd wordt: achter en open (International Phonetic Alphabet, 2018). Dit levert mogelijk interferentie op vanuit de Italiaanse /a/. Daarnaast is de /œy/ lastig voor Italiaanse moedertaalsprekers, omdat beide klanken niet individueel voorkomen in de taal. Hiervoor zouden zij eerst de tegenhangende klanken van de /ɛ/ en de /i/ moeten leren uitspreken: de /œ/ wordt op (bijna) hetzelfde articulatiepunt gevormd als de /ɛ/, namelijke centraal en laag-midden, en de /y/ wordt op hetzelfde articulatiepunt gevormd als de /i/, namelijk voor en gesloten, maar in plaats van met gespreide lippen zoals bij de /ɛ/ en /i/, worden de /œ/ en de /y/ met geronde lippen gearticuleerd (International Phonetic Alphabet, 2018).
+Enkele Nederlandse pseudo-diftongen zijn mogelijk makkelijk voor Italiaanse NT2-leerders: de /iu/, /ui/ en /ɔi/, waarbij de individuele klanken /i/, /u/ en /ɔ/ ook voorkomen in het Italiaans (Rogers & d’Arcangeli, 2004). De /e:u/, /aːi/ en /oːi/ zijn mogelijk ook relatief makkelijk, doordat de initiële klank uit de tweeklanken bekend zijn in het Italiaans en slechts een langere duur dienen te krijgen. Hierbij zijn de opvolgende klanken /u/ en /i/ ook bekend (Rogers & d’Arcangeli, 2004). De /y/ uit de /yu/ is niet bekend is het Italiaans, maar heeft hetzelfde articulatiepunt als de /i/ en hoeft enkel met geronde lippen gearticuleerd te worden, waarop de bekende /u/ volgt. Tot slot wordt de initiële klank van de /ɑi/ op bijna hetzelfde articulatiepunt gevormd als de bekende klank /a/ en uit het Italiaans: de /ɑi/ begint achter open, in plaats van centraal open, met gespreide lippen en eindigt voor gesloten met gespreide lippen (International Phonetic Alphabet, 2018). 
+3.8 Contrastieve analyse Pools - Nederlands
+Volgens het Centraal Bureau voor de Statistiek (2019) waren er in 2017 in Nederland 23.790 nieuwe immigranten uit Polen. Op 1 januari 2018 telde Nederland in totaal 132.378 inwoners met een Poolse nationaliteit (Centraal Bureau voor de Statistiek, 2018). Hiermee is dit de grootste groep immigranten in Nederland, die sinds de afgelopen vijf jaar ver uitstijgt boven de nummers twee en drie: een groeiende groep Duitsers en een weliswaar afnemende groep Turken, die in 2018 beide rond de 75.000 inwoners tellen (Centraal Bureau voor de Statistiek, 2018). Dit zijn niet alleen eerste-generatie Poolse immigranten, maar inmiddels worden er ook veel tweede-generatie Polen geboren in Nederland met minstens één Poolse ouder. De eerste-generatie immigranten zijn met name hoger opgeleiden, die in Nederland in de landbouw en groenteteelt komen werken ondanks hun hogere opleidingsniveau. 
+Het Pools is een West-Slavische taal, in tegenstelling tot het Nederlands, dat een West-Germaanse taal is (Booij, 1995; Jassem, 2003). Doordat het Pools en het Nederlands niet van dezelfde taalfamilie komen, is het voor Poolse immigranten wellicht moeilijk om Nederlands te leren. Toch slagen veel Poolse moedertaalsprekers erin om het Nederlands goed te leren beheersen, als zij eenmaal de motivatie hebben om in Nederland te blijven en de taal te willen leren. Een contrastieve analyse van het Pools - Nederlands fonemensysteem kan helpen om inzicht te krijgen in welke klanken het Pools niet kent en welke klanken mogelijk interferentie opleveren ten gevolge van assimilatie. 
+3.8.1 Pools - Nederlands: Consonanten
+In tabel 6 staat een overzicht van de Poolse consonanten die wel en niet overeenkomen met het Nederlands. De overeenkomende consonanten tussen het Pools en het Nederlands, zijn de bilabiale plosieven /p/ (pal) en /b/ (bal), de alveolaire plosieven /t/ (tom) en /d/ (dom), de palatale plosief /c/ (kieł), de velaire plosieven /k/ (kura) en /ɡ/ (góra), de bilabiale nasaal /m/ (tom), de alveolaire nasaal /n/ (żona), de palatale nasaal /ɲ/ (maleńka), de velaire nasaal /ŋ/ (Waszyngtonie), de labiodentale fricatieven /f/ (fur) en /v/ (wór), de alveolaire fricatieven /s/ (kosa) en /z/ (koza), de post-alveolaire fricatieven /ʃ/ (szal) en /ʒ/ (żal), de velaire fricatief /x/ (hula), de palatale approximant /j/ (maja) en de alveolaire lateraal approximant /l/ (ból) (Jassem, 2003; Sadowska, 2012; Van Oostendorp, 2018). Daarnaast kent het Pools ook een [r]: de alveolaire tril /r/ (bór), die ook een tap of flap /ɾ/ kan zijn [buɾ] (Jassem, 2003). 
+Het Pools heeft daarnaast nog tien consonanten die niet voorkomen in het Nederlands: de stemhebbende palatale plosief /ɟ/ (giełda), de stemloze alveolair-palatale fricatief /ɕ/ (sina), de stemhebbende alveolair-palatale fricatief /ʑ/ (zima) en de combinaties met de /t/ voor de stemloze alveolair-palatale affricaat /t͡ɕ/ (kacie) en voor de stemloze post-alveolaire affricaat /ʧ/ (kacze), met de /d/ voor de stemhebbende alveolair-palatale affricaat /d͡ʑ/ (idzie) en voor de stemhebbende post-alveolaire affricaat /ʤ/ (brydże) (Jassem, 2003; Sadowska, 2012; Van Oostendorp, 2018). Deze laatste twee contrasteren met de Poolse alveolaire affricaten /ʦ/ (kace) en /ʣ/ (rydze), die ook niet voorkomen in het Nederlands (Jassem, 2003; Sadowska, 2012; Van Oostendorp, 2018). Bovendien kent het Pools de labiaal-velaire approximant /w/ (mała) (Jassem, 2004). Deze klank wordt niet met de boventanden (bijna) tegen de onderlip aan gearticuleerd zoals de Nederlandse labiodentale approximant /ʋ/, maar de klank wordt meer met de achterkant van de tong richting het velum gearticuleerd. Dit zou mogelijk interferentie kunnen opleveren. 
+
+ | Bilabiaal
+ | Labio-dentaal
+ | Dentaal
+ | Alveolair
+ | Post-alveolair
+ | Retroflex
+ | Palataal
+ | Velair
+ | Uvulair
+ | Faryngaal
+ | Glottaal
+ | 
+Plosief
+ | p
+ | b
+ |      
+ | 
+ | 
+ | 
+ | t
+ | d
+ | 
+ | 
+ | 
+ | 
+ | c
+ | ɟ
+ | k
+ | ɡ
+ | 
+ | 
+ | 
+ | 
+ | ʔ
+ | 
+ | 
+Nasaal
+ | 
+ | m
+ | 
+ | 
+ | 
+ | 
+ | 
+ | n
+ | 
+ | 
+ | 
+ | 
+ | 
+ | ɲ
+ | 
+ | ŋ
+ | 
+ |      
+ | 
+ | 
+ | 
+ | 
+ | 
+Tril
+ | 
+ | 
+ |      
+ | 
+ | 
+ | 
+ | 
+ | r
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | [ʀ]
+ | 
+ | 
+ | 
+ | 
+ | 
+Tap/Flap
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | [ɾ]
+ | 
+ | 
+ |      
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ |      
+ | 
+ | 
+Fricatief
+ | 
+ | 
+ | f
+ | v
+ | 
+ |      
+ | s
+ | z
+ | ʃ
+ | ʒ
+ | 
+ | 
+ | 
+ | 
+ | x
+ | ɣ
+ | [χ]
+ | 
+ | 
+ | 
+ | [h]
+ | ɦ
+ | 
+Lateraal fricatief
+ | 
+ |      
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Approximant
+ | 
+ |      
+ | 
+ | υ
+ | 
+ | 
+ | 
+ | [ɹ]
+ | 
+ | 
+ | 
+ | 
+ | 
+ | j
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Lateraal approximant
+ | 
+ |      
+ |      
+ | 
+ | 
+ | 
+ | 
+ | l
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Tabel 6: Drie soorten consonanten: (1) overeenkomende consonanten tussen het Nederlands en Pools (zwart), (2) niet-overeenkomende consonanten die wel in het Nederlands, maar niet in het Pools voorkomen (rood), en (3) niet-overeenkomende consonanten die wel in het Pools, maar niet in het Nederlands voorkomen (groen). Gebaseerd op in de tekst genoemde bronnen.
+ De consonanten die in het Nederlands voorkomen, maar niet in het Pools, zijn de stemhebbende velaire fricatief /ɣ/, de stemhebbende labiodentale approximant /υ/, de glottale stop /ʔ/ en de stemhebbende glottale fricatief /ɦ/ (Jassem, 2003; Van Oostendorp, 2018). Bovendien komen de volgende allofonen uit het Nederlands ook niet voor in het Pools: de alveolaire approximant /ɹ/, de uvulaire tril /ʀ/, de stemloze uvulaire fricatief /χ/ en de glottale fricatief /h/ (Jassem, 2003; Gussenhoven, 1999; Sebregts, 2014). Zie Bijlage 12 voor voorbeeldwoorden van alle Poolse consonanten.
+3.8.2 Pools - Nederlands: Vocalen 
+Het Pools kent slechts zes orale vocalen: de /i/, /ɨ/, /e/, /a/, /o/ en /u/ (Jassem, 2003). Hiervan komen alleen de /i/ (bity), die voor en gesloten gearticuleerd wordt met gespreide lippen, en de /u/ (buty), die achter en gesloten gearticuleerd wordt met geronde lippen, direct overeen met het Nederlands. De overige klinkers zijn korter in het Pools, en langer in het Nederlands: de /e/ (bety), die voor en hoog-midden met gespreide lippen gearticuleerd wordt, is in het Nederlands verlengd naar de /eː/, de /a/ (baty), die centraal en open met gespreide lippen gearticuleerd wordt, is in het Nederlands verlengd naar de /aː/ en de /o/ (boty), die achter en hoog-midden met geronde lippen gearticuleerd wordt, is in het Nederlands verlengd naar de /oː/. De /ɨ/, die centraal en gesloten met gespreide lippen gearticuleerd wordt, komt enkel voor in het Pools, niet in het Nederlands (Jassem, 2003; Van Oostendorp, 2018). Dit maakt het mogelijk lastig voor Poolse moedertaalsprekers om het onderscheid tussen korte en lange klinkers in het Nederlands te herkennen en toe te passen. Zo komen de volgende klinkers niet voor in het Pools: /ɪ/, /ʏ/, /y/, /ɛ/, /eː/, /ɑ/, /øː/, /ɔ/, /aː/, /oː/ en /ə/ (Jassem, 2003; Van Oostendorp, 2018). Hierdoor is het verschil tussen de <korte klinker /ɪ/> en de <lange klinker /i/> lastig voor Poolse NT2-leerders, evenals het verschil tussen de <korte klinker /ʏ/> en de <lange klinker /y/>, de <korte klinker /ɛ/> en de <lange klinker /eː/>, de <korte klinker /ɑ/> en de <lange klinker /aː/> en de <korte klinker /ɔ/> en de <lange klinker /oː/>. De /y/ en de /øː/ zijn waarschijnlijk relatief makkelijk te leren: de /y/ wordt op hetzelfde articulatiepunt gevormd als de /i/, namelijk voor en gesloten, maar in plaats van met gespreide lippen zoals bij de /i/, wordt de /y/ met geronde lippen gearticuleerd (International Phonetic Alphabet, 2018). De /øː/ wordt op bijna hetzelfde articulatiepunt gevormd als de /e/, namelijk half-voor en hoog-midden en met geronde lippen, in plaats van voor en hoog-midden met gespreide lippen, zoals de Poolse moedertaalsprekers kennen (International Phonetic Alphabet, 2018). De Nederlandse orale marginale klinkers, die in leenwoorden voorkomen, komen ook niet voor in het Pools. Tot slot komen twee nasale klinkers wel voor in het Pools, die ook voorkomen in het Nederlands, met name in Franse leenwoorden: de /ɔ̃ː/ (są) en de /ɛ̃ː/ (język) (Sadowska, 2012). Zie Bijlage 13 voor voorbeeldwoorden van alle Poolse klinkers.
+3.8.3 Pools - Nederlands: Diftongen
+Het Pools kent geen officiële diftongen (Jassem, 2003). Hierdoor is het voor Poolse NT2-leerders mogelijk erg lastig om diftongen uit te spreken. Wanneer er twee klinkers op elkaar volgen in het Pools, worden deze apart uitgesproken (Sadowska, 2012). Van de Nederlandse diftongen /ɛi/, /œy/ en /ɑu/ kennen Poolse moedertaalsprekers enkel de individuele klanken /i/ en /u/. Overigens lijkt de /e/ uit het Pools op de /ɛ/ uit de /ɛi/ en lijkt de /a/ uit het Pools op de /ɑ/ uit de /ɑu/ en zijn de articulatiepunten bijna identiek (International Phonetic Alphabet, 2018). Dit zorgt ervoor dat er mogelijk interferentie plaatsvindt bij deze tweeklanken vanuit de Poolse /a/ en /e/. De /œy/ is het moeilijkst om te realiseren voor moedertaalsprekers van het Pools, omdat beide individuele klanken niet voorkomen in het Pools (Jassem, 2003). 
+Enkele Nederlandse pseudo-diftongen zijn mogelijk makkelijk voor Poolse NT2-leerders: de /iu/ en /ui/, waarbij de individuele klanken /i/ en /u/ ook voorkomen in het Pools (Jassem, 2003). De /e:u/, /aːi/ en /oːi/ zijn mogelijk ook relatief makkelijk, doordat de initiële klank uit de tweeklanken bekend zijn in het Pools en slechts een langere duur dienen te krijgen. Hierbij zijn de opvolgende klanken /u/ en /i/ ook bekend (Jassem, 2003). De /y/ uit de /yu/ is niet bekend is het Pools, maar heeft hetzelfde articulatiepunt als de /i/ en hoeft enkel met geronde lippen gearticuleerd te worden, waarop de bekende /u/ volgt. De initiële klanken van de /ɑi/ en de /ɔi/ worden op bijna hetzelfde articulatiepunt gevormd als de bekende klanken /a/ en /o/ uit het Pools: de /ɑi/ begint achter open, in plaats van centraal open, met gespreide lippen en eindigt voor gesloten met gespreide lippen en de /ɔi/ begint achter laag-midden, in plaats van achter hoog-midden, met geronde lippen en eindigt voor gesloten met gespreide lippen (International Phonetic Alphabet, 2018).
+4. Conclusie
+In dit verslag is een antwoord gegeven op de volgende hoofdvraag: Wat zijn de overeenkomende consonanten, vocalen en diftongen tussen het Nederlands en het Duits, Engels, Frans, Italiaans en Pools, en welke klanken zijn uniek voor deze talen in verhouding tot het Nederlands? Deze hoofdvraag is opgesplitst in twee deelvragen: (1) Hoe kunnen we het fonologische systeem van het Nederlands, het Duits, het Engels, het Frans, het Italiaans en het Pools beschrijven? en (2) Hoe kunnen we de beschrijving van het fonologische systemen van het Duits, het Engels, het Frans, het Italiaans en het Pools met het fonologische systeem van het Nederlands vergelijken? Hieronder wordt eerst een overzicht gegeven van de overeenkomende klanken tussen het Nederlands en het Duits, het Engels, het Frans, het Italiaans en het Pools. Vervolgens worden de unieke klanken uit deze talen benoemd. 
+Tabel 7 toont de consonanten die in alle zes de talen voorkomen, namelijk de volgende: de bilabiale plosieven /p/ (pil) en /b/ (bil), de alveolaire plosieven /t/ (top) en /d/ (dop), de velaire plosieven /k/ (kool) en /g/ (goal), de bilabiale nasaal /m/ (mal), de alveolaire nasaal /n/ (nat), de labiodentale fricatieven /f/ (fee) en /v/ (vee), de alveolaire fricatieven /s/ (sop) en /z/ (zee), de post-alveolaire /ʃ/ (sjaal) en de alveolaire laterale approximant /l/ (lip). Zie tabellen 7, 8, 10 en 12 voor deze overeenkomende consonanten. Verder komt de palatale plosief /c/ (ketjap) slechts voor in het Pools en de glottale stop /ʔ/ (beëndigen) komt slechts voor in het Duits en Engels.
+     
+ | Bilabiaal /p/
+ | Bilabiaal /b/
+ | Alveolair /t/
+ | Alveolair /d/
+ | Palataal    /c/
+ | Velair   /k/
+ | Velair  /ɡ/
+ | Glottal /ʔ/
+ | 
+Nederlands
+ | X
+ | X
+ | X
+ | X
+ | (X)
+ | X
+ | (X)
+ | (X)
+ | 
+Duits
+ | X
+ | X
+ | X
+ | X
+ |      
+ | X
+ | X
+ | X
+ | 
+Engels 
+ | X
+ | X
+ | X
+ | X
+ | 
+ | X
+ | X
+ | X
+ | 
+Frans
+ | X
+ | X
+ | X
+ | X
+ | 
+ | X
+ | X
+ |      
+ | 
+Italiaans
+ | X 
+ | X 
+ | X 
+ | X 
+ |      
+ | X 
+ | X 
+ |      
+ | 
+Pools
+ | X 
+ | X 
+ | X 
+ | X 
+ | X 
+ | X 
+ | X 
+ | 
+ | 
+Tabel 7: Overzicht aanwezigheid Nederlandse plosieven in de talen Duits, Engels, Frans, Italiaans en Pools. 
+De palatale nasaal /ɲ/ (oranje) komt niet voor in het Duits en Engels. De overige nasalen komen in de alle zes de talen voor, zoals te zien is in tabel 8. Tabel 9 toont een overzicht van de Nederlandse [r]-klanken in vergelijking met de andere talen. De alveolaire tap of flap /ɾ/ (rel), die als meest standaard wordt beschouwd in het Nederlands, komt voor als allofoon van de [r] in het Engels, Italiaans en Pools en komt niet voor in het Duits en Frans. De uvulaire tril /ʀ/ (raam), die in het Nederlands een allofoon is van de [r], komt ook als allofoon van de [r] voor in het Duits en Frans, maar komt niet voor in het Engels, Italiaans en Pools.
+     
+ | Bilabiaal /m/
+ | Alveolair /n/
+ | Palataal /ɲ/
+ | Velair  /ŋ/
+ | 
+Nederlands
+ | X
+ | X
+ | (X)
+ | X
+ | 
+Duits
+ | X
+ | X
+ |      
+ | X
+ | 
+Engels 
+ | X
+ | X
+ |      
+ | X
+ | 
+Frans
+ | X
+ | X
+ | X
+ | (X)
+ | 
+Italiaans
+ | X 
+ | X 
+ | X 
+ | [X]
+ | 
+Pools
+ | X 
+ | X 
+ | X 
+ | X
+ | 
+Tabel 8: Overzicht aanwezigheid Nederlandse nasalen in de talen Duits, Engels, Frans, Italiaans en Pools.
+     
+ | Alveolair /ɾ/
+ | Uvulair /ʀ/
+ | 
+Nederlands
+ | X
+ | [X]
+ | 
+Duits
+ | 
+ | [X]
+ | 
+Engels 
+ | [X]
+ | 
+ | 
+Frans
+ | 
+ | [X]
+ | 
+Italiaans
+ | [X] 
+ | 
+ | 
+Pools
+ | [X] 
+ | 
+ | 
+Tabel 9: Overzicht aanwezigheid Nederlandse tril en tap of flap in de talen Duits, Engels, Frans, Italiaans en Pools.
+Tabel 10 toont een overzicht van fricatieven. De post-alveolaire fricatief /ʒ/ (jury), die in het Nederlands in leenwoorden voorkomt, komt niet voor in het Italiaans. De stemloze velaire fricatief /x/ (schaap) komt alleen voor in het Duits en Pools, terwijl de stemhebbende velaire fricatief /ɣ/ (gaan) niet voorkomt in het Duits, Engels, Frans Italiaans of Pools. De uvulaire fricatief /χ/, die een allofoon van de [x] is in het Nederlands, is tevens ook een allofoon van de [x] in het Duits. Deze klank komt verder niet in een van de andere talen voor. De glottale fricatief /ɦ/ (hal) komt als allofoon van de [h] voor in het Engels en de Nederlandse allofoon /h/ komt ook voor in het Duits en in het Engels.
+     
+ | Labiodentaal
+ | Alveolair
+ | Post-alveolair
+ | Velair
+ | Uvulair
+ | Glottaal
+ | 
+
+ | /f/
+ | /v/
+ | /s/
+ | /z/
+ | /ʃ/
+ | /ʒ/
+ | /x/
+ | /ɣ/
+ | /χ/
+ | /h/
+ | /ɦ/
+ | 
+Nederlands
+ | X
+ | X
+ | X
+ | X
+ | (X)
+ | (X)
+ | X
+ | X
+ | [X]
+ | [X]
+ | X
+ | 
+Duits
+ | X
+ | X
+ | X
+ | X
+ | X     
+ | X
+ | X
+ |      
+ | [X]
+ | X
+ | 
+ | 
+Engels 
+ | X
+ | X
+ | X
+ | X
+ | X
+ | X
+ | 
+ | 
+ | 
+ | X
+ | [X]
+ | 
+Frans
+ | X
+ | X
+ | X
+ | X
+ | X
+ | X
+ |      
+ |      
+ | 
+ | 
+ | 
+ | 
+Italiaans
+ | X 
+ | X 
+ | X 
+ | X 
+ | X
+ | 
+ | 
+ |      
+ | 
+ | 
+ | 
+ | 
+Pools
+ | X 
+ | X 
+ | X 
+ | X 
+ | X 
+ | X 
+ | X 
+ |      
+ | 
+ | 
+ | 
+ | 
+Tabel 10: Overzicht aanwezigheid Nederlandse fricatieven in de talen Duits, Engels, Frans, Italiaans en Pools.
+Tabel 11 toont het overzicht van approximanten. De bilabiale approximant /ʋ/ (woest) komt niet voor in het Duits, Engels, Frans, Italiaans of Pools. De alveolaire approximant /ɹ/ (door), die in het Nederlands een allofoon van de [r] is, komt enkel voor in het Engels. De palatale approximant /j/ (jas) komt alleen niet voor in het Frans. Tabel 12 toont de alveolaire laterale approximant /l/, die voorkomt in alle talen.
+
+
+     
+ | Bilabiaal /ʋ/
+ | Alveolair /ɹ/
+ | Palataal /j/
+ | 
+Nederlands
+ | X
+ | [X]
+ | X
+ | 
+Duits
+ | 
+ | 
+ | X
+ | 
+Engels 
+ | 
+ | X
+ | X
+ | 
+Frans
+ | 
+ | 
+ | 
+ | 
+Italiaans
+ | 
+ | 
+ | X 
+ | 
+Pools
+ | 
+ |      
+ | X 
+ | 
+Tabel 11: Overzicht aanwezigheid Nederlandse approximanten in de talen Duits, Engels, Frans, Italiaans en Pools.
+     
+ | Alveolair /l/
+ | 
+Nederlands
+ | X
+ | 
+Duits
+ | X
+ | 
+Engels 
+ | X
+ | 
+Frans
+ | X
+ | 
+Italiaans
+ | X 
+ | 
+Pools
+ | X 
+ | 
+Tabel 12: Overzicht aanwezigheid Nederlandse laterale approximant in de talen Duits, Engels, Frans, Italiaans en Pools.
+Daarnaast kennen het Duits, Engels, Frans, Italiaans en Pools ook fonemen die niet voorkomen in het Nederlands. In tabel 13 staat een overzicht van deze klanken. De palatale plosief /ɟ/ komt alleen voor in het Pools (giełda), de alveolaire tril /r/ komt voor in zowel het Italiaans (rare) als in het Pools (bór), de dentale fricatieven /θ/ (thing) en /ð/ (those) komen alleen voor in het Engels, de palatale fricatief /ç/ komt alleen voor als allofoon van de [x] in het Duits (dich), de uvulaire fricatief /ʁ/ komt voor in zowel het Duits (Rasse) als in het Frans (roue),  de retroflexe approximant /ɻ/ komt alleen voor in het Amerikaans Engels (hard) als allofoon van de [r], de labial-velaire /w/ komt voor in het Engels (water), Italiaans (uomo) en Pools (mała) en de palatale laterale approximant /ʎ/ komt alleen voor in het Italiaans (gliene). 
+
+ | Plosief
+ | Tril
+ | Fricatief
+ | Approximant
+ | Lateraal approximant
+ | 
+
+ | Palataal /ɟ/
+     
+ | Alveolair  
+/r/
+
+ | Dentaal 
+ | Palataal     /ç/
+     
+ | Uvulair     /ʁ/
+
+ | Retroflex  /ɻ/
+
+ | Labiaal-velair       /w/
+     
+ | Palataal    /ʎ/
+     
+ | 
+
+ | 
+ | 
+ | /θ/
+ | /ð/
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Nederlands
+ |      
+ | 
+ |      
+ | 
+ | 
+ | 
+ | 
+ |      
+ | 
+ | 
+Duits
+ | 
+ |      
+ | 
+ | 
+ | [X]
+ | X
+ | 
+ |      
+ | 
+ | 
+Engels (Br)
+ | 
+ | 
+ | X
+ | X
+ | 
+ | 
+ | 
+ | X
+ |      
+ | 
+Engels (Am)
+ | 
+ | 
+ | X
+ | X
+ | 
+ | 
+ | [X]
+ | X
+ | 
+ | 
+Frans
+ | 
+ | 
+ | 
+ | 
+ | 
+ | X
+ | 
+ | X
+ |      
+ | 
+Italiaans
+ | 
+ | X
+ | 
+ | 
+ | 
+ | 
+ | 
+ | X
+ | X
+ | 
+Pools
+ | X
+ | X
+ | 
+ | 
+ | 
+ | 
+ | 
+ | X
+ | 
+ | 
+Tabel 13: Overzicht consonanten die niet in het Nederlands voorkomen, die wel (of niet) voorkomen in de talen Duits, Engels, Frans, Italiaans en Pools.
+Tabel 14 toont een overzicht van de korte klinkers. De /ɪ/ komt alleen voor in het Duits (bitten) en Engels (kitten), de /ʏ/ komt slechts voor in het Duits (Hütten), de /ɛ/ komt voor in het Duits (Betten), Frans (sait) en Italiaans (bene), de /ɑ/ komt slechts bij sommige Franse sprekers als onderscheidende vocaal van de /a/ (sa) en de /ɔ/ komt zowel voor in het Duits (Botten) en Frans (sort) als in het Italiaans (boia). De gereduceerde klinker schwa /ə/ (boten) komt niet voor in het Italiaans en in het Pools, zoals in tabel 15 te zien is. 
+     
+ | /ɪ/
+ | /ʏ/
+ | /ɛ/
+ | /ɑ/
+ | /ɔ/
+ | 
+Nederlands
+ | X
+ | X
+ | X
+ | X
+ | X
+ | 
+Duits
+ | X
+ | X
+ | X
+ | /a/
+ | X
+ | 
+Engels 
+ | X
+ | /ɪ/ 
+ | /e/
+ | /æ/
+ | /ɒ/
+ | 
+Frans
+ | 
+ | 
+ | X
+ | /a/, /ɑ/
+ | X
+ | 
+Italiaans
+ | 
+ | 
+ | X
+ | /a/
+ | X
+ | 
+Pools
+ | 
+ | 
+ | /e/
+ | /a/
+ | /o/
+ | 
+Tabel 14: Overzicht aanwezigheid korte klinkers uit het Nederlands in de talen Duits, Engels, Frans, Italiaans en Pools. De fonemen in de ingevulde grijze vakken komen voor in de betreffende taal en komen in de buurt van de Nederlandse korte klinkers.
+
+ | /ə/
+ | 
+Nederlands
+ | X
+ | 
+Duits
+ | X
+ | 
+Engels 
+ | X
+ | 
+Frans
+ | X
+ | 
+Italiaans
+ |      
+ | 
+Pools
+ | 
+ | 
+Tabel 15: Overzicht aanwezigheid van de schwa uit het Nederlands voorkomt in de talen Duits, Engels, Frans, Italiaans en Pools.
+Tabel 16 toont alle lange klinkers uit het Nederlands in vergelijking met de andere talen. De lange klinkers /i/ (vis) en /u/ (boel) komen in alle zes de talen voor. De lange klinker /y/ komt voor in het Duits (hütten) en in het Frans (su). In het Engels, Italiaans en Pools is de tegenovergestelde langer klinker /i/ wel aanwezig, waarbij de sprekers alleen de lipvorm dienen aan te passen naar gerond in plaats van gespreid. De lange klinker /eː/ (wees) komt niet voor in de andere vijf talen, maar wel de korte klinker /e/. De duur van deze klinker dient dus langer aangehouden te worden. Bovendien komt de lange klinker /ɛː/ voor in het Duits (bäten), die iets lager en meer achter gearticuleerd wordt. De /øː/ (neus) komt alleen in de korte vorm voor in het Duits (Goethe) en in het Frans (ceux). 
+     
+ | /i/
+ | /y/
+ | /eː/
+ | /øː/
+ | /aː/
+ | /oː/
+ | /u/
+ | 
+Nederlands
+ | X
+ | X
+ | X
+ | X
+ | X
+ | X
+ | X
+ | 
+Duits
+ | X
+ | X
+ | /e/, /ɛː/
+ | /ø/
+ | X
+ | /o/
+ | X
+ | 
+Engels 
+ | X
+ | /i/
+ | /e/
+ | /e/
+ | /ɑː/
+ | /ɔː/
+ | X
+ | 
+Frans
+ | X
+ | X
+ | /e/
+ | /ø/
+ | /a/
+ | /o/
+ | X
+ | 
+Italiaans
+ | X 
+ | /i/
+ | /e/
+ | /e/
+ | /a/
+ | /o/
+ | X
+ | 
+Pools
+ | X 
+ | /i/
+ | /e/
+ | /e/
+ | /a/
+ | /o/
+ | X
+ | 
+Tabel 16: Overzicht aanwezigheid lange klinkers uit het Nederlands voorkomen in de talen Duits, Engels, Frans, Italiaans en Pools. De fonemen in de grijze vakken komen voor in de betreffende taal en vertonen gelijkenis met de Nederlandse lange klinkers.
+De /e/ is de tegenovergestelde klinker van de /ø/, waarbij de /e/ voor en hoog-midden met gespreide lippen gearticuleerd wordt en de /ø/ half-voor en hoog-midden, maar met geronde lippen gearticuleerd wordt, zoals moedertaalsprekers van het Engels, Italiaans en Pools moeten leren. De lange klinker /aː/ is alleen bekend in het Duits (baten), terwijl de korte klinker /a/ wel in het Frans, Italiaans en Pools voorkomt. Daarnaast lijkt de lange klinker /ɑː/ uit het Engels (palm) op de Nederlandse lange /aː/, waarbij de Engelse variant achter en open gearticuleerd wordt, terwijl de Nederlandse klinker centraal en open gearticuleerd wordt. De /oː/ komt met een minder lange duur voor, aangeduid zonder dubbele punt /o/, in de talen Duits (boten), Frans (sot), Italiaans (borgo) en Pools (boty). De Engelse lange [o] wordt met de tong lager in de mond gearticuleerd, maar heeft wel een vergelijkbare duur: /ɔː/ (fall). 
+Tabel 17 toont een overzicht van de orale marginale klinkers en de klanken die in de talen Duits, Engels, Frans, Italiaans en Pools overeenkomen of gelijkenis tonen met de klanken in het Nederlands. De orale marginale klinkers, die in leenwoorden voorkomen in het Nederlands, komen op papier enkel overeen met enkele Duitse en Engelse klinkers. Ook zijn er veel klanken uit Franse leenwoorden, waarbij er een ogenschijnlijk verschil in de duur van de klinker is, maar waarbij de meeste klinkers toch overeenkomen met het foneem zonder de dubbele punt. 
+     
+ | /iː/
+ | /yː/
+ | /uː/
+ | /ɛː/
+ | /œː/
+ | /ɔː/
+ | /ɑː/
+ | 
+Nederlands
+ | X
+ | X
+ | X
+ | X
+ | X
+ | X
+ | X
+ | 
+Duits
+ | /i/
+ | /y/
+ | X
+ | X
+ | /œ/
+ | /ɔ/
+ | /aː/
+ | 
+Engels 
+ | X
+ | /iː/
+ | X
+ | 
+ | 
+ | X
+ | X
+ | 
+Frans
+ | /i/
+ | /y/
+ | /u/
+ | /ɛ/
+ | /œ/
+ | /ɔ/
+ | 
+ | 
+Italiaans
+ | /i/
+ | /i/
+ | /u/
+ | /ɛ/
+ | /ɛ/
+ | /ɔ/
+ | 
+ | 
+Pools
+ | /i/
+ | /i/
+ | /u/
+ | 
+ | 
+ | 
+ | 
+ | 
+Tabel 17: Overzicht aanwezigheid orale marginale klinkers uit Nederlandse leenwoorden in de talen Duits, Engels, Frans, Italiaans en Pools. De fonemen in de ingevulde grijze vakken komen voor in de betreffende taal en vertonen gelijkenis met de klanken in het Nederlands. 
+Tabel 18 toon de drie nasale marginale klinkers, die in het Nederlands in leenwoorden voorkomen, die met name uit het Frans komen: de /ɛ̃ː/ (saint), de /ɑ̃ː/ (sans) en de /ɔ̃ː/ (son). Ook in het Pools zijn twee van de drie nasale klinkers bekend: de /ɛ̃ː/ (język) en de /ɔ̃ː/ (są).
+     
+ | /ɛ̃ː/
+ | /ɑ̃ː/
+ | /ɔ̃ː/
+ | 
+Nederlands
+ | X
+ | X
+ | X
+ | 
+Duits
+ | 
+ | 
+ | 
+ | 
+Engels 
+ | 
+ | 
+ | 
+ | 
+Frans
+ | X
+ | X
+ | X
+ | 
+Italiaans
+ | 
+ | 
+ | 
+ | 
+Pools
+ | X
+ | 
+ | X
+ | 
+Tabel 18: Overzicht aanwezigheid nasale marginale klinkers uit Nederlandse leenwoorden in de talen Duits, Engels, Frans, Italiaans en Pools. 
+Bovendien kennen het Duits, Engels, Frans, Italiaans en Pools vocalen die uniek zijn en niet voorkomen in het Nederlands. Deze zijn te zien in tabel 19. De /e/ komt in alle vijf de talen voor. De /a/ komt in het Duits, Frans, Italiaans en Pools voor. De /ø/ en /œ/ komen voor in het Duits en in het Frans. De /ʊ/ komt voor in het Duits en Engels. De /æ/, /ʌ/, /ɒ/ en /ɜː/ zijn uniek voor het Engels. De /o/ komt voor in het Duits, Frans en Italiaans en de /ɨ/ is uniek voor het Pools.
+
+
+     
+ | /e/
+ | /a/
+ | /ø/
+ | /œ/
+ | /ʊ/
+ | /ɐ/
+ | /æ/
+ | /ʌ/
+ | /ɒ/
+ | /o/
+ | /ɨ/
+ | /ɜː/
+ | 
+Nederlands
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Duits
+ | X
+ | X
+ | X
+ | X
+ | X
+ | X
+ | 
+ | 
+ | 
+ | X
+ | 
+ | 
+ | 
+Engels 
+ | X
+ | 
+ | 
+ | 
+ | X
+ | 
+ | X
+ | X
+ | X
+ | 
+ | 
+ | X
+ | 
+Frans
+ | X
+ | X
+ | X
+ | X
+ | 
+ | 
+ | 
+ | 
+ | 
+ | X
+ | 
+ | 
+ | 
+Italiaans
+ | X
+ | X
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | X
+ | 
+ | 
+ | 
+Pools
+ | X
+ | X
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | X
+ | 
+ | 
+Tabel 19: Overzicht van vocalen die niet in het Nederlands voorkomen, maar wel in het Duits, Engels, Frans, Italiaans of Pools.
+ De pseudo-diftongen die in het Nederlands voorkomen, komen niet voor in het Duits, Engels, Frans, Italiaans en Pools. In tabel 20 is een overzicht te zien van de individuele klinkers uit de Nederlandse pseudo-tweeklanken. Met name de eerste klank uit de tweeklank is niet altijd bekend in de vijf talen. De diftongen glijden allen naar de /u/ of /i/, die in het Duits, Engels, Frans, Italiaans en Pools bekend zijn. De klanken in de grijze vakken kunnen zorgen voor een gemarkeerde uitspraak, omdat er interferentie vanuit deze klank uit de moedertaal kan optreden.
+
+
+
+
+     
+ | /eːu/
+ | /iu/
+ | /yu/
+ | /ui/
+ | /aːi/
+ | /oːi/
+ | /ɑi/
+ | /ɔi/
+ | 
+
+ |  /eː/ 
+ |  /u/ 
+ |  /i/
+ | /u/
+ | /y/
+ | /u/
+ | /u/
+ | /i/
+ | /aː/
+ | /i/
+ | /oː/
+ | /i/
+ | /ɑ/
+ | /i/
+ | /ɔ/
+ | /i/
+ | 
+Nederlands
+ | X
+ | X
+ | X
+ | X
+ | X
+ | X
+ | X
+ | X
+ | X
+ | X
+ | X
+ | X
+ | X
+ | X
+ | X
+ | X
+ | 
+Duits
+ | /e/
+ | X
+ | X
+ | X
+ | X
+ | X
+ | X
+ | X
+ | X
+ | X
+ | /o/
+ | X
+ | /a/
+ | X
+ | X
+ | X
+ | 
+Engels 
+ | /e/
+ | X
+ | X
+ | X
+ | 
+ | X
+ | X
+ | X
+ | /ɑː/
+ | X
+ | /ɔː/
+ | X
+ | /a/
+ | X
+ | X
+ | X
+ | 
+Frans
+ | /e/
+ | X
+ | X
+ | X
+ | X
+ | X
+ | X
+ | X
+ | /a/
+ | X
+ | /o/
+ | X
+ | X
+ | X
+ | X
+ | X
+ | 
+Italiaans
+ | /e/
+ | X
+ | X
+ | X
+ | 
+ | X
+ | X
+ | X
+ | /a/
+ | X
+ | /o/
+ | X
+ | /a/
+ | X
+ | X
+ | X
+ | 
+Pools
+ | /e/
+ | X
+ | X
+ | X
+ | 
+ | X
+ | X
+ | X
+ | /a/
+ | X
+ | /o/
+ | X
+ | /a/
+ | X
+ | /o/
+ | X
+ | 
+Tabel 20: Overzicht pseudo-diftongen die in het Nederlands voorkomen, en de aanwezigheid van de individuele klanken in het Duits, Engels, Frans, Italiaans en Pools.
+
+Tabel 21 toont informatie over de diftongen uit het Nederlands en het voorkomen van de (individuele) klanken in het Duits, Engels, Frans, Italiaans en Pools. De diftongen uit het Nederlands, komen niet voor in het Duits, Engels, Frans, Italiaans en Pools. De /ɛi/ is mogelijk wel makkelijk uit te spreken voor moedertaalsprekers van het Duits en het Italiaans, omdat de individuele klanken in deze talen bekend zijn. De /ɛi/ zal gemarkeerd klinken in de uitspraak van moedertaalsprekers van het Engels, Frans en Pools, omdat de individuele klanken niet op hetzelfde articulatiepunt gevormd worden. De /œy/ is mogelijk ook makkelijk uit te spreken voor moedertaalsprekers van het Duits en het Frans, omdat de individuele klanken in deze talen voorkomen. De /œy/ zal niet makkelijk zijn voor moedertaalsprekers van het Engels, Italiaans en Pools om uit te spreken, omdat de individuele klanken niet voorkomen in deze talen. De /ɑu/ heeft in het Duits en in het Engels een vergelijkbare diftong: de /aʊ/. Hierdoor zal de diftong gemarkeerd klinken. Ook moedertaalsprekers van het Italiaans en van het Pools zullen een gemarkeerde uitspraak van de [au/ou] genereren. Sommige moedertaalsprekers van het Frans kunnen de /ɑ/ van de /a/ onderscheiden en daardoor de juiste uitspraak van de [au/ou] genereren, terwijl bij andere Franse moedertaalsprekers een gemarkeerde uitspraak zullen genereren. 
+
+ | /ɛi/ (blijf, reis)
+ | /œy/ (buis)
+ | /ɑu/ (blauw, zout)
+ | 
+Nederlands
+ |  Glijdt van half-voor laag-
+ midden naar voor gesloten       
+ met gespreide lippen
+ | Glijdt van centraal laag-midden naar voor gesloten van met geronde lippen
+ | Glijdt van achter open naar achter gesloten van gespreide lippen naar geronde lippen
+ | 
+Duits
+ | Beide klanken /ɛ/ en /i/ komen voor in het Duits
+ | Individuele klanken /œ/ en /y/ komen voor
+ | Lijkt op de /aʊ/ uit het Duits, die van centraal open naar achter gesloten glijdt van gespreide lippen naar geronde lippen
+ | 
+Engels 
+ | Lijkt op de /eɪ/, die van voor  
+hoog- midden naar half-voor
+bijna-gesloten glijdt met gespreide lippen
+ | Beide klanken komen niet voor het in Engels
+ | Lijkt op de /aʊ/, die van centraal open naar achter gesloten glijdt van gespreide lippen naar geronde lippen
+ | 
+Frans
+ |  Lijkt op de /ɛj/, de/ei/ en de   
+ /ej/
+ | Individuele klanken /œ/ en /y/ komen voor
+ | Sommige sprekers kunnen de /ɑ/ van de /a/ onderscheiden, de /u/ komt in het Frans voor
+ | 
+Italiaans
+ | Beide klanken /ɛ/ en /i/ komen voor in het Italiaans
+     
+ | Beide klanken komen niet voor in het Italiaans
+ | Lijkt op de /a/ uit het Italiaans en de /u/ is bekend, waardoor de klank van centraal open naar achter gesloten zal glijden van gespreide lippen naar geronde lippen
+ | 
+Pools
+ | Lijkt op de /e/ uit het Pools en de /i/ is bekend, waardoor de klank van voor hoog-midden naar voor gesloten zal glijden met gespreide lippen
+ | Beide klanken komen niet voor in het Pools
+ | Lijkt op de /a/ uit het Pools en de /u/ is bekend, waardoor de klank van centraal open naar achter gesloten zal glijden van gespreide lippen naar geronde lippen
+ | 
+Tabel 21: Overzicht diftongen die in het Nederlands voorkomen, met informatie over een vergelijkbare tweeklank of de individuele klanken in het Duits, Engels, Frans, Italiaans en Pools.
+5. Aanbevelingen voor ‘Moedertaal in het Nederlands als Tweede Taal’
+De volgende beschrijvingen zouden (na aanpassing per taal) op de website van het project MoedINT2 geplaatst kunnen worden. De overeenkomende klanken zijn hier niet in meegenomen, omdat deze geen problemen op zullen leveren in de uitspraak van NT2-leerders.
+5.1 Consonanten
+Tabel 22 toont de afwezigheid van Nederlandse consonanten in het Duits, Engels, Frans, Italiaans of Pools. De ‘tj’-klank (/c/) zoals in het woord ketjap is alleen een bekende klank is het Pools. De glottale stop (/ʔ/), die bij de aanzet van een klinker aan het begin van een woord of lettergreep voorkomt, zoals in het woord beëindigen, komt niet voor in het Frans, Italiaans en Pools. De ‘nj’ (/ɲ/) zoals in het woord oranje komt niet voor in het Duits en Engels. Het Italiaans kent de ‘zj’-klank (/ʒ/) zoals in het woord garage niet. De ‘zachte g’ (/x/) komt niet voor in het Engels, Frans en Italiaans, en de ‘harde g’ (/ɣ/) komt in alle vijf de talen niet voor. Een variant van de ‘h’ komt slechts voor in het Duits en in het Engels. De ‘w’-klank (/ʋ/), zoal die in het Nederlands in bijvoorbeeld het woord water voorkomt, wordt niet op dezelfde wijze uitgesproken door moedertaalsprekers van het Engels, Frans, Italiaans en Pools en zal deze gemarkeerd klinken. Bovendien komt de letter ‘w’ overeen met een ‘v’-klank in het Duits en kent het Duits geen ‘w’-klank. De ‘j’ komt in alle talen voor, maar zal in het Frans mogelijk gemarkeerd klinken, omdat deze op een andere wijze gearticuleerd wordt. 
+
+Nederlandse consonant
+ | Voorbeeldwoord Nederlands
+ | Afwezig in taal
+ | 
+/c/
+ | Ketjap
+ | Duits, Engels, Frans, Italiaans
+ | 
+/ʔ/
+ | Beëindigen
+ | Frans, Italiaans, Pools
+ | 
+/ɲ/
+ | Oranje
+ | Duits, Engels
+ | 
+/ʒ/
+ | Garage
+ | Italiaans
+ | 
+/x/
+ | Lichaam
+ | Engels, Frans, Italiaans
+ | 
+/ɣ/
+ | Gaan
+ | Duits, Engels, Frans, Italiaans, Pools
+ | 
+/h/ of /ɦ/
+ | Hoop
+ | Frans, Italiaans, Pools
+ | 
+/ʋ/
+ | Woest
+ | Duits, Engels, Frans, Italiaans, Pools 
+ | 
+/j/
+ | Jas
+ | Italiaans
+ | 
+Tabel 22: Overzicht afwezigheid van Nederlandse consonanten in het Duits, Engels, Frans, Italiaans of Pools.
+5.2 Vocalen
+Tabel 23 toont de afwezigheid of gemarkeerde uitspraak van de Nederlandse vocalen in het Duits, Engels, Frans, Italiaans of Pools. De korte klinkers uit het Nederlands komen bijna allemaal voor in het Duits, alleen de korte ‘a’ kan gemarkeerd klinken. Het Engels kent slechts de korte ‘i’ en de overige korte klinkers kunnen gemarkeerd klinken. Het Frans kent de korte ‘e’, de korte ‘a’ en de korte ‘o’. Het Italiaans en het Pools maken geen onderscheid tussen korte en lange klinkers, waardoor klankdiscriminatie tussen korte en lange klinkers moeilijk is voor deze moedertaalsprekers. Wel kent het Italiaans de korte klinkers ‘e’ en ‘o’ en kunnen de korte klinkers ‘i’, ‘e’, ‘a’ en ‘o’ gemarkeerd klinken in het Pools. De schwa (/ə/) komt niet voor in het Italiaans en in het Pools. 
+Van de lange klinkers uit het Nederlands komen de ‘ie’ (/i/) en de ‘oe’ (/u/) in alle vijf de andere talen voor. Verder kennen het Duits en het Frans de ‘uu’ (/y/) en kent het Duits ook de ‘aa’ (/aː/). Deze klinkers en de ‘ee’ (/eː/), ‘eu’ (/øː/) en ‘oo’ (/oː/) klinken waarschijnlijk gemarkeerd in de andere talen Engels, Italiaans en Pools.
+Nederlandse vocaal
+ | Voorbeeldwoord Nederlands
+ | Gemarkeerde uitspraak in taal
+ | Afwezig in taal
+ | 
+/ɪ/
+ | Lid
+ | Frans, Italiaans, Pools
+ | 
+ | 
+/ɑ/
+ | Hap
+ | Duits, Engels, Frans, Italiaans, Pools
+ | 
+ | 
+/ʏ/
+ | Hut
+ | 
+ | Engels, Frans, Italiaans, Pools
+ | 
+/ɛ/
+ | Pet
+ | Engels, Pools
+ | 
+ | 
+/ɔ/
+ | Pot
+ | Engels, Pools
+ | 
+ | 
+/ə/
+ | Pillen
+ | 
+ | Italiaans, Pools
+ | 
+/y/
+ | Fuut
+ | 
+ | Engels, Italiaans, Pools
+ | 
+/eː/
+ | Wees
+ | Duits, Engels, Frans, Italiaans, Pools
+ | 
+ | 
+/øː/
+ | Neus
+ | Duits, Frans
+ | Engels, Italiaans, Pools
+ | 
+/aː/
+ | Gaap
+ | Engels, Frans, Italiaans, Pools
+ | 
+ | 
+/oː/
+ | Boot
+ | Duits, Engels, Frans, Italiaans, Pools
+ | 
+ | 
+Tabel 23: Overzicht afwezigheid of gemarkeerde uitspraak van Nederlandse korte en lange vocalen in het Duits, Engels, Frans, Italiaans of Pools.
+5.3 Diftongen     
+De diftongen uit het Nederlands zijn vaak lastig voor veel NT2-sprekers. Met name is de ‘ui’ (/œy/) onbekend in het Duits, Engels, Frans, Italiaans en Pools. Toch zijn de individuele klanken van deze tweeklank bekend in zowel het Duits als in het Frans, waardoor deze moedertaalsprekers de tweeklank sneller onder de knie zullen hebben dan moedertaalsprekers van het Engels, het Italiaans en het Pools. Bij deze laatste moedertaalsprekers zal er dan ook meer aandacht aan moeten worden besteed. De ‘ei/ij’ (/ɛi/) zal door alle sprekers wel gearticuleerd kunnen worden, maar zal met name gemarkeerd klinken bij moedertaalsprekers van het Engels, het Frans en het Pools. De ‘au/ou’ (/ɑu/) zal bij alle moedertaalsprekers gemarkeerd klinken, maar kan door sommige sprekers van het Frans meteen goed uitgesproken worden. Zie tabel 21 voor een uitgebreid overzicht van de diftongen.
+De ‘iew/ieuw’ (/iu/) zoals in nieuw en interview, de ‘oei’ (/ui/) zoals in stoei en de ‘oi’ (/ɔi/), zoals in hoi zullen weinig problemen opleveren voor moedertaalsprekers van het Duits, Engels, Frans, Italiaans en Pools. De ‘eeuw’ (/eːu/) zoals in leeuw, de ‘aai’ (/aːi/) zoals in maai, de ‘ooi’ (/oːi/) zoals in mooi en de /ɑi/, zoals in Thailand en maïs zijn lastig voor vrijwel alle moedertaalsprekers van het Duits, Engels, Frans, Italiaans en Pools. De ‘uw’ (/yu/) zoals in duw is voor moedertaalsprekers van het Duits en Frans makkelijk om uit te leren spreken, omdat beide klanken individueel voorkomen in deze talen. Moedertaalsprekers van het Engels, Italiaans en Pools zullen hier in eerste instantie meer moeite mee hebben. Zie tabel 20 voor een uitgebreid overzicht van de pseudo-diftongen.
+6. Discussie
+Dit beschrijvend onderzoek heeft een aantal beperkingen. Ten eerste is er gebruik gemaakt van standaardvarianten van de talen en er is dus geen rekening gehouden met mogelijke individuele sprekervariatie. Hierdoor zou er bij verschillende moedertaalsprekers die Nederlands als tweede taal leren mogelijk minder vaak, of juist vaker interferentie kunnen optreden dan verwacht. Een gemarkeerde uitspraak of een accent, hetgeen mogelijk voortkomt uit interferentie, is voor de meeste sprekers overigens niet problematisch in de verstaanbaarheid en begrijpelijkheid. De genoemde klanken die in hun geheel niet voorkomen in een bepaalde taal, hebben redelijkerwijs meer aandacht nodig in het NT2-onderwijs, mogelijk in de vorm van minimale paren om klankdiscriminatie te oefenen. De beschrijvingen van de verschillen in aanwezigheid van klanken zijn dus de belangrijkste resultaten uit dit onderzoek. 
+Ten tweede is er gebruik gemaakt van fonemische beschrijvingen op niveau van geïsoleerde fonemen en zijn suprasegmentele aspecten uit de klanksystemen buiten beschouwing gelaten, zoals het klemtoonpatroon van woorden en zinnen, en de intonatie. Ook fonologische aspecten, zoals assimilatie en grafeem-foneemcorrespondentie waaronder het verstemlozen van stemhebbende klanken in finale woordpositie in het Nederlands, zouden interferentie kunnen opleveren in de uitspraak van bijvoorbeeld Engelse moedertaalsprekers. In het Nederlands wordt een [d] aan het eind van een woord stemloos uitgesproken als een /t/, waardoor de woorden hard en hart bijvoorbeeld hetzelfde klinken. In het Engels, bijvoorbeeld, bestaat deze regel voor finale verstemlozing niet, waardoor deze sprekers zulke woorden waarschijnlijk met een stemhebbende eindmedeklinker uit zullen spreken. Dit soort analyses vallen niet binnen het bereik van het huidige onderzoek. 
+Een derde beperking van dit onderzoek is dat de beschrijvingen van de fonemen gebaseerd zijn op slechts twee tot vier bronnen, die niet gecontroleerd en/of geverifieerd zijn aan de hand van (beoordelingen van) natuurlijke sprekerdata. De kennis van de onderzoeker over het Duits, Frans, Italiaans en Pools is enigszins beperkt, waardoor er vertrouwd is op de correctheid en volledigheid van de gebruikte literatuurbronnen. 
+     
+
+Bibliografie
+
+Adams, D. (2008). A handbook of diction for singers: Italian, German, French. Oxford: Oxford University Press.
+Baker, C. (2006). Cognitive theories of bilingualism and the curriculum. In C. Baker (Red.), Foundations of Bilingual Education and Bilingualism 4, 166-186. Clevedon: Multilingual Matters. 
+Booij, G. (1995). The Phonology of Dutch. Oxford: Oxford University Press. 
+Centraal Bureau voor de Statistiek. (2018, 6 augustus). Bevolking; geslacht, leeftijd en nationaliteit op 1 januari. Geraadpleegd van https://statline.cbs.nl/Statweb/publication/?DM=SLNL&PA=03743&D1=0&D2=0,107&D3=a&D4=l&HDR=G1,G3,T&STB=G2&VW=T 
+Centraal Bureau voor de Statistiek. (2019, 1 mei). Immi- en emigratie; leeftijd (31 dec.), burgerlijke staat, geboorteland. Geraadpleegd van https://opendata.cbs.nl/statline/#/CBS/nl/dataset/03742/table?ts=1558696006152 
+Collins, B. D. & Mees, I. (2003). The phonetics of English and Dutch. Leiden: Brill.
+Clivio, G. P., & Danesi, M. (2000). The sounds, forms, and uses of Italian: An introduction to Italian linguistics. Toronto: University of Toronto Press.
+Fikkert, P. (2008). Kijk op klank. Oratie 18 april 2008. Radboud Universiteit Nijmegen.
+Flege, J. E. (2002). Interactions between the native and second-language phonetic systems. In An integrated view of language development: papers in honor of Henning Wode. Trier: Wissenschaftlicher Verlag Trier.
+Fougeron, C. & Smith, C. L. (1999). French. In International Phonetic Association (Ed.) Handbook of the International Phonetic Association: A guide to the use of the International Phonetic Alphabet (pp. 78-81). Cambridge: Cambridge University Press.
+Gas, S. (1979). Language transfer and universal grammatical relations. Language learning, 29(2), 327-344.
+Gómez, P. (2009). British and American English pronunciation differences. Cambridge: Mayflower Press
+Gussenhoven, C. (1999). Dutch. In International Phonetic Association (Ed.) Handbook of the International Phonetic Association: A guide to the use of the International Phonetic Alphabet (pp. 74-77). Cambridge: Cambridge University Press.
+Gussenhoven, C. (2007). Wat is de beste transcriptie voor het Nederlands? Nederlandse Taalkunde 12, 331-350
+International Phonetic Alphabet. (2018). IPA Chart With Sounds. Geraadpleegd van http://www.internationalphoneticalphabet.org/ipa-sounds/ipa-chart-with-sounds/
+Jakobson, R. & Lotz, J. (1949). Notes on the French phonemic pattern. Word, 5(2), 151-158.
+Jassem, W. (2003). Polish. Journal of the International Phonetic Association, 33(1), 103-    107.
+Jones, D. & Camilli, A. (1933). Fondamenti di grafia fonetica secondo il sistema dell'Associazione fonetica internazionale. Le Maître Phonétique, 11, 1-20.
+Joyce, P. (2011a, 1 oktober). German diphthong: 'ei', 'ey', 'ai' and 'ay'. German Course (University of Portsmouth). Geraadpleegd van http://joycep.myweb.port.ac.uk/pronounce/vowelei.html 
+Joyce, P. (2011b, 1 oktober). German vowels: long and short 'u'. German Course (University of Portsmouth). Geraadpleegd van http://joycep.myweb.port.ac.uk/pronounce/vowelu.html 
+Joyce, P. (2011c, 1 oktober). The German Consonant 'l'. German Course (University of Portsmouth). Geraadpleegd van http://joycep.myweb.port.ac.uk/pronounce/consonl.html 
+Joyce, P. (2011d, 1 oktober). The German Consonant ‘r’. German Course (University of Portsmouth). Geraadpleegd van http://joycep.myweb.port.ac.uk/pronounce/consonr.html 
+Joyce, P. (2011e, 1 oktober). The German Consonant ‘w’. German Course (University of Portsmouth). Geraadpleegd van http://joycep.myweb.port.ac.uk/pronounce/consonw.html 
+Khansir, A. A. & Pakdel, F. (2019). Contrastive Analysis Hypothesis and Second Language Learning. Journal of ELT Research, 35-43.
+Kohler, K. (1999). German. In International Phonetic Association (Ed.) Handbook of the International Phonetic Association: A guide to the use of the International Phonetic Alphabet (pp. 86-89). Cambridge: Cambridge University Press.
+Kooij, J. & Van Oostendorp, M. (2003). Fonologie: uitnodiging tot de klankleer van het Nederlands. Amsterdam: Amsterdam University Press.
+Koopmans-van Beinum, F. J. & den Os, E. A. (1993). Spraak in ontwikkeling: perceptie, produktie en interactie in het eerste levensjaar. Stem-, Spraak-en Taalpathologie 2(3), 137-161
+Ladefoged, P. (1999). American English. In International Phonetic Association (Ed.) Handbook of the International Phonetic Association: A guide to the use of the International Phonetic Alphabet (pp. 41-44). Cambridge: Cambridge University Press.
+Leufkens, S. C. & Hebing, A. (2018). Webapplicatie: Moedertaal in NT2 (MoedINT2). Geraadpleegd van https://www.moedint2.nl/ 
+Leufkens, S. C. (2019). Tweedetaalverwerving: heeft de eerste taal daar invloed op? Informatiewebsite: Moedertaal in NT2 (MoedINT2). Geraadpleegd van https://nt2.sites.uu.nl/achtergrond-en-verder-lezen/tweedetaalverwerving-heeft-de-eerste-taal-daar-invloed-op/   
+Linke, K. (2018, 15 november). Nucleus. Taalportaal. Geraadpleegd van http://www.taalportaal.org/taalportaal/topic/pid/topic-13998813314542255
+Nederlandse Taalunie. (2019). Feiten en cijfers: Wat iedereen zou moeten weten over het Nederlands. Geraadpleegd van http://taalunieversum.org/inhoud/feiten-en-cijfers 
+Niederländische Philologie. (2016, 6 februari). Structuur en geschiedenis van het Nederlands: Een inleiding tot de taalkunde van het Nederlands. Geraadpleegd van http://neon.niederlandistik.fu-berlin.de/nl/nedling/langvar/antillen
+Pierrehumbert, J. B. (2003). Phonetic diversity, statistical learning, and acquisition of phonology. Language and speech 46(2-3), 115-154.
+Polak, E. J. P. & Veerkamp, J. S. J. (2009). 2 Psychologische ontwikkeling. In Kindertandheelkunde 1 (pp. 15-35). Houten: Bohn Stafleu van Loghum.
+Roach, P. (2004). British English: received Pronunciation. Journal of the International Phonetic Association 34 (2), 239 - 245.
+Rogers, D., & d'Arcangeli, L. (2004). Italian. Journal of the International Phonetic Association, 34(1), 117-121.
+Sadowska, I. (2012). Polish: A comprehensive grammar. Londen / New York: Routledge.
+Sebregts, K. (2014). The sociophonetics and phonology of Dutch r. Proefschrift. Universiteit Utrecht.
+Schermer, T. & Koolhoof, C. (1991). De Nederlandse Gebarentaal. Twello: Van Tricht.
+Simons, G. F. & C. D. Fennig (eds.). (2018). Ethnologue: Languages of the World, Twenty-first edition. Dallas, Texas: SIL International. Geraadpleegd van https://www.ethnologue.com/language/eng 
+Van Heuven, V. J. (2011). De klinkers in het Nederlands van Turkse immigranten. In Nederlands in het perspectief van uitspraakverwerving en contrastieve taalkunde (pp. 9-24). Gent: Academia Press.
+Van Oostendorp, M. (2018, 15 november). Segment inventory. Taalportaal. Geraadpleegd van http://www.taalportaal.org/taalportaal/topic/pid/topic-14020545827588509 
+Wardhaugh, R. (1970). The contrastive analysis hypothesis. TESOL quarterly, 123-130.
+Bijlagen
+Bijlage 1: Alle klinkers en consonanten 
+International Phonetic Alphabet (2018) voor alle vocalen en consonanten.
+Vocalen
+ | 
+     
+ | Voor
+ | Half-
+Voor
+ | Centraal
+ | Half-
+Achter
+ | Achter
+ | 
+Gesloten
+ | i
+ | •1143006350011430063500
+ | y
+ | 
+ | 
+ | 
+ | ɨ
+ | •
+ | ʉ
+ | 
+ | 
+ | 
+ | ɯ
+ | •88901508008890150800
+ | u
+ | 
+Bijna-Gesloten
+ | 
+ | 
+ | 
+ | ɪ
+ | ʏ
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | ʊ
+ | 
+ | 
+ | 
+ | 
+Hoog-Midden
+ | 
+ | 
+ | e
+ | •
+ | ø
+ | 
+ | 
+ | ɘ
+ | •
+ | ɵ-444499-558799-444499-558799
+ | 
+ | 
+ | ɤ
+ | •
+ | o
+ | 
+Midden
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | ə
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Laag-midden
+ | 
+ | 
+ | 
+ | 
+ | ɛ
+ | •
+ | œ
+ | 
+ | ɜ
+ | •
+ | ɞ
+ | 
+ | ʌ
+ | •
+ | ɔ
+ | 
+Bijna-Open
+ | 
+ | 
+ | 
+ | 
+ | 
+ | æ
+ | 
+ | 
+ | 
+ | ɐ
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Open
+ | -61595-1842135
+00
+     
+ |      
+ | 
+ | 
+ | 
+ | 
+ | a
+ | •
+ | 
+ | ä
+ | 
+ | 
+ | ɑ
+ | •
+ | ɒ
+ | 
+     
+Consonanten
+ | 
+     
+ | Bilabiaal
+ | Labio-dentaal
+ | Dentaal
+ | Alveolair
+ | Post-alveolair
+ | Retroflex
+ | Palataal
+ | Velair
+ | Uvulair
+ | Faryngaal
+ | Glottaal
+ | 
+Plosief
+ | p
+ | b
+ | 
+ |      
+ | 
+ | 
+ | t
+ | d
+ | 
+ | 
+ | ʈ
+ | ɖ
+ | c
+ | ɟ
+ | k
+ | ɡ
+ | q
+ | ɢ
+ | 
+ |      
+ | ʔ
+ | 
+ | 
+Nasaal
+ | 
+ | m
+ | 
+ | ɱ
+ | 
+ | 
+ | 
+ | n
+ | 
+ | 
+ | 
+ | ɳ
+ | 
+ | ɲ
+ | 
+ | ŋ
+ | 
+ | ɴ
+ | 
+ | 
+ |      
+ | 
+ | 
+Tril
+ | 
+ | ʙ
+ | 
+ | 
+ | 
+ | 
+ | 
+ | r
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ |      
+ | 
+ | 
+ | ʀ
+ | 
+ | 
+ | 
+ | 
+ | 
+Tap/Flap
+ | 
+ | 
+ |      
+ | 
+ | 
+ | 
+ | 
+ | ɾ
+ |      
+ |      
+ | 
+ | ɽ
+ | 
+ | 
+ | 
+ | 
+ | 
+ |      
+ | 
+ | 
+ | 
+ | 
+ | 
+Fricatief
+ | ɸ
+ | β
+ | f
+ | v
+ | θ
+ | ð
+ | s
+ | z
+ | ʃ
+ | ʒ
+ | ʂ
+ | ʐ
+ | ç
+ | ʝ
+ | x
+ | ɣ
+ | χ
+ | ʁ
+ | ħ
+ | ʕ
+ | h
+ | ɦ
+ | 
+Lateraal fricatief
+ | 
+ |      
+ | 
+ | 
+ | 
+ | 
+ | ɬ
+ | ɮ
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ |      
+ |      
+ | 
+ | 
+ | 
+ | 
+Approximant
+ | 
+ | 
+ | 
+ | υ
+ | 
+ | 
+ | 
+ | ɹ
+ | 
+ | 
+ | 
+ | ɻ
+ | 
+ | j
+ | 
+ | ɰ
+ | 
+ | 
+ | 
+ | 
+ |      
+ | 
+ | 
+Lateraal approximant
+ |      
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | l
+ | 
+ | 
+ | 
+ | ɭ
+ | 
+ | ʎ
+ | 
+ | ʟ
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+
+Overige symbolen
+ | 
+ʍ 
+ |  Stemloze labiaal-velaire fricatief
+ | 
+w 
+ |  Stemhebbende labiaal-velaire approximant
+ | 
+ɥ 
+ |  Stemhebbende labiaal-palatale approximant
+ | 
+ʜ 
+ |  Stemloze epiglottal fricatief
+ | 
+ʢ 
+ |  Stemhebbende epiglottal fricatief
+ | 
+ʡ 
+ |  Epiglottale plosief
+ | 
+ɕ 
+ |  Stemloze alveolo-palatale fricatief
+ | 
+ʑ 
+ |  Stemhebbende alveolo-palatale fricatief
+ | 
+ɺ 
+ |  Alveolair laterale flap
+ | 
+ɧ 
+ |  Tegelijkertijd ʃ en x
+ | 
+
+Affricaten
+ | 
+t͡s 
+ |  Stemloze alveolaire affricaat
+ | 
+t͡ʃ 
+ |  Stemloze post-alveolaire affricaat
+ | 
+t͡ɕ 
+ |  Stemloze alveolo-palatale affricaat
+ | 
+ʈ͡ʂ 
+ |  Stemloze retroflexe affricaat
+ | 
+d͡z 
+ |  Stemhebbende alveolaire affricaat
+ | 
+d͡ʒ 
+ |  Stemhebbende post-alveolaire affricaat
+ | 
+d͡ʑ 
+ |  Stemhebbende alveolo-palatale affricaat
+ | 
+ɖ͡ʐ 
+ |  Stemloze retroflexe affricaat
+ | 
+Bijlage 2: Voorbeeldwoorden Nederlands: Consonanten
+
+Op articulatiepunt gegeven overzicht van fonemen en woorden die dienen als voorbeeld per foneem. De cursieve fonemen en woorden zijn geen officiële klanken uit het Nederlands, maar komen wel voor in deze taal. De fonemen tussen blokhaken zijn allofonen van een bepaalde klank.
+
+ | Plosief
+ | Nasaal
+ | Tril
+ | Tap of Flap
+ | Fricatief
+ | Approximant
+ | Lateraal approximant
+ | 
+Bilabiaal
+ | /p/ pit
+ | /m/ mix
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+
+ | /b/ bit
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Labiodentaal
+ | 
+ | 
+ | 
+ | 
+ | /f/ fiets
+ | /υ/ woest
+ | 
+ | 
+
+ | 
+ | 
+ | 
+ | 
+ | /v/ vis
+ | 
+ | 
+ | 
+Alveolair
+ | /t/ tak
+ | /n/ nat
+ | 
+ | /ɾ/ rat
+ | /s/ sip
+ | [ɹ] door
+ | /l/ lip
+ | 
+
+ | /d/ dak
+ | 
+ | 
+ | 
+ | /z/ zeef
+ | 
+ | 
+ | 
+Post-alveolair
+ | 
+ | 
+ | 
+ | 
+ | /ʃ/ sjaal
+ | 
+ | 
+ | 
+
+ | 
+ | 
+ | 
+ | 
+ | /ʒ/ jury
+ | 
+ | 
+ | 
+Palataal
+ | /c/ ketjap
+ | /ɲ/ oranje
+ | 
+ | 
+ | 
+ | /j/ jas
+ | 
+ | 
+Velair
+ | /k/ kat
+ | /ŋ/ hang
+ | 
+ | 
+ | /x/ lichaam
+ | 
+ | 
+ | 
+
+ | /ɡ/ goal
+ | 
+ | 
+ | 
+ | /ɣ/ gaan
+ | 
+ | 
+ | 
+Uvulair
+ | 
+ | 
+ | [ʀ] raam
+ | 
+ | [χ] acht
+ | 
+ | 
+ | 
+Glottaal
+ | /ʔ/ ʔappel
+ | 
+ | 
+ | 
+ | [h] hoop
+ | 
+ | 
+ | 
+
+ | 
+ | 
+ | 
+ | 
+ | /ɦ/ hoop
+ | 
+ | 
+ | 
+
+
+Bijlage 3: Voorbeeldwoorden Nederlands: Vocalen en (pseudo)diftongen 
+     
+Korte klinkers:Lange klinkers:
+/ɪ/lid/i/vies
+/ʏ/hut/y/fuut
+/ɛ/pet/eː/wees
+/ɑ/hap/øː/neus
+/ɔ/pot/aː/gaap
+Gereduceerde klinker:/oː/boot
+/ə/pillen/u/hoef
+     
+Orale marginale klinkers:Nasale marginale klinkers:
+/iː/     team/ɛ̃ː/enfin
+/yː/    centrifuge/ɑ̃ː/    genre
+/uː/rouge/ɔ̃ː/    chanson
+/ɛː/     crème   
+/œː/   oeuvre    
+/ɔː/     zone     
+/ɑː/cast
+
+Pseudo-diftongen:Diftongen:
+/eːu/leeuw/ɛi/ blijf, reis
+/iu/ nieuw/œy/ buis 
+/yu/ duw/ɑu/blauw, zout
+/ui/stoei
+/aːi/taai 
+/oːi/ kooi
+/ɑi/Thailand
+/ɔi/hoi
+Bijlage 4: Duitse consonanten: Voorbeeldwoorden
+
+Op articulatiepunt gegeven overzicht van fonemen en woorden waar de klank in voorkomt (dikgedrukt). De fonemen tussen blokhaken zijn allofonen van een bepaalde klank.
+
+ | Plosief
+ | Nasaal
+ | Tril
+ | Tap of Flap
+ | Fricatief
+ | Approximant
+ | Lateraal approximant
+ | 
+Bilabiaal
+ | /p/ passe 
+ | /m/ Masse 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+
+ | /b/ Baβ
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Labiodentaal
+ | 
+ | 
+ | 
+ | 
+ | /f/ fasse
+ | 
+ | 
+ | 
+
+ | 
+ | 
+ | 
+ | 
+ | /v/ Wasser
+ | 
+ | 
+ | 
+Alveolair
+ | /t/ Tasse
+ | /n/ nasse
+ | 
+ | 
+ | /s/ reiβe
+ | 
+ | /l/ lasse
+ | 
+
+ | /d/ das
+ | 
+ | 
+ | 
+ | /z/ reise
+ | 
+ | 
+ | 
+Post-alveolair
+ | 
+ | 
+ | 
+ | 
+ | /ʃ/ rasche
+ | 
+ | 
+ | 
+
+ | 
+ | 
+ | 
+ | 
+ | /ʒ/ Garage
+ | 
+ | 
+ | 
+Palataal
+ | 
+ | 
+ | 
+ | 
+ | [ç] dich
+ | /j/ ja
+ | 
+ | 
+Velair
+ | /k/ Kasse
+ | /ŋ/ lange
+ | 
+ | 
+ | /x/ brauch
+ | 
+ | 
+ | 
+
+ | /ɡ/ Gasse
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Uvulair
+ | 
+ | 
+ | /ʀ/ Herren
+ | 
+ | [χ] Dach
+ | 
+ | 
+ | 
+
+ | 
+ | 
+ | 
+ | 
+ | /ʁ/ Rasse
+ | 
+ | 
+ | 
+Glottaal
+ | /ʔ/ ʔApfel
+ | 
+ | 
+ | 
+ | /h/ hasse
+ | 
+ | 
+ | 
+
+
+
+
+Bijlage 5: Duitse vocalen: Voorbeeldwoorden
+
+Korte klinkers:Lange klinkers:Diftongen:
+/ɪ/bitten/i/bieten/aɪ/beiden
+/ʏ/Hütten/y/hüten/ɔɪ/Beuten
+/ɛ/Betten/ɛː/bäten/aʊ/ bauten
+/e/beten
+/a/hatten/aː/baten
+/ɔ/Botten/o/boten
+/ø/Goethe/u/sputen
+/œ/Götter/uː/Stuhl
+/ʊ/ Butter
+/ɐ/Butter
+Gereduceerde klinkers:
+/ə/Beute
+
+
+
+
+
+
+Bijlage 6: Engelse consonanten: Voorbeeldwoorden
+     
+Op articulatiepunt gegeven overzicht van fonemen en woorden waar de klank in voorkomt (dikgedrukt). De fonemen tussen blokhaken zijn allofonen van een bepaalde klank.
+
+ | Plosief
+ | Nasaal
+ | Tril
+ | Tap of Flap
+ | Fricatief
+ | Approximant
+ | Lateraal approximant
+ | 
+Bilabiaal
+ | /p/ pit
+ | /m/ mix
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+
+ | /b/ bit
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Labiodentaal
+ | 
+ | 
+ | 
+ | 
+ | /f/ fire
+ | 
+ | 
+ | 
+
+ | 
+ | 
+ | 
+ | 
+ | /v/ vie
+ | 
+ | 
+ | 
+Dentaal
+ | 
+ | 
+ | 
+ | 
+ | /θ/ thigh
+ | 
+ | 
+ | 
+
+ | 
+ | 
+ | 
+ | 
+ | /ð/ that
+ | 
+ | 
+ | 
+Alveolair
+ | /t/ tie
+ | /n/ nigh
+ | 
+ | [ɾ] red
+ | /s/ sip
+ | /ɹ/ rye
+ | /l/ lip
+ | 
+
+ | /d/ dye
+ | 
+ | 
+ | 
+ | /z/ zoo
+ | 
+ | 
+ | 
+Post-alveolair
+ | 
+ | 
+ | 
+ | 
+ | /ʃ/ shy
+ | 
+ | 
+ | 
+
+ | 
+ | 
+ | 
+ | 
+ | /ʒ/ azure
+ | 
+ | 
+ | 
+Retroflex
+ | 
+ | 
+ | 
+ | 
+ | 
+ | [ɻ] hard
+ | 
+ | 
+Palataal
+ | 
+ | 
+ | 
+ | 
+ | 
+ | /j/ you
+ | 
+ | 
+Velair
+ | /k/ kite
+ | /ŋ/ hang
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+
+ | /ɡ/ goal
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Uvulair
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Glottaal
+ | /ʔ/ ʔapple
+ | 
+ | 
+ | 
+ | /h/ hope
+ | 
+ | 
+ | 
+
+ | 
+ | 
+ | 
+ | 
+ | [ɦ] high
+ | 
+ | 
+ | 
+
+Overige consonanten:
+
+ | Fricatief
+ | Approximant
+ | 
+Post-alveolair      
+ | /tʃ/ chin
+ | 
+ | 
+
+ | /dʒ/ gin
+ | 
+ | 
+Labiaal-velair
+ | 
+ | /w/ why
+ | 
+Bijlage 7: Engelse vocalen: Voorbeeldwoorden
+
+Korte klinkers:Lange klinkers:Diftongen:
+/ɪ/  kit /iː/ mean/eɪ/ face
+/e/ dress/uː/ food/əʊ/ goat(Brits)
+/æ/ trap/ɑː/ palm/aɪ/ price
+/ʌ/ strut/ɔː/fall /ɔɪ/ choice
+/ɒ/ lot/ɜː/nurse /aʊ/ mouth
+/ʊ/ foot/ɪə/near(Brits)
+Gereduceerde klinker:/ʊə/cure(Brits)
+/ə/ bonus/ɛə/square
+Zwakke klinkers:/oʊ/scone(Amerikaans)
+/i/happy
+/u/truth
+
+
+Bijlage 8: Franse consonanten: Voorbeeldwoorden
+     
+Op articulatiepunt gegeven overzicht van fonemen en woorden waar de klank in voorkomt (dikgedrukt). De fonemen tussen blokhaken zijn allofonen van een bepaalde klank.
+
+ | Plosief
+ | Nasaal
+ | Tril
+ | Tap of Flap
+ | Fricatief
+ | Approximant
+ | Lateraal approximant
+ | 
+Bilabiaal
+ | /p/ pou 
+ | /m/ mou
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+
+ | /b/ boue
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Labiodentaal
+ | 
+ | 
+ | 
+ | 
+ | /f/ fou
+ | 
+ | 
+ | 
+
+ | 
+ | 
+ | 
+ | 
+ | /v/ vous
+ | 
+ | 
+ | 
+Alveolair
+ | /t/ tout
+ | /n/ nous
+ | 
+ | 
+ | /s/ sous
+ | 
+ | /l/ loup
+ | 
+
+ | /d/ doux
+ | 
+ | 
+ | 
+ | /z/ zoo
+ | 
+ | 
+ | 
+Post-alveolair
+ | 
+ | 
+ | 
+ | 
+ | /ʃ/ chou
+ | 
+ | 
+ | 
+
+ | 
+ | 
+ | 
+ | 
+ | /ʒ/ joue
+ | 
+ | 
+ | 
+Palataal
+ | 
+ | /ɲ/ agneau
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Velair
+ | /k/ cou
+ | /ŋ/ parking
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+
+ | /ɡ/ goût
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Uvulair
+ | 
+ | 
+ | [ʀ] roue
+ | 
+ | /ʁ/ roue
+ | 
+ | 
+ | 
+
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+
+Overige consonanten:
+
+ | Centrale approximant
+ | 
+Palataal
+ | /j/ sien
+ | 
+Labiaal-Palataal      
+ | /ɥ/ suint
+ | 
+Labiaal-velair
+ | /w/ soin
+ | 
+
+Bijlage 9: Franse vocalen: Voorbeeldwoorden
+
+Korte klinkers:Lange klinkers:Nasale klinkers:
+/e/ses/i/si/ɛ̃ː/saint
+/ɛ/sait /y/su/ɑ̃ː/    sans
+/a/sa/ɔ̃ː/    son
+/ɔ/sort/o/sot
+/ø/ceux/u/sous
+/œ/soeur
+Gereduceerde klinker:
+/ə/ce
+
+Bijlage 10: Italiaanse consonanten: Voorbeeldwoorden
+
+Op articulatiepunt gegeven overzicht van fonemen en woorden waar de klank in voorkomt (dikgedrukt). De fonemen tussen blokhaken zijn allofonen van een bepaalde klank.
+
+ | Plosief
+ | Nasaal
+ | Tril
+ | Tap of Flap
+ | Fricatief
+ | Approximant
+ | Lateraal approximant
+ | 
+Bilabiaal
+ | /p/ pane
+ | /m/ male
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+
+ | /b/ bare
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Labiodentaal
+ | 
+ | 
+ | 
+ | 
+ | /f/ fare
+ | 
+ | 
+ | 
+
+ | 
+ | 
+ | 
+ | 
+ | /v/ avare
+ | 
+ | 
+ | 
+Alveolair
+ | /t/ tale
+ | /n/ nome
+ | /r/ rare
+ | [ɾ] rare
+ | /s/ sali
+ | 
+ | /l/ larghe
+ | 
+
+ | /d/ dare
+ | 
+ | 
+ | 
+ | /z/ osare
+ | 
+ | 
+ | 
+Post-alveolair
+ | 
+ | 
+ | 
+ | 
+ | /ʃ/ sciali
+ | 
+ | 
+ | 
+
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Palataal
+ | 
+ | /ɲ/ gnomo
+ | 
+ | 
+ | 
+ | /j/ ione
+ | /ʎ/ gliene
+ | 
+Velair
+ | /k/ care
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+
+ | /ɡ/ gare
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+
+Overige consonanten:
+
+ | Affricaat
+ | Approximant
+ | 
+Alveolair
+ | /ʦ/ pazza
+ | 
+ | 
+
+ | /ʣ/ gazza
+ | 
+ | 
+Post-alveolair      
+ | /ʧ/ cialda
+ | 
+ | 
+
+ | /ʤ/ giallo
+ | 
+ | 
+Labiaal-velair
+ | 
+ | /w/ uomo
+ | 
+Bijlage 11: Italiaanse vocalen: Voorbeeldwoorden
+
+Orale klinkers:
+/i/ bile
+/e/ bere
+/ɛ/ bene 
+/a/ bara
+/ɔ/ boia
+/o/ borgo
+/u/ buio
+
+
+Bijlage 12: Poolse consonanten: Voorbeeldwoorden
+
+Op articulatiepunt gegeven overzicht van fonemen en woorden waar de klank in voorkomt (dikgedrukt). De fonemen tussen blokhaken zijn allofonen van een bepaalde klank.
+
+ | Plosief
+ | Nasaal
+ | Tril
+ | Fricatief
+ | Approximant
+ | Lateraal approximant
+ | 
+Bilabiaal
+ | /p/ pal 
+ | /m/ tom
+ | 
+ | 
+ | 
+ | 
+ | 
+
+ | /b/ bal
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Labiodentaal
+ | 
+ | 
+ | 
+ | /f/ fur 
+ | 
+ | 
+ | 
+
+ | 
+ | 
+ | 
+ | /v/ wór 
+ | 
+ | 
+ | 
+Alveolair
+ | /t/ tom
+ | /n/ żona
+ | /r/ bór
+ | /s/ kosa
+ | 
+ | /l/ ból
+ | 
+
+ | /d/ dom
+ | 
+ | 
+ | /z/ koza
+ | 
+ | 
+ | 
+Post-alveolair
+ | 
+ | 
+ | 
+ | /ʃ/ szal
+ | 
+ | 
+ | 
+
+ | 
+ | 
+ | 
+ | /ʒ/ żal
+ | 
+ | 
+ | 
+Palataal
+ | /c/ kieł
+ | /ɲ/ maleńka
+ | 
+ | 
+ | /j/ maja
+ | 
+ | 
+
+ | /ɟ/ giełda
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+Velair
+ | /k/ kura
+ | [ŋ] Waszyngtonie
+ | 
+ | /x/ hula
+ | 
+ | 
+ | 
+
+ | /ɡ/ góra
+ | 
+ | 
+ | 
+ | 
+ | 
+ | 
+
+Overige consonanten:
+
+ | Affricaat
+ | Fricatief
+ | Approximant
+ | 
+Alveolair
+ | /ʦ/ kace
+ | 
+ | 
+ | 
+
+ | /ʣ/ rydze
+ | 
+ | 
+ | 
+Post-alveolair      
+ | /ʧ/ kacze
+ | 
+ | 
+ | 
+
+ | /ʤ/ brydże
+ | 
+ | 
+ | 
+Alveolo-palataal
+ | /t͡ɕ/ kacie
+ | /ɕ/ sina
+ | 
+ | 
+
+ | /d͡ʑ/ idzie
+ | /ʑ/ zima
+ | 
+ | 
+Labiaal-velair
+ | 
+ | 
+ | /w/ mała 
+ | 
+Bijlage 13: Poolse vocalen: Voorbeeldwoorden
+     
+Orale klinkers:
+/i/bity
+/ɨ/byty
+/e/bety
+/a/baty
+/o/boty
+/u/buty
+     
+Nasale klinkers:
+/ɔ̃ː/są
+/ɛ̃ː/język

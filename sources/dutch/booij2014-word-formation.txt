@@ -1,0 +1,1208 @@
+To appear in: Peter O. Müller, Ingeborg Ohnheiser, Susan Olsen, and Franz Rainer (eds.). Word
+Formation. An International Handbook of the Languages of Europe. Berlin / New York: De
+Gruyter Mouton.
+
+
+
+Geert Booij
+
+
+134. Dutch
+
+    1. Introduction
+    2. General overview
+    3. Composition
+    4. Derivation
+    5. Conversion
+    6. Borrowed word formation and neo-classical word formation
+    7. Blending, clipping and word-creation
+    8. References
+
+
+    Abstract
+    The two main processes of word formation in Dutch are compounding and derivation. Nominal and
+    adjectival compounding are productive processes, unlike verbal compounding. Phrasal expressions
+    may form constituents of compounds. Derivation is performed by prefixation (in most cases category-
+    neutral), or by suffixation. Affixes have been borrowed on a large scale. Conversion of nouns to verbs
+    is productive. Complex words may also arise through the processes of univerbation and
+    grammaticalization. Various forms of word manufacturing play a role in modern Dutch word
+    formation as well.
+
+
+
+1. Introduction
+
+The study of the morphology of Dutch started with the work on the Woordenboek der
+Nederlandsche Taal, a scientific dictionary of Dutch (1864-1998) modeled after the Deutsches
+Wörterbuch of the Grimm brothers, and now on-line on the website of the Instituut voor
+Nederlandse Lexicologie (www.inl.nl). Morphological research on Dutch was boosted through
+the rise and influence of structuralism in which paradigmatic relations between words were of
+high importance. A paradigm example of this approach to word formation is Schultink’s
+
+
+                                                                                                          1
+dissertation on the morphological valence of the simplex adjective in Dutch (Schultink 1962).
+The paradigmatic approach to the word formation of Dutch can also be found in Van Marle
+(1985). A new impetus to morphological research was provided by generative grammar, in
+particular since the appearance of Mark Aronoff’s dissertation (Aronoff 1976) which inspired
+Booij’s dissertation on Dutch word formation (Booij 1977), in which Dutch word formation is
+analyzed in terms of word formation rules. The issue of whether word formation is a matter of
+rules, or rather to be seen as a form of analogy is discussed in Hüning (1999). Another point of
+debate in the study of Dutch word formation is how to deal with the differences in productivity
+between various word formation processes (Van Santen 1992). The Dutch linguist Harald Baayen
+developed a sophisticated theory of productivity, partially on the basis of Dutch data. A summary
+of his approach and references to his earlier work can be found in Baayen (2009). A survey of the
+history of morphological research on Dutch with many references is given by Schultink (2000).
+        A handbook on Dutch word formation written in Dutch is De Haas and Trommelen
+(1993). A concise handbook in English on the morphology of Dutch (including inflection) is
+(Booij 2002), from which the tables and many examples in this chapter are taken. A
+bibliographical survey of research on the morphology of Dutch up to 1998 is given in Booij
+(1999). A Dutch textbook on morphology is Booij and van Santen (1998).
+        Since in Dutch the morphological structure of words co-determines the way in which
+their constituents are realized phonetically, a description of Dutch word formation is not complete
+without a proper account of the interaction between morphology and phonology. For instance,
+there is a tendency for compounds to receive main stress on the first constituent, and complex
+words ending in a native suffix carry their main stress on the same syllable as the base word, as
+these suffixes are stress-neutral. The reader is referred to Booij (1995) for an overview of the
+relevant facts.
+
+
+2. General overview
+
+The major word formation processes in Dutch are compounding and derivation. Derivation is
+performed by prefixation and suffixation. In addition, Dutch has derived words that reflect the
+Indo-Germanic process of Ablaut. That is, words may have been derived by vowel alternation,
+sometimes in combination with the addition of an affix. However, vowel alternation lost its
+productivity as a means of derivation long ago.
+
+
+(1)     aan-neem ‘to suppose’             aan-nam-e ‘hypothesis’
+
+
+                                                                                                    2
+        bind ‘to bind’                    band ‘bond, tie’
+        sluit ´to close´                  slot ‘slot’, sleut-el ‘key’
+
+
+(For the sake of clarity, verbs as bases of word formation are represented in their stem form in
+numbered examples, although the usual quotation form in running text is the infinitival form, for
+instance aannem-en, bind-en, sluit-en)
+
+
+.
+        Compounding and affixation are not the only means of enrichment of the lexicon. Many
+complex words have been and are being borrowed from other languages, with consequences for
+the Dutch word formation system (section 6). Words may also have arisen through
+grammaticalization (the process in which words or lexical categories have become grammatical
+morphemes) and univerbation (the fusion of a word sequence into one word). An example of the
+emergence of a new grammatical word through grammaticalization is the change of the past
+participle ge-zie-n ‘seen’ into a preposition, as in gezien dit argument ‘because of this argument’.
+Univerbation can be observed in a number of complex conjunctions such as om-dat ‘lit. for-that,
+because’ and door-dat ‘lit. through-that, because’. The outputs of regular word formation
+processes belong to lexical categories, but grammaticalization and univerbation may lead to
+complex words of grammatical categories, such as conjunctions and prepositions. For instance,
+the preposition boven-op ‘on top of’ is a univerbation of the adverb boven ‘above’ and the
+preposition op ‘on’, as in bovenop de auto ‘on top of the car’. There is no word formation process
+for making complex prepositions, as such processes only create words of lexical categories.
+        Conversion, the creation of new words on the basis of existing words without any overt
+morphological marking, is a productive process of Dutch as well (section 5).
+        In addition to regular compounding, Dutch allows for neo-classical compounding, in
+which one or both of the constituents is a root of Greek or Latin origin that does not occur as an
+independent word. For instance, the Greek root bio- ‘life’ is not only used in a borrowed word
+like bio-logie ‘biology’, but is also used in combination with Dutch words, since this root is also
+used as an abbreviation of the word biologisch ‘biological, environment-friendly’, as in bio-afval
+‘biological waste’ and bio-boer ‘organic farmer’ (Meesters 2004). Various roots thus obtained a
+second life through their use in neo-classical compounds.
+        Another class of complex expressions that should be mentioned in this overview are
+particle verbs, also called separable complex verbs. An example is the particle verb vóor-komen
+‘lit. fore-come, to occur.’ The difference between prefixed verbs and particle verbs is that particle
+
+
+
+                                                                                                      3
+verbs can be split. For instance, in main clauses of Dutch the finite verb form appears in second
+position, whereas the particle is stranded at the end of the clause. This difference between
+prefixed verbs and particle verbs is illustrated in (2) where the particle verb vóor-komen contrasts
+with the prefixed verb voor-kómen ‘to prevent’ (the accents indicate the location of main stress):
+
+
+(2)     a.       Dit verschijnsel komt nauwelijks voor
+                 This phenomenon comes hardly for
+                 ‘This phenomenon hardly occurs’
+        b.       Jan voor-kwam een ernstig ongeluk
+                 John for-came a serious accident
+                 ‘John prevented a serious accident’
+
+
+Therefore, particle verbs cannot be considered morphological constructs. Instead, they have to be
+seen as phrasal constructs (Blom 2005; Booij 2010; Los, Blom, Booij, Elenbaas and van
+Kemenade 2012). These phrasal verbs compete with prefixed verbs in the formation of various
+semantic subcategories of verbal predicates.
+        The issue of the proper demarcation of morphology and syntax also pops up in dealing
+with compounds. In Dutch, phrases such as harde schijf ‘hard disk’ are an alternative for
+compounds. Because such phrases are often lexicalized, one may be inclined to consider such
+phrases as words. However, this is incorrect as it confuses the notions ‘word’ and ‘lexical item’:
+all words are lexical items, but not all lexical items are words. Therefore, the construction of such
+phrasal expressions does not belong to morphology proper. The properties of these phrasal
+expressions are discussed in Booij (2010: Chapter 7).
+
+
+3. Compounding
+
+Compounding is a very productive process in Dutch. Compounds consist of a head word (simplex
+or complex) and another word or phrase. Dutch compounds are, with a few exceptions,
+endocentric and right-headed. The head word belongs to one of the categories N, V, A, whereas
+the constituent in initial position may also be an adverb, a quantifier, or a phrase. In addition,
+there are copulative compounds.
+
+
+3.1. Nominal compounds
+
+
+
+                                                                                                     4
+Let us first consider nominal compounds, which form the most productive category. Examples
+are given in (3):
+
+
+(3)     NN          [[bureau]N[lade]N]N ‘desk drawer’
+        AN          [[groot]A[vader]N]N ‘grandfather’
+        VN          [[kook]V[pot]N]N ‘cooking pot’
+        AdvN [[lang]Adv[slaper]N]N ‘lit. long sleeper, late riser’
+        QA          [[drie]Q[hoek]N]N ‘triangle’
+        NP N        [[oude mannen]NP [huis]N]N ‘old men’s house’
+
+
+The productivity of nominal compounding, in particular of NN compounds, is increased by the
+fact that both constituents can be compounds themselves, that is, NN compounds exhibit
+recursivity. However, if the first constituent is an A, it is normally simplex (with some exceptions
+such as speciaal-zaak ‘specialist shop’, in which the adjective spec-iaal ‘special’ is (at least
+formally) complex. There is no structural constraint on the degree of recursivity allowed in NN
+compounds, but it is obvious that a compound with too much recursivity will cause processing
+problems:
+
+
+(4)     [[[[woon]V[ruimte]N]N[verdelings]N]N[[advies]N[commissie]N]N]N ‘housing
+        accommodation distribution advice committee’
+        [[[[milieu]N[effect]N]N[rapportage]N]N[[bijeen]Adv[komst]N]N]N ‘environment effect
+        reporting meeting’
+
+
+        The head status of the right constituent of a nominal compound is clear from its semantic
+interpretation (an XY is a kind of Y with some relation to X, not vice versa), from the fact that the
+right constituent determines the syntactic category, as well as its gender, and in some cases the
+choice of the plural suffix. Since the gender of compounds is that of the right constituent, we find
+pairs such as the following:
+
+
+(5)     a.          de soep ‘the soup’                     het vlees ‘the meat’
+                    de vlees-soep ‘the meat soup’          het soep-vlees ‘the soup meat’
+        b.          het geld ‘the money’                   de zak ‘the pocket / bag’
+                    het zak-geld ‘the pocket money’        de geld-zak ‘the money bag’
+
+
+                                                                                                    5
+        c.       de bal ‘the ball’                         het bal ‘the ball, dancing’
+                 de voet-bal ‘the football’                het avond-bal ‘the night ball’
+
+
+That the choice of the plural suffix is determined by the rightmost noun, is shown nicely by cases
+where the choice of a plural suffix is lexically determined. For instance, there are two
+homophonous words portier, each with its own gender, meaning, and plural suffix; the plural
+suffix choice is transferred to compounds with these words as rightmost constituents:
+
+
+(6)     a.       portier ‘doorkeeper’ (non-neuter)                  portier-s ‘pl’
+                 nacht-portier ‘night doorkeeper’ (non-neuter)      nachtpor-tier-s ‘pl’
+        b.       portier ‘car door’ (neuter)                        portier-en ‘pl’
+                 auto-portier ‘car door’ (neuter)                   auto-portier-en ‘pl’
+
+
+        Certain types of phrases can occur in the initial position of compounds, in particular (but
+not only) NPs that have a classifying function, and hence receive a generic interpretation:
+
+
+(7)     [[A N]NPN]N      [[blote-vrouwen]NP [blad]N]N ‘nude women magazine’
+                         [[hete-lucht]NP [ballon]N]N ‘hot air balloon’
+        [[Q N]NP]N       [[drie-landen]NP [punt]N]N ‘three countries point, where three countries
+                         meet’
+                         [[vier-kleuren]NP [druk]N]N ‘lit. four colours printing’
+        [S N]N           [[God is dood]S [theologie]N]N ‘God is dead theology’
+        [[N en N]NPN]N [[[peper]N en [zout]N]NP [stel]N]N ‘pepper and salt set’
+
+
+The phrase in initial position often denotes a form of (fictive) interaction (Pascual and Janssen
+2004), as in:
+
+
+(8)     [[wie heeft het gedaan]S [vraag]N]N ‘whodunit question’
+
+
+where the first constituent has the shape of a WH-question.
+        The first constituent of a compound can be a plural noun, as may be expected since
+phrases occur in non-head position, and bare plural nouns can function as phrases. Examples are
+given in (9):
+
+
+
+
+                                                                                                    6
+(9)     lerar-en-kamer ‘teachers’ room’
+        glaz-en-wasser ‘windows cleaner’
+        sted-en-raad ‘cities’ council’
+
+
+These examples show that syntax may feed word formation to a certain extent, as certain types of
+syntactic constituents may form building blocks of Dutch compounds.
+
+
+3.2. Adjectival compounds
+
+
+Adjectival compounds form a productive category of Dutch compounds. The left constituent can
+be N, A , Adv or V:
+
+
+(10)    NA      [[auto]N[vrij]A]A ‘car-free’
+                [[peper]N[duur]A]A ‘lit. pepper-expensive, very expensive’
+        AA      [[jong]A[getrouwd]A]A ‘lit. young-married, married young’
+                [[licht]A[grijs]A]A ‘light-grey’
+        AdvA [[niet]Adv[productief]A]A ‘non-productive’
+                [[wel]Adv[bekend]A]A ‘well known’
+        VA      [[kots]V[misselijk]A]A ‘lit. vomit-sick, very sick’
+                [[spil]V[ziek]A]A ‘lit. waste-sick, wasteful’
+
+
+The adjectival head can be either simplex or complex (including present and perfect participles).
+Examples of words with complex heads are the following:
+
+
+(11)    [[adem]N[benem-end]A]A ‘breath-tak-ing’
+        [[computer]N[ge-stuur-d]A]A ‘computer-controll-ed’
+        [[milieu]N[vriend-elijk]A]A ‘environment-friend-ly’
+        [[vrouw]N[vijand-ig]A]A ‘lit. woman-enemy-SUFFIX, misogynic’
+
+
+The non-head position can also be occupied by quantifiers and adverbs:
+
+
+(12)    quantifiers: drie-dimensioneel ‘three-dimensional’, drie-dubbel ‘lit. three-double, triple’;
+        adverbs: door-nat ‘very wet’, in-triest ‘very sad’, over-gelukkig ‘very happy’, boven-
+        natuurlijk ‘supra-natural’
+
+
+
+                                                                                                    7
+        A special class of adjectival compounds is formed by synthetic compounds such as
+blauw-og-ig ‘blue-eye-d’. They are called synthetic because compounding and derivation (with
+the suffix -ig) seem to apply simultaneously here. There is no existing adjective og-ig ‘eyed’, nor
+a compound blauw-oog ‘blue-eye’ from which blauwogig could have been derived by means of
+suffixation. Hence, one may assume one of the following three structures for such synthetic
+compounds:
+
+
+(13)    [[blauw]A [oog]N ig]A
+        [[[blauw]A [oog]N]N ig]A
+        [[blauw]A [[oog]N ig]A]A
+
+
+A discussion of the choice between one of these three options can be found in the literature of
+Dutch synthetic compounds (Booij 2002; Hoeksema 1984; Van Santen 1992).
+
+
+3.3. Verbal compounds
+
+The category of verbal compounds is not productive in Dutch. What we do find are verbal
+conversions of nominal compounds, such as [[[voet]N[bal]N]V ‘lit. foot-ball, play soccer’. A
+second source of verbal compounds is back formation. For instance, the compound verb stof-zuig
+‘lit. dust-suck, to vacuum-clean’ has been back-formed from the NN compound
+[[stof]N[[zuig]Ver]N]N, in which the head zuiger is a deverbal noun. This compound has been
+reinterpreted as an -er-derivation of the NV compound stof-zuig.
+        A second, closed class of verbal compounds is formed by verbs such as the following
+(Weggelaar 1986):
+
+
+(14)    [[klapper]V [tand]N]V ‘rattle-tooth, to have chattering teeth’
+        [[stamp]V [voet]N]V ‘stamp-foot, to stamp one’s feet’
+
+
+These compounds are left-headed as far as semantic interpretation and word class is concerned.
+However, the inflection appears at the right periphery of these verbs. For instance, the past tense
+sg. forms of the verbs in (14) are klappertand-de and stampvoet-te.
+        A third class of verbal compounds are the so-called immobile verbs such as zee-zeilen ‘to
+sea-sail, sail on sea’. These compound verbs are called immobile because the two parts cannot be
+
+
+                                                                                                      8
+split in main clauses where the finite part of a verbal predicate appears in second position, after
+the first constituent. Immobile verbs are not defective verbs, i.e. verbs without finite forms,
+because the finite forms do appear in embedded clauses:
+
+
+(15)    a.       Mijn vader {*zee-zeilt vaak / *zeilt vaak zee}
+                 My father {*sea-sails often / *sails sea often}
+        b.       … dat mijn vader vaak zee-zeilt
+                 … that my father often sea-sails
+
+
+These compounds can be considered syntactic compounds, with the following structure:
+
+
+(16)    [[zee]N0 [zeil]V0]V0
+
+
+Since they are syntactic compounds, they cannot be split in main clauses, as this is forbidden by
+the principle of Lexical Integrity that stipulates that syntactic rules cannot move parts of words
+(i.e. structures dominated by X0 nodes) (Booij 2010: Chapter 4). On the other hand, they do not
+appear in second position in main clauses, as they are not one word morphologically (cf. 15a).
+        A final class of expressions that look like verbal compounds is the class of separable
+complex verbs mentioned in section 2. The first part of these complex verbs is a particle, an
+adjective, or a noun. The adjectives and nouns involved are non-projecting words, that is, words
+that do not project a phrase. For instance, the adjective wit in witwassen cannot be modified by an
+adverb, witness the ungrammaticality of the verb phrase het geld helemaal wit wassen ‘to
+completely white-wash the money’. Hence, they cannot be modified. Examples are:
+
+
+(17)    [[door]P [fietsen]V]V’    ‘to continue cycling’
+        [[wit]A [was]V]V’         ‘lit. white-wash, money-laundering’
+        [[deel]N [neem]V]V’       ‘lit. part take, participate’
+
+
+As these word sequences can be split in main clauses, they must be considered phrasal in nature,
+and hence, their dominating node is V’. In addition, the first part can be optionally incorporated,
+thus giving rise to syntactic compounds of the type illustrated in (16). In their incorporated form,
+they can appear after raising verbs such as willen ‘to want’, and thus we get the following type of
+word order variation (Booij 2010: Ch. 5):
+
+
+
+
+                                                                                                      9
+(18)    … dat ik {wil door-fietsen / door wil fietsen} ‘that I want to continue cycling’
+
+
+The availability of these types of verbal construction compensates for the absence of a productive
+process of verbal compound formation.
+        The NV sequence stof-zuigen ‘to vacuum clean’ mentioned above has been reinterpreted
+either as a verbal compound, or as a separable complex verb. In the first interpretation, this
+compound verb is inflected regularly, whereas in the second interpretation, with a separate verb
+zuigen ‘to suck’, the irregular Ablaut inflection is preserved. Hence we can get both Jan
+stofzuigde and Jan zoog stof as the Dutch equivalent of John vacuum-cleaned.
+
+
+3.4. Numerals and copulative compounds
+
+Certain subsets of numerals in Dutch are formed by means of compounding, coordination, or a
+combination thereof:
+
+
+(19)    compounding                       vijf-tien ‘five-ten, 15’ (addition)
+                                          drie-honderd ‘three-hundred, 300’ (multiplication)
+        coordination                      drie-en-negentig ‘three-and-ninety, 93’ (addition)
+                                          honderd-en-drie ‘hundred-and-three, 103’ (addition)
+        asyndetic coordination            honderd-drie ‘hundred-three, 103’ (addition)
+        cooordination + compounding drie-honderd-(en)-drie ‘three-hundred-
+                                          (and) three, 303’ (multiplication and addition)
+
+
+Numerals ending in tien ‘ten’ receive an additive interpretation. In the compound numerals > 100,
+the right constituent is the head noun (honderd ‘100’, duizend ‘1000’ etc.), and the modifier is the
+multiplier. The use of syntactic coordination for numerals below 100 is subject to the constraint
+that the lower digit has to precede the higher digit (as in drie-en-negentig ‘93’), whereas the
+reverse order applies for numerals higher than 100; for instance, drie-en-honderd is not a possible
+form for the numeral 103. Moreover, it is only in numerals > 100 that the conjunction en can be
+omitted. The phonetic realization of en varies: in numbers < 100 it is realized as [ən], but as [εn]
+in numerals > 100 (Booij 2010: Chapter 8).
+        Asyndetic coordination is also used in the construction of copulative compounds (also
+called co-compounds), and in the non-head constituent of a right-headed nominal compound:
+
+
+
+
+                                                                                                   10
+(20)    a. copulative compounds
+        [[prins]N[gemaal]N]N ‘prince-spouse’
+        [[rood]A [wit]A [blauw]A]A ‘red-white-blue (colour of the Dutch flag)’
+        [[hoeste]V [proesten]V]V ‘cough-sneeze, cough and sneeze’
+        b. coordinated constituents in initial position
+        [[maag]N [darm]N]NP [kanaal]N]N ‘stomach-intestine-canal, gastro-intenstinal tract’
+        [[[zit]V [slaap]V]VP [kamer]N]N ‘sit-sleep room, bedsitting room’
+        [[los]A[vast]A]AP [relatie]N]N ‘loose-fast relation, unstable relationship’
+
+
+In the compounds in (20a) there is no semantic head. For instance, the first example denotes a
+person who is both a prince and a spouse. The inflection is always on the right periphery as
+illustrated by the phrase de rood-wit-blauw-e vlag ‘the red-white-blue-flag’, in which the
+inflectional ending -e is only present in the last constituent blauwe.
+
+
+3.5. Affixoids
+
+Compounds may form word families with a common first or last constituent. For instance, there
+is a large number of adjectival compounds ending in vrij ‘free’, such as belasting-vrij ‘tax-free’,
+lood-vrij ‘lead-free’, and zuur-vrij ‘acid-free’. The adjective vrij as head of a compound has
+acquired a specific recurrent and productive meaning ‘without’. Another example of this kind of
+productive lexicalization is the class of adjectival compounds headed by arm ‘poor’ with the
+meaning ‘having a low quantity of’, as in vet-arm ‘lit. fat-poor, reduced in fat’. The occurrence of
+such productive lexicalized meanings of words embedded in complex words is referred to with
+the term ‘affixoid’ or ‘semi-suffix’. This phenomenon is the historical source of derivational
+suffixes, which often originate from words used as the right constituent of a compound. In the
+same way, prefixes may originate from left constituents of compounds (Booij 2010: Chapter 3).
+An example of a prefixoid is the noun hoofd ‘head’ used with the meaning ‘main’ as in hoofd-
+bezwaar ‘main objection’. A parallel development can be observed for German, where the
+equivalent of Dutch hoofd, the word Haupt, is usually qualified as a prefix, as in Haupt-sache
+‘main issue’. The German word Haupt is an archaic word for ‘head’, and has been replaced with
+the noun Kopf, and this is why Haupt is analysed as a prefix.
+
+
+3.6. Linking elements
+
+
+
+                                                                                                  11
+The two constituents of a compound may be linked by the sounds [s] or [ə]. These sounds are
+remnants of old case suffixes or word endings. They mainly occur in NN and NA compounds.
+However, they also occur after the verb in some VN compounds which confirms that
+synchronically they do not have the status of case suffixes anymore:
+
+
+(21)    NN      dorp-s-gek                village-LINK-idiot       ‘village idiot’
+        NN      per-e-boom                pear-LINK-tree           ‘pear tree’
+        VN      scheid-s-rechter          separate-LINK-judge      ‘referee’
+        VN      hebb-e-dingetje           have-LINK-thing          ‘gadget’
+        AN      witt-e-brood              white-LINK-bread         ‘white bread’
+        NA      ap-e-trots                monkey-LINK-proud        ‘very proud’
+
+
+As pointed out in section 3.1., plural nouns can appear in the initial position of compounds as
+well. The plural suffix -en /ən/ is realized phonetically as [ə] by many speakers, and therefore
+language users may interpret this sound as a linking element as well. In order to avoid uncertainty
+as to how to spell compounds, the spelling rules of Dutch require to spell the sound [ə] between
+the two parts of a compound as -en, unless the noun has both a plural form in -(e)n and one in -s
+(e.g. kade ‘quay’ with the two plural forms kade-s and kade-n, hence kade-muur ‘quay-wall’, not
+kaden-muur) or the noun is singular for semantic reasons (as in man-e-schijn ‘moon-shine’ since
+this Dutch spelling rule presupposes that there is only one relevant moon).
+        One may wonder to what extent the occurrence of a linking element can be predicted.
+There appears to be no simple rule. What is certain is that the linking element [ə] can only appear
+after a noun if that noun selects -en as its plural suffix. Furthermore, analogy appears to play an
+important role: when coining a new compound, with a high degree of probability the same linking
+element is chosen as that of existing compounds with the same initial noun (Krott 2001; 2009).
+
+
+4. Derivation
+
+Derivation of complex words in Dutch is possible by means of prefixation or suffixation. In
+addition, we find remnants of the old Indo-European Ablaut system in some lexicalized deverbal
+nouns. Infixation does not occur. Reduplication is marginal, and only plays a role in playful
+language such as children’s songs.
+
+
+
+
+                                                                                                   12
+        A well-known generalization is that suffixation tends to determine the category of the
+output word, whereas prefixation is category-neutral. This generalization might be captured by
+assuming a Right-hand Head Rule for both affixation and compounding in Dutch (Trommelen
+and Zonneveld 1986). This tendency reflects the historical development of head constituents of
+right-headed compounds into derivational suffixes. A number of verbalizing prefixes such as be-,
+ont- and ver- , however, are category-determining, as they may turn adjectives and nouns into
+verbs, and may also change the syntactic valency or argument selection of base verbs:
+
+
+(22)            input word               derived word
+        a.      bos ‘wood’               be-bos ‘to afforest’
+                zat ‘drunk’              be-zat ‘to drink excessively’
+                kijk ‘to look’           be-kijk ‘to watch, to look at’
+        b.      kurk ‘cork’              ont-kurk ‘to uncork’
+                eigen ‘own’              ont-eigen ‘to expropriate’
+                bind ‘to bind’           ont-bind ‘to dissolve’
+        c.      geel ‘yellow’            ver-geel ‘cause to become yellow’
+                pand ‘pawn’              ver-pand ‘to pawn’
+                drink ‘to drink’         ver-drink ‘to drown’
+
+
+The tendency for prefixation to be category-neutral can also be seen in the following summary of
+the category-changing potential of affixation in Dutch:
+
+
+(23)    a.      A → N suffixation:       schoon ‘beautiful’       schoon-heid ‘beauty’
+                        prefixation      --
+                V → N suffixation        spreek ‘to speak’        sprek-er ‘speaker’
+                        prefixation      praat ‘to talk’          ge-praat ‘talking’
+                N → N suffixation        moeder ‘mother’          moeder-schap ‘motherhood’
+                        prefixation      zin ‘sense’              on-zin ‘nonsense’
+        b.      N → A suffixation        meester ‘master’         meester-lijk ‘masterly’
+                        prefixation      --
+                V → A suffixation        lees ‘to read’           lees-baar ‘readable’
+                        prefixation      ---
+                A → A suffixation        blauw ‘blue’             blauw-ig ‘bluish’
+                        prefixation      gewoon ‘common’          on-gewoon ‘uncommon’
+
+
+                                                                                                 13
+         c.      N → V suffixation        analyse ‘analysis’        analys-eer ‘to analyze’
+                            prefixation   huis ‘houser’             ver-huis ‘to move house’
+                 A → V suffixation        kalm ‘calm’               kalm-eer ‘to calm down'’
+                            prefixation   bleek ‘pale’              ver-bleek ‘to turn pale’
+                 V → V suffixation        krab ‘to scratch’         krabb-el ‘to scratch’
+                            prefixation   rijd ‘to ride’            be-rijd ‘to ride on’
+
+
+As this summary shows, there are a few gaps in the possibilities of category change with prefixes,
+which reflects the fact that prefixes tend to be category-neutral. The following table lists the
+category-neutral native prefixes:
+
+
+Prefix           meaning                  base category             example
+aarts-           intense                  A                         aarts-lui ‘very lazy’
+                                          N                         aarts-schurk ‘enormous crook’
+                 hierarchy                N                         aarts-bisschop ‘arch-bishop’
+her-             re-                      V                         her-schrijf ‘to rewrite’
+niet-            non-                     N                         niet-roker ‘non-smoker’
+                                          A                         niet-Christelijk ‘non-Christian’
+oer-             intense                  A                         oer-gezond ‘very healthy’
+                 original                 N                         oer-mens ‘primitive man’
+on-              negative                 A                         on-gezond ‘unhealthy’
+                                          N                         on-zin ‘nonsense’
+opper-           ‘upper’                  N                         opper-hoofd ‘chief’
+oud-             ‘ex-’                    N                         oud-student ‘former student’
+Table 134.1: Category-neutral native prefixes
+
+
+4.1. Nominal derivation
+
+The only nominal prefix is the deverbal suffix ge-. In addition, there is a circumfix ge-te that
+creates collective nouns:
+
+
+(24)     a.      zeur ‘to nag’            ge-zeur ‘nagging’
+                 kots ‘to puke’           ge-kots ‘continuous / repeated puking’
+         b.      berg ‘mountain’          ge-berg-te ‘mountain chain’
+
+
+                                                                                                   14
+                 steen ‘stone, rock’          ge-steen-te ‘rocks’
+
+
+As mentioned above, there are no adjective-creating prefixes in Dutch.
+         Dutch suffixes are category-determining. This is also the case for the very productive
+diminutive suffix -tje (and its allomorphs -je, -kje, -pje, and -etje). Although it is mainly affixed to
+nouns, it can also be attached to words of other lexical classes, as illustrated in Table 2. The
+output word is always a neuter noun that selects the plural suffix -s:
+
+
+category         base                                 diminutive
+N                vrouw ‘woman’                        vrouw-tje ‘small woman, sweetheart’
+A                lief ‘sweet’                         lief-je ‘sweetheart’
+V                dut ‘to nap’                         dut-je ‘nap’
+Num              tien ‘ten’                           tien-tje ‘10 guilder note’
+Adv              uit ‘out'’                           uit-je ‘outing’
+NP               twaalf uur ‘12 o'clock’              twaalfuur-tje ‘wrapped lunch’
+PP               onder ons ‘between us’               onderons-je ‘private chat’
+Pronoun          dit en dat ‘this and that’           ditjes en datjes ‘odds and ends’
+Table 134.2: Diminutives
+
+
+Deverbal nominalizing suffixes are used for the creation of person-denoting nouns, agent,
+instrument and object nouns, and for action nouns. A survey of types of person-denoting nouns
+with native suffixes is given in Table 3.
+
+
+suffix           base category base                                     example
+-aar             V                wandel ‘to walk’                      wandel-aar ‘walker’
+                 N                zonde ‘sin’                           zond-aar ‘sinner’
+                 A                eigen ‘own’                           eigen-aar ‘owner’
+-aard            A                wreed ‘cruel’                         wreed-aard ‘cruel person’
+                 N                Spanje ‘Spain’                        Spanj-aard ‘Spaniard’
+-der             V                bestuur ‘to govern’                   bestuur-der ‘governor’
+                 N                Langweer ‘id.’                        Langweer-der ‘inhabitant of L.’
+-enaar           N                schuld ‘debt’                         schuld-enaar ‘debtor’
+                                  Utrecht ‘id. ‘                        Utrecht-enaar ‘inhabitant of U.’
+-er              V                werk ‘to work’                        werk-er ‘worker’
+
+
+
+                                                                                                      15
+                    N              schip ‘ship’                      schipp-er ‘skipper’
+                    Num            tien ‘ten’                        tien-er ‘teenager’
+                    S              doe het zelf ‘do it yourself’     doe-het-zelv-er ‘do-it-
+                                                                     yourself-er’
+-erd                A              vies ‘dirty’                      viez-erd ‘dirty person’
+-erik               A              vies ‘dirty’                      viez-erik ‘dirty person’
+-ier                N              winkel ‘shop’                     winkel-ier ‘shopkeeper’
+-(e)ling            V              zuig ‘to suck’                    zuig-eling ‘infant’
+                    N              stad ‘city’                       sted-eling ‘city dweller’
+                    A              stom ‘stupid’                     stomm-eling ‘idiot’
+                    Num            twee ‘two’                        twee-ling ‘twins’
+Table 134.3: Native suffixes for person-denoting nouns
+
+
+
+           Agent and instrument nouns are derived by means of the suffix -er and its allomorphs, the
+suffixes -der and -aar. Such deverbal nouns in -er express a variety of meanings. These suffixes
+attach to both nouns and verbs:
+
+
+(25)       a. with base verbs
+           fiets ‘to cycle’                fiets-er ‘cyclist’
+           begin ‘to begin’                beginn-er ‘beginner, freshman’
+           breek ‘to break’                brek-er ‘breaker, wave that breaks’
+           bijsluit ‘enclose’              bijsluit-er ‘enclosure’
+           gil ‘to scream’                 gill-er ‘event of screaming’
+           b. with base nouns
+           Amsterdam ‘Amsterdam’           Amsterdamm-er ‘inhabitant of Amsterdam’
+           wetenschap ‘science’            wetenschapp-er ‘scientist’
+
+
+The suffix -sel is used to create subject, object, and instrument names:
+
+
+(26)       aanslib ‘to deposit’            aanslib-sel ‘deposit’
+           aanhang ‘to append’             aanhang-sel ‘appendix’
+           schep ‘to create’               scheps-el ‘creature’
+           stijf ‘to starch’               stijf-sel ‘starch’
+
+
+
+
+                                                                                                 16
+Nomina actionis are formed by a variety of suffixes, some of which are unproductive (-nis and its
+allomorphs -enis and -tenis,, -st, and -t). Note that when -atie is used, it replaces the suffix -eer.
+
+
+suffix           base word                              derived word
+-atie            organis-eer ‘to organize’              organis-atie ‘organization’
+-erij            vlieg ‘to fly’                         vlieg-erij ‘flying business’
+                 heks ‘witch’                           heks-erij ‘witchcraft’
+-ing             meet ‘to measure’                      met-ing ‘measurement’
+                 bewapen ‘to arm’                       bewapen-ing ‘armament’
+-nis             stoor ‘to disturb’                     stoor-nis’disturbance’
+-enis            verrijs ‘to rise’                      verrijz-enis ‘resurrection’
+-tenis           gebeur ‘to happen’                     gebeur-tenis ‘happening’
+-st              kom ‘to come’                          kom-st ‘coming’
+-t               teel ‘to grow’                         teel-t ‘growing’
+Table 134.4: Action nouns
+
+
+         Dutch has quite a number of suffixes for the creation of nouns denoting female persons:
+
+
+suffix   condition                   male noun                             female noun
+-e       ----                        fotograaf ‘photographer’              fotograf-e
+-es      ---                         voogd ‘guardian’                      voogd-es
+         base in -aar                zond-aar ‘sinner’                     zondar-es
+         base in -er                 zang-er ‘singer’                      zanger-es
+-esse    base in -aris               secret-aris ‘secretary’               secretar-esse
+-euse    base in -eur                mass-eur ‘massagist’                  mass-euse
+-ica     base in -icus               historic-us ‘historian’               historic-a
+-ière    base in -ier                cabaret-ier ‘comedian’                caberet-ière
+-in      ----                        leeuw ‘lion’                          leew-in
+-ix      base in -or                 rect-or ‘rector’                      rect-rix
+-rice    base in -eur                ambassad-eur ‘ambassador’             ambassad-rice
+-ster    base in -aar                wandel-aar ‘walker’                   wandelaar-ster
+         base in -ier                winkel-ier ‘shopkeeper’               winkelier-ster
+         base in -er                 VVD-er ‘member of VVD’                VVD-ster
+Table 134.5: Female personal nouns
+
+
+
+                                                                                                     17
+The choice between these competing suffixes is governed by the morphological shape of the base
+noun. The suffix -e is considered to be the default choice in Van Marle (1985). Unlike what is the
+case for German, where -in is a very productive suffix for female personal nouns, in Dutch novel
+female noun are seldom coined.
+          Dutch features a number of suffixes used for the creation of abstract nouns from nouns
+and adjectives: -dom, -heid, -te, -schap:
+
+
+(27)      christenA ‘christian’                 christen-dom ‘christianity’
+          schoonA ‘beautiful’                   schoon-heid ‘beauty’
+          leegA ‘empty’                         leeg-te ‘emptiness’
+          dronkenA ‘drunk’                      dronken-schap ‘drunkenness’
+          vriendN ‘friend’                      vriend-schap ‘friendship’
+
+
+The deadjectival suffix -te is attached to simplex adjectives only, whereas deadjectival -heid can
+be attached to complex adjectives as well. The suffix -dom is used to form nouns that denote a
+group of people, and can be affixed to plural nouns, as in leerling-en-dom ‘body of pupils’.
+
+
+4.2. Adjectival derivation
+
+Prefixed adjectives can be derived by means of one of the category-neutral prefixes listed in
+Table 1. The derivation of adjectives by means of suffixation is far more elaborated. Qualitative,
+property denoting adjectives are created by means of the suffixes listed in Table 6.
+
+
+suffix            stem                                  derived adjective
+-achtig           N          rots ‘rock’                rots-achtig ‘rocky’
+                  V          weiger ‘to refuse’         weiger-achtig ‘refusing persistently’
+                  A          groen ‘green’              groen-achtig ‘greenish’
+-baar             V          draag ‘to carry’           draag-baar ‘portable’
+                  N          vrucht ‘fruit’             vrucht-baar ‘fruitful’
+-elijk            N          god ‘god’                  godd-elijk ‘divine’
+                  V          erf ‘to inherit’           erf-elijk ‘hereditary’
+                  A          bang ‘afraid’              bang-elijk ‘timid’
+-erig             N          hout ‘wood’                hout-erig ‘stiff’
+
+
+                                                                                                   18
+                 V        bijt ‘to bite’           bijt-erig ‘biting’
+                 A        groen ‘green’            groen-erig ‘sort of greenish’
+-ig              N        bloed ‘blood’            bloed-ig ‘bloody’
+                 V        nalaat ‘to neglect’      nalat-ig ‘negligent’
+                 A        groen ‘green’            groen-ig ‘greenish’
+-loos            N        naam ‘name’              naam-loos ‘nameless’
+-zaam            N        deugd ‘virtue’           deugd-zaam ‘virtuous’
+                 V        werk ‘to work’           werk-zaam ‘active’
+                 A        lang ‘long’              lang-zaam ‘slow’
+Table 134.6: Native adjectival suffixes for qualitative adjectives
+
+
+         A second class of complex adjectives is formed by the set of relational adjectives. For
+instance, the adjective atomair in atomaire fysica ‘nuclear physics’ does not denote an inherent
+quality of fysica ‘physics’ but denotes its relation to the world of atoms. In this relational use,
+adjectives cannot be modified, and in most cases they can only be used attributively. The
+following table lists the suffixes, both native and non-natives ones, that are being used for the
+formation of relational adjectives.
+
+
+suffix           base                      noun phrase with relational adjective
+-aal             muziek ‘music’            muzik-aal talent ‘musical talent’
+-air             atom ‘atom’               atom-aire fysica ‘nuclear physics’
+-eel             structuur ‘structure’     structur-ele analyse ‘structural analysis’
+-en              zilver ‘silver’           zilver-en ring ‘silver ring’
+-er              Edam ‘id.’                Edamm-er kaas ‘Edam cheese’
+-ief             educatie ‘education’      educat-ief verlof ‘educational sabbatical’
+-iek             periode ‘period’          period-ieke controle ‘periodical check’
+-ig              toekomst ‘future’         toekomst-ige man ‘to-be husband or future husband’
+-isch            filosofie ‘philosophy’    filosof-ische discussie ‘philosophical debate’
+-lijk            vader ‘father’            vader-lijk gezag ‘paternal authority’
+-ling            mond ‘mouth’              monde-ling examen ‘oral examination’
+-oir             emancipatie               emancipat-oire activiteiten ‘emancipatory activities’
+                 ‘emancipation’
+-s               buitenland ‘abroad’       buitenland-s beleid ‘foreign policy’
+Table 134.7: Suffixes for relational adjectives
+
+
+
+                                                                                                      19
+Relational adjectives can be interpreted as qualitative adjectives through type coercion. For
+instance, when the adjective muzikaal ‘musical’ is modified, as in een heel muzikale vader ‘a very
+musical father’, we are forced to interpret muzikaal as denoting a property of the head noun.
+
+
+4.3. Verbal derivation
+
+
+4.3.1. Prefixation
+
+There are three productive category-changing prefixes that create verbs: be-, ver-, and ont-. In
+addition, there are a few verbs with the unproductive prefixes ge- and -er:
+
+
+prefix class of base     base word                prefixed verb
+be-      N               dijk ‘dike’              be-dijk ‘to provide with a dike’
+         A               zat ‘drunken’            be-zat ‘to drink excessively’
+         V               kijk ‘to look’           be-kijk ‘to watch’
+ver-     N               film ‘film’              ver-film ‘to film’
+         A               bleek ‘pale’             ver-bleek ‘to bleach’
+         V               koop ‘to buy’            ver-koop ‘to sell’
+ont-     N               kurk ‘cork’              ont-kurk ‘to uncork’
+         A               eigen ‘own’              ont-eigen ‘to expropriate’
+         V               bind ‘to bind’           ont-bind ‘to dissolve’
+ge-      V               leid ‘to lead’           ge-leid ‘to guide’
+er-      V               ken ‘to know’            er-ken ‘to recognize’
+Table 134.8: Verbal category-changing prefixes
+
+
+         A second class of verbalizing prefixes is formed by prefixes that correspond to Dutch
+words. For instance, the morpheme aan ‘at’ is both a prefix and a preposition. Yet, we consider
+these morphemes prefixes, as they have special meanings when used in complex words, and do
+not carry main stress (if they were words, they would form compounds and hence carry the main
+stress of the complex word).
+
+
+prefix           base word                prefixed verb
+
+
+
+                                                                                                   20
+aan-             bid ‘to pray’              aan-bid ‘to worship’
+achter-          haal ‘to fetch’            achter-haal ‘to find out’
+door-            snijd ‘to cut’             door-snijd 'to cut through’
+                 spek ‘pork’                door-spek ‘to interlard with’
+mis-             vorm ‘to form’             mis-vorm ‘to deform’
+om-              sluit ‘to close’           om-sluit ‘to enclose’
+                 cirkel ‘circle’            om-cirkel ‘to encircle’
+onder-           breek ‘to break’           onder-breek ‘to interrupt’
+                 titel ‘title’              onder-titel ‘to subtitle’
+over-            win ‘to win’               over-win ‘to defeat’
+                 brug ‘bridge’              over-brug ‘to bridge’
+vol-             maak ‘to make’             vol-maak ‘to bring to perfection’
+voor-            kom ‘to come’              voor-kom ‘to prevent’
+weer-            schijn ‘to shine’          weer-schijn ‘to reflect’
+Table 134.9: Verbal prefixes that correspond to a word
+
+
+These prefixes are thus a nice illustration of the process of grammaticalization, in which lexical
+words become grammatical morphemes, since these prefixes derive from words.
+
+
+4.3.2. Suffixation
+
+The creation of complex verbs in Dutch is mainly a matter of prefixation. The only two
+verbalizing suffixes are -eer and -iseer:
+
+
+(28)      a.     blond ‘blond’              blond-eer ‘to bleach’
+                 alarm ‘alarm’              alarm-eer ‘to alarm’
+          b.     modern ‘modern’            modern-iseer ‘to modernize’
+                 standaard ‘standard’       standaard-iseer ‘to standardize’
+
+
+The suffix -iseer is a combination of the morphemes -is- and -eer, as can be concluded from the
+way in which deverbal nouns are formed: the suffix -eer is replaced with the suffix -atie, and this
+also applies to verbs ending in -iseer: modern-is-eer – modern-is-atie ‘modernization’ (only the
+part -eer is replaced).
+
+
+
+
+                                                                                                 21
+4.4. Adverbial derivation
+
+Dutch adjectives can be used as adverbs without any overt morphological marking for adverbial
+status. Yet, there are a number of suffixes that create adverbs of various types, as illustrated in
+(29):
+
+
+(29)    base word                 complex adjective
+        hoog ‘high’               hog-elijk ‘highly’
+        blind ‘blind’             blind-elings ‘blindly’
+        menselijk ‘human’         menselijk-erwijs ‘humanly’
+        stil ‘quiet’              still-etjes ‘quietly’
+        groep ‘group’             groeps-gewijs ‘in groups’
+        fatsoen ‘decency’         fatsoens-halve ‘for decency’s sake’
+        normal ‘normal’           normal-iter ‘normally’
+        ander ‘other’             ander-s ‘differently’
+        huis ‘house’              huis-waarts ‘to home’
+        gewoon ‘common’           gewoon-weg ‘simply’
+
+
+The productivity of these suffixes varies. The suffixes -iter and -s are unproductive, and some of
+these suffixes attach to a small set of words only. The suffix -erwijs has developed as a suffix for
+the formation of evaluative adverbs, as in ongelukkig-erwijs ‘sadly enough’ derived from the
+adjective ongelukkig ‘unhappy’ (Diepeveen and Van de Velde 2010).
+
+
+5. Conversion
+
+Conversion is the process by which words are derived from other words without any overt
+morphological marking. In Dutch, we find various pairs of related words with the same
+phonological form, but different lexical class and meaning. The main conversion process in
+Dutch is the derivation of verbs from nouns. This is a very productive process, although it is not
+without restrictions. For instance, the names for all kinds of sports can be used as verbs in which
+that activity is involved: voetball-en ‘to play football’, tenniss-en ‘to play tennis’. Yet, even N →
+V conversion is not completely unrestricted. For instance, it would be odd to use nouns that
+denote food to denote the eating of that food, and hence a verb like brod-en ‘to bread’ is odd.
+
+
+
+                                                                                                      22
+Here is a survey of the various types, with the direction of conversion indicated. The topic of how
+to determine the direction of conversion in Dutch is dealt with in (Don 1993).
+
+
+(30)    N to V            fiets ‘bike’              fiets ‘to cycle’
+        V to N            behoud ‘to preserve’      behoud ‘preservation’
+        A to N            gek ‘mad’                 gek ‘mad person’
+        A to V            wit ‘white’               wit ‘to whiten’
+
+
+The main criterion for determining the direction of conversion is semantic in nature: the meaning
+of the word on the right is a compositional function of the word on the left. In the case of behoud
+‘preservation’ in (30) there is also a formal indication, as be- is typically a verbalizing prefix:
+hence the verb is coined first, and the noun derived from the complex verb.
+
+
+6. Borrowed word formation and neo-classical word formation
+
+Dutch has borrowed many complex words from Greek and Latin, often with French as an
+intermediate language, and also from French itself. More recently, many English complex words
+have been borrowed into Dutch. Once a sufficient number of a certain type of complex word has
+been borrowed, the language user can discover a pattern, and form new words of the same type.
+For instance, once the user of Dutch has come across a number of de-adjectival nouns ending in -
+iteit, the Dutch version of French -ité, (s)he can create new complex nouns of this type that need
+not have an equivalent in French. The rise of new word formation schemas with non-native
+affixes is also strengthened by the existence of internationalisms, complex words that are found in
+most European languages in one form or another. Table 10 provides a survey of non-native
+suffixes in Dutch:
+
+
+Suffix Base      Base word                          Output Derived word
+-aal    N        synode ‘synod’                     A        synod-aal ‘synodical’
+-aan    N        parochie ‘parish’                  N        parochi-aan 'parishioner'
+-aat    N        doctor ‘doctor’                    N        doctor-aat ‘doctorate’
+-air    N        hypotheek ‘mortgage’               A        hypothek-air ‘mortgage’
+-ant    V        predik ‘to preach’                 N        predik-ant ‘clergyman’
+-aris   N        bibliotheek ‘library’              N        bibliothec-aris ‘librarian’
+-ast    N        gymnasium ‘grammar school’         N        gymnasi-ast ‘grammar school pupil’
+
+
+                                                                                                      23
+-atie    V       organiseer ‘to organize’             N         organis-atie ‘organization’
+-eel     N       fundament ‘fundament’                A         fundament-eel ‘fundamental’
+-eer     N       parfum ‘perfume’                     V         parfum-eer ‘to perfume’
+-ees     N       Taiwan ‘Taiwan’                      N         Taiwan-ees ‘inhabitant of Taiwan’
+-ein     N       republiek ‘republic’                 N         republik-ein ‘republican’
+-erie    N       parfum ‘perfume’                     N         parfum-erie ‘perfume shop’
+-esse    N       secretaris ‘secretary’               N         secretar-esse 'secretary, fem.'
+-ette    N       opera ‘opera’                        N         oper-ette ‘operetta’
+-esk     N       ballade ‘ballad’                     A         ballad-esk ‘ballad-like’
+-eur     N       ambassade ‘embassy’                  N         ambassad-eur ‘ambassador’
+-eus     N       rancune ‘rancour’                    A         rancun-eus ‘rancorous’
+-iaan    N       presbyter ‘prebyter’                 N         presbyter-iaan ‘presbyterian’
+-ide     N       broom ‘bromine’                      N         brom-ide ‘bromide’
+-ier     N       juweel ‘jewel’                       N         juwel-ier ‘juweler’
+-iet     N       metropool ‘metropolis’               N         metropol-iet ‘metropolitan’
+-ieus    N       mode ‘fashion’                       A         mod-ieus ‘fashionable’
+-ine     A       blond ‘blond’                        N         blond-ine ‘blonde’
+-isch    N       algebra ‘algebra’                    A         algebra-isch ‘algebraic’
+-iseer   A       banaal ‘banal’                       V         banal-iseer ‘to banalize’
+-isme    A       absurd ‘absurd’                      N         absurd-isme ‘absurdism’
+-ist     N       propaganda ‘propaganda’              N         propagand-ist ‘propagandist’
+-oir     N       emancipatie ‘emancipation’           A         emancipat-oir ‘emancipatory’
+         N       urine ‘urine’                        N         urin-oir ‘urinal’
+-oot     N       psyche ‘psyche’                      N         psych-oot ‘psychotic’
+Table 134.10: Non-native suffixes
+
+
+It is obvious that most language users do not know the historical origin of these suffixes. Yet, the
+distinction between native and non-native affixes plays a synchronic role because non-native
+suffixes only attach to non-native base words, as illustrated in (31) for the competing suffixes -
+iteit (non-native) and -heid (native):
+
+
+(31)     blind ‘blind’              *blind-iteit / blind-heid ‘blindness’
+         stabiel ‘stable’           stabil-iteit / stabiel-heid ‘stability’
+
+
+
+
+                                                                                                     24
+Exceptions to this generalizations are words like flauw-iteit ‘silli-ness’ ← flauw ‘silly’ and
+hondo-loog ‘dog expert’ ← hond ‘dog’ that have a native base; the latter word has an obvious
+intentional character.
+         Non-native prefixes differ from non-native suffixes in that many of them allow non-
+native bases. The non-native negative Latin prefix in- behaves just like non-native suffixes:
+
+
+(32)     gewoon ‘common’            on-gewoon /*in-gewoon ‘un-common’
+         stabiel ‘stable’           on-stabiel / in-stabiel ‘un-stable’
+
+
+However, most borrowed prefixes do occur with native base words, as illustrated in Table 11.
+
+
+prefix                      example
+anti- ‘anti-’               anti-godsdienstig ‘antireligious’
+co- ‘co-’                   co-ouderschap ‘shared parentship after divorce’
+contra- ‘contra-’           contra-gewicht ‘counterweight’
+ex- ‘former-’               ex-man ‘former husband’
+hyper- ‘hyper-’             hyper-gevoelig ‘hypersensitive’
+infra- ‘infra-’             infra-rood ‘infrared’
+loco- ‘vice-’               loco-burgemeester ‘vicemayor’
+meta- ‘meta-’               meta-taal ‘metalanguage’
+neo- ‘neo-’                 neo-hervormd ‘neoreformed’
+pro- ‘pro-’                 pro-apartheid ‘pro-apartheid’
+pseudo- ‘pseudo-’           pseudo-wetenschap ‘pseudoscience’
+semi- ‘semi-’               semi-overheid ‘semigovernment’
+sub- ‘sub-’                 sub-groep ‘subgroup’
+super- ‘super-’             super-gaaf ‘very nice’
+turbo- ‘super-’             turbo-koe ‘very productive cow’
+ultra- ‘ultra-’             ultra-zacht ‘very soft’
+vice- ‘vice-’               vice-voorzitter ‘vice-chairman’
+Table 134.11: Borrowed prefixes with native bases
+
+
+         Prefixes may be borrowed indirectly. An example is the use of German über- as a prefix
+with the meaning ‘to an extreme extent, a prototypical instantiation of’ in present-day English, as
+in über-nerd. This prefix now also combines with Dutch native nouns such as klootzak ‘jackass’
+
+
+
+                                                                                                 25
+and nicht ‘homosexual’: über-klootzak, über-nicht. This fashionable use of über is not borrowed
+from German, but from English.
+        Language contact may also lead to another form of morphological influence: grammatical
+replication, in which a construction of one language is replicated by another. A morphological
+example is that both English and Dutch feature adjectival compounds of the type NA, in which A
+has the form of a past participle, as in computer-controlled and home-made. This type of
+compound is an old but infrequent type in Dutch, but nowadays used in the technical domain to
+coin technical words. Its productivity has been boosted in present-day Dutch by the parallel and
+very frequent use of such NA compounds in English (Hüning and Schlücker 2010).
+
+
+7. Blending, clipping and word-creation
+
+In addition to regular word formation processes, Dutch features various forms of what may be
+referred to as word manufacturing: the creation of new words in such a way that there is no direct
+compositional interpretation of the new word on the basis of the meaning of its formal
+constituents.
+        In blending, two words are fused into one. This process is used frequently in English, and
+Dutch has taken over this process, sometimes inspired by an English equivalent. For instance, the
+blending of sex ‘id.’ and exploitatie ‘exploitation’ into sexploitatie has a counterpart in English
+sexploitation. Another example of blending is giromaat, from giro ‘bank giro’ and automaat
+‘machine’. In order to grasp the meaning of giromaat, we need the meaning of automaat, which
+is only partially present in the formal make up of giromaat.
+        What is more productive in Dutch is the use of splinters, morphemes such as English -
+burger and -gate from hamburger and Watergate respectively. The use of these two borrowed
+morphemes has become quite productive in Dutch (Hüning 2000; Meesters 2004), and combines
+with Dutch words, as in kaas-burger ‘cheeseburger’ and Mabel-gate ‘political scandal around
+princess Mabel’. Examples of productive splinters as first parts of words are bio-, eco-, and tele-,
+from biologisch ‘biological’, ecologisch ‘ecological’ and telefoon ‘telephone’ or televisie
+‘television’ respectively. These morphemes are often referred to as confixes, bound morphemes
+with a lexical meaning. Another example is flex- derived from flexible ‘flexible’, which can be
+used as an initial element in words like flex-werker ‘flexible worker’. Splinters are also used in
+combination with an ending -o to make nouns that denote certain types of persons, as in lesb-o
+‘lesbian person’ (from lesb-isch lesbian’) and Brab-o ‘inhabitant of Brabant’ (from Brabant).
+        Clipping is used to abbreviate long words, as in:
+
+
+                                                                                                      26
+(33)    aso               a-sociaal ‘a-social’
+        doka              donkere kamer ‘dark room’
+        horeca            hotel-restaurant-café ‘hotel-restaurant-café’
+        sofinummer        sociaal-financieel nummer ‘social security and tax number’
+        stufi             studie-financiering ‘study-grant’
+
+
+        Word creation takes place by means of acronyms. We distinguish two types, letter words,
+in which the first letters of a complex expression form a new word, and syllable words, where the
+first letters of each of the constituents is pronounced as a syllable:
+
+
+(34)    letter words:                                                pronunciation
+        Havo = Hoger Algemeen Vormend Onderwijs                      [ha:vo:]
+                 ‘Higher General Secondary Education’
+        Hema = Hollandse Eenheidsprijzen Maatschappij                [he:ma:]
+                 ‘Dutch Uniform-prices Company’
+        syllable words:
+        WAO = Wet op de Arbeidsongeschiktheid                        [we:a:o:]
+                 ‘Law on the Labour-unfitness’
+        bh = bustehouder ‘bosom-holder, bra’                         [be:ha:]
+
+
+The use of these various processes of word manufacturing has been boosted by the need of
+modern society for names for all sorts of new entities, for instance in the world of government
+regulation and that of electronic devices, and is strongly influenced by the use of the same
+processes in other European languages, in particular English.
+
+
+* I would like to thank Jenny Audring for her constructive comments on a draft of this text. The
+research for this chapter has been supported by a Research Award of the Alexander von
+Humboldt-Stiftung, which is gratefully acknowledged here.
+
+
+8. References
+
+Aronoff, Mark 1976        Word Formation in Generative Grammar. Cambridge Mass.: MIT Press.
+
+
+
+
+                                                                                                  27
+Baayen, R. Harald      2009 Corpus linguistics in morphology: morphological productivity.
+In: Anke Lüdeling and Merja Kytö (eds.), Corpus Linguistics. An International Handbook, 900-
+917. Berlin/New York: De Gruyter.
+
+Blom, Corrien 2005      Complex Predicates in Dutch. Synchrony and Diachrony. Utrecht: LOT.
+
+Booij, Geert   1977 Dutch Morphology. A Study of Word Formation in Generative Grammar.
+Lisse/Dordrecht: The Peter de Ridder Press/Foris Publications
+
+Booij, Geert     1995   The Phonology of Dutch. Oxford: Clarendon Press.
+
+Booij, Geert  1999 Morfologie. In: Willy Smedts and Petrus Cornelis Paardekooper (eds.),
+De Nederlandse taalkunde in kaart, 121-28. Leuven/Amersfoort: Acco.
+
+Booij, Geert     2002   The Morphology of Dutch. Oxford: Oxford University Press.
+
+Booij, Geert     2010   Construction Morphology. Oxford: Oxford University Press.
+
+Booij, Geert and Ariane van Santen     1998 Morfologie. De woordstructuur van het
+Nederlands. 2nd revised edition. Amsterdam: Amsterdam University Press.
+
+De Haas, Wim and Mieke Trommelen 1993 Morfologisch handboek van het Nederlands. Een
+overzicht van de woordvorming. 's Gravenhage: SDU Uitgeverij.
+
+Diepeveen, Janneke and Freek Van de Velde   2010 Adverbial morphology: How Dutch and
+German move away from English. Journal of Germanic Linguisitics 22: 381-402.
+
+Don, Jan         1993   Morphological Conversion. Utrecht: LOT.
+
+Hoeksema, Jack          1984   Categorial morphology. Ph.D. dissertation, University of
+Groningen.
+
+Hüning, Matthias        1999   Woordensmederij. De geschiedenis van het suffix -erij. Utrecht:
+LOT.
+
+Hüning, Matthias       2000 Monica en andere gates. Het ontstaan van een morfologisch
+procédé. Nederlandse Taalkunde 5: 121-132.
+
+Hüning, Matthias and Barbara Schlücker        2010 Konvergenz und Divergenz in der
+Wortbildung - Komposition im Niederländischen und im Deutschen. In: Antje Dammel,
+Sebastian Kürschner and Damaris Nübling (eds.), Kontrastive Germanistische Linguistik, 783-
+825. Hildesheim etc.: Georg Olms Verlag.
+
+Krott, Andrea 2001 Analogy in morphology: The selection of linking elements in Dutch
+compounds. Nijmegen: Max Planck Institut für Psycholinguistik.
+
+Krott, Andrea. 2009      The role of analogy for compounds. In: James P. Blevins and Juliette
+Blevins (eds.), Analogy in grammar. Form and acquisition, 118-136. Oxford: Oxford University
+Press.
+
+
+
+
+                                                                                              28
+Los, Bettelou, Corrien Blom, Geert Booij, Marion Elenbaas and Ans van Kemenade           2012
+Morphosyntactic Change: A Comparative Study of Particles and Prefixes. Cambridge:
+Cambridge University Press.
+
+Meesters, Gert 2004 Marginale morfologie in het Nederlands. Paradigmatische
+samenstellingen, neo-klassieke composita en splintercomposita. Gent: Koninklijke Academie
+voor Nederlandse Taal- en Letterkunde.
+
+Pascual, Esther and Theo Janssen          2004 Zinnen in samenstellingen: presentaties van
+fictieve verbale interactie. Nederlandse Taalkunde 9: 285-310.
+
+Schultink, Henk       1962 De morfologische valentie van het ongelede adjectief in modern
+Nederlands. Den Haag: Van Goor Zonen.
+
+Schultink, Henk        2000 The Netherlands. In: Geert Booij, Christian Lehmann and
+Joachim Mugdan (eds.), Morphology. An International Handbook on Inflection and Word-
+formation. Volume 1, 162-170. Berlin/New York: De Gruyter.
+
+Trommelen, Mieke and Wim Zonneveld 1986        Dutch morphology: evidence for the right-hand
+head rule. Linguistic Inquiry 17: 147-169.
+
+Van Marle, Jaap        1985    On the Paradigmatic Dimension of Morphological Creativity.
+Dordrecht: Foris.
+
+Van Santen, Ariane     1992    Produktiviteit in taal en taalgebruik. Leiden: University of
+Leiden.
+
+Weggelaar, C 1986 Noun incorporation in Dutch. International Journal of American
+Linguistics 52: 301-305.
+
+
+
+                                                        Geert Booij, Leiden (Netherlands)
+
+
+
+
+                                                                                                29
+

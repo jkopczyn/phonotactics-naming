@@ -1,0 +1,1363 @@
+                                        Concrete fonologie
+
+
+                                               Geert Booij
+
+verschenen in Georges de Schutter en Steven Gillis (red.) (2003), Fonologische kruispunten. Gent:
+
+Koninklijke Academie voor Nederlandse Taal- en Letterkunde, 53-70.
+
+
+
+1. Inleiding
+
+
+
+De taak van de fonologische module van een taal is het geven van een adequate verantwoording van
+
+de systematiek in de klankeigenschappen van taalbouwsels. Die systematiek omvat de fonotaxis (de
+
+beperkingen op de combineerbaarheid van klanken), de locatie van woordaccent, allomorfie (de
+
+variatie in klankgestalte van morfemen), prosodische structurering, en intonatie. Dit zijn dan ook de
+
+verschijnselen waarmee de fonologie zich bezig houdt. Het is de bedoeling van dit artikel een aantal
+
+lijnen van ontwikkeling te schetsen binnen de fonologische theorievorming die kunnen worden
+
+gekarakteriseerd met de term 'concrete fonologie'.
+
+        Het begrip 'concrete fonologie' waaraan ik in dit artikel nader inhoud zal geven, staat
+
+historisch gezien in contrast met het begrip 'abstracte fonologie', dat gebruikt wordt als karakterisering
+
+van het soort generatieve fonologie dat werd gecodificeerd in The Sound Pattern of English (Chomsky
+
+& Halle 1968). De kenmerken van dit model van fonologische beschrijving kunnen als volgt worden
+
+samengevat:
+
+-   een rijk gebruik van abstracte onderliggende vormen, teneinde zoveel mogelijk allomorfie, de
+
+    variatie in fonetische vorm van morfemen te verantwoorden in termen van een
+
+    gemeenschappelijke onderliggende vorm, en uitzonderingen op regels weg te verklaren;
+
+-   extrinsieke regelordening;
+
+-   geen prosodische structuur zoals de syllabe, de voet, en het fonologisch woord;
+
+-   de fonotaxis van een taal wordt verantwoord door een stelsel van morfeemstructuurcondities, in
+
+    combinatie met het stelsel van fonologische regels van die taal.
+
+
+
+
+                                                                                                         1
+Dit type fonologie had dus een heel rijke derivationele machinerie.
+
+    Sinds 1968 is er enorm veel veranderd in de fonologische theorie. Al in 1973 wees Kiparsky op de
+
+problemen die al te abstracte onderliggende vormen, met daarin klanksegmenten die nooit in een
+
+fonetische vorm hoorbaar zijn, met zich meebrengen (de abstractheidscontroverse, Kiparsky 1973). De
+
+iets minder abstracte vorm van fonologie die Kiparsky voorstond kreeg de vorm van de theorie van
+
+Lexicale Fonologie (zie Rubach 1984, Booij & Rubach 1987, en Booij 2000 voor een overzicht van
+
+deze theorie). Deze theorie maakt (enigszins gesimplificeerd) een onderscheid tussen lexicale
+
+fonologische processen, die onderhevig zijn aan een specifieke conditie, de Derived Environment
+
+Condition, en postlexicale fonologische processen. De genoemde conditie blokkeert de toepassing van
+
+lexicale fonologische regels op niet-afgeleide vormen, en sluit daardoor bepaalde abstracte analyses
+
+uit. Stel bijvoorbeeld dat we voor het Nederlands de regel aannemen dat het woordaccent valt op de
+
+op-een-na-laatste syllabe als de laatste syllabe op een klinker eindigt. Een uitzondering als paraplú
+
+zou dan kunnen worden wegverklaard door aan de onderliggende vorm van dit woord een schwa toe te
+
+voegen, en een regel aan te nemen die zegt dat een woordfinale schwa na een vocaal wordt gedeleerd.
+
+Aangezien dit een lexicale regel is, die werkt binnen het domein van een woord, blokkeert de Derived
+
+Environment Condition de werking van deze regel, omdat de cruciale configuratie vocaal-schwa hier
+
+niet is ontstaan door de werking van een fonologische of morfologische regel. Daarom kan de schwa
+
+niet gebruikt worden als een manier om het uitzonderingskarakter van het leenwoord paraplu
+
+fonologisch, in de onderliggende vorm, te coderen. Het gevolg is dus een concretere fonologie, waarin
+
+paraplu op enigerlei manier als uitzondering moet worden gemarkeerd.
+
+    In de tweede plaats werd al aan het eind van de jaren zestig van de vorige eeuw door Vennemann
+
+en Hooper betoogd (zie Hooper 1972) dat prosodische categorieën zoals de syllabe essentieel zijn voor
+
+een correcte verantwoording van fonologische processen, en voor de fonotaxis van een taal. In
+
+paragraaf 2 zal ik hier nader op in gaan. Meer algemeen betekende de ontwikkeling van de niet-
+
+lineaire fonologie dat fonologische representaties veel rijker werden, en er daardoor minder
+
+derivationele machinerie nodig is.
+
+    De derde belangrijke ontwikkeling in de fonologische theorie is het inzicht dat output constraints
+
+een cruciale rol moeten spelen in fonologische analyses. De meest gearticuleerde vorm van een
+
+
+                                                                                                         2
+fonologische theorie met output constraints is die van Optimality Theory (zie Kager 1999): de
+
+fonologische module bestaat uit een set van universele output constraints, met een taalspecifieke
+
+ranking. Deze constraints zijn schendbaar. In par. 2 zal ik de consequenties van deze benadering voor
+
+de fonotaxis analyseren, en in par. 3 zal ik laten zien wat deze benadering impliceert voor de analyse
+
+van allomorfieverschijnselen in het Nederlands.
+
+    Het laatste punt dat ik in dit artikel zal bespreken is de traditionele gelijkstelling tussen de
+
+begrippen 'onderliggende vorm' en 'vorm die in het geheugen is opgeslagen'. Als de onderliggende
+
+vorm van het woord hoed de vorm /hud/ is, vanwege de fonetische vorm van het meervoud hoeden,
+
+betekent dat dan ook dat /hud/ de vorm is waarin we de klankvorm van het woord hoed onthouden? Ik
+
+zal in par. 4 laten zien dat daarover gerede twijfel kan bestaan, hetgeen opnieuw een concretere
+
+fonologie impliceert.
+
+
+
+2. Fonotaxis
+
+
+
+In de SPE-fonologie werden de beperkingen op de combineerbaarheid van klanken verantwoord in
+
+termen van morfeemstructuurcondities. Hooper (1972) formuleerde enkele essentiële bezwaren tegen
+
+deze aanpak. In de eerste plaats wees ze erop dat ook noties als 'syllabe' nodig zijn in de fonologische
+
+theorie. Welnu, als er toch al een theorie van syllabestructuur nodig hebben, dan kunnen we die ook
+
+gebruiken om de fonotaxis te verantwoorden. De cluster rp- kan bijvoorbeeld niet voorkomen aan het
+
+begin van een lexicaal morfeem. Maar dit volgt al volledig uit het feit dat deze cluster niet kan
+
+voorkomen aan het begin van een syllabe. Een tweede argument van Hooper voor de rol van de
+
+syllabe in de fonotaxis is dat we soms niets kunnen zeggen over de welgevormdheid van een cluster
+
+van segmenten los van de prosodische structuur waarin deze voorkomt. De cluster /rl/ bijvoorbeeld,
+
+kan niet voorkomen aan het begin of eind van een morfeem of syllabe, maar wel heterosyllabisch, dat
+
+wil zeggen, binnen een morfeem, op de grens van twee syllaben, zoals in de plaatsnaam Marle.
+
+        De manier waarop we nu de beperkingen op syllabestructuur, en algemener prosodische
+
+structuur, kunnen verbinden, is met behulp van het begrip 'lexicon optimization' (Ito, Mester, &
+
+Padgett 1993): morfemen moeten op een zodanige manier gecomponeerd zijn uit klanksegmenten dat
+
+
+                                                                                                           3
+ze geen aanleiding geven tot het schenden van output constraints. Als we nu prosodische beperkingen
+
+opvatten als output constraints, dan krijgen we het beoogde effect dat morfemen zich voegen naar de
+
+prosodische beperkingen van een taal. Stel dat we een woord rlaak zouden willen maken. Dat is
+
+onmogelijk omdat dit woord altijd zou leiden tot schending van de constraints op het begin van een
+
+Nederlandse syllabe. Daarom wordt er dan een fonetische vorm [ra:k] of [la:k] geselecteerd. Met
+
+andere woorden: de taalgebruiker zal de vorm [rla:k] nooit te horen krijgen, en dus ook niet zo'n
+
+onderliggende vorm aannemen. In deze benadering zijn morfeemstructuurbeperkingen dus het
+
+indirecte effect van prosodische constraints. Er is dan geen aparte set van beperkingen op
+
+morfeemstructuur nodig.
+
+        Deze redenering geldt niet alleen voor beperkingen op syllabestructuur, maar ook voor
+
+beperkingen op de structuur van prosodische woorden. Een bekende generalisatie voor prosodische
+
+woorden van het Nederlands is dat ze minimaal één volle vocaal (dus geen schwa) moeten bevatten, en
+
+niet met een schwa mogen beginnen (Booij 1995: 47). Dit impliceert dan dat noch lexicale morfemen
+
+noch prefixen met een schwa kunnen beginnen, wat inderdaad het geval is. Tegelijk volgt uit deze
+
+benadering dat suffixen wel met een schwa mogen beginnen. Immers, suffixen zullen nooit aan het
+
+begin van een woord staan, maar altijd voorafgegaan worden door ander fonologisch materiaal. De
+
+verschillende suffixen -er van het Nederlands leveren bijvoorbeeld geen fonotactische problemen op,
+
+omdat ze één fonologisch woord vormen met de stam waaraan ze worden aangehecht, zoals in grot-er,
+
+bakk-er, en wetenschapp-er. Een prachtig gevolg van deze analyse is dat het verschil in fonotactisch
+
+gedrag tussen de verschillende klassen van morfemen wordt verklaard: we hoeven niet te stipuleren
+
+dat de beperking 'geen schwa aan het begin' alleen geldt voor lexicale morfemen en prefixen, en niet
+
+voor suffixen; dit volgt uit de aard van de morfemen in combinatie met lexicon optimization. Op deze
+
+wijze wordt dus de klassieke observatie van Roman Jakobson verantwoord, dat gebonden morfemen
+
+aan andere fonotactische beperkingen onderhevig zijn dan lexicale morfemen (Jakobson 1949).
+
+Prefixen kunnen, anders dan lexicale morfemen, wel uitsluitend een schwa als vocaal hebben. Dat
+
+geldt bijvoorbeeld voor het prefix be- Dit levert geen fonotactisch probleem op, omdat een prefix per
+
+definitie niet in zijn eentje een fonologisch woord hoeft te kunnen vormen.
+
+
+
+
+                                                                                                        4
+        Het is goed om nog even stil te staan bij het feit dat er wel een aantal Nederlandse woorden is
+
+dat begint met een schwa, zoals een en 't. Dit zijn echter geen woorden van lexicale categorieën, maar
+
+grammaticale morfemen: lidwoorden, voornaamwoorden, en dergelijke. Het contrast zien we mooi in
+
+het lidwoord een versus het telwoord een; dit laatste woord is een lexicaal morfeem, en moet daarom
+
+met de volle vocaal [e:] uitgesproken worden, terwijl het lidwoord met een schwa begint. Als zo'n
+
+grammaticaal morfeem met een schwa begint, dan zal het altijd zoeken naar een gastwoord ter
+
+linkerzijde, waarmee het kan versmelten tot één fonologisch woord; er is dan sprake van enclise. Dit
+
+gebeurt altijd, tenzij het schwa-initiële woord aan het begin van een zin staat, want dan is er nu
+
+eenmaal geen gastwoord beschikbaar (dan wordt zo’n syllabe verboden met het volgende prosodische
+
+woord, en daarmee een geval van proclise). Suffixen daarentegen hebben per definitie een gastwoord
+
+ter beschikking, de stam waaraan ze gehecht worden (cf. Booij 1996 voor gedetailleerde analyses).
+
+        Wat betreft suffixen moeten nog twee opmerkingen gemaakt worden. In de eerste plaats zijn er
+
+een achttal Nederlandse suffixen die ik in Booij (1982; 1995) heb aangeduid als 'non-cohering
+
+suffixes': suffixen die niet met het fonologisch materiaal van de stam één fonologisch woord vormen,
+
+maar een zelfstandig fonologisch woord vormen, anders dan de 'cohering suffixes' zoals -er. Het gaat
+
+hier om de suffixen -achtig, -baar, -dom, -heid, -ling, -loos, -schap, en -zaam (Booij 2002). In
+
+prosodisch opzicht vormen deze suffixen samenstellingen. Zo is er geen enkel fonologisch
+
+onderscheid tussen het adjectief draagbaar en het substantief draagbaar 'brancard'; in beide gevallen
+
+is er hoofdaccent op de eerste syllabe, en nevenaccent op de tweede. Het zijn ook precies deze suffixen
+
+die altijd een volle vocaal hebben, en niet beginnen met een schwa. Als we morfeemstructuurcondities
+
+voor verschillende klassen van morfemen zouden postuleren, dan zouden we dus niet kunnen
+
+generaliseren over de klasse van suffixen. Het fonotactisch verschil tussen deze twee klassen van
+
+suffixen volgt echter direct uit de hier voorgestelde benadering: op grond van de segmentele
+
+compositie van een suffix is doorgaans te voorspellen of het een cohering dan wel een non-cohering
+
+suffix is. De enige uitzonderingen zijn enkele suffixen met een volle vocaal als –aar, -ing en -nis die
+
+geen eigen prosodische woorden vormen, maar samen met het grondwoord één prosodisch woord.. De
+
+woorden bewondering en bewonderaar bijvoorbeeld vormen ieder één prosodisch woord, met ritmisch
+
+
+
+
+                                                                                                          5
+secundair accent op de laatste syllabe. Zulke suffixen hebben dus niet de eigenschap ‘vormt een eigen
+
+prosodisch woord’ als deel van hun lexicale specificatie.
+
+        Een tweede eigenschap van Nederlandse suffixen is dat ze vocaalloos kunnen zijn. Ze bestaan
+
+dan uit /s/, /t/, of de combinatie /st/. De beperking tot deze twee consonanten volgt opnieuw uit de
+
+benadering waarin de fonotaxis van morfemen het effect is van lexicon optimization: de /s/ en de /t/
+
+zijn de enige twee consonanten die vrijelijk kunnen worden toegevoegd aan het eind van een
+
+prosodisch woord (de zogenaamde appendix, cf. Booij 1995), en het zijn daarom de enige twee
+
+consonanten die gebruikt kunnen worden als suffixen. Een suffix /p/ daarentegen zou in veel gevallen
+
+leiden tot fonotactische problemen bij aanhechting aan een stam, en is dus niet erg bruikbaar.
+
+Omgekeerd hebben we geen prefixen die alleen uit een consonant bestaan. Dit spoort met het feit dat
+
+het Nederlands geen woord-initiële appendixen kent. Er zijn dus geen consonantale prefixen, zelfs
+
+geen prefixen bestaande uit /s/ of /t/.
+
+        Een output-gebaseerde benadering van fonotaxis kan ook een dieper inzicht in de aard van
+
+fonotactisch uitzonderlijke woorden. Een fonologisch woord van het Nederlands bestaat uit minimaal
+
+één voet. Zoals bekend is de Nederlandse voorkeursvoet de trochee, een reeks van twee syllaben
+
+waarvan de eerste een volle vocaal bevat en klemtoon draagt; de tweede, niet-beklemtoonde syllabe
+
+kan een schwa als vocaal hebben. Het Nederlands staat echter ook monosyllabische voeten toe. In een
+
+optimaal prosodisch woord valt de linkergrens van een prosodisch woord samen met de linkergrens
+
+van een trocheïsche voet, een zogenaamde oplijnconditie (alignment condition, cf. McCarthy & Prince
+
+1994). Het gevolg hiervan is dat lexicale morfemen in principe niet beginnen met een syllabe met een
+
+schwa erin, omdat er dan geen oplijning is tussen de linkergrens van fonologisch woord en de
+
+linkergrens van de voet. Dit is inderdaad een robuuste generalisatie: als een woord met een schwa-
+
+syllabe begint, dan is dat bijna altijd een geprefigeerd woord. De uitzonderingen zijn leenwoorden als
+
+besogne, beton, legaat, negeren, pedaal, en tenor (Booij 1999a,b). De oplijningsconditie is dus
+
+schendbaar, want leenwoorden uit het Frans worden niet aangepast aan de eisen van deze conditie. De
+
+beperking als zodanig kan in de grammatica gehandhaafd worden, maar de Faithfulness Condition, die
+
+vraagt om correspondentie met de onderliggende vorm, is hier dus sterker dan de hier besproken
+
+oplijnconditie.
+
+
+                                                                                                         6
+        Zoals reeds opgemerkt in Postal (1968) leveren ook fonologische regels een bijdrage aan de
+
+karakterisering van de fonotaxis van een taal. Neem bijvoorbeeld de bekende regel van prevocalische-
+
+schwadeletie in het Nederlands: binnen een fonologisch woord wordt een schwa gedeleerd voor een
+
+volgende vocaal. Deze regel zegt dus dat de sequentie schwa-vocaal niet kan binnen een fonologisch
+
+woord, en sluit daarmee een bepaald patroon van klankcombinaties uit. Deze regel is nodig om
+
+alternanties zoals elite - elitair te verantwoorden: in het afgeleide adjectief is de finale schwa van elite
+
+afwezig. Evenzo verdwijnt de slot-schwa van kade in de meervoudsvorm kaden voor het suffix -en.
+
+Tegelijkertijd zou het, in de klassieke benadering, ook een morfeemstructuurconditie moeten zijn
+
+omdat we binnen morfemen die sequentie schwa-vocaal nooit vinden. Er zou dus sprake zijn van een
+
+samenzwering ('conspiracy') tussen een morfeemstructuurconditie en een fonologische regel, die er
+
+samen voor zorgen dat een bepaalde segmentcombinatie nooit optreedt. Als we nu prevocalische-
+
+schwadeletie opvatten als een output constraint, dan is er geen aparte morfeemstructuurconditie nodig:
+
+dank zij lexicon optimization zal er nooit een morfeem zijn met de onderliggende vorm / ǝV/. We
+
+hebben in die benadering dus geen aparte condities op onderliggende vormen nodig om de juiste
+
+generalisaties te maken. Deze zijn output-gestuurd, en impliceren in die zin een concrete fonologie,
+
+een fonologie waarin de oppervlaktevormen niet alleen maar het effect zijn van een fonologische
+
+derivatie en dus geen onafhankelijke status hebben, maar zelf van direct belang zijn voor de
+
+fonologische analyse.
+
+        Toch is het de vraag of we helemaal zonder morfeemstructuurcondities kunnen. Er zijn
+
+distributiepatronen van klanken binnen morfemen, fonotactische condities dus, die niet tot alternanties
+
+leiden, maar toch uitgedrukt moeten worden. Voor het Nederlands geldt bijvoorbeeld dat een
+
+morfeem-finale fricatief na een lange vocaal bijna altijd stemhebbend is (uitzonderingen zijn
+
+bijvoorbeeld het adjectief kies en het werkwoord pies). Natuurlijk wordt die onderliggend
+
+stemhebbende fricatief als [f],[s] of ]x] gerealiseerd als zo'n morfeem als woord wordt gebruikt, maar
+
+wat de generalisatie zegt is dat er geen woordparen zoals enkelvoud / meervoud zijn waarin er bij dit
+
+type morfemen geen alternantie is wat betreft stem in de morfeem-finale positie:
+
+
+
+(1)     raaf - raven, kaas - kazen, zaag - zagen
+
+
+                                                                                                           7
+        *raaf - rafen, *kaas - kasen, *zaach - zachen
+
+
+
+Een dergelijke statische generalisatie kan alleen worden uitgedrukt door condities op de onderliggende
+
+vorm van morfemen: in de oppervlakte wordt immers het contrast tussen stemhebbende en stemloze
+
+obstruenten in morfeem-finale positie uitgewist als deze morfemen als woord optreden.
+
+        Een ander voorbeeld van zo'n statische generalisatie over de fonotaxis van morfemen is dat
+
+clusters van obstruenten aan het begin of middenin morfemen altijd stemloos zijn (Zonneveld 1983).
+
+Woorden als labda en budget zijn uitzonderingen, maar als zodanig verklaarbaar: het zijn duidelijk
+
+leenwoorden. Aan het eind van morfemen kunnen we wel stemhebbende clusters krijgen, zoals in
+
+hoofd /ho:fd/ en maagd /ma:γd/. Deze stemhebbende clusters komen aan de oppervlakte in woorden
+
+als hoofden en maagden. In woorden van meer dan een morfeem vinden we eveneens stemhebbende
+
+clusters, zoals in verledentijdsvormen (tobde, draafde, hoosde, zaagde) en woorden eindigend op het
+
+suffix -de (liefde, vijfde). Ook deze generalisatie geldt dus alleen binnen morfemen; het maakt daarbij
+
+in dit geval geen verschil of de conditie geldt voor onderliggende of oppervlaktevormen, anders dan in
+
+het hierboven besproken geval.
+
+        Een meer algemene vraag is hier of statische generalisaties ovr de morfemen van een taal wel
+
+kunnen worden uitgedrukt door universele condities. Het niet optreden, en dus soms verdwijnen van
+
+een schwa voor een vocaal kan zeker beregeld worden in termen van universele condities die klinker-
+
+hiatus vermijden, maar de hier besproken statische condities zijn niet zo duidelijk op die manier te
+
+interpreteren. Deze overwegingen doen dus twijfels rijzen aan de radicale hypothese van Optimality
+
+Theory dat de fonologische module van een taal niet meer is dan een taalspecifieke ranking van
+
+universele output constraints, ook al zijn de argumenten voor de introductie van output condities zeer
+
+overtuigend.
+
+        Prosodische output constraints kunnen ook een bijdrage leveren aan de analyse van wat in de
+
+literatuur wel wordt aangeduid als pseudo-samenstellingen: woorden die vanuit morfologisch
+
+gezichtspunt geen samenstellingen zijn, maar zich fonologisch wel zo gedragen. Het gaat om woorden
+
+als:
+
+
+
+
+                                                                                                          8
+(2) aalmoes, maarschalk, oordeel, oorzaak
+
+
+
+Samenstellingen zijn combinaties van woorden, maar in deze woorden zijn geen samenstellende delen
+
+te ontdekken die als woord te kwalificeren zijn. De delen -moes, -deel, en -zaak komen wel als
+
+afzonderlijke woorden voor, maar hebben, althans synchroon, geen relatie meer met de ermee
+
+corresponderende woorden moes, deel en zaak. Door deze woorden toch in het lexicon te
+
+representeren als samenstellingen in morfologische zin, kunnen de relevante prosodische
+
+eigenschappen, met name het primaire accent op de eerste syllabe en het secundaire op de tweede,
+
+voorspeld worden. Als deze woorden ongeleed zouden zijn, dan zouden we primair accent op de
+
+laatste lettergreep verwachten omdat deze superzwaar (met een coda bestaande uit een lange vocaal +
+
+consonant: VVC, of een korte vocaal met twee consonanten: VCC) is. Een tweede prosodisch
+
+kenmerk van deze woorden is dat de woordinterne syllabe ook superzwaar is, terwijl normaliter
+
+superzware syllaben alleen aan de rechterkant van een prosodisch woord voorkomen. We kunnen nu
+
+van de laatste eigenschap van deze woorden gebruik maken: de conditie 'geen superzware syllaben
+
+binnen het fonologisch woord' dwingt de grammatica ertoe om iedere syllabe op te vatten als een
+
+afzonderlijk prosodisch woord (Booij 1999a). Op deze wijze kunnen deze woorden ongeleed blijven,
+
+en hoeven we ze geen abstracte, morfologisch ongemotiveerde, morfologische structuur toe te
+
+kennen: hun segmentele compositie impliceert een bepaalde prosodische structurering, en deze
+
+voorspelt weer de accentuele eigenschappen. Opnieuw hebben we zo een reductie bereikt van het
+
+gebruik van abstracte mechanismen (in dit geval ongemotiveerde morfologische structuur) om
+
+klankeigenschappen van woorden te voorspellen.
+
+
+
+3. Allomorfie
+
+
+
+Een wezenlijk kenmerk van de klassieke generatieve fonologie is de gedachte dat allomorfie van
+
+morfemen zoveel mogelijk wordt verantwoord door uit te gaan van een gemeenschappelijke
+
+onderliggende vorm, waarvan de verschillende fonetische vormen worden afgeleid door een soms
+
+complex stelsel van geordende fonologische regels. Prachtige voorbeelden daarvan vindt men in het
+
+
+                                                                                                      9
+werk van de Poolse fonologen Gussmann en Rubach, die in de jaren tachtig ingenieuze analyses
+
+presenteerden van de fonologie van het Pools, een taal met een grote rijkdom aan allomorfie (cf.
+
+Gussmann 1980, Rubach 1984). Abstracte onderliggende vormen, met name twee zogenaamde yer-
+
+vocalen die nooit als zodanig aan de oppervlakte komen, en een stelsel van extrinsiek geordende
+
+fonologische regels vormt de basis van zulke analyses.
+
+        Een oncontroversiëel voorbeeld van een fonologische analyse van allomorfie in het
+
+Nederlands is de alternantie tussen stemhebbende en stemloze obstruenten aan het einde van
+
+morfemen; morfemen met een dergelijke alternantie eindigen onderliggend op een stemhebbende
+
+obstruent, die stemloos wordt in coda-positie, dank zij de regel van Final Devoicing die zegt dat
+
+obstruenten in coda positie stemloos zijn (Booij 1995: 60).
+
+        Het kenmerk van Final Devoicing is dat deze regel of constraint uitzonderingsloos toepasbaar
+
+is, voor alle woorden geldt. Het wordt daarom ook wel een automatische fonologische regel genoemd.
+
+Algemene toepasbaarheid doet zich echter niet overal voor. Een bekend voorbeeld van beperkte
+
+toepasbaarheid uit het Nederlands en het Engels is dat de regel die de allomorfen van het prefix in- (in-
+
+, im-, iŋ-, il-, ir-) afleidt, niet algemeen toepasbaar is. Deze regel van assimilatie van articulatieplaats
+
+geldt bijvoorbeeld niet voor de prefixen non- en on-. Zo zeggen we wel irrationeel en illegaal, maar
+
+niet orrationeel of ollegaal. Een voor de hand liggende conclusie zou dus zijn dat de desbetreffende
+
+regel slechts voor bepaalde morfemen geldt, en dus geen zuiver fonologische regel is: de toepassing
+
+ervan is afhankelijk van de aanwezigheid van specifieke morfemen. Dergelijke regels worden
+
+morfolexicale regels genoemd. Toch zijn er pogingen gedaan om deze regelmaat te fonologiseren door
+
+middel van de theorie van niveauordening. Deze analyse kom er in dit verband op neer dat er in het
+
+lexicon twee niveaus worden onderscheiden: niveau 1, het niveau waarop uitheemse affixen zoals in-
+
+en con- worden aangehecht, en niveau 2, het niveau waarop inheemse affixen worden aangehecht. De
+
+regel van nasaalassimilatie wordt dan gelokaliseerd op niveau 1, en mag niet werken op niveau 2. Het
+
+gebruik maken van niveauordening in de fonologie is dus een poging tot fonologisering van
+
+allomorfieverschijnselen. De prijs die moet worden betaald is die van een complexere derivationele
+
+machinerie, en dus van een abstractere fonologie.
+
+
+
+
+                                                                                                               10
+        Het voert te ver om hier in te gaan op alle bezwaren tegen niveauordening. De gedachte dat er
+
+onafhankelijke evidentie voor is vanuit de morfologie heeft men echter, ook voor het Engels, moeten
+
+opgeven (zie Fabb 1986, Plag 1996 voor morfologische argumenten tegen niveauordening voor het
+
+Engels, en Booij 1995, 2002 voor het Nederlands). Waar het hier om gaat is wat het concrete
+
+alternatief is: dat is een fonologische module zonder niveauordening, waarin de vijf allomorfen van het
+
+Latijnse prefix in- alle vijf lexicaal worden opgeslagen, omdat er geen algemene fonologische regel is
+
+die de vijf allomorfen kan afleiden. Zoals we hieronder zullen zien, zijn er wel mechanismen die
+
+vervolgens op inzicht gevende wijze de selectie van de juiste allomorf kunnen beregelen.
+
+        Een klassiek voorbeeld van allomorfie waarvoor een fonologische analyse is overwogen (cf.
+
+Smith 1976) is het deverbale en denominale suffix -aar, dat optreedt in plaats van -er na een stam die
+
+uitgaat op een schwa gevolgd door een coronale sonorante consonant /n, l, r/. Dit alternatief geldt niet
+
+voor het comparatiefsuffix -er:
+
+
+
+(3) Diemen-aar, Uddel-aar, luister-aar, bedel-aar, reken-aar
+
+
+
+De alternantie tussen -er en -aar kan niet verantwoord worden door een automatische fonologische
+
+regel; er bestaat geen algemeen fonologisch proces dat een /a/ kan reduceren tot schwa in deze context
+
+(er is geen klinkerreductie in een woordfinale syllabe van een Nederlands woord). Evenmin is er een
+
+algemeen fonologisch proces dat schwa kan veranderen in [a:]. Als men een regel wil handhaven, dan
+
+moet er gebruik gemaakt worden van een morfolexicale regel, een regel die alleen voor bepaalde
+
+woorden of morfemen geldt. In een theorie die geen gebruik maakt van regels, maar van universele
+
+constraints, zit er echter niets anders op dan -er en -aar allebei als suffixen te representeren. Het gaat
+
+immers om een morfeem-specifieke alternantie, en dat betekent dat we affix-specifieke rankings van
+
+de set van universele outputcondities zouden moeten toestaan om de -er/-aar alternantie te
+
+verantwoorden. Dit is vanuit het gezichtspunt van leerbaarheid een wat absurde gedachte, en er is een
+
+beter alternatief: de keuze tussen -er en -aar wordt bepaald in termen van output condities die de
+
+optimale van de beide kandidaat-woorden (X-er of X-aar) kiezen. Met andere woorden, er is sprake
+
+van twee wedijverende suffixen (suffixen met dezelfde betekenis die aan dezelfde woordsoort
+
+
+                                                                                                         11
+hechten), die in fonologisch complementaire omgevingen staan. Dit leidt opnieuw tot concrete
+
+fonologie, waarbij het verband tussen twee morfemen niet wordt uitgedrukt in termen van een
+
+gemeenschappelijke onderliggende vorm. Zoals Carstairs-McCarthy (1988) liet zien, zijn er veel talen
+
+met affixen die optreden in fonologisch complementaire omgevingen, terwijl het evident is dat die
+
+affixen niet dezelfde onderliggende vorm kunnen hebben. De zelfstandigheid van het suffix –aar ten
+
+opzichte van –er wordt bevestigd door afwijkende nomina agentis zoals dienaar (naast diender),
+
+leraar, minnaar en winnaar, waar we op grond van de klankvorm van de stam het suffix –er zouden
+
+verwachten. De –aar-vorm is hier niet afleidbaar via een fonologische regel, en moet dus als
+
+onderliggende vorm beschikbaar zijn.
+
+        De selectie van het juiste suffix kan als volgt worden gedemonstreerd voor de inwonersnaam
+
+Diemenaar die moet worden verkozen boven Diemener (Booij 1998: 150):
+
+
+
+(4)
+
+Diemen + suffix      SuperHeavy        FootMax         Parse Syll    FootMin
+
+(di:mǝnǝr)F                            *!
+
+(di:mǝ)F(nǝr)σ                                          *!
+
+(di:mǝ)F(na:r)F                                                        *
+
+(di:mǝ)F(na:r)σ        *!                                *
+
+
+
+De volgende condities spelen hierbij een rol:
+
+
+
+(5)     SuperHeavy: superzware lettergrepen moeten het hoofd vormen van een voet
+
+        Foot Max: een voet bestaat uit maximaal 2 syllaben
+
+        Parse Syll: groepeer lettergrepen tot voeten
+
+        Foot Min: een voet bestaat uit minimaal 2 lettergrepen.
+
+
+
+Gegeven deze beperkingen en hun ranking als hierboven, is de vorm Diemenaar de optimale, omdat
+
+deze als enige de hoogste conditie niet schendt. In meer informele termen kunnen we dit als volgt
+
+
+                                                                                                     12
+beschrijven: het gebruik van -er zou leiden tot een reeks van twee schwa-syllaben, syllaben met schwa
+
+als klinker. Dit gaat in tegen het ritmisch verlangen van Nederlandse woorden om een afwisseling
+
+tussen beklemtoonde en onbeklemtoonde lettergrepen te hebben. In Diemenaar hebben we geen
+
+onbeklemtoonde lettergreep na de secundair beklemtoonde lettergreep -naar, en dus geen
+
+bisyllabische voet aan het woordeind, maar we vermijden zo in ieder geval een sequentie van twee
+
+onbeklemtoonde lettergrepen. Precies dezelfde principes zorgen ook voor de keuze tussen de twee
+
+meervoudssuffixen -s en -en, twee suffixen waarvan het evident is dat ze geen gemeenschappelijke
+
+onderliggende vorm hebben. De keuze wordt opnieuw bepaald door de ritmiek: we kiezen -en na een
+
+beklemtoonde lettergreep, zodat daardoor het woord uitgaat op een trochee, en -s na een
+
+onbeklemtoonde lettergreep, zodat ook dan de meervoudsvorm op een trochee eindigt. Dit wordt mooi
+
+geïllustreerd door het woordpaar kánons - kanónnen (zie Booij 1998, 2002).
+
+        Een wezenlijk voordeel van outputcondities is dus dat het 'waarom' van de keuze, het streven
+
+naar een fonologisch optimale vorm, direct wordt uitgedrukt: het zijn de fonologische condities met
+
+betrekking tot de optimale fonetische vorm die de selectie van de kandidaten sturen.
+
+        Wel moet erbij gezegd worden dat dit niet de hele waarheid is. Zo kunnen we na de stam van
+
+het werkwoord bezemen niet het suffix -aar gebruiken, ook al zou dat ritmisch optimaal zijn: het is
+
+bezemer, en niet *bezemaar. Het suffix -aar kan nooit optreden na een stem-finale /m/. Naast
+
+prosodische outputcondities kan dus ook fonologische subcategorisatie een rol spelen in de selectie
+
+van affixen. Dit wordt ook benadrukt in Lapointe (2001).
+
+        Het onafhankelijk bestaan van -aar en -er wordt ondersteund door de observatie dat er
+
+woorden zijn waar het 'verkeerde' suffix is gebruikt: -aar in woorden als zondaar en dienaar, waar we
+
+zonder en diener zouden verwachten, en -er in (blik)opener waar we openaar zouden verwachten.
+
+        Ook het suffix -der zullen we dus niet meer afleiden van de onderliggende vorm van -er door
+
+middel van een regel van /d/-insertie: -der heeft een eigen lexicale representatie, en wordt verkozen
+
+bover -er na stammen die op een /r/ uitgaan, zodat de sequentie /rr/ wordt vermeden. Het vermijden
+
+van deze sequentie kan gezien worden als het effect van een veel algemenere conditie, het Obligatory
+
+Contour Principle (OCP) dat zegt dat aangrenzende segmenten moeten verschillen in hun
+
+plaatskenmerken. Omdat de schwa geen eigen plaatskenmerken heeft, staan de twee /r/'s naast elkaar
+
+
+                                                                                                        13
+op het niveau van de kenmerken betreffende plaats en wijze van articulatie, en hebben daar dezelfde
+
+eigenschappen. Dit wordt nu verboden door het OCP. Merk op dat niet alleen het denominale en
+
+deverbale -er het suffix -der als alternatief hebben, maar ook het comparatiefsuffix -er: helder -
+
+helderder, duister - duisterder. Er zijn dus twee comparatiefsuffixen, -er en -der.
+
+        De suffixen -der en -aar concurreren na stammen op /r/. Voor een stam als luister wordt
+
+luisteraar verkozen boven luisterder omdat de eerste vorm het OCP niet schendt (de volle vocaal /a/
+
+heeft eigen articulatiekenmerken, en scheidt dus de identieke kenmerken van de twee /r/'s), en ritmisch
+
+optimaler is.
+
+        Het lexicaal gegeven zijn van -der blijkt ook uit woorden waar we dit suffix niet regulier
+
+verwachten: diender, vilder, maalder en Afrikaander bij voorbeeld, woorden die eigenlijk -er als
+
+suffix zouden moeten hebben.
+
+        Dezelfde stap zullen we moeten zetten bij de verantwoording van de allomorfie van het
+
+verkleinwoordsuffix, een klassiek paradepaardje van de Nederlandse fonologie. Zoals benadrukt wordt
+
+in Booij (1995), zijn de regels die de verschillende vormen uit een gemeenschappelijke onderliggende
+
+vorm /tj/ zouden kunnen afleiden, geen zuiver fonologische, maar morfolexicale regels, die in hun
+
+structurele beschrijving de aanwezigheid van het diminutiefsuffix vermelden. Zo volgt het voorkomen
+
+van een extra schwa, als in tonn-etje, niet uit een algemene regel van schwa-insertie. Verder is de
+
+richting van assimilatie van articulatieplaats in een verkleinwoord in een cluster van nasaal + /t/
+
+precies de omgekeerde van de algemene regressieve assimilatie, waarbij de nasaal zich aanpast aan de
+
+articulatieplaats van de volgende consonant (zoals in inkoop dat een velaire nasaal heeft), terwijl bij
+
+verkleinwoorden juist de obstruent (de /t/ van -tje) zich aanpast (koning-tje > konin-kje), en er dus
+
+sprake zou zijn van progressieve assimilatie.
+
+        In Borowsky (2000) wordt dit zelfde probleem aan de orde gesteld aan de hand van de
+
+allomorfie van het Nederlandse verledentijdssuffix. Ook hier geldt dat het suffix (-te of -de) zich
+
+aanpast aan de stemkenmerken van het laatste segment van de stam (progressieve assimilatie), terwijl
+
+normaal gesproken stemassimilatie regressief is (vergelijk maagd [ma:xt] met maagden [ma:xdǝn]: de
+
+slot-[t] van maagd maakt de voorafgaande fricatief stemloos). Borowsky stelt nu voor om de
+
+
+
+
+                                                                                                          14
+'omkering' van de richting van assimilatie te laten volgen uit de volgende algemene ranking van
+
+Faithfulness Constraints in Optimality Theory:
+
+
+
+(6)     Faithfulness-Root >> Faithfulness-Affix
+
+
+
+Deze constraint zegt dat veranderingen in de vorm van de wortel van een woord erger zijn dan
+
+veranderingen in de vorm van een affix. Als dus geëist wordt dat een NC-cluster homorganisch moet
+
+zijn, dan voorspelt de ranking (6) correct dat het suffix zich moet aanpassen, niet de stam van het
+
+verkleinwoord. Het probleem van deze benadering is echter dat er ook gevallen zijn waar de stam
+
+moet veranderen, niet het suffix. Zo verdwijnt in het Nederlands systematisch de slot-schwa van de
+
+stam voor een vocaal-initiëel suffix, als gevolg van de constraint dat de sequentie schwa-vocaal niet
+
+kan binnen één fonologisch woord. De ranking (6) zou nu juist voorspellen dat dan de vocaal van het
+
+suffix moet verdwijnen.
+
+        De conclusie is dus dat er vijf diminutiefsuffixen zijn, met een fonologisch complementaire
+
+distributie. Dat de vijf suffixen een eigen lexicale representatie moeten hebben wordt ondersteund
+
+door het bestaan van verkleinwoorden met de 'verkeerde' allomorf: bloemetje, bruggetje, weggetje,
+
+wieletje, etc.. Dergelijke verkleinwoorden zouden niet ontstaan kunnen hebben als de desbetreffende
+
+allomorfen niet een eigen lexicale representatie zouden hebben.
+
+        De selectie van het juiste verkleinwoordsuffix kan wel gedeeltelijk worden verantwoord door
+
+algemene fonologische output condities. De voorkeur voor 'kandidaat' riempje boven 'kandidaat'
+
+riemtje, en voor koninkje boven koningtje, kan gerelateerd worden aan de al genoemde universele
+
+conditie dat clusters van een nasaal en een volgende obstruent homorganisch moeten zijn. De voorkeur
+
+voor wegje boven wegtje kan begrepen worden op basis van de universele conditie dat CtC-clusters
+
+indien mogelijk vermeden moeten worden. Maar ook hier speelt fonologische subcategorisatie een rol:
+
+allomorfen moeten gesubcategoriseerd worden voor optreden in specifieke fonologisch gedefinieerde
+
+contexten. De keuze van kannetje boven kantje als verkleinwoord van kan volgt niet uit algemene
+
+fonologische output condities, zoals wordt bewezen door het feit dat kantje wel degelijk een goed
+
+
+
+
+                                                                                                        15
+verkleinwoord is, en -etje moet dus worden gesubcategoriseerd als het diminutiefsuffix voor woorden
+
+met een korte vocaal plus sonorante consonant in de slotsyllable van de stam
+
+        Ook de selectie van de juiste allomorf van de prefixen a-/an- en de- / des- kan verantwoord
+
+worden in termen van fonologische outputcondities, zoals te zien is aan de hand van de volgende
+
+voorbeelden:
+
+
+
+(7)     a-moreel, a-typisch, an-organisch, an-aesthesist
+
+        de-motiveren, de-componeren, des-informatie, des-interesse
+
+
+
+De selectie van de juiste allomorf kan hier tot stand komen dank zij de universele outputconditie 'Geen
+
+Lege Onset'. In desinteresse bij voorbeeld zorgt de /s/ van des- ervoor dat de tweede lettergreep van dit
+
+woord niet met een vocaal-initiële syllabe begint, maar met de consonant [s].
+
+        Een consequentie van deze benadering is dat de fonologische overeenkomst tussen de
+
+verschillende allomorfen van een morfeem niet meer wordt uitgedrukt door ze een
+
+gemeenschappelijke onderliggende vorm toe te kennen. De selectie verloopt niet anders dan bij twee
+
+concurrerende vormen die geen enkele fonologische gelijkenis vertonen, zoals geldt voor de
+
+meervoudssuffixen -s en -en. In feite is er sprake van een glijdende schaal van fonologische gelijkenis
+
+van allomorfen. In het standaard-Nederlands lijken de diminutiefsuffixen sterk op elkaar, in sommige
+
+Nederlandse dialecten is dat al minder, ook al zijn de fonologische contexten waarin ze verschijnen
+
+dezelfde. Vergelijk bij voorbeeld de volgende gegevens over verkleinwoorden in het Drents van
+
+Hoogeveen:
+
+
+
+(8)     boek    boek-ie
+
+        man     mann-echie
+
+        paar    paar-tie
+
+        riem    riem-pie
+
+
+
+
+                                                                                                      16
+De distributie van deze vier allomorfen loopt parallel met standaard-Nederlands -je, -etje, -tje en -pje,
+
+maar ze verschillen sterker want betreft hun medeklinkers (met name [x] versus [t]), en een
+
+fonologische derivatie uit één gemeenschappelijke onderliggende vorm in termen van algemene
+
+fonologische regels is niet mogelijk. Desondanks is de spreker van het Drents zeker in staat deze vier
+
+suffixen als verwant te herkennen in die zin dat ze alle vier diminuering uitdrukken.
+
+        Allomorfie is niet altijd allomorfie van het affix: ook stammen kunnen allomorfie vertonen.
+
+Dit is in het Nederlands een veel voorkomend verschijnsel (voor een overzicht, zie Booij 1995). Zo
+
+heeft het woord plato een allomorf platon-, als in platonisch. De selectie is hier echter doorgaans niet
+
+in termen van fonologische condities, maar in termen van een onderscheid tussen inheemse en
+
+uitheemse allomorfen; de uitheemse suffixen kiezen dan de uitheemse allomorf. De allomorf platon-
+
+bijvoorbeeld is de uitheemse allomorf, en wordt gekozen door alle uitheemse suffixen: platon-ist,
+
+platon-isme. In een taal als het Pools daarentegen, met veel stamallomorfie, kan de selectie van de
+
+juiste stamallomorf heel goed verantwoord worden in termen van fonologische output condities
+
+(Rubach and Booij 2001).
+
+        Deze benadering van allomorfie impliceert dus een veel concretere fonologie, zonder
+
+complexe derivaties: de allomorfen van een morfeem zijn alle lexicaal gerepresenteerd, en de selectie
+
+ervan vindt plaats in termen van fonologische output condities, soms in combinatie met fonologische
+
+subcategorisatiecondities, condities die affixen opleggen aan de onderliggende vorm van het
+
+basiswoord. Een consequentie hiervan is dat er geen directe uitdrukking meer is in de grammatica van
+
+het feit dat –er en –aar fonologisch meer op elkaar lijken dan bij voorbeeld –er en –ling.
+
+
+
+4. Onderliggende vormen en lexicale representaties
+
+
+
+We keren terug naar het voorbeeld hoed- hoeden waarin sprake is van alternantie in de fonetische
+
+vorm van het morfeem hoed. De klassieke benadering van deze allomorfie, die bepaald wordt door een
+
+automatische fonologische regel, die van Final Devoicing (een obstruent is stemloos in coda-positie),
+
+is om een onderliggende vorm /hud/ aan te nemen, van welke de twee allomorfen worden afgeleid.
+
+
+
+
+                                                                                                        17
+Van die onderliggende vorm wordt tegelijk aangenomen dat dit de vorm is waarin we de fonologische
+
+informatie over het morfeem hoed in ons lexicaal geheugen opslaan.
+
+        Toch zijn er argumenten voor de stelling dat in sommige gevallen beide allomorfen van een
+
+morfeem met deze alternantie opgeslagen zijn in ons lexicaal geheugen.
+
+        Een eerste categorie woorden die ik hier wil bespreken zijn woorden als de volgende:
+
+
+
+(9) smid – smeden, god –goden, lid –leden, rat –raderen
+
+
+
+In deze gevallen moet namelijk zowel de enkelvouds- als de meervoudsvorm opgeslagen worden in
+
+het lexicon, omdat de meervoudsvorm onregelmatig is: deze heeft een lange vocaal in plaats van de
+
+verwachte korte. Deze alternantie is een historische regel van het proces van vocaalverlenging in open
+
+lettergreep, een manifestatie van de bekende Wet van Prokosch voor het Germaans die zegt dat
+
+beklemtoonde lettergrepen zwaar moeten zijn. Omdat in de meervoudsvorm na aanhechting van het
+
+meervoudssuffix de open lettergreep alleen een korte vocaal bevat, niet meer gevolgd door een
+
+consonant, moet die vocaal gerekt worden. Een mooi voorbeeld van een Germaanse taal waarin de
+
+Wet van Prokosch ook synchroon nog geldt is het Noors (Kristoffersen 2000).
+
+        Men kan zich nu de vraag stellen hoe de fonologische informatie over een woord als smid
+
+wordt opgeslagen, als /smιd/ of als /smιt/. De eerste vorm is nodig om een correcte meervoudsvorm te
+
+genereren, met een morfeem-finale [d], maar de noodzaak ervoor is verdwenen met het feit dat die
+
+meervoudsvorm toch apart opgeslagen wordt. Er is dan niets meer op tegen om /smιt/ als de lexicale
+
+vorm te nemen. Dit wordt bevestigd door ‘paradigmatic leveling’ in het Afrikaans: precies in die
+
+gevallen met een onvoorspelbare klinkeralternantie heeft het Afrikaans een meervoudsvorm met een
+
+stemloze obstruent in morfeem-finale positie:
+
+
+
+(10)    smitten, gotten, litten, ratten
+
+
+
+        In het Nederlands doet zich dit verschijnsel nauwelijks voor, maar toch ook. De
+
+enkelvoudsvorm [stɑt] van stad, met de onregelmatige meervoudsvorm steden, is blijkbaar in die
+
+
+                                                                                                     18
+concrete vorm opgeslagen, want deze heeft geleid tot het werkwoord statten ‘de stad ingaan om
+
+inkopen te doen’ en tot een inwonersnaam als Lelystatter (dat de gewone vorm is naast de ambtelijke
+
+vorm Lelystedeling). Daar staat tegenover dat, zolang de enige alternantie tussen enkelvouds- en
+
+meervoudsvorm die is tussen een stemloze en een stemhebbende obstruent, paradigmatic leveling zich
+
+niet voordoet. Dat heeft ongetwijfeld te maken met het feit dat deze alternantie volgt uit een
+
+automatische fonologische regel, die van Final Devoicing. De systematiek achter deze alternantie is
+
+dus heel doorzichtig, en kan daarom moeiteloos gehandhaafd worden..
+
+        Er is een tweede groep data waaruit blijkt dat de allomorf met stemloze obstruent aan het eind
+
+beschikbaar moet zijn als lexicale representatie, omdat deze fungeert als stam voor gelede woorden.
+
+Het gaat hier om lexicale morfemen met aan het eind een labiale of alveolaire fricatief, die fungeren
+
+als stam voor woorden op –(e)lijk en –enis. Het gaat daarbij niet alleen om stammen die ook een
+
+onvoorspelbare alternantie hebben, maar ook om verder regelmatige woorden:
+
+
+
+(11)    woorden gesuffigeerd met –(e)lijk:
+
+        met extra alternantie: loff-elijk (vgl. loven), hoff-elijk (vgl. hoven)
+
+        regelmatig: bederf-elijk, erf-elijk, gerief-lijk, graf-elijk, lief-elijk, ongelof-elijk, ongenees-lijk,
+
+        toegeef-lijk, vles-elijk
+
+        woorden gesuffigeerd met –enis:
+
+        met extra alternantie: vergiff-enis
+
+        regelmatig: begraf-enis, erf-enis, laf-enis
+
+
+
+Uitzonderlijk gevallen zijn beelt-enis en verbint-enis, met een stamfinale explosief. De stemloosheid
+
+van de stamfinale obstruent volgt in de positie voor –elijk en -enis niet uit Final Devoicing. De
+
+obstruent bevindt zich immers niet in codapositie, maar fungeert als onset van de volgende syllabe
+
+waarvan de suffix-initiële schwa de kern vormt. Dat impliceert dat de allomorfen met stemloze slot-
+
+obstruent lexicaal gerepresenteerd moeten zijn. Ik moet daar wel aan toevoegen dat deze suffixen
+
+improductief zijn. Dat betekent dat deze woorden in hun geheel worden opgeslagen in het lexicon. De
+
+allomorfen met finale stemloze obstruent hoeven dus niet afzonderlijk te worden gerepresenteerd,
+
+
+                                                                                                             19
+maar alleen als deel van bestaande gelede woorden. Wat deze feiten echter wel suggereren is dat het
+
+afgeleid zijn van een gemeenschappelijke onderliggende vorm geen noodzakelijke voorwaarde is voor
+
+het herkennen van twee vormen als gerelateerd. Het kost de moedertaalspreker geen grote moeite om
+
+het adjectief liefelijk dat is afgeleid van de stam /lif/ te zien als afgeleid van het adjectief lief, ook al
+
+heeft dat adjectief de onderliggende vorm /liv/ vanwege de verbogen vorm lieve.
+
+        Hierboven zagen we al dat er beperkingen bestaan op de combinatie van vocalen en
+
+fricatieven: binnen morfemen wordt een lange vocaal niet gevolgd door een stemloze fricatief. Een
+
+tweede beperking is nu dat na een korte vocaal /v/ en /z/ niet kunnen optreden (uitzonderingen zijn
+
+leenwoorden als puzzel, mazzel en razzia). Deze beperking kan nu in verband gebracht worden met
+
+alternanties in woordparen als de volgende:
+
+
+
+(12)    glas-glazen, hof-hoven, lof-loven, staf-staven
+
+
+
+De vormen met een finale stemloze fricatief worden voorafgegaan door een korte vocaal, en vormen
+
+als /γlɑz/ komen dus niet voor. Afgeleide woorden hebben dus altijd of de combinatie korte vocaal met
+
+/f,s/, of lange vocaal met /v,z/:
+
+
+
+(13)    glasje            glazenier, glazig, glazuur
+
+        hoffelijk         hoveling, hovenier
+
+        loffelijk         lovend
+
+        gelofte           geloven, gelovig
+
+        stafje            staven
+
+
+
+Het woord staafje is geen tegenvoorbeeld: dit is afgeleid van /sta:v/, maar de slot-/v/ is stemloos
+
+geworden omdat deze zich in codapositie bevindt.
+
+        De consequentie van deze feiten is opnieuw dat we twee lexicale vormen moeten opslaan voor
+
+woorden als hof, een op /f/ en een op /v/, ook al is die alternantie op zich voorspelbaar via de regel van
+
+Final Devoicing. Een vorm als /hɔv/ schendt een beperking, en komt daarom nooit als zodanig aan de
+
+
+                                                                                                                20
+oppervlakte. Daarom zal deze niet als lexicale representatie voorkomen. Met andere woorden, het feit
+
+dat een alternantie voorspelbaar is, betekent niet automatisch dat lexicale representaties kunnen
+
+abstraheren van deze alternantie. Dit laat opnieuw zien dat het hebben van een gemeenschappelijke
+
+onderliggende vorm geen voorwaarde is voor het herkennen van verwantschap tussen woorden:
+
+sprekers van het Nederlands hebben geen moeite met het herkennen van het verband tussen bij
+
+voorbeeld hof en hoveling.
+
+        Meer algemeen doet zich de vraag voor of de begrippen ‘onderliggende vorm’ en ‘lexicale
+
+vorm’ niet beter onderscheiden moeten worden. De term ‘onderliggende vorm’ verwijst naar de vorm
+
+die uitgangspunt is voor verdere morfologische operaties, terwijl de notie ‘lexicale vorm’ betrekking
+
+heeft op de representatie in het geheugen. Een onderliggende vorm hoeft niet lexicaal opgeslagen te
+
+zijn, maar kan ook uitgerekend worden op het moment dat het nodig is. Wat is er bijvoorbeeld op
+
+tegen om de woorden hoed en hoeden afzonderlijk op te slaan, in hun fonetische vorm? De
+
+onderliggende vorm /hud/ is alleen nodig bij het vormen van een nieuw woord of een nieuwe
+
+inflectionele vorm van een woord. We weten uit psycholinguïstisch onderzoek (cf. Baayen et al. 1997)
+
+dat veel meervoudsvormen, ook regelmatige, worden opgeslagen. Welke woorden zou men van hoed
+
+willen afleiden? Er zijn, lijkt me, heel weinig redenen om permanent een onderliggende vorm /hud/ ter
+
+beschikking te hebben. Als dat juist is, wordt de fonologie in die zin concreter dat de effecten van
+
+fonologische regels/beperkingen al worden opgenomen in de lexicale representaties van woorden. Het
+
+zijn in die visie dus niet primair de fonetische vormen van woorden die moeten worden uitgerekend,
+
+maar de onderliggende. Omdat we de fonetische vormen van bestaande woorden en woordvormen
+
+vaker nodig hebben dan onderliggende vormen, is dit een voor de hand liggende positie vanuit het
+
+perspectief van taalproductie en –perceptie.
+
+        De gedachte dat het effect van fonologische regels ook kan of moet worden geïncorporeerd in
+
+de lexicale representaties van woorden wordt bevestigd door het verschijnsel van lexicale diffusie:
+
+simpel gezegd tast dan een bepaalde regel tast de woorden één voor één aan. Dat kan alleen als het
+
+effect van die regel deel gaat uitmaken van de lexicale representatie. Zo veroorzaakt het proces van
+
+klinkerreductie in het Nederlands alternanties als die in
+
+
+
+
+                                                                                                        21
+(14)    pǝrsoon - persǝneel
+
+        pǝrcent – percǝntage
+
+
+
+omdat een onbeklemtoonde klinker kan worden gerealiseerd als een schwa, behalve in de laatste
+
+syllabe van een woord (cf. Booij 1995). Maar er zijn ook woorden waar de reductievocaal, de schwa,
+
+altijd moet optreden, zoals in de tweede syllabe van juwelier. In dat geval moet de schwa dus deel
+
+uitmaken van de lexicale representatie van het woord: het effect van klinkerreductie wordt opgenomen
+
+in de lexicale representatie. Ook hier geldt dat dit niet in de weg staat dat een taalgebruiker het woord
+
+juweel kan herkennen in het woord juwelier. Meer algemeen geldt dat het bestaan van een regel niet
+
+impliceert dat de effecten ervan niet worden opgeslagen in lexicale representaties. Lexicale
+
+representaties kunnen dus dichter bij de fonetische vorm staan dan in de klassieke generatieve
+
+fonologie werd aangenomen, en ook dit illustreert weer de ontwikkelingslijn in de fonologie die ik
+
+benoemd heb met de term ‘concrete fonologie’.
+
+
+
+
+Bibliografie
+
+
+
+Baayen, Harald, Dijkstra, Ton, and Schreuder, Robert (1997), 'Singulars and Plurals in Dutch.
+
+Evidence for a Dual Parallel Route Model', Journal of Memory and Language 37, 94-119.
+
+Booij, Geert (1982), 'Hiërarchische fonologie'. Inaugurele oratie, Vrije Universiteit Amsterdam.
+
+Booij, Geert (1995), The Phonology of Dutch. Oxford: Oxford University Press.
+
+Booij, Geert (1996), 'Cliticization as prosodic integration: the case of Dutch', The Linguistic Review
+
+13, 219-242.
+
+Booij, Geert (1997), 'Non-derivational phonology meets Lexical Phonology', in Iggy Roca (ed.),
+
+Derivations and Constraints in Phonology. Oxford: Clarendon Press, 261-288.
+
+Booij, Geert (1998), 'Phonological output constraints in morphology', in Wolfgang Kehrein & Richard
+
+Wiese (eds.), Phonology and Morphology of the Germanic Languages. Tübingen: Niemeyer, 143-163.
+
+
+
+
+                                                                                                         22
+Booij, Geert (1999a), 'The role of the prosodic word in phonotactic generalizations', in T. Alan Hall &
+
+Ursula Kleinhenz (eds.), Studies on the Phonological Word. Amsterdam / Philadelphia: Benjamins,
+
+48-72.
+
+Booij, Geert (1999b), 'Morpheme structure constrains and the phonotactics of Dutch', in Harry van der
+
+Hulst & Nancy Ritter (eds.), The Syllable. Views and Facts. Berlin: Mouton de Gruyter, 53-68.
+
+Booij, Geert (2000), 'The phonology-morphology-interface', in Lisa Cheng & Rint Sybesma (eds.),
+
+The First Glot International State-of-the-Article Book. Berlin: Mouton de Gruyter, 287-306.
+
+Booij, Geert (2002), The Morphology of Dutch. Oxford: Oxford University Press
+
+Booij, Geert & Jerzy Rubach (1987), 'Postcyclic versus postlexical rules in Lexical Phonology',
+
+Linguistic Inquiry 18, 1-44.
+
+Borowsky, Toni (2000), ‘Word-faithfulness and the Direction of Assimilation’, The Linguistic Review
+
+17, 1-28.
+
+Carstairs-McCarthy, Andrew (1988), 'Some implications of phonologically conditioned suppletion', in
+
+Geert Booij & Jaap van Marle (eds.), Yearbook of Morphology 1988. Dordrecht: Foris, 67-94.
+
+Chomsky, Noam & Morris Halle (1968). The Sound Pattern of English. New York: Harper & Row.
+
+Fabb, Nigel (1988), 'English suffixation is constrained only by selectional restrictions', Natural
+
+Language and Linguistic Theory 6, 527-539.
+
+Gussmann, Edmund (1980), Studies in Abstract Phonology. Cambridge Mass.: MIT Press.
+
+Hooper, Joan B (1972), 'The syllable in phonological theory', Language 48, 525-540.
+
+Ito, Junko, Armin Mester & Jay Padgett (1993), 'Licensing and underspecification in Optimality
+
+Theory', Linguistic Inquiry 26, 571-614.
+
+Jakobson, Roman (1949), 'The phonemic and grammatical aspects of language in their interrelations',
+
+in id., Essais de linguistique générale. Paris: Payot [1963].
+
+Kager, René (1999), Optimality Theory. Cambridge: Cambridge University Press.
+
+Kiparsky. Paul (1973), 'How abstract is phonology?', in id, Explanation in Phonology. Dordrecht:
+
+Forsi, 1982, 119-164.
+
+Kristoffersen, Gjert (2000). The Phonology of Norwegian. Oxford: Oxford University Press.
+
+
+
+
+                                                                                                     23
+Lapointe, Steven (2001), 'Stem selection and OT', in Geert Booij & Jaap van Marle (eds.), Yearbook of
+
+Morphology 1999. Dordrecht: Kluwer, 263-298.
+
+McCarthy, John J. & Alan Prince (1994), 'Generalized Alignment', in Geert Booij & Jaap van Marle
+
+(eds.), Yearbook of Morphology 1993. Dordrecht: Kluwer, 79-153.
+
+Plag, Ingo (1996), 'Selectional restrictions in English suffixation revisited; a reply to Fabb (1988)',
+
+Linguistics 34, 769-798.
+
+Postal, Paul (1968), Aspects of Phonological Theory. New York: Harper & Row.
+
+Rubach, Jerzy (1984), Cyclic and Lexical Phonology. The Structure of Polish. Dordrecht: Foris.
+
+Rubach, Jerzy & Geert Booij (2001), 'Allomorphy in Optimality Theory: Polish Iotation', Language
+
+77, 26-60.
+
+Smith, Norval S. H. (1976), '-Aar', Leuvense Bijdragen 76, 486-496.
+
+Zonneveld, Wim (1983), 'Lexical and phonological properties of Dutch voicing assimilation', in
+
+Marcel van den Broecke, Vincent van Heuven & Wim Zonneveld (eds.), Sound Structures. Studies for
+
+Antonie Cohen. Dordrecht: Foris, 297-312.
+
+
+
+
+                                                                                                          24
+

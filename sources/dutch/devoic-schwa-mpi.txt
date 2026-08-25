@@ -1,0 +1,206 @@
+                         PHONOLOGICAL VARIATION:
+                 EPENTHESIS AND DELETION OF SCHWA IN DUTCH
+
+                                Cecile Kuijpers, Wilma van Donselaar & Anne Cutler
+
+                          Max-Planck-Institut für Psycholinguistik, Wundtlaan 1, 6525 XD
+                            Nijmegen, The Netherlands, E-mail: cecile.kuijpers@mpi.nl
+
+
+                     ABSTRACT                                  Schwa deletion occurs during the realization of poly-
+                                                               syllabic, mostly trisyllabic words. Schwa is optionally
+Two types of phonological variation in Dutch, resulting        deleted if the following syllable is headed by a full vowel,
+from optional rules, are schwa epenthesis and schwa            and especially if the preceding vowel is somewhat
+deletion. In a lexical decision experiment it was              reduced. Words like 'envelop' [DnvBl<p] (envelop) and
+investigated whether the phonological variants were            'kapelaan' (curate) [k8pBlan] are thus realized as [Dnvl<p]
+processed similarly to the standard forms. It was found        and [k8plan]. Schwa deletion is most likely to occur if the
+that the two types of variation patterned differently. Words   resulting cluster is an obstruent-liquid cluster, generally
+with schwa epenthesis were processed faster and more           the most favoured kind of onset cluster (Booij, 1995).
+accurately than the standard forms, whereas words with
+schwa deletion led to less fast and less accurate responses.   In a phonological analysis schwa epenthesis is normally
+The results are discussed in relation to the role of           characterized as syllable-based. As indicated above,
+consonant-vowel alternations in speech processing and the      epenthetic schwa only occurs if the liquid-obstruent cluster
+perceptual integrity of onset clusters.                        is tautosyllabic and if the two segments do not share their
+                                                               place features (see Kager & Zonneveld, 1986; Trommelen
+                                                               & Zonneveld, 1989). However, epenthetic schwa also
+               1. INTRODUCTION                                 occurs in disyllabic words but only if the second syllable
+                                                               contains a schwa (e.g., 'erker' (bay) is realized as [DrkBr]
+In Dutch, many phonological rules at the word level have       but also as [DrBkBr]). Schwa epenthesis in disyllabic
+an obligatory character, for instance Final Devoicing and      words is either explained by ambisyllabicity or by
+Degemination (Booij, 1995). The final devoicing rule           appendix theory. If the /k/ in 'erker' is considered
+indicates that a voiced obstruent in word-final position       ambisyllabic it is not only the onset in /kBr/ but also part
+becomes devoiced, e.g., 'rood' (red) is pronounced as          of the coda in /Drk/. Thus, the cluster /rk/ is syllable-final
+[ro:t]. Degemination is obligatory as soon as a cluster of     and epenthesis can occur (Berendsen & Zonneveld, 1985).
+two identical consonants arises in a word, e.g., 'grootte'     If the following segments /Br/ are treated as an appendix
+(size) is pronounced as [xro:tB]. However, not all             the cluster /rk/ is also considered syllable-final (see also
+phonological rules that apply within words are obligatory.     de Haas, 1986; Trommelen & Zonneveld, 1989).
+There are also rules that optionally apply, such as Schwa
+Epenthesis and Schwa Deletion (see also Booij, 1995).          From a phonetic point of view it is quite natural that only
+                                                               heterorganic consonant clusters are broken up since they
+Schwa epenthesis typically occurs in non-homorganic            require more articulatory effort than homorganic clusters
+consonant clusters consisting of liquids followed by non-      (Booij, 1995). The articulators have to move from one
+coronals. In non-homorganic consonant clusters the             place to the other, e.g., in 'tolk' [t<lk] from alveolar /l/ to
+constituent phonemes are realized at different places of       velar /k/. If the alveolar is pronounced with a backward
+articulation. For instance, the Dutch word 'tolk' [t<lk]       tongue movement epenthetic schwa is not likely to appear,
+(interpreter) is also realized as 'tolluk' [t<lBk], and the    whereas an anterior articulation of the alveolar /l/ easily
+word 'kerk' [kDrk] (church) is also realized as [kDrBk].       leads to schwa-insertion. In words like 'pols' [p<ls] (wrist)
+Epenthetic schwa does not occur in clusters consisting of      the place of articulation of the cluster /ls/ is alveolar and
+liquids and coronals, nor in clusters consisting of a nasal    schwa epenthesis is prohibited.
+and a homorganic consonant (e.g. 'hals' [h8ls] (neck) can
+not be realized as *[h8lBs], and 'damp' [d8mp] (vapour)        So far, schwa epenthesis and schwa deletion in Dutch
+can not be realized as *[d8mBp]).                              have mainly been described in phonological studies. In the
+present study psycholinguistic methods are used to ask
+                                                                   phonological variation:      phonological variation:
+how listeners process word forms with epenthesis and                    Epenthesis                    Deletion
+deletion. The realizations that diverge least from the
+orthographic forms are here considered the 'standard'
+forms ([t<lk] and [k8pBlan]); the realizations with schwa       bal(B)k (beam)                dicht(B)res (poetess)
+epenthesis and schwa deletion ([t<lBk] and [k8plan]) are        dor(B)p (village)             dift(B)rie (diphteria)
+considered the phonological variants.                           gal(B)g (gallows)             kap(B)laan (curate)
+                                                                hel(B)m (helmet)              pors(B)lein (porcelain)
+Phonological variation in speech has been a topic of            nor(B)m (standard)            lib(B)raal (liberal)
+                                                                per(B)k (bed)                 ref(Braat (lecture)
+research in several studies. For instance, Gaskell &
+                                                                pul(B)p (pulp)                taf(B)reel (tableau)
+Marslen-Wilson (1996) investigated the effects of
+                                                                tol(B)k (interpreter)         vet(B)raan (veteran)
+contextually induced phonological assimilation on word          vel(B)g (rim)
+recognition. Schwa epenthesis and schwa deletion cause          ver(B)f (paint)
+the same lexical item to be realized in two different,          vol(B)k (people)
+acceptable ways. The aim of the present study is to             wal(B)m (smother)
+investigate, in an auditory lexical decision experiment,
+whether listeners process the phonological variants as
+efficiently as the standard realizations. Since the            Table 1: Stimulus words used in the lexical decision
+phonological variants are optional it is predicted that the    experiment. The inserted/deleted schwa is indicated between
+standard realizations would be responded most rapidly and      brackets.
+most accurately.
+                                                               2.2.     Subjects
+                     2. METHOD
+                                                               Fifty-six subjects, all students at the University of
+                                                               Nijmegen, were tested. They were all native speakers of
+2.1.     Material
+                                                               Dutch and were paid for their participation.
+Test items. Twelve items with schwa epenthesis (type
+'tolk'), and 8 items with schwa deletion (type 'kapelaan')     2.3.     Procedure
+were selected from the CELEX database (Burnage, 1990).
+The items are indicated in Table 1. If schwa deletion takes    Two different realizations of each word, e.g., [t<lk] vs.
+place obstruent-liquid sequences are created that constitute   [t<lBk] and [k8pBlan] vs. [k8plan], were tested. To avoid
+legal onset clusters.                                          an effect of repetition of the same items two experimental
+                                                               versions were used. In both versions the same items
+Filler items. One part of the filler material was matched      occurred in the same order. Standard realizations and
+to the test items and therefore occurred in two forms, i.e.    phonological variants were counterbalanced across the two
+with and without schwa. These were twelve monosyllabic         versions. Subjects were tested in pairs, in separate sound-
+and twelve disyllabic items with non-homorganic clusters       treated booths. All items were presented via headphones.
+(*golk/*golluk and *bilk/billuk), twelve monosyllabic          Subjects had to decide as quickly as possible whether the
+items with homorganic clusters (vers/*verrus), and eight       stimulus was a real word or not. They made 'yes/no'
+trisyllabic items with medial obstruent-liquid cluster         responses to the stimuli by pressing the corresponding
+(*kiepeloon/ *kieploon). The items indicated by an             button. If subjects did not respond within 1500 ms the
+asterisk are all pseudowords. The additional filler material   response was 'missing'. Reaction times were measured
+consisted of monosyllabic items, disyllabic items with full    from word onset.
+vowel and schwa, disyllabic items with two full vowels,
+and trisyllabic items. Fifty percent of the items were real                          3. RESULTS
+words and fifty percent were pseudowords.
+                                                               The average hit rate for the 'tolk' type of words was high,
+Recording. All items were read by a female speaker and         both for the standard forms and the realizations with
+recorded on DAT tape (Sony DAT recorder). The words            epenthetic schwa. With respect to the 'kapelaan' type of
+were digitized with 20 kHz sampling frequency and              words there was a large difference between the standard
+spliced using the speech editing system Xwaves.                forms and the realizations with schwa deletion. Hit rates
+                                                               for both types of words are indicated in Figure 1. The
+light bars reflect the standard forms, the dark bars reflect   Surprisingly, words with epenthetic schwa were 60 ms
+the phonological variants. With respect to schwa               shorter than the standard realizations, although they
+epenthesis there was no significant difference between the     contain more phonetic segments. Mean durations are
+hit rates for the standard forms and the words with schwa      displayed in Table 2.
+epenthesis. Realizations with schwa deletion had a lower
+hit rate than the standard forms. The difference was
+                                                                                          Epenthesis        Deletion
+significant in the subjects analysis [F1(1,55)=84.71;
+p<0.001] and in the items analysis [F2(1,7)=13.30;              Standard                  740               834
+p<0.01]. Analysis of the 'no' responses indicated that 25%                                'tolk'            'kapelaan'
+of the items with schwa deletion were processed as a
+nonword, and 16% of the items were 'missing'.                   Phonological variant      680               774
+                                                                                          'tolluk'          'kaplaan'
+In a lexical decision task listeners have to make a decision
+about the lexical status of the item as quickly as possible.   Table 2: Mean durations in ms of the standard realizations and
+Processing of the word forms is reflected in the reaction      the words with schwa epenthesis and schwa deletion.
+times of the yes-responses. Contrary to the prediction, it
+was found that the words with epenthetic schwa, i.e. the       Additional analyses were carried out in which word
+phonological variant, were processed faster than the           duration was taken into consideration. First, reaction times
+standard realizations. In an analysis of variance the          were correlated with word durations. A relatively low
+difference was significant in the subjects analysis            correlation was found (pearson's r=0.19). Apparently, there
+[F1(1,55)=9.05; p<0.01] and marginally significant in the      was no systematic relation between word duration and
+items analysis [F2(1,11)=4.62; p=0.055]. Reaction times        reaction time. With respect to schwa deletion there was no
+are displayed in Figure 2. With respect to schwa deletion,     significant correlation between the two measures.
+the standard realizations were processed faster than the
+words with schwa deletion, as predicted. This difference       Next, reaction times to both types of words
+was significant in the items analysis [F2(1,7)=9.70;           ('tolk'/'kapelaan') were subjected to separate analyses of
+p<0.05], but not in the subjects analysis                      covariance. Word duration was included as the covariate.
+                                                               In general, the results remained the same. Again, it was
+Reaction times were measured from word-onset and might         found that the phonological variants with epenthetic schwa
+have been influenced by word duration. With respect to         were processed significantly faster than the standard
+schwa deletion it was found that the standard realizations     realizations [F1(1,54)=8.21;p<0.01]. The effect disappeared
+were 60 ms longer than the words with schwa deletion.          in the items analysis. With respect to schwa deletion the
+
+
+
+
+Figure 1: Hit rates (%) for standard forms and phonological    Figure 2: Reaction times (ms) for standard realizations and
+variants with schwa epenthesis and schwa deletion.             phonological variants with schwa epenthesis and schwa deletion.
+standard realizations were processed significantly faster     change in perceived syllabic structure (van Donselaar,
+than the phonological variants [F2(1,6)=7.44; p<0.05]. No     Kuijpers & Cutler, 1996). The present data on schwa
+effect was found in the subjects analysis.                    deletion suggest that onset clusters do not allow schwa-
+                                                              insertion, whereas offset clusters do, and that onset
+                  4. DISCUSSION                               clusters are perceived as integral units, whereas offset
+                                                              clusters are not. Treiman (1983) and Cutler, Butterfield &
+Two types of phonological variation were examined in          Williams (1987) also provided strong evidence of the
+relation to speech processing: schwa epenthesis and schwa     perceptual integrity of onset clusters.
+deletion. Both phonological variants are optional in Dutch.
+It was expected that in a lexical decision experiment the                        5. REFERENCES
+standard realizations, corresponding more closely to the
+orthographic forms, would be responded to most rapidly        1. Berendsen, E. & Zonneveld, W. "Nederlandse schwa-
+and most accurately.                                             invoeging op z'n Deens". Spektator 14: 166-169,
+                                                                 1985.
+The results only partially confirm the predictions. With
+respect to schwa deletion the standard realizations           2. Booij, G. The phonology of Dutch. Oxford: Clarendon
+displayed a much higher hit rate than the phonological           Press.
+variants. Words with schwa epenthesis, however, were
+responded to as accurately as the standard realizations.      3.   Burnage, G. CELEX: A guide for users. Centre for
+The two types of phonological variation also patterned             Lexical Information, University of Nijmegen, 1990.
+differently in the reaction times. Words realized with
+                                                              4.   Cutler, A., Butterfield, S. & Williams, J. "The
+schwa deletion were indeed processed less rapidly than the
+                                                                   perceptual integrity of syllabic onsets". Journal of
+standard realizations, but words with schwa epenthesis
+                                                                   Memory and Language 26: 406-418, 1987.
+were processed more rapidly than their standard
+counterparts. The data show that the word forms processed     5.   Donselaar, W. van, Kuijpers, C. & Cutler, A. "How
+most accurately and most rapidly are not necessarily those         do Dutch listeners process words with epenthetic
+that correspond to the orthographic forms.                         schwa?". In Proceedings of the IVth International
+                                                                   Congress of Spoken Language Processing, 1996.
+The preference for words with epenthetic schwa (type
+'tolluk') and for words without schwa deletion (type          6.   Gaskell, G. & Marslen-Wilson, W. "Phonological
+'kapelaan') may be related to the internal structure of the        variation and inference in lexical access". Journal of
+words. Both types of realizations have alternating                 Experimental Psychology: Human Perception and
+consonant-vowel sequences, whereas the standard forms              Performance 22, 144-158, 1996
+without epenthesis (type 'tolk') and the phonological
+variants with schwa deletion (type 'kaplaan') have            7.   Haas, W. de. "Partial syllabification and schwa
+consonant clusters. There is reason to assume that the             epenthesis in Dutch". Gramma 10: 143-162, 1986.
+acoustic characteristics of consonant sequences affect the
+perceptibility of segments within clusters (see Treiman et    8.   Kager, R. & Zonneveld, W. "Schwa, syllables and
+al., 1982) and that speech processing is facilitated if            extrametricality". The Linguistic Review 5: 197-222,
+consonant-vowel alternations occur in the word. The                1986.
+present data might point in that direction: Sometimes the
+standard realization is favoured and sometimes the            9.   Treiman, R., Salasoo, A., Slowiaczek, L. & Pisoni, D.
+phonological variant, but in each case the favoured variant        "Effects of syllable structure on adults' phoneme
+avoid consonantal sequences.                                       monitoring performance." Progress Report 8, Indiana
+                                                                   University Speech Research Laboratory, 1982.
+The relatively low hit rate and slow responses to the
+                                                              10. Treiman, R. "The structure of spoken syllables:
+words with schwa deletion may result from a change in
+                                                                  Evidence from novel word games". Cognition 15: 49-
+syllabic structure. If schwa is deleted in words like
+                                                                  74, 1983.
+'kapelaan' a new onset cluster [pl] is created, and the
+syllabic structure of the word changes into a sequence of     11. Trommelen, M. & Zonneveld, W. Klemtoon en
+[k8] followed by [plan]. Schwa-insertion in a syllable-           metrische fonologie. Muiderberg: Coutinho, 1989.
+final consonant cluster, however, does not lead to a
+

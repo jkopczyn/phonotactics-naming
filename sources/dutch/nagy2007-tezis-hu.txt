@@ -1,0 +1,568 @@
+              EÖTVÖS LORÁND TUDOMÁNYEGYETEM
+                   BÖLCSÉSZETTUDOMÁNYI KAR
+                   Nyelvtudományi Doktori Iskola
+                   Germanisztikai nyelvtudomány
+
+
+
+
+              Doktori (PhD) disszertáció tézisei
+
+
+
+
+                         Nagy Roland
+
+
+
+
+Kölcsönszavak fonológiai integrációja a holland nyelvbe
+
+
+
+
+                            Témavezető
+
+              Dr. Mollay Erzsébet, CsC, egyetemi docens
+
+
+
+
+                              Budapest
+
+                                2010
+1 Bevezető
+
+
+A nyelv legkevésbé stabil, legkönnyebben változó szintje a szókincs. A nyelvi érintkezés
+során is a szavak az elsők, amelyek egyik nyelvből a másikba kerülnek (Coetsem 1988:26;
+Thomason és Kaufman 1988:37). A szó azonban olyan – a nyelv több szintjét is önmagában
+egyesítő egység –, amely ha a kölcsönzés során egyik nyelvből a másikba kerül, akkor
+szemantikai tulajdonságain túl formai jegyeinek egy részét is megőrizheti (Sankoff
+2002:658). Ezen formai jegyek közé tartozik a kölcsönszavak hangtani szerkezete is
+(Heffernan 2005; LaCharité és Paradis 2005): az egyes hangtestek és fonológiai
+szegmentumok, ezek sorai és a prozódiai jellemzők, elsősorban a hangsúly.
+          A   kölcsönszavak      hangalakja   legtöbbször   hozzáidomul     a   kölcsönző    nyelv
+hangrendszeréhez (Bloomfield 1934:445 skk.), ám kellően hosszú és dinamikus nyelvi
+érintkezés során előfordulhat, hogy a hangalak egyes elemei megtartják eredeti, idegenes
+formájukat (Benkő 1987:197 k.). A kölcsönszavakban olykor idegen, az adott nyelv
+autochton       fonológiájától    eltérő   prozódiai   jegyeket,    hangokat     és   fonotaktikai
+elrendeződéseket találunk, amilyen például a nazális magánhangzó [ɑ̃], a [krʋ]
+mássalhangzó-sor és a véghangsúly a mai holland                    croissant [krʋasˈɑ̃] 'croissant'
+kölcsönszóban (a dolgozatban és a továbbiakban a nyelv tudományos elnevezését
+használom: németalföldi 1 ). Ezeknek a nyelv belső fonológiájától eltérő elemeknek és
+struktúráknak egy része rövid életű, s eltűnik a hangrendszerből, vö. pl. a croissant szó
+informális hollandiai kiejtését [krˈɑsɑnt]. Vannak azonban olyanok is, amelyek megrekednek
+és lehorgonyoznak a nyelvben: ezek képezik vizsgálatom tárgyát.
+          Napjainkra a nemzetközi kölcsönzésfonológiai szakirodalom tetemesre dagadt (pl.
+Kenstowicz 2007; Kertész 2006; Adler 2006; Boersma és Hamann 2009). Az idegen
+fonológiai hatások történeti vizsgálatával azonban csak kevés mű foglalkozik (pl. Crawford
+2008; Ito és Mester 1995). Az újabb művek elsősorban a kölcsönzés során a beszélőkben
+lejátszódó online folyamatokat tárgyalják (pl. Peperkamp és Dupoux 2003; Heffernan 2005).
+Emellett a holland nyelvű szakirodalomban, illetőleg magának a na. nyelvnek a tekintetében
+a terület egy-egy rövidebb cikk kivételével feltáratlan (Oostendorp 2000; Velde és Hout
+2002; Bezooijen és Gerritsen 1994). Dolgozatom ezen a területen kíván újdonságokkal
+szolgálni.
+
+
+1
+    A továbbiakban a németalföldi rövidítése na., a történeti korszakokéi: középnémetalföldi=kna.,
+ónémetalföldi=óna., újnémetalföldi=úna.
+                                                 1
+2 A dolgozat témájának és céljának meghatározása
+
+
+       Disszertációm a kölcsönszavakban előforduló idegen eredetű szegmentumoknak és
+fonotaktikai elrendeződéseknek az autochton hangkészlethez és fonotaktikához való
+viszonyát vizsgálja a na. nyelvtörténetben a lexikális-kölcsönzés és idegen társadalmi
+hatások összefüggésében.
+       A dolgozat deskriptív és diakrón jellegű, és kizárólag a nyelv szegmentális szintjére
+korlátozódik, vagyis nem tér ki az idegen eredetű prozódiai struktúrákra. Dolgozatomban a
+nyelvet olyan absztrakt, társadalmi képződménynek tekintem, amelynek belső struktúrája,
+tehát fonológiája is, minden korszakban megegyezik a beszélők által birtokolt nyelvi
+kompetenciák összességével. Elsődleges célom a na. sztenderdnyelv fonológiájában lezajló
+történeti változások vizsgálata a szókölcsönzés és a szociolingvisztikai folyamatok
+tükrében.
+       Dolgozatomban alapvetően a következő kérdésekre keresem a választ:
+    a. Melyek azok a változások a na. nyelv szegmentális fonológiájában, amelyekben a
+       jövevényszavak közvetlenül vagy közvetve szerepet játszhattak?
+    b. Nyelvtörténetileg milyen hatása van a szókölcsönzésnek a fonológia változásaira, a
+       kettő változásai között milyen párhuzamok vonhatók?
+    c. Melyek azok a nyelven kívüli (elsődlegesen szociolingvisztikai), illetve nyelven belüli
+       (fonológiai) tényezők, amelyek a szókölcsönzés fonológiai hatását befolyásolják?
+    d. Milyen helyet foglalnak el az idegen eredetű szegmentumok és szegmentumsorok a
+       na.   nyelv    fonológiájában    és   lexikonjában,   vagyis    mennyire    tekinthetők
+       "németalföldinek"?
+
+
+
+3   A dolgozat felépítése
+
+
+A bevezetés után (I) a téma általános elméleti alapvetéseként egyrészt áttekintést nyújtok a
+témát érintő legfontosabb általános nyelvészeti szakirodalomról, másrészt bemutatom a
+kutatás keretéül szolgáló konkrét fogalmi és terminológiai hátteret (II).
+       A következő fejezettől (III) az általánosról áttérek az általam vizsgált nyelvre: a na.-
+re. Mivel a fonológiai kölcsönzést nyelvtörténeti korszakonként tárgyalom, szükséges a
+korszakok és azok hangrendszerének bemutatása. Ez a III. fejezetben történik meg.
+
+
+
+                                               2
+        Az általános nyelvtörténeti ismertető után a témám szempontjából meghatározó
+részterületre térek: áttekintem a nyelvtörténet során a na. nyelv szókincsét ért idegen nyelvi
+hatásokat és a szókölcsönzés szociolingvisztikai hátterét (IV). A cél, hogy a fonológiai
+kölcsönzést a lexikon változásainak és a társadalmi tényezők alakulásának összefüggésében,
+komplex egészként mutassam be.
+        Ezután     következik    a   dolgozat   súlypontját    adó    főtéma      tárgyalása   (V).   Itt
+megvizsgálom a nyelvtörténet során a na. nyelvet érő, a lexikális kölcsönzéssel
+összefüggésbe hozható legfontosabb szegmentális változásokat, bemutatom ezek pontos
+történeti hátterét, és meghatározom helyüket a nyelv hangrendszerében.
+        Végül összegzem a dolgozat legfontosabb eredményeit (VI), választ adok a
+bevezetőben feltett kérdésekre, és röviden bemutatom a további kutatások lehetséges
+irányát. A dolgozat végén elhelyezett függelékben (VII) saját készítésű hangtörténeti és
+egyéb referenciatáblázatokat helyeztem el.
+
+
+
+4     A dolgozat egyes fejezeteinek áttekintése
+
+
+
+       II. A dolgozat általános nyelvészeti hátterének megalapozása
+
+
+A fejezetben először áttekintem a kölcsönzésfonológia súlypontjainak fejlődését a 19-20.
+század nyelvészeti szakirodalmának néhány jelentősebb művében. Az összefoglalás távolról
+sem    kimerítő,    csupán   a   "hagyományos"        nyelvészeti    irányzatok    (újgrammatikusok,
+strukturalizmus, generatív áramlatok) prominensebb (és fellelhető) munkáira tér ki (pl. Paul
+1920; Saussure 1967; Trubetzkoy 1962; Jakobson és Halle 1956; Bloomfield 1934;
+Weinreich 1964; Chomsky és Halle 1968; King 1969) .
+
+        Ezután bemutatom a dolgozat konkrét elméleti keretét, amelyet Frans van Coetsem
+Loan Phonology (1988) című strukturalista munkája ad. A terminológia tömör összefoglalását
+az alábbi ábra adja:
+
+
+A fonológiai kölcsönzés összefoglaló táblázata (1988:10 k., 14 k. 16 skk.)
+
+
+
+
+                                                  3
+                                                                   ÁTVEVŐ NYELV
+      NYELV:        ÁTADÓ NYELV
+                                             nyelvi üzenet                          nyelvi kód
+
+    FOLYAMAT:                            fonológiai kölcsönzés          beilleszkedés: lexikális diffúzió
+
+                     átadó nyelvi
+      ELEM:                               kölcsön-szegmentum                        belső fonológiai elem
+                    fonológiai elem
+                                                                                      hanghelyettesítés:
+                   fr. mar ch e [mɑrʃ]                 [mɑrʃ]          adaptáció
+                                                                                    na. mɑr s 'menet(el)'
+                                                                                         betűejtés:
+                      fr. parfum
+      PÉLDA:                             imitáció      [parfɛ ]̃                      parf um [parfʏm]
+                    [parfɛ̃] 'parfüm'
+                                                                                           'parfüm'
+
+                    fr. centrifuge                                     integráció      na. centrifu g e
+                                                    [sɛntrifˈyːʒə]
+                     [sɑ̃ trifˈyʒ(ə)]                                                   [sɛntrifˈyːʒə]
+
+     FUNKCIÓ:                                  beillesztődött az átvevő-nyelvbe (funkcionális)
+
+ ADAPTÁLHATÓSÁG:                           adaptálható                                nem adaptálható
+
+    VARIÁCIÓ:                              van kiejtésvariáció                      nincs kiejtésvariáció
+
+    IDEGENSÉG:           idegen                              nem idegen kontinuum
+
+
+
+
+      III. A németalföldi nyelv történeti fejlődésének vázlatos ismertetése; az
+      egyes nyelvtörténeti korszakok fonológiai rendszerének és változásainak
+      bemutatása
+
+
+       A fejezet röviden összefoglalja a na. nyelv történeti fejlődésének szakaszait. A
+nyelvtörténeti szakaszok jellemzése során térben és időben körülhatárolom az egyes
+nyelvállapotokat, és áttekintem a hangkészletet és annak legfontosabb változásait. A fejezet
+céljai a következők:
+       (1) Az itt nyújtott hangtani áttekintés keretet, viszonyítási rendszert teremt ahhoz,
+hogy a kölcsön-szegmentumok helyzetét a na. nyelvtörténetben pontosan meghatározhassuk.
+       (2) A nyelvtörténet "külső" komponensének leírása a fonológiai kölcsönzésben
+megnyilatkozó változások és a szociolingvisztikai változók közötti összefüggések világosabb
+feltárását szolgálja.
+       (3) A fejezet célja továbbá, hogy valamelyest pótolja azt a hiányt a magyarországi
+germanisztikai     szakirodalomban,                 amely          a   na.    nyelvtörténettel,             és   azon   belül   a
+hangtörténetével kapcsolatban fennáll.
+
+
+
+
+                                                                   4
+     IV. A fonológiai kölcsönzés forrása: a szókölcsönzés
+
+
+A lexikális befolyás vizsgálatának célja, hogy egyrészt a kölcsönzés forrása (az átadó nyelv),
+mértéke (az átvett szavak száma) és intenzitása (az átvételek megoszlása időben), másrészt a
+fonológiában bekövetkezett változások közötti összefüggéseket feltárjam. Az idegen
+hangtani elemeket és szerkezeteket kölcsönszavak hordozzák, ezért a szótól mint nyelvi
+elemtől függetlenül ezek nem vizsgálhatóak (Bynon 1997:181; Coetsem 1988:98 skk.). Ez a
+fejezet áttekinti a na. szókincset ért idegen hatásokat a négy legfontosabb átadó nyelvet
+illetően, továbbá a kölcsönzés társadalmi, szociolingvisztikai hátterét. A négy átadó nyelv,
+amely a na. nyelv szókincsére a legnagyobb hatással volt: sorrendben a latin, a francia, az
+angol és a német.
+
+
+
+     V. A lexikális kölcsönzés fonológiai hatásának történeti vizsgálata a
+     németalföldi nyelvben
+
+
+Ebben   a      fejezetben   –   végighaladva    a       na.   nyelvtörténeten    –   megvizsgálom   a
+kölcsönszavakban megjelenő idegen szegmentumok és szegmentumsorok történetét és azok
+hatását az autochton fonológiára. Olyan fonológiai változásokat mutatok be, amelyek az
+idegen nyelvi hatásnak, s ezen belül elsősorban a lexikális kölcsönzésnek köszönhetőek. A
+jelenségeket     megvizsgálom     az   idegen   fonológiai       hatások   két   alapvető   típusának
+szempontjából:
+   (a) átvevő nyelvi közvetítés: az átvevő nyelv beszélői beillesztik nyelvhasználatukba az
+        átadó nyelv hangtani elemeit (=fonológiai kölcsönzés), pl. a na. beszélők francia
+        kölcsönszavakban idegen szegmentumokat ejtenek;
+   (b) átadó nyelvi közvetítés: az átadó nyelv beszélője saját nyelvének hangtani jegyeit
+        illeszti be az idegen, átvevő nyelvbe (=sztrátum-hatás), pl. amikor a francia
+        anyanyelvű beszélő a na. beszédben nazalizálja a magánhangzókat.
+Bemutatom a fonológiai kölcsönzések átvevő nyelvben való fejlődésének két alapvető
+módját: az adaptációt, azaz a belső fonológiai rendszerhez való alkalmazkodást, és az
+integrációt, azaz a belső fonológiai rendszerbe való beépülést; továbbá ezek menetének,
+lehetséges okainak, kronológiájának, és az idegen fonológiai hatások lexikális és "külső"
+nyelvtörténeti változásainak összefüggéseit.
+
+
+
+                                                    5
+       A fejezet több alfejezetre oszlik: az idegen szegmentális hatásokat korszakonként
+tárgyalom, egyrészt mivel ezek szociolingvisztikailag több szempontból jelentősen
+különböznek (pl. óna. korszak: minimális írásbeliség, kna. korszak: növekvő írásbeliség, szűk
+körű írástudás, úna.: kiterjedt írásbeliség, széleskörű írástudás), s így a nyelvben megjelenő
+fonológiai hatás is különböző, másrészt mert a korszakonként rendelkezésre álló adatok
+típusa más-más feltárási módszereket tesz lehetővé.
+       Munkamódszerem a korábbi nyelvállapotok (ó-, és kna.) esetében először a
+nyelvtörténeti szakirodalom "átfésüléséből" állt: vajon találhatóak-e benne utalások az adott
+korszakban történt idegen fonológiai hatásokra vonatkozóan. Azután ellenőriztem a kérdéses
+szavak és szócsoportok korabeli alakjait, illetve a mai nyelvben való előfordulásukat. Az így,
+"két irányból" feltárt – gyakran a szakirodalom csupán egy-egy elejtett utalásából, példájából
+kiderülő – információkat azután részletesen kidolgoztam, s megpróbáltam pontosan
+rekonstruálni a folyamatokat.
+       Dolgozatom súlypontját az úna. fejezet képezi. A korszak vizsgálata során a munka
+kiindulópontja – a korábbi korszakoktól eltérően – alapvetően nem az idegen szegmentális
+fonológiai hatások "felfedezése", hanem a már felismert hatások alaposabb feltárása volt. E
+fejezetben egy, a na.-ben még nem alkalmazott kutatási módszerrel elemzem a fonológiai
+kölcsönzéseket.
+       A módszer rövid jellemzése:
+           1. A rendelkezésre álló kiejtési, ill. kiejtési adatokat közlő szótárak segítségével
+              összeállítottam   egy    korpuszt      majd   egy   adatbázist   a   vizsgálandó
+              szegmentumokat tartalmazó sztenderdnyelvi szavakból (Coninck 1970;
+              Heemskerk és Zonneveld 2000; Bastiaansen 2008; Boon és Geeraerts 2005).
+           2. Összegyűjtöttem az alternatív, adaptált kiejtési variácókat, pl. cartoon
+              [kɑrtˈuːn]~[kɑrtˈun] 'rajzfilm'.
+           3. A korpusz minden egyes eleménél ellenőriztem az etimológiai szótárakban az
+              átadó nyelvet, amelyből az adott szó közvetlenül a na.-be került, továbbá a
+              szó első írásos megjelenésének idejét (pl. Philippa et al. 2004; Franck 1892).
+           4. A korpusz adatait két sztenderd, anyanyelvi beszélővel ellenőriztem (egy
+              holland és egy flamand). A két referencialany segítségével külön-külön
+              ellenőriztük a szavak kiejtésváltozatait, majd azok ismertségét, illetve
+              stílusértékét. Összességében elmondható, hogy a kontroll során nem akadt
+              olyan eltérés vagy kiegészítés, amely a korpuszban megjelenő kiejtési formák
+
+
+                                                 6
+               adatait szignifikáns módon befolyásolta volna, ezért a kontrolladatok
+               közlésétől dolgozatomban eltekintek.
+Az adatbázis elemzése során minden kölcsön-szegmentum esetében négy konkrét kérdésre
+kerestem a választ: (1) vajon honnan erednek a kérdéses hangok (csak egy bizonyos
+nyelvből átvett szavakkal kerültek a nyelvbe vagy több nyelvből), (2) mióta vannak jelen a
+nyelvben, (3) vajon milyen helyet foglalnak el a na. fonológiában (a fonológiai kód "teljes
+jogú" részei a szegmentumok vagy csak alkalmi kölcsönzések, vagyis időleges, marginális
+kiejtés-variációk), és végül (4) melyek azok a tényezők, amelyek az esetleges integrációt
+elősegítik, elősegítették, illetve mik az adaptáció legfőbb irányai.
+       Az elemzések segítségével meglehetős biztonsággal meg lehetett határozni a kölcsön-
+szegmentumok       "életkorát"   a   nyelvben.    A    modern   korpusz   adatbázisos   elemzés
+alátámasztotta például a kna. fejezetben feltárt eredményeket, mely szerint a ʒ kna.
+korszakban az ófrancia kölcsönzések révén integrálódott a hangrendszerbe, szemben az ʃ-sel.
+Az is kiderül, hogy az egyes kölcsönszegmentumok életkora egybeesik az átadó nyelv
+lexikális befolyásának intenzív korszakaival, pl. a tʃ a 20. századi angol hatással. A fejezet
+további eredményeit a dolgozat VI. összegző fejezete foglalja össze, melyeket a következő
+részben adok közre.
+
+
+
+5   A kutatás eredményeinek összefoglalása
+
+
+A kutatás során választ adtam a dolgozat célkitűzéseiben megfogalmazott kérdésekre. A
+válaszokban néhány általános nyelvészeti szempontból is jelentős eredményt is bemutatok.
+
+
+    a. Melyek azok a szegmentális változások a na. nyelv szegmentális fonológiájában,
+        amelyekben a jövevényszavak közvetlenül vagy közvetve szerepet játszhattak?
+A bemutatott fonológiai jelenségek legnagyobb részében a kölcsönszavak által hordozott
+idegen fonológiai elemek vagy szerkezetek változást okoztak a na. fonológiában. Ez azokat
+az eseteket jelenti, ahol az átadó nyelvi elem vagy szerkezet integrálódott a na. fonológiába,
+például a kna. korszakban az ir hangkapcsolat vagy a ʒ stb. A vizsgált, kölcsönszavakban
+megjelenő idegen hangok között azonban voltak olyanok is, amelyek nem hoztak fonológiai
+változást, hanem adaptáció révén elveszítették idegenségi jegyeiket és alkalmazkodtak az
+átvevő nyelv fonológiájához, például az ófrancia zár-réshangok a kna. korszakban ófr.
+chartre [tʃˈartr(ə)] kna. sarter [sˈɑrtər] 'karta'.
+
+                                                  7
+       Az óna. és részben a kna. korszakban bemutatott hangváltozások azonban
+valószínűsíthetően nem a kölcsönszavak hatására, hanem általában véve az intenzív idegen
+nyelvi hatás eredményeként zajlottak le. Ezek a változások tehát nem átvevő nyelvi, hanem
+átadó nyelvi közvetítés révén mentek végbe. Ezt támasztotta alá egyrészt azoknak a
+kölcsönszavaknak az alacsony száma, amelyeknek a hangváltozás esetleg köszönhető lett
+volna, másrészt a hangváltozások "hangtörvény-szerű" működése, harmadrészt pedig a kor
+igen intenzív szociokulturális és nyelvi érintkezése.
+
+
+    b. Nyelvtörténetileg milyen hatása van a szókölcsönzésnek mint lexikális folyamatnak a
+       fonológia változásaira, a kettő változásai között milyen párhuzamok vonhatók?
+
+
+A bemutatott elemzések alapján elmondható, hogy a fonológiai kölcsönzés szempontjából
+alapvetően meghatározó a lexikális tényező. A szókölcsönzés és a fonológiai kölcsönzés
+között két szempontból állíthatunk fel összefüggést: egyrészt a mennyiség, másrészt az
+időtartam szempontjából.
+   A lexikális kölcsönzés mennyisége és a fonológiai hatás viszonylatában elmondható,
+    hogy egészében véve a szókölcsönzés növekedése megmutatkozik a fonológiai
+    kölcsönzések számának növekedésében is. Az úna. korszakban megnövekszik a
+    szókölcsönzések száma, ezzel párhuzamosan a korszakban jóval több kölcsön-
+    szegmentumot találunk, mint korábban, gondoljunk a három magánhangzó-sorra, amely
+    önmagában tíz kölcsön-magánhangzót foglal magába: iː, yː, uː, œː, ɛː, ɔː, ɑː, ɛ̃, ɔ̃, ɑ̃.
+           Az egyes kölcsön-szegmentumok esetében viszont a kölcsönzések száma
+    önmagában nem feltétlenül meghatározó. Ezt példázza a "rövid-hosszú" œː, amely
+    mindössze 12, és a fonetikailag hosszú yː, amely mindössze 3 kölcsönszóban fordul elő,
+    mégis integrált stabil részei a sztenderdnyelv fonológiájának. Ebből az is kiderül, hogy a
+    fonológiai kölcsönzés stabilitását az átvevő nyelvben alapvetően más tényezők is
+    befolyásolják, melyekre alább a c. pontban térek ki. Emellett azonban igaz, hogy a
+    fonológiai kölcsönzés adaptációját gátolhatja a kölcsönzések nagy száma. Erre láthatunk
+    példát az úna. nazális magánhangzók vagy az ʃ esetében, amelyek adaptációjának
+    valószínűleg a kölcsönszavak magas száma a gátja.
+   A szókölcsönzés időtartama önmagában nem meghatározó a fonológiai kölcsönzés
+    szempontjából. A kna. korban például az ʃ nem tudott integrálódni a nyelvbe, noha
+    bizonyos, hogy évszázadokon át kerültek ʃ-t tartalmazó szavak a na.-be. Ugyanez a
+
+
+                                                8
+    szegmentum az úna. korszakban sikerrel integrálódik, a nyelvben bekövetkezett
+    fonológiai változások révén. Ugyanakkor figyelmet érdemel, hogy az összes bemutatott
+    kölcsön-szegmentum legalább egy-két évszázada jelen van a nyelvben, mialatt újabb és
+    újabb kölcsönzések révén egyre több szóban jelent meg, ezzel növelve stabilitását.
+   A forrásnyelv kapcsán megemlítendő, hogy mindegyik kölcsön-szegmentum először
+    csupán egyetlen nyelvből származó kölcsönszavak révén került a nyelvbe, azonban
+    később több nyelvből is átkerülnek szavak, amelyek kiejtésében szintén megjelenik a
+    kölcsön-fonéma.
+   Önmagában sem a lexikális kölcsönzés mennyisége, sem pedig időtartama nem
+    feltétlenül   döntő   a   kölcsön-szegmentumok    integrálódása   szempontjából.     Ennek
+    elsődleges oka az, hogy a fonológiai kölcsönzés éppen a lexikális elemekhez való
+    kötöttsége révén egyik szóról a másikra hat, vagyis lexikálisan diffúzionál. Éppen ebben
+    különbözik az átadó nyelvi közvetítéstől, amely a hagyományos hangváltozáshoz
+    hasonlóan nem a lexikális elemek viszonylatában, hanem a szegmentum viszonylatában
+    hat és terjed. Dolgozatomban a két folyamat különböző viselkedése megmutatkozott
+    például az óna. magánhangzó-változások és a kna. ʒ integrációja között.
+
+
+    c. Melyek azok a nyelven kívüli (elsődlegesen szociolingvisztikai), illetve nyelven belüli
+       (lexikális és fonológiai) tényezők, amelyek a szókölcsönzés fonológiai hatását
+       befolyásolják?
+
+
+A na. nyelvtörténetben bemutatott idegen nyelvi fonológiai hatások szoros összefüggésben
+állnak a szociokulturális és nyelvi érintkezés intenzitásának változásával. Az óna.
+korszakban tárgyalt hangváltozások valószínűleg nem a lexikális kölcsönzés hatásának,
+hanem az átadó nyelvi közvetítésnek köszönhetők. A kna. korban vázolt hangváltozások
+egyike (az ui1 diftongizációja) még átadó nyelvi közvetítésről tanúskodik, ám a változások
+legnagyobb része már egyértelműen a lexikális kölcsönzés hatására megy végbe, például a
+zöngésségi kontraszt fonémizálódása az s~z, f~v esetében, pl. ófr. fier  kna. fier [fiər]
+'büszke'≠kna. vier [viər] 'négy'. Az úna. korszakban már kizárólag fonológiai kölcsönzéseket
+találunk, az átadó nyelvi közvetítésnek nyoma sincs. Ez összhangban van a korok társadalmi
+és nyelvi viszonyaival: az óna. korszakban igen intenzív a kapcsolat a francia és a na. között
+minden téren, nagyfokú a kétnyelvűség; a kna. korszakban még mindig meglehetősen
+intenzív a francia-na. kapcsolat, ám már gyengébb, mint korábban; az úna.-ben azután (a
+
+
+                                              9
+sztenderdnyelv tekintetében) fokozatosan elgyengül. A három korszak szociokulturális és
+nyelvi viszonyainak változásai tehát tükröződnek az idegen eredetű fonológiai hatás
+formájában és viszont: dinamikus kapcsolat=átadó nyelvi közvetítés, közepesen dinamikus
+kapcsolat=átadó és átvevő nyelvi közvetítés, kevésbé intenzív kapcsolat=átvevő nyelvi
+közvetítés.
+         A nyelven kívüli tényezők közül ki kell hangsúlyozni a helyesírás és az írástudás
+szerepét a fonológiai kölcsönzésben. Az írott alak, és a helyesírás hatása mind az
+adaptációban (vö. például a betűejtéses adaptációkat a kna. alveoláris réshangok esetében),
+mind az integrációban igen jelentős (vö. például a ps- vagy az ir integrációját). A helyesírás
+alapvetően mint idegenség-jelölő működik, és ez nem csupán az idegen grafémákra igaz –
+például a ks hangot jelölő <x>, amely csak kölcsönszavakban fordul elő –, hanem az
+idegen graféma–fonéma megfelelésekre is, például az angol kölcsönszavakban a <j>
+graféma, amelynek értéke nem [j], hanem [dʒ]. Az írás-olvasás elterjedése éppen ezért nagy
+hatással volt a fonológiai kölcsönzésre. Részben ez tette lehetővé például az úna. korszakban
+a zár-réshangok integrációját, illetve ez akadályozta meg a plaats 'hely' szó plaas-ként való
+adaptációját.
+         A nyelven belüli tényezők közül a strukturális tényezők kaptak nagyobb hangsúlyt
+dolgozatomban. Szerkezeti szempontból vizsgálataim igazolták azt az általános tézist
+(Coetsem 1988), mely szerint a nyelv szintagmatikus szintje fogékonyabb a változások iránt,
+mint a paradigmatikus. A dolgozatomban bemutatott fonológiai kölcsönzések legnagyobb
+része a belső fonológiai rendszer elemeinek újrarendeződését okozta, például az úna. tʃ a
+belső fonológiában fonémikus t és az allofónikus ʃ kombinációjaként való értelmezése révén
+integrálódott, vagyis csupán indirekt módon eszközölt ki paradigmatikus változást.
+Ugyanezen zár-réshang integrációja a kna. korszakban azért hiúsult meg, mert még nem volt
+jelen a belső hangkészletben a ʃ, így az integráció közvetlen paradigmatikus változás lett
+volna.    Az    úna.   nazális   magánhangzók   integrálódása   is   felfogható   szintagmatikus
+változásként, hiszen a nazális jegy allofónikusan jelen van a na. poszt-lexikális
+fonológiájában. Érdekes kivételt képez a kna. korszakban integrálódó ʒ, amelynek
+integrációja paradigmatikus változás, hiszen egy új elemet, új képzési hely-jegyet hozott a
+hangkészletbe, a palato-alvoeoláris képzési jegy ugyanis nem szerepelt a na. hangkészletben.
+Habár a ʒ integrálódása részben biztosan az (ó)francia szavakban igen gyakori -ge [ʒə]
+végződés rovására írható, integrálódásának pontos körülményeinek feltárásához további
+kutatásra lesz szükség, ami dolgozatom folytatásának egy lehetséges irányát képezi.
+
+
+                                                10
+    d. Milyen helyet foglalnak el az idegen eredetű szegmentumok és szegmentumsorok a
+       na.     nyelv     fonológiájában        és     lexikonjában,   vagyis    mennyire      tekinthetők
+       "németalföldinek"?
+
+
+A kölcsön-szegmentumok pontos helyét igen nehéz meghatározni az átvevő nyelv
+fonológiájában. Az integráltság fokmérői: az adaptált alakok aránya, a nyelvben való jelenlét
+időtartama, mind meglehetősen relatív fogalmak, amelyek a fonológiai "nem idegen"
+részének kontinuumában nem jelölnek ki kellően pontos helyet. A vizsgált kölcsön-
+szegmentumok több esetben hosszú évszázadok óta jelen vannak, egy-egy szóban mégis van
+adaptált variánsuk: például a hosszú ɛː-nek, amely mintegy négy évszázada jelen van, több
+szó esetében is van adaptált variációja, pl. parterre [pɑrtˈɛːrə]/[pɑrtˈɛrə] 'színházi földszint'.
+       A     kérdés     nehézségét    az      adja,    hogy   a   fonológiai    kölcsönzést   tartalmazó
+kölcsönszavakat egyfajta kohézió tartja össze, amelynek alapjai éppen idegenségi jegyek.
+Habár diffúzió révén társulhatnak újabb tagok a csoporthoz és le is szakadhatnak róla, maga
+a csoport egyben marad mindaddig, amíg az idegenségi jegyek összetartják. Dolgozatom
+ezen jelek közül csupán egyet vett górcső alá, magát az idegen szegmentumot. Ám a már
+említett helyesírás, a hangsúly, a morfológiai viselkedés, a jelentés mind-mind egy-egy olyan
+idegenségi jegy, amely lexikális egységek csoportját és velük együtt a kölcsön-
+szegmentumok csoportját is egyben tartja. Dolgozatom vizsgálatai alapján a fenti kérdésre
+nem lehet kielégítő választ adni. A kérdés megválaszolásához egy jóval szélesebb – nem
+csupán a szegmentális fonológiai szintet vizsgáló – kutatásra volna szükség. Továbbá fontos
+volna a tényleges nyelvhasználat vizsgálatára (vö. pl. Bezooijen és Gerritsen 1994), hogy
+ezáltal a tényleges adaptációs és egyéb variációs arányokat meg lehessen állapítani.
+
+
+
+6   További lehetőségek a németalföldi kölcsönzés-fonológiai
+    kutatásokban
+
+A további lehetséges kutatási irányok közül a még nem tárgyalt na. kölcsön-szegmentumok
+vizsgálata kínálkozik legkézenfekvőbbnek. Ezek közé tartozik például a veláris g, pl. goal
+[gol] 'gól'), amely már régóta "hiányzik" a na. fonológiából, vagy a palatális ɟ és ɲ, pl. djembé
+[ɟˈɛmbe]     'afrikai   dobfajta',   oranje     'narancssárga'.   Habár    ez    utóbbiakat    többnyire
+szegmentumok soraként kezeli a szakirodalom (ɟ=dj, ɲ=nj), anyanyelvű beszélőkkel –
+
+
+                                                       11
+többek között szótagolással – végzett rövid felméréseim azt mutatták, hogy a beszélők
+meglehetősen ambivalensek a kérdésben.
+       Disszertációm csupán első lépésként fogható fel a teljes kölcsön-szegmentum készlet
+bemutatásában. Az összes kölcsön-szegmentum teljes körű feltárása mellett a fonotaktikai
+vizsgálatok egy másik, meglehetősen tágas terepet biztosítanak a további kutatások számára.
+Módszertanilag feltétlenül szükséges volna a valós nyelvhasználatra irányuló kutatásokat
+végezni, így lehetne ugyanis csak torzítatlan képet kapni az egyes kölcsön-szegmentumok
+tényleges helyzetéről a nyelvben.
+       A kutatás másik nagy területe például a történeti elemzések tovább bővítése, és a
+közvetlen, primer források alaposabb feltárása (például a ʒ-vel kapcsolatban). A kutatás
+egyéb lehetséges irányainak száma tulajdonképpen határtalan. A na. kutatásokban az
+említett területek mind meglehetősen szűznek mondhatók.
+
+
+
+
+7   A tézisekhez felhasznált irodalom
+
+Adler, Allison. 2006. Faithfulness and perception in loanword adaptation: A case study from
+       Hawaiian. Lingua 116.1045, 1024.
+Bastiaansen, Cora (szerk.) 2008. Groot woordenboek hedendags Nederlands. 4. ed. Utrecht:
+       Van Dale.
+Benkő, Loránd. 1987. A történeti nyelvtudomány alapjai. Budapest: Tankönyvkiadó.
+Bezooijen, Renée van, és Marinel Gerritsen. 1994. De uitspraak van uitheemse woorden in
+       het Standaard-Nederlands. Een verkennende studie. De Nieuwe Taalgids 87.145-160.
+Bloomfield, Leonard. 1934. Language. London: Allen & Unwin.
+Boersma, Paul, és Silke Hamann. 2009. Loanword adaptation as first-language phonological
+       perception. Loan phonology, szerk. by Andrea Calabrese, 11-58.
+       Amsterdam/Philadelphia: John Benjamins Pub. Co.
+Boon, Ton den, és Dirk Geeraerts (szerk.) 2005. Groot Woordenboek Van De Nederlandse Taal.
+       14. ed. Utrecht: Van Dale Lexicografie.
+Bynon, Theodora. 1997. Történeti nyelvészet. (Ford.) Tamás Gherdán és Tamás Számadó.
+       Osiris Tankönyvek. Budapest: Osiris.
+Chomsky, Noam, és Morris Halle. 1968. The Sound Pattern of English. New York, Evanston,
+       and London: Harper & Row, Publishers.
+Coetsem, Frans van. 1988. Loan Phonology and the Two Transfer Types in Language Contact.
+       Publications in language sciences. Dordrecht, Holland: Foris Publications.
+Coninck, René de. 1970. Groot Uitspraakwoordenboek Van De Nederlandse Taal. Antwerpen:
+
+                                              12
+       De Nederlandsche Boеkhandel.
+Crawford, Clifford. 2008. An evolutionary account of loanword-induced sound change in
+       Japanese. University of Pennsylvania Working Papers in Linguistics 16.
+       http://repository.upenn.edu/pwpl/vol14/iss1/5/.
+Franck, Johannes. 1892. Etymologisch woordenboek der Nederlandsche taal. 's-Gravenhage:
+       Martinus Nijhoff. http://www.archive.org/details/etymologischwoo00frangoog.
+Heemskerk, Josée, és Wim Zonneveld. 2000. Uitspraakwoordenboek. Utrecht: Het Spectrum.
+Heffernan, Kevin. 2005. Phonetic similarity and phonemic contrast in loanword adaptation.
+       Toronto Working Papers in Linguistics 24.117-123.
+Ito, Junko, és Armin Mester. 1995. The core-periphery structure of the lexicon and
+       constraints on reranking. (Szerk.) Jill Beckman, Suzanne Urbanczyk, és Laura Walsh.
+       University of Massachusetts Occasional Papers in Linguistics [UMOP] 18: Papers in
+       Optimality Theory.181-209.
+Jakobson, Roman, és Morris Halle. 1956. Fundamentals of Language. 's-Gravenhage: Mouton
+       & Co.
+Kenstowicz, Michael. 2007. Salience and similarity in loanword adaptation: a case study
+       from Fijian. Language Sciences 29.316-340. doi:10.1016/j.langsci.2006.12.023.
+Kertész, Zsuzsa. 2006. Approaches to the phonological
+       analysis of loanword adaptation. The Even Yearbook. The Even Yearbook.
+       seas3.elte.hu/delg/publications/even/2006/06ke.pdf.
+King, Robert D. 1969. Historical Linguistics and Generative Grammar. Englewood Cliffs, N.J:
+       Prentice-Hall.
+LaCharité, Darlene, és Carole Paradis. 2005. Category Preservation and Proximity versus
+       Phonetic Approximation in Loanword Adaptation. Linguistic Inquiry 36.223-258.
+Oostendorp, Marc van. 2000. 'Leenwoordfonologie' in het Esperanto. Gramma 7.137-148.
+Paul, Hermann. 1920. Prinzipien Der Sprachgeschichte. 5. ed. Halle a. S.: Max Niemeyer.
+Peperkamp, Sharon, és Emmanuel Dupoux. 2003. Reinterpreting loanword adaptations: the
+       role of perception. (Szerk.) Josep Sola-Solé. Proceedings of the 15th International
+       Congress of Phonetic Sciences Barcelona, 3-9 August 2003 15.367-370.
+Philippa, Marlies, F. Debrabandere, Arend Quak, T.H. Schoonheim, és Nicoline van der Sijs
+       (szerk.) 2004. Etymologisch Woordenboek Van Het Nederlands. Amsterdam: Amsterdam
+       University Press. http://www.etymologie.nl/.
+Sankoff, Gillian. 2002. The Linguistic Outcomes of Language Contact. The Handbook of
+       Language Variation and Change, szerk. by J. K Chambers, Peter Trudgill, és Natalie
+       Schilling-Estes, 639-668. Blackwell Handbooks in Linguistics. Malden, MA:
+       Blackwell.
+Saussure, Ferdinand de. 1967. Bevezetés az általános nyelvészetbe. (Ford.) Éva B. Lőrinczy. 3.
+       ed. Budapest: Gondolat.
+
+
+                                              13
+Thomason, Sarah Grey, és Terrence Kaufman. 1988. Language Contact, Creolization, and
+       Genetic Linguistics. Berkeley: University of California Press.
+Trubetzkoy, Nikolay Sergeevich. 1962. Grundzüge der Phonologie. 3. ed. Göttingen: Van Den
+       Hoeck & Ruprecht.
+Velde, Hans van de, és Roeland van Hout. 2002. Uitspraakvariatie in leenwoorden. (Szerk.)
+       Philippe Hiligsmann és E. Leijnse. NVT-onderwijs en -onderzoek in Franstalig gebied
+       1.77-95.
+Weinreich, Uriel. 1964. Languages in Contact. Findings and Problems. 2. ed. London, The
+       Hague, Paris: Mouton & Co.
+
+
+
+
+                                               14
+

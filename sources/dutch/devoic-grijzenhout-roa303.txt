@@ -1,0 +1,1572 @@
+                     Final Devoicing and Voicing Assimilation
+                       in Dutch Derivation and Cliticization1
+                              Janet Grijzenhout & Martin Krämer
+                             Heinrich-Heine-Universität Düsseldorf
+
+
+1. Introduction
+
+In derivational frameworks, final devoicing and voicing assimilation have always been
+regarded as evidence for rule ordering in Dutch (e.g., Berendsen 1983, Berendsen et al
+1984, Zonneveld 1983). In more recent constraint-based approaches, lexical and
+postlexical levels have been assumed to account for some Dutch voicing phenomena
+(Booij 1996), and other linguists propose context-specific faithfulness constraints for a
+few cases of final devoicing and voicing assimilation (e.g. Lombardi 1995, 1996). A
+unified analysis of all phenomena related to final devoicing and/or voicing assimilation
+in Dutch has not been proposed yet. In this paper, we will first point out the various
+problems rule-based approaches encounter when all relevant facts are taken into
+consideration. We will then suggest an analysis that uses the Correspondence version of
+Optimality Theory (McCarthy & Prince 1995) and that does not assume different levels,
+nor Output-Output constraints (Benua 1995), nor a device such as "Sympathy"
+(McCarthy 1998).
+    Our analysis is based on ideas presented by Booij (1995) and Selkirk (1995) who
+both suggest that suffixes may differ in their prosodic structure. Some suffixes do not
+form a Prosodic Word of their own, whereas others do. We argue that clitics in Dutch
+differ from suffixes in that they are directly adjoined to a Phonological Phrase. Because
+the prosodic structure is distinct, we expect to find differences regarding syllabification
+(and, hence, syllable-final devoicing) between the two kinds of suffixes and clitics. We
+will show that this is in fact the case. We will furthermore demonstrate that prosodic
+structure is also relevant to voicing assimilation. More specifically, it will be shown that
+it is more important to preserve the underlying voicing specification of a plosive in
+initial position of a Prosodic Word than to preserve voicing of a plosive that is not initial
+in a Prosodic Word. We will develop an analysis with (i) Alignment constraints which
+say that the edge of certain morphological categories should be aligned with the
+corresponding edge of a Prosodic Word and (ii) Identity constraints which say that the
+
+
+
+1
+  This is an extended version of talks presented at the SFB-Colloquium on Wordstress, 8 May 1998 in
+Düsseldorf, the 6th Manchester Phonology Meeting, 23 May 1998 in Manchester, and the International
+Conference of the SFB 282 'Theory of the Lexicon', 18 August 1998 in Wuppertal. We would like to
+thank the participants of these meetings for helpful comments. Thanks are also due to Luba Butska, Birgit
+Gerlach, Heather Goad, and Barbara Stiebels.
+voicing specification of a segment in onset position of a Prosodic Word or a syllable
+should be identical to its input specification.
+     The structure of this paper is as follows. In section 2, we illustrate the phenomenon
+of final devoicing and we show how devoicing may be made 'invisible' by voicing
+assimilation in certain derivations and in compounds. We will point out some problems
+that rule-based derivational accounts encounter with respect to (i) the order of
+affixation, (ii) progressive voicing assimilation in the case of inflectional endings, and
+(iii) devoicing of stem-final consonants before clitics. In section 3, we present our
+constraint-based analysis of the different behaviour regarding syllabification and final
+devoicing of stem-final obstruents before two groups of native suffixes. In section 4, we
+first discuss Lombardi's (1995, 1996) OT-account of progressive and regressive voicing
+assimilation in Dutch and we will then modify her analysis so that it explains data that
+are problematic for her account. In section 5, we present an analysis of devoicing before
+clitics. Section 6 summarises the discussion.
+
+
+2.      Final devoicing and affixation
+
+In Dutch, voicing is distinctive for obstruents. In some environments, this distinction is
+neutralised. For instance, all obstruents are voiceless in word-final position. This is
+illustrated by the examples below, where the voiced plosive /d/ in (1a) and the voiced
+fricative /z/ in (1c) are realised as voiceless obstruents, i.e. [t] and [s], respectively, in
+word-final position. The data in the second column in (1b,d) illustrate that there is no
+intervocalic voicing of obstruents in Dutch:2, 3
+
+(1)     Final devoicing:
+        a. /p$d/ → [p$t]                   /p$d/ + n       → [p$dn]             'toad', toads'
+        b. /l$t/ → [l$t]                   /l$t/ + n       → [l$tn]             'lath', 'laths'
+        c. /pu:z/ → [pu:s]                 /pu:z/ + n      → [pu:zn]            'cat', cats'
+        d. /vos/ → [vos]                   /vos/ + n       → [vosn]             'fox', 'foxes'
+
+Whether the underlying voicing specification of a stem-final obstruent surfaces or not
+depends on its position within the syllable and on the following suffix. Before some
+
+2
+  All data in this paper are from Berendsen (1983), Booij (1995), and from one of the authors who is a
+native speaker of Dutch. The phonetic forms in Booij (1995) differ from the intuitions of the author in that
+Janet Grijzenhout does not have an underlying voiced velar fricative. In contrast to Booij (1995), we will
+use a length mark ':' after tense vowels, even though we note that there is no consensus in the literature
+concerning the length of tense vowels in Dutch.
+3
+  In Dutch, syllables with a short (lax) vowel are closed. In the examples in (1a,b,d), the intervocalic
+obstruent is usually assumed to be ambisyllabic, but this is not a phonetic phenomenon and these
+obstruents do not have a longer duration than obstruents following long (tense) vowels (see Hulst 1985).
+
+
+
+
+                                                     2
+vowel-initial suffixes, a stem-final obstruent is realised in syllable-onset position with
+its underlying voicing specification intact. Before other vowel-initial suffixes and in
+compounds, a stem-final obstruent is syllable-final and voiceless. In the next section, we
+will demonstrate that stem-final obstruents in Dutch behave differently in derivation,
+compounding, and cliticization.
+
+
+2.1     Devoicing and derivation
+
+Stem-final obstruents that are underlyingly specified as voiced retain their voicing
+specification before some vowel-initial suffixes (see 1a,c, 2a-c). They are voiceless
+before other suffixes (see 3a,b), in compounds (see 4a,b), and before clitics (see 5a,b). In
+a derivational rule-based approach, it is inferred that final devoicing takes place after
+suffixation of the former suffixes and before suffixation of the latter suffixes, before
+compounding, and before cliticization (Berendsen 1983, Berendsen et al 1984,
+Zonneveld 1983).4
+
+(2)     a. /ro:d/A        + -erA                    → ['ro:.dr]               'red' → 'redder'
+        b. /xe:v/V        + -erN                    → ['xe:.vr]               'give' → 'giver'
+        c. /donz/N        + -igA                    → ['don.zx]               'down' → 'fluffy'
+
+(3)     a. /xoud/N        → /xout/ + -achtigA → ['xoXt.¦$[.W[]                'gold' → 'gold-like'
+        b. /di:v/N        → /di:f/ + -achtigA → ['di:f.¦$[.W[]                'thief' → 'thievish'
+
+(4)     a. /xoud/N        → /xout/ + aderN    → ['xoXt.¦a:.dr]                'gold' → 'gold-vein'
+        b. /le:v/V        → /le:f/ + eenheidN → ['le:f.¦e:n.h(Lt]              'live' → 'family unit'
+
+(5)     a. /ba:d/V        → /ba:t/ + 'r             → ['ba:t.r]               'bathe' → 'bathe her'
+        b. /xe:v/V        → /xe:f/ + 'm             → ['xe:f.m]               'give' → 'give him'
+
+As is clear from the examples in (2a-c) and (3a-b), we can distinguish two types of
+suffixes, viz., (i) those in which stem-final obstruents may be resyllabified as onsets and
+(ii) those which trigger devoicing of a stem-final obstruent. We can also distinguish
+different types of suffixes on the basis of stress behaviour. The problem is that the
+suffixes that pattern together with respect to resyllabification are not necessarily part of
+the same class when we consider stress assignment. This will be shown next.
+
+
+4
+  The subscripts 'A', 'N', 'V' indicate the morphosyntactic category of the stems and suffixes in question.
+Syllable boundaries are indicated by a dot. We will discuss syllabification of forms with clitics (as in 5a-b)
+in more detail in section 5 below.
+
+
+
+
+                                                      3
+    In Dutch underived words, main stress is assigned to one of the three last syllables in
+the word. Normally, stress is assigned to the antepenultimate syllable if the penultimate
+syllable is open and the ultimate one is closed (see 6a).5 If the final syllable is
+"superheavy", i.e., if it ends in a long vowel plus a consonant (-VVC) or a short vowel
+plus two consonants (-VCC), main stress is usually assigned to the ultimate syllable (see
+6b,c).
+
+(6)       a.         lexikon                  ['O(N.VL:.NoQ]                  'lexicon'
+          b.         abrikoos                 [ D:.EUL:.'NR:V]                'apricot'
+          c.         president                [SUe:.si:.'G(QW]                'president'
+
+Otherwise, main stress is usually assigned to the penultimate syllable:
+
+(7)       a.         pyjama                   [SL:.'MD:.mD:]                  'pyjamas'
+          b.         Alaska                   [ D:.'O$V.ND:]                  'Alaska'
+          c.         elektron                 [ e:.'l(k.tron]                 'electron'
+
+With respect to stress assignment, Trommelen & Zonneveld (1989) distinguish three
+types of suffixes in Dutch: one type changes the stress pattern of the base, another type
+requires stress to be assigned to the immediately preceding syllable, and the third type
+does not cause a stress shift in the base.
+    Most suffixes belong to the first type. They conform to regular patterns of stress
+assignment. In the output of (8a), for instance, main stress is assigned to the
+antepenultimate syllable, because the final syllable is closed and the penultimate syllable
+is open. In accordance with the rules of regular stress assignment, main stress is
+assigned to the final syllables in (8b) and (8c), because they are superheavy:6
+
+(8)     Class I derivation:
+        a. /a:.no:.'ni:m/         + usN        →        [a:.'no:.ni:.m<s]        'anonymous writer'
+        a. /pro:.'d<kt/           + ie/v/A     →        [pro:.d<k.'ti:f]         'productive'
+        b. /pro:.d<k.'ti:v/       + iteitN     →        [pro:.d<k.ti:.vi:.'t(it] 'productivity'
+
+Some adjectival suffixes require that the main stress of the word be located on the
+syllable preceding the suffix. Examples are -(e)lijk [ON] and -ig [[]:
+
+
+5
+  In addition to the regular (predictable) pattern, Dutch allows irregular stress assignment in some words
+(e.g. pelotón, celébes, amérika). For a more detailed analysis of Dutch regular and irregular stress
+patterns, we refer to Booij (1995) and Trommelen & Zonneveld (1989).
+6
+  There are no suffixes which consist of two final light syllables with full vowels, or a light and a heavy
+syllable, or two heavy syllables and we therefore do not encounter the stress-pattern exemplified in (7a-c)
+for underived words.
+
+
+
+
+                                                    4
+(9)     Class II derivation:
+        a. /'h(r.tox/ + -elijk          →       [h(r.'to:.x.lk]     'ducal'
+        b. /do:d/      + -elijk         →       ['do:.d.lk]         'deadly'
+        c. /m,z.'da:d/+ -ig             →       [m,z.'da:.dx]        'criminal'
+        d. /l(iv/      + -ig            →       ['l(i.vx]            'corpulent'
+
+Suffixes of type three do not affect the position of the main stress of the word they are
+attached to. Examples are the nominalising suffixes -aard, -dom, -heid, -ling and -schap
+and the adjectival suffixes -achtig, -baar, and -loos. Main stress is on the first syllable
+in the words in (10a-c) below, irrespective of the form of the penultimate or ultimate
+syllable:
+
+(10 )   Class III derivation
+        a. /'h(r.tox/ + -dom            →       ['h(r.to¤.¦dom]       'duchy'
+        b. /'W9(L.IO/ + -achtig        →       ['W9(L.IO.¦$[.W[]   'doubtful'
+        c /'V[D:.G\9/+ -loos            →       ['V[D:.G\9.¦OR:V]     'without a shadow'
+
+Trommelen & Zonneveld (1989) assume that inflectional endings and the diminutive
+suffix belong to the third type, because they do not affect the stress-pattern of the words
+they are associated to (see 11a) and they may follow derivational suffixes (see 11b,c):
+
+(11)    a. /'h(r.tox/ + -/j/           →       ['h(r.tox.j]         'little duke'
+        b. /ro:d/ + -/$xtx/ + -/r/    →       ['ro:t.¦$x.t.xr]    'more reddish'
+        c. /v(iv/ + -/l,1/    + -/n/   →       ['v(if.¦l,1.n]       'quintuplets (pl.)'
+
+On the basis of the observations concerning stress assignment, Trommelen & Zonneveld
+(1989: 192, 200) propose the following model of the lexicon:
+
+(12)
+                                           Underived lexical entries
+                                                      ↓
+class I affixation                 ↔    level 1 phonology (syllabification, wordstress)
+                                                      ↓
+class II affixation                ↔    level 2 phonology (syllabification, stress)
+                                                      ↓
+class III affixation, inflection, ↔     level 3 phonology (compound stress,
+    compounding                                    adjunction of stress-neutral affixes)
+                                                    ↓
+                                                Postlexical Level
+
+
+
+
+                                            5
+This model of the lexicon poses a problem for devoicing phenomena. It presupposes that
+syllabification only applies at early levels, but not at the level where class III affixation,
+inflection, and compounding take place. Resyllabification of a stem-final obstruent is
+indeed attested in words derived by suffixes of the first two types, i.e. suffixes that
+conform to rules of regular stress assignment (see 8) and suffixes that require main
+stress before the suffix in question (see 9). Obstruents before schwa-initial suffixes of
+type three and before inflectional endings are also resyllabified and surface as onsets
+(see 13). Before suffixes of the third type that have a full vowel, however, stem-final
+obstruents are not resyllabified and they are voiceless (see 14).
+
+(13)   Inflection
+       a. /ro:d/      + -er              →        ['ro:.dr]            'redder'
+       b. /le:v/      + -en              →        ['le:.vn]            '(we) live'
+
+(14)   Class III derivation:
+       a. /ro:d/             + -achtig →          *[ro:.d$x.tx]
+       b. /ro:d/ → /ro:t/ + -achtig →              ['ro:t.$[.W[]       'reddish'
+       c. /v(iv/             + -ling   →          *[v(i.vl,1]
+       d. /v(iv/ → /v(if/ + -ling      →           ['v(if.l,1]          'quintuplets'
+
+Examples (13a-b) illustrate that resyllabification takes place in the case of inflectional
+endings, so that the stem-final consonant surfaces as an onset. Examples (14b,d) and
+(4a-b) illustrate that resyllabification does not take place in the case of other class III
+affixes and in the case of compound formation. It is thus questionable that inflection
+belongs to the same level as other class III suffixation and compounding.
+    Alternatively, it could be argued that inflectional endings belong to a level on which
+the phonology is organised in such a way that resyllabification is ordered before final
+devoicing. Other class III suffixes and compounds may be said to belong to a later level
+on which resyllabification no longer applies, so that final devoicing may apply to stem-
+final obstruents. However, in this way, we predict that inflectional endings are attached
+prior to class III affixation and we incorrectly exclude the possibility that class III affixes
+may precede inflectional endings, as is the case in the examples in (11b,c) above.
+    As we have seen, level ordering does not help to explain the different behaviour of
+suffixes with respect to obstruent devoicing. In our view, the solution to this problem
+lies in the different prosodic structure of suffixes which trigger resyllabification and
+suffixes before which we find final devoicing. This will be the topic of section 3. Before
+we discuss our solution to this problem, we will first consider a related phenomenon in
+Dutch which poses an interesting problem for rule ordering.
+
+
+
+
+                                              6
+2.2     Voicing assimilation in a rule-based approach
+
+Final devoicing is often obscured by voicing assimilation and this has been explained in
+rule-based analyses by a specific ordering of rules for final devoicing and rules for
+voicing assimilation. Consider in this respect that some class III suffixes which begin in
+a voiced obstruent trigger voicing assimilation. In most cases, voicing assimilation is
+regressive and as a result, a stem-final obstruent is voiced before these suffixes (see 10a
+above and 15a-c below):7
+
+(15)    Regressive voicing assimilation:
+        a. /e:t/     + -baar           →                 ['e:d.ba:r]         'edible'
+        b. /9$s/     + -baar           →                 ['9$z.ba:r]         'washable'
+        c. /le:v/    + -baar           →                 ['le:v.ba:r]        'liveable'
+
+Progressive voicing assimilation occurs when the right member of a cluster is a
+fricative, i.e. the fricative assimilates to the obstruent on its left:8
+
+(16)    Progressive voicing assimilation:
+           /9(rk/     + -zaam           →                ['9(rk.sa:m]        'active; effective'
+
+In clusters with a fricative as the second member, voicing assimilation interacts with
+final devoicing, i.e. devoicing takes place before progressive voicing assimilation:
+
+(17)    Final devoicing and progressive voicing assimilation:
+        a. /vri:nd/ → /vri:nt/ + -schap →     ['vri:nt.sx$p]                 'friendship'
+        b. /ra:d/ → /ra:t/ + -zaam →          ['ra:t.sa:m]                   'advisable'
+
+The data in (15) illustrate that devoicing may not take place after regressive voicing
+assimilation and the data in (17) illustrate that devoicing must take place before
+progressive assimilation. The order of rules for final devoicing, progressive
+assimilation, and regressive assimilation is thus as below (Berendsen 1983, Zonneveld
+1983):
+
+
+
+
+7
+  A rule of regressive voicing assimilation is formulated in Berendsen (1983) as follows:
+8
+     [-son]      Æ    [αvoice] / --- (#) [-son, αvoice]
+  A rule of progressive voicing assimilation is characterised in Berendsen (1983) as follows:
+                 Æ
+     [-son, +cont] [-voice] / [-voice] (#) ---
+
+
+
+
+                                                     7
+(18)                        ee/t/-/b/aar   lee/v/-/b/aar raa/d/-/z/aam
+         Final devoicing                       f             t
+                ⇓
+         Progressive ass.                                   t s
+                ⇓
+         Regressive ass.       db              vb
+                            [e:d.ba:r]     [le:v.ba:r]   [ra:t.sa:m]
+
+Voicing assimilation is also attested in compounds and across (grammatical) word
+boundaries. In cases where the second obstruent in a cluster is a stop, regressive voicing
+assimilation takes place:
+
+(19)   Regressive voicing assimilation:
+       a. /kl$p/    + /G2r/        → ['kl$b.G2r]                  'swing-door'
+       b. /VWoI/    + /GXN/        → ['VWov.GXN]                  'duster'
+       c. /K$QG/    + /S$OP/       → ['K$Qt.S$OP]                 'palm'
+       d. /sto:v/   + /Se:r/       → ['sto:f.Se:r]                'stewing-pear'
+       e. /kl$p do:r d mo:ln/ → [kl$b do:r d mo:l]            'a slap by the windmill'
+
+If the second obstruent in a cluster is a fricative, we find progressive voicing
+assimilation:
+
+(20)   Progressive voicing assimilation:
+       a. /sla:p/    + /z$k/       → ['sla:p.s$k]                 'sleeping-bag'
+       b. /G$N/      + /Y(QVWU/ → ['d$N.f(Q.VWU]                'dormer'
+       c. /$s/       + /v$t/       → ['$s.f$t]                    'dustbin'
+       d. /kl$p v$n d mo:ln/ → [kl$p f$n d mo:l]              'a slap of the windmill'
+
+Final devoicing has to precede progressive voicing assimilation:
+
+(21)   Final devoicing and progressive voicing assimilation:
+       a. /UoQG/ → /ront/ + /YD:UG/→ ['UoQW.ID:UW]                'cruise'
+       b. /xra:v/ → /xra:f/ + /z<xt/→ ['xra:f.s<xt]               'digging urge'
+
+The order of rule application in the case of compounds and at the postlexical level is the
+same as the order of rule application for class III derivation in (18):
+
+
+
+
+                                            8
+(22)                            klapdeur        slaapzak        rondvaart       klap door       klap van
+        Final devoicing                                            t
+               ⇓
+        Progressive ass.                             ps              tf                             pf
+               ⇓
+        Regressive ass.           bd                                        bd
+                              [kl$b.d2r]       [Vla:p.s$k] [UoQW.ID:UW] [kl$b.do:r] [kl$p.f$n]
+
+A problem arises when we consider voicing assimilation and the past tense affix -de.
+This suffix has an initial voiced stop (see 23a) which, according to the rule of regressive
+voicing assimilation, should trigger voicing of stem-final obstruents. This prediction is
+not borne out by the facts. Voiceless stem-final obstruents are not voiced before the
+inflectional ending -de. Instead, after voiceless stem-final obstruents, the morpheme -de
+is pronounced with voiceless [t] (see 23b,c):9
+
+(23)    Progressive assimilation with inflectional -de:
+        a. zwaai + -de →         zwaaide []9D:M.G]                            'wave'       → 'waved'
+        b. stop + -de →          stopte     [VWoS.W] /*[VWoE.G]              'stop'       → 'stopped'
+        c. maf + -de →           mafte      [m$f.t]/*[m$v.d]                 'snooze'     → 'snoozed'
+        d. tob    + -de →        tobde      [WoE.G]                           'drudge'     → 'drudged'
+        e. stoov + -de →         stoofde [sto:v.G]                            'stew'       → 'stewed'
+
+Another problem concerns devoicing of stem-final obstruents before clitics. In (24a) we
+find an instance of a clitic with an initial voiced plosive. According to the rule-ordering
+that was established in (22) for the post-lexical level, one might expect that a preceding
+obstruent is voiced due to voicing assimilation (see the last two columns in 25). This is
+not the case for all speakers, however:10
+
+
+
+
+9
+  Zonneveld (1983) proposes that the past tense suffix actually begins in a voiced fricative /'/ (which is
+not a phoneme in Dutch). After the rules of final devoicing, progressive assimilation, and regressive
+assimilation have applied, the resulting voiced or voiceless fricative is transformed into a plosive. Booij
+(1995:61-64) proposes that the underlying initial stop of the past tense suffix is unspecified for [voice]. He
+furthermore assumes a phonological rule that spreads the Laryngeal node from a preceding vowel or
+consonant to this stop. In section 4 below, we present an alternative analysis that neither assumes an
+underlying voiced fricative, nor underspecification.
+10
+   The data below are taken from the literature (Berendsen 1983, Booij 1995), but there is a great degree
+of variety among speakers of Dutch with respect to these forms. We assume with Berendsen (1983:29)
+coherency for the data in the sense that they may occur in one speaker/hearer.
+
+
+
+
+                                                      9
+(24)   No regressive assimilation with clitics:
+       a. kan + die →           kan-die [k$ndi:]                  'can he'
+       b. vond + die →          vontie     [YoQWL] / *[vonddi]    'found he'
+       c. of     + die →        of-tie     [ofti] / *[ovdi]       'whether he'
+
+Below, we illustrate that the rule-order established in (18) and (22) makes the wrong
+predictions for the past-tense suffix -de and the clitic die:
+
+(25)                       stop-de    tob-de       vond-die   of-die
+        Final devoicing                 p              t
+               ⇓
+        Progressive ass.
+               ⇓
+        Regressive ass.      *b d      *p t          *d d     *v d
+
+In summary, we found that the level ordering that can be established on the basis of
+stress assignment does not help to explain the different behaviour of inflectional
+suffixes and other class III suffixes with respect to final devoicing (see section 2.1).
+Furthermore, we showed that the order of rules that is needed to explain examples with
+some class III suffixes, compounds, and the behaviour of consonant clusters across word
+boundaries does not explain forms which are built by the suffix -de and forms which
+involve clitics. We will address the first issue in section 3. In section 4, we deal with
+voicing effects when the past tense morpheme -de is involved and section 5 discusses
+final devoicing and clitics.
+
+
+3. The prosodic structure of affixes
+
+To explain the different behaviour of suffixes with respect to final devoicing, voicing
+assimilation, and stress in Dutch and to explain phonological phenomena which may or
+may not apply in different morphosyntactic environments in other languages, Booij
+(1995:111 ff.) and Selkirk (1995), respectively, make the following suggestion. In their
+view, there are different categories of suffixes. The first category consists of suffixes
+that do not form a Prosodic Word of their own. We will refer to these suffixes as
+'internal suffixes', because they become part of a larger Prosodic Word. The second
+category consists of suffixes that form a Prosodic Word of their own and that have an
+internal stress pattern. From now on, these suffixes will be referred to as 'external
+suffixes'. The prosodic structure of the latter suffixes ensures that stem-final obstruents
+
+
+
+
+                                              10
+are not resyllabified as onsets of the suffix-initial syllable (26b).11 Selkirk (1995)
+proposes that the morphosyntactic word structure for all suffixes is the same (26a), but
+the prosodic word structure may be different (26b).12 We illustrate this idea by
+representing the morphosyntactic word structure and the prosodic word structure for
+examples (13a) and (14b), respectively:
+
+(26)    a. Morphosyntactic word structure
+
+                         Lex                              Lex
+                         / \                              / \
+                   Stem      Affix                  Stem      Affix
+                     |          |                      |        |
+                  /ro:d/      -/r/                 /ro:d/ -/$xtx/
+
+        b. Prosodic word structure
+              "internal affix"                      "external affix"
+                ( ro:.dr )ω                        (ro:d)ω ( $xtx)ω
+
+We will assume in the remainder of this paper that the categories 'internal affix' and
+'external affix' are specified as such in the lexicon. The prosodic structure of the
+respective affixes is not specified underlyingly, but assigned by the grammar. Inkelas
+(1994b) assumes for Turkish that in some instances, prosodic structure is not assigned
+by constraint-ranking, because this would supposedly necessitate morpheme-specific
+constraints. She therefore prespecifies prosodic structure in the lexicon for some
+morphemes. For Dutch, however, no morpheme-specific constraints need to be
+stipulated. We will propose constraints which refer to morphological categories and not
+to particular morphemes.
+
+
+3.1       Final devoicing
+
+In (27b) it is shown that an underlyingly voiced obstruent (/v/) is realised as such when
+it surfaces in onset position. In (27c), the fricative is in front of a vowel-initial suffix,
+but it does not resyllabify as an onset. Due to the fact that it finds itself in a syllable-
+final position, it is devoiced:
+
+
+
+11
+   In the remainder of this paper, we will use round brackets as boundary markers for the prosodic
+categories 'Prosodic Word' (PWd) and 'Phonological Phrase' (PPh). Also, the symbol 'ω' denotes 'Prosodic
+Word'.
+12
+   Following Selkirk (1995:440), 'Lex' (lexical word) designates a morphosyntactic word belonging to a
+lexical category, i.e. N0, V0, or A0.
+
+
+
+
+                                                  11
+(27)   a. die/v/                  →          ('di:f)                'thief'
+       b. die/v/        + -en     →          ('di:.vn)             'thieves'
+       c. die/v/        + -achtig →          ('di:f)(¦$[.W[)       'thievish'
+
+The challenge is to account for the fact that a stem-final obstruent may resyllabify before
+some vowel-initial suffixes, but not before other ones. In section 2.1, we argued that a
+derivational account for final devoicing has serious shortcomings. We will now suggest
+a constraint-based nonderivational account.
+    In Optimality Theory (Prince & Smolensky 1993), output forms have to meet certain
+conditions or constraints. The output form in (27b) illustrates that, when possible,
+syllables should have onsets. This is generally contributed to the constraint ONSET:
+
+(28)   ONSET (Ons)                       A syllable has an onset.
+
+In (27c), the stem-final obstruent does not become an onset of the next syllable. We will
+argue now that this behaviour is due to the fact that suffixes like the one in (27b) are
+internal suffixes, whereas those like the one in (27c) form a Prosodic Word of their own.
+    We attribute the behaviour with respect to syllabification of stems and internal
+suffixes to the requirement that a Prosodic Word must correspond to a lexical word
+(here: stem + suffix). Selkirk (1995:445) formulates such a type of constraint in terms of
+Generalized Alignment (McCarthy & Prince 1993):
+
+(29)   ALIGN (PWd, R, Lex, R):
+       Align the right edge of every Prosodic Word with the right edge of some lexical
+       word (N, V, or A).
+
+The prosodic structure in (30) for the form in (9c) illustrates that the Prosodic Word is
+right aligned with a lexical word (here an adjective) and that internal suffixes are inside
+a Prosodic Word:
+
+(30)                     PWd
+                        /       \
+                    Foot       Foot
+                      |       /      \
+                     σ      σ        σ
+                    /|\ /| / | \
+                   m , z . d a: . d  x )
+                                       ↑
+                                  internal affix
+
+We will argue below that the Prosodic Word is the relevant domain for final devoicing
+in Dutch. In this paper, we defend the view that final devoicing may be formulated as a
+
+
+
+
+                                                   12
+locally restricted markedness constraint against voicing in obstruents. In particular, we
+will argue in favour of a context-free constraint against voicing in obstruents (31c) and
+in favour of specific constraints against voicing in obstruents at the end of prosodic
+domains, e.g. at the end of a Prosodic Word (31a) or a syllable (31b).
+
+(31)   a. PWD-FINAL DEVOICING:              * [+voice] ) ω
+                                            i.e., word final obstruents are voiceless.
+
+       b. SYLLABLE-FINAL DEVOICING: * [+voice] ) σ
+                                    i.e., syllable final obstruents are voiceless.
+
+       c. DEVOICING:                        * [+voice]
+                                            i.e., obstruents are voiceless.
+
+At this point, it is not crucial whether Dutch devoicing is analysed as syllable final, foot
+final, or Prosodic Word final. However, in section 4 we will show that the fact that
+syllable final devoicing is obviously ignored within the Prosodic Word in (32a) but not
+across the Prosodic Word boundary in (32b) can be attributed to the different ranking of
+(31a) and (31b) with respect to Identity constraints.
+
+(32)                            PPh                                      PPh
+                                 |                                        /   \
+                               PWd                                      PWd \
+                                 |                                        |     \
+                                 F                                        F      \
+                                / \                                         |     \
+                              σ σ                                         σ       σ
+                               | |                                          |      |
+       a. /tob/+ /d/Affix → (tob.d )PWd        b. /x$v/+/di/Clitic → ((x$f)PWd ti )PPh
+          'drudge' +past → 'drudged'                'gave' + 'he' → 'gave he'
+
+In (32a), PWD-FINAL DEVOICING is vacuous and the identity of the underlying voicing
+specification of both the stem-final obstruent and the affix-initial obstruent remains
+unaltered. This example shows that (31b) may be violated in favour of keeping the
+underlying voicing specification intact. In (32b), the constraint formulated in (31a) plays
+an important role, since the underlying voicing specifications of both obstruents are lost
+in order to comply with this constraint. In anticipation of the discussion in section 4.1,
+we will use (31a) here to explain final devoicing before some vowel-initial affixes and
+before vowel-initial clitics.
+
+
+
+
+                                            13
+    The following tableau illustrates that the three constraints mentioned in (28), (29),
+and (31a) give the correct output for the verbal stem /xe:v/ and the nominalizing affix
+/r/:13
+
+(33)   /xe:v/ + -/r/       <gever>  'someone who gives'
+       Input:                       Align R PWd-Final                      Onset
+       xe:vStem + rAffix int        PWd      Devoicing
+a.      [(xe:v) .r]                   *!        *                            *
+b.      [(xe:f) .r ]                  *!                                     *
+c.      [(xe:).vr ]                   *!
+d. ) [(xe: .vr)]
+e.      [(xe:v. r)]                                                         *!
+( ) = PWd boundaries; [] = Lex boundaries
+
+Candidate (33a) violates the constraint formulated in (31a), because the Prosodic Word
+final obstruent [v] is not voiceless. In candidates (33a,b,c), the right edge of the Prosodic
+Word is not the right edge of a lexical word and this violates (29). Candidates (33a,b,e)
+violate ONSET. Candidate (33d) does not violate any of the constraints mentioned above
+and it is thus the winner or the 'optimal' candidate.
+    Below we show a tableau for a lexical word which consists of a stem followed by
+two internal affixes. The constraint requiring that a lexical word must correspond to one
+Prosodic Word (see 29) is violated in (34a,b) because the only Prosodic Word is not at
+the right edge of a lexical word. The winning candidate (34d) has an onset and, hence,
+one violation less than (34c):
+
+(34) /pro:d<kt/ + -/i:v/ + -/it(it/ <productiviteit>    'productivity'
+     Input:          pro:d<ktStem + Align R PWd-Final          Onset
+     i:vAffix int + it(itAffix int     PWd       Devoicing
+a.   [ (pro:d<kt).i:.vit(it ]           *!                       *
+b.   [ (pro:d<k.ti:v).i.t(it ]          *!           *           *
+c.   [ (pro:d<k.ti:f.i.t(it) ]                                   *!
+d. ) [ (pro:d<k.ti:.vi.t(it)]
+
+We still have to account for the fact that stem-final obstruents are voiceless before the
+so-called 'external suffixes' and in compounds. Stem-final obstruents cannot be onsets of
+external suffixes due to the fact that external suffixes form a Prosodic Word of their
+own. The constraint that ensures that external suffixes form an independent Prosodic
+
+13
+  For most tableaux in this section, a more detailed tableau with more possible candidates is given in the
+appendix.
+
+
+
+
+                                                   14
+Word domain is a morphology/prosody Alignment constraint that says that the left edge
+of an external suffix coincides with the left edge of a Prosodic Word:
+
+(35)   ALIGN (Affixext, L, PWd, L)
+       Align the left edge of every external affix with the left edge of some Prosodic
+       Word.
+
+In tableau (36), the constraint formulated above is violated in candidates a-d. The
+constraint must be ranked higher than ALIGN RIGHT PWD, because it incurs a fatal
+violation in candidate (36d). Candidate (36e) violates ALIGN RIGHT PWD and PWD-
+FINAL DEVOICING and candidate (36f) wins, even though it violates ALIGN RIGHT PWD
+and low-ranked ONSET.
+
+(36)   /di:v/ + -/$xtx/          <diefachtig>     'thievish'
+       Input:                          Align L    Align R PWd-Final         Onset
+       divStem + $[W[Affix ext        Affixext    PWd        Devoicing
+a.     [(di:v). $x.tx ]                  *!         *           *            *
+b.     [(di:f). $x.tx ]                  *!         *                        *
+c.     [(di:).(v$x.tx)]                  *!         *
+d.     [(di:.v$x.tx)]                    *!
+e.     [(di:v).($x.tx)]                             *           *!           *
+f. )   [(di:f) .($x.tx)]                            *                        *
+
+Now consider the situation where an internal affix and an external affix are involved.
+Below, we illustrate that the constraints proposed in this section account for final
+devoicing before external affixes and for the fact that final obstruents of external affixes
+may be onsets of internal affixes. In candidate (37d), a violation of ALIGN LEFT AFFIXEXT
+is fatal, whereas the violation of ALIGN RIGHT PWD is not fatal in candidate (37f). This
+means that the former constraint is ranked higher than the latter:
+
+(37)   /ro:d/ + -/$xtx/ + -/r/ <roodachtiger> 'more reddish'
+       Input: ro:dStem + $xtxAff ext Align L Align R PWd-Final              Onset
+       + rAff int                    Affixext  PWd      Devoicing
+a.     [(ro:d). $x.tx .r]             *!        *            *              **
+b.     [(ro:t). $x.tx .r]             *!        *                           **
+c.     [(ro:t). ($x.tx).r]                    * *!                          **
+d.     [(ro:. d$x. t. xr)]             *!
+e.     [(ro:t). ($x.t).xr]                    * *!                           *
+f. )   [(ro:t). ($x.t.xr)]                      *                            *
+
+
+
+
+                                            15
+To ensure that in compounds both members form a Prosodic Word of their own, we
+suggest the following morphology/prosody Alignment constraint:
+
+(38)    ALIGN (Stem, L, PWd, L)
+        Align the left edge of every stem with the left edge of some Prosodic Word.
+
+This constraint has to be ranked higher than the constraint that says that the right edge of
+a Prosodic Word coincides with the right edge of a Lexical word (see 29):
+
+(39)    /xoud/ + /a:dr/     <goudader>    'gold-vein'
+        Input:                      Align L Align R PWd-Final                          Onset
+        xoudStem + a:drStem         Stem     PWd      Devoicing
+a.      [(xoud).a:.dr ]               *!       *         *                               *
+b.      [(xout). a:.dr]               *!       *                                         *
+c.      [(xou).(da:.dr)]              *!       *
+d.      [(xou.da:.dr)]                *!
+e.      [(xoud).(a:.dr)]                       *         *!                              *
+f. )    [(xout) .(a:.dr)]                      *                                         *
+
+This is not the end of the story, however. There is another element with the same form
+as the suffix /r/. This element is a clitic and it behaves differently. In particular, stem-
+final obstruents may be voiced before the affix -/r/ (see 33d), whereas stem-final
+obstruents are always voiceless before vowel-initial clitics. We here suggest that this
+may be attributed to the different prosodic requirements of stems, suffixes, and clitics.
+Schwa-initial suffixes have to be incorporated into a prosodic structure, whereas the
+weak forms of personal pronouns are clitics. Such clitics are degenerate syllables which
+are not part of the Prosodic Word. Rather, they are adjuncts that do not belong to the
+same Prosodic Word as their hosts:14
+
+(40)                         PPh
+                            / \
+                        PWd \
+                          |     \
+                          F      \
+                          |       \
+                          σ         σ
+                      ( (xe:f)ω r )PPh                            'give her'
+
+
+
+14
+  Selkirk (1995) refers to elements which do not belong to a Prosodic Word as 'free' elements. We will
+discuss the prosodic structure of clitics in more detail in section 5.
+
+
+
+
+                                                   16
+If we assume that the host of a pronominal clitic is a lexical word, the constraint ranking
+established thus far correctly predicts final devoicing before clitics. The tableau in (41)
+differs from the one in (33) in that there is no internal affix involved and a Prosodic
+Word boundary is not required to the right of the clitic -r. Tableau (41) also illustrates
+that PWD-FINAL DEVOICING and ALIGN RIGHT PWD may not be violated in the optimal
+form, whereas ONSET may be violated. The latter constraint should therefore be ranked
+lower than PWD-FINAL DEVOICING and ALIGN RIGHT PWD.
+
+(41) /xe:v/ + /r/      <geef 'r>      'give her'
+     Input:                           Align R PWd-Final           Onset
+     xe:vStem+ rClitic                PWd        Devoicing
+a.   [(xe:v)] .r                                    *!             *
+b. ) [(xe:f)] .r                                                   *
+c.   [(xe:). v] r                       *!
+d.   [(xe: . v] r)                      *!
+e.   [(xe:f] .r)                        *!                         *
+
+In this section, we have provided a constraint-based account of final devoicing in Dutch.
+The distinction between internal suffixes and external suffixes plays a crucial role in our
+analysis. We have proposed one Alignment constraint for Prosodic Words, one for
+external suffixes, and one for stems, respectively. They are ranked as in (42a):
+
+(42)   Constraint Ranking
+       a. Align L Affixext, Align L Stem >> Align R PWd >> Onset
+       b. PWd-Final Devoicing >> Onset
+
+Inkelas (1994b) develops an account of exceptional stress patterns in Turkish. She
+argues that these patterns are best analysed in the lexicon with underlying metrical
+structure. For Dutch, a prespecification approach implies that stems and external
+suffixes are specified with a trochaic foot in the input. Furthermore, a constraint is
+needed which says that a segment at the left edge of a foot in the input is also at the left
+edge of a foot in the output (ANCHOR LEFT). As an example of how such an account
+would work, we present the following tableau:
+
+
+
+
+                                              17
+(43)   (/ro:d/) + (/$xtx/) + /r/   <roodachtiger> 'more reddish'
+       Input:                          Anchor Align R PWd-Final             Onset
+        (x) (x . )                      Left      PWd     Devoicing
+        ro:d + $x.tx + rAff int
+a.     [ro:d. $x.tx .r]               *! *                                  **
+b.     [(ro:t). $x.tx .r]              *!         *                         **
+c.     [(ro:t). ($x.tx).r]                       * *!                       **
+d.     [(ro:. d$x. t. xr)]             *!
+e.     [(ro:t). ($x.t).xr]                       * *!                       *
+f. )   [(ro:t). ($x.t.xr)]                        *                         *
+
+We consider it a drawback of this analysis that all stems and many affixes are specified
+for foot structure underlyingly, even more so, because a high ranked constraint which
+says that feet in Dutch are moraic trochees would have to be assumed any way to
+account for secondary stress (see, e.g., Kager 1996). It does not seem to be very
+economic to have both underlying feet and feet which emerge as the result of the
+grammar by constraint ranking. We therefore prefer an analysis in which the grammar is
+responsible for prosodic structure.
+    In the next section, we will consider a constraint-based analysis for voicing
+assimilation.
+
+
+4 An OT-account of final devoicing and voicing assimilation
+
+
+A recent explanation for part of the Dutch data is found in Lombardi (1995, 1996). She
+defends the position that there is no feature specification [-voice]. In her view, voicing
+in obstruents is expressed by the presence of a Laryngeal node. To account for
+devoicing, Lombardi (1996) proposes a constraint which prohibits segments with
+features for voicing (*Lar). This markedness constraint interacts with faithfulness
+constraints which say that underlying featural specifications should remain the same.
+One group of familiar faithfulness constraints are the so-called 'Identity constraints'
+introduced by McCarthy & Prince (1995):
+
+(44)   IDENT(F) (McCarthy & Prince 1995:264)
+       Let α be a segment in S1 and β be any correspondent of α in S2.
+       If α is [γF] then β is [γF].
+       (Correspondent segments are identical in feature F.)
+
+Lombardi (1995, 1996) points out that it is usually more important to be faithful to onset
+laryngeal specifications than to coda - or elsewhere - specifications. In different papers,
+
+
+
+
+                                              18
+she suggests different strategies to express this generalisation. Lombardi (1995)
+proposes the Alignment constraint in (45) which captures this generalisation and
+Lombardi (1996) proposes to limit the scope of Identity constraints by so-called
+'positional' requirements to ensure that obstruents in onset positions do not devoice. The
+identity constraint in (46) requires that the underlying voice value of an obstruent
+surfaces if it is realised in onset position:
+
+(45)   Align Left (Laryngeal, Syllable):
+       Every Laryngeal node stands at the left edge of a syllable.
+
+(46)   IDENTONSET(Laryngeal) (IDOnsLar):
+       Onsets should be faithful to underlying laryngeal specification.
+
+The two constraints have the same effect and in the remainder of this paper we will
+adopt the option of a positional requirement on Identity Constraints to express the fact
+that voicing features in the onset are preserved, but nothing crucial hinges on this
+choice.
+    In Dutch, a laryngeal specification (i.e., the emergence of voiced obstruents) is only
+allowed in onsets. This is guaranteed in Lombardi's (1996) analysis by the ranking
+IDONSLAR >> *Lar >> IDENTLARYNGEAL:
+
+(47)   <daad> 'deed'
+       Input: /da:d/ IDOnsLar          *Lar          IDent
+                                                   Laryngeal
+a.     [da:d]                          * *!
+b.     [ta:t]              *!                         **
+c. )   [da:t]                           *              *
+
+Lombardi suggests that assimilation is due to a constraint AGREE that requires adjacent
+obstruents to have the same value for voicing:
+
+(48)   AGREE:     Obstruent clusters should agree in voicing.
+
+The AGREE constraint as formulated above is neither a markedness constraint nor a
+correspondence constraint. As it stands, it does not belong to any constraint family
+proposed in the literature. We doubt the necessity of positing a new constraint scheme.
+Instead, we propose to substitute AGREE by an Identity constraint. Consider in this
+respect, that assimilation is an identity relation that requires that neighbouring segments
+look identical in some respect (e.g. with respect to voicing). Following Krämer (1998),
+who proposes that vowel harmony is best expressed as an identity relation among
+
+
+
+
+                                              19
+surface elements, we formulate the constraint which expresses voicing assimilation as
+follows:
+
+(49)   SURFACE-IDENTITY[voice] (S-IDENT):
+       Let α be an obstruent in a string and β be any adjacent obstruent in that string.
+       If α is [γvoice] then β is [γvoice].
+       (Adjacent obstruents are identical in voicing.)
+
+In a cluster of two obstruents where one of the obstruents appears in onset position, this
+obstruent will be faithful to its voicing specification at the cost of the underlying voicing
+specification of its leftward neighbour. This is ensured in Lombardi's analysis, because
+she ranks IDONSLAR above the markedness constraint on voiced obstruents (*Lar):
+
+(50) /k$s/ + /buk/     <kasboek>            'cash-book'
+     Input: /k$s/ + /buk/    S-Ident        IDOnsLar        *Lar       IDLar
+a. ) [k$z.buk]                                               **          *
+b.    [k$s.puk]                                   *!                     *
+c.    [k$s.buk]                 *!                            *
+
+However, examples with fricatives as second members of consonant sequences (16, 17,
+20, and 21) show that voicing is not always preserved in onsets. In Lombardi's analysis,
+constraint (51) is assumed to account for the fact that the positional constraint on onsets
+may be obscured in the case of fricatives:
+
+(51)   Postobstruent Fricative Voicing constraint (FricVoice): * [-son] [-son]
+                                                                        [+cont]
+                                                                        [+voice]
+
+Lombardi acknowledges that this constraint is not very elegant and in section 4.2, we
+will propose to an analysis which does not use this constraint.
+    In the following tableau, Lombardi's analysis is exemplified for a case where it
+works properly. Ranking FRICVOICE and S-IDENT above IDONSLAR will give the correct
+output for a case where the input consists of a voiced plosive followed by a voiced
+fricative:
+
+
+
+
+                                             20
+(52) /ra:d/ + /za:m/ <raadzaam>      'advisable'
+     Input: /ra:d/ + /za:m/ FricVoice S-Ident IDOnsLar             *Lar     IDLar
+a.    [ra:d.za:m]               *!                                  **
+b.    [ra:t.za:m]               *!        *                          *        *
+c.    [ra:d.sa:m]                         *!     *                   *        *
+d. ) [ra:t.sa:m]                                 *                           **
+
+Lombardi (1995, 1996) is not concerned with inflection and clitics and her proposal
+does not exhaustively explain the Dutch facts. This is demonstrated below. The little
+deadhead (1) marks the winning form in Lombardi's grammar and the sad smiley (/)
+marks the actual output of the Dutch grammar.
+
+(53)  <klapte>      'clapped'
+     Input: /kl$p/ +/ d/     FricVoice     S-Ident    IDOnsLar    *Lar       IDLar
+a. 1 [kl$bd]                                                       **          *
+b. / [kl$pt]                                                 *!                *
+c.   [kl$bt]                                   *!            *      *         **
+d.   [kl$pd]                                   *!                   *
+
+(54)  <mafte>       'snoozed'
+     Input: /m$f/ + /d/      Fric Voice    S-Ident    IDOnsLar    *Lar       IDLar
+a. 1 [m$vd]                                                        **          *
+b. / [m$ft]                                                  *!                *
+c.   [m$vt]                                    *!            *      *         **
+d.   [m$fd]                                    *!                   *
+
+(55)  <gaf-tie>     'gave he'
+     Input: /x$v/ + /di/      Fric Voice    S-Ident    IDOnsLar    *Lar       IDLar
+a. 1 [x$vdi]                                                        **
+b. / [x$fti]                                                  *!               **
+c.   [x$vti]                                    *!            *      *          *
+d.   [x$fdi]                                    *!                   *          *
+
+These data will be accounted for in the following sections.
+
+
+
+
+                                           21
+4.1     Prosodic structure and voicing assimilation
+
+On the basis of the observation that stem-final obstruents resyllabify before some
+suffixes but not before others and neither before clitics, we concluded in section 3 that
+Dutch distinguishes between internal and external affixes and 'free' clitics. If we are
+right in this respect, the solution to the problem concerning voicing assimilation in the
+case of inflectional suffixes may become more transparent. The difference between (50)
+and (52) on the one hand, and (53), (54) and (55) on the other hand lies in the fact that in
+the former cases, we are dealing with forms that consist of two Prosodic Words,
+whereas there is only one Prosodic Word in (53-55):
+
+(56)                  Stem + Stem           Stem + Affixext.         Stem + Affixint.        Stem+Clitic
+        a. Input /k$s/ + /buk/               /ra:d/+ /za:m/           /m$f/+ /d/             /x$v/ + /di/
+        b. Output [(k$z) (buk)]             [(ra:t) (sa:m)]          [(m$f t)]              [(x$f)] ti
+
+The output forms in (56b) show that a plosive in onset position of a Prosodic Word is
+faithful to its underlying voicing specification, whereas a plosive in the onset of a
+syllable which is not initial in a Prosodic Word may not be faithful when other
+conditions are at play (e.g. devoicing and/or voicing assimilation). We propose to add
+another specific positional requirement to Lombardi's Identity constraint in (46) in such
+a way, that it does not refer to all syllable onsets, but only to those in Prosodic Word
+initial position:15
+
+(57)    IDENT PWD-ONSET (voice):
+        Onsets of Prosodic Words should be faithful to underlying laryngeal
+        specification.
+
+Furthermore, we note that the fricative in onset position of a Prosodic Word is not
+faithful to its underlying voicing specification in raadzaam [ra:tsa:m] 'advisable'.
+Lombardi (1996) proposes the 'postobstruent voiced fricative constraint' in (51) to
+exclude the outcome *[ra:dza:m] (see 52). In the current theoretical framework, there
+are no constraints on the way markedness constraints can be formulated and the
+supposed existence of a constraint such as the one in (51) opens the door to, for
+instance, constraints which require all segments following an obstruent to be a labial
+nasal or to be aspirated, etc. Obviously, this is not desirable and we choose not to adopt
+
+15
+   This constraint could also be formulated as an Alignment constraint: ALIGN LEFT ([+voice], PWd). The
+constraint says that every feature [+voice] stands at the left edge of a Prosodic Word. We assume that
+universally, the more specific version of a constraint is ranked higher than the more general version, i.e., if
+we assume Identity, IDENT PWD-ONSET (voice) is ranked higher than the more general constraint IDENT
+ONSET (voice) which, in turn, is ranked higher than IDENT (voice).
+
+
+
+
+                                                     22
+this constraint in our analysis. Based on the observation that voiced fricatives are more
+marked than voiced stops, we propose here that it is more important to preserve an
+underlying voice-specification for stops than for fricatives:16, 17
+
+(58)    IDENT STOP (voice):
+        Let α be a stop in S1 and β be any correspondent of α in S2.
+        If α is [γvoice] then β is [γvoice].
+        (Stops should be faithful to underlying laryngeal specification.)
+
+Combining the two requirements regarding faithfulness to voicing specifications in
+onset position of Prosodic Words and faithfulness to voicing specifications for stops, we
+arrive at the following constraint which will be crucial to our analysis:
+
+(59)    IDENT PWD-ONSET STOP (voice):
+        Let α be a stop in S1 and β be any correspondent of α in onset position of a
+        Prosodic Word in S2. If α is [γvoice] then β is [γvoice].
+        (Stops in onsets of Prosodic Words should be faithful to underlying laryngeal
+        specification.)
+
+With this constraint, we have eliminated the need of an ad hoc constraint like FricVoice
+in (51). However, it predicts that suffixes with an initial voiced fricative (e.g. -zaam)
+would always be realised with a voiceless obstruent (due to *Lar or *VOICE). This is not
+the case (cf. eenzaam [e:nza:m]/ *[e:nsa:m] 'lonely'). For this reason, we propose to add
+constraints which limit the scope of the constraint *VOICE to final positions in syllables
+and Prosodic Words (see 31b and 31a, respectively, the latter is repeated here for
+convenience as 60):18
+
+(60)        PWD-FINAL DEVOICING:                 * [+voice] ) ω
+                                                 i.e., word final obstruents are voiceless.
+
+
+16
+   Instead of the Laryngeal node, we make use of the binary valued feature [+/-voice], because we find
+Inkelas' (1994a) arguments in favour of this feature convincing. Also, Butska (1998) and Krämer (1999)
+show on the basis of Ukrainian voicing phenomena and Breton voicing assimilation, respectively, that a
+specification for voicing cannot be privative. However, for the purpose of this paper, nothing crucial
+hinges on this.
+17
+   IDENTITY PWD-ONSET STOP (voice) can be interpreted as the local conjunction (see Smolensky 1993,
+1995) of the two more general identity constraints IDENTITY PWD-ONSET (voice) and IDENTITY STOP
+(voice) which are ranked lower than the more specific constraint.
+18
+   In examples (32a) and (32b) above, we have indicated that PROSODIC WORD-FINAL DEVOICING is
+relevant. Below, we will provide further evidence for the positional restrictions of constraints against
+voicing in obstruents.
+
+
+
+
+                                                  23
+The constraint in (60) cannot be ranked lower than the context-free constraint IDENT
+(voice), otherwise we would never see an effect of PROSODIC WORD-FINAL DEVOICING.
+This constraint helps to select the winning candidate in (61). The constraint in (59)
+applies vacuously in (61) because there is no onset stop at play, but it is crucial in
+selecting the winning candidate in cases where the second obstruent in a cluster is a
+plosive (see 62, 64 below).
+
+(61) <raadzaam>         'advisable'
+     Input:                 S-Ident   IDPWd-Ons      PWd-Final
+      /ra:d/ + /za:m/       (voice)   Stop (voice)   Devoicing
+a.    [(ra:d).(za:m)]                                   *!
+b.    [(ra:t).(za:m)]         *!
+c.    [(ra:d).(sa:m)]         *!                          *
+d. ) [(ra:t).(sa:m)]
+
+The constraint ranking proposed here adequately accounts for all cases where two
+consonants are adjacent across a Prosodic Word boundary, i.e. when a stem and an
+external affix are involved (61, 62), in compounds (63,64) and when a stem and a clitic
+are involved (65):
+
+(62) <eetbaar>          'edible'
+     Input:                 S-Ident   IDPWd-Ons      PWd-Final
+      /e:t/ + /ba:r/        (voice)   Stop (voice)   Devoicing
+a. ) [(e:d).(ba:r)]                                     *
+b.    [(e:t).(ba:r)]          *!
+c.    [(e:d).(pa:r)]          *!           *              *
+d.    [(e:t).(pa:r)]                       *!
+
+(63) <slaapzak>         'sleeping bag'
+     Input:                  S-Ident IDPWd-Ons       PWd-Final
+      /sla:p/ + /z$k/        (voice) Stop (voice)    Devoicing
+a.    [(sla:b).(z$k)]                                   *!
+b.    [(sla:p).(z$k)]         *!
+c.    [(sla:b).(s$k)]         *!                          *
+d. ) [(sla:p).(s$k)]
+
+
+
+
+                                          24
+(64) <kasboek>           'cash-book'
+     Input:                  S-Ident    IDPWd-Ons      PWd-Final
+      /k$s/ + /buk/          (voice)    Stop (voice)   Devoicing
+a. ) [(k$z).(buk)]                                        *
+b.    [(k$s).(buk)]             *!
+c.    [(k$z).(puk)]             *!           *              *
+d.    [(k$s).(puk)]                          *!
+
+(65) <gaf-die>            'gave he'
+     Input:                   S-Ident   IDPWd-Ons      PWd-Final
+      /x$v/Stem + /di/Clitic (voice)    Stop (voice)   Devoicing
+a.    [(x$v)].di                                          *!
+b.    [(x$f)].di                 *!
+c.    [(x$v)].ti                 *!                         *
+d. ) [(x$f)].ti
+
+This constraint ranking explains cases where two consonants in a cluster are separated
+by a Prosodic Word boundary, but is not sufficient yet to give us the output forms in
+cases where two obstruents are adjacent within a Prosodic Word. This issue will be
+addressed now.
+   Our analysis crucially relies on the assumption that there are different locality
+requirements on the constraint that rules out voiced obstruents. PROSODIC WORD-FINAL
+DEVOICING rules out candidate (65a). In (66a), this constraint is vacuous. If the higher-
+ranked constraints S-IDENT (voice) and IDPWD-ONSET (voice) do not select an optimal
+output, the form with the least violations of lower-ranked constraints wins.
+
+(66)    <leefde>         'lived'
+       Input:         S-Ident Syllable       IDent-Ons *Voice       IDent IDent
+       /le:v/+ /d/   (voice)      Final       (voice)               stop (voice)
+                                 Devoicing                         (voice)
+a. )   [(le:v.d)]                   *                      **
+b.     [(le:f.d)]      *!                                  *                  *
+c.     [(le:v.t)]      *!           *            *         *         *        *
+d.     [(le:f.t)]                                *                   *       * *!
+
+In this tableau, it is crucial that *VOICE is not ranked higher than IDENT (voice),
+otherwise (66a) would be less optimal than (66d). Without ranking *VOICE >> IDENT
+(voice) and without the constraint SYLLABLE FINAL DEVOICING, regular cases of final
+devoicing like in daadje [da:tj] 'small deed' could not be accounted for. For this reason,
+
+
+
+
+                                             25
+the constraint SYLLABLE FINAL DEVOICING is introduced in the grammar that we
+propose.
+
+(67) <daadje>         'small deed'
+     Input:      IDent PWd- Syllable Final IDent-Ons *Voice            IDent  IDent
+     /da:d/+/j/ Ons Stop       Devoicing    (voice)                    Stop (voice)
+                   (voice)                                            (voice)
+a.   [(da:d.j)]                   *!                 **
+b.   [(ta:d.j)]     *!                         *      *                  *        *
+c.   [(ta:t.j)]     *!                         *                        **       **
+d. ) [(da:t.j)]                                       *                  *        *
+
+With SYLLABLE FINAL DEVOICING we may now account for cases which are problematic
+in Lombardi's analysis, viz. cases that involve a stem plus a voiced obstruent initial
+internal affix. In (68) and (70), SYLLABLE FINAL DEVOICING is crucial. Without this
+constraint, the wrong candidate would be selected in (68), viz. candidate (68a), and we
+would not be able to decide between candidates (70a) and (70d).
+
+(68)   <klapte>         'clapped'
+       Input:        S-Ident Syllable Final IDent-Ons *Voice         IDent      IDent
+       /kl$p/ + /d/ (voice)    Devoicing     (voice)                 stop     (voice)
+                                                                    (voice)
+a.     [(kl$b.d)]                   *                       **        *!         *
+b.     [(kl$p.d)]     *!                                    *
+c.     [(kl$b.t)]     *!            *             *         *        **         **
+d. )   [(kl$p.t)]                                 *                   *         *
+
+(69)   <tobde>           'drudged'
+       Input:        S-Ident Syllable Final IDent-Ons *Voice          IDent     IDent
+       /tob/+ /d/   (voice)     Devoicing    (voice)                  stop    (voice)
+                                                                     (voice)
+a. )   [(tob.d)]                    *                       **
+b.     [(top.d)]      *!                                     *        *
+c.     [(tob.t)]      *!           *              *          *        *
+d.     [(top.t)]                                  *                  **        *! *
+
+
+
+
+                                          26
+(70)   <mafte>           'snoozed'
+       Input:         S-Ident Syllable Final IDent-Ons          *Voice    IDent     IDent
+       /m$f/+ /d/    (voice)   Devoicing      (voice)                     stop    (voice)
+                                                                         (voice)
+a.      [(m$v.d)]                     *                         **                   *!
+b.      [(m$f.d)]       *!                                       *
+c.      [(m$v.t)]       *!            *              *           *        *         **
+d. )    [(m$f.t)]                                    *                    *          *
+
+In section 3, we accounted for resyllabification of stem-final obstruents before some suffixes
+and devoicing of stem-final obstruents before other suffixes and in compounds by assuming
+two different prosodic structures for the respective suffixes and a markedness constraint that is
+sensitive to Prosodic Word boundaries (31a, 60). The same prosodic structures and an identity
+constraint that is sensitive to Prosodic Word boundaries (see 59) help to explain why we find
+regressive voicing assimilation with one class of suffixes (i.e., the so-called 'external affixes'
+see 62) and progressive assimilation with others (i.e. the so-called 'internal affixes', see 68,
+70).
+    The next issue to be addressed in this paper is the behaviour of clitics with respect
+devoicing of obstruents and voicing assimilation.
+
+
+5. The prosodic structure of clitics
+
+With respect to devoicing of stem-final obstruents, weak forms of personal pronouns
+(71b) differ from internal suffixes (71c), whereas they are similar to external suffixes
+(see 71d).
+
+(71)   a. Ik gee/v/ haar een boek          [xe:f ha:r n buk]     'I give her a book'
+       b. Ik gee/v/ 'r een boek            [xe:fr n buk]        'I give 'r a book'
+       c. gee/v/ + -erAffix int            [xe:vr]               'someone who gives'
+       d. die/v/ + -achtig Affix ext       [di:f$xtx]            'thievish'
+
+We conclude from this that, unlike internal affixes, clitics that are weak forms of
+personal pronouns do not belong to the same Prosodic Word as the preceding
+morpheme. The question then arises whether clitics form a Prosodic Word of their own,
+or whether they are outside a Prosodic Word structure.
+   Booij (1995) points out that in Dutch, a Prosodic Word contains at least one full
+vowel. Moreover, a Prosodic Word may contain the reduced vowel //, but it may not
+begin with Schwa:
+
+
+
+
+                                              27
+(72)   a.     tel                     [t ( l]                    'a second'
+       b.     ebak                  * [ b $ k]
+       c.     gebak                   [x  b $ k]                'pastry, cake'
+       d.     bakken                  [b $ k  ]                 'to bake'
+
+Since most clitics contain only a Schwa syllable (or even begin with a Schwa), these
+clitics cannot be Prosodic Words. This means that they differ from external suffixes that
+form a Prosodic Word of their own. In section 3, we followed Selkirk (1995) and
+analysed clitics as 'free' elements outside the Prosodic Word structure (cf. 40). This has
+consequences for stem-final consonants which are final in a Prosodic Word before
+Schwa-initial clitics, i.e. they are voiceless:
+
+(73) /xe:v/ + /t/       <geef 't>     'give it'
+      Input:                     Align L Align R PWd-Final           Onset
+      xe:vStem+ tClitic           Stem      PWd   Devoicing
+a.    [ (xe:v)] .t                                   *!               *
+b. ) [ (xe:f)] .t                                                     *
+c.    [((xe:). v] t)                           *!
+d.    [ (xe: . v] t)                           *!
+e.    [ (xe:f)] .(t)                           *!                     *
+
+When a clitic begins with a voiced obstruent, the obstruent assimilates in voicing to a
+preceding consonant and this is accounted for by the constraint-ranking that we
+established in section 4.1:
+
+(74) /xe:v/ + /z/        <geef ze>      'give them'
+      Input:                     S-Ident IDPWd-Ons PWd-Final
+      xe:vStem + zClitic        (voice) Stop (voice) Devoicing
+a.    [ (xe:f)].z                  *!
+b.    [ (xe:v)].z                                       *!
+c. ) [ (xe:f)].s
+
+Clitics may have lexical words as their host (see 73,74), or function words. Selkirk
+(1995) distinguishes between different prosodic structures for function words. Stressable
+function words may have the status of 'Prosodic Word', other function words may be
+incorporated into a Prosodic Word and still others are 'free' (i.e., they are not part of a
+Prosodic Word and they are directly adjoined to the Prosodic Phrase). The
+complementizer of 'whether' is stressed and we therefore assume that function words
+like of may be the head of a Prosodic Word:
+
+
+
+
+                                            28
+(75) of + die          'whether he'
+      Input:                       S-Ident     IDPWd- Ons PWd-Final
+      of + diClitic                             Stop (voice) Devoicing
+a.     (of).di                        *!
+b.     (ov).di                                                        *!
+c. )   (of).ti
+
+We furthermore propose that strong forms of personal pronouns are Prosodic Words
+(see 76a), but clitics such as 't, ze and die (weak forms of the 3rd sg. neut., 3rd pl., and 3rd
+sg. masc. personal pronouns, respectively) are 'free' (see 76b):
+
+(76)   a.           PPh                       b.             PPh
+                    / \                                      |   \
+               PWd PWd                                   PWd σ
+                 |        |                                |      |
+                 Ft       Ft                              Ft      |
+                 |        |                                |      |
+                of      h(i                               of     ti
+               <of      hij >                            <of die>          'whether he'
+
+Clitics differ from external affixes which form a Prosodic Word of their own (see 77a)
+and from internal affixes which are inside the Prosodic Word (see 77b):
+
+(77)   a.          PPh                              b.       PPh
+                   / \                                         |
+               PWd PWd                                       PWd
+                 |      |                                      |
+                Ft     Ft                                     Ft
+                 |     /\                                     / \
+                σ σ σ                                        σ σ
+                di:f. $x.tx                                 di:.vn
+                <diefachtig>      'like a thief'            <dieven>       'thieves'
+
+Final devoicing before clitics and voicing assimilation do not pose a problem for our
+analysis and can be accounted for with the same constraint rankings as for the ones
+proposed above for final-devoicing before external affixes (see section 3) and for
+voicing assimilation in the case of suffixes and compounds (see section 4).
+
+
+
+
+                                               29
+5.1    Devoicing without 'sympathy'
+
+Forms like von.t,k 'found I' used to pose a problem for analyses of Dutch, since in such
+forms, an underlying voiced plosive is devoiced in onset position. McCarthy (1998)
+proposed that the output candidate [von.t,k] wins because it is sympathetic to a loosing
+candidate [vont] and being 'sympathetic' outranks being faithful to the input form /vond/.
+McCarthy bases himself on Booij (1995, 1996) who assumes that in the case of a stem
+plus a following vowel-initial clitic, the stem-final obstruent is devoiced at the lexical
+level. The stem-final obstruent is resyllabifies after the clitic is added at the postlexical
+level in order to avoid syllables without onsets:
+
+(78)      Underlying       Lexical Level             Postlexical Level
+          Representation (devoicing)                 (resyllabification)
+       a. /h(b/        -->    /h(p/                  + /,k/ --> [h(.p,k]      'have I'
+       b. /xe:v/       -->    /xe:f/                 + /t/ --> [xe:.ft]     'give it'
+       c. /vond/       -->    /vont/                 + /,k/ --> [von.t,k]     'found I'
+
+In an informal investigation, ten native speakers were asked to repeat the third word that
+they heard embedded in a grammatical sentence (Petra zegt ... 'Petra says...' or Petra
+zegt ... een boek 'Petra says ... a book') and to syllabify this word in slow speech. The
+words in question were underived words and forms with clitics. Every person syllabified
+underived words with a long vowel with a syllable break after the vowel, whereas only
+one person syllabified the clitic form in this way (cf. 79a versus 80a). No speaker
+syllabified underived words with a short vowel with a syllable break after the
+intervocalic consonant, whereas eight speakers syllabified forms like heb'k 'have I' in
+this way.
+
+(79)      Onset consonant            Ambisyllabic             Coda consonant
+       a. ta:. fl  (100%)           ta:f.fl ( 0%)           ta:f. l ( 0%) 'table'
+       b. l(. kr   ( 60%)           l(k.kr (40%)            l(k. r ( 0%)  'nice'
+
+(80)   a. ge:.fr     ( 10%)         ge:f.fr        ( 0%)    ge:f.r (90%)   'give her'
+       b. h(.p,k      ( 10%)         h(p.p,k         (10%)    h(p.,k (80%)    'have I'
+
+These findings do not support the claim made by Booij and others who postulate
+postlexical resyllabification in the case of clitics. Basing ourselves on the findings
+above, we assume that the supposed resyllabification in (78) does not take place. Forms
+like von.t,k 'found I' used to pose a problem for analyses of Dutch. We defend the view
+that the actual output form is (vont)ω .,k. This form satisfies final devoicing and neither
+postlexical resyllabification nor "Sympathy" have to be postulated to explain the data.
+
+
+
+
+                                                30
+5.2    Variation in voicing
+
+Ernestus (1997) found that in both frequent and non-frequent instances of a stem plus a
+clitic, a stem-final stop may be pronounced voiced or voiceless when followed by a
+vowel-initial clitic. Her findings do not show a preference for either pronunciation. In
+this regard, we note that for postverbal pronouns three possibilities are attested. The
+pronoun may be realised as a full pronominal form in which case we find stem-final
+devoicing (81a), or it can be a clitic in which case we also find stem-final devoicing
+(81b), or it may form a stronger unit with its host in which case we do not find stem-
+final devoicing (81c):
+
+(81)   Different realisations of heb ik 'have I':
+       a. h(p ,k             (two words)
+       b. h(p,k/h(bk        (X0 plus clitic)
+       c. h(bk              (X0 plus affix)
+
+According to Selkirk (1995), function words can constitute independent Prosodic Words
+(see 76a, 81a), they can be 'free' and adjoined to a higher prosodic category (see the
+clitic in 76b, 81b), or they can be part of a Prosodic Word (81c). If Ernestus is right, we
+have to assume that weak forms of personal pronouns are sometimes considered to be
+'free clitics' (as in 76b) and sometimes they are considered affixes (as in 77b).
+
+
+6. Conclusion
+
+Stem-final obstruents in Dutch behave differently in derivation, compounding, and
+cliticization. With respect to derivation, we have argued that one group of affixes are
+'internal affixes' which do not form independent Prosodic Words, but form a Prosodic
+Word together with a preceding stem (e.g.,-r,-d,-x,-lk, -(t)j). Another group of
+affixes are 'external affixes' which, like the members of compounds, form a Prosodic
+Word on their own. We have also argued that weak forms of personal pronouns are
+clitics that are not incorporated in a Prosodic Word and do not form a Prosodic Word of
+their own:
+
+
+
+
+                                             31
+(82)   a.         PPh              b.        PPh                   c.      PPh
+                    |                        / \                             | \
+                  PWd                   PWd PWd                           PWd \
+                    |                      |      |                          | \
+                  FT                     Ft       Ft                        Ft σ
+                  / \                      |      |                          | |
+                 σ σ                      σ       σ                          σ |
+              Stem Affix int            Stem Affix ext                    Stem Clitic
+               (ro: . dr)              (e:d) . (ba:r)                     (ba:t) . r
+              <roder>                    <eetbaar>                         <baad 'r>
+              'redder'                   'edible'                          'bathe her'
+
+Prosodic structure is not prespecified in the lexicon, but assigned by the grammar which
+contains constraints which align the edge of a stem or external affix with the edge of a
+Prosodic Word (see 38 and 35, respectively).
+    Final devoicing applies in all the cases where a stop or a fricative is the rightmost
+element of a Prosodic Word and where no voiced stop follows, as the following tables
+illustrate, respectively:
+
+(83)       a. "internal        b. "external       c. compounds          d. "free
+                affixes"             affixes"                               clitics"
+morphology stem + affix        stem + affix       stem + stem           stem + clitic
+            ro:d + -r         ro:d + -$xtx      h$nd + p$lm            ba:d + 'm
+prosody    (ro:.dr)           (ro:t).($xtx)     (h$nt).(p$lm)         (ba:t).m
+            'redder'           'red-like'         'palm of hand'        'bathe him'
+
+
+(84)       a. "internal        b. "external       c. compounds          d. "free
+                affixes"            affixes"                                clitics"
+morphology stem + affix        stem + affix       stem + stem           stem + clitic
+            xe:v + -r         di:v + -$xtx       li:v + h(b            xe:v + 'r
+prosody    (xe:.vr)           (di:f).($xtx)     (li:f).(h(p)          (xe:f).r
+            'giver'            'like a thief'     'to love'             'give her'
+
+The two constraints (i) S-IDENT (voice) which says that two adjacent obstruents should
+agree in voicing and (ii) IDPWD ONSET STOP (voice) which says that a stop in onset
+position of a Prosodic Word should be faithful to its underlying specification for voicing
+are ranked higher than PWD-FINAL DEVOICING. This ranking results in the fact that final
+devoicing is sometimes made 'invisible'. If stem final obstruents are not final in the
+prosodic word (83a, 84a, 85a), or if they are followed by a voiced obstruent which is
+
+
+
+
+                                            32
+initial in a Prosodic Word (85b,c), final obstruents may be voiced. In all other instances
+they are voiceless.
+
+(85)       a. "internal        b. "external      c. compounds      d. "free
+                 affixes"            affixes"                          clitics"
+morphology stem + affix        stem + affix      stem + stem       stem + clitic
+           le:v + -d          le:v + -ba:r       stof + duk        x$v + di
+prosody    (le:v.d)           (le:v).(ba:r)     (stov).(duk)      (x$f).ti
+            'lived'            'habitable'       'duster'          'gave he'
+
+Final devoicing and voicing assimilation in Dutch are accounted for in a constraint-based
+framework with the help of three Alignment constraints (86a) which are ranked with
+respect to each other. Positional markedness constraints against voicing are ranked with
+respect to positional Identity (voice) constraints (86b):
+
+(86)   a. Align L (Affix ext, PWd), Align L (Stem, PWd) >> Align R (PWd, Lex) >>
+          Onset
+       b. Surface Ident (voice), Ident PWd Onset Stop (voice) >> PWd-Final Devoicing,
+          Syllable-Final Devoicing, Ident-Onset (voice) >> Ident Stop (voice), Ident
+          (voice), *Voice
+
+The analysis captures all the data that were problematic in a rule-based account.
+Furthermore, we have shown that in this analysis, no need arises to assume different
+levels (in the sense of Booij 1995 and Kiparsky 1998), or different 'co-phonologies' in one
+language (Inkelas 1994b), and neither do we have to assume 'Sympathy' (in the sense of
+McCarthy 1998) to explain the Dutch data.
+
+
+References
+Beckman, Jill N., Laura Walsh Dickey & Suzanne Urbanczyk (1995), University of
+      Massachusetts Occasional Papers 18: Papers in Optimality Theory, Amherst: GLSA,
+      University of Massachusetts, Amherst.
+Benua, Laura (1995), "Identity Effects in Morphological Truncation", in Beckman, J.N. et al
+      (1995): 77-136.
+Berendsen, Egon (1983), "Final devoicing, assimilation, and subject clitics in Dutch", in Hans
+      Bennis & W.U.S, van Lessen Kloeke (eds.), Linguistics in the Netherlands. Dordrecht:
+      Foris: 21-29.
+Berendsen, Egon, Ellis Visch & Wim Zonneveld (1984), Generatieve Fonologie en de
+      Linkerkant van de Grammatika, Den Haag: Nijhoff.
+Booij, Geert (1995), The Phonology of Dutch, Oxford: Clarendon Press.
+Booij, Geert (1996), "Cliticization as prosodic integration: the case of Dutch", in Linguistic
+      Review, 13: 219-242.
+Butska, Luba (1998), "Faithfulness and Voicing Alternations in Ukranian", Ms, Rutgers
+      University.
+
+
+
+
+                                           33
+Ernestus, Mirjam T. C. (1997), "The Voicedness of Intervocalic Word-Final Stops in Dutch",
+       in Jane Coerts & Helen de Hoop (eds.) Linguistics in the Netherlands.
+       Amsterdam/Philadelphia: John Benjamins: 73-84.
+Hulst, Harry van der (1985), "Ambisyllabicity in Dutch", in Hans Bennis & Frits Beukema
+       (eds.) Linguistics in the Netherlands. Dordrecht: Foris Publications: 57-66.
+Inkelas, Sharon (1994a), "The Consequences of Optimization for Underspecification", in
+       NELS 25:287-302.
+Inkelas, Sharon (1994b), "Exceptional stress-attracting suffixes in Turkish: representations
+       vs. the grammar", Ms., to appear in R. Kager, H. van der Hulst & W. Zonneveld (eds),
+       The Prosody Morphology Interface, Cambridge University Press.
+Ito¾, Junko & Armin Mester (1994), "Reflections on CodaCond and Alignment", in Jason
+       Merchant, Jaye Padgett & Rachel Walker (eds), Phonology at Santa Cruz, Vol. 3:27-46.
+Kager, René (1996), "Stem Stress and Peak Correspondence in Dutch", Ms., Utrecht
+       University, to appear in J. Dekkers et al (eds.), Optimality Theory: phonology, syntax,
+       and acquisition, Oxford: Oxford University Press.
+Kiparsky, Paul (1998), "Paradigm effects and opacity", Ms., Stanford University.
+Krämer, Martin (1998), "A Correspondence Approach to Vowel Harmony and Disharmony",
+       in Theorie des Lexikons: Arbeiten des Sonderforschungsbereich 282, Nr. 107, BUGH
+       Wuppertal and Heinrich-Heine-Universität, Düsseldorf (also available as ROA 293-
+       0199).
+Krämer, Martin (1999), "Voicing Alternations and Underlying Representations: A
+       Comparison of Breton and Dutch", Ms,, Heinrich-Heine-Universität, Düsseldorf.
+Lombardi, Linda (1995), "Laryngeal neutralization and alignment", in Beckman, J.N. et al
+       (1995): 225-47.
+Lombardi, Linda (1996), "Restrictions on direction of voicing assimilation: an OT account",
+       in University of Maryland Working Papers in Linguistics 3: 89-115.
+McCarthy, John (1998), "Sympathy & Phonological Opacity", Ms., University of
+       Massachusetts, Amherst.
+McCarthy, John & Alan Prince (1993), "Generalized Alignment", in Yearbook of Morphology
+       1993, Dordrecht: Kluwer: 79-153.
+McCarthy, John & Alan Prince (1995), "Faithfulness and reduplicative identity", in Beckman
+       J.N. et al (1995): 249-384.
+Nespor, Marina & Irene Vogel (1986), Prosodic Phonology, Dordrecht: Foris.
+Prince, Alan & Paul Smolensky (1993), "Optimality Theory: Constraint Interaction in
+       Generative Grammar", Ms., Technical Report # 2 of the Rutgers Center for Cognitive
+       Science, Rutgers University.
+Selkirk, Elisabeth (1995), "The Prosodic Structure of Function Words", in Beckman, J.N. et al
+       (1995): 439-470.
+Smolensky, Paul (1993), Harmony, markedness, and phonological activity. Paper presented at
+       Rutgers Optimality Workshop-1 at Rutgers University: New Brunswick, NJ, October
+       1993.
+Smolensky, Paul (1995), On the internal structure of the constraint component of UG.
+       Colloquium presented at University of California: Los Angeles, April 7, 1995.
+Trommelen, Mieke & Wim Zonneveld (1989), Klemtoon en metrische fonologie, Muiderberg:
+       Coutinho.
+Zonneveld, Wim (1983), "Lexical and Phonological Properties of Dutch Voicing
+       Assimilation", in Marcel van den Broecke, Vincent van Heuven & Wim Zonneveld
+       (eds.), Studies for Antonie Cohen: Sound Structures. Dordrecht: Foris: 297-312.
+
+
+
+
+                                          34
+Appendix
+(87) So-called "internal suffixes" are part of the Prosodic Word:
+     Input:                   PWd-final Align L         Align R Onset
+     xe:vStem + rAffix int   devoicing       Stem        PWd
+a.    (xe:v) .r                  *!                        *     *
+b.    (xe:f) .r                                            *!    *
+c.    (xe:). vr                                            *!
+d.   ((xe:). vr)                                           *!
+e. ) (xe: . vr)
+f.    (xe:f . r)                                                 *!
+g.    (xe:f) .(r)                                          *!    *
+
+(88) So-called "external suffixes" form an independent Prosodic Word:
+     Input:                   PWd-final Align L       Align R Onset
+     divStem + $xtxAff ext   devoicing Affix ext      PWd
+a.    (div) . $x.tx              *!          *          *        *
+b.    (dif) . $x.tx                          *!         *        *
+c.    (di) .(v$x.tx)                         *!         *
+d.   ((di) . v$x.tx)                         *!         *
+e.    (di . v$x.tx)                          *!
+f.    (dif . $x.tx)                          *!                  *
+g.    (div).($x.tx)             *!                      *        *
+h. ) (dif) .($x.tx)                                     *        *
+
+(89)   External and internal affixes:
+       Input: ro:dStem + PWd-final               Align L    Align R   Onset
+       $xtxAffix ext + rAffix int devoicing    Affixext    PWd
+a.      (ro:d) . $x.tx . r           *!           *          *       **
+b.      (ro:t) . $x.tx . r                       *!          *       **
+c.      (ro:t) . ($x.tx). r                                 **!      **
+d.      (ro:t) . ($x.t) . xr                                **!       *
+e.      (ro:t) . ($x.tx. r)                                  *       **!
+f. )    (ro:t) . ($x.t.xr)                                   *        *
+
+(90) Clitics are not part of a Prosodic Word and do not form a Prosodic Word:
+     Input:                     PWd-final Align R        Onset
+      xe:vStem + rClitic       devoicing    PWd
+a.   [ (xe:v)] .r                  *!                     *
+b. ) [ (xe:f)] .r                                         *
+c.   [ (xe:). v] r                            *!
+d.   [ (xe: . v] r)                           *!
+e.   [ (xe:f] . r)                            *!          *
+f.   [ (xe:v)].(r)                 *!         *           *
+g.   [ (xe:f)] .(r)                           *!          *
+
+
+
+
+                                                35
+

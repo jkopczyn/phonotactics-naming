@@ -1,0 +1,727 @@
+
+
+ Fonotactische restricties in de generatieve fonologie G.E. Booij, Spektator. Jaargang 8 - DBNL 
+
+-->
+
+ Skiplinks
+
+ Tekst 
+
+ Verantwoording en downloads 
+
+ Doorverwijzing en noten 
+
+ Ga naar de homepage 
+
+ Hoofdmenu
+ Menu 
+
+ Literatuur & taal 
+ Auteurs 
+
+ Beschikbare titels 
+
+ Literatuur 
+
+ Taalkunde 
+
+ Collectie Limburg 
+
+ Collectie Friesland 
+
+ Collectie Suriname 
+
+ Collectie Zuid-Afrika 
+
+ Selecties 
+ Collectie jeugdliteratuur 
+
+ Basisbibliotheek 
+
+ Tijdschriften/jaarboeken 
+
+ Naslagwerken 
+
+ Collectie e-books 
+
+ Collectie publiek domein 
+
+ Calendarium 
+
+ Atlas 
+
+ Periode 
+ Middeleeuwen 
+
+ Periode 1550-1700 
+
+ Achttiende eeuw 
+
+ Negentiende eeuw 
+
+ Twintigste eeuw 
+
+ Eenentwintigste eeuw 
+
+ Spektator. Jaargang 8 (1978-1979) sluit verantwoording en downloads 
+
+ ❱❱
+ sluit verantwoording en downloads
+
+ -->
+
+ Informatie terzijde
+
+ Toon afbeelding van titelpagina van Spektator. Jaargang 8 
+
+ Verantwoording 
+ Inhoudsopgave 
+
+ Vul zoekterm(en) in Doorzoek de hele tekst 
+ Genre
+sec - letterkunde
+sec - taalkunde
+
+ Subgenre
+tijdschrift / jaarboek
+
+ © zie Auteursrecht en gebruiksvoorwaarden .
+
+ Selecteer waarin je wilt zoeken 
+ Zoek alles 
+ Zoeken naar auteurs 
+ Zoeken naar titels 
+ Zoeken in teksten 
+
+ Zoek naar auteurs, titels en in teksten 
+ Zoeken 
+
+ Spektator. Jaargang 8 
+(1978-1979) – [tijdschrift] Spektator. Tijdschrift voor Neerlandistiek – Auteursrechtelijk beschermd 
+
+ Vorige Volgende 
+
+ --> 
+
+ [pagina 29]
+
+ [p. 29]
+
+ Fonotactische restricties in de generatieve fonologie Ga naar eindnoot * 
+
+G.E. Booij
+
+ Samenvatting :
+
+In het eerste gedeelte van dit artikel wordt uiteengezet, wat de opvatting van de standaard-generatieve fonologie is over de manier waarop fonotactische restricties verantwoord moeten worden. In het tweede gedeelte wordt betoogd, dat syllabificatieregels en automatische fonologische regels tezamen het merendeel van de fonotactische restricties van het Nederlands kunnen verantwoorden. Ze moeten marginaal aangevuld worden met woord- en/of morfeemstructuurcondities. 
+
+ 1. Fonotaxis in de standaard-generatieve fonologie
+
+ 1.1. Morfeemstructuurregels 
+
+ Een adequate fonologische theorie moet de beperkingen op de combinaties van klanksegmenten die gelden voor de woorden van een taal, verantwoorden. Dergelijke fonotactische restricties worden in de standaard-generatieve fonologie, zoals die te vinden is in Chomsky en Halle (1968), verantwoord door twee typen regels: de morfeemstructuurregels, die restricties op combinaties van segmenten in de onderliggende vormen van morfemen formuleren, samen met de fonologische regels, die onderliggende vormen omzetten in fonetische representaties. Er zijn daarom geen aparte fonotactische regels nodig:
+ ‘every fact which such a separate phonotactics describes, is accounted for [...] by the morpheme-internal restrictions on morphophoneme combinations and the morphophonemic rules.’
+
+(Postal 1968: 214) 
+
+ De uiteindelijke opvatting over morfeemstructuur in Chomsky en Halle (1968) is gebaseerd op die van Stanley (1967). Stanley bespreekt twee alternatieven, morfeemstructuurregels en morfeemstructuurcondities. Morfeemstructuurregels zijn regels in het lexicon, die, voordat de lexicale matrices worden aangehecht aan de skeletstructuren, gegenereerd door de herschrijfregels, de voorspelbare kenmerkspecificaties invullen. In de lexicale matrices zijn de hokjes voor deze voorspelbare kenmerkspecificaties leeg, of ze bevatten - wat op hetzelfde neerkomt - een ‘O’. De morfeemstructuurregels kunnen kenmerkspecificaties voorspellen op grond van specificaties van aangrenzende segmenten of van hetzelfde segment. In het laatste geval spreekt men van segmentstructuurregels. De segmentstructuurregels definiëren de klasse van mogelijke onderliggende klanksegmenten van een taal, en de morfeemstructuurregels (MSR's) inclusief de segmentstructuurregels definiëren de klasse van mogelijke (onderliggende vormen van de) morfemen van een taal. Stanley wilde, in tegenstelling tot de vroegere opvatting van Halle, zoals gepresenteerd in Halle (1959, 1964), dat MSR's en fonologische regels door elkaar geordend zijn, een duidelijke scheiding van MSR's en fonologische regels, omdat uitsluitend de MSR's de notie ‘mogelijk morfeem’ definiëren (Stanley 1967: 401).
+
+ [pagina 30]
+
+ [p. 30]
+
+ Segmentstructuurregels hebben echter een bijzondere positie. Stel dat een fonologische regel een bepaald segment invoegt. Dan zijn sommige kenmerkspecificaties van dat in te voegen segment voorspelbaar. Als we b.v. in het Nederlands een schwa invoegen in melk ([m ∊ lək]), dan is o.a. het stemhebbende karakter van de schwa voorspelbaar op grond van de volgende regel:
+
+ (1) 
+ [+ syll] → [+ stem] 
+
+ Hetzelfde geldt voor fonologische regels die een segment veranderen. Het Nederlands heeft b.v. een mineurregel die de alternantie schip-schepen, weg-wegen etc. verantwoordt:
+
+ (2) 
+ [+ syll] → [+ gesp] /-C+ ən 
+
+Als we de [ ∊ ] in een [e.] veranderen, worden in feite twee kenmerkspecificaties veranderd: [- gesp] wordt [+ gesp], en [+ laag] wordt [- laag] (uitgaande van de kenmerkspecificaties van De Haan e.a. 1974: 192). Maar de tweede specificatiewijziging is voorspelbaar op grond van de volgende segmentstructuurregel:
+
+ Stanley neemt daarom de volgende conventie aan:
+
+ (4) 
+ the output of each P-rule is automatically subjected to the segment structure rules (Stanley 1967:404) 
+
+ Daarmee is de scheiding van MSR's en fonologische regels (‘P-rules’) in twee aparte componenten gedeeltelijk doorbroken. De segmentstructuurregels zijn blijkbaar geen uitspraken, specifiek over onderliggende vormen.
+
+ Stanley is er zich verder ook van bewust, dat sommige MSR's en P-regels op hetzelfde verschijnsel betrekking hebben. Ik zal ook dit punt illustreren met een voorbeeld uit het Nederlands. In clusters van obstruenten moeten de segmenten of alle stemloos, of alle stemhebbend zijn. Vergelijk b.v. biecht [bixt] en aast [a.st] uit onderliggend /a.z+t/ met maagden [ma. γ dən] en abdis [abd ι s]. Dit principe geldt dus zowel voor ongelede als gelede woorden. Stanley vond dit echter geen probleem:
+ ‘this repetition of rules is not necessarily undesirable; it merely represents the kind of situation, quite typical in natural languages, in which certain constraints happen to typify both sequences within a single morpheme and sequences which extend across morpheme boundaries. Compare this to the situation in which constraints applying within morphemes are totally different from those applying across morpheme boundaries; we could make such a situation less highly valued in grammars by agreeing to attach less cost to a P-rule which is identical with some MS-rule than to a P-rule which imposes some entirely new constraint. This is a possible and feasible proposal.’ (Stanley 1967: 402) 
+
+ Stanley zoekt de oplossing van het probleem van de ‘samenzwering’ van MSR's en Pregels dus in de aanpassing van de evaluatiemaatstaf, niet in de identificatie van beide
+
+ [pagina 31]
+
+ [p. 31]
+
+ typen regels. Als alternatief geeft hij nog de suggestie om elke MSR bij conventie ook tot P-regel te verklaren, zodat de regel niet tweemaal iets ‘kost’. Ga naar eindnoot 1 
+
+ Op één punt waren er volgens Stanley echter problemen met MSR's. Het blijkt namelijk mogelijk om de afwezigheid van een kenmerkspecificatie (de O-waarde) te gebruiken als derde waarde, waardoor er foute generalisaties mogelijk bleken. We zouden b.v. klinkers, sonorante consonanten en obstruenten van elkaar kunnen onderscheiden door ze als volgt te specificeren in de lexicale matrices:
+
+ (5) 
+ klinkers: 
+ sonorante consonanten: 
+ obstruenten: 
+
+ [- cons O son] 
+ [O cons + son] 
+ [+ cons O son] 
+
+ en de volgende MSR's aan te nemen:
+
+ (6) 
+ (i) 
+ [-cons] 
+ → 
+ [+ son] 
+
+ (ii) 
+ [+ cons] 
+ → 
+ [- son] 
+
+ (iii) 
+ [+ son] 
+ → 
+ [+cons] 
+
+ Dan worden de volgende specificaties van deze segmenten voorspeld:
+
+ (7) 
+ klinkers 
+ sonorante consonanten: 
+ obstruenten: 
+
+ [- cons + son] 
+ [+ cons + son] 
+ [+ cons - son] 
+
+ De regels (6ii) en (6iii) drukken echter geen echte generalisaties uit: niet alle consonanten zijn [- sonorant] en niet alle sonoranten zijn consonanten. Zulke regels kunnen echter worden uitgesloten door een substantiële beperking op te leggen aan MSR's, de True Generalization Condition:
+
+ (8) 
+ ‘each MS-rule represents a true generalization about the (fully specified) systematic phonemic matrices of the language.’ (Stanley 1967: 421) 
+
+ Maar in plaats van deze substantiële beperking op te leggen kiest Stanley voor een alternatief, waar die True Generalization Condition als het ware ingebakken zit: morfeemstructuurcondities (MSC's).
+
+ Volgens Stanley hebben MSC's, d.w.z. condities op de welgevormdheid van volledig gespecificeerde lexicale matrices, de volgende voordelen boven MSR's:
+
+ (i) het probleem van de O als derde waarde wordt vermeden; 
+
+ (ii) als er een wederzijdse afhankelijkheid bestaat tussen de specificaties van twee kenmerken F 1 en F 2 hoeft er geen arbitraire beslissing te worden genomen t.a.v. de vraag of we de specificatie van F 1 voorspellen op basis van F 2 of omgekeerd. We kunnen de restrictie dan formuleren m.b.v. een positieve conditie. 
+
+ (iii) MSR's hebben altijd de als ... dan -vorm, MSC's kunnen ook geformuleerd worden als positieve of negatieve condities, waardoor sommige restricties simpeler kunnen worden uitgedrukt. Voorbeelden van zulke condities zijn:
+
+ (a) i zelfde specificatie hebben t.a.v. het kenmerk [stem]: 
+
+ [pagina 32]
+
+ [p. 32]
+
+ (b) de velaire nasaal komt niet voor aan het begin van een woord: 
+
+ Merk op, dat voordeel (i) ook bereikt kan worden door aan MSR's conditie (8) op te leggen. Op de andere voordelen kom ik terug in par. 2.2.
+
+ 1.2. SPC's in plaats van MSC's 
+
+ Shibatani (1973) betoogt, dat MSC's samen met fonologische regels niet voldoende zijn om de fonotactische restricties van een taal te verantwoorden. Volgens hem moeten er ook Surface Phonetic Constraints (SPC's) worden aangenomen, beperkingen met als domein het (fonologische) woord, d.w.z.: fonologische sequenties links en rechts begrensd door # #. Een eerste argument voor dit standpunt is, dat sommige MSC's niet geldig zijn voor het fonetisch niveau. Zo heeft volgens Shibatani het Quechua onderliggend drie klinkers, maar aan de oppervlakte vijf. De segmentsstructuurregels voor onderliggende klinkers gelden dus niet voor oppervlaktevormen. (Dat zou dus ook problemen opleveren voor Stanley's conventie (4). Ga naar eindnoot 2 ) Omgekeerd zijn er ook bepaalde restricties die wel gelden op het fonetisch niveau, maar niet op het onderliggend. De regel dat een woord in het Duits niet kan uitgaan op een stemhebbende obstruent, geldt wel voor de oppervlaktevormen, maar niet voor de onderliggende: we moeten immers b.v. een onderliggende vorm als /bund/ aannemen vanwege de alternantie [bunt]/[bund⁙s].
+
+ Verder wil Shibatani ook door middel van SPC's de functionele eenheid uitdrukken van regels die ‘samenzweren’ om bepaalde segmentcombinaties uit te sluiten of juist te krijgen.
+
+ Vervolgens stelt Shibatani, dat de psychologische realiteit van SPC's boven elke twijfel verheven is. In de eerste plaats blijken oordelen over de welgevormdheid van woorden gebaseerd te worden op SPC's, niet op MSC's. Als men b.v. een spreker van het Duits vraagt, of het woord [bund] welgevormd is, zal deze ontkennend antwoorden. Voorts blijkt de psychologische realiteit van SPC's ook hieruit, dat leenwoorden niet, zoals Hyman (1970) stelde, worden onderworpen aan de MSC's en fonologische regels van een taal, maar aan de SPC's. In het Koreaans b.v. kan een woord niet beginnen met een liquide consonant. Daarom ondergaan b.v. Chinese leenwoorden de volgende verandering: lok (groen) wordt nok, lam (blauw) wordt nam . Maar onderliggend blijft de /l/ in leenwoorden gehandhaafd, want hij komt aan de oppervlakte in vormen, waar hij niet aan het woordbegin staat. De genoemde restrictie in het Koreaans is dus een oppervlaktebeperking.
+
+ De beperking dat in het Duits obstruenten aan het eind van een woord stemloos zijn, geldt zowel in gevallen waar deze een alternantie veroorzaakt (als de onderliggende vorm een stemhebbende obstruent aan het eind heeft), als in gevallen, waar geen alternantie optreedt, omdat de onderliggende vorm een stemloze obstruent aan het eind heeft. Shibatani spreekt in zo'n geval van een A/SPC. Als een restrictie zowel binnen morfemen als ook over morfeemgrenzen heen geldt, zoals de restricties die in het Turks voortvloeien uit het principe van klinkerharmonie, dan noteert Shibatani zo'n restrictie als een M/SPC. D.m.v. deze notatie wil Shibatani uitdrukken, dat het zowel in het Duits als het Turks eigenlijk om één verschijnsel gaat.
+
+ Shibatani's betoog komt er dus op neer, dat
+
+ [pagina 33]
+
+ [p. 33]
+
+ (1) alle oppervlaktebeperkingen van een taal direct moeten worden uitgedrukt door SPC's, 
+
+ (2) oppervlaktebeperkingen die ook gelden voor onderliggende vormen, of die zich ook manifesteren in fonologische alternanties, als één beperking moeten worden geformuleerd, d.w.z. zo generaliserend mogelijk uitgedrukt. 
+
+ Het eerste standpunt van Shibatani is echter om verschillende redenen niet erg overtuigend. Native speakers hebben inderdaad intuïties over waarneembare fonetische vormen, en uiteraard niet over onderliggende vormen. Desondanks kan men fonetische intuïties wel indirect, door middel van een samenspel van morfeemstructuur- en fonologische regels verantwoorden. Het feit, dat native speakers geen intuities hebben over de dieptestructuren van zinnen, brengt ons er toch ook niet toe te beweren, dat daarom de notie ‘dieptestructuur’ overbodig of onjuist is voor het verantwoorden van de intuïties omtrent de grammaticaliteit van zinnen? Ditzelfde bezwaar geldt tegen de opvatting van Clayton (1976). Zij wil alle MSC's afschaffen die niet óók SPC's zijn, d.w.z. fonetisch observeerbaar, omdát ze niet waargenomen kunnen worden en native speakers er dus geen intuïties omtrent hebben.
+
+ Ook het argument van Shibatani, dat SPC's nodig zijn om de verwantschap van regels uit te drukken, is onjuist. Hun verwantschap is immers vaak geen formele, maar een functionele, die niet in de grammatika hoeft te worden uitgedrukt, zoals overtuigend wordt betoogd in Koefoed (1974).
+
+ Shibatani's tweede standpunt, dat regels zo generaliserend mogelijk moeten worden geschreven, is op zich juist. Die generalisatie wordt echter niet bereikt door notaties als A/SPC, M/SPC, zoals Clayton (1976) terecht stelt, maar door ze metterdaad als één regel te formuleren. In par. 2.2. zal blijken, dat sommige, maar niet alle verwante processen als één regel kunnen worden geformuleerd.
+
+ Ondanks de hierboven gegeven afwijzing van Shibatani's en Clayton's argumentatie tegen het belang van MSC's kan natuurlijk best de vraag gesteld worden, in hoeverre MSC's nodig zijn als verantwoording van de fonetische intuïties van de native speakers van een taal. Deze vraag zal in par. 2 aan de orde komen. Daar zal betoogd worden, dat syllabestructuurregels tezamen met automatische fonologische regels veel fonotactische restricties kunnen verantwoorden.
+
+ 2. Fonotaxis in de theorie van Hooper
+
+ Hooper (1976) stelt voor om de fonotactische restricties van een taal te verantwoorden door de volgende soorten regels:
+
+ (i) syllabestructuurregels 
+
+ (ii) automatische fonologische regels (P-regels) 
+
+ (iii) woordstructuurregels 
+
+ Hieronder zal deze theorie nader worden uitgewerkt en geadstrueerd aan de hand van het Nederlands. Daarbij zal ook ter sprake komen in hoeverre MSR's of MSC's helemaal overbodig worden.
+
+ 2.1. Syllabestructuurregels 
+
+ Volgens Hooper kunnen veel fonotactische restricties worden geformuleerd in termen van syllabestructuur. Zij geeft hiervoor drie argumenten, die ik zal ondersteunen aan de hand van het Nederlands.
+
+ [pagina 34]
+
+ [p. 34]
+
+ (i) SSR's zijn toch nodig. Als men een aantal fonotactische restricties kan terugvoeren op syllabestructuurrestricties, wordt de grammatika generaliserender. Op de noodzaak van SSR's wordt nader ingegaan in par. 2.1.1.
+
+ (ii) Het verantwoorden van sommige fonotactische restricties op polysyllabische morfemen kan het simpelst geschieden door SSR's. Waarom is b.v. het woord malkon een niet-bestaand, maar mogelijk woord van het Nederlands, en het woord malrkon niet? Omdat alleen het eerste woord verdeeld kan worden in twee correcte syllaben. Als we de welgevormdheid van malkon tegenover de onwelgevormdheid van malrkon zouden willen verklaren zonder een beroep te doen op SSR's, zouden we beperkingen moeten formuleren op consonantclusters, b.v. ‘ lrk kan nooit’, ‘ lk kan alleen aan het eind van een woord of midden in een woord als er een vocaal aan voorafgaat en op volgt’. Dergelijke beschrijvingen zijn duidelijk complexer, en bovendien hebben we toch SSR's nodig. De gedachte, dat de syllabe essentiëel is voor fonotactische restricties in polysyllabische morfemen, is trouwens al ouder. Jakobson en Halle (1960: 41) formuleren het als volgt:
+ ‘The elementary pattern underlying any grouping of phonemes is the SYLLABLE. The phonemic structure of the syllable is determined by a set of rules, and any sequence is based on the regular occurrence of this constructive model.’ 
+
+ (iii) In sommige gelede woorden van het Nederlands komen morfemen voor die eigenlijk niet kunnen. Zo zijn er een aantal woorden op - isch die een morfeem bevatten dat eindigt op - tr, b.v. planimetrisch en excentrisch . Dergelijke woorden moeten op morfologische gronden als geleed worden beschouwd. Weliswaar zijn deze woorden niet van een één graad minder geleed woord afgeleid, maar formeel'zijn ze wel geleed: het is niet toevallig, dat deze woorden op - isch adjectieven zijn. Dat kan verantwoord worden door een morfologische redundantieregel die zegt dat een woord met een structuur x + [is] een adjectief is (cf Booij 1977). Men kan het probleem van merkwaardige morfemen als metr ook proberen op te lossen door te stellen, dat MSR's niet gelden voor ‘vreemde woorden’, maar dan wordt de regelmaat in de bouw van talloze morfemen niet meer verantwoord, en bovendien niet verklaard, waarom woorden als planimetrisch fonetisch geen enkel probleem opleveren. In een theorie die uitgaat van SSR's wordt dit verklaard: zulke woorden kunnen worden verdeeld in een aantal correcte syllaben.
+
+ De conclusie is, dat de syllabe van groot belang is voor het verantwoorden van fonotactische restricties. Hoe dat precies in zijn werk gaat, komt aan de orde in de volgende subparagrafen.
+
+ 2.1.1. De noodzaak van syllabestructuurregels 
+
+ SSR's zijn nodig om minstens de volgende redenen:
+
+ (i) Ze verantwoorden de intuities die native speakers hebben over de verdeling van woorden in syllaben, en de daarbij optredende taalspecifieke verschillen. Vergelijk b.v. het Nederlandse woord pal$jas met het Spaanse woord a$lyen$to (de $ staat voor ‘syllabegrens’): in het Spaans wordt de combinatie [lj] tot dezelfde syllabe gerekend (Hooper 1972). 
+
+ (ii) De via SSR's voorspelbare syllabegrenzen c.q. syllabificatiepatronen zijn nodig in de context van verscheidene fonologische regels. Dit wordt aangetoond in respectievelijk Hooper (1972, 1976) en Kahn (1976). Wat betreft het Nederlands worden in
+
+ [pagina 35]
+
+ [p. 35]
+
+ ieder geval de volgende regels geconditioneerd door syllabegrenzen: (a) verlies van stem van obstruenten, (b) één van de regels van klinkerreductie. 
+
+ In het Nederlands geldt de volgende regel:
+
+ (9) 
+ [-son] → [- stem] / - - - - - $ 
+
+ Vroeger werd het betreffende verschijnsel vaak beschreven als een proces, dat obstruenten aan het woordeinde stemloos maakt. Diverse auteurs (Kooij 1977, Gilijamse 1977) hebben er echter op gewezen, dat de regel moet worden geformuleerd met de syllabegrens als conditionerende factor. Dit is niet te zien aan gewone Nederlandse woorden, omdat zich nu eenmaal geen alternanties voordoen bij woordinterne syllabegrenzen. Aan de wijze waarop de fonetische vorm van leenwoorden wordt aangepast, kan men echter zien dat het inderdaad een regel is, die opereert voor syllabegrenzen:
+
+ (10) 
+
+ Engelse vorm: 
+ Nederlandse vorm: 
+
+ Sidney 
+ [sιdni] 
+ [sιtni] 
+
+ sandwich 
+ [saendwιtš] 
+ [s ∊ ntwιts] 
+
+ Soortgelijke aanpassingen vindt men in de namen Cambodja, Toradja, Abner en Bodnar . Dit verschijnsel bevestigt ook de hypothese van Shibatani (1973: 97) dat ‘a loan word tends to be modified according to the SPC's of a borrowing language’. Regel (9) drukt immers een oppervlaktebeperking uit.
+
+ Een tweede Nederlandse fonologische regel waarin de syllabegrens een rol speelt, is één van de regels van klinkerreductie. Deze regel reduceert onbeklemtoonde klinkers tot een schwa, mits de volgende syllabe beklemtoond is, b.v.
+
+ (11) 
+ muzíek 
+ → 
+ məziek 
+
+ kompensátie 
+ → 
+ kompənsatie 
+
+ Er is echter een specifieke conditie op deze regel: als de onbeklemtoonde vocaal zich in de eerste syllabe bevindt, moet de vocaal direct gevolgd worden door een syllabegrens, tenzij de vocaal een [ ∊ ] is, gevolgd door een [r]. Vergelijk:
+
+ (12) 
+ pa$p íer 
+ → 
+ pəpier 
+
+ pa$stóor 
+ → 
+ pəstoor 
+
+ per$sóon 
+ → 
+ pƆrsoon 
+
+ maar: 
+
+ pen$dánt 
+ → 
+ *pəndant 
+
+ kwar$tíer 
+ → 
+ *kwərtier 
+
+ kar$tón 
+ → 
+ *kərton 
+
+ Interessant in dit verband is, dat als we de [r] in kwartier en karton weglaten, en de onbeklemtoonde vocaal dus direct voor de syllabegrens komt te staan, reductie wel mogelijk is: [kwəti:r], [kətƆn] (Booij 1977: 112).
+
+ Naast deze fonologische beperking is klinkerreductie overigens ook onderhevig aan stilistische, lexicale en individuele beperkingen (cf. Booij 1977).
+
+ De twee hier besproken regels illustreren duidelijk het belang van de notie ‘syllabe’ voor de fonologie. Ga naar eindnoot 3 
+
+ [pagina 36]
+
+ [p. 36]
+
+ 2.1.2. De syllabestructuurregels van het Nederlands 
+
+ In Hooper (1972) vinden we een aantal, in principe als universeel bedoelde, regels die syllabegrenssymbolen invoegen in een aantal fonologische configuraties. De regels hebben fonologische sequenties, links en rechts begrensd door # #, als domein. Bovendien is er een regel die bij iedere # # een syllabegrens toevoegt. Bij monosyllabische woorden wordt uiteraard alleen links en rechts van het woord een $ toegevoegd. Bij polysyllabische woorden wordt tussen twee (al dan niet aangrenzende) vocalen een syllabegrens ingevoegd, zodanig dat een maximaal aantal consonanten tot de tweede syllabe wordt gerekend. De invoeging van syllabegrenssymbolen is m.a.w. afhankelijk van de mogelijke syllabe-initiële consonantclusters van een taal. Het door Hooper voorgestelde systeem van regels wordt voor het Nederlands overgenomen door Booij (1977) en Kooij (1978), zij het in beide gevallen met enkele aanpassingen. Aan Hooper's regels kleven twee bezwaren:
+
+ (i) de regels voorspellen wel de posities van de syllabegrenssymbolen, maar definieren niet tegelijkertijd de notie ‘mogelijke syllabe van taal T’. Het onmogelijke Nederlandse woord kamrlit b.v. wordt door Hooper's regels toch voorzien van een interne syllabegrens, omdat de regels zijn geformuleerd op basis van de impliciete aanname, dat de input-woorden welgevormd zijn. De regels voorspellen b.v. in dit geval de syllabificatie $kamr$lit$ . Haar regels drukken dus geen restricties op syllabestructuur uit. Er zou een aparte set van syllabestructuurcondities moeten worden toegevoegd. 
+
+ (ii) Een tweede problematische vooronderstelling van Hooper's regels is, dat de syllabegrenzen altijd tussen twee segmenten vallen, en nooit binnen een segment. In het Nederlandse woord bakker [bakər] b.v. valt volgens de meeste taalkundigen de syllabegrens in de [k], of, anders gezegd, ze vinden dat de [k] bij beide syllaben hoort, ambisyllabisch is. De Groot (1964 2 : 201) merkt b.v. op: ‘De grens tussen twee lettergrepen [...] is niet altijd scherp te lokaliseren in die zin dat ze altijd zou samenvallen met de grens tussen twee fonemen.’ Hetzelfde wordt opgemerkt door Van Wijk (1939: 109-10) en Paardekooper (1949). Deze ambisyllabiciteit doet zich voor in de gewone spreekstijl, niet bij zeer langzaam spreken. 
+
+Beide problemen worden opgelost in het door Kahn (1976) voorgestelde stelsel van syllabificatieregels. Hij beschouwt syllabificatie als het toekennen van een hiërarchisch patroon aan een reeks segmenten, waarbij iedere vocaal wordt toegewezen aan één syllabe, en consonanten aan één of twee. Het woord bakker krijgt b.v. de volgende representatie, waar S een afkorting is van ‘syllabe’:
+
+Kahn stelt de volgende regels voor, die de syllabificatie van woorden bij zeer nadrukkelijk spreken afleiden:
+
+ [pagina 37]
+
+ [p. 37]
+
+where C i+1 ..C n is a member of the set of permissible initial clusters but C i C i+1 ...C n is not
+
+where C 1 ...C i is a member of the set of permissible final clusters, but C 1 ...C i C i+1 is not. (Kahn 1976: 32).
+
+ Een ‘x’ onder een consonant geeft aan, dat de desbetreffende consonant nog niet met een S-knoop verbonden mag zijn.
+
+ Regel II gaat dus opnieuw uit van de gedachte dat een maximum aantal consonanten moet worden toegekend aan de tweede syllabe. De notie ‘permissible cluster’ moet klaarblijkelijk ruim worden opgevat, d.w.z. dat één consonant het minimum-geval van een cluster is, b.v. in het woord akte , waar de [t] de ‘permissible initial cluster’ van de tweede syllabe is. Verder kan de toelaatbaarheid van een consonant in een bepaalde positie ook afhankelijk zijn van de kwaliteit van de voorafgaande vocaal: de [ η ] b.v. kan alleen fungeren als ‘syllable-final cluster’ als de voorafgaande vocaal ongespannen is. Ga naar eindnoot 4 
+
+De regels I en II, toegepast op de woorden bakker, basterd, zanger, horzel en kamrlit leveren de volgende structuren op:
+
+ In (15v) is de [r] aan geen enkele syllabe verbonden, en daarmee is kamrlit automatisch als onwelgevormd gekarakteriseerd volgens de volgende conventie:
+
+ (16) 
+ Als een woord een segment bevat, dat niet verbonden is met een S, is dat woord onwelgevormd. 
+
+Met deze conventie is het eerste probleem opgelost. Het tweede, dat van de ambisyllabiciteit, wordt opgelost door Kahn's regel III die geldt bij ‘normal-rate and faster speech only’:
+
+ [pagina 38]
+
+ [p. 38]
+
+Deze regel vormt de structuren (15i-iii) om tot:
+
+In een woord als pastoor , met klemtoon op de tweede syllabe, wordt dus - terecht - de [s] niet ook toegekend aan de eerste syllabe. Maar de [t] in b.v. kater zou ook ambisyllabisch worden. Dit is voor het Nederlands niet correct, omdat hier ook de kwaliteit van de vocaal in de eerste syllabe een rol speelt: alleen als deze [- gespannen] is, treedt ambisyllabiciteit op. Regel III moet dus voor het Nederlands luiden:
+
+ De velaire nasaal [ η ] levert in dit verband een probleem op. De regels I-III leiden wel een correct syllabepatroon af voor een woord als zanger , in normale stijl gesproken. Maar regel III verschilt volgens Kahn in karakter van de regels I en II. De regels I en II gelden ook bij zeer nadrukkelijk spreken, d.w.z.: ze formuleren absolute principes voor de fonetische vorm van woorden. Deze regels horen daarom thuis in het lexicon. Regel III daarentegen is een stijlbepaalde regel die geen absolute principes uitdrukt en daarom thuishoort in de fonologische component: het is een onderdeel van de zins-, niet van de woordfonologie (zie Van Marle 1978). Kahn's regel II voorspelt nu, dat bij zeer nadrukkelijk spreken in zanger de syllabegrens na de [ η ] valt, omdat de [ η ] alleen aan het eind van een syllabe is toegestaan. Kahn stelt dat dit voor het Engels correct is, maar het is in ieder geval voor het Nederlands incorrect: de syllabegrens valt bij zeer nadrukkelijk spreken voor de [ η ] . Een mogelijke oplossing is, de [ η ] niet uit te sluiten als syllabe-initiële consonant, maar alleen als woord- of morfeeminitiële consonant. Dit impliceert, dat we een woord- of morfeemstructuurconditie moeten toevoegen aan het lexicon. Op dergelijke condities wordt nader ingegaan in par. 2.3. en 2.4. Ga naar eindnoot 5 
+
+ Een andere oplossing zou zijn, regel III te herinterpreteren als een niet-stijlgebonden regel die altijd geldt, ook bij nadrukkelijk spreken. De / η / is in dat geval altijd ambisyllabisch. Op dit moment is er geen feitenmateriaal beschikbaar, dat ons er toe zou kunnen brengen, één van beide oplossingen te kiezen.
+
+De vierde door Kahn voorgestelde regel geldt ook voor ‘normal-rate and faster speech only’ en heeft betrekking op woord-interne clusters van consonanten:
+
+ Condition: CC O must not be a member of the set of universally-prohibited clusters; certain highly marked clusters not universally prescribed may be excluded also.
+
+ [pagina 39]
+
+ [p. 39]
+
+ D.m.v. deze regel wordt de [f] van het Engelse woord áfter ook geassocieerd met de tweede syllabe, maar de [f] van Haftónium niet. Het idee achter deze regel en de bijbehorende conditie is, dat bij niet-nadrukkelijk spreken de taalspecifieke restricties op consonantclusters in woordinterne posities mogen worden overschreden, maar universele, zoals *[df] of *[dk] niet.
+
+Een soortgelijke situatie treffen we aan in het Nederlands. De woorden atlas , lexicon , patser en Otniël hebben in informele spreekstijl de volgende syllabestructuur:
+
+ Het opvallende is, dat in zulke gevallen consonantclusters als tl, ks, ts en tn voorkomen. Diezelfde samenhang tussen informele spreekstijl en het overschrijden van taalspecifieke restricties op consonantclusters vinden we in woorden met proclitische pronomina daaraan gehecht. Paardekooper (1949: 235) geeft b.v. de volgende voorbeelden van correcte monosyllabische vormen: tloopt (zo'n vaart niet), ksal (wel zien), tsal (wel), tneemt (heel wat tijd in beslag) . Aan het syllabificatiepatroon van een woord als autopsie , waar de [p] ook bij de laatste syllabe hoort, blijkt dat de stress-conditie in regel IV voor het Nederlands waarschijnlijk niet relevant is.
+
+De hier besproken regels introduceren dus geen syllabegrenssymbolen: de gevallen waarin er wel scherpe syllabegrenzen zijn, zijn een subcategorie geworden van de mogelijke syllabificatiepatronen van woorden. Een fonologische regel als (9) moet daarom als volgt worden geherformuleerd:
+
+(‘-x’ duidt aan, dat er geen andere segmenten rechts van [- son] bij deze syllabe mogen horen.)
+De conditie op klinkerreductie in de eerste syllabe van een woord kan nu als volgt worden geformuleerd:
+
+De genoemde vier syllabificatieregels hebben als domein het fonologische woord. Dit wordt door b.v. Hooper (1972) gedefinieerd als een fonologische sequentie links en rechts begrensd door # #. Het is echter beter het fonologisch woord te definiëren als een domein links en rechts begrensd door #. In een woord als roodachtig met de structuur #rood#achtig# werken de regels dan afzonderlijk op rood en - achtig (cf. Booij 1977). Daardoor wordt dan correct voorspeld, dat de [d] tot de eerste en niet tot de tweede syllabe gerekend moet worden. Via regel (9)' ontstaat dan de fonetische vorm . Ga naar eindnoot 6 
+
+ [pagina 40]
+
+ [p. 40]
+
+ Kahn's syllabificatieregels kunnen dus twee dingen die Hooper's regels niet kunnen: onwelgevormde woorden uitsluiten en ambisyllabiciteit verantwoorden. Dankzij deze theorie kunnen een groot aantal fonotactische restricties verantwoord worden d.m.v. SSR's in plaats van MSR's.
+
+ 2.2. Fonologische regels 
+
+ Voor Nederlandse clusters van obstruenten geldt de bekende restrictie, dat ze alle of stemloos, of stemhebbend moeten zijn. Men zou een dergelijke restrictie kunnen onderbrengen in de definiëring van toegestane consonantclusters in de regels IIa en IIb, maar dit heeft twee nadelen:
+
+ (i) De restrictie is niet gebonden aan consonanten binnen één syllabe; vgl. b.v. akte en matse . 
+
+ (ii) dezelfde restrictie manifesteert zich ook als fonologische regel die alternanties veroorzaakt, b.v. aast-azen: 
+
+ (21) 
+ [-son] → [α stem] / - [- son α stem] 
+
+Het is daarom beter deze restrictie niet te formuleren binnen de SSR's, maar als een regel die zowel kenmerkspecificatie-toevoegende als kenmerkspecificatie-veranderende toepassingen heeft. In de woorden biecht , /bixt/ en maagd , /ma. γ d/ kan dan in het lexicon de specificatie voor het kenmerk [stem] in het op één na laatste segment worden weggelaten. We krijgen dan als het ware archifonemen, in dit geval de G. Ga naar eindnoot 7 De fonetische vormen van de woorden biecht, maagd, maagden en aast worden dan als volgt afgeleid:
+
+ Regel (21) is een automatische, verplichte fonologische regel die absolute fonetische restricties op fonetische vormen uitdrukt. Uiteraard zijn alleen zulke fonologische regels geschikt om, samen met de SSR's, de notie ‘mogelijke fonetische vorm van een woord’ te specificeren.
+
+Een tweede voorbeeld van zo'n regel is regel (9)'. Ook deze regel kan specificaties toevoegen, b.v. in Sidney , /sιtni/ of veranderen, b.v. in hoed , /hud/. T staat hier voor /t/ of /d/, d.w.z.: de specificatie voor [stem] ontbreekt:
+
+ [pagina 41]
+
+ [p. 41]
+
+Merk op, dat regel (9)' geordend moet zijn voor regel IV, omdat Sidney via regel IV de structuur
+
+zou krijgen (vgl. tneemt , waat tn een mogelijke consonantcluster is), zodat de T niet meer duidelijk vóór een syllabegrens zou staan. Deze ordening wordt voorspeld, omdat regel IV alleen geldt voor verbonden spraak en dus in de fonologische component hoort, terwijl regel (9)' een regel is die altijd, ook bij zeer nadrukkelijk spreken geldt, en dus in het lexicon staat (Van Marle 1978).
+ De aanname, dat regels twee soorten toepassingen kunnen hebben, lost het bekende probleem van de ‘rule duplication’ (Kenstowicz en Kisseberth 1977: 136-45), dat we ook tegenkwamen bij Stanley (1967) en Shibatani (1973) op: het probleem dat sommige regels en als MSR in het lexicon, en als fonologische regel in de fonologische component zouden moeten worden opgenomen. Er wordt geen generalisatie gemist, als we regels die absolute oppervlaktebeperkingen uitdrukken, opnemen in het lexicon, mits ook de flexieregels die de geflecteerde vormen van woorden afleiden, worden opgenomen in het lexicon. Dit laatste is op onafhankelijke gronden verdedigd in Halle (1973) en Booij (1977). Alleen die regels die ook in woordgroepen werken, moeten noodzakelijkerwijs worden opgenomen in de fonologische component. Maar zulke regels (b.v. verschillende assimilatieregels) zijn optioneel, en definiëren dus geen absolute restricties op de mogelijke fonetische vormen van woorden. Ga naar eindnoot 8 
+
+ De SSR's en de automatische, verplichte fonologische regels definiëren nu samen grotendeels de notie ‘mogelijke fonetische vorm van een woord’ Ga naar eindnoot 9 . Er wordt bovendien nog een andere vereenvoudiging bereikt. Stanley nam immers aan, dat segment-structuurregels per conventie ook in de fonologische component werken als ‘anywhere rules’. Die conventie wordt nu overbodig: regels als (1) en (3) werken in het lexicon, zodra ze toepasbaar zijn.
+
+ De hier voorgestelde analyse betekent een gedeeltelijke terugkeer naar regels die kenmerkspecificaties toevoegen. (Daarnaast worden condities gebruikt bij de definitie van de klasse van mogelijke syllabe-initiële en -finale clusters van consonanten in regel II.) Stanley had drie problemen met regels:
+
+ (i) het probleem van de ‘O’ als derde waarde (de mogelijkheid van schijngeneralisaties); 
+
+ (ii) de arbitraire beslissing die soms nodig was als de kenmerkspecificaties van twee segmenten wederzijds afhankelijk zijn; 
+
+ (iii) het bezwaar dat regels alleen de als ... dan -vorm kunnen hebben. 
+
+ Probleem (i) wordt opgelost, doordat automatische fonologische regels voldoen aan de True Generalization Condition, en dus ook hun kenmerkspecificatietoevoegende toepassingen. Ga naar eindnoot 10 Probleem (ii) wordt opgelost door te kijken hoe kenmerkveranderende toepassingen van een regel zich voltrekken. In het geval van regel (21) kunnen we b.v. niet aan biecht zien, of de [t] dan wel de [x] bepalend is voor de stemloosheid van de cluster [xt], maar wel aan maagd en aast : als de tweede obstruent stemloos is, wordt ook de eerste dat. De arbitrairheid verdwijnt dus. Het voordeel van MSC's, dat men ook positieve en negatieve condities kan formuleren (probleem iii), wordt overgenomen door de SSR's: de verzameling toegestane syllabe-initiële en
+
+ [pagina 42]
+
+ [p. 42]
+
+ -finale consonantclusters in b.v. regel II kan d.m.v. positieve en negatieve condities worden geformuleerd.
+
+ Niet alle fonologische regels spelen een rol in de fonotaxis, zoals Postal (1968: 214) stelde, alleen de automatische. De regels voor de verschillende allomorfen van het verkleinwoordsuffix b.v. zijn niet-automatisch: ze worden geconditioneerd door één specifiek morfeem. Ze drukken geen absolute restricties uit. Het verkleinwoord van ton b.v. is tonnetje , maar fonetisch gezien zou tontje of tonkje ook prima zijn geweest.
+
+ De vraag die nu nog overblijft is, of er nog specifieke fonotactische restricties zijn op het niveau van het morfeem of het woord, die door morfeemstructuur- en/of woord-structuurregels moeten worden verantwoord. Dit probleem wordt behandeld in de volgende paragrafen.
+
+ 2.3. Woordstructuurrestricties 
+
+ Hooper (1976: 191) laat de mogelijkheid open, dat er naast SSR's en fonologische regels ook woordstructuurcondities nodig zijn voor een volledige definitie van de notie ‘mogelijke fonetische vorm van een woord’. In het Engelse woord pleasure begint de tweede syllabe met een [ž]. Maar Engelse woorden beginnen nooit met een [ž], en daarom zou een negatieve woordstructuurconditie *#ž moeten worden aangenomen.
+
+ Kahn (1976: 37) is het daar niet mee eens. Hij spreekt in dit verband van een ‘accidental gap’: woorden met aan het begin een [ž] bestaan toevallig niet, maar hadden kunnen bestaan. Als argument hiervoor voert hij aan, dat Engelse sprekers geen moeite hebben met de uitspraak van de Russische eigennaam Zenya .
+
+ De moeilijkheid is dus, dat het niet altijd gemakkelijk uit te maken is, of het ontbreken van een bepaald type woord een ‘accidental’ of een ‘systematic gap’ is. De intuities van de taalgebruiker zijn op dit punt lang niet altijd even duidelijk of eenduidig te interpreteren. Studenten die vraag 7 van hfdst. 15 van De Haan e.a. (1974) moeten beantwoorden, aarzelen regelmatig bij woorden als rur , laal en buink , terwijl de onwelgevormdheid van een woord als tbik iedereen direct duidelijk is.
+
+ Een mogelijk voorbeeld van een woordstructuurrestrictie werd gegeven in par. 2.1.2.: Nederlandse woorden mogen niet beginnen met een [ η ]. Maar deze restrictie geldt ook voor suffixen en (uiteraard) ook voor prefixen. Daarom kan deze restrictie beter gezien worden als een morfeemstructuurrestrictie. Dit type restrictie wordt besproken in de volgende paragraaf.
+
+ Een ander voorbeeld is het door Shibatani (1973) gegeven voorbeeld uit het Koreaans: *#1 (zie par. 1.2.).
+
+ 2.4. Morfeemstructuurrestricties 
+
+ Er zijn uit de literatuur een aantal gevallen bekend van beperkingen die uitsluitend gelden voor het domein van het morfeem, en niet voor dat van de syllabe of het woord, o.a. de volgende:
+
+ (i) In het Engels bevatten morfemen nooit clusters van stemhebbende obstruenten (b.v. *[bd], *[gz]), maar gelede woorden wel, b.v. robbed [rƆbd], dogs [dƆgz] (Kahn 1976: 40). 
+
+ (ii) in het Engels gaan morfemen nooit uit op de sequentie - ksθ of - ksθs , maar gelede woorden als sixth en sixths wel (Kahn 1976: 40, Clayton 1976: 302, fn 7). 
+
+ [pagina 43]
+
+ [p. 43]
+
+ Ook voor het Nederlands valt te constateren, dat sommige consonantclusters wel in monosyllabische gelede woorden, maar niet in monosyllabische ongelede woorden voorkomen. Bakker (1971, tabel 203-205) constateert dat in het door hem onderzochte corpus de volgende consonantclusters alleen in gelede monosyllabische woorden aan het woordeind voorkomen:
+
+ (i) clusters van twee consonanten: -wt, - η t, -ws, -js 
+
+ (ii) clusters van drie consonanten: -tst, -fst, -wst, -lkt, -pst, -xts, -rmt, -rpt, -lpt, -spt, -jst, -rnt, -lks, -lxt, -lmt, -sts, -mps, -rks, -Its, -rfs, -rms, -rns, -lfs, -lms, -fts, -mts, -rxs, -lps. Ga naar eindnoot 11 
+
+ (iii) clusters van vier consonanten: - η kst, -xtst, -rtst, -mpst, -rmst, -ltst, -mtst, -rpst, -rkst, -rxst, -lmst, -rwst. 
+
+ Er komen in het Nederlands maar twee ongelede monosyllabische woorden met vier consonanten aan het eind voor: ernst en herfst . (Bakker noemt ook nog vondst , maar dat is m.i. geleed.)
+
+ Moeten we nu morfeemstructuurregels formuleren die eindclusters van vier consonanten behalve - rnst en - rfst verbieden? Opnieuw doet zich hier de vraag voor die Clayton (1976) stelt t.a.v. Engelse morfemen, die de slot-cluster - ksθ bevatten: in hoeverre manifesteren deze restricties zich direct of indirect in de intuïties van de native speaker? Hoe kunnen we accidental van systematic gaps onderscheiden? Het feit dat - fst niet voorkomt in ongelede woorden zal wel toevallig zijn, omdat - rfst wel voorkomt. Maar zo'n procedure om het toevallige karakter van een ‘gap’ te bewijzen, is lang niet altijd voorhanden.
+
+ De enige onomstreden kandidaat voor een morfeemstructuurrestrictie in het Nederlands is de hierboven besproken beperking dat Nederlandse morfemen niet met een [ η ] mogen beginnen.
+
+ Kenstowicz en Kisseberth (1977) zijn ervan overtuigd, dat er restricties zijn op het niveau van het morfeem. Zij geven een voorbeeld uit het Desano (p. 147), ontdekt door Kaye (1974). Ga naar eindnoot 12 Het Desano heeft orale en nasale lettergrepen. In orale lettergrepen zijn de klinkers oraal en komen geen nasale consonanten voor; in nasale lettergrepen zijn de klinkers genasaliseerd en komen de [b, d, g, y] niet voor. Volgens Kaye geldt nu de volgende regel: beide typen syllaben mogen wel binnen één woord optreden, maar niet binnen één morfeem: in een morfeem moeten alle syllaben of nasaal of oraal zijn. Kaye geeft ook externe evidentie voor de psychologische realiteit van deze beperking. Spaanse en Portugese leenwoorden in het Desano die zowel orale als nasale syllaben bevatten worden zo gemodificeerd, dat alle syllaben of oraal of nasaal zijn. Dergelijke woorden worden dan blijkbaar bij ontlening als ongeleed ervaren. Kenstowicz en Kisseberth (1977: 149) concluderen dan ook: ‘Constraints on phonological representations do not have a single domain’.
+
+ Een ander terrein, waar zich specifieke restricties op morfemen voordoen, is dat van de affixen. Dergelijke niet-lexicale morfemen zijn in veel talen qua fonologische structuur aan meer beperkingen onderhevig dan lexicale morfemen, zoals o.a. door Jakobson in diverse publikaties is opgemerkt. Ga naar eindnoot 13 Dergelijke restricties hebben als functie de herkenbaarheid van het affixale karakter van zulke morfemen te verhogen. In de Afrikaanse taal Lomongo b.v. (Kenstowicz en Kisseberth 1977: 135, 148) komen in gewone morfemen [ ∊ ] en [Ɔ] niet voor behalve als fonetische variant van [e] respectievelijk [o]. Ook Nederlandse affixen kennen zulke restricties. Nederlandse prefixen bestaan uit maximaal één syllabe, of, als men morfemen als achter in achterhalen en onder in ondersteunen ook als prefixen beschouwt, uit maximaal twee syllaben met alleen in de eerste syllabe een volle klinker (dus geen schwa). Deze res-
+
+ [pagina 44]
+
+ [p. 44]
+
+ tricties op affixen kunnen niet als louter toevallig worden beschouwd, juist omdat ze zich in veel talen voordoen. Toch is het wel mogelijk, dat sommige restricties een toevallig karakter dragen, b.v. de restrictie dat Nederlandse prefixen geen gespannen hoge voor-vokalen ([i] of [y]) bevatten. Maar welke native speaker heeft zeer scherpe en exacte intuities over mogelijke prefixen?
+
+ 3. Conclusies
+
+ Het grootste deel van de fonotactische restricties van het Nederlands kan worden verantwoord door syllabestructuurregels tezamen met automatische fonologische regels. Dit stelsel van regels vermijdt de door Stanley gesignaleerde problemen t.a.v. morfeemstructuurregels en generaliseert over regelmatigheden in de bouw van zowel niet-afgeleide als afgeleide representaties door de fonologische regels in het lexicon zowel kenmerkspecificatieveranderende als -toevoegende toepassingen te geven. Bovendien leveren de syllabestructuurregels de voor de fonologie noodzakelijke syllabepatronen van woorden op. Daarnaast spelen ook morfeemstructuur - en misschien ook woordstructuurrestricties - een (bescheiden) rol bij het verantwoorden van fonotactische restricties. Wel doet zich bij sommige van deze restricties de onzekerheid voor, dat het moeilijk uit te maken is, of het toevallige of systematische restricties zijn, en of ze dus in de grammatika verantwoord moeten worden.
+
+ [pagina 46]
+
+ [p. 46]
+
+ Bibliografie
+
+ J.J.M. Bakker, Constant en variabel. De fonematische structuur van de Nederlandse woordvorm . Asten 1971 
+
+ H. Basbøll, ‘The structure of the syllable and a proposed hierarchy of distinctive features’, in Dressler en Pfeiffer (eds.), 143-48 
+
+ G.E. Booij, Dutch Morphology. A Study of Word Formation in Generative Grammar . Lisse 1977 
+
+ N. Chomsky en M. Halle, The Sound Pattern of English . New York etc. 1968 
+
+ M.L. Clayton, ‘The redundance of underlying morpheme-structure conditions’, Language 52 (1976), 295-313 
+
+ S. Csik en E. Papa, Theoretical Issues in Generative Phonology. An Annotated Bibliography . Indiana University Linguistics Club 1977 
+
+ W.U. Dressler en O.E. Pfeiffer (eds.), Phonologica 1976 . Innsbruck 1977 
+
+ H. Gilijamse, ‘Over het lettergreepgrenssymbool’, lezing TIN-dag 1977 
+
+ A.W. de Groot, Inleiding tot de algemene taalwetenschap . Groningen 1964 2 
+
+ G.J. de Haan e.a., Basiskursus algemene taalwetenschap . Assen 1974 
+
+ M. Halle, The Sound Pattern of Russian . The Hague 1959 
+
+ M. Halle, ‘Phonology in a generative grammar’, in: J.A. Fodor en J.J. Katz (eds.), The Structure of Language . Englewoods Cliffs N.J. 1964, 334-52 
+
+ M. Halle, ‘Prolegomena to a theory of word formation’, Linguistic Inquiry 4 (1973), 3-16 
+
+ J.B. Hooper, ‘The syllable in phonological theory’, Language 48 (1972), 525-40 
+
+ J.B. Hooper, An Introduction to Natural Generative Phonology . New York etc. 1976 
+
+ L.M. Hyman, ‘The role of borrowing in the justification of phonological grammars’, Studies in African Linguistics 1 (1970), 1-48 
+
+ D. Kahn, Syllable-based Generalizations in English Phonology . Indiana University Linguistics Club 1976 
+
+ J. Kaye, ‘Morpheme structure constraints live!’, Montreal Working Papers in Linguistics 3 (1974), 55-62 
+
+ M. Kenstowicz en Ch. Kisseberth, Topics in Phonological Theory . New York etc. 1977 
+
+ P. Kiparsky, ‘Phonological representations’ in: O. Fujimura (ed.), Three Dimensions of Linguistic Theory . Tokyo 1973 
+
+ G.A.T. Koefoed, ‘On formal and functional explanation’ in: J.M. Anderson en Ch. Jones (eds.), Historical Linguistics II . Amsterdam 1974, 276-93 
+
+ J.G. Kooij, ‘Schwa-insertion in Dutch: phonology or morphology?’ in: Dressler en Pfeiffer (eds.), 65-70. Nederlandse versie in Spektator 7 (1977-78), 131-37 
+
+ J.G. Kooij, ‘Morpheme boundaries and syllable boundaries: a case for natural phonology’, Glot 1 (1978), 27-50 
+
+ J. van Marie, ‘De taken van het lexicon’, Forum der Letteren 19 (1978), 7-19 
+
+ P.C. Paardekooper, ‘De lettergreep en z'n begrenzing’, De Nieuwe Taalgids 42 (1949), 232-41, 290-97 
+
+ P.M. Postal, Aspects of Phonological Theory . New York 1968 
+
+ M. Shibatani, ‘The role of surface phonetic constraints in generative phonology’, Language 49 (1973), 87-106 
+
+ R.S. Stanley, ‘Redundancy rules in phonology’, Language 43 (1967), 393-436 
+
+ N. van Wijk, Phonologie. Een hoofdstuk uit de structurele taalwetenschap . s'Gravenhage 1939 
+
+ eindnoot * 
+
+ Uitgewerkte en herziene versie van een lezing gehouden op de jaarlijkse bijeenkomst van de Algemene Vereniging voor Taalwetenschap op 23 januari 1978. Ik dank A. Kraak, J. van Marle en W. Zonneveld voor hun commentaar op een eerdere versie. Dit heeft tot diverse verbeteringen geleid. 
+
+ eindnoot 1 
+
+ Deze laatste oplossing geeft wel problemen, als er MSR's zijn die niet als P-regel geïnterpreteerd mogen worden. In het Nederlands komt b.v. de cluster /ηt/ niet voor aan het eind van ongelede woorden. We zouden dus dc volgende MSR kunnen aannemen:
+
+[+ nas] → [+ ant] / - t#
+
+Maar in gelede woorden met het suffix -t is deze combinatie wel toegestaan, zodat ten onrechte uit zingt /z ιη +t/ de fonetische vorm [zιmt] zou worden afgeleid. 
+
+ eindnoot 2 
+
+ Clayton geeft o.a. als voorbeeld van zo'n restrictie die uitsluitend voor onderliggende vormen geldt de (Spaanse) segmentstructuurregel, dat alle continuante obstruenten onderliggend stemloos zijn. In de oppervlaktevormen komen echter wel stemhebbende continuanten voor. Maar ook binnen Stanley's systeem zou zo'n regel niet geformuleerd mogen worden, omdat immers volgens conventie (4) iedere segmentstructuurregel kan worden toegepast als P-regel. Dat zou in dit geval dus tot foute fonetische representaties leiden. 
+
+ eindnoot 3 
+
+ Zie voor een lijst van recente artikelen over de notie ‘syllabe’ in de generatieve fonologie de bibliografie van Csik en Papa (1977). 
+
+ eindnoot 4 
+
+ Dergelijke verzamelingen van ‘permissible clusters’ dienen natuurlijk niet d.m.v. opsomming, maar d.m.v. het formalisme van de generatieve fonologie zo generaliserend mogelijk te worden gedefinieerd. Een intrigerend verschijnsel daarbij zijn de spiegelbeeldrelaties die bestaan tussen wat voor en wat na de vocaal in een syllabe kan voorkomen. Vgl. fles en half , maar * lfes en * hafl . Dit soort spiegeling, ook opgemerkt door Bakker (1971) is overigens niet algemeen, vgl. kast met * tsak , en dient object van nader onderzoek te zijn. Een begin van een theorie hierover wordt gegeven in Basbøll (1977). 
+
+ eindnoot 5 
+
+ Hetzelfde geldt t.a.v. consonantclusters als tl en ks voor die mensen die bij zeer nadrukkelijk spreken b.v. a$tlas en le$ksi$kon zeggen in plaats van at$las en lek$si$kon , Aangezien voor deze sprekers tl en ks wel goede syllabe-initiële clusters zijn, maar geen goede woord-initiële, gelden voor hen ook de woordstructuurcondities
+* #tl en * #ks . 
+
+ eindnoot 6 
+
+ Kahn (1976: 33) noemt nog een vijfde regel, die over woordgrenzen heen werkt. Deze regel werkt alleen in verbonden spraak en moet dus worden geplaatst in de fonologische component, nadat de syntactische regels gewerkt hebben:
+
+ Rule V (Connected speech only)
+
+De slotconsonant van een woord wordt door deze regel ook toegekend aan de eerste syllabe van een volgend woord, als dat met een vocaal begint, b.v.:
+
+De fonetische vorm van een woord als roodachtig in verbonden spraak wordt nu als volgt afgeleid:
+
+ eindnoot 7 
+
+ De notie ‘archifoneem’ wordt hier gebruikt als synoniem van ‘segment met onvolledige kenmcrkspecificatie’ en is dus geen aparte theoretische entiteit, zoals in de Praagse structuralistische fonologie. In die fonologie zou maagd moeten worden gerepresenteerd als /ma.GD/ of /ma.GT/, waardoor de meervoudsvorm maagden niet voorspeld zou kunnen worden. 
+
+ eindnoot 8 
+
+ Deze analyse houdt dus niet in, dat alle ‘conspiracies’ nu worden uitgebannen. De regel van assimilatie van articulatieplaats van de /n/:
+
+[+ nas + cor + ant] → [- cor α ant] / - [- cor α ant]
+
+geldt als absolute restrictie op morfemen vanwege b.v. de onwelgevormdheid van [b a nk] en [d a np], maar als optionele regel in gelede woorden met een interne # en in woordgroepen. Evenzo is er een functionele ‘conspiracy’ tussen regel (21) en de optionele regels van assimilatie van stem: ze zorgen er allemaal voor dat obstruenten in clusters dezelfde specificatie hebben voor het kenmerk [stem]. Maar hier kan ook nog de richting van de assimilatie verschillen. In b.v. opzet [Ɔps ∊ t] past de /z/ zich aan aan de /p/, terwijl regel (21) het omgekeerde zou doen. M.a.w.: niet altijd kunnen functioneel verwante regels ook formeel tot één regel worden samengeklapt. 
+
+ eindnoot 9 
+
+ Deze regels geven een definitie van de notie ‘mogelijke fonetische vorm van een woord’. Voor een complete definitie van de notie ‘mogelijk woord’ zijn ook nog de woordvormingsregels en niet-automatische fonologische regels nodig, b.v. regels die worden geconditioneerd door een specifiek morfeem (cf. Van Marie 1978). Niet alle fonologische regels spelen dus een rol in de fonotaxis, zoals Postal (1968: 214) stelde. 
+
+ eindnoot 10 
+
+ Het probleem van de ‘O’ als derde waarde wordt ook opgelost door aan genoemde regels geen ordening op te leggen. Zulke regels kunnen dan geen schijngeneralisaties meer formuleren, omdat hun kenmerkspecificatieveranderende toepassingen dan foute voorspellingen zouden doen. De schijngeneralisatie [+ cons] → [- son] wordt b.v. onmogelijk, omdat dan ook de specificatie [+ son] van sonorante consonanten zou veranderen in [- son]. In Stanley's systeem zou een ‘No Ordering Condition’ alleen niet voldoende zijn om schijngeneralisaties uit te bannen, omdat hij alleen kenmerktoevoegende toepassingen van regels aanneemt. 
+
+ eindnoot 11 
+
+ Bakker noemt - lps , omdat hij het woord wulps geleed acht. Dat is diachroon wel correct, maar synchroon is het m.i. ongeleed. 
+
+ eindnoot 12 
+
+ Wim Zonneveld maakte mij attent op dit voorbeeld. 
+
+ eindnoot 13 
+
+ Zie ook Booij (1977: 22) en de daar aangehaalde publikaties. 
+
+ Vorige Volgende 
+
+ Footer navigatie
+
+ Over DBNL
+
+ Wat is DBNL? 
+
+ Over ons 
+
+ Selectie- en editieverantwoording 
+
+ Voor gebruikers
+
+ Gebruiksvoorwaarden/Terms of Use 
+
+ Informatie voor rechthebbenden 
+
+ Disclaimer 
+
+ Privacy 
+
+ Toegankelijkheid 
+
+ Responsible disclosure 
+
+ Contact
+
+ Contactformulier 
+
+ Veelgestelde vragen 
+
+ Vacatures 
+
+ Partners
+
+ Ga naar kb.nl 
+
+ Ga naar taalunie.org 
+
+ Ga naar Bibliothecair Erfgoed.be 
+
+ Over dit hoofdstuk/artikel
+ auteurs
+ Geert Evert Booij 
+
+ taalkunde
+ Klanken (fonologie) 
+

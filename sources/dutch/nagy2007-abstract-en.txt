@@ -1,0 +1,521 @@
+            Eötvös Loránd University of Sciences
+                    Faculty of Humanities
+
+
+
+
+                          ABSTRACT
+
+
+
+
+                       Roland Nagy
+
+
+
+
+The phonological integration of loanwords in Dutch
+
+
+
+
+            Supervisor: Dr. Erzsébet Mollay, CsC
+
+
+             Doctoral School in Linguistic Sciences
+          Doctoral Programme in Germanic Linguistics
+
+
+                           Budapest
+                             2010
+1 Introduction
+
+
+The least stable and most mutable part of language is the lexicon. In language contact
+situations, words are the first to be borrowed from one language to another (Coetsem
+1988:26; Thomason and Kaufman 1988:37)             However, words are units combining
+multiple levels of language in themselves. In the process of borrowing, they may carry not
+only their semantic features to the borrowing language, but some of their formal properties
+as well (Sankoff 2002:658). These formal properties include their sound shape: sounds,
+phonological segments and their sequences, prosodic features, and stress (Heffernan 2005;
+LaCharité and Paradis 2005).
+        Most of the time, the sound shape of loanwords conforms to the phonology of the
+borrowing language (Bloomfield 1934:445 ff.). However, in the case of long and dynamic
+language contact, it may retain some of its non-native sound elements (Benkő 1987:197 f.).
+Loanwords may carry sounds, prosodic and phonotactic patterns that are unknown in the
+borrowing phonology, e.g. the nasal vowel [ɑ̃], the [krʋ] consonant sequence, or the stress
+on the last syllable in the Dutch loanword croissant [krʋasˈɑ] 'croissant'. Some of these
+foreign elements and structures are short-lived, sooner or later they disappear from the
+borrowing phonology, cf. the pronunciation of croissant in present day informal northern
+Dutch: [krˈɑsɑnt]. However, there are foreign sound elements that get anchored in the
+borrowing language: these are the subject of the present dissertation.
+        The international literature on loan phonology has grown substantially in the past
+decade (e.g. Kenstowicz 2007; Kertész 2006; Adler 2006; Boersma and Hamann 2009).
+Recent studies concentrate primarily on online phonetic and phonological processes taking
+place in the speaker of the borrowing language (e.g. Peperkamp and Dupoux 2003;
+Heffernan 2005). Very few works have been devoted to the historical aspects of the foreign
+phonological influence (e.g. Crawford 2008; Ito and Mester 1995). Regarding Dutch, only a
+handful of short articles have been published in the topic (Oostendorp 2000; Velde and Hout
+2002; Bezooijen and Gerritsen 1994). With the present thesis I intend to provide some new
+insights in the field.
+
+
+
+
+                                              1
+2 The aim and subject of the thesis
+
+
+          In the present thesis I examine non-native sound segments and phonotactic patterns
+occurring in loanwords in the history of Dutch. The analysis is set in the context of the
+native phonological system, lexical borrowing and social contacts, i.e. language internal and
+language external factors.
+          The thesis is descriptive and diachronic in character. It is limited to the segmental
+level, i.e. borrowed prosodic structures are not discussed. In the analysis, I consider
+language an abstract, social formation whose internal structure, including its phonology,
+corresponds to the totality of the language competences of all its native speakers in a given
+period.
+          In this thesis I try to answer the following questions:
+    1. Which segmental phonological changes in the history of Dutch can directly or
+          indirectly be associated with the influence of loanwords?
+    2. What is the diachronic impact of lexical borrowing on phonology, i.e. what kind of
+          parallels can be drawn between the two?
+    3. Which language external (sociolinguistic), and language internal structural
+          (phonological) factors influence the phonological effects of borrowing?
+    4. What place do borrowed segments and segment sequences occupy in the phonology
+          and lexicon of Dutch, i.e. how "Dutch" are they?
+
+
+
+3   Structure of the Thesis
+
+
+After the general introduction (I), I give an overview of the major general linguistic
+literature in the field, then I present the theoretical framework for the research with a
+conceptual and terminological background.
+          Beginning with chapter III I turn to the concrete subject of my research, i.e. Dutch.
+First, I present a synopsis of the historical periods of Dutch with special emphasis on its
+historical phonology. This serves as framework for the analysis of phonological borrowings
+in chapter V.
+          After the diachronic synopsis, I turn to a major subfield of my topic and present a
+brief overview of the history of lexical borrowing in Dutch and its socio-linguistic
+
+
+
+                                                  2
+background. The aim is to set phonological borrowings in the framework of lexical and
+sociolinguistic changes.
+       Chapter V is the discussion of the main subject of the thesis. I examine segmental
+changes in the history Dutch that can be attributed to the influence of loanwords. I discuss
+their history and determine their place in the borrowing sound system.
+       Chapter VI summarizes the main results of the thesis. Here, I answer the questions
+posed in the introduction, and briefly describe some possible directions for further research.
+A final Appendix (VII) contains the diachronic sound charts for reference.
+
+
+
+4   Summary of the individual chapters
+
+
+
+      II. Theoretical foundations
+
+
+In the first part of this chapter I present an overview of the major topics concerning the
+development of loan phonology in a number of important linguistic studies from the 19th
+and 20th centuries. The summary is by no means exhaustive. Only some of the most
+prominent works of the "traditional" linguistic trends (the Neogrammarians, structuralism
+and the classical generative framework) are discussed (e.g. Paul 1920; Saussure 1967;
+Trubetzkoy 1962; Jakobson and Halle 1956; Bloomfield 1934; Weinreich 1964; Chomsky
+and Halle 1968; King 1969).
+In the second part of the chapter, I introduce the concrete framework of my thesis. I use a
+structural framework which is primarily borrowed from Frans van Coetsem's Loan Phonology
+(1988). The following table gives a summary of the most important terms of phonological
+borrowing:
+
+
+
+
+                                              3
+Recapitulating table of phonological borrowing (1988:10 f., 14 f. 16 ff.)
+                         SOURCE                                RECIPIENT LANGUAGE
+     LANGUAG:
+                       LANGUAGE                   message                       language code
+
+     PROCESS:                             phonological borrowing         integration: lexical diffusion
+
+                      phonological
+                                                                                        part of native
+     ELEMENT:         element of the             loan-segment
+                                                                                         phonology
+                     source language
+                       fr. mar ch e                                                 phoneme substitution:
+                                                         [mɑrʃ]       adaptation
+                     [mɑrʃ] 'to march'                                               du. mɑr s 'to march'
+                                                                                           spelling
+                        fr. parfum        imitatio                                     pronunciation:
+                                                         [parfɛ ]̃
+                     [parfɛ̃] 'parfume'      n                                      du. parf um [parfʏm]
+     EXAMPLES:
+                                                                                          'parfume'
+
+                                                                      integration
+                      fr. centrifuge                                                   du. centrifu g e
+                      [sɑ̃ trifˈyʒ(ə)]               [sɛntrifˈyːʒə]                  [sɛntrifˈyːʒə] 'spin-
+                        'spin-dryer'                                                        dryer'
+
+
+     FUNCTION:                               can be inserted in the recepient language (functional)
+
+   ADAPTABILITY:                              adaptable                                 not adaptable
+
+    VARIATION:                                    variation                              no variation
+
+ NONNATIVENESS:           foreign                               non-foreign continuum
+
+
+
+
+      III. Outline of the history of Dutch; summary of the phonological systems
+
+      of the historical periods.
+
+
+       This chapter gives an overview of the historical periods of Dutch. I define each
+linguistic period in time and space. I present a summary of the sound system of each period.
+The aims of this chapter are
+       (1) to provide a structural phonological background for the analysis of phonological
+           borrowings in chapter
+       (2) to help to define more clearly the relationship between the effects of
+           phonological borrowing and sociolinguistic change
+       (3) to provide a somewhat deeper linguistic description of the history of Dutch for
+           the first time in Hungarian
+
+
+                                                     4
+     IV. The source of phonological borrowing: lexical borrowing
+
+
+The aim of the analysis of lexical borrowing is to explore the connection between its source
+(the donor language), its rate (the number of words borrowed) and its intensity (the
+distribution of borrowing in time) to the changes in the native phonology. The first part of
+this chapter describes the social history of lexical borrowing in Dutch with respect to the
+four major source languages: Latin, French, English, and German. In the second part I
+present a brief overview of the make-up of the vocabulary of Dutch in time and according to
+source languages.
+
+
+
+     V. Analysis of the phonological outcomes of lexical borrowings in the
+     history of Dutch
+
+
+In this section, I examine the history of foreign segments and sequences in loanwords, and
+their impact on the native phonology. I present phonological changes which are the results
+of foreign influence, and in particular: lexical borrowing. I explore the two basic types of
+foreign phonological influence: recipient language agentivity, i.e. phonological borrowing,
+and source language agentivity, i.e. the influence of the language use of non-native speakers
+on the recipient language's phonology. The two major types of change concerning the
+phonological loans are also described, i.e. adaptation (i.e. adjustment to the recipient
+phonological system) and integration (i.e. incorporation into the recipient phonological
+system). Their possible causes, chronology, and the connections between social and lexical
+changes are also discussed.
+       The chapter is divided into three sections according to historical periods. The three
+periods of the history of Dutch are different in two aspects. First, they differ in the
+sociolinguistic setting which also has an effect on the phonological processes (Old-Dutch:
+very few written monuments, minimal literacy; Middle-Dutch: few written monuments,
+growing literacy; New-Dutch: wide range of written monuments, widespread literacy).
+Second, different methods can be used for their analysis.
+       I began the analysis of the two earlier periods by browsing through the literature for
+references to possible foreign phonological influence. Then, I checked the contemporary and
+present-day forms and occurrences of the given words in the historical and modern
+
+
+
+                                              5
+dictionaries. The results obtained in these two ways were then investigated in depth in order
+to reconstruct the actual phonological processes in detail.
+       The main part of the present thesis is the chapter on New-Dutch. The method used in
+this chapter is somewhat different from the one used in the historical chapters. Here, the
+starting point was not the "discovery" of foreign phonological influence, but its exhaustive
+analysis. In this chapter, New-Dutch phonological borrowings are analysed with a method
+not yet employed in the Dutch literature. The major points of my method were as follows:
+             1. Using pronunciation, and other dictionaries providing phonetic data, I built a
+                corpus with standard Dutch loanwords containing loan-segments (Coninck
+                1970; Heemskerk and Zonneveld 2000; Bastiaansen 2008; Boon and Geeraerts
+                2005).
+             2. I collected all alternative pronunciation variants, and adapted forms, pl.
+                cartoon [kɑrtˈuːn]~[kɑrtˈun] 'id.'.
+             3. Item by item I checked the etymological dictionaries for the direct source
+                language and the first appearance of the word in written form (e.g. Philippa
+                et al. 2004; Franck 1892).
+             4. Finally, I checked all the data with two standard Dutch native speakers (one
+                from the Netherlands, one from Belgium). With their help I verified every
+                pronunciation variant, and their use (general, rare, archaic etc.). On the
+                whole, there were no significant discrepancies between the dictionary corpus
+                and the data of the native speakers.
+During the exploitation of the database, I was searching the answer to the following
+questions:    (1) what is the origin of the given sounds (were they borrowed from one
+particular language or more languages?) (2) How long have they been present in the Dutch
+(3) What place do they occupy in Dutch phonology (are they "full-fledged" members of the
+sound system, or just occasional, temporary and marginal elements?) (4) Which factors have
+facilitated and still facilitate integration, and what are the most common ways of
+adaptation?
+       Through the analysis of the database, I could determine the "age" of loan segments in
+Dutch. The analysis supported the conclusion drawn from the discussion of Middle-Dutch:
+the ʒ was indeed integrated into Middle-Dutch phonology through Old-French loanwords, as
+opposed to the ʃ, which was then? in all cases adapted, and integrated only in the New-
+Dutch period. The age of a given loan-segment and the intensity of lexical borrowing show
+
+
+                                                6
+significant conformity, e.g. the integration of tʃ corresponds to the intensive period of
+borrowing from English in the 20th century. Further results of the research are treated in
+the next section.
+
+
+
+5    Summary of the results
+
+
+The results of the research are formulated in the answers to the questions posed in the
+introduction. Most of these answers have general linguistic significance.
+
+
+    a. Which segmental phonological changes in the history of Dutch can directly or
+        indirectly be associated with the influence of loanwords?
+
+
+In the majority of the cases discussed, the changes in Dutch phonology were caused by the
+foreign phonological elements or structures carried by loanwords. This includes the cases
+where the given element or structure integrated into the native phonology, e.g. the ir
+sequence or the ʒ in Old-Dutch. However, there were foreign segments which caused no
+phonological change, but lost their nonnativeness markers instead, and were adapted to the
+native phonology, cf. the Old-French affricates in Middle-Dutch, e.g. OF. chartre  MD.
+sarter 'charter'.
+        The phonological changes discussed in the Old- and – to some extent – the Middle-
+Dutch period were most probably not induced by the loanwords themselves, but the very
+intensive overall linguistic influence of French. Therefore, these changes did not occur as the
+result of recipient language agentivity, but rather of source language agentivity. This
+conclusion is supported (a.) by the low number of loanwords to which the sound change
+could be ascribed, (b.) by the regularity with which the sound "law" took place, and (c.) the
+very intensive social and linguistic contact between the source- and recipient language at
+the time.
+
+
+    b. What is the diachronic impact of lexical borrowing on phonology, i.e. what kind of
+        parallels can be drawn between the two?
+
+
+The present research has supported the assumption that lexical factors have a deep impact
+on phonological borrowing. A correlation can be established between lexical and
+
+                                              7
+phonological borrowing in two aspects: quantity (i.e. the number of loanwords in which the
+phonological loan is present) and time (the length of time for which the phonological loan is
+present in the borrowing language, i.e. its age).
+   With regard to the quantity of lexical borrowing and its effect on phonological
+    borrowings, it can be pointed out that an increasing number of loanwords correlates
+    with an increasing number of phonological borrowings. Owing to the substantial
+    increase in the number of loanwords in the New-Dutch period, more loan segments
+    appeared at this time than before, e.g. the three new vowel sequences, which include ten
+    vowels: iː, yː, uː, œː, ɛː, ɔː, ɑː, ɛ̃, ɔ̃, ɑ̃.
+            In the case of the individual loan-segments, the number of loanwords may not
+    necessarily be determinant, cf. the short-long œː, which appears only in twelve
+    loanwords, or the phonetically long yː, which appears in just three. Yet, both segments
+    are integral part of the Dutch sound system. This means that the stability of the
+    phonological loan is also determined by other factors in the recipient language, than the
+    number of loanwords (for these factors see section c.) On the other hand, the adaptation
+    of a phonological loan may be hindered by a large number of loanwords, cf. the nasal
+    vowels and the ʃ in present-day Dutch.
+   The age of borrowing is not determinant with respect to the phonological loan. The ʃ
+    could not integrate during the Middle-Dutch period, although Dutch had been borrowing
+    words with it for centuries. The same segment has successfully been ? integrated in New-
+    Dutch, due to phonological changes that created the structural basis for its integration.
+    Yet, it is remarkable that all the loan-segments discussed in the New-Dutch period have
+    been present in the language for one or two hundred years. In the meantime they have
+    increased their stability by continually appearing in new loanwords.
+   Concerning the source language, it is notable that at first each loan-segment is borrowed
+    in words from only one language. Only later do they appear in words from other
+    languages.
+   The reason for which neither the quantity, nor the age of the borrowing is determinant
+    for the integration of loan-segments is that the phonological loan – as it is bound to a
+    word – exerts its influence word by word, i.e. it spreads by lexical diffusion. That is the
+    explanation why it differs so much from source language agentivity, which works like
+    sound changes, i.e. not with regard to lexical elements, but to segments. In the present
+    thesis the different character of source- and recipient language agentivity have been
+
+
+                                                      8
+   represented by two Old-Dutch vowelshifts (ē>ie; ū>ȳ) and the integration of the ʒ
+   respectively.
+
+
+   c. Which language external (sociolinguistic), and language internal structural
+       (phonological) factors influence the phonological effects of borrowing?
+
+
+Foreign phonological influence is intimately connected to the changes of intensity in the
+sociolinguistic contact. The changes discussed in the Old-Dutch period are most probably
+the result of source language agentivity and not of lexical borrowing, e.g. ū>ȳ. The Middle-
+Dutch changes are partly, e.g. the diphthongisation of ui1, still to be attributed to this type
+of agentivity. However, in New-Dutch, there is no trace of this process. This corresponds
+closely to the sociolinguistic setting of the three periods: the intensity of the contact
+diminishes continuously. The very intensive contact between the Dutch and the French
+speaking communities in the Old-Dutch period diminishes continuously through Middle-
+Dutch to New-Dutch. The interrelation between the intensity of language contact and the
+type of agentivity is demonstrated rather clearly by Dutch: dynamic contact=source
+language agentivity; less dynamic contact=both source and recipient language agentivity;
+still less contact=only recipient language agentivity.
+       Literacy and orthography also play an important role in phonological borrowing. The
+influence of the written form has clearly been demonstrated in the case of adaptation, cf. the
+spelling pronunciation s for ʃ in Middle-Dutch, as well as in the case of integration, cf. the
+integration of the ps- sequence. Orthography functions as a nonnativeness marker. This is
+not only true for foreign letters, such as <x>, but also for the foreign phoneme-grapheme
+correspondences, such as the between <j> and [dʒ] in recent English loanwords. That is
+why the spreading of literacy had a major effect on phonological borrowing. The integration
+of affricates in New-Dutch, and the adaptation of plaats 'place' as plaas can also be ascribed
+to this influence.
+       The results of my analysis have also underpinned the general assumption that the
+syntagmatic level of language is more susceptible to change than the paradigmatic level
+(Coetsem 1988). Most of the phonological borrowings presented in the thesis, caused
+reordering of the native phonological elements, e.g. the tʃ could successfully integrate as it
+was interpreted a combination of the phonemic t and the allophonic ʃ. In other words, its
+integration affected the paradigmatic level only indirectly. The integration of the same
+
+
+                                              9
+segment was prevented in Middle-Dutch by the fact that there was no allophonic ʃ in the
+native phonology, so the integration of tʃ would have caused a direct paradigmatic change.
+The integration of the New-Dutch nasal vowels can also be interpreted as a syntagmatic
+change, since the nasal feature is allophonically present in the post lexical phonology. The
+integration of the ʒ in Middle-Dutch is a remarkable case, because it was a direct
+paradigmatic change: a new palato-alveolar place feature entered the phonology. Although
+this integration can, to a large extent, be ascribed to the very frequent French -ge [ʒə] suffix,
+the precise circumstances are not yet clarified, and are open for further research.
+
+
+    d. What place do borrowed segments and segment sequences occupy in the phonology
+        and lexicon of Dutch, i.e. how "Dutch" are they?
+
+
+It is very difficult to assign the place of borrowed segments and segmental patterns in the
+phonology of the borrowing language. There are certain factors by which the degree of
+integration can be specified. However, the proportion of adapted forms and the age of the
+segment in the borrowing language are both rather vague specifications to define the place
+of a borrowing in the non-native continuum. Although some of the segments discussed have
+been present in Dutch for centuries, they still have adapted variants in a few words, e.g. the
+short-long ɛː, which is already about 400 years old in Dutch, still has adapted form: parterre
+[pɑrtˈɛːrə]/[pɑrtˈɛrə] 'pit (in a theatre)'.
+        The difficulty of the question lies in the fact that words carrying a phonological loan
+are bound together by a cohesive force. The bases of this cohesion are nonnativeness
+markers. New members may join the group, others may be left out, but the group itself
+remains in one. In the present thesis, I have only explored one of these cohesive forces, i.e.
+the loan-segment itself. Orthography, stress, morphological behaviour, meaning – they are
+all nonnativeness markers that keep certain groups of morphemes together. Therefore, it is
+impossible to answer the last question adequately. New research in several fields is needed
+to provide a satisfying answer. One of these fields is, for example, the investigation of actual
+language use that can give a more realistic picture of the ways of adaptation and possible
+variation (cf. Bezooijen and Gerritsen 1994).
+
+
+
+
+                                                10
+6   Areas for further research
+
+
+A logical further step in the research would be the analysis of those loan-segments that have
+not been discussed in this thesis, e.g. the velar plosive g in words, such as goal 'id.'. This
+segment has been missing from the native phonology for centuries. Is there a change in this
+respect? Other segments that should be analysed are ɟ and ɲ, e.g. djembé [ɟˈɛmbe] 'African
+drum', oranje 'orange (colour)'. Although these two sounds are usually analysed as sequences
+of segments (ɟ=dj, ɲ=nj), my personal survey with native speakers (syllabification tests)
+contradict this assumption, for most speakers are ambivalent towards these sounds. The
+present thesis can be interpreted as a first step in the analysis of all the loan-segments of
+Dutch. Besides an exhaustive analysis of all loan segments in Dutch, the analysis of foreign
+influences in the native phonotactics is also a promising area. Another possible direction for
+further research would be a deeper analysis of the historical facts, e.g. concerning the
+integration of ʒ.
+
+
+
+
+7   References
+
+Adler, Allison. 2006. Faithfulness and perception in loanword adaptation: A case study from
+       Hawaiian. Lingua 116.1045, 1024.
+Bastiaansen, Cora (ed.) 2008. Groot woordenboek hedendags Nederlands. 4th ed. Utrecht: Van
+       Dale.
+Benkő, Loránd. 1987. A történeti nyelvtudomány alapjai. Budapest: Tankönyvkiadó.
+Bezooijen, Renée van, and Marinel Gerritsen. 1994. De uitspraak van uitheemse woorden in
+       het Standaard-Nederlands. Een verkennende studie. De Nieuwe Taalgids 87.145-160.
+Bloomfield, Leonard. 1934. Language. London: Allen & Unwin.
+Boersma, Paul, and Silke Hamann. 2009. Loanword adaptation as first-language
+       phonological perception. Loan phonology, ed. by Andrea Calabrese, 11-58.
+       Amsterdam ;;Philadelphia: John Benjamins Pub. Co.
+Boon, Ton den, and Dirk Geeraerts (eds.) 2005. Groot Woordenboek Van De Nederlandse Taal.
+       14th ed. Utrecht: Van Dale Lexicografie.
+Chomsky, Noam, and Morris Halle. 1968. The Sound Pattern of English. New York, Evanston,
+       and London: Harper & Row, Publishers.
+Coetsem, Frans van. 1988. Loan Phonology and the Two Transfer Types in Language Contact.
+       Publications in language sciences. Dordrecht, Holland: Foris Publications.
+
+                                             11
+Coninck, René de. 1970. Groot Uitspraakwoordenboek Van De Nederlandse Taal. Antwerpen:
+       De Nederlandsche Boеkhandel.
+Crawford, Clifford. 2008. An evolutionary account of loanword-induced sound change in
+       Japanese. University of Pennsylvania Working Papers in Linguistics 16.
+       http://repository.upenn.edu/pwpl/vol14/iss1/5/.
+Franck, Johannes. 1892. Etymologisch woordenboek der Nederlandsche taal. 's-Gravenhage:
+       Martinus Nijhoff. http://www.archive.org/details/etymologischwoo00frangoog.
+Heemskerk, Josée, and Wim Zonneveld. 2000. Uitspraakwoordenboek. Utrecht: Het Spectrum.
+Heffernan, Kevin. 2005. Phonetic similarity and phonemic contrast in loanword adaptation.
+       Toronto Working Papers in Linguistics 24.117-123.
+Ito, Junko, and Armin Mester. 1995. The core-periphery structure of the lexicon and
+       constraints on reranking. (Ed.) Jill Beckman, Suzanne Urbanczyk, and Laura Walsh.
+       University of Massachusetts Occasional Papers in Linguistics [UMOP] 18: Papers in
+       Optimality Theory.181-209.
+Jakobson, Roman, and Morris Halle. 1956. Fundamentals of Language. 's-Gravenhage: Mouton
+       & Co.
+Kenstowicz, Michael. 2007. Salience and similarity in loanword adaptation: a case study
+       from Fijian. Language Sciences 29.316-340. doi:10.1016/j.langsci.2006.12.023.
+Kertész, Zsuzsa. 2006. Approaches to the phonological
+       analysis of loanword adaptation. The Even Yearbook. The Even Yearbook.
+       seas3.elte.hu/delg/publications/even/2006/06ke.pdf.
+King, Robert D. 1969. Historical Linguistics and Generative Grammar. Englewood Cliffs, N.J:
+       Prentice-Hall.
+LaCharité, Darlene, and Carole Paradis. 2005. Category Preservation and Proximity versus
+       Phonetic Approximation in Loanword Adaptation. Linguistic Inquiry 36.223-258.
+Oostendorp, Marc van. 2000. 'Leenwoordfonologie' in het Esperanto. Gramma 7.137-148.
+Paul, Hermann. 1920. Prinzipien Der Sprachgeschichte. 5th ed. Halle a. S.: Max Niemeyer.
+Peperkamp, Sharon, and Emmanuel Dupoux. 2003. Reinterpreting loanword adaptations:
+       the role of perception. (Ed.) Josep Sola-Solé. Proceedings of the 15th International
+       Congress of Phonetic Sciences Barcelona, 3-9 August 2003 15.367-370.
+Philippa, Marlies, F. Debrabandere, Arend Quak, T.H. Schoonheim, and Nicoline van der Sijs
+       (eds.) 2004. Etymologisch Woordenboek Van Het Nederlands. Amsterdam: Amsterdam
+       University Press. http://www.etymologie.nl/.
+Sankoff, Gillian. 2002. The Linguistic Outcomes of Language Contact. The Handbook of
+       Language Variation and Change, ed. by J. K Chambers, Peter Trudgill, and Natalie
+       Schilling-Estes, 639-668. Blackwell Handbooks in Linguistics. Malden, MA:
+       Blackwell.
+Saussure, Ferdinand de. 1967. Bevezetés az általános nyelvészetbe. (Trans.) Éva B. Lőrinczy.
+
+
+                                              12
+       3rd ed. Budapest: Gondolat.
+Thomason, Sarah Grey, and Terrence Kaufman. 1988. Language Contact, Creolization, and
+       Genetic Linguistics. Berkeley: University of California Press.
+Trubetzkoy, Nikolay Sergeevich. 1962. Grundzüge der Phonologie. 3rd ed. Göttingen: Van Den
+       Hoeck & Ruprecht.
+Velde, Hans van de, and Roeland van Hout. 2002. Uitspraakvariatie in leenwoorden. (Ed.)
+       Philippe Hiligsmann and E. Leijnse. NVT-onderwijs en -onderzoek in Franstalig gebied
+       1.77-95.
+Weinreich, Uriel. 1964. Languages in Contact. Findings and Problems. 2nd ed. London, The
+       Hague, Paris: Mouton & Co.
+
+
+
+
+                                               13
+

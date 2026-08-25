@@ -1,0 +1,1096 @@
+                         Do Dutchies schwa a lot?
+ The possible influence of Dutch pronunciation on the perception of spoken English.
+
+
+
+
+                                   Master’s Thesis
+
+
+                                Amsterdam, June 2021
+
+
+
+
+Roos (Alex) Jansen (13415115)
+
+
+
+
+Supervisor
+Mw. Dr. Silke Hamann
+Second Reader
+Dr. B.M. van ‘t Veer
+                                              Abstract
+Schwa epenthesis is a linguistic process which is prevalent in the Dutch language. Even though its
+use is inconsistent, schwa epenthesis can easily be found in the output of many speakers of Dutch. In
+the English language, however, schwa epenthesis is far less prevalent, since it seems to be entirely
+absent in both American and British English. Nevertheless, a limited form of schwa epenthesis does
+occur in less-widely spoken varieties of English such as Scottish English and Irish English. Drawing
+on the idea of language transfer, this research therefore examines the perception of schwa epenthesis
+by native Dutch speakers in both Dutch and British English to language transfer of schwa epenthesis
+from Dutch to British English is perceived as sounding natural. To examine this, this research focuses
+around three research questions. The first of these is whether native speakers of Dutch can perceive
+schwa epenthesis in Dutch. The second question is whether speakers of Dutch can perceive schwa
+epenthesis in spoken English, and if they do, the third question is whether they consider this as
+sounding natural.
+
+
+
+
+                                                                                                    1
+                                          Acknowledgements
+My master’s thesis is the pièce de résistance of a long journey as a student. This past academic year
+has been tough, with all its studying-at-home and no physical contact with other students. Yet I was
+still able to do it, passing all the courses while also enjoying the final stop in my career as a student.
+This journey I described started long ago at the Dutch VMBO-T, where I actually visualised myself
+studying at a university, something pretty much impossible for students of VMBO since you have to
+work yourself all the way up. However, I have managed this by showing dedication, discipline and
+with some help of my wonderful family, friends and teachers.
+      This thesis could not have been written without the support of Dr. Silke Hamann, an amazing
+lecturer from the University of Amsterdam who provided me with endless waves of feedback which
+helped me along the way and was able to cope with my very messy brain. Besides Silke, Dirk Jan Vet
+also deserves a lot of credit for setting up the online experiment.
+      Throughout all these years as a student I have met so many amazing people who supported me
+all the way through to the end. Providing me with the needed support and feedback, but also giving
+me the energy to keep on going. I would like to mention some friends specifically, one of them being
+Sten, someone who followed in my footsteps by also going to university to study English Language
+and Culture after a draining experience on the Dutch university of applied sciences. Sten has provided
+me with laughs, beer, support and loads of feedback over the years. He is one of the kindest and most
+amazing friends one could wish for. Like Sten, Dennis and Tim were the best source of fun, especially
+when I needed it most. One final friend I would like to mention and profoundly thank is the one whom
+I have zinged with, Ilse. She provided me with a stepping stool to go to the next level. With her
+endless love and always appreciated support I was able to pull off this thesis. Thanks to her my future
+seems more rose-coloured than ever before.
+
+
+
+
+                                                                                                        2
+Table of contents
+1. INTRODUCTION                                                                 4
+2. BACKGROUND                                                                   5
+    2.1 On the workings of schwa-epenthesis                                     5
+    2.2 Users of Schwa-epenthesis in Dutch                                      7
+    2.3 Schwa-epenthesis in English                                             8
+    2.4 On the perception of language and how languages influence each other    8
+3. PRESENT STUDY                                                               10
+4. METHODOLOGY                                                                 10
+    4.1 Participants                                                           10
+    4.2 Stimuli                                                                11
+    4.3 Procedure                                                              12
+    4.4 Data analysis                                                          13
+5. RESULTS                                                                     13
+6. DISCUSSION                                                                  13
+7. CONCLUSION                                                                  15
+REFERENCES                                                                     17
+APPENDIX A                                                                     20
+APPENDIX B                                                                     21
+APPENDIX C                                                                     22
+APPENDIX D                                                                     23
+APPENDIX E                                                                     24
+APPENDIX F                                                                     25
+APPENDIX G                                                                     26
+
+
+
+
+                                                                                3
+                                         1. INTRODUCTION
+Human speech is a variable and complicated affair. This emanates when analysing the output of
+someone’s speech since such an analysis illustrates the many different processes that take place while
+producing said output. Each process can have different causes behind its presence. For example,
+processes like voicing may make language easier to perceive for listeners, whereas others like deletion
+may make speech easier to produce. One such process which often appears in human speech is
+epenthesis, in which one or more sounds are added to a word. This process could, as already set out
+above, make speech easier to both produce and perceive. The Dutch language is well-known for its
+common usage of epenthesis, especially of the epenthetic schwa in which a schwa-sound is inserted
+into a specific consonantal cluster, consisting of a liquid consonant [l] or, independent of the
+realisation, [r], and a non-dental consonant being [b], [p], [m], [f], [v], [n], [l], [x] or [k] (Trommelen,
+1984, p. 77; 1993, p. 175; Booij, 1995, p. 127). In Dutch, there are a plethora of examples which
+contain schwa epenthesis (SE for short). Therefore, overview (1) illustrates SE by providing examples
+of the two different types of SE which are discussed in Warner et al. (2001, p. 388). The first type,
+(1a), contains words in which a schwa is inserted in the final syllable, whereas the second type, (1b),
+contains words in which a schwa is inserted in the penultimate syllable of the word. Although the
+process is quite common, and many examples can be found, it should be noted that not all speakers
+of Dutch apply this process to the same extent.
+
+
+(1) Examples of two different types of schwa epenthesis in Dutch by Warner et al. (2001, p. 388)
+a)      melk    /mɛlk/          [mɛlk] ~ [mɛlək]        ‘milk’
+        wilg    /ʋɪlx/          [ʋɪlx] ~ [ʋɪləx]        ‘willow’
+        hulp    /hʏlp/          [hʏlp] ~ [hʏləp]        ‘help’
+        berg    /bɛrx/          [bɛrx] ~ [bɛrəx]        ‘mountain’
+        korf    /kɔrf/          [kɔrf] ~ [kɔrəf]        ‘basket’
+b)      filmer /fɪlmər/         [fɪlmər] ~ [fɪləmər]    ‘cameraman’
+        ergens /ɛrxəns/         [ɛrɣəns] ~ [ɛrəɣəns]    ‘somewhere’
+
+
+        Multiple accounts exist which attempt to justify the process of SE. One of these is a phonetic
+account, which tries to explain the process by means of the articulatory systems and suggests that SE
+exists as some form of compensation for the amount of energy and effort it takes to produce the
+consonantal clusters. Another account, the phonological tone, justifies the existence of SE by means
+of the structure of syllables, because SE makes words conform with the universal syllable structure
+of consonant-vowel. Alternatively, Element Theory, a different phonological account, suggests that
+
+
+                                                                                                          4
+SE exists to make the consonants more distinguishable from each other (Backley, 2011, p. 37-38).
+The different accounts mentioned are discussed in more detail in section 2.
+       While the process of SE is common in Dutch, it is rather uncommon in the English language.
+The predominant varieties, British English (BE) and American English (AE), do not display any
+forms of SE. However, there are two less prevalent varieties of English which do show SE in their
+output, namely Scottish English (SSE) and Irish English (IrE). Hickey (2004, p. 83) mentions this
+process in his A Sound Atlas of Irish English, where he comments on how in /lm/ clusters, and less
+often in clusters of /rm/ and /rn/, schwa-insertion can take place. This process of SE in SSE and IrE
+is described in more detail with examples in section 2.3.
+       Seeing that SE occurs in some varieties of English sparks interest, since SE would normally
+be considered to sound foreign to speakers of AE and BE under language normative circumstances.
+This research has three different objectives. The first objective is to explore the sensitivity of native
+speakers of Dutch with regards to SE in Dutch. It is expected that the participants will not perceive
+the difference between sentences containing SE and those which do not. This expectation is based on
+the fact that SE is a prevalent process in Dutch, which can be assumed to be harder to distinguish than
+processes which are not as prevalent. The second objective is to examine whether native speakers of
+Dutch are sensitive to SE in English. It is again expected that participants are unable to perceive the
+difference between sentences containing SE and those which do not, since there may be a possible
+transfer of SE from their native language. The final objective is to evaluate the perception of SE in
+English. Here it is expected that the Dutch participants will consider SE as sounding natural in English
+due to the same possible transfer mentioned before.
+
+
+                                         2. BACKGROUND
+2.1 On the workings of schwa-epenthesis
+SE in Dutch is a process which, as described in the introduction, can occur in certain contexts, albeit
+irregularly, depending on the speaker. Consequently, different theories exist which try to account for
+the mechanisms of SE. Kloots et al. (2009, p. 46) suggests that three approaches can account for the
+process, namely the articulatory approach, the phonological approach and the psycholinguistic
+approach.
+       The articulatory approach, which is a phonetic approach, tries to account for the SE process
+by looking into the articulations which are needed to produce the consonantal clusters in which SE
+occurs. Although there is a lack of proper research and further information on the production of
+complex Dutch consonantal clusters according to Kloots (2009), there is still the assumption that
+clusters like /lk/ and /rf/ are harder to pronounce compared to other clusters like /kl/. The assumption
+is based on the complexity of these clusters since they require more energy and more complex tongue
+
+                                                                                                       5
+movements than the other clusters (Kloots, 2009: 46). The schwa which is inserted makes it easier to
+pronounce these clusters, creating pronunciations like [me.lək] and [we.rək]. Yet, assuming that SE
+can be accounted for by solely looking at the articulatory effort of the speaker does not hold up in the
+face of closer consideration. Not only is SE an inconsistent process, since it is not applied by all
+speakers to the same degree, but it also does not appear in the prominent varieties of English, being
+BE and AE. Therefore, if SE was used to relieve the articulatory effort of the speaker alone it should
+be present in all languages. In order to verify the assumptions made by Kloots (2009), further research
+would be necessary considering they do not provide any further details regarding the articulatory
+approach.
+       The second approach, the phonological one, tries to account for the inserted schwa by means
+of the syllable structure of the word. Dutch words like melk, korf, and filmer are, in terms of
+consonant-vowel structure, inefficient, since they do not follow the consonant-vowel (CV) structure.
+To make the words more efficient, a schwa is inserted which creates a more “desirable” structure in
+the syllables according to Vennemann (1988). Even though the second syllable of the word is not in
+line with CV structure, it could be argued that the cluster of consonants still comes closer to the CV
+structure since the schwa is inserted. In order to create this second syllable, in which the schwa is
+found, a syllable break is used. In this second syllable the coda /l/ or /r/ are assigned to the onset
+(Sebregts, 2014, p. 236). CV phonology is a theory which assumes that every language contains CV
+sequences. Words like melk and werk could fit better to some degree into such a CV sequence if they
+are pronounced with SE. As mentioned before, if SE takes place, an additional syllable is created in
+the process (Jakobson & Halle, 1971, pp. 31-32, 51; Clements & Keyser, 1983, p. 28). Yet, this
+approach demands “a high price”, since this additional syllable which is created is considered closed
+and has a schwa in its core (Kloots, 2009, p. 46; Van Oostendorp 2000, p. 155).
+       The assumption that the CV sequences can be solely used for all languages can be invalidated
+by considering examples which contain other syllabic structures which are commonly found in many
+languages. One such example would be onset clusters like in the Dutch word krant, since the first two
+consonants are clearly pronounced without a vowel in between. However, this counterargument is
+diffused when taking Element Theory (ET) into consideration while analysing syllabic structures,
+since this theory affirms the former claim about CV sequences. ET, in short, assumes that language
+is made up of smaller elements, which are compared to phonological features and assumed to be
+monovalent rather than binary (Backley, 2011, p. 10). Another assumption made by ET is that vowels
+can be weak, categorising vowels as such when they appear in unstressed syllables, which also
+accounts for schwa. ET can therefore also account for SE, since schwa is still considered to be a
+phonological object which can be used in the nucleus position to make two adjacent consonants more
+distinguishable from each other (Backley, 2011, p. 37-38). Words like melk and kerk, like the
+
+                                                                                                      6
+mentioned phonetical account already suggests, are harder to pronounce because they require more
+energy than words like woord. This need of more articulatory energy may result in the /r/ and /l/ being
+harder to distinguish for the speaker. As a result, an unstressed schwa is inserted in the nucleus
+position of the syllable to make the cluster of consonants more distinguishable. When looking at onset
+clusters, SE does not take place according to ET, due to the consonants already being more
+distinguished from each other.
+       The account by ET, which suggests that the schwa is inserted to make the consonants more
+distinguishable, can also be combined with the account provided by Articulatory Phonology (AP).
+AP is a framework that claims to unify different aspects of phonetics and phonology. However,
+Sebregts (2014) criticises how AP for actually being non-phonological because it mainly covers
+phonetical aspects (p. 238). AP claims that SE should be called schwa-intrusion, because it is an
+intrusive gesture. This intrusive gesture happens due to natural movements of the tongue (Sebregts,
+2014, p. 238). It could be argued that, when AP and ET are combined, these theories could provide a
+combined account for SE. This account could then propose the argument that the schwa naturally
+intrudes in the consonantal cluster in order to make the cluster easier to distinguish.
+       The third and final approach suggested by Kloots (2009), the psycholinguistic approach,
+proposes the view that SE is a process that can be utilised to make language easier and quicker to
+process for the listener (p. 47). Moreover, this approach could be linked to prosody, or the rhythm of
+language, since speakers tend to adhere to a rhythm which they try to maintain throughout the
+sentence. Findings by Kuijpers & Van Donselaar (1998) indicate that when speakers try to maintain
+a trochaic rhythm, SE was used as a tool for preserving the rhythm, since the second syllable of a
+word with SE is unstressed (p. 100).
+       All the approaches listed above appear to be one-sided. To avoid these one-sided views,
+combinations of the approaches could be suggested instead, like Articulatory Phonology, which may
+make the process more logical. However, due to the limited scope of this project with regards to
+workings of SE, a separate study would be needed in order to go into more detail in relation to the
+reasonings behind SE and to attempt to synthesise the three accounts.
+
+
+2.2 Users of Schwa-epenthesis in Dutch
+Besides the research on SE’s workings, there has also been some in-depth research on the Dutch
+speakers who apply SE. The process of SE seems to be controversial: while there does seem to be a
+general rule for the application of SE, not everyone does apply it all the time. Multiple accounts
+suggest that region is the main factor in determining the differing usages, because in Flanders (the
+Dutch speaking part of Belgium) SE seems to be more prominent than in the western cities of the
+Netherlands (Sebregts, 2014, p. 242; Kloots et al, 2009, p. 59). In the Netherlands, SE seems to be
+
+                                                                                                     7
+more prominent in the cities which are not situated in the province of South Holland. Kloots et al.
+(2009, p. 59), however, concluded that only age seemed to have a statistically significant influence
+on the usage of schwa, since their older participants had the tendency to apply SE more frequently
+than the younger participants. On the other hand, sex and region did not seem to have a significant
+influence on the usage of SE.
+
+
+2.3 Schwa-epenthesis in English
+Conversely, SE is a less prominent feature in English than it is in Dutch. In English the most well-
+known varieties, being AE and BE, do not have any SE in their output, as previously stated.
+Considering that these varieties are more prominent in the world compared to SSE and IrE, speakers
+of Dutch likely have no real exposure to SE in English. Yet, it can be argued that native speakers of
+Dutch who have been in contact with speakers of IrE and SSE may have had some degree of exposure
+to SE in English. As alluded to in the introduction, these varieties have a similar form of epenthesis
+to Dutch. Albeit less common and in, somewhat, different circumstances, SE is applied in both IrE
+and SSE. Examples of SE in IrE which are applicable to both varieties of English are film [fɪləm] and
+farm [farəm] (Sell, 2012, p. 49).
+         Further examples of SE in IrE are harder to come by, since SE seems to be far less prevalent.
+The examples given by Sell appear to cover the gist of SE in IrE. One more example of SE in IrE can
+be found in the word seilg meaning hunt because it can be pronounced as [ʃɛləg] (McCullough, 2017,
+p. 2).
+         The examples film and farm show that SE can be applied in clusters like /lm/ and /rm/, to
+which Maguire (2017, p. 164) adds that SE can also often be found in the clusters /rl/ and /rn/ in SSE.
+Compared to Dutch, in which SE can occur in more variable clusters, the contexts in which SE can
+occur in SSE and IrE seem relatively limited. Apart from these clusters in which SE can occur
+relatively often, Maguire also adds that in clusters like /rd/, /rk/, /rt/ and /rv/ SE can sometimes take
+place in SSE, using the words bird, part and dark as examples (2017, p. 161-164).
+         As of the origins for SE in English, they can be traced back to Old English, which contains
+very similar clusters in which a connecting vowel is used (Campbell, 1959, p. 150-151). Maguire
+argues that the SE found in IrE and SSE can be traced back to Old English but was lost in other
+varieties like BE and AE (2018, p. 492).
+
+
+2.4 On the perception of language and how languages influence each other
+Whereas the previous sections mainly focused on the working of SE in Dutch, SSE and IrE, this
+section will analyse the possible transfer of features from one language to another and the perception
+of native speakers of foreign sounding speech. Since the native language of a speaker can influence
+
+                                                                                                       8
+the possible output of a secondary language, this could mean that prominent features of languages,
+like Dutch SE, may be transferred to another language. Even though no specific research has been
+conducted yet on this matter with regards to Dutch SE, Broselow (1993, p. 74) does argue that the
+influence of certain features, like epenthesis, which are part of a native language, can play a direct
+role in influencing the possible output of an acquired secondary language. Although Broselow’s
+research mainly focused on the output of Arabic speakers with regard to epenthesis, the same
+observation could be applied to Dutch SE, since the examples presented by Broselow are arguably
+similar to those of Dutch SE. (2) displays a small sample of epenthesis errors made by non-native
+English speakers from Egypt. The underlying cause for these types of epenthesis errors, stems from
+the native language of these speakers: Egyptian. In (2), English words like floor and slide can be seen
+to be problematic for native Egyptian speakers, since the initial cluster of consonants is considered
+foreign for their native language, and they consequently try to compensate for this foreign structure
+by inserting an extra epenthetic vowel. Therefore, as the result of a language transfer, these errors
+were made. This may show that a possible transfer of SE may occur when native speakers of Dutch,
+who were not trained to speak English, start learning and speaking English.
+
+
+(2) ’Typical’ errors in English made by Egyptian learners (Broselow, 1993, p.74)
+       a. ‘floor’      [fɪlɔː]
+       b. ‘plastic’    [bɪlæstɪk]
+       c. ‘three’      [θɪriː]
+       d. ‘translate’ [tɪrænsɪlət]
+       e. ‘slide’      [sɪlaɪd]
+       f. ‘fred’       [fɪrɛd]
+
+
+       Having non-native sounding elements in the speech stream may result in a foreign sounding
+accent, like the Egyptian student examples in (2) show. In addition, having a foreign accent may come
+with its own set of issues. According to Moyer (2013, p.11), the definition of accent is rather
+subjective since each person has its own view on language. Yet, having this non-native quality applied
+to speech may, as Moyer states, result in a lack of fluency, in misunderstandings and in language that
+is overall more difficult to understand (2013, p. 11). Moyer also adds that “as social beings, we
+inevitably size up one another according to perceived similarity–difference. Thus, it is no real surprise
+that listeners rate their own accents positively, while foreign accents tend to be viewed negatively by
+comparison” (2013, p. 14). This could therefore result in speakers with foreign sounding accents
+being taken less seriously, or even worse, not being understood at all.
+
+
+                                                                                                       9
+                                       3. PRESENT STUDY
+The majority of the studies examined above have focused on SE in Dutch, SSE and IrE. Yet, in these
+studies a consideration of the perception of SE in BE and AE appears to be lacking. In an attempt to
+fill this gap in the research, this study compares the perception of SE by native Dutch speakers in
+both Dutch and BE. Considering Broselow’s (1993) observation that the transfer of features of the
+native language to the second language is possible, speakers of Dutch may regard SE in BE and AE
+as sounding natural, since in Dutch SE is perceived as natural and the listener’s own pronunciation
+can influence their perception of a speaker (Moyer, 2013). To test this hypothesis, this study answers
+three different research questions which will eventually be considered together. The first of which
+asks whether native speakers of Dutch are aware of SE in excerpts of spoken Dutch. This is tested by
+letting the participants indicate whether they hear a difference between two spoken excerpts of Dutch.
+The second question asks whether native speakers of Dutch can perceive SE in Spoken English. The
+methods used to answer this question are similar to the first question’s method. The final question of
+this research is how SE in English is perceived by the native Dutch speakers. This is tested by letting
+native speakers of Dutch listen to excerpts of spoken English and asking them to indicate whether
+these excerpts sound natural or not.
+
+
+                                       4. METHODOLOGY
+4.1 Participants
+For this experiment, participants were mainly gathered through the internet: by posting invitations on
+the social media website facebook.com and the Dutch forum budgetgaming.nl. 20 participants were
+able to take part in this experiment. All participants were above 18 years old. Besides the minimum
+age, participants had to indicate that they are native Dutch, that they had no hearing impairments and
+that they did not grow up in a bilingual environment. The participants were also asked to provide an
+indication of their exposure to English in a short questionnaire, of which (3) gives an overview of the
+different options. No further information was gathered from the participants due to privacy concerns.
+
+
+(3) The questionnaire which participants had to fill in
+       How often are you exposed to spoken native English content? (Think of television, podcasts,
+       radio, school and other sources like the internet)
+       1.      More than once per week
+       2.      Once per week
+       3.      Once or more every two weeks
+       4.      Once or more every month
+       5.      Less than once per month
+                                                                                                    10
+4.2 Stimuli
+All the stimuli were recorded on a MacBook Pro using a HyperX Cloud II Pro Gaming Headset with
+detachable microphone. This headset was used to ensure that all recordings were of the same quality.
+The recordings were made using the phonetics computer program Praat (Boersma & Weenink, 2021)
+and all files were saved in the Waveform Audio File Format (.wav) with a sampling frequency of
+44,100 Hz. All of the stimuli were then scaled to have a maximum intensity of 70 dB. The English
+stimuli were recorded by two young Dutch adults who both studied English Language and Culture
+and have a British-like accent. The Dutch stimuli were recorded by a native Dutch young adult and
+an older native Dutch adult. The recordings were cut using Praat.
+        The Dutch stimuli, as seen in (4a) and (4b), are short utterances in which SE can naturally
+occur. Short sentences were used to keep the experiment accessible for the participants. Six SE stimuli
+were used and, based on this amount, 20 filler sentences were created which consisted of three
+categories: same sentence fillers, assimilation fillers and contraction fillers. All of these fillers differ
+from the SE utterances, since processes like assimilation and contraction do not involve the process
+of adding sounds. Examples of the Dutch filler sentences can be seen in (4e) and (4f). The
+pronunciations of the filler sentences can all occur naturally in the Dutch language. Similarly, the
+English stimuli make use of SE in corresponding positions, examples of which are provided in
+examples (4c) and (4d). The 20 filler sentences contain the same types as the Dutch filler sentences,
+examples of which are found in (4g) and (4h). The complete overview of all the stimuli can be found
+in appendices A and B.
+
+
+
+
+                                                                                                         11
+(4) Examples of short sentences from the experiment for both Dutch (a, b, e & f) and English (c, d,
+g & h), all given in orthographic form
+
+                         Stimuli
+  a                      Ik heb m’n nieuwe jurək aan
+                         Ik heb m’n nieuwe jurk aan
+
+  b                      Ik drink graag melək
+                         Ik drink graag melk
+
+  c                      The grass was eaten by the caləf
+                         The grass was eaten by the calf
+
+  d                      I am going to worək today
+                         I am going to work today
+
+  e                      ’T regent
+                         Het regent
+
+  f                      Hijs lief
+                         Hij is lief
+
+  g                      Gimme my hambag
+                         Give me my handbag
+
+  h                      Tem bikes in a row
+                         Ten bikes in a row
+
+
+4.3 Procedure
+The experiment, which was also approved by the ethics committee of the University of Amsterdam’s
+FGW, was built using the software ED (Experiment Designer) programmed by Dirk Jan Vet from the
+University of Amsterdam (2021). The experiment was hosted on the University website, so that
+participants could participate in the experiment after receiving a subject number. Each of the
+participants had to perform four separate tasks to complete the experiment. In the first task, the
+participant had to indicate whether a difference could be heard between two Dutch excerpts. The
+second task required the participant to specify whether a single Dutch excerpt sounded natural or not,
+this task was used as preparation for the fourth task. Therefore, the results of the second task were
+not taken into consideration. The third and fourth tasks copied the format of the first two tasks, but
+the excerpts were in English instead of Dutch. Before starting the experiment, the participants also
+had to specify that they were non-bilingual, did not have any problems with their hearing, were native
+Dutch and above the age of 18. If one of these conditions was not met, the participant could not join.
+Participants were also informed that they could stop with the experiment at any given time, in line
+with the guidelines of the ethics committee.
+
+
+
+                                                                                                   12
+4.4 Data analysis
+After the participant finished the experiment, the results, which include the individual scores of the
+tasks, were put in a data sheet in which the means and standard deviations were automatically
+calculated. For each task, the participant could obtain a number of points. For tasks 1 and 3, in which
+the participant was asked to indicate whether the two excerpts heard sounded similar or not,
+participants received one point for every excerpt in which SE was present if their answer was “sounds
+different”, giving the participant a maximum six points which could be obtained per task. For task 4,
+in which the participant had to indicate whether the heard excerpt sounded natural or not, participants
+received one point for every excerpt in which SE was present if their answer was “sounds natural”,
+allowing the participant to get a maximum of six points. None of the filler sentences were taken into
+account for any of the tasks. All of the individual results have been recorded in three different
+appendices to create a clear overview. Appendix C contains the results for task 1 and appendices E
+and F contain the results for tasks 3 and 4.
+
+
+                                                5. RESULTS
+This section first provides an overview of the means and standard deviations for all three tasks in
+table 1. The participants’ individual results for each task can be found in the previously mentioned
+appendices C, E and F.
+
+
+Table 1
+An overview of the outcomes of the three tasks, for each task the mean and standard deviation are
+displayed
+                                      Task 1 (Dutch)         Task 3 (English)         Task 4 (English)
+
+                Mean                        6                       6                        6
+
+          Standard deviation                0                       0                        0
+
+
+
+
+       As can be seen in table 1, each task has identical outcomes. As described in section 4.3, Task
+2 was used to allow the participants to get used to the format used in Task 4, therefore the results are
+not displayed here. For all three tasks, participants were able to score perfect scores.
+
+
+                                           6. DISCUSSION
+This experiment was set up to explore schwa-epenthesis in the Dutch and English language. The
+experiment consisted of four tasks, three were used to answer the three research questions which were
+presented in sections 1 and 3.
+                                                                                                         13
+       The first research question, namely: “can native speakers of Dutch distinguish schwa-
+epenthesis in their native language”, can be answered by the results of task 1. The hypothesis for this
+research question was that native speakers of Dutch are unable to perceive SE when comparing Dutch
+sentences that do and do not display SE. However, the results of the first task show the opposite of
+what was expected, since all participants were able to successfully perceive the difference between
+two sentences that differed only by one of them containing SE.
+       The second research question which this thesis attempted to answer was “can native speakers
+of Dutch distinguish schwa-epenthesis in the English language”. The hypothesis linked to this
+question expected the participants to be unable to perceive the difference between BE sentences when
+comparing SE stimuli to non-SE stimuli. Like the first research question, the results of task 3 show
+that the participants were able to successfully perceive the differences between sentences, thus
+opposing the hypothesis.
+       The final research question, which is “do native speakers of Dutch perceive SE in English as
+natural-sounding or foreign”, can be answered by the results of task 4. The expected outcome was
+that the participants would have perceived BE sentences containing SE as natural, yet the results of
+task 4 show that all the participants indicated that stimuli which featured SE in English were seen as
+unnatural.
+       The answers provided above do provide an overview of the perception of SE in both Dutch
+and English. There seems to be a correspondence between the results of tasks 1 and 3 and the exposure
+to English of the participants. In appendix G, the results of the exposure question are displayed, which
+indicate that all the participants are very regularly exposed to native English content, which is at least
+once every week. This high exposure level, combined with the scores obtained in the tasks, suggests
+that a correlation may exist between exposure level and language proficiency. Yet, it would be
+premature to conclude this solely based on the data provided by this study. However, this correlation
+has been indicated before by Flege (1991) and Flege (2003). The results of task 4 seem to correlate
+with the statement of Moyer (2013), since SE is something which is considered foreign or unnatural
+in British English and American English.
+       Although this experiment may have provided answers to the posed research questions, it did
+have several limitations. One of these limitations was the ongoing pandemic. This forced the
+processes required for the thesis to be carried out from home. All of the recordings made for the
+experiment have been made with non-professional equipment in a non-isolated room which may have
+resulted in background noise in the recordings. Besides the possible noise included in the background
+of the recordings, other factors such as the place in which the experiment was carried out or the type
+of headphones which were used by the participant could have been a source of possible interference.
+Considering that each headphone differs in quality, participants could have missed certain details and
+
+                                                                                                       14
+started guessing answers. All of the participants were gathered through the internet and had the
+freedom to partake in the experiment at their own leisure at home or in a different place on their own
+computer instead of having to come to a building where they use a preselected headset for the audio,
+and the exact same computer. These types of logistical issues can easily be resolved once the
+pandemic is over and when it is safe to have physical contact. Another possible issue with gathering
+participants through the internet could be that the experiment mainly attracted participants who were
+interested in language and were therefore able to perceive the differences more easily.
+       Another limitation of this experiment was the exposure-level to English of the participants.
+Almost all of the participants have indicated that they have had very regular exposure to the English
+language of at least once per week. This made the group of participants rather narrow with regard to
+the diversity of exposure. A more diverse group of participants with different amounts of exposure
+may present different results. This experiment also did not account for any exposure to Irish English
+and Scottish English, two varieties of English in which SE can occur in limited circumstances. This
+may influence the way native speakers of Dutch consider SE in English. This also intertwines with
+the fact that the English recordings were made by non-native speakers of the language, who had to
+insert a schwa in, for them, unnatural positions. This could be resolved by hiring native speakers of
+IrE and SSE, who can more naturally insert schwas into English.
+       Finally, the contents of the experiment itself could also be improved upon, since the stimuli
+used for tasks 1 and 3 did not contain any fillers in which SE could possibly occur. A more diverse
+set of filler sentences could already result in an improvement of the quality of the stimuli. In the
+questionnaire, which the participants had to fill in, they were asked to give a single indication of their
+exposure to the English language. This single indication does not provide a sufficient view into the
+participant’s contact with English because it is measured in a rather unprecise manner. Miatto (2018)
+provides a more fine-grained indication of the participant’s exposure to, and proficiency in, other
+non-native languages by calculating one score from different questions (pp. 42-48).
+
+
+                                          7. CONCLUSION
+Even though the results of the experiment may seem one-sided, there is still much room for further
+expansion in the field of schwa-epenthesis. This experiment’s focus was on the perception of SE in
+Dutch and English, and the results show that speakers of Dutch are aware that SE is not a process
+which occurs in the English language. A follow-up experiment could investigate the opinions of
+listeners when being exposed to SE in English in more detail, for which a corresponding research
+question could be “what is the opinion on SE of a native Dutch speaker who is exposed to SE in
+English?” Moyer (2013) believes that having a native-like accent can influence the listener’s
+
+
+                                                                                                       15
+perception of the speaker, which could suggest a possible hypothesis in which more native sounding
+speech is considered to be “better”, whereas foreign sounding speech is taken less seriously.
+       This thesis’ main objective was to examine the reception of foreign sounding language
+compared to native sounding language. As such it did not consider the production of vowels, which
+can highly differ between languages. Comparing vowels between languages may result in slight
+differences in how these vowels are produced, giving them different qualities. Thus, a follow-up study
+could look into a corpus-based analysis, where the quality of the epenthetic schwa is compared
+between Dutch, IrE and SSE. Exploring this topic will help to understand the differences between
+languages and especially how the SE differs amongst them. Moreover, such a follow-up study would
+also indicate how the quality of the schwa may influence the perception of listeners.
+       Another question which arose while writing this thesis was “does the quantity of SE differ
+between formal language and informal language?” This question has not been properly explored yet
+and can, through a suitable corpus, be answered. Moreover, does the influence of the level of formality
+on the quantity of SE differ between languages like Dutch, SSE, IrE and the historical renditions of
+English? And finally, do the contexts in which the schwa is inserted differ? Schwa-epenthesis does,
+as these questions illustrate, indeed make for an interesting topic with a bright future.
+
+
+
+
+                                                                                                    16
+                                          REFERENCES
+Backley, P. (2011). An Introduction to Element Theory. Edinburgh University Press.
+
+Boersma: & Weenink, D. (2021). Praat: doing phonetics by computer [Computer program].
+
+       Version 6.1.40, retrieved 27th April 2021 from http://www.praat.org/
+
+Booij, G. (1995) The phonology of Dutch. Clarendon Press.
+
+Broselow, E. (1993). Transfer and universals in second language epenthesis. In S. M. Gass & L.
+
+       Selinker (Eds.), Language transfer in language learning (pp. 71–86). John Benjamins
+
+       Publishing Company.
+
+Campbell, A. (1959). Old english grammar. Oxford University Press.
+
+Clements, G. & Keyser, S. (1983). CV Phonology: A generative theory of the syllable. The MIT
+
+       Press.
+
+Flege, J.E. (1991). Age of learning affects the authenticity of voice-onset time (VOT) in stop
+
+       consonants produced in a second language. The Journal of the acoustical society of
+
+       America, 89(1), 395-411.
+
+Flege, J.E. (2003). Assessing constraints on second-language segmental production and perception.
+
+        In A.S. Meyer & N.O. Schiller (Eds.), Phonetics and phonology in language
+
+        comprehension and production: Differences and similarities. De Gruyter Mouton.
+
+Hickey, R. (2004). A sound atlas of Irish English. Mouton de Gruyter.
+
+Jakobson, R. & Halle, M. (1971). Fundamentals of language (2nd ed.). Mouton de Gruyter.
+
+Kloots, H., Gillis S. & Verhoeven J. (2009) Merk toch hoe sterk. Sjwa-insertie in spontaan
+
+       gesproken Standaardnederlands. Nederlandse Taalkunde, 14(1), 45–65.
+
+Kuijpers, C. & Donselaar, van, W. (1998). The influence of rhythmic context on schwa epenthesis
+
+       and schwa deletion in Dutch. Language and Speech, 41(1), 87–108.
+
+
+
+
+                                                                                                 17
+Maguire, W. (2017). Epenthesis in liquid+consonant clusters in Scots. In J. Cruickshank & R.
+
+       McColl Millar (Eds.), Before the storm: Papers from the forum for research on the
+
+       languages of Scotland and Ulster triennial meeting, Ayr 2015 (pp. 156–82). Publications of
+
+       the Forum for Research on the Languages of Scotland and Ulster.
+
+Maguire, W. (2018) The origins of epenthesis in liquid+sonorant clusters in Mid-Ulster English.
+
+       Transactions of the Philological Society, 116(3), 484–508.
+
+McCullough, K. (2017) The value of Irish schwa: An acoustic analysis of epenthetic vowels.
+
+       Kansas Working Papers in Linguistics, 38(1), 1–11. https://doi.org/10.17161/1808.26632
+
+Miatto V. (2018). Self-reported L2 input predicts phonetic variation in the adaptation of English
+
+       final consonants into Italian [unpublished master’s thesis]. University of
+
+       Amsterdam.
+
+Moyer, A. (2013). Foreign accent: The phenomenon of non-native speech. Cambridge University
+
+       Press.
+
+Oostendorp, M. van (2000). Phonological projection. A theory of feature content and prosodic
+
+       structure. Mouton de Gruyter.
+
+Sebregts, K. (2015). The sociophonetics and phonology of Dutch r [doctoral dissertation, University
+
+        of Utrecht]. Lot Publications.
+
+Sell, K. (2012). [ˈfɪlǝm] and [ˈfarǝm]? Sociolinguistic findings on schwa epenthesis in Galway
+
+       English. In B. Migge & M. Ní Chiosáin (Eds.), New perspectives on Irish English (pp. 47–
+
+       66). John Benjamins Publishing Company.
+
+Trommelen, M. (1984) The syllable in dutch. Foris Publications.
+
+Trommelen, M. (1993) Lexical word-processes in Dutch. The Linguistic Review, 10(2), 161–184.
+
+Vennemann, T. (1988). Preference laws for syllable structure and the explanation of sound change.
+
+       Mouton de Gruyter.
+
+Vet, D.J. (2021) ED — Experiment designer [Computer program]. Beta version 1.32, retrieved 27th
+
+       April 2021 from https://www.fon.hum.uva.nl/dirk/ed.php
+                                                                                                    18
+Warner, N., Jongman, A., & Mücke, D. (2001) The phonological status of Dutch epenthetic schwa.
+
+       Phonology, 18(3), 387–420. https://doi.org/10.1017/S0952675701004213.
+
+
+
+
+                                                                                           19
+                                          APPENDIX A
+An overview of all the Dutch stimuli which were used
+ Stimulus   Schwa-epenthesis                  Filler
+
+ 1          Ik heb m’n nieuwe jurək aan       ’T regent
+            Ik heb m’n nieuwe jurk aan        Het regent
+
+ 2          Ik drink graag melək              Hijs lief
+            Ik drink graag melk               Hij is lief
+
+ 3          Ik ga naar werək                  Mark zijn pen
+            Ik ga naar Werk                   Mark zijn pen
+
+ 4          De kerək is mooi                  Tis interssant
+            De kerk is mooi                   Het is interessant
+
+ 5          Deləft is leuk                    Das gek
+            Delft is leuk                     Dat is gek
+
+ 6          Dat kaləfje is mooi               Lindas telefoon
+            Dat kalfje is mooi                Linda haar telefoon
+
+ 7                                            Zij is gek op hem
+                                              Zij is gek op hem
+
+ 8                                            Ik ga naar mijn huis
+                                              Ik ga naar mijn huis
+
+ 9                                            Dat is mijn boek
+                                              Dat is mijn boek
+
+ 10                                           Ze houdt van me
+                                              Ze houdt van me
+
+ 11                                           Kan je dit leren
+                                              Kan je dit leren
+
+ 12                                           Is die van mij?
+                                              Is die van mij?
+
+ 13                                           Kan jij dat opsoeken?
+                                              Kan jij dat opzoeken?
+
+ 14                                           We gaan die plek obdoeken
+                                              We gaan die plek opdoeken
+
+ 15                                           Hep jij dat gedaan?
+                                              Heb jij dat gedaan?
+
+ 16                                           Ik heb hier een zagdoek
+                                              Ik heb hier een zakdoek
+
+ 17                                           Ik kan snel impakken
+                                              Ik kan snel inpakken
+
+ 18                                           Hij is naar het poskantoor
+                                              Hij is naar het postkantoor
+
+ 19                                           Dit is de opset voor vandaag
+                                              Dit is de opzet voor vandaag
+
+ 20                                           Heb jij een nachkastje?
+                                              Heb jij een nachtkastje?
+
+
+
+
+                                                                             20
+                                              APPENDIX B
+An overview of all the English stimuli which were used
+ Stimuli   Schwa-epenthesis                       Filler
+
+ 1         The grass was eaten by the caləf       Gimme my hambag
+           The grass was eaten by the calf        Give me my handbag
+
+ 2         I am going to worək today              Tem bikes in a row
+           I am going to work today               Ten bikes in a row
+
+ 3         I like milək                           I would like a samwich
+           I like milk                            I would like a sandwich
+
+ 4         Marək loves chocolate                  On ne house
+           Mark loves chocolate                   On the house
+
+ 5         This dress is made of silək            What a Hoppot
+           This dress is made of silk             What a Hotpot
+
+ 6         Are you going to the parək?            I tell you Goobye
+           Are you going to the park?             I tell you Goodbye
+
+ 7                                                Goonnight to you
+                                                  Goodnight to you
+
+ 8                                                I’m busy
+                                                  I am busy
+
+ 9                                                Is that Michael his bike?
+                                                  Is that Michael’s bike?
+
+ 10                                               She’s lovely
+                                                  She is lovely
+
+ 11                                               We’d like that
+                                                  We would like that
+
+ 12                                               Aren’t they smart?
+                                                  Are they not smart?
+
+ 13                                               He ain’t helping
+                                                  He is not helping
+
+ 14                                               I like bunnies
+                                                  I like bunnies
+
+ 15                                               Is that John?
+                                                  Is that John?
+
+ 16                                               I cook every day
+                                                  I cook every day
+
+ 17                                               I drink a lot of water
+                                                  I drink a lot of water
+
+ 18                                               He’s crazy
+                                                  He is crazy
+
+ 19                                               Walking is fun
+                                                  Walking is fun
+
+ 20                                               That cookie is amazing
+                                                  That cookie is amazing
+
+
+
+
+                                                                              21
+                                           APPENDIX C
+An overview of results for task 1
+                                melk vs   werk vs                   Delft vs   kalfje vs
+  Participant   jurk vs jurək                       kerk vs kerək                          Total
+                                melək     werək                     Deləft      kaləfje
+      1              1            1         1            1             1          1         6
+
+      2              1            1         1            1             1          1         6
+
+      3              1            1         1            1             1          1         6
+
+      4              1            1         1            1             1          1         6
+
+      5              1            1         1            1             1          1         6
+
+      6              1            1         1            1             1          1         6
+
+      9              1            1         1            1             1          1         6
+
+      10             1            1         1            1             1          1         6
+
+      13             1            1         1            1             1          1         6
+
+      17             1            1         1            1             1          1         6
+
+      18             1            1         1            1             1          1         6
+
+      20             1            1         1            1             1          1         6
+
+      25             1            1         1            1             1          1         6
+
+      27             1            1         1            1             1          1         6
+
+      28             1            1         1            1             1          1         6
+
+      29             1            1         1            1             1          1         6
+
+      30             1            1         1            1             1          1         6
+
+      50             1            1         1            1             1          1         6
+
+      51             1            1         1            1             1          1         6
+
+     998             1            1         1            1             1          1         6
+
+
+
+    Mean             1            1         1            1             1          1         6
+
+     STD             0            0         0            0             0          0         0
+
+
+
+
+                                                                                                   22
+                                    APPENDIX D
+An overview of results for task 2
+  Participant   jurək      melək    werək   kerək   Deləft   kaləfje   Total
+
+      1          1           1       1       1        1        1        6
+
+      2          1           1       1       1        1        1        6
+
+      3          1           1       1       1        1        1        6
+
+      4          1           1       1       1        1        1        6
+
+      5          1           1       1       1        1        1        6
+
+      6          1           1       1       1        1        1        6
+
+      9          1           1       1       1        1        1        6
+
+      10         1           1       1       1        1        1        6
+
+      13         1           1       1       1        1        1        6
+
+      17         1           1       1       1        1        1        6
+
+      18         1           1       1       1        1        1        6
+
+      20         1           1       1       1        1        1        6
+
+      25         1           1       1       1        1        1        6
+
+      27         1           1       1       1        1        1        6
+
+      28         1           1       1       1        1        1        6
+
+      29         1           1       1       1        1        1        6
+
+      30         1           1       1       1        1        1        6
+
+      50         1           1       1       1        1        1        6
+
+      51         1           1       1       1        1        1        6
+
+     998         1           1       1       1        1        1        6
+
+
+
+    Mean         1           1       1       1        1        1        6
+
+     STD         0           0       0       0        0        0        0
+
+
+
+
+                                                                               23
+                                              APPENDIX E
+An overview of results for task 3
+                                work vs                   Mark vs
+  Participant   calf vs caləf             milk vs milək             silk vs silək   park vs parək   total
+                                worək                     Marək
+      1              1            1            1            1            1               1           6
+
+      2              1            1            1            1            1               1           6
+
+      3              1            1            1            1            1               1           6
+
+      4              1            1            1            1            1               1           6
+
+      5              1            1            1            1            1               1           6
+
+      6              1            1            1            1            1               1           6
+
+      9              1            1            1            1            1               1           6
+
+      10             1            1            1            1            1               1           6
+
+      13             1            1            1            1            1               1           6
+
+      17             1            1            1            1            1               1           6
+
+      18             1            1            1            1            1               1           6
+
+      20             1            1            1            1            1               1           6
+
+      25             1            1            1            1            1               1           6
+
+      27             1            1            1            1            1               1           6
+
+      28             1            1            1            1            1               1           6
+
+      29             1            1            1            1            1               1           6
+
+      30             1            1            1            1            1               1           6
+
+      50             1            1            1            1            1               1           6
+
+      51             1            1            1            1            1               1           6
+
+     998             1            1            1            1            1               1           6
+
+
+
+    Mean             1            1            1            1            1               1           6
+
+     STD             0            0            0            0            0               0           0
+
+
+
+
+                                                                                                            24
+                                     APPENDIX F
+An overview of results for task 4
+  Participant   caləf      worək    milək   Marək   silək   parək   total
+
+      1          1           1       1        1      1       1       6
+
+      2          1           1       1        1      1       1       6
+
+      3          1           1       1        1      1       1       6
+
+      4          1           1       1        1      1       1       6
+
+      5          1           1       1        1      1       1       6
+
+      6          1           1       1        1      1       1       6
+
+      9          1           1       1        1      1       1       6
+
+      10         1           1       1        1      1       1       6
+
+      13         1           1       1        1      1       1       6
+
+      17         1           1       1        1      1       1       6
+
+      18         1           1       1        1      1       1       6
+
+      20         1           1       1        1      1       1       6
+
+      25         1           1       1        1      1       1       6
+
+      27         1           1       1        1      1       1       6
+
+      28         1           1       1        1      1       1       6
+
+      29         1           1       1        1      1       1       6
+
+      30         1           1       1        1      1       1       6
+
+      50         1           1       1        1      1       1       6
+
+      51         1           1       1        1      1       1       6
+
+     998         1           1       1        1      1       1       6
+
+
+
+    Mean         1           1       1        1      1       1       6
+
+     STD         0           0       0        0      0       0       0
+
+
+
+
+                                                                            25
+                                       APPENDIX G
+An overview of the indication given by participants on their exposure to spoken English
+                   Participant                     English exposure 1 = high exposure, 5 = low exposure
+
+                       1                                                    1
+
+                       2                                                    1
+
+                       3                                                    1
+
+                       4                                                    1
+
+                       5                                                    1
+
+                       6                                                    1
+
+                       9                                                    1
+
+                       10                                                   1
+
+                       13                                                   1
+
+                       17                                                   1
+
+                       18                                                   1
+
+                       20                                                   1
+
+                       25                                                   1
+
+                       27                                                   1
+
+                       28                                                   2
+
+                       29                                                   1
+
+                       30                                                   1
+
+                       50                                                   1
+
+                       51                                                   1
+
+                      998                                                   1
+
+
+
+                     Mean                                             1,052631579
+
+                      STD                                             0,229415734
+
+
+
+
+                                                                                                          26
+

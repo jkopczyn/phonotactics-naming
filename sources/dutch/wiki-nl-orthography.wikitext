@@ -1,0 +1,874 @@
+{{Short description|Spelling and punctuation of the Dutch language}}
+{{more citations needed|date=November 2020}}
+{{Dutch Grammar}}
+
+'''Dutch orthography''' uses the [[Latin alphabet]]. The spelling system is issued by government decree and is compulsory for all government documentation and educational establishments.
+
+==Legal basis==
+In the [[Netherlands]], the official spelling is regulated by the Spelling Act of 15 September 2005.<ref>{{Cite web |last=Koninkrijksrelaties |first=Ministerie van Binnenlandse Zaken en |title=Spellingwet |url=https://wetten.overheid.nl/BWBR0018784/2010-10-10 |access-date=2022-11-14 |website=wetten.overheid.nl |language=nl}}</ref> This came into force on 22 February 2006, replacing the Act on the Spelling of the Dutch Language of 14 February 1947.<ref>{{Cite web |last=Koninkrijksrelaties |first=Ministerie van Binnenlandse Zaken en |title=Wet voorschriften schrijfwijze Nederlandsche taal |url=https://wetten.overheid.nl/BWBR0002027/1997-02-21 |access-date=2022-11-14 |website=wetten.overheid.nl |language=nl}}</ref>
+
+The Spelling Act gives the Committee of Ministers of the Dutch Language Union the authority to determine the spelling of Dutch by ministerial decision. In addition, the law requires that this spelling be followed "at the governmental bodies, at educational institutions funded from the public purse, as well as at the exams for which legal requirements have been established". In other cases, it is recommended, but it is not mandatory to follow the official spelling.
+
+The Decree on the Spelling Regulations of 2005–2006 contains the annexed spelling rules decided by the Committee of Ministers on 25 April 2005.<ref>{{Cite web |last=Koninkrijksrelaties |first=Ministerie van Binnenlandse Zaken en |title=Besluit bekendmaking spellingvoorschriften 2005 |url=https://wetten.overheid.nl/BWBR0019422/2006-05-01 |access-date=2022-11-14 |website=wetten.overheid.nl |language=nl}}</ref> This decree entered into force on 1 August 2006, replacing the Spelling Decree of 19 June 1996.<ref>{{Cite web |last=Koninkrijksrelaties |first=Ministerie van Binnenlandse Zaken en |title=Spellingbesluit |url=https://wetten.overheid.nl/BWBR0008116/1996-08-01 |access-date=2022-11-14 |website=wetten.overheid.nl |language=nl}}</ref>
+
+In [[Flanders]], the same spelling rules are currently applied by the Decree of the [[Flemish Government]] Establishing the Rules of the Official Spelling and Grammar of the Dutch language of 30 June 2006.<ref>{{Cite web |title=Moniteur Belge - Belgisch Staatsblad |url=http://www.ejustice.just.fgov.be/eli/besluit/2006/06/30/2009036011/staatsblad |access-date=2022-11-14 |website=www.ejustice.just.fgov.be}}</ref>
+
+==Alphabet==
+[[File:Dutch alphabet (1560).gif|thumb|The Dutch alphabet in 1560, still including the [[long s]]]]
+The modern Dutch alphabet, used for the [[Dutch language]], consists of the 26 letters of the [[ISO basic Latin alphabet]]. Depending on how {{vr|y}} is used, six (or five) letters are [[vowel]]s and 20 (or 21) letters are [[consonant]]s. In some aspects, the [[Digraph (orthography)|digraph]] ''[[IJ (digraph)|{{vr|ij}}]]'' behaves as a single letter. {{vr|e}} is the most frequently used letter in the Dutch alphabet, as [[English letter frequency|it is in English]]. The least frequently used letters are {{vr|q}} and {{vr|x}}, similar to English.
+
+[[File:Comparison of normal and italic of ij and ÿ.svg|thumb|{{vr|[[i]]}} and {{vr|[[j]]}} together (1), the digraph [[IJ (digraph)|{{vr|ij}}]] (2) and {{vr|[[y]]}} (4) can all be found in Dutch words; only {{vr|ÿ}} (3) is not used in Dutch.]]
+{| class="wikitable"
+! Letter || Letter name || Spelling alphabet<ref>The [[NATO phonetic alphabet]] is also used, and sometimes the two are even mixed.</ref>
+|-
+| [[A]] || {{IPA|/aː/}} || '''A'''nton
+|-
+| [[B]] || {{IPA|/beː/}} || '''B'''ernhard
+|-
+| [[C]] || {{IPA|/seː/}} || '''C'''ornelis
+|-
+| [[D]] || {{IPA|/deː/}} || '''D'''irk
+|-
+| [[E]] || {{IPA|/eː/}} || '''E'''duard
+|-
+| [[F]] || {{IPA|/ɛf/}} || '''F'''erdinand
+|-
+| [[G]] || {{IPA|/ɣeː/}} || '''G'''erard
+|-
+| [[H]] || {{IPA|/ɦaː/}} || '''H'''endrik
+|-
+| [[I]] || {{IPA|/i/}} || '''I'''zaak
+|-
+| [[J]] || {{IPA|/jeː/}} || '''J'''ohan/'''J'''acob
+|-
+| [[K]] || {{IPA|/kaː/}} || '''K'''arel
+|-
+| [[L]] || {{IPA|/ɛl/}} || '''L'''odewijk/'''L'''eo
+|-
+| [[M]] || {{IPA|/ɛm/}} || '''M'''aria
+|-
+| [[N]] || {{IPA|/ɛn/}} || '''N'''ico
+|-
+| [[O]] || {{IPA|/oː/}} || '''O'''tto
+|-
+| [[P]] || {{IPA|/peː/}} || '''P'''ieter
+|-
+| [[Q]]<ref name="loan">{{vr|q}}, {{vr|x}}, and {{vr|y}} occur mostly in [[loanwords]], but they may also appear in words and names that reflect older spelling conventions. {{vr|q}} is almost always followed by {{vr|u}} (that is, {{vr|qu}}) because nearly every word with a {{vr|qu}} is borrowed from [[French language|French]] or [[Latin]].</ref> || {{IPA|/ky/}} || '''Q'''uirinus/'''Q'''uinten
+|-
+| [[R]] || {{IPA|/ɛr/}} || '''R'''ichard/'''R'''udolf
+|-
+| [[S]] || {{IPA|/ɛs/}} || '''S'''imon
+|-
+| [[T]] || {{IPA|/teː/}} || '''T'''heodoor
+|-
+| [[U]] || {{IPA|/y/}} || '''U'''trecht
+|-
+| [[V]] || {{IPA|/veː/}} || '''V'''ictor
+|-
+| [[W]] || {{IPA|/ʋeː/}} || '''W'''illem
+|-
+| [[X]]<ref name="loan"/> || {{IPA|/ɪks/}} || '''X'''antippe
+|-
+| [[IJ (digraph)|IJ]]<ref>The [[IJ (digraph)|digraph ''IJ'']] behaves like a separate letter for capitalisation. In alphabetical order, {{vr|ij}} may not be distinguished from {{vr|y}} (usual for telephone directories), or it may come between {{vr|ii}} and {{vr|ik}} (which is common in dictionaries). In Dutch [[primary education]] the (more common) digraph {{vr|ij}} often replaces the (less common) {{vr|y}} as the 25th letter of the alphabet.</ref> || {{IPA|/ɛi̯/}} || '''''IJ'''muiden/'''IJ'''sbrand''
+|-
+| [[Y]]<ref name="loan" /> || {{IPA|/ɛi̯/}}<ref>Normally, {{vr|y}} is generally called {{IPA|/ɛi̯/}}. However, when it is used in common speech and/or the need arises to distinguish the letter from {{vr|[[IJ (digraph)|ij]]}}, it is most often referred to as {{lang|nl|Griekse ij}} (sometimes written {{vr|Griekse Y}} [http://www.meertens.knaw.nl/nfd/component.php?act=detail&naam=ij-y])('Greek Y'); ''i-grec'', a [[French language|French]] word having a similar meaning; or ''[[ypsilon]]''.</ref>|| '''Y'''psilon
+|-
+| [[Z]] || {{IPA|/zɛt/}} || '''Z'''acharias
+|}
+
+==Sound to spelling correspondences==
+Dutch uses the following letters and letter combinations. For simplicity, dialectal variation and subphonemic distinctions are not always indicated. See [[Dutch phonology]] for more information.
+
+The following list shows letters and combinations, along with their pronunciations, found in modern native or nativised vocabulary:
+
+{|
+| style="vertical-align: top" |
+{| class="wikitable"
+|+ [[Consonant]]s
+! rowspan="2" | spelling ||colspan="2"| [[International Phonetic Alphabet|IPA]]
+|-
+! normally || final
+|-
+| '''b'''
+| {{IPA|/[[Voiced bilabial plosive|b]]/}}|| {{IPA|/p/}}
+|-
+| '''ch'''
+| colspan="2" | {{IPA|/x/}}
+|-
+| '''d'''
+| {{IPA|/d/}} || {{IPA|/t/}}
+|-
+| '''f'''
+| colspan="2" | {{IPA|/f/}}
+|-
+| '''g'''
+| {{IPA|/[[Voiced velar fricative|ɣ]]/}} || {{IPA|/x/}}
+|-
+| '''h'''
+| {{IPA|/[[Voiced glottal fricative|ɦ]]/}} || &mdash;
+|-
+| '''j'''
+| {{IPA|/j/}} || &mdash;
+|-
+| '''k'''
+| colspan="2" | {{IPA|/k/}}
+|-
+| '''l'''
+| colspan="2" | {{IPA|/l/}}
+|-
+| '''m'''
+| colspan="2" | {{IPA|/m/}}
+|-
+| '''n'''
+| colspan="2" | {{IPA|/n/}}
+|-
+| '''ng'''
+| colspan="2" | {{IPA|/ŋ/}}
+|-
+| '''p'''
+| colspan="2" | {{IPA|/p/}}
+|-
+| '''r'''
+| colspan="2" | {{IPA|/r/}}
+|-
+| '''s'''
+| colspan="2" | {{IPA|/s/}}
+|-
+| '''sch'''
+| {{IPA|/sx/}}, {{IPA|/s/}}<ref name="sch"/> || {{IPA|/s/}}<ref name="sch">Used only in the suffix {{lang|nl|-isch(e)}} {{IPA|/is(ə)/}}.</ref>
+|-
+| '''t'''
+| colspan="2" | {{IPA|/t/}}
+|-
+| '''th'''
+| {{IPA|/t/}}<ref>In words like {{lang|nl|thans, thee, thuis}}.</ref> || &mdash;
+|-
+| '''v'''
+| {{IPA|/v/}} || &mdash;
+|-
+| '''w'''
+| {{IPA|/[[Labiodental approximant|ʋ]]/}} || &mdash;
+|-
+| '''z'''
+| {{IPA|/z/}} || &mdash;
+|-
+|}
+| style="vertical-align: top" |
+{| class="wikitable"
+|+ [[Vowel]]s&nbsp;and&nbsp;[[diphthong]]s
+! rowspan="2" | spelling || colspan="3" | [[International Phonetic Alphabet|IPA]]
+|-
+! checked 
+!unstressed|| free
+|-
+| '''a'''
+| {{IPA|/ɑ/}} 
+| || {{IPA|/aː/}}
+|-
+| '''aa'''
+| {{IPA|/aː/}} 
+| || &mdash;
+|-
+| '''aai'''
+| colspan="3" | {{IPA|/aːi̯/}}
+|-
+| '''ai'''
+| colspan="3" | {{IPA|/ɑi̯/}}
+|-
+| '''au(w)'''
+| colspan="3" | {{IPA|/ɔu̯/}}
+|-
+| '''e'''
+| {{IPA|/ɛ/}}
+| {{IPA|/ə/}}<ref name="unstressed">{{vr|e}} and {{vr|i}}, when unstressed, are sometimes pronounced {{IPA|/ə/}}.</ref>|| {{IPA|/eː/}}
+|-
+| '''ee'''
+| {{IPA|/eː/}}
+| {{IPA|/ə/}} <ref name="een">{{vr|ee}} is pronounced {{IPA|/ə/}} in {{lang|nl|een}}.</ref>|| {{IPA|/eː/}}
+|-
+| '''eeu(w)'''
+| colspan="3" | {{IPA|/eːu̯/}}
+|-
+| '''ei'''
+| colspan="3" | {{IPA|/ɛi̯/}}
+|-
+| '''eu'''
+| colspan="3" | {{IPA|/øː/}}
+|-
+| '''i'''
+| {{IPA|/ɪ/}}
+| {{IPA|/ə/}}<ref name="unstressed"/> || {{IPA|/i(ː)/}}
+|-
+| '''ie'''
+| colspan="3" | {{IPA|/i(ː)/}}
+|-
+| '''ieu(w)'''
+| colspan="3" | {{IPA|/iu̯/}}
+|-
+| '''ij'''
+| {{IPA|/ɛi̯/}}
+| {{IPA|/i(ː)/}}, {{IPA|/ə/}}<ref>{{vr|ij}} is normally {{IPA|/ɛi̯/}}. It is exceptionally {{IPA|/i(ː)/}} in the word {{lang|nl|bijzonder}} and {{IPA|/ə/}} in the suffix {{lang|nl|-lijk}}.</ref>
+|
+|-
+| '''o'''
+| {{IPA|/ɔ/}} 
+| || {{IPA|/oː/}}
+|-
+| '''oe'''
+| colspan="3" | {{IPA|/u(ː)/}}
+|-
+| '''oei'''
+| colspan="3" | {{IPA|/ui̯/}}
+|-
+| '''oi'''
+| colspan="3" | {{IPA|/ɔi̯/}}
+|-
+| '''oo'''
+| {{IPA|/oː/}} 
+| || &mdash;
+|-
+| '''ooi'''
+| colspan="3" | {{IPA|/oːi̯/}}
+|-
+| '''ou(w)'''
+| colspan="3" | {{IPA|/ɔu̯/}}
+|-
+| '''u'''
+| {{IPA|/ʏ/}} 
+| || {{IPA|/y(ː)/}}
+|-
+| '''ui'''
+| colspan="3" | {{IPA|/œy̯/}}
+|-
+| '''uu'''
+| {{IPA|/y(ː)/}}
+| || &mdash;
+|-
+| '''uw'''
+| colspan="3" | {{IPA|/yu̯/}}
+|}
+|}
+
+The following additional letters and pronunciations appear in non-native vocabulary or words using older, obsolete spellings (often conserved in proper names):
+
+{|
+| style="vertical-align: top" |
+{| class="wikitable"
+|+ [[Consonant]]s
+! rowspan="2" | spelling ||colspan="2"| [[International Phonetic Alphabet|IPA]]
+|-
+! normally || final
+|-
+| '''c'''
+| {{IPA|/s/}}, {{IPA|/k/}}, {{IPA|/tʃ/}}<ref name="c">{{vr|c}} before {{vr|e}}, {{vr|i}}, {{vr|y}}, is pronounced {{IPA|/s/}} (or {{IPA|/tʃ/}} in some loanwords from Italian) and {{IPA|/k/}} otherwise.</ref> || {{IPA|/k/}}
+|-
+| '''ç'''
+| {{IPA|/s/}}<ref>The [[cedilla]] is used to indicate pronunciation as {{IPA|/s/}} when {{vr|c}} is followed by {{vr|a}}, {{vr|o}} or {{vr|u}}.</ref> || &mdash;
+|-
+| '''ck'''
+| colspan="2" | {{IPA|/k/}}
+|-
+| '''ch'''
+| {{IPA|/ʃ/}}, {{IPA|/tʃ/}}, {{IPA|/k/}}<ref name="ch">{{vr|ch}} is pronounced {{IPA|/k/}} in Italian loanwords, {{IPA|/ʃ/}}, {{IPA|/tʃ/}} in loanwords from other sources.</ref> || &mdash;
+|-
+| '''g'''
+| {{IPA|/ʒ/}}, {{IPA|/dʒ/}}, {{IPA|/ɡ/}}<ref name="g"/> || {{IPA|/k/}}<ref name="g">{{vr|g}} may be pronounced {{IPA|/ʒ/}} or {{IPA|/dʒ/}} before {{vr|e}} {{vr|i}} or {{vr|y}} in words of Romance or English origin.</ref>
+|-
+| '''gh'''
+| {{IPA|/ɣ/}}, {{IPA|/x/}} || {{IPA|/x/}}
+|-
+| '''gch'''
+| {{IPA|/x/}} || &mdash;
+|-
+| '''(i)ll'''
+| colspan="2" | {{IPA|/j/}}<ref>{{vr|(i)ll}} is found in words from French or occasionally Spanish.</ref>
+|-
+| '''j'''
+| {{IPA|/ʒ/}}, {{IPA|/dʒ/}}, {{IPA|/x/}}<ref name="j"/> || {{IPA|/ʃ/}}, {{IPA|/x/}} <ref name="j">{{vr|j}} is pronounced {{IPA|/x/}} in Spanish loanwords, as a postalveolar in loanwords from other sources.</ref>
+|-
+| '''ñ'''
+| {{IPA|/nj/}}<ref>{{vr|ñ}} occurs only in a few Spanish loanwords.</ref> || &mdash;
+|-
+| '''ph'''
+| colspan="2" | {{IPA|/f/}}<ref name="ph">Used only in some proper names like ''[[Zutphen]]''. Words of Greek origin are written with {{vr|f}} but formerly with {{vr|ph}}.</ref>
+|-
+| '''q'''
+| colspan="2" | {{IPA|/k/}}<ref name="q">In the rare cases when {{vr|q}} is ''not'' followed by {{vr|u}}, it is pronounced {{IPA|/k/}}. In those cases, {{vr|q}} is most likely a result of [[transliteration]] from languages such as [[Arabic language|Arabic]].</ref>
+|-
+| '''qu'''
+| colspan="2" | {{IPA|/kʋ/}}, {{IPA|/k/}}<ref name="qu">{{vr|qu}} is normally pronounced {{IPA|/kʋ/}} but as {{IPA|/k/}} before {{vr|e}} or {{vr|i}} in loanwords from French or Spanish.</ref>
+|-
+| '''s'''
+| {{IPA|/z/}}<ref name="s">{{vr|s}} may be pronounced {{IPA|/z/}} before a vowel in words of foreign origin.</ref> || &mdash;
+|-
+| '''sch'''
+| {{IPA|/ʃ/}}<ref name="sch2"/> || {{IPA|/ʃ/}}, {{IPA|/s/}}<ref name="sch2">{{IPA|/ʃ/}} is used mostly in words of German origin. It is also {{IPA|/s/}} finally in older Dutch spellings, which are now spelled with just {{vr|s}}</ref>
+|-
+| '''sh'''
+| colspan="2" | {{IPA|/ʃ/}}
+|-
+| '''sj'''
+| colspan="2" | {{IPA|/ʃ/}}<ref name="(t)sj">{{IPA|/ʃ/}} and {{IPA|/tʃ/}} occur as independent phonemes only in words of foreign origin. The sounds are approximated using the "native" spellings {{vr|sj}} and {{vr|tsj}} respectively.</ref>
+|-
+| '''sz'''
+| — || {{IPA|/s/}}<ref name="sz">Used in some proper names such as ''[[Lambert Jacobsz|Jacobsz]]'', as a contraction of {{lang|nl|-s zoon}} (...'s son).</ref>
+|-
+| '''ti(e)'''
+| {{IPA|/(t)si/}}<ref name="ti">{{vr|ti}} followed by a vowel is pronounced {{IPA|/(t)si/}} in loanwords of Latin origin.</ref> || &mdash;
+|-
+| '''th'''
+| {{IPA|/t/}}, {{IPA|/d/}}<ref name="th"/> || {{IPA|/t/}}<ref name="th">{{vr|th}} is {{IPA|/t/}} in words of Greek origin. In English loanwords, it is most often approximated with {{IPA|/t/}} or {{IPA|/d/}} according to the English pronunciation, or speakers may attempt to pronounce dental fricatives, as in English.</ref>
+|-
+| '''tsj'''
+| colspan="2" | {{IPA|/tʃ/}}<ref name="(t)sj"/>
+|-
+| '''x'''
+| {{IPA|/ks/}}, {{IPA|/ɡz/}}<ref name="x">{{vr|x}} is sometimes pronounced {{IPA|/ɡz/}} between vowels, usually in southern dialects.</ref> || {{IPA|/ks/}}
+|-
+| '''y'''
+| colspan="2" | {{IPA|/j/}}
+|-
+| '''z'''
+| colspan="2" | {{IPA|/ts/}}, {{IPA|/dz/}}<ref>{{vr|z}} is {{IPA|/ts/}} in words of German or Italian origin. In Italian words, it may also be {{IPA|/dz/}} between vowels.</ref>
+|-
+|}
+| style="vertical-align: top" |
+{| class="wikitable"
+|+ [[Vowel]]s&nbsp;and&nbsp;[[diphthong]]s
+! rowspan="2" | spelling || colspan="2" | [[International Phonetic Alphabet|IPA]]
+|-
+! checked || free
+|-
+| '''aaij''', '''aay''', '''aij''', '''ay'''
+| colspan="2" | {{IPA|/aːi̯/}}<ref name="ij-y">In diphthongs, {{vr|ij}} and {{vr|y}} are obsolete spellings for {{vr|i}}. They are found mostly in names.</ref>
+|-
+| '''aauw'''
+| colspan="2" | {{IPA|/ɔu̯/}}
+|-
+| '''ae'''
+| colspan="2" | {{IPA|/aː/}}, {{IPA|/eː/}}<ref name="ae">{{vr|ae}} is an obsolete spelling for {{vr|aa}}. In Latin words, it is treated identical to {{angbr|ee}}.</ref>
+|-
+| '''aei''', '''aeij''', '''aey'''
+| colspan="2" | {{IPA|/aːi̯/}}<ref name="ij-y"/><ref name="ae"/>
+|-
+| '''ai'''
+| colspan="2" | {{IPA|/ɛː/}}
+|-
+| '''au(x)''', '''eau(x)'''
+| colspan="2" | {{IPA|/oː/}}<ref name="au">In words of French origin.</ref>
+|-
+| '''è''', '''ê'''
+| colspan="2" | {{IPA|/ɛ/}}, {{IPA|/ɛː/}}
+|-
+| '''é'''
+| colspan="2" | {{IPA|/eː/}}, {{IPA|/ei̯/}}
+|-
+| '''eij''', '''ey'''
+| colspan="2" | {{IPA|/ɛi̯/}}<ref name="ij-y"/>
+|-
+| '''eu'''
+| colspan="2" | {{IPA|/œː/}}, {{IPA|/œy̯/}}<ref name="eu">{{vr|eu}} is pronounced as {{IPA|/œy̯/}} by some speakers in words of Greek origin.</ref>
+|-
+| '''o''', '''ô'''
+| {{IPA|/ɔː/}} || &mdash;
+|-
+| '''oeij''', '''oey'''
+| colspan="2" | {{IPA|/ui̯/}}<ref name="ij-y"/>
+|-
+| '''oi'''
+| colspan="2" | {{IPA|/ʋɑ/}}, {{IPA|/ʋaː/}}, {{IPA|/oː/}}<ref name="oi">{{vr|oi}} is pronounced {{IPA|/ʋɑ/}} or {{IPA|/ʋaː/}} in French loanwords. In archaic Dutch spellings, mostly proper nouns, it may also be {{IPA|/oː/}} (for example, [[Oisterwijk]] or [[Helvoirt]]).</ref>
+|-
+| '''oo'''
+| colspan="2" | {{IPA|/u(ː)/}}<ref>{{angbr|oo}} is generally {{IPA|/u(ː)/}} in English loanwords.</ref>
+|-
+| '''ooij''', '''ooy''', '''oij''', '''oy'''
+| colspan="2" | {{IPA|/oːi̯/}}<ref name="ij-y"/>
+|-
+| '''ou'''
+| colspan="2" | {{IPA|/u(ː)/}}<ref>{{vr|ou}} is generally {{IPA|/u(ː)/}} in loanwords from French or Greek.</ref>
+|-
+| '''u'''
+| colspan="2" | {{IPA|/u(ː)/}}
+|-
+| '''ui'''
+| colspan="2" | {{IPA|/ʋi(ː)/}}, {{IPA|/uː/}}<ref>{{vr|ui}} is pronounced {{IPA|/ʋi(ː)/}} in loanwords from French. In English loanwords, such as ''cruise'', it is {{IPA|/uː/}}.</ref>
+|-
+| '''uij''', '''uy'''
+| colspan="2" | {{IPA|/œy̯/}}<ref name="ij-y"/>
+|-
+| '''y'''
+| colspan="2" | {{IPA|/i/}}, {{IPA|/ɪ/}}, {{IPA|/ɛi̯/}}<ref name="y">{{vr|y}} is usually pronounced as {{vr|i}} or {{vr|ie}}. It is also an obsolete spelling variant of {{vr|ij}}.</ref>
+|}
+|}
+
+
+=== Vowels groups ===
+
+{| class="wikitable"
+|+ [[Vowel]]s&nbsp;and&nbsp;[[diphthong]]s
+!
+! colspan="3" |a
+! colspan="4" |e
+! colspan="2" |ø
+! colspan="3" |i
+! colspan="4" |o
+!oe
+! colspan="3" |u
+|-
+! rowspan="2" |-
+| colspan="2" |a
+|aa
+| colspan="3" |e
+|ee
+| -
+|eu
+| colspan="2" |i
+|ie
+| colspan="3" |o
+|oo
+|oe
+| colspan="2" |u
+|uu
+|-
+|{{IPA|/ɑ/}}
+|{{IPA|/aː/}}
+|{{IPA|/aː/}}
+| colspan="2" |{{IPA|/ɛ/}}
+|{{IPA|/eː/}}
+|{{IPA|/eː/}}
+| -
+|/øː/
+|/ɪ/
+|{{IPA|/i(ː)/}}
+|{{IPA|/i(ː)/}}
+| colspan="2" |{{IPA|/ɔ/}}
+|/oː/
+|/oː/
+|/u(ː)/
+|/ʏ/
+|/y(ː)/
+|/y(ː)/
+|-
+! rowspan="2" |/i̯/
+|ai
+| -
+|aai
+|ei
+|ij
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| colspan="2" |oi
+| -
+|ooi
+|oei
+| -
+| -
+| -
+|-
+|{{IPA|/ɑi̯/}}
+| -
+|{{IPA|/aːi̯/}}
+|/ɛi̯/
+|{{IPA|/ɛi̯/}}
+| -
+| -
+| -
+| -
+| -
+| -
+| -
+| colspan="2" |/ɔi̯/
+| -
+|/oːi̯/
+|/ui̯/
+| -
+| -
+| -
+|-
+! rowspan="2" |/u̯/
+| -
+| -
+| -
+| -
+| -
+| -
+|eeu(w)
+| -
+| -
+| -
+| -
+|ieu(w)
+|ou(w)
+|au(w)
+| -
+| -
+| -
+| -
+|uw
+| -
+|-
+| -
+| -
+| -
+| -
+| -
+| -
+|{{IPA|/eːu̯/}}
+| -
+| -
+| -
+| -
+|{{IPA|/iu̯/}}
+|/ɔu̯/
+|/ɔu̯/
+| -
+| -
+| -
+| -
+|/yu̯/
+| -
+|-
+! rowspan="2" |/y̯/
+| colspan="7" | -
+|ui
+| colspan="12" | -
+|-
+| colspan="7" | -
+|/œy̯/
+| colspan="12" | -
+|}
+==Loanwords==
+{{Unreferenced section|date=March 2020}}
+[[Loanwords]] often keep their original spellings: {{lang|fr|cadeau}} {{IPA|/kaːˈdoː/}} 'gift' (from French) (this word is also informally written {{lang|nl|kado}}, but this spelling is not recognized by the [[Word list of the Dutch language|standard spelling dictionary]]). {{vr|c, qu, x, y}} are sometimes adapted to {{vr|k, kw, ks, i}}, but {{vr|c, x, y}} (and rarely {{vr|qu}}) are usually retained. Greek letters {{vr|φ, ῥ}} become {{vr|f, r}}, not {{vr|ph, rh}}, but {{vr|θ}} usually becomes {{vr|th}} (except before a consonant, after {{vr|f, ch}} and word finally). -{{vr|eon, ion, yon}}- in French loanwords are written with a single {{vr|n}} ({{lang|nl|mayonaise}}) except when a [[schwa]] follows ({{lang|nl|stationnement}}).
+
+==Vowel length==
+{{Unreferenced section|date=March 2020}}
+Vowel length is always indicated but in different ways by using an intricate system of single and double letters.
+
+===Historical overview===
+[[Old Dutch]] possessed phonemic consonant length in addition to phonemic vowel length, with no correspondence between them. Thus, long vowels could appear in closed syllables, and short vowels could occur in open syllables. In the transition to early [[Middle Dutch]], short vowels were lengthened when they stood in open syllables. Short vowels could now occur only in closed syllables. Consonants could still be long in pronunciation and acted to close the preceding syllable. Therefore, any short vowel that was followed by a long consonant remained short.
+
+The spelling system used by early Middle Dutch scribes accounted for that by indicating the vowel length only when it was necessary (sometimes by doubling the vowel but also in other ways). As the length was implicit in open syllables, it was not indicated there, and only a single vowel was written. Long consonants were indicated usually by doubling the consonant letter, which meant that a short vowel was always followed by at least two consonant letters or by just one consonant at the end of a word.
+
+Later in Middle Dutch, the distinction between short and long consonants started to disappear. That made it possible for short vowels to appear in open syllables once again. Because there was no longer a phonetic distinction between single and double consonants (they were both pronounced short now), Dutch writers started to use double consonants to indicate that the preceding vowel was short even when the consonant had not been long in the past. That eventually led to the modern Dutch spelling system.
+
+===Checked and free vowels===
+Modern Dutch spelling still retains many of the details of the late Middle Dutch system. The distinction between [[checked and free vowels]] is important in Dutch spelling. A checked vowel is one that is followed by a consonant in the same syllable (the syllable is closed) while a free vowel ends the syllable (the syllable is open). This distinction can apply to pronunciation or spelling independently, but a syllable that is checked in pronunciation will always be checked in spelling as well (except in some unassimilated loanwords).
+
+* Checked in neither: {{lang|nl|'''la'''-ten}} {{IPA|/ˈlaː.tə(n)/}} ("to leave", "to let")
+* Checked in spelling only: {{lang|nl|'''lat'''-ten}} {{IPA|/ˈlɑ.tə(n)/}} ("laths")
+* Checked in both: {{lang|nl|lat}} {{IPA|/lɑt/}} ("lath"), {{lang|nl|'''lat'''-je}} {{IPA|/ˈlɑt.jə/}} ("little lath")
+
+A single vowel that is checked in '''neither''' is always long/tense. A vowel that is checked in '''both''' is always short/lax. The following table shows the pronunciation of the same three-letter sequence in different situations, with hyphens indicating the syllable divisions in the written form, and the IPA period to indicate them in the spoken form:
+
+{| class="wikitable"
+|+ Pronunciation of checked and free single vowels
+! rowspan="2" | Letter
+! colspan="2" | Free in both
+! colspan="3" | Checked in both
+|-
+! Pronunciation
+! Example<br/>Multiple syllables
+! Pronunciation
+! Example<br/>One syllable
+! Example<br/>Multiple syllables
+|-
+! a
+| style="text-align: center" | {{IPA|aː}}
+| {{lang|nl|ra-men}} {{IPA|/ˈraː.mə(n)/}} ("windows, to estimate")
+| style="text-align: center" | {{IPA|ɑ}}
+| {{lang|nl|ram}} {{IPA|/rɑm/}} ("ram")
+| {{lang|nl|ram-pen}} {{IPA|/ˈrɑm.pə(n)/}} ("disasters")
+|-
+! style="text-align: center" | e
+| style="text-align: center" | {{IPA|eː}}
+| {{lang|nl|te-len}} {{IPA|/ˈteː.lə(n)/}} ("to cultivate")
+| style="text-align: center" | {{IPA|ɛ}}
+| {{lang|nl|tel}} {{IPA|/tɛl/}} ("count")
+| {{lang|nl|tel-den}} {{IPA|/ˈtɛl.də(n)/}} ("counted")
+|-
+! style="text-align: center" | i
+| style="text-align: center" | {{IPA|i(ː)}}
+| {{lang|nl|Ti-ne}} {{IPA|/ˈti.nə/}} (a name)
+| style="text-align: center" | {{IPA|ɪ}}
+| {{lang|nl|tin}} {{IPA|/tɪn/}} ("tin")
+| {{lang|nl|tin-ten}} {{IPA|/ˈtɪn.tə(n)/}} ("tints")
+|-
+! style="text-align: center" | o
+| style="text-align: center" | {{IPA|oː}}
+| {{lang|nl|ko-per}} {{IPA|/ˈkoː.pər/}} ("copper, buyer")
+| style="text-align: center" | {{IPA|ɔ}}
+| {{lang|nl|kop}} {{IPA|/kɔp/}} ("cup, head")
+| {{lang|nl|kop-te}} {{IPA|/ˈkɔp.tə/}} ("headed [a ball]")
+|-
+! style="text-align: center" | u
+| style="text-align: center" | {{IPA|y(ː)}}
+| {{lang|nl|Lu-kas}} {{IPA|/ˈly.kɑs/}} (a name)
+| style="text-align: center" | {{IPA|ʏ}}
+| {{lang|nl|buk}} {{IPA|/bʏk/}} ("bow" [verb])
+| {{lang|nl|buk-te}} {{IPA|/bʏk.tə/}} ("bowed")
+|}
+
+Free {{vr|i}} is fairly rare and is mostly confined to loanwords and names, since in native words /i(ː)/ is usually written as {{vr|ie}}. As tense {{IPA|/y/}} is rare except before {{IPA|/r/}}, free {{vr|u}} is likewise rare except before {{vr|r}}.
+
+The same rule applies to word-final vowels, which are always long because they are not followed by any consonant (but see below on {{vr|e}}). Short vowels, not followed by any consonant, do not normally exist in Dutch, and there is no normal way to indicate them in the spelling.
+
+===Double vowels and consonants===
+When a vowel is short/lax but is free in pronunciation, the spelling is made checked by doubling the following consonant, so that the vowel is kept short according to the default rules. That has no effect on pronunciation, as modern Dutch does not have long consonants:
+* ''ram-men'' {{IPA|/ˈrɑ.mə(n)/}} ("rams, to ram")
+* ''tel-len'' {{IPA|/ˈtɛ.lə(n)/}} ("to count")
+* ''tin-nen'' {{IPA|/ˈtɪ.nə(n)/}} ("made of tin")
+* ''kop-pen'' {{IPA|/ˈkɔ.pə(n)/}} ("cups, heads, to head [a ball]")
+* ''luk-ken'' {{IPA|/ˈlʏ.kə(n)/}} ("to succeed")
+
+When a vowel is long/tense but still checked in pronunciation, it is necessarily checked in spelling as well. A change is thus needed to indicate the length, which is done by doubling the vowel. Doubled {{vr|i}} does not occur.
+* {{lang|nl|raam}} {{IPA|/raːm/}} ("window"), ''raam-de'' {{IPA|/ˈraːm.də/}} ("estimated")
+* {{lang|nl|teel}} {{IPA|/teːl/}} ("cultivate"), ''teel-de'' {{IPA|/ˈteːl.də/}} ("cultivated")
+* {{lang|nl|koop}} {{IPA|/koːp/}} ("buy, sale"), ''koop-sel'' {{IPA|/ˈkoːp.səl/}} ("something bought")
+* {{lang|nl|Luuk}} {{IPA|/lyk/}} (a name)
+
+==={{vr|e}}===
+A single {{vr|e}} indicates short and long e but is also used to indicate the neutral schwa sound {{IPA|/ə/}} in unstressed syllables. Because the schwa is always short, {{vr|e}} is never followed by a double consonant when it represents {{IPA|/ə/}}.
+* ''ap-pe-len'' {{IPA|/ˈɑ.pə.lə(n)/}} ("apples")
+* ''ge-ko-men'' {{IPA|/ɣə.ˈkoː.mə(n)/}} ("(has) come")
+* ''kin-de-ren'' {{IPA|/ˈkɪn.də.rə(n)/}} ("children")
+
+A word-final long {{IPA|/eː/}} is written {{vr|ee}} (or {{vr|é}} in some loanwords), as an exception to the normal rules. That means that a word-final single {{vr|e}} will almost always represent a schwa.
+* {{lang|nl|jee}} {{IPA|/jeː/}} (expression of woe), {{lang|nl|je}} {{IPA|/jə/}} ("you")
+* {{lang|nl|mee}} {{IPA|/meː/}} ("along, with"), {{lang|nl|me}} {{IPA|/mə/}} ("me")
+* {{wikt-lang|nl|wee}} {{IPA|/ʋeː/}} ("contraction of the [[womb]]"), {{lang|nl|we}} {{IPA|/ʋə/}} ("[[we]]")
+* Exception: {{wikt-lang|nl|Enschede}} {{IPA|/ɛn.sxə.ˈde/}} (city name; formerly ''Enschedé'')
+
+Because the position of the stress in a polysyllabic word is not indicated in the [[spelling]], that can lead to [[ambiguity]]. Some pairs of words are spelled identically, but {{vr|e}} represents either stressed {{IPA|/ɛ/}} or {{IPA|/eː/}} or unstressed {{IPA|/ə/}}, depending on how the stress is placed.
+* ''be-de-len'' {{IPA|/ˈbeː.də.lə(n)/}} ("to beg") or {{IPA|/bə.ˈdeː.lə(n)/}} ("to impart with, to grant {{clarify|date=June 2020}}")
+* ''ver-gaan-de'' {{IPA|/ˈvɛr.ˌɣaːn.də/}} ("far-going, far-reaching") or {{IPA|/vər.ˈɣaːn.də/}} ("perishing")
+
+===Morphological alternations===
+The length of a vowel generally does not change in the pronunciation of different forms of a word. However, in different forms of a word, a syllable may alternate between checked and free depending on the syllable that follows. The spelling rules nonetheless follow the simplest representation, writing double letters only when necessary. Consequently, some forms of the same word may be written with single letters while others are written with double letters. Such alternations commonly occur between the singular and plural of a noun or between the infinitive and the conjugated forms of verbs. Examples of alternations are shown below. Note that free {{IPA|/i/}} is spelled {{vr|ie}} in native words:
+{| class="wikitable"
+|+ Spelling alternation between free and checked
+! Long/tense<br/>vowel || When free || When checked
+! Short/lax<br/>vowel || When checked || When free
+|-
+! style="text-align: center" | {{IPA|aː}}
+| {{lang|nl|laten}} {{IPA|/ˈlaːtə(n)/}} ("to let") || {{lang|nl|laat}} {{IPA|/laːt/}} ("(I) let")
+! style="text-align: center" | {{IPA|ɑ}}
+| {{lang|nl|lat}} {{IPA|/lɑt/}} ("lat") || {{lang|nl|latten}} {{IPA|/ˈlɑtə(n)/}} ("lats")
+|-
+! style="text-align: center" | {{IPA|eː}}
+| {{lang|nl|leken}} {{IPA|/ˈleːkə(n)/}} ("appeared", plural) || {{lang|nl|leek}} {{IPA|/leːk/}} ("appeared", singular)
+! style="text-align: center" | {{IPA|ɛ}}
+| {{lang|nl|lek}} {{IPA|/lɛk/}} ("(I) leak") || {{lang|nl|lekken}} {{IPA|/ˈlɛkə(n)/}} ("to leak")
+|-
+! style="text-align: center" | i(ː)
+| {{lang|nl|dieven}} {{IPA|/diːvə(n)/}} ("robbers")
+| {{lang|nl|dief}} {{IPA|/diːf/}} ("robber")
+! style="text-align: center" | {{IPA|ɪ}}
+| {{lang|nl|til}} {{IPA|/tɪl/}} ("(I) lift") || {{lang|nl|tillen}} {{IPA|/ˈtɪlə(n)/}} ("to lift")
+|-
+! style="text-align: center" | {{IPA|oː}}
+| {{lang|nl|bonen}} {{IPA|/ˈboːnə(n)/}} ("beans") || {{lang|nl|boon}} {{IPA|/boːn/}} ("bean")
+! style="text-align: center" | {{IPA|ɔ}}
+| {{lang|nl|bon}} {{IPA|/bɔn/}} ("ticket") || {{lang|nl|bonnen}} {{IPA|/ˈbɔnə(n)/}} ("tickets")
+|-
+! style="text-align: center" | {{IPA|y(ː)}}
+| {{lang|nl|muren}} {{IPA|/ˈmyːrə(n)/}} ("walls") || {{lang|nl|muur}} {{IPA|/myːr/}} ("wall")
+! style="text-align: center" | {{IPA|ʏ}}
+| {{lang|nl|mus}} {{IPA|/mʏs/}} ("sparrow") || {{lang|nl|mussen}} {{IPA|/ˈmʏsə(n)/}} ("sparrows")
+|}
+
+There are some irregular nouns that change their vowel from short/lax in the singular to long/tense in the plural. Their spelling does not alternate between single and double letters. However, the sound {{IPA|/ɪ/}} becomes {{IPA|/eː/}} in the plural of such nouns instead of {{IPA|/iː/}}, which is reflected in the spelling.
+* {{lang|nl|dag}} {{IPA|/dɑx/}} ("day"), ''da-gen'' {{IPA|/ˈdaː.ɣə(n)/}} ("days")
+* {{lang|nl|stad}} {{IPA|/stɑt/}} ("city, town"), ''ste-den'' {{IPA|/steːdə(n)/}} ("cities, towns")
+* {{lang|nl|weg}} {{IPA|/ʋɛx/}} ("road, way"), ''we-gen'' {{IPA|/ˈʋeː.ɣə(n)/}} ("roads, ways")
+* {{lang|nl|schip}} {{IPA|/sxɪp/}} ("ship"), ''sche-pen'' {{IPA|/ˈsxeː.pə(n)/}} ("ships")
+* {{lang|nl|lot}} {{IPA|/lɔt/}} ("lottery ticket"), ''lo-ten'' {{IPA|/ˈloː.tə(n)/}} ("lottery tickets")
+
+===Exceptions===
+As a rule, the simplest representation is always chosen. A double vowel is never written in an open syllable, and a double consonant is never written at the end of a word or when next to another consonant. A double vowel is rarely followed by a double consonant, as it could be simplified by writing them both single.
+
+The past tense of verbs may have a double vowel, followed by a double consonant, to distinguish those forms from the present tense.
+* ''ha-ten'' ("hate"), ''haat-ten'' ("hated"), both {{IPA|/ˈɦaː.tə(n)/}}
+* ''ra-den'' ("guess"), ''raad-den'' ("guessed"), both {{IPA|/ˈraː.də(n)/}}
+
+Compounds should be read as if each word were spelled separately, and they may therefore appear to violate the normal rules. That may sometimes cause confusion if the word is not known to be a compound.
+* ''dag-ar-bei-der'' {{IPA|/ˈdɑx.ˌɑr.bɛi.dər/}} or more fluently {{IPA|/ˈdɑ.ˌɣɑr.bɛi.dər/}} ("day labourer"), a compound of {{lang|nl|dag}} ("day") + {{lang|nl|arbeider}} ("labourer") so it is not divided as ''*da-gar-bei-der'' {{IPA|*/ˈdaː.ˌɣɑr.bɛi.dər/}}. If it were not a compound, it would be written ''*dag-gar-bei-der'' to keep the first "a" short.
+* ''een-en-twin-tig'' {{IPA|/ˈeː.nən.ˌtʋɪn.təx/}} ("twenty-one"), a compound of {{lang|nl|een}} ("one") + {{lang|nl|en}} ("and") + {{lang|nl|twintig}} ("twenty"). If it were not a compound, it would be written ''*e-nen-twin-tig'' to avoid having a double vowel at the end of a syllable.
+* ''mee-doen'' {{IPA|/ˈmeː.dun/}} ("to participate"), a compound of {{lang|nl|mee}} ("along (with)") + {{lang|nl|doen}} ("do"). If it were not a compound, it would be written ''*me-doen'' to avoid having a double vowel at the end of a syllable. The word {{lang|nl|mee}} itself has a double vowel because of the exception with final -{{vr|e}}, as noted above.
+
+==Final devoicing and the'' 't&nbsp;kofschip'' rule==
+{{main|Final obstruent devoicing|'t kofschip}}
+{{Unreferenced section|date=March 2020}}
+Final devoicing is not indicated in Dutch spelling; words are usually spelled according to the historically original consonant. Therefore, a word may be written with a letter for a voiced consonant at the end of a word but still be pronounced with a voiceless consonant:
+
+* {{lang|nl|heb}} {{IPA|/ɦɛp/}} "(I) have" but {{lang|nl|hebben}} {{IPA|/ˈɦɛbə(n)/}} "to have"
+* {{lang|nl|paard}} {{IPA|/paːrt/}} "horse" but {{lang|nl|paarden}} {{IPA|/ˈpaːrdə(n)/}} "horses"
+* {{lang|nl|leg}} {{IPA|/lɛx/}} "(I) lay" but {{lang|nl|leggen}} {{IPA|/ˈlɛɣə(n)/}} "to lay"
+
+Weak verbs form their past tense and past participle by addition of a dental, {{vr|d}} or {{vr|t}} depending on the [[voice (phonetics)|voicing]] of the preceding consonant(s) (see [[Assimilation (linguistics)|assimilation]]). However, because final consonants are always devoiced, there is no difference in pronunciation between these in the participle. Nonetheless, in accordance with the above rules, the orthography operates as if the consonant were still voiced. The same dental consonant letter is spelled in the past participle as in the past tense forms in which it is not word-final. To help memorise when to write {{vr|d}} and when {{vr|t}}, Dutch students are taught the rule "{{lang|nl|'t&nbsp;kofschip is met thee beladen}}" ("the merchant ship is loaded with tea"). If the verb stem in the '''infinitive''' ends with one of the consonants of "{{lang|nl|'t&nbsp;kofschip}}" ({{vr|{{wrap|-t, -k, -f, -s, -ch, -p}}}}), the past tense dental is a -{{vr|t}}-; otherwise, it is a -{{vr|d}}-. However, the rule also applies to loanwords ending in -{{vr|c}}, -{{vr|q}} or -{{vr|x}}, as these are also voiceless.
+
+{| class="wikitable" border="1"
+|+Examples
+!Dutch
+!Meaning
+!Dutch sentence
+!English corresponding sentence
+|-
+| {{lang|nl|werken}}
+| to work
+| {{lang|nl|ik werkte}}
+| I worked
+|-
+| {{lang|nl|krabben}}
+| to scratch
+| {{lang|nl|ik krabde}}
+| I scratched
+|}
+
+==={{vr|v}} and {{vr|z}}===
+
+{{vr|v}} and {{vr|z}} are somewhat special:
+* They are permitted only at the start of a syllable in native words, not at the end.
+* For historic reasons, in native words they are never preceded by a short/lax vowel and so never occur doubled.
+* When the sounds {{IPA|/v/}} and {{IPA|/z/}} occur at the end of a syllable, they are written {{vr|f}} and {{vr|s}} respectively.
+
+Then, therefore, final devoicing is reflected in the spelling:
+
+* {{lang|nl|blijven}} {{IPA|/ˈblɛivə(n)/}} ("to stay") → {{lang|nl|blijf}} {{IPA|/blɛif/}} "(I) stay"
+* {{lang|nl|huizen}} {{IPA|/ˈɦœyzə(n)/}} "houses" → {{lang|nl|huis}} {{IPA|/ɦœys/}} "house"
+
+However, {{vr|f}} and {{vr|s}} are also written at the end of a syllable that is not final. The pronunciation remains voiced even if the spelling shows a voiceless consonant. This is most common in the past tense forms of weak verbs:
+
+* {{lang|nl|leven}} {{IPA|/ˈleːvə(n)/}} ("to live") → {{lang|nl|lee'''fd'''e}} {{IPA|/ˈleːvdə/}} "(I) lived"
+* {{lang|nl|blozen}} {{IPA|/ˈbloːzə(n)/}} ("to blush") → {{lang|nl|bloo'''sd'''e}} {{IPA|/ˈbloːzdə/}} "(I) blushed"
+
+Compare this to verbs in which the final consonant is underlyingly voiceless. Here, the dental assimilation rule calls for the ending {{lang|nl|-te}} after voiceless consonants:
+
+* {{lang|nl|blaffen}} {{IPA|/ˈblɑfə(n)/}} ("to bark") → {{lang|nl|bla'''ft'''e}} {{IPA|/ˈblɑftə/}} "(I) barked"
+* {{lang|nl|ruisen}} {{IPA|/ˈrœysə(n)/}} ("to rustle, to hiss") → {{lang|nl|rui'''st'''e}} {{IPA|/ˈrœystə/}} "(I) rustled"
+
+Some modern loanwords and new coinages do not follow these rules. However, these words tend to not follow the other spelling rules as well: {{lang|nl|buzzen}} ("to page (call on a pager)") → {{lang|nl|buzz}} ("(I) page"), {{lang|nl|buzzde}} ("(I) paged").
+
+==Diacritics==
+Dutch uses the [[acute accent]] to mark stress and the [[diaeresis (diacritic)|diaeresis]] (trema) to disambiguate diphthongs/triphthongs. Occasionally, other diacritics are used in loanwords and native onomatopoeic words. Accents are not necessarily placed on capital letters (for example, the word {{lang|nl|Eén}} at the beginning of a sentence) unless the whole word is written in capitals.<ref>[http://www.onzetaal.nl/taaladvies/advies/accenten-op-hoofdletters Onze Taal: Accenten op hoofdletters (in Dutch)]</ref>
+
+===Acute accent===
+[[File:VRT Eén logo.svg|thumb|Former logo of ''[[Eén]]'' (''One''), a Flemish TV station in Belgium]]
+Acute accents may be used to emphasise a word in a phrase, on the vowel in the stressed syllable. If the vowel is written as a digraph, an acute accent is put on both parts of the digraph. Although that rule includes {{vr|[[IJ (digraph)|ij]]}}, the acute accent on the {{vr|j}} is frequently omitted in typing (resulting in {{vr|íj}} instead of {{vr|íj́}}), as putting an acute accent on a {{vr|j}} is still problematic in most word processing software.<ref name="klemtoon">{{Cite web |title=Klemtoonteken (algemeen) - Taaladvies.net |url=https://taaladvies.net/klemtoonteken-algemeen/ |access-date=2022-11-14 |website=taaladvies.net|date=12 May 2021 }}</ref> If the vowel is written as more than two letters, the accent is put on the first two vowel letters – except when the first letter is a capital one. According to the [[Taalunie]], accents on capital letters are used only in [[all caps]] and in loanwords.<ref>{{Cite web |title=Accenttekens en andere diakritische tekens op hoofdletters - Taaladvies.net |url=https://taaladvies.net/accenttekens-en-andere-diakritische-tekens-op-hoofdletters/ |access-date=2022-11-14 |website=taaladvies.net|date=12 May 2021 }}</ref> So, it is correct to write {{lang|nl|één, Eén}}, and {{lang|nl|ÉÉN}}, but not to write *{{lang|nl|Één}}. The [[Genootschap Onze Taal]] states that accents can be put on capital letters whenever the need arises, but makes an exception for {{lang|nl|Eén}}.<ref>{{Cite web |title=Accenten op hoofdletters |url=https://onzetaal.nl/taalloket/accenten-op-hoofdletters |access-date=2022-11-14 |website=Onze Taal |language=nl}}</ref>
+
+Stress on a short vowel, written with only one letter, is occasionally marked with a [[grave accent]]: {{lang|nl|Kàn jij dat?}} (equivalent to the example below), {{lang|nl|[[wikt:wel|wèl]]}}<!--translation of "wel" strongly depends on context-->. However, it is technically incorrect to do so.<ref name="klemtoon" />
+
+Additionally, the acute accent may also be used to mark different meanings of various words, including {{lang|nl|een/één}} ([[indefinite article|a(n)]]/[[1 (number)|one]]), {{lang|nl|voor/vóór}} (for/before), {{lang|nl|vóórkomen/voorkómen}} (to occur/to prevent), and {{lang|nl|vérstrekkend/verstrékkend}} (far-reaching/issuing), as shown in the examples below.
+
+====Examples====
+{|
+|-
+|{{lang|nl|Dat was háár ijsje.}}||That was ''her'' ice cream.
+|-
+|{{lang|nl|Ik wil het nú!}}||I want it ''now''!
+|-
+|{{lang|nl|Dat is héél mooi.}}||That is ''very'' nice.
+|-
+|{{lang|nl|Kán jij dat?}}||''Can'' you <small>(are you able to<!--NOT: are you allowed to-->)</small> do that?
+|-
+|{{lang|nl|Tóé nou!}}||Come on!
+|-
+|{{lang|nl|Die fiets is niet óúd, hij is níéuw!}}||That bike is not ''old'', it is ''new''!
+|-
+|{{lang|nl|Hij heeft een boek.}}||He has a book.
+|-
+|{{lang|nl|Hij heeft één boek.}}||He has one book. 
+|-
+|{{lang|nl|Ik zal voor jou opstaan.}}||I will get up for you. 
+|-
+|{{lang|nl|Ik zal vóór jou opstaan.}}||I will get up before you.
+|}
+
+===Diaeresis===
+A [[Diaeresis (diacritic)|diaeresis]] is used to mark a [[Hiatus (linguistics)|hiatus]], if the combination of vowel letters may be either mistaken for a digraph or interpreted in more than one way: {{lang|nl|geïnd}} (collected), {{lang|nl|geüpload}} (uploaded), {{lang|nl|egoïstisch}} (egoistic), {{lang|nl|sympathieën}} (sympathies, preferences), {{lang|nl|coördinaat}} (coordinate), {{lang|nl|reëel}} (realistic), {{lang|nl|zeeën}} (seas), {{lang|nl|met z'n tweeën}} (two together; the two of them) and even until 1996 {{lang|nl|zeeëend}} (sea duck; now spelled {{lang|nl|zee-eend}}). On a line break that separates the vowels but keeps parts of a digraph together, the diaeresis becomes redundant and so is not written: ego-/istisch, sympathie-/en, re-/eel, zee-/en, met z'n twee-/en. The rule can be extended to names, such as {{lang|nl|Michaëlla}}, e.g. [[Michaëlla Krajicek]]. The diaeresis is only used in derivational suffixes since 1996; compounds are written with a hyphen, for example {{lang|nl|auto-ongeluk}} (car accident).
+
+===Other diacritics===
+The [[grave accent]] is used in some French loanwords and native [[onomatopoeia|onomatopoeic]] words, generally when pronunciation would be wrong without it, such as {{lang|nl|[[après-ski]]}}, {{lang|nl|barrière}} (barrier), {{lang|nl|bèta, caissière}} (female cashier), {{lang|nl|carrière}} (career) and {{lang|nl|hè?}} ("What?"), {{lang|nl|blèren}} (to yell). Officially, {{lang|nl|appel}} is always written without an accent, but sometimes an accent is used to distinguish between {{lang|nl|appel}} ("apple") and {{lang|nl|appèl}} ("appeal", "roll call", and others).<ref>[http://www.onzetaal.nl/taaladvies/advies/appel-appl Onze Taal: appel / appèl] (in Dutch)</ref>
+
+Besides being used to mark stress, [[acute accent]]s are also used in many loanwords (mainly from French) such as {{lang|nl|logé}} (overnight guest), {{lang|nl|coupé}} (train compartment), {{lang|nl|oké}} (okay) and {{lang|nl|café}}. The name of the Dutch town [[Enschede]], pronounced {{IPA|[ˈɛnsxəˌde]}} was once upon a time written Enschedé, but later the acute accent fell off without changing the pronunciation, which has '''not''' become {{IPA|*[ɛnˈsxedə]}}.
+
+Similarly, a [[circumflex accent]] is also used in some French loanwords, including {{lang|nl|enquête}} (survey), and {{lang|nl|fêteren}} (to treat). For {{lang|nl|gênant}} (embarrassing) it is indecisive, the official spelling has the accent, but the Genootschap Onze also allows the spelling without the accent since it makes no difference to the pronunciation.<ref>[https://onzetaal.nl/taaladvies/accent-circonflexe/ Onze Taal: genant / gênant] (in Dutch)</ref> The circumflex accent is also used the [[West Frisian language]] and so in general Dutch as well if there is no translation. {{lang|nl|Skûtsjesilen}} is the most common example, where {{lang|nl|silen}} is West Frisian for {{lang|nl|zeilen}} (to sail) and a {{lang|nl|skûtsje}} is a specific type of sailboat. {{lang|nl|Fryslân}}, the official (and Frisian) name of the province [[Friesland]], is also well known, at least in the Netherlands.
+
+==Apostrophe==
+{{Unreferenced section|date=March 2020}}As in English, an apostrophe is used to mark omission of a part of word or several words:
+{|
+|{{lang|nl|'n}}||({{lang|nl| een}})||a, an
+|-
+|{{lang|nl|'t}}||({{lang|nl|het}})||it/the
+|-
+|{{lang|nl|'k}}||({{lang|nl|ik}})||I
+|-
+|{{lang|nl|'r}}||({{lang|nl|haar}})||her
+|-
+|{{lang|nl|m'n}}||({{lang|nl|mijn}})||my
+|-
+|{{lang|nl|z'n}}||({{lang|nl|zijn}})||his
+|-
+|{{lang|nl|zo'n}}||({{lang|nl|zo een}})||such a(n)
+|-
+|{{lang|nl|'s ochtends}}||({{lang|nl|des ochtends}} (archaic))||in the morning
+|-
+|{{lang|nl|'s middags}}||({{lang|nl|des middags}} (archaic))||in the afternoon
+|-
+|{{lang|nl|'s avonds}}||({{lang|nl|des avonds}} (archaic))||in the evening
+|-
+|{{lang|nl|'s nachts}}||({{lang|nl|des nachts}} (archaic))||in the night
+|-
+|{{lang|nl|'s zomers}}||({{lang|nl|des zomers}} (archaic))||in the summer
+|-
+|{{lang|nl|'s winters}}||({{lang|nl|des winters}} (archaic))||in the winter
+|-
+|{{lang|nl|'s-Gravenhage}} (formal)||({{lang|nl|des Graven hage}} (archaic))||[[The Hague|Den Haag]] (The Hague)
+|-
+|{{lang|nl|'s-Hertogenbosch}}||({{lang|nl|des Hertogen bosch}} (archaic))||[[’s-Hertogenbosch]]
+|-
+|{{lang|nl|A'dam}} (informal)||({{lang|nl|Amsterdam}})||[[Amsterdam]]
+|-
+|{{lang|nl|R'dam}} (informal)||({{lang|nl|Rotterdam}})||[[Rotterdam]]
+|}
+Contrary to the city of Den Haag, 's-Hertogenbosch (also known colloquially as ({{lang|nl|Den Bosch}}) has decided to retain the more formal orthography of its name for common communication like road signing.
+
+Except in [[all caps]], the letter immediately following a word-initial apostrophe is not capitalised. If necessary, the second word is capitalised instead:
+:{{lang|nl|'s Avonds is zij nooit thuis.}} (In the evening, she is never at home.).
+
+==See also==
+* [[Dutch braille]]
+* [[History of Dutch orthography]]
+* [[IJ (digraph)]]
+* [[Matthijs Siegenbeek]]
+* [[Nederlandse Taalunie]]
+* [[Grand Dictation of the Dutch Language]]
+
+== Notes and references ==
+{{Reflist}}
+
+==Bibliography==
+* Vincent van Heuven, ''Spelling en Lezen. Hoe Tragisch Zijn de Werkwoordsvormen?'', Assen: Van Gorcum, 1978.
+* Rob Naborn, ''De Spelling-Siegenbeek (1804)'', Doctoraalscriptie, Vrije Universiteit, Amsterdam, 1985.
+* Marijke van der Wal, ''Geschiedenis van het Nederlands'', Utrecht: Het Spectrum, 1994.
+* Nicoline van der Sijs, ''Taal als mensenwerk. Het ontstaan van het ABN'', Den Haag: Sdu Uitgevers, 2004.
+* Anneke Nunn, ''[https://www.lotpublications.nl/dutch-orthography Dutch Orthography: A Systematic Investigation of the Spelling of Dutch Words]'', Katholieke Universiteit Nijmegen, Doctoral dissertation, 1998.
+
+== External links ==
+* [https://web.archive.org/web/20061008191650/http://www.dbnl.nl/tekst/wink003gron01/ De grondbeginselen der Nederlandsche spelling. Ontwerp der spelling voor het aanstaande Nederlandsch Woordenboek] (1863) by L.A. te Winkel
+* [[gutenberg:27335|De grondbeginselen der Nederlandsche spelling. Regeling der spelling voor het woordenboek der Nederlandsche taal]] (1873) by L.A. te Winkel and M. de Vries
+* [http://woordenlijst.org/ Woordenlijst Nederlandse taal online] ([[Word list of the Dutch language]], 2015) by the Dutch Language Union (Taalunie)
+* [https://web.archive.org/web/20060822005752/http://www.dewittespelling.nl/ De witte spelling] (2006) by the Society "Onze Taal"
+* [http://stevenroyedwards.com/nieuwespelling.html "New Spelling" of the Dutch language]
+
+{{Language orthographies}}
+{{Authority control}}
+
+{{DEFAULTSORT:Dutch Orthography}}
+[[Category:Dutch language]]
+[[Category:Indo-European Latin-script orthographies]]
