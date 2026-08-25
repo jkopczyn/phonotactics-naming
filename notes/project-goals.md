@@ -156,3 +156,9 @@ Source-side needs (Irish): an Irish phoneme inventory with the broad/slender pai
    consonant-final in citation form) and so is not a deviation; common-noun epithets keep -i.
    Default to Gabunia's *measured* pattern (aspirate by default, ejective post-consonantally)
    rather than the prescriptive all-ejective norm; drop word-level laryngeal harmony.
+5. **Cʷ is ON for strand 4 (Georgian), restricted form** (decided 2026-08-25): non-labial broad
+   consonant before /i e/ in onsets → C+/v/ (Georgian slot-V labialization), spelled with *v* in
+   the respelling (never *w*, to avoid Welsh drift); paired with slender C before a back vowel →
+   Ci; /vv/ from collision with lenited b/m → /v/ degeminates. Accepted as the one deliberate
+   deviation for strand 4 because it preserves an Irish contrast, yields native Georgian cluster
+   shapes, and delivers the harsh look without an aesthetic filter.
