@@ -12,21 +12,31 @@ rules, but they are run differently:
 - An **inflection** is a short derivation (slenderize the final, then change the vowel, then
   add an ending): its rules apply in file order, each seeing the previous rule's output,
   exactly as any rewrite section does.
+- `normalize()` (Task 19, spec §4.1) runs the `[normalize]` section as an ordinary rewrite
+  section (aliases, `h -> ç`, quality inference over `UNMARKED`), then records Connacht
+  initial stress. Stress is kept as a pending SEGMENT index (S1): `Word.stress` is a
+  syllable index and only `syllabify()` can set it.
 
-Task 19 adds `normalize()`; Task 18 the templates.
+Task 18 adds the templates.
 """
 from __future__ import annotations
+
+from dataclasses import replace
 
 from .dsl import Rule, RuleFile
 from .features import FeatureTable
 from .rewrite import _replacement, apply_section, find_matches
 from .word import TraceEntry, Word
 
-__all__ = ["IrishError", "apply_mutation", "apply_inflection", "MUTATIONS", "INFLECTIONS"]
+__all__ = ["IrishError", "apply_mutation", "apply_inflection", "normalize",
+           "MUTATIONS", "INFLECTIONS", "UNSTRESSED_DIALECTS"]
 
 STAGE = "irish"
 MUTATIONS = ("LEN", "ECL", "HPREF", "TPREF")
 INFLECTIONS = ("GEN_M1", "GEN_ACH", "GEN_F2", "GEN_M3", "VOC_M1")
+# Spec §9 row 19: Munster / Ulster rows pass through unstressed; every other dialect
+# value ("C", the test-words "std", or empty) gets Connacht initial stress (digest §4.1).
+UNSTRESSED_DIALECTS = frozenset({"M", "U"})
 
 
 class IrishError(Exception):
@@ -86,3 +96,24 @@ def apply_inflection(word: Word, name: str, rf: RuleFile, table: FeatureTable) -
     """name in {'GEN_M1','GEN_ACH','GEN_F2','GEN_M3','VOC_M1'} — five, not the four named in
     spec §3; spec §12.J sanctions the superset (digest §3.5)."""
     return apply_section(word, _subtable("inflect", rf.inflect, name, rf), rf, table, STAGE)
+
+
+def normalize(word: Word, rf: RuleFile, table: FeatureTable, *, dialect: str = "C") -> Word:
+    """Spec §4.1: fold input aliases; give every quality-unmarked consonant ʲ or ˠ from
+    the adjacent-vowel convention; mark Connacht initial stress; leave user-supplied
+    phonemes untouched.
+
+    The rewrite part is `irish.rules [normalize]` (applied in file order). Stress: when
+    `dialect` is not Munster/Ulster and the input carried no `ˈ` (no pending segment index
+    and no syllable index), the first segment becomes the pending stress (S1), with a trace
+    entry `stress:irish-initial` (digest §4.1). An explicit mark is always kept."""
+    out = apply_section(word, rf.sections.get("normalize", ()), rf, table, STAGE)
+    if dialect in UNSTRESSED_DIALECTS or not out.segments:
+        return out
+    if out._pending_stress is not None or out.stress is not None:
+        return out
+    before = out.ipa()
+    out = replace(out, _pending_stress=0)
+    return out.traced(TraceEntry(stage=STAGE, rule_id="stress:irish-initial", tag="attested",
+                                 before=before, after=out.ipa(),
+                                 note=f"Connacht initial stress (digest §4.1), dialect={dialect}"))

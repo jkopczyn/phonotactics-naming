@@ -1,5 +1,5 @@
 # irish.rules — the Irish (Connacht, two-way L/N) source side.
-# Task 17: [meta] [inventory] [classes] [mutations] [inflect]. Task 19 adds [normalize],
+# Task 17: [meta] [inventory] [classes] [mutations] [inflect]. Task 19: [normalize].
 # Task 18 adds [templates]. Every rule line cites its digest section or the wiki source the
 # digest itself cites (sources/irish/digest.md).
 
@@ -26,6 +26,10 @@ iː ɪ uː ʊ eː ɛ oː ɔ aː a ə
 # I-41 / spec §12.J: broad and slender are DECLARED classes, never [C ±back] bundles.
 BROAD = pˠ bˠ t̪ˠ d̪ˠ fˠ sˠ w vˠ mˠ n̪ˠ l̪ˠ ɾˠ k ɡ x ɣ ŋ
 SLEN  = pʲ bʲ tʲ dʲ fʲ ʃ vʲ mʲ nʲ lʲ ɾʲ c ɟ ç j ɲ
+# Quality-less plain consonants (front/back = 0 in features.tsv) that [normalize] assigns a
+# quality to (I-41 / spec §12.J). Every member must be the target of a [normalize] line in
+# both environments (_ V and V _ #); tests/test_irish_normalize.py checks the coverage.
+UNMARKED = p b t d k ɡ f v s m n l r
 
 [mutations]
 # digest §3.1 — lenition (séimhiú) [wiki-irish-mutations §Summary table]
@@ -221,3 +225,79 @@ n̪ˠ -> nʲ / _ a SLEN #   %design # design: digest §3.5
 l̪ˠ -> lʲ / _ a SLEN #   %design # design: digest §3.5
 ɾˠ -> ɾʲ / _ a SLEN #   %design # design: digest §3.5
 a  -> ɪ  / _ SLEN #     %design # design: digest §3.5 *mac* -> *a mhic*
+
+[normalize]
+# Spec §4.1 pre-pass, run after the template's mutations/inflections (Task 17) and before
+# stage 2. Rules run in file order, each seeing the previous rule's output.
+
+# Input aliases of the four-way L/N transcription, folded onto the two-way Connacht system
+# (digest §1.1 lines 130-141: "a tooling convenience, not a claim about Irish" — hence %design).
+lˠ  -> l̪ˠ          %design # input alias, digest §1.1 lines 130-141 [wiki-help-ipa-irish note 5]
+l̠ʲ  -> lʲ          %design # ditto, note 5
+nˠ  -> n̪ˠ          %design # ditto, note 6
+n̠ʲ  -> nʲ          %design # ditto, note 6
+g   -> ɡ           %design # ASCII duplicate of U+0261, tooling only (I-34)
+ɑ   -> a           %design # user transcription only, digest line 27 — NOT a digest §1.1 claim
+ɑː  -> aː          %design # ditto, line 27
+
+# /h/ (the lenition product of /tʲ ʃ/) is [ç] before a "back" vowel (*sheoil* /çoːlʲ/,
+# digest §1.1 lines 107-108 [wiki-irish-phonology §Allophones]). "Back" there means
+# non-front: /a aː ə/ are front=- back=- in features.tsv (as for the ECL prothesis rule), so
+# the environment is written `[V -front]` — `[V +back]` would miss *a Sheáin* /çaːnʲ/.
+h -> ç / # _ [V -front]      %attested # [wiki-irish-phonology §Allophones], digest §1.1
+
+# Quality inference (caol le caol / leathan le leathan, digest §5.1 [wiki-irish-orthography
+# §Vowels]), written as EXPLICIT segment -> segment lines over the UNMARKED class (spec
+# §12.J). A feature-change bundle cannot be used here: plain consonants have front/back = 0,
+# `t -> t̪ˠ` also has to add anterior/distributed, and there is no `kˠ` row at all — broad
+# /k/ IS `k` (I-41). Broad = `[V -front]` (see above); slender = `[V +front]`.
+# (a) an unmarked consonant takes the FOLLOWING vowel's quality
+p -> pʲ    / _ [V +front]    %attested # digest §5.1
+p -> pˠ    / _ [V -front]    %attested
+b -> bʲ    / _ [V +front]    %attested
+b -> bˠ    / _ [V -front]    %attested
+t -> tʲ    / _ [V +front]    %attested
+t -> t̪ˠ   / _ [V -front]    %attested
+d -> dʲ    / _ [V +front]    %attested
+d -> d̪ˠ   / _ [V -front]    %attested
+f -> fʲ    / _ [V +front]    %attested
+f -> fˠ    / _ [V -front]    %attested
+v -> vʲ    / _ [V +front]    %attested
+v -> vˠ    / _ [V -front]    %attested
+s -> ʃ     / _ [V +front]    %attested
+s -> sˠ    / _ [V -front]    %attested
+m -> mʲ    / _ [V +front]    %attested
+m -> mˠ    / _ [V -front]    %attested
+n -> nʲ    / _ [V +front]    %attested
+n -> n̪ˠ   / _ [V -front]    %attested
+l -> lʲ    / _ [V +front]    %attested
+l -> l̪ˠ   / _ [V -front]    %attested
+r -> ɾʲ    / _ [V +front]    %attested
+r -> ɾˠ    / _ [V -front]    %attested
+k -> c     / _ [V +front]    %attested # broad /k/ is plain `k`; only the slender member changes
+ɡ -> ɟ     / _ [V +front]    %attested # broad /ɡ/ is plain `ɡ`
+# (b) a word-final unmarked consonant takes the PRECEDING vowel's quality (digest §5.1)
+p -> pʲ    / [V +front] _ #  %attested # digest §5.1
+p -> pˠ    / [V -front] _ #  %attested
+b -> bʲ    / [V +front] _ #  %attested
+b -> bˠ    / [V -front] _ #  %attested
+t -> tʲ    / [V +front] _ #  %attested
+t -> t̪ˠ   / [V -front] _ #  %attested
+d -> dʲ    / [V +front] _ #  %attested
+d -> d̪ˠ   / [V -front] _ #  %attested
+f -> fʲ    / [V +front] _ #  %attested
+f -> fˠ    / [V -front] _ #  %attested
+v -> vʲ    / [V +front] _ #  %attested
+v -> vˠ    / [V -front] _ #  %attested
+s -> ʃ     / [V +front] _ #  %attested
+s -> sˠ    / [V -front] _ #  %attested
+m -> mʲ    / [V +front] _ #  %attested
+m -> mˠ    / [V -front] _ #  %attested
+n -> nʲ    / [V +front] _ #  %attested
+n -> n̪ˠ   / [V -front] _ #  %attested
+l -> lʲ    / [V +front] _ #  %attested
+l -> l̪ˠ   / [V -front] _ #  %attested
+r -> ɾʲ    / [V +front] _ #  %attested
+r -> ɾˠ    / [V -front] _ #  %attested
+k -> c     / [V +front] _ #  %attested
+ɡ -> ɟ     / [V +front] _ #  %attested
