@@ -20,9 +20,16 @@ Citation rule as in the brief: `[key p.N]` / `[wiki-x §Section]` on every factu
 ## 0. Variety and scope
 
 **Reference variety: Connacht (Connemara / Cois Fharraige / Erris), with the Wikipedia
-"standard-ish" IPA scheme.** This matches the user's own hand transcriptions — *Ciara*
-/ˈkɪə.ɾˠə/, *Matánach* /ˈmˠat̪ˠɑːnˠəx/, *Lasairchos* /ˈl̪ˠɑsˠəɾʲxosˠ/ — which show initial stress
-(not Munster), a two-way rhotic /ɾˠ ɾʲ/, dental /t̪ˠ/, and velarized /l̪ˠ/.
+"standard-ish" IPA scheme** — as instructed by the task brief.
+
+*(Unattested — the following is this digest's reading of three data points, not a sourced
+dialect diagnosis.)* The choice is consistent with the user's own hand transcriptions:
+*Ciara* /ˈkɪə.ɾˠə/, *Matánach* /ˈmˠat̪ˠɑːnˠəx/, *Lasairchos* /ˈl̪ˠɑsˠəɾʲxosˠ/ all show initial
+stress (so not Munster), a two-way rhotic /ɾˠ ɾʲ/, dental /t̪ˠ/, and velarized /l̪ˠ/, and
+*Matánach* keeps an unstressed long vowel (so not Ulster, which shortens — §4.2). Two caveats:
+the diagnosis rests on three forms; and **one of the three actively conflicts with the Connacht
+system as the held sources state it** — *Ciara*'s broad /k/ (§9.2). Treat the dialect setting as
+given by the brief, with these forms as weak corroboration.
 
 The transcription system used throughout is the Wikipedia scheme, which is itself based on Ní
 Chasaide's IPA-Handbook description [wiki-help-ipa-irish §Comparison of transcription schemes].
@@ -38,7 +45,7 @@ Source-base caveats:
 - The **cluster inventory** (§2) traces entirely to Ní Chiosáin 1999, which is paywalled and not
   held; Wikipedia and the three Commons cluster charts are our only route to it
   [wiki-irish-phonology §Word-initial consonant clusters].
-- **Ní Chasaide's** description is **Ulster (Gaoth Dobhair, Donegal)** [nichasaide1999 p.111];
+- **Ní Chasaide's** description is **Ulster (Gaoth Dobhair, Donegal)** [nichasaide1999-ipa-irish p.111];
   where it conflicts with the Connacht picture, Connacht wins for this project.
 - **Ní Chiosáin et al. 2018** and the two Bennett-group papers are **Connemara** — i.e. exactly
   our reference dialect — and are the articulatory evidence base for §8.1.
@@ -111,7 +118,7 @@ Asymmetries the tool must know about:
   (*scanradh* [sˠkauɾˠə]); voiced stops are incompletely voiced but never aspirated
   [wiki-irish-phonology §Allophones]. **[U]** Ní Chasaide reports the voiceless series is also
   **preaspirated**, "fairly widely… especially in non-intervocalic contexts"
-  [nichasaide1999 p.113].
+  [nichasaide1999-ipa-irish p.113].
 - **Not in the inventory:** the article nowhere flags /pˠ pʲ/ as marginal, and does not list
   /z ʒ/ at all [wiki-irish-phonology §Consonants]. Loan letters do add them at the margin: ⟨z⟩
   → /zˠ/ (*zú* /zˠuː/), ⟨j⟩ → [dʒ] "a non-native phoneme", substituted by /ʃ/ in integrated
@@ -128,7 +135,7 @@ dialects of Irish distinguish all four types of L sound. Most dialects have merg
 [wiki-help-ipa-irish notes 5, 6]. The **four historical rhotics have merged to /ɾˠ ɾʲ/ in all
 dialects** [wiki-irish-phonology §Fortis and lenis sonorants].
 **[U]** Ní Chasaide reports Gaoth Dobhair reduced from four to a robust **three-way** lateral
-contrast, and for nasals the palatalized alveolar tends to merge with /ɲ/ [nichasaide1999 p.113].
+contrast, and for nasals the palatalized alveolar tends to merge with /ɲ/ [nichasaide1999-ipa-irish p.113].
 **Practical consequence for input:** hand transcriptions will use the **two-way** system
 /l̪ˠ lʲ n̪ˠ nʲ/, matching *Lasairchos* /ˈl̪ˠɑsˠəɾʲxosˠ/. The tool should accept /lˠ l̠ʲ nˠ n̠ʲ/
 as input aliases folding onto /l̪ˠ lʲ n̪ˠ nʲ/ (unattested — a tooling convenience, not a claim
@@ -204,12 +211,17 @@ So the **maximal shape a donor word can present is roughly CCCVːCC** (unatteste
 statement; assembled from the attested examples above — no source in this directory states an
 Irish maximal syllable template as a formula).
 
-Name-sized words are typically **one or two syllables with a heavy first syllable**, or two-to-
-three syllables with the stress initial: *Seán* /ʃaːnˠ/ (CVːC), *Siobhán* /ˈʃʊwaːnˠ/
-(CV.CVːC), *cailín* /ˈkalʲiːnʲ/ (CV.CVːC), *Diarmaid* /dʲiərmədʲ/ (CVː(diph)C.CVC)
-[wiki-irish-orthography §Grapheme to phoneme correspondence]. Adjectival epithets in **-ach**
-add a final /əx/ syllable: *taoiseach* /ˈt̪ˠiːʃəx/, *Gaelach* /ˈɡeːlˠəx/, *bacach* 'lame'
-[wiki-irish-orthography; wiki-irish-phonology §Munster].
+*(Unattested — the next two generalizations are this digest's, over the handful of name forms
+the sources happen to transcribe; no held source characterizes Irish name shape or states -ach
+as a productive epithet rule.)* The name forms available here run one to three syllables with
+initial stress and often a heavy first syllable: *Seán* /ʃaːnˠ/ (CVːC), *Siobhán* /ˈʃʊwaːnˠ/
+(CV.CVːC), *cailín* /ˈkalʲiːnʲ/ (CV.CVːC), *Diarmaid* /dʲiərmədʲ/
+[wiki-irish-orthography §Grapheme to phoneme correspondence]. The **-ach** words the sources
+transcribe end in a /əx/ syllable: *taoiseach* /ˈt̪ˠiːʃəx/, *Gaelach* /ˈɡeːlˠəx/,
+*bacach* /bˠəˈkax/ [wiki-irish-orthography §Grapheme to phoneme correspondence;
+wiki-irish-phonology §Munster]. Whether that vowel is /ə/ in every dialect and every -ach word
+is **not** established here — Munster stresses the /a/ under the conditions of §4.1, in which
+case it is not reduced at all.
 
 ### 2.2 Word-initial clusters — the export inventory
 
@@ -220,7 +232,7 @@ slender." [wiki-irish-phonology §Word-initial consonant clusters]
 **Two-consonant onsets, non-mutation environments.** Obstruent + liquid/nasal (but **labial
 obstruents may not be followed by a nasal**), plus /sˠ ʃ/ + voiceless stop
 [wiki-irish-phonology §Word-initial consonant clusters, from Ní Chiosáin 1999]. The Commons
-grid states it as three products [wiki-clusterchart-nonmut]:
+grid states it as three products [wiki-clusterchart-2C_cluster_nonmut]:
 
     C1 ∈ {pˠ bˠ fˠ d̪ˠ} / {pʲ bʲ fʲ dʲ}   +   C2 ∈ {l̪ˠ ɾˠ} / {lʲ ɾʲ}
     C1 ∈ {t̪ˠ k ɡ}      / {tʲ c ɟ}        +   C2 ∈ {l̪ˠ ɾˠ n̪ˠ} / {lʲ ɾʲ nʲ}
@@ -241,7 +253,7 @@ Attested examples: *bleán* /bʲlʲaːnˠ/, *breá* /bʲɾʲaː/, *cnaipe* /ˈkn
 speakers in Connemara and Dingle before /c/ as well)": *sméara* /sˠmʲeːɾˠə/ 'berries',
 *speal* /sˠpʲal/ 'scythe', *spleách* /sˠpʲlʲaːx/, *spreag* /sˠpʲɾʲaɡ/, and
 *scéal* /sˠceːl̪ˠ/ ~ /ʃceːl̪ˠ/ [wiki-irish-phonology §Word-initial consonant clusters]. The
-Commons grid marks exactly those cells [wiki-clusterchart-nonmut]. **So a donor word can
+Commons grid marks exactly those cells [wiki-clusterchart-2C_cluster_nonmut]. **So a donor word can
 present a quality-mismatched onset /sˠpʲ/, /sˠmʲ/, /sˠc/ — a target that maps broad→X and
 slender→Y will get a mixed cluster here.**
 
@@ -257,7 +269,7 @@ set (see `test-words.tsv`, *cnoc*).
 
 **Mutation-environment onsets — the much larger set.** Because Irish mutates word-initially,
 an inflected name or epithet can begin with clusters that are impossible in the citation form
-[wiki-irish-phonology §Word-initial consonant clusters; wiki-clusterchart-mut2]:
+[wiki-irish-phonology §Word-initial consonant clusters; wiki-clusterchart-2C_cluster_mut2]:
 
 *Lenition environment*
 
@@ -289,9 +301,10 @@ Wikipedia gives no exhaustive final-cluster list [wiki-irish-phonology — not c
 
 > "Syllable codas may consist of a single consonant, or of a cluster of nasal plus homorganic
 > voiceless stop, or liquid plus obstruent (provided the obstruent is a voiceless stop or
-> d(ʲ)), or sibilant plus voiceless stop, plus /xt/." [green1997 p.55]
+> d(ʲ)), or sibilant plus voiceless stop, plus /xt/." [green1997-prosodic-goidelic p.55]
 
-Tabulated [green1997 p.56], in Green's notation (′ = slender):
+**Green's table (27) as printed** [green1997-prosodic-goidelic p.56], in Green's own notation
+(′ = slender, unmarked = broad) — kept verbatim so the conversion below stays auditable:
 
     liquid + stop   rp r′p′  rt rt′  rk r′k′  rd rd′
                     lp l′p′  lt l′t′  lk l′k′  ld l′d′
@@ -300,11 +313,21 @@ Tabulated [green1997 p.56], in Green's notation (′ = slender):
     sibilant + stop sp s′p′  st s′t′  sk s′k′
     /xt/            xt xt′
 
-"Other underlying clusters are broken up by epenthesis" [green1997 p.55] — i.e. §2.4 is the
-complement of this list, and **the two together fully determine which codas a donor word can
-export.** Compare the attested codas in the harvest: /ɾˠt̪ˠ/ *ceart*, /ɾˠd̪ˠ/ *ard*,
-/ɾˠn̪ˠ/ *dorn*, /ŋk/ *splanc*, /sˠt̪ˠ/ *post*, /ʃtʲ/ *ceist*, /xt̪ˠ/ *éisteacht* — all in
-Green's list.
+**The same table normalized to this digest's IPA** — *this conversion is the digest's, not
+Green's*, and it applies the §1.1 two-way L/N normalization:
+
+    liquid + stop    ɾˠpˠ ɾʲpʲ · ɾˠt̪ˠ ɾʲtʲ · ɾˠk ɾʲc · ɾˠd̪ˠ ɾʲdʲ
+                     l̪ˠpˠ lʲpʲ · l̪ˠt̪ˠ lʲtʲ · l̪ˠk lʲc · l̪ˠd̪ˠ lʲdʲ
+    nasal + homorganic voiceless stop   mˠpˠ mʲpʲ · n̪ˠt̪ˠ nʲtʲ · ŋk ɲc
+    liquid + nasal   ɾˠn̪ˠ ɾʲnʲ
+    sibilant + stop  sˠpˠ ʃpʲ · sˠt̪ˠ ʃtʲ · sˠk ʃc
+    /xt/             xt̪ˠ çtʲ
+
+"Other clusters exist underlyingly, but are broken up by an epenthetic vowel"
+[green1997-prosodic-goidelic p.56] — i.e. §2.4 is the complement of this list, and **the two
+together determine which codas a donor word can export.** Compare the attested codas in the
+harvest: /ɾˠt̪ˠ/ *ceart*, /ɾˠd̪ˠ/ *ard*, /ɾˠn̪ˠ/ *dorn*, /ŋk/ *splanc*, /sˠt̪ˠ/ *post*,
+/ʃtʲ/ *ceist*, /xt̪ˠ/ *éisteacht* — all in Green's list.
 
 Other statements:
 
@@ -317,26 +340,26 @@ Other statements:
 - **Medial two-consonant clusters syllabify heterosyllabically (V.C₁C₂V)** *except* where the
   sonority rise from C₁ to C₂ is steep (stop+liquid, s+liquid), in which case C₁ is
   ambisyllabic: *achrann* [ˈaxrən] 'entanglement' (split) vs. *lasrach* [ˈlaʃrəx] 'flames',
-  *ocras* [ˈokərəs] 'hunger' (C₁ ambisyllabic) [green1997 pp.144–146].
+  *ocras* [ˈokərəs] 'hunger' (C₁ ambisyllabic) [green1997-prosodic-goidelic pp.144–146].
 - **A single intervocalic consonant after a short stressed vowel is ambisyllabic**
-  [green1997 pp.137–138]; not after an unstressed or a long vowel.
+  [green1997-prosodic-goidelic pp.137–138]; not after an unstressed or a long vowel.
 - **Irish has no gemination.** "Irish coda consonants are nonmoraic; ambisyllabic consonants
-  are not phonetically lengthened — Irish has no gemination" [green1997 p.136]. So a target
+  are not phonetically lengthened — Irish has no gemination" [green1997-prosodic-goidelic p.136]. So a target
   with contrastive gemination (Arabic) receives no geminates from the donor and must decide
   whether to create any. The orthographic ⟨ll nn rr⟩ are **not** geminates: they are the
   historical fortis sonorants, and in modern Irish they surface as vowel lengthening on the
   preceding vowel (§4.2).
 - **Hiatus: not covered** by any source here as a phonotactic statement.
 
-Green's own **onset**-cluster table [green1997 pp.55–56] largely matches §2.2 but adds the
+Green's own **onset**-cluster table [green1997-prosodic-goidelic pp.55–56] largely matches §2.2 but adds the
 lenition-only and nasalization-only series (/vl vr xn ɣn ŋl/ etc.) and notes one explicit
 exclusion: **/ʃɾʲ/ is disallowed in Modern Irish** (historical /ʃRʲ/ → /sˠɾˠ/)
-[green1997 p.56]. Green also states a **prosodic licensing** restriction that bears directly
+[green1997-prosodic-goidelic p.56]. Green also states a **prosodic licensing** restriction that bears directly
 on the export list: in Connacht/Ulster, only stop+liquid and s+liquid are licensed as onsets
 **syllable-internally**; noncoronal-fricative+liquid and obstruent+nasal are permitted
 **word-initially but not word-internally** (they split, hence *achrann*). **[M]** In Munster
 no cluster at all is licensed at a plain syllable edge and only stop+liquid at a foot edge —
-everything else epenthesizes [green1997 pp.144–149].
+everything else epenthesizes [green1997-prosodic-goidelic pp.144–149].
 
 ### 2.4 Irish's own epenthesis — applied before the target ever sees the word
 
@@ -348,7 +371,7 @@ most of its sonorant+labial/dorsal codas: it has already broken them with a schw
 
     ∅ → ə / {ɾˠ ɾʲ l̪ˠ lʲ n̪ˠ nʲ} _ C[labial or dorsal, except the voiceless stops pˠ pʲ k c]
 
-The Commons grid states it as [wiki-clusterchart-epenthesis]:
+The Commons grid states it as [wiki-clusterchart-Epenthesis_cluster]:
 
     {l̪ˠ ɾˠ} / {lʲ ɾʲ}  +  {bˠ ɡ fˠ w mˠ} / {bʲ ɟ fʲ vʲ mʲ}
     {n̪ˠ}   / {nʲ}      +  {bˠ fˠ w mˠ}   / {bʲ fʲ vʲ mʲ}
@@ -375,19 +398,19 @@ Attested outputs: *borb* /ˈbˠɔɾˠəbˠ/, *gorm* /ˈɡɔɾˠəmˠ/ 'blue', *d
 **Green states the same rule more generally**, in sonority terms, and adds a fourth blocker:
 
 > an epenthetic /ə/ breaks up **falling-sonority** clusters (C₁ more sonorant than C₂) where C₂
-> is neither a voiceless stop nor **homorganic with C₁** [green1997 p.152]
+> is neither a voiceless stop nor **homorganic with C₁** [green1997-prosodic-goidelic p.152]
 
 with examples /sʲalv/ → [ʃaləv] 'possession', /gorm/ → [gorəm] 'blue', /dʲarg/ → [dʲarəg] 'red'
-[green1997 p.152]. His blocking conditions:
+[green1997-prosodic-goidelic p.152]. His blocking conditions:
 1. **long vowel or diphthong before the cluster** — *téarma* not *téarəma*, *dualgas* not
-   *dualəgas* [green1997 p.152];
+   *dualəgas* [green1997-prosodic-goidelic p.152];
 2. **homorganic C₁C₂** — *gaimbín* [gamʲbʲiːnʲ] not *gamʲəbʲiːnʲ; *teanga* [tʲaŋgə] not
-   *tʲaŋəgə [green1997 p.154]. **This is the source of Wikipedia's "⟨ng⟩ is the main
+   *tʲaŋəgə [green1997-prosodic-goidelic p.154]. **This is the source of Wikipedia's "⟨ng⟩ is the main
    exception"** and it is a cleaner statement of it: /mˠbˠ mʲbʲ ŋɡ ɲɟ/ never epenthesize.
-3. **C₂ is a voiceless stop** — *cearc* [kʲark] 'hen', not *kʲarək [green1997 p.153];
+3. **C₂ is a voiceless stop** — *cearc* [kʲark] 'hen', not *kʲarək [green1997-prosodic-goidelic p.153];
 4. **≥3-syllable words — but only in Connacht.** "No epenthesis in Connemara (*barbarach*
    [barbərəx]), but Déise (Munster) and Tory (Ulster) *do* have it (*barabarach*
-   [barəbərəxt])" [green1997 pp.152–153].
+   [barəbərəxt])" [green1997-prosodic-goidelic pp.152–153].
 
 **CONFLICT resolved by Green.** The two Wikipedia articles state the rule with different
 conditions:
@@ -395,22 +418,30 @@ conditions:
   vowel/diphthong and ≥3 syllables as the blockers, and says nothing about morpheme boundaries.
 - [wiki-irish-orthography §Epenthesis] gives long vowel/diphthong and morpheme boundary, and no
   syllable-count condition; this section carries a Wikipedia "does not cite any sources" banner.
-Green supplies both plus homorganicity, and shows the **syllable-count blocker is
-dialect-specific — it holds in Connacht, which is our reference dialect** [green1997 pp.152–153].
-So for the tool: apply all four blockers (long vowel/diphthong, homorganic, voiceless stop C₂,
-≥3 syllables) plus the morpheme boundary, and note that a Munster or Ulster reading would drop
-the syllable-count one.
+Green supplies the long-vowel, homorganicity, voiceless-C₂ and syllable-count conditions, and
+shows the **syllable-count blocker is dialect-specific — it holds in Connacht, which is our
+reference dialect** [green1997-prosodic-goidelic pp.152–153]. **Green does not state the
+morpheme-boundary condition at all.**
+
+So for the tool: apply the four **confirmed** blockers — long vowel/diphthong, homorganic C₁C₂,
+voiceless-stop C₂, and (Connacht only) ≥3 syllables — and treat the **morpheme boundary as a
+fifth, PROVISIONAL blocker**: it rests solely on [wiki-irish-orthography §Epenthesis], a section
+Wikipedia itself flags as citing no sources, and no held source corroborates it. Its three
+examples (*garmhac*, *an-chiúin*, *carrbhealach*) are consistent with it, but *carrbhealach*
+is independently blocked by its long vowel, so only *garmhac* and *an-chiúin* actually bear on
+it. **This matters for compound epithets (§6 row 7–8), where it is the difference between
+/ˈɡaɾˠwak/ and \*/ˈɡaɾˠəwak/** — flag it if a compound epithet's output looks wrong.
 
 **[M]** Munster epenthesizes *more* in two further ways: (a) across morpheme boundaries, when
 ⟨l n r⟩ **follow** ⟨b bh ch g mh⟩ (after any vowel) or ⟨th⟩ (after short vowels), and when ⟨n⟩
 follows ⟨c g m r⟩ [wiki-irish-orthography §Epenthesis]; (b) into **rising**-sonority clusters
 that are not prosodically licensed at their level — *eagla* → [agələ] 'fear', *ocras* →
-[okərəs] 'hunger', *aigne* → [agʲənʲə] 'mind' [green1997 p.149]. **A Munster reading therefore
+[okərəs] 'hunger', *aigne* → [agʲənʲə] 'mind' [green1997-prosodic-goidelic p.149]. **A Munster reading therefore
 delivers noticeably more syllables to the target than a Connacht one.**
 
 Quiggin describes the same phenomenon for Ulster 1906 as "svarabhakti", inserted into l+b, l+g,
 l+m, l+bh, r+g, r+m etc. and explicitly **not** into l+p (*alp* stays /alp/), which matches the
-voiceless-stop exclusion [quiggin1906 §111, §138ff].
+voiceless-stop exclusion [quiggin1906-donegal §111, §138ff].
 
 **The epenthetic schwa is a near-neutralization.** McCullough measures epenthetic schwa as
 ~10 ms shorter than underlying schwa (0.059 s vs 0.069 s, p<0.029), but with **no significant
@@ -614,7 +645,7 @@ nominative" — masculine 1st-declension vocative sg. takes the **slenderized (g
 - **[C] and [U] — initial stress.** "Outside of Munster this is usually the first syllable of
   the word": *d'imigh* /ˈdʲɪmʲiː/, *easonóir* /ˈasˠən̪ˠoːɾʲ/
   [wiki-irish-phonology §Stress, from de Búrca 1958]. Ní Chasaide, for Ulster: "Primary lexical
-  stress is located on the first syllable of most words" [nichasaide1999 p.115].
+  stress is located on the first syllable of most words" [nichasaide1999-ipa-irish p.115].
   **This matches the user's transcriptions** — /ˈkɪə.ɾˠə/, /ˈmˠat̪ˠɑːnˠəx/, /ˈl̪ˠɑsˠəɾʲxosˠ/ —
   and is the default the tool should assume.
   Exceptions: "certain words, especially adverbs and loanwords, have stress on a noninitial
@@ -622,10 +653,10 @@ nominative" — masculine 1st-declension vocative sg. takes the **slenderized (g
 - **[M] — weight-attracted stress.** "Stress is attracted to a long vowel or diphthong in the
   second or third syllable of a word": *cailín* /kaˈlʲiːnʲ/, *achainí* /axəˈnʲiː/ (Ó Sé 2000).
   Green's fuller statement: **stress σ2 if heavy; else the leftmost heavy syllable within a
-  three-syllable window; else σ1** [green1997 p.123] — *cearchán* [kərˈkaːn], *bóthar*
+  three-syllable window; else σ1** [green1997-prosodic-goidelic p.123] — *cearchán* [kərˈkaːn], *bóthar*
   [ˈboːhər], *údarás* [ˈuːdəraːs], *asal* [ˈasəl]; and in 4–5-syllable words only σ1–σ3 count,
-  so *pataileachán* keeps initial stress [green1997 p.125]. Kukhto gives the same rule as
-  "σ2 if heavy, else σ3 if heavy and σ2 light, else σ1" [kukhto2019 p.1565].
+  so *pataileachán* keeps initial stress [green1997-prosodic-goidelic p.125]. Kukhto gives the same rule as
+  "σ2 if heavy, else σ3 if heavy and σ2 light, else σ1" [kukhto2019-munster-stress p.1565].
   Additionally stress is attracted to **/a/ in the second syllable when followed by /x/**,
   provided the first (and third) syllables have short vowels: *bacach* /bˠəˈkax/ 'lame',
   *slisneacha* /ʃlʲəˈʃnʲaxə/; but if the first or third syllable has a long vowel or diphthong,
@@ -638,22 +669,22 @@ nominative" — masculine 1st-declension vocative sg. takes the **slenderized (g
   are light (*beannacht* [bʲəˈnaxt], *bacacha* [bəˈkaxə]) but not when unfooted (*fásach*
   [ˈfaːsəx]); the **nominalizing -acht** '-ness' **never** attracts it, giving the near-minimal
   pair *aiteach* [əˈtʲax] 'strange' vs. *aitheacht* [ˈatʲəxt] 'strangeness'
-  [green-munster pp.4–5].
+  [green-munster-stress pp.4–5].
   **CONFLICT on why.** Green posits *both* an underlying schwa in σ1 *and* special prosodic
-  prominence for /ax/ in σ2 [green1997; green-munster]. Kukhto argues the /ax/-prominence
+  prominence for /ax/ in σ2 [green1997-prosodic-goidelic; green-munster-stress]. Kukhto argues the /ax/-prominence
   mechanism is unnecessary and that the underlying-schwa account alone suffices, citing
   *macalla* [maˈkalə] 'echo', which resists reduction without containing /ax/
-  [kukhto2019 pp.1566–1568]. **Empirically both predict the same surface stress for *-ach*
+  [kukhto2019-munster-stress pp.1566–1568]. **Empirically both predict the same surface stress for *-ach*
   epithets**, so the tool need not choose; the conflict is about mechanism.
   **CONFLICT on the three-syllable window.** Green's Munster rule depends on it, but Green's
   own earlier paper reports Gussmann (1995) finding 4th-syllable stress, "thereby disproving
-  the hypothesis of the three-syllable 'stress window'" [green-munster p.3], and Rowicka's
-  independent account also predicts non-window patterns [rowicka pp.7–8]. The three sources
+  the hypothesis of the three-syllable 'stress window'" [green-munster-stress p.3], and Rowicka's
+  independent account also predicts non-window patterns [rowicka-munster-stress pp.7–8]. The three sources
   disagree three ways on the stress of *imigéiniúla* 'distant (pl.)': penultimate
-  (Gussmann, Rowicka [rowicka pp.7–8]) vs. antepenultimate (Green, citing Ó Sé p.c., who calls
-  Gussmann's citation unreliable [green1997 p.125 fn.18]). Rowicka further disputes the
+  (Gussmann, Rowicka [rowicka-munster-stress pp.7–8]) vs. antepenultimate (Green, citing Ó Sé p.c., who calls
+  Gussmann's citation unreliable [green1997-prosodic-goidelic p.125 fn.18]). Rowicka further disputes the
   framing that initial stress is the Munster default at all, arguing primary stress is
-  "preferably non-initial" [rowicka p.6]. **Only relevant if the user ever switches the
+  "preferably non-initial" [rowicka-munster-stress p.6]. **Only relevant if the user ever switches the
   reference dialect to Munster.**
 - **Compound stress — four patterns** [wiki-irish-phonology §Compound words, from Ó Liatháin et
   al. 1998]:
@@ -676,12 +707,12 @@ nominative" — masculine 1st-declension vocative sg. takes the **slenderized (g
   *síneadh fada* ⟨á é í ó ú⟩ and by vowel digraphs [wiki-irish-orthography §Vowels].
 - **Only long vowels and diphthongs are heavy; coda consonants do not contribute weight.**
   "Only syllables containing a long vowel or a diphthong count as heavy. Consonants in the coda
-  do not contribute to syllable weight" [rowicka p.2]; "recall that CVC syllables are light"
-  [green1997 p.121], and Modern Irish differs from **Old Irish** here, where CVC *was* heavy —
+  do not contribute to syllable weight" [rowicka-munster-stress p.2]; "recall that CVC syllables are light"
+  [green1997-prosodic-goidelic p.121], and Modern Irish differs from **Old Irish** here, where CVC *was* heavy —
   the evidence being the absence of compensatory lengthening in forms like *fúl*, *brígh*
-  [green1997 pp.72–73]. **This is a real Old-Irish/Modern-Irish difference that §10 has to
+  [green1997-prosodic-goidelic pp.72–73]. **This is a real Old-Irish/Modern-Irish difference that §10 has to
   carry.**
-- **Unstressed long vowels behave differently by dialect** [green1997 pp.76, 94]:
+- **Unstressed long vowels behave differently by dialect** [green1997-prosodic-goidelic pp.76, 94]:
   **[U]** Ulster (and Scottish Gaelic) categorically **shortens** unstressed long vowels —
   *cailín* [ˈkalʲinʲ] < [ˈkalʲiːnʲ], *galún* [ˈgalun] 'gallon'. **[M]** Munster instead
   **shifts stress onto** the heavy syllable rather than shortening it. **[C]** Connacht does
@@ -689,7 +720,7 @@ nominative" — masculine 1st-declension vocative sg. takes the **slenderized (g
   vowels**, which is what the user's *Matánach* /ˈmˠat̪ˠɑːnˠəx/ shows. Ulster also has an
   irregular, lexically variable *trochaic shortening* of a stressed heavy initial syllable
   before an unstressed light one, but only 6 of 52 eligible LASID forms show it
-  [green1997 p.77].
+  [green1997-prosodic-goidelic p.77].
 - **Lengthening/diphthongization before "fortis" sonorants** — the reflexes of Old Irish fortis
   sonorants in syllable-final position lengthen or diphthongize the preceding vowel
   [wiki-irish-phonology §Lengthening before fortis sonorants]:
@@ -768,7 +799,17 @@ may want to omit it.
 
 ## 6. Morphology usable for epithets
 
-Ten productive patterns, source-side, that the generator can build an epithet from.
+Ten patterns, source-side, that the generator can build an epithet from.
+
+⚠️ **Sourcing caveat, applying to rows 1–5.** No held source in this directory is a grammar or a
+dictionary of Irish derivation. `wiki-irish-declension` supports the **declension class** of a
+derived noun (e.g. that *-ín* nouns are 4th declension, that *-óir* nouns are 3rd with genitive
+*-óra*) and `wiki-irish-orthography` / `wiki-irish-phonology` supply the **pronunciations**. The
+**meanings and the productivity claims in the "Function" column are (unattested)** — they are
+general knowledge, listed here because the generator needs candidate affixes, not because a held
+source establishes them. The example words and their IPA are attested; the glosses attached to
+the *affixes* are not. Verify against a grammar (Ó Siadhail 1989, paywalled) or eDIL before
+generating epithets in bulk.
 
 | # | Form | Function | Attachment | Example |
 |---|---|---|---|---|
@@ -779,7 +820,7 @@ Ten productive patterns, source-side, that the generator can build an epithet fr
 | 5 | **-úil** (adj., /uːlʲ/) | 'like, -ly' | to a noun; 3rd-decl. adj. (fem. gen. -úla) | *cosúil* /ˈkɔsˠuːlʲ/ 'like'; *leisciúil* /ˈl̠ʲɛʃcuːlʲ/ 'lazy'; *ríúil* /ˈɾˠiːuːlʲ/ 'kingly' [wiki-irish-orthography; wiki-irish-declension §Adjectives] |
 | 6 | **Attributive adjective after the noun**, agreeing | the basic epithet | lenites after fem. sg., after a slender-final plural, and after masc. sg. genitive | *Máire Bhán*, *Pádraig Rua* [wiki-irish-name §Epithets; wiki-irish-declension §Adjectives] |
 | 7 | **Preposed adjective / intensifying prefix + lenition** | compound epithet | *sean-, droch-, dea-, nua-, tréan-, fíor-, ard-, óg-, an-, ró-, príomh-* | *seanbhean*, *drochdhuine*, *ardbhrú*, *ógfhear*, *an-mhaith* /ˈanˈwa/ [wiki-irish-mutations §After preposed adjectives, §After most prefixes] |
-| 8 | **Noun + noun compound**, second element lenited | *Lasairchos* type | see §3.6 — attested for prefixes, extrapolated for N+N | *Lasairchos* /ˈl̪ˠɑsˠəɾʲxosˠ/ 'flame-foot' (user's transcription) |
+| 8 | **PROVISIONAL — noun + noun compound**, second element lenited | *Lasairchos* type | **Not a sourced pattern.** No held source states noun+noun lenition (§3.6); it is extrapolated from the prefix/preposed-adjective rule, and corroborated only by the user's own transcription and by the Old Irish rule (§10.5: "in the interior of nominal compounds aspiration takes place… after nouns" [pokorny1914-oldirish-grammar p.8 §16]). Confirm before bulk use | *Lasairchos* /ˈl̪ˠɑsˠəɾʲxosˠ/ 'flame-foot' (user's transcription) |
 | 9 | **Genitive of a following noun** (*X na Y*, *X + gen.*) | 'X of the Y' | article *na* + gen.; gen. pl. eclipses | *na hoíche* 'of the night'; *na bhfocal* [wiki-irish-mutations §Changes to vowel-initial words, §Environments of eclipsis] |
 | 10 | **Ó / Mac / Ní / Nic / Uí / Mhic + genitive name** | patronymic | see §3.4 table | *Ó Súilleabháin*, *Ní Bhriain*, *Mac Giolla Phádraig*, *Ó Maoil Eoin* [wiki-irish-name §Ó and Mac surnames] |
 
@@ -801,58 +842,90 @@ Columns: `orthography, ipa, dialect, gloss, category, features, note`.
 `features` is a semicolon list of the §8 mismatch cases the word exercises, so the harness can
 select a subset ("all the words with `slender_coronal`") when testing one target's rules.
 
-**Count and provenance: 102 rows** — 29 `name`, 20 `epithet`, 53 `descriptor`.
-- **79 rows carry IPA copied verbatim from a held source**, overwhelmingly
-  `wiki-irish-orthography §Grapheme to phoneme correspondence` and
-  `wiki-irish-phonology §Word-initial consonant clusters` / `§Post-vocalic consonant clusters
-  and epenthesis` / `§Compound words`, which between them supply ~550 word+IPA pairs. The
-  `note` column names the section for every row.
-- **20 rows are marked `(constructed)`** in the note column: personal names for which no held
-  source gives IPA. Each was assembled from attested pieces and the note names the attested
-  model (e.g. *Sorcha* /ˈsˠɔɾˠəxə/ from attested *dorcha* /ˈd̪ˠɔɾˠəxə/; *Saoirse* /ˈsˠiːɾˠʃə/
-  from attested *doirse* /ˈd̪ˠoːɾˠʃə/), following the caol-le-caol rule of §5.1. **These are
-  the least trustworthy rows and should be the first replaced if the user hand-transcribes
-  them.**
-- **3 rows are the user's own transcriptions** (*Ciara*, *Matánach*, *Lasairchos*), noted as such.
+**Count and provenance: 144 rows** — 31 `name`, 20 `epithet`, 93 `descriptor`. Every row carries
+a `src:` tag as its first feature, so provenance is machine-filterable:
 
-**`dialect` column values:** `std` = the Wikipedia pan-dialectal scheme (§0), `C` Connacht,
-`M` Munster, `U` Ulster.
+| `src:` tag | Rows | What it means |
+|---|---|---|
+| `src:attested` | 113 | The `ipa` string is **copied verbatim** from a held source; the `note` names the source and section |
+| `src:constructed` | 14 | No held source gives IPA for the form. Assembled from attested pieces, and **the note names the attested model word(s)** |
+| `src:provisional` | 13 | Constructed with **no model word, or a model covering only a substring**. ⚠️ **Not regression truth** — see below |
+| `src:user` | 3 | The user's own transcriptions (*Ciara*, *Matánach*, *Lasairchos*) |
+| `src:inferred` | 1 | This digest's reconstruction of a form no source gives (*Ciara* /ˈciəɾˠə/, §9.2) |
+
+⚠️ **The 13 `src:provisional` rows are examples, not expected outputs.** Six of them
+(*Rónán, Oisín, Úna, Máire, Séamus, Dónall*) have **no model word at all**; the rest
+(*Aoife, Pádraig, Cathal, Tadhg, Gráinne, Saoirse, Ní Bhriain*) have a model that supports only
+part of the form, and each note says which part. A harness should exclude `src:provisional`
+from any pass/fail run until the user or a dictionary/audio source replaces them. They are kept
+because they are the only given-name coverage available: `wiki-irish-name` has two large tables
+of Irish personal names and **no pronunciations at all**
+[wiki-irish-name §Examples of first names and surnames], and eDIL has no bulk download or API
+[bib.md §edil].
+
+The 113 attested rows come overwhelmingly from `wiki-irish-mutations §Summary table` (a
+radical/lenited/eclipsed exemplar triad with IPA for every mutable initial),
+`wiki-irish-orthography §Grapheme to phoneme correspondence`, and
+`wiki-irish-phonology §Word-initial consonant clusters` / `§Post-vocalic consonant clusters and
+epenthesis` / `§Compound words` / `§Allophones` / `§Munster`.
+
+**`dialect` column:** `std` = the Wikipedia pan-dialectal scheme (§0), `C` Connacht, `M` Munster,
+`U` Ulster. **These are separate fixtures, not variants of one row — filter on `dialect` before
+running a regression set (§8.6).**
+
+**Representation level — read §8.6 before using the file.** In one line: the **`ipa` column is
+verbatim as the source printed it** (phonemic or phonetic, with whatever L/N symbols the source
+used), while **`features` tags name underlying phonemes of the Connacht/standard system of
+§1.1**. Where the two diverge the row's `note` says so explicitly (e.g. *Gaelach* /ˈɡeːlˠəx/ is
+tagged `seg:l̪ˠ`; *naomh* [n̪ˠiːvˠ] is tagged `seg:w`; *Diarmaid* /dʲiərmədʲ/ asserts **no** tag
+for the ⟨r⟩ its source prints unmarked).
 
 **`features` vocabulary** — semicolon-separated, keyed to §8:
 
 | Prefix | Tags |
 |---|---|
+| `src:` provenance | `src:attested`, `src:constructed`, `src:provisional`, `src:user`, `src:inferred` |
 | `bs:` broad/slender contrast at a place | `bs:labial`, `bs:coronal`, `bs:dorsal` |
-| `seg:` a §8.2 segment the word contains | `seg:x`, `seg:ç`, `seg:ɣ`, `seg:j`, `seg:h`, `seg:w`, `seg:vʲ`, `seg:ŋ`, `seg:ɲ`, `seg:c-ɟ`, `seg:ɾˠ`, `seg:ɾʲ`, `seg:l̪ˠ`, `seg:lʲ`, `seg:n̪ˠ`, `seg:nʲ`, `seg:ʃ`, `seg:t̪ˠ` |
+| `seg:` a §8.2 segment (underlying phoneme) | `seg:x`, `seg:ç`, `seg:ɣ`, `seg:j`, `seg:h`, `seg:w`, `seg:vʲ`, `seg:ŋ`, `seg:ɲ`, `seg:c-ɟ`, `seg:ɾˠ`, `seg:ɾʲ`, `seg:l̪ˠ`, `seg:lʲ`, `seg:n̪ˠ`, `seg:nʲ`, `seg:ʃ`, `seg:t̪ˠ`, `seg:d̪ˠ`, `seg:fortis-lenis` |
 | `len:`/`dip:` §8.3 | `len:V` (contains a long vowel), `dip:iə`, `dip:uə`, `dip:əi`, `dip:əu` |
-| `syl:` §2/§8.4 | `syl:onsetCC`, `syl:onsetCCC`, `syl:sC`, `syl:codaCC`, `syl:qualmismatch`, `syl:CnCr` |
-| `eps:` §2.4 | `eps:epenthetic` (contains an epenthetic schwa), `eps:blocked` (an epenthesis environment where a blocker applies) |
-| `mut:` §3.1–3.3 | `mut:lenition`, `mut:eclipsis`, `mut:hproth`, `mut:tproth` |
-| `mor:` §3.5/§6 | `mor:genitive`, `mor:vocative`, `mor:compound`, `mor:patronymic`, `mor:suffix-ach`, `mor:suffix-ín`, `mor:suffix-úil`, `mor:suffix-óir` |
-| `str:` §4.1 | `str:initial`, `str:munster`, `str:compound` |
+| `syl:` §2/§8.4 | `syl:onsetCC`, `syl:onsetCCC`, `syl:sC`, `syl:codaCC`, `syl:medialCC`, `syl:qualmismatch`, `syl:CnCr` |
+| `eps:` §2.4 | `eps:epenthetic`, `eps:blocked` |
+| `mut:` §3.1–3.3 | `mut:lenition`, `mut:eclipsis`, `mut:hproth`, `mut:tproth`, `mut:nproth` |
+| `mor:` §3.5/§6 | `mor:genitive`, `mor:vocative`, `mor:adjagreement`, `mor:compound`, `mor:patronymic`, `mor:suffix-ach`, `mor:suffix-ín`, `mor:suffix-úil`, `mor:suffix-óir` |
+| `str:` §4.1 | `str:initial`, `str:exceptional` (attested non-initial stress outside Munster), `str:munster`, `str:compound` |
 
-So a harness can select "every word exercising /ɣ/" as `grep 'seg:ɣ'`, or "every word whose
-output tests the epenthesis blockers" as `grep 'eps:blocked'`.
+Two tag conventions worth stating: `syl:codaCC` is used **only** for a genuine word-final
+cluster, `syl:medialCC` for a cluster across a syllable boundary (so *dualgas*, *caisleán*,
+*Pádraig*, *sneachta* are `medialCC`, and *ard*, *dorn*, *splanc*, *beirt* are `codaCC`); and
+`seg:fortis-lenis` marks the two rows (*naomh*, *leanbh*) whose whole point is the fortis/lenis
+sonorant contrast that the §1.1 two-way normalization deletes — **those two tests are
+intentionally inapplicable to a Connacht input, and the notes say so.**
 
-**Deliberate minimal pairs in the set**, for testing that a target's rules preserve a
-distinction Irish makes:
+**§3 coverage.** Every mapping in the §3.1 lenition table, the §3.2 eclipsis table and the §3.3
+prothesis table now has at least one attested test row, via the `wiki-irish-mutations` exemplar
+triads (*bean/bhean/mbean*, *ceann/cheann/gceann*, *droim/dhroim/ndroim*,
+*freagra/fhreagra/bhfreagra*, *glúin/ghlúin/nglúin*, *peann/pheann/bpeann*,
+*teach/theach/dteach*, *máthair/mháthair*, *súil/shúil/an tsúil*, *éan/n-éan/t-éan/héan*).
+The §3.4 **triggers** are covered by `an tsúil` and `an tsaoil` (attested) plus six constructed
+phrases composed from two attested strings each — `an bhean` (article + fem. nom.),
+`mo pheann` (possessive lenition), `a bpeann` (plural possessive eclipsis), `na bpeann`
+(genitive plural after the article), `deich bpeann` (numeral eclipsis), and `bhán` (attributive
+adjective agreement, the *Máire Bhán* form).
+
+**Deliberate minimal pairs**, for testing that a target preserves a distinction Irish makes:
 - *mac* /mˠak/ ~ *mic* /mʲɪc/ — genitive by slenderization of both consonants.
 - *caisleán* /ˈkaʃl̠ʲaːnˠ/ ~ *caisleáin* /ˈkaʃl̠ʲaːnʲ/ — genitive differing **only** in the
   final consonant's quality. **A target that neutralizes quality loses this pair entirely.**
 - *Seán* /ʃaːnˠ/ ~ *a Sheáin* [ə çaːnʲ] — vocative = lenition + slenderization at once.
-- *mór* /mˠoːɾˠ/ ~ *mhór* /woːɾˠ/ — radical vs. lenited.
+- Ten radical ~ lenited ~ eclipsed triads (above) — the full §3 mapping set.
+- *a pheann* ~ *a bpeann* ~ *a peann* — one particle *a*, three mutations, three meanings
+  ('his' / 'their' / 'her') [wiki-irish-mutations §After plural possessive pronouns].
 - *cnoc* /kɾˠʊk/ ~ *cnaipe* /ˈkn̪ˠapʲə/ — the Cn→Cɾ dialect split.
-- *speal* /sˠpʲal/, *sméara* /sˠmʲeːɾˠə/ (onset) and *beirt* /bʲɛɾˠtʲ/ (coda) — the
-  quality-mismatch cases.
-- *ainm* /ˈanʲəmʲ/ and *dearg* /ˈdʲaɾˠəɡ/ — epenthetic schwa; their near-minimal partners
-  *anam*, *léirigh* carry an underlying schwa [irish-schwa-kwpl p.5].
-
-**Bias to be aware of:** the attested IPA is heavily weighted toward *common nouns and
-adjectives*, because those are what the Wikipedia articles use as illustrations.
-`wiki-irish-name` contains large tables of Irish personal names but **gives no pronunciations
-at all** [wiki-irish-name §Examples of first names and surnames] — hence the 20 constructed
-rows, which are almost all given names. eDIL has no bulk download or API [bib.md §edil], so
-there was no way to close this gap automatically.
+- *speal* /sˠpʲal/, *sméara* /sˠmʲeːɾˠə/ (onset) and *beirt* /bʲɛɾˠtʲ/ (coda) — quality mismatch.
+- *ainm* /ˈanʲəmʲ/, *dearg* /ˈdʲaɾˠəɡ/ — epenthetic schwa; their near-minimal partners *anam*,
+  *léirigh* carry an underlying schwa [irish-schwa-kwpl p.5].
+- *dubh* /d̪ˠʊw/ ~ [d̪ˠʊvˠ] and *naomh* /n̪ˠiːw/ ~ [n̪ˠiːvˠ] — **not** minimal pairs but the
+  scheme-vs-dialect conflict of §8.6, carried as two rows each.
 
 ## 8. Catalogue: the Irish segments and structures every target must decide about
 
@@ -861,46 +934,59 @@ donor actually presents, how often, and what the options are. **Nothing here is 
 
 ### 8.1 The broad/slender contrast — the decision that dominates all others
 
-**What the donor presents:** a near-complete doubling of the consonant inventory, ~15 pairs
-(§1.1), present in **every** Irish word, and carrying grammatical information (§3.5).
+**What the donor presents:** a near-complete doubling of the consonant inventory — every
+consonant except /h/ comes in a broad/slender pair [wiki-irish-phonology §Consonants] — carrying
+grammatical information (§3.5). It is pervasive rather than universal: a vowel-only or
+vowel-initial word displays no quality at all (*ádh* /aː/, *ard* /aːɾˠd̪ˠ/ has it only on the
+coda), and /h/ is unpaired. *(The "pervasive" characterization is a digest generalization over
+the ~550 harvested transcriptions, not a sourced frequency claim — unattested as a count.)*
 
 **What it actually is, articulatorily** (Connemara ultrasound, i.e. our reference dialect):
 palatalization = active tongue-body **raising + fronting**, an [j]/[i]-like gesture;
 velarization = tongue-body **backing**. Both also involve an independent tongue-**root**
 component (~30% of the variance), so this is not purely a backness contrast
-[nichiosain2018 p.31].
+[nichiosain2018-ultrasound-connemara p.31].
 
 Place-by-place robustness — **this is the evidence for a place-sensitive adaptation rule**:
 - **Labials:** robust, large tongue-body excursions for both palatalized and velarized —
   contradicting the traditional claim that slender labials are barely palatalized. But labials
   are the **most variable** place, since there is no lingual primary constriction to anchor to
-  [nichiosain2018 pp.5–7, p.32].
+  [nichiosain2018-ultrasound-connemara pp.5–7, p.32].
 - **Coronals: the weakest contrast.** For /sˠ/ vs /ʃ/ the backness difference is near-absent;
   /t̪ˠ/ vs /tʲ/ is better separated mainly because /tʲ/ is strongly fronted. Irish compensates
   with **secondary acoustic cues**: /tʲ ʃ/ have louder, longer, higher-CoG frication and are
-  frequently affricated [nichiosain2018 p.31]. **This means the coronal broad/slender contrast
+  frequently affricated [nichiosain2018-ultrasound-connemara p.31]. **This means the coronal broad/slender contrast
   is partly a sibilant-quality contrast** — /sˠ/ vs /ʃ/ — which most targets can carry directly
   as /s/ vs /ʃ/.
 - **Dorsals:** height difference minimal (both closures are high) but **backness difference
   large**; velarized /x/ is markedly further back and lower than /k/, "possibly indicating
-  uvular realization" — i.e. **velarization may be uvularization** [nichiosain2018 p.31].
+  uvular realization" — i.e. **velarization may be uvularization** [nichiosain2018-ultrasound-connemara p.31].
   **This is the single most useful finding for the Arabic strand**, where broad → emphatic /
   uvular is on the table.
 
-**Position:** the contrast is **weaker in codas**, significantly so for **labials and dorsals**
-but *not* for coronals; coda ranking of stability is Coronal > Labial > Dorsal
-[bennett-syllpos §7.1]. No position fully neutralizes it. Cause: general coda gestural
-reduction plus stronger coarticulation of velarized consonants with the preceding vowel
-[bennett-syllpos §7.1]. **So "neutralize quality in codas" is a defensible target-side rule with
-Irish-internal support — but it should apply to labials and dorsals, not coronals.**
+**Position:** the contrast is realized **less distinctly in codas**, significantly so for
+**labials and dorsals** but *not* for coronals; coda ranking of stability is
+Coronal > Labial > Dorsal [bennett-syllable-position-irish §5.1, §7.1]. Cause: general coda
+gestural reduction plus stronger coarticulation of velarized consonants with the preceding vowel
+[bennett-syllable-position-irish §7.1].
+
+**Read this carefully — it is a gradient articulatory finding, not a neutralization rule.** The
+paper reports lower coda RMSSD for dorsals and labials and no significant onset/coda difference
+for coronals; **it does not document, and Irish does not have, a categorical coda neutralization
+of the broad/slender contrast**, and the paper treats Irish throughout as retaining the contrast
+in codas. So a target-side rule "neutralize quality in codas" is **a deliberate design
+simplification for this fictional setting** — it can be *motivated* by the gradient data (if the
+contrast has to be sacrificed somewhere, the coda is where Irish itself realizes it least
+distinctly, and least distinctly of all at labials and dorsals), but it must not be presented as
+transferring an Irish rule. Nothing in §8.1 is decided here.
 
 **Unit segment or C+glide?** The timing paper does not answer this in those terms, but its data
 bear on it: in onsets the secondary gesture **lags** the primary one and peaks at release; in
 codas the two gestures align independently to different landmarks by place (coda /Pʲ/ to the VC
-transition, coda /Tʲ/ to C release) [bennett-timing §3.2, §9]. That is more consistent with a
+transition, coda /Tʲ/ to C release) [bennett-gestural-timing-irish §3.2, §9]. That is more consistent with a
 **two-gesture, sequenced** coordination than a synchronous single segment — though the authors
 themselves treat the secondary articulation as a property of one consonant "at least
-phonologically" [bennett-timing p.38]. **Report this as an inference, not their claim.**
+phonologically" [bennett-gestural-timing-irish p.38]. **Report this as an inference, not their claim.**
 The **on/off-glides of §1.2 are already there phonetically** ([ɰ], [w], [j], [ə̯], [i̯]), so
 "Cʲ → Cj" and "Cˠ → Cw/Cɰ" are not inventions — they externalize something audible.
 
@@ -912,39 +998,53 @@ The **on/off-glides of §1.2 are already there phonetically** ([ɰ], [w], [j], [
    backed vowel. Has the most Irish-internal support (§1.2 vowel allophony).
 4. **Map onto a marked target series** — Arabic emphatics for broad (with the uvular finding
    above as support), a palatalized series where a target has one.
-5. **Place-sensitive hybrid** — carry the contrast on coronals (as /s/ vs /ʃ/, /t/ vs /tʃ/),
-   drop it on labials and dorsals, drop it in codas. The articulatory evidence supports exactly
-   this split.
+5. **Place-sensitive hybrid** — carry the contrast on coronals (as /s/ vs /ʃ/, /t/ vs /tʃ/)
+   in all positions, and drop it on labials and dorsals. If a coda-only simplification is also
+   wanted, it should apply to **labials and dorsals only**, leaving coronal codas contrastive —
+   otherwise it contradicts the place ranking that motivates the option in the first place.
+   The articulatory data of §8.1 makes this the least destructive ordering; **it does not make
+   it an Irish rule** (see the gradient caveat above).
 
 ### 8.2 The segment-by-segment list
 
-Each target digest must give a row for each. "Frequency" is impressionistic from the ~550
-attested transcriptions harvested here (unattested as a count).
+Each target digest must give a row for each.
+
+**Two standing caveats on this table.**
+1. **The "Frequency" column is (unattested) throughout.** Every value in it — including the
+   sub-claims "every *-ach* epithet ends /əx/" and "/pˠ pʲ/ low in native vocabulary" — is this
+   digest's impression from the ~550 harvested transcriptions plus the shape of the Wikipedia
+   example lists. No source in this directory gives Irish segment frequencies, and no held
+   source states that /pˠ pʲ/ is marginal. Treat the column as a rough ordering for
+   prioritization, never as evidence.
+2. **The "Notes" column must not settle target-side questions.** Where a note names a target
+   language's inventory it is a **pointer to be checked in that target's digest**, sourced (if
+   at all) to `../../notes/project-goals.md` rather than to any description of that language.
+   This is a source-side digest; it catalogues what Irish supplies.
 
 | Irish segment | Source | Frequency in names | Notes for the target decision |
 |---|---|---|---|
 | **/x/** | radical ⟨ch⟩; lenition of /k/; the *-ach* suffix | **very high** — every *-ach* epithet ends /əx/ | *Matánach* /…nˠəx/, *taoiseach* /ˈt̪ˠiːʃəx/, *Gaelach*, *Lasairchos* /…xosˠ/. **[U]** can be [h] or delete finally [wiki-irish-phonology §Allophones]. Georgian has /x/; Welsh has /χ/; Arabic has /x/; Dutch has /x/ — this one is mostly free. |
-| **/ç/** | lenition of /c/; /h/ before back vowels | moderate | *cheist* /çɛʃtʲ/, *deich* /dʲɛç/, *oíche* /ˈiːçə/, *a Sheáin* [ə çaːnʲ]. Dutch and German have it; Welsh, Arabic, Georgian do not. |
-| **/ɣ/** | lenition/eclipsis of ⟨d g⟩ | moderate, and **word-initial** in mutated forms | *dhorn* /ɣoːɾˠn̪ˠ/, *ghasúr* /ˈɣasˠuːɾˠ/, *droch-dhuine* /…ˈɣinʲə/. **No home in Welsh or Arabic**; the project note suggests /ʁ/ [project-goals]. Georgian **has** /ɣ/. Dutch has /ɣ/ (or /ɦ/ in the north). |
-| **/j/** | lenition of ⟨d g⟩ slender; ⟨gh dh⟩ | moderate, word-initial in mutated forms | *dhearg* /ˈjaɾˠəɡ/, *gheata* /ˈjat̪ˠə/, *Fíor-Dhia* /…ˈjiːə/. Allophone [ʝ] preconsonantally. **[M]** final /j/ → [ɟ]. |
-| **/h/** | ⟨h⟩; lenition of /t̪ˠ tʲ sˠ ʃ/; h-prothesis | **high** — every lenited t/s | *hata*, *thall* /haːl̪ˠ/, *athair* /ˈahəɾʲ/, *na héisc*. Can be **elided intervocalically** [wiki-help-ipa-irish note 4]. Every target has /h/ except Georgian (which has /h/) and Dutch (/ɦ/) — mostly free; French-type targets would be the problem. |
-| **/w/** | lenition of /bˠ mˠ/; eclipsis of /fˠ/; ⟨bh mh⟩ medially | **high** | *bhain* /wanʲ/, *mhór* /woːɾˠ/, *ábhar* /ˈaːwəɾˠ/, *leanbh* /ˈl̠ʲanˠəw/, *Siobhán* /ˈʃʊwaːnˠ/. **[C]:** [w] initially, **[vˠ]** elsewhere — so the same phoneme presents two very different targets depending on position. Arabic has /w/; Georgian has /v/ not /w/. |
-| **/vʲ/** | lenition of /bʲ mʲ/; ⟨bh mh⟩ slender | high | *bhéal* /vʲeːlˠ/, *nimh* /n̠ʲɪvʲ/, *seirbhís* /ˈʃɛɾʲəvʲiːʃ/, *veidhlín* /ˈvʲəilʲiːnʲ/. Georgian lacks /f/ but has /v/; Arabic **lacks /v/** (→/f/ per project-goals). |
-| **/fˠ fʲ/** | radical ⟨f⟩; lenition of /pˠ pʲ/ | moderate | *fós*, *fíon*, *pholl* /fˠoːl̪ˠ/. **Georgian lacks /f/** [project-goals] — a required decision there. |
+| **/ç/** | lenition of /c/; /h/ before back vowels | moderate | *cheist* /çɛʃtʲ/, *deich* /dʲɛç/, *oíche* /ˈiːçə/, *cheann* /çaːn̪ˠ/, *a Sheáin* [ə çaːnʲ] [wiki-irish-mutations §Summary table]. Also the realization of lenition-/h/ before back vowels (§1.1). Target fit: check each target digest. |
+| **/ɣ/** | **lenition only** — of broad /d̪ˠ/ and /ɡ/ ⟨dh gh⟩; also radical ⟨gh dh⟩ medially | moderate, and **word-initial** in lenited forms | *dhorn* /ɣoːɾˠn̪ˠ/, *ghasúr* /ˈɣasˠuːɾˠ/, *dhroim* /ɣɾˠiːmʲ/, *ghlúin* /ɣl̪ˠuːnʲ/, *droch-dhuine* /…ˈɣinʲə/ [wiki-irish-mutations §Summary table]. **Eclipsis does NOT produce /ɣ/**: eclipsed /d̪ˠ/ → /n̪ˠ/ and /ɡ/ → /ŋ/ (§3.2). Target fit is a question for each target digest, not this one. |
+| **/j/** | lenition of ⟨d g⟩ slender; ⟨gh dh⟩ | moderate, word-initial in mutated forms | *dhearg* /ˈjaɾˠəɡ/, *gheata* /ˈjat̪ˠə/, *Fíor-Dhia* /…ˈjiːə/ [wiki-irish-orthography §Grapheme to phoneme correspondence]. Like /ɣ/, a **lenition** product only — eclipsed /dʲ/ → /n̠ʲ/, /ɟ/ → /ɲ/ (§3.2). Allophone [ʝ] preconsonantally. **[M]** final /j/ → [ɟ]. |
+| **/h/** | ⟨h⟩; lenition of /t̪ˠ tʲ sˠ ʃ/; h-prothesis | **high** — it is the lenition output of both coronal stops and both sibilants | *hata*, *thall* /haːl̪ˠ/, *theach* /hax/, *shúil* /huːlʲ/, *athair* /ˈahəɾʲ/, *na héisc* /n̪ˠə heːʃc/. Can be **elided intervocalically** [wiki-help-ipa-irish note 4]. Whether each target has a usable /h/ (vs. /ɦ/, /χ/, or nothing) is a question for that target's digest. |
+| **/w/** | lenition of /bˠ mˠ/; eclipsis of /fˠ/; ⟨bh mh⟩ medially | **high** | *bhain* /wanʲ/, *mhór* /woːɾˠ/, *ábhar* /ˈaːwəɾˠ/, *leanbh* /ˈl̠ʲanˠəw/, *mháthair* /waːhəɾʲ/, *Siobhán* /ˈʃʊwaːnˠ/. **[C]:** [w] initially, **[vˠ]** elsewhere — so the same phoneme presents two very different surface forms by position, and the input string shows whichever the transcriber chose (§8.6). Target fit: check each target digest. |
+| **/vʲ/** | lenition of /bʲ mʲ/; ⟨bh mh⟩ slender | high | *bhéal* /vʲeːlˠ/, *nimh* /n̠ʲɪvʲ/, *seirbhís* /ˈʃɛɾʲəvʲiːʃ/, *bhean* /vʲanˠ/, *bhfreagra* /vʲɾʲaɡɾˠə/ [wiki-irish-mutations §Summary table]. `../../notes/project-goals.md` asserts Arabic lacks /v/ (→/f/) — verify in the Arabic digest. |
+| **/fˠ fʲ/** | radical ⟨f⟩; lenition of /pˠ pʲ/ | moderate | *fós*, *fíon*, *pholl* /fˠoːl̪ˠ/, *pheann* /fʲaːn̪ˠ/ [wiki-irish-mutations §Summary table]. `../../notes/project-goals.md` asserts Georgian lacks /f/ — verify in the Georgian digest. |
 | **/pˠ pʲ/** | ⟨p⟩ | **low in native vocabulary** — the article does not flag it as marginal, but ⟨p⟩ is mostly in loans and in eclipsed/lenited forms | *poll*, *príosún*, *pic*. Not a problem for any target. |
-| **/ŋ/, /ɲ/** | eclipsis of /ɡ/, /ɟ/; ⟨ng⟩ | moderate, and crucially **word-initial** after eclipsis | *ngasúr* /ˈŋasˠuːɾˠ/, *ngeata* /ˈɲat̪ˠə/, *long* /l̪ˠuːŋɡ/, *rinc* /ɾˠɪɲc/, *cuing* /kɪɲɟ/. **Word-initial /ŋ ɲ/ is banned in most targets.** Only arises if the generator emits eclipsed forms (§9). |
+| **/ŋ/, /ɲ/** | eclipsis of /ɡ/, /ɟ/; ⟨ng⟩ | moderate, and crucially **word-initial** after eclipsis | *ngasúr* /ˈŋasˠuːɾˠ/, *ngeata* /ˈɲat̪ˠə/, *long* /l̪ˠuːŋɡ/, *rinc* /ɾˠɪɲc/, *cuing* /kɪɲɟ/, *nglúin* /ŋl̪ˠuːnʲ/. Word-initially they arise **only** from eclipsis, so only if the generator emits eclipsed forms (§9.1). Whether a target bans initial /ŋ ɲ/: check each target digest. |
 | **/ɾˠ/ vs /ɾʲ/** | everywhere | **very high** | Both are taps in the transcription, but /ɾʲ/'s primary allophone is a palatalized postalveolar **fricative [ɹ̝ʲ]** [wiki-irish-phonology §Allophones]. A target with a single /r/ or /ɾ/ must choose whether the slender member becomes /rʲ/, /rj/, /ʒ/-ish, or merges. Note Irish has **no trill** in the modern dialects — the four historical rhotics merged to two taps [wiki-irish-phonology §Fortis and lenis sonorants]. Also note the **/ɾˠ before slender coronals** exception of §2.3, which delivers quality-mismatched /ɾˠtʲ/, /ɾˠdʲ/, /ɾˠʃ/, /ɾˠnʲ/, /ɾˠlʲ/. |
-| **/l̪ˠ lʲ n̪ˠ nʲ/** (the four laterals/nasals) | everywhere | **very high** | Present in every transcription. Broad /l̪ˠ n̪ˠ/ are **dental**; slender /lʲ nʲ/ alveolar/alveolo-palatal [wiki-irish-phonology §Allophones]. The four-way fortis/lenis system of the IPA key (/l̪ˠ lˠ l̠ʲ lʲ/, /n̪ˠ nˠ n̠ʲ nʲ/) is not distinguished by any modern dialect [wiki-help-ipa-irish notes 5, 6] — so treat input as two-way per §1.1. A target must decide: dental vs. alveolar (usually free), and slender /lʲ nʲ/ vs /lj nj/ vs /ʎ ɲ/. |
-| **Voiceless sonorants** | — | **not a phoneme; a phonetic effect** | Two sources describe them. Quiggin documents voiceless L, l, L′, l′, N, n, N′, r, r′ "with strongly breathed off-glide", arising from historical sonorant + *th*/*f(h)* clusters, mainly in the future tense [quiggin1906 §213, §220, §227, §232, §242, §248, §259, §264, §279, §288]. Ní Chasaide reports nasals and liquids are **devoiced before and after voiceless plosives**, and that prepausal /l n/ devoice [nichasaide1999 p.113]. Neither is a contrastive segment. **The project-goals note "Irish lenition outputs [v w j h] and voiceless sonorants" is only half right**: [v w j h] are phonemic lenition outputs; the voiceless sonorants are allophonic and mostly verbal-morphological. **Recommendation: do not put voiceless sonorants in the input inventory.** |
+| **/l̪ˠ lʲ n̪ˠ nʲ/** (the laterals and nasals) | everywhere | **very high** | ⚠️ **Source strings do not use one symbol set** — see §8.6; the Wikipedia articles print /lˠ l̠ʲ nˠ n̠ʲ/ in individual transcriptions (*béal* /bʲeːlˠ/, *leanbh* /ˈl̠ʲanˠəw/, *naomh* /n̪ˠiːw/ ~ lenited /nˠiːw/) and this digest and `test-words.tsv` reproduce them verbatim; the two-way normalization of §1.1 is applied to the `features` **tags**, not to the `ipa` column. Broad /l̪ˠ n̪ˠ/ are **dental**; slender /lʲ nʲ/ alveolar/alveolo-palatal [wiki-irish-phonology §Allophones]. The four-way fortis/lenis system of the IPA key (/l̪ˠ lˠ l̠ʲ lʲ/, /n̪ˠ nˠ n̠ʲ nʲ/) is not distinguished by any modern dialect [wiki-help-ipa-irish notes 5, 6] — so treat input as two-way per §1.1. A target must decide: dental vs. alveolar (usually free), and slender /lʲ nʲ/ vs /lj nj/ vs /ʎ ɲ/. |
+| **Voiceless sonorants** | — | **not a phoneme; a phonetic effect** | Two sources describe them. Quiggin documents voiceless L, l, L′, l′, N, n, N′, r, r′ "with strongly breathed off-glide", arising from historical sonorant + *th*/*f(h)* clusters, mainly in the future tense [quiggin1906-donegal §213, §220, §227, §232, §242, §248, §259, §264, §279, §288]. Ní Chasaide reports nasals and liquids are **devoiced before and after voiceless plosives**, and that prepausal /l n/ devoice [nichasaide1999-ipa-irish p.113]. Neither is a contrastive segment. **The `../../notes/project-goals.md` note "Irish lenition outputs [v w j h] and voiceless sonorants" is only half right**: [v w j h] are phonemic lenition outputs; the voiceless sonorants are allophonic and mostly verbal-morphological. **Recommendation: do not put voiceless sonorants in the input inventory.** |
 | **/sˠ/ vs /ʃ/** | everywhere | very high | The one broad/slender pair most targets can carry losslessly (§8.1). |
-| **/t̪ˠ d̪ˠ/ dental** | everywhere | very high | Note the PHOIBLE convention warning that applies to the Arabic row: UPSID dental diacritics there mark plain coronals, not true dentals [project-goals]. Irish's **are** true dentals [wiki-irish-phonology §Allophones]. |
-| **/c ɟ/** | slender ⟨c g⟩ | high | *ceist* /cɛʃtʲ/, *geata* /ˈɟat̪ˠə/, *scéal* /ʃceːl̪ˠ/. May be palatovelar [k̟ ɡ˖]. Few targets have palatal stops; the natural repairs are /kj ɡj/, /tʃ dʒ/, or plain /k ɡ/. |
+| **/t̪ˠ d̪ˠ/ dental** | everywhere | very high | Note the PHOIBLE convention warning that applies to the Arabic row: UPSID dental diacritics there mark plain coronals, not true dentals [../../notes/project-goals.md]. Irish's **are** true dentals [wiki-irish-phonology §Allophones]. |
+| **/c ɟ/** | slender ⟨c g⟩ | high | *ceist* /cɛʃtʲ/, *geata* /ˈɟat̪ˠə/, *scéal* /ʃceːl̪ˠ/, *gceann* /ɟaːn̪ˠ/. May be palatovelar [k̟ ɡ˖]. Candidate repairs (undecided, per target): /kj ɡj/, /tʃ dʒ/, or plain /k ɡ/. |
 
 ### 8.3 Vowel length and the diphthongs
 
 - **Five long/short pairs** /iː ɪ, eː ɛ, aː a, oː ɔ, uː ʊ/, with the long/short members
   **qualitatively distinct as well as durationally** [wiki-irish-phonology §Vowels;
-  nichasaide1999 p.114]. A target without phonemic length must decide between mapping length to
+  nichasaide1999-ipa-irish p.114]. A target without phonemic length must decide between mapping length to
   quality (the pairs already differ in quality, so this is nearly free), dropping it, or
   reinterpreting it as stress.
 - **Four diphthongs /iə uə əi əu/**, all **falling** [wiki-help-ipa-irish note 9].
@@ -963,7 +1063,7 @@ attested transcriptions harvested here (unattested as a count).
 ### 8.4 Initial clusters the targets will have to handle
 
 From §2.2, the clusters that actually arrive, grouped by the §3-style repair each target will
-have to assign. **The list is smaller than the project-goals note assumes**, because of the
+have to assign. **The list is smaller than the `../../notes/project-goals.md` note assumes**, because of the
 Connacht /Cn/→/Cɾ/ rule (§2.2).
 
 | Group | Clusters | Notes |
@@ -989,6 +1089,33 @@ What the Irish side guarantees:
 
 ---
 
+### 8.6 Representation level — what the input string is, and what a tag means
+
+The review of this digest found the level mixed, so it is now stated once, here, and referenced
+from §7 and §8.2.
+
+**Two levels are in play and they are deliberately kept apart:**
+
+| | What it is | Where it lives |
+|---|---|---|
+| **`ipa` column / quoted transcriptions** | **Verbatim as the source printed it.** May be phonemic (`/…/`) or phonetic (`[…]`); may use the four-way L/N symbols; may print ⟨r⟩ where the scheme's symbol is ⟨ɾˠ⟩. **Never silently renormalized** — that would destroy the audit trail back to the source. | `test-words.tsv` `ipa`; every `/…/` in this digest |
+| **`features` tags** | **Underlying phonemes of the Connacht/standard system of §1.1.** Normalized: /lˠ l̠ʲ nˠ n̠ʲ/ → /l̪ˠ lʲ n̪ˠ nʲ/; a surface [vˠ] of the phoneme /w/ tags `seg:w`; a lowered [ɪə] of /iə/ tags `dip:iə`. | `test-words.tsv` `features` |
+
+**Consequences the rule-writer must expect:**
+1. **The `ipa` column is not yet a canonical input format.** A deterministic adapter needs one
+   normalization pass over it before the target rules run (fold the L/N aliases, decide
+   phonemic vs. phonetic for /w/~[vˠ] and for the vowel allophones). The `features` tags tell
+   you what the row *is*; the `ipa` string tells you what the *source said*. Where they differ,
+   the row's `note` says so.
+2. **`std` rows and `C`/`M`/`U` rows are different fixtures, not variants of one.** A `std` row
+   is the pan-dialectal Wikipedia phonemic scheme; a `C`/`M`/`U` row may contain dialect
+   allophones (*naomh* [n̪ˠiːvˠ], *bacach* /bˠəˈkax/). Do not mix them in one regression run —
+   filter on `dialect` first.
+3. **Where a source-verbatim string and the Connacht realization disagree, both rows are
+   present and both are tagged.** *dubh* is `std` /d̪ˠʊw/ and `C` [d̪ˠʊvˠ]; *naomh* is `std`
+   /n̪ˠiːw/ and `C` [n̪ˠiːvˠ]. This is a **scheme-vs-dialect transcription conflict**, not two
+   pronunciations of two words — see §1.1 and §3.1.
+
 ## 9. Open questions
 
 1. **Does the generator emit mutated forms at all?** This is the biggest fork. If epithets are
@@ -1000,18 +1127,34 @@ What the Irish side guarantees:
    the size of every target's rule file.**
 2. **Which dialect fixes the vowel length?** The ⟨ll nn rr rd rl rn m ng⟩ lengthening (§4.2)
    differs between Ulster, Connacht and Munster, so *ceann* is /caːn̪ˠ/, /can̪ˠ/ or /cəun̪ˠ/
-   depending. The user's transcriptions look Connacht/standard; but *Ciara* /ˈkɪə.ɾˠə/ has a
-   diphthong where the ⟨ia⟩ spelling and *ciall* /ciəl̪ˠ/ would predict /iə/ after a **slender**
-   /c/, not /kɪə/ after a broad /k/ — **worth asking the user whether /ˈkɪə.ɾˠə/ is deliberate**
-   (the expected Connacht form would be /ˈciəɾˠə/).
+   depending. Fix the dialect once and stay there.
+
+   Separately, **the initial consonant of *Ciara* should be slender /c/, not broad /k/.** This
+   part is a source-backed diagnosis, not a preference: *caol le caol* makes a consonant
+   adjacent to ⟨e i⟩ slender [wiki-irish-orthography §Vowels], and /iə/ occurs after a broad
+   consonant essentially only in word-initial broad /ɾˠ/
+   [wiki-irish-phonology §Vowel backness], which gives *ciall* /ciəl̪ˠ/. The user's
+   /ˈkɪə.ɾˠə/ has broad /k/ + /ɪə/, which the held sources' system does not generate.
+   **The complete form /ˈciəɾˠə/ is an inference, not attested** — no held source gives any
+   pronunciation for the name *Ciara* (`wiki-irish-name` lists names without IPA). So: the
+   slender-initial finding is firm; the full transcription is this digest's reconstruction and
+   the user should confirm it rather than have the tool assume it. `test-words.tsv` carries the
+   user's form as the live row and the inferred form as a second, explicitly-inferred row.
 3. **Noun+noun compound lenition** (§3.6) is unattested in this source set; the *Lasairchos*
    transcription implies it applies. Confirm before generating compound epithets in bulk.
 4. **The epenthesis rule's blocking conditions conflict between the two Wikipedia articles**
    (§2.4). The ≥3-syllable condition is only in the phonology article; the morpheme-boundary
    condition is only in the (uncited) orthography article. Ní Chiosáin 1999, the underlying
    source, is not held.
-5. **No exhaustive licit-final-cluster list exists in the open literature we hold** (§2.3). The
-   attested coda set had to be assembled by inspection.
+5. **The coda inventory is single-sourced and its dialect scope is unstated.**
+   `green1997-prosodic-goidelic` pp.55–56 **does** supply a closed licit-coda list (§2.3) — that
+   is the held baseline and the rule-writer should use it. What is *not* held: (a) any
+   independent confirmation of it (Wikipedia gives no final-cluster list at all, and Ní Chiosáin
+   1999 is paywalled); (b) a statement of which dialect(s) it describes, or how it varies across
+   Connacht/Munster/Ulster, given that Green's own epenthesis and syllabification sections are
+   heavily dialect-split; (c) a statement of **surface** word-final realizations as against the
+   underlying inventory — Green's table is stated at the level his analysis operates on. It is
+   also in Green's pre-IPA notation, so the IPA reading in §2.3 is this digest's conversion.
 6. **Whether the epenthetic schwa should survive adaptation.** It is not lexical, it is
    durationally distinct from underlying schwa [irish-schwa-kwpl], and a target with its own
    epenthesis would arguably re-derive it. Currently the tool would receive it as a plain /ə/
@@ -1021,17 +1164,17 @@ What the Irish side guarantees:
    third-party transcriptions of Irish names may contain /lˠ l̠ʲ nˠ n̠ʲ/. Decide whether the
    tool normalizes these on input.
 8. **Strand 5 has no derivation path from Modern Irish to Old Irish** (§10.7). `bib.md`
-   promised one from `wiki-oi-phonhistory`; that article covers Proto-Celtic → Old Irish only.
+   promised one from `wiki-old-irish-phonhistory`; that article covers Proto-Celtic → Old Irish only.
    The recommendation in §10.7 is to look each name up in eDIL and inflect it with §10.5 rather
    than derive it — **but that makes strand 5 a lookup task, not a rule task, and changes its
    cost profile relative to the other four.** Worth confirming with the user before building it.
 9. **Does strand 5 use the Old Irish neuter and dual?** Old Irish has three genders and three
-   numbers; Modern Irish has two and two [wiki-oi-grammar §Nouns; wiki-irish-declension §lead].
+   numbers; Modern Irish has two and two [wiki-old-irish-grammar §Nouns; wiki-irish-declension §lead].
    Whether strand-5 names carry neuter/dual forms is a setting decision, not a linguistic one.
 10. **Does strand 5 use the third mutation?** Old Irish aspiration/gemination (§10.4) has no
     Modern Irish counterpart as a system, and it is triggered by the **genitive singular of all
     feminines** and the **vocative and accusative plural** — very common name environments. It
-    was also barely written [wiki-oi-grammar §Aspiration and gemination], so including it is
+    was also barely written [wiki-old-irish-grammar §Aspiration and gemination], so including it is
     audible but nearly invisible in the romanization.
 
 ---
@@ -1051,7 +1194,7 @@ pronounce a written form, the stress rule, and enough noun/adjective/compound mo
 binary features: **fortis vs. lenis** (= unlenited vs. lenited) and **broad (velarized) vs.
 slender (palatalized)** [wiki-old-irish §Consonants]. "Both the palatalised ('slender') and
 lenited variants of consonants were phonemicised, **multiplying the consonant inventory by
-four**" [wiki-oi-phonhistory §Summary of changes]. For obstruents the fortis/lenis dimension is
+four**" [wiki-old-irish-phonhistory §Summary of changes]. For obstruents the fortis/lenis dimension is
 **stop vs. fricative**; for *l n r m* it is **tense/long vs. lax/short**
 [wiki-old-irish §Consonants].
 
@@ -1064,7 +1207,11 @@ four**" [wiki-oi-phonhistory §Summary of changes]. For obstruents the fortis/le
 | Rhotic | | R r / Rʲ rʲ | | | |
 | Lateral | | L l / Lʲ lʲ | | | |
 
-[wiki-old-irish §Consonants] — **≈46 consonant phonemes** on this count. The pairing statement:
+[wiki-old-irish §Consonants] — **the digest counts ≈46 consonant phonemes from the table above.
+That is an arithmetic reading of the Wikipedia chart, not a figure any source states**, and it
+holds only for the **two-way** quality analysis; under Pokorny's three-way analysis (below) the
+count is different again. Do not carry "46" into an implementation without re-deriving it from
+whichever quality analysis is chosen. The pairing statement:
 "/f v θ ð x ɣ h ṽ n l r/ are the broad **lenis** equivalents of broad **fortis**
 /p b t d k ɡ s m N L R/; likewise for the slender equivalents" [wiki-old-irish §Consonants].
 
@@ -1087,7 +1234,7 @@ Uncertain values [wiki-old-irish §Consonants]:
 of stressed /a/ before a palatalized consonant — the source of the wild spelling variation in
 *tulach ~ telaig ~ taulich ~ tailaig* 'hill', and rampant in names in the prefix *air-*).
 Long: /iː eː aː oː uː/. Pokorny's list: "5 short vowels *a e i o u*, 5 long *á é í ó ú*, and
-**8 diphthongs: *aí (áe), oí (óe), uí, áu, éu (éo), íu, ía, úa***" [pokorny1914 p.6 §4].
+**8 diphthongs: *aí (áe), oí (óe), uí, áu, éu (éo), íu, ía, úa***" [pokorny1914-oldirish-grammar p.6 §4].
 
 Two important early/late splits:
 - **Two é's.** /e₁ː/ (< PC \*ē, or Latin ē) vs. /e₂ː/ (from compensatory lengthening), both
@@ -1108,15 +1255,15 @@ Two important early/late splits:
   **and /u/** (written ⟨u o⟩; occurs after a broad labial — *lebor* /ˈLʲevur/ 'book',
   *domun* /ˈdoṽun/ 'world' — or where the following syllable had PC \*ū).
 - "**All unstressed long vowels that have not been thrown out by syncope have been shortened**"
-  [pokorny1914 p.20 §56], though length is analogically restored in compounds (*ír-bág*).
+  [pokorny1914-oldirish-grammar p.20 §56], though length is analogically restored in compounds (*ír-bág*).
 
-**CONFLICT — two-way vs. three-way quality.** `wiki-old-irish` and `wiki-oi-phonhistory` use a
+**CONFLICT — two-way vs. three-way quality.** `wiki-old-irish` and `wiki-old-irish-phonhistory` use a
 **two-way** broad/slender contrast. Pokorny uses **three**: "Every consonant may be pronounced
 in three different ways. It may possess a **palatal (i) quality**, a **broad or neutral (a)
 quality**, or a **rounded (o and u) quality**… A palatal consonant is followed by *e* or *i*, a
-broad consonant by *a*, and a rounded one by *o* or *u*" [pokorny1914 pp.13–14 §35]. UT Austin
+broad consonant by *a*, and a rounded one by *o* or *u*" [pokorny1914-oldirish-grammar pp.13–14 §35]. UT Austin
 names three labels (palatal / velar / neutral) but they resolve to the two-way system
-[utaustin-l1 §1.1]. **The three-way system is what generates the ⟨-iu -eo -eu -au⟩ glide
+[utaustin-oldirish-lesson1 §1.1]. **The three-way system is what generates the ⟨-iu -eo -eu -au⟩ glide
 spellings**; the two-way account handles the same data as "u-infection". **For generating name
 spellings, Pokorny's three-way system is the directly implementable one.**
 
@@ -1153,16 +1300,16 @@ words: *sïur* ~ *fïur* 'sister', *sesser* ~ *mórfesser*, *do·seinn* ~ *do·s
 
 1. **Lenition is mostly not written.** "Lenition was **not indicated in the spelling except in
    the case of initial voiceless stops**, written *ph th ch* when lenited. In later Old Irish,
-   initial *f s* come to be written *ḟ ṡ*" [wiki-oi-grammar §Lenition]. Pokorny identically:
+   initial *f s* come to be written *ḟ ṡ*" [wiki-old-irish-grammar §Lenition]. Pokorny identically:
    "Only in the case of c, p, t is aspiration regularly expressed in writing… **b, d, g, m, l,
-   n, r may represent the aspirated or the unaspirated sounds**" [pokorny1914 p.7 §8].
+   n, r may represent the aspirated or the unaspirated sounds**" [pokorny1914-oldirish-grammar p.7 §8].
    **There is no ⟨bh dh gh mh⟩ in Old Irish** — that is a later development
-   [utaustin-l1 §1.1; wiki-irish-orthography §Diacritics], and it is the single biggest visual
+   [utaustin-oldirish-lesson1 §1.1; wiki-irish-orthography §Diacritics], and it is the single biggest visual
    difference between an Old Irish and a Modern Irish name.
 2. **⟨c t p⟩ are voiced /ɡ d b/ non-initially unless doubled.** *macc* /mak/ 'son' vs.
    *bec/becc* /bʲeɡ/ 'small'; *bratt* /brat/ 'mantle' vs. *brot/brott* /brod/ 'goad'
    [wiki-old-irish §Stops following vowels]. The reason is script poverty: ⟨b d g⟩ were needed
-   for the **fricatives** /v ð ɣ/ [utaustin-l1 §1.1]. So: **⟨b d g⟩ non-initially = /v ð ɣ/**
+   for the **fricatives** /v ð ɣ/ [utaustin-oldirish-lesson1 §1.1]. So: **⟨b d g⟩ non-initially = /v ð ɣ/**
    (*dub* /duv/, *mod* /moð/, *mug* /muɣ/, *claideb* /klaðʲəv/), and ⟨ch ph th⟩ = /x f θ/
    (*ech* /ex/, *oíph* /oif/, *áth* /aːθ/).
 3. **Double letters mean fortis.** ⟨ll nn rr mm⟩ = /L N R m/, single = /l n r ṽ/. "Doubly
@@ -1171,7 +1318,7 @@ words: *sïur* ~ *fïur* 'sister', *sesser* ~ *mórfesser*, *do·seinn* ~ *do·s
    [wiki-old-irish §The consonants l, n, r]. More generally, "**geminating a consonant ensures
    its unmutated sound**" [wiki-old-irish §Orthography]. And Pokorny's warning: "double
    consonants are often written **only in order to show that the respective consonant was not
-   aspirated**" [pokorny1914 p.5].
+   aspirated**" [pokorny1914-oldirish-grammar p.5].
 4. **Stops after ⟨l n r m⟩ are genuinely ambiguous** [wiki-old-irish §Stops following other
    consonants]: *derc* is both /dʲerk/ 'hole' and /dʲerɡ/ 'red'; *daltae* /daLte/ 'fosterling'
    vs. *celtae* /kʲeLde/. Rules of thumb: after *m*, ⟨b⟩ = /b/ (*imb* /imʲbʲ/); after *d l r*,
@@ -1181,7 +1328,7 @@ words: *sïur* ~ *fïur* 'sister', *sesser* ~ *mórfesser*, *do·seinn* ~ *do·s
 5. **Glide vowels mark consonant quality — this is the core name-spelling machinery.** Slender
    consonants occur "(i) before a written *e é i í*; (ii) **after a written *i*, when not
    followed by a vowel letter** (but not after the diphthongs *aí oí uí*)"
-   [wiki-old-irish §Orthography]. Pokorny's rules [pokorny1914 p.14 §§36–41]:
+   [wiki-old-irish §Orthography]. Pokorny's rules [pokorny1914-oldirish-grammar p.14 §§36–41]:
    - **§36 i-glide:** "Before a palatal consonant at the end of a word or of a syllable
      (**except after í, é, and the diphthongs áe/aí, óe/oí, uí**) a glide-vowel *i* is regularly
      inserted": *muir* 'sea' < \*mori, *toimtiu* 'opinion'.
@@ -1225,12 +1372,12 @@ their relation, infixed personal pronouns and the copula as well as emphasising 
 affixed demonstrative pronouns, and some conjunctions, never bear any stress**… **All other
 words with the exception of the verbs are stressed on the first syllable.** Note — In compounds,
 as *ro-mór* 'very great', *com-lán* 'complete', the stem syllable may bear a secondary stress.
-This is of course a late development" [pokorny1914 p.17 §§51–52].
+This is of course a late development" [pokorny1914-oldirish-grammar p.17 §§51–52].
 
 **For names this is simple: initial stress, including in nominal compounds** — "the first
 syllable in uncompounded words susceptible of full stress **as well as in nominal compounds**"
-[utaustin-l1 §1.2]. The deuterotonic/prototonic verb machinery (*do·beir* vs. *ní·tabair*)
-[utaustin-l1 §1.2; wiki-oi-phonhistory §Allomorphy] does not touch nouns and can be ignored for
+[utaustin-oldirish-lesson1 §1.2]. The deuterotonic/prototonic verb machinery (*do·beir* vs. *ní·tabair*)
+[utaustin-oldirish-lesson1 §1.2; wiki-old-irish-phonhistory §Allomorphy] does not touch nouns and can be ignored for
 strand 5 unless verbal epithets are wanted.
 
 **What initial stress did to everything else** — the three changes that give Old Irish its
@@ -1238,26 +1385,26 @@ shape, and which a generator has to reproduce:
 1. **Apocope.** "In words of more than one syllable **all final vowels and diphthongs have been
    dropped**, except when preceded by *i*" (*túath* < \*teutā); final *d t k n m s* and
    s-clusters dropped (*rí* < \*rēgs); in polysyllables a short vowel goes with them
-   (*traig* 'foot' < \*traghets) [pokorny1914 p.15 §§42–45].
+   (*traig* 'foot' < \*traghets) [pokorny1914-oldirish-grammar p.15 §§42–45].
 2. **Syncope.** "In words of more than two (and four) syllables… the vowel of the second (and
    fourth) syllable is thrown out" — *toimtiu* < \*to-mentiu, *apstal* < Lat. *apostolus*
-   [pokorny1914 pp.18–19 §55]. **And syncope transphonologises quality across the resulting
+   [pokorny1914-oldirish-grammar pp.18–19 §55]. **And syncope transphonologises quality across the resulting
    cluster:** *dorus* /ˈdorus/ 'door' → gen. *doirseo* /ˈdorʲsʲo/
-   [wiki-oi-grammar §Syncope]. Pokorny's rule: "**When consonants of different quality come
+   [wiki-old-irish-grammar §Syncope]. Pokorny's rule: "**When consonants of different quality come
    together by syncope, the quality of the first consonant prevails. But when consonants of *u*
    and *i* quality come together, the whole group becomes palatal**" — *rígnai* dat. of
-   *rígain* 'queen'; **Lugaid → gen. Luigdech** (Ogam *Lugudeccas*) [pokorny1914 p.19 §55.II].
+   *rígain* 'queen'; **Lugaid → gen. Luigdech** (Ogam *Lugudeccas*) [pokorny1914-oldirish-grammar p.19 §55.II].
 3. **Secondary (epenthetic) vowels.** "If after the loss of final syllables a final consonant
    group ended in *l r n m*, preceded by a different consonant, **a secondary vowel is developed
    between them**": *arathar* 'plough' < \*aratrom, *immon* 'hymn' < Lat. *hymnus*,
    *domun* 'world' < \*domn. Not when the preceding consonant was lost (*úar* 'cold'), nor when
-   *m n* follow postvocalic *r l* or lenited *d* (*salm* 'psalm') [pokorny1914 pp.16–17 §50].
+   *m n* follow postvocalic *r l* or lenited *d* (*salm* 'psalm') [pokorny1914-oldirish-grammar pp.16–17 §50].
    **This is the Old Irish ancestor of the modern epenthesis of §2.4, and it applies in a
    different, wider set of environments.**
 
 ### 10.4 Initial mutations
 
-Three, not two [wiki-oi-grammar §Initial mutations]. The contrast set:
+Three, not two [wiki-old-irish-grammar §Initial mutations]. The contrast set:
 
 | No change | Lenition (ᴸ) | Nasalization (ᴺ) | Aspiration/gemination (ᴴ) |
 |---|---|---|---|
@@ -1265,29 +1412,29 @@ Three, not two [wiki-oi-grammar §Initial mutations]. The contrast set:
 | *bo* /bo/ 'cow' | *a bo* /a vo/ | *a m-bo* /a mbo/ | *a bo* /a bbo/ |
 | *tech* /tʲex/ 'house' | *a thech* /a θʲex/ | *a tech* /a dʲex/ | *a tech* /a ttʲex/ |
 
-**Lenition** [wiki-old-irish §Orthography; pokorny1914 p.7 §7]:
+**Lenition** [wiki-old-irish §Orthography; pokorny1914-oldirish-grammar p.7 §7]:
 /p/→/f/ ⟨ph⟩ · /t/→/θ/ ⟨th⟩ · /k/→/x/ ⟨ch⟩ · /b/→/v/ · /d/→/ð/ · /ɡ/→/ɣ/ · /m/→/ṽ/ ·
 /s/→/h/ ⟨ṡ sh⟩ · s₂→/f/ ⟨f ph⟩ · /f/→∅ ⟨ḟ fh⟩ · **/L N R/→/l n r/** (never written).
 Word-initial sonorants are fortis by default and lenite to lenis: *rún* /Rˠuːnˠ/ vs.
 *a rún* /a rˠuːnˠ/; *lón* /Lˠoːnˠ/ vs. *a lón* /a lˠoːnˠ/
 [wiki-irish-phonology §Fortis and lenis sonorants].
 
-**Nasalization (→ modern eclipsis)** [pokorny1914 p.10 §21]: /p t k/ → /b d ɡ/ (unwritten);
+**Nasalization (→ modern eclipsis)** [pokorny1914-oldirish-grammar p.10 §21]: /p t k/ → /b d ɡ/ (unwritten);
 /b/ → /m/ ⟨mb⟩; /d/ → /N/ ⟨nd⟩; /ɡ/ → /ŋ/ ⟨ng⟩; /f/ → /v/ (written ⟨b⟩); vowel → /n/+V ⟨n-⟩;
 *s r l n m* unchanged. "It is only in the case of b, d, g and of initial vowels that eclipsis is
 regularly expressed in writing." "This mutation gave rise to the eclipsis mutation in modern
-Irish" [wiki-oi-phonhistory §Nasalization].
+Irish" [wiki-old-irish-phonhistory §Nasalization].
 
 **Aspiration/gemination** — the mutation Modern Irish has lost as a system. "**Aspiration
 involved prepending an additional /h/ to a vowel-initial word**… **In gemination, an initial
 consonant was geminated** by a preceding word originally ending in /k/, /s/ or /t/ after a
 vowel… **Gemination was only occasionally indicated**… **Aspiration was not indicated at all**"
-[wiki-oi-grammar §Aspiration and gemination]. UT Austin's worked example: preposition *la*ᴴ +
-*Ultu* → ***hUltu*** [utaustin-l1 §1.1]. It is the modern *na hÉireann* h-prothesis, but with a
+[wiki-old-irish-grammar §Aspiration and gemination]. UT Austin's worked example: preposition *la*ᴴ +
+*Ultu* → ***hUltu*** [utaustin-oldirish-lesson1 §1.1]. It is the modern *na hÉireann* h-prothesis, but with a
 much wider distribution — notably **the genitive singular of all feminines** and **the vocative
-and accusative plural of all genders** [wiki-oi-grammar §Aspiration and gemination].
+and accusative plural of all genders** [wiki-old-irish-grammar §Aspiration and gemination].
 
-**Environments, by case** [wiki-oi-grammar §Lenition, §Nasalisation, §Aspiration and gemination]:
+**Environments, by case** [wiki-old-irish-grammar §Lenition, §Nasalisation, §Aspiration and gemination]:
 
 | Mutation | Triggering case-forms |
 |---|---|
@@ -1296,45 +1443,45 @@ and accusative plural of all genders** [wiki-oi-grammar §Aspiration and geminat
 | ᴴ aspiration/gemination | **gen. sg. of all feminines**; **voc. and acc. pl. of all genders** — i.e. the vowel-final forms that trigger neither of the other two |
 
 Pokorny's operational trigger list for lenition is the fuller one and the one to implement
-[pokorny1914 pp.7–9 §§9–18]; the name-relevant entries:
-- **the vocative particle *a*** lenites [pokorny1914 p.8 §12];
+[pokorny1914-oldirish-grammar pp.7–9 §§9–18]; the name-relevant entries:
+- **the vocative particle *a*** lenites [pokorny1914-oldirish-grammar p.8 §12];
 - an **adjective or dependent genitive** closely following is lenited after a dat. sg., after a
   **nom. sg. f. or voc. sg. of any gender**, after a gen. sg. of a masc./neut. o- or io-stem,
-  after a nom. pl. masc. o-/io-stem, and after nom./voc. pl. neut. [pokorny1914 p.8 §10];
-- possessives *m(o), do, t', a* (m./n.) lenite — *a chenél* 'his tribe' [pokorny1914 p.8 §11];
+  after a nom. pl. masc. o-/io-stem, and after nom./voc. pl. neut. [pokorny1914-oldirish-grammar p.8 §10];
+- possessives *m(o), do, t', a* (m./n.) lenite — *a chenél* 'his tribe' [pokorny1914-oldirish-grammar p.8 §11];
 - **inside nominal compounds**, after nouns, adjectives and numerals, and after the prefixes
   *so-/su-, do-/du-, mí-, neb-/neph-* — *dag-theist* 'a good testimony', *mí-thoimtiu* 'a false
-  opinion' [pokorny1914 p.8 §16].
+  opinion' [pokorny1914-oldirish-grammar p.8 §16].
 - **Blocked**: before *d t* when the preceding word ends in *l n s* (*cen tossach*); and when
-  the preceding word ends in a **homorganic** consonant (*cach cloine*) [pokorny1914 p.9 §19].
+  the preceding word ends in a **homorganic** consonant (*cach cloine*) [pokorny1914-oldirish-grammar p.9 §19].
 
 Nasalization triggers, name-relevant: **after the gen. pl. and acc. sg. of all genders and the
 nom./acc. sg. neuter** (*nert n-irisse* 'strength of faith', *co cenn m-bliadnae*); after the
-possessives *ar, far, a* 'their'; after *secht ocht noí deich* [pokorny1914 pp.10–11 §§22–23].
-"**Unstressed words or syllables cannot be eclipsed as a rule**" [pokorny1914 p.11 §22].
+possessives *ar, far, a* 'their'; after *secht ocht noí deich* [pokorny1914-oldirish-grammar pp.10–11 §§22–23].
+"**Unstressed words or syllables cannot be eclipsed as a rule**" [pokorny1914-oldirish-grammar p.11 §22].
 
-**Possessive paradigm** [wiki-oi-grammar §Possessive pronouns], directly usable:
+**Possessive paradigm** [wiki-old-irish-grammar §Possessive pronouns], directly usable:
 1sg *mo*ᴸ / *m'* · 2sg *do*ᴸ / *t' th'* · 3sg m *a*ᴸ · 3sg f *a*ᴴ · 3sg n *a*ᴸ · 1pl *ar*ᴺ ·
 2pl *for/far/bar*ᴺ · 3pl *a*ᴺ. So *a thech* 'his house' / *a tech* [a tʲex] 'her house' /
 *a tech* [a dʲex] 'their house'; *a ainm* /a hanʲmʲ/ 'her name'; *ar n-anmann* 'our names'.
 
-**The article** [wiki-oi-grammar §Declension of the definite article, §Morphophonology]:
+**The article** [wiki-old-irish-grammar §Declension of the definite article, §Morphophonology]:
 sg. m. nom. *in(t)*, f. nom. *in(d)*ᴸ / *int*ᴸ, n. nom. *a*ᴺ; gen. m./n. *in(d)*ᴸ / *int*ᴸ,
 f. gen. *(in)na*ᴴ; dat. *-(si)n(d)*ᴸ; pl. m. nom. *in(d)*ᴸ, f. *(in)na*ᴴ, gen. *(in)na*ᴺ,
 dat. *-(s)naib*. Sandhi: the forms "end in an extra ***d*** when the next word begins in a
 vowel, a liquid, *n*, or *f*" (*ind nime*, *ind fir*, *dind ríg*), and "**in an extra *t***
 when the next word begins in *s*" (*int sléibe*, *int súil*).
 **CONFLICT:** Pokorny restricts this — "The final *-d* of the article remains only **before
-vowels or aspirated *f, l, n, r***" [pokorny1914 p.59 §132], i.e. the following *f l n r* must
+vowels or aspirated *f, l, n, r***" [pokorny1914-oldirish-grammar p.59 §132], i.e. the following *f l n r* must
 be lenited; the Wikipedia statement is unqualified.
 
 ### 10.5 Name morphology
 
 Three genders (m/f/**n**), three numbers (sg/**dual**/pl), five cases (nom/voc/acc/gen/dat)
-[wiki-oi-grammar §Nouns]. **The neuter is gone from Modern Irish** [wiki-irish-declension §lead]
+[wiki-old-irish-grammar §Nouns]. **The neuter is gone from Modern Irish** [wiki-irish-declension §lead]
 — one of the most visible Old-vs-Modern differences.
 
-Standing syncretisms [wiki-oi-grammar §Nouns]: nom.=voc.=acc. in all neuters, all numbers;
+Standing syncretisms [wiki-old-irish-grammar §Nouns]: nom.=voc.=acc. in all neuters, all numbers;
 nom.=voc.=acc. dual everywhere; **voc.=acc. plural everywhere**; dat. dual = dat. plural.
 
 **Nominative / genitive / vocative singular, by stem class.** Superscripts = the mutation the
@@ -1357,37 +1504,37 @@ form causes on a following word.
 | **r-stem** | *athair* | ***athar*** | = nom. | *athair, máthair, bráthair, siur / sethar* |
 | **s-stem neut.** | *nem*ᴺ | ***nime***ᴴ | = nom. | *nem* 'heaven'; *tech / tige* 'house'; *slíab / sléibe* 'mountain' |
 
-[wiki-oi-grammar §§o-/io-/ā-/iā-/ī-/i-/u-/Velar/Dental/n-/r-/s-stems; strachan1909 pp.2–16;
-pokorny1914 pp.59–70 §§133–148]
+[wiki-old-irish-grammar §§o-/io-/ā-/iā-/ī-/i-/u-/Velar/Dental/n-/r-/s-stems; strachan1909-oldirish-paradigms pp.2–16;
+pokorny1914-oldirish-grammar pp.59–70 §§133–148]
 
 **The vocative rule, stated:** "**The vocative has in the singular the same form as the
 nominative, in the plural the same form as the accusative**" — for all consonant stems
-[pokorny1914 p.65 §142; strachan1909 p.9 fn.]. **The masculine o-stem and io-stem are the
+[pokorny1914-oldirish-grammar p.65 §142; strachan1909-oldirish-paradigms p.9 fn.]. **The masculine o-stem and io-stem are the
 exceptions**, taking the genitive/palatalized form (< PIE \*-e), which is exactly the modern
 *a Sheáin* pattern (§3.5). The particle is **a** (Strachan writes *á*), and it lenites
-[pokorny1914 p.8 §12]: *á fir*, *á chéiliu*, *á daltai*, *á chathir*, *á chathracha*.
+[pokorny1914-oldirish-grammar p.8 §12]: *á fir*, *á chéiliu*, *á daltai*, *á chathir*, *á chathracha*.
 **Vocative plural = accusative plural** and takes ᴴ: *a firu*, *a chéiliu*, *a chathracha*.
 
-**Indeclinable names** [wiki-oi-grammar §Indeclinable nouns]: "Many names of Biblical figures
+**Indeclinable names** [wiki-old-irish-grammar §Indeclinable nouns]: "Many names of Biblical figures
 (including *Ísu* 'Jesus', *Iohain* 'John', *Duaid* 'David'), ***Patraic* 'Patrick'**, and
 several mythical names beginning with the element *da*, such as ***Da Derga***."
 
 **Adjectives.** "**In the positive degree, adjectives agree with nouns in case, gender, and
-number.** The other three degrees do not inflect" [wiki-oi-grammar §Adjectives]. Four classes:
+number.** The other three degrees do not inflect" [wiki-old-irish-grammar §Adjectives]. Four classes:
 o-ā (*bec* 'small': m. gen. *bic*ᴸ, f. nom. *bec*ᴸ, f. gen. *bice*ᴴ, m. voc. *bic*ᴸ),
 io-iā (*nue* 'new'), i (*maith* 'good'), u (*follus* 'clear')
-[wiki-oi-grammar §Adjective inflection classes; strachan1909 pp.17–19].
+[wiki-old-irish-grammar §Adjective inflection classes; strachan1909-oldirish-paradigms pp.17–19].
 **Word order is head-first** — "**the determinans follows the determinatum**… nominal
 modifiers such as genitives, descriptive adjectives and relative constructions **follow** the
-noun they modify" [utaustin-l1 §2.1]; the adjective's initial is mutated by the noun's
+noun they modify" [utaustin-oldirish-lesson1 §2.1]; the adjective's initial is mutated by the noun's
 underlying case-ending: *fer becc* (nom.) vs. *fer m-becc* (acc.)
-[wiki-oi-grammar §Initial mutations, §Nouns].
+[wiki-old-irish-grammar §Initial mutations, §Nouns].
 **Vocative phrases:** "**When the N. Sg. of a noun is used for V., a qualifying adjective is
-also N. Sg.: *a rí már*, 'O great king'**" [strachan1909 p.17 note 2].
+also N. Sg.: *a rí már*, 'O great king'**" [strachan1909-oldirish-paradigms p.17 note 2].
 **Comparison** is predicative only: equative *-ithir/-idir* (*áthithir*), comparative *-(i)u*
 (*sen → siniu*, *ard → ardu*, *brónach → brónchu*, *cumachtach → cumachtchu*), superlative
 *-em/-am* (***caín → caínem* 'fairest'**, ***álaind → áildem* 'most beautiful'**)
-[wiki-oi-grammar §Degrees of comparison; strachan1909 p.20; pokorny1914 p.72 §154].
+[wiki-old-irish-grammar §Degrees of comparison; strachan1909-oldirish-paradigms p.20; pokorny1914-oldirish-grammar p.72 §154].
 Irregulars: *maith : ferr : dech*; *olc : messa : messam*; *már/mór : mó : maam*;
 *bec : lugu : luigem*; *trén : tressa : tressam*.
 
@@ -1397,48 +1544,48 @@ Irregulars: *maith : ferr : dech*; *olc : messa : messam*; *már/mór : mó : ma
    VSO-specific syntactical order of modifier and modified element appears **reversed**. Here we
    find **determinans-determinatum**… The explanation is that compounds preserve archaic
    patterns and Irish, like all other ancient Indo-European languages, originally belonged to
-   the SOV type" [utaustin-l1 §2.2]. **So Old Irish compounds an epithet the same way Modern
+   the SOV type" [utaustin-oldirish-lesson1 §2.2]. **So Old Irish compounds an epithet the same way Modern
    Irish does — flame+foot, not foot-of-flame — and this is the one place Old Irish word order
    agrees with the modern compound.**
 2. **The second element is lenited.** "In the interior of nominal compounds aspiration takes
    place: (a) after nouns, adjectives, and numerals — ***dag-theist* 'a good testimony'**;
    (b) after the prefixes *so-/su-, do-/du-, mí-, neb-/neph-*; (c) after prepositions ending
-   originally in a vowel" [pokorny1914 p.8 §16]. Live example: ***énḟlaith*** 'flock of birds'
-   = *én* + **lenited** *flaith* [utaustin-l1 glossary].
+   originally in a vowel" [pokorny1914-oldirish-grammar p.8 §16]. Live example: ***énḟlaith*** 'flock of birds'
+   = *én* + **lenited** *flaith* [utaustin-oldirish-lesson1 glossary].
    **This is exactly the rule §3.6 could not attest for Modern Irish** — so *Lasairchos*'s
    lenited /xosˠ/ has an Old Irish precedent even though the modern sources are silent.
 No **composition vowel** is stated as such, but: a prefix's final vowel is dropped before a
-vowel (*síar* < *so-íar*, *tadall* < \*to-ad-elnom) [pokorny1914 p.56 §126.4]; the first
+vowel (*síar* < *so-íar*, *tadall* < \*to-ad-elnom) [pokorny1914-oldirish-grammar p.56 §126.4]; the first
 element may have a distinct compositional stem (*gu-* for *gáu* in *gú-brithemnacht*)
-[pokorny1914 p.43 §111]; syncope operates across the whole compound (*ern-bás* 'death by the
-sword' < *íarn* + *bás*) [pokorny1914 p.19 §55 note a]; and quality assimilation is irregular
+[pokorny1914-oldirish-grammar p.43 §111]; syncope operates across the whole compound (*ern-bás* 'death by the
+sword' < *íarn* + *bás*) [pokorny1914-oldirish-grammar p.19 §55 note a]; and quality assimilation is irregular
 inside compounds — "**In compound words the assimilation of different-coloured consonants does
-not always take place**" (*dagtheist* for expected \*dagthaist) [pokorny1914 p.19 §55.II].
+not always take place**" (*dagtheist* for expected \*dagthaist) [pokorny1914-oldirish-grammar p.19 §55.II].
 Stress stays initial on the whole compound, with a **late** optional secondary stress on the
-second member [pokorny1914 p.17 §52 note; utaustin-l1 §1.2].
+second member [pokorny1914-oldirish-grammar p.17 §52 note; utaustin-oldirish-lesson1 §1.2].
 
 **Patronymics.** No source in this directory states the formula as a rule; all of them show it
 by example, and the case of the second element is **always the genitive** (consistent with
-"nominal modifiers… follow the noun they modify" [utaustin-l1 §2.1]).
+"nominal modifiers… follow the noun they modify" [utaustin-oldirish-lesson1 §2.1]).
 - ***mac(c)* 'son' + genitive**: *macc* /mak/, gen. *maicc* (< Ogam *maqqi*)
-  [wiki-old-irish §Stops following vowels; wiki-oi-phonhistory §Examples of changes]. Attested:
-  **Conchobar mac Nessa**, **Lug mac Ethnenn**, **Sualtaim mac Roich** [utaustin-l1 preamble];
+  [wiki-old-irish §Stops following vowels; wiki-old-irish-phonhistory §Examples of changes]. Attested:
+  **Conchobar mac Nessa**, **Lug mac Ethnenn**, **Sualtaim mac Roich** [utaustin-oldirish-lesson1 preamble];
   *Aislinge **Meic Con Glinne*** — showing the genitive of *mac* itself, and *Con* as gen. of
-  *cú* [utaustin-intro].
-- ***ingen* 'daughter'** /inʲɣʲən/ < Ogam *inigena* [wiki-oi-phonhistory §Examples of changes] —
+  *cú* [utaustin-oldirish-intro].
+- ***ingen* 'daughter'** /inʲɣʲən/ < Ogam *inigena* [wiki-old-irish-phonhistory §Examples of changes] —
   attested as a word, **not attested in these sources as a naming formula**.
 - ***aue / ua* 'grandson, descendant'**, masc. io-stem: "N. Sg. *aue*, G. *aui*, D. *auu*"
-  [strachan1909 p.5 note 1]; "*aue* 'descendant', later *á(u)e*, *ú(a)e*"
-  [pokorny1914 p.43 §111]. **No Old Irish *aue*+genitive naming formula is stated** — the
+  [strachan1909-oldirish-paradigms p.5 note 1]; "*aue* 'descendant', later *á(u)e*, *ú(a)e*"
+  [pokorny1914-oldirish-grammar p.43 §111]. **No Old Irish *aue*+genitive naming formula is stated** — the
   modern *Ó/Ua* rule [wiki-irish-name §Ó and Mac surnames] is Modern Irish and would have to be
   projected backwards. ***maccu / moccu*: not covered by any source here.**
 
-**Derivational suffixes usable for epithets** [strachan1909 pp.3–4, 12, 16, 20;
-pokorny1914 pp.43, 67, 72; wiki-oi-grammar §n-stems]:
+**Derivational suffixes usable for epithets** [strachan1909-oldirish-paradigms pp.3–4, 12, 16, 20;
+pokorny1914-oldirish-grammar pp.43, 67, 72; wiki-old-irish-grammar §n-stems]:
 
 | Suffix | Function | Example |
 |---|---|---|
-| **-ach / -ech** | adjective and noun forming | *brónach* 'sad' (comp. *brónchu*), *cumachtach* 'mighty', *toísech* 'chief, first', *tossach* 'beginning'. Resists u-infection: "adjectives in *-ach* have always *-ach*" [strachan1909 p.3] |
+| **-ach / -ech** | adjective and noun forming | *brónach* 'sad' (comp. *brónchu*), *cumachtach* 'mighty', *toísech* 'chief, first', *tossach* 'beginning'. Resists u-infection: "adjectives in *-ach* have always *-ach*" [strachan1909-oldirish-paradigms p.3] |
 | **-acht** | abstract (ā-stem) | *doínacht* 'manhood', *bendacht* 'blessing', *maldacht* 'curse', *gú-brithemnacht* 'false judgment' |
 | **-tu / gen. -tad** | abstract (dental stem) | *bethu* 'life' / *bethad*; *foirbthetu* 'perfection' / *foirbthetad* |
 | **-e / -ae** | abstract from adjective (iā-stem) | *lobor* 'weak' → *lobre, lobrae, lobra* 'weakness' |
@@ -1446,18 +1593,18 @@ pokorny1914 pp.43, 67, 72; wiki-oi-grammar §n-stems]:
 | **-de / -the** | adjective-forming, incl. participles | *colnide* 'carnal', *filetae* 'poetical' |
 | **so-/su-, do-/du-, mí-, neb-/neph-** | prefixes: good / bad / mis- / un- — **all leniting** | *mí-thoimtiu* 'a false opinion' |
 | **ro-, ru-, der-, ér-, rug-** | intensifiers — all leniting; *ro-* also 'excessively' | *ro-mór* 'very great' |
-| **com-** | equative prefix | *commór* 'equally big'; seen in the personal names Gaulish *Comaros*, Old Breton *Commor* [utaustin-intro] |
+| **com-** | equative prefix | *commór* 'equally big'; seen in the personal names Gaulish *Comaros*, Old Breton *Commor* [utaustin-oldirish-intro] |
 
 ***-án*, *-ín* and diminutives generally: not covered** by any source in this directory.
 "Every adjective may become an adverb by putting the article before the dat. sg. n.":
-*in maith* 'well', *a biucc* 'little'; later with *co*: *commaith* [pokorny1914 p.72 §155].
+*in maith* 'well', *a biucc* 'little'; later with *co*: *commaith* [pokorny1914-oldirish-grammar p.72 §155].
 
 ### 10.6 Attested Old Irish personal names
 
 The set actually present in these sources, with genitives where the paradigms give them. This
 doubles as a shape template for coining new ones.
 
-**With genitive** [strachan1909 pp.7, 9–15; pokorny1914 p.19; wiki-oi-phonhistory §Examples]:
+**With genitive** [strachan1909-oldirish-paradigms pp.7, 9–15; pokorny1914-oldirish-grammar p.19; wiki-old-irish-phonhistory §Examples]:
 *Lugaid / **Luigdech*** (velar; Ogam *Lugudeccas*) · *Findubair* f. / *Findubrech* ·
 *Ainmire / Ainmirech* · *Cúanu / Cúanach* · *Eochu / Echach* · *Núadu / Núadat* (dental) ·
 *Miliucc / Milcon* (n-stem) · *Bricriu / Bricrenn* · *Derdriu* f. / *Derdrenn* ·
@@ -1465,12 +1612,12 @@ doubles as a shape template for coining new ones.
 *Anblamath / Anfolmithe* (< Primitive Irish *Anavlamattias*) · gen. *Coílbad*
 (< *Coillabotas*).
 
-**Territory names, declined identically** [strachan1909 p.15]:
+**Territory names, declined identically** [strachan1909-oldirish-paradigms p.15]:
 ***Ériu* f. 'Ireland' / gen. *Érenn* / dat. *Érinn*** · *Mumu* f. 'Munster' / *Mumen, Muman* ·
 *Albu* f. 'Britain, Scotland' / *Alban*. Also *Emain* (*Emain Macha*), *Brega*,
-*Slíab Fúait* 'Wooden Hill', *Bruig na Bóinne* [utaustin-l1].
+*Slíab Fúait* 'Wooden Hill', *Bruig na Bóinne* [utaustin-oldirish-lesson1].
 
-**Without genitive** [utaustin-l1; utaustin-intro; wiki-oi-grammar]:
+**Without genitive** [utaustin-oldirish-lesson1; utaustin-oldirish-intro; wiki-old-irish-grammar]:
 *Conchobar / Conchubur* · ***Cú Chulainn*, gen. *Con Culainn*** · *Sétanta* ·
 *Deichtire / Deichtine* · *Conall* · *Lóegaire* · *Nes(s)a* · *Ulaid* / gen. pl. *Ulad* ·
 *Morann / Morainn* · *Bran / Brain* · ***Rónán / Rónáin*** · *Líadain / Líadaine* ·
@@ -1480,17 +1627,17 @@ The language's own name: ***Goídelc*** [ˈɡoːi̯ðʲelɡ] [wiki-old-irish §i
 ### 10.7 Old Irish → Modern Irish: the correspondence set does not exist in these sources
 
 **This is the largest gap in the whole digest, and it is directly load-bearing for strand 5.**
-`bib.md` describes `wiki-oi-phonhistory` as covering "the systematic correspondences between Old
+`bib.md` describes `wiki-old-irish-phonhistory` as covering "the systematic correspondences between Old
 Irish and Modern Irish forms… That correspondence set is what lets strand 5 be generated from
 the same Irish lexicon as the other four." **That description is wrong.** The article
 "Phonological history of Old Irish" is entirely about **Proto-Celtic / Primitive Irish → Old
 Irish**: "Old Irish was affected by a series of phonological changes that radically altered its
-appearance **compared with Proto-Celtic**… between 350 and 550 CE" [wiki-oi-phonhistory §lead].
+appearance **compared with Proto-Celtic**… between 350 and 550 CE" [wiki-old-irish-phonhistory §lead].
 Its sections are Summary of changes, Syncope in detail, Changes to PC stressed short vowels,
 PC long vowels and diphthongs, Changes to PC consonants, Initial clusters, Intervocalic
 clusters, Examples of changes, Allomorphy. **There is no Old→Modern section.** The single
 forward-looking sentence in the file is "This mutation gave rise to the eclipsis mutation in
-modern Irish" [wiki-oi-phonhistory §Nasalization].
+modern Irish" [wiki-old-irish-phonhistory §Nasalization].
 
 **Not covered anywhere in this directory:** the fate of Old Irish /θ ð ɣ ṽ/ into Modern Irish;
 loss and reduction of unstressed/final syllables between the two stages; final-consonant
@@ -1498,7 +1645,7 @@ treatment; OI *-ach* → Modern *-ach* as a stated correspondence; modern long v
 compensatory lengthening outside the fortis-sonorant environment; diphthong development;
 mutation-system changes. **OI ~ Modern word pairs are essentially absent** — the only ones on
 disk are *bec/becc* ~ *beag*, and the remark that "only ***bráthair* 'brother'** survived into
-Modern Irish with its r-stem declension intact" [wiki-oi-grammar §r-stems].
+Modern Irish with its r-stem declension intact" [wiki-old-irish-grammar §r-stems].
 
 **What IS available to bridge the two stages:**
 - **The fortis-sonorant correspondence.** "In the modern language, **the four rhotics have been
@@ -1511,11 +1658,15 @@ Modern Irish with its r-stem declension intact" [wiki-oi-grammar §r-stems].
   directions**: *coll* /koL/ ~ *col* /kol/, *sonn* /soN/ ~ *son* /son/, *rún* ~ *a rún*.
 - **The orthographic correspondence.** Modern ⟨bh dh gh mh⟩ ↔ Old Irish **unmarked** ⟨b d g m⟩
   in lenited position; modern ⟨ch ph th sh fh⟩ ↔ Old Irish ⟨ch ph th ṡ ḟ⟩
-  [wiki-irish-orthography §Diacritics; utaustin-l1 §1.1]. **This alone converts most of a name's
-  spelling between the two stages**, in the direction the generator needs.
+  [wiki-irish-orthography §Diacritics; utaustin-oldirish-lesson1 §1.1]. This handles **the
+  lenition digraphs specifically** — it is not a general conversion, and on its own it will not
+  produce a correct Old Irish form: apocope, syncope, the unstressed-vowel spelling grid of
+  §10.2.5, stem-class endings and outright lexical replacement all operate between the two
+  stages and none of them is recoverable from the digraphs. *(The scope of this correspondence
+  is the digest's assessment; no held source states a conversion procedure.)*
 - **caol le caol** (§5.1) is the modern regularization of the Old Irish glide-vowel system of
   §10.2.5 — which was **not yet regular**: Pokorny §37 says the intervocalic i-glide is inserted
-  "though not regularly" [pokorny1914 p.14 §37].
+  "though not regularly" [pokorny1914-oldirish-grammar p.14 §37].
 - **The stress rule is continuous** — initial in both stages outside Munster
   [wiki-old-irish §Stress; wiki-irish-phonology §Stress].
 
@@ -1530,10 +1681,10 @@ with §10.5. The 40-odd attested names of §10.6 already cover a usable starting
 
 1. **Two-way vs. three-way consonant quality** — §10.1 above. Pokorny's three-way system is the
    implementable one for spelling.
-2. **Fortis/lenis sonorants** are phonemic in `wiki-old-irish` and `pokorny1914` (§7) but
-   **absent from `utaustin-l1`'s chart** [utaustin-l1 §1.1].
+2. **Fortis/lenis sonorants** are phonemic in `wiki-old-irish` and `pokorny1914-oldirish-grammar` (§7) but
+   **absent from `utaustin-oldirish-lesson1`'s chart** [utaustin-oldirish-lesson1 §1.1].
 3. **Value of lenited *b* and *m***: /v/ and /ṽ/ [wiki-old-irish] vs. /β/ and /β̃/
-   [wiki-oi-phonhistory §Table of basic consonant outcomes] vs. lenis *m* = a nasalized
+   [wiki-old-irish-phonhistory §Table of basic consonant outcomes] vs. lenis *m* = a nasalized
    semivowel [w̃] [wiki-irish-phonology §Fortis and lenis sonorants]. Notational variants of one
    bilabial nasalized continuant.
 4. **Broad-consonant notation**: unmarked [wiki-old-irish] vs. ◌ˠ [wiki-irish-phonology]; fortis
@@ -1541,9 +1692,9 @@ with §10.5. The 40-odd attested names of §10.6 already cover a usable starting
    [wiki-irish-phonology §Fortis and lenis sonorants].
 5. **⟨aí⟩ vs. ⟨ái⟩.** Pokorny writes ***aí (áe)*** and says so explicitly, "in order to
    distinguish these diphthongs from long *á, ó, ú*, followed by a palatal glide"
-   [pokorny1914 p.6 §4]; `wiki-old-irish` agrees. **`utaustin-l1` writes *ái (áe)***
-   [utaustin-l1 §1.1] — which on Pokorny's convention means something else. **This matters for
+   [pokorny1914-oldirish-grammar p.6 §4]; `wiki-old-irish` agrees. **`utaustin-oldirish-lesson1` writes *ái (áe)***
+   [utaustin-oldirish-lesson1 §1.1] — which on Pokorny's convention means something else. **This matters for
    spelling names.**
 6. **The article's final *-d*** — §10.4 above.
-7. **`bib.md` mis-describes `wiki-oi-phonhistory`** as covering Old→Modern correspondences —
+7. **`bib.md` mis-describes `wiki-old-irish-phonhistory`** as covering Old→Modern correspondences —
    §10.7 above.
