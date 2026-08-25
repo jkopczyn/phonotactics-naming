@@ -280,3 +280,73 @@ One row per design default; each is one line to change in the named file.
   domain; word-form legality for epithets with -i is handled by re-syllabifying after
   affixation. Revisit if outputs look wrong at edges.
 - Old Irish strand: separate spec.
+
+## 12. Amendments after plan review (2026-08-25)
+
+These override earlier sections where they conflict.
+
+**A. Repair loop (§4 stage 4).** `[repair]` rules apply unconditionally, in order, once per
+pass — many are active processes (Dutch final devoicing, Welsh fortition/prothesis), not fixes
+for illegal parses. After any rule that changes the word (count-preserving or not),
+re-syllabify. Run further passes only while illegal marks remain **and** the previous pass
+changed something (cycle detection on the segment string); cap 10; then `UNREPAIRED`.
+
+**B. Nuclei and diphthongs (§2, §3 `[syllable]`).** Diphthongs are tokenized as two vowel
+segments but grouped into **one nucleus** when the language licenses the sequence:
+`[syllable]` gains `nuclei = iə uə əi əu ...` (Irish, Welsh, Dutch lists from their digests;
+Georgian: none — every V is its own nucleus, giving the attested hiatus). Stress, weight and
+templates count nuclei, not vowel segments. Welsh's template is `(C)(C)(C)N(C)(C)` where N
+is a nucleus.
+
+**C. DSL additions (§3).**
+- Inline sets: `{l n r}` anywhere a single item is allowed.
+- Captures and backreferences: any item in TARGET or environment may be suffixed `:n`
+  (n = 1–9); REPLACEMENT may contain `\n`, which copies the segment matched by capture n.
+  This expresses copy-epenthesis `0 -> \1 / V:1 C _ {l n r} #`, metathesis
+  `θ:1 r:2 -> \2 \1 / C _ #`, and "C → C v" as `0 -> v / [C +back -labial] _ [V +front]`.
+- Class names and `#`/`$` are allowed in TARGET only via captures (a class item must be
+  captured to be reproduced); REPLACEMENT contains only literal segments, `0`, backreferences
+  and a single feature-change bundle.
+- Feature aliases: `features.tsv` header may declare aliases (`ejective = raisedLarynxEjective`,
+  `voice = periodicGlottalSource`, `long = long`, `emphatic = retractedTongueRoot`); bundles
+  may use either name. Predeclared classes additionally include `LIQ`, `NAS`, `STOP`, `FRIC`,
+  `GLIDE`, derived from features at load time.
+- Feature-change bundles: **exact** vector lookup only; if no segment has the resulting
+  vector, raise at `strands check` time (`UNREACHABLE_CHANGE`). Approximation happens only in
+  the inventory fallback stage, never inside a rule.
+- `[respell]`: operates over the annotated IPA token stream; quoted replacements become
+  opaque output chunks that later rules do not rematch; `.` and `ˈ` are stripped in code
+  after the rules, not by DSL lines. Rules may still reference `.`/`ˈ` in environments.
+
+**D. Onset/coda sets (§3 `[syllable]`).** `onsets` and `codas` are complete sets of allowed
+clusters **including singletons**; the empty onset/coda is always allowed unless
+`onset-required = yes`. `any` remains available.
+
+**E. Cluster fallback (Georgian).** A `[repair]` directive `cluster-fallback = same-length`
+replaces an illegal onset/coda span by the attested cluster of the same length with minimal
+summed segment feature distance (ties: list order), tagged `%fallback`; no candidate →
+`UNREPAIRED`. Tests are synthetic (no attested example exists).
+
+**F. Segment spelling canon.** Canonical segment spellings are the digests' (`sˤ tʼ tʃ dʒ`,
+plain `g`), not PHOIBLE's (`s̪ˤ t̪ʼ t̠ʃ d̠ʒ ɡ`). `features.tsv` is built with a normalization
+map from PHOIBLE spellings; the tokenizer accepts an alias table (ASCII `g`→`ɡ` is *not*
+applied — `g` is canonical; `:`→`ː`, `'`→`ʼ` in ejective context, bracket stripping) for
+reading attested data, and regression harnesses report untokenizable rows as skipped with
+counts, never as errors.
+
+**G. Corrections to §7.** Cairene: **no degemination** (geminates are phonemic); remove the
+line. Georgian post-consonantal ejective and slender-coronal series are `%design` (decision
+register 4 and 1), cited to §3.1/§8.1 as evidence, not as sourced rules. Welsh `ɣ→g`,
+`x→χ` are `%design`. Cairene dot-under respelling is decision 11 (design), overriding the
+digest's plain-letter recommendation.
+
+**H. Input and CLI.** `declension` is inferred in the input stage (shape + gender, §5) and
+recorded in `assumptions`. Target `[epithets]` are reachable through construction tags of the
+form `DESC+ADJ` / `DESC+NOUN`: each target maps `ADJ` and `NOUN` to its own affix (Arabic
+nisba / fem -a; Georgian -uri / -i; Welsh -aidd / none; Dutch -achtig / none).
+
+**I. Plan discipline.** Every task, including the four target rule files, writes its tests
+first against an absent or skeletal artefact; stress procedures live in separate modules
+(`stress/initial.py`, …) so their tasks are conflict-free; the dependency graph must be
+acyclic and honest about test fixtures (a test that needs another task's output depends on
+that task).
