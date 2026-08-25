@@ -16,6 +16,11 @@ Inference order (spec §5, I-38):
 4. `gen_ipa` "" -> `apply_inflection(word, GEN_<DECL>)` (`d4` = stem unchanged), so the
    genitive has exactly one implementation (R27)          `gen_ipa:inferred-<decl>`
 
+Steps 3–4 look at the `ipa` AFTER the `irish.rules [normalize]` rewrites (Task 19 accepts
+aliases such as ASCII `g` and quality-less consonants, which are in neither `BROAD` nor
+`SLEN`), so an alias-final feminine noun is `f2`, not the `m1` default, and the inferred
+`gen_ipa` is canonical. No stress is added to the stored `gen_ipa`.
+
 A row with no `ipa` is kept, tagged `skipped:no-ipa`; steps 1–3 still run on its
 orthography, step 4 is skipped. Supplied values are never overwritten.
 
@@ -36,7 +41,7 @@ from typing import Sequence
 
 from .dsl import RuleFile
 from .features import FeatureTable
-from .irish import apply_inflection
+from .irish import _normalize_rewrites, apply_inflection
 from .tokenize import tokenize
 from .word import Word
 
@@ -126,8 +131,13 @@ def known_names(path: str | Path = _TEST_WORDS) -> dict[str, str]:
     return names
 
 
-def _word(entry: Entry, table: FeatureTable) -> Word | None:
-    return Word.from_tokenized(tokenize(entry.ipa, table)) if entry.ipa else None
+def _word(entry: Entry, rf: RuleFile, table: FeatureTable) -> Word | None:
+    """The entry's `ipa` after the `[normalize]` rewrites (aliases folded, unmarked consonants
+    given a quality), so that `_final_quality` sees BROAD/SLEN members and the inferred
+    `gen_ipa` is canonical. Only the rewrites: no stress is added (that is `normalize()`)."""
+    if not entry.ipa:
+        return None
+    return _normalize_rewrites(Word.from_tokenized(tokenize(entry.ipa, table)), rf, table)
 
 
 def _final(word: Word | None) -> str | None:
@@ -194,7 +204,7 @@ def infer(entry: Entry, irish: RuleFile, table: FeatureTable) -> Entry:
     tags: list[str] = list(entry.assumptions)
     if not entry.ipa and "skipped:no-ipa" not in tags:
         tags.append("skipped:no-ipa")
-    word = _word(entry, table)
+    word = _word(entry, irish, table)
     quality = _final_quality(entry, word, irish, table)
 
     dialect = entry.dialect

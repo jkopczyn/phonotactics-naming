@@ -114,3 +114,19 @@ def test_accept_writes_the_guesses_back(tmp_path):
     assert by["mac"]["gen_ipa"] == "mʲɪc" and by["NoIpa"]["gen_ipa"] == ""
     assert by["Seán"]["gen_ipa"] == "ʃaːnʲ"          # supplied value untouched
     assert by["NoIpa"]["ipa"] == ""                   # no fabricated IPA
+
+
+# ---- review-stress-irish fix 4: classify and inflect the NORMALIZED form -------------------
+
+def test_alias_final_consonant_is_classified_after_normalization():
+    """ASCII `g` is an input alias of `ɡ` (irish.rules [normalize]); a feminine noun ending
+    in it is f2, not the m1 default."""
+    e = infer(Entry("bróg", ipa="bˠɾˠoːg", gender="f"), IRISH, TABLE)
+    assert e.declension == "f2" and "declension:inferred-f2" in e.assumptions
+    assert e.gen_ipa == "bˠɾˠoːɟə"
+
+
+def test_unmarked_input_inflects_to_the_canonical_genitive():
+    e = infer(Entry("mac", ipa="mak", gender="m"), IRISH, TABLE)
+    assert e.declension == "m1" and e.gen_ipa == "mʲɪc"
+    assert "ˈ" not in e.gen_ipa

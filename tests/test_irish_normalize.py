@@ -136,3 +136,31 @@ def test_std_rows_are_treated_as_connacht_for_stress():
 def test_every_test_word_normalizes_without_error():
     for row in read_test_words():
         normalize(w(row["ipa"]), IRISH, TABLE, dialect=row.get("dialect") or "C")
+
+
+# ---- review-stress-irish fix 3: clusters share quality (digest §2.2, spec §4.1) --------------
+
+def test_initial_cluster_takes_the_quality_of_the_following_vowel():
+    assert normalize(w("stra"), IRISH, TABLE).segments == ("sˠ", "t̪ˠ", "ɾˠ", "a")
+    assert normalize(w("stri"), IRISH, TABLE).segments == ("ʃ", "tʲ", "ɾʲ", "i")
+    assert normalize(w("skri"), IRISH, TABLE).segments == ("ʃ", "c", "ɾʲ", "i")
+    assert normalize(w("skra"), IRISH, TABLE).segments == ("sˠ", "k", "ɾˠ", "a")
+    assert normalize(w("skli"), IRISH, TABLE).segments == ("ʃ", "c", "lʲ", "i")
+
+
+def test_final_cluster_takes_the_quality_of_the_preceding_vowel():
+    assert normalize(w("ant"), IRISH, TABLE).segments == ("a", "n̪ˠ", "t̪ˠ")
+    assert normalize(w("int"), IRISH, TABLE).segments == ("i", "nʲ", "tʲ")
+    assert normalize(w("arst"), IRISH, TABLE).segments == ("a", "ɾˠ", "sˠ", "t̪ˠ")
+    assert normalize(w("irk"), IRISH, TABLE).segments == ("i", "ɾʲ", "c")
+
+
+def test_medial_cluster_follows_the_next_vowel():
+    assert normalize(w("ista"), IRISH, TABLE).segments == ("i", "sˠ", "t̪ˠ", "a")
+
+
+def test_explicit_quality_in_a_cluster_is_kept_and_propagated():
+    """A user-marked consonant is never overwritten; an unmarked neighbour takes the
+    vowel's quality where it has one, else the marked neighbour's."""
+    assert normalize(w("ʃtʲra"), IRISH, TABLE).segments == ("ʃ", "tʲ", "ɾˠ", "a")
+    assert normalize(w("stʲ"), IRISH, TABLE).segments == ("ʃ", "tʲ")

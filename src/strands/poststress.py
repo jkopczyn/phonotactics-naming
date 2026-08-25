@@ -6,14 +6,17 @@ seeing the previous rule's output, with the stress mark `ˈ` available as a cont
 (the stressed syllable's START, spec §3).
 
 Re-syllabification. Unlike `[repair]`, this stage re-syllabifies only once, at the end, and
-only if some rule changed the segment count: `Word.replaced` shifts the existing syllable
-starts and nuclei consistently through every edit, so count-preserving changes leave the
-parse valid. When a re-parse is needed the stressed syllable keeps its identity by NUCLEUS,
-not by position: the stressed syllable's nucleus is looked up in the edited word, its first
-segment is parked in `Word._pending_stress`, and `syllabify()` (S1) re-attaches stress to
-whichever new syllable contains that segment. Thus `0 -> i / # _ s k` on `ˈska` yields
-`i.ˈska`, not `ˈi.ska`. If the stressed nucleus itself was rewritten (a same-count change
-overlapping it drops the nucleus record), the syllable's start segment is used instead.
+only if some rule changed the segment count (checked rule by rule: an insertion followed by a
+deletion nets to zero but still invalidates the parse). `Word.replaced` shifts the existing
+syllable starts and nuclei consistently through every edit, so count-preserving changes leave
+the parse valid. The stressed syllable keeps its identity by NUCLEUS, not by position: before
+any rule runs, the stressed syllable's nucleus start in the PRE-edit word is parked in
+`Word._pending_stress`, which `replaced` shifts through every edit exactly as it does the
+tokenizer's stress index (S1), and `syllabify()` re-attaches stress to whichever new syllable
+contains that segment. Thus `0 -> i / # _ s k` on `ˈska` yields `i.ˈska`, not `ˈi.ska`, and
+`p -> 0 / # _` on `ˈpat` yields `ˈat` even though the syllable START was deleted (which
+drops `Word.stress`). If the nucleus itself is rewritten the parked index is lost; the
+stressed syllable's start in the edited word is used instead, when it survived.
 """
 from __future__ import annotations
 
@@ -51,11 +54,15 @@ def post_stress(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
     rules = rf.sections.get(STAGE, ())
     if not rules:
         return word
-    count = len(word.segments)
-    out = word
+    anchor = _stressed_anchor(word)                # identity of the stressed syllable, pre-edit
+    out = word if anchor is None else replace(word, _pending_stress=anchor)
+    changed = False
     for rule in rules:
+        count = len(out.segments)
         out = apply_rule(out, rule, rf, table, STAGE)
-    if len(out.segments) == count:
-        return out
-    anchor = _stressed_anchor(out)
-    return syllabify(replace(out, _pending_stress=anchor), rf, table)
+        changed = changed or len(out.segments) != count
+    if not changed:
+        return out if anchor is None else replace(out, _pending_stress=word._pending_stress)
+    if out._pending_stress is None:                # nucleus rewritten: fall back to the start
+        out = replace(out, _pending_stress=_stressed_anchor(out))
+    return syllabify(out, rf, table)

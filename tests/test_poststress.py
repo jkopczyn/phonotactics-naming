@@ -67,3 +67,22 @@ def test_non_matching_rules_leave_the_word_identical():
     rf = parse_rules(BASE + "[post-stress]\nk -> t / ˈ _   %design\n", TABLE)
     x = stressed("pata", rf)
     assert post_stress(x, rf, TABLE) == x
+
+
+def test_net_zero_length_change_still_resyllabifies():
+    """review-stress-irish fix 1: an insertion plus a deletion leaves the count unchanged
+    overall, but each rule changed it, so the stale one-syllable parse must be redone."""
+    rf = parse_rules(BASE + "[post-stress]\n0 -> i / # _ p   %design\nt -> 0 / _ #   %design\n",
+                     TABLE)
+    out = post_stress(stressed("pat", rf), rf, TABLE)
+    assert out.segments == ("i", "p", "a")
+    assert out.syllables == (0, 1) and out.stress == 1 and out.ipa() == "i.ˈpa"
+
+
+def test_deleting_the_stressed_onset_keeps_the_stress():
+    """review-stress-irish fix 1: the stressed syllable is identified by its nucleus in the
+    PRE-edit word, so deleting its onset (its syllable start) does not lose the stress."""
+    rf = parse_rules(BASE + "[post-stress]\np -> 0 / # _   %design\n", TABLE)
+    out = post_stress(stressed("pat", rf), rf, TABLE)
+    assert out.segments == ("a", "t")
+    assert out.stress == 0 and out.ipa() == "ˈat"

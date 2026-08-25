@@ -28,8 +28,10 @@ has to see the name's own word edge, which the `$` join hides. Stress is not set
 Template function semantics (plan Task 18):
 - `LEN/ECL/HPREF/TPREF(x)`   -> `apply_mutation`.
 - `GEN_M1/GEN_ACH/GEN_F2/GEN_M3/VOC_M1(x)` -> `apply_inflection`.
-- `GEN(x)`   dispatches on `x`'s declension (I-38): m1/ach/f2/m3 -> the named inflection,
-  d4 -> identity; a missing declension takes GEN_M1 with a trace note.
+- `GEN(x)`   uses `x`'s supplied `Entry.gen_ipa` when it is non-empty (spec §5: an irregular
+  genitive is user data, never regularized away), run through the `[normalize]` rewrites like
+  any slot; otherwise it dispatches on `x`'s declension (I-38): m1/ach/f2/m3 -> the named
+  inflection, d4 -> identity; a missing declension takes GEN_M1 with a trace note.
 - A bare function (`VOC_M1?`) applies to the word assembled so far (since the last `" "`),
   which ends in the head; `?` = only when the head's declension equals the function's tag.
 - `LEN_IF_F(x)` lenites iff the construction's head (its first slot) is feminine
@@ -223,10 +225,19 @@ def _condition_holds(item: TemplateItem, head: "Entry | None", name: str, rf: Ru
 
 
 def _apply_gen(val: _Val, rf: RuleFile, table: FeatureTable) -> _Val:
-    """GEN(): dispatch on the declension tag (I-38); missing -> GEN_M1 with a note."""
+    """GEN(): a supplied `gen_ipa` wins (spec §5); else dispatch on the declension tag
+    (I-38); missing -> GEN_M1 with a note."""
     decl = (val.entry.declension if val.entry is not None else "") or ""
     word = val.word
-    if decl not in _GEN_BY_DECLENSION:
+    supplied = val.entry.gen_ipa if val.entry is not None else ""
+    if supplied:
+        before = word.ipa()
+        gen = Word.from_tokenized(tokenize(supplied, table))
+        gen = _normalize_rewrites(replace(gen, trace=word.trace, flags=word.flags), rf, table)
+        word = gen.traced(TraceEntry(stage=STAGE, rule_id="templates:GEN", tag="attested",
+                                     before=before, after=gen.ipa(),
+                                     note="supplied gen_ipa used (spec §5), not derived"))
+    elif decl not in _GEN_BY_DECLENSION:
         inflection = "GEN_M1"
         before = word.ipa()
         word = apply_inflection(word, inflection, rf, table)
