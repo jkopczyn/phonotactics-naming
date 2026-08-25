@@ -1,0 +1,154 @@
+Language,InventoryID,Source,SpecificDialect,Phoneme,Allophones,Marginal,SegmentClass,tone,stress,syllabic,short,long,consonantal,sonorant,continuant,delayedRelease,approximant,tap,trill,nasal,lateral,labial,round,labiodental,coronal,anterior,distributed,strident,dorsal,high,low,front,back,tense,retractedTongueRoot,advancedTongueRoot,periodicGlottalSource,epilaryngealSource,spreadGlottis,constrictedGlottis,fortis,lenis,raisedLarynxEjective,loweredLarynxImplosive,click
+Dutch,2169,ph,Belgian Standard Dutch,b,b,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Dutch,2169,ph,Belgian Standard Dutch,d,d c,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Dutch,2169,ph,Belgian Standard Dutch,f,f,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,+,-,+,-,0,0,0,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+Dutch,2169,ph,Belgian Standard Dutch,j,j,False,consonant,0,-,-,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,-,-,-,-,-
+Dutch,2169,ph,Belgian Standard Dutch,k,k ɡ,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,-,-,-,-,-,-,-,-,-
+Dutch,2169,ph,Belgian Standard Dutch,l,l lˠ ʎ,False,consonant,0,-,-,-,-,+,+,+,0,+,-,-,-,+,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Dutch,2169,ph,Belgian Standard Dutch,m,m ɱ,False,consonant,0,-,-,-,-,+,+,-,0,-,-,-,+,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Dutch,2169,ph,Belgian Standard Dutch,n,n ɲ,False,consonant,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Dutch,2169,ph,Belgian Standard Dutch,p,p,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+Dutch,2169,ph,Belgian Standard Dutch,r,r r̥ ʀ ʀ̥ ʁ̞,False,consonant,0,-,-,-,-,+,+,+,0,+,-,+,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Dutch,2169,ph,Belgian Standard Dutch,s,s,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+Dutch,2169,ph,Belgian Standard Dutch,t,t c,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+Dutch,2169,ph,Belgian Standard Dutch,v,v f,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,+,-,+,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Dutch,2169,ph,Belgian Standard Dutch,w,w,False,consonant,0,-,-,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,+,-,-,+,-,-,-,-,-,-,-,-
+Dutch,2169,ph,Belgian Standard Dutch,x,x,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,-,-,-,-,-,-,-,-,-
+Dutch,2169,ph,Belgian Standard Dutch,z,z s,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Dutch,2169,ph,Belgian Standard Dutch,ŋ,ŋ,False,consonant,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,+,-,-,-,-,-,-,-,-
+Dutch,2169,ph,Belgian Standard Dutch,ɣ,ɣ x,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,+,-,-,-,-,-,-,-,-
+Dutch,2169,ph,Belgian Standard Dutch,ɦ,ɦ,False,consonant,0,-,-,-,-,-,-,+,+,-,-,-,-,-,-,0,0,-,0,0,0,-,0,0,0,0,0,-,-,+,-,+,-,-,-,-,-,-
+Dutch,2169,ph,Belgian Standard Dutch,ʃ,ʃ,True,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+Dutch,2169,ph,Belgian Standard Dutch,ʒ,ʒ ʃ,True,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Dutch,2169,ph,Belgian Standard Dutch,ʔ,ʔ,True,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,-,0,0,0,0,0,-,-,-,-,-,+,-,-,-,-,-
+Dutch,2169,ph,Belgian Standard Dutch,aː,aː,False,vowel,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,+,-,-,0,-,-,+,-,-,-,0,0,-,-,0
+Dutch,2169,ph,Belgian Standard Dutch,eː,eː,False,vowel,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+Dutch,2169,ph,Belgian Standard Dutch,i,i,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+Dutch,2169,ph,Belgian Standard Dutch,oː,oː,False,vowel,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,-,-,+,+,-,-,+,-,-,-,0,0,-,-,0
+Dutch,2169,ph,Belgian Standard Dutch,u,u,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,+,-,-,+,-,-,-,0,0,-,-,0
+Dutch,2169,ph,Belgian Standard Dutch,yː,yː,False,vowel,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+Dutch,2169,ph,Belgian Standard Dutch,øː,øː,False,vowel,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+Dutch,2169,ph,Belgian Standard Dutch,œy,œy,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,"-,+",-,+,-,"-,+",-,-,+,-,-,-,0,0,-,-,0
+Dutch,2169,ph,Belgian Standard Dutch,ɑ,ɑ,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,+,-,+,0,-,-,+,-,-,-,0,0,-,-,0
+Dutch,2169,ph,Belgian Standard Dutch,ɔ,ɔ,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,-,-,+,-,-,-,+,-,-,-,0,0,-,-,0
+Dutch,2169,ph,Belgian Standard Dutch,ɔu,ɔu,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,"-,+",-,-,+,"-,+",-,-,+,-,-,-,0,0,-,-,0
+Dutch,2169,ph,Belgian Standard Dutch,ɛ,ɛ,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,+,-,-,-,-,+,-,-,-,0,0,-,-,0
+Dutch,2169,ph,Belgian Standard Dutch,ɛi,ɛi,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,"-,+",-,+,-,"-,+",-,-,+,-,-,-,0,0,-,-,0
+Dutch,2169,ph,Belgian Standard Dutch,ɪ,ɪ,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,-,-,-,+,-,-,-,0,0,-,-,0
+Dutch,2169,ph,Belgian Standard Dutch,ʏ,ʏ,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,+,-,-,-,-,+,-,-,-,0,0,-,-,0
+Egyptian Arabic (Cairene),231,upsid,,b,,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,d̠ʒ,,False,consonant,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,d̪,,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,d̪ˤ,,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,"-,+",-,+,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,f,,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,+,-,+,-,0,0,0,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,h,,False,consonant,0,-,-,-,-,-,-,+,+,-,-,-,-,-,-,0,0,-,0,0,0,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,j,,False,consonant,0,-,-,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,k,,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,-,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,l̪,,False,consonant,0,-,-,-,-,+,+,+,0,+,-,-,-,+,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,m,,False,consonant,0,-,-,-,-,+,+,-,0,-,-,-,+,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,n̪,,False,consonant,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,q,,True,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,-,-,-,+,0,-,-,-,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,r,,False,consonant,0,-,-,-,-,+,+,+,0,+,-,+,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,s̪,,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,s̪ˤ,,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,+,+,-,0,0,0,0,0,"-,+",-,-,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,t̪,,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,t̪ˤ,,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,"-,+",-,-,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,w,,False,consonant,0,-,-,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,+,-,-,+,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,z̪,,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,+,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,z̪ˤ,,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,+,+,-,0,0,0,0,0,"-,+",-,+,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,ħ,,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,-,0,0,0,+,-,+,-,+,0,+,-,-,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,ɡ,,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,+,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,ʁ,,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,-,0,0,0,+,-,-,-,+,0,-,-,+,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,ʃ,,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,ʔ,,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,-,0,0,0,0,0,-,-,-,-,-,+,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,ʕ,,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,-,0,0,0,+,-,+,-,+,0,+,-,+,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,χ,,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,-,0,0,0,+,-,-,-,+,0,-,-,-,-,-,-,-,-,-,-,-
+Egyptian Arabic (Cairene),231,upsid,,a,,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,+,-,-,0,-,-,+,-,-,-,0,0,-,-,0
+Egyptian Arabic (Cairene),231,upsid,,eː,,False,vowel,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+Egyptian Arabic (Cairene),231,upsid,,iː,,False,vowel,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+Egyptian Arabic (Cairene),231,upsid,,oː,,False,vowel,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,-,-,+,+,-,-,+,-,-,-,0,0,-,-,0
+Egyptian Arabic (Cairene),231,upsid,,uː,,False,vowel,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,+,-,-,+,-,-,-,0,0,-,-,0
+Egyptian Arabic (Cairene),231,upsid,,æː,,False,vowel,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,+,+,-,0,-,-,+,-,-,-,0,0,-,-,0
+Egyptian Arabic (Cairene),231,upsid,,ɪ,,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,-,-,-,+,-,-,-,0,0,-,-,0
+Egyptian Arabic (Cairene),231,upsid,,ʊ,,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,-,-,-,+,-,-,-,0,0,-,-,0
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),b,b,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),dz,dz,False,consonant,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),d̠ʒ,d̠ʒ,False,consonant,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),d̪,d̪,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),h,h,False,consonant,0,-,-,-,-,-,-,+,+,-,-,-,-,-,-,0,0,-,0,0,0,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),kʰ,kʰ,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,-,-,+,-,-,-,-,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),kʼ,kʼ,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,-,-,-,+,-,-,+,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),l,l l̩ ɾ,False,consonant,0,-,-,-,-,+,+,+,0,+,-,-,-,+,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),m,m m̩,False,consonant,0,-,-,-,-,+,+,-,0,-,-,-,+,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),n,n n̩,False,consonant,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),pʰ,pʰ,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),pʼ,pʼ,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,-,-,-,+,-,-,+,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),qʼ,qʼ χʼ qʼχ ʔ,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,-,-,-,+,0,-,-,-,-,-,+,-,-,+,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),s,s,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),ts,ts,False,consonant,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),tsʼ,tsʼ,False,consonant,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,-,-,-,+,-,-,+,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),t̠ʃ,t̠ʃ,False,consonant,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),t̠ʃʼ,t̠ʃʼ,False,consonant,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,+,-,-,+,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),t̪ʰ,t̪ʰ,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),t̪ʼ,t̪ʼ,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,-,-,-,+,-,-,+,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),v,v f ɸ v̥ v̩,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,+,-,+,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),x,x,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,-,-,-,-,-,-,-,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),z,z,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),ɡ,ɡ,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,+,-,-,-,-,-,-,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),ɣ,ɣ,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,+,-,-,-,-,-,-,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),ɾ,ɾ r ɾ̩ r̩ l,False,consonant,0,-,-,-,-,+,+,+,0,+,+,-,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),ʃ,ʃ,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),ʒ,ʒ,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),i,i,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),u,u,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,+,-,-,+,-,-,-,0,0,-,-,0
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),ɑ,ɑ,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,+,-,+,0,-,-,+,-,-,-,0,0,-,-,0
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),ɔ,ɔ,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,-,-,+,-,-,-,+,-,-,-,0,0,-,-,0
+Georgian,2183,ph,Standard (or literary) georgian (Kartluri dialect),ɛ,ɛ,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,+,-,-,-,-,+,-,-,-,0,0,-,-,0
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),d̠ʒ,,False,consonant,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),f,,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,+,-,+,-,0,0,0,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),h,,False,consonant,0,-,-,-,-,-,-,+,+,-,-,-,-,-,-,0,0,-,0,0,0,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),j,,False,consonant,0,-,-,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),k,,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,-,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),kʰ,,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,-,-,+,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),l,,False,consonant,0,-,-,-,-,+,+,+,0,+,-,-,-,+,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),m,,False,consonant,0,-,-,-,-,+,+,-,0,-,-,-,+,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),m̥,,False,consonant,0,-,-,-,-,+,+,-,0,-,-,-,+,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),n,,False,consonant,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),n̥,,False,consonant,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),p,,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),pʰ,,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,+,-,-,-,0,0,0,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),r,,False,consonant,0,-,-,-,-,+,+,+,0,+,-,+,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),r̥,,False,consonant,0,-,-,-,-,+,+,+,0,+,-,+,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),s,,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),t,,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),tʰ,,False,consonant,0,-,-,-,-,+,-,-,-,-,-,-,-,-,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,-,-,+,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),t̠ʃ,,False,consonant,0,-,-,-,-,+,-,-,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),v,,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,+,-,+,-,0,0,0,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),w,,False,consonant,0,-,-,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,+,-,-,+,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),z,,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,-,+,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),ð,,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,+,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),ŋ,,False,consonant,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,+,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),ŋ̥,,False,consonant,0,-,-,-,-,+,+,-,0,-,-,-,+,-,-,0,0,-,0,0,0,+,+,-,-,-,0,-,-,-,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),ɬ,,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,+,-,0,0,+,+,-,-,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),ʃ,,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,-,+,+,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),θ,,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,+,+,+,-,-,0,0,0,0,0,-,-,-,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),χ,,False,consonant,0,-,-,-,-,+,-,+,+,-,-,-,-,-,-,0,0,-,0,0,0,+,-,-,-,+,0,-,-,-,-,-,-,-,-,-,-,-
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),a,,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,+,-,-,0,-,-,+,-,-,-,0,0,-,-,0
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),ai,,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,"-,+","+,-","-,+",-,+,-,-,+,-,-,-,0,0,-,-,0
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),au,,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"-,+",+,-,-,0,0,0,+,"-,+","+,-",-,"-,+",+,-,-,+,-,-,-,0,0,-,-,0
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),eː,,False,vowel,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),iː,,False,vowel,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,+,-,-,+,-,-,-,0,0,-,-,0
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),oː,,False,vowel,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,-,-,+,+,-,-,+,-,-,-,0,0,-,-,0
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),uː,,False,vowel,0,-,+,-,+,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,+,-,-,+,-,-,-,0,0,-,-,0
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),ɑː,,False,vowel,0,-,+,-,+,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,+,-,+,0,-,-,+,-,-,-,0,0,-,-,0
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),ɔ,,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,-,-,-,+,-,-,-,+,-,-,-,0,0,-,-,0
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),ɔi,,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"+,-",+,-,-,0,0,0,+,"-,+",-,"-,+","+,-","-,+",-,-,+,-,-,-,0,0,-,-,0
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),ə,,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,-,-,-,-,-,+,-,-,-,0,0,-,-,0
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),əi,,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,"-,+",-,"-,+",-,"-,+",-,-,+,-,-,-,0,0,-,-,0
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),əu,,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"-,+",+,-,-,0,0,0,+,"-,+",-,-,"-,+","-,+",-,-,+,-,-,-,0,0,-,-,0
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),ɛ,,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,-,-,+,-,-,-,-,+,-,-,-,0,0,-,-,0
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),ɛu,,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"-,+",+,-,-,0,0,0,+,"-,+",-,"+,-","-,+","-,+",-,-,+,-,-,-,0,0,-,-,0
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),ɪ,,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,-,0,0,-,0,0,0,+,+,-,+,-,-,-,-,+,-,-,-,0,0,-,-,0
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),ɪu,,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"-,+",+,-,-,0,0,0,+,+,-,"+,-","-,+","-,+",-,-,+,-,-,-,0,0,-,-,0
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),ʊ,,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,+,+,-,-,0,0,0,+,+,-,-,+,-,-,-,+,-,-,-,0,0,-,-,0
+Welsh (Southern),2406,ea,Welsh (Llanwrtyd),ʊi,,False,vowel,0,-,+,-,-,-,+,+,0,+,-,-,-,-,"+,-",+,-,-,0,0,0,+,+,-,"-,+","+,-","-,+",-,-,+,-,-,-,0,0,-,-,0
