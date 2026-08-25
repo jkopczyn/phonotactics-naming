@@ -1,6 +1,6 @@
 # georgian.rules — Standard Georgian (strand 4). Task 23a: [meta] [inventory] [classes]
-# [substitute] [stress] [epithets] [post-stress] [respell] and a TEMPORARY [syllable] block.
-# Task 23b: the real [syllable] whitelists, bans and [repair]. Every rule line cites its digest
+# [substitute] [stress] [epithets] [post-stress] [respell]; Task 23b: [syllable] whitelists,
+# bans and [repair]. Every rule line cites its digest
 # section (sources/georgian/digest.md) or the decision-register row (spec §9) it implements.
 
 [meta]
@@ -130,12 +130,141 @@ v v -> v         %design   # design: goals decision 5 (2026-08-25) · digest §8
 i i -> i         %design   # design: §9.2 (Ci rule) · digest §3.6 degemination is exceptionless
 
 [syllable]
-# TEMPORARY (Task 23a): replaced wholesale by Task 23b's whitelists. Do not ship.
+# Task 23b. digest §2.1 [butskhrikidze2002 p.41, p.100]: "the syllable … cannot serve as the
+# domain of phonotactic generalisations" — no syllable template; the stem is the domain and
+# the stem-edge inventories (§2.3 Appendix 2, §2.5 Appendix 3) are the whitelists (I-27).
 template = any
-onsets   = any
-codas    = any
-sonority = off
 domain   = stem
+# digest §2.7 [crouch2022-diss §1.3.1 p.13] "the SSP is not relevant for syllabification in
+# Georgian"; rises, plateaus and falls are all attested word-initially (I-13).
+sonority = off
+# No `nuclei` (spec §12.B, I-2): digest §2.9 [shosted2006 p.262] — no diphthongs; adjacent
+# vowels are heterosyllabic ([ɡirɑɔ] 'mortgage'), and "loanwords are exactly where Georgian
+# tolerates VV" (§2.9 [butskhrikidze2002 p.83 n.8]). §2.9's monomorphemic VV bar is therefore
+# NOT written as a ban: the attested loans (§7: *uaildi, jeimz, brius*) all carry hiatus.
+#
+# onsets — the COMPLETE stem-initial set (spec §12.D), transcribed by
+# rules/extract_georgian_clusters.py from the digest's prose (R29; her notation -> IPA per
+# §2.0, and `c` -> the chart's `ts`). Singletons first: §2.8 [butskhrikidze2002 p.99] "All 33
+# phonemes of Georgian can appear in word-initial position" (/h/ included, though receding).
+# Tiers (onsets-tier):
+#   HARMONIC — §2.2 table (53) [butskhrikidze2002 p.103], 30 of the 32: `zg` and `žg` are
+#              EXCLUDED — "almost unattested" [p.103 n.20], `zg` marked impossible in table
+#              (62) [p.110] (S8). Only 24 of the 32 are given in IPA at §2.2; the fricative-
+#              initial 6 (`sk šk zγ žγ sx šx`) are read through the §2.0 chart.
+#   APP2     — §2.3 Appendix 2 [butskhrikidze2002 pp.197–205]: CC by manner class, CCC a)–z),
+#              CCCC, the CCCCC `c'vrtn` and the CCCCCC `prckvn brdγvn`. "Not exhaustive",
+#              excludes /m/+C and all but two /v/+C [p.197].
+#   INIT     — §2.5 [butskhrikidze2002 p.207] the set "attested stem-initially but not
+#              stem-finally": t'b k'b xb tb gd xd gǰ.
+#   GRID     — §2.6 table (62) [butskhrikidze2002 p.110], the attested initial CC grid.
+#   LOAN     — §3.7 [gabunia2021 pp.50–51]: clusters the digest lists as kept unrepaired in
+#              attested loans and calls "licensed by §2 independently" but which the §2 lists
+#              (being non-exhaustive) do not print: `sn` (*snack* -> /snɛkʼi/; §3.7 and §8.4
+#              flag the gap as "an artefact of the list being non-exhaustive rather than a
+#              ban").
+onsets   = pʰ pʼ b tʰ tʼ d kʰ kʼ ɡ qʼ ts tsʼ dz tʃʰ tʃʼ dʒ m n v s z ʃ ʒ x ɣ h l r bɡ pʰkʰ pʼkʼ bɣ pʰx pʼqʼ dɡ tʰkʰ tʼkʼ dɣ tʰx tʼqʼ dzɡ tskʰ tsʼkʼ dzɣ tsx tsʼqʼ dʒɡ tʃʰkʰ tʃʼkʼ dʒɣ tʃʰx tʃʼqʼ skʰ zɣ sx ʃkʰ ʒɣ ʃx ɡd kʼb tʰb brdʒ btʃʼ brdz kʰts bz bʒ ɡz kʰs kʰʃ pʰʃ bl bm bn br dv dm dn dr ɡv ɡl ɡm ɡn ɡr kʰv kʰl kʰm kʰn kʰr kʼv kʼl kʼm kʼn kʼr pʰl pʰr pʼl pʼr tʰv tʰl tʰm tʰr tʼv tʼl tʼr tsd tʃʼd dʒd tsv tsm tsn tsr tʃʰv tʃʰl tʃʰr tsʼv tsʼl tsʼm tsʼn tsʼr tʃʼv tʃʼl tʃʼm tʃʼr dzv dzl dzm dzn dzr dʒv dʒm skʼ stʼ ʃpʰ ʃtʰ ʃtʼ xd qʼb qʼd stsʼ xts xʃ sv sl sm sr ʃv ʃl ʃm ʃn ʃr zv zl zm zn zr ʒr ʒl ɣv ɣl ɣm ɣr xv xl xm xn xr qʼv qʼl qʼm qʼn qʼr lb ltʼ nd rb rɡ rkʰ rkʼ rtʼ rtsʼ rdz rdʒ vs lx rqʼ lm tʼkʼb tʰkʰv tʰkʰr pʼtsʼkʼ pʰskʼ bɣv tʰxl tʰxr tʼqʼv tʼqʼl brb brɡ brkʰ ɡrd kʰrtʰ kʼvd kʼld kʼrtʰ pʰrtʰ tʰrtʰ zrd ɡrdz kʼrdz brm ɡvr kʼvn kʼvr tʰvl tskʰv tsʼkʼl tsʼkʼm tsʼkʼr tʃʼkʼn tsxv tsxr tʃʰxr tsʼqʼv tsʼqʼl tsʼqʼr tsʼqʼn tʃʼqʼl dzɣv tsʼrtʰ tsʼrpʰ dzrtsʼ tʃʰrd tsʼvr tʃʼvr dzvr stʼv stsʼr sxv zɣv xsn xrtʼ qʼrd ɣrdz ʒrʒ ʃvr zmn ɣrm xvr rɡv rtʰv ndʒr rtsx rtsʼqʼ rɣv vrts tʰkʰvl tʰxzv pʰxvn pʰʃvn brtʼqʼ pʰrtʰx ɡrɡv pʰrkʰv brtsʼqʼ brtʃʼqʼ pʰrtʃʰx ɡrdzn tsʼqʼvd tʃʰxvl tsʼrtʰv sxvl xrtsʼn ɣrɣn rtʼqʼm ndʒɣr rtsxv rqʼvn tsʼvrtʰn pʰrtskʰvn brdɣvn tʼb xb ɡdʒ bdʒ pʰtʰ pʰtʃʰ pʰs pʰn pʼn dl tsb tstʰ tsʼb tsʼtʰ dʒl tʃʰm tʃʼn spʰ spʼ ʒv ʃpʼ ɣd ɣdz ɣdʒ ɣn xs lpʼ lqʼ lv rtʰ rts rtʃʰ rɣ rx rv ntʰ nɡ ndʒ sn
+onsets-tier = bɡ:HARMONIC pʰkʰ:HARMONIC pʼkʼ:HARMONIC bɣ:HARMONIC pʰx:HARMONIC pʼqʼ:HARMONIC dɡ:HARMONIC tʰkʰ:HARMONIC tʼkʼ:HARMONIC dɣ:HARMONIC tʰx:HARMONIC tʼqʼ:HARMONIC dzɡ:HARMONIC tskʰ:HARMONIC tsʼkʼ:HARMONIC dzɣ:HARMONIC tsx:HARMONIC tsʼqʼ:HARMONIC dʒɡ:HARMONIC tʃʰkʰ:HARMONIC tʃʼkʼ:HARMONIC dʒɣ:HARMONIC tʃʰx:HARMONIC tʃʼqʼ:HARMONIC skʰ:HARMONIC zɣ:HARMONIC sx:HARMONIC ʃkʰ:HARMONIC ʒɣ:HARMONIC ʃx:HARMONIC ɡd:APP2 kʼb:APP2 tʰb:APP2 brdʒ:APP2 btʃʼ:APP2 brdz:APP2 kʰts:APP2 bz:APP2 bʒ:APP2 ɡz:APP2 kʰs:APP2 kʰʃ:APP2 pʰʃ:APP2 bl:APP2 bm:APP2 bn:APP2 br:APP2 dv:APP2 dm:APP2 dn:APP2 dr:APP2 ɡv:APP2 ɡl:APP2 ɡm:APP2 ɡn:APP2 ɡr:APP2 kʰv:APP2 kʰl:APP2 kʰm:APP2 kʰn:APP2 kʰr:APP2 kʼv:APP2 kʼl:APP2 kʼm:APP2 kʼn:APP2 kʼr:APP2 pʰl:APP2 pʰr:APP2 pʼl:APP2 pʼr:APP2 tʰv:APP2 tʰl:APP2 tʰm:APP2 tʰr:APP2 tʼv:APP2 tʼl:APP2 tʼr:APP2 tsd:APP2 tʃʼd:APP2 dʒd:APP2 tsv:APP2 tsm:APP2 tsn:APP2 tsr:APP2 tʃʰv:APP2 tʃʰl:APP2 tʃʰr:APP2 tsʼv:APP2 tsʼl:APP2 tsʼm:APP2 tsʼn:APP2 tsʼr:APP2 tʃʼv:APP2 tʃʼl:APP2 tʃʼm:APP2 tʃʼr:APP2 dzv:APP2 dzl:APP2 dzm:APP2 dzn:APP2 dzr:APP2 dʒv:APP2 dʒm:APP2 skʼ:APP2 stʼ:APP2 ʃpʰ:APP2 ʃtʰ:APP2 ʃtʼ:APP2 xd:APP2 qʼb:APP2 qʼd:APP2 stsʼ:APP2 xts:APP2 xʃ:APP2 sv:APP2 sl:APP2 sm:APP2 sr:APP2 ʃv:APP2 ʃl:APP2 ʃm:APP2 ʃn:APP2 ʃr:APP2 zv:APP2 zl:APP2 zm:APP2 zn:APP2 zr:APP2 ʒr:APP2 ʒl:APP2 ɣv:APP2 ɣl:APP2 ɣm:APP2 ɣr:APP2 xv:APP2 xl:APP2 xm:APP2 xn:APP2 xr:APP2 qʼv:APP2 qʼl:APP2 qʼm:APP2 qʼn:APP2 qʼr:APP2 lb:APP2 ltʼ:APP2 nd:APP2 rb:APP2 rɡ:APP2 rkʰ:APP2 rkʼ:APP2 rtʼ:APP2 rtsʼ:APP2 rdz:APP2 rdʒ:APP2 vs:APP2 lx:APP2 rqʼ:APP2 lm:APP2 tʼkʼb:APP2 tʰkʰv:APP2 tʰkʰr:APP2 pʼtsʼkʼ:APP2 pʰskʼ:APP2 bɣv:APP2 tʰxl:APP2 tʰxr:APP2 tʼqʼv:APP2 tʼqʼl:APP2 brb:APP2 brɡ:APP2 brkʰ:APP2 ɡrd:APP2 kʰrtʰ:APP2 kʼvd:APP2 kʼld:APP2 kʼrtʰ:APP2 pʰrtʰ:APP2 tʰrtʰ:APP2 zrd:APP2 ɡrdz:APP2 kʼrdz:APP2 brm:APP2 ɡvr:APP2 kʼvn:APP2 kʼvr:APP2 tʰvl:APP2 tskʰv:APP2 tsʼkʼl:APP2 tsʼkʼm:APP2 tsʼkʼr:APP2 tʃʼkʼn:APP2 tsxv:APP2 tsxr:APP2 tʃʰxr:APP2 tsʼqʼv:APP2 tsʼqʼl:APP2 tsʼqʼr:APP2 tsʼqʼn:APP2 tʃʼqʼl:APP2 dzɣv:APP2 tsʼrtʰ:APP2 tsʼrpʰ:APP2 dzrtsʼ:APP2 tʃʰrd:APP2 tsʼvr:APP2 tʃʼvr:APP2 dzvr:APP2 stʼv:APP2 stsʼr:APP2 sxv:APP2 zɣv:APP2 xsn:APP2 xrtʼ:APP2 qʼrd:APP2 ɣrdz:APP2 ʒrʒ:APP2 ʃvr:APP2 zmn:APP2 ɣrm:APP2 xvr:APP2 rɡv:APP2 rtʰv:APP2 ndʒr:APP2 rtsx:APP2 rtsʼqʼ:APP2 rɣv:APP2 vrts:APP2 tʰkʰvl:APP2 tʰxzv:APP2 pʰxvn:APP2 pʰʃvn:APP2 brtʼqʼ:APP2 pʰrtʰx:APP2 ɡrɡv:APP2 pʰrkʰv:APP2 brtsʼqʼ:APP2 brtʃʼqʼ:APP2 pʰrtʃʰx:APP2 ɡrdzn:APP2 tsʼqʼvd:APP2 tʃʰxvl:APP2 tsʼrtʰv:APP2 sxvl:APP2 xrtsʼn:APP2 ɣrɣn:APP2 rtʼqʼm:APP2 ndʒɣr:APP2 rtsxv:APP2 rqʼvn:APP2 tsʼvrtʰn:APP2 pʰrtskʰvn:APP2 brdɣvn:APP2 tʼb:INIT xb:INIT ɡdʒ:INIT bdʒ:GRID pʰtʰ:GRID pʰtʃʰ:GRID pʰs:GRID pʰn:GRID pʼn:GRID dl:GRID tsb:GRID tstʰ:GRID tsʼb:GRID tsʼtʰ:GRID dʒl:GRID tʃʰm:GRID tʃʼn:GRID spʰ:GRID spʼ:GRID ʒv:GRID ʃpʼ:GRID ɣd:GRID ɣdz:GRID ɣdʒ:GRID ɣn:GRID xs:GRID lpʼ:GRID lqʼ:GRID lv:GRID rtʰ:GRID rts:GRID rtʃʰ:GRID rɣ:GRID rx:GRID rv:GRID ntʰ:GRID nɡ:GRID ndʒ:GRID sn:LOAN
+# codas — the COMPLETE stem-final set (spec §12.D). Singletons: §2.5 [butskhrikidze2002 p.99]
+# "the stem can end in any of the 27 consonants (i.e. except /h/)"; §2.8 [p.87] /h/ "never
+# occurs in consonant sequences". Clusters: §2.5 Appendix 3 [butskhrikidze2002 pp.207–209]
+# — harmonic, obstruent+sonorant, sonorant+obstruent (loans, with her source tags), the
+# obstruent set "found only in loans" (st' št' zd xt' šk' xš γd), CCC (i)–(iii), CCCC, the
+# CCCCC `nǰgvl`. `rp` is kept (p.208's *šarp-i* over p.207's never-attested set — the
+# digest takes the more specific statement). The "attested in neither position" set
+# (zb xp χ'p' žb rž lž lš lj) is excluded.
+codas    = pʰ pʼ b tʰ tʼ d kʰ kʼ ɡ qʼ ts tsʼ dz tʃʰ tʃʼ dʒ m n v s z ʃ ʒ x ɣ l r bɣ dɣ zɣ ʒɣ pʰx sx ʃx tsʼqʼ tʃʼqʼ zv zr zl pʰr tʰr sl ʃl ʒr ʃn zn xl xr ɣl ɣr nd ndz ndʒ nɡ nkʼ ntʃʰ rɡ rd rdʒ rtʃʰ rkʼ rpʼ rdz rpʰ rb lkʰ lx vz vtʰ stʼ ʃtʼ zd xtʼ ʃkʼ xʃ ɣd pʰxv tsxl tsxv tʼqʼl sxl ntʃʰx rtsx rtʼqʼ vʃv rpʰl rpʼl rbl rxv rɣv rtsv rtʼl rdzl lkʰv ntsʼl rtʰkʰl rtsxl rtsxv rtsʼqʼv ntʃʰxl ndʒɡvl
+codas-tier = bɣ:APP3 dɣ:APP3 zɣ:APP3 ʒɣ:APP3 pʰx:APP3 sx:APP3 ʃx:APP3 tsʼqʼ:APP3 tʃʼqʼ:APP3 zv:APP3 zr:APP3 zl:APP3 pʰr:APP3 tʰr:APP3 sl:APP3 ʃl:APP3 ʒr:APP3 ʃn:APP3 zn:APP3 xl:APP3 xr:APP3 ɣl:APP3 ɣr:APP3 nd:APP3 ndz:APP3 ndʒ:APP3 nɡ:APP3 nkʼ:APP3 ntʃʰ:APP3 rɡ:APP3 rd:APP3 rdʒ:APP3 rtʃʰ:APP3 rkʼ:APP3 rpʼ:APP3 rdz:APP3 rpʰ:APP3 rb:APP3 lkʰ:APP3 lx:APP3 vz:APP3 vtʰ:APP3 stʼ:APP3 ʃtʼ:APP3 zd:APP3 xtʼ:APP3 ʃkʼ:APP3 xʃ:APP3 ɣd:APP3 pʰxv:APP3 tsxl:APP3 tsxv:APP3 tʼqʼl:APP3 sxl:APP3 ntʃʰx:APP3 rtsx:APP3 rtʼqʼ:APP3 vʃv:APP3 rpʰl:APP3 rpʼl:APP3 rbl:APP3 rxv:APP3 rɣv:APP3 rtsv:APP3 rtʼl:APP3 rdzl:APP3 lkʰv:APP3 ntsʼl:APP3 rtʰkʰl:APP3 rtsxl:APP3 rtsxv:APP3 rtsʼqʼv:APP3 ntʃʰxl:APP3 ndʒɡvl:APP3
+#
+# bans (I-14). Only the restrictions §2.6 states categorically AND the §3.7 loan data do not
+# contradict are written; a ban marks its span whatever the whitelists say, so each one is
+# checked against the attested rows (Mode C, I-25) below.
+# §2.10 [butskhrikidze2002 p.101 n.18] "There are no geminates in Georgian" — repeated
+# segments (I-2), one line per consonant (a ban has no captures). Repaired by [repair].
+bans = pʰ pʰ
+bans = pʼ pʼ
+bans = b b
+bans = tʰ tʰ
+bans = tʼ tʼ
+bans = d d
+bans = kʰ kʰ
+bans = kʼ kʼ
+bans = ɡ ɡ
+bans = qʼ qʼ
+bans = ts ts
+bans = tsʼ tsʼ
+bans = dz dz
+bans = tʃʰ tʃʰ
+bans = tʃʼ tʃʼ
+bans = dʒ dʒ
+bans = m m
+bans = n n
+bans = v v
+bans = s s
+bans = z z
+bans = ʃ ʃ
+bans = ʒ ʒ
+bans = x x
+bans = ɣ ɣ
+bans = h h
+bans = l l
+bans = r r
+# §2.6 [butskhrikidze2002 p.102] "Obstruents with identical place of articulation never
+# combine": the labial obstruents (class C1 minus /m/ — table (62) and Appendix 2 attest
+# `bm`, and the §7 loans *Cambridge, Hamburg* keep /mb/; the digest's own *mb example is
+# contradicted by its data). /v/ is in her C1 (*pv).
+bans = {pʰ pʼ b v} {pʰ pʼ b v}
+# The dorsal class (C4) is NOT banned pairwise: *background* -> /bɛkʼɡraundi/ (§3.7) keeps
+# /kʼɡ/. The coronal class (C2) is not banned pairwise either: her own lists attest st' št'
+# zd cd ǰd (§2.5, §2.6); only the ORDERING is categorical —
+# §2.6 [butskhrikidze2002 p.102] "A posterior coronal may precede an anterior coronal, but
+# never follow it" (št ǰd cd attested; *tš *dǰ *dc never); [p.86] a coronal stop + affricate
+# is barred (*dc *dǰ) and an affricate is never followed by a fricative (*c's *ǰš).
+bans = {d tʰ tʼ dz ts tsʼ z s} {ʃ ʒ tʃʰ tʃʼ dʒ}
+bans = {d tʰ tʼ} {ts tsʼ dz}
+bans = {ts tsʼ dz tʃʰ tʃʼ dʒ} {s z ʃ ʒ}
+# §2.7 [crouch2022-diss p.76, from Chitoran 1999]: "no three adjacent sonorants"
+# (*mts'rlis* but *mtvralis*, never *mtvrlis). /v/ is not in her sonorant class C3.
+bans = {r l m n} {r l m n} {r l m n}
+
+[repair]
+# digest §3.6 [gabunia2021 pp.50–51; rayfield2023 pp.21–24; kirvalidze2017 p.291]: "the data
+# are unanimous" — *Twitter* -> /tʼvitʼɛri/, *shopping* -> /ʃɔpʼinɡi/, *puzzle* -> /pʼazli/,
+# *killer* -> ქილერი, *troll* -> ტროლი; the native rule §2.10 [butskhrikidze2002 p.101 n.18]
+# "Loanwords degeminate on entry: /aleɡoria/, /kʼlasi/". Exceptionless; repeated segments
+# (I-2), one line per consonant (every consonant but /h/, which never clusters, §2.8 p.87).
+pʰ pʰ -> pʰ %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+pʼ pʼ -> pʼ %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+b b -> b       %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+tʰ tʰ -> tʰ %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+tʼ tʼ -> tʼ %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+d d -> d       %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+kʰ kʰ -> kʰ %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+kʼ kʼ -> kʼ %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+ɡ ɡ -> ɡ    %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+qʼ qʼ -> qʼ %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+ts ts -> ts    %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+tsʼ tsʼ -> tsʼ %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+dz dz -> dz    %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+tʃʰ tʃʰ -> tʃʰ %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+tʃʼ tʃʼ -> tʃʼ %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+dʒ dʒ -> dʒ %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+m m -> m       %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+n n -> n       %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+v v -> v       %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+s s -> s       %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+z z -> z       %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+ʃ ʃ -> ʃ    %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+ʒ ʒ -> ʒ    %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+x x -> x       %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+ɣ ɣ -> ɣ    %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+l l -> l       %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+r r -> r       %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
+# spec §12.E, %fallback. SYNTHETIC: digest §3.0/§3.7 (lines 999–1027) state that NO cluster
+# repair is observed in the data ("Georgian does not fix an awkward loan; it declines to
+# adopt it", [rayfield2023 p.17]); this directive is ours, for the Irish clusters the §2
+# lists do not license (e.g. lenited /hr hl hn/, §2.8 p.87 /h/ never in a sequence).
+cluster-fallback = same-length
 
 [stress]
 # digest §4.1 [borise2023 p.1, p.32; butskhrikidze2002 p.48, p.152]: fixed initial stress.

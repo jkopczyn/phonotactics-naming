@@ -75,10 +75,11 @@ def test_broad_and_slender_are_declared_classes():
         "pʲ bʲ tʲ dʲ fʲ ʃ vʲ mʲ nʲ lʲ ɾʲ c ɟ ç j ɲ".split())
 
 
-def test_temporary_syllable_block_is_loadable_and_permissive():
-    """Task 23b replaces it wholesale; until then the file must still parse."""
+def test_syllable_block_is_loadable():
+    """Task 23a shipped a TEMPORARY permissive block; Task 23b replaced it wholesale (the
+    whitelists are tested in test_rules_georgian_syllable.py). The file must still parse."""
     assert TARGET.syllable is not None
-    assert TARGET.syllable.template is None and TARGET.syllable.onsets is None
+    assert TARGET.syllable.template is None
     assert TARGET.syllable.sonority is False and TARGET.syllable.domain == "stem"
 
 
