@@ -1,8 +1,9 @@
 # Project goals — phonotactics / naming-language tool
 
 Claude-written working notes, distilled from the three imported claude.ai conversations
-(`../chat-imports/`, dated 2026-04-17, 2026-06-01, 2026-08-24). Later conversations override
-earlier ones where they conflict.
+(`../chat-imports/`: 6e61633e dated 2026-04-17, 2f456675 dated 2026-06-01, 094f80f3 undated on the
+share page — per the user, none is later than 2026-06-01). Where they conflict, 094f80f3 (the one
+that pulled the PHOIBLE inventories and wrote the bibliography) is the most developed position.
 
 ## What is being built
 
@@ -19,9 +20,11 @@ reader can pronounce approximately right. Epithets may need a little grammar (Ir
 mutations on the source side; e.g. nisba, feminine -a, al- on the Arabic side).
 
 Direction is fixed: **Irish is the lexifier (supplies words); the target language supplies all
-rules.** The correct technical frame is *loanword-adaptation phonology*, not creolization (the
-tool's working name "creolization/loanword tool" notwithstanding). A creole-flavoured reduction
-layer could be stacked on later but is not planned.
+rules.** The user frames this as lexifier/substrate (creolistics terms); the earlier chat relabelled it
+loanword adaptation. Mechanically they coincide (substrate L1 phonology filtering lexifier words), and
+the loanword literature is used because it is the only place per-target repair data is attested — no
+creole has any of the four targets as substrate. A creole-style *reduction layer* (CV bias, cluster
+reduction beyond what the target requires) is an optional add-on, not planned yet.
 
 ## Target languages (state as of 2026-08-24)
 
@@ -29,8 +32,8 @@ layer could be stacked on later but is not planned.
 |---|---|---|---|
 | 1 | Egyptian (Cairene) Arabic | pinned | InvID 231 (UPSID; dental diacritics = plain coronals) |
 | 2 | Southern Welsh | pinned | InvID 2406 (Llanwrtyd; no /ɨ/) |
-| 3 | Dutch | "probably" | InvID 2169 (Belgian Standard; Booij's reference is Netherlandic) |
-| 4 | Georgian | "probably"; the harsh/alien strand | InvID 2183 (Standard/literary) |
+| 3 | Dutch | chosen, but user is flexible if something better-documented is nearby | InvID 2169 (Belgian Standard; Booij's reference is Netherlandic) |
+| 4 | Georgian | chosen (flexible as above); the harsh/alien strand | InvID 2183 (Standard/literary) |
 | 5 | Old Irish | fixed, no filter | — |
 
 Strand 4 has **pre-existing names** that any output must sit beside convincingly: *Tchaeul,
@@ -39,10 +42,10 @@ apostrophe = ejective/glottal break, uvular q and velar x, heavy onset+coda clus
 every word consonant-final. The June conversation recommended Georgian (clusters, ejectives, q, x)
 with Mayan (K'iche'/Yucatec: ready-made apostrophe romanization) as the sleeper alternative and NW
 Caucasian as the extreme; it also warned that Xelxyx/Ysclyth read pseudo-Welsh and the strand-4
-romanization should be pulled away from Welsh territory. The August conversation then said
+romanization should be pulled away from Welsh territory. The 094f80f3 conversation then said
 "probably Georgian" without revisiting. **Open question:** the June advice was to use a
 *feature filter* for strand 4 (devoice, drop nasals, ejectivize, uvularize, keep clusters, force
-C-final) rather than Georgian's grammar wholesale; the August position is "real languages' rules,
+C-final) rather than Georgian's grammar wholesale; the 094f80f3 position is "real languages' rules,
 maybe with small inventory tweaks". Reconcile before writing the Georgian rule file — the likely
 answer is Georgian rules + a small documented overlay.
 
@@ -59,7 +62,12 @@ consonants.
 - **Deterministic, grammar-based** rewrite tool. No probabilistic output. At most a lightweight
   perception-side idea (per-language feature weights for nearest-segment substitution).
 - **Ignore theory.** Mine loanword papers for their *data tables* (attested source→target
-  mappings); skip OT tableaux and any UG framing. User regards UG as discredited; don't relitigate.
+  mappings); skip OT tableaux and any UG framing. User regards UG/OT as robustly disproven and
+  statistical-learning accounts as superior; has said twice not to relitigate. Using a
+  grammar-style rule engine is acceptable to them on convenience grounds.
+- **Open-access sources only** (decided 2026-08-24). No purchases; paywalled monographs are
+  noted for completeness but not planned for.
+- **Irish input stays hand-transcribed IPA**; no G2P work.
 - Cultural associations of donor languages: not a concern.
 - Budget: ~"a weekend per language" of rule transcription; three-or-more targets, so the
   per-language process must be repeatable and mostly delegable to LLM extraction from source
@@ -88,17 +96,15 @@ consonants.
    Arabic (→ /ʁ/), Georgian lacks /f/, Welsh lacks voiced-obstruent problems but needs /ɬ/ etc.
    left unused; Irish lenition outputs [v w j h] and voiceless sonorants.
 
-Source-side needs (Irish): an Irish phoneme inventory with the broad/slender pairs spelled out;
-a way to get IPA for new inputs (hand transcription so far; a G2P would help); Old Irish
-inventory/orthography for strand 5.
+Source-side needs (Irish): an Irish phoneme inventory with the broad/slender pairs spelled out
+(inputs arrive as hand-transcribed IPA); Old Irish inventory/orthography for strand 5.
 
 ## Repo state
 
-- `chat-imports/` — three conversations (markdown + two raw JSON). Tool-call detail is absent
-  from the August one; in particular the **bibliography markdown Claude wrote in that chat was
-  never exported** — its content is recoverable from the chat text and is reconstructed in
-  `source-plan.md`.
-- `phoible_inventories_starter.csv` — the four target inventories, long format.
+- `chat-imports/` — three conversations (markdown + two raw JSON), plus the two files produced
+  in the 094f80f3 chat: `phonology_rule_file_sources.md` (the bibliography, with access tiers
+  and per-language Irish→target notes) and `phoible_inventories_starter.csv` (the four target
+  inventories, long format, 153 segments × 38 PHOIBLE features).
 - `arabic-phonology.pdf` — Alqarhi 2019 (English Linguistics Research 8(4)). Low-value: a
   general survey, cited in the chat only for "Egyptian is the de facto standard dialect".
 - Nothing else yet: no code, no rule files, no bibliography.

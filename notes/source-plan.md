@@ -1,7 +1,10 @@
 # Plan: finding and digesting sources for the rule files
 
-Companion to `project-goals.md`. Items marked **(verify)** are from my own knowledge, not from
-the imported chats, and need an access/existence check in step 1.
+Companion to `project-goals.md`. Baseline bibliography is `../chat-imports/phonology_rule_file_sources.md`
+(from the 094f80f3 chat) — this plan adds to it rather than repeating it. Items marked **(verify)**
+are from my own knowledge, not from the imported chats, and need an access/existence check in
+step 1. **Constraint: open-access sources only** (user decision 2026-08-24); paywalled titles are
+listed only so the gap is visible.
 
 ## 0. Decide the digest schema first
 
@@ -30,8 +33,10 @@ paid material outside the repo.
 - PHOIBLE CLDF (`cldf-datasets/phoible`) — already used; keep the query script this time.
 - CLTS (`cldf-clts/clts`) — IPA → feature bundles; alternative/complement to PanPhon.
 - LAPSyD (lapsyd.huma-num.fr) — maximal syllable shape cross-check for all four.
-- WOLD (wold.clld.org) + Haspelmath & Tadmor 2009 — covers **Dutch** (van der Sijs chapter) and
-  the Mayan **Q'eqchi'**; does *not* cover Welsh, Arabic, or Georgian **(verify)**.
+- WOLD (wold.clld.org; data open, CLDF on GitHub `lexibank/wold`) — covers **Dutch** (van der
+  Sijs chapter) and the Mayan **Q'eqchi'**; does *not* cover Welsh, Arabic, or Georgian
+  **(verify)**. The companion book (Haspelmath & Tadmor 2009) is paywalled; the online chapters
+  and data are what we use.
 - Kang 2011 "Loanword Phonology" (open PDF on yoonjungkang.com); J.L. Smith 2024 (open PDF).
   Read once for the repair taxonomy; skip the theory.
 - Wikipedia "<Language> phonology" pages for all five languages — first pass, 20 min each.
@@ -40,17 +45,18 @@ paid material outside the repo.
 - Wikipedia "Irish phonology" (detailed; broad/slender tables).
 - Ní Chasaide 1999, "Irish", JIPA Illustration **(verify open access)**.
 - Ó Siadhail, *Modern Irish* (CUP) phonology chapters — library/purchase.
-- G2P for new inputs: abair.ie (TCD) exposes an Irish G2P/TTS API **(verify licence/API)**;
-  Wiktionary Irish entries carry IPA; teanglann.ie has pronunciations. Epitran has no Irish.
 - Old Irish (strand 5): Wikipedia "Old Irish" phonology section; Thurneysen, *A Grammar of Old
   Irish* (DIAS 1946; scans circulate, copyright status unclear); Stifter, *Sengoídelc* (Syracuse
   UP, purchasable); eDIL (dil.ie) for vocabulary. Lowest priority — no filter to write.
 
 ### Egyptian (Cairene) Arabic — strand 1
-- Watson 2002, *The Phonology and Morphology of Arabic* (OUP) — paywalled; Google Books preview.
+- Watson 2002 (OUP) — paywalled, **not used**; Google Books preview only if a specific
+  question needs it.
+- ASHA "Arabic Phonemic Inventory" PDF; Wikipedia "Egyptian Arabic phonology" (both in bib).
 - Broselow 1976/1992 on Egyptian vs Iraqi epenthesis (ResearchGate, free account).
-- Égypte/Monde arabe article on loanwords in Egyptian Arabic (OpenEdition, fully open) — the
-  one with attested substitution tables (θ→s/t, ʒ→s, thermos→/tormos/). Find exact citation.
+- "Phonological and Morphological Integration of Loanwords into Egyptian Arabic",
+  Égypte/Monde arabe, journals.openedition.org/ema/1958 (open) — attested substitution tables.
+  **Primary Arabic repair source under open-only.**
 - "The Phonotactic Adaptation of English Loanwords in Arabic"; OT analysis of loanword adaptation
   in Cairene Arabic (academia.edu/ResearchGate) — mine the data tables only.
 - Abdel-Massih et al., *A Comprehensive Study of Egyptian Arabic* (U. Michigan, 1970s) — open on
@@ -61,7 +67,8 @@ paid material outside the repo.
 - Already in repo: Alqarhi 2019 — skim only.
 
 ### Southern Welsh — strand 2
-- Hannahs 2013, *The Phonology of Welsh* (OUP) — paywalled; Google Books preview.
+- Hannahs 2013 (OUP) — paywalled, **not used**. Welsh is where open-only costs most; compensate
+  with Wikipedia + Wood + Parry-Williams + any open cluster paper.
 - Ball & Jones (eds.) 1984, *Welsh Phonology* (U. Wales Press), esp. Awbery's chapter on
   phonotactic constraints **(verify)**; Ball & Williams 2001, *Welsh Phonetics* (Mellen) — library.
 - Wood 1986, "Vowel Quantity and Syllable Structure in Welsh" (swphonetics.com, open) — treats
@@ -75,7 +82,7 @@ paid material outside the repo.
   **(verify)**.
 
 ### Dutch — strand 3
-- Booij 1995, *The Phonology of Dutch* (OUP) — paywalled; older, cheap second-hand.
+- Booij 1995 (OUP) — paywalled, **not used**; WOLD + JIPA + Wikipedia cover the gap well.
 - Gussenhoven 1992, "Dutch", JIPA Illustration **(verify open)**.
 - Trommelen 1984, *The Syllable in Dutch* (Leiden diss.) — possibly open **(verify)**.
 - Kager, "Phonotactics as phonology…" and Nagy, "The phonological integration of loanwords in
@@ -123,12 +130,20 @@ be tested, so actually runs in parallel from the start) → Old Irish last.
 - A short decisions list for the user: broad/slender treatment per target; Belgian vs
   Netherlandic; strand-4 overlay vs pure Georgian; which paywalled monographs to buy/borrow.
 
-## Decisions needed from the user before/while executing
+## Decisions (2026-08-24)
 
-1. Paywalled monographs (Hannahs, Watson, Booij): buy, borrow, or proceed on open sources only
-   and accept coarser cluster constraints?
-2. Strand 4: Georgian confirmed? And overlay-on-Georgian vs pure Georgian rules?
-3. Dutch: Belgian (matches the PHOIBLE row) or Netherlandic (matches Booij)?
-4. Is the claude.ai bibliography file still retrievable from the original chat/Project? Saves
-   reconstructing it.
-5. Irish input: keep hand-transcribed IPA, or invest in a G2P (abair.ie)?
+- Open-only: **decided**.
+- Georgian and Dutch: kept. User is indifferent between these and any better-documented
+  neighbour; under open-only, Georgian is the best-served target (Butskhrikidze) and Dutch has
+  WOLD, so neither needs swapping.
+- Bibliography: **recovered** (`../chat-imports/phonology_rule_file_sources.md`).
+- Irish input: hand IPA; **no G2P**.
+
+## Still open (resolve while digesting, not before)
+
+1. Strand 4: overlay-on-Georgian vs pure Georgian rules — decide once the Georgian digest shows
+   how far pure Georgian gets toward *Tchaeul / Kas'queil / Xelxyx*.
+2. Dutch: Belgian (matches the PHOIBLE row, keeps voiced /ɣ v z/) vs Netherlandic — with Booij
+   out of scope the PHOIBLE row is the path of least resistance; default Belgian.
+3. Whether to add a creole-style reduction layer (user not fully persuaded by the loanword
+   framing; see project-goals.md).
