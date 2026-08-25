@@ -1,6 +1,6 @@
 # irish.rules — the Irish (Connacht, two-way L/N) source side.
 # Task 17: [meta] [inventory] [classes] [mutations] [inflect]. Task 19: [normalize].
-# Task 18 adds [templates]. Every rule line cites its digest section or the wiki source the
+# Task 18: [templates]. Every rule line cites its digest section or the wiki source the
 # digest itself cites (sources/irish/digest.md).
 
 [meta]
@@ -301,3 +301,18 @@ r -> ɾʲ    / [V +front] _ #  %attested
 r -> ɾˠ    / [V -front] _ #  %attested
 k -> c     / [V +front] _ #  %attested
 ɡ -> ɟ     / [V +front] _ #  %attested
+
+[templates]
+# Spec §3 construction recipes (I-16): an item is a quoted IPA literal (" " = word separator),
+# an argument slot, FUNC(item), or a bare FUNC applied to the word under construction; a
+# trailing ? makes the item conditional on the head slot's declension tag. Every join inserts
+# $ (spec §3). Orthography and the digest section in the comment; function semantics in
+# src/strands/irish.py (build_construction).
+VOC      = "ə" LEN(NAME) VOC_M1?        # a + lenited name, 1st-decl. stem slenderized: *a Sheáin* (digest §3.4, §3.5)
+GEN      = GEN(NAME)                    # GEN() dispatches on the declension tag (digest §3.5, I-38)
+PATRO_O  = "oː" GEN(FATHER)             # Ó + genitive: *Ó Súilleabháin* (digest §3.4 name-particle table)
+PATRO_NI = "nʲiː" LEN(GEN(FATHER))      # Ní + lenited genitive: *Ní Bhriain* (digest §3.4)
+ADJ      = NAME " " LEN_IF_F(ADJ)       # *Máire Bhán* / *Pádraig Rua* (digest §3.6)
+OF       = NAME " " ART(GEN(NOUN))      # X + article + genitive noun (digest §3.4 article rows, §6 row 9)
+COMPOUND = FIRST LEN(SECOND)            # *Lasairchos* type, second element lenited (digest §3.6, §6 row 8, PROVISIONAL)
+DESC     = NOUN                         # the bare noun; target affixes attach in stage 6 (I-39)
