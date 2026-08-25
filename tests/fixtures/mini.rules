@@ -29,7 +29,7 @@ t:1 r:2 -> \2 \1 / k _ #                %design   # metathesis via captures
 template = (C)(C)N(C)(C)
 nuclei   = ai au
 onsets   = p b t d k ɡ s ʃ m n l r pl pr bl br st sp
-codas    = p t k s st ts lp
+codas    = p t k s st nt lp     # (Task 6: was "ts", which longest-matches the affricate row, off this inventory)
 onsets-tier = pl:A pr:A st:B
 onset-required = no
 appendix = s t
