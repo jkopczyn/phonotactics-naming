@@ -4098,6 +4098,32 @@ deletion.
    the gallery's reference row and never passed through the engine. Draft 2 asserted an engine
    respelling for *Kas'queil*; that test and its deviation entry are gone. D5's apostrophe
    placement is tested on a synthetic ejective instead (Task 23a).
+9. **Welsh onsets: the digest's tiers A–D under-state licit onsets, because the closed sources
+   (Hannahs 2013, Awbery 1984, Czerniak 2015) hold the lists** — coordinator ruling during Task
+   25 (2026-08-25), overriding S4 in this plan. Under A–D alone the mandatory no-`UNREPAIRED`
+   test over the 144 words cannot pass (Bríd, Brian, Gráinne, droim, cnoc, mná, mbláth, ndroim,
+   nglúin, chrom … are all whitelist misses and Welsh has no generic onset repair). Resolution
+   in `welsh.rules [syllable]`: (a) the stop+liquid set `pl br bl tr dr kr kl ɡr ɡl θr` is
+   admitted as tier A on the class statements "stop-liquid" [breit2019 p.252] (digest §2.2 line
+   351) and "obstruent + liquid (*tref*)" [jipa-north p.505] (line 380, North — the template's
+   own provenance caveat), with cited words *clap* [klap], *plant* [plant], *tlawd*, *cloc*
+   [ˈklɔkː], *clog* [ˈkloːɡ], *brwydr* [ˈbruɨdɨr], *brawn* [ˈbrɔːn]; (b) the onsets Welsh's own
+   mutations produce are admitted as tier B "attested under mutation" [wiki-cy-phon §Consonant
+   mutations]: nasal `ml mr nr nl ŋl ŋr`, aspirate `fl θr χr χl` (so tier E's `θr χr χl` ARE
+   onsets), soft `vr vl ðr ðl wl wr wn`; (c) `sm sn` stay out — they take the prothetic y- at
+   Morris Jones's wider scope (digest §3.1 line 622, `%design`), and `h -> 0 / # _ NAS` handles
+   lenited s before a nasal; (d) `cluster-fallback = same-length` is declared as the last resort
+   and a test asserts it never fires on the common names (it fires on none of the 144 words).
+   The same reasoning extends the coda list: the class "sonorant + obstruent" [jipa-north
+   p.506] (§2.3 line 417) supplies `rd rk rs rχ rn lk lm lb lɡ ls nd ŋk mp` (tier A, each with
+   the digest's cited word where one exists), and `ns nz rθ rt` join tier B from cited words.
+   Consequences recorded in the file: `sonority = off` (the whitelists are complete and the
+   soft-mutation onsets `wl wr wn` have falling sonority; R17b already made `on` a `%design`
+   line); the four consonant-length rows of the Welsh attested data (`[mapː] [ʃopː] [matː]
+   [ˈklokː]`) land in the error bucket by I-2, so the Mode C denominator is **15**, not 19
+   (measured 13/15 = 0.867, ratchet recorded); Irish length is discarded (L1) everywhere except
+   before a word-final `n l r`, where the Southern length is lexical (digest §4.3 line 1082)
+   and the Irish length is taken as that lexical choice (*Seán* → *Siân*, *mór* → *môr*).
 
 ---
 

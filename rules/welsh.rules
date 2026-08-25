@@ -1,0 +1,459 @@
+# welsh.rules — Southern Welsh (Llanwrtyd-area target; plan Task 25).
+# Source of every line: sources/welsh/digest.md (cited as "digest §N line L") and the bib keys
+# the digest itself cites ("[key p.N]"). Design decisions cite the spec's register ("§9.n").
+# Tagging (spec §12.G, plan I-28/I-29): %attested only where the digest asserts the rule for
+# the Southern target; %design where the digest leaves it open, states the opposite, or where
+# the mapping is the project's own (every Irish-specific mapping in §8 is a design choice —
+# digest §8 line 1381: "there is no Irish→Welsh adaptation evidence in the open corpus").
+#
+# Coordinator ruling 2026-08-25 (plan Known Deviations, Task 25 entry): the digest's onset
+# tiers A–D under-state licit onsets because the closed sources (Hannahs 2013, Awbery 1984,
+# Czerniak 2015) hold the lists. The stop+liquid set is admitted on the class statements of
+# [breit2019 p.252] ("stop-liquid") and [jipa-north p.505] ("obstruent + liquid"), and the
+# clusters Welsh's own mutations produce are admitted as "attested under mutation"
+# [wiki-cy-phon §Consonant mutations]. Tier E's sm/sn stay out (decision 15 prothesis).
+# `cluster-fallback = same-length` is the last resort and is asserted never to fire on the
+# common names (tests/test_welsh_rules.py).
+
+[meta]
+name = Welsh
+digest = sources/welsh/digest.md
+dialect = Southern
+# I-39 / spec §12.H: Welsh maps the ADJ slot to -aidd; the NOUN slot is unmapped (no affix).
+epithet-ADJ = AIDD
+
+[inventory]
+# digest §1 lines 168–186 "Southern consonant inventory as the sources support it"
+# [williams1995 p.1 Table 1; wiki-cy-phon §Consonants; breit2019 p.61]. The fortis stops
+# are written p t k (the digest's own §2–§5 transcriptions and every attested row: [klap],
+# [plant], [mapː], /pɪn/; §1 line 156 quirk 1 — PHOIBLE's pʰ tʰ kʰ is the fortis reading of the
+# same three phonemes, so §4.3's {pʰ tʰ kʰ} is written {p t k} below).
+p b t d k ɡ
+tʃ dʒ
+m n ŋ
+f v θ ð s ʃ χ h
+ɬ l r r̥ w j
+# Mutation-reflex-only voiceless nasals, "missing entirely in some of the South Welsh dialects"
+# (digest §1 lines 23–25 [breit2019 p.60]); /z/ loan-only and usually nativised to /s/
+# (digest §1 line 126 [breit2019 p.62]). Legal in output (jîns [dʒɪnz]), never a fallback (I-23).
+marginal: m̥ n̥ ŋ̥ z
+# digest §1 lines 192–200 "Southern vowel inventory" [mayr-davies2011 p.7; iosad2017 p.6].
+# The long low vowel is written aː as in the digest's table and in the attested rows
+# (§1 line 160 quirk 4 calls PHOIBLE's ɑː "misleadingly transcribed").
+iː ɪ uː ʊ eː ɛ oː ɔ aː a ə
+# Diphthong offglides (digest §1 line 208: ai ɔi əi ʊi au ɛu əu ɪu, "offglides written i/u",
+# quirk 5 line 163): legal only as the second element of a nucleus, never a fallback target.
+marginal: i u
+# Long lax vowels "appear only in loans": [ˈbrɔːn], [ɪndʒɪˈnɛːr], [ˈfɛːnɛst] (south-western)
+# — digest §4.3 lines 1152–1154 [iosad2017 pp.12, 49]. Accepted in attested data, never produced.
+marginal: ɛː ɔː
+
+[classes]
+# I-41 / spec §12.J: the source-side series, copied verbatim into every target file.
+BROAD = pˠ bˠ t̪ˠ d̪ˠ fˠ sˠ w vˠ mˠ n̪ˠ l̪ˠ ɾˠ k ɡ x ɣ ŋ
+SLEN  = pʲ bʲ tʲ dʲ fʲ ʃ vʲ mʲ nʲ lʲ ɾʲ c ɟ ç j ɲ
+# The Southern word-final epenthesis class C₁ of [williams1994 §2.1] (digest §3.2 line 702):
+# "an epenthetic vowel occurs after one of /b d g p t k f v ð s χ θ/ when followed by /l n r/".
+EPEN_C1 = b d ɡ p t k f v ð s χ θ
+
+[substitute]
+# --- diphthongs (digest §8.8 lines 1703–1708) --------------------------------------------------
+# Irish /əi əu/ are direct matches (Welsh ⟨ei eu⟩, ⟨ew ow⟩) and pass through as nuclei.
+# Irish /iə uə/ have no Welsh counterpart (all eight Welsh diphthongs are closing): option (1),
+# monophthongise, "letting §8.7's length rules take over" — after L1 that is the short vowel.
+{i ɪ} ə -> ɪ                            %design   # design: digest §8.8 line 1708 open (option 1)
+{u ʊ} ə -> ʊ                            %design   # design: digest §8.8 line 1708 open (option 1)
+# --- vowels outside the Irish inventory that test-words.tsv's user transcriptions carry ---
+# (o e æ õː: digest §1 line 192 table gives the nearest Southern vowel; õː is a nasalised oː).
+# Explicit so the nearest-segment fallback (Task 9) never guesses a LONG vowel for them.
+o -> ɔ                                  %design   # design: digest §1 line 192 (nearest Southern vowel; user transcription)
+e -> ɛ                                  %design   # design: digest §1 line 192 (nearest Southern vowel; user transcription)
+æ -> ɛ                                  %design   # design: digest §1 line 192 (nearest Southern vowel; user transcription)
+õː -> oː                                %design   # design: digest §1 line 192 (nearest Southern vowel; user transcription)
+# --- broad/slender: "Welsh has no Cˠ/Cʲ contrast" (digest §8.1 line 1397) --------------------
+# Spec §9.1: the contrast is kept on the coronals via the native palatal series and dropped on
+# labials and dorsals. Digest §8.1 line 1471 option 3 (sʲ→ʃ, tʲ→tʃ, dʲ→dʒ) is a PROJECT choice:
+# its citation [parry1923 §§86–88] is the historical layer that sent English tʃ dʒ to ʃ, and
+# §8.1 lines 1450–1452 note Welsh "does not synthesise palatalization from a /Cj/ input".
+# The palatal series is taken only before a vowel — the ⟨si di ti⟩ device is "before a vowel"
+# (digest §5 lines 1264–1265 [wiki-cy-orth n.1]); before a consonant and word-finally the
+# slender coronals are plain (/ʃ/ → /s/ before C and finally, digest §3.4 lines 840–841
+# [parry1923 §109, §123]; ffres [ˈfrɛs] is the modern-layer row, §4.3 line 1152).
+ʃ -> s / _ C                            %design   # design: §9.1; digest §3.4 line 840 [parry1923 p.238 §109]
+ʃ -> s / _ #                            %design   # design: §9.1; digest §3.4 line 841 [parry1923 pp.245–246 §123]
+tʲ -> tʃ / _ V                          %design   # design: §9.1; digest §8.1 line 1471 option 3
+tʲ -> t                                 %design   # design: §9.1; digest §5 line 1264 (⟨ti⟩ only before a vowel)
+dʲ -> dʒ / _ V                          %design   # design: §9.1; digest §8.1 line 1471 option 3
+dʲ -> d                                 %design   # design: §9.1; digest §5 line 1264 (⟨di⟩ only before a vowel)
+pˠ -> p                                 %design   # design: §9.1; digest §8.1 line 1468 option 1
+pʲ -> p                                 %design   # design: §9.1; digest §8.1 line 1468 option 1
+bˠ -> b                                 %design   # design: §9.1; digest §8.1 line 1468 option 1
+bʲ -> b                                 %design   # design: §9.1; digest §8.1 line 1468 option 1
+t̪ˠ -> t                                 %design   # design: §9.1; digest §8.1 line 1468 option 1
+d̪ˠ -> d                                 %design   # design: §9.1; digest §8.1 line 1468 option 1
+fˠ -> f                                 %design   # design: §9.1; digest §8.1 line 1468 option 1
+fʲ -> f                                 %design   # design: §9.1; digest §8.1 line 1468 option 1
+sˠ -> s                                 %design   # design: §9.1; digest §8.1 line 1468 option 1
+vʲ -> v                                 %design   # design: §9.1; digest §8.8 line 1696 (/v/ "Direct")
+vˠ -> v                                 %design   # design: §9.1; digest §8.8 line 1696 (/v/ "Direct")
+mˠ -> m                                 %design   # design: §9.1; digest §8.1 line 1468 option 1
+mʲ -> m                                 %design   # design: §9.1; digest §8.1 line 1468 option 1
+n̪ˠ -> n                                 %design   # design: §9.1; digest §8.8 line 1702 "Nearest substitute: /n/ for both"
+nʲ -> n                                 %design   # design: §9.1; digest §8.8 line 1702 "Nearest substitute: /n/ for both"
+l̪ˠ -> l                                 %design   # design: §9.1; digest §8.8 line 1701 "Nearest substitute: /l/ for both"
+lʲ -> l                                 %design   # design: §9.1; digest §8.8 line 1701 "Nearest substitute: /l/ for both"
+# Irish /ɾ/ lands on the intervocalic tap allophone of the Welsh trill /r/ (digest §8.8 line 1700
+# [jipa-north p.493]); every later rule is written over r, never ɾ.
+ɾˠ -> r                                 %design   # design: §9.1; digest §8.8 line 1700
+ɾʲ -> r                                 %design   # design: §9.1; digest §8.8 line 1700
+# --- dorsals ----------------------------------------------------------------------------------
+c -> k                                  %design   # design: §9.1; digest §8.1 line 1468 option 1
+ɟ -> ɡ                                  %design   # design: §9.1; digest §8.1 line 1468 option 1
+ɲ -> n                                  %design   # design: §9.1; digest §8.8 line 1702
+# /ɣ/ → /ɡ/ "restore the unlenited stop; no Welsh precedent but matches Welsh's own ⟨g⟩
+# spelling of the radical" — spec §7 tags it (A); the digest does not (R18).
+ɣ -> ɡ                                  %design   # design: digest §8.2 line 1495 open (option 3)
+# /x/ → /χ/: "Either way no repair is needed" is a "(design inference) from inventory fit —
+# no source" (R18); the [x]/[χ] CONFLICT of §1/§8.3 is unresolved and the inventory carries χ.
+x -> χ                                  %design   # design: digest §8.3 line 1517 open
+# /ç/: "no coverage whatsoever"; option (1) merges it with broad /x/, "consistent with
+# depalatalizing everywhere else" (§9.1 drops the contrast on dorsals).
+ç -> χ                                  %design   # design: digest §8.3 line 1525 open (option 1)
+# /h/ kept (digest §8.4 line 1532 "Precedent: yes"), /w/ kept (§8.8 line 1698), /ŋ/ kept
+# (§8.8 line 1699), /j/ kept (§1 line 182): no rule — they are inventory segments.
+# --- vowels: AFTER the consonant lines, so the length environments see Welsh n l r m ŋ ---
+# --- vowel length: L1 Welsh-first (spec §9.13; digest §4.4 lines 1176–1178) -------------------
+# "discard Irish length → assign penultimate stress → apply §4.3's length rule". Long vowels
+# occur only under stress [iosad2017 p.7] (digest §4.3 line 1063), so every input vowel
+# arrives short and [post-stress] re-lengthens the stressed final syllable from its coda.
+# ONE carve-out: before a word-final /n l r/ the Southern length is "LEXICALLY DETERMINED —
+# not predictable" (§4.3 line 1082: tâl [ˈtaːl] vs tal [ˈtal]; §5 line 1281 "for generated
+# names this is a free choice, marked with a circumflex if long"). The Irish length is taken
+# as that lexical choice, so it survives there and nowhere else (Seán → Siân). The four
+# environments below are the complement of "_ {n l r} #"; an unstressed ultima is shortened
+# again in [post-stress] (long vowels only under stress, §4.3 line 1063).
+iː -> ɪ / _ [-nasal -lateral -trill]   %design   # design: §9.13; digest §4.4 line 1176 L1
+iː -> ɪ / _ {m ŋ}                      %design   # design: §9.13; digest §4.4 line 1176 L1
+iː -> ɪ / _ #                          %design   # design: §9.13; digest §4.4 line 1176 L1
+iː -> ɪ / _ {n l r} {C V}              %design   # design: §9.13; digest §4.4 line 1176 L1
+uː -> ʊ / _ [-nasal -lateral -trill]   %design   # design: §9.13; digest §4.4 line 1176 L1
+uː -> ʊ / _ {m ŋ}                      %design   # design: §9.13; digest §4.4 line 1176 L1
+uː -> ʊ / _ #                          %design   # design: §9.13; digest §4.4 line 1176 L1
+uː -> ʊ / _ {n l r} {C V}              %design   # design: §9.13; digest §4.4 line 1176 L1
+eː -> ɛ / _ [-nasal -lateral -trill]   %design   # design: §9.13; digest §4.4 line 1176 L1
+eː -> ɛ / _ {m ŋ}                      %design   # design: §9.13; digest §4.4 line 1176 L1
+eː -> ɛ / _ #                          %design   # design: §9.13; digest §4.4 line 1176 L1
+eː -> ɛ / _ {n l r} {C V}              %design   # design: §9.13; digest §4.4 line 1176 L1
+oː -> ɔ / _ [-nasal -lateral -trill]   %design   # design: §9.13; digest §4.4 line 1176 L1
+oː -> ɔ / _ {m ŋ}                      %design   # design: §9.13; digest §4.4 line 1176 L1
+oː -> ɔ / _ #                          %design   # design: §9.13; digest §4.4 line 1176 L1
+oː -> ɔ / _ {n l r} {C V}              %design   # design: §9.13; digest §4.4 line 1176 L1
+aː -> a / _ [-nasal -lateral -trill]   %design   # design: §9.13; digest §4.4 line 1176 L1
+aː -> a / _ {m ŋ}                      %design   # design: §9.13; digest §4.4 line 1176 L1
+aː -> a / _ #                          %design   # design: §9.13; digest §4.4 line 1176 L1
+aː -> a / _ {n l r} {C V}              %design   # design: §9.13; digest §4.4 line 1176 L1
+# --- glide codas become diphthong offglides ---------------------------------------------------
+# Final [w] vocalises (marw [ˈmarʊ], digest §2.6 line 539; §8.8 line 1698 [wiki-cy-phon §Other
+# consonants]); after a vowel the pair is one of the eight nuclei (§1 line 208): au ɛu əu ɪu.
+# "w drops before w, and i drops before i" — digest §2.6 line 528 [morrisjones1913 §36 i
+# pp.39–40] (cadwwn → cadwn, bedyddiir → bedyddir; English wood → 'ood): ⟨w⟩ IS /ʊ uː/ and
+# ⟨i⟩ IS /ɪ iː/, so a glide next to its own vowel is dropped (Siobhán /ʃʊwaːn/ → Siwan).
+w -> 0 / {ʊ uː} _                       %attested # digest §2.6 line 528 [morrisjones1913 §36 i pp.39–40]
+w -> 0 / _ {ʊ uː}                       %attested # digest §2.6 line 528 [morrisjones1913 §36 i pp.39–40]
+j -> 0 / {ɪ iː} _                       %attested # digest §2.6 line 528 [morrisjones1913 §36 i pp.39–40]
+j -> 0 / _ {ɪ iː}                       %attested # digest §2.6 line 528 [morrisjones1913 §36 i pp.39–40]
+{a ɛ ə ɪ}:1 w -> \1 u                     %design   # design: digest §2.6 line 539; §1 line 208
+{a ɔ ə ʊ}:1 j -> \1 i                     %design   # design: digest §1 line 208 (ai ɔi əi ʊi)
+# --- /ə/ in the final syllable ------------------------------------------------------------------
+# "barred from word-final syllables and from monosyllables" (§1 line 200 [breit2019 p.60];
+# §2.5 line 521); "Welsh does NOT substitute schwa" but takes a full clear vowel (§3.5 line
+# 892 [parry1923 §§13–15]); Southern final /-a/ from a lost dorsal (dala, bola — §8.2 line
+# 1490 [morrisjones1913 §110 ii(2)]). a is the project's choice among a e y i. A segment
+# mapping, so it lives here and not in [repair] (the repair table's ewythr carrier is /ə/).
+ə -> a / _ C* #                         %design   # design: digest §3.5 line 892 open; §1 line 200 [breit2019 p.60]
+
+[syllable]
+# digest §2.1 line 289: (C)(C)(C)V(V)(C)(C) [lapsyd-cy] (North). V(V) is ONE nucleus (spec
+# §12.B/§12.J): the Welsh diphthongs are declared in `nuclei`, hiatus is two syllables.
+template = (C)(C)(C)N(C)(C)
+# digest §1 line 208 [breit2019 p.60; mayr-davies2011 p.2 Table 1; williams1995 p.1 Table 2]
+nuclei   = ai ɔi əi ʊi au ɛu əu ɪu
+# Complete onset set, singletons included (spec §12.D). Tiers as the digest labels them
+# (§2.2 lines 340–345): A stated class, B lexically attested / attested as the output of a
+# cited mutation rule, C typo-conjecture, D disputed analysis.
+#   A  fl tl pr sl sr st sp sk stl spr skl — §2.2 lines 350–354 [breit2019 p.252]; plus the
+#      stop+liquid set pl br bl tr dr kr kl ɡr ɡl θr — the class "stop-liquid" of [breit2019
+#      p.252] (§2.2 line 351) read as a class, "obstruent + liquid (tref)" [jipa-north p.505]
+#      (§2.2 line 380, North), with cited words clap [klap], plant [plant], tlawd (§2.1 lines
+#      305–312), clust, cloc [ˈklɔkː], clog [ˈkloːɡ] (§2.5 line 511), brwydr [ˈbruɨdɨr] (§3.2
+#      line 682), brawn [ˈbrɔːn] (§4.3 line 1152). Coordinator ruling (a), overriding plan S4.
+#   B  str bl ɡl dl ɡn — §2.2 lines 360–364; kn — §3.1 line 652 [parry1923 §80] "#kn is licit";
+#      ɡw — §5 line 1253 gwyn /ɡwɪn/, gwych /ɡwiːχ/ (S) [wiki-cy-orth §Diphthongs n.3].
+#      Attested under mutation [wiki-cy-phon §Consonant mutations] (coordinator ruling b):
+#      nasal /b d ɡ/ → /m n ŋ/ gives ml mr nr nl ŋl ŋr (fy mrawd, fy nrws, fy ngardd; §2.2
+#      line 381 "sonorant + liquid onsets exist only as nasal-mutation output"); aspirate
+#      /p t k/ → /f θ χ/ gives fl θr χr χl (ei chrys, ei chlust, ei thref); soft /b d/ → /v ð/
+#      gives vr vl ðr ðl (ei frawd, ei ddraig) and /ɡ/ → ∅ gives wl wr wn (wlad, wraig,
+#      wneud; §2.2 line 376 [wiki-cy-phon §Other consonants]).
+#   C  fr — §2.2 line 370 (the emended [pr] of breit2019 p.252); also the aspirate mutation
+#      of pr (ei phrawd) and the modern row ffres [ˈfrɛs] (§4.3 line 1152).
+#   D  ɡwl ɡwr ɡwn χw — §2.2 lines 376–377 (gwlad, gwraig, gwneud, chwech).
+#   Tier E (§2.2 line 400) sm sn are NOT onsets: they take the prothetic vowel (decision 15,
+#   Morris Jones's wider scope — see [repair]). θr χr χl are admitted under B, not E.
+onsets   = p b t d k ɡ tʃ dʒ m n ŋ f v θ ð s ʃ χ h ɬ l r r̥ w j z m̥ n̥ ŋ̥ fl tl pr sl sr st sp sk stl spr skl pl br bl tr dr kr kl ɡr ɡl θr str dl ɡn kn ɡw ml mr nr nl ŋl ŋr χr χl vr vl ðr ðl wl wr wn fr ɡwl ɡwr ɡwn χw
+onsets-tier = fl:A tl:A pr:A sl:A sr:A st:A sp:A sk:A stl:A spr:A skl:A pl:A br:A bl:A tr:A dr:A kr:A kl:A ɡr:A ɡl:A θr:A str:B dl:B ɡn:B kn:B ɡw:B ml:B mr:B nr:B nl:B ŋl:B ŋr:B χr:B χl:B vr:B vl:B ðr:B ðl:B wl:B wr:B wn:B fr:C ɡwl:D ɡwr:D ɡwn:D χw:D
+# Complete coda set. Singletons: every consonant may end a word except /h/ (§2.5 line 509
+# "not found finally in any word"), /r̥/ (§2.5 line 507 "never word-final") and the
+# mutation-initial voiceless nasals (§2.5 line 513); /w j/ close a syllable in §4.3 line 1080.
+# Clusters: digest §2.3 tier B (lines 438–448) — rð nt st rf ɬt sk sb lχ ft sp; the digest's
+# str and ŋkr are omitted: it cites them "precisely as a word that is repaired" (line 446)
+# and "(North; Southern epenthesises)" (line 445). Added with the same B evidence: ns (lwans
+# [ˈluːans], §2.5 line 524 [wood1988 p.231]; §3.3 line 774 trespans), nz (jîns [dʒɪnz], §3.4
+# line 847), rθ (ewythr [ˈewɨrθ] §3.2 line 696; cyfarth §3.4 line 850 [parry1923 §118]),
+# rt (Edwart, mwstart, stondart §3.3 line 749 [parry1923 §116]).
+# Tier A here = the coda CLASS statement of [jipa-north p.506] (§2.3 line 417, North):
+# "sonorant + obstruent (/garð/ gardd)", the same provenance caveat as the template; taken
+# for the members Irish input needs, each with a cited word where the digest has one:
+# rn (miswrn, masarn, siswrn — §3.3 line 770 [parry1923 §130] "∅ → n / r _ #"), rs and rθ
+# (§2.3 line 481 [morrisjones1913 §17(3)] "nt, rth, rs" never took epenthesis), lk lm (balc,
+# sialc, palm, salm — §3.4 line 851 [parry1923 §111]), nd (ffrind — §3.5 line 866), ŋk (ponc —
+# §3.3 line 741), mp (chwimp, swmp — §3.3 line 773 [parry1923 §130] "∅ → p / m _ #"); rd rk rχ
+# lb lɡ ls on the class statement alone. Final rd/nd/ld are reshaped first by the [repair]
+# word-edge rules (§3.3 lines 745–758), so rd is effectively a medial coda (ardd-).
+codas    = p b t d k ɡ tʃ dʒ m n ŋ f v θ ð s ʃ χ ɬ l r w j z rð nt st rf ɬt sk sb lχ ft sp ns nz rθ rt rd rk rs rχ rn lk lm lb lɡ ls nd ŋk mp
+codas-tier = rð:B nt:B st:B rf:B ɬt:B sk:B sb:B lχ:B ft:B sp:B ns:B nz:B rθ:B rt:B rd:A rk:A rs:A rχ:A rn:A lk:A lm:A lb:A lɡ:A ls:A nd:A ŋk:A mp:A
+onset-required = no
+domain   = word
+# Spec §7 has sonority on; the plan (R17b) tags it %design: §2.2 never mentions sonority and
+# §2.4 line 472 flags its own coda generalisation "(unattested inference — stronger than the
+# source)". It is OFF here: the onset and coda sets above are complete, so sonority adds no
+# constraint, and the attested soft-mutation onsets wl wr wn / ɡwl ɡwr (§2.2 line 376: the w
+# is "a rounding of the lips accompanying" the consonant, not a glide segment) have falling
+# sonority and would be rejected. design: §9 (R17b); digest §2.2 line 376.
+sonority = off
+# /ə/ "barred from word-final syllables and from monosyllables" (digest §1 line 200; §2.5
+# line 521) is enforced by the [substitute] mapping ə -> a / _ C* #, not by a ban: a ban would
+# also mark the /ə/ carrier of the repair table's ewythr row (digest §3.2 line 696).
+
+[repair]
+# Rules apply unconditionally in file order (spec §12.A); most are active processes.
+# --- initial l-/r- fortition (spec §9.14 ON) ---------------------------------------------------
+# digest §3.3 line 810 [parry1923 p.231 §95] "l → ɬ / # _ ; r → r̥ / # _"; "This is a live
+# choice, not a rule" (line 815) — later loans keep l-/r-. §9.14 turns it on.
+l -> ɬ / # _                            %design   # design: §9.14; digest §3.3 line 810 [parry1923 p.231 §95]
+r -> r̥ / # _                            %design   # design: §9.14; digest §3.3 line 810 [parry1923 p.231 §95]
+# --- #sC prothesis (spec §9.15 ON, written y) -------------------------------------------------
+# digest §3.1 lines 616–622: Parry-Williams's loan scope is s + STOP (ysgarlat, ystiwart);
+# the digest offers three encodings (P/S/C, lines 629–633) and chooses none; §9.15 takes
+# encoding C at Parry-Williams's scope: the vowel is pronounced and spelled y.
+0 -> ə / # _ s {p t k}                  %design   # design: §9.15; digest §3.1 line 621 [parry1923 p.223 §84]
+# Irish /sm sn/ "fall only under the wider native rule" (§8.6 line 1622), Morris Jones's
+# "s followed by a consonant" (§3.1 line 622 [morrisjones1913 §23 ii p.26]); sm sn are not
+# Welsh onsets (§2.2 line 400), so the wider scope is taken for exactly these two.
+0 -> ə / # _ s {m n}                    %design   # design: §9.15; digest §3.1 line 622 open [morrisjones1913 §23 ii p.26]
+# --- /h/ outside its licensed positions (digest §8.4 lines 1537–1552) ----------------------------
+# Welsh has no /hN/ onset (h-prothesis is a vowel-initial process, §6 line 1309 "yr before
+# vowel or h-"); a lenited Irish s before a nasal (shnámh) loses its h. Coordinator ruling (c).
+h -> 0 / # _ NAS                        %design   # design: digest §8.4 line 1552 open (option 1); §8.5 line 1581
+# "/h/ is not found finally in any word" (§2.5 line 509); option (1) "delete it (matches brenin)".
+h -> 0 / _ #                            %design   # design: digest §8.4 line 1552 open (option 1) [wiki-cy-phon §Fricatives]
+# --- word-edge consonant processes (digest §3.3 lines 745–758 [parry1923 §§116–119]) ----
+# "rd → rð, rt → rθ … quite natural to W" (line 753 §118: board > bwrdd, standard > ystondardd);
+# final devoicing after a sonorant, d → t / {l n} _ # (line 745 §116: gild > gilt, pound > punt)
+# — rd takes §118's spirantisation rather than §116's bort; "ld, lt → ɬt" (line 758 §119: bolt >
+# bollt, fold > ffollt). All ME/early NE loan rules (§3 line 590), hence %design.
+d -> ð / r _ #                          %design   # design: digest §3.3 line 753 [parry1923 p.243 §118] (ME/early NE)
+d -> t / {l n} _ #                      %design   # design: digest §3.3 line 745 [parry1923 pp.242–243 §116] (ME/early NE)
+l -> ɬ / _ t #                          %design   # design: digest §3.3 line 758 [parry1923 p.244 §119] (ME/early NE)
+# Welsh ⟨ng⟩ is /ŋ/ alone (§5 line 1209; llong [ɬɔŋ] §4.3 line 1079): a final Irish /ŋɡ/
+# (long /l̪ˠuːŋɡ/) keeps only the nasal.
+ɡ -> 0 / ŋ _ #                          %design   # design: digest §5 line 1209; §4.3 line 1079 (llong) open
+# --- final C + {l n r}: the pobl / ffenestr / ewythr triad (digest §3.2 lines 678–702) ---------
+# 1. Copy epenthesis in a monosyllable: ∅ → Vᵢ / Vᵢ C _ {l r n} # (line 680), pobl > [ˈpɔbɔl],
+#    cancr > [ˈkankar]; C₁ ∈ EPEN_C1 (also m before l) and, after a diphthong, the second
+#    element is copied — [williams1994 §2.1] (lines 697–702). Captures per I-33.
+0 -> \1 / # C* V:1 (C) EPEN_C1 _ {l n r} #    %attested # digest §3.2 line 680 [wiki-cy-phon §Other consonants]; line 702 [williams1994 §2.1]
+0 -> \1 / # C* V V:1 (C) EPEN_C1 _ {l n r} #  %attested # digest §3.2 line 697 [williams1994 §2.1] "after a diphthong, the diphthong's second element"
+0 -> \1 / # C* V:1 (C) m _ l #                %attested # digest §3.2 line 702 [williams1994 §2.1] "also C₁ = m, C₂ = l" (aml → /a m a l/)
+0 -> \1 / # C* V V:1 (C) m _ l #              %attested # digest §3.2 line 702 [williams1994 §2.1]
+# 3. Metathesis "occasionally, with /θr/": Cθr# → Crθ# (line 694), ewythr > [ˈewɨrθ]. Ordered
+#    before deletion so that the θr case takes the digest's own outcome rather than losing r.
+θ:1 r:2 -> \2 \1 / C V* _ #             %attested # digest §3.2 line 694 [wiki-cy-phon §Other consonants]
+# 2. Liquid deletion where epenthesis "would result in an antepenultimate accent" (line 684),
+#    i.e. in a polysyllable: ffenestr > [ˈfɛnɛst], posibl > [ˈpɔsib]; the antepenult ban is
+#    [morrisjones1913 §43 i p.62] (§2.5 line 522).
+{l r} -> 0 / V C* V C* EPEN_C1 _ #      %attested # digest §3.2 line 687 [wiki-cy-phon §Other consonants; breit-harris2014 p.1]
+# A polysyllable in final -Cn has no stated repair (deletion is stated for /l r/ only); the
+# epenthesis of rule 1 is extended to it rather than leaving an illicit final (§2.3 line 465).
+0 -> \1 / V:1 (C) EPEN_C1 _ n #         %design   # design: digest §3.2 line 684 open (deletion stated for l r only); line 702
+# --- degemination (digest §2.4 line 499, R17a) ------------------------------------------------
+# "a consonant which is etymologically double is simplified after an unaccented syllable"
+# [morrisjones1913 §27 ii p.30]. Geminates are repeated segments (I-2). Under penultimate
+# stress the syllable before the geminate is unaccented iff at least two nuclei follow it.
+p p -> p / V _ C* V C* V                %attested # digest §2.4 line 499 [morrisjones1913 §27 ii p.30]
+t t -> t / V _ C* V C* V                %attested # digest §2.4 line 499 [morrisjones1913 §27 ii p.30]
+k k -> k / V _ C* V C* V                %attested # digest §2.4 line 499 [morrisjones1913 §27 ii p.30]
+b b -> b / V _ C* V C* V                %attested # digest §2.4 line 499 [morrisjones1913 §27 ii p.30]
+d d -> d / V _ C* V C* V                %attested # digest §2.4 line 499 [morrisjones1913 §27 ii p.30]
+ɡ ɡ -> ɡ / V _ C* V C* V                %attested # digest §2.4 line 499 [morrisjones1913 §27 ii p.30]
+m m -> m / V _ C* V C* V                %attested # digest §2.4 line 499 [morrisjones1913 §27 ii p.30]
+n n -> n / V _ C* V C* V                %attested # digest §2.4 line 499 [morrisjones1913 §27 ii p.30]
+ŋ ŋ -> ŋ / V _ C* V C* V                %attested # digest §2.4 line 499 [morrisjones1913 §27 ii p.30]
+s s -> s / V _ C* V C* V                %attested # digest §2.4 line 499 [morrisjones1913 §27 ii p.30]
+ɬ ɬ -> ɬ / V _ C* V C* V                %attested # digest §2.4 line 499 [morrisjones1913 §27 ii p.30]
+l l -> l / V _ C* V C* V                %attested # digest §2.4 line 499 [morrisjones1913 §27 ii p.30]
+r r -> r / V _ C* V C* V                %attested # digest §2.4 line 499 [morrisjones1913 §27 ii p.30]
+# --- last resort (spec §12.E): a remaining whitelist miss takes the nearest cluster of the
+# same length, tagged %fallback and counted in Result.fallbacks. Coordinator ruling (d).
+cluster-fallback = same-length
+
+[stress]
+# digest §4.1 line 972 "stress → penultimate syllable" [liu2018 p.6; williams1983 p.22;
+# breit2019 pp.74–75]. Welsh-first ordering (L1) is spec §9.13 — digest §4.4 line 1158 says
+# the ordering "is a decision for the project, not something the sources settle".
+procedure = penult
+
+[post-stress]
+# The Southern length rule for FINAL stressed syllables (including monosyllables), digest §4.3
+# lines 1073–1082 [iosad2017 p.8; wiki-cy-phon §Vowels; breit2019 pp.76–78], the seven-line
+# environment list verbatim (I-26: "Awbery's tree" does not exist in the digest). Every vowel
+# arrives short (L1, [substitute]); stressed penults are left short (the digest's own CONFLICT
+# at lines 1136–1138 on whether penult length is contrastive; liu2018: tadau [ˈtada]).
+# Row 1 — V → Vː / ˈ_ #   open final syllable: tŷ, da   (line 1076)
+ɪ -> iː / ˈ C* _ #                      %attested # digest §4.3 line 1076 [iosad2017 p.8]
+ɛ -> eː / ˈ C* _ #                      %attested # digest §4.3 line 1076 [iosad2017 p.8]
+a -> aː / ˈ C* _ #                      %attested # digest §4.3 line 1076 [iosad2017 p.8]
+ɔ -> oː / ˈ C* _ #                      %attested # digest §4.3 line 1076 [iosad2017 p.8]
+ʊ -> uː / ˈ C* _ #                      %attested # digest §4.3 line 1076 [iosad2017 p.8]
+# Row 2 — V → Vː / ˈ_ {b d ɡ v ð f θ χ} #   mab, gradd, rhaff, brath, cath, bach   (line 1077)
+ɪ -> iː / ˈ C* _ {b d ɡ v ð f θ χ} #    %attested # digest §4.3 line 1077 [iosad2017 p.8]
+ɛ -> eː / ˈ C* _ {b d ɡ v ð f θ χ} #    %attested # digest §4.3 line 1077 [iosad2017 p.8]
+a -> aː / ˈ C* _ {b d ɡ v ð f θ χ} #    %attested # digest §4.3 line 1077 [iosad2017 p.8]
+ɔ -> oː / ˈ C* _ {b d ɡ v ð f θ χ} #    %attested # digest §4.3 line 1077 [iosad2017 p.8]
+ʊ -> uː / ˈ C* _ {b d ɡ v ð f θ χ} #    %attested # digest §4.3 line 1077 [iosad2017 p.8]
+# Row 3 — V → Vː / ˈ_ {s ʃ ɬ} #   SOUTH ONLY (North: short)  glas, nes, llall, pell   (line 1078)
+ɪ -> iː / ˈ C* _ {s ʃ ɬ} #              %attested # digest §4.3 line 1078 [iosad2017 p.8] (South)
+ɛ -> eː / ˈ C* _ {s ʃ ɬ} #              %attested # digest §4.3 line 1078 [iosad2017 p.8] (South)
+a -> aː / ˈ C* _ {s ʃ ɬ} #              %attested # digest §4.3 line 1078 [iosad2017 p.8] (South)
+ɔ -> oː / ˈ C* _ {s ʃ ɬ} #              %attested # digest §4.3 line 1078 [iosad2017 p.8] (South)
+ʊ -> uː / ˈ C* _ {s ʃ ɬ} #              %attested # digest §4.3 line 1078 [iosad2017 p.8] (South)
+# Row 4 — V → V / ˈ_ {pʰ tʰ kʰ m ŋ} #   twp, clap, cam, trwm, llong, sang   (line 1079); the
+# fortis stops are written p t k in this file ([inventory] note).
+iː -> ɪ / ˈ C* _ {p t k m ŋ} #          %attested # digest §4.3 line 1079 [iosad2017 p.8]
+eː -> ɛ / ˈ C* _ {p t k m ŋ} #          %attested # digest §4.3 line 1079 [iosad2017 p.8]
+aː -> a / ˈ C* _ {p t k m ŋ} #          %attested # digest §4.3 line 1079 [iosad2017 p.8]
+oː -> ɔ / ˈ C* _ {p t k m ŋ} #          %attested # digest §4.3 line 1079 [iosad2017 p.8]
+uː -> ʊ / ˈ C* _ {p t k m ŋ} #          %attested # digest §4.3 line 1079 [iosad2017 p.8]
+# Row 5 — V → V / ˈ_ {w j}   SOUTH: always short   (line 1080)
+iː -> ɪ / ˈ C* _ {w j}                  %attested # digest §4.3 line 1080 [iosad2017 p.8] (South)
+eː -> ɛ / ˈ C* _ {w j}                  %attested # digest §4.3 line 1080 [iosad2017 p.8] (South)
+aː -> a / ˈ C* _ {w j}                  %attested # digest §4.3 line 1080 [iosad2017 p.8] (South)
+oː -> ɔ / ˈ C* _ {w j}                  %attested # digest §4.3 line 1080 [iosad2017 p.8] (South)
+uː -> ʊ / ˈ C* _ {w j}                  %attested # digest §4.3 line 1080 [iosad2017 p.8] (South)
+# Row 6 — V → V / ˈ_ CC #   SOUTH: always short   plant, corff, gwallt, Pasg, cosb   (line 1081)
+iː -> ɪ / ˈ C* _ C C #                  %attested # digest §4.3 line 1081 [iosad2017 p.8] (South)
+eː -> ɛ / ˈ C* _ C C #                  %attested # digest §4.3 line 1081 [iosad2017 p.8] (South)
+aː -> a / ˈ C* _ C C #                  %attested # digest §4.3 line 1081 [iosad2017 p.8] (South)
+oː -> ɔ / ˈ C* _ C C #                  %attested # digest §4.3 line 1081 [iosad2017 p.8] (South)
+uː -> ʊ / ˈ C* _ C C #                  %attested # digest §4.3 line 1081 [iosad2017 p.8] (South)
+# Row 7 — V or Vː / ˈ_ {n l r} #   LEXICALLY DETERMINED — not predictable   (line 1082):
+# tâl [ˈtaːl] vs tal [ˈtal]. Left unchanged: the vowel keeps the length it arrives with
+# (short, after L1), which is the project's reading of a lexical choice; tagged %design.
+# The Irish length was kept before a final n l r in [substitute] as the lexical choice; here
+# it is left as it arrives in the STRESSED final syllable (the identity line is the row's
+# tag-carrier) and shortened in an unstressed ultima (`V C* . C* _` = a non-initial, non-stressed
+# final syllable under penultimate stress: Rónán → rhonan, not *rhonân).
+a -> a / ˈ C* _ {n l r} #               %design   # design: digest §4.3 line 1082 open (lexically determined) [breit2019 p.79; iosad2017 pp.7–8]
+iː -> ɪ / V C* . C* _ {n l r} #            %attested # digest §4.3 line 1063 "Long vowels are restricted to stressed syllables" [iosad2017 p.7]
+eː -> ɛ / V C* . C* _ {n l r} #            %attested # digest §4.3 line 1063 [iosad2017 p.7]
+aː -> a / V C* . C* _ {n l r} #            %attested # digest §4.3 line 1063 [iosad2017 p.7]
+oː -> ɔ / V C* . C* _ {n l r} #            %attested # digest §4.3 line 1063 [iosad2017 p.7]
+uː -> ʊ / V C* . C* _ {n l r} #            %attested # digest §4.3 line 1063 [iosad2017 p.7]
+
+[epithets]
+# digest §6 lines 1298–1316 [morrisjones1913 §153, §126]: ten rows, eight suffixes; seven are
+# taken. -in 'made of' (line 1306) is dropped: it attaches to material nouns only (derwin
+# 'oaken', lledrin 'leathern') and cannot describe a person. The w→o / y→e row is an
+# adjective ablaut and the article row is not a suffix (S5). All attach at the stem end.
+# digest §6 line 1300 [morrisjones1913 p.256 §153(5)] -og, cognate of Irish -ach (line 1312)
+OG   = ɔ ɡ / $ _ #
+# digest §6 line 1301 [morrisjones1913 p.256 §153(6)] -ol
+OL   = ɔ l / $ _ #
+# digest §6 line 1302 [morrisjones1913 p.256 §153(3)] -aidd (the ADJ slot, spec §12.H)
+AIDD = a i ð / $ _ #
+# digest §6 line 1303 [morrisjones1913 p.257 §153(13)] -us; ⟨u⟩ = /ɪ/ in the South (§5 line 1239)
+US   = ɪ s / $ _ #
+# digest §6 line 1304 [morrisjones1913 pp.256–7 §153(8)] -gar, productive on loans (sgilgar)
+GAR  = ɡ a r / $ _ #
+# digest §6 line 1305 [morrisjones1913 p.257 §153(12)] -lyd; final ⟨y⟩ = /ɪ/ (§5 line 1256)
+LYD  = l ɪ d / $ _ #
+# digest §6 line 1305 — the -llyd allomorph "after n, r" (tanllyd, rhydlyd)
+LLYD = ɬ ɪ d / {n r} $ _ #
+# digest §6 line 1307 [morrisjones1913 pp.213–14 §126] -yn (m.) singulative/diminutive
+YN   = ɪ n / $ _ #
+# digest §6 line 1307 [morrisjones1913 pp.213–14 §126] -en (f.)
+EN   = ɛ n / $ _ #
+
+[respell]
+# digest §5 lines 1199–1230 "Segment → spelling (Southern values)" [wiki-cy-orth §Letter names
+# and sound values] and lines 1232–1246 (vowels, diphthongs). Welsh letter values, policy (b)
+# of §5 line 1287 (Geiriadur yr Academi: respell by Welsh letter values).
+# /sp sk/ are spelled ⟨sb sg⟩ "because /b d ɡ/ are devoiced in that context" (§8.6 line 1632
+# [wiki-cy-phon §Stops]): ysgol, ysbryd.
+p -> "b" / s _                          %attested # digest §8.6 line 1632 [wiki-cy-phon §Stops]
+k -> "g" / s _                          %attested # digest §8.6 line 1632 [wiki-cy-phon §Stops]
+k -> "c"                                %attested # digest §5 line 1205 "never ⟨k⟩" [wiki-cy-orth]
+ɡ -> "g"                                %attested # digest §5 line 1206 [wiki-cy-orth]
+ŋ -> "ng"                               %attested # digest §5 line 1209 [wiki-cy-orth]
+f -> "ff"                               %attested # digest §5 line 1210 [wiki-cy-orth]
+v -> "f"                                %attested # digest §5 line 1211 "single ⟨f⟩ = /v/" [wiki-cy-orth]
+θ -> "th"                               %attested # digest §5 line 1212 [wiki-cy-orth]
+ð -> "dd"                               %attested # digest §5 line 1213 [wiki-cy-orth]
+ʃ -> "si" / _ V                         %attested # digest §5 line 1215 "si (before a vowel)" [wiki-cy-orth n.1]
+ʃ -> "sh"                               %attested # digest §5 line 1215 "sh in some loans" [wiki-cy-orth]
+χ -> "ch"                               %attested # digest §5 line 1216 [wiki-cy-orth]
+ɬ -> "ll"                               %attested # digest §5 line 1219 [wiki-cy-orth]
+r̥ -> "rh"                               %attested # digest §5 line 1221 [wiki-cy-orth]
+j -> "i"                                %attested # digest §5 line 1222 "i (before a vowel)" [wiki-cy-orth]
+dʒ -> "j"                               %attested # digest §5 line 1224 (modern) [wiki-cy-orth §Non-native letters]
+tʃ -> "ts"                              %attested # digest §5 line 1225 (modern) wats, tsips [wiki-cy-orth n.1]
+z -> "s"                                %attested # digest §5 line 1226 "⟨z⟩ is not in the alphabet" [wiki-cy-orth §Non-native letters]
+m̥ -> "mh"                               %attested # digest §5 line 1230 [wiki-cy-orth n.2]
+n̥ -> "nh"                               %attested # digest §5 line 1230 [wiki-cy-orth n.2]
+ŋ̥ -> "ngh"                              %attested # digest §5 line 1230 [wiki-cy-orth n.2]
+# p b t d m n s h l r w pass through as themselves (§5 lines 1201–1223).
+# Diphthongs (§5 lines 1244–1246 [wiki-cy-orth §Diphthongs]): ai, aw /au/, oi /ɔi/, eu /əi/,
+# wy /ʊi/, ew /ɛu/ and /əu/ (§8.8 line 1704 ⟨ew, ow⟩), iw /ɪu/.
+a i -> "ai"                             %attested # digest §5 line 1244 [wiki-cy-orth §Diphthongs]
+a u -> "aw"                             %attested # digest §5 line 1244 [wiki-cy-orth §Diphthongs]
+ɔ i -> "oi"                             %attested # digest §5 line 1245 [wiki-cy-orth §Diphthongs]
+ə i -> "eu"                             %attested # digest §5 line 1244 [wiki-cy-orth §Diphthongs]
+ʊ i -> "wy"                             %attested # digest §5 line 1245 [wiki-cy-orth §Diphthongs]
+ɛ u -> "ew"                             %attested # digest §5 line 1244 [wiki-cy-orth §Diphthongs]
+ə u -> "ew"                             %attested # digest §8.8 line 1704 ⟨ew, ow⟩ [wiki-cy-phon §Diphthongs]
+ɪ u -> "iw"                             %attested # digest §5 line 1245 [wiki-cy-orth §Diphthongs]
+# Vowels (§5 lines 1234–1241). Length is otherwise left unmarked: it is predictable from the
+# spelling once the stressed final syllable's coda is known (§5 lines 1274–1281 [wiki-cy-orth
+# §Predicting vowel length]). ⟨y⟩ = /ə/ in non-final syllables (§5 line 1256); /ə/ never
+# reaches a final syllable here ([repair]). Final-syllable /ɪ/ is written i (i-dot, line 1266).
+# The lexical n l r class is the one place a long vowel is not predictable from the spelling
+# (§5 lines 1279–1281): "marked with a circumflex if long" — tâl, tôn, gêr (§4.3 line 1084).
+iː -> "î" / _ {n l r} #                 %attested # digest §5 line 1281 [wiki-cy-orth §Predicting vowel length]
+eː -> "ê" / _ {n l r} #                 %attested # digest §5 line 1281 [wiki-cy-orth §Predicting vowel length]
+aː -> "â" / _ {n l r} #                 %attested # digest §5 line 1281 [wiki-cy-orth §Predicting vowel length]
+oː -> "ô" / _ {n l r} #                 %attested # digest §5 line 1281 [wiki-cy-orth §Predicting vowel length]
+uː -> "ŵ" / _ {n l r} #                 %attested # digest §5 line 1281 [wiki-cy-orth §Predicting vowel length]
+ɪ -> "i"                                %attested # digest §5 line 1237 [wiki-cy-orth]
+iː -> "i"                               %attested # digest §5 line 1237 [wiki-cy-orth]
+ɛ -> "e"                                %attested # digest §5 line 1236 [wiki-cy-orth]
+eː -> "e"                               %attested # digest §5 line 1236 [wiki-cy-orth]
+ɛː -> "ê"                               %attested # digest §5 line 1270 circumflex = long; injinêr (§4.3 line 1152)
+aː -> "a"                               %attested # digest §5 line 1235 [wiki-cy-orth]
+ɔ -> "o"                                %attested # digest §5 line 1238 [wiki-cy-orth]
+oː -> "o"                               %attested # digest §5 line 1238 [wiki-cy-orth]
+ɔː -> "ô"                               %attested # digest §5 line 1270 circumflex = long
+ʊ -> "w"                                %attested # digest §5 line 1240 [wiki-cy-orth]
+uː -> "w"                               %attested # digest §5 line 1240 [wiki-cy-orth]
+ə -> "y"                                %attested # digest §5 line 1241, line 1256 [wiki-cy-orth n.5]
+u -> "w"                                %attested # digest §5 line 1240 [wiki-cy-orth] (offglide surfacing alone)
+# a, i pass through as themselves (§5 lines 1235, 1237).
