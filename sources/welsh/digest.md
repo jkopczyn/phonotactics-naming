@@ -18,11 +18,26 @@ Powyseg is mid-Wales [wiki-cy-lang §The four traditional dialects]. Sources als
 **PHOIBLE row.** InvID 2406, source `ea`, "Welsh (Llanwrtyd)", 48 segments (29 C + 19 V), none
 marked Marginal.
 
-**Caveat on the row's dialect label (unresolved).** Llanwrtyd is in Powys, on the mid-Wales /
-Dyfedeg boundary. None of the sources describes it, and central-western accents "tend to be treated
-as hybrid forms" [mayr-davies2011 p.3]. Treating this row as straightforwardly "Southern" is an
-assumption the digest could not verify — though the segment list itself is unambiguously Southern
-(no /ɨ/, eight diphthongs).
+**Caveat on the row's dialect label (unresolved).** Two separate things must be kept apart here,
+and conflating them produces an unsupported inference:
+
+- **Y Bowyseg**, the *traditional dialect*. `breit2019` groups it with the **North**: "Y Wyndodeg …
+  and Y Bowyseg 'Powys-ish' **in the north**, and Y Ddyfedeg and Y Wenhwyseg in the south", adding
+  that it "is also often given the broad label of **Mid Welsh**" [breit2019 pp.53–54];
+  [wiki-cy-lang §The four traditional dialects] likewise places Powyseg as north/central-eastern.
+- **Powys**, the *modern administrative county* Llanwrtyd sits in. This is a 1974 local-government
+  unit, not a dialect area.
+
+**No source connects Llanwrtyd to Y Bowyseg, or to any dialect.** Llanwrtyd is not named in any
+source file, and `breit2019` mentions neither Llanwrtyd nor the PHOIBLE survey. Inferring the
+dialect from the county name would be an administrative-area ⇒ dialect inference with nothing
+behind it, and this digest does not make it. What can safely be said: **Breit groups Y Bowyseg with
+North/Mid Welsh; Llanwrtyd's dialect affiliation and local phonotactics are unverified.**
+Central-western accents "tend to be treated as hybrid forms" [mayr-davies2011 p.3].
+
+The **segment list** in the row is nonetheless unambiguously Southern (no /ɨ/, eight diphthongs),
+so §1 stands on the row's own evidence. It is the N/S *tagging* of §§2–4 and §8 that rests on the
+unverified assumption.
 
 **Sources by weight for the South.** `williams1995` (the only explicit enumerated South phoneme
 list, 32 C + 19 V = 51, from one male native South Welsh speaker) · `liu2018` (the one modern
@@ -100,7 +115,11 @@ sub-dialectal conditional removals:
   regular lenis nasals in the same environment)" [breit2019 p.60, p.61 Table 3 caption] **(South,
   explicit)**.
 
-### Mark marginal (none is marked Marginal in the row; all should be)
+### Segments the row should flag but does not
+
+None of these is marked Marginal in the PHOIBLE row. Most are genuinely marginal; **/tʃ dʒ/ and /ʃ/
+are the exceptions — they are marginal in *Welsh at large* but NOT in the Southern target**, which
+is the variety the row claims to describe. Read the Status column, not the heading.
 
 | Segment | Status | Citation |
 |---|---|---|
@@ -274,8 +293,11 @@ and should be checked before it becomes a rule.
 
 CONFLICT: maximum coda size. [lapsyd-cy] caps the coda at 2; [jipa-north p.506] allows 3
 (*meistr*). Both describe Northern Welsh. For the **Southern** target the question is probably
-moot: [williams1994 §2.1] epenthesises exactly those finals (*ffenestr* → *ffenest(e)r*), so the
-Southern surface maximum is very likely CC.
+moot: [williams1994 §2.1] epenthesises exactly those finals (*ffenestr* → *ffenest(e)r*).
+**But that is one epenthesis class, not a maximum.** `williams1994` states epenthesis for
+C + {l, n, r} finals; it does not state a Southern coda maximum and does not rule out other
+Southern CCC codas (e.g. */-ŋks/, */-sts/). "The Southern surface maximum is CC" is
+**(unattested inference)** and should not be encoded as a constraint.
 
 Attested shapes:
 
@@ -308,24 +330,52 @@ for a generator: a monosyllabic output needs either a long vowel/diphthong or a 
 > sibilant-stop-liquid ([stl, spr, skl])."
 
 CONFLICT / probable typo: the same pair `[pr]` is printed for both the fricative-liquid and the
-stop-liquid class. The digest reads the first as a typo for `[fr]` and lists /fr/ as STATED
-(typo-corrected). The string was verified against the PDF, so it is the author's, not an
-extraction artefact. If the correction is wrong, fricative+liquid has exactly one attested member
-(/fl/).
+stop-liquid class. The string was verified against the PDF, so it is the author's, not an
+extraction artefact. **As printed, this citation states only /fl/ for fricative+liquid.** /fr/ is
+a typo-conjecture, listed below under TYPO-CONJECTURE and **not** as a stated cluster.
 
-STATED onsets:
+Onsets are given below in **four separate evidence levels**, because they are not interchangeable
+for rule-writing:
+
+- **A — STATED CLASS**: the source names the cluster as a member of a licit class.
+- **B — LEXICALLY ATTESTED ONLY**: a source gives a word containing it; no class statement.
+- **C — TYPO-CONJECTURE**: rests on emending a printed source.
+- **D — DISPUTED ANALYSIS**: the sequence occurs but sources disagree whether it is an onset
+  cluster at all (nucleus material, or a coda + empty nucleus).
+
+**A — STATED CLASS onsets:**
 
 | Class | Members | Source |
 |---|---|---|
-| fricative + liquid | /fl/ (and /fr/, typo-corrected) | [breit2019 p.252] |
+| fricative + liquid | **/fl/ only** | [breit2019 p.252] |
 | stop + liquid | /tl/, /pr/ | [breit2019 p.252]; /tl/ also [breit-harris2014 p.1] "a common word-initial cluster", *tlawd*; /tl/ → [tl̥] [breit2019 p.73] |
-| /dl/ | *dlos* [dɫoːs] 'pretty' — velarised [ɫ] after /d/, noted as a **Southern** exception | [wiki-cy-phon §Other consonants] |
 | sibilant + liquid | /sl/, /sr/ | [breit2019 p.252] |
 | sibilant + stop | /st/, /sp/, /sk/ | [breit2019 p.252] |
-| sibilant + stop + liquid | /stl/, /spr/, /skl/; /str/ *stryd* (N) | [breit2019 p.252], [jipa-north p.505] |
-| stop + liquid, lexically | /bl/ *blith*, /gl/ *glo* — the /#ClV/ environment where the lateral is voiced [l], not [ɬ] | [wood1988 p.230] |
-| /gw/ + l, r, n | *gwlad, gwlân, gwneud, gwraig* — "the letter ⟨w⟩ is not sounded as a vowel but is a consonant, realised by a rounding of the lips accompanying the /ɡ/ or /l, n, r/… of one syllable only" | [wiki-cy-phon §Other consonants]; [morrisjones1913 §26 iii p.28]: "the initial combinations are practically gl, gr or gn pronounced with rounded lips… When the g is mutated away the initial is l, r or n with w as an on-glide" |
-| /χw/ | *chwech* /χweχ/ | [jipa-north p.503] (N); [morrisjones1913 §26 vi p.29] adds "In S.W. dialects the loose voiceless w (written *wh* or *hw*) prevails initially" **(South)** |
+| sibilant + stop + liquid | /stl/, /spr/, /skl/ | [breit2019 p.252] |
+
+**B — LEXICALLY ATTESTED ONLY** (a word exists; no source states the class):
+
+| Cluster | Word, with IPA where the source gives it | Source |
+|---|---|---|
+| /str/ | *stryd* /strɨd/ **(North)** | [jipa-north p.505] |
+| /bl/ | *blith* ['bliθ] — the /#ClV/ environment, lateral voiced [l] not [ɬ] | [wood1988 p.230] |
+| /ɡl/ | *glo* ['gloː] — same environment | [wood1988 p.230] |
+| /dl/ | *dlos* [dɫoːs] 'pretty' — **a single token.** The source gives it to illustrate that [ɫ] appears after /d/ as a **Southern** exception; it states no /dl/ onset class | [wiki-cy-phon §Other consonants] |
+| /ɡn/ | *gwneud* — and only under the reading that ⟨gw⟩ here is /ɡ/ + labialisation, not /ɡ/+/w/ | [morrisjones1913 §26 iii p.28] |
+
+**C — TYPO-CONJECTURE:**
+
+| Cluster | Basis |
+|---|---|
+| /fr/ | Emending the second `[pr]` of breit2019 p.252's fricative-liquid pair to `[fr]`. Lexically plausible, **not stated by the citation**. If the emendation is wrong, fricative+liquid has exactly one member, /fl/ |
+
+**D — DISPUTED ANALYSIS** (the sequences occur; whether they are onset clusters is contested):
+
+| Sequence | Words | Sources and the disagreement |
+|---|---|---|
+| /ɡw/ + l, r, n | *gwlad, gwlân, gwneud, gwraig* | [wiki-cy-phon §Other consonants]: "the letter ⟨w⟩ is not sounded as a vowel but is a consonant, realised by a rounding of the lips accompanying the /ɡ/ or /l, n, r/… of one syllable only" — i.e. secondary articulation, not a cluster. [morrisjones1913 §26 iii p.28]: "the initial combinations are practically gl, gr or gn pronounced with rounded lips… When the g is mutated away the initial is l, r or n with w as an on-glide". [jipa-north p.505] counts it a CCC onset with "a labialized or rounded /k/ [kʷ]" |
+| /χw/ | *chwech* /χweχ/ | [jipa-north p.503] (N); [morrisjones1913 §26 vi p.29] adds "In S.W. dialects the loose voiceless w (written *wh* or *hw*) prevails initially" **(South)**; and initial /χw/ is realised **[ʍ]** in the South [wiki-cy-phon §Consonants] — i.e. a single segment, not a cluster |
+| /sC(C)/ | *stryd, sgol* | See the CONFLICT below: [breit2019 pp.252–253] analyses the /s/ as a coda, not an onset member |
 
 Northern schema [jipa-north p.505] **(North)**: CC = obstruent + liquid (*tref*) or two obstruents
 (*stopio*); **sonorant + liquid onsets exist only as nasal-mutation output** (/pr/ → /mr/);
@@ -347,11 +397,11 @@ Structural constraints (STATED, all [breit2019]):
 only in recent English loans (*chocolate*, *chips*) [breit2019 pp.65–66], and [lapsyd-cy] omits
 them from the inventory.
 
-**ASSEMBLED onsets** (inference from the class statements plus lexical attestation — not a source
-list): stop+liquid /pl pr bl br tl tr dl dr kl kr gl gr/ (sources name only /tl pr/ explicitly;
-/bl gl br dr kl kr/ appear lexically; **/dl/ rests on the single word *dlos***); /gn/ via *gwneud*;
-/sm sn/ **pure inference, not stated anywhere**; /θr χr χl/ initial — **/χr/ and /χl/ are not
-attested in any source read and should not be carried forward without a check**.
+**E — ASSEMBLED / UNVERIFIED (unattested inference; do not encode without a check).** Generalising
+the stop+liquid class from the two stated members /tl pr/ to the full set /pl pr bl br tl tr dl dr
+kl kr ɡl ɡr/ is the digest author's inference. /pl br tr ɡr/ have no citation in this corpus at all;
+/sm sn/ are **stated nowhere** and are pure inference; /θr χr χl/ likewise — **/χr/ and /χl/ are
+not attested in any source read**. `(unattested)` throughout.
 
 Cj / Cw sequences: not resolved. [morrisjones1913 pp.37–41] treats them as **rising diphthongs**
 (nucleus material); [jipa-north p.505] treats /kw/ as an **onset cluster**. Both glides devoice
@@ -378,10 +428,28 @@ coda–onset sequences: compare *plant* [plant], *gardd* [ɡarð] with *plentyn*
 [ɡɛr.ði]" [breit-harris2014 p.1]; "consonant–liquid sequences provide no support for the claim that
 Welsh has complex codas" [p.2].
 
-**ASSEMBLED coda clusters** (my assembly from the two templates + attested words):
-sonorant+obstruent /rð/ *gardd*, /nt/ *plant*, /rf/ *corff*, /ŋk/ *llwnc*, /lt/ *gwallt*, /lχ/
-*golch*, /rθ/, /ns/, /vl/ *gwefl*; obstruent+obstruent /st/ *clust*, /sk/ *Pasg*, /sb/ *cosb*,
-/ɬt/ *gwallt*, /ft/; CCC /str/ *meistr, ffenestr*, /ŋkr/ *cancr*.
+**Coda clusters, by evidence level.** The two templates above license *classes*; the members below
+are individually sourced. Anything with no citation has been removed rather than kept unsourced.
+
+**B — LEXICALLY ATTESTED:**
+
+| Cluster | Word | Source |
+|---|---|---|
+| /rð/ | *gardd* [ɡarð] | [breit-harris2014 p.1] |
+| /nt/ | *plant* [plant] | [breit-harris2014 p.1] |
+| /st/ | *clust* /klɨstʰ/ **(North)** | [jipa-north p.506] |
+| /rf/ | *corff* | [wiki-cy-phon §Vowel length] |
+| /ɬt/ | *gwallt* — ⟨ll⟩ is /ɬ/, so this is **/ɬt/, not /lt/** | [wiki-cy-phon §Vowels]; [morrisjones1913 §110 ii] *bwyall* > *bwyallt* |
+| /sk/ | *Pasg* | [wiki-cy-phon §Vowels] |
+| /sb/ | *cosb* | [wiki-cy-phon §Vowels] |
+| /str/ | *meistr* /meistr/ **(North; Southern epenthesises)** | [jipa-north p.506] |
+| /ŋkr/ | *cancr* — but the source cites it precisely as a word that **is repaired**, [ˈkankar] | [wiki-cy-phon §Other consonants] |
+| /lχ/ | *golch* ['golx] | [wood1988 p.231] |
+| /ft sp st sk ɬt/ | named as the fricative+stop finals that condition Northern long vowels | [jipa-north p.504]; [iosad2017 p.8] |
+
+**Removed in revision 1:** /vl/ *gwefl* — *gwefl* does not occur in any held source, and the
+generic templates do not license that member. /lt/ *gwallt* — a transcription error for /ɬt/;
+Welsh ⟨ll⟩ is /ɬ/. /rθ/ and /ns/ — carried no cited word.
 Named explicitly for a different purpose — the fricative+stop finals that condition Northern long
 vowels — are /ft sp st sk ɬt/ [jipa-north p.504], [iosad2017 p.8].
 
@@ -401,8 +469,11 @@ vn vr ðl ðn ðr sl sn sr χl χn χr θl θn θr ml/) are **disallowed word-fi
 sequences are fine as onsets. Examples: *aml* → /a m a l/, *llwybr* → /ɬ uɨ b i r/, *cefn* →
 *cefen* [williams1994 §2.1, exx. 5–7].
 
-ASSEMBLED generalisation: **Southern word-final CC is restricted to falling or level sonority.**
-Rising-sonority finals are repaired (see §3) and surface as clusters only when a vowel-initial
+ASSEMBLED generalisation **(unattested inference — stronger than the source)**: Southern word-final
+CC tends to falling or level sonority. `williams1994` enumerates one repaired class (C + {l, n, r});
+it does not demonstrate that *every* rising-sonority final is repaired, nor that every falling or
+level one is licit. Treat as a heuristic, not a closed phonotactic rule.
+Rising-sonority finals in that class are repaired (see §3) and surface as clusters only when a vowel-initial
 suffix re-syllabifies them into an onset: *pobl* [pɔbɔl] but *poblog* [pɔblɔg]
 [breit-harris2014 p.1].
 
@@ -521,30 +592,62 @@ absolute coda duration values would still group /-m/ with the 'lenis' obstruents
 data — `parry1923`, 653 of the 751 rows in `attested.tsv` — describes adaptation from **Middle and
 Early Modern English**, mostly between roughly 1300 and 1700. Several of its rules are dead: /tʃ dʒ/
 are now borrowed as /tʃ dʒ/, not as /ʃ/; final /p t k/ are now kept, not voiced. Rows carry the
-donor period in the `note` column wherever Parry-Williams gives one. **Do not present a medieval
-adaptation as a modern rule.** Where the historical and the modern layer disagree, both are given
+donor period in the `note` column wherever Parry-Williams gives one, and carry `layer=historical`
+in the new ninth column (§7). **Do not present a medieval adaptation as a modern rule.** Where the historical and the modern layer disagree, both are given
 below, marked *(ME/early NE)* and *(modern)*.
 
 ### 3.1 Illicit onset cluster
 
-**#sC — prothesis, but weaker than it looks.**
+#### #sC — the prothetic *y-*, stated precisely
 
-    ∅ → y / # _ s{p, t, k}          (written form; historically also from Latin loans)
+This is the one place in the digest where three source statements, taken loosely, contradict each
+other: §2.2 lists /st sp sk sl sr/ as **licit onsets**, while §3 and §8 apply a **prothesis repair**
+to the same clusters — and the two source statements of the rule differ in **scope**. The
+contradiction dissolves once scope, medium and conditioning are separated. All three are stated by
+the sources; **none of them is chosen here.**
 
-*scarlet* > *ysgarlat*, *steward* > *ystiwart*, *standard* > *ystondardd*, *instrument* >
-*ysturmant* [parry1923 p.223 §84]. "As in native words and Latin loan-words, W developed an on-glide
-before s + stop initially. … The E loan-words fell in with the general practice."
+**(i) Scope — the two sources state the rule over different sets, and the difference is real.**
 
-**But, verbatim [parry1923 p.223 §84]: "In colloquial speech, however, this prosthetic y is hardly
-ever pronounced unless the accent falls on it."** And the same chapter is full of un-prothesised
-`sC-` loans: *sglont* 'slant', *sglefr* 'slide', *sglwtsh* 'slush', *sciabas* 'scabs'
-[parry1923 p.225 §86], *stont*, *stondart* [p.242 §116], *spogen* 'spoke' [p.241 §114], *slwt*
-[p.242 §115]. Modern loans do not prothesise at all: *slogan* [wiki-cy-orth §Foreign words],
-*stiwdio*, *sgwlmaster* [buczek2014 p.345].
-**Reading: #sC is pronounceable; the prothetic *y-* is a spelling and stress-conditioned
-phenomenon, not a live phonotactic repair.** [breit2019 pp.252–253] independently argues the /s/ of
-sC is a coda + empty nucleus, which would make the *ys-* spelling a fossilised writing of exactly
-that. See §8 for what this means for Irish /sp st sk sm sn sl sr/.
+| Source | Scope as printed | Verbatim |
+|---|---|---|
+| [morrisjones1913 §23 ii p.26] | **s + ANY consonant** | "Initial s followed by a consonant has developed a prosthetic y-" — with native *ysgol*, *ystrad* |
+| [parry1923 p.223 §84] | **s + STOP only** | "As in native words and Latin loan-words, W developed an on-glide **before s + stop** initially. … The E loan-words fell in with the general practice" |
+
+So the broad rule (s + {p t k m n l r …}) is Morris Jones's; the loan-adaptation rule Parry-Williams
+documents covers **only s + stop**. Parry-Williams's own examples are all s+stop: *scarlet* >
+*ysgarlat*, *steward* > *ystiwart*, *standard* > *ystondardd*, *instrument* > *ysturmant*.
+**The formal rule below is therefore given at s+stop scope, with the wider scope flagged.**
+
+    (historical, ME/early NE, orthographic)   ∅ → y / # _ s{p, t, k}
+    (Morris Jones's wider native scope)       ∅ → y / # _ s C
+
+**(ii) Medium — spelling and pronunciation come apart, and both sources say so in the same terms.**
+
+- [parry1923 p.223 §84]: "In colloquial speech, however, this prosthetic *y* is **hardly ever
+  pronounced unless the accent falls on it**."
+- [morrisjones1913 §23 ii p.26]: "In the spoken language it is **not heard except in words in which
+  it is accented**, as *ysgol, ystrad, ysbryd* … but *sgubor, strodur, sgrifen, stryd*." In Old
+  Welsh it was **not written at all** (*scipaur, strotur, scribenn*) and did not count as a syllable
+  in the oldest verse.
+
+**(iii) Conditioning — the vowel surfaces when it is stressed.** Both sources state the condition in
+those words. Neither states the derivation of *when* it will be stressed; the observation that
+Welsh's penultimate rule would place stress on the epenthetic vowel of a resulting trisyllable is
+the digest author's derivation and is marked `(unattested inference)` in §8.6.
+
+**Putting (i)–(iii) together, the three self-consistent encodings are:**
+
+| Encoding | Rule | Cost |
+|---|---|---|
+| **P — pronunciation-only** | #sC is a licit onset; never prothesise; spell ⟨sC⟩ | Matches all modern loans (*slogan*, *stiwdio*, *sgwlmaster* [wiki-cy-orth §Foreign words; buczek2014 p.345]) and Parry-Williams's own un-prothesised set (*sglont*, *sglefr*, *sglwtsh*, *sciabas* [p.225 §86], *stont*, *stondart* [p.242 §116], *spogen* [p.241 §114], *slwt* [p.242 §115]). Loses the *ysgol* look entirely |
+| **S — spelling-only** | #sC is a licit onset; spell ⟨ys-⟩; do not add a syllable or move stress | Reproduces the orthographic tradition without claiming a phonological repair. Creates a spelling⇄IPA mismatch the romanizer must handle deliberately |
+| **C — conditioned epenthesis** | Prothesise, and *pronounce* the vowel, only where it would carry stress | The only encoding faithful to both sources' stated condition, but it needs the stress derivation, which is unattested |
+
+Whichever is chosen, **§2.2 and §3.1 are not in conflict**: /sp st sk sl sr/ are licit onsets in
+every source, and the *y-* is an orthographic/stress phenomenon layered on top, not a phonotactic
+repair of an illicit cluster. [breit2019 pp.252–253] independently analyses the /s/ of sC as a coda
++ empty nucleus, which would make ⟨ys-⟩ a fossilised writing of exactly that structure — i.e.
+encoding **S**. See §8.6 for the Irish-side consequences.
 
 **#kn is licit — Welsh does not repair it.** "Examples of E kn- retained as **cn-** in W: *cnaf*
 'knave', *cnap*, *cnoc/cnocio* 'knock', *cnot* 'knot', *cnwpa* 'knob'" [parry1923 pp.220–221 §80],
@@ -799,19 +902,24 @@ the English final schwa was simply elided [buczek2014 p.347 n.8].
 
 ### 3.6 Other reported processes
 
-- **Metathesis** [parry1923 p.234 §100b]: *barrel* > *balir*, *mallard* > *barlat*, *alderman* >
+**Every bullet whose citation is `parry1923` is historical evidence, not a modern rule.** Each
+carries its period inline below; do not lift one into a rule file without it.
+
+- **Metathesis** *(ME/early NE)* [parry1923 p.234 §100b]: *barrel* > *balir*, *mallard* > *barlat*, *alderman* >
   *aldramon*, *instrument* > *ysturmant*, *ignorant* > *ingrant*.
-- **Dissimilation of /r … r/ to /r … l/** [parry1923 p.249 §129]: *corner* > *cornel*, *dresser* >
+- **Dissimilation of /r … r/ to /r … l/** *(ME/early NE)* [parry1923 p.249 §129]: *corner* > *cornel*, *dresser* >
   *dresal*, *razor* > *rasal*, *sulphur* > *syffal*.
-- **Medial provection** [parry1923 pp.232–233 §97]: voiced stops devoice next to /w l r/, next to
+- **Medial provection** *(ME/early NE)* [parry1923 pp.232–233 §97]: voiced stops devoice next to /w l r/, next to
   another consonant, and in geminates — *woodward* > *wtwart*, *tables* > *taplas*, *bedgown* >
   *betgwn*, *cog* > *cocio*, *trigger* > *tricar*.
-- **Front glide after velars** [parry1923 p.221 §81a]: `∅ → j / #{ɡ,k} _ V[+front]` — *guard* >
+- **Front glide after velars** *(late/NE, and dialectal — Caernarfonshire, i.e. NORTH Welsh, and
+  obsolescent: Parry-Williams reports it "as spoken by the older people")* [parry1923 p.221 §81a]: `∅ → j / #{ɡ,k} _ V[+front]` — *guard* >
   *giard*, *gate* > *giat*, *game* > *giam* (N. Wales, Carns., borrowed from an English stage that
   had the glide) — **and then generalised inside Welsh**, so older Carns. speakers say *ciartra* for
   *cartref*, *ciath* for *cath*, even before non-front vowels. **This is the closest thing in the
   corpus to a Welsh mechanism for a palatal onglide; see §8.**
-- **Haplology / syllable deletion** [parry1923 pp.231–232 §95a]: *papurau* > *pur(a)u*, *society* >
+- **Haplology / syllable deletion** *(colloquial, N. Wales for the Parry examples)*
+  [parry1923 pp.231–232 §95a]: *papurau* > *pur(a)u*, *society* >
   *seiat* (colloquial, N. Wales). Modern: syncope and apocope are used as an *alternative to stress
   shift* — 32 items where deleting a syllable makes the source-stressed vowel penultimate:
   *astronomy* > *astronmi*, *destiny* > *tesni*, *liquorice* > *licris*, *society* > *seiat*,
@@ -1045,6 +1153,42 @@ Southern rule above. Sample was 11 N / 5 S pooled.
   [Watkins 1967 via iosad2017 p.12], [ˈfɛːnɛst] 'window' (south-western) [iosad2017 p.49].
 - **"If length is preserved in the loan, it will naturally attract word-stress"**
   [Thomas 1997:72 via buczek2014 p.343].
+### 4.4 OPEN — rule ordering: source vowel length vs Welsh stress and length
+
+**This is a decision for the project, not something the sources settle, and the digest deliberately
+does not choose.** It is recorded here because §4.1, §4.3, §3.7 and §8.7 each state one side of it
+and the contradiction is invisible unless they are read together.
+
+The two source statements, both well attested:
+
+- **(A) Welsh assigns length after stress.** Long vowels occur only under stress [iosad2017 p.7];
+  a vowel is long only *while* stressed, so stress shift under suffixation lengthens the new penult
+  and shortens the old one — *gair* → *geiriad* → *geiriadur* [breit2019 pp.74, 76]. On this
+  reading, input length is **not** carried across: it is discarded, stress is assigned
+  penultimately, and Welsh's own length rule (§4.3) recomputes length from the following consonant.
+- **(B) Source length is preserved and attracts stress.** "in Welsh the long vowels are
+  characteristically found only in accented syllables, thus **if length is preserved in the loan, it
+  will naturally attract word-stress**" [Thomas 1997:72 via buczek2014 p.343]. Loans do keep length
+  in unexpected places (*gêm* [ˈɡeːm] [breit2019 p.78]) and do end up final-stressed because of it
+  (*apêl*, *brigâd*, *cocŵn*, *cysêt* [buczek2014 p.347]); and modern loans that kept a long vowel
+  had the **following consonant** lenited to license it (*clog* [wood1988 p.235]).
+
+Both describe real Welsh behaviour. They are not reconcilable as a single deterministic order, so
+the tool must pick one and record the choice as a project decision.
+
+| Order | Procedure | Consequence for Irish input |
+|---|---|---|
+| **L1 — Welsh-first** | discard Irish length → assign penultimate stress → apply §4.3's length rule from the following consonant | Fully deterministic; needs no new machinery. Irish long vowels vanish as a category, so */ɑː/* vs */a/* stops distinguishing outputs. Matches (A) and matches how a fully nativised loan behaves |
+| **L2 — length-first** | keep Irish long vowels → place stress on the (rightmost) long vowel → fill in remaining length by §4.3 | Matches (B) and the *apêl/brigâd* class. Produces final-stressed outputs whenever the Irish word ends in a long vowel — which for Irish input is common, so a large fraction of names would stop sounding penultimate-stressed, i.e. stop sounding Welsh |
+| **L3 — Welsh-first with consonant repair** | assign penultimate stress → **if** an Irish long vowel lands in a stressed syllable, lenite the following consonant to license it (§8.7); otherwise shorten | Preserves length where Welsh can, drops it where it cannot. Closest to the attested modern-loan pattern (*clog*), but that pattern is "usually" over a handful of examples (§8.7), and it has no answer for a long vowel in a **closed penult**, where Welsh has no attested repair at all |
+| **L4 — nativisation-grade switch** | apply L2 to a marked "foreign-flavoured" subset, L1 to the rest | Has direct source support — "Older loans tend to be fully assimilated, while more recent … loanwords normally retain their (nearly) English pronunciation" [buczek2014 p.339], and morphological integration regularises stress unconditionally [buczek2014 p.347]. Costs a per-word diacritic the generator must set |
+
+Knock-on effects to check whichever is chosen: (i) `/ə/` is barred from the final syllable
+[breit2019 p.60], so any order that leaves a reduced vowel there needs a repair; (ii) adding an
+epithet suffix re-runs stress and therefore re-runs length (§4.1); (iii) if L2 or L4 is chosen, the
+romanizer must emit the circumflex, since that is how Welsh writes exactly this situation
+[wiki-cy-orth §Diacritics].
+
 ## 5. Romanization
 
 Welsh orthography is largely phonemic and is the obvious romanization for output: an
@@ -1070,7 +1214,7 @@ alphabet [wiki-cy-orth §Letter names and sound values].
 | /θ/ | th | |
 | /ð/ | dd | **⟨dd⟩ = /ð/, not a long d** |
 | /s/ | s | |
-| /ʃ/ | si (before a vowel); sh in some loans | *Siapan*, *siaced* |
+| /ʃ/ | si (before a vowel); sh in some loans | *Siapan*, *siaced*. Rule still live: "si indicates /ʃ/ when followed by a vowel" [wiki-cy-orth n.1] *(modern)*. The *Siapan/siaced* spellings themselves are the **historical** layer, where ⟨si⟩ also absorbed /tʃ dʒ/ [parry1923 pp.225–227 §§86–88] *(ME/early NE)* |
 | /χ/ | ch | **not English ⟨ch⟩**; "similar to Scots *loch* but further back" |
 | /h/ | h | also the voicelessness diacritic in ⟨mh nh ngh⟩ |
 | /l/ | l | |
@@ -1079,9 +1223,9 @@ alphabet [wiki-cy-orth §Letter names and sound values].
 | /r̥/ | rh | voiceless trill |
 | /j/ | i (before a vowel) | |
 | /w/ | w (before a vowel) | |
-| /dʒ/ | j | recent; older loans use ⟨si⟩ = /ʃ/ instead |
-| /tʃ/ | ts (also ti- before a vowel) | *wats* 'watch' |
-| /z/ | (s) | not native; ⟨z⟩ nativised to ⟨s⟩ (*zero* > *sero*) |
+| /dʒ/ | j | *(modern)* ⟨j⟩ entered the alphabet in 1987: *garej*, *jeli*, *jîns* [wiki-cy-orth §Non-native letters, §History]. ⟨di⟩ before a vowel also = /dʒ/ [wiki-cy-orth n.1]. **Historical layer used ⟨si⟩ = /ʃ/ instead** [parry1923 pp.226–227 §88] *(ME/early NE)* — do not emit that for modern output |
+| /tʃ/ | ts (also ti- before a vowel) | *(modern)* *wats* 'watch', *tsips* [wiki-cy-orth n.1; breit2019 pp.65–66]. **Historical layer used ⟨si⟩ = /ʃ/** [parry1923 pp.225–226 §87] *(ME/early NE)* |
+| /z/ | (s) | ⟨z⟩ is not in the alphabet and is nativised to ⟨s⟩: *zero* > *sero* [wiki-cy-orth §Non-native letters] *(modern)*; absolute in the historical layer, "there is no z-sound in W" [parry1923 p.238 §110] *(ME/early NE)*. **But /z/ is retained in some modern loans**, *jîns* [dʒɪnz] [wiki-cy-orth §Letter names] |
 
 Voiceless nasals are written ⟨mh nh ngh⟩ [wiki-cy-orth n.2].
 
@@ -1181,6 +1325,20 @@ Notes for epithet building:
 
 `attested.tsv` in this directory, per `../ATTESTED-FORMAT.md`. **751 rows.**
 
+**One addition to the format (revision 1): a ninth column, `layer`.** The eight specified columns
+keep their order and positions, so a positional 8-column reader is unaffected. Values:
+
+| `layer` | Rows | Meaning |
+|---|---|---|
+| `historical` | 653 | Middle / Early Modern English → Welsh, from `parry1923`. **Evidence about Welsh, not a modern rule set.** The finer period (ME / early NE / NE / OE) and any dialect tag are in `note` |
+| `modern` | 93 | Modern loans and modern loan studies (`buczek2014`, `wood1988`, `wiki-cy-orth`, `bmj-mutations`, `breit2019`, `iosad2017`, `williams1983`, `grawunder2015`, `wiki-cy-phon`) |
+| `translit` | 5 | Transliteration/naming practice (`cy-wiki-arddull`) — editorial convention, not speech |
+
+**A modern generator should be validated against `layer=modern` (93 rows) and must not be validated
+against `layer=historical`**, which would demand medieval outputs (/tʃ dʒ/ → /ʃ/, final stop
+voicing, mutation back-formation, initial l/r fortition). Filter with
+`awk -F'\t' '$9=="modern"' attested.tsv`.
+
 Provenance mix:
 
 | Source | Rows | Kind |
@@ -1242,20 +1400,42 @@ secondary-articulation series is **labial**, not palatal: /lʷ nʷ rʷ/ "used in
 
 **Precedent: partial — strong for palatal *segments*, none for a palatalization *contrast*.**
 
-There is a large, uniform loan precedent, and it goes one way: **every foreign palatal collapses onto
-/ʃ/, written ⟨si⟩.**
-- E /tʃ/ → ⟨si⟩ = /ʃ/, the stop dropped entirely: "There is apparently no trace of the dental stop
-  which exists in the E pronunciation" — *sialc* 'chalk', *siambr* 'chamber', *siawns* 'chance',
-  *simnai* 'chimney' [parry1923 pp.225–226 §87].
-- E /dʒ/ → same: *Siac* 'Jack', *siaced* 'jacket', *Sion* 'John', *sinsir* 'ginger'
-  [parry1923 pp.226–227 §88].
-- ⟨si⟩'s value is stated explicitly: "The si (for sh) found in W has the value of E sh **or that of
-  s + i (consonantal)**" [parry1923 p.224 §86] — i.e. **the same digraph covers both /ʃ/ and /sj/.
-  Welsh already has an orthographic device for "consonant + palatal onglide".**
-- Still live: "The sequence *si* indicates /ʃ/ when followed by a vowel; similarly, *di* and *ti*
-  sometimes indicate /dʒ/ and /tʃ/ respectively when followed by a vowel" [wiki-cy-orth n.1]; and
-  implemented computationally for South Welsh, where "sI" (s + consonantal i) is output as /ʃ/
-  [williams1995 p.2].
+**There are two layers here and they give opposite answers. A modern generator must not be handed
+the historical one.**
+
+CONFLICT (period, not dialect): the ME/early-NE layer sends foreign palatals to /ʃ/; the modern
+layer keeps them as /tʃ dʒ/. Both are well attested. Neither is chosen here.
+
+**LAYER 1 — ME/early NE *(historical evidence only; do NOT encode as a modern rule)*.** In this
+layer, **initial** /tʃ/ and /dʒ/ generally went to ⟨si⟩ = /ʃ/:
+- E /tʃ/ → ⟨si⟩, the stop dropped: "There is apparently no trace of the dental stop which exists in
+  the E pronunciation" — *sialc* 'chalk', *siambr* 'chamber', *siawns* 'chance', *simnai* 'chimney'
+  [parry1923 pp.225–226 §87] *(ME/early NE)*.
+- E /dʒ/ → same, with one recorded exception (*dsiet* 'jet'): *Siac* 'Jack', *siaced* 'jacket',
+  *Sion* 'John', *sinsir* 'ginger' [parry1923 pp.226–227 §88] *(ME/early NE)*.
+- **Position matters even inside this layer**: final /dʒ/ went to /-s/, /-ts/ or /-ds/, not /ʃ/ —
+  *badge* > *baeds*, *page* > *paits*, *college* > *colas* [parry1923 p.245 §122] *(ME/early NE)*;
+  and later /tʃ/ loans show the dental: *maits*, *waets*, *twyts* [parry1923 pp.244–245 §121]
+  *(late/NE)*. So even "every initial palatal → /ʃ/" is a generalisation over one position in one
+  period.
+
+**LAYER 2 — modern *(this is the treatment a modern generator should be looking at)*.** /tʃ/ and
+/dʒ/ are **retained**, and in Southern Welsh /dʒ/ additionally has a **native** source:
+- "/tʃ, dʒ/ … have also become established in some dialects, **especially in South Welsh**, where
+  they are the result of palatalisation of /t, d/ preceding /i/, e.g. *'sgidiau* [sɡ̊ɪdʒɛ] 'shoes'"
+  [breit2019 p.62] **(South)** — i.e. in the target variety /dʒ/ is not even loan-restricted.
+- Modern loans keep the affricate and spell it ⟨j⟩ or ⟨ts⟩: *garej*, *jiráff*, *ffrij*, *jeli*
+  [ˈdʒɛlɪ], *jîns*, *tsips*, *wats* [wiki-cy-orth §Non-native letters, §Letter names, n.1;
+  breit2019 pp.65–66].
+- The ⟨si⟩ device nevertheless remains live for /ʃ/: "The sequence *si* indicates /ʃ/ when followed
+  by a vowel; similarly, *di* and *ti* sometimes indicate /dʒ/ and /tʃ/ respectively when followed
+  by a vowel" [wiki-cy-orth n.1]; implemented for South Welsh, "sI" → /ʃ/ [williams1995 p.2].
+
+**The orthographic device is period-independent and is the transferable part.** ⟨si⟩'s value is
+stated explicitly: "The si (for sh) found in W has the value of E sh **or that of s + i
+(consonantal)**" [parry1923 p.224 §86] — i.e. **the same digraph covers both /ʃ/ and /sj/. Welsh
+already has an orthographic device for "consonant + palatal onglide", and it survives into the
+modern orthography** [wiki-cy-orth n.1].
 
 **But where the donor had /Cj/ and no palatal, Welsh kept plain C + /ɪu/ and created nothing:**
 *nature* > *natur*, *adventure* > *antur*, *question* > *cwestiwn*, *picture* > *pictiwr*, *steward*
@@ -1333,8 +1513,12 @@ CONFLICT (repeated from §1, because it is load-bearing here): is Southern ⟨ch
 - [breit2019 pp.61–62]: "usually /x/ in South Welsh and /χ/ in North Welsh", but two sentences later
   "Most dialects have uvular [χ]".
 - [williams1995 p.1], the only direct Southern transcription in the corpus, prints **/χ/**.
-The PHOIBLE row has `χ`. **If Southern ⟨ch⟩ is velar [x], Irish /x/ is an exact match; if uvular, it
-is a near match. Either way no repair is needed — but the romanization is ⟨ch⟩ regardless.**
+The PHOIBLE row has `χ`. **If Southern ⟨ch⟩ is velar [x], Irish /x/ is an exact match; if uvular, a
+near one. "Either way no repair is needed" is a `(design inference)` from inventory fit — no source
+observes Irish /x/ being adapted into Welsh, and this corpus contains no observation of foreign /x/
+adaptation at all except the reverse case (English ⟨gh⟩ /x/ **retained** as Welsh ⟨ch⟩ in early
+loans: *dracht*, *fflicht*, *slachtar* [parry1923 pp.248–249 §128] *(ME/early NE)*). The
+romanization is ⟨ch⟩ on either reading.**
 
 **Irish /ç/: no coverage whatsoever.** No source in the directory lists [ç] in a Welsh inventory. The
 only palatal fricative Welsh has is /ʃ/.
@@ -1400,8 +1584,9 @@ essentially restricted to those positions in onset clusters where no voicing con
 are never in contrastive distribution" [breit2019 p.73]. Glides devoice the same way after a
 voiceless consonant: *chwerthin*, *clociau* [wiki-cy-phon §Diphthongs].
 
-**The loan precedent for creating them:** "Initial *l* and *r*, being now foreign to W as radical
-(unmutated) forms, were changed initially in W very often into **ll** … and **rh**"
+**The loan precedent for creating them** *(ME/early NE; explicitly receding by the late layer)*:
+"Initial *l* and *r*, being now foreign to W as radical (unmutated) forms, were changed initially in
+W very often into **ll** … and **rh**"
 [parry1923 pp.230–231 §95]. **But** this is optional and the later the loan the less likely: *lawnt,
 lili, lamp, larder, recorder, redi, rwbel* keep plain l-/r- [parry1923 §95], and modern *lamp,
 larum, letys, lwans* keep voiced [l] [wood1988 p.231]. **So this is a design choice with attestation
@@ -1414,33 +1599,35 @@ distinctively Welsh at a glance.
 |---|---|---|
 | /sp st sk sm sn sl sr/ | **Prothetic *y-*, but stress-conditioned and largely orthographic** | §3.1 |
 | /kn/ | **Permitted, kept** — *cnaf, cnap, cnoc, cnot, cnwpa*; "There is no trace in W borrowings of a *t* sound" | [parry1923 pp.220–221 §80]. This is also the rule under which the Irish loan *cnwc* < Ir. *cnoc* falls [wikt-cy-from-gle] |
-| /ɡn/ | **Permitted** — native *gnawd* 'customary' | [morrisjones1913, Pr.Kelt. *gnāto-] |
+| /ɡn/ | **Only via *gw-*.** No source states an initial /ɡn/ class. *gwneud* is the cited word, and its analysis is disputed (§2.2 level D). *gnawd* was cited in revision 0 from an etymological aside with no page; **that citation is withdrawn as unverifiable** | [morrisjones1913 §26 iii p.28] for *gwneud* only |
 | /mn/ | **Not attested either way** — no statement permitting or forbidding it, and no headword | `(unattested)` |
-| /bl br ɡl ɡr dr tr kr kl fl fr/ | **All permitted, no repair** — *brat, brechdan, broc, dringo, brolog, crand, grofft, fflanel*; native *glin, claddu, crydd, drych, blith* | [parry1923 §§78–79; wiki-cy-orth §Foreign words; morrisjones1913 passim] |
+| /bl/ | Attested — *blith* ['bliθ] [wood1988 p.230]; loan *blanket* > *planced* [parry1923 p.219 §78] *(ME/early NE)* | |
+| /ɡl/ | Attested — *glo* ['gloː] [wood1988 p.230]; *glou* 'quick' [bmj-mutations p.21] | |
+| /fl/ | **STATED class member** [breit2019 p.252]; loan *fflanel* [wiki-cy-orth §Foreign words] | |
+| /br ɡr dr tr kr kl fr/ | **NOT individually licensed by any class statement in this corpus.** Lexical support only, and thin: *brolog* < *prologue*, *grofft* < *croft*, *crand* < *grand* [parry1923 p.220 §79] *(ME/early NE)*; *tropio* < *drop* [p.219 §78]. Revision 0 cited these as "[morrisjones1913 passim]", which is not a citation; **withdrawn.** They are lexically plausible and almost certainly licit, but that is §2.2 level E, `(unattested)` | |
 | /tl dl/ | **Permitted but marginal** — *dlos* [dɫoːs] 'pretty' (a Southern exception where [ɫ] appears); /tl/ → [tl̥] is breit2019's standard example | [wiki-cy-phon §Other consonants; breit2019 p.73] |
 | /sr/ | Inherited Proto-Celtic *sr- gave Welsh **rh-** (Ir. *sruth* : W. *rhwd*). But that is sound change, not loan repair; a modern /sr/ falls under the s+C rule | [morrisjones1913, at OCR line 5663] |
 | /tʲ dʲ/ | Routed to /tʃ dʒ/ or /ʃ/ via the ⟨ti⟩/⟨di⟩/⟨si⟩ convention | §8.1 |
 
-**The s+C prothesis rule in full, because it is the one the tool will hit most often.** The rule is
-stated over *s + any consonant*, not just s + stop: "**Initial s followed by a consonant has
-developed a prosthetic y-** (written y, e, i, etc.), as in *ysgol* 'school'" — and it is native, not
-borrowed from Latin *iscola*, "since Corn., Bret., Ir. *scol* do not show it, and it appears in
-native words in W., as *ystrad*" [morrisjones1913 §23 ii p.26]. Loans follow suit
-[parry1923 p.223 §84].
+**The s+C prothesis rule: see §3.1, which states scope, medium and conditioning precisely and lays
+out the three self-consistent encodings (P / S / C).** The short form, for the Irish mapping:
 
-**But it is not obligatory, and both sources say so in the same terms:**
-- "In the spoken language it is **not heard except in words in which it is accented**, as *ysgol,
-  ystrad, ysbryd* … but *sgubor, strodur, sgrifen, stryd*" [morrisjones1913 §23 ii p.26]. In Old
-  Welsh it was not written at all (*scipaur, strotur, scribenn*) and did not count as a syllable in
-  the oldest verse.
-- "In colloquial speech, however, this prosthetic *y* is **hardly ever pronounced unless the accent
-  falls on it**" [parry1923 p.223 §84].
-
-**Reading: the prothetic vowel is a stress-driven epenthesis, surfacing when the penultimate-stress
-rule would place stress on it.** For a two-syllable Irish input beginning /sC/, prothesis would
-create a three-syllable word whose stress lands on the epenthetic vowel — which is exactly the
-condition under which it *is* pronounced. For a monosyllable it would not be. **This is a decision
-point, not a settled rule.**
+- The **scope** differs by source. Morris Jones states it over **s + any consonant**: "**Initial s
+  followed by a consonant has developed a prosthetic y-** (written y, e, i, etc.), as in *ysgol*
+  'school'" — native, not borrowed from Latin *iscola*, "since Corn., Bret., Ir. *scol* do not show
+  it, and it appears in native words in W., as *ystrad*" [morrisjones1913 §23 ii p.26]. The
+  loan-adaptation statement covers **s + stop only** [parry1923 p.223 §84] *(ME/early NE)*. So
+  Irish /sp st sk/ fall under both; **Irish /sm sn sl sr/ fall only under the wider native rule**,
+  for which there is no loan evidence at all.
+- It is **not obligatory in speech** in either source: "not heard except in words in which it is
+  accented, as *ysgol, ystrad, ysbryd* … but *sgubor, strodur, sgrifen, stryd*"
+  [morrisjones1913 §23 ii p.26]; "hardly ever pronounced unless the accent falls on it"
+  [parry1923 p.223 §84]. In Old Welsh it was not written at all and did not count as a syllable in
+  the oldest verse [morrisjones1913 §23 ii p.26].
+- **`(unattested inference)`** — the digest author's derivation, not a source statement: since
+  prothesis on a disyllabic /sC/-initial input yields a trisyllable whose penultimate stress lands
+  on the epenthetic vowel, the stress condition would be self-satisfying for exactly those inputs,
+  and not for monosyllables. No source derives this. **A decision point, not a settled rule.**
 
 Note the orthographic consequence: /sp sk/ are spelled ⟨sb sg⟩ in Welsh because /b d ɡ/ are devoiced
 in that context [wiki-cy-phon §Stops].
@@ -1475,9 +1662,15 @@ then:
   environment is preserved when the syllable structure of loanwords is adapted to it"
   [wood1988 p.235].
 
-**So: an Irish long vowel in a final stressed syllable is preserved by voicing/leniting the
-following consonant into the lengthening set.** That is the one clean, attested answer in this
-section.
+**So the precedent is: in modern loans that kept a source long vowel, the final consonant is
+*usually* lenited into the lengthening set.** Note carefully what that is and is not:
+Wood's wording is "**usually**", the corpus behind it is small (*clog* is his only worked example,
+with `morrisjones1913 §51 ii` independently adding *grâd* < *groat*), and it is a statement about
+**English loans into Welsh**, not an Irish→Welsh rule. It is the best-supported pattern in this
+section, but it is **a precedent, not a categorical mapping** `(unattested for Irish)`. The
+optionality word must survive into the rule file: an Irish long vowel in a final stressed syllable
+*may* be preserved by leniting the following consonant; it is not guaranteed to be, and Wood
+records the competing outcome (short vowel + geminate final) in the same passage.
 
 A long vowel in a **closed penult** has no attested repair: North Welsh is categorically short there,
 and the South at best half-long [iosad2017 pp.7–8; wiki-cy-phon §Vowels].
@@ -1523,8 +1716,13 @@ the Southern *dala/bola* vocalisation [morrisjones1913 §110 ii(2)] — unattest
 The sources say little about how Welsh handles donor-side alternations, but three facts bear on it:
 
 1. **Loans enter as unmutated radicals.** "the usual way of accommodating loanwords into Welsh"
-   [wood1988 p.231]. So an Irish lenited form should be un-lenited before adaptation, not carried
-   across as-is.
+   [wood1988 p.231]. **Read this precisely: it says a loan is fitted into the *Welsh* mutation
+   system by being assigned an unmutated *Welsh* radical. It says nothing about reversing
+   morphological alternations in the donor language.**
+   `(design decision, not a Welsh adaptation fact)` — whether Irish input should be normalised to
+   its radical (un-lenited, nominative) *before* it reaches the Welsh rules is a **source-side**
+   choice and belongs to the Irish digest, not here. No source in this corpus licenses it. It is
+   noted only because the Welsh-side fact is easy to over-read into it.
 2. **A vowel- or w- or l-/r-initial loan gets *reanalysed* as if it were already mutated**, and a
    new radical is back-formed: *honest* > *gonest*, *welt* > *gwalt*, *grand* > *crand*, *banner* >
    *maner* [parry1923 §§78, 81, 89, 93–95]. **Irish lenition outputs (/v w j h ɣ x/) are exactly the
@@ -1537,13 +1735,13 @@ The sources say little about how Welsh handles donor-side alternations, but thre
 
 ## 9. Open questions
 
-1. **Is the PHOIBLE variety actually Southern?** Llanwrtyd is in Powys, and `breit2019` groups
-   **Powyseg with North Welsh** — "Y Wyndodeg … and Y Bowyseg 'Powys-ish' **in the north**, and Y
-   Ddyfedeg and Y Wenhwyseg in the south", adding that Powyseg "is also often given the broad label
-   of **Mid Welsh**" [breit2019 pp.53–54]; [wiki-cy-lang §The four traditional dialects] likewise
-   lists Powyseg as north/central-eastern. Llanwrtyd is never named in any source file. The segment
-   list in the row is unambiguously Southern (no /ɨ/, eight diphthongs), so the *inventory* is safe;
-   but the **N/S tagging that runs through §2, §3, §4 and §8 may be pointed at the wrong dialect.**
+1. **Is the PHOIBLE variety actually Southern?** Two facts, and a gap between them. `breit2019`
+   pp.53–54 groups the *traditional dialect* **Y Bowyseg** with **North/Mid** Welsh; Llanwrtyd sits
+   in the modern *administrative county* of Powys. **No source connects the two**, and Llanwrtyd is
+   named in no source file. So this is not (yet) a dialect conflict — it is a gap. The row's segment
+   list is unambiguously Southern (no /ɨ/, eight diphthongs), so §1 is safe; but the **N/S tagging
+   running through §§2–4 and §8 rests on an assumption no source verifies**, and "Llanwrtyd is in
+   Powys" must not be used as evidence for Northern or Powyseg rules. See §0.
    This is the digest's largest unresolved issue.
 2. **No open source gives a licit onset or coda cluster list.** Hannahs 2013, Awbery 1984 and
    Czerniak 2015 are all closed. §2's cluster inventory is ASSEMBLED from class statements plus
