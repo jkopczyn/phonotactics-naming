@@ -67,3 +67,77 @@ nucleus by each rule file's `[syllable] nuclei` line:
 
 91 spellings − 15 renamed with 7 collisions = 84 segments − 11 diphthongs = **73 PHOIBLE rows**
 (54 consonants, 19 vowels).
+
+## Hand rows (Task 1b, plan I-30, I-34, I-37, I-41)
+
+40 rows, `source = hand:irish` (33) or `hand:target` (7), bringing the table to **113 rows**.
+Each is derived mechanically from an existing PHOIBLE row ("base") by applying the conventions
+below, in order, and nothing else. `class` follows the base. The plain dorsals `k ɡ x ɣ ŋ` are
+**not** modified (I-41): the broad/slender contrast on dorsals is carried by the `k/c ɡ/ɟ x/ç
+ŋ/ɲ` pairing.
+
+Conventions (applied in this order when a row needs more than one):
+
+| mark | features set |
+|---|---|
+| `ʲ` (and the palatals) | `front=+ back=- high=+` |
+| `ˠ` | `back=+ front=-` |
+| `◌̪` (U+032A) | `anterior=+ distributed=+` |
+| `ː` | `long=+ short=-` |
+| `ʼ` | `raisedLarynxEjective=+ constrictedGlottis=+` (unused so far) |
+| `ˤ` | `retractedTongueRoot=+ back=+` (unused so far) |
+| `ʰ` | `spreadGlottis=+` |
+
+Aliases copy their principal's vector exactly, so they are the only pairs of rows in the table
+with identical vectors (`g/ɡ`, `lˠ/l̪ˠ`, `l̠ʲ/lʲ`, `nˠ/n̪ˠ`, `n̠ʲ/nʲ`).
+
+| segment | source | base | applied |
+|---|---|---|---|
+| `pˠ` | hand:irish | `p` | `ˠ` |
+| `bˠ` | hand:irish | `b` | `ˠ` |
+| `t̪ˠ` | hand:irish | `t` | `ˠ`, `◌̪` |
+| `d̪ˠ` | hand:irish | `d` | `ˠ`, `◌̪` |
+| `fˠ` | hand:irish | `f` | `ˠ` |
+| `sˠ` | hand:irish | `s` | `ˠ` |
+| `mˠ` | hand:irish | `m` | `ˠ` |
+| `n̪ˠ` | hand:irish | `n` | `ˠ`, `◌̪` |
+| `l̪ˠ` | hand:irish | `l` | `ˠ`, `◌̪` |
+| `ɾˠ` | hand:irish | `ɾ` | `ˠ` |
+| `vˠ` | hand:irish | `v` | `ˠ` — Connacht medial allophone of `/w/` (irish digest §1.1) |
+| `pʲ` | hand:irish | `p` | `ʲ` |
+| `bʲ` | hand:irish | `b` | `ʲ` |
+| `tʲ` | hand:irish | `t` | `ʲ` |
+| `dʲ` | hand:irish | `d` | `ʲ` |
+| `fʲ` | hand:irish | `f` | `ʲ` |
+| `vʲ` | hand:irish | `v` | `ʲ` |
+| `mʲ` | hand:irish | `m` | `ʲ` |
+| `nʲ` | hand:irish | `n` | `ʲ` |
+| `lʲ` | hand:irish | `l` | `ʲ` |
+| `ɾʲ` | hand:irish | `ɾ` | `ʲ` |
+| `c` | hand:irish | `k` | `ʲ` convention (`high` was already `+`) |
+| `ɟ` | hand:irish | `ɡ` | `ʲ` convention |
+| `ç` | hand:irish | `x` | `ʲ` convention |
+| `ɲ` | hand:irish | `ŋ` | `ʲ` convention |
+| `lˠ` | hand:irish | `l̪ˠ` | alias, exact copy (I-30) |
+| `l̠ʲ` | hand:irish | `lʲ` | alias, exact copy (I-30) |
+| `nˠ` | hand:irish | `n̪ˠ` | alias, exact copy (I-30) |
+| `n̠ʲ` | hand:irish | `nʲ` | alias, exact copy (I-30) |
+| `g` (U+0067) | hand:irish | `ɡ` (U+0261) | alias, exact copy (I-34) |
+| `o` | hand:irish | `ɔ` | `tense=+` (equals `oː` minus length) |
+| `æ` | hand:irish | `a` | `front=+ low=+` (equals `æː` minus length) |
+| `õː` | hand:irish | `oː` | `nasal=+` |
+| `ʋ` | hand:target | `v` | `consonantal=- sonorant=+ approximant=+ delayedRelease=0` — the approximant pattern of PHOIBLE's `j w` (Dutch, digest §1) |
+| `tʃʰ` | hand:target | `tʃ` | `ʰ` (Georgian, digest §1.1) |
+| `e` | hand:target | `eː` | `long=-` (Cairene I-37, Georgian) |
+| `y` | hand:target | `yː` | `long=-` (Dutch nucleus `œy`) |
+| `œ` | hand:target | `øː` | `long=- tense=-` — no short `ø` row exists; `œ` is to `ø` as `ɛ` is to `e` (Dutch nucleus `œy`) |
+| `ɔː` | hand:target | `ɔ` | `ː` (Dutch/Welsh) |
+| `ɛː` | hand:target | `ɛ` | `ː` (Dutch/Welsh) |
+
+No consonant row carries `ː`: gemination is two identical segments everywhere (I-2).
+
+## Row count (updated)
+
+73 PHOIBLE + 40 hand = **113 rows** (86 consonants, 27 vowels). Test-covered by
+`tests/test_features_hand.py`, which also checks that all 64 segments used by
+`sources/irish/test-words.tsv` have a row.
