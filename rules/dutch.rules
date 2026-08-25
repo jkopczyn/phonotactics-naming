@@ -1,0 +1,374 @@
+# dutch.rules — the Belgian Standard Dutch target (plan Task 26; spec §7 "Dutch (Belgian)",
+# decisions 9.16–9.18). Every rule line cites sources/dutch/digest.md by section and line
+# ("digest §N line L"), or the bib key the digest itself cites, or a decision-register row
+# ("design: §9.n"). Tags follow spec §12.G / plan I-28–I-29: `%attested` only where the digest
+# asserts the rule; `%design` where it leaves the question open or states the opposite (with a
+# `contra` / `open` note); `%fallback` for the digest's own unsourced proposals.
+#
+# Split-source caveat (digest §0 lines 13–19): the inventory is Belgian [verhoeven2005]; the
+# phonotactics, processes and stress are Netherlandic-sourced and assumed to carry over.
+# Netherlandic symbols are normalized to the Belgian target per the §0 table (lines 26–41):
+# the labial approximant is written `ʋ` here (spec §7: w → ʋ), the voiceless glottal fricative
+# `h` (Verhoeven's chart has ɦ, line 34; `h` is the symbol every attested row and the Irish
+# input use), the velar fricatives keep their lexical /x/ vs /ɣ/ value (line 35), and the
+# diphthongs are `ɛi œy ɔu` (line 37).
+
+[meta]
+name = Dutch
+digest = sources/dutch/digest.md
+variety = Belgian Standard Dutch (Verhoeven 2005; PHOIBLE InvID 2169)
+epithet-ADJ = ACHTIG
+# epithet-NOUN is deliberately unmapped (I-39 / spec §12.H): Dutch has no nominal epithet affix.
+# R21: the digest licenses up to THREE word-final coronal obstruents as appendix (§2 line 158,
+# "up to three appendix positions restricted to coronal obstruents"); `appendix = s t` below is a
+# narrowing to the two the examples actually show (herfst, ernst, promptst), recorded here.
+appendix-narrowed = design: digest §2 line 158
+
+[inventory]
+# digest §1 — Verhoeven's chart [verhoeven2005 p.243]; parenthesised entries are marginal.
+# /r/ stands for the alveolar-or-uvular trill in free variation (§0 line 33). /ŋ/ is coda-only
+# (§2 line 166). /h/ = Verhoeven's ɦ (§0 line 34).
+p b t d k f v s z x ɣ h m n ŋ r l ʋ j
+# (c) (ɲ) from diminutives / loans, (ʃ) (ʒ) (g) loan phonemes, (ʔ) the vowel attack
+# [verhoeven2005 pp.244–245, digest §1 lines 83–90]; ɱ ʎ ʀ have no features.tsv row. `w` is the
+# foreign [w] of the loan onsets *pointe, etui, voile, moiré, nuit, bavarois* (§2 lines 184–187),
+# distinct from native ʋ (the two-labial ban *pʋ, line 196); Irish /w/ maps to ʋ, never here.
+# `ts` `tʃ` are the loan onsets of *tsaar*, *chip* (§2 line 184) and the coda of *muts* (line 262),
+# single segments under the I-34 canon; loan-only (§3.4 lines 513–514 adapt /tʃ dʒ/ to ʃ s ts).
+marginal: c ɲ ʃ ʒ ɡ ʔ w ts tʃ
+# digest §1 "Vowels" — twelve monophthongs [verhoeven2005 p.245] plus Delta 1, /ə/ (lines 108–114)
+i ɪ eː ɛ ɑ aː ɔ oː u ʏ yː øː ə
+# Members of the diphthongs ɛi œy ɔu (I-2: two segments, one nucleus — see [syllable] nuclei);
+# /y/ also stands alone in learned loans (*communie* [kɔ.ˈmy.ni], §3.4 line 522).
+œ y
+# Delta 2 — the loan vowels /ɛː ɔː/ (§1 line 116; /œː/ has no features.tsv row)
+marginal: ɛː ɔː
+# TRANSCRIPTION VARIANTS, not Belgian phonemes: the Netherlandic sources behind attested.tsv
+# write the A-class vowels /aː eː oː/ as `a e o` and WOLD writes /i u/ as `iː uː` (digest §0
+# lines 30–31, the normalization layer). The harness (I-25 Mode C) checks attested rows against
+# this inventory without applying that layer, so the variants are admitted here as marginals
+# (I-23: never chosen by the fallback; the [substitute] vowel table never produces them). Cf. I-37.
+marginal: a e o iː uː
+
+[classes]
+# I-41 / spec §12.J: the source-side series, copied verbatim into every target file.
+BROAD = pˠ bˠ t̪ˠ d̪ˠ fˠ sˠ w vˠ mˠ n̪ˠ l̪ˠ ɾˠ k ɡ x ɣ ŋ
+SLEN  = pʲ bʲ tʲ dʲ fʲ ʃ vʲ mʲ nʲ lʲ ɾʲ c ɟ ç j ɲ
+# Decision 9.16 (Cj in onsets) applies to the SLEN members whose plain counterpart can take a
+# following /j/ in a Dutch onset (digest §8.1 item 1, lines 883–890): not ʃ and j, which are
+# already palatal, and not ç ɟ, whose plain counterparts x ɣ may not precede /j/ (*xj *ɣj,
+# §2 line 199). A declared subset of SLEN, never a [C +front] bundle (spec §12.J).
+SLEN_J = pʲ bʲ tʲ dʲ fʲ vʲ mʲ nʲ lʲ ɾʲ c ɲ
+# The B-class (lax) vowels [taalportaal-nuclei §B-class vowels], digest §1 line 137
+LAX = ɑ ɛ ɪ ɔ ʏ
+
+[substitute]
+# ---- consonants that Dutch keeps: /ɣ x h ʃ/ need no line (digest §8.2 lines 917–919, 923–925;
+#      §3.4 line 515). /p f v m n l/ likewise.
+# ---- the palatal fricatives/glide first, so the Cj rule below never sees them
+ç -> x                                  %design   # design: §9.2 — no Belgian [ç]; *xj is banned (digest §2 line 199), so the slender velar fricative collapses to /x/
+ɟ -> ɣ                                  %design   # design: §9.2 — via /ɡ/ → /ɣ/ (digest §3.4 line 510: Flemish nativize foreign /g/ to /ɣ/); *ɣj is banned (§2 line 199)
+# ---- decision 9.16: slender C → C j in onsets (I-31 epenthesis form; a C before a vowel is an
+#      onset under maximal onset, §2 line 347). Cj is pronounceable and spellable in Dutch and has
+#      name-shaped precedent (*Pjotr, Tjeerd, Kjeld*), but no loan-adaptation source attests it.
+#      Only a slender C that is the whole onset, or the last of a coda + onset pair, takes the
+#      yod: Dutch has no CCj onset (digest §2 lines 178–187, 210–211), and no onset repair
+#      exists (§3.1), so a slender C inside an initial cluster (*Bríd* /bʲɾʲ-/) collapses.
+0 -> j / # SLEN_J _ V                   %design   # design: §9.16 (digest §8.1 lines 883–890, option (b) line 907)
+0 -> j / V SLEN_J _ V                   %design   # design: §9.16 (digest §8.1 lines 883–890, option (b) line 907)
+0 -> j / V C SLEN_J _ V                 %design   # design: §9.16 (digest §8.1 line 907); the C closes the preceding syllable, the Cj is the next onset
+j -> 0 / $ C C _ V                      %design   # design: §9.16 — the rule above cannot see a `$`: a morpheme-initial cluster (*Ní$Bhriain* /-$vʲɾʲ-/) would get a CCj onset Dutch lacks, so its yod is removed again
+# ---- slender → plain everywhere else (codas: option (b) "must collapse", §8.1 line 907)
+pʲ -> p                                 %design   # design: §9.16 (digest §8.1 line 907)
+bʲ -> b                                 %design   # design: §9.16 (digest §8.1 line 907)
+tʲ -> t                                 %design   # design: §9.16 (digest §8.1 line 907)
+dʲ -> d                                 %design   # design: §9.16 (digest §8.1 line 907)
+fʲ -> f                                 %design   # design: §9.16 (digest §8.1 line 907)
+vʲ -> v                                 %design   # design: §9.16 (digest §8.1 line 907)
+mʲ -> m                                 %design   # design: §9.16 (digest §8.1 line 907)
+nʲ -> n                                 %design   # design: §9.16 (digest §8.1 line 907); Belgian [ɲ] only before palatals (digest §8.2 line 922)
+lʲ -> l                                 %design   # design: §9.16 (digest §8.1 line 907); Belgian [lʲ̠] is allophonic (digest §8.2 line 922)
+ɾʲ -> r                                 %attested # digest §8.2 line 921: Irish /ɾˠ ɾʲ/ both land on /r/ [verhoeven2005 p.245]
+ʃ -> s / _ C                            %design   # design: §9.1 — Irish slender /s/ in a cluster (*scéal* /ʃc-/, *stríoc* /ʃtʲ-/) lands on the plain s-clusters the digest calls licit as-is (§8.4 line 998: /sp st sk sm sn sl/); word-final /ʃ/ is kept (§3.4 line 515)
+c -> k                                  %design   # design: §9.16 (digest §8.1 line 907); [c] is only a diminutive allophone (digest §1 line 84)
+ɲ -> n                                  %design   # design: §9.16 (digest §8.1 line 907); [ɲ] is allophonic (digest §1 line 85)
+# ---- broad → plain. Digest §8.1 line 903: every broad/slender option is "(design fallback) —
+#      nothing here is attested"; velarization survives only as the allophonic Belgian [lˠ]
+#      (line 896). Hence %design, not the plan table's %attested (global tagging constraint).
+pˠ -> p                                 %design   # design: §9.1 (digest §8.1 line 903)
+bˠ -> b                                 %design   # design: §9.1 (digest §8.1 line 903)
+t̪ˠ -> t                                 %design   # design: §9.1 (digest §8.1 line 903)
+d̪ˠ -> d                                 %design   # design: §9.1 (digest §8.1 line 903)
+fˠ -> f                                 %design   # design: §9.1 (digest §8.1 line 903)
+sˠ -> s                                 %design   # design: §9.1 (digest §8.1 line 903)
+vˠ -> v                                 %design   # design: §9.1 (digest §8.1 line 903)
+mˠ -> m                                 %design   # design: §9.1 (digest §8.1 line 903)
+n̪ˠ -> n                                 %design   # design: §9.1 (digest §8.1 line 903)
+l̪ˠ -> l                                 %design   # design: §9.1 (digest §8.1 line 903); Belgian postvocalic /l/ is velarized anyway (digest §8.2 line 922)
+ɾˠ -> r                                 %attested # digest §8.2 line 921 [verhoeven2005 p.245]
+w -> v / V _                            %design   # design: irish/digest.md §1.1 [wiki-irish-phonology §Allophones] — Connacht non-initial [vˠ] of /w/ (*Siobhán*, *dubh*); Dutch admits a coda glide only after a front A-class vowel and ⟨w⟩ is never final (digest §2 lines 330–332, §5 line 751)
+w -> ʋ                                  %attested # digest §0 line 32 (normalization layer) [verhoeven2005 p.245]: the labial approximant
+ʋ -> v / # _ l                          %design   # design: digest §8.4 line 1008 open — lenited /bl ml/ give /wl/; Dutch has native /ʋr/ (§2 line 182) but no /ʋl/, and /vl/ (*vlag*) is the nearest native onset
+ɡ -> ɣ                                  %design   # design: digest §3.4 line 510 measured — Flemish /ɣ/ for foreign /g/ (baguette 63–88%, spaghetti 100%); [k] 0/96; the digest's own CONFLICT (line 544) is not decided
+ŋ -> n / # _                            %design   # design: digest §8.2 line 926 open — /ŋ/ is never an onset (§2 line 166) and Irish initial /ŋ/ "has no Dutch landing site at all"
+# ---- vowels: the digest's own tense/lax proposal (§3.6 line 602 "proposed policy, not a
+#      sourced rule"; §8.3 line 930 "the whole of this subsection is (design fallback)") → %fallback
+iː -> i                                 %fallback # digest §8.3 line 939 (Dutch /i/ tense but short)
+ɪ -> ɪ                                  %fallback # digest §8.3 line 940
+uː -> u                                 %fallback # digest §8.3 line 947
+ʊ -> ʏ                                  %fallback # digest §8.3 line 948 open — /ʏ/ or /ɔ/; /ʏ/ is the landing site the loan data attest (*bus* [bʏs])
+eː -> eː                                %fallback # digest §8.3 line 941
+ɛ -> ɛ                                  %fallback # digest §8.3 line 942
+aː -> aː                                %fallback # digest §8.3 line 943
+a -> ɑ                                  %fallback # digest §8.3 line 944
+oː -> oː                                %fallback # digest §8.3 line 945
+ɔ -> ɔ                                  %fallback # digest §8.3 line 946
+o -> ɔ                                  %fallback # digest §8.3 line 946 (the user's transcriptions write short /ɔ/ as `o`, cf. *Lasairchos* line 1071)
+# ---- §3.4 attested loan substitutions for segments that reach this file from non-Irish input
+#      (the Mode E attested rows are English loans): the table's sourced rows only.
+θ -> t                                  %attested # digest §3.4 line 511 [loan-posthumus1988-uitspraak §repertoire] *thinner* → *tinner*
+ð -> d                                  %attested # digest §3.4 line 512 [loan-posthumus1988-uitspraak §aanpassingsrepertoire] *the* → *de*
+æ -> ɛ                                  %design   # design: digest §3.4 line 539 — "for a fully nativizing strand, /æ/ → /ɛ/. Not decided here"
+e ɪ -> eː                               %attested # digest §3.4 line 519 [loan-vandijk-toename pp.24,32] English /eɪ/ → Belgian /eː/ (*tape* [tep])
+o ʊ -> oː                               %attested # digest §3.4 line 520 [loan-vandijk-toename pp.24,25] English /oʊ/ → /oː/ (*show* [ʃo])
+e -> ɛ                                  %attested # digest §7 attested.tsv *sexy* [sɛksi], *checken* [tʃɛkə] [loan-vandijk-toename pp.26,33]: English /e/ → /ɛ/
+# /ə/ → /ə/ is a no-op: direct (digest §8.3 line 949, %attested), subject to Dutch's own schwa
+# restrictions (never stressed — see [stress]).
+# ---- Irish diphthongs (I-2: two segments; Dutch licenses none of them as nuclei)
+ə i -> ɛ i                              %design   # design: digest §8.3 line 986 open — Dutch /ɛi/ (*lei* [lɛi]) is the nearest segment [verhoeven2005 p.245]
+ə u -> ɔ u                              %design   # design: digest §8.3 line 986 open — Dutch /ɔu/ (*lauw* [lɔu])
+i ə -> i                                %design   # design: digest §8.3 line 979 open, route (ii): collapse to the tense monophthong, losing the offglide
+ɪ ə -> i                                %design   # design: digest §8.3 line 979 open, route (ii); the user's *Ciara* row prints the diphthong [ɪə] (irish test-words)
+u ə -> u                                %design   # design: digest §8.3 line 979 open, route (ii)
+
+[syllable]
+# digest §2 "Maximal template" (line 145: onset ≤ 3, first = /s/ when three) and "Resolution to
+# encode" (line 158: rhyme coda ≤ 2 plus a coronal-obstruent appendix). One nucleus (spec §12.B).
+template = (C)(C)(C)N(C)(C)
+nuclei   = ɛi œy ɔu
+# Onsets (spec §12.D: complete, singletons included). Singletons: every consonant except /ŋ/
+# (§2 line 166). CC: the digest's exhaustive lists, native (lines 178–182, 30 entries) and loan
+# (lines 183–187, 27 entries, of which `ts` *tsaar* and `tʃ` *chip* are single segments under the
+# I-34 canon). CCC: lines 210–211 (4 native + 3 loan). NORM: the Belgian /ɣ/-initial values of the
+# Netherlandic-printed `xl xr xn` (*glas, groen, gnoe*), per §0 line 35 and §8.4 line 999 — the
+# printed x-clusters stay licit too (*chloor*, and the Irish lenition clusters /xl xr xn/).
+# DESIGN: the Cj onsets decision 9.16 creates from slender consonants (digest §8.1 line 888:
+# *Pjotr, Tjeerd, Kjeld*; the loan matrix already has pj kj fj vj lj).
+onsets   = p b t d k f v s z x ɣ h m n r l ʋ j c ɲ ʃ ʒ ɡ ʔ w pl pr bl br tʋ tr dʋ dr kʋ kl kr kn fl fr fn vl vr sl sm sn sf sx sp st sk zʋ xl xr xn ʋr pj pn pf ps pt pw ts tʃ tw kj ks ɡʋ ɡl ɡr fj vj vw sʋ sr ʃʋ ʃl ʃm ʃn mw nw lj rw spl spr str sxr skl skr skʋ ɣl ɣr ɣn bj tj dj mj nj rj
+onsets-tier = pl:NATIVE pr:NATIVE bl:NATIVE br:NATIVE tʋ:NATIVE tr:NATIVE dʋ:NATIVE dr:NATIVE kʋ:NATIVE kl:NATIVE kr:NATIVE kn:NATIVE fl:NATIVE fr:NATIVE fn:NATIVE vl:NATIVE vr:NATIVE sl:NATIVE sm:NATIVE sn:NATIVE sf:NATIVE sx:NATIVE sp:NATIVE st:NATIVE sk:NATIVE zʋ:NATIVE xl:NATIVE xr:NATIVE xn:NATIVE ʋr:NATIVE pj:LOAN pn:LOAN pf:LOAN ps:LOAN pt:LOAN pw:LOAN ts:LOAN tʃ:LOAN tw:LOAN kj:LOAN ks:LOAN ɡʋ:LOAN ɡl:LOAN ɡr:LOAN fj:LOAN vj:LOAN vw:LOAN sʋ:LOAN sr:LOAN ʃʋ:LOAN ʃl:LOAN ʃm:LOAN ʃn:LOAN mw:LOAN nw:LOAN lj:LOAN rw:LOAN spl:NATIVE spr:NATIVE str:NATIVE sxr:NATIVE skl:LOAN skr:LOAN skʋ:LOAN ɣl:NORM ɣr:NORM ɣn:NORM bj:DESIGN tj:DESIGN dj:DESIGN mj:DESIGN nj:DESIGN rj:DESIGN
+# Codas: digest §2 "Coda clusters" Tables 1–4 (lines 244–264), read as UNDERLYING forms (line 240):
+# the voiced obstruents are licit lexically and the [repair] final-devoicing rule (§3.5) makes them
+# surface voiceless. Singletons: every consonant except /h/ (line 324) and the onset-only marginals.
+# Sonorant+sonorant (line 244), liquid+obstruent (247–249), nasal+homorganic stop (256–258; `md`
+# *hemd* surfaces [mt]), obstruent+obstruent (261–263), glide+coronal (332). Banned: *ln *lŋ *rŋ *rl
+# (245), *lb *rb (250), *mb *ŋɡ (258–259), nasal+fricative (259).
+codas    = p b t d k f v s z ʃ ʒ x ɣ m n ŋ l r j ʋ lm rm rn lf lv ls lz lx lɣ lp lt ld lk rf rv rs rz rx rɣ rp rt rd rk mp nt nd ŋk md mt pt ps ts kt ks ft sp st sk xt jt js
+# Word-final coronal-obstruent appendix (§2 lines 158–161, 231–234): herfst = rf + st. Narrowed to
+# two positions — see [meta] appendix-narrowed.
+appendix = s t
+domain   = word
+# The lists are exhaustive and themselves contain sonority-violating members (pt, kt, sp sk st,
+# §2 line 265), so the generic scale is off; the lists decide. (design)
+sonority = off
+# (a) The tense-vowel / voiceless-fricative pact (§2 lines 280–301): a long vowel may not be
+# followed by /x f s/ — word-finally (line 307: *bách*) or before a vowel (the source's own
+# examples *heuvel vezel vogel*, line 284). Before another obstruent the voicing repair would
+# collide with §3.5 fricative devoicing (*strafzaak*), so that shape is left alone. /i u/ are
+# tense but short (line 939) and are not caught: the digest's statement is over long vowels
+# (line 307 "Vːx Vːf Vːs"). Schwa + /x/ is licit (exception 4, line 295: *jarig*).
+bans = [V +long] {x f s} #
+bans = [V +long] {x f s} V
+# (b) Kager & Pater *[Vː]CC[-coronal] (§2 lines 310–321): banned when the cluster closes the
+# syllable; a final coronal appendix escapes (*taart*), and a following onset weakens it (line 318).
+bans = [V +long] C [C -coronal] #
+bans = [V +long] C [C -coronal] .
+# /ŋ/ only after a B-class vowel (§2 lines 326–329) [taalportaal-coda-cooccurrence-restrictions]
+bans = [V +long] ŋ
+
+[repair]
+# No onset-cluster repair: "no adult loan repair for an illicit initial cluster is attested in
+# any source" (digest §3.1 line 423); loans keep the cluster and are heard as foreign (line 427).
+# An illicit onset therefore stays marked and the word is flagged UNREPAIRED — except the Irish
+# mutation products handled below (eclipsis nasal + sonorant, lenited h + sonorant), which have
+# no Dutch shape at all.
+# ---- the eclipsis nasal before a sonorant (Irish /mr ml nr nl/ from *mbláth, mná, ndroim,
+#      nglúin*): sonorant + sonorant onsets are "essentially banned", only /ʋr/ is native (digest
+#      §8.4 lines 1008–1011; §2 line 192), and §3.1 attests no adult repair — its only options are
+#      "delete a member" (line 435, child-language evidence) or keep the cluster and stay
+#      UNREPAIRED. The prefix nasal is dropped and the stem-initial sonorant kept.
+NAS -> 0 / # _ [C +consonantal +sonorant] %design   # design: digest §3.1 line 435 open; §8.4 line 1010 ("delete a member … not settled by these sources")
+# ---- hiatus resolution (digest §2 lines 368–381) [taalportaal-hiatus-resolution §readmore ex.2]:
+#      a transitional glide agreeing with the first vowel, which is always A-class; none after /a/
+#      or schwa (case 4). Case 3 ([ɥ] after /œy/) has no features.tsv row. Applying the rule to
+#      Irish input (*Eoghan* /oːə/) is the digest's route (i) for hiatus, line 979–985 — design.
+0 -> j / {i eː} _ V                     %design   # design: digest §2 line 373 case 1 (*hiaat* [hijat]); §8.3 line 985 "applying it to Irish input is not [sourced]"
+0 -> ʋ / {u oː} _ V                     %design   # design: digest §2 line 375 case 2 (*Ruanda* [ruʋanda]); §8.3 line 985
+# ---- /ŋɡ/: *ŋg is banned in a coda (digest §2 line 259, only loan *aplomb*-type exceptions);
+#      Dutch ⟨ng⟩ is /ŋ/ alone (§5 line 751), so the Irish /ŋɡ/ of *long* loses its stop.
+ɣ -> 0 / ŋ _                            %design   # design: digest §2 line 259 open — *ŋɡ banned; ⟨ng⟩ = /ŋ/ (§5 line 751)
+# ---- degemination within the prosodic word: obligatory (digest §2 lines 349–356, *eet* /et+t/ →
+#      [et], *grootte* → [ˈɣrotə]) [taalportaal-degemination §quickinfo]. Repeated segments (I-2).
+p p -> p                                %attested # digest §2 lines 353–355 [taalportaal-degemination §readmore ex.1]
+b b -> b                                %attested # digest §2 lines 353–355 [taalportaal-degemination §readmore ex.1]
+t t -> t                                %attested # digest §2 lines 353–355 [taalportaal-degemination §readmore ex.1] *eet*, *grootte*
+d d -> d                                %attested # digest §2 lines 353–355 [taalportaal-degemination §readmore ex.1] *gevoed*
+k k -> k                                %attested # digest §2 lines 353–355 [taalportaal-degemination §readmore ex.1]
+f f -> f                                %attested # digest §2 lines 353–355 [taalportaal-degemination §readmore ex.1]
+v v -> v                                %attested # digest §2 lines 353–355 [taalportaal-degemination §readmore ex.1]
+s s -> s                                %attested # digest §2 lines 353–355 [taalportaal-degemination §readmore ex.1]
+z z -> z                                %attested # digest §2 lines 353–355 [taalportaal-degemination §readmore ex.1]
+x x -> x                                %attested # digest §2 lines 353–355 [taalportaal-degemination §readmore ex.1]
+ɣ ɣ -> ɣ                                %attested # digest §2 lines 353–355 [taalportaal-degemination §readmore ex.1]
+m m -> m                                %attested # digest §2 lines 353–355 [taalportaal-degemination §readmore ex.1]
+n n -> n                                %attested # digest §2 lines 353–355 [taalportaal-degemination §readmore ex.1]
+l l -> l                                %attested # digest §2 lines 353–355 [taalportaal-degemination §readmore ex.1] *onmiddellijk*
+r r -> r                                %attested # digest §2 lines 353–355 [taalportaal-degemination §readmore ex.1]
+j j -> j                                %attested # digest §2 lines 353–355 [taalportaal-degemination §readmore ex.1]
+ʋ ʋ -> ʋ                                %attested # digest §2 lines 353–355 [taalportaal-degemination §readmore ex.1]
+ʃ ʃ -> ʃ                                %attested # digest §2 lines 353–355 [taalportaal-degemination §readmore ex.1]
+# ---- final devoicing, an active rule: /b d v z ɣ/ → [p t f s x] syllable-finally (digest §3.5
+#      lines 555–562; *hand* [hɑnt], *krabt* [krɑpt]) [taalportaal-final-devoicing §quickinfo].
+#      Three environments: word end, syllable end, and before a voiceless consonant (*krabt*).
+{b d v z ɣ} -> [-voice] / _ #           %attested # digest §3.5 lines 560–561 [taalportaal-final-devoicing §quickinfo] *hand* [hɑnt]
+{b d v z ɣ} -> [-voice] / _ .           %attested # digest §3.5 line 560 (syllable-final, not merely word-final)
+{b d v z ɣ} -> [-voice] / _ [C -voice]  %attested # digest §3.5 line 562 *krabt* [krɑpt], *broeds* [bruts]
+# ---- Irish /h/ where Dutch has no place for it: never in a coda (digest §2 line 324, §8.2 line
+#      919 open — delete / resyllabify / substitute x or ɣ), never in a cluster (§2 line 171).
+h -> x / _ #                            %design   # design: digest §8.2 line 919 open — substitute /x/ (a licit coda; the pact then voices it after a long vowel)
+h -> x / _ .                            %design   # design: digest §8.2 line 919 open
+h -> 0 / # _ C                          %design   # design: digest §2 line 171 open — "/h/ never enters a cluster"; a lenited /tr sl sn/ (hr hl hn) drops the h
+# ---- ban (b) and the /ŋ/ ban: lax the vowel (digest §8.3 lines 964–966, "French *calme* → *kalm*
+#      [kɑlm] is the attested precedent" [kager-pater2012 p.6; wold]; §8.2 line 926 by analogy).
+aː -> ɑ / _ C [C -coronal] #            %design   # design: digest §8.3 line 964 open (lax the vowel; *kalm*)
+eː -> ɛ / _ C [C -coronal] #            %design   # design: digest §8.3 line 964 open
+oː -> ɔ / _ C [C -coronal] #            %design   # design: digest §8.3 line 964 open
+yː -> ʏ / _ C [C -coronal] #            %design   # design: digest §8.3 line 964 open
+aː -> ɑ / _ C [C -coronal] .            %design   # design: digest §8.3 line 964 open
+eː -> ɛ / _ C [C -coronal] .            %design   # design: digest §8.3 line 964 open
+oː -> ɔ / _ C [C -coronal] .            %design   # design: digest §8.3 line 964 open
+yː -> ʏ / _ C [C -coronal] .            %design   # design: digest §8.3 line 964 open
+aː -> ɑ / _ ŋ                           %design   # design: digest §8.2 line 926 open — /ŋ/ after a long vowel: lax the vowel
+eː -> ɛ / _ ŋ                           %design   # design: digest §8.2 line 926 open
+oː -> ɔ / _ ŋ                           %design   # design: digest §8.2 line 926 open
+yː -> ʏ / _ ŋ                           %design   # design: digest §8.2 line 926 open
+# ---- ban (a): decision 9.18, voice the fricative (digest §8.3 line 971 option (ii), §9 item 5
+#      line 1107; *vogel* /voɣəl/ is the tense + /ɣ/ pattern). Ordered AFTER final devoicing so a
+#      voiced fricative it creates word-finally survives the pass (the digest's alternatives —
+#      lax the vowel, accept — are one line each to swap in).
+x -> ɣ / [V +long] _ #                  %design   # design: §9.18 (digest §8.6 line 308; §8.3 line 971)
+f -> v / [V +long] _ #                  %design   # design: §9.18 (digest §8.3 line 971)
+s -> z / [V +long] _ #                  %design   # design: §9.18 (digest §8.3 line 971)
+x -> ɣ / [V +long] _ V                  %design   # design: §9.18 (digest §2 line 284 *vogel*)
+f -> v / [V +long] _ V                  %design   # design: §9.18 (digest §2 line 284 *heuvel*)
+s -> z / [V +long] _ V                  %design   # design: §9.18 (digest §2 line 284 *vezel*)
+# ---- schwa epenthesis: ∅ → ə / C1 _ C2 in a complex coda, C1 = /l r/, C1 C2 non-homorganic
+#      (digest §3.2 lines 448–450) [taalportaal-schwa-epenthesis-deletion §quickinfo]. Blocks:
+#      homorganic C1 C2 (*hals*, line 465) and C2 = coronal obstruent /s t/ (*hart*, line 467 —
+#      the appendix effect, line 469: *herfst* [hɛr(ə)fst] but never *[hɛrfəst]). /r/ + /n/ is
+#      NOT homorganic (*urn*, *hoorn*, line 458). Tautosyllabic only (line 454): C2 must close the
+#      syllable or be followed by an appendix coronal, never begin the next onset (*Lasairchos*,
+#      line 1083). Written last, as the digest orders it (§8.6 line 1044: on the output coda).
+0 -> ə / LIQ _ [C -coronal] #           %attested # digest §3.2 lines 448–458 [taalportaal-schwa-epenthesis-deletion §quickinfo ex.1] *kalm melk help harp elf werk alg erg*
+0 -> ə / LIQ _ [C -coronal] .           %attested # digest §3.2 lines 448–458, tautosyllabic (line 454) [devoic-schwa-mpi §Introduction]
+0 -> ə / LIQ _ [C -coronal] {s t}       %attested # digest §3.2 line 457/470 *herfst* [hɛr(ə)fst] — R20b: a POSITIVE example
+0 -> ə / r _ n #                        %attested # digest §3.2 line 458 *urn* [ʏr(ə)n], *hoorn* [hor(ə)n] — /r/ /n/ not homorganic (line 460)
+
+[stress]
+# Decision 9.17: re-stress by the Dutch procedure. The procedure is the digest's own construction
+# (§4 lines 671–687, "constructed by this digest from the tendencies above, not stated by any
+# source"); the digest's OPEN DECISION on precedence (lines 704–726) is resolved by §9.17
+# (alternative: keep-source). design: §9.17
+procedure = dutch-weight
+window = 3                              # digest §4 line 642: three-syllable window (strong) [taalportaal-stress-three-syllable-window]
+
+[epithets]
+# digest §6 table (lines 821–833). Attachment conditions are the table's, written around the
+# affix at the `$` join. Every join is word-final (`_ #`).
+# row 8: -achtig 'N-like', non-cohering, devoicing-triggering (*rood* → *roodachtig* [rotaxtəx])
+#   [booij2014-word-formation p.13; taalportaal-final-devoicing Tables 2–3]
+ACHTIG = ɑ x t ə x / $ _ #
+# row 8: -ig, cohering ('-y'; *blauw* → *blauwig*) [booij2014-word-formation p.13]; surfaces [əx]
+IG = ə x / $ _ #
+# rows 1–5: the diminutive allomorphs [booij2014-word-formation p.14; taalportaal-nasal-assimilation
+#   §Nasal assimilation and the diminutive morpheme (Trommelen 1984:8); taalportaal-coda-cooccurrence-restrictions Table 6]
+JE = j ə / [C -sonorant] $ _ #
+TJE = t j ə / {aː eː oː yː øː i u y ə} {n l r j ʋ} $ _ #
+TJE_V = t j ə / V $ _ #
+PJE = p j ə / {aː eː oː yː øː i u y ə} m $ _ #
+ETJE = ə t j ə / LAX {m n l r ŋ} $ _ #
+KJE = k j ə / ɪ ŋ $ _ #
+
+[respell]
+# digest §5 "Phoneme → spelling" (lines 747–774) [wiki-nl-orthography §Sound to spelling
+# correspondences] and "The doubling algorithm" (lines 776–788), stated as the digest states it:
+# 1. a vowel in an open syllable is long, in a closed syllable short; 2. a long vowel in a closed
+# syllable doubles the vowel letter (*maan*), in an open syllable is written single (*ma-nen*);
+# 3. a short vowel before a single intervocalic consonant doubles the consonant letter (*lat-ten*);
+# 4. simplest representation: never a double vowel in an open syllable, never a double consonant
+# word-finally or next to another consonant; 5. double consonant letters are not long consonants;
+# 6. compound members are spelled as if separate (*dag-arbeider*) — here: a long vowel keeps its
+# double letter when its syllable's consonant has crossed a `$` into the suffix (*roodachtig*).
+# Final devoicing is written phonetically for names (line 790–794: "Recommend phonetic
+# spelling for names"): final v z → f s.
+# ---- consonants (line 749–752)
+ɣ -> "g"                                %attested # digest §5 line 749 [wiki-nl-orthography §Sound to spelling correspondences] (Belgian *zachte g*)
+x -> "ch"                               %attested # digest §5 line 750 [wiki-nl-orthography §Sound to spelling correspondences]
+ʋ -> "w"                                %attested # digest §5 line 751 [wiki-nl-orthography §Sound to spelling correspondences]
+ŋ -> "n" / _ k                          %design   # design: digest §2 line 257 *koninklijk* ⟨nk⟩ = /ŋk/ — ⟨ng⟩ before ⟨k⟩ would read /ŋɡ/ (§5 line 751 gives only ⟨ng⟩)
+ŋ -> "ng"                               %attested # digest §5 line 751 [wiki-nl-orthography §Sound to spelling correspondences]
+ʃ -> "sj"                               %attested # digest §5 line 810 [vandersijs1999-transcriptie; names-wiki-translit]
+ʒ -> "zj"                               %attested # digest §5 line 810 [vandersijs1999-transcriptie; names-wiki-translit]
+c -> "tj"                               %attested # digest §6 line 828 *bootje* [boːcə] [verhoeven2005 p.244]
+ɲ -> "nj"                               %attested # digest §5 line 810 (⟨nj⟩) [names-wiki-translit]
+ɡ -> "g"                                %attested # digest §5 line 749 [wiki-nl-orthography]
+v -> "f" / _ #                          %design   # design: digest §5 lines 790–794 — phonetic spelling of final devoicing for names (⟨v⟩ never final, line 750)
+z -> "s" / _ #                          %design   # design: digest §5 lines 790–794 (⟨z⟩ never final, line 750)
+# ---- step 3: short vowel + single intervocalic consonant → double consonant letter (line 781)
+p -> "pp" / LAX . _ V                   %attested # digest §5 line 781 [wiki-nl-orthography §Sound to spelling correspondences] *lat-ten*
+b -> "bb" / LAX . _ V                   %attested # digest §5 line 781 [wiki-nl-orthography]
+t -> "tt" / LAX . _ V                   %attested # digest §5 line 781 [wiki-nl-orthography] *lat-ten*
+d -> "dd" / LAX . _ V                   %attested # digest §5 line 781 [wiki-nl-orthography]
+k -> "kk" / LAX . _ V                   %attested # digest §5 line 781 [wiki-nl-orthography]
+f -> "ff" / LAX . _ V                   %attested # digest §5 line 781 [wiki-nl-orthography]
+s -> "ss" / LAX . _ V                   %attested # digest §5 line 781 [wiki-nl-orthography] *mus-sen*
+ɣ -> "gg" / LAX . _ V                   %attested # digest §5 line 781 [wiki-nl-orthography]
+m -> "mm" / LAX . _ V                   %attested # digest §5 line 781 [wiki-nl-orthography]
+n -> "nn" / LAX . _ V                   %attested # digest §5 line 781 [wiki-nl-orthography] *bon-nen*
+l -> "ll" / LAX . _ V                   %attested # digest §5 line 781 [wiki-nl-orthography]
+r -> "rr" / LAX . _ V                   %attested # digest §5 line 781 [wiki-nl-orthography]
+# ---- diphthongs (lines 770–772), before the single vowels so the pair is one chunk
+ɛ i -> "ei"                             %attested # digest §5 line 770 [wiki-nl-orthography] *lei*
+œ y -> "ui"                             %attested # digest §5 line 771 [wiki-nl-orthography] *lui*
+ɔ u -> "ou"                             %attested # digest §5 line 772 [wiki-nl-orthography] *koud*
+# ---- long vowels: step 6 (compound/suffix seam) first, then step 2 open/closed
+aː -> "aa" / _ . C $                    %attested # digest §5 line 787 [wiki-nl-orthography §Exceptions] members spelled separately
+aː -> "aa" / _ $                        %attested # digest §5 line 787 [wiki-nl-orthography §Exceptions]
+aː -> "a" / _ .                         %attested # digest §5 lines 778–780 [wiki-nl-orthography] open syllable: single (*ma-nen*)
+aː -> "a" / _ #                         %attested # digest §5 line 783 [wiki-nl-orthography §Exceptions] "a double vowel is never written in an open syllable"
+aː -> "aa"                              %attested # digest §5 line 778 [wiki-nl-orthography] closed syllable: double (*maan*)
+eː -> "ee" / _ . C $                    %attested # digest §5 line 787 [wiki-nl-orthography §Exceptions]
+eː -> "ee" / _ $                        %attested # digest §5 line 787 [wiki-nl-orthography §Exceptions]
+eː -> "e" / _ .                         %attested # digest §5 lines 778–780 [wiki-nl-orthography] (*le-ken*)
+eː -> "e" / _ #                         %attested # digest §5 line 783 [wiki-nl-orthography §Exceptions]
+eː -> "ee"                              %attested # digest §5 line 778 [wiki-nl-orthography] (*leek*)
+oː -> "oo" / _ . C $                    %attested # digest §5 line 787 [wiki-nl-orthography §Exceptions]
+oː -> "oo" / _ $                        %attested # digest §5 line 787 [wiki-nl-orthography §Exceptions]
+oː -> "o" / _ .                         %attested # digest §5 lines 778–780 [wiki-nl-orthography] (*bo-nen*)
+oː -> "o" / _ #                         %attested # digest §5 line 783 [wiki-nl-orthography §Exceptions]
+oː -> "oo"                              %attested # digest §5 line 778 [wiki-nl-orthography] (*boon*)
+yː -> "u" / _ .                         %attested # digest §5 lines 778–780 [wiki-nl-orthography] (*mu-ren*)
+yː -> "u" / _ #                         %attested # digest §5 line 783 [wiki-nl-orthography §Exceptions]
+yː -> "uu"                              %attested # digest §5 line 778 [wiki-nl-orthography] (*muur*)
+øː -> "eu"                              %attested # digest §5 line 768 [wiki-nl-orthography] *deur*
+# ---- the rest of the vowel table (lines 757–769)
+ɑ -> "a"                                %attested # digest §5 line 757 [wiki-nl-orthography] *man*
+ɛ -> "e"                                %attested # digest §5 line 759 [wiki-nl-orthography] *bed*
+ɪ -> "i"                                %attested # digest §5 line 761 [wiki-nl-orthography] *lip*
+i -> "ie"                               %attested # digest §5 line 762 [wiki-nl-orthography] *dief*
+ɔ -> "o"                                %attested # digest §5 line 763 [wiki-nl-orthography] *bon*
+ʏ -> "u"                                %attested # digest §5 line 765 [wiki-nl-orthography] *mus*
+y -> "u"                                %attested # digest §5 line 766 [wiki-nl-orthography] (*mu-ren*; a bare /y/ stands in an open syllable)
+u -> "oe"                               %attested # digest §5 line 767 [wiki-nl-orthography] *boek*
+ə -> "e"                                %attested # digest §5 line 769 [wiki-nl-orthography] *de*, *-en*
+ɛː -> "è"                               %attested # digest §1 line 118 [vandersijs1996-leenwoordenboek p.57] long *è* (*crème*)
+ɔː -> "o"                               %attested # digest §1 line 118 [vandersijs1996-leenwoordenboek p.57] long *o* (*zone*)
