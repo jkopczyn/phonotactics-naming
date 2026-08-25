@@ -1,0 +1,223 @@
+# irish.rules — the Irish (Connacht, two-way L/N) source side.
+# Task 17: [meta] [inventory] [classes] [mutations] [inflect]. Task 19 adds [normalize],
+# Task 18 adds [templates]. Every rule line cites its digest section or the wiki source the
+# digest itself cites (sources/irish/digest.md).
+
+[meta]
+name = Irish
+digest = sources/irish/digest.md
+dialect = C
+
+[inventory]
+# digest §1.1 — the 31-segment donor phoneme set [wiki-irish-phonology §Consonants]
+pˠ pʲ bˠ bʲ t̪ˠ tʲ d̪ˠ dʲ k c ɡ ɟ
+fˠ fʲ sˠ ʃ x ç h
+w vʲ ɣ j
+mˠ mʲ n̪ˠ nʲ ŋ ɲ
+l̪ˠ lʲ ɾˠ ɾʲ
+# [vˠ] is the Connacht non-initial allophone of /w/ (digest §1.1 [wiki-irish-phonology
+# §Allophones]); test-words.tsv transcribes it (*Niamh* /nʲiəvˠ/), so it is accepted here.
+marginal: vˠ
+# digest §1.2 — Connacht/Munster monophthongs [wiki-irish-phonology §Vowels]; the diphthongs
+# iə uə əi əu are two segments each (I-2) and are licensed as nuclei in [syllable] later.
+iː ɪ uː ʊ eː ɛ oː ɔ aː a ə
+
+[classes]
+# I-41 / spec §12.J: broad and slender are DECLARED classes, never [C ±back] bundles.
+BROAD = pˠ bˠ t̪ˠ d̪ˠ fˠ sˠ w vˠ mˠ n̪ˠ l̪ˠ ɾˠ k ɡ x ɣ ŋ
+SLEN  = pʲ bʲ tʲ dʲ fʲ ʃ vʲ mʲ nʲ lʲ ɾʲ c ɟ ç j ɲ
+
+[mutations]
+# digest §3.1 — lenition (séimhiú) [wiki-irish-mutations §Summary table]
+LEN:
+pˠ -> fˠ / #_      %attested # [wiki-irish-mutations §Summary table]
+pʲ -> fʲ / #_      %attested # [wiki-irish-mutations §Summary table]
+bˠ -> w  / #_      %attested # [wiki-irish-mutations §Summary table]
+bʲ -> vʲ / #_      %attested # [wiki-irish-mutations §Summary table]
+mˠ -> w  / #_      %attested # [wiki-irish-mutations §Summary table]
+mʲ -> vʲ / #_      %attested # [wiki-irish-mutations §Summary table]
+fˠ -> 0  / #_      %attested # [wiki-irish-mutations §Summary table] fh is silent
+fʲ -> 0  / #_      %attested # [wiki-irish-mutations §Summary table]
+t̪ˠ -> h / #_       %attested # [wiki-irish-mutations §Summary table]
+tʲ -> h  / #_      %attested # [wiki-irish-mutations §Summary table]
+d̪ˠ -> ɣ / #_       %attested # [wiki-irish-mutations §Summary table]
+dʲ -> j  / #_      %attested # [wiki-irish-mutations §Summary table]
+sˠ -> h  / #_      %attested # [wiki-irish-mutations §Summary table]
+ʃ  -> h  / #_      %attested # [wiki-irish-mutations §Summary table]
+k  -> x  / #_      %attested # [wiki-irish-mutations §Summary table]
+c  -> ç  / #_      %attested # [wiki-irish-mutations §Summary table]
+ɡ  -> ɣ  / #_      %attested # [wiki-irish-mutations §Summary table]
+ɟ  -> j  / #_      %attested # [wiki-irish-mutations §Summary table]
+# l/n rows are null in a two-way Connacht transcription (digest §3.1) — deliberately absent.
+# Vowels and /ɾˠ ɾʲ/ do not lenite (digest §3.1) — deliberately absent.
+# /h ŋ ɲ x ç ɣ j w vʲ/ have no radical entry — deliberately absent.
+
+# digest §3.2 — eclipsis (urú) [wiki-irish-mutations §Summary table]
+ECL:
+pˠ -> bˠ / #_      %attested # [wiki-irish-mutations §Summary table]
+pʲ -> bʲ / #_      %attested # [wiki-irish-mutations §Summary table]
+t̪ˠ -> d̪ˠ / #_      %attested # [wiki-irish-mutations §Summary table]
+tʲ -> dʲ / #_      %attested # [wiki-irish-mutations §Summary table]
+k  -> ɡ  / #_      %attested # [wiki-irish-mutations §Summary table]
+c  -> ɟ  / #_      %attested # [wiki-irish-mutations §Summary table]
+bˠ -> mˠ / #_      %attested # [wiki-irish-mutations §Summary table]
+bʲ -> mʲ / #_      %attested # [wiki-irish-mutations §Summary table]
+d̪ˠ -> n̪ˠ / #_      %attested # [wiki-irish-mutations §Summary table]
+dʲ -> nʲ / #_      %attested # [wiki-irish-mutations §Summary table] (n̠ʲ folded to nʲ, digest §1.1)
+ɡ  -> ŋ  / #_      %attested # [wiki-irish-mutations §Summary table]
+ɟ  -> ɲ  / #_      %attested # [wiki-irish-mutations §Summary table]
+fˠ -> w  / #_      %attested # [wiki-irish-mutations §Summary table]
+fʲ -> vʲ / #_      %attested # [wiki-irish-mutations §Summary table]
+# n-prothesis (digest §3.3 [wiki-irish-mutations §Changes to vowel-initial words]): slender
+# before a front vowel, broad otherwise. `[V -front]` (not `+back`) so the open vowels
+# /a aː ə/ — front=- back=- in features.tsv — take the broad nasal (*a n-aois*, *a n-athair*).
+# The slender rule runs first, so the broad rule never sees a vowel-initial word twice.
+0  -> nʲ / # _ [V +front]   %attested # [wiki-irish-mutations §Changes to vowel-initial words]
+0  -> n̪ˠ / # _ [V -front]   %attested # [wiki-irish-mutations §Changes to vowel-initial words]
+# /s l m n r h/ have no eclipsis entry (digest §3.2) — deliberately absent.
+
+# digest §3.3 — h-prothesis [wiki-irish-mutations §Changes to vowel-initial words]
+HPREF:
+0 -> h / # _ V     %attested # [wiki-irish-mutations §Changes to vowel-initial words]
+
+# digest §3.3 — t-prothesis on vowel-initial nouns, and digest §3.1 — t-prefixation of /s/
+# after the article (*an tsolais*, *an tSín*), which REPLACES lenition of ⟨s⟩.
+TPREF:
+0  -> tʲ / # _ [V +front]   %attested # [wiki-irish-mutations §Changes to vowel-initial words] *an t-éan* /tʲeːnˠ/
+0  -> t̪ˠ / # _ [V -front]   %attested # [wiki-irish-mutations §Changes to vowel-initial words] *an t-uisce*
+sˠ -> t̪ˠ / #_      %attested # [wiki-irish-orthography §Grapheme to phoneme correspondence] *an tsolais*
+ʃ  -> tʲ / #_      %attested # [wiki-irish-mutations §Environments of lenition] *an tSín*
+
+[inflect]
+# digest §3.5 [wiki-irish-declension §Declension, §Vocative]. Slenderization and broadening
+# are written as EXPLICIT segment -> segment lines, not `[+front -back]` bundles: in
+# features.tsv the ʲ rows also carry high=+ where the ˠ rows have high=0 (and /w/ ↔ /vʲ/,
+# /ɣ/ ↔ /j/ differ in more than quality), so a bundle would resolve to no row (I-4). Only
+# the dorsals k/c ɡ/ɟ x/ç ŋ/ɲ would survive as bundles; one convention is used throughout.
+
+# 1st declension masculine: final broad consonant -> slender (*bád* -> *báid*, *mac* -> *mic*).
+GEN_M1:
+pˠ -> pʲ / _ #     %attested # digest §3.5 [wiki-irish-declension §Declension]
+bˠ -> bʲ / _ #     %attested # digest §3.5
+t̪ˠ -> tʲ / _ #     %attested # digest §3.5
+d̪ˠ -> dʲ / _ #     %attested # digest §3.5 *bád* -> *báid*
+k  -> c  / _ #     %attested # digest §3.5 *mac* -> *mic*
+ɡ  -> ɟ  / _ #     %attested # digest §3.5
+fˠ -> fʲ / _ #     %attested # digest §3.5
+sˠ -> ʃ  / _ #     %attested # digest §3.5
+x  -> ç  / _ #     %attested # digest §3.5
+w  -> vʲ / _ #     %attested # digest §3.5; broad partner of /vʲ/ is /w/ (digest §1.1)
+vˠ -> vʲ / _ #     %attested # digest §3.5; [vˠ] is the non-initial allophone of /w/ (digest §1.1)
+ɣ  -> j  / _ #     %attested # digest §3.5
+mˠ -> mʲ / _ #     %attested # digest §3.5
+n̪ˠ -> nʲ / _ #     %attested # digest §3.5
+ŋ  -> ɲ  / _ #     %attested # digest §3.5
+l̪ˠ -> lʲ / _ #     %attested # digest §3.5
+ɾˠ -> ɾʲ / _ #     %attested # digest §3.5 *fear* -> *fir*
+# The vowel change of *mac* /mˠak/ -> *mic* /mʲɪc/ (digest §3.5 "changes both the final
+# consonant's quality and the vowel"): short /a/ before the newly slender final raises to /ɪ/
+# and the consonant before it takes slender quality with it. Lexical in Irish (*cat* -> *cait*
+# keeps /a/); the digest's own example is the model.
+pˠ -> pʲ / _ a SLEN #   %design # design: digest §3.5 *mac* -> *mic*
+bˠ -> bʲ / _ a SLEN #   %design # design: digest §3.5
+t̪ˠ -> tʲ / _ a SLEN #   %design # design: digest §3.5
+d̪ˠ -> dʲ / _ a SLEN #   %design # design: digest §3.5
+k  -> c  / _ a SLEN #   %design # design: digest §3.5
+ɡ  -> ɟ  / _ a SLEN #   %design # design: digest §3.5
+fˠ -> fʲ / _ a SLEN #   %design # design: digest §3.5
+sˠ -> ʃ  / _ a SLEN #   %design # design: digest §3.5
+x  -> ç  / _ a SLEN #   %design # design: digest §3.5
+w  -> vʲ / _ a SLEN #   %design # design: digest §3.5
+vˠ -> vʲ / _ a SLEN #   %design # design: digest §3.5
+ɣ  -> j  / _ a SLEN #   %design # design: digest §3.5
+mˠ -> mʲ / _ a SLEN #   %design # design: digest §3.5 *mac* -> *mic*
+n̪ˠ -> nʲ / _ a SLEN #   %design # design: digest §3.5
+ŋ  -> ɲ  / _ a SLEN #   %design # design: digest §3.5
+l̪ˠ -> lʲ / _ a SLEN #   %design # design: digest §3.5
+ɾˠ -> ɾʲ / _ a SLEN #   %design # design: digest §3.5
+a  -> ɪ  / _ SLEN #     %design # design: digest §3.5 *mac* /mˠak/ -> *mic* /mʲɪc/
+
+# *marcach* -> *marcaigh*: /x/ -> /j/ after the unstressed -ach vowel.
+GEN_ACH:
+x -> j / ə _ #     %attested # digest §3.5 *marcach* -> *marcaigh* [wiki-irish-declension §Declension]
+
+# 2nd declension (mostly feminine): slenderize + -e (*bróg* -> *bróige*).
+GEN_F2:
+pˠ -> pʲ / _ #     %attested # digest §3.5 [wiki-irish-declension §Declension]
+bˠ -> bʲ / _ #     %attested # digest §3.5
+t̪ˠ -> tʲ / _ #     %attested # digest §3.5
+d̪ˠ -> dʲ / _ #     %attested # digest §3.5
+k  -> c  / _ #     %attested # digest §3.5
+ɡ  -> ɟ  / _ #     %attested # digest §3.5 *bróg* -> *bróige*
+fˠ -> fʲ / _ #     %attested # digest §3.5
+sˠ -> ʃ  / _ #     %attested # digest §3.5
+x  -> ç  / _ #     %attested # digest §3.5
+w  -> vʲ / _ #     %attested # digest §3.5
+vˠ -> vʲ / _ #     %attested # digest §3.5
+ɣ  -> j  / _ #     %attested # digest §3.5
+mˠ -> mʲ / _ #     %attested # digest §3.5
+n̪ˠ -> nʲ / _ #     %attested # digest §3.5
+ŋ  -> ɲ  / _ #     %attested # digest §3.5
+l̪ˠ -> lʲ / _ #     %attested # digest §3.5
+ɾˠ -> ɾʲ / _ #     %attested # digest §3.5 *deoir* -> *deoire*
+0  -> ə  / _ #     %attested # digest §3.5 the -e ending (unstressed, digest §1.2)
+
+# 3rd declension: broaden + -a (*bádóir* -> *bádóra*).
+GEN_M3:
+pʲ -> pˠ / _ #     %attested # digest §3.5 [wiki-irish-declension §Declension]
+bʲ -> bˠ / _ #     %attested # digest §3.5
+tʲ -> t̪ˠ / _ #     %attested # digest §3.5 *canúint* -> *canúna* (stem-final -t)
+dʲ -> d̪ˠ / _ #     %attested # digest §3.5
+c  -> k  / _ #     %attested # digest §3.5
+ɟ  -> ɡ  / _ #     %attested # digest §3.5
+fʲ -> fˠ / _ #     %attested # digest §3.5
+ʃ  -> sˠ / _ #     %attested # digest §3.5
+ç  -> x  / _ #     %attested # digest §3.5
+vʲ -> vˠ / _ #     %attested # digest §3.5; [vˠ] non-initially (digest §1.1)
+j  -> ɣ  / _ #     %attested # digest §3.5
+mʲ -> mˠ / _ #     %attested # digest §3.5
+nʲ -> n̪ˠ / _ #     %attested # digest §3.5
+ɲ  -> ŋ  / _ #     %attested # digest §3.5
+lʲ -> l̪ˠ / _ #     %attested # digest §3.5
+ɾʲ -> ɾˠ / _ #     %attested # digest §3.5 *bádóir* -> *bádóra*
+0  -> ə  / _ #     %attested # digest §3.5 the -a ending (unstressed, digest §1.2)
+
+# Vocative of 1st-declension masculines = the slenderized genitive stem (digest §3.5
+# [wiki-irish-declension §Vocative]): same content as GEN_M1. The particle *a* and its
+# lenition are supplied by the template (Task 18), not here.
+VOC_M1:
+pˠ -> pʲ / _ #     %attested # digest §3.5 [wiki-irish-declension §Vocative]
+bˠ -> bʲ / _ #     %attested # digest §3.5
+t̪ˠ -> tʲ / _ #     %attested # digest §3.5
+d̪ˠ -> dʲ / _ #     %attested # digest §3.5
+k  -> c  / _ #     %attested # digest §3.5 *mac* -> *a mhic*
+ɡ  -> ɟ  / _ #     %attested # digest §3.5
+fˠ -> fʲ / _ #     %attested # digest §3.5
+sˠ -> ʃ  / _ #     %attested # digest §3.5
+x  -> ç  / _ #     %attested # digest §3.5
+w  -> vʲ / _ #     %attested # digest §3.5
+vˠ -> vʲ / _ #     %attested # digest §3.5
+ɣ  -> j  / _ #     %attested # digest §3.5
+mˠ -> mʲ / _ #     %attested # digest §3.5
+n̪ˠ -> nʲ / _ #     %attested # digest §3.5 *Seán* -> *a Sheáin* (the stem part)
+ŋ  -> ɲ  / _ #     %attested # digest §3.5
+l̪ˠ -> lʲ / _ #     %attested # digest §3.5
+ɾˠ -> ɾʲ / _ #     %attested # digest §3.5
+pˠ -> pʲ / _ a SLEN #   %design # design: digest §3.5 (as GEN_M1)
+bˠ -> bʲ / _ a SLEN #   %design # design: digest §3.5
+t̪ˠ -> tʲ / _ a SLEN #   %design # design: digest §3.5
+d̪ˠ -> dʲ / _ a SLEN #   %design # design: digest §3.5
+k  -> c  / _ a SLEN #   %design # design: digest §3.5
+ɡ  -> ɟ  / _ a SLEN #   %design # design: digest §3.5
+fˠ -> fʲ / _ a SLEN #   %design # design: digest §3.5
+sˠ -> ʃ  / _ a SLEN #   %design # design: digest §3.5
+x  -> ç  / _ a SLEN #   %design # design: digest §3.5
+w  -> vʲ / _ a SLEN #   %design # design: digest §3.5
+vˠ -> vʲ / _ a SLEN #   %design # design: digest §3.5
+ɣ  -> j  / _ a SLEN #   %design # design: digest §3.5
+mˠ -> mʲ / _ a SLEN #   %design # design: digest §3.5 *mac* -> *a mhic*
+n̪ˠ -> nʲ / _ a SLEN #   %design # design: digest §3.5
+ŋ  -> ɲ  / _ a SLEN #   %design # design: digest §3.5
+l̪ˠ -> lʲ / _ a SLEN #   %design # design: digest §3.5
+ɾˠ -> ɾʲ / _ a SLEN #   %design # design: digest §3.5
+a  -> ɪ  / _ SLEN #     %design # design: digest §3.5 *mac* -> *a mhic*
