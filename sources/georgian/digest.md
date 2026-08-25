@@ -33,10 +33,12 @@ The digest rests on:
    the mapping is *not* stable from run to run of text (`X` is `χ` in one line and `u` in the
    next). Every cluster list in §2 below was re-read from rendered PDF pages, not from the .txt.
    PDF page = thesis page + 14.
-2. Butskhrikidze's own transcription is **not IPA**: plain `p t k c č` are the voiceless
-   *aspirated* series (aspiration is not written), `'` marks ejectives, `x` is her velar
-   fricative and `χ'` her uvular ejective [butskhrikidze2002 p.76–77, p.85]. Lists below are
-   given in her notation with an IPA gloss where it matters.
+2. Butskhrikidze's own transcription is **not IPA**. Her alphabet table (1)
+   [butskhrikidze2002 p.77] is authoritative and is reproduced in §2.0 below. Two traps in
+   particular: **`j` is /dz/ (ძ) and `ǰ` is /dʒ/ (ჯ)**; and she writes the aspirated series
+   without any aspiration diacritic (`t` = [t] in her table, but the letter is თ /tʰ/). An
+   earlier draft of this digest mis-stated the key as `ʒ` = /dz/; `ʒ` is not one of her symbols
+   at all (`ž` is [ʒ]).
 
 **Nothing in the sources contradicts the PHOIBLE row's segment list.** The disagreements are all
 about *transcription* of the back fricatives (§1.2) and about /v/'s status (§1.6).
@@ -173,16 +175,49 @@ None in segment membership. Adjustments only:
 - /ɾ/ is the right symbol (tap), and PHOIBLE's `[ɾ r]` free variation is correct [shosted2006 p.261].
 - /h/ should be flagged **not stem-final** [butskhrikidze2002 p.98]; PHOIBLE has no such field.
 - No segment is loan-only; the only loan segment is **[f]**, which never becomes phonemic in the
-  nativized layer (§3).
+  Geo-like layer (§3).
 
 ---
 ## 2. Syllable structure and phonotactics
 
-**Transcription warning for this whole section.** All cluster lists are given in
-Butskhrikidze's notation (see §0): plain `p t k c č` = aspirated /pʰ tʰ kʰ tsʰ tʃʰ/; `'` = ejective;
-`c` = /ts/, `č` = /tʃ/, `ʒ` = /dz/, `ǰ` = /dʒ/, `x` = /x/, `γ` = /ɣ/, `χ'` = /qʼ/ (her symbol for
-the uvular ejective, elsewhere written `q'`), `š ž` = /ʃ ʒ/. **The `.txt` extraction of the thesis
-mangles all of these**; the lists below were re-read from rendered PDF pages.
+### 2.0 Butskhrikidze's notation — read this before using any list below
+
+All cluster lists in this section are in **her** notation, not IPA. Her alphabet table (1)
+[butskhrikidze2002 p.77], with column (iii) = her thesis notation and column (iv) = the IPA she
+gives; the Georgian letter and the value this digest uses elsewhere are added:
+
+| Letter | Her symbol | Her IPA | This digest | | Letter | Her symbol | Her IPA | This digest |
+|---|---|---|---|---|---|---|---|---|
+| ბ | b | [b] | /b/ | | ს | s | [s] | /s/ |
+| გ | g | [ɡ] | /ɡ/ | | ტ | t' | [tʼ] | /tʼ/ |
+| დ | d | [d] | /d/ | | ფ | **p** | [p] | **/pʰ/** |
+| ვ | v | [v] | /v/ | | ქ | **k** | [k] | **/kʰ/** |
+| ზ | z | [z] | /z/ | | ღ | γ | [ɣ] | /ɣ/ |
+| თ | **t** | [t] | **/tʰ/** | | ყ | **χ'** | **[χʼ]** | /qʼ/ |
+| კ | k' | [kʼ] | /kʼ/ | | შ | š | [ʃ] | /ʃ/ |
+| ლ | l | [l] | /l/ | | ჩ | **č** | [tʃ] | **/tʃʰ/** |
+| მ | m | [m] | /m/ | | ც | **c** | [ts] | **/tsʰ/** |
+| ნ | n | [n] | /n/ | | ძ | **j** | **[dz]** | /dz/ |
+| პ | p' | [pʼ] | /pʼ/ | | წ | c' | [tsʼ] | /tsʼ/ |
+| ჟ | ž | [ʒ] | /ʒ/ | | ჭ | č' | [tʃʼ] | /tʃʼ/ |
+| რ | r | [r] | /ɾ~r/ | | ხ | **x** | **[χ]** | /x/ (§1.2) |
+| | | | | | ჯ | **ǰ** | [dʒ] | /dʒ/ |
+| | | | | | ჰ | h | [h] | /h/ |
+
+"Note that the symbol ʼ denotes glottalisation in obstruents" [butskhrikidze2002 p.77].
+
+**The four traps**, all of which have caused errors in this digest and in review of it:
+1. **`j` = /dz/ (ძ), `ǰ` = /dʒ/ (ჯ).** They differ only by a caron. *jma* 'brother' is ძმა,
+   *ǰvari* 'cross' is ჯვარი. `ʒ` is **not** one of her symbols.
+2. **Aspiration is unwritten**, in her notation *and* in her IPA column: `t p k c č` are თ ფ ქ ც ჩ
+   = /tʰ pʰ kʰ tsʰ tʃʰ/ [shosted2006 p.255], but she prints them as [t p k ts tʃ].
+3. **`x` is [χ] in table (1) but [x] on p.87** — the inconsistency Shosted & Chikovani flag
+   [shosted2006 p.258]; see §1.2.
+4. **`χ'` is her symbol for ყ**, which she transcribes [χʼ]; this digest writes /qʼ/ (§1.3).
+
+**The `.txt` extraction of the thesis is unusable for any of this** — the embedded phonetic font
+decodes against the wrong mapping and the mapping is not stable across the document. Every list in
+§2.3–§2.6 below was read from **rendered PDF page images** (PDF page = thesis page + 14).
 
 ### 2.1 There is no syllable template — the domain is the STEM
 
@@ -242,7 +277,7 @@ The full inventory, table (53) [butskhrikidze2002 p.103], repeated identically a
 | | voiced | aspirated | ejective | voiced | aspirated | ejective |
 | labial | **bg** | **pk** | **p'k'** | **bγ** | **px** | **p'χ'** |
 | dental | **dg** | **tk** | **t'k'** | **dγ** | **tx** | **t'χ'** |
-| alv. affricate | **ʒg** | **ck** | **c'k'** | **ʒγ** | **cx** | **c'χ'** |
+| alv. affricate | **jg** | **ck** | **c'k'** | **jγ** | **cx** | **c'χ'** |
 | p-alv. affricate | **ǰg** | **čk** | **č'k'** | **ǰγ** | **čx** | **č'χ'** |
 | alv. fricative | *zg* | **sk** | — | **zγ** | **sx** | — |
 | p-alv. fricative | *žg* | **šk** | — | **žγ** | **šx** | — |
@@ -309,8 +344,11 @@ examples changed and some very common sequences added. **The list is explicitly 
   *knari* 'lyre', *kris*, *k'veba*, *k'lanč'i*, *k'maχ'opili*, *k'nut'i* 'kitten', *k'reba*,
   *ploba*, *prinveli* 'bird', *p'lombi*, *p'riali*, *tvali* 'eye', *tla*, *tma* 'hair', *treva*,
   *t'vini* 'brain', *t'lanki*, *t'rabaxi*)
-- **affricate+stop** — cd ck čk c'k' č'd ǰd ǰg
-- **affricate+fricative** — cx čx c'χ' č'χ' jγ ǰγ
+- **affricate+stop** — cd *cduneba* 'temptation'; ck *ckera* 'look'; čk *čkari* 'fast';
+  c'k' *c'k'aruni* 'tickling'; č'd *č'de* 'notch'; ǰd *ǰdoma* 'to sit'; ǰg *ǰgupi* 'group'
+- **affricate+fricative** — cx *cxadi* 'obvious'; čx *čxik'vi* 'jay'; c'χ' *c'χ'ali* 'water';
+  č'χ' *č'χ'int'i* 'new (cheese)'; **jγ** *jγola* 'accompany'; **ǰγ** *ǰγani* 'patch'
+  (the pair differs only by the caron: `jγ` = /dzɣ/, `ǰγ` = /dʒɣ/ — see §2.0)
 - **affricate+sonorant** — cv cm cn cr; čv čl čr; c'v c'l c'm c'n c'r; č'v č'l č'm č'r;
   jv jl jm jn jr; ǰv ǰm
 - **fricative+stop** — sk *skesi*; sk' *sk'a* 'hive'; st' *st'umari* 'guest'; šp *špoti*;
@@ -324,29 +362,63 @@ examples changed and some very common sequences added. **The list is explicitly 
   *zvavi*, *zlazvna*, *zmuili*, *zne*, *zrunva*, *žriamuli*, *žlet'a*, *γvino* 'wine', *γlet'a*,
   *γmeč'a*, *γreoba*, *xvadi*, *xleba*, *xma* 'voice', *xnieri*, *xrinc'i*, *χ'vavili* 'flower',
   *χ'lort'i*, *χ'muili*, *χ'nosva*, *χ'ra*)
-- **sonorant+stop** — lb lt'; nd; rb rg rk rk' rt'
-- **sonorant+affricate** — rc' rj rǰ
+- **sonorant+stop** — lb *(da)lboba* 'to soak'; lt' *lt'olva* 'aspiration'; nd *ndoba* 'faith';
+  rb *rbeva* 'to raid'; rg *rgoli* 'ring'; rk *rka* 'horn'; rk' *rkina* 'iron'; rt' *rt'o* 'branch'
+- **sonorant+affricate** — rc' *rc'eva* 'rocking'; **rj** *rjali* 'daughter-in-law' (/rdz/);
+  **rǰ** *rǰuli* 'religion' (/rdʒ/)
 - **sonorant+fricative** — vs *vseba* 'to fill'; lx *lxena*; rχ' *rχ'eva*
 - **sonorant+sonorant** — lm *lmobieri* 'soft-hearted'
 
-**Three-member (CCC)** — 26 manner-classes, examples:
-t'k'b *t'k'bili* 'sweet'; tkv *tkveni* 'your'; tkr; p'c'k'; psk' *psk'eri* 'bottom'; bγv; txl; txr;
-t'χ'v; t'χ'l; brb *brbo* 'crowd'; brg; brk; grd *grdemli* 'anvil'; krt; k'vd; k'ld *k'lde* 'rock';
-k'rt; prt *prta* 'wing'; trt; zrd *zrda* 'growth'; grj; k'rj; brm *brma* 'blind'; gvr; k'vn; k'vr;
-tvl; ckv; c'k'l; c'k'm; c'k'r; č'k'n; cxv *cxviri* 'nose'; cxr *cxra* 'nine'; čxr; c'χ'v; c'χ'l;
-c'χ'r; c'χ'n; č'χ'l; jγv; c'rt; c'rp; jrc'; črd *črdili* 'shade'; c'vr; č'vr; jvr; st'v *st'vena*
-'whistle'; sc'r; sxv *sxva* 'other'; zγv *zγva* 'sea'; xsn *xsnari* 'solution'; xrt'; χ'rd; γrj;
-žrž; švr; zmn *zmna* 'verb'; γrm *γrma* 'deep'; xvr; rgv; rtv; nǰr; rcx; rc'χ'; rγv; vrc
+**Three-member (CCC)** — 26 manner-classes, a)–z), complete as printed
+[butskhrikidze2002 pp.201–204]. Her class labels are kept even where they misdescribe the members
+(flagged †):
 
-**Four-member (CCCC)**:
-tkvl *tkvlepa*; txzv *txzva* 'compose'; pxvn *pxvnili* 'powder'; pšvn; brt'χ' *brt'χ'eli* 'flat';
-prtx *prtxili* 'careful'; grgv *grgvinva* 'thunder'; prkv; brc'χ'; brč'χ' *brč'χ'ali* 'claw';
-prčx *prčxili* 'nail'; grǰn *grǰnoba* 'feeling'; c'χ'vd; čxvl; c'rtv; sxvl *sxvla*; xrc'n *xrc'na*
-'decay'; γrγn *γrγna*; rt'χ'm *rt'χ'ma* 'to hit'; nǰγr *nǰγreva* 'to shake'; rcxv *rcxvena* 'shame';
-rχ'vn *rχ'vna* 'corrupt'
+| Class | Sequences (example, gloss) |
+|---|---|
+| a) stop+stop+stop | t'k'b *t'k'bili* 'sweet' |
+| b) stop+stop+sonorant | tkv *tkveni* 'your'; tkr *tkriali* 'gush out' |
+| c) stop+affricate+stop | p'c'k' *p'c'k'ari* 'line' |
+| d) stop+fricative+stop | psk' *psk'eri* 'bottom' |
+| e) stop+fricative+sonorant | bγv *bγvera* 'frown'; txl *txle* 'sediment'; txr *txroba* 'to tell'; t'χ'v *t'χ'via* 'bullet'; t'χ'l *t'χ'lap'i* 'fruit cookie' |
+| f) stop+sonorant+stop | brb *brbo* 'crowd'; brg *brke* 'mould'†; brk *brge* 'stalwart'†; grd *grdemli* 'anvil'; krt *krtami* 'bribe'; k'vd *k'vdoma* 'to die'; k'ld *k'lde* 'rock'; k'rt *k'rtoma* 'trembling'; prt *prta* 'wing'; trt *trtolva* 'trembling'; zrd *zrda* 'growth'† |
+| g) stop+sonorant+affricate | grj *grjeli* 'long'; k'rj *k'rjalva* 'reverence' |
+| h) stop+sonorant+sonorant | brm *brma* 'blind'; gvr *gvrit'i* 'turtle-dove'; k'vn *k'vniti* 'piece'; k'vr *k'vra* 'to push'; tvl *tvla* 'count' |
+| i) affricate+stop+sonorant | ckv *ckvit'i* 'frisky'; c'k'l *c'k'lap'uni* 'champing'; c'k'm *c'k'muili* 'whine'; c'k'r *c'k'riali* 'tickle'; **č'k'n** *č'k'noba* 'fade' |
+| j) affricate+fricative+sonorant | cxv *cxviri* 'nose'; cxr *cxra* 'nine'; čxr *čxrek'a* 'search'; c'χ'v *c'χ'vili* 'couple'; c'χ'l *c'χ'luli* 'sore'; c'χ'r *c'χ'roma* 'anger'; c'χ'n *c'χ'nari* 'quiet'; č'χ'l *č'χ'let'a* 'crush'; jγv *jγveni* 'present' |
+| k) affricate+sonorant+stop | c'rt *c'rtoba* 'hardening'; c'rp *c'rpeli* 'sincere' |
+| l) affricate+sonorant+affricate | jrc' *jrc'ola* 'tremble' |
+| m) affricate+sonorant+fricative | črd *črdili* 'shade'† |
+| n) affricate+sonorant+sonorant | c'vr *c'vrili* 'small'; č'vr *č'vret'a* 'contemplation'; jvr *jvra* 'move' |
+| o) fricative+stop+sonorant | st'v *st'vena* 'whistle' |
+| p) fricative+affricate+sonorant | sc'r *sc'rapi* 'quick' |
+| q) fricative+fricative+sonorant | sxv *sxva* 'other'; zγv *zγva* 'sea'; xsn *xsnari* 'solution' |
+| r) fricative+sonorant+stop | xrt' *xrt'ili* 'gristle'; χ'rd *χ'rdena* 'to lean' |
+| s) fricative+sonorant+affricate | γrj *γrjili* 'gum' |
+| t) fricative+sonorant+fricative | žrž *žržola* 'shivering' |
+| u) fricative+sonorant+sonorant | švr *švria* 'oats'; zmn *zmna* 'verb'; γrm *γrma* 'deep'; xvr *xvret'a* 'to make a hole' |
+| v) sonorant+stop+sonorant | rgv *rgva* 'to plant'; rtv *rtveli* 'vintage' |
+| w) sonorant+affricate+sonorant | nǰr *nǰreva* 'reeling' |
+| x) sonorant+affricate+fricative | rcx *rcxila* 'hornbeam'; rc'χ' *rc'χ'eva* 'vomiting' |
+| y) sonorant+fricative+sonorant | rγv *rγveva* 'disorganisation' |
+| z) sonorant+sonorant+affricate | vrc *vrceli* 'vast' |
+
+† **Printing defects in the source, reproduced as printed.** (i) Class f) prints
+`brg  brke 'mould'` and `brk  brge 'stalwart'` — the two examples appear transposed relative to
+their cluster labels. (ii) `zrd` is filed under *stop*+sonorant+stop though /z/ is a fricative.
+(iii) `črd` is filed under affricate+sonorant+*fricative* though /d/ is a stop. Treat the cluster
+strings as the data and the class labels as approximate.
+
+**Four-member (CCCC)** [butskhrikidze2002 pp.204–205], complete as printed:
+tkvl *tkvlepa* 'lap'; txzv *txzva* 'compose'; pxvn *pxvnili* 'powder'; pšvn *pšvnet'a* 'to rub
+one's hands'; brt'χ' *brt'χ'eli* 'flat'; prtx *prtxili* 'careful'; grgv *grgvinva* 'thunder';
+prkv *prkveva* 'to shed'; brc'χ' *brc'χ'invaleba* 'brilliance'; brč'χ' *brč'χ'ali* 'claw';
+prčx *prčxili* 'nail'; **grjn** *grjnoba* 'feeling'; c'χ'vd *c'χ'vdiadi* 'darkness';
+čxvl *čxvlet'a* 'prick'; c'rtv *c'rtvna* 'training'; sxvl *sxvla* 'chop off'; xrc'n *xrc'na*
+'decay'; γrγn *γrγna* 'grumbling'; rt'χ'm *rt'χ'ma* 'to hit'; nǰγr *nǰγreva* 'to shake';
+rcxv *rcxvena* 'shame'; rχ'vn *rχ'vna* 'corrupt'
 
 **Five-member (CCCCC)**: c'vrtn *c'vrtna* 'training'
-**Six-member (CCCCCC)**: prckvn *prckvn(a)* 'to peel'; brdγvn *brdγvna* 'to fight'
+**Six-member (CCCCCC)**: prckvn *prckvn* 'to peel'; brdγvn *brdγvna* 'to fight'
 
 ### 2.4 Gvinadze's six-slot template — the compact statement of what may combine
 
@@ -371,14 +443,34 @@ preceding (usually dorsal) consonant; slot II /r/ is optional when flanked by co
 identical laryngeal specification and obligatory (and syllabic) when they differ
 [butskhrikidze2002 p.108–109].
 
-*This template plus the laryngeal-agreement requirement is the whole cluster grammar in four
-lines. Recommend implementing exactly this as the licitness test, with Appendix 2/3 as the
-attested-forms whitelist.*
+**This template is a generator of canonical long clusters, NOT a complete licitness test.**
+It describes the regressive, laryngeally-homogeneous clusters that make up Georgian's long onsets,
+and it does not generate several classes that §2.3 and §2.6 show are perfectly good:
+- **/s/ + obstruent** — *skesi*, *sk'a*, *st'umari*, *sc'avla*: /s/ is slot III and the following
+  stop slot IV, so these do fit the slot order, but they violate the laryngeal-homogeneity clause
+  (`st'`, `sk'` pair a voiceless fricative with an ejective). Butskhrikidze treats /s/+C as a
+  complex segment separately [butskhrikidze2002 p.111].
+- **/r/ + obstruent** — *rbeva*, *rgoli*, *rk'ina*, *rc'eva*: slot II /r/ before slots III/IV,
+  again without laryngeal agreement.
+- **sonorant + obstruent stem-finally** — *gund-i*, *vard-i*, *xalx-i*: slot VI material before
+  slot III/IV material, i.e. the reverse of the template order (§2.5).
+- **loan clusters** — the obstruent sequences `st' št' zd xt' šk' xš γd`, attested only in loans
+  [butskhrikidze2002 p.208].
+Her own summary (66) names **four** preferred biconsonantal types, of which the template covers
+only the harmonic one: "(a) obstruent+sonorant, (b) harmonic clusters, (c) /s/+obstruent,
+(d) /r/+obstruent" [butskhrikidze2002 p.112].
+
+*Recommended use: the six-slot template as the generator/acceptor for long regressive clusters,
+plus explicit whitelists for /s/+C, /r/+C, sonorant+obstruent, and the loan set, plus the
+Appendix 2/3 lists as an attested-forms whitelist. A single combined test built on the template
+alone will reject valid Georgian.*
 
 ### 2.5 Stem-final consonant sequences
 
 From **Appendix 3** [butskhrikidze2002 pp.207–209], the two-member data from Uturgaidze (1976);
-also explicitly "not exhaustive". Crucially:
+also explicitly "not exhaustive". Note her own gloss on the term: these are sequences that appear
+in "**stem-final (i.e. word-medial) position**" [butskhrikidze2002 p.207] — word-medial precisely
+because the nominative -i follows (§6.1, §8.6). Crucially:
 
 > "the stem can end in any of the 27 consonants (i.e. except /h/) and maximally form a five-member
 > sequence" [butskhrikidze2002 p.99]
@@ -393,27 +485,43 @@ and
 - harmonic: bγ dγ zγ žγ px sx šx c'χ' č'χ'
 - obstruent+sonorant: zv zr zl pr tr sl šl žr šn zn xl xr γl γr
 - **sonorant+obstruent — very common, but "most of them are loan words"**
-  [butskhrikidze2002 p.207]: nd *gund-i* 'choir' (Pers.); nǰ *brinǰ-i* 'rice' (Pers.);
-  ng *niangi* 'crocodile'; nk' *mank'-i* 'defect'; nč *kanč-i* (Turk.); rg *barg-i* 'luggage';
-  rd *vard-i* 'rose'; rǰ *xarǰ-i* 'expense' (Arab.); rč *čarč-i* (Turk.); rk' *xark'-i* 'tribute';
-  rp' *k'erp'-i* 'idol'; rj *k'erj-i*; rp *šarp-i* 'scarf' (Fr.); rb *xarb-i* 'greedy';
-  lk *olk-i* 'district' (Turk.); lx **xalx-i* 'people'* (Arab.); vz *k'ovz-i* 'spoon';
-  vt *navt-i* 'kerosene'
+  [butskhrikidze2002 pp.207–208], complete as printed with her source-language tags:
+  nd *gund-i* 'choir' (Pers.); **nj** *sp'ilenj-i* 'copper' (Pers.); nǰ *brinǰ-i* 'rice' (Pers.);
+  ng *niangi* 'crocodile' (Pers.); nk' *mank'-i* 'defect' (Pers.); nč *kanč-i* '(screw-)nut'
+  (Turk.); rg *barg-i* 'luggage' (Pers.); rd *vard-i* 'rose' (Pers.); rǰ *xarǰ-i* 'expense'
+  (Arab.); rč *čarč-i* 'profiteer' (Turk.); rk' *xark'-i* 'tribute' (Arab.); rp' *k'erp'-i* 'idol'
+  (Pers.); **rj** *k'erj-i* 'meal' (Pers.); rp *šarp-i* 'scarf* (Fr.); rb *xarb-i* 'greedy'
+  (Pers.); lk *olk-i* 'district' (Turk.); lx *xalx-i* 'people' (Arab.); vz *k'ovz-i* 'spoon'
+  (Pers.); vt *navt-i* 'kerosene' (Pers.).
+  Note `nj` and `rj` are /ndz/ and /rdz/ (plain `j`, §2.0), distinct from `nǰ` /ndʒ/ and
+  `rǰ` /rdʒ/ — all four are on the list.
 - obstruent sequences **found only in loans**: st' št' zd xt' šk' xš γd
 - attested stem-**initially but not** stem-finally: t'b k'b xb tb gd xd gǰ ("non-deccessive
   clusters … found only in a few words … most of these clusters are secondary")
-- attested in **neither** position: zb xp χ'p' žb rp rž lž lš lǰ
+- attested in **neither** position: zb xp χ'p' žb **rp** rž lž lš **lj**
+  `CONFLICT:` `rp` appears in this never-attested set on p.207 and simultaneously in the
+  stem-final sonorant+obstruent list on p.208 (*šarp-i* 'scarf', French). An internal
+  contradiction in the source; the loan list is the more specific statement.
 
 **Three-member, stem-final** — three types: (i) harmonic+sonorant (pxv *vepxv-i* 'tiger';
 cxl *cecxl-i* 'fire'; cxv *ricxv-i* 'number'; t'χ'l *mat'χ'l-i* 'wool'; sxl *sisxl-i* 'blood');
-(ii) sonorant+harmonic (nčx *čončx-i*; rcx *marcx-i*; rt'χ' *bart'χ'-i*; všv *bavšv-i* 'child');
-(iii) sonorant+obstruent+sonorant (rpl, rp'l, rbl *zγurbl-i* 'threshold', rxv, rγv, rcv, rt'l,
-rǰl, lkv, nc'l).
+(ii) sonorant+harmonic (nčx *čončx-i* 'skeleton'; rcx *marcx-i* 'failure', *parcx-i* 'harrow';
+rt'χ' *bart'χ'-i* 'nestling'; všv *bavšv-i* 'child');
+(iii) sonorant+obstruent+sonorant (rpl *parpl-i* 'fin', *perpl-i* 'ashes'; rp'l *msxerp'l-i*
+'victim'; rbl *zγurbl-i* 'threshold'; rxv *verxv-i* 'asp'; rγv *jarγv-i* 'vein'; rcv *borcv-i*
+'hill'; rt'l *zγmart'l-i* 'medlar'; **rjl** *γvarjl-i* 'spite' — plain `j` = /dz/, not `ǰ`;
+lkv *bolkv-i* 'bulb'; nc'l *anc'l-i* 'elder').
 
-**Four-member**: rtkl *ortkl-i* 'steam'; rcxl *vercxl-i* 'silver'; rcxv *morcxv-i* 'shy';
-rc'χ'v *marc'χ'v-i* 'strawberry'; nčxl *ančxl-i* 'irritable' — pattern: /r/ + harmonic cluster + /v/
-[butskhrikidze2002 p.209].
-**Five-member**: nǰgvl *banǰgvl-i* 'shaggy' — the only one given.
+**Four-member**, complete as printed: rtkl *ortkl-i* 'steam'; rcxl *vercxl-i* 'silver';
+rcxv *morcxv-i* 'shy'; rc'χ'v *marc'χ'v-i* 'strawberry'; nčxl *ančxl-i* 'irritable'. Her
+generalization is explicitly non-categorical: "Four-member sequences **usually** contain harmonic
+clusters and two sonorants. Similarly to the stem-initial clusters, the first sonorant of the
+sequences is **usually** /r/, which is followed by a harmonic cluster and the sonorant /v/"
+[butskhrikidze2002 p.209]. Her own list breaks it twice over: **nčxl** begins with /n/, not /r/,
+and **rcxl** and **nčxl** end in /l/, not /v/. Keep the "usually" — this is a tendency, not an
+exhaustive pattern.
+**Five-member**: nǰgvl *banǰgvl-i* 'shaggy' — the only one given; "Five-member sequences are very
+rare and contain harmonic clusters and three sonorants" [butskhrikidze2002 p.209].
 
 ### 2.6 Co-occurrence restrictions
 
@@ -633,14 +741,31 @@ a new cluster for free.
 
 ## 3. Repair strategies (loanword adaptation)
 
-### 3.0 The headline: Georgian barely repairs anything
+### 3.0 The headline: **no cluster repair is observed in this dataset**
 
-**Of the four target languages this is the one that will leave Irish input almost untouched.**
-Across all four loanword sources, **no instance of cluster repair is reported and none appears in
-the data**: no epenthesis into a cluster, no deletion of a cluster member, no prothesis. Clusters
-of up to four medial consonants are imported intact — English *record-breaker* → რეკორდსმენი
+**This is a bounded negative result, not a language-wide rule.** In the ~150 adapted forms
+collected here (§7), **no instance of cluster repair is reported and none appears in the data**:
+no epenthesis into a cluster, no deletion of a cluster member, no prothesis. Clusters of up to
+four medial consonants are imported intact — English *record-breaker* → რეკორდსმენი
 *rekordsmeni*, keeping `rdsm` [rayfield2023 p.22]. `gabunia2021` never uses the words *cluster*,
-*epenthesis* or *syllable* except in the stress passage; the absence is total.
+*epenthesis* or *syllable* except in the stress passage.
+
+**What the dataset cannot support.** `gabunia2021`'s 24 items were selected for variation in
+/p t k w f eɪ/ [gabunia2021 p.18], not to probe illicit clusters, and she warns the dataset is
+"still too small to make any assumptions" [gabunia2021 p.26]. The `ka-wiki-title` rows are
+editorial spellings, not speech. So the corpus contains **no English input that Georgian
+phonotactics would actually reject** — every cluster in it is one §2 already licenses. Its silence
+is therefore evidence that *licit* clusters are preserved, and no evidence at all about what
+happens to an illicit one.
+
+> **Safe implementation.** Use the collected loans as a **preservation whitelist and regression
+> suite**: if a source cluster passes the §2 licitness test (six-slot template + the /s/+C, /r/+C,
+> sonorant+obstruent and loan whitelists of §2.4), **import it unchanged and do not insert a
+> written vowel** — this is well supported, and is reinforced by the intrusive-vocoid result
+> (§2.12), which shows the schwa-like element between Georgian consonants is sub-phonemic.
+> **Unsafe implementation:** admitting *every* Irish cluster because no repair happened in 24
+> selected anglicisms. For a cluster that fails the §2 test, the repair is **unresolved** — see
+> §9.
 
 The repairs Georgian **does** perform are:
 1. a **morphological** word-edge process — the obligatory nominative **-i** (§3.5);
@@ -649,7 +774,15 @@ The repairs Georgian **does** perform are:
 4. **degemination** (§3.6);
 5. **loss of vowel length** and resolution of diphthongs (§3.4).
 
-### 3.1 The two layers, and the /p t k/ decision
+### 3.1 Geo-like vs Eng-like, and the /p t k/ OPEN DECISION
+
+**Terminology.** Earlier drafts of this digest called these "nativized" and "prestige" layers.
+That is not Gabunia's framing and is dropped. Her labels are **`Geo-like`, `Mixed`, `Eng-like`,
+`Very Eng-like`**, and they name points on a *sociolinguistic* continuum of pronunciation variants
+of individual recent loans, not two phonological grammars. `Geo-like` additionally coincides with a
+**prescriptive transliteration norm** (Apridonidze / the State Language Department). Her social
+findings associate `Eng-like` with youth, English command and technological orientation
+[gabunia2021 pp.28–35] — an association, not a prestige grammar.
 
 `gabunia2021` is a sociolinguistic study, so every item has a Georgian-like and an English-like
 variant. Her own definitions [gabunia2021 p.19]:
@@ -665,42 +798,56 @@ item still takes the Georgian -i. `Mixed` = /f/ kept but the plosive ejective, w
 "can also be argued to be affected by Russian, as Russian … has both fricative /f/ and more
 ejective-like /p/, /t/, /k/" [gabunia2021 p.19].
 
-**Take the Geo-like column as the grammar** (the project brief's instruction, and it is also the
-State Language Department's official transphonemization norm). Two caveats the digest must record:
+> **OPEN DECISION — PROJECT OVERLAY.** *Which column to implement is a project choice, not a
+> result of `gabunia2021`.* She reports a distribution, not a rule. Taking the `Geo-like` column as
+> the deterministic grammar is defensible — it is the official transphonemization norm and it is
+> what makes strand 4 sound like strand 4 — but it is **not** what her data show speakers mostly
+> doing. State it in the rule file as a design choice with the counter-evidence attached.
+
+Two caveats that bear directly on the decision:
 
 - **It is a prescriptive minority in her data**: 59.6% Eng-like vs 36.9% Geo-like across 1320
   tokens of 24 recent loans [gabunia2021 pp.24–25]. She explicitly excludes older,
   Russian-mediated loans as "fully adapted" [gabunia2021 p.26], so the ejective norm may well be
   the majority in the established lexicon and a minority only in the newest borrowings.
-- **The choice is positionally conditioned.** Geo-like (ejective) rate by context
-  [gabunia2021 p.25, Table 3.2]: word-initial `#CV` 43.7%; medial `CCV` **84.1%**; medial `VCV`
-  26.5%; medial `VCC` 43.4%. Her interpretation: "only in Inlaut, if preceded by a consonant
-  sound, aspiration is presumably less noticeable" [gabunia2021 p.25]. **After a consonant,
-  ejective; between vowels, aspirate.**
+- **There is a positional *tendency*, not a positional rule.** Geo-like (ejective) rate by
+  context [gabunia2021 p.25, Table 3.2]: word-initial `#CV` 43.7%; medial `CCV` **84.1%**; medial
+  `VCV` 26.5%; medial `VCC` 43.4%. Her interpretation: "only in Inlaut, if preceded by a consonant
+  sound, aspiration is presumably less noticeable" [gabunia2021 p.25].
+  `CONFLICT:` an earlier draft turned this into "after a consonant, ejective; between vowels,
+  aspirate". **That is not what the source supports**: even the strongest cell is 84.1%, not 100%,
+  the intervocalic cell still returns 26.5% Geo-like, and she warns the findings are "preliminary…
+  merely presenting the tendencies" and that "the data is still too small to make any assumptions"
+  [gabunia2021 p.26]. Usable as a **weighted tendency or an explicit design choice**; not as an
+  attested categorical environment rule.
 
-> **Rule (nativized): /p t k/ → /pʼ tʼ kʼ/.**
+> **`Geo-like`: /p t k/ → /pʼ tʼ kʼ/.**
 > *snack* → /snɛkʼi/ · *speaker* → /spʼikʼɛri/ · *Twitter* → /tʼvitʼɛri/ · *Instagram* →
 > /instʼagrami/ [gabunia2021 pp.50–51]
-> **Prestige variant: /p t k/ → /pʰ tʰ kʰ/** — "acoustically, voiceless aspirated sounds
+> **`Eng-like`: /p t k/ → /pʰ tʰ kʰ/** — "acoustically, voiceless aspirated sounds
 > /pʰ, tʰ, kʰ/ are closer to English /p, t, k/ than voiceless ejectives" [gabunia2021 p.16].
 
 Three refinements:
-- **Within-word agreement.** "if an item consisted of two plosives, the participants would always
-  use either English-like or Georgian-like plosives in both cases (casting, Twitter, speaker)"
-  [gabunia2021 p.26]. Rayfield sees the same in writing: *paste* → და/ჩა-**ფ**ეის**თ**ება ~
+- **Within-word agreement — observed in three items.** "if an item consisted of two plosives, the
+  participants would always use either English-like or Georgian-like plosives in both cases
+  (casting, Twitter, speaker)" [gabunia2021 p.26]. The observation is exactly that: three of her
+  24 items. Generalizing it to unrestricted word-level harmony over arbitrary Irish input,
+  including compounds and mixed source segments, goes beyond the evidence — implement it, but as a
+  design choice (unattested at that scope). Rayfield sees the same in writing: *paste* → და/ჩა-**ფ**ეის**თ**ება ~
   და/ჩა-**პ**ეის**ტ**ება — aspirate-aspirate or ejective-ejective, never mixed
   [rayfield2023 p.22]. **Implement as a word-level harmony, not a per-segment rule.**
-- **Plosive + labial blocks the ejective.** In *Queen* "none of the participants used ejective";
-  "most other loanwords with the combination of plosive + labial sound … are rendered as Georgian
-  voiceless aspirated plosives (quiz, cooler, Queens)" [gabunia2021 p.26]. Both *Queen* variants
-  have /kʰ/.
+- **Plosive + labial disfavours the ejective (tendency, not a block).** In *Queen* "none of the
+  participants used ejective", and "most other loanwords with the combination of plosive + labial
+  sound … are rendered as Georgian voiceless aspirated plosives (quiz, cooler, Queens)"
+  [gabunia2021 p.26] — but she immediately names old-loan exceptions. "Most" is not "all"; an
+  earlier draft's "blocks" overstated it. Both *Queen* variants do have /kʰ/.
 - **Contrast preservation.** Apridonidze's rationale: in *theater* /θ/ → /tʰ/ and /t/ → /tʼ/; in
   *Philips*, /f/ → /pʰ/ and /p/ → /pʼ/ [gabunia2021 p.16]. The ejective assignment partly exists
   to keep two English segments distinct. Rayfield reports the same mechanism lexically: ლაი**ქ**ი
   for 'like' is stable with the aspirate "since the form with an ejective კ, ლაიკი, is reserved
   for the breed of dog" [rayfield2023 pp.20–21].
 
-`CONFLICT: which series is "nativized"?` `gabunia2021`'s Geo-like = ejective, by prescriptive
+`CONFLICT: which series is the default?` `gabunia2021`'s Geo-like = ejective, by prescriptive
 fiat, but her own measured majority is aspirate outside the post-consonantal context
 [gabunia2021 pp.19, 24–25]. Rayfield, describing written usage two years later, finds ejective the
 default for *t* and for *k/c* — "in the case of t the ejective is normal (თ being more often used
@@ -711,34 +858,38 @@ when transcribing k/c" — but reports ფ (aspirate p) frequently substituted f
 Gabunia's own Appendix-B rows are internally broken: *Chat* has **two rows both labelled
 Geo-like**, and *Like* has the labels **swapped** relative to every other row (the ejective is
 tagged Eng-like) [gabunia2021 pp.50–51].
-*Recommendation for the tool: use ejective as the default for Irish /p t k/ — it is the norm, it
-is 84.1% in post-consonantal position (which is where Irish clusters put most stops), and it is
-what makes strand 4 sound like strand 4. Record that the aspirate is equally attestable.*
+*Recommendation for the tool (a project choice, flagged as such): use the ejective as the
+unconditional default for Irish /p t k/, with the plosive+labial cases and any lexical exceptions
+listed explicitly. Rationale: it is the official norm, it is the majority exactly where Irish
+clusters put most stops, and it is what makes strand 4 sound like strand 4. The alternative —
+aspirates, which are both the measured majority overall and the closer phonetic match to Irish's
+own aspirated /p t k/ — is equally attestable, and a rule writer who prefers it is not
+contradicting any source. Do not encode the 84.1%/26.5% split as a categorical environment rule.*
 
 ### 3.2 Absent segment → substitute
 
 Only six English consonants are declared absent from Georgian by `gabunia2021`: **/f/ /θ/ /ð/ /ŋ/
 /j/ /w/** [gabunia2021 p.14]. Everything else in the English inventory has a Georgian home.
 
-| Source segment | Nativized | Prestige / variant | Evidence |
+| Source segment | `Geo-like` | `Eng-like` / other variant | Evidence |
 |---|---|---|---|
-| **/f/** | **/pʰ/** (ფ) | **[f]** retained | "Nowadays, borrowings with /f/ is graphemically realised by ფ - /pʰ/" [gabunia2021 p.15]. *Facebook* → /pʰɛisbukʼi/, *iPhone* → /aipʰɔni/, *duty free* → /dutʼi pʰri/, *fake news* → /pʰɛikʼniusi/ [gabunia2021 pp.50–51]; *certificate* → სერთიფიკატი [gabunia2021 p.12]. Independently: Kirvalidze transcribes the ფ of loans as **[p]** — *forvardi* [pɔrvardɪ], *flirti* [plɪrtɪ], *fantastiuri* [pantastiurɪ] [kirvalidze2017 pp.291–292]. The prestige [f] is available because [f]~[ɸ] is already a positional allophone of /v/ (§1.4) and because of Russian [gabunia2021 pp.15, 36]. **Items with /f/ show more variation than any other segment** [gabunia2021 pp.24–25]. |
+| **/f/** | **/pʰ/** (ფ) | **[f]** retained | "Nowadays, borrowings with /f/ is graphemically realised by ფ - /pʰ/" [gabunia2021 p.15]. *Facebook* → /pʰɛisbukʼi/, *iPhone* → /aipʰɔni/, *duty free* → /dutʼi pʰri/, *fake news* → /pʰɛikʼniusi/ [gabunia2021 pp.50–51]; *certificate* → სერთიფიკატი [gabunia2021 p.12]. Independently: Kirvalidze transcribes the ფ of loans as **[p]** — *forvardi* [pɔrvardɪ], *flirti* [plɪrtɪ], *fantastiuri* [pantastiurɪ] [kirvalidze2017 pp.291–292]. The `Eng-like` [f] is available because [f]~[ɸ] is already a positional allophone of /v/ (§1.4) and because of Russian [gabunia2021 pp.15, 36]. **Items with /f/ show more variation than any other segment** [gabunia2021 pp.24–25]. |
 | | | | **Exception:** /f/ → **/v/** before a voiced stop: *half-back* → ჰა**ვ**ბეკი [rayfield2023 pp.23–24] (probably via Russian хавбек). |
 | **/w/** | **/v/** medially; **/u/** word-initially | /u…/ everywhere | See §3.3 — this is a `CONFLICT:`. |
 | **/ŋ/** | **/nɡ/** | — | `CONFLICT:` Gabunia's *prose* says /ŋ/ "does not show variation … and is substituted by /n/" [gabunia2021 p.14], but **her own data give [nɡ]**: *casting* → /kʼastinɡi/, *shopping* → /ʃɔpʼinɡi/ [gabunia2021 pp.50–51]. Rayfield is uniform: ფიშინგი, დრიბლინგი, ბულინგი, ფიტინგი [rayfield2023 pp.21, 23, 24]; the Wikipedia harvest agrees (*inglisi*, *springstʼini*, *vashingtʼoni*, *volpʰgang*). **Take the data: /ŋ/ → /nɡ/.** |
 | **/j/** | **/i/** | ჲ (revived) | "graphemically substituted by /i/ - yoghurt – iogurti (იოგურტი)"; "even though it is not graphically present in Georgian, ჲ (or /j/) still exists as an allophone" [gabunia2021 p.14]. `CONFLICT:` Rayfield, two years later: "One positive result … is the revival of a lost letter, ჲ replacing initial y in **ჲოგურტი**, ჲახტა, ჲუნორი" [rayfield2023 p.25] — the *same word*, spelled two ways in the two sources. |
-| **/θ/** | /tʰ/, /t/ or /s/ | — | [gabunia2021 p.14]. Apridonidze's *theater* has /θ/ → /tʰ/ [gabunia2021 p.16]. Loan datum: *thriller* → **თ**რილერი, aspirate, via Russian триллер [asaturova-garibashvili p.354]. `CONFLICT:` in the *L2* direction (Georgians speaking English), /θ/ → **/s/** and /ð/ → **/z/** is by far the most-reported error, 91 judge mentions [georgian-accented-speech p.36]. **The two routes differ: direct perception gives /s z/; loanword adaptation, being orthography- and Russian-mediated, gives /tʰ d/.** Do not merge them. |
-| **/ð/** | /t/, /d/ or /z/ | — | [gabunia2021 p.14] |
+| **/θ/** | /tʰ/, /t/ or /s/ | — | [gabunia2021 p.14]. Apridonidze's *theater* has /θ/ → /tʰ/ [gabunia2021 p.16]. Loan datum: *thriller* → **თ**რილერი, aspirate, via Russian триллер [asaturova-garibashvili p.354]. `CONFLICT:` in the *L2* direction (Georgians speaking English), /θ/ → **/s/** and /ð/ → **/z/** is by far the most-reported error, 91 judge mentions [georgian-accented-speech p.36]. **The two routes differ: direct perception gives /s z/; loanword adaptation, being orthography- and Russian-mediated, gives /tʰ d/.** Do not merge them. Note the asymmetry in support: the /s z/ route rests on L2 *judge reports*, and the only /θ/ loan row in `attested.tsv` (*thriller*) is Russian-mediated with /tʰ/. |
+| **/ð/** | /t/, /d/ or /z/ | — | [gabunia2021 p.14] — **prose only. No loan example anywhere in this source set, and no row in `attested.tsv`.** Do not implement as a settled mapping. |
 | **/h/** | **/h/** — retained | — | Not discussed by `gabunia2021`, but corroboration is unanimous: *hobi* < hobby, *horori* < horror [asaturova-garibashvili p.353]; *seqondhendi* [kirvalidze2017 p.293]; ჰედლაინი, ჰავბეკი, ჰუქერი, ჰეითერები [rayfield2023 pp.18, 21, 23, 24]. See §8.2 for the positional restriction. |
 | /v z s r l dʒ ʒ/ | unchanged | — | All present in the Georgian inventory; `gabunia2021` lists them as non-problems [gabunia2021 p.14]. |
 
 Crucially, "the variation occurs **during adaptation**. The pronunciation of the adapted words …
 are more or less stable" [gabunia2021 p.14] — i.e. once a loan is fixed, it stops alternating.
 
-### 3.3 CONFLICT: /w/ — a positional rule miscoded as a prestige rule
+### 3.3 CONFLICT: /w/ — a positional split reported as a Geo-like/Eng-like one
 
-`gabunia2021` frames /w/ → /v/ as **nativized** and /w/ → a vowel sequence [ui uɔ uɛ ua] as
-**prestige** [gabunia2021 pp.14–15, 19]: *Winston* → /vinstoni/ ~ /uinstoni/, *Windows* →
+`gabunia2021` labels /w/ → /v/ **`Geo-like`** and /w/ → a vowel sequence [ui uɔ uɛ ua]
+**`Eng-like`** [gabunia2021 pp.14–15, 19]: *Winston* → /vinstoni/ ~ /uinstoni/, *Windows* →
 /vindɔusi/ ~ /uindɔusi/, *Queen* → /kʰvini/ ~ /kʰuini/.
 
 But three things cut across that:
@@ -756,7 +907,9 @@ u** in *uelsi* (Wales), *uiliam* (William), *uinstʼon* (Winston), *uaildi* (Wil
 (Wolfgang) — the three v-initial ones being exactly the Russian-mediated Germanic/Slavic names,
 where the donor spelling is already ⟨W⟩ = /v/.
 
-> **Proposed rule (this digest's reading, not stated by any single source):**
+> **Proposed rule — `(unattested)`, a PROJECT OVERLAY. Stated by no single source; assembled
+> from four that each state part of it, and it conflates direct English /w/ with the Russian and
+> German orthographic ⟨W⟩ that is already /v/ in the mediating language.**
 > `/w/ → /u/ / # _` · `/w/ → /v/ / V _ V` and after a consonant.
 
 `georgian-accented-speech` corroborates the /v/ side in the L2 direction: *Hawaii* → /ˈhɑːvaɪɪ/,
@@ -785,15 +938,15 @@ positional rule sends to /u/, giving a hiatus vowel rather than a consonant. Fla
 - **/eɪ/ is the one vowel with a Geo/Eng split** — *mail* → /maili/ (Geo-like) vs /mɛili/
   (Eng-like): "some speakers pronounce the words based on the **orthography of the English etymon**,
   while others pronounce acoustically closer sounds" [gabunia2021 p.13]. **The spelling-based
-  variant is the one labelled nativized** — a striking and usable fact: Georgian nativization can
+  variant is the one labelled `Geo-like`** — a striking and usable fact: Georgian adaptation can
   be orthographic rather than acoustic. Corroborated as a general Georgian habit: "Since in
   Georgian, speakers pronounce words as they are written, Georgian English speakers tend to repeat
   the same in the other languages" — *jail* → /dʒaɪl/, *son* → /son/, *club* → /klub/
   [georgian-accented-speech pp.42–43]. Only 4 of 55 participants chose it, though
   [gabunia2021 p.26].
 - **/æ/ → /ɛ/** (*snack* /snɛkʼi/, *background* /bɛkʼɡraundi/, *kangaroo* → კენგურუ) or **/ɑ/**
-  (*chat* /tʃatʼi/); **/ʌ/ → /ɑ/** (*puzzle* /pʼazli/, *plugin* → ფლაგინი) — (inferred from the
-  data; `gabunia2021` does not state these). **/ə/, /ɜː/, /ɪ/: not covered.**
+  (*chat* /tʃatʼi/); **/ʌ/ → /ɑ/** (*puzzle* /pʼazli/, *plugin* → ფლაგინი) — **`(unattested)`**:
+  read off the forms, not stated by `gabunia2021` or anyone else. **/ə/, /ɜː/, /ɪ/: not covered.**
 
 ### 3.5 Word-edge: the nominative -i
 
@@ -845,8 +998,9 @@ explanation … might be the fact that in both of these items the linguistic var
 
 ### 3.7 Consonant clusters — no repair, and this is the point
 
-**Not covered by any loanword source** — `gabunia2021` never discusses cluster repair. But the
-absence is itself the finding, because the data would show it if it happened:
+**Not covered by any loanword source** — `gabunia2021` never discusses cluster repair. The
+absence is informative only for clusters Georgian already licenses (§3.0). Within that scope the
+preservation is uniform:
 
 *Instagram* /instʼaɡrami/ (nst, ɡr) · *Beatles* /bitʼlzi/ (tlz) · *chips* /tʃipʼsi/ ·
 *background* /bɛkʼɡraundi/ (kɡr, nd) · *puzzle* /pʼazli/ · *speaker* /spʼikʼɛri/ ·
@@ -858,6 +1012,12 @@ absence is itself the finding, because the data would show it if it happened:
 The one contrary datum is L2 production, not loan adaptation: Georgians speaking English insert a
 vowel inside *months* /mʌnθ/ → /mʌnθes/ ~ /mʌnses/ [georgian-accented-speech p.36] — and it
 involves /θ/, so it should not be used as evidence that Georgian repairs clusters.
+
+**Coverage check.** Every cluster in the list above is licensed by §2 independently
+(`nst`, `ɡr`, `tlz`, `ps`, `kɡr`, `nd`, `zl`, `spʼ`, `sn`, `rtʼ`, `pʰl`, `dl`, `rdsm`), so none of
+them tests repair. The one arguable exception is `sn` in *snack* → /snɛkʼi/, which §8.4 flags as
+absent from Appendix 2 and from grid row `s` — weak evidence that the `sn` gap is an artefact of
+the list being non-exhaustive rather than a ban.
 
 **The only cluster effect Rayfield reports is on lexical survival, not on form**: *retreat* →
 რითრითი and *googles* → დაიგუგლება "have a choice and distribution of consonants and vowels which
@@ -1003,47 +1163,71 @@ all, would come out as strings of ejectives, which is not what they look like. *
 ad hoc for learners (`p'`, `t'`, `k'`, `t's`, `t'ch`, `gh`, `kh`, `zh`, `dz`) [peacecorps p.2–3],
 which is evidence that apostrophe-for-ejective is what an English reader will guess.
 
-### 5.2 Fit of the five existing names, segment by segment
+### 5.2 Literal parse of the five existing names under the national 2002 system
 
-| Name | Reading under national 2002 | Verdict |
+**First, the convention that governs every line below.** In the national system the apostrophe
+**follows** the consonant it ejectivizes: `k'` `p'` `t'` `q'` `ts'` `ch'` [ungegn-georgian p.1].
+There is no construction in which an apostrophe attaches forward to the *next* letter. An earlier
+draft of this digest parsed *Kas'queil* as `s` + `q'` and complained that *Th'tysh* had "no
+consonant after the apostrophe to ejectivize" — **both of those reverse the standard**, and both
+are withdrawn.
+
+**Literal parse — can the name be read as national-system Georgian as spelled?** Verdict first:
+**none of the five can. Not one.**
+
+| Name | Letters the national system cannot read | Literal verdict |
 |---|---|---|
-| **Xelxyx** | needs `x` = ხ /x/, and a `y` vowel | Phonologically perfect apart from `y`: /xɛlxix/; the medial cluster `lx` is directly attested (Appendix 3, *xalx-i* 'people'); /x/ is a licit stem-final. Only the spelling `x` (national writes `kh`) and the vowel `y` deviate. |
-| **Ysclyth** | `y`, `sc` = /sk/, `th` = /tʰ/ | /isklitʰ/. Word-initial /i/ fine; `sk` is attested initially (*skesi* 'gender'); stem-final /tʰ/ fine. Respell `sc`→`sk`; `th`→`t` under national. |
-| **Kas'queil** | `k` /kʰ/, `s`, `'`, `q`, `ue`, `i`, `l` | The apostrophe sits *after* `s`, which cannot be ejective. Only coherent reading: the apostrophe belongs to the **following** ყ, i.e. Kas-q'ueil /kʰɑsqʼvɛil/ or /kʰɑsqʼuɛil/. |
-| **Th'tysh** | `th'` + `tysh` | Does not parse. `th` is not a Georgian digraph in any system, and there is no consonant after the apostrophe for it to ejectivize. Regularizable as **T'tysh** /tʼtʰiʃ/ (ejective + aspirate, a *non*-harmonic tt cluster) or **Tht'ysh** /tʰtʼiʃ/. |
-| **Tchaeul** | `tch` for an affricate; `aeu`; `-l` | `tch` matches `peacecorps`'s `t'ch` for ჭ /tʃʼ/. The vowel run `aeu` is the one hard violation: Georgian bans adjacent vowels within a morpheme [shosted2006 p.262]. |
+| **Xelxyx** | `x` (national writes ხ as `kh`; bare `x` is ISO 9984 / the unofficial system); `y` (no Georgian vowel) | **fails**, 2 non-national conventions. The closest of the five. |
+| **Ysclyth** | `y` ×2; `sc` (no such digraph — national has separate `s`, `k`); `th` (no such digraph — national writes თ as `t`) | **fails**, 3 non-national conventions |
+| **Kas'queil** | apostrophe placement: `s'` is not a national sequence, since `s` (ს) has no ejective counterpart, and `s'q` is **not** a way of writing `sq'` | **fails**; the apostrophe is on the wrong side of `q` |
+| **Th'tysh** | `th` (not a national digraph); `y`; apostrophe after `h`, which cannot be ejectivized | **fails**, 3 non-national conventions |
+| **Tchaeul** | `tch` (national has `ch` = ჩ /tʃʰ/ and `ch'` = ჭ /tʃʼ/; there is no `tch`) | **fails**; and see the two notes below |
 
-### 5.3 Proposed convention set
+Two corrections to the earlier draft's *Tchaeul* line:
+- **`tch` does not "match" the Peace Corps `t'ch`.** `peacecorps` writes ჭ /tʃʼ/ as **`t'ch`**,
+  *with* the apostrophe [peacecorps pp.2–3]. `tch` without it is not that convention, and under
+  the national system the apostrophe is exactly what distinguishes ejective ჭ from aspirated ჩ.
+  So `tch` is a project respelling, not an attested rendering of /tʃʼ/.
+- **The vowel run `aeu` violates *native monomorphemic* phonotactics only.** "Two adjacent vowels
+  are disallowed" holds within a monomorphemic Georgian word [butskhrikidze2002 p.83], but §2.9
+  documents that **loans are precisely where VV occurs** (*musaipi*, *daira*, *maudi*), and the
+  §7 harvest is full of it (*uaildi*, *jeimz*, *reik'iavik'i*). A three-vowel run is still
+  unusual, but calling it a hard violation of Georgian was too strong.
 
-**Base: the national 2002 system, apostrophe = ejective, with four documented deviations.**
+### 5.3 The proposed convention set — a project overlay on the national base
 
-| # | Deviation | Georgian letter | National | Use instead | Why |
+Everything in this table is a **PROJECT OVERLAY**: a deliberate departure from the cited standard,
+adopted so that generated names sit beside the five existing ones. None of D1–D4 is a reading
+licensed by the national system, and the digest does not present them as sourced Georgian rules.
+Where a deviation has an attestable precedent elsewhere, that is noted — precedent for the
+*spelling*, not licence under the national system.
+
+**Base: the national 2002 system, apostrophe = ejective, apostrophe written AFTER the consonant.**
+
+| # | Overlay | Letter | National | Use instead | Status and precedent |
 |---|---|---|---|---|---|
-| D1 | back fricative | ხ /x/ | `kh` | **`x`** | Required by *Xelxyx*. `x` is the ISO 9984 value and the common "unofficial"/keyboard value [wiki-ka-romanization], so it is attestable, not invented. It also pulls the strand away from Welsh, which spells /x/ `ch` — an explicit project goal. Keep ღ /ɣ/ as `gh`. |
-| D2 | ejective palato-alveolar affricate | ჭ /tʃʼ/ | `ch'` | **`tch`** | Required by *Tchaeul*. `peacecorps` writes `t'ch`. Leaves ჩ /tʃʰ/ = `ch`, and frees the apostrophe for stops. |
-| D3 | the y-vowel | — | — | **`y` = an orthographic variant of `i`** | Georgian has no /ɨ/ or /y/, and no source supports adding one. Writing /i/ as `y` in closed and non-initial syllables costs *nothing phonologically* and gives an English reader the lax [ɪ] the strand wants. *Th'tysh* = /tʰtʼiʃ/, *Xelxyx* = /xɛlxix/, *Ysclyth* = /isklitʰ/. |
-| D4 | word-final | — | nom. `-i` | **output the bare stem** | Decisive; see §6.1 and §8.6. All five existing names are consonant-final; every Georgian *word* is vowel-final. Georgian **stems** may end in any of the 27 consonants except /h/, in sequences up to five members [butskhrikidze2002 p.98]. Romanizing the stem is the principled way to get consonant-final names that are still Georgian. |
+| D1 | back fricative | ხ /x/ | `kh` | **`x`** | **Overlay.** Required by *Xelxyx*. Precedent for the spelling: `x` is the ISO 9984 value and the common unofficial/keyboard value [wiki-ka-romanization]. Also pulls the strand away from Welsh, which spells /x/ `ch` — a project goal. Keep ღ /ɣ/ = `gh`. |
+| D2 | ejective palato-alveolar affricate | ჭ /tʃʼ/ | `ch'` | **`tch`** | **Overlay, no precedent.** Required by *Tchaeul*. `peacecorps`'s `t'ch` is the nearest thing and it keeps the apostrophe. Cost: `tch` is ambiguous with a /tʰ/+/tʃʰ/ sequence, and it drops the very mark that signals ejectivity. Consider `t'ch` instead, which is attested and respells *Tchaeul* as *T'chaeul*. |
+| D3 | the y-vowel | — | — | **`y` = orthographic variant of `i`** | **Overlay, no Georgian source whatsoever.** Georgian has no /ɨ/ or /y/ and nothing in §1 supports adding one. The overlay is purely orthographic — /i/ throughout — so it costs nothing phonologically while giving an English reader the lax [ɪ] the strand wants: *Th'tysh* = /tʰtʼiʃ/, *Xelxyx* = /xɛlxix/, *Ysclyth* = /isklitʰ/. |
+| D4 | word-final | — | nom. `-i` | **output the bare stem** | **Overlay / OPEN DECISION.** See §6.1 and §8.6. Georgian stems end in consonants; Georgian *words* do not. Outputting a stem is a deliberate non-citation-form convention, not a resolution of that conflict. |
+| D5 | apostrophe placement | — | after the consonant | **unchanged** | **Not an overlay — follow the standard.** This is the one place where following the cited system changes an existing name: *Kas'queil* must be respelled **Kasq'ueil**. → decision for the tool's author. |
 
 **Kept from the national system, with the reader-traps flagged:**
 
-- **`q'` = ყ /qʼ/**, the uvular ejective. Trap: English readers see `qu` and say /kw/. In
-  *Kas'queil* the `u` is really /v/ or a hiatus vowel. **Recommend never writing `qu`** — write
-  `q'v` or `q'u` explicitly. (BGN 1981 and ISO 9984 both write bare `q`, so `q` without apostrophe
-  is also attestable if the apostrophe count gets too high.)
+- **`q'` = ყ /qʼ/**, the uvular ejective. Trap: English readers see `qu` and say /kw/. **Never
+  write `qu`** — write `q'v` or `q'u` explicitly. (BGN/PCGN 1981 and ISO 9984 both write bare `q`,
+  so `q` without an apostrophe is also attestable if the apostrophe count gets too high.)
 - **`ts` `dz` `ch` `zh` `sh` `gh`** digraphs. Trap: `ts` is ambiguous between /tsʰ/ (ც) and a
-  /tʰ+s/ sequence, and `ch` between /tʃʰ/ (ჩ) and /tʰ+ʃ/. These sequences do occur. Rule: never
+  /tʰ/+/s/ sequence, and `ch` between /tʃʰ/ (ჩ) and /tʰ/+/ʃ/. Both sequences occur. Rule: never
   emit a bare `t`+`s` or `t`+`sh` boundary — insert a separator or re-order.
-- **Apostrophe placement: *after* the consonant it ejectivizes** (`k'`, `t'`, `p'`, `q'`, `ts'`).
-  This reproduces *Th'tysh*'s shape (consonant + apostrophe) and forces *Kas'queil* to be re-spelled
-  **Kasq'ueil**. This is the one place where following the standard changes an existing name.
-  → **decision for the tool's author.**
-- **Vowels `a e i o u`** = /ɑ ɛ i ɔ u/. No accents, no length marks (§4.4).
-- **No stress mark** (§4.3).
+- **Vowels `a e i o u`** = /ɑ ɛ i ɔ u/. No accents, no length marks (§4.4). No stress mark (§4.3).
 
-**Worked example of the whole scheme** — the Irish name *Lasairchos* 'Flamefoot' /ˈl̪ˠɑsˠəɾʲxosˠ/,
-run through §3 and §8, would surface as a stem like `lasartchos-` → romanized **Lasartchos**;
-under D3, **Lasartchos** ~ *Lasartchys*. (unattested — this is an illustration of the conventions,
-not a source claim.)
+**Honest summary of fit.** The five existing names are **poor matches** to Georgian romanization.
+Only *Xelxyx* is close, and only after adopting two non-standard conventions. The strand's
+apostrophe-and-digraph look genuinely resembles the national system at a glance, and its
+apostrophe-as-ejective reading is the correct modern one (§5.1) — but at the level of individual
+letters the resemblance does not survive inspection. Presenting D1–D4 as "the conventions that
+match the existing names" is fair; presenting them as *readings under* the national system is not.
 
 ---
 
@@ -1067,20 +1251,33 @@ Declension depends on whether the noun **root** ends in a consonant or a vowel
 `*` = the root's final vowel truncates (roots in *-e* and *-a* truncate; roots in *-o* and *-u* do
 not) [wiki-ka-grammar §Declension].
 
-So: **-i is a nominative case suffix on consonant-final roots, not part of the stem**, and it
-disappears in every other case. This is exactly why §5's D4 (output the stem) is legitimate rather
-than a cheat — *k'ats-* is as much a Georgian word-form as *k'atsi* is; it is what you see in the
-ergative, genitive and vocative.
+So: **-i is a nominative case suffix on consonant-final roots, not part of the stem**, and it is
+replaced, not merely dropped, in every other case.
 
-It is obligatory on foreign consonant-final nouns and names: every consonant-final item in the
-`ka-wiki-title` harvest takes it (Amsterdam → *amst'erdam-i*, Berlin → *berlin-i*, Cork →
+**But a bare stem is not itself a word-form.** The cited table labels *k'ats-* the root/stem and
+shows it only ever with a case ending attached; *k'ats* alone is a bound form. §5's D4 (output the
+stem) is therefore a **deliberate non-citation-form project convention**, not a demonstration that
+the stem is an ordinary Georgian word. What the source does license is the weaker and still useful
+point: the *segmental* material *k'ats-* is well-formed Georgian, ends in a consonant, and is
+visible in the paradigm — so a stem-shaped output is phonotactically Georgian even though it is
+morphologically incomplete. See §8.6.
+
+It is obligatory on foreign consonant-final **common nouns and on the right edge of a name
+phrase**: every such item in the `ka-wiki-title` harvest takes it (Amsterdam → *amst'erdam-i*, Berlin → *berlin-i*, Cork →
 *k'ork'-i*), and vowel-final ones take nothing (Ankara → *ank'ara*, Chicago → *chik'ago*,
 Glasgow → *glazgo*) — see §7.
 
-**Important detail from the harvest:** in a multi-word foreign name, **only the last word takes
--i**: *jorj vashingt'oni* (George Washington), *uiliam sheksp'iri* (William Shakespeare),
+**Scope, narrowed.** The rule is not "every consonant-final foreign word takes -i" — it is
+"the right edge of the inflected nominal takes it". In a multi-word foreign name **only the last
+word does**: *jorj vashingt'oni* (George Washington), *uiliam sheksp'iri* (William Shakespeare),
 *sherlok' holmzi* (Sherlock Holmes), *elvis p'resli* (Elvis Presley). And a non-final element may
 therefore end in a full consonant cluster: Michael → *maik'l* (no -i), *bat'ler* (Butler).
+
+`CONFLICT:` this leaves the status of **native consonant-final personal names** unexplained.
+§6.5 lists Davit, Zurab, Levan, Tamaz, Nikoloz, Avtandil, Tamar as ordinary citation forms
+[wiki-ka-name §Given names], and the harvest gives bare *jorj*, *elvis*, *sherlok'*, *maik'l*.
+Neither `wiki-ka-grammar` nor `wiki-ka-name` states a rule exempting personal names from the
+nominative -i, and no source in this set explains the exemption. Not resolved.
 
 Georgian has **no articles** and **no grammatical gender** [wiki-ka §Grammar summary].
 
@@ -1152,7 +1349,7 @@ already appear without the nominative -i, which supports §5's D4.
 
 | Provenance | Rows | What it is | Both sides in IPA? |
 |---|---|---|---|
-| `gabunia2021` | 34 | The Appendix-B experimental table (24 items, Geo-like column, English-like recorded in `note`) plus transphonemization examples from the body | Georgian side only; the thesis gives **no English IPA column** |
+| `gabunia2021` | 34 | The Appendix-B experimental table (24 items, Geo-like column, Eng-like recorded in `note`) plus transphonemization examples from the body | Georgian side only; the thesis gives **no English IPA column**. **`target_ipa` is as printed; the Mkhedruli `target_form` is DERIVED** — Appendix B gives IPA variants against English item labels and no Georgian spellings. Every such row says so in `provenance`. |
 | `rayfield2023` | 15 | Anglicisms in Georgian written form | **No** — Georgian orthography only, no IPA anywhere in the article |
 | `kirvalidze2017`, `asaturova-garibashvili` | 6 | Loan lists; Kirvalidze gives a few bracketed transcriptions | Partly |
 | `ka-wiki-title` | 88 | The Wikipedia-title transliteration harvest | Georgian orthography; **IPA derived, see below** |
@@ -1164,9 +1361,15 @@ already appear without the nominative -i, which supports §5's D4.
    older and larger contact layers are invisible.
 2. **`gabunia2021`'s 24 items were chosen for sociolinguistic salience, not phonological
    coverage** [bib.md]. There is no /θ/ item, no /ð/ item, and nothing testing cluster repair.
-3. **The `ka-wiki-title` rows are editorial practice, not speech** — Wikipedia article titles,
-   frequently Russian-mediated, reflecting a written convention. Every such row carries the tag.
-   Translation rows were discarded (see `digest-log.md`).
+3. **The `ka-wiki-title` rows are editorial practice, not speech** — Wikipedia article titles
+   reflecting a written convention. Every such row carries the tag. Translation rows were
+   discarded (see `digest-log.md`).
+3b. **`source_lang` is `und` on all 88 of these rows, not `eng`.** An en-title/ka-title pair
+   establishes only that the English Wikipedia article has that name; it does **not** establish
+   that English was the historical donor. Many of these entered Georgian through Russian
+   (*Stambol-i*, *Bak'o*, *Kievi*), Greek (*Ateni*), German (*Miunkheni*) or Latin. The
+   `source_form` is best understood as an **English editorial source string**, and the provenance
+   field now says exactly that. Notes that assert a mediation route are marked "(route inferred)".
 4. **`target_ipa` on the `ka-wiki-title` rows is derived, not quoted.** The source gives Mkhedruli
    only; the IPA was produced by mechanical letter-by-letter transliteration, which is defensible
    because Georgian orthography is one-to-one with the phoneme inventory [shosted2006 p.255] — but
@@ -1175,6 +1378,27 @@ already appear without the nominative -i, which supports §5's D4.
    /qʼ/ → [ʔ] variation (§1.3).
 5. **`source_ipa` is blank on every row** — none of the sources gives the donor pronunciation in
    IPA. Per `ATTESTED-FORMAT.md`, it was left blank rather than invented.
+6. **The `epenthesis` process tag on consonant-final rows means the nominative -i, which is
+   morphology, not phonological epenthesis.** `ATTESTED-FORMAT.md`'s tag vocabulary has no
+   morphological tag, so the tag is kept for schema compliance and **every such row's `note` now
+   begins "nominative -i = morphological case suffix, NOT phonological epenthesis"**. A rule
+   writer must not read these rows as evidence of an inserted repair vowel — there is no row in
+   the file that instantiates phonological epenthesis. Represent -i as a suffix or a separate
+   output-mode step, which matters especially because the strand may deliberately output bare
+   stems (§8.6).
+
+**Letter → IPA table used for the derived `ka-wiki-title` rows** (Georgian orthography is one
+symbol per phoneme [shosted2006 p.255]; ` ` = word boundary; the orthographic apostrophe U+2019 and
+the hyphen are rendered as boundaries, not segments):
+
+`ა ɑ · ბ b · გ ɡ · დ d · ე ɛ · ვ v · ზ z · თ tʰ · ი i · კ kʼ · ლ l · მ m · ნ n · ო ɔ · პ pʼ ·
+ჟ ʒ · რ r · ს s · ტ tʼ · უ u · ფ pʰ · ქ kʰ · ღ ɣ · ყ qʼ · შ ʃ · ჩ tʃʰ · ც tsʰ · ძ dz · წ tsʼ ·
+ჭ tʃʼ · ხ x · ჯ dʒ · ჰ h`
+
+All 88 rows were re-derived from this table after the review, which corrected two defects it had
+found (an ASCII apostrophe carried into *O'Connor*'s IPA, and three hyphens) and confirmed the
+rest. Note especially that **კ *kan* /kʼ/ and ქ *khar* /kʰ/ are different letters**; *Connacht* →
+კონაქტი is /kʼɔnɑ**kʰ**tʼi/, with initial კ and medial ქ.
 
 **What the harvest is actually good for**, beyond bulk: it is the only large sample showing
 (a) the **-i on the last word only** of a multi-word name, with bare consonant-final and even
@@ -1213,7 +1437,9 @@ What the sources *do* give, that bears on it:
    provenance every time it is used** — it is editorial convention, mostly via Russian ю/я/ü, not
    evidence about Georgian speech.
 
-**The options, for the tool's author to choose between (not decided here):**
+**All four options below are PROJECT OVERLAYS / an OPEN DECISION.** None is a sourced Georgian
+rule; there is no attested Georgian treatment of foreign palatalized consonants to be faithful to.
+Not decided here.
 
 | Option | Rule | Cost / evidence |
 |---|---|---|
@@ -1232,17 +1458,17 @@ would merge, and that Georgian's own slot-V /v/ is normally at most one per clus
 |---|---|---|
 | /ɣ/ | **/ɣ/** — native (ღ) | [shosted2006 p.255]. No repair. Unlike Welsh and Arabic, Georgian has this segment outright. |
 | /x/ | **/x/** — native (ხ) | [shosted2006 p.255]. No repair. (Velar vs uvular: §1.2.) |
-| /h/ | **/h/** — native but heavily restricted | Native (ჰ) [shosted2006 p.255], but "**never occurs in consonant sequences**" and is barred except word-initially [butskhrikidze2002 p.87]; **stems cannot end in /h/** [butskhrikidze2002 p.98]. Loans do keep it intervocalically: *k'op'enhageni*, *bethoveni*, *st'ok'holmi*; and Tehran → *teirani* shows outright **deletion** [ka-wiki-title]. Rule: keep /h/ word-initially and intervocalically; **delete elsewhere**. |
+| /h/ | **/h/** — native, restricted in native stems, but **UNRESOLVED in loans** | Native (ჰ) [shosted2006 p.255], but in native vocabulary "**never occurs in consonant sequences**", barred except word-initially [butskhrikidze2002 p.87], and **stems cannot end in /h/** [butskhrikidze2002 p.98]. `CONFLICT:` the editorial loan data do **not** follow the native restriction. Stockholm → სტოკჰოლმი /stʼɔkʼhɔlmi/ has /h/ **inside a consonant sequence** (`kʼh`), and Ludwig van Beethoven → ბეთჰოვენი /bɛtʰhɔvɛni/ has another (`tʰh`) [ka-wiki-title]. Against that, Tehran → თეირანი shows deletion — but of an *intervocalic* /h/, i.e. the one position the native rule permits. An earlier draft's rule ("keep initially and intervocalically, delete elsewhere") is therefore **backwards relative to the only two data points** and is withdrawn. Native-stem phonotactics and editorial loan orthography are two different objects here (§9). **Unresolved.** |
 | /f/ | **/pʰ/** | See §3. Attested six ways in the harvest (Belfast → *belpasti*, Cardiff → *k'ardipi*, Oxford → *okspordi*, Philadelphia → *piladelpia*, San Francisco → *san-pransisk'o*, Wolfgang → *volpgang*) and in `gabunia2021`. Georgian has no /f/ (§1.4); [f] exists only as an allophone of /v/ before voiceless consonants, which is **not** available in the positions Irish /f/ occupies. |
 | /v/ | **/v/** — native | [shosted2006 p.261]. No repair. |
-| /w/ (< lenited b, m) | **/u/ word-initially, /v/ elsewhere** | See §3.3, which is a `CONFLICT:`. `gabunia2021` frames /w/ → /v/ as nativized and /u/ as prestige [gabunia2021 pp.14–15], but her own *weekend* has /u/ in both variants and her own *forward* → *poruardi*; Rayfield states the split **positionally** — initial /w/ → უ *u* (*u’ork’shopebi*), medial /w/ → ვ *v* (*netvorki*, *porvardi*) [rayfield2023 pp.23, 24]. The harvest matches: *uelsi*, *uiliam*, *uaildi*, *uinst'on* vs *vashingt'oni*, *varshava*, *volpgang* (the v-forms are the Russian-mediated ones, where the donor ⟨W⟩ already reads /v/). **Irish /w/ is usually word-initial after lenition, so the positional rule sends it to /u/ — a hiatus vowel, not a consonant. → decision.** |
-| /p/ (rare in native Irish) | **/pʼ/** (nativized) or /pʰ/ (prestige) | `gabunia2021`'s /p t k/ → ejective rule (§3). |
+| /w/ (< lenited b, m) | **/u/ word-initially, /v/ elsewhere** — `(unattested)` PROJECT OVERLAY | See §3.3, which is a `CONFLICT:`. `gabunia2021` labels /w/ → /v/ `Geo-like` and /u/ `Eng-like` [gabunia2021 pp.14–15], but her own *weekend* has /u/ in both variants and her own *forward* → *poruardi*; Rayfield states the split **positionally** — initial /w/ → უ *u* (*u’ork’shopebi*), medial /w/ → ვ *v* (*netvorki*, *porvardi*) [rayfield2023 pp.23, 24]. The harvest matches: *uelsi*, *uiliam*, *uaildi*, *uinst'on* vs *vashingt'oni*, *varshava*, *volpgang* (the v-forms are the Russian-mediated ones, where the donor ⟨W⟩ already reads /v/). **Irish /w/ is usually word-initial after lenition, so the positional rule sends it to /u/ — a hiatus vowel, not a consonant. → decision.** |
+| /p/ (rare in native Irish) | **/pʼ/** (`Geo-like`) or /pʰ/ (`Eng-like`) | §3.1 — an OPEN DECISION, not a settled mapping. |
 | /ŋ/ | **/nɡ/** | Harvest: England → *inglisi*, Springsteen → *springst'ini*, Washington → *vashingt'oni*, Wolfgang → *volpgang* (word-final -ng kept). Georgian has no /ŋ/. `gabunia2021` gives /ŋ/ → /n/ or /nɡ/. |
 | voiceless sonorants | **plain sonorant** (unattested) | No Georgian precedent in any source. Georgian has one /l/, one /n/, one /m/, one rhotic. Options: (i) collapse to the voiced sonorant; (ii) sonorant + /h/ — ruled out, /h/ cannot occur in a cluster [butskhrikidze2002 p.87]. **(i) is effectively forced.** |
 | /ɾ/ vs /r/ | **one rhotic /ɾ~r/** | Georgian's rhotic is a single phoneme, tap-dominant (mean intervocalic closure ~20 ms, trilling rare) [shosted2006 p.261]. Both Irish rhotics collapse. |
 | /l̪ˠ lʲ n̪ˠ nʲ/ | **/l/ /n/** (+ whatever §8.1 decides) | Georgian has one /l/ and one /n/. /l/ has an allophonic velarized [ɫ] before back vowels [wiki-help-ipa-ka n.4], which coincidentally covers broad /l̪ˠ/ for free before /ɑ ɔ u/ — but it is allophonic, not contrastive, so it cannot carry the Irish contrast. |
 | /tʲ dʲ/ (affricated in some dialects) | /tʰ tʼ d/ or /tʃʰ tʃʼ dʒ/ | Georgian has a full affricate series to receive them if §8.1 opts for a palatalization-to-affrication treatment. (unattested for Georgian.) |
-| /ə/ (schwa) | **/ɑ/ or /ɛ/** | **Georgian has no schwa**: "there is no phonemic schwa in Georgian, nor are there any phonological processes that would reduce underlying phonemic vowels to schwa" [crouch2022-diss §1.3 p.39]. The intrusive vocoid (§2.12) is schwa-*like* but sub-phonemic and must not be used as a target. Harvest practice follows donor spelling. **Decision needed.** |
+| /ə/ (schwa) | **/ɑ/ or /ɛ/** — OPEN DECISION, `(unattested)` | **Georgian has no schwa**: "there is no phonemic schwa in Georgian, nor are there any phonological processes that would reduce underlying phonemic vowels to schwa" [crouch2022-diss §1.3 p.39]. The intrusive vocoid (§2.12) is schwa-*like* but sub-phonemic and must not be used as a target. Harvest practice follows donor spelling. **Decision needed.** |
 
 ### 8.3 Vowel length and diphthongs
 
@@ -1256,7 +1482,8 @@ VV** — the exceptions Butskhrikidze lists are all loans (*musaipi*, *paipuri*,
 (*uaildi*, *jeimz*, *joisi*, *shineid*, *sheimas*, *reik'iavik'i*, *sidnei*, *kairo*). Where two
 vowels do meet they are **heterosyllabic** [shosted2006 p.262].
 
-Recommended mapping (extrapolated from the loan pattern, not stated by any source):
+Recommended mapping — **`(unattested)`, a PROJECT OVERLAY extrapolated from the loan pattern and
+stated by no source; no row in `attested.tsv` instantiates any of these four**:
 `/iə/ → /iɑ/` · `/uə/ → /uɑ/` · `/əi/ → /ɛi/` · `/əu/ → /ɔu/`, each as two syllables.
 The alternative — monophthongize to the first element — is simpler and equally defensible; the
 loan evidence favours keeping both vowels.
@@ -1270,7 +1497,7 @@ that will not repair Irish clusters.
 | Irish onset | Georgian status | Rule (§3) |
 |---|---|---|
 | /sp/ | **licit** — grid row `s` includes `p` and `p'` | none |
-| /st/ | **ILLICIT as /stʰ/** — grid row `s` has `t'` but not `t`; Appendix 2 lists `st'` only | **substitution: /stʰ/ → /stʼ/**. Directly attested in loans: Istanbul → *st'amboli*, Stockholm → *st'ok'holmi*, Bristol → *brist'oli*, Amsterdam → *amst'erdami*, Manchester → *manchest'eri* [ka-wiki-title]. This is the single most reliable repair Georgian applies to English input. |
+| /st/ | **/stʰ/ not attested** — grid row `s` has `t'` but not `t`; Appendix 2 lists `st'` only | **Not a cluster repair — the cluster is retained; only the stop series changes.** This is the §3.1 /p t k/ → ejective mapping applying to the /t/, and it should be implemented there, **not** as a separate `/st/ → /stʼ/` rule, which would duplicate and could conflict with the general stop rule. The editorial spellings are consistent — Istanbul → *st'amboli*, Stockholm → *st'ok'holmi*, Bristol → *brist'oli*, Amsterdam → *amst'erdami*, Manchester → *manchest'eri* [ka-wiki-title] — but they are transliteration practice, often of Russian-mediated forms, not measured speech, so "the single most reliable repair Georgian applies to English input" (earlier draft) is withdrawn. Note that `gabunia2021`'s *casting* → კასტინგი keeps plain `st` [gabunia2021 pp.50–51], against the trend. |
 | /sk/ | **licit** — `sk` and `sk'` both attested (*skesi* 'gender', *sk'a* 'hive'); `sk` is also a harmonic cluster | none |
 | /sm/ | **licit** — *smena* 'hearing' | none |
 | /sn/ | **not attested** — absent from Appendix 2 and from grid row `s`, although `zn`, `šn`, `xn` all are | Appendix 2 is explicitly "not exhaustive", so this may be a gap rather than a ban. Options: leave as /sn/; or → /zn/ (attested, *zne* 'character'). **Decision needed, low stakes.** |
@@ -1289,9 +1516,16 @@ The stem-final restriction that bites is: **harmonic clusters are the only obstr
 permitted stem-finally** [butskhrikidze2002 p.104]; everything else must be
 obstruent+sonorant, sonorant+obstruent (mostly loans), or contain a sonorant. Irish final /xt/
 (as in *-acht*) is a fricative+stop obstruent sequence that is **not** harmonic (x is dorsal, t is
-coronal — the wrong order) → needs repair. Note the harvest's own answer for exactly this word:
-**Connacht → კონაქტი *k'onakt'i*** — /xt/ → /kʰtʼ/, i.e. the fricative hardens to a stop and the
-stop ejectivizes [ka-wiki-title]. That is a directly usable precedent for the Irish *-acht* suffix.
+coronal — the wrong order), so §2 does not license it stem-finally.
+
+The harvest contains exactly one relevant editorial form: **Connacht → კონაქტი**, letter by letter
+კ-ო-ნ-ა-**ქ**-**ტ**-ი = /kʼɔnɑ**kʰtʼ**i/. Note the two k-letters are different — initial კ *kan*
+is /kʼ/, medial **ქ** *khar* is /kʰ/ — so the mapping is **/xt/ → /kʰtʼ/**: the fricative hardens
+to an aspirated stop, and the /t/ takes the ejective per §3.1. (A review of this digest read the
+medial letter as კ and inferred /kʼtʼ/; the Mkhedruli is ქ, so /kʰtʼ/ stands.) **Weight it low**:
+it is one editorial spelling of one word, and `kʰtʼ` is itself not a harmonic cluster, so the
+adaptation does not actually satisfy the §2 stem-final restriction either. Treat as a suggestive
+precedent for the Irish *-acht* suffix, not a rule.
 
 ### 8.5 Irish initial mutations and genitives
 
@@ -1313,7 +1547,10 @@ adapted as whatever segment it surfaces as (lenited /b/ → [v] → Georgian /v/
   [butskhrikidze2002 p.105]; consonant-final stems obligatorily take the nominative -i (§6.1);
   and every consonant-final foreign name in the harvest takes it (§7).
 
-**Recommended resolution: output the STEM, not the nominative singular.** This is not a fudge:
+**Recommended resolution — a PROJECT OVERLAY, not a linguistic resolution: output the STEM, not
+the nominative singular.** A bare stem is a bound form, not an ordinary Georgian word (§6.1); this
+convention outputs a morphological representation rather than a citation form, and should be
+documented in the rule file as such. What makes it defensible rather than arbitrary:
 
 1. Georgian **stems** may end in **any of the 27 consonants except /h/**, in sequences of up to
    five members [butskhrikidze2002 p.98–99].
@@ -1329,9 +1566,14 @@ The residual exceptions Butskhrikidze allows for word-final consonants are sonor
 (*c'in*, *xval*, *gušin*) and voiceless-obstruent-final ones (*zevit*, [k'argat])
 [butskhrikidze2002 p.98] — which happens to be exactly the *Xelxyx* / *Ysclyth* / *Tchaeul* shape.
 
+**Against it:** Butskhrikidze's own Appendix 3 calls stem-final position "**i.e. word-medial**"
+[butskhrikidze2002 p.207] — from her point of view a stem edge is by definition not a word edge.
+And the exemption of native consonant-final personal names (Davit, Tamar) is unexplained by any
+source (§6.1 `CONFLICT:`), so it cannot be leaned on.
+
 **If instead the -i is kept**, every name becomes vowel-final and the strand loses its most visible
 signature; the five existing names would have to be re-read as *Tchaeuli, Th'tyshi, Kas'queili,
-Xelxyxi, Ysclythi*. → **decision for the tool's author.**
+Xelxyxi, Ysclythi*. → **OPEN DECISION for the tool's author.**
 
 ### 8.7 Where Georgian *adds* clusters
 
@@ -1353,8 +1595,8 @@ the lever — and it is a *grammar* lever, not an overlay.
 1. **Palatalization has no precedent.** §8.1. No Russian→Georgian source exists in the open
    literature we could find; the `ka-wiki-title` `Ci` spellings are editorial and Russian-mediated.
    Four options laid out; none decided.
-2. **Which laryngeal series receives Irish /p t k/** (§3.1). `gabunia2021`'s nativized layer
-   says ejectives — but that is the State Language Department's *prescriptive* norm, and her own
+2. **Which laryngeal series receives Irish /p t k/** (§3.1). `gabunia2021`'s `Geo-like` column
+   is the ejective — but that is the State Language Department's *prescriptive* norm, and her own
    measured majority is the aspirate (59.6% Eng-like vs 36.9% Geo-like across 1320 tokens),
    except in post-consonantal medial position where the ejective wins 84.1%. Rayfield, describing
    written usage, finds the ejective the default for *t* and *k/c* but admits that for კ/ქ he
@@ -1381,3 +1623,29 @@ the lever — and it is a *grammar* lever, not an overlay.
    with a full substitution table; several candidates exist but are login-walled.
 10. **Six vs seven vs eight maximum onset consonants** (§2.1) — irrelevant in practice, since no
     Irish input approaches the limit.
+11. **What happens to an Irish cluster that §2 rejects** (§3.0). The loan corpus contains no such
+    input, so it supplies no answer. Unresolved by design — do not fill the gap by assuming
+    preservation.
+12. **/h/ in loan clusters** (§8.2). Native stems bar /h/ from clusters; *Stockholm* and
+    *Beethoven* put it in one. Native-stem phonotactics and editorial loan orthography are
+    different objects and this digest does not reconcile them.
+13. **Why native consonant-final personal names (Davit, Tamar) escape the nominative -i** (§6.1).
+    No source in this set explains it, and §8.6's stem-output overlay would be on firmer ground if
+    one did.
+
+### Policies that are project overlays, not sourced Georgian rules
+
+Collected here so a rule writer can see them in one place. Each has its evidence in the section
+named; none is a rule any source states.
+
+| Policy | §  | Evidential status |
+|---|---|---|
+| Bare-stem output (drop nominative -i) | 8.6, 5.3 D4 | Stem shape is attested; stem-as-word-form is not. A non-citation-form convention. |
+| `y` = orthographic /i/ | 5.3 D3 | No Georgian source at all. Purely orthographic, so phonologically free. |
+| `x` for ხ, `tch` for ჭ | 5.3 D1–D2 | `x` has spelling precedent (ISO 9984); `tch` has none (`peacecorps` writes `t'ch`). |
+| Positional /w/ → /u/ ~ /v/ | 3.3, 8.2 | `(unattested)` as a rule; synthesized from four partial sources, and conflates /w/ with mediating-language ⟨W⟩ = /v/. |
+| Irish diphthongs → VV hiatus | 8.3 | `(unattested)`; no row in `attested.tsv` instantiates it. |
+| /ə/ → /ɑ/ or /ɛ/ | 8.2 | `(unattested)`; Georgian has no schwa and the intrusive vocoid is not a usable target. |
+| Palatalization options A–D | 8.1 | No attested Georgian treatment exists; all four are overlays. |
+| Ejective as the default for /p t k/ | 3.1 | The official norm, but a minority of measured tokens; a design choice. |
+| Word-level laryngeal harmony | 3.1 | Observed in 3 of 24 items; generalization is a design choice. |
