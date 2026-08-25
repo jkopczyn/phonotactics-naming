@@ -1,0 +1,81 @@
+                           Intonational Phonology of Georgian
+
+                      Sun-Ah Jun, Chad Vicenik, & Ingvar Lofstedt
+                                       UCLA
+
+This paper investigates the intonational phonology of Georgian, a language from the
+South Caucasian family spoken predominantly in the nation of Georgia by over 4 million
+people (Hewitt 1995). The pitch contours of various sentence types including
+declaratives, yes/no questions, and wh-questions and the effect of focus on pitch were
+examined. Data used in this study came from nearly 600 sentences from a middle aged,
+female speaker gathered in a field work setting (about 6 months). The speaker was
+wearing a head-mounted microphone, and at least two repetitions of each sentence were
+recorded directly into a laptop using PitchWorks (Scicon R&D). A selection of these
+sentences (about 115 sentences) were also recorded by three additional speakers (2
+female, 1 male) and used for confirmation.
+        Word order in Georgian is fairly free, though there are preferred word orders for
+certain sentence types. The language is known for its complex morphology and
+consonant clusters. A syllable can have very long consonant clusters, but only a vowel
+can be a syllable nucleus and carry an intonational tone. The language is thought to show
+stress, although its exact realization is debated in the literature. Robins & Waterson
+(1952) proposed variable stress, appearing on alternating syllables beginning with either
+the first or second syllable. Aronson (1990) proposed that stress fell on the 1st or
+antepenultimate syllable in words with four or fewer syllables and on both the 1st and
+antepenultimate syllable in longer words.
+        Our data suggest that in general the first syllable of a word is stressed, similar to
+Aronson (stress in Georgian is realized with larger amplitude). At a post-lexical level,
+however, some, but not all, of the stressed syllables receive a pitch accent (either L*, H*,
+L+H* or L*+H), and the pitch accented syllable is the first syllable of an Accentual
+Phrase (=AP), a phrase slightly larger than a word. Unlike Aaronson, our data also
+suggest that the high falling pitch found in some of the antepenultimate syllables of
+words is not a property of the word, but a property of an AP. That is, the antepenult of a
+word does not show high falling pitch if the word comes in the middle of an AP, and any
+syllable of a word can show the high falling pitch if it is the antepenult of an AP. We
+propose that this high falling pitch is a ‘phrase accent’ of an AP and label it as H+L to
+capture the high pitch on antepenult and the sharp falling to a low pitch on the following
+syllable.
+        In addition to an AP, we propose two larger prosodic units marked by intonation:
+an Intermediate Phrase (ip) and an Intonational Phrase (IP). An ip is larger than an AP
+and smaller than an IP. All three prosodic units are marked by a boundary tone on the
+right edge of the phrase. We have observed three boundary tones for an AP (Ha, La, and
+L+Ha), three boundary tones for an ip (H-, L- and L+H-) and four possible boundary
+tones for an IP (H%, L%, L+H%, or HL%). A ‘+’ sign is used when a boundary tone is
+realized on the last two syllables of a phrase, which is distinct from the case where two
+tones are realized on the final syllable of a phrase (e.g., L+H% means a L tone on the
+penult and a H tone on the final syllable of an IP while HL% means a falling tone on the
+final syllable of an IP).
+        Typically, in declaratives, each word forms one AP, with a L* pitch accent and
+Ha boundary tone. Ha boundary tones decline over the course of the utterance, which
+typically ends in L%. Syntactic/semantic groups, such as subject nouns and its modifying
+adjectives or a relative clause, often form one ip, marked by a H-, which is higher than
+the preceding H tones. In this case, the ip-medial APs often show a falling pitch (H* La)
+pattern.
+        Questions prefer a verb medial word order (SVO), and are realized with a large
+prosodic break after the verb, marked by an ip boundary (SV//O). A common pattern in a
+question sentence, whether it be a Yes/No-question or a Wh-question, is that the first ip
+(ending with a verb) and the post-verbal ip both tend to have the H+L phrase accent. The
+end of the first ip can be marked by H- or L-, while the end of the sentence, i.e., post-
+verbal phrase, is marked by HL% or H%. Therefore, the final three syllables of a question
+sentence show a falling-rising (H-L-H%) contour or falling-rising-falling (H-L-HL%)
+contour, if the phrase has more than three syllables. When the phrase has fewer than 3
+syllables, either the initial H is of the contour is not realized (i.e., L* H%/HL%) or the
+syllable is lengthened to carry multiple tones.
+        Finally, focus is usually marked with a H* or L+H* pitch accent and, as in many
+other languages, the post-focus words are often dephrased and deaccented, or produced in
+a very reduced pitch range. But the word immediately following the focused word is
+sometimes merge with the focused word and form one AP showing the H+L phrase
+accent. Thus, it seems that focus and questions share a common meaning marked by H+L
+phrase accent. More data need to be examined to confirm the current findings.
+
+
+References
+
+Aronson, Howard. 1990. Georgian: A reading grammar. Slavica Publishers, Inc.
+
+Hewitt, B.G. 1995. Georgian: A structural reference grammar. John Benjamins
+    Publishing Co. Amsterdam.
+
+Robins, R.H. & Waterson, Natalie. 1952. "Notes on the Phonetics of the Georgian
+    Word." Bulletin of the School of Oriental and African Studies, University of
+    London. Vol. 14, no. 1. pgs. 55-72.
+

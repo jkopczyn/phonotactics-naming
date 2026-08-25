@@ -1,0 +1,1989 @@
+                                     An ultrasound study of Connemara Irish
+                                               palatalization and velarization
+                                                                                                                        Ryan Bennett
+                                                                            Department of Linguistics, University of California, Santa Cruz
+                                                                                                                      rbennett@ucsc.edu
+
+                                                                                                                  Máire Nı́ Chiosáin
+                                                                  School of Languages, Cultures and Linguistics, University College Dublin
+                                                                                                                maire.nichiosain@ucd.ie
+
+                                                                                                                         Jaye Padgett
+                                                                            Department of Linguistics, University of California, Santa Cruz
+                                                                                                                      padgett@ucsc.edu
+
+                                                                                                                      Grant McGuire
+                                                                            Department of Linguistics, University of California, Santa Cruz
+                                                                                                                     gmcguir1@ucsc.edu
+
+
+
+
+       We present the first ultrasound analysis of the secondary palatalization contrast in Irish,
+       analyzing data from five speakers from the Connemara dialect group. Word-initial /pʲ(bʲ)
+       pˠ(bˠ) tʲ tˠ kʲ kˠ fʲ fˠ sʲ sˠ xʲ xˠ/ are analyzed in the context of /iː uː/. We find, first,
+       that tongue body position robustly distinguishes palatalized from velarized consonants,
+       across place of articulation, manner, and vowel place contexts, with palatalized consonants
+       having fronter and/or higher tongue body realizations than their velarized counterparts.
+       This conclusion holds equally for labial consonants, contrary to some previous descriptive
+       claims. Second, the nature and degree of palatalization and velarization depend in systematic
+       ways on consonant place and manner. In coronal consonants, for example, velarization is
+       weaker or absent. Third, the Irish consonants examined resist coarticulation in backness
+       with a following vowel. In all of these respects Irish palatalization is remarkably similar
+       to that of Russian. Our results also support an independent role for pharyngeal cavity
+       expansion/retraction in the production of the palatalization contrast. Finally, we discuss
+       preliminary findings on the dynamics of the secondary articulation gestures. Our use of
+       principal component analysis (PCA) in reaching these findings is also of interest, since
+       PCA has not been employed a great deal in analyses of tongue body movement.
+
+
+
+1 Introduction
+Irish is well known for its use of contrastive secondary palatalization and velarization. There
+are many pairs like bán /bˠaːnˠ/ ‘white’ vs. beann /bʲaːnˠ/ ‘peak’ which demonstrate that
+
+Journal of the International Phonetic Association, page 1 of 44                                      
+                                                                                                     C International Phonetic Association
+doi:10.1017/S0025100317000494
+2   Ryan Bennett, Máire Nı́ Chiosáin, Jaye Padgett & Grant McGuire
+
+
+
+the contrast between palatalized and velarized consonants is phonemic in the language. This
+distinction pervades virtually the entire consonant system; it is found in all word positions
+including word-finally, and it can have grammatical significance, as in cat /kˠatˠ/ ‘cat (SG)’
+vs. cait /kˠatʲ/ ‘cat (PL)’. The impressionistic realization of palatalization and velarization
+depends on several factors discussed in this paper. For consistency we will always transcribe
+both.
+    Though secondary palatalization contrasts are well known, our understanding of the
+articulatory facts behind them is limited. This is true even for better-studied languages with
+phonemic palatalization, such as Russian, where until recently articulatory data on a given
+sound was often limited to X-ray tracings of very few tokens produced by very few speakers
+(Fant 1960, Bolla 1981; see discussion in Proctor 2009: 124–125). It is all the more true of
+Irish, for which there are only a few electropalatographic studies (Farnetani et al. 1991, Nı́
+Chasaide & Fealy 1991).
+    In this paper we present the first ultrasound study of Irish, focusing on the realization
+of tongue body position in the secondary palatalization and velarization contrast. Unlike
+electropalatography, ultrasound imaging can provide direct information about tongue body
+shape and movement, which is crucial to an understanding of palatalization and velarization.
+Our data come from a variety of Connacht Irish spoken in Connemara, in the west of Ireland.
+Our primary aim is to understand the role of the tongue body and root in the Irish palatalization
+contrast, focusing on word-initial position, and to explore how the contrast depends on place
+of articulation, manner (plosive vs. fricative) and vowel backness (/iː/ vs. /uː/). As we will see,
+our results indicate an independent role for tongue root advancement and retraction in the
+production of the Irish contrast. In addition, we discuss preliminary findings on the dynamics
+of the palatalization contrast.
+    Throughout this paper we illustrate our core results with tongue shape plots which estimate
+the characteristic tongue body position for each speaker and each consonant (palatalized or
+velarized), broken down by consonantal place and manner, and vowel place (see Section 3.6.1
+for details). These plots are derived from several repetitions of each item for each speaker.
+We provide representative diagrams when needed for illustration. The rest of the tongue
+shape plots, and the processed raw data from which they are derived, can be found through
+our project website, https://irishpalatals.sites.ucsc.edu. The permanent link to the materials is
+http://n2t.net/ark:/b7291/d1wc74.
+
+
+
+
+2 Background
+2.1 Irish
+Irish (or Gaeilge) has a good deal of Irish state support. Nevertheless, Irish is a minority
+language in Ireland and could be regarded as highly endangered. According to a recent
+government strategy document, ‘Irish is the main community and household language of 3%
+of the country’s population’ (Government of Ireland 2010). This would put the number
+of such speakers at roughly 137,000. However, many sources estimate fewer speakers.
+According to the 2011 Irish census, only 1.8% of the population (roughly 72,000 speakers)
+reported speaking Irish daily outside of the education system (Central Statistics Office
+2012). A recent report by Údarás na Gaeltachta emphasizes that the Irish language is
+at risk of marginalization even in traditional Irish-speaking communities (Ó Giollagáin &
+Charlton 2015).
+     On the other hand, a much larger proportion of the Irish population reports some fluency
+in the language. Indeed, there are many more people learning and speaking Irish as a second
+language than as a first language, in Ireland as well as elsewhere, and such learners may
+constitute the future of the language (McCloskey 2001, 2008). Since the phonemic contrast
+                                                                                         Connemara Irish palatalization and velarization   3
+
+
+
+
+         Figure 1 Gaeltachtaı́ (Irish speaking areas) of Ireland (shaded), following the 2011 Republic of Ireland census.
+
+
+between palatalized and velarized consonants characterizes most of the consonant inventory,
+it poses one of the fundamental challenges for second language learners of Irish. It should
+also be noted that the palatalization contrast is itself endangered and waning in the speech
+of younger speakers, even in Irish speaking communities, probably at least in part due to
+the heavy influence of English (Ó Béarra 2007, Ó Curnáin 2007, Péterváry et al. 2014;
+see also Nance 2014 on Scottish Gaelic). These observations underscore the importance of
+documentation of the contrast in the traditional dialects.
+    The shaded portions of Figure 1 show the Gaeltachtaı́ – areas where Irish is spoken
+as a community language – of the Republic of Ireland, based on census data of 2011. It
+is conventional to distinguish three major dialects of Irish, those of Ulster, Connacht, and
+Munster. Connemara is within the Connacht dialect area and lies to the west of the city of
+Galway. Our recordings for this dialect were made in Casla.
+    The consonant phoneme inventory of Connemara Irish is given in (1) (de Bhaldraithe
+1945, Ó Siadhail 1991, Nı́ Chiosáin & Padgett 2012, see the latter for discussion).
+
+(1)   Connemara Irish phonemic consonant inventory
+                 Labial Coronal       Dorsal       Glottal
+                        j       j            j
+      Stop      pˠ p      tˠ t       kˠ     k
+                bˠ bj dˠ dj          ɡˠ     ɡj
+      Fricative fˠ    fj  sˠ sj      xˠ     xj     hˠ (hj )
+                        j                      j
+                vˠ v                 (ɣˠ) (ɣ )
+      Nasal     mˠ mj nˠ nj          ŋˠ     ŋj
+      Liquid              lˠ lj
+                          rˠ rj
+
+Palatalized and velarized consonants are marked with a superscript j and ɣ respectively. The
+‘voiceless’ and ‘voiced’ stops are generally realized as voiceless-aspirated and voiceless-
+unaspirated respectively, though we retain the usual transcriptions. The Connemara vowel
+system can be roughly described as /i e a o u/, each occurring in long and short form. Irish
+/sʲ/ is realized as [ʃ] or [ɕ], though we represent this sound as /sʲ/ to emphasize that it patterns
+phonologically with the other palatalized consonants. Sounds enclosed in parentheses have
+highly restricted distributions.
+4     Ryan Bennett, Máire Nı́ Chiosáin, Jaye Padgett & Grant McGuire
+
+
+
+
+2.2 Palatalization and velarization
+2.2.1 Introduction
+We use the term ‘(secondary) palatalization’ here to refer to a [j]- or [i]-like gesture
+accompanying a primary consonantal place gesture (International Phonetic Association 1999:
+17). Non-palatalized consonants are typically velarized in Irish. Velarization might likewise
+be described, at least impressionistically, as a [ɰ]- or [ɯ]-like gesture accompanying the
+primary gesture, though we employ the conventional notation /Cˠ/. (See below for details on
+the articulatory realization of these sounds.) The descriptive grammatical literature on Irish is
+consistent with this general understanding: ‘slender’ (palatalized) consonants are described
+as having a secondary articulation of the tongue resembling that of a high front vowel, ‘broad’
+(velarized) consonants as having one resembling a high back vowel (de Bhaldraithe 1945,
+Breatnach 1947, Mhac an Fhailigh 1980). The Irish dialectology literature also reports some
+systematic phonetic variation for these secondary dorsal articulations; we return to these
+claims throughout the paper.
+    Forms illustrating the palatalization contrast are given in (2). As the contrasts in (3) show,
+the presence or absence of palatalization can mark morpho-syntactic distinctions.
+
+(2)       Secondary palatalization in Connemara Irish
+          beann         /bʲaːnˠ/           ‘peak’                        bán    /bˠaːnˠ/     ‘white’
+          peann         /pʲaːnˠ/           ‘pen’                         pán    /pˠaːnˠ/     ‘pawnshop’
+          bráid        /bˠrˠaːdʲ/         ‘neck, throat’                brád   /bˠrˠaːdˠ/   ‘drizzle’
+          scáil        /sˠkˠaːlʲ/         ‘shadow’                      scál   /sˠkˠaːlˠ/   ‘supernatural being’
+(3)       Palatalization encodes grammatical distinctions
+          cait     /kˠatʲ/    ‘cat (PL)’        cat     /kˠatˠ/                               ‘cat (SG)’
+          báid    /bˠaːdʲ/   ‘boat (NOM.PL)/ bád      /bˠaːdˠ/                              ‘boat (NOM.SG)/
+                              (GEN.SG)’                                                       (GEN.PL)’
+     Compared to their velarized counterparts, Irish palatalized consonants have raised second
+formants in CV and VC transitions (Nı́ Chasaide 1990, Nı́ Chiosáin & Padgett 2012). The
+noise following the burst of palatalized plosives is louder, longer, and higher in spectral center
+of gravity, particularly for coronals when compared to labials, (Nı́ Chiosáin & Padgett 2012).
+In both the articulatory and acoustic respects described above, Irish palatalized and velarized
+consonants resemble those of Russian. (See Kochetov 2006, Nı́ Chiosáin & Padgett 2012 and
+references therein.)
+     Though we transcribe palatalization and velarization everywhere for consistency, it is
+important to understand that the impressionistic, auditory realization of both secondary
+articulations depends on phonetic context. In particular, velarization is not auditorily salient
+preceding back vowels, e.g. beo [bʲoː] ‘alive’ vs. bó [boː] (rather than [bˠoː]) ‘cow’.
+Analogously, palatalization is not always auditorily salient preceding front vowels, e.g. bı́
+[biː] (rather than [bʲiː]) ‘be (IMP)’ vs. [bˠiː] ‘yellow’ (Nı́ Chiosáin & Padgett 2001, 2012). The
+latter fact is true especially for labials. Palatalization is more auditorily salient in coronals and
+velars, even around front vowels, because it is often accompanied by characteristic differences
+in the release burst or frication noise, as mentioned above. On the other hand, velarization has
+been characterized as comparatively weak for the coronals, particularly the coronal stops. For
+example, Mhac an Fhailigh (1980: 24) reports that velarized /tˠ dˠ nˠ/ are produced with a
+centralized, [ə]-like dorsal constriction rather than the high [ɰ]- or [ɯ]-like gesture normally
+associated with velarized consonants.
+     Those nuances aside, palatalization before a back vowel, as in [bʲuː], is impressionistically
+obvious, as is velarization before a front vowel, as in [bˠiː]. (Readers interested in hearing
+the pronunciations of these and other forms can access the data through the link given in the
+introduction.) The effects on the second vowel formant can be seen in Figure 2, which shows
+                                                                                     Connemara Irish palatalization and velarization   5
+
+
+
+
+          Figure 2 (Colour online) Plots of F1 and F2 trajectories, with Loess smoothing lines, for [bʲuː] (left) and [bˠiː] (right),
+                   Speaker 1.
+
+
+formant transitions (over seven repetitions with Loess smoothing lines) for productions of
+[bʲuː] and [bˠiː] spoken by Speaker 1 of our study.
+     Lastly, traditional Irish dialect descriptions leave room for doubt as to whether labial
+consonants are in fact produced with secondary dorsal constrictions. Many dialect descriptions
+do not comment on the position of the tongue body during the production of labials (e.g.
+Breatnach 1947, de Búrca 1958, Stockman 1974). Sommerfelt’s (1922: 31–22) description
+of a Donegal (Northern) dialect does suggest that the tongue body is further back for /bˠ/
+than for /bʲ/, but also claims that the dorsum is in a ‘neutral position’ for /bʲ/, rather than
+fronted. Furthermore, the phonological contrast between palatalized and velarized labial
+consonants is sometimes characterized as a contrast in lip rounding rather than tongue body
+position (Quiggin 1906, Breatnach 1947, Ó Siadhail 1991, Nı́ Chasaide 1995). For example,
+Ó Siadhail (1991: 83) states that ‘slender [palatalized] labials are hardly ever phonetically
+palatalized’, and Breatnach (1947) writes ‘in forming the [palatalized bilabial] stop the lips
+are rather spread, and are kept close to the teeth’. Ó Cuı́v (1944), Mhac an Fhailigh (1980), and
+de Bhaldraithe (1945) all suggest that palatalized and velarized labials combine a distinction
+in lip-rounding with the same dorsal movements found at other places of articulation (at least
+in the south and west Gaeltacht areas). However, these claims are strictly impressionistic in
+nature, and as far as we know the production of labial consonants in Irish has never been
+investigated with instrumental methods. One goal of this paper, then, is to examine the position
+of the tongue body during labial consonants directly using articulatory imaging techniques.
+
+2.2.2 Previous articulatory studies of secondary palatalization contrasts
+In this section we summarize previous instrumental research on the articulation of secondary
+palatalization contrasts in Irish, Scottish Gaelic, and Russian. We begin with Russian, which
+we discuss here for two reasons. First, the Russian palatalization contrast is impressionistically
+very much like that of Irish, and so these articulatory studies are relevant background to the
+present paper. Second, we are interested in how closely the Irish and Russian palatalization
+6   Ryan Bennett, Máire Nı́ Chiosáin, Jaye Padgett & Grant McGuire
+
+
+
+contrasts resemble one another, since this may tell us something about universal constraints
+on such a contrast.
+     Skalozub (1963) presents palatograms and X-ray tracings of four Russian speakers,
+including juxtapositions of palatalized and non-palatalized versions of the same consonant.
+Skalozub’s consonantal data are in the context of the vowel /a/, usually /a_a/. There is
+a consistent and robust difference in tongue body backness between palatalized and non-
+palatalized versions of a sound, judging (for example) by the highest point of the tongue
+body. Skalozub concludes that palatalized sounds involve an active raising and fronting of
+the tongue body. For non-palatalized labials, she concludes (p. 55) that there is active tongue
+backing, i.e. velarization; the back of the tongue is also high. (See also Kedrova et al. 2009.)
+She does not suggest active tongue backing in the case of non-palatalized coronals, and the
+tongue body is also less high for these sounds. Non-palatalized velars have a high, back
+tongue body, but it is not obvious how much of this can be attributed to an active velarization
+gesture rather than to the primary velar constriction itself. All of these observations seem true
+of Matusevich & Liubimova’s (1963) X-ray data as well.
+     Based on an EMMA analysis of several Russian speakers uttering nonsense words
+containing /p pʲ t tʲ/ in the context /a__a/, Kochetov (2002) also concludes that palatalization
+involves active tongue body raising and fronting. He describes non-palatalized /p/ as ‘partially
+velarized’, with active backing but not raising (p. 72), but non-palatalized /t/ as unspecified
+for any tongue body gesture. In fact, Kochetov finds that this sound is slightly fronted (but
+still significantly backed compared to /tʲ/); however, it should be borne in mind that this is in
+relation to the tongue body position for /a/.
+     Proctor (2009) examines the tongue body properties of palatalized and non-palatalized /r
+l d/ in Russian, based on ultrasound data for four speakers. Proctor’s data are in the context
+of the vowels /u a e/, using nonsense words. Proctor concludes that the tongue dorsum of
+non-palatalized /d/ adopts the position of the neighboring vowel and that this sound therefore
+has no tongue body target, similarly to Kochetov. Proctor describes the tongue body gesture
+of non-palatalized /r/ as ‘mid-central’ and that of /l/ as ‘mid-back’.
+     Although most sources on the production of the Russian contrast define palatalization
+and velarization in terms of tongue body position, Fant (1960: 171, 219–223) describes them
+as ‘the presence versus absence of a tendency towards a narrowing in the region of the uvula,
+and in the upper part of the pharynx’, and calls non-palatalized consonants ‘pharyngealized’.
+On the one hand, there is reason to doubt that a palatalization contrast should be identified
+primarily with a pharyngeal constriction. Its most robust correlate is the second formant at the
+consonant-vowel transition (Jakobson, Fant & Halle 1952, Halle 1959, Purcell 1979, Kochetov
+2006). The articulatory correlate of the second formant (apart from the lips) is the location
+of the tongue body constriction in the oral cavity (see e.g. Stevens 1998 on the articulatory
+correlates of the vowel formants). Studies of pharyngeal and uvular consonants, as well as the
+[ATR] contrast, find robust effects on the first formant but no consistent effect on the second
+formant (Alwan 1986, 1989: Ladefoged & Maddieson 1996; Tiede 1996; Borroff 2007: 155).
+In addition, any effect of palatalization on the first vowel formant might be explained at least in
+part as a side-effect on the pharyngeal cavity of raising and fronting the tongue (Stevens 1998:
+263). Finally, Ladefoged & Maddieson (1996: 188) note that ‘phonological palatalization is
+not always accompanied by a big difference in pharynx width’. On the other hand, there is a
+consistent effect of a palatalization contrast on the first formant (e.g. Nı́ Chiosáin & Padgett
+2012: 172 and references there), and none of the above rules out a role for the pharyngeal cavity
+in a palatalization contrast. As it turns out, our analysis to come indeed finds an independent
+role for tongue root advancement and retraction in the palatalization contrast in Irish.
+     A persistent question in the literature on Russian palatalization involves the prevalence or
+existence of velarization compared to palatalization (see discussion in Kochetov 2002: 58–59;
+Proctor 2009: 124–125). While palatalized sounds always involve tongue body raising and
+fronting, the tongue body realizations of non-palatalized sounds may be more variable, a
+possibility suggested by Kedrova et al. (2008). Labial consonants seem to have more robust
+                                                                      Connemara Irish palatalization and velarization   7
+
+
+
+
+velarization than coronals, as discussed above. In addition, velarization may depend on vowel
+context, and it is noteworthy that almost all of the studies cited above examine the contrast only
+in the context of /a/. While velarization may be weak (at least for some sounds) in that context,
+with the tongue body assuming something like the position of the vowel, this is clearly not the
+case before front vowels, where velarization of non-palatalized consonants is highly audible
+(Padgett 2001, 2010), as noted earlier. Padgett (2001) and Nı́ Chiosáin & Padgett (2012)
+argue that the opposition in Russian and Irish between palatalized and velarized consonants,
+as opposed to palatalized vs. plain, is a matter of contrast dispersion.
+     Sung et al. (2013, 2014) present ultrasound analyses of palatalized vs. non-palatalized
+/p t l r/ (2013) and /p t k l n/ (2014) in Scottish Gaelic, a language closely related to
+Irish. They analyze four (2013) and six (2014) speakers from the Isle of Skye, presenting
+SSANOVA tongue shape plots (see Section 3.6.1 on these) derived from manual tracings
+at the tongue body gestural peak.1 Sung et al. find a clear difference between palatalized
+and non-palatalized obstruents, the tongue body of the palatalized consonants being fronter
+and sometimes higher than that of non-palatalized ones. Though they do not discuss it,
+the difference in backness for /t/ seems smaller, consistent with findings for Russian. Sung
+et al. largely find no differences between palatalized and non-palatalized /l r n/. However, they
+compare phonemically palatalized /t l/ with /t l/ having morphologically derived palatalization
+(analogous to that seen in (3) above for Irish), the latter occurring only word-finally, and find
+that morphologically palatalized /l/ has a fronter tongue body for three out of four speakers,
+but the two kinds of /t/ are not distinct. Sung et al. find no clear difference between word-initial
+and word-final instances of these palatalized consonants.2
+     There are no previous articulatory studies of the Irish palatalization contrast that involve
+direct imaging of the tongue body, the articulator thought to be most relevant to the
+palatalization contrast. However, using EPG, Farnetani et al. (1991) examine Irish /tˠ tʲ sˠ sʲ
+nˠ nʲ lˠ lʲ kˠ kʲ/ produced by one speaker in the context of /i u a/. The authors note that this
+speaker does not actually produce the palatalization contrast for the sonorants, so only their
+findings regarding the obstruents are helpful for our purposes. Of these, the authors note that
+/sʲ kʲ/ involve tongue predorsum raising, and both show a good deal of tongue dorsum contact;
+/kʲ/ is described as palatal. In addition, the Farnetani et al. (1991) data suggest that some Irish
+consonants, especially /tʲ kˠ kʲ/, resist coarticulation with neighboring vowels compared to
+similar consonants in Catalan or Italian, and they relate this fact to the existence of contrastive
+palatalization in Irish. In a separate EPG study focusing on coarticulation, Nı́ Chasaide &
+Fealy (1991) examine /bˠ bʲ dˠ dʲ ɡˠ ɡʲ/ of one speaker between long vowels and conclude that
+the consonants show less articulatory and acoustic coarticulation with vowels than similar
+consonants in French, Italian, and Swedish. (Their EPG data excluded the labials.) What little
+coarticulation there is is carryover (perseveratory) and is stronger at the onset of the consonant
+than at the offset. The authors conclude that Irish supports the hypothesis that consonants
+resist coarticulation more when there are more consonantal contrasts (e.g. Öhman 1966).
+     The purpose of our ultrasound study is to provide direct evidence about the behavior of
+the tongue body in the Irish palatalization contrast. We examine three places of articulation,
+including labials, which were not included in Farnetani et al.’s (1991) study. Our data is based
+on multiple speakers producing multiple repetitions in highly controlled contexts, and unlike
+Sung et al. (2013, 2014) we provide a quantitative analysis of tongue backness and height
+differences. Though we employ only two vowel contexts /iː uː/, these vowels represent the most
+extreme degrees of backness/frontness and so make good touchstones for gauging tongue body
+backing/fronting and the degree of coarticulation between consonants and vowels. Finally,
+
+1
+  Sung et al. do not provide information about the phonetic context of the sounds analyzed, such as the
+  quality of the adjacent vowels. It should also be noted that Scottish Gaelic is often characterized as
+  lacking a true phonetic palatalization contrast for labial consonants, pace Sung et al. (2013, 2014) (e.g.
+  Borgstrøm 1940, 1941; Bosch 2010).
+2
+  The exception may be /r/, but the differences in this case are not very consistent.
+8     Ryan Bennett, Máire Nı́ Chiosáin, Jaye Padgett & Grant McGuire
+
+
+
+this study is part of a larger project using ultrasound data to investigate the palatalization
+contrast in all three major Irish dialects, Ulster, Connacht (represented here), and Munster.
+
+2.3 Goals of the study
+A basic goal of this work is to document the tongue body and tongue root postures that realize
+the palatalization contrast. In addition, we posit the following specific research questions and
+hypotheses, motivated by the studies discussed above and by impressionistic descriptions of
+Irish:
+(4) Hypotheses
+    a. Tongue Body Hypothesis: Tongue body position consistently and sufficiently
+       distinguishes palatalized from non-palatalized consonants at all places of articulation.
+       Palatalized consonants are fronted and possibly raised compared to velarized
+       consonants.
+    b. Coronal Hypothesis: Velarization is weaker in coronals than in labials and
+       dorsals.
+    c. Coarticulation Resistance Hypothesis: Tongue body position does not vary greatly
+       with vowel context, unlike in languages with no palatalization contrast.
+
+
+3 Method
+3.1 Speakers
+Our five speakers were all broadcasters for RTÉ Raidió na Gaeltachta (the national
+broadcaster’s Irish medium radio station), working in the station located in Casla, Connemara,
+where the recordings were made (see Figure 1 above). A choice of radio broadcasters for
+speakers might seem unusual. However, the sociolinguistic context of Irish is one in which
+the native speaker base is rapidly declining, younger native speakers in the Gaeltacht are
+becoming more English dominant (Péterváry et al. 2014), and native speakers can be insecure
+in contexts where they feel that their Irish is being evaluated. The speakers for this study
+represent a relatively traditional Irish and are comfortable with sound technology and speaking
+while being recorded. They were two women and three men all between 35 and 60 years of age
+(mean = 49 years). They were all native speakers of Connemara Irish and lived in Connemara,
+and all of them used primarily Irish in their daily interactions. Both parents of all but one
+speaker were native speakers of Connemara Irish. In that one case, the speaker’s mother was
+a native English speaker. All speakers’ primary schooling was through the medium of Irish.
+All but one speaker’s secondary schooling was through the medium of Irish. All speakers
+attended third level colleges. All reported reading Irish on a daily basis. None reported any
+difficulties in hearing, speaking, or reading.
+
+3.2 Materials
+The materials were designed to allow us to investigate the realization of the palatalization
+contrast as a function of consonantal place, manner (plosive vs. fricative) and vowel context
+(/iː/ vs. /uː/). Speakers read a pseudorandomized list of 24 Irish words, with target consonants
+appearing word-initially in a CV(C) syllable. Target consonants were /pˠ (bˠ) pʲ (bʲ) fˠ fʲ tˠ
+tʲ sˠ sʲ kˠ kʲ xˠ xʲ/. The consonants /bʲ bˠ/ were sometimes used instead of /pʲ pˠ/ because
+word-initial /pʲ pˠ/ have a limited occurrence in Irish for historical reasons.3 Each consonant
+appeared before both /iː/ and /uː/, which are pronounced [iː] and [uː]. The backness of short
+
+3
+    Word-initial voiced stops are realized as plain voiceless in Irish, as noted in Section 2.1 above. This should
+    mitigate any possible deformation of the tongue dorsum caused by voicing during closure (Perkell 1969:
+    21, 27).
+                                                                                                 Connemara Irish palatalization and velarization     9
+
+
+
+
+Table 1 Word list.
+
+
+
+
+Table 2 Repetitions captured by speaker and word (only initial CV shown). Average number of repetitions overall = 6.1; by speaker: 6.7 (s1), 8.0 (s2),
+        5.9 (s3), 6.0 (s4), 4.0 (s5).
+Speaker    /bɣ iː/     /pj iː/    /pɣ uː/      /bj uː/     /f ɣ iː/    /f j iː/   /f ɣ uː/    /f j uː/     /tɣ iː/    /tj iː/    /tɣ uː/      /tj uː/
+s1         7           6          7            7           6           6          7           5            7          7          7            6
+s2         8           7          8            8           8           8          8           8            8          8          8            8
+s3         6           6          6            6           6           5          6           6            6          6          6            6
+s4         6           6          6            6           6           6          6           6            6          6          6            6
+s5         4           4          4            4           4           4          4           4            4          4          4            4
+Avg        6.2         5.8        6.2          6.2         6.0         5.8        6.2         5.8          6.2        6.2        6.2          6.0
+Speaker    /sɣ iː/     /sj iː/    /sɣ uː/      /sj uː/     /kɣ iː/     /kj iː/    /kɣ uː/     /kj uː/      /xɣ iː/    /xj iː/    /xɣ uː/      /xj uː/
+s1         6           7          7            7           7           7          6           7            7          7          7            7
+s2         8           8          8            8           8           8          8           8            8          8          8            8
+s3         6           6          6            6           6           6          6           6            6          6          6            5
+s4         6           6          6            6           6           6          6           6            6          6          6            6
+s5         4           4          4            4           4           4          4           4            4          4          4            4
+Avg        6.0         6.2        6.2          6.2         6.2         6.2        6.0         6.2          6.2        6.2        6.2          6.0
+
+
+
+vowels is largely determined by neighboring consonants in Irish (Ó Siadhail 1991, Nı́ Chiosáin
+1994), though we abstract away from this fact in our transcriptions; using long [iː uː] allows us
+to explore the effect of vowel quality on the realization of palatalization. Words appeared in
+the carrier phrase Scairt Aoife _____ Dé Céadaoin [sˠkˠartʲ iːfˠə _____ dʲeː kʲeːdˠiːnʲ] ‘Aoife
+shouted ___ on Wednesday’. Tautosyllabic codas, if they occurred, were non-palatalized
+coronal consonants except in the case of /fʲiːsʲ/ ([fʲiːʃ]) ‘vision’ and /xˠiːnʲ/. The full list of
+words used is given in Table 1. As noted earlier, /sʲ/ is realized as [ʃ] or [ɕ].
+    Speakers read through the list 6–8 times, for a total of 144–192 productions (between
+4 and 8 useable repetitions, depending on speaker and item). No two successive stimuli
+began with a consonant of the same major place. The number of repetitions varied because
+some participants became fatigued or had to end the session early for other reasons, and
+because some tokens were too poorly captured to analyze. Table 2 summarizes the number of
+repetitions captured by speaker and word.
+10   Ryan Bennett, Máire Nı́ Chiosáin, Jaye Padgett & Grant McGuire
+
+
+
+
+3.3 Procedure
+Ultrasound data was collected using a Terason T3000 ultrasound system with a model 8MC3
+probe. The ultrasound machine recorded video at a frame rate of 58–60 frames per second,
+giving a temporal error of 8.3–8.6 ms; this corresponds to one new image roughly every 17
+ms. The probe was mounted in an Articulate Instruments Ultrasound Stabilization Headset
+(Wrench 2008), which was worn by the speakers throughout the experiment. (See Scobbie,
+Wrench & van der Linden 2008 for validation of this headset for probe stabilization.) Acoustic
+data was collected simultaneously using a Shure WH20 dynamic cardioid microphone
+attached to the headset, recording directly to the ultrasound system (which includes a laptop
+computer) at a 44.1 kHz sampling rate. We also captured lip movement using video, though
+lip movement data are not analyzed here. Each recording session lasted about one hour.
+
+3.4 Articulatory to acoustic alignment
+For each token we used the release of a velar stop in the carrier phrase (the /kɣ / in
+‘scairt’ /sɣ kɣ artʲ/) to align the ultrasound video with its corresponding audio recording.
+(See discussion in Miller & Finch 2011: 476.) Specifically, using the Adobe Premiere video
+editing platform, the /kɣ / release burst in the acoustic signal was aligned by hand with the
+first ultrasound frame after the velar closure; the latter was defined as the first frame after
+the onset of the closure gesture that showed either downward movement of the tongue body
+or ‘de-flattening’ of the tongue body as it moved away from the palate. Due to limitations
+of frame rate, and because the defined ultrasound frame is not guaranteed to correspond to
+the moment of audible release, this alignment is approximate and variable. References to
+consonantal ‘onset, midpoint, offset’ throughout this paper should be understood with this in
+mind.
+
+3.5 Data capture
+Using EdgeTrak software (Li, Kambhamettu & Stone 2005), the tongue surface shape was
+captured as 100 points at three time landmarks for each token: consonantal onset, offset,
+and the midpoint between them. Consonantal onset and offset were judged using landmarks
+in the waveform and spectrogram of the audio signal. These landmarks for fricatives were
+determined using the drop in amplitude from the preceding vowel and rise into the following
+vowel as determined from the waveform and higher formants; the onset and offset of aperiodic
+energy in the spectrogram served as a secondary criterion. Stop onsets were determined
+primarily by the drop in amplitude from the preceding vowel, while offsets were marked
+at the beginning of the stop release burst. In cases of uncertainty the choice was generally
+made to err in the direction of smaller consonant duration so as to minimize the possibility
+of including vocalic information as part of the consonant.
+     Since the temporal dynamics of the palatalization contrast are not the main focus of this
+paper, the analyses here are based primarily on one consonantal landmark, and for this purpose
+we chose the consonantal offset. Prior research suggests that secondary palatalization and
+velarization gestures peak at consonantal offset, at least for consonants in word- or syllable-
+initial position (e.g. Ladefoged & Maddieson 1996: Chapter 10; Kochetov 2002, 2006). Our
+brief discussion of dynamics in Section 4.7 may support this view, at least for palatalization.
+
+3.6 Quantitative analysis
+3.6.1 Fitting curves to tongue traces
+Addressing our three hypotheses in (4) above requires, first, a means of establishing
+characteristic tongue shapes for each kind of sound. To this end, the 4–8 tongue surface
+tracings acquired for each target word, for each speaker, were submitted to smoothing spline
+ANOVA (SSANOVA, Gu 2002, Davidson 2006) to find a best-fit curve across repetitions.
+                                                                                     Connemara Irish palatalization and velarization   11
+
+
+
+
+         Figure 3 (Colour online) SSANOVA curve for palatalized (dashed) vs. velarized (solid) /bʲ pˠ/ at consonantal offset before /uː/,
+                  Speaker 1. Front of the mouth is to the right.
+
+
+These best-fit curves can be interpreted as characteristic tongue shapes for a particular
+speaker’s production of each consonant type. The final output of the SSANOVA algorithm is
+a curve consisting of a string of points separated by 0.01 mm on the x-axis, with associated
+standard errors corresponding to y-axis variability at each point. We use these standard errors
+to estimate 95% Bayesian confidence intervals around each curve. An example plot can be
+seen in Figure 3, which shows Speaker 1’s estimated tongue curves for /bʲ pˠ/ before /uː/.
+In our SSAVOVA figures, the front of the mouth is to the right. The dotted lines represent
+the 95% Bayesian confidence intervals around the tongue position. Where the confidence
+intervals of two lines do not overlap, we may assume that the tongue curves are significantly
+different. All SSANOVA curves were computed using the GSS package (Gu 2013) in the R
+statistical software environment (R Development Core Team 2013).
+     As is often the case in ultrasound analyses of the vocal tract, neither the tongue tip nor
+root is as well imaged as the tongue body. This, as well as the SSANOVA technique itself,
+make the extremities of the SSANOVA curves less reliable. The apparent upward curve seen
+in the tongue root of /pˠ/ in Figure 3, for example, and in some of our later curves does
+not reflect the actual, physical tongue shape in that region. This means that extremities in
+these curves should be interpreted with care. It is important to note as well that our principal
+component analysis (next section), which is the primary basis for our major findings and
+statistical comparisons, is done over the raw tongue tracing data, not over SSANOVA curves.
+
+3.6.2 Principal component analysis
+In order to address the Coronal Hypothesis and the Coarticulation Resistance Hypothesis
+in (4) above, we need a way to analyze and quantify differences in tongue body shape and
+position. Quantitative analysis of tongue shape variation was carried out using principal
+component analysis (PCA). (See Jolliffe 2002 for an overview of PCA generally, and Johnson
+2008: 95–102 for an accessible introduction to its use in linguistics; for PCA in the analysis
+of tongue shapes see Harshman, Ladefoged & Goldstein 1977, Slud et al. 2002, Stone
+2005, and references therein.) PCA is a statistical technique used in various fields to explore
+clustering (structured covariation) in large data sets. PCA takes as its input a set of dimensions
+characterizing a data set, such as the (x, y) coordinates which specify the shape and position of
+the tongue contour for each ultrasound tracing in this study. PCA combines highly correlated
+dimensions of variation into a set of linear predictors, or principal components (PCs). These
+PCs are themselves weighted vectors of the original dimensions used to characterize the
+12   Ryan Bennett, Máire Nı́ Chiosáin, Jaye Padgett & Grant McGuire
+
+
+
+data set, and are mathematically guaranteed to explain disjoint (orthogonal) portions of the
+variance in the data. In this way PCA serves to reduce the dimensionality of a data set: most
+of the variance in a given data set can typically be modelled using a far smaller number of
+PCs than the original number of dimensions used to characterize the data. The first few PCs
+– those accounting for a relatively large amount of the variance – can then be interpreted as
+the primary dimensions of independent variation in the data.
+     There are several advantages to using principal component analysis for the analysis of
+ultrasound data. Because adjacent portions of the tongue tend to move in tandem, ultrasound
+tracings show a great deal of structured covariation between adjacent points on the tongue
+contour. PCA can effectively reduce this correlated variation to a set of parameters which
+correspond to more readily interpretable, and more linguistically meaningful, changes in
+the overall shape or position of the tongue contour. Second, PCA is unsupervised: the PCs
+emerge from the data itself, rather than being specified a priori by the analyst. Third, PCA
+operates over the entire tongue contour, and so takes advantage of the global information
+about the tongue surface captured by ultrasound imaging. Finally, PCA can be computed
+over the full set of raw tracings, and so does not require any prior smoothing or averaging of
+the data.
+     Several other methods for quantifying the data were also considered, but were found
+to be less reliable or less informative than PCA. Some ultrasound research uses single-
+point measurements taken from raw tracings or SSANOVA curves (e.g. Allen, Pulleyblank
+& Ajı́bóyè 2013). A drawback of this methodology is a lack of consensus over how to
+choose the measurement point(s) for any particular tracing or analysis; it also fails to take
+advantage of the global information about the tongue surface provided by ultrasound imaging.
+Zharkova (2013) proposes two promising metrics for quantifying dorsal position which avoid
+the problems faced by single-point techniques and which have a number of other strengths.
+However, Zharkova (2013) notes that these measures require consistent imaging of the tongue
+tip and tongue root, something which can be difficult to achieve (e.g. Gick 2002, Stone 2005,
+Miller 2016). Exploratory analysis using Zharkova’s metrics confirms a wider range of token-
+to-token variation than PCA, most likely due to variation in tongue tip and root imaging
+across repetitions and speakers within the present data set.
+     The data set which served as the input to PCA included tongue contour tracings for all
+repetitions of all target consonants, taken at consonantal onset, midpoint, and offset. It also
+included tracings for 20 repetitions of the /a/ in scairt (one of the words in the frame sentence
+used in elicitation) for each speaker, taken at the midpoint of the steady-state portion of the
+vowel. The /a/ tracings were originally taken as a possible reference point for the analysis of
+consonant articulation, but ultimately play no role in the analysis. The results of the PCA are
+qualitatively the same when these vowel tracings are excluded from the analysis.
+     The PCA began by converting each tongue contour in the data set into a 200-dimensional
+vector. Each dimension represents the x or y value for one of the 100 points on the tongue
+contour. A PCA was then computed on the basis of these vectors using the PRCOMP() function
+in the R statistical software environment. As is standard practice in PCA, the input data was
+standardized (centered and scaled) before the PCA was computed.
+
+3.6.3 Centering with z-score transformation
+The data set resulting from PCA includes some incidental speaker-specific variation: because
+speakers have different vocal tract morphology, and because placement of the ultrasound
+transducer varies somewhat across speakers and sessions, the tongue surface tracings are
+not centered in the same region of the (x, y) space. To control for this incidental variation
+the PC values for each speaker were re-centered using a z-score transformation (using the
+SCALE() function in R) over the full data set for that speaker, that is, for every consonant
+and repetition, at onset, midpoint, and offset, pooled together. (See Harrington et al. 2011,
+Harrington, Hoole & Reubold 2012, and Shaw et al. 2014 for other examples of z-score
+normalization as a technique for pooling dorsal position measurements across speakers, and
+                                                              Connemara Irish palatalization and velarization   13
+
+
+
+
+see Miller 2016 for another approach to normalization of ultrasound data.) All subsequent
+plotting and statistical analysis is based on these speaker-normalized z-scores.
+
+3.6.4 Modeling
+A statistical analysis of tongue shape variation was conducted through linear mixed-effects
+modeling (Pinheiro & Bates 2000, Gelman & Hill 2007, Baayen, Davison & Bates 2008,
+Bolker et al. 2009, among others). The analysis was carried out in R, using the LME4 package
+(Bates, Maechler & Bolker 2011). The independent variables were speaker-normalized values
+for the first three principal components discussed in the Results section: PC1–3, which we
+interpret as corresponding to tongue body backness, tongue root advancement/retraction, and
+tongue body height respectively (see Section 4.2).
+     The analysis of PC1 (tongue backness) began with an initial model which included
+fixed effects for MANNER (stop, fricative), MAJOR PLACE (labial, coronal, dorsal), SECONDARY
+ARTICULATION (velarized, palatalized), and VOWEL CONTEXT (/Ciː/, /Cuː/), as well as all two-
+way and three-way interactions between these terms. These factors were sum-coded to reduce
+collinearity between simple predictors and their interactions.
+     This initial model included a random intercept for speaker, along with by-speaker random
+slopes for all of the fixed-effect predictors (Barr et al. 2013). This model failed to converge;
+the random effects structure was then simplified by removing random slopes for all three-
+way interactions, as well as the random slope for the two-way MAJOR PLACE × MANNER
+interaction. This reduced model successfully converged. The random slope for the MAJOR
+PLACE × MANNER interaction was eliminated from the model because removal of random
+slopes for other two-way interactions did not bring the model to convergence.
+     The fixed effects structure of this model was then reduced through a step-down model
+selection procedure (see e.g. Gorman & Johnson 2013). Fixed-effects predictors were
+eliminated sequentially: among the highest-order interactions still included in the model,
+the predictor which accounted for the least variance in the data was selected for possible
+removal. Using the likelihood ratio test, a reduced model omitting that predictor was then
+compared to a superset model which included the predictor as a fixed effect. The significance
+threshold for eliminating a predictor under the likelihood ratio test was p > .1. Lower-order
+terms were retained until all higher-order terms containing them had been excluded.
+     Models for PC2 (tongue root advancement/retraction) and PC3 (tongue height) were
+fit using the same initial model and model selection procedure described above for PC1.
+This linear mixed-effects modeling procedure resulted in final models for PC1–3 which are
+provided in Tables A1–A3 of the appendix, along with further details about the models.
+
+
+
+4 Results
+4.1 SSANOVA curves
+Figures 4–6 show Speaker 1’s estimated tongue curves for palatalized vs. velarized versions
+of every consonant in each vowel context, at consonant offset. We refer back to these figures
+in the following discussion.
+
+
+4.2 The principal components
+The first four PCs account for 92.5% of the total variance in the data set; these PCs are plotted
+in Figure 7 in the original (x, y) space of the tongue surface tracings using the GGPLOT2
+package (Wickham 2009). As in our SSANOVA plots, the front of the mouth is to the right.
+    We interpret the first principal component (PC1), which captures 40.4% of the variance,
+as corresponding to changes in tongue body frontness/backness (with concomitant changes of
+the tongue root, discussed later). We interpret the third principal component (PC3, 14.7% of
+14   Ryan Bennett, Máire Nı́ Chiosáin, Jaye Padgett & Grant McGuire
+
+
+
+
+            Figure 4 (Colour online) SSANOVA curves for palatalized (dashed) vs. velarized (solid) consonants at consonantal offset before /uː/
+                     (left column) and /iː/ (right column), Speaker 1. Labials. Front of the mouth is to the right.
+
+
+
+variance) as corresponding to changes in tongue body height. These two principal components
+map fairly cleanly to the articulatory dimensions most often referenced in descriptions of
+palatalization and velarization: tongue body backness and height. However, PC2, which
+seems to indicate an independent role for tongue root advancement/retraction, accounts for
+fully 30.0% of the data variance.
+    It is possible that PC4 represents variation in tongue blade/tip orientation. As noted earlier,
+however, the tongue tip was not reliably captured by our imaging and analysis. Because of
+this, and because it accounts for only 7.4% of the variation in the data, we do not analyze
+PC4.
+    In the following sections, which are organized according to our guiding hypotheses in
+0, we rely on the linear mixed-effects models shown in Tables A1–A3 of the appendix. All
+pairwise comparisons reported in the text are for two-sided unpaired t-tests using the Welch
+approximation to degrees of freedom.
+
+
+4.3 Nature and consistency of the contrast
+As can be seen in Figures 4–6, the tongue body positions differ significantly for all palatalized
+vs. velarized consonants, in both vowel contexts, for Speaker 1. In particular, the tongue body
+is fronted and/or raised in palatalized compared to velarized consonants. This difference
+holds for every pair of palatalized vs. velarized consonants matched for place, manner, and
+                                                                                       Connemara Irish palatalization and velarization   15
+
+
+
+
+         Figure 5 (Colour online) SSANOVA curves for palatalized (dashed) vs. velarized (solid) consonants at consonantal offset before /uː/
+                  (left column) and /iː/ (right column), Speaker 1. Coronals. Front of the mouth is to the right.
+
+
+
+vowel context, for all five speakers. For example, Figure 8 shows the SSANOVA curves for
+palatalized vs. velarized labial stops before the vowel /iː/, for all five speakers.
+    Figure 9 shows violin plots summarizing normalized PC1 values, which we identify with
+tongue body backness, for all speakers and consonants, collapsed over vowel context. These
+violin plots include overlaid box plots showing the 25%–75% interquartile range, with black
+diamonds and lines indicating the medians and means respectively. The separation in backness
+of velarized /Cˠ/s from corresponding palatalized /Cʲ/s is evident in this figure, and confirmed
+by a significant main effect for SECONDARY ARTICULATION (mean PC1 for /Cj / = 0.79, mean
+PC1 for /Cɣ / = –0.50, t(696) = 21.23, p < .001). (Refer to Table A1 in the appendix for
+the statistical model.) This contrast holds at each individual place of articulation (labials:
+mean /Cj / = 0.82, mean /Cɣ / = –1.12, t(232) = 22.32, p < .001; coronals: mean /Cj / = 0.89,
+mean /Cɣ / = 0.14, t(228) = 8.48, p < .001; dorsals: mean /Cj / = 0.67, mean /Cɣ / = –0.53,
+t(243) = 11.08, p < .001). The exception is /sˠ/ vs. /sʲ/, which we return to below.
+    An analogous plot for PC3, which we identify with tongue body height, is shown below
+(Figure 10). There is a main effect of SECONDARY ARTICULATION on this variable: palatalized
+consonants are higher than velarized consonants overall (omean PC3) = 0.88, t(728) =
+13.12, p < .001), see Table A2 in the appendix.
+    Since Irish contrasts palatalized vs. velarized (rather than plain) consonants (see Section
+2.2.1), we should expect that there is active displacement of the tongue body for both kinds
+of consonant. The positive vs. negative PC values in Figures 9 and 10 may seem to imply as
+16   Ryan Bennett, Máire Nı́ Chiosáin, Jaye Padgett & Grant McGuire
+
+
+
+
+            Figure 6 (Colour online) SSANOVA curves for palatalized (dashed) vs. velarized (solid) consonants at consonantal offset before /uː/
+                     (left column) and /iː/ (right column), Speaker 1. Dorsals. Front of the mouth is to the right.
+
+
+much. However, these are displacements relative to a mean value, and there is no guarantee
+that this mean represents a neutral position in any other sense. Given this fact, how do we
+gauge whether a sound is velarized, or palatalized, and to what degree it is?
+     One way to gauge the relative status of palatalization and velarization is to compare tongue
+body variability in each, on the assumption that a tongue body target implies less variability
+(see e.g. Perkell & Cohen 1989, Perkell 1990). There are some apparent differences in
+variability evident in Figure 9 and Figure 10. To explore these, we used the Brown–Forsythe
+test of equality of variance (which makes fewer assumptions about the underlying structure
+of the data than Levene’s F-test does and is more robust to non-normal distributions, Brown
+& Forsythe 1974). Doing this over the z-score normalized PC values revealed that PC1 is
+more variable in velarized coronals than in palatalized coronals (SD: 0.74 vs. 0.57, F = 7.63,
+p < . 01). This difference was true of /tˠ/ vs. /tʲ/ (SD: 0.83 vs. 0.60, F = 11.73, p < .001) and
+marginally true of /sˠ/ vs. /sʲ/ (SD: 0.58 vs. 0.45, F = 3.90, p = .051). These facts could imply
+that velarization is weaker or absent in coronals. On the other hand, /kʲ/ was marginally more
+variable than /kˠ/ (SD: 0.96 vs. 0.68, F = 3.82, p = .053). No other significant differences
+emerged for PC1 or PC3. We conclude that the relative variance of palatalized and velarized
+consonants is consistent with the view that /Cʲ/ and /Cˠ/ are equally specified for dorsal
+constriction targets in Irish. In Section 4.5 we return to articulatory differences between
+coronals and non-coronals in the production of the /Cʲ/  /Cˠ/ contrast.
+     While we quantify tongue body position in our data using PC1 and PC3 values, there is no
+absolute criterion for labeling a consonant as categorically ‘palatalized’ or ‘velarized’ on the
+                                                                                        Connemara Irish palatalization and velarization    17
+
+
+
+
+         Figure 7 Dimensions of variance for the first four principal components. Solid black lines represent grand mean of the tongue
+                  contour across all tracings for all speakers. Dashed grey lines represent changes in shape or position of the tongue contour
+                  when each PC varies independently (at ±5 standard deviations around the mean). Front of the mouth is to the right.
+
+
+basis of its PC1/PC3 values. In the absence of some principled articulatory threshold for this
+classification, our measures of dorsal position are necessarily relative rather than absolute.
+But it is useful to compare consonants to each other, and as a point of reference we generally
+refer to the labial consonants, for two reasons. First, we can be reasonably confident that any
+tongue body characteristics of these consonants are in no way artifacts of the primary place
+of articulation, since the lips and tongue body are independent. Second, labials overall show
+the largest distinction in backness between palatalized and velarized consonants, as can be
+seen in Figure 9.
+      Since the role of the tongue body in labials has been a subject of question (Section 2.2.1),
+it is worth emphasizing that the tongue body is roughly as fronted in /pʲ bʲ/ as it is in any other
+palatalized consonant, and that of /pˠ bˠ/ is as far back as – mostly farther back than – that
+of any other velarized consonant. Furthermore, the variability of the tongue body position in
+these consonants is comparable to that of other consonants, a fact that suggests labials have
+a tongue body target just as other consonants do. The standard deviation of the tongue body
+position of /pʲ bʲ/ (0.62) is not significantly different from that of /tʲ/ (0.60, p = .15) and is
+significantly smaller than that of /kʲ/ (0.96, p < .001), according to the Brown–Forsythe test
+for equality of variances. Similarly, the standard deviation for /bˠ pˠ/ (0.62) is lower than that
+of /tˠ/ (0.83, p < .001) and not different from that of /kˠ/ (0.68, p = 0.17). The variability
+of the tongue body position of the labial fricatives is likewise not significantly different from
+that of their counterparts at other places of articulation, except that /fʲ/ (0.81) is more variable
+than /sʲ/ (0.45, p < .05).
+      Further evidence that labials involve an active specification for dorsal position comes
+from a comparison of labials in each vowel context. Compare first the tongue body posture
+of a palatalized labial stop before both /iː/ and /uː/, as shown for all speakers in Figure 11. As
+this figure shows, the tongue body position of /pʲ bʲ/ before [uː] is very similar to that before
+[iː] (if anything it is more fronted).
+18     Ryan Bennett, Máire Nı́ Chiosáin, Jaye Padgett & Grant McGuire
+
+
+
+
+              Figure 8 (Colour online) SSANOVA curves for palatalized (dashed) vs. velarized (solid) /pʲ bˠ/ at consonantal offset before /iː/,
+                       Speakers 1–5. Front of the mouth is to the right.
+
+    In a similar way, Figure 12 shows that the tongue body position of /pˠ bˠ/ before [iː] is
+very similar to that before [uː].4 (On the odd shape of the tongue root for Speaker 1’s [pˠuː] in
+
+4
+    Though we transcribe velarization in words like [pˠuːkˠə] for internal consistency, this word is
+    impressionistically [puːkə] in auditory terms (see discussion in Section 2.2.1 above and the Conclusion).
+    As for the vowel /uː/, it sounds impressionistically back, and its second formant frequency in púca for
+    Speaker 1 (a male) ranges approximately from 900 Hz to 1100 Hz.
+                                                                                     Connemara Irish palatalization and velarization   19
+
+
+
+
+         Figure 9 Tongue body backness (PC1) by consonant for all speakers, at consonantal offset. Higher PC1 = fronter. Overlaid are box
+                  plots showing the 25%–75% inter-quartile range. Diamonds indicate medians and lines means. The width of a violin plot
+                  at any value corresponds to the estimated likelihood of the measure (here, PC1) occurring at that value.
+
+
+
+
+         Figure 10 Tongue body height (PC3) by consonant for all speakers, at consonantal offset. Higher PC3 = higher. Overlaid are box
+                   plots showing the 25%–75% inter-quartile range. Diamonds indicate medians and lines means.
+
+
+
+Figure 12, see the end of Section 3.6.1.) It seems clear from this comparison that tongue body
+position is specified for the labial consonants themselves, rather than being determined solely
+by vowel context. We will informally gauge how ‘palatalized’ or ‘velarized’ other sounds are
+relative to these benchmarks.
+
+
+4.4 PC2: Tongue root advancement/retraction
+We return to PC2’s dimensions of variation, shown earlier in Figure 7. The final statistical
+model for PC2, following the same methodology as that for the models for PC1 and PC3, is
+provided in Table A3 of the appendix.
+    The largest determinant of PC2 variation by far is the palatalized vs. velarized status of
+the consonant. Hence we find a main effect of SECONDARY ARTICULATION ((mean PC2) =
+0.94, t(708) = 13.57, p < .001). This is evident in Figure 13, where higher PC2 values
+20   Ryan Bennett, Máire Nı́ Chiosáin, Jaye Padgett & Grant McGuire
+
+
+
+
+            Figure 11 (Colour online) SSANOVA curves for palatalized /pʲ bʲ/ before /iː/ (solid) vs. /uː/ (dashed) at consonantal offset.
+                      Speakers 1–5.
+
+
+
+correspond to deviations that lead to a wider pharyngeal cavity. Since PCA always returns a
+set of PCs which account for disjoint (uncorrelated) portions of the variance in the data,
+these results suggest that palatalization and velarization involve systematic differences
+of pharyngeal width which are at least partially independent of differences in dorsal
+position.
+    Apart from this effect, there are smaller significant effects reflecting the following
+generalizations. First, a significant main effect for MAJOR PLACE(CORONAL) means that
+                                                                                 Connemara Irish palatalization and velarization   21
+
+
+
+
+        Figure 12 (Colour online) SSANOVA curves for velarized /pˠ bˠ/ before /iː/ (solid) vs. /uː/ (dashed) at consonantal offset.
+                  Speakers 1–5.
+
+
+coronals overall are produced with lower PC2 values than labials ((mean PC2) = –0.20,
+t(476) = –2.21, p < .05) and with marginally lower PC2 values than dorsals ((mean PC2) =
+–0.18, t(466) = –1.90, p = .06). Second, further testing of the significant PLACE × MANNER
+interactions reveals an effect of manner on PC2 for dorsal consonants: dorsal stops have lower
+PC2 values than dorsal fricatives ((mean PC2) = –0.31, t(243) = –2.09, p < .05). This
+effect of manner was not observed for coronals or labials (labials: (mean PC2) = 0.07,
+t(234) = 0.50, p = .62; coronals: (mean PC2) = 0.12, t(242) = 0.99, p = .32). Finally, the
+three-way PLACE × SECONDARY ARTICULATION × VOWEL CONTEXT interaction indicates that
+22   Ryan Bennett, Máire Nı́ Chiosáin, Jaye Padgett & Grant McGuire
+
+
+
+
+            Figure 13 PC2 values by consonant for all speakers, at consonantal offset. Higher PC2 = more advanced tongue root. Overlaid are
+                      box plots showing the 25%–75% inter-quartile range. Diamonds indicate medians and lines means.
+
+
+
+among palatalized consonants, there is an effect of vowel context (Section 4.6) which differs
+by place of articulation, the effect reaching significance only among palatalized coronals,
+which have slightly higher PC2 values before /iː/ than before /uː/ ((mean PC2) for /Cj iː/ vs.
+/Cj uː/ for labials = –0.34, t(114) = –1.82, p = .07; for coronals = 0.28, t(114) = 2.21, p <
+.05; for dorsals = 0.16, t(111) = 0.72, p = .47).
+
+
+
+4.5 Effects of place (and manner) on tongue body
+We turn now to other effects on tongue body position. Since it would take up too much
+space to present the relevant SSANOVA tongue body curves for all five speakers, for the
+rest of the paper we present these figures only for Speaker 1. However, as earlier we
+substantiate our general conclusions for all of the speakers, and we note where there is
+significant variation behind a general finding. Readers interested in SSANOVA curves for all
+speakers by place, manner, vowel context, and landmark point can access the data using the
+links in the introduction.
+    The violin plots in Figure 9 above, showing tongue body backness (PC1), reveal some
+differences in the realization of the palatalization contrast depending on place of articulation,
+as well as manner. There is a significant interaction between MAJOR PLACE(CORONAL) and
+SECONDARY ARTICULATION, due to a smaller backness separation for coronals. This holds
+true for the coronal stops, but especially for the coronal fricatives, as can be seen in Figure 9.
+This difference is the basis of a significant three-way MAJOR PLACE(CORONAL) × SECONDARY
+ARTICULATION × MANNER interaction ((mean PC1) for /sj / vs. /sɣ / = 0.31, t(111) = 3.16,
+p < .005; for /tj / vs. /tɣ / = 1.18, t(111) = 8.74, p < .001). The relatively weak PC1 differences
+for/sj / and /sɣ / may be related to the realization of /sʲ/ as [ʃ/ɕ]; we return to this issue below.
+What Figure 9 also makes clear is that the small separation between palatalized and velarized
+coronals in backness is due to the weakness of velarization (in terms of backness), not
+palatalization. In fact, using the labials as a touchstone, /tˠ/ seems weakly backed and /sˠ/ not
+backed at all.
+    On the other hand, the significant three-way MAJOR PLACE(DORSAL) × SECONDARY
+ARTICULATION × MANNER interaction is due to the fact that dorsal fricatives show greater
+secondary articulation differences than dorsal stops ((mean PC1) for /xj / vs. /xɣ / = 1.64,
+t(119) = 12.66, p < .001; for /kj / vs. /kɣ / = 0.74, t(116) = 4.76, p < .001). Only /xˠ/ has a
+                                                                                          Connemara Irish palatalization and velarization   23
+
+
+
+
+             Figure 14 (Colour online) 1 SSANOVA curves for palatalized (top row) and velarized (bottom row) stops before /uː/ (left) and /iː/
+                       (right), at consonantal offset. Speaker 1. Labial = dotted, velar = dashed, coronal = solid.
+
+tongue body posture that is as far back as that of the velarized labials.5 Labials do not show a
+corresponding manner-dependent difference in the backness separation between palatalized
+and velarized consonants ((mean PC1) for /fj / vs. /fɣ / = 1.87, t(108) = 14.16, p < .001;
+for /pj bj / vs. /pɣ bɣ / = 2.01, t(120) = 17.99, p < .001).
+     Speaker 1’s SSANOVA plots in Figures 4–6 exemplify all of the generalizations above.
+     A significant main effect for MAJOR PLACE(CORONAL) reflects the fact that PC1 values
+are overall significantly higher for coronals relative to other places of articulation (vs. labials:
+(mean PC1) = 0.69, t(417) = 7.61, p < .001; vs. dorsals: (mean PC1) = 0.45, t(458)
+= 5.41, p < .001). Labials and dorsals also differ significantly in their overall PC1 values,
+with the labials being somewhat retracted relative to dorsals (dorsals vs. labials: (mean
+PC1) = 0.25, t(474) = 2.44, p < .05). This gives a place-based coronal < dorsal < labial
+backness scale, abstracting away from secondary articulation and vowel context. Figure 14
+shows Speaker 1’s SSANOVA curves by place of articulation for each secondary articulation
+and vowel combination, for stops, which largely exemplify these generalizations.
+     However, it should be noted that there is considerable variability in these orderings,
+depending on speaker, manner, secondary articulation, and vowel. For example, the order
+dorsal < labial does not seem to hold for fricatives (this is related to the very back position
+
+5
+    The large backness difference between /xˠ/ and /xʲ/ likely also drives a significant PLACE(DORSAL) ×
+    MANNER interaction ((mean PC1) for /kj kɣ / vs. /xj xɣ / = 0.40, t(238) = 3.07, p < .005; /tj tɣ / vs. /sj sɣ /
+    = 0.03, t(200) = 0.26, p = .79; /pj bj /, /pɣ bɣ / vs. /fj fɣ / = –0.20, t(239) = –1.29, p = .20).
+24   Ryan Bennett, Máire Nı́ Chiosáin, Jaye Padgett & Grant McGuire
+
+
+
+for /xˠ/ noted above). Nor does it hold for palatalized stops before /uː/ (Figure 14). Among
+fricatives, only the velarized ones respect coronal < dorsal.
+    Turning to PC3 (height), a significant main effect for MAJOR PLACE(DORSAL) is due to
+the fact that dorsals are produced with a higher overall tongue position than labials ((mean
+PC3) = 0.39, t(476) = 4.16, p < .001). This difference in height is to be expected given that
+dorsal obstruents are formed with a primary lingual constriction while labial obstruents are
+not. There is only a marginally significant difference in PC3 for dorsals and coronals ((mean
+PC3) = 0.17, t(477) = 1.86, p = .06. However, a comparison between labials and coronals
+does reveal a significant difference: coronals are also somewhat higher than labials ((mean
+PC3) = 0.22, t(485) = 2.5, p < .05). This yields a place-based dorsal, coronal > labial height
+scale. Speaker 1’s tongue contours in Figure 14 largely exemplify these generalizations as
+well, especially for coronal > labial. However, as with the backness scale, this scale masks
+considerable variability, some of it systematic. The order holds best for palatalized stops.
+Among velarized consonants, it is the coronals that seem consistently lower.
+    This main effect of MAJOR PLACE on height (PC3) is accompanied by a significant
+interaction between MAJOR PLACE and MANNER. Coronals show a relatively large effect of
+manner on PC3, coronal stops evincing lower PC3 values than coronal fricatives ((mean
+PC3) = –0.53, t(243) = –4.63, p < .001; this generalization does not hold for the velarized
+coronals of Speaker 1 or for any coronals of Speaker 5, for whom /tʲ/ is actually higher
+than /sʲ/). Labials show the same pattern (fricatives > stops), but with a smaller difference
+between group means (mean PC3) = –0.30, t(234) = –2.53, p < .05; this generalization
+does not hold consistently of velarized consonants before /uː/, and for Speaker 5 /pʲ/ is actually
+higher than /fʲ/). Dorsals show the opposite pattern, dorsal stops having higher overall PC3
+values than dorsal fricatives ((mean PC3) = 0.50, t(241) = 3.60, p < .001). However, this
+is only consistently true of /xˠ kˠ/ before /uː/ (and even then not for Speaker 2). Figure 15
+shows tongue curves of stops vs. fricatives before /iː/ for Speaker 1, which exemplify these
+generalizations to some extent.
+    Overall, the clearest and most consistent effects involving place and manner are with
+respect to PC1: there is weaker tongue body backing and a smaller PC1 separation between
+palatalized and velarized consonants for the coronals compared to other places of articulation,
+especially in the case of coronal fricatives. In addition, velar fricatives show a larger separation
+than velar stops, with /xˠ/ being particularly retracted.
+
+
+4.6 Effects of vowel context
+The violin plots in Figure 16 show PC1 (backness) values as a function of consonant, this
+time also broken down by vowel. There is a main effect of VOWEL CONTEXT: PC1 values are
+marginally higher at consonant offset when the following vowel is /iː/ (mean PC1 for /Ciː/ =
+0.22, for /Cuː/ = 0.057, t(727) = 2.14, p < .05). There is also a two-way MANNER × VOWEL
+CONTEXT interaction: the effect of vowel context holds for fricatives overall ((mean PC1)
+for /Ciː/ vs. /Cuː/ = 0.37, t(355) = 3.48, p < .001), but not for stops ((mean PC1) = –0.03,
+t(366) = –0.30, p = .76). This can be seen in Figure 16. In fact, inspection of individual
+speaker curves suggests that this effect of vowel context is most consistent for velarized
+fricatives. Note that the effect of vowel context over all consonants is much smaller than the
+effect of secondary articulation ((mean PC1) for /Ciː/ vs. /Cuː/ = 0.17, (mean PC1) for
+/Cj / vs. /Cɣ / = 1.30).
+     There were two significant MAJOR PLACE × SECONDARY ARTICULATION × VOWEL
+CONTEXT interactions. We attribute the PLACE(CORONAL) × SECONDARY ARTICULATION ×
+VOWEL CONTEXT interaction to the fact that palatalized coronals are slightly more fronted
+in the /Ciː/ context than palatalized labials, when compared to their respective counterparts
+before /Cuː/ ((mean PC1) for /Cj iː/ vs. /Cj uː/ for labials = 0.03, t(100) = 0.25, p = .80; for
+coronals = 0.23, t(108) = 2.19, p < .05). Again this seems to hold only for the fricatives,
+as Figure 16 and inspection of individual speaker data both suggest. The corresponding
+                                                                                        Connemara Irish palatalization and velarization   25
+
+
+
+
+         Figure 15 (Colour online) SSANOVA curves for stop (solid) vs. fricative (dashed) palatalized (left) and velarized (right) consonants
+                   before /iː/, at consonantal offset, Speaker 1. Top: labials; middle: coronals; bottom: dorsals.
+
+
+interaction for PLACE(DORSAL) is likely due to the large difference in backness between /xˠiː/
+and /xˠuː/.
+    Figure 17 shows the effect of vowel context on height (PC3), analogous to Figure 16 for
+backness. There is no main effect of VOWEL CONTEXT on PC3. The lack of such an effect is
+not surprising, given that /iː uː/ are both high vowels. However, a MANNER × VOWEL CONTEXT
+interaction did reach significance, with fricatives showing a greater effect of vowel context
+than stops, similar to the results for PC1. Fricatives had higher overall PC3 values before /iː/
+26   Ryan Bennett, Máire Nı́ Chiosáin, Jaye Padgett & Grant McGuire
+
+
+
+
+            Figure 16 Tongue body backness (PC1) by consonant and vowel context for all speakers, at consonantal offset. Higher PC1 =
+                      fronter. Overlaid are box plots showing the 25%–75% inter-quartile range. Diamonds indicate medians and lines means.
+
+
+than before /uː/ ((mean PC3) for /Ciː/ vs. /Cuː/ for fricatives = 0.34, t(356) = 3.14, p < .001;
+for stops = –0.06, t(366) = –0.58, p = .56). There is also a significant interaction between
+SECONDARY ARTICULATION and VOWEL CONTEXT: PC3 variation conditioned by vowel context
+is greater for velarized /Cɣ / than for palatalized /Cj / ((mean PC3) for /Cɣ iː/ vs. /Cɣ uː/ =
+0.34, t(364) = 3.70, p < .001; for /Cj iː/ vs. /Cj uː/ = –0.06, t(361) = –0.62, p = .58). However,
+the violin plots in Figure 17 suggest that both of these generalizations hold mainly or only for
+velarized fricatives. This is reflected in a significant three-way SECONDARY ARTICULATION ×
+MANNER × VOWEL CONTEXT interaction (Table A2 of the appendix).
+     Finally, a MAJOR PLACE × MANNER × VOWEL CONTEXT interaction seems largely
+attributable to the fact that PC3 variation by vowel context was larger for dorsal fricatives
+than for fricatives at other places of articulation ((mean PC3) for /xj iː xɣ iː/ vs. /xj uː xɣ uː/
+= 0.61, t(111) = 3.46, p < .001; for /sj iː sɣ iː/ vs. /sj uː sɣ uː/ = 0.24, t(120) = 1.56, p = .12;
+for /fj iː fɣ iː/ vs. /fj uː fɣ uː/ = 0.17, t(117) = 0.96, p = .34) or for stops. This difference holds
+over all of the speakers.
+     Overall, these results indicate an effect of vowel context on the PC1 and PC3 values of
+consonants. However, this effect is small in comparison to the effect of secondary articulation
+on tongue body position, and it seems mainly true of velarized fricatives.
+
+
+4.7 Consonant dynamics
+A full exploration of the dynamics of palatalization and velarization is beyond the scope of
+this paper. However, we note some broad tendencies here based on visual inspection of PC
+values and SSANOVA curves at different temporal landmarks for each consonant, along with
+an exploratory statistical analysis.
+                                                                                     Connemara Irish palatalization and velarization   27
+
+
+
+
+         Figure 17 Tongue body height (PC3) by consonant and vowel context for all speakers, at consonantal offset. Higher PC3 = higher.
+                   Overlaid are box plots showing the 25%–75% inter-quartile range. Diamonds indicate medians and lines means.
+
+
+      The violin plots in Figure 18 show PC1 (tongue body backness) by consonant and
+consonant landmark – onset, midpoint, and offset – in the context of the vowel /uː/. Each
+frame shows the PC1 values for a given consonant over the three landmarks. For example,
+the top-left panel shows consonant backness values for /fˠuː/ at onset, midpoint, and offset.
+As can be seen, the tongue body of palatalized stops and /fʲ/ fronts from onset to offset, as
+does the distance between the means of palatalized and velarized pairs like /fˠ/ and /fʲ/ for /fʲ
+fˠ/ and the stops. This increasing frontness of /Cʲ/ must be due to the palatalization gesture,
+since the following vowel /uː/ is back. In contrast, there is very little movement throughout
+the velarized consonants in this /uː/ context.
+      Figure 19 gives analogous data in the context of /iː/. The tongue body of palatalized
+consonants again fronts at least through the midpoint, though in this case it is impossible
+to know how much of that fronting can be attributed to the following vowel. Again we see
+little change in the backness of velarized consonants, though the tongue body seems to front
+slightly (rather than back) over time for /sˠ/ and /xˠ/, suggesting coarticulation, as seen in
+the previous section. This stability of the velarization gesture across landmarks even in the
+/iː/ context suggests that this is an inherent property of velarization. Why velarization should
+differ in this way from palatalization is unclear.
+      The broad trends above were supported by the results of a linear mixed-effects model which
+included CONSONANT LANDMARK as a predictor of dorsal position (Table A4 of the appendix).
+The full model is presented in the appendix; for reasons of space we focus here on findings
+related to the time course of articulation. This model found a main effect of CONSONANT
+LANDMARK. In general PC1 values were higher (more fronted) at consonant midpoint
+than at onset (p < .01), though the difference seen between midpoint and offset was not
+significantly different (p = .25). A significant interaction between SECONDARY ARTICULATION
+28   Ryan Bennett, Máire Nı́ Chiosáin, Jaye Padgett & Grant McGuire
+
+
+
+
+            Figure 18 Tongue body backness (PC1) of consonant, by consonant and temporal location (consonant onset, midpoint, offset),
+                      before the vowel /uː/. Higher PC1 = fronter. Diamonds indicate medians and lines means.
+
+
+and CONSONANT LANDMARK (p < .001) indicates that this effect was stronger for palatalized
+consonants: they show more fronting between onset and midpoint than velarized consonants,
+as expected. We also observed a significant interaction between VOWEL CONTEXT and
+CONSONANT LANDMARK (p < .005) which we attribute to greater fronting between consonant
+midpoint and offset in the context of [i:], presumably due to coarticulation. Lastly, we found
+a significant three-way SECONDARY ARTICULATION × MANNER × CONSONANT LANDMARK
+interaction (p < .05): this interaction may be driven by the difference discussed above between
+/s/ and /x/ on the one hand and /f/ and the stops on the other.
+     The finding that palatalization peaks towards the offset is consistent with other reports in
+the literature (see Section 3.5), though our results indicate that the greatest movement is from
+onset to midpoint. The failure to find a significant difference reflecting the visible further
+fronting of /fʲ/ and the palatalized stops might be due to the behavior of /sʲ/ and /xʲ/, where
+palatalization clearly does peak by midpoint, as seen in Figure 18. It should be borne in mind
+that /sʲ/ in Irish is realized as [ɕ], not /sʲ/ with a secondary articulation, so we may not expect
+increasinɡ frontness during this segment anyway. The same may be true of /xʲ/, which is
+impressionistically much like [ç].
+     Figure 20 and Figure 21 show analogous information for PC3 (tongue body height).
+Patterns in this case are less obvious. Overall, tongue dorsum raising is more prevalent among
+palatalized than velarized consonants, particularly palatalized fricatives, though /x/ is an
+exception. There also seems to be more raising in the context of /i:/, again particularly for
+fricatives.
+     These trends were also broadly supported by the results of a linear mixed-effects model
+which took PC3 as the dependent measure (Table A5 of the appendix). Unlike our model
+for PC1 dynamics, there was no main effect of CONSONANT LANDMARK (onset vs. midpoint,
+p < 1; midpoint vs. offset, p < .79). However, there was a significant interaction between
+CONSONANT LANDMARK and SECONDARY ARTICULATION: palatalized consonants are more
+raised at midpoint than at onset (p < .005). There was also a marginally significant difference
+in raising between midpoint and offset for palatalized consonants (p < .07). This weak effect
+                                                                                  Connemara Irish palatalization and velarization   29
+
+
+
+
+         Figure 19 Tongue body backness (PC1) of consonant, by consonant and temporal location (consonant onset, midpoint, offset),
+                   before the vowel /iː/. Higher PC1 = fronter. Diamonds indicate medians and lines means.
+
+
+may be stronger for fricatives, as indicated by a marginally significant three-way interaction
+between SECONDARY ARTICULATION, MANNER, and CONSONANT LANDMARK for midpoint-
+offset comparisons (p < .09). This is consistent with our finding of a significant MANNER
+× CONSONANT LANDMARK interaction, which suggests that fricatives in general have greater
+dorsum raising at consonantal offset than at midpoint (p < .001). Finally, a significant VOWEL
+CONTEXT × CONSONANT LANDMARK interaction indicates greater dorsal raising at offset than
+midpoint for consonants preceding /iː/ (p < .05).
+     A limit on the conclusions in this section is that landmarks like ‘onset’ are approximate
+and somewhat variable, given the limitations of frame rate (one image roughly every 17 ms)
+and the inherently imprecise nature of articulatory to acoustic alignment (see Section 3.4).
+We aligned audio to ultrasound video stills by defining ‘offset’ in terms of alignment of the
+audible burst of a reference /kˠ/ to the first ultrasound frame showing evidence of movement
+of the constriction away from the palate. It is possible, for example, that this ultrasound frame
+is closer on average to the midpoint of occlusion, say, than to the end.
+
+
+5 Discussion
+Our goal was to test the following hypotheses (repeated from (4) above):
+(5) Hypotheses
+    a. Tongue Body Hypothesis: Tongue body position consistently and sufficiently
+       distinguishes palatalized from non-palatalized consonants at all places of articulation.
+       Palatalized consonants are fronted and possibly raised compared to velarized
+       consonants.
+    b. Coronal Hypothesis: Velarization is weaker in coronals than in labials and dorsals.
+    c. Coarticulation Resistance Hypothesis: Tongue body position does not vary greatly
+       with vowel context, unlike in languages with no palatalization contrast.
+30   Ryan Bennett, Máire Nı́ Chiosáin, Jaye Padgett & Grant McGuire
+
+
+
+
+            Figure 20 Tongue body height (PC3) of consonant, by consonant and temporal location (consonant onset, midpoint, offset), before
+                      the vowel /uː/. Higher PC3 = higher. Diamonds indicate medians and lines means.
+
+
+
+
+            Figure 21 Tongue body height (PC3) of consonant, by consonant and temporal location (consonant onset, midpoint, offset), before
+                      the vowel /iː/. Higher PC3 = higher. Overlaid are box plots showing the 25%–75% inter-quartile range. Diamonds
+                      indicate medians and lines means.
+                                                                 Connemara Irish palatalization and velarization   31
+
+
+
+
+Our ultrasound results show, first, that tongue body position indeed very reliably distinguishes
+palatalized from non-palatalized consonants, at least for the range of consonants and contexts
+explored here. For every pair of consonants differing only in secondary articulation (e.g.
+/tˠ/ vs. /tʲ/), for every speaker, the SSANOVA curves are wholly or largely distinct in the
+dorsal region. Overall, the tongue body is fronter and higher for palatalized than for velarized
+consonants, just as it is in Russian and Scottish Gaelic (Section 2.2.2). The tongue body
+backness differences are smaller overall for the coronals (especially /sj sˠ/).
+      As noted in Section 2.2.2, palatalization has been associated by Fant (1960) with a wider
+pharyngeal cavity (or absence of a pharyngeal constriction). We offered reasons in that section
+to doubt that pharyngeal cavity width is the primary articulatory correlate of a palatalization
+contrast. For example, an increased pharyngeal width in palatalized consonants might simply
+be a side-effect of tongue body fronting. Our data do seem to support this last claim (see,
+for example, PC1 in Figure 7 and the SSANOVA curves in Figures 4–6). Tongue body
+backness might be considered ‘primary’ to the Irish palatalization contrast, at least judging
+by the relative contribution of PC1 compared to PC2 and PC3 in accounting for variance.
+However, PC2 accounts for fully 30% of the variance in our data. This is an interesting result,
+indicating a substantial and INDEPENDENT role for tongue root advancement and retraction in
+the contrast. In other words, our results suggest that the Irish palatalization contrast involves
+both tongue body and tongue root targets. In this respect our Tongue Body Hypothesis is
+only partially supported: dorsal position does not appear to be the only lingual correlate of
+secondary palatalization and velarization. The relationship between this articulatory aspect
+of Irish palatalization and the acoustic-perceptual properties of those consonants is a topic
+worth further exploring.
+      Turning to effects of place (and it turns out, manner), the height difference between /kˠ/
+and /kʲ/ is minimal in comparison to the backness difference between these sounds. This is
+not surprising, since velar and palatal closures by their nature require a high tongue body.
+However, the situation with /xˠ/ vs. /xʲ/ is different. The sound /xˠ/ is both a good deal further
+back and lower than /xʲ/, and indeed than its stop counterpart /kˠ/. It has been claimed that
+some Connemara speakers optionally pronounce /xˠ/ as uvular [X] (Ó Curnáin 2007: 171).
+Our tongue body results for /xˠ/ might support such a uvular realization. (See Geng 2007
+and references therein for a similar finding for the German dorsal fricative.) In that case,
+‘velarization’ would be more precisely uvularization. Since the tongue body is roughly just as
+backed and low for velarized labials as for /xˠ/, this might likewise imply that ‘velarization’ is
+uvularization more generally in Irish. This is indeed consistent with velarization having both
+tongue body and tongue root components.
+      Turning to the coronals, for /sˠ/ vs. /sʲ/ it is the backness difference that is minimal overall
+(but this is not true for all speakers); there is a consistent difference in height. In terms of
+backness, and using /pˠ bˠ/ as a point of reference, /sˠ/ shows little or no velarization. The
+sound /tˠ/ is also weakly velarized, though not so weakly as is /sˠ/. In spite of this fact, the
+sounds /tˠ/ and /tʲ/ are well separated in backness, in part because /tʲ/ is very fronted. Overall,
+the Coronal Hypothesis, that velarization is weaker in coronals, is supported, though only
+with respect to tongue body backness; we find no such difference for the tongue root.
+      It is worth pointing out that the weaker velarization of the coronals is audible (and has
+been observed in traditional descriptions of Connacht Irish, e.g. Mhac an Fhailigh 1980). For
+our speakers the /tˠ/ and /sˠ/ of tuı́ /tˠiː/ ‘straw’ and suı́ /sˠiː/ ‘sit’ ranged impressionistically
+from very velarized to not velarized at all. This difference for coronals mirrors what has been
+found for Russian and possibly Scottish Gaelic (Section 2.2.2), suggesting that there might be a
+general explanation for this pattern. Such an explanation could lie in production. For example,
+it is conceivable that constraints on producing coronals like /t/ or /s/, together with the coupling
+between the tongue body and blade/tip, inhibit tongue body backing in coronals. However,
+there is evidence that at least in some languages dental sounds are regularly accompanied by
+tongue body backing (Stevens, Keyser & Kawasaki 1986, Dart 1991, Operstein 2010, Lee-
+Kim 2014). At least /tˠ/ in Connemara Irish is dental (de Bhaldraithe 1945, Ó Raghallaigh
+32   Ryan Bennett, Máire Nı́ Chiosáin, Jaye Padgett & Grant McGuire
+
+
+
+2013), so this evidence may speak against such an explanation rooted in production. An
+alternative, but complementary, explanation relies on the idea of cue trade-off: /tʲ/ and /sʲ/
+have robust cues to their palatalization apart from the second formant displacement associated
+with tongue body production. The sound /tʲ/ is frequently affricated; the intensity, duration,
+and quality of the noise in /sʲ/ and in the release of /tʲ/ are potential cues to palatalization (Nı́
+Chiosáin & Padgett 2012). Indeed, what we transcribe for consistency as /sʲ/ is realized as [ɕ]
+or [ʃ] in Irish, so that the contrast between this sound and /sˠ/ might be wholly borne by cues
+contained in the frication noise. It is possible that these ‘secondary’ cues to palatalization in
+/tʲ sʲ/ compensate for weaker velarization in /tˠ sˠ/.
+     Our findings regarding velarization of non-palatalized consonants in Irish closely parallel
+previous findings for Russian (and possibly Scottish Gaelic), as detailed in Section 2.2.2.
+In particular, tongue body backing is strong in velarized labials, but significantly weaker or
+absent in velarized coronals. We also found that tongue body backness is more variable in
+velarized than in palatalized coronals. In terms of both degree and consistency, velarization
+in coronals may be ‘weaker’ than palatalization in both Irish and Russian.
+     Our results show that, at least in the context of /iː uː/, labial stops and fricatives exhibit
+robust palatalization and velarization. We can think of two possible explanations why some
+traditional descriptions imply less tongue body activity for labials, contrary to our findings
+(Section 2.2.1). First, compared to coronal and even velar obstruents, palatalized labial
+obstruents have less in the way of ‘secondary’ cues to palatalization, consisting of the
+intensity, duration, and spectral properties of noise. This is because the noise produced
+by labial obstruents tends to be lower in intensity, shorter in duration (in the case of stops),
+and less shaped by resonant cavities (Stevens 1998: 340–375). This means that next to front
+vowels in particular (where the second formant is already high due to the neighboring vowel),
+audible palatalization is minimal. Second, the tongue body position of labials may be less
+subject to introspection than that of coronals or velars, since no consistent contact is made
+between the tongue blade or body and the roof of the mouth.
+     Our tongue body data allow us to see past significant impressionistic variability in the
+realization of Irish palatalization. For example, the Irish contrast has been described as one of
+palatalized vs. plain consonants before back vowels, e.g. beo [bʲoː] ‘alive’ vs. bó [boː] (rather
+than [bˠoː]) ‘cow’, but of PLAIN vs. VELARIZED consonants, respectively, before front vowels,
+e.g. bı́ [biː] (rather than [bʲiː]) ‘be (IMP)’ vs. [bˠiː] ‘yellow’ (Nı́ Chiosáin & Padgett 2001,
+2012). That is, at least for labials palatalization is no more evident before front vowels than
+velarization is before back vowels like /uː/. (As noted above, palatalization is more auditorily
+salient in coronals and velars, even before front vowels, because it is often accompanied by
+significant noise.) This apparent shift in the realization of the contrast can be seen as only an
+artifact of the vocalic context, however. As seen earlier (Figure 11 and Figure 12), the tongue
+body is in roughly the same position in pı́osa /pʲiːsˠə/ ‘piece’, impressionistically [piːsə], as
+it is in b’fhiú [bʲuː] ‘it is worth’, just as it is in the same position in púca [puːkə] ‘ghost’ as
+it is in buı́ [bˠiː] ‘yellow’. While the transition from /Cˠ/ to [iː/eː] or from /Cʲ/ to [uː/oː] is
+highly audible, there is relatively little or no transition in tongue body position from /Cˠ/ to
+[uː/oː] or from /Cʲ/ to [iː/eː]. In other words, the secondary articulations of the consonants
+do not actually depend (much) on vowel context, but the changing vowel context causes the
+perception of the sounds to differ.
+     Vowel context – /iː/ vs. /uː/ – had a significant effect on the backness of the tongue
+body during consonant production. However, this was true only of fricatives overall, and
+mainly for velarized fricatives. The greater effect on velarized consonants may reflect greater
+variability in the production of velarization in general (see Kedrova et al. 2008). However, we
+are puzzled about the finding for fricatives. It is possible that this finding is an artifact of our
+sound labeling. The end of a fricative was taken to be at the onset of higher formant visibility
+in the following vowel, while in the case of stops it was the stop burst. If our labeling criterion
+for fricative offsets placed the end of the consonant further into the articulation of the vowel,
+then vowels would likely appear to have a greater effect on the tongue body of fricatives.
+                                                                    Connemara Irish palatalization and velarization   33
+
+
+
+
+     Overall, however, the effect of vowel on the tongue body position of these Irish consonants
+is very small, roughly 13% of the effect of secondary articulation itself even at the offset of
+the consonant (Table A1 of the appendix), supporting our third, Coarticulation Resistance
+Hypothesis. Presumably the inherent secondary palatalization and velarization specifications
+of Irish consonants largely override coarticulation with following vowels. Farnetani et al.
+(1991) and Nı́ Chasaide & Fealy (1991) find resistance to coarticulation for Irish consonants,
+and the effect is well documented for Russian (Öhman 1966, Purcell 1979, Choi & Keating
+1991, see discussion in Recasens, Pallarès & Fontdevila 1997, Manuel 1999, Recasens 1999).
+     Since our speakers were radio broadcasters (see discussion in Section 3.1), it could well
+be that their pronunciations were more conservative and/or hyperarticulated than those of the
+average Irish speaker. In addition, they may have inferred from the presentation of the materials
+that we were interested in the palatalization contrast. We doubt that these facts undermine any
+of the basic conclusions of this paper. For example, the evidence of coarticulation resistance
+discussed above is mirrored by previous studies of both Irish and Russian (Section 2.2.2); the
+evidence that coronal velarization is different from that of labials and dorsals is also consistent
+with previous studies of Russian and descriptions of Irish. If our speakers are different at all,
+it is probably in the degree to which they maintain the palatalization contrast in general: as
+noted in Section 2.1, there is evidence that the contrast is less well maintained by younger
+speakers.
+     This paper is of interest also for its use of principal component analysis (PCA) to
+characterize effects on the tongue body and root. This analysis led to relatively simple,
+interpretable, results, and did so while taking the entire tongue shape into account rather
+than relying on a single point or other less secure and representative measure. An early
+precursor in this regard is Harshman et al. (1977), which used a related method, PARAFAC,
+to explore factors underlying the production of English vowels. Harshman et al.’s analysis
+yielded two main factors (dimensions of variation): one was ‘a forward movement of the
+root of the tongue accompanied by an upward movement of the front of the tongue’, and the
+other ‘an upward and backward movement of the tongue’. Unlike Harshman et al., we found
+a principal component related to the tongue root independent of one related to tongue height
+(or backness). This most likely reflects a real difference between the phenomena examined:
+Harshman et al. examined English vowels, and there is independent evidence that tongue body
+height and tongue root advancement co-vary for the English tense/lax contrast (Ladefoged
+& Maddieson 1996: 302–305, Tiede 1996). If these factors co-vary in the data, we expect
+them to show up as a single factor in analyses involving PCA or PARAFAC, which reduce
+correlated variation to a single factor.6
+
+
+
+6 Conclusion
+Our results, together with the related archive of images, data, and recordings (see introduction)
+should be of interest to anyone concerned with understanding the Irish palatalization contrast,
+including phonologists, phoneticians, dialectologists, and Irish language learners. Apart from
+its descriptive interest, the data here bear on theories of coarticulation and contrast realization,
+among other areas.
+     One limitation of this study is its focus on data from only one of the three major dialects,
+Connacht Irish. We have obtained analogous data representing the two other major dialect
+areas, Munster and Ulster Irish, which we intend to present in future work. Apart from its
+
+6
+    It is also relevant that in a PARAFAC analysis, one must specify up front the desired number of output
+    factors. Because Harshman et al. (1977) specified only two factors, they may have simply excluded a
+    priori finding a factor separating tongue root advancement from tongue body height. Harshman et al.
+    argue (p. 705) against this possibility, but acknowledge the need for further research on this point.
+34   Ryan Bennett, Máire Nı́ Chiosáin, Jaye Padgett & Grant McGuire
+
+
+
+descriptive importance, data from three dialects can be likened to a controlled experiment in
+which hypotheses about a palatalization contrast can be better tested. For example, palatalized
+coronal stops in Ulster Irish are realized with more affrication than in other dialects, while
+velarized labials in that dialect are described as strongly rounded (Quiggin 1906, Boyle 1973).
+Does affrication of /tʲ/ and /dʲ/ to [tʃ] and [dʒ] respectively imply even weaker velarization
+of their velarized counterparts than seen for Connemara Irish, as the discussion of cue
+compensation in Section 5 would imply? If velarized labials are rounded, does this rounding
+trade off with tongue backing? (We also intend to analyze lip capture data from these same
+ultrasound sessions.)
+    This study is also limited in the range of consonants and contexts examined. In future work
+we plan to explore other consonant types (particularly sonorants) and to examine consonants
+in a wider range of contexts, including in word-final position and adjacent to a broader range
+of vowels. A wider range of vowel contexts will allow us to better test some claims about
+Irish secondary articulations (involving for example the role of tongue body height), while a
+comparison of word-initial and word-final contrasts will allow us, for example, to test claims
+about the phonetic origins of word- or syllable-final neutalization of secondary articulation
+contrasts (see Kochetov 2002, 2004; Nı́ Chiosáin & Padgett 2012).
+
+
+Acknowledgements
+     This material is based upon work supported by the National Science Foundation under Grants No.
+     BCS-1424398 and BCS-1423772, and by grants from the UC Santa Cruz Committee on Research.
+     Many people contributed to the improvement of this paper; we thank them here, and apologize for not
+     listing them all by name. We are grateful to Jenny Bellik for her many contributions to our project,
+     and to the undergraduate research assistants who make it possible. We also thank the anonymous
+     reviewers and JIPA editor Amalia Arvaniti for their comments, which greatly improved this
+     paper.
+
+
+Appendix. Statistical models
+Model for PC1 (Sections 3.6.4 and 4.3)
+P-values were estimated from the t statistic using an upper-bound 715 degrees of freedom
+(733 observations less the 18 fixed-effect parameters in the final model, see Baayen 2008:
+297). The model has a fairly low amount of collinearity (κ = 1.95, VIF < 8.18 for all
+predictors). These values were computed using MER-UTILS (Frank 2014); on collinearity
+see Baayen (2008: 221–222), York (2012), and Wurm & Fisicaro (2014). Significant
+predictors are marked with an asterisk. Values for B in Table A1 are in z-scores, as all
+models were fit to z-score normalized values of the principal component (see discussion in
+Section 3.6.3).
+Model for PC3 (Sections 3.6.4 and 4.3)
+P-values were estimated from the t statistic using an upper-bound 718 degrees of freedom
+(733 observations less the 15 fixed-effect parameters in the final model). The model has a
+fairly low amount of collinearity (κ = 1.80, VIF < 5.39 for all predictors).
+Model for PC2 (Sections 3.6.4 and 4.4)
+P-values were estimated from the t statistic using an upper-bound 719 degrees of freedom
+(733 observations less the 14 fixed-effects parameters in the final model). The model has a
+fairly low amount of collinearity (κ = 1.94, VIF < 5.51 for all predictors).
+Model for PC1 dynamics (Section 4.7)
+In order to investigate consonant dynamics, we computed another linear mixed-effects model
+with PC1 (backness) as the dependent measure. The initial model included fixed effects for
+                                                                                        Connemara Irish palatalization and velarization      35
+
+
+
+
+        Table A1 Final regression model for PC1 (backness). Factors are sum-coded; coefficients express predicted change in value of
+                 PC1 relative to grand mean for all levels of that factor.
+        Fixed effects                                        Estimated B              SE(B)                t-value              p(>|t|)
+        (Intercept)                                           0.130393                0.047128              2.767               < .01
+        MAJOR PLACE: coronal                                  0.378694                0.080911              4.680               < .001∗
+        MAJOR PLACE: dorsal                                  0.093480                0.097630             0.958                 .34
+        SECONDARY ARTICULATION: palatalized                   0.649728                0.096845              6.709               < .001∗
+        MANNER: fricative                                    0.048130                0.038729             1.243                 .21
+        VOWEL CONTEXT: /Ciː/                                  0.087396                0.040220              2.173               < .05∗
+        PLACE × SECOND. ARTIC.:
+                                                             0.282280                0.058496                4.826             < .001∗
+        coronal × palatalized
+        PLACE × SECOND. ARTIC.:
+                                                             0.047530                0.087811             0.541                      .59
+        dorsal × palatalized
+        PLACE × MANNER:
+                                                                0.027715              0.029585                0.937                    .35
+        coronal × fricative
+        PLACE × MANNER:
+                                                             0.154760                0.029586             5.231               < .001∗
+        dorsal × fricative
+        SECOND. ARTIC. × MANNER:
+                                                             0.005950                0.045960             0.129                      .90
+        palatalized × fricative
+        PLACE × V CONTEXT:
+                                                                0.005740              0.042647                0.135                    .90
+        coronal × /Ciː/
+        PLACE × V CONTEXT:
+                                                                0.005607              0.058251                0.096                    .92
+        dorsal × /Ciː/
+        SECOND. ARTIC. × V CONTEXT:
+                                                             0.046300                0.031583             1.466                      .14
+        palatalized × /Ciː/
+        MANNER × V CONTEXT:
+                                                                0.101194              0.030996                3.265             < .005∗
+        fricative × /Ciː/
+        PLACE × SECOND. ARTIC. × MANNER:
+                                                             0.206620                0.029584             6.984               < .001∗
+        coronal × palatalized × fricative
+        PLACE × SECOND. ARTIC. × MANNER:
+                                                                0.235812              0.029585                7.971             < .001∗
+        dorsal × palatalized × fricative
+        PLACE × SECOND. ARTIC. × V CONTEXT:
+                                                                0.074229              0.029583                2.509             < .05∗
+        coronal × palatalized /Ciː/
+        PLACE × SECOND. ARTIC. × V CONTEXT:
+                                                             0.076820                0.029586             2.596               < .01∗
+        dorsal × palatalized × /Ciː/
+        ∗
+            = Statistically significant at α = .05
+
+
+
+MANNER, MAJOR PLACE, SECONDARY ARTICULATION, and VOWEL CONTEXT, as well as all two-
+and three-way interactions between these terms. It additionally included a fixed effect of
+CONSONANT LANDMARK (onset, midpoint, offset); two-way interactions between CONSONANT
+LANDMARK and each of SECONDARY ARTICULATION, VOWEL CONTEXT, and MANNER; a three-
+way interaction between CONSONANT LANDMARK, SECONDARY ARTICULATION, and VOWEL
+CONTEXT; and another three-way interaction between CONSONANT LANDMARK, SECONDARY
+ARTICULATION, and MANNER. A random intercept for speaker was included, as well as random
+intercepts and by-speaker random slopes for SECONDARY ARTICULATION and CONSONANT
+LANDMARK. This is a relatively simple random effects structure, but we found that models
+with more complex random effects structures either failed to converge or involved large
+amounts of collinearity.
+    P-values were estimated from the t statistic using an upper-bound 2168 degrees of freedom
+(2199 observations less the 31 fixed-effects parameters in the final model). The model has a
+low amount of collinearity (κ = 2.03, VIF < 1.4 for all predictors).
+36   Ryan Bennett, Máire Nı́ Chiosáin, Jaye Padgett & Grant McGuire
+
+
+
+            Table A2 Final regression model for PC3 (backness). Factors are sum-coded; coefficients express predicted change in value of
+                     PC3 relative to grand mean for all levels of that factor.
+            Fixed effects                                        Estimated B              SE(B)                t-value              p(>|t|)
+            (Intercept)                                             0.017480              0.049784                0.351               .73
+            MAJOR PLACE: coronal                                    0.061893              0.071508                0.866               .39
+            MAJOR PLACE: dorsal                                     0.177881              0.073907                2.407             < .05∗
+            SECONDARY ARTICULATION: palatalized                     0.617489              0.067134                9.198             < .001∗
+            MANNER: fricative                                       0.024646              0.068211                0.361               .72
+            VOWEL CONTEXT: /Ciː/                                    0.030835              0.062206                0.496               .64
+            PLACE × MANNER:
+                                                                    0.209701              0.035174                5.962             < .001∗
+            coronal × fricative
+            PLACE × MANNER:
+                                                                 0.302950                0.035175             8.613               < .001∗
+            dorsal × fricative
+            SECOND. ARTIC. × MANNER:
+                                                                    0.006806              0.039828                0.171                    .86
+            palatalized × fricative
+            PLACE × V CONTEXT:
+                                                                 0.074590                0.046421             1.607                      .11
+            coronal × /Ciː/
+            PLACE × V CONTEXT:
+                                                                    0.126022              0.081510                1.546                    .12
+            dorsal × /Ciː/
+            SECOND. ARTIC. × V CONTEXT:
+                                                                 0.091110                0.032211             2.829               < .005∗
+            palatalized × /Ciː/
+            MANNER × V CONTEXT:
+                                                                    0.074879              0.025697                2.914             < .005∗
+            fricative × /Ciː/
+            PLACE × MANNER × V CONTEXT:
+                                                                 0.008420                0.035176             0.239                      .81
+            coronal × fricative × /Ciː/
+            PLACE × MANNER × V CONTEXT:
+                                                                    0.076053              0.035176                2.162             < .05∗
+            dorsal × fricative × /Ciː/
+            SECOND. ARTIC. × MANNER × V CONTEXT:
+                                                                 0.086130                0.024920             3.456               < .001∗
+            palatalized × fricative × /Ciː/
+           ∗
+               = Statistically significant at α = .05
+
+            Table A3 Final regression model for PC2. Factors are sum-coded; coefficients express predicted change in value of PC2
+                     relative to grand mean for all levels of that factor.
+            Fixed effects                                        Estimated B              SE(B)                t-value              p(>|t|)
+            (Intercept)                                           0.268543                0.058933              4.557               < .001
+            MAJOR PLACE: coronal                                 0.295966                0.084826             3.489               < .001∗
+            MAJOR PLACE: dorsal                                   0.137513                0.130467              1.054                 .29
+            SECONDARY ARTICULATION: palatalized                   0.539756                0.062375              8.653               < .001∗
+            MANNER: fricative                                     0.065553                0.049889              1.314                 .19
+            VOWEL CONTEXT: /Ciː/                                  0.070051                0.042122              1.663                 .10
+            PLACE × SECOND. ARTIC.:
+                                                                 0.069804                0.137955             0.506                      .61
+            coronal palatalized
+            PLACE × SECOND. ARTIC.:
+                                                                    0.124920              0.094344                1.324                    .19
+            dorsal × palatalized
+            PLACE × MANNER:
+                                                                 0.086155                0.038789             2.221               < .05∗
+            coronal × fricative
+            PLACE × MANNER:
+                                                                    0.135454              0.038791                3.492             < .001∗
+            dorsal × fricative
+            PLACE × V CONTEXT:
+                                                                 0.004018                0.050409             0.080                      .94
+            coronal × /Ciː/
+                                                                                  Connemara Irish palatalization and velarization        37
+
+
+
+
+Table A3 Continued
+Fixed effects                                          Estimated B              SE(B)                  t-value               p(>|t|)
+PLACE × V CONTEXT:
+                                                          0.097354              0.081649                  1.192                    .23
+dorsal × /Ciː/
+SECOND. ARTIC. × V CONTEXT:
+                                                       0.041802                0.040990               1.020                      .31
+palatalized × /Ciː/
+PLACE × SECOND. ARTIC. × V CONTEXT:
+                                                          0.092764              0.038787                  2.392              < .05∗
+coronal × palatalized × /Ciː/
+PLACE × SECOND. ARTIC. × V CONTEXT:
+                                                          0.026871              0.038789                  0.693                    .49
+dorsal × palatalized × /Ciː/
+∗
+    = Statistically significant at α = .05
+
+
+
+Table A4 Final regression model for PC1. All factors are sum-coded except for CONSONANT LANDMARK; coefficients express
+         predicted change in value of PC1 relative to grand mean for all levels of that factor. CONSONANT LANDMARK is backward
+         difference coded; coefficients express predicted change in value of PC1 relative to the previous level for that factor
+         (onset > midpoint > offset).
+Fixed effects                                         Estimated B               SE(B)                 t-value               p(>|t|)
+(Intercept)                                            0.006357                 0.014015                0.454                 .65
+MAJOR PLACE: coronal                                   0.397260                 0.019768               20.096               < .001∗
+MAJOR PLACE: dorsal                                   0.065296                 0.019768              3.303                < .001∗
+SECONDARY ARTICULATION: palatalized                    0.566544                 0.075901                7.464               < .001∗
+MANNER: fricative                                     0.055782                 0.014005              3.983                < .001∗
+VOWEL CONTEXT: /Ciː/                                   0.021372                 0.014005                1.526                 .13
+C LANDMARK: onset vs. midpoint                         0.268477                 0.097690                2.748               < .01∗
+C LANDMARK: midpoint vs. offset                        0.050477                 0.043745                1.154                 .25
+PLACE × SECOND. ARTIC.:
+                                                      0.187972                 0.019768              9.509                < .001∗
+coronal × palatalized
+PLACE × SECOND. ARTIC.:
+                                                      0.011281                 0.019769              0.571                      .57
+dorsal × palatalized
+PLACE × MANNER:
+                                                         0.042880               0.019770                 2.169              < .05∗
+coronal × fricative
+PLACE × MANNER:
+                                                      0.130478                 0.019769              6.600                < .001∗
+dorsal × fricative
+PLACE × V CONTEXT:
+                                                         0.028715               0.019769                 1.453                    .15
+coronal × /Ciː/
+PLACE × V CONTEXT:
+                                                      0.051633                 0.019770              2.612                < .01∗
+dorsal × /Ciː/
+SECOND. ARTIC. × MANNER:
+                                                         0.038061               0.014004                 2.718              < .01∗
+palatalized × fricative
+SECOND. ARTIC. × V CONTEXT:
+                                                      0.031928                 0.014004              2.280                < .05∗
+palatalized × /Ciː/
+MANNER × V CONTEXT:
+                                                         0.053371               0.014003                 3.811              < .001∗
+fricative × /Ciː/
+SECOND. ARTIC. × C LANDMARK:
+                                                         0.171345               0.034292                 4.997              < .001∗
+palatalized × onset vs. midpoint
+SECOND. ARTIC. × C LANDMARK:
+                                                         0.049794               0.034292                 1.452                    .15
+palatalized × midpoint vs. offset
+MANNER × C LANDMARK:
+                                                         0.045019               0.034292                 1.313                    .19
+fricative × onset vs. midpoint
+38   Ryan Bennett, Máire Nı́ Chiosáin, Jaye Padgett & Grant McGuire
+
+
+
+            Table A4 Continued
+            Fixed effects                                         Estimated B              SE(B)                 t-value                p(>|t|)
+            MANNER × C LANDMARK:
+                                                                     0.000451              0.034292                   0.013                   .99
+            fricative × midpoint vs. offset
+            V CONTEXT × C LANDMARK:
+                                                                  0.00149                 0.034291                0.043                     .97
+            /Ciː/ × onset vs. midpoint
+            V CONTEXT × C LANDMARK:
+                                                                     0.095957              0.034291                   2.798             < .005∗
+            /Ciː/ × midpoint vs. offset
+            PLACE × SECOND. ARTIC. × MANNER:
+                                                                  0.199069                0.019769              10.070                < .001∗
+            coronal × palatalized × fricative
+            PLACE × SECOND. ARTIC. × MANNER:
+                                                                     0.271212              0.019769                 13.719              < .001∗
+            dorsal × palatalized × fricative
+            PLACE × SECOND. ARTIC. × V CONTEXT:
+                                                                     0.071577              0.019769                   3.621             < .001∗
+            coronal × palatalized × /Ciː/
+            PLACE × SECOND. ARTIC. × V CONTEXT:
+                                                                  0.057522                0.019769                2.910               < .005∗
+            dorsal × palatalized × /Ciː/
+            PLACE × MANNER × V CONTEXT:
+                                                                  0.025035                0.019768                1.266                     .21
+            dorsal × fricative × /Ciː/
+            PLACE × MANNER × V CONTEXT:
+                                                                     0.043112              0.019768                   2.181             < .05∗
+            coronal × fricative × /Ciː/
+            SECOND. ARTIC. × MANNER × C LANDMARK:
+            palatalized × fricative × onset vs.                      0.004239              0.034294                   0.124                   .90
+            midpoint
+            SECOND. ARTIC. × MANNER × C LANDMARK:
+            palatalized × fricative × midpoint vs.                0.076293                0.034293                2.225               < .05∗
+            offset
+           ∗
+               = Statistically significant at α = .05
+
+
+
+            Table A5 Final regression model for PC3. All factors are sum-coded except for CONSONANT LANDMARK; coefficients express
+                     predicted change in value of PC3 relative to grand mean for all levels of that factor. CONSONANT LANDMARK is backward
+                     difference coded; coefficients express predicted change in value of PC3 relative to the previous level for that factor
+                     (onset > midpoint > offset).
+            Fixed effects                                         Estimated B              SE(B)                 t-value                p(>|t|)
+            (Intercept)                                            0.001521                0.015436                  0.099                .921
+            MAJOR PLACE: coronal                                  0.035219                0.021747                1.620                 .105
+            MAJOR PLACE: dorsal                                    0.382980                0.021747                 17.611              < .001∗
+            SECONDARY ARTICULATION: palatalized                    0.415424                0.102124                  4.068              < .001∗
+            MANNER: fricative                                     0.040212                0.015406                2.610               < .01∗
+            VOWEL CONTEXT: /Ciː/                                   0.010446                0.015406                  0.678                .498
+            C LANDMARK: onset vs. midpoint                        0.000365                0.101657                0.004                 .997
+            C LANDMARK: midpoint vs. offset                       0.019941                0.074713                0.267                 .789
+            PLACE × SECOND. ARTIC.:
+                                                                     0.264164              0.021747                 12.147              < .001∗
+            coronal × palatalized
+            PLACE × SECOND. ARTIC.:
+                                                                  0.149581                0.021747                6.878               < .001∗
+            dorsal × palatalized
+            PLACE × MANNER:
+                                                                     0.175526              0.021749                   8.071             < .001∗
+            coronal × fricative
+            PLACE × MANNER:
+                                                                  0.301705                0.021747              13.873                < .001∗
+            dorsal × fricative
+                                                                      Connemara Irish palatalization and velarization    39
+
+
+
+
+         Table A5 Continued
+         Fixed effects                                Estimated B   SE(B)                t-value              p(>|t|)
+         PLACE × V CONTEXT:
+                                                      0.022591     0.021747             1.039                   .299
+         coronal × /Ciː/
+         PLACE × V CONTEXT:
+                                                        0.026731    0.021749                1.229                 .219
+         dorsal × /Ciː/
+         SECOND. ARTIC. × MANNER:
+                                                        0.095054    0.015406                6.170             < .001∗
+         palatalized × fricative
+         SECOND. ARTIC. × V CONTEXT:
+                                                      0.051316     0.015406             3.331               < .005∗
+         palatalized × /Ciː/
+         MANNER × V CONTEXT:
+                                                        0.050972    0.015405                3.309             < .005∗
+         fricative × /Ciː/
+         SECOND. ARTIC. × C LANDMARK:
+                                                        0.114749    0.037724                3.042             < .005∗
+         palatalized × onset vs. midpoint
+         SECOND. ARTIC. × C LANDMARK:
+                                                      0.068802     0.037724             1.824                   .068
+         palatalized × midpoint vs. offset
+         MANNER × C LANDMARK:
+                                                      0.002531     0.037724             0.067                   .947
+         fricative × onset vs. midpoint
+         MANNER × C LANDMARK:
+                                                        0.142930    0.037725                3.789             < .001∗
+         fricative × midpoint vs. offset
+         V CONTEXT × C LANDMARK:
+                                                        0.018750    0.037724                0.497                 .619
+         /Ciː/ × onset vs. midpoint
+         V CONTEXT × C LANDMARK:
+                                                        0.075265    0.037724                1.995             < .05∗
+         /Ciː/ × midpoint vs. offset
+         PLACE × SECOND. ARTIC. × MANNER:
+                                                      0.044137     0.021747             2.030               < .05∗
+         coronal × palatalized × fricative
+         PLACE × SECOND. ARTIC. × MANNER:
+                                                        0.091012    0.021748                4.185             < .001∗
+         dorsal × palatalized × fricative
+         PLACE × SECOND. ARTIC. × V CONTEXT:
+                                                        0.042311    0.021747                1.946                 .052
+         coronal × palatalized × /Ciː/
+         PLACE × SECOND. ARTIC. × V CONTEXT:
+                                                      0.038588     0.021748             1.774                   .076
+         dorsal × palatalized × /Ciː/
+         SECOND. ARTIC. × MANNER × V CONTEXT:
+                                                      0.052341     0.015404             3.398               < .005∗
+         palatalized × fricative × /Ciː/
+         SECOND. ARTIC. × V CONTEXT × C LANDMARK:
+         palatalized × /Ciː/ × onset vs.              0.019854     0.037726             0.526                   .599
+         midpoint
+         SECOND. ARTIC. × V CONTEXT × C LANDMARK:
+         palatalized × /Ciː/ × midpoint vs.           0.064211     0.037726             1.702                   .089
+         offset
+         ∗
+             = Statistically significant at α = .05
+
+
+
+
+Model for PC3 dynamics (Section 4.7)
+To assess dynamic changes in PC3 (height) over time, we computed another linear mixed-
+effects model with PC3 (backness) as the dependent measure. The initial model had
+the same fixed-effects and random-effects structure as the model used to explore PC1
+dynamics.
+    P-values were estimated from the t statistic using an upper-bound 2169 degrees of freedom
+(2199 observations less the 30 fixed-effects parameters in the final model). The model has a
+low amount of collinearity (κ = 2.01, VIF < 3.21 for all predictors).
+40   Ryan Bennett, Máire Nı́ Chiosáin, Jaye Padgett & Grant McGuire
+
+
+
+
+References
+Allen, Blake, Douglas Pulleyblank & O.ládiı́pọ̀ Ajı́bóyè. 2013. Articulatory mapping of Yoruba vowels:
+   An ultrasound study. Phonology 30(2), 183–210.
+Alwan, Abeer. 1986. Acoustic and perceptual correlates of pharyngeal and uvular consonants. M.A. thesis,
+   MIT.
+Alwan, Abeer. 1989. Perceptual cues for place of articulation for the voiced pharyngeal and uvular
+   consonants. The Journal of the Acoustical Society of America 86, 549.
+Baayen, R. Harald. 2008. Analyzing linguistic data: A practical introduction to statistics using R.
+   Cambridge: Cambridge University Press.
+Baayen, R. Harald, Douglas Davison & Douglas Bates. 2008. Mixed-effects modeling with crossed random
+   effects for subjects and items. Journal of Memory and Language 59(4), 390–412.
+Barr, Dale J., Roger Levy, Christoph Scheepers & Harry J. Tilly. 2013. Random effects structure
+   for confirmatory hypothesis testing: Keep it maximal. Journal of Memory and Language 68,
+   255–278.
+Bates, Douglas, Martin Maechler & Ben Bolker. 2011. lme4: Linear mixed-effects models using S4 classes
+   (R package version 0.999375-41). http://cran.r-project.org/package=lme4 (accessed April 2017).
+Bolker, Benjamin, Mollie Brooks, Connie Clark, Shane Geange, John Poulsen, M. Henry Stevens &
+   Jada-Simone White. 2009. Generalized linear mixed models: A practical guide for ecology and
+   evolution. Trends in Ecology and Evolution 24(3), 127–135.
+Bolla, K. 1981. A conspectus of Russian speech sounds. Budapest: Adakemiai Kiado.
+Borgstrøm, C. Hj. 1940. A linguistic survey of the Gaelic dialects of Scotland, vol. I: The dialects of the
+   Outer Hebrides. Oslo: Aschehoug.
+Borgstrøm, C. Hj. 1941. A linguistic survey of the Gaelic dialects of Scotland, vol. II: The dialects of Skye
+   and Ross-Shire. Oslo: Aschehoug.
+Borroff, Marianne. 2007. A landmark underspecification account of the patterning of glottal stop. Ph.D.
+   dissertation, Stony Brook University.
+Bosch, Anna. 2010. Phonology in Modern Gaelic. In Moray Watson & Michelle Macleod (eds.), The
+   Edinburgh companion to the Gaelic language, 262–282. Edinburgh: Edinburgh University Press.
+Boyle, D. P. 1973. Generative phonology and the study of Gaelic dialects. Ph.D. dissertation, University
+   of Michigan.
+Breatnach, R. B. 1947. The Irish of Ring, Co. Waterford. Dublin: The Dublin Institute for Advanced
+   Studies.
+Brown, Morton B. & Alan B. Forsythe. 1974. Robust tests for the equality of variances. Journal of the
+   American Statistical Association 69(346), 364–367.
+Central Statistics Office. 2012. Profile 9: What we know. Dublin: Stationery Office. Available at
+   http://www.cso.ie/en/csolatestnews/pressreleases/2012pressreleases/pressreleasecensus2011profile9
+   whatweknow/ (accessed January 2014).
+Choi, John & Patricia Keating. 1991. Vowel-to-vowel coarticulation in three Slavic languages. UCLA
+   Working Papers in Phonetics 78, 78–86.
+Dart, S. 1991. Articulatory and acoustic properties of apical and laminal articulations (UCLA Phonetics
+   Lab Working Papers).
+Davidson, Lisa. 2006. Comparing tongue shapes from ultrasound imaging using smoothing-spline analysis
+   of variance. The Journal of the Acoustical Society of America 120(1), 407–415.
+de Bhaldraithe, Tomás. 1945. The Irish of Cois Fhairrge. Dublin: The Dublin Institute for Advanced
+   Studies.
+de Búrca, S. 1958. The Irish of Tourmakeady, Co. Mayo. Dublin: The Dublin Institute for Advanced
+   Studies.
+Fant, Gunnar. 1960. Acoustic theory of speech production. The Hague: Mouton.
+Farnetani, Edda, Andrea Provaglio, Ailbhe Nı́ Chasaide, Geraldine Fealy, Daniel Recasens,
+   Jordi Fontdevila & M. Dolors Pallarues. 1991. A study of the production and coarticulatory
+   characteristics of palatal and palatalized consonants (ESPRIT II, Research Action No. 3279, Progress
+   Report).
+                                                                     Connemara Irish palatalization and velarization   41
+
+
+
+
+Frank, Austin. 2014. mer-utils. https://github.com/aufrank/R-hacks/blob/master/mer-utils.R (accessed
+    April 2017).
+Gelman, Andrew & Jennifer Hill. 2007. Data analysis using regression and multilevel/hierarchical models.
+    Cambridge: Cambridge University Press.
+Geng, Christian. 2007. A cross-linguistic study on the phonetics of dorsal obstruents. Ph.D. dissertation,
+    Humboldt University.
+Gick, Bryan. 2002. The use of ultrasound for linguistic phonetic fieldwork. Journal of the International
+    Phonetic Association 32(2), 113–121.
+Gorman, Kyle & Daniel Ezra Johnson. 2013. Quantitative analysis. In Robert Bayley, Richard Cameron
+    & Ceil Lucas (eds.), The Oxford handbook of sociolinguistics, 214–240. Oxford: Oxford University
+    Press.
+Government of Ireland. 2010. 20-year strategy for the Irish language 2010–2030. Available at
+    https://www.chg.gov.ie/gaeltacht/20-year-strategy-for-the-irish-language-2010-2030/.
+Gu, Chong. 2002. Smoothing spline ANOVA models. New York: Springer.
+Gu, Chong. 2013. gss: General smoothing splines (version 2.0.14). http://cran.r-project.org/
+    web/packages/gss/index.html (accessed April 2017).
+Halle, Morris. 1959. The sound pattern of Russian. The Hague: Mouton.
+Hardcastle, William J. & Nigel Hewett (eds.). 1999. Coarticulation: Theory, data, and techniques.
+    Cambridge: Cambridge University Press.
+Harrington, Jonathan, Phil Hoole, Felicitas Kleber & Ulrich Reubold. 2011. The physiological, acoustic,
+    and perceptual basis of high back vowel fronting: Evidence from German tense and lax vowels. Journal
+    of Phonetics 39(2), 121–131.
+Harrington, Jonathan, Philip Hoole & Ulrich Reubold. 2012. A physiological analysis of high front,
+    tense–lax vowel pairs in Standard Austrian and Standard German. Italian Journal of Linguistics 24(1),
+    149–173.
+Harshman, Richard, Peter Ladefoged & Louis Goldstein. 1977. Factor analysis of tongue shapes. The
+    Journal of the Acoustical Society of America 62(3), 693–707.
+International Phonetic Association (ed.). 1999. Handbook of the International Phonetic Association.
+    Cambridge: Cambridge University Press.
+Jakobson, Roman, Gunnar Fant & Morris Halle. 1952. Preliminaries to speech analysis. Cambridge, MA:
+    MIT Press.
+Johnson, Keith. 2008. Quantitative methods in linguistics. Oxford: Blackwell.
+Jolliffe, I. T. 2002. Principal component analysis. New York: Springer.
+Kedrova, G. Ye., N. V. Anisimov, L. M. Zaharov & Y. A. Pirogov. 2008. Magnetic resonance investigation
+    of palatalized stop consonants and spirants in Russian. Proceedings of the International Congress of
+    Acoustics, Paris, France, 2345–2350.
+Kedrova, G. Ye., L. M. Zaharov, N. V. Anisimov & Y. A. Pirogov. 2009. MRI-based contrastive study of
+    nasal and oral labial consonants’ articulations in Russian. Presented at Nasal 2009, Montpellier, France.
+    http://www.philol.msu.ru/kedr/kedrova-nasal.pdf (accessed January 2014).
+Kochetov, Alexei. 2002. Production, perception, and emergent phonotactic patterns. New York: Routledge.
+Kochetov, Alexei. 2004. Perception of place and secondary articulation contrasts in different syllable
+    positions: Language-particular and language-independent asymmetries. Language and Speech 47(4),
+    351–382.
+Kochetov, Alexei. 2006. Testing licensing by cue: A case of Russian palatalized coronals. Phonetica 63,
+    113–148.
+Ladefoged, Peter & Ian Maddieson. 1996. The sounds of the world’s languages. Cambridge, MA: Blackwell.
+Lee-Kim, Sang-Im. 2014. Revisiting Mandarin ‘apical vowels’: An articulatory and acoustic study. Journal
+    of the International Phonetic Association 44(3), 261–282.
+Li, Min, Chandra Kambhamettu & Maureen Stone. 2005. Automatic contour tracking in ultrasound images.
+    Clinical Linguistics and Phonetics 19(6–7), 545–554.
+Manuel, Sharon. 1999. Cross-language studies: Relating language-particular coarticulation patterns to
+    other language-particular facts. In Hardcastle & Hewett (eds.), 179–198.
+42   Ryan Bennett, Máire Nı́ Chiosáin, Jaye Padgett & Grant McGuire
+
+
+
+Matusevich, Margarita Ivanovna & Nina Aleksandrovna Liubimova. 1963. Al’bom artikuliatsii zvukov
+    russkogo iazyka [Album of articulations of the sounds of the Russian language]. Moscow: Universitet
+    Druzhby Narodov.
+McCloskey, James. 2001. Voices silenced: Will Irish survive? Dublin: Cois Life Teoranta.
+McCloskey, James. 2008. Irish as a world language. In Brian Ó Conchubhar (ed.), Why Irish? Irish
+    Language and Literature in Academia, 71–89. Galway: Arlen House Press.
+Mhac an Fhailigh, É. 1980. The Irish of Erris, Co. Mayo: A phonemic study. Dublin: The Dublin Institute
+    for Advanced Studies.
+Miller, Amanda L. 2016. Posterior lingual gestures and tongue shape in Mangetti Dune !Xung clicks.
+    Journal of Phonetics 56, 119–148.
+Miller, Amanda L. & Kenneth B. Finch. 2011. Corrected high-frame rate anchored ultrasound with
+    software alignment. Journal of Speech, Language, and Hearing Research 54, 471–486.
+Nance, Claire. 2014. Phonetic variation in Scottish Gaelic laterals. Journal of Phonetics 47, 1–17.
+Nı́ Chasaide, A[ilbhe]. 1990. A pilot study of articulatory and acoustic measurements of coarticulation in
+    Irish (Gaelic) (Esprit II/Basic Research Action No. 3279. Progress Report).
+Nı́ Chasaide, Ailbhe. 1995. Irish. Journal of the International Phonetic Association 25, 34–39.
+Nı́ Chasaide, Ailbhe & Geraldine Fealy. 1991. Articulatory and acoustic measurements of coarticulation
+    in Irish (Gaelic) stops. Proceedings of the 12th International Congress of Phonetic Science (ICPhS
+    XII), Aix-en-Provence, France 5, 30–33.
+Nı́ Chiosáin, Máire. 1994. Irish palatalisation and the representation of place features. Phonology 11(1),
+    89–106.
+Nı́ Chiosáin, Máire & Jaye Padgett. 2001. Markedness, segment realization, and locality in spreading. In
+    Linda Lombardi (ed.), Segmental phonology in Optimality Theory: Constraints and representations,
+    118–156. Cambridge: Cambridge University Press.
+Nı́ Chiosáin, Máire & Jaye Padgett. 2012. An acoustic and perceptual study of Connemara Irish
+    palatalization. Journal of the International Phonetic Association 42(2), 171–191.
+Ó Béarra, F. 2007. Late Modern Irish and the dynamics of language change and death. The Celtic languages
+    in contact: Papers from the Workshop within the Framework of the 13th International Congress of Celtic
+    Studies, 260–269. Potsdam: Potsdam University Press.
+Ó Cuı́v, Brian. 1944. The Irish of West Muskerry, Co. Cork: A phonetic study. Dublin: The Dublin Institute
+    for Advanced Studies.
+Ó Curnáin, Brian. 2007. The Irish of Iorras Aithneach. Dublin: Dublin Institute for Advanced Studies.
+Ó Giollagáin, Conchúr & Martin Charlton. 2015. Nuashonrú ar an staidéar cuimsitheach teangeolaı́och ar
+    úsáid na Gaeilge sa Ghaeltacht: 2006–2011 [Update report to the comprehensive linguistic study on
+    the usage of Irish in the Gaeltacht: 2006–2011]. Ireland: Údarás na Gaeltachta.
+Ó Raghallaigh, Brian. 2013. Fuaimeanna na Gaeilge [The sounds of Irish]. Dublin: Cois Life Teoranta.
+Ó Siadhail, Mı́cheál. 1991. Modern Irish. Cambridge: Cambridge University Press.
+Öhman, S. E. G. 1966. Coarticulation in VCV utturances: Spectrographic measurements. The Journal of
+    the Acoustical Society of America 39, 151–168.
+Operstein, Natalie. 2010. Consonant structure and prevocalization. Amsterdam: John Benjamins.
+Padgett, Jaye. 2001. Contrast dispersion and Russian palatalization. In Elizabeth Hume & Keith Johnson
+    (eds.), The role of speech perception in phonology, 187–218. San Diego, CA: Academic Press.
+Padgett, Jaye. 2010. Russian consonant–vowel interactions and derivational opacity. In Wayles Brown,
+    Adam Cooper, Alison Fisher, Esra Kesici, Nikola Predolac & Draga Zec (eds.), Proceedings of the
+    Eighteenth Formal Approaches to Slavic Linguistics Meeting (Second Cornell Meeting, 2009), 353–
+    382. Ann Arbor, MI: Michigan Slavic Publications.
+Perkell, Joseph S. 1969. Physiology of speech production: Results and implications of a quantitative
+    cineradiographic study. Cambridge, MA: MIT Press.
+Perkell, J[oseph] S. 1990. Testing theories of speech production: Implications of some detailed analyses
+    of variable articulatory data. In William J. Hardcastle & Alan Marchal (eds.), Speech production and
+    speech modeling, 263–288. Dordrecht: Kluwer.
+Perkell, Joseph S. & Marc H. Cohen. 1989. An indirect test of the quantal nature of speech in the production
+    of the vowels /i/, /a/ and /u/. Journal of Phonetics 17, 123–133.
+                                                                     Connemara Irish palatalization and velarization   43
+
+
+
+
+Péterváry, Tamás, Brian Ó Curnáin, Conchúr Ó Giollagáin & Jerome Sheahan. 2014. Analysis of bilingual
+    competence: Language acquisition among young peole in the Gaeltacht. Dublin: An Chomhairle um
+    Oideachas Gaeltachta agus Gaelscolaíochta.
+Pinheiro, José & Douglas Bates. 2000. Mixed-effects models in S and S-PLUS. New York: Springer.
+Proctor, Michael. 2009. Gestural characterization of a phonological class: The liquids. Ph.D. dissertation,
+    Yale University.
+Purcell, Edward T. 1979. Formant frequency patterns in Russian VCV utterances. The Journal of the
+    Acoustical Society of America 66(6), 1691–1702.
+Quiggin, Edmund C. 1906. A dialect of Donegal, being the speech of Meenawannia in the parish of
+    Glenties. Cambridge: Cambridge University Press.
+R Development Core Team. 2013. R: A language and environment for statistical computing
+    (version 3.0.1). Vienna: R Foundation for Statistical Computing. http://www.r-project.org/ (accessed
+    April 2017).
+Recasens, Daniel. 1999. Lingual coarticulation. In Hardcastle & Hewett (eds.), 80–104.
+Recasens, Daniel, Maria Dolors Pallarès & Jordi Fontdevila. 1997. A model of lingual coarticulation
+    based on articulatory constraints. The Journal of Acoustical Society of America 102(1),
+    544–561.
+Scobbie, James, Alan Wrench & Marietta van derLinden. 2008. Head–probe stabilisation in
+    ultrasound tongue imaging using a headset to permit natural head movement. In Rudolph Sock,
+    Susanne Fuchs & Yves Laprie (eds.), International Seminar on Speech Production (ISSP) 8, 373–376.
+    INRIA.
+Shaw, Jason, Wei-Rong Chen, Michael I. Proctor, Donald Derrick & Elita Dakhoul. 2014. On the inter-
+    dependence of tonal and vocalic production goals in Chinese. In Susanne Fuchs, Martine Grice,
+    Anne Hermes, Leonardo Lancia & Doris Mücke (eds.), International Seminar on Speech Production
+    (ISSP) 10, 395–398. INRIA.
+Skalozub, Larisa Georgievna. 1963. Palatogrammy i rentgenogrammy soglasnykh fonem russkogo
+    literaturnogo iazyka [Palatograms and X-ray images of Russian consonants]. Kiev: Izdatel’stvo
+    kievskogo universiteta.
+Slud, Eric, Maureen Stone, Paul Smith & Moise Goldstein. 2002. Principal components representation of
+    the two-dimensional coronal tongue surface. Phonetica 59, 108–133.
+Sommerfelt, Alf. 1922. The dialect of Torr, Co. Donegal. Christiana: Jacob Dybwad.
+Stevens, Kenneth N. 1998. Acoustic phonetics. Cambridge, MA: MIT Press.
+Stevens, Kenneth N., Samuel Jay Keyser & Haruko Kawasaki. 1986. Toward a phonetic and phonological
+    theory of redundant features. In Joseph S. Perkell & Dennis H. Klatt (eds.), Invariance and variability
+    in speech processes, 426–449. Hillsdale, NJ: Lawrence Erlbaum.
+Stockman, Gerard. 1974. The Irish of Achill, Co. Mayo. Belfast: Queen’s University of Belfast.
+Stone, Maureen. 2005. A guide to analyzing tongue motion for ultrasound images. Clinical Linguistics
+    and Phonetics 19(6–7), 455–502.
+Sung, Jae-Hyun, Diana Archangeli, Ian Clayton, Daniel Brenner, Samuel Johnston, Michael Hammond
+    & Andrew Carnie. 2013. The articulation of Scottish Gaelic plain and palatalized consonants. Poster
+    presented at Ultrafest VI, Edinburgh.
+Sung, Jae-Hyun, Diana Archangeli, Ian Clayton, Daniel Brenner, Samuel Johnston, Michael Hammond &
+    Andrew Carnie. 2014. The articulation of lexical palatalization in Scottish Gaelic. Poster presented at
+    the 167th meeting of the Acoustical Society of America, Providence, RI.
+Tiede, Mark K. 1996. An MRI-based study of pharyngeal volume contrasts in Akan and English. Journal
+    of Phonetics 24, 399–421.
+Wickham, Hadley. 2009. ggplot2: Elegant graphics for data analysis. New York: Springer. Available at
+    http://had.co.nz/ggplot2/book (accessed April 2017).
+Wrench, Alan. 2008. Articulate Assistant user guide, version 1.18. Available at http://
+    materials.articulateinstruments.com/Manuals/, file Articulate Assistant Manual 118.pdf (accessed April
+    2017).
+Wurm, Lee H. & Sebastiano A. Fisicaro. 2014. What residualizing predictors in regression analyses does
+    (and what it does not do). Journal of Memory and Language 72, 37–48.
+44   Ryan Bennett, Máire Nı́ Chiosáin, Jaye Padgett & Grant McGuire
+
+
+
+York, Richard. 2012. Residualization is not the answer: Rethinking how to address multicollinearity. Social
+   Science Research 41(6), 1379–1386.
+Zharkova, Natalia. 2013. A normative-speaker validation study of two indices developed to quantify tongue
+   dorsum activity from midsagittal tongue shapes. Clinical Linguistics and Phonetics 27(6–7), 484–496.
+

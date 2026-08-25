@@ -1,0 +1,929 @@
+{{Short description|Grammar of the Irish language}}
+{{Use dmy dates|date=April 2022}}
+{{One source|date=June 2020}}
+The morphology of [[Irish language|Irish]] is in some respects typical of an [[Indo-European languages|Indo-European language]]. [[Noun]]s are declined for [[Grammatical number|number]] and [[Declension|case]], and verbs for [[Grammatical person|person]] and number. Nouns are classified by masculine or feminine [[Grammatical gender|gender]]. Other aspects of Irish morphology, while typical for an [[Insular Celtic languages|Insular Celtic language]], are not typical for Indo-European, such as the presence of [[inflected preposition]]s and the [[Irish initial mutations|initial consonant mutations]]. Irish syntax is also rather different from that of most Indo-European languages, due to its use of the [[verb–subject–object]] word order.<ref>{{Cite book|last=Strazny|first=Philipp|title=Encyclopedia of Linguistics|publisher=Taylor & Francis|year=2005|isbn=9781135455224|location=New York, NY|pages=183}}</ref>
+
+== Syntax ==
+{{Main|Irish syntax}}
+Word order in Irish is of the form VSO (verb–subject–object) so that, for example, "He hit me" is {{lang|ga|Bhuail}} [hit-past tense] {{lang|ga|sé}} [he] {{lang|ga|mé}} [me].
+
+One distinctive aspect of Irish is the distinction between {{lang|ga|is}}, the [[copula (linguistics)|copula]] (known in Irish as {{lang|ga|an chopail}}), and {{lang|ga|tá}}. {{lang|ga|Is}} describes identity or quality in a permanent sense, while temporary aspects are described by {{lang|ga|tá}}. This is similar to the difference between the verbs {{lang|es|ser}} and {{lang|es|estar}} in [[Spanish language|Spanish]] and [[Portuguese language|Portuguese]] (see [[Romance copula]]), although this is not an exact match; {{lang|ga|is}} and {{lang|ga|tá}} are cognate respectively with the Spanish {{lang|es|es}} and {{lang|es|está}}.
+
+Examples are:
+*{{lang|ga|Is fear é.}} "He is a man." (Spanish {{lang|es|Es un hombre}}, Portuguese {{lang|pt|(Ele) é um homem}})
+*{{lang|ga|Is duine fuar é.}} "He is cold (a cold-hearted person)." (Spanish {{lang|es|Es frío}}, Portuguese {{lang|pt|(Ele) é frio}})
+*{{lang|ga|Tá sé/Tomás fuar.}} "He/Thomas is cold" (= feels cold) (Alt. {{lang|ga|Tá fuacht air}} [= "Cold is on him"]). (Spanish {{lang|es|Tiene frío}} – in this case Spanish uses {{lang|es|tener}} (to have) instead of {{lang|es|estar}} (to be), Portuguese {{lang|pt|(Ele) está com frio}})
+*{{lang|ga|Tá sé ina chodladh.}} "He is asleep." (Spanish {{lang|es|Él está durmiendo}}, Portuguese {{lang|es|Ele está dormindo/Ele está a dormir}})
+*{{lang|ga|Is duine maith é.}} "He is good (a good person)." (Spanish {{lang|es|Es bueno}}, Portuguese {{lang|pt|(Ele) é bom}})
+*{{lang|ga|Tá sé go maith.}} "He is well." (Spanish {{lang|es|Está bien}}, Portuguese {{lang|pt|(Ele) está bem}})
+
+==Nouns==
+{{unreferenced section|date=June 2023}}
+{{Main|Irish declension#Nouns}}
+
+Irish is an [[inflected language]], having four [[grammatical case|cases]]: {{lang|ga|ainmneach}} ([[nominative]] and [[accusative]]), {{lang|ga|gairmeach}} ([[vocative]]), {{lang|ga|ginideach}} ([[genitive]]) and {{lang|ga|tabharthach}} ([[prepositional]]). The prepositional case is called the dative by convention.
+
+Irish nouns are [[grammatical gender|masculine or feminine]]. To a certain degree the gender difference is indicated by specific word endings, {{lang|ga|-án}} and {{lang|ga|-ín}} being masculine and {{lang|ga|-óg}} feminine. While the neuter has mostly disappeared from vocabulary, the neuter gender is seen in various place names in Ireland.
+
+==Articles==
+{{Main|Irish declension#Articles}}
+{{See also|Irish initial mutations}}
+{| class="wikitable mw-collapsible"
+|+Irish definite article
+! rowspan="2" |Definite article
+! colspan="2" |Singular
+! rowspan="2" |Plural
+|-
+!Masculine
+!Feminine
+|-
+!Nominative
+|{{lang|ga|an}}<sup>T</sup>
+|{{lang|ga|an}}<sup>L</sup>
+|{{lang|ga|na}}<sup>H</sup>
+|-
+!Genitive
+|{{lang|ga|an}}<sup>L</sup>
+|{{lang|ga|na}}<sup>H</sup>
+|{{lang|ga|na}}<sup>E</sup>
+|-
+!Dative
+|{{lang|ga|an}}<sup>1</sup>
+|{{lang|ga|an}}<sup>2</sup>
+|{{lang|ga|na}}<sup>H</sup>
+|}
+The Irish [[definite article]] has two forms: {{lang|ga|an}} and {{lang|ga|na}}. {{lang|ga|An}} may cause [[lenition]], [[eclipsis]], or neither. {{lang|ga|Na}} may cause eclipsis, but the only instance of lenition with {{lang|ga|na}} is with the genitive singular of the word {{lang|ga|céad}} meaning ''first''. {{lang|ga|An}} is used in the common case singular for all nouns, and lenites feminine nouns. In the genitive singular, {{lang|ga|an}} with lenition is used with masculine nouns, {{lang|ga|na}} with feminine nouns. In the dative singular, {{lang|ga|an}} may cause lenition or eclipsis depending on the preposition preceding it and on regional norms (in Ulster usage, lenition is standard with all prepositions, while in other regions eclipsis is used with many). {{lang|ga|Na}} is the only plural form of the article; it causes eclipsis in the genitive for both genders, and no mutation in other cases.
+
+Names of countries usually take the definite article in the nominative: {{lang|ga|An Fhrainc}} "France", {{lang|ga|an Bhrasaíl}} "Brazil", {{lang|ga|an tSeapáin}} "Japan". Exceptions to this include {{lang|ga|Éire}} "Ireland", {{lang|ga|Albain}} "Scotland" and {{lang|ga|Sasana}} "England".
+
+There is no [[indefinite article]] in Irish; the word appears by itself, for example: {{lang|ga|Tá peann agam.}} – "I have a pen", {{lang|ga|Tá madra sa seomra.}} – "There's a dog in the room".
+
+When two definite noun phrases appear as part of a genitive construction (equivalent to ''the X of the Y'' in English), only the noun phrase in the genitive takes the article. Compare {{lang|ga|Áras '''an''' Uachtaráin}} or {{lang|ga|Teitheamh '''na''' nIarlaí}} to English '''''the''' residence of '''the''' President, '''the''' flight of '''the''' Earls.''
+
+==Adjectives==
+{{Main|Irish declension#Adjectives}}
+
+Irish adjectives always follow the noun. The adjective is influenced by the case, number and gender of the noun preceding it.
+
+* {{lang|ga|An cailín beag}} "The small girl" – masculine singular nominative
+* {{lang|ga|An bhean bhocht}} "The poor woman" – feminine singular nominative
+* {{lang|ga|Na buachaillí óga}} "The young boys" – masculine plural nominative
+
+Adjectives in Irish have two morphological degrees of [[comparison (grammar)|comparison]]: the positive ({{langx|ga|bunchéim}}), e.g. {{lang|ga|Tá an buachaill '''cairdiúil'''}} "the boy is friendly", and the [[comparative]] ({{lang|ga|breischéim}}), e.g. {{lang|ga|Tá an cailín '''níos cairdiúla''' ná an buachaill}} "the girl is nicer than the boy".  A [[superlative]] ({{lang|ga|sárchéim}}) sense is rendered by the comparative in a relative clause, e.g. {{lang|ga|Is é Seán an páiste '''is cairdiúla''' den triúr}} "Seán is the nicest child of the three".
+
+== Adverbs ==
+Irish adverbs are used to modify verbs, adjectives and other adverbs.
+
+An adverb can be created from an adjective by adding {{lang|ga|go}} before it, e.g. {{lang|ga|go mall}}, {{lang|ga|go tapaidh}}, {{lang|ga|go maith}}, etc. If the adjective begins with a vowel, {{vr|h}} is added before it, e.g. {{lang|ga|go hálainn}}, {{lang|ga|go híseal}}, {{lang|ga|go háirithe}}, etc.
+
+Adverbs can often be created from nouns by putting a preposition before them, e.g. {{lang|ga|ar bith}}, {{lang|ga|de ghnáth}}, {{lang|ga|faoi dheireadh}}, etc.
+
+Other categories of adverbs include the following:
+
+Adverbs that describe relation to time, e.g. {{lang|ga|uaireanta}}, {{lang|ga|anois}}, {{lang|ga|cheana}}, etc.
+
+Adverbs that describe relation to place, e.g. {{lang|ga|ann}}, {{lang|ga|abhaile}}, {{lang|ga|amuigh}}, etc.
+
+Adverbs used in questions, e.g. {{lang|ga|cathain?}}, {{lang|ga|conas?}}, {{lang|ga|cá?}}, etc.
+
+Adverbs used for negation, e.g. {{lang|ga|ní}}, {{lang|ga|nach}}, {{lang|ga|nár}}, etc.
+
+Other adverbs, e.g. {{lang|ga|áfach}}, {{lang|ga|chomh maith}}, {{lang|ga|ach oiread}}, etc.
+
+==Verbs==
+{{Main|Irish conjugation}}
+
+There are two conjugations and 11 irregular verbs. [[grammatical tense|Tenses]] or [[grammatical mood|moods]] are formed by inflecting the [[word stem|stem]], and in the [[past tense|past]] and [[habitual aspect|habitual]] past tenses and the [[conditional mood]] also by leniting any initial consonant. The inflected tense and mood forms are: present indicative, present habitual indicative (differs from present only in the verb {{lang|ga|bí}} "to be"), future, past indicative, past habitual indicative, conditional, imperative, present subjunctive, and past subjunctive. Verbs also have a [[verbal noun]] and past [[participle]], and [[progressive aspect|progressive]] constructions similar to those using the English present participle may be formed from the verbal noun and an appropriate tense of {{lang|ga|bí}}. Examples of tense conjugations: (all third person forms without subject pronoun):
+
+* 1st conjugation: {{lang|ga|Fág}} "to leave" – {{lang|ga|d'fhág}} (past) – {{lang|ga|fágann}} (present) – {{lang|ga|fágfaidh}} (future) – {{lang|ga|d'fhágfadh}} (conditional) – {{lang|ga|d'fhágadh}} (habitual past) – {{lang|ga|fága}} (subjunctive) – {{lang|ga|fágadh}} (imperative)
+* 2nd conjugation: {{lang|ga|Ceannaigh}} "to buy" – {{lang|ga|cheannaigh}} (past) – {{lang|ga|ceannaíonn}} (present) – {{lang|ga|ceannóidh}} (future) – {{lang|ga|cheannódh}} (conditional) – {{lang|ga|cheannaíodh}} (habitual past) – {{lang|ga|ceannaí}} (subjunctive) – {{lang|ga|ceannaíodh}} (imperative)
+* Irregular: {{lang|ga|Téigh}} "to go" – {{lang|ga|chuaigh}} (past) – {{lang|ga|téann}} (present) – {{lang|ga|rachaidh}} (future) – {{lang|ga|rachadh}} (conditional) – {{lang|ga|théadh}} (habitual past) – {{lang|ga|té}} (subjunctive) – {{lang|ga|téadh}} (imperative)
+
+In addition to the passive voice, there is the [[impersonal verb|impersonal form of the verb]], termed the {{lang|ga|saorbhriathar}} or "autonomous verb", which serves a similar function (the most literal translation is "You/One/They...[e.g. say, are, do]").
+
+Verbs can be conjugated either [[synthetic language|synthetically]] (with the [[personal pronoun]] included in the verb inflection) or [[analytic language|analytically]] (with the verb inflected for tense only and a separate subject). However, the official standard generally prescribes the analytic form in most person-tense combinations, and the synthetic in only some cases, such as the first person plural. The analytic forms are also generally preferred in the western and northern dialects, except in answer to what would in English be "yes/no" questions, while [[Munster Irish]] prefers the synthetic forms. For example, the following are the standard form, synthetic form and analytical form of the past tense of {{lang|ga|rith}} "to run":
+
+{| class="wikitable"
+|-
+! Person !! Standard !! Synthetic !! Analytic
+|-
+| 1st sing || {{lang|ga|rith mé}} || {{lang|ga|ritheas}} || {{lang|ga|rith mé}}
+|-
+| 2nd sing || {{lang|ga|rith tú}} || {{lang|ga|rithis}} || {{lang|ga|rith tú}}
+|-
+| 3rd sing || {{lang|ga|rith sé}} || {{lang|ga|rith}} || {{lang|ga|rith sé}}
+|-
+| 1st plural || {{lang|ga|ritheamar}} || {{lang|ga|ritheamar}} || {{lang|ga|rith sinn}} / {{lang|ga|rith muid}}
+|-
+| 2nd plural || {{lang|ga|rith sibh}} || {{lang|ga|ritheabhar}} || {{lang|ga|rith sibh}}
+|-
+| 3rd plural || {{lang|ga|rith siad}} || {{lang|ga|ritheadar}} || {{lang|ga|rith siad}}
+|-
+| Impersonal || {{lang|ga|ritheadh}} || {{lang|ga|ritheadh}} || {{lang|ga|ritheadh}}
+|}
+
+==Pronouns==<!-- This section is linked from [[Pronoun]] -->
+
+===Personal pronouns===
+Personal pronouns in Irish do not inflect for case, but there are three different sets of pronouns used: conjunctive forms, disjunctive forms, and emphatic forms (which may be used either conjunctively or disjunctively)
+{| class="wikitable mw-collapsible"
+|+Irish personal pronouns
+! colspan="2" rowspan="2" |Simple pronouns
+! colspan="2" |Singular
+! colspan="2" |Plural
+|-
+!Conjunctive
+!Disjunctive
+!Conjunctive
+!Disjunctive
+|-
+! colspan="2" |1st person
+| colspan="2" |{{Lang|ga|mé}}
+|{{Lang|ga|(muid)}}
+|{{Lang|ga|muid, sinn}}
+|-
+! colspan="2" |2nd person
+|{{Lang|ga|tú}}
+|{{Lang|ga|thú}}
+| colspan="2" |{{Lang|ga|sibh}}
+|-
+! rowspan="2" |3rd person
+!Masculine
+|{{Lang|ga|sé}}
+|{{Lang|ga|é}}
+| rowspan="2" |{{Lang|ga|siad}}
+| rowspan="2" |{{Lang|ga|iad}}
+|-
+!Feminine
+|{{Lang|ga|sí}}
+|{{Lang|ga|í}}
+|-
+! colspan="2" rowspan="2" |Intensive pronouns
+! colspan="2" |Singular
+! colspan="2" |Plural
+|-
+!Conjunctive
+!Disjunctive
+!Conjunctive
+!Disjunctive
+|-
+! colspan="2" |1st person
+| colspan="2" |{{Lang|ga|mise}}
+| colspan="2" |{{Lang|ga|muidne, sinne}}
+|-
+! colspan="2" |2nd person
+|{{Lang|ga|tusa}}
+|{{Lang|ga|thusa}}
+| colspan="2" |{{Lang|ga|sibhse}}
+|-
+! rowspan="2" |3rd person
+!Masculine
+|{{Lang|ga|seisean}}
+|{{Lang|ga|eisean}}
+| rowspan="2" |{{Lang|ga|siadsan}}
+| rowspan="2" |{{Lang|ga|iadsan}}
+|-
+!Feminine
+|{{Lang|ga|sise}}
+|{{Lang|ga|ise}}
+|}
+
+====Conjunctive forms====
+The normal [[word order]] in Irish is verb–subject–object ([[Verb–subject–object|VSO]]). The forms of the [[subject (grammar)|subject]] pronoun directly following the verb are called ''conjunctive.''
+
+The form {{Lang|ga|muid}} in the 1st person plural has only recently been approved for use in the official standard, but is very common in western and northern dialects. The standard and southern dialects have no subject pronoun in the 1st person plural, using the synthetic verb ending {{lang|ga|-imíd}} (alternatively {{lang|ga|-imid}}) instead.
+
+Irish has no [[T–V distinction]], i.e. it does not differentiate between formal and familiar forms of second person pronouns. The difference between {{Lang|ga|tú}} and {{Lang|ga|sibh}} is purely one of number.
+
+There is no equivalent to the English "it". Either {{lang|ga|sé}} or {{lang|ga|sí}} are used depending on whether the thing the speaker is referring to is a masculine noun or a feminine noun. The exception is the pronoun {{lang|ga|ea}}, used in impersonal copula phrases, particularly in the phrases {{lang|ga|is ea}} (> {{lang|ga|sea}}) "yes", "so", "that is so", {{lang|ga|ní hea}} (the opposite of {{lang|ga|is ea}}), {{lang|ga|nach ea?}} "is that not so?", {{lang|ga|an ea}} (Kerry {{lang|ga|am b'ea}}) "Is that so?", {{lang|ga|fear is ea é}} "it's a man", and so on.
+
+====Disjunctive forms====
+If a pronoun is not the subject or if a subject pronoun does not follow the verb (as in a [[verbless clause]], or as the subject of the copula, where the pronoun stands at the end of the sentence), the so-called [[disjunctive pronoun|''disjunctive'' forms]] are used:
+
+In Munster dialects the form {{lang|ga|thú}} is either (a) archaic (replaced by {{lang|ga|tú}}) or (b) is only found after words ending in a vowel.
+
+;Standard:{{lang|ga|Buailim thú}} ("I hit you", present tense), {{lang|ga|Bhuail mé thú}} ("I hit you", past tense)
+;Dialect type (a):{{lang|ga|Buailim tú}}, {{lang|ga|Bhuail mé tú}}
+;Dialect type (b):{{lang|ga|Buailim tú}}, {{lang|ga|Bhuail mé thú}}
+
+====Intensive forms====
+Irish also has [[intensive pronoun]]s, used to give the pronouns a bit more weight or emphasis.
+
+The word {{Lang|ga|féin}} ({{IPA|/heːnʲ/}} or {{IPA|/fʲeːnʲ/}}) "-self" can follow a pronoun, either to add emphasis or to form a reflexive pronoun.
+
+:{{Lang|ga|Rinne mé féin é.}} "I did it myself."
+:{{Lang|ga|Ar ghortaigh tú thú féin?}} "Did you hurt yourself?"
+:{{Lang|ga|[[Sinn Féin]]}} is thus "We Ourselves"
+
+===Prepositional pronouns===
+As the object of a preposition, a pronoun is fused with the preposition; one speaks here of "inflected" prepositions, or, as they are more commonly termed, [[conjugated preposition|prepositional pronouns]].
+
+{| class="wikitable mw-collapsible"
+|+Irish prepositional pronouns
+! colspan="2" rowspan="3" |Prepositional pronouns
+! colspan="4" |Singular
+! colspan="3" |Plural
+|-
+! rowspan="2" |1st person
+! rowspan="2" |2nd person
+! colspan="2" |3rd person
+! rowspan="2" |1st person
+! rowspan="2" |2nd person
+! rowspan="2" |3rd person
+|-
+!Masculine
+!Feminine
+|-
+! rowspan="2" |{{Lang|ga|ag}} "at"
+!Simple
+|{{Lang|ga|agam}}
+|{{Lang|ga|agat}}
+|{{Lang|ga|aige}}
+|{{Lang|ga|aici}}
+|{{Lang|ga|againn}}
+|{{Lang|ga|agaibh}}
+|{{Lang|ga|acu}}
+|-
+!Emphatic
+|{{Lang|ga|agamsa}}
+|{{Lang|ga|agatsa}}
+|{{Lang|ga|aigesean}}
+|{{Lang|ga|aicise}}
+|{{Lang|ga|againne}}
+|{{Lang|ga|agaibhse}}
+|{{Lang|ga|acusan}}
+|-
+! rowspan="2" |{{Lang|ga|ar}} "on"
+!Simple
+|{{Lang|ga|orm}}
+|{{Lang|ga|ort}}
+|{{Lang|ga|air}}
+|{{Lang|ga|uirthi}}
+|{{Lang|ga|orainn}}
+|{{Lang|ga|oraibh}}
+|{{Lang|ga|orthu}}
+|-
+!Emphatic
+|{{Lang|ga|ormsa}}
+|{{Lang|ga|ortsa}}
+|{{Lang|ga|airsean}}
+|{{Lang|ga|uirthise}}
+|{{Lang|ga|orainne}}
+|{{Lang|ga|oraibhse}}
+|{{Lang|ga|orthusan}}
+|-
+! rowspan="2" |{{Lang|ga|as}} "from, out of"
+!Simple
+|{{Lang|ga|asam}}
+|{{Lang|ga|asat}}
+|{{Lang|ga|as}}
+|{{Lang|ga|aisti}}
+|{{Lang|ga|asainn}}
+|{{Lang|ga|asaibh}}
+|{{Lang|ga|astu}}
+|-
+!Emphatic
+|{{Lang|ga|asamsa}}
+|{{Lang|ga|asatsa}}
+|{{Lang|ga|as-san}}
+|{{Lang|ga|aistise}}
+|{{Lang|ga|asainne}}
+|{{Lang|ga|asaibhse}}
+|{{Lang|ga|astusan}}
+|-
+! rowspan="2" |{{Lang|ga|chuig/ chun}} "to(wards)"
+!Simple
+|{{Lang|ga|chugam}}
+|{{Lang|ga|chugat}}
+|{{Lang|ga|chuige}}
+|{{Lang|ga|chuici}}
+|{{Lang|ga|chugainn}}
+|{{Lang|ga|chugaibh}}
+|{{Lang|ga|chucu}}
+|-
+!Emphatic
+|{{Lang|ga|chugamsa}}
+|{{Lang|ga|chugatsa}}
+|{{Lang|ga|chuigesean}}
+|{{Lang|ga|chuicise}}
+|{{Lang|ga|chugainne}}
+|{{Lang|ga|chugaibhse}}
+|{{Lang|ga|chucusan}}
+|-
+! rowspan="2" |{{Lang|ga|de}} "of, from"
+!Simple
+|{{Lang|ga|díom}}
+|{{Lang|ga|díot}}
+|{{Lang|ga|de}}
+|{{Lang|ga|di}}
+|{{Lang|ga|dínn}}
+|{{Lang|ga|díbh}}
+|{{Lang|ga|díobh}}
+|-
+!Emphatic
+|{{Lang|ga|díomsa}}
+|{{Lang|ga|díotsa}}
+|{{Lang|ga|desean}}
+|{{Lang|ga|dise}}
+|{{Lang|ga|dínne}}
+|{{Lang|ga|díbhse}}
+|{{Lang|ga|díobhsan}}
+|-
+! rowspan="2" |{{Lang|ga|do}} "to, for"
+!Simple
+|{{Lang|ga|dom}}
+|{{Lang|ga|duit}}
+|{{Lang|ga|dó}}
+|{{Lang|ga|di}}
+|{{Lang|ga|dúinn}}
+|{{Lang|ga|daoibh}}
+|{{Lang|ga|dóibh}}
+|-
+!Emphatic
+|{{Lang|ga|domsa}}
+|{{Lang|ga|duitse}}
+|{{Lang|ga|dósan}}
+|{{Lang|ga|dise}}
+|{{Lang|ga|dúinne}}
+|{{Lang|ga|daoibhse}}
+|{{Lang|ga|dóibhsean}}
+|-
+! rowspan="2" |{{Lang|ga|faoi}} "about, under"
+!Simple
+|{{Lang|ga|fúm}}
+|{{Lang|ga|fút}}
+|{{Lang|ga|faoi}}
+|{{Lang|ga|fúithi}}
+|{{Lang|ga|fúinn}}
+|{{Lang|ga|fúibh}}
+|{{Lang|ga|fúthu}}
+|-
+!Emphatic
+|{{Lang|ga|fúmsa}}
+|{{Lang|ga|fútsa}}
+|{{Lang|ga|faoisean}}
+|{{Lang|ga|fúithise}}
+|{{Lang|ga|fúinne}}
+|{{Lang|ga|fúibhse}}
+|{{Lang|ga|fúthusan}}
+|-
+! rowspan="2" |{{Lang|ga|i}} "in"
+!Simple
+|{{Lang|ga|ionam}}
+|{{Lang|ga|ionat}}
+|{{Lang|ga|ann}}
+|{{Lang|ga|inti}}
+|{{Lang|ga|ionainn}}
+|{{Lang|ga|ionaibh}}
+|{{Lang|ga|iontu}}
+|-
+!Emphatic
+|{{Lang|ga|ionamsa}}
+|{{Lang|ga|ionatsa}}
+|{{Lang|ga|annsan}}
+|{{Lang|ga|intise}}
+|{{Lang|ga|ionainne}}
+|{{Lang|ga|ionaibhse}}
+|{{Lang|ga|iontusan}}
+|-
+! rowspan="2" |{{Lang|ga|idir}} "between"
+!Simple
+| colspan="4" rowspan="2" |—
+|{{Lang|ga|eadrainn}}
+|{{Lang|ga|eadraibh}}
+|{{Lang|ga|eatarthu}}
+|-
+!Emphatic
+|{{Lang|ga|eadrainne}}
+|{{Lang|ga|eadraibhse}}
+|{{Lang|ga|eatarthusan}}
+|-
+! rowspan="2" |{{Lang|ga|le}} "with"
+!Simple
+|{{Lang|ga|liom}}
+|{{Lang|ga|leat}}
+|{{Lang|ga|leis}}
+|{{Lang|ga|léi}}
+|{{Lang|ga|linn}}
+|{{Lang|ga|libh}}
+|{{Lang|ga|leo}}
+|-
+!Emphatic
+|{{Lang|ga|liomsa}}
+|{{Lang|ga|leatsa}}
+|{{Lang|ga|leisean}}
+|{{Lang|ga|léise}}
+|{{Lang|ga|linne}}
+|{{Lang|ga|libhse}}
+|{{Lang|ga|leosan}}
+|-
+! rowspan="2" |{{Lang|ga|ó}} "since"
+!Simple
+|{{Lang|ga|uaim}}
+|{{Lang|ga|uait}}
+|{{Lang|ga|uaidh}}
+|{{Lang|ga|uaithi}}
+|{{Lang|ga|uainn}}
+|{{Lang|ga|uaibh}}
+|{{Lang|ga|uathu}}
+|-
+!Emphatic
+|{{Lang|ga|uaimse}}
+|{{Lang|ga|uaitse}}
+|{{Lang|ga|uaidhsean}}
+|{{Lang|ga|uaithise}}
+|{{Lang|ga|uainne}}
+|{{Lang|ga|uaibhse}}
+|{{Lang|ga|uathusan}}
+|-
+! rowspan="2" |{{Lang|ga|roimh}} "before, in front of"
+!Simple
+|{{Lang|ga|romham}}
+|{{Lang|ga|romhat}}
+|{{Lang|ga|roimhe}}
+|{{Lang|ga|roimpi}}
+|{{Lang|ga|romhainn}}
+|{{Lang|ga|romhaibh}}
+|{{Lang|ga|rompu}}
+|-
+!Emphatic
+|{{Lang|ga|romhamsa}}
+|{{Lang|ga|romhatsa}}
+|{{Lang|ga|roimhesean}}
+|{{Lang|ga|roimpise}}
+|{{Lang|ga|romhainne}}
+|{{Lang|ga|romhaibhse}}
+|{{Lang|ga|rompusan}}
+|-
+! rowspan="2" |{{Lang|ga|thar}} "over, beyond, past"
+!Simple
+|{{Lang|ga|tharam}}
+|{{Lang|ga|tharat}}
+|{{Lang|ga|thairis}}
+|{{Lang|ga|thairsti}}
+|tharainn
+|{{Lang|ga|tharaibh}}
+|{{Lang|ga|tharstu}}
+|-
+!Emphatic
+|{{Lang|ga|tharamsa}}
+|{{Lang|ga|tharatsa}}
+|{{Lang|ga|thairisean}}
+|{{Lang|ga|thairstise}}
+|tharainne
+|{{Lang|ga|tharaibhse}}
+|{{Lang|ga|tharstusan}}
+|-
+! rowspan="2" |{{Lang|ga|trí}} "through"
+!Simple
+|{{Lang|ga|tríom}}
+|{{Lang|ga|tríot}}
+|{{Lang|ga|tríd}}
+|{{Lang|ga|tríthi}}
+|{{Lang|ga|trínn}}
+|{{Lang|ga|tríbh}}
+|{{Lang|ga|tríothu}}
+|-
+!Emphatic
+|{{Lang|ga|tríomsa}}
+|{{Lang|ga|tríotsa}}
+|{{Lang|ga|trídsean}}
+|{{Lang|ga|tríthise}}
+|{{Lang|ga|trínne}}
+|{{Lang|ga|tríbhse}}
+|{{Lang|ga|tríothusan}}
+|-
+! rowspan="2" |{{Lang|ga|um}} "around"
+!Simple
+|{{Lang|ga|umam}}
+|{{Lang|ga|umat}}
+|{{Lang|ga|uime}}
+|{{Lang|ga|uimpi}}
+|{{Lang|ga|umainn}}
+|{{Lang|ga|umaibh}}
+|{{Lang|ga|umpu}}
+|-
+!Emphatic
+|{{Lang|ga|umamsa}}
+|{{Lang|ga|umatsa}}
+|{{Lang|ga|uimesean}}
+|{{Lang|ga|uimpise}}
+|{{Lang|ga|umainne}}
+|{{Lang|ga|umaibhse}}
+|{{Lang|ga|umpusan}}
+|}
+
+===Possessive pronouns===
+The possessive determiners cause different initial consonant mutations.
+{| class="wikitable mw-collapsible"
+|+Irish possessive pronoun
+! colspan="2" |Possessive determiners
+!Singular
+!Plural
+|-
+! colspan="2" |1st person
+|{{Lang|ga|mo/ m'}}<sup>L</sup> 
+|{{Lang|ga|ár}}<sup>E</sup>
+|-
+! colspan="2" |2nd person
+|{{Lang|ga|do/ d', t'}}<sup>L</sup> 
+|{{Lang|ga|bhur}}<sup>E</sup>
+|-
+! rowspan="2" |3rd person
+!Masculine
+|{{Lang|ga|a}}<sup>L</sup> 
+| rowspan="2" |{{Lang|ga|a}}<sup>E</sup>
+|-
+!Feminine
+|{{Lang|ga|a}}<sup>H</sup>
+|}
+Notes
+
+# <sup>L</sup>= causes [[Irish initial mutations|lenition]] on the next word.
+# <sup>H</sup>= adds h- to the next vowel sound.
+# <sup>E</sup>= causes [[Irish initial mutations|eclipsis]] of the next word.
+
+These forms (especially {{Lang|ga|a}} and {{Lang|ga|ár}}) can also blend with certain prepositions:
+{| class="wikitable mw-collapsible"
+|+Irish possessive pronoun contractions
+! rowspan="2" |Preposition
+! colspan="4" |Possessive pronoun
+|-
+!{{Lang|ga|mo/ m'}} ''"my"''
+!{{Lang|ga|do/ d'}} ''"your"''
+!{{Lang|ga|a}} "his, her(s), their(s)"
+!{{Lang|ga|ár}} "our(s)"
+|-
+! {{Lang|ga|de}} "from" 
+|{{Lang|ga|dem}}
+|{{Lang|ga|ded, det}}
+| rowspan="2" | {{Lang|ga|dá}}
+| rowspan="2" |{{Lang|ga|dár}}
+|-
+!{{Lang|ga|do}} "to, for"
+|{{Lang|ga|dom}}
+|{{Lang|ga|dod, dot}}
+|-
+! {{Lang|ga|faoi}} "about, under" 
+|—
+|—
+| {{Lang|ga|faoina}}
+|{{Lang|ga|faoinár}}
+|-
+! {{Lang|ga|i}} "in" 
+|{{Lang|ga|im}}
+|{{Lang|ga|id, it}}
+| {{Lang|ga|ina}}
+|{{Lang|ga|inár}}
+|-
+! {{Lang|ga|le}} "with" 
+|{{Lang|ga|lem}}
+|{{Lang|ga|led, let}}
+| {{Lang|ga|lena}}
+|{{Lang|ga|lenár}}
+|-
+! {{Lang|ga|ó}} "from" 
+|{{Lang|ga|óm}}
+|{{Lang|ga|ód, ót}}
+| {{Lang|ga|óna}}
+|{{Lang|ga|ónár}}
+|-
+! {{Lang|ga|trí}} "through" 
+|—
+|—
+| {{Lang|ga|trína}}
+|{{Lang|ga|trínár}}
+|}
+
+The object of a verbal noun is in the genitive case:
+*{{Lang|ga|Tá sé ag plé a rothair.}} "He's discussing his bicycle" (lit.: He is at the discussing of his bicycle)
+
+Similarly, if the object of the verbal noun is a pronoun, then it is a possessive pronoun:
+*{{Lang|ga|Tá sé '''á''' phlé.}} "He's discussing it." (lit.: He is at its (i.e. the bicycle's) discussing)
+
+More examples:
+*{{Lang|ga|Tá sí '''do mo''' bhualadh.}} "She's hitting me."
+*{{Lang|ga|Tá siad '''do do''' phlé.}} "They are discussing you."
+*{{Lang|ga|Tá sé '''á''' pógadh.}} "He's kissing her."
+*{{Lang|ga|Tá tú '''dár''' mbualadh.}} "You're hitting us."
+*{{Lang|ga|Tá mé '''do bhur''' bplé.}} "I'm discussing you (pl.)."
+*{{Lang|ga|Tá sibh '''á''' bpógadh.}} "You (pl.) are kissing them."
+
+===Interrogative pronouns===
+Interrogative pronouns introduce a question, e.g. the words ''who, what, which''. The Irish equivalents are:
+*{{Lang|ga|cé}} "who?, which?"
+*{{Lang|ga|cad}} or {{Lang|ga|céard}} "what?"
+*{{Lang|ga|cén}} "which?"
+
+Examples:
+*{{Lang|ga|Cé a rinne é?}} "Who did it?"
+*{{Lang|ga|Cé a chonaic tú?}} "Who did you see?"
+*{{Lang|ga|Cé ar thug tú an leabhar dó?}} "Who did you give the book to?"
+*{{Lang|ga|Cad atá ort?}} "What's wrong (with you)?" (lit. "What is on you?")
+*{{Lang|ga|Céard a dúirt tú?}} "What did you say?"
+*{{Lang|ga|Cén t-ainm atá ort?}} "What's your name?" (lit. "Which name is upon you?")
+*{{Lang|ga|Cén aois tú?}} "How old are you?" (lit. "Which age are you?")
+
+==Numbers==
+{| class="wikitable mw-collapsible" style="text-align: center;"
+|+Irish numbers
+! rowspan="3" |Value
+! colspan="3" |Cardinal
+! rowspan="3" |Ordinal
+|-
+! rowspan="2" |Disjunctive
+! colspan="2" |Conjunctive
+|-
+!Nonhuman
+!Human
+|-
+!0
+|{{Lang|ga|náid}}
+|
+|
+|
+|-
+!1
+|{{Lang|ga|a haon}}
+| colspan="2" |{{Lang|ga|(aon)...amháin}}
+|{{Lang|ga|céad}}
+|-
+!2
+|{{Lang|ga|a dó}}
+|{{Lang|ga|dhá}}
+|{{Lang|ga|beirt}}
+|{{Lang|ga|dara }}
+|-
+!3
+|{{Lang|ga|a trí}}
+|{{Lang|ga|trí}}
+|{{Lang|ga|triúr}}
+|{{Lang|ga|tríú }}
+|-
+!4
+|{{Lang|ga|a ceathair}}
+|{{Lang|ga|ceithre}}
+|{{Lang|ga|ceathrar}}
+|{{Lang|ga|ceathrú }}
+|-
+!5
+|{{Lang|ga|a cúig}}
+|{{Lang|ga|cúig}}
+|{{Lang|ga|cúigear}}
+|{{Lang|ga|cúigiú}}
+|-
+!6
+|{{Lang|ga|a sé}}
+|{{Lang|ga|sé}}
+|{{Lang|ga|seisear}}
+|{{Lang|ga|séú}}
+|-
+!7
+|{{Lang|ga|a seacht}}
+|{{Lang|ga|seacht}}
+|{{Lang|ga|seachtar}}
+|{{Lang|ga|seachtú }}
+|-
+!8
+|{{Lang|ga|a hocht}}
+|{{Lang|ga|ocht}}
+|{{Lang|ga|ochtar}}
+|{{Lang|ga|ochtú}}
+|-
+!9
+|{{Lang|ga|a naoi}}
+|{{Lang|ga|naoi}}
+|{{Lang|ga|naonúr}}
+|{{Lang|ga|naoú}}
+|-
+!10
+|{{Lang|ga|a deich}}
+|{{Lang|ga|deich}}
+|{{Lang|ga|deichniúr}}
+|{{Lang|ga|deichiú}}
+|-
+!11
+|{{Lang|ga|a haon déag}}
+| colspan="2" |{{Lang|ga|aon...déag}}
+|{{Lang|ga|aonú...déag}}
+|-
+!12
+|{{Lang|ga|a dó dhéag}}
+|{{Lang|ga|dhá...déag}}
+|{{Lang|ga|dáréag}}
+|{{Lang|ga|dóú...déag}}
+|-
+!20
+| colspan="3" |{{Lang|ga|fiche}}
+|{{Lang|ga|fichiú}}
+|-
+!21
+|{{Lang|ga|fiche a haon}}
+| colspan="2" |{{Lang|ga|...'s fiche}}
+|{{Lang|ga|aonú...'s fiche}}
+|-
+!22
+|{{Lang|ga|fiche a dó}}
+| colspan="2" |{{Lang|ga|dhá ...'s fiche}}
+|{{Lang|ga|dóú...'s fiche}}
+|-
+!30
+| colspan="3" |{{Lang|ga|tríocha}}
+|{{Lang|ga|tríochadú}}
+|-
+!40
+| colspan="3" |{{Lang|ga|daichead}}
+|{{Lang|ga|daicheadú}}
+|-
+!50
+| colspan="3" |{{Lang|ga|caoga}}
+|{{Lang|ga|caogadú }}
+|-
+!60
+| colspan="3" |{{Lang|ga|seasca}}
+|{{Lang|ga|seascadú}}
+|-
+!70
+| colspan="3" |{{Lang|ga|seachtó}}
+|{{Lang|ga|seachtódú}}
+|-
+!80
+| colspan="3" |{{Lang|ga|ochtó}}
+|{{Lang|ga|ochtódú}}
+|-
+!90
+| colspan="3" |{{Lang|ga|nócha}}
+|{{Lang|ga|nóchadú}}
+|-
+!100
+| colspan="3" |{{Lang|ga|céad}}
+|{{Lang|ga|céadú}}
+|-
+!1000
+| colspan="3" |{{Lang|ga|míle}}
+|{{lang|ga|míliú}}
+|}
+There are three kinds of cardinal numbers in Irish: disjunctive numbers, nonhuman conjunctive numbers, and human conjunctive numbers.
+
+===Disjunctive numbers===
+Disjunctive numbers are used for example in arithmetic, in telling time, in telephone numbers and after nouns in forms like {{Lang|ga|bus a trí déag}} "bus 13" or {{Lang|ga|seomra a dó}} "room 2".
+
+=== Conjunctive numbers ===
+
+====Nonhuman conjunctive numbers====
+Nonhuman conjunctive numbers are used to count nouns that do not refer to human beings, e.g. {{Lang|ga|capall}} "horse"
+
+"One" as a [[pronoun]] is rendered with {{Lang|ga|ceann}} (lit. "head") when it concerns things and animals, e.g.:
+:{{Lang|ga|Tá cúig chapall agam; tá ceann acu breoite.}} "I have five horses; one of them is sick."
+
+====Human conjunctive numbers====
+Human conjunctive numbers are used to count nouns that refer to human beings, e.g. {{lang|ga|páiste}} 'child'
+
+"One" as a pronoun is rendered with {{Lang|ga|duine}} (lit. "person") with people. The other "personal" numbers can also be used pronominally, e.g.:
+:{{Lang|ga|Tá cúigear páistí agam; tá duine acu breoite.}} "I have five children; one of them is sick."
+:{{Lang|ga|Tá seisear sa seomra.}} "Six people are in the room."
+
+Higher numbers are done as with the nonhuman conjunctive numbers: {{Lang|ga|trí pháiste déag}}, {{lang|ga|fiche páiste}}, etc.
+
+==Phonology==
+{{Main|Irish phonology}}
+
+A notable feature of Irish phonology is that consonants (except {{IPA|/h/}}) come in pairs, one "broad" ([[velarization|velarized]], pronounced with the back of the tongue pulled back towards the soft palate) and one "slender" ([[Palatalization (phonetics)|palatalized]], pronounced with the middle of the tongue pushed up towards the hard palate).
+
+{| class="wikitable" style="text-align: center;"
+|-
+|+Consonant phonemes
+!rowspan="3" colspan="2"|
+!colspan="5" | [[Labial consonant|Labial]]
+!colspan="4" | [[Coronal consonant|Coronal]]
+!colspan="2" | [[Dorsal consonant|Dorsal]]
+!rowspan="3" | [[Glottal consonant|Glottal]]
+|-
+!colspan="2" | [[Bilabial consonant|Bilabial]]
+! [[Labialized velar consonant|Labio-<br />velar]]
+!colspan="2" | [[Labiodental consonant|Labio-<br />dental]]
+! [[Dental consonant|Dental]]
+!colspan="2" | [[Alveolar consonant|Alveolar]]
+! [[Postalveolar consonant|Post-<br />alveolar]]
+! [[Palatal consonant|Palatal]]
+! [[Velar consonant|Velar]]
+|-
+!<small>[[velarization|broad]]</small>
+!<small>[[Palatalization (phonetics)|slender]]</small>
+!<small>[[velarization|broad]]</small>
+!<small>[[velarization|broad]]</small>
+!<small>[[Palatalization (phonetics)|slender]]</small>
+!<small>[[velarization|broad]]</small>
+!<small>[[velarization|broad]]</small>
+!<small>[[Palatalization (phonetics)|slender]]</small>
+!<small>[[Palatalization (phonetics)|slender]]</small>
+!<small>[[Palatalization (phonetics)|slender]]</small>
+!<small>[[velarization|broad]]</small>
+|-align=center
+!rowspan="2"|[[Plosive consonant|Plosives]]
+!<small>[[Voice (phonetics)|voiceless]]</small>
+| {{IPA|pˠ}} || {{IPA|pʲ}}
+|
+|colspan=2|
+| {{IPA|t̪ˠ}} || ||
+| {{IPA|tʲ}}
+| {{IPA|c}} || {{IPA|k}}
+|
+|-align=center
+!<small>[[Voice (phonetics)|voiced]]</small>
+| {{IPA|bˠ}} ||  {{IPA|bʲ}}
+|
+|colspan=2|
+| {{IPA|d̪ˠ}} || ||
+| {{IPA|dʲ}}
+| {{IPA|ɟ}} || {{IPA|ɡ}}
+|
+|-align=center
+!rowspan="2"|[[Fricative consonant|Fricative]]/<br />[[Approximant consonant|Approximant]]
+!<small>[[Voice (phonetics)|voiceless]]</small>
+|colspan=2|
+|
+| {{IPA|fˠ}} || {{IPA|fʲ}}
+|
+| {{IPA|sˠ}} || || {{IPA|ʃ}}
+| {{IPA|ç}} || {{IPA|x}}
+| {{IPA|h}}
+|-align=center
+!<small>[[Voice (phonetics)|voiced]]</small>
+|colspan=2|
+|colspan=2| {{IPA|w}} || {{IPA|vʲ}}
+|
+|colspan=2|
+|
+| {{IPA|j}} || {{IPA|ɣ}}
+|
+|-align=center
+!colspan="2"| [[Nasal stop|Nasal]]
+| {{IPA|mˠ}} || {{IPA|mʲ}}
+|
+|colspan=2|
+| {{IPA|n̪ˠ}} || || {{IPA|nʲ}}
+|
+| {{IPA|ɲ}} || {{IPA|ŋ}}
+|
+|-align=center
+!colspan=2| [[Flap consonant|Tap]]
+|colspan=2|
+|
+|colspan=2|
+|
+| {{IPA|ɾˠ}} || {{IPA|ɾʲ}}
+|
+|
+|
+|
+|-align=center
+!colspan=2| [[Lateral consonant|Lateral]]
+|colspan=2|
+|
+|colspan=2|
+| {{IPA|l̪ˠ}} || || {{IPA|lʲ}}
+|
+|
+|
+|
+|}
+
+{| class="wikitable" style="text-align: center;"
+|-
+|+Vowel phonemes
+|-
+! !! [[Front vowel|Front]] !! [[Central vowel|Central]] !! [[Back vowel|Back]]
+|-
+! [[Close vowel|Close]]
+| {{IPA|iː}} || || {{IPA|uː}}
+|-
+! [[Near-close vowel|Near-close]]
+| {{IPA|ɪ}} || || {{IPA|ʊ}}
+|-
+! [[Close-mid vowel|Close-mid]]
+| {{IPA|eː}} || || {{IPA|oː}}
+|-
+! [[Mid vowel|Mid]]
+| || {{IPA|ə}} <br /><small>(only unstressed)</small> ||
+|-
+! [[Open-mid vowel|Open-mid]]
+| {{IPA|ɛ}} || || {{IPA|ɔ}}
+|-
+! [[Open vowel|Open]]
+| {{IPA|a}} || || {{IPA|ɑː}}
+|}
+[[Diphthongs]]: {{IPA|/iə/}}, {{IPA|/uə/}}, {{IPA|/əi/}}, {{IPA|/əu/}}.
+
+==References==
+{{Reflist}}
+
+==External links==
+{{Wikisource|Graiméar na Gaedhilge}}
+
+{{Irish linguistics}}
+{{Language grammars}}
+
+{{DEFAULTSORT:Irish Grammar}}
+[[Category:Irish grammar| ]]
+[[Category:Irish language|Grammar]]

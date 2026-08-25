@@ -1,0 +1,1132 @@
+                                                                                 eprints@whiterose.ac.uk
+                                                                            https://eprints.whiterose.ac.uk
+                                                      Universities of Leeds, Sheffield and York
+
+
+Deposited via The University of Leeds.
+
+White Rose Research Online URL for this paper:
+https://eprints.whiterose.ac.uk/id/eprint/75742/
+
+
+
+
+Article:
+Watson, JCE (2007) Syllabification patterns in Arabic dialects: long segments and mora
+sharing. Phonology, 24. 335 - 356. ISSN: 0952-6757
+
+https://doi.org/10.1017/S0952675707001224
+
+
+
+
+Reuse
+Items deposited in White Rose Research Online are protected by copyright, with all rights reserved unless
+indicated otherwise. They may be downloaded and/or printed for private study, or other acts as permitted by
+national copyright laws. The publisher or other rights holders may allow further reproduction and re-use of
+the full text version. This is indicated by the licence information on the White Rose Research Online record
+for the item.
+
+Takedown
+If you consider content in White Rose Research Online to be in breach of UK law, please notify us by
+emailing eprints@whiterose.ac.uk including the URL of the record and the reason for the withdrawal request.
+Phonology 24 (2007) 335–356. f 2007 Cambridge University Press
+doi:10.1017/S0952675707001224 Printed in the United Kingdom
+
+
+
+
+Syllabiﬁcation patterns in
+Arabic dialects : long segments
+and mora sharing*
+Janet C. E. Watson
+University of Salford
+
+  In Classical Arabic and many modern Arabic dialects, syllables ending in VVC
+  or in the left leg of a geminate have a special status. An examination of Kiparsky’s
+  (2003) semisyllable account of syllabiﬁcation types and related phenomena in
+  Arabic against a wider set of data shows that while this account explains much
+  syllable-related variation, certain phenomena cannot be captured, and several
+  dialects appear to exhibit conﬂicting syllable-related phenomena. Phenomena not
+  readily covered by the semisyllable account commonly involve long segments –
+  long vowels or geminate consonants. In this paper, I propose for relevant dialects
+  a mora-sharing solution that recognises the special status of syllables incorporat-
+  ing long segments. Such a mora-sharing solution is not new, but has been
+  proposed for the analysis of syllables containing long segments in a number of
+  languages, including Arabic (Broselow 1992, Broselow et al. 1995), Malayalam,
+  Hindi (Broselow et al. 1997) and Bantu languages (Maddieson 1993, Hubbard
+  1995).
+
+
+
+
+1 Introduction
+The syllabic typology of Arabic vernaculars has attracted various gener-
+ative approaches over the years. One of the most signiﬁcant, Kiparsky’s
+(2003) semisyllable account of syllables and moras in Arabic, diﬀers
+from other generative approaches in terms of the amount of data covered,
+
+* I am very grateful to the following : Jonathan Owens for his comments on early
+  versions of this paper, and for answering my questions on Libyan Arabic;
+  Christophe Pereira for providing and checking data on Libyan Tripoli Arabic, and
+  for reading the paper ; my husband, James Dickins, for discussing data examples
+  from Central Urban Sudanese; Ricardo Bermúdez-Otero for encouraging sugges-
+  tions during the 14th Manchester Phonology Meeting ; Judith Broadbent and
+  S. J. Hannahs for making pertinent comments; the Semitic Institute at the
+  University of Heidelberg for a visiting scholarship in summer 2006 during which
+  time I completed this paper ; Ian Maddieson, for answering my mail on mora
+  splitting in Bantu languages ; three anonymous reviewers for Phonology ; and Brian
+  Joseph, for encouraging me to write the paper in the ﬁrst place, and for making
+  challenging comments. I, of course, take full responsibility for any remaining errors
+  and inconsistencies.
+                                         335
+336 Janet C. E. Watson
+the division of the dialects into three syllable types and the linking of
+various syllable-related phenomena with syllabiﬁcation patterns. How-
+ever, an examination of this account against a wider set of data shows that
+while the semisyllable account explains much Arabic syllable-related
+variation, a number of dialects appear to exhibit conﬂicting dialect
+phenomena.
+  I begin by presenting Kiparsky’s semisyllable analysis of three diﬀerent
+types of dialects in Arabic – those in which morphologically derived CCC
+clusters are syllabiﬁed as CVCC (VC dialects), CCC (C dialects) and
+CCVC (CV dialects) respectively. This analysis, the ﬁrst both to account
+for C dialects in addition to VC and CV dialects and to link VC dialects to
+C dialects, also explains a large number of syllable-related phenomena in
+the dialects.
+  A closer look at some of the data and consideration of new data
+shows that the analysis cannot cope with all syllabiﬁcation phenomena
+for all dialects. Dialects that fail to exhibit predicted phenomena
+most consistently are those in which derived CCC clusters are typically
+syllabiﬁed as CCVC – Kiparsky’s CV dialects. The extent to which the
+analysis fully accounts for some surface forms in VC dialects is also
+questioned. Dialect phenomena not readily covered by the semisyllable
+account most commonly involve long segments – long vowels or geminate
+consonants.
+  In this extension to Kiparsky (2003), syllables incorporating long seg-
+ments are distinguished from syllables ending in ﬁnal consonant clus-
+ters in relevant dialects, and accounted for by means of a mora-sharing
+analysis, a solution that draws on proposals for the analysis of syllables
+containing, or ending in the ﬁrst portion of, long segments in a number
+of languages, including Arabic (Broselow 1992, Broselow et al. 1995,
+1997), Malayalam (Broselow et al. 1997), Bantu languages (Maddieson
+1993, Maddieson & Ladefoged 1993, Hubbard 1995) and American
+English (Frazier 2005). As a result of this modiﬁcation, the three-way
+typology put forward by Kiparsky for Arabic is extended to a four-way
+typology.
+
+
+2 Background and Kiparsky’s model
+Research on the syllabic typology of Arabic has focused particularly on the
+diﬀerence between dialect types in which epenthesis occurs to the right of
+the unsyllabiﬁed consonant (CCC=CCvC, thus : /gilt-la/ [giltila] ‘I told
+him ’), and those in which epenthesis occurs to the left (CCC=CvCC,
+thus : /gilt-la/ [gilitla] ‘I told him’). In Selkirk (1981), stray consonants are
+assigned to the onset in the former, and to the rhyme in the latter. In
+Broselow (1992), in a similar approach, stray consonants are linked di-
+rectly to syllable nodes in what she terms onset dialects, and to moras in
+rhyme dialects. In Itô (1986, 1989), developed further by Farwaneh
+(1995), the diﬀerence between the two syllabic types is attributed to the
+                              Syllabiﬁcation patterns in Arabic dialects 337
+directionality of syllabiﬁcation – onset dialects syllabify from left to right,
+and rhyme dialects from right to left. Mester & Padgett (1994) translate
+this processual formulation into constraint-based terms by means of
+alignment constraints. Kiparsky (2003) analyses the syllabiﬁcation pat-
+terns of three Arabic dialect types, which he classiﬁes typologically as VC,
+CV and C dialects: VC dialects split CCC by epenthesis to the left of the
+unsyllabiﬁed consonant (Broselow’s rhyme dialects), CV dialects split
+CCC to the right of the unsyllabiﬁed consonant (Broselow’s onset dialects)
+and C dialects maintain the CCC cluster. Thus, the model form /gilt-la/
+‘I/you (MASC SG) told him’ is syllabiﬁed in a VC dialect as [gilitila], in a CV
+dialect as [giltla] and in a C dialect as [giltla]. Kiparsky argues that the
+most basic typological division is between CV dialects on the one hand and
+VC and C dialects on the other.
+
+(1)            Arabic dialects
+
+      CV dialects           VC, C dialects
+
+According to Kiparsky, VC and C dialects license unsyllabiﬁed con-
+sonants as semisyllables, represented prosodically as moras unaﬃliated
+to a syllable node. CV dialects, by contrast, do not license unsyllabiﬁed
+consonants as semisyllables.
+   From an OT perspective, semisyllables arise when the constraint
+LICENSE(m), which requires all moras to be licensed by syllables, is out-
+ranked by markedness constraints on the form of syllables and feet
+(Kiparsky 2003 : 151) and, in Arabic, by REDUCE, which requires mini-
+mising the duration of light (CV) syllables such that short low vowels
+are raised and short high vowels deleted. The theoretical importance of
+this position lies in the demonstration of the violability of Strict Layering
+(Nespor & Vogel 1986: 7)1 in the face of higher-ranked constraints, a claim
+which has its roots in pre-OT work (Itô & Mester 1992, Vogel 1999).
+OT principles require minimal violations of constraints – thus a mora
+which cannot be associated with a syllable must be aﬃliated with the
+lowest possible superordinate prosodic category. In Arabic, aﬃliation of
+an unsyllabiﬁed mora with the next highest prosodic category, the foot,
+would entail violation of the otherwise undominated constraint on foot
+size (FTBIN). The unsyllabiﬁed mora must therefore be associated with
+the next highest prosodic category, the prosodic word, which is not subject
+to such strict size constraints. Thus, semisyllables in VC and C dialects
+
+
+
+
+1 Strict Layering requires every non-highest prosodic or metrical element to be in
+  its entirety a contituent belonging to the next highest category on the prosodic
+  hierarchy.
+338 Janet C. E. Watson
+of Arabic are represented as moras associated directly with the word node,
+as in the rightmost mora in (2) :
+
+(2)       w
+
+          F
+
+          s
+
+      m       m   m
+
+The diﬀerence between VC dialects, in which CCC clusters are eventually
+repaired by epenthesis to the left of the unsyllabiﬁed C (to give CVCC),
+and C dialects, in which no epenthesis takes place, is attributed to the
+licensing by VC dialects of unsyllabiﬁed consonants as semisyllables at
+the word level, but not at the postlexical level : /gilt-la/ has the lexical
+representation /giltMla/ but is realised as [gilitMla].
+   Within Kiparsky’s approach, this VC dialect lexical/postlexical di-
+screpancy is interpreted as promotion of the constraint LICENSE(m) in
+the postlexical phonology. An epenthetic vowel is inserted to the left
+rather than to the right of the semisyllable because of prosodic faithful-
+ness : it is the minimal modiﬁcation that brings the word-level moraic
+(semisyllable) parse into line with the language’s surface syllable canon
+(Kiparsky 2003 : 159). This is illustrated in the tableaux below : at the
+word level (3a), LICENSE(m) is outranked by REDUCE, which minimises
+the number of light syllables, speciﬁcally, because of dominating ALIGN
+and MAX constraints, of non-ﬁnal light syllables with high vowels
+(Kiparsky 2003 : 158). At the postlexical level (3b), LICENSE(m) is pro-
+moted above REDUCE, causing epenthesis of the unmarked vowel (in most
+dialects, [i]).
+
+(3) a. VC dialects: word level
+           [gilt]-la      Reduce License(m)
+          ™ i. (gil)tM.la   *        *
+           ii. (gi)lit.la **!
+
+      b. VC dialects: postlexical level
+            [giltla]       License(m) Reduce
+             i. (gil)tM.la     *!       *
+          ™ ii. (gi)lit.la              **
+
+C dialects, by contrast, license semisyllables at both the lexical and the
+postlexical levels, allowing CCC clusters to surface : LICENSE(m) is not
+promoted postlexically in C dialects. Kiparsky’s analysis is thus a con-
+straint-based version of Lexical Phonology and Morphology, providing
+                            Syllabiﬁcation patterns in Arabic dialects 339
+evidence for the possibility of distinct constraint systems for the word
+phonology and the sentence phonology.
+  The fundamental diﬀerences between the three Arabic dialect types can
+thus be summarised as in (4) :
+
+(4) a. CV dialects allow semisyllables at no level.
+    b. VC dialects allow semisyllables at the word level only.
+    c. C dialects allow semisyllables at both the word level and the sentence
+       level.
+
+This semisyllable analysis of unsyllabiﬁed consonants in the dialects,
+Kiparsky claims, not only accounts for epenthesis patterns in the dialects,
+but also for the presence and absence of a range of other syllabiﬁcation
+phenomena. Listed in the order in which they are introduced in Kiparsky
+(2003 : 149–150), these are:
+   1. -CC clusters. Only CV and C dialects allow ﬁnal -CC clusters un-
+restrictedly. Depending on the dialect, VC dialects either permit no -CC
+clusters, or permit them only with falling sonority (e.g. Upper Egypt
+south of Asyut, [kalb] ‘dog ’, but [katabit] ‘I wrote ’ and [ba)ar] ‘sea’).
+   2. CC- clusters. Phrase-initial onset CC- clusters are allowed only in VC
+and C dialects, because syncope is allowed to create initial clusters from
+CiC>CC only where the ﬁrst consonant of the resulting cluster can be
+licensed as a semisyllable. In C dialects, the resulting cluster remains. In
+VC dialects, by contrast, the clusters are typically broken up by prothesis
+of a vowel (phonetically preceded by a glottal stop to satisfy Arabic’s un-
+dominated ranking of ONSET), as in: /)imaar/ ‘donkey ’>[)MmaarM]>
+[(?i))M.maarM]; /kilaab/ ‘dogs ’>[kMlaabM]>[(?i)kM.laabM]. In CV dialects,
+high vowel deletion does not take place in initial position.
+   3. Initial geminate clusters. Often arising from assimilation, initial
+geminate clusters only occur in VC and C dialects. These can be resolved
+by prothesis in VC dialects in the same way as other onset clusters :
+/l-landan/ [llandan]J[?illandan] ‘to London’, /l-”aaj/ [””aaj]J[?i””aaj]
+‘the tea ’.
+   4. ‘Metathesis ’. ‘Metathesis ’ of medial -CCiC- to -CiCC- is restricted
+to VC dialects, as in : /ji-ktib-u/>[jikitbu] ‘they write’. In corresponding
+cases, C dialects simply drop the vowel ([jiktbu]), and CV dialects always
+maintain CCiC ([jiktibu]).
+   5. Pausal glottalisation. Pausal desonorisation and glottalisation of
+word-ﬁnal -VCR and -VVR, as in San‘ani [sam?n] ‘ghee ’ and [saa?r] ‘he
+went’, occurs only in CV dialects. Kiparsky takes desonorisation to be
+a process which applies to non-moraic consonants. By virtue of being
+licensed as semisyllables, unsyllabiﬁed consonants are moraic in VC and C
+dialects.
+   6. Postgeminate high vowel deletion. High vowel deletion after geminate
+consonants, producing forms such as /j-kallim-u/ [(j)ikal(l)mu] ‘they
+(MASC) speak ’, /j-sakkir-u/ [(j)isak(k)ru] ‘they lock’, occurs only in VC
+340 Janet C. E. Watson
+and C dialects. Only in these dialects can the resulting superheavy syllable
+be prosodically licensed [(ji(kal)lM.mu)].
+   7. Closed syllable shortening. Only in CV dialects does closed syllable
+shortening take place to derive, for example, /kaatib-a/ [katba] ‘writing
+(FEM SG)’ and /baab-ha/ [babha] ‘her door ’. By contrast, word-internal
+CVVC syllables surface in all VC and C dialects because the third mora-C
+is licensed as a semisyllable, as in : [(’baa)bM.ha] ‘her door ’.
+   8. Opaque epenthesis/stress interaction. The opaque epenthesis/stress
+interaction noted for many Levantine dialects only occurs in VC dialects,
+because epenthesis is invisible to lexical processes such as stress and vowel
+shortening. In CV dialects, epenthetic vowels are always visible to lexical
+processes, and are stressed under the same conditions as regular vowels :
+the epenthetic vowel in Cairene [bin’tina] ‘our daughter ’ is stressed in the
+same position as the phonological vowel /a/ in [mak’taba] ‘library ’.
+
+
+3 Examination of the data
+The classiﬁcation of a dialect as a C, VC or CV dialect is made principally
+on the position of the epenthetic vowel in phonologically and morpho-
+logically derived CCC clusters. In CV dialects, epenthesis occurs to the
+right of the unsyllabiﬁed consonant, as in Cairene /?ult-lu/ [?ultilu] ‘ I/you
+(MASC SG) told him’. In VC dialects, epenthesis occurs to the left of
+the unsyllabiﬁed consonant, as in Iraqi /gilt-la/ [gilitla]. In C dialects, no
+epenthesis takes place. Thus, [qiltlu] ‘ I/you (MASC SG) told him’ surfaces
+in Moroccan Arabic with a three-consonant cluster. The ranking of
+LICENSE(m) below constraints that impose syllable and foot well-
+formedness imposes the syllabiﬁcation in (5) :
+
+(5)              w
+
+                 F
+
+                 s               s
+
+             m       m   m           m
+
+      q      i       l   t   l       u
+
+Taking the treatment of morphologically and phonologically derived CCC
+clusters as the main criterion for determining whether a dialect be cat-
+egorised as a CV, VC or C dialect, I examined data from a number of
+Arabic dialects from Yemen, Sudan, Saudi Arabia, Libya, Lebanon,
+Palestine, Turkey and Egypt. While three of the typological general-
+isations occur across the board, of the remainder, one or more dialects
+of the appropriate syllabic typology either fail to exhibit a particular
+                             Syllabiﬁcation patterns in Arabic dialects 341
+generalisation, or unpredictably exhibit a generalisation of one of the other
+dialect types. While some dialects, for example Cairene as a CV dialect
+and Haifa as a VC dialect, exhibit all the predicted characteristics of
+their respective dialect type, some of the dialects do not. On the basis of
+epenthesis patterns, some dialects are not unambiguously ascribable to
+any one category.
+  The main dialects considered in this paper are the following :
+
+(6) a. Group 1: CV dialects
+       Yemen (al-Hudaida, San‘ani, Yaafi‘i, Yariimi, Ibbi), Egypt (Cairene,
+       Middle Egyptian dialects), Saudi Arabia (Meccan)
+    b. Group 2: VC dialects
+       The Levant (Haifa, Ras-Beirut), Turkey (Çukurova dialects and
+       Kinderib), Yemen (in-NaDhiir), Egypt (il-‘Aw¿m}a), Libya (Tripoli)
+    c. Group 3: Dialects which prominently display both VC- and CV-
+         epenthesis patterns
+       Sudan (Shukriyya, Central Urban Sudanese)
+
+The results of this data examination are summarised in Table I.
+   The dialects of Yemen (San‘ani, al-Hudaida, Yariimi) and Sudan are
+particularly interesting cases : San‘ani, a dialect in which derived CCC
+clusters are typically epenthesised as CCVC (e.g. /bint-naa/ [bintanaa]
+‘our daughter ’, /gult-lih/ [gultalih] ‘I/you (MASC SG) told him ’, /ahl-haa/
+[ahlahaa] ‘her family’), exhibits medial CVVC syllables and vowel de-
+letion after geminates characteristic of VC and C dialects, and some of
+the word-initial and word-ﬁnal consonant-clustering characteristics of
+C dialects. Central Urban Sudanese and the eastern Sudanese dialect,
+Shukriyya, defy initial categorisation, displaying epenthesis patterns of
+both the VC and CV types; of the remaining eight features, Central Urban
+Sudanese exhibits a 3 :5 VC/CV feature ratio, and Shukriyya a 4:4 ratio.
+Due to the theoretical diﬃculties posed by dialects which defy categori-
+sation, and due to the fact that data from these dialects are not included in
+Table I, I shall begin by sketching epenthesis patterns in these Sudanese
+dialects.
+
+3.1 Sudanese dialects : a group 3 class
+Central Urban Sudanese allows a limited number of ﬁnal -CC clusters
+optionally, including -RC, /-ft/ and /-ks/ (Dickins, in preparation ; see
+below). Many words ending in one of these clusters retain the cluster on
+suﬃxation, thus exhibiting CV-epenthesis (e.g. /Jamb-na/ [Jambana]
+‘beside us ’, /bank-na/ [bankana] ‘our bank ’). Words ending in -lC may
+either retain the cluster or epenthesise to the left of the unsyllabiﬁed
+consonant (/kalb-na/ [’kalbana]J[ka’libna] ‘our dog ’). In other cases, the
+epenthetic vowel is inserted to the left of the unsyllabiﬁed C, though
+there may be a so-called ‘educated ’ variant with epenthesis to the right
+342 Janet C. E. Watson
+(a)
+
+
+
+
+                                                                                                                              Egyptian
+                                         Hudaida
+
+
+
+
+                                                                                                                                            Meccan
+                                                                                       Yariimi
+
+
+
+
+                                                                                                                              Middle
+                                                                   Yaaﬁ‘i
+
+
+
+
+                                                                                                                      Cairo
+                                                       San‘a
+
+
+
+
+                                                                                                            Ibb
+                                         Al-
+-CCC-=-CCiC                               Y            Y           Y                   Y                    Y         Y           Y         Y
+-CC#                                      Y            Y           Y                   Y                    Y         Y           Y         *
+*#CC-                                     *            *           *                   Y                    Y         Y           Y         Y
+*metathesis -CCiC-V=CiCC-V                Y            Y           Y                   Y                    Y         Y           Y         Y
+pausal devoicing/glottalisation           *            Y           Y                   Y                    Y         Y           Y         *
+*HVD postgeminates                        *            *           ?                   Y                    Y         Y           Y         Y
+CSS                                       *            *           *                   *                    *         Y           *         *
+*CVVC-                                    *            *           *                   *                    *         Y           *         *
+*CCC                                      *            *           *                   *                    *         Y           Y         Y
+
+  (b)
+
+
+                                                                            Çukurova
+
+                                                                                                 Kinderib
+
+
+
+
+                                                                                                              ‘Aw¿m}a
+                                                                                                              NaDhiir
+
+
+
+
+                                                                                                              Tripoli
+                                                                                                              Libyan
+                                                           Beirut
+                                               Haifa
+
+                                                           Ras-
+
+
+
+
+                                                                                                              Al-
+
+                                                                                                              Il-
+      -CCC-=-CCiC                              Y               Y            Y                    Y                Y           Y        Y
+      *-CC#                                    Y               Y            Y                    Y                Y           Y       */Y
+      #CC-                                     Y               Y            Y                    Y                Y           Y        Y
+      metathesis -CCiC-V=CiCC-V                Y               Y            *                    *                Y           Y        *
+      *pausal devoicing/glottalisation         Y               Y            *                    *                *           *        Y
+      HVD postgeminates                        Y               Y            Y                    Y                *           Y        Y
+      *CSS                                     Y               Y            Y                    Y                Y           Y        Y
+      -CVVC-                                   Y               Y            Y                    Y                Y           Y        Y
+      opaque epenthesis/stress                 Y               Y            *                    ?                *           Y        Y
+
+                                      Table I
+         Syllabiﬁcation patterns in Arabic dialects: (a) CV dialect features;
+                              (b) VC dialect features.
+
+
+
+(e.g. /ism-na/ [i’simna]J[’ismana] ‘our name’). Other interesting alter-
+nations include nouns of the pattern CVCC-a when suﬃxed: here the
+initial cluster is either retained, as in [’xidmatak] ‘your (MASC SG) service ’,
+or broken up, as in [xi’dimtak] (Mustapha 1982 : 262).
+   Shukriyya is similar to Central Urban Sudanese, although, according to
+Reichmuth (1983), VC-epenthesis patterns in noun and verb suﬃxation
+are less common than CV-patterns (/kalb-na/ [’kalbana], less commonly
+[ka’libna], ‘our dog ’, /asg-na/ [’asgana], less commonly [a’signa], ‘give us
+something to drink!’; Reichmuth 1983: 93). Reichmuth’s other examples
+of epenthesis in suﬃxed nouns are all of the CV-type ([mil)akum]
+‘ your (MASC PL) salt ’, [Gulbahin] ‘their (FEM PL) resentment ’; 1983: 71).
+                              Syllabiﬁcation patterns in Arabic dialects 343
+However, the dialect displays exceptionless ‘metathesis’ of medial -CCiC-
+to -CiCC- in verb forms with vowel-initial suﬃxes (e.g. /tamrug-u/
+[ti’murgu]2 ‘you go out’ ; 1983: 101, 26), an otherwise unique character-
+istic of VC dialects (see w3.2.1), analysed by Reichmuth, as by Kiparsky,
+as syncope of the high vowel followed by epenthesis (i.e. /tamrug-u/>
+syncope [tamrgu]>epenthesis [ti’murgu]). In this respect, Central Urban
+Sudanese diﬀers from Shukriyya insofar as it displays alternation –
+maintenance of -CCiC- as in CV dialects or ‘metathesis’ (e.g. [’amsiku]J
+[a’misku] ‘seize him/it’, [’nagﬁlu]J[na’giﬂu] ‘we close it ’, [’asvburan]J
+[a’svubran] ‘be patient (FEM PL) ’; Mustapha 1982: 260).
+
+3.2 Cross-dialectal generalisations
+In this section, I consider cross-dialectal generalisations that correspond to
+dialect types almost without exception. I then consider C characteristics
+shared by some CV and VC dialects, CV characteristics shared by some VC
+dialects, and VC characteristics shared by some CV dialects.
+
+3.2.1 Generalisations which apply predictably. (i) ‘Metathesis ’ of medial
+-CCiC- to -CiCC- is restricted to VC dialects. Among the group 3 dialects
+(see w3.1), -CCiC->-CiCC- is characteristic of Shukriyya and an optional
+variant in Central Urban Sudanese. (ii) ‘Nonﬁnal CVVC syllables
+that arise in the word-level phonology surface in all VC- and C-dialects,
+because these dialects license the third mora -C as a semisyllable
+[(’baa)bM.ha] ‘her door ’’ (Kiparsky 2003 : 159) ; ‘shortening of nonﬁnal
+CVVC- before word-level endings º occurs only in CV-dialects : /baab-
+ha/ [babha] ‘her door ’’ (Kiparsky 2003: 150).
+   All VC dialects exhibit CVVC syllables (e.g. Çukurova [feet)iin]
+‘opening (PL) ’, Procházka 2002: 82). Non-ﬁnal CVVC syllables are far
+more common in CV dialects, however, than Kiparsky’s analysis would
+suggest, occurring in Middle Egyptian dialects (e.g. /bitaa?it-u/ [bitaa)tu]
+‘his ’, /Saaﬁt-u/ [Saaftu] ‘ she saw him’; Behnstedt 1979 : 67, Behnstedt &
+Woidich 1985: map 74), and a number of Yemeni dialects, including
+al-Hudaida in the Tihama (e.g. [baajkiin] ‘going (MASC PL) ’; Greenman
+1979; [beenhum] ‘between them (MASC) ’; Rossi 1938), Yaaﬁ‘i (e.g.
+[raashaa] ‘ her head ’, [jaa waaldjeh] ‘mother ’; Vanhove 2004), Yariimi
+(e.g. [ishtarajthin] ‘I bought them’; Diem 1973 : 134), Ibbi (e.g.
+[saab?ih]J[saabi?ih] ‘seventh (FEM) ’, [Gaatvsih] ‘dive ’, [raa)luu] ‘(he)
+went oﬀ ’; Watson, in press) and, particularly but not exclusively when
+followed by /h/ of the pronoun suﬃx, San‘ani (e.g. [bajthaa] ‘ her house ’
+[?ijjaalhaa] ‘ her children ’; Watson 1999, 2002 ; [?muumhaa] ‘ her
+(paternal) uncles ’; Naı̈m-Sanbar 1994). In Meccan, non-ﬁnal CVVC
+syllables occur as a result of syncope (e.g. /kaatib-iin/ [kaatbiin] ‘having
+written (PL) ’ and /`aalib-u/ [`aalbu] ‘having requested (MASC SG) it ’;
+Ingham 1971: 284), and when the CC sequence following the long vowel
+2 Accompanied by raising of the preﬁx vowel.
+344 Janet C. E. Watson
+is an underlying or derived geminate (e.g. /tixiil-na/ [tixiinna] ‘ you (MASC
+SG) confuse us ’; Ingham 1971 : 285).3 The group 3 dialects, Central Urban
+Sudanese and Shukriyya, also display non-ﬁnal CVVC (e.g. Shukriyya
+[xaatriin] ‘being on the move (MASC PL) ’, [saabtoot] ‘ young cat ’;
+Reichmuth 1983 : 69; Central Urban Sudanese [aLLa jsaam)ak] ‘may God
+forgive you ’, [ni)na msaafriin] ‘we are travelling ’; Mustapha 1982 : 259).
+   Shortening of non-ﬁnal CVVC-before word-level endings (/baab-ha/
+[babha] ‘her door ’, /kaatib-a/ [katba] ‘writing (FEM SG) ’) is certainly re-
+stricted to CV dialects in the present data; however, more speciﬁcally, this
+phenomenon appears to be limited to a single region – Cairo and the
+central and western dialects of the Nile Delta (Behnstedt & Woidich 1985:
+map 74).4
+
+3.2.2 C characteristics shared by some CV and VC dialects. In fast
+speech, CCC clusters are attested in a number of Yemeni CV dialects of
+the Central Plateau. These include the dialects of Yaaﬁ‘i, al-Hudaida,
+Yariim and San‘a. In Yaaﬁ‘i, a dialect spoken in a mountainous areas
+200 kilometres northeast of Aden, examples of CCC clusters include
+[u-jSqaﬀhaa bi-r-raas] ‘ and he hits her on the head’ (Vanhove 2004).
+Al-Hudaida is the main Yemeni town on the Red Sea coast, the ‘wrong’
+side of Kiparsky’s assumed VC/CV dialect isogloss.5 Typical epenthesis
+patterns, however, place it ﬁrmly within the CV dialect set (e.g. [Jibtalak]
+‘ I gave you (MASC SG) ’, [?indahaa] ‘with her’, [?indamaa] ‘when ’; Rossi
+1938), as do unrestricted ﬁnal -CC clusters (e.g. [l-)abs] ‘the prison’,
+[ta)t] ‘ beneath ’; Rossi 1938). Examples of CCC clusters from data in Rossi
+(1938) and Greenman (1979) include [Jibtlak] ‘I gave you (MASC SG) ’ and
+[saar tmaddad] ‘ he lay down ’. The following examples of CCC clusters in
+Yariimi are from Diem (1973 : 132, 134), [harabtli] ‘I ran away ’, [sara)tli]
+‘ I took myself (oﬀ)’, [Jarrhin] ‘he took them (FEM)’, and, across words,
+[kunt raa?i] ‘I was a farmer’ and [?ant riJi?t] ‘you (MASC SG) returned’.
+CCC clusters in San‘ani include medial clusters in which the ﬁrst C is a
+nasal, such as [tvumtvsva] ‘tomato ’ (Goitein 1960 : 361) and [bint?allmih]
+‘ we learn it’, and initial clusters such as [kftih] ‘gat residue’ and [Skmih]
+‘ party for parturient/bride ’. These instances of clustering alternate with
+vocalised variants – CCVC and, in the case of initial CCC-, CVCC.
+   Non-fast-speech medial CCC clusters are particularly frequent in
+San‘ani when a -CC-ﬁnal noun or verb takes a /h/-initial pronoun suﬃx
+
+3 In other cases, stem-ﬁnal CVVC-C(V) is resolved by epenthesis, as in /kitaab-na/>
+  [kitaabana] ‘ our book ’ (Ingham 1971 : 283).
+4 These facts do not support Kiparsky’s statement (2003 : 159) that ‘ most CV dialects
+  eliminate CVVC syllables by shortening the vowel ’.
+5 Kiparsky mentions ‘ the CV-/VC- isogloss ’ in North Yemen (Kiparsky 2003 : 150).
+  However, Behnstedt, whose Yemeni data Kiparsky refers to, unambiguously rejects
+  isoglosses (1985 : 5) in this work, and does not refer to epenthesis patterns in the
+  dialect atlas. Kiparsky’s conclusion about the Yemeni CV-/VC- isogloss appears to
+  have been drawn not from epenthesis patterns, but on the basis of other cross-
+  dialectal generalisations.
+                              Syllabiﬁcation patterns in Arabic dialects 345
+(e.g. [wagthaa] ‘ her time’, [wa)dhaa] ‘ on her own’, [wa)dhum] ‘on their
+(MASC) own’, [dawwarthum] ‘I looked for them (MASC)’). Final -CCC
+clusters occur in many Yemeni CV dialects, including the dialects of Ibbi
+and San‘ani, when the negative suﬃx /-S/ is aﬃxed to the 1st singular or
+2nd masculine singular form of the perfect verb (e.g. San‘ani [maa SiribtS]
+‘I/you (MASC SG) didn’t drink ’, [ma bsartS] ‘I/you (MASC SG) didn’t see ’;
+Watson 1999 ; Ibbi [ma bsvarkS] ‘you (MASC SG) didn’t see ’; Watson, in
+press).
+   Libyan Tripoli appears to be a VC dialect, insofar as it has restrictions
+on medial and ﬁnal consonant clusters (see w3.2.3 below); however, con-
+catenation of a CVCC noun with a consonant-initial suﬃx does not result
+in epenthesis, but in the surfacing of non-ﬁnal CVCC syllables and hence
+medial CCC clusters. Thus, /xubz-na/ is realised as [xubzna] ‘ our bread’,
+/bint-na/ as [bintna] ‘our daughter’ (Christophe Pereira, personal com-
+munication) ; cf. [k”ebtlek] ‘I wrote to you (MASC SG) ’ and [kelbkem] ‘your
+(MASC PL) dog ’ (Yoda 2005: 124, 120).
+
+3.2.3 CV characteristics shared by some VC dialects. -CC clusters are not
+restricted to cases of falling sonority in Libyan Tripoli : alongside [t@lJ]
+‘snow’ and [k@lb] ‘dog ’, there are clusters involving both equal sonority,
+as in [xubz] ‘bread ’, and rising sonority, as in [batvn] ‘ belly ’. Clusters
+are not permitted when the leftmost consonant is a guttural, nor in cases
+of rising sonority when plain consonants share a place of articulation, as
+in [wud@n] ‘ear’. According to Christophe Pereira (personal communi-
+cation), all permissible clusters may be broken up by epenthesis, thus
+[ma-tk@ll@mt-@S] or [ma-tk@ll@mt-S] ‘I didn’t speak ’; [xub@z] or [xubz]
+‘bread ’. The use of epenthesised and non-epenthesised forms are not
+social or geographical variants, although they may well be stylistic
+variants ; both may be used by one and the same speaker.
+   Desonorisation of word-ﬁnal -VCR and -VVR in utterance-ﬁnal
+position, characteristically also involving glottalisation, ‘seems to be a trait
+of CV dialects’ (Kiparsky 2003: 161). A feature of Central Yemeni dialects
+(Goitein 1960, Behnstedt 1985, Werbeck 2001 for Manaaxa) and dialects
+of the southwestern Saudi Asir (Yahya Asiri, personal communication),
+varying degrees of utterance-ﬁnal desonorisation/glottalisation are attested
+throughout the region. It is also attested in several dialects in Egypt
+(Behnstedt & Woidich 1985: maps 41–43). For dialects in Yemen and
+Egypt, Kiparsky suggests that epenthesis and desonorisation are in
+complementary distribution. While some CV dialects are marked by
+pausal desonorisation (e.g. /samn/ [sam?n] ‘ghee ’), VC dialects in the areas
+are marked by the breaking up of ﬁnal -CC clusters (e.g. /samn/ [samin]
+‘ghee ’). The distribution can be understood if desonorisation is taken to
+be a process that applies to non-moraic consonants. Thus, it fails to apply
+in VC dialects because the ﬁnal consonant is prosodically licensed as a
+semisyllable, hence moraic, more sonorous than a non-moraic C and
+more likely to be pre-epenthesised : the non-moraicity of the ﬁnal -C in
+CV dialects, by contrast, makes it a viable candidate for desonorisation.
+346 Janet C. E. Watson
+(7) a. VC dialects                        b. CV dialects
+                  w                                     w
+
+                       F                                     F
+
+                       s                                     s
+
+                   m       m   m                         m       m
+
+        s          a       m   n              s          a       m <n>
+
+Kiparsky’s reasoning here is attractive. However, although pausal glottali-
+sation/desonorisation is most common and most salient in CV dialects, it
+is not exclusively a CV feature, it is not attested in all CV dialects, it is not
+restricted to ﬁnal superheavy syllables, and desonorisation is not restricted
+to ﬁnal consonants.6 The phenomenon may indeed by better viewed as
+restricted to certain areas of the Arab world :7 several VC dialects in Egypt,
+Yemen and southeastern Turkey, as well as the group 3 Sudanese dialects,
+exhibit at least limited pausal glottalisation and/or desonorisation. These
+include the Egyptian Eastern Sharqiyya dialect of il-‘Aw¿m}a, which, in
+common with a number of Middle Egyptian CV dialects (Behnstedt &
+Woidich 1985 : map 43), glottalises /?/ in pause (/Jaa?/ [Jaa?)] ‘he became
+hungry ’ and /riJi?/ [riJE?)] ‘he returned’ ; Woidich 1979: 77). In
+common with the CV dialects of Cairo (Woidich 1980, 2006, Watson
+2002) and the group 3 Sudanese dialects (Mustapha 1982, Reichmuth
+1983),8,9 the VC dialects of Anatolia (Arnold 1998), Kinderib (Jastrow
+2003)10 and the Çukurova dialects of Adana, Mersin and Tarsus devoice
+
+
+6 Recent acoustic research on pausal forms in San‘ani Arabic has shown that glot-
+   talisation may aﬀect any ﬁnal syllable – including CVV, where it manifests itself
+   most commonly as creaky voice followed by glottal closure – as long as the utterance
+   in which it falls receives sentence stress (/marag/ [marak?] ‘ broth ’, /arba?/ [arba?)]
+   ‘ four ’, /baraagutv/ [baraagutv?] ‘ lumps ’) (Watson 2004). Pausal glottalisation in
+   Manaaxa manifests itself similarly. Examples provided by Werbeck (2001: 36–37)
+   include [maGrib?] ‘East ’, [haaDa?] ‘ this (MASC)’, [haanaak?] ‘ there ’.
+ 7 The possibility of areally restricted pausal devoicing is implied in Kiparsky’s note
+   12, which refers to ‘ Turkish-style ﬁnal devoicing ’ in Anatolian and other Northern
+   dialects of Arabic.
+ 8 According to Reichmuth (1983 : 25), /l r m n/ are desonorised after /VV/. However,
+   his data shows all voiced consonants to be devoiced in pause, irrespective of the
+   weight of the preceding vowel (1983: 39f).
+ 9 Kiparsky’s note 12 claims Sudanese Arabic to have ﬁnal glottalisation. According to
+   Michael Redford (personal communication), however, the dialect of Omdurman
+   has ﬁnal devoicing. For Central Urban Sudanese, this is conﬁrmed by James
+   Dickins (personal communication) and Mustapha (1982).
+10 In Kinderib, with the exception of the voiced pharyngeal approximant /?/ and the
+   liquids, all voiced consonants are devoiced (Jastrow 2003 : 5).
+                              Syllabiﬁcation patterns in Arabic dialects 347
+ﬁnal consonants in pause (e.g. Çukurova /Garb/ [Garp] ‘west ’, /ardv/ [artv]
+‘earth’, /bala?/ [bala)] ‘he swallowed’; Procházka 2002: (63).11
+   As an areal feature, pausal desonorisation could be accommodated by
+strict interpretation of the undominated FINALC constraint, expressed as
+NOFINALCM – ﬁnal consonants are not only weightless, they may also not
+be linked to a mora directly associated with the word node.
+
+3.2.4 VC characteristics shared by some CV dialects. The dialect of
+Mecca, clearly a CV dialect from its epenthesis patterns (e.g. /katabt-ha/
+[katabtaha] ‘I/you (MASC SG) wrote it (FEM)’, /Jamb-na/ [Jambana]
+‘beside us ’; Ingham 1971), does not allow -CC clusters with rising son-
+ority. Epenthesis splits -CC when the ﬁnal consonant is /m n r l G/, unless,
+according to Ingham (1971 : 282), the sequence is [-lm] (e.g. [)ilm]
+‘dream’). Examples from Ingham (1971) include [tamur] ‘ dates’ vs.
+[tamru] ‘his dates’, and [?ibin] ‘ son ’ vs. [?ibnu] ‘his son ’.
+   In fast speech, phrase-initial onset CC-clustering is attested in a num-
+ber of northern and southern Yemeni CV dialects. Examples from
+Yaaﬁ‘i include [dri hu] ‘not knowing ’, [jGuul] ‘he says ’ (Vanhove 2004) ;
+from al-Hudaida [rkEb] ‘ he rode ’, [fta) ?eenak] ‘ open your (MASC SG)
+eyes! ’, [ftaJa?] ‘he was afraid ’ (Rossi 1938) ; from San‘ani [wlaadaat]
+‘births ’, [mGannijaat] ‘singers ’ (Naı̈m-Sanbar 1994), [mrih] ‘woman ’;
+initial clustering is particularly common in this dialect where the right-
+most consonant is /h/, and/or a sibilant is involved, as in [Shiidajn] ‘the
+two martyrs’, [Shirajn] ‘two months’, [Staa] ‘winter ’, [bSaaS] ‘ with a cloth ’
+(Watson 2002).12 In San‘ani, syncope can also result in initial geminates,
+as in /mumawwaJ/ [mmawwaJ] ‘ waved’.
+   High vowel deletion, resulting in partial degemination, takes place after
+geminate Cs in form II verbs in al-Hudaida – [jitowwruh] ‘ they boil it ’
+(Rossi 1938 : 464), and in San‘ani – /Gallig-ii/ [Gal(l)gii] ‘lock (FEM SG) ! ’,
+/jilabbis-uu/ [jilab(b)suu] ‘they (MASC) put on ’, /jitvalli?-uu/ [jitval(l)?uu]
+‘they (MASC) go up ’, /jigajjil-uu/ [jgaj(j)luu] ‘they take part in a gat chew’
+(Naı̈m-Sanbar 1994, Watson 1999, 2002). High vowel deletion after
+geminate Cs is not restricted to cases of suﬃxation in San‘ani : it also
+occurs when a non-suﬃxed verb is followed by a vowel-initial word, as in
+/nisawwig/>[nisaw(w)g al-)ammaam] ‘ we mop the bathroom ﬂoor ’ and
+/nimassi)/>[nimas(s)) ad-dajmih] ‘we wipe the kitchen’.13
+
+11 Behnstedt (1987 : 141) gives examples of glottalisation in in-NaDhiir (e.g. /mooz/>
+   [moo?s] ‘ bananas ’). However, recent research has shown that glottalisation in in-
+   NaDhiir has a syntactic function and is not a feature of utterance-ﬁnality : ﬁnal
+   glottalisation indicates indeﬁniteness contrasting with ﬁnal aspiration, which in-
+   dicates deﬁniteness (Watson et al. 2006). Devoicing can also not be ascribed to
+   utterance-ﬁnality, since devoicing (in this language) is a necessary accompaniment
+   to both glottalisation and aspiration.
+12 CC- clusters apparently do not occur in either of the group 3 dialects investigated
+   here (Mustapha 1982, Reichmuth 1983, James Dickins, personal communication).
+13 High vowel deletion after geminate Cs does not occur in the group 3 dialects
+   (Mustapha 1982, Reichmuth 1983, James Dickins, personal communication).
+348 Janet C. E. Watson
+   Table Ia, given at the beginning of this section, shows Cairene to be
+the only dialect investigated here which exhibits all eight of the predicted
+CV phenomena considered. The remaining dialects fail to exhibit between
+two and six of the eight phenomena. VC dialects exhibit Kiparsky’s pre-
+dicted phenomena more completely than CV dialects ; however, Table Ib
+shows only the Levant dialects of Haifa and Ras-Beyrouth to exhibit
+all phenomena predicted of VC dialects. The remaining dialects fail to
+exhibit between one (il-‘Aw¿m}a) and three (Libyan Tripoli and
+Çukurova) of the eight phenomena.
+
+
+4 Mora sharing
+Of the dialects that fail to fully conform to the characteristic phenomena
+of Kiparsky’s dialect types, the most signiﬁcant are Central Sudanese,
+Shukriyya and San‘ani. Central Sudanese and Shukriyya are worth
+excluding at this point. Central Sudan is a plain to which hundreds of
+diﬀerent tribes congregated, resulting in dialect convergence which lead
+to colliding linguistic systems. Of the alternants [’kalbana] and [ka’libna]
+‘ our dog ’, [’kalbana] is now felt to be more prestigious and is apparently
+the more recent, at least in urban centres (James Dickins, personal com-
+munication) ; it may have originated through analogy to forms such as
+[)aggana] ‘ours ’ and [bittana] ‘our daughter’, and may be due in part from
+mimicking the more prestigious Cairene Arabic [kal’bina] while main-
+taining the vowel and stress pattern that already existed for Sudanese.
+   Of the three dialect types drawn up by Kiparsky, the summary tables
+indicate both that it is apparent CV dialects that diverge most from the
+semisyllable analysis, and, if fast-speech phenomena are excluded, that
+most divergent phenomena are those that involve long segments.
+Apparently conﬂicting phenomena exhibited by what otherwise appear
+to be CV dialects are: medial CVVC syllables (San‘ani, al-Hudaida,
+Yaaﬁ‘i, Yariimi, Ibbi, Middle Egyptian, Meccan), ﬁnal CVCCC and
+CVVCC syllables (San‘ani, Ibbi), syncope in CVCiCiVC+V (San‘ani, al-
+Hudaida), and, in fast speech, medial -CCC- and initial consonant clusters
+(San‘ani, al-Hudaida, Yariimi, Yaaﬁ‘i). These dialects, I believe, form an
+intermediate class, falling between C dialects and CV dialects due to the
+relative dominance of the constraint REDUCE. I propose to name dialects
+falling into this type Cv dialects, distinguished from CV dialects by the
+lower case ‘ v’.
+   As a ﬁrst stage in analysing these phenomena in Cv dialects, it is
+necessary to recognise the prosodic diﬀerence between CVVC syllables
+and CVCC syllables. Even in the most obediently CV dialect, Cairene,
+CVVC appears in positions where CVCC is not permitted, as in [kaan
+jiktib risaala] ‘ he was writing a letter’ vs. /bint kibiira/ [binti kbiira]
+‘ a big girl ’ (Selkirk 1981, Watson 2002 : 71, 108). In Classical Arabic,
+CVVC, but not CVCC, syllables may occur at the end of a poetic line,
+and therefore participate in rhyme (Bohas 1975). These diﬀerences are
+                              Syllabiﬁcation patterns in Arabic dialects 349
+also upheld in VC dialects: as seen above, VC dialects allow medial
+CVVC, whereas medial CVCC is broken up postlexically to CVCiC, e.g.
+Haifa [waa)di] ‘one (FEM) ’ vs. /xubz-na/ [xubizna] ‘our bread’. For VC
+dialects, a claim that the ﬁnal C of CVVC is licensed lexically as a semi-
+syllable, but not postlexically, fails: on the basis of postlexical promotion
+of LICENSE(m), medial CVVC syllables should not surface in VC dialects.
+In the tableaux in (8), the shortened form *[babha] ‘her door’ is in-
+correctly predicted to be the realised form.
+(8) a. VC dialects: word level
+         [(baa)b]-ha        Reduce Max(m) Dep(m) License(m)
+        ™ i. (‘baa)bM.ha      **                     *
+          ii. (bab).ha        **    *!
+         iii. (‘baa).(bi.ha) ***!           *
+   b. VC dialects: postlexical level
+                                License(m) Reduce Max(m) Dep(m)
+             i. (‘baa)bM.ha          *!     **
+        ™ ii. (bab).ha                      **      *
+          iii. (‘baa).(bi.ha)              ***!            *
+
+I propose that medial CVVC syllables in VC dialects and the intermediate
+Cv dialects be accounted for an analysis that recognises an intermediate
+status for the mora – not an unlicensed mora, but rather a mora that
+dominates two constituents. Formulated as Adjunction-to-Mora, this was
+ﬁrst proposed to account for word-internal CVVC syllables in Arabic
+dialects by Broselow (1992) and Broselow et al. (1995, 1997), drawing
+on the degenerate syllable analysis put forward earlier for Egyptian,
+Lebanese and Iraqi by Aoun (1979) and Selkirk (1981). It also draws on
+analyses of half-long vowels in certain Bantu languages, such as
+Maddieson’s (1993) and Maddieson & Ladefoged’s (1993 : 276–277)
+‘heteromoraic’ and heterosyllabic analysis of the nasal portion of pre-
+nasalised stops in Sukuma, and Hubbard’s (1995) multiple linking of a
+weak mora to V and C in Runyambo; and, more recently, on Frazier’s
+(2005) analysis of vowel length in mono- and dimorphemic monosyllabic
+words in American English.
+   Adjunction-to-Mora was formulated by Broselow as a rule creating
+moras dominating two segments (Broselow 1992 : 14–15) :
+
+(9) Adjunction-to-Mora
+    s        s      s
+
+    m    m          £     m      m
+
+   V           C          V      C
+350 Janet C. E. Watson
+Adjunction-to-Mora adjoins a consonant to the mora of a preceding
+vowel. Thus the CVVC syllable in San ’ani /kitaab-na/ [kitaabnaa] ‘ our
+book ’ results from the consonant /b/ sharing the rightmost mora of
+the long vowel /aa/. On the basis that ‘ subsyllabic constituents whose
+elements are widely separated along the sonority scale are less marked than
+constituents with closer sonority distance ’ (Broselow 1992: 15), a syllable-
+ﬁnal mora is more likely to dominate VC than CC (or VV), because of
+the greater sonority distance between V and C. This accounts for the
+propensity of medial CVVC syllables in dialects – VC dialects and Cv
+dialects – which do not normally permit the surfacing of medial CVCC
+syllables. In OT terms, Adjunction-to-Mora is expressed as the violable
+constraint NOSHAREDMORA (10).
+
+(10) NoSharedMora
+     Moras should be linked to single segments (Broselow et al. 1997: 65).
+     Assign a * for each segment (beyond one) attached to a mora (if a mora
+     is attached to n segments, the number of violation marks=n—1) (Frazier
+     2005).
+
+In all dialects, SYLLBIN, which requires syllables not to exceed two moras,
+is undominated ; however, the way in which trimoraic syllables are avoi-
+ded diﬀers between dialect types. In Cv and VC dialects, NOSHAREDMORA
+is ranked low both at lexical and postlexical levels; in true CV dialects,
+such as Cairene, NOSHAREDMORA is ranked high.
+
+(11) a. Cv/VC dialects
+           [(baa)b]-ha          SyllBin Max(m) Dep(m) NoSharedMora
+                 mm
+        ™ i. (‘baab).ha                                      *
+                mmm
+            ii. (baab).ha         *!               *
+           iii. (bab).ha                 *!
+           iv. (‘baa).(bi.ha)                      *!
+     b. CV dialects (Cairo type)
+           [(baa)b]-ha          SyllBin NoSharedMora Dep(m) Max(m)
+                 mm
+            i. (‘baab).ha                     *!
+                mmm
+           ii. (baab).ha          *!                    *
+        ™ iii. (bab).ha                                          *
+          iv. (‘baa).(bi.ha)                            *!
+
+Mora sharing also accounts for ﬁnal CVVCC syllables in Cv dialects, such
+as San‘ani [maa kaanS] ‘he was not ’, [maa gaalS] ‘he didn’t say’. The ﬁnal
+                           Syllabiﬁcation patterns in Arabic dialects 351
+consonant is extrasyllabic word-ﬁnally, because the undominated con-
+straint FINALC forces ﬁnal consonants to be weightless (Kiparsky 2003 :
+157). Adjunction-to-Mora links the second part of the long vowel and the
+pre-ﬁnal consonant:
+
+(12)       s              (s)
+
+           m    m
+
+       g   a          l <S>
+
+In common with VC dialects, San‘ani and Hudaidi allow not only medial
+CVVC, but also Vowel Deletion after geminates within the phonological
+word, as in : [nimas(s)) al-)ammaam] ‘we wipe the bathroom’ vs.
+[nimassi)] ‘ we wipe’ and [jitval(l)?u] ‘they (MASC) take (something) up ’
+vs. [jitvalli?] ‘he takes (something) up ’ and Hudaidi [jitowwruh] ‘ they boil
+it ’.14 In contrast to C dialects, however, they do not allow syncope which
+would result in non-geminate clusters: thus *[jiktbu]</jiktibu/, indicat-
+ing that geminate consonants are evaluated diﬀerently from non-geminate
+consonant clusters. The diﬀerence between geminates and non-geminate
+consonant clusters is this – unlike non-geminate consonant clusters,
+geminates, in common with long vowels, can be reduced by degrees, still
+maintaining a distinction with simplex consonants.15 In certain Arabic
+dialects, geminates, unlike non-geminate consonants, also pattern pho-
+nologically with long vowels: thus, in San‘ani, medial syllables ending
+in the left leg of a geminate behave like medial CVV syllables, and not
+like medial CVC syllables, with respect to stress (Watson 2002: 103ﬀ).
+In Classical Arabic, medial CVVC syllables are only attested when the
+rightmost C is the left leg of a geminate, as in [dvaalluun] ‘lost (MASC PL) ’
+(Wright 1975: 26) and in the form XI verb pattern [if?aalla] (Wright
+1975: 29).
+    Thus, in some Cv dialects, and possibly also in VC dialects where
+the geminate is not reduced postlexically to the length of a simplex con-
+sonant (as in Upper Egypt ; cf. Nishio 1994 : 41, cited in Kiparsky 2003 :
+150), long consonants share a mora with a preceding vowel, just as long
+
+
+
+
+14 The presence of forms such as /tvalla?-uu/ [tval(l)?uu] and /labbas-uu/ [lab(b)suu]
+   demonstrates that deletion is not restricted to high vowels.
+      The phonological word includes a following deﬁnite article in Arabic (Watson
+   2002).
+15 Cf. also Kiparsky (2003: 173) : ‘ syncope is allowed for more readily after geminates
+   than after other CC clusters, for shortening of long vowels and of geminates is a way
+   of accommodating to the syllable structure without incurring a melodic MAX-
+   violation. ’
+352 Janet C. E. Watson
+vowels share a mora with a following consonant. This is represented
+in (13) :
+
+(13) Adjunction-to-Mora (C-V)
+     s        s      s
+
+     m   m        £    m   m
+
+     V   C    V        V   C
+The notion of a doubly linked consonant sharing a mora with a preceding
+vowel has reputable precursors. This reﬂects Maddieson’s (1993) ‘ semi-
+geminates ’ (consonants that are longer than simplex consonants but
+shorter than geminate consonants), Hubbard’s (1995) analysis of the nasal
+element of prenasalised consonants in Runyambo, and Broselow et al.’s
+(1997) analysis of geminated in Malayalam, viz.:
+
+(14) s        s
+
+     m        m
+
+     V   C    V
+The diﬀerence between mora sharing in the Arabic case and that in
+Runyambo (Hubbard 1995 : 251), Sukuma (Maddieson & Ladefoged
+1993 : 277) and Malayalam (Broselow et al. 1997 : 69) is that the geminate
+in Arabic is not heterosyllabic : it both shares a mora with the preceding
+vowel and exclusively occupies a mora within the same syllable. The
+derivation of San‘ani [nilab(b)sih] ‘we dress him’ from [nilabbis-ih] takes
+place as below:
+
+(15) Reduce/Adjunction-to-Mora
+        s       s        s     s
+
+         m        m    m   m        m
+
+     n   i    l   a    b   i    s   ih
+
+Mora sharing in the case of long consonants and long vowels (i.e. CVCiCi
+and CVVC syllables) not only reﬂects a phonological relationship between
+long consonants and long vowels, but also a phonetic reality: instrumental
+work in Broselow et al. (1995, 1997) has demonstrated for various dialects
+of Arabic that the long vowel in a CVVC syllable is signiﬁcantly shorter
+than that in a CVV syllable, but longer than the short vowel in a CV or
+CVC syllable ; similarly, the geminate consonant in a CVCiCi syllable is
+longer than a simplex consonant but lacks the duration of a heterosyllabic
+                             Syllabiﬁcation patterns in Arabic dialects 353
+geminate, and the pre-geminate vowel lacks the duration of a full short
+vowel in a CV or CVC syllable.16
+  One additional constraint is needed, however, in order to assign a cost
+to the strategy of degemination employed postlexically in some dialects.
+I provisionally term this constraint LINKFAITH :17
+(16) LinkFaith
+     If the number of syllable positions linked to Si=n, and SiRSo, then
+     the number of syllable positions linked to So=n.
+(17) Cv dialects: word level
+         [jilabbis]-uu       SyllBin Reduce LinkFaith NoSharedMora
+               mm
+      ™ a. (jilabb).suu                                            *
+               mmm
+         b. (jilabb).suu       *!
+         c. (jilab).bi.suu             *!
+         d. (jilab).suu                           *!
+
+In dialects in which postlexical degemination takes place, NOSHARED
+MORA is promoted above LINKFAITH postlexically, to give as optimal the
+degeminated output [jilabsuu] :
+
+(18) Cv dialects: postlexical
+         [jilabb.suu]      SyllBin NoSharedMora LinkFaith
+               mm
+         a. (jilabb).suu                    *!
+               mmm
+         b. (jilabb).suu      *!
+      ™ c. (jilab).suu                                     *
+
+The recognition of mora sharing as a means of avoiding trimoraicity in
+Arabic dialects increases the number of Arabic dialect types from three to
+four:
+(19) a. C dialects
+        Semisyllables permitted at both lexical and postlexical levels.
+     b. Cv dialects
+        Semisyllables not permitted at either lexical or postlexical level.
+        Mora sharing permitted i‰ the syllable rhyme contains a long
+          segment.
+
+16 Cf. work on ‘ compensatory shortening ’ in English by Munhall et al. (1992), which
+   demonstrates both that vowels are shorter before consonant clusters and that codas
+   are shorter after long vowels ; consider also work by Port et al. (1987) on Japanese,
+   which shows that the duration of a word depends on the number of moras and that
+   where vowels are longer, consonants are compensatorily shortened.
+17 In the tableaux below, only immediately relevant constraints are given.
+354 Janet C. E. Watson
+     c. VC dialects
+        Semisyllables permitted lexically but not postlexically.
+        Mora sharing permitted i‰ the syllable rhyme contains a long vowel.
+     d. CV dialects
+        Semisyllables not permitted at either lexical or postlexical level.
+        Mora sharing permitted word-ﬁnally i‰ the syllable rhyme contains
+          a long vowel.
+
+Not all Arabic dialects necessarily ﬁt into these four dialect types.
+Evidence from Libyan Tripoli suggests that just as San‘ani-type dialects
+form an intermediate type between C and CV dialects, so Libyan Tripoli-
+type dialects may form an intermediate type between C and VC dialects.
+There are close historical and geographical links between the C dialect
+areas and Libya, just as there are close historical links between the C
+dialect areas and Yemen. These links are reﬂected in shared lexical items
+(Behnstedt & Woidich 2005: 28–33), and it should be no surprise if they
+are also reﬂected in the phonology.
+   The present study, which has considered new dialect data and re-
+examined previously discussed data, shows that Kiparsky’s semisyllable
+analysis accounts for most but not all characteristic syllabic diﬀerences
+between Arabic dialect types. I provisionally propose that one character-
+istic, ﬁnal glottalisation/devoicing, be excluded from the analysis as an
+areal rather than a syllabiﬁcation phenomenon, and perhaps accounted
+for by an undominated areal constraint NOFINALCm. Apparently deviant
+CV dialects are not in fact members of the CV type, but rather fall into
+a separate Cv syllabiﬁcation type, aﬀording a special status to long con-
+sonants and/or vowels. The revised analysis accepts the superiority of
+stratiﬁed constraint systems over systems in which constraints are evalu-
+ated in parallel, but diﬀers from Kiparsky (2003) in formally acknowl-
+edging the prosodic diﬀerence between CVVC/CVCiCi syllables and
+CVCC syllables. The result is a three-way, as opposed to a two-way,
+bifurcation of mora-licensing, applicable at both the lexical and the post-
+lexical levels. Moras may be unlicensed, moras may be shared by two
+segments, or moras must be licensed and cannot be shared.
+
+REFERENCES
+
+Aoun, Yosef (1979). Is the syllable or the supersyllable a constituent ? MIT Working
+  Papers in Linguistics 1. 140–148.
+Arnold, Werner (1998). Die arabischen Dialekte Antiochiens. Wiesbaden :
+  Harrassowitz.
+Behnstedt, Peter (1979). Die nordmittelägyptische buka}a-Dialekte. Zeitschrift für
+  Arabische Linguistik 3. 62–95.
+Behnstedt, Peter (1985). Die nordjemenitischen Dialekte. Vol. 1: Atlas. Wiesbaden :
+  Reichert.
+Behnstedt, Peter (1987). Die Dialekte der Gegend von Xa‘dah (Nord-Jemen).
+  Wiesbaden : Harrassowitz.
+                                 Syllabiﬁcation patterns in Arabic dialects 355
+Behnstedt, Peter & Manfred Woidich (1985). Die ägyptisch-aradischen Dialekte. 2 vols.
+   Wiesbaden : Reichert.
+Behnstedt, Peter & Manfred Woidich (2005). Aradische Dialektgeographie : eine
+   Einführung. Leiden : Brill.
+Bohas, Georges (1975). Métrique Arabe classique et moderne. Thèse de 3ème cycle,
+   Paris VIII.
+Broselow, Ellen (1992). Parametric variation in Arabic dialect phonology. In Ellen
+   Broselow, Mushira Eid & John J. McCarthy (eds.) Perspectives on Arabic linguistics
+   IV. Amsterdam & Philadelphia : Benjamins. 7–45.
+Broselow, Ellen, Marie Huﬀman, Su-I Chen & Ruohmei Hsieh (1995). The timing
+   structure of CVVC syllables. In Mushira Eid (ed.) Perspectives on Arabic linguistics
+   VII. Amsterdam & Philadelphia : Benjamins. 119–138.
+Broselow, Ellen, Su-I Chen & Marie Huﬀman (1997). Syllable weight : convergence
+   of phonology and phonetics. Phonology 14. 47–82.
+Dickins, James (in preparation). A reference grammar of Sudanese Arabic. Wiesbaden :
+   Harrassowitz.
+Diem, Werner (1973). Skizzen jemenitischer Dialekte. Beirut : Steiner.
+Farwaneh, Samira (1995). Directionality eﬀects in Arabic dialect syllable structure.
+   PhD dissertation, University of Utah.
+Fischer, Wolfdietrich & Otto Jastrow (eds.) (1980). Handbuch der arabischen Dialekte.
+   Wiesbaden : Harrassowitz.
+Frazier, Melissa (2005). Output–output faithfulness to moraic structure : new evidence
+   from an American English phenomenon. Paper presented at the 36th Meeting of
+   the North East Linguistic Society, University of Massachusetts, Amherst.
+Goitein, S. D. (1960). The language of al-gades : the main characteristics of an Arabic
+   dialect spoken in Lower Yemen. Le Muséon 73. 351–394.
+Greenman, Joseph (1979). A sketch of the Arabic dialect of the Central Yamani
+   Tih¿mah. Zeitschrift für Arabische Linguistik 3. 47–61.
+Hubbard, Kathleen (1995). ‘ Prenasalised consonants ’ and syllable timing : evidence
+   from Runyambo and Luganda. Phonology 12. 235–256.
+Ingham, Bruce (1971). Some characteristics of Meccan speech. Bulletin of the School
+   of Oriental and African Studies 34. 273–297.
+Itô, Junko (1986). Syllable theory in prosodic phonology. PhD dissertation, University
+   of Massachusetts, Amherst.
+Itô, Junko (1989). A prosodic theory of epenthesis. NLLT 7. 217–259.
+Itô, Junko & Armin Mester (1992). Weak layering and word binarity. Report
+   LRC-92-09, Linguistic Research Center, University of California, Santa Cruz.
+Jastrow, Otto (1980). Das mesopotamische Arabisch. In Fischer & Jastrow (1980).
+   140–173.
+Jastrow, Otto (2003). Arabische Texte aus Kinderib. Wiesbaden : Harrassowitz.
+Kiparsky, Paul (2003). Syllables and moras in Arabic. In Caroline Féry & Ruben
+   van de Vijver (eds.) The syllable in Optimality Theory. Cambridge : Cambridge
+   University Press. 147–182.
+Maddieson, Ian (1993). Splitting the mora. UCLA Working Papers in Phonetics 83.
+   9–18.
+Maddieson, Ian & Peter Ladefoged (1993). Phonetics of partially nasal consonants. In
+   Marie K. Huﬀman & Rena A. Krakow (eds.) Nasals, nasalization, and the velum.
+   San Diego : Academic Press. 251–301.
+Mester, Armin & Jaye Padgett (1994). Directional syllabiﬁcation in Generalized
+   Alignment. In Jason Merchant, Jaye Padgett & Rachel Walker (eds.) Phonology
+   at Santa Cruz 3. Santa Cruz : Linguistics Research Center. 79–85.
+Munhall, Kevin, Carol Fowler, Sarah Hawkins & Elliot Saltzman (1992).
+   ‘ Compensatory shortening ’ in monosyllables of spoken English. JPh 20. 225–239.
+356 Janet C. E. Watson
+Mustapha, Abdel Rahman (1982). Phonologie de l’Arabe Soudanais. PhD dissertation,
+  Université de la Sorbonne Nouvelle.
+Naı̈m-Sanbar, Samia (1994). Contribution à l ’étude de l’accent yéménite: le parler des
+  femmes de l’ancienne génération. Zeitschrift für Arabische Linguistik 27. 67–89.
+Nespor, Marina & Irene Vogel (1986). Prosodic phonology. Dordrecht : Foris.
+Nishio, Tetsuo (1994). The Arabic dialect of Qif_ (Upper Egypt): grammar and classi-
+  ﬁed vocabulary. Tokyo : Institute for the Study of Languages and Cultures of Asia
+  and Africa.
+Port, Robert F., Jonathan Dalby & Michael O’Dell (1987). Evidence for mora timing
+  in Japanese. JASA 81. 1574–1585.
+Procházka, Stephan (2002). Die arabischen Dialekte der Çukurova (Südtürkei).
+  Wiesbaden : Harrassowitz.
+Reichmuth, Stefan (1983). Der arabische Dialekt der Tukriyya im Ostsudan.
+  Hildesheim : Olms.
+Rossi, Ettori (1938). Nuove osservazioni sui dialetti del Yemen. Rivista degli Studi
+  Orientali 17. 460–472.
+Selkirk, Elisabeth (1981). Epenthesis and degenerate syllables in Cairene Arabic.
+  In Hagit Borer & Yosef Aoun (eds.) Theoretical issues in the grammar of Semitic
+  languages. Cambridge, Mass. : MIT. 111–140.
+Vanhove, Martine (2004). Deixis et focalisation : la particule ta en arabe de
+  Yaﬁ‘ (Yémen). In Martine Haak, Rudolf de Jong & Kees Versteegh (eds.)
+  Approaches to Arabic dialects : a collection of articles presented to Manfred Woidich on
+  the occasion of his sixtieth birthday. Leiden: Brill. 329–342.
+Vogel, Irene (1999). Subminimal constituents in prosodic phonology. In S. J.
+  Hannahs & Mike Davenport (eds.) Issues in phonological structure. Amsterdam &
+  Philadelphia : Benjamins. 249–267.
+Watson, Janet C. E. (1999). The syllable and syllabiﬁcation in Modern Spoken
+  Arabic (Xan‘ani and Cairene). In Harry van der Hulst & Nancy A. Ritter (eds.) The
+  syllable : views and facts. Berlin & New York: Mouton de Gruyter. 501–525.
+Watson, Janet C. E. (2002). The phonology and morphology of Arabic. Oxford : Oxford
+  University Press.
+Watson, Janet C. E. (2004). To what extent does the language of Yemeni radio plays
+  reﬂect language levelling in the community ? Paper delivered at The evolution
+  of Arabic urban vernaculars : the eﬀects of migration and social changes, Aix-
+  en-Provence.
+Watson, Janet C. E. (in press). Ein Märchen im arabischen Dialekt von Ibb. Zeitschrift
+  für Arabische Linguistik.
+Watson, Janet C. E., Bonnie Glover Stalls, Khalid al-Razihi & Shelagh Weir (2006).
+  The language of Jabal R¿zi‡ : Arabic or something else ? Proceedings of the Seminar
+  for Arabian Studies 36. 35–41.
+Werbeck, Wolfgang (2001). Laut- und Formenlehre des nordjemenitisch-arabischen
+  Dialekts von Man9Ha. Münster : Rhema.
+Woidich, Manfred (1979). Zum Dialekt von il-‘ Aw¿m}a in der östlichen Warqiyya
+  (Ägypten). Part 1 : Einleitung, grammatische Skizze und Volkskundliches.
+  Zeitschrift für Arabische Linguistik 2. 76–99.
+Woidich, Manfred (1980). Das Ägyptisch-Arabische. In Fischer & Jastrow (1980).
+  207–242.
+Woidich, Manfred (2006). Das Kairenisch-Arabische : eine Grammatik. Wiesbaden :
+  Harrassowitz.
+Wright, W. (1975). A grammar of the Arabic language. Cambridge : Cambridge
+  University Press.
+Yoda, Sumikazu (2005). The Arabic dialect of the Jews of Tripoli (Libya). Wiesbaden :
+  Harrassowitz.
+

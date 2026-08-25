@@ -1,0 +1,1083 @@
+KANSAS WORKING PAPERS
+         IN
+      LINGUISTICS
+                             edited by
+
+                       Osama Abdel-Ghafer
+                  Brad Montgomery-Anderson
+                 Maria del Carmen Parafita Couto
+
+
+
+
+                         Volume 27
+                           2004
+
+
+
+
+         Partial funding for this journal is provided by the
+ Graduate and Professional Association of the University of Kansas.
+
+
+
+
+                         ISSN 1043-3805
+
+
+            ©Linguistics Graduate Student Association
+                  University of Kansas, 2004
+
+
+
+
+         Cover Design by Nathan Poell and Stacey Stowers
+AN OT APPROACH TO LOANWORD ADAPTATION IN CAIRENE
+                  ARABIC
+
+
+
+                          Mohamed Galal
+                      The University of Kansas
+
+         Abstract: Cairene Arabic (CA) elects epenthesis as a strategy for
+         adapting loanwords. This paper tackles the reasons why this occurs
+         as well as the different aspects of vowel epenthesis within the
+         framework of Optimality Theory (OT)(McCarthy and Prince,
+         1993;Prince and Smolensky, 1993) and the relevant literature. This
+         research specifically focuses on loanwords introduced into CA
+         from English. It is shown that OT neatly accounts for vowel
+         epenthesis in loanwords in CA, proving that the attested optimal
+         forms are the result of the conflict between faithfulness and
+         markedness. It is also proven that loanwords are modified
+         according to the productive phonological processes of CA i.e. LI
+         constraints. The special case of s+obstruent blocking effect is
+         discussed universally and with special reference to CA.
+
+  1 Introduction
+       There has always been an interest in the different phonological processes
+  involved in adapting loanwords to transform into well-formed words in the
+  borrowing language. Deletion, epenthesis and suprasegemental changes are
+  among the processes that occur in this phonological phenomenon. These
+  strategies were called repairs (Paradis and La Charite 1997) due to their
+  transforming effects. Languages opt for one repair strategy or another depending
+  on various phonological reasons. Cairene Arabic (CA) elects epenthesis as a
+  strategy for adapting loanwords. The reasons why this occurs and the different
+  aspects of epenthesis as a loanword repair strategy are dealt with in this paper
+  within the framework of Optimality Theory (OT) initiated by McCarthy and
+  Prince (1993) and Prince and Smolensky (1993). Loanwords introduced into
+  Arabic from English are the focus of the research.
+
+      This paper accounts, within the framework of OT, for the adaptation of
+  loanwords introduced into Cairene Arabic (CA) from English in terms of vowel
+  epenthesis. In particular, three main points are analyzed.
+  (1)         a. The constraints responsible for vowel epenthesis in general, i.e.
+             epenthesis vs. deletion as a strategy opted for by CA;
+             b. The determinants of the position of epenthetic vowel in terms of OT
+             constraints;
+2
+
+
+
+
+           c. The factors Accounting for the quality of the epenthetic vowels,
+              particularly why some vowels are selected for the purpose of
+              epenthesis rather than others.
+
+          This work shows that OT neatly accounts for loanword adaptation strategies
+    in terms of vowel epenthesis employed by CA, proving that the attested optimal
+    forms are the result of this conflict between faithfulness and maikedness, thus
+    lending further evidence to the validity of the universality of this dichotomy
+    proposed by the theory. The fact that all constraints interact by ranking in one
+    way or another is an indication of the capacity of the theory to achieve functional
+    unity. One more reason to motivate this study is that, to my knowledge, no
+    previous studies have been done on loanword adaptation in Cairene Arabic (CA).
+
+         The organization of the paper goes as follows. Two main sections are
+    provided: a data section and an analysis section. The data section presents the
+    actual items under study, describes them and abstracts some generalizations. The
+    analysis section analyzes the data and motivates the constraints for vocalic
+    epenthesis in terms of three main points mentioned above.
+
+    2 Data. Description and Generalization
+
+         The data under study are all from CA (Afro-Asiatic, Semitic). Most of the
+    items are collected from Hinds and Badawy (1986). However, being involved in
+    the process of ESL teaching I added items (f) and (i) in data (2) from my personal
+    communication with native speakers.
+    (2)    Different positions of the epenthetic vowel
+
+               Arabic             English
+               a.firizar          freezer
+               b.biristul         bristol
+               c.birinter         printer
+               d.kirimbilin       Crimplene
+               e.Pistiryu         stereo
+               f.Pisbiit/         speech
+               g.?isbireeh        spray
+               h. bankinut        banknote
+               i.Jarkiskiin       shark skin
+                                  cloth
+               j.bustiman         postman
+                                                                                              3
+
+
+
+
+(3)     Variation in the quality of epenthetic vowel
+
+            Arabic               English
+            a.burujiktur         projector
+            b.rulurusint         florescent
+            c.furuut             fruit
+            d.guruub             group
+            eJcaJatT             clutch
+            f.fiW                flash
+            g.kitesh             clash
+            h.?istaf             staff
+            i.?istuk             stock
+            j.Jistub             stop
+
+
+   The data presented are adapted forms of originally English words used in the
+common speech of the population of Cairo and its adjacent provinces.
+
+     Data (2) includes all cases that show different positions of the epenthetic
+vowel. In (a-d), epenthetic [i] occurs cluster internally (between [fj and [r] in (a),
+[b] and [r] in (b-c), [k] and[r] in 4(d)). In (e-g) the epenthetic vowel takes another
+position and occurs cluster externally (before [st] in (e), and before [sb] in (f-h)).
+So, there are two main positions for the epenthetic vowel, either cluster internally
+or cluster externally. The last three items, (h-j), are cases where CCC cluster
+occurs; the position of the epenthetic vowel is always after the second consonant
+of the cluster: (..nkin..,.. rkis..,..stim.. in bankinut, Jarkiskiin, bustiman
+respectively)
+
+      Data (3) mainly includes the items that show variation in the quality of
+epenthetic vowel. So, in (a-d) the epenthetic vowel is [u]; in (e) it is [a] and in (f-
+j), it is [i]. It is clear from the data in this set that there is a full correspondence in
+quality between the epenthetic vowel (in bold) and the immediately following
+vowel in (a-d) (the epenthetic vowel [u] is a copy of the immediately following
+vowel). In items (f-j) such correspondence is only partial; the case does not
+involve copying, unlike (a-d), though there are similarities between both in terms
+of certain phonological dimensions. (This will be explained in the analysis part).
+
+    If we may make generalization here it is possible to tentatively say that
+epenthesis could be the result of phonotactic constraints ranked differently in CA
+and English. The rules of CA in (4) would help us figure out why epenthesis
+occurs:
+
+(4)     a. No word initial clusters allowed
+4
+
+
+
+
+           b. A maximum of two consonants may occur in word final position.
+           c. A maximum of two consonants may occur word medially
+           d. No initial vowels (except in morphophonemic alternation)
+           e. The canonical syllable type is CV(C).
+
+        In the analysis part we will see that loan words get adapted to fit the
+    phonotactics of syllable structure in CA and that epenthesis is introduced in the
+    language to satisfy constraints on phonotactics and syllable structure in the
+    borrowing language.
+
+         Given the data at hand it could be roughly said that CA seems to show a
+    preference for epenthesis over deletion, so it is predicted that: MAX » DEP'. We
+    can read from the data that complexity of the onset is strictly forbidden so that *
+    COMPLEX°NS is predicted to be at play. The data also has a preference for
+    ONSET. There has to be an onset; where this does not exist, the epenthetic glottal
+    stop [?] is provided" .The glottal stop saves the ONSET constraint in CA. These
+    are just some preliminary observations about the data .The constraints will be
+    explained and defined and their interactions will be illustrated in the following
+    analysis section.
+
+    3 An OT Analysis
+
+          In this part, I will show how constraints work and interact in order to account
+    for the various facts about epenthesis as a strategy in loanword adaptation. Three
+    main issues will be dealt with here: constraints for vowel epenthesis vs. deletion
+    as a strategy opted for by CA; different positions of the epenthetic vowels; the
+    determinants of the quality of epenthetic vowel. Before starting our analysis a
+    note about the choice of input items has to be taken into consideration. I devote
+    the following sub-section to discussing this issue.
+
+     Input
+         It is taken for granted that both Arabic and English have their own sound
+    inventories, as evident from tables 1- 4. It is normal in the process of loanword
+    adaptation involved here to see a mapping of English sounds into their
+    counterparts in Arabic. The vowel inventory in CA, according to Gary and Gamal
+    El-din (1982), includes:
+    (5)     a. short vowels: /i/, high front; /u/ high back rounded; Id
+                   lowback.unrounded
+            b. long vowels (with short counterparts):/!: /, /u: /, k: I.
+            c. long vowels (without short counterparts):/e:/front, -high, -low; /o:/back
+                  round, -high, -low.
+                                                                                                                                                                                    5
+
+
+
+
+As for consonants, all English consonant sounds are included in the Arabic
+inventory except /p/ sound which has only a voiced counterpart in Arabic/b/ (See
+tables I-IV for comparison). However if there is a mismatch between English and
+Arabic sounds, the closest sound in the borrowing language is picked out. The
+word [?istub] (borrowed from English "stop") exemplifies this. The fact that
+Arabic lacks the sound /t> /(assuming that CA got this loanword in its British
+English pronunciation) the phonological system of Arabic picks out /u/ as the
+closest available alternative sound in the inventory in terms of shortness and
+roundness. Because Arabic has no /p/ the available alternative is Ihl. This process
+works systematically for the loanwords. The scope of this study goes beyond this
+one -to- one mapping of sounds between the loaning language and the borrowing
+one. The study will be limited to vowel epenthesis as a strategy for repairing the
+loaned words tofitthe constraints of CA. I will take the words nativized before
+epenthesis occurs to be the input, though it is my belief that sound mutation and
+epenthesis occur simultaneously. Based on the previously mentioned example,
+/stub/ will be taken to be the input for [?istub].
+
+            Place-                                                Dental
+
+
+
+
+                                                                                                                                                     Pharyngeal
+                                                  Interdental
+
+
+
+
+Manner
+
+
+
+
+                                                                                                                                                                          Glottal
+                                                                                               alveolar
+
+
+
+                                                                  Plain       Emphatic
+
+
+                                                                                                                                      Uvular
+I
+                                                                                                          Palatal
+                        Labial
+
+
+
+
+                                            .2"                                                                         Velar
+                                                                                               Post-
+
+
+
+
+                                            3'
+Plosive                                                           t d         T D                                       k                                                 ?
+                                                                                                                                      q
+                        b                                                                                               g
+                                                                                                                        X                            h                    h
+Fricative
+                        f
+                                                  e               s z         S z              ;     j
+                                                                                                                        Y
+
+(Central)
+approximant             w                                                                      r          j
+(Lateral)                                                            1
+approximant
+Nasal                            m
+                                                                                               n
+    Table I Consonant inventory of CA based on (Gary and Gamal -El-din, 1982)
+
+              Place-
+                                                                                    Alveolar
+                                                    Labiodental
+
+
+
+
+Manner
+1
+                                 Bilabial
+
+
+
+
+                                                                                                                            Palato-
+
+                                                                                                                                           Palatal
+                                                                     Dental
+
+
+
+
+                                                                                                                                                                  Velar
+
+
+
+
+Plosive                      P              b                                       t                               d                                             k g
+Fricative                                          f v              e          a s                                  z       / 5
+(Central) approximant                       (w)                                                                     r                                         j           w
+(Lateral) approximant                                                                                               1
+Nasal                                       m                                                                       n                                                      !)
+                                                                                                                                                     y
+            Table II Consonant inventory of English (Ladefoged, 2001)
+6
+
+
+
+
+            Front            Central                                         Back
+                                                    Rounded                   Unrounded
+
+            Tense    lax     Tense     lax          Tense        lax          Tense       lax
+    High    i,ii                                    u, uu
+    Mid     ee                                      00
+    Low                                                      a m , aa
+     Table III Vowel inventory of Arabic based on (Gary and Gamal -El-din, 1982)
+
+
+             Front             Central                                          Back
+                                                                 Rounded              Unrounded
+             Tense     lax     Tense         lax         Tense         lax       Tense     lax
+     High i            I                                 u             u
+     Mid               E        3, ?         8, »        D                                      A
+     Low               ffi                                             0              Q
+
+
+    Table IV Vowel inventory of English (AME, BRE) based on (Roca and Johnson,
+    1999)
+
+    Constraints for the Strategy of Vowel Epenthesis vs. Deletion
+         First and foremost, since CA doesn't allow a CC cluster to occur syllable
+    initially we need a constraint that disallows clustering syllable initially. This
+    constraint is:
+
+    (6)     *COMPLEX 0NS : complex onsets are not allowed.
+
+    Note here that the main strategy applied by CA is to epenthesize using a vowel to
+    break the complex onset in one of the two following ways. Either to epenthesize
+    before the cluster pushing it to a medial position, e.g. Pistiryu, Pisbireeh, Pistub.
+    Or alternatively epenthesis occurs internally by breaking up the cluster, e.g.
+    firiizar, fulurusint, fila/. Both strategies involve one main goal, which is to avoid
+    complex onset. However, if this is the only goal, the epenthesis of vowel is
+    enough to satisfy it. The fact that glottal stop will have to be further epenthesized
+    shows that a syllable starting with V is not allowed in CA. CA does not allow
+    vowels to occur syllable initially. The constraint required is:
+
+    (7)    ONS: Syllables must have onsets.
+
+    Since both *COMPLEX 0NS and ONS are extremely crucial for the syllable
+    structure of CA syllable, I'd suggest they must be equally ranked. ONS is always
+    in conflict with another constraint that requires all underlying material to be filled,
+    in the sense that it disallows the addition of any epenthetic segments. This
+                                                                                       7
+
+
+
+
+constraint is DEP-IO, having the effect of blocking epenthesis. This constraint is
+defined as:
+
+(8)    DEP-IO : Output segments must have input correspondents (No
+epenthesis)
+                                                        (McCarthy APrince, 1995)
+Since CA prefers providing onsets rather than militating against epenthesis, ONS
+must dominate DEP-IO: O N S » DEP-IO. This ranking is necessary since
+onsetless forms are not attested in the language, hence epenthesis normally
+occurs. The fact that CA assumingly has two strategies available to observe the
+constraints ONS and 'COMPLEX             , either to epenthesize or to delete and it
+opts for epenthesis means that deletion ranks higher in the language than
+epenthesis. The constraint militating against deletion is MAX-IO: Input segments
+must have output correspondents (McCarthy &Prince, 1995).
+This means MAX-IO» DEP-IO. Since no violation of MAX-IO is allowed, it
+should rank as high as "COMPLEX 0NS and ONS. The ranking, so far, should go
+as:
+
+(9)     'COMPLEX UNi, ONS, MAX-IO » DEP-IO
+This is evidenced by the tableau in (10).
+
+        stub    ONS ; 'COMPLEX UNi j MAX-IO DEP-IO
+                                            • ,
+     a-^Pis-tub
+     b- is.tub  *! ;               i        *
+                    ;
+     c- stub        , *l           ;
+
+
+However, words with medial cluster pose a problem for this ranking; it seems we
+are in need of one more constraint (or expand one of the current constraints to
+disallow this structure). Let's take, for example, the word banktnut 'banknote'.
+The previous constraints would predict that ban.ki.nut and banknut are both
+grammatical forms, contrary to facts in the language according to which only the
+former is attested .The situation is represented by the following tableau.
+
+    banknut      ONS i 'COMPLEX UN5 i MAX-IO DEP-IO
+   a- ban.ki.nut                             *
+                                                         *
+   b- bank.nut
+
+The fact that (b) in (11) has a complex coda does not exclude it , since it is
+perfectly possible for the language to have complex codas. What, then, would
+invalidate the form (b)? As pointed out in the generalization section, the cluster
+CCC is not allowed in CA even if the cluster syllabifies into separate syllables.
+So, we either need a new constraint that disallows CCC cluster or to stretch the
+already-in-use constraint 'COMPLEX so that it would go beyond disallowing
+complex onset to disallow CCC structure anywhere whether on the word level or
+phrase level. For the sake of economy and to avoid redundancy, I will opt for the
+latter option and redefine * COMPLEX as follows:
+ (12) Complex onsets and CCC clusters are not allowed.IT
+
+From now on, * COMPLEX acts as a cover constraint for complex onsets and
+CCC clusters. This will militate against (b) in favor of (a) as illustrated by the
+tableau in (13).
+
+
+        bank.nut        ONS i 'COMPLEX • MAX-IO DEP-IO
+       " a - ban.ki.nut                                    : *   : •
+
+
+
+
+                            i *!       i        • i ' ,
+
+       b- bank.nut
+
+
+The ranking for this part, then, is:
+(14) 'COMPLEX, ONS, MAX-IO » DEP-IO
+
+Different Positions of Enenthesis within the Cluster
+
+       CCC Cluster: Some important patterns are worth considering here. CA
+allows a maximum of two-consonant clusters to occur word-medially, where the
+first of the two consonants closes one syllable and the second releases the second.
+However CCC cluster is not allowed in CA. There are two logical solutions to
+avoid the occurrence of this complex cluster: either CVC.C where a vowel is
+epenthesized following the first C; or, alternatively C.CVC. What would
+determine the position of the epenthetic vowel? The attested form in the language
+uses the latter pattern. Thus, it looks like the pattern in the language is to align
+syllables as close as possible to the right edge of the prosodic word. This
+constraint is ALIGN- a:
+
+(15)      Align (o, R, PrWd, R) (Mester and Padget, 1993)
+          Align right edge of every a with R edge of some prosodic word.
+This constraint is in conformity with the Generalized Alignment adopted by
+McCarthy and Prince (1993). The constraint in (15) handles the placement of the
+epenthetic vowel after the second of three consonants, thus bringing the syllable
+edge closer to alignment with the right edge of prosodic word.
+(16)   bank.nut         ONS •COMPLEX MAX-IO DEP-IO ALIGN-o
+                                                                       a I a2 o3
+       •^a-banldnut                                         *           -, wi, uuu
+                                                            *          -, uu, uuuu!
+       b- ba.nik.nut
+
+Since ALIGN - a is a gradient constraint; it is always violated and must rank with
+the sub-ranked DEP-IO. In (16), the decisive element in making (a) the optimal
+form is the alignment constraint. WhileCT3in (b) is four moras away from the
+right edge, its counterpart in (a) is only three moras and, so, it wins. Remember
+that since the alignment is to the right edge, a 1 is the rightmost. Ranking so far
+goes as:
+
+(17)       •COMPLEX, ONS, MAX-IO,» DEP-IO, ALIGN- o
+
+     Before we bring this subsection to a close, a little excuesion is in place here.
+There could be some similarity between ALIGN- a and the constraint
+CONTIGUITY (which will be introduced and defined in subsection (3.3.2)) in
+their ultimate effect. However, CONTIGUITY is basically intended to keep
+elements adjacent in the input also adjacent in the output. If we use
+CONTIGUITY instead of ALIGN- o in tableau (16), we would not be able to
+account for why candidate (a) is the optimal. Both candidate (a) and (b) would
+incur the same violation of CONTIGUITY. See (3.3.2) for more details.
+
+      A final, and perhaps necessary, note here is that counting by syllables rather
+than moras would not show why (a) wins in (16) since both candidates (a and b)
+have the same number of syllables but different number of moras. In the
+following sub-section I discuss the rising and falling sonority clusters.
+
+      Rising and Falling Sonority Clusters: In the case of a falling sonority cluster
+such as [s+obstruent], epenthesis occurs before the cluster; in the case of such
+rising sonority clusters as [fr], epenthesis occurs internally between [fj and [r].
+How to account for this? In fact, the split epenthesis pattern is pervasive in many
+unrelated languages, from Hindi to Wolof. In rising sonority clusters, a vowel is
+inserted between the two consonants of the onset as in (18)
+
+(18)       Rising sonority: internal epenthesis
+
+Hindi                  firut                           'fruit'
+Bengali                gelaf                           'glass'
+Central Pahari         silet                           'slate'
+Sinhalese              tiyage                          tyage 'gift' (Sanskrit)
+Wolof                  kalas                           'class'
+10
+
+
+
+
+     In falling sonority clusters, most notably s-obstruent clusters, the vowel is inserted
+     before the cluster, as shown in (19).
+
+     (19)       Falling or flat sonority: edge epenthesis
+
+     Hindi                    iskul                         'school'
+     Bengali                  ifkul                         'school'
+     Central Pahari           ispiit/                       'speech'
+     Sinhalese                istri                           stri 'woman'(Sanskrit)
+     Wolof                    estati                        'statue'
+
+     Broselow (1983, 1992) is of the view that there is something special about s-
+     obstruent clusters that makes them so distinct from other clusters, namely their
+     structure. S-obstruent clusters are complex segments and so too hard to be broken
+     up by epenthesis. In fact she argues that s-stop clusters are exceptional, they do
+     not permit cluster internal epenthesis in CA. This exceptionality was ascribed to
+     two main reasons; one is related to interference from the morphology of CA and
+     the other to some universal complexity of s-obstruent. The verbal prefix -ista
+     (which has the meanings of 'want', 'claim' among others) is prevalent in the
+     morphology of CA as exemplified by the words in (20):
+
+     (20)       ?ista?zin :    'he asked to be excused.'
+                ?ista?sid :     'he claimed to be courageous.'
+                ?istafham:       'he wanted to understand.'
+                Pistahbil:       'he claimed to be an idiot.'
+
+     So, the fact that epenthesis occurs cluster -externally, rather than cluster-
+     internally, in this case, could be ascribed to interference from first language, CA.
+     In other words the speakers associate the LI s+t with the L2 s+t. She also claims
+     that, by analogy, all other s-stop clusters follow suit (s+p, s+k etc.).
+     Broselow also states that s-stop clusters are actually exceptional in English as
+     well. They are the only syllable -initial clusters which violate the principle that
+     segments within the syllable tend to be arranged in a sonority sequence. Segments
+     rise in sonority as they approach the nucleus and they fall towards the syllable
+     margin according to the following sonority scale:
+
+     (21)          stops-fricatives-nasals-liquids-glides-vowels
+                  least sonorous                   most-sonorous
+
+     s-stop clusters are not only exceptional in that .They are the only clusters in
+     English that may be followed by a third consonant and the only two-consonant
+     clusters that may have an obstruent as their second member. Consider (22):
+                                                                                        11
+
+
+
+
+(22)     a.s-stop                                      b. other clusters
+         spr, spl, spy: spring, splash, spew            *blw
+         substring                                     *sly
+         skr, ski,sky,skw:scream,sclerosis,skewer,     *psm
+         square, etc.
+                                                              Broselow (1983:278)
+s+obstruent is not only exceptional in CA and English but also, according to some
+references quoted in Broselow, in Sinhalese, Turkish, Persian, and Hindi. Thus,
+the exceptionality of s+obstruent is pretty universal. It is claimed that all
+languages adopt this representation and even impose it on loanwords. Speakers of
+CVC languages (as those mentioned above) must be aware of this difference in
+the phonological representations, and respect it in their repair strategies.
+
+     In my view, the main weakness about s-obstruent account given by Broselow
+is that she does not explain any phonological or phonetic reasons as to what
+causes this structure to be exceptional. Moreover, according to her data of errors
+by L2 Iraqi speakers of English, the universality of particularly placing the
+epenthetic vowel cluster -externally is not absolute:
+ (23) Errors by L2 Iraqi speakers of English:
+
+         [sitrit]    'street'
+         [siblaj]    'splash'
+         [sikwer]    'square'
+
+So, although Broselow reports the situation quite well she does not offer an
+adequate explanation. I take a more plausible solution by Gouskova (2002).
+Gouskova's analysis goes along the following lines. She is of the opinion that an
+explanation of S-obstruent resistance to epenthesis shouldn't be sought in their
+structure. The explanation lies in such sonority sequencing constraints as
+SYLLABLE CONTACT that treats s-obstruent clusters differently from obstruent-
+sonorant clusters ([st..] vs [fr..], for example). SYLLABLE CONTACT is defined as:
+
+(24) Sonority must not rise across a syllable boundary.
+   (Davis 1998, Hooper 1976, Murray and Vennemann 1983, Vennemann 1988).
+
+SYLLABLE CONTACT constraint determines the site of epenthesis, when no
+intervention occurs by other constraints, either because SYLLABLE CONTACT is
+high-ranked or because its effects surface in the 'Emergence of the Unmarked'
+schema (McCarthy and Prince 1994). She rightly explains that in many languages
+epenthesis is driven by 'COMPLEX, while SYLLABLE CONTACT dictates the best
+site. The vowel is inserted into the position that yields the optimal sequence of
+consonants, that is, one with falling sonority. She also makes the prediction that in
+all of the languages with the split pattern of epenthesis, 'COMPLEX must dominate
+DEP to cause epenthesis in clusters. The analysis presented seems to be borne out
+12
+
+
+
+
+     in CA .Her predictions hold true. In CA, * Complex dominates DEP as we see
+     from the tableau in (25)
+
+
+     (25)     /klatf/  •Complex DEP
+            a- klatf   *!
+            b-^ka.Iatf          f.--
+
+     The vowel is inserted at the edge unless the CC sequence has rising sonority
+     (•aklatj). It's clear that, in the tableau above, it is the constraint SYLLABLE
+     CONTACT that drives a vowel inside the cluster (ka.latf). This is always the case
+     in onset clusters that have the rising sonority and are broken up by internal
+     epenthesis.
+
+     (26) /klatf/       •COMPLEX i SYLLABLE CONTACT DEP
+            a- ?ok.latf           I *!              *
+            b-o-kaJatj"                             *
+            c- klatf    *!       i
+
+     S-obstruent clusters have falling sonority, so epenthesis at the edge is possible and
+     preferred: ?is.biitf> slbiitf. An explanation is required to account for why the
+     default site of epenthesis in loanwords is at the edge. Comparing edge to internal
+     epenthesis proves each is satisfied at a cost. Edge epenthesis violates NOCODA
+     and ONSET, while the dispreferred internal epenthesis actually satisfies NOCODA,
+     ONSET and SYLLABLE CONTACT. She claims that the constraint that prefers edge
+     epenthesis is CONTIGUITY:
+
+     (27) Elements adjacent in the input must be adjacent in the output.
+
+     This constraint ensures edge epenthesis is satisfied when SYLLABLE CONTACT
+     does not matter. This is borne out in CA, too. Since both CONTIGUITY and DEP
+     could be violated with almost the same effect, they are equally ranked:
+     (28)     /sbiitf/   CONTIGUITY ; DEP
+            a-^Pis.biitf            :*
+            b- si.biitf •           i *!
+
+     Rising sonority inputs show that CONTIGUITY must be ranked below
+     SYLLABLECONTACTto derive the split pattern.
+     (29) /klatf/        SYLLABLE CONTACT CONTIGUirY
+            a- klatf     *!
+            b-^ka.latf                               *
+                                                                                      13
+
+
+
+
+So, there are the two rankings necessary to derive the split epenthesis pattern as
+shown in (30):
+
+(30)    a.*C0MPLEX»DEP
+       b.SYLLABLE CONTACT » CONTIGUITY
+
+The final ranking that accounts for the position of the epenthetic vowel then is.-
+
+(31)    "COMPLEX, SYLLABLE CONTACT » CONTIGUITY, DEP.
+
+
+Thus interaction between SYLLABLE CONTACT and CONTIGUITY is able to
+explain the pattern of split epenthesis in loanword phonology in CA, where falling
+and rising sonority clusters are treated differently. The ranking so far should go
+as:
+
+(32) "COMPLEX, ONS, MAX-IO, SYLLABLE CONTACT » DEP-IO,
+     ALIGN- <j, CONTIGUITY.
+
+The quality of the Epenthetic Vowel
+
+      This sub-section determines the constraints that control the quality of
+epenthetic vowel. A common fact about epenthetic segments is that they lack
+input counterparts. Their featural realization then is dependent upon output
+factors. This is the situation in most languages of the world; epenthetic segments
+are minimally marked and contextually colored. According to (Kager, 1999,
+Selkirkl981, Ito, 1986, Lowenstamm and Kaye 1986) the epenthetic segment has
+no lexical specification to be faithful to. It is totally dependent on context-free
+markedness constraints. This would account for why [i] is so pervasive as an
+epenthetic vowel cross-linguistically. It is featurally unmarked vowel. With
+context-marked constraints, adjacent segments affect the featural value of
+epenthetic segments through assimilation. Observe patterns of epenthesis in (33)
+and (34).
+
+(33)
+        Arabic             English
+         firizar            freezer
+         biristul           Bristol (paper)
+         fulurusint          florescent
+         guruub              group
+         kolatj"            clutch(auto)
+(34)
+         Pistiryu          stereo
+         ?isbiitf          speech
+14
+
+
+
+
+              Pisbireeh        spray
+              Pistaf           staff
+              Pistub           stop
+              bankinut         banknote
+             Jarkiskiin        sharkskin cloth
+              bustiman         postman
+
+      In (33) there is a case of vowel harmony between the epenthetic vowel and the
+     immediately following one. (34) presents yet a different type of epenthesis where
+     the epenthetic segment is invariably [i] regardless of the features of the
+     immediately following vowel. How can we account for this variation? In the two
+     following subsections we account for the harmony and non-harmony cases.
+
+          Harmony cases: According to Kramer (2002) featural identity of vowels
+     which are moraically or syllabically adjacent in an output string can be accounted
+     for by using the constraint SURFACE-IDENTITY (F) for which the general schema
+     goes as:
+
+     (35) Let a be a vowel in syllable/mora 2 and p be any correspondent of a in
+     Syllable /moral.
+             If P is [YF] then a is [yF], where p is an epenthetic vowel.
+            ('An epenthetic vowel has to have the same value for a feature F as the
+             vowel in the adjacent syllable or mora.')
+
+     According to this constraint, the feature specifications of a 2 license the same
+     features borne by the vowel in o 1. The feature specification here is done by a
+     correspondence relation. This constraint is particularly useful for this case in CA.
+     However since the relevant features for harmony, as evidenced by group A and B,
+     occur in terms of +/-back, +/-round features, we need to state that the harmony
+     between epenthetic vowel and the adjacent vowel should be set in terms of the
+     features +/-back, +/-round. We would rather modify the constraint here as
+     follows:
+
+     (36) S-IDENT (+/-back, +/-round):
+           Let a be a vowel in syllable 2 and p be any correspondent of a in syllable
+           If P is [+/-back, +/-round] then a is [+/-back, +/-round], where P is an
+     epenthetic vowel.
+
+     This will take care of the harmony we see between the epenthetic vowel and the
+     adjacent one as evident from (37).
+                                                                                                        15
+
+
+
+
+       ktaj"            S-lDENT                                                         ALIGN-a
+
+
+
+
+                                                                  MAX-IO
+                                                       •COMPLEX
+
+
+
+
+                                                                           DEP-IO
+                        (+/-back, +/-round):                                            a l <J2 CT3
+
+
+
+
+                                                ONS
+        •^a-ka. lat/                                                       *            ->mi =.
+       b-ku.latj        *!                                                 *            -.HH
+
+                        *!                                                 »
+       c-kUat/
+                                                      *!
+                                                                                        -<n
+       d-klat/
+
+
+
+The non-harmony in terms of roundness makes (b) a suboptimal, mismatching
+backness harmony renders (c) suboptimal as well, (d) is outranked due to a
+violation of *COMPLEX .However, this constraint alone cannot predict the right
+candidate in some cases. Let's take the case of the word
+gurrub:
+
+       gruub       S-IDENT (+/- ONS      •COMPLEX MAX-                              DEP-       ALIGN-
+                   back, +/-                      IO                                IO         a
+                   round):
+                                                                                               o l a2
+                                                                                               o3
+       a-                                                                           *          ->nnn
+       gu.ruub
+       b-                                                                           *          •#w
+       go.ruub
+
+       c-          *!                                                               *          -.HUli
+       gi.ruub
+       d-          *!                                                               *          ->nnn
+       ga.ruub
+
+It is clear here that there is a tie situation between candidate (a) and candidate (b).
+This is because both candidates equally satisfy or violate the relevant constraints.
+Constraint S-IDENT (+/-back, +/-round) is not decisive in selecting the optimal
+candidate. Both [guruub] and [goruub] satisfy backness and roundness harmony.
+What then can decide whether (a) or (b) is the optimal form? We need some other
+featural constraints. Since backness and roundness are not enough to decide the
+exact epenthetic vowel, the features [+high][-high] will decide. The constraint
+*[+high] "[-high]. *[+high] can be defined as:
+
+(39)    Epenthetic vowels must not be -t-high.
+
+*[-high] on the other hand is defined as:
+16
+
+
+
+
+     (40)   Epenthetic vowels must not be-high.
+
+     The right candidate will win based on which one of this pair of constraints is
+     ranked above the other. In the case of [guruub], "[-high] will have to dominate
+     *[+high].
+
+            /gruub/       S-lDENT                                                             ALIGN- o
+
+
+
+
+                                                             MAX-IO
+                                                  •COMPLEX
+
+
+
+
+                                                                      *[-HGH]
+
+
+
+                                                                                     DEP-IO
+                           (+/-back, +/-                                        "x            a l a2
+                                                                                 0
+
+
+
+
+                                            ONS
+                          round):                                                             a3
+                                                                                I
+            <s-a-                                                               »•   *        M»Ht»
+            gu.ruub
+                                                                                     •
+            b- go.ruub                                                  •                     •.nnn
+            c- gi.ruub    *i                                                         *         -."HH
+            d- ga.ruub    *i                                                         *        -.|i u u
+
+
+     The reason why I place these two constraints below the first equally ranked
+     package of constraints is that in each case of harmonic epenthetic vowels, one of
+     the two constraints will have to be violated.
+
+           Non-harmonv cases: When the cluster s+obstruent is there, harmony is
+     blocked and the epenthetic vowel is set as default [i] in all cases, no matter what
+     type of vowel follows in the adjacent syllable. This is evidenced by the words:
+     (42) Pistiryu, Pisbiit/, Pisbireeh, ?istaf, Pistuk, Pistub
+
+     The first three words give an indication that we are still under harmony, yet the
+     words Pistaf, Pistuk, Pistub show that there is no harmony. Moreover [i] is
+     epenthesized as a default vowel in compounds such as [bankinut], [Jarkiskiin],
+     [bustiman]. Since harmony is blocked here, the constraint S-IDENT must be
+     dominated by some other constraint that makes [i] the default epenthetic vowel in
+     all cases where s+ obstruent cluster intervenes or when an epenthetic intervenes
+     between two roots. This constraint must have a blocking effect so as to prevent
+     vowel harmony. I would make use of 'MULTIPLE (V.Place) constraint used by
+     Uffmann(2001):
+
+     (43)   V-to-V assimilation (harmony) is penalized.
+
+     This constraint has the effect of stopping VI from being harmonic with V2 and as
+     a result, with the absence of any identity between VI and V2, the default
+     [if'shows up. So this constraint does the dual job of blocking harmony and
+                                                                                     17
+
+
+
+
+allowing [i] to emerge™. This constraint must rank higher than S-ident, since S-
+ident should be violated to satisfy it.
+
+       staf            •MULTIPLE (V.Place) S-lDENT
+                                           (+/-back, +/-round)
+
+
+       " a - Pis.taf                           *
+          b-?as.taf    *i
+
+
+         c-?us.taf *!
+         d-?os.taf *!
+
+
+(c) and (d) are suboptimal forms because, though in each VI is out of harmony
+with V2 ,the defaultp] fails to show up .[i] must always be there where harmony
+is not fulfilled.
+The final ranking then goes as follows:
+
+(45) *COMPLEX, ONS, MAX-IO, SYLLABLE CONTACT, "MULTIPLE
+(V.Place)»S-lDENT
+
+         (+/-back, +/-round)*[+high], [-high], DEP-IO, ALIGN- a,
+         CONTIGUITY.
+
+4 Conclusion
+
+     The phonological adaptation of loanwords in CA is well accounted for under
+OT. It is seen to emanate from constraints on syllable structure of CA. OT could
+achieve one very important goal, the functional unity of analysis. The trigger for
+all constraints is to militate against faithfulness to the input and normally to
+achieve well-formedness (markedness) of the forms in accordance with the
+syllable structure of CA. •COMPLEX, ONS, SYLLABLE CONTACT,
+•MULTIPLE (V.Place) represent the force of markedness that militates against
+identity, alignment and contiguity constraints, which stand for the opposing force
+of faithfulness. MAX-IO is optimal (and undominated), and thus makes sure that
+CA opts for epenthesis rather than deletion as a strategy for loanword adaptation;
+so both MAX-IO and the other markedness constraints determine the nature of
+vowel epenthesis in words CA loaned from English. Loanword adaptation, then,
+can be set within the framework of this tug of war between faithfulness and well-
+formedness constraints. The need to repair loanwords so as to conform to the
+syllable structure in CA outweighs the need to preserve the integrity of
+loanwords. Thus, ranking of the constraints and the way they interact are
+conducive to a single unified target. Namely, to have output forms mat conform to
+18
+
+
+
+
+     the phonotactics of CA syllable structure. This is why OT is an output-, target-
+     oriented theory. These facts about epenthesis in loanword adaptation are only
+     captured by a theory that is capable of showing how constraints conspire to adapt
+     the loanword into the phonotactics of the borrowing language, CA. This
+     substantiates functional unity. OT proves advantageous in setting all rules of
+     loanword adaptation in CA in a constraint-based perspective within the
+     framework of this struggle of forces in between faithfulness and markedness.
+
+          In all cases, loanwords are modified according to the productive phonological
+     processes and constraints at work in the phonology of CA, as pointed out in
+     section 2. Patterns of systematic modification arise according to the constraints of
+     the native system .The analysis illustrates that loanword phonology does not
+     require additional constraints, requiring only LI constraints; no need arises for L2
+     specific constraints since, as we see, loanwords can be explained by LI
+     constraints. This provides a piece of evidence in favor of the view that loanwords
+     do not require a language to have a secondary phonological system alongside the
+     primary one.
+
+          The fact that CA opts for epenthesis rather than deletion as a strategy for
+     adapting loanwords provides a piece of evidence to the cross-linguistically
+     attested fact that epenthesis is a much more frequent repair strategy in loanwords
+     than deletion. This is a reflection of the speakers' desire to maximally preserve
+     the original input and shows that compared to deletion; epenthesis reflects less
+     distortion of the adapted words.
+
+                                                   NOTES
+              ' Definitions of the constraints in this section are given in section 3.
+          2
+            Though glottal stop plays a role in ascertaining that onset should exist, the main focus of
+     the paper will be vowel epenthesis. Therefore analysis of glottal stop is not discussed in this paper.
+          3
+            [a] has the afrontallophone [ae], which occurs withfrontconsonants as in [belied]
+     'country'. For details see, Gary and Gamal (1982).
+          4
+             It was pointed out in 2. that a maximum of two consonants may occur in word or phrase
+     final position, e.g. [faxr] 'pride', [?atl] 'killing'. The constraint 'COMPLEX «,), militating against
+     the occurrence of complex codas is not at play.
+          !
+               Datain(18)and(19)fromGouskova(2002).
+           6
+             According to Williams (1998), if a nucleus is unlicensed (in our case the epenthetic vowel
+     can not be licensed to be harmonic with the following vowel), it is typically pronounced as some
+     default vowel; the actual quality of the vowel which appears varies from one language to another.
+     Pater (2001), in his explanation of metathesis in Balantak, shows that in case of non-assimilation,
+     the default vowel surfaces (schwa in Balantak) instead of an assimilated one. The default vowel is,
+     also, the typical vowel that saves an otherwise ill-formed syllable as pointed out by Feng (2002).
+     Since we see [i] in CA assumes functions similar to those mentioned above, this provides evidence
+                                                                                                         19
+
+
+
+
+that [i] is indeed the default vowel. Details of phonological feature structure of default [i] are not
+dealt with in this research.
+      7
+         Remember this constraint takes care of the non-harmony s+obstruent cases and does not
+affect such harmonic cases as [guruup] for instance.
+
+
+
+                                     REFERENCES
+
+Broselow, Ellen. (1983). "Non-obvious transfer: On predicting epenthesis
+                  errors" in: S. Gass and Selinker, L. (eds.). Language
+                   Transfer in Language Learning. Rowley, Mass.: Newbury
+                  House. 269-280.
+
+Broselow, Ellen. (1992). "Parametric Variation in Arabic Dialect Phonology". In
+                    Ellen Broselow, Mushira Eid, and John McCarthy, eds.
+                    Perspectives on Arabic Linguistics W (Papers from the Fourth
+                    Annual Symposium on Arabic Linguistics). John Benjamins:
+                    Amsterdam. Pp. 7-45.
+ Davis, Stuart. (1998). "Syllable Contact in Optimality Theory." Journal of
+                    Korean Linguistics 23:181-211.
+ Feng, Guanjun. (2002). "Existential and Universal Anchoring: A Case Study of
+                    Chinese Diminutive Affixation." Paper read at TLS: Texas
+                    Linguistic society Conference VII. Austin, Texas.
+Gary, Judith Olmsted, and Saad Gamal-Eldin. (1982). Cairene Egyptian
+                    Colloquial Arabic. Lingua Descriptive Studies 6. Amsterdam:
+                    North Holland.
+Gouskova, Maria. (2002). "Falling sonority onsets, loanwords, and Syllable
+                    Contact." In Andronis, Mary, Christopher Ball, Heidi Elston
+                    and Sylvain Neuvel, eds. CLS 37: The Main Session. Papers
+                   from the 37ih Meeting of the Chicago Linguistic Society. Vol. 1.
+                    Chicago: Chicago Linguistic Society.
+Hinds, Martin and El-Said Badawy. (1986). A Dictionary of Egyptian Arabic.
+                    Beirut: Libraire De Liban.
+Hooper, J. (1976). An Introduction to Natural Generative Phonology. New York:
+                    Academic Press.
+It6, Junko. (1986). Syllable Theory in Prosodic Phonology. Ph.D. Dissertation,
+                    University of Massachusetts, Amherst. [Published by Garland,
+                    New York, 1988].
+Kager, Rene. (1999). Optimality Theory. Cambridge: Cambridge University
+                    Press.
+Kramer, Martin. (2002). "A Correspondence Approach to Vowel Harmony and
+                    Disharmony". Ms, UniversMt Dttsseldorf.
+20
+
+
+
+
+     Ladefoged, Peter. (2001). A course in phonetics.4th ed. Fort Worth: Harcourt
+                        Brace Jovanovich.
+     Lowenstamm, Jean and Jonathan Kaye. (1986). "Compensatory Lengthening in
+                        Tiberian Hebrew" in L. Wetzels and E. Sezer, eds. Studies in
+                        Compensatory Lengthening. Foris: Dordrecht.
+     McCarthy, John J. and Alan S. Prince. (1993). Prosodic Morphology I: Constraint
+                        Interaction and Satisfaction. Ms., University of Massachusetts,
+                        Amherst and Rutgers University.
+     McCarthy, John J. and Alan S. Prince. (1994). "The Emergence of the unmarked:
+                        Optimality in Prosodic Morphology". In Merce Gonzalez
+                        (ed.) Proceedings of the North East Linguistic Society 24.
+                        Amherst, MA: Graduate Linguistic Student Association. 333-
+                        379.
+     Mester, Armin, and Jaye Padgett. (1994). "Directional Syllabification in
+                        Generalized Alignment". Phonology at Santa Cruz, 3:79-85.
+
+     Murray R.W. and T. Vennemann. (1983). "Sound change and syllable structure
+                         in Germanic phonology". Language, 59:514-52$.
+     Paradis, Carole, and Darlene Lacharite\ (1997). "Preservation and minimality in
+                         loanword adaptation". Journal of Linguistics, 33:379-430.
+     Pater, Joe. (2001). "Assimilation triggers metathesis in Balantak: Implications for
+                         theories of possible repair in Optimality Theory Ms.
+                         University of Massachusetts, Amherst.
+     Prince, A and P. Smolensky. (1993). Optimality Theory: Constraint Interaction in
+                         Generative GrammarMs. Rutgers University and the
+                         University of Colorado.
+     Roca, Iggy and Wyn Johnson. (1999). A Course in Phonology, Oxford:
+                         Blackwell.
+     Selkirk, Elisabeth O. (1981). "Epenthesis and Degenerate Syllables in Cairene
+                         Arabic". In Hagit Borer and Yosef Aoun, eds., Theoretical
+                         Issues in the Grammar of Semitic Languages. MIT Working
+                         Papers in Linguistics, 3:209-232.
+     Uffmann, Christian. (2001) "Patterns of Vowel Epenthesis (not only) in Shona
+                         Loanwords". Paper presented at the fifth HIL phonology
+                         conference, University of Potsdam, Germany.
+     Vennemann, Theo. (1988). Preference laws for syllable structure and the
+                         explanation of sound change. Berlin/New York/Amsterdam:
+                         Mouton de Gruyter.
+     Williams, Geoffrey. (1998). The Phonological basis of Speech Recognition.
+                         Unpublished PhD. dissertation, School of Oriental and African
+                         studies, University of London.
+

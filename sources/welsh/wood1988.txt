@@ -1,0 +1,205 @@
+                                                                                 229
+
+Lund University, Dept. of Linguistics
+Working Papers 33 (1988), 229-236
+
+
+
+
+Vowel Quantity and Syllable Structure in Welsh
+Sidney A . J . Wood
+
+INTRODUCTION
+This article reports a brief examination of the relationship between vowel
+quantity and syllable structure in Welsh. Vowel length is usually transcribed with
+ a length diacritic in the literature on Welsh phonology and it is not treated as
+predictable. Textbooks of Welsh do give rules for vowel quantity but they are
+complicated and amount to lists of environments. Yet the more one looks at the
+data the more one senses that there is a straightforward relationship between
+vowel quantity and syllable structure in Welsh.
+    The rules for vowel quantity usually given in textbooks of Welsh are
+complicated and do not always distinguish between orthography and phonology.
+This complexity and the occasional indication of long vowels in the orthography
+suggest that vowel quantity may not be predictable in Welsh. For example,
+Matthews 1951, transcribing a sample of South Welsh, uses the length diacritic [:]
+for every long vowel but he does not transcribe consonant length after short
+stressed vowels in word final syllables since these consonants are always long by
+compensation; in other positions he represents long consonants by gemination.
+On the other hand, the dearth of minimal pairs to confirm phonemic quantity and
+the apparent complementary distribution of long and short vowels suggest that
+vowel quantity is predictable, even i f only by listing the respective situations
+where long and short vowels occur. However, a simple listing is not very
+satisfying and explains little. The very fact that it is at all possible to formulate
+rules for vowel quantity, albeit complex, indicates that there may be some more
+systematic relation between long and short vowels in Welsh that is worth
+exploring.
+    The factors that are most relevant to the issue of vowel quantity involve
+certain phonetic events that were introduced prior to Old Welsh during the first
+millennium A D , namely various mutation, assimilation and simplification
+processes. This diachronic perspective poses the problem of deciding which of
+these processes are now concluded, with their phonetic products written into the
+lexicon, and which processes are still active in the form of productive rules in
+contemporary speech. The most striking process that is still productive in
+230                                  SIDNEY WOOD                                                   VOWEL QUANTITY AND S Y L L A B L E STRUCTURE IN WELSH               231
+
+
+modern Welsh is initial mutation (Awbery 1975, Willis 1986), such that, for                but /Vn(+)1V/: Q]      gwinllan          ['gwinlan]     'vineyard'         (5)
+example, 'dog' is ci, gi, nghi or chi ([ki: gi: fji: xi:]) depending on the preceding                             tanllyd           Ptenlid]       'fiery'
+morpheme. Initial mutation is not itself relevant to the issue of vowel quantity,
+but the possibility of internal mutation has an immediate bearing on the listed            /VIC/: [1]             golch             ['golx]        'lye'              (6)
+lengthening environments. To what extent is there synchronic evidence of                                          telm              ['telm]        'snare'
+productive or fossilized internal processes? Fowkes 1953 points especially to                                     milfed            ['milved]      'thousandth'
+what happens at morpheme boundaries in compounds and finds evidence from
+internal sandhi that, for example, postvocalic [p t k] result from simplification of       but /Vl(+)t/: [1]      gwailt            ['gwalt]       'hair'             (7)
+consonant groups and that [5 6 x] are mutation products wherever they occur.                                      milltir           ['mil tir]     'mile'
+    Fowkes 1949 also gives examples of how loanwords are adapted into the mu-
+tation system, demonstrating a process "that has evidently been going on since             and /Vll+CV/: [1]        siilgoll         ['sihgol:]    'apostrophe'       (8)
+primitive Celtic times".                                                                                            kollnod          ['kolaiod]    'apostrophe'
+    Another relevant factor for syllable structure is the status of the unvoiced           (literally 'syllable'+'loss' and 'loss'+'mark')
+nasals and liquids. A strict taxonomic analysis of surface phonemes gives
+phonemic status to voiceless aspirated fricative /m n fj 1 r/ alongside the             Finally, compare such alternations as:
+respective voiced sonorants (e.g. Matthews 1951 and the transcribed sample in
+IPA 1966:24). Generative solutions usually derive the unvoiced nasals but still                                   gwaglaw           ['gwag+law]    'empty handed'     (9)
+recognise / l r/ as systematic phonemes. Yet there is striking evidence that the                                  llawwag           [law+wag]      'empty handed'
+unvoiced liquids are in complementary distribution with their respective voiced
+counterparts. Some examples for the laterals follow:                                    These examples strongly indicate that [1] and [1] are in complementary
+                                                                                        distribution with respect to syllable structure, with a voiced allophone in (3,4,6)
+   /#1V/: [1]               Hong              E'lorji]      'ship'             (1)      and a voiceless allophone in (1,2,5,7,8), while (1) alternates with the voiced
+                            llech             f'Jeix]       'slate'                     allophone when it undergoes the soft initial mutation and (9) illustrates similar
+   (alternating with [1] in initial mutation)                                           alternations across an internal morpheme boundary. However, there is a very
+                                                                                        small number of loanwords with initial voiced [1] that contradict the first
+  / l l / : [1:]           gailaf              ['gahav]     'lean'            (2)       examples at (1) above where /#1V/ > [1]. These exceptions, retain the original
+                           peilen              ['pelien]    'bah'                       initial instead of being adapted to the mutation system by being given an
+                           coU                 ['kol:]      loss'                       unmutated radical, which is the usual way of accommodating loanwords into
+                           dull                ['di}:]      'form'                      Welsh. Some examples are lamp, larum ('alarm'), letys ('lettuce'), Iwans
+   contrasting with                                                                     ['lu:ans] ('allowance'). These contradictions do not obscure the larger
+  N:   [1]                 halen               ['ha'len]    'salt'            (3)       generalization, in view of the larger number of loanwords that are fully adapted
+                           cwl                 ['ku:l]      'offence'                   to the mutation system.
+
+  /#C1V/: [1]              blith               ['blnO]      'milk'            (4)       VOWEL QUANTITY IN WELSH
+                           glo                 Tglo:]       'coal'                      Welsh vowels are long in stressed and open word final syllables, which in
+  / V O W : [1]            cyflawn             ['kavlawn]   'full'                      practice means monosyllabics and a few polysyllabics (a Welsh word is normally
+                           murlen              ['mirlen]    'placard'                   stressed on the penult of a polysyllabic):
+                                                                                                     VOWEL QUANTITY AND S Y L L A B L E STRUCTURE TN W E L S H              233
+232                                SIDNEY WOOD
+
+                                                                                          segments and before voiced segments. But these explanations clearly do not
+           lie                   ['lei]                   .. 'place'                      cover all instances of long and short vowels, see for example (10,11) above.
+           can                   ['ka:nj                     'song'                           Matthews 1951, Jones 1913 and IPA 1966:24 all report that /e o/ tend to be
+           canaf                 ['ka-nav]                   'I sing'           (10)      nearer to [e o] in long vowels and nearer to [e o] in short vowels, i.e. there is an
+           caniadau              [kan'ja*dai]                'songs'                      allophonic tense vs lax contrast for /e,o/ in the sense defined by Wood 1975.
+           pont                  f'pont]                     'bridge'                     Jones states that this also applies to the half-long vowels in stressed penults. The
+                                                                                          various authors are less explicit about whether there is similar tense-lax alter-
+Consonant length (or gemination) is only sometimes apparent from the ortho-               nation for /i,u/ ([i,u] vs. [i,u]). Matthews and the IPA transcriber note that /a/ is
+graphy. Compare:                                                                          approximately cardinal [a], both long and short, i.e. the timbre is not particularly
+                                                                                          grave in either case. But the English keywords given in textbooks to exemplify
+           pen                   ['pen:]                   'head'                         the Welsh vowels give the English-speaking reader the impression that there are
+           pennau                [peiuail                  'heads'              (11)      tense vs lax allophones [i,i] and [u,u] for /i,u/ and bright vs grave allophones
+                                                                                          [a,a] for /a/.
+Short (or non-geminated) consonants can be deduced from the orthography if the               The basic lengthening rule, that stressed vowels *are long before at most one
+vowel happens to be circumflexed, as in can in (1) above.                                 consonant, is expressed by the following:
+   The vowel lengthening environment is further defined in terms of consonant
+classes, such that vowels are long in monosyllabic words before:                                   [+SYL] ->       [+LNG] /              Cl                                 (14)
+
+                        [lnr     bdg      v 8 f 9 s x]                          (12)                                            [+STR]
+
+At first sight this seems to be a motley mix of consonants. But if [m n rj r 1] are       This rule expects all geminates to be set out in the underlying representation:
+taken to be voiceless sonorants rather than obstruents, the lengthening environ-
+ments can be arranged as follows with each class being successively more                                     pen       /perm/       ['pen:]         'head'                (15)
+constrained as to manner or place:                                                                                              1
+                                                                                          Note also for the time being that C must be taken from the set of consonants in
+                                                                                          (12,13). As it stands, rule (14) is general, and is not limited to word final sylla-
+                        any continuous obstruent,                                         bles only.
+                        or, if discontinous,                                  (13)
+                        then voiced and if sonorant then apical                            P H O N O L O G I C A L PROCESSES
+                                                                                         . A full specification of the feature complexes involved in (12,13) will not only be
+Jones 1913 also reports half-long vowels in the stressed penults of polysyllables          very clumsy but will also completely obscure any possible simple validity of
+with the same environments as (12,13) excepting [v S s], illustrated by the                (14). Does the feature structure of the vowel lengthening environments really
+contrasting example canu and cannu, ['ka'ni], ['kanii] ('to sing', 'to whiten'). This      need to be listed in this way, or is there some other regularity that makes such a
+is not reported by Matthews 1951 or by the transcriber of the North Welsh                  summary unnecessary?
+sample in I P A 1966:24. M y interpretation of Jones's account is that                         Any description of Welsh must take into account the various processes of
+phonologically there are long and short vowels in both final and penultimate               lenition, spirantization, nasal alternation and simplification involved in the
+stressed syllables, but that the phonetic contrast is more evident in final syllables.     mutations. While the initial mutations are not relevant to the present issue, the
+This might simply be the consequence of the well known phenomenon of final                 relics of internal mutations are, since it turns out that they determine the syllabic
+lengthening, by which the short vowels should also be longer in the final syllables
+                                                                                         * structure of the lengthening environments.
+than in the penults. There is also a possible universal phonetic explanation for the
+lengthening environments (12,13): vowels tend to be longer before fricative
+234                               SIDNEY WOOD
+                                                                                                 VOWEL QUANTITY AND S Y L L A B L E STRUCTURE IN W E L S H            235
+
+                                                                                             5. The spirantization and simplification of intervocalic geminated
+         1. Lenition of intervocalic voiceless stops, whereby
+                                                                                          voiceless stops, whereby:
+                      -p-               -t-                -k-
+                                                                                                          -pp-                 -tt-                  -kk-
+                       i                 I                  I                 (16)
+                                                                                                            4                    i                     i             (19)
+                      -b-               -d-                -g-
+                                                                                                           -f-                  -6-                   -x-
+      Modern Welsh post-tonic b d g coming from this source are not geminated
+                                                                                          The geminate -ss- was also simplified to -s-. Following simplification,
+      and (14) will consequently lengthen the preceding stressed vowel.
+                                                                                          modem Welsh final / 8 s x are not geminated, they have their place in (12)
+                                                                                          and (14) will lengthen a preceding stressed vowel.
+         2. The spirantization of intervocalic voiced stops and m, whereby
+
+                                                                                     Intervocalic p t k disappeared through lenition (p > b etc. by 16) or spirantization
+            -m-             -b-           -d-
+                                                                                     (pp >/etc.by 19). Modern Welsh does not therefore have etymological word
+                                           i                     l
+                                                                                     finalptk. Where these occur today, they are in modem loans:
+                     -v-                                        -Y-           (17)
+
+                                                        -0-             -j-                              map                  [map:]                 map
+                                                                                                         siop                 flop:]                'shop'
+      Modem Welsh post-tonic v 8 are not geminate.                                                       mat                  ['mat:]               'mat'            (20)
+                                                                                                         cloc                 f'kbki]               'clock*
+         3. The nasalization of voiced stops, whereby
+                                                                                     For loanwords where an original long vowel has been retained, the final con-
+                                                                                     sonant is usually lenited and then accords with (12):
+                     -mb-                -nd-                   -ng-
+                       i                  I                       I           (18)
+                                                                                                         clog                 t'klo:g]             'cloak'           (21)
+                     -mm-                -nn-                   -qrj-
+
+      Many modem Welsh final nasals are geminates and (14) will in such cases           The lengthening environments listed in (12) are thus the consequence of
+      not lengthen a preceding stressed vowel. Final m is always geminate, and       diachronic processes that have resulted in precisely the syllabic structure of the
+      former intervocalic nongeminate m was spirantized to v by (17), which          lengthening environment of (14), and the productivity of this rule is illustrated
+      explains why there is no m in (12).                                            by the way in which this environment is preserved when the syllable structure of
+                                                                                     loanwords is adapted to it.
+         4. The spirantization and aspiration (devoicing) of liquids from
+                                                                                     CONCLUSION
+      underlying clusters under various conditions means that surface r 1
+      following stressed vowels in Modem Welsh are long consonants derived           The lengthening environments (12) result from diachronic processes of muta-
+      from underlying geminates as outlined in the introduction. Consequently,       tion, lenition, spirantization and simplification. Where these are still productive,
+      they do not form part of the lengthening environment in (12,14).               they will be represented by phonological rules that yield the respective
+                                                                                     environments of (12). Alternatively, where these processes have ceased to be
+                                                                                     active, their relics are written directly into the underlying lexical forms as tokens
+                                                                                     of completed sound changes. In either case, the non-lengthening environments
+                                                                                     will appear as consonant geminates or clusters that are input to a simple rule
+236                              SIDNEY WOOD
+
+
+similar to (14), and the tiresome cataloguing of phonetic environments as in (12)
+will be unnecessary.
+   The question of quantity and tense-lax differences in stressed penults warrants
+further attention.
+
+REFERENCES
+Awbery, Gwenllian M . 1975. 'Welsh mutations: syntax or phonology?'. Archi-
+    vum Linguisticum 6ns, 14-25.
+Fowkes, Robert A . 1949. 'Initial mutation of loanwords in Welsh'. Word 5,203-
+    213.
+Fowkes, Robert A . 1953. 'The synchronic method and Welsh consonantism'.
+    Word 9, 142-145.
+IP A . 1966. The Principles of the International Phonetic Association. London:
+   IPA.
+Jones, J. Morris. 1913. A Welsh Grammar. Oxford: Clarendon Press.
+Matthews, W. K. 1951. 'South Welsh phonemes'. Maitre Phonetique.
+Willis, Penny. 1986. The Initial Consonant Mutations in Welsh and Breton.
+    Bloomington: Indiana University Linguistics Club.
+Wood, Sidney A.J. 1975. 'Tense and lax vowels'. Working Papers 11, 110-134.
+    Lund: Dept. of Linguistics. Also in Working Papers 23 (1982), forthcoming
+    in Phonologica 1988.
+

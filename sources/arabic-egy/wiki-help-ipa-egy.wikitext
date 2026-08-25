@@ -1,0 +1,328 @@
+{{IPA key|H:IPA-ARZ|H:IPAEA|sort=Arabic, Egyptian}}
+The charts below show how the [[International Phonetic Alphabet|International Phonetic Alphabet (IPA)]] represents [[Egyptian Arabic]] pronunciations in Wikipedia articles. For a guide to adding IPA characters to Wikipedia articles, see [[Template:IPA]] and {{section link|Wikipedia:Manual of Style/Pronunciation#Entering IPA characters}}.
+
+See [[Egyptian Arabic phonology]] for a more thorough look at the sounds of Egyptian Arabic.
+
+The romanization of the examples is the commonly used form in [[Egypt]].
+
+{| style="background: none"
+|-
+| style="vertical-align: top;" |
+{| class="wikitable" style="text-align: center;"
+! colspan="5" | [[Consonant]]s
+|-
+! [[Help:IPA|IPA]]
+! Arabic letter
+! Example
+! Romanization !! English approximation
+|-
+| <big>{{IPAlink|ʔ}}</big>
+| style="font-size: larger" | {{lang|arz|[[ء]]}}, {{lang|arz|[[أ]]}}, {{lang|arz|[[إ]]}}, {{lang|arz|[[آ]]}}, {{lang|arz|[[ؤ]]}}, {{lang|arz|[[ئ]]}}, {{lang|arz|[[ق]]}}
+| {{lang|arz|مؤمن}}<br>{{IPA|[ˈmo'''ʔ'''men]}}
+| {{Transliteration|arz|[[Moamen Soliman|Mo'''a'''men]]}}
+| uh-('''ʔ''')oh
+|-
+| <big>{{IPAlink|ʕ}}</big>
+| style="font-size: larger" | {{lang|arz|[[ع]]}}
+| {{lang|arz|عين}}<br>{{IPA|['''ʕ'''eːn]}}
+| {{Transliteration|arz|[[eye|'''e'''in]]}}
+| ''no equivalent''
+|-
+| <big>{{IPAlink|b}}</big>
+| style="font-size: larger" | {{lang|arz|[[ب]]}}
+| {{lang|arz|بواب}}<br>{{IPA|['''b'''æwˈwæː'''b''']}}
+| {{Transliteration|arz|[[doorman (profession)|'''b'''awa'''b''']]}}
+| '''b'''ike
+|-
+| <big>{{IPAlink|d}}</big>
+| style="font-size: larger" | {{lang|arz|[[د]]}}
+| {{lang|arz|دقه}}<br>{{IPA|[ˈ'''d'''æʔʔæ]}}
+| {{Transliteration|arz|[[duqqa|'''d'''akka]]}}
+| '''d'''one
+|-
+| <big>{{IPA link|dˤ}}</big>
+| style="font-size: larger" | {{lang|arz|[[ض]]}}
+| {{lang|arz|ضمير}}<br>{{IPA|['''dˤ'''ɑˈmiːɾ]}}
+| {{Transliteration|arz|[[conscience|'''d'''amir]]}}
+| ''emphatic'' {{IPAslink|d}}
+|-
+| <big>{{IPAlink|f}}</big>
+| style="font-size: larger" | {{lang|arz|[[ف]]}}
+| {{lang|arz|فول}}<br>{{IPA|['''f'''uːl]}}
+| {{Transliteration|arz|[[ful medames|'''f'''oul]]}}
+| '''f'''ast
+|-
+| <big>{{IPAlink|ɡ}}</big>
+| style="font-size: larger" | {{lang|arz|[[ج]]}}
+| {{lang|arz|جمال}}<br>{{IPA|['''ɡ'''æˈmæːl]}}
+| {{Transliteration|arz|[[Jamal|'''G'''amal]]}}
+| '''g'''as
+|-
+| <big>{{IPA link|h}}</big>
+| style="font-size: larger" | {{lang|arz|[[هـ]]}}
+| {{lang|arz|هشام}}<br>{{IPA|['''h'''eˈʃæːm]}}
+| {{Transliteration|arz|[[Hesham|'''H'''esham]]}}
+| '''h'''at
+|-
+| <big>{{IPA link|ħ}}</big>
+| style="font-size: larger" | {{lang|arz|[[ح]]}}
+| {{lang|arz|حب}}<br>{{IPA|['''ħ'''ob]}}
+| {{Transliteration|arz|[[love|'''h'''ob]]}}
+| '''h'''ad, ''but [[Pharyngeal consonant|pharyngeal]]''
+|-
+| <big>{{IPA link|j}}</big>
+| style="font-size: larger" | {{lang|arz|[[ي|ى]]}}
+| {{lang|arz|ياما}}<br>{{IPA|[ˈ'''j'''æːmæ]}}
+| [[:incubator:wt/arz/ياما|{{Transliteration|arz|'''y'''ama}}]]
+| '''y'''es
+|-
+| <big>{{IPAlink|k}}</big>
+| style="font-size: larger" | {{lang|arz|[[ك]]}}
+| {{lang|arz|كوارع}}<br>{{IPA|['''k'''æˈwæːɾeʕ]}}
+| {{Transliteration|arz|[[khash (dish)|'''k'''awarea]]}}
+| s'''k'''in
+|-
+| <big>{{IPAlink|l}}</big>
+| style="font-size: larger" | {{lang|arz|[[ل]]}}
+| {{lang|arz|لمبه}}<br>{{IPA|[ˈ'''l'''ɑmbɑ]}}
+| {{Transliteration|arz|[[lamp|'''l'''amba]]}}
+| '''l'''ip
+|-
+| <big>{{IPAlink|m}}</big>
+| style="font-size: larger" | {{lang|arz|[[م]]}}
+|  {{lang|arz|مازوره}}<br>{{IPA|['''m'''ɑˈzuːɾɑ]}}
+| {{Transliteration|arz|[[tape measure|'''m'''azoura]]}}
+| '''m'''other
+|-
+| <big>{{IPAlink|n}}</big>
+| style="font-size: larger" | {{lang|arz|[[ن]]}}
+| {{lang|arz|نونو}}<br>{{IPA|[ˈ'''n'''uː'''n'''u]}}
+|  {{Transliteration|arz|[[baby|'''n'''ou'''n'''ou]]}}
+| '''n'''est
+|-
+| <big>{{IPAlink|q}}</big><ref name=":3">The classicized consonant {{IPAblink|q}} only occurs in Classical Arabic borrowings and proper nouns.</ref>
+| style="font-size: larger" | {{lang|arz|[[ق]]}}
+| {{lang|arz|القاهره}}<br>{{IPA|[el'''q'''ɑ(ː)ˈheɾɑ]}}
+| {{Transliteration|arz|[[Cairo|el '''K'''ahera]]}}
+| '''c'''ap, ''but [[Uvular consonant|uvular]]''
+|-
+| <big>{{IPA link|ɾ}}</big><ref name=":4">The rhotic consonant is in free variation between a trill {{IPAblink|r}} and a flap {{IPAblink|ɾ}}.</ref>
+| style="font-size: larger" | {{lang|arz|[[ر]]}}
+| {{lang|arz|راجل}}<br>{{IPA|[ˈ'''ɾ'''ɑːɡel]}}
+| {{Transliteration|arz|[[man|'''r'''agel]]}}
+| ''Flapped or rolled '''R'''''
+|-
+| <big>{{IPAlink|s}}</big>
+| style="font-size: larger" | {{lang|arz|[[س]]}}<br>{{lang|arz|[[ث]]}}
+| {{lang|arz|سوق}}<br>{{IPA|['''s'''uːʔ]}}<br>
+{{lang|arz|ثامر}}<br>{{IPA|[ˈ'''s'''æːmeɾ]}}
+| {{Transliteration|arz|[[souq|'''s'''ouk]]}}
+''{{Transliteration|arz|[[Thamer|'''Th'''amer]]}}''
+| '''s'''orry
+|-
+| <big>{{IPAlink|sˤ}}</big>
+| style="font-size: larger" | {{lang|arz|[[ص]]}}
+| {{lang|arz|صباح}}<br>{{IPA|['''sˤ'''ɑˈbɑːħ]}}
+| {{Transliteration|arz|[[Sabah (singer)|'''S'''abah]]}}
+| ''emphatic'' {{IPAslink|s}}
+|-
+| <big>{{IPAlink|ʃ}}</big>
+| style="font-size: larger" | {{lang|arz|[[ش]]}}
+| {{lang|arz|شوربه}}<br>{{IPA|[ˈ'''ʃ'''oɾbɑ]}}
+| {{Transliteration|arz|[[soup|'''sh'''orba]]}}
+| '''sh'''ip
+|-
+| <big>{{IPAlink|t}}</big>
+| style="font-size: larger" | {{lang|arz|[[ت]]}}
+| {{lang|arz|توت}}<br>{{IPA|['''t'''uː'''t''']}}
+| {{Transliteration|arz|[[wikt:mulberry|'''t'''ou'''t''']]}}
+| s'''t'''ar
+|-
+| <big>{{IPA link|tˤ}}</big>
+| style="font-size: larger" | {{lang|arz|[[ط]]}}
+| {{lang|arz|طارق}}<br>{{IPA|[ˈ'''tˤ'''ɑːɾeʔ]}}
+| {{Transliteration|arz|[[Tariq|'''T'''arek]]}}
+| ''emphatic'' {{IPAslink|t}}
+|-
+| <big>{{IPA link|w}}</big>
+| style="font-size: larger" | {{lang|arz|[[و]]}}
+| {{lang|arz|وش}}<br>{{IPA|['''w'''eʃ]}}
+| {{Transliteration|arz|[[face|'''w'''esh]]}}
+| '''w'''ater
+|-
+| <big>{{IPA link|x}}</big>
+| style="font-size: larger" | {{lang|arz|[[خ]]}}
+| {{lang|arz|خريف}}<br>{{IPA|['''x'''æˈɾiːf]}}
+| {{Transliteration|arz|[[autumn|'''kh'''arif]]}}
+| lo'''ch''' ''([[Scottish English]])''
+|-
+| <big>{{IPA link|ɣ}}</big>
+| style="font-size: larger" | {{lang|arz|[[غ]]}}
+| {{lang|arz|غسيل}}<br>{{IPA|['''ɣ'''æˈsiːl]}}
+| {{Transliteration|arz|[[laundry|'''gh'''asil]]}}
+| ''[[Guttural R|French "R"]]''
+|-
+| <big>{{IPAlink|z}}</big>
+| style="font-size: larger" | {{lang|arz|[[ز]]}} {{lang|arz|[[ذ]]}}
+| {{lang|arz|زباله}}<br>{{IPA|['''z'''eˈbæːlæ]}}
+| {{Transliteration|arz|[[trash|'''z'''ebala]]}}
+| '''z'''ebra
+|-
+| <big>{{IPAlink|zˤ}}</big>
+| style="font-size: larger" | {{lang|arz|[[ظ]]}}
+| {{lang|arz|ظابط}}<br>{{IPA|[ˈ'''zˤ'''ɑːbet]}}
+| {{Transliteration|arz|[[wikt:officer|'''z'''abet]]}}
+| ''emphatic'' {{IPAslink|z}}
+|-
+! colspan="5" | Non-native Consonants<ref>The phonemes {{IPAslink|p}}, {{IPAslink|v}}, and {{IPAslink|ʒ}} are only found in loanwords and they can be pronounced as {{IPAslink|b}}, {{IPAslink|f}}, and {{IPAslink|ʃ}} respectively depending on the speaker.</ref>
+|-
+| <big>{{IPAlink|p}}</big>
+| style="font-size: larger" | {{lang|arz|[[پ]]}} {{lang|arz|[[ب]]}}
+| {{lang|arz|پيتر}}<br>{{IPA|[ˈ'''p'''iːteɾ, -tɑɾ]}}
+| {{Transliteration|arz|[[Peter (name)|'''P'''eter]]}}
+| s'''p'''ark
+|-
+| <big>{{IPAlink|v}}</big>
+| style="font-size: larger" | {{lang|arz|[[ڤ]]}} {{lang|arz|[[ف]]}}
+| {{lang|arz|نيڤين}}<br>{{IPA|[nɪˈ'''v'''iːn, ne-]}}
+| {{Transliteration|arz|[[Nevin|Ne'''v'''in]]}}
+| '''v'''iew
+|-
+| <big>{{IPAlink|ʒ}}</big>
+| style="font-size: larger" | {{lang|arz|[[چ]]}} {{lang|arz|[[ج]]}}
+| {{lang|arz|چورچ}}<br>{{IPA|['''ʒ'''oɾ'''ʒ''']}}
+| {{Transliteration|arz|[[George (given name)|'''Ge'''or'''ge''']]}}
+| vi'''s'''ion
+|}
+|
+|
+| style="vertical-align: top;" |
+{| class="wikitable"
+! colspan="4" | [[Vowel]]s
+|-
+! [[Help:IPA|IPA]]
+! Example
+! Romanization!!English approximation
+|-
+! colspan="4" | [[Monophthong|Monophthongs]]
+|-
+| style="text-align: center;" | <big>{{IPAlink|æ}}</big>
+| style="text-align: center;" | {{lang|arz|جمال}}<br>{{IPA|[ɡ'''æ'''ˈmæːl]}}
+| style="text-align: center;" | {{Transliteration|arz|[[Jamal|G'''a'''mal]]}}
+| m'''a'''d (short)
+|-
+| style="text-align: center;" | <big>{{IPAlink|ɑ}}</big>
+| style="text-align: center;" | {{lang|arz|لمبه}}<br>{{IPA|[ˈl'''ɑ'''mb'''ɑ''']}}
+| style="text-align: center;" | {{Transliteration|arz|[[lamp|l'''a'''mb'''a''']]}}
+| f'''a'''ther (short)
+|-
+| style="text-align: center;" | <big>{{IPAlink|ɪ|ɪ}}</big>~<big>{{IPAlink|e}}</big><ref name=":1">{{IPA|[ɪ~e]}} and {{IPA|[i]}} are allophones of the phoneme {{IPA|/i/}}. Word initial and medial {{IPA|/i/}} typically varies across {{IPA|[ɪ~e]}}, but it is strictly {{IPAblink|i}} at the end of words, in unstressed syllables, however surfaces as {{IPAblink|e}} as an epenthetic vowel in minimal pairs.
+</ref>
+| style="text-align: center;" | {{lang|arz|انتى}}<br>{{IPA|[ˈ'''e'''nti]}}
+| style="text-align: center;" | {{Transliteration|arz|[[you|'''e'''nti]]}}
+| s'''i'''t ''or'' s'''e'''t
+|-
+| style="text-align: center;" | <big>{{IPAlink|i}}</big><ref name=":1" />
+| style="text-align: center;" | {{lang|arz|انتى}}<br>{{IPA|[ˈent'''i''']}}
+| style="text-align: center;" | {{Transliteration|arz|[[you|ent'''i''']]}}
+| n'''ee'''d  (short)
+|-
+| style="text-align: center;" | <big>{{IPAlink|ʊ}}</big>~<big>{{IPAlink|o}}</big><ref name=":2">{{IPA|[ʊ~o]}} and {{IPAblink|u}} are allophones of the phoneme {{IPA|/u/}}. Word initial and medial {{IPA|/u/}} typically varies across {{IPA|[ʊ~o]}}, but it varies {{IPA|[u~ʊ~o]}} in final unstressed syllables.
+</ref>
+| style="text-align: center;" | {{lang|arz|انتو}}<br>{{IPA|[ˈent'''ʊ''']}}
+| style="text-align: center;" | {{Transliteration|arz|[[you|ent'''o''']]}}
+| p'''u'''t ''or'' m'''o'''re
+|-
+| style="text-align: center;" | <big>{{IPAlink|u}}</big><ref name=":2" />
+| style="text-align: center;" | {{lang|arz|نونو}}<br>{{IPA|[ˈnuːn'''u''']}}
+| style="text-align: center;" | {{Transliteration|arz|[[baby|noun'''ou''']]}}
+| c'''oo'''l (short)
+|-
+| style="text-align: center;" | <big>{{IPAlink|æː}}</big>
+| style="text-align: center;" | {{lang|arz|جمال}}<br>{{IPA|[ɡæˈm'''æː'''l]}}
+| style="text-align: center;" | {{Transliteration|arz|[[Jamal|Gam'''a'''l]]}}
+| m'''a'''d (long)
+|-
+| style="text-align: center;" | <big>{{IPAlink|ɑː}}</big>
+| style="text-align: center;" | {{lang|arz|بابا}}<br>{{IPA|[ˈb'''ɑː'''bɑ]}}
+| style="text-align: center;" | {{Transliteration|arz|[[papa|b'''a'''ba]]}}
+| f'''a'''ther (long)
+|-
+| style="text-align: center;" | <big>{{IPAlink|eː}}</big>
+| style="text-align: center;" | {{lang|arz|ليل}}<br>{{IPA|[l'''eː'''l]}}
+| style="text-align: center;" | {{Transliteration|arz|[[night|l'''ei'''l]]}}
+| b'''ay'''
+|-
+| style="text-align: center;" | <big>{{IPAlink|iː}}</big>
+| style="text-align: center;" | {{lang|arz|حبيبى}}<br>{{IPA|[ħæˈb'''iː'''bi]}}
+| style="text-align: center;" | {{Transliteration|arz|[[habib|hab'''i'''bi]]}}
+| n'''ee'''d (long)
+|-
+| style="text-align: center;" | <big>{{IPAlink|oː}}</big>
+| style="text-align: center;" | {{lang|arz|روح}}<br>{{IPA|[ɾ'''oː'''ħ]}}
+| style="text-align: center;" | {{Transliteration|arz|[[spirit|r'''o'''h]]}}
+| m'''o'''re (long)
+|-
+| style="text-align: center;" | <big>{{IPAlink|uː}}</big>
+| style="text-align: center;" | {{lang|arz|فول}}<br>{{IPA|[f'''uː'''l]}}
+| style="text-align: center;" | {{Transliteration|arz|[[ful medames|f'''ou'''l]]}}
+| c'''oo'''l (long)
+|-
+! colspan="4" | [[Diphthong|Diphthongs]] <small>(vowel+glide)</small>
+|-
+| style="text-align: center;" | <big>{{IPA|æj}}</big>
+| style="text-align: center;" | {{lang|arz|أيمن}}<br>{{IPA|[ˈʔ'''æj'''mæn]}}
+| style="text-align: center;" | {{Transliteration|arz|[[Ayman|'''Ay'''man]]}}
+| 
+|-
+| style="text-align: center;" | <big>{{IPA|ɑj}}</big>
+| style="text-align: center;" | {{lang|arz|مايه}}<br>{{IPA|[ˈm'''ɑj'''.jɑ]}}
+| style="text-align: center;" | {{Transliteration|arz|[[water|m'''ay'''ya]]}}
+| wh'''i'''te
+|-
+| style="text-align: center;" | <big>{{IPA|æw}}</big>
+| style="text-align: center;" | {{lang|arz|دوله}}<br>{{IPA|[ˈd'''æw'''læ]}}
+| style="text-align: center;" | {{Transliteration|arz|[[state (polity)|d'''aw'''la]]}}
+| 
+|-
+| style="text-align: center;" | <big>{{IPA|ɑw}}</big>
+| style="text-align: center;" | {{lang|arz|دوره}}<br>{{IPA|[ˈd'''ɑw'''ɾɑ]}}
+| style="text-align: center;" | {{Transliteration|arz|[[period|d'''aw'''ra]]}}
+|
+|-
+| style="text-align: center;" | <big>{{IPA|ej}}</big>
+| style="text-align: center;" | {{lang|arz|ميه}}<br>{{IPA|[ˈm'''ej'''.jæ]}}
+| style="text-align: center;" | {{Transliteration|arz|[[hundred|m'''ey'''ya]]}}
+| st'''ay'''
+|-
+| style="text-align: center;" | <big>{{IPA|ew~ow}}</big>
+| style="text-align: center;" | {{lang|arz|اوعه}}<br>{{IPA|[ˈ(ʔ)'''ew'''ʕæ]}}
+| style="text-align: center;" | {{Transliteration|arz|[[wikt:watch out|'''ew'''aa]]}}
+| 
+|-
+| colspan="4" style="border-left: #fff solid 1px; border-right:  #fff solid 1px" | &nbsp;
+|-
+! colspan="4" | [[International Phonetic Alphabet#Suprasegmentals|Suprasegmentals]]
+|-
+! [[Help:IPA|IPA]]
+! examples
+! colspan="2" | Explanation
+|-
+| style="text-align: center;" | <big>{{IPAlink|ˈ}}</big>
+| {{lang|arz|جميل}}<br>{{IPA|/ɡæ'''ˈ'''miːl/}} ("beautiful")
+| colspan="2" | Indicates that the following syllable is stressed.
+|-
+| style="text-align: center;" | <big>{{IPAlink|ː}}</big>
+| {{lang|arz|ليل}}<br>{{IPA|/le'''ː'''l/}} ("night")
+| colspan="2" | Indicates that the preceding vowel is long.
+|}
+|
+|}
+
+==Notes==
+{{reflist}}
+
+==See also==
+*{{clc|Pages with Egyptian Arabic IPA|pages}}
+
+{{IPA keys}}

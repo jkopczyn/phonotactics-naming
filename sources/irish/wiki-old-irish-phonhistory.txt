@@ -1,0 +1,1346 @@
+
+Phonological history of Old Irish
+Phonetic changes in the Old Irish language
+
+Old Irish was affected by a series of phonological changes that radically altered its appearance compared with Proto-Celtic and older Celtic languages (such as Gaulish, which still had the appearance of typical early Indo-European languages such as Latin or Ancient Greek). The changes occurred at a fairly rapid pace between 350 and 550 CE.[1]
+
+Summary of changes
+
+The original 20-letter Ogham alphabet used to write Primitive Irish.
+
+A capsule summary of the most important changes is (in approximate order):[2][3]
+
+Syllable-final *n (from PIE *m, *n) assimilated to the following phoneme, even across word boundaries in the case of syntactically connected words.
+
+Voiceless stops became voiced: *mp *nt *nk > /b d ɡ/.
+
+Voiced stops became prenasalised /ᵐb, ⁿd, ᵑɡ/. They were reduced to simple nasals during the Old Irish period.
+
+Before a vowel, /n-/ was attached to the beginning of the syllable.
+
+Lenition of all single consonants between vowels. That applied across word boundaries in the case of syntactically connected words.
+
+Stops became fricatives.
+
+*s became /h/ (later lost unless the following syllable was stressed).
+
+*w was eventually lost (much later).
+
+*m became a nasalised continuant (/w̃/; perhaps [w̃] or [β̃]).
+
+*l *n *r remained, but the non-lenited variants were strengthened to /L N R/ (see Old Irish phonology).
+
+Extensive umlaut ("affection") of short vowels, which were raised or lowered to agree with the height of following Proto-Celtic vowels. Similarly, rounding of *a to /o/ or /u/ often occurred adjacent to labial consonants.
+
+Palatalization of all consonants before front vowels.
+
+Loss of part or all of final syllables.
+
+Loss of most interior vowels (syncope).
+
+They led to the following effects:
+
+Both the palatalised ("slender") and lenited variants of consonants were phonemicised, multiplying the consonant inventory by four (broad, broad lenited, slender, slender lenited). Variations between broad and slender became an important part of the grammar:
+
+in masc. o-stems: macc "son" (nom. acc.) vs. maicc (gen.), cúl "back" (nom. acc.) vs. cúil (gen.), cf. Latin -us (nom.), -um (acc.) vs. -ī (gen.);
+
+in fem. ā-stems: túath "tribe, people" (nom.) vs. túaith (acc. dat.), mucc "pig" (nom.) vs. muicc (acc. dat.);
+
+in r-stems: athar "father" (gen.) vs. ath(a)ir (nom. acc. dat.).
+
+Lenition and nasal assimilation across word boundaries in syntactically connected words produced extensive sandhi effects (Irish initial mutations). The variations became an important part of the grammar.
+
+Both umlaut (vowel affection) and especially syncope radically increased the amount of allomorphy found across declensions and conjugations. The most dramatic deviations are due to syncope: compare as·berat "they say" vs. ní-epret "they do not say" or do·rósc(a)i "he surpasses" vs. ní-derscaigi "he does not surpass" (where the stressed syllable is boldfaced).
+
+Syncope in detail
+
+In more detail, syncope of internal syllables involved the following steps (in approximate order):
+
+Loss of most final consonants, including *m, *n, *d, *t, *k, and all clusters involving *s (except *rs, *ls, where only the *s is lost).
+
+Loss of absolutely final short vowels (including those that became final as a result of loss of a final consonant and original long final vowels).
+
+Shortening of long vowels in unstressed syllables.
+
+Collapsing of vowels in hiatus (producing new unstressed long vowels).
+
+Syncope (deletion) of vowels in every other interior unstressed syllable following the stress. If there are two remaining syllables after the stress, the first one loses its vowel; if there are four remaining syllables after the stress, the first and third lose their vowel.
+
+Resolution of impossible clusters resulting from syncope and final-vowel deletion:
+
+Adjacent homorganic obstruents where either sound was a fricative became a geminate stop, voiceless if either sound was voiceless (e.g. *ðð *dð *ðd > /dd/; *θð *ðθ *θd *tθ etc. > /tt/).
+
+Otherwise, adjacent obstruents assumed the voicing of the second consonant (e.g. *dt > /tt/; *kd > /ɡd/; *ɣt > /xt/).
+
+*l *r *n not adjacent to a vowel became syllabic and then had a vowel inserted before them (e.g. domun "world" < *domn < *domnos < *dumnos; immormus "sin" < *imm-ro-mess). However, in the case of *n, that occurred only when the nasal had not previously been joined to a following voiced stop as a result of nasal assimilation: compare frecnd(a)irc "present" (disyllabic).
+
+Remaining impossible clusters were generally simplified by deletion of consonants not adjacent to vowels (such as between other consonants). However, Old Irish tolerated geminates adjacent to other consonants as well other quite complex clusters: ainm /aNʲm/ "name" (one syllable), fedb /fʲeðβ/ "widow", do-aidbdetar /do-ˈaðʲβʲðʲədər/ "they are shown".[4]: 70, 100 
+
+Changes to Proto-Celtic stressed short vowels
+
+During the Old Irish period, six extra letters (forfeda) were added to the Ogham script to represent sounds that were not present in Primitive Irish.
+
+All five Proto-Celtic short vowels (*a, *e, *i, *o, *u) survived into Primitive Irish more or less unchanged in stressed syllables.
+
+During approximately A.D. 450-550 (just before the Old Irish period, c. 600-900), however, there occurred several vowel-changes (umlauts). Former vowels are modified in various ways depending on the following vowels (or sometimes surrounding consonants). The mutations are known in Celtic literature as affections or infections such as these, the most important ones:[4]: 46–50, 57 
+
+i-affection: Short *e and *o are raised to i and u when the following syllable contains a high vowel (*i, *ī, *u, *ū). It does not happen when the vowels are separated by voiceless consonants or certain consonant groups.
+
+a-affection: Short *i and *u are lowered to e and o when the following syllable contains a non-high back vowel (*a, *ā, *o, *ō[clarification needed]).
+
+u-infection: Short *a, *e, *i are broken to short diphthongs au, eu, iu when the following syllable contains a *u or *ū that was later lost. It is assumed that at the point the change operated, u-vowels that were later lost were short *u while those that remain were long *ū. The change operates after i-affection so original *e may end up as iu.
+
+Nominal examples (reconstructed forms are Primitive Irish unless otherwise indicated):
+
+	Word	Form	Derivation	Affection
+
+	sen "old"	nom. sg.	< *senos	
+
+	sin
+	gen. sg.
+	< *senī
+	i‑affection
+
+	siun
+	dat. sg.
+	
+< *senu < *senū < PIE *senōi
+
+	
+i‑affection & u‑affection
+
+	sinu
+	acc. pl.
+	< *senūs
+	
+i‑affection
+
+no u‑affection because u remains
+
+	
+fer "man"
+
+	nom. sg.
+	
+< *wiras < *wiros
+
+	a‑affection
+
+	fir
+	gen. sg.
+	*wirī
+	
+no a‑affection
+
+	fiur
+	dat. sg.
+	
+< *wiru < *wirū < PIE *wirōi
+
+	u‑affection
+
+	firu
+	acc. pl.
+	
+< *wirūs < PIE *wirons
+
+	
+no u‑affection because u remains
+
+	
+nert "strength"
+
+	nom. sg.
+	
+	
+
+	neurt
+	dat. sg.
+	
+< *nertu < *nertū < PIE *nertōi
+
+	
+u‑affection, but i‑affection blocked by the cluster rt
+
+	
+mil "honey"
+
+	nom. sg.
+	< *meli
+	i‑affection
+
+	
+milis "sweet"
+
+	adj.
+	< *melissos
+	i‑affection
+
+	
+fiurt "miracle"
+
+	nom. sg.
+	
+< *wirtus < Latin virtus
+
+	u‑affection
+
+	fert(a)e
+	nom. pl.
+	< *wirtowes
+	a‑affection
+
+Before i-affection occurred, there was also a lowering of initial-syllable Proto-Celtic e to a before palatalized reflexes of *g, *gʷ, unless a /j/ followed them in the next syllable in Primitive Irish (no matter the /j/'s origin) which would instead lead to i-affection to i. For instance, Proto-Celtic *legeti-s "(s)he lies" vs. *legonti-s "they lie" vs. *legyom "lying" led to a three-way split in Old Irish laigid, legait, and lige respectively.[5]: 111 
+
+Verbal paradigm example:
+
+		form	Pronunciation	Meaning	Prim Irish	Post-PIE	Comments
+
+	Absolute 1sg	biru	/bʲiru/	"I carry"	*berūs	*bʰerō + -s	i-affection
+
+	Absolute 2sg	biri	/bʲirʲi/	"you (sg.) carry"	*berisis	*bʰeresi + -s	i-affection (unstressed *-es- > *-is- in Primitive Irish, also found in s-stems)
+
+	Absolute 3sg	beirid	/bʲerʲəðʲ/	"he carries"	*beretis	*bʰereti + -s	Unstressed i = /ə/ with surrounding palatalised consonants; see #Orthography
+
+	Conjunct 1sg	·biur	/bʲĭŭr/	"I carry"	*beru < *berū	*bʰerō	i-affection + u-affection
+
+	Conjunct 2sg	bir	/bʲirʲ/	"you (sg.) carry"	*beris < *berisi	*bʰeresi	i-affection (unstressed *-es- > *-is- in Primitive Irish)
+
+	Conjunct 3sg	beir	/bʲerʲ/	"he carries"	*beret < *bereti	*bʰereti	i in ei signals palatalisation of following consonant; see #Orthography
+
+The result of i-affection and a-affection is that it is often impossible to distinguish whether the root vowel was originally *e or *i (sen < *senos and fer < *wiros have identical declensions). However, note the cases of nert vs. fiurt above for which i-affection, but not a-affection, was blocked by an intervening rt.
+
+Complications of u-infection
+
+The result of u-infection of *a eventually reduced to /u/ during the Old Irish period. It does not share its later evolution with original *au, which instead became ó (or broken into úa) in Old Irish.[6]
+
+In addition, the u-affection of a when the u preceded a palatalized consonant originally turned the a into an /œ/, whose spelling varied among au, ai, i, e, and u depending on the scribe. /œ/ then spread to various terms prefixed with ar- "fore-" and ad- "ad-".[6]
+
+Stressed front vowels in hiatus
+
+Stressed short front vowels in hiatus underwent a loop throughout Primitive Irish and early Old Irish in which they would repeatedly switch between i and e. McCone outlines the loop as follows:[5]: 109, 130 
+
+Primitive Irish *e before a hiatus (i.e. over *ɸ or *y between two vowels) raised to *i before a non-front vowel.
+
+Primitive Irish *i before a hiatus then underwent a-affection normally, lowering it down to *e.
+
+In early Old Irish, stressed *e before a hiatus raised again to i if the hiatus avoided syncope. If syncope had removed the hiatus, the e was not raised.
+
+Examples of words that went through this loop include:
+
+The a-subjunctive paradigm of crenaid "to buy". 
+
+The 3rd-person plural conjunct *kʷreyasonti > *kʷriyad > *kʷread > ·criat showcases a full loop.
+
+The 3rd-person plural relative *kʷreyasontiyo > *kʷriyadiya > *kʷreade > crete shows Step 3 being skipped due to syncope deleting the hiatus that triggered the verb's progress in the loop.
+
+The declension of scé "whitethorn", where Step 1 is inapplicable.
+
+The nominative singular *skʷiyats > *skʷiyah > *skʷeah > *skʷe > scé shows apocope destroying a hiatus, leading to Step 3 being skipped.
+
+The genitive singular *skʷiyatos > *skʷiyaθah > *skʷeaθah > *skʷeaθ > *skʷeaθ > sciad shows a completed cycle with Steps 2 and 3 undergone.
+
+Short vowels before nasals and stops
+
+Proto-Celtic *a before nasals followed by a stop manifested as the allophone [æ] in the prehistory of Irish.
+
+Short vowels [æ] and *e, and *i regularly became e before nasals followed by originally voiceless stops, which then lengthened to é in stressed syllables.
+
+cét "100" < *kantom and éc "death" < *ankus
+
+sét "path, way" < *sentus
+
+léicid "lets, leaves" < *linkʷeti- (secondarily transferred to the weak verbs)
+
+But a different development of [æ] occurred before nasals followed by voiced stops. According to Schrijver, this [æ] became i when affected by i-affection and a when it was not.[7] McCone however instead believes that i was the default outcome of [æ] before voiced nasals unless a-affection applied, lowering it down to a.[5] Some examples of these developments include:
+
+Without raising:
+
+land "land" < *landā
+
+camm "crooked" < *kambos
+
+and "in it" < *andom
+
+With raising:
+
+bind "melodious" < *bandis
+
+imm "around" < *ambi
+
+ingen "fingernail, toenail" < *angʷīnā
+
+imbliu "navel" < *ambliyū
+
+Additionally, [æ] and *e were also raised to i when followed by a nasal, a voiced stop, and then either *e or a word-final *a followed by a nasal, despite those vowels not triggering i-affection.
+
+imb "butter" < *amban
+
+cing "he/she steps (conjunct)" < *kenget < *kengeti
+
+Rounding of vowels by labiovelars
+
+In Primitive Irish, *a and *i were rounded to o and u respectively when preceded by Celtic labiovelars *kʷ and *gʷ or a consonant cluster containing them. The rounding of *i also required the following consonant to be palatalised. This rounding occurred after i-affection as ·guid "prays" (< *gʷedyeti) faced rounding even though the rounded vowel was originally an *e.[8] Since ·cren "buys" (< *kʷrinati) faced no rounding even though its stressed vowel was originally an *i, the rounding may also have taken place after a-affection as well,[5]: 118  but Schrijver does not find the evidence for that to be reliable.[7]
+
+Examples of this rounding process include:
+
+goin "wounds, kills" < *gʷaneti
+
+gor "pious" < *gʷaros
+
+coire "cauldron" < *kʷaryos
+
+cruim "worm" < *kʷrimis
+
+cruinn "of a tree" < *kʷresnī (the nominative singular crann is secondary)
+
+cuit "portion" < *kʷesdis
+
+Original *a preceded by a labiovelar consonant and followed by *n and an originally voiceless stop was rounded and then broken into Old Irish óe, oí /oi̯/.[9]
+
+·góet "was wounded" < *gʷantos
+
+coíca "fifty" < *kʷankʷkonts
+
+Compensatory lengthening before fricatives
+
+After a-affection occurred in Primitive Irish, dental and velar fricatives were dropped when immediately preceding a sonorant consonant, but transformed the preceding vowel into a long vowel or a diphthong. This development affected both stressed and unstressed syllables.[5]: 122–123 
+
+Old Irish outcomes of compensatory lengthening by fricatives
+
+	Proto-Celtic etymon
+	Primitive Irish
+	Old Irish
+	Meaning
+	Comments
+
+	*ɸetnos
+	*eθn
+	én
+	"bird" (nominative singular)
+	*e before a lost fricative became é before non-palatal sonorants but diphthongised into éu before palatal sonorants.
+
+	*ɸetnī
+	*eθʲnʲ
+	éuin
+	"bird" (genitive singular)
+
+	*agrom
+	*aɣr
+	ár
+	"slaughter, carnage"
+	The outcome of Primitive Irish *aɣ before a sonorant contrasts with the outcome of *axr.
+
+	*dakru
+	*daxr
+	dér
+	"teardrop"
+	Special outcome of Primitive Irish *axr.
+
+	*kenetlom
+	*kʲenʲeθl
+	cenél
+	"tribe, people"
+	Fricative-induced lengthening also applied to unstressed syllables.
+
+	*kuklowe
+	*koxlowe
+	cúalae
+	"(s)he heard"
+	ó created by this compensatory lengthening may break into úa. Also demonstrates how a-affection occurred before this lengthening.
+
+	*kikrīsonti
+	*kixrīsod
+	(ara)·chíurat
+	"they will perish"
+	*i before a lost fricative diphthongised into íu.
+
+Proto-Celtic long vowels and diphthongs
+
+Proto-Celtic long vowels and diphthongs develop in stressed syllables as follows:
+
+	Proto-Celtic	archaic Old Irish	later Old Irish	Example(s)
+
+	*ī	í	rí (gen. ríg) "king" (cf. Latin rēx, Sanskrit rājan-)
+rím "number" (cf. Old English rīm, Latin rītus "rite")
+
+	*ā	á	máthir "mother" (cf. Latin māter)
+dán "gift" (cf. Latin dōnum)
+
+	*ū	ú	cúl "back" (cf. Latin cūlus "ass, buttocks")
+
+	*ai	/ai/ (spelled áe or aí)	merged (both spellings used)	cáech "one-eyed" < PC *kaikos < PIE *keh₂i-ko- (cf. Latin caecus "blind", Gothic háihs "one-eyed")
+
+	*oi	/oi/ (spelled óe or oí)	oín, óen "one" < PIE *oinos (cf. archaic Latin oenos)
+
+	*ei > ē
+	é
+	ía[* 1]
+	·tíagat "they go" < archaic ·tégot < PIE *steigʰ- (cf. Ancient Greek steíkhein "to walk", Gothic steigan 'to go up')[4]: 36 
+
+	é[* 2]
+	·téig "you go", also from PIE *steigʰ-
+
+	*au (+C)[* 3] > ō	ó	úa	úaithed, úathad "singleness" < PC *autīto- < IE *h₂eu "again" + *to- "that" (cf. Ancient Greek autós "self")
+
+	*eu/ou (+C)[* 3] > ō	núa, núë "new" < archaic núae < PC *noujos (cf. Gaulish novios) < IE *neu-io-s (cf. Gothic niujis)
+túath "tribe, people" < PC *toutā < IE *teutā (cf. Gothic þiuda)
+rúad "red" < PC *roudos < PIE *h₁reudʰ- (cf. Gothic rauþs)
+
+	*au (not +C)[* 4]	áu	ó	ó "ear" < archaic áu, aue < PC *ausos < IE *h₂eus- (cf. Latin auris)
+nó "ship" < archaic náu < PC *nāwā < PIE *neh₂u- (cf. Latin nāvis)
+
+	*ou (not +C)[* 4]	óu > áu	bó 'cow' < archaic báu < early archaic bóu (c. a.d. 700) < PC *bowos (gen.sg.) < PIE *gʷh₃-eu-
+
+The Old Irish diphthongs úi, éu, íu stem from earlier sequences of short vowels separated by *w, e.g. drúid- "druid" < *dru-wid- "tree-knower".
+
+Most instances of é and ó in nonarchaic Old Irish are due to compensatory lengthening of short vowels before lost consonants or to the merging of two short vowels in hiatus: cét /kʲeːd/ 'hundred' < Proto-Celtic kantom (cf. Welsh cant) < PIE *kṃtóm.
+
+Changes to Proto-Celtic consonants
+
+Facsimile of Folio 53 from the Book of Leinster.
+
+Overview
+
+See Proto-Celtic for various changes that occurred in all the Celtic languages, but these are the most important:
+
+PIE *gʷ > Proto-Celtic *b (but PIE *gʷʰ > *gʷ).
+
+Loss of aspiration in *bʰ *dʰ *gʰ *gʷʰ.
+
+Loss of *p. Initially and intervocalically it was simply deleted; elsewhere, it variously became *w, *b, *x etc.
+
+From Proto-Celtic to Old Irish, the most important changes are these:
+
+Lenition and palatalisation, multiplying the entire set of consonants by 4. See #History for more details.
+
+Loss of most final consonants. See #Syncope in detail.
+
+Proto-Celtic *s is lenited to /h/, which then disappears between vowels. In general, Old Irish s when not word-initial stems from earlier geminate ss (often still written as such, especially in archaic sources).
+
+Proto-Celtic *kʷ *gʷ remain in Ogam Irish (maqqi "son" (gen. sg.)) but become simple c g in Old Irish. Occasionally, they leave their mark by rounding the following vowel.
+
+Proto-Celtic *w is lost early on between vowels, followed by early hiatus resolution. In some cases, *w combines with a preceding vowel to form a diphthong: béu béo "living, alive" < *bewas < *biwos < *gʷih₃uós.[4]: 125  Other instances of *w become [β], which still remains in Ogam Irish. By Old Irish times, this becomes f- initially (e.g. fer "man" < *wiros, flaith "lordship" < *wlātis), lenited b after lenited voiced sounds (e.g. tarb "bull" < *tarwos, fedb "widow" < *widwā), f after lenited *s (lenited fïur "sister" < *swesōr), and is lost otherwise (e.g. dáu "two" < *dwōu, unlenited sïur "sister" < *swesōr).
+
+Proto-Celtic *y becomes *iy after a consonant, much as in Latin. The vowel *i often survives before a lost final vowel, partly indicating the nature of the final vowel as a result of vowel affection: cride cridi cridiu "heart" (nom. gen. dat.) < *kridion *kridiī *kridiū < *kridiyom *kridiyī *kridiyū < PIE *ḱr̥d- (e.g. gen. *ḱr̥d-és). After this, *y is lost everywhere (after palatalising a preceding consonant).
+
+Basic outcomes and consonant mutation
+
+In the onsets of stressed syllables, Proto-Celtic stops, *m, and *s were preserved. On the other hand, *y and *ɸ were always lost. But in other situations, inherited consonants often mutated into different consonants entirely. The two major mutations are lenition and nasalization. These mutations not only operated between word boundaries (as a synchronic grammatical process well-known in Insular Celtic languages) but also word-internally.
+
+Lenition
+
+When lenition applied, stop consonants and /m/ became fricatives. Lenition applied to a consonant when it was either between two vowels, or in syllable codas immediately after a vowel. The lenition mutations did not all arise in one wave of sound change; instead, there were three phases of lenition.[5]: 81–91, 96–97 
+
+The first wave of lenitions was that of voiced stops and /m/, which can even be posited at the Proto-Celtic level.
+
+The second wave of lenition was that of the coronal sonorants (*l, *n, and *r) and *s, which can be traced to at least the Insular Celtic level, since Welsh also mutates coronal sonorants.
+
+Unlike the lenition of stops, the "lenited" outcomes are original and the "unlenited" outcomes come from the fortition of the "lenited" sonorants.
+
+Lenition of /s/ to /h/, while being another mutation of Insular Celtic date grammaticized in Goidelic, failed to be grammaticized in the Brittonic languages.
+
+The last of the lenitions was that of voiceless stops. Given that Brittonic lenitions of these stops produced voiced stops, instead of the Goidelic voiceless fricatives, this lenition can only be dated to early Primitive Irish or a proto-stage immediately before it.
+
+Nasalization
+
+On the other hand, nasalization of a consonant was triggered by following a nasal consonant.
+
+Voiceless stops became voiced stops with the trigger nasal lost.
+
+In front of voiced stops, both the stop and nasal coexisted in earlier Old Irish but the nasal came to absorb the stop in later Irish.
+
+*w uniquely turned into a voiced labial fricative when nasalized.
+
+Other sonorants and *s surface, after nasalization, with the same outcomes as if unlenited.
+
+This mutation gave rise to the eclipsis mutation in modern Irish.
+
+Table of basic consonant outcomes
+
+Below is a table of basic Old Irish reflexes of Proto-Celtic consonants, including unmutated and mutated outcomes.
+
+Basic outcomes of Proto-Celtic consonants in Old Irish 
+(ignoring palatalization)
+
+	Proto-Celtic
+	Old Irish outcome
+
+	Unlenited
+	Lenited
+	Nasalized
+
+	*t
+	t /t/
+	th /θ/
+	t /d/
+
+	*k, *kʷ
+	c /k/
+	ch /x/
+	c /ɡ/
+
+	*b
+	b /b/
+	b /β/
+	mb /m(b)/
+
+	*d
+	d /d/
+	d /ð/
+	nd /n(d)/
+
+	*g, *gʷ
+	g /ɡ/
+	g /ɣ/
+	ng /ŋ(ɡ)/
+
+	*ɸ
+	(lost)
+
+	*s
+	s /s/
+	s /h/ word-initially, 
+ lost word-internally
+	s /s/
+
+	*y
+	(lost)
+
+	*w
+	f /f ~ ɸ/
+	(lost)
+	f /v ~ β/
+
+	*m
+	m /m/
+	m /β̃/
+	m /m/
+
+	*n
+	(n)n /N/
+	n /n/
+	(n)n /N/
+
+	*l
+	(l)l /L/
+	l /l/
+	(l)l /L/
+
+	*r
+	(r)r /R/
+	r /r/
+	(r)r /R/
+
+Initial clusters
+
+Old Irish preserves, intact, most initial clusters unlike many other Indo-European languages.
+
+Preserved initial clusters:[4]: 128–140 
+
+sn- sm- sr- sl- sc- scr- scl-, e.g. snám "swimming", smiur "marrow", sruth "stream", scáth "shadow, reflection", scrissid "he scratches (out)", scléo "misery (?)".
+
+cr- cl- cn-, e.g. crú "blood", cloth "fame", cnú "nut".
+
+gr- gl- gn-, e.g. grían "sun", glé "clear", gnáth "customary".
+
+tr- tl- tn-, e.g. tromm "heavy', tlacht "garment", tnúth "jealousy, passion".
+
+dr- dl-, e.g. dringid "he climbs", dlong(a)id "he cleaves".
+
+mr- ml-, e.g. mruig "land", mliuchtae "milch".
+
+br- bl-, e.g. brú "belly", bláth "flower".
+
+Modified initial clusters:[4]: 123–139 
+
+*wl- *wr- > fl- fr-, e.g. flaith "lordship" < *wlātis, froích "heather" < *wroikos.
+
+*sp-/*sw- > s- (lenited f-), e.g. sïur "sister" (lenited fïur) < *suior < PIE *swesōr.
+
+*st- > s-, e.g. sál "heel" < *stātlā < *steh₂- "to stand"
+
+But also irregularly > t-, e.g. tíagu "I go" < *stēgū-s < post-IE *steigʰō.
+
+*pl- *pr- lose the *p.
+
+PIE *gʷn- > Proto-Celtic *bn- > mn-, e.g. mná "woman" (gen. sg.) < *bnās < PIE *gʷneh₂s, an extremely archaic noun form.[* 5]
+
+Palatalization
+
+The palatalized consonants arose in multiple stages.[3][5]: 115–119  In theories of palatalization, the front vowels are Proto-Celtic e, ē, i and ī.
+
+First palatalization
+
+The first palatalization affected single consonants and sequences of a nasal consonant followed by a homorganic voiced stop. The palatalization depended on not only the vowel after the consonant, but also the vowel before the consonant. The following Proto-Celtic vowel setups were eligible for the first palatalization:
+
+Any consonant followed by i or ī, with two main exceptions:
+
+If the vowel before the consonant is ā and the sequence after is not -iy-.
+
+If the consonant is not coronal and the vowel before it is a stressed rounded vowel.
+
+A consonant entirely surrounded by any of the following vowels: e, ē, i, ī.
+
+The first palatalization must have occurred before a-affection, because otherwise the presence of palatalization of the genitive singular of ā-stems (ending in *-iyās > *-iyāh > *-eyāh > -e)  would be dependent on root shape, yet only nigh-inevitable palatalization is actually attested in such forms.
+
+Demonstrations of the first palatalization include:
+
+Old Irish first palatalization
+
+	Environment
+	Old Irish form
+	Meaning
+	Proto-forms
+	Palatalized?
+	Comments
+
+	*eCe
+	beirid
+	"carries"
+	*bereti-
+	Yes
+	Led to alternation between palatalization and non-palatalization in many S1/B I verbs
+
+	laigid
+	"lies (physically)"
+	*legeti-
+	Yes
+	Lowering of root vowel from e to a before lenited palatalized g occurred after the first palatalization, and in this case was in fact triggered by it
+
+	*aCe
+	canaid
+	"sings"
+	*kaneti-
+	No
+	Led to all present forms of canaid to not be palatalized except in the conjunct third-person-singular, which was affected by the second palatalization
+
+	*āCi, *āCī usually
+	máthair
+	"mother"
+	*mātīr
+	No
+	No palatalization in *āCī if no *y follows
+
+	*āCiy
+	áithe
+	"sharpness"
+	*ātiyā
+	Yes
+	But *āCiy leads to palatalization except if analogically removed (as is the case in W2/A II verb paradigms)
+
+	*oCi, *uCi, etc.
+	umae
+	"bronze"
+	*omiyom
+	No
+	No palatalization by *i/ī of non-coronal consonants after a rounded vowel
+
+	do·lugai
+	"forgives"
+	*dī-logīti
+	No
+
+	*oTi, *uTi, etc.
+	tuirem
+	"recounting"
+	*torīmā
+	Yes
+	Palatalization of coronal consonants preceded by a rounded vowel and followed by *i/ī
+
+	VCCV
+	áram
+	"counting"
+	*adrīmā
+	No
+	No palatalization over consonant clusters not consisting of a nasal followed by a homorganic stop, even if the cluster itself fails to survive into Old Irish.
+
+	erbaid
+	"entrusts"
+	*erbyeti-
+	No
+
+	VNDV
+	sluindid
+	"signifies"
+	*slondīti-
+	Yes
+	Consonant clusters consisting of a nasal followed by a homorganic stop are subject to the first palatalization according to the same rules as their corresponding lone intervocalic consonants.
+
+	cingid
+	"steps"
+	*kengeti-
+	Yes
+
+	ungae
+	"ounce"
+	Latin uncia
+	No
+
+Second palatalization
+
+After the first palatalization, another palatalization ensued. Final-syllable Primitive Irish front vowels, after merging into a "palatal schwa", forced the palatalization of any consonants preceding them except the consonant cluster cht /xt/, which could never be palatalized. Greene labels this stage the second palatalization, while McCone treats this as a substage of the first palatalization.
+
+Third palatalization
+
+The third palatalization entailed any front vowel in a second or fourth syllable of a Primitive Irish word causing the palatalization of the preceding consonants. Like with the final-syllable palatalization, these front vowels were generally assumed to merge into a palatalizing schwa before causing palatalization.
+
+The following Primitive Irish vowels merged into the palatalizing schwa in second or fourth non-final syllables:[10]
+
+Front vowels *e, *ē, *i and *ī
+
+*u before a palatalized consonant
+
+*ō and *a before a palatalized *s, via an intermediate raising to *u
+
+Other vowels were reduced to non-palatalizing schwas. After syncope regularly removed these vowels, the palatalization (or lack thereof) tended to spread across the resulting consonant cluster.
+
+However, if syncope results in a sonorant becoming surrounded by a consonant before it and a consonant after it, the effects of the third palatalization (or lack thereof) are often overridden by a special set of sound laws, presumed to be caused by the stranded sonorant assuming the role of syllable nucleus until epenthesis occurs before the sonorant.[11]
+
+Counterintuitive Old Irish outcomes of syncope and (non-)palatalisation
+
+	Original Primitive Irish syllable
+	Old Irish outcome
+	Examples
+
+	CREC
+	CəRʲCʲ
+	·comainsea /ˈkoṽənʲsʲa/ ("spurns") < *kom-ni-stāyeti
+
+	CRACʲ
+	CəRʲCʲ
+	ingainnti /ˈiŋɡəNʲtʲi/ ("unusualness") < *in-gnātiyā
+
+	CERC
+	CəRC
+	sonartu /ˈsonərtu/ ("stronger, firmer") < *su-nertyūs
+
+	C(C)Eh < C(C)Es
+	CC
+	cuccu /ˈkuku/ ("to them") < *kʷunkʷe sūs
+ impu /ˈimpu/ ("around them") < *ambi sūs
+ intaml- /ˈintəṽl-/ (prototonic stem of in·samlathar "imitates, emulates") < *ande-samal-
+
+Dissimilatory deletion of lenited consonants
+
+Lenited fricatives and /l/ straddling the boundary between a stressed syllable and an unstressed one tend to disappear if there is a homorganic consonant near the end of the next syllable. If a non-front vowel comes into contact with a front vowel after it due to this deletion, the two vowels fuse into a diphthong like oí or aí. Otherwise a hiatus between the two vowels may be formed instead.[12]
+
+For the purposes of this sound law, /h/ is treated as if homorganic with s, due to its general origin in lenitions of Proto-Celtic *s.
+
+Some examples of this sound law are given below:
+
+deac, deec /de.əɡ/ "-teen" < *deǣg < *dexǣg < *dekank < *dekam-kʷe "and 10" (/x/ deleted before /ɡ/)
+
+oíd /oið/ "lend!" < *oeðʲ < *oðeθʲ < *odete < *udete (/ð/ deleted before /θ/)
+
+coímthecht /koimʲ.θʲext/ "company" < *koimbiθʲext < *koṽʲimbiθʲext < *kom-ambi-tixtā (lenited m deleted before non-leniting m)
+
+foísam /foi.səṽ/ "protection" < *foisaṽ < *fohissaṽ < *uɸo-sistamus (lenited s deleted before another s)
+
+for·roíchan /forˈRoixən/ "I taught" < *-rochechan < *-ɸro-kekana (/x/ deleted before another /x/)
+
+·fóelus /foilus/ "I will sustain (prototonic)" < *folilussū < *uɸo-liluxsū (/l/ deleted before another /l/)
+
+This deletion and diphthong formation happened before syncope.[5]: 124  As a demonstration, coímthecht ended up syncopating its etymon's third syllable instead of the usual second. This can be explained by the first and second syllables fusing into one syllable due to dissimilatory deletion, making the etymon's third syllable the second syllable at the time of syncope.
+
+Intervocalic clusters
+
+Many intervocalic clusters are reduced, becoming either a geminate consonant or a simple consonant with compensatory lengthening of the previous vowel. During the Old Irish period, geminates are reduced to simple consonants, occurring earliest when adjacent to a consonant. By the end of the Old Irish period, written ll mm nn rr are repurposed to indicate the non-lenited sounds /L m N R/ when occurring after a vowel and not before a consonant.
+
+Cluster reduction involving *n:
+
+*nt *nk > unlenited /d ɡ/ (normally written t c). Note that PCelt *ant,*ent > *ent > /eːd/ but *int *ont *unt > /idd odd udd/ like *nk: cét /kʲeːd/ "hundred" < PCelt *kantom (cf. Welsh cant) < PIE *kṃtóm; sét /sʲeːd/ "way" < *sentu- (vs. Breton hent); ro·icc, ric(c) /r(o)-iɡɡ/ "he reaches" < *ro-ink- (vs. Bret rankout "must, owe"); tocad /toɡəð/ "luck" (vs. Bret tonkad "fate").[4]: 126–127 
+
+*ns > unlenited s with compensatory lengthening of a preceding vowel; *ans > *ens > és similarly to *ant *ank: géis "swan" < PCelt *gansi- < PIE *ǵʰh₂ens- (vs. Dutch gans "goose").
+
+Cluster reduction involving *s *z:
+
+Medial *sm *sn *sl > mm nn ll: am(m) "I am" < PIE *esmi.
+
+Medially, *st > ss (but *str > str, *rst > rt).
+
+*zb > db /ðb/, *zg > dg /ðɡ/ (but rg after an unstressed syllable), *zd > /dd/: net /nedd/ "nest" < PIE *nisdos /nizdos/.
+
+Lenited stops *x *ɣ *θ *ð generally disappear before sonorants *r *l *n *m, with compensatory lengthening of the preceding vowel. Many examples occur in reduplicated preterites or words with consonant-final prefixes (such as ad-):[4]: 79 
+
+du·air-chér "I have purchased" < *-xexr < PCelt *-kikra;
+
+·cúal(a)e "he heard" < *koxlowe < PCelt *kuklowe;
+
+áram "number" < *að-rīm;
+
+dál "assembly" < *daθl (cf. Old Welsh datl).
+
+However, *θr, *βr, *βl survive: críathraid "he perforates" < PCelt *krētrāti-s; gabur "goat" < PCelt *gabros (cf. Welsh gafr); mebul "shame" < PCelt *meblā (cf. Welsh mefl).
+
+Any /h/ that ends up in an intervocalic consonant cluster for any reason triggers the devoicing of adjacent consonants in the cluster.[5]: 130 
+
+*ambisuweti > *æmbihoweθ > *imbhoi > ·impai /ˈimpi/ "turns around"
+
+*dīslondīti > *dīhlondīh > *dīhlndīh > ·díltai /ˈdiːlti/ "denies"
+
+Reduction of *-ssiy-
+
+Sequences of *-ssiy- in Primitive Irish are reduced to simple *-ss- if the vowel preceding the sequence is unstressed.[13]: 266–267 
+
+*-ast yo > *-assyo > *-assiyo > *-asso > -as (3rd-person singular s-preterite relative suffix)
+
+*exs-ande-wissiyū > *essandewissū > aisndís "relating, telling"
+
+*esti yo > *essiyo > *esso > as "is" (relative)
+
+*w
+
+Proto-Celtic *w had a complex series of outcomes in Old Irish.[2]: 60–61 [14]
+
+Word-initially, *w simply underwent fortition to f. For instance, *wiros became fer "man".
+
+Immediately after some consonants, *w became /v/, spelled b. After other consonants, it was deleted. Kortlandt and McCone disagree on which conditions governed transformation into b and deletion. Kortlandt believes that b appeared when a voiced lenited consonant preceded the *w, and if *w came after consonants that were either unlenited or voiceless it was deleted.[2]: 61  Meanwhile, McCone instead believes that *w was deleted syllable-initially while *w was transformed into b when the *w is separated from a consonant immediately before it by a pre-Irish syllable boundary.[5]: 103 
+
+Examples of transformation of *w to b:
+
+*widwā > fedb /fʲeðv/ "widow"
+
+*selwā > selb /sʲelv/ "possession"
+
+Examples of deletion include:
+
+*ardwos > ard /ard/ "high"
+
+*kʷetwores > cethair /kʲeθərʲ/ "four"
+
+*swesūr > siur /sʲiur/ "sister"
+
+*w was lost between two unstressed vowels.
+
+*katowes > cathae "battles"
+
+*biwos "alive" in unstressed position > tigbae "surviving"
+
+Intervocalically after a stressed vowel, *w persisted for longer until early Old Irish, even outlasting many deleted final syllables and syncopated vowels.
+
+*w was affected by Greene's second and third palatalisations, which turned it into /i̯/. If this new /i̯/ came into contact with a preceding vowel, a diphthong ending in i was formed.
+
+*owis > *owʲih > oí "sheep"
+
+*nowan > *nowen > *nowʲ > noí "nine"
+
+*yuwantūts > *owẽddūh > *owʲduh > oítiu /*oi̯dʲu/ "youth"
+
+Unpalatalised *w formed u-diphthongs with preceding stressed vowels.
+
+*biwos > *biwah > *bewah > *bew > béo "living, alive"
+
+MacNeill's law
+
+MacNeill's law refers to a sound law before and during the Old Irish period causing the loss of lenition of n and l in final unstressed syllables even though they are etymologically expected to be lenited in that position. Newly word-final n and l became unlenited nn and ll when the unstressed syllables containing them began in r, n, l, /v(ʲ)/, or /m(ʲ)/.[15]: 347 [16]: 39–44  A vowel between the trigger consonant and the affected l or n must also be present for the law to apply.[5]: 134  However, MacNeill's law often failed to apply if this vowel had been inserted by anaptyxis in the first place instead of coming from an earlier Proto-Celtic vowel.[17]: 181–82 
+
+MacNeill's law in action
+
+	Etymon
+	Early Irish form
+	Meaning
+	MacNeill's law applicable?
+	Comments
+
+	*anmanā
+	anmann
+	"names"
+	Yes
+	MacNeill's law applies after /m/.
+
+	*kolanī
+	colainn
+	"flesh, body"
+	Yes
+	MacNeill's law applies after l.
+
+	*Φīweryonos
+	Érenn
+	"Ireland" (genitive singular)
+	Yes
+	MacNeill's law applies after r.
+
+	com- + lán
+	comlann
+	"complete"
+	Yes
+	Demonstrates a contrast where the root word lán "full", which lacks MacNeill's law as it is a stressed syllable, undergoes MacNeill's law as derivation moves the morpheme to an unstressed syllable.
+
+	*oɸibelā
+	oíbell
+	"spark"
+	Yes
+	MacNeill's law applies after /v/.
+
+	*gablā
+	gabul
+	"fork"
+	No
+	MacNeill's law tends to fail to apply if the vowel between the b /v/ and the l did not originally exist in earlier Celtic and was only inserted in early Irish to break up a newly word-final consonant cluster.
+
+	*andelom
+	indel(l)
+	"arrangement"
+	Maybe
+	MacNeill's law may have been still synchronically active in Early Irish, continuing to operate as the -nd- consonant cluster reduced to -nn- (and thus became a trigger) over the Old Irish period.
+
+Destruction of final syllables
+
+Proto-Celtic final syllables were often reduced or deleted by Old Irish times.
+
+Raising of unstressed -es-
+
+Unstressed Proto-Celtic -es- became -is- early on if immediately followed by a vowel. The resulting -is- triggers i-affection on preceding stressed syllables as it evolved into *-ih- and then *-iy- in Primitive Irish before either remaining as -i or undergoing a-affection to -e by Old Irish. This raising of *-es- occurred before the early deletion of final *-i.[5]: 99–100  McCone lists the following examples of this raising:
+
+In second-person singular forms of verbs:
+
+*beresi- "you (sg.) bear" > *berisi(-) > *berih(i-) > Old Irish biri, conjunct ·bir
+
+In the declension of neuter s-stems:
+
+*nemesa "heavens" > *neṽisa > *neṽiha > *niṽiya > *niṽeya > Old Irish nime /ˈniṽʲe/
+
+*nemesi "heaven" (dative singular) > *neṽisi > > *neṽis > *neṽih > *niṽih > Old Irish nim /ˈniṽʲ/
+
+Deletion of final *-i
+
+The absolute-conjunct distinction in Old Irish non-prefixed verbs is generally explained via the apocope of final *-i in multiple Indo-European primary person-number endings that ended in *-i. This normally happens in the conjunct forms, while in the absolute forms the apocope was blocked due to a succeeding enclitic element.[13]: 106–109  Contrast:
+
+*bereti- > beirid "carries" (absolute form without apocope)
+
+*bereti > *beret > *bereθ > *berʲeh > ·beir (conjunct form with apocope)
+
+The identification of the enclitic that was used to create Old Irish's absolute verb forms has been subject to controversy. At first, Warren Cowgill and Frederik Kortlandt supposed that the protective enclitic was a particle derived from *est(i) "is". The current mainstream explanation, pioneered by Peter Schrijver in the 1990s, identifies this particle as derived from *éti "beyond", cognate to Latin et "and". Kim McCone on the other hand refuses to identify any specific particle responsible.
+
+The environment of final i-deletion is also controversial. McCone believes that all final *-i was lost by default, while Schrijver limits the apocope to just after *t, *s and also *k.[18]
+
+Final-syllable syncope between coronal continuants
+
+After the lenition of post-vocalic consonants in unstressed syllables and the apocope of -i, an early Primitive Irish syncope occurred to vowels between two dental fricatives or two rhotics in final unstressed syllables preceded by another unstressed syllable.[5]: 105–106  For dental fricatives, the result of their collision due to the syncope was originally /t/ but would then become /d/ due to a later voicing in the same environment as the syncope.[19] On the other hand, collision of two rhotics over this syncope would result in unlenited rhotic rr. Unlike the main early Irish syncope, this syncope could never palatalise the resulting consonant produced by the collision of involved continuants, no matter what vowel was between them. Instances of this syncope include:
+
+*toberetor > *toberor > *toverr > ·tabarr "is brought/given" (prototonic)
+
+*ɸare-nigʷedyeti > *are-negʷeðiθ > *are-negʷeðθ > ar·neget "(s)he prays"
+
+*-reteti > *-reθeθ > *-reθθ > -ret, -rat "runs" (when two or more prefixes come between the stressed syllable of a derived verb and the verb root)
+
+General final-syllable reductions in Primitive Irish
+
+McCone envisions the evolution of final syllables across Primitive Irish into Old Irish as follows.[5]: 120–121 
+
+Proto-Celtic unstressed long vowels were shortened unless protected by a following Primitive Irish final *-h, whether that *-h came from a final -s (as in several nominal inflectional endings) or -ti (as in 3rd-person singular present forms of verbs). These shortened long vowels included the feminine ā-stem nominative singular ending *-ā and the masculine and neuter o-stem ending *-ī.
+
+Then, absolutely word-final -h, vowels, and nasals caused initial mutations if possible, possibly by resegmentation onto the following word. Any remaining final-syllable short vowels, -h, and nasals after this stage are deleted, while remaining final long vowels (which were subsequently shortened in Old Irish) remained. It is also apparent in Ogham inscriptions that final-syllable Proto-Celtic *o had become *a by Primitive Irish before its loss.
+
+In the following table, the cover symbol C refers to any consonant.
+
+Evolution of pre-Old Irish final syllables
+
+	Proto-Celtic ending
+	Pre-Irish stages
+	Old Irish outcome
+	Function
+
+	-Cos
+	-Cah (no mutation)
+	-C
+	nominative singular ending of masculine o-stems and neuter s-stems, genitive singular ending of consonant stems
+
+	-Com
+	-Can (triggers nasalization)
+	-C
+	nominative and accusative singular ending of neuter o-stems, accusative singular of masculine o-stems, genitive plural for all declension classes
+
+	-Cā
+	-Ca (with shortening, triggers lenition)
+	-C
+	nominative singular ending of feminine ā-stems
+
+	-Cās
+	-Cāh (without shortening)
+	-Ca
+	nominative plural of feminine ā-stems
+
+	-Cams
+	-Cās > -Cāh (without shortening)
+	-Ca
+	accusative plural of consonant stems
+
+	-Cāti
+	-Cāt (special loss of final -i in verbs) > -Cāθ > -Cāh (without shortening)
+	-Ca
+	conjunct 3rd-person singular ending for the presents of A I verbs
+
+	-Cai
+	-Cī > -Ci (with shortening, triggers lenition)
+	-Cʲ
+	dative singular of ā-stems
+
+	-Cis
+	-Cih
+	-Cʲ
+	nominative singular for i-stems
+
+	-Cīs
+	-Cīh (without shortening)
+	-C(ʲ)i
+	nominative plural for i-stems
+
+	-Cī
+	-Ci (with shortening)
+	-Cʲ
+	genitive singular ending of o-stems, nominative plural of masculine o-stems, nominative singular of feminine ī-stems
+
+	-Cūs
+	-Cūh (without shortening)
+	-Cu
+	accusative plural ending for masculine o-stems
+
+	-Cūi
+	-Cū > -Cu (with shortening, triggers lenition)
+	-(u)C
+	dative singular for o-stems
+
+	-Cus
+	-Cuh
+	-(u)C
+	nominative singular for u-stems
+
+	-Cous
+	-Cōs > -ōh (without shortening, no mutation)
+	-Co
+	genitive singular ending of u-stems
+
+Anaptyxis before final sonorants
+
+After the general final-syllable deletion processes, newly word-final consonant clusters ending in sonorant consonants like liquids and nasals in early Irish that were not simplified with compensatory lengthening gained a schwa between the sonorant and the rest of the cluster. The schwa was often rendered with rounded vowel letters like o or u in early texts if next to a labial consonant.[5]: 127  For instance:
+
+*aratrom > *araθran > *araθr > arathar "plough"
+
+*brētrā > *brēθra > *brēθr > bríathar "word"
+
+*dubnos > *duvnah > *dovn > domun "world"
+
+*adkubrom > *akkuvran > *akkovr > accobor "wish, desire"
+
+Voicing of obstruents in unstressed syllables 
+
+Voiceless obstruents, including voiceless stops and voiceless fricatives, were often voiced word-initially and word-finally in unstressed syllables. Each type of voiceless obstruent however had different triggers for them being voiced. These voicings occurred around AD 700.[5]: 132–134  These voicings are collectively labelled McCone's law by David Stifter after their main formulator Kim McCone.[20]
+
+Dental obstruent voicing
+
+Dental obstruents /t, θ/ were voiced in word-initial and word-final unstressed syllables, in addition to between two unstressed syllables. This wave of voicing is also believed to underlie the voicing of t- to d- in proclitics.[19]
+
+ro·slogeth > ro·slogad "has been swallowed"
+
+díltuth > díltud "denial"
+
+·comalnathar varied with ·comalnadar "fulfils" (conjunct)
+
+Voicing of f to /v/
+
+Happening along with the voicing of dental obstruents was the voicing of f to /v/, spelled b. The voicing of f has been believed to occur in near-identical environments to the voicing of dentals. Schrijver and McCone think the voicing of f could also happen word-finally in stressed syllables as well, but Stifter is not confident in the evidence.[17]
+
+*weswā > *wefa > *wef > feb "excellence" (but Stifter thinks it may have spread from its use as a conjunction)
+
+*swesros > for, far varying with bar, bor "your (pl.)"
+
+Voicing of /xʲ/
+
+Palatalised voiceless velar fricatives /xʲ/ became their voiced counterparts /ɣʲ/ word-finally and between unstressed vowels.
+
+dásachtaich > dásachtaig "madmen" (nominative singular dásachtach)
+
+sóinmiche > sóinmige "prosperity"
+
+This voicing of palatalised velar fricatives created paradigmatic alternations in noun declension where final unpalatalised voiceless velar fricatives alternated with palatalised voiced velar fricatives. Occasionally, nouns originally ending in non-palatal /ɣ/ in their paradigms had those unpalatalised voiced velar fricatives analogically devoiced to /x/, for instance in tech < teg < *tegos "house".
+
+Loss of intervocalic -s-
+
+Intervocalic single Proto-Celtic *-s- was lenited to -h- and then lost in the following manners:[6]
+
+Usually the -h- is lost entirely, creating a hiatus where it once was. For instance, *woseti "to stay (somewhere)" became foïd "to stay the night", a hiatus verb.
+
+After an *i or an original diphthong *ai or *oi, the -h- became a glide -y- before its loss. Qiu gives *tegesa > *teɣiha > *tiɣeya > tige "houses" as an example. Earlier, McCone gives senchae /sʲen.xe/ "seer" < *seno-xʷoya < *seno-xʷoih(y)ah < *seno-kʷois-(y)os (literally "old-seer") as a demonstration of this.[5]: 132 
+
+Changes to vowels surrounding former intervocalic -s- or glides
+
+Vowels surrounding a former intervocalic -s-, a glide *w or *y, or both underwent special changes by Old Irish.
+
+In unstressed syllables, such vowels generally fused into /e/.[5]: 131–132 
+
+·rabae /Rave/ "has been" (perfect prototonic) < *ɸro-(be)buwe
+
+senchae /sʲen.xe/ "seer" < *seno-kʷois-(y)os (literally "old-seer")
+
+-mae (1pl. relative ending) < *-mosiyo
+
+berae /bʲe.re/ "bear" (2sg. subjunctive) < *berasesi
+
+Changes to proclitics
+
+Proclitics that precede a stressed syllable undergo special sound changes during the Old Irish period.
+
+Initial consonants
+
+Initial s was deleted in proclitics.[4]: 111 
+
+*sindos > in(t) "the" (masculine nominative singular)
+
+samail "likeliness" (dative singular) became ama(i)l when used as a preposition or conjunction in pretonic position.
+
+Initial t in pretonic position was voiced to d-.[5]: 132–133 
+
+to- (a verb-forming prefix) became do- in pretonic position.
+
+*towe > do "your (sg.), thy"
+
+Vowels
+
+Long vowels merged with their corresponding short vowels in proclitics.[4]: 33 
+
+*dū > du "to, for"
+
+*kʷākʷos > cach "each, every" (proclitic counterpart of cách "everyone", which retained the long vowel)
+
+This was followed by o merging with u, with the resulting vowel spelled with both u and o in Old Irish.[5]: 135 
+
+du > do, du "to, for"
+
+*nu "now" > nu, no (dummy preverb)
+
+to- > do- > do-, du- (a verb-forming prefix in deuterotonic verbs)
+
+*ɸro- > ro-, ru- (verbal augmentation prefix)
+
+At the same time, e became a in proclitics, except for e before *nt which instead merged with i with the spelling vacillating between e and i.[21]
+
+*esmi > *emmʲ > am "I am"
+
+*exs- > ess- > as- "ex-" (in deuterotonic verbs)
+
+*ɸleti > *let > le > la "with"
+
+*enter > eter, etar, itar "between"
+
+*kentu- > ceta-, cita- "first"
+
+Depalatalisation
+
+Palatalisation was generally lost in proclitics.[5]: 135 
+
+amail > amal "like, as"
+
+tochim > dochum "to, towards"
+
+Examples of changes
+
+The following are some examples of changes between Primitive Irish and Old Irish.
+
+	Primitive Irish	Old Irish	Meaning
+
+	inigena[4]: 18 	ingen	daughter
+
+	qrimitir[4]: 137 	cruimther	priest
+
+	maqqi[4]: 181 	maicc	son (gen.)
+
+	velitas[4]: 58 	filed	poet (gen.)
+
+	Lugudeccas[4]: 98 	Luigdech	genitive of Lug(u)id (name)
+
+	Anavlamattias[4]: 192–193 	Anfolmithe	genitive of Anblamath (name)
+
+	Coillabotas[4]: 42 	Coílbad	genitive of name
+
+Allomorphy
+
+These various changes, especially syncope, produced quite complex allomorphy, because the addition of prefixes or various pre-verbal particles (proclitics) in Proto-Celtic changed the syllable containing the stress: According to the Celtic variant of Wackernagel's law, the stress fell on the second syllable of the verbal complex, including any prefixes and clitics. By the Old Irish period, most of this allomorphy still remained, although it was rapidly eliminated beginning in the Middle Irish period.
+
+Among the most striking changes are in prefixed verbs with or without pre-verbal particles. With a single prefix and without a proclitic, stress falls on the verbal root, which assumes the deuterotonic ("second-stressed") form. With a prefix and also with a proclitic, stress falls on the prefix, and the verb assumes the prototonic ("first-stressed") form. Rather extreme allomorphic differences can result:
+
+Example differences between deuterotonic and prototonic forms of various verbs. Stress falls directly after the center dot or hyphen.[4]: 68 
+
+	Earlier form	Deuterotonic	Meaning	Prototonic	Meaning
+
+	*ess-bero(n)t < PIE *-bʰeronti	as·berat /as-ˈbʲerəd/	they say	ní-epret /Nʲiː-ˈhebrʲəd/	they do not say
+
+	*cum-uss-ana	con·osna	he rests	ní-cumsana	he does not rest
+
+	*de-ro-uss-scochi	do·rósc(a)i	he surpasses	ní-derscaigi	he does not surpass
+
+	*de-lugi < PIE *-logʰeyeti	do·lug(a)i	he pardons	ní-dílg(a)i	he does not pardon
+
+	*de-ro-gn...	do·róna	he may do	ní-derna	he may not do
+
+The following table shows how these forms might have been derived:
+
+Possible derivation of some verbal forms
+
+		"they say"	"they do not say"	"he rests"	"he does not rest"	"he surpasses"	"he does not surpass"
+
+	Post-PIE
+	eks bʰeronti	nē eks bʰeronti	kom uks h₂eneh₂ti	nē kom uks h₂eneh₂ti	dē pro uks skokeyeti	nē dē pro uks skokeyeti
+
+	Proto-Celtic
+	eks ˈberonti	nī ˈeks-beronti	kom ˈuks-anāti	nī ˈkom-uks-anāti	dī ˈɸro-uks-skokīti	nī ˈdī-ɸro-uks-skokīti
+
+	Early Irish
+	ess-es ˈberont	ní-s ˈess-beront	kon-es ˈuss-anát	ní-s ˈkom-uss-anát	dí-s ˈro-uss-skokít	ní-s ˈdi-ro-uss-skokít
+
+	Nasal assimilation
+	ess-es ˈberodd	ní-s ˈess-berodd	—	—	—	—
+
+	Lenition
+	es-eh ˈberod	Ní-h ˈes-berod	kon-eh ˈus-anáθ	Ní-h ˈkow̃-us-anáθ	dí-h ˈRo-us-skoxíθ	Ní-h ˈdi-ro-us-skoxíθ
+
+	Palatalization
+	es-eh ˈbʲerod	Nʲí-h ˈes-bʲerod	—	Nʲí-h ˈkow̃-us-anáθ	dʲí-h ˈRo-us-skoxʲíθ	Nʲí-h ˈdʲi-ro-us-skoxʲíθ
+
+	Hiatus reduction
+	—	—	—	—	dʲí-h ˈRós-skoxʲíθ	Nʲí-h ˈdʲi-rós-skoxʲíθ
+
+	Umlaut (vowel affection)
+	—	—	kon-eh ˈos-anáθ	Nʲí-h ˈkuw̃-us-anáθ	—	Nʲí-h ˈdʲe-rós-skoxʲíθ
+
+	Shortening of absolutely final vowel
+	—	—	—	—	—	—
+
+	Loss/assimilation of final consonant(s)
+	es-e bʲ-ˈbʲerod	Nʲí h-ˈes-bʲerod	kon-e h-ˈos-aná	Nʲí k-ˈkuw̃-us-aná	dʲí R-ˈRós-skoxʲí	Nʲí d-ˈdʲe-rós-skoxʲí
+
+	Mora reduction in unstressed final vowel
+	es bʲ-ˈbʲerod	—	kon h-ˈos-ana	Nʲí k-ˈkuw̃-us-ana	dʲí R-ˈRós-skoxʲi	Nʲí d-ˈdʲe-rós-skoxʲi
+
+	Consonant assimilation
+	es ˈbʲerod	Nʲí h-ˈebʲ-bʲerod	—	—	—	—
+
+	Syncope
+	es ˈbʲerod	Nʲí h-ˈebʲbʲrod	kon h-ˈosna	Nʲí k-ˈkuw̃sana	dʲí R-ˈRósskxʲi	Nʲíd-ˈdʲersskoxʲi
+
+	Further consonant assimilation
+	—	Nʲí h-ˈebʲbʲrʲod	kon ˈosna	—	dʲí R-ˈRósski	Nʲíd-ˈdʲerskoxʲi
+
+	Unstressed vowel reduction
+	es ˈbʲerəd	Nʲí h-ˈebʲbʲrʲəd	—	Nʲí k-ˈkuw̃səna	di R-ˈRósski	Nʲí d-ˈdʲerskəxʲi
+
+	Prepositional modification
+	as ˈbʲerəd	—	—	—	do R-ˈRósski	—
+
+	Geminate reduction (non-vocalic-adjacent); sandhi geminate reduction
+	as·ˈbʲerəd	Nʲíh-ˈebrʲəd	kon·ˈosna	Nʲí-ˈkuw̃səna	do·ˈRóski	Nʲí-ˈdʲerskəxʲi
+
+	Fricative voicing between unstressed syllables
+	—	—	—	—	—	Nʲíd-ˈdʲerskəɣʲi
+
+	Old Irish pronunciation
+	as·ˈbʲerəd	Nʲí-h-ˈebrʲəd	kon·ˈosna	Nʲí-ˈkuw̃səna	do·ˈRóski	Nʲí-ˈdʲerskəɣʲi
+
+	Old Irish spelling
+	as·berat	ní-epret	con·osna	ní-(c)cumsana	do·rósc(a)i	ní-(d)derscaigi
+
+The most extreme allomorphy of all came from the third person singular of the s-subjunctive because an athematic person marker -t was used, added directly onto the verbal stem (formed by adding -s directly onto the root). That led to a complex word-final cluster, which was deleted entirely. In the prototonic form (after two proclitics), the root was unstressed and thus the root vowel was also deleted, leaving only the first consonant:
+
+Examples of extreme allomorphy of 3rd person singular s-subjunctive, conjunct[22]
+
+		Present Indicative	Present Subjunctive
+
+	Positive (Deuterotonic)	Negative (Prototonic)
+	Positive (Deuterotonic)	Negative (Prototonic)
+
+	Primitive Irish	Old Irish	Primitive Irish	Old Irish
+	Primitive Irish	Old Irish	Primitive Irish	Old Irish
+
+	"he refuses"
+	*uss ˈbond-et(i)	as·boind
+	*nís ˈuss-bond-et(i)	ní op(a)ind /obənʲdʲ/
+	*uss 'bod-s-t	as·bó
+	*nís ˈuss-bod-s-t	ní op /ob/
+
+	"he remains over"
+	*di ˈwo-uss-ret-et(i)	do·fúarat
+	*nís ˈdi-wo-uss-ret-et(i)	ní díurat
+	*di ˈwo-uss-ret-s-t	do·fúair
+	*nís ˈdi-wo-uss-ret-s-t	ní diúair
+
+	"he repeats, amends"
+	*ad ˈess-reg-et(i)	ad·eirrig
+	*nís ˈ*ad-ess-reg-et(i)	(ní aithrig?? >) ní aithirrig
+	*ad ˈess-reg-s-t	ath·e(i)rr
+	*nís ˈad-ess-reg-s-t	ní aithir
+
+	"he can"
+	*con ˈink-et(i)	com·ic
+	*nís ˈcom-ink-et(i)	ní cum(a)ic > ní cum(u)ing, ní cumaing
+	*con ˈink-s-t	con·í
+	*nís ˈcom-ink-s-t, *nís ˈcom-ink-ā-t	ní cum, ní cumai
+
+	"it happens"
+	*ad ˈcom-ink-et(i)	(ad·cum(a)ic >) ad·cumaing
+	*nís ˈad-com-ink-et(i)	(ní ecm(a)ic >) ní ecmaing
+	*ad ˈcom-ink-ā-t	ad·cumai
+	*nís ˈad-com-ink-ā-t	ní ecm(a)i
+
+See also
+
+Glossary of sound laws in the Indo-European languages
+
+Notes
+
+↑ When followed by an unpalatalized consonant in Old Irish.
+
+↑ When followed by a palatalized consonant in Old Irish.
+
+1 2 When followed by a consonant in Old Irish.
+
+1 2 When not followed by a consonant in Old Irish. This includes words originally followed by *s, which was lost by Old Irish times.
+
+↑ Originally a neuter proterokinetic noun of the form *gʷenh₂ (nom. sg.), *gʷneh₂s (gen. sg.). The original PIE nominative is still preserved in poetic or legal Old Irish béN "woman" (still neuter) < Proto-Celtic *ben < PIE *gʷenh₂. The normal Old Irish nominative is benL (feminine) < Proto-Celtic *benā < *ben + normal feminine *-ā. No other IE language preserves the original neuter gender.
+
+References
+
+↑ Ranko Matasović (2007). "Insular Celtic as a Language Area". In Tristram, Hildegard L.C. (ed.). The Celtic Languages in Contact Papers from the Workshop Within the Framework of the XIII International Congress of Celtic Studies, Bonn, 26-27 July 2007. Bonn: Potsdam University Press. p. 108. ISBN 9783940793072. Retrieved 18 August 2022.
+
+1 2 3 Kortlandt, Frederik (2007). Italo-Celtic Origins and Prehistoric Development of the Irish Language. Leiden Studies in Indo-European. Rodopi. ISBN 978-90-420-2177-8. Retrieved August 28, 2022.
+
+1 2 Greene, David (1973). "The Growth of Palatalization in Old Irish". Transactions of the Philological Society. 72 (1): 127–136. doi:10.1111/j.1467-968X.1973.tb01017.x.
+
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 Thurneysen, Rudolf (1998) [1946]. A Grammar of Old Irish. Translated by Binchy, D. A; Bergin, Osborn. Dublin Institute for Advanced Studies. ISBN 1-85500-161-6.
+
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 McCone, Kim (1996). Towards a Relative Chronology of Ancient and Medieval Celtic Sound Change. Maynooth studies in Celtic linguistics. Maynooth: Department of Old Irish, St. Patrick's College. ISBN 978-0-901519-40-5.
+
+1 2 3 Qiu, Fangzhe (September 18, 2019). "Old Irish aue 'descendant' and its descendants" (PDF). Indogermanische Forschungen. 124 (1). Walter de Gruyter GmbH: 343–374. doi:10.1515/if-2019-0013. hdl:10197/12242. ISSN 1613-0405. S2CID 208141257.
+
+1 2 Schrijver, Peter (1991). "The Development of Primitive Irish aN before Voiced Stop". Ériu. 42. Royal Irish Academy: 13–25. JSTOR 30007533. Retrieved May 31, 2022.
+
+↑ Schrijver, Peter (1999). "Vowel Rounding by Primitive Irish Labiovelars". Ériu. 50. Royal Irish Academy: 133–137. ISSN 2009-0056. JSTOR 30007731. Retrieved September 19, 2022.
+
+↑ Schrijver, Peter (1993). "On the Development of Vowels Before Tautosyllabic Nasals in Primitive Irish". Ériu. 44. Royal Irish Academy: 33–52. ISSN 2009-0056. JSTOR 30006876. Retrieved September 24, 2022.
+
+↑ Griffith, Aaron (2016). "On the old Irish third palatalisation and the 3sg. present of the copula". Ériu. 66 (1). Royal Irish Academy: 39–62. doi:10.1353/eri.2016.0010. ISSN 2009-0056.
+
+↑ Griffith, Aaron (2007). "The Effect of Syncope with Subsequent Anaptyxis on Consonant Quality in Old Irish". Ériu. 57. Royal Irish Academy: 35–47. doi:10.1353/eri.2007.0010. ISSN 2009-0056. JSTOR 20696349. Retrieved August 19, 2022.
+
+↑ Schrijver, Peter (1993). "Varia IV. OIr. dëec, dëac". Ériu. 44. Royal Irish Academy: 181–184. ISSN 2009-0056. JSTOR 30006888. Retrieved June 25, 2022.
+
+1 2 McCone, Kim (2006). The Origins and Development of the Insular Celtic Verbal Complex. Maynooth studies in Celtic linguistics. Department of Old Irish, National University of Ireland. ISBN 978-0-901519-46-7.
+
+↑ Uhlich, Jürgen (1995). "On the Fate of Intervocalic *-ṷ- in Old Irish, Especially between Neutral Vowels". Ériu. 46. Royal Irish Academy: 11–48. ISSN 2009-0056. JSTOR 30007872. Retrieved August 26, 2022.
+
+↑ MacNeill, John (1908). "Notes on the Distribution, History, Grammar, and Import of the Irish Ogham Inscriptions". Proceedings of the Royal Irish Academy. Section C: Archaeology, Celtic Studies, History, Linguistics, Literature. 27: 329–370. ISSN 0035-8991.
+
+↑ Stüber, Karin (1998). The Historical Morphology of N-stems in Celtic. Maynooth studies in Celtic linguistics. Department of Old Irish, National University of Ireland, Maynooth. ISBN 978-0-901519-54-2. Retrieved December 20, 2022.
+
+1 2 Stifter, David (2019). "An apple a day…". Indogermanische Forschungen (in German). 124 (1). Walter de Gruyter GmbH: 171–218. doi:10.1515/if-2019-0006. ISSN 1613-0405. S2CID 208141167.
+
+↑ Schrijver, Peter (1994). "The Celtic Adverbs for 'Against' and 'With' and the Early Apocope of -I". Ériu. 45. Royal Irish Academy: 151–189. ISSN 2009-0056. JSTOR 30007718. Retrieved September 28, 2022.
+
+1 2 McCone, Kim (1981). "Final /t/ to /d/ after Unstressed Vowels, and an Old Irish Sound Law". Ériu. 32. Royal Irish Academy: 29–44. ISSN 2009-0056. JSTOR 30007453. Retrieved December 25, 2022.
+
+↑ Stifter, David (October 23, 2017). "68. The phonology of Celtic". Handbook of Comparative and Historical Indo-European Linguistics. De Gruyter. pp. 1188–1202. doi:10.1515/9783110523874-023. ISBN 9783110523874.
+
+↑ Lash, Elliott (2017). "A quantitative analysis of e/i variation in Old Irish etar and ceta". Ériu. 67. Royal Irish Academy: 141–167. doi:10.3318/eriu.2017.67.3. ISSN 0332-0758. S2CID 171844008.
+
+↑ Fortson 2004, p. 324. sfn error: no target: CITEREFFortson2004 (help)
+

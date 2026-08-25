@@ -1,0 +1,801 @@
+{{Short description|Oldest widely attested Gaelic language}}
+{{distinguish|Primitive Irish}}
+{{Citation style |reason=article uses full and short citations. Pick one style, and then use it consistently |date=January 2025}}
+{{Use Hiberno-English|date=August 2023}}
+{{Use dmy dates|date=January 2025}}
+{{Infobox language
+| name             = Old Irish
+| altname          = Old Gaelic
+| nativename       = {{lang|sga|Goídelc}}
+| pronunciation    = {{IPA|sga|ˈɡoːi̯ðʲelɡ|}}
+| region           = Ireland, [[Isle of Man]], [[Wales]], [[Scotland]], [[Devon]], [[Cornwall]]
+| familycolor      = Indo-European
+| fam2             = [[Celtic languages|Celtic]]
+| fam3             = [[Insular Celtic languages|Insular Celtic]]
+| fam4             = [[Goidelic languages|Goidelic]]
+| ancestor         = [[Primitive Irish]]
+| script           = [[Latin script|Latin]], [[Ogham script|Ogham]]
+| era              = 6th–10th century; evolved into [[Middle Irish]] by around the 10th century
+| iso2             = sga
+| iso3             = sga
+| glotto           = oldi1246
+| glottorefname    = Old Irish (8–9th century)
+| lingua           = 50-AAA-ad
+| notice           = IPA
+}}
+
+'''Old Irish''', also called '''Old Gaelic'''<ref>{{Cite web |url=https://www.abdn.ac.uk/registry/courses/course/CE3063/2021|title = CE3063: Introduction to Old Gaelic 1A – Catalogue of Courses}}</ref><ref name="koch">{{cite book |title=Celtic culture: a historical encyclopedia |last=Koch |first=John Thomas |year=2006 |publisher=ABC-CLIO |page=831 |quote=The Old Irish of the period c.&nbsp;600–c.&nbsp;900&nbsp;AD is as yet virtually devoid of dialect differences, and may be treated as the common ancestor of the Irish, Scottish Gaelic, and Manx of the Middle Ages and modern period; Old Irish is thus sometimes called 'Old Gaelic' to avoid confusion.}}</ref><ref>{{cite book |title=The Edinburgh History of the Scots Language |last=Ó Baoill |first=Colm |year=1997 |publisher=Edinburgh University Press |page=551 |chapter=13: The Scots-Gaelic Interface |quote=The oldest form of the standard that we have is the language of the period c.&nbsp;AD&nbsp;600–900, usually called 'Old Irish' – but this use of the word 'Irish' is a misapplication (popular among English-speakers in both Ireland and Scotland), for that period of the language would be more accurately called 'Old Gaelic'.}}</ref> ({{langx|sga|Goídelc|label=[[endonym]]}}; {{langx|ga|Sean-Ghaeilge}}; {{langx|gd|Seann-Ghàidhlig}}; {{langx|gv|Shenn Yernish}} or {{lang|gv|Shenn Ghaelg}}), is the oldest form of the [[Goidelic languages|Goidelic/Gaelic language]] for which there are extensive written texts. It was used from {{circa}} 600 to {{circa}} 900. The main contemporary texts are dated {{circa}} 700–850; by 900 the language had already transitioned into Early [[Middle Irish]]. Some Old Irish texts date from the 10th century, although these are presumably copies of texts written at an earlier time. Old Irish is the direct ancestor to [[Early Modern Irish]], [[Manx Gaelic]] and [[Scots Gaelic]].<ref name="koch" />
+
+Old Irish is known for having a particularly complex system of [[morphology (linguistics)|morphology]] and especially of [[allomorphy]] (more or less unpredictable variations in stems and suffixes in differing circumstances), as well as a complex [[phonology|sound system]] involving grammatically significant [[Irish initial mutations|consonant mutations]] to the initial consonant of a word. Apparently,<ref group=*>It is difficult to know for sure, given how little [[Primitive Irish]] is attested and the limitations of the [[Ogham]] alphabet used to write it.</ref> neither characteristic was present in the preceding [[Primitive Irish]] period, though initial mutations likely existed in a non-grammaticalised form in the prehistoric era.{{sfn|Jaskuła|2006}}{{full citation needed|date=July 2024}}
+
+Contemporary Old Irish scholarship is still greatly influenced by the works of a small number of scholars active in the late 19th and early 20th centuries, such as [[Rudolf Thurneysen]] (1857–1940) and [[Osborn Bergin]] (1873–1950).
+
+==Notable characteristics==
+Notable characteristics of Old Irish compared with other old [[Indo-European languages]], are:
+* Initial mutations, including lenition, nasalisation and aspiration/gemination.
+* A complex system of verbal allomorphy.
+* A system of ''conjugated prepositions'' that is unusual in Indo-European languages but common to Celtic languages. There is a great deal of allomorphy here, as well.
+* Infixed or prefixed object prepositions, which are inserted between the verb stem and its initial prefix(es). If a verb lacks any such prefixes, a dummy prefix is normally added.
+* Special verbal conjugations are used to signal the beginning of a [[relative clause]].
+
+Old Irish also preserves most aspects of the complicated [[Proto-Indo-European language|Proto-Indo-European]] (PIE) system of morphology. Nouns and adjectives are [[declension|declined]] in three genders (masculine, feminine, neuter); three numbers (singular, dual, plural); and five cases (nominative, vocative, accusative, dative and genitive). Most [[Proto-Indo-European nouns|PIE noun stem classes]] are maintained (''o''-, ''yo''-, ''ā''-, ''yā''-, ''i''-, ''u''-, ''r''-, ''n''-, ''s''-, and consonant stems). Most of the complexities of [[Proto-Indo-European verbs|PIE verbal conjugation]] are also maintained, and there are new complexities introduced by various [[sound change]]s (see [[#Verbal allomorphy|below]]).
+
+==Classification==
+Old Irish was the only known member of the [[Goidelic]] branch of the [[Celtic languages]], which is, in turn, a subfamily of the wider [[Indo-European language]] family that also includes the [[Slavonic languages|Slavonic]], [[Italic languages|Italic]]/[[Romance languages|Romance]], [[Indo-Aryan languages|Indo-Aryan]] and [[Germanic languages|Germanic]] subfamilies, along with several others. Old Irish is the ancestor of all modern Goidelic languages: [[Irish language|Modern Irish]], [[Scottish Gaelic]] and [[Manx language|Manx]].
+
+A still older form of Irish is known as [[Primitive Irish]]. Fragments of Primitive Irish, mainly personal names, are known from inscriptions on stone written in the [[Ogham]] alphabet. The inscriptions date from about the 4th to the 6th centuries. Primitive Irish appears to have been very close to [[Proto-Celtic language|Common Celtic]], the ancestor of all [[Celtic languages]], and it had a lot of the characteristics of other archaic Indo-European languages.
+
+==Sources==
+Relatively little survives in the way of strictly contemporary sources. They are represented mainly by shorter or longer [[Gloss (margin text)|gloss]]es on the margins or [[interlinear gloss|between the lines]] of religious [[Latin]] [[manuscripts]], most of them preserved in monasteries in Germany, Italy, Switzerland, France and Austria, having been taken there by [[Hiberno-Scottish mission|early Irish missionaries]]. Whereas in Ireland, many of the older manuscripts appear to have been worn out through extended and heavy use, their counterparts on the Continent were much less prone to the same risk because once they ceased to be understood, they were rarely consulted.{{sfn|Thurneysen|1946|p=4}}
+
+The earliest Old Irish passages may be the transcripts found in the [[Cambrai Homily]], which is thought to belong to the early 8th century. The [[Book of Armagh]] contains texts from the early 9th century. Important Continental collections of glosses from the 8th and 9th century include the [[Würzburg]] Glosses (mainly) on the [[Pauline Epistles]], the [[Milan]] Glosses on a commentary to the [[Psalms]] and the [[St Gallen|St Gall]] Glosses on [[Priscian]]'s Grammar.
+
+Further examples are found at [[Karlsruhe]] (Germany), Paris (France), Milan, [[Florence]] and [[Turin]] (Italy). A late 9th-century manuscript from the [[abbey of Reichenau]], now in [[St. Paul in Carinthia]] (Austria), contains a spell and four Old Irish poems. The ''[[Liber Hymnorum]]'' and the ''[[Stowe Missal]]'' date from about 900 to 1050.
+
+In addition to contemporary witnesses, the vast majority of Old Irish texts are attested in manuscripts of a variety of later dates. Manuscripts of the later Middle Irish period, such as the {{Lang|mga|[[Lebor na hUidre]]|italic=no}} and the [[Book of Leinster]], contain texts which are thought to derive from written exemplars in Old Irish now lost and retain enough of their original form to merit classification as Old Irish.
+
+The preservation of certain linguistic forms current in the Old Irish period may provide reason to assume that an Old Irish original directly or indirectly underlies the transmitted text or texts.
+
+==Phonology==
+===Consonants===
+The [[consonant]] inventory of Old Irish is shown in the chart below. The complexity of Old Irish phonology is from a four-way split of phonemes inherited from Primitive Irish, with both a [[fortis and lenis|fortis–lenis]] and a "broad–slender" ([[velarization|velarised]] vs. [[Palatalization (phonetics)|palatalised]]) distinction arising from historical changes. The sounds {{IPA|/f v θ ð x ɣ h ṽ n l r/}} are the broad lenis equivalents of broad fortis {{IPA|/p b t d k ɡ s m N L R/}}; likewise for the slender (palatalised) equivalents. (However, most {{IPA|/f fʲ/}} sounds actually derive historically from {{IPA|/w/}}, since {{IPA|/p/}} was relatively rare in Old Irish, being a recent import from other languages such as Latin.)
+
+:{| class="wikitable" style="text-align: center;"
+! colspan="2" |
+! [[Labial consonant|Labial]]
+! [[dental consonant|Dental]]
+! [[alveolar consonant|Alveolar]]
+! [[velar consonant|Velar]]
+! [[glottal consonant|Glottal]]
+|-
+! rowspan="2" | [[nasal stop|Nasal]]
+! {{small|broad}}
+| {{IPA|m}}
+| colspan="2" | {{IPA|N&nbsp;&nbsp;n}}
+| {{IPA|ŋ}}
+|
+|-
+! {{small|slender}}
+| {{IPA|mʲ}}
+| colspan="2" | {{IPA|Nʲ&nbsp;&nbsp;nʲ}}
+| {{IPA|ŋʲ}}
+|
+|-
+! rowspan="2" | [[plosive consonant|Plosive]]
+! {{small|broad}}
+| {{IPA|p&nbsp;&nbsp;b}}
+| colspan="2" | {{IPA|t&nbsp;&nbsp;d}}
+| {{IPA|k&nbsp;&nbsp;ɡ}}
+|
+|-
+! {{small|slender}}
+| {{IPA|pʲ&nbsp;&nbsp;bʲ}}
+| colspan="2" | {{IPA|tʲ&nbsp;&nbsp;dʲ}}
+| {{IPA|kʲ&nbsp;&nbsp;ɡʲ}}
+|
+|-
+! rowspan="2" | [[fricative consonant|Fricative]]
+! {{small|broad}}
+| {{IPA|f&nbsp;&nbsp;v}}
+| {{IPA|θ&nbsp;&nbsp;ð}}
+| {{IPA|s}}
+| {{IPA|x&nbsp;&nbsp;ɣ}}
+| {{IPA|h}}
+|-
+! {{small|slender}}
+| {{IPA|fʲ&nbsp;&nbsp;vʲ}}
+| {{IPA|θʲ&nbsp;&nbsp;ðʲ}}
+| {{IPA|sʲ}}
+| {{IPA|xʲ&nbsp;&nbsp;ɣʲ}}
+| {{IPA|hʲ}}
+|-
+! rowspan="2" | [[Nasalization|Nasalized]] <br/>fricative
+! {{small|broad}}
+| {{IPA|ṽ}}
+|
+|
+|
+|
+|-
+! {{small|slender}}
+| {{IPA|ṽʲ}}
+|
+|
+|
+|
+|-
+! rowspan="2" | [[Approximant]]
+! {{small|broad}}
+|
+| colspan="2" | {{IPA|R&nbsp;&nbsp;r}}
+|
+|
+|-
+! {{small|slender}}
+|
+| colspan="2" | {{IPA|Rʲ&nbsp;&nbsp;rʲ}}
+|
+|
+|-
+! rowspan="2" | [[lateral consonant|Lateral]]
+! {{small|broad}}
+|
+| colspan="2"| {{IPA|L&nbsp;&nbsp;l}}
+|
+|
+|-
+! {{small|slender}}
+|
+| colspan="2" | {{IPA|Lʲ&nbsp;&nbsp;lʲ}}
+|
+|
+|}
+
+Some details of Old Irish [[phonetics]] are not known. {{IPA|/sʲ/}} may have been pronounced {{IPA|[ɕ]}} or {{IPA|[ʃ]}}, as in Modern Irish. {{IPA|/hʲ/}} may have been the same sound as {{IPA|/h/}} or {{IPA|/xʲ/}}. The precise articulation of the fortis [[sonorant]]s {{IPA|/N/, /Nʲ/, /L/, /Lʲ/, /R/, /Rʲ/}} is unknown, but they were probably longer, [[tenseness|tenser]] and generally more strongly articulated than their lenis counterparts {{IPA|/n/, /nʲ/, /l/, /lʲ/, /r/, /rʲ/}}, as in the Modern Irish and Scottish dialects that still possess a four-way distinction in the [[coronal consonant|coronal]] [[nasal consonant|nasals]] and [[lateral consonant|laterals]]. {{IPA|/Nʲ/}} and {{IPA|/Lʲ/}} may have been pronounced {{IPA|[ɲ]}} and {{IPA|[ʎ]}} respectively. The difference between {{IPA|/R(ʲ)/}} and {{IPA|/r(ʲ)/}} may have been that the former were [[trill consonant|trills]] while the latter were [[flap consonant|flaps]]. {{IPA|/m(ʲ)/}} and {{IPA|/ṽ(ʲ)/}} were derived from an original fortis–lenis pair.
+
+===Vowels===
+Old Irish had distinctive [[vowel length]] in both [[monophthong]]s and [[diphthong]]s. Short diphthongs were [[mora (linguistics)|monomoraic]], taking up the same amount of time as short vowels, while long diphthongs were bimoraic, the same as long vowels. (This is much like the situation in [[Old English]] but different from [[Ancient Greek]] whose shorter and longer diphthongs were bimoraic and trimoraic, respectively: {{IPA|/ai/}} vs. {{IPA|/aːi/}}.) The inventory of Old Irish long vowels changed significantly over the Old Irish period, but the short vowels changed much less.
+
+The following short vowels existed:
+
+:{| class="wikitable" style="text-align: center;"
+!
+! colspan="2" | Monophthongs
+! colspan="2" | Diphthongs
+|-
+![[Close vowel|Close]]
+| {{IPA|i}}
+| {{IPA|u}}
+| {{IPA|ĭu}}
+|
+|-
+![[Mid vowel|Mid]]
+| {{IPA|e}}
+| {{IPA|o}}
+| {{IPA|ĕu}}
+| {{IPA|(ŏu)}}<sup>1</sup>
+|-
+![[Open vowel|Open]]
+| colspan="2" align="center" | {{IPA|a}}, ({{IPA|æ ~ œ}}?)
+| colspan="2" align="center" | {{IPA|ău}}
+|}
+
+<sup>1</sup>The short diphthong {{IPA|ŏu}} likely existed very early in the Old Irish period, but merged with {{IPA|/u/}} later on and in many instances was replaced with {{IPA|/o/}} due to paradigmatic levelling. It is attested once in the phrase {{lang|sga|i r'''ou'''th}} by the ''prima manus'' of the [[Würzburg Glosses]].<ref>{{cite journal|title=The Diphthongs of Old Irish|author=David Greene|year=1976|journal=Ériu|volume=27|pages=26–45|jstor=30007667}}</ref>
+
+{{IPA|/æ ~ œ/}} arose from the u-infection of stressed {{IPA|/a/}} by a {{IPA|/u/}} that preceded a palatalized consonant. This vowel faced much inconsistency in spelling, often detectable by a word containing it being variably spelled with {{vr|au, ai, e, i, u}} across attestations. {{lang|sga|Tulach}} "hill, mound" is the most commonly cited example of this vowel, with the spelling of its inflections including ''tulach'' itself, ''telaig'', ''telocho'', ''tilchaib'', ''taulich'' and ''tailaig''. This special vowel also ran rampant in many words starting with the stressed prefix {{lang|sga|air-}} (from Proto-Celtic ''*ɸare'').<ref>Stifter, David (1998). "Old Irish ²fén 'bog'?" ''Die Sprache'' '''40'''(2), pp.&nbsp;226-228.</ref><ref>Qiu, Fangzhe (2019). "Old Irish aue 'descendant' and its descendants". ''Indogermanische Forschungen'' '''124'''(1), pp.&nbsp;343–374</ref>
+
+Archaic Old Irish (before about 750) had the following inventory of long vowels:
+
+:{|class="wikitable" style="text-align: center;"
+!
+! colspan="2" | Monophthongs
+! colspan="2" | Diphthongs
+|-
+! [[Close vowel|Close]]
+| {{IPA|iː}}
+| {{IPA|uː}}
+| {{IPA|iu}}
+| {{IPA|ui}}
+|-
+! [[Mid vowel|Mid]]
+| {{IPA|e₁ː, e₂ː}}<sup>1</sup>
+| {{IPA|o₁ː}}, ({{IPA|o₂ː}}?)<sup>2</sup>
+| {{IPA|eu}}
+| {{IPA|oi}}, ({{IPA|ou}})<sup>3</sup>
+|-
+! [[Open vowel|Open]]
+| colspan="2" | {{IPA|aː}}
+| colspan="2" | {{IPA|ai, au}}<sup>3</sup>
+|}
+
+<sup>1</sup>Both {{IPA|/e₁ː/}} and {{IPA|/e₂ː/}} were normally written {{vr|é}} but must have been pronounced differently because they have different origins and distinct outcomes in later Old Irish. {{IPA|/e₁ː/}} stems from Proto-Celtic *ē (< PIE *ei), or from ''ē'' in words borrowed from Latin. {{IPA|/e₂ː/}} generally stems from [[compensatory lengthening]] of short *e because of loss of the following consonant (in certain clusters) or a directly following vowel in [[hiatus (linguistics)|hiatus]]. It is generally thought that {{IPA|/e₁ː/}} was higher than {{IPA|/e₂ː/}}.{{sfn|Kortlandt|2007|p=8}} Perhaps {{IPA|/e₁ː/}} was {{IPA|[eː]}} while {{IPA|/e₂ː/}} was {{IPA|[ɛː]}}. They are clearly distinguished in later Old Irish, in which {{IPA|/e₁ː/}} becomes {{vr|ía}} (but {{vr|é}} before a palatal consonant). {{IPA|/e₂ː/}} becomes {{vr|é}} in all circumstances. Furthermore, {{IPA|/e₂ː/}} is subject to ''u''-affection, becoming {{vr|éu}} or {{vr|íu}}, while {{IPA|/e₁ː/}} is not.
+
+<sup>2</sup>A similar distinction may have existed between {{IPA|/o₁ː/}} and {{IPA|/o₂ː/}}, both written {{vr|ó}}, and stemming respectively from former diphthongs (*eu, *au, *ou) and from compensatory lengthening. However, in later Old Irish both sounds appear usually as {{vr|úa}}, sometimes as {{vr|ó}}, and it is unclear whether {{IPA|/o₂ː/}} existed as a separate sound any time in the Old Irish period.
+
+<sup>3</sup>{{IPA|/ou/}} existed only in early archaic Old Irish ({{circa}}700 or earlier); afterwards it merged into {{IPA|/au/}}. Neither sound occurred before another consonant, and both sounds became {{vr|ó}} in later Old Irish (often {{vr|ú}} or {{vr|u}} before another vowel). The late {{vr|ó}} does not develop into {{vr|úa}}, suggesting that {{vr|áu}} > {{vr|ó}} postdated {{vr|ó}} > {{vr|úa}}.
+
+Later Old Irish had the following inventory of long vowels:
+
+:{| class="wikitable" style="text-align: center;"
+!
+! colspan="2" | Monophthongs
+! colspan="2" | Diphthongs
+|-
+! [[Close vowel|Close]]
+| {{IPA|iː}}
+| {{IPA|uː}}
+| {{IPA|iu, ia}}
+| {{IPA|ui, ua}}
+|-
+! [[Mid vowel|Mid]]
+| {{IPA|eː}}
+| {{IPA|oː}}
+| {{IPA|eu}}
+| {{IPA|oi?}}<sup>1</sup>
+|-
+! [[Open vowel|Open]]
+| colspan="2" | {{IPA|aː}}
+| colspan="2" |
+|}
+
+<sup>1</sup>Early Old Irish {{IPA|/ai/}} and {{IPA|/oi/}} merged in later Old Irish. It is unclear what the resulting sound was, as scribes continued to use both {{vr|aí}} and {{vr|oí}} to indicate the merged sound. The choice of {{IPA|/oi/}} in the table above is somewhat arbitrary.
+
+The distribution of short [[vowel]]s in [[stress (linguistics)|unstressed]] [[syllable]]s is a little complicated. All short vowels may appear in absolutely final position (at the very end of a word) after both broad and slender consonants. The front vowels {{IPA|/e/}} and {{IPA|/i/}} are often spelled {{vr|ae}} and {{vr|ai}} after broad consonants, which might indicate a retracted pronunciation here, perhaps something like {{IPA|[ɘ]}} and {{IPA|[ɨ]}}. All ten possibilities are shown in the following examples:
+
+:{| class="wikitable"
+|-
+! Old Irish
+! Pronunciation
+! English
+! Annotations
+|-
+| {{lang|sga|marba}}
+| {{IPA|/ˈmarv'''a'''/}}
+| kill
+| [[Grammatical person|1]] [[grammatical number|sg.]] [[subjunctive mood|subj.]]
+|-
+| {{lang|sga|léicea}}
+| {{IPA|/ˈLʲeːɡʲ'''a'''/}}
+| leave
+| 1 sg. subj.
+|-
+| {{lang|sga|marbae}}
+| {{IPA|/ˈmarv'''e'''/}} ({{IPA|[ˈmarv'''ɘ''']?}})
+| kill
+| 2 sg. subj.
+|-
+| {{lang|sga|léice}}
+| {{IPA|/ˈLʲeːɡʲ'''e'''/}}
+| leave
+| 2 sg. subj.
+|-
+| {{lang|sga|marbai}}
+| {{IPA|/ˈmarv'''i'''/}} ({{IPA|[ˈmarv'''ɨ''']}}?)
+| kill
+| 2 sg. [[indicative mood|indic.]]
+|-
+| {{lang|sga|léici}}
+| {{IPA|/ˈlʲeːɡʲ'''i'''/}}
+| leave
+| 2 sg. indic.
+|-
+| {{lang|sga|súlo}}
+| {{IPA|/ˈsuːl'''o'''/}}
+| eye
+| [[genitive case|gen.]]
+|-
+| {{lang|sga|doirseo}}
+| {{IPA|/ˈdoRʲsʲ'''o'''/}}
+| door
+| gen.
+|-
+| {{lang|sga|marbu}}
+| {{IPA|/ˈmarv'''u'''/}}
+| kill
+| 1 sg. indic.
+|-
+| {{lang|sga|léiciu}}
+| {{IPA|/ˈLʲeːɡʲ'''u'''/}}
+| leave
+| 1 sg. indic.
+|}
+
+The distribution of short vowels in unstressed syllables, other than when absolutely final, was quite restricted. It is usually thought that there were only two allowed phonemes: {{IPA|/ə/}} (written {{vr|a, ai, e, i}} depending on the quality of surrounding consonants) and {{IPA|/u/}} (written {{vr|u}} or {{vr|o}}). The phoneme {{IPA|/u/}} tended to occur when the following syllable contained an *ū in [[Proto-Celtic language|Proto-Celtic]] (for example, {{lang|sga|dligud}} {{IPA|/ˈdʲlʲiɣ'''u'''ð/}} "law" (dat.) < PC *''dligedū''), or after a broad [[labial consonant|labial]] (for example, {{lang|sga|lebor}} {{IPA|/ˈLʲev'''u'''r/}} "book"; {{lang|sga|domun}} {{IPA|/ˈdoṽ'''u'''n/}} "world"). The phoneme {{IPA|/ə/}} occurred in other circumstances. The occurrence of the two phonemes was generally unrelated to the nature of the corresponding Proto-Celtic vowel, which could be any monophthong: long or short.
+
+Long vowels also occur in unstressed syllables. However, they rarely reflect Proto-Celtic long vowels, which were shortened prior to the deletion (syncope) of inner syllables. Rather, they originate in one of the following ways:
+*from the late resolution of a [[hiatus (linguistics)|hiatus]] of two adjacent vowels (usually as a result of loss of *s between vowels);
+*from [[compensatory lengthening]] in response to loss of a consonant ({{lang|sga|cenél}} "kindred, gender" < *''cenethl''; {{lang|sga|du·air-chér}} "I have purchased" < *''-chechr'', preterite of {{lang|sga|crenaid}} "buys"{{sfn|Thurneysen|1946|p=79}});
+*from assimilation of an unstressed vowel to a corresponding long stressed vowel;
+*from late compounding;
+*from lengthening of short vowels before unlenited {{IPA|/m, N, L, R/}}, still in progress in Old Irish (compare {{lang|sga|erríndem}} "highest" vs. {{lang|sga|rind}} "peak"{{sfn|Thurneysen|1946|p=32}}).
+
+===Stress===
+Stress is generally on the first syllable of a word. However, in verbs it occurs on the second syllable when the first syllable is a [[clitic]] (the verbal prefix {{lang|sga|as-}} in {{lang|sga|as·beir}} {{IPA|/asˈberʲ/}} "he says"). In such cases, the unstressed prefix is indicated in grammatical works with a following [[interpunct|centre dot]] ({{vr|·}}).
+
+== Orthography ==
+As with most [[:Category:Medieval languages|medieval languages]], the [[orthography]] of Old Irish is not fixed, so the following statements are to be taken as generalisations only. Individual [[manuscript]]s may vary greatly from these guidelines.
+
+The Old Irish [[alphabet]] consists of the following eighteen [[Letter (alphabet)|letters]] of the [[Latin alphabet]]:
+: ''a, b, c, d, e, f, g, h, i, l, m, n, o, p, r, s, t, u,''
+in addition to the five '''long [[vowel]]s''', shown by an [[acute accent]] (´):
+: ''á, é, í, ó, ú,''
+the '''[[lenition|lenited]]''' consonants denoted with a [[dot (diacritic)|superdot]] (◌̇):
+: ''ḟ, ṡ,''
+and the '''[[eclipsis]]''' consonants also denoted with a superdot:
+: ''ṁ, ṅ''.
+Old Irish '''[[digraph (orthography)|digraphs]]''' include the lenition consonants:
+: ''ch, fh, th, ph, sh'',
+the eclipsis consonants:
+: ''mb, nd, ng''; ''ṁb, ṅd, ṅg'',
+the [[gemination|geminatives]]:
+: ''bb, cc, ll, mm, nn, pp, rr, tt'',<!-- Missing some? -->
+and the [[diphthongs]]:
+: ''aé/áe/aí/ái, oé/óe/oí/ói'',
+: ''uí, ía, áu, úa, éu, óu, iu, au, eu'',
+: ''ai, ei, oi, ui''; ''ái, éi, ói, úi''.
+
+The following table indicates the broad pronunciation of various consonant letters in various environments:
+
+:{| class="wikitable" style="text-align: center;"
+|-
+!colspan=6|Broad consonant phonemes
+|-
+!rowspan=2|Letter
+!colspan=3|Word-initial
+!colspan=2|Non-initial
+|-
+!unmutated
+!eclipsed
+!lenited
+!single
+!geminate
+|-
+|b
+| {{IPAslink|b}}
+| {{angbr|mb}} {{IPAslink|m}}
+| colspan=2|{{IPAslink|v}}
+| {{angbr|bb}} {{IPAslink|b}}
+|-
+|c
+| {{IPAslink|k}}
+| {{IPAslink|ɡ}}
+| {{angbr|ch}} {{IPAslink|x}}
+| {{IPAslink|k}}, {{IPAslink|ɡ}}
+| {{angbr|cc}} {{IPAslink|k}}
+|-
+|d
+| {{IPAslink|d}}
+| {{angbr|nd}} {{IPA|/N/}}
+| colspan=2|{{IPAslink|ð}}
+| —
+|-
+|f
+| {{IPAslink|f}}
+| {{IPAslink|v}}
+| {{angbr|ḟ/fh}} {{IPA|/ /}}
+| {{IPAslink|f}}
+| —
+|-
+|g
+| {{IPAslink|ɡ}}
+| {{angbr|ng}} {{IPAslink|ŋ}}
+| colspan=2|{{IPAslink|ɣ}}
+| —
+|-
+|h
+| colspan=5|See explanation below
+|-
+|l
+| {{IPA|/L/}}
+| —
+| colspan=2|{{IPAslink|l}}
+| {{angbr|ll}} {{IPA|/L/}}
+|-
+|m
+| {{IPAslink|m}}
+| —
+| colspan=2|{{IPAslink|ṽ}}
+| {{angbr|mm}} {{IPAslink|m}}
+|-
+|n
+| {{IPA|/N/}}
+| —
+| colspan=2|{{IPAslink|n}}
+| {{angbr|nn}} {{IPA|/N/}}
+|-
+|p
+| {{IPAslink|p}}
+| {{IPAslink|b}}
+| {{angbr|ph}} {{IPAslink|f}}
+| {{IPAslink|p}}, {{IPAslink|b}}
+| {{angbr|pp}} {{IPAslink|p}}
+|-
+|r
+| {{IPA|/R/}}
+| —
+| colspan=2|{{IPAslink|r}}
+| {{angbr|rr}} {{IPA|/R/}}
+|-
+|s₁
+| {{IPAslink|s}}
+| —
+| {{angbr|ṡ/sh}} {{IPAslink|h}}
+| {{IPAslink|s}}
+| —
+|-
+|s₂<sup>1</sup>
+| {{IPAslink|s}}
+| —
+| colspan=2| {{angbr|f/ph}} {{IPAslink|f}}
+| —
+|-
+|t
+| {{IPAslink|t}}
+| {{IPAslink|d}}
+| {{angbr|th}} {{IPAslink|θ}}
+| {{IPAslink|t}}, {{IPAslink|d}}
+| {{angbr|tt}} {{IPAslink|t}}
+|}
+{{smalldiv|1=
+:Angle brackets {{angbr}} here indicate graphemic differences to the unmutated consonant.
+:A dash (—) here indicates that the respective consonant is not subject to eclipsis. These consonants are: ''r, l, n, s''<ref name="dking">{{cite web |title=Old-Irish Spelling and Pronunciation |first=Dennis |last=King |date=1998-12-11 |website=Sabhal Mòr Ostaig |url=https://www3.smo.uhi.ac.uk/sengoidelc/donncha/labhairt.html |access-date=2025-01-01 }}</ref>
+<sup>1</sup>The ''s₂'' arises from older ''*sw'' or ''*sɸ'' which is lenited to {{IPA|/f/}}. In Old Irish there are only several words containing ''s₂'': '''''s'''ïur :: '''f'''ïur, '''ph'''ïur'', sister; '''''s'''esser :: mór'''f'''esser'', six persons / seven (lit. great six) persons; or in reduplicated verbs ''do·'''s'''einn :: do·'''s'''e'''ph'''ainn'', pursue.
+}}
+
+When the consonants ''b, d, g'' are eclipsed by the preceding word (always from a word-initial position), their spelling and pronunciation change to: {{angbr|mb}} {{IPAslink|m}}, {{angbr|nd}} {{IPA|/N/}}, {{angbr|ng}} {{IPAslink|ŋ}}<ref name="dking"/>
+
+Generally, geminating a consonant ensures its unmutated sound. While the letter {{angbr|c}} may be voiced {{IPAslink|ɡ}} at the end of some words, but when it is written double {{angbr|cc}} it is always voiceless {{IPAslink|k}} in regularised texts; however, even final {{IPA|/ɡ/}} was often written "cc", as in ''bec / becc'' "small, little" (Modern Irish and Scottish ''beag'', Manx ''beg'').
+
+In later Irish manuscripts, lenited ''f'' and ''s'' are denoted with the letter ''h'' {{angbr|fh}}, {{angbr|sh}}, instead of using a superdot {{angbr|ḟ}}, {{angbr|ṡ}}.<ref name="dking"/>
+
+When initial ''s'' stemmed from Primitive Irish ''*sw-'', its lenited version is {{angbr|f}} {{IPAblink|ɸ}}.
+
+The slender ([[Palatalization (phonetics)|palatalised]]) variants of the 13 consonants, transcribed in IPA with a following {{IPAslink|ʲ}}, occur in the following environments:
+* Before a written ''e, é, i, í''
+* After a written ''i'', when not followed by a vowel letter (but not after the diphthongs ''aí, oí, uí'')
+
+Although Old Irish has both a sound {{IPAslink|h}} and a letter ''h'', there is no consistent relationship between the two. Vowel-initial words are sometimes written with an unpronounced ''h'', especially if they are very short (the Old Irish [[preposition]] {{lang|sga|i}} "in" was sometimes written {{lang|sga|hi}}) or if they need to be emphasised (the name of Ireland, {{lang|sga|Ériu}}, was sometimes written {{lang|sga|Hériu}}). On the other hand, words that begin with the sound {{IPA|/h/}} are usually written without it: {{lang|sga|a ór}} {{IPA|/a hoːr/}} "her gold". If the sound and the spelling [[co-occurrence|co-occur]], it is by coincidence, as {{lang|sga|ní hed}} {{IPA|/Nʲiː heð/}} "it is not".
+
+=== Stops following vowels ===
+The voiceless stops of Old Irish are ''c, p, t''. They contrast with the voiced stops ''g, b, d''. Additionally, the letter ''m'' can behave similarly to a stop following vowels. These seven consonants often mutate when not in the word-initial position.
+
+In non-initial positions, the single-letter voiceless stops ''c, p,'' and ''t'' become the voiced stops {{IPAslink|ɡ}}, {{IPAslink|b}}, and {{IPAslink|d}} respectively unless they are written double. Ambiguity in these letters' pronunciations arises when a single consonant follows an ''l, n,'' or ''r''.<ref name="dking"/> The lenited stops ''ch, ph,'' and ''th'' become {{IPAslink|x}}, {{IPAslink|f}}, and {{IPAslink|θ}} respectively.
+:{| class="wikitable"
+|-
+!colspan=3|Non-initial voiceless stops {{angbr|c}}, {{angbr|p}}, {{angbr|t}}
+|-
+!Old Irish
+!Pronunciation
+!English
+|-
+|{{lang|sga|macc}}
+| {{IPA|/mak/}}
+| {{lang|en|son}}
+|-
+|{{lang|sga|bec}} or {{lang|sga|becc}}
+| {{IPA|/bʲeɡ/}}
+| {{lang|en|small}}
+|-
+|{{lang|sga|op}} or {{lang|sga|opp}}
+| {{IPA|/ob/}}
+| {{lang|en|refuse}}
+|-
+|{{lang|sga|bratt}}
+| {{IPA|/brat/}}
+| {{lang|en|mantle}}
+|-
+|{{lang|sga|brot}} or {{lang|sga|brott}}
+| {{IPA|/brod/}}
+| {{lang|en|goad}}
+|-
+!colspan=3|Lenited consonants {{angbr|ch}}, {{angbr|ph}}, {{angbr|th}}
+|-
+|{{lang|sga|ech}}
+| {{IPA|/ex/}}
+| {{lang|en|horse}}
+|-
+|{{lang|sga|oíph}}
+| {{IPA|/oif/}}
+| {{lang|en|beauty}}
+|-
+|{{lang|sga|áth}}
+| {{IPA|/aːθ/}}
+| {{lang|en|ford}}
+|}
+
+The voiced stops ''b, d,'' and ''g'' become fricative {{IPAslink|v}}, {{IPAslink|ð}}, and {{IPAslink|ɣ}}, respectively—identical sounds to their word-initial lenitions.
+:{| class="wikitable"
+|-
+!colspan=3|Non-initial voiced stops {{angbr|g}}, {{angbr|b}}, {{angbr|d}}
+|-
+!Old Irish
+!Pronunciation
+!English
+|-
+|{{lang|sga|dub}}
+| {{IPA|/duv/}}
+| {{lang|en|black}}
+|-
+|{{lang|sga|mod}}
+| {{IPA|/moð/}}
+| {{lang|en|work}}
+|-
+|{{lang|sga|mug}}
+| {{IPA|/muɣ/}}
+| {{lang|en|slave}}
+|-
+|{{lang|sga|claideb}}
+| {{IPA|/klaðʲəv/}}
+| {{lang|en|sword}}
+|-
+|{{lang|sga|claidib}}
+| {{IPA|/klaðʲəvʲ/}}
+| {{lang|en|swords}}
+|}
+
+In non-initial positions, the letter ''m'' usually becomes the nasal fricative {{IPAslink|ṽ}}, but in some cases it becomes a nasal stop, denoted as {{IPAslink|m}}. In cases in which it becomes a stop, ''m'' is often written double to avoid ambiguity.
+:{| class="wikitable"
+|-
+!colspan=3|Non-initial consonant {{angbr|m}}
+|-
+!Old Irish
+!Pronunciation
+!English
+|-
+|{{lang|sga|dám}}
+| {{IPA|/daːṽ/}}
+| {{lang|en|company}}
+|-
+|{{lang|sga|lom}} or {{lang|sga|lomm}}
+| {{IPA|/Lom/}}
+| {{lang|en|bare}}
+|}
+
+=== Stops following other consonants ===
+Ambiguity arises in the pronunciation of the stop consonants (''c, g, t, d, p, b'') when they follow ''l, n,'' or ''r'':
+:{| class="wikitable"
+|-
+!colspan=3|Homographs involving {{angbr|l}}, {{angbr|n}}, {{angbr|r}}
+|-
+!Old Irish
+!Pronunciation
+!English
+|-
+|{{lang|sga|derc}}
+| {{IPA|/dʲerk/}}
+| {{lang|en|hole}}
+|-
+|{{lang|sga|derc}}
+| {{IPA|/dʲerɡ/}}
+| {{lang|en|red}}
+|-
+|{{lang|sga|daltae}}
+| {{IPA|/daLte/}}
+| {{lang|en|fosterling}}
+|-
+|{{lang|sga|celtae}}
+| {{IPA|/kʲeLde/}}
+| {{lang|en|who hide}}
+|-
+|{{lang|sga|anta}}
+| {{IPA|/aNta/}}
+| {{lang|en|of remaining}}
+|-
+|{{lang|sga|antae}}
+| {{IPA|/aNde/}}
+| {{lang|en|who remain}}
+|}
+
+After ''m'', the letter ''b'' is naturally a stop {{IPAslink|b}}. After ''d, l, r'', the letter ''b'' is fricative {{IPAslink|v}}:
+:{| class="wikitable"
+|-
+!colspan=3|Consonant {{angbr|b}}
+|-
+!Old Irish
+!Pronunciation
+!English
+|-
+|{{lang|sga|imb}}
+| {{IPA|/imʲbʲ/}}
+| {{lang|en|butter}}
+|-
+|{{lang|sga|odb}}
+| {{IPA|/oðv/}}
+| {{lang|en|knot}} (in a tree)
+|-
+|{{lang|sga|delb}}
+| {{IPA|/dʲelv/}}
+| {{lang|en|image}}
+|-
+|{{lang|sga|marb}}
+| {{IPA|/marv/}}
+| {{lang|en|dead}}
+|}
+
+After ''n'' or ''r'', the letter ''d'' is a stop {{IPAslink|d}}:
+:{| class="wikitable"
+|-
+!colspan=3|Consonant {{angbr|d}}
+|-
+!Old Irish
+!Pronunciation
+!English
+|-
+|{{lang|sga|bind}}
+| {{IPA|/bʲiNʲdʲ/}}
+| {{lang|en|melodious}}
+|-
+|{{lang|sga|cerd}}
+| {{IPA|/kʲeRd/}}
+| {{lang|en|art, skill}}
+|}
+
+After ''n, l'', or ''r'', the letter ''g'' is usually a stop {{IPAslink|ɡ}}, but it becomes a fricative {{IPAslink|ɣ}} in a few words:
+:{| class="wikitable"
+|-
+!colspan=3|Consonant {{angbr|g}}
+|-
+!Old Irish
+!Pronunciation
+!English
+|-
+|{{lang|sga|long}}
+| {{IPA|/Loŋɡ/}}
+| {{lang|en|ship}}
+|-
+|{{lang|sga|delg}} or {{lang|sga|delc}}
+| {{IPA|/dʲelɡ/}}
+| {{lang|en|thorn}}
+|-
+|{{lang|sga|argat}} or {{lang|sga|arggat}}
+| {{IPA|/arɡəd/}}
+| {{lang|en|silver}}
+|-
+|{{lang|sga|ingen}}<ref name="ingen" group=*>
+*''ingen'' {{IPA|/inʲɣʲən/}} "daughter" < Ogam {{sm|inigena}} < Proto-Celtic *eni-genā (cf. [[Latin]] ''indigenā'' "(female) native", [[Ancient Greek]] ''engónē'' "granddaughter").
+*''ingen'' {{IPA|/iNʲɡʲən/}} "claw, nail" < Proto-Celtic *angʷīnā < PIE *h₃n̥gʷʰ- (cf. Latin ''unguis'').
+</ref>
+| {{IPA|/inʲɣʲən/}}
+| {{lang|en|daughter}}
+|-
+|{{lang|sga|ingen}}<ref name="ingen" group=*/>
+| {{IPA|/iNʲɡʲən/}}
+| {{lang|en|nail, claw}}
+|-
+|{{lang|sga|bairgen}}
+| {{IPA|/barʲɣʲən/}}
+| {{lang|en|loaf of bread}}
+|}
+
+=== The consonants ''l, n, r'' ===
+The letters ''l, n, r'' are generally written double when they indicate ''tense sonorants'' and single when they indicate ''lax sonorants''. Originally, it reflected an actual difference between single and geminate consonants, as tense sonorants in many positions (such as between vowels or word-finally) developed from geminates. As the gemination was lost, the use of written double consonants was repurposed to indicate tense sonorants. Doubly written consonants of this sort do not occur in positions where tense sonorants developed from non-geminated Proto-Celtic sonorants (such as word-initially or before a consonant).
+:{| class="wikitable"
+|-
+!Old Irish
+!Pronunciation
+!English
+|-
+|{{lang|sga|corr}}
+| {{IPA|/koR/}}
+| {{lang|en|crane}}
+|-
+|{{lang|sga|cor}}
+| {{IPA|/kor/}}
+| {{lang|en|putting}}
+|-
+|{{lang|sga|coll}}
+| {{IPA|/koL/}}
+| {{lang|en|hazel}}
+|-
+|{{lang|sga|col}}
+| {{IPA|/kol/}}
+| {{lang|en|sin}}
+|-
+|{{lang|sga|sonn}}
+| {{IPA|/soN/}}
+| {{lang|en|stake}}
+|-
+|{{lang|sga|son}}
+| {{IPA|/son/}}
+| {{lang|en|sound}}
+|-
+|{{lang|sga|ingen}}<ref name="ingen" group=*/>
+| {{IPA|/inʲɣʲən/}}
+| {{lang|en|daughter}}
+|-
+|{{lang|sga|ingen}}<ref name="ingen" group=*/>
+| {{IPA|/iNʲɡʲən/}}
+| {{lang|en|nail, claw}}
+|}
+
+Geminate consonants appear to have existed since the beginning of the Old Irish period, but they were simplified by the end, as is generally reflected by the spelling. Eventually, however, ''ll, mm, nn, rr'' were repurposed to indicate nonlenited variants of those sounds in certain positions.
+
+=== Vowels ===
+Written vowels ''a, ai, e, i'' in poststressed syllables (except when absolutely word-final) all seem to represent phonemic {{IPAslink|ə}}. The particular vowel that appears is determined by the quality (broad vs. slender) of the surrounding consonants and has no relation to the etymological vowel quality:
+:{|class="wikitable"
+! Preceding consonant !! Following consonant !! Spelling !! Example
+|-
+| broad || broad || {{angbr|a}} || {{lang|sga|díg'''a'''l}} {{IPA|/ˈdʲiːɣəl/}} "vengeance" ([[nominative case|nom.]])
+|-
+| broad || slender (in open syllable) || {{angbr|a}} ||
+|-
+| broad || slender (in closed syllable) || {{angbr|ai}} || {{lang|sga|díg'''ai'''l}} {{IPA|/ˈdʲiːɣəlʲ/}} "vengeance" ([[accusative case|acc.]]/[[dative case|dat.]])
+|-
+| slender || broad || {{angbr|e}} || {{lang|sga|dlig'''e'''d}} {{IPA|/ˈdʲlʲiɣʲəð/}} "law" ([[accusative case|acc.]])
+|-
+| slender || slender || {{angbr|i}} || {{lang|sga|dlig'''i'''d}} {{IPA|/ˈdʲlʲiɣʲəðʲ/}} "law" ([[genitive case|gen.]])
+|}
+
+It seems likely that spelling variations reflected [[allophonic]] variations in the pronunciation of {{IPA|/ə/}}.
+
+The regular insertion of the letter "i" between a written back vowel and a slender consonant has been interpreted as an indication that Old Irish speakers did pronounce such sequences with a non-phonemic palatal on-glide, so that e.g. ''duine'' {{IPA|/dunʲe/}} was realised as {{IPA|[dui̯nʲe]}}.<ref>{{cite book |last1=McCone |first1=Kim |title=Towards a Relative Chronology of Ancient and Medieval Celtic Sound Change |date=1996 |publisher=Department of Old Irish, St. Patrick's College |location=Maynooth |page=33}}</ref>
+
+== History ==
+{{main|Phonological history of Old Irish}}
+Old Irish underwent extensive phonological changes from [[Proto-Celtic language|Proto-Celtic]] in both consonants and vowels.<ref>{{cite book |author1=Ranko Matasović |editor1-last=Tristram |editor1-first=Hildegard L.C. |title=The Celtic Languages in Contact Papers from the Workshop Within the Framework of the XIII International Congress of Celtic Studies, Bonn, 26-27 July 2007 |date=2007 |publisher=Potsdam University Press |location=Bonn |isbn=9783940793072 |page=108 |chapter-url=https://books.google.com/books?id=VgBtaDT-evYC&dq=proto-insular-celtic&pg=PA97 |access-date=18 August 2022 |chapter=Insular Celtic as a Language Area}}</ref> Final syllables were lost or [[transphonologization|transphonologized]] as grammatical mutations on the following word. In addition, unstressed syllables faced various reductions and deletions of their vowels.
+
+==Grammar==
+{{main|Old Irish grammar}}
+
+Old Irish is a [[fusional language|fusional]], [[nominative-accusative language|nominative-accusative]], and [[verb-subject-object|VSO]] language.
+
+Nouns [[declension|decline]] for 5 [[grammatical case|cases]]: [[nominative]], [[accusative]], [[genitive]], [[prepositional case|prepositional]], [[vocative]]; 3 [[grammatical gender|genders]]: masculine, feminine, neuter; 3 [[grammatical number|numbers]]: [[Grammatical number#Singular versus plural|singular]], [[Dual (grammatical number)|dual]], [[plural]]. [[Adjective]]s [[agreement (linguistics)|agree]] with nouns in [[grammatical case|case]], [[grammatical gender|gender]], and [[grammatical number|number]]. The [[prepositional case]] is called the [[dative]] by convention.
+
+Verbs [[Grammatical conjugation|conjugate]] for 3 [[grammatical tense|tenses]]: [[past tense|past]], [[present tense|present]], [[future tense|future]]; 3 [[grammatical aspect|aspects]]: [[Uses of English verb forms#Simple|simple]], [[perfective aspect|perfective]], [[imperfective aspect|imperfective]]; 4 [[grammatical mood|moods]]: [[Grammatical mood#Indicative|indicative]], [[subjunctive mood|subjunctive]], [[conditional mood|conditional]], [[imperative mood|imperative]]; 2 [[grammatical voice|voices]]: [[active voice|active]], and [[passive voice|passive]]; [[Dependent and independent verb forms|independent]], and [[Dependent and independent verb forms|dependent]] forms; and [[Old Irish grammar#Independent and dependent forms|simple]], and [[Old Irish grammar#Independent and dependent forms|complex]] forms. Verbs display [[grammatical tense|tense]], [[grammatical aspect|aspect]], [[grammatical mood|mood]], [[grammatical voice|voice]], and sometimes [[portmanteau]] forms through [[suffix]]es, or [[word stem|stem]] vowel changes for the former four. [[Clitic#Proclitic|Proclitics]] form a verbal complex with the core verb, and the verbal complex is often preceded by preverbal [[Grammatical particle|particles]] such as {{lang|sga|ní}} (negative marker), {{lang|sga|in}} (interrogative marker), {{lang|sga|ro}} (perfective marker). [[Object (grammar)#Types|Direct object]] [[personal pronoun]]s occur between the [[preverb]] and the verbal [[word stem|stem]]. Verbs [[Agreement (linguistics)|agree]] with their [[Subject (grammar)|subject]] in [[grammatical person|person]] and [[grammatical number|number]]. A single verb can stand as an entire sentence. Emphatic particles such as -sa and -se are affixed to the end of the verb.
+
+[[Preposition and postposition|Prepositions]] [[inflection|inflect]] for [[grammatical person|person]] and [[grammatical number|number]], and different prepositions [[Government (linguistics)|govern]] different [[grammatical cases|cases]], sometimes depending on the [[semantics]] intended.
+
+==See also==
+*[[Early Irish literature]]
+*[[Dictionary of the Irish Language]]
+*[[Auraicept na n-Éces]]
+*[[Goidelic substrate hypothesis]]
+
+==Notes==
+{{reflist |group=*}}
+
+==References==
+{{reflist}}
+
+==Sources==
+{{refbegin}}
+*{{Cite book|last=Kortlandt |first=Frederik Herman Henri |title=Italo-Celtic Origins and the Prehistory of the Irish Language |volume=14 |series=Leiden Studies in Indo-European |publisher=Rodopi |year=2007 |isbn= 978-90-420-2177-8 }}
+*{{Cite book|last=Thurneysen |first=Rudolf |author-link=Rudolf Thurneysen |title=A Grammar of Old Irish |others=Translated by [[D. A. Binchy]] and [[Osborn Bergin]] |location=Dublin |publisher=Dublin Institute for Advanced Studies |year=1998 |orig-year=1946 |url=https://archive.org/details/thurneysen-a-grammar-of-old-irish |isbn=1-85500-161-6 }}<!--Previously this had year=1993, origyear=1946. The ISBN may refer to this republished version. However, the page numbers in this article were generally taken from an actual 1946 copy, and there's no point in wrongly having 1993 as the year in the shortened footnotes.-->
+{{refend}}
+
+==Further reading==
+{{refbegin}}
+*{{cite book|first=Robert |last=Beekes |title=Comparative Indo-European Linguistics: An Introduction |year=1995}}
+*{{cite book|last=Fortson |first=Benjamin W. IV |year=2004 |title=Indo-European Language and Culture: An Introduction }}
+*{{cite book|last=Green |first=Antony |title=Old Irish Verbs and Vocabulary |location=Somerville, Massachusetts |publisher=Cascadilla Press |year=1995 |isbn=1-57473-003-7}}
+*{{cite book|last=Lehmann |first=R.&nbsp;P.&nbsp;M. |author2=W.&nbsp;P. Lehmann |author-link2=Winfred P. Lehmann |title=An Introduction to Old Irish |location=New York |publisher=Modern Language Association of America |year=1975 |isbn=0-87352-289-3}}
+* {{cite book |last=Matasović |first=Ranko |year=2011 |url=http://exadmin.matita.net/uploads/pagine/644703631_handouts_pavia_matasovic.pdf |title=Problems in the Reconstruction of Proto-Celtic |publisher=Pavia Summer School in Indo-European Linguistics. }}{{dead link|date=March 2018 |bot=InternetArchiveBot |fix-attempted=yes }}
+*{{cite book|last=McCone |first=Kim |title=The Early Irish Verb |location=Maynooth |publisher=An Sagart |year=1987 |isbn=1-870684-00-1}}
+*{{cite book|last=McCone |first=Kim |title=A First Old Irish Grammar and Reader |location=Maynooth |publisher=Department of Old and Middle Irish, National University of Ireland |year=2005 |isbn=0-901519-36-7}}
+*{{cite book|last=O'Connell |first=Frederick William |title=A Grammar of Old Irish |url=https://archive.org/details/grammaroldirish00oconuoft |location=Belfast |publisher=Mayne, Boyd & Son |year=1912}}
+*{{cite book|last=Quin |first=E.&nbsp;G. |title=Old-Irish Workbook |location=Dublin |publisher=Royal Irish Academy |year=1975 |isbn=0-901714-08-9}}
+*{{cite Q |Q131605459 |first=Don |last=Ringe |author-link=Donald Ringe |mode=cs1}}
+*{{cite book|last=Sihler |first=Andrew |year=1995 |title=New Comparative Grammar of Greek and Latin |publisher=Oxford University Press }}
+*{{cite book|last=Stifter |first=David |title=Sengoídelc: Old Irish for Beginners|location=Syracuse, New York |publisher=Syracuse University Press |year=2006 |isbn=0-8156-3072-7}}
+*{{cite book|last=Strachan |first=John |title=Old-Irish Paradigms and Selections from the Old-Irish Glosses |url=https://archive.org/details/oldirishparadigm00strauoft |edition=Fourth |others=Revised by [[Osborn Bergin]] |location=Dublin |publisher=Royal Irish Academy |year=1949 |isbn=0-901714-35-6}}
+*{{cite book|last=Tigges |first=Wim |author2=Feargal Ó Béarra |title=An Old Irish Primer |publisher=Stichting Uitgeverij de Keltische Draak |location=Nijmegen |year=2006 |isbn=90-806863-5-2}}
+{{refend}}
+
+==External links==
+{{wiktionary category|type=Old Irish|category=Old Irish language}}
+*[http://www.ceantar.org/Dicts/MB2/index.html An Etymological Dictionary of the Gaelic Language] MacBain, Alexander Gairm Publications, 1982
+*[http://www.smo.uhi.ac.uk/sengoidelc/duil-belrai/english.html Old Irish dictionary] {{Webarchive|url=https://web.archive.org/web/20160430011241/http://www.smo.uhi.ac.uk/sengoidelc/duil-belrai/english.html |date=30 April 2016 }}
+* [https://lrc.la.utexas.edu/eieol/iriol Old Irish Online] by Patrizia de Bernardo Stempel and Jonathan Slocum, free online lessons at the [https://liberalarts.utexas.edu/lrc Linguistics Research Center] at the [[University of Texas at Austin]]
+*[http://www.dil.ie/ eDIL] (digital edition of the ''[[Dictionary of the Irish Language]]'')
+* [https://spw.uni-goettingen.de/projects/aig/lng-sga.html A video introduction to Old Irish at glottothèque – Ancient Indo-European Grammars online], an online collection of introductory videos to Ancient Indo-European languages produced by the University of Göttingen
+
+{{Irish linguistics}}
+{{Scottish Gaelic linguistics}}
+{{Manx linguistics}}{{Celtic languages}}{{Authority control}}
+
+[[Category:Old Irish| ]]
+[[Category:Languages attested since the 7th century]]
+[[Category:Languages extinct in the 9th century]]
+[[Category:Medieval history of Ireland]]
+[[Category:Medieval languages|Irish, 1]]
+[[Category:Culture of medieval Scotland]]

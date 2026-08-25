@@ -1,0 +1,523 @@
+{{Short description|Two groups of Arabic consonants}}
+{{Hatnote|In this article, the [[Arabic alphabet]] is [[Romanization of Arabic|transliterated]] according to [[ALA-LC]] romanization.}}
+{{redirect|Moon letter|the adaptation of the Roman alphabet into tactile form|Moon type}}
+[[File:Arabic Sun and moon letters.png|alt=The Arabic Sun consonants in White and Moon consonants in Black|thumb|363x363px|The Arabic Sun consonants in black on white and Moon consonants in white on black]]
+[[File:Maltese sun and moon consonants.png|alt=The Maltese moon consonants highlighted in white on black, the sun consonants in black on white, and the vowels in gray|thumb|The Maltese moon consonants highlighted in white on black, the sun consonants in black on white, and the vowels in gray]]
+In [[Modern Standard Arabic|Arabic]] and [[Maltese language|Maltese]], all [[consonant]]s are classified into two distinct groups known as '''sun letters''' ({{langx|ar|حروف شمسية}} ''{{transliteration|ar|ALA|ḥurūf shamsiyyah}}'', {{langx|mt|konsonanti xemxin}}) and '''moon letters''' ([[Arabic]]: {{lang|ar|حروف قمرية}} ''{{transliteration|ar|ALA|ḥurūf qamariyyah}}'', {{langx|mt|konsonanti qamrin}}).
+
+This distinction affects the way the definite article (equivalent to "[[the]]" in English) is [[Assimilation (phonology)|assimilated]] or pronounced before consonants: when a word begins with a '''sun letter''', the definite article assimilates with the initial [[consonant]] of the word. 
+
+The names stem from how the definite article interacts with the nouns "Sun" and "Moon" in Arabic (and Maltese). In Arabic, '''al-shams''' (“the Sun”) becomes '''ash-shams''' (assimilating the '''[[Lamedh#Arabic_lām|lām]]'''), while '''al-qamar''' (“the Moon”) remains unchanged. Similarly, in [[Maltese language|Maltese]], "the Sun" is '''ix-xemx''' (with [[Assimilation (phonology)|assimilation]]), while "the Moon" is '''il-qamar''' (without assimilation).
+
+==Rule==
+When followed by a sun letter, the {{IPAslink|l}} of the Arabic definite article {{Transliteration|ar|ALA|al-}} assimilates to the initial consonant of the following noun, resulting in a [[Gemination|doubled consonant]]. For example, "the Nile" is pronounced {{Transliteration|ar|an-Nīl}}, not {{Transliteration|ar|al-Nīl}}.
+
+When the Arabic definite article (<span style="font-size:135%;">{{lang|ar|الْـ}}</span>) is followed by a moon letter, no assimilation takes place.
+
+The sun letters represent the [[coronal consonant]]s according to the phonology of Classical Arabic, and the moon letters represent all others. Note that the mnemonic {{lang|ar|اِبْغِ حَجَّكَ وَخَفْ عَقِيمَهُ}} (pronounced somewhat like ''aibgh hajak wakhaf eaqimah'') groups all moon letters.
+
+The sun and moon letters are as follows:
+
+{| class="wikitable" style="text-align: center"
+|-
+! rowspan="3" | Sun letters
+| <span style="font-size:135%;">{{lang|ar|[[ت]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[ث]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[د]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[ذ]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[ر]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[ز]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[س]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[ش]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[ص]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[ض]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[ط]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[ظ]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[ل]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[ن]]}}</span>
+|-
+| {{Transliteration|ar|ALA|t}} || {{Transliteration|ar|ALA|[[Th (digraph)|th]]}} || {{Transliteration|ar|ALA|d}} || {{Transliteration|ar|ALA|[[Dh (digraph)|dh]]}} || {{Transliteration|ar|ALA|r}} || {{Transliteration|ar|ALA|z}} || {{Transliteration|ar|ALA|s}} || {{Transliteration|ar|ALA|[[Sh (digraph)|sh]]}} || {{Transliteration|ar|ALA|[[ṣ]]}} || {{Transliteration|ar|ALA|[[ḍ]]}} || {{Transliteration|ar|ALA|[[ṭ]]}} || {{Transliteration|ar|ALA|[[ẓ]]}} || {{Transliteration|ar|ALA|l}} || {{Transliteration|ar|ALA|n}}
+|-
+| {{IPAslink|t}}||{{IPAslink|θ}}||{{IPAslink|d}}||{{IPAslink|ð}}||{{IPAslink|r}}||{{IPAslink|z}}||{{IPAslink|s}}||{{IPAslink|ʃ}}||{{IPAslink|sˤ}}||{{IPAslink|dˤ}}||{{IPAslink|tˤ}}||{{IPAslink|ðˤ}}||{{IPAslink|l}}||{{IPAslink|n}}
+|-
+| colspan="15"|
+|-
+! rowspan="3" | Moon letters
+| style="background: #D3D3D3" | <span style="font-size:135%;">{{lang|ar|[[ا]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[ب]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[ج]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[ح]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[خ]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[ع]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[غ]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[ف]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[ق]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[ك]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[م]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[ه]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[و]]}}</span>||<span style="font-size:135%;">{{lang|ar|[[ي]]}}</span>
+|-
+| style="background: #D3D3D3" | {{Transliteration|ar|ALA|[[ʼ]]}} || {{Transliteration|ar|ALA|b}} || {{Transliteration|ar|ALA|j}} || {{Transliteration|ar|ALA|[[Heth|ḥ]]}} || {{Transliteration|ar|ALA|[[Kh (digraph)|kh]]}} || {{Transliteration|ar|ALA|[[ʻ]]}} || {{Transliteration|ar|ALA|[[Gh (digraph)|gh]]}} || {{Transliteration|ar|ALA|f}} || {{Transliteration|ar|ALA|q}} || {{Transliteration|ar|ALA|k}} || {{Transliteration|ar|ALA|m}} ||{{Transliteration|ar|ALA|h}}||{{Transliteration|ar|ALA|w}}||{{Transliteration|ar|ALA|y}}
+|-
+| style="background: #D3D3D3" |{{IPAslink|ʔ}}||{{IPAslink|b}}||{{IPAslink|d͡ʒ}}[[#Jīm|*]] ||{{IPAslink|ħ}}||{{IPAslink|x}}||{{IPAslink|ʕ}}||{{IPAslink|ɣ}}||{{IPAslink|f}}||{{IPAslink|q}}||{{IPAslink|k}}||{{IPAslink|m}}||{{IPAslink|h}}||{{IPAslink|w}}||{{IPAslink|j}}
+|}
+
+===Jīm===
+The letter <span style="font-size:135%;">{{lang|ar|[[Gimel|ج]]}}</span> {{Transliteration|ar|ALA|jīm}} is pronounced differently depending on the region of the speaker. In many regions it represents a coronal consonant such as {{IPAblink|d͡ʒ}} or {{IPAblink|ʒ}}. However, in [[Classical Arabic]], it represented a [[Palatalization (phonetics)|palatalized]] voiced velar plosive {{IPAslink|ɡʲ}} or a voiced palatal plosive {{IPAslink|ɟ}}. A contemporary pronunciation as {{IPAblink|ɡ}}<ref>{{Cite book |last=al Nassir |first=Abdulmunʿim Abdulamir |url=https://etheses.whiterose.ac.uk/10917/1/354409.pdf |title=Sibawayh the Phonologist |publisher=University of New York |year=1985 |pages=80 |language=ar |access-date=23 April 2024}}</ref> is retained in [[Egypt]], [[Oman]], and coastal [[Yemen]] or {{IPAblink|ɟ}} in eastern hinterland Yemen, and as a variant in Sudan. As a result, it was classified as a moon letter, and it does not assimilate the article in Classical Arabic. Maltese ġ {{IPA|/d͡ʒ/}} is also considered a moon consonant, whereas its voiceless counterpart ċ {{IPAslink|t͡ʃ}} is a sun consonant.
+
+However, in some varieties of [[Moroccan Arabic|Moroccan]], [[Mesopotamian Arabic|Mesopotamian]], and [[Palestinian Arabic|Palestinian]] Arabic, {{Transliteration|ar|ALA|jīm}} (often /{{IPA|ʒ}}/) assimilates, like a sun letter, e.g., {{Transliteration|ar|ij-jamal}} 'camel'.<ref>{{cite book |last=Heath |first=Jeffrey |title=Jewish and Muslim Dialects of Moroccan Arabic |date= 2013 |publisher=Routledge |isbn=978-1-136-12642-0 |page=169 |url=https://books.google.com/books?id=6cW_5DOhw-wC&pg=PA169 |quote=Although CA ''j''&nbsp;... was not a "sun" letter, its MA reflex 'ʾ normally is, hence {{Transliteration|ar|ž-žbəl}} 'the mountain' (CA {{Transliteration|ar|al-jabal}}). There are some exceptions in Jebli dialects.&nbsp;... borrowings from e.g. French normally assimilates, as in {{Transliteration|ar|ž-žuṛnal}} 'the newspaper'.}}</ref><ref name=PA/>
+
+=== Emphatic consonants ===
+
+In Arabic dialects, like Palestinian, ''al'' before an [[emphatic consonant]] only assimilates in place of articulation but not in pharyngealization, hence {{Transliteration|ar|it-ṭāwla}} instead of {{Transliteration|ar|aṭ-ṭāwila}} ({{wikt-lang|ar|طاولة|الطاولة}} 'table').<ref name=PA>{{cite book |last=Sirhan |first=N. |title=Folk Stories and Personal Narratives in Palestinian Spoken Arabic |date=2014 |publisher=Springer |isbn=978-1-137-32576-1 |page=91 |url=https://books.google.com/books?id=aOCvAwAAQBAJ&pg=PA91 |quote= Although /j/ is not a sun letter, in PA it assimilates as though it were: {{Transliteration|ar|il-jamal}} – {{Transliteration|ar|ij-jamal}} (camel).  […] when an emphatic sun letter has a less emphatic counterpart (i.e. non-pharyngealised) […] the definite article assimilates in place of articulation but not in pharyngealisation. [..] {{Transliteration|ar|it-ṭāwla}} […] {{Transliteration|ar|is-ṣalātu}} }}</ref>
+
+== Maltese ==
+The sun (konsonanti xemxin) and moon (konsonanti qamrin) letters are as follows:
+{| class="wikitable" style="text-align: center"
+|-
+! rowspan="2" | Sun letters
+|{{lang|mt|[[ċ]]}}||{{lang|mt|[[d]]}}||{{lang|mt|[[l]]}}||{{lang|mt|[[n]]}}||{{lang|mt|[[r]]}}||{{lang|mt|[[s]]}}||{{lang|mt|[[t]]}}||{{lang|mt|[[x]]}}||{{lang|mt|[[ż]]}}||{{lang|mt|[[z]]}}|| colspan="4" rowspan="2" | 
+|-
+|{{IPAslink|t͡ʃ}}||{{IPAslink|d}}||{{IPAslink|l}}||{{IPAslink|n}}||{{IPAslink|r}}||{{IPAslink|s}}||{{IPAslink|t}}||{{IPAslink|ʃ}}, {{IPAslink|ʒ}}||{{IPAslink|z}}||{{IPAslink|t͡s}}, {{IPAslink|d͡z}}
+|-
+| colspan="16" |
+|-
+! rowspan="2" | Moon letters
+|{{lang|mt|[[b]]}}||{{lang|mt|[[f]]}}||{{lang|mt|[[ġ]]}}||{{lang|mt|[[g]]}}||{{lang|mt|[[għ]]}}||{{lang|mt|[[h]]}}||{{lang|mt|[[ħ]]}}||{{lang|mt|[[j]]}}||{{lang|mt|[[k]]}}||{{lang|mt|[[m]]}}||{{lang|mt|[[p]]}}||{{lang|mt|[[q]]}}||{{lang|mt|[[v]]}}
+|{{lang|mt|[[w]]}}
+|-
+|{{IPAslink|b}}||{{IPAslink|f}}||{{IPAslink|d͡ʒ}}||{{IPAslink|g}}|| /{{IPA link|ˤ}}{{IPA link|ː}}/ || silent ||{{IPAslink|h}},{{IPAslink|ħ}}||{{IPAslink|j}}||{{IPAslink|k}}||{{IPAslink|m}}||{{IPAslink|p}}||{{IPAslink|ʔ}}||{{IPAslink|v}}
+|{{IPAslink|w}}
+|}
+If a word starts with any of the moon letters, the definite article il- stays the same and does not assimilate, while with the sun letters it assimilates accordingly to: iċ-, id-, in-, ir-, is-, it-, ix-, iż-, iz-. It is also worth mentioning that words starting with vowels, and the letters għ, and h get the definite article l- (minus the initial i). When the definite article comes exactly after a word ending in a vowel, the initial <nowiki><i> of the article always drops, as in "dak </nowiki>'''ir'''-raġel ra '''r'''-raġel" (that man saw the man). When a word starts with two consonants, the definite article used is l-, but an i is attached at the beginning of the word: skola > l-iskola and Żvezja > l-Iżvezja.<ref>{{Cite web|last=Aidan|title=The Definite Article in Maltese|url=https://malteseboy.tumblr.com/post/160044174253/the-definite-article-in-maltese-the-definite}}</ref>
+
+The sound {{IPAslink|l}} (represented by the letters {{lang|mt|L}} and {{lang|ar|ل}}) function in the same way regardless of if it is a sun or moon letter, e.g. (the meat) is il-laħam in Maltese and {{lang|ar|الْلَحْمْ}} al-laḥm in Arabic or (the game) is il-logħba in Maltese and {{lang|ar|الْلُعْبَة}} al-lu[[ʿ]]<nowiki/>ba in Arabic.
+
+==Orthography==
+
+In the written language, the ⟨<span style="font-size:150%; line-height:1;">{{script/Arabic|ال}}</span>⟩ {{Transliteration|ar|ALA|al}} is retained regardless of how it is pronounced.<ref name="emsa">{{cite book |last=Abboud |first=Peter F. |url=https://archive.org/details/elementarymodern02abbo |title=Elementary Modern Standard Arabic 1 |publisher=Cambridge UP |year=1983 |isbn=0-521-27295-5 |pages=[https://archive.org/details/elementarymodern02abbo/page/n144 123]–124 |display-authors=etal |url-access=limited}}</ref> When full diacritics are used, assimilation may be expressed by putting a [[Shadda|''{{Transliteration|ar|ALA|shaddah}}'']] ⟨ ّ⟩ on the consonant after the {{Transliteration|ar|ALA-LC|lām}} ⟨<span style="font-size:150%; line-height:1;">{{script/Arabic|ل}}</span>⟩. Non-assimilation may be expressed by placing a ''[[Sukun|{{Transliteration|ar|ALA|sukūn}}]]'' over the {{Transliteration|ar|ALA-LC|lām}} ⟨<span style="font-size:150%; line-height:1;">{{script/Arabic|لْ}}</span>⟩.
+
+Most modern-written Arabic names (including personal names and geographical Arabic names) do not follow the consonant assimilation rule or the shaddah when Latinized in Latin-spelled languages. Sometimes the sun and moon rules are not followed in casual speech. They are also mostly spaced rather than hyphenated.
+
+E.g. personal name:
+* <span style="font-size:150%;">{{script/Arabic|الرَّحْمَن}}</span><!--THIS WORD ISN'T SPELLED WITH ALEF. IT'S EXCEPTIONAL--> - ''Al Rahman'' or ''El Rahman'' instead of ''Ar-Raḥmān''
+
+transliterated geographical name:
+* <span style="font-size:150%;">{{script/Arabic|الْجُمْهُورِيَّةُ التُّونِسِيَّة}}</span> - ''Al Jumhuriyah Al Tunisiyah'' instead of ''al-Jumhūrīyatu t-Tūnisīyah''
+
+{| class="wikitable"
+|+ Examples
+|-
+! colspan="3" | Sun letters !! colspan="3" | Moon letters
+|-
+| <span style="font-size:150%;">{{script/Arabic|الشَّمْس}}</span> || ''{{Transliteration|ar|ALA|ash-shams}}'' || 'the sun'
+| <span style="font-size:150%;">{{script/Arabic|الْقَمَر}}</span> || ''{{Transliteration|ar|ALA|al-qamar}}'' || 'the moon'
+|-
+| <span style="font-size:150%;">{{script/Arabic|الثِّقَة}}</span> || ''{{Transliteration|ar|ALA|ath-thiqah}}'' || 'the confidence'
+| <span style="font-size:150%;">{{script/Arabic|الْمُرْجَان}}</span> || ''{{Transliteration|ar|ALA|al-murjān}}'' || 'the coral'
+|}
+{{clear}}
+
+{| class="wikitable" width=50%; align="left"
+! colspan="4" |Moon/Lunar Letters<br>{{lang|ar|حروف قمرية}} ''{{Transliteration|ar|ALA|ḥurūf qamarīyah}}''
+|-
+!Letter
+![[International Phonetic Alphabet|IPA]]
+! {{IPAslink|l}} in the definite article "''al''" remains
+!Examples
+|-
+|<span style="font-size:150%;">{{script/Arabic|ء}}</span>
+{{Transliteration|ar|ALA|[[ʼ]]}}
+|{{IPAslink|ʔ}}
+|<span style="font-size:150%;">{{script/Arabic|الْإ, الْأ}}</span>
+
+''al-’a''.../ ''al-’u''...; ''al-’i''...
+|<span style="font-size:150%;">{{script/Arabic|الْأَخُ}}</span>
+
+''al-ʼakh(u)''
+
+<nowiki>=</nowiki> the brother
+
+<span style="font-size:150%;">{{script/Arabic|الْأُذُنُ}}</span>
+
+''al-’udhun(u)''
+
+<nowiki>=</nowiki> the ear
+
+<span style="font-size:150%;">{{script/Arabic|الْإِبْرِيقُ}}</span>
+
+''al-’ibrīq(u)''
+
+<nowiki>=</nowiki> the jug
+|-
+|<span style="font-size:150%;">{{script/Arabic|ب}}</span>
+b
+|{{IPAslink|b}}
+|<span style="font-size:150%;">{{script/Arabic|الْبـ}}</span>
+
+''al-b''...
+|<span style="font-size:150%;">{{script/Arabic|الْبَيتُ}}</span>
+
+''al-bayt(u)''
+
+<nowiki>=</nowiki> the house
+|-
+|<span style="font-size:150%;">{{script/Arabic|ج}}</span>
+j
+|{{IPAslink|d͡ʒ}}, {{IPAslink|ʒ}}, {{IPAslink|ɟ}}, {{IPAslink|ɡ}}
+|<span style="font-size:150%;">{{script/Arabic|الْجـ}}</span>
+
+''al-j''...
+|<span style="font-size:150%;">{{script/Arabic|الْجَوزُ}}</span>
+
+''al-jawz(u)''
+
+<nowiki>=</nowiki> the walnut
+|-
+|<span style="font-size:150%;">{{script/Arabic|ح}}</span>
+[[Heth|ḥ]]
+|{{IPAslink|ħ}}
+|<span style="font-size:150%;">{{script/Arabic|الْحـ}}</span>
+
+''al-ḥ''...
+|<span style="font-size:150%;">{{script/Arabic|الْحَجُّ}}</span>
+
+''al-Ḥajj(u)''<br>{{IPA|/alˈħad.d͡ʒu,<br>alˈħaʒ.ʒu,<br>alˈħaɟ.ɟu,<br>alˈħaɡ.ɡu/}}
+
+<nowiki>=</nowiki> the pilgrimage
+|-
+|<span style="font-size:150%;">{{script/Arabic|خ}}</span>
+{{Transliteration|ar|ALA|[[Kh (digraph)|kh]]}}
+|{{IPAslink|x}}
+|<span style="font-size:150%;">{{script/Arabic|الْخـ}}</span>
+
+''al-kh''...
+|<span style="font-size:150%;">{{script/Arabic|الْخَوْخُ}}</span>
+
+''al-khawkh(u)''
+
+<nowiki>=</nowiki> the peach
+|-
+|<span style="font-size:150%;">{{script/Arabic|ع}}</span>
+{{Transliteration|ar|ALA|[[ʻ]]}}
+|{{IPAslink|ʕ}}
+|<span style="font-size:150%;">{{script/Arabic|الْعـ}}</span>
+
+''al-ʻ''...
+|<span style="font-size:150%;">{{script/Arabic|الْعَقْلُ}}</span>
+
+''al-‘aql(u)''
+
+<nowiki>=</nowiki> the mind
+
+<span style="font-size:150%;">{{script/Arabic|الْعُشْبُ}}</span>
+
+''al-‘ush·b(u)''
+
+<nowiki>=</nowiki> the grass
+
+<span style="font-size:150%;">{{script/Arabic|الْعِيدُ}}</span>
+
+''al-‘id(u)''
+
+<nowiki>=</nowiki> the holiday, festival
+|-
+|<span style="font-size:150%;">{{script/Arabic|غ}}</span>
+
+{{Transliteration|ar|ALA|[[Gh (digraph)|gh]]}}
+|{{IPAslink|ɣ}}
+|<span style="font-size:150%;">{{script/Arabic|الْغـ}}</span>
+
+''al-gh...''
+|
+<span style="font-size:150%;">{{script/Arabic|الْغَرَامُ}}</span>
+
+''al-gharām(u'')
+
+<nowiki>=</nowiki> the love, romance, passion
+|-
+|<span style="font-size:150%;">{{script/Arabic|ف}}</span>
+
+f
+|{{IPAslink|f}}
+|<span style="font-size:150%;">{{script/Arabic|الْفـ}}</span>
+
+''al-f...''
+|
+<span style="font-size:150%;">{{script/Arabic|الْفِكْرُ}}</span>
+
+''al-fik·r(u)''
+
+<nowiki>=</nowiki> the thought
+|-
+|<span style="font-size:150%;">{{script/Arabic|ق}}</span>
+
+q
+|{{IPAslink|q}}
+|<span style="font-size:150%;">{{script/Arabic|الْقـ}}</span>
+
+''al-q...''
+|
+<span style="font-size:150%;">{{script/Arabic|الْقِرْدُ}}</span>
+
+''al-qird(u'')
+
+<nowiki>=</nowiki> the monkey
+|-
+|<span style="font-size:150%;">{{script/Arabic|ك}}</span>
+
+k
+|{{IPAslink|k}}
+|<span style="font-size:150%;">{{script/Arabic|الْكـ}}</span>
+
+''al-k...''
+|
+<span style="font-size:150%;">{{script/Arabic|الْكَوْكَبُ}}</span>
+
+''al-kawkab(u)''
+
+<nowiki>=</nowiki> the planet
+|-
+|<span style="font-size:150%;">{{script/Arabic|م}}</span>
+
+m
+|{{IPAslink|m}}
+|<span style="font-size:150%;">{{script/Arabic|الْمـ}}</span>
+
+''al-m...''
+|
+<span style="font-size:150%;">{{script/Arabic|الْمَتْحَفُ}}</span>
+
+''al-mat·ḥaf(u)''
+
+<nowiki>=</nowiki> the museum
+|-
+|<span style="font-size:150%;">{{script/Arabic|و}}</span>
+
+w
+|{{IPAslink|w}}
+|<span style="font-size:150%;">{{script/Arabic|الْو}}</span>
+
+''al-w...''
+|
+<span style="font-size:150%;">{{script/Arabic|الْوَفِيَُ}}</span>
+
+''al-wafiy(u)''
+
+<nowiki>=</nowiki> the faithful
+
+<nowiki>=</nowiki> the color
+|-
+|<span style="font-size:150%;">{{script/Arabic|ي}}</span>
+
+y
+|{{IPAslink|j}}
+|<span style="font-size:150%;">{{script/Arabic|الْيـ}}</span>
+
+''al-y...''
+|
+<span style="font-size:150%;">{{script/Arabic|الْيَانْسُونُ}}</span>
+
+''al-yānsūn(u)''
+
+<nowiki>=</nowiki> the [[anise]]
+|-
+|<span style="font-size:150%;">{{script/Arabic|ه}}</span>
+
+h
+|{{IPAslink|h}}
+|<span style="font-size:150%;">{{script/Arabic|الْهـ}}</span>
+
+''al-h...''
+|
+<span style="font-size:150%;">{{script/Arabic|الْهَوَاءُ}}</span>
+
+''al-hawāʼ(u)''
+
+<nowiki>=</nowiki> the air
+|}
+
+{| class="wikitable" width=50%; align="right"
+! colspan="4" |Sun/Solar Letters<br>{{lang|ar|حروف شمسية}} ''{{Transliteration|ar|ALA|ḥurūf shamsīyah}}''
+|-
+!Letter
+![[International Phonetic Alphabet|IPA]]
+! {{IPAslink|l}} in the definite article "''al''" assimilates,<br>the following consonant geminates<br>(<span style="font-size:150%;">{{script/Arabic|الْـّ}}</span>)
+!Examples
+|-
+|-
+|<span style="font-size:150%;">{{script/Arabic|ت}}</span>
+t
+|{{IPAslink|t}}
+|<span style="font-size:150%;">{{script/Arabic|التّـ}}</span>
+
+''at-t''...
+|<span style="font-size:150%;">{{script/Arabic|التِّينُ}}</span>
+
+''at-tīn(u)''
+
+<nowiki>=</nowiki> the fig
+|-
+|<span style="font-size:150%;">{{script/Arabic|ث}}</span>
+th
+|{{IPAslink|θ}}
+|<span style="font-size:150%;">{{script/Arabic|الثّـ}}</span>
+
+''ath-th''...
+|<span style="font-size:150%;">{{script/Arabic|الثَّعْلَبُ}}</span>
+
+''ath-tha‘lab(u)''
+
+<nowiki>=</nowiki> the fox
+|-
+|<span style="font-size:150%;">{{script/Arabic|د}}</span>
+d
+|{{IPAslink|d}}
+|<span style="font-size:150%;">{{script/Arabic|الدّ}}</span>
+
+''ad-d''...
+|<span style="font-size:150%;">{{script/Arabic|الدُّبُّ}}</span>
+
+''ad-dubb(u)''
+
+<nowiki>=</nowiki> the bear
+|-
+|<span style="font-size:150%;">{{script/Arabic|ذ}}</span>
+
+[[Dh (digraph)|dh]]
+|{{IPAslink|ð}}
+|<span style="font-size:150%;">{{script/Arabic|الذّ}}</span>
+
+''adh-dh''...
+|<span style="font-size:150%;">{{script/Arabic|الذَّكَرُ}}</span>
+
+''adh-dhakar(u)''
+
+<nowiki>=</nowiki> the male
+|-
+|<span style="font-size:150%;">{{script/Arabic|ر}}</span>
+r
+|{{IPAslink|r}}
+|<span style="font-size:150%;">{{script/Arabic|−الرّ}}</span>
+
+''ar-r''...
+|<span style="font-size:150%;">{{script/Arabic|الرَّبُّ}}</span>
+
+''ar-Rabb(u)''
+
+<nowiki>=</nowiki> the Lord
+|-
+|<span style="font-size:150%;">{{script/Arabic|ز}}</span>
+z
+|{{IPAslink|z}}
+|<span style="font-size:150%;">{{script/Arabic|الزّ}}</span>
+
+''az-z''...
+|<span style="font-size:150%;">{{script/Arabic|الزَّنْبَقُ}}</span>
+
+''az-zanbaq(u)''
+
+<nowiki>=</nowiki> the lily
+|-
+|<span style="font-size:150%;">{{script/Arabic|س}}</span>
+s
+|{{IPAslink|s}}
+|<span style="font-size:150%;">{{script/Arabic|السّـ}}</span>
+
+''as-s...''
+|<span style="font-size:150%;">{{script/Arabic|السَّمَاوَاتُ}}</span>
+
+''as-samāwāt(u'')
+
+<nowiki>=</nowiki> the Heavens, firmament, skies
+|-
+|<span style="font-size:150%;">{{script/Arabic|ش}}</span>
+
+{{Transliteration|ar|ALA|[[Sh (digraph)|sh]]}}
+|{{IPAslink|ʃ}}
+|<span style="font-size:150%;">{{script/Arabic|الشّـ}}</span>
+
+''ash-sh...''
+|
+<span style="font-size:150%;">{{script/Arabic|الشَّرْقُ}}</span>
+
+''ash-shar·q(u)''
+
+<nowiki>=</nowiki> the east
+|-
+|<span style="font-size:150%;">{{script/Arabic|ص}}</span>
+
+{{Transliteration|ar|ALA|[[ṣ]]}}
+|{{IPAslink|sˤ}}
+|<span style="font-size:150%;">{{script/Arabic|الصّـ}}</span>
+
+''aṣ-ṣ...''
+|
+<span style="font-size:150%;">{{script/Arabic|الصَّحْرَاءُ}}</span>
+
+''aṣ-ṣaḥ·rāʼ(u)''
+
+<nowiki>=</nowiki> the desert
+|-
+|<span style="font-size:150%;">{{script/Arabic|ض}}</span>
+
+{{Transliteration|ar|ALA|[[ḍ]]}}
+|{{IPAslink|dˤ}}
+|<span style="font-size:150%;">{{script/Arabic|الضّـ}}</span>
+
+''aḍ-ḍ...''
+|
+<span style="font-size:150%;">{{script/Arabic|الضَّبَابُ}}</span>
+
+''aḍ-ḍabāb(u)''
+
+<nowiki>=</nowiki> the fog
+|-
+|<span style="font-size:150%;">{{script/Arabic|ط}}</span>
+
+{{Transliteration|ar|ALA|[[ṭ]]}}
+|{{IPAslink|tˤ}}
+|<span style="font-size:150%;">{{script/Arabic|الطّـ}}</span>
+
+''aṭ-ṭ...''
+|
+<span style="font-size:150%;">{{script/Arabic|الطَّاهِرُ}}</span>
+
+''aṭ-ṭāhir(u)''
+
+<nowiki>=</nowiki> the pure
+|-
+|<span style="font-size:150%;">{{script/Arabic|ظ}}</span>
+
+{{Transliteration|ar|ALA|[[ẓ]]}}
+|{{IPAslink|ðˤ}}
+|<span style="font-size:150%;">{{script/Arabic|الظّـ}}</span>
+
+''aẓ-ẓ...''
+|<span style="font-size:150%;">{{script/Arabic|الظُّهْرُ}}</span>
+
+''aẓ-ẓuh·r(u)''
+
+<nowiki>=</nowiki> the noon
+|-
+|<span style="font-size:150%;">{{script/Arabic|ن}}</span>
+
+n
+|{{IPAslink|n}}
+|<span style="font-size:150%;">{{script/Arabic|النّـ}}</span>
+
+''an-n...''
+|
+<span style="font-size:150%;">{{script/Arabic|النِّسَاءُ}}</span>
+
+''an-nisā(u)''
+
+<nowiki>=</nowiki> the women
+|-
+|<span style="font-size:150%;">{{script/Arabic|ل}}</span>
+
+l
+|{{IPAslink|l}}
+|<span style="font-size:150%;">{{script/Arabic|الْلـ}}</span>
+
+''al-l...''
+|
+<span style="font-size:150%;">{{script/Arabic|اللَّوْنُ}}</span>
+
+''al-lawn(u)''
+
+<nowiki>=</nowiki> the color
+|}
+
+{{clear}}
+
+==See also==
+*[[Arabic phonology]]
+*[[Arabic grammar]]
+
+==References==
+{{reflist}}
+
+{{Arabic language}}
+
+{{DEFAULTSORT:Sun And Moon Letters}}
+[[Category:Arabic language]]
+[[Category:Consonants]]
+[[Category:Phonology]]
+[[Category:Arabic phonology]]
+[[Category:Assimilation (linguistics)]]

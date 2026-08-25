@@ -1,0 +1,2136 @@
+Mutations in Spoken Welsh
+Bob Morris Jones
+bmj@aber.ac.uk
+
+
+This work describes the use of mutations in the spontaneous speech of a small number of adult Welsh
+speakers. As such it follows in the tradition of other works which look at spoken Welsh by Awbery
+(1986), Ball (1988, 1992), Ball and Müller (2002) and White and Roberts (2022) (who provide a
+wide-ranging source of other references). This study provides copious illustrations and statistical
+details.
+
+
+1 The data
+
+All the examples in this study are taken from the utterances of adults in an electronic database of
+transcribed audio-recordings of spontaneous adult-child interactions which were collected by an
+ESCR-funded project, the details of which are available at
+https://users.aber.ac.uk/bmj/abercld/cronfa18_30/sae/intro.html. There are 21 Welsh speakers who
+variously provide a total of 14,482 examples in which a mutation can occur. This database is not only
+a valuable resource for the study of the input language which children experience but also provides
+very useful data for the study of adult Welsh.
+
+The audio-recordings are transcribed in the orthography of Welsh but with spellings which indicate
+the forms of spontaneous spoken Welsh. Of particular relevance to the examples in this study are
+spelling conventions which use various markings to distinguish homonyms. For example, the use of
+the apostrophe distinguishes the first singular personal pronoun i ‘I’ from the preposition i’ ‘to’ and
+the agreement clitic ’i (ei in literary Welsh - agreement clitics are labelled as prefixed pronouns
+(rhagenwau blaen) in traditional reference grammars). The use of numerals distinguishes the aspect
+marker yn, the preposition yn1 ‘in’, the predicatival marker yn2, the manner adverbial marker yn3, the
+first person plural agreement clitic yn4, and the first person singular agreement clitic yn5. The
+circumflex diacritic is represented in the corpus examples by the colon (:), as in a: ‘with’. Details
+about all these forms and others are given in table 2. The symbol @c at the end of a word indicates
+child forms, for example, mwmws@c.The examples given in this work also contain transcriptional
+conventions which indicate characteristics of spontaneous speech, such as repetitions, unfinished
+words and unfinshed utterances.
+                                                                                                           2
+
+
+
+
+2 Mutations
+
+It is a well-known feature of Welsh that certain initial consonants of words are changed in certain
+contexts. The initial consonants are given in table 1 and it can be seen that there are four sets of
+changes, three of which traditional reference grammars refer to as the soft mutation, the nasal
+mutation, and the aspirate mutation. We also include as a mutation the addition of /h/ h to words with
+an initial vowel, which is known as h-prothesis. The term radical is used to label the phonemes which
+can be mutated.
+
+                               Table 1. Mutations and their sounds / letters
+            Radical         Soft           Nasal             Aspirate        h-prothesis
+            /p/ p           /b/ b          /mh/ mh           /f/ ph
+            /t/ t           /d/ d          /nh/ nh           /θ/ th
+            /k/ c           /g/ g          /ŋh/ ngh          /x/ ch
+            /b/ b           /v/ f          /m/ m
+            /d/ d           /ð/ dd         /n/ n
+            /g/ g           omitted
+            /ɫ/ ll          /l/ l
+            /m/ m           /v/ f
+            /rh/ rh         /r/ r
+            vowel                                                            add initial /h/ h
+
+The phonemic distinction between /rh/ and /r/ represents a voiceless phoneme and a voiced phoneme
+respectively. But it is unclear whether in spontaneous speech all speakers all of the time maintain this
+distinction for this phoneme. Examples of /r/ r following a soft mutation trigger may not necessarily
+be an example of a mutation.
+
+
+3 Triggers
+
+Mutations are caused by triggers in the context. These triggers are mainly overt and can be words or
+grammatical patterns. But the triggers can also be covert, as we shall see. There are also instances of
+seemingly mutated words which have no overt nor covert trigger.
+
+
+3.1 Lexical triggers
+
+Table 2 gives the list of lexical triggers which occur in the database. The table also gives constraints
+on the effect of some of the lexical triggers, based on accounts in traditional reference grammars. The
+table separately lists dan1 ‘under’ and o+dan ‘under’, and also ar and oddi+ar. They are combined as
+dan1 and ar respectively in the analyses. The same also applies to na and na5, which are combined as
+na/na5, and yn2 and yn3, which are combined as yn2/yn3.
+                                                                                                   3
+
+
+
+        Table 2. Lexical triggers in the database given as lexemes, ordered alphabetically
+                                       Mutation      Conditions
+a          ‘and’                       aspirate
+a1         particle†                   soft
+a:         ‘with’                      aspirate
+ail        ‘second’ (2nd)              soft
+am         ‘for’                       soft
+ambell     ‘occasional’                soft
+ar         ‘on’                        soft
+at         ‘to(wards)’                 soft
+chweched ‘sixth’                       soft          before sg. fem. noun
+cwbl       ‘all’                       soft
+dan1       ‘under’                     soft
+dau/dwy    ‘two’                       soft
+dros       ‘over’                      soft
+dy         clitic††                    soft
+ei         clitic††                    soft          masculine
+ei2        clitic††                    aspirate      feminine
+                                       h-prothesis
+ein        clitic††                    h-prothesis
+                  ††
+eu         clitic                      h-prothesis
+fe1        particle†                   soft
+fy         clitic††                    nasal
+gan        ‘with’                      soft
+go         ‘fairly’                    soft
+gyda       ‘with’                      aspirate
+heb        ‘without’                   soft
+holl       ‘all’                       soft
+hollol     ‘completely’                soft
+i’         ‘to, for’                   soft
+mi1        particle†                   soft
+mor        ‘so’                        soft          except ll-, rh-
+na         particle†                   aspirate
+                                       soft
+na1        ‘than’                      aspirate
+na2        ‘nor’                       aspirate
+na5        particle†                   aspirate
+                                       soft
+naw        ‘nine’                      nasal         before blwydd, blynedd, diwrnod
+neu        ‘or’                        soft
+o          ‘of, from’                  soft
+o+dan      ‘under’                     soft
+oddi+ar    ‘from’                      soft
+pa         ‘which’                     soft
+pan        ‘when’                      soft
+pump       ‘five’                      nasal         before blwydd, blynedd, diwrnod; pump > pum
+pwy        ‘which’ cf. pa              soft
+rhy        ‘too’                       soft
+rhyw       ‘some, certain’             soft
+saith      ‘seven’                     soft/radical except m- and d-
+                                       nasal         before blwydd, blynedd, diwrnod
+sut        ‘what’ cf. ‘what sort of’ soft
+tan        ‘until’                     soft
+                                                                                                                      4
+
+
+
+ tri              ‘three’                         aspirate
+ trwy             ‘through’                       soft
+ tua              ‘approximate, about’            aspirate
+ un               ‘one’                           soft             numeral; before sg. fem. noun except ll-, rh-
+ un2              ‘same’                          soft
+ wrth             ‘to, by’                        soft
+ wyth             ‘eight’                         soft/radical     soft/radical except m- a d-,
+                                                  nasal            nasal before blwydd, blynedd, diwrnod
+ y                ‘the’                           soft             before sg. fem. noun except ll- and rh-
+                                                                   before dau and sometimes deu- and dwy
+                                                                   before ordinals + sg. fem. noun
+ ychydig          ‘a little’                      soft
+ yn1              ‘in’                            nasal/soft       yn1 > ym1 before m- and mh-
+                                                                   yn1 > yng1 before ng- and ngh-
+ yn2              particle†††                     soft             except ll- , rh- and braf
+ yn3              particle†††                     soft             except ll- , rh- and braf
+ yntau            ‘or’                            soft
+
+
+ †      preverbal particles indicating force and polarity; na5 occurs in a complement clause
+ ††     agreement clitics indicating number, person and gender, occurring in verb phrases and genitive noun phrases
+        (known as preverbal pronouns (rhagenwau blaen) in traditional reference grammars)
+ †††    yn2 precedes heads of predicatival phrases and yn3 precedes heads of adverbial phrases of manner
+
+
+There are nine mutation triggers in the table which do not occur in a mutateable context (see section
+4) in the database: ail ‘2nd’, chweched ‘sixth’, cwbl ‘entire’, ein (first person plural agreement clitic),
+hollol ‘completely’, naw ‘nine’, pump ‘five’, saith ‘seven’ and wyth ‘eight’. They are ignored in the
+remainder of this study.
+
+Reference grammars list the preverbal oni(d) as a mutation trigger. In the database, this particle
+(which occurs as the forms yn’, ‘n’ and on’’) only occurs in responsives (answers and tags) and
+consistently does not cause a mutation. It is not therefore included in this study.
+
+The small selection of examples in (1) illustrates how lexical triggers mutate immediately following
+words.
+
+1 a. a        chloi wrth droi fel 'na.
+         and lock as            turn like that
+         ‘and lock while turning like that.’
+      b. ie,,, mwrthwl i' drwsio pethau.
+         yes hammer to mend things
+         ‘yes, a hammer to mend things.’
+                                                                                                          5
+
+
+
+   c. bag newydd heb                      dwll.
+        bag new              without hole
+        ‘a new bag without a hole.’
+   d. rhy brysur,, ie?
+        too busy        yes
+        ‘too busy, yes?’
+   e. yn1 y        goets,,, ie.
+        in   the pram             yes
+        ‘in the pram, yes.’
+   f. ti           'n         mynd i' grafu         fy     nghefn i?
+        you.2SG    PROG       go         to scratch CL.1SG back   I
+        ‘are you going to scratch my back.’
+   g. ie,,, paid             a:     'i            dynnu e off nawr.
+        yes IMPV.3SG with           CL.3SG.M pull        it off now
+        yes, don’t pull it off now.’
+   h.      mae          'r        goets yn2       wag.
+        be.pres.SG the pram PRED empty
+        ‘the pram is empty.’
+
+Several points need to be made about lexical triggers in the spoken Welsh of the database.
+
+For the purposes of computer searches the spelling of the masculine and feminine third person
+agreement clitics are distinguished as ei (masculine) and ei2 (feminine). Pwy ‘who’ occurs as a
+mutation trigger as an equivalent of pa ‘which’. Similarly, sut ‘how’ also occurs to convey pa fath o
+‘what sort of’. The lexeme trwy ‘through’ occurs as the form trwy and also drwy. The latter looks like
+the soft-mutated form of trwy but there is no clear evidence in the contexts in which the latter occurs
+that this is the case. The form drwy is viewed here as a form of the lexeme trwy and not its mutated
+form. The same applies to dros ‘over’ (compare tros) and dan1 ‘under’ (compare tan ‘under’). The
+form un is used as the numeral un ‘one’ and also the adjective un2 ‘same’.
+
+The table shows that some of the triggers cause more than one mutation. In the case of ei2, na and
+na5, the alternatives are determined by the initial phoneme of the target word. But this is not so in the
+case of the preposition yn1 ‘in’. In spontaneous speech, some speakers can use the soft mutation in
+place of the nasal mutation for the same initial phonemes of the target word. More details are given in
+section 5.2.3. We label this mutational effect as nasal/soft
+                                                                                                        6
+
+
+
+Several of the lexemes in table 2 are realized differently in spontaneous informal speech when
+compared with formal written Welsh and it is the spoken forms which are the object of computer
+searches in the database. Those in table 3 in particular can be noted.
+
+                   Table 3. Spoken forms of the lexemes which are lexical triggers
+                   Lexemes      Forms
+                   fy           fy, f’, ‘y, yn5, ‘n5, ‘ng5, ‘yng5, ‘m5, ‘ym5
+                   ein          ein, yn4, ‘n4
+                   yn1          yn1, ‘n1, ym1, yng1
+                   gyda         gyda, ‘da
+                   ei           ei, ‘i
+                   ei2          ei2, ‘i2
+                   eu           eu, ‘u
+                   trwy         trwy, drwy
+                   yntau        ynta, ‘ta2
+                   dau          dau, dou, ddau, ddou
+                   neu          neu, ne’
+                   ychydig      ychydig, chydig
+                   yn2          yn2, ‘n2
+                   yn3          yn3, ‘n3
+                   yntau        ‘ta2
+                   sut          sut, shwt
+
+In the case of some triggers it is not only the initial consonant of the immediately following word
+which changes. Elision or regressive assimilation also changes the final consonant of the trigger. This
+occurs with triggers of the nasal mutation. Those triggers which end in a nasal consonant assimilate
+features of the nasal-mutated sound into their final consonant. The first person agreement clitic yn5
+has the assimilated forms ‘ng5, ‘yng5, ‘m5, ‘ym5, and the preposition yn1 ‘in’ has the assimilated
+forms yng1 and ym1. The numeral pump ‘five’ has the assimilated form pum.
+
+2 a. ti       'n     mynd dros yn5          nhraed i.
+      you.SG PROG go        over   CL.1SG    feet    I
+    ‘you’re going over my feet.’
+   b. mae          'o 'n     bwyta 'ym5         mys      i.
+      be.PRES.3SG he PROG eat          CL.1SG   finger I
+      ‘he’s eating my finger.’
+   c. ti      wedi blino,,'yng5 nghariad i',,, do?
+      you.SG PERF tire      CL.1SG    sweetheart I       yes
+      ‘you’re tired, my love, yes?’
+3 a. yn1 Ninas+Dinlle,, ie?
+      in    Dinas+Dinlle    yes
+      ‘in Dinas Dinlle, yes?’
+                                                                                                           7
+
+
+
+    b. ti       'n             baglu ym1 mhob+man,, ynd                        wyt?
+       you.SG PROG trip                       in    every where          Q.NEG be.PRES.2SG
+
+       ‘you’re tripping every where, aren’ t you?’
+    c. be      allwn                      ni       roi yng1 nghefn y            lori?
+       what can.PRES.1PL we put in                              back        the lorry
+       ‘what can we put in the back of the lorry?’
+4    wyt             ti                  'n        cal      pum munud weithie?
+     be.PRES.2SG you.SG PROG have five                               minute sometimes
+     ‘you have five minutes sometimes.’
+
+
+3.2 Grammatical Triggers
+
+A grammatical trigger is one in which a mutation can occur but for which there is no overt lexical
+trigger. In the spontaneous spoken Welsh of the database, there are a number of individual
+grammatical triggers. A finer account can make generalizations which reduce their number.
+
+Some grammatical triggers come under what is referred to by Borsley and Tallerman (1996) and
+Tallerman (2006) as the XP trigger hypothesis (XPTH), which holds that any phrase (XP) can trigger
+the mutation of the initial word of a following phrase which is not part of the constituent structure of
+the trigger phrase. Phrases which occur in post-subject position in finite clauses can be soft-mutated.
+
+5 a. welest               ti              gi?
+       see.PERF.2SG you.SG dog
+       ‘did you see a dog?’
+    b. ne'st              ti              dynnu           sgidia,, do.
+       do.PERF.2SG you.SG pull                           shoes yes
+       ‘you took off your shoes, yes.’
+    c. ge'st                   ti             ddim brecwast?
+       have.PERF.2SG you.SG NEG                          breakfast
+       ‘didn’t you have any breafast?’
+
+Phrases which occur in post-subject position in i-clauses can be soft-mutated.
+
+6 a. gad                            i'    ni wneud un arall gyntaf.
+       leave.ImPV.2SG for us do                             one other first
+       ‘let’s do another one first.’
+                                                                                                       8
+
+
+
+   b. disgwyl i'           bwy ddwad?
+      expect      for who come
+      ‘expect who to come?’
+   c. rhaid          i'         ti        gau    dy      llygaid.
+      necessary for you.SG close CL.2SG eyes
+      ‘you must close your eyes.’
+
+Phrases which occur in post-prepositional phrase position in possessive clauses can be soft-mutated.
+
+7 a. oes       gan Dad fwrthwl?
+      be.PRES with Dad hammer
+      ‘has Dad got a hammer?’
+   b. mae                 gynni           hi    wallt hir.
+      be.PRES.3SG with.3SG.F she hair                 long
+      ‘she’s got long hair.’
+   c. ie,,, ma'                      gyda M--- feic,, on'd o's e?
+      yes be.PRES.3SG with M--- bike                    Q.NEG be.PRES
+
+      ‘yes, M---’s got a bike, hasn’t he?’
+
+Phrases which follow the existential subject yna ‘there’ can be soft-mutated.
+
+8 a. oes       'na         gylch yfanna?
+      be.PRES there circle there
+      ‘is there a circle there?’
+   b. oes                 'na         fwyd     arno     fo?
+      be.PRES.3SG there food on.3SG.M it
+      ‘is there food on it?.’
+   c. mae                 'na         lew yfanna.
+      be.PRES.3SG there lion there
+      ‘there’s a lion there.’
+
+The initial word of adverbial noun phrases can be soft-mutated. Such phrases occur in a variety of
+positions which follow other phrases including post-subject position in finite clauses, as in (9c).
+
+9 a. mae                  Dad yn          lliwio nhw bob      nos.
+      be.PRES.3SG Dad PROG colour they every night
+      ‘Dad colours them every night.’
+                                                                                                          9
+
+
+
+   b. ge'st             ti         crempogau ddiwrnod crempog?
+      have.PERF.2SG you.SG pancakes           day     pancake
+      ‘did you have pancakes (on) pancake day?’
+   c. aros di         funud,, ie.
+      wait you.SG minute yes
+      ‘wait a minute, yes.’
+
+A word which follows a predicatival demonstrative — dyma ‘here / this is’, dyna ‘there / that is’ and
+dacw ‘yonder is’ — can be soft-mutated.
+
+10 a. dyna      ddynes,, ie.
+      there’s woman yes
+      ‘there’s a woman, yes.’
+   b. ‘na2      ti           lun     a hanner.
+      there’s you.SG picture and half
+      ‘there’s a picture and a half.’
+   c. 'na2      fo geffyl.
+      there’s he horse
+      ‘there’s a horse.’
+
+In the example in (10c), the phrase which follows the predicatival demonstrative is an appositional
+construction — personal pronoun (fo) + noun (geffyl) — in which the mutation falls on the noun. This
+could be separately accounted for under apposition as a trigger but in this study such examples are
+included under the predicatival demonstrative trigger. All these individual triggers in examples (5) to
+(10) are brought under one general trigger, which we shall refer to as the XPTH trigger.
+
+Attributive adjectives (especially), nouns and verbnouns which occur after singular feminine nouns
+can be soft-mutated.
+
+11 a. hogan ddrwg.
+      girl      bad
+      ‘naughty girl.’
+   b. ie,,, co:t law yw               e,, ynde.
+      yes coat rain be.PRES.3SG it        Q
+
+      ‘yes, it’s a raincoat, isn’t it.’
+                                                                                                        10
+
+
+
+   c. ysgol      feithrin.
+       school nurse
+       ‘nursery school.’
+
+It can sometimes be unclear whether a noun which follows another noun is an attributive element or
+whether it is the possessor in a genitive construction. Clear examples of the latter are given in the
+following illustrations.
+
+12 a. a      beth sy            yn1 llaw bwni@c?
+       and what be.PRES.SG in        hand bunny
+       ‘and what is in bunny’s hand?’
+   b. beth sydd               yn1 llaw mochyn?
+       what be.PRES.3SG in       hand pig
+       ‘what is in (the) pig’s hand?’
+
+The following examples are not as clear.
+
+13 a. siwmper doli.
+       jumper     dolly
+       ‘dolly’s jumper / a dolly’s jumper.’
+   b. na,,, dim het plismon.
+       no neg hat policeman
+       ‘no, not a policemen’s hat’
+   c. moto+beic a         fan1 postman a      hwn.
+       motor bike and van postman and this
+       ‘a motor bike and a policeman’s van and this.
+
+In the absence of strong evidence for a genitive construction such examples are viewed as [noun +
+attributive].
+
+Nouns following pre-modifying attributive adjectives can be soft-mutated.
+
+14 a. hen fisged,, ie.
+       old biscuit yes
+       ‘an old biscuit, yes.’
+   b. sychu 'r      hen drwyn 'na.
+       dry      the old nose     there
+       ‘dry that old nose.’
+                                                                                                        11
+
+
+
+   c. beth yw                  dy         hoff        ddiod di?
+      what be.PRES.3SG CL.2SG favourite drink you.SG
+      ‘what is your favourite drink?’
+
+Adjectives which are modified by a preceding adjective can be soft-mutated.
+
+15 Tiny yw                    hwnna os ti             isie      bod yn2     fanwl gywir.
+     Tiny be.PRES.3SG that.M if you.SG want be                      PRED    detail correct
+     ‘that one is Tiny if you want to be exactly correct.’
+
+Another partly lexical and partly grammatical trigger involves newydd ‘new’ when used as an aspect
+marker. The verb which follows can be soft-mutated.
+
+16 a. ti        newydd d'wlu fe allan.
+      you.SG new              throw it out
+      ‘you have just thrown it out.’
+   b. newydd gael bwyd mae                          'o,, 'te.
+      new        have food be.PRES.3SG he ??
+      ‘he’s just had food, yes’ (lit. ‘just had food he has, yes.’)
+   c. ma'           Mam newydd gau                  dy          ddrws di         fyny.
+      be.PRES.3SG Mam new                  close CL.2SG door          you.SG up
+      ‘Mam has just closed up your door.’
+
+There are several grammatical contexts which involve the omission of a lexical trigger. Finite verbs
+are soft-mutated when they follow a preverbal particle (listed in table 2 in section 3.1), illustrated by
+the examples in (43). They are also soft-mutated when preverbal particles are omitted (which is
+commonly the case in spontaneous spoken Welsh).
+
+17 a. ge'st              ti         wy a         soldiwrs i'      frecwast?
+      have.PERF.2SG you.SG egg and soldiers for breakfast
+      ‘did you have egg and soldiers for breakfast?’
+   b. welaist       ti           mwmws@c yn1 y                  car ddoe?
+      see.PERF.2SG you.SG moo-moos in                    the car yesterday
+      ‘did you see moo-moos in the car yesterday.’
+   c. fedra'             i ddim weld 'o.
+      can.PRES.1SG I NEG            see    he
+      ‘I can’t see him.’
+                                                                                                           12
+
+
+
+Or they can be aspirate-mutated if they occur in a negative context. In the database, only cael ‘have,
+receive’ and clywed ‘hear’ are aspirate-mutated (which is likely to be typical of spontaneous Welsh
+generally).
+
+18 a. oh,,, chlywson        ni    mo 'r      gair hwnnw o+'r+blaen +/.
+      oh hear.PERF.1PL we         NEG the    word that.M before
+      ‘oh, we’ve not heard that word before.’
+   b. chei             di        'm+byd wedyn.
+      have.FUT.2SG you.SG nothing after
+      ‘you’ll get nothing after.’
+
+In spontaneous speech, finite verbs in negative clauses which can be aspirate-mutated can be soft-
+mutated instead
+
+19 a. ge'st            ti        ddim brecwast?
+      have.PERF.2SG you.SG NEG        breakfast
+      ‘you didn’t have any breakfast?’
+   b. oh,,, ga'th           hi    ddim parti?
+      oh have.PERF.3SG she NEG            party
+      ‘oh, you didn’t have a party?’
+   c. gei              di        ddim+byd.
+      have.FUT.2SG you.SG nothing
+      ‘you won’t have anything.’
+
+We shall adopt the view that this alternative is established usage in the vernacular. We have noted that
+the preposition yn1 ‘in’ can trigger either the nasal or soft mutation, which we label as nasal/soft. In
+similar manner, we shall label the appropriate mutation of finite verbs in negative clauses as
+aspirate/soft mutation. Both are examples of the spread of the soft mutation into the contexts of other
+mutations.
+
+There are constraints on the mutation of finite verbs. A finite verb can be left unmutated when the
+finite verb is: (i) an imperative, (iii) a positive responsive or (ii) in a complement clause.
+
+20 a. tria          di.
+      try.ImPV.2SG you.SG
+      ‘you try.’
+                                                                                                        13
+
+
+
+   b. cydia                    di       yn1 hwn       rwan.
+      hold.ImPV.2SG you.SG in                 this.M now
+      ‘hold this now.’
+   c. dwe:d               ti          wrtho     fe tro nesa.
+      tell.ImPV.2SG you.SG to.3SG.M he turn next
+      ‘tell you him next time.’
+21 a. w              i 'm yn             credu bydd              e 'n     dod.
+      be.PRES.1SG I NEG PROG believe be.FUT.3SG he PROG come
+      ‘I don’t believe he’ll be coming.’
+   b. efallai    basai                Tom yn         licio reidio ar dy     feic di,, ie?
+      perhaps be.CNTF.3SG Tom                 PROG   like ride    on CL.2SG bike you yes
+      ‘perhaps Tom would like to ride on yout bike, yes?’
+22 a. fydd         hi          ‘n2    oer,, bydd.
+      be.FUT.3SG she PRED cold be.FUT.3SG
+      ‘she’ll be cold, yes.’
+   b. ga’n’               nhw sefyll yn1 cefn,, ca’n’.
+      have.PRES.3PL they stand in              back have.PRES.3PL
+      ‘they can / may stand in the back, yes.’
+   c. wneith       ‘o ffitio yfanna,, gneith.
+      do.FUT.3SG he fit              there     do.FUT.3SG
+      ‘it will fit there, yes.’
+
+On the basis that we are saying that finite verbs can mutate, we are also saying that finite verbs mutate
+themselves, that is, that the mutated word is also the trigger. A probing analysis of the mutation of
+finite verbs would have to critically assess this matter. Our basic approach is a descriptive device
+which labels the context in which a mutation occurs and thus allows a description of usage.
+
+We see in table 2 in section 3.1 that some agreement clitics can mutate the word which follows. They
+occur in verbnoun phrases and genitive noun phrases. Examples are given in (1f–g) in section 3.1. In
+such phrases in spontaneous speech, the agreement clitics can be omitted but the mutation can be
+retained.
+
+23 a. wyt            ti              'di golli 'o?
+      be.PRES.2SG you.SG PERF lose it
+      ‘have you lost it?’
+                                                                                                         14
+
+
+
+     b. wyt            ti          isio      wneud 'o?
+        be.PRES.3SG you.SG want do                    it
+        ‘do you want to do it?’
+     c. ti        yn        fwyta fo,,ie?
+        you.SG PROG eat            it yes
+        ‘you eat it, yes.’
+24      Nia 'dy                  henw hi.
+        Nia be.PRES.3SG name she
+        ‘Nia is her name.’
+
+
+We shall refer to both noun phrases and verbnoun phrases which lack an agreement clitic as cliticless
+phrases. In spoken Welsh, the form of the verbnoun can be used as an imperative. It can be a
+challenge in describing performance data to determine whether a verbnoun is being used in a verb
+phrase or whether it is being used as an imperative, which does not trigger a mutation as we have
+noted. Another point is that cliticless verbnoun phrases can follow the perfect aspect marker wedi / ‘di
+as in example (23a). In such examples, there is the possibility that the final high front vowel of the
+perfect marker has assimilated the single vowel agreement clitic ‘i. This applies to other words which
+end in a high front vowel.
+
+Agreement clitics can also occur in extraction contexts. A transitive main verb in a wh-clause which
+questions the complement of the verb (wh-extraction) can be preceded by an agreement clitic, which
+triggers the soft mutation.
+
+25 a. be       ma'                doli    'n    cal        'i          fyta 'te1?
+        what be.PRES.3SG dolly PROG have CL.3SG.M eat then
+        ‘what does dolly have to eat then?’
+     b. beth ti             'n     lico 'i            fyta?
+        what you.SG PROG like CL.3SG.M eat
+        ‘what do you like to eat?’
+
+The agreement clitic can be omitted but the soft mutation can remain.
+
+26 a. be       ma'n               nhw 'di gael yn1 fan+hyn?
+        what be.PRES.3PL they PERF have in                      here
+        ‘what have they had here?’
+                                                                                                         15
+
+
+
+   b. a      pwy ma'n               nhw 'n      alw am help?
+        and who be.PRES.3PL they PROG call for               help
+        ‘and who are they calling for help?’
+   c. beth mae                    e wedi frifo?
+        what be.PRES.3SG he PERF hurt
+        ‘what has he hurt?’
+
+A transitive main verb in a clause in which its complement has been fronted is also an example of
+extraction (NP-extraction) and can be soft-mutated. In these cases, too, the clitic can be omitted and
+the mutation can be retained.
+
+27 a. cinio     mae                'o 'n      gael rwan.
+        dinner be.PRES.3SG he PROG have now
+        ‘it’s dinner that he is having now.’
+   b. llun      o be         ti        'n      neud?
+        picture of what you.SG PROG do
+        ‘picture of what are you doing?’
+   c. hwnna ti           'n         feddwl?
+        that.M you.SG PROG think
+        ‘that (is what) you mean/think?’
+
+Wh-extraction and noun phrase extraction which lack an agreement clitic are brought under one
+trigger, which is labelled the extraction trigger.
+
+We see in table 2 in section 3.1 that the predicatival particle yn2, which occurs in a predicatival
+phrase, triggers the soft mutation as illustrated in example (1h). The particle can be omitted but the
+soft mutation can be retained.
+
+28 ti         werth y        byd      i+gyd $mae             'n     gweud$,, ife?
+     you.SG worth the world all                be.PRES.3SG PROG say          Q
+
+     ‘you’re worth all the world he says, is it?’
+
+A predicatival adjective in a clause in which the subject has been fronted can also be soft-mutated
+without a preceding predicatival particle.
+
+29 pa         liw       sy                 ore gen     ti?
+     which colour be.PRES.3SG best with you.SG
+     ‘which colour is your best?’
+                                                                                                       16
+
+
+
+The examples in (28) and (29) are similar in that an adjective or noun in predicatival position occurs
+without a preceding predicatival particle. Without pursuing a more detailed analysis, they are brought
+under one trigger, which we shall label as yn2-omission.
+
+Table 2 in section 3.1 shows that the lexical trigger i’ causes the soft mutation, including when it
+precedes a verbnoun as shown in example (1b). The verbnoun can also be soft-mutated when the
+preposition is omitted.
+
+30 a. o's             rhwbeth    arall 'da     ti        ddangos i' ni?
+      be.PRES.3SG something other with you.SG show                 to we
+      ‘do you have something else to show us?’
+   b. a     deud wrth Dad a            M--- ddod 'n+o:l fan+hyn wedyn,, ie?
+      and tell    to      Dad and M--- come back            here       after   yes
+      ‘and tell Dad and M--- to come back here, yes?’
+   c. s'o                 M--- i' fod gal           hwnna,, # nag yw           e?
+      be.PRES.NEG.3SG M--- to be have hat.M                 NEG be.PRES.3SG    it
+      ‘M--- is not supposed to have that, isn’t it?’
+
+
+The preposition i’ ‘to, for’ can also be omitted in a bod ‘suppose’ phrase, that is , i fod ‘to be’.
+
+31 a. 'dy             'o fod    yna?
+      be.PRES.3SG he be there
+      ‘is he supposed to be there?’
+   b. pam d      yw             e ddim fod mynd fynna?
+      why NEG be.PRES.3SG he NEG           be go        there
+      ‘why is he not supposed to be there?
+   c. hwnna mae                fod     i' wisgo?
+      that.M be.PRES.3SG be to wear
+      ‘is it that he is supposed to wear?’
+
+Both these triggers are brought under one mutational trigger, which is referred to as i’-omission.
+
+The adjective gwell ‘better’ can occur in a predicatival copular clause and it can be soft-mutated
+following the trigger yn2, as in the devised example fasa ‘n2 well i mi gal hwn ‘I’d better have this’.
+In this context, the copular clause can be reduced to such an extent that only the soft-mutated well
+remains.
+                                                                                                      17
+
+
+
+32 a. well i'     mi gael hwn.
+      better for I have this.M
+      ‘I’d better have this.’
+   b. well i'     ni    agor y       bag,, ife?
+      better for we open the bag             Q
+
+      ‘we’d better open the bag, yes?’
+   c. well i'     ni    fod yn2      dawel,, ie?
+      better for we be       PRED    quiet       yes
+      ‘we’d better be quiet, yes?’
+
+
+All the above triggers are themselves of interest for an investigation of syntax. However, we shall not
+undertake a syntactic account but shall simply treat them as triggers of mutations.
+
+
+4 Mutateability
+
+4.1 Appropriate, null and zero mutation
+
+For a mutation to occur, there must be a trigger and the initial phoneme of the target word must be in
+the group of phonemes which that trigger affects. These two conditions provide a mutateable context.
+On this basis, three distinctions are made.
+
+    ‐ appropriate mutation — a mutated word matches the expected effects of a trigger
+    ‐ null mutation             — a word which is mutateable is unmutated in the context of a trigger,
+                                     that is, a radical phoneme occurs
+    ‐ zero mutation             — a trigger occurs but the following word is not mutateable (the initial
+                                     phoneme is not one which is listed in table 1)
+
+Examples of each are given in (33), (34) and (35).
+
+33 a. ar ddydd+sul.
+      on Sunday
+      ‘on Sunday.’
+   b. mae            'o 'n      bwyta 'ym5         mys    i.
+      be.PRES.3SG he PROG eat           CL.1SG     finger I
+      ‘he’s eating my finger?’
+                                                                                                   18
+
+
+
+   c. cig    a     thatws?
+      meat and potatoes
+      ‘meat and potatoes.’
+   d. be     'dy             ei2           henw hi?
+      what be.PRES.3SG CL.3SG.F name she
+      ‘what is her name?’
+34 a. be     am     sbio ar llyfr Smot rwan?
+      what about look on book Smot now
+      ‘what about looking at the Smot book now.’
+   b. yn1 cwpan Mam?
+      in    cup     Mam
+      ‘in Mum’s cup?’
+   c. yli                tedi      mawr a      tedi bach.
+      look.ImPV.2SG teddy big              and teddy little
+      ‘look at big teddy and little teddy.’
+   d. pwy o'dd               'i2           enw hi?
+      who be.ImPF.3SG CL.3SG.F name she
+      ‘what was her name?’
+35 a. rhoi ar y     soser.
+      put on the saucer
+      ‘put (it) on the suacer.’
+   b. pa     ffordd wyt               ti         'n     canu pen+blwydd hapus?
+      which way      be.PRES.2SG you.SG PROG sing birthday              happy
+      ‘how do you sing happy berthday?’
+   c. brown a       gwyn.
+      brown and white
+      ‘brown and white.’
+   d. ti         'm yn       licio 'i2           gwallt hi?
+      you.SG NEG PROG like           CL.3SG.F    hair    she
+      ‘don’t you like her hair?’
+
+There are a very small number examples where a mutation is triggered but the mutation is not one
+which is appropriate for the trigger.
+                                                                                                      19
+
+
+
+36 a. isio   hwnna yn1 ei2              wallt?
+      want that        in     CL.3S.F   hair
+      ‘want that in her hair?’
+   b. rhoid ei2        ddillad hi       yn+o:l.
+      put    CL.3S.F   clothes she back
+      ‘put her clothes back.’
+   c. lle      mae             ei2         wyneb     hi?
+      where be.PRES.3SG CL.3SG.F face              she
+      ‘where’s her face?’
+   d. mae            'n2      bron      amhosib    gweld ei2           wyneb.
+      be.PRES.3SG PRED nearly impossible see                CL.3SG.F   face
+      ‘it’s nearly impossible to see her face.’
+
+They all involve the use of the feminine singular agreement clitic ei2, which triggers the aspirate or h-
+prothesis mutation (neither of which applies to these examples) but in these examples ei2 triggers the
+soft mutation. They are accounted for under null mutation.
+
+The contrast of appropriate mutation and null mutation in mutateable contexts is the essential concern
+of this study but zero mutation is discussed in section 5.3.3.
+
+
+4.2 Words which do not mutate
+
+There are words which can follow a trigger and have initial mutateable phonemes but which do not
+mutate. Some of those which occur in the database are given in table 4. They are not examples of null
+mutation but are, on the basis of wide-spread usage, zero mutation.
+
+                                        Table 4. Words which do not mutate
+                            beth, be              ‘what’
+                            ble                   ‘where’
+                            di                    ‘you’ singular
+                            dy                    second person singular agreement clitic
+                            dy+hun, dy+hunan      ‘yourself’ singular
+                            draw                  ‘over there’
+                            mae, ma’               ‘is’
+                            maen, ma’n            ‘are’ third plural
+                            mai                   focus particle
+                            mo                    ‘not’
+                            mi                    ‘me’
+                            pam                   ‘why’
+                            ti, t’                ‘you’ singular
+                            gan                   ‘with, by’
+                            gyda                  ‘with’
+                            proper nouns          various
+                                                                                                        20
+
+
+
+                          initial /g/ g words     various
+
+Examples of some of these words in mutateable contexts are given in (37).
+
+37 a. mynd i’      be?
+      go       for what
+      ‘go for what?’
+   b. i’ ble?
+      to where
+      ‘to where?’
+   c. neu ti       ddim isio       slippers?
+      or you.SG NEG           want slippers
+      ‘or you don’t want slippers?’
+   d. e’st          ti          ‘n+o:l i’ dy         wely,, do fe?
+      go.PERF.2SG you.SG back           to CL.2SG bed       yes ??
+      ‘did you go back to your bed?’
+   e. isio     sbia1 ar dy+hun            yn1 y      drych,, ie?
+      want look on your.SG+self in              the mirror yes
+      ‘want to look at yourself in the mirror, yes?’
+   f. gad                i’     mi gadw rhain.
+      leave.ImPV.2SG for I keep these
+      ‘let me keep these.’
+
+We shall not explore whether there are reasons why these words do not mutate but only note that they
+supply a zero mutation context. In spontaneous speech, the pronoun mi is confined to following the
+preposition i’ and can remain unmutated as in (31a) and (35f), for instance, but fi can also occur as in
+(41a). This study adopts the view that mi is established usage in this context. Proper nouns are more
+complex to discuss. In the corpus, the names of individuals do not mutate and this is viewed as zero
+mutation. This also applies to the names for parents and grandparents (Mam and Dad and so forth)
+when used to refer to specific individuals but not when used as a non-referring expression to a
+member or members of the set of parents or grandparents. There is one exception which involves
+Thaid ‘Grandfather’ and there are three examples of the mutation of the names of imaginary
+characters in books, cartoons and films such as Fister+Blaidd and Fatman. There is aso one example
+of the mutation of a chain fast-food company, Fackdonalds. In contrast to personal names, the names
+of places can be mutated.
+                                                                                                        21
+
+
+
+The soft mutation of some words with initial /g/ g is exceptional in that the change involves dropping
+/g/ g. This does not apply to words which are borrowings from English which occur in the corpus:
+garej ‘garage’, ga:t ‘gate’, gat ‘gate’, gia:t ‘gate’, ge:m ‘game’, glasses ‘glasses’, good ‘good’, greedy
+‘greedy’. The word glou ‘quick’ (clau in dictionaries), which is not an English word, does not mutate.
+The question word pam ‘why’ is not soft-mutated but can be aspirate mutated.
+
+There are also words which lose an initial vowel and which then create an initial consonant which is a
+mutateable consonant. They are not mutated. These are given in table 5.
+
+                             Table 5. Shortened forms which do not mutate
+                           ‘da                gyda ‘with’
+                           ‘di                wedi ‘after’ and aspect marker
+                           ‘dy                ydy ‘is’
+                           ‘ma                yma ‘here’
+                           ‘to                eto ‘again, yet’
+                           ‘mlaen, mla’n      ymlaen, ymla’n ‘onward’
+                           ‘ta1, ‘te1, ‘ten   ynta, ynte ‘then’
+
+In computer searches, it is essential that such forms, when they occur in a mutateable context,
+especially in an XPTH position, are excluded as targets.
+
+
+4.3 More than one trigger
+
+In spontaneous speech, one trigger can occur with another trigger and both can target the same word.
+For the sake of presentation, double triggers can be thought of as a left-most triggers followed at some
+place in a string by a right-most trigger, both targeting the same word. Table 6 cross-tabulates the left-
+and right-most triggers.
+
+                         Table 6. Double triggers: left- and right-most triggers
+                                        cliticless verbs XPTH extraction
+                        a ‘and’                       
+                        a: ‘with’            
+                        am ‘for, about’               
+                        ar ‘on’              
+                        extraction                             
+                        heb ‘without’        
+                        i’ ‘to, for’                                      
+                        neu ‘or’             
+                        newydd asp           
+                        o ‘of, from’         
+                        tan ‘until’                    
+                        XPTH                 
+                        yn1 ‘in’             
+                                                                                                            22
+
+
+
+There are 13 left-most triggers, of which the majority are lexical triggers with only three grammtical,
+namely, extraction, newydd aspect and XPTH. There are only four right-most triggers and they are all
+grammatical triggers. Of the latter, the cliticless trigger is by far the most frequent, occurring in the
+database with all the left-most trigger bar one. The cliticless triggers variously cause all mutations.
+
+Examples of lexical triggers occurring with grammatical triggers are given in (38).
+
+38 a. beth am        drio fo?                               [am & cliticless phrase]
+      what about try it
+      ‘what about trying it?’
+   b. dw             i heb         weld 'o eto.             [heb & cliticless phrase]
+      be.PRES.1SG I without see it            yet
+      ‘I haven’t seen it yet.’
+   c. tyd                 i' weld 'o 'ta1.                  [i’ & cliticless phrase]
+      come.IMPV.2SG to see          it then
+      ‘come to see it then.’
+   d. corn car $ am wn1                       i$,, ife?     [am & finite verb]
+      horn car       for know.PRES.1SG I            Q
+
+      ‘a car horn, I suppose, is it?.’
+
+Examples of two grammatical triggers in a double-trigger context are given in (39) to (42). In (39),
+post-subject position in a finite clause (XPTH) is occupied by cliticless phrases and in (40) by
+adverbial noun phrases.
+
+39 a. wnawn         ni    gadw fo yfanna.
+      do.FUT.1PL we keep it here
+      ‘we’ll keep it here.’
+   b. gei                di       weld ‘o o         fama.
+      have.FUT.2SG you.SG see           it from here
+      ‘you can see it from here.’
+40 a. ti       ‘n        cofio      pwy arall welon              ni   ddydd+sadwrn?
+      you.SG PROG remember who other see.PERF.1PL we Saturday
+      ‘do you remember who else we saw Saturday.’
+   b. a     da’th                Dadi   gatre nos+wener,, on’d do?
+      and come.PERF.3SG Daddy home Friday night                  Q.NEG yes
+
+      ‘and Daddy came home Friday night, didn’t he?’
+                                                                                                          23
+
+
+
+Post-subject position in an i-clause (XPTH) can also be occupied by cliticless verbnoun phrases and
+genitive noun phrases.
+
+41 a. wyt              t’          isio        i’    fi wneud ‘o?
+       be.PRES.2SG you.SG want for I do                           it
+       ‘do you want me to do it?’
+   b. rhag+ofn i’            bry bach gael ‘o.
+       in+case        for fly little have it
+       ‘in case a little fly gets it.’
+   c. ie,,, ar+o:l i’         ni    blicio fo.
+       yes after       for we peel it
+       ‘yes, after we peel it.’
+
+Wh-extraction can also occur with cliticless verbnoun phrases and genitive noun phrases.
+
+42 a. dyna       be         dan                ni ‘n         alw fo?
+       there’s what be.PRES.1PL we PROG call it
+       ‘that’s what we call it.’
+   b. ymm ymm yy be                 ti              ‘n     alw fo?
+       uhm uhm uh what you.SG PROG call it
+       ‘uhm uhm uh what do you call it?’
+
+The problem which arises with dual-trigger contexts is that it is not always clear which trigger causes
+the mutation. However, the significant matter for this study is that we have a mutation context and
+that we need then to record whether a mutation takes place or not, without identifying the individual
+trigger.
+
+The following examples contain preverbal particles preceding finite verbs, both of which trigger the
+soft mutation.
+
+43 a. ma’              ‘n2        amheus ‘da              fi a1         neith   G--- ffitio hyd+yn+oed.
+       be.PRES.3SG PRED doubtful with I whether do.FUT.3SG G--- fit                        even
+       ‘I doubt whether G--- will fit even.’
+   b. do,,, fe1 ge’st                     ti             fanana,, do?
+       yes    PT      have.PERF.2SG you.SG there                  yes
+       ‘yes, you got (received) there, yes?’
+                                                                                                        24
+
+
+
+   c. mi1 gyma’               i bisged.
+      PT     take.FUT.1SG I biscuit
+      I’ll take a biscuit.’
+   d. na chei.
+      NEG have.FUT.2SG
+
+      ‘you will not have’ ( = ‘no’)
+
+In the case of preverbal articles we can claim that they are the sole trigger: they are restricted to
+occurring before finite verbs.
+
+There is more to the discussion of double triggers than is outlined here and further points are made in
+section 5.3.
+
+
+4.4 Mutated words and no trigger
+
+The database contains examples of words which seem to be mutated forms but there is no basis within
+the utterance for saying that there is an adjacent lexical or grammatical trigger. Some of these are
+repetitions of an immediately preceding mutated word.
+
+44 a. ag o’dd             e ‘n2         wyn wyn.
+      and be.ImPF.3SG it         PRED   white white
+      ‘and it was whte white.’
+   b. yn2      bell bell i+ffwrdd.
+      PRED     far far away
+      ‘far far away.’
+   c. pawb        yn2   lyb lyb.
+      everyone PRED wet wet
+      ‘everyone white white.’
+
+With examples like these it is reasonable to have a rule which says that a mutated word can be
+repeated. This is common where an adjective is emphasised. But there are other examples where there
+is no explanation for a trigger within the utterance.
+
+45 a. dipyn bach o ddw:r.
+      bit      little of water
+      ‘a little bit of water.’
+                                                                                                               25
+
+
+
+   b. oh,,, bobl     bach.
+      oh people little
+      ‘oh, little people’ [an exclamatory phrase]
+   c. bechod.
+      ‘pity.’
+   d. ah,,, biti.
+      ‘ah, pity.’
+
+A vocative context could explain examples like the one in (45b) but this example is more like an
+exclamation than a vocative. It is difficult to explain why a mutated word occurs in a zero context.
+One speculative possibility is that more frequent use in a mutateable context than in a zero context
+establishes the mutated word as a radical form outside mutateable contexts (perhaps alongside the
+existing radical form).
+
+
+5 Usage: appropriate and null mutation
+
+5.1 Preliminaries
+
+For convenience of reference to individual triggers, table 7 lists in alphabetical order all the triggers,
+including double-trigger contexts (indicated by &), and the mutations which they cause. In this table
+and other tables ok indicates an appropriate mutation.
+
+                         Table 7.Triggers of mutations and their effects, ordered alphabetically
+                                       medial & indicates double trigger context
+                                   Speakers Trigger                              Ok       Null Total %Ok
+           a                              13 aspirate                                61     337  398 15.33
+           a&Cliticless                    3 aspirate&h-prothesis                     0       3     3   0.00
+           a&Cliticless                    1 aspirate&aspirate                        0       1     1   0.00
+           a&Cliticless                    5 aspirate&soft                            2       7     9 22.22
+           a&Verbs                        10 aspirate&soft                           46       3    49 93.88
+           a:                             12 aspirate                                 3      66    69   4.35
+           a:&Cliticless                   2 aspirate&h-prothesis                     0      11    11   0.00
+           a:&Cliticless                   8 aspirate&soft                            9      33    42 21.43
+           a1                              1 soft                                     1       0     1 100.00
+           Adj+adj                         2 soft                                     2       0     2 100.00
+           Adj+noun                        8 soft                                    39       3    42 92.86
+           am                             13 soft                                  335       42  377 88.86
+           am&Cliticless                   1 soft&h-prothesis                         2       6     8 25.00
+           am&Cliticless                   3 soft&aspirate_h-prothesis                2       1     3 66.67
+           am&Cliticless                   5 soft&soft                               11      15    26 42.31
+           am&Verbs                        1 soft&soft                                1       0     1 100.00
+           ambell                          2 soft                                     2       0     2 100.00
+           ar                             12 soft                                  151      119  270 55.93
+           ar&Cliticless                   1 soft&h-prothesis                         0       1     1   0.00
+           ar&Cliticless                   3 soft&soft                                1       2     3 33.33
+           at                              5 soft                                     3       3     6 50.00
+           Cliticless                      8 h-prothesis                              1      34    35   2.86
+                                                                                    26
+
+
+
+Cliticless               4   aspirate                       1    14     15   6.67
+Cliticless              15   soft                         206   517    723 28.49
+Cliticless               2   nasal                          7     0      7 100.00
+dan1                     5   soft                           5    13     18 27.78
+dau/dwy                 10   soft                          43    10     53 81.13
+dros                     3   soft                           4     1      5 80.00
+dy                      13   soft                         370    18    388 95.36
+ei                       9   soft                         339    19    358 94.69
+ei2                      5   h-prothesis                    4     4      8 50.00
+ei2                      6   aspirate                      52     4     56 92.86
+eu                       4   h-prothesis                    6     1      7 85.71
+Extraction              18   soft                        1308   276   1584 82.58
+Extraction&Cliticless    3   soft&h-prothesis               0     5      5   0.00
+Extraction&Cliticless    2   soft&aspirate_h-prothesis      0     2      2   0.00
+Extraction&Cliticless    4   soft&soft                      2    10     12 16.67
+Extraction&XPTH         11   soft&soft                     42     2     44 95.45
+fe1                      2   soft                           4     0      4 100.00
+fy                       6   nasal                         31     0     31 100.00
+gan                      8   soft                          10    14     24 41.67
+go                       1   soft                           1     0      1 100.00
+Gwell                    5   soft                          59     1     60 98.33
+gyda                     2   aspirate                       1    33     34   2.94
+heb                      3   soft                          14     2     16 87.50
+heb&Cliticless           2   soft&soft                      2     0      2 100.00
+holl                     2   soft                           5     0      5 100.00
+i'                      17   soft                         955   232   1187 80.45
+i’&Cliticless            8   soft&h-prothesis              20     9     29 68.97
+i’&Cliticless            1   soft&aspirate                  1     0      1 100.00
+i’&Cliticless            2   soft&aspirate_h-prothesis      2     0      2 100.00
+i’&Cliticless           11   soft&soft                     61     7     68 89.71
+i’&Extraction            8   soft&soft                     85     0     85 100.00
+i’-omission              6   soft                          55     7     62 88.71
+mi1                      4   soft                          20     2     22 90.91
+mor                      5   soft                           8     0      8 100.00
+na/na5                   2   aspirate                       6     0      6 100.00
+na/na5                   8   soft                          27     0     27 100.00
+na1                      1   aspirate                       1     0      1 100.00
+na2                      2   aspirate                       1     1      2 50.00
+neu                      6   soft                          14    21     35 40.00
+neu&Verbs                4   soft&soft                     17     1     18 94.44
+Newydd asp               6   soft                           7     2      9 77.78
+Newydd asp&Cliticless    1   soft&h-prothesis               0     1      1   0.00
+Newydd asp&Cliticless    1   soft&soft                      1     0      1 100.00
+Noun+adj                17   soft                         306   259    565 54.16
+o                       13   soft                         356    84    440 80.91
+o&Cliticless             1   soft&soft                      1     0      1 100.00
+pa                      12   soft                         177     9    186 95.16
+pan                      1   soft                           0     1      1   0.00
+pwy                      2   soft                          23     1     24 95.83
+rhy                      8   soft                         162     3    165 98.18
+rhyw                     4   soft                          16     2     18 88.89
+sut                      2   soft                           1     1      2 50.00
+tan                      1   soft                           2     0      2 100.00
+tan&Verbs                1   soft&soft                      1     0      1 100.00
+tri                      3   aspirate                       1    11     12   8.33
+trwy                     2   soft                           1     1      2 50.00
+tua                      1   aspirate                       0     1      1   0.00
+un                       3   soft                           3     2      5 60.00
+un2                      4   soft                           2    51     53   3.77
+Verbs                    6   aspirate_soft                  9     1     10 90.00
+Verbs                   19   soft                        1667    84   1751 95.20
+                                                                                                                 27
+
+
+
+          wrth                            3   soft                                2        4       6 33.33
+          XPTH                           18   soft                             1767      632    2399 73.66
+          XPTH&Cliticless                 7   soft&h-prothesis                   33       20      53 62.26
+          XPTH&Cliticless                 2   soft&aspirate                       2        0       2 100.00
+          XPTH&Cliticless                 3   soft&aspirate_h-prothesis           2        3       5 40.00
+          XPTH&Cliticless                12   soft&soft                         152       20     172 88.37
+          y                              13   soft                              573      130     703 81.51
+          ychydig                         2   soft                                0       11      11   0.00
+          yn1                            16   nasal&soft                        143      395     538 26.58
+          yn1&Cliticless                  2   nasal/soft&h-prothesis              0        3       3   0.00
+          yn1&Cliticless                  1   nasal/soft&aspirate                 0        1       1   0.00
+          yn1&Cliticless                  2   nasal/soft&aspirate_h-              0        2
+                                              prothesis                                          2    0.00
+          yn1&Cliticless                  5   nasal/soft&soft                     1        5     6 16.67
+          yn2/yn3                        14   soft                              875       64   939 93.18
+          Yn2-omission                    6   soft                                6        5    11 54.55
+          yntau                           3   soft                                0        7     7    0.00
+                                                                              10753     3729 14482 74.25%
+
+For convenience of reference, too, table 8 lists all the triggers, again including double-trigger
+contexts, ordered by the types of mutation which they cause.
+
+                     Table 8.Triggers of mutations and their effects, ordered by types of mutations
+                                       medial & indicates double trigger context
+          a                              13 aspirate                                 61    337      398 15.33
+          a:                             12 aspirate                                  3      66      69 4.35
+          Cliticless                      4 aspirate                                  1      14      15 6.67
+          ei2                             6 aspirate                                 52       4      56 92.86
+          gyda                            2 aspirate                                  1      33      34 2.94
+          na/na5                          2 aspirate                                  6       0       6 100.00
+          na1                             1 aspirate                                  1       0       1 100.00
+          na2                             2 aspirate                                  1       1       2 50.00
+          tri                             3 aspirate                                  1      11      12 8.33
+          tua                             1 aspirate                                  0       1       1 0.00
+          a&Cliticless                    1 aspirate&aspirate                         0       1       1 0.00
+          a&Cliticless                    3 aspirate&h-prothesis                      0       3       3 0.00
+          a:&Cliticless                   2 aspirate&h-prothesis                      0      11      11 0.00
+          a&Cliticless                    5 aspirate&soft                             2       7       9 22.22
+          a&Verbs                        10 aspirate&soft                            46       3      49 93.88
+          a:&Cliticless                   8 aspirate&soft                             9      33      42 21.43
+          Verbs                           6 aspirate_soft                             9       1      10 90.00
+          Cliticless                      8 h-prothesis                               1      34      35 2.86
+          ei2                             5 h-prothesis                               4       4       8 50.00
+          eu                              4 h-prothesis                               6       1       7 85.71
+          Cliticless                      2 nasal                                     7       0       7 100.00
+          fy                              6 nasal                                    31       0      31 100.00
+          yn1                            16 nasal/soft                             143     395      538 26.58
+          yn1&Cliticless                  1 nasal/soft&aspirate                       0       1       1 0.00
+          yn1&Cliticless                  2 nasal/soft&aspirate_h-                    0       2
+                                              prothesis                                               2 0.00
+          yn1&Cliticless                  2 nasal/soft&h-prothesis                    0       3       3 0.00
+          yn1&Cliticless                  5 nasal/soft&soft                           1       5       6 16.67
+          a1                              1 soft                                      1       0       1 100.00
+          Adj+adj                         2 soft                                      2       0       2 100.00
+          Adj+noun                        8 soft                                     39       3      42 92.86
+          am                             13 soft                                   335       42     377 88.86
+          ambell                          2 soft                                      2       0       2 100.00
+          ar                             12 soft                                   151     119      270 55.93
+          at                              5 soft                                      3       3       6 50.00
+          Cliticless                     15 soft                                   206     517      723 28.49
+                                                                                    28
+
+
+
+dan1                     5   soft                           5    13     18 27.78
+dau/dwy                 10   soft                          43    10     53 81.13
+dros                     3   soft                           4     1      5 80.00
+dy                      13   soft                         370    18    388 95.36
+ei                       9   soft                         339    19    358 94.69
+Extraction              18   soft                        1308   276   1584 82.58
+fe1                      2   soft                           4     0      4 100.00
+gan                      8   soft                          10    14     24 41.67
+go                       1   soft                           1     0      1 100.00
+Gwell                    5   soft                          59     1     60 98.33
+heb                      3   soft                          14     2     16 87.50
+holl                     2   soft                           5     0      5 100.00
+i'                      17   soft                         955   232   1187 80.45
+i’-omission              6   soft                          55     7     62 88.71
+mi1                      4   soft                          20     2     22 90.91
+mor                      5   soft                           8     0      8 100.00
+na/na5                   8   soft                          27     0     27 100.00
+neu                      6   soft                          14    21     35 40.00
+Newydd asp               6   soft                           7     2      9 77.78
+Noun+adj                17   soft                         306   259    565 54.16
+o                       13   soft                         356    84    440 80.91
+pa                      12   soft                         177     9    186 95.16
+pan                      1   soft                           0     1      1 0.00
+pwy                      2   soft                          23     1     24 95.83
+rhy                      8   soft                         162     3    165 98.18
+rhyw                     4   soft                          16     2     18 88.89
+sut                      2   soft                           1     1      2 50.00
+tan                      1   soft                           2     0      2 100.00
+trwy                     2   soft                           1     1      2 50.00
+un                       3   soft                           3     2      5 60.00
+un2                      4   soft                           2    51     53 3.77
+Verbs                   19   soft                        1667    84   1751 95.20
+wrth                     3   soft                           2     4      6 33.33
+XPTH                    18   soft                        1767   632   2399 73.66
+y                       13   soft                         573   130    703 81.51
+ychydig                  2   soft                           0    11     11 0.00
+yn2/yn3                 14   soft                         875    64    939 93.18
+Yn2-omission             6   soft                           6     5     11 54.55
+yntau                    3   soft                           0     7      7 0.00
+i’&Cliticless            1   soft&aspirate                  1     0      1 100.00
+XPTH&Cliticless          2   soft&aspirate                  2     0      2 100.00
+am&Cliticless            3   soft&aspirate_h-prothesis      2     1      3 66.67
+Extraction&Cliticless    2   soft&aspirate_h-prothesis      0     2      2 0.00
+i’&Cliticless            2   soft&aspirate_h-prothesis      2     0      2 100.00
+XPTH&Cliticless          3   soft&aspirate_h-prothesis      2     3      5 40.00
+am&Cliticless            1   soft&h-prothesis               2     6      8 25.00
+ar&Cliticless            1   soft&h-prothesis               0     1      1 0.00
+Extraction&Cliticless    3   soft&h-prothesis               0     5      5 0.00
+i’&Cliticless            8   soft&h-prothesis              20     9     29 68.97
+Newydd asp&Cliticless    1   soft&h-prothesis               0     1      1 0.00
+XPTH&Cliticless          7   soft&h-prothesis              33    20     53 62.26
+am&Cliticless            5   soft&soft                     11    15     26 42.31
+am&Verbs                 1   soft&soft                      1     0      1 100.00
+ar&Cliticless            3   soft&soft                      1     2      3 33.33
+Extraction&Cliticless    4   soft&soft                      2    10     12 16.67
+Extraction&XPTH         11   soft&soft                     42     2     44 95.45
+heb&Cliticless           2   soft&soft                      2     0      2 100.00
+i’&Cliticless           11   soft&soft                     61     7     68 89.71
+i’&Extraction            8   soft&soft                     85     0     85 100.00
+neu&Verbs                4   soft&soft                     17     1     18 94.44
+Newydd asp&Cliticless    1   soft&soft                      1     0      1 100.00
+                                                                                                      29
+
+
+
+          o&Cliticless                1 soft&soft                        1      0     1 100.00
+          tan&Verbs                   1 soft&soft                        1      0     1 100.00
+          XPTH&Cliticless            12 soft&soft                      152     20   172 88.37
+                                                                     10753   3729 14482 74.25
+
+
+Table 9 gives the frequencies and percentages of the use of mutations by the 21 adult speakers who, to
+varying degrees, have taken part in the interactions mainly with the children and also with each other.
+The adult interlocutors are researchers, mothers, other family members and friends. Their
+contributions to the interactions vary considerably. The researchers and mothers contribute more than
+other interlocutors. This study has no details about the sociolinguistic backgrounds of the adults.
+
+                     Table 9. Speakers and mutations ordered by total frequencies
+                                         in mutateable contexts
+                      (#digit preserves anonymity of the individual interlocutors)
+                               triggers     ok        null      total      % ok
+                      #20             57     4775     1522        6297      75.83
+                      #7              61     2932       939       3871      75.74
+                      #15             38      531       345        876      60.62
+                      #13             54      562       179        741      75.84
+                      #14             40      475       188        663      71.64
+                      #17             34      337       143        480      70.21
+                      #1              32      272        78        350      77.71
+                      #12             22      241        78        319      75.55
+                      #11             38      194        87        281      69.04
+                      #9              33      193        74        267      72.28
+                      #10             24      111        40        151      73.51
+                      #2              16       52        17          69     75.36
+                      #21             15       26        11          37     70.27
+                      #16              8       11          4         15     73.33
+                      #19              8       12          3         15     80.00
+                      #6               8        8          4         12     66.67
+                      #4               4        7          3         10     70.00
+                      #3               5        3          6          9     33.33
+                      #5               3        4          5          9     44.44
+                      #8               6        4          4          8     50.00
+                      #18              3        2          1          3     66.67
+                                            10752     3731       14483      74.24
+
+The contributions of several of the adults are so small that they do not provide a sound basis for
+generalizations. But we can make a subjective judgement that 151 utterances or more allow more
+reliable generalizations. Two comments can be made about the speakers in this group. First, no
+speaker mutates all of the time: the average for the speakers in this group is 74.31%. Second, there is
+variation amongst the speakers in this group: the highest percentage is at 75.84% and the lowest is at
+60.62%.
+                                                                                                         30
+
+
+
+
+5.2 Single triggers
+
+For clarity of presentation it is advantageous to discuss single triggers and double-triggers separately.
+In this section we discuss single triggers. Double triggers are discussed in section 5.3.
+
+5.2.1 Overall picture
+
+Table 10 gives the frequencies for the types of mutations which are triggered in the context of an
+appropriate trigger and those which are not.
+
+                    Table 10. Frequencies of the types of mutations of single triggers
+                          Triggers     Speakers       Ok         Null      Total       % Ok
+           soft                 47            21       9926      2653      12579        78.91
+           aspirate             10            14        126       468         594       21.21
+           nasal                 2             6          38         0          38     100.00
+           h-prothesis           3             9          11       39           50      22.00
+           aspirate/soft         1             6           9         1          10      90.00
+           nasal/soft            1            16        143       395         538       26.58
+                                                      10253      3556      13809        74.25
+
+There are two main conclusions which can be made on the basis of table 10. First, the totals for
+appropriate and null uses of all mutations (given in the bottom line of the table) show that overall the
+triggers in mutateable contexts cause an appropriate mutation in 74.25% of cases, which is just less
+than three-quarters of all examples. In the spontaneous speech of the speakers in the database,
+mutations are not followed in all instances. Second, the soft mutation is the dominant mutation. But
+there are two aspects of its dominance. One is that it has numerical advantages that the other
+mutations lack: (i) it has more triggers and (ii) it affects more initial phonemes, as table 1 shows. It is
+the other aspect of its dominance which is significant, namely, that it is used appropriately in 78.91%
+of its examples. The aspirate mutation and h-prothesis have much lower percentages of appropriate
+use. Another indication of the dominance of the soft mutation is that it can be used in place of the
+nasal mutation when the preposition yn1 ‘in’ is the trigger and the aspirate mutation of finite verbs in
+negative clauses. Table 14 in 5.2.3 shows that yn1 triggers the nasal mutation 34 times and the soft
+mutation 109 times. It would achieve a more complete picture if these details were given in table 10.
+But the problem is that it is not possible to determine whether null mutation in the case of yn1 relates
+to not triggering the nasal mutation or not triggering the soft mutation. A more detailed discussion of
+yn1 ‘in’ is given in section 5.3.2. The same also applies to the aspirate/soft mutation, which is also
+further discussed in section 5.3.2.
+                                                                                                          31
+
+
+
+5.2.2 A closer look
+
+The data are made up of numerous examples of triggers in mutateable contexts. Any account which
+seeks to describe all individual triggers would be unwieldy and fragmentary, failing to provide general
+trends. This study seeks generalizations about the use of mutations in spontaneous speech by taking
+into consideration numbers of speakers, frequencies and percentages. Individual triggers of note can
+be referred to within this general framework.
+
+This study distinguishes the extent of use of a trigger in a mutateable context from the productivity of
+its appropriate mutation. The greater is the extent of use of a trigger the more reliable are the
+generalizations that can be made about the productivity of the mutation but the smaller is the the
+extent of use of a trigger the less reliable are the generalizations about the mutation.
+
+The extent of use of a trigger in a mutateable context is measured in terms of (i) the number of
+speakers who use it and (ii) the number of its occurrences — its frequencies. The number of speakers
+is judged to be more indicative of the extent of the use of a trigger than its frequencies. Compare the
+triggers i’ ‘for, to’ and tua ‘about’ in table 7: the former is used by 17 speakers and it occurs 1187
+times while the latter is used once by one speaker.
+
+The productivity of an appropriate mutation is measured by the percentages of appropriate mutations
+in mutateable contexts. Consider the trigger a ‘and’ in table 7. It occurs 398 times in a mutateable
+context but only 61 cause the aspirate mutation, which is only 15.33% of the total. In contrast, the
+trigger i’ ‘for, to’ occurs 1187 times in a mutateable context and 955 of these cause an appropriate
+mutation which is 80.45% of the total.
+
+In a further attempt to achieve generalizations, quartiles are exploited. The range of speakers for
+individual triggers is 1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 13, 14, 15, 16, 17, 18, 19, which provide 17 speaker
+groups and which can be divided into quartiles: 1–4, 5–9, 10–14 and 15–19 (the 15-19 quartile has
+one more member than the others). The quartiles provide a scale of the extent of use of the triggers
+which, for convenience of reference, we can label respectively as low, mid-low, mid-high and high.
+
+Second, within each speaker group, the triggers can be presented in descending order of the
+percentages of appropriate mutations. The percentage groups can also be grouped by quartiles: 0–25%,
+26–50%, 51–75%, and 76–100%. Again, we have a scale of productivity of appropriate mutations which
+we can label respectively as low, mid-low, mid-high and high.
+
+Table 11 cross-tabulates the speaker groups and the percentage groups and gives an overall statistical
+view of the triggers.
+                                                                                                                  32
+
+
+
+                      Table 11. Cross-tabulation of number of triggers in speaker groups
+                                       and percentages of ok mutations
+                     Speaker Groups                   Percentage Groups
+                                       76–100% 51–75% 26–50% 0–25%
+                     16–19                 3          2           2          0     = 7
+                     9–14                  7          1           0          2     = 10
+                     5–8                  11          1           5          1     = 18
+                     1–4                  16          1           4          8     = 29
+                                          37          5          11         11     = 64
+
+There is an inverse relationship between the numbers of speakers and the number of triggers in the
+percentage groups: the lowest number of triggers is in the highest speaker group but the numbers of
+triggers increase as the numbers of speakers decrease — seven in the highest speaker group to 29 in
+the lowest speaker group. The lowest speaker group also has the greatest number of appropriate
+mutations in the 76–100% group but many of these are single examples produced by one speaker (see
+table 12) and generalizations on the basis of such data are unreliable
+
+Table 12 provides details of the individual triggers within the framework of speaker groups and
+percentage groups. Within each speaker group the triggers are organized in descending order of
+percentages of appropriate mutations (indicating their productivity, as previously mentioned).
+
+             Table 12. Single mutation triggers and their effects, ordered by quartiles and then percentages of
+                                                appropriate (Ok) mutations
+          Quartiles                  Speakers Trigger                                Ok       Null Total %Ok
+          15,16,17,18,19
+          Verbs                             19 soft                                   1667       84 1751 95.20
+          Extraction                        18 soft                                   1308      276 1584 82.58
+          i'                                17 soft                                    955      232 1187 80.45
+
+          XPTH                            18 soft                                 1767      632 2399 73.66
+          Noun+adj                        17 soft                                  306      259 565 54.16
+
+          Cliticless                      15 soft                                  206      517    723 28.49
+          yn1                             16 nasal/soft                            143      395    538 26.58
+          10,12,13,14
+          dy                              13   soft                                370       18    388   95.36
+          pa                              12   soft                                177        9    186   95.16
+          yn2/yn3                         14   soft                                875       64    939   93.18
+          am                              13   soft                                335       42    377   88.86
+          y                               13   soft                                573      130    703   81.51
+          dau/dwy                         10   soft                                 43       10     53   81.13
+          o                               13   soft                                356       84    440   80.91
+
+          ar                              12 soft                                  151      119    270 55.93
+
+          a                               13 aspirate                               61      337    398 15.33
+          a:                              12 aspirate                                3       66     69 4.35
+          5,6,8,9
+          na/na5                           8   soft                                 27        0     27 100.00
+          fy                               6   nasal                                31        0     31 100.00
+          mor                              5   soft                                  8        0      8 100.00
+          Gwell                            5   soft                                 59        1     60 98.33
+          rhy                              8   soft                                162        3    165 98.18
+          ei                               9   soft                                339       19    358 94.69
+                                                                                                   33
+
+
+
+          Adj+noun                   8   soft                          39      3    42   92.86
+          ei2                        6   aspirate                      52      4    56   92.86
+          Verbs                      6   aspirate_soft                  9      1    10   90.00
+          i’-omission                6   soft                          55      7    62   88.71
+          Newydd asp                 6   soft                           7      2     9   77.78
+
+          Yn2-omission               6   soft                           6      5    11   54.55
+          at                         5   soft                           3      3     6   50.00
+          ei2                        5   h-prothesis                    4      4     8   50.00
+          gan                        8   soft                          10     14    24   41.67
+          neu                        6   soft                          14     21    35   40.00
+          dan1                       5   soft                           5     13    18   27.78
+
+          Cliticless                 8 h-prothesis                      1     34    35    2.86
+          1,2,3,4
+          Adj+adj                    2   soft                           2      0     2 100.00
+          ambell                     2   soft                           2      0     2 100.00
+          Cliticless                 2   nasal                          7      0     7 100.00
+          fe1                        2   soft                           4      0     4 100.00
+          holl                       2   soft                           5      0     5 100.00
+          na/na5                     2   aspirate                       6      0     6 100.00
+          a1                         1   soft                           1      0     1 100.00
+          go                         1   soft                           1      0     1 100.00
+          na1                        1   aspirate                       1      0     1 100.00
+          tan                        1   soft                           2      0     2 100.00
+          pwy                        2   soft                          23      1    24 95.83
+          mi1                        4   soft                          20      2    22 90.91
+          rhyw                       4   soft                          16      2    18 88.89
+          heb                        3   soft                          14      2    16 87.50
+          eu                         4   h-prothesis                    6      1     7 85.71
+          dros                       3   soft                           4      1     5 80.00
+
+          un                         3   soft                           3      2     5   60.00
+          na2                        2   aspirate                       1      1     2   50.00
+          sut                        2   soft                           1      1     2   50.00
+          trwy                       2   soft                           1      1     2   50.00
+          wrth                       3   soft                           2      4     6   33.33
+
+          tri                        3   aspirate                       1     11    12    8.33
+          Cliticless                 4   aspirate                       1     14    15    6.67
+          un2                        4   soft                           2     51    53    3.77
+          gyda                       2   aspirate                       1     33    34    2.94
+          yntau                      3   soft                           0      7     7    0.00
+          ychydig                    2   soft                           0     11    11    0.00
+          pan                        1   soft                           0      1     1    0.00
+          tua                        1   aspirate                       0      1     1    0.00
+                                                                    10753   3729
+
+We can re-arrange the data which are given in table 12 by cross-tabulating speaker groups and
+percentage groups, given in table 13. The columns provide the scale of productivity of an appropriate
+mutation form high (76–100%) to low (0–25%) and the rows indicate the extent of use of the triggers.
+                                                                                                             34
+
+
+
+                      Table 13. Single triggers in speaker groups and percentage groups
+             the rows indicate the top three quartiles of speaker groups 15–19, 10–14, 5–9, 1–4
+          76–100%                        51–75%                     26–50%                  0–25%
+finite verbs soft 95.20%        XPTH 73.66%                 cliticless soft 28.49%
+                                noun+adjective 54.16% yn1 ‘in’ 26.58%
+extraction 82.58%
+
+i’-omission in 80.45%
+dy agreement clitic 95.36%     ar ‘on’ 55.93%                                    a ‘and’ 15.33%
+
+pa ‘which (‘one’) 95.16%                                                         a: ‘with’ 4.33%
+
+yn2/yn3 93.18%
+
+am 88.86%
+
+y ‘the’ 81.51%
+
+dau/dwy 81.13%
+
+o ‘of, from’ 80.91%
+na/na5 soft 100%               yn2-omission 54.55%       at 50%                  cliticless h-proth 2.86%
+
+fy 100%                                                  ei2 h-prothesis 50%
+
+mor 100%                                                 gan ‘with’ 41.67%
+
+gwell 98.33%                                             neu ‘or’ 40.00%
+
+rhy ‘too’ 98.18%                                         dan1 27.78%
+
+ei agreement clitic 94.69%
+
+adj+noun 92.86%
+
+ei2 aspirate 92.86%
+
+finite verbs asp/soft 90.00%
+
+i’-omission 88.71%
+
+newydd aspect 77.78
+Adj+adj 100.00%                un 60.00%                 na2 50.00%              tri 8.33%
+
+ambell 100.00%                                           sut 50.00%              Cliticless aspirate 6.67%
+
+Cliticless nasal 100.00%                                 trwy 50.00%             un2 3.77%
+
+fe1 100.00%                                              wrth 33.33%             gyda 2.94%
+
+holl 100.00%                                                                     yntau 0.00%
+
+na/na5 aspirate 100.00%                                                          ychydig 0.00%
+
+a1 100.00%                                                                       pan 0.00%
+                                                                                                         35
+
+
+
+       go 100.00%                                                             tua 0.00%
+
+       na1 100.00%
+
+       tan 100.00%
+
+       pwy 95.83%
+
+       mi1 90.91%
+
+       rhyw 88.89%
+
+       heb 87.50%
+
+       eu 85.71%
+
+       dros 80.00%
+
+Table 13 shows that the greatest number of high productivity triggers (76–100%) are in the group
+which has the lowest extent of use (1–4 speakers). There are 10 triggers which have 100%
+productivity but they are used only by one or two speakers and their frequencies do not exceed six.
+We shall adopt the view that the low use group overall does not provide data on which reliable
+generalizations can be formed (with the possible exceptions of mi1, rhyw, eu, cliticless (aspirate) and
+un2). The three other higher speaker groups provide more reliable data for generalizations and the
+discussion which follows is based on the triggers in these higher groups.
+
+The data for the mid-low to high speaker groups show that there is variety in the productivity of the
+mutations: 21 have high productivity, four have mid-high productivity, seven have mid-low
+productivity and three have low productivity. These numbers show that the majority of triggers which
+have higher extent of use have high productivity in triggering an appropriate mutation: of the the 35
+triggers in these groups, 21 triggers have high productivity. Three triggers, na/na5, fy and mor ‘so, as’
+have 100% productivity but others have more than 90% productivity. In particular, we can note finite
+verbs, extraction and i’-omission which are high use and high productivity. The remainder in the
+higher use groups are not as productive and we can say that they are atypical of higher use triggers. In
+particular, we can note the triggers a ‘and’, a: ‘with’ and cliticless h-prothesis have the lowest
+productivity. This raises the possibility that they may fall out of the mutation system in spontaneous
+speech. In sum, triggers in the higher use groups have higher productivity but there are atypical
+members of these higher use groups.
+
+5.2.3 Additional matters
+
+Table 10 records that the nasal mutation is used in 100% of its occurrences, which would seem to
+exceed the dominance of the soft mutation. But we can make two points about the nasal mutation.
+                                                                                                         36
+
+
+
+First, table 10 records only two triggers, and table 8 shows that they are the agreement clitic fy and
+cliticless phrases. Table 10 shows that the extent of use of the nasal mutation is low (only 38 times in
+a mutateable context) but it is used by six speakers (which is a more reliable indication of its
+frequency). But the nasal mutation in these terms is far short of the productivity of the soft mutation.
+Second, the nasal mutation is also triggered by the preposition yn1 ‘in’ but this lexeme in spontaneous
+speech can also trigger the soft mutation in place of the nasal mutation, as shown by the examples in
+(46) to (49).
+
+46 a. ym1 mhen pwy?
+      in    head who
+      ‘in whose head?’
+   b. po+po@c yn1 ben.
+      pooh-pooh in         head
+      ‘pooh-pooh in head.’
+47 a. poced yn1 nhrowsus E---,, ie.
+      pocket in      trousers     E--- yes
+      ‘a pocket in E---‘s trousers.’
+   b. twll yn1 dro. [% dro is a rendering of droed]
+      hole in     foot
+      ‘a hole in a foot.’
+48 a. mae            'na      dwll yng1 nghanol hwn, hon.
+      be.PRES.3SG there hole in           middle    this   this
+      ‘there’s a hole in the middle of this (one).’
+   b. oh,,, yn1 ganol y llun.
+      oh in       middle the picture
+      ‘oh, in the middle of the picture.’
+49 a. yng1 ngardd N---?
+      in        garden N---
+      ‘in N---‘s garden.’
+   b. o's            bananas yn        tyfu   yn1 ardd     M---?
+      be.PRES.3SG bananas PROG grow in             garden M---
+      ‘are there bananas growing in M---‘s garden?’
+
+Table 14 gives the details about the frequencies of yn1 ‘in’ with both mutations.
+                                                                                                         37
+
+
+
+                              Table 14. Yn1 and the nasal or soft mutation
+                                         nasal      soft      null       totals
+                        yn1 / ‘n2              5     107          395         507
+                        ym1                  17          0          0           17
+                        yng1                 12          2          0           14
+                                             34      109          395         538
+
+This table shows that in the database yn1 ‘in’ triggers the soft mutation more than the nasal mutation.
+Of its total occurrences which trigger either the nasal or the mutation (143), 76.22% trigger the soft
+mutation. We can look in more detail as to whether the choice of either the nasal or soft mutation is
+related to the type of initial phoneme in the target word. We shall concentrate on the number of
+lexemes which are mutated and not their frequencies. For example, in the case of /p/ p, there are nine
+lexemes and of these four are nasal-mutated and five are soft-mutated. Table 15 gives details of the
+choices which are made in the database.
+
+                                   Table 15. Yn1 ‘in’ and the nasal or soft mutation
+                               based on the number of lexemes and not their frequencies
+                                              nasal           soft            totals
+                               /p/                    4              5                9
+                               /t/                    1              2                3
+                               /k/                    4             11               15
+                               /b/                    3              0                3
+                               /d/                    1              0                1
+                               /g/                    3              3                6
+                               /m/                     -             3                3
+                               /ɫ/                     -             1                1
+                                                     16             25               41
+
+The table does not show that there is widespread preference for either mutation in relation to the
+initial phoneme of the target word apart from /k/ c.
+
+The use of yn1 is not confined to phonemes which can be nasal-mutated. There are examples in which
+the soft mutation has been applied to lexemes where the nasal mutation does not apply. Lexemes
+beginning with /m/ can be soft-mutated after yn1.
+
+50 a. ah,,, mae          'n2      sownd yn1 fysedd E--- rwan.
+      ah be.PRES.3SG PRED sound in               fingers E--- now
+      ‘ah, it’s stuck in E---‘s fingers now.’
+   b. bydd        hi   'n       dod     lawr nawr yn1 funud.
+      be.FUT.3SG she PROG come down now in                   minute
+      ‘she’ll be coming down now in a minute.’
+   c. yn1 fynwent mae                 Mister+Blaidd,, ie.
+      in   cemetery be.PRES.3SG Mister+Wolf                yes
+      ‘in a cemetery is Mr+Wolf, yes.’
+                                                                                                        38
+
+
+
+In the case of (50b), there could be an omitted definite article, which can cause the soft mutation
+before singular femimine nouns. There is one lexeme which involves the soft mutation of /ɫ/ ll,
+namely lle ‘where’.
+
+51 a. yn1 le?
+      ‘in where?’
+   b. yn1 le         ma'           llygoden fach?
+      in       where be.PRES.3SG mouse      little
+      ‘in where is the little mouse?’
+   c. yn1 le       mae           e 'n    gweithio?
+      in where be.PRES.3SG he PROG work
+      ‘in where is he working?’
+
+There are 42 examples and they have all been produced by one speaker from a southern region and
+may be a dialect feature.
+
+We have also seen that finite lexical verbs whose forms begin with the phonemes /p/, /t/ and /k/ and
+which occur in a negative context can be either aspirate-mutated or soft-mutated — examples are
+given in (18) and (19). There are a very small number of examples and the statistical details are given
+in table 16.
+
+                                        Table 16. Negative verbs and
+                                        the aspirate or soft mutation
+                                   aspirate mutation 3
+                                   soft mutation        6
+                                                        9
+                                   null mutation        1
+                                                        10
+
+Of the nine examples which are mutated, 66.66% are soft-mutated, which along with the use of the
+preposition yn1 ‘in’ is an indication of the spread of the soft mutation in place of other mutations.
+
+The XPTH triggers include XP adverbials. The percentage for XPTH could be even lower when we
+consider that the form bob ‘every’ occurs in phrases which occur in the XPTH context but that this
+form also occurs outside of a mutation context.
+
+52 a. oh,,, mae            bob    dim1      yn       disgyn.
+      oh be.PRES.3SG every ‘nothing’        PROG     fall
+      ‘oh, everything is falling.’
+                                                                                                       39
+
+
+
+   b. oh,,, mae             hi    'n    cadw bob      math o styff.
+      oh be.PRES.3SG she PROG keep every sort               of stuff
+      ‘oh she keeps all sorts of stuff.’
+   c. wyt           ti           'di golchi dy        bompoms a        bob   dim1?
+      be.PRES.2SG you.SG PERF wash           CL.2SG   pompoms and every ‘nothing’
+      ‘have you washed your pompoms and everything?’
+   d. do,,, yn1 ganol me:s yn1 bob            man.
+      yes in      middle mees in        every place
+      ‘yes, in the middle of the mees [sheep] everywhere.’
+
+
+Examples like this suggest that the lexeme pob ‘every’ has two radical forms pob and bob. These
+comments are similar to those which are made about the lexeme trwy in section 3.1. On this basis,
+instances of bob in an adverbial noun phrase may not necessarily be a soft-mutated form and the
+frequencies of an appropriate mutation may be lower. There are only ten examples of XP adverbials
+and this small number has little effect on the statistics for XPTH examples.
+
+The lexical trigger a ‘and’ occurs medially between phrases or words and also initially at the
+beginning of an utterance. Examples are given in (53).
+
+53 a. Dad a       phwy?
+      Dad and who
+      ‘Dad and who?’
+   b. a     phwy?
+      and who
+      ‘and who?’
+
+It is interesting to compare the productivity of the mutation when the trigger occurs in these two
+positions. The details are given in table 17.
+
+                         Table 17. The lexical trigger a in medial and initial positions
+                                         ok       null       totals         %ok
+                         medial          25       56         81             30.86
+                         initial         36       281        317            11.36
+                                         61       337        398            15.68
+
+The percentages of an appropriate mutation is higher in medial position than initial position, which
+gives grounds for claiming that syntax is an influence on the use of this trigger.
+                                                                                                          40
+
+
+
+There may be grounds for claiming that high collocations of trigger and target has preserved the
+mutated form. Possible examples of these are seen in ambell waith ‘sometimes’ and gan bwyll ‘take
+care’.
+
+In some instances a null mutation may be due to an omitted definite article. Consider the examples in
+(54).
+
+54 a. a       mynd at doctor.
+         and go        to doctor
+         ‘and go to (the) doctor / a doctor
+   b. rhywbeth i’          me:s.
+         something for sheep
+         ‘something for (the) sheep / for sheep’.
+   c. Dad yn           mynd i’      gwaith nawr.
+         Dad PROG go         for work       now
+         ‘Dad going to (the) work / work
+   d. I--- yn          mynd i’ llofft       rwan,,, yndy.
+         I--- PROG go        to bedroom now         be.PRES.3SG
+         ‘I--- going to (the) bedroom / a bedroom.’
+
+In the case of singular masculine nouns and plural nouns, zero mutation occurs after the definite
+article. It can be argued that users who are aware of the role of zero mutation, as outlined in section
+5.3.3, block the influence of the preceding lexical trigger. However, it is not always clear in
+performance data whether the definite article has been omitted or whether we have an indefinite noun
+(especially in the case of examples like (54c)).
+
+In the case of the nouns for toys or pets it can be a challenge to determine whether the noun is being
+used as a common noun or whether it is used as a proper name for the particular toy of the child or the
+particular pet of the household.
+
+55 a. ’da      tedi.
+         ‘with teddy.’
+   b. ti          'm isie        rhoi sgarff am    doli.
+         you.SG NEG want put scarf about dolly
+         ‘you don’t want to put the scarf on dolly.’
+                                                                                                      41
+
+
+
+   c. be      wnest           ti       ddweud wrth pws?
+       what do.PERF.2SG you.SG say                to      puss
+       ‘what did you say to puss?’
+
+If the nouns are being used as proper nouns then a zero mutation context is created. Otherwise, if they
+are being used as common nouns, in the case of a radical occurring in a mutateable context, we have
+zero mutation.
+
+
+5.3 Double triggers
+
+Table 18 lists the double triggers in alphabetical order along with statistical details.
+
+                 Table 18. Double triggers and their effects, ordered alphabetically
+                         Speakers Trigger                                Ok       Null Total %Ok
+ a&Cliticless                   3 aspirate&h-prothesis                       0        3    3 0.00
+ a&Cliticless                   1 aspirate&aspirate                          0        1    1 0.00
+ a&Cliticless                   5 aspirate&soft                              2        7    9 22.22
+ a&Verbs                       10 aspirate&soft                             46        3  49 93.88
+ a:&Cliticless                  2 aspirate&h-prothesis                       0       11  11 0.00
+ a:&Cliticless                  8 aspirate&soft                              9       33  42 21.43
+ am&Cliticless                  1 soft&h-prothesis                           2        6    8 25.00
+ am&Cliticless                  3 soft&aspirate_h-prothesis                  2        1    3 66.67
+ am&Cliticless                  5 soft&soft                                 11       15  26 42.31
+ am&Verbs                       1 soft&soft                                  1        0    1 100.00
+ ar&Cliticless                  1 soft&h-prothesis                           0        1    1 0.00
+ ar&Cliticless                  3 soft&soft                                  1        2    3 33.33
+ Extraction&Cliticless          3 soft&h-prothesis                           0        5    5 0.00
+ Extraction&Cliticless          2 soft&aspirate_h-prothesis                  0        2    2 0.00
+ Extraction&Cliticless          4 soft&soft                                  2       10  12 16.67
+ Extraction&XPTH               11 soft&soft                                 42        2  44 95.45
+ heb&Cliticless                 2 soft&soft                                  2        0    2 100.00
+ i’&Cliticless                  8 soft&h-prothesis                          20        9  29 68.97
+ i’&Cliticless                  1 soft&aspirate                              1        0    1 100.00
+ i’&Cliticless                  2 soft&aspirate_h-prothesis                  2        0    2 100.00
+ i’&Cliticless                 11 soft&soft                                 61        7  68 89.71
+ i’&Extraction                  8 soft&soft                                 85        0  85 100.00
+ neu&Verbs                      4 soft&soft                                 17        1  18 94.44
+ Newydd asp&Cliticless          1 soft&h-prothesis                           0        1    1 0.00
+ Newydd asp&Cliticless          1 soft&soft                                  1        0    1 100.00
+ o&Cliticless                   1 soft&soft                                  1        0    1 100.00
+ tan&Verbs                      1 soft&soft                                  1        0    1 100.00
+ XPTH&Cliticless                7 soft&h-prothesis                          33       20  53 62.26
+ XPTH&Cliticless                2 soft&aspirate                              2        0    2 100.00
+ XPTH&Cliticless                3 soft&aspirate_h-prothesis                  2        3    5 40.00
+ XPTH&Cliticless               12 soft&soft                                152       20 172 88.37
+ yn1&Cliticless                 2 nasal/soft&h-prothesis                     0        3    3 0.00
+ yn1&Cliticless                 1 nasal/soft&aspirate                        0        1    1 0.00
+ yn1&Cliticless                 2 nasal/soft&aspirate_h-                     0        2
+                                     prothesis                                             2 0.00
+ yn1&Cliticless                 5 nasal/soft&soft                            1        5    6 16.67
+                                                                         10753 3729
+                                                                                                       42
+
+
+
+There are two problems with double triggers which mean that they cannot be discussed in the same
+way as single triggers. One is that it cannot be reliably determined which trigger is causing the
+mutation, and similarly the other is that in the case of null mutation it cannot be determined which
+trigger fails to cause the mutation. However, discussion of double triggers can be simplified by
+dividing the double-trigger examples into four groups:
+
+  i. those in which both triggers cause the same mutation
+  ii. those in which the two triggers cause different mutations
+ iii. those in which only one trigger is in a mutateable context
+ iv. those in which neither trigger is in a mutateable context
+
+The fourth group causes zero mutation and is of no relevance to this study. But zero mutation needs
+more detailed discussion in the case of the third group as we shall see.
+
+5.3.1 Double triggers with the same mutation
+
+There are double triggers where both triggers can cause the same mutation, namely, soft&soft and
+aspirate&aspirate. We can also include here the nasal/soft mutation (caused by yn1 ‘in’) which can
+match either the nasal mutation or the soft mutation of the other trigger. Examples of soft&soft are
+given in (56).
+
+56 a. ti         am droi ‘o?                                           [am & cliticless phrase]
+      you.SG for turn it
+      ‘do you want to turn it?’
+   b. dw             i ‘n      cael bag i’ gario fo.                   [i’ & cliticless phrase]
+      be.PRES.1SG I PROG have bag to carry it
+      ‘I get a bag to carry it.’
+   c. dw             i heb         weld ‘o eto.                        [heb & cliticless phrase]
+      be.PRES.1SG I without see         it yet
+      ‘I haven’t seen it yet.’
+   d. corn car $am wn1                      i$,, ife?                  [am & finite verb]
+      horn car       for know.PRES.1SG I          Q
+
+      ‘car horn I suppose, yes?’
+   e. neu fyddan’       nhw ‘n         mynd yn2       sych.            [ neu & finite verb]
+      or   be.FUT.3PL they PROG        go    PRED     dry
+      ‘or they will be getting dry.’
+                                                                                                            43
+
+
+
+   f. chwarae efo         toys rwan tan      fydd        I--- ‘di deffro. [tan & finite verb]
+      play           with toys now until be.FUT.3SG I--- PERF wake
+      ‘play with toys now until I--- has woken up.’
+
+The effects of all the examples of double triggers which cause the same mutation in a mutateable
+context are given in table 19.
+
+                           Table 19. The same mutation in double trigger contexts
+                                            Ok       Null      total      %ok
+                           soft               377        58      435       86.67
+                           aspirate             0         1          1       0.00
+                           nasal/soft           1         5          6     16.66
+                                              378        64      442       85.52
+
+As the table shows, the use of an appropriate mutations with double triggers which cause the same
+mutation is high at 85.71% in total.
+
+5.3.2 Double triggers which cause different mutations
+
+There are double triggers where the triggers, when in mutateable contexts, cause different mutations.
+This arises when triggers which can cause the soft mutation (the majority) occur in the context of a
+small number of triggers which can cause the aspirate mutation.
+
+In the example in (57) the co-ordinating conjunction a ‘and’, which can cause the aspirate mutation,
+occurs in clause-initial position before finite verbs, which can trigger the soft mutation. It is the latter
+which over-rides the mutational effect of the co-ordinator.
+
+57 a. a      gei             di         weld toys newydd,, iawn.
+      and have.FUT.2SG you.SG see            toys new          right
+      ‘and you’ll see new toys, right.’
+   b. a      glywes          i bod ti        ddim ‘di mynd i’ ‘r        gwely tan      yn2    hwyr hwyr.
+      and hear.PERF.1SG I be       you.SG NEG       PERF go       to the bed   until   PRED   late   late
+      ‘and I heard that you have not gone to bed until late late.’
+   c. a      ge’st           ti         dorri dy      wallt?
+      and have.PERF.2SG you.SG cut           CL.2SG   hair
+      ‘and you had your hair cut?’
+
+In (58) the preposition a:, which can trigger the aspirate mutation, occurs in the context of a cliticless
+verbnoun phrase, which can trigger the soft mutation. It is the mutational effect of the latter which
+dominates.
+                                                                                                            44
+
+
+
+58 paid                 a:     dynnu ‘o!
+     ImPV.NEG.2SG with         pull   it
+     ‘don’t pull it.’
+
+In (59a), XPTH (in this case the post-subject position in an i-clause), which triggers the soft mutation,
+occurs in the context of a cliticless phrase, which can trigger the aspirate mutation. In (59b), the
+preposition i’ ‘to, for’, which triggers the soft mutation, occurs in the context of a cliticless phrase,
+which can again trigger the aspirate mutation. As can be seen, it is the soft-mutation which dominates.
+
+59 a. oh,,, well ti            dynnu ddi allan,,ie.
+      oh better you.SG pull                she out   yes
+      ‘oh, you’d better pull her out, yes.’
+   b. i' gadw hi         'n2    gynnes,, ie?
+      to keep she PRED warm                  yes
+      ‘to keep her warm, yes?’
+
+Table 20 gives the statistics for double-triggers which cause different mutations.
+
+                               Table 20. Different mutations in double-trigger contexts
+                                                           Ok Null Total %ok
+                               Aspirate&soft               15  16    31   48.39
+                               Soft&aspirate                3    0     3 100.00
+                               Nasal/soft&aspirate          0    1     1   0.00
+                                                           18  17    35   51.43
+
+As can be seen, the frequencies are low and only the aspirate&soft triggers reach double figures.
+
+Given that an appropriate mutation is triggered (under ok in the table), the question arises as to which
+mutation dominates. There are only 18 examples which trigger an appropriate mutation and it is the
+soft mutation which dominates. This is not surprising given the high occurrence of the soft mutation
+in the mutation system. A related question is whether one of the triggers dominates, namely, whether it
+is the left-most trigger or the right-most trigger. Examples in the database show that the choice of
+trigger is determined by the mutation which it triggers: that is, the trigger which causes the soft
+mutation is the trigger which is selected.
+
+5.3.3 Double triggers with only one trigger in a mutateable context.
+
+In examples in which only one trigger is in a mutateable context we effectively have a single trigger.
+Details are given in table 21.
+                                                                                                          45
+
+
+
+                        Table 21. One mutateable trigger in double trigger contexts
+                                           ok        null     total      %ok
+                        soft                  103         78       181 56.91
+                        aspirate                0         13        13 0.00
+                        h-prothesis             0          4          4 0.00
+                        Nasal/soft              0          5          5 0.00
+                                              103       100        203 50.74
+
+Only the triggers of the soft mutation have appropriate instances and its productivity overall is mid-
+high (and in the lower reaches of this band).
+
+There is an interesting matter concerning the role of zero mutation in some of these examples. In one
+view of the use of the mutation system, the zero mutation which relates to the right-most trigger can
+be seen as blocking the effect of the left-most trigger. Consider the following examples.
+
+60 a. paid    a:    tynnu nhw.                                      [a: & cliticless phrase]
+      IMP.2SG with pull     they
+      ‘don’t pull them.’
+   b. wnei         di       torri nhw?                              [XPTH & cliticless phrase]
+      do.FUT.2SG you.SG break they
+      ‘you’ll break them?’
+   c. dyna be       oedd           dy    fam    yn     galw hi.     [extraction & cliticless phrase]
+      DEM    what be.IMP.3SG CL.2SG mother PROG call         she
+      ‘that’s what you’re mum calls her.’
+   d. ac yn        gwneud yn1 ty:        ni?                        [yn1 & cliticless phrase]
+      and PROG do            in     house we
+      ‘and doing in our house?’
+
+These examples contain left-most triggers (a:, XPTH, extraction, yn1) which respectively can cause
+the aspirate mutation (a:), the soft mutation (XPTH and extraction) and the nasal/soft mutation (yn1).
+But in each example the target words occur in cliticless phrases in which zero mutation occurs. In an
+ideal view of the mutation system a covert zero mutation can be said to block the effects of the left-
+most triggers. On the other hand, it can be claimed that not all speakers are aware of the role of zero
+mutation in this respect and we can say that null mutation relating to the left-most trigger occurs and
+not zero mutation relating to the righ-most trigger. There is no way of knowing which system the
+adult interlocuters in the database are operating. In terms of overt material, we have null mutation and
+this is how such examples have been interpreted.
+                                                                                                             46
+
+
+
+
+6 Conclusions
+
+The establishment of generalizations is constrained by the extent of use of mutation triggers. There are
+examples of triggers in the database which are used many times by several speakers but there are
+examples of one speaker producing one example of a trigger. More frequent examples produced by
+several speakers provide reasonable bases for generalizations.
+
+The analysis of peformance data (as opposed to the analysis of elicitation data or introspective data)
+can be elusive due to the lack of sufficient context to adequately assess the speaker’s intentions. Also,
+the possibility of the assimilation of an agreement clitic makes it uncertain as to whether there is or is
+not a cliticless phrase. But overall there are sufficient reliable data in the corpus to indicate the main
+trends.
+
+There is considerable variation in the mutation system. It arises due to the competence of individual
+speakers (as shown in table 9), due to the type mutation (as shown by table 10) and due to individual
+triggers (as shown by tables 7, 12 and 13). Overall, it is not the case that all speakers use mutations all
+of the time. It is more reasonable to say that some speakers mutate some of the time.
+
+The extent of use of a trigger plays a role in the maintence of the mutation system: the higher the
+extent of use the more likely is an appropriate mutation. But there are atypical triggers which have a
+reasonably high extent of use but do not cause an appropriate mutation to match their frequencies.
+
+The soft mutation is not only the most frequent in mutateable contexts but also the one which is used
+most appropriately in spontaneous spoken Welsh. The aspirate mutation, the nasal mutation and
+especially h-prothesis are used not only less frequently but also less appropriately. The soft mutation
+is also used in place of the nasal mutation and the aspirate mutation in the case of some triggers.
+
+There is a possibility that some triggers may be falling out of the mutation system. This can be said of
+the co-ordinationg conjunction a ‘and’, a: ‘with’ and gyda ‘with’.
+
+Spoken Welsh creates context in which two triggers can target the same word. This arises where one
+trigger has been omitted but its mutational effect can remain.
+
+There are examples of seemingly mutated forms occurring in a context in which there is no trigger,
+which may indicate that mutated forms can establish themselves as radical forms.
+
+It is misleading to account for the use of mutations in the spontaneous spoken language on the basis of
+accounts of mutations in reference grammars. The latter can be said to be appropriate for assessing the
+                                                                                                         47
+
+
+
+use of mutations in the formal written language. The use of the conventions of the written language in
+the spoken medium is determined by literacy and not all Welsh speakers are sufficiently familiar with
+formal written Welsh to transfer its conventions to spontaneous speech. The spoken language has its
+own conventions, which may not necessarly be contemporary developments but which may be long-
+standing. It is more reasonable to assess spoken Welsh independently and to accept that it is not the
+case that all speakers mutate all of the time. It is especially unenlightening to adopt a prescriptive
+approach and make value-judgements about what is correct and incorrect. We achieve a greater
+understanding of language through objectively describing what occurs or does not occur, which has
+been attempted in this study.
+
+
+References and bibliography
+
+Awbery, Gwenllian M. 1986. Moves towards a simpler, binary mutation system in Welsh. In
+ Andersen, Henning (ed.), Sandhi phenomena in the languages of Europe, 161–166. Berlin: Mouton
+ de Gruyter.
+Ball, Martin John. (ed.). 1988. The use of Welsh: A contribution to sociolinguistics. Clevedon:
+ Multilingual Matters.
+Ball, Martin John. 1992. Diglossia and its effect on the Welsh mutation system. Études Celtiques
+ 29(1). 453–453.
+Ball, Martin John & Müller, Nicole. 2002. Mutation in Welsh. London/New York: Routledge. DOI:
+ http://doi.org/10.4324/9780203192764
+Bellin, Wynford. 1988. The development of pronunciation. In Ball, Martin J. (ed.), The use of Welsh:
+ A contribution to sociolinguistics, 213–228. Clevedon: Multilingual Matters.
+Boon, Erin Diane. 2014. Heritage Welsh: a study of heritage language as the outcome of minority
+ language acquisition and bilingualism. (Unpublished doctoral dissertation). Harvard University,
+ Boston.
+Borsley, Robert D, and Maggie Tallerman (1996). 'Phrases and soft mutation in Welsh', Journal of
+ Celtic Linguistics, 5:1–49.
+Powers, Joyce. ‘Mutation by Default on Welsh Finite Verbs’.
+ https://core.ac.uk/download/pdf/159593579.pdf
+Tallerman, Maggie (2006). 'The syntax of Welsh “direct object mutation” revisited', Lingua,
+ 116:1750–1776.
+White, Y. & Roberts, G., (2022) “Variability in speaker expectations of morphosyntactic mutation in
+ Welsh”, Glossa: a journal of general linguistics 7(1). doi: https://doi.org/10.16995/glossa.8730
+

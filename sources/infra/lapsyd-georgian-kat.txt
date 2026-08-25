@@ -1,0 +1,74 @@
+LAPSyD (Lyon-Albuquerque Phonological Systems Database) — language page
+Maddieson, Flavier, Marsico, Coupe & Pellegrino. lapsyd.huma-num.fr. CC BY-NC-ND 3.0.
+URL: https://lapsyd.huma-num.fr/lapsyd/index.php?data=view&code=98
+Retrieved: 2026-08-24
+
+Language name : Georgian
+ISO 639-3     : kat
+Alternate     : Kartuli, Gruzinskij
+Classification: Kartvelian (South Caucasian)
+Location      : Republic of Georgia, plus some nearby areas in Turkey, Iran and Azerbaijan.
+
+COUNTS: consonants=28 basic vowels=5 total vowels=5 C/V ratio=5.6 top C=s top V=a
+
+=== SYLLABLE STRUCTURE ===
+Syllcat (cf. WALS ch.12): Complex
+Syllabic index (O+N+C) = 7   [Onset=3 Nucleus=1 Coda=3]
+Canonical Form      : (C)(C)(C)(C)(C)(C)V(C)(C)(C)
+Syllabic Restriction: (C)(C)(C)(C)(C)(C)V(C)(C)(C)
+Syllabic notes      : (C)(C)(C)(C)(C)(C)V(C)(C)(C)(C) according to Vogt (1958). Examples /pɾtskβna/ 'peeling' /pɾtkβinβa/ "neigh" /pɾχiβ/ "on foot", /βχetkt/ "we split". Butskhrikidze (2002) presents a theoretical model reducing the basic syllable structure to CCVC based on treating 'harmonic clusters' as single segments and liquids as syllabic. Hewitt (1995: 22) asserts that "there are always as many syllables per word as there are vowels" and "Sonants in consonant-complexes have no syllable-forming capacity".
+
+=== STRESS ===
+Stresscat (cf. WALS ch.14/16): Minor
+Fixed Stress: Antepenult   Weight-sensitivity: None
+Stress notes: Jun et al (2006) support the interpretation of stress as falling on the first syllable of a word, with phrase-level prominences responsible for percepts of stress falling on later syllables. Robins & Waterson (1952) and Hewitt (1985) both remark on the weak nature of Georgian stress but suggest it may fall on other than first syllables. Apparently it has no lexical function.
+
+=== TONE ===
+Tonecat: None
+Tone notes: None
+
+=== CONSONANT NOTES ===
+Place for coronals is based on labelling as alveolar or dental in Robins & Waterson (1952); apart from /n/ Shosted & Chikovani (2006) agree. who also describe as 'most generally' similar to (British) English [ɹ] but Shosted & Chikovani (2006) show a flap /ɾ/. Robins & Waterson (1952) describe as 'more velarized than English "dark l"' before back vowels and velarized also before central /a/. Shosted & Chikovani (2006) transcribe this segment in some cases as a velar lateral. Sources vary on whether back fricatives are velar or uvular, but they are apparently more retracted than the velar plosives at least in back vowel contexts. Robins & Waterson (1952) report that unaspirated plosives and affricates are voiced intervocalically and in some clusters also prevocalically. Shosted & Chikovani (2006) transcribe the series as voiced but show a voice onset delay in initial positions, as does Vicenik (2010) whose study shows that perseveration of voicing occurs to some degree in all three stop series in word-medial intervocalic position.
+
+=== VOWEL NOTES ===
+Robins & Waterson (1952) describe the mid vowels as 'between half-close and 'half-open'. Formant measurements in Shosted & Chikovani (2006) suggest they are higher mid despite using the symbols [ɛ, ɔ] for them. Vowel sequences form separate syllables.
+
+=== SOURCES CITED BY LAPSyD ===
+Robins, R.H. and Waterson, N. 1952. Notes on the phonetics of the Georgian word. Bulletin of the School of Oriental and African Studies 15: 55-72.
+
+Vogt, H. 1958. Structure phonemique du georgien. Norsk Tidsskrift for Sprogvidenskap 18: 5-90. (has frequency data based on four pages of text, approximately 11000 phonemes).
+
+Vogt, H. 1971. Grammaire de la langue georgienne. Institutet for Sammlignende Kulturforskning. Universitetsforlaget, Oslo.
+
+Shosted, Ryan K. and Vakhtang Chikovani. 2006. Standard Georgian (Illustrations of the IPA). Journal of the International Phonetic Association 36: 255-264.
+
+Hewitt, B.G. 1995. Georgian: A structural reference grammar. John Benjamins Publishing Co. Amsterdam.
+
+Jun, Sun-Ah, Chad Vicenik, & Ingvar Lofstedt. 2006. Intonational phonology of Georgian. UCLA Working Papers in Phonetics 106: 41-57.
+
+Butskhrikidze, Marika. 2002. The Consonant Phonotactics of Georgian. Ph D dissertation, Universiteit Leiden. Available from http://www.lotpublications.nl/publish/articles/000216/bookpart.pdf
+
+Vicenik, Chad. 2010. An acoustic study of Georgian stop consonants, Journal of the International Phonetic Association 40: 59–92.
+
+=== INVENTORY TABLES (flattened; blank cells = empty table slots) ===
+Vowels | front | central | back
+unrounded | unrounded | rounded
+high |  |  | i |  | u
+higher mid |  |  | e |  | o
+low |  |  |  | a | 
+Consonants | bilabial | dental | alv | pal-alv | velar | uvular | glottal
+ |  |  |  |  |  |  |  |  |  |  |  | velarized |  |  |  | 
+pulm | stop |  |  |  |  | -vless |  |  | p | t̪ |  |  |  | k |  | 
+aspirated |  | pʰ | t̪ʰ |  |  |  | kʰ |  | 
+aff |  |  | sib |  | -vless |  |  |  |  | ts |  | t̠ʃ |  |  | 
+aspirated |  |  |  | tsʰ |  | t̠ʃʰ |  |  | 
+fric |  |  |  |  | -vless |  |  |  |  |  |  |  |  | χ | h
+-ved |  |  |  |  |  |  |  |  | ʁ | 
+sib |  | -vless |  |  |  |  | s |  | ʃ |  |  | 
+-ved |  |  |  |  | z |  | ʒ |  |  | 
+nasal |  |  |  |  | -ved |  |  | m | n̪ |  |  |  |  |  | 
+tap/flap |  |  |  |  | -ved |  |  |  |  | ɾ |  |  |  |  | 
+appr |  |  |  |  | -ved |  |  | β̞ |  |  |  |  |  |  | 
+lat |  |  |  | -ved |  |  |  |  |  | lˠ |  |  |  | 
+ejective | stop |  |  |  |  |  |  |  | pʼ | t̪ʼ |  |  |  | kʼ | qʼ | 
+aff |  |  | sib |  |  |  |  |  |  | tsʼ |  | t̠ʃʼ |  |  | 

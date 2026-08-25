@@ -1,0 +1,1102 @@
+                                         Stress-Epenthesis Interactions
+                                     Ellen Broselow, SUNY at Stony Brook
+
+4.1. Introduction1
+         In many languages, stress assignment appears to ignore inserted vowels, giving rise to
+opaque stress patterns. This fact has supported arguments for multi-level derivations, which account
+for the apparent invisibility of epenthetic vowels by inserting them after stress is assigned. Because
+this approach requires multiple levels of derivation, stress-epenthesis interactions are potential
+problems for a framework that allows reference to only two levels, input and output. However, as
+Alderete (1995a, 1999b) has argued, even strictly parallel versions of Optimality Theory can account
+for the invisibility of inserted vowels by means of constraints requiring elements in prosodic
+constituents to have correspondents in underlying representation.
+         In this paper I argue that the correspondence approach to stress-epenthesis interactions
+actually provides a better match with the wide array of stress-epenthesis interactions than the multi-
+level approach. The general argument of the paper is that disruption of normal stress patterns by
+epenthetic material is caused by one of two factors: avoidance of epenthetic material in prominent
+positions, and maximization of paradigmatic contrasts. I discuss stress-epenthesis interactions in
+four languages. In Selayarese loanwords, the main stress foot is constructed to avoid inclusion of
+epenthetic vowels anywhere in the foot, while in North Kyungsang Korean loanwords and in
+Winnebago native vocabulary, epenthetic vowels are avoided in the head position of a foot. Iraqi
+Arabic illustrates a different motivation for the apparent invisibility of inserted vowels: the
+maximization of contrast between stems of different grammatical types.
+
+4.2. Selayarese Loanwords
+        In Selayarese, one of the Makassar languages of South Sulawesi, Indonesia, the very general
+pattern of penultimate stress may be disrupted by the presence of epenthetic vowels. This disruption
+has been accounted for in a serial derivation by ordering epenthesis after stress assignment (Mithun
+and Basri 1986), and in strictly parallel OT by means of a constraint banning epenthetic material
+from the head foot of a prosodic word (Alderete 1995a, 1999b). In terms of empirical coverage of
+native vocabulary, these two approaches are equivalent. However, data from loan phonology
+provides a wider range of stress-epenthesis interactions, and I argue below that only the strictly
+parallel approach can account successfully for the stress in borrowed words.
+        I begin by reviewing stress-epenthesis patterns in native vocabulary. Stress is normally
+penultimate in monomorphemic words, regardless of syllable structure:
+
+
+
+
+         1
+           This work was supported by NSF grant SBR-9729108 to Daniel Finer and Ellen Broselow and by funding from
+NWO. I am greatly indebted to Hasan Basri for his penetrating insights into Selayarese structure; this paper could not have
+been written without his work on Selayarese borrowings. I am also grateful to John Alderete, Lisa Selkirk, and Dan Finer for
+comments that have significantly improved the paper, and to colleagues at Stony Brook and audiences at the Harvard/MIT
+P2K Workshop and the University of Leiden/HIL Colloquium Series for valuable discussion.
+
+                                                             1
+(1) Normal penultimate stress
+              a. sahála                  'sea cucumber'
+              b. palóla                  'eggplant'
+              c. balíka§                 'arm'
+              d. sampúlo                 'ten'
+              e. búlaõ                   'moon, month'
+              f. tímbo                   'grow'
+              g. góntiõ                  'scissors'
+              h. barámbaõ                'chest'
+              i. kalihára                'ant'
+              j. kalumánti               'big black ant'
+
+This stress pattern can be analyzed as preference for a bisyllabic, trochaic foot at the right edge of the
+word. The bisyllabic nature of the foot is consistent with the minimal word size; all major category
+words consist of at least two syllables.
+        The exceptions to penultimate stress are of two kinds. First, several suffixal clitics fall
+outside the stress domain; these are argued by Selkirk (1999), Basri, Broselow, Finer (1999), and
+Basri, Broselow, Finer, and Selkirk (1997) to be outside the prosodic word. Second, there are a
+number of monomorphemic words with antepenultimate stress, which have been analyzed as
+containing a final epenthetic vowel (Mithun and Basri 1986, Piggott 1995, Basri, Broselow, Finer,
+and Selkirk 1997):
+
+(2) Monomorphemes with antepenultimate stress
+             surface       root
+             a. sáhala     /sahal/         'profit'
+             b. lámbere    /lamber/        'long'
+             c. bótoro     /botor/         'gamble'
+             d. sússulu    /sussul/        'burn'
+             e. pá§risi    /pá§ris/        'painful'
+             f. hállasa    /hallas/        'suffer'
+             g. maõkásara /maõkasar/       'Makassar'
+             h. kasíssili  /kasissil/      'mosquito'
+             i. barúasa    /baruas/        'cookie'
+             j. salúara    /saluar/        ‘pants’
+
+Comparison of (2a) sahála 'sea cucumber' and (2a) sáhala 'profit' reveals that stress cannot be
+entirely predicted from surface structure. However, all morphemes with antepenultimate stress
+share certain properties. First, all end in a vowel which is preceded by /r/, /l/, or /s/, none of which is
+an acceptable coda in this language. The vowel following /r,l,s/ is identical to the preceding vowel,
+suggesting that a copy of the nearest vowel is inserted to allow stem-final /r,l,s/ to be syllabified as
+an onset. This analysis is confirmed by the fact that final vowels of stems with antepenultimate
+stress disappear before a vowel-initial suffix (3a,b), in contrast with other final vowels, as in (3c,d):
+
+(3) Disappearance of epenthetic vowel
+               a. lámbere     lambéraõ           /lamber+aõ/              'long/longer'
+               b. hállasa     hallási            /hallas+i/               'suffer/make suffer'
+               c. tirére      tireréaõ           /tirere+aõ/              'thirsty/thirstier'
+               d. rúppa       ruppái             /ruppa+i/                'face/confront'
+
+                                                     2
+In a serial approach, stress is assigned to the penultimate syllable before the final vowel is inserted.
+In a parallel approach, the constraint HEADDEP (Alderete 1995b, 1999a) prevents the main stress
+foot from containing epenthetic material. This means that in a word like lámbere, from underlying
+/lamber/, the bisyllabic trochaic stress foot is built on the first two vowels, leaving the final vowel
+unfooted: {lámbe}rE. (Here and in the following discussion, inserted vowels are shown in upper
+case.)
+         These two analyses do equally well in accounting for forms with final epenthetic vowels.
+The more interesting cases, however, involve medial epenthesis, which we can see in the adaptation
+of loanwords that do not conform to Selayarese phonotactic constraints. Most loans into Selayarese
+are from Bahasa Indonesia (BI), the lingua franca of the region. In general, the stress of the BI forms
+is ignored, with loans stressed on their penultimate syllable. However, as the forms below illustrate,
+BI forms with final /r,l,s/ undergo epenthesis and are stressed on their antepenultimate syllables, just
+like native vocabulary (Basri 1997).2
+
+(4) Loans with final epenthesis: ó'óE
+               a. bótolO                  'bottle'                BI: bótol
+               b. sénterE                 'flashlight'            BI: sénter
+               c. kálasA                  'class'                 BI: kclás
+               d. bérasA                  'rice'                  BI: bcrás
+               e. kábalA                  'cable'                 BI: kábal
+               f. kábarA                  'news'                  BI: kábar
+               g. kíkirI                  'metal file'            BI: kíkir
+
+This confirms the invisibility of final epenthetic vowels for the purposes of stress. In contrast,
+however, epenthetic vowels in penultimate position must be visible-- they themselves bear stress:
+
+(5) Loans with medial epenthesis: óE'ó
+               karÁtu         'card'                              BI: kártu
+               surÚga         'heaven'                            BI: súrga
+               bakÁri         proper name                         BI: bákri
+               burÚhaõ        proper name                         BI: búrhan
+               ramÁli         proper name                         BI: rámli
+
+       Quadrisyllabic words further complicate matters. As in native vocabulary, stress is
+penultimate when the two final syllables are underlying, and antepenultimate in forms with a final
+epenthetic vowel:
+
+(6)     Quadrisyllabic Loans:3
+        a. óEó'ó, Eóó'ó
+                samAsúddiõ proper name                            BI: syamsúddin
+                pArajúri§      'soldier'                          BI: prajúrit
+        b. ó'óóE
+                balábasA       'ruler'                            BI: bclcbás
+
+
+       2
+           See Broselow 2000 for discussion of forms ending in consonants other than /r,l,s/.
+       3
+           The symbol ‘y’ indicates a palatal glide and ‘j’ a voiced palatal stop.
+
+                                                         3
+However, when both the last and the third-from-last vowel are epenthetic, stress falls on the
+penultimate syllable:
+
+(7)     Quadrisyllabic Loans: óEó'E
+               solOdérE        'weld'                            BI: sólder
+               korOnélE        'corner kick (in soccer)'         BI: kórnel
+               karAtísI        'ticket'                          BI: kárcis
+               tarApálA        'tarpaulin'                       BI: térpal
+               tapAsérE        'interpretation'                  BI: tápsir
+
+The generalization, then, is that only in final position does an epenthetic vowel disrupt the normal
+penultimate stress pattern, yielding antepenultimate stress. However, when the final epenthetic
+vowel is accompanied by another epenthetic vowel two syllables to its left, the final vowel must
+count in the stress computation.
+         This pattern is problematic for the serial analysis. We can easily derive the discrepancy
+between final and medial epenthesis in trisyllabic forms by assuming that word-final consonants are
+extraprosodic, and not syllabified until late in the derivation. Medial /r,l,s/ will be syllabified before
+stress is assigned, while final /r,l,s/ may remain in limbo until some later point in the derivation, as
+illustrated in (8):
+
+(8) Serial analysis:
+
+                                a. /sahal/                b. /kartu/
+Final extrametricality:            saha (l)                   ---
+Syllabification, epenthesis:       sa.ha (l)                  ka.rA.tu
+Stress assignment:                {sá.ha}(l)                  ka.{rÁ.tu}
+
+Loss of extrametricality;
+Syllabification, epenthesis:      {sá.ha.} lA                ka.{rÁ.tu}
+
+The invisibility of epenthetic vowels following stem-final consonants then follows from the
+invisibility of stem-final consonants. However, this approach predicts the wrong output for forms
+with both final and medial epenthesis:
+
+(9)
+                                         a. /solder/             b. /balabas/
+Final extrametricality:                    solde(r)                balaba(s)
+Syllabification, epenthesis:               so.lO.de (r)
+Stress assignment:                         so.{lÓ.de} (r)          ba{lába}(s)
+
+Loss of extrametricality;
+Syllabification, epenthesis:             *so.{lÓ.de.}rE           ba{lába}sA
+                                         (solO{dé.rE})
+
+Form (9a) receives antepenultimate stress, rather than the actual penultimate stress. To derive the
+correct stress, we would need a stress readjustment rule converting the antepenultimate stress of (9a)
+to the correct penultimate stress. But such a rule would need to leave intact stress on forms like (9b).
+Since the metrical structure of (9a) and (9b) is equivalent at the point this rule would apply, the rule
+
+                                                    4
+would need to be non-Markovian, distinguishing underlying from inserted vowels.4
+         This distinction is of course at the heart of the strictly parallel approach. In this approach,
+stress feet are constructed (where possible) on underlying vowels only. The inclusion of epenthetic
+vowels in the stress foot (in either head or nonhead position, as in ka{rÁtu} 'card' or solO{dérE}
+'weld') occurs only when it is impossible to construct a bisyllabic foot that does not contain an
+epenthetic vowel. The following constraints derive this pattern:
+
+(10) Selayarese Stress Constraints
+        a. FT BIN(ó), FT TROC: Feet are bisyllabic and trochaic. These constraints are ranked so high
+        as never to be violated.
+        b. HEAD-DEP (Alderete 1999):Every vowel contained in a prosodic head in S 2 has a
+        correspondent in S1 (i.e., vowels in prominent foot must not be epenthetic).5
+        c. ALIGN-R (PWD, FT) The right edge of the prosodic word should be aligned with the right
+        edge of a foot..
+
+Constraints (10a,c) enforce the normal penultimate stress pattern. Ranking HEAD-DEP over ALIGN-R
+will choose antepenultimate stress for trisyllables with final epenthesis, where the stress foot
+includes only lexical vowels. But for forms with medial epenthesis, there is no possible parse into
+bisyllabic feet, and therefore the best that can be done is to satisfy the requirement that the foot be
+right-aligned, yielding penultimate stress, as in (13). The loanword data therefore provide striking
+confirmation of Alderete’s analysis of native vocabulary:
+
+
+
+
+        4
+         A reviewer asks whether in fact penultimate stress is simply the default for quadrisyllabic
+forms, with balábasa representing an exceptional pattern. As the native forms (2g,h,i,j) illustrate,
+the antepenultimate stress in balábasa is typical of forms with final epenthetic vowels.
+        5
+         Alderete's proposed constraint is more (probably too) general, banning any epenthetic
+material from the prosodic head. Nothing hinges on this distinction here.
+
+                                                    5
+ (11) /sahala/                           FTBIN,            HEAD DEP     ALIGN-R
+    'sea cucumber'                       FTTROCH                        (PWD, FT)
+    óó'ó
+ La. sa {hála}
+   b. {sáha}la                                                           *!
+ (12) /sahal/
+   'profit'
+    ó'óE
+   a. sa {hálA}                                            *!
+ Lb. {sáha}lA                                                            *
+ (13) /kartu/
+    'card'
+    óE'ó
+ L a. ka {rÁtu}                                            *
+    b. {kárA}tu                                            *             *!
+
+        In quadrisyllabic forms, the principle is the same–the ideal parse constructs a bisyllabic
+trochaic foot aligned with the right edge of the word, but if the final vowel is epenthetic, the
+alignment requirement is overridden, moving the stress foot one syllable leftward. (Below I show
+only parses containing a single stress foot; for a full treatment of possible outputs, see Broselow
+2000).
+
+ (14) /kalihara/                 FT BIN, TROCH        HEAD-DEP                ALIGN-R
+    'ant'                                                                     (PWD, FT)
+    óóó'ó
+   a. {káli} hara                                                             *!*
+   b. ka {líha} ra                                                            *!
+ Lc. kali {hára}
+ (15) /maõkasar/
+    'Makassar'
+    óó'óE
+   a. {máõka} sarA                                                            **!
+ Lb. maõ {kása} rA                                                            *
+   c. {maõka} {sárA}                                  *!
+
+
+
+                                                  6
+Where both the final and the antepenultimate vowels are epenthetic, it is impossible to construct a
+bisyllabic foot that does not contain an epenthetic vowel, which makes HEAD-DEP irrelevant and the
+alignment constraint decisive:
+ (16) /solder/                    FT BIN, TROCH            HEAD-DEP                  ALIGN-R
+    'weld'                                                                           (PWD, FT)
+    óEó'E
+    b. {sólO}derE                                           *                        *!*
+    c. so {lÓde} rE                                         *                        *!
+ Ld. solO {dérE}                                            *
+
+Thus, the strictly parallel analysis predicts that an epenthetic vowel disrupts the normal construction
+of a bisyllabic foot aligned with the right edge only when it is possible, by shifting the foot over, to
+construct a foot containing only underlying vowels. The serial account, on the other hand, provides
+no account for why a final epenthetic vowel should be invisible when preceded by two underlying
+vowels, but visible when preceded by an antepenultimate epenthetic vowel.
+         We might attempt to save the serial analysis by employing the Domino Condition (Halle and
+Vergnaud 1987), which directs that when material is inserted into a foot, that foot and all feet to its
+right/left are destroyed (moving toward the edge from which feet are constructed, or with which feet
+are aligned). Stress is then reassigned only on the liberated portions of the word, including the
+inserted material in the computation. In Selayarese, this means that epenthetic vowels to the right of
+the penultimate underlying vowel should cause a reversion to default stress. Hayes (1995) points out
+empirical problems with the Domino Condition–in some cases, it simply makes the wrong
+predictions. For Selayarese, however, an analysis using the Domino Condition suffers from
+conceptual problems. First, assuming feet are constructed on syllables, this analysis would require
+us to allow /r,l,s/ in forms like /solder/ to be syllabified in coda at some level, only to trigger
+epenthesis at some later level. But it is unclear why epenthesis is motivated at all, if these
+consonants can be syllabified in the coda (and we cannot appeal to extrametricality without giving
+up the generalization that only segments at edges are extrametrical). Even ignoring these problems,
+however, the Domino Condition is less satisfying than the parallel account in that it simply stipulates
+the connection between the direction of foot destruction and foot construction. This stipulation (that
+if feet are constructed from the right (left), then epenthesis into a foot entails destruction of all feet to
+the right (left) of the invaded foot) is a way of ensuring that default stress arises when an epenthetic
+vowel occurs in a main stress foot position. In the parallel analysis, this generalization falls out of
+the ranking HEAD-DEP>> ALIGN-R: the reversion to default penultimate stress occurs when
+violations of HEAD-DEP cannot be avoided. Thus, while the serial analysis of Selayarese might be
+salvaged by adding the Domino Condition to the rules of the grammar, the parallel analysis derives
+the same generalizations from a set of ranked constraints. In the next section, we will see another
+case of stress-epenthesis interactions for which the Domino Condition makes the wrong predictions.6
+
+
+        6
+          Another possible argument for the serial analysis of epenthesis is provided by Piggott
+(1995), who notes, following Mithun and Basri (1986), that while underlying stressed vowels in open
+syllables are lengthened, presumably to satisfy a bimoraic minimum requirement, epenthetic vowels
+fail to lengthen. However, Basri (1999) provides an analysis of these facts in a parallel framework.
+See the Appendix for fuller discussion of this issue.
+
+                                                     7
+4.3. North Kyungsang Korean Loanwords
+
+        A second example of stress-epenthesis interaction in loanwords is provided by borrowings
+into North Kyungsang Korean discussed by Kenstowicz and Sohn (2000). Kenstowicz and Sohn
+report that this dialect of Korean (henceforth, NKS Korean) is characterized by a pitch accent system
+in which each word must have at least one pitch peak. There are some subregularities in the pitch
+accent system: words with a long vowel in the first syllable generally have a HH pattern, and words
+longer than three syllables most often have penultimate accent. But to a large extent, the native
+language accent pattern is lexically determined, as illustrated by the following contrasts:
+
+(17)   North Kyungsang Native Accent
+       a. HH
+              hárépi        ‘grandfather’
+       b. HL
+              kámani        ‘rice bag’
+              káci          ‘kind’
+       c. LH
+              kurúma        ‘cart’
+              kací          ‘eggplant’
+
+Like longer native forms, loans generally have penultimate accent (18a), though there is some
+evidence of a preference for accenting a final heavy over a penultimate light syllable (18b). It is
+facts like these that lead Kenstowicz and Sohn (2000) to argue that NKS Korean accent in loans
+provides an example of emergence of the unmarked, in the form of a preference for a Romance-type
+metrical structure:
+
+(18)   Loan Accent
+       a. penultimate accent
+                kVítVa                ‘guitar’
+                ameríkVa              ‘America’
+                kVellipVonía          ‘California’
+       b. final accent
+                kVepinét              'cabinet'
+
+The accent patterns illustrated in (18) can be accounted for by assuming a preference for bimoraic
+trochaic feet.
+        NKS Korean borrows freely from English, and many borrowings undergo epenthesis.
+While NKS borrowings, like Selayarese borrowings, attest to a preference for penultimate stress as
+the default pattern, the borrowing languages contrast with respect to the behavior of forms with
+epenthetic vowels. In NKS Korean loanwords, final epenthetic vowels appear to be visible, in
+contrast with such vowels in Selayarese:
+
+
+
+
+                                                  8
+(19)   óóE, EóE
+              tVenísU          'tennis'
+              te.í.tVU         'date'
+              ma.ú.sU          'mouse'
+              ma.í.kVU         'mike'
+              kUrásU           'glass'
+              kUllápU          'glove'
+
+However, epenthetic vowels in penultimate position, which take the stress in Selayarese, are
+generally not accented in NKS Korean. When the two final vowels are epenthetic, accent falls on the
+antepenult, while a word with a single epenthetic vowel in penultimate position takes accent on its
+final syllable:7
+
+(20)   a. ó'EE
+                 tVósUtVU      'toast'
+                 pésUtVu       'best'
+                 réphUtVU      'left'
+                 tVéksUtVU     'text'
+                 kípVUtVU      'gift'
+                 pVásUtVU      'first'
+
+       b. óEó'
+                 metVUró       ‘metro’
+                 nigUró        'negro'
+                 kVontVUról    'control'
+
+Thus, while both Selayarese and NKS Korean exhibit disruption of the generally preferred
+penultimate stress pattern in the presence of epenthetic vowels, the disruptions are of a different
+type. In Selayarese, disruption is associated with final but not penultimate epenthetic vowels, while
+in NKS Korean it is penultimate epenthesis that is disruptive. We can account for these differences
+by assuming that while Selayarese avoids incorporating an epenthetic vowel into any position in the
+main stress foot, NKS Korean simply avoids allowing an epenthetic vowel in the prominent
+(accented) position. Thus, while HEAD-DEP ranks relatively low in NKS Korean, the following
+constraint is highly ranked:
+
+(21)   HEADSYLL-DEP (Alderete 1995): Every segment contained in the head of a foot in S 2 has a
+       correspondent in S1 (epenthetic vowels cannot be the head of a foot).
+
+In Selayarese, the ranking HEAD-DEP >> ALIGN-R accounts for the leftward shift of stress in
+forms with final epenthesis. In NKS Korean, ALIGN-R dominates HEAD-DEP, giving penultimate
+accent so long as this accent does not fall on an epenthetic vowel:
+
+
+
+       7
+        K&S note that some forms (pakÚna 'Wagner', rarÚko 'largo') do have accent on a
+penultimate epenthetic syllable; they speculate that these are older forms in which the inserted vowel
+has been reinterpreted as underlying.
+
+                                                  9
+ ( 22) /tVenis/      HEADSYLL-DEP        ALIGN-R             FTBIN               HEAD-DEP
+                                         (PWD, FT)
+ La. tVe{nísU}                                                                    *
+   b.{tVéni} sU                           *!
+   c. tVeni {sÚ}      *!                                      *                  *
+   d. tVe {ní}sU                          *!                  *
+   e. {tVé}ni sU                          *!*                 *
+
+However, accent does shift leftward when both final and penultimate vowels are epenthetic, due
+to high-ranking HEADSYLL-DEP:
+
+ ( 23) /tVostV/      HEADSYLL-DEP        ALIGN-R             FTBIN               HEAD-DEP
+                                         (PWD, FT)
+   a. tVo{sÚtVU}      *!                                                          *
+ Lb.{tVósU}tVU                           *                                        *
+   c. tVosU{tVÚ}      *!                                      *                   *
+   d. tVo{sÚ}tVU      *!                 *                    *                   *
+  e. {tVó}sUtVU                       **!                    *
+When only the medial vowel is epenthetic, the best parse is a (nonbinary) right-aligned foot:
+
+ ( 24) /metVtro/     HEADSYLL-DEP        ALIGN-R             FTBIN               HEAD-DEP
+                                         (PWD, FT)
+   a. me{tVÚro}       *!                                                          *
+   b.{métVU}ro                           *!                                       *
+ Lc. metVU{ró}8                                               *
+   d. me{tVÚ}ro       *!                 *                    *                   *
+   e. {mé}tVUro                          **!                  *
+
+
+
+
+       8
+         A reviewer points out that the same metrical pattern could be arrived at with a different
+metrical parse, me{tVUró}, in which the two final syllables are grouped into an iambic foot. Under
+this parse, HeadSyll-Dep would force a violation of TROCHFT, rather than a violation of FTBIN.
+
+                                                 10
+         It is difficult to see how these facts could be accounted for in a serial framework. Forms like
+kVítVa ‘guitar’ and ameríkVa 'America' illustrate that penultimate accent is preferred, motivating a
+highly ranked constraint demanding trochaic feet. Forms like tVenísU 'tennis' indicate that
+epenthetic vowels, even final ones, should be present when stress is assigned. But if that is the case,
+we would expect penultimate stress in forms like tVósUtVU 'toast' and metVUró 'metro' (*tVosÚtU,
+*metVÚro). Note that the Domino Condition is useless here, since that condition predicts that
+insertion of material to the right of the penultimate underlying vowel should cause destruction of foot
+structure. Reassignment of accent to the liberated material, including the inserted vowel(s), should
+then yield default penultimate accent. But in NKS Korean, insertion of a vowel into an existing foot
+({metVro}, {tVostV}) yields either antepenultimate or final accent.
+         In contrast, the parallel approach (with correspondence constraints) not only accounts for the
+data, but also provides insight into the similarities and differences between NKS Korean and
+Selayarese loanword adaptation. Selayarese and NKS Korean are alike in avoiding epenthetic
+vowels in prosodically prominent positions, even at the cost of sacrificing alignment of the main foot
+with the right edge of the word. They differ, however, in their definitions of prominent position
+(anywhere in the head foot vs. in the prominent position in a foot). They differ as well in the relative
+rankings of FTBIN and ALIGN-R; Selayarese is unyielding in its requirement that feet be bisyllabic,
+while NKS Korean is willing to sacrifice binarity for the sake of right-alignment.
+         Another respect in which the two languages differ is the extent to which the rankings of the
+relevant constraints are motivated by the native vocabulary. In Selayarese, the native vocabulary,
+while providing evidence for epenthesis in a much smaller range of cases, still motivates the
+rankings necessary to handle the loanword data. NKS Korean native vocabulary, in contrast,
+provides no obvious evidence for high ranking of HEADSYLL-DEP, suggesting that this may be an
+instance of the emergence of the unmarked. We now turn to another case illustrating the role of
+HEADSYLL-DEP, this time in native vocabulary.
+
+4.4. Winnebago
+        The problem of stress-epenthesis interactions in the Siouan language Winnebago has
+received a great deal of attention (e.g., Miner 1979, 1981, 1989, Hale and White Eagle 1980, Hale
+1985, Halle and Vergnaud 1987, Steriade 1990, Hayes 1995, Halle and Idsardi 1995, Alderete 1995).
+Because a number of researchers have provided analyses in a serial framework, it is important to
+determine whether these facts can be accounted for in a framework with only two levels. I argue that
+Winnebago, like NKS Korean, illustrates avoidance of foot heads containing epenthetic nuclei.
+Authorities differ on whether Winnebago should be considered to employ a stress system or a pitch
+accent system; I will assume that Winnebago employs a system of accent, with the position of the
+accent determined by metrical foot structure.
+        The facts of Winnebago accent are complex. Below I indicate only primary accent.
+(Nasalization, which is irrelevant to the analysis, is also not indicated.) In words with only light
+syllables, the accent falls on the third syllable and every other syllable thereafter (except in
+bisyllables, which have accent on their rightmost syllable). In forms beginning with a heavy syllable,
+accent falls on the second syllable, and on subsequent even-numbered syllables:
+
+
+
+
+                                                  11
+(25)   a. All light
+               wa®é                    'dress'
+               hotaxí                  'expose to smoke'
+               hara±ábra               'the taste'
+               hokiwároké              'swing (n.)'
+
+       b. Initial heavy
+                maatá±                 'promise (1sg.)'
+                waakít§e               'speak to (1sg.)'
+                waipéresgá             'linen'
+
+I will assume, following Miner 1979, 1981, 1989 and Hayes 1995, that syllables are grouped into
+iambic feet, with accent falling on each syllable following a foot. The following constraints
+derive the patterns in (25):9
+
+(26)   a. FTBIN(MORA), FT=IAMBIC
+       b. ALIGN-L (PWD, FOOT): Align left edge of Prosodic Word with left edge of a foot.
+       c. POSTACCENTING: The syllable to the right of a foot should be accented.
+       d. *ACCENT: vowels should not be accented (no accented vowels unless required to satisfy
+              constraints).
+
+4.4.1. Accent and Epenthesis
+         Winnebago has an epenthesis process known as Dorsey's Law by which a vowel is inserted
+between a voiceless obstruent and a following sonorant consonant. The inserted vowel is a copy of
+the following vowel. These inserted vowels may be associated with disruption of the normal accent
+patterns, as illustrated by comparison of quadrisyllabic forms with and without inserted vowels:
+
+(28)   LLLL words
+       a. no epenthesis: {óó}{ó'ó}
+               hara±ábra      'the taste'
+       b. normal accent: Eóó'ó, óóE'ó, EóE'ó
+               kEre®úsep      'Black Hawk'
+               hanipÁna      'I swam (declar.)'
+               kErekÉre     'colorful'
+       c. disrupted accent: óEóó'
+               hikOrohó       'prepare, dress (3sg.)'
+
+        As the forms above illustrate, an epenthetic vowel disrupts accent when it occurs in the
+second syllable from the left (though only in words longer than three syllables). In contrast,
+epenthetic vowels in odd-numbered syllables are associated with normal accent. These patterns can
+be accounted for by assuming that HEADSYLL-DEP plays a leading role in Winnebago, as in the
+adaptation of NKS Korean loanwords. Normally, an iambic foot is formed at the left edge of the
+word, with accent falling on the syllable following this foot (that is, the third syllable). Thus,
+
+
+       9
+        John Alderete points out (personal communication) that this analysis of Winnebago avoids
+the necessity for positing initial extrametricality (otherwise quite rare).
+
+                                                 12
+alignment of the foot with the left word edge places an accent on the third syllable. But the normal
+accent pattern is disrupted just when the syllable that should be the head of a foot is epenthetic. In
+this case, the ranking HEADSYLL-DEP >> ALIGN-L will shift the iambic foot one syllable to the right,
+choosing the parse hi{kOro}hó 'prepare, dress (3sg.)' over the well-aligned *{hikO}{róho}, for
+example. The following tableaux illustrate the array of LLLL word types:
+
+ (30) LLLL, no epenthesis           FTBIN,            HEADSYLL-      ALIGN-L        POST
+    /hara±abra/ óóó'ó               FTIAMB            DEP            (PWD, FT)      ACCENT
+     'the taste'
+ La. {hara}{±ábra}
+   b. ha{ra±a}brá                                                    *!
+   c. {ha}{rá±a}{brá}               *!*
+ (31) LLLL, normal accent           FTBIN,            HEADSYLL-      ALIGN-L        POST
+    /krekre/ EóE'ó                FTIAMB            DEP            (PWD, FT)      ACCENT
+    'colorful'
+ La. {kEre}{kÉre}
+   b. kE{rekE}ré                                    *!             *
+ (32) LLLL, disrupted accent        FTBIN,            HEADSYLL-      ALIGN-L        POST
+     /hikroho/    óEóó'             FTIAMB            DEP            (PWD, FT)      ACCENT
+    'prepare'
+    a. {hikO}{róho}                                   *!
+ L b. hi{kOro}hó                                                     *
+
+         We next consider trisyllabic words. As illustrated below, accent is never disrupted in
+trisyllabic forms, even when the epenthetic vowel is the second in the word:
+
+(31) LLL words
+       a. no epenthesis: {óó}ó'
+               hotaxí         'expose to smoke'
+       b. normal accent: Eóó', óEó'
+               Urugé        'you (sg.) untie it'
+               hokEwé         'enter'
+
+I have argued that in Winnebago, accent falls on the syllable following each foot. However, footing
+the the first two syllables of hokEwé would place the epenthetic vowel in head position. However,
+the universal constraint set must contain a constraint HEADSYLLACCENT which produces the familiar
+pattern of accent on the head syllable. In Winnebago, this constraint is normally masked by higher
+ranked POSTACCENT, which assigns accent to the syllable following the foot, and OCP, which
+forbids retention of adjacent accents. But the effect of HEADSYLLACCENT emerges in forms with an
+epenthetic second syllable; because there is no syllable following this foot to receive the accent,
+
+                                                     13
+HEADSYLLACCENT can be satisfied. Thus, trisyllabic forms will receive accent on their final syllable
+either by accent on the post-foot syllable, or accent on the head syllable of the foot:
+
+(32) Stress/Accent Constraints (Final Version)
+        a. FTBIN(MORA), FT=IAMBIC
+        b. HEADSYLL-DEP: Every segment in the head of a foot in S2 has a correspondent in S1.
+        c. ALIGN-L (PWD, FOOT): Align left edge of Prosodic Word with left edge of a foot.
+        d. OCP(ACCENT): Adjacent syllables may not be accented.
+        e. POSTACCENTING: The syllable to the right of a foot should be accented.
+        f. HEADSYLLACCENT: The head of a foot should be accented.10
+
+ (33) /hotaxi/             FTBIN,      HEADSYL        ALIGN-L    OCP         POST       HEADSYLL
+   'expose to smoke'       FTIAMB      L-DEP                                 ACCENT     ACCENT
+     óóó’
+ L a. {hota}xí                                                                          *
+   b. ho{taxí}                                        *!
+ (34) /ruge/             FTBIN,      HEADSYL        ALIGN-L    OCP         POST       HEADSYLL
+   'you (sg) untie it'     FTIAMB      L-DEP                                 ACCENT     ACCENT
+     Eóó’
+ La. {Uru}gé                                                                          *
+   b. U{rugé}                                       *!
+
+ (35) /hokwe/              FTBIN,      HEADSYL        ALIGN-L    OCP         POST       HEADSYLL
+     'enter'               FTIAMB      L-DEP                                 ACCENT     ACCENT
+      óEó’
+   a. {hokE}wé                          *!                                              *
+ Lb. ho{kEwé}                                         *
+
+        These constraints account equally well for words of more than four syllables. Normally,
+accent falls on the third and following odd-numbered syllables, but again, accent is disrupted by an
+epenthetic vowel in an even-numbered syllable:
+
+
+
+
+        10
+          We will also need a constraint *ACCENT (vowels should not be accented), which prevents
+accents from surfacing at random.
+
+                                                 14
+(36)    Longer words
+        a. no epenthesis
+                hokiwároké              'swing (n.)'
+        b. normal accent
+                hirakÓrohó              'prepare, dress (2sg.)'
+                hirakÓrohónirá          'the fact that you do not dress'
+        c. disrupted accent
+                wakIripÁras             'flat bug'
+                wakIripÓropÓro          'spherical bug'
+                harakíUru®íkAná       'pull taut (2sg. declar.)'
+
+Longer forms containing odd numbered syllables could conceivably be parsed in different ways; for
+example, the accent pattern of (37) is consistent with footing (37a), in which a final stray syllable, or
+(37b), with medial stray syllable. The constraint ranking proposed here chooses (37b), since this
+satisfies both PostAccent and HeadSyllAccent. The same footing is possible for (39), since it does
+not require creating a foot which has an epenthetic vowel as its righthand (head) element. However,
+forms like (40), in which the second syllable is epenthetic, require the shifting of feet to the right:
+
+ (37) no epenthesis         FTBIN,      HEADSYL         ALIGN-L      OCP       POST        HEADSYLL
+    /hokiwaroke/            FTIAMB,     L                                      ACCENT      ACCENT
+   'swing (n)'              PARSE-2     DEP
+    óóó'óó'
+   a. {hoki}{wáro}ké                                                                       **!
+ Lb. {hoki}wá{roké}                                                                        *
+   c. ho{kiwa}{róke}                                    *!                                 **
+ (38) normal accent
+   /hirakroho/
+   'prepare'
+    óóE'óó'
+   a. {hira}{kÓro}hó                                                                       **!
+ Lb.{hira} kÓ{rohó}                                                                        *
+   c. hi {rakO}{róho}                   *!              *                                  **
+ (39) disrupted accent
+   /wakripras/
+   'flat bug'
+   óEóE'ó
+   a. {wakI}{rípA}rás                   **!                                                **
+   b. {wakI} rí {pÁrás}                 *!                                                 *
+ Lc. wa {kIri}{pÁras}                                   *                                  **
+
+                                                   15
+         The constraint set developed for light syllables will account equally well for accent-
+epenthesis interactions in words containing heavy syllables. Accent falls on a syllable following an
+initial heavy syllable, whether that syllable is underlying or epenthetic. Thus, in light-syllabled
+forms, an epenthetic vowel in the second position disrupts the normal accent pattern (compare
+hara±ábra 'the taste' with no epenthesis and hikOrohó 'prepare, dress (3sg.)' with second vowel
+epenthetic). In contrast, forms like (40a) and (40b) have the same accent pattern:
+
+(40)    a. {haa}kí{tujík} 'I pull it taut (plain)'
+        b. {waa}pÓ{rohí} 'snowball making'
+        c. {waa}{pÓro}{pÓro} 'snowball'
+
+This follows if the initial heavy syllable itself constitutes a foot, which then causes the following
+syllable to be postaccented.11
+
+4.4.2. Previous Analyses of Epenthesis-Accent Interactions
+         In the analysis proposed above, the disruption of normal accent by epenthesis in an even-
+numbered syllable stems from the high rank of HEADSYLL-DEP, which disallows feet of the form
+{óE}. Thus, although the normal footing is {óó}{óó} (as in {hara}{±ábra} 'the taste'), the sequence
+óEóó will be footed as ó{Eó}ó (as in hi{kOro}hó 'prepare'), because an epenthetic vowel cannot be
+the head (rightmost) syllable of a foot.12
+         Alternative analyses derive the impossibility of creating a foot of the form {óE} in different
+ways. The analysis of Halle and Idsardi (1995) posits a constraint requiring an epenthetic syllable to
+coincide with a left metrical constituent boundary. Like HEADSYLL-DEP, this constraint rules out
+feet of the form {óE}. But while the HEADSYLL-DEP analysis relates this prohibition to universal
+constraints against epenthetic material in prominent positions, the analysis using a left-coincidence
+constraint does not.
+         Other analyses rely on the assignment of somewhat unorthodox syllable structures to óE
+sequences. Thus, to prevent the formation of {óE} feet, Hayes (1995) argues that there is a level
+prior to footing at which a sequence like /kro/ in /hikroho/ Y hikOrohó would constitute a single
+syllable. To account for the position of accent on the syllable following this sequence, he assumes
+further that a sequence like /kro/ constitutes a heavy syllable, with both the vocalic nucleus and the
+onset sonorant consonant bearing a mora. These sequences then pattern with other heavy syllables in
+taking accent on the syllable following them. However, since a structure like kOro patterns with two
+light syllables with respect to his tone shift rule, he must assume that this sequence is transformed
+into two light syllables by the point at which tone shift applies. Similarly, Alderete (1995a), though
+working within a strictly parallel framework, argues that a sequence like kOro constitutes a single
+heavy syllable in the output, though it is presumably realized phonetically as two syllables. Note that
+this approach cannot be extended to Selayarese, in which treating solOdérE as a bisyllabic form
+would have disastrous results.
+         All these analyses are designed to force an epenthetic vowel to form a foot with a following
+rather than a preceding vowel. In the analysis proposed here, this follows from high ranking of
+HEADSYLL-DEP, which bans epenthetic vowels from the right (head) syllable of a foot.
+
+
+        11
+             Forms with noninitial heavy syllables are discussed in the Appendix.
+        12
+         The constraint LAPSE-2, which prevents a sequence of two unfooted syllables (Alderete
+1999b), will rule out hikO{roho}.
+
+                                                     16
+4.5. Iraqi Arabic
+         I now turn to a disruption of normal stress by an inserted vowel that does not lend itself to the
+sort of account outlined above. I will suggest that this stress disruption is due to morphological
+factors rather than to the presence of epenthetic vowels.
+         The relevant fact is the apparent invisibility of epenthetic vowels to stress assignment in Iraqi
+Arabic. Stress is quite regular in this dialect. As shown below, stress falls on the final syllable if
+that syllable consists of a long vowel followed by a consonant; on the penultimate syllable if the
+penultimate is heavy (containing a long vowel or closed by a consonant); and otherwise on the
+antepenultimate syllable:
+
+(41)    Iraqi Arabic stress:
+        a. final syllable: kitáab ‘book’
+        b. heavy penult: sallátha 'her basket', ¨iráaqi 'Iraqi'
+        c. antepenult: árika 'company', ¨áalami 'world', mumáèèila 'actress'
+
+This regular pattern is disrupted, however, in the presence of epenthetic vowels: in kitábIt 'I wrote/
+you (2 sg. m.) wrote' the suffix consists of /t/, but a vowel is inserted to prevent a complex coda.
+(This dialect allows only one consonant in coda and in onset, except in word-initial position, where
+complex onsets are possible). Stress falls on a light penultimate syllable, in contrast to árika, which
+has identical surface syllable structure and the expected antepenultimate stress.
+        Forms like kitábit 'I wrote/ you (m. sg.) wrote' are actually anomalous in another respect as
+well. Comparison of the full perfect tense paradigm reveals that the final vowel of a CVCVC verb
+stem is normally deleted when a vowel follows the stem, as in the 3rd person singular feminine and
+3rd person plural forms:
+
+(42)    'write (perfect)'
+        kítab             '3 sg. m.'    /kitab/
+        kítbat            '3 sg. f.'    /kitab+at/
+        kítbaw            '3 pl.'       /kitab+aw/
+
+        kitábit          '2 sg. m.'     /kitab+t/
+        kitábti          '2 sg. f.'     /kitab+ti/
+        kitábtu          '2 pl.'        /kitab+tu/
+        kitábit          '1 sg.'        /kitab+t/
+        kitábna          '1 pl.'        /kitab+na/
+
+Thus, the kitábit forms are opaque with respect to both stress and syncope. In a serial analysis, this
+opacity can be accounted for by ordering stress and syncope rules before epenthesis:
+
+(43)    Serial analysis (Broselow 1982):
+                         a. /kitab+at/          b. /kitab+t/
+        syncope:             kitbat                 ---
+        syllabification:     kit.bat.              ki.tab.t
+        stress assignment: kít.bat                 ki.táb.t
+        epenthesis:           ---                  ki.táb.It
+        resyll:               ---                  ki.tá.bIt
+                            [kítbat] 'she wrote' [kitábit] 'I wrote/ you (sg. m.) wrote'
+
+
+                                                     17
+In this analysis, the stem actually contains a heavy penult at the point at which stress is assigned.
+The anomalous stress in the 1st person singular and the 2nd person masculine singular follows from
+the fact that these forms are the only ones to take a suffix consisting of a single consonant.
+         It is more difficult to see how the stress disruption in these forms could be treated within a
+strictly parallel framework. Note that this pattern is crucially different from those we have
+considered earlier. In Selayarese, NKS Korean, and Winnebago, when the normal patterns of foot
+construction would place epenthetic material in prominent positions, feet were shifted to include
+only underlying vowels. But in this case, the expected stress pattern *{kíta}bIt would involve a foot
+that does not contain any epenthetic material (according to the normal assumption that stress in this
+language involves a bisyllabic trochee). Therefore, neither HEAD-DEP nor HEADSYLL-DEP should
+prevent assignment of the foot structure found in árika to the form kitábIt. These facts, therefore,
+seem to favor the serial analysis.
+         However, while the serial account is appealing, this account does not extend to other verb
+types, in which we see anomalies that do not receive an intuitively satisfying phonological
+explanation. I will argue, therefore, that the stress disruption in forms like kitábIt is due not to the
+presence of an epenthetic vowel but instead to a more general phenomenon. In this dialect (as in
+many of the colloquial Arabic dialects), the base of suffixation in 3rd person perfective verb forms is
+always distinct from 1st and 2nd person verb bases.13 A survey of different verb stem shapes in the
+perfective is instructive. We begin with triconsonantal verbs, which in their unsuffixed form are
+bisyllabic:
+
+(44)    Triconsonantal Verbs
+        a. 'write'                      b. ‘telephone’                   c. ‘change’
+3rd     kítab, kítbat, kítbaw           xáabar, xáabrat, xáabraw         báddal, bádlat, bádlaw
+2nd     kitábit, kitábti, kitábtu       xaabárit, xaabárti, xaabártu     baddálit, baddálti, baddáltu
+1st     kitábit, kitábna                xaabárit, xaabárna               baddálit, baddálna
+
+The 3rd person forms all have stress on the initial stem syllable, while the others have stress on their
+second syllable. The phonological analysis of these facts derives these differences from the suffix
+shape: [+3p] suffixes are zero, or vowel-initial (+at, aw), while [-3p] suffixes are (at least
+underlyingly) consonant-initial (+t, +ti, +tu, +t, +na).
+        The phonological analysis is no doubt a good explanation of how the differences between
+these verb bases arose, but does not necessarily provide the best account of the synchronic facts.
+Consider the so-called final weak verbs, where we see differences between [+3p] and [-3p] bases
+which go beyond the stress:
+
+
+
+
+        13
+         Many years ago, Bob Harms suggested a similar, functionally-based analysis in a class at
+the University of Texas at Austin. It should be noted that not all dialects impose a distinction in the
+shape of [+3] and [-3] perfective verb bases; for example, a Bedouin dialect of the Cyrenaican Jebel
+discussed by Mitchell (1960) has kitáb ‘he wrote’ and kitábit ‘I/you m. wrote.’ In this dialect,
+however, stress always falls on the final syllable of the perfective base, whether the suffix contains
+an underlying vowel or an inserted vowel.
+
+                                                   18
+(45)    Final Weak Verbs
+               ‘forget’
+         rd
+        3      nísa, nísat, nísaw               (+i, +at, +aw)
+        2nd    niséet, niséeti, niséetu         (+t, +ti, +tu)
+        1st    niséet, niséena                  (+t, +na)
+
+These verbs historically have a glide as their final radical, and Brame (1970) has argued for a
+synchronic analysis in which the final glide is still present. The glide is deleted word-finally
+(yielding nisa from /nisaj/); before a consonant, the vowel-glide sequence undergoes coalescence to
+create a long mid vowel with the backness of the glide (yielding niseet ‘I/you m. forgot’ from
+/nisaj+t/). But this account leads us to expect verbs in which we find [oo] before the suffix, since
+there is no reason to exclude the possibility of verbs ending in /w/. The fact that all final weak verbs
+take [ee] before a suffix suggests that this vowel has been re-analyzed as a stem extender, rather than
+as the result of a general phonological process. In our terms, the function of this stem extender is to
+ensure that a distinction is maintained between the [+3] stems, which receive stress on their initial
+syllable, and the [-3] stems, which are stressed on the extender.
+         Also problematic for the phonological analysis are the geminate (or doubled) verbs:
+
+(46)            Geminate Verbs
+                ‘send’
+        3rd     dázz, dázzat, dázzaw            (+i, +at, +aw)
+        2nd     dazzéet, dazzéeti, dazzéetu     (+t, +ti, +tu)
+        1st     dazzéet, dazzéena               (+t, +na)
+
+In these verbs, as in the final weak verbs, [ee] appears before the [-3] suffixes. We could ascribe the
+appearance of [ee] to the presence of a final glide, assuming underlying /dazzaj/ (parallel to baddal
+'change'). However, we would then expect the third person masculine singular (the unsuffixed form)
+to surface as *dazza, by the same rule that deletes the final glide in nisa 'he forgot'. On the other
+hand, if we assume that the stem is either /dazz/ or /dazaz/ (with metathesis), we have no explanation
+for the appearance of [ee] before consonant-initial stems. While syllable structure constraints would
+indeed prevent the faithful realization of inputs like /dazz+t/, /dazz+ti/, we would expect these forms
+to be made pronounceable via more widespread processes of epenthesis or degemination:
+
+(47)    a. /dazz+t/ Y dazzeet ‘I/you m.sg. sent’
+        expected form: *dázzit via epenthesis (cf. /kitab+t/ Y kitabit 'I/you m.sg. wrote')
+
+        b. /dazz+ti/ Y dazzeeti ‘you f. sent’
+        expected form: *dázti via degemination (cf. /baddal+at/ Y badlat ‘you f.sg. changed’)
+
+Thus, there is no obvious phonological account of the appearance of [ee] in geminate verbs.
+        Another problematic case involves so-called hollow verbs, which historically had a glide as
+their middle radical:
+
+
+
+
+                                                   19
+(48)    Hollow verbs
+              ‘see’
+        3rd
+              áaf, áafat, áafaw       (+i, +at, +aw)
+        2nd   ífit, ífti, íftu        (+t, +ti, +tu)
+        1st   ífit, ífna               (+t, +na)
+
+In these verbs, the stem is monosyllabic, leaving no room for a stress difference between [+3] and [-
+3] stems. However, the two sets of stems are nevertheless distinct, with [+3] stems containing a long
+low vowel and the [-3] stems containing a short high vowel. Thus, assuming a single stem for all
+persons, we need to explain the realization of /áaf+ti/ as ífti ‘you f. saw’, rather than *áafti. There
+is no clear phonological reason for shortening the stem vowel in this context since CVVC is tolerated
+in this language (Broselow, Chen, and Huffman 1997); cf. xáabrat ‘she telephoned'.14
+         The array of facts above do not lend themselves to a single phonological analysis. However,
+we can describe them all as an effect of an imperative for morphological distinctness. In each verb
+type, we see a contrast between the base of suffixation in [+3] and [-3] forms. For bisyllabic stems,
+the [+3] base consists of either a stressed followed by an unstressed syllable, or a single stressed
+syllable, while [-3] bases have stress on their second syllable. Monosyllabic bases are of two types:
+final weak verbs and geminate verbs add a second syllable ([ee]) in [-3] forms, and this syllable bears
+stress; hollow verbs are monosyllabic in both [+3] and [-3] forms, but the single stressed vowel
+changes its quality in [-3] forms. We can assume a constraint enforcing nonidentity between [+3]
+and [-3] bases (reminiscent of Alderete's (1999b) antifaithfulness constraints):
+
+(51)    [-3] Contrast:
+        A base bearing a nonthird person ([-3]) suffix must be distinct from the unmarked
+        [+3] base in the identity of the stressed vowel.
+
+This constraint compares the base of a [-3] suffix to the nonsuffixed 3rd person masculine singular.
+Hollow verbs satisfy this constraint by changing the quality of the stressed vowel, while the other
+verb types satisfy it by means of locating stress on a different vowel. We can now view the
+exceptional stress in kitábIt ‘I/you m. wrote’ as a result not of stress-epenthesis interactions, but of
+the desire to maximize contrast between the [+3] and [-3] forms:
+
+ (52) /kitab+at/            *Complex         [-3]Contrast      Stress Constraints        Syncope
+ ‘wrote, 3 f. sg.’           Coda            (base for
+                                             comparison:
+                                             kítab)
+    a. kítabat                                                                            *!
+ Lb. kítbat
+    c. kitábat                                                   *!
+
+
+
+        14
+         Brame (1970) proposes an analysis for the counterpart verbs in Modern Standard Arabic
+whereby underlying /ajaf+ti/ is transformed first to ajf+ti, with subsequent vowel-glide
+coalescence.
+
+                                                    20
+ (53) /kitab+t/            *Complex        [-3]Contrast     Stress Constraints        Syncope
+ ‘wrote, 1 sg./2 m. sg.’    Coda           (base for
+                                           comparison:
+                                           kítab)
+    a. kítabIt                              *!
+    b. kítbIt                               *!
+ Lc. kitábIt                                                   *
+
+This is by no means a full account of Arabic stress and epenthesis (see Broselow 1992, Piggott 1995,
+Kiparsky 1999 for discussion of a broader range of data). But it does at least suggest an approach to
+the complex morphology of perfect stems.
+
+5. Conclusion
+         An examination of the interaction of stress and epenthesis reveals a rich and complex array
+of facts, with epenthetic vowels sometimes patterning with underlying vowels, and sometimes
+disrupting the normal stress patterns, and both patterns sometimes coexisting within a single
+language. I have argued that Alderete's basic insight, that languages tend to avoid placing epenthetic
+material in prosodically prominent positions, allows us to account for many cases of apparently
+exceptional stress. Other cases may be accounted for by principles of maximization of
+morphological contrast. Based on the data here, it appears that a serial account of these facts is
+neither necessary nor desirable.
+
+
+
+
+                                                  21
+Appendix: Residual Issues
+
+1. Selayarese
+
+        Though Selayarese does not have contrastive vowel length, vowels in open syllables show an
+increase in length under stress (Basri 1999). In (52), we see that while underlying vowels lengthen
+before a possessive suffix, epenthetic vowels do not; the epenthetic vowel in (52b) is followed by a
+geminate consonant (the phonetic realization of a glottal stop followed by a voiceless consonant):
+
+        (52) a. /sahala+ku/ Y sahalá:ku         'my sea cucumber'
+             b./sahal+ku/ Y sahalÁkku           'my profit'
+
+Stress falls on the epenthetic vowel in (52b), in violation of HEAD-DEP, because the alternative
+footing, in which the first two syllables constitute the main stress foot, would violate constraints
+against leaving a sequence of two syllables unparsed (see Broselow 2000 for a complete analysis).
+         Piggott (1995) argues that the failure of epenthetic vowels to lengthen under stress is
+evidence that these vowels are not present when the lengthening rule applies, supporting a serial
+analysis of epenthesis. However, an alternative analysis of these data has been proposed by Basri
+(1999). Basri argues that glottal stop insertion is preferred to vowel lengthening (NOLONGV >>
+DEPC) as a means of satisfying the requirement that stressed syllables be bimoraic. But glottal stop
+insertion is blocked in vowel-final stems by a higher-ranked alignment constraint requiring the right
+edge of the stem to coincide with the right edge of a syllable boundary (ALIGN-R(STEM,SYLLABLE)).
+In forms such as sahalá:-ku 'my sea cucumber,' the alignment of stem-final [a] would be destroyed
+by insertion of glottal stop. But in sahalÁ-kku 'my profit,' the right edge alignment constraint will be
+violated no matter whether the bimoraic condition is satisfied by vowel lengthening or by glottal stop
+insertion, because the rightmost stem segment, [l], is not a possible coda. Therefore, the preferred
+option of glottal stop insertion is chosen. (Basri does not discuss why stressed vowels within a
+morpheme are lengthened; presumably, glottal stop insertion would be blocked by high ranked
+CONTIGUITY.)
+         The addition of possessive suffixes provides the only environment in which epenthetic
+vowels can receive stress in native vocabulary, because these are the only consonant-initial suffixes
+that fall within the stress domain (see Basri, Broselow, Finer, and Selkirk 1997, 2000). But the
+loanword data present a wider range of epenthesis sites. Epenthetic vowels within a stem (as in
+karÁtu 'card') are not followed by a glottal stop/geminate, but do in fact lengthen under stress, just
+like underlying vowels. This is consistent with Basri's account, but problematic for Piggott's.
+         In fact, it is arguable whether the gemination/glottal stop insertion seen before possessive
+suffixes is best analyzed as an effect of adding weight under stress, rather than a property peculiar to
+the possessive suffixes themselves (as Sirk (1988) shows, most South Sulawesi languages have two
+sets of possessive suffixes, -CV and -CCV, with the alternation frequently dependent on
+morphological rather than phonological factors). But in either case, the failure of vowels before
+possessive suffixes to lengthen does not provide a compelling argument for a serial analysis.
+
+2. Winnebago
+
+        This section addresses some residual issues regarding Winnebago accent placement.
+Noninitial heavy syllables in Winnebago bear accent, so we find forms like kiríina 'returned', in
+contrast to forms like hotaxí. We can account for this by assuming that two additional constraints
+are active in Winnebago accent placement: a constraint requiring heavy syllables to bear accent (the
+
+                                                  22
+accentual counterpart of WEIGHT TO STRESS), and a constraint forbidding accent on the initial
+syllable (arguably, the same constraint that accounts for the low pitch on Japanese initial syllables).
+The ranking illustrated below will derive the correct accentual patterns:
+
+ (53) /hoo±agra/                  NOINITIAL        OCP          HEAVYHEAD       POST          HEAD
+  'the Winnebago'                 ACCENT                        ACCENT          ACCENT        ACCENT
+ La. {hoo}{±ágra}                                               *                             **
+   b. {hóo}{±ágra}                 *!               *                                         *
+   c. {hoo}{±agrá}                                              *                *!           *
+ (56) /kiriina/
+   'returned'
+   a. {kirii} ná                                                *!                            *
+   b. {kiríi}ná                                     *!
+ Lc. {kiríi}na                                                                  *
+
+       Remaining problems include binary/ternary alternations illustrated by the contrast below, in
+which stress falls in (55a) on the third and sixth syllables, but in (55b) on the third and fifth:
+
+(55)    a. hokiwároroké 'swing (v. intrans.)'
+        b. hakirú®ikgá®a 'after he pulls taut'
+
+Following Hale (1985), I assume that these forms differ in their morphological structure, and that
+footing is sensitive to morphological constituency. Similarly, Hale argues that the following form
+demonstrates the necessity of incorporating reference to morphological structure in the analysis:
+
+(56)   hirat'át'aAnakÁna 'you are talking'
+       predicted form: *{hira}{t'át'a}{Ána}{kÁna} (accent on 5th syllable)
+       Hale (1985): 2 metrical domains, {hira}{t'át'a} and {Ána}{kÁna}
+
+The problem of binary/ternary alternations illustrated above is of course independent of the question
+of whether stress/epenthesis interactions are best handled by serial or parallel accounts.
+
+
+
+
+                                                   23
+References
+
+Alderete, John (1995a) Winnebago accent and Dorsey's Law. In Jill Beckman, Laura Walsh Dickey, and
+        Suzanne Urbanczyk (eds.) UMOP 18: Papers in Optimality Theory, 21-52. Amherst, MA:
+        GLSA.
+Alderete, John (1999a) Faithfulness to prosodic heads. ROA 94-000.
+Alderete, John (1999b) Head dependence in stress-epenthesis interaction. In B. Hermans and M. van
+        Oostendorp (eds.) The Derivational Residue in Phonology, 29-50. Amsterdam: John Benjamins.
+Alderete, John (1999c) Morphologically governed accent in Optimality Theory. Doctoral dissertation,
+        University of Massachusetts, Amherst MA.
+Basri, Hasan (1997) Phonological nativization of loanwords in Selayarese. Ms., SUNY at Stony Brook.
+Basri, Hasan (1999) Phonological and Syntactic Reflections of the Morphological Structure of
+        Selayarese. Unpublished doctoral dissertation, State University of New York at Stony
+        Brook.
+Basri, Hasan, Ellen Broselow, and Daniel Finer (1999) Clitics and crisp edges in Makassarese.
+In Caroline Smallwood and Catherine Kitto (eds.), AFLA VI: Proceedings of the Sixth
+        Austronesian Formal Linguistics Association, 25-36. University of Toronto.
+Basri, Hasan, Ellen Broselow, Daniel Finer, and Elisabeth Selkirk (1997) Prosodic word and
+        morphosyntactic word in Makassarese phonology. Talk presented at ZAS conference on the
+        prosodic word.
+Basri, Hasan, Ellen Broselow, Daniel Finer, and Elisabeth Selkirk (1997) Phonology-Syntax interactions
+        in the Makassar languages. Talk presented at AFLA VII, Vrije Universiteit, Amsterdam.
+Brame, Michael (1970) Arabic phonology: implications for phonological theory and historical Semitic.
+        Unpublished doctoral dissertation, MIT.
+Broselow, Ellen (1982) On the interaction of stress and epenthesis, Glossa 16, 115-132.
+Broselow, Ellen (1992) Parametric variation in Arabic dialect phonology. In E. Broselow, M. Eid, and J.
+        McCarthy (eds.) Perspectives on Arabic linguistics IV, 7-45. Amsterdam & Philadelphia: Johns
+        Benjamins.
+Broselow, Ellen (2000) Stress, epenthesis, and segment transformation in Selayarese loans, Proceedings
+        of BLS 25.
+Broselow, Ellen, Su-I Chen, and Marie Huffman (1997) Syllable weight: convergence of phonology and
+        phonetics. Phonology 14, 47-82.
+Erwin, Wallace M. (1963) A Short Reference Grammar of Iraqi Arabic. Georgetown: Georgetown
+        University Press.
+Hale, Ken (1985) A note on Winnebago metrical structure, International Journal of American Linguistics
+        51, 427-429.
+Hale, Ken and Josie White Eagle (1980) A preliminary metrical account of Winnebago accent,
+        International Journal of American Linguistics 46, 117-132.
+Halle, Morris and William Idsardi (1995) Stress and metrical structure, in J. Goldsmith (ed.) The
+        Handbook of Phonological Theory, 403-443. Blackwell Publishers.
+Halle, Morris and Jean-Roger Vergnaud (1987) An Essay on Stress. Cambridge: MIT Press.
+Hayes, Bruce (1995) Metrical Stress Theory: Principles and Case Studies. Chicago: University of
+        Chicago Press.
+Kenstowicz, Michael and Hyang-Sook Sohn (2000) Accentual adaptation in North Kyungsang Korean.
+        Ms., MIT. To appear in M. Kenstowicz (ed.) Ken Hale: a life in language. MIT Press.
+Kiparsky, Paul (1999) Paradigm effects and opacity. Unpublished ms., Stanford University.
+Miner, Kenneth (1979) Dorsey's Law in Winnebago-Chiwere and Winnebago accent, International
+       Journal of American Linguistics 45, 25-33.
+
+
+
+                                                  24
+Miner, Kenneth (1981) Metrics, or Winnebago made harder, International Journal of American
+         Linguistics 47, 340-342.
+Miner, Kenneth (1989) Winnebago accent: the rest of the data. Anthropological Linguistics 31, 148-172.
+Mitchell, T. F. (1960) Prominence and syllabication in Arabic. Bulletin of SOAS 23, 369-389.
+Mithun, Marianne and Hasan Basri (1986) The phonology of Selayarese. Oceanic Linguistics XXV,
+         210-154.
+Piggott, Glyne L. (1995) Epenthesis and syllable weight. Natural Language and Linguistic Theory 13,
+         283-326.
+Selkirk, Elisabeth (1999) Morphologically governed Output-Output constraints in a noncyclic
+       Optimality Theoretic grammar: evidence from the Makassar languages. Talk give at
+       Sophia University, Tokyo.
+Sirk, Ülo (1988) Towards the historical grammar of the South Sulawesi languages: possessive
+       enclitics in the postvocalic position. In Pacific Linguistics A-79, Papers in Western
+       Austronesian Linguistics 4, 283-302.
+Steriade, Donca (1990) Gestures and autosegments: comments on Browman & Goldstein's paper, in J.
+        Kingston and M. Beckman (eds.) Papers in Laboratory Phonology. Cambridge: Cambridge
+        University Press.
+
+
+
+
+                                                 25
+

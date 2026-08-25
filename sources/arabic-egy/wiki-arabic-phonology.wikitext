@@ -1,0 +1,476 @@
+{{short description|none}}
+{{about|the phonology of [[Modern Standard Arabic]]|phonologies of regional dialects|Varieties of Arabic|the phonology of classical Arabic|Classical Arabic#Phonology}}
+{{broader|Arabic grammar}}
+{{IPA notice}}
+
+While many languages have numerous dialects that differ in [[phonology]], contemporary spoken [[Arabic]] is more properly described as a [[varieties of Arabic|continuum of varieties]].<ref>{{Harvcoltxt|Kirchhoff|Vergyri|2005|p=38}}</ref> This article deals primarily with [[Modern Standard Arabic]] (MSA), which is the [[standard variety]] shared by educated speakers throughout Arabic-speaking regions. MSA is used in writing in formal print media and orally in newscasts, speeches and formal declarations of numerous types.<ref>{{Harvcoltxt|Kirchhoff|Vergyri|2005|pp=38–39}}</ref>
+
+Modern Standard Arabic has 28 [[consonant]] [[phoneme]]s and 6 [[vowel]] phonemes, with four "[[emphatic consonant|emphatic]]" ([[pharyngealized]]) consonants that contrast with their non-emphatic counterparts. Some of these phonemes have [[Phonetic merger|coalesced]] in the various modern dialects, while new phonemes have been introduced through [[Loanword|borrowing]] or [[phonemic split]]s. A "phonemic quality of length" applies to [[Gemination|consonants]] as well as [[Vowel length|vowels]].<ref>{{Harvcoltxt|Holes|2004|p=57}}</ref>
+
+== History ==
+Of the 29 [[Proto-Semitic language|Proto-Semitic]] consonants, only one has been lost: {{IPA|*/ʃ/}}, which merged with {{IPA|/s/}}, while {{IPA|/ɬ/}} became {{IPA|/ʃ/}} (see [[Semitic languages#Phonology|Semitic languages]]).<ref>{{Harvcoltxt|Lipinski|1997|p=124}}</ref> Various other consonants have also changed sound, but have remained distinct. An original {{IPA|*/p/}} lenited to {{IPA|/f/}}, and {{IPA|*/ɡ/}} – consistently attested in pre-Islamic Greek transcription of Arabic languages<ref>Al-Jallad, 42</ref> – became palatalized to {{IPA|/ɡʲ/}} or {{IPA|/ɟ/}} by the time of the Quran, and to {{IPAslink|d͡ʒ}}, {{IPAslink|ɡ}}, {{IPAslink|ʒ}} or {{IPA|/ɟ/}} after [[early Muslim conquests]] and in MSA (see {{Section link||Local variations of Modern Standard Arabic}} for more detail).<ref>{{Harvcoltxt|Watson|2002|pp=5, 15–16}}</ref>
+
+Its [[emphatic consonant|emphatic]] counterpart {{IPA|/ɬˠ~ɮˤ/}} was considered by Arabs to be the most unusual sound in Arabic (hence Classical Arabic's appellation {{lang|ar|لُغَةُ ٱلضَّادِ}} ''{{transliteration|ar|ALA|luɣatu‿ḍ-ḍād}}'' or "language of the ''{{transliteration|ar|ALA|ḍād}}''"). For most modern dialects, it has become an emphatic stop {{IPA|/dˤ/}} with loss of the laterality<ref name="Harvcoltxt|Watson|2002|p=2">{{Harvcoltxt|Watson|2002|p=2}}</ref> or, with complete loss of any pharyngealization or velarization, {{IPA|/d/}}. The classical ''{{transliteration|ar|ALA|ḍād}}'' pronunciation with [[pharyngealization]] {{IPA|/ɮˤ/}} still occurs in the [[Mehri language]], and a similar sound without velarization, {{IPAslink|ɮ}}, exists in other [[Modern South Arabian languages]].{{image frame|content={{Photomontage
+| photo1a =  كتاب صلاة السواعي 02.jpg
+| photo1b =  كتاب صلاة السواعي 03.jpg
+| photo1c =  كتاب صلاة السواعي 01.jpg
+}}
+|width=220| caption =  The first known book printed in Arabic: ''[[Kitābu ṣalāti s-sawā'ī]]'' ({{lang|ar|كتاب صلاة السواعي}}), a [[book of hours]] printed with movable type in 1514.<ref>{{Cite web |title=Recently catalogued: an enigma in the Senior Library {{!}} Lincoln College Oxford |url=https://lincoln.ox.ac.uk/blog/recently-catalogued-an-enigma-in-the-senior-library |access-date=2022-04-11 |website=lincoln.ox.ac.uk}}</ref>
+}}Other changes may also have happened; Classical Arabic pronunciation is not thoroughly recorded and different [[comparative method (linguistics)|reconstructions]] of the sound system of Proto-Semitic propose different phonetic values. One example is the emphatic consonants, which are pharyngealized in modern pronunciations but may have been velarized in the eighth century and glottalized in Proto-Semitic.<ref name="Harvcoltxt|Watson|2002|p=2" />
+
+Reduction of {{IPA|/j/}} and {{IPA|/w/}} between vowels occurs in a number of circumstances and is responsible for much of the complexity of third-weak (or "defective") verbs. Early Akkadian transcriptions of Arabic names show that this reduction had not yet occurred as of the early part of the 1st millennium BC.{{Citation needed|date=September 2022}}
+
+The Classical Arabic language as recorded was a poetic [[Koiné|koine]] that reflected a consciously archaizing dialect, chosen based on the tribes of the western part of the [[Arabian Peninsula]], who spoke the most conservative variants of Arabic. Even at the time of [[Muhammad]] and before, other dialects existed with many more changes, including the loss of most glottal stops, the loss of case endings, the reduction of the diphthongs {{IPA|/aj/}} and {{IPA|/aw/}} into monophthongs {{IPA|/eː, oː/}}, etc. Most of these changes are present in most or all modern varieties of Arabic.{{Citation needed|date=September 2022}}
+
+An interesting feature of the writing system of the Quran (and hence of Classical Arabic) is that it contains certain features of Muhammad's native dialect of Mecca, corrected through diacritics into the forms of standard Classical Arabic. Among these features visible under the corrections are the loss of the glottal stop and a differing development of the reduction of certain final sequences containing {{IPA|/j/}}: Evidently, the final {{IPA|/-awa/}} became {{IPA|/aː/}} as in the Classical language, but final {{IPA|/-aja/}} became a different sound, possibly {{IPA|/eː/}} (rather than again {{IPA|/aː/}} in the Classical language). This is the apparent source of the ''alif maqṣūrah'' 'restricted alif' where a final {{IPA|/-aja/}} is reconstructed: a letter that would normally indicate {{IPA|/j/}} or some similar high-vowel sound, but is taken in this context to be a logical variant of ''alif'' and represent the sound {{IPA|/aː/}}.{{Citation needed|date=September 2022}}
+
+== Historical development ==
+Arabic phonology has evolved over centuries, influenced by language contact and historical expansion. Classical Arabic phonological features have shifted in modern dialects, partly due to the spread of Arabic through conquest and trade.<ref>{{Cite book|edition=NED - New edition, 2|title=The Arabic Language|url=https://www.jstor.org/stable/10.3366/j.ctt1g0b09q|publisher=Edinburgh University Press|date=2014|isbn=978-0-7486-4528-2|doi=10.3366/j.ctt1g0b09q|first=Kees|last=Versteegh}}</ref> These changes have resulted in both the preservation of classical features and significant innovations across dialects.
+
+== Literary Arabic ==
+[[File:Poem by Abu 'ala al-Ma'arri ("I no longer steal from nature") read in Arabic.ogg|thumb|right|upright=0.8|Recording of a poem by [[Al-Maʿarri#Asceticism|Al-Ma'arri titled "I no longer steal from nature"]]]]
+The "colloquial" spoken dialects of Arabic are learned at home and constitute the native languages of Arabic speakers. "Formal" Modern Standard Arabic is learned at school; although many speakers have a native-like command of the language, it is technically not the native language of any speakers. Both varieties can be both written and spoken, although the colloquial varieties are rarely written down and the formal variety is spoken mostly in formal circumstances, e.g., in radio and TV broadcasts, formal lectures, parliamentary discussions and to some extent between speakers of different colloquial dialects.
+
+Even when the literary language is spoken, it is normally only spoken in its standard form when reading a prepared text out loud or communicating between speakers of different colloquial dialects. When speaking [[extemporaneous]]ly (i.e. making up the language on the spot, as in a normal discussion among people), speakers tend to deviate somewhat from the strict literary language in the direction of the colloquial varieties. There is a continuous range of "in-between" spoken varieties: from nearly orthodox Modern Standard Arabic (MSA), to a form that still uses MSA grammar and vocabulary but with colloquial influence, to a form of the colloquial language that imports a number of words and grammatical constructions in MSA, to a form that is close to pure colloquial but with the "rough edges" (the most noticeably "vulgar" or non-Classical aspects) smoothed out, to forms that are purely colloquial.
+
+The particular variant (or ''[[Register (sociolinguistics)|register]]'') used depends on the social class and education level of the speakers involved and the level of formality of the speech situation. Often it will vary within a single encounter, e.g., moving from nearly pure MSA to a more mixed language in the process of a radio interview, as the interviewee becomes more comfortable with the interviewer. This type of variation is characteristic of the [[diglossia]] that exists throughout the Arabic-speaking world.{{Citation needed|date=September 2022}}
+
+[[File:هيئة المجمع اللغوي الملكي (مجمع اللغة العربية بالقاهرة) يوم تدشينه.png|thumb|Coverage in ''[[Al-Ahram]]'' in 1934 of the inauguration of the [[Academy of the Arabic Language in Cairo]], an organization of major importance to the modernization of Arabic.]]Although Modern Standard Arabic (MSA) is a unitary language, its pronunciation varies somewhat from country to country and from region to region within a country. The variation in individual "accents" of MSA speakers tends to mirror corresponding variations in the colloquial speech of the speakers in question, but with the distinguishing characteristics moderated somewhat. It is important in descriptions of "Arabic" phonology to distinguish between pronunciation of a given colloquial (spoken) dialect and the pronunciation of MSA by these same speakers.
+
+Although they are related, they are not the same. For example, the phoneme that derives from Standard Arabic {{IPA|/d͡ʒ/}} has many different pronunciations in the modern spoken varieties, e.g., {{IPA|[d͡ʒ ~ ʒ ~ ɟ ~ ɡʲ ~ ɡ]}}. Speakers whose native variety has either {{IPAblink|d͡ʒ}} or {{IPAblink|ʒ}} will often use the same pronunciation when speaking MSA. Even speakers from Cairo, whose native Egyptian Arabic has {{IPAblink|ɡ}}, normally use {{IPAblink|ɡ}} when speaking MSA.
+
+For another example, many colloquial varieties are known for a type of [[vowel harmony]] in which the presence of an "emphatic consonant" triggers backed [[allophone]]s of nearby vowels (especially of the low vowels {{IPA|/aː/}}, which are backed to {{IPAblink|ɑ|ɑ(ː)}} in these circumstances and very often fronted to {{IPAblink|æ|æ(ː)}} in all other circumstances). In many spoken varieties, the backed or "emphatic" vowel allophones spread a fair distance in both directions from the triggering consonant. In some varieties, most notably Egyptian Arabic, the "emphatic" allophones spread throughout the entire word, usually including prefixes and suffixes, even at a distance of several syllables from the triggering consonant.
+
+Speakers of colloquial varieties with this vowel harmony tend to introduce it into their MSA pronunciation as well, but usually with a lesser degree of spreading than in the colloquial varieties. For example, speakers of colloquial varieties with extremely long-distance harmony may allow a moderate, but not extreme, amount of spreading of the harmonic allophones in their MSA speech, while speakers of colloquial varieties with moderate-distance harmony may only harmonize immediately adjacent vowels in MSA.{{Citation needed|date=September 2022}}
+
+==Vowels==
+[[File:Arabic vowels (Monophthongs).png|thumb|<!--Don't use the svg version as it has wrong vowel values; short and long values aren't the same for that particular dialect--> Vowel chart representing the pronunciation of long vowels by a [[Palestinian]] speaker educated in [[Beirut]]. From {{Harvcoltxt|Thelwall|1990|p=38}}. (These values vary between regions across North Africa and West Asia.)|class=skin-invert-image]]
+[[File:Arabic vowels (Diphthongs).svg|thumb|Vowel chart representing the pronunciation of diphthongs by a Palestinian speaker educated in Beirut. From {{Harvcoltxt|Thelwall|1990|p=38}}|class=skin-invert-image]]
+Modern Standard Arabic has six vowel phonemes forming three pairs of corresponding short and long vowels ({{IPA|/a, aː, i, iː, u, uː/}}). Many spoken varieties also include {{IPA|/oː/}} and {{IPA|/eː/}}. Modern Standard Arabic has two [[diphthongs]] (formed by a combination of short {{IPA|/a/}} with the semivowels {{IPA|/j/}} and {{IPA|/w/}}). [[Allophony]] in different dialects of Arabic can occur and is partially [[Assimilation (phonology)|conditioned by neighboring consonants]] within the same word. The following are some general rules:
+
+* {{IPA|/a, aː/}}
+** [[Retracted vowel|retracted]] to {{IPAblink|ɑ}} in the environment of a neighboring [[emphatic consonant]]: {{IPA|/sˤ/}}, {{IPA|/dˤ/}}, {{IPA|/tˤ/}}, {{IPA|/ðˤ/}}, {{IPA|/rˤ/}}, {{IPA|/ɫ/}} and in a few regional standard pronunciations also {{IPA|/χ/}} and {{IPA|/ʁ/}};<ref name="Thelwall 1990 39">{{Harvcoltxt|Thelwall|1990|p=39}}</ref>
+** only in Iraq and the [[Arab States of the Persian Gulf|Persian Gulf]]: {{IPAblink|ɐ}} before a word boundary;<ref name="Thelwall 1990 39"/>
+** [[Fronting (sound change)|advanced]] to {{IPAblink|æ}} in the environment of most consonants (only used in dialects):
+*** [[labial consonants]] ({{IPA|/m/}}, {{IPA|/b/}} and {{IPA|/f/}}),
+*** plain (non-emphatic) [[coronal consonant]]s with the exception of {{IPA|/r/}}: namely {{IPA|/θ/}}, {{IPA|/ð/}}, {{IPA|/n/}}, {{IPA|/t/}}, {{IPA|/d/}}, {{IPA|/s/}}, {{IPA|/z/}}, {{IPA|/l/}}, {{IPA|/ʃ/}} and {{IPA|/d͡ʒ~ɡ~ʒ/}}
+*** [[glottal consonant]]s ({{IPA|/h/}} and {{IPA|/ʔ/}})
+*** {{IPA|/j/}}, {{IPA|/k/}} and {{IPA|/w/}};<ref>{{Harvcoltxt|Holes|2004|p=60}}</ref>
+** Across [[North Africa]] and [[West Asia]], the allophones {{IPA|[æ]}} and {{IPA|[ɑ]}} may be realized differently, either as {{IPA|[{{IPAplink|a}} ~ {{IPAplink|ɑ}} ~ {{IPAplink|ɛ}}]}}, or both as {{IPA|[{{IPAplink|a}} ~ {{IPAplink|ä}}]}};
+** In [[northwestern Africa]], the open front vowel {{IPAslink|æ}} is raised to {{IPAblink|ɛ}} or {{IPAblink|e}}.
+* {{IPA|/i, iː, u, uː/}}
+** Across North Africa and West Asia, {{IPA|/i/}} may be realized as {{IPA|[{{IPAplink|ɪ}} ~ {{IPAplink|e}} ~ {{IPAplink|ɨ}}]}} before or adjacent to emphatic consonants and {{IPAblink|q}}, {{IPAblink|r}}, (exclusively west Asian {{IPAblink|ħ}}, {{IPAblink|ʕ}}). {{IPA|/u/}} can also have different realizations, i.e. {{IPA|[{{IPAplink|ʊ}} ~ {{IPAplink|o}} ~ {{IPAplink|ʉ}}]}}. Sometimes with one value for each vowel in both short and long [[Vowel length|lengths]] or two different values for each short and long lengths. They can be distinct phonemes in loanwords for a number of speakers.
+** In Egypt, [[close vowels]] have different values; short initial or medial: {{IPAblink|e}},&nbsp;{{IPAblink|o}} ← instead of {{IPA|/i,&nbsp;u/}}. {{IPA|/i~ɪ/}} and {{IPA|/u~ʊ/}} completely become {{IPA|[e]}} and {{IPA|[o]}} respectively in some other particular dialects. Unstressed final long {{IPA|/aː,&nbsp;iː,&nbsp;uː/}} are most often shortened or reduced: {{IPA|/aː/}}&nbsp;→&nbsp;{{IPA|[æ ~ ɑ]}}, {{IPA|/iː/}}&nbsp;→&nbsp;{{IPA|[i]}}, {{IPA|/uː/}}&nbsp;→&nbsp;{{IPA|[o~u]}}.
+
+{| class="wikitable nowrap" style="text-align: center;"
+|+ Example words<ref name="Thelwall 1990 38">{{Harvcoltxt|Thelwall|1990|p=38}}</ref>
+!
+! colspan="2" | short
+! colspan="2" | long
+|-
+! i
+|  {{lang|ar|عِدْ}} {{IPA|/ʕid/}}|| "promise!" || {{lang|ar|عِيد}} {{IPA|/ʕiːd/}} || "holiday"
+|-
+! u
+|   {{lang|ar|عُدّ}} {{IPA|/ʕudd/}} || "count (command)" ||{{lang|ar|عُود}} {{IPA|/ʕuːd/}} || "oud"
+|-
+! a
+|  {{lang|ar|عَدّ}} {{IPA|/ʕadd/}} || "counted" || {{lang|ar|عَاد}} {{IPA|/ʕaːd/}} || "came back"
+|-
+! aj
+|
+|
+|  {{lang|ar|عَيْن}} {{IPA|/ʕajn/}} || "eye"
+|-
+! aw
+|
+|
+|  {{lang|ar|عَوْد}} {{IPA|/ʕawd/}} || "return"
+|}
+
+However, the actual rules governing vowel-retraction are a good deal more complex and have relatively little in the way of an agreed-upon standard, as there are often competing notions of what constitutes a "[[Prestige (sociolinguistics)|prestige]]" form.<ref>{{Harvcoltxt|Abd-El-Jawad|1987|p=359}}</ref> Often, even highly proficient speakers will import the vowel-retraction rules from their native dialects.<ref>{{Harvcoltxt|Abd-El-Jawad|1987|p=361}}</ref> Thus, for example, in the Arabic of someone from Cairo, emphatic consonants will affect every vowel between word boundaries, whereas certain Saudi speakers exhibit emphasis only on the vowels adjacent to an emphatic consonant.<ref name="Watson 1999 290">{{Harvcoltxt|Watson|1999|p=290}}</ref> Certain speakers (most notably [[Levantine Arabic|Levantine]] speakers) exhibit a degree of asymmetry in leftward vs. rightward spread of vowel-retraction.<ref name="Watson 1999 290"/><ref>{{Harvcoltxt|Davis|1995|p=466}}</ref>
+
+{{col-begin}}
+{{col-2}}
+{| class="wikitable" border="1" style="text-align: center;"
+|+Vowel phonemes of [[Modern Standard Arabic|Modern Standard]] and [[Classical Arabic]]
+! rowspan="2" |
+! colspan="2" |Short
+! colspan="2" |Long
+|-
+![[Front vowel|Front]]
+![[Back vowel|Back]]
+![[Front vowel|Front]]
+![[Back vowel|Back]]
+|- style="text-align: center;"
+![[Close vowel|Close]]
+| {{IPAslink|i}}
+| {{IPAslink|u}}
+| {{IPAslink|iː}}
+| {{IPAslink|uː}}
+|- style="text-align: center;"
+![[Open vowel|Open]]
+| colspan="2" |{{IPA|{{IPAslink|a}}}}
+| colspan="2" |{{IPA|{{IPAslink|aː}}}}
+|}
+{{col-2}}
+{| class="wikitable" border="1" style="text-align: center;"
+|+Common vowel system among colloquial [[Mashriqi Arabic|Mashriqi Arabic dialects]]
+! rowspan="2" |
+! colspan="2" |Short
+! colspan="2" |Long
+|-
+![[Front vowel|Front]]
+![[Back vowel|Back]]
+![[Front vowel|Front]]
+![[Back vowel|Back]]
+|- style="text-align: center;"
+![[Close vowel|Close]]
+| rowspan="2" |{{IPAslink|i}}
+| rowspan="2" |{{IPAslink|u}}
+| {{IPAslink|iː}}
+| {{IPAslink|uː}}
+|- style="text-align: center;"
+![[Mid vowel|Mid]]
+| {{IPAslink|eː}}
+| {{IPAslink|oː}}
+|- style="text-align: center;"
+![[Open vowel|Open]]
+| colspan="2" |{{IPAslink|a}}
+| colspan="2" |{{IPAslink|aː}}
+|}
+{{col-end}}
+The final [[heavy syllable]] of a root is [[Stress (linguistics)|stressed]].<ref name="Thelwall 1990 38"/>
+
+The short vowels {{IPA|[u, ʊ, o, o̞, ɔ]}} are all possible [[allophone]]s of {{IPA|/u/}} across different dialects; e.g., {{lang|ar|قُلْت}} {{IPA|/ˈqult/}} ('I said') is pronounced {{IPA|[ˈqʊlt]}} or {{IPA|[ˈqolt]}} or {{IPA|[ˈqɔlt]}}, since the difference between the short [[mid vowels]] {{IPA|[o, o̞, ɔ]}} and {{IPA|[u, ʊ]}} is never phonemic, and they are mostly found in [[complementary distribution]], except for a number of speakers where they can be phonemic but only in foreign words.
+
+The short vowels {{IPA|[i, ɪ, e, e̞, ɛ]}} are all possible allophones of {{IPA|/i/}} across different dialects; e.g., {{lang|ar|مِن}} {{IPA|/ˈmin/}} ('from') is pronounced {{IPA|[ˈmɪn]}} or {{IPA|[ˈmen]}} or {{IPA|[ˈmɛn]}} since the difference between the short mid vowels {{IPA|[e, e̞, ɛ]}} and {{IPA|[i, ɪ]}} is never phonemic, and they are mostly found in complementary distribution, except for a number of speakers where they can be phonemic but only in foreign words.
+
+The long mid vowels {{IPA|/oː/}} and {{IPA|/eː/}} appear to be phonemic in most varieties of Arabic except in general [[Maghrebi Arabic]], where they merge with {{IPA|/uː/}} and {{IPA|/iː/}}. For example, لون ('color') is generally pronounced {{IPA|/loːn/}} in [[Mashriqi Arabic|Mashriqi dialects]] but {{IPA|/luːn/}} in most [[Maghrebi Arabic]]. The long mid vowels can be used in Modern Standard Arabic in dialectal words or in some stable loanwords or foreign names,<ref name="EMSA1">Elementary Modern Standard Arabic: Volume 1, by Peter F. Abboud (Editor), Ernest N. McCarus (Editor)</ref> as in {{lang|ar|روما}} {{IPA|/ˈroːma/}} ('Rome') and {{lang|ar|شيك}} {{IPA|/ˈʃeːk/}} ('cheque').
+
+Foreign words often have a liberal sprinkling of long vowels, as vowels tend to be written as long vowels in foreign loans, under the influence of European-language orthographies which write down every vowel with a letter.<ref name="TYA">Teach Yourself Arabic, by Jack Smart (Author), Frances Altorfer (Author)</ref> The long mid vowels {{IPA|/eː/}} and {{IPA|/oː/}} are always rendered with the letters {{lang|ar|ي}} and {{lang|ar|و}}, respectively, accompanied by a preceding hamzah sitting above (أ) and below (إ) an alif (ا) respectively word-initially. In general, the pronunciation of loanwords is highly dependent on the speaker's native variety.
+
+==Consonants==
+{{See also|Arabic alphabet|sun and moon letters}}
+
+Even in the most formal contexts, pronunciation of Arabic depends on the speaker's background,<ref>{{Harvcoltxt|Holes|2004|p=58}}</ref> even if the number and phonetic character of most of the 28 consonants has a broad degree of regularity among Arabic-speaking regions. Arabic is particularly rich in [[uvular consonant|uvular]], [[pharyngeal consonant|pharyngeal]], and [[pharyngealization|pharyngealized]] ("[[emphatic consonant|emphatic]]") sounds. 
+
+Note: the table and notes below discuss the phonology of Modern Standard Arabic among Arabic speakers and not [[varieties of Arabic|regional dialects]].
+{| class="wikitable" style="text-align:center"
+|+Modern Standard Arabic consonant phonemes
+! colspan="2" rowspan="2" |
+! rowspan="2" |[[Labial consonant|Labial]]
+! rowspan="2" |[[Dental consonant|Dental]]
+! colspan="2" |[[Alveolar consonant|Alveolar]]
+! rowspan="2" |[[Postalveolar consonant|Post-alv.]]/<br />[[Palatal consonant|Palatal]]
+! rowspan="2" |[[Velar consonant|Velar]]
+! rowspan="2" |[[Uvular consonant|Uvular]]
+! rowspan="2" |[[Pharyngeal consonant|Pharyngeal]]
+! rowspan="2" |[[Glottal consonant|Glottal]]
+|- style="font-size: 80%;"
+! plain
+![[Emphatic consonant|emphatic]]{{efn|Emphatic consonants are pronounced with the back of the tongue approaching the [[human pharynx|pharynx]] (see [[pharyngealization]]).  They are pronounced with [[velarization]] by Iraqi and [[Arab States of the Persian Gulf|Persian Gulf]] speakers.{{citation needed|date=June 2016}} {{IPA|/q/}}, {{IPA|/ħ/}}, and {{IPA|/ʕ/}} can be considered the emphatic counterparts to {{IPA|/k/}}, {{IPA|/h/}}, and {{IPA|/ʔ/}} respectively.<ref>{{Harvcoltxt|Watson|2002|p=44}}</ref>}}{{efn|name=emphatic coronal|The emphatic [[coronal consonant|coronal]]s ({{IPA|/sˤ/}}, {{IPA|/dˤ/}}, {{IPA|/tˤ/}}, and {{IPA|/ðˤ/}}) cause [[assimilation (linguistics)|assimilation]] of emphasis to adjacent non-emphatic coronal consonants.{{citation needed|date=September 2008}}}}
+|-
+! colspan="2" |[[Nasal stop|Nasal]]
+|{{IPA link|m}} م
+|
+|{{IPA link|n}} ن
+|
+|
+|
+|
+|
+|
+|-
+! rowspan="2" | [[Plosive]]
+! font-size: 80%;" |<small>[[Voiceless consonant|voiceless]]{{efn|{{IPA|/t/}} and {{IPA|/k/}} are [[Aspirated consonant|aspirated]] {{IPA|[tʰ]}} and {{IPA|[kʰ]}}, whereas {{IPA|/tˤ/}} and {{IPA|/q/}} are unaspirated.<ref>{{Harvcoltxt|Thelwall|1990|p=38}}, {{Harvcoltxt|Al Ani|1970|pp=32, 44–45}}</ref>}}</small>
+|
+|
+|{{IPA link|t̪|t}} ت
+|{{IPA link|tˤ}} ط
+|
+|{{IPA link|k}} ك
+|{{IPA link|q}} ق
+|
+|{{IPA link|ʔ}} أ
+|-
+! font-size: 80%;" |[[Voiced consonant|<small>voiced</small>]]
+|{{IPA link|b}} ب
+|
+|{{IPA link|d̪|d}} د
+|{{IPA link|dˤ}} ض
+|{{IPA link|d͡ʒ}}{{efn|When speaking Modern Standard Arabic, the [[phoneme]] represented by the Arabic letter ''{{Transliteration|ar|DIN|ǧīm}}'' ({{lang|ar|[[ج]]}}) is pronounced depending on the speaker's native dialect,<ref name="Watson 2002 16">{{Harvcoltxt|Watson|2002|p=16}}</ref> as follows: {{IPAblink|d͡ʒ}} in the [[Arabian Peninsula]], [[Iraq]], parts of the [[Levant]], north-central [[Algeria]], and parts of Egypt, {{IPAblink|ʒ}} in most of [[Maghreb|Northwest Africa]] and the Levant and in some parts of the Arabian Peninsula, {{IPAblink|ɡ}} in [[Egypt]], and {{IPAblink|ɟ}} in [[Sudan]], parts of Yemen and parts of Oman. Outside the [[Arab League]], {{IPAblink|d͡ʒ}} is the preferred taught variant, the pronunciation mostly used in [[Qira'at|Qur'an recitation]], and the predominant pronunciation mostly used in Arabic loanwords across other languages.|name=|group=}} ج
+|({{IPA link|ɡ}}){{efn|In Modern Standard Arabic {{IPA|/ɡ/}} is either the standard pronunciation<ref>{{Cite book |last=al Nassir |first=Abdulmunʿim Abdulamir |url=https://etheses.whiterose.ac.uk/10917/1/354409.pdf |title=Sibawayh the Phonologist |publisher=University of New York |year=1985 |page=80 |language=ar |access-date=23 April 2024}}</ref> for ''{{Transliteration|ar|DIN|ǧīm}}'' ({{lang|ar|[[ج]]}}) (in Egypt, Oman, and coastal Yemen) or is used in foreign or dialectal words and proper nouns which may be transcribed more commonly with {{lang|ar|[[ج]]}}, {{lang|ar|[[غ]]}}, {{lang|ar|[[ق]]}} or {{lang|ar|[[ك]]}} or less commonly {{script/Arabic|[[ݣ]]}} (in Morocco) or {{script/Arabic|ڨ}} (in Tunisia and Algeria), mainly depending on the regional spoken [[varieties of Arabic|variety of Arabic]].|name=|group=}}
+|
+|
+|
+|-
+! rowspan="2"|[[Fricative]]
+! font-size: 80%;" |[[Voiceless consonant|<small>voiceless</small>]]
+|{{IPA link|f}} ف
+|{{IPA link|θ}} ث
+|{{IPA link|s̪|s}} س
+|{{IPA link|sˤ}} ص
+|{{IPA link|ʃ}} ش
+| colspan="2" |{{IPA link|x}} ~ {{IPA link|χ}}{{efn|name=velar|In most regions, uvular fricatives of the classical period have become velar or post-velar.<ref>{{Harvcoltxt|Watson|2002|p=18}}</ref>}} خ
+|{{IPA link|ħ}} ح
+|{{IPA link|h}} هـ
+|-
+! font-size: 80%;" |[[Voiced consonant|<small>voiced</small>]]
+|
+|{{IPA link|ð}} ذ
+|{{IPA link|z̪|z}} ز
+|{{IPA link|ðˤ}}{{efn|name=Denti-alveolar2|The voiced emphatic dental fricative {{lang|ar|ظ}}  {{IPA|[ðˤ]}} is sometimes pronounced as a voiced emphatic alveolar fricative {{IPA|[zˤ]}} depending on the speaker in Egypt and Lebanon.<ref name="Watson 2002 19">{{Harvcoltxt|Watson|2002|p=19}}</ref>|group=}} ظ
+|
+| colspan="2" |{{IPA link|ɣ}} ~ {{IPA link|ʁ}}{{efn|name=velar}} غ
+|{{IPA link|ʕ}} ع
+|
+|-
+! colspan="2" |[[Trill consonant|Trill]]
+|
+|
+|{{IPA link|r}}{{efn|The trill {{IPA|/r/}} is sometimes reduced to a single vibration when single, but it remains potentially a trill, not a [[alveolar flap|flap]] {{IPA|[ɾ]}}: the pronunciation of this single trill is between a trill {{IPA|[r]}} and a flap {{IPA|[ɾ]}}. ⟨r⟩ is in free variation between a [[alveolar trill|trill]] {{IPA|[r]}} and a [[alveolar flap|flap]] {{IPA|[ɾ]}} in Egypt and the Levant.}} ر
+|
+|
+|
+|
+|
+|
+|-
+! colspan="2" |[[Approximant]]
+|
+|
+|{{IPA link|l}} ل
+| ({{IPA link|ɫ}}){{efn|In most pronunciations, {{IPA|/ɫ/}} as a marginal phoneme only occurs in {{lang|ar|الله}} ''[[Allah]]'' {{IPA|/ʔaɫˈɫaːh/}}, the name of God, and (for some speakers) a handful of loanwords,<ref name="Watson 2002 16"/> except when it follows long or short {{IPA|/i/}} when it is not emphatic: {{lang|ar|بسم الله}} ''[[Basmala|{{Transliteration|ar|DIN|bismi l-lāh}}]]'' {{IPA|/bis.milˈlaːh/}}<!--an approximant can't be written with []--> ("in the name of God").<ref>{{Harvcoltxt|Holes|2004|p=95}}</ref> However, {{IPA|/ɫ/}} is absent in many regions, such as the [[Nile Valley]], and is more widespread in certain regions, such as Iraq, where the uvulars have velarized surrounding instances of {{IPA|/l/}}  in the environment of emphatic consonants when the two are not separated by {{IPA|/i/}}.<ref>{{Harvcoltxt|Ferguson|1956|p=449}}</ref>}}
+|{{IPA link|j}} ي
+|{{IPA link|w}} و
+|
+|
+|
+|}
+{{notelist}}
+
+Long ([[geminate]] or double) consonants are pronounced exactly like short consonants, but last longer. In Arabic, they are called ''mushaddadah'' ("strengthened", marked with a [[shaddah]]). Between a long consonant and a pause, an [[epenthetic]] {{IPA|[ə]}} occurs,<ref name="Thelwall 1990 38"/> but this is only common across regions in West Asia.
+
+==Phonotactics==
+Standard Arabic syllables come in only five forms:<ref name="Ryding2005">{{Cite book |last=Ryding |first=Karin C. |url=https://books.google.com/books?id=9J1e1iDF3YkC |title=A Reference Grammar of Modern Standard Arabic |date=2005-08-25 |publisher=Cambridge University Press |isbn=978-0-521-77151-1 |language=en}}</ref>
+* CV (light)
+* CVV (heavy)
+* CVC (heavy)
+* CVVC (super-heavy)
+* CVCC (super-heavy)
+
+Standard Arabic [[Syllable#Structure|syllable structure]] does not allow syllables to start with a vowel or with a consonant cluster.<ref name="Ryding2005" /> In cases where a word starts with a consonant cluster it is preceded by an epenthetic {{IPA|/ʔi/}} utterance initially or {{IPAslink|i}} when preceded by a word that ends with a consonant; there are however exceptions like {{lang|ar|من}} {{IPA|/min/|}} and {{lang|ar|ـهم}} {{IPA|/-hum/|}} that connect with a following word-initial consonant cluster with {{IPAslink|a}} and {{IPAslink|u}} respectively, if the preceding word ends with a long vowel that vowel is then shortened.
+
+Super-heavy syllables are usually not allowed except word finally,<ref name="Ryding2005" /> with the exception of CVV- before geminates creating non-final CVVC- syllables, these can be found in the active participles of geminate Form I verbs, like in {{wikt-lang|ar|مادة}} {{IPA|/maːd.da/}} ('substance, matter'), {{wikt-lang|ar|كافة}} {{IPA|/kaːf.fa/}} ('entirely'). In the [[pausal form]], the final [[gemination|geminates]] behave as a single consonant, only when preceding another word or with [[Arabic diacritics|vocalization]], the geminates start appearing, belonging to two separate syllables. E.g.: {{wikt-lang|ar|سام}} {{IPA|/saːm(.m)/}} ('poisonous'), {{wikt-lang|ar|جاف}} {{IPA|/d͡ʒaːf(.f)/}} ('dry'), {{wikt-lang|ar|عام}} {{IPA|/ʕaːm(.m)/}} ('public, general'), {{wikt-lang|ar|خاص}} {{IPA|/χaːsˤ(.sˤ)/}} ('private, special'), and {{wikt-lang|ar|حار}} {{IPA|/ħaːr(.r)/}} ('hot, spicy').<ref name="Ryding2005" />
+
+Loanwords can break some phonotactic rules like allowing initial consonant clusters (with an initial epenthetic {{IPAslink|i}} or often another repeated vowel from the word being optionally inserted after the first consonant) like in {{lang|ar|استاد}} {{IPA|/(i)s.taːd/}} "stadium" and {{lang|ar|فلورنسا}} {{IPA|/f(i).loː.ran.saː/}} "Florence" or allowing CVVC syllables non-finally without geminates like in {{lang|ar|روسيا}} {{IPA|/ruːs.jaː/}} "Russia" and {{lang|ar|سوريا}} {{IPA|/suːr.jaː/}} "Syria", which can be modified to {{IPA|/ruː.si.jaː, suː.ri.jaː/}} to fit the phonotactics better.<ref name="Ryding2005" />
+
+==Word stress==
+{{See also|Classical Arabic phonology}}
+Stress in Modern Standard Arabic is generally consistent and standardized across the Arab world. Exceptions exist only in a limited set of scenarios, detailed below. Broadly speaking, stress is most likely to fall on the second-to-last syllable (the penultimate syllable), but frequently occurs in the final (ultimate) and third-to-last (antepenultimate) as well.
+
+Arabic syllables can be categorized as light, heavy, and superheavy. This refers to the arrangement of vowels and consonants within the syllable.
+
+With "C" representing a consonant, "V" representing a vowel, and "VV" representing a long vowel:
+
+* Light:
+** A syllable containing a short vowel (i.e. CV), such as وَ /wa/ ('and').
+* Heavy:
+** A syllable containing a long vowel (i.e. CVV), such as لَا /laː/ ('no').
+** A syllable containing a short vowel followed by one consonant (i.e. CVC), such as مِن /min/ ('from').
+* Super-heavy:
+** A syllable containing a long vowel followed by one consonant (i.e. CVVC), such as بَاب /baːb/ ('door').
+** A syllable containing a short vowel followed by two consonants (i.e. CVCC), such as بِنْت /bint/ ('girl'), or a long vowel followed by a geminate consonant (i.e. CVVC<sub>i</sub>C<sub>i</sub>), such as مادّ /maːdd/ ('stretching').
+
+[[Standard Arabic phonology#Phonotactics|Phonotactic constraints in Arabic]] ensure that syllables do not generally fall outside of these patterns.<ref>{{Cite book |last=Broselow |first=Ellen |url=http://archive.org/details/the-encyclopedia-of-arabic-language-and-linguistics |title=The Encyclopedia of Arabic Language And Linguistics |date=2006-08-01 |volume=3 |pages=615–616}}</ref>
+[[File:Arabic Stress Diagram.svg|alt=A flowchart depiction of Modern Standard Arabic stress placement.|thumb|A flowchart depiction of Modern Standard Arabic stress placement.|class=skin-invert-image]]
+The following description of Arabic stress patterns is adapted from the description provided by Halpern (2009).<ref>{{Cite web |last=Halpern |first=Jack |date=January 2009 |title=Word Stress and Vowel Neutralization in Modern Standard Arabic |url=https://www.cjki.org/arabic/an_paper.pdf |url-status=live |archive-url=https://web.archive.org/web/20240424160637/https://www.cjki.org/arabic/an_paper.pdf |archive-date=2024-04-24 |website=The CJK Dictionary Institute}}</ref>
+
+# Disregard all attached (prefixed) prepositions.<ref group="Note">A notable exception are words using the preposition لِ or بِ with a possessive enclitic, such as لَك and لَهُ, or بِنا and بِكم. These words are stressed on the first syllable even though this syllable is an attached prefix.</ref><ref group="Note">Note that this rule only excludes attached prefixes, and not possessive enclitics. Possessive suffixes like كَ- and هُم- will affect the stress.</ref> If this leaves only one syllable, stress it.
+# If the final syllable is superheavy, stress it.
+# Otherwise, if the word has only two syllables, stress the first one.
+# Otherwise, if the second-to-last syllable is heavy, stress it.
+
+When the above rules are insufficient to determine stress, speakers will employ different approaches to determine stress. These choices are influenced by the speaker's native dialect. Nearly all arrangements are possible. At least one source records four different stress placements for كتبتا /ka.ta.ba.taa/ ('two women wrote'):  /ˈka.ta.ba.taa/ (Upper Egypt), /ka.ˈta.ba.taa/ (Jordan), /ka.ta.ˈba.taa/ (Cairo), and /ka.ta.ba.ˈtaa/ (Lebanon).<ref>{{Cite book |last=Broselow |first=Ellen |url=http://archive.org/details/the-encyclopedia-of-arabic-language-and-linguistics |title=The Encyclopedia of Arabic Language And Linguistics |date=2006-08-01 |volume=3 |page=613}}</ref>
+
+==Local variations of Modern Standard Arabic==
+
+[[varieties of Arabic|Spoken varieties]] differ from [[Classical Arabic]] and [[Modern Standard Arabic]] not only in grammar but also in pronunciation. this variation might affect the way Modern Standard Arabic is spoken in each country or region.
+
+Some examples of variation:
+
+=== Consonants ===
+The standard pronunciation of ⟨[[ج]]⟩ in MSA varies regionally, most prominently {{IPAblink|d͡ʒ}} in the [[Arabian Peninsula]], parts of the [[Levant]], [[Iraq]], north-central [[Algeria]], and southern [[Egypt]], it is also considered as the predominant pronunciation of Literary Arabic outside the Arab world and the pronunciation mostly used in Arabic loanwords across other languages (e.g. in Georgian, Malay, Persian, Turkish and Urdu), and {{IPAblink|ʒ}} in [[Morocco]], [[Tunisia]], [[Libya]], southern [[Algeria]], most of the Levant, eastern Arabian Peninsula. Other pronunciations include {{IPAblink|ɡ}} in Egypt, in coastal [[Yemen]], and [[Oman]], as well as {{IPAblink|ɟ}} in [[Sudan]] and hinterland Yemen.
+
+In Modern Standard Arabic (not when it's native), {{IPA|/ɡ/}} is used as a marginal phoneme to pronounce some dialectal and loan words. On the other hand, it is considered a native [[phoneme]] or [[allophone]] in most modern Arabic dialects, mostly as a variant of {{lang|ar|ق}} {{IPA|/q/}} (as in [[Arab states of the Persian Gulf|Arabian Peninsula]] and [[Northwest African]] dialects) or as a variant of {{IPA|/d͡ʒ/}} {{lang|ar|ج}} (as in Egyptian and [[Sanʽani Arabic|Sanaani]] and Omani dialects). It is also considered a separate foreign phoneme that appears only in loanwords, as in most urban [[Levant]]ine dialects where {{lang|ar|ق}} is {{IPA|/ʔ/}} and {{lang|ar|ج}} is {{IPA|/d͡ʒ~ʒ/}}.
+
+The dental {{lang|ar|ض}} {{IPA|[dˤ]}} was historically {{IPA|[ɮˤ]}}, a value it retains among older speakers in a few isolated dialects.<ref>Al-Azraqi. (2019). Delateralisation in Arabic and Mehri. ''Dialectologia'', 23: 1–23. https://raco.cat/index.php/Dialectologia/article/download/366597/460520/</ref>
+
+'''Mergers and mispronunciations'''
+
+Regional modern dialects may influence the way Modern Standard Arabic is spoken, which sometimes causes mergers or mispronunciations in consonants:
+
+* Speakers that merge {{lang|ar|ض}} {{IPA|/dˤ/}} and {{lang|ar|ظ}} {{IPA|/ðˤ/}} to {{lang|ar|ظ}} {{IPA|/ðˤ/}} in their respective dialects usually mispronounce {{lang|ar|ض}} as {{lang|ar|ظ}} {{IPA|[ðˤ]}} when speaking Modern Standard Arabic instead of the standard {{IPA|[dˤ]}},<ref>{{Cite book |last=Hamdan |first=Jihad |url=https://www.researchgate.net/publication/344811180 |title=The Arabic /dˤ/ Revisited: A Critical Review |publisher=Zarqa University |year=2020 |page=29}}</ref> e.g. {{lang|ar|ضار}} 'harmful' is pronounced {{IPA|[ðˤaːr]|}} instead of {{IPA|/dˤaːr/|}}.
+* The voiced emphatic dental fricative {{lang|ar|ظ}} {{IPA|/ðˤ/}} is sometimes mispronounced as a voiced emphatic alveolar fricative {{IPA|[zˤ]}} depending on the speaker in Egypt, Sudan and Lebanon,<ref name="Watson 2002 19">{{Harvcoltxt|Watson|2002|p=19}}</ref> e.g. {{lang|ar|محافظة}} 'governorate' is pronounced {{IPA|[mu.ħaː.fa.zˤah]|}} instead of {{IPA|/mu.ħaː.fa.ðˤah/|}}.
+* Speakers that lack the interdentals {{lang|ar|ث}} {{IPA|/θ/}} and {{lang|ar|ذ}} {{IPA|/ð/}} in their respective dialects, may merge them with {{lang|ar|ت}} {{IPAblink|t}} and {{lang|ar|د}} {{IPAblink|d}} or {{lang|ar|س}} {{IPAblink|s}} and {{lang|ar|ز}} {{IPAblink|z}}, respectively.
+* Some speakers especially in Lebanon and Egypt might pronounce the standard uvular {{lang|ar|ق}} {{IPA|/q/}} as a plain velar {{lang|ar|ك}} {{IPAblink|k}}.
+* A number of speakers in Yemen and among Bedu pronounce the uvular {{lang|ar|ق}} {{IPA|/q/}} as a velar {{IPAblink|g}} when speaking Modern Standard Arabic, e.g. {{lang|ar|لقد قلت لهم}} 'I told them' is pronounced {{IPA|/la.gad gul.tu la.hum/|}} instead of {{IPA|/la.qad qul.tu la.hum/|}}.
+'''Foreign phonemes'''
+
+The foreign phonemes {{IPA|/p/}}, {{IPA|/v/}}, {{IPA|/t͡ʃ/}}, {{IPA|/t͡s/}} etc. are not necessarily pronounced by all Arabic speakers, but they can be pronounced by some speakers especially in foreign proper nouns and loanwords. {{IPA|/p/}} and {{IPA|/v/}} are usually transcribed with their own letters {{lang|fa|ﭖ}} {{IPA|/p/}} and {{lang|ar|ﭪ}} {{IPA|/v/}} but as these letters are not part of Standard Arabic, and they are simply written with {{lang|ar|ب}} {{IPA|/b/}} and {{lang|ar|ف}} {{IPA|/f/}}, e.g. The use of both sounds may be considered marginal and Arabs may pronounce the words interchangeably; both {{lang|ar|نوفمبر}} and {{lang|ar|نوڤمبر}} {{IPA|/nu(ː)fambar/}}, {{IPA|/novambar, -ber/}} or {{IPA|/nofember/}} "November", both {{lang|ar|كاپريس}} and {{lang|ar|كابريس}} {{IPA|/ka(ː)pri(ː)s, ka(ː)bri(ː)s/}} "caprice" can be used.<ref name="TYA" /><ref name="Wehr">Hans Wehr, ''[[Dictionary of Modern Written Arabic]]'' (transl. of ''Arabisches Wörterbuch für die Schriftsprache der Gegenwart'', 1952)</ref>
+
+{{IPA|/t͡ʃ/}} is a possible loanword phoneme, as in the word {{script/Arabic|سندوتش}} or {{script/Arabic|ساندوتش}} (''sandawitš'' or ''sāndwitš'' 'sandwich'), though a number of varieties instead break up the {{IPA|[t]}} and {{IPA|[ʃ]}} sounds with an epenthetic vowel.<ref>{{Harvcoltxt|Watson|2002|pp=60–62}}, citing Ṣan'ā'ni and Cairene as examples with and without this phoneme, respectively.</ref> Egyptian Arabic treats {{IPA|/t͡ʃ/}} as two consonants ({{IPA|[tʃ]}}) and inserts {{IPA|[e]}}, as [{{IPA|teʃ}}C] or [C{{IPA|etʃ}}], when it occurs before or after another consonant. {{IPA|/t͡ʃ/}} is found as normal in [[Iraqi Arabic]] and [[Gulf Arabic]] dialects.<ref name="tsh">{{Cite web|url=https://www.gulfarabic.com/p11_learn_arabic_sounds.php|title=The Arabic Sounds I. &#124; Gulf Arabic E-learning System|website=www.gulfarabic.com}}</ref> Normally the combination <big>{{lang|ar|تش}}</big> (''tā'-shīn'') is used to transliterate the {{IPA|[tʃ]}}. e.g. {{lang|ar|تشاد}} {{IPA|/t͡ʃaːd/}} "Chad".
+
+=== Vowels ===
+* Development of highly distinctive allophones of {{IPA|/a/}} and {{IPA|/aː/}}, with highly fronted {{IPA|[a(ː)]}}, {{IPA|[æ(ː)]}} or {{IPA|[ɛ(ː)]}} in non-emphatic contexts, and retracted {{IPA|[ɑ(ː)]}} in emphatic contexts.{{citation needed|date=April 2011}} The more extreme distinctions are characteristic of sedentary varieties, while Bedouin and conservative Arabian-peninsula varieties have much closer allophones. In some of the sedentary varieties, the allophones are gradually splitting into new phonemes under the influence of loanwords, where the allophone closest in sound to the source-language vowel often appears regardless of the presence or absence of nearby emphatic consonants.{{citation needed|date=April 2011}}
+* Spread of "emphasis", visible in the backing of phonemic {{IPA|/a(ː)/}}. In conservative varieties of the Arabic peninsula, only {{IPA|/a/}} adjacent to emphatic consonants is affected, while in [[Cairo]], an emphatic consonant anywhere in a word tends to trigger emphatic allophones throughout the entire word.{{citation needed|date=April 2011}} Dialects of the Levant are somewhere in between. [[Moroccan Arabic]] is unusual in that {{IPA|/i/}} and {{IPA|/u/}} have clear emphatic allophones as well (typically lowered, e.g. to {{IPA|[e]}} and {{IPA|[o]}}).{{citation needed|date=April 2011}}
+* The diphthongs {{IPA|/aj/}} and {{IPA|/aw/}} have monophthongized into {{IPA|/eː/}} and {{IPA|/oː/}} in most the Mashreqi dialects, these mid vowels may also be present in loanwords when speaking MSA, such as {{lang|ar|ملبورن}} ({{IPA|/mil.boːrn/}} [[Melbourne]]), {{lang|ar|سكرتير}} ({{IPA|/sikriteːr/}} '(male) secretary'),  {{lang|ar|روما}} ({{IPA|/roːmaː/}} [[Rome]]) and {{lang|ar|دكتور}} ({{IPA|/duktoːr/}} 'doctor').<ref name="EMSA1"/>
+* Loss of final short vowels (with {{IPA|/i/}} sometimes remaining), and shortening of final long vowels. This triggered the loss of most Classical Arabic case and mood distinctions.{{citation needed|date=April 2011}}
+* Change of [[Arabic grammar#Nisba|nisba]] suffix ''{{transliteration|ar|-iyy}}'' > ''{{transliteration|ar|-i}}'', the nisba suffix ''{{transliteration|ar|-iyy}}'' as {{lang|ar|عَرَبِيّ}} ({{IPA|/ʕarabijj/}} '(male) Arabic') is usually mispronounced ''{{transliteration|ar|-i}}'' {{IPA|/ʕarabi/}} by many speakers.
+* Shorten of final long ''{{transliteration|ar|-ī}}'' > ''{{transliteration|ar|-i}}''  {{lang|ar|حُبِّي}} ({{IPA|/ħubbiː/}} 'my love') is usually pronounced {{IPA|/ħubbi/}} with a short final ''{{transliteration|ar|-i}}'' by many speakers.
+
+==Distribution==
+The most frequent consonant phoneme is {{IPA|/r/}}, the rarest is {{IPA|/ðˤ/}}. The frequency distribution of the 28 consonant phonemes, based on the 2,967 triliteral roots listed by Wehr<ref name=Wehr/> is (with the percentage of roots in which each phoneme occurs):
+
+{| class="wikitable" style="text-align: center"
+! Phoneme
+! Frequency
+! rowspan="15" |
+! Phoneme
+! Frequency
+|-
+| {{IPA|/r/}}
+| 24%
+| {{IPA|/w/}}
+| 18%
+|-
+| {{IPA|/l/}}
+| 17%
+| {{IPA|/m/}}
+| 17%
+|-
+| {{IPA|/n/}}
+| 17%
+| {{IPA|/b/}}
+| 16%
+|-
+| {{IPA|/f/}}
+| 14%
+| {{IPA|/ʕ/}}
+| 13%
+|-
+| {{IPA|/q/}}
+| 13%
+| {{IPA|/d/}}
+| 13%
+|-
+| {{IPA|/s/}}
+| 13%
+| {{IPA|/ħ/}}
+| 12%
+|-
+| {{IPA|/j/}}
+| 12%
+| {{IPA|/ʃ/}}
+| 11%
+|-
+| {{IPA|/d͡ʒ/}}
+| 10%
+| {{IPA|/k/}}
+| 9%
+|-
+| {{IPA|/h/}}
+| 8%
+| {{IPA|/z/}}
+| 8%
+|-
+| {{IPA|/tˤ/}}
+| 8%
+| {{IPA|/χ/}}
+| 8%
+|-
+| {{IPA|/sˤ/}}
+| 7%
+| {{IPA|/ʔ/}}
+| 7%
+|-
+| {{IPA|/t/}}
+| 6%
+| {{IPA|/dˤ/}}
+| 5%
+|-
+| {{IPA|/ʁ/}}
+| 5%
+| {{IPA|/θ/}}
+| 3%
+|-
+| {{IPA|/ð/}}
+| 3%
+| {{IPA|/ðˤ/}}
+| 1%
+|}
+
+This distribution does not necessarily reflect the actual frequency of occurrence of the phonemes in speech, since pronouns, prepositions and suffixes are not taken into account, and the roots themselves will occur with varying frequency. In particular, {{IPA|/t/}} occurs in several extremely common [[affix]]es (occurring in the marker for second-person or feminine third-person as a [[prefix]], the marker for first-person or feminine third-person as a [[suffix]], and as the second element of [[Arabic grammar#Stem formation|Forms VIII and X]] as an [[infix]]) despite being fifth from last on Wehr's list. The list does give, however, an idea of which phonemes are more marginal than others. Note that the five least frequent letters are among the six letters added to those inherited from the [[Phoenician alphabet]], namely, {{Transliteration|ar|DIN|[[ḍād]]}}, {{Transliteration|ar|DIN|[[ṯāʾ]]}}, {{Transliteration|ar|DIN|[[ḫāʾ]]}}, {{Transliteration|ar|DIN|[[ẓāʾ]]}}, {{Transliteration|ar|DIN|[[ḏāl]]}} and {{Transliteration|ar|DIN|[[ghain|ġayn]]}}.
+
+==Sample==
+The [[Modern Standard Arabic|Literary Arabic]] sample text is a reading of [[The North Wind and the Sun]] by a speaker who was born in [[Safed]], lived and was educated in [[Beirut]] from age 8 to 15, subsequently studied and taught in [[Damascus]], studied phonetics in Scotland and since then has resided in Scotland and Kuwait.<ref>{{Harvcoltxt|Thelwall|1990|p=37}}</ref>
+
+===Normal orthographic version===
+{{rtl-para|ar|كانت ريح الشمال تتجادل والشمس في أي منهما كانت أقوى من الأخرى، وإذ بمسافر يطلع متلفعا بعباءة سميكة. فاتفقتا على اعتبار السابق في إجبار المسافر على خلع عباءته الأقوى. عصفت ريح الشمال بأقصى ما استطاعت من قوة. ولكن كلما ازداد العصف ازداد المسافر تدثرا بعباءته، إلى أن أسقط في يد الريح فتخلت عن محاولتها. بعدئذ سطعت الشمس بدفئها، فما كان من المسافر إلا أن خلع عباءته على التو. وهكذا اضطرت ريح الشمال إلى الاعتراف بأن  الشمس كانت هي الأقوى.}}
+
+===Diacriticized orthographic version===
+{{rtl-para|ar|كَانَتْ رِيحُ الشَّمَالِ تَتَجَادَلُ وَالشَّمْسَ فِي أَيٍّ مِنْهُمَا كَانَتْ أَقْوَى مِنَ الأُخْرَى، وَإِذْ بِمُسَافِرٍ يَطْلَعُ مُتَلَفِّعًا بِعَبَاءَةٍ سَمِيكَةٍ. فَاتَّفَقَتَا عَلَى اعْتِبارِ السَّابِقِ فِي إِجْبارِ المُسَافِرِ عَلَى خَلْعِ عَباءَتِهِ الأَقْوى. عَصَفَتْ رِيحُ الشَّمالِ بِأَقْصَى مَا اسْتَطَاعَتْ مِن قُوَّةٍ. وَلٰكِنْ كُلَّمَا ازْدَادَ العَصْفُ ازْدَادَ المُسَافِرُ تَدَثُّرًا بِعَبَاءَتِهِ، إِلَى أَنْ أُسْقِطَ فِي يَدِ الرِّيحِ فَتَخَلَّتْ عَنْ مُحَاوَلَتِهَا. بَعْدَئِذٍ سَطَعَتِ الشَّمْسُ بِدِفْئِهَا، فَمَا كَانَ مِنَ المُسَافِرِ إِلَّا أَنْ خَلَعَ عَبَاءَتَهُ عَلَى التَّوِّ. وَهٰكَذَا اضْطُرَّتْ رِيحُ الشَّمَالِ إِلَى الاِعْتِرَافِ بِأَنَّ الشَّمْسَ كَانَتْ هِيَ الأَقْوَى.<ref name="Thelwall 1990 40">{{Harvcoltxt|Thelwall|1990|p=40}}</ref>}}
+
+===Phonemic transcription (with ''[[ʾIʿrab|i'rāb]]'')===
+<!--PLEASE: DONT'T CHANGE SYLLABIFICATION; DON'T USE LIAISON SYMBOL-->
+{{IPA|/kaːnat riːħ uʃ.ʃamaːli tatad͡ʒaːdalu waʃ.ʃamsa fiː ʔaj.jin minhumaː kaːnat ʔaqwaː min al ʔuxraː {{!}} wa ʔið bi musaːfirin jatˤlaʕu mutalaf.fiʕan bi ʕabaːʔatin samiːka {{!}}{{!}} fat.tafaqataː ʕala ʕ.tibaːr is.saːbiqi fiː ʔid͡ʒbaːr il.musaːfiri ʕalaː xalʕi ʕabaːʔatihi l.ʔaqwaː {{!}}{{!}} ʕasˤafat riːħ uʃ.ʃamaːli bi ʔaqsˤaː mas.tatˤaːʕat min quw.wa {{!}}{{!}} wa laːkin kul.lama z.daːd al.ʕasˤfu z.daːd al musaːfiru tadaθ.θuran bi ʕabaːʔatih {{!}} ʔilaː ʔan ʔusqitˤa fiː jad ir.riːħi fataxal.lat ʕan muħaːwalatihaː {{!}}{{!}} baʕda.ʔiðin satˤaʕat iʃ.ʃamsu bi difʔihaː {{!}} fa maː kaːna min al musaːfiri ʔil.laː ʔan xalaʕa ʕabaːʔatahu ʕalat.taw {{!}}{{!}} wa haːkaða t.tˤur.rat riːħ uʃ.ʃamaːli ʔila l.ʔiʕtiraːfi bi ʔan.n aʃ.ʃamsa kaːnat hija l.ʔaqwaː/}}<ref name="Thelwall 1990 40"/>
+
+===Phonemic transcription ([[Modern Standard Arabic|without ''i'rāb'']])===
+<!--PLEASE: DONT'T CHANGE SYLLABIFICATION; DON'T USE LIAISON SYMBOL-->
+{{IPA|/kaːnat riːħ uʃ.ʃamaːl tatad͡ʒaːdal waʃ.ʃams fiː ʔaj.jin minhumaː kaːnat ʔaqwaː min al ʔuxraː {{!}} wa ʔið bi musaːfir jatˤlaʕ mutalaf.fiʕan bi ʕabaːʔa samiːkah {{!}}{{!}} fa t.tafaqataː ʕala ʕ.tibaːri s.saːbiq fiː ʔid͡ʒbaːri l musaːfir ʕalaː xalʕ ʕabaːʔatihi l.ʔaqwaː {{!}}{{!}} ʕasˤafat riːħu ʃ.ʃamaːl bi ʔaqsˤaː ma statˤaːʕat min quw.wa {{!}}{{!}} wa laːkin kul.lama z.daːda l.ʕasˤfu z.daːd al.musaːfir tadaθːuran bi ʕabaːʔatih {{!}} ʔilaː ʔan ʔusqitˤ fiː jad ir.riːħ fa taxal.lat ʕan muħaːwalatihaː {{!}}{{!}} baʕdaʔiðin satˤaʕat iʃ.ʃams bi difʔihaː {{!}} fa maː kaːn min al musaːfir ʔil.laː ʔan xalaʕa ʕabaːʔatahu ʕala t.taw {{!}}{{!}} wa haːkaða t.tˤur.rat riːħ uʃ.ʃamaːl ʔila l.ʔiʕtiraːf bi ʔan.n aʃ.ʃams kaːnat hija l.ʔaqwaː/}}
+
+===Phonetic transcription ([[Egyptian Arabic phonology|Egypt]])===
+<!--PLEASE: DONT'T CHANGE SYLLABIFICATION; DON'T USE LIAISON SYMBOL-->
+{{IPA|[ˈkæːnæt riːħ æʃ.ʃæˈmæːl tætæˈɡæːdæl wæʃˈʃæm.se fiː ˈʔæj.jin menˈhomæ ˈkæːnæt ˈʔɑqwɑ mɪn ælˈʔʊxrɑ {{!}} wæ ʔɪð bi mʊˈsæːfer ˈjɑtˤlɑʕ mʊtæˈlæf.feʕ bi ʕæˈbæːʔæ sæˈmiːkæ {{!}}{{!}} fæ t.tæfɑqɑˈtæː ˈʕælæ ʕ.teˈbɑːrɪ sˈsɑːbeq fiː ʔeɡbɑːr æl mʊˈsæːfer ˈʕælæ ˈxælʕe ʕæbæːˈʔæt(i)hi lˈʔɑqwɑː {{!}}{{!}} ˈʕɑsˤɑfɑt riːħ æʃ.ʃæˈmæːl bi ˈʔɑqsˤɑ mæ s.tɑˈtˤɑːʕɑt mɪn ˈqow.wɑ {{!}}{{!}} wæ ˈlæːken kʊlˈlæmæ zˈdæːd æl ʕɑsˤf ɪzˈdæːd æl.mʊˈsæːfer tædæθˈθʊræn bi ʕæbæːˈʔætih {{!}} ˈʔilæ ʔæn ˈʔosqetˤ fiː jæd ærˈriːħ fæ tæˈxæl.læt ʕæn mʊħæːwæˈlæt(i)hæ {{!}}{{!}} bæʕdæˈʔiðin ˈsɑtˤɑʕɑt æʃˈʃæm.se bi dɪfˈʔihæ {{!}} fæ mæː kæːn mɪn æl.mʊˈsæːfer ˈʔil.læ ʔæn ˈxælæʕ ʕæbæːˈʔætæh ʕælætˈtæw {{!}}{{!}} wæ hæːˈkæðæ tˈtˤor.rɑt riːħ æʃ.ʃæˈmæːl ˈʔilæ l.ʔeʕteˈrɑːf biˈʔænn æʃˈʃæm.se ˈkæːnæt ˈhɪ.jæ lˈʔɑqwɑ]}}
+
+===ALA-LC transliteration===
+{{Transliteration|ar|ALA|Kānat rīḥ al-shamāl tatajādalu wa-al-shams fī ayyin minhumā kānat aqwá min al-ukhrá, wa-idh bi-musāfir yaṭlaʻu mutalaffiʻ bi-ʻabāʼah samīkah. Fa-ittafaqatā ʻalá iʻtibār al-sābiq fī ijbār al-musāfir ʻalá khalʻ ʻabāʼatihi al-aqwá. ʻAṣafat rīḥ al-shamāl bi-aqṣá mā istaṭāʻat min qūwah. Wa-lākin kullamā izdāda al-ʻaṣf izdāda al-musāfir tadaththuran bi-ʻabāʼatih, ilá an usqiṭ fī yad al-rīḥ fa-takhallat ʻan muḥāwalatihā. Baʻdaʼidhin saṭaʻat al-shams bi-difʼihā, fa-mā kāna min al-musāfir illā an khalaʻa ʻabāʼatahu ʻalá al-taww. Wa-hākadhā iḍṭurrat rīḥ al-shamāl ilá al-iʻtirāf bi-an al-shams kānat hiya al-aqwá.}}
+
+===English Wiktionary transliteration (based on Hans Wehr)===
+{{Transliteration|ar|Wehr|kānat rīḥu š-šamāli tatajādalu wa-š-šamsa fī ʾayyin minhumā kānat ʾaqwā mina l-ʾuḵrā, wa-ʾiḏ bi-musāfirin yaṭluʿu mutalaffiʿan bi-ʿabāʾatin samīkatin. fa-t-tafaqatā ʿalā ʿtibāri s-sābiqi fī ʾijbāri l-musāfiri ʿalā ḵalʿi ʿabāʾatihi l-ʾaqwā. ʿaṣafat rīḥu š-šamāli bi-ʾaqṣā mā staṭāʿat min quwwatin. walākin kullamā zdāda l-ʿaṣfu zdāda l-musāfiru tadaṯṯuran bi-ʿabāʾatihi, ʾilā ʾan ʾusqiṭa fī yadi r-rīḥi fataḵallat ʿan muḥāwalatihā. baʿdaʾiḏin saṭaʿati š-šamsu bi-difʾihā, famā kāna mina l-musāfiri ʾillā ʾan ḵalaʿa ʿabāʾatahu ʿalā t-tawwi. wa-hakaḏā ḍṭurrat rīḥu š-šamāli ʾilā l-ʾiʿtirāfi biʾanna š-šamsa kānat hiya l-ʾaqwā.}}
+
+===English Translation===
+The North Wind and the Sun were disputing which was the stronger, when a traveler came along wrapped in a warm cloak. They agreed that the one who first succeeded in making the traveler take his cloak off should be considered stronger than the other. Then the North Wind blew as hard as he could, but the more he blew the more closely did the traveler fold his cloak around him; and at last the North Wind gave up the attempt. Then the Sun shined out warmly, and immediately the traveler took off his cloak. And so the North Wind was obliged to confess that the Sun was the stronger of the two.
+
+==Notes==
+{{reflist|group=Note}}
+
+==References==
+{{reflist}}
+
+==Bibliography==
+{{refbegin}}
+* {{Cite journal |last=Abd-El-Jawad |first=Hassan |year=1987 |title=Cross-Dialectal Variation in Arabic: Competing Prestigious Forms |journal=Language in Society |volume=16 |issue=3 |pages=359–367 |doi=10.1017/S0047404500012446 |s2cid=143839694}}
+* {{Cite book |last=Al Ani |first=S. H. |title=Arabic Phonology: An Acoustical and Physiological Investigation |publisher=Mouton |year=1970 |location=The Hague}}
+* {{Cite journal |last=Davis |first=Stuart |year=1995 |title=Emphasis Spread in Arabic and Grounded Phonology |journal=Linguistic Inquiry |publisher=The MIT Press |volume=26 |issue=3 |pages=465–498 |jstor=4178907}}
+* {{Cite journal |last=Ferguson |first=Charles |year=1956 |title=The Emphatic ''L'' in Arabic |journal=Language |volume=32 |issue=3 |pages=446–452 |doi=10.2307/410565 |jstor=410565}}
+* {{Cite book |last=Gairdner |first=W. H. T. |title=The Phonetics of Arabic |publisher=Oxford University Press |year=1925 |location=London}}
+* {{Cite book |last=Holes |first=Clive |title=Modern Arabic: Structures, Functions, and Varieties |publisher=Georgetown University Press |year=2004 |isbn=978-1-58901-022-2}}
+* {{Cite book |last=Kästner |first=H. |title=Phonetik und Phonologie des modernen Hocharabisch |publisher=[[Verlag Enzyklopädie]] |year=1981 |location=Leipzig}}
+* {{Cite journal |last1=Kirchhoff |first1=Katrin |last2=Vergyri |first2=Dimitra |year=2005 |title=Cross-dialectal data sharing for acoustic modeling in Arabic speech recognition |journal=Speech Communication |volume=46 |issue=1 |pages=37–51 |doi=10.1016/j.specom.2005.01.004}}
+* {{SOWL}}
+* {{Cite book |last=Lipinski |first=E. |title=Semitic Languages |publisher=Peters |year=1997 |location=Leuven}}
+* {{Cite book |last=McCarthy |first=John J. |url=http://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1085&context=linguist_faculty_pubs |title=Papers in laboratory phonology III: phonological structure and phonetic form |publisher=Cambridge University Press |year=1994 |editor-last=Keating |editor-first=Patricia |location=Cambridge |pages=191–233 |chapter=The phonetics and phonology of Semitic pharyngeals}}
+* {{Cite book |last=Mion |first=Giuliano |title=Sociofonologia dell'arabo. Dalla ricerca empirica al riconoscimento del parlante |publisher=Sapienza Orientale |year=2010 |location=Rome}}
+* {{Cite journal |last=Neme |first=Alexis |year=2013 |title=Pattern-and-root inflectional morphology: the Arabic broken plural |url=https://halshs.archives-ouvertes.fr/hal-00831338 |journal=Language Sciences |volume=40 |issue=2 |pages=221–250 |doi=10.1016/j.langsci.2013.06.002 |s2cid=16383947|arxiv=2605.22310 }}
+* {{Cite journal |last=Thelwall |first=Robin |year=1990 |title=Illustrations of the IPA: Arabic |journal=Journal of the International Phonetic Association |volume=20 |issue=2 |pages=37–41 |doi=10.1017/S0025100300004266 |jstor=44526807 |s2cid=243640727}}
+* {{Cite journal |last=Watson |first=Janet |year=1999 |title=The Directionality of Emphasis Spread in Arabic |journal=Linguistic Inquiry |volume=30 |issue=2 |pages=289–300 |doi=10.1162/002438999554066 |s2cid=57568284}}
+* {{Cite book |last=Watson |first=Janet C. E. |title=The Phonology and Morphology of Arabic |publisher=Oxford University Press |year=2002 |location=New York}}
+{{refend}}
+
+{{Language phonologies}}
+{{Arabic language}}
+
+[[Category:Arabic phonology| ]]
+[[Category:Arabic language]]

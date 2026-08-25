@@ -1,0 +1,1199 @@
+{{Short description|Spelling and punctuation of the Irish language}}
+{{Use Hiberno-English|date=July 2020}}
+{{Use dmy dates|date=July 2020}}
+{{IPA-ga notice}}
+'''Irish orthography''' is the [[orthography|set of convention]]s used to write the [[Irish language]]. A [[spelling reform]] in the mid-20th century led to {{lang|ga|[[An Caighdeán Oifigiúil]]}}, the modern [[Standard language|standard]] [[Literary language|written form]] used by the [[Government of Ireland]], which regulates both [[spelling]] and [[grammar]].<ref>{{Cite web |date=2018-02-02 |title=Publications by the Houses of the Oireachtas |url=https://www.oireachtas.ie/en/publications?q=An+Caighde%C3%A1n+Oifigi%C3%BAil |access-date=2022-07-13 |website=Houses of the Oireachtas |language=en-ie}}</ref> The reform removed inter-dialectal [[silent letter]]s, simplified some [[Multigraph (orthography)|letter sequence]]s, and modernised archaic spellings to reflect modern pronunciation, but it also removed letters pronounced in some dialects but not in others.
+
+Irish spelling represents all Irish [[dialect]]s to a high degree despite their considerable phonological variation, e.g. {{lang|ga|crann}} ("tree") is read {{IPA|/kɾˠan̪ˠ/}} in Mayo and [[Ulster Irish|Ulster]], {{IPA|/kɾˠaːn̪ˠ/}} in Galway, or {{IPA|/kɾˠəun̪ˠ/}} in [[Munster Irish|Munster]]. Some words may have dialectal pronunciations not reflected by their standard spelling, and they sometimes have distinct dialectal spellings to reflect this.<ref>{{Cite web |title=Irish Gaelic dialects |url=https://www3.smo.uhi.ac.uk/gaeilge/gramadach/canuinti.html |access-date=2023-12-13 |website=www3.smo.uhi.ac.uk}}</ref><ref name=":0" />
+
+==Alphabet==
+[[File:Uncial_alphabet.svg|thumb|Gaelic type with Roman type equivalents and the additional [[Irish initial mutations|lenited]] letters.|class=skin-invert-image]]
+[[Latin script]] has been the [[writing system]] used to write Irish since the 5th century, when it replaced [[Ogham]], which was used to write [[Primitive Irish]] and [[Old Irish]].<ref>{{Cite web |title=Celtic languages - Irish |url=https://www.britannica.com/topic/Celtic-languages/Irish |access-date=2022-12-31 |website=Britannica |language=en}}</ref> Prior to the mid-20th century, [[Gaelic type]] ({{Lang|ga|cló Gaelach}}) was the main [[typeface]] used to write Irish; now, it is usually replaced by [[Roman type]] ({{Lang|ga|cló Rómhánach}}). The use of Ogham and Gaelic type today is restricted to decorative or self-consciously traditional contexts. The [[Dot (diacritic)#Overdot|dot above]] a [[lenition|lenited]] letter in Gaelic type is usually replaced by a following {{vr|h}} in Roman type (e.g. {{vr|ċ}} → {{vr|ch}}).<ref name=":1">{{Cite web |title=Irish language, alphabet and pronunciation |url=https://www.omniglot.com/writing/irish.htm |access-date=2023-12-13 |website=www.omniglot.com}}</ref>
+
+=== Letters and letter names===
+[[File:Gaelic alphabet.jpg|thumb|The traditional Irish alphabet carved in Gaelic type on a building in [[Dublin]], with each type of diacritic ({{lang|ga|síneadh fada}} and {{lang|ga|ponc séimhithe}}) as well as the {{lang|la|[[Tironian notes|Tironian et]]}}.]]
+
+The traditional Irish [[alphabet]] ({{lang|ga|aibítir}}) consists of 18 letters: {{vr|{{wrap|a, b, c, d, e, f, g, h, i, l, m, n, o, p, r, s, t, u}}}}. It does not contain {{vr|j, k, q, v, w, x, y, z}}, although they are used in scientific terminology and modern [[loanword]]s. {{vr|v}} occurs in a small number of (mainly [[Onomatopoeia|onomatopoeic]]) native words (e.g. {{lang|ga|vácarnach}} "to quack" and {{lang|ga|vrác}} "caw") and [[colloquialism]]s (e.g. {{lang|ga|víog}} for {{lang|ga|bíog}} "chirp" and {{lang|ga|vís}} for {{lang|ga|bís}} "screw").<ref>{{Cite book |first=Niall |last=Ó Dónaill |editor=Tomás De Bhaldraithe |title=Foclóir Gaeilge-Béarla |date=2007 |publisher=An Gúm |isbn=978-1-85791-038-4 |oclc=670042711}}</ref> {{vr|h}}, when not [[prefix]]ed to a word initial vowel or after a consonant to show [[Irish initial mutations|lenition]], primarily occurs word initially in loanwords, e.g. {{lang|ga|hata}} "hat". {{vr|k}} is the only letter not listed by [[Niall Ó Dónaill|Ó Dónaill]].
+
+Vowels may be [[Diacritic|accented]] with an [[acute accent]] ({{vr|á, é, í, ó, ú}}; see [[Irish orthography#Diacritics|below]]).<ref>[https://www.rosettastone.com/learn-irish/ Learn Irish] Rosetta Stone. Retrieved: 2020-06-21.</ref> Accented letters are considered variants of their unaccented equivalent, and they follow their unaccented equivalents in dictionaries (i.e. {{Lang|ga|a}}, {{Lang|ga|á…abhac}}, {{Lang|ga|ábhacht}}, {{Lang|ga|abhaile}}...).
+
+[[English alphabet#Letter names|English letter names]] are generally used in both colloquial and formal speech but there are modern Irish letter names (based on the original [[latin alphabet#Classical Latin alphabet|Latin names]]), similar to other languages that use a [[Latin-script alphabet|Latin script alphabet]]. Tree names were historically used to name the letters. Tradition taught that they all derived from the [[Bríatharogam|names of Ogham letters]], though it is now known that only some of the earliest were named after trees.
+
+In the table below, only '''bolded letters''' are considered to be part of the modern Irish alphabet. 
+
+{| class="wikitable"
+! Letter
+! Name
+<ref>{{Cite book |url=https://books.google.com/books?id=hRiKYbE3cIIC&pg=PA1 |title=Graiméar Gaeilge na mBráithre Críostaí |date=22 September 1999 |publisher=An Gúm |isbn=9781857913279}}</ref><ref name=":0">{{Cite web |title=Irish Orthography |url=http://www.nualeargais.ie/gnag/ortho.htm |access-date=2022-10-23 |website=www.nualeargais.ie |archive-date=26 March 2023 |archive-url=https://web.archive.org/web/20230326031917/http://www.nualeargais.ie/gnag/ortho.htm |url-status=dead }}</ref>
+!Name
+([[International Phonetic Alphabet|IPA]])
+! Tree Name ({{lang|ga|[[Bríatharogam]]}})
+!Ogham equivalent
+! Notes
+|-
+|'''[[A]]a'''
+|{{lang|ga|á}} {{ref|fada|'''a'''}}
+|{{IPA|/aː/}}
+|{{lang|ga|[[ailm]]}} ([[pine]])
+|ᚐ
+| rowspan="9" |
+|-
+|'''[[B]]b'''
+|{{lang|ga|bé}}
+|{{IPA|/bʲeː/}}
+|{{lang|ga|[[Beith (letter)|beith]]}} ([[birch]])
+|ᚁ
+|-
+|'''[[C]]c'''
+|{{lang|ga|cé}}
+|{{IPA|/ceː/}}
+|{{lang|ga|[[Coll (letter)|coll]]}} ([[hazel]])
+|ᚉ
+|-
+|'''[[D]]d'''
+|{{lang|ga|dé}}
+|{{IPA|/dʲeː/}}
+|{{lang|ga|[[dair]]}} ([[oak]])
+|ᚇ
+|-
+|'''[[E]]e'''
+|{{lang|ga|é}} {{ref|fada|'''a'''}}
+|{{IPA|/eː/}}
+|{{lang|ga|[[eadhadh]]}} ([[populus|poplar]])
+|ᚓ
+|-
+|'''[[F]]f'''
+|{{lang|ga|eif}}
+|{{IPA|/ɛfʲ/}}
+|{{lang|ga|[[Fearn (letter)|fearn]]}} ([[alder]])
+|ᚃ
+|-
+|'''[[G]]g'''
+|{{lang|ga|gé}}
+|{{IPA|/ɟeː/}}
+|{{lang|ga|[[Gort (letter)|gort]]}} ([[ivy]])
+|ᚌ
+|-
+|'''[[H]]h'''
+|{{lang|ga|héis}}
+|{{IPA|/heːʃ/}}
+|{{lang|ga|[[uath]]}} ([[crataegus monogyna|hawthorn]])
+|ᚆ
+|-
+|'''[[I]]i'''
+|{{lang|ga|í}} {{ref|fada|'''a'''}}
+|{{IPA|/iː/}}
+|{{lang|ga|[[iodhadh]]}} ([[taxus|yew]])
+|ᚔ
+|-
+|[[J]]j
+|{{lang|ga|jé}}
+|{{IPA|/dʒeː/}}
+| rowspan="2" |
+| rowspan="2" |
+|Occurs in relatively new loanwords, such as {{lang|ga|[[Job (disambiguation)|jab]]}}, {{lang|ga|[[jeep|jíp]]}}, & {{lang|ga|[[judo|júdó]]}}.<ref>{{Cite web |title=Irish Grammar Database: jíp |url=https://www.teanglann.ie/en/gram/j%C3%ADp |access-date=2025-03-03 |website=www.teanglann.ie |language=en}}</ref> Typically represents {{IPA|[dʒ]}}, a non-native phoneme (see [[Irish phonology]]) and is substituted with {{IPA|/ʃ/}} in words like {{lang|ga|[[Japan|Seapáin]]}} {{IPA|/ˈʃapˠaːnʲ/}}.
+|-
+|[[K]]k
+|{{lang|ga|cá}}
+|{{IPA|/kaː/}}
+|Only occurs in a few select unassimilated loanwords and international terms, such as {{lang|ga|[[Karate|karate]]}}, and is replaced by {{angbr|c}} in integrated loanwords due to making the same sound; {{lang|ga|cearáité}}.<ref>https://focloir.ie/en/dictionary/nid/karate</ref> {{vr|k}} is the only letter not listed by [[Niall Ó Dónaill|Ó Dónaill]].
+|-
+|'''[[L]]l'''
+|{{lang|ga|eil}}
+|{{IPA|/ɛlʲ/}}
+|{{lang|ga|[[Luis (letter)|luis]]}} ([[rowan]])
+|ᚂ
+| rowspan="4" |
+|-
+|'''[[M]]m'''
+|{{lang|ga|eim}}
+|{{IPA|/ɛmʲ/}}
+|{{lang|ga|[[Muin (letter)|muin]]}} ([[vine]])
+|ᚋ
+|-
+|'''[[N]]n'''
+|{{lang|ga|ein}}
+|{{IPA|/ɛnʲ/}}
+|{{lang|ga|[[nion]]}} ([[fraxinus|ash]])
+|ᚅ
+|-
+|'''[[O]]o'''
+|{{lang|ga|ó}} {{ref|fada|'''a'''}}
+|{{IPA|/oː/}}
+|{{lang|ga|[[onn]]}} ([[gorse]])
+|ᚑ
+|-
+| rowspan="2" |'''[[P]]p'''
+| rowspan="2" |{{lang|ga|pé}}
+| rowspan="2" |{{IPA|/pʲeː/}}
+|{{Lang|ga|[[ifín]]}} ([[gooseberry]] or [[Thorns, spines, and prickles|thorn]])
+|ᚘ
+| rowspan="2" |See {{Lang|ga|[[forfeda]]}}.
+|-
+|{{lang|ga|[[Forfeda|peith]]}} ([[alnus viridis|dwarf alder]])
+|ᚚ
+|-
+|[[Q]]q
+|{{lang|ga|cú}}
+|{{IPA|/kuː/}}
+|
+|ᚊ
+|Occurs in unestablished loanwords, such as {{lang|ga|[[Queer|queer]]}} and {{lang|ga|[[quinine|quinín]]}}, but there is often an alternative where {{angbr|qu}} has been replaced with {{angbr|cu}} ({{lang|ga|cuinín}}).<ref>{{Cite web |title=Foclóir Gaeilge–Béarla (Ó Dónaill): quinín |url=https://www.teanglann.ie/en/fgb/quin%C3%ADn |access-date=2025-03-03 |website=www.teanglann.ie |language=en}}</ref> Typically represents {{IPA|/k/}}. {{vr|Q}} is also used to transliterate {{lang|ga|[[ceirt]]}}.
+|-
+| '''[[R]]r'''
+|{{lang|ga|ear}}
+|{{IPA|/aɾˠ/}}
+|{{lang|ga|[[Ruis (letter)|ruis]]}} ([[sambucus|elder]])
+|ᚏ
+| rowspan="4" |
+|-
+|'''[[S]]s'''
+|{{lang|ga|eas}}
+|{{IPA|/asˠ/}}
+|{{lang|ga|[[Sail (letter)|sail]]}} ([[willow]])
+|ᚄ
+|-
+|'''[[T]]t'''
+|{{lang|ga|té}}
+|{{IPA|/tʲeː/}}
+|{{lang|ga|[[Tinne (letter)|tinne]]}} ([[holly]])
+|ᚈ
+|-
+|'''[[U]]u'''
+|{{lang|ga|ú}} {{ref|fada|'''a'''}}
+|{{IPA|/uː/}}
+|{{lang|ga|[[úr]]}} ([[calluna|heather]])
+|ᚒ
+|-
+|'''[[V]]v'''
+|{{lang|ga|vé}}
+|{{IPA|/vʲeː/}}
+| rowspan="4" |
+| rowspan="4" |
+|Occurs in many nativised loanwords, such as {{lang|ga|[[Van|veain]]}}, {{lang|ga|[[Verse|véarsa]]}}, {{lang|ga|[[Violin|veidhlín]]}}, & {{lang|ga|[[Vote|vóta]]}}. <ref>https://focloir.ie/en/dictionary/nid/veain</ref><ref>https://focloir.ie/en/dictionary/nid/véarsa</ref><ref>https://focloir.ie/en/dictionary/nid/veidhlín</ref><ref>https://focloir.ie/en/dictionary/nid/vóta</ref> It also rarely occurs in native words, such as [[onomatopoeia]]; {{lang|ga|vácarnach}} "to quack" and {{lang|ga|vrác}} "caw". It also occurs in [[colloquialism]]s (e.g. {{lang|ga|víog}} for {{lang|ga|bíog}} "chirp" and {{lang|ga|vís}} for {{lang|ga|bís}} "screw"). As such, it is considered as the 19<sup>th</sup> letter of the modern Irish alphabet, and the only letter of the Irish alphabet to not have been in the traditional alphabet. ({{lang|ga|aibítir}}){{Citation needed|date=August 2026}} Usually pronounced {{IPA|/w/}} (broad) or {{IPA|/vʲ/}} (slender); even though the sound {{IPA|/vʲ/}} is a native phoneme, the letter {{angbr|v}} itself is a loan consonant, represented in other words by {{angbr|bh}}.
+|-
+|[[W]]w
+|{{lang|ga|wae}}
+|{{IPA|/weː/}}
+|Almost never used.
+|-
+|[[X]]x
+|{{lang|ga|eacs}}
+|{{IPA|/ɛksˠ/}}
+|Occurs in a relatively new loanwords, such as {{lang|ga|[[Xenon|xeanón]]}}, {{lang|ga|[[Xylophone|xileafón]]}}, or {{lang|ga|[[Xylem|xiléim]]}} <ref>https://focloir.ie/ga/dictionary/nid/xileafón</ref>, but often only at the start of word roots; {{angbr|x}} at the middle and ends of words is replaced with {{angbr|cs}} or {{angbr|s}}, like in {{lang|ga|tacsaí}}, {{lang|ga|eisisféar}}, or {{lang|ga|facs}}.<ref>https://focloir.ie/en/dictionary/nid/tacsaí</ref><ref>https://blogs.transparent.com/irish/some-irish-words-starting-with-the-letter-x-part-1-of-2</ref>
+|-
+|[[Y]]y
+|{{lang|ga|yé}}
+|{{IPA|/jeː/}}
+|Only occurs in some loanwords as {{lang|ga|[[Yeti|yeti]]}} and {{lang|ga|[[Yo-yo|yóyó]]}},<ref>{{Cite web |last=róislín |date=2018-08-04 |title=Another Irish Word Beginning with the Letter 'Y' (‘Yólais' as well as 'yó-yó,’ etc.) |url=https://blogs.transparent.com/irish/another-irish-word-beginning-with-the-letter-y-yolais-as-well-as-yo-yo-etc/ |access-date=2026-08-24 |website=Irish Language Blog {{!}} Language and Culture of the Irish-Speaking World |language=en}}</ref><ref>{{Cite web |title=yóyó |url=https://www.irishionary.com/dictionary/8763/yoyo/ |access-date=2026-08-24 |website=Irishionary.com |language=en}}</ref>, and is usually nativised to {{angbr|i}} in assimilated loanwords like {{lang|ga|[[yoga|ióga]]}} or {{lang|ga|[[yogurt|iógart]]}}.
+|-
+| [[Z]]z
+|{{lang|ga|zae}}
+|{{IPA|/zˠeː/}}
+|
+|ᚎ
+|Occurs in relatively new loanwords, such as {{lang|ga|[[Zen]]}}, {{lang|ga|[[zombie|zombaí]]}}, & {{lang|ga|[[zoo|zú]]}}<ref>https://blogs.transparent.com/irish/some-irish-words-beginning-with-the-letter-z-zaip-go-zu</ref><ref>https://focloir.ie/en/dictionary/nid/zú</ref> Typically represents {{IPA|/zˠ/}} (broad) or {{IPA|/ʒ/}} (slender). Both of these sounds are non-native phonemes (see [[Irish phonology]]) and are substituted with {{IPA|/s/}} in words like {{lang|ga|[[Zambia|Saimbia]]}} or {{lang|ga|[[Zimbabwe|Siombáib]]}}, or {{IPA|/st/}} in words like {{lang|ga|[[Zodiac|stoidiaca]]}}. {{vr|Z}} is also used to transliterate {{lang|ga|[[straif]]}}.
+|}
+
+== Grapheme to phoneme correspondence ==
+In [[grapheme]] to [[phoneme]] correspondence tables on this page:
+* "U" stands for Mayo and Ulster Irish, "C" for southern Connacht Irish, and "M" for Munster Irish.
+* Initially and finally mean word initial or final unless stated otherwise. 
+* {{IPA|/∅/}} means silent, i.e. that the [[Silent letter|letter(s) are not pronounced]]. 
+* The [[International Phonetic Alphabet|IPA]] transcriptions of examples on this page are in [[Connacht Irish]].
+
+See [[Irish phonology]] for an explanation of the symbols used and [[Irish initial mutations]] for an explanation of eclipsis and lenition.
+
+=== Consonants ===
+[[Consonant]]s are generally "broad" ([[velarization|velarised]]) when beside {{vr|a, á, o, ó, u, ú}} and "slender" ([[Palatalization (phonetics)|palatalised]]) when beside {{vr|e, é, i, í}}.<ref name=":0" /><ref name=":2">{{Cite web |title=Litreacha na h-aibítre sa Ghaeilge |url=https://www3.smo.uhi.ac.uk/gaeilge/gramadach/aibitir/ |access-date=2023-12-13 |website=www3.smo.uhi.ac.uk}}</ref><ref name=":3">{{Cite web |title=Irish Orthography |url=http://www.nualeargais.ie/gnag/ortho.htm |access-date=2023-12-13 |website=www.nualeargais.ie |archive-date=26 March 2023 |archive-url=https://web.archive.org/web/20230326031917/http://www.nualeargais.ie/gnag/ortho.htm |url-status=dead }}</ref> Irish orthography does not allow consonant letters or digraphs to be [[Digraph (orthography)#Double letters|doubled]] (except in {{vr|ll, nn, rr}}); in compound words which would result in doubled consonants, they are broken up by a hyphen ([[#Punctuation|see below]]).
+
+{| class="wikitable"
+! colspan="4" rowspan="2" | Letter(s)
+! colspan="3" | Phoneme(s)
+! rowspan="2" | Example(s)
+|-
+![[Ulster Irish|U]]
+![[Connacht Irish|C]] 
+![[Munster Irish|M]]
+|-
+| rowspan="2" | '''b'''
+| colspan="3" | broad
+| colspan="3" | {{IPA|/bˠ/}}
+| {{lang|ga|bain}} {{IPA|/bˠanʲ/}} "take" (imper.), {{lang|ga|scuab}} {{IPA|/sˠkuəbˠ/}} "broom"
+|-
+| colspan="3" | slender
+| colspan="3" | {{IPA|/bʲ/}}
+| {{lang|ga|béal}} {{IPA|/bʲeːlˠ/}} "mouth", {{lang|ga|cnáib}} {{IPA|/knˠaːbʲ/}} "hemp"
+|-
+| rowspan="3" | '''bh'''
+| colspan="3" | broad
+| colspan="3" | {{IPA|/w/}}
+| {{lang|ga|bhain}} {{IPA|/wanʲ/}} "took", {{lang|ga|ábhar}} {{IPA|/ˈaːwəɾˠ/}} "material", {{lang|ga|dubhaigh}} {{IPA|/ˈd̪ˠʊwiː/}} "blacken" (imper.), {{lang|ga|taobh}} {{IPA|/t̪ˠiːw/}} "side", {{lang|ga|dubh}} {{IPA|/d̪ˠʊw/}} "black"
+|-
+| colspan="3" | slender
+| colspan="3" | {{IPA|/vʲ/}}
+| {{lang|ga|bhéal}} {{IPA|/vʲeːlˠ/}} "mouth" (lenited), {{lang|ga|cuibhreann}} {{IPA|/ˈkɪvʲɾʲən̪ˠ/}} "common table", {{lang|ga|aibhneacha}} {{IPA|/ˈavʲnʲəxə/}} "rivers", {{lang|ga|sibh}} {{IPA|/ʃɪvʲ/}} "you" (pl.)
+|-
+| colspan="7" | See [[#Short vowels followed by ⟨bh, dh, gh, mh⟩|below]] for {{vr|(e)abh, obh, (i)ubh}}
+|-
+| rowspan="2" | '''bhf'''<br /><small>(eclipsis of</small> {{vr|f}}<small>)</small>
+| colspan="3" | broad
+| colspan="3" | {{IPA|/w/}}
+| {{lang|ga|bhfuinneog}} {{IPA|/ˈwɪn̠ʲoːɡ/}} "window" (eclipsed)
+|-
+| colspan="3" | slender
+| colspan="3" | {{IPA|/vʲ/}}
+| {{lang|ga|bhfíon}} {{IPA|/vʲiːnˠ/}} "wine" (eclipsed)
+|-
+| rowspan="2" | '''bp'''<br /><small>(eclipsis of {{vr|p}})</small>
+| colspan="3" | broad
+| colspan="3" | {{IPA|/bˠ/}}
+| {{lang|ga|bpoll}} {{IPA|/bˠoːl̪ˠ/}} "hole" (eclipsed)
+|-
+| colspan="3" | slender
+| colspan="3" | {{IPA|/bʲ/}}
+| {{lang|ga|bpríosún}} {{IPA|/ˈbʲɾʲiːsˠuːnˠ/}} "prison" (eclipsed)
+|-
+| rowspan="2" | '''c'''
+| colspan="3" | broad
+| colspan="3" | {{IPA|/k/}}
+| {{lang|ga|cáis}} {{IPA|/kaːʃ/}} "cheese", {{lang|ga|mac}} {{IPA|/mˠak/}} "son"
+|-
+| colspan="3" | slender
+| colspan="3" | {{IPA|/c/}}
+| {{lang|ga|ceist}} {{IPA|/cɛʃtʲ/}} "question", {{lang|ga|mic}} {{IPA|/mʲɪc/}} "sons"
+|-
+| rowspan="3" | '''ch'''
+| colspan="3" | broad
+| colspan="3" rowspan="2" | {{IPA|/x/}}
+| {{lang|ga|cháis}} {{IPA|/xaːʃ/}} "cheese" (lenited), {{lang|ga|taoiseach}} {{IPA|/ˈt̪ˠiːʃəx/}} "chieftain, [[Taoiseach|Prime Minister of Ireland]]"
+|-
+| rowspan="2" |slender
+| colspan="2" |before {{vr|t}}
+|{{lang|ga|boichte}} {{IPA|/bˠɔxtʲə/}} "poorer"
+|-
+| colspan="2" |usually
+| colspan="3" | {{IPA|/ç/}}
+| {{lang|ga|cheist}} {{IPA|/çɛʃtʲ/}} "question" (lenited), {{lang|ga|deich}} {{IPA|/dʲɛç/}} "ten", {{lang|ga|oíche}} {{IPA|/ˈiːçə/}} "night"
+|-
+| rowspan="2" | '''d'''
+| colspan="3" | broad
+| colspan="3" | {{IPA|/d̪ˠ/}}
+| {{lang|ga|dorn}} {{IPA|/d̪ˠoːɾˠn̪ˠ/}} "fist", {{lang|ga|nead}} {{IPA|/n̠ʲad̪ˠ/}} "nest"
+|-
+| colspan="3" | slender
+| colspan="3" | {{IPA|/dʲ/}}
+| {{lang|ga|dearg}} {{IPA|/dʲaɾˠəɡ/}} "red", {{lang|ga|cuid}} {{IPA|/kɪdʲ/}} "part"
+|-
+| rowspan="5" | '''dh'''
+| rowspan="2" | broad
+| colspan="2" |initially
+| colspan="3" | {{IPA|/ɣ/}}
+| {{lang|ga|dhorn}} {{IPA|/ɣoːɾˠn̪ˠ/}} "fist" (lenited)
+|-
+| colspan="2" |elsewhere
+| colspan="3" |{{IPA|/∅/}}
+|{{lang|ga|ádh}} {{IPA|/aː/}} "luck"
+|-
+| rowspan="2" | slender
+| colspan="2" |usually
+| colspan="3" | {{IPA|/j/}}
+| rowspan="2" | {{lang|ga|dhearg}} {{IPA|/ˈjaɾˠəɡ/}} "red" (lenited), {{lang|ga|fáidh}} {{IPA|/fˠaːj/}} "prophet"
+|-
+| colspan="2" |finally
+|{{IPA|/j/}}
+|{{IPA|/∅/}}
+|{{IPA|/ɟ/}}
+|-
+| colspan="7" | See [[#Short vowels followed by ⟨bh, dh, gh, mh⟩|below]] for {{vr|(e)adh, (a)idh, eidh, odh, oidh}}. See [[#Exceptions in verb forms|Exceptions]] for -{{vr|dh}} at the end of verbs endings.
+|-
+| rowspan="4" | '''dt'''
+| rowspan="2" | broad
+| colspan="2" |<small>eclipsis of</small> {{vr|t}}
+| colspan="3" | {{IPA|/d̪ˠ/}}
+| {{lang|ga|dtaisce}} {{IPA|/ˈd̪ˠaʃcə/}} "treasure" (eclipsed)
+|-
+| colspan="2" |elsewhere 
+| colspan="3" |{{IPA|/t̪ˠ/}}
+| {{lang|ga|greadta}} {{IPA|/ˈɟɾʲat̪ˠə/}} "beaten"
+|-
+| rowspan="2" | slender
+| colspan="2" |<small>eclipsis of</small> {{vr|t}}
+| colspan="3" | {{IPA|/dʲ/}}
+| {{lang|ga|dtír}} {{IPA|/dʲiːɾʲ/}} "country" (eclipsed)
+|-
+| colspan="2" |elsewhere
+| colspan="3" |{{IPA|/tʲ/}}
+|{{lang|ga|goidte}} {{IPA|/ˈɡɛtʲə/}} "stolen"
+|-
+| rowspan="3" | '''f'''
+| colspan="3" | broad
+| colspan="3" | {{IPA|/fˠ/}}
+| {{lang|ga|fós}} {{IPA|/fˠoːsˠ/}} "still", {{lang|ga|graf}} {{IPA|/ɡɾˠafˠ/}} "graph"
+|-
+| colspan="3" | slender
+| colspan="3" | {{IPA|/fʲ/}}
+| {{lang|ga|fíon}} {{IPA|/fʲiːnˠ/}} "wine", {{lang|ga|stuif}} {{IPA|/sˠt̪ˠɪfʲ/}} "stuff"
+|-
+| colspan="7" | See [[#Exceptions in verb forms|Exceptions in verb forms]] for -{{vr|f}}- in future and conditional personal verb endings.
+|-
+| colspan="4" | '''fh'''
+| colspan="3" | {{IPA|/∅/}}
+| {{lang|ga|fhuinneog}} {{IPA|/ˈɪn̠ʲoːɡ/}} "window" (lenited), {{lang|ga|fhíon}} {{IPA|/iːnˠ/}} "wine" (lenited)
+|-
+| rowspan="2" | '''g'''
+| colspan="3" | broad
+| colspan="3" | {{IPA|/ɡ/}}
+| {{lang|ga|gasúr}} {{IPA|/ˈɡasˠuːɾˠ/}} "boy", {{lang|ga|bog}} {{IPA|/bˠɔɡ/}} "soft"
+|-
+| colspan="3" | slender
+| colspan="3" | {{IPA|/ɟ/}}
+| {{lang|ga|geata}} {{IPA|/ˈɟat̪ˠə/}} "gate", {{lang|ga|carraig}} {{IPA|/ˈkaɾˠəɟ/}} "rock"
+|-
+| rowspan="2" | '''gc'''<br /><small>(eclipsis of</small> {{vr|c}}<small>)</small>
+| colspan="3" | broad
+| colspan="3" | {{IPA|/ɡ/}}
+| {{lang|ga|gcáis}} {{IPA|/ɡaːʃ/}} "cheese" (eclipsed)
+|-
+| colspan="3" | slender
+| colspan="3" | {{IPA|/ɟ/}}
+| {{lang|ga|gceist}} {{IPA|/ɟɛʃtʲ/}} "question" (eclipsed)
+|-
+| rowspan="5" | '''gh'''
+| rowspan="2" | broad
+| colspan="2" |initially
+| colspan="3" | {{IPA|/ɣ/}}
+| {{lang|ga|ghasúr}} {{IPA|/ˈɣasˠuːɾˠ/}} "boy" (lenited)
+|-
+| colspan="2" |elsewhere
+| colspan="3" |{{IPA|/∅/}}
+|{{lang|ga|Eoghan}} {{IPA|/ˈoːənˠ/}} (male name)
+|-
+| rowspan="2" | slender
+| colspan="2" |usually
+| colspan="3" | {{IPA|/j/}}
+| rowspan="2" | {{lang|ga|gheata}} {{IPA|/ˈjat̪ˠə/}} "gate" (lenited), {{lang|ga|dóigh}} {{IPA|/d̪ˠoːj/}} "way, manner"
+|-
+| colspan="2" |finally
+|{{IPA|/j/}}
+|{{IPA|/∅/}}
+|{{IPA|/ɟ/}}
+|-
+| colspan="7" | See [[#Short vowels followed by ⟨bh, dh, gh, mh⟩|below]] for {{vr|(e)agh, aigh, eigh, ogh, oigh, (u)igh}}. See [[#Exceptions in verb forms|Exceptions]] for {{vr|(a)igh}} at the end of verbs.
+|-
+| colspan="4" | '''h'''
+| colspan="3" | {{IPA|/h/}}
+| {{lang|ga|hata}} {{IPA|/ˈhat̪ˠə/}} "hat", {{lang|ga|na héisc}} {{IPA|/n̪ˠə heːʃc/}} "the fish" (plural)
+|-
+| colspan="4" |'''j''' (loan consonant)
+| colspan="3" |{{IPA|/dʒ/}}
+|{{lang|ga|jab}} {{IPA|/ˈdʒabˠ/}} "job", {{lang|ga|jíp}} {{IPA|/dʒiːpʲ/}} "jeep"
+|-
+| rowspan="6" |'''l'''
+| rowspan="3" |broad
+| rowspan="2" |initially
+|usually
+| colspan="3" |{{IPA|/l̪ˠ/}}
+|{{lang|ga|luí}} {{IPA|/l̪ˠiː/}} "lying (down)"
+|-
+|lenited
+| colspan="3" |{{IPA|/lˠ/}}
+|{{lang|ga|lann}} {{IPA|/lˠaːn̪ˠ/}} "blade" (lenited)
+|-
+| colspan="2" |elsewhere
+| colspan="3" | {{IPA|/lˠ/}} or {{IPA|/l̪ˠ/}}
+|{{lang|ga|béal}} {{IPA|/bʲeːlˠ/}} "mouth"
+|-
+| rowspan="3" |slender
+| rowspan="2" |initially
+|usually
+| colspan="3" |{{IPA|/l̠ʲ/}}
+|{{lang|ga|leisciúil}} {{IPA|/ˈl̠ʲɛʃcuːlʲ/}} "lazy"
+|-
+|lenited
+| colspan="3" |{{IPA|/lʲ/}}
+|{{lang|ga|leanbh}} {{IPA|/ˈlʲanˠəw/}} "baby" (lenited)
+|-
+| colspan="2" |elsewhere
+| colspan="3" | {{IPA|/lʲ/}} or {{IPA|/l̠ʲ/}}
+|{{lang|ga|siúil}} {{IPA|/ˈʃuːlʲ/}} "walk"
+|-
+| rowspan="2" |'''ll'''
+| colspan="3" |broad
+| colspan="3" | {{IPA|/l̪ˠ/}}
+|poll {{IPA|/poːl̪ˠ/}} "hole"
+|-
+| colspan="3" |slender
+| colspan="3" | {{IPA|/l̠ʲ/}}
+|coill {{IPA|/kəil̠ʲ/}} "woods"
+|-
+| rowspan="2" | '''m'''
+| colspan="3" | broad
+| colspan="3" | {{IPA|/mˠ/}}
+| {{lang|ga|mór}} {{IPA|/mˠoːɾˠ/}} "big", {{lang|ga|am}} {{IPA|/aːmˠ/}} "time"
+|-
+| colspan="3" | slender
+| colspan="3" | {{IPA|/mʲ/}}
+| {{lang|ga|milis}} {{IPA|/ˈmʲɪlʲəʃ/}} "sweet", {{lang|ga|im}} {{IPA|/iːmʲ/}} "butter"
+|-
+| rowspan="2" | '''mb'''<br /><small>(eclipsis of</small> {{vr|b}})
+| colspan="3" | broad
+| colspan="3" | {{IPA|/mˠ/}}
+| {{lang|ga|mbaineann}} {{IPA|/ˈmˠanʲən̪ˠ/}} "takes" (eclipsed)
+|-
+| colspan="3" | slender
+| colspan="3" | {{IPA|/mʲ/}}
+| {{lang|ga|mbéal}} {{IPA|/mʲeːlˠ/}} "mouth" (eclipsed)
+|-
+| rowspan="3" | '''mh'''
+| colspan="3" | broad
+| colspan="3" | {{IPA|/w/}}
+| {{lang|ga|mhór}} {{IPA|/woːɾˠ/}} "big" (lenited), {{lang|ga|lámha}} {{IPA|/ˈl̪ˠaːwə/}} "hands", {{lang|ga|léamh}} {{IPA|/l̠ʲeːw/}} "reading"
+|-
+| colspan="3" | slender
+| colspan="3" | {{IPA|/vʲ/}}
+| {{lang|ga|mhilis}} {{IPA|/ˈvʲɪlʲəʃ/}} "sweet" (lenited), {{lang|ga|uimhir}} {{IPA|/ˈɪvʲəɾʲ/}} "number", {{lang|ga|nimh}} {{IPA|/n̠ʲɪvʲ/}} "poison"
+|-
+| colspan="7" | See [[#Short vowels followed by ⟨bh, dh, gh, mh⟩|below]] for {{vr|(e)amh, omh, (i)umh}}. 
+|-
+| rowspan="8" |'''n'''
+| rowspan="4" |broad
+| rowspan="2" |initially
+|usually
+| colspan="3" |{{IPA|/n̪ˠ/}}
+|{{lang|ga|naoi}} {{IPA|/n̪ˠiː/}} "nine"
+|-
+|lenited
+| colspan="3" |{{IPA|/nˠ/}}
+|{{lang|ga|nótaí}} {{IPA|/nˠoːt̪ˠiː/}} "notes" (lenited)
+|-
+| colspan="2" |after non {{vr|s(h)}} initial cons.
+| colspan="2" |{{IPA|/ɾˠ/}}
+|{{IPA|/nˠ/}}
+|{{Lang|ga|mná}} {{IPA|/mˠɾˠaː/}} "women", {{Lang|ga|cnaipe}} {{IPA|/ˈkɾˠapʲə/}} "press"
+|-
+| colspan="2" |usually
+| colspan="3" | {{IPA|/nˠ/}} or {{IPA|/n̪ˠ/}}
+|{{lang|ga|bean}} {{IPA|/bʲanˠ/}} "woman"
+|-
+| rowspan="4" |slender
+| rowspan="2" |initially
+|usually
+| colspan="3" |{{IPA|/n̠ʲ/}}
+|{{lang|ga|neart}} {{IPA|/n̠ʲaɾˠt̪ˠ/}} "strength"
+|-
+|lenited
+| colspan="3" |{{IPA|/nʲ/}}
+|{{lang|ga|neart}} {{IPA|/nʲaɾˠt̪ˠ/}} "strength" (lenited)
+|-
+| colspan="2" |after non {{vr|s(h)}} initial cons.
+| colspan="2" |{{IPA|/ɾʲ/}}
+|{{IPA|/nʲ/}}
+|{{Lang|ga|gnéas}} {{Ipa|/ɟɾʲeːsˠ/}} "sex", {{Lang|ga|cníopaire}} {{IPA|/ˈcɾʲiːpˠəɾʲə/}} "skinflint"
+|-
+| colspan="2" |usually
+| colspan="3" | {{IPA|/nʲ/}} or {{IPA|/n̠ʲ/}}
+|{{lang|ga|Eoin}} {{IPA|/oːnʲ/}} (male name)
+|-
+| rowspan="2" | '''nc'''
+| colspan="3" | broad
+| colspan="3" | {{IPA|/ŋk/}}
+| {{lang|ga|ancaire}} {{IPA|/ˈaŋkəɾʲə/}} "anchor"
+|-
+| colspan="3" | slender
+| colspan="3" | {{IPA|/ɲc/}}
+| {{lang|ga|rinc}} {{IPA|/ɾˠɪɲc/}} "dance"
+|-
+| rowspan="2" | '''nd'''<br /><small>(eclipsis of</small> {{vr|d}}<small>)</small>
+| colspan="3" | broad
+| colspan="3" | {{IPA|/n̪ˠ/}}
+| {{lang|ga|ndorn}} {{IPA|/n̪ˠoːɾˠn̪ˠ/}} "fist" (eclipsed)
+|-
+| colspan="3" | slender
+| colspan="3" | {{IPA|/n̠ʲ/}}
+| {{lang|ga|ndearg}} {{IPA|/ˈn̠ʲaɾˠəɡ/}} "red" (eclipsed)
+|-
+| rowspan="4" | '''ng'''
+| rowspan="2" | broad
+| colspan="2" |<small>eclipsis of {{vr|g}}</small>
+| colspan="3" | {{IPA|/ŋ/}}
+| {{lang|ga|ngasúr}} {{IPA|/ˈŋasˠuːɾˠ/}} "boy" (eclipsed)
+|-
+| colspan="2" |elsewhere
+| colspan="3" |{{IPA|/ŋ(g)/}}
+|{{lang|ga|long}} {{IPA|/l̪ˠuːŋɡ/}} "ship", {{lang|ga|teanga}} {{IPA|/ˈtʲaŋɡə/}} "tongue"
+|-
+| rowspan="2" | slender
+| colspan="2" |<small>eclipsis of {{vr|g}}</small>
+| colspan="3" | {{IPA|/ɲ/}}
+| {{lang|ga|ngeata}} {{IPA|/ˈɲat̪ˠə/}} "gate" (eclipsed)
+|-
+| colspan="2" |elsewhere
+| colspan="3" |{{IPA|/ɲ(ɟ)/}}
+|{{lang|ga|cuing}} {{IPA|/kɪɲɟ/}} "yoke", {{lang|ga|ingear}} {{IPA|/ˈɪɲɟəɾˠ/}} "vertical"
+|-
+| rowspan="2" |'''nn'''
+| colspan="3" |broad
+| colspan="3" |{{IPA|/n̪ˠ/}}
+| {{lang|ga|ceann}} {{IPA|/caːn̪ˠ/}} "head"
+|-
+| colspan="3" |slender
+| colspan="3" |{{IPA|/n̠ʲ/}}
+|{{lang|ga|tinneas}} {{IPA|/ˈtʲɪn̠ʲəsˠ/}} "illness"
+|-
+| rowspan="2" | '''p'''
+| colspan="3" | broad
+| colspan="3" | {{IPA|/pˠ/}}
+| {{lang|ga|poll}} {{IPA|/pˠoːl̪ˠ/}} "hole", {{lang|ga|stop}} {{IPA|/sˠt̪ˠɔpˠ/}} "stop"
+|-
+| colspan="3" | slender
+| colspan="3" | {{IPA|/pʲ/}}
+| {{lang|ga|príosún}} {{IPA|/ˈpʲɾʲiːsˠuːnˠ/}} "prison", {{lang|ga|truip}} {{IPA|/t̪ˠɾˠɪpʲ/}} "trip"
+|-
+| rowspan="2" | '''ph'''
+| colspan="3" | broad
+| colspan="3" | {{IPA|/fˠ/}}
+| {{lang|ga|pholl}} {{IPA|/fˠoːl̪ˠ/}} "hole" (lenited)
+|-
+| colspan="3" | slender
+| colspan="3" | {{IPA|/fʲ/}}
+| {{lang|ga|phríosún}} {{IPA|/ˈfʲɾʲiːsˠuːnˠ/}} "prison" (lenited)
+|-
+| rowspan="5" | '''r'''
+| colspan="3" | broad
+| colspan="3" rowspan="4" | {{IPA|/ɾˠ/}}
+| {{lang|ga|ruán}} {{IPA|/ˈɾˠuːaːnˠ/}} "buckwheat", {{lang|ga|cumhra}} {{IPA|/kuːɾˠə/}} "fragrant", {{lang|ga|fuar}} {{IPA|/fˠuəɾˠ/}} "cold"
+|-
+| rowspan="4" |slender
+| colspan="2" |initially
+|{{lang|ga|rí}} {{IPA|/ɾˠiː/}} "king"
+|-
+| colspan="2" |[[Coronal consonant|before]] {{IPA|/d/}}, {{IPA|/h/}}, {{IPA|/l/}}, {{IPA|/n/}}, {{IPA|/ɾ/}}, {{IPA|/s/}}, {{IPA|/ʃ/}}, {{IPA|/t/}}
+|{{lang|ga|airde}} {{IPA|/aːɾˠdʲə/}} "height", {{lang|ga|duirling}} {{IPA|/ˈd̪ˠuːɾˠl̠ʲən̠ʲ/}} "stony beach", {{lang|ga|coirnéal}} {{IPA|/ˈkoːɾˠn̠ʲeːlˠ/}} "corner", {{lang|ga|cuairt}} {{IPA|/kuəɾˠtʲ/}} "visit", {{lang|ga|oirthear}} {{IPA|/ˈɔɾˠhəɾˠ/}} "east"
+|-
+| colspan="2" |after {{vr|s}}
+|{{lang|ga|sreang}} {{IPA|/sˠɾˠaŋɡ/}} "string"
+|-
+| colspan="2" |usually
+| colspan="3" | {{IPA|/ɾʲ/}}
+| {{lang|ga|tirim}} {{IPA|/ˈtʲɪɾʲəmʲ/}} "dry", {{lang|ga|fuair}} {{IPA|/fˠuəɾʲ/}} "got"
+|-
+| colspan="4" |'''rr'''
+| colspan="3" |{{IPA|/ɾˠ/}}
+|carr {{IPA|/kaːɾˠ/}} "car, cart"
+|-
+| rowspan="3" | '''s'''
+| colspan="3" | broad
+| colspan="3" rowspan="2" | {{IPA|/sˠ/}}
+| {{lang|ga|Sasana}} {{IPA|/ˈsˠasˠənˠə/}} "England", {{lang|ga|tús}} {{IPA|/t̪ˠuːsˠ/}} "beginning"
+|-
+| rowspan="2" |slender
+| colspan="2" |initially before {{IPA|/f/}}, {{IPA|/m/}}, {{IPA|/p/}}, {{IPA|/ɾ/}}
+|{{lang|ga|sféar}} {{IPA|/sˠfʲeːɾˠ/}} "sphere", {{lang|ga|speal}} {{IPA|/sˠpʲalˠ/}} "scythe", {{lang|ga|sméar}} {{IPA|/sˠmʲeːɾˠ/}} "blackberry", {{lang|ga|sreang}} {{IPA|/sˠɾˠaŋɡ/}} "string"
+|-
+| colspan="2" |usually
+| colspan="3" | {{IPA|/ʃ/}}
+| {{lang|ga|sean}} {{IPA|/ʃanˠ/}} "old", {{lang|ga|cáis}} {{IPA|/kaːʃ/}} "cheese"
+|-
+| colspan="4" | '''sh'''
+| colspan="3" | {{IPA|/h/}}
+| {{lang|ga|Shasana}} {{IPA|/ˈhasˠənˠə/}} "England" (lenited), {{lang|ga|shiúil}} {{IPA|/huːlʲ/}} "walked"
+|-
+| rowspan="2" | '''t'''
+| colspan="3" | broad
+| colspan="3" | {{IPA|/t̪ˠ/}}
+| {{lang|ga|taisce}} {{IPA|/ˈt̪ˠaʃcə/}} "treasure", {{lang|ga|ceart}} {{IPA|/caɾˠt̪ˠ/}} "correct"
+|-
+| colspan="3" | slender
+| colspan="3" | {{IPA|/tʲ/}}
+| {{lang|ga|tír}} {{IPA|/tʲiːɾʲ/}} "country", {{lang|ga|beirt}} {{IPA|/bʲɛɾˠtʲ/}} "two (people)"
+|-
+| rowspan="2" | '''th'''{{ref|-th-|'''b'''}}
+| colspan="3" |usually
+| colspan="3" rowspan="1" | {{IPA|/h/}}{{Ref|/h/|'''c'''}}
+|{{lang|ga|thuaidh}} {{IPA|/huə/}} "north", {{lang|ga|thíos}} {{IPA|/hiːsˠ/}} "below", {{lang|ga|athair}} {{IPA|/ˈahəɾʲ/}} "father", {{lang|ga|coinnithe}} {{IPA|/ˈkɪn̠ʲɪhə/}} "kept", {{lang|ga|ith}} {{IPA|/ɪh/}} "eat", {{lang|ga|foghlamtha}} {{IPA|/ˈfˠoːlˠəmˠhə/}} "learned", {{lang|ga|ruaigthe}} {{IPA|/ˈɾˠuəcə/}} "chased", {{lang|ga|scuabtha}} {{IPA|/ˈsˠkuəpˠə/}} "swept"
+|-
+| colspan="3" |finally after a long vowel or diphthong
+| colspan="3" |{{IPA|/∅/}}
+| {{lang|ga|bláth}} {{IPA|/bˠlˠaː/}} "blossom", {{lang|ga|cliath}} {{IPA|/clʲiə/}} "harrow" 
+|-
+| rowspan="2" | '''ts'''<br /><small>(mutation of {{vr|s}}- after {{Lang|ga|an}} "the")</small>
+| colspan="3" | broad
+| colspan="3" | {{IPA|/t̪ˠ/}}
+| {{lang|ga|an tsolais}} {{IPA|/ə(n̪ˠ) ˈt̪ˠɔlˠəʃ/}} "the light (gen.)"
+|-
+| colspan="3" | slender
+| colspan="3" | {{IPA|/tʲ/}}
+| {{lang|ga|an tSín}} {{IPA|/ə(nʲ) tʲiːnʲ/}} "China"
+|-
+| rowspan="2" | '''v''' <small>(loan consonant)</small>
+| colspan="3" | broad
+| colspan="3" | {{IPA|/w/}}
+| {{lang|ga|vóta}} {{IPA|/ˈwoːt̪ˠə/}} "vote"
+|-
+| colspan="3" | slender
+| colspan="3" | {{IPA|/vʲ/}}
+| {{lang|ga|veidhlín}} {{IPA|/ˈvʲəilʲiːnʲ/}} "violin"
+|-
+| colspan="4" |'''x''' <small>(loan consonant)</small>
+| colspan="3" |/ks/
+|''xileafón'' /ˈcɪlʲafˠoːn̪ˠ/ "xylophone"
+|-
+| rowspan="2" |'''z''' <small>(loan consonant)</small>
+| colspan="3" |broad
+| colspan="3" |{{IPA|/zˠ/}}
+|{{lang|ga|zú}} {{IPA|/zˠuː/}} "zoo"
+|-
+| colspan="3" |slender
+| colspan="3" |{{IPA|/ʒ/}}
+|{{lang|ga|Zen}} {{IPA|/ʒɛnʲ/}} "Zen"
+|}
+
+=== Vowels ===
+[[Vowel#Written_vowels|Vowel]] sequences are common in Irish spelling due to the "{{lang|ga|caol le caol agus leathan le leathan}}" ("slender with slender and broad with broad") rule, i.e. that the vowels on either side of any consonant (or [[consonant cluster]]) must be both slender ({{vr|e, é, i, í}}) or both broad ({{vr|a, á, o, ó, u, ú}}), to unambiguously determine if the consonant(s) are broad or slender. An apparent exception is {{vr|ae}}, which is followed by a broad consonant despite the {{vr|e}}.<ref name=":2" /><ref name=":3" /><ref>{{Cite web |title=Pronunciation Key |url=https://daltai.com/grammar/pronunciation-key/ |access-date=2023-12-13 |website=Daltaí na Gaeilge |language=en-US}}</ref><ref name=":1" />
+
+The pronunciation of vowels in Irish is mostly predictable from the following rules:
+
+* Unstressed short vowels are generally reduced to {{IPA|/ə/}}.
+* {{vr|e}} before {{vr|a}} or {{vr|o}} is silent, but marks a slender consonant. {{vr|i}} bordering either side of {{vr|u}} is silent, but marks a slender consonant. This is true for both long and short vowels.
+* {{vr|io, oi, ui}} have multiple pronunciations that depend on adjacent consonants.
+* [[Diacritic|Accented]] vowels ({{vr|á, é, í, ó, ú}}) represent [[Vowel length|long vowels]] and in [[digraph (orthography)|digraph]]s and [[trigraph (orthography)|trigraph]]s containing them, surrounding unaccented vowels are silent, but there are several exceptions, e.g. when preceded by two unaccented vowels.
+* Accented vowels in succession are both pronounced, e.g. {{lang|ga|séú}} {{IPA|/ˈʃeːuː/}} "sixth", {{lang|ga|ríúil}} {{IPA|/ˈɾˠiːuːlʲ/}} "royal, kingly, majestic", {{lang|ga|báíocht}} {{IPA|/ˈbˠaːiːxt̪ˠ/}} "sympathy", etc.
+* {{vr|i}} and {{vr|u}} are long before {{vr|á, ó}}, e.g. {{lang|ga|fiáin}} {{IPA|/ˈfʲiːaːnʲ/}} "wild", {{lang|ga|ruóg}} {{IPA|/ˈɾˠuːoːɡ/}} "twine"
+* A following {{vr|rd, rl, rn, rr}} lengthens some vowels and in Munster and Connacht. ⟨rr⟩ rarely ever occurs after a vowel other than ⟨a⟩.
+* A following syllable-final {{vr|ll, nn}} or word-final {{vr|m, ng}} may lengthen or diphthongise some vowels depending on dialect.
+{| class="wikitable"
+! colspan="3" rowspan="2" |Letter(s)
+! colspan="3" |Phoneme(s)
+! rowspan="2" |Example(s)
+|-
+![[Ulster Irish|U]]
+![[Connacht Irish|C]]
+![[Munster Irish|M]]
+|-
+| rowspan="5" |'''a, ea'''
+| rowspan="3" |stressed
+|usually
+| colspan="3" |{{IPA|/a/}}
+|{{lang|ga|fan}} {{IPA|/fˠanˠ/}} "stay" (imper.), {{lang|ga|bean}} {{IPA|/bʲanˠ/}} "woman"
+|-
+|before {{vr|rd, rl, rn, rr}}
+| colspan="3" |{{IPA|/aː/}}
+|{{lang|ga|garda}} {{IPA|/ˈɡaːɾˠd̪ˠə/}} "policeman", {{lang|ga|tarlú}} {{IPA|/ˈt̪ˠaːɾˠl̪ˠuː/}} "happening", {{lang|ga|bearna}} {{IPA|/ˈbʲaːɾˠn̪ˠə/}} "gap", {{Lang|ga|fearr}} {{IPA|/fʲaːɾˠ/}} "better"
+|-
+|before syllable-final {{vr|ll, nn}} and -{{vr|m}}
+|{{IPA|/a/}}
+|{{IPA|/aː/}}
+|{{IPA|/əu/}}
+|{{lang|ga|mall}} {{IPA|/mˠaːl̪ˠ/}} "slow, late", {{lang|ga|ann}} {{IPA|/aːn̪ˠ/}} "there", {{lang|ga|am}} {{IPA|/aːmˠ/}} "time", {{lang|ga|feanntach}} {{IPA|/ˈfʲaːn̪ˠt̪ˠəx/}} "severe"
+|-
+| rowspan="2" |unstressed
+|usually
+| colspan="3" |{{IPA|/ə/}}
+|{{lang|ga|ólann}} {{IPA|/ˈoːlˠən̪ˠ/}} "drink" (present), {{lang|ga|mála}} {{IPA|/ˈmˠaːlˠə/}} "bag", {{lang|ga|seisean}} {{IPA|/ˈʃɛʃənˠ/}} "he" (emphatic)
+|-
+|before {{IPA|/x/}}
+|{{IPA|/a/}}
+| colspan="2" |{{IPA|/ə/}}
+|{{lang|ga|Domhnach}} {{IPA|/ˈd̪ˠoːnˠəx/}} "Sunday", {{lang|ga|taoiseach}} {{IPA|/ˈt̪ˠiːʃəx/}} "chieftain; [[Taoiseach|Irish prime minister]]"
+|-
+| colspan="3" |'''á''', '''ái'''
+| colspan="3" |{{IPA|/aː/}}
+|{{lang|ga|bán}} {{IPA|/bˠaːnˠ/}} "white", {{lang|ga|dáil}} {{IPA|/d̪ˠaːlʲ/}} "assembly", {{lang|ga|gabháil}} {{IPA|/ˈɡawaːlʲ/}} "taking"
+|-
+| colspan="3" |'''ae''', '''aei'''
+| colspan="3" |{{IPA|/eː/}}
+|{{lang|ga|Gaelach}} {{IPA|/ˈɡeːlˠəx/}} "Gaelic", {{lang|ga|Gaeilge}} {{IPA|/ˈɡeːlʲɟə/}} "Irish (language)"
+|-
+| rowspan="4" |'''ai, eai'''
+| rowspan="3" |stressed
+|usually
+| colspan="3" |{{IPA|/a/}}
+|{{lang|ga|baile}} {{IPA|/ˈbˠalʲə/}} "home", {{lang|ga|veain}} {{IPA|/vʲanʲ/}} "van"
+|-
+|before {{vr|rd, rl, rn, rr}}
+| colspan="3" |{{IPA|/aː/}}
+|{{lang|ga|airne}} {{IPA|/aːɾˠn̠ʲə/}} "sloe", {{lang|ga|airde}} {{IPA|/aːɾˠdʲə/}} "height"
+|-
+|before syllable-final {{Vr|ll, nn}}
+|{{IPA|/a/}}
+|{{IPA|/aː/}}
+|{{IPA|/əi/}}
+|{{lang|ga|caillte}} {{IPA|/ˈkaːl̠ʲtʲə/}} "lost, ruined", {{lang|ga|crainn}} {{IPA|/kɾˠaːn̠ʲ/}} "trees"
+|-
+| colspan="2" |unstressed
+| colspan="3" |{{IPA|/ə/}}
+|{{lang|ga|eolais}} {{IPA|/ˈoːlˠəʃ/}} "knowledge" (genitive)
+|-
+| colspan="3" |'''aí''', '''aío'''
+| colspan="3" |{{IPA|/iː/}}
+|{{lang|ga|maígh}} {{IPA|/mˠiːj/}} "claim" (imper.), {{lang|ga|gutaí}} {{IPA|/ˈɡʊt̪ˠiː/}} "vowels", {{lang|ga|naíonán}} {{IPA|/ˈn̪ˠiːnˠaːnˠ/}} "infant", {{lang|ga|beannaíonn}} {{IPA|/ˈbʲan̪ˠiːnˠ/}} "blesses"
+|-
+| colspan="3" |'''ao'''
+| colspan="2" | {{IPA|/iː/}}
+|{{IPA|/eː/}}
+|{{lang|ga|saol}} {{IPA|/sˠiːlˠ/}} "life"
+|-
+| colspan="3" |'''aoi'''
+| colspan="3" |{{IPA|/iː/}}
+|{{lang|ga|gaois}} {{IPA|/ɡiːʃ/}} "shrewdness", {{lang|ga|naoi}} {{IPA|/ˈn̪ˠiː/}} "nine"
+|-
+| rowspan="5" |'''e''', '''ei'''
+| rowspan="4" |stressed
+|usually
+| colspan="3" |{{IPA|/ɛ/}}
+|{{lang|ga|te}} {{IPA|/tʲɛ/}} "hot", {{lang|ga|ceist}} {{IPA|/cɛʃtʲ/}} "question"
+|-
+|before {{vr|rd, rl, rn, rr}}
+| colspan="3" |{{IPA|/eː/}}
+|{{lang|ga|eirleach}} {{IPA|/ˈeːɾˠl̠ʲəx/}} "destruction", {{lang|ga|ceirnín}} {{IPA|/ˈceːɾˠnʲiːnʲ/}} "record album", {{lang|ga|ceird}} {{IPA|/ceːɾˠdʲ/}} "trade, craft"
+|-
+|before {{vr|m, mh, n}}
+| colspan="3" |{{IPA|/ɪ/}}
+|{{lang|ga|creimeadh}} {{IPA|/ˈcɾʲɪmʲə/}} "corrosion, erosion", {{lang|ga|sceimhle}} {{IPA|/ˈʃcɪvʲlʲə/}} "eroded", {{lang|ga|seinm}} {{IPA|/ˈʃɪnʲəmʲ/}} "playing"
+|-
+|before syllable-final {{Vr|nn}} and -{{Vr|m}}
+|{{IPA|/ɪ/}}
+|{{IPA|/iː/}}
+|{{IPA|/əi/}}
+|{{lang|ga|greim}} {{IPA|/ɟɾʲiːmʲ/}} "grip"
+|-
+| colspan="2" |unstressed
+| colspan="3" |{{IPA|/ə/}}
+|{{lang|ga|míle}} {{IPA|/ˈmʲiːlʲə/}} "thousand"
+|-
+| colspan="3" |'''é''', '''éa''', '''éi'''
+| colspan="3" |{{IPA|/eː/}}
+|{{lang|ga|sé}} {{IPA|/ʃeː/}} "he", {{lang|ga|déanamh}} {{IPA|/ˈdʲeːnˠəw/}} "doing", {{lang|ga|buidéal}} {{IPA|/ˈbˠɪdʲeːlˠ/}} "bottle", {{lang|ga|scéimh}} {{IPA|/ʃceːvʲ/}} "beauty", {{lang|ga|páipéir}} {{IPA|/ˈpˠaːpʲeːɾʲ/}} "papers"
+|-
+| colspan="3" |'''eá''', '''eái'''
+| colspan="3" |{{IPA|/aː/}}
+|{{lang|ga|Seán}} {{IPA|/ʃaːnˠ/}} "John", {{lang|ga|caisleán}} {{IPA|/ˈkaʃl̠ʲaːnˠ/}} "castle", {{lang|ga|meáin}} {{IPA|/mʲaːnʲ/}} "middles", {{lang|ga|caisleáin}} {{IPA|/ˈkaʃl̠ʲaːnʲ/}} "castles"
+|-
+| colspan="2" rowspan="2" |'''eo''', '''eoi'''
+|usually
+| colspan="3" |{{IPA|/oː/}}
+|{{lang|ga|ceol}} {{IPA|/coːlˠ/}} "music", {{lang|ga|dreoilín}} {{IPA|/ˈdʲɾʲoːlʲiːnʲ/}} "wren"
+|-
+|in four words
+| colspan="3" |{{IPA|/ɔ/}}
+|anseo {{IPA|/ənʲˈʃɔ/}} "here", deoch {{IPA|/dʲɔx/}} "drink", eochair {{IPA|/ˈɔxəɾʲ/}} "key", seo {{IPA|/ˈʃɔ/}} "this"
+|-
+| rowspan="3" |'''i'''
+| rowspan="2" |stressed
+|usually
+| colspan="3" |{{IPA|/ɪ/}}
+|{{lang|ga|pic}} {{IPA|/pʲɪc/}} "pitch", {{lang|ga|ifreann}} {{IPA|/ˈɪfʲɾʲən̪ˠ/}} "hell"
+|-
+|before syllable-final {{vr|ll, nn}} and -{{vr|m}}
+|{{IPA|/ɪ/}}
+| colspan="2" |{{IPA|/iː/}}
+|{{lang|ga|cill}} {{IPA|/ciːl̠ʲ/}} "church", {{lang|ga|cinnte}} {{IPA|/ˈciːn̠ʲtʲə/}} "sure", {{lang|ga|im}} {{IPA|/iːmʲ/}} "butter"
+|-
+| colspan="2" |unstressed
+| colspan="3" |{{IPA|/ə/}}
+|{{lang|ga|faoistin}} {{IPA|/ˈfˠiːʃtʲənʲ/}} "confession"
+|-
+| colspan="3" |'''í''', '''ío'''
+| colspan="3" |{{IPA|/iː/}}
+|{{lang|ga|gnímh}} {{IPA|/ɟnʲiːvʲ/}} "act, deed" (gen.), {{lang|ga|cailín}} {{IPA|/ˈkalʲiːnʲ/}} "girl", {{lang|ga|síol}} {{IPA|/ʃiːlˠ/}} "seed"
+|-
+| colspan="3" |'''ia''', '''iai'''
+| colspan="3" |{{IPA|/iə/}}
+|{{lang|ga|Diarmaid}} {{IPA|/dʲiərmədʲ/}} "Dermot", {{lang|ga|bliain}} {{IPA|/bʲlʲiənʲ/}} "year"
+|-
+| colspan="3" |'''iá''', '''iái'''
+| colspan="3" |{{IPA|/iː.aː/}}
+|{{lang|ga|bián}} {{IPA|/ˈbʲiːaːnˠ/}} "size", {{lang|ga|liáin}} {{IPA|/ˈl̠ʲiːaːnʲ/}} "trowel" (gen.)
+|-
+| colspan="2" rowspan="3" |'''io'''
+|usually
+|{{IPA|/ɪ/}}
+| colspan="2" |{{IPA|/ʊ/}}
+|{{lang|ga|siopa}} {{IPA|/ˈʃʊpˠə/}} "shop", {{lang|ga|liom}} {{IPA|/lʲʊmˠ/}} "with me", {{lang|ga|tiocfaidh}} {{IPA|/ˈtʲʊkiː/}} "will come", {{lang|ga|Siobhán}} {{IPA|/ˈʃʊwaːnˠ/}} "Joan", {{lang|ga|ionga}} {{IPA|/ˈʊŋɡə/}} "(finger)nail"
+|-
+|[[Coronal consonant|before]] {{IPA|/d/}}, {{IPA|/h/}}, {{IPA|/l/}}, {{IPA|/n/}}, {{IPA|/ɾ/}}, {{IPA|/s/}}, {{IPA|/ʃ/}}, {{IPA|/t/}}
+| colspan="3" |{{IPA|/ɪ/}}
+|{{lang|ga|fios}} {{IPA|/fʲɪsˠ/}} "knowledge", {{lang|ga|bior}} {{IPA|/bʲɪɾˠ/}} "spit, spike", {{lang|ga|cion}} {{IPA|/cɪnˠ/}} "affection", {{lang|ga|giota}} {{IPA|/ˈɟɪt̪ˠə/}} "bit, piece", {{lang|ga|friotháil}} {{IPA|/ˈfʲɾʲɪhaːlʲ/}} "attention"
+|-
+|before syllable-final {{Vr|nn}}
+|{{IPA|/ɪ/}}
+|{{IPA|/ʊ/}}
+|{{IPA|/uː/}}
+|{{lang|ga|fionn}} {{IPA|/fʲʊn̪ˠ/}} "light-haired"
+|-
+| colspan="3" |'''ió''', '''iói'''
+| colspan="3" |{{IPA|/iː.oː/}}
+|{{lang|ga|sióg}} {{IPA|/ˈʃiːoːɡ/}} "fairy", {{lang|ga|pióg}} {{IPA|/ˈpʲiːoːɡ/}} "pie", {{lang|ga|grióir}} {{IPA|/ˈɟɾʲiːoːɾʲ/}} "weakling"
+|-
+| colspan="3" |'''iu'''
+| colspan="3" |{{IPA|/ʊ/}}
+|{{lang|ga|fliuch}} {{IPA|/fʲlʲʊx/}} "wet"
+|-
+| colspan="3" |'''iú''', '''iúi'''
+| colspan="3" |{{IPA|/uː/}}
+|{{lang|ga|siúl}} {{IPA|/ʃuːlˠ/}} "walk", {{lang|ga|bailiú}} {{IPA|/ˈbˠalʲuː/}} "gathering", {{lang|ga|ciúin}} {{IPA|/cuːnʲ/}} "quiet", {{lang|ga|inniúil}} {{IPA|/ˈɪn̠ʲuːlʲ/}} "able, fit"
+|-
+| rowspan="5" |'''o'''
+| rowspan="4" |stressed
+|usually
+| colspan="3" |{{IPA|/ɔ/}}
+|{{lang|ga|post}} {{IPA|/pˠɔsˠt̪ˠ/}} "post"
+|-
+|before {{vr|rd, rl, rn, rr}}
+| colspan="3" |{{IPA|/oː/}}
+|{{lang|ga|bord}} {{IPA|/bˠoːɾˠd̪ˠ/}} "table", {{lang|ga|orlach}} {{IPA|/ˈoːɾˠl̪ˠəx/}} "inch"
+|-
+|before {{vr|n, m}}
+| rowspan="2" |{{IPA|/ɔ/}}
+| colspan="2" |{{IPA|/ʊ/}}
+|{{lang|ga|conradh}} {{IPA|/ˈkʊnˠɾˠə/}} "agreement", {{lang|ga|cromóg}} {{IPA|/ˈkɾˠʊmˠoːɡ/}} "hooked nose"
+|-
+|before syllable-final {{Vr|nn}} and -{{Vr|m, ng}}
+|{{IPA|/uː/}}
+|{{IPA|/əw/}}
+|{{lang|ga|fonn}} {{IPA|/fˠuːn̪ˠ/}} "desire, inclination", {{lang|ga|trom}} {{IPA|/t̪ˠɾˠuːmˠ/}} "heavy", {{lang|ga|long}} {{IPA|/l̪ˠuːŋɡ/}} "ship"
+|-
+| colspan="2" |unstressed
+| colspan="3" |{{IPA|/ə/}}
+|{{lang|ga|mo}} {{IPA|/mˠə/}} "my", {{lang|ga|cothrom}} {{IPA|/ˈkɔ(h)ɾˠəmˠ/}} "equal"
+|-
+| colspan="3" |'''ó''', '''ói'''
+| colspan="3" |{{IPA|/oː/}}
+|{{lang|ga|póg}} {{IPA|/pˠoːɡ/}} "kiss", {{lang|ga|armónach}} {{IPA|/ˈaɾˠəmˠoːnəx/}} "harmonic", {{lang|ga|móin}} {{IPA|/mˠoːnʲ/}} "sod, turf", {{lang|ga|bádóir}} {{IPA|/ˈbˠaːd̪ˠoːɾʲ/}} "boatman"
+|-
+| rowspan="7" |'''oi'''
+| rowspan="6" |stressed
+|usually
+| colspan="3" |{{IPA|/ɛ/}}
+|{{lang|ga|scoil}} {{IPA|/sˠkɛlʲ/}} "school", {{lang|ga|troid}} {{IPA|/t̪ˠɾˠɛdʲ/}} "fight" (imper.), {{lang|ga|toitín}} {{IPA|/ˈt̪ˠɛtʲiːnʲ/}} "cigarette", {{lang|ga|oibre}} {{IPA|/ˈɛbʲɾʲə/}} "work" (gen.), {{lang|ga|thoir}} {{IPA|/hɛɾʲ/}} "in the east", {{lang|ga|cloiche}} {{IPA|/ˈklˠɛçə/}} "stone" (gen.)
+|-
+|before {{IPA|/ɾh/}}, {{IPA|/ɾʃ/}}, {{IPA|/ɾtʲ/}}, {{IPA|/ʃ/}}, {{IPA|/xtʲ/}} 
+| colspan="3" |{{IPA|/ɔ/}}
+|{{lang|ga|cois}} {{IPA|/kɔʃ/}} "foot" (dat.), {{lang|ga|cloisfidh}} {{IPA|/ˈkl̪ˠɔʃiː/}} "will hear", {{lang|ga|boicht}} {{IPA|/bˠɔxtʲ/}} "poor" (gen. sg. masc.), {{lang|ga|doirse}} {{IPA|/ˈd̪ɔɾˠʃə/}} "doors", {{lang|ga|goirt}} {{IPA|/ɡɔɾˠtʲ/}} "salty", {{lang|ga|oirthear}} {{IPA|/ˈɔɾˠhəɾˠ/}} "east"
+|-
+|before {{vr|rd, rl, rn, rr}}
+| colspan="3" |{{IPA|/oː/}}
+|{{lang|ga|coirnéal}} {{IPA|/ˈkoːɾˠn̠ʲeːlˠ/}} "corner", {{lang|ga|oird}} {{IPA|/oːɾˠdʲ/}} "sledgehammers"
+|-
+|next to ⟨m⟩, ⟨n⟩
+| colspan="3" |{{IPA|/ɪ/}}
+|{{lang|ga|anois}} {{IPA|/əˈnˠɪʃ/}} "now", {{lang|ga|gloine}} {{IPA|/ˈɡlˠɪnʲə/}} "glass", {{lang|ga|cnoic}} {{IPA|/knˠɪc/}} "hills", {{lang|ga|roimh}} {{IPA|/ɾˠɪvʲ/}} "before", {{lang|ga|coimeád}} {{IPA|/ˈkɪmʲaːd̪ˠ/}} "keep" (imper.), {{lang|ga|loinge}} {{IPA|/ˈl̪ˠɪɲɟə/}} "ship" (gen.)
+|-
+|before syllable-final {{Vr|nn}} and -{{Vr|m}}
+| rowspan="2" |{{IPA|/ɪ/}}
+| colspan="2" |{{IPA|/iː/}}
+|{{lang|ga|foinn}} {{IPA|/fˠiːnʲ/}} "wish" (gen.), {{lang|ga|droim}} {{IPA|/d̪ˠɾˠiːmʲ/}} "back"
+|-
+|before syllable-final {{Vr|ll}}
+|{{IPA|/əj/}}
+|{{IPA|/iː/}}
+|{{lang|ga|goill}} {{IPA|/gəil̠ʲ/}} "grieve, hurt", {{lang|ga|coillte}} {{IPA|/ˈkəil̠ʲtʲə/}} "forests"
+|-
+| colspan="2" |unstressed
+| colspan="3" |{{IPA|/ə/}}
+|{{lang|ga|éadroime}} {{IPA|/eːdˠɾˠəmʲə/}} "lightness"
+|-
+| colspan="3" |'''oí''', '''oío'''
+| colspan="3" |{{IPA|/iː/}}
+|{{lang|ga|croíleacán}} {{IPA|/ˈkɾˠiːlʲəkaːnˠ/}} "core", {{lang|ga|croíonna}} {{IPA|/ˈkɾˠiːn̪ˠə/}} "hearts"
+|-
+| rowspan="3" |'''u'''
+| rowspan="2" |stressed
+|usually
+| colspan="3" |{{IPA|/ʊ/}}
+|{{lang|ga|dubh}} {{IPA|/d̪ˠʊw/}} "black"
+|-
+|before {{vr|rd, rl, rn}}
+| colspan="3" |{{IPA|/uː/}}
+|{{lang|ga|burla}} {{IPA|/ˈbˠuːɾˠl̪ˠə/}} "bundle", {{lang|ga|murnán}} {{IPA|/ˈmˠuːɾˠn̪ˠaːnˠ/}} "ankle"
+|-
+| colspan="2" |unstressed
+| colspan="3" |{{IPA|/ə/}}
+|{{lang|ga|agus}} {{IPA|/ˈaɡəsˠ/}} "and"
+|-
+| colspan="3" |'''ú''', '''úi'''
+| colspan="3" |{{IPA|/uː/}}
+|{{lang|ga|tús}} {{IPA|/t̪ˠuːsˠ/}} "beginning", {{lang|ga|súil}} {{IPA|/suːlʲ/}} "eye", {{lang|ga|cosúil}} {{IPA|/ˈkɔsˠuːlʲ/}} "like, resembling"
+|-
+| colspan="3" |'''ua''', '''uai'''
+| colspan="3" |{{IPA|/uə/}}
+|{{lang|ga|fuar}} {{IPA|/fˠuəɾˠ/}} "cold", {{lang|ga|fuair}} {{IPA|/fˠuəɾʲ/}} "got"
+|-
+| colspan="3" |'''uá''', '''uái'''
+| colspan="3" |{{IPA|/uː.aː/}}
+|{{lang|ga|ruán}} {{IPA|/ˈɾˠuːaːnˠ/}} "buckwheat", {{lang|ga|duán}} {{IPA|/ˈd̪ˠuːaːnˠ/}} "kidney, fishhook", {{lang|ga|fuáil}} {{IPA|/ˈfˠuːaːlʲ/}} "sewing, stitching"
+|-
+| rowspan="4" |'''ui'''
+| rowspan="3" |stressed
+|usually
+| colspan="3" |{{IPA|/ɪ/}}
+|{{lang|ga|duine}} {{IPA|/ˈd̪ˠɪnʲə/}} "person"
+|-
+|before {{vr|rd, rl, rn, rr}}
+| rowspan="2" |{{IPA|/ɪ/}}
+| colspan="2" |{{IPA|/uː/}}
+|{{lang|ga|duirling}} {{IPA|/ˈd̪ˠuːɾˠlʲənʲ/}} "stony beach", {{lang|ga|tuirne}} {{IPA|/ˈt̪ˠuːɾˠn̠ʲə/}} "spinning wheel"
+|-
+|before syllable-final {{Vr|ll, nn}} and -{{Vr|m}}
+| colspan="2" |{{IPA|/iː/}}
+|{{lang|ga|tuillteanach}} /ˈt̪ˠiːl̠ʲtʲənˠəx/ "deserving", {{lang|ga|puinn}} /pˠiːn̠ʲ/ "much", {{lang|ga|suim}} /sˠiːmʲ/ "interest"
+|-
+| colspan="2" |unstressed
+| colspan="3" |{{IPA|/ə/}}
+|{{lang|ga|aguisín}} {{IPA|/ˈaɡəʃiːnʲ/}} "addition"
+|-
+| colspan="3" |'''uí''', '''uío'''
+| colspan="3" |{{IPA|/iː/}}
+|{{lang|ga|buígh}} {{IPA|/bˠiːj/}} "turn yellow" (imper.), {{lang|ga|buíon}} {{IPA|/bˠiːnˠ/}} "band, troop"
+|-
+| colspan="3" |'''uó''', '''uói'''
+| colspan="3" |{{IPA|/uː.oː/}}
+|{{lang|ga|cruóg}} {{IPA|/ˈkɾˠuːoːɡ/}} "urgent need", {{lang|ga|luóige}} {{IPA|/ˈl̪ˠuːoːɟə/}} "[[pollock]]" (gen.)
+|}
+
+==== Short vowels followed by {{vr|bh, dh, gh, mh}} ====
+When followed by {{vr|bh, dh, gh, mh}}, a short vowel usually forms a [[diphthong]] or lengthens. In most dialects, this diphthong or lengthened vowel carries over to a neighbouring unstressed vowel.
+{| class="wikitable"
+! colspan="2" rowspan="2" |Letters
+! colspan="3" |Phoneme(s)
+! rowspan="2" |Example(s)
+|-
+![[Ulster Irish|U]]
+![[Connacht Irish|C]]
+![[Munster Irish|M]]
+|-
+| colspan="2" |'''(e)abh(a(i))'''
+|{{IPA|/oː(ə)/}} or {{IPA|/əu(ə)/}}
+| colspan="2" |{{IPA|/əu(ə)/}}
+|{{lang|ga|Feabhra}} {{IPA|/ˈfʲəuɾˠə/}} "February", {{lang|ga|leabhair}} {{IPA|/l̠ʲəuɾʲ/}} "books", {{lang|ga|sabhall}} {{IPA|/sˠəul̪ˠ/}} "barn"
+|-
+| rowspan="2" |'''(e)adh(a(i))''', '''(e)agh(a(i))''',
+|stressed
+|{{IPA|/eː/}} or {{IPA|/əi/}}
+| colspan="2" |{{IPA|/əi/}}
+|{{lang|ga|meadhg}} {{IPA|/mʲəiɡ/}} "whey", {{lang|ga|adharc}} {{IPA|/əiɾˠk/}} "horn", {{lang|ga|adhairt}} {{IPA|/əiɾˠtʲ/}} "pillow", {{lang|ga|saghsanna}} {{IPA|/ˈsˠəisˠən̪ˠə/}} "sorts, kinds", {{lang|ga|deagha}} {{IPA|/d̪ˠəi/}} "[[centaury]]", {{lang|ga|aghaidh}} {{IPA|/əi/}} "face"
+|-
+|unstressed
+|{{IPA|/uː/}}
+| colspan="2" |{{IPA|/ə/}}
+|{{lang|ga|margadh}} {{IPA|/ˈmˠaɾˠəɡə/}} "market", {{lang|ga|briseadh}} {{IPA|/ˈbʲɾʲɪʃə/}} "breaking"
+|-
+| rowspan="2" |'''aidh(e(a))''', '''aigh(e(a))'''
+|stressed
+| colspan="3" |{{IPA|/əi/}}
+|{{lang|ga|aidhleann}} {{IPA|/ˈəilʲən̪ˠ/}} "rack", {{lang|ga|aidhe}} {{IPA|/əi/}} "aye!", {{lang|ga|aighneas}} {{IPA|/əinʲəsˠ/}} "argument, discussion", {{lang|ga|aighe}} {{IPA|/əi/}} "cow, ox" (gen.), {{lang|ga|caighean}} {{IPA|/kəinˠ/}} "cage"
+|-
+|unstressed
+|{{IPA|/iː/}}
+|{{IPA|/ə/}}
+|{{IPA|/əɟ/}}
+|cleachtaidh {{IPA|/ˈclʲaxt̪ˠiː/}} "practice" (gen.), {{lang|ga|bacaigh}} {{IPA|/ˈbˠakiː/}} "beggar" (gen.)
+|-
+| rowspan="2" |'''(e)amh(a(i))'''
+|stressed
+| colspan="3" | {{IPA|/əu(ə)/}}
+|{{lang|ga|ramhraigh}} {{IPA|/ˈɾˠəuɾˠiː/}} "fattened", {{lang|ga|amhantar}} {{IPA|/ˈəun̪ˠt̪ˠəɾˠ/}} "venture", {{lang|ga|[[Samhain]]}} {{IPA|/sˠəunʲ/}} "November"
+|-
+|unstressed
+|{{IPA|/uː/}}
+|{{IPA|/ə(w)/}}
+|{{IPA|/əw/}}
+|{{Lang|ga|acadamh}} {{IPA|/ˈakəd̪ˠəw/}} "academy", {{Lang|ga|creideamh}} {{IPA|/ˈcɾʲɛdʲəw/}} "belief, religion"
+|-
+| colspan="2" |'''eidh(ea/i), eigh(ea/i)'''
+|{{IPA|/eː/}}
+| colspan="2" |{{IPA|/əi/}}
+|{{lang|ga|feidhm}} {{IPA|/fʲəimʲ/}} "function", {{lang|ga|eidheann}} {{IPA|/əin̪ˠ/}} "ivy", {{lang|ga|feighlí}} {{IPA|/ˈfʲəilʲiː/}} "overseer", {{lang|ga|leigheas}} {{IPA|/l̠ʲəisˠ/}} "healing"
+|-
+| rowspan="2" |'''(u)idh''', '''(u)igh'''
+|stressed
+| colspan="2" |{{IPA|/iː/}}
+|{{IPA|/ɪɟ/}}
+|{{lang|ga|ligh}} {{IPA|/l̠ʲiː/}} "sit", {{lang|ga|guigh}} {{IPA|/giː/}} "pray"
+|-
+|unstressed
+|{{IPA|/iː/}}
+|{{IPA|/ə/}}
+|{{IPA|/əɟ/}}
+|{{lang|ga|tuillidh}} {{IPA|/ˈt̪ˠɪl̠ʲiː/}} "addition" (gen.)
+|-
+| colspan="2" |'''obh(a(i)), odh(a(i)), ogh(a(i))'''
+|{{IPA|/oː(ə)/}}
+| colspan="2" |{{IPA|/əu(ə)/}}
+|{{lang|ga|lobhra}} {{IPA|/ˈl̪ˠəuɾˠə/}} "leprosy", {{lang|ga|bodhar}} {{IPA|/bˠəuɾˠ/}} "deaf", {{lang|ga|doghra}} {{IPA|/ˈd̪ˠəuɾˠə/}} "misery"
+|-
+| colspan="2" |'''oidh(ea/i), oigh(ea/i)'''
+| colspan="3" |{{IPA|/əi/}}
+|{{lang|ga|oidhre}} {{IPA|/əiɾʲə/}} "heir", {{lang|ga|oidheanna}} {{IPA|/əin̪ˠə/}} "tragedies", {{lang|ga|oigheann}} {{IPA|/əin̪ˠ/}} "oven", {{lang|ga|loighic}} {{IPA|/l̪ˠəic/}} "logic"
+|-
+| colspan="2" |'''omh(a(i))'''
+| colspan="3" |{{IPA|/oː(ə)/}}
+|{{lang|ga|Domhnach}} {{IPA|/ˈd̪ˠoːnˠəx/}} "Sunday", {{lang|ga|comhar}} {{IPA|/koːɾˠ/}} "partnership", {{lang|ga|domhain}} {{IPA|/d̪ˠoːnʲ/}} "deep"
+|-
+| colspan="2" |'''(i)ubh(a(i))'''
+|{{IPA|/uː(ə)/}}
+|{{IPA|/ʊ(wə)/}}
+|{{IPA|/ʊw(ə)/}}
+|{{lang|ga|dubh}} {{IPA|/d̪ˠʊw/}} "black", {{lang|ga|tiubh}} {{IPA|/tʲʊw/}} "dense"
+|-
+| colspan="2" |'''(i)umh(a(i))'''
+| colspan="3" |{{IPA|/uː(ə)/}}
+|{{lang|ga|cumhra}} {{IPA|/ˈkuːɾˠə/}} "fragrant", {{lang|ga|Mumhan}} {{IPA|/ˈmˠuːnˠ/}} "Munster" (gen.), {{lang|ga|ciumhais}} {{IPA|/cuːʃ/}} "edge"
+|}
+
+== Epenthesis ==
+{{Unreferenced section|date=March 2025}}
+After a [[Vowel length|short vowel]], an unwritten [[Epenthesis|epenthetic]] {{IPA|/ə/}} gets inserted between {{vr|l, n, r}} + {{vr|b, bh, ch, f, g, mh}} (as well as {{vr|p}}, when derived from devoiced {{vr|b, bh, mh}}), when within a [[morpheme]] boundary, e.g. {{lang|ga|gorm}} {{IPA|/ˈɡɔɾˠəmˠ/}} "blue", {{lang|ga|dearg}} {{IPA|/ˈdʲaɾˠəɡ/}} "red", {{lang|ga|dorcha}} {{IPA|/ˈd̪ˠɔɾˠəxə/}} "dark", {{lang|ga|ainm}} {{IPA|/ˈanʲəmʲ/}} "name", {{lang|ga|deilgneach}} {{IPA|/ˈdʲɛlʲəɟnʲəx/}} "prickly, thorny"’ {{lang|ga|leanbh}} {{IPA|/ˈl̠ʲanˠəw/}} "child", {{lang|ga|airgead}} {{IPA|/ˈaɾʲəɟəd̪ˠ/}} "silver, money". The main exception to this is {{vr|ng}} which is mainly used for {{IPA|/ŋ/}} or {{IPA|/ɲ/}}.
+
+Epenthesis does not occur after [[Vowel length|long vowels]] and diphthongs, e.g. {{lang|ga|téarma}} {{IPA|/tʲeːɾˠmˠə/}} "term" or {{lang|ga|dualgas}} {{IPA|/ˈd̪ˠuəlˠɡəsˠ/}} "duty", or across [[morpheme]] boundaries (i.e. after prefixes and in compound words), e.g. {{lang|ga|garmhac}} {{IPA|/ˈɡaɾˠwak/}} "grandson" (from {{lang|ga|gar-}} "close, near" + {{lang|ga|mac}} "son"), {{lang|ga|an-chiúin}} {{IPA|/ˈan̪ˠçuːnʲ/}} "very quiet" (from {{lang|ga|an-}} "very" + {{lang|ga|ciúin}} "quiet"), {{lang|ga|carrbhealach}} {{IPA|/ˈkaːɾˠvʲalˠəx/}} "carriageway, roadway" (from {{lang|ga|carr}} "car" + {{lang|ga|bealach}} "way, road").
+
+In Munster, epenthesis also occurs across morpheme boundaries, when {{vr|l, n, r}} follow {{vr|b, bh, ch, g, mh}} (after any vowel) or {{vr|th}} (after short vowels), and when {{vr|n}} follows {{vr|c, g, m, r}}.
+
+== Exceptions in verb forms ==
+{{See also|Irish conjugation}}In [[verb]] forms some letters and letter combinations are pronounced differently from elsewhere:
+{| class="wikitable"
+! colspan="4" rowspan="2" |Letter(s)
+! colspan="3" |Phoneme(s)
+! rowspan="2" |Example(s)
+|-
+![[Ulster Irish|U]]
+![[Connacht Irish|C]]
+![[Munster Irish|M]]
+|-
+| rowspan="4" |'''-dh'''
+| rowspan="3" |broad
+| colspan="2" |preterite
+| colspan="2" |{{IPA|/w/}}
+|{{IPA|/ɡ/}}
+|{{lang|ga|moladh é}} {{IPA|/ˈmˠɔlˠəw eː/}} "he was praised"
+|-
+| rowspan="2" |elsewhere
+|before {{vr|s}}- initial pronouns
+| colspan="2" |{{IPA|/tʲ/}}
+|{{IPA|/x/}}
+|{{lang|ga|osclaíodh sí}} {{IPA|/ˈɔsˠklˠiːtʲ ʃiː/}} "let her open"
+|-
+|usually
+|{{IPA|/w/}}
+| colspan="2" |{{IPA|/x/}}
+|{{lang|ga|bheannódh mé}} {{IPA|/ˈvʲan̪ˠoːx mʲeː/}} "I would bless"
+|-
+|slender
+| colspan="2" |before [[subject pronoun]]s
+| colspan="3" |(''silent'')
+|{{Lang|ga|beannóidh}} {{IPA|/ˈbʲan̪ˠoː/}} "will bless"
+|-
+|'''-ea-'''
+| colspan="3" |in forms of {{Lang|ga|bí}} "be"
+| colspan="3" |{{IPA|/ɛ/}}
+|{{lang|ga|bheadh sé}} {{IPA|/ˈvʲɛtʲ ʃeː/}} "he would be"
+|-
+|'''-eo(i)''', '''ó(i)-'''
+| colspan="3" |verb endings
+|{{IPA|/axə/}}
+| colspan="2" |{{IPA|/oː/}}
+|{{lang|ga|bheannóinn}} {{IPA|/ˈvʲan̪ˠoːn̠ʲ/}} "I would bless"
+|-
+|'''-f-'''
+| colspan="3" |in personal verb endings
+| colspan="3" |{{IPA|/h/}}{{ref|fada|'''c'''}}
+|{{lang|ga|dhófadh}} {{IPA|/ˈɣoːhəx/}} "would burn", {{lang|ga|déarfaidh}} {{IPA|/ˈdʲeːɾˠhiː/}} "will say"
+|-
+| colspan="4" |'''-(a)im'''
+|{{IPA|/əmˠ/}}
+| colspan="2" |{{IPA|/əmʲ/}}
+|{{lang|ga|molaim}} {{IPA|/ˈmˠɔlˠəmʲ/}} "I praise"
+|-
+|'''-(a)igh'''
+| colspan="3" |before [[subject pronoun]]s
+| colspan="3" |{{IPA|/ə/}}
+|{{lang|ga|bheannaigh mé}} {{IPA|/ˈvʲan̪ˠə mʲeː/}} "I blessed"
+|}
+
+==Diacritics==
+[[File:Gaeltacht_Donegal_cropped.jpg|thumb|An [[Road signs in Ireland|Irish road sign]] using the dotless i]]
+{{Lang|ga|[[An Caighdeán Oifigiúil]]}} currently uses one [[diacritic]], the acute accent, though traditionally a second was used, the overdot. If diacritics are unavailable, e.g. on a computer using [[ASCII]], the overdot is replaced by a following {{vr|h}}, e.g. {{Lang|ga|Ḃí sé}} → {{Lang|ga|Bhí sé}} "He/It was" and there is no standard for replacing an acute accent, though sometimes it is indicated by a following [[Slash (punctuation)|slash]], e.g. {{lang|ga|fírinne}} → {{lang|ga|fi/rinne}} "truth".<ref>{{cite web |first=Brian M. |last=Scott |date=1996-04-08 |title=[Reply to] Gaelic Translation Needed |url=https://groups.google.com/g/rec.org.sca/c/hAu2usW1Zl0/m/lMDUPdSCXK8J |website=Usenet newsgroup rec.org.sca |via=groups.google.com |quote=... the corresponding Irish Gaelic word is 'ge/ar' (slash indicating an acute accent on the previous vowel).... ... the later spelling of the patronymic, which I've also recast in its feminine form, is 'ni/ Chlu/mha/in'.|trans-quote=Further examples in the next comment by Heather Rose Jones, a significant voice in SCA heraldry.}}</ref>
+
+The [[acute accent]] ({{vr|◌́}}; {{lang|ga|agúid}} or {{lang|ga|(síneadh) fada}} "long (extension)"){{ref|fada|'''a'''}} is used to indicate a long vowel, as in {{lang|ga|bád}} {{IPA|/bˠaːd̪ˠ/}} "boat". However, there are other conventions to indicate a long vowel, such as:
+
+* A following {{vr|rd, rl, rn, rr}}, e.g. {{lang|ga|ard}} {{IPA|/aːɾˠd̪ˠ/}} "high", {{lang|ga|eirleach}} {{IPA|/ˈeːɾˠlʲəx/}} "destruction", {{lang|ga|dorn}} {{IPA|/d̪ˠoːɾˠn̪ˠ/}} "fist", and, in Connacht, a word-final {{vr|m}}, e.g. {{lang|ga|am}} {{IPA|/aːmˠ/}} "time".
+* The digraphs {{vr|ae, ao, eo}}, e.g. {{lang|ga|aerach}} {{IPA|/ˈeːɾˠəx/}} "gay", {{lang|ga|maol}} {{IPA|/mˠiːlˠ/}} "bare", {{lang|ga|ceol}} {{IPA|/coːlˠ/}} "music".
+* The tri/tetragraphs {{vr|omh(a), umh(a)}}, e.g. {{lang|ga|comharsa}} {{IPA|/ˈkoːɾˠsˠə/}} "neighbour", {{lang|ga|Mumhain}} {{IPA|/mˠuːnʲ/}} "Munster".
+* {{vr|i}} and {{vr|u}} before {{vr|á}} or {{vr|ó}}, e.g. {{lang|ga|fiáin}} {{IPA|/ˈfʲiːaːnʲ/}} "wild", {{lang|ga|ruóg}} {{IPA|/ˈɾˠuːoːɡ/}} "twine".
+
+The [[Dot (diacritic)#Overdot|overdot]] ({{vr|◌̇}}; {{lang|ga|ponc séimhithe}} "dot of lenition") was traditionally used to indicate [[Irish initial mutations|lenition]], though {{lang|ga|An Caighdeán}} exclusively uses a following {{vr|h}} for this purpose. In [[Old Irish language|Old Irish]], the overdot was only used for {{vr|ḟ, ṡ}}, while the following {{vr|h}} was used for {{vr|ch, ph, th}} and the lenition of other letters {{vr|b, d, g, m}} was not indicated, lenition being generally understood due to word position (somewhat like in [[Danish orthography|Danish]]). Later the two methods were used in parallel to represent lenition of any consonant (except {{vr|l, n, r}}) until the standard practice became to use the overdot in Gaelic type and the following {{vr|h}} in Roman type. Thus the dotted letters ({{lang|ga|litreacha buailte}} "struck letters") {{vr|{{wrap|ḃ, ċ, ḋ, ḟ, ġ, ṁ, ṗ, ṡ, ṫ}}}} are equivalent to letters followed by a {{vr|h}}, i.e. {{vr|{{wrap|bh, ch, dh, fh, gh, mh, ph, sh, th}}}}.
+
+[[Letter case|Lowercase]] {{vr|i}} has no [[tittle]] in Gaelic type. However, as printed and electronic material like books, newspapers and web pages use Roman type almost invariably, the tittle is generally shown. Irish does not [[Grapheme|graphemically]] distinguish [[I|dotted i]] and [[Dotless I|dotless ı]], i.e. they are not different letters as they are in, e.g. [[Turkish language|Turkish]] and [[Azerbaijani language|Azeri]].
+
+==Punctuation==
+[[File:Pay_and_Display_sign_with_Tironian_et_for_Irish_agus.jpg|thumb|{{lang|ga|Íoc ⁊ Taispeáin}} ("[[Pay and display|Pay & Display]]") sign in Dublin with the Tironian ''et'' for {{Lang|ga|agus}} "and".]]
+Irish [[punctuation]] is similar to English. An apparent exception is the [[Tironian et]] ({{vr|⁊}}; {{Lang|ga|agus}}) which abbreviates the word {{lang|ga|agus}} "and", like the [[ampersand]] ({{vr|&}}) abbreviates "and" in English. It is generally substituted by a [[7|seven]] ({{vr|7}}) in texts.
+
+A [[hyphen]] ({{lang|ga|fleiscín}}) is used in Irish after {{vr|t, n}} when prefixed to a masculine vowel-initial word as an [[Irish initial mutations|initial mutation]], e.g. {{lang|ga|an t-arán}} "the bread", {{lang|ga|a n-iníon}} "their daughter". However, it is omitted when the vowel is capitalised, e.g. {{lang|ga|an tAlbanach}} "the Scotsman", {{lang|ga|Ár nAthair}} "Our Father". No hyphen is used when {{vr|h}} is prefixed to a vowel-initial word, e.g. {{lang|ga|a hiníon}} "her daughter".
+
+A hyphen is also used in [[Compound (linguistics)|compound words]] under certain circumstances:
+
+* between two vowels, e.g. {{lang|ga|mí-ádh}} "misfortune"
+* between two similar consonants, e.g. {{lang|ga|droch-chaint}} "bad language", {{lang|ga|grod-díol}} "prompt payment"
+* in a three-part compound, e.g. {{lang|ga|buan-chomhchoiste}} "permanent joint committee"
+* after the prefixes {{lang|ga|do-}}, {{lang|ga|fo-}}, {{lang|ga|so-}} before a word beginning with {{vr|{{wrap|bha, bhla, bhra, dha, gha, ghla, ghra, mha}}}}, e.g. {{lang|ga|do-bhlasta}} "bad tasting", {{lang|ga|fo-ghlac}} "subsume", {{lang|ga|so-mharfacht}} "mortality"
+* in capitalised titles, e.g. {{lang|ga|An Príomh-Bhreitheamh}} "the Chief Justice"
+* after {{lang|ga|an-}} "very" and {{lang|ga|dea-}} "good", e.g. {{lang|ga|an-mhór}} "very big", {{lang|ga|dea-mhéin}} "goodwill"
+
+An [[apostrophe]] ({{lang|ga|uaschamóg}}) is used to indicate an omitted vowel in the following cases:
+
+* the prepositions {{lang|ga|de}} "from" and {{lang|ga|do}} "to" both become {{lang|ga|d'}} before a vowel or {{vr|fh}} + vowel, as in {{lang|ga|Thit sí d'each}} "She fell from a horse" and {{lang|ga|Tabhair d'fhear an tí é}} "Give it to the landlord"
+* the possessive pronouns {{lang|ga|mo}} "my" and {{lang|ga|do}} "your (singular)" become {{lang|ga|m'}} and {{lang|ga|d'}} before a vowel or {{vr|fh}} + vowel, as in {{lang|ga|m'óige}} "my youth", {{lang|ga|d'fhiacail}} "your tooth"
+* the preverbal [[Grammatical particle|particle]] {{lang|ga|do}} becomes {{lang|ga|d'}} before a vowel or {{vr|fh}} + vowel, as in {{lang|ga|d'ardaigh mé}} "I raised", {{lang|ga|d'fhanfadh sé}} "he would wait"
+* the copular particle {{lang|ga|ba}} becomes {{lang|ga|b'}} before a vowel or {{vr|fh}} + vowel, as in {{lang|ga|B'ait liom é sin}} "I found that odd" and {{lang|ga|b'fhéidir}} "maybe". However, {{lang|ga|ba}} is used before the pronouns {{lang|ga|é}}, {{lang|ga|í}}, {{lang|ga|iad}}, as in {{lang|ga|Ba iad na ginearáil a choinnigh an chumhacht}} "It was the generals who kept the power"
+
+==Capitalisation==
+[[File:ALLCAPS_OIFIG_NA_bPASANNA.JPG|right|thumb|[[Bilingual sign]] in Ireland. The [[eclipsis]] of {{vr|P}} to {{vr|bP}} uses lowercase in an otherwise [[All caps|all-caps]] text.]]
+[[Capitalisation]] rules are similar to English. However, a prefixed letter remains in lowercase when the base initial is capitalised ({{lang|ga|an tSín}} "China"). For text written in [[all caps]], the prefixed letter is kept in lowercase, or [[small caps]] ({{lang|ga|STAIR NA <small>{{sc|H}}</small>ÉIREANN}} "THE HISTORY OF IRELAND").<ref>Graiméar Gaeilge na mBráithre Críostaí, §3.2</ref> An initial capital is used for:<ref>Graiméar Gaeilge na mBráithre Críostaí, §3.1</ref>
+
+* Start of sentences
+* Names of people, places (except the words {{lang|ga|an}}, {{lang|ga|na}}, {{lang|ga|de}}),<ref>Graiméar Gaeilge na mBráithre Críostaí, §§ 3.1, 7.6, 10.2-10.3</ref> languages, and adjectives of people and places ({{lang|ga|Micheál Ó Murchú}} "Michael Murphy"; {{lang|ga|Máire Mhac an tSaoi}} "Mary McEntee"; {{lang|ga|de Búrca}} "Burke"; {{lang|ga|Sliabh na mBan}} "[[Slievenamon]]"; {{lang|ga|Fraincis}} "French"; {{lang|ga|bia Iodálach}} "Italian food")
+* Names of months, weeks and feast-days ({{lang|ga|Meán Fómhair}} "September"; {{lang|ga|an Luan}} "Monday"; {{lang|ga|Oíche Nollag}} "Christmas Eve")
+* {{lang|ga|Dé}} "day" ({{lang|ga|Dé Luain}} "on Monday")
+* Definite [[title]]s<ref>Graiméar Gaeilge na mBráithre Críostaí, §§ 3.1, 3.4</ref>
+
+==Abbreviations==
+Most Irish [[abbreviation]]s are straightforward, e.g. {{lang|ga|leathanach}} → {{Lang|ga|lch.}} ("page → p.") and {{lang|ga|mar shampla}} → {{Lang|ga|m.sh.}} ("{{Lang|la|exempli gratia}} (for example) → e.g."), but two that require explanation are: {{lang|ga|is é sin|italic=yes}} → {{Lang|ga|.i.}} ("that is → i.e.") and {{lang|ga|agus araile}} → {{Lang|ga|⁊rl./srl.}} ("[[et cetera]] (and so forth) → &c./etc.").<ref>{{Cite web |title=Abbreviations |url=https://daltai.com/grammar/abbreviations/ |access-date=2023-12-13 |website=Daltaí na Gaeilge |language=en-US}}</ref> Like {{vr|th}} in English, {{vr|ú}} follows an [[ordinal numeral]], e.g. {{Lang|ga|Is é Lá Fheile Phádraig an 17ú lá den Márta}} "St. Patrick's day is the 17th [day] of March".
+
+==Spelling reform==
+The literary [[Classical Irish]] which survived till the 17th century was archaic; the first attempt at simplification was not until 1639.<ref name="Crowley20052">{{cite journal |last=Crowley |first=Tony |year=2005 |title=Encoding Ireland: Dictionaries and Politics in Irish History |journal=Éire-Ireland |volume=40 |issue=3 |pages=119–139 |doi=10.1353/eir.2005.0017 |issn=1550-5162 |s2cid=154134330}}</ref> The spelling represented a [[dialect continuum]] including [[Phonological change|distinctions lost]] in all surviving dialects by the [[Gaelic revival]] of the late 19th century.
+
+The idea of a [[spelling reform]], linked to the use of Roman or Gaelic type, was controversial in the early decades of the 20th century.<ref name="Cearuil19992">{{cite book |last1=Ó Cearúil |first1=Micheál |url=http://www.constitution.ie/publications/irish-text.pdf#page=34 |title=Bunreacht na hÉireann: a study of the Irish text |last2=Ó Murchú |first2=Máirtín |publisher=Stationery Office |year=1999 |isbn=0-7076-6400-4 |location=Dublin |pages=27–41 |chapter=Script and Spelling |archive-url=https://web.archive.org/web/20110721123405/http://www.constitution.ie/publications/irish-text.pdf#page=34 |archive-date=21 July 2011}}</ref> The [[Irish Texts Society]]'s 1904 [[Bilingual dictionary|Irish-English dictionary]] by [[Patrick S. Dinneen]] used traditional spellings.<ref name="Cearuil19992" /> After the creation of the [[Irish Free State]] in 1922, all Acts of the [[Oireachtas]] were translated into Irish, initially using Dinneen's spellings, with a list of simplifications accumulating over the years.<ref name="Cearuil19992" /> When [[Éamon de Valera]] became [[President of the Executive Council of the Irish Free State|President of the Executive Council]] after the [[1932 Irish general election|1932 election]], policy reverted to older spellings, which were used in the enrolled text of the [[Constitution of Ireland|1937 Constitution]].<ref name="Cearuil19992" /> In 1941, de Valera decided to publish a "popular edition" of the Constitution with simplified spelling and established a committee of experts, which failed to agree on recommendations.<ref name="Cearuil19992" /><ref name="dail99n17p32">[http://debates.oireachtas.ie/dail/1946/03/07/00003.asp Dáil debates Vol.99 No.17 p.3] 7 March 1946</ref> Instead, the Oireachtas' own translation service prepared a booklet, {{lang|ga|Litriú na Gaeilge: Lámhleabhar an Chaighdeáin Oifigiúil}}, published in 1945.<ref name="dail99n17p32" />
+
+Some pre-reform spellings criticised by [[T. F. O'Rahilly]] and their modern forms include:<ref name="Cearuil19992" /> {{lang|ga|beirbhiughadh}} → {{lang|ga|beiriú}}, {{lang|ga|imthighthe}} → {{lang|ga|imithe}}, {{lang|ga|faghbháil}} → {{lang|ga|fáil}}, {{lang|ga|urradhas}} → {{lang|ga|urrús}}, {{lang|ga|filidheacht}} → {{lang|ga|filíocht}}.
+
+The booklet was expanded in 1947,<ref>{{cite book |url=https://archive.org/details/litriunagaeilge |title=Litriú na Gaeilge – Lámhleabhar An Chaighdeáin Oifigiúil |publisher=Stationery Office / Oifig an tSoláthair |year=1947 |location=Dublin |language=Irish |access-date=30 March 2020}}</ref> and republished as {{lang|ga|[[An Caighdeán Oifigiúil]]}} "The Official [[Standard language|Standard]]" in 1958, combined with the standard grammar of 1953.<ref name="Laoire19972">{{cite journal |last=Ó Laoire |first=Muiris |year=1997 |title=The Standardization of Irish Spelling: an Overview |url=http://www.englishspellingsociety.org/journals/j22/irish.php |url-status=dead |journal=Journal of the Spelling Society |volume=22 |issue=2 |pages=19–23 |archive-url=https://web.archive.org/web/20110722030235/http://www.englishspellingsociety.org/journals/j22/irish.php |archive-date=22 July 2011}}</ref> It attracted initial criticism as unhistorical and artificial; some spellings fail to represent the pronunciation of some dialects, while others preserve [[Silent letter|letters unpronounced]] in any dialect.<ref name="Laoire19972" /> Its status was reinforced by use in the [[Civil service of the Republic of Ireland|civil service]] and as a guide for [[Tomás de Bhaldraithe]]'s 1959 English–Irish dictionary and [[Niall Ó Dónaill]]'s 1977 Irish–English dictionary.<ref name="Laoire19972" /> A review of the written standard, including spelling, was announced in 2010, aiming to improve "simplicity, internal consistency, and logic".<ref>{{cite web |last=Central Translation Unit |title=The Scope of the Process |url=http://www.ahg.gov.ie/en/Irish/CentralTranslationUnit/TheScopeoftheProcess/ |url-status=dead |archive-url=https://web.archive.org/web/20131005001529/http://www.ahg.gov.ie/en/Irish/CentralTranslationUnit/TheScopeoftheProcess/ |archive-date=5 October 2013 |access-date=2012-02-12 |work=Review of Caighdeán Oifigiúil na Gaeilge |publisher=Department of Community, Equality and Gaeltacht Affairs}}</ref> The result was the 2017 update of {{Lang|ga|An Caighdeán Oifigiúil}}.<ref>{{cite web |title=Rannóg an Aistriúcháin > An Caighdeán Oifigiúil |url=http://www.oireachtas.ie/parliament/about/rannoganaistriuchain/ancaighdeanoifigiuil/ |quote=In September 2014, members of the public and other interested parties were asked to make submissions regarding An Caighdeán Oifigiúil. An Advisory Committee was also established, which worked tirelessly for a year and a half to identify issues and to make recommendations. The result of this work is the new edition of An Caighdeán Oifigiúil, published by the Houses of the Oireachtas Service in 2017.}}</ref>
+
+==See also==
+* [[Irish Braille]]
+* [[Irish initial mutations]]
+* [[Irish manual alphabet]]
+* [[Scottish Gaelic orthography]]
+
+==Notes==
+* {{note|fada|'''a'''}} Vowels with an acute accent are read as [á/é/í/ó/ú] {{lang|ga|fada}} "long [á/é/í/ó/ú]".
+* {{note|-th-|'''b'''}} In the verbal adjective suffix, -{{vr|th}}- becomes {{vr|t}} after {{vr|d, gh, l, n, s, t, th}} ({{vr|gh, th}} are deleted before it is added) and it becomes {{vr|f}} after {{vr|bh, mh}} which are deleted before it is added.
+* {{note|/h/|'''c'''}} After consonants, {{IPA|/h/}} is silent, but devoices preceding voiced consonants. See [[Irish phonology#Devoicing|Irish phonology]].
+
+==References==
+<references/>
+
+===Bibliography===
+*{{cite book| title=Gramadach na Gaeilge agus Litriú na Gaeilge: An Caighdeán Oifigiúil| year=1994| location=Dublin| publisher=Oifig an tSoláthair}}
+*{{cite book| last=Mac Eoin| first=Gearóid |author-link=Gearóid Mac Eoin |chapter=Irish| pages=101–44| title=The Celtic Languages| editor=Martin J. Ball |editor2=James Fife| location=London| publisher=Routledge| year=1993| isbn=0-415-01035-7}}
+*{{cite book| last=Ó Baoill| first=Dónall P.| title=Lárchanúint don Ghaeilge| year=1986| publisher=The Linguistics Institute of Ireland| location=Dublin| language=Irish| isbn=0-946452-06-7}}
+* {{cite book |last1=Ó Murchú |first1=Máirtín |editor-last=Fishman |editor-first=Joshua A. |title=Advances in the Creation and Revision of Writing Systems |chapter-url=https://books.google.com/books?id=O3wDDgAAQBAJ&pg=PA267|date=1977 |publisher=De Gruyter |isbn=9783110807097 |pages=267–289 |chapter=Successes and Failures in the Modernization of Irish Spelling}}
+*{{cite book| last=Ó Siadhail| first=Mícheál| author-link=Mícheál Ó Siadhail| title=Learning Irish| edition=2nd | year=1988| publisher=Yale University Press| location=New Haven| isbn=0-300-04224-8}}
+*{{cite book |last1=Stenson |first1=Nancy|last2=Hickey|first2=Tina |title=Understanding Irish Spelling A Handbook for Teachers and Learners |date=2018 |url=https://www.cogg.ie/wp-content/uploads/Understanding-Irish-Spelling-A-Handbook-for-Teachers-and-Learners-by-Dr.-Nancy-Stenson-and-Dr.-Tina-Hickey.pdf |language=en|publisher=An Chomhairle um Oideachas Gaeltachta & Gaelscolaíochta}}
+*{{cite book |title=Graiméar Gaeilge na mBráithre Críostaí |isbn=1-85791-327-2 |publisher=[[An Gúm]] |year=1999 |location=Dublin |language=Irish }}
+
+{{Irish linguistics}}{{Language orthographies}}
+
+[[Category:Irish language|Orthography]]
+[[Category:Indo-European Latin-script orthographies]]

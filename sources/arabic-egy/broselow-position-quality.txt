@@ -1,0 +1,1164 @@
+                       CHAPTER TWELVE
+
+      THE TYPOLOGY OF POSITION-QUALITY
+      INTERACTIONS IN LOANWORD VOWEL
+                 INSERTION1
+
+                       ELLEN BROSELOW
+
+
+                            1. Introduction
+    The central question of phonology is how speakers generalize beyond
+the data to which they have been exposed. One fruitful avenue of
+investigation is through the study of loanwords, since foreign forms often
+confront speakers with structures that do not appear in their native
+language. This paper will focus on one problem in the adaptation of
+borrowed words: how speakers adapt foreign words beginning in
+consonant sequences when their native language not only lacks complex
+onsets, but also lacks alternations that would provide evidence favoring
+any specific repair of such structures. A survey of the adaptation of
+complex onsets reveals that speakers of a wide range of languages have
+converged on similar strategies, in which different repairs are used for
+different types of onset clusters. The emergence of similar adaptation
+patterns across genetically and geographically diverse languages raises
+two questions: first, why do certain repair patterns emerge even in the
+absence of apparent support from the data of either the native or the
+foreign language? And second, why should these particular patterns be
+
+1
+ Portions of this paper were delivered to audiences at Utrecht University,
+Manchester University, the University of Pennsylvania, Academia Sinica, Oxford
+University, and Stony Brook University. I gratefully acknowledge the valuable
+comments and suggestions of the audiences at those venues and from the
+anonymous reviewer, as well as support from the National Science Foundation,
+BCS-07460227.
+     Typology of Position-Quality Interactions in Loanword Vowel Insertion 293
+
+
+widely attested across a range of recipient and source languages, while
+other logically possible patterns are rare or non-existent?
+    Speakers of languages that forbid complex syllable onsets have the
+choice of two major strategies for bringing foreign consonant sequences
+into conformity with native language restrictions: deletion of consonants
+or insertion of vowels. Although consonant deletion does occur (e.g.,
+Cantonese [fisa] ‘freezer’, Yip 1993; Finnish [ranta] ‘strand’ from
+Swedish strand, Young-Scholten & Archibald 2000), a more common
+strategy is insertion of a vowel to restructure an onset cluster into separate
+syllables (Brasington 1981; Uffmann 2006, 2007).2 Where vowel insertion
+is the preferred repair for complex onsets, biconsonantal clusters admit
+two possible positions for an inserted vowel—either before or inside the
+consonant cluster—while longer onsets admit additional possibilities.
+Speakers are also faced with a choice in the quality of the inserted vowel,
+which may be an invariant default, a contextually-determined vowel
+which copies some or all the features of a nearby vowel and/or a
+neighboring consonant, or some combination of these options.
+    A number of studies have focused on the position of inserted vowels
+(e.g., Broselow1983, 1992a, 1992b; Fleischhacker 2001, 2005), while
+other studies have examined the quality of inserted vowels in borrowed
+words (e.g., Kitto & de Lacy 1999; Rose & Demuth 2006; Uffmann 2006,
+2007). To date, however, there has been no systematic investigation of the
+connection between the position of the inserted vowel and its quality.
+While these two factors, position and quality, are in principle independent,
+I will present evidence that they do, in fact, interact in many languages, in a
+specific way: the vowel inserted in pre-cluster position is an invariant
+default, while the vowel inserted between two initial consonants is
+contextually determined. This pattern is attested across a range of source and
+recipient languages, while the opposite pattern appears never to occur. I will
+investigate possible explanations for this emergent pattern, suggesting that
+the copy vowels that appear inside onset clusters may arise in the mapping
+of the foreign surface structure to a phonological representation.
+    In §2, I review the facts of positional variation in vowel insertion as
+well as previous accounts of this variation. §3 provides an overview of the
+interaction between the position and the quality of the inserted vowel,
+while §4 outlines possible analyses of this interaction, followed by a
+summary in §5.
+
+2
+  This strong preference for vowel insertion over consonant deletion does not
+extend to coda position (Brasington 1981). The asymmetries in the adaptation of
+initial and final clusters is another interesting typological question, but beyond the
+scope of this paper.
+294                               Chapter Twelve
+
+
+                     2. Position of inserted vowels
+    Biconsonantal onsets present two possible sites for vowel insertion
+(where “V” indicates an underlying and “v” an inserted vowel): anaptyxis
+places the vowel within the cluster (CCV > Cv.CV) while prothesis places
+the vowel before the cluster (CCV > vC.CV). 3 For languages lacking
+syllable codas, the only possible vowel insertion site is following each
+non-prevocalic consonant. The more interesting cases, however, involve
+languages that permit syllable codas, since such languages in principle
+permit a choice of insertion site. For speakers whose native language
+provides no internal evidence for restrictions on possible coda consonants
+or preference for particular syllable contacts, the following repair
+strategies should all be feasible:
+
+(1)       Logically possible repair patterns
+
+          a. consistent Cv.CV
+          b. consistent vC.CV
+          c. random choice of Cv.CV or vC.CV
+
+Yet the actual distribution is heavily skewed in favor of anaptyxis
+(Cv.CV). Fleischhacker’s 2005 survey of vowel insertion patterns reveals
+a number of languages favoring within-cluster insertion, even where the
+output of prothesis would be well-formed. In contrast, Fleischhacker finds
+only two candidates for consistent insertion of a vowel before the
+cluster—Iraqi Arabic and Central SiberianYupik—and in both these
+languages, the pre-cluster insertion in loanwords appears to reflect a repair
+that is attested in the native language phonology as well (Broselow 1983;
+Fleischhacker 2001, 2005). Thus, there is no convincing case of a
+language in which a consistent strategy of prothesis appears to have arisen
+spontaneously, independent of the native language grammar.
+    However, it is not entirely accurate to claim that pre-cluster insertion
+does not emerge in loanword adaptation. While consistent prothesis is
+exceedingly rare, mixed systems—with insertion before certain onset
+
+3
+  I adopt the terminology of Fleischhacker’s (2005) insightful study of epenthesis
+position. I also limit this study to the adaptation of foreign words beginning in two
+consonants, since the data illustrating the adaptation of longer clusters are limited,
+in large part because of the relative scarcity of source words involving initial
+clusters of three consonants. However, a complete treatment of vowel insertion
+will ultimately need to account not only for longer initial clusters but also for
+word-internal and word-final clusters.
+      Typology of Position-Quality Interactions in Loanword Vowel Insertion 295
+
+
+cluster types and within other types–are surprisingly common. These
+patterns do not, however, instantiate possibility (1c) above, as the choice
+of prothesis vs. anaptyxis is not random, but rather systematic. These cases
+are discussed in the next section.
+
+                            2.1 Mixed patterns
+    As has long been recognized, many languages show adaptation
+patterns in which the position of an inserted vowel is dependent on the
+composition of the onset cluster. In Cairene Arabic, for example, a vowel
+is inserted within an onset cluster of rising sonority (that is, an obstruent
+followed by a sonorant (resonant) consonant), but before a cluster
+consisting of /s/-stop:
+
+(2)       Cairene Arabic borrowings from English (Broselow 1983; Hinds
+          & Badawy 1986; Galal 2004)
+
+          a. firiizar                 ‘freezer’
+             bilastik                 ‘plastic’
+             birinter                 ‘printer’
+             kirimbilin               ‘Crimplene’
+             silajd                   ‘slide’
+             siwetar                  ‘sweater’
+
+          b. ‫ݦ‬iskii                   ‘ski’
+             ‫ݦ‬istadi                  ‘study’
+             ‫ݦ‬ispiriƾ                 ‘spring’
+
+The same pattern appears in Makkan Arabic (Ahyad 2013):4
+
+(3)       Makkan Arabic borrowings from English
+
+          a. birek                    ‘break’
+
+          b. ‫ݦ‬iskaib                  ‘skype’
+
+This pattern is not limited to Arabic dialects; similar patterns are found in
+borrowings from English into two Indo-Aryan languages, Hindi and
+4
+ In both Cairene and Makkan Arabic, the high round vowel [u] may appear as the
+anaptyxctic vowel when the next lexical vowel is round. I return to this in the
+discussion of vowel quality.
+296                            Chapter Twelve
+
+
+Central Pahari, where /s/-stop and /sf/ onsets undergo prothesis while other
+onsets undergo anaptyxis:
+
+(4)      Hindi borrowings from English (Singh 1985)
+
+         a. fܼrut                     ‘fruit’
+            pܼlܼz                     ‘please’
+            sܼlܼper                   ‘slipper’
+
+         b. ܼsp‫ܭ‬liƾ                   ‘spelling’
+            ܼskul                     ‘school’
+            ܼsfiԥr                    ‘sphere’
+
+(5)      Central Pahari borrowings from English (Sharma 1980)
+
+         a. kilip          ‘clip’
+            silet          ‘slate’
+
+         b. istuul         ‘stool’
+            ispii‫ݹ‬         ‘speech’
+
+This pattern is surprising, for several reasons. First, speakers of languages
+with only single-consonant onsets receive no direct evidence for
+differential treatment of rising sonority vs. falling sonority onset clusters
+from their native language, where neither type occurs. Nor do the lending
+languages provide any obvious motivation for distinguishing obstruent-
+sonorant onsets from obstruent-obstruent onsets, since both types are
+realized faithfully in the foreign language. While, as Fleischhacker (2005)
+points out, insertion of a vowel within an /s/-stop onset would in some
+cases necessitate an additional change—from the unaspirated stop
+allophone that follows /s/ to the aspirated stop allophone that occurs
+intervocalically before a stressed vowel–this explanation is specific to
+English. However, the differential treatment of the two onset types cannot
+rest solely in the phonetic characteristics of the English clusters, because
+this asymmetric pattern emerges in a wide range of both borrowing
+languages and source languages.            Borrowings from Sanskrit into
+Sinhalese, for example, exhibit the same pattern of prothesis before /s/-
+stop and anaptyxis elsewhere:
+      Typology of Position-Quality Interactions in Loanword Vowel Insertion 297
+
+
+(6)       Sinhalese, from Sanskrit (Samarajiwa & Abeysekera 1964)
+
+            Sinhalese       Sanskrit
+          a. tijage         tjage              ‘gift’
+             tirividԥ       trividԥ            ‘triple’
+             sirijavԥ       srijavԥ            ‘grace’
+
+          b. istiri         stri               ‘woman’
+
+The anaptyxis/prothesis pattern is also evidenced in borrowings from
+French to Wolof (Broselow 1992b; Fleischhacker 2005) and to Fula
+(Paradis & LaCharité 1997), and from Russian to Kazakh (Fleischhacker
+2005) and to Kirgiz (Gouskova 2002). Thus, to maintain an explanation of
+this pattern as a response to some acoustic or perceptual factors in the
+signal (channel bias, in the terminology of Moreton 2008), we would need
+to identify triggering factors that are constant across all these genetically
+and geographically distinct languages. In the absence of such evidence,
+the anaptyxis/prothesis pattern presents a paradigm case of an emergent
+pattern: one that could not be directly learned from the linguistic data
+available to the speaker.
+    Furthermore, this asymmetric repair pattern challenges the
+fundamental Optimality Theory assumption that illegal structures are
+repaired with minimal violation of faithfulness constraints. In Cairene
+Arabic, prothesis represents a particularly inefficient repair choice;
+because vowel-initial syllables are banned in Arabic, pre-cluster insertion
+necessitates an additional repair, the insertion of a glottal stop before the
+inserted vowel. No ranking of the familiar markedness constraints
+*COMPLEXONSET, ONSET, NOCODA and faithfulness constraints DEPV,
+DEPC will choose the winning forms with pre-cluster insertion, as
+illustrated by the tableau below, in which the actual output form [‫ݦ‬is.kii]
+violates three constraints: the markedness constraint NOCODA and the
+faithfulness constraints DEPV and DEPC:
+298                              Chapter Twelve
+
+
+(7) Cairene Arabic
+
+
+    /ski/   ‘ski’   *COMPLE         ONSET      DEPV         DEPC        NOCODA
+                     XONSET
+
+      a. skii           *!
+
+    ☞ b. si.kii                                *
+
+      c. is.kii                     *          *                         *
+
+    ¥d. ‫ݦ‬is.kii                                *           *             *
+
+Note that (7b), which should be the winner under any ranking, would
+constitute an entirely unobjectionable surface structure in this language
+(cf. [sikitt] ‘I became quiet’). Yet apparently there must be some
+additional factor that favors prothesis in forms beginning in /s/-stop
+clusters.5
+    One possible explanation of the anaptyxis/prothesis pattern might
+appeal to universal markedness differences based on sonority. In Broselow
+(1992b), it is argued that regardless of native language, speakers have
+knowledge of a universal sonority continuum comprising, in order of
+increasing sonority, stops-fricatives-nasals-liquids-glides-vowels, along
+with an inviolable requirement that onset sequences must not fall in
+sonority (Selkirk 1982; Parker 2008). If these principles are indeed
+universal, they should lead speakers who encounter falling-sonority onsets
+to assume that these onsets cannot represent two independent segments,
+but rather share a linked representation that protects them (like true
+geminates) from being split by vowel insertion.6
+    While Broselow’s analysis rests on the assumption that anaptyxis is the
+preferred option, Gouskova (2002) argues that the faithfulness constraint
+CONTIGUITY, which bans insertion within a morpheme, favors pre-cluster
+insertion. However, Gouskova argues, prothesis may be blocked by a
+
+5
+  Repair of triconsonantal onsets also presents a challenge to the principle of
+minimal change from input to output. While insertion of a single vowel between
+the first two consonants would yield a legal syllable structure (e.g., street >
+[sit.riit]), the actual form is [‫ݦ‬is.ti.riit], with three violations of faithfulness
+incurred by insertion of two vowels plus insertion of a glottal stop.
+6
+  Following Browman and Goldstein’s (1986) proposal that English onsets allow
+only a single laryngeal specification, Broselow argued that /s/-stop onsets share a
+linked laryngeal node.
+      Typology of Position-Quality Interactions in Loanword Vowel Insertion 299
+
+
+competing markedness constraint, SYLLABLECONTACT, which bans a
+coda-onset sequence of rising sonority. The result of prothesis in a
+heterosyllabic /s/-stop sequence ([is.kii] ‘ski’) is consistent with both
+CONTIGUITY and SYLLABLECONTACT, but the latter constraint would block
+prothesis in a form like [ib.las.tik] ‘plastic’ due to the illegal syllable
+contact [b.l].
+    On both these approaches, the asymmetric insertion pattern represents
+an emergence of the unmarked effect (McCarthy & Prince 1994)—
+speakers respond to a markedness constraint for which their native
+language provides no direct evidence, but which is presumably part of
+their innate linguistic knowledge. In support of the anaptyxis/prothesis
+pattern as reflection of universal principles, Broselow (1992b) argued that
+the same asymmetric pattern is not restricted to loanword phonology; it
+also appears in a native language, Modern Western Armenian, where
+surface schwa is inserted between members of onsets of rising sonority
+(8a) or equal sonority (8b), but before fricative-stop onsets (8c):
+
+(8)       Modern Western Armenian (Bardakjian & Thompson 1977;
+          Broselow 1992b)
+
+            Input           Surface
+          a. grag           gԥrag              ‘fire’
+             vnas           vԥnas              ‘harm’
+             hnar           hԥnar              ‘resource’
+             srel           sԥrel              ‘sharpen’
+
+          b. nman           nԥman              ‘similar’
+
+          c. stapil         ԥstapil            ‘come to one’s senses’
+             spopel         ԥspopel            ‘console’
+             skanceli       ԥskanceli          ‘wonderful’
+             ‫ݕ‬tapel         ԥ‫ݕ‬tapel            ‘hurry’
+
+    However, these emergences of the unmarked accounts face both
+theoretical and empirical problems. First, in Optimality Theory, constraint
+rankings are assumed to be learned from the data to which the learner is
+exposed. Where neither the native nor the foreign language appears to
+present evidence for crucial loanword rankings, the burden of proof lies on
+the analyst to explain the source of those rankings.7The anaptyxis/prothesis
+7
+  See, e.g., Peperkamp 2005, Broselow 2009, Kang 2011 for more detailed
+discussion of the learnability issues surrounding loanword phonology.
+300                            Chapter Twelve
+
+
+pattern requires a number of crucial rankings: not only the ranking of the
+markedness constraint SYLLABLECONTACT over CONTIGUITY, which
+favors prothesis, but also the ranking of CONTIGUITY over ANCHOR-LEFT
+(STEM, PWORD), which demands that the leftmost segment of the stem
+have a correspondent at the left edge of the word, thereby favoring
+anaptyxis. To explain how speakers arrive at these rankings, one would
+need to demonstrate for each adaptation case that each ranking either is
+learnable from ambient data, or represents a universal default. A full
+treatment of this issue would require analysis of clusters in all positions
+within the word.
+    The purely sonority-based explanations face an empirical problem as
+well: the distinction between rising vs. falling sonority onsets is not
+sufficient to account for the range of patterns found across languages.
+Fleischhacker (2005), in the most extensive survey to date of loanword
+vowel insertion sites, found that in a number of languages, including
+Kazakh, Farsi, and the Hindi of some speakers, rising sonority clusters
+consisting of a sibilant fricative (/s/, /‫ݕ‬/) followed by a resonant consonant
+(nasal, liquid, glide) may undergo prothesis rather than anaptyxis, and that
+in fact, the same cluster may exhibit variation within a single language.
+Thus, sonority is not entirely predictive, although is also not entirely
+irrelevant; fricative-sonorant onsets with a steeper sonority rise (e.g., /s/-
+glide) are more likely to undergo anaptyxis, while those in which the
+second consonant has lower sonority (e.g., /s/-nasal) are more likely to
+undergo prothesis. As the following data illustrate, Fleischhacker’s Farsi
+consultant repaired sibilant-nasal and sibilant-[l] clusters via prothesis and
+sibilant-[r] and sibilant-[w] clusters via anaptyxis:
+
+(9)      Farsi (Fleischhacker 2005)
+
+         a. esmintian                 ‘Smintian’
+            e‫ݕ‬las                     ‘Schloss’
+
+         b. seri laƾka                ‘Sri Lanka’
+            sevanhild                 ‘Schwanhild’ (~[sowanhild])
+
+    Given, as Fleischhacker points out, that the mixed pattern cannot be
+attributed to a simple categorical difference between falling sonority and
+rising sonority onsets, some other explanation is necessary. Fleischhacker
+proposes, following work by Steriade (2001), that the driving force behind
+the mixed pattern is the imperative to maintain the minimal perceptual
+distance between input and output. Fleischhacker presents evidence from
+       Typology of Position-Quality Interactions in Loanword Vowel Insertion 301
+
+
+a variety of sources, including near puns, alliterative patterns,
+reduplication, and experimental investigation of similarity judgements,
+supporting the hypothesis that obstruent-resonant (OR) clusters (i.e., an
+obstruent followed by a nasal, liquid, or glide) are perceived as more
+similar to OvR than to vOR, while the same relationship does not hold for
+sibilant fricative-stop (ST) clusters and SvT. As expected from the
+variable adaptation of sibilant fricative-resonant clusters like /sm/,
+listeners vary in their judgements of the similarity of clusters containing
+sibilant fricatives (/s, ‫ݕ‬/) followed by resonants vis-à-vis anaptyctic SvT
+and prothetic vST. Fleischhacker proposes a set of similarity-sensitive
+correspondence constraints prohibiting the insertion of vowels in specific
+contexts, with the fixed ranking shown below, where S = sibilant fricative;
+T=stop, N=nasal, L=liquid, and R=resonant consonant:
+
+(10)       Correspondence constraints (Fleischhacker 2001, 2005)
+
+           DEP-V/S-T >> DEP-V/S_N >> DEP-V/S_L >> DEP-V/T_R
+
+The point at which CONTIGUITY is ranked within this hierarchy determines
+the choice of anaptyxis vs. prothesis for individual clusters, but the fixed
+ranking implies that vowel insertion may not separate /s/-stop clusters
+unless it also separates other clusters. Zuraw (2007) presents additional
+evidence of a preference for maintaining contiguity of the members of /s/-
+stop onsets. In her investigation of Tagalog speakers’ preferred placement
+of VC infixes in non-native words beginning with various cluster types,
+Zuraw found that placement of the infix within an /s/-stop onset (e.g., s-
+VC-pin) was less likely and was judged less acceptable than placement
+after the cluster (sp-VC-in). In other /s/-consonant onsets, the acceptability
+of the within-cluster placement tended to increase with increasing sonority
+of the second consonant.
+    Fleischhacker’s proposal predicts that the preferred repair of a non-
+native cluster should be the one that is most difficult to discriminate from
+the original structure. Subsequent research on the relationship between the
+pronunciation of unfamiliar onset clusters and the discriminability of
+different repairs by Shaw and Davidson (2011) and Davidson and Shaw
+(2012) has revealed that such correlations are strong but not perfect. They
+found, for example, that while the most frequent production error for non-
+English fricative-nasal sequences was FvN, the most difficult pair for
+English speakers to discriminate was FN-vFN. Nonetheless,
+Fleischhacker’s insight into the crucial role played by the perceptual
+distance between original and repaired forms in loan adaptation represents
+302                                Chapter Twelve
+
+
+a significant advance in our understanding of these patterns, one that we
+will return to in our discussion of the interaction in the position and the
+quality of the inserted vowel.
+
+        3. Interaction of vowel position and vowel quality
+      As Hall (2011: 1590) notes,
+
+      “the patterns of vowel quality in loanwords are often strikingly complex in
+      ways that are not common (and perhaps not attested at all) in native
+      language epenthesis.”
+
+Nonetheless, we may identify some clear trends. First, certain languages
+have a single preferred default vowel. The identity of this vowel may vary
+from language to language—for example, /u/ in Japanese and /i/ in
+SeTswana, as illustrated in their respective adaptations of ‘Christmas’ as
+[kurisumasu] and [kirisimasi]. Alternatively, loans may be adapted via
+insertion of a contextually-determined vowel, which may share some or all
+features with a nearby vowel, may share features with a neighboring
+consonant, or may show some combination of the effects of both vowel
+and consonant context. In these cases, the quality of the inserted vowel is
+often highly variable and not fully predictable; the reader is referred to
+Uffmann (2007) for careful case studies of the relationship between vowel
+quality and context.
+    Just as many languages exhibit mixed systems in the position of the
+inserted vowel, many languages also show mixed systems of vowel
+quality. Furthermore, as with positional variation, the choice among
+available options—in this case, the choice between a default vowel and a
+contextually determined vowel—is in many languages largely systematic.
+Mahato (1974) reports that Bengali (Mahato 1974) exhibits the familiar
+pattern of anaptyxis in rising sonority onsets but prothesis in fricative-stop
+onsets. The interesting fact, for our purposes, is that the quality of the
+vowel varies by position, with [e] inserted within obstruent-resonant
+clusters, as in (11a), but [i] before S-stop clusters, as in (11b):
+
+(11)        Bengali borrowings from English (Mahato 1974)
+
+            a. gela‫ݕ‬           ‘glass’
+               ‫ݕ‬elet           ‘slate’
+
+            b. i‫ݕ‬kul           ‘school’
+               istæmp          ‘stamp’
+       Typology of Position-Quality Interactions in Loanword Vowel Insertion 303
+
+
+    We see a somewhat different (but ultimately more common) pattern of
+position-quality interaction in the Dravidian language Telugu (Rao 1986).
+Telugu shows variation between the two major strategies of complex onset
+nativization, consonant deletion and vowel insertion. When consonant
+deletion is employed, it is the more sonorous consonant that deletes: the
+second in a rising sonority onset, and the first in a fricative-stop onset.
+When a vowel is inserted, the position of the inserted vowel follows the
+now familiar anaptyxis/prothesis pattern, and the quality of the inserted
+vowel varies according to position: the anaptyctic vowel is a copy of the
+following vowel, while a prothetic vowel is a default [i]:
+
+(12)       Telugu borrowings from English (Rao 1986)
+
+           a. galasu ~ gasu                     ‘glass’
+
+           b. iste‫ ݕ‬ԥnu ~ te‫ ݕ‬ԥnu               ‘station’
+
+This pattern–insertion of a copy vowel within clusters, but insertion of a
+default vowel before clusters–turns out to be surprisingly common across
+a wide range of genetically distinct language families. We find the same
+pattern in borrowings from French into the Niger-Congo language Fula
+(Paradis & LaCharité 1997):
+
+(13)       Fula borrowings from French (Paradis & LaCharité 1997)
+
+              Fula            French
+           a. birik‫ܭ‬t         brik‫ܭ‬             ‘lighter’ (‘briquet’)
+              kala:s          klas              ‘class’ (‘classe’)
+              darap‫ܧ‬          drapo             ‘flag’ (‘drapeau’)
+
+           b. istati          staty             ‘statue’ (‘statue’)
+
+Furthermore, the same pattern appears in borrowings from English into the
+Sino-Tibetan language Sherpa, in which the only possible complex onset
+in native words is a consonant followed by a glide (Sherpa 2012). In a
+study of established loanwords, Sherpa (2012) found that English
+consonant-glide onsets were preserved (the only examples in the database
+contained [sw]). Complex onsets were otherwise repaired by vowel
+insertion which varied in both position and quality. The database
+contained thirteen forms adapted from English words beginning in stop-
+liquid clusters and one beginning in fricative-liquid, all of which were
+304                            Chapter Twelve
+
+
+adapted by insertion of a copy vowel between the onset consonants, and
+four English words beginning in /s/-stop, all adapted by insertion of [i]
+before the onset cluster:
+
+(14)     Sherpa (Sherpa 2012)
+
+         a. balaƾket                            ‘blanket’
+            baljak‫ݚ‬i                            ‘black tea’
+            palan                               ‘plan’
+            palas‫ݚ‬ik                            ‘plastic’
+            berek                               ‘break’
+            poro‫ݚ‬in                             ‘protein’
+            porogaram                           ‘program’
+            ‫ݚ‬eren                               ‘train’
+            ‫ݚ‬arak                               ‘truck’
+            ‫ܩ‬aram                               ‘drum’
+            kalaimet                            ‘climate’
+            kilinik                             ‘clinic’
+            kirismas                            ‘Christmas’
+            ‫ݕ‬irim                               ‘shrimp’
+
+         b. isku‫ݚ‬ar                             ‘scooter’
+            iskin                               ‘skin’
+            iskil                               ‘skill’
+            iskalar‫ݕ‬ip                          ‘scholarship’
+
+The single form based on an English word beginning with a sibilant-liquid
+cluster (‘shrimp’) patterns with other obstruent-resonant clusters in taking
+an anaptyctic vowel, although this vowel cannot be clearly identified as
+either a copy or default vowel, since the following vowel is /i/, which also
+appears as the default vowel before /s/-stop. Unfortunately the database
+does not contain adaptations of initial /s/-nasal or /s/-liquid clusters, the
+structures most likely in Fleischhacker’s data to exhibit variability in the
+position of the inserted vowel, and the medial /sm/ in ‘Christmas’ is
+syllabified as coda plus onset.
+    The link between quality and position exhibited in Bengali, Telugu,
+Fula, and Sherpa–a copy vowel inside the cluster and a default vowel
+before the cluster–would be most firmly established if we were able to
+find that variation in position is accompanied by variation in quality.
+Fortunately, such evidence does exist. Ka (1985) and Sy (2013) report the
+now-familiar pattern of sonority-driven positional variation in borrowings
+       Typology of Position-Quality Interactions in Loanword Vowel Insertion 305
+
+
+from French into Wolof (a Niger-Congo language), with a copy vowel
+inserted inside a rising sonority onset and a mid front default vowel before
+S-stop onsets. While Ka represents [e] as the uniform prothetic default, Sy
+(2013) claims that the prothetic vowel agrees in [ATR] (tongue root
+position) with the following vowel; transcriptions in (15b) are from Sy
+(2013):
+
+(15)       Wolof borrowings from French (Ka 1985; Ka personal
+           communication, Sy 2013)
+
+             Wolof           French
+           a. kalas          klas               ‘class’ (‘classe’)
+              giri           gri                ‘gray’ (‘gris’)
+              silip          slip               ‘slip’ (‘slip’)
+              sonob          snob               ‘snob’ (‘snob’)
+
+           b. ‫ܭ‬st‫ݞ‬ti         staty              ‘statue’ (‘statue’)
+              ‫ܭ‬sp‫ܧ‬:r         sp‫ܧ‬r               ‘sports’ (‘sport’)
+              esteno:        steno              ‘stenographer’ (‘steno’)
+              estilo         stilo              ‘pen’ (‘stilo’)
+
+For onsets consisting of sibilant fricatives followed by a nasal or liquid,
+Fleischhacker (2005) reports variation in insertion position–and strikingly,
+this positional variation is accompanied by variation in vowel quality.
+While S-initial clusters may undergo either anaptyxis or prothesis, the
+connection between position and quality remains: when the inserted vowel
+appears within the cluster, it is a copy of the following vowel, and when it
+precedes the cluster, it is the default mid vowel (transcriptions are from
+Fleischhacker, who does not distinguish the [ATR] variants):
+
+(16)       Wolof borrowings from French (Fleischhacker 2005)
+
+           a. somokiƾ                  ‘smoking jacket’
+              silip                    ‘slip’ (undergarment)
+
+           b. esmok                    ‘smoke’
+              eslepnir                 ‘Sleipnir’
+                                       (name, elicited by Fleischhacker)
+
+Thus, the same onset cluster may undergo anaptyxis with a copy vowel, or
+prothesis with a default vowel. This pattern of variation makes clear the
+306                            Chapter Twelve
+
+
+link between position and quality.
+    The Wolof cases, which involve borrowings from French, demonstrate
+that the pattern of anaptyctic copy vowel/prothetic default vowel is not
+confined to words borrowed from any single language. Additional
+evidence of the same doubly-mixed pattern comes from borrowings from
+Russian into the Turkic language Uyghur:
+
+(17)     Uyghur borrowings from Russian (Fleischhacker 2005; Hahn
+         1991)
+
+           Uyghur          Russian
+         a. kulub          klub                 ‘club’
+
+         b. istatistika     statistika          ‘statistics’
+
+Russian borrowings also show a mixed pattern of adaptation in Samoyedic
+Uralic languages. In his discussion of consonant clusters in Nenets, Enets,
+Nganasan, and Selkup, all of which lack complex onsets, Varnái (2012)
+reports that word-initial clusters in Russian borrowings show a variety of
+repairs, including consonant deletion or CV metathesis. The most frequent
+repair of obstruent-resonant onsets is insertion of a vowel within the
+cluster that is “the same as the vowel of the next syllable.” However,
+when vowel insertion applies to onsets consisting of a voiceless sibilant
+fricative plus a stop, the inserted vowel appears before the cluster, and this
+prothetic vowel has a fixed quality, [a] in Nenets and Nganasan and [i] in
+Selkup:
+
+(18)     Samoyedic borrowings from Russian (Varnái 2012)
+
+           Samoyedic                 Russian
+         a. xaram (Nenets)           gram                 ‘gram’
+            xurupa (Nenets)          krupa                ‘cereals’
+            torob (Nenets)           drobj                ‘barrel’
+            birigadԥ (Nganasan)      brigada              ‘brigade’
+            burukԥ‫( ݦ‬Nganasan)       brjuki               ‘trousers’
+            kurus (Selkup)           gruz                 ‘cargo’
+
+         b. askola (Nenets)              ‫ݕ‬kola            ‘school’
+            askolԥ (Nganasan)            ‫ݕ‬kola            ‘school’
+            iskam‫ܭ‬jka (Selkup)           skamejka         ‘bench’
+       Typology of Position-Quality Interactions in Loanword Vowel Insertion 307
+
+
+   A partial relationship between vowel quality and position is found in
+Farsi, according to Shademan (2002). In the dialect of Farsi discussed by
+Shademan, all /s/-stop onsets are repaired via prothesis, while all other
+obstruent-resonant onsets are repaired by anaptyxis. While anaptyctic
+vowels may be either a copy of the following vowel or a default [e], the
+prothetic vowel is always the default [e]:
+
+(19)       Farsi borrowing from English, French (Shademan 2002)
+
+           a. terafik                  ‘traffic’
+              pelastik                 ‘plastic’
+              korom                    ‘chrome’
+              buluz (French)           ‘blouse’
+
+           b. eski                     ‘ski’
+              eslav                    ‘Slav’
+              estop                    ‘stop’
+              esport                   ‘sport’
+
+    Thus, the interaction between position and quality appears across a
+range of recipient and source languages, invariably in the same direction:
+an anaptyctic copy vowel alongside a prothetic default vowel. The next
+section outlines the typological findings.
+
+                       4. Typological generalizations
+    The table below summarizes the logical possibilities for insertion site,
+where the upper case letters indicate lexical segments. “T”, “R”, and “S”
+represent the class of stops, resonants (nasals, liquids, and glides), and
+sibilant fricatives, respectively, “V” represents a lexical vowel, and lower
+case “v” represents an inserted vowel.
+308                              Chapter Twelve
+
+
+(20) Possible positions for inserted vowel
+
+      Position       anaptyxis       prothesis       Mixed        mixed
+                                                    position,     positio,
+                                                     type 1        type 2
+                        TvRV,         vTRV,       TvRV, vSTV      vTRV,
+                        SvTV          vSTV                         SvTV
+
+ Japanese           ¥
+
+ Iraqi Arabic                          ¥
+ (NL pattern)
+
+ Cairene                                          ¥
+ Arabic
+
+ No language?
+
+Of these four logical possibilities, examples of only three have been
+attested (Fleischhacker 2005). In particular, mixed pattern type 1, in
+which a vowel is inserted within obstruent-resonant clusters (with the
+possible exception of those beginning with sibilant fricatives) but before
+S-stop clusters (and possibly some or all S-resonant clusters) are common,
+while the reverse pattern is unattested. There is no obvious reason why
+the type 1 pattern should emerge among speakers whose native languages
+contain no clusters of either type, and whose exposure to the foreign
+language includes clusters of both types—on the face of it, the type 2
+mixed pattern should be equally likely to emerge.
+    Considering only the attested mixed position pattern (mixed position,
+type 1), we find four logical possibilities for interaction between insertion
+site and vowel quality, schematized in the table below. Here, upper case
+“A” represents a lexical vowel, lower case “a” represents a copy vowel,
+and lower case “i” a default vowel:
+     Typology of Position-Quality Interactions in Loanword Vowel Insertion 309
+
+
+(21) Possible interactions between mixed positions type 1 pattern and
+     quality of inserted vowel
+
+                default    mixed quality,    copy           mixed quality,
+                quality    type 1            quality        type 2
+
+                TiRA,      TaRA, iSTA        TaRA,          TiRA, aSTA
+                iSTA                         aSTA
+
+
+ Cairene         ¥
+
+ Bengali,                    ¥
+ Telugu,
+ Fula,
+ Wolof,
+ Sherpa,
+ Uyghur,
+ Samoyedic,
+ Farsi
+
+ No
+ languages?
+
+
+Only two of the four logically possible interactions appear to be attested:
+use of a default vowel in both positions and use of a copy vowel within the
+cluster but a default vowel before the cluster. We should note, however,
+that at least for some speakers of both Cairene and Makkan Arabic, there
+is a tendency to insert a round vowel within obstruent-resonant clusters
+when the following vowel is round (Galal 2004; Ahyad 2013), suggesting
+that there may not, in fact, be clear cases of pure default systems.
+    In §2, we considered several explanations that have been proposed for
+the emergence of the apparently unmotivated mixed type 1 pattern and the
+absence of the unattested pattern. We are now in a position to connect the
+facts of positional variation with the interaction between position and
+quality. The generalization that emerges in consideration of mixed quality
+systems is that copy vowels are favored when the inserted vowel is
+directly followed by a resonant consonant. In fact, the preference for copy
+vowels in the obstruent-resonant position is not limited to languages with
+positional variation. In the Austronesian language Dehu, onset clusters are
+consistently resolved via anaptyxis, but the quality of the inserted vowel
+varies according to the composition of the cluster. Tryon (1970: 434)
+310                               Chapter Twelve
+
+
+describes the Dehu pattern, illustrated in (22), as follows:
+
+      “With consonant clusters, CC > CVC. The V tends to harmonize with
+      either the preceding or following V, except that sC > siC, regardless of
+      surrounding vowels.”
+
+(22)       Dehu borrowings from English (Tryon 1970)
+
+           a. peleit          ‘plate’
+              gilis           ‘grease’
+              galas           ‘glass’
+              balaiket        ‘blanket’
+              faraig          ‘franc’
+              falawa          ‘bread’ (possibly through Samoan)
+
+           b. sipö            ‘spur’
+              sipun           ‘spoon’
+              sitima          ‘steamer’
+
+Unfortunately, Tryon provides no examples of cases involving sC onsets
+where the second consonant is a resonant. However, the existing data are
+consistent with the generalization that copying of vowel features is far
+more likely across resonant consonants than across obstruents. 8 In the
+following section I consider possible explanations for this generalization.
+
+           5. Explaining the position-quality interaction
+    In this section I outline two possible accounts of the widespread
+emergence of type 1 mixed systems, in which a copy vowel is used to
+repair obstruent-resonant onsets but not S-stop (or in some cases S-C)
+onsets: a production-based approach based on the resistance of certain
+consonant classes to copy of vowel features, and a perception-based
+approach in which copy vowels reflect listeners’ misinterpretation of the
+foreign structures. While a full exploration of these approaches is beyond
+the scope of this paper, I will briefly sketch the possibilities and their
+potential fit with the facts we have uncovered.
+    One possible explanation is that the mixed pattern of prothetic
+default/anaptyctic copy vowel arises from universal principles disfavoring
+copying of vowel features across obstruents, but not across resonant
+
+8
+  The one example Tryon provides that involves neither copy nor default vowel
+insertion is [݇eri] ‘three’.
+     Typology of Position-Quality Interactions in Loanword Vowel Insertion 311
+
+
+consonants. If the failure to copy vowel features across obstruents is
+viewed as an emergence of the unmarked effect, we would hope to find an
+implicational relationship between copying across obstruents vs. resonant
+consonants. A number of researchers have explored the role of consonants
+in either facilitating or blocking the copying of vowel features (see, e.g.,
+McCarthy 1998; Gafos & Lombardi 1999; Kitto & deLacy 1999; Mahanta
+2007), but no clear consensus has emerged on a universal hierarchy of
+blocking effects. Obstruents do not uniformly block copying; in
+Makassarese native phonology, for example, inserted vowels copy their
+features across /s/ (as well as /r/ and /l/, Basri et al. 2012). Nor do resonant
+consonants uniformly allow the spreading of vowel features; in a study of
+the role of intervening consonants in vowel harmony, Mahanta (2007)
+argues that it is actually consonants with higher sonority that are most
+likely to interfere with vowel harmony. This is obviously a question that
+deserves further study, and a definitive answer lies beyond the scope of
+this paper.
+    For an alternative explanation of the emergence of copy vowels in the
+obstruent-resonant context, we return to Fleischhacker’s discussion of the
+perceptual similarity between obstruent-resonant and obstruent-vowel-
+resonant structures. Fleischhacker presents a wealth of evidence for the
+perceptual similarity of OR and OvR, including a survey of partial puns in
+which she finds considerably more pairs like broke-baroque and slammed-
+salaamed than pairs like sport-support. While Fleischhacker argues that
+loanword adapters accurately perceive the foreign forms, and then adapt
+them to the closest possible legal native structure (OvR for obstruent-
+resonant onsets), the evidence for the perceptual similarity of OR and OvR
+could equally be taken to support an alternative hypothesis: rather than
+accurately perceiving OR onsets but adapting them to the perceptually
+most similar structure, listeners actually misperceive OR as OvR. This
+misperception would be consistent with the findings of Dupoux et al.
+(1999) that listeners tend to perceive an illusory vowel in clusters that are
+illegal in their native language. If misperception plays a role in the
+appearance of loanword vowel insertion, the questions that arise in
+conjunction with the typological generalizations outlined in the preceding
+section are the following: (1) is there reason to believe that an illusory
+vowel might be more likely within an obstruent-resonant onset than within
+a fricative-stop onset?; and (2) is there reason to believe that the illusory
+vowel within an obstruent-resonant onset might be likely to be perceived
+as a copy of a following vowel?
+    Fleischhacker’s (2005) findings on near puns and on similarity
+judgments speak to the first question, since they suggest that OvR and OR
+312                              Chapter Twelve
+
+
+are more similar than SvT and ST. The inherent difficulty of
+discriminating OR and OvR is also supported by the finding of Werker et
+al. (1998) that babies prior to age 10 months in an English-speaking
+environment do not successfully discriminate pairs like clone-cologne. 9
+Given the considerable body of evidence that babies younger than 10
+months display sensitivity even to distinctions that are not contrastive in
+their native language (e.g.,Werker 1995), this is significant support for the
+inherent confusability of (at least) OR and OԥR.
+    Support for the susceptibility of OR sequences to being perceived as
+containing a vowel comes from Hall’s (2003, 2006) extensive study of
+what she terms “intrusive vowels”–elements of the speech signal that are
+perceived as vowels but do not appear to add to the syllable count. Hall
+argues that listeners may perceive loose coordination between consonantal
+gestures as an intervening (intrusive) vowel. She demonstrates that
+intrusive vowels are most likely to arise in two contexts: adjacent to
+resonant consonants and adjacent to glottal consonants ([h] and glottal
+stop). Since none of the source language onsets in our data include a
+glottal consonant, the latter context is not relevant for our study. Hall
+argues that resonant consonants are more subject to the misinterpretation
+that gives rise to a vowel percept than are obstruents, because the
+landmarks for the onset and offset of resonant consonants are less clear
+than for stops and fricatives (see also, for example, Davidson 2007).
+    Thus, a tendency to misinterpret OR onsets as OvR onsets could
+plausibly arise from two factors: the tendency to hear illusory vowels
+between clusters that are illegal in one’s native language, and the tendency
+to interpret loosely coordinated consonantal gestures as separated by an
+intervening vowel. The acoustics of the source language might also play a
+role, as English speakers, at least, appear to exercise a good deal of
+freedom in the timing of both OR and OvR sequences. In a study of the
+pronunciation of /l/ in words ORV words like blow and OԥRV words like
+below, Huffman (1997) found considerable variability in the timing of the
+liquid gestures, with a vowel-detection algorithm finding no vowel in
+some below-class tokens and finding evidence of a vowel in some blow-
+class tokens. The wide range of acceptable variation in the timing of
+consonant-liquid onsets is illustrated by the common pronunciation of
+please as bisyllabic (often written as puh-leeze). Thus, it seems quite
+
+9
+  Coetzee (2011) found that English speakers tended to perceive an illusory vowel
+in word-initial sequences of /s/ followed by an aspirated stop. This effect was
+presumably a function of the participants’ knowledge of English, in which stops
+following /s/ are never aspirated, and one would not expect to find the same
+perceptual pattern among speakers for whom [sTh] is a licit word-initial sequence.
+     Typology of Position-Quality Interactions in Loanword Vowel Insertion 313
+
+
+plausible that a listener whose native language does not permit, e.g., word-
+initial /pl/ should interpret loosely-coordinated /pl/ as /pvl/.
+    However, if we concede the plausibility of the hypothesis that listeners
+whose language lacks OR onsets might perceive an illusory vowel in O_R,
+we are still left with the question of why the illusory vowel should be
+perceived as a copy vowel, identical in some or all features to the next
+vowel. On this question, too, Hall’s work provides an explanation. Hall
+(2003, 2006) identifies two types of intrusive vowels: reduced (schwa-
+like) vowels and contextually determined vowels displaying the features of
+a neighboring vowel or consonant. Because illusory vowels seem to
+correspond to some member of the borrowing language’s vowel inventory
+(Dupoux et al. 1999), we would not expect listeners whose phoneme
+inventory does not contain schwa to perceive the loose transition between
+obstruent and resonant as a schwa (and indeed, the lack of schwa appears
+to be a characteristic of the languages discussed above which display the
+anaptyctic copy/prothetic default pattern). In the absence of schwa,
+perception of the illusory vowel in the O_R context as a copy vowel has a
+reasonable explanation, arising from two interacting factors. First, as a
+reviewer pointed out, the overlapping vowel gesture may, in Hall’s words,
+“color the acoustic release” of the initial obstruent (Hall 2006: 412).
+Second, as we have seen, there appears, at least in English, to be some
+freedom in the timing of the resonant gestures in OR clusters, and a delay
+in the resonant gesture may lead to a period in which the vocalic gestures
+are perceptible both before and after the resonant. It is precisely such a
+delay, according to Steriade (1990), that gave rise to the historical change
+called Dorsey’s Law. Dorsey’s Law describes the emergence of a copy
+vowel between sequences of voiceless obstruent followed by resonant
+consonant in Winnebago (e.g., historically prior /pra/ became /para/).
+While these copy vowels are perceived as clearly present, they do not
+participate in the stress system in the same way as do other vowels, as is
+characteristic of intrusive vowels. Steriade (1990) has analyzed the
+Dorsey’s Law change as a result of changes in the timing of the
+consonantal and vocalic gestures: “a delay in the onset of the liquid can
+create a sequence in which the vowel gesture begins to “show” between
+the consonant gestures.” Steriade schematizes the timing adjustment that
+gave rise to the change from /pra/ to /para/ as follows:
+314                             Chapter Twelve
+
+
+(23)         Dorsey’s Law (Steriade 1990)
+
+             Tiers                               Gestures
+
+       tongue body        [_________________a________________]
+
+       tongue tip         [____r____]       [_____r____]
+
+       lip                [____p______]
+
+    Thus, the appearance of a copy vowel in the onset-resonant context is
+consistent with an account in which these vowels arise from listeners’
+misperceptions of the foreign sequences. For example, we can envision the
+development of Farsi [korom] 'chrome' as follows: the gestures involved in
+the first three segments of the source [krom] will normally overlap to
+some extent, and a slight delay in the liquid gestures relative to the vowel
+might lead to sufficient liquid-vowel overlap in that a listener could
+plausibly interpret the intended target as [korom]. The connection between
+preferred position and preferred quality of inserted vowels in rising
+sonority onsets is thus a function of the possibility of overlap in the
+production of the resonant and vowel gestures. In contrast, we would not
+expect the same sort of misperception to arise with obstruent-obstruent
+onsets such as /s/-stop, because obstruents provide much clearer
+landmarks indicating the onset and offset of their gestural targets, making
+their sequencing much more difficult to misinterpret (Davidson 2007).
+    To summarize, then, I suggest that the appearance of copy vowels in
+obstruent-resonant but not in obstruent-obstruent onsets in loanword
+adaptation is consistent with what we know about the robustness of the
+acoustic cues associated with the two onset types. Obstruent-resonant
+onsets give less clearly defined cues to the relative timing of the CCV
+gestures, opening the possibility that listeners unaccustomed to
+distinguishing OR and OvR will misinterpret the former as the latter. In
+contrast, obstruent-obstruent onsets are more difficult to misinterpret as
+containing a vowel. What remains to be explained, however, is the
+appearance of default vowels in mixed systems. One possible explanation
+is that these default vowels are true phonologically inserted vowels,
+arising not from misperception but from a repair imposed in the
+production grammar.
+     Typology of Position-Quality Interactions in Loanword Vowel Insertion 315
+
+
+                             6. Conclusion
+    Investigation of the adaptation of word-initial biconsonantal clusters
+across a number of source and recipient languages has provided evidence
+for the emergence of a fairly common pattern in which the position and the
+quality of the vowel differ according to the class of consonants making up
+the cluster. In many languages, the vowel inserted inside a stop-resonant
+cluster constitutes a copy of some or all of the following vowel’s features.
+In contrast, the vowel inserted before a sibilant-stop cluster represents an
+invariant default. Clusters consisting of a sibilant fricative followed by a
+resonant show variation, patterning in some cases with stop-resonant and
+in others with /s/-stop onsets. The emergence of this systematic pattern is
+intriguing, since neither the source nor the recipient languages present any
+obvious motivation for distinguishing different cluster types, since both
+rising and falling sonority onsets are present in the source language and
+absent in the recipient language. The emergence of only a subset of the
+logically possible position-quality interactions is surely telling us
+something significant about human linguistic behavior. I have outlined
+two possible hypotheses concerning the preference for anaptyctic copy
+vowels in OR clusters and prothetic default vowels in S-stop clusters. The
+first approach ascribes the preference for copy vowels in OR but not S-
+stop to a universal dispreference for spreading vowel features across
+obstruents. The second analyzes copy vowels within obstruent-resonant
+clusters as a result of listeners’ misinterpretation of the acoustics of the
+foreign language; specifically, to gestural overlap between the resonant
+and the following vowel, which encourages the perception of a copy
+vowel preceding the resonant. In contrast, I suggest that obstruent-
+obstruent sequences are much less subject to misinterpretation, so the
+default vowels associated with these onsets are more likely the result of
+true vowel insertion in the production grammar. These hypotheses await
+careful experimental investigation.
+
+                               References
+Ahyad, H. (2013) The quality of the epenthetic vowel in Makkan Arabic.
+   Unpublished manuscript, Stony Brook University.
+Bardakjian, K. and R. Thomson (1977) A Textbook of Modern Western
+   Armenian. Delmar, NJ: Caravan Books.
+Basri, H., E. Broselow and D. Finer (2012) The end of the word in
+   Makassar languages. In T. Borowsky et al. (eds.), Prosody Matters:
+   Essays in Honor of Lisa Selkirk, 111-147. London: Equinox Publishing
+316                          Chapter Twelve
+
+
+    Ltd.
+Brasington, R. (1981) Epenthesis and deletion in loan phonology. Work in
+    Progress 3, Reading University Phonetics Lab, 97-103.
+Broselow, E. (1983) Nonobvious transfer: On predicting epenthesis errors.
+    In L. Selinker and S. Gass (eds.), Language Transfer in Language
+    Learning, 269-280. Rowley, MA: Newbury House. Reprinted in G.
+    Ioup and S. Weinberger (eds.), 1987, Interlanguage Phonology, 292-
+    304. Cambridge, MA: Newbury House.
+—. (1992a) Transfer and universals in second language epenthesis. In S.
+    Gass and L. Selinker (eds.), Language Transfer in Language Learning
+    (Revised edition), 71-86. Rowley, MA: Newbury House.
+—. (1992b) The structure of fricative-stop onsets. Unpublished
+    manuscript, Stony Brook University.
+—. (2009) Stress adaptation in loanword phonology: Perception and
+    learnability. In P. Boersma and S. Hamann (eds.), Phonology in
+    Perception, 191-234. Berlin and New York: Mouton de Gruyter.
+Browman, C. and L. Goldstein (1986) Towards an articulatory phonology.
+    Phonology Yearbook 3: 219-252.
+Coetzee, A. (2011) Syllables in speech processing: Evidence from
+    perceptual epenthesis. In C. Cairns and E. Raimy (eds.), Handbook of
+    the Syllable, 295-328. Leiden: E. J. Brill.
+Davidson, L. (2007) The relationship between the perception of non-native
+    phonotactics and loanword adaptation. Phonology 24(2): 261-286.
+Davidson, L. and J. Shaw (2012) Sources of illusion in consonant cluster
+    perception. Journal of Phonetics 40(2): 234-248.
+Dupoux, E., Y. Hirose, K. Kakehi, C. Pallier and J. Mehler (1999)
+    Epenthetic vowels in Japanese: A perceptual illusion? Journal of
+    Experimental Psychology: Human Perception and Performance 25(6):
+    1568-1578.
+Fleischhacker, H. (2001) Cluster-dependent epenthesis asymmetries. In A.
+    Albright and T. Co (eds.), Papers in Phonology 5, UCLA Working
+    Papers in Linguistics, 71-116.
+—. (2005) Similarity in phonology: Evidence from reduplication and loan
+    adaptation. Ph.D. dissertation, UCLA.
+Gafos, A. and L. Lombardi (1999) Consonant transparency and vowel
+    echo. NELS 29: 81-95.
+Galal, M. (2004) An OT approach to loanword adaptation in Cairene
+    Arabic. Kansas Working Papers in Linguistics 27: 1-20.
+Gouskova, M. (2002) Falling sonority onsets, loanwords, and syllable
+    contact. CLS 37: 175-186.
+Hahn, R. (1991) Spoken Uyghur. London and Seattle: University of
+    Typology of Position-Quality Interactions in Loanword Vowel Insertion 317
+
+
+    Washington Press.
+Hall, N. (2003) Gestures and segments: Vowel intrusion as overlap. Ph.D.
+    dissertation, University of Massachusetts at Amherst.
+—. (2006) Cross-linguistic patterns of vowel intrusion. Phonology 23:
+    387-430.
+—. (2011) Vowel epenthesis. In M. van Oostendorp et al. (eds.), The
+    Blackwell Companion to Phonology, 1576-1596. Malden, MA &
+    Oxford: Wiley-Blackwell.
+Hinds, M. and E. Badawy (1986) A Dictionary of Egyptian Arabic. Beirut:
+    Libraire du Liban.
+Huffman, M. (1997) Phonetic variation in intervocalic onset /l/’s in
+    English. Journal of Phonetics 25: 115-141.
+Ka, O. (1985) Syllable structure and suffixation in Wolof. Studies in the
+    Linguistic Sciences 15: 61-90.
+Kang, Y. (2011) Loanword phonology. In M. van Oostendorp et al. (eds.),
+    The Blackwell Companion to Phonology, 2258-2281. Malden, MA &
+    Oxford: Wiley-Blackwell.
+Kitto, C. and P. deLacy (1999) Correspondence and epenthetic quality. In
+    C. Kitto and C. Smallwood (eds.), Proceedings of AFLA (Austronesian
+    Formal Linguistics Association) VI. Toronto: Toronto Working Papers
+    in Linguistics, 181-200.
+Mahanta, S. (2007) Directionality and Locality in Vowel Harmony.
+    Utrecht University: LOT.
+Mahato, P. (1974) A Linguistic Study of English Loan-words in Rabindra
+    Literature. Calcutta: A. K. Das.
+McCarthy, J. (1998) Morpheme structure constraints and paradigm
+    occultation. CLS 32, vol. II: 123-150.
+McCarthy, J. and A. Prince (1994) The emergence of the unmarked:
+    Optimality in prosodic morphology. NELS 24: 333-379.
+Moreton, E. (2008) Analytic bias and phonological typology. Phonology
+    25(1): 83-127.
+Paradis, C. and D. LaCharité (1997) Preservation and minimality in
+    loanword adaptation. Journal of Linguistics 33: 379-430.
+Parker, S. (2008) Sound level protrusions as physical correlates of
+    sonority. Journal of Phonetics 36: 55-90.
+Peperkamp, S. (2005) A psycholinguistic study of loanword adaptation.
+    Proceedings of the Annual Meeting, Berkeley Linguistics Society 30:
+    341-352.
+Rao, U. G. (1986) Telugu syllable structure. Unpublished manuscript.
+    Stony Brook University.
+Rose, Y. and K. Demuth (2006) Vowel epenthesis in loanword adaptation:
+318                          Chapter Twelve
+
+
+   Representational and phonetic considerations. Lingua 116: 1112-1139.
+Samarajiwa, C. and R. M. Abeysekera (1964) Some pronunciation
+   difficulties of Sinhalese learners of English as a foreign language.
+   Language Learning 14: 45-50.
+Selkirk, L. (1982) The syllable. In H. van der Hulst and N. Smith (eds.),
+   The Structure of Phonological Representations, Part II, 337-383.
+   Dordrecht: Foris.
+Shademan, S. (2002) Epenthetic vowel harmony in Farsi. Ph.D.
+   dissertation, University of California at Los Angeles.
+Sharma, D. D. (1980) A Study of Loan Words in Central Pahari.
+   Chandigarh: Panjab University.
+Shaw, J. and L. Davidson (2011) Perceptual similarity in input-output
+   mappings: A computational/experimental study of non-native speech
+   production. Lingua 121(8): 1344-1358.
+Sherpa, G. (2012) Sherpa syllable structure and adaptation of English
+   loanwords. Unpublished manuscript, Stony Brook University.
+Singh, R. (1985) Prosodic adaptation in interphonology. Lingua 67: 269-
+   282.
+Steriade, D. (1990) Gestures and autosegments: Comments on Browman’s
+   and Goldstein’s paper. In J. Kingston and M. Beckman (eds.), Papers
+   in Laboratory Phonology II: Between the Grammar and Physics of
+   Speech, 382-397. Cambridge: Cambridge University Press.
+Steriade, D. (2001) The phonology of perceptibility effects: The P-map
+   and its consequences for constraint organization. Manuscript, UCLA.
+Sy, M. (2013) Vowel harmony in Wolof loanwords. Studies in African
+   Linguistics, Supplement 11.
+Tryon, D. T. (1970) Loanwords in Dehu pre-1920. In S. Wurm and D.
+   Laycock (eds.), Pacific Linguistic Studies in Honor of Arthur Capell,
+   Pacific Linguistics, Series C, No. 13: 429-438. Canberra: Australian
+   National University.
+Uffmann, C. (2006) Epenthetic vowel quality in loanwords: Empirical and
+   formal issues. Lingua 116: 1079-1111.
+—. (2007) Vowel Epenthesis in Loanword Phonology. Tübingen, Max
+   Neimeyer Verlag.
+Varnái, Z. (2012) Consonant clusters in four Samoyedic languages. In P.
+   Hoole et al. (eds.), Consonant Clusters and Structural Complexity,
+   119-156. Boston/Berlin: de Gruyter.
+Werker, J. (1995) Exploring developmental changes in cross-language
+   speech perception. In L. R. Gleitman and M. Liberman (eds.), An
+   Invitation to Cognitive Science: Language, 87-106. Cambridge, MA:
+   MIT Press.
+    Typology of Position-Quality Interactions in Loanword Vowel Insertion 319
+
+
+Werker, J., J. Pegg, R. Shi and C. Stager (1998) Updates on becoming a
+   native listener. Journal of the Acoustical Society of America 103(5):
+   2932-2932.
+Yip, M. (1993) Cantonese loanword phonology and Optimality Theory.
+   Journal of East Asian Linguistics 2: 261-292.
+Young-Scholten, M. and J. Archibald (2000) Second language syllable
+   structure. In J. Archibald (ed.), Second Language Acquisition and
+   Linguistic Theory, 64-101. Oxford: Blackwell.
+Zuraw, K. (2007) The role of phonetic knowledge in phonological
+   patterning: Corpus and survey evidence from Tagalog. Language 83:
+   277-316.
+

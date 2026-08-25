@@ -1,0 +1,1173 @@
+
+Irish declension
+Aspect of the Irish language
+
+This article uses the IPA to transcribe Irish. Readers familiar with other conventions may wish to see Help:IPA/Irish for a comparison of the IPA system with those used in learners' materials.
+
+In Irish grammar, declension happens to nouns, the definite article, and the adjectives.
+
+Irish mostly has five noun declensions, each with four cases (nominative,[a] vocative, genitive, dative), and singular and plural forms.[b] There are four classes of declension of adjectives in Irish, which correspond to the first four declensions of nouns. There are two genders in Irish, masculine and feminine. The gender of nouns in each declension is somewhat mixed, but there are clear patterns.
+
+The definite article has two forms in Irish: an and na. Their distribution depends on number, case, and gender, and they trigger mutation partly on the basis of the initial sound of the following word.  There is no indefinite article in Irish, so depending on context cat can mean "cat" or "a cat".
+
+Nouns
+
+The Wikibook Irish has a page on the topic of: Nouns
+
+Gender
+
+Nouns in Irish are divided into two genders, masculine and feminine; the Old Irish neuter gender no longer exists. While gender should be learned when the specific noun is learned, there are some guidelines that can be followed:
+
+Generally, nouns in singular form ending with broad consonants are masculine, while those ending in a slender consonant are feminine. (Help:IPA/Irish shows the difference)
+
+There are some exceptions, mostly dealing with specific endings and suffixes; for example, words ending in -óir/-eoir and -ín (with a slender /ɾʲ/ and /nʲ/ respectively) are categorically masculine, while words ending in -óg (with a broad /ɡ/) are feminine. This leads to some unexpected gender assignments, such as gasóg "boy scout" being feminine, and cailín "girl" masculine (the diminutive -ín suffix is always masculine irrespective of the noun it applies to).
+
+Case
+
+Irish has four cases: common (usually called the nominative, but it covers the role of the accusative as well), vocative, genitive, and the dative or prepositional case.
+
+Nominative
+
+The nominative case (an tuiseal ainmneach) is used in the following functions:
+
+Sentence subject
+Tá an cat ag ól. "The cat is drinking."
+
+Sentence object
+Bhris Seán an fhuinneog. "Seán broke the window."
+
+Predicate of the copula
+Is amadán é. "He is an idiot."
+
+Object of the prepositions gan "without", go dtí  "(up) to" and mar "like, as".
+gan an t-airgead "without the money"
+go dtí an t-am "(up) to the time"
+mar an chearc "like the hen"
+
+Vocative
+
+The vocative case (an tuiseal gairmeach) is used in direct address, and is always preceded by the particle a, which triggers lenition (the vocative  particle is not pronounced before a vowel sound).  The first declension is the only declension in which the vocative is distinct from the nominative.
+
+mac → Cá bhfuil tú, a mhic? "Where are you, son?"
+
+Seán → A Sheáin, tar anseo! "Seán, come here!"
+
+Genitive
+
+The genitive case (an tuiseal ginideach) indicates possession and material of composition:
+
+fear → hata an fhir ("the man's hat")
+
+bean → clann na mná ("the woman's children")
+
+easpag → coinnleoirí an easpaig ("the bishop's candelabras")
+
+ór → fáinne óir ("a ring of gold, a golden ring")
+
+leathar → bróga leathair ("shoes of leather, leather shoes")
+
+The object of a verbal noun also requires the genitive:
+
+airgead → ag caitheamh airgid "(the act of) spending money"
+
+The object of a compound preposition is in the genitive. Formally, these prepositions are actually prepositional phrases.
+
+doras → ar chúl an dorais "behind the door" (lit. "on the back of the door")
+
+mí → ar feadh míosa "one month long" (lit. "for the duration of one month")
+
+Éire → ar son na hÉireann "for Ireland's sake"
+
+Dative/Prepositional
+
+The dative/prepositional is used as the object of most simple prepositions except gan and go dtí. In standard language, the dative is almost always identical to the nominative. Some dialects, however, have distinct standalone datives in the second and fifth declensions.  In the standard language, only two words Éire ("Ireland") and fiche ("twenty") have distinct datives - Éirinn and fichid, respectively. They are also found in certain fixed phrases with nouns of the second declension, such as os cionn ("above", lit. "over head" – cionn is the old dative of ceann ("head")).
+
+athair → ag an athair "at the father"
+
+teach → as an teach "out of the house"
+
+arán → ar an arán "on the bread"
+
+oráiste → in oráiste "in an orange"
+
+ifreann → go hifreann "to hell"
+
+airgead → leis an airgead "with the money"
+
+Éire → ó Éirinn "from Ireland"
+
+Declension
+
+There are five recognized declensions in Irish.  The makeup of the declensions depends on three factors:
+
+the gender of the noun
+
+the formation of the genitive singular
+
+relation of genitive singular to nominative plural
+
+The following chart describes the characteristics of each declension class:
+
+		Nom. sing. ends with:	Gen. sing. ends with:	Gender
+
+	First declension	Broad consonant	Slender consonant	Masculine
+
+	Second declension	Broad or slender consonant	-e/-í	Feminine with rare exceptions
+
+	Third declension	Slender or broad consonant	-a	Masculine or feminine
+
+	Fourth declension	Vowel or -ín	(no change)	Masculine or feminine
+
+	Fifth declension	Vowel or slender consonant	Broad consonant	Mostly feminine
+
+First
+
+The first declension is made up of masculine nouns. The nominative singular ends in a broad consonant, which is made slender in the genitive singular. The most common formation of the plural has the opposite pattern:  the nominative ends in a slender consonant, the genitive in a broad consonant (these plurals are known as weak plurals in comparison with strong plurals which maintain identical endings for all cases in the plural). The dative is identical to the nominative in both numbers, although an obsolete dative plural in -aibh is still sometimes encountered in old-fashioned literary style.
+
+	bád "boat"
+	Singular
+	Plural
+
+	Nominative	bád /bˠaːd̪ˠ/	báid /bˠaːdʲ/
+
+	Vocative	a bháid /ə waːdʲ/	a bháda /ə waːd̪ˠə/
+
+	Genitive	báid /bˠaːdʲ/	bád /bˠaːd̪ˠ/
+
+	Dative	bád /bˠaːd̪ˠ/	báid (obsolete bádaibh)
+
+When /x/ in the gen. sing. and nom. pl. of a polysyllabic word is made slender, it also becomes voiced, thus:
+
+/x/ > /ç/ > /j/. The resulting /əj/ is written -⟨(a)igh⟩ and is pronounced /iː/, /ə/, or /əɟ/, depending on dialect.
+
+	marcach "a horseman"
+	Singular
+	Plural
+
+	Nominative	marcach /mˠaɾˠkəx/	marcaigh /mˠaɾˠkəj/
+
+	Vocative	a mharcaigh
+
+/ə waɾˠkəj/
+
+	a mharcacha /ə waɾˠkəxə/
+
+	Genitive	marcaigh
+
+/mˠaɾˠkəj/
+
+	marcach /mˠaɾˠkəx/
+
+	Dative	marcach
+
+/mˠaɾˠkəx/
+
+	marcaigh (obsolete marcachaibh)
+
+Some nouns undergo a vowel change before the slender consonant of the genitive singular/nominative plural:
+
+ball, baill - an (internal) organ, component part
+
+bonn, boinn - a sole, coin
+
+ceann, cinn - a head
+
+fear, fir - a man
+
+iasc, éisc - a fish
+
+mac, mic /mˠak, mʲɪc/ - a son (note: the first consonant is made slender in the gen.sg./nom.pl. as well)
+
+poll, poill - a hole
+
+Many words of this declension form the plural with one of the endings -(a)í, -ta, -tha, -anna. These are known as "strong plural" endings, which means the plural is identical in all cases in the standard language. Some examples:
+
+aonach, gen. sg. aonaigh, pl. aontaí - a fair
+
+bealach, gen. sg. bealaigh, pl. bealaí - a way
+
+carr /kaːɾˠ/, gen. sg. cairr /kaːɾˠ/, pl. carranna /kaɾˠən̪ˠə/ - a car
+
+glór, gen. sg. glóir, pl. glórtha - a voice
+
+leanbh, gen. sg. linbh, pl. leanaí - a child
+
+néal, gen. sg. néil, pl. néalta - a cloud
+
+rós, gen. sg. róis, pl. rósanna - a rose
+
+samhradh, gen. sg. samhraidh, pl. samhraí - a summer
+
+scéal, gen. sg. scéil, pl. scéalta - a story
+
+toradh, gen. sg. toraidh, pl. torthaí - fruit
+
+Some nouns have a weak plural (a plural where the genitive is different from the nominative, and is identical to the form of the nominative singular) in -a:
+
+ceart, gen. sg. cirt, nom. pl. cearta, gen. pl. ceart - a right
+
+cleas, gen. sg. clis, nom. pl. cleasa, gen. pl. cleas - a trick
+
+úll, gen. sg. úill, nom. pl. úlla, gen. pl. úll - an apple
+
+Other strong plural formations are found in:
+
+bóthar, bóthair; bóithre - road
+
+breitheamh, breithimh; breithiúna - judge
+
+briathar, briathair; briathra - verb
+
+cloigeann, cloiginn; cloigne - skull
+
+doras, dorais; doirse - door
+
+ollamh, ollaimh; ollúna - professor
+
+solas, solais; soilse - light
+
+Second
+
+The second declension is made up of mostly feminine nouns, and features a nominative singular form that can end in either a broad or a slender consonant.  The genitive singular ends in a slender consonant followed by -e.  The most common plural form has a broad consonant followed by -a in the nominative, and a broad consonant alone in the genitive. The vocative has the same endings as the nominative, as does the dative in standard language.
+
+	bróg "shoe"	Singular	Plural
+
+	Nominative	bróg /bˠɾˠoːɡ/	bróga /ˈbˠɾˠoːɡə/
+
+	Vocative	a bhróg /ə wɾˠoːɡ/	a bhróga /ə ˈwɾˠoːɡə/
+
+	Genitive	bróige /ˈbˠɾˠoːɟə/	bróg /bˠɾˠoːɡ/
+
+	Dative	bróg /bˠɾˠoːɡ/
+(obsolete/dialectal bróig)	bróga /ˈbˠɾˠoːɡə/
+(obsolete brógaibh)
+
+	deoir "tear"	Singular	Plural
+
+	Nominative/Dative	deoir /dʲoːɾʲ/	deora /ˈdʲoːɾˠə/
+
+	Vocative	a dheoir /ə joːɾʲ/	a dheora /ə ˈjoːɾˠə/
+
+	Genitive	deoire /ˈdʲoːɾʲə/	deor /dʲoːɾˠ/
+
+In Connacht Irish and Waterford Irish it is often the case that all nouns of the second declension in the nom. sg. end with a slender consonant (e.g. bróig "a shoe").
+
+In some Munster varieties as well as the old literary language, the dative singular is distinct and ends in a slender consonant alone (in effect the dative sg. is formed by dropping the -e from the genitive sg.), e.g. i mo bhróig "in my shoe" (historically, nominative forms like bróig are descended from the old dative).
+
+When /x/ in the gen. sing. is made slender, it is also voiced, so /x/ > /ç/ > /j/. /əjə/ becomes /iː/, and is written -(a)í.
+
+	girseach "little girl"	Singular	Plural
+
+	Nominative/Std. dative	girseach /ˈɟɪɾˠʃəx/	girseacha /ˈɟɪɾˠʃəxə/
+
+	Vocative	a ghirseach /ə ˈjɪɾˠʃəx/	a ghirseacha /ə ˈjɪɾˠʃəxə/
+
+	Genitive	girsí /ˈɟɪɾˠʃiː/	girseach /ˈɟɪɾˠʃəx/
+
+	Nonstandard Dative	girsigh /ˈɟɪɾˠʃiː/ (obsolete/dialectal)	girseachaibh /ˈɟɪɾˠʃəxəvʲ/ (obsolete)
+
+Many words in this declension form a strong plural with one of the endings -t(h)a,-te, -(e)acha or -eanna:
+
+áit, áite, áiteanna "place"
+
+coill, coille, coillte "forest"
+
+iníon, iníne, iníonacha "daughter"
+
+obair, oibre, oibreacha "work"
+
+spéir, spéire, spéartha "sky"
+
+tír, tíre, tíortha "country"
+
+tonn, toinne, tonnta "wave"
+
+ubh, uibhe, uibheacha "egg"
+
+Other strong plural formations are found in:
+
+fiacail, fiacaile; fiacla - tooth
+
+gualainn, gualainne; guaillí - shoulder
+
+scian, scine; sceana - knife (irregular genitive singular)
+
+sliabh, sléibhe; sléibhte (m.) - mountain (irregular genitive singular and masculine gender)
+
+Third
+
+The third declension is made up of masculine and feminine nouns. It is characterized by the genitive singular in -a. The majority of nouns in this class form the plural in -(a)í. The final consonant of the stem may be broad or slender: it retains its quality in the plural, but is always broad in the genitive singular.
+
+		Singular	Plural
+
+	Nominative/Vocative/Dative	broad or slender cons.	-(a)í
+
+	Genitive	broad cons. + -a	-(a)í
+
+	bádóir (m.) "boatsman"	Singular	Plural
+
+	Nominative/Dative	bádóir /ˈbˠaːd̪ˠoːɾʲ/	bádóirí /ˈbˠaːd̪ˠoːɾʲiː/
+
+	Vocative	a bhádóir /ə ˈwaːd̪ˠoːɾʲ/	a bhádóirí /ə ˈwaːd̪ˠoːɾʲiː/
+
+	Genitive	bádóra /ˈbˠaːd̪ˠoːɾˠə/	bádóirí /ˈbˠaːd̪ˠoːɾʲiː/
+
+	rás (m.) "race"	Singular	Plural
+
+	Nominative/Dative	rás /ɾˠaːsˠ/	rásaí /ˈɾˠaːsˠiː/
+
+	Vocative	a rás /ə ɾˠaːsˠ/	a rásaí /ə ˈɾˠaːsˠiː/
+
+	Genitive	rása /ˈɾˠaːsˠə/	rásaí /ˈɾˠaːsˠiː/
+
+Feminine nouns in -áint or -úint lose their ⟨t⟩ in the gen. sg.; those in -irt have -⟨th⟩- instead of -⟨t⟩- in the gen. sg.
+
+bagairt, bagartha, bagairtí (f.) "threat"
+
+canúint, canúna, canúintí (f.) "dialect"
+
+Many words in this declension form the plural with one of the endings -anna or -acha:
+
+am, ama, amanna (m.) "time"
+
+anam, anama, anamacha (m.) "soul"
+
+droim, droma, dromanna (m.) "back"
+
+loch, locha, lochanna (m.) "lake"
+
+troid, troda, troideanna (f.) "fight, struggle"
+
+Some words in Munster Irish also have a separate dative form:
+
+nom. drom, dat. droim, gen. droma, pl. dromanna (m.) "back"
+
+Fourth
+
+The fourth declension is made up of masculine and feminine nouns. It is characterized by a genitive singular that is identical in form to the nominative/vocative/dative singular. The singular may end in a vowel or a consonant (usually the diminutive suffix -ín). The most common plural ending is -(a)í.
+
+		Singular	Plural
+
+	All cases	Vowel or consonant (usually -ín)	-(a)í
+
+	balla (m.) "wall"	Singular	Plural
+
+	Nominative/Genitive/Dative	balla /ˈbˠal̪ˠə/	ballaí /ˈbˠal̪ˠiː/
+
+	Vocative	a bhalla /ə ˈwal̪ˠə/	a bhallaí /ə ˈwal̪ˠiː/
+
+	comhairle (f.) "(piece of) advice"	Singular	Plural
+
+	Nominative/Genitive/Dative	comhairle /ˈkoːɾˠl̠ʲə/	comhairlí /ˈkoːɾˠl̠ʲiː/
+
+	Vocative	a chomhairle /ə ˈxoːɾˠl̠ʲə/	a chomhairlí /ə ˈxoːɾˠl̠ʲiː/
+
+	cailín (m.) "girl"	Singular	Plural
+
+	Nominative/Genitive/Dative	cailín /ˈkalʲiːnʲ/	cailíní /ˈkalʲiːnʲiː/
+
+	Vocative	a chailín /ə ˈxalʲiːnʲ/	a chailíní /ə ˈxalʲiːnʲiː/
+
+Many words of this declension form the plural with the following endings -tha/-t(h)e, -((e)a)nna or -((e)a)cha:
+
+ainmhí; ainmhithe (m.) "animal"
+
+aturnae; aturnaetha (m.) "attorney"
+
+baile; bailte (m.) "village"
+
+bus; busanna (m.) "bus"
+
+cliamhain; cliamhaineacha (m.) "son-in-law"
+
+cneá; cneácha (f.) "wound, sore"
+
+cnó; cnónna (m.) "nut"
+
+cró; cróite (m.) "outhouse; eye of a needle"
+
+dlí; dlíthe (m.) "law"
+
+dosaen; dosaenacha (m.) "dozen"
+
+ga; gathanna (m.) "ray, radius"
+
+gé; géanna (f.) "goose"
+
+léine; léine, léinte (f.) "shirt"
+
+rá; ráite (m.) "saying"
+
+rí; ríthe (m.) "king"
+
+sloinne; sloinnte (m.) "last name"
+
+teanga; teangacha (f.) "language, tongue"
+
+tine; tinte (f.) "fire"
+
+Other strong plural formations are found in:
+
+ainm; ainmneacha (m.) "name"
+
+airí; airíona (m.) "characteristic, symptom"
+
+aithne; aitheanta (f.) "commandment"
+
+bruach; bruacha (m.) "bank (of river etc.)"
+
+cine; ciníocha (m.) "race, tribe"
+
+duine; daoine (m.) "person, human being"
+
+gabha; gaibhne (m.) "blacksmith"
+
+gnó; gnóthaí (m.) "business"
+
+oíche; oícheanta (f.) "night"
+
+One noun in this class has a weak plural:
+
+bó, bó; ba, bó (f.) - cow
+
+Fifth
+
+The fifth declension is made up mostly of feminine nouns and is characterized by a genitive singular that ends in a broad consonant that has been added to the nominative/vocative/dative singular. The most common plural is strong, formed by adding -a to the genitive singular.
+
+		Singular	Plural
+
+	Nominative/Vocative/Dative	Vowel or slender consonant	Gen. sg. + -a
+
+	Genitive	broad consonant	Gen. sg. + -a
+
+	pearsa "person"	Singular	Plural
+
+	Nominative/Dative	pearsa /ˈpʲaɾˠsˠə/	pearsana /ˈpʲaɾˠsˠən̪ˠə/
+
+	Vocative	a phearsa /ə ˈfʲaɾˠsˠə/	a phearsana /ə ˈfʲaɾˠsˠən̪ˠə/
+
+	Genitive	pearsan /ˈpʲaɾˠsˠən̪ˠ/	pearsana /ˈpʲaɾˠsˠən̪ˠə/
+
+	cathair "city"	Singular	Plural
+
+	Nominative/Dative	cathair /ˈkahəɾʲ/	cathracha /ˈkaɾˠəxə/
+
+	Vocative	a chathair /ə ˈxahəɾʲ/	a chathracha /ə ˈxaɾˠəxə/
+
+	Genitive	cathrach /ˈkaɾˠəx/	cathracha /ˈkaɾˠəxə/
+
+In some Munster Irish varieties as well as the old literary language, the dative singular is distinct and ends in a slender consonant (in effect the dative sg. is formed by palatalizing the genitive sg.), for example, do phearsain "to a person", ón gcathraigh "from the city". The word Éire ("Ireland") retains the distinct dative form Éirinn in the standard language.
+
+Some words form the genitive singular by changing the final consonant of the nominative singular to broad. The plural is then strong -eacha.
+
+abhainn, abhann, aibhneacha "river"
+
+athair, athar, aithreacha (m.) "father"
+
+deartháir, dearthár, deartháireacha (m.) "brother"
+
+máthair, máthar, máithreacha "mother"
+
+Other strong plural formations are found in:
+
+bráthair, bráthar; bráithre (m.) "brother (monk), friar"
+
+cara, carad; cairde (m.) "friend"
+
+namhaid, namhad; naimhde (m.) "enemy"
+
+Nollaig, Nollag; Nollaigí "Christmas"
+
+Some nouns have weak plurals; here the genitive singular and genitive plural have the same form:
+
+caora, caorach; caoirigh, caorach - sheep
+
+lacha, lachan; lachain, lachan - duck
+
+Verbal nouns
+
+The most productive verbal nouns end with -(e)adh (1st conjugation) or -(i)ú (2nd conjugation). These originally belonged to the third declension, but synchronically are best regarded as separate declensions.
+
+The 1st conjugation verbal noun in -(e)adh has a genitive singular in -te/-ta and a plural in -t(a)í.
+
+briseadh, briste; bristí "breaking"
+
+moladh, molta; moltaí "praising; recommendation"
+
+The 2nd conjugation verbal noun in -(i)ú has a genitive singular in -(a)ithe and a plural in -(u)ithe. These endings are pronounced the same regardless of the spelling distinction.
+
+scrúdú, scrúdaithe; scrúduithe "examining, examination"
+
+síniú, sínithe; sínithe "stretching"
+
+Irregular nouns
+
+The following nouns are declined irregularly:
+
+bean, mná; mná, ban (f.) "woman"
+
+deirfiúr, deirféar; deirfiúracha (f.) "sister"
+
+deoch, dí; deochanna (f.) "drink"
+
+Dia, Dé; déithe (m.) "God"
+
+lá, lae; laethanta (m.) "day"
+
+leaba, leapa; leapacha (f.) "bed"
+
+mí, míosa; míonna (f.) "month"
+
+muir, mara; mara (f.) "sea"
+
+olann, olla (f.) "wool"
+
+talamh, talaimh (m.) or talún (f.); tailte "land"
+
+teach, tí; tithe (m.) "house"
+
+Articles
+
+The definite article has two forms in Irish: an and na.  Their distribution depends on number, case, and gender, and they trigger mutation partly on the basis of the initial sound of the following word.  Each entry of the table gives an example of one noun starting with a consonant and one with a vowel.
+
+		Singular	Plural
+
+		Masculine	Feminine	both genders
+
+	Nominative	an cat 
+an t-éan	an bhróg 
+an eaglais	(do) na cait 
+(leis) na héin
+
+	Dative (i)	den chat 
+san éan	don bhróg 
+den eaglais
+
+	Dative (ii)	ag an gcat 
+ag an éan	faoin mbróg 
+tríd an eaglais
+
+	Genitive	an chait 
+an éin	na bróige 
+na heaglaise	na gcat
+
+na n-éan
+
+Dative (i) is used with all prepositions in Ulster usage; in Munster and the standard language it is used only with den "from the", don "to the", and sa(n) "in the" but there are also Munster dialects in which only sa(n) triggers lenition and den and don eclipse, as with every other article-preposition compound. In Connacht sa(n) eclipses whereas den and don lenite. Dative (ii) is used outside Ulster with other prepositions.
+
+The article never mutates a following ⟨d⟩ or ⟨t⟩ in the singular, and ⟨s⟩ is lenited to ⟨ts⟩ (pronounced [t̪ˠ, tʲ]) rather than the usual ⟨sh⟩. ⟨s⟩ furthermore lenites in both dative (i) and (ii) in the singular with feminine nouns but does not lenite at all with masculine nouns.
+
+It does, however, eclipse ⟨t⟩ and ⟨d⟩ in Munster dialects and forms like "ag an ndoras" instead of the usual pattern "ag an doras", which is used in all other dialects, do occur.
+
+There is no indefinite article in Irish, so depending on context cat can mean "cat" or "a cat".
+
+Adjectives
+
+Almost all adjectives in Irish can be used either predicatively or attributively. A predicative adjective is one that forms a part of the predicate, like red in the sentence The car is red. An attributive adjective directly modifies a noun, as in the red car.
+
+A predicate adjective in Irish does not inflect:
+
+Tá an fear sin beag. "That man is small."
+
+Tá na fir sin beag. "Those men are small."
+
+Tá an bhean seo beag. "This woman is small."
+
+Tá na mná seo beag. "These women are small."
+
+A predicate adjective expressing a value judgment is often preceded by the particle go. This particle attaches ⟨h⟩ to a following vowel.
+
+Tá mé go maith. "I'm fine" (lit. "I am good.")
+
+Tá an scéal go holc. "The story is bad."
+
+Bhí an aimsir go hálainn. "The weather was beautiful."
+
+In Ulster, go is not generally used in these cases.
+
+An attributive adjective mostly follows the noun and is inflected:
+
+an fear beag "the small man"
+
+an fhir bhig "of the small man" (genitive)
+
+There are four classes of declension of adjectives in Irish, which correspond to the first four declensions of nouns:
+
+		Nom. sg. ends with:	Gen. sg. masc. ends with:	Gen. sg. fem. ends with:
+
+	1st decl.	broad cons.	slender consonant	slender consonant + -e
+
+	2nd decl.	slender cons.	slender consonant	slender consonant + -e
+
+	3rd decl.	slender cons. (mostly -úil)	slender consonant	broad consonant + -a
+
+	4th decl.	vowel	= nom. sg.	= nom. sg.
+
+First declension
+
+	bocht "poor"	Masc. sg.	Fem. sg.	Plural
+
+	Nominative	bocht	bhocht	b(h)ochta
+
+	Genitive	bhoicht	boichte	bocht(a)
+
+	bacach "lame"	Masc. sg.	Fem. sg.	Plural
+
+	Nominative	bacach	bhacach	b(h)acacha
+
+	Genitive	bhacaigh	bacaí	bacach(a)
+
+Second declension
+
+	ciúin "quiet"	Masc. sg.	Fem. sg.	Plural
+
+	Nominative	ciúin	chiúin	c(h)iúine
+
+	Genitive	chiúin	ciúine	ciúin(e)
+
+Third declension
+
+	misniúil "brave"	Masc. sg.	Fem. sg.	Plural
+
+	Nominative	misniúil	mhisniúil	m(h)isniúla
+
+	Genitive	mhisniúil	misniúla	misniúil, -úla
+
+	cóir "just"	Masc. Sg.	Fem. Sg.	Plural
+
+	Nominative	cóir	chóir	c(h)óra
+
+	Genitive	chóir	córa	cóir, córa
+
+Fourth declension
+
+This declension does not inflect, but it does mutate.
+
+	crua "hard"	Masc. sg.	Fem. sg.	Plural
+
+	Nominative	crua	chrua	c(h)rua
+
+	Genitive	chrua	crua	crua
+
+Irregular adjectives
+
+	Masc. sg. nom. & gen.	Fem. sg. nom.	Fem. sg. gen.	Pl. nom./gen.	Gloss
+
+	álainn	álainn	áille	áille	"beautiful"
+
+	breá	bhreá	breátha	b(h)reátha	"fine"
+
+	deacair	dheacair	deacra	d(h)eacra	"difficult"
+
+	gearr	ghearr	giorra	g(h)earra	"short"
+
+	socair	shocair	socra	s(h)ocra	"still"
+
+	tapaidh	thapaidh	thapaí	t(h)apaí	"fast"
+
+	te	the	te	t(h)eo	"hot"
+
+	tirim	thirim	tirime	t(h)iorma	"dry"
+
+Notes
+
+The nominative plural undergoes lenition only if the noun ends with a slender consonant: cait bhacacha "lame cats". Otherwise, the adjective in the nominative plural does not lenite: táilliúirí bacacha "lame tailors".
+
+The long form of the genitive plural (e.g. bochta, bacacha, ciúine) is used when the noun has a strong plural, e.g. máithreacha bacacha "of lame mothers". The short form (e.g. bocht, bacach, ciúin) is used when the noun has a weak plural, e.g. cat bacach "of lame cats".
+
+The dative has the same form as the nominative.
+
+The vocative has the same form as the nominative except in the masculine singular of the 1st/2nd declension, where it has the same form as the genitive.
+
+Comparative
+
+Irish adjectives have a comparative form equivalent to the comparative and superlative in English. The comparative does not undergo inflexion and is the same as the feminine singular genitive in regular and many irregular adjectives.
+
+Regular formation
+
+	Base form	Comparative form	Gloss
+
+	álainn	áille	"beautiful/more beautiful"
+
+	bacach	bacaí	"lame/lamer"
+
+	bocht	boichte	"poor/poorer"
+
+	ciúin	ciúine	"quiet/quieter"
+
+	cóir	córa	"just/more just"
+
+	crua	crua	"hard/harder"
+
+	deacair	deacra	"difficult/more difficult"
+
+	gearr	giorra	"short/shorter"
+
+	misniúil	misniúla	"brave/braver"
+
+	socair	socra	"still/stiller"
+
+	tapaidh	tapaí	"fast/faster"
+
+	tirim	tirime	"dry/drier"
+
+Irregular forms
+
+	Base form	Comparative form	Gloss
+
+	beag	lú	"small/smaller"
+
+	breá	breátha	"fine/finer"
+
+	dócha	dóichí	"possible/more possible"
+
+	fada	faide	"long/longer"
+
+	fogus	foisce	"near/nearer"
+
+	furasta	fusa	"easy/easier"
+
+	iomaí	lia	"many/more"
+
+	ionúin	ansa	"beloved, dear/more beloved, dearer"
+
+	maith	fearr	"good/better"
+
+	olc	measa	"bad/worse"
+
+	te	teo	"hot/hotter"
+
+	tréan	tréine or treise	"strong/stronger"
+
+	mór	mó	"big/bigger"
+
+Syntax of comparison
+
+There are two constructions to express the comparative:
+
+1) Copula + comparative form + subject + ná ("than") + predicate. The preterite of the copula causes lenition, while the present tense does not.
+
+Ba thréine Cáit ná Cathal. "Cáit was stronger than Cathal."
+
+Is airde Seán ná mise. "Seán is bigger than me."
+
+B'óige an madra ná an cat. "The dog was younger than the cat."
+
+Is fearr Gaeilge bhriste ná Béarla cliste. "Broken Irish is better than clever English."
+
+2) níos/ní ba/ní b’ + comparative + ná + predicate. Níos is used if the sentence is in the present or future tense.
+
+Ní ba/ní b’, which triggers lenition, is used if the sentence is in the past tense. Ní b’ is used before words starting with vowels and ní ba before those starting with consonants.
+
+Tá an ghrian níos gile ná an ghealach. "The sun is brighter than the moon."
+
+Beidh Peadar níos saibhre ná a athair. "Peadar will be richer than his father."
+
+D'éirigh Peadar ní ba shaibhre ná a athair. "Peadar became richer than his father."
+
+Bhí Seán ní b’airde ná mise. "Seán was bigger than me."
+
+A superlative is expressed as a relative clause: noun + is/ba/ab + comparative form.
+
+an cailín is tréine "the strongest girl" (lit. "the girl who is the strongest")
+
+an cailín ba thréine "the strongest girl" (lit. "the girl who was/would be the strongest")
+
+an buachaill is óige "the youngest boy" (lit. "the boy who is the youngest")
+
+an buachaill ab óige "the youngest boy" (lit. "the boy who was/would be the youngest")
+
+Notes
+
+↑ The accusative has the same form as the nominative, and together they are sometimes called "common"
+
+↑ Traces of Proto-Indo-European dual forms still exist, especially after dhá, and with the second declension nouns bos, bróg, cluas, cos and lámh
+
+References
+
+  Some content in the lead copied from Appendix:Irish nouns on Wiktionary.
+
+Christian Brothers (1994). New Irish Grammar. Dublin: C. J. Fallon.
+
+Gramadach na Gaeilge agus litriú na Gaeilge: An Caighdeán Oifigiúil. Dublin: Oifig an tSoláthair. 1994.
+
+Alexey Shibakov (2017). Irish Word Forms / Irische Wortformen (Book I&II). Berlin: epubli.
+
+	
+
+v
+
+t
+
+e
+
+Irish language
+
+	History	
+
+Proto-Indo-European
+
+Proto-Celtic
+
+Insular Celtic
+
+Proto-Goidelic
+
+Primitive Irish
+
+Old Irish
+
+Middle Irish
+
+Early Modern Irish
+
+Modern Irish
+
+	Sociolinguistics	
+
+List of Gaeilgeoirí
+
+Connacht Irish
+
+Leinster Irish
+
+Munster Irish
+
+Ulster Irish
+
+Status (Northern Ireland)
+
+Outside Ireland (in Newfoundland)
+
+Béarlachas
+
+Fáinne
+
+	Grammar	
+
+An Caighdeán Oifigiúil
+
+Initial mutations
+
+Declension
+
+Conjugation
+
+Dependent and independent forms
+
+Phonology
+
+Syntax
+
+	Writing	
+
+Orthography
+
+Ogham
+
+Gaelic type
+
+Braille
+
+Early literature
+
+Modern literature
+
+Lexicography
+
+An Caighdeán Oifigiúil
+
+	Media	
+
+	Journals	
+
+Comhar
+
+Feasta
+
+An tUltach
+
+Tuairisc.ie
+
+Nós
+
+An Gael
+
+Seachtain
+
+	Television	
+
+TG4
+
+Cúla 4
+
+RTÉ One (Nuacht RTÉ)
+
+BBC Two NI (sporadic)
+
+NVTV (sporadic)
+
+	Radio	
+
+RTÉ Raidió na Gaeltachta
+
+Raidió Rí-Rá
+
+Raidió Na Life
+
+Raidió Fáilte
+
+BBC Radio Ulster (Blas)
+
+	Publishers	
+
+Tuairisc.ie
+
+An Gúm
+
+Cló Iar-Chonnacht
+
+Coiscéim
+
+Gael Linn
+
+Irish Texts Society
+
+Sáirséal agus Dill
+
+Glór na nGael
+
+	Qualifications	
+
+Leaving Cert Irish
+
+Teastas Eorpach na Gaeilge
+
+	Names	
+
+Personal and family names
+
+List of personal names
+
+	
+
+ Category
+
+	
+
+v
+
+t
+
+e
+
+Grammatical cases
+
+	
+
+List of cases
+
+Declension
+
+Morphosyntactic alignment
+
+	Cases	
+
+	Morphosyntactic alignment	
+
+Absolutive
+
+Accusative
+
+Direct
+
+Ergative
+
+Intransitive
+
+Nominative
+
+Oblique
+
+Partitive
+
+Pegative
+
+	Location, time, direction	
+
+Ablative
+
+Adessive
+
+Allative
+
+Antessive
+
+Apudessive
+
+Approximative
+
+Delative
+
+Distributive
+
+-temporal
+
+Egressive
+
+Elative
+
+Illative
+
+Inelative
+
+Inessive
+
+Intrative
+
+Lative
+
+Limitative
+
+Locative
+
+-qualitative
+
+Medial
+
+Perlative
+
+Pertingent
+
+Postelative
+
+Postessive
+
+Prolative
+
+Subessive
+
+Sublative
+
+Superessive
+
+Superlative
+
+Temporal
+
+Terminative
+
+	Possession, companion, instrument	
+
+Abessive
+
+Caritive
+
+Comitative
+
+Dative
+
+Genitive
+
+Instrumental
+
+-comitative
+
+Ornative
+
+Possessed
+
+Possessive
+
+Privative
+
+Sociative
+
+	State, manner	
+
+Adverbial
+
+Comparative
+
+Equative
+
+Essive
+
+-formal
+
+-modal
+
+Exessive
+
+Instructive
+
+Modal
+
+Multiplicative
+
+Orientative
+
+Semblative
+
+Translative
+
+	Cause, purpose	
+
+Aversive
+
+Benefactive
+
+Causal
+
+-final
+
+Final
+
+	Other	
+
+Postpositional/Prepositional
+
+Vocative
+
+	Declensions	
+
+Classical Arabic
+
+Czech
+
+Archaic Dutch
+
+English
+
+Middle English
+
+Old English
+
+Finnish
+
+Georgian
+
+German
+
+Old High German
+
+Gothic
+
+Hindi
+
+Hungarian
+
+Irish
+
+Latin
+
+Latvian
+
+Lithuanian
+
+Russian
+
+Serbo-Croatian
+
+Slovak
+

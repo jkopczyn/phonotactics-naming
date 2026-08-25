@@ -1,0 +1,66 @@
+LAPSyD (Lyon-Albuquerque Phonological Systems Database) — language page
+Maddieson, Flavier, Marsico, Coupe & Pellegrino. lapsyd.huma-num.fr. CC BY-NC-ND 3.0.
+URL: https://lapsyd.huma-num.fr/lapsyd/index.php?data=view&code=217
+Retrieved: 2026-08-24
+
+Language name : Irish, Donegal dialect
+ISO 639-3     : gle
+Alternate     : Gaeilge
+Classification: Indo-European, Celtic, Goidelic
+Location      : Ireland, especially in northwestern parts of the island.
+
+COUNTS: consonants=35 basic vowels=11 total vowels=14 C/V ratio=2.5 top C= top V=
+
+=== SYLLABLE STRUCTURE ===
+Syllcat (cf. WALS ch.12): Complex
+Syllabic index (O+N+C) = 7   [Onset=3 Nucleus=2 Coda=2]
+Canonical Form      : (C)(C)(C)V(V)(C)(C)
+Syllabic Restriction: (C)(C)(C)V(V)(C)(C)
+Syllabic notes      : Ó Dochartaigh (1992) gives syllable structure as (C)(C)(C)V(V)(C)(C) but does not give any examples to illustrate clusters.
+
+=== STRESS ===
+Stresscat (cf. WALS ch.14/16): Lexical
+Fixed Stress: Initial   Weight-sensitivity: V:
+Stress notes: "Primary lexical stress is located on the first syllable of most words" (Ni Chasaide 1999), but some items have unpredictable stress location.
+
+=== TONE ===
+Tonecat: None
+Tone notes: None
+
+=== CONSONANT NOTES ===
+The consonant system shown is that favored by Ni Chasaide (1999), which omits voiceless nasals and liquids — these being treated as sequences with /h/.
+
+=== VOWEL NOTES ===
+"Vowels fall into long and short sets ... long and short pairs of vowels are qualitatively distinct" (Ni Chasaide 1999). She exemplifies 5 short and 6 long vowels, plus three diphthongs. Because of the differences in quality both the long and short vowels are treated as basic. In addition a schwa is shown on the vowel chart: this appears in a high proportion of the unstressed vowels in the transcribed passage, but is regarded as a reduced variant of other vowels. Other dialects are reported to have nasalized vowels.
+
+=== SOURCES CITED BY LAPSyD ===
+Ní Chasaide, Ailbhe. 1999. Irish. In Handbook of the International Phonetic Association. Cambridge University Press, Cambridge: 111-116.
+
+Ó Dochartaigh, Cathair. 1992. The Irish language. In D. MacAulay, editor, The Celtic Languages. Cambridge University Press, Cambridge: 11-99.
+
+Doyle, Aidian. 2001. Irish. Lincom Europa, München & Newcastle.
+
+=== INVENTORY TABLES (flattened; blank cells = empty table slots) ===
+Vowels | front | central | back
+unrounded | unrounded | unrounded | rounded
+ | long |  |  | long
+high |  |  | i | iː |  |  | uː
+higher mid |  |  |  | eː |  | ɤ | oː
+lower mid |  |  | ɛ |  |  | ʌ | ɔː
+raised low |  |  |  | æː |  |  | 
+low |  |  |  |  | a |  | 
+Diphthongs | count | unrounding | rounding | fronting | backing | lowering | rising
+au | 1 |  | X |  | X |  | X
+ia | 1 |  |  |  | X | X | 
+ua | 1 | X |  | X |  | X | 
+Consonants | bilabial | lab-den | dental | alv | pal-alv | palatal | velar | glottal
+ |  |  |  |  |  |  |  |  | pal-zed | velarized | velar | pal-zed | velarized | velarized |  | pal-zed | velarized | pal-zed |  |  | 
+pulm | stop |  |  |  |  | -vless |  |  | pʲ | pˠ |  |  |  | t̪ˠ |  |  |  | t̠ʲ | c | k | 
+-ved |  |  | bʲ | bˠ |  |  |  | d̪ˠ |  |  |  | d̠ʲ | ɟ | ɡ | 
+fric |  |  |  |  | -vless |  |  |  |  |  | fʲ | fˠ |  |  |  |  |  | ç | x | h
+-ved |  |  |  |  |  | vʲ |  |  |  |  |  |  |  | ɣ | 
+sib |  | -vless |  |  |  |  |  |  |  |  |  |  | sˠ | ɕ |  |  | 
+nasal |  |  |  |  | -ved |  |  | mʲ | mˠ |  |  |  | n̪ˠ | n |  |  | n̠ʲ | ɲ | ŋ | 
+tap/flap |  |  |  |  | -ved |  |  |  |  |  |  |  |  |  | ɾʲ | ɾˠ |  |  |  | 
+appr |  |  |  |  | -ved |  |  |  |  | w |  |  |  |  |  |  |  | j |  | 
+lat |  |  |  | -ved |  |  |  |  |  |  |  | l̪ˠ | l |  |  | l̠ʲ |  |  | 

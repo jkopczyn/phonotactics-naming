@@ -1,0 +1,70 @@
+LAPSyD (Lyon-Albuquerque Phonological Systems Database) — language page
+Maddieson, Flavier, Marsico, Coupe & Pellegrino. lapsyd.huma-num.fr. CC BY-NC-ND 3.0.
+URL: https://lapsyd.huma-num.fr/lapsyd/index.php?data=view&code=142
+Retrieved: 2026-08-24
+
+Language name : Egyptian Arabic
+ISO 639-3     : arz
+Alternate     : 
+Classification: Afro-Asiatic, Semitic
+Location      : Egypt, especially the lower Nile valley.
+
+COUNTS: consonants=27 basic vowels=5 total vowels=8 C/V ratio=3.375 top C=l top V=ɪ
+
+=== SYLLABLE STRUCTURE ===
+Syllcat (cf. WALS ch.12): Complex
+Syllabic index (O+N+C) = 4   [Onset=0 Nucleus=2 Coda=2]
+Canonical Form      : (C)V(C)(C)
+Syllabic Restriction: (C)V(C)(C)
+Syllabic notes      : (C)V(C)(C). /χamast/ "five", /katabt/ "I wrote", /zanb/ "guilt"
+
+=== STRESS ===
+Stresscat (cf. WALS ch.14/16): Minor
+Fixed Stress:    Weight-sensitivity: 
+Stress notes: Mitchell (1962) indicates stress falls on final long heavy syllable (CVVC, CVCC), otherwise penultimate syllable is stressed, unless it and the preceding syllable are both CV, when the antepenultimate is stressed.
+
+=== TONE ===
+Tonecat: None
+Tone notes: None
+
+=== CONSONANT NOTES ===
+All consonants can appear geminate. In colloquial Egyptian (Cairo) Arabic only a few words retain /q/, including the name of the city, /el qaː'hera/.
+
+=== VOWEL NOTES ===
+Long mid vowels /eː, oː/ historically derive from /ai, au/; /aj, aw/ sequences occur where /j, w/ fill consonant slots in templatic morphology. Watson (2000) suggests that front and back variants of the long and short low vowels (transcribed /æː, a/ here) are developing into contrastive pairs (/æ, æː/, /ɑ, ɑː/) due to loss of a pharyngeal(ized) conditioning context. Here the consensus of 5 long and 3 short vowels indicated by e.g. Tomiche (1964), Cowan (1970) is accepted with qualities as suggested by Thelwall & Sa'adeddin (1990).
+
+=== SOURCES CITED BY LAPSyD ===
+Kennedy, N.M. 1960. Problems of Americans in Mastering the Pronunciation of Egyptian Arabic. Center for Applied Linguistics, Washington, D.C.
+
+Mitchell, T.F. 1962. Colloquial Arabic. English Universities Press, London.
+
+Tomiche, N., 1964. Le Parler Arabe du Caire. Mouton, Paris and The Hague. (has text frequency data)
+
+Cowan, William. 1970. The vowels of Egyptian Arabic. Word 26: 94-100.
+
+Watson, Janet. 2000. The Phonology and Morphology of Arabic. New York, Oxford University Press.
+
+Thelwall, Robin & M. Akram Sa'adeddin. 1990. Illustrations of the IPA: Egyptian Arabic. Journal of the International Phonetic Association 20: 37–39. Also in Handbook of the IPA, Cambridge University Press, Cambridge: 51–54.
+
+=== INVENTORY TABLES (flattened; blank cells = empty table slots) ===
+Vowels | front | central | back
+unrounded | unrounded | rounded
+ | long |  |  | long
+high |  |  |  | iː |  |  | uː
+lowered high |  |  | ɪ |  |  | ʊ | 
+higher mid |  |  |  | eː |  |  | oː
+raised low |  |  |  | æː |  |  | 
+low |  |  |  |  | a |  | 
+Consonants | bilabial | lab-den | dental | alv | pal-alv | palatal | velar | uvular | phar | glottal
+ |  |  |  |  |  |  |  |  |  | velar |  |  | pha-zed |  |  |  |  |  |  | 
+pulm | stop |  |  |  |  | -vless |  |  |  |  |  | t̪ | t̪ˤ |  |  |  | k | q |  | ʔ
+-ved |  |  | b |  |  | d̪ | d̪ˤ |  |  |  | ɡ |  |  | 
+aff |  |  | sib |  | -ved |  |  |  |  |  |  |  |  | d̠ʒ |  |  |  |  | 
+fric |  |  |  |  | -vless |  |  |  |  | f |  |  |  |  |  |  | χ | ħ | h
+-ved |  |  |  |  |  |  |  |  |  |  |  | ʁ | ʕ | 
+sib |  | -vless |  |  |  |  |  | s̪ | s̪ˤ |  | ʃ |  |  |  |  | 
+-ved |  |  |  |  |  | z̪ | z̪ˤ |  |  |  |  |  |  | 
+nasal |  |  |  |  | -ved |  |  | m |  |  | n̪ |  |  |  |  |  |  |  | 
+trill |  |  |  |  | -ved |  |  |  |  |  |  |  | r |  |  |  |  |  | 
+appr |  |  |  |  | -ved |  |  |  | w |  |  |  |  |  | j |  |  |  | 
+lat |  |  |  | -ved |  |  |  |  |  | l̪ |  |  |  |  |  |  |  | 

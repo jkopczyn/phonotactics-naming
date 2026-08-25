@@ -1,0 +1,1663 @@
+                                                                                 eprints@whiterose.ac.uk
+                                                                            https://eprints.whiterose.ac.uk
+                                                      Universities of Leeds, Sheffield and York
+
+
+Deposited via The University of York.
+
+White Rose Research Online URL for this paper:
+https://eprints.whiterose.ac.uk/id/eprint/43996/
+
+Version: Accepted Version
+
+Article:
+Hellmuth, S. (2007) The relationship between prosodic structure and pitch accent
+distribution: evidence from Egyptian Arabic. The Linguistic Review. pp. 291-316. ISSN:
+0167-6318
+
+https://doi.org/10.1515/TLR.2007.011
+
+
+
+
+Reuse
+Items deposited in White Rose Research Online are protected by copyright, with all rights reserved unless
+indicated otherwise. They may be downloaded and/or printed for private study, or other acts as permitted by
+national copyright laws. The publisher or other rights holders may allow further reproduction and re-use of
+the full text version. This is indicated by the licence information on the White Rose Research Online record
+for the item.
+
+Takedown
+If you consider content in White Rose Research Online to be in breach of UK law, please notify us by
+emailing eprints@whiterose.ac.uk including the URL of the record and the reason for the withdrawal request.
+The relationship between prosodic structure and pitch accent distribution:
+                     evidence from Egyptian Arabic.
+                            Sam Hellmuth (University of Potsdam)
+
+1. Introduction
+
+The notion of a relationship between prosodic structure and the distribution of intonational
+
+pitch accents is well-established, although authors vary as to whether that relationship is more
+
+accurately conceived of as direct or indirect (Ladd 1996). This paper argues in favour of a
+
+direct relationship between prosodic structure and pitch accent distribution, along the lines of
+
+Ladd’s (1996) prosodic-structure based, or “stress-first”, analysis, but sets out empirical
+
+evidence suggesting that it is not always phrase-level prosodic structure that is at issue. In
+
+Egyptian Arabic (EA) every content word routinely bears a pitch accent (Hellmuth 2006b),
+
+but it is also a language with relatively large prosodic phrases (Hellmuth in press), and thus
+
+appears to challenge a phrase-level prosodic-structure-based analysis of pitch accent
+
+distribution. The patterning of pitch accents in EA can however be analysed by appeal to the
+
+Prosodic Word as the constituent level of the Prosodic Hierarchy which functions in EA as the
+
+domain of pitch accent distribution.
+
+       The outline of the paper is as follows: Section 2 reviews arguments that have been put
+
+forward in favour of a direct relationship between pitch accent distribution and prosodic
+
+structure and sets out briefly what is known to date about prosodic phrasing in EA; Section 3
+
+describes the methodology used to collect and analyse the corpus data, presents the facts of
+
+pitch accent distribution and phrasing choices observed, and offers a constraint-based account
+
+of observed EA phrasing within Optimality Theory (Prince and Smolensky 1993); Section 4
+
+explores the relative accentuation of content vs. function words in the corpus and shows that
+
+pitch accent distribution in EA can be captured by appeal to a prosodic domain (the Prosodic
+
+Word) rather than a morphosyntactic one (content words); Section 5 concludes the paper with
+
+discussion of some implications of potential cross-linguistic variation across levels of the
+
+
+
+                                                1
+Prosodic Hierarchy in the relationship between prosodic structure and pitch accent
+
+distribution.
+
+
+
+2. Prosodic phrasing and pitch accent distribution in Egyptian Arabic
+
+2.1. The relationship between prosodic structure and pitch accent distribution
+
+This paper defends a “prosodic-structure-based” approach to the relationship between pitch
+
+accent distribution and prosodic phrasing. In this approach, which has been termed a “stress-
+
+first” view (Ladd 1996: 221-223, cf. Selkirk 1984: 265), the positioning of pitch accents in an
+
+utterance reflects the utterance’s prosodic structure. The Designated Terminal Element
+
+(DTE1) of each prosodic constituent at some relevant level of the prosodic hierarchy bears an
+
+intonational pitch accent, marking it out as relatively prominent within, or as the “head” of,
+
+some constituent, most often a phrase-level domain.
+
+           I adopt here a conception of prosodic structure in which prosodic constituents are
+
+mapped from morphosyntactic structure (Nespor and Vogel 1986, Selkirk 1986), and in
+
+particular of the constituents of the Prosodic Hierarchy (and the morpho-syntactic constituents
+
+they map from if applicable) as illustrated in the table in (1), after Selkirk (2005).
+
+
+(1)         The Prosodic Hierarchy
+
+constituent                                    equates to:                 maps from:
+Utterance                             U
+Intonational Phrase                   IP                                   root sentence or
+                                                                           sentence-external clause
+Major Phonological Phrase             MaP      phonological phrase         maximal projection (XP)
+                                               intermediate phrase
+Minor Phonological Phrase             MiP      accentual phrase            syntactically branching
+                                                                           constituent (two PWds)
+Prosodic Word                         PWd      phonological word           morphosyntactic word
+Foot                                  Ft
+Syllable                              σ
+Mora
+
+1
+    In metrical grid structure, the most prominent constituent within X is the DTE of X (Hayes 1995).
+
+
+
+                                                         2
+       The particular set of individual constituent levels proposed is not crucial to a prosodic-
+
+structure-based analysis of pitch accent distribution. However, in order to encode relative
+
+prominence at one level as the marking of one element of the “next layer down”, a prosodic-
+
+structure-based account does rely on two key elements of what has become known as the
+
+“Strict Layer Hypothesis” (Selkirk 1984: 26), namely that prosodic constituents are “layered”
+
+(“no constituent dominates a constituent at a higher level”) and “headed” (“every constituent
+
+dominates a constituent at the next lower level”) (Selkirk 1996).
+
+       The prosodic-structure-based view contrasts with two further views of pitch accent
+
+distribution in which the positioning of pitch accents reflects (more or less directly) the
+
+meaning of the utterance. In the syntactic-/semantic-structure-based view (dubbed "accent-
+
+first" Selkirk 1984: 265), the position of pitch accents is determined by the focus structure
+
+(rather than the prosodic structure) of the sentence, and in case of mismatches between the
+
+position of a focus and the position of default prominence, the prosodic structure adjusts
+
+accordingly (Gussenhoven 1983, Selkirk 1984). The third view departs completely from any
+
+grammatical involvement in the positioning of pitch accents, taking what might be termed a
+
+“functional” approach, in which speakers place pitch accents on whichever part of the
+
+utterance they wish to highlight at any particular time (Bolinger 1972, Chafe 1974, Halliday
+
+1967), and has thus been dubbed the “highlighting based” view (Ladd 1996: 163-166).
+
+       Rich pitch accent distribution is not easily reconciled with either of the two meaning-
+
+related approaches to pitch accent distribution: if every content word is routinely accented
+
+(even in unemphatic contexts) this is hard to equate with a “highlighting” view of pitch accent
+
+distribution (in EA speakers routinely accent content words which are not particularly
+
+highlighted), nor with a semantic-syntactic structure-based analysis (EA speakers accent
+
+content words regardless of their focus status or predicate/argument status). Indeed a key
+
+
+
+                                                3
+piece of evidence that Ladd (1996) cites against both of these views, and in favour of the
+
+prosodic-structure-based view, is that there are languages in which the presence of pitch
+
+accents does not necessarily mark focus, as has been shown to be the case in Egyptian Arabic
+
+(Hellmuth 2006a, 2006b).
+
+        However, this paper argues further that the accent distribution and phrasing facts of
+
+EA provide additional independent evidence in favour of the prosodic-structure-based view, if
+
+it is modified to allow pitch accents to mark prosodic heads at different levels of the Prosodic
+
+Hierarchy. The key notion in the prosodic-structure-based hypothesis is that there is a direct
+
+correlation between the pitch accent distribution and prosodic constituency. For example,
+
+Ladd (1996: 199,233) illustrates how it can explain otherwise puzzling cases of changes in
+
+pitch accent distribution. The sentence in (2) has two possible positions for the main accent,
+
+resulting in two interpretations of the sentence (Ladd 1996: 199,233, citing Halliday 1970).
+
+Gussenhoven (1980) characterised the two interpretations as an eventive reading, in (2a) “You
+
+must have a dog and carry it”, vs. a contingency reading in (2b) “If you have a dog, you must
+
+carry it”.
+
+
+(2)     a.     DÓGS must be carried.
+        b.     Dógs must be CÁRRIED.
+
+
+Ladd (1996: 233) argues that the number of pitch accents here indicates the number of phrases
+
+into which the sentence is divided: when the sentence is composed of a single phrase, there is
+
+a single primary accent: |DÓGS must be carried|; when the sentence is composed of two
+
+phrases however there are two primary accents, of which the rightmost receives main relative
+
+prominence in the utterance: |Dógs|must be CÁRRIED|. The definition of primary accent that
+
+Ladd gives for these English examples is the main prominence (DTE) of the Intermediate
+
+Phrase (equates here to the Major Phonological Phrase, though see Gussenhoven (2004: 167)
+
+for a different view).
+
+
+                                               4
+           Similarly, Ladd suggests that in a very emphatic rendition of an English sentence,
+
+where every word bears a primary accent, each word is mapped to an individual phrase: again,
+
+the number of phrases equals the number of accents (Ladd 1996: 249):
+
+
+(3)        A:       Everything OK after your operation?
+           B:       Don’t talk to me about it.
+                        H* L       H* L        H* L H*L-L%
+                    The bútcher chárged me a thóusand búcks!
+
+
+The idea that the distribution of tonal events directly reflects prosodic structure is inherent
+
+also to ideas proposed in work on intonational phonology regarding the distribution of pitch
+
+events. Pierrehumbert & Beckman (1986, 1988) suggested that the position of pitch accents
+
+and phrase-/boundary-tones directly reflects the position of the heads and edges of a hierarchy
+
+of intonationally defined prosodic constituents (Accentual Phrase, Intermediate Phrase and
+
+Intonational Phrase). Pierrehumbert & Beckman do not specify to what extent their hierarchy
+
+of prosodic constituents is the same as that which in other theories is constructed as a result of
+
+the interface with syntactic structure (Nespor and Vogel 1986, Selkirk 1986). Many authors
+
+have however adopted what Frota (2000) terms an “integrated view”, in which the prosodic
+
+hierarchy which results from the interface with syntax is indeed the same prosodic structure to
+
+which intonational pitch events are sensitive2, and this hypothesis is adopted here.
+
+           In this integrated view of prosodic structure, pitch accent distribution can be used as a
+
+diagnostic for prosodic phrasing. In a study of phrasing and focus in European Portuguese
+
+(EP) Frota (2000: 186-9) appeals to the relationship between pitch accent distribution and
+
+prosodic phrasing, to distinguish between the predictions of the relation-based and edge-based
+
+theories of prosodic phonology (Nespor and Vogel 1986, Selkirk 1986, respectively). She
+
+notes that this is possible because: “the way in which a sequence.. is phrased.. determines
+
+2
+    Mismatches between the prosodic representations cued by intonation and by other cues are reported by Dresher
+
+(1994) and Gussenhoven and Rietveld (1992); cf. also Ladd (1996: 237-246).
+
+
+
+                                                        5
+which patterns of pitch accent distribution may or may not be implemented” (Frota 2000:
+
+187). Frota analyses variant accentuation patterns observed in complex NPs, elicited in both
+
+subject and object position of target sentences. On the assumption that the rightmost word in
+
+each Phonological Phrase (≈MaP) must bear an accent, and that all other accents are optional,
+
+the possible accent distribution patterns Frota predicts under each theory’s phrasing
+
+algorithms are as shown in (4) below. Frota uses a different formulation of the Prosodic
+
+Hierarchy to that listed in (1) above, and her original terminology is used here, with
+
+equivalents noted in brackets in the discussion below. The phrasing pattern predicted by the
+
+relation-based mapping in (4a) is argued to yield exactly those patterns of pitch accent
+
+distribution that are observed, and predicts as ungrammatical exactly the accentuation pattern
+
+which is never observed (Frota 2000: 176):
+
+
+(4)    a.        |uma progressiva subida|PP |dos preços|PP           relation-based
+                            PA      PA              PA
+                            -       PA              PA
+               *            PA      -               PA
+       b.        |uma progressiva subida dos preços|PP               edge-based
+                            -       -              PA
+                            -       PA             PA
+               *            PA      -              PA
+                            PA      PA             PA
+
+
+       Crucially, for our present purposes, Frota’s argument turns on the assumption that
+
+there must be at least one pitch accent in every Phonological Phrase (≈MaP) (Frota 2000: 188)
+
+and she thus successfully appeals to patterns of pitch accent distribution as evidence of
+
+prosodic phrasing. Other authors who have used pitch accent distribution as a diagnostic to
+
+determine prosodic phrasing include Selkirk (2000) for English and Post (2000) for French.
+
+
+
+2.2. Prosodic phrasing in Egyptian Arabic
+
+
+
+
+                                               6
+Egyptian Arabic (EA) is defined here as the dialect of Arabic spoken in Cairo and by
+
+educated speakers throughout Egypt. The spoken dialect is used in informal and familiar
+
+contexts and has no agreed written form, and co-exists alongside Modern Standard Arabic
+
+which is written and spoken in formal settings. The syntax and segmental/metrical phonology
+
+of EA are well-described (see surveys in Benmamoun 2000, and Watson 2002, respectively).
+
+       In contrast, prosodic structure above the level of the word in EA has receively
+
+relatively less attention. An exception is Watson (2002) who, in a survey of segmental
+
+phonological rules, notes for each rule the prosodic domain within which it is observed to
+
+apply. However, she also notes that most sandhi processes of this type are subject to
+
+considerable speaker variation in EA. As an alternative, Hellmuth (in press) sought to identify
+
+intonational cues to phrasing in EA and found those listed in (5) below:
+
+
+(5)    Cues to phrasing observed in Egyptian Arabic (Hellmuth in press)
+
+       frequent cues to phrasing          occasional cues to phrasing
+       phrase-initial local pitch reset   pause
+       phrase-final lengthening           failure of epenthesis
+       phrase-final pitch accent lowering
+       high or low phrase tone (H- or L-)
+
+
+       The phrasing study in Hellmuth (in press) was based on a corpus of read speech SVO
+
+sentences from two speakers, in which the syntactic complexity and prosodic weight of both
+
+subject and object was systematically varied. In addition to the core dataset, additional
+
+sentences were recorded in which parenthetical expressions were inserted to help decide what
+
+level of phrasing was being cued, since it has been observed that parenthetical expressions
+
+induce a full intonational phrase (IP) boundary at their right edge (Nespor and Vogel 1986,
+
+Frota 2000). To supplement the evidence from tonal cues, epenthesis contexts were placed
+
+across potential phrase boundaries throughout the stimuli. Epenthesis applies systematically in
+
+EA, and robustly across speakers, to break up sequences of three consecutive consonants,
+
+
+
+                                               7
+reportedly across word boundaries within a domain larger than the phonological phrase (PP)
+
+(Watson 2002: 64).
+
+        The aim of the phrasing study was to determine to what extent syntactic complexity
+
+and prosodic weight influence prosodic phrasing in EA, patterned on a comparative study of
+
+phrasing in Romance languages (Elordieta et al. 2003). The results observed in EA were
+
+similar to those observed by Elordieta et al. for Standard European Portuguese (SEP): the
+
+majority of sentences in EA were produced within a single large prosodic phrase, regardless
+
+of syntactic complexity and prosodic weight. A key question, however, is what constituent
+
+level of the Prosodic Hierarchy this phrase represents.
+
+        A small number of utterance-internal phrase boundaries, and thus shorter instances of
+
+the prosodic phrase, were observed in the phrasing corpus. It was possible to identify these as
+
+MaP boundaries on the basis of evidence from epenthesis, which failed only at boundaries
+
+flanking epenthetical expressions, suggesting that epenthesis applies across MaP boundaries
+
+within the intonational phrase (IP). There is also a theoretical argument that the observed
+
+phrase breaks are MaP-level boundaries, since, on the rare occasions when a phrase break was
+
+observed, the break invariably fell between the subject and verb (at the right edge of the
+
+subject lexical projection). Treating these as MaP breaks is thus consistent with
+
+Truckenbrodt’s (1999) assertion that cross-linguistically the level of phrasing sensitive to
+
+syntactic maximal projections is an instantiation of the Phonological Phrase (notated here as
+
+MaP).
+
+        Thus the study found that the overwhelming majority (91%) of target SVO sentences
+
+were produced in a single, large MaP: |SVO|. Those sentence-internal boundaries that did
+
+occur fell between the subject and the verb: |S|VO|. A break in any other position, particularly
+
+between verb and object, was never observed: *|SV|O|. The lack of phrasing breaks in EA
+
+cannot be explained by reference to morpho-syntactic structure alone, since all of the main
+
+
+
+                                                8
+syntax-phonology interface theories predict a phrasing break between subject and verb in
+
+SVO sequences with an overt object (Nespor and Vogel 1986, Selkirk 1986, Inkelas and Zec
+
+1995, Selkirk 2000, Truckenbrodt 1999), and it was notable that none of the sentence-internal
+
+phrases that were produced contained fewer than four Prosodic Words (PWd). Hellmuth (in
+
+press) attributes this to a well-formedness constraint on prosodic structure, favouring
+
+phrasings in which all MaPs are minimally branching and thus composed of two Minor
+
+Phrases (MiP), each of which is in turn composed of two Prosodic Words (PWd)3:
+
+BINMAPMIP “A Major Phrase consists of two Minor Phrases” (Selkirk 2000).
+
+           The prosodic well-formedness constraint is shown nonetheless to interact with syntax-
+
+phonology interface constraints, which have been shown to be sensitive to the edges of
+
+syntactic maximal projections (Selkirk 1986, Selkirk 2000, Truckenbrodt 1999). The presence
+
+of MaP boundaries at the right edge of the subject XP, yielding |S|VO|, and the systematic
+
+absence of such boundaries at the left edge of the object XP, *|SV|O|, indicate that right-edge
+
+sensitivity is at work in EA, which is captured by means of the constraint: ALIGN R XP,MAP
+
+“For each XP there is a MaP such that the right edge of XP coincides with the right edge of
+
+MaP” (Selkirk 2000).
+
+           In EA then, MaP-level prosodic phrases in read speech sentences have been shown to
+
+be large, and this has been attributed to the effects of the constraint BINMAPMIP which
+
+outranks ALIGN XP,R: MaP phrase breaks fall at the right edge of XPs, but only when all of
+
+the resulting phrases are of sufficient prosodic weight (minimally four PWds)4. The
+
+indications are then that MaPs in EA are large, and certainly not co-extensive with the PWd,
+
+yet already in Hellmuth (in press) it was noted that a pitch accent was observed on every
+
+content word in the read-speech sentences. Subsequent studies have confirmed that rich pitch
+
+
+3
+    By analogy with characterisation of MiP in Japanese as a node that branches into two words (Kubozono 1993).
+4
+    Compare the phrasing facts observed in Hebrew (Shaked this volume) in which ALIGNXP outranks BINMAP.
+
+
+
+                                                        9
+accent distribution is characteristic of EA across a range of speech styles (Hellmuth 2006b),
+
+and it has been noted informally of EA by a number of other authors (Heliel 1977, Mitchell
+
+1993, Rifaat 1991, El Zarka 1997).
+
+           This combination of properties (rich pitch accent distribution and large prosodic
+
+phrases) conflicts with a purely phrase-level prosodic-structure-based analysis of pitch accent
+
+distribution, unless one argues that in EA phrases almost universally contain only a single
+
+word. It also contrasts with the array of prosodic properties observed in two varieties of
+
+European Portuguese, in which phrasing and pitch accent distribution appear to correlate:
+
+Southern/Standard European Portuguese (SEP) has sparse pitch accent distribution and large
+
+prosodic phrases, whereas Northern European Portuguese (NEP) has rich pitch accent
+
+distribution and small prosodic phrases (Vigario and Frota 2003). The present study explores
+
+the empirical facts of EA phrasing and pitch accent distribution further, in a newly-collected
+
+corpus, in order to resolve these challenges to the prosodic-structure-based hypothesis.
+
+
+
+3. Pitch accent distribution and prosodic phrasing in a corpus of spoken EA
+
+3.1. Methodology
+
+The aim of the present study is to investigate whether or not EA pitch accent distribution can
+
+be explained in terms of prosodic structure, in accordance with the prosodic-structure-based
+
+hypothesis. A corpus of narrative read and semi-spontaneous speech was collected, with the
+
+aim of establishing both pitch accent distribution and phrasing from within one corpus, but in
+
+a speech style which would be conducive to accentuation of fewer words, if felicitous5. In
+
+fully unscripted speech, sentences are in general neither prosodically long nor syntactically
+
+complex, and thus not necessarily conducive to elicitation of useful phrasing generalisations.
+
+A narrative text was therefore chosen for further investigation because it contains stretches of
+
+5
+    Cf. Face (2003) for Spanish, who observed fewer pitch accents in spontaneous speech than “lab” speech
+
+
+
+                                                        10
+text but without punctuation marks in the orthography (as is usual in written Arabic), so
+
+speakers are at liberty to assign whatever prosodic phrasing they choose.
+
+       The chosen narrative was a folk tale “Guha and the banana seller”, written in Egyptian
+
+orthography, taken from an EA textbook (Abdel-Massih 1975). EA orthography is not fully
+
+standardised but differs sufficiently from MSA orthography that speakers had no difficulty in
+
+producing the desired register of speech, and the colloquial content of the story also helped
+
+ensure this. The narrative consists of 30 sentences (13 simplex, 11 complex and 6 conjoined)
+
+and contains 15 instances of complex noun phrases. The full text is reproduced in
+
+transliteration and translation in Hellmuth (2006b).
+
+       The narrative was recorded with two female and three male native speakers of EA,
+
+who were born and raised in Cairo. All were at pre-intermediate level or lower in English and
+
+without speech or hearing deficits, and were naïve to the purpose of the study. Speakers were
+
+asked to read the story naturally, as if to a friend, and were asked to do so three times in order
+
+to facilitate the final task, which was to re-tell the folk tale from memory. Digital recordings
+
+were made using ProTools 6.0/MBox at 44.1KHz 16bit, re-sampled to 22.05KHz 16bit for
+
+analysis.
+
+       For each speaker the second reading (usually the most fluent) and the semi-
+
+spontaneous re-telling were prosodically transcribed by the author, with reference to F0 track
+
+and spectrogram extracted using Praat 4.2. The working hypothesis during transcription was
+
+that the basic EA pitch accent is rising, and such accents were provisionally notated as LH*
+
+(see Hellmuth (2006b) for discussion of the appropriate phonological representation of this
+
+pitch accent). The following boundary and phrase tones were transcribed:
+
+
+(6)    H%      L%      indicating the right edge of an Intonational Phrase (IP)
+       H-      L-      indicating the right edge of a Major Phonological Phrase (MaP)
+
+
+
+
+                                                11
+       Phrase-final “nuclear” accents in EA often resemble a falling rather than rising pitch
+
+movement (for example on the final word in Figure 3 below). Such cases were analysed as
+
+early peak alignment of a standard LH* pitch accent, due to tonal crowding from IP-final
+
+boundary tones as well as proximity of the strong prosodic boundary (IP) (cf. Chahal 2001,
+
+Prieto et al. 1995). Since the primary purpose of the present investigation was to establish the
+
+distribution of pitch accents, subsequent re-analysis of the phonological representation of
+
+these “nuclear” pitch accents would not alter the facts of their distribution, nor thus the
+
+resulting generalisations claimed here.
+
+       In addition to these pitch events, other aspects of the pitch contour were also
+
+transcribed, the detail of which were deemed to be potentially relevant, as listed in (7) below.
+
+These included possible cues to juncture or prominence, such as pause, lengthening,
+
+increased/reduced pitch excursion, and the presence of level pitch throughout a word or
+
+morpheme. For each word or morpheme which was not associated with a rising pitch
+
+movement, the probable direction of cliticisation was transcribed (either leftwards to the
+
+preceding content word, or rightwards to the following content word). In reality the direction
+
+of cliticisation was frequently hard to establish and so represents only a best estimate.
+
+
+(7)    Notation used during auditory transcription
+
+LH*                       pitch accent
+H-/L-                     phrase tones
+H%/L%                     boundary tones
+>/<                       cliticises rightward/leftward
+---                       level pitch throughout word
+=                         lengthening
+~                         pause
+↑/↓                       H peak in expanded/compressed pitch range
+→                         suspension of downstep (H peak at same height as previous peak)
+xxx                       word in written text omitted from spoken rendition.
+
+
+       The most common cues to phrasing observed in the narratives corpus were boundary
+
+tones, such as H- or L-, pauses and local pitch reset, and following Hellmuth (in press), as
+
+
+                                                12
+discussed above, these are analysed here as marking the edges of MaP level phrasal
+
+constituents. The transcription yields three levels of analysis: i) a count of the number of
+
+content words which bear a pitch accent, ii) a survey of phrasing generalisations, and iii) a
+
+survey of the relative accentuation of content vs. function words.
+
+
+
+3.2. Results: observed pitch accent distribution
+
+Over 95% of content words in the narratives were accented, as shown in the table in (8) below.
+
+Whenever there was a borderline case (accented vs. unaccented) it was counted as unaccented,
+
+so these distributional counts represent the most conservative estimate, from the point of view
+
+of the hypothesis that EA accents every content word.
+
+
+(8)    Counts/percentages of unaccented content words (all speakers).
+
+                     # content words # unaccented content words % accented content words
+read narratives                 1055                         32                   97.0%
+re-told narratives               686                         29                   95.8%
+Total                           1741                         60                   96.5%
+
+
+       Words counted as content words were nouns, verbs, adjectives and adverbs. The verb
+
+[kaan] ‘to be’ can function as an auxiliary verb or copula verb in Arabic and was counted as a
+
+function word in both of these roles. The verb [raaH] ‘to go’ is also used in EA with auxiliary
+
+function, but was counted as a function word only when used in this sense; when used as a
+
+verb of motion it was classified as a content word (some speakers used [raaH] in the retold
+
+narratives). Prepositions were classified as function words.
+
+       The generalisation (that every content word is accented) holds across all five speakers:
+
+the speaker who left most content words unaccented (speaker miz) nonetheless accented over
+
+94% of content words.
+
+
+(9)    Unaccented content words and percentage accented content words, by speaker.
+
+
+
+                                               13
+count (unaccented words/total content words): fna   fsf   meh     miz  mns
+read narrative                                6/211 7/211 1/211 8/211 10/211
+re-told narrative                             6/133 1/134 10/158 9/114 3/147
+Total accented content words (%)               96.5 97.7     97.0 94.8    96.4
+
+
+           The degree of consistency across speakers and across the whole dataset suggests that it
+
+is not appropriate to consider some of the observed pitch accents as “optional”. Instead it
+
+seems that in EA in normal speech every content word is required to bear a pitch accent. The
+
+corpus successfully elicited idiomatic speech in the colloquial register, as can be seen by
+
+comparing read and re-told versions of parallel sections of the story (illustrated in examples
+
+11 vs. 12/13 below); increased naturalness of this kind is the main difference between the two
+
+test types. Sample pitch tracks of extracts from the corpus are in Figures 1-3 below.
+
+
+
+3.3. Results: observed prosodic phrasing
+
+The phrasing facts observed in the narratives corpus are consistent with the claim that EA has
+
+large phrases. For example, moderately long/complex monoclausal sentences are phrased into
+
+a single MaP, such as the example in (10), which shows the transcription and phrasing of a
+
+5PWd monoclausal sentence6.
+
+
+(10)       Speakers’ read speech phrasings of a 5PWd monoclausal sentence.
+
+    speaker     u a     ka n    tu l       umr      uh     a ji    fi    l    arija f
+    fna        LH*      ---     LH*       LH*      <      LH*      <    <    !LH*
+    fsf        LH*      <       <         LH*      <      LH*      <    <    !LH* L-L%
+    meh        LH*      <       (LH*)     LH*      <      LH*      <    <    LH* H-
+    miz        LH*      <       LH*       LH*      <      LH*      <    <    LH* H-
+    mns        LH*      <       <         LH*      <      LH*      <    <    LH* L-
+
+       u a   ka n tu l   umr uh a ji    fi   l   arija f
+      Guha   was  all  life- his living in  the villages
+      [[NP ] AUX [AdvP          ] [V    [PP              ]]]S
+
+6
+    MaP boundaries are shown here enclosed within vertical lines: |MaP|, and a gloss and syntactic analysis is
+
+provided; the transcription conventions used are those set out in (7) above; “xxx” indicates an omitted word.
+
+
+
+                                                         14
+         ‘Guha had lived all his life in the countryside.’
+
+
+         There is also evidence to confirm that the right edges of VP-internal XP boundaries do
+
+not trigger a MaP phrase boundary, and thus that the effects of the interface constraint
+
+ALIGNXP are obscured in EA. For example, in (11) below, which shows speakers’ read
+
+narrative phrasings of a 4PWd monoclausal sentence with VP-internal XPs, there is no MaP
+
+boundary at the right edge of the NP [kiilu] ‘kilo’.
+
+
+(11) Read speech phrasings of a complex 4PWd monoclausal sentence.
+ speaker ana awz       awzin lak ki lu bi bala
+ fna     >    ↑LH* LH*          <    LH* < !LH* L-L%
+ fsf     >    LH* LH*           <    LH* < !LH* L-L%
+ meh     >    LH* LH*           <    LH* < !LH* L-L%
+ miz     >    LH* LH*           <    LH* < LH* L-L%
+ mns     >    LH* LH*           <    LH* < !LH* L-L%
+
+       ana   awz awzin         lak       ki lu bi bala
+   I       want to-weigh for-you a-kilo for- free
+   [[NP ] [V       [V         [PP]       [NP] [PP      ]]VP]vP]S
+       ‘I will weigh you out a kilo for free!’
+
+
+         This treatment of complex XPs is maintained in speakers’ spontaneous (retold)
+
+narrative productions. For example, (12) and (13) show the same sentence, in spontaneous
+
+retellings by speakers fsf and meh, which are phrased into a single MaP.
+
+
+(12)     Single MaP phrasing (retold by speaker fsf) of a complex clause.
+
+  ana      mumkin aku n bad i k          ki lu bi    bala
+>          LH*       LH*     LH*         H*        < !LH* L-L%
+I          maybe     could give-you a-kilo for free
+[[NP]      ADV       AUX [V              [NP] [PP          ]]VP]S
+         ‘I could maybe give you a kilo for free.’
+
+
+(13)     Single MaP phrasing (retold by speaker meh) of a complex clause.
+
+ eh ra jak                     ad i k    ki lu  mo z    bi         bala
+LH* LH*                       →LH*       →LH* LH*       <          !LH* L-L%
+what your-opinion             I-give-you a-kilo bananas for        free
+
+
+                                                 15
+    [ NP NP t            [C [V             [NP             ] [PP                          ]]VP]CP]S
+         ‘How about if I give you a kilo of bananas for free?’
+
+
+           These results are therefore consistent with the analysis that in EA a preference for
+
+branching prosodic phrases (BINMAPMIP) outweighs the effects of the interface constraint
+
+(ALIGNXP). Thus the 5PWd monoclausal sentence in (14a) below (analysis of (10) above)
+
+cannot be subdivided at the MaP level because the resulting MaPs would contain less than
+
+two MiPs (assuming that MiPs must also be minimally branching), and the sentence is
+
+rendered by all speakers in a single MaP7:
+
+
+(14)       Phrasing analysis: two observed renditions of a 5PWd monoclausal sentence
+
+a.         |([gú a]) (ken [túul] [ úmr-uh]) ([ áaji ] [f-il- arijáaf]PWd )MiP |MaP
+b.         |([gú a] ken tul        [ úmr-uh]) ([ áajiš] [f-il- arijáaf]PWd )MiP |MaP
+              Guha was all          life-his          living in-the-country
+               ‘Guha had lived all his life in the countryside.’
+
+
+           Note that in (14) there is slight variation in pitch accent distribution between different
+
+speakers: speakers fna and miz accent the word [tu l] ‘all’, whereas fsf and mns leave it
+
+unaccented (with a possible accent on the word for speaker meh). In neither case, however, is
+
+there sufficient prosodic material to form more than one well-formed MaP. The same key
+
+claim regarding EA phrasing thus hold in the narratives corpus as was proposed in Hellmuth
+
+(in press) on the basis of read sentences: prosodic well-formedness constraints outweigh
+
+interface alignment constraints (BINMAPMIP >> ALIGN XP,R).
+
+           MaP phrases are large in EA, and yet in them each content word is routinely accented.
+
+The analysis appeals to MiP as a domain relevant in EA phonology, but again in all cases both
+
+content words in an MiP are routinely accented, so it is unlikely to be the domain of pitch
+
+
+7
+    Pitch accents are indicated with an acute accent mark eg [Túul]; PWd boundaries are indicated by square
+
+brackets [PWd], MiP boundaries by round brackets (MiP), and MaP boundaries by vertical lines |MaP|.
+
+
+
+                                                        16
+accent distribution in EA8. In terms of the prosodic-structure-based hypothesis then, it is not
+
+possible to use pitch accent distribution as a diagnostic of MaP- or MiP-level phrasing in EA,
+
+as Frota (2000) did for EP. Revisiting example (10) again, and assuming (as Frota did) that an
+
+obligatory pitch accent indicates the right edge of a MaP (or even of a MiP), the observed
+
+pitch accent distribution would suggest that in EA each MaP (or MiP) contains only a single
+
+content word:
+
+
+(15)       Observed pitch accent distribution in a 5PWd monoclausal sentence in EA.
+
+        u a ka n tu l umr                 uh    a ji    fi    l    arija f
+    a) *         *    *                        *                  *
+    b) *              *                        *                  *
+
+
+           Unlike the English example in (3) above, in EA this type of rendition of a sentence is
+
+not emphatic at all, but rather the norm, and the consistency of the distribution of pitch
+
+accents suggests that it is unlikely that all but one of these accents are “optional”.
+
+
+           In EA then, pitch accent distribution seems not to be predictable on the basis of
+
+prosodic structure at the phrase-level, as was possible in EP and English. The next section
+
+explores accentuation of function and content words in order to determine whether it is
+
+possible to maintain the prosodic-structure-based hypothesis by analysing EA pitch accent
+
+distribution in terms of an alternative potential candidate member of the Prosodic Hierarchy:
+
+the Prosodic Word.
+
+
+
+4. The syntax-phonology interface at the word-level in Egyptian Arabic
+
+4.1. Results: accentuation of function vs. content words in a corpus of spoken EA
+
+
+
+8
+    Compare the facts of Brazilian Portuguese, in which every content word is accented, unless optionally re-
+
+phrased into two word groupings; in these cases only one word in the phrase is accented (Tenani 2005).
+
+
+
+                                                         17
+Function words in the dataset fall into three groups: i) function words which are always
+
+unaccented, ii) function words which are usually unaccented, and, iii) function words which
+
+are usually accented. A summary list is provided in the table in (16) below.
+
+
+(16) Treatment of function words in the corpus
+always           usually                                              usually
+unaccented       unaccented (varies)                                  accented
+[il]    the      [min]                      from                      [ inn-uh]       that-it
+[fi]    in       [ ala]                     on, at                    [ inn-ak]       that-you
+[bi]    with/by  [fi ]                      there is                  [ ala a n]      in order to
+[ma]    [...] as [mi ]                      not                       [lissa]         just/soon
+[ja]    vocative [wala]                     or                        [ alajj a]      to me
+[ma ] negative [bass]                       only                      [ alajk]        to you
+[law] if         [illi]                     that (rel. pron.)         [ alajh]        to him
+[ aw] or         [ inna]                    that (comp.)
+[wa]    and      [da]/[di]                  that (deictic) m./f.
+                 [ e r]                     except
+                 [ a a n]                   in order to
+                 [bajn]                     between
+                 [ta t]                     under
+                 [ba d]                     after
+                 [bita ]                    belonging to
+                 [ ana]/[ inta]             I/you(m.)
+                 [ iHna]/[huwwa]/[hijja] we/he/she
+                 [kunt]/[ka n]/[ka nit]/    I/he/she was
+
+
+       Function words which are never accented include the definite article [il] ‘the’,
+
+prepositions [bi] ‘with/by’ and [fi] ‘in’, vocative [ja] (e.g. [ja gu a] ‘hey Guha!’), negative
+
+particle [ma] ‘not’ (first part of the discontinuous negative circumfix [ma + ]), and
+
+connectives [wa] ‘and’, [law] ‘if’ and [ aw] ‘or’. Some of these are listed by Watson (2002:
+
+93) as ‘unstressable morphemes’, including [il] ‘the’ and [wa] ‘and’, and Mitchell (1990: 127-
+
+8) similarly notes that there are particles which are not themselves stressed but which are
+
+usually treated as part of the following noun or verb without affecting accent (he lists
+
+prepositions [bi] ‘with/by’, [fi] ‘in’ and the complementizer [ an] ‘to’). The property that all
+
+
+                                                18
+of these “unaccentable” function words share is that they are prosodically subminimal. The
+
+minimal word in EA is obligatorily bimoraic, in order to form a stress foot which in EA is a
+
+moraic trochee (Broselow 1976, Hayes 1995, Watson 2002), and consonant extrametricality
+
+applies, so that in a monosyllable a singleton coda does not render the syllable heavy (Hayes
+
+1995, Watson 2002). There are no surface violations of minimality whatsoever in EA9, and
+
+subminimal cognate words in other dialects, as also subminimal loanwords, are invariably
+
+prosodically enhanced in EA, via gemination, vowel lengthening or epenthesis (Watson 2002:
+
+88-9). All of the function words in the corpus which are invariably unaccented are
+
+subminimal, and thus are not PWds.
+
+           Function words which are prosodically of sufficient size to form a stress foot and thus
+
+are inherently stressable but are nonetheless usually unaccented include the “pseudo-verb”
+
+[fii] ‘there is’, the complementizer [ inna] ‘that’, the relative pronoun [illi] ‘that’, all forms of
+
+the auxiliary verb [ka n] ‘to be’ and all pronouns. Similarly prepositions which are
+
+prosodically large enough and inherently stressable yet are usually unaccented include: [ e r]
+
+‘except’, [bajn] ‘between’, [ a a n] ‘in order to’, [ta t] ‘under’ and [ ala] ‘to/on/at’. Some
+
+function words which are occasionally accented are in fact subminimal, such as the
+
+preposition [min] ‘from’, deictics ([da]/[di] ‘that’ m./f. and the negation particle [mi ] ‘not’,
+
+which is the continuous form of the discontinuous negative circumfix [ma + ]. However
+
+when these are accented they are prosodically enlarged by cliticisation to adjacent material;
+
+for example the preposition [min] ‘from’ is only optionally accented when followed by the
+
+definite article as in the sequence [min-il] ‘from the’.
+
+           Function words which are almost invariably accented include inflected forms of
+
+complementizers and prepositions such as [ inn-uh] ‘that-he’/[ inn-ak] ‘that-you’ and
+9
+    Hayes (1995: 87) termed this an absolute ban on “degenerate feet”.
+
+
+
+                                                        19
+[ alayya] ‘to me’/[ alajk] ‘to you’. These are of sufficient prosodic size to form fully
+
+stressable words and in addition they share the property that they also incorporate
+
+pronominalised arguments, which may make them more prone to bearing an accent10. The
+
+prepositional phrase [ ala a n] ‘in order to’ is routinely accented on the word [ a n]
+
+‘cause/condition’, in contrast to its lexically equivalent abbreviated counterpart [ a a n] ‘in
+
+order to’, which is usually (though not always) unaccented. This suggests that [ ala a n] is
+
+analysed by speakers as a full prepositional phrase comprising the preposition [ ala] plus the
+
+lexical word [ a n], whereas the foreshortened version [ a a n] is analysed by speakers as a
+
+function word.
+
+           In summary, subminimal function words in EA are never accented, but even
+
+potentially stressable polymoraic function words are usually unaccented. Function words
+
+which are usually accented are polymoraic but also inflected and arguably incorporate a
+
+lexical head.
+
+
+(17)    Accentuation of function words in EA: summary
+                              accented if subminimal                        accented if bimoraic
+uninflected function words                                                    optionally “promotable”
+inflected function words
+lexical (content) words
+
+
+4.2. Results: accentuation of every content word or every Prosodic Word in EA?
+
+Selkirk (1996) offers an analysis of the prosodic realisation of weak monosyllabic function
+
+words in English in which she proposes four possible prosodic structures for function words,
+
+illustrated in (18) below.
+
+
+(18)       The prosodic realisation of function words (Selkirk 1996)
+
+
+10
+     This matches the observation by Mitchell (1990: 127-8) that inflected particles are regularly accented.
+
+
+
+                                                          20
+i)              MaP
+
+           PWd PWd
+       ( (fnc)PWd (lex)PWd)MaP          function word = “PWd”
+
+ii)             MaP
+
+                   PWd
+        (fnc    (lex)PWd)MaP            function word = “free clitic”
+
+iii)            MaP
+
+              PWd
+        ( (fnc lex)PWd)MaP              function word = “internal clitic”
+
+iv)             MaP
+
+                PWd
+
+                   PWd
+       ( (fnc     (lex)PWd )PWd )MaP    function word = “affixal clitic”
+
+
+          This section argues for a “free clitic” analysis of unaccented function words in EA,
+
+based on empirical evidence to exclude the other structures proposed by Selkirk (1996) for
+
+function words: unaccented function words do not attain independent PWd status, nor are
+
+incorporated into the PWd with a lexical word as an internal or affixal clitic. As a result it
+
+becomes possible to characterise the distribution of pitch accents in EA in terms of the
+
+distribution of Prosodic Words (rather than specifically of content words). What is the
+
+diagnostic for PWd status in EA? Setting aside the claim of this paper that accentuation itself
+
+is a diagnostic of PWd status, another clear diagnostic is available, since in EA as in English
+
+the domain of stress assignment is the PWd (Watson 2002). The empirical evidence in favour
+
+of a free clitic analysis for EA unaccented function words thus comes from the facts of word
+
+stress and related phenomena.
+
+          Unaccented words can be shown independently also to be unstressed (and thus not to
+
+be PWds) by virtue of the fact that they undergo a process of unstressed vowel shortening
+
+(USVS) (Watson 2002: 226-7). As an example, compare accented [túul] ‘all’ vs. unaccented
+
+
+                                                21
+[tul] in (19a) vs. (19b) below (repeated from 14 above). Pitch tracks and spectrograms for a
+
+sample of each type of production of this sentence are provided in Figures 1 and 2 below.
+
+
+(19)       Phrasing analysis: two observed renditions of a 5PWd monoclausal sentence
+
+a.         |([gú a]) (ken [túul] [ úmr-uh]) ([ áaji ] [f-il- arijáaf]PWd )MiP |MaP
+b.         |([gú a] ken tul        [ úmr-uh]) ([ áajiš] [f-il- arijáaf]PWd )MiP |MaP
+              Guha was all          life-his          living in-the-country
+               ‘Guha had lived all his life in the countryside.’
+
+
+[Figure 1 & 2 go here]
+
+
+           The fact that an unaccented word is also unstressed excludes the possibility of
+
+analysing it as an independent PWd. Since function words are almost always unaccented there
+
+are no minimal pairs to demonstrate that unaccented function words undergo USVS. However,
+
+Watson (2002: 226-7) notes that when the long vowel in question is a mid vowel [e ] or [o ]11,
+
+after USVS the resulting short vowel is raised: [e ]> [i]; [o ] > [u]. In instances of the function
+
+word / e r/ ‘except’, which is almost invariably unaccented, the mid vowel [ e r] is both
+
+shortened and raised resulting in [ r], as illustrated in Figure 3 below. Thus the unaccented
+
+function word is shown independently to be also unstressed.
+
+
+[Figure 3 goes here]
+
+
+           In order to exclude the possibility that unaccented function words are incorporated
+
+into the PWd with a lexical word (either as an “internal” or “affixal” clitic) the evidence is
+
+again from stress assignment. Affixes which are fully incorporated into the PWd induce
+
+
+
+
+11
+     Words containing [ee] and [oo] in EA are cognate with Classical Arabic words containing diphthongs [ay] and
+
+[aw] respectively.
+
+
+
+                                                        22
+stress-shift in EA, in contrast to non-stress-shifting affixes in (rural) Palestinian Arabic (Abu-
+
+Salim 1983: 94):
+
+
+(20)        Stress shift under affixation in EA (cf. no stress shift in Palestinian Arabic)12:
+                                          EA            PA
+           ‘cow’          /baqara(t)/     [ ba ara]     [ ba ara]
+           ‘your cow’ /baqara(t)-ak/ [ba artak] [ ba artak]
+
+
+           Unaccented function words do not induce stress-shift in adjacent lexical words in EA,
+
+and thus cannot be analysed as incorporated into a preceding or following PWd (that is, they
+
+are neither affixal nor internal clitics). The examples in (21) show that unaccented function
+
+words do not induce rightward stress-shift; those in (22) show that although a trisyllabic word
+
+composed of three open syllables (CVCVCV) in EA is stressed on the first syllable, stress
+
+does not shift leftwards onto a CV monosyllabic function word pro-cliticised to a CVCV
+
+disyllable, as in (22b) taken from the narratives corpus.
+
+(21)       a.        talá ta sá wa ma fí e r kída (three piastres and no more)
+           b.       * talá ta sá wa...
+                    * talá ta sa wáma...
+(22)       a.        ágala (bicycle)      ánama (sheep)        málika (queen)
+           b.       fa (so) + gú a (Guha)      →       fagú a (so Guha)      *fágu a
+
+
+           I suggest therefore that unaccented function words in EA should be analysed as free
+
+(pro-) clitics to an adjacent (accented) lexical word with PWd status. Selkirk’s analysis of free
+
+clitics places them within a higher phrase-level constituent. What evidence is there in EA that
+
+unaccented function words procliticise to the following lexical word (as opposed to enclisis to
+
+a previous lexical word)? The consensus in the literature is that Arabic function words form a
+
+prosodic unit with following rather than preceding material (see inter alia Al-Ani 1992, Rifaat
+
+
+12
+     The final [t] of /baqara(t)/ is part of the feminine marker ‘ta-marbuta’ and is unpronounced when not linked to
+
+a following genitive. Both [ ] and [g] are common dialectal variants of Classical Arabic [q].
+
+
+
+                                                          23
+2004, Watson 2002), and this is a key argument in favour of a proclitic analysis of unaccented
+
+EA function words. The surface phonetic realisation observed on function words in the corpus
+
+survey yields little additional evidence. The pitch accent itself takes the form of a rising pitch
+
+movement which is closely tied to the stressed syllable, and in most cases, after the rising
+
+pitch accent, pitch simply falls gradually towards the start of the next stressed syllable, across
+
+whatever unstressed syllables intervene, regardless of which PWd they belong to. The pitch
+
+contour thus reveals very little information about the exact position of the edges of PWds, nor,
+
+as a result, of the directional affiliation of unstressed syllables.
+
+        Proclisis in English is argued to arise due to a constraint which prefers structures with
+
+a PWd edge right-aligned to the phonological phrase edge: Align(MaP, R; PWd,R) “For any
+
+MaP in the representation, align its right edge with the right edge of some PWd”. Given the
+
+assumption that the correct direction of cliticisation of function words in EA is rightwards, I
+
+suggest that the function word cliticises to the lexical word (which has PWd status) within a
+
+constituent of the “next level up” in the Prosodic Hierarchy, and that the correct alignment
+
+constraint to capture EA pro-cliticisation is as follows:
+
+
+(23)    Align(MiP, R; PWd,R):           For any MiP in the representation, align its right edge
+                                        with the right edge of some PWd.
+
+
+4.3     Summary
+
+Although section 3 established that the distribution of pitch accents in EA cannot be captured
+
+in terms of the distribution of prosodic constituents at the phrase level, the evidence set out in
+
+this section indicates that it is possible to capture the distribution of pitch accents in EA in
+
+terms of obligatory accentuation of the head of some prosodic constituent. In EA the relevant
+
+constituent is the Prosodic Word, and the generalisation “the head of every PWd must bear an
+
+accent” captures the distribution of pitch accents in EA completely. Thus the domain of pitch
+
+accent distribution in EA is the Prosodic Word.
+
+
+                                                 24
+5. Discussion and conclusions
+
+The evidence from phrasing and from relative accentuation of content and function words in
+
+EA suggests that a prosodic-structure-based analysis can account for pitch accent distribution
+
+in EA if we appeal to the Prosodic Word (PWd) as the relevant domain of pitch accent
+
+distribution in this language. In turn this suggests that the domain of pitch accent distribution
+
+could in principle vary across all of the levels of the Prosodic Hierarchy. What evidence is
+
+there to suggest that such variation is in fact observed? As already mentioned, in Brazilian
+
+Portuguese (BP) there is mostly a pitch accent on every content word, but under optional
+
+phrasing of two adjacent lexical words together only one of these is accented (Tenani 2005);
+
+thus the MiP could be the relevant domain of pitch accent distribution in BP. Other languages
+
+that appear to mark every PWd include Bininj Gun-Wok (Bishop 2002) and Iwaidja (Birch
+
+2006). Additional research is needed to ascertain whether variation among intonation
+
+languages in the domain of pitch accent distribution should be considered the norm or
+
+typologically unusual.
+
+       Proposing that the domain of pitch accent distribution may in principle vary across
+
+different levels of the Prosodic Hierarchy predicts pitch accent distribution to be logically
+
+independent of prosodic constituency at the specifically phrasal level. Hence it is possible to
+
+have languages in which pitch accent distribution and phrasing appear to be correlated (as
+
+observed by Vigario and Frota 2003 for NEP, which has many pitch accents and (many) small
+
+phrases, and SEP, which has fewer pitch accents and (fewer) large phrases), and other
+
+languages in which these two properties are not related, as observed in EA.
+
+       In addition, in languages in which phrasing and pitch accent distribution interact
+
+closely, and thus that the domain of pitch accent distribution is a phrase-level constituent and
+
+that pitch accents mark relative prominence at the phrase-level, we expect to see interaction
+
+
+
+                                               25
+between pitch accent distribution and focus (assuming focus to expressed in terms of
+
+structural prominence (Truckenbrodt 1995)). Interaction of this kind is widely reported
+
+particularly in the Germanic languages (for a survey see Ladd 1996 chapter 5). In contrast, in
+
+languages in which the domain of pitch accent distribution is a word-level constituent, and
+
+pitch accents thus mark word-level prosodic prominence, we expect to see alternative means
+
+used to indicate phrase-level structural prominence or focus. This has been shown to be the
+
+case for EA in which purely gradient means of focus expression are reported (Hellmuth 2006a,
+
+2006b).
+
+       In conclusion then, this paper argues that variation in the domain of pitch accent
+
+distribution across levels of the Prosodic Hierarchy can only be formalised within a prosodic-
+
+structure-based conception of the mechanisms underlying pitch accent distribution. Evidence
+
+from EA (and other similar languages which may yet come to light), in which pitch accent
+
+distribution is apparently insensitive to prosodic phrasing, in fact strengthens the case in
+
+favour of a formal relationship between pitch accent distribution and prosodic structure, at a
+
+phrasal or other level.
+
+
+
+Acknowledgements
+
+Thanks to the Egyptian Arabic speakers who acted as consultants and to Laura Downing, Bob
+
+Ladd, Justin Watkins, Moira Yip, as well as to an anonymous reviewer and to the editors, for
+
+comments. All errors are mine. This work was funded by the UK Arts & Humanities Research
+
+Council (award 01/59198).
+
+
+                                           References
+
+
+Abdel-Massih, Ernest T. (1975). An introduction to Egyptian Arabic. Ann Arbor, University
+of Michigan.
+
+
+
+
+                                               26
+Abu-Salim, I. M. (1983). A re-analysis of some aspects of Arabic phonology: a metrical
+approach. Ann Arbor, U.M.I.
+
+Al-Ani, S. (1992). Stress variation of the construct phrase in Arabic: a spectrographic analysis.
+Anthropological Linguistics, 34, 256-276.
+
+Beckman, Mary and Pierrehumbert, Janet. (1986). Intonational structure in Japanese and
+English. Phonology Yearbook, 3, 255-309.
+
+Benmamoun, Elabbas. (2000). The feature structure of functional categories. Oxford, OUP.
+
+Birch, Bruce. (2006). Prosody in Iwaidja. Unpublished PhD thesis, University of Melbourne.
+
+Bishop, Judith B. (2002). Aspects of intonation and prosody in Bininj gun-wok :
+autosegmental-metrical analysis. Unpublished PhD thesis, University of Melbourne.
+
+Bolinger, Dwight. (1972). Accent is predictable (if you're a mind-reader). Language, 48, 633-
+644.
+
+Broselow, Ellen. (1976). The phonology of Egyptian Arabic. Unpublished PhD thesis,
+UMass (Amherst).
+
+Chafe, Wallace. (1974). Language and consciousness. Language, 50, 111-133.
+
+Chahal, Dana. (2001). Modeling the intonation of Lebanese Arabic using the autosegmental-
+metrical framework: a comparison with English. Unpublished PhD thesis, University of
+Melbourne.
+
+Dresher, Elan. (1994). The prosodic basis of Tiberian Hebrew system of accents. Language,
+70, 1-52.
+
+El Zarka, Dina. (1997). Prosodische Phonologie des Arabischen. Unpublished PhD thesis,
+Karl-Franzens-Universität Graz.
+
+Elordieta, Gorka, Frota, Sonia, Prieto, Pilar, and Vigario, Marina. (2003). Effects of
+constituent weight and syntactic branching on phrasing decisions in Romance. Proceedings
+of the 15th International Congress of Phonetic Sciences., 487-490.
+
+Face, Tim. (2003). Intonation in Spanish declaratives: differences between lab speech and
+spontaneous speech. Catalan Journal of Linguistics, 2, 115-131.
+
+Frota, Sonia. (2000). Prosody and focus in European Portuguese: phonological phrasing and
+intonation. New York, Garland.
+
+Gussenhoven, C. (1980). Focus, mode and the nucleus. Journal of Linguistics, 19, 377-417.
+
+Gussenhoven, C. (1983). On the grammar and semantics of sentence accents. Dordrecht,
+Foris.
+
+Gussenhoven, C. (2004). The phonology of tone and intonation. Cambridge, CUP.
+
+Gussenhoven, C. and Rietveld, A. C. M. (1992). Intonation Contours, Prosodic Structure and
+Preboundary Lengthening. Journal of Phonetics, 20, 283-303.
+
+                                              27
+Halliday, M. A. K. (1967). Intonation and grammar in British English. The Hague, Mouton.
+
+Halliday, M. A. K. (1970). A course in spoken English: intonation. Oxford, OUP.
+
+Hayes, B. (1995). Metrical stress theory: principles and case studies. Chicago, University of
+Chicagoe Press.
+
+Heliel, M. (1977). The rhythm of Egyptian collquial Arabic: an experimental study.
+Unpublished PhD thesis, UCL.
+
+Hellmuth, S. (in press). Prosodic weight and phonological phrasing in Cairene Arabic.
+Proceedings of Annual Meeting of Chicago Linguistic Society, 40.
+
+Hellmuth, S. (2006a). Focus-related pitch range manipulation (and peak alignment effects) in
+Egyptian Arabic. Speech Prosody, Dresden 2006.
+
+Hellmuth, S. (2006b). Intonational pitch accent distribution in Egyptian Arabic. Unpublished
+PhD thesis, SOAS.
+
+Inkelas, S. and Zec, D. (1995). Syntax-phonology interface. In The handbook of phonological
+theory. J Goldsmith, (ed.), 535-549. Oxford, Blackwell.
+
+Kubozono, H. (1993). The organization of Japanese prosody. Tokyo, Kurosio.
+
+Ladd, D. R. (1996). Intonational phonology. Cambridge, CUP.
+
+Mitchell, T F. (1990). Pronouncing Arabic 1. Oxford, Clarendon Press.
+
+Mitchell, T F. (1993). Pronouncing Arabic 2. Oxford, Clarendon Press.
+
+Nespor, M and Vogel, Irene. (1986). Prosodic phonology. Dordrecht, Foris.
+
+Pierrehumbert, Janet and Beckman, Mary. (1988). Japanese tone structure. Cambridge, MA,
+MIT Press.
+
+Post, Brechtje. (2000). Tonal and phrasal structures in French intonation. Katholieke
+Universiteit Nijmegen. PhD Thesis. (LOT series, Netherlands Graduate School of Linguistics,
+34. Thesus: The Hague).
+
+Prieto, Pilar, van Santen, Jan, and Hirschberg, Julia. (1995). Tonal alignment patterns in
+Spanish. Journal of Phonetics, 23, 429-451.
+
+Prince, Alan and Smolensky, Paul. (1993). Constraint interaction in generative grammar.
+New Brunswick, NJ, Rutgers University Center for Cognitive Science.
+
+Rifaat, Khalid. (1991). The intonation of Arabic: an experimental study. Unpublished PhD
+thesis, University of Alexandria.
+
+Rifaat, Khalid. (2004). The structure of Arabic intonation: a preliminary investigation (ms.).
+
+Selkirk, Elisabeth O. (1984). Phonology and syntax: the relation between sound and structure.
+Cambridge, Mass., MIT Press.
+
+
+
+                                              28
+Selkirk, Elisabeth O. (1986). On derived domains in sentence phonology. Phonology
+Yearbook, 3, 371-405.
+
+Selkirk, Elisabeth O. (1996). The prosodic structure of function words. In Signal to syntax:
+bootstrapping from speech to grammar in early acquisition. J Morgan and Katherine Demuth,
+(eds.), 187-213. Lawrence Erlbaum.
+
+Selkirk, Elisabeth O. (2000). The interaction of constraints on prosodic phrasing. In Prosody:
+theory and experiment. Merle Horne, (ed.), 231-262. Dordrecht, Kluwer.
+
+Selkirk, Elisabeth O. (2005). Comments on intonational phrasing in English. In Prosodies.
+(Selected papers from the Phonetics and Phonology in Iberia Conference, 2003). Phonetics
+and Phonology Series. Sonia Frota, Marina Vigario, and Maria J. Freitas, (eds.), Mouton de
+Gruyter.
+
+Shaked, Amit. (2007). Competing syntactic and prosodic constraints in Hebrew prosodic
+phrasing. The Linguistic Review.
+
+Tenani, Luciani. (2005). Intonational phrasing and prosodic constituents in Brazilian
+Portuguese. (Paper presented at 'Phonetics & Phonology in Iberia' Barcelona 20-21st June
+2005).
+
+Truckenbrodt, Hubert. (1995). Phonological phrases: their relation to syntax, focus and
+prominence. Unpublished PhD thesis, MIT.
+
+Truckenbrodt, Hubert. (1999). On the relation between syntactic phrases and phonological
+phrases. Linguistic Inquiry, 30, 219-255.
+
+Vigario, Marina and Frota, Sonia. (2003). The intonation of Standard and Northern European
+Portuguese: a comparative intonational phonology approach. Journal of Portuguese
+Linguistics, 2, 115-137.
+
+Watson, Janet C. E. (2002). The phonology and morphology of Arabic. Oxford, OUP.
+
+
+
+Words (including footnotes, figures and abstract): 8728
+Characters (including spaces): 56380
+
+
+
+
+                                              29
+Figure 1    Accented /tuul/ shows has a long vowel: [tuul] (fna2)
+    400
+
+
+    300
+
+
+    200
+
+
+    100
+
+
+      0
+           gu a        ken     Tuul     umr-uh      a:yi     fil         ariya:f
+
+       0                                                                           2.24073
+                                        Time (s)
+
+
+   5000
+
+
+
+
+      0
+       0                                                                           2.24073
+                                        Time (s)
+
+
+
+
+Figure 2    Unaccented /tuul/ shows vowel shortening: [tul] (fsf2)
+    400
+
+
+    300
+
+
+    200
+
+
+    100
+
+
+      0
+           gu a      ken      Tul     umruh          a:yi          fil   ariya:f
+
+       0                                                                           1.95841
+                                        Time (s)
+
+
+   5000
+
+
+
+
+      0
+       0                                                                           1.95841
+                                        Time (s)
+
+
+
+
+                                          30
+Figure 3    Unaccented / e r/ shows vowel shortening and raising: [ r] (fsf2)
+    400
+
+
+    300
+
+
+    200
+
+
+    100
+
+
+      0
+               tala:ta       sa:     wa    ma        fi:    ir       kida
+
+       0                                                                        2.03098
+                                          Time (s)
+
+
+   5000
+
+
+
+
+      0
+       0                                                                        2.03098
+                                          Time (s)
+
+
+      tala ta sa         wa ma        fi      er kida
+      three piastres and NEG there-is except that
+       ‘Three piastres, and not a penny more’
+
+
+
+
+                                            31
+

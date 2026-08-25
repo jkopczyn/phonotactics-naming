@@ -1,0 +1,1586 @@
+            promoting access to White Rose research papers
+
+
+
+
+               Universities of Leeds, Sheffield and York
+                          http://eprints.whiterose.ac.uk/
+
+
+This is an author produced version of a book chapter published in The Blackwell
+companion to phonology.
+
+White Rose Research Online URL for this paper:
+
+http://eprints.whiterose.ac.uk/75747/
+
+
+
+Published article:
+
+Watson, JCE (2011) Word stress in Arabic. In: The Blackwell companion to
+phonology. Wiley-Blackwell , Oxford , 2990 - 3019 .
+
+
+
+
+                          White Rose Research Online
+                           eprints@whiterose.ac.uk
+TBC_135.qxd    7/13/10   19:27    Page 1
+
+
+
+
+              135           Word Stress in Arabic
+                            Janet C. E. Watson
+
+
+
+
+              1 Introduction
+              Within phonological theory, Arabic word stress has received arguably more
+              attention than the word stress of any language other than English; and within
+              Arabic linguistics, more work has been devoted to stress-related phenomena than
+              any other single topic. This chapter addresses some of the reasons behind this
+              phenomenon.
+                 The chapter is structured as follows: §2 considers the characteristics of Arabic
+              word stress, discussing general features common to different varieties and basic
+              ways in which modern Arabic dialects differ both from Classical Arabic and from
+              each other. §3 provides a historical overview of the treatment of Arabic word stress
+              within generative paradigms, focusing on major contributions in the analysis of
+              Arabic stress, and cases where data from Arabic has contributed to the develop-
+              ment of stress theory. §4 considers stress in Classical Arabic, and then examines
+              in more detail word stress in three modern dialects – Cairene, San’ani (Yemen),
+              and Levantine – focusing particularly on phenomena that pose a challenge for
+              metrical phonology.
+
+
+              2   Characteristics of Arabic word stress
+              With over 250 million speakers, Arabic is the official language of 18 sovereign
+              states from Mauritania in the west to Iraq in the east. It is also spoken in parts
+              of southern Turkey, by Maronite Christians in northern Cyprus, and in parts of
+              sub-Saharan Africa. Arabic language enclaves are found in the Balkh region of
+              Afghanistan, parts of Iran, and Uzbekistan. All Arabic dialects exhibit word
+              stress; however, the socially and geographically diverse area over which Arabic
+              is spoken leads to differences in the mechanics of word stress assignment. In all
+              cases stress location is a function of both syllable weight and syllable position,
+              but dialects differ in the distribution of syllable types, the leftmost extent of stress
+              (third or fourth syllable from the right), the rhythmic grouping of syllables, the
+              interaction of stress, syncope and epenthesis, and the degree to which lexical
+              information may affect stress.
+TBC_135.qxd   7/13/10     19:27     Page 2
+
+
+
+
+              2     Janet C. E. Watson
+
+                Arabic recognizes three weights of syllable: light, heavy, and superheavy.
+              Light syllables are always open, heavy syllables are open or closed, and super-
+              heavy syllables are closed or doubly closed. Examples of these syllable types from
+              Classical Arabic are given below:
+
+              (1)                 open            closed                                 doubly closed
+                    light         CV   wa ‘and’
+                    heavy         CVV sa.fara ‘he
+                                        traveled’ CVC           min ‘from’
+                                                                ka.tab.tu
+                                                                  ‘I wrote’
+                    super-                                 CVVC bab# ‘door’              CVCC   bint# ‘girl’
+                      heavy                                                              CVVGG1 madd#
+                                                                                                ‘stretching’
+                                                           CVVG mad.dun
+                                                                 ‘stretching
+                                                                 (nom)’
+
+              CV and CVC are unrestricted, although unstressed short vowels in open syllables
+              are often deleted in modern dialects. CVCC and CVVGG are restricted to word-
+              or utterance-final position.2 In the distribution of other syllable types, however,
+              dialects vary. Levantine, Sudanese, some Peninsular, and North African dialects
+              allow CVGG and/or CVVC in derived environments word internally, as in:
+              /masik-cn/ > [maskcn] ‘holding (masc pl)’, /œaf-ha/ > [œafha] ‘he saw her’,
+              /mu#allim-cn/ > [m#allmcn] ‘teachers’. Cairene allows CVVC syllables word finally
+              only, as in: [kitab kibcr] ‘a big book’, but /kitab-na/ > [kitabna] ‘our book’; Cairene
+              restricts CVCC to utterance-final position, breaking up word-final non-utterance-final
+              CVCC syllables through epenthesis, as in: /bint Ùawcla/ > [bint[i] Ùawcla] ‘a tall
+              girl’; CVV occurs only when stressed in Cairene: initial CVV in [’œafit] ‘she saw’
+              and [’#alam] ‘world’ contrast with initial CV in [œa’fitu] ‘she saw him’ and
+              [#a’lamu] ‘his world’.
+                 Stress falls on one of the last three syllables, in some dialects one of the last
+              four syllables, with assignment dependent on the weight and position of the stressed
+              syllable. Modern dialects follow the assumed rules of Classical Arabic (§3.1) whereby
+              stress is assigned to a final superheavy (CVVC, CVCC, or CVVGG) syllable, as
+              in Cairene: [fi’luus] ‘money’, [ma-xa’bazœ] ‘he didn’t cook’, and Palestinian:
+              [ja’waab] ‘answer’, [bi-’ÚuÙÙ] ‘he puts’. In the absence of a final superheavy, stress
+              is assigned to a heavy penult (CVV or CVC), as in Cairene: [ka’tabtu] ‘you (pl)
+              wrote’, [fih’muuha] ‘they understood her’, and Palestinian: [mus’taœfa] ‘hospital’,
+              [mu’naafis] ‘competitor’. In the absence of either a final superheavy or a heavy
+              penult, the dialects differ. In words with a heavy antepenult, Cairene stresses the
+              light penult, while most other dialects stress the antepenult: Cairene [mad’rasa]
+              ‘school’ contrasts with Beirut/Damascene [’madrase].
+                 Modern Arabic dialects differ in their rhythmic grouping of light syllables.
+              Western and Bedouin-type dialects tend to group light syllables into weak–strong
+
+              1
+                 GG denotes geminate.
+              2
+                 In Classical Arabic, superheavy syllables occur pre-pausally only, resulting from pre-pausal deletion
+              of short final vowels or case endings.
+TBC_135.qxd    7/13/10   19:27    Page 3
+
+
+
+
+                                                                         Word Stress in Arabic      3
+
+              pairs (iambs): Cyrenaican Bedouin stresses the penult in forms such as: *[kitab-at]
+              > [ik’tibat] ‘she wrote’, [ingital-aw] > [inig’tilaw] ‘they were killed’, and the final
+              syllable in [ki’tab] ‘he wrote’, [nu’xal] ‘palm-trees’ (Mitchell 1960); eastern urban
+              dialects group light syllables into strong–weak pairs (trochees), stressing the
+              antepenult in forms such as Cairene: [’katabit] ‘she wrote’, [in’kasarit] ‘it (fem)
+              broke’, and the penult in [’katab] ‘he wrote’, [’walad] ‘boy’ (see chapter 46: the
+              iambic-trochaic law).
+                 All modern dialects differ from Classical Arabic in at least optionally deleting
+              short vowels in unstressed open syllables (Birkeland 1954). Some dialects delete
+              short high vowels only, as in Damascene: /fihim-u/ > [’fihmu] ‘they understood’,
+              /fihim-na/ > [f’himna] ‘we understood’ but /katab-u/ > [’katabu] ‘they wrote’
+              (Cowell 1964). Other dialects delete short vowels irrespective of their quality, as
+              in Lebanese Kfar-ﬁıab: /Òarab-ak/ > [’Òarbak] ‘he hit you’ and /samak-i/ > [’samki]
+              ‘one fish’ (Fleisch 1974).
+                 Several dialects differ from the assumed predictable quantity-based system
+              of Classical Arabic in that certain morphemes affect stress placement. In Cairene
+              and Tunisian the 3rd feminine singular perfect inflectional suffix -it attracts stress
+              on suffixation: Cairene [’ramit] ‘she threw’ becomes [ra’mitu] ‘she threw it
+              (masc)’, contrasting with other CVCVCV forms, such as ’katabu ‘they wrote’, where
+              the antepenult is stressed. In Iraqi, the dual suffix -een retracts stress, although
+              all other cases of word-final CVVC attract stress: [’Œalbeen] ‘two dogs’ contrasts
+              with [ta#’baan] ‘tired’ (Erwin 1963: 43). In Muslim Mosul Iraqi, stress always
+              falls on the final syllable of a verbal or nominal stem when it takes a suffix, as
+              in: [nHx’lHÙ-u] ‘we mix it (masc)’ (Jastrow 2007). In some western dialects and dialects
+              of Oman, word stress is phonemic in disyllabic noun–verb pairs: initial stress in
+              [’fihim] ‘understanding’ contrasts with final stress in [fi’him] ‘he understood’
+              (Janssens 1972).
+                 Finally, modern dialects differ as to whether or not epenthetic vowels count
+              for stress purposes. In Cairene, a penultimate post-CVC syllable with an epenthetic
+              vowel is stressed like any other penultimate post-CVC syllable: compare [bin’tina]
+              ‘our daughter’ with [mad’rasa] ‘school’ and [fih’mitu] ‘she understood him’. In
+              Iraqi and Levantine, by contrast, stress is assigned as if the epenthetic vowel were
+              not there: penultimate stress in Muslim Mosul [ka’tabit] ‘I wrote’ contrasts with
+              initial stress in [’katabHt] ‘she wrote’ (Jastrow 2007).
+
+
+              3     Theoretical accounts of Arabic word stress
+              This section provides a historical overview of theoretical accounts of Arabic
+              word stress, focusing on ways in which research on Arabic has contributed both
+              to the development of metrical theory and to a deeper understanding of Arabic
+              prosodic structure and cross-dialectal differences.
+
+
+              3.1    Pre-generative approaches
+              Concepts upon which generative studies of Arabic word stress draw have their
+              roots in early pre-generative approaches. The older traditional studies of Erpenius
+              (1656), Brockelmann (1907), and Wright (1971) recognized the role of the syllable
+              and syllable weight in stress assignment, distinguishing between light (CV) and
+TBC_135.qxd   7/13/10      19:27   Page 4
+
+
+
+
+              4     Janet C. E. Watson
+
+              heavy (CVV and CVC) syllables (see chapter 57: quantity-sensitivity). The
+              analyses of stress in Cairene by Harrell (1957) and Cairene and Cyrenaican
+              Bedouin by Mitchell (1956, 1960) are based on the position and relative weight
+              of syllables.
+                 The Prague School (Jakobson 1971) describes stress assignment not in terms of
+              syllables, but in terms of moras. Moraic accounts of stress in Arabic include
+              Cantineau (1960: 240, author’s translations), for whom stress in El-Hamme of Gabes
+              (Tunisia) is placed: “on the third mora of the word . . . on the fourth if the third
+              corresponds to a consonant,” accounting for penultimate stress in: [k’tibtu] ‘you
+              (pl) wrote’, and antepenultimate stress in: [’madrasa] ‘school’. The mora is referred
+              to in the informal expression of Abdo’s (1969) post-SPE (The sound pattern of English;
+              Chomsky & Halle 1968) account, where Classical Arabic stress is assigned to the
+              vowel preceding the last two moras (the third or fourth mora from the right-edge).
+              Within metrical theory, it later returns as a full-fledged element of the represent-
+              ation, firmly embedded within the prosodic hierarchy.
+
+              3.2        Generative approaches
+              Generative approaches to stress in Arabic have followed contemporary approaches
+              in generative phonology, with a few landmark changes in orientation. In the SPE
+              segment-based approach adopted by Abdo (1969), Brame (1970, 1973, 1974),
+              Broselow (1976), Johnson (1979), and Weldon (1980), stress is encoded as a
+              phonological distinctive feature, [+stress], assigned to a [+syllabic] segment in a
+              particular segmental context. Essential variables are included in the vocabulary
+              of phonological rules. Take Palestinian as an example, for which the basic stress
+              rules are:
+
+              (2)   a.    Stress a final superheavy syllable: [ba-’œef] ‘I see’, [bi-’ÚuÙÙ] ‘he puts’.
+                    b.    Otherwise stress the rightmost non-final heavy syllable: [ba-’œefiœ] ‘I don’t
+                          see’, [ka’tabti] ‘you (fem sg) wrote’, [’miktaœif] ‘discovering’.
+                    c.    Otherwise stress the first syllable (up to the antepenult): [’katab] ‘he wrote’,
+                          [’zalama] ‘man’.
+
+              Under this approach, stress is assigned by the following rule (Brame 1974),
+              where C0 indicates an arbitrary number of consonants, including zero, and C 10 either
+              zero or one consonant.
+
+              (3)   Stress assignment
+                    V → [+stress] / ___ C0((VC)VC 10)]
+
+              This rule abbreviates three disjunctively ordered sub-rules:
+
+              (4)   V → [+stress] / ___ C0VCVC 10]        e.g. [’zalama], [’miktaœif]
+                    V → [+stress] / ___ C0VC 10]          e.g. [ka’tabti], [’katab]
+                    V → [+stress] / ___ C0]               e.g. [’ÚaÙÙ] ‘he put’, [ba-’œef]
+
+              3.2.1       The interaction of morphology and word stress
+              Brame noted that the basic stress rules and their formalism in (2) fail to account
+              for data such as [ka’tabit] ‘I/you (masc sg) wrote’ (cf. [’katabit] ‘she wrote’),
+TBC_135.qxd    7/13/10       19:27   Page 5
+
+
+
+
+                                                                        Word Stress in Arabic     5
+
+              [’?abilna] ‘before us’ (cf. [?’bilna] ‘we accepted’). These forms are derived from
+              underlying /katab-t/ and /?abl-na/ through epenthesis (see chapter 41: vowel
+              epenthesis), and are explained by Brame as the assignment of stress prior to
+              epenthesis, giving intermediate [ka’tab-t] and [’?abl-na]. Epenthesis does not
+              undo stress assignment, leading to opaque assignment of stress to a light penult
+              in [ka’tabit], and opaque non-assignment of stress to the heavy penult in
+              [’?abilna] (§3.2.3; chapter 58: opacity deconstructed). These cases of opaque
+              assignment, or lack of assignment, of stress were attributed initially by Brame (1970,
+              1973, 1974) and later by others (e.g. Kenstowicz & Abdul-Karim 1980; Kiparsky
+              1982, 2000, 2003) to the cycle and the preservation of metrical structure assigned
+              in earlier cycles ((54); chapter 60: cyclicity). The SPE-type approach to word assign-
+              ment has since been superseded, but recognition of the role of the cycle and of
+              the interaction of syncope and epenthesis with word stress assignment has not.
+              As we shall see below (§4.2.3), within the stratal version of Optimality Theory
+              (OT), opaque stress is attributed to inter-level constraint masking: if a is the con-
+              straint system of domain Y (e.g. stem), and b is the constraint system of a larger
+              domain Z, then b’s markedness constraints can render a opaque (Kiparsky 2000).
+              Thus, opacity in dialects such as Levantine is attributed to word-level assignment
+              of stress and postlexical epenthesis, which renders stress opaque.
+
+              3.2.2     The prosodic hierarchy and representation of the syllable
+              The post-SPE period formed an asyllabic interlude in the analysis of Arabic word
+              stress. Most pre-generative and non-generative accounts made reference to the
+              syllable, and within generative phonology there was increasing recognition that
+              sounds grouped into syllables of differing prosodic weights, and that the syllable
+              formed part of the prosodic hierarchy (Fudge 1969; Kiparsky 1979; McCarthy 1979;
+              Selkirk 1980, 1982; Halle & Vergnaud 1987).
+                 At this time it came to be recognized that the syllable formed a unit within a
+              prosodic hierarchy, a hierarchy that recognized units of prosodic structure above
+              the syllable – the foot (see chapter 42: the foot) and the prosodic word (see
+              chapter 51: the phonological word) – and a unit of prosodic structure below
+              the syllable: the mora. Weight-based, rather than segment-based, models of the
+              syllable representing the prosodic tier as a series of moras (e.g. McCarthy 1980;
+              Angoujard 1990; McCarthy & Prince 1990) provide a model that reflects the role
+              of prosodic weight in stress assignment by accounting for phonological positions,
+              and by distinguishing between light (monomoraic) and heavy (bimoraic) syllables
+              (Hayes 1989): short vowels contribute one mora, long vowels two moras, gemin-
+              ate consonants one mora, and coda consonants are assigned a mora through
+              Weight-by-Position in languages such as Arabic, where CVC syllables count as
+              heavy (quantity-sensitivity). In San’ani [tiœtai] ‘you (fem sg) want’, for example,
+              the vowels contribute moras and /œ/ receives a mora through Weight-by-
+              Position (indicated by a dashed line):
+
+              (5)        q               q
+
+                         [     [         [    [
+
+
+                    t    i     œ     t   a    i
+TBC_135.qxd   7/13/10      19:27      Page 6
+
+
+
+
+              6      Janet C. E. Watson
+
+              3.2.3      Metrical theory
+              The prosodic hierarchy plays a pivotal role within metrical theory, which
+              developed from Liberman (1975) and Liberman and Prince (1977) as part of non-
+              linear phonology. It shared with the other main branch of that program, autoseg-
+              mental phonology, the goal of developing alternatives to the non-local devices of
+              linear theory, such as rule variables and abbreviatory conventions (Kager 1995:
+              368), and viewed stress as hierarchically organized rhythmic structure. Metrical
+              theory provided representation of the hierarchical nature of stress independently
+              of the segmental tier. This was achieved initially through metrical trees, wherein
+              stress was represented as a hierarchy of binary branching structures, labeled
+              strong–weak (s–w) or weak–strong (w–s) to mark relative prominence at each layer
+              (see chapter 43: representations of word stress). The metrical tree represen-
+              tation of Cairene [mux’talifa] ‘different (fem sg)’ (McCarthy 1979) is:
+
+              (6)
+                                                           s
+
+                              w                    s
+
+                          s       w       s                w               w
+
+                     m    u       x   t   a        l       i       f       a
+
+              3.2.4      Rhythmic organization
+              The foot types recognized on the basis of rhythmic organization since Prince
+              (1976) enabled Arabic dialects to be classified in terms of foot shape: dialects
+              such as Cairene, Levantine, and San’ani, which exhibit initial prominence, organ-
+              ize strings of syllables into trochees (s–w pairs); dialects such as Cyrenaican Bedouin,
+              Tunisian, and Moroccan, which exhibit final prominence, organize strings of
+              syllables into iambs (w–s pairs). Compare: Cairene ’bana ‘he built’ and Cyrenaican
+              Bedouin bi’na:3
+
+              (7)    Cairene                  Cyrenaican Bedouin
+                               R                               R
+
+                          s           w                w               s
+
+                     b    a       n   a        b       i       n       a
+
+              In early metrical accounts, feet which involved counting more than two were
+              permitted: for Halle and Vergnaud (1978), the foot in Damascene, a dialect that
+              exhibits initial prominence, included all syllables (effectively no more than three)
+
+              3
+                  All data for Cyrenaican Bedouin are from Mitchell (1960).
+TBC_135.qxd    7/13/10       19:27         Page 7
+
+
+
+
+                                                                           Word Stress in Arabic       7
+
+              from the stressed syllable to the right-edge of the word, placing a word like
+              [’madrase] ‘school’ within a single foot. McCarthy (1979, 1980) restricted the
+              foot by measuring it in moras: in Damascene, the stressed mora plus, at most,
+              two following moras. A word comprising three light syllables, such as [’darasu]
+              ‘they learnt’, exhausts the foot, giving [’(darasu)], but in a word comprising a heavy
+              plus two light syllables, such as [’madrase] ‘school’, the final light syllable is excluded
+              from the foot: [’(madra)se].
+
+              (8)                  R
+
+                         q                     q           q
+
+                         [     [               [           [
+
+
+                     m a       d       r       a       s   a
+
+              Since these accounts, bounded foot inventories have often excluded feet that require
+              counting higher than two (but cf. e.g. Burzio 1994). Hayes (1989, 1995) argues
+              for absolute binarity: the maximal and canonical iamb consists of a light syllable
+              followed by a heavy syllable, as in Cyrenaican Bedouin [ki’tab] ‘he wrote’:
+
+              (9)              R
+
+
+                         q                 q
+
+
+                         [                 [       [
+
+
+                     k   i     t           a       b
+
+              Trochees comprise two equal elements: syllables in the syllabic trochee, moras in
+              the moraic trochee. In a moraic trochee dialect, [madrasa] ‘school’ comprises two
+              moraic trochees; cf. (8):
+
+              (10)       R                                 R
+
+
+                           q                       q           q
+
+
+                           [       [               [           [
+
+
+                     m     a       d       r       a       s   a
+
+              The uneven trochee, which comprises a heavy and a light syllable in moraic trochee
+              systems, is ruled out by Hayes. It is, however, invoked by Irshied and Kenstowicz
+              (1984), Angoujard (1990), and Kager (2009) to account for penultimate stress in
+TBC_135.qxd   7/13/10      19:27       Page 8
+
+
+
+
+              8      Janet C. E. Watson
+
+              HLLL forms in trochaic Arabic dialects, as in Jordanian Bani-Hassan [#alla’mato]
+              ‘she taught him’:
+
+              (11)                 R                       R
+
+                           s                   w       s            w
+
+
+                      #    a   l       l       a m a           t     o
+
+              3.2.5       Constituency and the metrical grid
+              Metrical trees reflect constituency through sister nodes, but fail to represent in
+              any transparent way typical stress characteristics of stress clash or alternating rhythm
+              between strong and weak syllables. Prince (1983) and Selkirk (1984) argued that
+              the metrical grid could better capture the rhythmic characteristics of stress, and that
+              constituency into feet could be eliminated. Compare the pure grid representation
+              of Cairene [mux’talifa] ‘different (fem sg)’ below with the metrical tree representation
+              in (6):
+
+              (12)            *
+                        *     *
+                        * *   *   *   *
+                      m u x t a l i f a
+
+              In 1985, data from an Arabic dialect appeared to challenge the effectiveness of
+              the pure grid. In an account of Bedouin Hijazi Arabic (BHA), Al-Mozainy et al.
+              (1985) analyzed alternations such as those in (13) as resulting from low vowel
+              deletion and stress shift.
+
+              (13)    ’saÚab       ‘he pulled’                     s’Úabat   ‘she pulled’
+                      ’naxal       ‘palm trees’                    n’xalah   ‘a palm tree’
+                      ’salag       ‘hunting dogs’                  s’ligah   ‘a hunting dog’
+
+              They argued the direction of shift was governed by constituent structure and that
+              vowel deletion in BHA induces left-to-right stress shift to the sister node within
+              the metrical tree:
+
+              (14)
+                               s
+
+                           s   → w                     w                             s         w
+
+                      s    ≥   Ú           a       b   a   t       →     s   Ø   Ú   a   b     a   t
+
+              Through eliminating constituency, the pure grid provided no explanatory
+              account for the direction of stress shift in data such as these. The introduction
+              of brackets within the grid (Halle & Vergnaud 1987; Halle & Kenstowicz 1991;
+TBC_135.qxd       7/13/10     19:27    Page 9
+
+
+
+
+                                                                                      Word Stress in Arabic   9
+
+              Hayes 1995), however, enabled the grid to handle such data, showing that on
+              vowel deletion stress shifts within the bracketed constituent (in this case to the
+              right):
+
+              (15)     a.      (*               )           b.    (           *             ) word
+                               (*          .)                    (*)                        foot
+                                *          *                      *                         syllable
+                             s a      Ú    a    b           s Ø Ú a           b   a    t
+
+              Further work on BHA showed the initial findings to have been based on an
+              incorrect analysis of the foot-type: essential paradigms had not been considered
+              (Angoujard 1992; Paoli 2008), and BHA feet were re-analyzed as iambs rather
+              than moraic trochees (McCarthy 2003); motivated by the tendency of iambic feet
+              to maximize quantitative differences between the head and dependent syllables,
+              deletion targets the unstressed vowel of an iambic foot. The basic conclusions that
+              stress is preserved on deletion of stressed vowels and that the direction of stress
+              shift is predictable from constituency remain valid, however, and are supported
+              by data from other Arabic dialects: Cyrenaican Bedouin (Hayes 1995, data from
+              Mitchell 1960) and San’ani (Watson 2002: 116) both exhibit stressed vowel dele-
+              tion and stress shift4 within the foot: leftwards in Cyrenaican, which exhibits iambic
+              stress, and rightwards in San’ani, which exhibits trochaic stress.
+
+              (16)     a.    Cyrenaican [ki’tib] ‘books’ > [’kitbih] ‘his books’
+                             (          * )        ( *                  )     word
+                               (.       *)         ( *           )            foot
+                                *       *             *              *        syllable
+                             k i t i b > k i t Ø b i h
+                       b.    San’ani [’xaœab] ‘wood’ > [x’œabih] ‘a piece of wood’
+                             ( *           )       (         *          )     word
+                               (*       .)            (      * )              foot
+                                *       *                    *       *        syllable
+                             x a œ a b > x Ø œ a b i h
+
+              3.2.6         Unparsed syllables
+              The findings of many researchers suggest metrical structure need not exhaust the
+              string of syllables. Hayes (1995) claims syllables left over after foot construction
+              are either unfooted or form degenerate feet. Degenerate feet are not optimal, but
+              languages differ as to whether they impose a strong or a weak ban on them.
+              Languages that permit words smaller than the canonical foot (a single mora in
+              a moraic trochee system, or a single syllable in an iambic or syllabic trochee
+              system) tend to invoke the weak ban, while languages that do not permit sub-
+              minimal words invoke the absolute ban.
+                 Sub-minimal content words are generally unattested in Arabic and sub-
+              minimal grammatical words are expanded on suffixation to provide a minimal
+              bimoraic base, as in Cairene:
+
+
+
+              4
+                   Optional in the case of San’ani: [’xaœabih] ~ [x’œabih].
+TBC_135.qxd   7/13/10    19:27   Page 10
+
+
+
+
+              10      Janet C. E. Watson
+
+              (17)    /min-u/      >   [minnu]        ‘from him/it (masc)’
+                      /#an-kum/    >   [#annukum]     ‘about you (pl)’
+                      /fi-h/       >   [fc(h)]        ‘in it, there is’
+
+              Sub-minimal loanwords are typically expanded through vowel lengthening to
+              match the minimal prosodic word, as in: [bar] ‘bar’ and [baÛ] ‘bus’. Some dialects,
+              such as San’ani, however, do have stressable monomoraic content words,
+              including [ab] ‘father’, [ax] ‘brother’, [yad] ‘hand’, [dam] ‘blood’, and a few sub-
+              minimal function words that contrast with comparable bimoraic words in
+              Cairene, and never lengthen, including [kam] ‘how many’ (cf. Cairene [kam]),
+              [man] ‘who’ (cf. Cairene [mcn]), and [ma#] ‘with’ (cf. Cairene [ma#a]) (Watson
+              2002: 88–89). Further evidence that degenerate feet are allowed in strong posi-
+              tion in San’ani includes the exceptional stressing of peripheral light syllables,
+              giving optional initial stress in forms such as [’tamam] ‘good’, and optional final
+              stress in forms such as [œik’mih] ‘party for parturient’ (§4.2.2).
+
+              3.2.7     Weak parsing
+              Many languages stress the third syllable from the word edge. Hayes (1982, 1989,
+              1995) argues such systems can be accounted for not by expanding the universal
+              inventory to include ternary feet, but by resorting to the independently motivated
+              devices of extrametricality at the edge, destressing in clash, and the non-
+              exhaustivity of foot construction. Non-exhaustivity of foot construction means
+              syllables can be skipped through a device known as weak local parsing, poten-
+              tially creating ternary alternation in longer strings (Hayes 1995: 308):
+
+              (18)    (x .)  (x .) (x .)
+                       ˘ ˘ ˘ ˘ ˘ ˘ ˘ ˘ ˘
+              This device enables Hayes to provide an account of Arabic dialects which dis-
+              penses with the uneven trochee. Bani-Hassan [#alla’mato], seen above in (11), is
+              analyzed in moraic trochees with weak local parsing (Hayes 1995: 366):
+
+              (19)      (x)       (x  .)
+                         ¯    ˘    ˘  ˘
+                      # a l l a m a t o
+
+              3.2.8     Final consonants, syllables, and feet
+              The right-edge of the word prompts exception in many languages: extra-long
+              syllables are often restricted to the right-edge, and syllables that act as heavy
+              non-finally often fail to attract stress in final position. In Cairene, the sequence
+              [.tab.] is stressed penultimately in [ka.’tab.tu] ‘you (pl) wrote’, but not finally in
+              [’ka.tab] ‘he wrote’. To account for the asymmetric behavior of closed syllables
+              and the invisibility of peripheral elements to stress rules, Liberman and Prince
+              (1977) introduced the notion of extrametricality (see chapter 45: extrametricality
+              and non-finality), the rules for which were developed by Hayes (1979, 1982,
+              1989). Thus, rather than specify for relevant languages that CVC is light finally,
+              but heavy non-finally, and that only CVCC and CVVC syllables are heavy
+              finally, the rightmost consonant is analyzed as invisible to stress rules through
+              extrametricality, making final CVC equivalent in weight to non-final CV (Hayes
+              1995: 57):
+TBC_135.qxd       7/13/10   19:27    Page 11
+
+
+
+
+                                                                               Word Stress in Arabic      11
+
+              (20)     Final           Non-final
+                       CV              CV
+                       CV<C>           CV
+                       CVC<C>          CVC
+                       CVV             CVV
+                       CVV<C>          CVV
+
+              In several Arabic dialects, final pairs of light syllables also appear to be invisible
+              to stress rules. In Palestinian, for example, stress is assigned to the rightmost bimoraic
+              sequence in these words:5
+
+              (21)     ’?ana         ‘I’
+                       ’katabu       ‘they wrote’
+                       bara’kitna    ‘our cow’
+                       ka’tabna      ‘we wrote’
+
+              However, in words comprising a heavy syllable followed by two light syllables,
+              or four light syllables, stress is assigned to the initial syllable:
+
+              (22)     ’barakito > ’bakarto       ‘his cow’ (with High Vowel Deletion)
+                       ’madrasa                   ‘school’
+                       ’œajaratun (Classical)     ‘tree (nom)’
+
+              Hayes (1995) analyses such patterns as resulting from foot extrametricality, sub-
+              ject to the non-exhaustivity condition. Thus, [’madrasa] is parsed as [(mad)(rasa)],
+              with two bimoraic feet; by not exhausting the word the peripheral foot is eligible
+              for extrametricality, giving [(mad)<(rasa)>]. Stress is assigned to the rightmost
+              visible (non-extrametrical) foot: [’(mad)<(rasa)>]. The characteristic Cairene pattern
+              of stressing a light penult after a heavy antepenult, by contrast, is analyzed as
+              resulting from lack of foot extrametricality: the rightmost visible foot is stressed
+              in all dialects, but only in Cairene is the peripheral foot visible to stress rules:
+              Cairene [(mad)’(rasa)] contrasts with Palestinian [’(mad)<(rasa)>].
+
+              3.2.9      CVXC syllables
+              Stress patterns in several languages, including Arabic, indicate that an extrametrical
+              consonant does not deprive the rightmost foot of peripherality: by being contained
+              within the peripheral foot, the peripheral consonant does not intervene between the
+              foot and the right-edge. In San’ani [’katabatih] ‘she wrote it (masc)’, for example,
+              extrametrical /h/ falls within the rightmost foot, itself deemed extrametrical. Stress
+              assignment to the rightmost visible foot gives [’(kata)<(bati<h>)>]. An analysis
+              of extrametricality in the case of CVVC and CVCC strings, however, predicts the
+              wrong results: extrametricality would render final C invisible to stress rules; as
+              an extrametrical element it would fall in the adjacent foot, failing to deprive the
+              foot of peripherality; as peripheral feet, CVCC and CVVC syllables would be
+              invisible to stress rules in dialects such as Palestinian for which foot extrametri-
+              cality holds, but not in dialects where foot extrametricality fails to apply. Such
+              an analysis would predict a stress difference in words of the pattern CVVCVCC
+
+              5
+                   Data from Brame (1973, 1974), Abu-Salim (1980), and Kenstowicz & Abdul-Karim (1980).
+TBC_135.qxd   7/13/10       19:27    Page 12
+
+
+
+
+              12       Janet C. E. Watson
+
+              and CVCCVCC between dialects that exhibit foot extrametricality (23a), and
+              dialects such as Cairene, which do not (23b):
+
+              (23)     a.   Consonant extrametricality:                    darrast → darras<t>
+                            Foot extrametricality:                         (dar)(ras<t>) → (dar)<(ras<t>)>
+                            Stress rightmost visible foot:               *’(dar)<(ras<t>)> (= dar’rast)
+                       b.   Consonant extrametricality:                   darrast → darras<t>
+                            Foot extrametricality:                        n/a
+                            Stress rightmost visible foot:                (dar)’(rast)
+
+              A significant step in research on Arabic stress concerns the analysis of these
+              so-called “superheavy” syllables. Superheavy syllables are exceptional on two
+              counts: they are the only syllable types that are always stressed in final position
+              (although cf. §4.2.2), and they are restricted to domain-final position (at least
+              in morphologically simple forms). Thus, in terms of stress rules, they behave
+              like penultimate CVV or CVC (as do CVVC/CVCC syllables in English; Burzio
+              1994; Harris & Gussmann 2002). Several analyses of CVVC/CVCC strings have
+              been proposed around the basic analysis of heavy syllable + element. This was
+              expressed initially by McCarthy (1979: 453) through Chomsky-adjoining a word-
+              final consonant to a heavy syllable:
+
+              (24)                                              q
+
+
+                            q                               q
+
+
+                       C    V [+seg]C# →                C   V [+seg]C#
+
+              Halle and Vergnaud (1979) analyze final C in CVXC as the weak element in a
+              branching foot:
+
+              (25)
+                            w               s
+
+                            w       s           w
+
+
+                       k    a   t   a       b       t
+
+              In later accounts (Aoun 1979; Angoujard 1981, 1990; Selkirk 1981;6 Burzio 1994),
+              the rightmost C forms a degenerate syllable, i.e. a syllable with an empty nucleus
+              or null vowel:
+
+              (26)          q           q
+
+
+                       C    V [+seg] C          D
+
+              6
+                   Only for CVCC syllables. See §135.4.2.2.
+TBC_135.qxd    7/13/10    19:27   Page 13
+
+
+
+
+                                                                          Word Stress in Arabic       13
+
+              For Hayes (1995: 126), final C in CVXC is not syllabified at the initial stage: CVXC
+              is analyzed as heavy syllable + stray consonant, while CVC is analyzed as light
+              syllable + extrametrical consonant:
+
+              (27)    CVX.C
+                      CV<C>
+
+              Within OT, Al-Mohanna (2004) analyses final C of word-final CVXC as attached
+              directly to the prosodic word node. Essentially, then, all accounts show that the
+              rightmost C in CVXC sequences intervenes between the right-edge and the heavy
+              syllable, depriving the foot formed by the heavy syllable of peripherality. Thus,
+              darrast (23) in both Cairene- and Palestinian-type dialects is analyzed as [(dar)’(ras).t].
+                 This section has examined key approaches to Arabic stress within the generative
+              paradigm, with particular focus on challenges raised by Arabic data for stress
+              theory. §4 will provide sketches of the stress systems of Classical Arabic and three
+              modern Arabic dialects, focusing on core similarities and differences between the
+              dialects, and examining approaches invoked to account for cross-dialectal differ-
+              ences and apparent exceptions to the stress algorithms.
+
+
+              4      Stress algorithms
+              4.1     Classical Arabic
+              The early Arab grammarians provided detailed descriptions of segments and
+              melodic phonological processes characteristic of readings of the Qur’an and certain
+              Peninsula dialects; however, word stress is never mentioned. This led some
+              researchers to believe that Classical Arabic exhibited no word stress (Birkeland
+              1954; Ferguson 1956; Garbell 1958), and others to assume it to have been similar
+              to the rather fluctuating word-stress system found today in western dialects of
+              the Arabian Peninsula.
+                 The Classical Arabic stress patterns have since been reconstructed through
+              comparison of modern dialect stress patterns (Janssens 1972), versification (Weil
+              1954; Wright 1971), and observation of the non-dialectal pronunciation of Classical
+              Arabic in some regions (Abu-Fadl 1961; Mitchell 1993). There is now general
+              consensus that Classical Arabic exhibited predictable stress. Disagreement exists,
+              however, as to the leftmost limit of stress. It is agreed that penultimate CVC or
+              CVV bore stress, or, if the penult was light, antepenultimate CVC or CVV. Where
+              both the penult and antepenult were light, as in /mas?alat-un/, researchers dif-
+              fer: Erpenius (1656), Abdo (1969), Brame (1970), Bohas and Kouloughli (1981), and
+              Angoujard (1990) argue that stress did not retract beyond the antepenultimate
+              syllable, giving, in this case, [mas’?alat-un] ‘problem (nom)’. Brockelmann (1907),
+              Wright (1971), Janssens (1972), and McCarthy (1979), by contrast, claim stress is
+              assigned to the initial syllable in such cases, giving ’mas?alatun. If this latter holds,
+              this would mean Classical Arabic, in contrast to the modern dialects, exhibited
+              unbounded metrical feet, constructing feet from one heavy syllable up to, but not
+              including, the next heavy syllable. Under both analyses, lexical exceptions exist: dialect
+              comparison and the non-dialectal pronunciation of Classical Arabic suggest stress
+              was not assigned to the initial heavy syllable in derived verb forms VII and VIII,
+              but to the light antepenult, giving: [in’fa#ala] and [if’ta#ala] rather than *[’infa#ala]
+TBC_135.qxd   7/13/10       19:27    Page 14
+
+
+
+
+              14      Janet C. E. Watson
+
+              and *[’ifta#ala].7 Similarly, most particle prefixes are unstressed irrespective of
+              their relative position (Mitchell 1960: 371, 1975: 77), leading to antepenultimate
+              or penultimate stress in forms such as: [al-’walad-u] ‘the boy (nom)’ (cf. Wright’s
+              [’madrasat-un] ‘school (nom)’), [al-’yad-u] ‘the hand (nom)’, (cf. [’maktab-un] ‘office
+              (nom)’), [wa-’yad-un] ‘and a hand (nom)’ (cf. [’katabat] ‘she wrote’).
+                The stress algorithm for Classical Arabic is given in (28) (bracketed elements
+              included in case stress retraction is limited to the antepenult):
+
+              (28)    Classical Arabic stress
+                      a.    Stress a pre-pausal superheavy (CVVC, CVVGG, or CVCC) syllable:
+                            [ki’tab] ‘book’, [’madd] ‘stretching (masc sg)’, [œa’ribt] ‘I/you (masc sg)
+                            drank’.
+                      b.    Otherwise, stress the rightmost non-final heavy (CVV, CVC, or CVVG)
+                            syllable (up to the antepenult): [da’rasna] ‘we learnt’, [Ûa’benun] ‘soap
+                            (nom)’, [’maktabah] ‘library’, [’maddun] ‘stretching (nom)’, [’maktabatun]
+                            ‘library’ (non-pause) (or [mak’tabatun]).
+                      c.    Otherwise, stress the leftmost CV syllable (or antepenult): [’kataba]
+                            ‘he wrote’, [’katabatuhu] ‘library’ (or [kata’batuhu]).
+
+              4.2     Arabic dialects
+              This section presents the basic stress algorithms for Cairene, San’ani, and Levantine,
+              three dialects analyzed as exhibiting moraic trochaic stress. Each sub-section
+              considers some of the most significant data that has impacted on metrical theory
+              and approaches invoked to handle this data. The section is concluded by a table
+              summarizing the main stress and stress-related typological characteristics of each
+              dialect and of Cyrenaican Bedouin, aspects of which we considered in §3.
+
+              4.2.1        Cairene
+              More generative accounts of word stress have been provided for Cairene than
+              any other Arabic dialect. Cairene attracted attention due to its characteristic
+              avoidance of a heavy antepenult in favor of a light penult, deletion of unstressed
+              high vowels but, with few exceptions (Woidich 2006), not unstressed low vowels,
+              reduction of unstressed long vowels, and its exceptions.8 An initial stress algorithm
+              for Cairene was provided by Harrell (1957, cf. also Mitchell 1956):
+
+              (29)    Cairene stress
+                      a.    Stress-final CVV(C) or CVCC: [ka’tabt] ‘I wrote’, [?a’be(h)] ‘his father’,
+                            [saka’kcn] ‘knives’, [Ùala’bat] ‘demands’.
+                      b.    Otherwise, stress the antepenult when the penult and antepenult are
+                            light, unless the pre-antepenult is light: [’?abadan] ‘never’, [mux’talifa]
+                            ‘different (fem sg)’. Cf. [kata’bitu] ‘she wrote it (masc)’ with pre-
+                            antepenultimate CV.
+                      c.    Otherwise, stress the penult: [yik’tibu] ‘they write’, [#a’malti] ‘you
+                            (fem sg) did’, [mar’taba] ‘mattress’, [’bbtak] ‘your (masc sg) house’.
+              7
+                An exception for Wright (1971), etc., but not for Angoujard (1990).
+              8
+                Descriptive accounts of Cairene in the theoretical literature include Mitchell (1952, 1956, 1960, 1975),
+              Harrell (1957, 1960), Tomiche (1964), Behnstedt and Woidich (1985), and Woidich (2006).
+TBC_135.qxd    7/13/10    19:27   Page 15
+
+
+
+
+                                                                           Word Stress in Arabic       15
+
+              Example (29b) predicts penultimate stress whenever the penult, antepenult,
+              and pre-antepenult are light. However, since long strings of light syllables are
+              unattested in Cairene, we cannot evaluate the stress pattern of words that exceed
+              four light syllables by restricting ourselves to dialect data. Mitchell’s (1960, 1975)
+              study of Classical Arabic pronunciation as taught in centers in Cairo provided
+              longer strings of light syllables, demonstrating that (29b) held in forms such as
+              [œaja’ratuhu] ‘his tree’, but not in [œaja’ratun] ‘a tree (nom)’ and [murtabi’Ùatun]
+              ‘connected (fem nom)’. Mitchell provides a comprehensive list of canonical
+              patterns, for which Langendoen (1968) formulates an algorithm along the fol-
+              lowing lines.
+
+              (30)   Cairene stress
+                     a.   Stress a superheavy ultima.
+                     b.   Otherwise, stress a heavy penult.
+                     c.   Otherwise, stress the penult or antepenult, whichever is separated by
+                          an even number of syllables from the rightmost non-final heavy syllable,
+                          or, if there is no non-final heavy syllable, from the left boundary of the
+                          word.
+
+              Seeking a heavy syllable from the word-edge is common, and stressing a light
+              antepenult in the absence of a heavy penult is explicable on the basis of mora-
+              counting (stress the third mora from the right-edge); however, the choice of penult
+              or antepenult in (30c) depends not only on the weight of the stressed syllable and
+              that of syllables to its right, but also on the weight of the syllable to its left. McCarthy
+              (1979) viewed the distinction between odd and even sequences of light syllables
+              as a tacit alternating pattern, explaining the apparently complex rules as the
+              grouping of light syllables into left-headed pairs from left to right. Hayes’s (1995)
+              bracketed-grid account of the facts and of McCarthy’s analysis is below:
+
+              (31)   a.   Consonant extrametricality: C → <C> / _____]word.
+                     b.   Foot construction:          Form moraic trochees from left to right.
+                                                      Degenerate feet are not permitted.
+                     c.   Word layer construction:    Group feet into a right-headed word
+                                                      constituent: End Rule Right (ERR).
+
+              Taking [mak’tabak] ‘your (masc sg) office’, the rules generate the following
+              metrical structure:
+
+              (32)     (.     *               )          word layer construction: ERR
+                       (*)   (*              .)          foot construction: moraic trochees, L>R
+                        µ µ   µ              µ
+                     m a k t a           b   a <k>       consonant extrametricality
+
+              This formalism accounts for most of the data, but fails to account for the follow-
+              ing cases:
+
+              (33)   a.   Penultimate stress in plural nouns of the pattern CiCiCa/CuCuCa: [li’bisa]
+                          ‘underpants’, [ıi’riba] ‘crows’, [si’bita] ‘baskets’.
+TBC_135.qxd   7/13/10     19:27            Page 16
+
+
+
+
+              16     Janet C. E. Watson
+
+                     b.       Stress of the 3fem sg perfect subject vowel on suffixation: /œafit-u/ >
+                              [œa’fitu] ‘she saw him’, /ramit-u/ > [ra’mitu] ‘she threw it (masc)’,
+                              /katabit-u/ > [kata’bitu] ‘she wrote it (masc)’.
+                     c.       Deletion of short high vowels in CVCVCV(C) sequences in suffixed forms:
+                              /yaxud-u/ > [’yaxdu] ‘they took’ (cf. /#alam-u/ > [#a’lamu] ‘his world’),
+                              /kanakit-u/ > [kanaktu] ‘his coffeepot’ (cf. [kata’bitu] ‘she wrote it
+                              (masc)’).
+
+              (33a) and (33b) have been analyzed in various approaches as the exceptions they
+              are. Penultimate stress in nouns of the pattern CiCiCa/CuCuCa can be explained
+              by referring to the alternative, older, pattern iCCiCa: [ıi’riba] ~ [iı’riba] ‘crows’.
+              In the older form, stress is predictably assigned to a light penult following a heavy
+              antepenult, as in (30c). Woidich (2006) and Watson (2002: 98) then interpret the
+              apparent exceptional stress of CiCiCa/CuCuCa forms as lexicalization of the older
+              stress pattern and re-analysis of iCCiCa as CiCiCa.
+                 The unpredictable behavior of the suffixed 3rd feminine singular perfect
+              inflectional form has been handled in several different, but related, ways.
+              McCarthy’s metrical tree notation permits a morphologically governed rule to
+              create a branching node over the verbal suffix -it and any following material, iff
+              following material exists:
+
+              (34)   +it +X
+                      1 2 >> 1                  2
+
+              Angoujard (1981) initially attributes an ‘indestructible rhyme’ to the -it morpheme.
+              Later he attributes the heaviness of the morpheme in dialects such as Cairene and
+              Tunisian to the association of two segments with a three-slotted grid, of which
+              the first is marked as peak (Angoujard 1990: 120–121):
+
+              (35)   *
+                     *    *       *]
+                          i       t
+
+              Watson (2002: 97) invokes exceptional reversal of the direction of stress assignment
+              from left to right to right to left in the case of suffixation to the -it morpheme.
+                 Forms such as /yaxud-u/ > [yaxdu] ‘they take’ (33c) are problematic for a purely
+              weight-based model because /yaxud-u/ shares the CVVCVC+V template of
+              words such as /#alam-u/ (> [#a’lamu]) ‘his world’, differing solely in the qual-
+              ity of the penultimate vowel. Angoujard (1990) deals with these by allowing uneven
+              trochaic feet consisting of CVV plus CV with a short high vowel, while lone
+              syllables with short low vowels may, and domain-final syllables must, form a foot
+              of their own. Compare Angoujard’s representations of /#alam-u/ ‘his world’ and
+              /?abil-u/ ‘they met’:
+
+              (36)            R             R        R            R           R
+
+
+                     #        aa       l    a   m    u   ?   aa   b   i   l   u
+
+
+                                                                      Ø
+TBC_135.qxd    7/13/10       19:27   Page 17
+
+
+
+
+                                                                           Word Stress in Arabic    17
+
+              In /#alam-u/ > [#a’lamu], unstressed CVV is reduced to CV. In /?abil-u/ > [’?ablu],
+              the high vowel in the weak position of the foot is deleted, resulting in a CVVC
+              syllable, impermissible in Cairene. The long vowel is subject to Closed Syllable
+              Shortening (CSS) to prevent word-internal CVVC, giving: [’?ablu] ‘they met’. Watson
+              (2002), who follows Hayes (1995) in disallowing the uneven trochee, analyses forms
+              such as /safir-it/ > [’safrit] as assignment of metrical structure prior to syncope
+              with re-assignment of metrical structure after the application of each phonolo-
+              gical rule:
+
+              (37)    a.    Construction of moraic trochees from left to right: (sa)(firit).
+                      b.    Assignment of stress to the head of the rightmost foot: (sa’(firit)).
+                      c.    Reduction of unstressed CVV to CV: (sa’(firit)).
+                      d.    Refooting: (’(safi)rit).
+                      e.    Syncope of the high vowel: ’(safrit).
+
+              Both these approaches deal with this data, but they miss the generalization that,
+              with the exception of CiCiCa/CuCuCa plurals and the -it morpheme, all short
+              high vowels in the position CVCVCV(C) are subject to syncope, even if they would
+              be stressed by the normal stress algorithm (Kenstowicz 1980; Teeple 2009), namely:
+              /kanakit-u/ > [ka’naktu] ‘his coffeepot’, /kanabit-u/ > [ka’nabtu] ‘his sofa’. This
+              data suggests word-internal short high vowels are subject to syncope prior to assign-
+              ment of metrical structure, as long as the resulting syllable is permissible (cf.
+              Broselow 1992: 36–37): /kanakit-u/ gives [kanaktu], but /mudarris-a/ fails to give
+              *[mudarrsa] because word-internal [.darr.] (CVGG) is impermissible in Cairene.
+                Syncope is not restricted to the phonological word in Cairene; it also occurs
+              within the phonological phrase: high vowels in word-initial CV syllables are
+              subject to phrasal syncope after a word-final vowel, as in:
+
+              (38)    /?ana fihimt/     >   ’?ana f’himt   ‘I understood’
+                      /Ùardi kibcr/     >   ’Ùardi k’bcr   ‘my parcel is big’
+
+              Deletion fails to occur in (39), however, even though word-initial CV follows word-
+              final CV:
+
+              (39)    /huwwa fihim/         >   ’huwwa ’fihim    (*fhim)    ‘he understood’
+                      /huwwa wiÚiœ/         >   ’huwwa ’wiÚiœ    (*wÚiœ)    ‘he is bad’
+
+              In (38), the high vowel falls in an unstressed syllable in the citation form
+              ([fi’himt] ‘I understood’, [ki’bcr] ‘big’). By contrast, in (39), the high vowel falls
+              in a stressed syllable in the citation form ( [’fihim] ‘he understood’, [’wiÚiœ]
+              ‘bad’). Taken with data such as [ka’naktu] ‘his coffeepot’, this suggests two types
+              of syncope occur in this dialect: lexical syncope, which targets word-internal CV-
+              flanked high vowels prior to the assignment of metrical structure, and phrasal
+              syncope, which targets unstressed word-initial CV-flanked high vowels after the
+              assignment of metrical structure.
+
+              4.2.2        San’ani
+              The main interest in San’ani, the dialect of the old city of San’a, Yemen, lies in
+              its stressing of peripheral light syllables, and the patterning of CVV syllables
+TBC_135.qxd   7/13/10     19:27     Page 18
+
+
+
+
+              18      Janet C. E. Watson
+
+              with syllables ending in the left-leg of a geminate (CVG), but not with CVC
+              syllables.9
+                The basic stress algorithm for Classical Arabic (28) applies to most word-types:
+
+              (40)   a.    Stress a final CVCC or CVVC syllable: [gi’rct] ‘I/you (masc sg)
+                           read/learnt’, [gam’bart] ‘I/you (masc sg) sat’, [ki’tab] ‘book’.
+                     b.    Otherwise, stress the rightmost non-final heavy syllable (CVV or CVC)
+                           up to the antepenult: [’madrasih] ‘school’, [miı’salih] ‘launderette’,
+                           [da’rastih] ‘I/you (masc sg) recited it’.
+                     c.    Otherwise, stress the leftmost CV syllable: [’libisat] ‘she put on, wore’,
+                           [mak’tabatih] ‘his library’, [’katabatih] ‘she wrote it (masc)’.
+
+              (40) fails to apply in San’ani, however, when the penult or antepenult is CVV or
+              CVG. Here the rightmost non-final CVV or CVG syllable attracts stress from final
+              CVCC or CVVC (Watson 2002: 81):
+
+              (41)   ’Ûaben            ‘soap’
+                     ’xuÙÙaf           ‘clasp’
+                     mu’darriscn       ‘teachers (masc)’
+                     ’xarijcn          ‘going out (masc pl)’
+
+              Similarly, while the rightmost non-final CVC syllable is stressed iff in penultimate
+              or antepenultimate position, CVV and CVG are stressable in pre-antepenultimate
+              position:
+
+              (42)   mak’tabatc       ‘my library’
+                     mu’sajjilatc     ‘my recorder’
+                     ’hakaÆaha        ‘like this’
+
+              (40) often fails to apply in post-pausal position: San’ani exhibits contextually
+              fluctuating stress (Rossi 1939; Naïm-Sanbar 1994); post-pausally the initial syllable
+              is usually stressed, irrespective of its weight or that of following syllables. Where
+              initial CV is stressed before CVXC, this is analyzed in Watson (2002) as a degen-
+              erate syllable (§3.2.6):
+
+              (43)   ’tamam          ‘okay’
+                     ’katabt         ‘I/you (masc sg) wrote’
+                     ’?usbe#         ‘week’
+                     ’baladcyat      ‘municipality’
+
+              The following revised algorithm accounts for the data:
+
+              (44)   San’ani stress
+                     a.    Stress the rightmost non-final CVV or CVG syllable: [ma’katib] ‘offices’,
+                           [ba’satcn] ‘gardens’, [’xarijcn] ‘going out (masc pl)’, [mit’?axxirat] ‘late
+                           (fem pl)’, [’hakaÆaha] ‘like this’, [’safart] ‘I/you (masc sg) traveled’,
+                           [’dawwart] ‘I/you (masc sg) looked for’.
+              9
+                Data cited in the theoretical literature include Rossi (1939), Goitein (1970), Naïm-Sanbar (1994), and
+              Watson (2002).
+TBC_135.qxd        7/13/10   19:27    Page 19
+
+
+
+
+                                                                                 Word Stress in Arabic           19
+
+                       b. Otherwise, stress final CVVC or CVCC: [?ab’sart] ‘I/you (masc sg) saw’,
+                          [laf’laft] ‘I/you (masc sg) collected’, [diœ’man] ‘rebel’, [ba’nat] ‘girls’.
+                       c. Otherwise, stress the rightmost non-final CVC syllable up to the
+                          antepenultimate: [’laflaf] ‘he collected’, [’maklaf] ‘woman’, [’maklafih]
+                          ‘his woman’.
+                       d. Otherwise, stress the leftmost CV syllable: [’katab] ‘he wrote’, [’darasat]
+                          ‘she learnt’, [’ragabatih] ‘his neck’, [mak’tabatc] ‘my library’.
+
+              Adopting Hayes’ (1995) bracketed-grid approach, Watson accounts for the facts
+              as follows:
+
+              (45)     a.    Consonant extrametricality           C → <C> /__ ]word
+                       b.    Foot construction                    Form moraic trochees from left to right.
+                                                                  Degenerate feet are permitted in strong
+                                                                  position.
+                       c. Foot extrametricality                   Foot → <Foot> /__ ]word
+                       d. Word layer construction                 ERR
+
+              The permitting of degenerate feet in strong position (45b) accounts for post-pausal
+              stressing of CV in words of the structure CVCVXC ([’tamam], [’katabt]), while
+              (45c) accounts for initial stress in [’maktabih] ‘library’ (cf. Cairene [mak’taba]).
+              (45) does not, however, account for the most striking characteristic of San’ani: fail-
+              ure of final CVXC to attract stress when a CVV or CVG syllable occurs in the
+              word, and stress assignment in words ending in CVVC.
+                 Geminates are analyzed as underlyingly moraic (see chapter 3: geminates).
+              Although non-geminate consonants in the rhyme are assigned a mora through
+              Weight-by-Position, geminates are moraically distinct from non-geminate consonants
+              at some stage in the derivation.10 This underlying moraic distinctness accounts
+              for the asymmetry in San’ani between CVC syllables, on the one hand, and CVG
+              and CVV syllables, on the other. The distinctness is captured by adopting a two-
+              layered grid within the syllable, where the height of a column depends on the
+              sonority of the segment associated with it (Hayes 1995: 300, drawing on Prince
+              1983).11 Underlyingly moraic segments have a mora on each layer, while segments
+              assigned a mora by Weight-by-Position have a mora on the lower layer only:
+
+              (46)           q         q                 q                 q
+
+
+                             [         [                 [    [            [    [
+
+
+                             [         [    [            [    [            [    [
+
+
+                       C V           C V C          C V G              C V V
+
+              10
+                 Unstressed vowel shortening in Rural Palestinian also implies a distinction in this dialect between
+              CVC syllables and CVV and CVG syllables (Younes 1995).
+              11
+                 A similar two-leveled grid developed by Hyde (2006) distinguishes between prosodic and metrical
+              weight. Under this approach, CVC, CVV, and CVG in San’ani are bimoraic, but only in the case of
+              CVV and CVG are both moras projected on the metrical tier.
+TBC_135.qxd   7/13/10     19:27    Page 20
+
+
+
+
+              20     Janet C. E. Watson
+
+              Processes that treat CVC as heavy refer to the lower moraic layer, while processes
+              that treat CVC as light refer to the upper moraic layer. In San’ani, the weight of
+              CVC syllables is relative and entirely dependent on the prosodic environment.
+              Footing is enforced on the upper moraic layer iff underlyingly bimoraic (i.e. CVV
+              or CVG) syllables occur in the word; elsewhere, footing is enforced on the lower
+              moraic layer.
+                 This analysis accounts for the failure of CVCC syllables to attract stress, iff
+              a non-final CVV or CVG syllable falls within the word. Stress is assigned in [’safart]
+              ‘I/you (masc sg) traveled’ as below:
+
+              (47)   (    x                       )    word layer construction (ERR)
+                         (x)                           foot construction:
+                          q              q       <q>   moraic trochees, L > R
+
+                         [     [         [
+
+
+                         [     [         [   [
+
+
+                     s   a           f   a   r <t>     consonant extrasyllabicity
+
+              Penultimate and antepenultimate stress in words such as ’jazzar ‘butcher’, ’Ûaben
+              ‘soap’ and ’xarijcn ‘going out (masc pl)’ is attributed to a prosodic difference in
+              Arabic between CVVC and CVCC syllables. In several Arabic dialects, CVVC occurs
+              in positions from which CVCC is excluded. In Levantine, Sudanese, and Iraqi,
+              CVVC cannot occur morpheme internally but, unlike CVCC, is attested word inter-
+              nally on suffixation of inflectional affixes, as in Lebanese: /kitab-na/ > [kitabna]
+              ‘our book’ and Sudanese: /masik-cn/ > [maskcn] ‘holding (pl)’ (Broselow et al.
+              1995, 1997). In Classical Arabic, word-internal CVVG syllables are the regular
+              outcome of active participle formation, as in [farra] ‘to flee’ > [farr-un] ‘fleeing
+              (nom)’ (Wright 1971: 26). And in Cairene, CVVC may occur word finally within
+              the utterance, while words ending in CVCC prompt epenthesis in all but
+              utterance-final position: compare [ban≠t Ùawclat] ‘tall girls’ with [binti Ùawcla]
+              ‘a tall girl’ (Selkirk 1981).
+                 While CVCC is analyzed as a canonical syllable plus an extra element –
+              (24)–(27) – final CVVC is analyzed as a single superheavy syllable (Selkirk 1981:
+              215), which Watson (1999, 2002) interprets as a bimoraic syllable with an extra-
+              metrical consonant:
+
+              (48)         q
+
+
+                           [ [
+
+
+                     C    V              <C>
+
+              Under this analysis, final CVVC forms a single bimoraic foot in San’ani. Combined
+              with the moraic grid, the foot formed by word-final CVVC is eligible for extramet-
+              ricality subject to the Non-exhaustivity Condition, i.e. iff other bimoraic syllables
+              on the upper moraic layer occur in the word. In assignment of stress in [’Ûaben]
+TBC_135.qxd        7/13/10       19:27    Page 21
+
+
+
+
+                                                                                     Word Stress in Arabic           21
+
+              ‘soap’, two bimoraic feet are constructed on the upper moraic layer; the peripheral
+              foot is extrametrical, and stress is assigned to the rightmost visible foot:
+
+              (49)     (     x                                 )            word layer construction (ERR)
+                            (x)                <(x)>                        foot extrametricality
+                             q                   q
+
+
+                             [     [               [ [
+
+
+                             [     [               [ [
+
+
+                       Û     a                 b u                   <n>    consonant extrametricality
+
+              4.2.3         Levantine
+              Levantine has attracted a great deal of attention within generative phonology
+              due principally to its complex interactions between the morphology and stress
+              assignment.12 The dialects basically exhibit the Latin stress rule (McCarthy 1980:
+              79), with the exception of (50a), which Latin lacks:
+
+              (50)     Levantine stress
+                       a. Stress final CVCC or CVVC: [bi-t-’ÚuÙÙ] ‘she/you (masc sg) put’,
+                          [ja’wab] ‘answer’.
+                       b. Otherwise, stress a heavy penult: [ka’tabti] ‘you (fem sg) wrote’,
+                          [’barak] ‘he blessed’.
+                       c. In disyllables ending in CV or CVC, stress the initial syllable: [’Òarab]
+                          ‘he hit’, [’bana] ‘he built’, [’?ana] ‘I’.
+                       d. Otherwise, stress the antepenult: [’darasu] ‘they learnt’, [mut’taÚida]
+                          ‘united’, [’#allamat] ‘she taught’, [’madrasa] ‘school’.
+
+              Hayes (1995: 128) accounts for Palestinian stress as follows:
+
+              (51)     a.    Consonant extrametricality                C → <C> /__ ]word
+                       b.    Foot construction                         Form moraic trochees from left to right.
+                                                                       Degenerate feet are forbidden absolutely.
+                       c. Foot extrametricality                        Foot → <Foot> /__ ]word
+                       d. Word layer construction                      ERR
+
+              These rules generate the following metrical structure:
+
+              (52)           (*                           )            word layer construction: ERR
+                             (*)         <(*             .)>           foot construction: moraic trochees, L > R,
+                                                                       foot extrametricality
+                             µ µ               µ         µ
+                       m     a k t             a   b     a     <k>   consonant extrametricality
+
+              12
+                  The many traditional descriptive-analytical accounts of Levantine include Feghali (1919), Bauer
+              (1926), Cantineau (1939, 1946, 1960), El-Hajjé (1954), Cowell (1964), Jiha (1964), Grotzfeld (1965), Blanc
+              (1970), Fleisch (1974), and Naïm-Sanbar (1986).
+TBC_135.qxd   7/13/10    19:27     Page 22
+
+
+
+
+              22     Janet C. E. Watson
+
+              Levantine dialects show a few internal differences. Palestinian stresses the fourth
+              mora from the right-edge in Classical Arabic words such as [œajaratun] ‘a tree (nom)’,
+              giving [’œajaratun] vs. Beirut/Damascene [œa’jaratun] (Halle & Kenstowicz 1991).
+              This is analyzed by Halle and Kenstowicz (1991) as a difference in parsing direc-
+              tion and extrametricality: left-to-right in Palestinian (as in (51b), with foot extra-
+              metricality), right-to-left in Beirut/Damascene (with syllable extrametricality). Since
+              Cantineau (1939), Levantine dialects have been classified into “differential” and
+              “non-differential” dialects, depending on whether only unstressed high vowels
+              or all unstressed vowels are subject to syncope; cf. (1). Dialects also vary accord-
+              ing to whether or not long vowels are shortened in open unstressed syllables,
+              as in Palestinian /makatib-na/ > [maka’tibna] (Younes 1995) vs. Damascene
+              /katabHt-o/ > [kata’bHto] ‘she wrote it’ (McCarthy 1980).
+
+              4.2.4 The interaction of syncope, epenthesis, and stress
+              The main interest in Levantine stress data is in the treatment of morphologically
+              complex forms, where stress is assigned opaquely in some cases to a light penult
+              (skipping a heavy antepenult or pre-antepenult), in other cases to a light ante-
+              penult (skipping a heavy penult). Consider the Palestinian data below (Brame 1974;
+              Abu-Salim 1980; Younes 1995):
+
+              (53)   Penultimate                         Antepenultimate
+                     ka’tabit    ‘I/you wrote’           ’xubizha   ‘her bread’
+                     f’himit     ‘I/you understood’      ’binitha   ‘her daughter’
+                                                         ’yikitbu   ‘they write’
+                                                         ’jabilha   ‘he gave her’
+
+              The traditional explanation of opaque stress assignment to the penult in words
+              such as [ka’tabit] and [f’himit], and to the antepenult in [’binitha] and [’yikitbu]
+              is that the epenthetic vowel fails to count for stress. Since Brame (1970, 1973, 1974)
+              this explanation has been translated in rule-based approaches into the relative
+              ordering of stress, syncope and epenthesis. Stress is assigned in the lexicon, and
+              within the postlexical component syncope is ordered before epenthesis. This
+              accounts for opaque stress in Palestinian [ka’tabit] ‘I/you (masc sg) wrote’ and
+              [’yikitbu] ‘they (masc) write’, where syncope and/or epenthesis take place, and
+              for transparent stress in [’katabin] ‘they (fem) wrote’, where neither syncope nor
+              epenthesis occurs:
+
+              (54)                    [[fihm]na]    [katab-t]       [yi-ktib-u]      [katab-in]
+                     first cycle
+                     stress           ’fihm         ka’tab-t        ’yiktib-u        ’katab-in
+                     second cycle     ’fihm-na
+                     post-cyclic
+                     syncope          NA            NA              ’yiktbu          NA
+                     epenthesis       ’fihimna      ka’tabit        ’yikitbu         NA
+                     output           ’fihimna      ka’tabit        ’yikitbu         ’katabin
+                                      ‘our under-   ‘I/you (masc    ‘they (masc)     ‘they (fem)
+                                      standing’     sg) wrote’      write’           wrote’
+TBC_135.qxd        7/13/10    19:27    Page 23
+
+
+
+
+                                                                                 Word Stress in Arabic          23
+
+              Levantine-like opacity has continued to attract considerable interest within
+              constraint-based models. Optimality-theoretic approaches towards opacity include:
+              invoking constraints on the stressing of epenthetic vowels, maximizing paradig-
+              matic contrasts,13 and translating the notion of the cycle into lexical and post-
+              lexical strata. Within parallel OT, Kager (1999) accounts for Levantine opacity by
+              invoking the constraint Head-Dep(O/I) (‘every vowel in the output prosodic head
+              has its correspondent in the input’), which prohibits stress on epenthetic vowels.
+              By dominating constraints responsible for stress, Head-Dep(O/I) rules out penul-
+              timate stressed *[fi’himna] (input [’fihm-na]) and *[yi’kitbu] (input [’yiktib-u]), and
+              other constraints select [’fihimna] and [’yikitbu]. Kiparsky, however, raises two
+              objections to this constraint: first, its only remit is to prevent epenthetic vowels from
+              being stressed, but epenthetic vowels are not simply unstressable, they are invis-
+              ible to stress: words of the form CVCVCV(C) receive antepenultimate stress
+              unless the final vowel is epenthetic, in which case the penult is stressed, acting
+              as if the epenthetic vowel were not there, as in: [ka’tabit] ‘I/you (masc sg)
+              wrote’. Second, Head-Dep(O/I) fails to relate the opacity of stress to other word-
+              level prosodic processes, thus missing the generalization “that all processes of
+              word phonology ignore epenthetic vowels” (Kiparsky 2000: 353). For example,
+              word-level closed CVVC syllables are shortened even though they are opened
+              by postlexical epenthesis:
+
+              (55)     /œaf-it/    >    œafit             ‘she saw’
+                       /œaf-t/     >    ’œifit (*œafit)   ‘I saw’
+
+              Brame’s insight (§3.2.1) that syncope is ordered before epenthesis in dialects such
+              as Levantine is captured in stratal OT by allowing different constraint rankings
+              in the lexical and postlexical strata (Kiparsky 2000, 2003). The relevant con-
+              straints here are the faithfulness constraint Max-’V, requiring the stressed vowel
+              of the input to have a correspondent in the output, and the markedness constraints
+              Reduce, which minimizes the number of non-final light syllables, and License-
+              µ, which requires all moras to be licensed by syllables. Syncope takes place at
+              the word level because Reduce outranks License-µ. At the postlexical level,
+              epenthesis is prompted by the promotion of License-µ, and Max-’V rules out
+              candidates in which stress is assigned to the epenthetic vowel. Kiparsky’s stratal
+              OT azxznalysis of /yiktib-u/ > [’yikitbu] is given in (56) and (57):
+
+              (56)     VC dialects: Word level
+
+                             Input: [’(yik).(ti.bu)] Reduce License-[ …
+                        ☞ a. ’(yik).t[.bu                  *           *
+                             b. ’(yik).(ti.bu)            **!
+
+
+
+
+              13
+                 Broselow (2008), for example, argues that the invisibility of epenthetic vowels in Iraqi Arabic is
+              motivated by maximization of contrast between stems of different grammatical types.
+                                                                                                                                             TBC_135.qxd
+                                                                                                                                             7/13/10
+
+
+
+
+Table 135.1 The main stress and stress-related typological characteristics of four Arabic dialects
+
+                             Cairene                         San’ani                         Palestinian             Cyrenaican Bedouin
+                                                                                                                                             19:27
+
+
+
+
+Syllable           CVVC]PW                         CVVC]PW                          CVVC]PW                       CVVC]PW
+  structure        CVCC]UTT                        CVVC: In morphologically         CVVC: In morphologically      CVVC: In morphologically
+                   CVV                              complex environments             complex environments          complex environments
+                                                                                                                                             Page 24
+
+
+
+
+                   CVV: *word-final                CVCC]PW                          CVCC]PW                       CVCC]PW
+                                                                                    CVV: *word-final
+Stress             Foot type: Moraic trochees      Foot type: Moraic trochees       Foot type: Moraic trochees    Foot type: Iambs
+                   Direction: L > R                Direction: L > R                 Direction: L > R              Direction: L > R
+                   Extrametricality:               Extrametricality:                Extrametricality:             Extrametricality:
+                     <C>: Yes                        <C>: Yes                         <C>: Yes                      <C>: No
+                     <Foot>: No                      <Foot>: Yes                      <Foot>: Yes                   <Foot>: Yes
+                   Degenerate feet: No             Degenerate feet: Yes             Degenerate feet: No           Degenerate feet: No
+                   Weak parsing: No                Weak parsing: No                 Weak parsing: No              Weak parsing: No
+                   Stress shift: No                Stress shift: Yes                Stress shift: No              Stress shift: Yes
+                   Exceptions: Yes                 Exceptions: No                   Exceptions: No                Exceptions: No
+Stress-related     Syncope: High vowels            Syncope: All vowels              Syncope: High vowels          Syncope: All vowels
+  phenomena        Unstressed long vowel           Unstressed long vowel            Unstressed long vowel         Unstressed long vowel
+                     reduction: Yes                  reduction: No                    reduction: To left of         reduction: No
+                   CSS: Yes                        CSS: No                            stressed syllable only      CSS: No
+                   Opaque stress: Due to           Opaque stress: No                CSS: No                       Opaque stress: Due to
+                     unstressed long vowel                                          Opaque stress: Due to           syncope and/or
+                     reduction                                                        syncope and/or epenthesis     epenthesis
+TBC_135.qxd    7/13/10     19:27    Page 25
+
+
+
+
+                                                                              Word Stress in Arabic         25
+
+              (57)    VC dialects: Post-lexical level
+
+                         Input: [’yik.t[.bu] License-[ Max-’V Reduce
+                         a. ’yik.t[.bu                *!                       *
+                         b. yi.’kit.bu                             *!         **
+                      ☞ c. ’yi.kit.bu                                         **
+
+              The main stress and stress-related typological characteristics of Cairene, San’ani,
+              and Palestinian are summarized in Table 135.1. A column is added for
+              Cyrenaican Bedouin, a dialect analyzed as exhibiting iambic stress. The syllable
+              structure row shows the distribution of CVV, CVVC, and CVCC syllables in the
+              dialects: ]pw = restricted to phonological word-final, ]utt = restricted to utterance-
+              final position, and ’CVV = only when stressed. The stress row summarizes foot
+              type, direction of foot construction, extrametrical elements (<C> consonant,
+              <Foot> foot), the permissibility of degenerate feet or weak parsing, and the
+              occurrence of stress shift or morphologically induced exceptions. The final row
+              summarizes for each dialect stress-related phenomenon, showing syncope
+              restrictions, and the occurrence or non-occurrence of long vowel reduction,
+              closed syllable shortening (CSS) and opaque stress.
+
+
+              4      Conclusion
+              This chapter has examined firstly how Arabic has contributed to the development
+              of metrical theory, with its particular contributions in the areas of rhythmic
+              organization, stress shift, right-edge effects, and the interaction of syncope,
+              epenthesis, and stress. Second, it has provided sketches of the stress systems
+              of four Arabic varieties – Classical Arabic, Cairene, San’ani, and Levantine –
+              focusing on core similarities and differences between dialects, and key
+              approaches invoked to deal with these. Due to space restrictions I have focused
+              on a selection of phenomena and data. I have not examined, for instance, notions
+              of secondary stress – attested in San’ani, for instance, but not in Cairene – stress
+              conflation, and the more drastic alterations in morpheme shape exhibited by iambic
+              dialects such as Cyrenaican Bedouin.
+
+
+              REFERENCES
+              Abdo, Daud A. 1969. On stress and Arabic phonology: A generative approach. Beirut: Khayats.
+              Abul-Fadl, Fahmi. 1961. Volkstümliche Texte in arabischen Bauerndialekten der ägyptischen Provinz
+                  0arqiyya. Münster: Westfälische Wilhelms-Universität.
+              Abu-Salim, Isaam M. 1980. Epenthesis and geminate consonants in Palestinian Arabic. Studies
+                  in the Linguistic Sciences 10. 1–12.
+              Al-Mohanna, Faisal 2004. Paradoxical non-finality: Stress assignment in three Arabic
+                  dialects. Ms., King Saud University. (ROA 735.)
+              Al-Mozainy, Hamza Qublan, Robert Bley-Vroman & John J. McCarthy. 1985. Stress shift
+                  and metrical structure. Linguistic Inquiry 16. 135–144.
+              Angoujard, Jean-Pierre. 1981. Contribution à l’analyse prosodique (parlers de Tunis,
+                  du Caire et de Damas). Analyses, Théorie 1. 66–121.
+TBC_135.qxd   7/13/10    19:27    Page 26
+
+
+
+
+              26     Janet C. E. Watson
+
+              Angoujard, Jean-Pierre. 1990. Metrical structure of Arabic. Dordrecht: Foris.
+              Angoujard, Jean-Pierre. 1992. Syncope et voyelles accentuées (parler du Hedjaz, Bani
+                   Hassan et hébreu biblique). Languages Orientales Anciennes, Philologie et Linguistique 4.
+                   299 –304.
+              Aoun, Youssef. 1979. Is the syllable or the supersyllable a constituent? MIT Working Papers
+                   in Linguistics 1. 140 –148.
+              Bauer, Leonhard. 1926. Das palästinische Arabisch. Leipzig: J. C. Hinrichs’sche Buchhandlung.
+              Behnstedt, Peter & Manfred Woidich. 1985. Die ägyptisch-arabischen Dialekte. Wiesbaden:
+                   Ludwig Riechert.
+              Birkeland, Harris. 1954. Stress patterns in Arabic. Oslo: Jacob Dybwad.
+              Blanc, Haim. 1970. The Arabic dialect of the Negev Bedouins. Proceedings of the Israeli Academy
+                   of Science and Humanities 4. 112–150.
+              Bohas, Georges. 1975. Métrique arabe classique et moderne. Thèse de 3ème cycle. Paris VIII.
+              Bohas, Georges & Djamel Kouloughli. 1981. Processus accentuels en arabe (parlers du Caire,
+                   de Damas et arabe classique). Analyses, Théorie 1. 36–46.
+              Brame, Michael K. 1970. Arabic phonology: Implications for phonological theory and his-
+                   torical Semitic. Cambridge, MA: MIT dissertation.
+              Brame, Michael K. 1973. On stress in two Arabic dialects. In Stephen R. Anderson & Paul
+                   Kiparsky (eds.) A Festschrift for Morris Halle. New York: Holt, Rinehart & Winston. 14–25.
+              Brame, Michael K. 1974. The cycle in phonology: Stress in Palestinian, Maltese and
+                   Spanish. Linguistic Inquiry 5. 39–60.
+              Brockelmann, Carl. 1907. Grundriss der vergleichenden Grammatik der semitischen Sprachen.
+                   Vol. 1. Hildesheim: Georg Olm.
+              Broselow, Ellen. 1976. The phonology of Egyptian Arabic. Amherst: University of
+                   Massachusetts dissertation.
+              Broselow, Ellen. 1992. Parametric variation in Arabic dialect phonology. In Mushira
+                   Eid & John J. McCarthy (eds.) Perspectives on Arabic linguistics IV. Amsterdam &
+                   Philadelphia: John Benjamins. 7–47.
+              Broselow, Ellen. 2008. Stress–epenthesis interactions. In Bert Vaux & Andrew Nevins
+                   (eds.) Rules, constraints, and phonological phenomena. Oxford: Oxford University Press.
+                   121–148.
+              Broselow, Ellen, Maria Huffman, Su-I Chen & Ruohmei Hsieh. 1995. The timing structure
+                   of CVVC syllables. In Mushira Eid (ed.) Perspectives on Arabic linguistics VII. Amsterdam
+                   & Philadelphia: John Benjamins. 119–138.
+              Broselow, Ellen, Su-I Chen & Marie Huffman. 1997. Syllable weight: Convergence of
+                   phonology and phonetics. Phonology 14. 47–82.
+              Burzio, Luigi. 1994. Principles of English stress. Cambridge: Cambridge University Press.
+              Cantineau, Jean. 1939. Remarques sur les parlers de sédentaires syro-libano-palesintinens.
+                   Bulletin de la Société de Linguistique de Paris 40. 80–88.
+              Cantineau, Jean. 1946. Les parlers arabes du Hôrân. Paris: C. Klincksieck.
+              Cantineau, Jean. 1960. Etudes de linguistique arabe. Paris: C. Klincksieck.
+              Chomsky, Noam & Morris Halle. 1968. The sound pattern of English. New York: Harper
+                   & Row.
+              Cowell, Mark W. 1964. A reference grammar of Syrian Arabic (based on the dialect of
+                   Damascus). Washington, DC: Georgetown University Press.
+              El-Hajjé, Hassan. 1954. Le parler arabe de Tripoli (Liban). Paris: C. Klincksieck.
+              Erpenius, Thomas. 1656. Grammatica Arabica. Leiden.
+              Erwin, Wallace M. 1963. A short reference grammar of Iraqi Arabic. Washington, DC:
+                   Georgetown University Press.
+              Feghali, Michel. 1919. Le parler de Kfar-0abîda (Liban–Syrie). Paris: C. Klincksieck.
+              Ferguson, Charles A. 1956. Review of Harris Birkeland, Stress patterns in Arabic. Language
+                   32. 384 –387.
+              Fleisch, Henri. 1974. Etudes d’arabe dialectal. Beirut: Dar el-Machreq.
+TBC_135.qxd    7/13/10     19:27    Page 27
+
+
+
+
+                                                                               Word Stress in Arabic         27
+
+              Fudge, Erik C. 1969. Syllables. Journal of Linguistics 5. 253–286.
+              Garbell, Irene. 1958. Remarks on the historical phonology of an eastern Mediterranean dialect.
+                   Word 14. 303 –337.
+              Goitein, Shelamo D. 1970. Jemenica: Sprichwörter und Redensarten aus Zentral-Jemen mit
+                   zahlreichen Sach- und Worterläutungen. Leiden: Brill.
+              Grotzfeld, Heinz. 1965. Syrisch-arabische Grammatik (Dialekt von Damaskus). Wiesbaden:
+                   Harrassowitz.
+              Halle, Morris & Michael Kenstowicz. 1991. The Free Element Condition and cyclic versus
+                   noncyclic stress. Linguistic Inquiry 22. 457–501.
+              Halle, Morris & Jean-Roger Vergnaud. 1978. Metrical structures in phonology. Unpublished
+                   ms., MIT.
+              Halle, Morris & Jean-Roger Vergnaud. 1979. Metrical phonology. Unpublished ms., MIT.
+              Halle, Morris & Jean-Roger Vergnaud. 1987. An essay on stress. Cambridge, MA: MIT Press.
+              Harrell, Richard. 1957. The phonology of colloquial Egyptian Arabic. New York: American Council
+                   of Learned Societies.
+              Harrell, Richard. 1960. A linguistic analysis of Egyptian radio Arabic. In Charles A. Ferguson
+                   (ed.) Contributions to Arabic Linguistics. Cambridge MA: Harvard University Press.
+              Harris, John & Edmund Gussmann. 2002. Word-final onsets. UCL Working Papers in
+                   Linguistics 14. 1– 42.
+              Hayes, Bruce. 1979. Extrametricality. MIT Working Papers in Linguistics 1. 77–86.
+              Hayes, Bruce. 1982. Extrametricality and English stress. Linguistic Inquiry 13. 227–276.
+              Hayes, Bruce. 1989. Compensatory lengthening in moraic phonology. Linguistic Inquiry 20.
+                   253 –306.
+              Hayes, Bruce. 1995. Metrical stress theory: Principles and case studies. Chicago: University of
+                   Chicago Press.
+              Hyde, Brett. 2006. Towards and uniform account of prominence-driven stress. In Eric Bakovic,
+                   Junko Itô & John McCarthy (eds.) Wondering at the natural fecundity of things: essays in
+                   honor of Alan Prince, 139 –183. Linguistics Research Center, University of California.
+                   [http://repositories.cdlib.org/lrc/prince/4]
+              Irshied, Omar & Michael Kenstowicz. 1984. Some phonological rules of Bani-Hassan
+                   Arabic: A Bedouin dialect. Studies in the Linguistic Sciences 14. 109–147.
+              Jakobson, Roman. 1971. Selected writings. Vol. 1: Phonological studies. The Hague: Mouton.
+              Janssens, Gerard. 1972. Stress in Arabic and word structure in the modern Arabic dialects. Leuven:
+                   Peeters.
+              Jastrow, Otto. 2007. Iraq. In Kees Versteegh, Mushira Eid, Alaa Elgibali, Manfred Woidich
+                   & Andrzej Zaborski (eds.) The encyclopedia of Arabic language and linguistics. Vol. 3,
+                   414 – 424. Leiden: Brill.
+              Jiha, Michel. 1964. Der arabische Dialekt von Bi:mizzcn. Beirut: Franz Steiner.
+              Johnson, C. Douglas. 1979. Opaque stress in Palestinian. Lingua 49. 153–168.
+              Kager, René. 1995. The metrical theory of word stress. In John A. Goldsmith (ed.) The hand-
+                   book of phonological theory, 365 –402. Cambridge, MA & Oxford: Blackwell.
+              Kager, René. 1999. Optimality Theory. Cambridge: Cambridge University Press.
+              Kager, René. 2009. Stress. In Kees Versteegh et al. (eds.) The encyclopedia of Arabic language
+                   and linguistics. Vol. 4, 344 –353. Leiden: Brill.
+              Kenstowicz, Michael. 1980. Notes on Cairene Arabic syncope. Studies in the Linguistic Sciences
+                   10. 39 –54.
+              Kenstowicz, Michael & Kamal Abdul-Karim. 1980. Cyclic stress in Levantine Arabic.
+                   Studies in the Linguistic Sciences 10. 55–76.
+              Kiparsky, Paul. 1979. Metrical structure assignment is cyclic. Linguistic Inquiry 10.
+                   421– 441.
+              Kiparsky, Paul. 1982. Lexical morphology and phonology. In Linguistic Society of Korea
+                   (ed.) Linguistics in the Morning Calm, 3–91. Seoul: Hanshin.
+              Kiparsky, Paul. 2000. Opacity and cyclity. The Linguistic Review 17. 351–365.
+TBC_135.qxd   7/13/10    19:27    Page 28
+
+
+
+
+              28     Janet C. E. Watson
+
+              Kiparsky, Paul. 2003. Syllables and moras in Arabic. In Caroline Féry & Ruben van de Vijver
+                   (eds.) The syllable in Optimality Theory, 147–182. Cambridge: Cambridge University Press.
+              Langendoen, D. Terence. 1968. The London School of Linguistics: A study of the theories of
+                   B. Malinowski and J. R. Firth. Cambridge, MA: MIT Press.
+              Liberman, Mark. 1975. The intonational system of English. Ph.D. dissertation, MIT.
+              Liberman, Mark & Alan Prince. 1977. On stress and linguistic rhythm. Linguistic Inquiry 8.
+                   249 –336.
+              McCarthy, John J. 1979. On stress and syllabification. Linguistic Inquiry 10. 443–465.
+              McCarthy, John J. 1980. A note on the accentuation of Damascene Arabic. Studies in the
+                   Linguistic Sciences 10. 77– 98.
+              McCarthy, John J. 2003. Sympathy, cumulativity, and the Duke-of-York gambit. In
+                   Caroline Féry & Ruben van de Vijver (eds.) The syllable in Optimality Theory, 23–76.
+                   Cambridge: Cambridge University Press.
+              McCarthy, John J. & Alan Prince. 1990. Foot and word in prosodic morphology: The Arabic
+                   broken plural. Natural Language and Linguistic Theory 8. 209–283.
+              Mitchell, Terence F. 1952. The active participle in an Arabic dialect of Cyrenaica. Bulletin
+                   of the School of Oriental and African Studies 14. 11–33.
+              Mitchell, Terence F. 1956. An introduction to colloquial Egyptian Arabic. London: Oxford
+                   University Press.
+              Mitchell, Terence F. 1960. Prominence and syllabification in Arabic. Bulletin of the School of
+                   Oriental and African Studies 23. 369–389.
+              Mitchell, Terence F. 1975. Principles of Firthian linguistics. London: Longman.
+              Mitchell, Terence F. 1993. Pronouncing Arabic 2. Oxford: Oxford University Press.
+              Naïm-Sanbar, Samia. 1986. Le parler arabe de Ras-Beyrouth: ‘Ayn al-Muraysa. Paris: Geuthner.
+              Naïm-Sanbar, Samia. 1994. Contribution à l’étude de l’accent yéménite: Le parler des femmes
+                   de l’ancienne génération. Zeitschrift für Arabische Linguistik 27. 67–89.
+              Paoli, Bruno. 2008. Phonology: metrical. In Kees Versteegh et al. (eds.) Encyclopedia of Arabic
+                   language and linguistics. Vol. 3, 615–623. Leiden: Brill.
+              Prince, Alan. 1976. “Applying” stress. Unpublished ms., University of Massachusetts.
+              Prince, Alan. 1983. Relating to the grid. Linguistic Inquiry 14. 19–100.
+              Rossi, Ettore. 1939. L’arabo parlato a ﬁan#a. Romea: Istituto per l’Oriente.
+              Selkirk, Elisabeth. 1980. The role of prosodic categories in English word stress. Linguistic
+                   Inquiry 11. 563 – 605.
+              Selkirk, Elisabeth. 1981. Epenthesis and degenerate syllables in Cairene Arabic. MIT
+                   Working Papers in Linguistics 3. 111–140.
+              Selkirk, Elisabeth. 1982. The syllable. In Harry van der Hulst & Norval Smith (eds.) The
+                   structure of phonological representations. Vol. 2, 337–383. Dordrecht: Foris Publications.
+              Selkirk, Elisabeth. 1984. Phonology and syntax: The relation between sound and structure.
+                   Cambridge MA: MIT Press.
+              Teeple, David. 2009. Syncope. In Kees Versteegh et al. (eds.) Encyclopedia of Arabic language
+                   and linguistics. Vol. 4, 389 –391. Leiden: Brill.
+              Tomiche, Nadia. 1964. Le parler arabe du Caire. The Hague: Mouton.
+              Watson, Janet C. E. 1999. CVVC syllables in Arabic. Languages and Linguistics 4. 1–17.
+              Watson, Janet C. E. 2002. The phonology and morphology of Arabic. Oxford: Oxford University
+                   Press.
+              Weil, G. 1954. Das metrische System des al-Xalcl und der Iktus in den altarabischen
+                   Versen. Oriens 7. 304 –321.
+              Weldon, Ann. 1980. Stress in Cairo Arabic. Studies in the Linguistic Sciences 10. 99–120.
+              Woidich, Manfred. 2006. Das Kairenisch-Arabisch: Grammatik. Wiesbaden: Harrassowitz.
+              Wright, William. 1971. A grammar of the Arabic language. Cambridge: Cambridge University
+                   Press.
+              Younes, Munther. 1995. On vowel shortening in Palestinian Arabic. In Mushira Eid (ed.)
+                   Perspectives on Arabic linguistics VII. 157–172. Amsterdam & Philadelphia: John
+                   Benjamins.
+

@@ -1,0 +1,658 @@
+Open Journal of Modern Linguistics
+2013. Vol.3, No.3, 259-267
+Published Online September 2013 in SciRes (http://www.scirp.org/journal/ojml)                             http://dx.doi.org/10.4236/ojml.2013.33034
+
+
+
+
+                             Cairne Arabic Syllable Structure though
+                                 Different Phonological Theories
+                                                                 Rajaa Aquil
+                                  School of Modern Languages, Georgia Institute of Technology, Atlanta, USA
+                                                  Email: rajaa.aquil@modlangs.gatech.edu
+
+                                  Received March 27th, 2013; revised April 30th, 2013; accepted May 10th, 2013
+
+                 Copyright © 2013 Rajaa Aquil. This is an open access article distributed under the Creative Commons Attribu-
+                 tion License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original
+                 work is properly cited.
+
+
+                 Since the times of the old Arab grammarians, the syllable has played a major role in the phonology of
+                 classical as well as colloquial Arabic. In the 1970s, phonologists investigated Cairene Arabic (CA) sylla-
+                 ble structure and found it to be the domain of some phonological processes, such as emphatic spread,
+                 CVC syllables light word final but heavy word internally, limitations on consonant clusters in certain po-
+                 sitions of a word, and epenthesis of a vowel to break consonant clusters if there happen to be more than
+                 two consonants in word concatenation. This paper discusses some CA phonological phenomena investi-
+                 gated through different theories in generative phonology, i.e. rule based, autosegmental and Optimality
+                 Theory (OT). An overview of early theories is given. Early generative theories contributed substantially
+                 to the theory of the syllable of CA; however, each theory was able to explain a given phonological phe-
+                 nomenon. It is through the generative Optimality Theoretic approach that more than one phenomenon can
+                 be described and analyzed. The paper’s aim is not to compare between the different theories, but to de-
+                 scribe the progression CA syllable structure analysis took in generative phonology. Unlike earlier re-
+                 search which based conclusions on some CA words mixed with some other classical Arabic words pro-
+                 nounced by CA native speakers, this paper presents an Optimality Theoretic analysis that is based on
+                 uniquely CA phonetic outputs. The analysis finds that some syllable structure constraints are high ranked
+                 and inviolable such as ONSET, and *[µ µ µ]σ. The study also shows that OT analysis can illustrate and ex-
+                 plain in one representation, i.e. tableau two different phonological phenomena, insertion and deletion of a
+                 vowel in consonant clusters, despite their relatedness to separate prosodic domains, the syllable, the pro-
+                 sodic word, and the phrase. This is carried out by analyzing the ranking, relationship and interaction be-
+                 tween the following constraints, ONSET MAX-IO, *[µ µ µ], *COMPLEX CODA, DEP-IO >> NOCODA,
+                 *APPENDIX; -*V,+hi]$:, ALIGNR (σ, PrWd), and LINEARITY. The study analyzes data that is mainly from
+                 Cairene spoken Arabic, attempting to fill a gap created by one of the contentious issues related to studies
+                 of the phonology of CA, and that is mixing between colloquial Cairene and classical Arabic.
+
+                 Keywords: Cairene Arabic Syllable Structure; Optimality Theory; Consonant Clusters; Epenthesis;
+                           Deletion; Colloquial Cairene Spoken Arabic
+
+
+                           Introduction                                     epenthesis and deletion to secure syllable well-formedness. I
+                                                                            present different generative phonological theories which ana-
+   A syllable is a universal unit found in all languages and per-           lyzed and represented the syllable, e.g., the rule-based approach,
+ceptually accessible to preschool children and illiterate adults.           the autosegmental approach and the Optimality Theoretic ap-
+The syllable plays an important role in the phonology of classi-            proach (referred henceforth as OT). All these approaches added
+cal as well as colloquial Arabic (Bird & Blackburn, 1990; Kay,              to the theory of the syllable. The aim of the present paper is not
+1987; McCarthy, 1981). The description and analysis of the syl-             to compare between the different phonological theories. Each
+lable in Arabic has been deeply rooted since old Arab gramma-               theory contributed substantially to the theory of the syllable
+rians studied it (ElSaaran, 1951). The metrics of Arabic have               structure of Arabic classical as well as colloquial. The focus is
+been described in terms of consecutive vowels and consonants                on Optimality Theoretic approach because it is the most mod-
+or, in other words, in syllables (Maling, 1973; Prince, 1989).              ern theory and also because the theory is able to illustrate pho-
+Additionally, assignment of stress interacts not only with the              nological phenomena related to the syllable and beyond in one
+number of the syllables in a word but also with the internal                representation, i.e., a tableau, demonstrating the constraints at
+prosodic structure of the syllable. An analysis of stress must de-          play and their ranking in the language.
+pend on the analysis of the syllable (Hayes, 1995; McCarthy,                   However, I focus in this paper on colloquial Egyptian Arabic,
+1979; Mitchell, 1960; Watson, 2002; Welden, 1980).                          i.e., data from spoken CA1. Most of the phonological investiga-
+   I discuss the syllable in Cairene Arabic (referred henceforth
+as CA). I particularly focus on the importance of well-formed-              1
+                                                                             The data is the author’s, a native speaker of CA, checked and consolidated
+ness in syllable structure and the phonological process of vowel            in (Badawi & Hinds, 1986).
+
+
+Copyright © 2013 SciRes.                                                                                                                           259
+                                                                           R. AQUIL
+
+
+tion of CA (Aljarah, 2008; De Lacy, 1998; Halle & Vergnaud,                      alternations CA undergoes, e.g. shortening of a long vowel. The
+1987; Hayes, 1995; Kenstowicz, 1980; McCarthy, 1979; Sel-                        actual CA word for “he wrote it” is /(ka.táb.ha)/ and not /(ka.ta)
+kirk, 1981, 1982; Youssef & Mazurkewich, 1998) are based on                      (BA).ha/ because CA does not allow two open syllables (Bro-
+data from (Mitchell, 1956, 1960) which is classical rather than                  selow, 1979). Moreover, the above words have their CA equi-
+colloquial. It is referred to in the literature as Cairene classical             valent which are /(mak)(túub)/ “a letter”, and /mar.su.míin/
+Arabic. These linguists claimed they analyzed CA prosody, but                    “they are drawn”. As observed the syllable structures of these
+more precisely they looked at Cairene pronunciation norms of                     words are completely different from the ones maintained by Al-
+classical forms. Only few studies looked into colloquial Arabic                  jarah (2008).
+per se (Broselow, 1979; Watson, 2002; Welden, 1980).                                Based on the above assumed syllable structure which is not
+   I personally consider basing conclusions on data that is not                  CA, Aljarah’s (2008) claims that the following constraints in
+mainly CA rather confusing. My aim is to give a theoretical ex-                  the given ranking are responsible for CA stress: LX=Pr, TRO-
+planation to generalizations in CA data rather than to validate a                CHAIC, MAIN-RIGHT >> PARSEσμμμ >> NONFINAL >> PARSEσμμ,
+theory through certain generalizations in some data. I claim that                FOOT-BINARITYμ >> ALL-FEET-LEFT >> ALL-FEET-RIGHT.This is
+CA has its own systematic prosodic pattern and I present a                       in spite of the fact that the data he used to support the con-
+number of uniquely CA phonetic output buttressing the analysis                   straints and their ranking is partly classical Arabic pronounced
+presented in this paper.                                                         by CA native speakers. In contrast to the Aljarah’s (2008) con-
+   The paper is organized as follows: Section 1 discusses the                    straints and their ranking, Aquil (2012b) arrived at a different
+data used in the literature and syllable structure in CA as well                 set and ranking of prosodic constraints: FTBIN, ALIGN Hd/R >>
+as CA-specific syllable structure phenomena, i.e., closed sylla-                 TR >>WSP >> PARSEσ, PARSE SG >> AFL. See Aquil (2012)
+bles CVC weight in word final position versus that in word                       where she analyzed a number of uniquely CA phonetic outputs.
+internal and the theory of the appendix. Section 2 gives an over-
+view of some of the theories in generative phonology, e.g., rule-                Syllable Structure in CA
+based and autosegmental representations of the syllable in CA.
+Section 3 examines Optimality Theoretic framework and pre-                          Syllables in CA fall into three categories: light CV, heavy
+sents constraints at play in securing licit syllables. The section               CVC and CVV, and super-heavy CVCC and CVVC, which
+ends with an analysis of CA syllable structure demonstrating                     only occur word and phrase finally. A CA syllable contains an
+syllable structure constraints hierarchy for CA.                                 obligatory onset and nucleus, and an optional coda. Consonant
+                                                                                 clusters (CC) are allowed but only word and phrase final. This
+                                                                                 is represented by a consonant in parenthesis (c), as illustrated in
+Cairene Classical Arabic vs. Cairene Arabic
+                                                                                 the representation of a core syllable in structure (1)
+   Studies conducted on CA have often used data from (Mitchell,                     1) CA Syllable Structure
+1956) Cairene Classical Arabic (Aljarah, 2008; De Lacy, 1998;
+Halle & Vergnaud, 1987; Harrell, 1957; Hayes, 1995; Kiprasky,
+2003; McCarthy, 1979; Selkirk, 1984). I consider the data used
+a point of contention because this is a variety of classical Ara-
+bic pronounced by Azhar-trained Egyptians or Cairene Arabic
+native speakers. Data in (Aljarah, 2008: p. 6), (ka.ta)(BA).ha
+“he wrote it”, (ka.ta)(BAA).ha, “they wrote it”, (mak)(TUU)
+bun, “a letter”, (mar)(suu)(MAA)tun2, “they are drawn” are
+                                                                                    Arabic in general disallows onsetless syllables, and so does
+classical Arabic words3.
+                                                                                 CA. Syllables in Arabic in general must start with a consonant.
+   The same applies to the data used in (De Lacy, 1998, foot-
+                                                                                 If a syllable happens to start with a vowel then a glottal stop
+note 1: p. 1), where he states that the data is from Mitchell
+                                                                                 must be inserted and precede the vowel. Onsetless syllables are
+(1960), a study on words as pronounced by Azhar-trained Egy-
+                                                                                 forbidden in Arabic, a language specific rule. For example,
+ptians of Classical Arabic. The famous data, e.g.
+                                                                                 words like “America” whose initial syllable starts with a vowel
+[ʔadwiyatuhu] “his medicine” and [šajaratuhuma] “their (dual)
+                                                                                 in English are not permissible in CA and a glottal stop is in-
+trees”, is totally Classical Arabic, because for the former word
+                                                                                 serted [ʔam.rii.ka]. In OT terms, the insertion takes place to
+the CA version is [ʔadwiytu] and for the latter is [šagarithum]
+                                                                                 obey the ONSET constraint, which stipulates that syllables must
+since the dual form exists only for the nominal in CA and not
+                                                                                 have onsets and vowels cannot start a syllable (Prince & Smolen-
+for the genitive or accusative4 (Brustad, 2000; Holes, 2004).
+                                                                                 sky, 1993, 2004). Sections 2 and 3 expand this discussion.
+   In addition, the syllable structure Aljarah (2008) assumes for
+                                                                                    However, when words are concatenated in connected speech,
+stress assignment does not represent important phonological
+                                                                                 the concatenation could result in series of consonant clusters.
+2
+                                                                                 Since consonant clusters are disallowed word- or phrase-inter-
+  According to Aljarah’s (2008) the words /(ka.ta)(BA).ha/ and /(mak)(TUU)
+bun/, have two foots the first and the second, while the last syllable is not
+                                                                                 nally, re-syllabification of the second coda element must take
+footed. The main stress falls on the penultimate, represented here in capital    place. Re-syllabification is discussed below.
+letters. The same applies to the word /(mar)(suu)(MAA)tun/ in which the
+first, second and third syllables are footed, whereas the last is not. The pe-   CVC Word Finally
+nult syllables have the main stress of the word represented here as (MAA).
+3
+  Hayes specifically mentions that data used is from Classical Arabic (1995:        It is generally accepted that the difference between CV and
+p. 67).
+4
+  CA has the dual form only for the nominal, e.g. [ʔilbanaat] “the girls”,
+                                                                                 CVC syllables is in weight, as illustrated in structure (2, adapted
+[ʔirriggaala] “the men” but [ʔilbinteen] “the two girls” [ʔirragleen]. See       from Hayes (1995).
+Clive Holes (2004: p. 121).                                                         2) CV Light vs. CVC
+
+
+260                                                                                                                        Copyright © 2013 SciRes.
+                                                                R. AQUIL
+
+
+                                                                         Kiparsky (2003) postulates that the stray consonant /t/ in
+                                                                      structure (4) constitutes a mora, and in order to avoid gratuitous
+                                                                      Prosodic Licensing (Ito, 1986, 1989)6 this mora is affiliated
+                                                                      with the prosodic word. As shown in structure (4), not only
+                                                                      does a mora become affiliated with the prosodic word, but a
+                                                                      stray consonant and syllable do as well. Studies that analyzed
+                                                                      other Arabic dialects have also considered the second conso-
+                                                                      nant of the coda consonant cluster a stray unsyllabified conso-
+                                                                      nant (Abu-Mansour, 1991).
+   However, the position of a CVC syllable in CA word inter-             The above phonological phenomenon is considered an inter-
+feres in interpreting the syllable as heavy or light. If the CVC      nal proof for the appendix and, in turn, explains the process that
+syllable is word-internal it is heavy, but if it is in word-final     re-syllabifies the second element of the coda to avoid illicit
+position then it is not heavy. Consider structure (3).                syllables resulting from multiple consonant clusters when words
+   3)                                                                 concatenate in connected speech (see data in (1) & (2) below).
+
+                                                                      Resyllabification and Vowel Epenthesis
+                                                                         Unlike English, where the domain of syllabification is the
+                                                                      phonological word (Nespor & Vogel, 1986), the domain of the
+                                                                      syllabification in CA is the utterance. Syllabification and resyl-
+                                                                      labification in CA, as seen in data (1), occurs across words, and
+                                                                      is in fact obligatory across words if a sequence of more than
+                                                                      two consonants results due to morpheme or word concatenation.
+                                                                      Note the presence of the epenthetic vowel represented here as
+                                                                      [ɨ]7, in the phonological word, clitic group, phonological phrase,
+                                                                      and utterance.
+
+                                                                          1. ka táb t lu                       → [katábtɨlu]ω8
+                                                                                           st
+                                                                             write (past 1 ), to-him                I wrote to him
+                                                                             kálb + na                         → [kalb ń a]9c
+   The theoretical justification for considering CVC in the final
+position as light is the extra-syllabic or extra-prosodic nature of          dog-our                                our dog
+the coda consonant in the syllable. The extra-prosodic conso-                ʕamr batt                         → [ʕamrɨbatt]ɸ10
+nant in CVC, CVCC, and CVVC is regarded as an appendix.                      ʕamr resolve (3rdsg, past)
+Vaux (2004) following Kiparsky (2003: p. 156) contends that                  fi xusaarit ʔimbaarıħ             → [fixsartɨmbaariħ]
+an appendix or an extra-prosodic element is prosodically in-                 In, loss, yesterday
+visible, and is attached directly to a higher-level prosodic node            in yesterday’s loss
+(usually a PrWd), as shown in structure (4) for the CA word                  ʕamr batt fi xusaarit ʔimbaariħ
+/bint/ “girl”5. Vaux (2004) provides evidence for the appendix                                ↓
+from facts that range from the phonological, such as sonority                [ʕamrɨbattɨfɨxsartimbaariħ]ʊ11
+sequencing, epenthesis and prosodic phenomena like stress as-                ʕamr-resolved (3rd sg, past) yesterday’s loss
+signment, lengthening and shortening, reduplication and infixa-
+tion, to morphological processes like syllable-counting rules           As mentioned above, CA does not allow a cluster of three
+and truncation to other external linguistic phenomena.                consonants; therefore, if such a cluster is generated through
+   4) A word-final appendix (adapted from Kiparsky (2003: pp.         concatenation of words, an epenthetic vowel is inserted (Broselow,
+157, 162))                                                            1979, 1988).The following examples illustrate the re-syllabifi-
+                                                                      cation cum epenthesis process. Data is adapted from (Broselow,
+                                                                      1979).
+                                                                      5
+                                                                        See Vaux (2004) for external (e.g., psycholinguistic experiments, child
+                                                                      language acquisition, aphasic speech, and language games) and internal
+                                                                      evidence (e.g., phonological rules, phonotactics and sonority, syllable weight,
+                                                                      reduplication and infixation).
+                                                                      6
+                                                                        The Prosodic Licensing Principle requires that every segment be assigned
+                                                                      to a higher-level prosodic constituent.
+                                                                      7
+                                                                        Barred [ɨ] is used here to differentiate it from the short [i] which is a pho-
+                                                                      neme in the language. This vowel (barred [ɨ]) is not psychologically real and
+                                                                      CA native speakers are not aware of inserting it. See (Aquil, 2012a) where
+                                                                      the vowel is acoustically investigated and found inserted in CA native
+                                                                      speakers’ output of English compound words that have clusters of three and
+                                                                      more consonants to break consonant clusters.
+                                                                      8
+                                                                        This is the sign used for a prosodic word.
+                                                                      9
+                                                                        This is the sign used for a clitic group.
+                                                                      10
+                                                                         This is the sign used for a phonological phrase.
+                                                                      11
+                                                                         This is the sign used for an utterance.
+
+
+Copyright © 2013 SciRes.                                                                                                                         261
+                                                                           R. AQUIL
+
+
+     2. Words in isolation                        Words concatenated             ample; in some cases two distinct rules are required to account
+         a) bínt simíina                        → bintɨsmíina                    for this single process, namely epenthesis (Spencer, 1996). This
+            girl fat                              a fat girl                     is because rules based formulations can describe all relevant
+         b) ka táb t lu                         → katabt ĺ u                    phonological information about a word in a linear representa-
+            write (past 1st) to him               I wrote to him                 tion where the strings of segments are grouped together. This
+                                                                                 led researchers to adopt non-linear phonological theories such
+         c) katábt gawá:b                       → katabtɨgawá:b
+                                                                                 as autosegmental phonology (Goldsmith, 1976), as illustrated in
+            write (past 2ndsg, m) letter          you wrote a letter             (7) [ʔultɨlu<h>] “I told him” Adapted from (Watson, 2002: p.
+         d) katábti gawá:b                      → katabtigawá:b                  65). Through autosegmental phonology phenomenon such as
+            write (past 2ndsg, fem) letter        you wrote a letter             extramtricality is successfully explained and represented.
+
+   No epenthetic vowel is added in (d) since the word katábti                     7)   a) Domain-final consonant extrametricality/appendix
+already ends with a vowel.
+
+ CA Syllable Structure in Generative Phonology
+  Syllable structure rules factor a word intro trees correspond-                       b) Onset formation
+ing to syllables12. The formulation successfully illustrates that
+the syllable is the domain of emphatic13 distribution in CA. As
+observed in (d), emphatic spread does not take place beyond the
+syllable.
+                                                                                       c) Weight-by-position
+     5)   a)          lʕa     tʕiif ʕ                “nice” (mas)
+
+                       σ    σ
+          b)        lʕa tʕii fa                      “nice” (fem)
+                                                                                            Unsyllabified t mapped to onset of epenthetic syllable
+                                                                                       d)
+                                                                                            and projection of mora
+                     σ   σ    σ
+     6)   c)         rʕag ʕleen                       “two men”
+
+                      σ        σ
+          d)              rʕaagil                       “a man”                             Default rules and association of the default vowel [ɨ]
+                                                                                       e)
+                                                                                            with the projected mora
+                          σ    σ                                                                           σ       σ       σ
+                                                                                                           µµ      µ       µ
+    One of the main contributions of generative phonology is the
+specification of prosodic domains. In the above examples, the                                        ʔ    ul     t   ɨ   l    u <h>
+domain of emphatic spread is illustrated. Emphasis spread is a
+phonological phenomenon where an emphatic phoneme spreads                           As demonstrated, these approaches successfully represented
+its emphatic phonetic nature and alters the pronunciation of                     an intricate phonological phenomenon serially and in steps.
+adjacent sounds. The psychologically real emphatic sounds in                     However, no single approach was able to represent all relevant
+CA are (tʕ, dʕ, sʕ, zʕ, qʕ), in addition, CA has some emphatic                   processes and phenomena concerning CA structure in a parallel
+allophones (lʕ and rʕ). From the examples above, we witness                      way. In other words, each theory was able to describe a certain
+that spread takes place in the domain of the syllable and not                    phenomenon. To explain intricate information related to the
+beyond. For example, the (f) sound in (5a) is emphatic, whereas                  syllable such as, onsetless syllables are forbidden, extrametri-
+it is not in (5b). In (5a) the emphatic spreads to the second syl-               cality/appendix, syllable weight by position, epenthesis and dele-
+lable and, hence, the [f] becomes emphatic [fʕ], whereas in (5b)                 tion of vowels generative phonology has produced OT approach.
+the [f] is not emphatic. The same applies in (6c & d), where the                 OT approach discusses, analyzes and represents phonological
+[gʕ] is emphatic in (6c) but is not in (6d). These rules give evi-               phenomena and processes in parallel through invoking the con-
+dence that the domain of emphasis in CA is the syllable. Al-                     cept of constraints, violability of constraints, and constraints’
+though the process described here is a segmental process and is                  ranking. It is parallel because in one tableau candidates are exa-
+not discussed further in this paper through OT framework,                        mined against certain constraints ranked according to a lan-
+                                                                                 guage specific ranking. The candidate that fulfills and obeys
+however, it is necessary to give credit to early theories that
+                                                                                 high ranking constraint is the optimal candidate as evidenced
+captured important processes related to the syllable in CA.
+                                                                                 by phonetic outputs in the language. I discuss OT below.
+    However, rules could not capture many phonological proc-
+esses, such as epenthesis between consonant clusters, for ex-
+                                                                                            Optimality Theory and Constraints
+12
+  Adapted from (Broselow, 1979: p. 347).                                           OT (McCarthy & Prince, 1993; Prince & Smolensky, 1993,
+13
+  Emphatic sounds are stops, fricatives and laterals [tʕ, dʕ, sʕ, zʕ, lʕ, rʕ]
+                                                                                 2004) is a constraint-based approach to phonological well-for-
+which are acoustically illustrated with a lowered second formant and articu-
+latorily with a constriction in the pharyngeal cavity due to the retraction of   medness. It posits that Universal Grammar has a set of violable
+the tongue root.                                                                 universal constraints (CON). These constraints encompass uni-
+
+
+262                                                                                                                          Copyright © 2013 SciRes.
+                                                                         R. AQUIL
+
+
+versal properties of languages. All universal constraints are                  ble (McCarthy, 2008: p. 224).
+available in every language in the world. However, each lan-
+guage has its particular ranking of these constraints, i.e., a cer-              NOCODA
+tain hierarchy. Some languages may rank a certain constraint                     Syllables must not have codas (Prince & Smolensky, 1993,
+high in the hierarchy while others may rank the same constraint                2004).
+very low. This difference in constraint ranking explains the va-
+riation that arises between languages. In addition, OT adopts a                   *COMPLEX CODA
+representational format, i.e. tableau in which the candidate that                 Syllables can have coda, but no more than one may associate
+optimally satisfies a given constraint ranking wins over all other             to syllable node (Prince & Smolensky, 1993, 2004).
+candidates produced by GEN (the generator that creates lingui-
+stic candidates). The grammar decides on the winner through                      *APPENDIX (*APP)
+EVAL, which selects the best candidate that satisfies the high-                  Unsyllabified segment is forbidden (Prince & Smolensky,
+ranked constraints. Note that a given language may have high                   1993, 2004).
+ranked but yet violable constraints. The most important issue is
+that the number of violations occurring to a given high con-                     ALIGNR (σ, PrWd)
+straint should be minimal.                                                       Align the right edge of each syllable with the right edge of
+   OT offers an approach to linguistic theory that aims to com-                some prosodic word (McCarthy & Prince, 1993, 2004).
+bine universality and markedness. In terms of universality, Uni-
+versal Grammar provides the theory with a set of constraints                     *[v, +hi]$
+that are universal and universally present in all grammars. As                   No unstressed high vowel in an open syllable (Abu-Mansour,
+for markedness, it aims to present a precise formal sense of                   1991).
+what it means to be “unmarked.” In OT, forms are marked with
+respect to some constraint if they violate it. These forms are                   LINEARITY (LIN)
+literally marked in that they incur violation marks for the con-                 No metathesis, no movement
+straint as part of their grammatical derivation. In other words,                 Let input = i1i2i3...in output = o1o2o3…om
+OT postulates that both Constraint-unmarked-structure and the                    Assign one violation mark for every pair iw and iy if iw R ox
+Constraint-marked-structure are present in the grammar of a                    and iy R oz, iw precedes iy and oz precedes ox (McCarthy, 2008a).
+language. Constraint ranking decides which of these structures
+surfaces in the language. Low ranked constraints are dominated                    As discussed above, syllable structures in CA are of three
+by other high ranked constraints.                                              categories: light CV, heavy CVC and CVV and super-heavy
+                                                                               CVCC and CVVC, which only occur word- and phrase-finally.
+Syllable Structure Constraints                                                 However, based on the premise that the final coda consonant of
+                                                                               a word is an appendix (see structure 4), I propose that syllable
+   The constraints that are at play in CA syllable structure are               structures are maximally CVC and CVV. Consider the follow-
+the following.                                                                 ing generalizations.
+   3. Syllable structure constraints                                              4. Syllable structure generalizations
+   MAX-IO                                                                         a) Syllable structures are maximally CVC and CVV.
+   Input segments must have output correspondents. No dele-                       b) Complex codas are not allowed at the syllable final posi-
+tion. Every segment in the input should correspond to a seg-                         tion.
+ment in the output (McCarthy & Prince, 1995).                                     c) Consonant clusters of more than two consonants are pro-
+                                                                                     hibited, not only tautosyllabically, but also over a syllable
+  DEP-IO                                                                             boundary.
+  Output segment must have input correspondents. No epen-                         d) A vowel is epenthesized to break a consonant cluster re-
+thesis. Every segment in the output should correspond to a                           sulting from morpheme or word concatenation.
+segment in the input (McCarthy & Prince, 1995).                                   e) A vowel is deleted if it is high and in two-sided open syl-
+                                                                                     lables.
+  ONSET                                                                           f) A vowel never starts a syllable, and hence an onsetless-
+  Syllables must have onsets.                                                        lable is forbidden.
+  A syllable must start with consonant (Prince & Smolensky,                       Tableaux 1-16 exemplify the above generalizations by
+1993, 2004).                                                                   means of constraint ranking and interaction determining opti-
+                                                                               mal syllables structures.
+     *[µ µ µ]σ
+     Syllables are maximally CVC or CVV
+                                                                               ONSET, MAX-IO >> DEP-IO
+     Assign one violation mark for superheavy (trimoraic) sylla-
+14                                                                                I adopt Prince (2002) comparative and McCarthy (2008) com-
+  This tableau is a combination tableau adapted from McCarthy (2008a: pp.
+46-47). According to McCarthy, the tableau ensures that the first two re-
+                                                                               bination tableau14. The combination tableau illustrates the rank-
+quirements of a valid ranking are met, which are constraint conflict and a     ing between constraints, as well as violation marks. In the tab-
+winner. The cells with W and L show that these constraints compete over the    leau, each losing candidate is compared to the winning candi-
+choice of the winner. For the winner to win the constraint with the W must     date in regards to each constraint. (W) denotes that the con-
+be higher than the one with the L. According to McCarthy: “The compara-        straint in question prefers the winner rather than the losing can-
+tive or combination format is best for the ranking problem.” (2008a: p. 48).
+McCarthy advocates the combination tableau since it includes violations as     didate. This is because the winner satisfies the constraint but
+well as W and L annotations of the comparative tableau.                        the losing candidate does not, as specified by the violation mark
+
+
+Copyright © 2013 SciRes.                                                                                                                      263
+                                                                          R. AQUIL
+
+
+(*).Whereas the (L) denotes that the given constraint prefers the               edness constraint. The winning candidate (a) obeys DEP-IO and
+losing candidate rather than the winner. Observe the relation-                  does not add anything to the coda, however, violating NOCODA.
+ship between ONSET MAX-IO and DEP-IO in Tableaux 1 and 2.                       Candidate (b) satisfies NOCODA, but violates DEP-IO, by insert-
+                                                                                ing a vowel. This tableau shows a direct ranking between the
+Tableau 1.                                                                      two constraints: DEP-IO >> NOCODA.
+ONSET, MAX-IO.                                                                    Based on the analysis so far, we can conclude the following
+        /asad/ “lion”             ONSET                    MAX-IO               proposed hierarchy.
+        a. ʔasad
+                                                                                  5. ONSET, MAX-IO >> DEP-IO >> NOCODA
+          b. asad                   *W
+                                                                                Syllables in CA Are Maximally CVC or CVV
+   Candidate (a) in Tableau 1 is the winner because it obeys                      Analysis of CA syllables demonstrates that syllables are
+ONSET by supplying a consonant to the onset of the first sylla-                 maximally CVC or CVV. In OT *[µ µ µ]σ is a high-ranked
+ble [ʔa.sad]. Candidate (b) loses because it does not satisfy                   constraint and dominates the following constraints, i.e. *App
+ONSET, despite obeying MAX-IO. MAX-IO does not have a pref-                     and Nocoda, as demonstrated in Tableaux 5-7.
+erence between the winner and the loser, hence, the blank cell,
+(see footnote15). Tableau 1 demonstrates that we cannot estab-                  Tableau 5.
+lish a direct ranking between ONSET and MAX-IO, hence the da-                   *[µ µ µ]σ >> *APP.
+shed lines.                                                                            /bint/”girl”               *[µ µ µ]σ                  *APP
+                                                                                     a. bin <t>                                               *
+Tableau 2.
+ONSET >> DEP-IO.                                                                       b. bint                          *W                     L
+
+            /asad/                 ONSET                    DEP-IO              Tableau 6.
+        a. ʔasad                                              *                *[µ µ µ]σ >> *APP.
+          b. asad                   *W                        L
+                                                                                      /miin/ “who”                *[µ µ µ]σ                  *APP
+                                                                                     a. mii<n>                                                *
+   In Tableau 2 candidate (a) wins at the expense of DEP-IO,
+                                                                                       b. miin                          *W                     L
+which stipulates that the output (i.e., surface form) should cor-
+respond to the input (i.e., underlying form), thus nothing be
+                                                                                Tableau 7.
+inserted. The competition between MAX-IO and DEP-IO is won                      *[µ µ µ]σ >> NOCODA.
+by MAX-IO, as illustrated in Tableau 3. Candidate (a) is the
+optimal candidate, as it satisfies MAX-IO but violates DEP-IO,                        /min/ “from”                *[µ µ µ]σ                NOCODA
+because it inserts a vowel to syllabify the consonants [t.l].                         a. min                                                *
+                                                                                        b. mi                           *W                   L
+Tableau 3.
+MAX-IO >> DEP-IO.                                                                 As for the relationship between *[µ µ µ]σ and the rest of the
+                                                                                constraints, Tableau 8 demonstrates that *[µ µ µ]σ dominates
+        katab-t-l-ha
+                                  MAX-IO                    DEP-IO              DEP-IO, whereas no direct ranking relationship is found be-
+      “he wrote to her”                                                         tween *[µ µ µ]σ and MAX-IO, or between *[µ µ µ]σ and ONSET.
+       a. ka.tab.til.ha                                       *                See Tableaux 9 and 10. A direct ranking relationship is found
+        b. ka.tabl.ha              **W                         L                between NOCODA and *APP as shown in Tableau 11.
+
+DEP-IO >> NOCODA                                                                Tableau 8.
+                                                                                *[µ µ µ]σ >> DEP-IO.
+   Coda consonants are optional, as demonstrated by structure
+(1) above. This suggests that NOCODA constraint must be low                          /katab-t-l-ha/ “he wrote to her”         *[ µ µ µ]σ           DEP-IO
+ranked. Tableau 4 demonstrates the ranking of NOCODA in re-                                 a. ka.tab.til.ha                                        *
+lation to DEP-IO. Relationship between NOCODA and the rest of                                    b. ka.tabl.ha                   *W                  L
+the constraints is discussed below.
+                                                                                Tableau 9.
+Tableau 4.                                                                      MAX-IO, *[µ µ µ]σ.
+DEP-IO >> NOCODA
+                                                                                         /asad/                   MAX-IO                   *[ µ µ µ]σ
+       /fihim/ “he understood”           DEP-IO              NOCODA                   a. Ɂa.sad
+             a. fi.him                                            *                  b. sadd                                                 *W
+               b. fi.hi.mi                 *W                      L
+                                                                                Tableau 10.
+  Tableau 4 demonstrates that DEP-IO, which is a faithfulness                   ONSET, *[µ µ µ]σ.
+constraint, dominates NOCODA, which is a syllable structure mark-                        /asad/                    ONSET                   *[ µ µ µ]σ
+15
+  According to McCarthy (2008a: p. 57) blank cells in a combination tableau           a. Ɂa.sad
+denote that the constraint in question does not have a preference between the           b. asdd                         *W                    *W
+candidate and the winner, and that no preference does not undermine the
+established ranking between the constraints.                                            c. asd                          *W
+
+
+
+264                                                                                                                              Copyright © 2013 SciRes.
+                                                               R. AQUIL
+
+
+Tableau 11.                                                               7.       a) /bint-na/                         →     [bintɨna]
+NOCODA >> *APP.                                                                       daughter - our                          our daughter
+                                                                                      /ʔul-t-l-u <h>/                   →     [ʔultɨlu<h>]
+        /fi.him/              NOCODA                *APP
+                                                                                      say (1st sg. past)- to- him             I told him
+    a. fi.hi<m>                                      *                               bint-ha/                          →     [bintaha]
+       b. fi.him                *W                    L                               girl - her                              her daughter
+                                                                                      /bint gamiila/                    →     [bintɨgamiila]
+                                                                                      girl - beautiful
+The proposed hierarchy so far is:                                                     a beautiful girl
+  6. ONSET, MAX-IO, *[µ µ µ]σ >> DEP-IO >> NOCODA >> *APP                             /ʔul-t-l-ha/                      →     [ʔultɨlha]
+                                                                                      tell(1st sg. past)- to her              I told her
+CVCC, CVVC Complex Codas                                                           b) /bint kibiira                     →     [bintikbiira]
+  Complex codas (CVCC), as mentioned earlier, are not al-                             girl-big                                a big girl
+lowed word- or phrase-medially because, as established above,
+CA syllables are maximally CVC or CVV. However, word and                To account for the above data, syllable alignment constraints
+phrase finally, CVCC and CVVC syllables are allowed, but at          (McCarthy & Prince, 1993) and correspondence constraints
+the expense of violating *APP, yet satisfying other high-ranked      (McCarthy & Prince, 1995) are invoked to supplement the syl-
+constraints namely *COMPLEX CODA. See the following tableau.         lable structure constraints mentioned above.
+                                                                        8. ALIGNR (σ, Prwd) (ALIGNR)
+Tableau 12.                                                             Align the right edge of each syllable with the right edge of
+*COMPLEX CODA *APP.                                                  some prosodic word (McCarthy & Prince, 1993).
+
+   /baraband/ “fluent”     *COMPLEX CODA            *APP             Epenthesis and Deletion of Vowels in OT in the
+  a. ba.ra.ban<d>                                    *              Syllable, Prosodic Word and Phrase
+    b. ba.ra.band               *W                    L              Tableau 15 shows the role of ALIGNR (σ, PrWd) in accounting
+                                                                     for epenthesis in CA. No direct relationship is found for this
+ /masakiin/ “poor” (plu)                                             constraint and the rest of the constraints. The mora symbol,
+                                                                     Greek mu [μ], is used to represent violations against ALIGNR.
+  a. ma.sa.kii<n>                                    *
+
+    b. ma.sa.kiin               *W                    L              Tableau 15.
+                                                                     *Complex-coda >> NoCoda; AlignR (σ, PrWd) (Alignr)16.
+
+   *COMPLEX CODA has to be highly ranked because complex                     /bint-na/
+                                                                                             *COMPLEX-CODA DEP-IO        NOCODA
+                                                                                                                                       ALIGNR
+codas are never permitted. NOCODA, on the other hand, has                 “our daughter”                                              [σ1 σ2 σ3]
+been shown to be low ranked (see 11 above) DEP-IO has to be               a. bin.ti.na                             *        *         µ µ µ
+ranked lower than *COMPLEX CODA but higher than NOCODA,                        b. bint.na          *W                       **W       µ        L
+as shown in Tableau 4. Tableaux 13 and 14 demonstrate the
+interaction between MAX-IO, *COMPLEX-CODA, and DEP-IO.
+                                                                        Candidate (a) is the winner, despite’s the violations of
+Tableau 13.
+                                                                     ALIGNR. The candidate has three mora violations because the
+*COMPLEX-CODA>> DEP-IO.                                              right edge of its first syllable is two moras away from the right
+                                                                     edge of the word and the right edge of its second syllable is one
+      /katab-t-l-ha/       *COMPLEX-CODA           DEP-IO            mora away from the right edge of the word. Candidate (a) wins
+                                                                     because it obeys *COMPLEX-CODA. Candidate (b) violates
+    a. ka.tab.til.ha                                 *
+                                                                     NOCODA and *COMPLEX-CODA.
+      b. ka.tabl.ha             *W                    L                 As for the deletion of the vowel in /bint kibiira/ → [bintik-
+                                                                     biira], I would like to invoke a phrasal syncope rule noted by
+Tableau 14.                                                          Broselow (1976: p. 3; reported by McCarthy, 2008: p. 18). This
+MAX-IO >> *COMPLEX-CODA.                                             rule deletes unstressed high vowels in two-sided open syllables.
+                                                                     I would also like to use the definition of the constraint as pos-
+     /katab-t-l-ha//          MAX-IO           *COMPLEX-CODA         tulated by Abu-Mansour (1991) and reported by Mahfoudhi
+    a. ka.tab.til.ha                                                (2005, p. 41). In addition, LINEARITY has a role as demonstrated
+                                                                     in Tableau 16.
+         ka.tab.ha             **W                    L                 9. *[v, +hi]$
+                                                                        No unstressed high vowel in an open syllable (Abu-Mansour,
+  In word and morpheme concatenation, a repair strategy oc-          1991)
+curs where vowels are inserted and also deleted in order to             10. linearity (lin)
+achieve a licit syllable structure. The following data illustrates      No metathesis, no movement
+that, if there is a cluster of three (CCC) or four consonants        16
+(CCCC), a vowel is inserted between the second and third con-          The double lines separating the *App constraint from the Alignr-(σ, PrWd
+                                                                     in the tableau illustrate that these two constraints deal with completely
+sonant (Davis & Zawaydeh, 1997: p. 47, as in 7a), and deleted        different properties, one is related to the syllable and the other to the pro-
+(Broselow, 1979: p. 349, as in 7b).                                  sodic word (McCarthy, 2008a: p. 71).
+
+
+Copyright © 2013 SciRes.                                                                                                                       265
+                                                                              R. AQUIL
+
+
+   Let input = i1i2i3...in output = o1o2o3…om                                       1980) that analyze mainly CA data without referring to data
+   Assign one violation mark for every pair iw and iy if iw R ox                    mixed with classical Arabic. As mentioned above, analyses
+and iy R oz, iw precedes iy and oz precedes ox (McCarthy, 2008a,                    presented in the literature are largely based on data from (Mitchell,
+p. 198)                                                                             1956) referred to as Cairene classical Arabic. OT analysis and
+                                                                                    formulations presented in this paper are provided to explain the
+Tableau 16.                                                                         spoken CA data rather than the reverse, i.e., to explain formula-
+*COMPLEX-CODA >> NOCODA; AlignR (σ, PrWd) (ALIGNR).
+                                                                                    tions through data.
+    /bint-na/                                                     ALIGNR
+                      *COMPLEX-CODA       DEP-IO     NOCODA
+ “our daughter”                                                  [σ1 σ2 σ3]
+ a. bin.ti.na                              *           *         µ µ µ                                     REFERENCES
+      b. bint.na              *W                      **W         µ       L         Abu-Mansour, M. H. (1991). Epenthesis in Makkan Arabic: Unsyllabi-
+                                                                                       fied consonants vs. degenerate syllables. John Benjamins.
+                                                                                    Aljarah, R. (2008). Cairene Arabic word stress: A constraint-based ana-
+   Candidate (a) wins because it satisfies high-ranked con-
+                                                                                       lysis. Dirasat. Human and Social Sciences, 35, 1-13.
+straints, i.e., *COMPLEX-CODA, NOCODA, and -*V, +hi]$: de-                          Aquil, R. (2012a). L1 shapes L2 auditory representation: Elicited imita-
+spite its violations in ALIGNR and LIN17. Notice that the se-                          tion of Arabic speaking learners of English. International Journal of
+quences of the vowels are metathesized in the winning candi-                           Applied Linguistics & English Literature (IJALEL), 1, 39-63.
+date /bint ki- biira/ → [bintikbiira].                                              Aquil, R. (2012b). Optimality theoretic representation of stress in Cai-
+   To conclude this section, I provide in Tableau 17 a summary                         rene Arabic. Open Journal of Modern Linguistics (OJML), 12.
+of syllables structure constraints and their ranking within the                     Badawi, E.-S., & Hinds, M. (1986). A dictionary of Egyptian Arabic.
+                                                                                       Beirut: Librairie du Liban.
+spoken Cairene Arabic data set, followed by a hierarchy of                          Bird, S., & Blackburn, B. (1990). A logical approach to Arabic phono-
+constraint ranking in 11.                                                              logy. Proceedings of the 5th Conference of the European Chapter of
+                                                                                       the Association for Computational Linguistics.
+Tableau 17.                                                                         Broselow, E. (1976). The phonology of Egyptian Arabic. Ph.D. Disser-
+*COMPLEX-CODA >> NOCODA; -*V, +hi]$:, ALIGNR, LIN.                                     tation. Amherst, MA: University of Massachusetts.
+                                                                                    Broselow, E. (1979). Cairene Arabic syllable structure. Linguistic Ana-
+                      *COMPLEX-                            ALIGNR                      lysis, 5, 345-382.
+     /bint kibiira/                NOCODA -*V,+hi]$:                    LIN
+                        CODA                           [σ1 σ2 σ3 σ4.σn]             Broselow, E. (1988). Prosodic phonology and the acquisition of a sec-
+a. bin.tik.bii.ra                    *                 µ µµ µµµ          *            ond language. In S. Flynn, & W. O’Neil (Eds.), Linguistic theory in
+ b. bin.tiki.bii.ra                   *         *W      µµ µ µµµ          L            second language acquisition (pp. 295-308). Kluwer: Kluwer Acade-
+                                                                                       mic Press. doi:10.1007/978-94-009-2733-9_16
+ c. bint.ki.bii.ra       *W         **W                µµ µ µµ µ          L
+                                                                                    Brustad, K. (2000). The syntax of spoken Arabic: A comparative study
+                                                                                       of Moroccan, Egyptian, Syrian and Kuwaiti dialects. Washington DC:
+ 11. Syllable structure contraint hierarchy                                            Georgetown University Press.
+ ONSET, MAX-IO, *[µ µ µ] >> *COMPLEX CODA >> DEP-IO >>                              Davis, S., & Zawaydeh, B. A. (1997). Output configuration in phonolo-
+NOCODA, *APP; -*V,+hi]$:, ALIGNR, LIN                                                  gy: Epenthesis and syncope in Cairene Arabic. In S. Davis (Ed.), Op-
+                                                                                       timal viewpoints: In celebration of the 30th Anniversary of the Indi-
+                                                                                       ana University Linguistics Club (pp. 45-77). Bloomington, IA: Indi-
+                               Conclusion                                              ana University Linguistics Club Publications.
+                                                                                    De Lacy, P. (1998). Sympathetic stress.
+   CA syllable structure has been the focus of investigation and                       roa.rutgers.edu/files/294-0199/294-0199-LACY-0-0.pdf
+analysis in generative phonology since the 1970s. Theories                          ElSaaran, M. (1951). A critical study of the phonetic observations of the
+have investigated several phonological phenomena specific to                           Arab Grammarians. Unpublished Ph.D. Thesis, SOAS, London: Uni-
+the syllable in CA. For example, as discussed in this paper,                           versity of London.
+emphatic spread takes the syllable as its domain, CVC syllables                     Goldsmith, J. (1976). Autosegmental phonology. Ph.D. Dissertation,
+are considered heavy word internally but not finally, more than                        Cambridge, MA: MIT.
+                                                                                    Halle, M., & Vergnaud, J. R. (1987). An essay on stress. Cambridge,
+two-consonant clusters are forbidden word internally, and ep-                          MA: The MIT Press.
+enthesis is across the board, to make certain syllable well-form-                   Harrell, R. S. (1957). The phonology of colloquial Egyptian Arabic.
+edness is obeyed. Theories of generative phonology analyzed                            New York: American Council of Learned Societies.
+these phenomena piecemeal. No theory was able to capture all                        Hayes, B. (1995). Metrical stress theory: Principles and case studies.
+these phenomena in parallel representation like Optimality                             Chicago: University of Chicago Press.
+Theory. In this paper, OT formulations explain the following: 1)                    Holes, C. (2004). Modern Arabic: structures, functions, and varieties.
+                                                                                       Washington DC: Georgetown University Press.
+why CA syllables are maximally of two moras, and that is be-
+                                                                                    Ito, J. (1986). Syllable theory in prosodic phonology. Doctoral Disserta-
+cause *[µ µ µ] is ranked high; 2) why CVC syllables are con-                           tion, Amherst, MA: University of Massachusetts.
+sidered heavy word internally but not finally, and that is be-                      Ito, J. (1989). A prosodic theory of epenthesis. Natural Language and
+cause of the interaction between *[µ µ µ], NOCODA, and *APP,                           Linguistic Theory, 7, 217-259. doi:10.1007/BF00138077
+and finally 3) how to account for epenthesis and deletion of                        Kay, M. (1987). Non-concatenative finite-state morphology. Proceed-
+vowels in one representation, and that is by invoking constraints                      ings of the 3rd Meeting of the European Chapter of the Association
+                                                                                       for Computational Linguistics. doi:10.3115/976858.976860
+such as -*V,+hi]$:, (ALIGNR), LIN. This paper joins the few
+                                                                                    Kenstowicz, M. J. (1980). Notes on Cairene Arabic syncope. Studies in
+studies ((Broselow, 1976, 1979, 1988; Watson, 2002; Welden,                            the Linguistic Sciences, 10, 39-53.
+17                                                                                  Kiprasky, P. (2003). Syllables and moras in Arabic. In C. Fery, & R. V.
+  At this point, the analysis could not find a direct relationship between the
+                                                                                       D. Vijver (Eds.), The syllable in optimality theory. New York, NY:
+constraints at the phrasal domain, suggesting that a Harmonic Serialism
+                                                                                       Cambridge University Press. doi:10.1017/CBO9780511497926.007
+(McCarthy, 2008b) could be at play. However, HS is beyond the scope of
+this paper and the ranking relationship is postponed for future studies and         Mahfoudhi, A. (2005). Moriac syllable structure and edge effects. In M.
+analyses.                                                                              Alhawary, & E. Benmamoun (Eds.), Perspectives on Arabic linguis-
+
+
+266                                                                                                                              Copyright © 2013 SciRes.
+                                                                     R. AQUIL
+
+
+   tics (pp. 27-48). Amsterdam/Philadelphia: John Benjamins Publish-         P. d. Lacy (Eds.), University of Massachusetts occasional papers in
+   ing Company.                                                              linguistics 26: Papers in Optimality Theory II (pp. 269-304). Am-
+Maling, J. M. (1973). The theory of Classical Arabic metrics. Unpub-         herst, MA: GLSA Publications.
+   lished Ph.D. Thesis, Cambridge, MA: MIT.                                Prince, A., & Smolensky, P. (1993). Optimality theory: Constraint in-
+McCarthy, J. (1979). On stress and syllabification. Linguistic Inquiry,      teraction in generative grammar. University of Colorado (CU-CS-
+   10, 443-466.                                                              696-93). Boulder, Colorado.
+McCarthy, J. (1981). A prosodic theory of nonconcatenative morpholo-       Prince, A., & Smolensky, P. (2004). Optimality theory: Constraint in-
+   gy. Linguistic Inquiry, 12, 373-413.                                      teraction in generative grammar (Revised edition ed.). Malden: MA:
+McCarthy, J. (2008a). Doing optimality theory: Applying theory to data.      Blackwell.
+   Malden, MA: Blackwell Publishing. doi:10.1002/9781444301182             Selkirk, E. (1981). Epenthesis and degenerate syllables in Cairene Ara-
+McCarthy, J. (2008b). Ther serial interaction of stress and syncope. Na-     bic. Mit Working Papers in Linguistics, 3, 209-232.
+   tural Language and Linguistic Theory, 26, 499-546.                      Selkirk, E. (1982). The syllable. In H. V. d. Hulst, & N. Smith (Eds.),
+   doi:10.1007/s11049-008-9051-3                                             The structure of phonological representations: Part 2 (pp. 337-384).
+McCarthy, J., & Prince, A. (1993). Generalized alignment. In G. E.           Dordrecht: Foris.
+   Booij, & J. V. Marle (Eds.), Yearbook of morphology (pp. 209-153).      Selkirk, E. (1984). Phonology and syntax: The relation between sound
+   Dordrecht: Kluwer. doi:10.1007/978-94-017-3712-8_4                        and structure. Cambridge, MA: The MIT Press.
+McCarthy, J., & Prince, A. (1995). Faithfulness and reduplicative iden-    Vaux, B. (2004). The appendix. Paper presented at the Symposium on
+   tiry. UMOP, 18, 249-384.                                                  phonological theory: Representations and architecture, CUNY.
+Mitchell, T. F. (1956). An introduction to Egyptian coloquial Arabic       Watson, J. C. E. (2002). The phonology and morphology of Arabic.
+   New York: Oxford University Press.                                        Oxford: Oxford University Press.
+Mitchell, T. F. (1960). Prominence and syllabification in Arabic. Bulle-   Welden, A. (1980). Stress in Cairo Arabic. Studies in the Linguistic Sci-
+   tin of the School of Oriental and African Studies, 23, 396-389.           ences, 10, 99-120.
+Nespor, M., & Vogel, I. (1986). Prosodic phonology. Dordrech-Hol-          Youssef, A., & Mazurkewich, I. (1998). The acquisition of English me-
+   land/Riverton: Foris Publications.                                        trical parameters and syllable structure by adult native speakers of
+Prince, A. (1989). Metrical forms. In P. Kiparsky, & G. Youmans (Eds.),      Egyptian Arabic (Cairene Dialect). In S. Flynn, G. Mortahardjono, &
+  Phonetics and phonology: Rhythm and meter (pp. 45-80). New York:           W. O’Neil (Eds.), The generative study of second language acquisi-
+  Academic.                                                                  tion. Mahwah.
+Prince, A. (2002). Arguing optimality. In A. Carpenter, A. Coetzee, &
+
+
+
+
+Copyright © 2013 SciRes.                                                                                                                        267
+

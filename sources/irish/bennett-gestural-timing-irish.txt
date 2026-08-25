@@ -1,0 +1,2855 @@
+Chapter 1
+Gestural timing and contrast: an Irish
+case study
+Ryan Bennetta , Jaye Padgetta , Grant McGuirea , Máire Ní
+Chiosáinb & Jennifer Bellika
+a University of California, Santa Cruz b University College Dublin
+
+        Though a palatalized vs. velarized (slender vs. broad) contrast is fundamental to
+        Goidelic languages of the Celtic family, contrasts involving either palatalization
+        or velarization are typologically uncommon. Across languages, such contrasts are
+        often dispreferred in onset compared to coda position, and in labial compared to
+        coronal consonants. Previous phonetic research on both Russian and Irish has sug-
+        gested that these asymmetries in contrast loss might be explained by, or at least
+        correlated with, asymmetries in articulatory reduction and timing. We explore the
+        timing of palatalization and velarization gestures in Irish stop consonants, and
+        find differences between onset vs. coda position consistent with this general claim.
+        However, we also find that gestural timing is structured in ways that allow for
+        perceptual cues to the contrast to be recoverable, including in ways that might fa-
+        cilitate perception of the contrast in codas and (possibly) in labial consonants. Put
+        simply, gestural timing in Irish may be optimized to support vulnerable contrasts.
+
+
+
+1 Introduction
+The living Celtic languages are divided into two groups, a Goidelic branch (in-
+cluding Irish and Scottish Gaelic) and a Brittonic branch (including Welsh and
+Breton).1 In terms of phonological properties, an important feature distinguish-
+ing Goidelic languages from Brittonic ones is a phonemic contrast between palatal-
+ized and non-palatalized consonants, traditionally called slender and broad re-
+spectively. Compare for example the Irish minimal pair brád /bˠrˠɔːdˠ/ ’drizzle’
+  1
+      For a recent discussion of the classification of Celtic languages, see Eska (2017).
+
+
+Thanks to audiences at HISPhonCog and ICPhS in 2023, as well as Washington
+University in St. Louis and the University of Connecticut, for feedback on
+earlier versions of this work. We are also grateful to Nick Van Handel, and a
+number of undergraduate research assistants, for helping us process the data
+presented on here. This paper was improved by helpful comments from two
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+
+and bráid /bˠrˠɔːdʲ/ ’neck, throat’; the two words differ only in whether the
+final consonant is palatalized or velarized. (These terms are explained below.)
+This palatalization contrast developed in Proto/Old Irish (Greene 1973, McCone
+1996, Stifter 2017), and it occurs also in Scottish Gaelic (Ternes 2006, Nance & Ó
+Maolalaigh 2021) and Manx (Lewin 2019).
+   Many phonemic contrasts are allowed only in certain phonological environ-
+ments. For example, though English distinguishes voiced obstruents from voice-
+less ones both word/syllable-initially and -finally (e.g. back vs. pack and cab vs.
+cap, Russian prohibits the contrast finally, neutralizing in favor of the voiceless
+series: compare [ˈlˠugˠə] ‘meadow (gen.)’ and [ˈlˠukˠə] ‘onion (gen.)’ (from
+/lˠugˠ-a/ and /lˠukˠ-a/ respectively) to [lˠukˠ] ‘meadow’ and [lˠukˠ] ‘onion’
+(from /lˠugˠ/ and /lˠukˠ/ respectively.
+   It has long been understood that phonological alternations, including those
+leading to the positional neutralization of contrast, might have historical origins
+in phonetic processes, a hypothesis pursued most notably by Ohala (e.g. Ohala
+1981, 1993b), but since explored by many. One way to test a hypothesis about
+the phonetic origins of positional contrast and neutralization is to examine a
+language that does not neutralize the relevant contrast, and look for potential
+phonetic seeds of neutralization there. Indeed, we have done this for Irish (see
+discussion further on). However, there is also much work showing that languages
+can be structured in ways that militate against contrast loss, a view most notably
+pursued by Lindblom (Lindblom 1986, 1990), but again explored since then by
+many.
+   In this paper we explore details of the timing of palatalization and velarization
+gestures in Irish stop consonants, as a function of prosodic position (word/syllable-
+initial vs. -final) and place of articulation (labial, coronal, dorsal). We find that
+timing patterns vary more in word/syllable-final position, a fact that may help
+explain the vulnerability of this contrast to loss in that position. However, we also
+find evidence that timing in that position can be structured in ways that may fa-
+cilitate perception of the palatalization contrast. As for place of articulation, we
+find that patterns of timing in labial consonants, which are also vulnerable to loss
+of a palatalization contrast are more consistent than for other places of articula-
+tion; this may likewise facilitate perception of the palatalization contrast, though
+here the facts are less conclusive. Overall our results suggest that gestural timing
+in Irish may be optimized to support contrasts that are vulnerable.
+
+
+
+
+2
+                                     1 Gestural timing and contrast: an Irish case study
+
+
+2 Irish and the typology of contrastive palatalization
+2.1 Palatalization and velarization
+Palatalized (slender) consonants [Cʲ] are produced with a secondary high-front
+tongue constriction, akin to the constriction for a palatal vowel [i] or glide [j],
+which is roughly simultaneous with the primary constriction for that conso-
+nant.2 Velarized (broad) consonants [Cˠ] are produced with a secondary tongue
+body constriction which is high and back in the mouth, as for [ɯ u] or [ɰ w], or
+sometimes in the mid-back or uvular region, as for [ɤ o] (International Phonetic
+Association 1999, Kochetov 2002, Bennett et al. 2018, Shaw et al. 2021). In this arti-
+cle the term ‘secondary articulation’ encompasses palatalization and velarization
+as defined above.
+
+2.2 The palatalization contrast in Irish
+All consonants in Irish are contrastively palatalized or velarized. Table 1 illus-
+trates these phonemic contrasts with the basic inventory of consonants in Con-
+nacht Irish (or more specifically Connemara Irish), which here represents the
+western dialect group (De Bhaldraithe 1975, Ó Siadhail 1991, Ní Chiosáin 1991,
+1994, 1999, Ní Chiosáin & Padgett 2012). The specific phonetic form of palatal-
+ized and velarized consonants varies somewhat across dialects (e.g. Ní Chasaide
+1995, Hickey 2011), but all varieties of Irish share fundamentally the same inven-
+tory of phonological contrasts illustrated in Tab. 1.
+   As illustrated in Tab. 1, /Cˠ Cʲ/ contrasts are maintained across all places of
+articulation in Irish. In addition, /Cʲ/ and /Cˠ/ can appear across all vowel con-
+texts as well as word/syllable-initially and -finally (some examples given in Tab.
+2, left). In the data analyzed in this paper, word-initial sounds are also syllable-
+initial (and vice-versa), and word-final sounds are also syllable-final (and vice
+versa). For ease of reference we will often use ”onset” to refer the former and
+”coda” to refer to the latter.3
+  2
+    Since not all languages with a palatalization contrast are reported to oppose velarization to
+    palatalization, we use ‘/C( ˠ) Cʲ/’ to refer to palatalization contrasts generally. We use capital
+   ‘C’ to refer to any consonant, and capital ‘P’, ‘T’, ‘K’ to refer generically to labial, coronal, and
+    dorsal consonants, respectively. Slash brackets ‘/ /’ indicate abstract phonemes, while square
+    brackets ‘[ ]’ indicate surface phonetic forms. Transcriptions are broad: for example, coronal
+    [dˠ dʲ] are phonetically closer to dentalized [d̪ˠ] and retracted [d̠ʲ] in e.g. Gaoth Dobhair Irish
+    (Ní Chasaide 1995).
+  3
+    Consonant clusters typically agree in their secondary articulations in Irish (Ní Chiosáin 1991,
+    1999). Such clusters may be palatalized (e.g. coirpeach [kˠirʲpʲəxˠ] ‘criminal’) or velarized (e.g.
+    léargas [lʲeːrˠgˠəs] ‘insight’). So while word-internal codas may not have independent /Cˠ Cʲ/
+
+
+
+                                                                                                      3
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+            Table 1: Phonemic consonant inventory of Connemara Irish. Sounds in
+            parentheses have highly restricted distributions.
+
+                                   Labial     Coronal        Dorsal      Glottal
+                        Stop        pˠ pʲ       tˠ tʲ         kˠ kʲ
+                                    bˠ bʲ      dˠ dʲ          gˠ gʲ
+                    Fricative       fˠ fʲ      sˠ sʲ          xˠ xʲ       hˠ (hʲ)
+                                    vˠ vʲ                   (ɣˠ) (ɣʲ)
+                      Nasal        mˠ mʲ        nˠ nʲ         ŋˠ ŋʲ
+                      Liquid                     lˠ lʲ
+                                                rˠ rʲ
+
+            Table 2: Words showing distribution of /Cˠ Cʲ/ (left) and minimal pairs
+            (right).
+
+    caoin    [kˠiːnʲ]     ‘lament’                 pán        [pˠɔːnˠ]       ‘pawnshop’
+    tiús     [tʲuːsˠ]     ‘thickness’              peann      [pʲɔːnˠ]       ‘pen’
+    láib     [lˠɔːbʲ]     ‘mud, muck’              cat        [kˠatˠ]        ‘cat (sg.)’
+    píob     [pʲiːbˠ]     ‘pipe (gen.pl.)’         cait       [kˠatʲ]        ‘cat (pl.)’
+
+
+   The wide distribution of the /Cˠ Cʲ/ contrast across all of these contexts allows
+for many minimal pairs (Tab. 2, right). It is also what makes the Irish language
+a useful and important testing ground for phonetically-oriented explanations of
+recurrent distributional restrictions on /C( ˠ) Cʲ/ contrasts across languages.
+
+2.3 Typological asymmetries in palatalization contrasts
+Though allophonic secondary palatalization is found in many languages (Bate-
+man 2011), its contrastive use, as in Irish /bˠrˠɔːdˠ/ vs. /bˠrˠɔːdʲ/, is relatively
+uncommon. Furthermore, among languages that do distinguish /C( ˠ) Cʲ/, the
+contrast is not equally likely in all phonological environments (Takatori 1997,
+Kochetov 2002, Iskarous & Kavitskaya 2018). First, such contrasts tend to be neu-
+tralized or lost diachronically in codas, as in Bulgarian (e.g. Scatton 1993, Iskarous
+
+     specifications, given that secondary articulations must assimilate in clusters, word-internal co-
+     das may be either palatalized or velarized, just like word-final codas. (Compounds and prefixes
+     allow disagreeing clusters, e.g. inphosta [inʲ-fˠoːsˠtˠə] ‘marriable’, fadtéarma [fˠadˠ-tʲeːrˠmˠə]
+     ‘longterm’; Ní Chiosáin 1991: Ch.2.)
+        The backness of short vowels is predictably determined by the secondary articulations of
+     neighboring consonants, which is why we focus on long vowels in our discussion of vocalic
+     contexts. See section 4.3 and Ní Chiosáin (1991), Ó Siadhail (1991) for details.
+
+
+
+4
+                                      1 Gestural timing and contrast: an Irish case study
+
+
+& Kavitskaya 2018) or Nenets (e.g. Kochetov 2002). As a result, the presence of
+a /C( ˠ) Cʲ/contrast in coda position normally entails a corresponding contrast in
+onset position (but not vice-versa).4 Second, /C( ˠ) Cʲ/contrasts tend to be neu-
+tralized or lost diachronically in labial consonants compared to coronals. This
+pattern occurs for example in Czech (Short 1993, Iskarous & Kavitskaya 2018).
+These two restrictions may also interact, as in Belarusian, where palatalization
+is contrastive for both labials and coronals in syllable onsets, but palatalized labi-
+als do not occur in syllable codas (e.g. Bird & Litvin 2021).
+   Some signs of these asymmetries are evident within Celtic. Scottish Gaelic may
+have lost or be in the process of losing its palatalization contrast among labial
+consonants, with remnants in the form of /Pj/ (labial consonant - glide) sequences
+(Jackson 1967, De Búrca 1977, Ternes 2006, cf. Nance & Ó Maolalaigh 2021), as is
+true in some Polish dialects (Czaplicki 2010, Iskarous & Kavitskaya 2018). The
+same may have been true of Classical Manx (Lewin 2019). In Irish, there are
+many fewer words ending in palatalized labial stops compared to palatalized
+coronal stops, and the proportion of word-final labial stops that are palatalized is
+low compared to the proportion of word-final coronal stops that are palatalized,
+based on either a dictionary or corpus search of word types (Ní Chiosáin & Pad-
+gett 2012). As Kochetov (2002) notes, discussing similar facts for Russian, such
+asymmetries in frequency may reflect lexical attrition of contrasts in more vul-
+nerable positions. They might in turn also enable further attrition of contrasts,
+possibly leading to neutralization, since language learners will have to learn the
+contrast based on fewer relevant lexical items.
+   In spite of such asymmetries in segment frequency, Irish still maintains the
+palatalization contrast in codas and in labials. For this reason, Irish is an ideal test-
+ing ground for hypotheses about the phonetic bases of contrast and contrast neu-
+tralization. For example, if contrasts are lost in certain contexts due to systematic
+phonetic asymmetries, then we might expect to find such phonetic asymmetries
+in Irish, even though it maintains the contrast. The hunt for phonetic precursors
+to neutralization of a /C( ˠ) Cʲ/ contrast has precedents, including work of our own
+(Kochetov 2002, 2005, 2006, Ní Chiosáin & Padgett 2012, Stoll 2017, Padgett & Ní
+Chiosáin 2018, Iskarous & Kavitskaya 2018, Kirkham & Nance 2022, Padgett et al.
+2023, Bennett et al. 2023). On the other hand, if languages are structured in ways
+that support contrast, then we might expect to find ways in which this is true
+  4
+      Marginal exceptions to this typological generalization include Estonian and Romanian, in
+      which phonological palatalization only occurs word-finally or before a consonant (i.e. only
+      in coda position). These unusual distributions owe to contextual palatalization before /i/, ren-
+      dered opaque by historical or synchronic vowel deletion (Operstein 2010, Chitoran 2013, Malmi
+      et al. 2023).
+
+
+
+                                                                                                    5
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+
+for the Irish palatalization contrast. The work presented here explores both of
+these possibilities, focusing on the timing of palatalization and velarization with
+respect to a primary place constriction. It develops ideas first presented by Pad-
+gett et al. (2023). Here we bring new analyses to bear, including analyses of the
+gestural trajectories of individual tokens and an exploration of individual subject
+behavior. We develop the idea of perceptual optimization, and we consider and
+reject an alternative understanding of gestural timing that relies on articulatory
+principles along the lines of Sproat & Fujimura (1993) and Krakow (1999).
+
+
+3 Gestural timing and contrast
+3.1 Gestural organization and perception
+Perceptual studies on Irish and Russian have found that listeners have more dif-
+ficulty identifying or distinguishing /Cˠ Cʲ/ in coda position compared to onset
+position, and for Russian, in labials compared to coronals. Kochetov (2002, 2004)
+found that Russian listeners misidentified /pˠ pʲ tˠ tʲ/ more often in word/syllable-
+final position than in initial position, even though the relevant consonant was
+intervocalic due to a following vowel-initial word.5 In addition, listeners misiden-
+tified /pʲ/ more often than the other three consonants in coda position, most of-
+ten confusing it with /pˠ/. Ní Chiosáin & Padgett (2012), Padgett & Ní Chiosáin
+(2018) found that Irish listeners discriminate /Cˠ Cʲ/ more poorly in coda posi-
+tion compared to onset position, for a number of stop and fricative consonants.
+(The codas in these stimuli were phrase-final.) As can be seen, these perceptual
+asymmetries mirror the typological ones discussed earlier, raising the possibility
+that the perceptual asymmetries explain the typology. In contexts where listeners
+cannot perceive the /Cˠ Cʲ/ contrast well, we might expect attrition and eventual
+loss of that contrast. We might also expect such perceptual asymmetries to have
+some basis in productions that are weaker, more variable, etc.
+   However, it’s possible that languages are structured to be perceptually opti-
+mizing, in which case we might have a countervailing expectation: production
+of a /Cˠ Cʲ/ contrast might vary by position (initial or final) or by place (labial
+or coronal) in ways that support the contrast, specifically in vulnerable contexts.
+This idea and the previous are not contradictory; rather, there is strong reason
+
+
+    5
+        There is no evidence that consonants resyllabify across words in Russian. For example, word-
+        final consonants devoice even when vowel-initial words follow (See discussion in Padgett &
+        Myers 2014). See earlier discussion in 4.3.
+
+
+
+6
+                              1 Gestural timing and contrast: an Irish case study
+
+
+to believe both. Which factor prevails in a given case, leading to loss or preserva-
+tion of a contrast, depends on many factors that are generally beyond our power
+to predict.
+   The idea that languages might be structured in ways that facilitate the mainte-
+nance of phonological contrast goes back decades (e.g. Martinet 1952, 1964, Liljen-
+crants & Lindblom 1972, Lindblom 1986, 1990). Most relevant here is work more
+specifically suggesting that gestural timing can be organized in ways that are
+perceptually optimizing. An important precedent is Kingston (1990), who argues
+that across languages glottal articulations are ‘bound’ in time most often to the
+release of stop consonants, because the burst characteristic of stops renders the
+glottal gesture most perceptually effective. Sonorant and fricative consonants
+lack bursts and so do not coordinate glottal articulations in the same way. Silver-
+man (1997) argues in a similar way that laryngeal states creating phonation and
+tone contrasts in vowels are timed in nuanced ways that facilitate their percep-
+tibility, and Wright (1996) argues that place gestures in consonant clusters are
+timed so as ensure recoverability of burst cues in consonants that lack internal
+place cues or formant transitions. More generally, Kingston & Diehl (1994) ar-
+gue that speakers systematically control articulations in ways that support the
+perceptual distinctiveness of contrast, and there is a great deal of other evidence
+that phonetic targets are ultimately auditory, not gestural. (For an overview and
+arguments see Kingston 2019.)
+   The above observations do not necessarily imply that speakers intentionally
+structure their articulations to make their speech clear or intelligible for listen-
+ers. While that could be the case, it is also plausible that articulatory patterns
+which are easier to hear are also easier to learn, and therefore more likely to per-
+sist over time (e.g. Ohala 1993a). Articulatory patterns which produce less robust
+acoustic outcomes are more likely to be misheard by listeners: over time, such
+misperceptions can lead to sound changes involving the collapse of contrasts (e.g.
+Ohala 1981 and many others). In this way, perceptually-supportive articulatory
+strategies can emerge organically, without any intent on the part of speakers.
+That said, we remain open to the possibility that speakers do in fact strive to
+produce clear, intelligible speech in at least some circumstances. In either case,
+articulatory timing clearly plays an important role in the perceptibility of con-
+trasts.
+
+3.2 Gestural timing in palatalization contrasts
+Previous work on the timing of secondary articulations in both Irish and Russian
+suggests that the tongue body gesture associated with palatalization reaches its
+
+
+
+                                                                                  7
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+
+target (or peaks) around the release of the primary place constriction for on-
+set consonants (e.g. Ladefoged & Maddieson 1996: Ch.10, Kochetov 2002, 2006,
+Iskarous & Kavitskaya 2010, Bennett et al. 2018, Padgett et al. 2023). More specifi-
+cally for Irish, Bennett et al. (2018) find that tongue body fronting for palatalized
+/Cʲ/ tends to peak at C release in both stops and fricatives. In contrast, velar-
+ized /Cˠ/ does not show any clear, consistent asymmetries across timepoints: the
+magnitude of dorsal backing tends to be comparable at the beginning of C con-
+striction, C midpoint, and C release.
+   Bennett et al. (2018) only examine consonants that are onsets (and prevocalic),
+and so do not address the timing of secondary dorsal constrictions in codas (or
+postvocalic position). However, based on an electromagnetic midsagittal artic-
+ulometry (EMMA) study of four speakers, Kochetov (2006) found that Russian
+/pʲ/ was produced differently in onset position compared to coda position. Ko-
+chetov measured the lag between the achievement of the secondary and primary
+articulations (defined in terms of velocity minima) of /pʲ/, as well as the lag be-
+tween the release of the two gestures. For all speakers, in onset position both the
+achievement and release of the palatalization gesture followed that of the labial
+constriction by 5-55 ms on average (depending on the speaker). This is consis-
+tent with our findings for Irish mentioned above. In coda position the relative
+timing of the palatalization gesture with respect to the labial one was found to
+be more variable by speaker, but it generally occurred earlier than in onset po-
+sition. For example, the achievement of the palatalization gesture preceded that
+of the labial gesture by 5-25 ms for three of the speakers, but followed it for the
+fourth speaker. Biteeva (2021: 159-160) reports very similar findings for /tʲ/, based
+on another EMMA study of nine speakers. Both studies characterize the relation-
+ship between primary and secondary articulations as sequential for onsets and
+more simultaneous for codas.
+
+3.3 Gestural timing and perceptual consequences
+It is worth considering the timing facts above in light of their effects on the pro-
+duction of cues to palatalization. As Kochetov (2006) points out, it is perceptually
+adaptive for the palatalization gesture of a stop to lag its primary place gesture in
+onset consonants. There are two major cues to the palatalization status of a stop:
+one is in the formant transitions between the consonant and a neighboring vowel
+(primarily the second formant) and the other is in the quality of the consonant
+burst, whose spectral properties are shaped by the presence of palatalization or
+velarization. In onset consonants these distinct cues more or less coincide in time
+at the release of the primary place gesture, indicated by the leftmost oval in Fig. 1.
+
+
+
+8
+                                     1 Gestural timing and contrast: an Irish case study
+
+
+Following the reasoning of Kingston (1990) for the timing of glottal articulations
+with respect to stop consonants (discussed earlier), coordinating palatalization to
+peak around this location maximizes its contrast potential. This fits well with the
+general finding that onset consonant-vowel transitions are perceptually robust
+(Fujimura et al. 1978, Ohala 1990, Steriade 2001, Wright 2004, Kochetov 2006).
+
+
+
+
+            Figure 1: Waveform and spectrogram of the word píob /pʲiːbˠ/ (Con-
+            nacht Speaker 1 repetition 1), showing location of major cues to Irish
+            secondary articulations in onset (left oval) and coda (right two ovals)
+            stops.
+
+   Things are different for coda stops, where the two major cues to palataliza-
+tion are split in time, as shown on the right of Fig. 1. The formant transition
+cues to the contrast precede the stop closure (note the salient drop in the second
+formant for /bˠ/), while the burst cues lie at the release of the stop constriction
+(rightmost oval in the figure). If secondary articulations are timed to be percep-
+tually optimizing, what should that entail for stops in final position? We do not
+know enough about the perception of palatalization cues to answer this question
+definitively. However, a reasonable first thought would be that gestures should
+be coordinated in a way that facilitates the perception of both formant transi-
+tions and burst properties. This would be true if the secondary articulation were
+to be achieved at, or slightly before, the onset of the primary articulation and be
+released at, or slight after, the release of the primary articulation. 6
+
+  6
+      The discussion here is oversimplified, since it ignores the larger phrasal context of the word
+      in Fig. 1. We return to this issue in the paper’s discussion and conclusion.
+
+
+
+                                                                                                  9
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+
+    As discussed in the last section, previous work on Russian has suggested that
+the primary and secondary articulations of coda palatalized stops can be roughly
+simultaneous, consistent with the above prediction, or that the palatalization ges-
+ture slightly precedes the primary one, perhaps favoring the formant transition
+cues. Roughly simultaneous coordination has also been found for Russian /lʲ/
+(Kochetov 2005) and /sʲ/ (Kochetov 2009). In these studies, the sounds occurred
+word/syllable-finally before a vowel-initial word. As Kochetov (2005) notes for
+/lʲ/, these facts also seem consistent with the hypothesis about timing and percep-
+tion: since these sounds have internal cues to palatalization (that is, the palatal-
+ized state of the consonant is audible during the steady state portion of its pro-
+duction), have no bursts, and would have formant transitions on both sides, we
+have no reason to expect timing of the palatalization gesture to be coordinated
+with either the beginning or end of the consonant in particular, regardless of
+syllable position (see also Gick et al. 2006).7
+    However, in the same phonetic context (coda before a vowel-initial word), Ko-
+chetov (2009) found that the palatalization gesture of /tʲ/ was timed to coincide
+more with the release of the primary coronal gesture. Assuming such a difference
+turned out to be systematic, it might suggest that gestural timing is sensitive not
+just to the presence but to the relative salience of phonetic cues. Ní Chiosáin &
+Padgett (2012) report that Irish /tʲ dʲ/ differ more from /tˠ dˠ/, respectively, in
+burst duration, intensity and center of gravity than /pʲ bʲ/ differ from /pˠ bˠ/. In-
+deed, in both Irish and Russian the release of /tʲ dʲ/ is very salient, even sounding
+somewhat affricated. In contrast, /pʲ bʲ/ differ more from /pˠ bˠ/, respectively, in
+second formant values than /tʲ dʲ/ differ from /tˠ dˠ/, in both Irish and Russian
+(Purcell 1979, Ní Chiosáin & Padgett 2012). These considerations might suggest
+that, if the timing of secondary articulation gestures in coda consonants is to fa-
+vor either the beginning or end of the primary gesture, it would be more adaptive
+to favor the beginning in the case of labial stops and the end in the case of coro-
+nal stops. However, it should be noted that Kochetov (2009) found coordination
+with the end also in the case of Russian coda /nʲ/. This does not obviously sit well
+with the above reasoning, and overall this remains fairly speculative given the
+amount of available data.8
+     7
+       In this paper we may use the terms ’start’ and ’beginning’ interchangeably, both referring to
+       the point in time when a stop closure is first achieved. The same is true of ’end’ and ’release’,
+       but we often use ’release’ when the focus is on the acoustic and perceptual consequences of
+       the end of consonant closure.
+     8
+       As noted above, Biteeva (2021) found roughly simultaneous coordination of primary and sec-
+       ondary articulation in /tʲ/, unlike Kochetov. In Biteeva’s stimuli, the target coda preceded a
+       word-initial coronal consonant, so that burst cues might have been less reliable, while in Ko-
+
+
+
+10
+                                   1 Gestural timing and contrast: an Irish case study
+
+
+3.4 Hypotheses
+Though there is not a great deal of previous evidence to go on, what evidence
+there is suggests that the relative timing of primary and secondary articulation
+gestures in palatalization contrasts is more variable in the coda than in the onset,
+by (and possibly within) subject and consonant type. We would therefore expect
+to find such an onset-coda asymmetry in our Irish data.
+    If the guiding principle is that gestural timing is perceptually adaptive, then
+we expect both palatalization and velarization gestures to be aligned roughly
+with the release of onset stops in Irish, since that is where all cues to the con-
+trast can be maximized. As noted above, previous work on Irish and Russian
+already leads us to expect this pattern for palatalized consonants. As for velariza-
+tion, past work has not found any consistent tendency for /Cˠ/ gestures to align
+with consonant release in onset position, as observed for /Cʲ/. Regardless of syl-
+labic position, velarization seems fairly static over the duration of the consonant.
+However, relevant data are limited.
+    In the case of coda stops, where cues to the palatalization contrast are split
+between the beginning and end of the primary place gesture, we have no gen-
+eral reason to expect alignment specifically with release. Assuming both formant
+transition and burst cues are important, we would expect primary and secondary
+articulation gestures to be roughly simultaneous. Put differently, we might ex-
+pect secondary articulation gestures to be achieved by the beginning of the con-
+sonant and maintained through to the release.
+    However, as discussed earlier, perhaps not all cues are equal in every context.
+If formant transitions are more effective cues than burst properties are for labial
+stops, then we might expect alignment of secondary articulations with the be-
+ginning of coda labials, at the vowel-consonant transition. If the reverse is true
+for coronal stops, we might expect alignment with the coda consonant release
+instead. However, these latter predictions are somewhat speculative.
+
+
+4 Ultrasound study
+4.1 Methods
+4.2 Participants
+We recorded 7 native Irish speakers, whose language background corresponded
+to each of the three major Irish dialect groups (Fig. 2). The shaded portions of
+   chetov’s it was prevocalic. An interesting question for future work is whether such differences
+   are systematic.
+
+
+
+                                                                                               11
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+
+Figure 2 show the Gaeltachtaí –– areas where Irish is spoken as a community
+language. It is conventional to distinguish three major dialect areas for Irish, that
+of Ulster in the northwest, Connacht in the west, and Munster in the southwest.
+Our study includes speakers from all three dialect areas, and we use these terms,
+but it should be noted that there is dialectal diversity within each dialect area.
+
+                                   Gaoth Dobhair
+                                                    ULSTER
+                                                        Belfast
+
+
+
+                                         CONNACHT
+
+
+
+                              Casla                    Dublin
+                                           Galway
+
+
+
+                        Baile na
+                         nGall         MUNSTER
+                                          Cork
+
+
+
+
+        Figure 2: Officially recognized gaeltachtaí (Irish-speaking areas) in the
+        Republic of Ireland, shaded in green (gaeltachtaí map data provided by
+        https://data-osi.opendata.arcgis.com/, under CC by 4.0 license,
+        https://creativecommons.org/licenses/by/4.0/).
+
+
+   We recorded two speakers of Ulster Irish (U1, 24, M; U2, 40, M), three of Con-
+nacht Irish (C1, 42, F; C2, 50, F; C3, 43, F), and two of Munster Irish (M1, 34, M; M2,
+56, M). (Mean age = 41, median = 43.) Recordings took place in Gaoth Dobhair,
+Casla, and Baile na nGall, indicated on the map.
+   All of our speakers were professional Irish-language broadcasters, working
+for RTÉ Raidió na Gaeltachta, the Irish-language radio network of Raidió Teil-
+ifís Éireann, Ireland’s national public service media system. Their jobs required
+them to speak and read Irish throughout the workday. All were native speakers
+of their respective dialects who were raised and currently live in the relevant
+dialect area. Their parents were native speakers who spoke Irish to them, except
+that one speaker’s father (C3) was a native English speaker who spoke both En-
+glish and Irish to her, and another’s (M1) mother was a native English speaker
+who spoke Irish to him. They attended primary and secondary school through
+Irish in their respective dialect areas, though C1-3 and M1 used both English and
+Irish in secondary school. All speakers attended third level colleges. All reported
+
+
+12
+                                    1 Gestural timing and contrast: an Irish case study
+
+
+reading Irish on a daily basis. None reported any difficulties in hearing, speaking,
+or reading.
+   As in Bennett et al. (2018), we chose to work with Irish-language broadcasters
+for several reasons. First, even in traditional Irish-speaking communities (gaeltach-
+taí), English has grown increasingly dominant, particularly among younger speak-
+ers, as noted earlier. In this fragile sociolinguistic context, native speakers may
+avoid interactions — such as experimental phonetic studies — in which they per-
+ceive that their Irish is being evaluated. The speakers for this study represent
+relatively traditional varieties of Irish, are comfortable with audio recording tech-
+nology, and are accustomed to speaking while being recorded.
+   Given the number of speakers of each dialect area, we cannot infer anything
+firm about dialect differences based on our study, though the speakers clearly
+showed expected properties of their dialects. (For example, the Ulster speakers
+pronounced /tʲ dʲ/ as [t͡ɕ d͡ʑ] respectively.) A tentative investigation of inter-
+speaker differences is provided in section 7.
+
+4.3 Items
+The materials were (mostly) monosyllabic words with a target stop consonant
+controlled for secondary articulation (/Cʲ/ or /Cˠ/), place of articulation (labial,
+coronal, dorsal), position (word-initial or -final) and adjacent vowel /iː uː ɔː/ (=
+2 × 3 × 2 × 3 = 36 total conditions). There was one word per condition. The words
+used are given in Tables 8 and 9 in the Appendix.
+   We used long /iː uː ɔː/ for the vowel contexts because these vowels vary in
+both backness — which is key to /Cˠ Cʲ/ contrasts in Irish — as well as height.
+Short vowels cannot be used for this purpose, because non-low short vowels take
+on the backness of a following consonant (Ní Chiosáin 1991, Ó Siadhail 1991): they
+are predictably front before palatalized consonants (e.g. min [mʲinʲ] ‘grain’) and
+back before velarized consonants (e.g. [mʲunˠ] ‘small’).
+   In using all three of /iː uː ɔː/, this study expands on Bennett et al. (2018),
+who only considered onset consonants preceding /iː uː/. Having said this, we
+found substantial variation in the pronunciation of /ɔː/ depending on dialect,
+speaker, context and word, particularly for the Ulster speakers, who had qualities
+including [ɔ a ɑ ʌ ɛ]. The high vowels were more consistent, though we saw
+some variation in the backness of /uː/ depending on the speaker and word. Due
+to these and other unanticipated variations in vowel production, the conclusions
+we can draw about vowel context effects are limited.9
+  9
+      In two forms the vowel context differed from the expected because of diphthongized pronun-
+      ciations: [iːədˠ] for iad ‘them’ and [bˠuːɨkʲ] or [bˠuːɪkʲ] for buaic ‘pinnacle’.
+
+
+
+                                                                                             13
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+
+   Since perfect control of materials would have made it impossible to use ac-
+tual words, the target stops in our word list were either voiceless or voiced as
+needed (e.g. tuí /tˠiː/ ‘straw’ vs. díon /dʲiːnˠ/ ‘roof’). For similar reasons, three
+of our forms are disyllabic instead of monosyllabic, though in all cases the target
+consonant was an onset/word-initial one in the stressed (initial) syllable (these
+are píosa /pʲiːsˠə/ ‘piece’, púca /pˠuːkˠə/ ‘ghost’, and ciúnas /kʲu:nˠəsˠ/ ‘quiet
+(noun)’). For one word, /bʲeːkʲ/ ‘shout’, with a final /kʲ/ target consonant, the
+vowel context was /eː/ instead of /iː/. In the case of onset/word-initial conso-
+nants, the nearest consonant (after the following vowel), if there was one, was a
+velarized coronal (e.g. /dʲiːnˠ/ ‘roof’), except in the case of /pˠuːkˠə/ ‘ghost’. In
+the case of coda/word-final target consonants, the nearest consonant (before the
+preceding vowel) was more varied (see Table 9 in the Appendix), again to ensure
+that actual words were used.
+   Items were recorded in the context of the carrier sentence [ˈdˠuːrʲtʲ ˈiːfˠə ___-
+əˈnˠʊrˠə] ‘Aoife said ___ last year’. This means that word-final target consonants
+were positioned before a vowel-initial word, something that made segmentation
+and labeling based on the acoustic signal easier. However it does raise the ques-
+tion whether the relevant target consonants are actually syllable-final in these
+sentences, as we assume they are. We do not believe that Irish has resyllabifi-
+cation between lexical words: we refer the reader to arguments in Green (2001)
+that resyllabification in Irish is possible only in the case of certain proclitics.10
+Note also that Kochetov (2006)’s finding of different timing for word-final labi-
+als compared to word-initial ones, discussed in section 3.2, was also based on
+items placed in a carrier sentence before a vowel. As we will see, our own timing
+results also show that final stops do not behave like initial ones.
+
+4.4 Recording procedure
+Recordings were done in RTÉ Raidió na Gaeltachta studios in Gaoth Dobhair
+(Gweedore, Ulster), Casla (Costelloe, Connacht) and Baile na nGall (unofficially
+Ballydavid, Munster). Speakers repeated the 36 experimental items five times
+each in the frame sentence described above. All speakers read the words in the
+same pseudo-random order.
+
+4.4.1 Ultrasound and audio recording
+We recorded midsagittal images of the tongue surface using a portable Terason
+T3000 ultrasound system and model 8MC3 3-8MHz probe with a 90∘ field of
+ 10
+      For discussion of Irish syllabification in general, see Ní Chiosáin (To appear).
+
+
+
+14
+                                     1 Gestural timing and contrast: an Irish case study
+
+
+view (using a depth setting of 10 and focal setting of 8, giving ≈ 46 fps, or 1 frame
+every 22 ms), using the Ultraspeech software package (Hueber et al. 2008), which
+automatically aligned the audio and video recordings. The probe was stabilized
+and held in place with an Articulate Instruments ultrasound stabilization headset
+(Wrench 2008, Scobbie et al. 2008). Simultaneous audio was recorded using a
+Shure WH20 dynamic cardioid microphone attached to the headset, recording
+directly to the ultrasound system (which included a laptop computer) at a 44.1
+kHz sampling rate.11
+
+4.5 Data annotation
+4.5.1 Landmark identification and frame
+Temporal landmarks for each consonant were annotated in Praat (Boersma &
+Weenink 2020), on the basis of acoustic information present in the waveform
+and spectrogram of the audio signal (see Turk et al. 2006). The beginning of C
+closure was primarily identified by a drop in amplitude from the preceding vowel.
+For onset stops, this vowel belonged to the preceding word in the frame sentence
+(the proper name Aoife [ˈiːfˠə]). For coda stops, the preceding vowel belonged
+to the same target word. Stop offsets were marked at the beginning of the stop
+release burst. In cases of uncertainty the choice was generally made to err in
+the direction of smaller consonant duration so as to minimize the possibility of
+including vocalic information as part of the consonant.
+   We extracted ultrasound frames for analysis at three different landmarks: stop
+onset, stop release, and the midpoint between them. (These correspond to the
+terms ‘C start’, ‘C end’, and ‘C midpoint’ used below.) These landmarks were
+determined as described above (see also Fig. 1). Analyzing secondary articula-
+tions at each of these three landmarks should provide us with at least a rough
+measure of how those secondary articulations are timed relative to major articu-
+latory events in the corresponding primary articulations of the same consonant.
+
+4.5.2 Contour tracing
+Mid-sagittal ultrasound images were traced using EdgeTrak software (Li et al.
+2005). EdgeTrak produces contours consisting of 100 points per traced tongue
+surface (Fig. 3), each with (X,Y) coordinates in Cartesian space.
+   Some mid-sagittal images could not be traced due to issues with image qual-
+ity. This led to imbalances in the number of tokens across speakers and places
+  11
+       The microphone failed for the Connacht recordings, and the laptop’s built-in microphone had
+       to be used instead.
+
+
+
+                                                                                               15
+ Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+                             Onset /Pʲ/ (=/pʲ/), /i/ context, C end                                Onset /Pʲ/ (=/pʲ/), /i/ context, C end, rep 1
+                             Raw EdgeTrak tracings: Connacht     Speaker
+                                                    Connacht, Speaker S1 1 Raw
+                                                                           onset  /Pʲiː/tracings: Connacht, Speaker S1
+                                                                               EdgeTrak
+                      -0.2                                                                  -0.2
+                                    1
+                      -0.1          2                                                       -0.1
+                                    3
+                                    4
+                      0.0           5                                                       0.0
+
+
+
+
+                                                                      Height (normalized)
+Height (normalized)
+
+
+
+
+                      0.1                                                                   0.1
+
+                      0.2                                                                   0.2
+
+                      0.3                                                                   0.3
+
+                      0.4                                                                   0.4
+
+                      0.5                                                                   0.5
+
+                      0.6                                                                   0.6
+
+                      0.7                                                                   0.7
+                             BACK                               FRONT                              BACK                              FRONT
+                             0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0                           0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+                                        Backness (normalized)                                                Backness (normalized)
+
+                               Figure 3: Left: sample EdgeTrack tracings for 5 tokens of onset /Pʲiː/
+                               at C end, Connacht Speaker 1. Right: example identification of dorsal
+                               peak for one EdgeTrak tracing in this set (repetition 1).
+
+
+ of articulation. For some speakers, all tokens at a particular place of articulation
+ could not be traced reliably, usually because the tongue surface for that conso-
+ nant type consistently moved outside of the region in which the tongue body
+ could be confidently identified (i.e. outside of the field of view and/or depth of
+ the image produced by our ultrasound probe). This most often occurred for dor-
+ sal stops, and sometimes for coronal stops. More detailed information about the
+ number of tokens traced per speaker are provided in Table 10 in the Appendix.
+
+ 4.6 Quantitative analysis
+ 4.6.1 Normalization
+ In order to ensure that contour tracings were comparable across speakers, all
+ tracings were range-normalized on a by-speaker basis. The X-coordinates were
+ rescaled to the interval [0,1], and Y-coordinates were rescaled by the same pro-
+ portion and similarly shifted to have a minimum value of 0 (see Fig. 3).
+
+ 4.6.2 Dorsal peak backness
+ To assess the degree of velarization (= tongue body backing) and palatalization
+ (= tongue body fronting) across contexts, we identified the X coordinate of the
+ highest point of the tongue body in each contour (Fig. 3). The position of this X
+
+
+
+ 16
+                              1 Gestural timing and contrast: an Irish case study
+
+
+coordinate can then be used as a measure of the degree of fronting or backing of
+the tongue body in a given context.
+   In some tokens there was a plateau rather than a unique highest point for the
+traced contour. In such cases the center of the plateau was selected as the ‘peak’
+of the tongue body, and the X coordinate of that center point used as our measure
+of tongue body fronting/backing.
+   We visually inspected each raw tracing to ensure that the highest point of the
+tongue contour was in a region which plausibly corresponded to the tongue body.
+For one speaker’s coronal data (M2), the highest point of the tongue surface fell
+on the tongue blade or tip, and not the tongue body; this data has been excluded
+from the analysis of dorsal backness.
+   Overall we examined the X position of the dorsal peak for 782 tokens in our
+data. The data and R scripts used to carry out this analysis are available at https:
+//github.com/rbennett24/articles/tree/master/Irish_pal_timing_syll_FACL.
+
+4.6.3 Dependent measure: change in backness over time
+Our primary research questions concern the timing of secondary articulations
+in Irish. In our statistical analysis, we investigated differences in dorsal backness
+at C end vs. C start, for each token in our data. To do this, we subtracted the
+dorsal backness value at C start for each token from the corresponding value
+at C end. This difference — dorsal backness at C end relative to C start, in each
+token — is the dependent variable for our analysis. Values which are different
+from zero indicate a difference in the magnitude of dorsal backing/fronting across
+timepoints; if consistent across tokens, this would suggest that the secondary
+articulation gestures for /Cˠ Cʲ/ peak at either C end or at C start, in a given
+condition.
+   Such skews can be taken as evidence for a particular pattern of gestural align-
+ment between primary and secondary articulations. For example, if dorsal fronting
+peaks at C end (= release) for /Cʲ/, we expect values of C end - C start to be pos-
+itive for tokens of /Cʲ/, because the tongue should move forward over time. If
+dorsal backing for /Cˠ/ also peaks at C release, we expect values of C end - C
+start to be negative for /Cˠ/, since velarization involves backing the tongue body
+rather than fronting it.
+   Somewhat more succinctly: positive numbers mean the tongue body moves
+forward over time during the consonant, while negative numbers mean it moves
+backward. Consistent patterns of either type can be used as evidence for timing
+relationships between primary and secondary articulations.
+
+
+
+
+                                                                                 17
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+
+5 Results
+Fig. 4 shows dorsal backness trajectories, from C start to C midpoint to C end,
+for each token in our data. Certain tendencies are already apparent. For exam-
+ple, the position of the tongue dorsum appears to be further front at C release,
+compared to C start, for onset /Pʲ Tʲ Kʲ/, suggesting gestural alignment between
+the secondary /Cʲ/ articulation and stop release. Similarly, the tongue dorsum is
+further back at C release compared to C start for onset /Pˠ/. We also observe a
+certain amount of variability in timing patterns across tokens in the same con-
+dition. Some of this variability may owe to the influence of vowel context (e.g.
+Bennett et al. 2023). Below we focus on other sources of variability.12
+   To help interpret the values presented in Fig. 4 and subsequent figures, Tables 3
+and 4 provide some summary statistics about the distribution of dorsal backness
+values in our data. For example, a difference of 0.11 between start and end position
+in Fig 4 would correspond to a difference of about one standard deviation for the
+full set of backness values in our data (across all three of C start, midpoint and
+end), or about 1/6 of the overall range of these values (Table 3). It would also be
+about the same size as the difference in mean dorsal backness between velar /Kʲ/
+vs. /Kˠ/ in onset position at C end in our data (Table 4). Figs. 3 and 5 are also
+useful for visualizing these differences; see Table 5 for related statistical analysis.
+             Table 3: Summary statistics for distributions of dorsal backness values
+             in our data. sd = standard deviation, IQ range = inter-quartile range,
+             Δ(X) = size of range for X.
+
+ Mean          Median               Range       Δ(Range)         sd         IQ range       Δ(IQ range)
+ 0.5020         0.5080      [0.1356,0.7789]         0.643     0.108    [0.4266,0.5952]            0.173
+
+   We statistically analyzed values of tongue body backness at C end (relative
+to C start) using linear mixed-effects modeling in R (R Development Core Team
+2020) with the lmerTest package (Kuznetsova et al. 2020; see also e.g. Pinheiro
+& Bates 2000, Gelman & Hill 2006, Baayen et al. 2008, Bolker et al. 2009, Barr et
+al. 2013, Matuschek et al. 2017, Tomaschek et al. 2018, Oberpriller et al. 2022). The
+predictors Consonant Place, Secondary Articulation, Syllable Position,
+and Vowel Context were sum-coded in order to reduce collinearity between
+  12
+       A point of clarification: for each token, the value at C end is relative to C start. As a consequence,
+       the values at C end should not be interpreted as reflecting the overall degree of palatalization
+       (fronting) or velarization (backing) in a given token. Instead, values at C end should be inter-
+       preted as reflecting change in backness over time. (The same goes for values at C midpoint, of
+       course, though we do not analyze that data here.) See Bennett et al. (2023) for an analysis of
+       the strength of palatalization/velarization in this data.
+
+
+
+18
+                                        1 Gestural timing and contrast: an Irish case study
+
+
+            P               P                 T               T                K               K
+            Cʲ              Cˠ               Cʲ               Cˠ               Cʲ              Cˠ
+ 0.3
+
+ 0.2
+
+ 0.1
+
+
+
+
+                                                                                                          Onset
+ 0.0
+
+-0.1
+
+-0.2
+
+-0.3
+ 0.3
+
+ 0.2
+
+ 0.1
+
+
+
+
+                                                                                                          Coda
+ 0.0
+
+-0.1
+
+-0.2
+
+-0.3
+       Start Mid End   Start Mid End    Start Mid End    Start Mid End    Start Mid End   Start Mid End
+
+
+          Figure 4: Trajectories for backness of dorsal peak over C start, mid-
+          point, end timepoints, relative to values at C start. Grey lines represent
+          trajectories for individual tokens, black lines represent loess-smoothed
+          regressions over pooled values, with overlaid ribbon in blue showing
+          confidence intervals around estimates of the mean.
+
+          Table 4: Differences between mean backness values of /Cʲ/ - mean back-
+          ness values of /Cˠ/ at C end, across places of articulation and syllable
+          positions
+
+       Syllable position               /Pʲ/ - /Pˠ/      /Tʲ/ - /Tˠ/      /Kʲ/ - /Kˠ/      Overall
+                         Onset             0.166             0.206            0.100            0.163
+                          Coda             0.132             0.190            0.079            0.134
+
+simple predictors and higher-order interactions, and to help with model inter-
+pretability. All two-way interactions between these predictors were included in
+the initial model; we also included a three-way interaction between Consonant
+Place, Secondary Articulation, and Syllable Position. The reference level
+for Consonant Place was Labial; for Vowel Context it was /iː/; for Syllable
+Position it was Onset; and for Secondary Articulation it was /Cʲ/.
+
+
+                                                                                                              19
+   Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+
+               Connacht  Speaker
+                 Onset /P/,          1 onset
+                             /i/context,     /Pʲiː/ vs. /Pˠiː/Coda
+                                         C end                  (left) and
+                                                                    /P/,     coda /iːPʲ/
+                                                                          /i/context, C endvs. /iːPˠ/
+                 Connacht, Speaker S1                (right)  Connacht, Speaker S1
+                      -0.2                                                                  -0.2
+                                    Pˠ (5)                                                                Pˠ (5)
+                      -0.1          Pʲ (5)                                                  -0.1          Pʲ (5)
+
+                      0.0                                                                   0.0
+
+
+
+
+                                                                      Height (normalized)
+Height (normalized)
+
+
+
+
+                      0.1                                                                   0.1
+
+                      0.2                                                                   0.2
+
+                      0.3                                                                   0.3
+
+                      0.4                                                                   0.4
+
+                      0.5                                                                   0.5
+
+                      0.6                                                                   0.6
+
+                      0.7                                                                   0.7
+                             BACK                               FRONT                              BACK                               FRONT
+                             0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0                           0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+                                        Backness (normalized)                                                 Backness (normalized)
+
+                               Figure 5: Loess-smoothed curves for /Pʲ/ vs. /Pˠ/ in the context of /iː/,
+                               in both onset (left) and coda (right) position. Connacht Speaker 1 (see
+                               Fig. 3)
+
+
+     A random effect for Speaker was included, along with by-speaker random
+  slopes for Syllable Position. Models with additional by-speaker random slopes
+  failed to converge, in part because of the unbalanced nature of our data (see
+  Appendix). We did not include a random effect of Word because we only had
+  one word per condition of interest. The specifications for the model are provided
+  in (1).
+
+            (1) Linear mixed-effects model specifications:
+                             Dependent variable: Backness of dorsal peak at C end - C start ∼
+                             Three-way (1):
+                             C Place × Secondary Articulation + Secondary Articulation +
+                             Two-way (6):
+                             C Place × Syllable Position + C Place × V Context + C Place × Secondary
+                             Articulation + V Context × Syllable Position + V Context × Secondary
+                             Articulation + Secondary Articulation × Syllable Position +
+                             Simple (4):
+                             C Place + Syllable Position + V Context + Secondary Articulation +
+                             Random effects:
+                             (1+Syllable Position|Speaker)
+
+     This model was fit with the parameter REML = False so that we could use
+   the log-likelihood test to carry out model criticism and simplification. However,
+
+
+
+   20
+                              1 Gestural timing and contrast: an Irish case study
+
+
+model criticism did not lead to the exclusion of any fixed-effect predictors (with
+𝛼 = .05), starting with the highest-order (three-way) interaction term, and retain-
+ing all simple predictors participating in interactions. As such, our final model
+was the same as our initial model (1). The residuals appeared approximately
+normally-distributed in the model. This model has only limited collinearity: the
+maximum variance inflation factor (VIF) was 1.34, as reported by the check_-
+collinearity() function in the performance package (Lüdecke et al. 2021).
+VIF values below 5 are generally accepted to signal fairly low collinearity (e.g.
+Tomaschek et al. 2018).
+   The model results are provided in Table 5. The p-values we report were esti-
+mated by the lmerTest package. We have enclosed certain significant (or near-
+significant) predictors in boxes to highlight their relevance for the hypotheses
+we consider here: namely, that the timing of secondary palatalization and/or ve-
+larization gestures may be less stable in codas than in onsets, and less stable in
+labials than in consonants at other places of articulation (especially coronals).
+
+
+
+
+                                                                                21
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+       Table 5: Linear mixed-effects model parameters for analysis of dorsal
+       backness trajectories (values at C end, relative to C start).
+
+        Predictor              Estimate                       SE         p
+        (Intercept)                0.0054                 0.0049        .31
+        C place                                                    < .001*
+        Coronal                    0.0099                 0.0031    < .01*
+        Dorsal                     0.0144                 0.0034   < .001*
+        Syllable position                                            < .46
+        Coda                      -0.0051                 0.0065        .46
+         Secondary articulation                                    < .001*
+        /Cˠ/                      -0.0207                 0.0020   < .001*
+        V context                                                  < .001*
+        /uː/                       0.0023                 0.0028        .43
+        /ɔː/                       0.0150                 0.0028   < .001*
+         C place × Syllable position                                < .075
+        Coronal:Coda               0.0072                 0.0032    < .05*
+        Dorsal:Coda               -0.0058                 0.0034        .09
+         Secondary articulation × C place                           < .01*
+        /Cˠ/:Coronal              -0.0067                 0.0029    < .05*
+        /Cˠ/:Dorsal                0.0099                 0.0031    < .01*
+         Secondary articulation × Syllable position                < .001*
+        /Cˠ/:Coda                  0.0141                 0.0020   < .001*
+        C place × V context                                        < .001*
+        Coronal:/uː/              -0.0138                 0.0041   < .001*
+        Dorsal:/uː/               -0.0018                 0.0044        .69
+        Coronal:/ɔː/               0.0078                 0.0040        .05
+        Dorsal:/ɔː/                0.0062                 0.0043        .15
+        V context × Syllable position                              < .001*
+        /uː/:Coda                  0.0012                 0.0027        .64
+        /ɔː/:Coda                  0.0234                 0.0026   < .001*
+        Secondary Articulation × V context                          < .01*
+        /Cˠ/:/uː/                  0.0009                 0.0026        .74
+        /Cˠ/:/ɔː/                  0.0067                 0.0026    < .05*
+        Secondary articulation × C place × Syllable Position        < .01*
+        /Cˠ/:Coda:Coronal        -0.0049                  0.0029        .09
+        /Cˠ/:Coda:Dorsal         -0.0041                  0.0031        .18
+        Range of values: [-0.2870, 0.2858] (Δ = 0.573)
+        Mean = 0.0003, median = 0, sd = 0.0716
+        Reference levels: labial, /Cʲ/, onset, /iː/
+
+22
+                                      1 Gestural timing and contrast: an Irish case study
+
+
+   While the results in Table 5 imply that gestural alignment may be influenced
+by a number of factors, the precise patterns of alignment indicated by these re-
+sults are a bit difficult to interpret, given the various overlapping interactions
+and main effects. Still, certain patterns do seem apparent. For example, while
+velarized /Cˠ/ shows evidence of backing at C end, relative to C start (negative
+estimate for /Cˠ/), this tendency is much weaker in coda position (roughly com-
+parable positive effect for Coda × /Cˠ/). This suggests that velarized consonants
+may tend toward release alignment in onsets, but not in codas (or at least, not as
+strongly in codas).
+   However, the significant effects of Dorsal × /Cˠ/, Coronal × /Cˠ/, and Coro-
+nal × Coda suggest that these tendencies may vary depending on place of ar-
+ticulation — in particular, labial /Pˠ/ may be driving most of the onset vs. coda
+asymmetries for velarized /Cˠ/, as implied by Fig. 4. At a minimum, it seems
+that consonant place, secondary articulation, and syllable position play
+some role in determining patterns of gestural alignment in our data.
+   To clarify the structure of our results, Fig. 6 plots the distributions of back-
+ness values, relative to C start, for all combinations of consonant place, sec-
+ondary articulation, and syllable position in our data. (We abstract away
+from vowel context because it is not related to the specific hypotheses we focus
+on here.) For each cell, we assessed whether the distribution of dorsal backness
+at C end was significantly different from zero (i.e. different from C start, since C
+start was subtracted from all timepoints for each token). This was determined by
+t-tests with conservative Bonferroni-corrected significance values of 𝛼 = .05/12 =
+.0041. Distributions which are significantly different from zero in Fig. 6 indicate
+patterns of gestural timing in which dorsal backness for secondary articulations
+peaks at either C end or C start (note that we do not analyze midpoint values at
+all here).13 We label such distributions with Rel for ‘alignment with C release’ (=
+C end), and VC for ‘alignment with VC transition in coda position’ (= C start in
+coda position). These are the only two patterns of alignment that our statistical
+analysis uncovered.
+   Fig. 6 shows that there are clear asymmetries across conditions with respect
+to the timing of dorsal gestures for /Cˠ Cʲ/. In onset position, the dorsal fronting
+gesture for /Cʲ/ peaks at C release; this is consistent across labial, coronal, and
+dorsal places of articulation (see Fig. 8 below for a visual illustration with onset
+/Pʲuː/). Additionally, velarized labial /Pˠ/ also shows release alignment in onset
+position. Velarized /Tˠ Kˠ/ show no particular pattern of alignment in onset
+position in this data.
+ 13
+      The significant results labeled in Fig. 6 remain the same if significance is assessed using the
+      bootstrap estimation method described in section 7 rather than t-tests.
+
+
+
+                                                                                                  23
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+
+                P              P               T              T                K              K
+                Cʲ             Cˠ              Cʲ             Cˠ               Cʲ             Cˠ
+ 0.3
+          Rel            Rel             Rel                             Rel
+ 0.2
+
+ 0.1
+
+
+
+
+                                                                                                         Onset
+ 0.0
+
+ -0.1
+
+ -0.2
+
+ -0.3
+  0.3
+          VC             Rel             Rel
+ 0.2
+
+ 0.1
+
+
+
+
+                                                                                                         Coda
+ 0.0
+
+ -0.1
+
+ -0.2
+
+ -0.3
+         Start Mid End   Start Mid End   Start Mid End   Start Mid End   Start Mid End   Start Mid End
+
+
+             Figure 6: Values for backness of dorsal peak over C start, midpoint,
+             end timepoints, relative to values at C start. Black lines connect mean
+             values of distributions at each timepoint. Boxed text labels indicate sta-
+             tistically significant patterns of alignment in a given condition: ‘Rel’
+             indicates that alignment of the secondary articulation peaks at C re-
+             lease, and ‘VC’ indicates that alignment of the secondary articulation
+             peaks at the VC transition in coda position.
+
+
+   In coda position, timing patterns are more varied. Coda /Pʲ/ shows VC align-
+ment, while coda /Pˠ/ shows release alignment.14 We illustrate this difference
+with a pair of examples from Ulster Speaker 1’s data in Fig. 7.
+   Both /Pˠ/ and /Pʲ/ show backing over time in coda position after /ɔ:/ in Fig.
+7, indicating an increase in velarization over time, but a decrease in palatalization.
+This reflects different timing patterns for coda /Pˠ Pʲ/: release alignment for coda
+/Pˠ/, and VC alignment for coda /Pʲ/.
+  14
+       It’s important to remember that negative values at C end mean different things for /Cʲ/ vs.
+       /Cˠ/. Negative values at C end indicate dorsal backing relative to C start: this implies stronger
+       velarization over time, but weaker palatalization. So while the distributions of coda /Pʲ/ and
+       /Pˠ/ are similar in Fig. 6, they reflect different alignment patterns: release alignment for /Pˠ/
+       (stronger backing over time), and VC alignment for /Pʲ/ (weaker fronting over time).
+
+
+
+24
+                                                                 1 Gestural timing and contrast: an Irish case study
+
+                             Coda /Pˠ/, /ɔː/ context                                                    Coda /Pʲ/, /ɔː/ context
+         Ulster      Speaker S11 onset /Pʲuː/
+                  Speaker
+             Ulster,                                                                                    Ulster Speaker 1 coda /ɔːPʲ/
+                                                                                                        Ulster, Speaker S1
+                      -0.2                                                                       -0.2start (5)                                        start (5)
+                                                                                                       midpoint (5)                                   midpoint (5)
+                      -0.1                                                                       -0.1end (5)                                          end (5)
+                      0.0                                                                        0.0
+
+
+
+
+                                                                           Height (normalized)
+Height (normalized)
+
+
+
+
+                      0.1                                                                        0.1
+
+                      0.2                                                                        0.2
+
+                      0.3                                                                        0.3
+
+                      0.4                                                                        0.4
+
+                      0.5                                                                        0.5
+
+                      0.6                                                                        0.6
+
+                      0.7                                                                        0.7
+                             BACK                            FRONT                                     BACK                             FRONT
+                             0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0                                0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+                                      Backness (normalized)                                                       Backness (normalized)
+
+
+                               Figure 7: Loess curves for Ulster Speaker 1’s coda /ɔːPˠ/ and /ɔːPʲ/
+                               data showing change over time. The solid black line corresponds to C
+                               start, the short-dashed yellow line to C midpoint, and the long-dashed
+                               blue line to C end.
+
+
+   Coda /Tʲ/ also shows release alignment in Fig. 6, while the dorsal gesture for
+coda /Tˠ Kʲ Kˠ/ do not appear to show any particular alignment pattern at all.
+   Some of these results are also evident in the model output in Table 5. For exam-
+ple, the positive estimate for /Cˠ/ × Dorsal is consistent with the observation
+that coda labial /Pˠ/ (the reference level for C place) shows release alignment
+(negative values) across syllable positions, while dorsal /Kˠ/ shows values cen-
+tered around zero for both onset and coda contexts.
+   The significant trends in Fig. 6 are readily apparent from visual inspection
+of our raw tracings and corresponding loess-smoothed curves like Fig. 7.15 For
+example, Fig. 8 confirms that the tongue body in onset /Pʲuː/ tends to be raised
+and/or fronted at C release (C end) relative to C start for most speakers. The
+degree of fronting involved varies — it is clearest for Connacht Speaker 2, and
+the Ulster speakers — but the overall pattern appears to hold for 5/7 participants
+(Connacht Speakers 1 and 3 being apparent exceptions).
+   Fig. 9 provides a side-by-side comparison of raw tracings for Munster Speaker
+1’s onset /Pʲuː/ productions at C start and C release (C end). We note that (i) this
+speaker’s productions are fairly consistent from token-to-token, and (ii) there is
+clear raising and fronting of the tongue body at C start relative to C end, despite
+the fact that the following vowel is back /uː/ (CV coarticulation for backness is
+limited in Irish; Ní Chasaide & Fealy 1991, Bennett et al. 2018, 2023).
+       15
+                The full set of raw tracings and loess curves discussed in this section is available at https:
+                //github.com/rbennett24/articles/tree/master/Irish_pal_timing_syll_FACL.
+
+
+
+                                                                                                                                                          25
+  Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+                             Onset /Pʲ/, /uː/ context
+                             By dialect and speaker Onset /Pʲuː/, all speakers
+
+                                                   Connacht                         Connacht                                         Connacht                      Munster
+                                                      S1                               S2                                               S3                           S1
+                      -0.1
+                       0.0
+                       0.1
+                       0.2
+                       0.3
+                       0.4
+                       0.5
+                       0.6
+                       0.7
+Height (normalized)
+
+
+
+
+                                  BACK FRONT BACK FRONT BACK FRONT BACK FRONT
+                                                                                                                                                             0.0 0.2 0.4 0.6 0.8 1.0
+                                                     Munster                            Ulster                                          Ulster
+                                                       S2                                S1                                              S2                              start
+                      -0.1
+                                                                                                                                                                         midpoint
+                       0.0                                                                                                                                               end
+                       0.1
+                       0.2
+                       0.3
+                       0.4
+                       0.5
+                       0.6
+                       0.7
+                                  BACK FRONT BACK FRONT BACK FRONT
+                             0.0 0.2 0.4 0.6 0.8 1.0 0.0 0.2 0.4 0.6 0.8 1.0 0.0 0.2 0.4 0.6 0.8 1.0
+                                                                                              Backness (normalized)
+
+                                           Figure 8: Loess-smoothed ultrasound tracings for every speaker’s
+                                           /Pʲuː/ tokens at C start, midpoint, and end.
+
+                                                                         Munster Speaker 1 onset /Pʲuː/
+                                                          Onset /Pʲ/ (=/bʲ/), /u/ context, C start
+                                                                                             Onset /Pʲ/ (=/bʲ/), /u/ context, C end
+                                                                     C start                 Raw EdgeTrakC
+                                                          Raw EdgeTrak tracings: Munster, Speaker S1        endMunster, Speaker S1
+                                                                                                         tracings:
+                                                   -0.2                                                                          1
+                                                                                                                              -0.2                                                  1
+                                                                                                                                2                                                   2
+                                                   -0.1                                                                          3
+                                                                                                                              -0.1                                                  3
+                                                                                                                                4                                                   4
+                                                                                                                                5                                                   5
+                                                   0.0                                                                        0.0
+                             Height (normalized)
+
+
+
+
+                                                                                                        Height (normalized)
+
+
+
+
+                                                   0.1                                                                        0.1
+
+                                                   0.2                                                                        0.2
+
+                                                   0.3                                                                        0.3
+
+                                                   0.4                                                                        0.4
+
+                                                   0.5                                                                        0.5
+
+                                                   0.6                                                                        0.6
+
+                                                   0.7                                                                        0.7
+                                                          BACK                               FRONT                                   BACK                              FRONT
+                                                          0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0                                0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+                                                                     Backness (normalized)                                                     Backness (normalized)
+
+
+
+                                           Figure 9: Raw ultrasound tracings for Munster Speaker 1’s onset /Pʲuː/
+                                           tokens at C start (left) and end (right).
+
+
+
+
+  26
+                                     1 Gestural timing and contrast: an Irish case study
+
+
+   We conclude that the significant results in in Fig. 6 are reflected in qualitative
+patterns as well as quantitative ones.
+   The non-significant results in Fig. 6 must be interpreted with caution, for two
+reasons. First, in frequentist statistics it is not generally valid to draw conclu-
+sions from the lack of a statistically-significant effect (this is sometimes called
+‘accepting the null hypothesis’; Frick 1995 and many others).16
+   The second issue of interpretation surrounding Fig. 6 is that a non-significant
+effect could correspond to two different scenarios regarding articulatory timing.
+First, it could be that backness values at C start are comparable to those at C
+end because the secondary articulation reaches its peak at C start, and is then
+maintained more or less constant until C end. In this scenario, we expect a fairly
+tight cluster of points around zero at C end in Fig. 6, since the position of the
+tongue body should be more-or-less the same, consistently, at C start vs. C end.
+   Alternatively, it could be that articulatory timing is more noisy and variable:
+sometimes the secondary articulation peaks at C start, sometimes at C end, and
+sometimes in-between. In this scenario, we might expect a looser grouping of
+points around zero at C end. This is because differences in dorsal position at
+C end, relative to C start, would be less stable than in a scenario in which the
+secondary articulation peaks at C start and is held till C end.17
+   To try to disentangle these two interpretations, we can first consider some
+qualitative patterns in our data. Fig. 10 provides loess-smoothed ultrasound trac-
+ings for coda /Tˠ/ following /iː/ for one speaker (U2), at C start, midpoint, and
+end. We’ve chosen this context as an example because (i) coda /VTˠ/ is one of the
+non-significant conditions in Fig. 6, and (ii) some of our other work on Irish sug-
+gests that velarized /Cˠ/ is often significantly fronted after /iː/ in coda position
+  16
+     In principle, Bayesian modeling can be used to justify acceptance of a null hypothesis (e.g.
+     Kruschke 2013). However, in the specific case at hand, nothing is gained on this front by
+     using Bayesian rather than frequentist statistics. Bayesian t-tests, implemented using the
+     ttestBF() function in the BayesFactor package and the describe_posterior() function in
+     the bayestestR package in R (Morey & Rouder 2023, Makowski et al. 2019), suggest that there
+     is indeed sufficient evidence to accept the significant effects labeled in Fig. 6. For the remain-
+     ing conditions, the Bayesian t-tests suggest that the evidence is insufficient to either accept
+     or reject the null hypothesis of no difference. When it comes to drawing inferences about the
+     distributions in Fig. 6, Bayesian methods leave us in the same place as regular frequentist ones.
+  17
+     A third scenario, which we reject, is that the peak of the secondary articulation varies categor-
+     ically between C start and C end for those conditions which lack a significant skew away from
+     zero. In this scenario we would expect to find a bimodal distribution of points on either side
+     of zero, with one peak for tokens showing clear C start alignment, and another peak, on the
+     opposite side of zero, for tokens showing clear C end alignment. However, the distributions in
+     Fig. 6 appear to be consistently unimodal across conditions and timepoints, and so we reject
+     this possibility. See also Padgett et al. (2023), who use Hartigan’s dip test to argue that all of
+     the distributions in Fig. 6 are unimodal.
+
+
+                                                                                                   27
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+
+(Bennett et al. 2023). Coda /iːTˠ/ is thus a condition in which we might expect to
+find greater backing at C end than C start, where influence from the vowel /iː/
+could pull the consonant articulation for /Tˠ/ forward at the VC transition.
+                 Coda /Tˠ/, /i/ context
+                           Speaker S2Speaker 2 coda /iːTˠ/
+                 Connacht,Connacht
+                              -0.2                                                 start (4)
+                                                                                   midpoint (4)
+                              -0.1                                                 end (4)
+                              0.0
+        Height (normalized)
+
+
+
+
+                              0.1
+
+                              0.2
+
+                              0.3
+
+                              0.4
+
+                              0.5
+
+                              0.6
+
+                              0.7
+                                     BACK                            FRONT
+                                     0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+                                              Backness (normalized)
+
+        Figure 10: Loess-smoothed ultrasound tracings for Connacht Speaker
+        2’s /iːTˠ/ tokens at C start, midpoint, and end.
+
+   As is evident from Fig. 10, tongue body position and posture are very similar
+across timepoints. There is perhaps a slight lowering of the tongue body at C
+end and midpoint relative to C start, but otherwise, very few differences when
+comparing these three landmarks. This implies that the constriction for /Tˠ/ is
+already achieved by the beginning of the consonant in /iːTˠ/ for this speaker.
+   Loess-smoothed curves are a kind of average, which could potentially hide
+some informative variability across tokens. However, we can also see from Fig.
+11 that there is little variability in tongue body position across tokens at either C
+start or C end. This too is consistent with the claim that the constriction for /Tˠ/
+is achieved at the VC transition (C start) and maintained basically constant until
+C release (C end).
+   Visual inspection of raw tracings and loess curves suggests that, generally
+speaking, the non-significant conditions in Fig. 6 resemble Figures 10 and 11:
+tongue body position is more or less the same at C start as at C end.
+   There are two interesting exceptions to this generalization. First, coda /Cˠ/ is
+sometimes realized with a fronter (less velarized) dorsal constriction at C start
+than at C end when following /i:/ (Fig. 12). This reflects coarticulation for back-
+ness between /i:/ and a following /Cˠ/.
+
+
+28
+                                                                 1 Gestural timing and contrast: an Irish case study
+
+
+                                                    Connacht Speaker 2 coda /iːTˠ/
+                                    Coda /Tˠ/ (=/dˠ/), /i/ context, C start
+                                                                        Coda /Tˠ/ (=/dˠ/), /i/ context, C end
+                                                C start                 Raw EdgeTrakC
+                                    Raw EdgeTrak tracings: Connacht, Speaker S2        endConnacht, Speaker S2
+                                                                                    tracings:
+                            -0.2                                                                         -0.21                                                  1
+                                                                                                            2                                                   2
+                            -0.1                                                                         -0.14                                                  4
+                                                                                                            5                                                   5
+                            0.0                                                                          0.0
+      Height (normalized)
+
+
+
+
+                                                                                   Height (normalized)
+                            0.1                                                                          0.1
+
+                            0.2                                                                          0.2
+
+                            0.3                                                                          0.3
+
+                            0.4                                                                          0.4
+
+                            0.5                                                                          0.5
+
+                            0.6                                                                          0.6
+
+                            0.7                                                                          0.7
+                                    BACK                               FRONT                                     BACK                              FRONT
+                                     0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0                                 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+                                               Backness (normalized)                                                       Backness (normalized)
+
+
+                     Figure 11: Raw ultrasound tracings for Connacht Speaker 2’s coda
+                     /iːTˠ/ tokens at C start (left) and end (right).
+                                           Coda /Kˠ/, /iː/ context
+                                                    Speaker S2 Speaker 2 coda /iːKˠ/
+                                           Connacht,Connacht
+                                    -0.2                                                                                                 start (4)
+                                                                                                                                         midpoint (4)
+                                    -0.1                                                                                                 end (4)
+                                    0.0
+              Height (normalized)
+
+
+
+
+                                    0.1
+
+                                    0.2
+
+                                    0.3
+
+                                    0.4
+
+                                    0.5
+
+                                    0.6
+
+                                    0.7
+                                           BACK                                                 FRONT
+                                           0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+                                                       Backness (normalized)
+
+                     Figure 12: Loess-smoothed ultrasound tracings for Connacht Speaker
+                     2’s /iːKˠ/ tokens at C start, midpoint, and end.
+
+
+   At the VC transition, /Cˠ/ is fronter than at /Cˠ/ release, where the influence
+of the /i:/ is more removed. This is consistent with Bennett et al.’s (2023) find-
+ing that /iːCˠ/ is the context in which consonant backness is most affected by
+coarticulation with a neighboring vowel in this dataset:
+   Second, in some conditions, some speakers appear to transition towards a
+more neutral tongue body position at the end of coda C. For example, Fig. 13
+
+
+                                                                                                                                                               29
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+
+shows that Ulster Speaker 2 has a fronter tongue body at C end than at C start in
+coda /uːKˠ/. Both the vowel and consonant are back in this context, so fronting
+is not motivated by the segments themselves.
+              Coda /Kˠ/, /uː/ context
+              Ulster, Speaker S2 Speaker 2 coda /uːKˠ/
+                          Ulster
+                             -0.2                                                 start (5)
+                                                                                  midpoint (5)
+                             -0.1                                                 end (5)
+                             0.0
+       Height (normalized)
+
+
+
+
+                             0.1
+
+                             0.2
+
+                             0.3
+
+                             0.4
+
+                             0.5
+
+                             0.6
+
+                             0.7
+                                    BACK                            FRONT
+                                    0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+                                             Backness (normalized)
+
+          Figure 13: Loess-smoothed ultrasound tracings for Ulster Speaker 2’s
+          /uːKˠ/ tokens at C start, midpoint, and end.
+
+   Our target words were produced in a frame sentence (section 4.3), which means
+that each target word was followed by the word [əˈnˠʊrˠə] ‘last year’. The fronting
+observed in 13 could reflect anticipatory coarticulation with the upcoming [ə] in
+[əˈnˠʊrˠə]. Alternatively, it could correspond to a phrase-final tongue posture of
+some kind, since our target words were generally produced with focus prosody,
+and so may have been prosodically phrase-final. (See e.g. Gick et al. 2004, Katsika
+2016 for related discussion.)
+   Taking these observations together, our overall conclusion is that the non-
+significant conditions in Fig. 6 generally represent a production pattern in which
+the secondary articulation is achieved at the VC transition (C start) and held more
+or less consonant through C release (C end). That said, we recognize that other
+factors (e.g. coarticulation) may play a role as well.
+   Further support for this interpretation comes from a more quantitative inter-
+pretation of the patterns in Fig. 6. Our statistical question concerns the spread of
+the distributions in Fig. 6: in cases where backness values at C end overlap with
+those at C start, are the distributions at C end tightly clustered (≈ alignment at
+C start, continued to C end) or more widely spread out (≈ variable alignment)?
+
+
+
+30
+                                 1 Gestural timing and contrast: an Irish case study
+
+
+   To answer this question, we can compare the variability in our non-significant
+conditions to the variability in conditions where we believe there is a specific,
+consistent pattern of gestural alignment. Table 6 reports summary statistics, in-
+cluding standard deviations and inter-quartile ranges, at C endpoint for each of
+the 12 conditions shown in Fig. 6.
+        Table 6: Summary statistics for distributions shown at C endpoint in
+        Fig. 6. Starred rows indicate conditions with statistically significant
+        differences from zero in Fig. 6. sd = standard deviation, IQ range =
+        inter-quartile range, Δ(X) = size of range for X.
+
+               Mean            Range      Δ(Range)     sd       IQ range      Δ(IQ range)
+   *Onset Pʲ    0.017   [-0.194,0.272]       0.466   0.049       [0,0.036]          0.036
+  *Onset Pˠ    -0.031   [-0.287,0.061]       0.348   0.050      [-0.056,0]          0.056
+  *Onset Tʲ    0.038    [-0.045,0.286]       0.331   0.058       [0,0.062]          0.062
+    Onset Tˠ   -0.004   [-0.204,0.095]       0.299   0.041   [-0.011,0.004]         0.015
+  *Onset Kʲ    0.027    [-0.159,0.204]       0.364   0.049       [0,0.052]          0.052
+    Onset Kˠ    0.010   [-0.082,0.132]       0.214   0.032       [0,0.024]          0.024
+    *Coda Pʲ   -0.011   [-0.153,0.133]       0.286   0.042   [-0.027,0.004]         0.031
+    *Coda Pˠ   -0.011      [-0.228,0.2]      0.428   0.051       [-0.027,0]         0.027
+    *Coda Tʲ    0.019    [-0.07,0.183]       0.253   0.040       [0,0.033]          0.033
+    Coda Tˠ    -0.002   [-0.138,0.154]       0.292   0.044   [-0.016,0.003]         0.019
+     Coda Kʲ    0.005    [-0.09,0.131]       0.221   0.040   [-0.012,0.026]         0.038
+    Coda Kˠ     0.002   [-0.092,0.181]       0.273   0.048   [-0.021,0.002]         0.022
+
+   As benchmarks, we can consider the three conditions with the largest devia-
+tions from zero, as determined by the absolute value of the mean. These are boxed
+and in bold in Table 6: they are onset /Pˠ Tʲ Kʲ/. These three conditions are the
+clearest examples of consistent articulatory alignment in our dataset, with sec-
+ondary articulations seeming to peak at C end (= release) for all three conditions.
+   If we compare the measures of variance for the non-significant conditions in
+Fig. 6 and Table 6, we see that those measures are similar in size to the measures
+of variance in our three significant benchmark conditions. For example, the mean
+of onset /Tˠ/ (-0.004) is not significantly different from zero. The measures of
+dispersion for this condition — sd = 0.041, ΔRange = 0.299, and ΔIQ Range =
+0.015 — are in fact smaller than the same measures for all three of our benchmark
+significant conditions (onset /Pˠ Tʲ Kʲ/). This suggests that the values for onset
+/Tˠ/ are at least as tightly clustered as the values for our significant benchmarks.
+The same general point can be made for all the non-significant conditions in Fig.
+
+
+
+                                                                                        31
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+
+6 and Table 6: the dispersion around the mean appears to be basically the same,
+and sometimes smaller, than found for the significant conditions demonstrating
+specific patterns of articulatory alignment. This is also consistent with simple
+visual inspection of the distributions in Fig. 6.18
+   We conclude that the distributions for the non-significant conditions in Fig. 6
+and Table 6 are not particularly loose or spread-out around zero. Instead, they
+appear to be about as tightly clustered as the distributions in our significant con-
+ditions. This is consistent with the claim that the secondary articulations in our
+non-significant conditions typically reach a peak at C start, and are then main-
+tained more-or-less unchanged until C end. In the discussion below, we some-
+times use the term ‘held alignment’ to refer to this scenario, in which there is no
+significant change in dorsal backness from C start to C end.
+
+
+6 Interim discussion
+Recall our hypotheses from section 3.4:
+   1. The relative timing of primary and secondary articulations should be more vari-
+able in the coda than in the onset, by (and possibly within) speaker and consonant
+type. Our measures of dispersion in Table 6 do not support this prediction. (Nor
+do they support an analogous hypothesis concerning labials compared to other
+places of articulation.) This hypothesis would lead us to expect more spread-out
+distributions for codas, relative to onsets, at C end in Fig. 6. This is not the case,
+either visually or numerically (Table 6).
+   However, we find some tentative support for this hypothesis below when we
+examine the results by individual participant.
+   2. In onset stops, both palatalization and velarization gestures should be aligned
+roughly with the release of the consonant closure. As expected based on previous
+findings, for palatalization this prediction holds across all three places of artic-
+ulation (Figs. 4, 6): values at C end for onset /Pʲ Tʲ Kʲ/ skew positive, and are
+significantly different from zero, indicating greater fronting at C end relative to
+C start.
+   As we noted earlier, previous work has not found such a clear pattern for
+onset velarization, and we do not find compelling evidence overall for release
+
+ 18
+      Padgett et al. (2023) report that the distribution for non-significant onset /Tˠ/ is more spread
+      out than expected for a normal distribution according to a Shapiro-Wilks test with Bonferroni-
+      corrected 𝛼 = .015/12 = .0042. However, this is also true of significant onset /Pʲ Pˠ Tʲ/ and
+      coda /Tʲ/, and so this measure of dispersion also fails to distinguish our significant and non-
+      significant conditions in Fig. 6.
+
+
+
+32
+                              1 Gestural timing and contrast: an Irish case study
+
+
+alignment of velarization (= significant negative skew at C end) in this study
+either (but see the discussion below).
+   3. In coda stops, both palatalization and velarization gestures should be roughly
+simultaneous with the primary articulation, achieved around the beginning of the
+consonant and maintained through to the release. Here we must be more cautious,
+given limitations of our analysis discussed in the previous section. Still, our re-
+sults support such an interpretation for /Tˠ Kʲ Kˠ/ (Figs. 4, 6, discussion around
+Table 6): values at C end seem to be centered around zero for coda /Tˠ Kʲ Kˠ/.
+   Also in a more speculative vein, we hypothesized that secondary articulations
+in the coda might be more aligned with the beginning of labial closures but with
+the end of coronal closures. This is based on the relative strength of formant
+cues for labial stops vs. release cues for coronal stops, and it has been observed
+for limited Russian data. (Section 3.3). Our findings depart from predictions 1 and
+2 above in ways that are suggestive in this regard.
+   First, though in our data neither secondary articulations in the coda, nor ve-
+larization anywhere, generally favors alignment to a particular landmark — C
+beginning or release — /P/ contradicts these trends in having alignment with
+a landmark in all four conditions (syllable position x secondary articulation). In
+three out of these four conditions alignment favors vowel formant transitions (re-
+lease alignment for onsets, beginning or VC alignment in codas). The exception
+is coda /Pˠ/, which favors release alignment. Second, coda /Tʲ/ also contradicts
+the above trends, in favoring release alignment. All of these facts except for that
+of coda /Pˠ/ are consistent with the hypothesis that alignment of secondary ar-
+ticulations is fine-tuned not just to the location but to the relative importance of
+cues in labials vs. coronals. Assuming there is validity to these considerations,
+it’s not clear why /Pˠ/ does not follow the expectation.
+   There is a separate, articulatory, consideration relevant to the facts about labi-
+als. In the case of /Tʲ Tˠ/ or /Kʲ Kˠ/, there is tongue coupling, and possibly direct
+articulatory competition, between the primary articulator and a secondary dor-
+sal one, while this is not true of /Pʲ Pˠ/. Perhaps this allows other factors — such
+as constraints on perceptibility like those discussed here — to more freely deter-
+mine timing in the latter case. However, we do find alignment with C release in
+onset /Tʲ Kʲ/ and coda /Tʲ/, casting some doubt on the importance of such an
+articulatory effect. (See Bennett et al. 2018 for related discussion.)
+
+
+7 Inter-speaker variation
+In this section we provide a preliminary investigation of inter-speaker varia-
+tion in timing patterns in our data. The goal is to see how well the general-
+
+
+                                                                                  33
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+
+izations above hold up by speaker. In addition, previous research has reported
+inter-speaker variation in the production of /Cˠ Cʲ/ contrasts in Scottish Gaelic
+(Sung et al. 2018) and in Russian (Kochetov 2002, 2009). As for Irish, drawing
+on the same dataset analyzed here, Bennett et al. (2023) find that speakers dif-
+fer in how robustly /Cˠ Cʲ/ contrasts are distinguished by dorsal position across
+contexts. For example, some speakers seem to completely merge coda labi/Pˠ Pʲ/
+following /iː/, at least in terms of dorsal shape and position, while other speak-
+ers maintain distinct dorsal postures for these consonants in this context.19 This
+pattern of inter-speaker variation, along with others observed by Bennett et al.
+(2023), raises the question of whether speakers might differ with respect to the
+patterns of gestural timing reported in aggregate in section 5.
+   Fig. 14 shows loess-smoothed regressions for the trajectories of dorsal back-
+ness values across consonant start, midpoint, and end, for all combinations of
+syllable position, consonant place, and secondary articulation. This is akin to
+Fig. 4, but here separate regressions are provided for each speaker. For the sake
+of readability, we omit lines corresponding to the trajectories of specific tokens,
+as well as confidence intervals around the loess-smoothed estimates.
+   In general, the gestural timing patterns we observed in section 5 are broadly
+reflected in the patterns of timing observed for each individual’s data. For exam-
+ple, the secondary articulation for onset /Kʲ/ seems to peak at C release for all
+three speakers whose data is included in this condition. Similarly, for both onset
+and coda /Tʲ/, speakers mostly show a consistent pattern of aligning peak dor-
+sal fronting with C release. However, still focusing on /Tʲ/, speakers also seem
+to differ in how distinct dorsal position is at C end vs. C start for this sound, and
+two speakers seem to show no significant fronting over time for onset /Tʲ.
+   To quantify these patterns, we computed confidence intervals around the mean
+of each speaker’s dorsal backness values at consonant end, relative to consonant
+start, using a non-parametric bootstrapping resampling method, implemented
+using the smean.cl.boot function in the Hmisc package in R (Harrell Jr. 2023, R
+Development Core Team 2020). If the confidence interval around each speaker’s
+mean at C end is significantly different from zero, this would indicate that the
+dorsal position of the secondary articulation peaks at release, assuming that the
+mean values are fronter for /Cʲ/ and backer for /Cˠ/. If instead the mean val-
+ues are backer for /Cʲ/ and fronter for /Cˠ/, this would indicate that secondary
+articulations peak at C start.
+
+ 19
+      Bennett et al. (2023) report measures taken at C release for onset consonants, and at C start in
+      the VC transition for coda consonants; they do not investigate possible changes in articulatory
+      posture across timepoints within a given consonant, as we do here.
+
+
+
+34
+                                        1 Gestural timing and contrast: an Irish case study
+
+
+             P               P               T               T               K               K
+             Cʲ              Cˠ              Cʲ              Cˠ              Cʲ              Cˠ
+ 0.1
+
+
+
+ 0.0
+
+
+
+
+                                                                                                        Onset
+ -0.1
+
+
+
+
+ 0.1
+
+
+
+ 0.0
+
+
+
+
+                                                                                                        Coda
+ -0.1
+
+
+
+        Start Mid End   Start Mid End   Start Mid End   Start Mid End   Start Mid End   Start Mid End
+
+
+           Figure 14: By-speaker trajectories for backness of dorsal peak over C
+           start, midpoint, end timepoints, relative to values at C start. Colored
+           lines represent loess-smoothed regressions over each speaker’s values
+           at each timepoint.
+
+
+   In order to reduce the number of statistical comparisons involved, we limited
+this analysis to backness values at C end. We chose non-parametric bootstrap-
+ping to estimate the means and confidence intervals, rather than a parametric
+method like a t-test, because (i) bootstrapping methods do not assume that the
+underlying data is normally distributed, and (ii) bootstrapping is more robust
+for smaller sample sizes. Sample size is a potential concern here, since splitting
+our data up by speaker substantially reduces the number of observations per
+comparison: for most combinations of speaker and condition, we have just 10-15
+observations at C end (minimum = 8; 58/60 comparisons have at least 10 obser-
+vations). In applying non-parametric boostrapping to this data we sampled with
+replacement 10,000 times for each combination of speaker and condition. This
+resulted in 60 total bootstrapped estimates (Fig. 14).
+   We reiterate that caution must be taken in interpreting these results, given
+the small sample sizes involved (see e.g. Chernick 2011: Ch.9 with respect to
+
+
+
+                                                                                                           35
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+
+bootstrap methods, specifically). We nonetheless think it is useful to consider,
+in a broad and exploratory sense, the extent to which individual speakers might
+differ in their patterns of gestural timing for secondary articulations across con-
+texts. Table 7 reports the significant results produced by this method, with a
+significance threshold of 𝛼 = .05.20
+            Table 7: Significant differences between distributions of backness val-
+            ues, relative to C start, at C end, by condition. Counts refer to number
+            of speakers showing each pattern.
+
+               Pʲ                Tʲ                 Kʲ
+ Onset         Release: 5/7      Release: 3/5       Release: 3/3
+ Coda          VC: 3/7           Release: 3/5       0/3 significant
+               Pˠ                Tˠ                                Kˠ
+ Onset         Release: 6/7      Release: 2/5, C start: 1/5        C start: 1/3
+ Coda          Release: 3/7      Release: 1/5, VC: 1/5             VC: 1/3
+
+   Again, the results in Table 7 broadly reflect the findings of section 5. First,
+palatalized /Cʲ/ consistently shows release alignment in onset position. For each
+place of articulation, the majority of speakers represented in that condition show
+release alignment, though it is not everyone. Two speakers do not align the peak
+of onset palatalization with the release of /Pʲ/, and likewise for /Tʲ/. In most other
+conditions few or no speakers show alignment with either consonant landmark.
+The exceptions are familiar from the discussion in section 6: several/most speak-
+ers do align secondary articulations for labials and for /Tʲ/.
+   Fig. 15 plots the same data as in Fig. 14, but pooled across places of articulation,
+so that each estimated trajectory is based on a larger number of observations.
+One can see in this figure our overall findings that onset palatalization aligns
+with C release while coda secondary articulations remain relatively unchanging
+throughout. We see release alignment for onset velarization as well, but this is
+mostly attributable to onset /Pˠ/ as we have seen.
+   On the whole, we can draw two tentative conclusions from the above. First,
+alignment patterns for individual speakers more or less replicate the overall pop-
+ulation trends reported in section 5. Second, however, there are signs of the vari-
+ability predicted by our first hypothesis in section 6. Though we did not find
+ 20
+      Given the fact that Table 7 reports multiple comparisons, we should arguably use a Bonferroni-
+      corrected significance threshold of 𝛼 = .05/60 ≈ .0008. Since this is an extremely conservative
+      threshold for significance, and since our aims here are mostly exploratory, we opted for the
+      standard 𝛼 = .05 instead. Using the conservative threshold of 𝛼 = .0008 shrinks the number of
+      significant results in Table 7 from 33 to 21, but does not affect the broad qualitative conclusions
+      we would draw from this data.
+
+
+36
+                                     1 Gestural timing and contrast: an Irish case study
+
+
+
+                                      Cʲ                      Cˠ
+
+                     0.05
+
+
+
+
+                                                                            Onset
+                     0.00
+                     -0.05
+
+
+                     0.05
+
+
+
+
+                                                                            Coda
+                     0.00
+                     -0.05
+
+                             Start   Mid    End       Start   Mid    End
+
+            Figure 15: By-speaker trajectories for backness of dorsal peak over C
+            start, midpoint, end timepoints, relative to values at C start. Colored
+            lines represent loess-smoothed regressions over each speaker’s values
+            at each timepoint, collapsing across place of articulation.
+
+greater variability for codas (or for labials) in our pooled data, here we see that
+more patterns of alignment occur in codas than in onsets. Specifically, while re-
+lease alignment and held alignment are the only patterns found for onset conso-
+nants (except for one speaker who aligned with C start for /Tʲ/), we find release,
+VC transition, and held alignment in the case of codas.21 There is likewise some
+suggestive evidence here that speakers may differ, to some extent, in their pre-
+ferred timing patterns across different contexts.
+   To be sure, more work needs to be done to verify that these patterns of variabil-
+ity reflect bonafide inter-speaker differences, rather than accidental facts about
+our particular sample of speakers and recordings. Confirming these patterns of
+variability in a larger dataset, and exploring potential underlying causes (e.g. di-
+alect variation), is a clear topic for future research.
+
+
+8 Against anti-phase timing as the source of onset-coda
+  asymmetries in palatalization
+Our discussion has assumed that secondary dorsal articulations in Irish are coor-
+dinated with consonantal landmarks, as defined by the production of the conso-
+ 21
+      When alignment is not aligned uniquely with the beginning or end of the consonant (= ‘held
+      alignment’), this might be understood as alignment with both, i.e. simultaneous production, as
+      discussed earlier.
+
+
+
+                                                                                                 37
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+
+nant’s primary articulation. This strikes us as a reasonable assumption: after all,
+palatalization and velarization are properties of consonants, at least phonologi-
+cally.
+   Beyond alignment with consonant landmarks, we have suggested (section 3.3)
+that timing of secondary articulations might be constrained in perceptually adap-
+tive ways. For example, in coda position, speakers must ‘choose’ whether to align
+the peak of a secondary articulation near the V-C boundary, where formant tran-
+sition cues reside, at C release, where there are cues from burst quality, or with
+both landmarks. Both of these landmarks are important, perceptually speaking,
+for expressing secondary articulation contrasts. In coda position, unlike in onset
+position, these landmarks do not coincide, and so speakers can align peak /Cʲ Cˠ/
+gestures at the V-C transition, or at the C release; or they can try to maintain
+the peak /Cʲ Cˠ/ gesture throughout the entire consonant, so that the gesture oc-
+curs at both the V-C transition and C release. Evidently, speakers adopt different
+timing strategies in coda position depending on the place and secondary articu-
+lation of the consonant, in ways that seem largely consistent with the hypothesis
+of perceptual optimization (section 5).
+   However, given the broad asymmetry we find between patterns of gestural
+alignment in the onset vs. coda for palatalization, we might look elsewhere for an
+understanding of what is happening. Studies of articulatory coordination have
+reported asymmetries in how segment-internal gestures are timed in onset vs.
+coda position. To illustrate, consider the American English lateral /l/, which
+has both a primary tongue tip constriction, and a secondary, vowel-like dorsal
+constriction (e.g. Krakow 1999, Sproat & Fujimura 1993, Proctor 2009, Lee-Kim et
+al. 2013, Turton 2017). In onset position (e.g. lab), the coronal and dorsal gestures
+for /l/ are largely synchronous. However, in coda position (e.g. ball), they appear
+to be produced sequentially, with the dorsal constriction preceding the coronal
+constriction in time. In codas, the overlap of the dorsal constriction for /l/ with
+the preceding vowel leads to a distinct and highly audible coloration of the vowel
+itself.
+   Similar observations have been made for the relative timing of oral closure
+and velum lowering in the American English nasals /m n/ (Krakow 1999, Byrd
+et al. 2009). In this case, velar lowering is largely synchronous with oral closure
+formation in onsets, but precedes closure formation in codas, producing exten-
+sive coarticulatory nasalization on the preceding vowel. Generalizing over these
+results, we can perhaps say that more open constrictions tend to precede more
+narrow constrictions for articulatorily complex consonants in coda position, at
+least in American English (Krakow 1999, Sproat & Fujimura 1993, Iskarous &
+Kavitskaya 2010).
+
+
+38
+                               1 Gestural timing and contrast: an Irish case study
+
+
+   These asymmetries in articulatory timing have been interpreted as a reflec-
+tion of different underlying patterns of gestural coordination in onsets vs. codas.
+In onsets, gestures tend to be coordinated in-phase, or synchronously. In codas,
+gestures tend to be coordinated anti-phase, or sequentially. It has been argued
+that in-phase coordination is inherently more stable than anti-phase coordina-
+tion, not just in speech but in motor planning and execution more generally (e.g.
+Goldstein et al. 2006, Nam et al. 2009, Parrell 2012 and references there). We
+might thus expect gestural alignment between primary and secondary constric-
+tions to be more variable in codas for /Cʲ Cˠ/, exactly as we find (at least for
+palatalization), if those constrictions are timed in an anti-phase relationship.
+   There are at least two reasons to doubt this alternative analysis. First, Irish
+palatalization timing is more variable in the coda only in the sense of allowing
+more patterns of alignment depending on place of articulation (and to some ex-
+tent speaker), as just discussed: alignment tends toward C start for /Pʲ/, C release
+for /Tʲ/, and neither for /Kʲ/. In other words, as shown in Figure 6 and Table
+6, differences between onset and coda position in our study mostly boil down
+to which landmark the secondary articulation is coordinated with. Measures of
+variance for the timing of primary and secondary articulations actually imply
+similar variance in onset vs. coda position, not increased variance in codas.
+   Second, palatalization is not simultaneous with the primary constriction in
+onset position; rather, this study and previous ones have found a very consistent
+lag in the palatalization gesture, in both Irish and Russian, such that the peak
+occurs around the release of the primary constriction (see also Shaw et al. 2021).
+As for coda position, though secondary articulations in our data peak around the
+onset of the primary constriction in the case of /Pʲ/, this is not true at all for other
+conditions. Furthermore, as we saw in section 3.3, for Russian consonants other
+than stops, the facts suggest secondary articulations that are co-extensive with
+the primary ones, as we have found for some conditions here.
+   In the current study, we can investigate this question empirically, building on
+the discussion of Russian in Iskarous & Kavitskaya (2010). If secondary /Cʲ Cˠ/
+are timed anti-phase (sequentially), then the gestural peak for /Cʲ Cˠ/ should
+occur during the vowel, well prior to the achievement of the primary constriction.
+This would mirror findings for American English /l/ and nasals in coda position,
+in which the dorsal constriction for /l/, and the velar lowering for /m n/, are
+timed to reach a peak during the vowel itself.
+   A major acoustic correlate for the /Cʲ Cˠ/ contrast in Irish (and other lan-
+guages) is the F2 transition on neighboring vowels. F2 largely reflects dorsal back-
+ness in this context; it is also affected by lip rounding (e.g. Bennett et al. 2019).
+If /Cʲ Cˠ/ gestures peak during the vowel in VC# coda sequences, as predicted
+
+
+                                                                                     39
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+
+by anti-phase alignment, F2 values should show evidence of peaking during the
+vowel as well.
+   To assess this prediction, we measured F2 during the vowel in /VC#/ sequences,
+where our target consonant was a word-final coda consonant. The vowel was
+segmented from the preceding consonant at the beginning of voicing: since our
+focus is on VC transitions, not CV transitions, the criterion used to identify the
+beginning of the vowel is not especially important. The vowel was segmented
+from the following target stop consonant at the point where spectral energy in
+the vowel abruptly dropped off, particularly in the region of F2 (see e.g. Turk et
+al. 2006). Any preaspiration on the following final consonant was segmented as
+part of the vowel itself, since significant formant transitions may occur during
+periods of aspiration (e.g. Stevens & Klatt 1974; see also Clayton 2010). Formant
+tracking may be less accurate during preaspiration than during vowels, given
+the presence of aperiodic noise, and the relative weakness of higher formants
+during aspiration. That said, visual inspection of a number of preaspirated tokens
+suggests that F2 was still tracked fairly well during preaspirated transitions. 630
+vowels were segmented in this analysis.22
+   F1, F2, and F3 were extracted from each vowel using the Fast Track Praat plugin
+(Boersma & Weenink 2020, Barreda 2021; https://github.com/santiagobarreda/
+FastTrack). The first three formants were measured every 2ms during the vowel,
+and the resulting formant trajectories were then time-normalized before plotting
+(Fig. 16). Formants were extracted using the default settings of the Fast Track
+plugin, except that the number of analysis steps was set to 24.
+   In order to pool F2 measurements across speakers, each speaker’s formant
+values were normalized using Barreda-Neary log-additive regression normaliza-
+tion (Barreda & Nearey 2018). These normalized values were highly correlated
+(𝑟 = 0.96) with normalized values produced by a different method, namely di-
+viding F1 and F2 by F3 at the same measurement point (e.g. Monahan & Idsardi
+2010). Outliers were excluded from analysis by removing values for F2 which
+were greater than 2 standard deviations away from the mean for each formant.
+This resulted in the elimination of 460 F2 measurements, about 0.7% of the orig-
+inal F2 data. This left 66,677 F2 measurements for analysis (630 vowels, with a
+mean of 106 F2 measurements per vowel).
+   Figure 16 provides loess-smoothed F2 trajectories during the vowel in /VC#/
+sequences, comparing coda /Cˠ Cʲ/ at each place of articulation, in combination
+with the vowels /iː ɔː uː/.
+ 22
+      F1 tracking was noisy, particularly for our Ulster speakers. We assume this is due to preaspira-
+      tion, which appears to have less of an effect on F2 tracking, the formant we’re mostly interested
+      in here.
+
+
+
+40
+                                                         1 Gestural timing and contrast: an Irish case study
+
+
+
+                                     P                             T                         K
+                0.8
+
+                0.4
+                                                                                                               iː
+                0.0
+Normalized F2
+
+
+
+
+                -0.4
+                 0.8
+
+                0.4
+                                                                                                               ɔː   Cˠ
+                0.0                                                                                                 Cʲ
+                -0.4
+                 0.8
+
+                0.4
+                                                                                                               uː
+                0.0
+
+                -0.4
+                       0   20   40       60   80 100 0   20   40       60   80 100 0   20   40   60   80 100
+
+                 Normalized time (%) of vowel preceding coda C
+
+                       Figure 16: Pooled, speaker-normalized F2 trajectories across time-
+                       normalized steps, grouped by primary place of articulation and vowel
+                       context, for coda /VC#/. Lines represent loess-smoothed regressions
+                       over F2 values preceding /Cˠ Cʲ/ in each condition: solid black line for
+                       /Cˠ/, dashed red line for /Cʲ/. Gray vertical line marks 50% point of
+                       the vowel.
+
+
+   Our empirical question is when F2 peaks for /Cʲ/, or reaches a minimum for
+/Cˠ/, in /VC#/ sequences. Since F2 is our acoustic surrogate for dorsal fronting
+and backing, extreme values for F2 should correspond to the timepoints at which
+the tongue body is furthest front for /Cʲ/, or back for /Cˠ/.
+   Answering this question is easiest for /VC#/ sequences in which the vowel
+and following consonant have different backness specifications. This is because
+we expect to find very salient F2 movements in cases of mismatched vowel and
+consonant backness (Bennett et al. 2018), which should make it easy to see where
+F2 trajectories reach their most extreme values. In our data, this corresponds to
+/iːCˠ/ sequences for velarized coda consonants, and /uːCʲ/ and /ɔːCʲ/ sequences
+for palatalized coda consonants.23
+   23
+         It should be acknowledged that our use of the symbols /iː uː ɔː/ to describe vowel quality
+         obscures some variation in the quality of these vowels between speakers. Most notably, our
+         Ulster speakers tend to front /uː ɔː/, often producing them as something like [ʌː ɛː]. Note,
+         though, that the fronting of /uː ɔː/ should actually make palatalized /Cʲ/ seem less front, by
+         comparison, in this context. Despite that fact, we still see clear fronting at C start relative to
+         the preceding vowel for /Cʲ/ after /uː ɔː/ in Fig. 16.
+
+
+
+                                                                                                                         41
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+
+   We begin with /uːCʲ/, corresponding to dashed red lines in the bottom row of
+Fig. 16. Here, it is clear that F2 begins to rise around V midpoint, or even earlier,
+and does not reach its peak until the beginning of the following consonant. The
+same pattern holds, perhaps even more clearly, for /Cʲ/ after /ɔ:/ (dashed red
+line, middle row).
+   For /iːCˠ/ sequences (solid black line, top row) it is again clear that F2 reaches
+an extreme value at C start, rather than any earlier timepoint. A potential excep-
+tion is /iːkˠ/, which shows a relatively flat F2 trajectory throughout the vowel;
+but even here we can see a slight lowering of F2 at the VC transition, into the
+beginning of the consonant.
+   The same patterns are visible if we plot F2 trajectories in physical rather than
+normalized time. Fig. 17 shows vowel F2 for up to 200ms preceding the follow-
+ing coda consonant. Vertical arrows mark when F2 reaches its expected extreme
+value in each loess curve for /iːCˠ uːCʲ ɔːCʲ/, the contexts in which there is a
+mismatch in backness between the vowel and following coda consonant.
+
+                                   P                          T                          K
+                0.8
+
+                0.4
+                                                                                                          iː
+                0.0
+Normalized F2
+
+
+
+
+                                              0ms                        0ms                        0ms
+                -0.4
+                 0.8
+
+                0.4
+                                                                                                          ɔː   Cˠ
+                0.0
+                                                                                                               Cʲ
+                                         14ms                            0ms                        0ms
+                -0.4
+                 0.8
+
+                0.4
+                                                                                                          uː
+                0.0
+                                              0ms                        0ms                        0ms
+                -0.4
+                       200   150   100   50     0 200   150   100   50     0 200   150   100   50     0
+
+                                   Time (in ms) preceding coda C
+
+                       Figure 17: Pooled, speaker-normalized F2 trajectories across time,
+                       grouped by primary place of articulation and vowel context, for coda
+                       /VC#/. X-axis shows ms preceding closure of following coda consonant
+                       (up to 200ms). Arrows mark F2 extrema of loess curves for /iːCˠ uːCʲ
+                       ɔːCʲ/ (peak for /Cʲ/, trough for /Cˠ/).
+
+  We can compare the timecourse of F2 movement in Fig. 17 to the timing lags
+for the tongue tip and body gestures of non-contrastive dark [ɫ] reported by
+
+
+42
+                                     1 Gestural timing and contrast: an Irish case study
+
+
+e.g. Sproat & Fujimura (1993) and Gick et al. (2006). Sproat & Fujimura (1993:
+299,303) report lags of 30-110ms between an earlier dorsal constriction and a later
+tongue tip constriction for coda [ɫ] in American English. Gick et al. (2006: Tab.
+2) report smaller lags (≈ 20-25ms) for Western Canadian English, Quebec French,
+and Squamish Salish.24 Browman & Goldstein (1995) present 4 X-ray microbeam
+tokens of ‘peel’ [pʰiɫ] from 1 speaker, and find that tongue body retraction for
+[ɫ] peaks approximately 20-50ms before tongue tip closure for [ɫ] is completed,
+i.e. during the preceding vowel.
+   In contrast, Fig. 17 shows that F2 extrema for these loess curves generally occur
+at the beginning of closure for the coda consonant, at least in those conditions
+where F2 transitions are most visible and interpretable due to a mismatch in
+backness between the vowel and following coda consonant. The only exception
+is /ɔːPʲ/, which has just a 14ms lag between the F2 peak during the vowel and the
+following coda /Pʲ/ in our data. There is clearly a contrast between these timing
+patterns, which imply (near) simultaneity between primary and secondary artic-
+ulations in /VC/, and the more sequential timing reported for non-contrastive
+dark [ɫ] in Sproat & Fujimura (1993), and Gick et al. (2006) (see also Browman &
+Goldstein 1995, Krakow 1999).25
+   These patterns are incompatible with the claim that dorsal gestures for sec-
+ondary /Cˠ Cʲ/ articulations in coda position peak during the preceding vowel.
+Consequently, they are also incompatible with the claim that secondary /Cˠ Cʲ/
+articulations are timed to precede primary articulations in coda position. That is,
+the available evidence argues against the hypothesis that primary and secondary
+articulations are timed in a sequential, anti-phase relation in coda position.
+   The alternative hypothesis, which we adopt, is that secondary /Cˠ Cʲ/ articu-
+lations are timed in-phase with either C start or C release, or with both, in coda
+position. (See also Shaw et al. 2021 on the timing of palatalization gestures with
+primary articulations in onset position.) We propose that this variability in tim-
+ing reflects the fact that there is no single perceptually-optimal timing pattern in
+coda position, unlike onset position. In the absence of a unique, optimal timing
+
+ 24
+    The difference in lag magnitudes reported by Sproat & Fujimura (1993) vs. Gick et al. (2006)
+    likely reflects the fact that Sproat & Fujimura investigated /l/ darkening across a wider range
+    of contexts, leading to greater variability in segment duration. Inter-speaker variation may
+    also play a role, as Gick et al. (2006: 65) note. Gick et al. (2006) is also an ultrasound study with
+    a relatively low framerate (30 fps ≈ 1 frame every 33ms), so their reported lag values are not
+    particularly precise.
+ 25
+    Gick et al. (2006) similarly find simultaneous alignment of primary and secondary articulation
+    in Serbo-Croatian /lˠ/, rather than anti-phase alignment as in English, and relate this finding
+    to the fact of a palatalization contrast for laterals in the language (/lˠ/ vs. /lʲ/).
+
+
+
+                                                                                                     43
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+
+pattern, speakers may be expected to show variation between different alterna-
+tives, giving rise to the gestural timing patterns we report here.
+
+
+9 Discussion and conclusion
+We began with the observation that secondary /C( ˠ) Cʲ/ contrasts are often elim-
+inated in coda position and among labial consonants. This typological fact likely
+has a phonetic source in the relative difficulty of perceiving /C( ˠ) Cʲ/ contrasts
+in these contexts (e.g. Kochetov 2002, 2004, Ní Chiosáin & Padgett 2012, Padgett
+& Ní Chiosáin 2018), and the tendency to reduce articulatory gestures, including
+palatalization gestures, in codas (e.g. Kochetov 2002, 2006, 2009, Bennett et al.
+2023).
+   Our results may extend this broad line of reasoning, to the extent that they
+suggest greater variability in timing strategies in coda position compared to on-
+set position. Timing patterns which are more variable across contexts (such as
+place and syllable position) might be harder for listeners to attend to. If timing
+patterns also differ by speaker, this would be even more clearly true, since lis-
+teners cannot know ahead of time when the peak dorsal gestures for /C( ˠ) Cʲ/
+contrasts will occur.
+   However, we have also argued that productions may be organized in ways that
+make life easier for listeners (whether this is intentional or not, see discussion
+in section 3.1). In our data, secondary articulations in onset position are either
+timed to peak at C release, or appear to be held constant from C beginning to
+C release. In either case, gestural timing makes key acoustic information about
+/C( ˠ) Cʲ/ contrasts available at crucial perceptual landmarks, namely C release
+itself, and the following CV transition for onsets.
+   In coda position, consonants at different places of articulation show different
+timing patterns. The palatalization gesture for coda labial /Pʲ/ peaks at the VC
+transition. We have suggested that this reflects the perceptual importance of for-
+mant transitions for signaling /C( ˠ) Cʲ/ contrasts in labials, given the weak and
+relatively uninformative release bursts of labial stops. For coda coronal /Tʲ/, we
+instead find alignment of secondary articulations to C release; we have suggested
+that this reflects the acoustic and perceptual salience of coronal stop releases,
+which are very informative as to /C( ˠ) Cʲ/ contrast in Irish (e.g. Ní Chiosáin &
+Padgett 2012). If the secondary articulations for coda /Tˠ Kʲ Kˠ/ are held roughly
+constant until C release, as we’ve argued, that too may reflect the perceptual im-
+portance of release cues for coronal and dorsal stops.
+   We have seen that timing patterns for velarized /Cˠ/ seem to be more am-
+biguous, or perhaps more varied, than the timing patterns found for palatalized
+
+
+44
+                                      1 Gestural timing and contrast: an Irish case study
+
+
+/Cʲ/, particularly in onset position (as also found by Bennett et al. 2018). Why
+should this be? One idea pursued in Bennett et al. (2023) connects this finding to
+an independently known fact about palatal constrictions: they are more resistant
+to coarticulation (and more likely to induce coarticulation in other sounds) than
+many other kinds of sounds. Put differently, palatal constrictions exhibit a high
+degree of articulatory constraint (Recasens et al. 1997, Recasens 1999, Recasens
+& Espinosa 2009, Farnetani & Recasens 2010, Recasens & Rodríguez 2016). A re-
+viewer suggests a second (possibly related) idea: that tongue body fronting may
+involve less complex muscle engagement than tongue body raising and backing
+(see e.g. Gick et al. 2012: 152-8). Finally, we know that lip rounding plays a role
+in enhancing velarization in Irish (Bennett et al. 2019). A fuller understanding of
+gestural timing in /Cˠ Cʲ/ contrasts may therefore require attention to the move-
+ment of the lips, as well as the tongue. We leave all of these ideas for further
+research.
+   It should be borne in mind that our results here pertain only to stop consonants.
+As discussed in section 3.3, previous findings on Russian suggest that timing
+facts may depend on a consonant’s manner of articulation.26 Unlike stops, other
+consonants such as fricatives, nasals and liquids do not have release bursts, and
+they may carry internal cues to the palatalization contrast. Whether a lateral is
+palatalized or velarized, for example, is easily audible during closure. Hence we
+do not readily expect our findings to extend to other manners of articulation, and
+further reasearch on this topic is called for.
+   Our characterization of the issues has been oversimplified in an important
+way: we have discussed cues to palatalization without considering the larger
+phonetic context in which a word occurs. If a word like píob /pʲiːbˠ/ occurs
+in isolation, then indeed the cues to palatalization of the initial consonant lie
+only at the consonant’s release, and those of the final consonant lie at both the
+VC transition and the consonant’s release (assuming the consonant is released,
+as it generally would be in Irish). However our target words were in a different
+context, since we used the carrier sentence [ˈdˠuːrʲtʲ ˈiːfˠə ___ əˈnˠʊrˠə] ‘Aoife
+said ___ last year’. They were preceded by a vowel-final word and followed by a
+vowel-initial one. In such a context a listener could in principle have access to VC
+formant transitions, a burst and CV formant transitions for both initial and final
+consonants. Why, then, did we not find identical patterns of timing for initial and
+final consonants?
+   Had we manipulated the phrasal context, independently varying the immedi-
+ate segmental context of initial versus final consonants, and had this had effects
+ 26
+      Bennett et al. (2018) do not find a difference in timing between Irish stops and fricatives, but
+      they only examine consonants in word-/syllable-initial position.
+
+
+
+                                                                                                   45
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+
+on timing, we might have concluded that speakers can adjust the relative tim-
+ing of primary and secondary articulations ‘online’, that is, in a way that adapts
+to phrasal context. We did not manipulate phrasal context. However, since we
+in fact found different patterns of timing for initial and final consonants, even
+though the segmental context was the same (V V), our conclusion might rather
+be that speakers cannot adjust the relative timing of articulations in this way.
+Though somewhat speculative, this conclusion seems well in line with the hy-
+pothesis that word-internal gestural timing is lexically-specified, and so less vari-
+able than the relative timing of gestures across a word boundary (Browman &
+Goldstein 1988, Byrd 1996, Browman & Goldstein 2000), an idea supported by the
+results of Cho (2001) (see Strycharczuk 2019, Mousikou et al. 2021 and references
+therein for further evidence and discussion). The question then becomes, what
+patterns of timing, fixed in the lexicon, would be most perceptually adaptive?
+Such patterns of timing would have to facilitate the perception of cues to palatal-
+ization not only in the most accommodating of environments (such as that of
+our carrier sentence); they would have to succeed in all environments, includ-
+ing ones where a consonant is preceded or followed by silence or a consonant
+(see Flemming 2001: 30-1 for a similar point). It is possible that lexically-specified
+gestural timing ‘gravitates’ to settings that work best for listeners across all en-
+vironments.
+   Overall, our data suggests that relatively low-level timing patterns in the pro-
+duction of the Irish may be structured in such a way as to maximize the percep-
+tual salience and recoverability of cues to /C( ˠ) Cʲ/ contrasts.
+
+
+Abbreviations
+sg.    singular
+                                          P    labial stop
+pl.    plural
+                                          T    coronal stop
+gen.   genitive
+                                          K    dorsal stop
+fps    frames per second
+
+Contributions
+Ryan Bennett and Jaye Padgett contributed to conceptualization of the project,
+design of the methodology and items, data collection, data analysis, and writing.
+Grant McGuire and Máire Ní Chiosáin contributed to conceptualization of the
+project, design of the methodology and items, data collection, reviewing of the
+manuscript, and editing. Jennifer Bellik contributed to data analysis.
+
+
+
+46
+                               1 Gestural timing and contrast: an Irish case study
+
+
+Appendix
+
+       Table 8: Words used in the study: onset/word-initial position
+
+                           p/b                  t/d             k
+            iː             bˠiː                 tˠiː           kˠiː
+                        ‘yellow’            ‘straw’          ‘way’
+                         pʲiːsˠə             dʲiːnˠ          kʲiːrˠ
+                         ‘piece’             ‘roof’        ‘a comb’
+           uː           pˠuːkˠə              tˠuːsˠ           kˠuː
+                         ‘ghost’           ‘a start’      ‘a hound’
+                           bʲuː               tʲuːsˠ      kʲu:nˠəsˠ
+                    ‘would be worth’     ‘thickness’   ‘quiet (noun)’
+           ɔː              pˠɔː                tˠɔː          kˠɔːrˠ
+                      ‘pay, wages’         ‘is (be)’          ‘car’
+                          pʲɔːnˠ              tʲɔːnˠ         kʲɔːnˠ
+                          ‘pen’              ‘tight’     ‘one/head’
+
+
+           Table 9: Words used in the study: coda/word-final position
+
+                              p/b                  t/d            k/g
+      iː                    pʲiːbˠ               i:ədˠ           i:əkˠ
+                       ‘pipes (gen.pl)’         ‘them’           ‘pay’
+                             pʲiːbʲ              trʲiːdʲ         bʲe:kʲ
+                           ‘pipes’            ‘through’        ‘shout’
+      uː                    lˠuːbˠ                uːdˠ         ɡlʲuːkˠ
+                           ‘stitch’              ‘that’         ‘peep’
+                            lˠuːbʲ              klˠuːdʲ         bˠuːkʲ
+                 ‘stitch (dat.sg./variant)’   ‘covering’     ‘pinnacle’
+      ɔː                    lˠɔːbˠ              stˠɔːtˠ         fˠɔːɡˠ
+                       ‘mud (variant)’          ‘state’        ‘leave’
+                            lˠɔːbʲ                 ɔːtʲ         rˠɔːɡʲ
+                            ‘mud’               ‘place’    ‘sudden rush’
+
+
+
+
+                                                                               47
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+        Table 10: Token counts by speaker, place, and secondary articulation
+
+                 Dialect      Speaker     C place     /Cˠ Cʲ/    n
+                 Connacht     1           Labial      Cˠ        89
+                 Connacht     1           Labial      Cʲ        90
+                 Connacht     2           Labial      Cˠ        72
+                 Connacht     2           Labial      Cʲ        72
+                 Connacht     2           Coronal     Cˠ        71
+                 Connacht     2           Coronal     Cʲ        66
+                 Connacht     2           Dorsal      Cˠ        72
+                 Connacht     2           Dorsal      Cʲ        71
+                 Connacht     3           Labial      Cˠ        90
+                 Connacht     3           Labial      Cʲ        89
+                 Connacht     3           Dorsal      Cˠ        84
+                 Connacht     3           Dorsal      Cʲ        87
+                 Munster      1           Labial      Cˠ        90
+                 Munster      1           Labial      Cʲ        90
+                 Munster      1           Coronal     Cˠ        85
+                 Munster      1           Coronal     Cʲ        83
+                 Munster      2           Labial      Cˠ        86
+                 Munster      2           Labial      Cʲ        88
+                 Munster      2           Coronal     Cˠ        79
+                 Munster      2           Coronal     Cʲ        85
+                 Ulster       1           Labial      Cˠ        90
+                 Ulster       1           Labial      Cʲ        90
+                 Ulster       1           Coronal     Cˠ        90
+                 Ulster       1           Coronal     Cʲ        86
+                 Ulster       2           Labial      Cˠ        90
+                 Ulster       2           Labial      Cʲ        90
+                 Ulster       2           Coronal     Cˠ        90
+                 Ulster       2           Coronal     Cʲ        84
+                 Ulster       2           Dorsal      Cˠ        90
+                 Ulster       2           Dorsal      Cʲ        90
+
+
+
+
+48
+                              1 Gestural timing and contrast: an Irish case study
+
+
+References
+Baayen, R. Harald, Douglas Davidson & Douglas Bates. 2008. Mixed-effects mod-
+  eling with crossed random effects for subjects and items. Journal of memory
+  and language 59(4). 390–412.
+Barr, Dale, Roger Levy, Christoph Scheepers & Harry Tily. 2013. Random ef-
+  fects structure for confirmatory hypothesis testing: keep it maximal. Journal
+  of Memory and Language 68(3). 255–278. DOI: 10.1016/j.jml.2012.11.001.
+Barreda, Santiago. 2021. Fast Track: fast (nearly) automatic formant-tracking us-
+  ing Praat. Linguistics Vanguard 7(1). 20200051.
+Barreda, Santiago & Terrance Nearey. 2018. A regression approach to vowel nor-
+  malization for missing and unbalanced data. The Journal of the Acoustical So-
+  ciety of America 144(1). 500–520.
+Bateman, Nicoleta. 2011. On the typology of palatalization. Language and Linguis-
+  tics Compass 5(8). 588–602.
+Bennett, Ryan, Máire Ní Chiosáin, Jaye Padgett & Grant McGuire. 2018. An
+  ultrasound study of Connemara Irish palatalization and velarization. Jour-
+  nal of the International Phonetic Association 48(3). 261–304. DOI: 10 . 1017 /
+  S0025100317000494.
+Bennett, Ryan, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jenny Bellik.
+  2023. Effects of syllable position and place of articulation on secondary dorsal
+  contrasts: an ultrasound study of irish. ms. University of California, Santa Cruz
+  and University College Dublin.
+Bennett, Ryan, Jaye Padgett, Máire Ní Chiosáin, Grant McGuire & Jennifer Bel-
+  lik. 2019. Contrast enhancement and cue trading in Irish secondary consonant
+  articulations. In Sasha Calhoun, Paola Escudero, Marija Tabain & Paul Warren
+  (eds.), Proceedings of the 19th International Congress of Phonetic Sciences, Mel-
+  bourne, Australia 2019, 3584–3552. Canberra, Australia: Australasian Speech
+  Science and Technology Association Inc. https : / / assta . org / proceedings /
+  ICPhS2019/papers/ICPhS%5C_3597.pdf.
+Bird, Sonya & Natallia Litvin. 2021. Belarusian. Journal of the International Pho-
+  netic Association 51(3). 450–467. DOI: 10.1017/s0025100319000288.
+Biteeva, Ekaterina. 2021. Complexité et contrôle du geste linguo-palatal sous
+  l’éclairage de sa variabilité. le cas de la palatalisation en russe. aspects phoné-
+  tiques et phonologiques. Université Grenoble Alpes. (Doctoral dissertation).
+Boersma, Paul & David Weenink. 2020. Praat: doing phonetics by computer (ver-
+  sion 6.1.05). Computer program. Retrieved from http://www.praat.org/.
+
+
+
+
+                                                                                  49
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+
+Bolker, Benjamin, Mollie Brooks, Connie Clark, Shane Geange, John Poulsen, M.
+   Henry Stevens & Jada-Simone White. 2009. Generalized linear mixed models:
+   a practical guide for ecology and evolution. Trends in ecology and evolution
+   24(3). 127–135.
+Browman, Catherine & Louis Goldstein. 1988. Some notes on syllable structure
+   in Articulatory Phonology. Phonetica 45(2-4). 140–155.
+Browman, Catherine & Louis Goldstein. 1995. Gestural syllable position effects
+   in American English. In Fredericka Bell-Berti & Lawrence J. Raphael (eds.), 19–
+   33. Woodbury, NY: AIP Press.
+Browman, Catherine & Louis Goldstein. 2000. Competing constraints on in-
+   tergestural coordination and self-organization of phonological structures. Les
+   Cahiers de l’ICP. Bulletin de la communication parlée 5. 25–34.
+Byrd, Dani. 1996. A phase window framework for articulatory timing. Phonology
+   13(2). 139–169.
+Byrd, Dani, Stephen Tobin, Erik Bresch & Shrikanth Narayanan. 2009. Timing
+   effects of syllable structure and stress on nasals: a real-time MRI examination.
+  Journal of Phonetics 37(1). 97–110.
+Chernick, Michael. 2011. Bootstrap methods: a guide for practitioners and re-
+   searchers. Hoboken, NJ: John Wiley & Sons.
+Chitoran, Ioana. 2013. The phonology of Romanian: a constraint-based approach.
+   Berlin: De Gruyter.
+Cho, Taehong. 2001. Effects of morpheme boundaries on intergestural timing:
+   evidence from korean. Phonetica 58(3). 129–162.
+Clayton, Ian. 2010. On the natural history of preaspirated stops. University of
+   North Carolina at Chapel Hill. (Doctoral dissertation).
+Czaplicki, Bartłomiej. 2010. Palatalized labials in Polish dialects: an evolutionary
+   perspective. Journal of Slavic linguistics 18(2). 259–290.
+De Bhaldraithe, Tomás. 1975. The Irish of Cois Fhairrge, Co. Galway: a phonetic
+   study. First published 1945. Dublin: Dublin Institute for Advanced Studies.
+De Búrca, Seán. 1977. Syllabicity and palatalization. Studia Celtica 12. 396–404.
+Eska, Joseph F. 2017. The dialectology of Celtic. In Jared Klein, Brian Joseph,
+   Matthias Fritz & Mark Wenthe (eds.), Handbook of comparative and historical
+   Indo-European linguistics, 1264–1274. Berlin/Boston: De Gruyter Mouton.
+Farnetani, Edda & Daniel Recasens. 2010. Coarticulation and connected speech
+   processes. In William Hardcastle, John Laver & Fiona Gibbon (eds.), The hand-
+   book of phonetic sciences, 316–352. Oxford, UK: Blackwell.
+Flemming, Edward. 2001. Scalar and categorical phenomena in a unified model
+   of phonetics and phonology. Phonology 18(1). 7–44.
+
+
+
+50
+                              1 Gestural timing and contrast: an Irish case study
+
+
+Frick, Robert. 1995. Accepting the null hypothesis. Memory & Cognition 23(1).
+   132–138.
+Fujimura, Osamu, Marian Macchi & Lynn Streeter. 1978. Perception of stop con-
+   sonants with conflicting transitional cues. Language and Speech 21. 337–343.
+   DOI: 10.1177/002383097802100408.
+Gelman, Andrew & Jennifer Hill. 2006. Data analysis using regression and multi-
+   level/hierarchical models. Cambridge, UK: Cambridge University Press.
+Gick, Bryan, Fiona Campbell, Sunyoung Oh & Linda Tamburri-Watt. 2006. To-
+   ward universals in the gestural organization of syllables: a cross-linguistic
+   study of liquids. Journal of phonetics.
+Gick, Bryan, Ian Wilson & Donald Derrick. 2012. Articulatory phonetics. Malden,
+   MA: Wiley-Blackwell.
+Gick, Bryan, Ian Wilson, Karsten Koch & Clare Cook. 2004. Language-specific ar-
+   ticulatory settings: evidence from inter-utterance rest position. Phonetica 61(4).
+   220–233.
+Goldstein, Louis, Dani Byrd & Elliot Saltzman. 2006. The role of vocal tract ges-
+   tural action units in understanding the evolution of phonology. In Michael A.
+   Arbib (ed.), Action to language via the mirror neuron system, 215–249. Cam-
+   bridge, UK: Cambridge University Press.
+Green, Antony Dubach. 2001. The prosodic representation of clitics in irish. In
+   Birgit Gerlach & Janet Grijzenhout (eds.), Clitics in phonology, morphology and
+   syntax, 181–218. Amsterdam: John Benjamins.
+Greene, David. 1973. The growth of palatalization in Old Irish. Transactions of the
+   Philological Society 72(1). 127–136.
+Harrell Jr., Frank E. 2023. Hmisc: Harrell Miscellaneous. R package version 5.0-1.
+   https://CRAN.R-project.org/package=Hmisc.
+Hickey, Raymond. 2011. The dialects of irish: study of a changing landscape. Berlin:
+   Walter de Gruyter.
+Hueber, T., G. Challet & M. Stone B. Denby. 2008. Acquisition of ultrasound, video
+   and acoustic speech data for a silent-speech interface application. In Desmond
+   Derbyshire & Geoffrey Pullum (eds.), Proceedings of international seminar on
+   speech production (strasbourg, france), 365–369.
+International Phonetic Association (ed.). 1999. Handbook of the international pho-
+   netic association. Cambridge, UK: Cambridge University Press.
+Iskarous, Khalil & Darya Kavitskaya. 2010. The interaction between contrast,
+   prosody, and coarticulation in structuring phonetic variability. Journal of pho-
+   netics 38(4). 625–639.
+
+
+
+
+                                                                                  51
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+
+Iskarous, Khalil & Darya Kavitskaya. 2018. Sound change and the structure of
+   synchronic variability: phonetic and phonological factors in Slavic palataliza-
+   tion. Language 94(1). 43–83.
+Jackson, Kenneth. 1967. Palatalization of labials in the Gaelic languages. In Wolf-
+   gang Meid (ed.), Beiträge zur indogermanistik und keltologie, 179–192. Inns-
+   bruck: Sprachwissenschaftliches Institut der Universität Innsbruck.
+Katsika, Argyro. 2016. The role of prominence in determining the scope of
+   boundary-related lengthening in Greek. Journal of Phonetics 55. 149–181.
+Kingston, John. 1990. Articulatory binding. In John Kingston & Mary Beckman
+   (eds.), Papers in laboratory phonology I: between the grammar and the physics
+   of speech, 406–434. Cambridge, UK: Cambridge University Press.
+Kingston, John. 2019. The interface between phonetics and phonology. In William
+   F. Katz & Peter F. Assmann (eds.), The routledge handbook of phonetics, 359–400.
+   New York: Routledge.
+Kingston, John & Randy Diehl. 1994. Phonetic knowledge. Language 70(3). 419–
+   454.
+Kirkham, Sam & Claire Nance. 2022. Diachronic phonological asymmetries and
+   the variable stability of synchronic contrast. Journal of Phonetics 94. 101176.
+Kochetov, Alexei. 2002. Production, perception and emergent phonotactic patterns:
+   a case of contrastive palatalization. Routledge.
+Kochetov, Alexei. 2004. Perception of place and secondary articulation contrasts
+   in different syllable positions: language-particular and language-independent
+   asymmetries. Language and Speech 47(4). 351–382.
+Kochetov, Alexei. 2005. Phonetic sources of phonological asymmetries: Russian
+   laterals and rhotics. In Proceedings of the 2005 canadian linguistics association
+   annual conference.
+Kochetov, Alexei. 2006. Syllable position effects and gestural organization: evi-
+   dence from Russian. In Louis Goldstein, D.H. Whalen & Catherine Best (eds.),
+   Papers in laboratory phonology VIII, 565–588. Berlin: Mouton de Gruyter.
+Kochetov, Alexei. 2009. Phonetic variation and gestural specification: production
+   of Russian consonants. In Aditi Lahiri, Frank Kügler, Caroline Féry & Ruben
+   van de Vijver (eds.), Variation and gradience in phonetics and phonology, 43–70.
+   Berlin: Walter de Gruyter.
+Krakow, Rena A. 1999. Physiological organization of syllables: a review. Journal
+   of Phonetics 27(1). 23–54.
+Kruschke, John. 2013. Bayesian estimation supersedes the t test. Journal of Exper-
+   imental Psychology 142(2). 573–603.
+
+
+
+
+52
+                              1 Gestural timing and contrast: an Irish case study
+
+
+Kuznetsova, Alexandra, Per Bruun Brockhoff & Sofie Pødenphant Jensen Rune
+   Haubo Bojesen Christensen. 2020. lmerTest: Tests in linear mixed effects models.
+   Version 3.1-2, retrieved from http://CRAN.R-project.org/package=lmerTest.
+Ladefoged, Peter & Ian Maddieson. 1996. The sounds of the world’s languages.
+   Malden, MA: Blackwell.
+Lee-Kim, Sang-Im, Lisa Davidson & Sangjin Hwang. 2013. Morphological effects
+   on the darkness of English intervocalic /l/. Laboratory Phonology 4(2). 475–511.
+Lewin, Christopher. 2019. Aspects of the historical phonology of Manx. University
+   of Edinburgh. (Doctoral dissertation).
+Li, Min, Chandra Kambhamettu & Maureen Stone. 2005. Automatic contour
+   tracking in ultrasound images. Clinical linguistics & phonetics 19(6-7). 545–554.
+Liljencrants, Johan & Lindblom. 1972. Numerical simulation of vowel quality sys-
+   tems: the role of perceptual contrast. Language 48(4). 839–862.
+Lindblom, Björn. 1986. Phonetic universals in vowel systems. In John Ohala &
+   Jeri Jaeger (eds.), Experimental phonology, 13–44. Orlando: Academic Press.
+Lindblom, Björn. 1990. Explaining phonetic variation: a sketch of the h&h theory.
+   In William Hardcastle & Alain Marchal (eds.), Speech production and speech
+   modelling, 403–439. Dordrecht: Kluwer.
+Lüdecke, Daniel, Mattan S. Ben-Shachar, Indrajeet Patil, Philip Waggoner & Do-
+   minique Makowski. 2021. performance: an R package for assessment, compar-
+   ison and testing of statistical models. Journal of Open Source Software 6(60).
+   3139. DOI: 10.21105/joss.03139.
+Makowski, Dominique, Mattan S. Ben-Shachar & Daniel Lüdecke. 2019.
+   Bayestestr: describing effects and their uncertainty, existence and significance
+   within the bayesian framework. Journal of Open Source Software 4(40). 1541.
+   DOI: 10.21105/joss.01541. https://joss.theoj.org/papers/10.21105/joss.01541.
+Malmi, Anton, Pärtel Lippus & Einar Meister. 2023. Spectral and temporal proper-
+   ties of Estonian palatalization. Journal of the International Phonetic Association
+   53(3). 748–773. DOI: 0.1017/S0025100321000360.
+Martinet, André. 1952. Function, structure, and sound change. Word 8(1). 1–32.
+   DOI: 10.1080/00437956.1952.11659416.
+Martinet, André. 1964. Économie des changements phonétiques: traité de phonolo-
+   gie diachronique. Berne: A. Francke.
+Matuschek, Hannes, Reinhold Kliegl, Shravan Vasishth, R. Harald Baayen & Dou-
+   glas Bates. 2017. Balancing Type I error and power in linear mixed models.
+   Journal of Memory and Language 94. 305–315. DOI: 10.1016/j.jml.2017.01.001.
+McCone, Kim. 1996. Towards a relative chronology of ancient and medieval Celtic
+   sound change. Maynooth, Ireland: The Cardinal Press.
+
+
+
+                                                                                  53
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+
+Monahan, Philip & William Idsardi. 2010. Auditory sensitivity to formant ratios:
+  toward an account of vowel normalisation. Language and Cognitive Processes
+  25(6). 808–839.
+Morey, Richard D. & Jeffrey N. Rouder. 2023. BayesFactor: Computation of Bayes
+  Factors for Common Designs. R package version 0.9.12-4.5. https://CRAN.R-
+  project.org/package=BayesFactor.
+Mousikou, Petroula, Patrycja Strycharczuk, Alice Turk & James Scobbie. 2021.
+  Coarticulation across morpheme boundaries: an ultrasound study of past-
+  tense inflection in Scottish English. Journal of Phonetics 88. 101101.
+Nam, Hosung, Louis Goldstein & Elliot Saltzman. 2009. Self-organization of syl-
+  lable structure: a coupled oscillator model. In François Pellegrino, Egidio Mar-
+  sico, Ioana Chitoran & Christophe Coupé (eds.), Approaches to phonological
+  complexity, 297–328. Berlin: Mouton de Gruyter.
+Nance, Claire & Roibeard Ó Maolalaigh. 2021. Scottish Gaelic. Journal of the In-
+  ternational Phonetic Association 51(2). 261–275.
+Ní Chasaide, Ailbhe. 1995. Irish. Journal of the International Phonetic Association
+  25(1). 34–39.
+Ní Chasaide, Ailbhe & Geraldine Fealy. 1991. A preliminary investigation of
+  palatal/palatalised consonants of Irish. Unpublished ms.
+Ní Chiosáin, Máire. 1991. Topics in the phonology of Irish. University of Mas-
+  sachusetts, Amherst. (Doctoral dissertation).
+Ní Chiosáin, Máire. 1994. Irish palatalisation and the representation of place fea-
+  tures. Phonology 11(1). 89–106.
+Ní Chiosáin, Máire. 1999. Syllables and phonotactics in Irish. In Harry van der
+  Hulst & Nancy Ritter (eds.), The syllable: views and facts, 551–575. Berlin: Mou-
+  ton de Gruyter.
+Ní Chiosáin, Máire. To appear. Modern Irish phonology and phonetics. In J. Eska,
+  P. Ó Muircheartaigh, P. Russell & S. Nurmio (eds.), Palgrave handbook of Celtic
+  languages and linguistics. Palgrave Macmillan.
+Ní Chiosáin, Máire & Jaye Padgett. 2012. An acoustic and perceptual study of
+  Connemara Irish palatalization. Journal of the International Phonetic Associa-
+  tion 42(2). 171–191.
+Ó Siadhail, Mícheál. 1991. Modern Irish: grammatical structure and dialectal vari-
+  ation. Cambridge, UK: Cambridge University Press.
+Oberpriller, Johannes, Melina de Souza Leite & Maximilian Pichler. 2022. Fixed
+  or random? On the reliability of mixed-effects models for a small number of
+  levels in grouping variables. Ecology and Evolution 12(7). e9062.
+
+
+
+
+54
+                              1 Gestural timing and contrast: an Irish case study
+
+
+Ohala, John. 1981. The listener as a source of sound change. In Carrie S. Masek,
+  Roberta A. Hendrick & Mary Frances Miller (eds.), Papers from the parasession
+  on language and behavior, 178–203. Chicago: Chicago Linguistics Society.
+Ohala, John. 1990. The phonetics and phonology of aspects of assimilation. In
+  John Kingston & Mary Beckman (eds.), Papers in laboratory phonology I: be-
+  tween the grammar and the physics of speech, 258–275. Cambridge, UK: Cam-
+  bridge University Press.
+Ohala, John. 1993a. Coarticulation and phonology. Language and speech 36(2-3).
+  155–170.
+Ohala, John. 1993b. The phonetics of sound change. In Charles Jones (ed.), His-
+  torical linguistics: problems and perspectives, 237–278. London: Longman.
+Operstein, Natalie. 2010. Consonant structure and prevocalization. Consonant
+  Structure and Prevocalization.
+Padgett, Jaye, Ryan Bennett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik.
+  2023. The timing of secondary dorsal articulations across syllable positions in
+  Irish. In Radek Skarnitzl & Jan Volín (eds.), Proceedings of the 20th International
+  Congress of Phonetic Sciences, Prague, Czech Republic 2023, 2209–2213. Prague:
+  Guarant International. https://www.icphs2023.org/programme/proceedings/.
+Padgett, Jaye & Scott Myers. 2014. Domain generalization in artificial language
+  learning. Phonology 31(3). 399–433.
+Padgett, Jaye & Máire Ní Chiosáin. 2018. The perception of a secondary palatal-
+  ization contrast: a preliminary comparison of Russian and Irish. In Ryan Ben-
+  nett, Adrian Brasoveanu, Dhyana Buckley, Nick Kalivoda, Shigeto Kawahara,
+  Grant McGuire & Jaye Padgett (eds.), A festschrift for Junko Itô and Armin
+  Mester. Santa Cruz, CA: Department of Linguistics, University of California,
+  Santa Cruz. https://itomestercelebration.sites.ucsc.edu/.
+Parrell, Benjamin. 2012. The role of gestural phasing in Western Andalusian Span-
+  ish aspiration. Journal of Phonetics 40(1). 37–45.
+Pinheiro, José & Douglas Bates. 2000. Mixed-effects models in S and S-PLUS. New
+  York: Springer.
+Proctor, Michael. 2009. Gestural characterization of a phonological class: the liq-
+  uids. Yale. (Doctoral dissertation).
+Purcell, Edward T. 1979. Formant frequency patterns in Russian VCV utterances.
+  Journal of the Acoustical Society of America 66(6). 1691–1702.
+R Development Core Team. 2020. R: A Language and Environment for Statistical
+  Computing. Version 4.0.2, retrieved from http://www.R-project.org/. R Foun-
+  dation for Statistical Computing. Vienna, Austria.
+
+
+
+
+                                                                                  55
+Ryan Bennett, Jaye Padgett, Grant McGuire, Máire Ní Chiosáin & Jennifer Bellik
+
+
+Recasens, Daniel. 1999. Lingual coarticulation. In William Hardcastle & Nigel
+   Hewlett (eds.), Coarticulation: theory, data, and techniques, 80–104. Cambridge,
+   UK: Cambridge University Press.
+Recasens, Daniel & Aina Espinosa. 2009. An articulatory investigation of lin-
+   gual coarticulatory resistance and aggressiveness for consonants and vowels
+   in Catalan. The Journal of the Acoustical Society of America 125(4). 2288–2298.
+   DOI: 10.1121/1.3089222.
+Recasens, Daniel, Maria Dolors Pallarès & Jordi Fontdevila. 1997. A model of lin-
+   gual coarticulation based on articulatory constraints. The Journal of the Acous-
+   tical Society of America 102(1). 544–561. DOI: 10.1121/1.419727.
+Recasens, Daniel & Clara Rodríguez. 2016. A study on coarticulatory resistance
+   and aggressiveness for front lingual consonants and vowels using ultrasound.
+   Journal of Phonetics 59. 58–75.
+Scatton, Ernest. 1993. Bulgarian. In Greville Corbett & Bernard Comrie (eds.), The
+   Slavonic languages, 188–248. London: Routledge.
+Scobbie, James, Alan Wrench & Marietta van der Linden. 2008. Head-probe sta-
+   bilisation in ultrasound tongue imaging using a headset to permit natural head
+   movement. In Rudolph Sock, Susanne Fuchs & Yves Laprie (eds.), International
+   seminar on speech production (ISSP) 8, 373–376. INRIA.
+Shaw, Jason, Sejin Oh, Karthik Durvasula & Alexei Kochetov. 2021. Articula-
+   tory coordination distinguishes complex segments from segment sequences.
+   Phonology 38(3). 437–477. DOI: 10.1017/s0952675721000269.
+Short, David. 1993. Czech. In Greville Corbett & Bernard Comrie (eds.), The
+   Slavonic languages, 455–532. London: Routledge.
+Silverman, Daniel. 1997. Laryngeal complexity in Otomanguean vowels. Phonol-
+   ogy 14(2). 235–261.
+Sproat, Richard & Osamu Fujimura. 1993. Allophonic variation in English /l/ and
+   its implications for phonetic implementation. Journal of phonetics 21. 291–311.
+Steriade, Donca. 2001. Directional asymmetries in place assimilation: a percep-
+   tual account. In Keith Johnson & Elizabeth Hume (eds.), The role of speech
+   perception in phonology, 219–250. New York: Academic Press.
+Stevens, Kenneth N. & Dennis Klatt. 1974. Role of formant transitions in the
+   voiced-voiceless distinction for stops. The Journal of the Acoustical Society of
+   America 55(3). 653–659.
+Stifter, David. 2017. The phonology of Celtic. In Jared Klein, Brian Joseph,
+   Matthias Fritz & Mark Wenthe (eds.), Handbook of comparative and historical
+   Indo-European linguistics, 1188–1202. Berlin/Boston: De Gruyter Mouton.
+
+
+
+
+56
+                              1 Gestural timing and contrast: an Irish case study
+
+
+Stoll, Taja. 2017. Articulatory analysis of palatalised rhotics in Russian: implica-
+   tions for sound change. Ludwig-Maximilians-Universität, München. (Doctoral
+   dissertation).
+Strycharczuk, Patrycja. 2019. Phonetic detail and phonetic gradience in morpho-
+   logical processes. In Oxford research encyclopedia of linguistics. Oxford, UK:
+   Oxford University Press. DOI: 10.1093/acrefore/9780199384655.013.616.
+Sung, J-H, D. Archangeli, S. Johnston, I. Clayton, M. Fisher, M. Hammond &
+  A. Carnie. 2018. Individual variation in lexical palatalization: articulatory evi-
+   dence from Scottish Gaelic. Eoneohag 80. 23–51.
+Takatori, Yuki. 1997. A study of constraint interaction in Slavic phonology. New
+   Haven, CT: Yale University.
+Ternes, Elmar. 2006. The phonemic analysis of Scottish Gaelic (3rd ed.) Dublin:
+   Dublin Institute for Advanced Studies.
+Tomaschek, Fabian, Peter Hendrix & R Harald Baayen. 2018. Strategies for ad-
+   dressing collinearity in multivariate linguistic data. Journal of Phonetics 71.
+   249–267.
+Turk, Alice, Satsuki Nakai & Mariko Sugahara. 2006. Acoustic segment durations
+   in prosodic research: a practical guide. In Stefan Sudhoff, Denisa Lenertova,
+   Roland Meyer, Sandra Pappert, Petra Augurzky, Ina Mleinek, Nicole Richter &
+  Johannes Schließer (eds.), Methods in empirical prosody research, 1–28. Berlin:
+   De Gruyter.
+Turton, Danielle. 2017. Categorical or gradient? An ultrasound investigation of
+  /l/-darkening and vocalization in varieties of English. Laboratory Phonology
+   8(1). 13. DOI: 10.5334/labphon.35.
+Wrench, Alan. 2008. Ultrasound Stabilisation Headset users manual. Version 1.5.
+  Articulate Instruments Ltd.
+Wright, Richard. 1996. Consonant clusters and cue preservation in tsou. UCLA.
+  (Doctoral dissertation).
+Wright, Richard. 2004. A review of perceptual cues and cue robustness. In
+   Bruce Hayes, Robert Kirchner & Donca Steriade (eds.), Phonetically based
+   phonology, 34–57. Cambridge, UK: Cambridge University Press. DOI: 10.1017/
+   cbo9780511486401.002.
+
+
+
+
+                                                                                 57
+

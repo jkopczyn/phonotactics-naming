@@ -1,0 +1,1744 @@
+ Grammar of the Georgian language
+
+ Part of a series on
+ Georgians ქართველები
+
+ Nation • Etymology • List • Studies
+
+ Demographics
+
+ Subgroups
+
+ Adjarians
+
+ Dvals
+
+ Gurians
+
+ Imeretians
+
+ Imerkhevians
+
+ Ingiloy
+
+ Javakhians
+
+ Kakhetians
+
+ Kartlians
+
+ Khevsurians
+
+ Lazs
+
+ Lechkhumians
+
+ Meskhetians
+
+ Mingrelians
+
+ Mtiuletians
+
+ Mokheves
+
+ Pshavians
+
+ Rachians
+
+ Svans
+
+ Tushetians
+
+ Diaspora
+
+ In Belgium
+
+ In France
+
+ In Germany
+
+ In Iran
+
+ In Israel
+
+ In Poland
+
+ In Russia
+
+ In Ukraine
+
+ In Turkey
+
+ In the US ( in Western shows )
+
+ Georgian mafia
+
+ Culture
+
+ Heraldry
+
+ Media
+
+ Mythology ( Kartlos , Q'ursha , Dali )
+
+ Name
+
+ Philosophy
+
+ Sport ( Lelo burti )
+
+ Surname ( princely families )
+
+ Swimming
+
+ Winemaking ( Kvevri )
+
+ Chokha
+
+ Tsatsloba
+
+ Symbols
+ Saint George ( cross )
+
+ Saint Nino ( cross )
+
+ Five-cross flag ( Bolnisi cross )
+
+ Kvajvari
+
+ Chichilaki
+
+ Borjgali
+
+ World Heritage Sites
+
+ Art
+
+ Georgian architecture
+
+ Cinema ( list )
+
+ Cuisine ( Keipi , Supra , Tamada , Alaverdi )
+
+ Dances ( Khorumi , Gandagana , Perkhuli , Erisioni )
+
+ Literature ( list , Shairi )
+
+ Music ( Musical instruments , Iavnana , Shen Khar Venakhi , Chakrulo )
+
+ Religion
+
+ Christianity
+ Georgian Orthodox ( heads , Mravaltavi )
+
+ Catholic ( Greek Catholic )
+
+ Bible translations
+
+ Islam
+
+ Judaism
+
+ Georgian secularism
+
+ Freedom of religion
+
+ Linguistics
+
+ Georgian grammar ( Old Georgian prefix , Georgian conjugation , Screeve )
+
+ Georgian slang
+
+ Georgian profanity
+
+ Languages
+
+ Old Georgian
+
+ Middle Georgian
+
+ Georgian ( Proto-Kartvelian , Proto–Georgian–Zan , Svan , Zan , Mingrelian , Laz )
+
+ Georgian dialects ( Adjaran dialect , Judaeo-Georgian )
+
+ Georgian Sign Language
+
+ Georgian Braille
+
+ Writing system
+
+ Georgian calendar
+
+ Georgian inscriptions
+
+ Georgian numerals
+
+ Georgian keyboard
+
+ Georgian calligraphy ( list )
+
+ Khelrtva
+
+ Romanization of Georgian
+
+ History
+
+ Colchis ( tribes )
+
+ Kingdom of Iberia
+
+ Christianization
+
+ Georgian Golden Age
+
+ 1978 Georgian demonstrations
+
+ Concordat of 2002
+
+ Georgian Wikipedia
+
+ Georgian nationalism
+
+ Military history
+
+ Monarchism
+
+ Georgian monarchs ( lists ) ( family trees , consorts , mothers )
+
+ Style of the Georgian sovereign
+
+ Georgian Crown Jewels
+
+ Mepe
+
+ Batonishvili
+
+ Georgian nobility
+
+ Georgian feudalism
+
+ Discrimination
+
+ Georgian affair
+
+ Ethnic cleansing of Georgians in Abkhazia
+
+ Ethnic cleansing of Georgians in Sukhumi
+
+ Ethnic cleansing of Georgians in South Ossetia
+
+ 2006 deportation of Georgians from Russia
+
+ v
+ t
+ e
+
+ Georgian grammar has many distinctive and extremely complex features, such as split ergativity and a polypersonal verb agreement system.
+
+ Georgian has its own alphabet . In this article, a transliteration with Latin letters will be used throughout.
+
+ Morphosyntactic alignment
+ [ edit ]
+
+ Georgian syntax and verb agreement are largely those of a nominative–accusative language . That is, the subject of an intransitive verb and the subject of a transitive verb are treated alike when it comes to word order within the sentence, and agreement marks in the verb complex. Nominative–accusative alignment is one of the two major morphosyntactic alignments, along with ergative-absolutive.
+
+ However, Georgian case morphology (that is, the declension of nouns using case marks) does not always coincide with verbal alignment. Georgian has often been said to exhibit split ergativity ; morphologically speaking, it is said that it mostly behaves like an ergative–absolutive language in the Series II ("aorist") screeves . That means that the subject of an intransitive verb will take the same case markings as the direct object of a transitive verb. However, this is not a fully accurate representation.
+
+ This is because Georgian has yet another level of split ergativity. In the aorist series, intransitive verbs behave differently. Second conjugation verbs behave as would normally be expected in an ergative language; the subject is declined in the least-marked case, the nominative case (terminologically equivalent in this instance to absolutive cases in other languages). Third conjugation verbs behave as if they belonged to an accusative system; the most-marked case (the ergative ) marks the subject. The division between second and third conjugations is a convenient way to remember the difference, but in fact they both contain intransitive verbs, and as a whole the behaviour of these verbs follows an active alignment . In an active language, intransitive verbs are subdivided into two classes. The division is usually based on semantic criteria regarding the nature of the subject and the verb; for example, if the subject identifies an agent (an active or intentional performer of the action of the verb), then it might be marked with one case (e.g., the ergative), while if the subject identifies an experiencer of the event or one who does not actively initiate it, then it might be marked with another case (e.g., the absolutive or nominative). What might be called the "most active" case, then, marks the subject of a transitive verb, while the "least active" or "most patientive" case is that used to mark a direct object. This is precisely what happens in Georgian, in the restricted environment of the second or third conjugation verbs in the aorist series.
+
+ In Georgian, the classification of verbs according to the agentive or patientive nature of their subject has to do with performing an action, regardless of whether the subject is in control or not. (There are some exceptions to this; weather verbs and verbs of emission of light and sound
+are usually zero-place predicates, and thus have no agent at all.) The division between classes is conventional and rigid; each verb receives the class that typically corresponds to it. Where the subject is typically an active performer, it is marked as ergative, even if in some specific instances the action might be outside the control of the subject. Therefore, Georgian active alignment is said to be of the "split-S" type. [ 1 ] [ 2 ] [ 3 ]
+
+ Case system
+ [ edit ]
+
+ Georgian has seven grammatical cases : nominative , ergative (also known in the Kartvelological literature as the narrative ( motxrobiti ) case, due to the rather inaccurate suggestion of regular ergativity, and that this case generally only occurs in the aorist series, which usually moves the narrative forward), dative , genitive , instrumental , adverbial and vocative .
+
+ The nominative, ergative and dative are core cases, and due to the complex morphosyntactic alignment of Georgian, each one has several different functions and also overlaps with each other, in different contexts. They will be treated together with the verb system.
+
+ The non-core cases are genitive, instrumental, adverbial and vocative.
+
+ The genitive case is the equivalent of the preposition of or the possessive clitic -' s in English. In the phrase "the republic of Georgia", the word "Georgia" is in the genitive case: Sakartvelo s resp'ublik'a .
+
+ The instrumental case corresponds to the preposition with in English, as in "he is cutting with a knife", where the word "knife" is in the instrumental case. It also occurs with the objects of certain postpositions.
+
+ The adverbial case commonly marks adverbial phrases. It is also used in some other contexts, especially when using names of languages. For example, in the sentence "Can you translate this into Georgian?", Georgian is in the adverbial case.
+
+ The vocative case is used when addressing someone. For example, a mother calls her child with bat'ono? (meaning "sir?").
+
+ Nouns
+ [ edit ]
+
+ The declension of a noun depends on whether the root of the noun ends with a vowel or a consonant. If the root of the noun ends with a vowel, the declension can be either truncating (roots ending with - e or - a ) or non-truncating (roots ending with - o or - u ). In the truncating declensions, the last vowel of the word stem is lost in the genitive and the instrumental cases. The table below lists the suffixes for each noun case, with an example next to it.
+
+ Consonant final
+ Vowel final (truncating)
+ Vowel final (non-truncating)
+
+ Suffix
+ Example: k'ats- ("man")
+ Suffix
+ Example: mama- ("father")
+ Suffix
+ Example: Sakartvelo- ("Georgia")
+
+ Nominative
+ - i 	 k'ats- i
+ - ∅ 	 mama
+ - ∅ 	 Sakartvelo
+
+ Ergative
+ - ma 	 k'ats- ma
+ - m 	 mama- m
+ - m 	 Sakartvelo- m
+
+ Dative
+ - s 	 k'ats- s
+ - s 	 mama- s
+ - s 	 Sakartvelo- s
+
+ Genitive
+ - is 	 k'ats- is
+ - is * 	 mam- is
+ - s 	 Sakartvelo- s
+
+ Instrumental
+ - it 	 k'ats- it
+ - it * 	 mam- it
+ - ti 	 Sakartvelo- ti
+
+ Adverbial
+ - ad 	 k'ats- ad
+ - d 	 mama- d
+ - d 	 Sakartvelo- d
+
+ Vocative
+ - o 	 k'ats- o !
+ - ∅ 	 mama!
+ - ∅ 	 Sakartvelo!
+
+ (* truncation of the last vowel occurs)
+
+In the case of a word that ends in an -o, the -o may disappear completely or reduce to a -v and the consonant case endings are used, with the exception of the vocative case, which itself becomes a -v. An example of this is the word teorbo (music), which becomes teorbo-v in the vocative case.
+
+ Pluralisation
+ [ edit ]
+
+ The plural number is marked with the suffix -eb , which appears after the root of the noun and before the case suffix. Some examples are:
+
+ The nominative case of men in Georgian is constructed as, k'ats + eb + i , while the ergative case would be, k'ats + eb + ma .
+
+ The nominative case of trees in Georgian ( xe , root ending with truncating vowel - e ) is, xe + eb + i , while the dative case would be, xe + eb + s .
+
+ The nominative case of girls in Georgian ( gogo , root ending with non-truncating vowel - o ) is, gogo + eb + i , while the instrumental case would be, gogo + eb + it .
+
+ The plural suffix is not used when the noun is preceded by a quantifier of some kind, such as a cardinal number . Therefore, for example, "five men" in Georgian is expressed as, " xuti (5) k'atsi ", not " xuti k'ats eb i ". Additionally, in certain formal contexts, Georgian uses Old Georgian case endings distinct from those of modern Georgian: k'ats ta saloni ("men's salon") lit. salon of men.
+
+ Pronouns
+ [ edit ]
+
+ The following table lists the declension of all six personal pronouns.
+
+  
+ Nominative
+ Ergative
+ Dative
+ Genitive
+ Instrumental
+ Adverbial
+ Vocative
+
+ Singular
+ First
+ me 	 chem(s) 	 chemit 	 chemad 	 -
+
+ Second
+ shen 	 shen(s) 	 shenit 	 shenad 	 she!
+
+ Third
+ proximal
+ es 	 (a)man 	 (a)mas 	 (a)mis 	 (a)mit 	 (a)mad 	 -
+
+ medial
+ eg 	 ma(ga)n 	 ma(ga)s 	 m(ag)is 	 m(ag)it 	 ma(ga)d 	 -
+
+ distal
+ is / igi 	 (i)man 	 (i)mas 	 (i)mis 	 (i)mit 	 (i)mad 	 -
+
+ Plural
+ First
+ chven 	 chven(s) 	 chvenit 	 chvenad 	 -
+
+ Second
+ tkven 	 tkven(s) 	 tkvenit 	 tkvenad 	 tkve!
+
+ Third
+ proximal
+ eseni 	 (a)mat 	 -
+
+ medial
+ egeni 	 ma(ga)t 	 -
+
+ distal
+ isini 	 (i)mat 	 -
+
+ As can be seen from the table, all the cases of the third persons except the nominative case can be expressed in two different ways; with or without an " i " at the beginning of the pronoun. The extra letter " i " adds a directional meaning. The closest English equivalent could be the distinction between his, her and that . An example can be " her pencil " versus " that (girl)'s pencil ." In English " that " can never behave as a personal pronoun, but in Georgian, the additional letter " i " makes that possible.
+
+ Adjectives
+ [ edit ]
+
+ The declension of adjectives is different from that of nouns, but like that of nouns depends on whether the root of the adjective ends with a consonant or a vowel: a vowel-final-stem adjective is identical in all cases, while a consonant-final-stem adjective changes from case to case (put another way, one might say that vowel-final-stem adjectives do not actually decline for case). The following table presents declensions of the adjectives did- ("big") and ch'aghara- ("grey-haired") with the noun datv- ("bear").
+
+  
+ Consonant final stem
+ Example: did-
+ Vowel final stem
+ Example: ch'aghara-
+ Noun example: datv-
+
+ Nominative	 -i 	 did-i 	 -∅	 ch'aghara 	 datv-i
+
+ Ergative	 -ma 	 did-ma 	 -∅	 ch'aghara 	 datv-ma
+
+ Dative	 -∅	 did 	 -∅	 ch'aghara 	 datv-s
+
+ Genitive	 -i 	 did-i 	 -∅	 ch'aghara 	 datv-is
+
+ Instrumental	 -i 	 did-i 	 -∅	 ch'aghara 	 datv-it
+
+ Adverbial	 -∅	 did 	 -∅	 ch'aghara 	 datv-ad
+
+ Vocative	 - o 	 did-o 	 -∅	 ch'aghara 	 datv-o
+
+ While often used as modifiers, adjectives can also have stand-alone substantive force in Georgian: one could say mindoda lurji ts'igni ("I would like the blue book") or just mindoda lurji ("I would like the blue one").
+
+ Possessive adjectives
+ [ edit ]
+
+ The possessive adjectives (equivalent to English my , your , etc.) are declined like other consonant-stem-final adjectives, except for a final -s in the dative, instrumental, and adverbial forms of the first- and second-person possessive adjectives. There are no second- and third-person vocative forms.
+
+  
+ Nominative
+ Ergative
+ Dative
+ Genitive
+ Instrumental
+ Adverbial
+ Vocative
+
+ First-person singular	 chem-i 	 chem-ma 	 chem-s 	 chem-i 	 chem-i(s) 	 chem-s 	 chem-o
+
+ Second-person singular	 shen-i 	 shen-ma 	 shen-s 	 shen-i 	 shen-i(s) 	 shen-s 	 –
+
+ Third-person singular	 amis-i
+ magis-i
+
+ (i)mis-i
+
+ amis-(ma)
+ magis-(ma)
+
+ (i)mis-(ma)
+
+ amis
+ magis
+
+ (i)mis
+
+ amis-(i)
+ magis-(i)
+
+ (i)mis-(i)
+
+ amis-(i)
+ magis-(i)
+
+ (i)mis-(i)
+
+ amis
+ magis
+
+ (i)mis
+
+ –
+
+ First-person plural	 chven-i 	 chven-ma 	 chven-s 	 chven-i 	 chven-i(s) 	 chven-s 	 chven-o
+
+ Second-person plural	 tkven-i 	 tkven-ma 	 tkven-s 	 tkven-i 	 tkven-i(s) 	 tkven-s 	 –
+
+ Third-person plural	 amat-i
+ magat-i
+
+ (i)mat-i
+
+ amat-(ma)
+ magat-(ma)
+
+ (i)mat-(ma)
+
+ amat
+ magat
+
+ (i)mat
+
+ amat-i
+ magat-i
+
+ (i)mat-i
+
+ amat-(i)
+ magat-(i)
+
+ (i)mat-(i)
+
+ amat
+ magat
+
+ (i)mat
+
+ –
+
+ Adpositions
+ [ edit ]
+
+ Georgian by and large has postpositions rather than prepositions . Most of these are cliticized to the ends of nouns. They might be written separately or together with the noun. Prepositions do exist, but they are very few in numbers, and tend to be calques from Russian that entered the language during the Soviet period.
+
+ Each postposition governs (requires) a specific case of the noun, akin to the usage of prepositions in German or Latin . Only one postposition governs the nominative case ( -vit "like"), and there are no postpositions that govern the ergative or the vocative cases. Here are some examples of postpositions:
+
+ Postposition	 English meaning	 Case
+
+ -vit 1
+ like
+ nominative
+
+ -ze
+ on
+ dative
+
+ -tan
+ at, near
+
+ -tan ertad
+ together with
+
+ -shi 2
+ in, to
+
+ shoris
+ among
+
+ shua
+ between
+
+ -dan 3
+ from (a place)
+ instrumental
+
+ -gan
+ from (a person, a thing)
+ genitive
+
+ gamo
+ because of
+
+ garda
+ except
+
+ gareshe
+ without
+
+ -tvis
+ for
+
+ mier
+ by
+
+ magivrad
+ instead of
+
+ miuxedavad
+ in spite of
+
+ shesaxeb
+ about, concerning
+
+ -ts'in
+ before, in front of
+
+ -mde 4
+ up to, as far as
+ adverbial
+
+ 1 The postposition -vit could also take the dative case in its elongated form (with an insertion of -a- in between the case suffix and the postposition).
+
+ 2 In the usage of postposition -shi the dative case suffix -s is dropped.
+
+ 3 In the usage of postposition -dan the instrumental case suffix -t is dropped.
+
+ 4 In the usage of postposition -mde the adverbial case suffix -d is dropped.
+
+ Examples
+ [ edit ]
+
+ The Georgian nominal has a series of morpheme slots that must be filled in a specific order:
+
+ noun root + plural suffix + case suffix (+ postposition)
+
+ Some nouns with all morpheme slots filled
+ noun root (meaning)
+ plural suffix
+ case suffix (case)
+ postposition
+ full word
+ English meaning
+
+ megobar- (friend)	 -eb 	 -is (genitive)	 -tvis 	 megobrebistvis 	 for friends
+
+ deda- (mother)	 –	 -s (dative)	 -tan ertad 	 dedastan ertad 	 (together) with mother
+
+ mshobl- (parent)	 -eb 	 -is (genitive)	 gareshe 	 mshoblebis gareshe 	 without parents
+
+ shen- (you)	 –	 - s (genitive)	 gamo 	 shens gamo 	 because of you
+
+ bavshv- (child)	 –	 - i (nominative)	 -vit 	 bavshvivit 	 like (a) child
+
+ bavshv- (child)	 -eb 	 - s a (dative)	 -vit 	 bavshvebisavit 	 like children
+
+ Sakartvelo- (Georgia)	 –	 - s (dative)	 -shi (drops case suffix)	 Sakartveloshi 	 to Georgia, in Georgia
+
+ xval- (tomorrow)	 –	 - ad (adverbial)	 -mde (drops d )	 xvalamde 	 up to (until) tomorrow
+
+ Verbal system
+ [ edit ]
+
+ Main article: Georgian verb paradigm
+
+ The Georgian verbal system is extremely complex, especially when compared to those of most Indo-European languages. [ citation needed ] Rather than using the terms "tense", "aspect", "mood", etc. separately, linguists prefer to use the term " screeve " to distinguish between different time frames and moods of the verbal system. A screeve is a set of six verb forms inflected for person and number.
+
+ Verbs are traditionally divided into four classes: transitive verbs , intransitive verbs , verbs with no transitive counterparts (medial verbs) and indirect verbs. There are numerous irregular verbs in Georgian, but they all belong to one of these classes. Each class uses different strategies to build the verb complex, with irregular verbs employing somewhat different formations.
+
+ Verb classes
+ [ edit ]
+
+ Transitive verbs (Class 1 verbs)
+ [ edit ]
+
+ Class 1 verbs generally have a subject and a direct object. Some examples are "eat", "kill" and "receive". This class also includes causatives (the equivalent of "make someone do something") and the causative verbal form of adjectives (for example, "make someone deaf").
+
+ There are a few verbs in Class 3 that behave like transitive verbs of Class 1 in terms of their conjugations, such as sneeze and cough (see below).
+
+ Intransitive verbs (Class 2 verbs)
+ [ edit ]
+
+ Intransitive verbs only have a subject and no direct object (though a few govern an indirect object marked simply with the dative case). Most verbs in this class have a subject that does not perform or control the action of the verb (for example, "die", "happen"). The passive voice of Class 1 transitive verbs belong in this class too, for example "be eaten", "be killed" and "be received". In addition, the verbal form of adjectives also have their intransitive counterparts: the intransitive verb for the adjective "deaf" is "to become deaf".
+
+ Medial verbs (Class 3 verbs)
+ [ edit ]
+
+ Verbs in Class 3 are usually intransitive verbs, but unlike Class 2 verbs, they mark their subject using the ergative case. Most verbs of motion (such as "swim" and "roll") and verbs about weather (such as "rain" and "snow") belong to this class. Although these verbs are described as not having transitive counterparts (such as "cry"), some of them still have direct objects, such as "learn" and "study". Verbs that are derived from loan words also belong to this class.
+
+ The intransitive verb in Classes 2 and 3, when taken together, seem to be conjugated differently based on a form of active alignment (see the section on morphosyntactic alignment ).
+
+ Indirect verbs (Class 4 verbs)
+ [ edit ]
+
+ Verbs that convey the meaning of emotion and prolonged state belong to this class. The verb "want" and "can" also belong to this class. Other common examples of Class 4 verbs are "sleep", "miss", "envy" and "believe". These verbs typically mark the subject with the dative and the object with the nominative.
+
+ Stative verbs
+ [ edit ]
+
+ Stative verbs do not constitute a class per se , but rather refer to a state, and their conjugations are very similar to those of indirect verbs. For example, when one says, "the picture is hanging on the wall", the equivalent of "hang" is a stative verb. [ 4 ]
+
+ Irregular verbs
+ [ edit ]
+
+ There are numerous irregular verbs in Georgian; most of them employ the conjugation system of Class 2 intransitive verbs. Irregular verbs uses different stems in different screeves, and their conjugations deviate from the conjugations of regular intransitive verbs. Some irregular verbs are: "be", "come", "say", "tell" and "give".
+
+ Screeves
+ [ edit ]
+
+ There are three series of screeves in Georgian: first, second and third series. The first series has two subseries, which are called the present and the future subseries. The second series is also called the aorist series, and the third series is called the perfective series. There are a total of eleven screeves.
+
+ Series No.
+ Series/ Subseries
+ Indicative
+ Past
+ Subjunctive
+
+ I
+ Present
+ Present indicative 	 Imperfect 	 Present subjunctive
+
+ Future
+ Future 	 Conditional 	 Future subjunctive
+
+ II	 Aorist
+ 	 Aorist 	 Optative
+
+ III	 Perfective
+ Present perfect 	 Pluperfect 	 Perfect subjunctive
+
+ The present indicative is used to express an event at the time of speaking ("S/he is verb ing"). It is also used to indicate an event that happens habitually ("S/he verb s").
+
+ The imperfect screeve is used to express an incomplete or continuous action in the past ("S/he was verb ing"). It is also used to indicate a habitual past action (i.e. "S/he (regularly/often/sometimes) verb ed", "S/he would verb ", "S/he used to verb ").
+
+ The present subjunctive screeve is used to express an unlikely event in the present and is usually used as a relative clause ("That s/he be verb ing").
+
+ The future screeve is used to express an event that will take place in the future ("S/he will verb ").
+
+ The conditional screeve is used together with if ("S/he would verb or "S/he would have verb ed").
+
+ The future subjunctive screeve is used to express an unlikely event in the future and is usually used as a dependent clause .
+
+ The aorist screeve is used to indicate an action that took place in the past ("S/he verb ed"). It is also used in imperatives ( Verb !).
+
+ The optative screeve has many uses:
+
+ In negative imperatives ("Do not verb !").
+
+ In obligations ("S/he must verb ").
+
+ In hypothetical conditions ("If s/he verb ed (optative), X would happen (conditional)").
+
+ In exhortations ("Let's verb ").
+
+ The present perfect screeve is used to indicate an action, which the speaker did not witness ("S/he has verb ed").
+
+ The pluperfect screeve is used to indicate an action which happened before another event ("S/he had verb ed").
+
+ The perfect subjunctive screeve is mostly for wishes ("May s/he verb !").
+
+ Verb components
+ [ edit ]
+
+ Georgian is an agglutinating language . Agglutination means that affixes each express a single meaning, and they usually do not merge with each other or affect each other phonologically. Each verb screeve is formed by adding a number of prefixes and suffixes to the verb stem. Certain affix categories are limited to certain screeves. In a given screeve, not all possible markers are obligatory. The components of a Georgian verb form occur in the following order: [ 5 ]
+
+ Georgian verb template
+ preverb
+ prefixal person marker
+ version marker
+ VERB ROOT
+ passive marker
+ {thematic suffix}
+ causative marker
+ imperfective marker
+ Mood/row marker
+ auxiliary verb
+ suffixal person marker
+ plural marker
+
+ Preverb
+ [ edit ]
+
+ Preverbs can add either directionality or an arbitrary meaning to the verb. To this extent they resemble the derivational prefixes of Slavic verbs. For example, while mi -vdivar means "I am going", mo -vdivar means "I am coming". Preverbs appear in the future, past and perfective screeves; they are generally absent in the present screeves. Preverbs indicating direction and orientation: [ 5 ]
+
+ Georgian
+ Romanization
+ Meaning
+
+ მი-
+ mi-
+ away from the speaker/addressee
+
+ მო-
+ mo-
+ towards the speaker/addressee
+
+ მიმო-
+ mimo-
+ back and forward
+
+ ა- / ამო-
+ a- / amo-
+ upwards
+
+ ჩა- / ჩამო-
+ ča- / čamo-
+ downwards; sometimes also inwards
+
+ შე- / შემო-
+ še- / šemo-
+ inwards; შემო-: also by accident and around something/somebody
+
+ გა- / გამო-
+ ga- / gamo-
+ outwards
+
+ წა- / წამო-
+ c̣a- / c̣amo-
+ away from something/somebody
+
+ გადა- / გადმო-
+ gada- / gadmo-
+ overcoming, across
+
+ და- / (დამო-)
+ da- / (damo-)
+ habitual or downwards; დამო- is a relict in modern Georgian
+
+ Verb personality
+ [ edit ]
+
+ One, two or three grammatical persons can be indicated in the Georgian verb. The performer of an action is called the subject or the agent, and affected persons are patients or objects (indirect or direct). The category of number (singular or plural) is also indicated.
+
+ To indicate subjects and objects the special markers are used, which are listed in the following tables.
+
+  
+ Subject markers
+
+ Singular
+ Plural
+
+ S1
+ v-
+ v-...-t
+
+ S2
+ h-/s-/∅-
+ h-/s-/∅-...-t
+
+ S3
+ ∅-...-s/-a/-o
+ ∅-...-en (-nen)/-an/-n/-es
+
+  
+ Object markers
+
+ Singular
+ Plural
+
+ O1
+ m-
+ gv-
+
+ O2
+ g-
+ g-...-t
+
+ O3
+ h-/s-/∅-
+ h-/s-/∅...-t
+
+ The S2 and O3 marker h- evolved from earlier x-, which was first attested in the 5th century.
+
+ The h variant appears for the first time in the Tsqisi (წყისი) inscription (616–619 y.y.) and from the second half of the 8th century it becomes predominant. From the 9th century the h → s transformation is documented before the dental stops ( d, ṭ, t ) and affricates ( ʒ, ċ, c, ǯ, č', č ).
+
+ In Modern Georgian before vowels the h- marker vanishes.
+
+ In general, in Modern Georgian the S2 and O3 h-/s- prefixes have a tendency to fade away.
+
+ The oldest S2 x- is preserved with three verbal stems:
+
+ ar "to be" → xar "you are"
+
+ ved/vid "to come/go" → mo-x-ved-i "you came", mo-x-vid-odi "you would come"
+
+ val "to come/go" → mo-x-val "you will come"
+
+ Here is presented subject markers' usage example:
+
+ verb root - ts'er , 'to write'
+
+ Singular
+ Plural
+
+ 1st person
+ v -ts'er
+
+ v -ts'er
+ I am writing
+
+ v -ts'er- t
+
+ v -ts'er- t
+ We are writing
+
+ 2nd person
+ ts'er
+
+ ts'er
+ You (sing) are writing
+
+ ts'er- t
+
+ ts'er- t
+ You (plu) are writing
+
+ 3rd person
+ ts'er- s
+
+ ts'er- s
+ S/he is writing
+
+ ts'er- en
+
+ ts'er- en
+ They are writing
+
+ In the case of v-ts'er- t , ts'er- t , and ts'er- en , the - t and - en are the subject plurality markers.
+
+ Here is presented object markers' usage example"
+
+ verb root nd - 'to want':
+
+ Singular
+ Plural
+
+ 1st person
+ m -i-nd-a
+
+ m -i-nd-a
+ I want
+
+ gv -i-nd-a
+
+ gv -i-nd-a
+ We want
+
+ 2nd person
+ g -i-nd-a
+
+ g -i-nd-a
+ You (sing) want
+
+ g -i-nd-a- t
+
+ g -i-nd-a- t
+ You (plu) want
+
+ 3rd person
+ u-nd-a
+
+ u-nd-a
+ S/he wants
+
+ u-nd-a- t
+
+ u-nd-a- t
+ They want
+
+ In the case of g-i-nd-a- t and u-nd-a- t , the - t is the plural marker.
+
+ Georgian's polypersonalism allows the involvement of as many as three action participants to be expressed unambiguously within a single word. For example, while it takes at least four words to say "I wrote them it" in English ("I" being the subject, "it" being the direct object, "them" being the indirect object), in Georgian this can be said in one word: davuts'ere . [ 6 ]
+
+ Version marker
+ [ edit ]
+
+ Right after the nominal marker can come a "version" marker. Phonologically, version markers consist of any one of the vowels except for /o/. Version markers are semantically diverse. They can add either an unpredictable lexical meaning to the verb, or a functional meaning including causativity, passive voice, subjective version, objective version and locative version. For example, while v-ts'er means "I write it", v- u -ts'er means "I write it to him/her" (objective version), v- a -ts'er means "I write it on him/her" (locative version), and v- i -ts'er means "I write it (for myself)" (subjective version). [ 7 ]
+
+ Verb root
+ [ edit ]
+
+ The length of the verb root typically ranges from one to seven phonemes, with the longest root consisting of 15. Some consist of consonants only. The common root of the verbs meaning 'open', 'receive', 'take', and 'take a picture' is - gh - . "Lexical derivation" (or "word formation") is accomplished through the use of preverbs, version markers, and thematic suffixes. Some derivations of -gh- are seen in the sentence mi -v- i -gh- e ts'erili , 'I received the letter' and ga-a- gh-eb k'ars , 'you will open the door' (derivational affixes are bolded).
+
+ Passive marker
+ [ edit ]
+
+ In Georgian, two morphological means of converting a transitive verb to an intransitive verb (or to passive voice) are to add - d - to the end of the verb root or to add the version marker - i - (see the discussion of version markers elsewhere in this article). Respective examples: ga-a-ts'itl-e , 'you made him blush' ( - ts'itl - is the root of ts'iteli , 'red') > ga-ts'itl- d -i , 'you blushed'; class 2 verb da-v-bad-eb , 'I will give birth to him/her', > da-v- i -bad-eb-i , 'I will be born' (the - i - at the end of the verb is the suffixal nominal marker obligatory with intransitive verbs (see below)).
+
+ Thematic suffix
+ [ edit ]
+
+ The language has eight kinds of thematic suffixes (also sometimes known as present-future stem formants or PFSF ). The suffixes are -eb-, -ev- , -av- , -am- , -i- , -ob- , -op- , and -∅-. When the suffixal passive marker is absent, one of these suffixes can be placed right after the root of the verb. With these suffixes the verbs gain arbitrary meanings. Thematic suffixes are present in the present and future screeves, but are absent in the past and mostly absent in the perfective screeves. For example, the root of the verb "build" is - shen -. In order to say "I am building", we have to add the thematic suffix - eb - to the end of the root: v-a-shen- eb ( v - meaning that the doer is the first person ( v - set nominal marker), a is the versioner, shen is the root, and eb is the thematic suffix). To say "he/she is building", we simply add the suffixal nominal marker - s after the thematic suffix: a-shen-eb- s .
+
+ Causative marker
+ [ edit ]
+
+ In English, causativity is predominantly expressed syntactically, by the phrase, 'make someone verb' , whereas in Georgian it is expressed morphologically. The causative marker obligatorily co-occurs with the version marker -a- . There is no single causative marker in Georgian. To ditransitivize an already transitive verb, one uses in-eb or rarely ev : ch'am , 'you eat' > a -ch' ∅ m- ev , 'you make him eat / You are feeding him', with the syncope of the root.
+
+ Imperfective marker
+ [ edit ]
+
+ This marker (- d - for class 1 verbs, -od - for class 2 verbs) are used to build the imperfective, present and future subjunctive and conditional screeves: v-a-shen-eb , 'I am building' > v-a-shen-eb- d -i , 'I was building" (the additional - i - at the end of the verb is the suffixal nominal marker); v-ts'er , 'I am writing' > v-ts'er- d -i , 'I was writing' (as the verb "write" does not have a thematic suffix, the imperfective marker is added right after the verb root).
+
+ Suffixal nominal marker
+ [ edit ]
+
+ The transitive verbs (which employ the v - set) use the suffixal nominal marker - s - (as in a-shen-eb- s , ts'er- s ) for the third person singular in present and future screeves. Intransitive verbs, the past and perfective screeves of the transitive and medial verbs, and indirect verbs, employs set of vowels: in the indicative, i (strong) or e (weak) for the first/second person, o or a for the third person; in the subjunctive, the suffixal nominal marker is the same for all persons, generally e or o or, less frequently, a . The aorist intransitive form avashene , 'I built', has the structure, a -v-a-shen- ∅ - e , characterized by preverb -a- and weak suffixal nominal marker -e- .
+
+ Auxiliary verb
+ [ edit ]
+
+ The auxiliary verb is only used in the present indicative and perfective screeves of indirect verbs and in the perfective screeve of transitive verbs when the direct object is first or second person(s) (these are situations, where the m - set is used for the subject of the verb, and, therefore, v - set is used to indicate the direct object). The auxiliary verb is the same verb as to be in present screeve. The verb to be for the singular persons are: Me var (" I am "), Shen xar (" You are ") and Is aris/ars (as an auxiliary verb shortened version a is used) ("he/she/it is "). For example, miq'var s means "I love him/her" (the s at the end of the verb indicating that it is the third person whom the speaker loves). In order to say "I love you", the s at the end has to be replaced with xar (as, now, the direct object is the second person): miq'var- xar ("I love you"), mq'varebi- a ("I have loved him/her").
+
+ Plural marker
+ [ edit ]
+
+ Depending on which set of nominal markers is employed, the appropriate plural suffix is added. It can refer to either subject or object. An example of referring to objects would be miq'var-xar- t ("I love you (plural)") and miq'var-a- n ' ("I love them").
+
+ Auxiliary verbs
+ [ edit ]
+
+ In addition to the possible auxiliary verb in the verb complex, there are also separate ones. Just as in English, Georgian language has the auxiliary verbs, such as want , must (have to) and can .
+
+ The verb ndoma ("to want") is conjugated just like any other class 4 verbs. In order to say, "to want to do something ", one can use either the infinitive form of the verb ( masdari ) or the optative screeve.
+
+ The verb unda ("must") is not conjugated. However, just like the verb want , it uses the optative screeve in "must do something ." In order to say "had to," one, again, uses the same word unda , but with the pluperfect screeve.
+
+ The verb shedzleba ("can") is a class 4 verb, and thus conjugated accordingly. Just like the verb want , it uses either the optative screeve or the infinitive form of the verb. In order to say "will be able to" and "could," the future and the aorist screeves are used respectively. The negation of "can" in Georgian is established with a special negation particle ver which, when used, contains the meaning "cannot," and, thus, the verb shedzleba is not used with it (see the negation section of Syntax for more details).
+
+ Syntax
+ [ edit ]
+
+ Word order
+ [ edit ]
+
+ Word order in Georgian is not very strict. One common sentence structure features the sequence subject – indirect object – direct object – verb . For example, the sentence "I am writing a letter to my mother" can be expressed as follows (the glosses use the abbreviations NOM = nominative case, DAT = dative case, PRES = present screeve):
+
+ Me
+ I‍- NOM
+
+ dedas
+ my mother- DAT
+
+ ts'erils
+ letter- DAT
+
+ vts'er.
+ write- PRES
+
+ Me dedas ts'erils vts'er.
+ I ‍ -NOM {my mother-DAT} letter-DAT write-PRES
+
+ This sentence could also occur with the constituent order subject – verb – direct object – indirect object . Since the verb encodes information about all these arguments, any of them can always be dropped (see pro-drop , null subject ). It is not uncommon for pronoun arguments to be dropped.
+
+ Questions
+ [ edit ]
+
+ Yes/No questions
+ [ edit ]
+
+ The only way in which an utterance is marked as a yes–no question is by altering the intonation of a statement sentence: the pitch rises towards the end of the sentence. For example:
+
+ Chemtan ertad moxval , 'you will come with me'
+
+ Chemtan ertad moxval? , 'will you come with me?'
+
+ Tag questions
+ [ edit ]
+
+ Those tag questions which expect an affirmative answer may employ the particle xom in second position within the sentence. Comparing statement, yes/no question, and tag question expecting an affirmative answer:
+
+ Dghes k'argi amindia , 'The weather is good today'
+
+ Dghes k'argi amindia? , 'is the weather good today?'
+
+ Dghes xom k'argi amindia? , 'the weather is good today, isn't it?'
+
+ These sentences contain an -a suffixed to the word amindi 'weather'. It is a reduced form of the verb aris , 'is'. The tag question in Georgian does not include any of the three recognized negative particles (see subsection, "Negation"); the particle xom by itself conveys the meaning. However, if the answer expected is negative, then a negative particle and the full form aris are added right after xom :
+
+ Dghes xom ar aris k'argi amindi? , 'the weather is not good today, is it ?'
+
+ There is a particle, tu , which can be used to make a question more polite. The particle tu has many meanings in Georgian; in this context it cannot be exactly translated to English. Compare:
+
+ Chai ginda? , 'do you want some tea?'
+
+ Chai tu ginda? , 'would you like some tea?'
+
+ Interrogatives
+ [ edit ]
+
+ Interrogative adjectives and interrogative pronouns are declined differently. An example of an interrogative adjective in English is which , as in " which city do you like the most?", while an example of an interrogative pronoun which is in the sentence " which (one) will you take?".
+
+ Interrogative pronouns in questions have a strict word order: they appear immediately pre-verbally. [ 8 ] For example:
+
+ sad ts'avida nino?
+
+ where went Nino
+
+ 'Where did Nino go?'
+
+ Some interrogative pronouns in Georgian are:
+
+ Georgian	 English
+
+ ra 	 what?
+
+ vin 	 who?
+
+ ramdeni 	 how much (many)
+
+ romeli 	 which
+
+ rogor 	 how
+
+ rat'om 	 why
+
+ ristvis 	 what for
+
+ sad 	 where
+
+ rodis 	 when
+
+ Negation
+ [ edit ]
+
+ There are three kinds of negation particles in Georgian: ar , 'not', ver , 'cannot', and nu , 'do not!. Ar is the chief one. Ver is only used to indicate that the grammatical subject of the sentence is not able to carry out an action. Nu is only used when giving negative commands. Examples:
+
+ Tsasvla ar minda , 'I do not want to go'
+
+ Ver movedi , 'I could not come'
+
+ Nu nerviulob! , 'don't worry!'
+
+ These three particles can be modified with the suffix -ghar , to create particles meaning 'no longer, no more':
+
+ ar , 'not' → aghar , 'no longer, not anymore'
+
+ ver , 'cannot' → veghar , 'can no longer, cannot anymore'
+
+ nu , 'do not' → nughar , 'do no longer, do not anymore'
+
+ Examples of the use of these derived negative words:
+
+ Pexburts aghar vtamashob , 'I do not play football anymore'
+
+ Veghar vch'am , 'I cannot eat anymore'
+
+ Nughar iparav! , 'do not steal anymore!'
+
+ See also
+ [ edit ]
+
+ Georgian language
+
+ Georgian verb paradigm
+
+ Polypersonal agreement
+
+ Agglutinative language
+
+ Active–stative language
+
+ References
+ [ edit ]
+
+ ↑
+ Harris, Alice C. (1985). Diachronic syntax: the Kartvelian case . New York: Academic Press.
+
+ ↑ Harris, Alice C. (2006). "Active/inactive marking". In Brown, Keith (ed.). Encyclopedia of Language and Linguistics . Oxford: Elsevier. pp.   Vol I: 40–44.
+
+ ↑ Tuite, Kevin (2017). "Alignment and orientation in Kartvelian (South Caucasian)". In Coon, Jessica; Massam, Diane; Travis, Lisa (eds.). Oxford Handbook of Ergativity . Oxford: Oxford University Press. pp.   1114– 1138.
+
+ ↑ Cherchi, Marcello (1997). Modern Georgian morphosyntax. A grammatico-categorial hierarchy-based analysis with special reference to indirect verbs and passives of state . Wiesbaden: Harrassowitz Verlag.
+
+ 1 2 Makharoblidze, Tamar (2018-01-01). "On Georgian Preverbs" . Open Linguistics . 4 (1): 163– 183. doi : 10.1515/opli-2018-0009 . ISSN   2300-9969 .
+
+ ↑ Boeder, Winfried (2002). "Syntax and morphology of polysynthesis in the Georgian verb". In Evans, Nicholas; Sasse, Hans-Jürgen (eds.). Problems of polysynthesis . Berlin: Academic. pp.   87– 111.
+
+ ↑ Boeder, Winfried (1968). "Über die Versionen des georgischen Verbs". Folia Linguistica . 2 ( 1– 2): 82– 151. doi : 10.1515/flin.1968.2.1-2.82 . S2CID   144756280 .
+
+ ↑ Harris, Alice C. (1981). Georgian syntax   : a study in relational grammar . Cambridge: Cambridge University Press. ISBN   0-521-23584-7 . OCLC   7173193 .
+
+ Aronson, Howard I. 1990. Georgian   : a reading grammar . Corrected edition. Columbus, Ohio: Slavica Publishers.
+
+ Harris, Alice C. & Smeets, Rieks (eds.) 1996. The languages of the Caucasus   : indigenous languages and their speakers . Edinburgh University Press.
+
+ Hewitt, B. G. (1995). Georgian: a structural reference grammar . Amsterdam: John Benjamins.
+
+ Hewitt, B. G. (1996). Georgian: a Learner's Grammar . London: Routledge.
+
+ Kiziria, Dodona (2009). Beginner's Georgian with 2 Audio CDs . New York: Hippocrene. ISBN   978-0-7818-1230-6 .
+
+ Kraveishvili, M. & Nakhutsrishvili, G. (1972). Teach Yourself Georgian for English Speaking Georgians . Tbilisi: The Georgian Society for Cultural Relations with Compatriots Abroad. {{ cite book }} : CS1 maint: multiple names: authors list ( link )
+
+ Kurtsikidze, Shorena. 2006. Essentials of Georgian Grammar With Conjugation Tables of 250 Most Commonly Used Verbs . Lincom Europa.
+
+ Tschenkéli, Kita . 1958. Einführung in die georgische Sprache . 2 vols. Zürich: Amirani Verlag.
+
+ Tschenkéli, Kita. 1965–1974. Georgisch-Deutsch Wörterbuch , 3 vols. Zürich: Amirani Verlag.
+
+ Vogt, Hans (1971). Grammaire de la langue géorgienne . Oslo: Universitetsforlaget.
+
+ External links
+ [ edit ]
+
+ Georgian Verb Conjugator
+
+ Reference grammar of Georgian , written by Howard Aronson (SEELRC, Duke University)
+
+ Online Georgian Grammar by P. J. Hillery (mirror copy)
+
+ v
+ t
+ e
+
+ Georgian language
+
+ Grammar
+ Georgian grammar
+
+ Screeve
+
+ Verb paradigm
+
+ Laz grammar
+
+ Mingrelian grammar
+
+ Writing
+ Scripts
+
+ Braille
+
+ Calligraphy
+
+ Keyboard
+
+ Numerals
+
+ Romanization
+
+ Encoding
+ Unicode
+ Georgian
+
+ Georgian Supplement
+
+ Georgian Extended
+
+ Mac OS Georgian
+
+ Genealogy
+ Proto-Kartvelian language
+
+ Kartvelian languages
+ Proto-Georgian–Zan
+
+ Svan
+
+ Karto-Zan
+ Zan
+ Laz
+
+ Mingrelian
+
+ Old Georgian
+
+ Georgian dialects
+ Adjaran
+
+ Judaeo-Georgian
+
+ Letters
+ Ani
+
+ Bani
+
+ Gani
+
+ Doni
+
+ Eni
+
+ Vini
+
+ Zeni
+
+ He
+
+ Tani
+
+ Ini
+
+ K'ani
+
+ Lasi
+
+ Mani
+
+ Nari
+
+ Ie
+
+ Oni
+
+ P'ari
+
+ Zhani
+
+ Rae
+
+ Sani
+
+ T'ari
+
+ Vie
+
+ Uni
+
+ Yn
+
+ Pari
+
+ Kani
+
+ Ghani
+
+ Q'ari
+
+ Shini
+
+ Chini
+
+ Tsani
+
+ Dzili
+
+ Ts'ili
+
+ Ch'ari
+
+ Khani
+
+ Khari
+
+ Jani
+
+ Hae
+
+ Hoe
+
+ Fi
+
+ Other
+ Georgian Wikipedia
+
+ v
+ t
+ e
+
+ Grammars of the world's languages
+
+ Phonologies
+
+ Orthographies
+
+ Grammars
+ Adjectives
+
+ Adpositions
+
+ Determiners
+
+ Nouns
+
+ Pronouns
+
+ Verbs
+
+ Natural
+ Afroasiatic
+ Arabic
+ Levantine
+
+ Central Atlas Tamazight
+
+ Hebrew
+ Historical
+
+ Kabyle
+
+ Somali
+
+ Tigrinya
+
+ Ugaritic
+
+ Altaic (sprachbund)
+ Turkic
+ Kazakh
+
+ Kyrgyz
+
+ Tatar
+
+ Turkish
+
+ Turkmen
+
+ Uyghur
+
+ Uzbek
+
+ Yakut
+
+ Japonic
+ Japanese
+ Classical
+
+ Okinawan
+
+ Hachijō
+
+ Other
+ Evenki
+
+ Korean
+
+ Mongolian
+
+ Austroasiatic
+ Khmer
+
+ Vietnamese
+
+ Santali
+
+ Austronesian
+ Cebuano
+
+ Hawaiian
+
+ Ilocano
+
+ Malay
+
+ Tagalog
+
+ Dravidian
+ Kannada
+
+ Malayalam
+
+ Tamil
+
+ Telugu
+
+ Indo-European
+ Baltic
+ Latvian
+
+ Lithuanian
+
+ Celtic
+ Breton
+
+ Cornish
+
+ Irish
+ Old
+
+ Manx
+
+ Scottish Gaelic
+
+ Welsh
+ colloquial
+
+ literary
+
+ Germanic
+ Afrikaans
+
+ Danish
+
+ Dutch
+
+ English
+ Old
+
+ Faroese
+
+ German
+
+ Icelandic
+
+ Norwegian
+
+ Old Norse
+
+ Ripuarian
+
+ Swedish
+
+ West Frisian
+
+ Yiddish
+
+ Indo-Aryan
+ Bengali
+
+ Bhojpuri
+
+ Gujarati
+
+ Hindustani
+
+ Maithili
+
+ Marathi
+
+ Nepali
+
+ Odia
+
+ Punjabi
+
+ Sanskrit
+ Vedic
+
+ Iranian
+ Kurdish
+ Sorani
+
+ Pashto
+
+ Persian
+ Tajik
+
+ Italic
+ Catalan
+
+ Dalmatian
+
+ French
+
+ Istro-Romanian
+
+ Italian
+
+ Latin
+
+ Lombard
+ Eastern
+
+ Western
+
+ Portuguese
+
+ Romanian
+
+ Spanish
+
+ Venetian
+
+ Slavic
+ Belarusian
+
+ Bulgarian
+
+ Czech
+
+ Kashubian
+
+ Macedonian
+
+ Old Church Slavonic
+
+ Polish
+
+ Russian
+
+ Rusyn
+
+ Silesian
+
+ Serbo-Croatian
+
+ Slovak
+
+ Slovene
+
+ Slovincian
+
+ Ukrainian
+
+ Other
+ Albanian
+
+ Greek
+ Ancient
+
+ Koine
+
+ Hittite
+
+ Kartvelian
+ Georgian
+
+ Laz
+
+ Mingrelian
+
+ Kra–Dai
+ Has Hlai
+
+ Lao
+
+ Thai
+
+ Native American
+ Algic
+ Massachusett
+
+ Munsee
+
+ Ojibwe
+
+ Na-Dene
+ Navajo
+
+ Tlingit
+
+ Siouan-Catawban
+ Mandan
+
+ Uto-Aztecan
+ Cahuilla
+
+ Nahuatl
+ Classical
+
+ Nawat
+
+ Other
+ Cherokee
+
+ Inuit
+
+ Lushootseed
+
+ Miskito
+
+ Otomi
+
+ Niger–Congo
+ Fula
+ Pular
+
+ Herero
+
+ Sotho
+
+ Swahili
+
+ Tumbuka
+
+ Zulu
+
+ Northwest Caucasian
+ Abkhaz
+
+ Adyghe
+
+ Kabardian
+
+ Sino-Tibetan
+ Burmese
+
+ Chinese
+ Classical
+
+ Cantonese
+
+ Dzongkha
+
+ Kokborok (Tripuri)
+
+ Meitei (Manipuri)
+
+ Mizo
+
+ Tibetan
+
+ Uralic
+ Estonian
+
+ Finnish
+
+ Hungarian
+
+ Ingrian
+
+ Komi
+
+ Livonian
+
+ Meänkieli
+
+ Udmurt
+
+ Other
+ American Sign Language
+
+ Basque
+
+ Mandan
+
+ Ubykh
+
+ Constructed
+ Artistic
+ Klingon
+
+ Naʼvi
+
+ Quenya
+
+ Auxiliary
+ Esperanto
+
+ Interlingua
+
+ Interlingue
+
+ Lingua Franca Nova
+
+ Sambahsa
+
+ Other
+ Lojban
+
+ Retrieved from " https://en.wikipedia.org/w/index.php?title=Georgian_grammar&oldid=1359304601 "
+
+					 Category : Georgian grammar
+
+ Hidden categories: Articles with short description
+ Short description matches Wikidata
+ Pages using sidebar with the child parameter
+ All articles with unsourced statements
+ Articles with unsourced statements from September 2025
+ Pages with interlinear glosses using two unnamed parameters
+ CS1 maint: multiple names: authors list
+
+	 This page was last edited on 14 June 2026, at 14:02  (UTC) .
+
+	 Page was rendered with Parsoid .
+
+	 Text is available under the Creative Commons Attribution-ShareAlike 4.0 License ;
+additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy . Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc. , a non-profit organization.
+
+	 Privacy policy
+
+	 About Wikipedia
+
+	 Disclaimers
+
+	 Contact Wikipedia
+
+	 Legal & safety contacts
+
+	 Code of Conduct
+
+	 Developers
+
+	 Statistics
+
+	 Cookie statement
+
+	 Mobile view
+
+ Search
+
+						 Search
+
+ Toggle the table of contents
+
+				 Georgian grammar
+
+ 3 languages
+
+ Add topic
+
+ 

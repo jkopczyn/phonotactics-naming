@@ -1,0 +1,579 @@
+
+
+  
+    
+    Acoustics of Welsh stress
+  
+  Week 1. Acoustic parameters of stress
+      in Welsh
+
+    
+
+    In many languages, the acoustic correlates of stress
+    include raised (higher) pitch, and louder, longer and more peripheral vowel
+    qualities. However, these acoustic correlates are not universal: a
+    fascinating counterexample is given by modern Welsh, as shown by Briony
+    Williams in her PhD thesis and in several articles arising from it
+      (Williams 1982, 1986, 1999). In a perception test, two English and
+    one Welsh listener judged the placement of stress in a list of 20 isolated
+    words read by a native speaker. Their judgements were correlated with the
+    following acoustic parameters:
+
+    
+
+    
+      
+        
+
+          1. shorter duration of
+                the vowel
+          
+
+              
+          12. longer duration of
+                the vowel
+        
+        
+
+          2. lower envelope
+                amplitude within the vowel
+          
+
+              
+          11. greater envelope
+                amplitude within the vowel
+        
+        
+
+          3. f0
+                change within the vowel of less than 15 Hz (i.e. monotonous)
+          
+
+              
+          10. f0
+                change within the vowel greater than 15 Hz (often very much
+                greater)
+        
+        
+
+          4. higher f0
+                at start of the vowel
+          
+
+              
+          9. lower f0
+                at start of the vowel
+        
+        
+
+          5. greater mean
+                amplitude of vowel
+          
+
+              
+          8. lower mean amplitude
+                of the vowel
+        
+        
+
+          6. greater peak
+                amplitude of vowel
+          
+
+              
+          7. lower peak amplitude
+                of the vowel
+        
+      
+    
+     
+
+      It can be seen from this figure that Welsh vs. English speakers seem to
+      associate quite opposite acoustic features with stress; in particular,
+      syllables perceived as stressed by Welsh listeners have shorter vowels,
+      lower amplitude within the vowel, monotonous pitch (i.e. no pitch
+      movement) on the stressed vowel. The shorter vowels of stressed syllables
+      may however be associated with a longer following consonant (Williams
+      1998: 8). Although stressed syllables in Welsh are not associated with
+      pitch movement or peaks, it has also been noted that final syllables in
+      Welsh are often associated with a pitch peak, despite being unstressed
+      (Buczek-Zawiła 2014).
+
+      
+
+      Given the resource constraints of the time at which it was carried out,
+      Williams's study was based upon a rather small amount of recorded material
+      from a few speakers. In order to test the results against a larger amount
+      of data from more speakers, this term's experiment will be an acoustic
+      investigation of some phonetic correlates of Welsh stress in a set of
+      isolated words (citation forms) as spoken by a larger number of speakers.
+      The data will be drawn from the Paldaruo Speech Corpus (http://techiaith.cymru/data/corpora/paldaruo/?lang=en):
+
+      
+
+      Hypotheses that could be tested:
+
+      
+
+      1. Stressed vowels in Welsh are of shorter duration than unstressed vowels
+
+      2. Stressed vowels in Welsh are of lower
+    amplitude than unstressed vowels
+
+      3. There is <15 Hz change in f0 in stressed vowels
+
+      4. Final, unstressed vowels have higher f0
+      than the (typically, immediately preceding) stressed vowels
+
+      
+
+      Depending on the time available, and the number of students who join the
+      class, we don't need to do all of these, but it is generally advisable in
+      acoustic-phonetic studies to examine a number of different variables
+      because we may get null results with some of them but positive results
+      with others, and we can't tell in advance which parameters will prove most
+      interesting. It is also possible to find no significant differences at all
+      in any of the planned comparisons, which might be a little disappointing
+      but if that happens, it happens. If it did happen, it could be because of
+      insufficient or unsatisfactory data; we can cross that bridge later, if we
+      come to it.
+
+      
+
+      Materials
+
+      
+
+      The Paldaruo corpus was collected in order to train a speech recognition
+      app. It is therefore designed to capture a lot of variation in speech
+      using highly controlled data. It has two parts: randomized isolated words,
+      recorded in sequences of 8 to each .wav file, and short read sentences.
+      We'll use isolated words; the filenames are all of the form *sample*.wav,
+      for example ff3a2aa6-61f2-4d06-a806-7feb99ffdfb2_sample1.wav.
+      Each such sequence of 8 words is available as spoken by hundreds of
+      speakers. A listing of the contents of all the audio files is provided in
+      the corpus as a file called "samples.txt"; I have deleted the sentence
+      transcriptions and highlighted the words with repeated vowels in a
+      document file (see samples.pdf and selection.pdf).
+      The point of selecting those words with the same vowel repeated in two
+      syllables is in order to be able to compare the stressed vs. unstressed
+      version of that vowel as spoken by the same speaker in the same word.
+      There will be all sorts of random variation between speakers and perhaps
+      even between words (different numbers of syllable, coarticulatory contexts
+      etc.); it is also well established that different vowels usually have
+      different durations, amplitudes and "inherent" pitch; for example, open
+      vowels are typically longer and louder than mid vowels, which are in turn
+      longer and louder than close vowels. Therefore, a word such as gyda [ˈgida]
+      might not be a very good basis on which to conclude that stressed vowels
+      have lower amplitude than unstressed vowels, because all other things
+      being equal we expect [i] to have a lower amplitude than [a] anyway. Camfa
+      [kamva], in sample 84, would be a more sensible choice of test-word
+      because one might suppose/expect that the vowels would be pronounced
+      alike, all other things being equal (which they are not ... ), so if they
+      are not pronounced alike it could be because of stress.  
+
+      
+
+      So by comparing the pronunciation of "the same" vowel in two different
+      positions in a spoken word we can control for many unwanted confounding
+      factors in a fairly simple way. 
+
+      
+
+      Homework, to prepare for week 3:
+
+    
+    
+      
+If you don't already have one of them, download and install
+          Wavesurfer or Praat (or both) on your computer.
+      
+ Download a set of samples from two different speakers [speaker
+            1 | speaker
+            2]. These are 2 of the 203 speakers for which we have 12 samples
+          per speaker. Unzip and untar these folders to extract the 12 .wav
+          files contained in them. Use Wavesurfer or Praat to open the files and
+          listen to the .wav files, (especially) the test words we identified as
+          possible selections. If you have any prior experience with Praat, you
+          might want to look at the pitch and amplitude traces, and at the
+          spectra of the vowels. But we can do that together in class in week 3.
+      
+If possible, i.e. if you have enough space on your hard drive,
+          download the full set of recordings from those 203 speakers from here
+          (605 MB download). 
+    
+    Week 3. Measurements
+
+      
+
+    Here are some zipfiles with a specific portion of the data for you to work
+    on, as discussed in week 1 (not necessarily to do all of it, just divided up
+    between us so that we don't duplicate effort unncessarily). Please let me
+    know when you've downloaded them, so I can take them down from this site.
+    
+    Frances.zip   
+      |    Felicia.zip   
+      |    Anastasiia.zip   
+      |    Songjun.zip   
+      |    Toby.zip
+    In order to test any of the hypotheses, it will be necessary to
+      identify and demarcate (i.e. mark the beginning and end) of the stressed
+      vowels, and for hypothesis 4 perhaps also the final unstressed vowel
+      (except that in disyllabic words it might be simpler to just look for an
+      overall increase in f0
+        across the whole word).
+
+      
+
+      In the past, one might have made all the measurements of each sound
+      recording one at a time, with considerable manual intervention. But that
+      approach is unnecessarily time-consuming. It is preferable to use scripts
+      to automate the processes of measurement as far as possible. However,
+      since it would be wrong to simply assume that the measurements obtained in
+      that way must be correct, it is important to validate the accuracy of the
+      measurements in some way. The two main methods I advocate are (a)
+      statistical comparison of measurements from the same word(s) as spoken by
+      different speakers; (b) checking a representative sample of the data
+      against manual measurements. The strength of (a) is that it allows one to
+      identify what the general pattern of e.g. pitch or amplitude or timing is
+      for all tokens of a given word, and use that to identify and check the
+      tokens that deviate most of all from the general pattern, on the basis
+      that severe measurement errors will be outliers. 
+
+      
+
+      The main parameters we want to measure are (a) vowel durations, (b)
+      "amplitude envelopes" and (c) f0. 
+      For good (most reliable) measurements of vowel durations, it would be best
+      to avoid words with [w], [j], or [l] before or after the vowel. [ɬ] should
+      be fine, because it is voiceless. Nasals can be a bit problematic if one
+      wants to measure formant frequencies, but that is not a main focus of this
+      experiment. Stop consonants and voiceless consonants, on the other hand,
+      are especially good contexts for delimiting vowels.
+
+      
+
+      In order for measurement scripts to work, we need to first label
+      (annotate) the audio with start and end times of each word we are in and
+      each vowel we want to measure. We can do this using Praat TextGrids. In
+      this week's class, we will look at how to create them, what acoustic
+      features we need to pay attention to (segmental criteria) and what
+      standards to use for the labelling.
+
+      
+
+      Our textgrids need to have two tiers: one called "word" and the other
+      called "seg".
+
+      On the "word" tier, we mark the start and end of the word(s) of interest,
+      and transcribe the word itself using normal (Welsh) orthography.
+
+      On the "seg" tier, we mark the contrasting stressed vs. unstressed vowels,
+      and postvocalic consonants or consonant clusters. A transcription
+      convention is proposed near the top of WelshTextGrids.html
+
+       
+
+      We mark the stressed vowel with a "1", the pre-stressed unstressed vowel
+      (if there is one) with a "0" and the post-stressed unstressed vowel with a
+      "2". We only mark those unstressed vowels that are of the same vowel
+      quality as the stressed vowel, though. Thus, in ohonom we
+      transcribe and mark the segment boundaries of o0 h 01 n 03 m,
+    because all three vowels are relevant, but in ychydig /ə'xədig/ we
+    needn't bother to transcribe or mark the segment boundaries of the final
+    vowel, because it has a different quality from the stressed vowel, and
+    therefore we just mark up @0 x @1 d (where @ is used instead of IPA -
+    although IPA symbols can be used in Praat TextGrids, it takes a little more
+    work and some of the later steps in the analysis can't cope with IPA).
+
+    
+
+    
+
+    Week 5. Preparing to measure the labelled files
+
+      
+
+      We've started to make Praat TextGrids for the words and segments (vowels
+      and following consonants) of interest; the TextGrids are indexed in WelshTextGrids.html
+
+      
+
+      We decided last year that we should probably not work on the word hynny
+      /'həni/ (in sample 20) because the vowels, although spelled alike in
+      Welsh, are phonetically different vowels. They could possibly by analysed
+      as variants of a single phoneme, but it is perhaps better to ignore this
+      case rather than worry about it. For the same reason, we should probably
+      exclude ystyr /'əstir/ (sample 29). We also decided
+      to exclude ysgolion (sample 39), because of the
+      difficulty of segmenting [i] from [o] in the final syllable or syllables.
+
+      
+
+      To help with the next step, I find it useful to convert the TextGrids to
+      .lab files in the xlabel format. These don't have quite such a
+      detailed, hierarchical structure as the TextGrids; their format is simply
+      that each line has three fields (columns): start_tim end_time
+      label
+
+      To convert from TextGrids to .lab files, I have written two awk
+      scripts: tgwords2lab and tgseg2lab.
+      In Linux (or Apple OSX) these can be used in a terminal window like this:
+
+      
+
+      $ awk -f
+        tgwords2lab wavs/12tokens/0aebc50d-044e-4f6e-b0f3-70e6c335abe8/0aebc50d-044e-4f6e-b0f3-70e6c335abe8_sample1.TextGrid
+      > 0aebc50d-044e-4f6e-b0f3-70e6c335abe8_sample1.TextGrid.words.lab
+
+            
+
+          $ awk -f tgseg2lab wavs/12tokens/0aebc50d-044e-4f6e-b0f3-70e6c335abe8/0aebc50d-044e-4f6e-b0f3-70e6c335abe8_sample1.TextGrid
+        > 0aebc50d-044e-4f6e-b0f3-70e6c335abe8_sample1.TextGrid.seg.lab
+
+          
+
+          (Running awk on a Windows PC/laptop takes a bit of
+          work/trouble, but that doesn't matter because once we've made all the
+          TextGrids I can do that process all together.)
+
+          
+
+          Take a look at
+
+    0aebc50d-044e-4f6e-b0f3-70e6c335abe8_sample1.TextGrid.words.lab
+
+              0aebc50d-044e-4f6e-b0f3-70e6c335abe8_sample1.TextGrid.seg.lab
+
+                
+
+                They are just plain text files. Actually, if we just change the
+                filename from .lab to .csv, then we can also look at them in a
+                spreadsheet!
+
+              0aebc50d-044e-4f6e-b0f3-70e6c335abe8_sample1.TextGrid.words.csv
+
+              0aebc50d-044e-4f6e-b0f3-70e6c335abe8_sample1.TextGrid.seg.csv
+
+                
+
+                Moving on to actually measuring the acoustics. Using the ESPS
+                signal processing package (as in Coleman and Slater 2001: 221-2)
+                in Linux or OSX (more difficult in Windows, but I've already run
+                this process last year anyway), we can pitch track all 2436
+                selected .wav files at 10 ms intervals with a single shell
+                command such as:
+
+                
+
+                $ for
+                  i in */*.wav; 
+
+                      do sox $i temp.raw; 
+
+                      btosps -f 16000 -n 1 -t SHORT -c ""
+                  temp.raw $i.sd; 
+
+                      get_f0 -i 0.01 $i.sd $i.f0; 
+
+                      pplain $i.f0 >$i.f0.txt; 
+
+                  done
+
+                
+
+                The first column of *.f0.txt is an f0
+                track, second column is probability of voicing (in the range 0
+                to 1), and the third column is RMS amplitude.
+
+              
+
+    Coleman, J. S. and A. Slater. 2001. Estimation of parameters for the
+    Klatt formant synthesizer. In R. Damper, ed. Data Mining Techniques in
+      Speech Synthesis. Boston, MA: Kluwer. 215-238.
+
+    
+
+    Extracting measurements from the .f0.txt files, according to the
+      .TextGrid or label files
+
+    
+
+    We can convert all of the .TextGrid files to .lab files at
+          once, in Linux:
+
+          
+
+          $ for i in
+            Data/*.TextGrid
+
+                do awk -f tgwords2lab $i >$i.words.lab
+
+                awk -f tgseg2lab $i >$i.seg.lab
+
+            done
+
+    
+
+    Then, we can make "to do" lists of segments of interest for measurement. For
+    example, to make a list of all the "o1" segments:
+
+    
+
+    $ awk '{if ($3 ==
+      "\"o1\"") print FILENAME, int($1*100), int($2*100), $3}' *.seg.lab >
+      o1list
+
+    
+
+    (The .f0.txt
+    files do not have times associated with each line (they are just 10 ms
+    frames), so we converted from seconds to frame (line) numbers by multiplying
+    the times by 100.)
+
+    
+
+    Using e.g. 01list,
+    we can extract just the relevant lines of the .f0.txt
+    files, and from those lines calculate the average and maximum f0 and rms
+    amplitude. We need to translate each line of e.g. 01list
+    into a code snippet, like this:
+
+    
+
+    0aebc50d-044e-4f6e-b0f3-70e6c335abe8_sample39.TextGrid.seg.lab
+      231 249 "o1"
+
+      
+
+      => 
+
+      
+
+      awk 'BEGIN {sumrms = 0 
+
+       f0 = 0 
+
+       maxf0 = 0 
+
+       maxrms = 0} 
+
+       NR == 231 {
+
+       startf0 = $1} 
+
+       NR >= 231 && NR <= 249 {
+
+       f0 = f0+$1 
+
+       sumrms = sumrms+$3 
+
+       if ($1 > maxf0) {maxf0 = $1} 
+
+       if ($3 > maxrms) {maxrms = $3} 
+
+       } 
+
+       END {print FILENAME, "o1", (249-231)/100, f0/(249-231+1), maxf0,
+      maxf0-(f0/(249-231+1)), startf0, sumrms/(249-231+1), sumrms, maxrms}'
+      0aebc50d-044e-4f6e-b0f3-70e6c335abe8_sample39.wav.f0.txt
+
+    
+
+    Here's the translation (sorry, it's rather cryptic). You can alter the input
+    filename (o1list)
+    and the output script name (o1script)
+    to suit.
+
+    
+
+    cat o1list
+      | sed 's/\./\ /g' | awk '{printf "awk ZBEGIN {sumrms = 0 \n f0 = 0 \n
+      maxf0 = 0 \n maxrms = 0} \n NR == %s {\n
+        startf0 = $1} \n NR >= %s && NR <= %s {\n f0 =
+      f0+$1 \n sumrms =
+      sumrms+$3 \n if ($1 > maxf0) {maxf0 = $1} \n if ($3 > maxrms)
+      {maxrms = $3} \n } \n END {print FILENAME, \"o1\",
+      (%s-%s)/100, f0/(%s-%s+1), maxf0, maxf0-(f0/(%s-%s+1)),
+      startf0, sumrms/(%s-%s+1), sumrms, maxrms}Z
+      %s.wav.f0.txt\n",$5,$5,$6,$6,$5,$6,$5,$6,$5,$6,$5,$1}' | sed "s/Z/\'/g"
+      >  o1script
+
+      
+
+    Note that a letter Z
+    is used here solely to avoid '...' quotes within '...' quotes. At the end,
+    we translate the Z
+    to \'
+    using sed.
+
+    
+
+    To execute the measurement script, you need to make it executable and then
+    run it:
+
+      
+
+      $ chmod +x o1script
+
+      $ ./o1script
+
+    
+
+    o1script
+    prints out 
+
+    
+      
+(A) the filename, 
+      
+(B) the segment label,
+      
+(C) duration (s) [Williams' (1)],
+      
+(D) mean f0 (Hz), 
+      
+(E) maximum f0, 
+      
+(F) f0 change (= max f0–mean f0)
+        [Williams' (3), roughly], 
+      
+(G) f0 at start of vowel [Williams' (4)], 
+      
+(H) mean rms amplitude (arbitrary units i.e. digitized signal level)
+        [Williams' (5)], 
+      
+(I) rms amplitude integral [Williams' (2)], and 
+      
+(J) peak rms amplitude [Williams' (6)]. 
+    
+    For example:
+
+      
+
+      0aebc50d-044e-4f6e-b0f3-70e6c335abe8_sample27.wav.f0.txt o1 0.13 229.554
+      235.645 6.09121 202.621 3436.79 48115.1 4073.69
+
+      0aebc50d-044e-4f6e-b0f3-70e6c335abe8_sample28.wav.f0.txt o1 0.14
+      197.949 250.995 53.0461 0 2292.96 34394.4 3129.76
+
+      0aebc50d-044e-4f6e-b0f3-70e6c335abe8_sample39.wav.f0.txt o1 0.18
+      223.068 236.573 13.5055 211.956 2530.95 48088 4229.13
+
+    
+
+      A .csv file with all this data in one
+        place is available here
+
+      
+
+     Week 8. 
+
+        
+
+      A zipfile of all the data gathered so far is available here
+
+      
+    
+  
+

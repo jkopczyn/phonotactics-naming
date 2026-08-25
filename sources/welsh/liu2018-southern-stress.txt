@@ -1,0 +1,1365 @@
+Phonetics of Southern Welsh Stress
+
+Zirui Liu
+
+
+     Abstract
+     This study is concerned with the phonetic manifestations of primary and secondary
+     stress in Southern Welsh. The study found effects of primary stress on duration and F2
+     in the language. Specifically, vowels with primary stressed had longer duration and
+     horizontally expanded vowel space when compared to unstressed vowels. Although
+     there was significant difference in F0 between primary stressed vowels and their
+     unstressed counterparts, F0 trajectory suggested no effect directly associated with stress.
+     No significant effects of secondary stress were found in the present study. Due to the
+     position shift of primary stress from the ultima to the penultimate (around the eleventh
+     century) (Williams & Ball, 2001), vowels that occupy the ultima syllables were also
+     included in the investigation. No clear stress related phonetic prominence was found for
+     ultima vowels, except for word-final lengthening.
+     Keywords: stress, prosody, Welsh, Celtic
+
+
+1 Introduction
+
+Lexical stress is a suprasegmental linguistic phenomenon, which can provide
+rhythmic structure in a fixed-stress language such as in Turkish Kabardian and Polish
+(Gordon & Applebaum, 2010; Hayes, 2009). It can also encode lexical information in
+a language with phonemic stress, as in English and Spanish (Hayes, 2009). Earlier
+denotations on word level stress emphasised the strength of articulation during
+production of the stress bearing syllable, more specifically on ‘force’ and ‘loudness’
+(Jones, 1949; Bloomfield, 1933; Bloch & Trager, 1942; Fry, 1958; Kingdon, 1958;
+Morton & Jassem, 1965).
+      This paper aims to examine which phonetic measures correlate with word stress
+in Welsh spoken in the southern region of Wales (primary and secondary). Not much
+research on stress has been done in the Celtic language family. Therefore, it is of
+interest to determine which cross linguistic features of stress extend into a language
+such as Welsh, and what its language-specific stress related characteristics are. There
+has been little experimental work done on word stress in Welsh and its sister
+languages – Breton and Cornish. Williams conducted her experimental study on
+Welsh stress for a PhD thesis in 1983. However, due to experimental designs,
+Williams’s study had several confounds and no consistent control group for the
+evaluation of acoustic properties in stressed vowels (see section 1 for details).
+      Earliest experimental study on the acoustic correlates of linguistic stress goes
+back to Fry’s work in English. Fry explored two phonetic manifestations of stress in
+English - duration and intensity (Fry, 1955). The experimental material consists of
+English words that change from a noun to a verb triggered by a change of stress
+location, such as in ‘object, digest and permit’ (Fry, 1955, P.765). Results of
+measurements and perceptual tests showed that both duration and intensity cue
+perception of stress, with duration having a more salient effect (Fry, 1955). Later in
+UCLWPL 2018                                                                              2
+
+
+1958, Fry extended his investigation into other acoustic cues including fundamental
+frequency, and confirmed its positive effect on stress perception; furthermore, he
+proposed the explicability of vowel quality (vowel space reduction) as a physical
+correlate to word stress (Fry, 1958). Since then, experimental work on word stress
+has mostly focused on the four acoustic correlates mentioned above cross
+linguistically – duration, F0, intensity and vowel quality.
+       In general, stressed vowels are related to phonetic correlates such as raised pitch,
+amplified intensity, longer duration, change in vowel quality and reduction in
+unstressed vowels (Gordon & Applebaum, 2010). Suggested by a great volume of
+research in stress hitherto, longer duration is said to be a constant cue to stress across
+languages (Ortega-Llebaria & Prieto, 2010). Consequently, supported by the ‘Hyper-
+and Hyperarticulation’ theory, when a vowel is unstressed, it is reasonable to suppose
+that shorter articulation time would lead to phonetic undershoot – centralisation of
+unstressed vowels (Lindblom, 1990 ; Garellek & White, 2015, p.26). Thus, a
+reduction in vowel space for unstressed vowels may be a phonetic characteristic in
+stress languages. However, typological differences across languages and other factors
+such as accentual conditions on the suprasegmentally level have resulted in varied
+conclusions on which correlates signal stress in different languages. For example,
+Ortega-Llebaria and Prieto (2010)’s work on Castilian Spanish and Central Catalan
+showed that stress correlates perform differently according to the focus status of the
+word. They found that duration serves as a strong cue to stress under both conditions
+in both languages, but not intensity, fundamental frequency or spectral-tilt (Ortega-
+Llebaria & Prieto, 2010). However, research done in Dutch, Polish, Macedo-nian,
+American English and Bulgarian suggest that change in vowel quality functions as a
+robust correlate to word stress (Sluijter & van Heuven, 1996a; Sluijter, 1995; Ortega-
+Llebaria & Prieto, 2010; Crosswhite, 2003; Ortega-Llebaria & Prieto, 2010; Plag,
+Kunter & Schramm, 2011).
+       Typological differences in stress manifestation may be due to phonological
+properties of the language under investigation (Gordon & Applebaum, 2010; Garellek
+& White, 2015). For example, pitch may not be used to signal stress in a language that
+has lexical tones, which is supported by results of Everett (1988) in Pirahã and
+Gandour, Harper & Potisuk (1996) in Thai, where tones are phonemic in both
+languages (Everett, 1988; Gandour, Harper & Potisuk, 1996; Gordon & Applebaum,
+2010). According to Gordon & Applebaum (2010)’s paper on Turkish Kabardian,
+pitch and duration have a positive correlation with stress and intensity has minor
+effect on the production of stress. Notably, Turkish Kabardian employs a ‘vertical
+three-vowel system’, where only the vowel height is contrastive. There are many
+allophones of these vowels in the language due to its phonological rules of
+assimilation, such as labialisation, velarisation and fronting, depending on the
+succeeding consonant (Gordon & Applebaum, 2010, p.36).
+       Thus, according to Gordon and Applebaum, the inconsistent results of vowel
+reduction as a function of stress may be resultant of Turkish Kabardian’s assimilation
+rules that signal surrounding consonants, which leaves less room for vowel reduction
+(Gordon & Applebaum, 2010). In the Garellek and White (2015) paper on stress in
+Tongan, a reduction or expansion in vowel space was not found, but an upward shift –
+lowering of the first formant. Motivation behind the shift in vowel space in Tongan
+may also be due to the fact that there are few phonemes in the language’s vowel
+inventory, and a reduction in vowel space could harm perceptual distinctiveness
+(Garellek and White, 2015). Therefore, it is of interest to inspect whether there exists
+UCLWPL 2018                                                                            3
+
+
+an interaction between vowel space and stress conditions in Welsh, and if so, how
+such effect manifests according to the language’s typological features.
+      This study will investigate acoustic correlates of stress and secondary stress in
+Southern Welsh, specifically regarding the six short vowels. Due to the Old Welsh
+Accent Shift (shift of stress position from word ultima to the penult), a compelling
+amount of literature suggests that the new penultimate stress in Welsh only serves as a
+rhythmic function, and the language’s phonetic salience, such as F0, had remained in
+the ultima (Williams, 1983; Jones, 1949; Thomas, 1984; Watkins, 1993). Williams’s
+study also suggests certain acoustic salience of the ultima syllable (Williams, 1983).
+Therefore, due to Welsh’s language-specific characteristics, in addition to the primary
+and secondary stressed syllable, the ultima syllable will be included in the study.
+      This paper has the following structure: firstly, the paper will introduce some
+typological properties of Welsh and review previous research done on Welsh stress.
+Then, an overview of language background will be given, which include information
+on Welsh’s phonemic inventory, stress pattern and the Old Welsh Accent Shift.
+Thirdly, experimental methods and material will be explained, followed by reporting
+of the study’s results. Finally, discussion of outcomes, their implications for research
+in acoustic properties of stress and a conclusion of this study will be drawn.
+
+1.1 Typological features and previous research of Welsh stress
+
+Southern Welsh has eleven monophthongs, specifically six short vowels and their
+long counterparts, except for the short mid central schwa. Similar to the Williams
+paper, the five long vowels will not be examined for the purpose of this study, since
+they only occur in stressed positions and mostly in monosyllabic words (Williams,
+1999). Since there exists distinction between long and short vowels in Welsh,
+duration may not serve as a strong cue to stress for the sake of greater perceptual
+distinctiveness. Stress is non-contrastive in Welsh, primary stress mainly falls on the
+penultimate syllable; secondary stress is alternating and falls on the second to the last
+stressed syllable from the right edge of the word. Recall that Gordon and Applebaum
+(2010) noted in their paper that the limited effect of stress on vowel reduction in
+Turkish Kabardian may be due to the non-phonemic status of stress in the language.
+This could also be the case in Southern Welsh.
+      Williams’ research consists of four main parts – preliminary measurements of
+stressed vowels based on listener judgements; further measurements of actual stressed
+vowels in spontaneous speech; measurements of stressed and unstressed consonants,
+followed by perceptual tests with artificially manipulated stimuli (modifying coda
+consonant /m/) (Williams, 1983). In the preliminary study, materials were recordings
+of one male Southern Welsh speaker producing 12 regularly stressed polysyllabic
+words in a carrier sentence. The carrier sentence used was ‘Dydi hi ddim yn ddigon i
+YSGRIFENNU ___’ (‘It’s not enough to WRITE ___’); transcribed in IPA as /dədɪ hɪ
+ðɪm ən ðɪgɔn ɪ sgrɪvɛnɪ ___/ (Williams, 1983, p.28). Therefore, Williams’s results
+regarding duration and pitch could have been confounded by the utterance final
+position of target words, namely under the effects of utterance/phrase final
+lengthening and boundary tones (Xu & Wang, 2009).
+      Twelve acoustic parameters were used to compare target syllables (syllables
+judged as stressed in the preliminary study and stressed syllables in the second study)
+to other syllables within the same word. These parameters include ‘shorter duration’,
+‘lower estimated amplitude integral’, ‘F0 change (within vowel) of less than 15 Hz’,
+UCLWPL 2018                                                                             4
+
+
+‘higher F0 at start of vowel’, ‘greater mean amplitude’, ‘greater peak amplitude’ and
+their conversed counterparts (Williams, 1983, p.30).
+       Two monolingual English speakers judged syllables that correspond to the
+following properties to be stressed - ‘longer duration’, ‘greater estimated amplitude
+integral of vowel’, ‘F0 change greater than 15Hz’ and ‘greater peak amplitude’
+(Williams, 1983, p.31). The Welsh speaker showed an opposite trend in judgement
+results. According to such results, monolingual English speakers judged the position
+of stress according to acoustic cues in their native language. Since stress is predictable
+in Welsh, the native Welsh speaker’s judgement reflects the actual trend of acoustic
+properties of stressed syllables in the data (compared to other syllables within the
+word).
+       However, as noted previously, such results are likely to be due to comparison of
+the stressed syllables to other syllables in the word, especially to the word initial and
+final syllables. Moreover, position of the target word in the carrier sentence may have
+further confounded the data trend as a result of sentence/phrase final lengthening.
+According to Williams, the conclusion that stressed syllables have shorter duration
+may also be due to the fact that the phonologically short schwa is permitted in the
+ultima position in Welsh (Williams & Ball, 2001).
+       The second part of Williams’ research measured stressed syllables produced
+during spontaneous speech. Results of this part of her study exhibited a parallel trend
+in acoustic properties with the Welsh speaker’s judgement from the preliminary study.
+Influence of sentential position may be smaller for the second part of the study, yet
+the same confounds were present regarding Williams’ choice of control group or the
+lack thereof. In addition, effects of word initial and final lengthening were not taken
+into account. Research done in Mandarin Chinese (Xu & Wang, 2009) and English
+(Nakatani, Aston & O’Connor, 1981) both support the effects of word-edge
+lengthening. All in all, Williams concluded that stress in Welsh is marked by shorter
+duration, lower amplitude and lack of pitch raise (Williams, 1983).
+       Since the schwa does not appear in word ultima position in Welsh, Williams
+later conducted research in which the schwa was omitted, in order to control for its
+effects on duration results. However, it is still difficult to disentangle effects of
+word/phrase-final lengthening in the results. Interestingly, this research shows that
+stressed penultimate vowels are slightly longer than unstressed antepenultimate
+vowels. In this study, mean durations for unstressed and primary stressed vowels ware
+71ms and 75ms respectively. However, sample sizes used were significantly
+asymmetrical (349 cases for primary stress and 97 for unstressed) (Williams & Ball,
+2001, p.180).
+       In the third part of Williams’ study, 176 consonants’ durations were measured
+by stress categories –syllable onset and coda positions when stressed and unstressed.
+Williams found significant post-vocalic lengthening effect when the syllable bears
+stress (Williams, 1999, p.3). Furthermore, Williams’s final perceptual study found
+that longer duration of stressed coda consonant cues stress even in stimuli with a
+superimposed flat F0 contour, and that F0 does not affect listeners’ stress perception
+(Williams & Ball, 2001; Williams, 1999). Such findings of consonant strengthening
+by stress may suggest overall lengthening of the stressed syllable in Welsh. This
+prominence induced consonantal lengthening effect has also been found in early
+studies of Dutch, which uses duration to encode stressedness of vowels. It was
+observed that stressed consonants had longer duration in both syllable onset and coda
+positions. (Nooteboom, 1972).
+UCLWPL 2018                                                                                            5
+
+
+      Contradictory results have been reported regarding Williams (1983)’s
+conclusion on the lack of F0 change in stressed vowels. Later research showed that
+stressed penult has higher pitch compare to unstressed syllables by around 17 Hz.
+However, similar to Williams’s updated study mentioned above, sample sizes are
+highly uneven, and thus it is hard to determine the correlation between stress and F0
+from the data. Therefore, it is necessary for a study with new experimental designs to
+be conducted, in order to gain a more comprehensive understanding of the phonetics
+of Welsh stress. More specifically, using word and phrase medial unstressed vowels
+as the control group.
+
+1.2 Background on the Welsh language (Southern dialect)
+
+               Table 1 Southern Welsh vowel (top) and consonant (bottom) inventory
+                                       Front             Central               Back
+                                   short long          short long          short long
+                     Close           ɪ       iː                              ʊ      uː
+                     Mid             ɛ       eː             ə                ɔ      oː
+                     Open                                   a    aː
+
+
+                              Labial                             Post-
+                   Bilabial              Dental   Alveolar                  Velar   Uvular   Glottal
+                              -dental                           alveolar
+
+
+      Plosives       p b                            t d                      k g
+       Nasal        m̥ m                            n̥ n                     ŋ̥ ŋ
+       Trill                                        r̥ r
+   Fricative                   f v        θ ð      s             ʃ                   χ        h
+    Lateral-
+                                                    ɬ
+   fricative
+    Lateral-
+  approximan                                            l
+       t
+
+1.2.1 Vowel inventory
+
+As table 1 demonstrates, Modern Southern Welsh has six phonological short vowels
+and five long vowels. However, vowel length is only contrastive in monosyllabic
+words (see example 1 below for minimal and near minimal pairs).
+
+(1)       [ˈmeːl] mêl ‘honey’           [ˈmɛlɪn] melin ‘mill’
+          [ˈtoːn] tôn ‘tune’           [ˈtɔn] ton ‘wave’
+          [ˈkʰuːn] cŵn ‘dogs’          [ˈkʰʊn] cwm ‘valley’
+                                                     (adopted from Hannahs, 2013, p.24)
+
+Long vowels only appear in stressed syllables and is sometimes marked by a
+circumflex such as ‘mêl’ and ‘tôn’ in example (1) above. Table 1 reflects vowel
+inventory of the southern variety of Welsh. In addition, Northern Welsh has a high
+central vowel /ɨ/ and its long counterpart /ɨː/. The present study focuses on the
+southern dialect.
+UCLWPL 2018                                                                            6
+
+
+
+1.2.2 Language background and the Old Welsh Accent Shift
+
+The Welsh language emerged from its mother language Common Brittonic
+(belonging to the Celtic family in the Indo-European language, also referred to as
+British) around the fifth century, then was recognised as an independent language by
+the mid-sixth century (Willis, 2009; Williams, 1999). There was little to no written
+documentation of the language (Old Welsh) until the mid-eighth century.
+      Literature that makes use of manuscripts from the ninth to eleventh centuries
+dates the Old Welsh Accent Shift to the thirteenth century, although this is still
+controversial (Griffen, 1991&1992; Williams & Ball, 2001; Hannahs, 2013). Despite
+controversy of the specific dating, large amount of documentation suggests a clear
+shift of stress location in the language. Welsh’s parent language Brittonic had stress
+on the penultimate syllable, while the ultima position was occupied by inflectional
+endings (Williams, 1983; Hannahs, 2013). The loss of inflectional ending around the
+sixth century marked the transition from Brittonic to Old Welsh (Williams, 1999).
+Due to deletion of the last syllable, Old Welsh was then stressed on the ultima, the
+Old Welsh Accent Shift refers to when stress relocated to the penultimate syllable
+around the late eleventh century (Williams & Ball, 2001; Williams, 1999).
+
+1.2.3 Stress patterns
+
+In Modern Welsh, regular primary stress falls on the penultimate syllable in
+polysyllable words and the ultima in monosyllabic content words (see example 2a);
+monosyllabic function words do not bear stress (Czerniak, 2015; Williams, 1983).
+Secondary stress appears in words with four syllables or more and sometimes on the
+first syllable of trisyllabic words with irregular main stress on the ultima. Secondary
+stress is alternating and falls on the second syllable to the last stressed syllable (see
+example 2b). (Williams& Ball, 2001).
+       Irregular primary stress can fall on the ultima or antepenultimate. These cases
+mainly occur in loanwords (see example 2c) or stress reassignment triggered by
+morphological context (see example 2d).
+
+(2)   a.   [ˈtaːd] tad ‘father’
+           [ˈtada] tadau ‘fathers’
+           [bləˈnəðɔɪð] blynyddoedd ‘years’
+      b.   [ˌbɛndɪˈgɛdɪg] bendigedig ‘blessed’
+           [ˌkanɪaˈtaːd] caniatâd ‘permission’
+      c.   [ˈparagraf] paragraff ‘paragraph’
+           [ˈtɛstamɛnt] testament ‘testament’
+      d.   [əmˈlaːð] ymlâdd ‘to be concerned’
+           [əsˈtoːl] ystôl ‘stool’
+           (adapted from Czerniak, 2015, p.133 and Williams & Ball, 2001, p.166)
+
+
+1.2.4 Schwa distribution
+
+A final matter worth noting is the distribution of the schwa in Welsh. As mentioned
+previously, the schwa in Welsh is permitted in the ultima position. Yet, unlike other
+languages such as English and Russian, it can freely occupy the stressed penult
+UCLWPL 2018                                                                            7
+
+
+(Hannahs, 2013, p.24). Furthermore, it lacks a long counterpart unlike other vowels in
+the inventory. This may be due to the language specific rule that long vowels only
+occur in monosyllabic words and the schwa could not occupy that position in Welsh
+(Hannahs, 2013).
+
+
+3 Methodology
+3.1 Participants
+
+Four female native Welsh speakers of the southern dialect living in London
+participated in this study. They were all aged between 20 and 45 years old and are
+originally from areas around Cardiff (on the Southern coast of Wales). All
+participants have lived in London for at least 3 years, however they stated that they
+communicate with friends and families in Welsh daily. Participants all received a
+compensation of seven pounds and fifty pence per hour for their involvement.
+
+3.2 Stimuli
+
+There were in total ninety-four words used in the study. Mainly four-syllable words
+(ˌCVCVˈCVCV) were used for primary stressed, ultima and unstressed vowels.
+Words with irregular stress (i.e. certain loanwords and morphologically complex
+words) were not used in this study. Regularity of stress location for all stimuli was
+confirmed by a native Welsh language informant who did not participant in later
+recordings. There were nine three-syllable words used for primary stressed vowels
+and vowels at the ultima position; this was due to difficulties finding four-syllable
+words that fit the local environment criteria of the required vowel (such as /a/ and
+/ɔ/at the ultima position and /ɪ/ at the penultimate position). There were also
+difficulties in finding /ɛ/ and /ʊ/ in an open syllable at word final position. In this
+caseˌ CVCVˈCVCVC words were used instead.
+      For secondary stress, five-syllable words (CVˌCVCVˈCVCV) were used, most
+of them had plural or derivational suffixes added to four-syllable words. This is to
+avoid word-initial boundary effects on the secondary stressed syllable in four-syllable
+words. Note that there are two ways to pronounce the plural suffix ‘-au’ - /ai/ in
+formal register, and /ɛ/ in informal register. In order to maintain consistency, speakers
+were informed to pronounce the plural suffix in the colloquial way (/ɛ/).
+      For the control group - unstressed vowels, antepenultimate syllables in four-
+syllable words were used, also to minimise effects of word boundaries in three-
+syllable words. In order to control local environment to minimise effects of
+coarticulation, surrounding consonants were kept constant to a few natural classes.
+Most neighbouring consonants were fricatives, in conjunction with some nasals, the
+liquid /l/ or the trill /r/.
+      See Appendix for full word list.
+
+3.3 Procedure
+
+The stimuli were presented as a wordlist written in Welsh on A4 papers, and were
+read out loud by the participants. A carrier sentence was used to embed every word –
+‘Dywedwch y gair ____ i fi.’ ([dəuˈɛdʊχ ə ˈgai ___ ɪ ˈvɪ]), ‘Say the word ___ for me’.
+There were three repetitions for each word, five words per stress level (word position)
+and per vowel, which produced 115 tokens per repetition, same set of tokens for
+UCLWPL 2018                                                                                 8
+
+
+unstressed vowels were later used as the control group for comparison. There were
+345 tokens from each speaker, yielding 1380 tokens in total. For the repetitions, the
+original word list was randomised in excel to avoid any priming effects. All
+recordings were done at the UCL Phonetics lab, in a sound-proof booth, and with a
+RØDENT1-A microphone. Recordings were made using Audacity, at a sampling rate
+of 44.1 kHz, then saved as .wav files. Tokens were then labelled manually in PRAAT
+using textgrid (Boersma & Weenink, 2009). Segment boundaries were determined
+according to clear onset and offset of the second formant (F2). The labelled files were
+analysed in VoiceSauce (Shue et al, 2011). Six acoustic parameters were chosen for
+measurements of F0, duration, energy (intensity), formant heights and voice quality
+(see table 2 below for details).
+
+                            Table 2. Acoustic measurements
+  Measurements               Description                   Parameters         used    in
+                                                           VoiceSauce
+  Fundamental Frequency       Pitch – in Hertz (Hz)            STRIGHT          algorithm
+                                                               (Kawahara,        Masuda-
+                                                               Katsuse & de Cheveigné,
+                                                               1999)
+  Duration                    Duration of vowels      –   in   Running Duration
+                              milliseconds (ms)
+  Intensity/Loudness          RMS energy                       Energy
+
+  First Formant (F1)          Height of F1 – in Hz             Snack
+                                                               SoundToolkit(sjölander,
+                                                               2004)
+  Second Formant (F2)         Height of F2 – in Hz             Snack
+                                                               SoundToolkit(sjölander,
+                                                               2004)
+  Voice Quality               H1*-H2* and CPP                  CPP – algorithm by
+                                                               Hillenbrand, Cleveland &
+                                                               Erickson (1994)
+
+                                    (adapted from Garellek & White, 2015, p.16&17)
+
+       Mean values of measurements for the whole vowel were computed by
+VoiceSauce and output as a text file. For voice quality, H1*-H2* measures the
+amplitude (dB) difference between the first and second harmonics (Garellek & White,
+2015). Typically, spectral structures of breathy voice include higher amplitude of the
+first harmonic (higher spectral tilt); on the other hand, creaky voice has a lower first
+harmonic but higher second, third or fourth harmonic in amplitude (Hillenbrand,
+Cleveland & Erickson, 1994). Thus, in comparison to values of modal voice, lower
+values usually correspond to creaky voice and higher values to breathy voice (Bickley
+1982; Garellek & White, 2015). Central peak prominence (CPP) measures the
+distance from the cepstral peak to the cepstrum regression line, and ceptral peak is
+usually less prominent for breathy voice (Hillenbrand, Cleveland & Erickson, 1994).
+Noise in the voice such as aspiration or irregular voicing in creaky voice are both
+associated with lower CPP values (Garellek & Keating, 2011).
+
+3.4 Confounds and exclusions.
+
+Due to choice of carrier sentence in this study, following segment of the target word
+is the vowel (/ɪ/), which may lead to glottalisation of the vowel in word-final open
+UCLWPL 2018                                                                             9
+
+
+syllables. Thus, results of CPP and H1*-H2* for vowels at the ultima position may be
+influenced.
+      Out of 1380 tokens, ten were excluded during labelling. For speaker two, this
+include two secondarily stressed /ʊ/ and one secondarily stressed /ɛ/ (mis-
+pronunciation). For speaker four, three unstressed /ʊ/, three secondarily stressed /ʊ/
+and one primarily stressed /ʊ/ were excluded. All exclusions of /ʊ/ were due to severe
+reduction of the vowel around liquid consonants or possibly shortened duration for
+unstressed instances. The aforementioned cases all had reduction to the point of
+unidentifiable or missing segments (of target vowels).
+      During data analysis, any values more than three standard deviations from the
+mean were removed before statistical testing.
+
+
+4 Results
+4.1 Linear mixed effects model
+
+This part of the study was concerned with determining which acoustic parameters are
+used to cue stress in Southern Welsh, and if word final vowels differ phonetically
+from unstressed vowels. Significant difference between unstressed and stressed/ultima
+vowels will be reported. Results of each acoustic measurement (see table 2) are
+analysed with linear mix effects models using the lmer() function provided in the
+lme4 package. The aim of the analysis was to investigate the relationships between
+the acoustic values and stress/Welsh ultima effects. All statistical analysis was done in
+the software - R (R Development Core Team, 2008). Analysis procedure followed the
+instructions in Baayen (2008a) Chapter 7.
+       Three models were constructed for comparisons between stressed (primary and
+secondary) and unstressed vowels, and unstressed and ultimate vowels. The models
+used all included maximal random effects/slopes structures, such approach attests to
+better retain analytical power compared to conventional ANOVA analysis (Barr et al,
+2013). These models each had a fixed effect for vowel (six short vowels, see table 1)
+and stress (word position for comparison between ultima and unstressed vowels).
+Note that the schwa was excluded for comparison between ultima and unstressed
+vowels. Three random effects were also included in the models – speaker, word and
+order (order of word production during recording). These random intercepts should
+account for uncontrollable variables such as speaking rate, speaker and word
+differences. By-speaker and by-order random slopes for the effects of stress/ultima
+effect were also included in the models. By including random slopes, model fit was
+significantly improved, according to likelihood ratio tests performed with the function
+anova() in R (Baayen, 2008a). Random slopes should account for the variability in
+stress/word position’s effectiveness on speakers and order of production.
+       For analysis of the effects of stress in general (for all vowels), comparison using
+anova() was made, between models including fixed effects for stress and vowel and
+null models with one fixed effect (vowel). p-values and Χ2-values provided in the
+likelihood ratio tests output will be reported. Where there is a significant effect
+according to the likelihood ratio test, t-value in the model output will be reported.
+Analysis of effects of the ultima follows the above procedure, by replacing stress as
+fixed effect with word position (the ultima) in the models.
+       For individual vowels, a vowel by stress interaction will be added to the general
+model, to determine if the interaction significantly improves model fit. If significant
+effects for vowel by stress interaction are observed, additional models will be fitted
+UCLWPL 2018                                                                                         10
+
+
+for each individual vowel by sub-setting the data. The models for within vowel
+comparisons had a fixed effect of stress, (no fixed effect for vowel), and random
+intercept and slopes for speaker only. Random intercepts and slopes for word and
+order had to be excluded due to convergence problem (possibly due to not enough
+within vowel observations for the model to estimate the effects of word and order)
+(Barr et al, 2014).
+
+4.2 Fundamental frequency (F0)
+
+ Table 3 Mean F0 (Hz) for vowels with primary stress and no stress, t-values taken from linear mix
+ effect model output, Χ2 values and p-values adapted from likelihood ratio tests output (for standard
+                                     deviation see parenthesis).
+
+ Vowels         Primary stress     No stress         t-value          χ 2-values       p-values
+
+ /ɪ/             207.17(17.44)      217.14(21.09)       -1.53          Χ2(1) = 2.31       0.13
+
+ /ɛ/             195.70(16.60)      215.25(23.00)       -3.51          Χ2(1) = 6.51      <0.01*
+
+ /a/             194.52(16.44)      209.89(22.83)       -2.83          Χ2(1) = 5.19      <0.02*
+
+ /ɔ/             193.85(19.46)      214.86(21.25)       -3.39          Χ2(1) = 6.20      <0.01*
+
+ /ʊ/             202.78(19.45)      207.20(20.87)       -1.20          Χ2(1) = 1.52       0.22
+
+ /ə/             203.81(16.73)      215.55(18.21)       -3.88          Χ2(1) = 7.18      <0.007**
+
+ Overall         199.64(18.34)      213.32(21.41)       -3.03          Χ2(1) = 5.64      <0.02*
+
+
+
+
+Figure 1: Mean F0 (Hz) bar plot for primary (upper) and secondary (lower) stress. Error bars indicate
+         standard error of the mean (N – no stressed; P - primary stress; S- secondary stress).
+UCLWPL 2018                                                                                              11
+
+Figure 2: Mean F0 (Hz) bar plot by vowel for ultima vowels and unstressed vowels. Error bars indicate
+                       standard error of the mean. (N - no stress; U – ultima).
+
+
+
+
+Figure 1 illustrates the means of fundamental frequency for each vowel under stressed
+(primary and secondary) and unstressed conditions. It is shown that vowels with main
+stress have significantly lower F0 values (overall by 13.68Hz) (Χ2(1) = 5.64,
+p<0.02*), and this effect is least significant with the vowel /ʊ/. By adding a vowel by
+stress interaction in the model, likelihood ratio tests showed significant improvement
+of model fit (Χ2(5) = 19.46, p<0.002**). Therefore, additional models were fitted for
+individual vowels for the effect of primary stress, in order to locate the variabilities.
+Results show that for /ɪ/ and /ʊ/, effect of primary stress on F0 is insignificant while
+the rest remained significant (see table 3).
+       Contrarily, secondary stressed vowels showed a positive effect on F0 values
+(see lower panel in figure 1). However, comparison between models with and without
+secondary stress as fixed effect did not have a significant result (Χ2(1) = 1.51, p=
+0.22).
+      Figure 2 shows that all vowels in ultima positions have lower pitch than
+unstressed syllables. Likelihood ratio tests shown significant results for such effect (t
+= -4.85, Χ2(1) = 8.802, p<0.003**). No significance was found by adding interaction
+in the model for vowel by stress (Χ2(4) = 8.90, p= 0.06). This indicates that the
+observation of overall pitch lowering in this case are similar across vowels.
+
+
+4.3 Duration
+
+  Table 4 Mean duration (ms) for vowels with primary and no stress, t-values taken from linear mix
+  effect model output, Χ2 values and p-values adapted from likelihood ratio tests output (for standard
+                                      deviation see parenthesis).
+     Vowels      Primary stress        No stress      t-values        χ 2-values           p-values
+UCLWPL 2018                                                                                          12
+
+
+
+ /ɪ/               87.58(28.79)       58.75(23.27)       7.52         Χ2(1) = 13.69      <0.0002***
+
+ /ɛ/              125.77(33.88)       65.68(27.32)       5.54           Χ2(1) = 9.58     <0.002**
+
+ /a/              129.99(30.07)       77.98(21.50)       5.38           Χ2(1) = 9.46     <0.002**
+
+ /ɔ/              106.73(35.77)       60.34(21.68)       4.66           Χ2(1) = 8.76     <0.003**
+
+ /ʊ/               73.36(36.18)       37.80(21.84)       6.37         Χ2(1) = 13.63      <0.0002***
+
+ /ə/               61.06(21.03)       51.80(17.76)       1.16           Χ2(1) = 1.48      0.22
+
+ Overall           97.52(40.38)       58.90(25.39)       5.93         Χ2(1) = 10.89      <0.001**
+
+
+
+Figure 3: Mean duration (ms) bar plot by vowel for primary (upper) and secondary (lower) stress. Error
+    bars indicate standard error of the mean (N - no stress; P - primary stress; S - secondary stress).
+
+
+
+
+ Table 5 Mean duration (ms) for ultima vowels and unstressed vowels, t-values taken from linear mix
+  effect model output, Χ2 values and p-values adapted from likelihood ratio tests output (for standard
+                                      deviation see parenthesis).
+    Vowels           Ultima            No stress         t-values        χ 2-values         p-values
+
+       /ɪ/         128.99(39.62)      58.75(23.27)          5.99      Χ2(1) = 10.24       <0.001**
+
+       /ɛ/         128.98(40.97)      65.68(27.32)          5.31        Χ2(1) = 9.27      <0.002**
+
+       /a/         128.89(42.95)      77.98(21.50)          3.35        Χ2(1) = 6.19       <0.01*
+
+       /ɔ/         138.08(46.61)      60.34(21.68)          4.83        Χ2(1) = 8.69      <0.003**
+UCLWPL 2018                                                                                         13
+
+
+      /ʊ/         103.43(43.73)       37.80(21.84)         3.67        Χ2(1) = 6.10      <0.008**
+
+    Overall       125.74(44.07)       60.34(26.46)         4.58        Χ2(1) = 8.90      <0.003**
+
+
+
+ Figure 4: Mean duration (ms) bar plot by vowel for ultima and unstressed vowels. Error bars indicate
+                       standard error of the mean (N - no stress; U – ultima).
+
+
+
+
+Figure 3 shows mean vowel duration values under the effect of stress (primary and
+secondary) and without. For primary stress, there is a significant effect of stress
+except for the vowel /ə/ (Χ2(1) = 10.891, p<0.001**). Overall, vowels with main
+stress has a longer mean duration of 38.62ms (see table 4). By adding a vowel by
+stress interaction, likelihood ratio tests showed significant improvement of model fit
+(Χ2(5) = 33.001, p<0.0001***). Thus, within vowel models were fitted for
+evaluations of primary stress’s effect on duration for each vowel. Each likelihood
+ratio test results suggests significance effect of primary stress on duration, apart from
+the vowel /ə/ (see table 4). Figure 3 also demonstrates mean durations of secondary
+stressed and unstressed vowels. Figure 3 (lower panel) shows inconsistent results of
+the effect of secondary stress, likelihood ratio tests also indicated that no significant
+effect on duration was found for secondary stress (Χ2(1) = 0.643, p= 0.42).
+      Figure 4 shows that vowels at word ultima position all have longer durations
+compared to when unstressed, overall by 65.40ms (see table 5). Likelihood ratio tests
+without vowel by stress interaction showed significant result (Χ2(1) = 8.902,
+p<0.003**). Tests with vowel by stress interaction also indicated significance of the
+effect on duration by word final position (Χ2(4) = 26.484, p<0.0001***). Therefore,
+further likelihood ratio tests were performed with additional models, accordingly to
+each vowel. The further tests demonstrate that there exists significance of duration
+difference for every vowel (see table 5). However, such results do not directly suggest
+any (Welsh) language internal word final lengthening effect. In other words, residual
+stress related effects from the Old Welsh Accent Shift. It is difficult to disentangle
+UCLWPL 2018                                                                                         14
+
+
+cross linguistic effect of word/phrase edge lengthening from the significance seen
+here. Further evaluations will be made in the discussion section subsequently (see
+section 5.1).
+
+
+4.4 RMS energy
+
+Figure 5: Mean RMS energy bar plot by vowel for primary (upper) and secondary (lower) stress. Error
+   bars indicate standard error of the mean (N - no stress; P - primary stress; S - secondary stress).
+
+
+
+
+ Figure 6: Mean RMS energy bar plot by vowel for ultima and unstressed vowels. Error bars indicate
+                     standard error of the mean (N - no stress; U - ultima).
+UCLWPL 2018                                                                                         15
+
+
+
+
+ Table 6 Mean RMS energy for ultima vowels and unstressed vowels, t-values taken from linear mix
+ effect model output, Χ2 values and p-values adapted from likelihood ratio tests output (for standard
+                                     deviation see parenthesis).
+    Vowels           Ultima           No stress         t-values       χ 2-values         p-values
+
+      /ɪ/            1.34(1.32)        2.91(1.86)         -2.51        Χ2(1) = 4.54       <0.03*
+
+      /ɛ/            1.78(1.58)        2.48(1.56)         -3.61        Χ2(1) = 6.70       <0.01**
+
+      /a/            1.50(1.45)        2.56(1.58)         -3.00        Χ2(1) = 5.55       <0.02*
+
+      /ɔ/            1.70(1.64)        3.04(1.84)         -4.07        Χ2(1) = 7.50      <0.006**
+
+      /ʊ/            2.08(1.91)        2.49(1.52)         -0.62        Χ2(1) = 0.47         0.49
+
+    Overall          1.68(1.60)        2.70(1.68)         -2.89        Χ2(1) = 5.39       <0.02*
+
+
+Figure 5 demonstrates the mean RMS energy values of stressed (primary and
+secondary) and unstressed vowels. There was no significant effect for both primary
+and secondary stress found (Χ2(1) = 2.379, p= 0.12, for primary stress) (Χ2(1) =
+0.880, p= 0.35, for secondary stress). Furthermore, figure 5 suggests contradictory
+effect between primary and secondary stress on RMS energy.
+      Figure 6 shows significant results when comparing unstressed and word ultima
+RMS energy across vowels (Χ2(1) = 5.389, p<0.02*). A likelihood ratio test of this
+effect showed significant results with a vowel by word position interaction in the
+model (Χ2(4) = 19.184, p<0.0007***) (see table 6). Likelihood ratio test for each
+vowel gave significant result, except for the vowel /ʊ/.
+
+4.5 Formant heights (first and second formants)
+
+Figure 7: Mean F1 (Hz) bar plot by vowel for primary (upper) and secondary (lower) stress. Error bars
+      indicate standard error of the mean (N - no stress; P - primary stress; S - secondary stress).
+UCLWPL 2018                                                                                         16
+
+
+
+
+   Figure 8: Mean F1 (Hz) bar plot by vowel for ultima and unstressed vowels. Error bars indicate
+                      standard error of the mean (N - no stress; U - ultima).
+
+
+
+
+Figure 7 shows mean F1 (Hz) for the effect of stress between stressed and unstressed
+vowels. Overall, primary stressed vowels have higher F1 values in comparison to
+unstressed, and secondary stressed vowels have lower F1 values for stressed vowels.
+Vowel /ɪ/ showed opposite effect within different stress levels. However, likelihood
+ratio tests did not indicate significance for effect of stress for both stress levels in
+either direction (Χ2(1) = 0.67, p= 0.41, for primary stress), (Χ2(1) = 0.44, p= 0.51, for
+secondary stress). Moreover, models fitted with vowel by stress interactions did not
+improve model fit for both stress conditions (Χ2(5) = 4.34, p= 0.50, for primary
+stress), (Χ2(5) = 1.70, p= 0.89, for secondary stress).
+UCLWPL 2018                                                                                          17
+
+
+      Vowels at word ultima positions have overall higher F1 values than unstressed
+(similar tendency with primary stress, see figure 7 and 8). No significant
+improvement of model fit was achieved for potential effect of ultima position on F1
+(Χ2(1) = 2.06, p= 0.15).
+
+Figure 9: Mean F2 (Hz) bar plot by vowel for primary (upper) and secondary (lower) stress. Error bars
+      indicate standard error of the mean (N - no stress; P - primary stress; S - secondary stress).
+
+
+
+
+Figure 9 depicts mean F2 values for stressed and unstressed vowels. A likelihood
+ratio test did not find overall significance for the effect of stress for both primary and
+secondary stress (Χ2(1) = 0.004, p= 0.95, for primary stress), (Χ2(1) = 0.12, p= 0.74,
+for secondary stress). However, likelihood ratio test with vowel by stress interaction
+for primary stress significantly improved model fit, which suggests that there exists
+significant effect of stress on F2 for some vowel(s) (Χ2(5) = 25.46, p<0.0001***).
+Therefore, within vowel comparisons were made for each vowel (see table 7).
+Contrarily, there was no significance by adding vowel by stress interaction for
+secondary stress (Χ2(5) = 1.28, p= 0.94).
+
+ Table 7 Mean F2 (Hz) for vowels with primary and no stress, t-values taken from linear mix effect
+model output, Χ2 values and p-values adapted from likelihood ratio tests output (for standard deviation
+                                          see parenthesis).
+   Vowels       Primary stress         No stress         t-values        χ 2-values       p-values
+
+ /ɪ/            2329.02(317.84)     1979.75(283.85)          4.79       Χ2(1) = 8.63      <0.003**
+
+ /ɛ/            1944.88(357.96)     1858.92(252.80)          1.27       Χ2(1) = 1.60          0.21
+
+ /a/            1562.46(225.07)     1610.32(259.49)         -1.04       Χ2(1) = 1.12          0.29
+
+ /ɔ/            1243.05(170.24)     1459.86(271.94)         -5.27       Χ2(1) = 9.16      <0.002**
+
+ /ʊ/            1460.96(441.89)     1413.04(309.15)          0.51       Χ2(1) = 0.31          0.58
+UCLWPL 2018                                                                                                  18
+
+
+ /ə/             1674.13(240.60)     1778.69(285.82)           -2.26        Χ2(1) = 4.49        <0.03*
+
+ Overall         1703.77(464.77)     1685.70(344.21)           -0.08           Χ2(1) =             0.95
+                                                                                0.004
+
+
+Within vowel comparison indicates when vowel /ɪ/ is primary stressed, its F2 is
+significantly higher; where vowel /ɔ/ and /ə/ showed significant lowering of F2 when
+primary stressed (see table 7).
+
+  Figure 10: Mean F2 (Hz) bar plot by vowel for ultima and unstressed vowels. Error bars indicate
+                      standard error of the mean (N - no stress; U - ultima).
+
+
+
+
+Likelihood ratio test did not show improvement of model fit by effect of word ultima
+position on F2 (Χ2(1) = 3.07, p= 0.08).
+
+  Figure 11: Vowel plot for primary and unstressed vowels (i- /ɪ/, e- /ɛ/, o- /ɔ/, u- /ʊ/, v- /ə/; Primary
+                             stress – solid line; Unstressed – dotted line).
+UCLWPL 2018                                                                                        19
+
+
+
+
+Although there was only statistical significance for primary stress’s effect on F2 for
+three vowels, figure 11 shows an overall consistent pattern of centralisation in vowel
+space for unstressed vowels (except for the vowel /ʊ/). Note that centralisation is most
+effective on more peripheral vowels according to figure 11, such as the vowels /ɪ/, /ɔ/
+and /a/. A more comprehensive review of this centralising effect will be given in the
+discussion section (see section 5.5).
+
+4.6 Voice quality (CPP and H1*-H2*)
+
+ Figure 12: Mean CPP bar plot by vowel for primary (upper) and secondary (lower) stress. Error bars
+      indicate standard error of the mean (N - no stress; P - primary stress; S - secondary stress).
+UCLWPL 2018                                                                                       20
+
+
+
+
+Figure 12 shows inconsistent effect of stress on CPP values. For primary stress, CPP
+values are higher for front and back vowels (/ɛ/, /ɪ/, /ɔ/ and /ʊ/) but not central vowels
+such as /a/ and /ə/ (see upper panel in figure 12). This indicates that vowels that bear
+primary stress are slightly noisier than when unstressed. No significance was found in
+the likelihood ratio test for stress as a fixed effect for primary stress (Χ2(1) = 2.98, p=
+0.08). Secondary stress showed less variations in CPP values between stressed and
+unstressed vowels, likelihood ratio test indicated no significance for the effect of
+stress (Χ2(1) = 3.53, p= 0.06). Furthermore, adding a vowel by stress interaction in
+the model did not improve model fit for both stress levels (Χ2(5) = 7.45, p= 0.19 for
+primary stress), (Χ2(5) = 3.12, p= 0.68 for secondary stress). Figure 13 shows similar
+inconsistency for the effect of word position on CPP values, and likelihood ratio test
+indicated no significance for the effect of word ultima position on CPP measurements
+(Χ2(1) = 0.32, p= 0.57).
+
+Figure 13: Mean CPP bar plot by vowel for ultima and unstressed vowels. Error bars indicate standard
+                           error of the mean (N - no stress; U - ultima).
+UCLWPL 2018                                                                                             21
+
+
+
+
+ Figure 14: Mean H1*-H2* (dB) bar plot by vowel for primary (upper) and secondary (lower) stress.
+ Error bars indicate standard error of the mean (N - no stress; P - primary stress; S - secondary stress).
+
+
+
+
+Figure 15: Mean H1*-H2* (dB) bar plot by vowel for ultima and unstressed vowels. Error bars indicate
+                      standard error of the mean (N - no stress; U - ultima).
+UCLWPL 2018                                                                          22
+
+
+
+
+Figure 14 depicts mean values of H1*-H2* for each vowel under different stress
+conditions. There is more regular positive effect of stress on H1*-H2* values for
+primary stress (excluding the vowel /ɪ/) compare to secondary stress. However, no
+statistical significance was found for either stress level (Χ2(1) = 0.33, p= 0.57 for
+primary stress), (Χ2(1) = 0.07, p= 0.78 for secondary stress). Figure 15 shows mean
+values of H1*-H2* between word-final vowels and unstressed vowels. A parallel
+observation can be made between primary stress and ultima by looking at figure 14
+and 15. Similarly, the function of word-final position did not have a significant effect
+on H1*-H2* measurements according to a likelihood ratio test (Χ2(1) = 0.17, p=
+0.0.68).
+       The relatively large standard errors for H1*-H2* in this case may be due to
+considerable variations between speakers’ voice quality, and complications from the
+carrier sentence chosen for this study (the later account for ultima only). There was
+noticeable difference in voice quality among speakers, which was observed in the
+spectrogram during labelling. Specifically, spectrogram of the raw data suggests that
+speaker two’s voice quality was creakier overall, and speaker three’s voice quality
+was categorically breathier.
+
+
+5 Discussion
+5.1 Duration as main effect of word stress in Southern Welsh
+
+The present study investigates which acoustic parameters are used to encode word-
+level stress in Southern Welsh, as well as the acoustic characteristic of the ultima
+vowel in the interest of the Old Welsh Accent Shift. Results showed that duration
+serves as the most robust cue to primary stress in Southern Welsh. Such finding is
+consistent with most studies done on word stress cross linguistically, in that duration
+serves as a cue to stress. Extensive research shows that duration is used to signal
+stress in languages such as English (Fry, 1955), Dutch (Sluijter & van Heuven,
+1996b), German (Aronov & Schweitzer, 2016), Tongan (Garellek & White, 2015),
+UCLWPL 2018                                                                           23
+
+
+Turkish Kabardian (Gordon & Applebaum, 2010), Spanish (Ortega-Llebaria & Prieto,
+2010), Persian (Sadeghi, 2017), Catalan (Ortega-Llebaria & Prieto, 2010), and
+Uyghur (Yakup & Sereno , 2016). This effect was not significant for the vowel schwa,
+which corroborates with the findings of later research by Williams, it seems that
+duration of the schwa in Welsh does not vary significantly according to stress
+(Williams, 1999).
+      Interestingly, this result contradicts that of Williams’s study on Welsh stress, in
+which she concluded that stressed penultimate vowels are marked by shorter duration
+(Williams, 1983). As discussed in earlier section, Williams compared stressed
+syllables to other syllables. Therefore, this observation most likely came from
+comparison of stressed vowels to vowels at word-edge positions. Indeed, when
+compared to unstressed vowels, primary stressed vowels are longer overall by around
+39 ms and ultima vowels by 65 ms (see section 4.3). Since this study used the same
+data set for unstressed vowels for both comparisons, ultima vowels are longer than
+primary stressed vowels by about 26 ms.
+      However, longer duration in the ultima vowel is not unique to Welsh, final
+lengthening effects have been confirmed by a wide array of research such as Cambier-
+Langeveld (1997) for Dutch; Xu & Wang (2009) for Mandarin, Crystal & House
+(1988), Cooper, Paccia & Sorensen (1977), Byrd (2000), Cho (2006) and Nakatani,
+Aston & O’Connor (1981) for American English. Thus, longer duration in the ultima
+position in Welsh is most likely to be due to the effect of word-final lengthening.
+      A final note is that although there exists a length contrast in Welsh’s vowel
+inventory, they are only contrastive in monosyllabic words (for details see section
+2.1). This indicates that perceptual distinctiveness between long and short vowels is
+required only when they both bear primary stress. Thus, the use of duration to signal
+stress would not degrade perceptual distinctiveness, since there is no interaction
+between long and short vowels in stressed and unstressed conditions (i.e. instances
+where a short vowel is stressed, and a long vowel is unstressed).
+
+5.2 F0 and stress in Southern Welsh
+
+Surprisingly, fundamental frequency seems to show the opposite effect of stress when
+compared with research done on other languages – primary stressed vowels have
+significantly lower F0 overall when compared to unstressed vowels. Most literature
+and research suggest enlarged F0 excursions for stressed syllable, in other words,
+raising of pitch. Such languages include Indonesian (Adisasmito- Smith & Cohn
+1996), Dutch (Sluijter & van Heuven 1996a), Turkish Kabardian (Gordon &
+Applebaum, 2010), Persian (Sadeghi, 2017), Tashlhiyt Berber (Gordon & Nafi, 2012)
+and English (Fry, 1958).
+       Unlike duration, cross linguistic research shows that correlation between F0 and
+stress is more inconsistent. Studies done in some languages suggest that F0 does not
+correlate with stress, or at least not strongly. For example, pitch does not seem to cue
+stress in British and Irish English (Kochanski, Grabe, Coleman & Rosner, 2005),
+Israeli Hebrew (Silber-Varod, Sagi & Amir, 2016), Kuot (Lindström & Remijsen,
+2005), Uyghur (Yakup & Sereno , 2016) and Pirahã (Everett 1998). For Chickasaw, it
+was found that pitch is used to distinguish stress status between long vowels but not
+short vowels (Gordon, 2004). Moreover, change in F0 of the stressed syllable
+manifests differently according to sentential position (accented and unaccented). It is
+suggested that raising of pitch in stressed syllables is strongly associated with the on-
+focus word in a sentence. Huss (1978)’s study suggests that in English, significant
+UCLWPL 2018                                                                                       24
+
+
+difference in pitch between syllables without and without stress only exists in words
+that are on focus. More recent research in Northern American English also found that
+F0 has a weak correlation with stress when unaccented (Plag, Kunter & Schramm,
+2011).
+      The present study used words that are in nuclear position in the carrier sentence.
+Therefore, it is plausible that the overall lower F0 in stressed vowels may indicates a
+F0 lowering effect of stress in Welsh. Such finding is not contradictory to Williams’s
+results – lack of F0 raise in stressed syllables (Williams, 1983). Lowering effect of
+pitch in stressed vowels would not be unique to Southern Welsh. Similar results have
+been found in Czech, where stressed syllables have lower pitch than unstressed, and
+are accompanied by a ‘post-stress rise (L*-H)’ (Volín, 2008; Volín & Weingartová,
+2014, p.181).
+      This study also shows that mean F0 of ultima vowels is significantly lower than
+unstressed vowels, more so than their stressed counterparts. A vast array of literature
+on Welsh and Williams’s research argue that the ultima in Welsh is accompanied by
+higher F0 (Williams & Ball, 2001).
+
+ Figure 16: F0 plot with each mean 1/9 measurements of the primary stressed vowels (left panel), and
+                               vowels at ultima positions (right panel).
+
+
+
+
+To determine whether there exists a stress induced pitch lowering effect in the
+language, F0 contours of the vowel integral of the stressed penult and the ultima were
+plotted (see figure 16). Figure 16 shows consistent lowering of pitch from the onset of
+the stressed penultimate vowel to offset of the ultima vowel. Note that there are no
+visible peaks or valleys in the F0 trajectory for the stressed or ultima vowel. Thus, this
+study’s finding indicates that perhaps there is little or no correlation between stress
+and F0 in Southern Welsh, and the ultima vowel does not seem to bear pitch
+prominence. In fact, such finding corresponds with results from Williams’s research,
+in regard to F0 for primary stress. Specifically, it was found that a superimposed flat
+UCLWPL 2018                                                                               25
+
+
+F0 contour on the stressed nasal coda did not affect stress perception (Williams, 1983).
+       An alternative explanation to the later might be due to the carrier phrase used in
+this study - [dəuˈɛdʊχ ə ˈgai ___ ɪ ˈvɪ]. Recall that in order to avoid coda consonants’
+influence on the target vowels, target vowels were mostly in open syllables (except
+for the vowel /ɛ/ and /ʊ/ for ultima vowels). Consequently, around 60% of data
+reflects F0 in ultima vowels that directly precede the function word ‘i’ (IPA: /ɪ/) (‘for’
+in English), and are subject to glottal epenthesis. Glottal epenthesis here refers to
+when a glottal stop/glottalisation is introduced between two successive vowels, which
+has been observed in English (Hayes, 2009). Studies found that with glottalisation, a
+drop of F0 is commonly present, as perturbation of pitch can efficiently signal
+glottalisation (Dilley, Shattuck-Hufnagel & Ostendorf, 1996; see figure 17).
+
+                     Figure 17: lowering of f0 accompanied by glottalisation
+
+
+
+
+                               (Dilley, Shattuck-Hufnagel & Ostendorf, 1996, p.429)
+
+
+5.3 Acoustic measures of secondary stress with linear discriminant analysis
+(LDA)
+
+In this study, no statistical significance was reached in the measurements used for
+secondary stress. Therefore, in order to determine which acoustic measure best
+distinguishes secondary stressed and unstressed vowels, a linear discriminant analysis
+(LDA) was performed. As table 8 shows, although RMS energy has the highest value
+in comparison to other acoustic parameters, Figure 18 shows major overlapping of
+values for discriminant functions (acoustic measurements) between the secondary
+stress and no stress groups. Thus, it is possible that there is little to no phonetic signal
+for secondary stress in Southern Welsh. Similar discoveries were found for Turkish
+Kabardian (Gordon & Applebaum, 2010). Research in Indonesian also revealed
+varied phonetic manifestations in secondary stress across speakers (Adisasmito-Smith
+& Cohn, 1996).
+
+           Table 8 LDA output - coefficients of measurements as discriminant functions.
+                                                     Secondary stress
+                        Duration                          -0.008
+UCLWPL 2018                                                                                     26
+
+
+                        F0                                 0.039
+                        RMS energy                         0.367
+                        F1                                -0.002
+                        F2                                -0.0004
+                        CPP                                0.100
+                        H1*-H2*                            0.037
+
+
+
+Figure 18: Stacked histogram of LDA output between no stress (group N) and secondary stress (group
+                                               S).
+
+
+
+
+5.4 Welsh stress and intensity
+
+It has been shown from previous research that intensity is often used to signal stress in
+many languages – such as Chickasaw (Gordon, 2004), English (Fry, 1955 &1958;
+Plag, Kunter &Schramm, 2011), Turkish Kabardian (Gordon & Applebaum, 2010),
+Indonesian (Adisasmito-Smith & Cohn, 1996) and Castilian Spanish (Ortega-Llebaria
+& Prieto, 2010). The absence of RMS energy as a function of primary stress seems
+unexpected at first (see section 4.4). Since research for the five languages mentioned
+above all indicate a positive correlation between stress and intensity. However, such
+findings may be related to how F0 is related/unrelated to stress in Southern Welsh.
+Particularly, Southern Welsh does not use F0 to encode stress, and pitch is
+consistently lower in primary stressed vowels than unstressed vowels (see section 4.2).
+       Alku, Vintturi & Vilkman (2002) investigated the relationship between raising
+of F0 and intensity in human speech. They found a positive linear relationship
+between pitch and intensity, specifically, speakers raise F0 while trying to increase
+loudness. This is because speakers enhance acoustic energy by increasing their sub-
+glottal pressure, which influences ‘individual glottal pulse’ (amplitude) and ‘the rate
+of repetition of consecutive glottal pulses’ (F0) (Alku, Vintturi & Vilkman, 2002,
+UCLWPL 2018                                                                                                      27
+
+
+p.322). Indeed, stress induced pitch raise and increased energy are commonly
+observed in tandem, such as in the aforementioned languages.
+       Volín & Weingartová (2014) suggested that Dutch speakers tend to produce
+stress in a L2 with pre-existence acoustic cues in their native language. They
+measured sound pressure level (SPL) in Dutch speaker’s production of stressed
+syllables in English and found that there was little difference of SPL values between
+stressed and unstressed vowels. Recall that in Dutch, F0 of the stressed syllables is
+decreased in primary stressed vowels (Volín, 2008). The same rationale can be
+applied to why ultima vowels also have significantly lower energy values compared
+to unstressed vowels, more so than primary stressed vowels. Recall that F0 in ultima
+vowels are lower than that in primary stressed penult. Note also that although pitch
+and intensity are lower in stressed vowels for both Southern Welsh and Dutch, such
+observation is related to stress in Dutch and not in Welsh. Therefore, data in this study
+suggests that lower RMS energy values of primary stressed vowels may be a result of
+the irrelevance between F0 and stress in the language.
+
+5.5 Centralisation of vowel space in Southern Welsh
+
+Results in this study show that vowel space for unstressed vowels is subject to
+reduction in comparison to primary stressed vowels, especially regarding F2. Vowel
+reduction in unstressed syllables is a common phonological process in many
+languages (Crosswhite, 2001). Yet, if a language does not have a formal vowel
+reduction process phonologically, such as in Southern Welsh, a phonetic realisation of
+centralisation in unstressed vowels can still be expected (Flemming, 2005; Garellek &
+White, 2015). Such phenomenon is associated with what is called ‘phonetic
+undershoot’ (Garellek & White, 2015, p.26). There are many related theories which
+can explain the reason behind ‘undershoot’. For example, the ‘Hyper-and
+Hypoarticulation’ theory mentioned previously, the ‘Articulatory Phonology
+framework’ and the ‘Parallel encoding and target approximation model (PENTA)’
+(Garellek & White, 2015, p.26; Xu, 2005).
+       All three theories associate ‘undershoot’ of unstressed vowels with the decrease
+in duration of unstressed vowels. Duration of unstressed vowels in Southern Welsh is
+evidently shorter than primary stressed vowels (see section 4.3 and 5.1). It is believed
+that when duration is shortened, articulatory targets may not be entirely realised
+(Garellek & White, 2015). One of the crucial mechanisms in speech according to the
+PENTA model is temporal alignment of the articulation process with syllables as
+units, or in other words ‘syllable-synchronised target approximation’ (Xu, Prom-on &
+Liu, 2015, p.4). Therefore, when articulatory targets are assigned (in this case-
+formant heights), shorter duration would lead to premature termination of the target
+approximation process (Xu, Prom-on & Liu, 2015) – such as phonetic undershoot in
+the vowel space for unstressed vowels.
+   Figure 11: (i- /ɪ/, e- /ɛ/, o- /ɔ/, u- /ʊ/, v- /ə/; Primary stress – solid line; Unstressed – dotted line).
+UCLWPL 2018                                                                             28
+
+
+
+
+Figure 11 depicts the overall vowel space for all speakers under primary stressed and
+unstressed conditions (repeated here for convenience). Statistical analysis and visual
+inspection of figure 11 suggest a stronger horizontal reduction pattern then vertical
+(centralising for the second formant). Therefore, vowel reduction for unstressed
+vowels in Southern Welsh appears to merge contrasts in terms of frontness and
+backness. As section 1.1 shows, there is an additional contrast of roundness between
+front and back vowels in Welsh, which further lowers F2 values of the back vowels
+and enhances distinctiveness. This additional feature aids vowel dispersion in terms of
+back and front vowels. Such language specific typological characteristics could
+explain the reduction pattern at hand in Southern Welsh.
+       On the other hand, if the tongue height contrast of front and back vowels is
+reduced in unstressed vowels, perceptual distinctiveness may be compromised. Note
+that the unstressed vowel /a/ has been shifted upwards (in F1) more than other vowels
+in the language. Such observation further corroborates the rationale above, as there
+exists no open-mid vowels in Welsh’s phonemic inventory. Therefore, raising in F1
+for unstressed /a/ is less detrimental in regard to perceptual distinctiveness. Overall, in
+Southern Welsh, effect of vowel reduction as a function of stress is consistent with
+findings in other languages such as German (Mooshammer & Geng, 2008), Dutch
+(Bergem, 1993), Greek (Lengeris, 2012) and English (Crosswhite, 2001). However,
+such effect is not as potent as vowel reduction found in other languages. For example,
+Mooshammer and Geng (2008) found substantial reduction in vowel space (F1 and
+F2) for unstressed vowels (lax and tense) in German, although vowel inventory in
+Welsh is similar to that in German. This could be due to the fact that stress is non-
+contrastive in Welsh, and there is less incentive for an extensive reduction in vowel
+space to cue stress, similar of that for Turkish Kabardian (Gordon & Applebaum,
+2010). Note that German also has non-contrastive stress. However, length (or lax and
+tense) contrasts serve as a distinctive feature not just in monosyllabic words, unlike in
+Welsh. This additional feature aids vowel dispersion, which may compensate for
+vowel reduction in the language.
+
+5.6 Spectral-tilt and stress in Southern Welsh
+UCLWPL 2018                                                                            29
+
+
+According to Garellek & White (2015)’s paper on Tongan stress, CPP values can help
+interpret H1*-H2* results. If a higher H1*-H2* value is observed in conjunction with
+a high CPP value, a more modal voice quality can be presumed; if a high H1*-H2*
+value is observed with low CPP values, a breathier voice can be assumed.
+Additionally, low H1*-H2* values are typically associated with creaky voice.
+      Although Figure 12 and 14 show that primary stressed vowels have slightly
+higher values in CPP and H1*-H2* (except for vowel /ɪ/ and /ə/), no statistical
+significance was found for measurements of voice quality in this study. The use of
+spectral tilt to signal stress is controversial cross linguistically. In languages such as
+Persian (Sadeghi, 2017), British English (Kochanski et al, 2005), Swedish (Heldner,
+2003), Spanish and Catalan (Ortega-Llebaria & Prieto, 2010), spectral tilt is said to be
+correlated with sentential accent instead of stress. Therefore, further research with
+different measurement method under different accentual conditions may help clarify
+the relationship between spectral balance and stress in Southern Welsh – such as
+comparing high and low frequency bands in the spectrum between stressed and
+unstressed vowels (used in Sluijter & van Heuven, 1996a for Dutch).
+
+
+6 Conclusion
+
+The aim of this study was to investigate which acoustic cues are used in the
+production of stressed vowels in Southern Welsh. In addition, this study attempted to
+verify some of the conventional beliefs with regard to vowels at the ultima position.
+The results suggest that primary stressed vowels in the language have longer duration,
+lower F0, lower energy and expanded vowel space when compared to unstressed
+vowels. However, the present study indicates that decrease in pitch and energy is not
+directly correlated with stress in Southern Welsh. For vowel reduction in unstressed
+vowels as a function of stress, there is a more significant horizontal reduction than
+vertical. The effect of F0 lowering is absent for secondary stressed vowels, which
+might have contributed to the finding of slightly higher energy in secondary stressed
+vowels. No significant effects of stress were observed for secondary stress. Perhaps
+there exists little phonetic evidence for secondary stress in the language.
+      Regarding ultima vowels, current results contradict with some previous research.
+Specifically, vowels at word final positions have lower F0 and energy. However,
+findings regarding the relationship between F0 and stress are consistent with results in
+the Williams (1983) study – little correlation between F0 and stress in the Welsh
+language. Although ultima vowels do have longer duration as earlier research
+indicates, it is difficult to determine whether it is due to language internal reasons or
+the cross linguistic phenomenon of word-edge/final lengthening.
+      Results in measurements for spectral tilt showed inconsistent patterns.
+Therefore, further research is needed to clarify the effect of stress on voice quality in
+the language. Moreover, this study focused on stress manifestation for sentential
+accented words. To better understand how stress is encoded in Welsh, further research
+is called for in order to disentangle acoustic effects associated with stress induced
+prominence with accent induced prominence.
+
+
+Appendix: complete word list used for the experiment with IPA transcription
+
+Primary                   Gloss                  Secondary                 Gloss
+UCLWPL 2018                                                                        30
+
+/a/                                           /a/
+[ˌkaraˈvanav]       to rail                   [arˌðaŋɔˈsɪðɔl]      demonstrable
+[ˌdɪvɛˈθadʊi]       Condemned to death        [ɛsˌgalaˈdɪrɔn]      escalator
+
+[ˌgʊlɛˈðabɛrθ]      feast                     [aˌraɬʊˈladɔg]       foreign
+[ˌɛsgaˈladɪr]       escalator                 [pɛnˌdramʊˈnʊglɔg]   headlong
+[ˌkədʊˈladɔl]       international             [əmˌðaŋɔˈsɪadɛ]      appearance
+/ɛ/                                           /ɛ/
+[ˌgɔgɔˈnɛðʊχ]       glory                     [pɛrˌχɛnɔˈgaiθɛ]     ownerships
+[ˌtəŋɛdˈvɛnɔl]      fateful                   [prɛˌsɛnɔlˈdɛbɛ]     attendances
+[ˌəsgrɪˈvɛnɪð]      secretary                 [kəˌfrɛdɪˈnɔldɛb]    generality
+[ˌkəvanˈhɛðʊχ]      friendship                [haˌnɛdɪˈvarɪs]      unrelenting
+[ˌəmarˈvɛrɛð]       practice                  [bɛˌnɛðɪˈgɛsɛ]       ladies
+/ɪ/                                           /ɪ/
+[ˌdadanˈhɪðɔ]       to uncover                [amˌðɪfəˈnɛdɪg]      protected
+[klaˈsɪrɔl]         classical                 [χʊrˌlɪgʊˈganɔd]     Merry-go-round
+[kɘˈsɪlav]          advise                    [kəvˌrɪvɔlˈdɛbɛ]     responsibility
+[ˌpɛntaˈfɪlɔn]      creeping cinquefoil       [əsˌgrɪvɛˈnɛdɪg]     written
+[ˌbɛnɛˈðɪgɛs]       lady                      [əsˌgrɪvɛˈnəðɛs]     female secretary
+/ɔ/                                           /ɔ/
+[ˌkəvanˈsɔðɪ]       to compose                [anˌvɔnɛˈdɪgɪɔn]     missionary
+[ˌpɛrχɛˈnɔgɪ]       to own                    [əˌmɔsɔˈdɪadɛ]       attacks
+[ˌarðəˈvɔdɔl]       future                    [aˌɬɔraˈðɔlɪad]      alter-worship
+[ˌpəθɛvˈnɔsɔl]      fortnightly               [gɔˌsɔdɛˈdɪgɔl]      enacted
+[ˌarðaˈŋɔsʊr]       demonstrator              [prəˌfɔdɔˈlaiθɛ]     predictions
+/ʊ/                                           /ʊ/
+[kasˈɬʊχʊr]         Loughor                   [kəˌdʊlaˈdɔldɛb]     internationalism
+[ˌχʊrlɪˈgʊgan]      Merry-go-round            [aˌmʊrɛˈgəsɛ]        griddles
+[ˌaraˈɬʊlad]        alien                     [gɔˌrʊrɛˈgəsɛ]       bracing-griddles
+[pɛnˌdramʊˈnʊgɔl]   head-over-heels           [r̥əˌŋʊlaˈdɔlav]     to
+                                                                   internationalise
+[kaˈrʊrɪaiθ]        friendship                [əˌmʊrɛˈgəsɪ]        to dress oneself
+/ə/                                           /ə/
+[əˌmʊrɛˈgəsɪ]       to dress oneself          [anˌr̥ədɛˈðɪsɔl]     honourable
+[ˌɬəvrgɛˈɬəðɔl]     pertaining to a library   [gɔˌɬəŋɛˈdɪgaiθ]     discharging
+[ɬɔŋˈðrəɬɪad]       shipwreck                 [prɪvˌləθəˈrɛnɛ]     capital letters
+[ˌprɪvləˈθərɛn]     capital letter            [tɛˌlənɔˈrɛsɛ]       female harpists
+[ˌpɛndɛrˈvənɔl]     determined                [aˌmənɛðˈgarʊχ]      patience
+
+
+
+
+Ultima              Gloss                     Unstressed            Gloss
+/a/                                           /a/
+[ˌəsgrɪˈvɛnva]      desk                      [ˌhanvaˈnɛgɔl]        unexpressed
+[ˌəmðaˈŋɔsva]       to honour                 [ˌəmðaˈŋɔsɪad]        appearance
+[ˌgʊrθrəˈvɛla]      to rebel                  [ˌgramaˈdɛgɔl]        grammatical
+[aˈɬɔrva]           alter                     [ˌarðaˈŋɔsʊr]         demonstrator
+[gɔˈsɔdva]          station                   [ˌaraˈɬʊlad]          alien
+/ɛ/                                           /ɛ/
+[ˌardaˈləðɛs]       marchioness               [ˌɬɪsɛrˈnɔrsav]       lamp station
+[ˌəmarˈvɛrɛð]       practice                  [ˌprɛsɛˈnɔldɛb]       attendance
+[ˌɛkɔˈnɔmɛg]        economics                 [ˌsɛrɛˈmɔnɪ]          ceremony
+[ˌprɪvləˈθərɛn]     capital letter            [ˌpɛrχɛˈnɔgɪ]         to own
+[ˌbɛnɛˈðɪgɛs]       lady                      [ˌbɛnɛˈðɪgɛs]         lady
+/ɪ/                                           /ɪ/
+[ˌanr̥əˈdɛðɪ]       to honour                 [ˌamðɪˈfənva]         sanctuary
+UCLWPL 2018                                                                                            31
+
+[ˌgɔgɔˈnɛðɪ]                    magnify                  [ˌkəvrɪ'vɔldɛb]                 responsibility
+[ˌpɛndɛrˈvənɪ]                  conclude                 [ˌəsgrɪˈvɛdɪg]                  written
+[ˌsɛrɛˈmɔnɪ]                    ceremony                 [ˌχʊrlɪˈgʊgan]                  merry-go-round
+[ˌkəvanˈsɔðɪ]                   to compose               [ˌəsgrɪˈvɛnɪð]                  secretary
+/ɔ/                                                      /ɔ/
+[ˌdadanˈhɪðɔ]                   to uncover               [ˌanvɔˈnɛdɪg]                   missionary
+[gɔrˈfʊiɬɔ]                     be mad                   [ˌəmɔˈsɔdɪad]                   attack
+[ˌarðəˈmɪnɔ]                    desire                   [ˌgɔsɔˈdɛdɪg]                   set
+[takˈlɪsɔ]                      make neat                [ˌprəfɔˈdɔlaiθ]                 prediction
+[ˌkədʊˈladɔl]                   international            [ˌamɔˈdɛdɪg]                    subjunctive
+/ʊ/                                                      /ʊ/
+[ˌgɔgɔˈnɛðʊχ]                   glory                    [ˌamʊˈrɛgɪs]                    griddle
+[ˌarðaˈŋɔsʊr]                   demonstrator             [ˌkədʊˈladɔl]                   international
+[ˌanr̥əˈdɛðʊr]                  honourer                 [ˌgɔrʊˈrɛgɪs]                   bracing-griddle
+[ˌkəvanˈhɛðʊχ]                  friendship               [ˌr̥əŋʊˈladɔl]                  international
+[maˌθəmaˈtɛgʊr]                 mathematician            [aˌraɬʊˈladɔg]                  foreign
+                                                         /ə/
+                                                         [ˌanr̥əˈdɛðɪs]                  honourable
+                                                         [ˌgɔɬəˈŋɛdɪg]                   released
+                                                         [ˌtɛləˈnɔrɛs]                   female harpist
+                                                         [ˌanr̥əˈdɛðʊr]                  honourer
+                                                         [ˌprɪvləˈθərɛn]                 capital letter
+
+
+
+
+References
+Adisasmito-Smith, N. and Cohn, A. C., 1996. Phonetic correlates of primary and secondary stress in
+     Indonesian: A preliminary study. Working Papers of the Cornell Phonetics Laboratory 11, pp.1-16.
+Alku, P., Vintturi, J. and Vilkman, E., 2002. Measuring the effect of fundamental frequency raising as a
+     strategy for increasing vocal intensity in soft, normal and loud phonation. Speech Communication.
+     38, pp.321–334.
+Aronov, G. and Schweitzer, A., 2016. Acoustic correlates of word stress in German spontaneous
+     speech, in Proceedings of Tagung Phonetik und Phonologie im Deutschsprachigen Raum.
+Baayen, R. H., 2008a. Analyzing linguistic data: A practical introduction to statistics using R.
+     Cambridge: Cambridge University Press.
+Barr, D. J., Levy, R., Scheepers, C., and Tily, H. J., 2013. Random effects structure for confirmatory
+     hypothesis testing: Keep it maximal. Journal of Memory and Language, 68(3), pp.1-43
+Bickley, C., 1982. Acoustic analysis and perception of breathy vowels. MIT Speech Communication
+     Working Papers, 1, pp.73–83.
+Bloch, B. and Trager, G. L., 1942. Outline of Linguistic Analysis. Baltimore.
+Bloomfield, L., 1933. Languages. New York.
+Boersma, P. and Weenink, D., 2009. PRAAT: Doing phonetics by computer (version 5.1.14).
+     http://www.praat.org/ (30 August 2009).
+Byrd, D., 2000. Articulatory vowel lengthening and coordination at phrasal junctures. Phonetica, 57,
+     pp.3–16.
+UCLWPL 2018                                                                                          32
+
+Cambier-Langeveld, T. The domain of final lengthening in the production of Dutch; in Coerts, de Hoop,
+     Linguistics in the Netherlands 1997, pp. 13–24 (John Benjamins, Amsterdam 1997).
+Cho, T. and Keating, P. A., 2009. Effects of initial position versus prominence in English. Journal of
+     Phonetics, 37, pp.466–485.
+Cho, T., & McQueen, J., 2005. Prosodic influences on consonant production in Dutch: Effects of
+     prosodic boundaries, phrasal accent and lexical stress. Journal of Phonetics, 33, pp.121–157.
+Cho, T., 2006. Manifestation of prosodic structure in articulation: Evidence from lip kinematics in
+     English. In L. M. Goldstein, D. H. Whalen, & C. T. Best (Eds.), Laboratory phonology, Vol. 8:
+     Varieties of phonological competence. pp. 519–548. Berlin/New York: Mouton de Gruyter.
+Cooper, W., Lapointe, S., and Paccia, J., 1977. Syntactic blocking of phonological rules in speech
+     production. Journal of the Acoustical Society of America, 61, pp.1314–1320.
+Crosswhite, K., 2001. Vowel reduction in Optimality Theory. New York: Routledge.
+Crosswhite, K., 2003. Spectral tilt as a cue to stress in Polish, Macedonian and Bulgarian. In M.- J.
+     Sole, D. Recasens, and J. Romero (eds.), Proceedings of the XVth International Conference of
+     Phonetic Sciences, 2, pp.767-770. Barcelona: Causal Productions.
+Czerniak, T., 2015. Welsh Vowels - Element Distribution and Interaction. Pp.133-153.
+Dilley, L., Shattuck-Hufnagel, S. and Ostendorf, M., 1996. Glottalization of word-initial vowels as a
+     function of prosodic structure. J. Phonetics, 24, pp. 423–444.
+Everett, K., 1988. Acoustic correlates of stress in Piraha. Journal of Amazonian Languages, 1, pp.104–
+     162.
+Flemming, E., 2005. A phonetically-based model of vowel reduction. Ms., MIT.
+Fry, D. B. 1955. Duration and intensity as physical correlates of linguistic stress. Journal of the
+     Acoustical Society of America, 27, pp.765–768.
+Fry, D., 1958. Experiments in the perception of stress. Language and Speech, 1(2), pp.126–152.
+Gandour, J. Potisuk, S. and Harper, M., 1996. Acoustic Correlates of Stress in Thai. Phonetica, 53.
+     pp.200-20.
+Garellek, M. and Keating, P., 2011. The acoustic consequences of phonation and tone interactions in
+     Mazatec. Journal of the International Phonetic Association, 41. pp.185-205.
+Garellek, M. and White, J., 2015. Phonetics of Tongan stress. Journal of the International Phonetic
+     Association, 45(1), pp.13-34.
+Gordon, M. and Applebaum, A., 2010. Acoustic correlates of stress in Turkish Kabardian. Journal of
+     the International Phonetic Association, 40, pp.35–58.
+Gordon, M., 2004. A phonological and phonetic study of word-level stress in Chickasaw. International
+     Journal of American Linguistics, 70, pp.1–32.
+Gordon, M., Nafi, L., 2012. Acoustic correlates of stress and pitch accent in Tashlhiyt Berber, Journal
+     of Phonetics, 40 (5), pp.706-724.
+Griffen, T. D., 1991/1992. Epenthesis and the Old Welsh Accent Shift. Studia Celtica, 26/27, pp.163-
+     174.
+Hannahs, S. J. 2013. The Phonology of Welsh. Oxford: Oxford University Press.
+Hayes, B., 2009. Introductory Phonology. UK: Blackwell Publishing.
+UCLWPL 2018                                                                                            33
+
+Heldner, M., 2003. On the reliability of overall intensity and spectral emphasis as acoustic correlates of
+     focal accents in Swedish. Journal of Phonetics, 31, pp.39–62.
+Hillenbrand, J., Cleveland, R.A. and Erickson, R.L., 1994. Acoustic correlates of breathy vocal quality.
+     Speech Lang. Hear. Res. (37) pp.769–778.
+Huss, V., 1978. English word stress in the post-nuclear position. Phonetica, 35,m pp.86–105.
+Jones, D. M., 1949. The accent in modern Welsh. Bulletin of the Board of celtic Studies, 13, pp.63-64.
+Jones, D., 1949. An Outline of English Phonetics. Leipzig.
+Kawahara, H., Masuda-Katsuse, I., and de Cheveigné, A., 1999. Restructuring speech representations
+     using a pitch adaptive time-frequency smoothing and an instantaneous-frequency-based f0
+     extraction: Possible role of a repetitive structure in sounds. Speech Communication. (27). pp. 187-
+     207.
+Kochanski, G., Grabe, E., Coleman, J., & Rosner, B., 2005. Loudness predicts prominence:
+     Fundamental frequency lends little. Journal of the Acoustical Society of America, 118(2),
+     pp.1038–1054.
+Lengeris, A., 2012. Phonetic vowel reduction in Standard Modern Greek. The 10th International
+     Conference of Greek Linguistics.
+Lindblom, B., 1990. Explaining phonetic variation: A sketch of the H&H theory. In Williams J.
+     Hardcastle & Alain Marchal (eds), Speech and speech modelling. Dordrecht: Kluwer. pp.403-439.
+Mooshammer, C. and Geng, C., 2008. Acoustic and articulatory manifestations of vowel reduction in
+     German. Journal of the International Phonetic Association. 38(2). pp.117-136.
+Morton, J., and Jassem, W., 1965. Acoustic correlates of stress. Language and Speech. (8). pp.159–181.
+Nakatani, L.H., O’Connor, K.D. and Aston, C.H., 1981. Prosodic aspects of American English speech
+     rhythm. Phonetica , 38. pp.84–106.
+Nooteboom, S. G., 1972. Production and perception of vowel duration. A study of duration properties
+     of vowels in Dutch. Ph.D. thesis. Utrecht University.
+Ortega-Llebaria, M., and Prieto, P., 2010. Acoustic correlates of stress in Central Catalan and Castilian
+     Spanish. Journal of Language and Speech, 54(1), pp.73–97.
+Plag, I., Kunter, G. and Schramm, M., 2011. Acoustic correlates of primary and secondary stress in
+     North American English. Journal of Phonetics, 39. pp.362–374.
+R Development Core Team. 2008. R: A language and environment for statistical computing. Vienna: R
+     Foundation for Statistical Computing. http://www.R-project.org (14 January 2009).
+Sadeghi, V., 2011. Acoustic correlates of lexical stress in Persian. Proceedings of the 17th International
+     Congress of Phonetic Sciences, HongKong, pp.1738-1741.
+Shue, Y-L., Keating, P., Vicenik, C. and Yu, K., 2011. VoiceSauce: A program for voice analysis. 17th
+     International Congress of Phonetic Sciences (ICPhS XVII), Hong Kong, pp.1846–1849.
+Silber-Varod, V., Sagi, H., & Amir, N., 2016. The acoustic correlates of lexical stress in Israeli Hebrew.
+     Journal of Phonetics, 56(1), pp.1–14.
+Sjӧlander, K., 2004. The Snack Sound Toolkit [computer program], http://www.speech.kth.se/snack/
+     (retrieved 15 July 2018).
+Sluijter, A. M. C., 1995. Phonetic correlates of stress and accent. PhD thesis. University of Leiden.
+UCLWPL 2018                                                                                                34
+
+     Leiden.
+Sluijter, A. M., & van Heuven, V. J., 1996b. Spectral balance as an acoustic correlate of linguistic
+     stress. Journal of the Acoustical Society of America, 100(4), pp.2471–2485.
+Sluijter, A. M., and van Heuven, V. J., 1996a. Acoustic correlates of linguistic stress and accent in
+     Dutch and American English. In Proceedings of the fourth international conference on spoken
+     language processing (3). pp. 630–633. Philadelphia.
+Thomas, A., 1984. “A lowering rule for vowels in a dialect of North Welsh”. In Ball, M. J. and Jones,
+     G. E. (eds), Welsh Phonology. A book of Readings. Cardiff: University of Wales press.
+Thomas, C. H., 1967. Welsh intonation - A preliminary study. Studia Celtica, 2(8).
+van Bergem, D. R., 1993. Acoustic vowel reduction as a function of sentence accent, word stress, and
+     word class. Speech Communication, 12(1), pp.1–23.
+Volín, J. 2008. Z intonace čtených zpravodajství: výška první slabiky v taktu [Intonation in
+     newsreading: pitch of the first syllable in a stress group]. Čeština doma a ve světě 3(4). pp.89-96.
+Volín, J. and Weingartová, L., 2014. Acoustic Correlates of Word Stress as a Cue to Accent Strength.
+     Research in Language. 12(2). pp.175-183.
+Watkins, T. A., 1993. “Welsh”. In M. J. Ball and Fife, j. (eds), the Celtic Languages. London:
+     Routledge.
+Williams, B. 1983. Stress in modern Welsh. Ph.D thesis. University of Cambridge.
+Williams, B. and Ball, M. J., 2001. Welsh Phonetics. Wales: The Edwin Mellen Press.
+Williams, B., 1999. The phonetic manifestation of stress in Welsh. In Hulst, H. van der (ed.), Word
+     Prosodic Systems in the Language of Europe. Berlin: Mouton de gruiter. pp. 311-326.
+Willis, D., 2009. Old and Middle Welsh”, in: Ball, Martin J., and Nicole Müller (eds.), The Celtic
+     languages, Routledge Language Family Descriptions, 2nd ed. (1993), London, New York:
+     Routledge. pp.117–160.
+Xu, Y. and Wang, M., 2009. Organizing syllables into groups—Evidence from F0 and duration patterns
+     in Mandarin. Journal of Phonetics, 37(4), pp.502-520.
+Xu, Y., Prom-on, S. and Liu, F., 2015. Explaining the PENTA model: A reply to Arvaniti & Ladd.
+     Phonology. 32(3). pp.505-535.
+Yakup, M. and Sereno, J. A., 2016. Acoustic correlates of lexical stress in Uyghur. Journal of the
+     International Phonetic Association. 46(1). pp.61-77.
+

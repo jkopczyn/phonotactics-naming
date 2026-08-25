@@ -1,0 +1,623 @@
+                        An OT Analysis of Vowel Syncope in Georgian
+
+                  Stephen Self, Graduate Institute of Applied Linguistics student
+
+Abstract: This paper applies Optimality Theory to vowel syncope in Georgian. Final vowels of
+morphemes ending in sonorant consonants delete before vowel-initial suffixes. However, the
+nominative ending -i and [+high] vowels do not undergo syncope. This phenomenon figures
+prominently in the creation of large consonant clusters in syllable onset position.
+
+1. Introduction
+
+         This study focuses on vowel syncope in native Georgian words and attempts to describe
+the phenomenon using Optimality Theory (OT). It also briefly considers the relationship of
+syncope to vowel apocope in nouns and the creation of consonant clusters through the process of
+vowel deletion.
+         Georgian [ISO 639-3 kat; EGIDS level 1] is the most prominent member of the
+Kartvelian, or South Caucasian, language family. It is also the only member of the family with
+its own traditional orthography and a literary tradition dating back to the medieval period
+(Aronson 1990). Georgian is the national language of Georgia, located in the southern Caucasus,
+spoken by an estimated 3,900,000 within the nation and another 355,270 in neighboring
+countries and abroad (Lewis 2009).
+         Georgian is (in)famous for the size and variety of the consonant clusters it permits in
+onset positions, as well as for roots that consist entirely of consonants (e.g. prckvn ‘to skin’;
+gvprckvnis ‘he peels us’) (Ritter 2006:432). Much work has been done on the intricacies of the
+syllabification and internal structure of such clusters (Butskhrikidze 2002; Ritter 2006; Cho and
+King 2003). One commonly repeated historical observation is that many, if not most, of the more
+spectacular consonant clusters in the language result from syllabic syncope.
+         Butskhrikidze and van de Weijer (2001) have used Optimality Theory to analyze a
+phonological process related to vowel syncope: the metathesis of the segment /v/, which forms
+part of a thematic suffix in verbs with the form /-av/. Verbs whose roots end in a sonorant and
+whose initial segments are non-labial show a metathesis in the infinitival form of the v in this
+suffix with the final segment of the root. Vowel syncope occasions this unusual change.
+         Vowel syncope occurs in both nominal and verbal paradigms in Georgian. The general
+pattern involves vowels in the final syllables of noun and verb roots ending in sonorants that
+delete before morphological suffixes with the form -V(C). Vowels in other, sonorant-final
+suffixes also undergo syncope before additional vowel-initial suffixes. While Butskhrikidze and
+van de Weijer propose a new constraint, BALANCE, for use in an OT description of Georgian
+vowel syncope, they do not actually attempt to provide such a description. The purpose of the
+present paper is to supply one.
+         The remainder of the paper is structured as follows. In section 2, I provide an overview of
+the Georgian language and salient features of its phonology. In section 3, I lay out the data for
+the present analysis and discuss the problems my analysis will tackle. In sections 4 and 5, I
+present two OT analyses of the data, one using Butskhrikidze’s and van de Weijer’s suggested
+constraint, BALANCE, and one using just constraints already proposed in the previous OT
+literature. Section 6 offers conclusions and final observations.
+                                                                                        GIALens Volume 6, No. 2
+
+
+2. Language background
+
+        In this section, I provide a brief outline of Georgian phonology, largely following
+Aronson (1997), Butskhrikidze (2002) and Butskhrikidze and van de Weijer (2001).
+        Georgian has 28 consonant phonemes and 5 vowels, /i e a o u/. Like numerous other
+languages of its geographical area, Georgian makes a three-way distinction among stops and
+affricates between voiced, voiceless, and glottalized sounds across five places of articulation.
+Fricatives spread over three places of articulation and distinguish the laryngeal features of voiced
+and voiceless only. Finally, the sonorant consonants in Georgian include the liquids /r l/, nasals
+/m n/ and the labio-velar /v/, which has the allophones [v Φ w] in certain contexts.
+
+(1)                                    Stops Affricates            Fricatives
+            voiced                     b d g j (dz) ǰ(dž)            zžɣ
+            voiceless aspirated        p t k c (ts) č(tš)            sšx
+            glottalized                p’t’ k’ c’ č’                 χ’(q’)
+            laryngeal                                                h
+            sonorants                  mnlrv
+            vowels                     ieuoa                                        (Ritter 2006:431)
+
+         Georgian permits from two to six consonants in onset position in roots. Exactly how the
+syllable is constituted so as to deal with such clusters remains a contentious issue in the
+literature, involving complex proposals such as headless syllables and semisyllables as well as
+syllabic consonants and extrasyllabicity. 1 Unfortunately, there is little more agreement on stress
+placement in the language than syllable structure, so metrical arguments are precarious at best.
+Positions for stress range from the initial syllable to the initial and antepenultimate syllables to
+the initial and preantepenultimate syllables to the antepenultimate syllable only (Jun, Vicenik,
+and Lofstedt 2007:41; Aronson 1990:18-19; Hewitt 2005:6-7; Butskhrikidze 2002:96-97;
+Butskhrikidze and van de Weijer 2001:92). Two crucial facts, at least, seem clear: (a) the
+sonorants /r l m n/ may be syllabic in certain positions (e.g. kḷde ‘rock’), and (b) only vowels
+may bear stress.
+         Initial clusters in Georgian are highly variable and violate the Sonority Sequencing
+Principle (SSP) in a fair number of cases (e.g. mta ‘mountain’). One possible simplifying factor
+in these combinations is the existence of harmonic clusters: CC sequences that agree in voicing
+and laryngeal specification and pattern as single, complex segments syllable-initially, medially,
+and finally (e.g. tk, t’k’, p’q’). Additionally, /v/ shows up as a labial off-glide following most
+consonants, such that harmonic cluster + /v/ sequences can perhaps be treated as singe complex
+segments with labial release (i.e. /tkv/= [tkw]). Georgian also permits non-harmonic clusters,
+where the first consonant is pronounced further back in the mouth than the second (e.g. gdeba
+‘throwing’), as well as harmonic, non-harmonic, and other clusters that freely violate the SSP
+(e.g. harmonic: ïgupi ‘group’; non-harmonic: cda ‘to try’; other: rgoli ‘ring’). The sonorant /r/
+often intervenes in sequences that violate the SSP in order to repair the violation (e.g. zrdiloba
+‘politeness’).
+
+
+1
+    Butskhrikidze (2002), chapter 7, provides a good overview of several of these proposals with analysis of their
+    relative strengths and weaknesses.
+
+
+                                                             2
+                                                                             GIALens Volume 6, No. 2
+
+
+3. Data
+
+        In this section, I lay out the sources and nature of the data that form the focus of the
+study. The main data come from Butskhrikidze (2002) and Butskhrikidze and van de Weijer
+(2001). Some individual examples in the discussion were taken from other sources, principally
+Aronson (1997).
+        Historically, many of the consonant clusters in Georgian, including those that violate the
+SSP, resulted from vowel syncope (e.g. tbili ‘warm’ < gan-t’ep-it ‘get warm’; cda ‘to try’ < e-
+cad-e ‘try you’). However, the process is active synchronically as well. When a nominal or
+verbal root that ends in a sonorant receives a suffix with the form -VC, the vowel in the final
+syllable of the root deletes. Additional -VC suffixes cause previous such suffixes whose final
+consonant is a sonorant to undergo this same process of syncope.
+
+(2)
+          NOM mercxal-i           ‘swallow’                        NOM k’amat-i         ‘debate’
+          ERG mercxal-ma                                           ERG k’amat-ma
+          DAT mercxal-s                                            DAT k’amat-s
+          GEN mercxl-is                                            GEN k’amat-is
+          INST mercxl-it                                           INST k’amat-it
+          ABL mercxl-ad                                            ABL k’amat-ad
+                                                                   (Butskhrikidze 2002:90)
+
+(3)              Regular metathesis in verb forms
+                 root present tense, 3.SG      infinitival form
+                 (-av- thematic suffix)        (-a infinitival suffix)
+                 xar xr-av-s                   xvr-a ‘to gnaw’
+                 /xar/-/av/-/s/                /xar/-/av/-/a/
+                 k’ar k’r-av-s                 k’vr-a ‘to tie’
+                 xan xn-av-s                   xvn-a ‘to plough’
+                 k’al k’l-av-s                 k’vl-a ‘to kill’
+                 sxal sxl-av-s                 sxvl-a ‘to chop off’
+                 jer jr-av-s                   jvr-a ‘to move’
+                                               (Butskhrikidze and van de Weijer 2001:93)
+
+(4)              Regular non-occurrence of vowel deletion
+a.               mamul-i      ‘patrimony’           mamul-is                     id.-GEN
+                 c’arsul-i    ‘past’                c’arsul-is                   id.-GEN
+                 čongur-i     ‘musical inst.’       čongur-is                    id.-GEN
+                 ǰebir-i          ‘dam’                 ǰebir-is                 id.-GEN
+                 ɣimil-i          ‘smile’               ɣimil-is                 id.-GEN
+                 nadim-i          ‘feast’               nadim-is                 id.-GEN
+
+          root             present tense, 3.SG   infinitival form
+b.        xed              xed-av-s              xedv-a (*xvd-a)                 ‘to see’
+          tes              tes-av-s              tesv-a (*tvs-a)                 ‘to sow’
+          les              les-av-s              lesv-a (*lvs-a)                 ‘to sharpen’
+
+
+                                                    3
+                                                                         GIALens Volume 6, No. 2
+
+
+c.     ber             ber-av-s               berv-a (*bvr-a)                ‘to blow up’
+       par             par-av-s               da-parv-a (*da-pvr-a)          ‘to hide’
+d.     lar             lar-av-s               lar-va (*lvr-a)                ‘string’
+
+(5)    k’er            k’er-av-s              k’erva (*k’vra)                ‘to sew’
+                                              k’vra                          ‘to blind’
+       tes             tes-av-s (*ts-av-s)    tesv-a (*tvs-a)                ‘to sow’
+                       c-av-s [tsavs]                                        ‘to defend’
+
+       kar-i           ‘wind’                 kar-is (*kr-is)             id.-GEN
+                                                      kris                ‘blows’
+                                              (Butskhrikidze and van de Weijer 2001:94)
+
+        The first column in (2) demonstrates vowel syncope in a nominal stem. Note that the
+nominative ending -i never occasions syncope. The second column shows that roots that do not
+end in sonorants do not undergo syncope. The first column in (3) contains verb roots that have
+undergone vowel syncope. Column 2 shows the same roots with double syncope (both -av and -a
+suffixes) and v metathesis. (4a) contains noun roots that end in sonorants but do not undergo
+syncope due to the [+high] vowels in their final syllables. (4b) shows verbs that do not undergo
+syncope because their roots end in obstruents. The forms in (4c) are especially interesting: here,
+the vowel in the root does not delete because deletion would occasion the v metathesis which
+would, in turn, result in an unacceptable sequence of two adjacent labial segments. Butskhrikidze
+and van de Weijer invoke a version of the Obligatory Contour Principle, OCP(LABIAL), to forbid
+such double labials. (4d) shows that the processes of vowel syncope and v metathesis are
+similarly blocked if the resultant consonant sequence is simply not acceptable in the language.
+Departing from Butskhrikidze and van de Weijer, I note that the specific nature of the
+unacceptability of this form lies in its violation of the SSP. Finally (5) demonstrates certain
+forms that could and should undergo syncope but do not because the resultant forms would be
+homophonous with other words in the language.
+
+4. Analysis in OT
+
+        In this section, I lay out my optimality theoretic analysis of the facts of vowel syncope
+observed above. Since Butskhrikidze and van de Weijer suggest it, I first adopt their new
+constraint BALANCE which is violated if vowel deletion does not happen when its preconditions
+are met. Butskhrikidze and van de Weijer note that their proposed name for this new constraint is
+taken from the term applied in traditional Georgian grammars to vowel syncope: a balance
+between the root and the series of suffixes (Butskhrikidze and van de Weijer 2001:95). In section
+5, I evaluate the usefulness of this new constraint and consider alternatives. Though the data
+involve v metathesis, I do not treat it here, nor do I include in my analysis most of the constraints
+used by Butskhrikidze and van de Weijer to account for it. I take for granted that the process
+occurs together with syncope and refer the reader to their article for more details.
+        The motivation for vowel deletion is provided by Butskhrikidze’s and van de Weijer’s
+new constraint. On the basis of their description, I interpret its definition to be as follows:
+
+
+
+
+                                                 4
+                                                                                         GIALens Volume 6, No. 2
+
+
+(6)         BALANCE
+            Vowel syncope must not fail to occur when the following conditions are met:
+                   i. the final vowel of the root is not [+high]
+                   ii. the suffix is not the nominative ending -i
+                   iii. the root does not end in an obstruent or vowel (i.e. must be a sonorant)
+                   iv. the suffix does not have the form -CV (i.e. must be -V(C) )
+            “Don’t fail to syncopate under right conditions.” Assess one violation for each missed
+            syncope.
+
+        We can understand this to be a Markedness constraint.
+        Since some roots and suffixes do not undergo vowel deletion, we need a Faithfulness
+constraint to militate against willful deletion of root segments. It must be ranked below BALANCE
+in order to ensure that syncope can affect the desired forms (tableau 1).
+
+(7)         MAX-root (McCarthy and Prince 1995) 2
+            Every segment of the input has a correspondent in the output (no phonological deletion).
+
+                                                    Tableau 1
+                                               BALANCE » MAX-root
+
+                               input: /xar-av-a/ ‘to gnaw’ BALANCE MAX-root
+                               a. ì xvra                             *
+                               b. xarava                     *!*
+                               c. xrava                       *!     *
+                               d. xarva                       *!
+
+        We also need to control for unauthorized deletion of segments from the affixes. That is, it
+is possible that two forms both satisfy BALANCE and MAX-root, but one still has an unlicensed
+deletion in the affix. I invoke the general Faithfulness constraint MAX to handle such
+eventualities. It is ranked below MAX-root so as to protect the root first (tableaux 2).
+
+                                                  Tableau 2
+                                         BALANCE » MAX-root » MAX
+
+                         input: /ber-av-a/ ‘to blow up’ BALANCE MAX-root MAX
+                         a. ì berva                        *              *
+                         b. berava                        **!
+                         c. brava                          *      *!      *
+                         d. berv                           *             **!
+
+        It might also be possible for a form to satisfy the requirements of syncope by deleting
+whole morphemes, completely obliterating an affix like the infinitival suffix -a. This scenario
+presents itself as a problem for the current analysis principally where the winning candidate has
+to forego syncope in order to avoid violating a higher-ranked constraint. Thus, we need a
+2
+    All constraint names and definitions from sources not listed in the bibliography are taken from Ashley et al. (2010).
+
+
+                                                             5
+                                                                                     GIALens Volume 6, No. 2
+
+
+Faithfulness constraint ranked above BALANCE to militate against over-zealous deletion of
+meaningful units (tableau 3).
+
+(8)        EXPONENCE (Golston 1995)
+           A morpheme must be overtly realized. 3
+
+                                            Tableau 3
+                             EXPONENCE » BALANCE » MAX-root » MAX
+
+                 input: /k’er-av-a/ ‘to sew’ EXPONENCE BALANCE MAX-root                        MAX
+                 a. ì k’erva                              *                                     *
+                 b. k’erava                              **!
+                 c. k’vr                         *!              *                              ***
+                 d. k’rava                                *      *!                               *
+                 e. k’rav                        *!       *      *                               **
+
+        As just alluded to above, there are situations in which all the conditions for syncope are
+met, but if a given candidate underwent syncope, the resultant form would be homophonous with
+an already existing form in the language. To cover such situations, we need a Faithfulness
+constraint to militate against homophonous outputs. I invoke PRESERVE CONTRAST-output, which
+must outrank BALANCE and MAX so as to ensure that such forms remain unaffected.
+
+(9)        PCOUT (Łubowicz 2003:20)
+           For each output that corresponds to two or more inputs contrasting in P assign a violation
+           mark. Formally, assign one mark for every output, outk, if ina →outk, inb →outk, ina has
+           P, and inb lacks P. “Avoid outputs ambiguous in P property.”
+
+      Rather than specify a particular property for this constraint, I leave it open; any
+ambiguous output is dispreferred, whether root or affix (tableaux 4-5).
+
+
+
+
+3
+    Ashley et al. (2010) comment in their constraint catalogue that this constraint is a reworking of the earlier
+    constraint M-PARSE or MORPHOLOGICAL-PARSE from Prince and Smolensky (1993), which requires the structural
+    realization of morphological properties (58). See also Gnanadesikan (1997:93-94), who invokes a similar concept
+    under the title MORPHEME REALIZATION or MORPH-REAL, first proposed in Samek-Lodovici (1993).
+
+
+                                                           6
+                                                                          GIALens Volume 6, No. 2
+
+
+                                             Tableau 4
+                        PCOUT, EXPONENCE   » BALANCE » MAX-root » MAX
+
+           input: /k’er-av-a/ ‘to sew’ PC-out EXPONENCE BALANCE MAX-root              MAX
+           a. ì k’erva                                     *                           *
+           b. k’erava                                     **!
+           c. k’vra ‘to blind’           *!                       *                    ***
+           d. k’vr                                *!              *                    ***
+           e. k’rava                                       *      *!                     *
+           f. k’rav                               *!              *                     **
+
+                                               Tableau 5
+
+           input: /kar-is/ ‘wind.GEN’ PC-out EXPONENCE BALANCE MAX-root               MAX
+           a. ì karis                                     *
+           b. kr                                 *!              *                     **
+           c. kris ‘blows’              *!                       *                      *
+           d. kri NOM ending            *!                       *                     **
+           e. kari NOM ending           *!                *                             *
+
+         Tableau 3 shows that the homophone [k’vra] is not allowed. Tableau 4 demonstrates that
+the homophone [kris], as well as forms whose genitive ending loses the segment [s] that
+distinguishes it from the nominative case ending, are not allowed.
+         Finally, instead of positing another constraint to penalize occurrences of syncope where it
+is not licensed by the conditions of BALANCE, I rely on the SSP and OCP-labial.
+
+(10)       SON-SEQ (Clements 1990) 4
+           Complex onsets rise in sonority, and complex codas fall in sonority.
+
+(11)       OCP-LAB (Coetzee and Pater 2006)
+           No adjacent labials.
+
+       Both SON-SEQ and OCP-LAB must be high ranking since they cannot be violated during
+the syncope process. However, they are not crucially ranked with respect to one another or either
+PCOUT or EXPONENCE (tableaux 6-8).
+
+
+
+
+4
+    As defined in Kager (1999:267).
+
+
+                                                   7
+                                                                       GIALens Volume 6, No. 2
+
+
+                                        Tableau 6
+      OCP-LAB, SON-SEQ     » PCOUT, EXPONENCE » BALANCE » MAX-root » MAX
+
+    input: /ber-av-a/ OCP-LAB SSP PC-OUT EXPONENCE BALANCE MAX-root MAX
+    ‘to blow up’
+    a. ì berva                                        *               *
+    b. berava                                        **!
+    c. brva                    *!
+    d. bvra             *!
+    e. brava                                          *      *!       *
+    f. berv                                  *!       *              **
+
+                                             Tableau 7
+
+input: /k’amat-is/             OCP- SSP        PC-       EXPONENCE BALANCE         MAX-         MAX
+‘debate.GEN’                     LAB            OUT                                root
+a. ì k’amat-is
+b. k’amtis                                                                           *!           *
+c. k’amts                               *!                                            *          **
+d. k’mts                                *!                                           **         ***
+e. k’mtis                               *!                                           **          **
+f. k’amats                              *!                                                        *
+g. k’amat                                                   *!                                   **
+h. k’amati NOM ending                           *!                                                *
+
+                                             Tableau 8
+
+input: /tes-av-s/ ‘to sow’ OCP-LAB SSP PC-OUT EXPONENCE BALANCE MAX-root MAX
+a. ì tesavs
+b. tesvs                            *!                                     *
+c. tsavs                                 *!                       *        *
+d. tvs                              *!
+e. tsv                                                            *!       *
+f. tsav                                                           *!      **
+g. tsas                                                           *!      **
+h. tesas                                                                  *!
+i. tesav                                                                  *!
+
+        To summarize the formal OT analysis to this point, the relevant constraints and their
+crucial rankings for Georgian vowel syncope are as follows:
+
+
+
+
+                                                8
+                                                                         GIALens Volume 6, No. 2
+
+
+       OCP-LAB          SSP           PC-OUT          EXPONENCE
+
+
+
+       BALANCE
+
+
+
+       MAX-root
+
+
+
+        MAX
+
+       In the next section, I lay out another analysis of the same phenomena using constraints
+previously posited in the OT literature in place of BALANCE.
+
+5. Alternative to BALANCE
+
+       While functional, Butzkhrikidze’s and van de Weijer’s proposed constraint BALANCE
+seems too ad hoc and language-specific. In particular, it contains a number of preconditions that
+might be handled just as well by other constraints of more universal applicability. In this section,
+my goal is to perform the same OT analysis using constraints already contained in the inventory
+compiled by Ashley et al. (2010).
+       In order to replace BALANCE, we need separate constraints for some of the basic
+prerequisites of syncope, namely the impetus to syncopate and the prohibition against [+high]
+vowels participating in or occasioning syncope. I propose to replace BALANCE with
+*STRUCTURE-syllable and MAX-VHIGH, adapted from MAX-V.
+
+(12)   *STRUC-σ (Urbanczyk 2006)
+       No syllables. (i.e. reduce the amount of syllables to 1)
+
+(13)   Max-VHIGH (adapted from McCarthy 2000)
+       Every [+high] vowel of an input has a correspondent in the output. “Don’t delete high
+       vowels.”
+
+        The motivation for *STRUC-σ lies in the fact that Georgian apparently avoids adding
+syllable nuclei, preferring to keep the syllable count small. Another instantiation of this
+phenomenon is vowel apocope before -V(C) suffixes in vowel-final roots (e.g. rdze ‘milk’ + -is
+‘GEN’ = rdzis; deda ‘mother’ + -is ‘GEN’ = dedis). The motivation for MAX-VHIGH is the
+apparent stability of [+high] vowels in Georgian, another cross-linguistically rare trait, though
+one shared with Estonian (Gouskova 2003:211). Ordinarily, one expects the [+high] vowels to
+be among the least stable, while the highly sonorous [a] should be most stable as a syllabic
+nucleus (Graf and Krämer 2005). MAX-VHIGH must dominate *STRUC-σ in order to guarantee that
+[+high] vowels remain unchanged. The ranking of MAX-VHIGH, OCP-LAB, SSP, PCOUT, and
+EXPONENCE, however, is not crucial (tableaux 9-11).
+
+
+
+                                                 9
+                                                                               GIALens Volume 6, No. 2
+
+
+                                    Tableau 9
+   OCP-LAB, SON-SEQ, PCOUT, EXPONENCE, MAX-VHIGH » *STRUC-σ » MAX-root » MAX
+
+input: /mamul-is/           OCP-LAB        SSP PC- EXPONENCE MAX- *STRUC- MAX- MAX
+‘patrimony.GEN’                                OUT           VHIGH   σ    root
+a. ì mamulis                                                         *
+b. mamlis                                                     *!     *     *     *
+c. mamls                                                      *!           *    **
+d. mamli                                                      *!     *     *    **
+e. mamul                                               *!     *      *           *
+f. mmulis                      *!                                    *
+
+                                                 Tableau 10
+
+input: /mercxal-i/ OCP- SSP          PC-        EXPONENCE         MAX-     *STRUC-       MAX-root     MAX
+‘swallow.NOM’       LAB              OUT                          VHIGH       σ
+a. ìmercxali                                                                 *
+b. mercxli                                                                    *             *!         *
+c. mrcxli                                                                     *             *!         *
+d. mercxal                                             *!          *                                   *
+e. mercxl                                              *!          *                                   *
+
+                                                 Tableau 11
+
+input: /k’amat-is/   OCP-LAB        SSP         PC-     EXPONENCE      MAX-     *STRUC-      MAX-     MAX
+‘debate.GEN’                                    OUT                    VHIGH       σ         root
+a. ì k’amat-is                                                                     *
+b. k’amtis                                                                         *             *!     *
+c. k’amts                                                                 *!                      *    **
+d. k’mts                                                                  *!                     **   ***
+e. k’mtis                            *!                                                          **    **
+f. k’amats                                                                *!         *                  *
+
+                                                 Tableau 12
+
+input: /xar-av-a/    OCP-      SSP        PC-         EXPONENCE      MAX-      *STRUC-      MAX-      MAX
+‘to gnaw’             LAB                 OUT                        VHIGH        σ         root
+a. ì xvra                                                                                    *         *
+b. xarava                                                                        *!
+c. xrva                        *!                                                                *     *
+d. xrava                                                                         *!              *     *
+e. xarva                                                                         *!
+f. xvr                                                      *!                                   *    ***
+g. xrv                         *!                           *                                    *    ***
+
+
+                                                        10
+                                                                         GIALens Volume 6, No. 2
+
+
+The overall ranking for these constraints is shown below.
+
+       OCP-LAB          SSP           PC-OUT          EXPONENCE               MAX-VHIGH
+
+
+
+       *STRUC-σ
+
+
+
+       MAX-root
+
+
+
+         MAX
+
+6. Conclusion
+
+        In this paper, I have examined the phenomenon of vowel syncope in Georgian and have
+proposed two analyses for it in Optimality Theory. In the first analysis, I utilized the constraint
+BALANCE proposed by Butskhrikidze and van de Weijer (2001) that states that vowel deletion
+must occur when all of the necessary conditions are met. In the second analysis, I used
+constraints already contained in the inventory prepared by Ashley et al. (2010), with the one
+modification of adding a feature [+high] to MAX-V. This is a logical, benign, and restrictive
+expansion of a previous constraint based on the observable facts of [+high] vowel stability in
+Georgian and Estonian. The motivation for the second analysis is the possibly too ad hoc nature
+of BALANCE.
+        One significant implication of the present study is that Georgian strives to simplify
+lexical items to a single syllable, a claim that seems to contradict the position of Butskhrikidze
+(2002:96) that the minimal Georgian word is disyllabic of the CVCV type. She bases her claim
+on the fact that no CVC root types are expressed in the language without a vowel suffix (case
+marker). There are, however, roots of types CV, CCV, and CCCV (e.g. xe ‘tree’, rk’o ‘acorn’,
+brge ‘tall’). Thus, the present analysis is not incompatible with her position; it merely reflects a
+tension in the language between the morphology and the phonology.
+
+                                             References
+
+Aronson, Howard I. 1990. Georgian: a reading grammar. Corrected ed. Columbus, OH: Slavica
+       Publishers, Inc.
+Aronson, Howard I. 1997. Georgian phonology. In: Alan S. Kaye, editor. Phonologies of Asian
+       and Africa (including the Caucasus), 2:929-940. Winona Lake, IN: Eisenbrauns.
+Ashley, Karen C., Lynette Disch, David C. Ford, Erin MacSaveny, Steve Parker, Carla Unseth,
+       Angela M. Williams, Rachel Wong and Brendon Yoder. 2010. How many constraints are
+       there? A preliminary inventory of OT phonological constraints. Occasional Papers in
+       Applied Linguistics (OPAL). http://www.gial.edu/images/opal/No-9-Parker-Constraint-
+       Inventory.pdf. (7 August, 2012.)
+
+
+
+                                                 11
+                                                                    GIALens Volume 6, No. 2
+
+
+Butskhrikidze, Marika. 2002. The consonant phonotactics of Georgian. LOT Dissertation Series
+        63. Utrecht: LOT.
+        http://pubman.mpdl.mpg.de/pubman/item/escidoc:375564:5/component/escidoc:375563/
+        georgian_butskhrikidze2002_s.pdf. (4 June, 2012.)
+Butskhrikidze, Marika and Jeroen van de Weijer. 2001. On v-metathesis in Modern Georgian. In:
+        Elizabeth Hume, Norval Smith and Jeroen van de Weijer, editors. Surface syllable
+        structure and segment sequencing. Leiden, NL: HIL Occasional Papers. pp. 91-101.
+        http://www.webklik.nl/user_files/2009_10/72522/Papers/Butskhrikidze%20and%20Van
+        %20de%20Weijer%20Metathesis%20in%20Georgian%20S5%202001.pdf. (4 June,
+        2012.)
+Cho, Young-mee Yu and Tracy Holloway King. 2003. Semisyllables and universal
+        syllabification. In Caroline Féry and Ruben van de Vijver, editors. The syllable in
+        Optimality Theory. Cambridge: Cambridge University Press. pp. 183-212.
+Clements, G. N. 1990. The role of the sonority cycle in core syllabification. In John Kingston
+        and Mary E. Beckman, editors. Papers in laboratory phonology 1: between the grammar
+        and physics of speech. Cambridge: Cambridge University Press. pp. 283-333.
+Coetzee, Andries W. and Joe Pater. 2006. Lexically ranked OCP-Place constraints in Muna. Ms.,
+        University of Michigan and University of Massachusetts. (ROA 842).
+Gnanadesikan, Amalia E. 1997. Phonology with ternary scales. Ph.D. dissertation, University of
+        Massachusetts Amherst. (ROA 195). http://roa.rutgers.edu/files/195-0597/195-0597-
+        GNANADESIKAN-7-0.PDF. (8 August, 2012.)
+Golston, Chris. 1995. Syntax outranks phonology: evidence from ancient Greek. Phonology 12:
+        343-68.
+Gouskova, Maria. 2003. Driving economy: syncope in Optimality Theory. Ph.D. dissertation,
+        University of Massachusetts Amherst. (ROA 610). http://roa.rutgers.edu/files/610-
+        0803/610-GOUSKOVA-0-0.PDF. (4 June, 2012.)
+Graf, Dafna and Martin Krämer. 2005. Resisting syncope. 13th Manchester Phonology Meeting.
+        Manchester, UK: handout. http://www.hum.uit.no/a/kraemer/Graf-Kraemer-name.pdf. (4
+        June, 2012.)
+Hewitt, George. 2005. Georgian: a learner’s grammar. 2nd ed. New York: Routledge.
+Jun, Sun-Ah, Chad Vicenik and Ingvar Lofstedt. 2007. Intonational phonology of Georgian.
+        UCLA Working Papers in Phonetics 106:41-57.
+Kager, René. 1999. Optimality Theory. Cambridge: Cambridge University Press.
+Lewis, M. Paul, editor. 2009. Ethnologue: languages of the world. 16th ed. Dallas: SIL
+        International. http://www.ethnologue.com/.
+Łubowicz, Anna. 2003. Contrast preservation in phonological mappings. Ph.D. dissertation,
+        University of Massachusetts Amherst. (ROA 554). http://roa.rutgers.edu/files/554-
+        1002/554-1002-LUBOWICZ-10-0.PDF. (4 June, 2012.)
+McCarthy, John J. 2000. The prosody of phase in Rotuman. Natural Language and Linguistic
+        Theory 18:147-97.
+McCarthy, John J. and Alan Prince. 1995. Faithfulness and reduplicative identity. In Jill N.
+        Beckman, Laura Walsh Dickey and Suzanne Urbanczyk, editors. University of
+        Massachusetts Occasional papers in linguistics, vol. 18: papers in Optimality Theory.
+        Amherst: GLSA. pp. 249-384.
+Prince, Alan and Paul Smolensky. 1993. Optimality theory: constraint interaction in generative
+
+
+
+
+                                             12
+                                                                     GIALens Volume 6, No. 2
+
+
+        grammar (Technical Report CU-CS-696-93, Department of Computer Science,
+        University of Colorado at Boulder, and Technical Report RuCCS-TR-2, Rutgers Center
+        for Cognitive Science, Rutgers University, New Brunswick, NJ). Malden, MA:
+        Blackwell, 2004. http://roa.rutgers.edu/files/537-0802/537-0802-PRINCE-0-0.PDF. (7
+        August, 2012.)
+Ritter, Nancy A. 2006. Georgian consonant clusters: the complexity is in the structure, not the
+        melody. The Linguistic Review 23:429-464.
+Samek-Lodovici, Vieri. 1992. A unified analysis of crosslinguistic morphological gemination.
+        Proceedings of CONSOLE 1: 265-283. (ROA 149). http://roa.rutgers.edu/files/149-
+        1096/149-1096-SAMEK-LODOVICI-0-0.PDF. (8 August, 2012.)
+Urbanczyk, Suzanne. 2006. Reduplicative form and the root-affix asymmetry. Natural Language
+        and Linguistic Theory 24:179-240.
+
+
+
+
+                                              13
+

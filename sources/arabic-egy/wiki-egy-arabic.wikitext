@@ -1,0 +1,2431 @@
+{{Short description|Arabic variety spoken in Egypt}}
+{{redirect|Masri}}
+{{Use dmy dates|date=March 2026}}
+{{Infobox language
+| name             = Egyptian Arabic
+| altname          = 
+| nativename       = {{lang|arz|مصرى<!--Egyptian variant of final ى-->}} (Masri)
+| pronunciation    = {{IPA|arz|ˈmɑsˤɾi|}}
+| states           = [[Egypt]]
+| ethnicity        = [[Egyptians]]
+| speakers         = [[first language|L1]]: {{sigfig|83.567230|2}} million
+| date             = 2024
+| ref              = <ref name="e28|arz">{{e28|arz}}</ref>
+| speakers2        = [[second language|L2]]: {{sigfig|35.000000|2}} million (2024)<ref name="e28|arz">{{e28|arz}}</ref><br/>Total: {{sigfig|118.567230|3}} million (2024)<ref name="e28|arz">{{e28|arz}}</ref>
+| speakers_label   = Speakers
+| familycolor      = Afroasiatic
+| fam2             = [[Semitic languages|Semitic]]
+| fam3             = [[West Semitic languages|West Semitic]]
+| fam4             = [[Central Semitic languages|Central Semitic]]
+| fam5             = [[Arabic]]
+| dia1             = [[Judeo-Egyptian Arabic]]
+| dia3             = [[Egyptian Arabic#Regional variations|Other regional variations]]
+| script           = [[Arabic alphabet]]<br />[[Arabic chat alphabet|chat alphabet]]
+| sign             = <!--Egyptian Sign Language is not a signed form of Egyptian Arabic-->
+| iso3             = arz
+| notice           = IPA
+| glotto           = egyp1253
+| glottorefname    = Egyptian Arabic
+| region           = 
+| extinct          = 
+| map              = Árabe egipcio.PNG
+| mapcaption       = Areas where Egyptian Arabic is spoken (in dark blue those areas where it is the most widely spoken).
+| ietf             = ar-EG
+}}
+
+'''Egyptian Arabic''', locally known as '''Colloquial Egyptian''',{{efn|{{langx|arz|العامية المصرية}}, {{IPA|arz|el.ʕæmˈmejjæ l.mɑsˤˈɾejjɑ|}}<ref>{{cite book|last=سبيرو|url=https://books.google.com/books?id=fa0azQEACAAJ&q=%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D9%8A%D8%A9+%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9|script-title=ar:قاموس اللهجة العامية المصرية، عربي – إنكليزي|date=1999|publisher=مكتبة لبنان ناشرون|language=ar|access-date=2020-10-25|archive-date=2023-03-26|archive-url=https://web.archive.org/web/20230326133756/https://books.google.com/books?id=fa0azQEACAAJ&q=%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D9%8A%D8%A9+%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9|url-status=live}}</ref><ref>{{Cite web|url=https://www.aljazeera.net/news/cultureandart/2019/2/12/%D8%AA%D8%AA%D9%88%D9%8A%D8%AC-%D8%B1%D9%88%D8%A7%D9%8A%D8%A9-%D9%85%D9%83%D8%AA%D9%88%D8%A8%D8%A9-%D8%A8%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D9%8A%D8%A9-%D8%B7%D9%8A%D9%81-%D8%B7%D9%87-%D8%AD%D8%B3%D9%8A%D9%86-%D9%88%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D8%A8%D9%85%D8%B5%D8%B1|script-title=ar:تتويج رواية مكتوبة بالعامية.. طيف طه حسين ومستقبل الثقافة بمصر|website=www.aljazeera.net|language=ar|access-date=2020-02-26|archive-date=2019-07-04|archive-url=https://web.archive.org/web/20190704055503/https://www.aljazeera.net/news/cultureandart/2019/2/12/%D8%AA%D8%AA%D9%88%D9%8A%D8%AC-%D8%B1%D9%88%D8%A7%D9%8A%D8%A9-%D9%85%D9%83%D8%AA%D9%88%D8%A8%D8%A9-%D8%A8%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D9%8A%D8%A9-%D8%B7%D9%8A%D9%81-%D8%B7%D9%87-%D8%AD%D8%B3%D9%8A%D9%86-%D9%88%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84-%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D8%A9-%D8%A8%D9%85%D8%B5%D8%B1|url-status=live}}</ref><ref>{{Cite web|url=https://akhbarelyom.com/news/newdetails/590075/1/%D8%B7%D9%87-%D8%AD%D8%B3%D9%8A%D9%86..%D8%B9%D8%B4%D9%82-%D8%A7%D9%84%D9%81%D8%B5%D8%AD%D9%89-%D9%88%D9%83%D8%B1%D9%87-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D9%8A%D8%A9-%D9%88%D8%AF%D8%B9%D9%89-%D9%84%D8%AA%D9%81%D9%87%D9%85-%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D8%A5%D9%86%D8%AC%D9%8A%D9%84-%D9%88%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86|script-title=ar:طه حسين..عشق الفصحى وكره العامية ودعى لتفهم التوارة والإنجيل والقرآن|last=Musa|first=Heba|work=بوابة اخبار اليوم |date=15 November 2016|script-website=ar:بوابة اخبار اليوم|access-date=2020-02-26|archive-date=2022-04-08|archive-url=https://web.archive.org/web/20220408104905/https://akhbarelyom.com/news/newdetails/590075/1/%D8%B7%D9%87-%D8%AD%D8%B3%D9%8A%D9%86..%D8%B9%D8%B4%D9%82-%D8%A7%D9%84%D9%81%D8%B5%D8%AD%D9%89-%D9%88%D9%83%D8%B1%D9%87-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D9%8A%D8%A9-%D9%88%D8%AF%D8%B9%D9%89-%D9%84%D8%AA%D9%81%D9%87%D9%85-%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%B1%D8%A9-%D9%88%D8%A7%D9%84%D8%A5%D9%86%D8%AC%D9%8A%D9%84-%D9%88%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86|url-status=live}}</ref>}} or simply as '''Masri''',{{efn|{{langx|arz|مصرى<!--Egyptian variant of final ى-->|link=no}}, {{literal translation|'''Egyptian'''}}<ref>{{Cite web|url=https://etoninstitute.com/blog/language/different-arabic-dialects|title=Different Arabic Dialects Spoken Around the Arab World|date=April 15, 2018|access-date=July 23, 2019|archive-date=November 27, 2020|archive-url=https://web.archive.org/web/20201127132549/https://etoninstitute.com/blog/language/different-arabic-dialects|url-status=live}}</ref><ref>{{Cite web|url=https://enterprise.press/stories/2017/08/29/disney-returns-to-using-egyptian-dialect-in-dubbing-movies/|title=Disney returns to using Egyptian dialect in dubbing movies|website=Enterprise|access-date=2019-05-31|archive-date=2020-11-19|archive-url=https://web.archive.org/web/20201119135519/https://enterprise.press/stories/2017/08/29/disney-returns-to-using-egyptian-dialect-in-dubbing-movies/|url-status=live}}</ref>}} is the most widely spoken [[vernacular]] [[Varieties of Arabic|Arabic variety]] in [[Egypt]].<ref>{{Cite web|url=https://www.worldatlas.com/articles/languages-spoken-in-egypt.html|title=Languages Spoken In Egypt|website=WorldAtlas|date=25 April 2017|language=en|access-date=2019-09-13|archive-date=2020-11-19|archive-url=https://web.archive.org/web/20201119135525/https://www.worldatlas.com/articles/languages-spoken-in-egypt.html|url-status=live}}</ref><ref>{{Cite book|url=https://books.google.com/books?id=jjiZAAAACAAJ&q=egyptian+colloquial+arabic|title=Egyptian Colloquial Arabic|last=Ondras|first=Frantisek|date=2005-04-26|publisher=Czech Institute of Egyptology|isbn=978-80-86277-36-3|language=en|access-date=2020-10-25|archive-date=2023-03-26|archive-url=https://web.archive.org/web/20230326133733/https://books.google.com/books?id=jjiZAAAACAAJ&q=egyptian+colloquial+arabic|url-status=live}}</ref> It is part of the [[Afroasiatic languages|Afro-Asiatic language family]], and originated in the [[Nile Delta]] in [[Lower Egypt]]. The estimated 111&nbsp;million Egyptians speak a [[dialect continuum|continuum of dialects]].<ref name="e28|arz">{{e28|arz}}</ref> Egyptian Arabic is also known as Cairene Arabic.<ref>{{Cite web |last=Cheddadi |first=Oualid |date=2025-01-12 |title=Egyptian Arabic: Everything You Need To Know |url=https://lingualid.com/egyptian-arabic/ |access-date=2026-05-31 |website=Lingualid |language=en-GB}}</ref> It is also understood across most of the [[Arab world|Arabic-speaking countries]] due to broad Egyptian influence in the region, including through [[Cinema of Egypt|Egyptian cinema]] and [[Music of Egypt|Egyptian music]]. These factors help make it the most widely spoken and by far the most widely studied [[Varieties of Arabic|variety of Arabic]].<ref>{{cite web|last=Dick|first=Marlin|title=TBS 15 The State of the Musalsal: Arab Television Drama and Comedy and the Politics of the Satellite Era by Marlin Dick|url=http://tbsjournal.arabmediasociety.com/Archives/Fall05/Dick.html|archive-url=https://web.archive.org/web/20160304002737/http://tbsjournal.arabmediasociety.com/Archives/Fall05/Dick.html|archive-date=2016-03-04|access-date=2015-11-03|website=Arab Media & Society}}</ref><ref>Mahmoud Gaafar, Jane Wightwick (2014).''Colloquial Arabic of Egypt: The Complete Course for Beginners''.</ref><ref>{{Cite book|url=https://books.google.com/books?id=4R4DyZ8At7IC&q=egyptian+arabic+%22most%22&pg=PA173|title=The Europeans, Second Edition: A Geography of People, Culture, and Environment|last1=Ostergren|first1=Robert C.|last2=Bossé|first2=Mathias Le|date=2011-06-15|publisher=Guilford Press|isbn=978-1-60918-244-1|language=en|access-date=2020-10-25|archive-date=2023-03-26|archive-url=https://web.archive.org/web/20230326133744/https://books.google.com/books?id=4R4DyZ8At7IC&q=egyptian+arabic+%22most%22&pg=PA173|url-status=live}}</ref><ref>{{Cite book|url=https://books.google.com/books?id=socYatmLZc8C&q=egyptian+arabic+%22most%22&pg=PT1983|title=The Rough Guide to Egypt|last=Richardson|first=Dan|date=2007-08-02|publisher=Rough Guides UK|isbn=978-1-84836-798-2|language=en|access-date=2020-10-25|archive-date=2023-03-26|archive-url=https://web.archive.org/web/20230326133828/https://books.google.com/books?id=socYatmLZc8C&q=egyptian+arabic+%22most%22&pg=PT1983|url-status=live}}</ref><ref>{{Cite book|url=https://archive.org/details/culturecustomsof00mole|url-access=registration|page=[https://archive.org/details/culturecustomsof00mole/page/117 117]|quote=egyptian arabic influence.|title=Culture and Customs of Egypt|last=Asante|first=Molefi Kete|date=2002|publisher=Greenwood Publishing Group|isbn=978-0-313-31740-8|language=en}}</ref>
+
+While it is primarily a spoken language, the written form is used in novels, plays and poems ([[vernacular literature]]), as well as in comics, advertising, some newspapers and transcriptions of popular songs. In most other written media and in radio and television news reporting, [[Modern Standard Arabic|literary Arabic]] is used. Literary Arabic is a standardized language based on the language of the [[Quran|Qur'an]], i.e. [[Classical Arabic]]. The Egyptian [[vernacular]] is almost universally written in the [[Arabic alphabet]] for local consumption, although it is commonly transcribed into [[Latin script|Latin letters]] or in the [[International Phonetic Alphabet]] in [[linguistics]] text and textbooks aimed at teaching non-native learners.<ref>{{Cite web|url=https://tafl.live/|script-title=ar:تعلم العربية{{!}} جامعة الأزهر {{!}} بوابة التعليم الالكتروني والتعليم عن بعد {{!}} e-Learning Al-Azhar University {{!}} Learn Arabic|publisher=tafl.live|access-date=2019-11-05|archive-date=2020-11-30|archive-url=https://web.archive.org/web/20201130234310/https://tafl.live/}}</ref> Egyptian Arabic's phonetics, grammatical structure, and vocabulary are influenced by the [[Coptic language]];{{sfn|Bishai|1962}}<ref>{{citation|title=لاف الكلمات القبطية في أحاديث المصريين اليومية|date=18 February 2017|url=https://raseef22.net/article/91686-%D8%A2%D9%84%D8%A7%D9%81-%D8%A7%D9%84%D9%83%D9%84%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D9%82%D8%A8%D8%B7%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A3%D8%AD%D8%A7%D8%AF%D9%8A%D8%AB-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A#:~:text=%D8%AA%D8%A3%D8%AB%D9%8A%D8%B1%20%D8%A7%D9%84%D9%82%D8%A8%D8%B7%D9%8A%D8%A9%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D9%8A%D8%A9,%D9%88%D8%A8%D9%86%D9%8A%D8%A9%20%D8%A7%D9%84%D8%AC%D9%85%D9%84%D8%A9%20%D9%88%D8%AA%D8%B1%D9%83%D9%8A%D8%A8%D9%87%D8%A7%D8%8C%20%D8%A8%D8%AD%D8%B3%D8%A8%20%D8%B3%D8%B9%D9%8A%D8%AF.|quote=ليس أثر القبطية في العامية في مصر مجرد تبادل مصطلحات، أو كلمات دخلت القاموس العربي كما دخلت كلمة "تلفزيون"، إنما تأثرت بها من حيث نطق الحروف وبنية الجملة وتركيبها – الدكتور لؤي محمود سعيد|access-date=30 October 2022|archive-date=30 October 2022|archive-url=https://web.archive.org/web/20221030130738/https://raseef22.net/article/91686-%D8%A2%D9%84%D8%A7%D9%81-%D8%A7%D9%84%D9%83%D9%84%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D9%82%D8%A8%D8%B7%D9%8A%D8%A9-%D9%81%D9%8A-%D8%A3%D8%AD%D8%A7%D8%AF%D9%8A%D8%AB-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A#:~:text=%D8%AA%D8%A3%D8%AB%D9%8A%D8%B1%20%D8%A7%D9%84%D9%82%D8%A8%D8%B7%D9%8A%D8%A9%20%D9%81%D9%8A%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D9%8A%D8%A9,%D9%88%D8%A8%D9%86%D9%8A%D8%A9%20%D8%A7%D9%84%D8%AC%D9%85%D9%84%D8%A9%20%D9%88%D8%AA%D8%B1%D9%83%D9%8A%D8%A8%D9%87%D8%A7%D8%8C%20%D8%A8%D8%AD%D8%B3%D8%A8%20%D8%B3%D8%B9%D9%8A%D8%AF.|url-status=live}}</ref><ref>{{citation|url=https://www.masrawy.com/news/news-ayamzaman/details/2022/9/24/2296718/%D8%A7%D9%84%D8%A8%D8%A7%D8%A8%D8%A7-%D8%AA%D9%88%D8%A7%D8%B6%D8%B1%D9%88%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9-%D9%85%D8%A7-%D8%B2%D8%A7%D9%84%D8%AA-%D9%85%D8%AA%D8%A3%D8%AB%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D9%82%D8%A8%D8%B7%D9%8A%D8%A9|title=البابا تواضروس: العامية المصرية ما زالت متأثرة باللغة القبطية|website=masrawy.com|access-date=2022-10-21|archive-date=2022-10-21|archive-url=https://web.archive.org/web/20221021102841/https://www.masrawy.com/news/news-ayamzaman/details/2022/9/24/2296718/%D8%A7%D9%84%D8%A8%D8%A7%D8%A8%D8%A7-%D8%AA%D9%88%D8%A7%D8%B6%D8%B1%D9%88%D8%B3-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9-%D9%85%D8%A7-%D8%B2%D8%A7%D9%84%D8%AA-%D9%85%D8%AA%D8%A3%D8%AB%D8%B1%D8%A9-%D8%A8%D8%A7%D9%84%D9%84%D8%BA%D8%A9-%D8%A7%D9%84%D9%82%D8%A8%D8%B7%D9%8A%D8%A9|url-status=live}}</ref> its rich vocabulary is also influenced by [[Turkish language|Turkish]] and by [[Languages of Europe|European languages]] such as [[French language|French]], [[Italian language|Italian]], [[Greek language|Greek]],<ref>{{Cite web|url=https://raseef22.com/article/79624-13-%D9%84%D8%BA%D8%A9-%D8%A3%D8%AC%D9%86%D8%A8%D9%8A%D9%91%D8%A9-%D8%AA%D8%B4%D9%83%D9%91%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D9%8A%D9%91%D8%A9-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D9%91%D8%A9|script-title=ar:13 لغة أجنبية تشكل العامية المصرية|trans-title=13 foreign languages within the Egyptian Arabic dialect|date=May 31, 2017|script-website=ar:رصيف 22|access-date=September 19, 2019|archive-date=August 14, 2020|archive-url=https://web.archive.org/web/20200814140127/https://raseef22.com/article/79624-13-%D9%84%D8%BA%D8%A9-%D8%A3%D8%AC%D9%86%D8%A8%D9%8A%D9%91%D8%A9-%D8%AA%D8%B4%D9%83%D9%91%D9%84-%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D9%8A%D9%91%D8%A9-%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D9%91%D8%A9|url-status=live |work=رصيف 22 }}</ref> and [[English language|English]].
+
+== Naming ==
+Speakers of Egyptian Arabic generally call their vernacular ''Arabic'' ({{Lang|ar|عربى<!--Egyptian variant of final ى-->}}, {{IPA|arz|ˈʕɑrɑbi|}}) when juxtaposed with non-Arabic languages; ''Colloquial Egyptian'' ({{lang|arz|العاميه المصريه}}, {{IPA|arz|el.ʕæmˈmejjæ l.mɑsˤˈɾejjɑ|}}){{efn|<small>[[Classical Arabic]] pronunciation:</small> {{IPA|[alluʁˠatu lmisˠɾijjatu lʕaːmmijja]}}; <small>[[Modern Standard Arabic|Literary Arabic]]:</small> {{IPA|/alluɣatu lmisˤrijjatu lʕaːmmijja/}}.}} or simply ''Aamiyya'' ({{lang|arz|عاميه}}, ''colloquial'') when juxtaposed with [[Modern Standard Arabic]] and the ''Egyptian dialect'' ({{lang|arz|اللهجه المصريه}}, {{IPA|arz|elˈlæhɡæ l.mɑsˤˈɾejjɑ|}}){{efn|<small>[[Classical Arabic]] pronunciation:</small> {{IPA|[allahɟatu lmisˠɾijja]}}; <small>[[Modern Standard Arabic|Literary Arabic]]:</small> {{IPA|/allahɡatu lmisˤrijja/}}.}} or simply ''Masri'' ({{lang|arz|مصرى<!--Egyptian variant of final ى-->}}, {{IPA|arz|ˈmɑsˤɾi|}}, ''Egyptian'') when juxtaposed with other [[Varieties of Arabic|vernacular Arabic dialects]].<ref name="Islam online2">[http://www.islamonline.net/arabic/famous/2005/12/article04.shtml Islam online on Mahmoud Timor] {{webarchive|url=https://web.archive.org/web/20080724052458/http://www.islamonline.net/arabic/famous/2005/12/article04.shtml|date=July 24, 2008}}</ref>{{efn|<small>[[Classical Arabic]] pronunciation:</small> {{IPA|[alluʁˠatu lmisˠɾijjatu lħadiːθa]}}; <small>[[Modern Standard Arabic|Literary Arabic]]:</small> {{IPA|/alluɣatu lmisˤrijjatu lħadiːθa/}}.}}
+
+The term ''Egyptian Arabic'' is usually used synonymously with ''Cairene Arabic'', which is technically a dialect of Egyptian Arabic. The country's native name, {{lang|arz|مصر}} {{transliteration|arz|ALA|Maṣr}}, is often used locally to refer to Cairo itself. As is the case with [[French of France#Paris|Parisian]] [[French language|French]], Cairene Arabic is by far the most prevalent dialect in the country.<ref>{{Citation|last=Kerstin|first=Odendahl|title=World Natural Heritage|date=August 2015|doi=10.1093/law:epil/9780199231690/e1950|encyclopedia=Max Planck Encyclopedia of Public International Law|publisher=Oxford University Press|isbn=978-0-19-923169-0|url=https://opil.ouplaw.com/view/10.1093/law:epil/9780199231690/law-9780199231690-e1950|access-date=2021-02-03|archive-date=2020-08-04|archive-url=https://web.archive.org/web/20200804175539/https://opil.ouplaw.com/view/10.1093/law:epil/9780199231690/law-9780199231690-e1950|url-status=live|url-access=subscription}}</ref>
+
+== Geographic distribution ==
+Egyptian Arabic is used primarily in Egypt and is spoken predominantly in Cairo and Alexandria and in the capitals of all Egyptian governorates and in other major cities across Northern and Southern Egypt.
+
+Egyptian Arabic has become widely understood in the Arabic-speaking world primarily for two reasons:{{sfn|Haeri|2003}}<ref>Jenkins, Siona. ''Egyptian Arabic Phrasebook''. [[Lonely Planet]] Publications, 2001. p. 205</ref> The proliferation and popularity of Egyptian films and other media in the region since the early 20th century as well as the great number of Egyptian teachers and professors who were instrumental in setting up the education systems of various countries in the [[Arabian Peninsula]] and also taught there and in other countries such as [[Algeria]] and [[Libya]]. Also, many [[Lebanese people|Lebanese]] artists choose to sing in Egyptian, prominent examples like [[Nancy Ajram]]<ref>{{Cite web |title=Divas of the Middle East: The women who left a musical mark on the region |url=https://www.middleeasteye.net/discover/middle-east-divas-music-cinema-stars |access-date=2025-07-20 |website=Middle East Eye |language=en}}</ref> and [[Sabah (singer)|Sabah]].<ref>{{Cite news |last=Hadid |first=Diaa |date=2014-11-26 |title=Sabah, actress and entertainer who thrilled and scandalized the Arab world, dies at 87 |url=https://www.washingtonpost.com/world/sabah-actress-and-entertainer-who-thrilled-and-scandalized-the-arab-world-dies-at-87/2014/11/26/81ee8b88-7584-11e4-9d9b-86d397daad27_story.html |access-date=2025-07-20 |work=The Washington Post |language=en-US |issn=0190-8286}}</ref>
+
+== History ==
+{{more citations needed section|date=September 2020}}
+[[Arabic]] was spoken in parts of [[Egypt]] such as the [[Eastern Desert]] and [[Sinai Peninsula|Sinai]] before Islam.<ref>''The History of Herodotus'' by George Rawlinson, p.e 9</ref> It also seems as though some Egypto-Arabic words derive from old Ancient Egyptian words.<ref>{{Cite web |date=2024 |title=THE ORIGIN OF ARABIC WORDS IN THE ANCIENT EGYPTIAN LANGUAGE |url=https://digitalcommons.aaru.edu.jo/cgi/viewcontent.cgi?article=1125&context=jguaa |access-date=1 Nov 2025 |website=digitalcommons.aaru.edu.jo|archive-url=https://web.archive.org/web/20240421221647/https://digitalcommons.aaru.edu.jo/cgi/viewcontent.cgi?article=1125&context=jguaa|archive-date=2024-04-21}}</ref> However, Nile Valley [[Egyptians]] slowly adopted Arabic as a [[written language]] following the [[Muslim conquest of Egypt]] in the seventh century. Until then, they had spoken either [[Koine Greek]] or [[Egyptian language|Egyptian]] in its [[Coptic language|Coptic]] form. A period of Coptic-Arabic [[bilingualism]] in [[Lower Egypt]] lasted for more than three centuries. The period would last much longer in the south. Arabic had been already familiar to Valley Egyptians since Arabic had been spoken throughout the [[Eastern Desert]] and [[Sinai (peninsula)|Sinai]]. Arabic was also a minority language of some residents of the Nile Valley such as [[Qift]] in Upper Egypt through pre-Islamic trade with [[Nabateans]] in the [[Sinai Peninsula]] and the easternmost part of the [[Nile Delta]]. Egyptian Arabic seems to have begun taking shape in [[Fustat]], the first Islamic capital of Egypt, now part of [[Cairo]].
+
+One of the earliest linguistic sketches of Cairene Arabic is a 16th-century document entitled ''{{transliteration|ar|DIN|Dafʿ al-ʾiṣr ʿan kalām ahl Miṣr}}''<ref>{{Cite book|last=Zack|first=Liesbeth|url=https://www.academia.edu/39310493|title=Edition of Daf' al-Isr دفع الإصر عن كلام أهل مصر|date=January 2009|language=en|access-date=2019-11-05|archive-date=2021-11-12|archive-url=https://web.archive.org/web/20211112091746/https://www.academia.edu/39310493|url-status=live}}</ref>({{lang|ar|دفع الإصر عن كلام أهل مصر}}, "The Removal of the Burden from the Language of the People of Cairo") by the [[travel]]er and [[Lexicography|lexicographer]] [[Yusuf al-Maghribi]] ({{lang|ar|يوسف المغربي}}), with ''Misr'' here meaning "Cairo". It contains key information on early Cairene Arabic and the language situation in [[Egypt in the Middle Ages]]. The main purpose of the document was to show that while the Cairenes' vernacular contained many critical "errors" vis-à-vis Classical Arabic, according to al-Maghribi, it was also related to Arabic in other respects. With few waves of immigration from the Arabian peninsula such as the [[Banu Hilal]] exodus, who later left Egypt and were settled in Morocco and Tunisia, together with the ongoing [[Islamization]] and [[Arabization]] of the country, multiple Arabic varieties, one of which is Egyptian Arabic, slowly supplanted spoken Coptic. Local chroniclers mention the continued use of Coptic as a spoken language until the 17th century by peasant women in [[Upper Egypt]]. Coptic is still the [[liturgical language]] of the [[Coptic Orthodox Church of Alexandria]] and the [[Coptic Catholic Church]].
+
+[[Ahmed Kamal (Egyptologist)|Ahmed Kamal Pasha]] (1851–1923), the author of Egypt's first Ancient Egyptian dictionary, referred to the fact that more than 12,000 words from the Modern Egyptian Arabic dialect are rooted in the Ancient Egyptian language.<ref>{{Cite web |date=2022-10-23 |title=From the BA to the British Museum: Ahmed Kamal Pasha's Dictionary |url=https://www.bibalex.org/en/News/Details?DocumentID=42534&Keywords= |access-date=2025-01-05 |website=Bibalex.org |language=en}}</ref> Kamal's efforts were groundbreaking, especially his assertion of linguistic connections between ancient Egyptian and Semitic languages, as both belong to the same [[Afroasiatic languages|Afro-Asiatic language]] tree.<ref>{{Citation |chapter=Ancient Egyptian |date=2013-07-11 |title=The Ancient Egyptian Language |pages=1–8 |chapter-url=https://doi.org/10.1017/cbo9781139506090.003 |access-date=2025-05-31 |publisher=Cambridge University Press |doi=10.1017/cbo9781139506090.003 |isbn=978-1-107-03246-0|chapter-url-access=subscription }}</ref><ref>{{Cite journal |last1=Ezzat |first1=Azza |last2=Mansour |first2=Ahmed |date=2025-03-21 |title=Ahmed Kamal Pasha's Approach to Transliterate Egyptian Hieroglyphs in Arabic |url=https://brill.com/view/journals/abga/19/1/article-p54_7.xml |journal=Abgadiyat |volume=19 |issue=1 |pages=54–69 |doi=10.1163/22138609-01901007 |issn=2213-8609|url-access=subscription }}</ref> His methodology involved transliterating hieroglyphs into Arabic letters, making the study of ancient texts accessible to [[Egyptians]], who still carried the roots of their ancient language into the modern dialect.<ref>{{Cite news |title= Bibliotheca Alexandrina celebrates restored hieroglyphics-Arabic and French dictionary – Multimedia – Ahram Online|url=https://english.ahram.org.eg/NewsContentMulti/506189/Multimedia.aspx}}</ref>
+
+== Status ==
+Egyptian Arabic has no official status and is not officially recognized as a language in [[Egypt]].<ref>{{Cite web |title=ISO 639-2 Language Code List - Codes for the representation of names of languages (Library of Congress) |url=https://www.loc.gov/standards/iso639-2/php/code_list.php |access-date=2024-08-09 |website=www.loc.gov}}</ref><ref>{{Cite web |last=Cover |first=Robin |title=Code for the Representation of the Names of Languages. From ISO 639, revised 1989. |url=https://xml.coverpages.org/iso639a.html |access-date=2024-08-09 |website=xml.coverpages.org}}</ref> [[Modern Standard Arabic|Standard Arabic]] is the official language of the state as per constitutional law with the name {{lang|ar|اللغة العربية}}, {{transliteration|ar|DIN|al-luġa al-ʿarabiyyah}}, {{lit|the Arabic language}}.<ref>{{Cite web|date=2017-04-03|title=الدستور المصري المعدل 2019|url=https://manshurat.org/node/14675|access-date=2020-06-16|website=منشورات قانونية|language=ar|archive-date=2020-04-28|archive-url=https://web.archive.org/web/20200428130413/https://manshurat.org/node/14675|url-status=live}}</ref> Interest in the local [[vernacular]] began in the 1800s (in opposition to the language of the ruling class, Turkish),{{Citation needed|date=August 2024}} as the Egyptian national movement for [[self-determination]] was taking shape. For many decades to follow, questions about the reform and the modernization of Arabic were hotly debated in Egyptian intellectual circles. Proposals ranged from developing [[neologism]]s to replace archaic terminology in Modern Standard Arabic to the simplification of syntactical and morphological rules and the introduction of [[colloquialism]]s to even complete "Egyptianization" ({{lang|ar|تمصير}}, {{lang|ar-Latn|tamṣīr}}) by abandoning the so-called Modern Standard Arabic in favor of Masri or Egyptian Arabic.<ref name="Gershoni">{{Cite book |author=Gershoni, I. |author2=J. Jankowski |title=Egypt, Islam, and the Arabs |publisher=[[Oxford University Press]] |location=Oxford |year=1987}}</ref>
+
+Proponents of language reform in Egypt included [[Qasim Amin]], who also wrote the first Egyptian feminist treatise; former President of the [[Cairo University|Egyptian University]], [[Ahmed Lutfi el-Sayed]]; and noted intellectual [[Salama Moussa]]. They adopted a modernist, [[secular]] approach and disagreed with the assumption that Arabic was an immutable language because of its association with the [[Quran]]. The first modern Egyptian novel in which the dialogue was written in the vernacular was [[Muhammad Husayn Haykal]]'s ''[[Zaynab (novel)|Zaynab]]'' in 1913. It was only in 1966 that [[Ali Moustafa Mosharafa|Mustafa Musharafa]]'s ''Kantara Who Disbelieved'' was released, the first novel to be written entirely in Egyptian Arabic.<ref>{{cite web|url=http://english.ahram.org.eg/NewsContent/18/62/50815/Books/Review/Book-Review-First-novel-written-in-colloquial-Arab.aspx|title=Book Review: First novel written in colloquial Arabic republished – Review – Books – Ahram Online|access-date=2013-04-19|archive-date=2013-01-19|archive-url=https://web.archive.org/web/20130119102454/http://english.ahram.org.eg/NewsContent/18/62/50815/Books/Review/Book-Review-First-novel-written-in-colloquial-Arab.aspx|url-status=live}}</ref> Other notable novelists, such as [[Ihsan Abdel Quddous]] and [[Yusuf Idris]], and poets, such as [[Salah Jahin]], [[Abdel Rahman el-Abnudi]] and [[Ahmed Fouad Negm]], helped solidify vernacular literature as a distinct literary genre.<ref name="Gershoni" />
+
+Amongst certain groups within Egypt's elite, Egyptian Arabic enjoyed a brief period of rich literary output. That dwindled with the rise of [[Pan-Arabism]], which had gained popularity in Egypt by the second half of the twentieth century, as demonstrated by Egypt's involvement in the [[1948 Arab–Israeli War]] under King [[Farouk of Egypt]]. The [[Egyptian revolution of 1952]], led by [[Mohamed Naguib]] and [[Gamal Abdel Nasser]], further enhanced the significance of Pan-Arabism, making it a central element of Egyptian state policy. The importance of Modern Standard Arabic was reemphasised in the public sphere by the revolutionary government, and efforts to accord any formal language status to the Egyptian vernacular were ignored. Egyptian Arabic was identified as a mere dialect, one that was not spoken even in all of Egypt, as almost all of [[Upper Egypt]] speaks [[Sa'idi Arabic]]. Though the revolutionary government heavily sponsored the use of the Egyptian vernacular in films, plays, television programmes, and music, the prerevolutionary use of Modern Standard Arabic in official publications was retained.{{Citation needed|reason=Reliable source needed for the whole paragraph|date=July 2020}}
+
+Linguistic commentators{{who|date=July 2020}} have noted the multi-faceted approach of the Egyptian revolutionaries towards the Arabic language. Whereas Naguib, Egypt's first [[president of Egypt|president]], exhibited a preference for using Modern Standard Arabic in his public speeches, his successor Gamal Abdel Nasser was renowned for using the vernacular and for punctuating his speeches with traditional Egyptian words and expressions. Conversely, Modern Standard Arabic was the norm for state news outlets, including newspapers, magazines, television, and radio. That was especially true of Egypt's national broadcasting company, the [[ERTU|Arab Radio and Television Union]], which was established with the intent of providing content for the entire [[Arab world]], not merely Egypt, hence the need to broadcast in the standard, rather than the vernacular, language. The [[Voice of the Arabs]] radio station, in particular, had an audience from across the region, and the use of anything other than Modern Standard Arabic was viewed as eminently incongruous.
+
+In a study of three Egyptian newspapers ([[Al-Ahram]], [[Al-Masry Al-Youm]], and [[Al-Dustour (Egypt)|Al-Dustour]]) Zeinab Ibrahim concluded that the total number of headlines in Egyptian Arabic in each newspaper varied. Al-Ahram did not include any. Al-Masry Al-Youm had an average of 5% of headlines in Egyptian, while Al-Dustour averaged 11%.<ref>{{cite book | first=Zeinab |last=Ibrahim| title=Arabic and the Media | chapter=Cases Of Written Code-Switching In Egyptian Opposition Newspapers | publisher=BRILL | date=1 January 2011 | doi=10.1163/ej.9789004182585.i-303.17 | pages=23–45|isbn=978-90-04-18761-0}}</ref>
+
+As the status of Egyptian Arabic as opposed to [[Classical Arabic]] can have such political and religious implications in Egypt,{{how|date=July 2020}} the question of whether Egyptian Arabic should be considered a [[Dialect#Dialect or language|"dialect" or "language"]] can be a source of debate. In [[sociolinguistics]], Egyptian Arabic can be seen as one of many distinct [[variety (linguistics)|varieties]] that, despite arguably being languages on {{lang|de|[[Abstand and ausbau languages|abstand]]}} grounds, are united{{How|date=July 2021}}{{According to whom|date=July 2021}} by a common {{lang|de|[[abstand and ausbau languages#Roofing|Dachsprache]]}} in Modern Standard Arabic (MSA).
+
+== Publications ==
+During the early 1900s many portions of the Bible were published in Egyptian Arabic.  These were published by the ''Nile Mission Press''.  By 1932 the whole New Testament and some books of the Old Testament had been published in Egyptian Arabic in Arabic script.<ref>{{Cite web|title=The British Civil Engineer who made Jesus speak like an Egyptian: William Willcocks and al-Khabar al-Ṭayyib bitāʿ Yasūʿ al-Masīḥ – Biblia Arabica|url=https://biblia-arabica.com/the-british-civil-engineer-who-made-jesus-speak-like-an-egyptian-william-willcocks-and-al-khabar-al-%e1%b9%adayyib-bita%ca%bf-yasu%ca%bf-al-masi%e1%b8%a5/|last=Binder {{!}}|first=Adrian|language=en-US|access-date=2020-05-27|archive-date=2020-08-15|archive-url=https://web.archive.org/web/20200815040022/https://biblia-arabica.com/the-british-civil-engineer-who-made-jesus-speak-like-an-egyptian-william-willcocks-and-al-khabar-al-%E1%B9%ADayyib-bita%CA%BF-yasu%CA%BF-al-masi%E1%B8%A5/|url-status=live}}</ref>
+
+The dialogs in the following novels are partly in Egyptian Arabic, partly in Standard Arabic: [[Mahmud Tahir Haqqi]]'s ''Adhra' Dinshuway'' ({{langx |ar|عذراء دنشواي}}; 1906), [[Yaqub Sarruf]]'s ''Fatat Misr'' ({{langx |ar|فتاة مصر |Fatāt Miṣr  |translit-std=ALA}}; first published in [[Al-Muqtataf (magazine)|Al-Muqtataf]] 1905–1906), and [[Mohammed Hussein Heikal]]'s ''[[Zaynab (novel)|Zaynab]]'' (1914).{{sfn|Diem|1974|p=109}}
+
+Early stage plays written in Egyptian Arabic were translated from or influenced by European playwrights. [[Muhammad 'Uthman Jalal]] translated plays by [[Molière]], [[Jean Racine]] and [[Carlo Goldoni]] to Egyptian Arabic and adapted them as well as ten fables by [[Jean de La Fontaine]]. [[Yaqub Sanu]] translated to and wrote plays on himself in Egyptian Arabic.{{sfn|Woidich|2010|p=70}}
+Many plays were written in Standard Arabic, but performed in colloquial Arabic. [[Tawfiq al-Hakim]] took this a step further and provided for his Standard Arabic plays versions in colloquial Arabic for the performances.{{sfn|Diem|1974|p=102}} [[Mahmud Taymur]] has published some of his plays in two versions, one in Standard, one in colloquial Arabic, among them: ''Kidb fi Kidb'' ({{langx |ar|كذب في كذب |lit=All lies}}, 1951{{sfn|Davies|2005|p=601}} or ca. 1952) and ''Al-Muzayyifun'' ({{langx |ar|المزيفون |Al-Muzayyifūn |translit-std=ALA |lit=The Forgers}}, ca. 1953).{{sfn|Diem|1974|p=116}}
+
+The writers of stage plays in Egyptian Arabic after the [[Egyptian Revolution of 1952]] include [[No'man Ashour]], [[Alfred Farag]], {{ill|Saad Eddin Wahba|ar|سعد الدين وهبة<!-- |WD=Q12215902 -->}}, [[Rashad Roushdy]], and [[Yusuf Idris]].{{sfn|Davies|2005|p=601}} Thereafter the use of colloquial Egyptian Arabic in theater is stable and common.{{sfn|Woidich|2010|p=74}} Later writers of plays in colloquial Egyptian include [[Ali Salem]], and [[Naguib Surur]].{{sfn|Davies|2005|p=601}}
+
+Novels in Egyptian Arabic after the 1940s and before the 1990s are rare. There are by {{ill|Mustafa Musharrafah|ar|مصطفى مصطفى مشرفة<!-- |WD=Q12243450 -->}} ''Qantarah Alladhi Kafar'' ({{langx |ar|قنطرة الذي كفر|Qanṭarah Alladhī Kafar |translit-std=ALA |lit=Qantara Who Disbelieved |label=none}}, Cairo, 1965) and Uthman Sabri's ({{langx |ar| عثمان صبري |ʻUthmān Ṣabrī |translit-std=ALA}}; 1896–1986) ''Journey on the Nile'' ({{langx |arz|رحلة في النيل |Riḥlah fī il-Nīl |translit-std=ALA}}, 1965){{sfn|Zack|2001|p=194}} (and his ''Bet Sirri'' ({{langx |arz|بيت سري |Bēt Sirri |translit-std=ALA |lit=A Brothel |label=none}}, 1981) that apparently uses a mix of Standard Arabic and Egyptian Arabic{{sfn|Woidich|2010|p=77|loc=footnote 66}}).
+
+Prose published in Egyptian Arabic since the 1990s include the following novels:
+[[Yusuf al-Qa'id]]'s ''Laban il-Asfur'' ({{langx |arz|لبن العصفور |Laban il-ʿAṣfūr |translit-std=ALA |lit=The Milk of the Bird |label=none}}; 1994),{{sfn|Woidich|2010|p=79}}
+Baha' Awwad's ({{langx |ar|بهاء عواد |Bahāʾ ʿAwwād |translit-std=ALA}}) ''Shams il-Asil'' ({{langx |arz|شمس الاصيل |Shams il-ʿAṣīl |translit-std=ALA |lit=Late Afternoon Sun |label=none}}; 1998),
+[[Safa Abdel Al Moneim]]'s ''Min Halawit il-Ruh'' ({{langx |arz|من حلاوة الروح |Min Ḥalāwit il-Rōḥ |translit-std=ALA |lit=Zest for Life |label=none}}, 1998),
+Samih Faraj's<!-- =https://elcinema.com/en/person/2080919/ ? --> ({{langx |ar|سامح فرج |Sāmiḥ Faraj |translit-std=ALA}}) ''Banhuf Ishtirasa'' ({{langx |arz|بانهوف اشتراسا |Bānhūf Ishtirāsā |translit-std=ALA |lit=Bahnhof Strasse |label=none}}, 1999);
+autobiographies include the one by [[Ahmed Fouad Negm]],
+by {{ill|Mohammed Naser Ali|ar|محمد ناصر (إعلامي)<!-- |WD=Q47463303 -->}} ''Ula Awwil'' ({{langx |arz|اولى أول |Ūlá Awwil |translit-std=ALA |lit=First Class Primary School |label=none}}),
+and [[Fathia al-Assal]]'s ''Hudn il-Umr'' ({{langx |arz|حضن العمر |Ḥuḍn il-ʿUmr |translit-std=ALA |lit=The Embrace of a Lifetime |label=none}}).{{sfn|Davies|2005|p=599}}{{sfn|Woidich|2010|pp=82–83}}
+
+The [[epistolary novel]] ''Jawabat Haraji il-Gutt'' ({{langx |aec|جوابات حراجى القط |Jawābāt Ḥarājī il-Guṭṭ |translit-std=ALA |lit=Letters of Haraji the Cat}}, 2001) by [[Abdel Rahman el-Abnudi]] is exceptional in its use of [[Saʽidi Arabic]].{{sfn|Davies|2005|p=599}}
+
+21st-century journals publishing in Egyptian Arabic include ''Bārti'' (from at least 2002), the weekly magazine ''Idhak lil-Dunya'' ({{langx |ar|اضحك للدنيا |Iḍḥak lil-Dunyā |translit-std=ALA |lit=Smile for the World |label=none}}, from 2005),{{sfn|Davies|2005|p=600}}{{sfn|Woidich|2010|pp=84–85}} and the monthly magazine {{ill|Ihna (magazine)|lt=Ihna|ar|إحنا (مجلة)<!-- |WD=Q12181941 -->|italic=y}} ({{langx |arz|احنا |Iḥna |translit-std=ALA |lit=We |label=none}}, from 2005).{{sfn|Borg|2007}} In the 21st century the number of books published in Egyptian Arabic has increased a lot. Many of them are by female authors, for example ''[[Wanna Be a Bride|I Want to Get Married!]]'' ({{langx |arz|عايزه أتجوز |ʻĀyzah atgawwiz |translit-std=ALA |label=none}}, 2008) by [[Ghada Abdel Aal]] and ''She Must Have Travelled'' ({{langx |arz|شكلها سافرت |Shaklahā sāfarit |translit-std=ALA |label=none}}, 2016) by Soha Elfeqy.
+
+== Spoken varieties ==
+[[Saʽidi Arabic]] is a sub-dialect of Egyptian Arabic spoken primarily in Upper Egypt.<ref>{{Cite web |title=Learn Palestinian Arabic Online |url=https://playaling.com/dialects/egyptian-arabic/saidi/ |access-date=2026-05-30 |website=Playaling |language=en-US}}</ref><ref>David Dalby, 1999/2000, ''The Linguasphere Register'', The Linguasphere Observatory<br />William Bright, 1992, ''The International Encyclopedia of Linguistics'', Oxford.</ref> It carries little prestige nationally but continues to be widely spoken.<ref>{{cite web|title=Arabic, Sa'idi Spoken|url=https://www.ethnologue.com/language/aec|website=Ethnologue|access-date=2020-06-06|archive-date=2020-06-10|archive-url=https://web.archive.org/web/20200610043947/https://www.ethnologue.com/language/aec|url-status=live}}</ref>
+
+The traditional division between [[Upper and Lower Egypt]] and their respective differences go back to ancient times. Egyptians today commonly call the people of the delta بحاروة, Baharwa ({{IPA|[bɑˈħɑɾwɑ]}}) and those of the south صعايدة, [[Sa'idi people|Sa’ayda]] ({{IPA|[sˤɑˈʕɑjdɑ]}}). The differences throughout Egypt, however, are more wide-ranging and do not neatly correspond to the simple division. Despite the differences, there are features distinguishing all the Egyptian Arabic varieties of the Nile Valley from any other varieties of Arabic. Such features include [[vowel reduction|reduction of long vowels]] in open and unstressed syllables, the postposition of demonstratives and interrogatives, the modal meaning of the imperfect and the integration of the participle.<ref>Versteegh, p. 162</ref>
+
+The [[Western Egyptian Bedawi Arabic]] variety<ref>{{cite web|url=http://www.ethnologue.com/show_language.asp?code=ayl|title=Arabic, Libyan Spoken|access-date=2010-09-08|archive-date=2011-05-14|archive-url=https://web.archive.org/web/20110514044722/http://www.ethnologue.com/show_language.asp?code=ayl|url-status=live}}</ref> of the western desert differs from all other Arabic varieties in Egypt in that it linguistically is part of [[Maghrebi Arabic]].<ref>David Dalby, 1999/2000, ''The Linguasphere Register'', The Linguasphere Observatory</ref> [[Northwest Arabian Arabic]] is also distinct from Egyptian Arabic.<ref>{{cite web|url=http://www.ethnologue.com/show_language.asp?code=avl|title=Arabic, Eastern Egyptian Bedawi Spoken|access-date=2010-09-08|archive-date=2011-05-14|archive-url=https://web.archive.org/web/20110514044846/http://www.ethnologue.com/show_language.asp?code=avl|url-status=live}}</ref>
+
+=== Regional variations ===
+
+Egyptian Arabic varies regionally across its [[sprachraum]], with certain characteristics being noted as typical of the speech of certain regions.
+
+==== Alexandria ====
+The dialect of [[Alexandria]] (West Delta) is noted for certain [[shibboleth]]s separating its speech from that of Cairo (South Delta). The ones that are most frequently noted in popular discourse are the use of the word ''[[falafel]]'' as opposed to {{lang|arz|طعميّة}} {{transliteration|arz|ALA|taʿmiyya}} for the fava-bean fritters common across the country and the pronunciation of the word for the [[Egyptian pound]] ({{lang|arz|جنيه}} {{transliteration|arz|ALA|ginēh}} {{IPA|arz|ɡeˈneː|}}), as {{IPA|arz|ˈɡeni|}}, closer to the pronunciation of the origin of the term, the British [[guinea (British coin)|guinea]]).
+The speech of the older Alexandrians is also noted for use of the same pre-syllable (ne-) in the singular and plural of the first person present and future tenses, which is also a common feature of [[Tunisian Arabic]]<ref>{{citation|title=Tunisian Arabic Grammar|url=https://lingualism.com/maghrebi-arabic/tunisian-arabic-grammar/|website=lingualism.com|date=27 June 2018|access-date=29 June 2023|archive-url=https://web.archive.org/web/20230204210626/https://lingualism.com/maghrebi-arabic/tunisian-arabic-grammar/|archive-date=2023-02-04}}</ref><ref>Cf. also {{Cite Q |Q58152596 |last=Owens |first=Jonathan}}.</ref> and of [[Maghrebi Arabic]] in general. The dialects of the western Delta tend to use the perfect with {{IPAslink|a}} instead of the perfect with {{IPAslink|i}}, for example for {{lang|arz|فهم}} this is {{transliteration|arz|ALA|faham}} instead of {{transliteration|arz|ALA|fihim}}.{{sfn|Woidich|2006|p=62|loc=2.3.2.1.1 a-Perfekt und i-Perfekt}} Other examples for this are {{langx |arz|لَبَس |labas |translit-std=ALA |lit=to wear |label=none}}, {{langx |arz|نَزَل |nazal |translit-std=ALA |lit=to descend |label=none}}, {{langx |arz|شَرَب |sharab |translit-std=ALA |lit=to drink |label=none}}, {{langx |arz|نَسَى |nasá |translit-std=ALA |lit=to forget |label=none}},{{sfn|Behnstedt|Woidich|2018|p=78|loc=3.3.2 The Case of Alexandria}} رَجَع, طَلَع, رَكَب.
+
+==== Port Said ====
+[[Port Said]]'s dialect (East Delta) is noted for a "heavier", more [[guttural]] sound, compared to other regions of the country.
+
+==== Rural Nile Delta ====
+The dialect of Rural Nile Delta in Northern Egypt is noted for a distinct accent, replacing the urban pronunciations of {{IPAslink|ɡ}} (spelled {{lang|ar|[[ج]]}} {{transliteration|arz|gīm}}) and {{IPAslink|q}} ({{lang|ar|[[ق]]}} {{transliteration|arz|qāf}}) with {{IPAblink|ʒ}} and {{IPAblink|ɡ}} respectively, but that is not true of all rural dialects, some of them do not have such replacement. The dialect also has many grammatical differences when contrasted to urban dialects.<ref>{{Cite journal|last=Woidich|first=Manfred|date=1996-12-31|title=Rural Dialect of Egyptian Arabic: An Overview|url=http://journals.openedition.org/ema/1952|journal=Égypte/Monde arabe|language=en|issue=27–28|pages=325–354|doi=10.4000/ema.1952|issn=1110-5097|doi-access=free|access-date=2021-04-20|archive-date=2021-04-23|archive-url=https://web.archive.org/web/20210423164550/https://journals.openedition.org/ema/1952|url-status=live}}</ref>
+
+== Phonology ==
+{{Main|Egyptian Arabic phonology}}
+
+Egyptian Arabic has a phonology that differs significantly from that of other varieties of Arabic, and has its own inventory of consonants and vowels.
+
+== Morphology ==
+
+=== Nouns ===
+In contrast to CA and MSA, but like all modern colloquial [[varieties of Arabic]], Egyptian Arabic nouns are not inflected for case and lack [[nunation]] (with the exception of certain fixed phrases in the accusative case, such as {{lang|ar|شكراً}} {{IPA|[ˈʃokɾɑn]}}, "thank you"). As all nouns take their [[pausal pronunciation|pausal]] forms, singular words and [[broken plural]]s simply lose their case endings. In sound plurals and dual forms, where, in MSA, difference in case is present even in pausal forms, the genitive/accusative form is the one preserved. Fixed expressions in the [[construct state]] beginning in ''abu'', often geographic names, retain their ''-u'' in all cases.<ref>See e.g. Behnstedt & Woidich (2005)</ref>
+
+==== Plurals ====
+Nouns take either a ''sound plural'' or ''[[broken plural]]''. The sound plural is formed by adding endings, and can be considered part of the declension. For the broken plural, however, a different pattern for the stem is used.
+The sound plural with the suffix {{langx |arz|ـِين |-īn |translit-std=ALA |label=none}} is used for nouns referring to male persons that are participles or follow the pattern CaCCaaC. It takes the form {{langx |arz|ـيِين |-yīn |translit-std=ALA |label=none}} for nouns of the form CaCCa and the form {{langx |arz|ـيِّين |-yyīn |translit-std=ALA |label=none}} for ''nisba'' adjectives.{{sfn|Woidich|2006|loc=2.4.9.3.1 Externe Pluralbildung mit ''-īn'', ''-āt'' and ''-a''|p=115}}
+
+{|class="wikitable" 
+|+Most common broken plural patterns
+! Singular !! Plural !! Notes !! Examples
+|-
+| CVCCVC(a) || CaCaaCiC || any four-consonant noun with short second vowel || ''maktab, makaatib'' "desk, office"; ''markib, maraakib'' "boat"; ''maṭbax, maṭaabix'' "kitchen"; ''masʔala, masaaʔil'' "matter"; ''maṭṛaḥ, maṭaaṛiḥ'' "place"; ''masṛaḥ, masaaṛiḥ'' "theater"; ''tazkaṛa, tazaakir'' "ticket"; ''ʔiswira, ʔasaawir'' "bracelet"; ''muʃkila, maʃaakil'' "problem"; ''muulid, mawaalid''  "(holy) birthday"; ''maktaba, makaatib''       "stationary";
+|-
+| CVCCVVC(a) || CaCaCiiC || any four-consonant noun with long second vowel || ''fustaan, fasatiin'' "dress"; ''muftaaḥ, mafatiiḥ'' "key"; ''fingaan, fanagiin'' "cup"; ''sikkiina, sakakiin'' "knife"; ''tamriin, tamariin'' "exercise"; ''siggaada, sagagiid'' "carpet"; ''magmuuʕ, magamiiʕ'' "total"; ''maṣruuf, maṣaṛiif'' "expense"; ''maskiin, masakiin'' "poor, pitiable"
+|-
+| CaC(i)C, CiCC, CeeC (< ''*CayC'') || CuCuuC || very common for three-consonant nouns || ''dars, duruus'' "lesson"; ''daxl, duxuul'' "income"; ''daʔn, duʔuun'' "chin"; ''ḍeef, ḍuyuuf'' "guest"; ''ḍirṣ, ḍuruuṣ'' "molar tooth"; ''fann, funuun'' "art"; ''farʔ, furuuʔ'' "difference"; ''faṣl, fuṣuul'' "class, chapter"; ''geeb, guyuub'' "pocket"; ''geeʃ, guyuuʃ'' "army"; ''gild, guluud'' "leather"; ''ḥall, ḥuluul'' "solution"; ''ḥarb, ḥuruub'' "war"; ''ḥaʔʔ, ḥuʔuuʔ'' "right"; ''malik, muluuk'' "king"
+|-
+| CaC(a)C, CiCC, CuCC, CooC (< ''*CawC'') || ʔaCCaaC || very common for three-consonant words || ''durg, ʔadraag'' "drawer"; ''duʃʃ, ʔadʃaaʃ'' "shower"; ''film, ʔaflaam'' "film"; ''miʃṭ, ʔamʃaaṭ'' "comb"; ''mitr, ʔamtaar'' "meter"; ''gism, ʔagsaam'' "body"; ''guzʔ, ʔagzaaʔ'' "part"; ''muxx, ʔamxaax'' "brain"; ''nahṛ, ʔanhaaṛ'' "river"; ''door, ʔadwaaṛ'' "(one's) turn, floor (of building)"; ''nooʕ, ʔanwaaʕ'' "kind, sort"; ''yoom, ʔayyaam'' "day"; ''nuṣṣ, ʔanṣaaṣ'' "half"; ''qism, ʔaqṣaam'' "division"; ''waʔt, ʔawʔaat'' "time"; ''faṛaḥ, ʔafṛaaḥ'' "joy, wedding"; ''gaṛas, ʔagṛaas'' "bell"; ''maṭaṛ, ʔamṭaaṛ'' "rain"; ''taman, ʔatmaan'' "price"; ''walad, ʔawlaad'' "boy"
+|-
+| CaaC, CuuC || ʔaCwaaC || variant of previous || ''ḥaal, ʔaḥwaal'' "state, condition"; ''nuur, ʔanwaaṛ'' "light"
+|-
+| CaCCa, CooCa (< ''*CawCa'') || CiCaC, CuCaC || ''CaCCa'' < Classical ''CaCCa'' (not ''CaaCiCa'') || ''gazma, gizam'' "shoe"; ''dawla, duwal'' "state, country"; ''ḥalla, ḥilal'' "pot"; ''ʃooka, ʃuwak'' "fork"; ''taxta, tuxat'' "blackboard"
+|-
+| CiCCa || CiCaC || || ''ḥiṣṣa, ḥiṣaṣ'' "allotment"; ''ḥiṭṭa, ḥiṭaṭ'' "piece"; ''minḥa, minaḥ'' "scholarship"; ''nimra, nimar'' "number"; ''qiṣṣa, qiṣaṣ'' "story"
+|-
+| CuCCa || CuCaC || || ''fuṛma, fuṛam'' "shape, form"; ''fuṛṣa, fuṛaṣ'' "chance"; ''fusḥa, fusaḥ'' "excursion"; ''fuuṭa, fuwaṭ'' "towel"; ''nukta, nukat'' "joke"; ''ʔuṭṭa, ʔuṭaṭ'' "cat"; ''mudda, mudad'' "period (of time)"
+|-
+| CVCVVC(a) || CaCaayiC || three-consonant roots with long second vowel || ''sigaaṛa, sagaayir'' "cigarette"; ''gariida, gaṛaayid'' "newspaper"; ''gimiil, gamaayil'' "favor"; ''ḥabiib, ḥabaayib'' "lover"; ''ḥariiʔa, ḥaraayiʔ'' "destructive fire"; ''ḥaʔiiʔa, ḥaʔaayiʔ'' "fact, truth"; ''natiiga, nataayig'' "result"; ''xaṛiiṭa, xaṛaayiṭ'' "map"; ''zibuun, zabaayin'' "customer"
+|-
+| CaaCiC, CaCCa || CawaaCiC || ''CaCCa'' < Classical ''CaaCiCa'' (not ''CaCCa'') || ''ḥaamil, ḥawaamil'' "pregnant"; ''haanim, hawaanim'' "lady"; ''gaamiʕ, gawaamiʕ'' "mosque"; ''maaniʕ, mawaaniʕ'' "obstacle"; ''fakha, fawaakih'' "fruit"; ''ḥadsa, ḥawaadis'' "accident"; ''fayda, fawaayid'' "benefit"; ''ʃaariʕ, ʃawaariʕ'' "street"; ''xaatim, xawaatim'' "ring"
+|-
+| CaaCiC || CuCCaaC || mostly occupational nouns || ''kaatib, kuttaab'' "writer"; ''saakin, sukkaan'' "inhabitant"; ''saayiḥ, suwwaaḥ'' "tourist";
+|-
+| CaCiiC || CuCaCa || adjectives and occupational nouns || ''faʔiir, fuʔaṛa'' "poor"; ''nabiih, nubaha'' "intelligent"; ''naʃiiṭ, nuʃaṭa'' "active"; ''raʔiis, ruʔasa'' "president"; ''safiir, sufaṛa'' "ambassador"; ''waziir, wuzaṛa'' "minister"; ''xabiir, xubaṛa'' "expert";  ''ṭaalib, ṭalaba'' "student"
+|-
+| CaCiiC/CiCiiC || CuCaaC || adjectives || ''gamiil, gumaal'' "beautiful"; ''naʃiiṭ, nuʃaaṭ'' "active"; ''niḍiif, nuḍaaf'' "clean"; ''tixiin, tuxaan'' "fat" 
+|-
+|}
+
+{|class="wikitable"
+|+Secondary broken plural patterns
+! Singular !! Plural !! Notes !! Examples
+|-
+| CVCCVVC || CaCaCCa || occupational nouns || ''tilmiiz, talamza'' "student"; ''ʔustaaz, ʔasatza'' "teacher"; ''simsaaṛ, samasṛa'' "broker"; ''duktoor, dakatra'' "doctor"
+|-
+| CaCVVC || CawaaCiiC || || ''qamuus, qawamiis'' "dictionary"; ''maʕaad, mawaʕiid'' "appointment"; ''ṭabuuṛ, ṭawabiiṛ'' "line, queue"; ''meʃwar, maʃaweer'' "walk, appointment"
+|-
+| CaCaC || CiCaaC || || ''gamal, gimaal'' "camel"; ''gabal, gibaal'' "mountain, hill"
+|-
+| CaCC || ʔaCCuC || || ''ʃahṛ, ʔaʃhur'' "month"
+|-
+| CiCaaC, CaCiiC(a) || CuCuC || || ''kitaab, kutub'' "book"; ''madiina, mudun'' "city"
+|-
+| CaCC(a) || CaCaaCi || || ''maʕna, maʕaani'' "meaning"; ''makwa, makaawi'' "iron"; ''ʔahwa, ʔahaawi'' "coffee"; ''ʔaṛḍ, ʔaṛaaḍi'' "ground, land"
+|-
+| CaaCa, CaaCi, CaCya || CawaaCi || || ''ḥaaṛa, ḥawaaṛi'' "alley"; ''naadi, nawaadi'' "club"; ''naḥya, nawaaḥi'' "side"
+|-
+| CaCaC, CiCaaC || ʔaCCiCa/ʔiCCiCa || || ''ḥizaam, ʔaḥzima'' "belt"; ''masal, ʔamsila'' "example"; ''sabat, ʔisbita'' "basket"
+|-
+| CiCiyya || CaCaaya || || ''hidiyya, hadaaya'' "gift"
+|-
+| CaaC || CiCaaC || || ''faaṛ, firaan'' "mouse"; ''gaaṛ, giraan'' "neighbor"; ''xaal, xilaan'' "maternal uncle"
+|-
+|}
+
+==== Color/defect nouns ====
+{|class="wikitable" style="float:right; margin:1em"
+|+Examples of "color and defect" nouns
+! Meaning !! '''(template)''' !! green !! blue !! black !! white !! deaf !! blind !! one-eyed
+|-
+! Masculine
+| '''ʔaCCaC''' || ʔaxḍaṛ || ʔazraʔ || ʔiswid || ʔabyaḍ || ʔaṭṛaʃ || ʔaʕma || ʔaʕwaṛ
+|-
+! Feminine
+| '''CaCCa''' || xaḍṛa || zarʔa || sooda || beeḍa || ṭaṛʃa || ʕamya || ʕooṛa
+|-
+! Plural
+| '''CuCC''' || xuḍr || zurʔ || suud || biiḍ || ṭurʃ || ʕumy || ʕuur
+|-
+|}
+
+A common set of nouns referring to colors, as well as a number of nouns referring to physical defects of various sorts (''ʔaṣlaʕ'' "bald"; ''ʔaṭṛaʃ'' "deaf"; ''ʔaxṛas'' "dumb"), take a special inflectional pattern, as shown in the table.  Only a small number of common colors inflect this way: ''ʔaḥmaṛ'' "red"; ''ʔazraʔ'' "blue"; ''ʔaxḍaṛ'' "green"; ''ʔaṣfaṛ'' "yellow"; ''ʔabyaḍ'' "white"; ''ʔiswid'' "black"; ''ʔasmaṛ'' "brown-skinned, brunette"; ''ʔaʃʔaṛ'' "blond(e)".  The remaining colors are invariable, and mostly so-called ''nisba'' adjectives derived from colored objects: ''bunni'' "brown" (< ''bunn'' "coffee powder"); ''ṛamaadi'' "gray" (< ''ṛamaad'' "ashes"); ''banafsigi'' "purple" (< ''banafsig'' "violet"); ''burtuʔaani'' "orange" (< ''burtuʔaan'' "oranges"); ''zibiibi'' "maroon" (< ''zibiib'' "raisins"); etc., or of foreign origin: ''beeع'' "beige" from the French; ''bamba'' "pink" from Turkish ''[[wikt:pembe|pembe]]''.{{sfn|Hinds|Badawi|1986|p=104}}
+
+==== Verbal nouns of form I ====
+Verbal nouns of form I are not regular. The following table lists common patterns.
+
+{| class="wikitable sortable"
+|+ Verbal noun of form I patterns<ref>{{harvnb|Gadalla|2000|pp=132–133|loc=3.2.1. Verbal Nouns, tab. 39 and 40}}</ref>
+!Pattern
+!Template
+!Example(s)
+|-
+|{{lang|arz|فَعْل}}<br />{{Transliteration|arz|ALA|faʿl}}
+|CVCC
+|{{langx|arz|ضرب|lit=striking|label=none|ḍarb|rtl=no|translit-std=ALA}}
+|-
+|{{lang|arz|فَعْلَة}}<br />{{Transliteration|arz|ALA|faʿla}}
+|CVCCa
+|
+|-
+|{{lang|arz|فِعْل}}<br />{{Transliteration|arz|ALA|fiʿl}}
+|CVCC
+|
+|-
+|{{lang|arz|فِعْلَة}}<br />{{Transliteration|arz|ALA|fiʿla}}
+|CVCCa
+|
+|-
+|{{lang|arz|فُعْل}}<br />{{Transliteration|arz|ALA|fuʿl}}
+|CVCC
+|
+|-
+|{{lang|arz|فُعْلَة}}<br />{{Transliteration|arz|ALA|fuʿla}}
+|CVCCa
+|
+|-
+|{{lang|arz|فَعَل}}<br />{{Transliteration|arz|ALA|faʿal}}
+|CVCVC
+|{{langx|arz|عمل|lit=work|label=none|ʿamal|rtl=no|translit-std=ALA}}
+|-
+|{{lang|arz|فَعَلَة}}<br />{{Transliteration|arz|ALA|faʿala}}
+|CVCVCa
+|
+|-
+|{{lang|arz|فَعَال}}<br />{{Transliteration|arz|ALA|faʿāl}}
+|CVCVVC
+|
+|-
+|{{lang|arz|فَعَالَة}}<br />{{Transliteration|arz|ALA|faʿāla}}
+|CVCVVCa
+|
+|-
+|{{lang|arz|فِعَال}}<br />{{Transliteration|arz|ALA|fiʿāl}}
+|CVCVVC
+|
+|-
+|{{lang|arz|فِعَالَة}}<br />{{Transliteration|arz|ALA|fiʿāla}}
+|CVCVVCa
+|{{langx|arz|كتابة|lit=writing|label=none|kitāba|rtl=no|translit-std=ALA}}
+|-
+|{{lang|arz|فُعَال}}<br />{{Transliteration|arz|ALA|fuʿāl}}
+|CVCVVC
+|
+|-
+|{{lang|arz|فَعُول}}<br />{{Transliteration|arz|ALA|faʿūl}}
+|CVCVVC
+|
+|-
+|{{lang|arz|فُعُول}}<br />{{Transliteration|arz|ALA|fuʿūl}}
+|CVCVVC
+|
+|-
+|{{lang|arz|فُعُولَة}}<br />{{Transliteration|arz|ALA|fuʿūla}}
+|CVCVVCa
+|
+|-
+|{{lang|arz|فَعِيل}}<br />{{Transliteration|arz|ALA|faʿīl}}
+|CVCVVC
+|
+|-
+|{{lang|arz|فِعْلَان}}<br />{{Transliteration|arz|ALA|fiʿlān}}
+|CVCCaan
+|
+|-
+|{{lang|arz|فُعْلَان}}<br />{{Transliteration|arz|ALA|fuʿlān}}
+|CVCCaan
+|
+|-
+|{{lang|arz|فَعَلَان}}<br />{{Transliteration|arz|ALA|faʿalān}}
+|CVCVCaan
+|
+|-
+|{{lang|arz|مَفْعَل}}<br />{{Transliteration|arz|ALA|mafʿal}}
+|maCCVC
+|
+|-
+|{{lang|arz|مَفْعِلَة}}<br />{{Transliteration|arz|ALA|mafʿila}}
+|maCCVCa
+|
+|-
+|{{lang|arz|مَفَعَّة}}<br />{{Transliteration|arz|ALA|mafaʿʿa}}
+|maCVCCa
+|
+|-
+|{{lang|arz|مَفَال}}<br />{{Transliteration|arz|ALA|mafāl}}
+|maCVVC
+|
+|-
+|{{lang|arz|مَفِيل}}<br />{{Transliteration|arz|ALA|mafīl}}
+|maCVVC
+|
+|-
+|{{lang|arz|فَوْل}}<br />{{Transliteration|arz|ALA|fōl}}
+|CVVC
+|
+|-
+|{{lang|arz|فَعَالِيَّة}}<br />{{Transliteration|arz|ALA|faʿaliyya}}
+|CVCVCiyya
+|
+|-
+|{{lang|arz|فِعَى}}<br />{{Transliteration|arz|ALA|fiʿa}}
+|CVCa
+|
+|}
+
+{{Clear}}
+
+=== Pronouns ===
+{|class="wikitable" style="text-align:center;"
+|+Forms of the independent and clitic pronouns
+! rowspan=3|Meaning !! rowspan=3|Subject !! colspan=9|Direct object/Possessive !! colspan=6|Indirect object
+|-
+! colspan=3|After vowel !! colspan=3|After 1 cons. !! colspan=3|After 2 cons.
+! colspan=2|After vowel !! colspan=2|After 1 cons. !! colspan=2|After 2 cons.
+|-
+! Normal !! + ʃ !! + l- !! Normal !! + ʃ !! + l- !! Normal !! + ʃ !! + l-
+! Normal !! + ʃ !! Normal !! + ʃ !! Normal !! + ʃ
+|-
+| "my" (nominal) || — || colspan=3|''- ́ya'' || colspan=6|''-i'' || colspan=6|—
+|-
+| "I/me" (verbal) || ''ána'' || colspan=6|''- ́ni'' || colspan=3|''-íni'' || colspan=4|''- ́li'' || colspan=2|''-íli''
+|-
+| "you(r) (masc.)" || ''ínta'' || colspan=3|''- ́k'' || colspan=6|''-ak'' || colspan=4|''- ́lak'' || colspan=2|''-ílak''
+|-
+| "you(r) (fem.)" || ''ínti'' || colspan=3|''- ́ki'' || ''-ik'' || colspan=2|''-ki'' || ''-ik'' || colspan=2|''-iki'' || ''- ́lik'' || ''-lkí'' || ''-lik'' || ''-likí'' || ''-ílik'' || ''-ilkí''
+|-
+| "he/him/his" || ''huwwa'' || ''- ́'' || colspan=2|''-hu'' || colspan=2|''-u'' || ''-hu'' || colspan=2|''-u'' || ''-uhu'' || colspan=4|''- ́lu'' || colspan=2|''-ílu''
+|-
+| "she/her" || ''hiyya'' || colspan=6|''- ́ha'' || colspan=3|''-áha'' || colspan=2|''- ́lha'' || colspan=2|''-láha'' || colspan=2|''-ílha''
+|-
+| "we/us/our" || ''íḥna'' || colspan=6|''- ́na'' || colspan=3|''-ína'' || colspan=2|''- ́lna'' || colspan=2|''-lína'' || colspan=2|''-ílna''
+|-
+| "you(r) (pl.)" || ''íntu'' || colspan=6|''- ́ku(m)'' || colspan=3|''-úku(m)'' || colspan=2|''- ́lku(m)'' || colspan=2|''-lúku(m)'' || colspan=2|''-ílku(m)''
+|-
+| "they/them/their" || ''humma'' || colspan=6|''- ́hum'' || colspan=3|''-úhum'' || colspan=2|''- ́lhum'' || colspan=2|''-lúhum'' || colspan=2|''-ílhum''
+|}
+
+{|class="wikitable"
+|+Examples of possessive constructs
+! Base Word !! ''béet''<br />"house" !! ''biyúut''<br />"houses" !! ''bánk''<br />"bank" !! ''sikkíina''<br />"knife" !! ''máṛa''<br />"wife" !! ''ʔább''<br />"father" !!  ''ʔidéen''<br />"hands"
+|-
+! Construct Base !! ''béet-'' !! ''biyúut-'' !! ''bánk-'' !! ''sikkíin(i)t-'' !! ''miṛáat-'' !! ''ʔabúu-'' !! ''ʔidée-''
+|-
+| "my ..." || ''béet-i'' || ''biyúut-i'' || ''bánk-i'' || ''sikkínt-i'' || ''miṛáat-i'' || ''ʔabúu-ya'' || ''ʔidáy-ya''
+|-
+| "your (masc.) ..." || ''béet-ak'' || ''biyúut-ak'' || ''bánk-ak'' || ''sikkínt-ak'' || ''miṛáat-ak'' || ''ʔabúu-k'' || ''ʔidée-k''
+|-
+| "your (fem.) ..." || ''béet-ik'' || ''biyúut-ik'' || ''bánk-ik'' || ''sikkínt-ik'' || ''miṛáat-ik'' || ''ʔabúu-ki'' || ''ʔidée-ki''
+|-
+| "his ..." || ''béet-u'' || ''biyúut-u'' || ''bánk-u'' || ''sikkínt-u'' || ''miṛáat-u'' || ''ʔabúu-(h)'' || ''ʔidée-(h)''
+|-
+| "her ..." || ''bét-ha'' || ''biyút-ha'' || ''bank-áha'' || ''sikkinít-ha'' || ''miṛát-ha'' || ''ʔabúu-ha'' || ''ʔidée-ha''
+|-
+| "our ..." || ''bét-na'' || ''biyút-na'' || ''bank-ína'' || ''sikkinít-na'' || ''miṛát-na'' || ''ʔabúu-na'' || ''ʔidée-na''
+|-
+| "your (pl.) ..." || ''bét-ku(m)'' || ''biyút-ku(m)'' || ''bank-úku(m)'' || ''sikkinít-ku(m)'' || ''miṛát-ku(m)'' || ''ʔabúu-ku(m)'' || ''ʔidée-ku(m)''
+|-
+| "their ..." || ''bét-hum'' || ''biyút-hum'' || ''bank-úhum'' || ''sikkinít-hum'' || ''miṛát-hum'' || ''ʔabúu-hum'' || ''ʔidée-hum''
+|}
+
+{|class="wikitable"
+|+Suffixed prepositions
+! Base Word !! ''fi''<br />"in" !! ''bi''<br />"by, in, with" !! ''li''<br />"to" !! ''wayya''<br />"with" !! ''ʕala''<br />"on" !! ''ʕand''<br />"in the<br />possession of,<br />to have" !!  ''min''<br />"from"
+|-
+| "... me" || ''fíy-ya'' || ''bíy-ya'' || ''líy-ya'' || ''wayyáa-ya'' || ''ʕaláy-ya'' || ''ʕánd-i'' || ''mínn-i''
+|-
+| "... you (masc.)" || ''fíi-k'' || ''bíi-k'' || ''líi-k, l-ak'' || ''wayyáa-k'' || ''ʕalée-k'' || ''ʕánd-ak'' || ''mínn-ak''
+|-
+| "... you (fem.)" || ''fíi-ki'' || ''bíi-ki'' || ''líi-ki, li-ki'' || ''wayyáa-ki'' || ''ʕalée-ki'' || ''ʕánd-ik'' || ''mínn-ik''
+|-
+| "... him" || ''fíi-(h)'' || ''bíi-(h)'' || ''líi-(h), l-u(h)'' || ''wayyáa-(h)'' || ''ʕalée-(h)'' || ''ʕánd-u'' || ''mínn-u''
+|-
+| "... her" || ''fíi-ha'' || ''bíi-ha'' || ''líi-ha, la-ha'' || ''wayyáa-ha'' || ''ʕalée-ha'' || ''ʕand-áha'' || ''minn-áha, mín-ha''
+|-
+| "... us" || ''fíi-na'' || ''bíi-na'' || ''líi-na, li-na'' || ''wayyáa-na'' || ''ʕalée-na'' || ''ʕand-ína'' || ''minn-ína''
+|-
+| "... you (pl.)" || ''fíi-ku(m)'' || ''bíi-ku(m)'' || ''líi-ku(m), li-ku(m)'' || ''wayyáa-ku(m)'' || ''ʕalée-ku(m)'' || ''ʕand-úku(m)'' || ''minn-úku(m), mín-ku(m)''
+|-
+| "... them" || ''fíi-hum'' || ''bíi-hum'' || ''líi-hum, li-hum'' || ''wayyáa-hum'' || ''ʕalée-hum'' || ''ʕand-úhum'' || ''minn-úhum, mín-hum''
+|}
+
+Egyptian Arabic object pronouns are [[clitic]]s, in that they attach to the end of a noun, verb, or preposition, with the result forming a single phonological word rather than separate words.  Clitics can be attached to the following types of words:
+*A clitic pronoun attached to a noun indicates possession: ''béet'' "house", ''béet-i'' "my house"; ''sikkíina'' "knife", ''sikkínt-i'' "my knife";  ''ʔább'' "father", ''ʔabúu-ya'' "my father".  The form of a pronoun may vary depending on the phonological form of the word being attached to (ending with a vowel or with one or two consonants), and the noun being attached to may also have a separate "construct" form before possessive clitic suffixes.
+*A clitic pronoun attached to a preposition indicates the object of the preposition:  ''minno'' "from it (masculine object)", ''ʕaleyha'' "on it (feminine object)"
+*A clitic pronoun attached to a verb indicates the object of the verb: ''ʃúft'' "I saw", ''ʃúft-u'' "I saw him", ''ʃuft-áha'' "I saw her".
+
+With verbs, indirect object clitic pronouns can be formed using the preposition ''li-'' plus a clitic.  Both direct and indirect object clitic pronouns can be attached to a single verb: ''agíib'' "I bring", ''agíb-hu'' "I bring it", ''agib-húu-lik'' "I bring it to you", ''m-agib-hu-lkíi-ʃ'' "I do not bring it to you".
+
+=== Verbs ===
+Verbs in Arabic are based on a stem made up of three or four consonants. The set of consonants communicates the basic meaning of a verb. Changes to the vowels in between the consonants, along with prefixes and/or suffixes, specify grammatical functions such as tense, person, and number, in addition to changes in the meaning of the verb that embody grammatical concepts such as [[causative]], [[intensive]], [[passive voice|passive]] or [[reflexive verb|reflexive]].
+
+Each particular [[lexical verb]] is specified by two stems, one used for the past tense and one used for non-past tenses along with [[Subjunctive mood|subjunctive]] and [[Imperative mood|imperative]] moods. To the former stem, suffixes are added to mark the verb for person, number, and gender, while to the latter stem, a combination of prefixes and suffixes are added. (Very approximately, the prefixes specify the person and the suffixes indicate number and gender.) Since Arabic lacks an [[infinitive]], the third person masculine singular past tense form serves as the "dictionary form" used to identify a verb. For example, the verb meaning "write" is often specified as ''kátab'', which actually means "he wrote". In the paradigms below, a verb will be specified as ''kátab/yíktib'' (where ''kátab'' means "he wrote" and ''yíktib'' means "he writes"), indicating the past stem (''katab-'') and non-past stem (''-ktib-'', obtained by removing the prefix ''yi-'').
+
+The verb classes in Arabic are formed along two axes.  One axis (described as "form I", "form II", etc.) is used to specify grammatical concepts such as [[causative]], [[intensive]], [[passive voice|passive]], or [[reflexive verb|reflexive]], and involves varying the stem form.  For example, from the root K-T-B "write" is derived form I '''kátab/yíktib''' "write", form II '''káttib/yikáttib''' "cause to write", form III '''ká:tib/yiká:tib''' "correspond", etc.  The other axis is determined by the particular consonants making up the root.  For example, defective verbs have a W or Y as the last root consonant, which is often reflected in paradigms with an extra final vowel in the stem (e.g. '''ráma/yírmi''' "throw" from R-M-Y); meanwhile, hollow verbs have a W or Y as the middle root consonant, and the stems of such verbs appear to have only two consonants (e.g. '''gá:b/yigí:b''' "bring" from G-Y-B).
+
+==== Strong verbs ====
+Strong verbs are those that have no "weakness" (e.g. W or Y) in the root consonants.
+Each verb has a given vowel pattern for Past (a or i) and Present (a or i or u). Combinations of each exist.
+
+===== Regular verbs, form I =====
+
+Form I verbs have a given vowel pattern for past ('''a''' or '''i''') and present ('''a''', '''i''' or '''u'''). Combinations of each exist:
+
+{| class="wikitable centered" style="text-align:center;"
+! colspan="2" | Vowel patterns
+! rowspan="2" | Example
+|-
+!Past
+!Present
+|-
+|a
+|a
+|ḍár'''a'''b – yíḍr'''a'''b ''to beat''
+|-
+|a
+|i
+|kát'''a'''b – yíkt'''i'''b ''to write''
+|-
+|a
+|u
+|ṭál'''a'''b – yíṭl'''u'''b~yúṭl'''u'''b ''to order, to demand''
+|-
+|i
+|a
+|fíh'''i'''m – yífh'''a'''m ''to understand''
+|-
+|i
+|i
+|mis'''i'''k – yíms'''i'''k ''to hold, to touch''
+|-
+|i
+|u
+|sik'''i'''t – yísk'''u'''t~yúsk'''u'''t ''to be silent, to shut up''
+|}
+
+===== Regular verb, form I, fáʕal/yífʕil =====
+
+Example: '''kátab/yíktib''' "write"
+
+{| class="wikitable"
+!  colspan=2|Tense/Mood
+!  colspan=2|Past
+!  colspan=2|Present Subjunctive
+!  colspan=2|Present Indicative
+!  colspan=2|Future
+!  colspan=2|Imperative
+|-
+!  colspan=2|Person
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+|-
+!  colspan=2|1st
+|  ''katáb-t''
+|  ''katáb-na''
+|  ''á-ktib''
+|  ''ní-ktib''
+|  ''bá-ktib''
+|  ''bi-ní-ktib''
+|  ''ḥá-ktib''
+|  ''ḥá-ní-ktib''
+| colspan=2 style=background:silver|
+|-
+! rowspan=2| 2nd
+!<small>masculine</small>
+|  ''katáb-t''
+| rowspan=2|''katáb-tu''
+|  ''tí-ktib''
+| rowspan=2|''ti-ktíb-u''
+|  ''bi-tí-ktib''
+| rowspan=2|''bi-ti-ktíb-u''
+|  ''ḥa-tí-ktib''
+| rowspan=2|''ḥa-ti-ktíb-u''
+|  ''í-ktib''
+| rowspan=2|''i-ktíb-u''
+|-
+!<small>feminine</small>
+|  ''katáb-ti''
+|  ''ti-ktíb-i''
+|  ''bi-ti-ktíb-i''
+|  ''ḥa-ti-ktíb-i''
+|  ''i-ktíb-i''
+|-
+!  rowspan=2|3rd
+!<small>masculine</small>
+|  ''kátab''
+| rowspan=2|''kátab-u''
+|  ''yí-ktib''
+| rowspan=2|''yi-ktíb-u''
+|  ''bi-yí-ktib''
+| rowspan=2|''bi-yi-ktíb-u''
+|  ''ḥa-yí-ktib''
+| rowspan=2|''ḥa-yi-ktíb-u''
+| rowspan=2 colspan=2 style=background:silver|
+|-
+!<small>feminine</small>
+|  ''kátab-it''
+|  ''tí-ktib''
+|  ''bi-tí-ktib''
+|  ''ḥa-tí-ktib''
+|-
+|}
+
+Note that, in general, the present indicative is formed from the subjunctive by the addition of ''bi-'' (''bi-a-'' is elided to ''ba-'').  Similarly, the future is formed from the subjunctive by the addition of ''ḥa-'' (''ḥa-a-'' is elided to ''ḥa-'').  The ''i'' in ''bi-'' or in the following prefix will be deleted according to the regular rules of vowel syncope:
+*'''híyya b-tíktib''' "she writes" ('''híyya''' + '''bi-''' + '''tíktib''')
+*'''híyya bi-t-ʃú:f''' "she sees" ('''híyya''' + '''bi-''' + '''tiʃú:f''')
+*'''an-áktib''' "I write (subjunctive)" ('''ána''' + '''áktib''')
+
+Example: '''kátab/yíktib''' "write": non-finite forms
+
+{| class="wikitable"
+!  Number/Gender
+!  Active Participle
+!  Passive Participle
+!  Verbal Noun
+|-
+!  Masc. Sg.
+|  ''ká:tib''
+|  ''maktú:b''
+|  rowspan=3|''kitá:ba''
+|-
+!  Fem. Sg.
+|  ''kátb-a''
+|  ''maktú:b-a''
+|-
+!  Pl.
+|  ''katb-í:n''
+|  ''maktub-í:n''
+|-
+|}
+
+===== Regular verb, form I, fíʕil/yífʕal =====
+
+Example: '''fíhim/yífham''' "understand"
+
+{| class="wikitable"
+!  colspan=2|Tense/Mood
+!  colspan=2|Past
+!  colspan=2|Present Subjunctive
+!  colspan=2|Present Indicative
+!  colspan=2|Future
+!  colspan=2|Imperative
+|-
+!  colspan=2|Person
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+|-
+!  colspan=2|1st
+|  ''fihím-t''
+|  ''fihím-na''
+|  ''á-fham''
+|  ''ní-fham''
+|  ''bá-fham''
+|  ''bi-ní-fham''
+|  ''ḥá-fham''
+|  ''ḥá-ní-fham''
+| colspan=2 style=background:silver|
+|-
+! rowspan=2| 2nd
+!<small>masculine</small>
+|  ''fihím-t''
+| rowspan=2|''fihím-tu''
+|  ''tí-fham''
+| rowspan=2|''ti-fhám-u''
+|  ''bi-tí-fham''
+| rowspan=2|''bi-ti-fhám-u''
+|  ''ḥa-tí-fham''
+| rowspan=2|''ḥa-ti-fhám-u''
+|  ''í-fham''
+| rowspan=2|''i-fhám-u''
+|-
+!<small>feminine</small>
+|  ''fihím-ti''
+|  ''ti-fhám-i''
+|  ''bi-ti-fhám-i''
+|  ''ḥa-ti-fhám-i''
+|  ''i-fhám-i''
+|-
+!  rowspan=2|3rd
+!<small>masculine</small>
+|  ''fíhim''
+| rowspan=2|'''''fíhm-u'''''
+|  ''yí-fham''
+| rowspan=2|''yi-fhám-u''
+|  ''bi-yí-fham''
+| rowspan=2|''bi-yi-fhám-u''
+|  ''ḥa-yí-fham''
+| rowspan=2|''ḥa-yi-fhám-u''
+| rowspan=2 colspan=2 style=background:silver|
+|-
+!<small>feminine</small>
+|  '''''fíhm-it'''''
+|  ''tí-fham''
+|  ''bi-tí-fham''
+|  ''ḥa-tí-fham''
+|-
+|}
+
+Boldfaced forms '''''fíhm-it''''' and '''''fíhm-u''''' differ from the corresponding forms of '''katab''' ('''''kátab-it''''' and '''''kátab-u''''' due to vowel syncope).  Note also the syncope in '''ána fhím-t''' "I understood".
+
+===== Regular verb, form II, fáʕʕil/yifáʕʕil =====
+
+Example: '''dárris/yidárris''' "teach"
+
+{| class="wikitable"
+!  colspan=2|Tense/Mood
+!  colspan=2|Past
+!  colspan=2|Present Subjunctive
+!  colspan=2|Present Indicative
+!  colspan=2|Future
+!  colspan=2|Imperative
+|-
+!  colspan=2|Person
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+|-
+!  colspan=2|1st
+|  ''darrís-t''
+|  ''darrís-na''
+|  ''a-dárris''
+|  ''ni-dárris''
+|  ''ba-dárris''
+|  ''bi-'''n-'''dárris''
+|  ''ḥa-dárris''
+|  ''ḥa-'''n-'''dárris''
+| colspan=2 style=background:silver|
+|-
+! rowspan=2| 2nd
+!<small>masculine</small>
+|  ''darrís-t''
+| rowspan=2|''darrís-tu''
+|  ''ti-dárris''
+| rowspan=2|''ti-darrís-u''
+|  ''bi-'''t-'''dárris''
+| rowspan=2|''bi-'''t-'''darrís-u''
+|  ''ḥa-'''t-'''dárris''
+| rowspan=2|''ḥa-'''t-'''darrís-u''
+|  '''''dárris'''''
+| rowspan=2|'''''darrís-u'''''
+|-
+!<small>feminine</small>
+|  ''darrís-ti''
+|  ''ti-darrís-i''
+|  ''bi-'''t-'''darrís-i''
+|  ''ḥa-'''t-'''darrís-i''
+|  '''''darrís-i'''''
+|-
+!  rowspan=2|3rd
+!<small>masculine</small>
+|  ''dárris''
+| rowspan=2|'''''darrís-u'''''
+|  ''yi-dárris''
+| rowspan=2|''yi-darrís-u''
+|  ''bi-'''y-'''dárris''
+| rowspan=2|''bi-'''y-'''darrís-u''
+|  ''ḥa-'''y-'''dárris''
+| rowspan=2|''ḥa-'''y-'''darrís-u''
+| rowspan=2 colspan=2 style=background:silver|
+|-
+!<small>feminine</small>
+|  '''''darrís-it'''''
+|  ''ti-dárris''
+|  ''bi-'''t-'''dárris''
+|  ''ḥa-'''t-'''dárris''
+|-
+|}
+
+Boldfaced forms indicate the primary differences from the corresponding forms of '''katab''':
+*The prefixes ''ti-'', ''yi-'', ''ni-'' have elision of ''i'' following ''bi-'' or ''ḥa-'' (all verbs whose stem begins with a single consonant behave this way).
+*The imperative prefix ''i-'' is missing (again, all verbs whose stem begins with a single consonant behave this way).
+*Due to the regular operation of the stress rules, the stress in the past tense forms '''''darrís-it''''' and '''''darrís-u''''' differs from '''''kátab-it''''' and '''''kátab-u'''''.
+
+===== Regular verb, form III, fá:ʕil/yifá:ʕil =====
+
+Example: '''sá:fir/yisá:fir''' "travel"
+
+{| class="wikitable"
+!  colspan=2|Tense/Mood
+!  colspan=2|Past
+!  colspan=2|Present Subjunctive
+!  colspan=2|Present Indicative
+!  colspan=2|Future
+!  colspan=2|Imperative
+|-
+!  colspan=2|Person
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+|-
+!  colspan=2|1st
+|  '''''sa'''fír-t''
+|  '''''sa'''fír-na''
+|  ''a-sá:fir''
+|  ''ni-sá:fir''
+|  ''ba-sá:fir''
+|  ''bi-n-sá:fir''
+|  ''ḥa-sá:fir''
+|  ''ḥa-n-sá:fir''
+| colspan=2 style=background:silver|
+|-
+! rowspan=2| 2nd
+!<small>masculine</small>
+|  '''''sa'''fír-t''
+| rowspan=2|'''''sa'''fír-tu''
+|  ''ti-sá:fir''
+| rowspan=2|''ti-'''sáfr'''-u''
+|  ''bi-t-sá:fir''
+| rowspan=2|''bi-t-'''sáfr'''-u''
+|  ''ḥa-t-sá:fir''
+| rowspan=2|''ḥa-t-'''sáfr'''-u''
+|  ''sá:fir''
+| rowspan=2|'''''sáfr'''-u''
+|-
+!<small>feminine</small>
+|  '''''sa'''fír-ti''
+|  ''ti-'''sáfr'''-i''
+|  ''bi-t-'''sáfr'''-i''
+|  ''ḥa-t-'''sáfr'''-i''
+|  '''''sáfr'''-i''
+|-
+!  rowspan=2|3rd
+!<small>masculine</small>
+|  ''sá:fir''
+| rowspan=2|'''''sáfr'''-u''
+|  ''yi-sá:fir''
+| rowspan=2|''yi-'''sáfr'''-u''
+|  ''bi-y-sá:fir''
+| rowspan=2|''bi-y-'''sáfr'''-u''
+|  ''ḥa-y-sá:fir''
+| rowspan=2|''ḥa-y-'''sáfr'''-u''
+| rowspan=2 colspan=2 style=background:silver|
+|-
+!<small>feminine</small>
+|  '''''sáfr'''-it''
+|  ''ti-sá:fir''
+|  ''bi-t-sá:fir''
+|  ''ḥa-t-sá:fir''
+|-
+|}
+
+The primary differences from the corresponding forms of '''darris''' (shown in boldface) are:
+*The long vowel ''a:'' becomes ''a'' when unstressed.
+*The ''i'' in the stem ''sa:fir'' is elided when a suffix beginning with a vowel follows.
+
+==== Defective verbs ====
+
+Defective verbs have a W or Y as the last root consonant.
+
+===== Defective verb, form I, fáʕa/yífʕi =====
+
+Example: '''ráma/yírmi''' "throw away" (i.e. trash, etc.)
+
+{| class="wikitable"
+!  colspan=2|Tense/Mood
+!  colspan=2|Past
+!  colspan=2|Present Subjunctive
+!  colspan=2|Present Indicative
+!  colspan=2|Future
+!  colspan=2|Imperative
+|-
+!  colspan=2|Person
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+|-
+!  colspan=2|1st
+|  '''''ramé:'''-t''
+|  '''''ramé:'''-na''
+|  ''á-rmi''
+|  ''ní-rmi''
+|  ''bá-rmi''
+|  ''bi-ní-rmi''
+|  ''ḥá-rmi''
+|  ''ḥa-ní-rmi''
+| colspan=2 style=background:silver|
+|-
+! rowspan=2| 2nd
+!<small>masculine</small>
+|  '''''ramé:'''-t''
+| rowspan=2|'''''ramé:'''-tu''
+|  ''tí-rmi''
+| rowspan=2|'''''tí-rm'''-u''
+|  ''bi-tí-rmi''
+| rowspan=2|''bi-'''tí-rm'''-u''
+|  ''ḥa-tí-rmi''
+| rowspan=2|''ḥa-'''tí-rm'''-u''
+|  ''í-rmi''
+| rowspan=2|'''''í-rm'''-u''
+|-
+!<small>feminine</small>
+|  '''''ramé:'''-ti''
+|  '''''tí-rm'''-i''
+|  ''bi-'''tí-rm'''-i''
+|  ''ḥa-'''tí-rm'''-i''
+|  '''''í-rm'''-i''
+|-
+!  rowspan=2|3rd
+!<small>masculine</small>
+|  ''ráma''
+| rowspan=2|'''''rám-u'''''
+|  ''yí-rmi''
+| rowspan=2|'''''yí-rm'''-u''
+|  ''bi-yí-rmi''
+| rowspan=2|''bi-'''yí-rm'''-u''
+|  ''ḥa-yí-rmi''
+| rowspan=2|''ḥa-'''yí-rm'''-u''
+| rowspan=2 colspan=2 style=background:silver|
+|-
+!<small>feminine</small>
+|  '''''rám'''-it''
+|  ''tí-rmi''
+|  ''bi-tí-rmi''
+|  ''ḥa-tí-rmi''
+|-
+|}
+
+The primary differences from the corresponding forms of '''katab''' (shown in boldface) are:
+*In the past, there are three stems: '''ráma''' with no suffix, '''ramé:-''' with a consonant-initial suffix, '''rám-''' with a vowel initial suffix.
+*In the non-past, the stem '''rmi''' becomes '''rm-''' before a (vowel initial) suffix, and the stress remains on the prefix, since the stem vowel has been elided.
+*Note also the accidental homonymy between masculine '''tí-rmi, í-rmi''' and feminine '''tí-rm-i, í-rm-i'''.
+
+===== Defective verb, form I, fíʕi/yífʕa =====
+
+Example: '''nísi/yínsa''' "forget"
+
+{| class="wikitable"
+!  colspan=2|Tense/Mood
+!  colspan=2|Past
+!  colspan=2|Present Subjunctive
+!  colspan=2|Present Indicative
+!  colspan=2|Future
+!  colspan=2|Imperative
+|-
+!  colspan=2|Person
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+|-
+!  colspan=2|1st
+|  '''''nisí:'''-t''
+|  '''''nisí:'''-na''
+|  ''á-nsa''
+|  ''ní-nsa''
+|  ''bá-nsa''
+|  ''bi-ní-nsa''
+|  ''ḥá-nsa''
+|  ''ḥa-ní-nsa''
+| colspan=2 style=background:silver|
+|-
+! rowspan=2| 2nd
+!<small>masculine</small>
+|  '''''nisí:'''-t''
+| rowspan=2|'''''nisí:'''-tu''
+|  ''tí-nsa''
+| rowspan=2|''tí-ns-u''
+|  ''bi-tí-nsa''
+| rowspan=2|''bi-tí-ns-u''
+|  ''ḥa-tí-nsa''
+| rowspan=2|''ḥa-tí-ns-u''
+|  ''í-nsa''
+| rowspan=2|''í-ns-u''
+|-
+!<small>feminine</small>
+|  '''''nisí:'''-ti''
+|  ''tí-ns-i''
+|  ''bi-tí-ns-i''
+|  ''ḥa-tí-ns-i''
+|  ''í-ns-i''
+|-
+!  rowspan=2|3rd
+!<small>masculine</small>
+|  ''nísi''
+| rowspan=2|'''''nísy-u'''''
+|  ''yí-nsa''
+| rowspan=2|''yí-ns-u''
+|  ''bi-yí-nsa''
+| rowspan=2|''bi-yí-ns-u''
+|  ''ḥa-yí-nsa''
+| rowspan=2|''ḥa-yí-ns-u''
+| rowspan=2 colspan=2 style=background:silver|
+|-
+!<small>feminine</small>
+|  '''''nísy'''-it''
+|  ''tí-nsa''
+|  ''bi-tí-nsa''
+|  ''ḥa-tí-nsa''
+|-
+|}
+
+This verb type is quite similar to the defective verb type '''ráma/yírmi'''.  The primary differences are:
+*The occurrence of ''i'' and ''a'' in the stems are reversed: ''i'' in the past, ''a'' in the non-past.
+*In the past, instead of the stems '''ramé:-''' and '''rám-''', the verb has '''nisí:-''' (with a consonant-initial suffix) and '''nísy-''' (with a vowel initial suffix).  Note in particular the |y| in '''nísyit''' and '''nísyu''' as opposed to '''rámit''' and '''rámu'''.
+*Elision of ''i'' in '''nisí:-''' can occur, e.g. '''ána nsí:t''' "I forgot".
+*In the non-past, because the stem has ''a'' instead of ''i'', there is no homonymy between masculine '''tí-nsa, í-nsa''' and feminine '''tí-ns-i, í-ns-i'''.
+
+Some other verbs have different stem variations, e.g. '''míʃi/yímʃi''' "walk" (with ''i'' in both stems) and '''báʔa/yíbʔa''' "become, remain" (with ''a'' in both stems).  The verb '''láʔa/yilá:ʔi''' "find" is unusual in having a mixture of a form I past and form III present (note also the variations '''líʔi/yílʔa''' and '''láʔa/yílʔa''').
+
+Verbs other than form I have consistent stem vowels.  All such verbs have ''a'' in the past (hence form stems with ''-é:-'', not ''-í:-'').  Forms V, VI, X and IIq have ''a'' in the present (indicated by boldface below); others have ''i''; forms VII, VIIt, and VIII have ''i'' in both vowels of the stem (indicated by italics below); form IX verbs, including "defective" verbs, behave as regular doubled verbs:
+* Form II: '''wádda/yiwáddi''' "take away"; '''ʔáwwa/yiʔáwwi''' "strengthen"
+* Form III: '''ná:da/yiná:di''' "call"; '''dá:wa/yidá:wi''' "treat, cure"
+* Form IV (rare, classicized): '''ʔárḍa/yírḍi''' "please, satisfy"
+* '''Form V''': '''itʔáwwa/yitʔáwwa''' "become strong"
+* '''Form VI''': '''itdá:wa/yitdá:wa''' "be treated, be cured"
+* ''Form VII'' (rare in the Cairene dialect): '''inḥáka/yinḥíki''' "be told"
+* ''Form VIIt'': '''itnása/yitnísi''' "be forgotten"
+* ''Form VIII'': '''iʃtára/yiʃtíri''' "buy"
+* '''Form IX''' (very rare): '''iḥláww/yiḥláww''' "be/become sweet"
+* '''Form X''': '''istákfa/yistákfa''' "have enough"
+* Form Iq: ''need example''
+* '''Form IIq''': ''need example''
+
+==== Hollow verbs ====
+Hollow have a W or Y as the middle root consonant.  For some forms (e.g. form II and form III), hollow verbs are conjugated as strong verbs (e.g. form II ''ʕáyyin/yiʕáyyin'' "appoint" from ʕ-Y-N, form III ''gá:wib/yigá:wib'' "answer" from G-W-B).
+
+===== Hollow verb, form I, fá:l/yifí:l =====
+
+Example: '''gá:b/yigí:b''' "bring"
+
+{| class="wikitable"
+!  colspan=2|Tense/mood
+!  colspan=2|Past
+!  colspan=2|Present subjunctive
+!  colspan=2|Present indicative
+!  colspan=2|Future
+!  colspan=2|Imperative
+|-
+!  colspan=2|Person
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+|-
+!  colspan=2|1st
+|  '''''gíb'''-t''
+|  '''''gíb'''-na''
+|  ''a-gí:b''
+|  ''ni-gí:b''
+|  ''ba-gí:b''
+|  ''bi-n-gí:b''
+|  ''ḥa-gí:b''
+|  ''ḥa-n-gí:b''
+| colspan=2 style=background:silver|
+|-
+! rowspan=2| 2nd
+!<small>masculine</small>
+|  '''''gíb'''-t''
+| rowspan=2|'''''gíb'''-tu''
+|  ''ti-gí:b''
+| rowspan=2|''ti-gí:b-u''
+|  ''bi-t-gí:b''
+| rowspan=2|''bi-t-gí:b-u''
+|  ''ḥa-t-gí:b''
+| rowspan=2|''ḥa-t-gí:b-u''
+|  ''gí:b''
+| rowspan=2|''gí:b-u''
+|-
+!<small>feminine</small>
+|  '''''gíb'''-ti''
+|  ''ti-gí:b-i''
+|  ''bi-t-gí:b-i''
+|  ''ḥa-t-gí:b-i''
+|  ''gí:b-i''
+|-
+!  rowspan=2|3rd
+!<small>masculine</small>
+|  ''gá:b''
+| rowspan=2|''gá:b-u''
+|  ''yi-gí:b''
+| rowspan=2|''yi-gí:b-u''
+|  ''bi-y-gí:b''
+| rowspan=2|''bi-y-gí:b-u''
+|  ''ḥa-y-gí:b''
+| rowspan=2|''ḥa-y-gí:b-u''
+| rowspan=2 colspan=2 style=background:silver|
+|-
+!<small>feminine</small>
+|  ''gá:b-it''
+|  ''ti-gí:b''
+|  ''bi-t-gí:b''
+|  ''ḥa-t-gí:b''
+|-
+|}
+
+This verb works much like '''dárris/yidárris''' "teach".  Like all verbs whose stem begins with a single consonant, the prefixes differ in the following way from those of regular and defective form I verbs:
+*The prefixes ''ti-'', ''yi-'', ''ni-'' have elision of ''i'' following ''bi-'' or ''ḥa-''.
+*The imperative prefix ''i-'' is missing.
+
+In addition, the past tense has two stems: '''gíb-''' before consonant-initial suffixes (first and second person) and '''gá:b-''' elsewhere (third person).
+
+===== Hollow verb, form I, fá:l/yifú:l =====
+
+Example: '''ʃá:f/yiʃú:f''' "see"
+
+{| class="wikitable"
+!  colspan=2|Tense/Mood
+!  colspan=2|Past
+!  colspan=2|Present Subjunctive
+!  colspan=2|Present Indicative
+!  colspan=2|Future
+!  colspan=2|Imperative
+|-
+!  colspan=2|Person
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+|-
+!  colspan=2|1st
+|  '''''ʃúf'''-t''
+|  '''''ʃúf'''-na''
+|  ''a-ʃú:f''
+|  ''ni-ʃú:f''
+|  ''ba-ʃú:f''
+|  ''bi-n-ʃú:f''
+|  ''ḥa-ʃú:f''
+|  ''ḥa-n-ʃú:f''
+| colspan=2 style=background:silver|
+|-
+! rowspan=2| 2nd
+!<small>masculine</small>
+|  '''''ʃúf'''-t''
+| rowspan=2|'''''ʃúf'''-tu''
+|  ''ti-ʃú:f''
+| rowspan=2|''ti-ʃú:f-u''
+|  ''bi-t-ʃú:f''
+| rowspan=2|''bi-t-ʃú:f-u''
+|  ''ḥa-t-ʃú:f''
+| rowspan=2|''ḥa-t-ʃú:f-u''
+|  ''ʃú:f''
+| rowspan=2|''ʃú:f-u''
+|-
+!<small>feminine</small>
+|  '''''ʃúf'''-ti''
+|  ''ti-ʃú:f-i''
+|  ''bi-t-ʃú:f-i''
+|  ''ḥa-t-ʃú:f-i''
+|  ''ʃú:f-i''
+|-
+!  rowspan=2|3rd
+!<small>masculine</small>
+|  ''ʃá:f''
+| rowspan=2|''ʃá:f-u''
+|  ''yi-ʃú:f''
+| rowspan=2|''yi-ʃú:f-u''
+|  ''bi-y-ʃú:f''
+| rowspan=2|''bi-y-ʃú:f-u''
+|  ''ḥa-y-ʃú:f''
+| rowspan=2|''ḥa-y-ʃú:f-u''
+| rowspan=2 colspan=2 style=background:silver|
+|-
+!<small>feminine</small>
+|  ''ʃá:f-it''
+|  ''ti-ʃú:f''
+|  ''bi-t-ʃú:f''
+|  ''ḥa-t-ʃú:f''
+|-
+|}
+
+This verb class is identical to verbs such as '''gá:b/yigí:b''' except in having stem vowel ''u'' in place of ''i''.
+
+==== Doubled verbs ====
+
+Doubled verbs have the same consonant as middle and last root consonant, e.g. '''ḥább/yiḥíbb''' "love" from Ḥ-B-B.
+
+===== Doubled verb, form I, fáʕʕ/yifíʕʕ =====
+
+Example: '''ḥább/yiḥíbb''' "love"
+
+{| class="wikitable"
+!  colspan=2|Tense/Mood
+!  colspan=2|Past
+!  colspan=2|Present Subjunctive
+!  colspan=2|Present Indicative
+!  colspan=2|Future
+!  colspan=2|Imperative
+|-
+!  colspan=2|Person
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+|-
+!  colspan=2|1st
+|  '''''ḥabbé:'''-t''
+|  '''''ḥabbé:'''-na''
+|  ''a-ḥíbb''
+|  ''ni-ḥíbb''
+|  ''ba-ḥíbb''
+|  ''bi-n-ḥíbb''
+|  ''ḥa-ḥíbb''
+|  ''ḥa-n-ḥíbb''
+| colspan=2 style=background:silver|
+|-
+! rowspan=2| 2nd
+!<small>masculine</small>
+|  '''''ḥabbé:'''-t''
+| rowspan=2|'''''ḥabbé:'''-tu''
+|  ''ti-ḥíbb''
+| rowspan=2|''ti-ḥíbb-u''
+|  ''bi-t-ḥíbb''
+| rowspan=2|''bi-t-ḥíbb-u''
+|  ''ḥa-t-ḥíbb''
+| rowspan=2|''ḥa-t-ḥíbb-u''
+|  ''ḥíbb''
+| rowspan=2|''ḥíbb-u''
+|-
+!<small>feminine</small>
+|  '''''ḥabbé:'''-ti''
+|  ''ti-ḥíbb-i''
+|  ''bi-t-ḥíbb-i''
+|  ''ḥa-t-ḥíbb-i''
+|  ''ḥíbb-i''
+|-
+!  rowspan=2|3rd
+!<small>masculine</small>
+|  ''ḥább''
+| rowspan=2|''ḥább-u''
+|  ''yi-ḥíbb''
+| rowspan=2|''yi-ḥíbb-u''
+|  ''bi-y-ḥíbb''
+| rowspan=2|''bi-y-ḥíbb-u''
+|  ''ḥa-y-ḥíbb''
+| rowspan=2|''ḥa-y-ḥíbb-u''
+| rowspan=2 colspan=2 style=background:silver|
+|-
+!<small>feminine</small>
+|  ''ḥább-it''
+|  ''ti-ḥíbb''
+|  ''bi-t-ḥíbb''
+|  ''ḥa-t-ḥíbb''
+|-
+|}
+
+This verb works much like '''gá:b/yigí:b''' "bring".  Like that class, it has two stems in the past, which are '''ḥabbé:-''' before consonant-initial suffixes (first and second person) and '''ḥább-''' elsewhere (third person).  ''é:-'' was borrowed from the defective verbs; the Classical Arabic equivalent form would be *'''ḥabáb-''', e.g. *'''ḥabáb-t'''.
+
+Other verbs have ''u'' or ''a'' in the present stem: '''baṣṣ/yibúṣṣ''' "to look", '''ṣaḥḥ/yiṣáḥḥ''' "be right, be proper".
+
+As for the other forms:
+*Form II, V doubled verbs are strong: '''ḥáddid/yiḥáddid''' "limit, fix (appointment)"
+*Form III, IV, VI, VIII doubled verbs seem non-existent
+*Form VII and VIIt doubled verbs (same stem vowel ''a'' in both stems): '''inbáll/yinbáll''' "be wetted", '''itʕádd/yitʕádd'''
+*Form VIII doubled verbs (same stem vowel ''a'' in both stems): '''ihtámm/yihtámm''' "be interested (in)"
+*Form IX verbs (automatically behave as "doubled" verbs, same stem vowel ''a'' in both stems): '''iḥmárr/yiḥmárr''' "be red, blush", '''iḥláww/yiḥláww''' "be sweet"
+*Form X verbs '''''(stem vowel either ''a'' or ''i'' in non-past)''''': '''istaḥáʔʔ/yistaḥáʔʔ''' "deserve" vs. '''istaʕádd/yistaʕídd''' "be ready", '''istamárr/yistamírr''' "continue".
+
+==== Assimilated verbs ====
+
+Assimilated verbs have W or Y as the first root consonant.  Most of these verbs have been regularized in Egyptian Arabic, e.g. '''wázan/yíwzin''' "to weigh" or '''wíṣíl/yíwṣal''' "to arrive".  Only a couple of irregular verbs remain, e.g. '''wíʔif/yúʔaf''' "stop" and '''wíʔiʕ/yúʔaʕ''' "fall" (see below).
+
+==== Doubly weak verbs ====
+
+"Doubly weak" verbs have more than one "weakness", typically a W or Y as both the second and third consonants.  This term is in fact a misnomer, as such verbs actually behave as normal defective verbs (e.g. '''káwa/yíkwi''' "iron (clothes)" from K-W-Y, '''ʔáwwa/yiʔáwwi''' "strengthen" from ʔ-W-Y, '''dá:wa/yidá:wi''' "treat, cure" from D-W-Y).
+
+==== Irregular verbs ====
+
+The irregular verbs are as follows:
+
+*'''ídda/yíddi''' "give" (endings like a normal defective verb)
+*'''wíʔif/yúʔaf''' "stop" and '''wíʔiʕ/yúʔaʕ''' "fall" (''áʔaf, báʔaf, ḥáʔaf'' "I (will) stop"; úʔaf "stop!")
+*'''kal/yá:kul''' "eat" and '''xad/yá:xud''' "take" (''kalt, kal, kálit, kálu'' "I/he/she/they ate", also regular ''ákal, etc.'' "he/etc. ate"; ''á:kul, bá:kul, ḥá:kul'' "I (will) eat", ''yáklu'' "they eat"; ''kúl, kúli, kúlu'' "eat!"; ''wá:kil'' "eating"; ''mittá:kil'' "eaten")
+*'''gé/yí:gi''' "come".  This verb is extremely irregular (with particularly unusual forms in boldface):
+
+{| class="wikitable"
+!  colspan=2|Tense/Mood
+!  colspan=2|Past
+!  colspan=2|Present Subjunctive
+!  colspan=2|Imperative
+|-
+!  colspan=2|Person
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+|-
+!  colspan=2|1st
+|  '''''gé:'''-t'' or '''''gí:'''-t''
+|  ''gé:-na'' or ''gí:-na''
+|  '''''á:'''-gi''
+|  ''ní:-gi''
+| colspan=2 style=background:silver|
+|-
+! rowspan=2| 2nd
+!<small>masculine</small>
+|  ''gé:-t'' or ''gí:-t''
+|  rowspan=2|''gé:-tu'' or ''gí:-tu''
+|  '''''tí:'''-gi''
+| rowspan=2|''tí:-g-u''
+|  '''''taʕá:la'''''
+| rowspan=2|'''''taʕá:l-u'''''
+|-
+!<small>feminine</small>
+|  ''gé:-ti'' or ''gí:-ti''
+|  ''tí:-g-i''
+|  '''''taʕá:l-i'''''
+|-
+!  rowspan=2|3rd
+!<small>masculine</small>
+|  '''''gé''''' or '''''gá''''' (also '''''ʔíga''''')<br />
+   '''''gá:-ni''''' (or ''-li'')<br />
+   "he came to me"<br />
+   but '''not''' *''gé:-ni''
+| rowspan=2|'''''gum'''''<br />
+   but '''''gú:-ni''''' (or ''-li'')<br />
+   "they came to me" and
+   '''''magú:-ʃ''''' "they didn't come"
+|  ''yí:-gi''
+| rowspan=2|''yí:-g-u''
+| rowspan=2 colspan=2 style=background:silver|
+|-
+!<small>feminine</small>
+|  '''''gat''''' (also '''''ʔígat''''')
+|  ''tí:-gi''
+|-
+|}
+
+Example: '''gé/yí:gi''' "come": non-finite forms
+
+{| class="wikitable"
+!  Number/Gender
+!  Active Participle
+!  Verbal Noun
+|-
+!  Masc. Sg.
+|  '''''gayy'''''
+|  rowspan=3|'''''nigíyy'''''
+|-
+!  Fem. Sg.
+|  '''''gáyy'''-a''
+|-
+!  Pl.
+|  '''''gayy'''-í:n''
+|-
+|}
+
+==== Table of verb forms ====
+
+In this section all verb classes and their corresponding stems are listed, excluding the small number of irregular verbs described above.  Verb roots are indicated schematically using capital letters to stand for consonants in the root:
+*F = first consonant of root
+*M = middle consonant of three-consonant root
+*S = second consonant of four-consonant root
+*T = third consonant of four-consonant root
+*L = last consonant of root
+Hence, the root F-M-L stands for all three-consonant roots, and F-S-T-L stands for all four-consonant roots. (Traditional Arabic grammar uses F-ʕ-L and F-ʕ-L-L, respectively, but the system used here appears in a number of grammars of spoken Arabic dialects and is probably less confusing for English speakers, since the forms are easier to pronounce than those involving ''ʕ''.)
+
+The following table lists the prefixes and suffixes to be added to mark tense, person, number and gender, and the stem form to which they are added.  The forms involving a vowel-initial suffix, and corresponding stem <small>PA<sub>v</sub></small> or <small>NP<sub>v</sub></small>, are highlighted in silver.  The forms involving a consonant-initial suffix, and corresponding stem <small>PA<sub>c</sub></small>, are highlighted in gold.  The forms involving a no suffix, and corresponding stem <small>PA<sub>0</sub></small> or <small>NP<sub>0</sub></small>, are unhighlighted.
+
+{| class="wikitable"
+!  colspan=2|Tense/Mood
+!  colspan=2|Past
+!  colspan=2|Non-Past
+|-
+!  colspan=2|Person
+!  Singular
+!  Plural
+!  Singular
+!  Plural
+|-
+!  colspan=2|1st
+|  style=background:gold|''<small>PA<sub>c</sub></small>-'''t'''''
+|  style=background:gold|''<small>PA<sub>c</sub></small>-'''na'''''
+|  '''''a'''-<small>NP<sub>0</sub></small>''
+|  '''''ni'''-<small>NP<sub>0</sub></small>''
+|-
+! rowspan=2| 2nd
+!<small>masculine</small>
+|  style=background:gold|''<small>PA<sub>c</sub></small>-'''t'''''
+|  style=background:gold rowspan=2|''<small>PA<sub>c</sub></small>-'''tu'''''
+|  '''''ti'''-<small>NP<sub>0</sub></small>''
+|  style=background:silver rowspan=2|'''''ti'''-<small>NP<sub>v</sub></small>-'''u'''''
+|-
+!<small>feminine</small>
+|  style=background:gold|''<small>PA<sub>c</sub></small>-'''ti'''''
+|  style=background:silver|'''''ti'''-<small>NP<sub>v</sub></small>-'''i'''''
+|-
+!  rowspan=2|3rd
+!<small>masculine</small>
+|  ''<small>PA<sub>0</sub></small>''
+|  style=background:silver rowspan=2|''<small>PA<sub>v</sub></small>-'''u'''''
+|  '''''yi'''-<small>NP<sub>0</sub></small>''
+|  style=background:silver rowspan=2|'''''yi'''-<small>NP<sub>v</sub></small>-'''u'''''
+|-
+!<small>feminine</small>
+|  style=background:silver|''<small>PA<sub>v</sub></small>-'''it'''''
+|  '''''ti'''-<small>NP<sub>0</sub></small>''
+|-
+|}
+
+The following table lists the verb classes along with the form of the past and non-past stems, active and passive participles, and verbal noun, in addition to an example verb for each class.
+
+Notes:
+*Italicized forms are those that follow automatically from the regular rules of vowel shortening and deletion.
+*Multisyllabic forms without a stress mark have variable stress, depending on the nature of the suffix added, following the regular rules of stress assignment.
+*Many participles and verbal nouns have acquired an extended sense.  In fact, participles and verbal nouns are the major sources for lexical items based on verbs, especially derived (i.e. non-Form-I) verbs.
+*Some verb classes do not have a regular verbal noun form; rather, the verbal noun varies from verb to verb.  Even in verb classes that do have a regular verbal noun form, there are exceptions.  In addition, some verbs share a verbal noun with a related verb from another class (in particular, many passive verbs use the corresponding active verb's verbal noun, which can be interpreted in either an active or passive sense).  Some verbs appear to lack a verbal noun entirely. (In such a case, a paraphrase would be used involving a clause beginning with ''inn''.)
+*Outside of Form I, passive participles as such are usually non-existent; instead, the active participle of the corresponding passive verb class (e.g. Forms V, VI, VIIt/VIIn for Forms II, III, I respectively) is used.  The exception is certain verbs in Forms VIII and X that contain a "classicized" passive participle that is formed in imitation of the corresponding participle in [[Classical Arabic]], e.g. ''mistáʕmil'' "using", ''mustáʕmal'' "used".
+*Not all forms have a separate verb class for hollow or doubled roots.  When no such class is listed below, roots of that shape appear as strong verbs in the corresponding form, e.g. Form II strong verb ''ḍáyyaʕ/yiḍáyyaʕ'' "waste, lose" related to Form I hollow verb ''ḍá:ʕ/yiḍí:ʕ'' "be lost", both from root Ḍ-Y-ʕ.
+
+{| class="wikitable" style="text-align:center"
+!  rowspan=5|Form
+!  rowspan=5|Root Type
+!  colspan=6|Stem
+!  colspan=2|Participle
+!  rowspan=5|Verbal Noun
+!  rowspan=5|Example
+|-
+!  style=background:silver|
+!  colspan=3|Past
+!  colspan=2 rowspan=2|Non-Past
+!  rowspan=4|Active
+!  rowspan=4|Passive
+|-
+! <small>Person of Suffix</small>
+!  1st/2nd
+!  colspan=2|3rd
+|-
+! <small>Suffix Type</small>
+!  <small>Cons-Initial</small>
+!  <small>None</small>
+!  <small>Vowel-Initial</small>
+!  <small>None</small>
+!  <small>Vowel-Initial</small>
+|-
+! <small>Suffix Name</small>
+!  style=background:gold|<small>PA<sub>c</sub></small>
+!  <small>PA<sub>0</sub></small>
+!  style=background:silver|<small>PA<sub>v</sub></small>
+!  <small>NP<sub>0</sub></small>
+!  style=background:silver|<small>NP<sub>v</sub></small>
+|-
+!  rowspan=6|I
+!  rowspan=6|Strong
+|  rowspan=6 style=background:silver|
+|  rowspan=3 colspan=3|FaMaL
+|  colspan=2|FMaL
+|  rowspan=6|Fá:MiL
+|  rowspan=6|maFMú:L
+|  rowspan=6|(varies, e.g.<br /> FaML, FiML)
+|  '''fátaḥ/yíftaḥ''' "open"
+|-
+|  colspan=2|FMiL
+|  '''kátab/yíktib''' "write"
+|-
+|  colspan=2|FMuL
+|  '''dáxal/yúdxul''' "enter"
+|-
+|  rowspan=3 colspan=2|FiMiL
+|  rowspan=3|''FiML''
+|  colspan=2|FMaL
+|  '''fíhim/yífham''' "understand"
+|-
+|  colspan=2|FMiL
+|  '''mísik/yímsik''' "hold, catch"
+|-
+|  colspan=2|FMuL
+|  '''síkin/yúskun''' "reside"
+|-
+!  rowspan=4|I
+!  rowspan=4|Defective
+|  rowspan=4 style=background:silver|
+|  rowspan=2|FaMé:
+|  rowspan=2|FáMa
+|  rowspan=2|FaM
+|  FMa
+|  FM
+|  rowspan=4|Fá:Mi
+|  rowspan=4|máFMi
+|  rowspan=4|(varies, e.g.<br /> FaMy, máFMa)
+|  '''báʔa/yíbʔa''' "remain"
+|-
+|  FMi
+|  FM
+|  '''ráma/yírmi''' "throw"
+|-
+|  rowspan=2|FiMí:
+|  rowspan=2|FíMi
+|  rowspan=2|FíMy
+|  FMa
+|  FM
+|  '''nísi/yínsa''' "forget"
+|-
+|  FMi
+|  FM
+|  '''míʃi/yímʃi''' "walk"
+|-
+!  rowspan=4|I
+!  rowspan=4|Hollow
+|  rowspan=4 style=background:silver|
+|  FíL
+|  rowspan=4 colspan=2|Fá:L
+|  colspan=2|Fí:L
+|  rowspan=4|Fá:yiL
+|  rowspan=4|(mitFá:L, properly<br />Form VIIt)
+|  rowspan=4|(varies, e.g.<br /> Fe:L, Fo:L)
+|  '''ga:b/yigí:b''' "bring"
+|-
+| FúL
+|  colspan=2|Fú:L
+|  '''ʃa:f/yiʃú:f''' "see"
+|-
+| FíL
+|  rowspan=2 colspan=2|Fá:L
+|  '''na:m/yiná:m''' "sleep"
+|-
+| FúL
+|  '''xa:f/yixá:f''' "fear"
+|-
+!  rowspan=2|I
+!  rowspan=2|Doubled
+|  rowspan=2 style=background:silver|
+|  rowspan=2|FaMMé:
+|  rowspan=2 colspan=2|FáMM
+|  colspan=2|FíMM
+|  rowspan=2|Fá:MiM
+|  rowspan=2|maFMú:M
+|  rowspan=2|(varies, e.g.<br /> FaMM, FuMM)
+|  '''ḥabb/yiḥíbb''' "love"
+|-
+| colspan=2|FúMM
+|  '''ḥaṭṭ/yiḥúṭṭ''' "put"
+|-
+!  rowspan=2|II
+!  rowspan=2|Strong
+|  rowspan=2 style=background:silver|
+|  colspan=5|FaMMaL
+|  miFáMMaL
+|  rowspan=2 style=background:silver|
+|  rowspan=2|taFMí:L
+|  '''ɣáyyaṛ/yiɣáyyaṛ''' "change"
+|-
+|  colspan=5|FaMMiL
+|  miFáMMiL
+|  '''dárris/yidárris''' "teach"
+|-
+!  II
+!  Defective
+|  style=background:silver|
+|  FaMMé:
+|  FáMMa
+|  FáMM
+|  FáMMi
+|  FáMM
+|  miFáMMi
+|  style=background:silver|
+|  taFMíya
+|  '''wárra/yiwárri''' "show"
+|-
+!  III
+!  Strong
+|  style=background:silver|
+|  ''FaMíL''
+|  Fá:MiL
+|  ''FáML''
+|  Fá:MiL
+|  ''FáML''
+|  miFá:MiL
+|  style=background:silver|
+|  miFáMLa
+|  '''zá:kir/yizá:kir''' "study"
+|-
+!  III
+!  Defective
+|  style=background:silver|
+|  FaMé:
+|  Fá:Ma
+|  Fá:M
+|  Fá:Mi
+|  Fá:M
+|  miFá:Mi
+|  style=background:silver|
+|  miFáMya
+|  '''ná:da/yiná:di''' "call"
+|-
+!  IV
+!  Strong
+|  style=background:silver|
+|  colspan=3|ʔáFMaL
+|  colspan=2|FMiL
+|  míFMiL
+|  style=background:silver|
+|  iFMá:L
+|  '''ʔáḍṛab/yíḍrib''' "go on strike"
+|-
+!  IV
+!  Defective
+|  style=background:silver|
+|  ʔaFMé:
+|  ʔáFMa
+|  ʔáFM
+|  FMi
+|  FM
+|  míFMi
+|  style=background:silver|
+|  (uncommon)
+|  '''ʔáṛḍa/yíṛḍi''' "please"
+|-
+!  IV
+!  Hollow
+|  style=background:silver|
+|  ʔaFáL
+|  colspan=2|ʔaFá:L
+|  colspan=2|Fí:L
+|  miFí:L
+|  style=background:silver|
+|  ʔiFá:La
+|  '''ʔafá:d/yifí:d''' "inform"
+|-
+!  IV
+!  Doubled
+|  style=background:silver|
+|  ʔaFaMMé:
+|  colspan=2|ʔaFáMM
+|  colspan=2|FíMM
+|  miFíMM
+|  style=background:silver|
+|  iFMá:M
+|  '''ʔaṣárr/yiṣírr''' "insist"
+|-
+!  rowspan=2|V
+!  rowspan=2|Strong
+|  rowspan=2 style=background:silver|
+|  colspan=3|itFaMMaL
+|  colspan=2|tFaMMaL
+|  mitFáMMaL
+|  rowspan=2 style=background:silver|
+|  rowspan=2|taFáMMuL (or Form II)
+|  '''itmáṛṛan/yitmáṛṛan''' "practice"
+|-
+|  colspan=3|itFaMMiL
+|  colspan=2|tFaMMiL
+|  mitFáMMiL
+|  '''itkállim/yitkállim''' "speak"
+|-
+!  V
+!  Defective
+|  style=background:silver|
+|  itFaMMé:
+|  itFáMMa
+|  itFáMM
+|  tFáMMa
+|  tFáMM
+|  mitFáMMi
+|  style=background:silver|
+|  (use Form II)
+|  '''itʔáwwa/yitʔáwwa''' "become strong"
+|-
+!  VI
+!  Strong
+|  style=background:silver|
+|  ''itFaMíL''
+|  itFá:MiL
+|  ''itFáML''
+|  tFá:MiL
+|  ''tFáML''
+|  mitFá:MiL
+|  style=background:silver|
+|  taFá:MuL (or Form III)
+|  '''itʕá:win/yitʕá:win''' "cooperate"
+|-
+!  VI
+!  Defective
+|  style=background:silver|
+|  itFaMé:
+|  itFá:Ma
+|  itFá:M
+|  tFá:Ma
+|  tFá:M
+|  mitFá:Mi
+|  style=background:silver|
+|  (use Form III)
+|  '''iddá:wa/yiddá:wa''' "be treated, be cured"
+|-
+!  VIIn
+!  Strong
+|  style=background:silver|
+|  colspan=3|inFáMaL
+|  nFíMiL
+|  ''nFíML''
+|  minFíMiL
+|  style=background:silver|
+|  inFiMá:L  (or Form I)
+|  '''inbásaṭ/yinbísiṭ''' "enjoy oneself"
+|-
+!  VIIn
+!  Defective
+|  style=background:silver|
+|  inFaMé:
+|  inFáMa
+|  inFáM
+|  nFíMi
+|  nFíM
+|  minFíMi
+|  style=background:silver|
+|  (use Form I)
+|  '''inḥáka/yinḥíki''' "be told"
+|-
+!  VIIn
+!  Hollow
+|  style=background:silver|
+|  inFáL
+|  colspan=2|inFá:L
+|  colspan=2|nFá:L
+|  minFá:L
+|  style=background:silver|
+|  inFiyá:L  (or Form I)
+|  '''inbá:ʕ/yinbá:ʕ''' "be sold"
+|-
+!  VIIn
+!  Doubled
+|  style=background:silver|
+|  inFaMMé:
+|  colspan=2|inFáMM
+|  colspan=2|nFáMM
+|  minFáMM
+|  style=background:silver|
+|  inFiMá:M  (or Form I)
+|  '''inbáll/yinbáll''' "be wetted"
+|-
+!  VIIt
+!  Strong
+|  style=background:silver|
+|  colspan=3|itFáMaL
+|  tFíMiL
+|  ''tFíML''
+|  mitFíMiL
+|  style=background:silver|
+|  itFiMá:L  (or Form I)
+|  '''itwágad/yitwígid''' "be found"
+|-
+!  VIIt
+!  Defective
+|  style=background:silver|
+|  itFaMé:
+|  itFáMa
+|  itFáM
+|  tFíMi
+|  tFíM
+|  mitFíMi
+|  style=background:silver|
+|  (use Form I)
+|  '''itnása/yitnísi''' "be forgotten"
+|-
+!  VIIt
+!  Hollow
+|  style=background:silver|
+|  itFáL
+|  colspan=2|itFá:L
+|  colspan=2|tFá:L
+|  mitFá:L
+|  style=background:silver|
+|  itFiyá:L  (or Form I)
+|  '''itbá:ʕ/yitbá:ʕ''' "be sold"
+|-
+!  VIIt
+!  Doubled
+|  style=background:silver|
+|  itFaMMé:
+|  colspan=2|itFáMM
+|  colspan=2|tFáMM
+|  mitFáMM
+|  style=background:silver|
+|  itFiMá:M  (or Form I)
+|  '''itʕádd/yitʕádd''' "be counted"
+|-
+!  VIII
+!  Strong
+|  style=background:silver|
+|  colspan=3|iFtáMaL
+|  FtíMiL
+|  ''FtíML''
+|  miFtíMiL, muFtáMiL (classicized)
+|  muFtáMaL (classicized)
+|  iFtiMá:L  (or Form I)
+|  '''istálam/yistílim''' "receive"
+|-
+!  VIII
+!  Defective
+|  style=background:silver|
+|  iFtaMé:
+|  iFtáMa
+|  iFtáM
+|  FtíMi
+|  FtíM
+|  miFtíMi, muFtáMi (classicized)
+|  style=background:silver|
+|  (use Form I)
+|  '''iʃtára/yiʃtíri''' "buy"
+|-
+!  VIII
+!  Hollow
+|  style=background:silver|
+|  iFtáL
+|  colspan=2|iFtá:L
+|  colspan=2|Ftá:L
+|  miFtá:L, muFtá:L (classicized)
+|  style=background:silver|
+|  iFtiyá:L  (or Form I)
+|  '''ixtá:ṛ/yixtá:ṛ''' "choose"
+|-
+!  VIII
+!  Doubled
+|  style=background:silver|
+|  iFtaMMé:
+|  colspan=2|iFtáMM
+|  colspan=2|FtáMM
+|  miFtáMM, muFtáMM (classicized)
+|  style=background:silver|
+|  iFtiMá:M  (or Form I)
+|  '''ihtámm/yihtámm''' "be interested (in)"
+|-
+!  IX
+!  Strong
+|  style=background:silver|
+|  iFMaLLé:
+|  colspan=2|iFMáLL
+|  colspan=2|FMáLL
+|  miFMíLL
+|  style=background:silver|
+|  iFMiLá:L
+|  '''iḥmáṛṛ/yiḥmáṛṛ''' "be red, blush"
+|-
+!  rowspan=2|X
+!  rowspan=2|Strong
+|  rowspan=2 style=background:silver|
+|  colspan=3|istáFMaL
+|  colspan=2|stáFMaL
+|  mistáFMaL, mustáFMaL (classicized)
+|  style=background:silver|
+|  rowspan=2|istiFMá:L
+|  '''istáɣṛab/yistáɣṛab''' "be surprised"
+|-
+|  colspan=3|istáFMiL
+|  colspan=2|stáFMiL
+|  mistáFMiL, mustáFMiL (classicized)
+|  mustáFMaL (classicized)
+|  '''istáʕmil/yistáʕmil''' "use"
+|-
+!  X
+!  Defective
+|  style=background:silver|
+|  istaFMé:
+|  istáFMa
+|  istáFM
+|  stáFMa
+|  stáFM
+|  mistáFMi, mustáFMi (classicized)
+|  style=background:silver|
+|  (uncommon)
+|  '''istákfa/yistákfa''' "be enough"
+|-
+!  X
+!  Hollow
+|  style=background:silver|
+|  istaFáL
+|  colspan=2|istaFá:L
+|  colspan=2|staFí:L
+|  mistaFí:L, mistaFí:L (classicized)
+|  style=background:silver|
+|  istiFá:L a
+|  '''istaʔá:l/yistaʔí:l''' "resign"
+|-
+!  rowspan=2|X
+!  rowspan=2|Doubled
+|  rowspan=2 style=background:silver|
+|  rowspan=2|istaFaMMé:
+|  rowspan=2 colspan=2|istaFáMM
+|  colspan=2|staFáMM
+|  mistaFáMM, mustaFáMM (classicized)
+|  rowspan=2 style=background:silver|
+|  rowspan=2|istiFMá:M
+|  '''istaḥáʔʔ/yistaḥáʔʔ''' "deserve"
+|-
+|  colspan=2|staFíMM
+|  mistaFíMM, mustaFíMM (classicized)
+|  '''istamáṛṛ/yistamírr''' "continue"
+|-
+!  rowspan=2|Iq
+!  rowspan=2|Strong
+|  rowspan=2 style=background:silver|
+|  colspan=5|FaSTaL
+|  miFáSTaL
+|  rowspan=2 style=background:silver|
+|  rowspan=2| FaSTáLa
+|  '''láxbaṭ/yiláxbaṭ''' "confuse"
+|-
+|  colspan=5|FaSTiL
+|  miFáSTiL
+|  '''xárbiʃ/yixárbiʃ''' "scratch"
+|-
+!  rowspan=2|IIq
+!  rowspan=2|Strong
+|  rowspan=2 style=background:silver|
+|  colspan=3|itFaSTaL
+|  colspan=2|tFaSTaL
+|  mitFáSTaL
+|  rowspan=2 style=background:silver|
+|  rowspan=2|itFaSTáLa
+|  '''itláxbaṭ/yitláxbaṭ''' "be confused"
+|-
+|  colspan=3|itFaSTiL
+|  colspan=2|tFaSTiL
+|  mitFáSTiL
+|  '''itʃáʕlil/yitʃáʕlil''' "flare up"
+|}
+
+=== Negation ===
+{{Main|Negation in Arabic}}
+
+One characteristic feature of Egyptian syntax is the two-part negative verbal circumfix {{IPA|/ma-...-ʃ(i)/}}, which it shares with other North African dialect areas as well as some [[South Levantine Arabic|southern Levantine]] dialect areas, probably as a result of the influence of Egyptian Arabic on these areas:
+
+* Past: {{IPA|/ˈkatab/}} "he wrote" {{IPA|/ma-katab-ʃ(i)/}} "he didn't write" {{lang|arz|ما كتبشِ}}
+* Present: {{IPA|/ˈbijik-tib/}} "he writes" {{IPA|/ma-bjik-tib-ʃ(i)/}} "he doesn't write" {{lang|arz|ما بيكتبشِ}}
+
+{{IPA|/ma-/}} probably comes from the Arabic negator {{IPA|/maː/}}. This negating [[circumfix]] is similar in function to the [[French language|French]] circumfix {{lang|fr|ne ... pas}}. It should also be noted that Coptic and Ancient Egyptian both had negative circumfix.
+
+The structure can end in a consonant {{IPA|/ʃ/}} or in a vowel {{IPA|/i/}}, varying according to the individual or region. Nowadays speakers use {{IPA|/ʃ/}}. However, {{IPA|/ʃi/}} was sometimes used stylistically, specially in the past, as attested in [[Egyptian films of the 1940s|old films]].
+
+The negative circumfix often surrounds the entire verbal composite including direct and indirect object pronouns:
+* {{IPA|/ma-katab-hum-ˈliː-ʃ/}}  "he didn't write them to me"
+However, verbs in the future tense can instead use the prefix /miʃ/:
+* {{IPA|/miʃ-ħa-ˈjiktib/}} (or {{IPA|/ma-ħa-jikˈtibʃ/}}  "he won't write"
+Interrogative sentences can be formed by adding the negation [[clitic]] "(miʃ)" before the verb:
+* Past: {{IPA|/ˈkatab/}} "he wrote"; {{IPA|/miʃ-ˈkatab/}} "didn't he write?"
+* Present: {{IPA|/ˈjiktib/}} "he writes"; {{IPA|/miʃ-bi-ˈjiktib/}} "doesn't he write?"
+* Future: {{IPA|/ħa-ˈjiktib/}} "he will write"; {{IPA|/miʃ-ħa-ˈjiktib/}} "won't he write?"
+Addition of the circumfix can cause complex changes to the verbal cluster, due to the application of the rules of vowel syncope, shortening, lengthening, insertion and elision described above:
+* The addition of /ma-/ may trigger elision or syncope:
+**A vowel following /ma-/ is elided: (ixtáːr) "he chose" → ({{IPA|maxtárʃ}}).
+**A short vowel /i/ or /u/ in the first syllable may be deleted by syncope: (kíbir) "he grew" → (makbírʃ).
+* The addition of {{IPA|/-ʃ/}} may result in vowel shortening or epenthesis:
+** A final long vowel preceding a single consonant shortens: (ixtáːr) "he chose" → (maxtárʃ).
+** An unstressed epenthetic /i/ is inserted when the verbal complex ends in two consonants: /kunt/ "I was" → (makúntiʃ).
+* In addition, the addition of {{IPA|/-ʃ/}} triggers a stress shift, which may in turn result in vowel shortening or lengthening:
+** The stress shifts to the syllable preceding {{IPA|/ʃ/}}: (kátab) "he wrote" → (makatábʃ).
+** A long vowel in the previously stressed syllable shortens: (ʃáːfit) "she saw" → (maʃafítʃ); (ʃá:fu) "they saw" ''or'' "he saw it" → (maʃafú:ʃ).
+** A final short vowel directly preceding {{IPA|/ʃ/}} lengthens: (ʃáːfu) "they saw" ''or'' "he saw it" → (maʃafú:ʃ).
+
+In addition, certain other morphological changes occur:
+* (ʃafúː) "they saw him" → (maʃafuhúːʃ) (to avoid a clash with (maʃafúːʃ) "they didn't see/he didn't see him").
+* (ʃáːfik) "He saw you (fem. sg.)" → (maʃafkíːʃ).
+* (ʃúftik) "I saw you (fem. sg.)" → (maʃuftikíːʃ).
+
+== Syntax ==
+In contrast with Classical Arabic, but much like the other [[varieties of Arabic]], Egyptian Arabic prefers [[subject–verb–object]] (SVO) [[word order]]; CA and to a lesser extent MSA prefer [[verb–subject–object]] (VSO). For example, in MSA "Adel read the book" would be {{lang|ar|قرأَ عادل الكتاب}} ''{{transliteration|ar|DIN|Qaraʾa ʿĀdilu l-kitāb}}'' <!--MSA as pronounced by Egyptians:-->{{IPA|ar|ˈqɑɾɑʔɑ ˈʕæːdel ol keˈtæːb|IPA}} whereas EA would say {{lang|arz|عادل قرا الكتاب}} ''{{transliteration|arz|ʕādil ʔara l-kitāb}}'' {{IPA|arz|ˈʕæːdel ˈʔɑɾɑ lkeˈtæːb|IPA}}.
+
+Also in common with other Arabic varieties is the loss of unique [[agreement (linguistics)|agreement]] in the dual form: while the dual remains productive to some degree in nouns, dual nouns are analyzed as plural for the purpose of agreement with verbs, demonstratives, and adjectives. Thus "These two Syrian professors are walking to the university" in MSA (in an SVO sentence for ease of comparison) would be "{{lang|ar|هذان الأستاذان السوريان يمشيان إلى الجامعة}}" ''{{transliteration|ar|DIN|Haḏān al-ʾustāḏān as-Sūriyyān yamšiyān ʾilā l-ǧāmiʿah}}'' <!--MSA as pronounced by Egyptians:-->{{IPA|ar|hæːˈzæːn æl ʔostæːˈzæːn as suːrejˈjæːn jæmʃeˈjæːn ˈʔelæ lɡæːˈmeʕæ|IPA}}, which becomes in EA "{{lang|arz|الأستاذين السوريين دول بيمشو للجامعة}}" ''{{transliteration|arz|il-ʔustazēn il-Suriyyīn dōl biyimʃu lil-gamʕa}},'' {{IPA|arz|el ʔostæˈzeːn el soɾejˈjiːn ˈdoːl beˈjemʃo lelˈɡæmʕæ|IPA}}.
+
+Unlike most other forms of Arabic, however, Egyptian prefers final placement of [[question word]]s in interrogative sentences. This is a feature characteristic of the [[#Coptic substratum|Coptic substratum of Egyptian Arabic]].
+
+== Coptic substratum ==
+{{see also|Copto-Arabic literature}}
+Some authors have argued for the influence of a [[stratum (linguistics)|substratum]] of the [[Coptic language]] which was the native language of the vast majority of [[Nile Valley]] Egyptians prior to the Muslim invasion on Egyptian Arabic,{{sfn|Nishio|1995}}{{sfn|Bishai|1962}}{{sfn|Youssef|2003}} specifically on its [[phonology]], [[syntax]], and [[lexicon]]. Coptic is the latest stage of the indigenous [[Egyptian language]] spoken until the mid-17th century when it was finally completely supplanted among Egyptian Muslims and a majority of Copts by the Egyptian Arabic.
+
+=== Phonology ===
+Since Coptic lacked [[interdental consonant]]s it could possibly have influenced the manifestation of their occurrences in [[Classical Arabic]] {{IPAslink|θ}} {{IPAslink|ð}} {{IPAslink|ðˤ}} as their dental counterparts {{IPAslink|t}} {{IPAslink|d}} and the emphatic dental {{IPAslink|dˤ}} respectively. (see [[Egyptian Arabic phonology#Consonants|consonants]])
+
+Behnstedt argues that the phenomenon of merging of interdentals with plosives has also occurred in areas without a substratum lacking interdentals, e.g. in [[Mecca]], [[Aden]] and [[Bahrain]], and can be caused by drift rather than the influence of a substratum concluding that "[o]n the phonological level, there is no evidence for Coptic substratal influence."{{sfn|Behnstedt|2005|p=501}}
+
+=== Syntax ===
+A syntactic feature of to Egyptian Arabic arguably inherited from Coptic{{sfn|Nishio|1995}} is the [[wh-in-situ|remaining]] of [[interrogative word]]s (i.e. "who", "when", "why") in their "logical" positions in a sentence rather than being preposed, or moved to the front of the sentence, as (mostly) in Classical Arabic or English.
+
+Examples:
+* {{lang|arz|راح مصر امتى؟}} {{IPA|/rˤaːħ masˤr ʔimta/}} "When ({{IPA|/ʔimta/}}) did he go to Egypt?" (lit. "He went to Egypt when?")
+* {{lang|arz|راح مصر ليه؟}} {{IPA|/rˤaːħ masˤr leːh/}} "Why ({{IPA|/leːh/}}) did he go to Egypt? (lit. "He went to Egypt why?")
+* {{lang|arz|مين [اللى] راح مصر؟}} {{IPA|/miːn rˤaːħ masˤr/}} or {{IPA|/miːn illi rˤaːħ masˤr/}} "Who ({{IPA|/miːn/}}) went to Egypt/Cairo? (literally – same order)
+The same sentences in [[Modern Standard Arabic|Literary Arabic]] (with all the question words (''wh''-words) in the beginning of the sentence) would be:
+* {{lang|ar|متى ذهب إلى مصر؟}} {{IPA|/mataː ðahaba ʔilaː misˤr/}}
+* {{lang|ar|لِمَ ذهب إلى مصر؟}} {{IPA|/lima ðahaba ʔilaː misˤr/}}
+* {{lang|ar|من ذهب إلى مصر؟}} {{IPA|/man ðahaba ʔilaː misˤr/}}
+
+Diem argues that in Cairene Arabic also the preposition of interrogative words occurs and in Classical Arabic and other Arabic dialects also their postposition and thus the effect of a Coptic substratum might be – if any – the preference for one of the two possibilities.{{sfn|Diem|1979|pp=51–52}}
+
+=== Lexicon ===
+Behnstedt estimates the existence of ca. 250 to 300 Coptic loanwords in Egyptian Arabic.{{sfn|Behnstedt|2005|p=503}}
+
+== Orthography and romanization ==
+=== Orthography ===
+There is no fixed orthography for Egyptian Arabic.
+Where it is written in Arabic script the orthography varies between spellings closer to those of Standard Arabic and spellings closer to the phonology of Egyptian Arabic.
+This variability arises from the deficiency of the Arabic script for writing the colloquial Egyptian Arabic, for which it is not designed. Part of this is the unavailability of signs for some sounds of Egyptian Arabic that are not part of Standard Arabic.{{sfn|Zack|2001|p=199|loc=1. The orthography}}
+Both options are used in parallel, often even in by one author or in one work.{{sfn|Woidich|2006|loc=Einleitung|p=2}}{{sfn|Zack|2001|pp=199–200|loc=a. Description of the orthography of ''Laban il-'aṣfūr''}}
+The two options appears for example for these cases:
+* treatment of originally long vowels that become short or deleted as a result of [[Egyptian Arabic phonology#Vowel shortening|vowel shortening]] or [[Egyptian Arabic phonology#Vowel deletion (syncope)|vowel deletion]], e.g. the feminine active participle of {{langx |arz|عرف |ʿirif |translit-std=ALA |lit=to know |label=none}}, that is pronounced {{IPA|arz|ˈʕæɾfæ|}}, can be written in two ways:
+** etymological spelling with the shortly pronounced originally long vowel "ا": {{lang|arz|عارفة}},
+** phonetic spelling without the "ا": {{lang|arz|عرفة}};
+* words written with the letters "ث"&lrm;, "ذ", and "ظ" in Standard Arabic that are pronounced {{IPAslink|t}}, {{IPAslink|z}}, and {{IPAslink|dˁ}} in Egyptian Arabic can keep their etymological Standard Arabic spelling or be phonetically respelled with "ت"&lrm;, "د" and "ض".
+
+=== Romanization ===
+{{See also|Arabic alphabet|Romanization of Arabic}}
+
+In the table below romanizations by different authors starting with Spitta's from 1880 are given as examples of the variety of those used.
+Where authors use custom glyphs the ones given try the best available approximation.
+The use of transcribing glyphs among different authors and between those and a representation of Egyptian Arabic in Arabic script (in doubt {{harvnb|Hinds|Badawi|1986}} is used below) can not be exactly aligned because different authors use different analyses of the studied language. Here also the table below tries to give a good approximation.
+
+{| class="wikitable" style="text-align:center;"
+|+
+|-
+! rowspan="2" | Arabic letter
+! colspan="7" | Romanization
+! rowspan="2" | [[International Phonetic Alphabet|IPA]]<ref>Generally, for more specific information see [[Egyptian Arabic phonology]].</ref>
+|-
+! Spitta<ref>For the consonants see {{harvnb|Spitta|1880|p=1|loc=§ 1a}}, for the vowels mainly {{harvnb|Spitta|1880|p=34|loc=§ 12a}}.</ref>
+! Mitchell{{sfn|Mitchell|1978|loc=B. The system of writing and hints on pronunciation|pp=2–3, 8, 13}}
+! Harrell<ref>For the consonants see {{harvnb|Harrell|1957|p=25}}, for the vowels see {{harvnb|Harrell|1957|p=45}}.</ref>
+! Abdel-Massih{{Citation needed|date=February 2023}}
+! Hinds/<br />Badawi{{sfn|Hinds|Badawi|1986|loc=8. Transcription|pp=XVI–XVIII}}
+! Woidich{{sfn|Woidich|2006|pp=XXVI–XXVII, 11}}
+! [[Arabic chat alphabet|Franco]]<ref>{{harvnb|Abu Elhija|2014|p=208}}; {{harvnb|Bjørnsson|2010|pp=41–42, 58, 61}}. Only the most common variants are listed, others are used as well.</ref>
+|-
+| colspan="9" | Consonants
+|-
+| [[ب]]
+| b 
+|b || b || b || b || b || b || {{IPAslink|b}}
+|-
+| ب/[[پ]]<ref name="p-j-v-marginal">The sounds {{IPAslink|p}}, {{IPAslink|ʒ}}, and {{IPAslink|v}} can appear in loanwords, but have a marginal status, often they aren't used by less educated speakers, cf.; {{harvnb|Mitchell|1978|loc=B. The system of writing and hints on pronunciation|p=8}}. Examples are:
+* {{lang|arz|پيپسى}} {{transliteration|arz|bebsi}} (or {{transliteration|arz|ALA|pepsi}}) "Pepsi", pronounced {{IPA|arz|ˈbeb.si|}} (or {{IPA|arz|ˈpep.si|}}),
+* {{wikt-lang|arz|چاكتة}} {{transliteration|arz|jakitta}} "jacket", pronounced {{IPA|arz|ʒæˈkettæ|}} or rarely by less educated speakers {{IPA|arz|zækettæ|}} and
+* {{wikt-lang|arz|ڤيلّا}} {{transliteration|arz|villa}} "villa", pronounced {{IPA|arz|ˈvel.læ|}} or rarely by less educated speakers {{IPA|arz|ˈfel.læ|}}.</ref> || || || p || || || || p || {{IPAslink|p}}<ref name="p-j-v-marginal" /> 
+|-
+| [[ت]]
+| t 
+|t|| t || t || t || t || t || {{IPAslink|t}} 
+|-
+| [[ث]]<ref name="lostsounds">The sounds of the letters ث&lrm;, ذ&lrm;, and ظ in Standard Arabic are not present in Egyptian Arabic. That is why the romanizations that are not [[transliteration]]s of the representation of Egyptian Arabic in Arabic script do not give a specific transcription for those letters but rather transcriptions that are the same like for other Arabic letters with the same pronunciation.</ref><br/>(respelled to ت for {{IPAslink|t}})
+|  
+|t/s<ref>As examples see "tálat" (p. 215) and "sánya" (p. 213).</ref> || || || t/θ || || t/s || {{IPAslink|t}}, {{IPAslink|s}}
+|-
+| [[ج]]
+| g 
+|g|| g || g || g || g || g || {{IPAslink|ɡ}} 
+|-
+| ج/[[چ]]<ref name="p-j-v-marginal" /> ||
+|j || ž || ž || j || ž || j || {{IPAslink|ʒ}}<ref name="p-j-v-marginal" /> 
+|-
+| [[ح]]
+| ḥ 
+|ꞕ|| [[ħ]] || ɦ || ꞕ || ḥ || 7/h (h<ref name="franco-names">Used in names.</ref>) || {{IPAslink|ħ}} 
+|-
+| [[خ]]
+| ḫ 
+|x|| x || x || x || x || kh/7'/5 (kh<ref name="franco-names" />) || {{IPAslink|x}} 
+|-
+| [[د]]
+| d 
+|d|| d || d || d || d || d || {{IPAslink|d}} 
+|-
+| [[ذ]]<ref name="lostsounds" /><br/>(respelled to د for {{IPAslink|d}})
+|  
+| || || || d/z || || d/z || {{IPAslink|d}}, {{IPAslink|z}}
+|-
+| [[ر]]
+| r 
+|r|| r || r/ṛ || r || r || r || {{IPAslink|r}}~{{IPAslink|ɾ}}
+|-
+| [[ز]]
+| z 
+|z|| z || z || z || z || z || {{IPAslink|z}} 
+|-
+| [[س]]
+| s 
+|s|| s || s || s || s || s || {{IPAslink|s}} 
+|-
+| [[ش]]
+| ś 
+|ʃ|| ʃ || š || ʃ || š || sh/ch || {{IPAslink|ʃ}} 
+|-
+| [[ص]]
+| ṣ 
+|ʂ|| || ṣ || ʂ || ṣ || s || {{IPAslink|sˁ}} 
+|-
+| [[ض]]
+| ḍ 
+|ɖ|| || ḍ || ɖ/ẓ || ḍ || d || {{IPAslink|dˁ}} 
+|-
+| [[ط]]
+| ṭ 
+|ʈ|| || ṭ || ʈ || ṭ || t || {{IPAslink|tˁ}} 
+|-
+| [[ظ]]<ref name="lostsounds" /><br/>(respelled to ض for {{IPAslink|dˁ}})
+|  
+|ʐ|| || ẓ || d/ᶎ || ẓ || z || {{IPAslink|dˁ}}, {{IPAslink|zˁ}} 
+|-
+| [[ع]]
+| ʿ 
+|[[ƹ]]|| <span>ع</span> || ʕ || [[ƹ]] || ʿ || 3 (not written or a/e<ref name="franco-names" />) || {{IPAslink|ʕ}} 
+|-
+| [[غ]]
+| ġ 
+|ɣ|| [[ǥ]] || ɣ || ɣ || ġ || gh/3' (gh<ref name="franco-names" />) || {{IPAslink|ɣ}} 
+|-
+| [[ف]]
+| f 
+|f|| f || f || f || f || f || {{IPAslink|f}} 
+|-
+| ف/[[ڤ]]<ref name="p-j-v-marginal" /> || || ||  || v || v || v || v || {{IPAslink|v}}<ref name="p-j-v-marginal" /> 
+|-
+| rowspan="2" | [[ق]]
+| q (ʾ)<ref>{{angbr|ʾ}} is used additionally to indicate phonology, but not generally for romanization, see {{harvnb|Spitta|1880|p=12|loc=§ 2a 18)}}.</ref> 
+|q|| ʔ || ʔ || ɢ || || 2/k || {{IPAslink|ʔ}} 
+|-
+| q 
+|q|| q || q || q || q || k || {{IPAslink|q}} 
+|-
+| [[ك]]
+| k 
+|k|| k || k || k || k || k || {{IPAslink|k}} 
+|-
+| [[ل]]
+| l 
+|l|| l || l/ḷ || l || l || l || {{IPAslink|l}} 
+|-
+| [[م]]
+| m 
+|m|| m || m || m || m || m || {{IPAslink|m}} 
+|-
+| [[ن]]
+| n 
+|n|| n || n || n || n || n || {{IPAslink|n}} 
+|-
+| [[ه]]
+| h 
+|h|| h || h || h || h || h || {{IPAslink|h}} 
+|-
+| [[و]]
+| w 
+|w|| w || w || w || w || w/ou || {{IPAslink|w}} 
+|-
+| [[ي]]
+| j 
+|y|| y || y || y || y || y/i || {{IPAslink|j}} 
+|-
+| [[ء]]
+| ʾ 
+|ʕ|| ʔ || ʔ || ʕ || ʾ ||  2 (not written or a/e<ref>Word-initial.</ref>) || {{IPAslink|ʔ}} 
+|-
+| colspan="9" | Long vowels
+|-
+| rowspan="2" | [[ا]]
+| ɑ̂/(ɑ̊)<ref>{{angbr|ɑ̊}} is used to indicate phonology, but not generally for romanization, cf. {{harvnb|Spitta|1880|p=36|loc=§ 13b}}: "''ṭɑlɑb'' (gespr. ''ṭɑ̊lɑb'')".</ref> 
+|aa|| a: || aa || aa || ā || a || {{IPAslink|a|a(ː)}}: {{IPAblink|æ|æ(ː)}} 
+|-
+| ɑ̈<!--ɑ&#x0308;--> 
+|aa|| a: || aa || ɑɑ || ā || a || {{IPAslink|a|a(ː)}}: {{IPAblink|ɑ|ɑ(ː)}} 
+|-
+| rowspan="2" | [[و]]
+| û 
+|uu|| u: || uu || uu || ū || ou/oo/o || {{IPAslink|u|u(ː)}} 
+|-
+|  
+|oo|| o: || oo || oo || ō || o || {{IPAslink|o|o(ː)}} 
+|-
+| rowspan="2" | [[ي]]
+| y 
+|ii|| i: || ii || ii || ī || i/ee || {{IPAslink|i|i(ː)}} 
+|-
+|  
+|ee|| e: || ee || ee || ē || e/ei/ai || {{IPAslink|e|e(ː)}} 
+|-
+| colspan="9" | Short vowels
+|-
+| [[Fatḥah|ـَ]]/[[ا]]
+| ɑ/ɑ̈<!--ɑ&#x0308;-->/(e/ɑ̊<!--ɑ&#x030A;-->)<ref>{{angbr|e}} and {{angbr|ɑ̊}} are used additionally to indicate phonology, but not generally for romanization.</ref> 
+|a|| a || a || a/ɑ || a || a || {{IPAslink|a}}<br/>{{IPAblink|æ}} and {{IPAblink|ɑ}}
+|-
+| [[Ḍammah|ـُ]]/[[و]]
+| o/u 
+|o/u|| u/(o) || o/u || o/u || o/u || o/ou || {{IPAslink|u}}<br/>{{IPAblink|o}}~{{IPAblink|ʊ}}~{{IPAblink|u}}
+|-
+| [[Kasrah|ـِ]]/[[ي]]
+| i/(e/ü)<ref>{{angbr|e}} and {{angbr|ü}} are used additionally to indicate phonology, but not generally for romanization, cf. {{harvnb|Spitta|1880|p=40|loc=§ 14}}: "''siḥr'' "Zauber" (sprich ''seḥr'' mit im Gaumen klingendem ''e'')" and "''ṣibjân'' "Jünglinge" sprich ''ṣübjân'' mit dumpfem ''ü'', welches dann zu ''ṣubjân'' wird".</ref> 
+|i/e|| i/(e) || e/i || e/i || e/i || e/i || {{IPAslink|i}}<br/>{{IPAblink|e}}~{{IPAblink|ɪ}} and {{IPAblink|i}}
+|-
+| epenthetic<br />([[Anaptyxis|anaptyctic]]<br />vowel)<ref>At least some authors transcribe stressed anaptyctic vowels like the other short vowels, cf. {{harvnb|Spitta|1880|loc=§ 21g. Betonter Zwischenvocal|p=55}} and {{harvnb|Hinds|Badawi|1986|p=XVIII}}: "Unstressed anaptyctic vowels are represented in small elevated form, while stressed anaptyctic vowels are given in the normal fount."</ref>
+| e̊/å/i̊/ů{{sfn|Spitta|1880|loc=§ 21. Die Zwischenvocale|pp=52–55}}
+|ĭ/ă/ŭ|| a/e/i/o/u{{sfn|Harrell|1957|loc=7.10|pp=59–60}} || || {{not a typo|ⁱ/ᵃ/...}}<ref>{{angbr|ᵃ}} is used for example in "ʕil-ʕɑgrᵃ ʕal-ɑllɑ" {{harvnb|Hinds|Badawi|1986|p=7}}, but maybe not all the possible glyphs {{angbr|ⁱ}}, {{angbr|ᵃ}}, {{angbr|ᵅ}}, {{angbr|ᵉ}}, {{angbr|ᵒ}} and {{angbr|ᵘ}} are actually used in transcription.</ref> || i/i̊/u/ů<ref>In [[sandhi]], i.e. at word boundary positions, the epenthetic vowel is transcribed {{angbr|i̊}}/{{angbr|ů}}, otherwise {{angbr|i}}/{{angbr|u}}, see {{harvnb|Woidich|2006|loc=1.3.2.3 Epenthese von ''-i-'' (Aufsprengung)|p=32}}.</ref> || not written/e{{sfn|Bjørnsson|2010|loc=4.2.1.2.3 The epenthetic vowel|pp=64–65}} || {{IPAblink|e}}~{{IPAblink|ɪ}}{{sfn|Woidich|2006|loc=1.3.2.3 Epenthese von ''-i-'' (Aufsprengung)|p=32}} 
+|}
+
+== Sociolinguistic features ==
+Egyptian Arabic is used in most social situations, with Modern Standard and Classical Arabic generally being used only in writing and in highly religious and/or formal situations. However, within Egyptian Arabic, there is a wide range of variation. [[El-Said Badawi]] identifies three distinct levels of Egyptian Arabic-based chiefly on the quantity of non-Arabic lexical items in the vocabulary: ''ʿĀmmiyyat al-Musaqqafīn'' (Cultured Colloquial or [[Formal Spoken Arabic]]), ''ʿĀmmiyyat al-Mutanawwirīn'' (Enlightened or Literate Colloquial), and ''ʿĀmmiyyat al-'Ummiyīn'' (Illiterate Colloquial).{{sfn|Hinds|Badawi|1986|pp=VII–X}} Cultured Colloquial/Formal Spoken Arabic is characteristic of the educated classes and is the language of discussion of high-level subjects, but it is still Egyptian Arabic; it is characterized by use of technical terms imported from foreign languages and MSA and closer attention to the pronunciation of certain letters (particularly ''[[ق|qāf]]''). It is relatively standardized and, being closer to the standard, it is understood fairly well across the [[Arab world]].{{sfn|Hinds|Badawi|1986|pp=VII–X}} On the opposite end of the spectrum, Illiterate Colloquial, common to rural areas and to working-class neighborhoods in the cities, has an almost-exclusively Arabic vocabulary; the few loanwords generally are very old borrowings (e.g. {{lang|arz|جمبرى}} ''{{transliteration|arz|gambari}}'', {{IPA|[ɡæmˈbæɾi]}} "[[shrimp]]", from [[Italian language|Italian]] ''gamberi'', "shrimp" (pl.)) or refer to technological items that find no or poor equivalents in Arabic (e.g. {{lang|arz|تلفزيون}} ''{{transliteration|arz|tel(e)vezyōn/tel(e)fezyōn}}'' {{IPA|[tel(e)vezˈjoːn, tel(e)fezˈjoːn]}}, [[television]]).{{sfn|Hinds|Badawi|1986|pp=VII–X}} Enlightened Colloquial (''ʿĀmmiyyat al-Mutanawwirīn'') is the language of those who have had some schooling and are relatively affluent; loanwords tend to refer to items of popular culture, consumer products, and fashions. It is also understood widely in the Arab world, as it is the ''[[lingua franca]]'' of [[Egyptian cinema]] and television.{{sfn|Hinds|Badawi|1986|pp=VII–X}}
+
+In contrast to MSA and most other varieties of Arabic, Egyptian Arabic has a form of the [[T-V distinction]]. In the singular, {{lang|arz|انت}} ''enta''/''enti'' is acceptable in most situations, but to address clear social superiors (e.g. older persons, superiors at work, certain government officials), the form {{lang|arz|حضرتك}} ''{{transliteration|arz|ḥaḍretak/ḥaḍretek}}'', meaning "Your [[Grace (style)|Grace]]" is preferred (compare [[Spanish language|Spanish]] ''[[Spanish pronouns#The use of vusted and vuestra merced|usted]]'').
+
+This use of ''{{transliteration|arz|ḥaḍretak/ḥaḍretek}}'' is linked to the system of [[honorifics]] in daily Egyptian speech. The honorific taken by a given person is determined by their relationship to the speaker and their occupation.
+
+{| class="wikitable" style="text-align:center;"
+|+ Examples of Egyptian honorifics
+|-
+! scope="col" | Honorific
+! scope="col" | [[International Phonetic Alphabet|IPA]]
+! scope="col" | Origin/meaning
+! scope="col" | Usage and notes
+|-
+|{{lang|arz|سِيَادْتَك}}/{{lang|arz|سِيَادْتِك}}<br />{{Transliteration|arz|ALA|siyadtak}}/{{Transliteration|arz|ALA|siyadtik}}
+|{{IPA|[seˈjættæk]}}
+|Standard Arabic ''{{transliteration|ar|siyādatuka}}'', "Your Lordship"
+| Persons with a far higher social standing than the speaker, particularly at work. Also applied to high government officials, including the [[President of Egypt|President]]. Equivalent in practical terms to "Your [[Excellency]]" or "The [[Most Honourable]]".
+|-
+|{{lang|arz|سَعَادْتَك}}<br />{{Transliteration|arz|ALA|saʿādtak}}
+|{{IPA|[sæˈʕættæk]}}
+|Standard Arabic ''{{transliteration|ar|saʿādatuka}}'', "Your Happiness"
+|Government officials and others with significantly higher social standing. Equivalent in governmental contexts "Your [[Excellency]]", or "Your Honor" when addressing a judge.
+|-
+|{{lang|arz|مَعَالِيك}}<br />{{Transliteration|arz|ALA|maʿālīk}}
+|{{IPA|[mæʕæˈliːk]}}
+|Standard Arabic ''{{transliteration|ar|maʿālīka}}'', "Your Highness"
+|(Obsolete.{{sfn|Hinds|Badawi|1986|p=598}}) [[Cabinet of Egypt|Government ministers]]. Equivalent in practical terms to "Your [[Excellency]]" or "The [[Right Honourable]]".
+|-
+|{{lang|arz|حَجّ}}/{{lang|arz|حَجَّة}}<br />{{Transliteration|arz|ALA|ḥagg}}/{{Transliteration|arz|ALA|ḥagg}}
+|{{IPA|[ˈħæɡ(ɡ)]}}/{{IPA|[ˈħæɡɡæ]}}
+|Standard Arabic [[hajji|{{transliteration|ar|DIN|ḥāǧ}}]], "pilgrim"
+|Traditionally, any Muslim who has made the ''[[Hajj]]'', or any Christian who has made a [[pilgrimage]] to [[Jerusalem]]. Currently also used as a general term of respect for all elderly people.
+|-
+|{{lang|arz|بَاشَا}}<br />{{Transliteration|arz|ALA|bāsha}}
+|{{IPA|[ˈbæːʃæ]}}
+|[[Ottoman Turkish language|Ottoman Turkish]] ''[[pasha]]''
+|Informal address to a male of similar social status. Roughly equivalent to "man" in informal English speech. (e.g. "Thanks man")
+|-
+|{{lang|arz|بيه/بك}}<br />{{Transliteration|arz|ALA|bēh}}
+|{{IPA|[beː]}}
+|Ottoman Turkish ''[[bey]]''
+|Informal address to a male of equal or lesser social status. Essentially equivalent to but less current than ''{{transliteration|arz|bāsha}}''. Somewhat archaic.
+|-
+|{{lang|arz|أَفَنْدِي}}<br />{{Transliteration|arz|ALA|afandi}}
+|{{IPA|[æˈfændi]}}
+|Ottoman Turkish ''[[effendi|efendi]]''
+|Archaic address to a well-born male of a less social standard than ''{{transliteration|arz|bēh}}'' and ''{{transliteration|arz|bāsha}}''; more commonly used jocularly to social equals or to younger male members of the same family.
+|-
+|{{lang|arz|هَانِم}}<br />{{Transliteration|arz|ALA|hānim}}
+|{{IPA|[ˈhæːnem]}}
+|Ottoman Turkish ''[[khan (title)#Compound and derived princely titles|hanım]]/khanum'', "Lady"
+|Address to a woman of high social standing, or esteemed as such by the speaker. Somewhat archaic, only used now for referring to an elder woman, or humorously for a little girl.
+|-
+|{{lang|arz|سِتّ}}<br />{{Transliteration|arz|ALA|sitt}}
+|{{IPA|[ˈset(t)]}}
+|Standard Arabic ''sayyida(t)'' "mistress"
+|The usual word for "woman". When used as a term of address, it conveys a modicum of respect. 
+|-
+|{{lang|arz|مَدَام}}<br />{{Transliteration|arz|ALA|madām}}
+|{{IPA|[mæˈdæːm]}}
+|[[French language|French]] ''madame''
+|Respectful term of address for an older or married woman.
+|-
+|{{lang|arz|آنِسَة}}<br />{{Transliteration|arz|ALA|ānisa}}
+|{{IPA|[ʔæˈnesæ]}}<!--yes, short initial [æ] because it's unstressed-->
+|Standard Arabic ''{{transliteration|ar|ānisah}}'', "young lady"
+|Semi-formal address to an unmarried young woman.
+|-
+|{{lang|arz|أُسْتَاذ}}<br />{{Transliteration|arz|ALA|ustāz}}
+|{{IPA|[ʔosˈtæːz]}}
+|Standard Arabic ''{{transliteration|ar|ustādh}}'', "professor", "gentleman"
+|Besides actual university [[professor]]s and [[schoolteacher]]s, used for experts in certain fields. May also be used as a generic informal respectul reference, as ''{{transliteration|arz|bēh}}'' or ''{{transliteration|arz|bāsha}}''.
+|-
+|{{lang|arz|أُوسْطَى/أُسْطَى}}<br />{{Transliteration|arz|ALA|usṭa}}
+|{{IPA|[ˈostˤɑ]}}/{{IPA|[ˈɑstˤɑ]}}
+| Turkish ''{{transliteration|tr|usta}}'', "master"
+|[[Driving|Drivers]] and also skilled laborers. Largely archaic.
+|-
+|يِسْطَا
+''ysta''
+|ˈ[jastɑ]
+|From Turkish ''usta'', via Arabic ''usṭā''
+|Very colloquial and extremely informal lower-class term used to address mechanics, drivers, or any random male on the street. Commonly used by younger Egyptians, even high-class.
+|-
+|{{lang|arz|رَئِيس}}<br />{{Transliteration|arz|ALA|raʾīs}}
+|{{IPA|[ˈɾɑjjes]}}
+|Standard Arabic ''{{transliteration|ar|raʿīs}}'', "chief"
+|Skilled laborers, and lower-class bosses. The term also means "president", although this meaning predates its use, having been traditionally used to refer to the chief of a village.
+|-
+|{{lang|arz|بَاش مُهَنْدِس}}<br />{{Transliteration|arz|ALA|bashmuhandis}}
+|{{IPA|[bæʃmoˈhændes]}}
+|Ottoman Turkish ''baş mühendis'', "chief [[engineer]]"
+|Originally meant for engineers and certain types of highly skilled laborers (e.g. [[electrician]]s and [[plumber]]s), now used to refer to most middle-class men, regardless of profession. 
+|-
+|{{lang|arz|مِعَلِّم}}<br />{{Transliteration|arz|ALA|miʿallim}}
+|{{IPA|[meˈʕællem]}}
+|Standard Arabic ''{{transliteration|ar|muʿallim}}'', "teacher"
+|Most [[working class]] men, particularly semi-skilled and [[unskilled labor]]ers.
+|-
+|{{lang|arz|عَمّ}}<br />{{Transliteration|arz|ALA|ʿamm}}
+|{{IPA|[ˈʕæm(m)]}}
+|Standard Arabic ''{{transliteration|ar|ʿamm}}'', "paternal uncle"
+|Older male servants or social subordinates with whom the speaker has a close relationship. It can also be used as a familiar term of address, much like ''basha''. The use of the word in its original meaning is also current, for third-person reference. The second-person term of address to a paternal uncle is ''{{transliteration|arz|ʿammo}}'' {{IPA|[ˈʕæmmo]}}; ''{{transliteration|arz|onkel}}'' {{IPA|[ˈʔonkel]}}, from French ''[[wikt:oncle|oncle]]'', may also be used, particularly for uncles unrelated by blood (including spouses of aunts, uncles-in-law, and "honorary" uncles).
+|-
+|{{lang|arz|دَادَة}}<br />{{Transliteration|arz|ALA|dāda}}
+|{{IPA|[ˈdæːdæ]}}
+|Turkish ''dadı'', "nanny"
+|Older female servants or social subordinates with whom the speaker has a close relationship.
+|-
+|{{lang|arz|أَبِيه}}<br />{{Transliteration|arz|ALA|abēh}}
+|{{IPA|[ʔæˈbeː]}}
+|Ottoman Turkish ''abi/ağabey'', "elder brother"
+|Male relatives older than the speaker by about 10–15 years. Upper-class, and mostly archaic.
+|-
+|{{lang|arz|أَبْلَة}}<br />{{Transliteration|arz|ALA|abla}}
+|{{IPA|[ˈʔɑblɑ]}}
+|Ottoman Turkish ''abla'', "elder sister"
+|Mostly archaic, female relatives older than the speaker by about 10–15 years. Sometimes used for female bosses as well (though in lower class settings, e.g. a nightclub)
+|}
+
+Other honorifics also exist.
+
+In usage, honorifics are used in the second and third person.
+
+== Study ==
+Egyptian Arabic has been a subject of study by scholars and laypersons in the past and the present for many reasons, including personal interest, [[Ancient Egypt in the Western imagination|egyptomania]], business, news reporting, and diplomatic and political interactions. Egyptian Colloquial Arabic (ECA) is now a field of study in both graduate and undergraduate levels in many higher education institutions and universities in the world. When added to academic instruction, Arabic-language schools and university programs provide Egyptian Arabic courses in a classroom fashion, and others facilitate classes for online study.
+
+== Sample text ==
+'''Article 1 of the [[Universal Declaration of Human Rights]]'''
+
+'''Egyptian'''/'''Masri''' (Arabic script; spelling not standardised):
+<blockquote>
+<div dir="rtl">
+{{lang|arz|الاعلان العالمى لحقوق الانسان, البند الاولانى}}
+<br />
+{{lang|arz|البنى ادمين كلهم مولودين حرّين ومتساويين فى الكرامة والحقوق. اتوهبلهم العقل والضمير، والمفروض يعاملو بعضيهم بروح الاخوية.}}
+</div>
+</blockquote>
+
+Franco/[[Arabic Chat Alphabet]] (has no strict standard):
+<blockquote>
+el e3lan el 3alami le 72u2 el ensan, el band el awalani
+<br />
+el bani2admin kollohom mawlodin 7orrin we metsawyin fel karama wel 7o2u2. Etwahablohom el 3a2l wel damir, wel mafrud ye3amlo ba3dihom be ro7 el akhaweya.
+</blockquote>
+
+IPA Phonemic transcription (for comparison with [[Modern Standard Arabic|Literary Arabic]]):
+<blockquote>
+{{IPA|/il ʔiʕˈlaːn il ʕaːˈlami li ħˈʔuːʔ il ʔinˈsaːn <nowiki>|</nowiki> il ˈband il ʔawwaˈlaːni/}}
+<br />
+{{IPA|/il bani ʔadˈmiːn kulˈluhum mawluˈdiːn ħurˈriːn wi mitsawˈjiːn fil kaˈrˤaːma wil ħuˈʔuːʔ <nowiki>||</nowiki> ʔetwahabˈlohom ilˈʕaʔle we ddˤaˈmiːr wel mafˈruːdˤ jeʕamlo baʕˈdˤiːhom biˈroːħ el ʔaxaˈwejja/}}
+</blockquote>
+
+IPA phonemic transcription (for a general demonstration of Egyptian phonology):
+<blockquote>
+{{IPA|/el ʔeʕˈlaːn el ʕaːˈlami le ħˈʔuːʔ el ʔenˈsaːn <nowiki>|</nowiki> el ˈband el ʔawwaˈlaːni/}}
+<br />
+{{IPA|/el bani ʔadˈmiːn kolˈlohom mawloˈdiːn ħorˈriːn we metsawˈjiːn fel kaˈrˤaːma wel ħoˈʔuːʔ <nowiki>||</nowiki> ʔetwahabˈlohom elˈʕaʔle we ddˤaˈmiːr wel mafˈruːdˤ jeˈʕamlu baʕˈdˤiːhom beˈroːħ el ʔaxaˈwejja/}}
+</blockquote>
+
+IPA phonetic transcription morphologically (in fast speech, [[vowel length|long vowels]] are half-long or without distinctive length):
+<blockquote>
+{{IPA|[el ʔeʕˈlæːn el ʕæˈlæmi le ħˈʔuːʔ el ʔenˈsæːn <nowiki>|</nowiki> el ˈbænd el ʔæwwæˈlæːni]}}
+<br />
+{{IPA|[el bæniʔædˈmiːn kolˈlohom mæwlʊˈdiːn ħʊrˈriːn we metsæwˈjiːn fel kɑˈɾɑːmɑ wel ħʊˈʔuːʔ <nowiki>||</nowiki> ʔetwæhæbˈlohom elˈʕæʔle we ddɑˈmiːɾ wel mɑfˈɾuːd jeˈʕæmlu bɑʕˈdiːhom beˈɾoːħ el ʔæxæˈwejjæ]}}
+</blockquote>
+
+'''English''':
+<blockquote>
+Article 1 of the Universal Declaration of Human Rights
+<br />
+All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in the spirit of brotherhood.
+</blockquote>
+
+== Sample words and sentences ==
+* {{lang|arz|إزيك}} {{IPA|[ezˈzæjjæk]}} ("How are you [m.]")
+* {{lang|arz|إزيك}} {{IPA|[ezˈzæjjek]}} ("How are you [f.]")
+* {{lang|arz|إزيكو}} {{IPA|[ezzæjˈjoko]}} ("How are you [pl.]")
+* {{lang|arz|ايه ده}} {{IPA|[ˈʔeː ˈdæ]}} ("What is all this?", "What is the point", "What is this?" – expression of annoyance)
+** Ex.: {{lang|arz|انت بتقوللهم عليا كده ليه, ايه ده؟}} {{IPA|[ˈentæ betʔolˈlohom ʕæˈlæjjæ ˈkedæ ˈleː ˈʔeː dæ]}} ("Why are you telling them such things about me, ''what is all this''?")
+* {{lang|arz|خلاص}} {{IPA|[xɑˈlɑːsˤ]}}: several meanings, though its main meaning is "enough", often adverbial
+** "Stop it!" Ex.: {{lang|arz|زهقت, خلاص}} {{IPA|[zeˈheʔte xɑˈlɑːsˤ]}} ("I'm annoyed, ''stop it!''")
+** "It is over!", "finally, eventually" {{lang|arz|مامتى كانت عيانه و ماتت, خلاص}}  Ex.: {{IPA|[ˈmɑmti kæːnet ʕajˈjæːnæ wˈmæːtet xɑˈlɑːsˤ]}}| ("My mother was ill and died ''finally''." [or "...and'' it is over now''"])
+** "Ok, then!" Ex.: {{lang|arz|خلاص, أشوفك بكرا}} {{IPA|[xɑˈlɑːsˤ ʔæˈʃuːfæk ˈbokɾɑ]}} ("I'll see you tomorrow ''then''")
+* {{lang|arz|خالص}} {{IPA|[ˈxɑːlesˤ]}} ("at all")
+** {{lang|arz|ماعندناش حاجه نقولها خالص}} {{IPA|[mæʕændeˈnæːʃ ˈħæːɡæ nˈʔolhæ ˈxɑːlesˤ]}} ("We have nothing ''at all'' to say")
+* {{lang|arz|كفاية}} {{IPA|[keˈfæːjæ]}} ("It is enough!" or "That is enough")
+* {{lang|arz|يعنى}} {{IPA|[ˈjæʕni]}} ("that is to say" or "meaning" or "y'know")
+** As answer to {{lang|arz|انت عامل إيه؟}} {{IPA|[entæ ˈʕæːmel ˈ(ʔ)eː]}} ("How do you do [m.]?") (as an answer: {{lang|arz|مش أد كده}} {{IPA|[meʃ ˈʔædde ˈkedæ]}} "I am so so" or {{lang|arz|نص نص}} {{IPA|[ˈnosˤse ˈnosˤ]}} {{lit|"half half"}} = {{lang|arz|مش تمام}} {{IPA|[meʃ tæˈmæːm]}} "not perfect")
+** {{lang|arz|يعنى ايه؟}} {{IPA|[jæʕni ˈʔeː]}} ("What does that ''mean?''")
+** {{lang|arz|امتى هتخلص يعنى؟}} {{IPA|[ˈemtæ hɑtˈxɑllɑsˤ ˈjæʕni]}} ("When are you finishing ''exactly, then''?)
+* {{lang|arz|بقى}} {{IPA|[ˈbæʔæ]}} (particle of enforcement → "just" in imperative clauses and "well,...then?" in questions)
+** {{lang|arz|هاته بقى}} {{IPA|[ˈhæːto ˈbæʔæ]}} ("''Just'' give it to me!)" {{lang|arz|عمل ايه بقى؟}} {{IPA|[ˈʕæmæl ˈ(ʔ)eː ˈbæʔæ]}} ''or''&nbsp; {{IPA|[ˈʕæmæl ˈ(ʔ)eː ˈbæʔæ]}} ("''Well'', what did he do ''then''?")
+
+== See also ==
+* [[Levantine Arabic]] – one of the two prestige varieties of spoken Arabic, alongside Egyptian
+* [[Bayoumi Andil]] – Egyptian linguist who stated that Egyptian is a language
+* [[Egyptian Arabic Wikipedia]]
+* [[Egyptian language]] – extinct language family spoken in ancient Egypt
+** [[Coptic language]] – latest stage of the Egyptian language
+* [[Futuh]] or early Muslim military expansions
+
+== Explanatory notes ==
+{{reflist|group=lower-alpha}}
+
+== Citations ==
+{{reflist}}
+
+===Bibliography===
+* {{Cite book |last1=Abdel-Massih |first1=Ernest T. |last2=Bahig |first2=A. Fathy |year=1978 |title=A Comprehensive Study of Egyptian Arabic, Vol. 1: Conversations, Cultural Texts, Sociolinguistic Notes |edition=2nd |location=Ann Arbor |publisher=Center for Near Eastern and North African Studies |isbn=978-0-932098-11-5 |oclc=777140122 |ol=11480326M}} 
+* {{Cite journal |last=Abu Elhija |first=Dua'a |date=23 January 2014 |title=A New Writing System? Developing Orthographies for Writing Arabic Dialects in Electronic Media |url=https://www.tandfonline.com/doi/abs/10.1080/17586801.2013.868334 |url-access=subscription |journal=Writing Systems Research |volume=6 |issue=2 |pages=190–214 |doi=10.1080/17586801.2013.868334 |issn=1758-6801}}
+* {{Cite book |last1=Behnstedt |first1=Peter |last2=Woidich |first2=Manfred |year=1985 |title=Die ägyptisch-arabischen Dialekte |volume=I & II |location=Wiesbaden, Germany |publisher=L. Reichert |isbn=978-3-88226-227-8 |oclc=13049795}}
+* {{Cite book |last1=Behnstedt |first1=Peter |last2=Woidich |first2=Manfred |year=2018 |chapter=Chapter 3: The Formation of the Egyptian Arabic Dialect Area |editor-last=Holes |editor-first=Clive |title=Arabic Historical Dialectology: Linguistic and Sociolinguistic Approaches |pages=64–95 |doi=10.1093/OSO/9780198701378.003.0003 |isbn=978-0-19-870137-8 |oclc=1005879722}}
+* {{Cite encyclopedia |last=Behnstedt |first=Peter |year=2005 |title=Coptic Loanwords |editor1-last=Edzard |editor1-first=Lutz |editor2-last=de Jong |editor2-first=Rudolf Erik |encyclopedia=Encyclopedia of Arabic Language and Linguistics |volume=1 |location=Leiden, Netherlands |publisher=Brill |pages=501–505 |doi=10.1163/1570-6699_EALL_EALL_COM_0071 |issn=1570-6699 |oclc=374171816}}
+* {{Cite journal |last=Bishai |first=Wilson B. |date=July 1962 |title=Coptic Grammatical Influence on Egyptian Arabic |journal=Journal of the American Oriental Society |volume=82 |issue=3 |pages=285–289 |doi=10.2307/597639 |issn=0003-0279 |jstor=597639}}
+* {{Cite thesis |last=Bjørnsson |first=Jan Arild |date=November 2010 |title=Egyptian Romanized Arabic: A Study of Selected Features from Communication Among Egyptian Youth on Facebook |url=http://urn.nb.no/URN:NBN:no-27138 |format=PDF |type=Master of Arts |publisher=University of Oslo |oclc=747047111}}
+* {{Cite book |last=Borg |first=Gert |date=2007 |chapter=How to Be Kool in Arabic Writing: Linguistic Observations from the Side Line |editor1-last=Motzki |editor1-first=Harald |editor2-last=Ditters |editor2-first=Everhard |title=Approaches to Arabic Linguistics: Presented to Kees Versteegh on the Occasion of His Sixtieth Birthday |series=Studies in Semitic Languages and Linguistics Vol. 49 |location=Amsterdam |publisher=Brill Academic Publishers |pages=525–542 |doi=10.1163/EJ.9789004160156.I-762.144 |isbn=978-90-04-16015-6 |oclc=940891095}}
+* {{Cite encyclopedia |last=Davies |first=Humphrey T. |year=2005 |title=Dialect Literature |editor1-last=Edzard |editor1-first=Lutz |editor2-last=de Jong |editor2-first=Rudolf Erik |encyclopedia=Encyclopedia of Arabic Language and Linguistics |volume=1 |location=Leiden, Netherlands |publisher=Brill |pages=597–604 |doi=10.1163/1570-6699_eall_EALL_COM_0086 |issn=1570-6699 |oclc=374171816}}
+* {{Cite book |last=Diem |first=Werner |year=1974 |title=Hochsprache und Dialekt im Arabischen: Untersuchungen zur heutigen arabischen Zweisprachigkeit. Abhandlungen fuer die Kunde des Morgenlandes |language=German |location=Wiesbaden, Germany |publisher=Franz Steiner Verlag |isbn=978-3-515-01834-0 |oclc=185628300 |ol=5150940M}}
+* {{Cite journal |last=Diem |first=Werner |year=1979 |title=Studien zur Frage des Substrats im Arabischen |journal=Der Islam |language=German |volume=56 |issue=1 |pages=12–80 |doi=10.1515/ISLM.1979.56.1.12 |issn=1613-0928}}
+* {{Cite book |last=Gadalla |first=Hassan A. H. |publication-date=2000 |isbn=978-3-89586-972-3 |language=en |lccn=00401300 |ol=6870655M |title=Comparative Morphology of Standard and Egyptian Arabic |url=https://www.academia.edu/208341}}
+* {{Cite book |last1=Gary |first1=Judith Olmsted |last2=Gamal-Eldin |first2=Saad M. |year=1982 |title=Cairene Egyptian Colloquial Arabic |series=Lingua Descriptive Studies 6 |location=Amsterdam |publisher=North-Holland Pub. Co. |isbn=978-0-7099-3815-6 |oclc=8297762}}
+* {{Cite book |last=Haeri |first=Niloofar |year=2003 |title=Sacred Language, Ordinary People: Dilemmas of Culture and Politics in Egypt |location=New York |publisher=Palgrave Macmillan |isbn=0-312-23897-5 |oclc=50124768}}
+* {{Cite book |last=Harrell |first=Richard S. |year=1957 |title=The Phonology of Colloquial Egyptian Arabic |series=Publications Series B-Aids, no. 9 |location=New York |publisher=American Council of Learned Societies |isbn= |oclc=4299226}}
+* {{Cite book |last1=Hinds |first1=Martin |last2=Badawi |first2=El-Said |year=1986 |title=A Dictionary of Egyptian Arabic |location=Beirut |publisher=Librairie du Liban Publishers |isbn=978-1-85341-003-1 |oclc=928122887 |ol=15378288M}}
+* {{Cite book |last=Mitchell |first=T. F. |year=1956 |title=An Introduction to Egyptian Colloquial Arabic |location=Oxford |publisher=Oxford University Press |oclc=466065001}}
+* {{Cite book |last=Mitchell |first=T. F. |year=1962 |title=Colloquial Arabic: The Living Language of Egypt |location=London |publisher=The English Universities Press |oclc=896332745}}
+* {{Cite book |last=Mitchell |first=T. F. |year=1978 |title=An Introduction to Egyptian Colloquial Arabic |location=Oxford |publisher=Clarendon Press |isbn=0-19-815149-7 |ol=18702205M |oclc=1158940549}}
+* {{Cite conference |last=Nishio |first=Tetsuo |year=1995 |title=Word Order and Word Order Change of Wh-Questions in Egyptian Arabic: The Coptic Substratum Reconsidered |editor1-last=Cremona |editor1-first=Joe |editor2-last=Holes |editor2-first=Clive |editor3-last=Khan |editor3-first=Geoffrey |book-title=Proceedings of the 2nd International Conference of l'Association Internationale pour la Dialectologie Arabe (AIDA), Held at Trinity Hall in the University of Cambridge, 10–14 September 1995 |location=Cambridge |publisher=University Publications Centre |pages=171–179 |oclc=469259739}}
+* {{Cite book |last1=Prasse |first1=Karl-G. |last2=Blanford |first2=Katrine |last3=Moestrup |first3=Elisabeth A. |last4=El-Shoubary |first4=Iman |year=2000 |title=5 Egyptian-Arabic One Act Plays: A First Reader |edition=Bilingual |location=Copenhagen |publisher=Museum Tusculanum Press |isbn=87-7289-612-4 |oclc=754875354}} "Plays in Arabic[. ]Includes preface in Arabic and English, and 'Reading rules' in English"—OCLC.
+* {{Cite book |last=Spitta |first=Wilhelm |year=1880 |title=Grammatik des arabischen Vulgärdialectes von Ägypten |language=German |url=https://archive.org/details/grammatikdesara00spitgoog |location=Leipzig |publisher=J.C. Hinrichs |ol=23438029M |oclc=14714297}} {{Wikidata property link|Q112070596}}.
+* {{Cite book |last=Tomiche |first=Nada |year=1964 |title=Le parler arabe du Caire |url=https://archive.org/details/leparlerarabeduc0000tomi/mode/2up |language=French, Arabic |series=Recherches méditerranéennes Textes et études linguistiques, 3 |location=Paris, The Hague |publisher=Mouton & Co |oclc=12631611}}
+* {{Cite book |last=Versteegh |first=Kees |year=2001 |orig-date=2001 |title=The Arabic Language |location=Edinburgh |publisher=Edinburgh University Press |isbn=0-7486-1436-2 |oclc=45767561}}
+* {{Cite book |last=Watson |first=Janet C. E. |year=2002 |title=The Phonology and Morphology of Arabic |location=New York |publisher=Oxford University Press |isbn=978-0-19-925759-1 |oclc=49518955 |ol=9656479M}}
+* {{Cite book |last=Woidich |first=Manfred |year=2006 |title=Das Kairenisch-Arabische: Eine Grammatik |language=German |series=Porta linguarum Orientalium, neue Serie, 22 |location=Wiesbaden, Germany |publisher=Harrassowitz Verlag |isbn=978-3-447-05315-0 |oclc=70268095 |ol=19689820M}}
+* {{Cite conference |last=Woidich |first=Manfred |year=2010 |title=Von der wörtlichen Rede zur Sachprosa: Zur Entwicklung der Ägyptisch-Arabischen Dialektliteratur |url=https://opus4.kobv.de/opus4-fau/files/1499/04_Woidich_Aegyptisch_Arabische_Dialektliteratur.pdf |book-title=Dialektliteratur heute – regional und international. Forschungskolloquium am Interdisziplinären Zentrum für Dialektforschung an der Friedrich-Alexander-Universität Erlangen-Nürnberg, 19.11.2009–20.11.2009 |lang=de}}
+* {{Cite book |last=Youssef |first=Ahmad Abdel-Hamid |year=2003 |title=From Pharaoh's Lips: Ancient Egyptian Language in the Arabic of Today |location=Cairo |publisher=The American University in Cairo Press |isbn=977-424-708-6 |oclc=912578933}}
+* {{Cite journal |last=Zack |first=Elisabeth |year=2001 |title=The Use of Colloquial Arabic in Prose Literature: 'Laban ilʿaṣfūr' by Yūsuf al-Qaʿīd |journal=Quaderni di Studi Arabi |volume=19 |pages=193–219 |issn=1121-2306 |jstor=25802939}}
+
+== External links ==
+{{InterWiki|code=arz}}
+{{incubator|arz|Wiktionary}}
+{{Wikivoyage|Egyptian Arabic phrasebook|Egyptian Arabic|a phrasebook}}
+{{Wiktionary|Appendix:Egyptian Arabic Swadesh list}}
+* "[http://www.danielpipes.org/books/an-arabists-guide-to-egyptian-colloquial.pdf An Arabist's Guide to Egyptian Colloquial]" by [[Daniel Pipes]] ([https://web.archive.org/web/20141222081815/http://www.danielpipes.org/books/an-arabists-guide-to-egyptian-colloquial.pdf Archive])
+* [https://eu.lisaanmasry.org/info/en/home.html Lisaan Masry Egyptian Arabic Dictionary]
+* [http://www.coptic.org/language/colloquialegyptian.htm Coptic Words in Egyptian Arabic] {{in lang|ar}}
+* [http://www.lmp.ucla.edu/Profile.aspx?LangID=51 Description of Egyptian Arabic from UCLA's Language Materials Project] {{Webarchive|url=https://web.archive.org/web/20060818044621/http://www.lmp.ucla.edu/Profile.aspx?LangID=51 |date=2006-08-18 }}
+* [http://www.ahewar.org/debat/show.art.asp?aid=114792 A review on the book ''Present Culture in Egypt''] {{in lang|ar}}
+
+{{Languages of Egypt}}
+{{Navboxes
+|list =
+{{Arabic language}}
+{{Semitic languages |expanded=Arabic}}
+{{Languages in Mashriq}}
+}}
+{{Egypt topics}}
+{{Authority control}}
+
+[[Category:Egyptian Arabic| ]]
+[[Category:Arabic languages]]
+[[Category:Culture of Egypt]]
+[[Category:Languages of Africa]]
+[[Category:Languages of Egypt]]

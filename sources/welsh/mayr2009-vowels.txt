@@ -1,0 +1,357 @@
+                                      The monophthongs and diphthongs of North-eastern Welsh: an acoustic study
+
+                                                                                  Robert Mayr and Hannah Davies
+
+                                               Centre for Speech and Language Therapy, University of Wales Institute Cardiff, UK
+                                                                            rmayr@uwic.ac.uk, H.D.Davies@uwic.ac.uk
+
+                                                                                                                contain the front closing diphthongs /a, , , / and the back
+                                                              Abstract
+                                                                                                                closing diphthongs / , , ,a /, Northern Welsh also
+                                    Descriptive accounts of Welsh vowels indicate systematic                    distinguishes the back closing diphthong / / and the central
+                                    differences between Northern and Southern varieties. Few
+                                                                                                                closing diphthongs /a,, , /. Note that the latter are not
+                                    studies have, however, attempted to verify these claims
+                                                                                                                distinguished from the front and back closing diphthongs in
+                                    instrumentally, and little is known about regional variation in
+                                    Welsh vowel systems. The present study aims to provide a first              Southern Welsh. Thus, Northern Welsh hail (‘second’) /hal/,
+                                    preliminary analysis of the acoustic properties of Welsh                    hael (‘liberal’) /hl/, and haul (‘sun’) /hal/, for instance, are
+                                    monophthongs and diphthongs, as produced by a male speaker                  homophones in Southern Welsh and pronounced [hal] (cf. [4,
+                                    from North-eastern Wales. The results indicate distinctive                  5]). Note also that Southern Welsh / / is realized as / / in the
+                                    production of all the monophthong categories of Northern                    North, and that the relative duration of diphthong onsets and
+                                    Welsh. Interesting patterns of spectral change were found for               offsets may differ systematically [4, 5].
+                                    the diphthongs. Implications for theories of contrastivity in                    Despite the availability of auditory-based accounts, there
+                                    vowel systems are discussed.                                                is a dearth of instrumental acoustic studies on Welsh vowels.
+                                                                                                                Moreover, the few existing studies (cf. [5, 6], also see [4]) are
+                                    Index Terms: vowel production, acoustic analysis, Welsh                     methodologically problematic, and only encompass some of
+                                                                                                                the contrastive categories of Welsh. Furthermore, they only
+                                                        1. Introduction                                         feature speakers from North-western parts of Wales.
+10.21437/Interspeech.2009-655
+
+
+
+
+                                                                                                                Unfortunately, however, beyond the basic North-South
+                                    The vowel inventories of the world’s languages vary
+                                                                                                                distinction, little is known about regional variation in the
+                                    considerably in size. Thus, according to the UPSID corpus of
+                                                                                                                vowel systems of Welsh. It is, for example, not clear whether
+                                    317 languages [1], the average language contains between five
+                                                                                                                there are structural and/ or realizational differences within
+                                    and six contrastive vowel categories. 5.7% of languages have
+                                                                                                                different northern and southern accents.
+                                    no more than three vowel phonemes, and, at the other extreme,
+                                                                                                                     The purpose of the present study is to make a contribution
+                                    4.1% of languages have 17 vowel phonemes or more. The
+                                                                                                                to this latter line of enquiry by providing a first systematic
+                                    most common vowel sounds are /i,a,u/. Front rounded and
+                                                                                                                acoustic account of the monophthongs and diphthongs of
+                                    central rounded vowels, on the other hand, occur                            Welsh, as produced by a male speaker from North-eastern
+                                    comparatively rarely.                                                       Wales.
+                                         In terms of its vowel inventory, Welsh, a member of the
+                                    Brythonic branch of Celtic languages, is an interesting case.
+                                    The language, which is spoken as a native tongue by
+                                    approximately 700,000 people, or 21% of the population of
+                                                                                                                                        2. Methods
+                                    Wales [2], distinguishes as many as thirteen monophthongs                   A 21-year-old male native speaker of Welsh from Dyffryn
+                                    and the same number of diphthongs. Interestingly, however,                  Clwyd, Denbighshire, in North-eastern Wales participated in
+                                    the number of contrastive vowel categories varies across                    the study. He had spent all his formative years locally,
+                                    different regional accents. Thus, while Northern and Southern               attending a Welsh-medium school, and uses only Welsh when
+                                    Welsh contain the front vowels /i,,e,/, the open vowels                 conversing with family and friends. His first significant
+                                    /,a/, the back vowels /o, ,u, /, and the mid central vowel              exposure to English only occurred in a school context. This
+                                    / /, only Northern Welsh also contains the high central vowels              indicates that he is a Welsh-dominant early consecutive
+                                                                                                                bilingual.
+                                    / / and //, according to auditory descriptions of the language                 The materials used in the study were selected so as to
+                                    [3, 4]. Note that in the South, the latter are not distinguished            provide ample opportunity for the speaker to produce all the
+                                    from /i/ and //, respectively, such that Northern Welsh tŷ                contrastive categories of Welsh. These include the
+                                    (‘house’) /t / and ti (‘you’) /ti/, for instance, are homophones          monophthongs /i,, ,,e,,,a,o, ,u, , / and the diphthongs
+                                    in southern varieties and pronounced [ti].                                 /a, , , , , , ,a , ,a,, , /. To control for phonetic
+                                         Northern and Southern Welsh also differ in the realization             context effects, all the vowels were embedded in the frame
+                                    of vowel phonemes. Thus, with the exception of / /, the                     /hVd/ to yield the target words ‘hîd’, ‘hid’, ‘hûd’, ‘hud’, ‘hêd’,
+                                    Southern Welsh monophthongs occur in tense-lax pairs that                   ‘hed’, ‘hâd’, ‘had’, ‘hôd’, ‘hod’, ‘hŵd’, ‘hwd’, ‘hyd’, ‘haid’,
+                                    are distinguished in terms of both quality and duration, as in              ‘heid’, ‘hoid’, ‘hwyd’, ‘hiwd’, ‘hywd’, ‘hewd’, ‘hawd’,
+                                    English. In contrast, according to descriptive accounts (cf. [3,            ‘huwd’, ‘haud’, ‘haed’, ‘heud’, and ‘hoed’, respectively. Note
+                                    4]), Northern Welsh only distinguishes these vowel pairs, as                that most of these are non-words. However, Welsh spelling
+                                    well as / / and //, on the basis of temporal information.                 conventions are consistent (cf. [4]), and the target words were
+                                         Finally, Northern and Southern Welsh also differ in terms              therefore not expected to pose problems. Nevertheless, in
+                                    of their contrastive diphthong categories: while both varieties             order to ensure activation of the intended vowel categories,
+
+
+
+
+                                Copyright © 2009 ISCA                                                    2315                                      6 - 10 September, Brighton UK
+each /hVd/ word was primed by the use of high-frequency real                         productions in terms of F1 and F2, but not duration (cf. Figure
+words of Welsh that contain the relevant vowels.                                     2). This finding is interesting since descriptive accounts [3, 4]
+     Recordings were made in a quiet room of a local Welsh                           claim that pairs of Northern Welsh vowels are only
+language society. To obtain high-quality acoustic data, a Zoom                       differentiated on the basis of temporal, but not spectral
+H2 Handy Recorder with integrated microphone was                                     information.
+positioned a few centimetres from the subject’s mouth. The                                The acoustic results also show some interesting patterns
+recording session commenced with a brief conversation in                             for specific categories. For example, / / was produced with F2
+Welsh between the subject and the second author, a native                            values that are almost as high as those of front vowels, and the
+speaker of Welsh. This was done to achieve full activation of                        two open vowels // and /a/, while similar in F2, were clearly
+the bilingual subject’s Welsh language mode (cf. [7]). Upon                          distinguished on the basis of their first formant frequencies.
+familiarization with the target words, the subject read the real-                         Finally, the results also indicate that the subject’s
+word primes for each vowel category out aloud at a natural
+                                                                                     inventory contains the central vowels / / and //, which are a
+pace followed by three instances of the corresponding /hVd/
+word embedded in the carrier phrase Dyweda X hefyd (‘Say X                           characteristic of Northern Welsh varieties. This is evident
+also’). In total, this yielded 26 x 3 = 78 sentences. The                            when inspecting the F2 values of / / and // which are
+recording session lasted approximately 20 minutes overall.                           considerably lower than those of their front vowel
+     The acoustic material was directly transferred onto a                           counterparts /i/ and //, respectively (cf. Figure 1, Table 1).
+standard PC and analyzed using PRAAT software [8].                                   Note also that / / is more open than /i/, as a comparison of
+Following extraction of the target words from the carrier                            their first formant frequencies shows.
+phrase, the duration of the test vowels was measured from the
+first positive peak in the digitized waveform up to, but not
+including, the following portion of acoustic silence that signals                                            Vowel                  F1 (Hz)                 F2 (Hz)
+the constriction of the post-vocalic plosive. The frequencies of                                                                    285 (16)               2270 (61)
+                                                                                                               i
+the first three formants were then measured at vowel mid-point
+for the monophthongs, and at the 25% and 75% portions for                                                                          495 (30)               1982 (58)
+the diphthongs, using formant trackers. Note that due to                                                                           355 (13)               2020 (44)
+limitations of space, only the values for F1 and F2 will be                                                                        479 (4)                1909 (18)
+presented here. In the few instances where mistracking                                                         e                   496 (8)                2009 (18)
+occurred, the automatically tracked formants were hand                                                                              641 (41)               1787 (9)
+                                                                                                               
+corrected.
+                                                                                                                                  700 (25)               1354 (55)
+                              3. Results                                                                       a                    800 (32)               1344 (53)
+                                                                                                              o                    484 (6)                830 (38)
+                                                                                                                                    608 (24)               1020 (80)
+3.1. Monophthongs
+                                                                                                              u                    359 (17)               782 (47)
+Figure 1 depicts the mean frequency of the first and second                                                                         512 (32)               1105 (38)
+formant of each of the thirteen Welsh monophthongs, as
+                                                                                                                                    500 (9)                1712 (15)
+measured at the respective vowel mid-points. For F1 and F2
+mean values and standard deviations, see Table 1. For duration                       Table 1: Mean F1 and F2 frequency of thirteen Welsh
+values of the thirteen monophthongs, see Figure 2.                                   monophthongs; SDs in parentheses.
+
+
+            200
+                                                                                          In addition to the spectral properties of the Welsh
+                                                                                     monophthongs, their duration was determined. The mean
+            300          i                                                          duration values in Figure 2 show that the subject clearly
+                                                                                     distinguished between phonologically long and short vowels.
+                                                                   u
+            400                                                                      Thus the vowel pairs [i-], [ -], [e-], [-a], [o- ] and [u- ]
+                                                                                     were not only differentiated on the basis of spectrum, but also
+      F1
+                                                                        o          duration.
+     (Hz)   500
+                              e 
+
+                                                                                                       250
+            600
+
+                                          
+                                                                                       Duration (ms)
+
+
+
+
+                                                                                                       200
+            700
+                                                        
+
+
+            800                                         a                                              150
+
+                  2500         2000              1500        1000
+                                              F2 (Hz)
+                                                                                                       100
+
+Figure 1: F1-F2 plot (in Hz) of thirteen Welsh monophthongs
+                                                                                                                   i            e         a   o      u
+    Figure 1 indicates that the subject from North-east Wales
+spectrally distinguished the eleven monophthongs that are
+common to Northern and Southern varieties of Welsh, perhaps                          Figure 2: Duration (in ms) of thirteen Welsh monophthongs;
+with the exception of /e/ and // which overlap in his                              circles indicate mean values, error bars indicate +/- 1 SD.
+
+
+
+
+                                                                              2316
+3.2. Diphthongs                                                                           Interesting patterns were also found for the diphthong
+                                                                                     onset points. Thus, the vowels in hoid and hoed, i.e. / / and
+Figure 3 depicts the direction of spectral change in F1 and F2
+from the onset points (25% portion) to the offset points (75%                        / / were produced with completely different F2 onset values,
+portion) of each of the thirteen Welsh diphthongs. See also                          although the same IPA symbol is used to denote them. The
+Table 2 for F1 and F2 means and standard deviations.                                 same holds true for the use of / / in / /, / / and / /, and /a/
+                                                                                     in /a/ and /a /. It is also interesting to note that the onset
+                                                                                     point of / / was produced with a comparatively low F2 value.
+        300
+                                                                                     Not surprisingly, the F2 onset point of / / was lower still.
+                                                                                         In addition to diphthong onset and offset points, dynamic
+                                                       
+                                                                                   differences in spectral change were investigated. After all,
+        400                                                                         previous accounts indicate that the relative contribution of the
+                                                                                     two elements of a diphthong to vowel identity may vary [4, 5].
+                               a                     
+                                                                                     In what follows, a brief qualitative account of spectral change
+                                             
+        500
+                       a                                                            in some of the Welsh diphthongs will be given. For a full
+  F1
+                                                                                    account, please see [9].
+ (Hz)
+                                    
+                                                                                          To begin with, dynamic changes in F1 and F2 were
+                                                                                     assessed in the diphthongs /a/, /a/ and //. Recall that these
+        600
+                                                                   a                 categories are not distinguished in Southern varieties of Welsh
+                                                                                     and produced [a]. Inspection of Figure 4 shows that the first
+                                                                                     element of // is considerably longer, with a ‘flatter’ F2
+        700
+                                                                                     curve, than that in the other two diphthongs. Interestingly, its
+                                                                                     offset point is close to that in /a/. The main difference
+                        2000                       1500                1000
+                                                                                     between /a/ and /a/, in turn, is the comparatively higher F2
+                                                 F2 (Hz)                             offset point in /a/.
+Figure 3: F1-F2 plot of thirteen Welsh diphthongs                                          8000
+
+
+
+
+     The results indicate that the subject distinguished all
+thirteen diphthong categories of Northern Welsh. Moreover,
+                                                                                                                                                    /a/
+the broad direction of spectral change and the targets of the
+diphthong offset points are roughly in line with descriptive
+accounts [3, 4, 5]. Thus, the back closing diphthongs
+/ , , , ,a / were produced with comparable offset points,
+                                                                                              0
+as were the central closing diphthongs /,a, , , / and the                             4.47006
+                                                                                                                   Time (s)
+                                                                                                                                         4.69482
+
+
+front closing diphthongs / / and /a/. Interestingly, however,                            8000
+
+the offset point of / / is characterized by a comparatively low
+F2 value which is in the area of the central closing diphthongs.
+
+                                                                                                                                                    /a/
+ Vowel               F1 (Hz)                                F2 (Hz)
+                  25%     75%                            25%      75%
+   a         671 (29)     340 (18)                 1713 (41)     2258 (14)
+   a          662 (2)     340 (21)                 1695 (25)     2073 (16)                  0
+                                                                                            4.5769                                        4.84031
+             713 (6)      421 (6)                 1327 (41)    2072 (99)                                         Time (s)
+
+
+            548 (23)      334 (6)                 1361 (42)    2133 (48)                 8000
+
+            508 (11)     399 (29)                  963 (55)    1936 (144)
+            402 (29)     370 (20)                  857 (57)    1999 (36)
+            408 (10)     333 (15)                  2198 (38)    2309 (22)
+            411 (25)     325 (21)                 1996 (51)     2081 (51)                                                                          //
+            352 (13)     324 (16)                 2035 (113)     916 (56)
+             377 (7)     341 (19)                 1673 (25)     973 (23)
+            629 (22)     361 (13)                 1677 (57)      858 (3)
+             488 (7)     366 (13)                 1056 (29)     837 (34)
+                                                                                              0
+   a          705 (5)     374 (13)                 1252 (72)     810 (48)                  4.27733
+                                                                                                                   Time (s)
+                                                                                                                                          4.54935
+
+
+
+
+Table 2: Mean F1 and F2 frequency of 13 Welsh diphthongs                             Figure 4: Spectrogram of /a/ in “haid” (top), /a/ in
+measured at the 25% and 75% portions; SDs in parentheses.                            “haud” (middle), and // in “haed” (bottom).
+
+
+
+
+                                                                              2317
+    Similar results were also found for the patterns of spectral                                4. Discussion and Conclusion
+change in / / and / /, which, like /a/, /a/ and //, are not
+distinguished in Southern varieties of Welsh. Thus, the first                         The purpose of the present study was to provide a first
+                                                                                      systematic acoustic account of the monophthongs and
+element in / / is considerably shorter than that in / / and
+                                                                                      diphthongs of Welsh, as produced by a male native speaker of
+produced with higher F2 values (cf. Figure 5). Note also the
+                                                                                      Welsh from Dyffryn Clwyd in North-eastern Wales.
+difference in F2 of the respective offset points.
+                                                                                          The results indicate that the subject distinguished all
+                                                                                      contrastive monophthong categories of Welsh in his
+         8000
+                                                                                      productions, including the Northern Welsh vowels / / and //.
+                                                                                      Moreover, pairs of monophthongs were not only differentiated
+                                                                                      on the basis of duration, but also quality. This finding is
+                                                                                      surprising since tense-lax distinctions of this kind are
+                                                                                      traditionally viewed as a characteristic of Southern Welsh
+ / /
+                                                                                      vowel systems only [3, 4].
+                                                                                          The subject also distinguished all contrastive diphthong
+                                                                                      categories of Northern Welsh. His productions exhibited
+                                                                                      interesting patterns of spectral change, in particular in relation
+            0
+          6.77378                                                7.02035              to the relative duration of the diphthong onsets and offsets.
+                                      Time (s)
+                                                                                      While the broad direction of spectral change in his
+         8000                                                                         productions was roughly in line with previous accounts [3, 4],
+                                                                                      the specific locations of the diphthong onset and offset points
+                                                                                      in the F1-F2 vowel space did not always conform to the
+                                                                                      predicted patterns.
+ / /                                                                                     The results presented in this paper, although confined to a
+                                                                                      single individual, provide a first indication of the acoustic
+                                                                                      properties of Welsh vowels. As such, they constitute a
+                                                                                      meaningful starting point for future work, and contribute to
+                                                                                      ongoing work on variation in accents of Welsh (e.g. [9]). The
+            0
+          9.91397                                                10.1344
+                                                                                      results also raise theoretical questions. For example, they
+                                      Time (s)
+                                                                                      indicate that it may not be sufficient to describe diphthongs in
+                                                                                      languages with a large inventory purely in terms of the targets
+Figure 5: Spectrogram of // in “hoid” (top) and // in                             of their onset and offset points. Rather, the specific timing of
+“hoed” (bottom).                                                                      changes in spectral quality across diphthong trajectories may
+                                                                                      also be an essential cue to vowel identity. Further work on the
+     Finally, the overall duration of the thirteen Welsh                              role of vowel inherent spectral change (cf. [10]) in relation to
+diphthongs was investigated. Inspection of Figure 6 shows a                           languages with a large vowel inventory, eg. Welsh, is required.
+number of differences across the various categories. Thus, //
+and /a /, for example, are considerably longer in the subject’s                                       5. Acknowledgements
+productions than / /, / / and / /. It is, however, unlikely                            The authors wish to thank Helen Pandeli and Enlli
+that these differences are critical cues to vowel identity. After                     Thomas for useful comments on an earlier draft of this paper.
+all, the productions of Welsh diphthongs exhibit a large degree
+of temporal overlap and were all produced with duration
+                                                                                                            6. References
+values between 200 ms and 300 ms, much like the long
+monophthongs (cf. Figure 2 above).                                                    [1]  Maddieson, I.M. (1984). Patterns of Sound. Cambridge:
+                                                                                           Cambridge University Press.
+                                                                                      [2] Office for National Statistics, United Kingdom, Census 2001,
+                                                                                           ‘Welsh language’, http://www.statistics.gov.uk/CCI/nugget.asp?
+  300
+                                                                                           ID=447&Pos=&ColRank=1&Rank=374
+Figure 4: Duration (in ms) of thirteen Welsh diphthongs;                              [3] Ball, M.J., Jones, G. E. (1984) (eds.) Welsh Phonology. Selected
+circles indicate mean values, error bars indicate +/- 1 SD.
+  280
+                                                                                           Readings. Cardiff: Cardiff University Press.
+                                                                                      [4] Ball, M.J., Williams, B. (2001). Welsh Phonetics. Lewiston,
+                                                                                           Queenston & Lampeter: The Edwin Mellen Press.
+  260
+                                                                                      [5] Ball, M.J. (1983). “A spectrographic investigation of three
+                                                                                           Welsh diphthongs,” Journal of the International Phonetic
+  240
+                                                                                           Association 13: 82-89.
+                                                                                      [6] Oftedal, M. (1969). “A new approach to North Welsh vowels,”
+                                                                                           Lochlann 4: 243-269.
+  220                                                                                 [7] Grosjean, F. (2001). “The bilingual's language modes,” In Nicol,
+                                                                                           J. (ed.). One Mind, Two Languages: Bilingual Language
+                                                                                           Processing (pp. 1-22). Oxford: Blackwell.
+  200
+                                                                                      [8] Boersma, P., Weenink, D. (2008). PRAAT: Doing Phonetics by
+           a       a                                           a               Computer. Version 5.0. Institute of Phonetic Sciences,
+                                                                                           University of Amsterdam, http://www.fon.hum.uva.nl/praat/.
+                                                                                      [9] Mayr, R., Davies, H. (in preparation) “An acoustic study of
+                                                                                           Northern and Southern Welsh vowels”
+Figure 6: Duration (in ms) of thirteen Welsh diphthongs;                              [10] Morrison, G.S., Nearey, T.M. (2007) “Testing theories of vowel
+circles indicate mean values, error bars indicate +/- 1 SD.                                inherent spectral change,” Journal of the Acoustical Society of
+                                                                                           America 122: EL15-EL22.
+
+
+
+
+                                                                               2318
+

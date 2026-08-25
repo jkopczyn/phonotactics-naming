@@ -1,0 +1,308 @@
+                    Exceptional stress and reduced vowels in Munster Irish
+                                                     Anton Kukhto
+
+                                          Massachusetts Institute of Technology
+                                                     kukhto@mit.edu
+
+                     ABSTRACT
+                                                                1.2. Exceptions to the basic pattern
+This paper focuses on reduced vowels in one of the
+Munster dialects of Modern Irish, Gaeilge Chorca                There exist, however, numerous exceptions to this
+Dhuibhne. In this dialect, lexical stress depends on            rule. Some are caused by the morphological structure
+syllable weight: heavy syllables (i.e. syllables that           of the word. Thus, some verbal inflection morphemes
+contain phonologically long vowels) attract stress; if          exceptionally attract lexical stress, e.g. fógróidh (sé)
+there are none, stress is initial. There exist exceptions,      [foːgǝˈroːgj] ‘(he) will announce’, while others fail to
+one of them being peninitial stress in words with no            do so contrary, e.g. molaimíd [ˈmoləmjiːdj] ‘we
+heavy syllables and the string /ax/ in the second               praise’; for more details on such cases, see [21]. Other
+syllable. Instead of deriving this pattern from the             exceptions are lexical in the sense that the stress is
+properties of /x/ in combination with /a/ as has been           unpredictable and does not obey the general laws
+done in much previous work, the paper argues for the            outlined above. These are often found to exhibit
+presence of a phonologically reduced vowel in the               anomalous behaviour in other Irish dialects as well,
+first syllable. The paper argues that such vowels are           not only in the South, cf. tobac [tǝˈbak] ‘tobacco’ or
+phonetically and phonologically different from                  bricfeasta [brʲikˈfʲastǝ] ‘breakfast’.
+underlying full vowels that underwent a post-lexical                Another class of exceptions seems to stem from
+process of vowel reduction.                                     the fact that certain consonants contribute to syllable
+                                                                weight. There are words with peninitial stress, where
+Keywords: Irish, stress, vowel reduction.                       the first and third syllables are light and the second
+                                                                syllable contains a sequence /ax/, e.g. bacach
+                1. INTRODUCTION                                 [bəˈkax] ‘lame; poor’ [20]. I’ll primarily concerned
+                                                                with this type of exceptions in this paper.
+1.1. Basic pattern of stress assignment
+                                                                1.3. Exceptional /ax/
+Gaeilge Chorca Dhuibhne (henceforth, GCD) is one
+of the Southern (Munster) dialects of Modern Irish              Exceptional primary stress falling on a syllable
+spoken on the Dingle peninsula in Co. Kerry, Ireland.           containing the sequence /ax/ in words like bacach are
+According to the 2011 census, a total of 9,236 people           already mentioned by Henebry [7]. Loth [13], who
+living on the peninsula speak Irish, of which only 707          worked on the Irish of Ballingeary in West Cork, is
+use it daily outside the educational system.                    apparently the first author to observe that:
+    Unlike most other dialects of Irish, where initial               /ax/ can only be stressed in the second
+stress prevails [8], primary lexical stress in Munster                  syllable if not surrounded by long vowels;
+Irish is weight-dependent and can occur on any of the                3rd person singular verbal suffix -adh in
+first three syllables [20]. Generally, heavy syllables                  conditional (conditionnel) or past habitual
+(H) contain a long vowel or a diphthong, and light                      (imparfait), pronounced as /ax/, is never
+syllables (L) contain a short vowel. The basic pattern                  stressed unlike the nominal suffix -ach;
+of stress assignment is cited after [21] in (1) and is               in both nouns and adjectives with light
+schematised in (2), where X stands for a syllable of                    syllables and /ax/ in the second syllable, the
+any weight and brackets denote the repetition of a                      stress does not always fall on the second
+syllable of the indicated type any number of times.                     syllable, probably due to some consonantal
+Below, I adopt the transcription used in [20]; see [9]                  clusters blocking its “forwarding” (cf.
+for an extensive list of examples and an OT-analysis,                   cnocach ‘montagneux; hilly’ or fleascach
+which is not the focus of this paper.                                   ‘jeune homme; youth’).
+                                                                Sjoestedt [23] points out that in two-syllable nouns
+(1) Word stress falls on the second syllable if it is           with a short vowel in the first syllable and ‑ach(t) in
+    heavy, on the third syllable if it is heavy and the         the second, the stress is on the second syllable in all
+    preceding syllables are light, and on the first             cases when there is no /h/ or consonant cluster with a
+    syllable in all other cases.                                plosive or a sibilant and /r/ before the suffix
+(2) XˈHX(X) LLˈH(X) ˈX(L)                  ˈHLH(X)              ‑(e)ach(t). Later, Blankenhorn [3] notes that the third
+
+
+
+                                                         1565
+syllable with /ax/ does not attract stress. The approach        present underlyingly, not a full vowel. We can then
+that derives such exceptional stress placement from             expect this phonological /ə/ to be reflected uniformly,
+the properties of /ax/ and its inability to attract stress      providing a target for phonetic realizations; on the
+from other segmental properties of the word is later            contrary, phonetic variability would be expected of a
+taken up in [1; 3; 4; 6]; details differ, however.              full vowel if it were present in the lexicon.
+    Gussmann [6] seems to be the first to suggest that              In 2014, I conducted a study with four speakers of
+exceptional stress on /ax/ might be due to properties           GCD in the Corca Dhuibhne Gaeltacht. The speakers
+of the vowel in the first syllable of such words.               were presented with a reading questionnaire
+However, he rejects the presence of a phonologically            consisting of 64 words inside the carrier-phrase
+reduced vowel there citing words like fathach ‘giant’           Scríobh se X ar an mbord ‘He wrote X on the table’.
+or lathach ‘swamp’ from West Muskerry, where                    X was replaced by words of the prosodic structure
+“some speakers stress the second syllable even in this          LˈH(X) with various combinations of vowels in the
+type of word” [16]. This possibility is later                   first and the second syllables. In the pronunciations
+entertained by Green [5], who uses the constraint               drawn from the questionnaire, measurements of
+NON-HEAD(ə) penalising stress on an underlyingly                duration as well as of F1 and F2 for vowels of the first
+reduced vowel on a par with PKPROM [24] to account              syllable before stressed /a/ and long vowels were
+for the special prosodic prominence of /ax/.                    performed manually using Praat [2].
+    Iosad [9], following a conjecture by Ó Sé [20],                 The samples were tested for homogeneity using a
+suggests that peninitial stress in words with /ax/ might        non-parametric Wilcoxon rank sum criterion; if the
+be synchronically due to the presence of a reduced              distributions are not significantly different, then the
+vowel in the first syllable of such words, not the              segments must belong to a single class. The most
+additional weight of syllables with /ax/ or any special         significant results were shown by the division of
+properties of the vowel in the second syllable, citing          vowels before the low stressed /a/ and /ɑː/ vs. before
+the process of stress retraction that can occur in              all other stressed long vowels, see Table 1 and a
+Munster Irish (see below). He concludes that the                boxplot for duration in Figure 1.
+status of the vowel in the first syllable remains                 Table 1: Wilcoxon criterion values and p-values for
+unclear and leaves it for further scrutiny.                       duration (sec.) and F1 (Hz) before low vs. non-low V
+
+                    2. ANALYSIS                                        Speaker      W value         p-value
+                                                                       1 t         603.5        0,0000005452
+2.1. Proposal: Underlying schwa                                            F1      576.5        0.005774
+                                                                       2 t         547          0,00001512
+Developing the conjectures in [5; 9; 20], I claim that                     F1      458          0.000656
+in words with exceptional stress on /ax/ in the second                 3 t         430.5        0,000002665
+syllable, the first syllable contains a phonologically                     F1      393          0.0001414
+reduced vowel /ə/, which blocks the stress and makes
+                                                                       4 t         297.5        0.0003465
+it shift to the second syllable. This approach diverges
+                                                                           F1      271          0.004272
+from [5] in its treatment of /ax/. While Green argues
+for both the schwa in the first syllable and a special           Figure 1: Vowel duration (sec.) in prestressed syllable
+prominence of /ax/ in the second, I try to show that                  before low vs. non-low V across 4 speakers
+the latter condition can be effectively dispensed with.
+The former condition, however, is necessary to
+provide a unified account of words with peninitial
+stress on /ax/, adverbs of the type anseo [ənˈso] ‘here’
+and inflected prepositions like agam ‘at me’ in their
+emphatic form, agamsa [əˈgumsə] ‘at me!’, which
+also do not allow initial stress (as well as words with
+/a/ in the second syllable in the absence of /x/).
+    I also present evidence in favour of the view that
+vowel reduction in GCD is not a unitary process:
+while /ə/ is present in the lexicon, there also exists a
+post-lexical process of vowel reduction.
+
+2.2. Phonetic evidence
+
+Let us suppose that in the first syllable of words like         As Figure 1 demonstrates, the distribution of the
+bacach [bəˈkax], a phonologically reduced vowel is              durations of vowels in the first syllable before /a/ and
+
+
+                                                         1566
+/ɑː/ is more compact than before all other stressed                The third argument is provided by the process of
+long vowels. The data also show that before stressed            stress retraction. It involves leftward replacement of
+non-low long vowels of the second syllable, different           lexical stress in certain words when the distance
+short vowels are possible [a ɔ ʊ e ə]. Less variability         between the underlying stressed syllable in them and
+is found before the stressed /ɑː/, where only [ə ɔ ʊ]           the stressed syllable (trigger) in the immediately
+are possible according to our data; see, however,               following words within an intonational phrase is less
+examples with pre-stressed [a] in [20]. Before the              than two morae, cf. the word corcán [kərˈkɑːn] ‘pot’
+stressed /a/, only the phonetic [ə] is possible, and all        in the phrase corcán mór [ˌkɔrkɑːnˈmuːər] ‘big pot’.
+cases behave uniformly (with respect to F1 and t,               According to the field data collected in 2012–2016 on
+whereas F2 is largely governed by the consonant                 the Dingle peninsula as well as examples in [20], all
+environment as expected, see [10]). This surface                words of the type Lax(X) forbid retraction, e.g.
+distribution is compatible with the view that vowels            bodach mór *[ˌbɔdəxˈmuːər] ‘bigwig’.
+of the first syllable preceding low vowels (including              Vowel reduction neutralises the opposition in
+/a/) and those preceding other vowels represent two             vowel height, but stress retraction restores the quality
+different categories, and while in one case we are              of the vowel. Thus, Bennett [1], who touches on this
+dealing with an underlying /ə/, in the other case we            issue, concludes that vowel reduction and stress
+see the effect of post-lexical centralization and               retraction are both post-lexical processes and that
+reduction of full short vowels.                                 stress retraction precedes vowel reduction. In words
+    Another piece of evidence comes from another                like bodach, the ban on stress retraction contradicts
+study of the acoustic characteristics of GCD vowels             this ordering of processes. A way out of this stalemate
+[12]. It shows that among unstressed vowels with                is to posit a phonologically reduced vowel /ə/ in the
+duration of more than 100 ms one encounters mid                 first syllable of words where it cannot host the
+vowels of spectral characteristics that cannot be found         retracted stress and where it surface behaviour
+under stress. Unstressed vowels whose schwa-like                conforms to the pattern described in Section 2.2. This
+formant characteristics remain stable even with an              allows to derive stress placement in words with /ax/
+increased duration are unlikely to have undergone               in the second syllable as well as in adverbs like anseo
+centralization caused by shortening, but probably               [ənˈso] ‘here’ and inflected prepositions like agamsa
+represent the phonological reduced vowel. As this               [əˈgumsə] ‘at me!’.
+study shows, a similar phonetic behaviour with                     An analysis of GCD in OT-terms is not the focus
+respect to duration and quality is shown by vowels in           of the present paper, but it should be briefly noted that
+the first syllable of words with /ax/ and other                 the avoidance of stress on /ə/ could be modelled by a
+exceptions like anseo [ənˈso] ‘here’ etc.                       constraint like NON-HEAD(ə) used in [5].
+
+2.3. Phonological arguments                                            3. ALTERNATIVE APPROACHES
+
+The first argument in favour of an underlying vowel             Approaches that rely on the properties of /ax/ itself
+in the first syllable and against a special status of /ax/      seem to face some challenges that the current
+is provided by words where stress falls on the first            proposal allows to circumvent.
+syllable in spite of the presence of /ax/ in the second.            In Blankenhorn’s analysis [3], when found in the
+Not only do abstract names demonstrate such a stress            coda, the consonants /s ʃ x/ extend syllable length but
+pattern [6], but there are also adjectives like cnocach         not enough to make the syllable as long as one with a
+[ˈknʊkəx] ‘hilly’ with stress on the first syllable and         phonologically long vowel. Therefore /ax/ is longer
+no consonantal cluster or any intervening segment to            than the first syllables if the latter does not contain
+hinder stress “forwarding”. Even if the generalization          certain consonant clusters. It remains unclear why, if
+with respect to /ax/ and its exceptional prominence is          this is the case, the combination of /ax/ but not /as/ or
+true, this trend may be reversed in specific lexemes.           /aʃ/ attracts exceptional stress and what determines
+   Second, in the course of the experiment described            the effect of the consonant /h/, whose effect on the
+in Section 2.2 it turned out that some words taken              duration of the syllable she calls immaterial but
+from Ó Dónaill’s [17] dictionary were unfamiliar to             which, according to [3; 23], blocks stress on /ax/.
+some participants, e.g. bogach ‘soft, boggy ground’,                The division of syllables into three categories
+paiteach ‘chubby little boy’. Subsequently, these               according to their weight—syllables with short
+words were all excluded from consideration, but as              vowels, /ax/, and long vowels—is adopted by
+they uttered unfamiliar words the speakers always               Doherty [4] in his metrical analysis of stress. He
+stressed the first syllable. This suggests that the             claims that syllables with /ax/ belong to the class of
+prominence of the combination /ax/, which can easily            light syllables but cannot be found in a weak position
+be inferred on the basis of spelling, is not constant.          within the trochaic foot. This analysis, however, has
+
+
+
+                                                         1567
+difficulties coping with words of the structure LaxH             distribution with respect to lexical stress unlike all
+and also equates all words with /ax/ to each other.              other VC, aC, or Vx sequences. However, syllables
+    Providing a similar metrical analysis, Gussmann              with diphthongs do bear stress in the second syllable
+[6] discusses the problem of syllabification that all            surrounded by heavy syllables and attract stress in the
+such approaches face. The words bacach [bəˈkax]                  third syllable like syllables with long vowels [20],
+‘poor (sg.)’ and bacaha [bəˈkaxə] ‘poor (pl.)’ both              whereas the /ax/ sequence does not. According to
+have peninitial stress, although in the VCV position             Bennett, all other homogenous VC sequences like
+one would expect the consonant to constitute the                 /uv/ or /ij/ do not behave in a similar way because of
+onset of the second of the two syllables. As for the             the exceptional sonority of /a/, which is manifested by
+words with a stressed /ax/ in the second syllable,               its greater duration and intensity in phonetic terms.
+Gussmann attributes their behaviour to the properties            This takes us back to a proposal by Ó Sé [21], who
+of the vowel /a/, which merely happens to precede the            finds an explanation for this anomaly in the fact that
+spirant /x/ for historical reasons.                              in many languages low vowels tend to have longer
+   Bennett [1] argues for the prominence of /ax/                 duration and greater intensity than other vowels.
+sequences and the special status of /x/. He cites three
+pieces of evidence to support this view.                                           4. DISCUSSION
+   1. The vowel /a/ does not centralize in unstressed
+position before /x/ in Ulster and Achill dialects, which         I have tried to show that the optimal way to describe
+suggests that /ax/ is more prosodically prominent than           irregular peninitial stress in words with /ax/ in the
+other sequences of the type /aC/. It should be noted,            second syllable boils down to the presence of a
+however, that the short /a/ is sometimes not subject to          phonologically reduced vowel in the initial syllable,
+reduction even if followed by consonants other that              which cannot take lexical stress and which is
+/x/ in Ulster and other dialects, e.g. macalla [maˈkalə]         contrasted with vowels resulting from the process of
+‘echo’. Also, in Ulster and Achill an /a/ followed by            post-lexical process of vowel reduction. The
+a /x/ in the third syllable resists centralization on a par      sequence /ax/ itself is therefore synchronically
+with /ax/ in the second syllable, e.g. leitheadach               irrelevant for determining stress placement. Such an
+[ˈlʲehədɑx] ‘arrogant’, and ignores morphology, e.g.             approach, however, can raise several objections.
+iascaireacht [ˈiəskərʲɑxt] ‘fishing’ (from [24]), while               Firstly, it leads to positing segmental alternations
+it does not attract stress in Munster dialects.                  like /ə/ bacach ‘beggar’ ~ /a/ bacaigh ‘beggars’.
+   2. Bennett’s second argument for the special status           However, similar vowel alternations are observed in
+of /ax/ is drawn from fact that this sequence, when in           various parts of the GCD lexical system, so the case
+the second syllable, attracts stress in Munster Irish.           above does not present a striking exception to what is
+Yet this argument appears to be cyclic in nature: on             found elsewhere, cf. the alternation /a/ lag ‘weak’ ~
+the one hand, /ax/ attracts stress because it is a               /i/ (níos) laige ‘weaker’ [20].
+prosodically marked sequence with a moraic                            Secondly, the vowel /a/ does avoid reduction in
+consonant; on the other hand, /ax/ is a prosodically             Ulster, especially when followed by /x/, see [19] and
+marked sequence supporting two morae because it                  above. Yet if historically the cause of this failure to
+attracts stress, since no other evidence internal to             reduce in Ulster dialect and non-standard stress
+Munster Irish seems to be available to support its               placement in Munster dialect is the nature of the
+prosodically prominent status.                                   vowel /a/, this does not contradict the synchronic
+   3. The same criticism applies partially to Bennett’s          analysis. It is possible that /ə/ was phonologised
+observation that /x/ in intervocalic position might be           before low vowels after the “forwarding” of stress
+the coda of the left syllable linked to a mora, since he         and the fixation of syllable weight system.
+points to the irregular stress in Munster Irish, citing               As for historical reasons for the behaviour of /ax/,
+[4], as his primary evidence. At the same time, it is            one could point to O’Rahilly [18], who writes that in
+the case that [14; 15] do find that Irish speakers can           the two suffixes -ach- and -ech-, where the vowels are
+assign a consonant in an intervocalic position after a           derived from ā and jā respectively, a full vowel was
+short stressed vowel to both the left or the right               preserved in Middle Irish, which is reflected in the
+syllable, which is echoed by the dispreference for               fact that /ax/ in the second syllable resists reduction
+/Cx/ clusters. What’s more, /x/ only appears in word-            in other dialects. This point of view is supported by
+initial position in morphologically derived contexts as          Jackson [11], who assumes that the second syllable
+a result of the lenition of /k/.                                 with ‑(e)ach(t) preserves the historical unreduced
+   4. Bennett further points out that /x/ shares two to          (“clear”) vowel /a/. The reason why this particular
+three features with the vowel /a/ and can be                     vowel was shortened and whether that is related to
+considered its glide-like counterpart, so that the               syllabification facts observed in [14; 15], however, is
+sequence /ax/ behaves like a diphthong including its             not exclusively problematic for the current proposal.
+
+
+
+                                                          1568
+            5. ACKNOWLEDGEMENTS                                    [17] Ó Dónaill, N. 1977. Foclóir Gaeilge-Béarla. Baile
+                                                                      Átha Cliath: An Gúm.
+Thanks to Edward Flemming, Dmitry Nikolaev, and                    [18] O’Rahilly, T. F. 1932. Irish dialects: Past and present,
+three anonymous ICPhS reviewers for careful reading                   with chapters on Scottish and Manx. Dublin: Browne
+and valuable comments on previous versions of this                    & Nolan.
+paper. I am also indebted to Viktor Bayda, Pavel                   [19] Ó Sé, D. 1989. Contributions to the study of word
+                                                                      stress in Irish. Ériu 40, 147–178.
+Iosad, Sergey Knyazev, and Masha Shkapa for                        [20] Ó Sé, D. 2000. Gaeilge Chorca Dhuibhne. Baile Átha
+helpful feedback and discussion. This work would                      Cliath: Institiúid Teangeolaíochta Éireann.
+have been impossible without the help and hospitality              [21] Ó Sé, D. 2008. Word stress in Munster Irish. Éigse 36,
+of Breandán Ó Ciobháin, Áine Moynihan, and all                        87–112.
+speakers of Gaeilge Chorca Dhuibhne who                            [22] Prince, A., Smolensky, P. 1993. Optimality Theory:
+participated in this study. All errors are my own.                    Constraint Interaction in Generative Grammar.
+                                                                      Technical Report CU-CS-696-93, University of
+                   6. REFERENCES                                      Colorado at Boulder, and Technical Report TR-2,
+                                                                      Rutgers University.
+[1] Bennett, R. 2017. Output optimization in the Irish plural      [23] Sjoestedt, M. L. 1931. Phonétique d’un parler
+    system. J. Ling. 53(2), 229–277.                                  Irlandais de Kerry. Paris: Librairie Ernest Leroux.
+[2] Boersma, P., Weenink, D. 2017. Praat: Doing phonetics          [24] Stockman, G. 1974. The Irish of Achill, Co. Mayo.
+    by computer [Computer program]. Version 6.0.36,                   Belfast: Institute of Irish Studies, Queen’s University
+    retrieved      11       November         2017       from          of Belfast.
+    http://www.praat.org/.
+[3] Blankenhorn, V. S. 1981. Pitch, quantity and stress in
+    Munster Irish. Éigse 18, 225–250.
+[4] Doherty, C. 1991. Munster Irish stress. Phonology at
+    Santa Cruz 2, 19–32.
+[5] Green, A. D. 1996. Stress placement in Munster Irish.
+    In: Dobrin, L. M., Singer, K., McNair, L. (eds.),
+    Chicago Linguistic Society 32: Papers from the Main
+    Session, 77–92.
+[6] Gussmann, E. 1995. Putting your best foot forward:
+    Stress in Munster Irish. In: Josephson, F. (ed.), Celts
+    and Vikings: Proceedings of the fourth symposium of
+    Societas Celtologica Nordica. Göteborg: Göteborgs
+    Universitet, 103–133.
+[7] Henebry, R. 1898. The sounds of Munster Irish. Dublin:
+    M. H. Gill & Son.
+[8] Hickey, R. 2011. The dialects of Irish: Study of a
+    changing landscape. Berlin: Mouton de Gruyter.
+[9] Iosad, P. 2013. Head-dependent asymmetries in
+    Munster Irish prosody. Nordlyd 40(1), 66–107.
+[10] Iosad, P., Ní Chiosáin, M. 2016. Making sense of
+    consonant palatalization and vowel backness in Irish.
+    Paper presented at Language Documentation and
+    Linguistic Theory 5.
+[11] Jackson, K. H. 1955. Contributions to the study of
+    Manx phonology. Edinburgh: Published for the
+    University of Edinburgh by Nelson.
+[12] Kukhto, A., Nikolaev, D. 2016. An update on the
+    phonology of Gaeilge Chorca Dhuibhne. Paper
+    presented at the 9th Celtic Linguistics Conference.
+[13] Loth, J. 1913. L’accent dans le gaëlique du Munster.
+    Revue de Phonétique 3, 317–343.
+[14] Ní Chiosáin, M., Welby, P. 2009. An investigation of
+    syllabification in Irish. Paper presented at Formal
+    Approaches to Celtic Linguistics (FACL) Conference.
+[15] Ní Chiosáin, M., Welby, P., Espesser, R. 2012. Is the
+    syllabification of Irish a typological exception? An
+    experimental study. Speech Communication 54, 68–91.
+[16] Ó Cuív, B. 1944. The Irish of West Muskerry. Dublin:
+    Institute for Advanced Studies.
+
+
+
+                                                            1569
+

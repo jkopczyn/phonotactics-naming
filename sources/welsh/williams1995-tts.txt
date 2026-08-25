@@ -1,0 +1,278 @@
+         TEXT-TO-SPEECH SYNTHESIS FOR WELSH AND WELSH ENGLISH
+
+                                             Briony Williams
+                                Centre for Speech Technology Research,
+                                         University of Edinburgh,
+                                             80 South Bridge
+                                           Edinburgh EH1 1HN,
+                                              Scotland, UK
+
+                                       email: briony@cstr.ed.ac.uk
+
+                  ABSTRACT                              English sounds that had no equivalent in Welsh
+This work represents the first known attempt to         (equivalences derived from [4]). These three
+develop a text-to-speech synthesiser for Welsh.         segments were: / /, /  /, and /
+                                                                                            /. Tables 1 and
+A list of pseudo-Welsh nonsense words was               2 show the South Welsh phonemes, with their
+generated, allowing for certain difficulties            equivalents in RP and the extra English
+particular to Welsh. Diphones were derived              segments.
+semi-manually from the recorded nonsense
+words. The first known phonemic lexicon for             The accent modelled was a South Welsh one,
+Welsh was derived from an electronic corpus.            though it would be possible to develop a similar
+Letter-to-sound rules for Welsh were written,           system for a North Welsh accent (which has a
+differentiating between the vocalic and                 larger number of vowels). The general strategy
+consonantal realisations of two graphemes, and          chosen was to adapt an existing diphone-based
+assigning lexical stress. An existing English           TTS system for RP English.
+text-to-speech synthesis system was adapted
+for Welsh. Some simple duration and F0 rules              W             RP            W                       RP                         W            RP
+were written that gave pleasing results with the                                                                                             
+minimum of rules. The resulting system can be
+used for Welsh or for English spoken with a                                                                                                      
+recognisable Welsh accent.
+                                                                       -                                                                      
+                                                                                                                                         
+                                                                                                                                                      
+         1 THE WELSH LANGUAGE                                                                                                    
+                                                                                                                                                      -
+                                                          
+Welsh is one of Europe's lesser-used languages,                         -                                                                          
+and dates from the late sixth century AD. It                                                                                                 
+belongs to the Celtic family of Indo-European                         -                                   -                                     -
+languages, and is spoken in parts of Wales.                !                                                        "              #
+                                                                        -                                                                             -
+This work represents the first known attempt to
+develop text-to-speech synthesis (TTS)         for
+Welsh. Comparatively little is known about the          Table 1: Welsh consonant phonemes, with RP
+acoustic characteristics of Welsh speech                equivalents: "W" = Welsh.
+sounds, and so diphone concatenation was used
+rather than rule-based synthesis. An existing
+TTS system for English [1] was adapted for use            W             RP                        W                       RP             W            RP
+with Welsh. The software uses the PSOLA
+                                                               $            $                     %                       %              &            '
+
+                                                               +       (+                        ),                      ),         *            *
+synthesis technique       when      concatenating
+diphones, as described in [2], [3].                                                                                              $       &           -
+                                                          .             .                         * $                     &/$             &/$         -
+                                                               0/$          0/$                    .1$                                   +
+                                                                                                                                                  .
+The phonemes included three that are used only
+                                
+in English loanwords (/ /, /  /, / /), and also                                                                          -            )
+                                      !   #                 ,                                    & )
+three used in restricted contexts (/ ,     , /),                    )   -                                                 -          *2)          -/)
+                                                               0            0 )                   -                                   -         
+together with three extra segments that were
+purely English. The total was 51 segments, split
+between 32 consonants and 19 vowels. The                Table 2: (South) Welsh vowels, with RP
+three extra segments were added to cover                equivalents: "W" = Welsh.
+        2 TEXT-TO-PHONEME STAGE                          2.1.3 Grapheme-to-phoneme conversion
+2.1 Letter-to-sound rules                                The third ruleset comprised the grapheme-to-
+                                                         phoneme rules proper (356 rules), including
+Letter-to-sound (LTS) rules for Welsh were               rules for determining the phonological length of
+written [5].    In contrast to English, Welsh            stressed monophthongs. The combination "sJ"
+orthography is a reliable guide to pronunciation.        was output as / /, and the labialised consonants
+Also, word stress is fixed on the penult in the             #
+majority of cases. However, there are problems           / ,    , / were output in certain contexts.
+in the case of "w" and "i", which cause most of
+the complexity in the rules. This is because "i"         2.2 Lexicon
+can be either a vowel or a palatal glide, while "w"
+can be a vowel, a labial-velar glide, or a               There was no existing machine-readable
+labialisation marker.                                    pronunciation lexicon for Welsh. In a Welsh
+                                                         TTS system, a lexicon is not absolutely required
+The LTS rules were written in three blocks,              for most words. This is because the lack of
+corresponding to three passes through each               stress-related minimal pairs means there is
+word. This structure was advisable in order to           never a need to know a word's class in order to
+cover different accents. The second ruleset was          find the correct pronunciation.       However, a
+valid for all accents, but the others would require      lexicon is included in order to speed up the
+modification according to accent. The initial            processing by avoiding the LTS rules for the bulk
+accent modelled was a South Welsh one.                   of the words. Full details are given in [7].
+
+2.1.1 Epenthetic vowels and diaeresis                    2.2.1 Small lexicon
+
+The first rule set (170 rules) took the                  A small lexicon of 331 function words was
+orthographic form, and output a modified form            developed. It included 466 words with irregular
+with epenthetic vowels inserted. These are               pronunciation, such as those with stress on the
+                                                         final syllable that was not  orthographically
+vowels pronounced in some accents, but
+                                            , %  /
+                                                   not                              .1$! & $ /, "to enjoy".
+                                                                                            
+
+
+
+
+shown in the spelling: eg. cefn, "back", /              marked: eg. mwynhau, /
+                                               
+
+
+
+
+(shown as 'keven' at this stage). A symbol was           The small lexicon was produced mainly from a
+also inserted between two vowels that could not          Welsh grammar-book [6]. Rules were run over
+form a diphthong, in order to assist the1                the exception words to generate all possible
+                                              , later
+                                                        mutated forms (where the initial consonant
+syllabification rules: eg. heol, "road", /  /,
+                                                   
+
+
+
+
+                                                         undergoes one of three types of change). The
+was shown as 'he"ol'. An example rule is:
+                                                         LTS rules were applied, and the pronunciations
+e[f]R# = fe. Here, the target segment is "f",
+                                                         edited by hand, for each of the 1262 words.
+with a preceding "e" and a following "l", "n" or "r"
+(symbolised by "R") and a word boundary (#).
+                                                         2.2.2 Main lexicon
+The output is "fe", as in 'cefen' from input
+'cefn'.
+                                                         A machine-readable corpus of Welsh text was
+                                                         gathered from the WELSH-L discussion list,
+2.1.2 Disambiguation and stress placement                which featured a colloquial style of Welsh that is
+                                                         in everyday use. The corpus was hand-edited to
+The second ruleset was by far the most                   remove English words, mail headers, etc., and
+complicated, containing 731 rules. Searching             to convert all mutated initial consonants to
+left-to-right, the stressed vowel was located and        unmutated form. A list of 3626 unique words not
+output in capitalised form. Also, "w" and "i" had        in the small lexicon was produced. Mutation
+varying output forms, as shown in Table 3                rules were applied to this wordlist to produce all
+below.                                                   mutated forms, giving an expansion factor of
+                                                         about 2.5. The LTS rules were run over this list,
+  Condition:              Input "w"    Input "i"         and a default wordclass (lexical word) was
+  Consonant               M            J                 assigned to each entry. With the small lexicon,
+  Stressed vowel          W            I                 there were now 10552 words. Further text from
+  Unstressed vowel        w            i                 the same source was processed to derive more
+                                                         words. The final lexicon contained 18212 words
+Table 3: Output forms of "w" and "i".                    (including mutated forms). This was compiled
+                                                         into a binary form for use in the TTS system.
+      3 PHONEME TO SPEECH STAGE                         hand-segmenting and training HMM's at the
+                                                        "demi-phoneme" level was that the automatic
+3.1 Designing the recording script                      segmenter yielded an initial estimate of the
+                                                        diphone boundaries. The result was edited by
+The text of a recording script for diphone              hand using a "glitch-minimisation" procedure.
+extraction was designed in the form of pseudo-          Hand-editing diphone boundaries took a great
+Welsh nonsense words. These were in normal              deal of time and effort, but the resulting synthetic
+orthography, so it was not necessary to use a           speech displayed a gratifying absence of clicks
+phonetically-trained subject.                           and extraneous noises.
+Certain linguistic features of Welsh made the           A software tool was run over the laryngograph
+design of this list of pseudo-words more difficult      files to derive pitchmark files, these being text
+than it would be for English. For example,              files giving the location of the peak of each pitch
+Welsh monophthongs may be either long or                period. The pitchmark files are used together
+short, differing in duration and vowel quality ([8]).   with the speech files by the PSOLA algorithm
+Vowels in unstressed syllables are short, while         during synthesis. There was no laryngograph
+in stressed syllables monophthongs are long if
+                                           
+followed by one of / , , ,  ,  , , , , , , ,
+                                                        waveform during voiceless consonants, and so a
+                                                      software tool was used to fill these gaps.
+ , /. This meant that combinations of "a short
+monophthong plus a consonant from this list"            3.3 Diphone dictionary
+had to be located in an unstressed syllable to
+ensure shortness: This was done by placing the          A "scheme file" was then produced. This is a
+                                     " (as in dydo
+vowel in an unstressed final syllable,                  text file where each line gives the phonemic form
+ddad, / *         &  /, for the   diphone).
+                 
+
+
+
+
+                                                        of the utterance together with the diphone(s)
+Further examples appear in [7].                         contained in it. The scheme file can be used for
+                                                        several speakers, given the same accent and
+A program was written to generate a list of             same recording text. From this was derived the
+pseudo-Welsh words containing all Welsh                 "link file", a similar file where each line also
+diphones. Sets were defined, such as the set of         contains the relevant speech file name.
+                                                   
+consonants initiating a syllable-initial cluster (/ ,
+         
+ ,                                    /).
+                                                      The diphone dictionary was produced. This is a
+The final text contained 2824 items, covering           text file where each line corresponds to a
+2973 diphones, including a few specifically             diphone, and contains the following:
+English diphones.                                                                            &
+                                                        a) A diphone representation (eg. -  , or "p-aa"
+3.2 Recording and segmenting                               in orthographic form);
+                                                        b) A speech file name:
+A male native speaker of South Welsh was                c) Three numbers giving the location in that
+recorded. He sat in a soundproofed booth                   speech file of the diphone start-point, diphone
+wearing a headset microphone and a                         mid-point and diphone end-point.
+laryngograph electrode.     The outputs from
+microphone and laryngograph were stored                 3.4 Duration and F0 modelling
+directly to disk. The sampling rate was 10000
+samples per second.                                     The initial segment durations were 0.75 of the
+                                                        mean duration for each segment in the hand-
+Ten percent of this database was segmented by           segmented isolated words, in order to derive
+hand at the "demi-phoneme" level. Thus, for             durations more suited to running speech. Rules
+example, there were separate units for the              were written such that each clause-final segment
+closure and aspiration phase of stops. An               was multiplied by two to allow for final
+automatic HMM segmenter was trained over this           lengthening, while word-final and post-stress
+material, with units corresponding to "demi-            segments were also lengthened. The fact that
+phonemes" (unlike the otherwise identical               practically no duration modelling is required is
+autosegmenter used in [9], which used phoneme           probably due to the fact that Welsh, unlike
+units only).                                            English, does not exhibit stress-related vowel
+                                                        reduction or vowel lengthening. Indeed, it has
+The automatic segmenter was run over the                been found that vowel duration in Welsh has
+remainder of the database. The advantage of             very little relation to stress [10].
+The F0 algorithm was minimally different from                        6 REFERENCES
+that used for English. Only the three pitch levels
+were reset, these being the "floor" (set to 90 Hz),   [1] P.A. Taylor, I.A. Nairn, A.M. Sutherland &
+the "reference" level (140 Hz) and the "ceiling"      M.A. Jack (1991) "A real time speech synthesis
+(230 Hz). These values reflect the fact that the      system", EUROSPEECH, 1991, pp. 341-344.
+recorded subject had a fairly high-pitched voice,
+and that Welsh tends to use a wider frequency         [2] C. Hamon, E. Moulines & F. Charpentier
+range than does English. The resulting F0 trace       (1989) "A diphone synthesis system based on
+does not sound particularly Welsh, but neither        time-Domain modifications of speech", ICASSP
+does it sound English. To those who speak no          1989.
+Welsh, the resulting impression is adequate to        [3] F. Charpentier & E. Moulines (1989) "Pitch-
+suggest a Welsh accent.                               synchronous waveform processing techniques
+                                                      for text-to speech synthesis using diphones",
+              4 WELSH ENGLISH                         EUROSPEECH, 1989, pp. 13-19.
+
+An existing English lexicon of 25000 words was        [4] J.C. Wells (1982) Accents of English, vol. 2.
+edited to convert the phonemes to their Welsh         Cambridge: CUP.
+equivalents (as shown in Tables 1 and 2 above).
+The LTS rules were similarly edited to reflect a      [5] B. Williams (1994) "Welsh letter-to-sound
+Welsh accent of English. The existing English         rules:      rewrite rules and two-level rules
+(RP) processing of word-final "r" was re-enabled,     compared". Computer Speech and Language,
+as Welsh English, like RP, is non-rhotic [4]. The     vol. 8, pp. 261-277.
+Welsh duration and F0 rules were retained. The        [6] Uned Iaith Genedlaethol Cymru (1976)
+resulting synthesised speech was clear and            Gramadeg Cymraeg Cyfoes (Contemporary
+intelligible, with a most noticeable Welsh accent.    Welsh Grammar). Y Bontfaen, Morgannwg: D.
+                                                      Brown a'i Feibion Cyf.
+               5 FUTURE WORK
+                                                      [7] B. Williams (1994) "Diphone synthesis for
+Tasks still remaining include the conversion of       Welsh".     Proceedings of the Institute of
+the TTS system to a North Welsh accent. North         Acoustics, vol. 16, pp. 359-366.
+Welsh contains eight vowels not found in South
+Welsh:     / , , ) ,
+                        & , &  , 0 , . , * /).       [8] M.J. Ball & G.E. Jones (eds.) (1984) Welsh
+                                                      Phonology. Cardiff: University of Wales Press.
+Converting to North Welsh would require the
+following steps:                                      [9] P.A. Taylor & S.D. Isard (1991) "Automatic
+                                                      diphone segmentation", EUROSPEECH, 1991,
+a) Add extra nonsense words to the recording          pp. 709-711.
+  script to cover the extra vowels.
+b) Record a North Welsh speaker.                      [10] B. Williams (1985) "An acoustic study of
+c) Perform semi-manual segmentation of the            some features of Welsh prosody", in C. Johns-
+  recorded files to derive the diphones.              Lewis (ed.), Intonation in Discourse. London:
+d) Add the extra material to the scheme file and      Croom Helm.
+  link file, and compile the diphone dictionary.
+e) Edit the LTS rules to include the new vowels                 7 ACKNOWLEDGEMENTS
+  as output where appropriate.
+f) Run the new LTS rules over the lexicon to          This work was done while the author was in
+  produce a new lexicon for North Welsh.              receipt of a three-year Research Fellowship from
+                                                      the Royal Society of Edinburgh, funded by BP.
+These tasks, although tedious and time-
+consuming, are not particularly difficult, given
+that a South Welsh TTS system has already
+been produced.
+
+Another possibility for future work would be to
+develop an English TTS system with a Scottish
+accent. This would require less work than a
+North Welsh system, since much of the existing
+English TTS system could be re-used.
+

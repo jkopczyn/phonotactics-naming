@@ -147,3 +147,33 @@ be tested, so actually runs in parallel from the start) → Old Irish last.
    out of scope the PHOIBLE row is the path of least resistance; default Belgian.
 3. Whether to add a creole-style reduction layer (user not fully persuaded by the loanword
    framing; see project-goals.md).
+
+
+## Step-1 outcome (2026-08-24) — corrections to the above
+
+Acquisition done for infra, irish, arabic-egy, welsh, georgian (dutch in progress); each dir has
+`bib.md`, PDFs with `.txt` extractions (PDF/HTML gitignored; bib carries URLs). Corrections:
+- **WOLD Dutch is weaker than claimed above**: no source-side pronunciations anywhere in WOLD
+  (`Source_Form_ID` empty throughout); donors mostly medieval French/Latin; ~23 English items.
+  Extract at `infra/wold-dutch-loanpairs.tsv` (339 rows). Not a gold set on its own.
+- LAPSyD's Welsh is **Northern** and its Irish is Donegal; WALS 12A omits Welsh/Dutch and lumps
+  Egyptian Arabic with Georgian — use LAPSyD's O/N/C index, not WALS 12A. Easterday 2019
+  (LangSci, CC BY) is the better syllable typology and treats Georgian as a core case.
+- Irish: Ní Chasaide 1999 is the *Handbook of the IPA* chapter, not JIPA. Green 1997 (ROA)
+  is the stress/syllabification backbone; Wikipedia's cluster charts (sourced to Ní Chiosáin
+  1999, paywalled) are the only cluster list. Thurneysen not taken (rights unclear); Pokorny
+  1914 + Strachan 1909 (PD) cover Old Irish.
+- Arabic: `ema1958` = Hafez 1996; **its online text has emphatics stripped**. Broselow 1976
+  dissertation is fully open (her page). Watson 2007/2011 open on White Rose replace Watson
+  2002 for syllabification/stress. Hassig 2011 (Utrecht MA) has ordered G2P/syllabification/
+  stress rules for Cairene. Two EKB loanword papers blocked by bot-wall — retrievable by hand.
+- Welsh: Parry-Williams 1923 confirmed PD and is an adaptation grammar (§7 solved). Wood is
+  1988, LWP 33. JIPA Illustration exists but is Northern (Bell et al. 2023). Welsh Journals
+  Online (BBCS etc.) is bot-walled — hand retrieval possible. No open licit-cluster list;
+  Hannahs/Awbery/Czerniak all closed.
+- Georgian: Butskhrikidze App. 2–3 = full cluster lists. Gabunia 2021 (Leiden MA) gives
+  English→Georgian data: /p t k/ → ejectives in the nativized layer, /f/ → [pʰ], obligatory
+  final -i. Stress: Borise 2023 (initial + phrasal penult) vs older accounts — CONFLICT to
+  carry. National romanization 2002 puts the apostrophe on ejectives (matches the existing
+  names). No open Russian→Georgian adaptation data (the palatalization precedent is missing).
+- Uffmann 2006 paywalled; Kang 2011 §100.4 summarizes it.

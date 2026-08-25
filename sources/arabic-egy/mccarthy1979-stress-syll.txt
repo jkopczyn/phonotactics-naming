@@ -1,0 +1,1063 @@
+                On stress and syllabification
+
+Item Type       Article
+
+Authors         McCarthy, John J
+
+Download date   2026-08-25 04:35:56
+
+Link to Item    https://hdl.handle.net/20.500.14394/32507
+On Stress and Syllabification
+Author(s): John J. McCarthy
+Source: Linguistic Inquiry, Vol. 10, No. 3 (Summer, 1979), pp. 443-465
+Published by: The MIT Press
+Stable URL: http://www.jstor.org/stable/4178121
+Accessed: 25/06/2009 16:29
+
+Your use of the JSTOR archive indicates your acceptance of JSTOR's Terms and Conditions of Use, available at
+http://www.jstor.org/page/info/about/policies/terms.jsp. JSTOR's Terms and Conditions of Use provides, in part, that unless
+you have obtained prior permission, you may not download an entire issue of a journal or multiple copies of articles, and you
+may use content in the JSTOR archive only for your personal, non-commercial use.
+
+Please contact the publisher regarding any further use of this work. Publisher contact information may be obtained at
+http://www.jstor.org/action/showPublisher?publisherCode=mitpress.
+
+Each copy of any part of a JSTOR transmission must contain the same copyright notice that appears on the screen or printed
+page of such transmission.
+
+JSTOR is a not-for-profit organization founded in 1995 to build trusted digital archives for scholarship. We work with the
+scholarly community to preserve their work and the materials they rely upon, and to build a common research platform that
+promotes the discovery and use of these resources. For more information about JSTOR, please contact support@jstor.org.
+
+
+
+
+                The MIT Press is collaborating with JSTOR to digitize, preserve and extend access to Linguistic Inquiry.
+
+
+
+
+http://www.jstor.org
+                                      Linguistic lnquiry Volumne10 Number 3 (Summer, 1979) 443-465.
+
+
+
+John J. McCarthy                      On Stress and Syllabification*
+
+
+
+
+0. Introduction
+Of all the diverse properties of segmental strings, syllable structure is the one that stress
+rules most often refer to. In fact, they refer to a quite specific aspect of syllable
+structure: syllable weight. Generally, it is this distinction between heavy and light
+syllables that affects the placement of stress. The richness of this problem is apparent
+from its ramifications. First, in many languages the notion "heavy syllable" invokes a
+disjunction of syllables containing a long vowel or diphthong and syllables with a short
+vowel but closed by a consonant. Second, though heavy syllables often attract the
+stress, they sometimes reject it or attract it subject to some limitations of, say, distance
+from a boundary. Third, the weight of some syllables may itself vary in a particular
+language, perhaps again under some boundary conditions. All of these issues are illus-
+trated concretely in subsequent sections of this article.
+      None of these observations is new, and previous work has not failed to attempt
+explanations of at least some of them. I know of four quite different approaches in the
+literature, discussed very briefly here.
+
+0.1 . Arrested Syllables
+Allen (1973) offers an essentially physiological account based on Stetson's (1951) theory
+of syllables as chest-pulses. Allen holds that the oral arrest of closed (CVC) syllables
+is paralleled by thoracic arrest of long open (CVV) syllables. Another arrest, the arrest
+of "stress pulses", tends to be reinforced by these syllabic arrests, resulting in a general
+attraction of stress to CVC and CVV syllables.
+     Although Allen's proposal has come under heavy criticism in some recent work
+(Hyman (1977a)), it nevertheless represents a unique attempt to explain why consonants
+and vowels form a natural class for stress rules solely in the postnuclear position of a
+syllable.
+0.2. Stress andt Duration
+It is difficult to do justice here to Hyman's (1977a) analyses of a great variety of
+languages. In essence, his theoretical proposal is a functional one, depending crucially
+      * I am grateful to Morris Halle, Paul Kiparsky, Alan Prince, Jean-Roger Vergnaud, Nick Clements, and
+Ellen Woolford for much useful discussion of this material. Errors of form or interpretation are my own. This
+work was partly supported by an NSF Graduate Fellowship.
+444                             JOHN    J. MCCARTHY
+
+
+on the observation that, all other things being equal, stressed syllables are longer than
+unstressed ones. Particular languages have perceptual or articulatory reasons for keeping
+some class of vowels short, so these vowels resist stressing, since it would inevitably
+cause them to lengthen. Probably the most common case of this is a language with
+phonemic vowel length. Since lengthening of short vowels under stress would tend to
+neutralize this length contrast, the speaker has a perceptual motivation to draw stress
+away from short vowels and maintain the phonemic contrast.
+     But Hyman also notes a problem for this theory. Many languages have rules of the
+sort "stress a heavy syllable, but if there isn't one, stress a light syllable", subject to
+the parameters "rightmost" and "leftmost". Therefore, he proposes a complementary
+tendency for heavy syllables to attract stress. It is the interplay of these two principles
+that yields the most common stress patterns.
+     One interesting result of Hyman's proposal will also come under discussion later.
+He recalls a universal principle attributed to Jakobson and Trubetzkoy that any language
+that contrasts syllable weight must also contain a vowel length contrast. According to
+his account, it is the perceptual motive of maintaining this vowel length contrast that
+induces the rejection of stress by short vowels in open syllables and the consequent
+stressing of heavy syllables.
+
+
+0.3. Weak Clusters
+Chomsky and Halle (1968) virtually propose two different theories of the role of syllable
+weight in phonological rules. The fundamental issue of this sort in English phonology
+is the behavior of so-called weak clusters, defined by Chomsky and Halle (1968, 83;
+slightly altered here):
+                                              -syll
+      (1)   Weak Cluster    -+tense]0         +scont1
+                                             L-ant
+The two segments on the right select a single consonant or a cluster of a consonant plus
+a liquid or glide. So the segment on the left is a lax vowel in an open syllable. In view
+of Kahn's (1976) extension of (1) to Vst(r) as well, the relationship of weak clusters to
+English syllabification is evident.
+     In a strictly formal sense, Chomsky and Halle eschew direct reference to syllable
+weight. In fact, they concede (1968, 241, note) that the appearance of the context (1) in
+at least four different rules indicates a defect in their theory. But there is a possible
+remedy to this in a notation they adopt earlier just for expository convenience. They
+use W to indicate (1) considered as a single unit in phonological rules.
+     We could develop this idea into a theory in which languages can define certain
+strings as heavy or light syllables, allowing repeated reference to syllable weight at little
+formal cost. But this putative theory makes very weak claims. It says nothing about the
+                                ON STRESS    AND   SYLLABIFICATION
+
+
+attraction of stress to heavy syllables nor about the equivalence of long to closed
+syllables. It allows free dependence of syllable weight on arbitrary segmental features.
+Finally, if we permit structural descriptions like S , meaning "'a syllable, if it is light"
+                                                  (L)
+(Welden (1977)), then we are treating these new units like phonological features, effec-
+tively allowing an unlimited set of features.
+
+0.4. Moras
+The Prague school mora (Trubetzkoy (1969); Jakobson (1971a)) is an abstract property
+of syllables. Syllables themselves are not exhaustively parsed into moras-rather, the
+ mora measures the weight of a syllable. A light syllable is associated with or contains
+one mora, a heavy syllable two moras, and syllables of greater weight three or presum-
+ ably more moras (Lecerf (1974)). A closed syllable with a short vowel (CVC) is mon-
+omoraic or bimoraic, under language-particular conditions.
+      The utility of this theory is well known to students of meter: it explains the common
+ substitution of a heavy syllable for two light syllables and the converse (de Chene
+(1977)). Its application to accentual systems is specific to fixed demarcative stress
+(Jakobson (1971b)). In the general case, this type of stress assigns an accent some
+ numbern of moras distant from a boundary unit (for Latin, Jakobson (197 1b); for Greek,
+Jakobson (1971c)) or from another accent (for Southern Paiute, Sapir (1930)). As long
+as n is small-perhaps one or two moras-it is unlikely that bimoraic syllables will be
+ skipped over in accentuation.
+      This is certainly an attractive result, but the moraic theory has a serious lacuna.
+ Many languages (like Classical Arabic, described below) attract stress onto a heavy
+syllable regardless of the remoteness of a boundary. The unboundedness of this phe-
+nomenon prevents a mora-counting solution, but the attraction of stress to heavy
+ syllables is still displayed. The moraic theory, then, though explanatory in one class of
+examples, fails to make a prediction in another, related class.
+      My alternative proposal is based on the metrical theory of stress in Liberman and
+Prince (1977), together with some of the conceptual apparatus of the Prague school. It
+offers a mostly formal account of the same problems with which these earlier treatments
+were concerned. In what follows, I draw on Liberman and Prince (1977) and unpublished
+work by Paul Kiparsky, Morris Halle, Alan Prince, and Jean-Roger Vergnaud. Empirical
+justification and illustration come from the synchronic and diachronic description of
+Classical Arabic and some eastern Arabic dialects, though other phenomena are occa-
+sionally alluded to.
+
+
+1. Cairene Colloquial
+Perhaps the most interesting accentual phenomena of Arabic are found in a dialect
+spoken in Egypt from Cairo northward. Harrell (1957) gives three principal stress rules
+446                                   JOHN   J. MCCARTHY
+
+
+for this dialect, along with a few morphological exceptions: 1
+      (2) a.     Stress the ultima if it is a superheavy syllable (CVCC or CVVC):
+                 katabt 'I wrote', sakakiin 'knives'
+          b.     Otherwise stress the antepenultimate syllable if the antepenult and penult
+                 are light syllables (CV), unless the preantepenult is also light:
+                 buixala 'misers', muxtalifa 'different (f. sg.)'
+          c.     Otherwise stress the penultimate syllable:
+                 martaba 'mattress', Tamalti 'you (f. sg.) did', beetak 'your (m. sg.) house',
+                 katabitu 'she wrote it (m.)'
+This rule offers several notable peculiarities to an investigation of the relationship
+between heavy syllables and stress.
+     First, there is some evidence of a ternary syllable weight distinction. Word-inter-
+nally, the stress rule contrasts light syllables (CV) with heavy syllables (CVC or CVV).
+Word-finally, stress lodges on a superheavy syllable (CVVC or CVCC), but a word-
+final CVC syllable fails to attract the stress: Iniddrris 'teacher', dabadan 'never'.
+Although word-final CVV syllables are always stressed-nisii 'he forgot him', saftu
+'they saw him'-l argue later that this is due to other properties of the derivation of
+these forms. In sum, there are two binary syllable weight distinctions, light versus
+heavy word-internally, and light and heavy versus superheavy word-finally.
+     Second, there is a Janus-like aspect to (2b). It stresses the antepenult, but it must
+also take note of the weight of both the preceding and the following syllables. Ordinarily,
+stress rules are sensitive only to conditions exclusively to the right or the left of the
+focus.
+     Third, perhaps the most notable characteristic of this dialect is the rejection of
+stress by heavy antepenults: inartdba 'mattress', iktibii 'they write', miidarrisit 'teacher
+(f. construct)'. Since stress can go as far back as the antepenult, and since heavy
+syllables are stressed in penult position, this treatment of heavy antepenults is genuinely
+anomalous. It goes exactly counter to the universal tendency of stress assignment
+described in the introduction.
+     If that were all, then we might simply be compelled to accept occasional deviations
+from the attraction of stress to heavy syllables. Fortunately, though, additional data
+suggest a subtle realignment of the relationship of stress to syllabification. The examples
+in (2) exhaust the possible arrangements of heavy and light syllables in words of the
+Cairene dialect. But Classical Arabic words have a much richer set of canonical patterns,
+allowing very long strings of light syllables. Since there is no pandialectal tradition for
+stressing Classical Arabic, in many regions the colloquial stress rule is applied to
+Classical Arabic forms.
+
+       In the transcription followed here, S and hi are voiced and voiceless pharyngeal glides, respectively.
+A subscripted dot indicates emphatic (velarized or pharyngealized) pronunciation. From the outset, 1 adopt
+a bimoraic representation of long vowels, anticipating the discussion in section 3. Many irrelevant shadings
+of vowels are not indicated.
+                                       ON STRESS      AND    SYLLABIFICATION
+
+
+    Mitchell (1975) reports the pronunciation of a large number of Classical Arabic
+words by two Egyptians educated in Cairo.2 Their treatment of words with the same
+canonical pattern as those in (2) shows that the Cairene rule holds as well for their
+pronunciation of Classical Arabic:
+      (3) a.      darabt 'I/you (sg.) beat', hajjaat 'pilgrimages'
+          b.      kataba 'he wrote', ?inka'sara 'it got broken'
+          c.      qattala 'he killed', kataibta'you (m. sg.) wrote', haaoaani 'these (m. du.)',
+                  faValdtun 'deed (nom.)'
+So the accentuation of Classical Arabic words is another source of information about
+the form of the Cairene stress rule.
+     By Harrell's formulation in (2), we expect (2c) to give penult stress whenever the
+penult, antepenult, and preantepenult are light, like katabitii. Classical Arabic words
+with longer strings of light syllables than katabitit sometimes observe (2) and sometimes
+do not:
+      (4) a.      Observe (2):
+                  sajaratun 'tree (nom.)'
+                  sajaratuhdmaa 'their (du.) tree (nom.)'
+                  2adwiyatdhu 'his drugs (nom.)'
+           b.     Violate (2):
+                  sajaratuhu 'his tree (nom.)'
+                  ?adwiyatihumaa 'their (du.) drugs (nom.)'
+Clearly, Harrell's rule does not extend to forms like those in (4b).
+    Mitchell never formulates a uniform rule to stress these words, though he does give
+a thorough list of canonical patterns. On the basis of these, we can extract some
+coherent generalizations (Langendoen (1968)):
+
+      (5) a.      Stress a superheavy ultima.
+          b.      Otherwise stress a heavy penult.
+          c.      Otherwise stress the penult or antepenult, whichever is separated by an
+                  even number of syllables from the rightmost nonfinal heavy syllable or,
+                  if there is no nonfinal heavy syllable, from the left boundary of the word.
+
+This rule covers all of Harrell's cases and Mitchell's as well. (5b) stresses the penult in,
+say, amadlti. Under rule (Sc), biixala contains no heavy syllable, so we begin counting
+parity at the left boundary of the word. The antepenult then receives the stress because
+zero syllables-an even number-separate it from the left boundary. The preantepenult
+
+       2 Other sources of data of this type are Harrell (1960) and Kussaim (1968). There is a quite shallow
+argument against using evidence of this sort, since Classical Arabic is learned in school. Actually, this is no
+different from using uncommon or nonsense words to test a rule's productivity. In fact, it is of great
+significance that the stress rule applies in a particular way to forms that do not occur in the colloquial.
+448                             JOHN   J. MCCARTHY
+
+
+is the rightmost heavy syllable of 2inkadsara,and zero syllables separate it from the
+antepenult, which then receives the accent.
+     Though this may seem a bizarre rule, formally similar stress rules are not all that
+uncommon. I am aware of two others. The stressing of some forms in Plautine Latin is
+one such example, described in section 5. Another is the tonal accentuation of Creek
+words without inherent accent. Haas (1977) presents the following data:
+
+      (6) a.   s6kca 'sack', pocoswa 'axe'
+          b.   haitkii 'white', hoktii 'woman'
+          c.   ifa' dog', if6ci 'puppy', amifoci 'my puppy', waakoci'calf', alpatoci 'baby
+               alligator', iikosapita 'one to implore'
+
+The forms in (6a) show stressing of a heavy penult when the ultima is light. Heavy
+ultimas apparently induce morphologically-governed accentuation, as in (6b). For ex-
+amples like (6c), Haas formulates a principle that I will informally paraphrase as: accent
+the penult or ultima, whichever is separated by an odd number of syllables from the
+rightmost nonfinal heavy syllable or the first syllable.
+      Both the Cairene and the Creek rules show that the relationship between syllable
+weight and stress or accent assignment can be quite subtle. Notice that these rules
+combine properties that, separately, are all reasonably familiar. The search for a right-
+most (or leftmost) heavy syllable that terminates at word-boundary is common; in fact,
+Classical Arabic is an example of it, as I show in section 4.3. The feature of parity-
+counting, distinguishing odd from even syllables or moras, is characteristic of, say,
+Southern Paiute. Finally, the limitation of stress to one of the last two or three syllables
+in the word corresponds closely to the Dreisilbengesetz of Classical Latin.
+     Some of the theories outlined in the introduction propose explanations for one or
+another of these properties. For instance, the tendency to stress heavy syllables explains
+why a rule might seek the rightmost heavy syllable. If this tendency is thwarted by the
+absence of a heavy syllable, the rule defaults to the last syllable it sees. But rules of the
+Cairene type seek that syllable not to stress it but rather to begin again with a whole
+new procedure. So this tendency makes no prediction here.
+     Another case of this is the phenomenon sometimes called a law of limitation. In
+demarcative stress languages, we can speak of a law that governs the maximum distance
+between the stress and the word-boundary. The Classical Latin Dreisilbengesetz, lim-
+iting stress to the last three syllables, is a good example of this. Rules of this sort have
+received the most attention from the Prague school. This theory takes the limitation to
+be an effect of counting syllables or moras from the boundary. In particular, mora-
+counting should explain disjunctions of the sort "accent a heavy penult, otherwise the
+antepenult". But again rules of the Cairene type defy this simple account; the stressing
+of penult or antepenult depends both on their weight and on the weight of other syllables
+to the left. In this case, then, the mora-counting solution explains only part of the rule.
+     Evidently, stress rules of the Cairene type are inexplicable under two theories that
+                                       ON STRESS      AND   SYLLABIFICATION
+
+
+
+
+offer a connection between stress and syllable weight. Only the theory that makes the
+weakest claims, the formalism of Chomsky and Halle (1968), can overcome the vicis-
+situdes of these accent rules. Consider the following formulation of clause (5c) of the
+Cairene stress rule: 3
+     (7)    V   -*    [+stress] / # (Q V [+seg]) (CVCV)o C                    (CV) CV ([+seg]) #
+Although this rule is quite complex, its mode of application is reasonably perspicuous.
+The first parenthesized term selects the rightmost heavy syllable if there is one. The
+second parenthesized term skips over the largest possible even number of light syllables.
+Material after the focus selects the antepenult or otherwise the penult.
+      The formal complexity of (7) does have some consequences. Chiefly, it claims that
+rules of the Cairene type are much less highly valued than rules that just seek a rightmost
+heavy syllable, that count parity, that stress the penult or antepenult, or that combine
+two of these properties. This claim is quite difficult to verify, but at least we have seen
+that the Cairene rule is scarcely a unique exponent of its type. A far more serious
+objection depends on a form of argument developed by Anderson (1974) in his discussion
+of the parenthesis-star notation. Notice that the material in the second set of parenthe-
+ses-CVCV-exactly        duplicates the material in the focus and immediately adjacent to
+it. In other words, this notation requires the duplication of information about adjacent
+light syllables. Though this is not an intolerable consequence, it certainly adds to the
+faults of this theory already described in the introduction.
+
+2. Metrical Phonology
+A different solution to Cairene stress not only eliminates these assorted problems but
+also leads to an explanatory model of the relationship between stress and syllable
+weight. The basis of this solution is Liberman and Prince's (1977) metrical theory of
+phonology. I will further assume a suggestion made by Alan Prince in unpublished work
+that the feature [stress] be eliminated. Therefore, all stress information is encoded
+directly in the metrical trees, and the stress rules of a language are simply rules for the
+geometry and labeling of metrical trees.
+     In Liberman and Prince's (1977) model, a tree that handles the Cairene accent
+should have the following characteristics:
+     (8) a.       Binary feet are assigned from left to right to pairs of light syllables. That
+                  is:
+
+                     ...H
+                            A A          A
+                            L L L L L...or#
+                                                         AAA
+                                                L L L L L...
+           b.     A right-branching superstructure gathers up all feet and stray syllables in
+                  the word.
+      3 A similar version is given by Langendoen (1968). Welden (1977) offers a formulation of this rule in
+terms of syllables, where syllable weight is referred to by the feature-like notation described in section 0.3.
+450                                       JOHN    J. MCCARTHY
+
+
+             c.         The entire tree is labeled according to the principle that a right node is
+                        strong (s) if and only if it branches.
+If the tree is assembled in this way, then the designated terminal element (the terminal
+node of the tree that is dominated only by ss) will mark the stress-bearing syllable.
+      On some typical examples, the informal stages of tree construction are:
+(9)                a.                  b.                 c.                       d.
+                   A                                           A                 A A
+by (8a)           buxala             Samalti           muxtalifa               sajaratuhumaa
+
+
+
+
+by (8b)           buxala
+                            A          7>/\
+                                     qamalti           muxtalifa               sajaratuhumaa
+
+
+
+
+                        s                   s                   S                 w      w
+                   s w w              w     s w          w      s w w           s w s w s           w
+
+by (8c)           buxala              iamalt i         muxtal      ifa        saj arat uhumaa
+Note that the heavy penult of ai?amdltiand the heavy ultima of sajaratlillitmaa cannot
+be assigned to feet by (8a), which applies only to light syllables. They instead receive
+metrical structure only from the right-branching word-level tree.
+    Example (9d) independently confirms the exact nature of the stress tree. Mitchell
+reports an overall pitch pattern for this word of the following form:
+      (10)
+
+
+
+
+                  sa ja      ra tu   hu maa
+There is a general downdrift across the word, and a sharp fall on the stressed syllable.
+But the syllables sa and ra, which are each locally more prominent, have higher pitch
+than their sister constituents. This is evidence, then, that foot-level prominence relations
+play some role in the pitch contours within words.4
+      4Welden (1977) presents quite extensive data on secondary stress with some surprising properties. But
+facts described independently by Harrell (1960, 10) and Abul-Fadl (1961, 241) contradict much of her data.
+These latter authors both ascribe secondary stress to every heavy syllable that is not primary-stressed. This
+is presumably a result of some late phonetic adjustment unrelated to the metrical trees.
+                                      ON STRESS      AND   SYLLABIFICATION
+
+
+      Some of the advantages of the solution outlined in (8) are already apparent, although
+it still awaits formalization. First, the parity-counting is stipulated once and for all by
+a single rule of foot assignment. Second, it is unnecessary to refer to a disjunction of
+rightmost heavy syllable and left word boundary. Instead, the left-to-right assignment
+of feet applies whenever (8) finds adjacent light syllables. Third, the stressing of heavy
+penults is brought under the same rubric as the other syllable patterns.
+      But although rule (8) works correctly in the vast majority of cases, there are two
+sets of apparent exceptions to it. One involves the stressing of superheavy ultimas; this
+will be dealt with shortly. The other class of exceptions is under morphological govern-
+ment. If a third person feminine singular verb is followed by a pronominal object clitic,
+the accent falls on the feminine inflectional suffix: kallim+it+ak 'she spoke to you (m.
+sg.), ram+it +il 'she threw it (m.)'. The expected stressing of these words by rule (8)
+is "kalli,nitak and *raimitui.If these forms appear without the pronominal clitic, the
+stress is as expected: kalli'mit, rdmit.
+      The metrical tree notation permits an explanatory but very restrictive account of
+this exception. A morphologically-governed rule creates a branching node over the
+verbal suffix +it and any following material:5
+       (11) +it+X
+               1 2 => 1           2
+If the variable X is a null string, then the branching node will simply not be created by
+rule (11), since inherently the tree notation only expresses relations between nonnull
+elements. If X is nonnull, then rule (8) will follow (I I), correctly assigning the remainder
+of the metrical structure to this word, and labeling the entire tree. No conflict between
+the two rules of tree assignment is possible since the notation does not allow overlapping
+trees, giving precedence to the earlier rule.
+     This natural treatment of exceptionality within the metrical theory explains why
++it is stressed only when it is followed by other material. It also restricts or orders the
+possible exceptions. For instance, if +it always induced final stress in *kallimitadk,
+ ramit,l then rule (I 1) would need to create labeling as well as structure. The labeling
+of these exceptional forms comes from a general rule of the phonology.
+
+3. Syllabification
+It is a somewhat different matter to incorporate into these rules the stressing of the
+ultima, an issue that leads to a formal treatment for heavy syllables. I will first review
+the facts of final stress. A superheavy (CVVC or CVCC) ultima is always stressed. A
+light or a closed heavy (CVC) ultima is not stressed: ?amalti 'you (f. sg.) did', maddaris
+ schools'. Given the parallel behavior of CVC and CVV syllables word-internally, we
+might expect them to behave alike word-finally. Confusingly, an open heavy (CVV)
+ultima is always stressed in colloquial words but unstressed in Classical Arabic words
+
+     5 A similarly anomalous penult stress occurs in plural nouns like sibita 'baskets' or dubil7a 'hyenas'.
+Apparently a rule like ( 11)is associated with this plural morphology.
+452                                    JOHN    J. MCCARTHY
+
+
+that are otherwise stressed in conformity with the colloquial pattern. The solution to
+this evident inconsistency comes from an examination of the source of stressed CVV
+ultimas in the colloquial.
+     With only rare exceptions, stressed word-final CVV syllables are the surface reflex
+of a third person masculine singular objective or genitive suffix on a verb, preposition,
+or noun: ramaa 'he threw him', 9axill 'his brother'. Actually, these forms have super-
+heavy final syllables at a more remote stage of the derivation, and so are stressed
+regularly.6 Besides maintaining the parallel between CVV and CVC syllables, two other
+arguments support this position.
+     First, all these forms with a stressed final long vowel are in stylistically-conditioned
+variation with forms with final h: ramaah, ?ax'luh. The forms with h are apparently
+characteristic of slow or emphatic speech (Tomiche (1964); Harrell (1957)). Since h is
+invariant when part of the stem (e.g. mindbbih 'alarm clock'), I follow Brame's (1971)
+suggestion for a similar phenomenon in a Levantine dialect and restrict deletion to
+suffixal h:
+      (12)   h   -     / [+suffix] #
+      Brame presents an argument from this dialect that also carries over to Cairene. If
+a dative suffix follows the third person masculine singular object suffix, the h shows up
+overtly: rama +hu +lha 'he threw it (m.) to her'. Brame argues that this morpheme is
+subject to a metathesis rule, and I will assume that the same is true of Cairene. Since
+the full analysis would take us too far afield, I refer the reader to Broselow (1976, 130)
+for a version of this rule.
+     Pace deletion of final h, then, the problem is very simple to state: the final syllable
+is stressed if and only if it has the canonical pattern CVVC or CVCC. Since the final
+syllable is always the right daughter of any tree it is associated with, it should never be
+labeled s by (8c). Therefore, ultima stress is impossible under our present understanding.
+     But notice this one peculiarity of the canonical syllables CVVC and CVCC: they
+are possible syllables of Cairene only in word-final position. The maximal word-internal
+syllables are simple heavy CVV and CVC. Suppose minimally that syllables are asso-
+ciated (after Kahn (1976)) with simple syllabic trees:
+
+      (13)       ar                 ai
+              A
+             c v
+                                 /1\
+                                c vv
+                                                      /1\
+                                                     c vc
+Each node o- is immediately and exhaustively dominated by a terminal s or u node of
+the strcss tree generated by (8). In a way that we could easily further specify, the binary
+and ternary branching syllable trees of (13) exhaustively parse the segments of Arabic
+
+       6
+         Alternatively, CVV ultimas could be stressed by a morphological rule associated with the objective
+suffix. The very rare words like gat6io 'cake' and hayaa 'life' would then be costly positive exceptions to this
+rule. This nonphonological solution, while unnecessary in Cairene, seems appropriate to account for similar
+facts in Damascene Arabic.
+                                      ON STRESS      AND    SYLLABIFICATION
+
+
+words with one exception: the superheavy CVVC and CVCC ultimas. A new rule allows
+these strings to be parsed as well by Chomsky-adjoining a word-final consonant to a
+preceding heavy syllable:
+
+
+     (14)          0f                                                          Or
+
+             C V        [+seg] C #C
+
+                  1              2 3 C     1#2 3           i.e. C V [+seg]            C #
+
+
+     What rule (14) says is that a superheavy ultima is a syllable which also contains a
+heavy syllable as its left daughter. That heavy syllable-the subordinate a-of the derived
+structure-becomes in effect a heavy penult, since it is the second last major constituent
+in the word. It therefore is stressed like any heavy penult. I will show shortly how
+exactly to bring this about through the metrical formalism.
+     Rule (14) explains something about the weight of final syllables in Cairene. It also
+suggests that we might look further, into the syllables themselves, for further evidence
+of hierarchic structure. A proposal in this vein, first made and developed by Paul
+Kiparsky in class lectures,7 is that each segment is the terminal node of a binary-
+branching tree of ss and wvs,where the root is the syllable node (T.In conformity with
+the usual observations about syllable structure, relative prominence in the tree is mapped
+onto relative sonority of segments. Thus, the designated terminal element is the syllabic
+
+                                                           w    s
+                                                           I    I
+nucleus, an obstruent plus sonorant cluster is C C, and so on. A specification of the
+possible syllabic trees, along with some language-specific conditions on the way in
+which they are associated with strings of segments, constitutes the syllabification rules
+of a language.8 Note that this theory is entirely neutral with respect to questions of
+when syllabification occurs. I will, however, assume that strings are syllabified in
+underlying representation and successively after each stage of the derivation. This most
+strongly limits the derived structures of rules of epenthesis, syncope, and so on.
+     The special character of this treatment of syllabification is that it considers some
+substrings of syllables to be structural units. The adduction of evidence on this point
+depends on the following logic. Suppose we have some string of units hierarchically
+arranged with proper bracketing. Suppose further that all rules, or some class of rules,
+refer to the hierarchy. Then rules referring to nonconstituents will be more costly
+formally, and therefore less highly valued, than rules referring to constituents. For
+
+      7A similar structure, though without labels, was proposed by Prince (1975).
+      8
+        For further discussion of metrical structure inside syllables, particularly in segmental phonological
+rules, see McCarthy (1977; forthcoming).
+454                                  JOHN    J. MCCARTHY
+
+
+instance, long vowels can have a bimoraic representation but also be associated with a
+
+                            s   w
+                            I   I
+single metrical unit: V V. Then any rule applying to this entire structure will affect
+both moras as if they were a single segment. I claim that all vowel length is represented
+in this way.
+     A very plausible constituent analysis within the syllable is the rhyme-the syllable
+nucleus plus any following vowel or consonant. In this notation, the rhyme is defined
+as the right branch of cr. Thus, the rhyme is the circled constituent in the syllable trees
+( 5a-c):
+
+
+      (15) a.          cr                     b.       or          c.       c
+
+
+
+
+                  I IIXW                             IwI/ IC
+                 C      V                               VC              C       V
+
+Evidence for this constituent is quite extensive, and is scarcely exhausted by the
+following list:
+       i. In Lithuanian "the accent may strike not only vowels but also postvocalic
+sonorants, provided that they belong to the same syllable as the immediately preceding
+vowels" (Kiparsky and Halle (1977)). That is, the accent may lie on any nonobstruent
+within the rhyme.
+      ii. Kahn (1976) argues that English vowels destress only if they are syllable final.
+That is, a vowel must exhaust the rhyme for destressing to apply.
+    iii. Complementarily, the English pig Latin rule severs and postposes the syllable
+onset, the segments not in the rhyme.9
+    iv. French vowels assimilate in nasality to following tautosyllabic consonants.
+Therefore, the rhyme is the domain of the feature [+nasal].
+So the reality of a rhyme unit in many phonological rules is not difficult to establish,
+and we have a notation to express that reality. There is a good deal more to say about
+this, but first we need one other basic notion to allow a synthesis of syllable structure
+and stress.
+
+      91 am indebted to Will Leben for pointing this out to me.
+                                    ON STRESS        AND    SYLLABIFICATION
+
+
+     Vergnaud (ms.) proposes a theory of phonology in which all rules operate on
+projections-phonologically-defined     sets of substrings-of strings of segments. For ex-
+ample, many vowel harmony rules apply to the projection of all [+syll] segments in a
+word. This idea can be fruitfully extended to the issue under consideration. 10 If segments
+are hierarchically arranged within syllables, as I have argued, then a projection rule
+could refer to individual segments or to some constituents of the syllabic tree. Thus, we
+can project all the vowels in a word or all the rhymes in a word or even all the syllables.
+If a language has structures like those in (15), then we cannot, except perhaps at great
+formal cost, project all CV sequences in a word. But in the particular case in which a
+rule projects all and only the rhymes in a word (where rhyme is defined as above, the
+right branch of v-), then syllable weight has an obvious geometric interpretation: heavy
+syllables branch, light syllables do not. Clearly, not all stress rules will project rhymes-
+some project every vowel or every syllable-but all must project a constituent of the
+syllabic tree.
+     With some further elaboration, this mechanism explains the asymmetry between
+CVV and CVC syllables. Recall the principle attributed to Trubetzkoy and Jakobson:
+a language treats CVC syllables as heavy only if it treats CVV syllables as heavy. So
+there exist languages that have CVV and CVC syllables where CVV is heavy but CVC
+is not. Two languages of this sort may be Yidin" (Dixon (1977)) and Tiberian Hebrew
+(McCarthy (1979)). My proposal is that the syllable-structure repertory of these lan-
+guages is as shown in (16):
+
+
+    (16) a.           O'                b.             cr                     c.       cr
+
+
+
+
+                 w         s                     w     s        w                  w   s    w
+
+                 C         V                     C    V         V                  C   V    C
+
+It follows that languages with syllabification like that in (16) do not have branching
+rhymes in CVC syllables, though they do have branching rhymes in CVV syllables,
+where rhyme is understood in the strict sense as the right branch of o. The purely
+geometric account of syllable weight offered here will capture exactly this difference.
+     There is, of course, a complementary problem presented by Trubetzkoy and Ja-
+kobson's universal. We have to exclude languages with heavy CVC syllables but with
+light CVV or without CVV syllables. That is, we have to eliminate structural inventories
+
+     10This suggestion is due to Morris Halle.
+456                                  JOHN   J. MCCARTHY
+
+
+such as those shown in (17a,b):
+
+
+      (17) a.
+
+
+                        0r                          s
+
+
+
+
+                w            s         w      s         w
+                l       I        I             I        I
+                C            V         C      V         C
+
+           b.                                 CCi
+
+
+
+                                                    s            s
+
+
+                w            s         w      s         w   w        s    w
+
+                    I        I          I       ~~ I ~
+                                             ~~~~~~~~~~I    ~I       I     I
+                    C        V         C      V         C   C        V    V
+
+
+(17a) describes a language with heavy CVC syllables but without CVV syllables, while
+(17b) allows light CVV syllables and heavy CVC syllables. Not only should the theory
+exclude (17), it should also allow a principled choice between grammars with (16) and
+grammars with (15).
+      In fact, the theory of metrical syllabification does just this in a very natural way.
+ Suppose that syllabification in general refers to only three parameters: the labeling of
+ the rhyme, the branching or nonbranching character of the rhyme, and the major
+ category features like [syllabic], [consonantal], and [sonorant]. Then the grammar of ( 15)
+ must say only that weak rhymes (those labeled w) are forbidden. The grammar of (16),
+ on the other hand, allows strong rhymes only if the segments in the rhyme are all
+ [+syll]. Another possible grammar-for a language with (16a,b) but without closed
+ syllables-also has [+syll] strong rhymes but prohibits weak rhymes. Still other lan-
+guages may allow only rhymes with [-cons] segments or only rhymes with [+son]
+ segments. Finally, a language with CV syllables exclusively prohibits branching rhymes
+ entirely. But it is impossible under this theory to require that the two segments in a
+ rhyme consistently disagree in some feature, so the structures in (17) are ruled out
+ universally. Although other formal means of achieving this result suggest themselves,
+ this one does make full use of the labeling and structures that are independently needed
+for the stress rules.
+                                       ON STRESS     AND       SYLLABIFICATION
+
+
+4. Exemplification
+4.1. Cairene Colloquial
+We can now explain some of the properties of the informal algorithm (8) for creating
+Cairene metrical structure. The first operation is to project all the rhymes of the word,
+yielding (18) from (9), for example:
+    (18)         a.                        b.                    c.                    d.
+
+                                       s        w          s w                              s w
+                      I. .             I                   I          . * .                     I
+             u1a a                 a a          II     u x aIa                   aaauua                 a
+Feet are formed over pairs of light syllables. This property is expressed by a formal
+condition on foot assignment in Cairene:
+    (19)   In a foot [n, n2], n1 and n2 do not branch.
+I will stipulate that this assignment of feet is from left to right, yielding (20) from (18):
+    (20)         a.                        b.                    c.                    d.
+
+                                       s w             s w                                          s   w
+
+             u
+              A.aa                 .1 I1jj1A,
+                                   a    1     u xa                      ia
+                                                                                 A
+                                                                                 a a a u u a
+                                                                                            .           a
+As a result of (19), the rhymes of heavy syllables and the feet have identical geometry.
+Finally, these structures are gathered together into a right-branching word-level tree.
+     The same projection mechanism applies to words with superheavy word-final syl-
+lables, though the results are a little different. Recall that superheavy syllables have a
+structure that includes two a-nodes, as in (14). The rule that projects rhymes refers
+formally to "the right branch of a", so in fact superheavy syllables contain two rhymes,
+and they will project as two units. For instance, the word sakakuin yields the following
+projection of rhymes:
+    (21)
+
+                 s        w
+
+                 I I
+           aai        1       fl
+
+This is then geometrically equivalent to a word with a heavy penult, and receives stress
+in exactly the same way.
+     There is one remaining technical problem. Consider again a word like maddaris,
+with a heavy-though not superheavy-final syllable. The full metrical structure as-
+458                                    JOHN J. MCCARTHY
+
+
+signed to this word except for the labeling is:
+      (22)
+
+
+
+
+                       /   s       w     s            w
+                   /       I       I     I            I
+              a            a       a     I            s
+Now if we attempt to label this tree by rule (8c), we will incorrectly get stress on the
+final syllable, since it is a branching node. The difficulty here is that rule (8c) treats the
+
+                                             s        w
+
+branching of syllable rhymes like i      s on an equal footing with the branching of foot-
+and word-level structure.
+     There is a clear precedent for a solution to this in Liberman and Prince (1977). Rule
+(8c) is identical to the labeling rule associated with compound words in English, as a
+few examples show:
+      (23) a.                                    b.
+
+
+                                                               w                     s
+
+
+                       s       w                          sw               s             w
+
+                   labor union                        labor        union   finance
+                                                                      committee
+Now notice that the labeling of compounds is sensitive only to syntactic branching-it
+is unaware that union is a polysyllabic word and so has a branching word-stress tree.
+I will similarly claim that word-stress labeling rules (though not foot-assignment rules)
+are sensitive only to foot-level branching. Therefore, labeling cannot depend on whether
+a particular rhyme branches or not.'
+
+4.2. Danmascene Colloquial
+The stress rule of the Damascus dialect (Cowell (1964); Grotzfeld (1965)) is a good deal
+more familiar than the Cairene one. Except for the Cairene-like stressing of superheavy
+
+      11This suggestion is due to Alan Prince.
+                                     ON STRESS       AND          SYLLABIFICATION
+
+
+ultimas, it is identical to the Classical Latin stress rule: accent a heavy penult or the
+first syllable of a disyllabic word, otherwise accent the antepenult: 12
+     (24) a.      darrast 'I/you (m. sg.) taught', bzt?u'ul 'you (m. sg.) will say'
+          b.      fathet 'she opened', madacares'schools', sirib 'he drank'
+          c.      darasu 'they studied', madrase 'school', muttahide 'united (f. sg.)'
+The final example is a loanword from Classical Arabic with a properly noncolloquial
+surface canonical pattern. It confirms the impossibility of retracting stress beyond the
+antepenult under any conditions.
+     Damascene is clearly subject to the same syllabification and labeling rules as
+Cairene. The real difference between Damascene and Cairene is foot construction. The
+Damascene stress rule, like that of Classical Latin, requires an equivalence between a
+heavy penult and an antepenult plus light penult. To see this formally, consider the
+rhyme projections of the crucial canonical patterns (abstracting away from the weight
+of the final syllable):
+     (25) a.      heavy penult
+
+                                                s             w
+
+                                                 I            I
+                                                nI            n2         n3    #
+            b.    light penult and light
+                  antepenult                    n1       h2        fi3
+
+            c.    light penult and
+                  heavy antepenult
+
+                                                1             1
+                                                nI            n2         h3    h4    #
+
+Suppose we then create a left-branching tree with the structure [[n1 n2] n3]. This will
+yield the trees of (26), which, with subsequent assignment of right-branching word
+structure and labeling as in Cairene, give the correct stress:
+(26) a.                            b.                                         c.
+
+
+
+
+           n1      n2         n3         n1         n2               n3             n,   n2   n3   n4
+
+      12
+         This generalization has several morphological exceptions, most of which are handled by mechanisms
+similar to rule (11). For some discussion of these and possible cyclic metrical stressing in Damascene, see
+McCarthy (forthcoming).
+460                                       JOHN    J. MCCARTHY
+
+
+The common property of these trees is that n, and n2are terminalnodes and therefore
+nonbranching,while n3 can dominatea heavy or a light syllable.
+    The Damascene foot-assignmentrule is expressed formallyas (27):
+      (27) [[n1 n2] n3], where n1and n2 do not branch.
+I furtherstipulatethat (27) applies from right to left, which will ensure in all cases that
+stress never recedes past the antepenult. The bracketingin (27) is interpretedas con-
+structinga left-branchingtree while preservingand using any preexistingmetricalstruc-
+ture. In practice, if n1 and n2 are already sisters, then n3 is right-adjoinedto them. If
+they are not already sisters, then the full left-branchingstructureis created. (27) cannot
+destroy structurethat was present before it applied.
+     There is a reason why both the Cairene and Damascene rules refer to nodes that
+do not branch. A nonbranchingnode in a projection of the rhyme is much like the
+Pragueschool mora. The real difference is that, while the mora was defined somewhat
+arbitrarilyon a language-by-languagebasis, the equivalentnotion in the metricaltheory
+ties into a whole complex of formal properties of syllabification and accentuation.
+Furthermore,the metricaltheory provides a naturalaccount of stress rules that clearly
+do not count moras, like the following one.
+
+4.3. Classical Arabic
+The stress phenomenaof Classical Arabic have a somewhat difficultprovenience. The
+native orthoepists said nothing about stress in their usually detailed descriptions. Con-
+sequently, in most areas the colloquial stress rule is applied to Classical Arabic, as in
+Cairo. Chiefly for this reason, it is widely believed that Classical Arabichad no regular
+word stress (Birkeland (1954); Rabin (1978); Ferguson (1956)). But there is a stress
+pattern-the same one described in handbooks like Wright(1971)-that is traditionally
+observed in some areas despite the dialectal pronunciation.For instance, Abul-Fadl
+(1961) reports the following accentuation of Classical Arabic in an area where the
+Cairene and Damascene stress rules generally apply to the colloquial:
+      (28) kita'abun'book (nom. sg.)', manaadiilu 'kerchiefs (nom.)', yusaariku 'he
+           participates',mamlakatun'kingdom(nom. sg.)', kataba'he wrote', balahatun
+           'date (nom. sg.)'
+The rule usually formulatedto account for these facts is (29):
+      (29) a.         Stress a superheavyultima.13
+           b.         Otherwise stress the rightmostnonfinalheavy syllable.
+           c.         Otherwise stress the first syllable.
+In addition to the observance of (29) in some modern traditions, there are two other
+
+      13
+           Syllables of this type are limited to so-called pausal forms that occur before major syntactic breaks.
+                                ON STRESS   AND   SYLLABIFICATION
+
+
+arguments for this rule in Classical Arabic. First, it has been retained in a few modern
+colloquials like the Egyptian Saiiidi (Khalafallah (1969)) and Yemen Plateau (Diem
+(1973)) dialects. Second, there is some basis for inferring stress patterns from the system
+of rhyming in verse or rhymed prose (saj?S). For instance, the difference between
+masculine and feminine rhymes in English or Modern Hebrew is just the difference
+between end-stressed and penult- or antepenult-stressedwords. The Arab orthoepists
+recognized an elaborate typology of Classical Arabic rhyming. One type involves su-
+perheavy final syllables, anotherheavy penults, on througha heavy syllable that is the
+fifth back from the end of the word. In terms of (29), then, the rhyme in verse is just
+the string that includes the stressed vowel rightwardto the end of the word.
+     So the Classical Arabic stress rule has one of the propertiesof the Damascenerule:
+it will not skip over heavy syllables. But Classical Arabic allows retractionof stress a
+potentially infinite distance from the right boundary,ratherthan the maximumof three
+syllables permittedin Damascene. This means that the Classical Arabic foot must also
+be of potentiallyinfinite size. In all other respects it is like Damascene:
+    (30)   [[[ . . . [n, n2] . . . ]ni_1] ni], where n1, . . ., ni-1 do not branch and ni is
+           maximal.
+
+This infinite schema, along with the stipulation that the foot be as large as possible, is
+all that separates Classical Arabic from Damascene. As in Damascene, feet are applied
+from the right, word structure is right-branching, and labeling follows (8c).
+
+5. Diachronic Considerations
+These evident similarities between the stress rules of Damascene and Classical Arabic
+certainly suggest an historical connection. In previous work, the issue has been clouded
+somewhat by the view that Classical Arabic was without word stress. So Cowan (1960),
+for instance, holds that the ancient ancestor of the modern dialects was without regular
+stress, and that the modern eastern stress patterns arose independently. My view is
+closer to the more traditional one of Brockelmann ((1961, originally published in 1907);
+more recently Janssens (1972)) that the phenomena in all the modern dialects should be
+related historically to a rule like (29). Apart from (29) I attribute no properties to a
+protocolloquial Arabic (Ferguson (1978)) that is distinct from Classical Arabic.
+     In the metrical analysis of Arabic stress that has been proposed here, the sole
+difference between Classical Arabic and Damascene Arabic is that the former has
+potentially infinite feet while the latter has reduced the foot to three nodes subject to
+the same conditions on branching. In fact, except for a few scattered dialects, no modern
+colloquial has feet of the indefinite-sized, Classical Arabic type. Now notice that this
+distinction seems to correlate with the existence of extensive vowel reduction (deletion
+of unstressed vowels in open syllables, sometimes restricted to nonlow vowels) in the
+same colloquials. If vowel reduction is-at least in its initial phonetic development-a
+reflex of stress timing, then we can see that the colloquials must be stress timed, while
+462                                    JOHN    J. MCCARTHY
+
+
+ Classical Arabic was not. Stress timing in a metrical theory can be understood as just
+ timing of the duration of feet. If the feet are limited to two or three syllables, as in the
+ colloquials, they can be easily, though not necessarily, stress timed. This is clearly not
+ the case with the Classical feet. Potentially infinite feet are presumably unmanageable
+ for a stress timing rule.
+      Probably the Damascene foot is the most common Arabic type: it seems to hold for
+ much of the Levant and may also be prevalent in the western dialects, like Maltese
+ (Brame (1973)). So apparently this reduction of the original potentially infinite schema
+ to a fixed one with three terms was a fairly early development. But in Cairene we have
+just a two-term schema, where both nodes are nonbranching. My suggestion is that
+ Cairene simply displays the loss of that third term n3 from the rule schema, a formal
+ historical rule simplification.
+      Unfortunately, Cairene presents one other historical problem that remains intract-
+ able. Feet must be assigned from left to right in Cairene but from right to left in the
+ other colloquials and in Classical Arabic. This change in direction is entirely unexplained
+ under the account offered here. The ideal explanation would be to posit a relationship
+ between the form of the foot and the direction of its application, so the change in
+ direction in Cairene would be automatic. Although no complete solution is forthcoming,
+ some new evidence bearing on this question suggests that the form of the feet does
+ partially or fully determine the direction of their assignment.
+      It is generally agreed (Sturtevant (1940)) that preclassical Latin was prototone:
+ stress the initial syllable. The Classical Latin stress rule was like the Damascene rule
+ we have already seen. In the paragraphs that follow are some conjectures toward
+ explaining this historical change.
+      The only evidence of any intermediate historical stage comes from early Latin
+verse, where the correlation of metrical ictus and accent is supposed to show the
+position of stress (Fraenkel (1928)). In this material, quadrisyllabic words with the first
+three syllables light were often accented as in earlier Latin fdcilius, sometimes as in
+ Classical facdlius, and rarely, though interestingly, facilius (particularly before major
+constituent breaks). Trisyllabic words with heavy first and light second syllable are
+usually stressed like c6rpore in this verse, as in prehistoric and Classical Latin. But
+again, some examples occur before syntactic breaks with the accentual type corpore.14
+      The evidence of ictus is apparently not sufficient to determine whether the acute
+marks primary or secondary stress in facilius and corpore. What is significant is that
+these two types are identical in effect to the Cairene stress rule. So in addition to initial
+stress, preclassical Latin apparently had a left-to-right foot assignment just like Cairene.
+      For reasons that I do not understand, the Latin foot was expanded historically from
+the Cairene to the Damascene type. To the point at issue, this change in feet seems to
+have automatically induced a change in the direction of foot assignment. It seems likely
+
+       14
+          For a discussion of these facts with a view toward explaining the retarded stress shift in forms like
+f6cilius, see Allen (1973).
+                                  ON STRESS    AND   SYLLABIFICATION
+
+
+that left-branchingfeet, as in Damascene or Classical Latin, requireright-to-leftappli-
+cation in some way that this formalismfails to capture. Symmetrically,a foot which
+explicitly does not branch on the left, as in Cairene, may allow the opposite direction
+of application. Historically, the change in the Latin foot from binary to left-branching
+ternaryrequireda shift to right-to-leftapplication.The change in Cairenefrom ternary
+to binary feet at least allowed and may even have required a shift to left-to-right
+application. In short, these two languages had opposite historical accentual develop-
+ments.
+
+6. Conclusion
+The model of metricalsyllabificationpresented here was chiefly justified by its success
+in accounting for a wide variety of accentual phenomena. It raises some new issues as
+well. First, there is the question of universalconstraintson the form of foot-assignment
+rules. We have seen that several different nodes of the foot can be stipulated as
+nonbranchingor freely branchingin different languages. We have also seen feet with
+two, three, and an unboundednumber of nodes. Some efforts toward restrictingthe
+geometrical possibilities for feet are made in McCarthy(1979). Second, the theory
+predicts strong correlations between syllable weight and other phenomena. In partic-
+ular, it says that the hierarchicalunits motivated at differentlevels by accentual facts
+ought to function in many other phonologicalrules as well. It remainsto integratethese
+structuresfully into the segmentalphonology.
+
+References
+Abul-Fadl, F. (1961) Volkstiimliclie Texte in arabischen Ba,ierndialekten der dgyptischlienProi'inz
+       Sarqivva, Westfalische Wilhelms-Universitat, Muinster(Westf.).
+Allen, W. S. (1973) Accent and Rh1ytlhm,Cambridge University Press, Cambridge.
+Anderson, S. R. (1974) The OrganiZation of Plhonology, Academic Press, New York.
+Birkeland, H. (1954) Stress Patterns in Arabic, Avhandlinger utgitt av det Norske Videnskaps-
+       Akademi i Oslo II, Hist.-Filos. Klasse, 3, Jacob Dybwad, Oslo.
+Brame, M. K. (1971) "Stress in Arabic and Generative Phonology," Foltndations of Laniguiage
+       7, 556-591.
+Brame, M. K. (1973) "On Stress Assignment in Two Arabic Dialects," in S. Anderson and P.
+       Kiparsky, eds., A Festsclhrift for Morris Halle, Holt, Rinehart and Winston, New York.
+Brockelmann, C. (1961) Gruindriss der ilergleichenden Grammatik der semitischen Sprachen I,
+       Georg Olm, Hildesheim.
+Broselow, E. J. (1976) The Plhonology of Egyptian Arabic, Doctoral dissertation, University of
+       Massachusetts at Amherst, Massachusetts.
+Chomsky, N. and M. Halle (1968) The Solund Pattern of Englislh, Harper and Row, New York.
+Cowan, W. G. (1960) A Reconstriction of Proto-colloquuialArabic, Doctoral dissertation, Cornell
+       University, Ithaca, New York.
+Cowell, M. W. (1964) A Reference Grammar of Syrian Arabic, Georgetown University Press,
+       Washington, D.C.
+de Chene, B. (1977) "Syllable and Mora in Verse and Accentuation," unpublished paper, UCLA,
+       Los Angeles, California.
+464                               JOHN   J. MCCARTHY
+
+
+Diem, W. (1973) Skizzen jemenitisclier Dialekte, in Kommission bei Franz Steiner Verlag, Wies-
+       baden.
+Dixon, R. M. (1977) "Some Phonological Rules in Yidiny," Lingilistic Inqlliry 8, 1-34.
+Ferguson, C. A. (1956) Review of Birkeland (1954), Langutage 32, 384-387.
+Ferguson, C. A. (1978) "The Arabic Koine," in S. H. Al-Ani, ed., Readings in Arabic Linguistics,
+       Indiana University Linguistics Club, Bloomington, Indiana.
+Fraenkel, E. (1928) Ik-titslind Akzent im lateinisclhen Spreclhvers, Weidmannsche Buchhandlung,
+       Berlin.
+Grotzfeld, H. (1965) Syrisch-Arabische Grammatik, Otto Harrassowitz, Wiesbaden.
+Haas, M. (1977) "Tonal Accent in Creek [Muskogee]," in L. M. Hyman, ed. (1977b).
+Harrell, R. S. (1957) Tlle Plhonology of Colloqiuial Egyptian Arabic, American Council of Learned
+       Societies, New York.
+Harrell, R. S. (1960) "A Linguistic Analysis of Egyptian Radio Arabic," in C. A. Ferguson, ed.,
+       Contributtionsto Arabic Linguistics, Harvard University Press, Cambridge, Massachusetts.
+Hyman, L. M. (1977a) "*Onthe Nature of Linguistic Stress," in L. M. Hyman, ed. (1977b).
+Hyman, L. M., ed. (1977b) Stludies in Stress and Accent, Southern California Occasional Papers
+       in Linguistics 4, University of Southern California, Los Angeles, California.
+Jakobson, R. (1971a) "Die Betonung und ihre Rolle in der Wort- und Syntagmaphonologie," in
+       R. Jakobson (1971d).
+Jakobson, R. (1971b) "Uber die Beschaffenheit der prosodischen Gegensatze," in R. Jakobson
+       (1971d).
+Jakobson, R. (1971c) "On Ancient Greek Prosody," in R. Jakobson (1971d).
+Jakobson, R. (1971d) Selected Writings I, Mouton, The Hague.
+Janssens, G. (1972) Stress in Arabic and Word Struictutrein the Modern Arabic Dialects, Orientalia
+       Gandensia V, Peeters, Louvain.
+Kahn, D. (1976) Syllable-based Generalizations in Englislh Phonology, Doctoral dissertation,
+       MIT, Cambridge, Massachusetts.
+Khalafallah, A. A. (1969) A Descriptive Grammar of Sa9i:di Egyptian Colloquiial Arabic, Mouton,
+       The Hague.
+Kiparsky, P. and M. Halle (1977) "iTowarda Reconstruction of the Indo-European Accent," in
+       L. M. Hyman, ed. (1977b).
+Kussaim, S. (1968) "*L'accentde mot dans I'arabe du Caire," Arabica 15, 289-315.
+Langendoen, D. T. (1968) The London School of Linguistics, MIT Press, Cambridge, Massachu-
+       setts.
+Lecerf, J. (1974) "*L'accentde mot en Arabe d'orient," in A. Caquot and D. Cohen, eds., Actes
+       dio premier congres international de lingiuistiqle semitiquueet chamito-semitiqlue, Mouton,
+       The Hague.
+Liberman, M. and A. Prince (1977) "On Stress and Linguistic Rhythm," Linguistic Inqlliry 8,
+       249-336.
+McCarthy, J. (1977) "CT," in J. A. Kegl, D. Nash, and A. Zaenen, eds., Proceedings of thie
+       Seventh Annutal Meeting of tlie Nortlh Eastern Linguistic Society, MIT, Cambridge, Mas-
+       sachusetts.
+McCarthy, J. (forthcoming) Formal Problems in Semitic Phonology and Morphology, Doctoral
+       dissertation, MIT, Cambridge, Massachusetts. [Has appeared as McCarthy (1979) since
+       this article went to press. Ed.]
+Mitchell, T. F. (1975) Principles of Firtliian Linguistics, Longman's, London.
+Prince, A. S. (1975) The Phionology and Morphiology of Tiberian Hebrew, Doctoral dissertation,
+       MIT, Cambridge, Massachusetts.
+                                  ON STRESS    AND   SYLLABIFICATION
+
+
+Rabin, Ch. (1978) "The Beginnings of Classical Arabic," in S. H. Al-Ani, ed., Readings in Arabic
+       Linguiistics, Indiana University Linguistics Club, Bloomington, Indiana.
+Sapir, E. (1930) Soiitliern Pailite, a Shloslionean Langluage, Proceedings of the American Acad-
+       emy of Arts and Sciences 65, 1-3.
+Stetson, R. H. (1951) Motor Phlonetics, North-Holland, Amsterdam.
+Sturtevant, E. H. (1940) The Pronuinciation of Greek and Latin, Linguistic Society of America,
+       Philadelphia.
+Tomiche, N. (1964) Le parler arabe dii Caire, Mouton, The Hague.
+Trubetzkoy, N. S. (1969) Principles of Phlonology, University of California Press, Berkeley,
+       California.
+Vergnaud, J.-R. (ms.) Formal Plhonology.
+Welden, E. A. (1977) Prosodic Aspects of Cairo Arabic Plhonology, Doctoral dissertation, Uni-
+       versity of Texas, Austin, Texas.
+Wright, W. (1971) A Grammar of 'tle Arabic Langilage, Cambridge University Press, Cambridge.
+
+Department of Linguistics and Plhilosoplhy
+20C-128
+MIT
+Cambridlge, Massaclhiusetts 02139
+

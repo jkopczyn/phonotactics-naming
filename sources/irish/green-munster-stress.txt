@@ -1,0 +1,704 @@
+[NB: This is work in progress. Please send comments to me at adg1@cornell.edu !]
+                                     Stress Placement in Munster Irish*
+                                                                                                                  1
+                                               Antony Dubach Green
+                                                Cornell University
+
+0.      INTRODUCTION
+        While the Irish dialects of Connacht and Ulster show initial stress on almost all words, in
+the Munster dialect, stress is attracted to heavy syllables (by which we mean syllables containing
+a long vowel or diphthong, not CVC syllables) in a complicated manner. In this paper I will
+propose the binary colon (Halle & Clements 1983, Hammond 1987, Hayes 1995) to account for
+the placement of stress in Munster Irish (MI). Previous analyses of stress in MI include van
+Hamel (1926), O’Rahilly (1932), Blankenhorn (1981), Ó Sé (1989), Doherty (1991), and
+Gussmann (1995). The facts here are complicated; for specifics, refer to the data below, which
+are taken from the following sources: BB (= Ó Cuív 1947), CD (= Ó hÓgáin 1984), DOC
+(= Dillon & Ó Cróinín 1961), H (= Holmer 1962), L (= Loth 1913), LA (= Wagner 1964), Mk
+(= Ó Cuív 1944), Rg (= Breatnach 1947), S (= Sommerfelt 1927), SCD (= Breatnach 1961).
+Occasionally I have quoted forms directly from Gussmann when I could not find them in a
+primary source. Further information on the Munster dialect can be found in Sjoestedt-Jonval
+(1938), Nic Pháidín (1987), Ó hAirt (1988), and Ua Súilleabháin (1994).
+        In § 1 I give the data that show the idiosyncratic manner in which stress is attracted to
+heavy syllables. (Coda consonants do not contribute to weight in Irish, so heavy syllables are
+only those that contain a long vowel or a diphthong.) In § 2 I give the data relating to the fact that
+the vowel a in the second syllable attracts stress like a heavy syllable when it is followed by x,
+either in the same syllable or in the next syllable. In §§ 3–4 I discuss the prosodic structure of MI
+and propose that the binary colon can be employed to explain the occurrence of stress; for this I
+use a constraint-based method following Optimality Theory (McCarthy & Prince 1993b and
+Prince & Smolensky 1993) and Correspondence Theory (McCarthy & Prince 1995, Benua
+1995). In §§ 5 I discuss other instances of noninitial stress, caused by the unstressability of ë and
+the special prominence of a before x. In § 6 I discuss a variant stress pattern.
+
+1.       STRESS PLACEMENT: THE DATA
+         In the data that follow, L means a light (CV or CVC) syllable and H means a heavy (CV:
+or CVV) syllable. In the phonetic transcription, the acute accent (´) indicates stress, and the
+prime (') indicates that the preceding consonant is palatalized.
+         We shall begin with the placement of stress in two- and three-syllable words. First of all,
+if the second syllable of a word is heavy, it is stressed (1).1
+
+(1)      Stress 2d σ if H
+a.       L H'            kër . ká:n                               ‘pot’ (H 42, Mk 50)
+b.       L H' L          f'r'ë . há: . lë                         ‘feeding’ (SCD 202)
+c.       LHH '           a . sé:n . ti:xt                         ‘disagreement’ (BB 99)
+
+
+
+          * I should like to express my gratitude to Abby Cohn, Máire Ní Chiosáin, Bill Ham, David Parkinson, and
+Draga Zec for their helpful advice and comments, and to Conor Devane for his intuitions of Munster Irish.
+          1 I am abstracting away here from the following facts: (i) certain suffixes with heavy syllables never attract
+stress, and (ii) other heavy suffixes attract stress even when, prosodically speaking, they should not (Ó Siadhail and
+Wigger 1975, 78, Ó Siadhail 1989, 30, Gussmann 1995).
+d.     H H'             d'i: . ví:n'                      ‘idle’ (Mk 113, Rg 69)
+e.     H H' L           re: . sú:n . të                   ‘reasonable’ (Rg 77)                      2
+f.     H H' H           ma:r . n'é: . li:xt               ‘navigation’ (BB 152)
+
+       If the second syllable is light, and there is at least one heavy syllable in the word, the
+leftmost heavy syllable is stressed (2).
+
+(2)    Stress leftmost H
+a.     H' L           bó: . hër                           ‘road’ (Rg 54, S 220)
+b.     LLH   '        mar . kë . ré:r                     ‘mackerel’ (BB 153)
+c.       '
+       HLL            t'ë‰i . lë . kë                     ‘gift’ (Mk 27)
+d.     H' L H         ú: . dë . ra:s                      ‘authority’ (Mk 36)
+
+       If all the syllables are light, the first syllable is stressed (3).
+
+(3)    Stress leftmost σ
+a.     L' L           á . sël                             ‘donkey’ (CD 170)
+b.      '
+       LLL            á . lë . gër                        ‘loud talk’ (BB 7, CD 85)
+
+        In four- and five-syllable words, the pattern is more complicated. If the word ends in
+[H L], it is stressed […H' L] (4).
+
+(4)    Stress [… H' L]
+a.     L L H' L       fo . dër . lúë . sëx                ‘bustling’ (SCD 196)
+b.     L L L H' L     a . dë . r'ë . gá: . lë             ‘mediation (gen.)’ (SCD 166)
+c.     LLHHL    '     i . m'ë . g'e: . n'ú: . lë          ‘distant (pl.)’ (Gussmann)
+
+        There seems to be dialectal variation in the case of [H L H L] words: one variety has
+penultimate stress [H L H' L] (5a), and another variety has initial stress [H ' L H L] (5b). In the
+discussion of stress that follows, I will examine only the variety with penultimate stress; I shall
+return to the variety with initial stress in § 7 below.
+
+(5)    [H L H L] words
+a.     H L H' L     sla: . në . hó: . rë                  ‘savior (gen.)’ (L 324)
+b.       '
+       HLHL         d'íë . gë . su: . lëxt                ‘piety’ (BB 87)
+
+       If the word begins with [L L L], it is stressed [L' L L…] (6). (This is overridden by the
+preceding generalization, as shown by [L L L H' L] (4b).)
+(6)      Stress [L' L L …]
+a.       L' L L L       á . n'ë . m'ë . xës                      ‘name’ (SCD 11)                                   3
+b.         '
+         LLLH           pá . të . lë . xa:n                      ‘a plump creature’ (BB 171)
+c.       L' L L H H     é . t'ë . r'ë . xa: . ni:                ‘vulgar person’ (SCD 171)
+d.       L' L L L H     l'é . h'ë . l'ë . xë . s'u:l'            ‘stand-offish’ (BB 146)
+
+       If a four- or five-syllable word neither ends in [H L] nor begins with [L L L], then the
+leftmost heavy syllable is stressed (7).
+
+(7)      Stress leftmost H
+a.       L L H' H       ga . n'ë . v'í: . n'i:                   ‘grains of sand’ (BB 118)
+b.       H' L H H       áum . pë . ra: . ni:xt                   ‘affliction’ (CD 112)
+c.       L L H' L L     a . më . ró: . d'ë . h'ë                 ‘unfortunate’ (BB 8)
+
+        Gussmann (1995) was the first researcher to find instances where the primary stress falls
+on the fourth syllable (4b–c), thereby disproving the hypothesis of the three-syllable “stress
+window” of Ó Sé (1989) and Doherty (1991). This stress window had been proposed to explain
+the absence of final stress in the words in (6b, d).
+        For the sake of completeness I should mention that Irish has stressed monosyllables of
+both shapes [L] and [H], as shown in (8).
+
+(8)      Stressed monosyllables
+a.       L'           bá                                         ‘cows’ (Mk 18, Rg 12)
+b.       H'           b'ó:                                       ‘alive’ (H 32, Rg 14)
+
+        It is impossible to state a descriptive generalization of stress placement that accounts for
+all forms. Although stress usually falls on a heavy syllable (when a heavy syllable is present), the
+patterns in (6b–d), [L' L L (L) H (H)]), violate that generalization. If a word has more than one
+heavy syllable, the stress usually falls on the second heavy syllable, as long as the second heavy
+syllable is not also word-final. But the pattern in (7b), [H' L H H], violates that generalization.
+And yet, as we shall see below, all these facts can be accounted for in a simple and elegant
+manner.
+
+2.      THE ax PROBLEM
+        The picture is further complicated by the behavior of a before x. As pointed out by Rg 77,
+Ó Siadhail & Wigger (1975, 78), Ó Siadhail (1989, 31), Doherty (1991, 122 ff.), Ua Súilleabháin
+(1994, 481), and Gussmann (1995, 6–7), a before x can attract stress like a heavy syllable if it is
+in the second syllable of the word and all other syllables are light. The data in (9) show a before
+x acting like any other light syllable (often reduced to ë x), while in (10) ax attracts primary
+stress as if it were heavy. Note that this is true regardless of whether the x is in the coda of the
+syllable or the onset of the following syllable.2
+
+
+           2 The sequence ax in the second syllable does not generally attract stress if the onset of the second syllable
+is h: e.g. fáhëë x ‘giant’ (H 87, Mk 66, S 229, Ó Siadhail 1989, 31). However, there does seem to be some variation
+in Muskerry: fáhëë xëë ~ fëë háxëë ‘disease of horses’ (BB 104). I shall not attempt to account for this fact here.
+(9)      /ax/ behaving like a light syllable
+a.       fá: . sëx                                ‘desert’ (Mk 44, S 202)                                          4
+b.       mol . hë . xá:n                          ‘wether’ (Mk 48, S 200)
+c.       krúë . t'ë . xa:n                        ‘hard substance’ (BB 73)
+d.       s'a . xë . rá:n                          ‘wandering’ (Mk 19)
+e.       sá . së . nëx                            ‘Englishman’ (L 330)
+f.       á . n'ë . m'ë . xës                      ‘name’ (SCD 11)
+(10)     /ax/ attracting stress like a heavy syllable
+a.       b'ë . náxt                               ‘blessing’ (H 66, S 199)
+b.       bë . ká . xë                             ‘lame (pl.)’ (Mk 23)
+
+         Gussmann points out a fact not mentioned by Ó Siadhail or Doherty: the nominalizing
+suffix -ëë xt, roughly ‘-ness’, does NOT bear stress even when in the same prosodic environment
+as the examples in (10). Examples of unstressed -ëë xt are shown in (11).
+
+(11)     Behavior of -ëë xt ‘-ness’
+a.       bóx . tëxt                                     ‘poverty’ (SCD 51)
+b.       b'r'ís' . t'ëxt                                ‘brokenness’ (BB 39)
+
+         As Gussmann points out, this fact indicates that there must be an underlying contrast
+between /a/ and /ë/—something not considered by previous researchers. A near-minimal pair is
+found between /at'-ax/ = ë t'áx ‘strange’ (CD 78) with the adjectival suffix /-ax/, and /at'-ëxt/ =
+át'ëë xt ‘strangeness’ (CD 78) with /-ëxt/. However, this does not mean that all instances of
+surface ë x are from underlying /ëx/: the form in (12) shows that sometimes /ax/ remains
+unstressed and then surfaces as ë x.
+
+(12)     /f'arëg-ax/ = f'árëë gëë x             ‘angry’ (BB 106, Mk 38)
+         (/f'arëg/ ‘anger’ + adj. suffix /-ax/)
+
+        Stress is not attracted to the epenthetic vowel inserted in certain nonhomorganic
+consonant clusters (Ó Siadhail & Wigger 1975, 70–1, Ó Siadhail 1989, 20 ff., Ní Chiosáin 1991,
+178 ff., 1995), showing that this vowel is underlying /ë/: dórëë xëë ‘dark’ (DOC 224, Mk 44, Rg
+16, S 200).3
+        Stress is also not attracted to the past impersonal ending ë x, e.g. kásëë x ‘one turned’ (Ó
+Siadhail 1989, 31). This may be underlyingly /a©/, which is certainly its historical origin, or it
+may have underlying unstressable /ë/.
+        There are, of course, other words with noninitial short full accented vowels. Previous
+researchers, not recognizing the difference between underlying /ë/ and the full vowels, had
+treated these as lexically marked for noninitial stress, but it is simpler to suppose that the initial
+syllable of these words contains underlying /ë/. Examples are shown in (13).4
+
+
+
+          3 This epenthetic vowel is not underlying, but for purposes of stress placement it behaves like an
+underlying vowel. Therefore, for convenience, I shall be including epenthetic ë in input forms.
+          4 The words in (13a–c) receive noninitial stress even in the other dialects of Irish, where initial stress is
+much more persistent than it is in Munster (Ó Siadhail 1989, 26). In (13d–g), on the other hand, noninitial stress is
+limited to Munster.
+          Between palatalized consonants, ë is pronounced i, so that ënír'ëë g' and b'r'ëëk'f'ást, for example, sound
+like ë nír'ig' and b'r'ik'f'ást.
+(13)   /ë/ in the initial syllable
+a.     ë . n'ís'                          ‘now’ (CD 136, Rg 78)                                               5
+b.     ë . ní . r'ëg'                     ‘last year’ (CD146)
+c.     të . bák                           ‘tobacco’ (H 166)
+d.     k'ë . ná . hë                      ‘features’ (DOC 219)
+e.     kë . hín'                          ‘when’ (DOC 218)
+f.     b'r'ëk' . f'ást                    ‘breakfast’ (Mk 66)
+g.     d'ë . má . l'ëx                    ‘wasteful’ (SCD 150)
+
+       With the addition of /ë/ to the underlying inventory of short vowels, the difference
+between words like án'ëë s' ‘ungainly’ (CD 51) and words like ë n'ís' ‘now’ (13a) can be
+explained under a theory that prohibits stress from falling on ë . Such a theory will be proposed
+below.
+
+3.       A FIRST ATTEMPT, AND A PARADOX
+         Let us begin with the simple cases, where there are no heavy syllables and stress falls on
+the initial syllable. We may suppose that syllables are parsed into moraic trochees, beginning at
+the left edge of the word. Except in initial position, however, [L L] sequences are NOT parsed
+into (L L) feet. Doherty (1991) simply states this as a stipulation; Ní Chiosáin (1995), on the
+other hand, proposes that this is due to the ranking of ALIGN-L (14) above PARSE -σ (15).
+
+(14)   ALIGN-L5
+       Align(Ft,L,PrWd,L)
+       The left edge of every foot is aligned with the left edge of some PrWd.
+(15)   PARSE-σ
+       Syllables are parsed into feet
+
+        The ranking ALIGN-L » PARSE-σ is shown in the tableau in (16) for the word
+án'ëë m'ëë xëë s ‘name’ (6a), which is underlyingly probably /an'ëm'axas/, but short vowels surface
+as reduced ë when they are not foot-heads.
+
+(16)           /an'ëm'axas/          ALIGN-L         PARSE-σ
+        ☞ (.a.n'ë.)m'ë.xës.                            **
+         (.a.n'ë.)(m'a.xës.)           *!
+
+         Noninitial heavy syllables, however, are footed, because the WSP (17) is ranked higher
+than ALIGN-L (Ní Chiosáin 1995). FOOT FORM (18) and FOOT BINARITY (19) are also ranked
+above ALIGN-L, as well as PARSE-σ (20). This ranking is shown for the word këë rkán ‘pot’ (1a)
+in the tableau in (21).
+
+(17)   WSP (Hung 1993, 1994)
+       A heavy syllables is the head of a foot.
+(18)   FTFORM (moraic-trochaic) (Cohn & McCarthy 1994, 8)
+       Feet are trochaic (i.e. (L' L) or (H') ).
+(19)   FOOT BINARITY (moraic)
+       Feet are binary at the moraic level of analysis.
+
+
+       5 Exactly this constraint is found also in McCarthy & Prince (1994), where it is called ALL-FT-LEFT.
+(20)   PARSE-σ
+       Syllables are parsed into feet.                                                          6
+(21)         /korka:n/    WSP        FTFORM              FTBIN   ALIGN-L PARSE-σ
+        (.kór.)(ka:n.)                                    *!        *
+          (.kór.ka:n.)     *!          *!
+          (.kër.ká:n.)                 *!
+          (.kór.)ka:n.     *!                              *!               *
+       ☞ .kër.(ká:n.)                                              *        *
+
+        When there is room for two feet in a word, we find that the constraint ALIGN PROSODIC
+WORD (22) works to build a foot at the left edge, but that the head of the second foot in the word
+receives main stress. This may be assigned to a constraint PROSODIC WORD RIGHT (23), which
+is ranked below ALIGN PROSODIC WORD and above PARSE -σ, but cannot be ranked with respect
+to ALIGN-L. The tableau in (24) illustrates this ranking in the words markëë ré:r ‘mackerel’ (2b),
+d'i:ví:n' ‘idle’ (2d), and t'ëëi‰ lëë këë ‘gift’ (2c). Although the initial syllable in the optimal
+candidate in (24a) does not receive primary stress, the fact that it is not reduced to ë shows that is
+the head of a foot.
+
+(22)  ALIGN PROSODIC WORD
+      Align(PrWd,L,Ft,L)
+      The left edge of every PrWd is aligned with the left edge of some foot.
+(23) PROSODIC WORD RIGHT
+      Prosodic words are right-headed.
+(24)        Candidates WSP       ALIGNPW PRWDRT ALIGN-L PARSE-σ
+a. ☞ (.mar.kë.)(ré:r.)                                         *
+       (.mar.kë.)re:r.     *!                                             *
+       .mër.kë.(ré:r.)               *!            *           *         **
+     (.már.kë.)(re:r.)                            *!           *
+b.       (.d'í:.)(vi:n'.)                         *!           *
+     ☞ (.d'i:.)(ví:n'.)                                        *
+            .d'i:.(ví:n'.) *!         *                        *          *
+            (.d'í:.)vi:n'. *!                                             *
+c.      (.t'ë‰i.)(la.kë.)                         *!          *!
+        (.t'ëi.)(lá.kë.)                                      *!
+       ☞ (.t'ë‰i.)lë.kë.                                                 **
+           .t'ëi.(lá.kë.)  *!         *                        *          *
+
+        Another way to comply with the WSP would be to shorten a noninitial heavy syllable. 6
+This is prohibited by high-ranking IDENT-IO[v-length] (25), as shown in the tableau in (26).
+
+(25)   IDENT-IO[v-length] (Benua 1995)
+       Vowel length in the output is identical to that in the input.
+(26)      /markare:r/ IDENT-IO[v-length] WSP             ALIGN-L         P ARSE-σ
+        (.már.kë.)rer.        *!                                            *
+   ☞ (.mar.kë.)(ré:r.)                                       *
+
+       6 This is the strategy employed in the Ulster dialect.
+       The data given above in (1a, b, d, e), (2a, b, c), (3), (4), (5a), (6a), (7c), and (8) can all7 be
+accounted for with only these constraints. But consider forms such as asé:nti:xt ‘disagreement’
+(1c), ma:rn'é:li:xt (1f), and ú:dëëra:s ‘authority’ (2d). As shown in (27), the constraints as given
+above would predict *ase:ntí:xt, *ma:rn'e:líxt, and *u:dëë rá:s.
+
+(27)                Candidates      FTBIN        ALIGN-PW    PR WDRT   ALIGN-L   PARSE-σ
+a.           (.á.)(se:n.)(ti:xt.)    *!                        *         **
+               .a.(sé:n.)(ti:xt.)                   *          *!        **        *
+           *☞ .a.(se:n.)(tí:xt.)                    *                    **        *
+b.        (.má:r.)(n'e:.)(li:xt.)                              *!        **
+          (.ma:r.)(n'é:.)(li:xt.)                              *!        **
+       *☞ (.ma:r.)(n'e:.)(lí:xt.)                                        **
+c.          *☞ (.u:.)dë.(rá:s.)                                           *        *
+                (.ú:.)dë.(ra:s.)                               *!         *        *
+
+       A common means of preventing stress from falling on the final syllable is with the
+constraint NONFIN (σ') (28), which corresponds to right-edge extrametricality.
+
+(28)      NONFIN(σ'') (Prince & Smolensky 1993, 43, Hung 1994, Cohn & McCar-
+          thy 1994, Ní Chiosáin 1995)
+          The head syllable of a PrWd is not final in the PrWd.
+
+        Ranking NONFIN(σ') above PRWD RT will give us the right result in ú:dëëra:s but falsely
+predicts *márkëë re:r instead of markë
+                                     ë ré:r, as shown in (29).
+
+(29)                Candidates       NONFIN(σ')             PRWDRT
+a.            ☞ (.ú:.)dë.(ra:s.)                               *
+                 (.u:.)dë.(rá:s.)           *!
+b.          *☞ (.már.kë.)(re:r.)                              *
+               (.mar.kë.)(ré:r.)            *!
+
+        Of course, the opposite ordering will yield the opposite results: markëë ré:r but
+*u:dëë rá:s. Apparently NONFIN (σ') is simply not the relevant constraint here.
+        What is needed, therefore, is some mechanism to take the final syllable of ú:dëë ra:s out
+of consideration while leaving the final syllable of markëë ré:r in consideration. That mechanism
+is the colon.
+
+4.      THE COLON
+        The colon (plural cola; abbreviated κ) was first proposed by Halle & Clements (1983) as
+a prosodic entity between the prosodic word and the foot. Hammond (1987) picked up on the
+idea in his analysis of Hungarian, and Hayes (1995) uses the colon to explain stress facts in
+Maithili, Malecite–Passamaquoddy, Eastern Ojibwa, and Asheninca.
+        Like feet, binary cola can be right-headed or left-headed.7 Hayes proposes that binary
+cola must have only feet as their terminals, which results in temporarily allowing degenerate8feet
+in his analysis of Asheninca. I propose instead that a binary colon may consist either of two feet
+or of a foot plus an unfooted syllable, but only a foot can be the head of a colon. 8
+        By building a right-headed binary colon at the left edge of the word, we can capture the
+distinction between ú:dëë ra:s and markëë ré:r, as shown in (30), where ( ) indicate the boundaries
+of a foot, [ ]κ the boundaries of a colon, and [ ]ω the boundaries of a prosodic word.
+
+(30)
+a.           [[(.ú:.)dë.]κ (ra:s.)]ω
+b.           [[(.mar.kë.)(ré:r.)]κ]ω
+
+       Because the final syllable of ú:dëë ra:s falls outside of the colon, it is not eligible to
+become the head syllable of the word, i.e. receive primary stress. The single ALIGN-L constraint
+given above in (14) can now be replaced by A LIGN FOOT-COLON (31) and ALIGN COLON-
+PROSODIC WORD (32).
+
+(31)         ALIGN FOOT-COLON
+             Align(Ft,L,κ,L)
+             The left edge of every foot corresponds to the left edge of some colon.
+(32)         ALIGN COLON-PROSODIC WORD
+             Align(κ,L,PrWd,L)
+             The left edge of every colon corresponds to the left edge of some PrWd.
+
+        The data that could not be accounted for without the colon now can be accounted for with
+the ranking ALIGN COLON-PROSODIC WORD » ALIGN FOOT-COLON » PARSE-σ, as shown in
+(33).
+
+(33)                  Candidates              ALIGNκ-PW         ALIGNFT-κ          PARSE-σ
+a.     ☞ [[.a.(sé:n.)]κ (ti:xt.)]ω                                 **                 *
+          [.a.[(se:n.)(tí:xt.)]κ]ω                  *!              *                 *
+b. ☞ [[(.ma:r.)(n'é:.)]κ (li:xt.)]ω                                **
+     [(.ma:r.) [(n'e:.)(lí:xt.)]κ]ω                 *!             **
+c.       ☞ [[(.ú:.)dë.]κ (ra:s.)]ω                                  *                   *
+           [(.u:.) [dë.(rá:s.)] κ]ω                 *!              *                   *
+
+       The forms adëër'ëë gá:lëë ‘mediation (gen.)’ (4b) and im'ëë g'e:n'ú:lëë ‘distant (pl.)’ (4c) can
+be accounted for by proposing that more than one colon may be built if there is room; in other
+words, that PARSE -FT (34) outranks ALIGN COLON-PROSODIC WORD (32), as shown in (35).
+
+(34)         PARSE-FT
+             Feet are parsed into cola.
+
+
+
+             7 Cola can apparently also be unbounded, like prosodic words (see Hayes’ discussion of Maithili (1995:
+149 ff.)).
+          8 This follows from the Continuous Column Constraint of Prince (1983): the head of a prosodic category
+(here, the colon) must also be the head of the next lower category (here, the foot).
+(35)                                 Candidates          PARSE-FT     ALκ-PRWD
+a.                   [[(.á.dë.)r'ë.]κ (ga:.)lë.]ω           *!                                     9
+              ☞ [[(.a.dë.)r'ë.]κ [(gá:.)lë.]κ]ω                              *
+b.              [[(.i.m'ë.)(g'é:.)]κ (n'u:.)lë.]ω          *!
+           ☞ [[(.i.m'ë.)(g'e:.)]κ [(n'ú:.)lë.]κ]ω                            *
+
+        But now we have a problem with some forms that end with two heavy syllables, like
+those in ét'ëër'ëë xa:ni: ‘vulgar person’ (6c) and áumpëë ra:ni:xt ‘affliction’ (7b): exhaustive
+parsing of feet into cola predicts ultimate stress, as shown in (36).
+
+(36)                                  Candidates         PARSE-FT      ALκ-PRWD
+a.         *☞ [[(.e.t'ë.)r'ë.]κ [(xa:.)(ní:.)]κ]ω                          *
+                  [[(.é.t'ë.)r'ë.]κ (xa:.)(ni:.)]ω          *!*
+b.        *☞ [[(.aum.)pë.]κ [(ra:.)(ní:xt.)]κ]ω                              *
+                [[(.áum.)pë.]κ (ra:.)(ni:xt.)]ω             *!*
+
+      The extrametricality constraint N ONFIN(σ') (28), along with the constraint COLON FORM
+RIGHT (37) can help us here.
+
+(37)      COLON FORM RIGHT
+          Cola are right-headed.
+
+        COLON FORM RIGHT and NONFIN (σ') are for the moment unranked with respect to each
+other, but both outrank PARSE-FT. As shown in (38), this means that it is better to leave feet on
+the right uncolified than to stress the final syllable or make a left-headed colon.
+
+(38)                       /et'ër'ëxa:ni:/   COLFMRT            NONFIN(σ')       PARSE-FT
+       [[(.e.t'ë.)r'ë.]κ [(xa:.)(ní:.)κ]ω                          *!
+       [[(.e.t'ë.)r'ë.]κ [(xá:.)(ni:.)κ]ω           *!
+       ☞ [[(.é.t'ë.)r'ë.]κ (xa:.)(ni:.)]ω                                           **
+
+       Forms that end [… H L], such as adëë r'ëëgá:lëë above, are unaffected by COLON FORM
+RIGHT since their final light syllable is unstressed without violating it. Therefore PARSE-FT
+decides that the exhaustively parsed candidate is optimal (39).
+
+(39)                       /adër'ëga:lë/     COLFMRT            NONFIN(σ')       PARSE-FT
+       ☞ [[(.a.dë.)r'ë.]κ [(gá:.)lë.]κ]ω
+             [[(.á.dë.)r'ë.]κ (ga:.)lë.]ω                                          *!
+
+       NONFIN(σ') is violated only in words that are too short to accommodate more than one
+colon. Here, compliance with NONFIN(σ') would require violation of the higher-ranked
+constraints M-PARSE (40), COLON BINARITY (41), and FOOT BINARITY (42).
+
+(40)      M-PARSE (McCarthy & Prince 1993b, 112)
+          Morphemes are parsed into morphological constituents.
+(41)      COLON BINARITY (for Munster Irish)
+          Cola are binary over feet and unfooted syllables.
+(42)    FOOT BINARITY (moraic) (Prince & Smolensky 1993, 47)
+        Feet are binary at the moraic level.                                                   10
+        Loss of all prosodic structure violates M-PARSE, and truncating the size of the colon or
+foot violates COLON BINARITY or FOOT BINARITY respectively. The ranking M-PARSE, COLON
+BINARITY, COLON FORM RIGHT, FOOT BINARITY » NONFIN(σ') is shown in the tableau in (43).
+(The third candidate in each group is the one with no structure.)
+
+(43)            Candidates        M-PARSE        COLBIN   COLFM RT     FTBIN     NONFIN (σ')
+a. ☞ [[.kër.(ká:n.)]κ]ω                                                              *
+       [[(.kór.)ka:n.)] κ]ω                                             *!
+                    korka:n         *!
+b. ☞ [[(.d'i:.)(ví:n'.)]κ]ω                                                          *
+      [[(.d'í:.)(vi:n'.)] κ]ω                                *!
+     [[(.d'í:.)]κ (vi:n'.)]ω                      *!
+                    d'i:vi:n'       *!
+
+       In spite of this reluctance to truncate colon and foot size, in some cases cola and feet must
+be degenerate. Irish has words of the shape [L L] and [H], which are a single foot, and words of
+the shape [L], which are a single mora. Since these words are fully stressed content words, they
+must have full prosodic structure in spite of their subminimal size. Examples are shown in (44).
+
+(44)
+a.      [[(.á.sël.)]κ]ω                                ‘donkey’ (3a)
+b.      [[(.b'ó:.)]κ]ω                                 ‘alive’ (8b)
+c.      [[(.bá.)]κ]ω                                   ‘cows’ (8a)
+
+      Roots like these violate COLON BINARITY and FOOT BINARITY in order to comply with
+IDENT-IO[v-length] (25) and DEP-IO (45).
+
+(45)    DEP-IO (McCarthy & Prince 1995, 16)9
+        Every segment of the output has a correspondent in the input.
+
+        The behavior of Munster Irish is in contrast to that of languages like Axininca Campa and
+Lardil (McCarthy & Prince 1993 and elsewhere), which augment subminimal roots. The MI
+ranking DEP-IO » COLON BINARITY, FOOT BINARITY is illustrated in the tableau in (46).
+
+(46)              Candidates       IDENT-IO[v-length]      DEP-IO      C OLBIN       F TBIN
+a.           ☞ [[(.á.sël.)] κ]ω                                           *
+          [[(.á.sël.)■■ .]κ]ω                               *!*
+b.            ☞ [[(.b'ó:.)]κ]ω                                            *
+           [[(.b'ó:.)■■ .]κ]ω                               *!*
+c.             ☞ [[(.bá.)] κ]ω                                            *              *
+                 [[(.bá:.)]κ]ω              *!                            *
+            [[(.bá:.)■■ .]κ]ω               *!              *!*
+
+        9DEP-IO replaces the older constraint FILL (Prince and Smolensky 1993, 25)
+We have now seen how the colon can be used successfully to account for the entire range of11facts
+concerning the attraction of stress to heavy syllables in MI. We shall now move on to the other
+cases where stress is not initial: when the initial syllable contains ë , and when the second
+syllable contains ax.
+
+5.      OTHER INSTANCES OF NONINITIAL STRESS
+5.1     Schwa in an initial syllable
+        The vowel ë has a special status in many languages as a reduced vowel; a typical result of
+this special status is that it often cannot be stressed, and sometimes cannot be footed at all. In
+their analysis of Indonesian, Cohn & McCarthy (1994) propose a constraint N ON-HEAD(ë),
+which prevents ë from being the head of a foot (47).10
+
+(47)   NON-HEAD(ëë ) (Cohn & McCarthy 1994, 24)
+       Stressed ë is prohibited.
+
+        NON-HEAD(ë) is relevant in MI as well: if the first syllable in a word contains ë , the first
+syllable must not be stressed, as we saw in the examples in (13) above. Two representative
+examples are repeated in (48).
+
+(48)
+a.     .ë.ní.r'ëg'.                                  ‘last year’ (13b)
+b.     .b'r'ëk'.f'ást.                               ‘breakfast’ (13f)
+
+        It is not immediately clear what the prosodic structure of these words is. Either the initial
+syllable of each form is unfooted, or the first two syllables are parsed into an iamb rather than a
+trochee. These options are shown in (49).
+
+(49)
+a.     [[.ë.(ní.r'ëg'.)]κ]ω
+b.     [[(.ë.ní.)r'ëg'.]κ]ω
+c.     [[.b'r'ëk'.(f'ást.)]κ]ω
+d.     [[(.b'r'ëk'.f'ást.)]κ]ω
+
+        All of these potentially optimal candidates violate certain constraints; it would be
+beneficial to consider what the violated constraints are. (49a) violates ALIGN FOOT-COLON and
+PARSE-σ. (49b) violates FOOT FORM and PARSE -σ. In (21) it was established that FOOT FORM
+dominated ALIGN-L; ALIGN-L was then subsumed by ALIGN FOOT-COLON, so it may be
+assumed that FOOT FORM dominates ALIGN FOOT-COLON, making (49b) the optimal candidate
+for ë nír'ëë g', as shown in (50). Any form stressing ë will of course violate NON-HEAD (ë).
+
+(50)                  /ënir'ëg'/      F TFORM       NHEAD(ë)        ALIGNFT-κ           P ARSE-σ
+         ☞ [[.ë.(ní.r'ëg'.)]κ]ω                                           *                *
+           [[(.ë.ní.)r'ëg')]κ]ω          *!                                                *
+            [[(.ë‰.ni.)r'ëg']κ]ω                        *!                                 *
+
+
+
+       10 Of course, this does not apply to the schwas in the diphthongs iëë uëë ë i.
+        The case of (49c–d) is less clear. (49c) violates FOOT BINARITY, ALIGN FOOT -COLON,
+and PARSE -σ. (49d) violates FOOT FORM and COLON BINARITY. We know, again from (21),          12that
+FOOT BINARITY dominates ALIGN FOOT-COLON, so the highest ranking constraints to be
+considered are FOOT FORM, FOOT BINARITY, and COLON BINARITY. We have no independent
+evidence to help us decide on a ranking for these constraints, since (49c) and (d) are phonetically
+identical. If, perhaps, the three are unranked with respect to each other, but all dominated by
+NON-HEAD(ë), the decision will be made in favor of (49c), because (49d) violates two of these
+constraints and (49c) violates only one, as shown in the tableau in (51).
+
+(51)                /b'r'ëk'f'ast/      NH(ë)      F TFORM      F TBIN    C OLBIN ALIGNFT-κ
+        ☞ [[.b'r'ëk'.(f'ást.)]κ]ω                                 *                        *
+          [[(.b'r'ëk'.f'ást.)]κ]ω                     *!                     *!
+          [[(.b'r'ë‰k'.f'ast.)]κ]ω        *!                                 *
+
+        Simply put, because ë cannot be stressed, a word with this vowel in the first syllable must
+be stressed on the second syllable.
+
+5.2     ax in the second syllable
+        To explain the behavior of /ax/, we must first discuss the notion of prominence. Hayes
+(1995, 270 ff.) discusses many languages in which one type of syllable may be more prominent
+than another type of syllable, without necessarily being heavier. For example, in Golin (Hayes
+279) syllables with high tone are more prominent than syllables with low tone, and in Asheninca
+(Hayes 291) syllables with i before a nasal are more prominent than other syllables with i. This
+appears to be true regardless of whether or not the nasal consonant is tautosyllabic with the i. For
+MI, I propose that a syllable with a before x (regardless of whether x is tautosyllabic with a) is
+more prominent than other light syllables.11 In optimality-theoretic terms, the constraint
+PKPROM (52) is met when ax12 is the head of its foot.
+
+(52)     PKPROM (Prince & Smolensky 1993, 39)
+         Peak(x) › Peak(y) if |x| > |y|.
+
+        In other words, x is a better peak than y if the prominence of x is greater than the
+prominence of y. Since ax is more prominent than other light syllables, it makes a better peak
+than other light syllables. This constraint does not apply if ax is left unfooted, as shown by the
+examples in (53).
+
+(53)
+a.       (.fá:.)sax. = fá:sëx                          ‘desert’ (9a)
+b.       (.sá.së.)nax. = sásënëx                       ‘Englishman’ (9e)
+
+        The tableau in (54) shows the ranking P KPROM » FT-FORM for /b'anaxt/ b'ëë náxt
+‘blessing’ (10a) and /bakaxa/ bëëkáxëë ‘lame (pl.)’ (10b).
+
+
+
+
+           11 This special prominence of ax is seen also in the Ulster dialect, where unstressed ax is not reduced to
+ë x: pòò'rtax ‘bog’ (Quiggin 1906, 12, Wagner 1959, 189).
+           12 I shall be using this notation to indicate a before x: I emphasize that x need not be in the coda.
+(54)              Candidates           PKPROM       FTFORM
+a.         [[(.b'á.nëxt.)]κ]ω            a!                                                   13
+        ☞ [[(.b'ë.náxt.)]κ]ω             ax             *
+b.        [[(.bá.kë.)xë.]κ]ω             a!
+        ☞ [[(.bë.ká.)xë.]κ]ω             ax             *
+
+       PKPROM is overridden, however, by a higher-ranking constraint NO CLASH (55).
+
+(55)   NOCLASH
+       Two adjacent syllables should not both be foot-heads.
+
+        The effect of N OCLASH on the phrases k'ip'í:n' ‘small stick’ and k'íp'i:n' d'árëë g ‘small
+red stick’ (Ó Siadhail 1989, 31) is seen in the tableau in (56), which shows the ranking
+NOCLASH » FTFORM.
+
+(56)                      Candidates       NOCLASH       FTFORM
+a.                      [(.k'í.p'i:n'.)]                   *!
+                     ☞ [.k'i(p'í:n'.)]
+b.         ☞ [(.k'í.p'i:n') (d'árëg.)]                          *
+              [.k'i(p'í:n') (d'árëg.)]       *!
+
+        As shown in the tableau in (57), NOCLASH also dominates PKPROM, which in turn
+dominates FTFORM. The candidates evaluated in (57) are for /molhaxa:n/ molhëë xá:n ‘wether’
+(9b). In each candidate, the short vowel that is not reduced to ë is the head of the foot.
+
+(57)                  /molhaxa:n/          NOCLASH          PKPROM      FTFORM
+         ☞ [[(.mol.hë.)(xá:n.)]κ]ω                             o
+           [[(.mël.ha.)(xá:n.)] κ]ω          *!               ax            *
+
+      Stress can fall on the sequence ax in the second syllable, therefore, because of the special
+prominence of that sequence.
+
+6.       INITIAL STRESSING OF [H L H L]
+         As mentioned above, while in some varieties of MI [H L H L] words are stressed on the
+penult, in other varieties such words are stressed on the initial syllable. The difference between
+initial-stress varieties and penultimate-stress varieties would seem to be that while that while the
+penultimate-stress forms require exhaustive parsing of feet into cola (58), the initial-stress forms
+require that a single binary colon be built at the left edge of the word, as shown in (59).
+
+(58)   [[(.sla:.)në.]κ [(hó:.)rë.]κ]ω           ‘savior’ (5a)
+(59)   [[(.d'íë.)gë.]κ (su:.)lëxt.]ω            ‘piety’ (5b)
+
+        ALIGN COLON-PROSODIC WORD (32) must be outranking PARSE-FT in order for the
+structure in (60) to be optimal. The tableau in (56) illustrates the ranking ALIGN COLON-
+PROSODIC WORD » PARSE -FT in these varieties of MI.
+(60)                   /d'iëgasu:lëxt/      ALIGNκ-PRWD            PARSE-FT
+       [[(.d'ië.)gë.]κ[(sú:.)lëxt.]κ]ω           *!                                                       14
+       ☞ [[(.d'íë.)gë.]κ(su:.)lëxt.]ω                                   *
+
+       The opposite ranking, PARSE-FOOT » ALIGN COLON-PROSODIC WORD, was illustrated
+above in (35) and accounts for the dialects in which the penult is stressed.
+
+(61)                      /sla:naho:ra/        PARSE-FT        ALIGNκ-PRWD
+        ☞ [[(.sla:.)në.]κ[(hó:.)rë.]κ]ω                             *
+               [[.slá:.)në.]κ(ho:.)rë]ω            *!
+
+7.      CONCLUSIONS
+        The full range of stress placement facts for Munster Irish, so peculiar that they defy
+descriptive generalizations, can be easily and elegantly accounted for once the colon has been
+added to the prosodic hierarchy. The colon succeeds in circumscribing the relevant feet and
+syllables and in excluding those feet and syllables that must be left out of the equation.
+        The Weight-to-Stress Principle is of course of primary importance in determining stress
+placement. In my dissertation I plan to show the relevance of the WSP not only in Munster Irish
+but also in Connacht Irish, Ulster Irish, and the closely related languages Scots Gaelic and Manx.
+
+REFERENCES
+Beckman, J.N., L. W. Dickey, & S. Urbanczyk (eds.). 1995. Papers in Optimality Theory, University of
+          Massachusetts Occasional Papers vol. 18. Amherst: GLSA, UMass, Amherst.
+Benua, L. 1995. “Identity Effects in Morphological Truncation.” In Beckman et al. (1995), 77–136.
+Blankenhorn, V. S. 1981. “Pitch, Quantity and Stress in Munster Irish.” Éigse 18, 225–50.
+Breatnach, R. B. 1947. The Irish of Ring, Co. Waterford: A Phonetic Study. Dublin: Dublin Institute for Advanced
+          Studies.
+________. 1961. Seana-Chaint na nDéise II. Dublin: Dublin Institute for Advanced Studies.
+Cohn, A. C., & J. J. McCarthy. 1994. “Alignment and Parallelism in Indonesian Phonology.” Ms., Cornell
+          University & UMass, Amherst. Rutgers Optimality Archive File No. ROA-25.
+Dillon, M., & D. Ó Cróinín. 1961. Irish. Teach Yourself Books. Sevenoaks, Kent: Hodder (published in the USA by
+          McKay, New York).
+Doherty, C. 1991. “Munster Irish Stress.” In D. Bates (ed.), Proceedings of the Tenth West Coast Conference on
+          Formal Linguistics, 115–26. Also published in A. Mester & S. Robbins (eds.), Phonology at Santa Cruz,
+          vol. 2 (1991), 19–32.
+Gussmann, E. 1995. “Putting Your Best Foot Forward: Stress in Munster Irish.” Ms., Catholic University of Lublin.
+          Presented at the Celtic Linguistics Conference, University College Dublin, June 1995.
+Halle, M., & G. N. Clements. 1983. Problem Book in Phonology. Cambridge, MA: MIT Press.
+Hammond, M. 1987. “Hungarian Cola.” Phonology Yearbook 4, 267–9.
+Hayes, B. 1981. A Metrical Theory of Stress Rules. Diss., MIT. Revised version distributed by Indiana University
+          Linguistics Club, Bloomington, and published by Garland, New York 1985.
+________. 1995. Metrical Stress Theory: Principles and Case Studies. Chicago: University of Chicago Press.
+Holmer, N. M. 1962. The dialects of Co. Clare. Part I. Royal Irish Academy Todd Lecture Series, vol. 19. Dublin:
+          Royal Irish Academy.
+Hung, H. J. 1993. “Iambicity, Rhythm, and Non-Parsing.” Ms., University of Ottawa. Presented at the Rutgers
+          Optimality Workshop, Rutgers University, October 1993. Rutgers Optimality Archive File No. ROA-9.
+________. 1994. The Rhythmic and Prosodic Organization of Edge Constituents. Diss., Brandeis University.
+Loth, J. 1913. “L’accent dans le gaélique du Munster.” Revue de Phonétique 3, 317–43.
+McCarthy, J. J. & A. S. Prince. 1986. “Prosodic Morphology.” Ms., UMass, Amherst & Brandeis University.
+________ & ________. 1993a. “Generalized Alignment.” In G. Booij & J. van Marle (eds.), Yearbook of
+          Morphology 1993, 79–153. Dordrecht: Kluwer.
+________ & ________. 1993b. “Prosodic Morphology I: Constraint Interaction and Satisfaction.” Ms., UMass,
+          Amherst & Rutgers University.
+________ & ________. 1994. “The Emergence of the Unmarked: Optimality in Prosodic Morphology.” In M.
+         Gonzalez (ed.), Proceedings of the North East Linguistic Society 24, 333–79. Amherst: UMass, Amherst.
+________ & ________. 1995. “Faithfulness and Reduplicative Identity.” In Beckman et al. (1995), 249–384. 15
+Nespor, M., & I. Vogel. 1986. Prosodic Phonology. Dordrecht: Foris.
+Ní Chiosáin, M. 1991. Topics in the Phonology of Irish. Diss., UMass, Amherst.
+________. 1995. “Prosodic Well-Formedness and Sonority Constraints: Epenthesis in Irish.” Ms., University
+         College Dublin. Rutgers Optimality Archive File No. ROA-89.
+Nic Pháidín, C. 1987. Cnuasach Focal ó Uíbh Ráthach. Dublin: Royal Irish Academy.
+Ó Cuív, B. 1944. The Irish of West Muskerry, Co. Cork. Dublin: Dublin Institute for Advanced Studies.
+________. 1947. Cnósach Focal ó Bhaile Bhúirne i gCunndae Chorcaí. Dublin: Dublin Institute for Advanced
+         Studies.
+Ó hAirt, D. 1988. Díolaim Dhéiseach. Dublin: Royal Irish Academy.
+Ó hÓgáin, É. 1984. Díolaim Focal ó Chorca Dhuibhne. Dublin: Royal Irish Academy.
+O’Rahilly, T.F. 1932. Irish Dialects Past and Present. Dublin: Browne. (Reprinted 1972 by the Dublin Institute for
+         Advanced Studies.)
+Ó Sé, D. 1989. “Contributions to the Study of Word Stress in Irish.” Ériu 40, 147–78.
+Ó Siadhail, M. 1989. Modern Irish: Grammatical Structure and Dialectal Variation. Cambridge: Cambridge
+         University Press.
+________ & A. Wigger. 1975. Córas Fuaimeanna na Gaeilge. Dublin: Dublin Institute for Advanced Studies.
+Prince, A. 1983. “Relating to the Grid.” Linguistic Inquiry 14, 19–100.
+________. 1990. “Quantitative Consequences of Rhythmic Organization.” In M. Ziolkowski, M. Noske, & K.
+         Deaton (eds.), Papers from the 26th Regional Meeting of the Chicago Linguistic Society, vol. 2, The
+         Parasession, 355–98.
+________ & P. Smolensky. 1993. “Optimality Theory: Constraint Interaction in Generative Grammar.” Ms., Rutgers
+         University & University of Colorado at Boulder.
+Quiggin, E. C. 1906. A Dialect of Donegal. Cambridge: Cambridge University Press.
+Sjoestedt-Jonval, M. L. 1938. Description d’un parler irlandais de Kerry. Bibliothèque de l’École des Hautes
+         Études, fasc. 270. Paris: Champion.
+Sommerfelt, A. 1927. “Munster Vowels and Consonants.” Proceedings of the Royal Irish Academy, 37, Sec. C,
+         Archaeology, Linguistic[s], and Literature, 195–244.
+Ua Súilleabháin, S. 1994. “Gaeilge na Mumhan.” In K. McCone, D. McManus, C. Ó Háinle, N. Williams, & L.
+         Breatnach (eds.), Stair na Gaeilge in ómós do Pádraig Ó Fiannachta, 479–538. Maynooth: Department of
+         Old Irish, St. Patrick’s College.
+van Hamel, A. G. 1926. “De accentuatie van het Munster-Iersch.” Mededeelingen der Koninklijke Akademie van
+         Wetenschappen, Afd. Letterkunde, Deel 61, Serie A, 287–322.
+Wagner, H. 1959. Gaeilge Theilinn: Foghraidheacht, Gramadach, Téacsanna. Dublin: Dublin Institute for
+         Advanced Studies.
+________. 1964. Linguistic Atlas and Survey of Irish Dialects. Vol. 2, Dialects of Munster. Dublin: Dublin Institute
+         for Advanced Studies.
+

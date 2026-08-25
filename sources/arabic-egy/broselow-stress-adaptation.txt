@@ -1,0 +1,1511 @@
+            Stress adaptation in loanword phonology: perception and learnability *
+
+                                                Ellen Broselow
+
+            Stony Brook University (State University of New York at Stony Brook)
+
+
+
+
+1.      The problem: Learnability of interlanguage rankings
+
+Under the widespread assumption that learning a phonological grammar means learning the
+language-specific rankings of phonological constraints, the framework of Optimality Theory
+forces us to ask not only what constraint rankings describe the data of a language, but also how
+those rankings could have been learned. The focus of this paper is cases in which the second
+question is not so easily answered. Language contact situations confront speakers with types of
+structures that are not found in their native language, and in these situations we often find
+systematic adaptation patterns that are fairly consistent across speakers of the same native
+language. Analyses of loanword adaptations patterns have often posited fairly intricate webs of
+constraint rankings in the production grammar which cannot be motivated by the data of either
+the native or the foreign language. One possible explanation of such apparently unmotivated
+rankings is that they reflect the universal default. If this is the case, we should expect the same
+rankings to emerge in all situations where evidence to the contrary is lacking. But as Peperkamp
+(in press) has argued, there appears to be cross-linguistic variation in adaptation patterns that
+cannot be attributed to the data of either of the languages in contact. This leaves us with a
+puzzle: if we find interlanguage production grammar rankings that are a product neither of
+universal grammar nor of input data, what is their source? In this paper I argue that several
+adaptation patterns that appear to involve unlearnable rankings of production grammar
+constraints are actually an effect of the perception grammar.
+        I will consider two cases of loanword adaptation which have been analyzed in terms of
+crucial rankings of production grammar constraints, among them a constraint mandating
+preservation of foreign word stress. In each case, while the proposed rankings account for the
+adaptation patterns, it is unclear how these rankings could have been learned from the ambient
+
+
+        *
+          This paper has benefitted greatly from feedback from participants in my Fall 2003 seminar in language
+contact phonology, from colleagues at Stony Brook University, and from the NELS audience, and particularly from
+the careful comments of the editors and reviewers of this volume. Special thanks are due to Christina Bethin, Dan
+Finer, Yoonjung Kang, Miran Kim, and Zheng Xu.
+                                          Ellen Broselow
+
+data. I argue that in neither case are unlearnable rankings necessary; rather, the adaptation
+patterns can be seen as effects of interference from the native language grammar–specifically,
+that portion of the grammar that maps the acoustic signal onto phonological representations. I
+assume (following Boersma 1998) that the perception grammar defines which aspects of the
+acoustic signal are linguistically significant, causing listeners to misinterpret certain aspects of
+the contact structures. In this bipartite model, the inventory of structures presented by the
+contacting language is often richer than that presented by the native language input (the richness
+of the stimulus). But the listener’s perception grammar maps this input onto a more restricted set
+of phonological representations, providing the adapter with an impoverished base, or set of
+underlying representations (Boersma 2000, Lassettre and Donegan 1998).
+         The paper begins with a survey of several types of ranking puzzles in language contact,
+followed by consideration of the sorts of rankings that we would expect to find in language
+contact phonology. I then consider examples of the adaptation of stress in borrowed words. The
+source stress is maintained in both Huave words borrowed from Spanish (Davidson and Noyer
+1996) and in Fijian words borrowed from English (Kenstowicz 2003). However, the two
+languages differ in terms of the strategies used to resolve conflicts between the original stress
+position and the stress position dictated by the native language grammar: such conflicts are
+resolved in Huave by deletion of segments and in Fijian by lengthening of vowels. These
+different adaptation patterns have been described in the literature in terms of different rankings of
+a production grammar constraint MatchStress (or MaxStress) directing that the position of the
+source stress should be maintained. But because this constraint is specific to loanwords, it is not
+clear how the early adapters could have learned its ranking. The contention of this paper is that
+the maintenance of source stress is not a function of the production grammar at all, but rather is
+determined by the native language perception/decoding principles which determine how foreign
+language stress is interpreted. In Huave, stress is demarcative, uniformly falling on the final
+syllable of the word, which causes Huave listeners to assume that stressed syllables are word-
+final in Spanish; thus, segmental material following the stressed syllable is lost when in the
+mapping from acoustic signal to lexical representation. Similar loss of posttonic material is
+found in the adaptation of Spanish words by speakers of K’ichee’, which also has uniformly
+word-final stress; in contrast, in Selayarese, where the position of stress is affected by
+morphological structure, listeners maintain foreign material following the stress foot. In Fijian,
+stress serves to enhance lexical contrasts of vowel length. I argue that Fijian listeners hearing a
+stressed syllable in a position that is normally not stressed interpret this as an indication of
+underlying vowel length.
+
+2.     Ranking puzzles in language contact phonology
+
+In the OT model of phonological acquisition, it has been proposed that the initial state involves a
+set of constraints in which markedness constraints are ranked above faithfulness constraints,
+ensuring that learners begin with the most restrictive grammar (Gnanadesikan [1994] 2004), or
+that while constraints may initially be unranked, the ranking process favors M>>F rankings
+(Hayes [1999] 2004, Prince and Tesar [1999] 2004). Aside from the bias toward markedness
+over faithfulness constraints, the learner establishes a ranking based on input from the ambient
+language. Where the input data is not sufficient to establish an exhaustive ranking of all
+constraints, the final state of the grammar could conceivably impose only a partial ranking (Ross
+1996, Boersma 1998), or learners could choose an arbitrary ranking of otherwise unrankable
+constraints (Tesar and Smolensky 2000, page 49); in the latter case, we need not assume that all
+learners would arrive at the same rankings. Given these assumptions, we can identify the
+following possible ranking patterns in the interlanguage grammar (the grammar that accounts for
+systematic behavior in loan adaptation and/or second language acquisition):
+
+(1)    Possible ranking patterns in SLA or loan adaptation:
+       a. M >>F: putative default pattern
+       b. F >> M: motivated by marked forms
+       c. M >>M, F>>F: mysterious if not motivated by data
+
+While M>>F rankings, as the default, need not be motivated by data, the other rankings are data-
+driven. But examination of language contact phonology reveals many examples of apparent
+production grammar rankings that are not obviously motivated by data other than language
+contact data:
+
+1. Differential Difficulty (M>>M): In this case, one foreign language structure is mastered more
+quickly than another, even though neither appears in the native language. One example of this
+pattern from second language acquisition involves final obstruent devoicing, which is attested for
+a number of speakers whose native language (such as Mandarin Chinese and Tswana) allows no
+obstruent codas of any type, and whose target language allows both voiced and voiceless
+obstruent codas (Wissing and Zonneveld 1996, Grijzenhout and van Rooij 2001, Eckman 1981,
+Flege and Davidian 1984, Flege, McCutcheon, and Smith 1987, Yavas 1994, Broselow, Chen,
+and Wang 1998, Broselow 2004, Broselow and Xu 2004). The M>>M pattern also underlies
+much of the evidence for lexical strata, analyzed by Ito and Mester (1995) as involving
+subgrammars specific to core and peripheral vocabularies.
+
+2. Differential faithfulness (F>>F): In this case, certain aspects of contacting structures are
+preserved while others are lost. Thus, as discussed below, in borrowings from Spanish into
+Huave, the stress of the source word is preserved at the price of segmental unfaithfulness
+(Davidson & Noyer 1996), while in borrowings from Bahasa Indonesia into Selayarese, the
+source segmental structure is preserved while the source stress may be lost (Broselow 1999).
+Some F>>F rankings might be explained as the reflection of a universal perceptual similarity
+hierarchy (Steriade 2001), but some cases appear to violate proposed universal rankings. For
+example, as Kenstowicz (2003) points out, English initial voiced stops in words borrowed into
+Fijian are realized as prenasalized stops, violating the putative universal ranking of production
+grammar constraints Ident[nas] >> Ident[voi] proposed by Steriade (2001).
+
+3. Differential repair strategies (F>>F or M>>F): In this case, the source language presents
+adapters with two or more structures that are equally impossible in the borrowing language, yet
+speakers use distinct repair strategies in adapting them. For example, in Wolof borrowings from
+French, obstruent-sonorant onsets are repaired by a copy vowel inserted between the two
+consonants (kalas from French klas ‘class’), but [s]-stop onsets are repaired by insertion of a
+                                         Ellen Broselow
+
+default vowel before the two consonants (estati from French staty ‘statue,’ Fleischhacker 2000).
+Since Wolof has no complex onsets of either type, the native language provides no basis for
+distinguishing them. Similar patterns are found in numerous languages (Broselow 1993,
+Fleischhacker 2000).
+
+4. Ranking reversals (C1>>C2, C2>>C1): Many of the preceding cases involve rankings that
+are not motivated by the native language data, but are at least not inconsistent with it. In other
+cases, interlanguage patterns require an actual reversal of the rankings of the native language,
+even though the contacting language does not appear to present evidence for the new ranking.
+Thus in Malayalam, single voiceless consonants do not occur intervocalically. In Malayalee
+English, English intervocalic voiceless stops are realized as voiceless geminates (Ident(voice)>>
+Ident(mora)) although in Malayalam, length distinctions are preserved in preference to voicing
+distinctions (Ident(mora)>>Ident(voice), Mohanan and Mohanan 2003).
+         Various possible sources of such ‘hidden’ rankings (Davidson 2000) include the role of
+frequency in the data (Broselow 2004); the native speaker’s articulatory program (Ussishkin &
+Wedel 2003); and the role of perception (Silverman 1992, Yip 1993, Kenstowicz 2001, 2003,
+Kang 2003, Peperkamp 2003). The central claim of this paper is that what at first glance appear
+to be ‘hidden’ rankings in the production grammar (that is, rankings that are not in any obvious
+way learnable from the data) either emerge from input frequency, or reflect rankings in the native
+language perception grammar that have been learned from native language data.
+         In the next three sections I consider cases of loan adaptation differing in the extent to
+which source language stress is preserved, and in the sorts of unfaithfulness that are tolerated to
+facilitate stress preservation. Two of these cases have been analyzed in the literature in terms of
+a production grammar constraint (MATCH STRESS or MAX STRESS), which applies only to
+borrowed words. The postulation of a stress preservation constraint, along with the assumption
+that constraints can be freely ranked across languages, predicts a wide variety of possible loan
+adaptation patterns. I will argue that whether or not the source stress is maintained in loanwords
+is a function not of the rankings of production grammar constraints, but rather of the role played
+by stress in the native language.
+
+3.     Adaptation of demarcative stress
+3.1.   Production grammar analysis of Huave adaptations
+
+Huave, a language isolate spoken in southeastern Oaxaca State, Mexico, has borrowed a number
+of words from Spanish. Huave restricts stress to one of the two final syllables of the word, while
+Spanish words may have stress on any one of the three final syllables, creating conflicts between
+the Huave stress restrictions and the actual source stress. Davidson and Noyer (1996) analyze the
+adaptation patterns of the San Mateo del Mar dialect of Huave in terms of ranked constraints of
+the production grammar, some of which cannot obviously be motivated by either the Huave or
+the Spanish data.
+        In Huave native vocabulary, stress falls on a final syllable when that syllable is closed,
+and on the penultimate syllable when the final is light. Huave has no vowel length contrast, so
+syllable weight is dependent on the presence or absence of a coda consonant. Because all stems
+of major lexical categories and all suffixes end in a consonant, final stress is the overwhelmingly
+predominant pattern in Huave.1
+
+(2)       Huave native vocabulary (Kreger and Stairs 1981):
+          a. aráõ              ‘he does’
+          b. taraõás           ‘I did’
+          c. taraõasán         ‘we did’
+          d. íke              ‘I’
+
+Words have a single stress, with the exception of words containing a suffix or suffixes
+comprising more than two syllables, where a secondary stress falls on the root-final syllable and
+primary stress on the word-final syllable (Kreger and Stairs 1981, page xvii).
+       To describe the Huave facts, Davidson and Noyer posit the following constraints, each
+apparently undominated in the native grammar:
+
+(3)       Huave Constraints
+          a. TROCHAICFEET : Feet are bimoraic trochees (CV’CV or CVC’)
+          b. ALIGN -R: The right edge of a Prosodic Word is aligned with the right edge of a foot
+          c. FREE -V: A word should not end in a vowel.
+
+Interestingly, these three constraints show different degrees of strength in borrowed words. The
+most nativized vocabulary items maintain the Huave pattern of final stressed and closed
+syllables, while still preserving the Spanish stress--if necessary, by deletion of segmental material
+in the final syllable of the source:
+
+(4)       Loans into Huave from Spanish, Stratum 1 (most nativized)
+          Spanish       Huave
+          garabáto      garabát       ‘hook’
+          kardúmen      kardóm        ‘flock’
+          márso         márs          ‘March’
+          ígado         ík            ‘liver’
+
+Davidson and Noyer attribute the maintenance of Spanish stress to a constraint MATCH STRESS
+which is, along with Huave stress constraints and FREE -V, ranked above segmental faithfulness
+constraints in the core stratum:
+
+(5)       MATCH (STRESS): Stress falls on the same vowel in the source word as in the loanword
+          (Davidson and Noyer 1996, page 69).
+
+(6) Davidson and Noyer’s production grammar, Stratum 1
+
+
+
+
+          1
+              Kreger and Stairs (1981) mention a single morpheme which falls outside the stress domain, the enclitic an
+‘only’.
+                                          Ellen Broselow
+
+      |garabáto|                MATCH              TROCHAIC             FREE -V       MAX
+        ‘hook’                  STRESS             FEET , ALIGN -R
+      a. gara(báto)                                                     *!
+ Lb. gara(bát)                                                                        *
+       |igado|
+       ‘liver’
+      a. (íka)do                                   *!
+      b. (íka)                                                          *!
+ Lc. (ík)                                                                             ***
+
+While the native vocabulary appears not to provide evidence for any ranking of FREE -V with
+respect to the stress constraints, the second stratum of more peripheral loanwords respects the
+stress constraints but not FREE -V:
+
+(7)       Huave from Spanish, Stratum 2:
+          Spanish      Huave
+          gwanábana    gwanába       ‘sweet-sop’
+          mandádo      mandáda       ‘command’
+
+The facts of this less nativized stratum can be described by assuming a second subgrammar in
+which the constraint enforcing segmental faithfulness (MAX ), while still dominated by the Huave
+stress constraints, is ranked above FREE -V:
+
+(8) Davidson and Noyer’s production grammar, Stratum 2
+ |gwanábana|                    MATCH              TROCHAIC            MAX            FREE -V
+ ‘sweet-sop’                    STRESS             FEET , ALIGN -R
+      a. gwa(nába)na                               *!
+      b. gwana(bána)            *!
+      c. gwa(nában)                                *!                    *
+ Ld. gwa(nába)                                                               **       *
+      e. gwa(náb)                                                            **!*
+
+And finally, the third stratum of least nativized loanwords exhibits violations of both native
+stress constraints and FREE -V, while still preserving the Spanish stress:
+(9)      Huave from Spanish, Stratum 3 (least nativized):
+         Spanish              Huave
+         mjérkoles            mjérkoles      ‘Wednesday’
+         médiko               médiko         ‘doctor’
+
+(10) Davidson and Noyer’s production grammar, Stratum 3
+       |médiko|                   MATCH             MAX           TROCHAIC              FREE -V
+       ‘doctor’                   STRESS                          FEET , ALIGN -R
+ L a. (médi)ko                                                     *                    *
+      b. (médik)                                    *!             *
+      c. (mé)dik                                    *!             *
+      d. (médi)                                     *!*                                 *
+
+The three strata therefore differ in their tolerance of MAX constraint violations (apocope): in
+stratum 1, apocope is tolerated to satisfy both the demand for right-aligned trochaic feet and final
+consonants (garabát from garabáto, ík from ígado); in stratum 2 apocope is tolerated to satisfy
+stress constraints but not the demand for final consonants (gwanába from gwanábana); in
+stratum 3, a loanword that has antepenultimate stress is fully segmentally faithful to the original
+(médiko). The three strata arise, Davidson and Noyer argue, from the differential ranking of the
+anti-deletion MAX constraints with respect to MATCH STRESS >> TROCHAICFEET , ALIGN -R >>
+FREE -V. Although both apocope (garabát from garabáto) and non-trochaic stress (médiko) are
+possible in loans, there are no cases in which both cooccur in a single form, because to derive a
+form such as *médik from médiko would require the ranking FREE -
+V>>MAX >>TROCHAICFEET ,ALIGN -R, a reversal of the markedness constraint rankings. The
+Huave data are therefore consistent with Ito and Mester’s (1995) claim that while faithfulness
+constraints can be ranked differently in the subgrammars associated with different lexical strata,
+the relative rankings of markedness constraints are constant across strata. However, the ranking
+MATCH STRESS >> TROCHAICFEET , ALIGN -R >> FREE -V is motivated by the loanword data rather
+than by any facts of the native language.
+        Additional complications ensue when we consider the treatment of Spanish complex
+onsets (forbidden in native Huave vocabulary), which are simplified by means of vowel
+insertion:
+
+(11)     pláto         polát           ‘silver’
+         brasáda       barasáda        ‘unit of measure’ (*basáda, *sáda)
+
+It is striking that while entire syllables may be deleted to preserve Spanish stress (gwanába from
+gwanábana ‘sweet sop’), the strategy used to avoid complex onsets is insertion, rather than
+deletion. Davidson and Noyer elegantly describe these facts by ranking MATCH STRESS and
+MAX (C,V) over *COMPLEX ONSET , in turn ranked over DEP (V). This ranking makes vowel
+insertion the preferred repair strategy where there is a choice (as in the resolution of a complex
+onset violation). But the mandate that stress may neither leave its original syllable nor fall to the
+                                                 Ellen Broselow
+
+left of the penultimate syllable rules out vowel insertion as an option in posttonic position.
+Again, however, we must wonder how the original Huave adapters might have come up with
+such a ranking, in the absence of any evidence for either consonant deletion or vowel insertion in
+Huave. Thus, this analysis raises a number of thorny questions concerning the learnability of the
+constraint rankings:
+
+        1. How would Huave speakers arrive at the ranking MATCH STRESS>>MAX (C) >>
+*COMPLEX ONSET>>DEP (V) (F>>F>>M>>F)? This ranking is necessary to describe the
+pattern whereby segment deletion is used to maintain the Spanish stress, but vowel insertion is
+used to resolve complex onset violations. However, it is not clear how such a ranking might
+have been learned. Because Huave is a language in which all surface forms exhibit a regular
+stress pattern, the hypothesis of Richness of the Base requires us to assume that the stress
+constraints outrank any faithfulness constraints that would preserve lexically marked stress such
+as IDENT (STRESS)I-O (the typical M>>F ranking). Why, then, is MATCH STRESS ranked so high?
+MATCH STRESS could be argued to be an output-output constraint, a type which Hayes (1999) has
+argued is ranked high by default. But this simply moves the question to another level: if we
+assume that all O-O constraints are ranked high in the absence of evidence to the contrary, why
+should an O-O constraint demanding faithfulness to stress outrank O-O constraints demanding
+faithfulness to segments? The pattern of faithfulness to stress over faithfulness to segments is not
+universal, as we shall see in the discussion of Selayarese below, and therefore must be explained
+as an effect of either the Huave grammar or the Spanish input.
+
+        2. Why would Huave speakers rank stress constraints over FREE -V (M>>M)? This
+ranking describes the fact that adapters give up the requirement that words end in consonants
+before they give up the requirements that the stress foot be aligned with the right edge of the
+word. But what would motivate such a ranking, when both the stress constraints and FREE -V are
+uniformly obeyed in Huave (for content words), and frequently violated in Spanish?2
+
+3.2.    Perception-oriented analysis of Huave adaptations
+
+In this section I argue that what appear to be the effects of apparently unlearnable constraint
+rankings in Huave loan adaptation are actually a reflection of the native language perception
+grammar. Specifically, I argue that the unambiguously demarcative function of stress in Huave
+leads listeners with little or no knowledge of Spanish to assume that stressed syllables are word-
+final. The resulting forms, in which posttonic material is not analyzed as part of the word, are
+lexicalized, leading to what appears to be posttonic deletion in the earlier strata. The increasing
+faithfulness to Spanish segments seen in later strata is a function of increasing contact with
+Spanish, which forces listeners to revise the perception grammar, allowing a wider range of word
+
+
+        2
+           I assume that Huave speakers distinguish content and function words, and that the presence of vowel-final
+function words in Huave would not contribute to demotion of F REE -V. See Peperkamp 2004 for arguments that even
+infants distinguish content and function words, and that basic generalizations about stress are not disrupted by
+function words that interfere with general patterns.
+shapes. This in turn forces a revision of the production grammar.
+         Before discussing the specifics of word adaptation, some information on the
+sociolinguistic context of the Huave adaptation patterns will be useful. As recently as 1961, 81%
+of Huave speakers in San Mateo del Mar were monolingual in Huave (Diebold 1961, page 104),
+and the community was “almost wholly preliterate” (Diebold 1961, page 105). For those
+speakers with knowledge of Spanish, “Spanish was acquired relatively late in life, rarely in
+childhood”, and only 6% could be considered fully bilingual...subordinate bilingualism in San
+Mateo involves very imperfect reproduction of Spanish, with a heavy load of interference from
+Huave” (Diebold 1961, page 105). This situation has changed over the succeeding decades, so
+that at present, although “Huave is the language of everyday life...At least 90% of adults and
+100% of children are now also completely fluent in Spanish; monolingual Huave speakers have
+become a negligible percentage of the population (this was not true 20 years ago)” (Kim and
+Park-Doob 2005). I will argue that the different strata of the Huave loanwords reflect the
+dramatic changes over time in adapters’ familiarity with Spanish.
+
+3.2.1. Faithfulness to stress vs. faithfulness to segments: Stratum 1
+
+        We begin by considering the most nativized words, which invariably end in stressed
+closed syllables (e.g., ígado is adapted as ík ‘liver’). In the following discussion, I assume that
+the two mappings from the phonetic form-- to a phonological surface representation, which
+encodes prosodic structure, and to a lexical representation, which serves as input to the
+production grammar-- take place in parallel (see (22) in the introduction to this volume). I
+propose that the preservation of source stress over the preservation of source segments, which is
+encoded by Davidson and Noyer as a ranking of MATCH STRESS over MAX , is in fact an effect of
+a high-ranked perception grammar constraint:
+
+(12)   Perception Grammar Constraint:
+       ASSUME LEX WORD EDGE -V’C#: in mapping the acoustic signal to
+       phonological representations, assume a word edge following each
+       consonant preceded by a stressed vowel.
+
+This constraint is one of a family of constraints aiding in the segmentation of the speech string
+into words (see for example the perception grammar constraints proposed by Boersma (2000)
+which posit word boundaries at the beginning and end of an utterance). For Huave,
+ASSUME WORD EDGE -V’C# is undominated, serving as a filter on possible phonological
+representations. The high ranking of ASSUME WORD EDGE -V’C# would cause listeners to
+assume that material following the stress foot is either part of the following word, or noise
+without linguistic significance. (An example of such nonsignificant articulations in English
+would be release of a phrase-final consonant, or a labial closure following a phrase-final vowel,
+coincident with simply shutting the mouth. The final consonant in English ‘nope’ most likely
+represents misanalysis of this closure as a segment.) In contrast to a constraint mandating that
+the right edge of a foot coincide with the right edge of a word, this constraint permits learners to
+segment strings into words on the basis of overt information present in the phonetic form.
+        I assume that at the initial stages of Huave-Spanish contact, ASSUME WORD EDGE -V’C#
+remained undominated in the Huave perception grammar, so that a Huave speaker first exposed
+                                                 Ellen Broselow
+
+to Spanish forms such as [ígado] ‘liver’ and [garabáto] ‘hook’ would posit a word boundary
+after each consonant following a stressed vowel (/íg/#ado, /garabát/#o). The forms identified as
+lexical items (|ig|, |garabat|) would then serve as input to the production grammar. Thus, the
+adapted forms ík and garabát would emerge not as a result of segment deletion in the production
+grammar, but as a result of a misanalysis of the lexical representation. It now becomes clear why
+final vowels are never deleted from Spanish forms with antepenultimate stress; for example,
+médiko ‘doctor’ never becomes *médik. In Davidson and Noyer’s account this is the reflection
+of the production grammar ranking TROCH FEET >>MAX >>FREE -V. In the perception-oriented
+account, apocope is a function of misparsing, not of truncation in the production grammar. The
+Huave perception grammar provides no reason to parse médiko as médik#o, because médik would
+not be a legal Huave word shape. If any misparsing occurred, the resulting form would be *méd
+(on analogy with ík ‘liver’ from ígado). We begin by considering the most nativized words,
+which invariably end in stressed closed syllables (e.g., ígado is adapted as ík ‘liver’).
+        We must now consider whether the strategy of assuming that a stressed syllable marks the
+end of a lexical unit is a realistic one. A good deal of evidence suggests that even very young
+children make use of stress information in segmenting words, and that their segmentation
+patterns reflect the normal position of stress in a language (see for example Jusczyk 1999,
+Thiessen and Saffran 2003, Werker and Curtin 2005). The same principles have been shown to
+guide adults’ segmentations, using a variety of experimental paradigms. For example, Cutler and
+Butterfield (1992) found that in both natural ‘slips of the ear’ and in experimental investigation
+of English listeners’ segmentation of highly attenuated speech, “listeners tend to insert
+boundaries before strong syllables and delete them before weak syllables...the rhythmic
+properties of the input guide listeners’ hypotheses about the placement of lexical boundaries in
+imperfectly perceived speech” (Cutler and Butterfield 1992, page 232). 3 Since initial contact
+with a foreign language, particularly in the absence of orthographic information, is a situation
+likely to lead to ‘imperfectly perceived speech’, it seems reasonable that Huave listeners should
+have segmented Spanish strings according to Huave patterns.
+        However, in some cases this erroneous segmentation might entail positing that the
+remnant is also a word, which would appear to violate the Possible Word Constraint of Norris,
+McQueen, Cutler, and Butterfield (1995), who found that listeners had difficulty recognizing
+(for example) ‘egg’ in strings like fegg, where the remnant [f] is not a possible word. This
+principle militates against Huave listeners segmenting garabáto as garabát#o, since [o] would
+not fulfill the Huave requirement that all words contain a bimoraic foot. Later work, however,
+indicates that the Possible Word Constraint as originally stated is too strong; Cutler, Demuth, and
+McQueen (2002) found that when the remnant was a syllable, rather than a single segment, word
+detection was not hampered; Sesotho listeners efficiently detected rora in jirora, even though the
+minimal word size in Sesotho is bisyllabic, and therefore ji, the remnant from segmentation ji#
+rora, is not a possible Sesotho word. It is therefore plausible that the Huave speakers could have
+identified a string like garabát as a word, even where the string garabáto could not be segmented
+
+
+        3
+          The rankings of the segmentation constraints in the perception grammar of English and Huave listeners
+will of course differ, with A SSU M E W O RD E D GE -V’C ranked low in the English perception grammar, but in both
+languages, constraints relating stress and word edges will play a role.
+into two possible words (though in non-final position, the final [o] could plausibly be assigned to
+the following word).
+        A second possible objection to the account of the Huave data comes from work by
+Peperkamp and Dupoux (2002), who argue that adult speakers of languages in which stress is
+invariably utterance-final exhibit ‘deafness’ to stress in other languages, manifested in their
+difficulty in distinguishing CVCV words differing only in the position of stress (as contrasted
+with their ability to perceive segmental contrasts in such words). These results appear to be
+inconsistent with our claim that Huave speakers use stress to determine word structure. But in
+Peperkamp and Dupoux’s experimental paradigm, listeners were presented with already
+segmented ‘words’. Their subjects’ task was therefore very different from that of speakers in a
+language contact situation attempting to segment foreign language strings into words.4
+        I assume, therefore, that the least nativized loanwords represent words which entered the
+lexicon at a stage in which the Spanish forms were filtered through the native Huave perception
+grammar. At this stage, Huave ASSUME WORD EDGE -V’C# was ranked more highly than, for
+example, the constraint that accounts for the results of Cutler and Butterfield (1992) showing the
+tendency of English speakers to posit a word boundary before a stressed syllable. At this stage
+Spanish forms are interpreted as consistent with Huave restrictions, and so provide no pressure to
+restructure the production grammar:
+
+(13)     Stratum 1 (ígado 6 ík)
+         a. perception grammar (=Huave native grammar)
+                 ASSUMEWORD EDGE -V’C# >>
+                        ASSUMEWORD EDGE-#STRESSED SYLL (English)
+
+A form such as ígado would emerge from the perception grammar in truncated form. (Below I
+concentrate only on the relationship between stress and truncation, ignoring various segmental
+issues such as the Spanish [d/ð] alternation. I also take no stand on whether the change from [g]
+to [k] in the loanword is a function of misperception or misproduction.)
+
+(14) input to perception grammar: ‘liver’
+ [ígado]                                 AssumeWordEdge-V’C#                    Other Word Edge Constraints
+   a. |igado|#                             *!                                    *
+
+
+
+ Lb. |ig|# (or |ik|#)                                                            *
+
+The output of the perception grammar would then be submitted to the production grammar.
+Derivation of the Huave surface form is trivial, since the lexicalized form satisfies all Huave
+
+         4
+          Altmann (2006) presents experimental results that are problematic for Peperkamp and Dupoux’s claim that
+invariant utterance-edge stress leads to the greatest degree of stress deafness. Briefly, Altmann found that Arabic
+speakers, whose language assigns stress to one of the final three syllables of a word, depending on syllable weight,
+showed greater difficulty in cross-linguistic perception of stress than speakers of French or Turkish, where stress is
+always assigned at the utterance edge.
+                                                Ellen Broselow
+
+constraints:
+
+(15) input to production grammar
+ |ig|                         ALIGN -R,                        FREE-V                   MAX
+                              TROCHAICFEET
+ La. ík
+    b. í                                                                 *!             *
+
+Because at this early stage all lexical representations were assumed to conform to Huave
+restrictions, there was no motivation to alter the ranking of constraints in the production
+grammar.
+
+
+
+
+3.2.2. Posttonic deletion vs. pretonic insertion
+
+        The asymmetry in pretonic and posttonic repair tactics, illustrated by vowel insertion in
+forms like polát (Spanish pláto ‘silver’) and barasáda (Spanish brasáda ‘unit of measure’) but
+deletion in forms like ik ‘liver’ (Spanish ígado) is now unsurprising. Material was lost in
+positions where the perception grammar defined it as not part of the relevant word, or as not
+linguistically significant (e.g., as an effect of consonantal release), but preserved where the
+grammar defined it as potentially contrastive. On this account, preservation of perceived
+segments is the norm, and deletion is not a grammatical process; rather, the apparent deletion of
+posttonic material results from incorrect identification of right word edges.
+        It would not be surprising if missegmentation also occasionally led to confusion
+concerning the beginnings of words as well. In Huave, a word can only be preceded by a phrase
+boundary, by V’C, or by V’CV (the latter following a function word). Spanish, however, allows
+a wider range of options, and the Huave speaker might be expected to occasionally misparse the
+left edges of words in running Spanish speech. Indeed, borrowings from Spanish evidence both
+the addition of material at the left edge, in arín± from Spanish rán±o ‘ranch’, and the loss of
+pretonic material, in forms like nimál ‘animal’ from Spanish animál and maríl ‘yellow’ from
+Spanish amarío (Diebold 1961, page 107).5 This pretonic truncation, if analyzed as part of the
+production grammar, would require the ranking ONSET >> MAX (V). But such a ranking would
+contradict the ranking required for the native vocabulary, which must permit vowel-initial words
+(which are relatively common). The adaptation pattern would therefore represent a reversal of
+the normal situation found in a stratified lexicon, in which the core vocabulary obeys a ranking of
+M>>F while the more peripheral vocabulary obeys the ranking F>>M, and the loss of the initial
+
+
+           5
+         For the sake of clarity, I have adopted Davidson and Noyer’s (1997) transcription system in rendering
+Diebold’s forms. Diebold transcribes these forms as àríì±, nìmál and màríìl, respectively.
+vowel could not be a function of nativization, but rather would represent an emergence of the
+unmarked effect. Such an effect does not, however, hold generally for Huave loanwords–see, for
+example, asét ‘oil’.6 Given the sporadic nature of initial deletion, the best analysis appears to be
+as an effect of misparsing rather than as an effect of the production grammar.
+
+3.2.3. Requirement for right-aligned stress foot vs. requirement for final consonant
+
+In the account sketched above, the most nativized (stratum 1) loanwords represent an early stage
+in which Huave speakers segmented Spanish strings in terms of Huave word structure, and their
+erroneously segmented forms were then lexicalized. However, increasing contact with speakers
+of Spanish would inevitably have confronted Huave speakers with lexical, syntactic, and
+metalinguistic evidence for words of shapes that were incompatible with Huave restrictions,
+resulting in the restructuring of both the perception and (consequently) the production grammars.
+As we saw above, the first restriction to go is the requirement that all words end in a consonant
+(resulting in forms like gwanába ‘sweet-sop’ from gwanábana), while the last restriction to be
+abandoned is the requirement that all words end in a bimoraic trochaic foot (médiko ‘doctor’).
+The relative strength of these requirements is described in Davidson and Noyer’s 1997 account in
+terms of the ranking of the stress constraints over FREE -V. I will argue that their relative
+strengths are actually a function of the input to the adapters–that is, the extent to which each is
+violated in the Spanish data.
+        While Spanish words may violate both the Huave stress constraints and FREE -V, they do
+so with differing degrees of frequency. Eddington (2000) finds, among the 4,829 most frequent
+Spanish words, 59% are vowel-final (2,850/4,829) while 41% (1,979/4,829) are consonant-final.
+Therefore, the majority of Spanish words end in vowels, violating FREE -V. In contrast, a
+majority of Spanish words obey the requirement that words end in a right-aligned bimoraic
+trochaic foot. This requirement is satisfied by slightly more than 68% of the words in
+Eddington’s corpus: words ending in V’CV total 51.6% (2,494/4,829) and words ending in V’C
+total16.5% (798/4,829). In contrast, fewer than a third of the words in Eddington’s corpus
+violate the stress constraints; these are of three types, words with antepenultimate stress (5.6%, or
+274/4,829); consonant-final words with penultimate stress (1085, or 22.4%), and vowel-final
+words with final stress (178, or 3.6%). Therefore, the input to Huave speakers will contain more
+forms consistent with the Huave stress constraints than forms consistent with the requirement
+that words be consonant-final:
+
+
+(16)   Percentage of Spanish words consistent with Huave constraints
+       a. stress constraints: 68%
+       b. FREE -V: 41%
+
+As Huave speakers begin to recognize words ending in vowels, they will begin to create a
+perception grammar distinct from that motivated solely by the native language data. Such a
+grammar will admit the possibility of words ending in V’CV. They will hear a relatively smaller
+number of words that do not end in a bimoraic foot, and misanalysis of such forms should persist
+
+       6
+           In Diebold’s transcription, àsét (Diebold 1961, page 107).
+                                         Ellen Broselow
+
+longer. In particular, words like médiko, which constitute only 5.6% of the input, will take
+longer to become established as possible lexical representations. It seems likely that such words
+are characteristic of the pronunciation of bilinguals who have developed two clearly distinct
+grammars, one of which (the Huave grammar) imposes predictable stress on all words, and the
+second of which (the Spanish grammar) maintains lexically marked stress.
+
+3.3. Other languages with demarcative stress: K’ichee’ and Selayarese
+
+        Davidson and Noyer’s (1997) account of stress preservation as a function of the ranking
+of MATCH STRESS leads us to expect that various rankings of this constraint could be found in
+different language contact situations. In contrast, the alternative analysis developed above
+ascribes stress preservation to specific properties of the borrowing language: the perception
+grammar of Huave speakers leads them to missegment foreign language utterances. In order for
+such missegmentation to arise, certain conditions are required, both phonological and
+sociolinguistic. First, the borrowing language must have clearly demarcative stress, oriented
+toward the word edge, while the source language must allow stress in positions farther from word
+edge than are possible in the borrowing language. Second, borrowing must occur under
+conditions that do not present borrowers with unambiguously segmented speech: generally,
+through an aural route rather than through orthography, through connected speech rather than
+citation forms, and in a situation in which listeners have limited knowledge of the source
+language and little explicit instruction or correction from speakers of the source language. We
+would expect that given the same conditions, other languages should exhibit similar deletion of
+segmental material peripheral to the stress. We now consider two additional cases of loan
+adaptation into languages with demarcative stress, one in which source stress is routinely
+preserved, and one in which it is not.
+
+3.3.1. K’ichee’
+        K’ichee’, a member of the Quichean branch of eastern Mayan, is similar to Huave in
+allowing only words ending in stressed closed syllables. Like Huave, K’ichee’ has also borrowed
+heavily from Spanish. Isaacs and Wolter (2003) present the following data from the Nahualá
+dialect spoken in western Guatemala:
+
+(17)   Spanish        K’ichee’
+       atáke          atá:k          ‘attack’
+       baráto         barát          ‘barracks’
+       kadéna         kadé:n         ‘chain’
+       gánas          gá:n           ‘desire’
+       mansána        mansá’n        ‘apple’
+       antónia        tó’n           ‘Antonia’
+       durásno        turá’s         ‘peach’
+
+As in Huave, the position of Spanish stress is maintained in words borrowed into K’ichee’, and
+the stressed syllable is rendered final by deletion of posttonic segmental material.7 The
+sensitivity of K’ichee’ speakers to the stress pattern of their language is apparently established
+early; according to Demuth (1996), the first words of children acquiring K’ichee’ as their first
+language are monosyllabic, with truncation of pretonic syllables (e.g., [lóm] for [jolóm] ‘head’).
+This pattern contrasts with the early productions of learners of Dutch, English, and Sesotho, who
+tend to produce disyllabic trochees, the preferred word structure of their ambient languages.
+Note that the difference between the simplification patterns of children acquiring K’ichee’ and
+adult K’ichee’ speakers adapting Spanish loans rules out the possibility that the adult adaptation
+pattern represents an initial state default ranking.
+        The similarities in loan adaptation by speakers of Huave and K’ichee’ are striking. These
+similarities are, furthermore, expected, given the account sketched above in which uniformly
+demarcative stress leads to missegmentation of words that do not conform to the native language
+pattern in which stress position and word boundary position correspond. However, an alternative
+account of the correspondence between the Huave and K’ichee’ adaptations is possible: that
+MATCH STRESS is universally highly ranked, by default. We now turn to a third language which
+shows that this cannot be the case.
+
+3.3.2. Selayarese
+
+        In many ways, the stress system of Selayarese is quite similar to that of Huave; both
+prefer a trochaic foot at the right edge of the word, ranking TROCHAICFOOT and ALIGN -
+R(WORD ,FOOT ) high. However, Selayarese differs from Huave in that Selayarese codas do not
+contribute to syllable weight, so all feet are bisyllabic, yielding penultimate stress:
+
+(18)     Selayarese native stress (Basri1999, Broselow 1999)
+         sampúlo        'ten'
+         bálaõ          'creek'
+         kalihára       'ant'
+
+        Selayarese has borrowed a large number of words from Bahasa Indonesia (BI). While
+many BI words also have penultimate stress, the BI prohibition on stressed schwa leads in some
+cases to final stress. As the forms below illustrate, Selayarese borrowers ignore the source stress
+of BI words, assigning them stress according to Selayarese restrictions. (Because Selayarese
+lacks schwa, BI schwa is realized as a full vowel in Selayarese, though the quality of this vowel
+is not entirely predictable. For discussion of the segmental changes motivated by Selayarese
+segmental and syllable structure restrictions, see Basri 1997, Broselow 1999).
+
+(19)    Bahasa Indonesia          Selayarese
+        gcmúk                      gómmo§             ‘fat’
+        scdckáh                    sidákka            ‘alms’
+        scbáb                      sába§              ‘cause’
+        bcnáõ                      bánnaõ             ‘thread’
+
+
+        7
+          The Spanish stressed vowel is realized as either a long vowel or a glottalized vowel (represented as v’ by
+Isaacs and W olter).
+                                               Ellen Broselow
+
+The Huave strategy of deleting posttonic material would obviously not be viable for Selayarese
+speakers, since their goal is penultimate stress. However, Selayarese speakers could in principle
+use vowel insertion to bring loan words with final stress into conformity with the native stress
+restrictions-- as they in fact do with borrowed subminimal forms, such as bom ‘bomb,’ which is
+realized as bó§oõ. It is not obvious why BI bcnáõ, for example, should not also be realized with
+vowel insertion (*baná§aõ), which would both preserve the source stress and place it in the
+normal Selayarese penultimate position. But insertion of segments is used only in monosyllabic
+words; in longer words, Selayarese speakers simply shift the original stress to the normal
+Selayarese position (bánnaõ).8 We can describe this pattern by the ranking TROCHAICFOOT ,
+ALIGN -R >> DEP >> MATCH STRESS (since if MATCH STRESS is part of the grammar of Huave, it
+must be part of the grammar of all languages). The ranking TROCHAICFOOT >>DEP is consistent
+with the facts of Selayarese, which indeed has no words smaller than two syllables. But the low
+ranking of MATCH STRESS would need to be explained.
+         We see the same disregard for source stress in another class of words. Many Selayarese
+roots end in [r], [l], or [s], none of which is a possible coda (Mithun and Basri 1986, Broselow
+1999). When one of these consonants occurs in root-final position, it is followed by a copy of
+the preceding vowel. Words with a final epenthetic vowel take stress on the antepenultimate
+syllable:
+
+(20)    lámbere           ‘long’
+        sússulu           ‘burn’
+        maõkásara         ‘Makassar’
+        sáhala            ‘profit’
+
+Note that the epenthetic vowel fails to appear before a vowel-initial (nonclitic) suffix (cf.
+lámbere/lambéraõ ‘longer’), in contrast to underlying vowels, which always appear (tirére/tireré-
+aõ ‘thirsty/thirstier’).
+        This association of antepenultimate stress with a final epenthetic vowel in native
+vocabulary has been analyzed by ranking HEAD -DEP, which directs that an epenthetic vowel
+may not be part of the main stress foot (Alderete 1999), above ALIGN -R. This ranking favors the
+formation of a bisyllabic foot containing only underlying vowels over the formation of a perfectly
+right-aligned foot:
+
+(21) HEAD -DEP : Stress foot includes only underlying vowels (Alderete 1999)
+ |lamber|                              HEAD -DEP                             ALIGN -R
+   a. lam (bére)                       *!
+ Lb. (lámbe) re                                                              *
+
+
+
+        8
+          The one exception is korá§aõ ‘Koran’ (Hasan Basri, personal communication). Clearly, there are
+sociolinguistic factors that could mandate greater faithfulness in this case.
+This pattern is also respected in loanwords, which take antepenultimate stress with a final
+epenthetic vowel, regardless of the stress of the source:
+
+(22)   Bahasa Indonesia       Selayarese
+       sénter                 séntere         ‘flashlight’
+       kclás                  kálasa          ‘class’
+       bcrás                  bérasa          ‘rice’
+       bclcbás                balábasa        ‘ruler’
+
+The Selayarese speakers could easily have preserved the source stress by adapting BI kclás (for
+example) as *kalása rather than kálasa. There would be nothing objectionable in the surface
+form *kalása; as the minimal pair sáhala ‘profit’ (from root |sahal|) and sahála ‘sea cucumber’
+(from |sahala|) shows, the presence of [r,l,s] surrounded by identical vowels is a necessary but not
+a sufficient condition for antepenultimate stress.
+         Again, we could describe this pattern by a production grammar ranking HEAD -DEP ,
+TROCHAICFOOT >> ALIGN -R, DEP >> MATCH STRESS. But we would need to explain how
+Selayarese speakers would have converged on this ranking-- particularly since, as we know from
+the Huave case, low ranking of MATCH STRESS is not universal. Let us therefore consider the
+ways in which the Selayarese situation differs from the Huave situation.
+         First of all, Selayarese speakers are very likely to have a good command of Bahasa
+Indonesia, the lingua franca of Indonesia, and the language of formal education. Second, while
+stress serves unambiguously in Huave to mark word edges, the role of stress in Selayarese is not
+nearly so straightforward. Clearly, the epenthetic forms muddy the relationship between stress
+and word edges. An additional complicating factor is the presence of clitics, which fall outside
+the stress domain, though they still participate in certain aspects of word-level phonology (Basri
+et. al, 2000). Clitic attachment may result in stress as far back as the preantepenult:
+
+(23)   géle -ma - kaõ         ‘we are no longer...’
+
+A sequence of three syllables, only the first of which is stressed, could correspond to any of the
+following morphological structures in Selayarese (though the interpretation in (24c) is possible
+only if the onset of the third syllable is one of [r,l,s] and if the vowels of the two poststress
+syllables are identical):
+
+(24) Possible grammatical structures for óóó (where {,} indicate PWd edges)
+       a. óó)} # {(ó.. (separate grammatical words)
+       b. (óó)}- ó #    (grammatical word plus clitic)
+       c. (óó)ó}#     (root plus epenthetic vowel)
+
+Thus, Selayarese listeners, unlike Huave listeners, cannot use stress to reliably demarcate words,
+and cannot disregard segmental material following the stress foot (indeed, such material may
+encode lexical contrast in Selayarese, as in bótoro ‘gamble’ vs. bótolo ‘bottle’). Rather than
+simply using stress to recover native language word structure, Selayarese listeners must attend to
+both stress and segmental structure.
+        The Selayarese adapters’ cavalier treatment of foreign stress may seem surprising given
+                                                  Ellen Broselow
+
+that stress in principle can function to signal lexical contrast in Selayarese; stress is the only cue
+distinguishing epenthetic from nonepenthetic roots (as in the minimal pair sáhala (from |sahal|)
+'profit' vs. sahála (from |sahala|) 'sea cucumber').9 But in fact, the functional load of this contrast
+is extremely low; this minimal pair may be the only one, and the vast majority of words of the
+shape ...V r,l,s V# (where the last two vowels are identical) are epenthetic forms, with
+antepenultimate stress.
+
+
+
+3.4. Interim summary
+
+         We have seen that in two languages with clearly demarcative, word-edge stress (Huave
+and K’ichee’), posttonic material tends to be truncated in loan adaptation. We trace this not to a
+ranking of production grammar constraints, but rather to the tendency of such words to be
+misparsed in the perception grammar. We now turn to another case of loanword adaptation that
+has been analyzed similarly to the Huave case, involving a high-ranking production grammar
+constraint mandating source stress. In Fijian, stress does serve as a signal of lexical contrast.
+However, stress falls predictably on long vowels, and I will argue that vowel length, not source
+stress, is what Fijian listeners attend to.
+
+4.       Adaptation of lexically contrastive stress
+4.1.     Stress and length: Production grammar analysis
+
+In the adaptation of loanwords in Fijian, analyzed by Schütz (1978, 1983, 1999) and Kenstowicz
+(2003), source stress is preserved not by unfaithfulness to segments but by unfaithfulness to
+vowel length. Here again I will argue that the preservation of stress is not an effect of
+MATCH STRESS, but rather a reflection of speakers’ misinterpretation of the source words, guided
+by their perception grammar.
+        In Fijian, as in Huave, main stress falls on a final heavy syllable, otherwise on the penult
+(Schütz 1978, 1983, 1999, 2004, Kenstowicz 2003, Hayes 1995). (Note, however, that Schütz
+(1999, page 146) argues that it is the rightmost foot of a phrase, rather than of each word, that is
+most prominent). We can therefore assume that Fijian, like Huave, has high-ranked
+TROCHAICFEET and ALIGN -R. Fijian differs from Huave in that where syllable contrasts in Huave
+reside in the presence or absence of a syllable coda, Fijian has only open syllables, but does
+employ a contrast between long and short vowels. Secondary stress in Fijian falls on all long
+vowels giving rise to contrasts such as that between (25b) and (25c). Strings of lighted syllables
+are organized into bisyllabic trochaic feet, as in (25d):
+
+
+
+
+         9
+         W e should expect listeners whose language uses stress in this way to be sensitive to foreign stress (as
+argued by Peperkamp and Dupoux 2002, Peperkamp 2004).
+(25)     Fijian Native Vocabulary (Schütz 1999, Kenstowicz 2003, Hayes 1995)10
+         a. ma(káwa)          ‘old’
+         b. (màða)(wá:)       ‘worthless’
+         c. (mà:)(ðáwa)       ‘week’
+         d. (kàmba)(tá-ka)    ‘climb with it’ (Hayes 1995, p. 144)
+
+The requirement of a bimoraic trochee at the right edge of a word forces shortening of a vowel in
+penultimate position in native vocabulary:
+
+(26)     a. (síâi) ‘exceed’ (from |si:âi|)
+         b. (sì:)(âí-ta) ‘exceed, trans.’ (Hayes 1995, p.145, from Dixon 1988)
+
+Note that lengthening the final vowel would be an alternative means of satisfying the right edge
+bimoraic foot requirement (*(si:)(âí:)). Although this would produce an acceptable word
+structure (cf. (ndrè:)(ndré:) ‘difficult’, Scott 1948, page 739), this option is not chosen; vowels
+are never lengthened in native vocabulary.
+         We do see lengthening, however, in loans from English. When English stress falls on the
+penultimate syllable, the English stressed vowel can serve as the head of a bisyllabic foot, as in
+(27a). But when stress falls on the final syllable, the stressed vowel must be lengthened to retain
+stress, as in (27b):
+
+(27)     English Stress Preservation
+         a.      pa(±áma)      ‘pajama’
+                 ta(âáko)      ‘tobacco’
+         b.      mba(zá:)      ‘bazaar’
+                 õgi(tá:)      ‘guitar’
+            (vs. (±éli)        ‘jelly’)
+
+When the English stress falls on the antepenultimate syllable, we see one of two patterns. Either
+the stressed vowel is lengthened, forming a foot on its own, as in (28a), or the final vowel is
+lengthened, making the antepenult the head of a bisyllabic foot, as in (28b):
+
+(28)     English Antepenultimate Stress:
+         a.     (kò:)(lóni)  ‘colony’
+                (tà:)(féta)  ‘taffeta’
+         b.     (kàli)(kó:)  ‘calico’
+                (pòli)(ó:)   ‘polio’
+
+Thus, the English main stress vowel always receives some stress, although the main stress of the
+
+
+         10
+            Much previous work employs Fijian orthography, in which c represents a voiced interdental fricative, j a
+palatal affricate (derived, at least historically, from |ti|), and v a voiced bilabial fricative, while b,d,q represent
+voiced prenasalized labial, dental, and velar stops, respectively. I have translated the orthography into phonetic
+transcription. The reader is referred to Schütz 1978 for discussion of the impact of loanwords on the segmental
+inventory of Fijian.
+                                                 Ellen Broselow
+
+Fijian adaptation may fall on an originally unstressed vowel (as in kò:lóni ‘colony’). We should
+note that (as pointed out by Schütz 1978, page 25) that not all tense English vowels are realized
+in Fijian as long (for example, ‘eagle’ is ikéli, not *ì:kéli and ‘deaconess’ is ndìkonési, not
+*ndì:konési). Thus, Fijian borrowers do not appear to identify the English tense/lax contrast as
+equivalent to their long/short contrast. In this they differ from Japanese borrowers, as illustrated
+by Japanese ±i:pu ‘cheap’ vs. ±ikiN ‘chicken’;11 this difference is no doubt related to the intimate
+relationship between vowel length and stress which holds in Fijian but not in Japanese.
+        Kenstowicz (2003) analyzes the Fijian adaptation patterns by a ranking reminiscent of
+that posited for Huave: TROCHAICFEET , ALIGN -R, and MAX STRESS (=Davidson & Noyer’s
+MATCH STRESS) dominate faithfulness constraints (in this case, DEP MORA : do not add a mora).
+The contrast between the patterns illustrated in (28a) and (28b) is accounted for by a constraint
+that minimizes the perceptual difference between source and output:
+
+(29)     PP-2: a short unstressed V may not be realized as a long stressed V.
+
+Kenstowicz assumes that the ‘colony’ pattern represents the default. However, the ‘calico’
+pattern can be derived with the same grammar, if we assume that Fijians analyze the final V of
+‘calico’ as underlyingly long, so that PP-2 allows it to be stressed:
+
+(30) Kenstowicz’s production grammar, ‘colony’
+ |koloni|                                TROCH FEET ,              MAX              DEP            PP-2
+                                         ALIGN -R                  STRESS           MORA
+ La.(kò:)(lóni)                                                                     *
+   b. (kòlo)(ní:)                                                                   *              *! (i 6 í:)
+   c. ko (lóni)                                                    *!
+
+(31) Kenstowicz’s production grammar, ‘calico’
+ |kaliko:|                               TROCH FEET ,              MAX              DEP            PP-2
+                                         ALIGN -R                  STRESS           MORA
+   a.(kà:)(líko)                                                                    *!
+ Lb.(kàli)(kó:)
+   c. ka (líko)                                                      *!
+
+     Kenstowicz’s analysis provides an elegant account of this complex array of data.
+However, it leaves unanswered some of the same sorts of questions we have been pondering:
+
+
+        11
+          This contrast is generally realized in English by some combination of spectral and durational cues,
+depending on the dialect (Escudero 2001, Escudero and Boersma 2004).
+1.     Given that lengthening is never attested in native vocabulary, what evidence would have
+       caused Fijians to rank MAX STRESS above DEP MORA , and DEP MORA over PP-2 (as
+       required to prevent the lengthening of unstressed vowels, choosing (e.g.) ta(âáko)
+       ‘tobacco’ over *(tá:)(âáko))?
+2.     Why do we find two different patterns for adaptation of proparoxytones like (kò:)(lóni)
+       ‘colony’ and (kàli)(kó:) ‘calico’?
+3.     Why do we find an asymmetry between Fijians’ interpretations of English pretonic tense
+       vowels/diphthongs and final tense vowels/diphthongs? Kenstowicz (2003) notes that an
+       English tense vowel before the English main stress is always realized as long (ò:méka
+       ‘omega’, tò:píto ‘torpedo’), while an English tense vowel in final position may be
+       realized as either long or short (kàlikó: vs. tò:píto, kò:lóni).
+
+4.2. Stress and length: Perception-oriented analysis
+
+         In Kenstowicz’s analysis, Fijians correctly perceive English stress, and their production
+grammar constraints are ranked so as to preserve the English main stress, by vowel lengthening if
+necessary. In contrast, Schütz (1978, 1983, 2004) proposes that “English words are interpreted in
+Fijian in terms of an important phonological unit: the accent group” (Schütz 1983, page 566).
+Both Kenstowicz and Schütz assume that lengthening is an effect of the imperative to maintain
+similarity between the stress patterns of the English and Fijian forms; Schütz (1983, page 570)
+argues that “For cases in which merely changing the placement of accent (and hence grouping)
+would not improve the prosodic fit, syllables can be lengthened to attract the accent.” My
+proposal is somewhat different: that Fijians actually misinterpret English stress as length in
+certain contexts–that is, in mapping the acoustic signal of English words onto the phoneme
+categories of their native language, Fijians use prominence patterns to decode phonemic length
+contrasts.
+         A Fijian vowel may be stressed either by virtue of occupying a prominence-conferring
+position (head of a bisyllabic foot), or by being long. Therefore, in Fijian, any vowel that is
+stressed and is not in a prominence-conferring position must be long. Because the grouping of
+syllables into feet is predictable (in shorter words-- but see section 4.3 for discussion of longer
+words), I assume that lexical representations for words of up to three syllables generally encode
+length contrasts rather than footing contrasts, which are assigned by the production grammar on
+the basis of the underlying arrangement of long and short vowels in a word.
+         On this account, Fijians hear a final stressed vowel (as in mbazá: ‘bazaar’) as long
+because in Fijian, the only way a final vowel can achieve greater prominence than the vowel
+preceding it is by virtue of being long. In contrast, a penultimate stressed vowel (as in taâáko
+‘tobacco’) need not be analyzed as long, because it occurs in a prominence-conferring position.
+The variation seen in stressed antepenultimate vowels (as in kàlikó: ‘calico’ vs. to:píto ‘torpedo’
+or kò:lóni ‘colony’) also makes sense: as Schütz (1983) points out, the Fijian grammar provides
+two possible routes to prominence in this position: as head of a bisyllabic foot (as in (kàli)(kó:))
+or as a long vowel (as in (kò:)(lóni)). I will argue below that the variation is not entirely random,
+but instead depends on subphonemic cues: inherent length differences in English vowels, which
+Fijian listeners interpret as signalling contrastive length differences.
+         The asymmetric behavior of pretonic and posttonic vowels also falls out from this
+account. While we see variation in the lengthening of final posttonic vowels (kàlikó: ‘calico’ vs.
+                                          Ellen Broselow
+
+to:píto ‘torpedo’), tense vowels immediately preceding the English main stressed syllable are
+consistently lengthened, as in ò:méka, while lax prestressed vowels, as in pa±áma, are not. Lax
+vowels, of course, are unstressed in English, while tense vowels in prestress position receive
+some degree of stress. Apparently, Fijian listeners interpret the different prominence patterns of
+words like ‘omega’ and ‘pajama’ in accord with the principles of Fijian grammar, which does not
+allow adjacent stressed monomoraic syllables (Schütz 1978, 1983, 2004). The secondary
+prominence on the initial syllable of ‘omega’ translates to the Fijian pattern illustrated by
+(mà:)(ðáwa) ‘week’; the last two (strong-weak) syllables form a bisyllabic trochaic foot, and the
+antepenultimate syllable receives stress by virtue of its long vowel. In contrast, the closest
+analogue to the prominence pattern of ‘pajama’, with a single stress in penultimate position, is
+found in words like ma(káwa) ‘old’.
+        We can formalize these observations in a set of perception grammar constraints which
+allow Fijian speakers to decode the acoustic cues of English to determine the prominence profile
+of a word and from that to recover the length contrasts which, in Fijian, determine foot structure.
+(For the moment, I will equate prominence with stress, though this will be refined shortly).
+These constraints are presumably precisely the same ones that Fijian speakers use to determine
+the lexical representations of unfamiliar native words, as they spell out the contexts in which
+prominence signals vowel length:
+
+(32)   Fijian Perceptual Mapping Constraints:
+       a. FINALVLONG : If the final V is more prominent than the preceding V, then assume it is
+       long.
+       b. CLASH 6LONG : If two prominent vowels are adjacent, assume the first V is long (that is,
+       a stress clash signals length).
+       c. *LONG V: Assume all vowels are short.
+
+Consider first contrasts in bisyllabic words like õgitá: ‘guitar’ vs. fíâa/âíâa ‘fever’. The input to
+the perception grammar is the source pronunciation, from which the listener must extract the
+phonological structure. I assume that Fijian listeners hear the main stress in the English surface
+form, indicated as a stress mark on the English phonetic form in square brackets, as a prominence
+peak, though not necessarily the only such peak in a word. The listener’s job is then to translate
+the acoustics of the English form, including its prominence pattern, into a representation that
+encodes the significant contrasts of the borrower’s language. In Fijian, this involves determining
+where stress is a function of position and where stress is a function of length. Again, I assume
+that mapping to the phonological and the lexical forms takes place in parallel; here I concentrate
+on the recovery of the length contrasts on which footing is parasitic.
+(33) inputs to perception grammar: ‘guitar’, ‘fever’
+ [gvtá]                                     FINALVLONG                 CLASH 6LONG         *LONG V
+   a. |õgi:ta:|                                                                            **!
+   b. |õgita|                                          *!
+   c. |õgi:ta|                                         *!                                  *
+ Ld. |õgita:|                                                                              *
+ [fívc] 6 /(fívc)/                          FINALVLONG                 CLASH 6LONG         *LONG V
+   a. |fi:âa:|                                                                             *!*
+ Lb. |fiâa|
+   c. |fi:âa|                                                                              *!
+   d. |fiâa:|                                                                              *!
+
+These same constraints will derive the contrast between proparoxytones with unstressed vs.
+stressed initial vowels; the perceived length of secondarily stressed vowels before the main
+stressed vowel is on this account a function of CLASH 6LONG .
+
+(34) inputs to perception grammar: English ‘pajama’, ‘omega’
+ [pc®ámc]                       FINALVLG                    CLASH 6LONG              *LONG V
+ L a. |pa±ama|
+    b. |pa:±ama|                                                                     *!
+    c. |pa±ama:|                                                                     *!
+    d. |pa:±ama:|                                                                    *!*
+ [òmégc]
+     a. |omeka|                                             *! (ò,é)
+ L b. |o:meka|                                                                       *
+     c. |omeka:|                                            *! (ò,é)                 *
+     d. |o:meka:|                                                                    **!
+
+         The constraints above also predict the final lengthening in ‘calico’ if we assume that
+listeners perceive the final full vowel of ‘calico’ as more prominent than the reduced penultimate
+vowel:
+                                            Ellen Broselow
+
+(35) input to perception grammar: English ‘calico’
+ [kælvko]                        FINALVLG              CLASH 6LONG               *LONG V
+    a. |kaliko|                  *! (o>v)
+    b. |ka:liko|                 *! (o>v)                                        *
+ L c. |kaliko:|                                                                  *
+    d. |ka:liko:|                                                                **!
+
+However, as noted above, not all words with stress patterns similar to ‘calico’ are adapted with
+final lengthening; alongside kàlikó: ‘calico’ we find kò:lóni ‘colony’. We can account for this
+variability in the interpretation of poststress vowels if we assume that the information Fijian
+speakers use in determining the relative prominence of vowels includes finer phonetic details,
+such as inherent length differences. Schütz’s (1978) corpus of Fijian loanwords contains fifteen
+words which are trisyllabic in English, have initial stress in English, and are realized as
+trisyllabic in Fijian (that is, do not undergo vowel insertion). Of these fourteen, five follow the
+‘colony’ pattern of initial lengthening (36a), seven follow the ‘calico’ pattern of final lengthening
+(36b), and three have no lengthening, thereby losing the original English stress (36c); the latter
+group perhaps represent borrowings through orthography:
+(36)    English Trisyllabic Proparoxytones
+a.      Fijian (ó:)(óó)
+        colony          (kò:)(lóni)
+        company         (kà:)(mbáni)
+        taffeta         (tà:)(féta)
+        Lucifer         (lù:)(séfa)
+        governor        (kò:)(âána)
+b.      Fijian (óó)(ó:)
+        calico          (kàli)(kó:)
+        polio           (pòli)(ó:)
+        radio           (rèti)(ó:)
+        editor          (èndi)(tá:)
+        battery         (mbàti)(rí:)
+        motorcar        (mòto)(ká:)
+        pinafore        (vìni)(vó:)
+c.      Fijian ó(óó)
+        cylinder        si(lída)
+        officer         o(âísa)
+        vinegar         âi(níõga), âi(níka)12
+
+Although the prosody of the adapted form is not entirely predictable, neither is the choice of
+strategy entirely random. First, final [o] is always long in the adapted form. There are good
+phonetic reasons why [o] might be more often interpreted as underlyingly long than final [i] (or
+[w]) or schwa. As is well established, English vowels exhibit inherent length differences
+independent of the increased length conferred by stress or intonation. Average durations for
+American English (using Crystal and House’s notation) are presented below:
+
+(37)    American English V durations (Crystal and House 1988):
+        ]w > au > ai > o > ] >  > a > ei > æ > f > u > i > ...
+        298 202 160 155 146 138 134 133 131 116 114 107...msec
+
+Thus, while ‘calico’ and ‘colony’ are similar in their prosodic structures, they differ in the
+inherent durations of their final vowels, with [o] on average nearly 50ms longer than [i] (even
+assuming a source pronunciation with a tense final [i]).
+        Evidence exists that inherent vowel length differences of this type, though not
+linguistically significant in English, may influence speakers of other languages. Peng and Ann
+(2001) have found, in Singapore English, Nigerian English, and the English of Spanish speakers,
+pronunciations like illusTRAtor, frusTRAted, exerCISE, CHInese, autoBIography. Based on a
+survey of such unfaithful stressings, they conclude that “If a multisyllabic word develops a
+primary stress placement distinct from L1, primary stress in L2 falls on the syllable whose vowel
+lasts the longest” (Peng and Ann 2001, page 14). Furthermore, Kiparsky (2004, page 22) argues
+
+
+        12
+            Schütz (1983, page 571) points out that “vowel lengthening is common for English words ending in -r” as
+in motoka: ‘motorcar’, but that some forms “have become standardized without compensatory lengthening, and as a
+result, the prosodic fit seems rather loose.”
+                                          Ellen Broselow
+
+that in Finnish, “the sonority hierarchy determines fixed secondary stress in loanwords”, with
+vowels of greater sonority attracting stress. The stress-sonority relationship obtains in various
+native language grammars as well; for example, in Gujarati (de Lacy 2002, 2006), the preference
+for penultimate stress (apwána ‘to give’) is overridden in favor of stressing a syllable containing
+[a] rather than some less sonorous vowel (pátini ‘wife’, hoijár ‘clever’). Although “loanwords
+often retain the source language’s stress in defiance of the stress rules” (de Lacy 2006, page 242),
+Kiparsky (2004) points out that some borrowed words, such as sinemá ‘cinema’, do change their
+stress pattern to accord with the sonority-stress relationship.
+         The lengthening of final [o] in words like ‘calico’ and the lack of lengthening of the
+prosodically similar final [i] in words like ‘colony’ can now be seen as an interpretation of
+relative prominence based in part on inherent duration of the English vowels, as compared to the
+expected duration of the corresponding Fijian vowel categories with which they are identified.
+The Fijian listeners’ task in interpreting the lexically significant features of an unfamiliar
+trisyllabic word is to determine which syllable, if any, contains a long vowel. The final vowel of
+‘calico’ is significantly longer than the penultimate vowel, but the final vowel of ‘colony’ is
+shorter–too close to its reduced neighbor to be identified as long. The initial vowel of ‘colony’,
+on the other hand, is inherently longer than the other two vowels of the word, and this length
+difference is further enhanced by the main stress on this vowel, making it a good candidate for
+analysis as an underlyingly long vowel. We can encode this pattern by means of one additional
+constraint in our perception grammar:
+
+(38)   ANTEPENULT VLONG : If the antepenultimate V is more prominent than the final or
+       penultimate vowel, then assume the antepenultimate V is long.
+
+The tableau below illustrates the mapping of the source words to underlying representations.
+bringing ANTEPENULT VLONG into play. In ‘calico’ (realized as (kàli)(kó:)) the initial vowel
+receives the durational enhancement of main stress, but the final vowel has the benefit of
+inherently greater length, making them comparable. In ‘colony’(realized as (kò:)(lóni)), on the
+other hand, the initial vowel has the advantage over the remaining vowels in the word both in
+terms of stress-based prominence and inherent duration. The initial vowel of ‘vinegar’ (realized
+as âi(níõga)), in contrast, is too short relative to the other vowels to be perceived as underlyingly
+long:
+(39) inputs to Fijian perception grammar: English proparoxytones ‘calico’, ‘colony’, ‘vinegar’
+ [kæ’lvko]                 FINALVLG          CLASH 6LONG           ANTEPVLG            *LONG V
+   a. |kaliko|              *! (o>v)                               /(æ .o)
+   b. |ka:liko|             *! (o>v)                                                    *
+ Lc. |kaliko:|                                                     /(æ .o)              *
+   d. |ka:liko:|                                                                        **!
+ [k]’lcni]
+   a. |koloni|                                                     *! (] >c,i)
+ L b.|ko:loni|                                                                         *
+    c. |koloni:|                                                   *! (] > c,i)        *
+    d. |ko:loni:|                                                                      **!
+ [vw’ncgc]
+ La. |âiniõga|
+   b. |âi:niõga|                                                                       *!
+   c. |âiniõga:|                                                                       *!
+   d. |âi:niõga:|                                                                      *!*
+
+While in principle any vowel of a trisyllabic form could be long in the underlying representation,
+the Fijian production grammar limits the positions in which length contrasts are manifested.
+Recall that long vowels are shortened in penultimate position when they precede a short vowel,
+as illustrated in (26) síâi ‘exceed’ (the underlying long vowel surfaces in sì:âí-ta ‘exceed,
+trans.’). Furthermore, Schütz (1999) notes a tendency for prepenultimate vowels to shorten
+where their shortening makes possible incorporation of the long syllable into a bimoraic foot.
+This shortening is illustrated in the form vakata:kila: ‘reveal it’ in which “the first vowel...retains
+its length only in a formal pronunciation” (Schütz 1999, page 140, note 4); “in faster speech” this
+form is pronounced as (vaka)(taki)(la:) (Schütz 1999, page 145). Thus even though the
+perception grammar constraints above make possible the analysis of a loanword on first
+encounter as V:-V-V:, such a structure would most likely be altered to V-V-V: in less formal
+speech, with this structure serving as the input to subsequent listeners.
+         The underlying representations that emerge from the perception grammar, submitted to
+the production grammar, will result in the footings below:
+                                          Ellen Broselow
+
+(40) inputs to Fijian production grammar: ‘calico’, ‘colony’, ‘vinegar’
+ |kaliko:|                     ALIGN -R       TROCHAICFEET ,         MAX MORA        PARSE SYLL
+                                              BIMORAIC
+ La. [(kàli)(kó:)]
+   b. [(kà)(líko:)]                           *!
+   c. [ka (líko:)]                            *!                                     *
+ |ko:loni|
+    a. [(kò:lo)(ní)]                          *!*
+ L b. [(kò:)(lóni)]
+    c. [ko:(lóni)]                                                                   *!
+ |âiniõga|
+   a. [(âìni)(õgá)]                           *!
+   b. [(âì)(níõga)]                           *!
+ Lc. [âi(níõga)]                                                                     *
+
+        In summary, the account above implements the generalization that upon encountering
+new words, the Fijian listener must determine the position of lexically contrastive length, by
+listening for prominence in positions where prominence is not automatic. The interpretation of
+greater-than-expected relative length as signaling prominence is reasonable in terms of the Fijian
+prosodic system; Scott (1948) describes stressed short vowels as “half long” (Scott 1948, page
+743). Once the English forms have been mapped to Fijian underlying representations encoding
+contrastive length distinctions, the production grammar of Fijian will assign stress precisely as it
+does with native vocabulary. In this account, there is no need to assume loan-specific constraints
+or rankings, since the task is the same for all new vocabulary, whether native or foreign: to map
+the acoustic signal onto an underlying representation which encodes lexically contrastive
+information, and to assign stress on the basis of that information.
+
+4.3. Comparison of production-oriented and perception-oriented accounts
+
+        We are now in a position to compare analyses of Fijian loanword adaptation. In
+Kenstowicz’s analysis, the Fijian listener correctly perceives the position of main stress in the
+English word. The production grammar limits the degree of perceptual deviance between
+underlying and phonetic forms–specifically, by triggering lengthening of the English main
+stressed vowel if necessary to preserve stress on that vowel. The constraints of the production
+grammar refer only to phonological categories such as long vs. short, stressed vs. unstressed, and
+participate in crucial ranking relationships that are motivated solely by the loanword data. The
+second analysis, in contrast, assumes that lengthening of vowels in loanwords is an effect of a
+perception grammar which allows listeners to recover from the acoustic signal those aspects of
+the native language that are contrastive (such as vowel length). The representation provided by
+the perception grammar then serves as input to the production grammar, which assigns stress
+according to Fijian principles. The constraints of the perception grammar may refer to fine-
+grained, non-categorical aspects of phonetic detail, such as relative vowel duration, predicting the
+possibility of variation in words with similar English stress patterns but different relative inherent
+vowel durations, as seen in kò:lóni ‘colony’ vs. kàlikó: ‘calico’ vs. âiníõga ‘vinegar’.
+         At this point one might reasonably object that if a production grammar can account for
+the Fijian patterns, there is no motivation for adding another component to the model. But in
+fact, much of the analysis in the preceding section would be necessary to Kenstowicz’s analysis
+as well. Given a proparoxytone with no underlying long vowels, Kenstowicz’s grammar would
+always derive the kò:lóni ‘colony’ pattern. In order to derive the kálikó: ‘calico’ pattern, it is
+crucial that Fijian listeners analyze the final vowel of ‘calico’ as long. Thus, along with the
+production constraint MAX STRESS, the production analysis must contain an implicit perceptual
+component that identifies certain source vowels as underlyingly long.
+         However, Kenstowicz provides two additional arguments for the account of Fijian stress
+based on a production grammar which preserves the English stress position. The first concerns
+words longer than three syllables. Kenstowicz discusses words like (tále)âi(sóni) ‘television’
+which, in contrast to native forms like li(námu)(nráu) ‘arm-2dual possessor’ (Hayes 1995, page
+144), allow two adjacent unstressed syllables. The tolerance of stress lapse is, Kenstowicz
+argues, in conflict with the native language grammar, which would favor the footing *ta
+(léâi)(sóni); therefore, the actual footing of ‘television’ must be explained as a function of the
+stress conserving constraint. This argument depends on the assumption that the native language
+grammar provides a default footing pattern for strings of light syllables, an assumption
+challenged by Schütz (1983), who argues that “Longer forms, especially those with an uneven
+number of syllables, offer the potential for alternate groupings, dependent upon accent
+placement” (Schütz 1983, page 569). Indeed, there seems to be consensus among writers on
+Fijian that stress patterns in native vocabulary containing strings of more than four light syllables
+are not predictable. For example, Hayes (1995), citing forms such as (mbáti)ka(síâi) ‘kind of
+fish’, characterizes Fijian as “a language with predictable primary stress but phonemic secondary
+stress” (Hayes 1995, page 144), and Kenstowicz (2003, page 9) concedes that “To the extent that
+these items are no longer decomposed in the minds of Fijian speakers, there is a precedent for the
+lapses observed in loans.” In other words, Fijian speakers cannot predict the footing pattern of
+new words consisting of more than three light syllables, and must therefore listen for cues to
+(lexically contrastive) footing in new words. It therefore seems reasonable that Fijian listeners
+hearing English ‘television’ would interpret the prosodic pattern of this word as indicating that
+the first two syllables form a bisyllabic foot. This is precisely the position of Schütz (1983),
+who argues that in longer borrowings, “We assume that one grouping sounds closer to the
+English model than the other” (Schütz 1983, page 569).
+         A second argument for Kenstowicz’s stress preservation analysis concerns the treatment
+of forms with epenthetic vowels. While trisyllabic forms with initial stress may undergo
+lengthening of either the initial or the final syllable (kò:lóni vs. kàlikó:), initially-stressed words
+                                                  Ellen Broselow
+
+that become trisyllabic through medial epenthesis invariably lengthen the final syllable:13
+
+(41)     Bisyllables with medial epenthesis
+         (wísi)(kì:)           ‘whiskey’
+         (ndòke)(tá:)          ‘doctor’
+         (sìsi)(tá:)           ‘sister’
+         (ráka)(âí:)           ‘rugby’
+
+Kenstowicz’s (2003) analysis of the data in (41) makes use of a high-ranked constraint *v’,
+which bans stress on epenthetic vowels. The most direct way to preserve stress on the initial
+vowel in a word like ‘whiskey’ would be to lengthen it. But lengthening the initial vowel would
+force the epenthetic vowel into the head of a bisyllabic foot, resulting in the nonoccurring
+realization *(wì:)(síki), which violates *v’. Therefore, Fijians choose the alternate route of
+lengthening the final vowel, which allows the initial syllable to be head of a bisyllabic foot:
+(wìsi)(kí:). Kenstowicz appeals to these facts as an argument against a perceptual account of
+lengthening, pointing out that “not all long vowels in Fijian adaptations can be attributed to a
+putative equation of stress = length at the level of the perceptual scan (Silverman 1992). We
+therefore conclude that the main stress of English is translated as a stress in Fijian rather than as a
+length that in turn attracts a stress”(Kenstowicz 2003, page 10).
+        Indeed, it seems highly unlikely that the final vowels of all forms with medial epenthesis
+would be consistently perceived as longer than the preceding (stressed) vowel, as required to
+explain the lengthening of final vowels in loanwords in the perception-based analysis outlined
+above. However, this final lengthening is precisely what would be expected if words like
+‘whiskey’ are perceived by the Fijian listener as trisyllabic forms. This is the proposal advanced
+by Schütz (1978), who argues that “each English consonant that is not followed by a vowel is
+interpreted as a Fijian CV syllable” (Schütz 1978, page 18). Schütz presents two arguments for
+this view. First, the unaccented syllable of a bisyllabic foot is typically reduced, even in native
+vocabulary, so that the phonetic distance between C and CV is fairly small: “certain syllables are
+so reduced that their phonetic manifestation is merely a lengthened consonant” (Schütz 1978,
+page 14). Second, the choice of epenthetic vowel is dependent on the preceding consonant, with
+a preference for [u] after labials and [i] after coronals. This suggests “that the release of a
+certain consonant in this class is perceived as a particular vowel” (Schütz 1978, page 22). In a
+production-oriented approach, the choice of epenthetic vowel is an effect of the mandate to
+minimize the perceptual distance between the (accurately perceived) English form and the output
+of the Fijian production grammar. The perception-oriented approach advocated here would view
+this instead as an effect of the interpretation of the English phonetics in terms of Fijian lexical
+categories. Because, for example, an unstressed syllable [si] may be realized (noncontrastively)
+as a lengthened [s] in Fijian, the Fijian listener maps the [s] of ‘whiskey’ to the sequence [si] in
+underlying representation. On this view, the final vowel of ‘whiskey’ is clearly longer than what
+is perceived as the preceding (highly reduced) vowel, and should be analyzed as long. Words
+
+
+         13
+          The sole exception to this generalization is si(líva) ‘silver’. Schütz’s 1978 corpus contains no parallel
+words with final stress in the source pronunciation.
+like ‘whiskey’ are thus similar to words like (kàli)(kó:) ‘calico’.
+        This proposal is consistent with the adaptation patterns of words like ‘beacon’ or ‘belt’,
+with an initial stressed syllable followed by either an unstressed vowel plus an epenthetic vowel,
+or by two epenthetic vowels. Such forms, by hypothesis, will be perceived as trisyllabic. We
+would expect the initial vowel to be perceived as clearly longer than the two following vowels
+(and therefore, by ANTEPENULT VLONG , as long), just as in words like (kò:)(lóni) ‘colony’.
+Indeed, words of this type always lengthen the initial vowel:
+
+(42)   Epenthetic forms with antepenultimate lengthening
+a.     (mbì:)(kéni)         ‘beacon’
+       (mbò:)(nísi)         ‘bonus’
+b.     (mbè:)(léti)         ‘belt’
+       (fì:)(límu)          ‘film’
+
+As Schütz (1990, page 121) points out, these words are subject to the same tendency toward
+shortening that affects prepenultimate vowels in native vocabulary; Schütz cites shortened forms
+mbeleti ‘belt’, bikeni ‘beacon’ and bonisi ‘bonus’.
+       In contrast to epenthetic forms with initial English stress, forms with a stressed vowel
+followed by a single epenthetic vowel do not lengthen the stressed vowel:
+
+(43)   Epenthetic forms without lengthening
+       mba (lúni)           ‘balloon’
+       õga (rá±i)           ‘garage’
+
+Again, these facts are consistent with the theory outlined above, since there is no perception
+grammar constraint that would force a penultimate vowel followed by a less prominent vowel to
+be analyzed as long.
+         At this point we should ask why Fijian speakers behave differently from Huave speakers,
+since in both languages the right edges of words are invariably aligned with the main stress foot.
+In other words, stress in Fijian serves to signal phonemic vowel length contrasts, but also to mark
+the edges of words. Why, then, do Fijians not attend to stress in the same way that Huave
+speakers do, assuming a word boundary at the right edge of the stress foot? One possible answer
+is that the languages are actually quite different in terms of the relationship between stress and
+word edge: while Huave appears to have one clearly perceptible stress per word, Fijian has a rich
+system of secondary stress which makes the strategy of projecting word edges after stressed
+syllables a risky one.
+                                         Ellen Broselow
+
+5.      Conclusion
+        One great virtue of the Optimality Theoretic approach is that it forces us to ask not only
+whether a grammar is consistent with a set of data, but also how that grammar could have been
+learned. In the cases discussed above, asking this question has led us to consider alternative
+analyses of the data which shed light on the division of labor between the production and
+perception modules of the grammar. We have now seen that loan adaptation in two languages,
+both of which have been described by means of a crucially ranked production grammar
+constraint demanding stress preservation in loanwords, is amenable to an alternative analysis in
+which the mapping from the acoustic signal to underlying phonological representations is
+mediated by the native language perception grammar. This mapping accounts for the facts of
+loanword stress using only rankings (of both perception and production grammar constraints) that
+are motivated by the native language data. In Huave, the preservation of source stress was
+argued to reflect the demarcative function of Huave stress, while source stress preservation in
+Fijian was argued to be a byproduct of the identification of stress with length.
+        Our larger conclusion is that what at first appeared to be unlearnable rankings in the
+production grammar are actually a reflection either of input frequency or of the workings of a
+perception grammar. This approach has several desirable consequences. First, we can eliminate
+loan-specific constraints like MATCH STRESS from the grammar. This in turn allows us to make
+much stronger predictions about the range of possible adaptation patterns. For example, a model
+that includes a MATCH STRESS constraint in the repertoire of production grammar constraints
+predicts that all combinations of native stress system and stress conservation in loanword
+adaptation should be logically possible, due to free ranking of MATCH STRESS. In contrast, a
+model such as the one proposed above ties the treatment of stress in loanwords to the function of
+stress in the native language. We would not expect, for example, to find a language that is like
+Huave in all respects except that it ranks MATCH STRESS low.
+        Much work obviously remains to be done in developing a complete model of native
+language perception/decoding processes, but language contact phonology provides a rich source
+of insights into this aspect of language.
+                                             References
+
+Alderete, John. 1999. Head dependence in stress-epenthesis interaction. In Ben Hermans and Marc
+        van Oostendorp (eds.), The derivational residue in phonological Optimality Theory, 29-50.
+        Amsterdam: John Benjamins.
+Altmann, Heidi. 2006. The perception and production of second language stress: a cross-linguistic
+        experimental study. Unpublished doctoral dissertation, University of Delaware.
+Basri, Hasan. 1997. Phonological nativization of loanwords in Selayarese. Ms., Stony Brook
+        University.
+Basri, Hasan. 1999. Phonological and syntactic reflections of morphological structure in
+        Selayarese. Unpublished doctoral dissertation, Stony Brook University.
+Basri, Hasan, Ellen Broselow, and Daniel Finer. 2000. AClitics and crisp edges in Makassarese,@ in
+        Catherine Kitto and Caroline Smallwood (eds.), Proceedings of the Sixth International
+        Meeting of the Austronesian Formal Linguistics Association, 25-36. Department of
+        Linguistics, University of Toronto.
+Boersma, Paul. 1998. Functional Phonology: formalizing the interactions between articulatory and
+        perceptual drives. The Hague: Holland Academic Graphics.
+Boersma, Paul. 2000. The OCP in the perception grammar. Unpublished ms., available from
+        Rutgers Optimality Archives ROA 435.
+Boersma, Paul and Bruce Hayes. 2001. Empirical tests of the Gradual Learning Algorithm.
+        Linguistic Inquiry 32, 1-44.
+Boersma, Paul and Clara Levelt. 2000. Gradual Constraint-Ranking Learning Algorithm predicts
+        acquisition order. Proceedings of the Child Language Research Forum 30, Stanford,
+        California, 229-237.
+Broselow, Ellen. 1993. Transfer and universals in second language epenthesis. In Susan Gass and
+        Larry Selinker, eds., Language Transfer in Language Learning, 71-86.
+        Amsterdam/Philadelphia: John Benjamins Publishing Company.
+Broselow, Ellen. 1999. Stress, epenthesis, and segment transformation in Selayarese loans. In Steve
+        S. Chang, Lily Liaw, and Josef Ruppenhofer (eds.) Proceedings of the Twenty-fifth Annual
+        Meeting of the Berkeley Linguistics Society, 311-325. Berkeley: Berkeley Linguistics
+        Society.
+Broselow, Ellen. 2004. Unmarked structures and emergent rankings in second language phonology.
+        International Journal of Bilingualism 8, 51-65.
+Broselow, Ellen, Su-I Chen, and Chilin Wang.1998. The emergence of the unmarked in second
+        language acquisition. Studies in Second Language Acquisition 20, 261-280.
+Broselow, Ellen and Zhang Xu. 2004. Differential difficulty in the acquisition of second language
+        phonology. International Journal of English Studies 4, 135-163.
+Crystal, Thomas and Arthur House (1988) The duration of American-English vowels: an overview.
+        Journal of Phonetics 16, 263-84.
+Cutler, Anne. 1988. The role of strong syllables in segmentation for lexical access. Journal of
+        Experimental Psychology: Human Perception and Performance 14, 113-121.
+Cutler, Anne and Sally Butterfield. 1992. Rhythmic cues to speech segmentation: evidence from
+        juncture misperception. Journal of Memory and Language 31, 218-236.
+Cutler, Anne, Katherine Demuth, and James McQueen. 2002. Universality versus language-
+        specificity in listening to running speech. Psychological Science 13, 258-262.
+                                          Ellen Broselow
+
+Davidson, Lisa. 2000. Hidden rankings in the final state of the English grammar. Proceedings
+        from HUMDRUM 1, Rutgers University.
+Davidson, Lisa and Rolf Noyer. 1996. Loan phonology in Huave: nativization and the ranking of
+        faithfulness constraints. In B. Agbayani and S. Tang, eds., WCCFL 15, 65-80. CSLI.
+de Lacy, Paul. 2002. The formal expression of markedness. Ph.D. dissertation, University of
+        Massachusetts at Amherst.
+de Lacy, Paul. 2006. Markedness: reduction and preservation in phonology. New York: Cambridge
+        University Press.
+Demuth, Katherine. 1996. The prosodic structure of early words. In James Morgan and Katherine
+        Demuth (eds.), Signal to syntax: bootstrapping from speech to grammar in early
+        acquisition, 171-184. Mahwah, N. J.: Lawrence Erlbaum Associates.
+Diebold, A. Richard. 1961. Incipient bilingualism. Language 37, 97-112.
+Dixon, R. M. W. 1988. A Grammar of Boumaa Fijian. Chicago: University of Chicago Press.
+Eckman, Fred. 1981. On the naturalness of interlanguage phonological rules. Language Learning
+        31, 195-216.
+Eddington, David. 2000. Spanish stress assignment within the analogical modeling of language.
+        Language 76, 92-109.
+Flege, James, and Richard Davidian. 1984. Transfer and developmental processes in adult foreign
+        language speech production. Applied Psycholinguistics 5, 323-347.
+Flege, James, Martin McCutcheon, and Steven Smith. 1987. The development of skill in producing
+        word final English stops. Journal of the Acoustical Society of America 82, 433-447.
+Fleischhacker, Heidi. 2000. Cluster-dependent epenthesis asymmetries.
+        http://www.linguistics.ucla.edu/people/grads/fleischhacker/uclawpl.pdf.
+Gnanadesikan, Amalia [1995] 2004. Markedness and faithfulness constraints in child phonology. In
+        René Kager, Joe Pater, and Wim Zonneveld (eds.) Constraints in Phonological Acquisition,
+        73-108. Cambridge: Cambridge University Press.
+Grijzenhout, Janet and Bertus van Rooij. 2001. Voicing phenomena in Zulu-English: an OT account
+        of the emergence of the unmarked in second language acquisition. SFB 282 Working
+        Papers, Nr. 119. (Revised version of Grijzenhout, Janet and Bertus van Rooij. 2000.
+        Second language phonology: acquisition through gradual constraint demotion. Ms,
+        Heinrich-Heine-Universität, Düsseldorf and Potchefstroomse Universiteit vir CHO, South
+        Africa.)
+Hayes, Bruce. 1995. Metrical Stress Theory: Principles and Case Studies. Chicago: University of
+        Chicago Press.
+Hayes, Bruce [1999] 2004. Phonological acquisition in Optimality Theory: the early stages. In René
+        Kager, Joe Pater, and Wim Zonneveld, eds., Constraints in Phonological Acquisition, 158-
+        203. Cambridge: Cambridge University Press.
+Isaacs, James and Lynsey Wolter. 2003. Vowel length, weight and stress in K’ichee’. Talk presented
+        at TREND, 2003. http://people.ucsc.edu/~isaacs-wolter-trend.pdf.
+Ito, Junko and Armin Mester. 1995. The core-periphery structure of the lexicon and constraints on
+        reranking. In Jill Beckman, Laura Dickey, and Suzanne Urbanczyk, eds., Papers in
+        Optimality Theory. University of Massachusetts Occasional Papers in Linguistics 18.
+        Amherst, MA: GLSA.
+Jusczyk, Peter. 1999. How infants begin to extract words from speech. Trends in Cognitive Science
+        3, 323-328.
+Kang, Yoonjung. 2003. Perceptual similarity in loanword adaptation: English post-vocalic word-
+        final stops to Korean. Phonology 20, 219-274.
+Kenstowicz, Michael. 2001. The role of perception in loanword phonology. Linguistique Africaine
+        20.
+Kenstowicz, Michael. 2003. Salience and similarity in loanword adaptation: a case study from
+        Fijian. ROA 609-0803.
+Kim, Yuni and Mischa Park-Doob. 2005. Fieldwork strategies for endangered dialects of Huave.
+        LSA poster session on Challenges and Issues in Endangered Language Fieldwork.
+        http://ist.socrates.berkeley.edu/~yuni/ling/lsa2005-huaveposter.pdf.
+Kiparsky, Paul. 2004. Universals constrain change; change results in typological generalizations.
+        Ms., www.stanford.edu/~kiparsky/Papers/cornell.pdf.
+Kreger, Glenn and Emily Stairs. 1981. Diccionario Huave de San Mateo Del Mar. Tlalpan, Mexico:
+        Instituto Lingüístico de Verano.
+Lassettre, Paul and Patricia Donegan. 1998. Perception in Optimality Theory: The frugality of the
+        base. In Benjamin Bergen, Madelaine Plauché, and Ashlee Bailey, eds., Proceedings of the
+        24th Annual Meeting of the Berkeley Linguistics Society, 346-355. Berkeley: Berkeley
+        Linguistics Society.
+Levelt, Clara and Ruben van de Vijver. [1998] 2004. Syllable types in cross-linguistic and
+        developmental grammars. In René Kager, Joe Pater, and Wim Zonneveld, eds., Constraints
+        in Phonological Acquisition, 204-218. Cambridge: Cambridge University Press.
+Mithun, Marianne and Hasan Basri. 1986. The phonology of Selayarese. Oceanic Linguistics 25,
+        210-252.
+Mohanan, K. P. and Tara Mohanan. 2003. Towards a theory of constraints in OT: emergence of the
+        not-so-unmarked in Malayalee English. ROA 601-0503.
+Norris, Dennis, James McQueen, Anne Cutler, and Sally Butterfield. 1997. The possible-word
+        constraint in the segmentation of continuous speech. Cognitive Psychology 34, 191-243.
+Pater, Joe 1998. From phonological typology to the development of receptive and productive
+        phonological competence: applications of minimal violation. Ms.
+Peng, Long and Jean Ann. 2001. Stress and duration in three varieties of English. World Englishes
+        20, 1-27.
+Peperkamp, Sharon. In press. A psycholinguistic theory of loanword adaptations. Proceedings of
+        the 30th Annual Meeting of the Berkeley Linguistics Society. Berkeley, CA: Berkeley
+        Linguistic Society.
+Peperkamp, Sharon. 2004. Lexical exception in stress systems: Arguments from early language
+        acquisition and adult speech perception. Language 80, 98-126.
+Peperkamp, Sharon and Emmanuel Dupoux. 2002. A typological study of stress ‘deafness’. In
+        Carlos Gussenhoven and Natasha Warner (eds.) Laboratory Phonology 7, 203-240. Berlin;
+        New York: Mouton de Gruyter.
+Prince, Alan and Bruce Tesar. [1999] 2004. Learning phonotactic distributions. In René Kager, Joe
+        Pater, and Wim Zonneveld, eds., Constraints in Phonological Acquisition, 245-291.
+        Cambridge: Cambridge University Press.
+Ross, Kai 1996. Floating phonotactics: variability in infixation and reduplication of Tagalog words.
+        Unpublished MA thesis, UCLA.
+                                            Ellen Broselow
+
+Scott, N. 1948. A study in the phonetics of Fijian. Bulletin of the School of Oriental and African
+        Studies 12, 737-752.
+Schütz, Albert. 1978. English loanwords in Fijian. In Albert Schütz, ed., Fijian language studies:
+        Borrowing and pidginization. Bulletin of the Fiji Museum No. 4, 1-50.
+Schütz, Albert. 1983. The accenting of English loanwords in Fijian. In Frederick Agard, Gerald
+        Kelley, Adam Makkai, and Valerie Makkai (eds.), Essays in honor of Charles F. Hockett,
+        565-572. Leiden: E.J. Brill.
+Schütz, Albert. 1990. Prosody and its effect on phonological processes in Fijian: a synchronic study.
+        In Jeremy Davidson, ed., Pacific Island Languages: Essays in Honour of G. B. Milner, 119-
+        127. Honolulu and London: University of Hawaii Press and School of Oriental and African
+        Studies, University of London.
+Schütz, Albert. 1999. Fijian accent. Oceanic Linguistics 38, 139-151.
+Schütz, Albert. 2004. English loan words in Fijian. In Jan Tent and Paul Geraghty (eds.),
+        Borrowing: a Pacific perspective, 253-294. Canberra: Pacific Linguistics.
+Silverman, Daniel. 1992. Multiple scansions in loanword phonology: evidence from Cantonese.
+        Phonology 9, 289-328.
+Steriade, Donca. 2001. The phonology of perceptibility effects: the P-map and its consequences for
+        constraint organization. http://web.mit.edu/linguistics/www/bibliography/steriade.html.
+Tesar, Bruce and Paul Smolensky. 1998. Learnability in Optimality Theory. Linguistic Inquiry 29,
+        229-268.
+Thiessen, Erik and Jenny Saffran. 2003. When cues collide: use of stress and statistical cues to word
+        boundaries by 7- to 9-month-old infants. Developmental Psychology 39, 706-716.
+Ussishkin, Adam and Andrew Wedel. 2003. Gestural motor programs and the nature of phonotactic
+        restrictions: evidence from loanword phonology. In Mimu Tsujimura and Gina Garding,
+        eds., Proceedings of WCCFL 22, 505-518. Somerville, MA: Cascadilla Press.
+Werker, Janet and Suzanne Curtin. 2005. PRIMIR: A developmental framework of infant speech
+        processing. Language Learning and Development 1, 197-234.
+Wissing, Daan and Wim Zonneveld. 996. Final devoicing as a robust phenomenon in second
+        language acquisition: Tswana, English and Afrikaans. South African Journal of Linguistics,
+        Supplement 34, 3-24.
+Yavas, Mehmet. 1994. Final stop devoicing in interlanguage. In Yavas, Mehmet, ed., First and
+        Second Language Phonology, 267-282. San Diego, CA: Singular.
+Yip, Moira. 1993. Cantonese loan word phonology and Optimality Theory. Journal of East Asian
+        Linguistics 2, 261-291.
+Xu, Zhang. 2003. The interlanguage phonology of Mandarin learners of English and the Gradual
+        Learning Algorithm. Ms., SUNY Stony Brook.
+
+Department of Linguistics
+Stony Brook University (SUNY at Stony Brook)
+Stony Brook NY 11794-4376
+
+ellen.broselow@stonybrook.edu
+

@@ -1,0 +1,365 @@
+                                     Welsh Vowel Mutation:
+                           A New Optimality Theoretic Analysis
+
+                                                     Boer Fu
+                                                    Dec 22 2017
+
+1         Introduction
+       Unlike its orthography that seems to tell a story otherwise, Welsh employs a full-size
+vowel inventory.
+
+                                               i                1       u
+
+                                                    e           @       o
+
+                                                                a
+                                                         Figure 1
+                                                                                           (Hannahs 2013)
+
+        A very interesting feature about Welsh is that @ can be appear as a stressed vowel,
+unlike in most languages where it is a reduced vowel in unstressed syllables. Stress in a
+Welsh word almost consistently falls on the penultimate syllable, with the exception of some
+English loanwords where the stress falls on the initial syllable (Hannahs 2013). A @ in the
+stressed penultimate syllable can sometimes alternate with other vowels when it is not penul-
+timate as a result of morphology. This process is called vowel mutation, which is the subject
+of this study.
+        A penultimate @ alternates with 1 in a non-penultimate syllable.
+
+     IPA Welsh English                                  IPA   Welsh         English
+ (1) b1:ð bydd ‘will.3sg’                     (2)       b@ðan byddan        ‘will.3pl’
+ (3) d1:ð dydd ‘day’                          (4)       d@ðja dyddiau       ‘days’
+            @ can also alternate with u.
+
+     IPA           Welsh English
+ (5) kum           cwm   ‘valley’ (6) k@mO1ð1                       cym-oedd   ‘valleys’
+ (7) kuX           cwch  ‘boat’   (8) k@XOd                         cychod     ‘boats’
+                                                                                           (Hannahs 2013)
+
+       Hannahs (2007, 2013) has analyzed the phenomenon using Optimality Theory (OT)
+on two occasions. But significant problems remain. The constraints are not naturally mo-
+tivated enough. And vowels that do not participate in vowel mutation are not thoroughly
+considered as candidates. Some of these vowels would actually win against the surface form
+    1
+        O is the long version of o in Hannahs’s transcription. It is equivalent to o:.
+
+                                                            1
+under Hannahs’s analysis. In this paper, I will address these issues and try to come up with
+a new OT analysis of Welsh vowel mutation.
+
+
+2    Underlying forms
+        Given the data in (1-8), it seems most natural to assume /1/ and /u/ to be the under-
+lying forms and that they reduce to [@] in a penultimate syllable. Putting aside the question
+why a vowel would choose to reduce at a stressed position rather than at an unstressed
+position for now, there is another problem to this hypothesis. There is a non-alternating 1.
+
+      IPA Welsh English        IPA                       Welsh     English
+ (9) p1r   pur  ‘pure’    (10) p1ro                      pur-o     ‘purify’
+ (11) b1:ð budd ‘benefit’ (12) b1ðjOn                    buddion   ‘benefits’
+                                                                                (Hannahs 2013)
+
+         If /1/ was the underlying form for both (1) [b1:ð] ‘will.3sg’ and (11) [b1:ð] ‘bene-
+fit’, there is no explanation as to why they would branch into (2) [b@ðan] ‘will.3pl’ and (12)
+[b1ðjOn] ‘benefits’ in the same phonological environment. The [@] and [1] in the penultimate
+syllables of (2) and (12) must have come from different underlying forms. And given (9-12)
+show [1] in both penultimate and non-penultimate syllables, it seems natural to establish /1/
+as the underlying forms for these words (Hannahs 2013). This leaves /@/ as the underlying
+forms for the [@] ∼ [1] alternation in (1-4) (Hannahs 2013).
+         As to the [u] ∼ [@] alternation in (5-8), they cannot also have /@/ as their underlying
+form for a similar reason as given above. If /@/ was the underlying form for both (6) [k@mO1ð]
+‘valleys’ and (4) [d@ðja] ‘days’, there is no way to explain why the /@/ would diverge into a
+[u] in (5) [kum] ‘valley’, and a [1] in (3) [d1:ð] ‘day’. Therefore the underlying form for (5-8)
+must be /u/ (Hannahs 2013). The underlying forms and their allophonic distribution are
+illustrated in Figure 2, where the underlying forms that participate in vowel mutation are
+circled.
+                                      Penult         Final
+                                          @              1
+                                          1              1
+                                          @              u
+                                              Figure 2
+
+       Given the opposing directions of change in Figure 2, it is clear to see that [@] ∼ [1]
+and [@] ∼ [u] alternations are two distinct phonological processes, motivated by different
+constraints.
+
+
+
+
+                                                 2
+3    /@/ → [1] change
+       A change from /@/ to [1] is somehow counterintuitive because it is far more common
+in world languages for a non-schwa vowel to reduce to @ at unstressed positions. Welsh defies
+the typology by allowing @ in stressed syllables. What is it about stress in Welsh that makes
+a stressed @ possible in the first place?
+       Although Welsh speakers consistently identify the penultimate syllable of a word as
+the position for primary stress, English speakers are found to point to the final syllable when
+asked to identify the primary stress for a Welsh word they hear (Williams 1983). The reason
+for the conflicting judgement between Welsh and English speakers is due to the fact that
+the speakers of the two languages employ different cues for stress. In English, stress is cued
+by duration (Williams 1983). But Welsh stress is mostly cued by pitch (Williams 1983).
+What leads English speakers to perceive a stress in the final syllable of a Welsh word is
+the acoustic evidence that Welsh final vowels are longer in duration than penultimate ones
+(Williams 1983).
+       So despite Welsh @’s superpower to be able to be stressed, it is still a reduced vowel in
+terms of duration. All the other six vowels in the inventory have a length contrast in mono-
+syllabic words, but @ can only be short in the same environment (Hannahs 2013). Observe
+(1-12), there is no @ in final syllables, because vowels in the final syllable are required to be
+long. To capture the generalization in constraints, I have:
+
+       *@:: @’s cannot be long. Assign a violation if there is a @: in the output.
+
+       *V/Final: Do not have short vowels in the final syllable of a word. Assign a
+                 violation if there is a short vowel in the final syllable of the output.
+
+        Note that almost all the polysyllabic words in (1-12) would violate *V/Final given
+their current transcriptions. But it seems to me the only reason why Hannahs (2013) decided
+to transcribe these final syllable vowels as short is because vowel length does not contrast in
+non-monosyllabic words. So it makes no sense to specify whether a vowel is short or long in
+the final syllable of a polysyllabic word. However, given the acoustic evidence that vowels in
+final syllables are long in duration (Williams 1983), I think the final vowels should be labeled
+as long to reflect the acoustic property. Similarly, penultimate stressed vowels ought to be
+specified as short. And a constraint to punish long vowels in penultimate syllables is:
+
+       *V:: Do not have long vowels. Assign a violation for each output long vowel.
+
+      A general *V: constraint is chosen over a context-specific *V:/Penult, because it is
+more naturally motivated and V/Final can counter its force (Flemming, p.c.).
+      A faithfulness constraint on length is also needed to retain the length information in
+monosyllabic words.
+
+       ID[Length]/Mono: Do not change the length of a vowel in a monosyllabic word.
+                        Assign a violation if there is a mismatch between the length
+                        of the input and output vowel of a monosyllabic word.
+
+                                               3
+        Note that *V/Final only applies to the final syllable of a polysyllabic word, not
+to the final and only syllable of a monosyllabic word.
+        To see the relative ranking between these four constraints, let us take a look at the
+tableau for (1) [b1:ð] ‘will.3sg’. I have decided that its input form involves a /@:/. Had it
+been a short /@/, and the constraint ranking has forced this short /@/ to change into a [1:],
+it would entail that all short /@/ input in monosyllabic words would have to surface as [1:].
+There would be no monosyllabic short [@] anywhere in the language.
+        *V/Final and ID[Length]/Mono need to be ranked above *V:. The former to
+ensure long vowels to surface in final syllables, the latter to maintain a length contrast in
+monosyllabic words. *@: does not have a strict ranking with any of the other three con-
+straints, but since it guards @:’s from ever surfacing in the language, one can only imagine
+that it is extremely highly ranked.
+        Additional input-output faithfulness constraints on vowel positions are also needed,
+the relevant one here being ID[High].
+
+           /b@:D/        *@:    *V/Final    ID[Length]/Mono          *V:        ID[High]
+              a. b@:D    ∗!                                           ∗
+              b. b@D
+           
+                                                       ∗!
+              c. b1:D                                                  ∗           ∗
+              d. b1D                                   ∗!                          ∗
+                                           Tableau 1
+
+       These rankings can also make sure (2) [b@ða:n] ‘will.3pl’ surfaces, seen in Tableau 2.
+
+         /b@:Dan/         *@:    *V/Final     ID[Length]/Mono          *V:       ID[High]
+            a. b@:Da:n
+         
+                          ∗!                                            ∗
+            b. b@Da:n
+            c. b1:Da:n                                                     ∗!
+            d. b1Da:n                                                                  ∗!
+                                           Tableau 2
+
+      In Hannahs’s OT analysis, a single constraint *@/Final is used to accomplish the
+same goal as my *@: and V/Final combined. *@/Final is quite an unnatural constraint,
+but both *@: and V/Final can find their root in phonetic evidence.
+
+
+4    /u/ → [@] change
+       Compared with /@/ → [1], /u/ → [@] is a much more common phonological process.
+One would expect it to be easier to motivate. However, this is not the case. There are two
+major puzzles surrounding this change.
+       First of all, why, out of all vowels, only /u/ changes into a [@] in penultimate syllables?
+If /u/→[@] is a process of reduction caused by the shortening of the vowel’s length, then why
+do not other vowels undergo the same change? In most other languages where reduction to
+@ is observed, it usually involves multiple input vowels, spread across the vowel space.
+
+                                                4
+        The second puzzle is why the target vowel of /u/ is [@]. Why does /u/ not change
+into [1] or [o]? For /u/ to change into [1], it only needs to change its backness. And for /u/
+to change into [o], it only needs to change its height. But for /u/ to change into [@], it needs
+to change both its backness and height, as seen in Figure 3.
+
+                                [−back]        [+back]
+                                    1            u        [+high]
+                                          ?
+
+                                   @              o       [−high]
+                                              Figure 3
+
+       This is where the OT analysis in Hannahs (2007, 2013) falls short of predicting the
+correct surface form. Neither [1] nor [o] is considered as a potential target vowel. The
+constraints and ranking are able to select [@] from the faithful candidate [u], repeated here
+in Tableau 3, but fail to do the same when all four candidates are considered (Tableau 4).
+(6) [kumOið] ‘valleys’ is used for illustration in the tableaux.
+
+     /kumOiD/         *@-Finalσ     *Central-Round           *u-NonFinalσ      Ident-IO
+        a. kumOiD
+     
+                                                                  ∗!
+        b. k@mOiD                                                                     ∗
+                                              Tableau 3
+
+       /kumOiD/      *@-Finalσ     *Central-Round           *u-NonFinalσ      Ident-IO
+        a. kumOiD                                                ∗!
+        b. k@mOiD                                                                 ∗
+        c. k1mOiD                                                                 ∗
+        d. komOiD                                                                 ∗
+                                              Tableau 4
+
+      To remedy this, I am writing a completely new set of constraints. First, to stop /u/
+from changing into [o], there is a markedness constraint against all back vowels in penulti-
+mate syllables.
+
+       *Back/Penult: Do not have back vowels in penultimate syllables. Assign a
+                     violation if there is a penultimate back vowel in the output.
+
+        Only having this markedness constraint runs into the trouble of not letting any un-
+derlying /o/ surface in penultimate syllables, when there is plenty of Welsh words that have
+penultimate [o]. Judging by the double feature change in /u/→[@], it seems to be the case
+that if a [+back] vowel wants to change into a [−back] vowel, it wants to change its value of
+[high] as well.
+
+
+
+
+                                                 5
+       ∆[High]/∆[Back]: If there is a change in the value of [back] from the input vowel
+                        to the output vowel, there must also be a change in its value
+                        of [high]. Assign a violation if an [αback, βhigh] vowel in the
+                        input corresponds to a [−αback, βhigh] vowel. In other words,
+                        assign a violation if a vowel has changed its backness but not
+                        its height.
+
+        ∆[High]/∆[Back] also helps ensure that /u/ does not change into [1]. But an-
+other problem arises. /o/ will now change into [1] to bypass a violation at *Back/Penult.
+This process needs to be stopped.
+        A general *1 is out of the question, because we want penultimate [1] to surface for the
+[1] ∼ [1] alternation in (9-12). Here, I borrow McCarthy’s New vs. Old markedness con-
+straint distinction. A markedness constraint labeled as Old assigns violations like regular
+markedness constraints. But a markedness constraint labeled as New only assigns a viola-
+tion to a form if it is not already present in the input (McCarthy 2003). In other words, only
+newly created forms can violate a New markedness constraint. Applying this distinction to
+*1, I write:
+
+       New*1: If the input vowel is not 1, do not have a 1 as the corresponding output.
+
+      And if the input form is already 1, a 1 candidate incurs no violation, as shown in
+Tableau 5.
+                           /p1o/         New*1 ID[High]
+                                a. p1ro:
+                                  b. p@ro:                 ∗!
+                                             Tableau 5
+       Both ∆[High]/∆[Back] and New*1 need to be ranked above *Back/Penult to
+stop all unwanted changes from happening. *Back/Penult in turn needs to be ranked
+above the relevant faithfulness constraints to compel /u/ to change into another vowel. In
+Tableaux 6 and 7, I am throwing in abstract penultimate back vowels as input forms to show
+how the ranking works. /u/ changes into [@] in Tableau 6, and /o/ remains [o] in Tableau 7.
+ Penult /u/      ∆[High]/∆[Back]        New*1         *Back/Penult    ID[Back]     ID[High]
+   a. u
+ 
+                                                           ∗!
+   b. @                                                                   ∗            ∗
+   c. 1                   ∗!                 ∗                            ∗
+   d. o                                                    ∗!                          ∗
+                                         Tableau 6
+ Penult /o/      ∆[High]/∆[Back]        New*1 *Back/Penult            ID[Back]     ID[High]
+   a. u                                            ∗                                  ∗!
+   b. @                   ∗!                                              ∗
+   c. 1
+ 
+                                             ∗!                           ∗            ∗
+   d. o                                                    ∗
+                                             Tableau 7
+
+                                                  6
+5    /u-u/ sequences
+       There is a complication to the [u] ∼ [@] alternation. Observe what happens when
+there are two /u/’s in neighboring syllables.
+
+      IPA        Welsh          English
+ (13) kumul      cwmwl          ‘cloud’
+ (14) k@m@la     cymylau        ‘clouds’
+                                                                            (Hannahs 2013)
+
+        In the current analysis, (13) would surface as *[k@mu:l] instead of [kumu:l]. When
+there are two underlying /u/’s next to each other, it seems to be the case that the first /u/
+will not change into a [@] unless the second /u/ undergo the change as well (Hannahs 2013).
+        Phenomena similar to this have been surveyed by Steriade (2016, draft). There, a
+Contour Correspondence constraint is introduced. The constraint stipulates that the
+relation between two neighboring segments in the input is preserved in the output, where an
+individual segment’s faithfulness or markedness might be end up being compromised (Ste-
+riade 2016, draft). Extending the principle to the behavior of /u-u/ sequences in Welsh, it
+can be said that maintaining the identity between the neighboring /u/’s in the output is
+prioritized over the need to root out a penultimate back vowel. And here is the constraint
+defined for Welsh.
+
+      ContourCorr[u]: If there are two /u/’s in neighboring syllables in the input,
+                      the two corresponding output vowels need to be identical as
+                      well. Assign a violation if a /u-u/ sequence in the input
+                      appears as [u-@] or [@-u] in the output.
+
+        ContourCorr[u] ranks above *Back/Pen to ensure identity preservation is pri-
+oritized over assigning markedness violations. In Tableau 8, a penultimate /u/ does not
+change into [@] when there is another /u/ in the final syllable. And in Tableau 9, an an-
+tepenultimate /u/ unusually surfaces as [@] when preceding another /u/ in the penultimate
+syllable. ContourCorr[u] is abbreviated as CnCorr for displaying purposes.
+
+
+ /kumul/         *@:   *V/Fin       ∆[Hi]/∆[Bk]   N*1   CnCorr     *Bk/Pen      ID[Bk]    ID[Hi]
+  a. kumu:l                                                            ∗
+    b. kum@l               ∗!                              ∗            ∗          ∗         ∗
+    c. k@mu:l                                              ∗!                      ∗         ∗
+    d. k@m@l               ∗!                                                      ∗∗       ∗∗
+    e. komo:l                                                           ∗                   ∗!∗
+                                           Tableau 8
+
+
+
+
+                                              7
+ /kumula/         *@:   *V/Fin    ∆[Hi]/∆[Bk]     N*1    CnCorr      *Bk/Pen     ID[Bk]    ID[Hi]
+    a. kumula:                                                          ∗!
+    b. kum@la:                                              ∗!                      ∗           ∗
+    c. k@mula:
+ 
+                                                            ∗!           ∗          ∗           ∗
+    d. k@m@la:                                                                      ∗∗          ∗∗
+    e. komola:                                                           ∗!                     ∗∗
+                                         Tableau 9
+
+
+6    Conclusion
+        In this paper, I have developed an OT analysis for Welsh vowel mutation. It is in
+some way an improvement on Hannahs’s OT analysis (2007, 2013) for two reasons. For the
+[@] ∼ [1] mutation, my analysis has constraints that better reflect the phonetic basis of the
+mutation. For the [@] ∼ [u] mutation, Hannahs fails to consider non-mutating vowels as
+candidates, which is remedied by my analysis. But at the same time, the natural motivation
+behind the [@] ∼ [u] mutation still evades me. All three markedness constraints employed,
+∆[High]/∆[Back], New*1, and *Back/Penult, are built for the data, and solely for the
+data. They are grotesquely pieced together just so each underlying form can map on to its
+surface form. Clearly, there remain many questions that need to be answered by further
+research on Welsh vowel mutation.
+
+
+
+
+    References
+    Hannahs, S. J. (2007). Welsh vowel mutation: an optimality analysis. Newcastle Working
+               Papers in Linguistics 12 & 13.
+    Hannahs, S. J. (2013). The phonology of Welsh. Oxford University Press.
+    McCarthy, J. J. (2003). Comparative markedness. Theoretical linguistics, 29 (1-2), 1-51.
+    Steriade, D. (2016). Across the board raising. Draft.
+    Williams, B. (1983). Stress in modern Welsh (Doctoral dissertation, University of Cam-
+               bridge).
+
+
+                                             8
+

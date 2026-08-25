@@ -1,0 +1,385 @@
+WALS Online -
+Chapter Weight-Sensitive Stress
+Home
+Features
+Chapters
+Languages
+References
+Authors
+Chapter Weight-Sensitive Stress
+by Rob Goedemans and Harry van der Hulst cite
+1. Syllable weight
+In this chapter we focus on systems in which the placement of stress is sensitive to properties of syllables. In general, if a stress system is sensitive to such properties, this means that syllables fall into two classes, called heavy and light syllables. The former are such that they “attract stress”, while the latter only get stress if they happen to be in the right location in the string of syllables. In some languages, syllable weight has been argued to form a scale with more than two values.
+We can distinguish between various types of stress-attracting properties, such as intrinsic properties involving vowel length, syllable closure or “prominence”, and extrinsic properties such as rhythmic strength and “diacritic weight” (or “accents”). In this chapter all these factors are lumped together. Chapter 16 offers a map that distinguishes the various kinds of syllable weight.
+2. Defining the values
+For Map 15A we distinguish eight types:
+Values of Map 15A. Weight-Sensitive Stress
+Go to map |
+| Value | Representation |
+|
+Left-edge: Stress is on the first or second syllable |
+37 |
+|
+Left-oriented: The third syllable is involved |
+2 |
+|
+Right-edge: Stress on ultimate or penultimate syllable |
+65 |
+|
+Right-oriented: The antepenultimate is involved |
+27 |
+|
+Unbounded: Stress can be anywhere in the word |
+54 |
+|
+Combined: Both Right-edge and unbounded |
+8 |
+|
+Not predictable |
+26 |
+|
+Fixed stress (no weight-sensitivity) |
+281 |
+Total: |
+500 |
+2.1. Bounded systems (type 1 through 4)
+Let us first consider cases in which the weight-parameter is positive, while the window is bounded (see Chapter 14, §4.1, on stress parameters). This gives us weight-sensitive, bounded systems. With stress being sensitive to a distinction between light and heavy syllables, four logical possibilities arise for a stress window. We exemplify this with reference to a right-edge bounded window (H and L stand for heavy and light syllable, respectively; boldface type means that stress falls on that syllable in all weight-sensitive languages):
+(1)
+a. (H L)]
+|
+b. (L H)]
+|
+c. (H H)]
+|
+d. (L L)]
+|
+The universal property of a weight-sensitive system is that in cases (1a) and (1b) stress will always be located on the heavy syllable. We immediately see why weight-sensitive systems are crucially different from the systems presented on Map 14A: there is no fixed stress location in every word, but rather, the location depends on the presence and location of heavy syllables within the stress window. For each given word the location is fully determined, but for the lexicon as a whole we see that various stress locations occur, given that words have different arrangements of heavy and light syllables. Languages with right-edge windows and weight-sensitivity may differ from each other with respect to (1c) and (1d). In case (1c) the stress will usually fall on the final (i.e. rightmost) heavy syllable so that, in general, it can be said that stress falls on the rightmost heavy syllable in the stress window. In (1d), the most usual case is to have stress on the left-hand light syllable (i.e. the familiar trochaic pattern). Overall then, the most common right-edge weight-sensitive system would be described in (2i). However, the other logical options for (1c) and (1d) are also possible, so that we get a total of four possible right-edge systems:
+(2)
+i.
+|
+a. (H L)]
+|
+b. (L H)]
+|
+c. (H H)]
+|
+d. (L L)] Epena Pedee
+|
+[38]
+|
+ii.
+|
+a. (H L)]
+|
+b. (L H)]
+|
+c. (H H)]
+|
+d. (L L)] Yapese
+|
+[5]
+|
+iii.
+|
+a. (H L)]
+|
+b. (L H)]
+|
+c. (H H)]
+|
+d. (L L)] Awadhi
+|
+[8]
+|
+iv.
+|
+a. (H L)]
+|
+b. (L H)]
+|
+c. (H H)]
+|
+d. (L L)] Aklanon
+|
+[4]
+|
+(The frequencies of these patterns in StressTyp are given between square brackets)
+The differences between the four types result, then, from different parameter settings for the two possible cases in which the window contains syllables of equal weight:
+(3)
+|
+(H H)
+|
+(L L)
+|
+|
+i.
+|
+right-headed
+|
+left-headed
+|
+(Right/Left)
+|
+ii.
+|
+right-headed
+|
+right-headed
+|
+(Right/Right)
+|
+iii.
+|
+left-headed
+|
+left-headed
+|
+(Left/Left)
+|
+iv.
+|
+left-headed
+|
+right-headed
+|
+(Left/Right)
+|
+Here are some illustrative examples for the most common pattern (i.e. 2i), from Epena Pedee (Choco; Colombia):
+(4) Epena Pedee (long vowels form heavy syllables (H))
+ˈwarra
+|
+‘son’
+|
+warˈraa
+|
+‘flavourful’
+|
+ˈtaama
+|
+‘snake’
+|
+teeˈsoo
+|
+‘long’
+|
+Interestingly, the same parameter-setting options create four possibilities at the left-edge window:
+(5)
+i.
+|
+a. [(H L)
+|
+b. [(L H)
+|
+c. [(H H)
+|
+d. [(L L) Ossetic
+|
+[9]
+|
+ii.
+|
+a. [(H L)
+|
+b. [(L H)
+|
+c. [(H H)
+|
+d. [(L L) Malayalam
+|
+[15]
+|
+iii.
+|
+a. [(H L)
+|
+b. [(L H)
+|
+c. [(H H)
+|
+d. [(L L) Archi
+|
+[1]
+|
+iv
+|
+a. [(H L)
+|
+b. [(L H)
+|
+c. [(H H)
+|
+d. [(L L) Capanahua
+|
+[3]
+|
+The following examples from Malayalam (Dravidian; southern India) illustrate the most common pattern (5ii):
+(6) Malayalam (long vowels make syllables heavy)
+ˈkutira
+|
+‘horse’
+|
+paʈˈʈaaɭakˌkaaran
+|
+‘soldier’
+|
+ˈkuuʈʈam
+|
+‘crowd’
+|
+ˈaakaaçam
+|
+‘sky’
+|
+In both Epena Pedee and Malayalam stress falls on the most peripheral heavy syllable, with the trochaic pattern being the choice if no heavy syllable is available within the window.
+StressTyp differentiates between all these possibilities. However, on Map 15A, all cases in which stress varies (depending on weight) between two locations within a window are grouped under the labels left-edge and right-edge. In other words, for each edge we have collapsed four logical possibilities.
+Next, we turn to the categories left-oriented and right-oriented, which differ from left-edge and right-edge in the following way. We use the term oriented when the possible stress locations include “the third syllable in”, i.e. the antepenultimate syllable for right-oriented systems, and the third syllable for left-oriented systems. Inclusion of these syllables occurs in several types of cases.
+First, the class of right-oriented languages includes cases in which non-peripherality is in play, as in classical Latin:
+(7) Classical Latin
+(H L) σ]
+|
+(L H) σ]
+|
+(H H) σ]
+|
+(L L) σ]
+|
+doˈmestikus
+|
+reˈfeːcit
+|
+perˈfectum
+|
+ˈanima
+|
+Secondly, also included in left-/right-oriented are languages that, in principle, assign primary stress in a two-syllable window (without extrametricality), but which include exceptional cases that have, for example, antepenultimate stress. Elsewhere, we have labeled such systems “broken window systems”. A typical case is a language that has bounded weight-sensitive stress, as described above, but where in the case of H(LL)] stress is assigned to the antepenultimate syllable. The heavy antepenultimate syllable “pulls” stress outside the stress window.
+Thirdly, it may happen that stress may occur on all three peripheral syllables dependent on weight factors. A clear case is Pirahã (Mura; Amazonas, Brazil), where “of the last three syllables in a word stress falls on the strongest”.
+Fourthly, we have also included languages where the location of stress can be ultimate, penultimate or antepenultimate not because intrinsic weight is relevant, but simply because stress is lexically marked within a peripheral or near-peripheral right-edge domain:
+(8)
+a.
+|
+σ ( σ σ )]
+|
+σ ( σ σ )]
+|
+( σ σ ) σ]
+|
+(We distinguish such language, which could have a weak preference for one of the locations, such as penultimate, from a language in which stress is clearly penultimate, while some exceptional cases of antepenultimate and ultimate are present; recall Chapter 14, §4.1.) The rationale behind including this type in the bounded weight-sensitive systems is that lexical marking of syllables functions much like intrinsic weight. A lexically marked syllable will attract the stress within a domain, just as a heavy syllable does. We therefore refer to lexical marking as diacritic weight (see Chapter 16).
+2.2. Unbounded systems (type 5)
+This category, also represented on Map 15A, has an unbounded stress window comprising the whole word (with the possible exclusion of a peripheral syllable). These systems are especially interesting because the location of stress is not restricted to syllables that are near the edge of the word. The reason why unbounded systems are represented together with weight-sensitive bounded cases is that, in StressTyp, all unbounded systems are weight-sensitive. In Chapter 14 we discussed the possibility of treating systems that we classified as weight-insensitive bounded systems, as unbounded in certain cases, notably if such systems lack any sign of rhythm. However, we have not done this in StressTyp. Hence, in StressTyp all unbounded systems are weight-sensitive.
+It turns out that the location of stress in unbounded systems follows exactly the same principles that determine stress location in bounded, weight-sensitive systems. Again there are four types, as shown in (9) (compare (3)). The only difference is that the domain can now contain more than two heavy syllables (since its size is not limited to the size of two syllables):
+(9)
+|
+All H
+|
+All L
+|
+|
+i.
+|
+right-headed
+|
+left-headed
+|
+(Right/Left)
+|
+ii.
+|
+right-headed
+|
+right-headed
+|
+(Right/Right)
+|
+iii.
+|
+left-headed
+|
+left-headed
+|
+(Left/Left)
+|
+iv.
+|
+left-headed
+|
+right-headed
+|
+(Left/Right)
+|
+A more “user-friendly” description of (9i) would be:
+(10)
+Stress the rightmost heavy syllable in the word, and if there are no heavy syllables, stress the first syllable
+|
+All four logical options are attested in the languages of the world:
+(11)
+i.
+|
+Right/Left:
+|
+Dongolese Nubian, Huasteco, Meadow Mari
+|
+[13]
+|
+ii.
+|
+Right/Right:
+|
+Aguacatec, Golin, Hill Mari
+|
+[10]
+|
+iii.
+|
+Left/Left:
+|
+Khalkha, Murik
+|
+[23]
+|
+iv.
+|
+Left/Right:
+|
+Komi-Permyak, Kwak’wala
+|
+[7]
+|
+Here are some examples from Dongolese Nubian:
+(12) Dongolese Nubian (both long vowels and codas render syllables heavy)
+ˈnosogid
+|
+‘old age’
+|
+kɛmiŋˈgaːr
+|
+‘all four’
+|
+aroˈgittɛl
+|
+'whitish'
+|
+On the map, all four types are collapsed into one category of unbounded systems.
+The combined category (type 6) contains languages in which the stress rule switches from bounded to unbounded (or vice versa) in predictable circumstances - for instance, when the bounded domain contains only light syllables, or in the assignment of secondary stress. The relevance of this category to the theory is high, but the discussion is too elaborate to present here.
+In the cases discussed so far, syllable weight is determined by the intrinsic properties of syllables. However, as with bounded systems, we also reckon with lexically marked weight, called “diacritic weight”. Consider the stress system of Russian. It is well known that in this language specific syllables in morphemes can be ‘marked’ for stress (such marks are often called “accents”). If a morphologically complex word ends up with more than one such mark, it will be the first that will receive primary stress. If, on the other hand, no syllable is accented because all morphemes that constitute the word are unaccented, the first syllable of the word is stressed. In other words, Russian is a Left/Left system just like Khalkha. The difference is that in Russian, syllable weight is diacritic, whereas in Khalkha it is phonological (involving vowel length).
+A final variable stress type is formed by the so-called count systems, in which stress depends on the number of syllables in the word. We find such a system in Malakmalak (Australian, Daly; Northern Territory, Australia), which stresses the first syllable if the number of syllables is even, otherwise the second (e.g. ˈmunanˌkara ‘beautiful’, anˈkiniˌyaŋka ‘you and I will stand’). We analyse this system by assigning trochaic feet from right to left (leaving one syllable “unfooted” in the odd-syllable case), and placing the main stress on the head of the foot that was assigned last. Thus, “heaviness” is determined by rhythmic strength, rather than by intrinsic or diacritic weight. Hence the introduction of a third type of weight: rhythmic weight. Both bounded and unbounded analyses of this type are possible (see van der Hulst 1996).
+2.3. Non-predictable stress (type 7)
+Map 15A covers a further category of stress systems that we have labeled not predictable. Here we group together languages that have no predictability in stress location whatsoever (cf. Burushaski, Spokane, Usan) and languages in which words are said to have several stresses (rhythmic or weight-determined), with none of these being primary, or all being equal. The former category would qualify as having free stress. Not to be confused with “free” stress would be a system like Russian (see above), which, while depending on lexically marked, diacritic weight, is not free; only the lexical marks (accents) per morpheme are said to be free. Cases that involve no primary stress, or equal stresses, are not uncommon. We find this for instance in St. Lawrence Island Yupik (Eskimo; Alaska) and in Hixkaryana (Carib; Brazil):
+(13) St. Lawrence Island Yupik
+ˈaːŋqaχˈɬaχɬaŋˈyuxtuq
+|
+‘he wants to make a big ball’
+|
+We suspect that in such cases additional study might still reveal the primacy of one of the stresses. The same may hold true for the free stress systems. Sometimes one location in a “no main stress” language is always stressed, while other locations, for instance, are only stressed when there is a long vowel, as in Gidabal (Pama-Nyungan; Queensland, Australia). In such cases StressTyp already treats the recurring stress as a primary one.
+3. Geographical distribution
+A number of general tendencies can be observed:
+The overall number of unbounded systems is higher than one might suspect and they occur all over the world (except in Austronesian languages).
+Austronesian languages show a clear preference for right-oriented stress, which added to their preference for penultimate fixed stress (Chapter 14) makes the right edge the clear preference all around.
+The northern part of Australia (with preference for fixed penultimate stress) lacks right-oriented cases.
+Australian languages as a whole show very little weight-sensitivity.
+European languages do not have left-oriented systems.
+African languages are only unbounded and right-oriented.
+Related map(s)
+Weight-Sensitive Stress
+References
+van der Hulst 1996
+×

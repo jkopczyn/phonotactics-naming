@@ -1,0 +1,758 @@
+                          Studia Linguistica Universitatis Iagellonicae Cracoviensis 131 (2014): 335–351
+                                                                      doi:10.4467/20834624SL.14.020.2727
+                                                                  www.ejournals.eu/Studia-Linguistica
+
+
+
+
+ANITA BUCZEK-ZAWIŁA
+Pedagogical University of Cracow
+abuczekzawila@gmail.com
+
+
+
+
+                     EVERYTHING MUST HAVE ITS PLACE:
+                          ACCENT ACCOMMODATION IN
+             MODERN WELSH BORROWINGS FROM ENGLISH
+
+Keywords: Welsh, word-stress, Loan phonology, adaptation
+
+
+Abstract
+Wales has been in contact with English since as early as the 12th century, with the
+English language exerting regular influence on the indigenous Welsh-language com-
+munity since the 14th century. Since the earlier times of contact the two languages have
+interacted, mutually influencing each other to a differing and asymmetrical degree.
+The situation is that of widespread bilingualism, with everyday occurrences of natural
+code-switching between Welsh and English, as well as constant interaction and mu-
+tual influence of one language on the other, most notably in the form of borrowing and
+substratum patterns, not restricted to the area of the lexical stock. Within the lexical
+sphere, however, there is evidence that borrowing from English must have begun as
+early as the Old English period; and that the process is in full force today. The older
+borrowings are not straightforwardly so noticeable or recognisable since they have
+undergone substantial phonological modification and adaptation to the native system.
+One of these modifications has concerned the suprasegmental feature of word stress.
+The adaptation of Anglicisms at the segmental level has been investigated before, while
+the accent accommodation to the Welsh pattern has only occasionally been noticed or
+commented upon. And yet, since there exists a systemic difference between the two
+phonological systems in that in English the word-accent is quantity sensitive, whereas
+in Welsh it is fixed (mostly) to the penultimate syllable, one can expect a considerable
+amount of conflicting points and necessary adjustments to eliminate illicit metrical
+structure. The research into these issues appears to suggest that we cannot talk about
+mechanical inclusion of borrowed words into the word-stress pattern functioning in
+Modern Welsh, as will hopefully become clear after examination of the data set. It is to
+such issues that this paper is going to be devoted.
+336                                                                      ANITA BUCZEK-ZAWIŁA
+
+
+0. Introduction
+
+Various types of emergent patterns are observed in loanword phonological adap-
+tation (Kang 2011), yet not much research so far has focused on the tendencies in
+suprasegmental adjustments. This paper is an attempt to partially fill this gap by
+investigating certain more or less universal preferences for adjusting loans in terms
+of (word) stress assignment.
+    As succinctly expressed by Phillips (2007: 168), present-day spoken Welsh is
+changing quickly, with several (cross-linguistically) salient features becoming re-
+cessive in the spoken language of the present day:
+   A closer look at Welsh, though, reveals grounds for concern: the language is changing,
+   becoming more like the English in which almost all Welsh speakers are now fluent. Lexi-
+   cal borrowing, calquing, perhaps incipient metatypy, mean that the language of many
+   younger speakers is very different to that of the oldest generation. (Phillips 2007: 154)
+
+This, obviously, is hardly a trend confined to the situation of Welsh speakers. Geo-
+graphical proximity to England and the fact that English is the language of daily
+communication for many Welshmen, provide continual occasions for contact situa-
+tions to occur. The result of these will be linguistic interference which may manifest
+itself in a number of ways, not the most infrequent of these being lexical interference,
+i.e. borrowing.
+    The most general definition of linguistic borrowing or interference is the ex-
+change of linguistic material between two varieties of speech, mainly two languages.
+Therefore, “loanwords” are items borrowed from one language to another, which,
+on the way from the donor language (DL) to the borrowing language (BL), undergo
+a series of adaptation processes to make them conform to the grammar of the host
+language. Thus, in the recipient language new items or patterns are introduced, such
+as previously have been attested only in the source system. As pointed out by Fisiak
+(1962: 286; after Haugen 1950), such novel formations may be taken over without
+any changes, in which case we deal with importations, or, alternatively, they may
+become nativised (or adapted) on several levels and thus we talk about substitutions.
+In the phonology, it means observing the structural constraints relating to all facets
+of phonological structure, and thus reflecting the segmental, phonotactic, supraseg-
+mental and the morphophonological restrictions of the borrower.
+     Calabrese (2009: 66–67) explains the idea more specifically, discussing two
+prevailing possibilities that present themselves when the conditions under which
+linguistic borrowing occurs lead to the formation of loanwords:
+   Assume two languages L1 and L2. L1 is the borrowing language and L2 the loaning
+   language. Borrowing occurs when a speaker of L1 “borrows” a word of L2 to fill
+   a lexical gap in L1. The reasons for this lexical gap can be many: lexical or cultural
+   innovation may introduce objects or actions that do not have a name in L1; certain
+   words may be felt as non-prestigious; certain words may simply be unknown, or just
+   forgotten; new words may be created for playing, etc. In any case, there are two pos-
+   sible scenarios in which borrowing occurs:
+Everything must have its place: Accent accommodation in…                                   337
+
+   I: A speaker is bilingual in L1 and L2. A lexical gap in L1 is filled in by taking a word
+       from L2. The speaker retrieves the underlying representation of this word from
+       his L2 mental dictionary […] and generates its surface representation while
+       speaking in L1. If the surface representation of the word is generated by using
+       the phonological, or more generally the grammatical, system of L2, the word is
+       pronounced as in L2. There are no adjustments or adaptations. However, if the
+       surface representation of the word is generated by using the phonological, or more
+       generally the grammatical, system of L1, the word undergoes adaptations and
+       adjustments. It is nativized according to the L1 grammar […].
+   II: The speaker of L1 does not know L2 well. He fills a lexical gap in L1 by learning the
+       relevant word from a L2 speaker. Once the learned word will be uttered publicly
+       or even silently, it becomes a loanword. Given that the speaker does not speak L2
+       well, the word will display adjustments and adaptations. There are two possible
+       hypotheses to account for this. The first is that during perception and learning,
+       the acoustic of the nonnative segments is faithfully mapped into abstract featural
+       representations […] then modified during production. The second is that the
+       modifications already occur during perception and learning.
+
+
+1. Phonological adaptation of borrowings
+From the very beginning of cross-linguistic studies, some authors have tried to
+sketch valid classifications for borrowing and interference. Some have come up with
+some fairly interesting proposals. One of the types involves classifications accord-
+ing to the level or sub-system of the target/receiving language affected by a given
+fact of interference (Gomez Capuz 1997: 82–83). Thus, Clyne (in Gomez Capuz 1997)
+proposes a typological classification of interference and distinguishes eight cat-
+egories in relation to the eight levels of any given linguistic system: phonological
+borrowing, prosodic borrowing, graphematic borrowing, morphemic borrowing
+(transference of bound morphemes), morphological borrowing (transference of
+morphological patterns), semantic borrowing (transference of sememes), lexical bor-
+rowing (transference of lexemes), and syntactic borrowing (transference of syntactic
+rules) (Gomez Capuz 1997: 83). Among these, phonetic or graphic phenomena are
+to be subordinated to “lexical borrowing” when they are found within loanwords.
+Independently, formal phonological borrowings originate following well-known
+features of a prestigious foreign language, usually English, in a third language, e.g.
+the pronunciation of lexical units from the Latin sine die is turned into [sain dai]
+by way of French broadcasting.
+    Several factors are at play when adaptation of borrowings from the donor to the
+host language takes place. The primary one of these is the different grammars that
+the two language systems may possess. Adjustments are also dependent on percep-
+tion, phonetic and local variation, level of bilingualism, orthography and the degree
+of integration. The pivotal variable appears to be the perception of borrowers, who
+try to mimic the original phonetic form of the loan. Yip (2006) proposes a model
+explaining loanword adaptation:
+338                                                                          ANITA BUCZEK-ZAWIŁA
+
+
+(1) L2 source → Perceptual module → Non-native percept → L1 grammar → Adapted
+    loanword
+
+Thus, the new, adapted phonological shape of the borrowed word depends largely
+on the grammar of the borrowing language, to the effect that the phonetic surface
+form is adjusted closer to original forms of the host rather than the donor language.
+The degree of substitution is also crucially related to the perceived prestige of the
+donor language, which, if considered prestigious, demands retaining the near-original
+sound structure, with mispronunciations or variant adaptations seen as symptoms
+of ignorance or excessive carelessness. Kertész (2006: 14) enumerates a series of
+non-phonological or even non-linguistic factors that can influence the processes
+of adaptation: the role of “spelling pronunciation” (especially when shifting from
+one alphabetic system to another), the frequency of use – how frequently an item
+is used or how long it has been around in the language; age groups; the linguistic
+environment of a speaker (individual mono- and bilingualism). Finally, she men-
+tions paradigm uniformity: sometimes the presence of a foreign feature in an element
+can only be explained by the behaviour of another member of its paradigm, which
+already contains the given feature (Kertész 2006: 14). This will prove a fruitful way of
+looking at some examples from the data set. The general regularity which transpires
+from the emergent patterns seems to be that “elements that are not part of the native
+core vocabulary (like mimetic words and borrowings) are allowed to violate certain
+constraints” (Kertész 2006: 12).
+    If indeed the role of perception in loanword phonology is acknowledged, it must
+be viewed as closely related to phonetic approximation or similarity between the
+outputs of the donor and the recipient languages, consisting in the replacement op-
+eration between the non-native element and the native one and defined as “acoustic
+proximity or proximity in the sense of fine-grained articulatory gestures” (Calabrese
+2009: 69). Consequently, illicit configurations, blocked by active constraints in the
+native language grammar, must be adjusted and repaired to produce an acceptable,
+nativised representation. At all times, it is doubtless that all aspects of non-native
+phonological structure, including segments, prosodic, and syllable phonotactics,
+are systematically distorted during speech perception and, therefore, need to be
+adjusted to native phonology (Calabrese 2009: 74).
+    Since this paper will not investigate all aspects of loanword phonology, let us
+concentrate on the pattern which appears to be most relevant to the cases of pro-
+sodic adaptation, namely what Kang (2011) refers to as the retreat to the unmarked.1
+Loans seem to behave differently according to their degree of integration into the
+borrowing language. Thus, in the case of what have been considered well-integrated
+loanwords, the L1 (host) grammar takes over nearly completely and consequently,
+the borrowings are transformed according to the phonological constraints of L1, with
+complete disregard to the items’ original segmental make-up, length of vowels or
+
+1
+    Kang enumerates five distinct categories of regular patterns emerging in segmental loanword
+    phonology. It is my belief that the fifth category, explained by recourse to UG default settings,
+    can be perceived as relevant for borrowed accent accommodation.
+Everything must have its place: Accent accommodation in…                                      339
+
+consonants or the stress pattern. Thus, loanwords are transformed into an unmarked
+form, which in the case of stress assignment is demonstrated by assuming a default
+accent assignment pattern, the most general occurring in the language. This may
+be at least partially explained, as Kang (2011) argues, not through the influence of
+native grammar, but rather by the default setting of Universal Grammar.
+
+
+2. Stress assignment in loanwords from English – a survey of tendencies
+
+Stress assignment in loanwords has been studied in a number of languages. These
+studies generally suggest two possible outcomes for loanword stress assignment
+(Friesner 2009: 121):
+(2) A. maintenance of stress position from the source language or
+    B. adaptation to the unmarked stress position of the recipient language.
+
+In terms of a core-periphery model mentioned earlier, these two possibilities could
+be restated as non-adaptation and full adaptation.
+    Friesner (2009: 122) points out, however, that even an impressionistic look at the
+data from numerous language pairs paints a more complex picture, some examples
+constitute neither non-adaptation, nor full adaptation; therefore other possible
+intervening factors must be decisive here, such as the presence of secondary stress
+in the source form, analogy with other lexical items in the native vocabulary of the
+recipient language, or the need for loanwords to adhere to morphological require-
+ments of the recipient language. When only Anglicisms are investigated, they appear
+to choose one or the other option of (2), at least in the languages of Europe. Görlach
+(2004: 6) remarks that where differences in word stress and intonation exist between
+English as the donor language and a borrowing language, they are likely to be carried
+over, affecting the pronunciation of loans and occasionally leading to phonological
+innovations in the borrowing language. A significant factor deciding for or against
+retaining the pronunciation close to the original is the age of the loan: in the cases
+examined older loans tend to be fully assimilated, while more recent (also more
+specialised) loanwords normally retain their (nearly) English pronunciation.
+    Before any investigation of the situation pertaining to accentual (non-)adaptation
+of items borrowed from English into Welsh is attempted, a brief commentary on the
+stress assignment patterns found in both systems is worth recalling.
+
+
+3. Accentual patterns of English (DL) and Welsh (BL)
+
+Without going into detailed explanations of the category of lexical word-accent,2
+let us observe first that the two interacting languages belong to separate typological
+
+2
+    See, however, a rather matter-of-fact presentation of these issues in Buczek-Zawiła (2012) and
+    works cited there.
+340                                                                     ANITA BUCZEK-ZAWIŁA
+
+
+groups as far as stress placement is effected: English is a variable stress language
+while Welsh is one of many fixed accent languages (Buczek-Zawiła 2012: 76–77).
+Apart from that, the two languages differ additionally in the application of phonetic
+clues to word stress.
+
+
+3.1. English variable stress
+ Van der Hulst, Hendriks and van de Weijer (1999: 426) describe the accent sys-
+ tem for underived words in English in the following fashion: “a quantity-sensitive
+ system with bounded, trochaic feet which are assigned from the right word edge,
+ final extrametrical syllables, and main accent on the head of the rightmost foot”.
+ The quantity-sensitive nature of English stress accent manifests itself in placing the
+ stress on the antepenultimate syllable when the penult is open and contains a simple
+ vocalic nucleus (a short vowel), whereas the penultimate syllable receives stress if
+ it is closed or contains a complex (long) vocalic melody. Stress assignment is then
+ sensitive to the weight of syllables within words. In derived words, on the other hand,
+ the major distinction bearing significance to accent assignment is the one between
+“accent-sensitive” (Class I) and “accent-neutral” (Class II) affixes. Accent-neutral
+ formatives do not influence the position of the stem accent, which, occasionally,
+ may fall outside the three-syllable window to which it is limited in simple words.
+ The rules of accentuation in derived words with accent-sensitive (class I) formatives
+ remain the same as those in underived words. In nominal compounds primary ac-
+ cent usually falls on the first member (van der Hulst et al. 1999: 427).
+     A brief summary of the facts outlined above is offered in van der Hulst (2010: 445):
+(3) Approximation of English stress placement
+      a. Primary stress falls on the final syllable in nouns if the vowel is long, in verbs
+         if the vowel is long or there are two closing consonants.
+      b. In other cases, stress falls on the penult if it contains a long vowel or coda.
+      c. Otherwise stress is antepenultimate.
+      d. Secondary stress falls on alternate syllables to the left (many exceptions).
+
+The phonetic exponents of word accent in English will be discussed in contrast with
+the non-corresponding details and facts about Welsh.
+
+
+3.2. Welsh fixed stress
+Almost all Celtic languages have a weight-insensitive stress assignment system: in the
+Brythonic group it is assigned from the right word-edge. In Welsh the primary stress
+in the clear majority of indigenous polysyllabic words falls normally on the penul-
+timate syllable and occasionally on the ultimate, and that happens regardless of the
+number of syllables a given word might have (Ball, Williams 2001: 166). Secondary
+stress in its turn, being merely the rhythmic prominence, occurs in words of four or
+more syllables as well as in trisyllabic ones provided they are end-stressed. A special
+feature of Welsh is though that the final syllable, and not the stressed penultimate,
+Everything must have its place: Accent accommodation in…                                   341
+
+is pronounced with the most prominent pitch movement and with much greater
+force (than in English, for instance) (van der Hulst et al. 1999: 445). This inher-
+ent high pitch, which is the effect of the post-apocopy accent shift during the Old
+Welsh period is also carried over into the Welsh accent of English. Technically, that
+involves a high degree of pitch movement on an unaccented post-tonic syllable as
+well as a high degree of independence as for pitch in unaccented, pre-tonic positions
+(Penhalluric 2004: 115).
+    As discussed in Ball and Williams (2001: 171), the higher pitch of the Welsh ultima
+has long been noted, even if auditorily at first. They provide a detailed account of
+how these auditory impressions have been confirmed instrumentally. It has also
+been underlined that not every final syllable is marked by the higher pitch, the
+regularity is nonetheless so prevalent that it deserves to be classified as more than
+a simple tendency. It is most regular in “the speech that occurs before the nuclear
+syllable” (Ball, Williams 2001: 172). A spectrogram shown below3 demonstrates the
+higher pitch on the final syllable of the word Morien (as in a phrase Morien Mor­gan
+o Aberpennar).
+
+
+
+
+    Fig. 1. A spectrogram of the word Morien (Ball, Williams 2001: 173)
+
+It has also been pointed out that this word pitch prominence occurs as if indepen-
+dently of sentence intonation, which is true also when the two, stress and pitch
+collocate.
+    Ball and Williams (2001: 169) enumerate the typical acoustic phenomena cor-
+related with word stress:
+(4) Stress involves:
+       a. Higher F0 on the stressed syllable
+       b. Greater duration of the stressed vowel
+       c. Greater loudness of the stressed vowel
+       d. More peripheral (less schwa-like) realization of the stressed vowel
+
+3
+    The spectrogram originally comes from the relatively recently-collected speech data base of
+    Williams, here it follows Ball and Williams (2001: 173).
+342                                                               ANITA BUCZEK-ZAWIŁA
+
+
+Of these, perceptibly only the vowel loudness can be used as a phonetic cue of
+stress in the accented penultima. F0 and stress perception do not seem to be cor-
+related in Welsh, and longer duration is not a reliable cue (Williams 1999: 323; Ball,
+Williams 2001: 169). An intonational rise or fall cannot be equated with stress –
+quite unlike in English. As Williams (1999: 323–324) writes: “A stressed penult may
+contain a vowel that is shorter and less intense than the following ultima, but in
+which stress is signaled by F0 configuration and segmental cues such as post-stress
+consonant lengthening.” This contrasts significantly with English, where the ac-
+cented vowel is typically both longer and more intense in comparison to unstressed
+syllables in the same word. The F0 peak in English would be a direct cue to stress,
+in Welsh, however, the peak is characteristically associated with the final syllable,
+giving a somewhat special status (Buczek-Zawiła 2003). Additionally, the situation
+becomes even more complex when we take into account the fact that the distribu-
+tion of schwa in Welsh does not accord with the distribution of stress: unlike in
+English, this vowel may appear in any syllable except for the final, while the stress
+accent typically resides in the penultimate. Thus, due to the aforementioned ac-
+cent shift, it is possible to find the schwa in the stressed syllable – hence the cue
+specified in (4d) is not applicable in this system. All this contributes to a situation
+where non-Welsh speakers frequently report their impressions of the final sylla-
+ble of words to be the most prominent and most salient (Buczek-Zawiła 2003), as
+a function of the characteristic pitch movement – a phenomenon which helps in
+resisting vowel reduction (Thomas 1997).
+    A number of studies have been devoted to the perception of word stress in Welsh.
+Their findings are extensively reported in both Williams (1999) and Ball, Wil-
+liams (2001). To summarise, the general claim is that the judgments given by na-
+tive speakers as to the location of word stress uniformly indicate the awareness
+of the speakers as to the penultimate site of accent, and that is despite sometimes
+shorter vowel duration, lower overall amplitude and a change in F0 of less than
+10 Hz during the vowel. It has even been remarked that such judgments are a com-
+paratively redundant procedure, as stress location in Welsh is fixed (Williams
+1999: 313). The situation seems to be different when monoglot English speakers are
+taken into considerations, as they probably tend to seek clues for syllable salience
+in Welsh that they would expect in English, and that means pitch. Consequently,
+studies investigating the perception of Welsh word stress by non-Welsh speakers
+report the perceived prominence of the final rather than the penultimate syllable.
+    To sum up, then: “In Welsh […] it is the phonetic realization of stress which
+is problematic rather than its phonological patterning: there are no phenomena
+such as the backshifting seen in English, since stress location is fixed” (Williams
+1999: 324).
+    All this underlines the difficult situation encountered when novel items are
+imported from English and attempts at assimilation in terms of stress accommo-
+dation are undertaken by speakers. The most natural locus of lexical stress ought
+to be the last but one syllable, with the concomitant higher pitch in the final sylla-
+ble. The problem is non-existent in monosyllables where the two elements, termed
+Everything must have its place: Accent accommodation in…                                     343
+
+“the stress element” and the “pitch element”4 (Ball, Williams 2001: 184) are both
+ retained. This becomes evident in those instances of borrowed items which, if they
+ do not adjust accentuation to the regular penultimate site, opt for retaining the
+ word stress in the final syllable, particularly so if that was the original location of
+ stress. In terms of the degree of prominence, even an unstressed final syllable may
+ have equal prominence to the accented penultima. Additionally, as pointed out by
+Thomas (1997: 72), in Welsh the long vowels are characteristically found only in
+ accented syllables, thus if length is preserved in the loan, it will naturally attract
+ word-stress. Sometimes, however, as will be illustrated in the section below, it is
+ the antepenultimate or even pre-antepenultimate syllable which receives or rather
+ retains the accent. This is peculiar indeed, bearing in mind that prosodically these
+ are the weakest positions in the word.
+
+
+4. Stress accommodation in borrowing from English (DL) into Modern Welsh (BL)
+
+Parry-Williams (1923: 11) points out that for a long time there was “a very strong
+feeling of prejudice against borrowing indiscriminately, arising probably from a jeal-
+ous spirit which in some cases had its origin in the firm belief in the necessity or
+desirability of preserving the homogeneity of the Welsh vocabulary.” As he puts it,
+Welsh has to be seen as a language which is phonetically conservative,5 thus trying
+to maintain its segmental and other phonological properties. And yet, it seems rather
+natural that a foreign word that has been borrowed orally from a living language
+preserves, as far as possible, its original characteristic sound-value. However, various
+influences may be at work, and when the “foreigner” finds himself in Rome, he is
+generally obliged to “do as the Romans do”. Segmental trans-phonemicisation aside,
+in terms of prosodic features, it is the usual practice to make the word conform to the
+standard “rules” of change that are manifest in the borrowing language and which
+also comprise older loans. That would call for fixing the position of the stress ac-
+cent on the site where indigenous Welsh words have it. Any unusual positions of
+accent may bring about changes like the suppression of unaccented (post-tonic
+or pre-tonic) vowels (Parry-Williams 1923: 15). The remainder of this paper will try
+to examine whether such regularities are substantiated by the data.
+
+
+4.1. The data set
+The data analysed here come from a compilation of Welsh loanwords from English, or
+sometimes, those that entered Welsh via English.6 The compilation was prepared
+on the basis of several sources, the primary of which was a dictionary study, where
+
+4
+    Buczek-Zawiła (2003) proposes here names such as ”prosodic” versus “melodic” stress.
+5
+    In contrast to English, which had shown a progressive tendency, which is astounding in its
+    changes and in the swiftness of them.
+6
+    See Fisiak (1962) for an elaboration on the role of what he calls complex contact situations.
+344                                                                ANITA BUCZEK-ZAWIŁA
+
+
+the abnormal position of word stress is marked. The dictionary in question is the
+Geiriadur yr Academi: The Welsh Academy English-Welsh Dictionary, edited by
+Griffiths and Jones and published by the University of Wales Press in 1995. Addi-
+tionally, a survey of web-available papers or power-point presentations investigat-
+ing the phenomena bordering on the code-switching / borrowing distinction was
+performed, supplemented by several sessions of listening to popular programs on
+Radio Cymru (the Welsh-medium radio station), to experientially verify certain ob-
+servations. Altogether over 360 items were noted down for analysis and preliminary
+classification. Needless to say, only some are presented here for illustration of the
+observed effects. Only the words which are currently used – yet in various spheres
+of life – are included for investigation. The selection is intended to allow verifica-
+tion of actual pronunciations by native speakers, not the prescribed or desirable
+ones. Thus, we deal here with what can be regarded as “popular” borrowings, i.e.
+those that appeared orally in the colloquial language. Additionally, the “learned
+forms” and the easily distinguishable “international loans” (frequently disguised as
+neoclassical formations) have been included, since all of these may have interacted
+to produce the actual surface forms. The exclusion affected also calques (or loan
+translations), as these will naturally assume the pattern characteristic of the target
+language (railway ⇒ rheilffordd (rail = rheil + way = ffordd; political correctness ⇒
+cywirdeb gwleidyddol – correct = cywir; correctness = cywirdeb etc.). Consequently,
+the analysis is based on the relatively frequently occurring forms (both everyday
+and scientific) that remain after the exclusions from the larger data set.
+
+
+4.2. Classificatory parameters
+Winter-Froemel (2008: 158) distinguishes two separate parameters on which loan-
+words can vary, as a result obtaining two criteria in which each of them may take
+two values:
+(5) A. conformity vs. non-conformity to the source language (SL) form (importation
+       vs. substitution),
+    B. conformity vs. non-conformity to the target language (TL) system.
+
+The criteria defined both in (5A) and in (5B) inherently involve language comparison,
+as they rely on a comparison between SL forms and their TL equivalents, how-
+ever, in (5B) a more language-internal perspective is adopted. This distinction ap-
+pears to be valid when considering loanword integration in the BL. Winter-Froemel
+(2008: 159) proposes the following definition:
+(6) The term ‘LOANWORD INTEGRATION’ is employed to designate processes by
+    which a borrowed word is changed from the SL form in order to obtain structures
+    that conform to the TL.
+
+It is our understanding (but also hers – judging by her examples) that stress accom-
+modation is one of these integrative processes. As a result, the specific position where
+the word stress is located may constitute grounds for classifying the borrowing along
+Everything must have its place: Accent accommodation in…                              345
+
+the lines determined by the criteria and may be seen as a more or less integrative
+element. Let us investigate specific examples beginning with colloquially used items.
+
+
+4.3. Non-conformity with the Source Language = Conformity to the Target Language
+In Welsh polysyllables the main stress falls as a rule on the last syllable but one. If one
+or more syllables are suffixed, the rule still applies, i.e. the stress will automatically
+move forward to the last syllable but one, e.g. ffenestr / ffenestri (pl.) ‘window(s)’.
+In general, the flow of borrowings from the dominant language into its neighbour
+is considerable. The older borrowings are not so straightforwardly recognisable as
+they have undergone phonological adaptation and modification, which in a good
+number of cases involves the stress accent accommodation to the primary stress
+site in Welsh (Table 1 – the accented vowel is underlined), which happens in the
+greater number of recorded items, i.e. in over 80 cases:
+
+                            English                           Welsh
+                           (various)                       (penultimate)
+             gooseberry                        gwsberi
+             post-office                       postoffis
+             school-master                     sgwlmaster
+             certificate                       stifficet
+             courtesy                          cwrtesi
+             Rosemary                          Rosmari
+             present                           presennol
+
+   Table 1. Stress-shift to the penultimate site: underived loans
+
+Accent accommodation is sometimes accompanied with vowel syncopy in the post-
+tonic unaccented syllable or apocopy of the unaccented ultima, so that the accent
+may or may not retain its original site but in Welsh it becomes penultimate (Table 2:
+12 examples out of 32 noted):
+
+                            English                 Welsh (penultimate;
+                           (various)              after syncopy or apocopy)
+             astronomy                         astronmi
+             destiny                           tesni
+             diamond                           deimwnt
+             camomile                          camil
+             liqurice                          licris
+             labourer                          labrer
+             society                           seiat
+             wheelbarrow                       whilber
+346                                                                       ANITA BUCZEK-ZAWIŁA
+
+
+                          English                   Welsh (penultimate;
+                         (various)                after syncopy or apocopy)
+             liberty                           libart
+             pendulum                          pendil
+             chocolate                         siocled
+
+   Table 2. Penultimate stress after syncopy or apocopy of the English source
+
+Penultimate stress shift turned out to be productive in forms based on roots (mono-
+or polysyllabic) adopted from English which in Welsh yield morphologically complex
+items (Table 3: 12 instances of a very frequent pattern, over 120 forms noted):
+
+                          English                            Welsh
+                         (various)                        (penultimate)
+             canvass                           canfasio
+             comfortable                       cyffyrddus
+             conjure                           consurio
+             melodious                         melodaidd
+             melodies                          melodïau
+             tourism                           twristaeth
+             personal                          personol
+             mesmerise                         mesmereiddio
+             measure                           mesuro
+             bargain                           bargeinio
+             kidnap                            cidnapio
+             manage                            manejio
+
+   Table 3. Stress-shift to the penultimate site: derived items
+
+Very recent incorporations, sometimes termed “unlisted English” with Welsh deriva-
+tional terminations, and bordering on the code-switches – borrowings status, behave
+accordingly, as manifested in the following examples (the stressed vowel again un-
+derlined). Notice that here no translation needs to be provided: text-io, download-io,
+brief-io, quote-io, bulk-io, ban-io, bypass-io, crush-o, trample-o, base-io, connect-io,
+babysit-io, decorate-io, concentrate-io, mollycoddle-io, power-walk-io.
+    The principle of having borrowed items stressed penultimately applies also to
+words that are not so commonly used, namely in the medical or general scientific
+vocabulary. Let us quote only a few examples. Strangely enough, while they all
+are accented on the last but one syllable, it is also the stressed syllable in the SL:
+catalepsy > catalepsia; cerebellum > serebelwm (serebela, pl.); ophthalmology >
+offtalmoleg; penicillin > penisilin; astrology > astroleg. Many of the words in this
+group, however, will have stress transferred from English.
+Everything must have its place: Accent accommodation in…                                         347
+
+    The overwhelming predominance of the penultimate stress pattern is evident,
+also, in the fact that all borrowed nouns (save two cases) when pluralised, shift stress
+to this default site, regardless of where it was placed in the process of borrowing.7
+It thus appears that when a word enters the morphological (inflectional or deriva-
+tional) component of Modern Welsh it becomes phonologically native and fully
+regularised. It seems, therefore, justified to classify all the above-cited examples
+as instances of stress-accent substitution, understood in line with Winter-Froemel
+(2008: 158) as cases exhibiting non-conformity to the SL while clearly observing the
+principle of TL accentuation.
+
+
+4.4. Conformity with Source Language = Non-conformity to the Target Language
+Non-conformity to the Target Language default stress-pattern can take several forms.
+Watkins (1974) notices that although in present-day spoken Welsh the word-stress is
+normally penultimate, when listening to a Welsh conversation one is struck by the
+frequency of pre-penultimate or final accent. The latter is not perceived as a fun-
+damentally foreign phenomenon, since it is indigenous to Welsh, brought about by
+vowel coalescence or by compounding. Adding to this the special prosodic status
+that the final syllable enjoys, it is hardly surprising that when borrowing end-stressed
+words from English, most naturally the position of stress-accent is not modified.
+Table 4 therefore contains a selection (12 out of 42 items recorded) of those borrow-
+ings which have kept their original final syllable stress pattern:
+
+                            English                               Welsh
+               appeal                               apêl
+               brigade                              brigâd
+               persuasion                           perswâd
+               parade                               pared
+               promenade                            promenad
+               farewell                             ffarwel, or ffarwel
+               Jubilee                              jiwbilî
+               cassette                             cysêt
+               Sedate                               sidêt
+               cocoon                               cocŵn
+               Delete                               dileu
+               umbrella8                            ymbarel
+
+    Table 4. Faithfulness to the SL end-stress
+
+7
+    The illustration of this regularization will be exemplified in the following section, for the sake
+    of convenience.
+8
+    This example is somewhat problematic in that the Welsh form indeed has the final stress,
+    whereas the English source does not. This demonstrates the constraint in Welsh which bans
+348                                                                         ANITA BUCZEK-ZAWIŁA
+
+
+As for the ante-penultimate stress, it is characteristic of numerous borrowed English
+items with which especially conversational Welsh is loaded (Watkins 1974). It can
+safely be assumed that the stressed pre-penultimate position, prosodically the weak-
+est in Welsh (Williams 1999), is a clear indication of the foreign provenience of an
+item. The antepenultimate (or generally pre- penultimate) accent may be the effect
+of importing the original stress site from the SL, here English (Table 5, for nouns,
+the plural is also shown):
+
+             English                          Welsh                        Welsh plural
+        (ante-penultimate)              (ante-penultimate)                  (for nouns)
+    elephant                       eliffant                         eliffantod
+    insuline                       inswlin                          —
+    labyrinth                      labyrinth                        labyrinthau
+    melody                         melodi                           melodïau
+    parachute                      parasiwt                         parasiwtiau
+    paradox                        paradocs                         paradocsau
+    paragraph                      paragraff                        paragraffau
+    pension                        pensiwn                          pensiynau
+    calendar                       calendr    9
+                                                                    calendrau
+    interlude                      anterliwt                        anterliwtau
+    telegraph                      telegraff                        telegraffau
+    telegraphy                     telegraffi                       —
+    telegram                       telegram                         telegramau
+    testament                      testament                        testamentau
+    tournament                     twrnamaint                       twrnameintiau
+    codicil                        codisil                          codisilau
+    ambulance                      ambiwlans                        ambiwlansys
+    academy                        academi                          academiau
+    bungalow                       byngalo                          byngalos
+    catapult                       catapwlt                         catapyltiau
+    hooligan                       hwligan                          hwliganiaid
+    curriculum                     cwricwlwm                        —
+    isolate                        eisoletio                        —
+
+      Table 5. Ante-penultimate stress importation from English to Welsh
+
+     the schwa vowel from occurring in the ultima, thus the English final schwa was simply elided
+     in the assimilation process.
+9
+     This item appears to contain an illicit cluster word-finally, however, in actual pronunciation
+     a svarabhakti vowel breaks up the -dr- cluster, so in fact the word is trisyllabic.
+Everything must have its place: Accent accommodation in…                          349
+
+The group of words which characteristically import the accent position from the
+source language comprises the so-called “neo-classical compounds”. Twelve typi-
+cal examples are provided below (Table 6), the pattern appears in at least 46 other
+recorded forms. When pluralised, they, again, shift the stress to the last but one
+syllable (save in one case listed at the bottom of the table).
+
+             English                        Welsh                 Welsh plural
+ centimeter                     sentimedr                  sentimedrau
+ centigramme                    sentigram                  sentigrammau
+ deciliter                      desilitr                   desilitrau
+ dictaphone                     dictaffon                  dicatffonau
+ Plantagenet                    Plantagenet                —
+ Methodist                      Methodist                  Methodistaidd
+ Mercury                        Mercwri                    —
+ metropolis                     metropolis                 metropolisau
+ radiogram                      radiogram                  —
+ radiotherapy                   radiotherapi               —
+ tubectomy                      tiwbiectomi                tiwbiectomïau
+ cerebrum                       serebrwm                   serebra (!)
+
+   Table 6. Neo-classical importations from English
+
+Fisiak (1962: 293) argues that such formations constitute a separate category insofar
+as they are created on either a Greek or Latinate basis in English and then, adopted
+by a number of languages, with possible slight semantic interference and regular
+adaptation mechanisms. He also believes that these need nonetheless to be treated
+as loans from English, as they mostly either originated in English and entered the
+target language through direct contact or were first adopted by English, and then,
+transmitted to other systems, indirectly. This is the line of reasoning we are willing
+to adopt here as well and, thus, treat these neo-classicalisms as importations from
+or via English.
+
+
+5. Concluding observations
+The general picture painted here may give the impression that, in their majority,
+borrowing from English, either colloquial or scientific, do not agree with the target
+language typical, penultimate accentuation. This, however, would be a false impres-
+sion. While the selection presented here comprises a wide range of items, they are
+mostly those which have been borrowed comparatively recently. Thus, the result of
+the study has been the presentation of a compelling number of non-penultimate
+(non-native) stresses. Older loans are phonologically fully integrated and have already
+350                                                                    ANITA BUCZEK-ZAWIŁA
+
+
+conformed to Target Language phonology (also in terms of participating in the
+mutation system). With time, both the older and the newer items may also further
+integrate prosodically into the Welsh system. This prosodic integration is already
+happening as far as the higher pitch resident in the final syllable is concerned: even
+the most recent, “unlisted” items exhibit a higher pitch characteristic of native Welsh
+(as well as Welsh-English) words in addition to the acquired penultimate word stress.
+It is to be expected that the stress on the last but one syllable will be the predomi-
+nant pattern in the newly adopted items as well, even if not immediately. This is
+an observation which has actually been reported in certain preliminary studies or
+seminars in Bangor University.
+    This paper does not seek to establish absolute truths or explain the current
+mechanism. Let it, therefore, serve as a contribution to observations concerned
+with the interaction between two neighbouring languages on the phonological level.
+Undoubtedly, the antepenultimate stress importation (preservation) comes as an
+effect caused by the dominance of the English language over the Welsh language
+usage. It is a situation that has existed in Wales for centuries and continues until
+today. It is, nonetheless, hoped that this modest attempt will provide some insightful
+observations and prospect for further research.
+
+
+Bibliography
+Ball M.J., Williams B. 2001. Welsh Phonetics. Lampeter.
+Buczek-Zawiła A. 2003. Akcent prozodyczny i melodyczny a specjalny status ostatniej sylaby
+    w walijskim. – Roczniki Humanistyczne KUL 51: 17–26.
+Buczek-Zawiła A. 2012. L1- and L2- induced misanalysis of the sound and suprasegmental
+    structure in English of philology students. – Annales Universitatis Paedagogicae Cra-
+    coviensis. Studia Anglica 2: 72–91.
+Calabrese A. 2009. Perception, production and acoustic inputs in loanword phonology. –
+    Calabrese A., Wetzels W.L. (eds.). Loan phonology. Amsterdam: 59–113.
+Fisiak J. 1962. Złożony kontakt językowy w procesie zapożyczania z języka angielskiego
+    do pol­skiego. – Język Polski 42.4: 286–294.
+Friesner M.L. 2009. The adaptation of Romanian loanwords from Turkish and French. –
+    Calabrese A., Wetzels W.L. (eds.). Loan phonology. Amsterdam: 115–129.
+Gómez Capuz J. 1997. Towards a typological classification of linguistic borrowing (illustrated
+    with Anglicisms in Romance languages). – Revista Alicantina de Estudios Ingleses 10:
+    81–94.
+Görlach M. 2004. Introduction. – Görlach M. (ed.). English in Europe. Oxford: 1–12.
+Griffiths B., Jones D.G. (eds.). 1995. Geiriadur yr Academi: The Welsh Academy English-Welsh
+    Dictionary. Cardiff.
+Hulst H. van der. 2010. Word accent systems in the languages of Europe. – Goedemas R.,
+    Hulst H. van der, Zanten E. van (eds.). Word accent structure in the languages of the
+    world. Berlin, New York: 429–508.
+Hulst H. van der, Hendriks B., Weijer J. van de 1999. A survey of word prosodic systems of
+    European languages. – Hulst H. van der (ed.). Word prosodic systems in the languages
+    of Europe. Berlin, New York: 425–475.
+Everything must have its place: Accent accommodation in…                                 351
+
+Kang Y. 2011. Loanword phonology. – Oostendorp M. van, Ewen C., Hume E., Rice K. (eds.).
+   The Blackwell companion to phonology. [vol. IV]. Oxford: 2258–2282.
+Kertész Z. 2006. Approaches to the phonological analysis of loanword adaptation. – The
+   Even Yearbook 7: 1–15.
+Parry-Williams T.H. 1923. The English element in Welsh: A study of the English loan-words
+   in Welsh. London.
+Penhallurick R. 2004. Welsh English: phonology. – Kortman B., Schneider E.W. (eds.).
+   A handbook of varieties of English. [vol.1: Phonology]. Berlin, New York: 98–112.
+Phillips J.D. 2007. Rare and endangered linguistic subsystems in Celtic and Welsh. – Lin-
+   guistica e Filologia 24: 153–182.
+Thomas A.R. 1997. The Welshness of Welsh English: A Survey paper. – Tristram H.L.C. (ed.).
+   The Celtic Englishes. Heilderberg: 55–85.
+Watkins T.R. 1974. The accent in Old Welsh – its quality and development. – Bulletin of the
+   Board of Celtic Studies 25: 1–11.
+Williams B. 1999. The phonetic manifestation of word stress in Welsh. – Dogil G, Williams B.,
+   Hulst H. van der (eds.). Word prosodic systems in the languages of Europe. Berlin, New
+   York: 311–344.
+Winter-Froemel E. 2008. Studying loanwords and loanword integration: Two criteria of
+   conformity. – Newcastle Working Papers in Linguistics 14: 156–176.
+Yip M. 2006. The symbiosis between perception and grammar in loanword phonology. –
+   Lingua 116: 950–975.
+

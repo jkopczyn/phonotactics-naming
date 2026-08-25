@@ -1,0 +1,2060 @@
+                                                 Chapter 15
+Segmental Phonetics and Phonology in Caucasian languages
+                                                  Gašper Beguš
+                                        University of California, Berkeley
+
+
+
+Preprint of: Gašper Beguš. 2021. Segmental Phonetics and Phonology in Caucasian languages.
+In The Oxford Handbook of Languages of the Caucasus, edited by Maria Polinsky. Oxford:
+Oxford University Press.
+
+DOI: 10.1093/oxfordhb/9780190690694.013.18
+
+Print Publication Date: Feb 2021 Online Publication Date: Jan 20211
+
+                                                       Abstract
+
+This chapter surveys the major topics of Caucasian segmental phonetics and phonology, focusing on
+topics with broader implications for general phonetic and phonological theory. The author first presents
+an acoustic phonetic analysis of phonemic inventories in the three Caucasian families, including both a
+review of recent instrumental data on the topic as well as a new analysis of new and existing experimental
+acoustic data. This analysis focuses on four primary topics: obstruents with different laryngeal features,
+typologically unusual segments, small vocalic inventories, and pharyngealization. The new acoustic data
+from a nonce-word experiment in Georgian and Megrelian offer evidence that aspiration in voiceless
+stops gradually, yet significantly shortens if another voiceless stop precedes the relevant one in a given
+word. The second part reviews analyses of Caucasian phonotactics, primarily of South Caucasian
+consonant clusters that play a crucial role in discussions on production versus perception in phonology.
+The chapter concludes with a collection of phonological alternations that have potential for future
+research on phonology. Keywords: acoustic phonetics, naturalness in phonology, laryngeal features,
+consonant clusters, ejective obstruents, double articulation, aspiration dissimilation, pharyngeals,
+epiglottals, final voicing
+
+
+
+
+1 Introduction
+
+        Prominent characteristic features of Caucasian phonetics and phonology include large
+consonantal versus small vocalic inventories in Northwest Caucasian, extensive consonant
+clusters in Kartvelian, and a large number of phonemes with place of articulation in the postvelar
+parts of the vocal tract in Nakh-Dagestanian languages. Common to all three families is a three-
+way distinction in the laryngeal features of obstruents, with ejectives. It is safe to say that beyond
+these focal topics, segmental phonetics and phonology of Caucasian languages are severely
+
+1
+    Note: some references might be missing in the preprint version. Check the published version.
+
+
+
+                                                           1
+understudied. This chapter outlines the main characteristics of Caucasian phonetics and
+phonology, focusing on processes that bear broader implications for general phonetics and
+phonological theory. Many questions remain open even for the well-studied aspects of Caucasian
+phonology. For some of these questions, I have tried to offer new insights using experimental
+data or relying on the reanalysis of existing data. I also discuss areas of Caucasian phonology
+that went largely unnoticed but have a potential to provide insightful and broadly relevant results
+with future research.
+
+        Many treatments of Caucasian phonology include detailed qualitative phonetic
+descriptions, but quantitative acoustic analyses are still lacking with few notable exceptions.
+Section 15.2 is an attempt to fill this gap; for each language family, I discuss aspects of
+consonantal and vocalic inventories that are most relevant for phonetic typology. I present new
+experimental data for Kartvelian: for the purpose of examining various aspects of Kartvelian
+phonetics, I conducted an experiment involving 12 speakers of Georgian and one speaker of
+Megrelian (Beguš, 2017). For Northwest Caucasian, I present new analyses of already existing
+data, primarily from Ubykh. Section 15.3 describes the phonotactics and focuses on Kartvelian
+consonant clusters, which have played a major role in the development of articulatory
+approaches to phonology and are relevant for the discussion on the role of production versus
+perception in phonology. The final section discusses active phonological alternations in
+Caucasian languages, including those that received due attention as well as those that went
+largely unnoticed but are directly relevant to the focal topics of current phonological theories.
+
+2 Phonemic Inventories
+
+      This section discusses the main characteristics of phonemic inventories across the three
+Caucasian families.
+
+2.1 Kartvelian
+
+Phonemic inventories are relatively similar across the Kartvelian family. The main
+characteristics are the symmetrical five-vowel system, a three-way opposition in laryngeal
+features of stops and affricates (voiced, voiceless aspirated, ejective), and a two-way opposition
+of laryngeal features in fricatives (voiced and voiceless). The common places of articulation are
+bilabial, labio-dental, dental or alveolar, post-alveolar, velar, uvular, and glottal. Table 15.1
+illustrates the Kartvelian languages’ consonantal inventories; Table 15.2 presents their vocalic
+inventories.
+
+/χ, ʁ/ are usually analyzed as velar /x, ɣ/ in Georgian and Megrelian. /q/ is limited to Svan, /j/ is
+absent from Georgian, /ʔ/ is a phoneme only in Megrelian. Svan has /w/ instead of /v/; in Laz and
+Megrelian, [v] and [w] are allophonic.
+
+Table 1: Combined consonantal inventories of Kartvelian languages.
+            bilab.     l.-d.    dent.       alveo.       post-al.   pal.     vel.      uvul.   glot.
+stop      ph, b, p’            th, d, t’                                   kh, ɡ, k’   q, q’    ʔ
+affricate                                  ʦ, dz, ʦ’ ʧ, ʤ, ʧ’
+
+
+                                                     2
+nasal            m                                      n
+tap/trill                                              ɾ/r
+fricative                     v                       s, z        ʃ, ʒ                     χ, ʁ   h
+approx.                                                                         j
+lat. appr.                                             l
+Note: Harris (1991c); Lacroix (2009); Shosted and Chikovani (2006); and Tuite (1998a).
+
+
+
+                                   front                      central               back
+          high      i (y)                                                            u
+     open-mid                     ɛ (œ)                           ə                  ɔ
+           low                     (æ)                            ɑ
+Table 2: Kartvelian vowel inventories
+Note: Holisky (1991), Shosted and Chikovani (2006).
+
+
+
+
+       Georgian and Laz have five-vowel systems: /a, ɛ, ɔ, i, u/. Schwa is limited to Svan and
+Megrelian; in the latter, it is a back vowel (Harris, 1991c). Svan also has fronted /æ, oe, y/ (by
+umlaut; Tuite, 1998a). Upper Bal and Lashx dialects of Svan additionally feature length
+opposition (Tuite, 1998a).
+
+        Laryngeal features are among the better-studied aspects of Kartvelian phonetics. This is
+not surprising, as Georgian is one of the more accessible languages with ejective stops. This
+section focuses on laryngeal features and discusses crucial information that these languages bring
+for phonetic typology of ejective obstruents. I survey previous acoustic data on laryngeal features
+in Kartvelian and provide new information on phonetics of ejective, aspirated, and voiced stops
+in Georgian.
+
+2.1.1 Phonation
+
+The exact phonetic realization of the three laryngeal features is subject to extensive debate. The
+first point of dispute is the phonetic realization of Georgian voiced series of stops
+(Butskhrikidze, 2002; Grawunder, Simpson, & Khalilov, 2010; Shosted & Chikovani, 2006;
+Vicenik, 2010; Wysocki, 2004). While most studies analyze the voiced series as phonetically
+voiced (Shosted & Chikovani, 2006; Vicenik, 2010), recurring proposals have claimed that
+voiced stops are phonetically voiceless and characterize the Georgian voiced/voiceless-aspirated
+opposition in terms of presence or absence of aspiration (Robins & Waterson, 1952; Wysocki,
+2004).
+
+        Wysocki (2004) argues in favor of the latter approach and bases their claims on the fact
+that the phonetic realization of most absolute initial voiced stops features no phonation during
+closure. However, it is not clear that absolute word-initial position should be representative;
+phonation is dispreferred in absolute initial position for articulatory reasons (Davidson, 2016;
+Solé, 2011). Vicenik (2010) measured the rate of phonation into closure in Georgian post-vocalic
+stops, word-initially and wordfinally. On average, 75% of closure is voiced in voiced stops,
+
+
+                                                             3
+compared to 17% in voiceless aspirated and 27% in ejectives. The difference in voicing into
+closure between voiced versus voiceless stops/ejectives is significant, the difference among the
+latter two is not, for most places of articulation. Vicenik (2010) measures voicing into closure as
+a function of prosodic position: voicing into closure does not differ significantly in word-initial
+position after a vowel-final carrier phrase versus word-medial intervocalic position; the rates of
+voicing during closure do not significantly differ between the two conditions, except for velar
+stops. For velars, a significantly greater proportion of closure is voiced intervocalically, but the
+absolute duration of voicing during closure remains the same (Vicenik, 2010).
+
+        Our experimental data align well with these results. Twelve speakers of Georgian were
+instructed to read 675 nonce words of the structure CVCVCV. Voicing into closure was not
+quantified in the study, but acoustic inspection aligns well with the conclusion that the “voiced”
+series of stops in Georgian is in fact phonetically voiced in intervocalic position.
+Impressionistically, most speakers have at least half of the closure or more voiced (Figure 15.1).
+Based on these observations and backed by the study in Vicenik (2010), we can maintain the
+analysis that the unaspirated series of Georgian stops is phonetically and phonologically voiced:
+the amount of phonation into closure is substantial enough and significantly different for voiced
+stops compared to ejectives and voiceless aspirated that it likely does not result from automatic
+phonetic voicing in postvocalic position (cf. Wysocki, 2004).
+
+        Our recordings also reveal an aspect of voiced-stop realization that received less attention
+so far but has the potential to shed further light on the system of laryngeal features in Georgian.
+There exists a good amount of variation in the realization of voiced stops among speakers, but
+relatively little within-speaker variation (although this observation is not quantified in our study).
+Speakers vary in the production of the intervocalic voiced stops to the degree that for some
+speakers, closure is consistently fully voiced, whereas for others, almost no phonation into the
+closure is present. Spectrograms and waveforms in Figure 15.1 illustrate this variation. Inter-
+speaker variation in the production of voiced stops warrants further study. Variation in stop
+production is attested not only for the voiced series but also for ejectives and aspirated stops. A
+study that would test potential correlations between inter-speaker variability in closure voicing
+with other phonetic parameters, such as VOT and burst intensity of the other two series of stops
+is lacking and would shed light on the otherwise unclear distributions.
+
+        A related issue has to do with what perceptual cues speakers employ in distinguishing
+stops with different laryngeal features (Vicenik, 2010). It is possible that VOT duration (or
+presence/absence of aspiration noise) is a more prominent cue than voicing into closure. Such a
+hypothesis, however, should be tested with perceptual experiments. To my knowledge, no such
+studies exist for any of the four languages.
+
+
+
+
+                                                  4
+     Figure 1: Waveforms and spectrograms of voiced stop [d] in the word [lixɔde] uttered by
+                                     three different speakers
+
+
+
+2.1.2 Phonetic properties of other laryngeal features
+
+Three of more recent studies on Georgian phonetics present detailed acoustical analysis of stops
+with respect to their laryngeal features (Grawunder, Simpson, & Khalilov, 2010; Vicenik, 2010;
+Wysocki, 2004). Of the seven parameters measured (closure duration, VOT, voicing into closure,
+relative burst intensity, F0, phonation type of the following vowel, and spectral measures of the
+burst) in Vicenik (2010), only VOT duration and phonation type reliably distinguish all three
+stop types in Georgian. VOT is longest in the voiceless aspirated series, shorter in ejectives, and
+shortest in voiced stops. Vowels have significantly creakier phonation after ejectives and more
+breathy phonation after voiceless aspirated stops. Voicing into closure distinguishes voiced stops
+from voiceless aspirated and ejectives, but not ejectives from voiceless aspirated. F0 in the
+following vowel falls for voiced and voiceless aspirated but stays flat after ejectives; yet this
+difference does not reach significance for all places of articulation. Mean frequency, skewness,
+and kurtosis of the burst were significant predictors for only a subset of places of articulation,
+according to Vicenik (2010).
+
+        While several results in Wysocki (2004) and Vicenik (2010) are replicated in our
+experiment, some are different. Our analysis confirms that stops with different laryngeal features
+have significantly different VOT durations. We measured the VOT of the third stop in nonce
+words of the CVCVCV structure, testing three places of articulation (bilabial, dental, velar) and
+three laryngeal features (voiced, voiceless aspirated, ejective). VOT was significantly longer in
+voiceless stops compared to ejectives (β = 36.1 ms, t = 9.8, df = 11, p < 0.0001) and significantly
+shorter in voiced stops compared to ejectives (β = −18.1 ms, t = −6.1, df = 11, p < 0.0001) at the
+means of other predictors (Beguš, 2017).
+
+        Wysocki (2004), Vicenik (2010), and Grawunder, Simpson, & Khalilov (2010) all claim
+that closure duration does not significantly differ across stops with different laryngeal features.
+This is a surprising result as we know that closure duration of voiced stops is cross-linguistically
+shorter at least compared to closure of voiceless stops (Lisker, 1957; Luce & Charles-Luce,
+1985; Port, 1981). The results of our experiment, however, show a significant effect of laryngeal
+features on closure duration. Closure duration is significantly shorter in voiced stops than in
+
+
+                                                 5
+ejectives (β = −5.0 ms, t = −3.3, df = 20, p < 0.01) and significantly longer in ejectives than in
+voiceless aspirated stops (β = 3.7 ms, t = 3.0, df = 17, p < 0.01) at means of other predictors
+(Beguš, 2017).
+
+         This difference in closure durations between ejective and voiceless aspirated stops is, to
+my knowledge, reported for the first time not just for Georgian but for ejective stops in general.
+Warner (1996) measures closure duration in ejective versus voiceless stops in Ingush. Closure
+duration was indeed shorter in plain unaspirated voiceless stops, but the difference did not reach
+statistical significance. These measurements are based on recordings of only one speaker.
+
+        Gordon and Applebaum (2006) measured closure duration of stops in Kabardian. They
+find a significant effect of laryngeal features on closure duration, but the difference is significant
+only for the difference between voiced and ejectives, not between ejectives and voiceless
+aspirated stops. Maddieson, Rajabov, and Sonnenschein (1996) measured closure duration and
+VOT of voiceless and ejective stops in Tsez and found no significant differences between the
+two groups for either of the measured parameters. McDonough and Ladefoged (1993) found no
+differences in closure duration between ejective and voiceless aspirated or unaspirated stops in
+Navajo, but unaspirated stops have significantly longer closure durations than aspirated stops.
+Similar results are obtained for Athabaskan Witsuwit’en in Hargus (2007): closure is longest in
+unaspirated voiceless stops, but there is no significant difference in closure duration between
+voiceless aspirated and ejective stops.
+
+        The differences in closure durations across different stop types, despite being significant,
+are relatively small in Georgian. We can safely maintain that such small differences do not
+provide a prominent perceptual cue: in fact, they fall below the Just-Noticeable Difference ratio
+for vocalic speech stimuli (about 0.055 in Nooteboom & Doodeman, 1980). The ratio of closure
+duration difference between ejective and aspirated stops compared to the full closure duration is
+0.045 in our case (i.e., below 0.055).
+
+        Wysocki (2004) offers a detailed qualitative analysis of ejective stops in Georgian.
+Realization of ejective stops is highly variable across speakers. Ejective stops feature an audible
+oral release that is often higher in amplitude than the first period of the following vowel. Oral
+release is followed by a period of silence that is interrupted by one or more glottal releases that
+precede the vowel onset (Wysocki, 2004). Figure 15.2 illustrates acoustic characteristics of an
+ejective stop in Georgian.
+
+         Shosted and Chikovani (2006) also provide a qualitative airflow analysis of different stop
+types in Georgian. Oral air flow of three initial dental stops are measured. Ejective stops feature
+a relatively small rise in airflow that rapidly drops back to the zero level before the onset of the
+vowel. This fall results from glottis being closed after the oral release: once the air flow between
+oral closure and glottal closure is released, glottal closure prevents further airflow until it is
+released and the vowel onsets. Volume of the ejective oral release is considerably lower than
+airflow volume of voiced stops or voiceless aspirated stops. The latter have the highest volume
+of air flow, although the distribution is not quantified in Shosted and Chikovani (2006).
+
+
+
+
+                                                  6
+       Figure 2: Waveform and spectrogram of a velar ejective stop in the nonce word
+       [ʃɔk’ɔphu] uttered by a female speaker
+
+
+2.1.3 Ejective stops and vowel duration
+
+Vowel durations have long been known to differ before voiced and voiceless obstruents: vowels
+are longer before voiced than before voiceless obstruents and this generalization has been
+confirmed for over a dozen languages (cf. Chen, 1970, among others). The causes of these
+durational differences are, however, poorly understood, and several competing explanations have
+been proposed (Beguš, 2017). Opposing explanations arise primarily because most studies just
+measure vowel duration before voiced and voiceless obstruents and disregard vowel duration
+before obstruents with other laryngeal features. Only a subset of the studies measure vowel
+duration as a function of aspiration of the following stop. While most studies argue that
+aspiration lengthens the preceding vowel, some results are inconclusive (Durvasula & Luo, 2014;
+Lampp & Reklis, 2004; Maddieson & Gandour, 1976; Ohala & Ohala, 1992). Measurements of
+vowel duration before ejective stops are lacking altogether. Georgian is especially informative in
+this respect as it features voiceless aspirated, ejective, and voiced stops, which makes it possible
+to measure vowel duration differences before stops with all three laryngeal features.
+
+        Beguš (2017) presents results from the experiment described above with nonce words of
+the structure CVCVxCyV: vowel duration of Vx was measured along with the closure duration
+and VOT of Cy. Vx included three vowels ([], [ɛ], and [ɔ]) and Cy involved all three laryngeal
+features and three places of articulation (3 × 3 levels).
+
+        A model with four predictors (Laryngeal Features, Vowel, Place, and Closure duration
+reveals that vowels are significantly longer before voiced stops compared to ejectives (β = 8.7
+ms, t = 7.1, df = 10, p < 0.0001) and significantly shorter before voiceless aspirated stops
+compared to ejectives (β = −4.7 ms, t = −7.2, df = 11, p < 0.0001) (Beguš, 2017). This
+generalization is called the “ejection effect” and is, to my knowledge, reported for the first time,
+based on Georgian material. Closure duration is significantly, but only slightly negatively
+correlated with preceding vowel duration (for ejective stops, β = −1.8, t = −2.4, df = 21, p < 0.05;
+Beguš, 2017). There is a significant interaction between Laryngeal Features and Closure: closure
+
+
+                                                 7
+duration is significantly more negatively correlated with preceding vowel duration in voiced
+stops compared to ejectives.
+
+        Our experimental design also allowed us to model duration of VOT and its effect on
+preceding vowel duration. As shown in section 15.2.1.2, VOT significantly differs across stops
+with different laryngeal features. It is thus conceivable to assume that VOT duration is the
+primary factor that determines preceding vowel duration. The results in Beguš (2017), however,
+show that laryngeal features remain significant predictors even if we add VOT to the model.
+Vowels are longest before voiced, shorter before ejective, and shortest before voiceless aspirated
+stops. In addition, closure and VOT both inversely affect preceding vowel duration (Beguš,
+2017).
+
+        As argued in Beguš (2017), the “ejection effect” has broader implications: it shows that
+laryngeal features are significant predictors of preceding vowel duration, even when effects of
+closure and VOT are controlled for. Several competing proposals exist for the causes of vowel
+duration differences before different stop types (Beguš, 2017; Chen, 1970). The results show that
+voice feature or closure duration alone cannot be the cause of vowel duration differences.
+Moreover, because laryngeal features remain significant predictors even when VOT and closure
+duration are controlled for, and because the durational differences are small (smaller than the
+Just-Noticeable difference threshold), perception is likely not the primary factor for durational
+differences. The “ejection effect” primarily supports two hypotheses. The first is the Laryngeal
+Accommodation hypothesis (Chomsky & Halle, 1968), according to which laryngeal features
+require complex laryngeal gestures which in turn require different times to achieve. The second
+is the Timing hypothesis (Kozhevnikov & Chistovich, 1967), which states that timing across
+syllables tends to be constant: longer closure or VOT duration is compensated with shorter vowel
+duration. Several factors may influence vowel duration and the new data from Georgian crucially
+contributes to the discussion on causes of durational differences in vowels (Beguš, 2017).
+
+2.1.4 Aspiration
+
+Georgian voiceless aspirated stops are another aspect of Georgian phonetics that is relevant for
+the discussion of the role of perception versus production in phonetics. Aspirated stops in
+Georgian are characterized by long VOTs with high oral airflow (Shosted & Chikovani, 2006).
+Least-square mean VOT duration of voiceless aspirated stops in our experiment (involving 2,630
+tokens of aspirated stops in position CVCVCxV across the three places of articulation) is 75.4
+ms (70.4 ms for labials, 72.8 ms for dentals, and 83.0 ms for velars).
+
+        Georgian with its prominent aspiration provides insights into a process that has received
+increased attention, especially recently (Garrett, 2015; Jatteau & Hejná, 2016; Ohala, 1993):
+aspiration dissimilation (AD)—dissimilation of two subsequent aspirated stops (Th . . . Th > T . . .
+Th or Th . . . T). While AD is well-documented and relatively common process, mechanisms that
+underlie it are poorly understood. Two lines of thought emerge in the discussion. Ohala (1993)
+explains the dissimilation in terms of perceptual hypercorrection: speakers assume that aspiration
+of the two subsequent stops is a result of assimilation and “undo” this assimilation. Garrett
+(2015), on the other hand, claims that motor planning errors are responsible for gradual
+shortening of aspiration, which over time results in aspiration dissimilation. The articulatory
+
+
+
+                                                 8
+explanation predicts gradual and small phonetic differences in VOT duration, while the
+perception explanation predicts catastrophic and total dissimilation. Gradual and small-
+magnitude shortening of VOT supporting the articulatory explanation have already been reported
+for Aberystwyth English (Jatteau & Hejná, 2016) and Halh dialect of Mongolian (Svantesson &
+Karlsson, 2012). In both Halh and Aberystwyth English, however, the second stop is pre-
+aspirated and not post-aspirated, which means that the measured aspiration duration in these
+languages surfaces on the same vowel. Differences in aspiration duration have not yet been
+established for a language with only post-aspirated stops (Jatteau & Hejná, 2016), such as
+Georgian.
+
+         To test the effect of preceding aspiration on VOT of the following aspirated stop, we
+measured VOT duration of voiceless aspirated stops at three places of articulation, after three
+vowels ([], [ɛ], and [ɔ]) in Georgian. The VCx sequences were embedded into two frames:
+[rub_i] and [voth_i], i.e., a frame in which the first part ends in a voiced stop and a frame with
+the first part ending in a voiceless aspirated stop. VOT of Cx was measured from the onset of
+oral release until first periodic vibration with clear formant structure of the following vowel.
+Altogether 213 tokens were analyzed. VOT was shorter in voiceless stops that were preceded by
+another voiceless aspirated stop. Figure 15.3 illustrates by-speaker differences in VOT duration
+as a function of preceding stop.
+
+       The data were fit to a linear mixed effects model2 with preceding consonant Type,
+preceding Vowel, and Place of articulation with Vowel × Place interaction as fixed effects and a
+random intercept for Speaker. VOT is significantly shorter if another voiceless stop precedes (β
+= −11.5 ms, t = −4.6, df = 192, p < 0.0001).
+
+        The results bear implications for understanding of mechanisms behind aspirate
+dissimilation process and for the discussion on perception versus production in phonetics: the
+gradual effect of dissimilation of two post-aspirated stops in our experiment renders support for
+the articulatory explanation.
+
+
+
+
+        Figure 3: Boxplot of VOT duration across 12 speakers (top chart) and the effect of
+        preceding consonant on VOT duration obtained from a linear mixed effects model with
+        standard error bar.
+
+
+2
+ The linear mixed effects model was fit using the lme4 (Bates, Maechler, Bolker, & Walker 2015) and lmerTest
+(Kuznetsova, Brockhoff, & Christensen, 2016) packages in R statistical software (R Core Team, 2016).
+
+
+
+                                                       9
+2.1.5 Megrelian, Laz, and Svan
+
+The other three Kartvelian languages have similar phoneme inventories as found in Georgian
+(see Tables 15.1 and 15.2), but have received considerably less attention. A detailed phonetic
+analysis of Megrelian and Laz phoneme inventory is offered among others in Imnadze (1981).
+Lacroix (2009) describes the Arhavi dialect of Laz, and Öztürk and Pöchtrager (2011) describe
+the Pazar dialect of Laz.3
+
+        While phonemic inventories are similar across Kartvelian, the phonetic realization of
+phonologically identical segments can differ substantially, even in closely related languages or
+even between different dialects of the same language. Melikishvili et al. (2011) measure several
+acoustical parameters of ejective stops across Caucasian languages, including Northwest
+Caucasian and Nakh-Dagestanian languages. The results suggest that the phonetic realization of
+ejective stops differs across dialects and languages. The longest VOT was measured in Svan with
+49 ms and the shortest, in the Gurian dialect and standard Georgian, 26 ms and 25 ms,
+respectively (Melikishvili et al., 2011). Contrastive studies are helpful for the development of the
+typology of ejective stops (Grawunder, Simpson, & Khalilov, 2010; Kingston, 2005), but further
+studies with statistical analysis are needed to confirm differences in phonetic realization of
+ejectives across Caucasian languages and dialects.
+
+         In addition to the 12 speakers of Georgian, I also recorded a male speaker of Megrelian
+reading the same 675 nonce words, but in a Megrelian carrier phrase. The confound of the
+Megrelian experiment is that it only includes one speaker who reported to speak Georgian as a
+first language and who spoke Megrelian in his home village with grandparents and relatives. For
+the Megrelian speaker too, vowels are shorter before voiceless stops than before ejectives (β =
+−5.1 ms, t = −2.1, df = 623.1, p < 0.05) and longer before voiced stops than before ejectives (β =
+28.4 ms, t = 8.4, df = 613.4, p < 0.0001) at the means of other predictors. This suggests that the
+ejection effect may be universal, at least for languages with similar realization of ejective stops
+to those of Georgian and Megrelian (Beguš, 2017)
+
+2.2 Northwest Caucasian
+
+A prominent feature of Northwest Caucasian languages has to do with their large consonantal
+and small vocalic inventories, shown in Tables 15.3 and 15.4 (see chapter 9; for counts, see
+Catford, 1977).
+
+                                        alv.-
+           bilab.    l.-d.     alv.     pal. post-al. post-al.       pal.      vel.     uvul.    phar.     glot.
+stop      p, b, p’           t, d, t’                                        k, ɡ, k’ q, q’                 (ʔ)
+                             tw, dw,                                         kw, ɡw,
+labial.    (pw’)               tw’                                             kw’ qw, qw’                  (ʔw)
+
+3
+ René Lacroix has also created and shared one of the largest databases of any Caucasian languages: Pan-dialectal
+documentation of Laz [https://elar.soas.ac.uk/Collection/MPI546814] is an online database of 230 hours of high-
+quality recording of four dialects of Laz with over 360 speakers recorded.
+
+
+
+                                                        10
+                                                                            kj, ɡj,
+palat.                                                                       kj’       qj, qj’             (ʔj)
+pharyn pʕ, bʕ,
+g.      pʕ’                                                                           qʕ, qʕ’
+phar.&l                                                                                qwʕ,
+ab.                                                                                    qwʕ’
+affricat                     ʦ, dz, tɕ, dʑ,        tŝ, dẑ,
+e                             ʦ’       tɕ’ ʧ, ʤ, ʧ’ tŝ’
+                                      tɕw,
+                                     dʑw,
+labial.                              tɕw’
+nasal        m                  n
+pharyn
+g.           mʕ
+tap/trill                      r/ɾ
+fricativ           f, (f’),         ɕ, ʑ,
+e                    [v] s, z, (s’) (ɕ’) ʃ, ʒ, (ʃ’) ŝ, ẑ, (ŝ’) (ç, ʝ)        x, ɣ       χ, ʁ     (ħ, ʕ)   h, (ɦ)
+                                   ɕw, ʑw,           ŝw, ẑw,
+labial.              (fw)           (ɕw’) (ʃw, ʒw) (ŝ w’)                    (xw)     χw, ʁw (ħw, ʕw) (hw)
+palat.                                                                                 χj, ʁj
+pharyn
+g.                    vʕ                                                               χʕ, ʁʕ
+phar.&l
+ab.                                                                                   χwʕ, ʁwʕ
+lat. fric.                  ɬ, (ɮ), ɬ’
+approx.      w                                                       j
+pharyn
+g.           wʕ
+lab.                                                                (ɥ)
+lat.
+appr.                           l
+
+
+Table 3: Consonantal inventory of Ubykh
+Note: From Catford (1977); Chirikba (2003a); Colarusso (1988); Fenwick (2011); Gordon and Applebaum
+(2006, 2013); Hewitt (2004); and Smeets (1984). The “peculiar NWC” (Catford, 1977) series of laminal closed
+post-alveolar sibilants (Ladefoged & Maddieson, 1996, p. 162) is transcribed with ˆ (e.g. /ŝ/). For a discussion
+on the phonetics of this series, see section 15.2.2.2. Some dialects of Adyghe (Hatkoy, Shapsugh) feature a
+four-way opposition in obstruents (plain voiceless, aspirated, voiced, ejective; Gordon & Applebaum, 2013),
+which is not represented in the table. For a detailed phonetic study of the four-way opposition in Circassian,
+see Gordon and Applebaum (2013). Note that phonemic inventories can vary substantially across different
+analyses, especially for coronal fricatives and affricates. Phonetic values of these two series can vary
+substantially (see discussion in section 15.2.2.2 and in Gordon & Applebaum, 2013).
+
+
+
+
+                                                      11
+        This section focuses on acoustic phonetic aspects of large phonemic inventories; NWC
+languages feature several typologically highly unusual segments that had been considered
+impossible or unattested until they were discovered precisely in these languages. Where
+available, I present a new acoustic analysis of typologically rare segments based on existing
+recordings of Ubykh from online databases LaCiTO4 and the UCLA Phonetics Lab Archive. I
+provide statistical analyses for observations that have already been established but have not yet
+received quantified treatments. I also present an acoustic analysis of small vocalic inventories
+that are highly variable and co-articuatorily influenced by the large consonantal inventories.
+
+        Among NWC, Ubykh stands out as the system with the highest number of consonantal
+phonemes: 80–85 (depending on the analysis; Fenwick, 2011). Moreover, Ubykh has the highest
+number of consonantal phonemes of any language without clicks. It features three laryngeal
+features: voiced, voiceless, and ejective; four secondary articulations: palatalized, labialized,
+pharyngealized, and labialized and pharyngealyzed; six manners of articulation: stop, fricative,
+affricate, nasal, approximant, and trill; and ten places of articulation: bilabial, labiodental,
+alveolar, alveolo-palatal, two post-alveolar series (one of which is analyzed as retroflex or
+subapico-palatal), palatal, velar, uvular, and glottal (Colarusso, 1988; Fenwick, 2011).
+Descriptions vary in their analysis of Ubykh places of articulation, but they all point to a
+disproportionately high number of segments in the post-alveolar and uvular regions. Other NWC
+languages additionally feature pharyngeal place of articulation.
+
+
+
+-low ə
++low a
+Table 4: A typical NWC vocalic inventory consisting of only two phonemic vowels
+Note: Colarusso (1988). See section 15.2.2.3 for discussion
+
+
+
+
+2.2.1 Typologically rare segments
+
+Unique to Ubykh is a complete series of plain, pharyngealized, labialized, and labialized and
+pharyngealized uvulars that include voiceless aspirated and ejective stops as well as voiceless
+and voiced fricatives (Colarusso, 1988). These oppositions result in segments as typologically
+unusual as the labialized pharyngealized uvular ejective [qʕw’]. It has been hypothesized that
+“rounding and pharyngealization are never distinctive within a language” (Jakobson, Fant, &
+Halle, 1951, cited in Colarusso, 1988, p. 221). As shown by [qʕw’] and other labialized
+pharyngealized consonants, Ubykh as well as some dialects of Abkhaz and Abaza (Chirikba,
+
+
+4
+ The LaCiTO database is available online: http://lacito.vjf.cnrs.fr/pangloss/corpus/list_rsc_en.php?lg
+=Ubykh\&aff=Ubykh.
+
+
+
+                                                         12
+2003a) can feature both secondary articulations on a single segment. To my knowledge, no
+language outside the NWC family features simultaneous labialization and pharyngealization.
+
+        On the other hand, some of the most common stops, such as plain voiceless or voiced
+velars /k/ and /g/ are marginal in Ubykh (as well as in Kabardian), appearing only in one
+loanword each (Colarusso, 1988). Such mismatches between cross-linguistic frequency and
+markedness are relevant for general constraint architecture of Optimality Theoretic frameworks
+(Prince & Smolensky, 2004). Currently, the most widely accepted version of Optimality Theory
+and Harmonic Grammar with restricted Con predicts less marked segments will be more frequent
+in a given environment (Beguš & Nazarov, 2017; Hayes, 2016). Languages such as Ubykh pose
+a problem for such predictions. Further experimental work is needed to confirm that speakers
+internalize such “unnatural” restrictions.
+
+         Unique to the Abzakh dialect of Adyghe are glottal stops with two secondary
+articulations: the dialect features a contrast between plain /ʔ/, labialized /ʔw/, and palatalized /ʔj/
+glottal stops (Catford, 1983). Secondary articulations on glottal stops are rare: palatalized /ʔj/ was
+even considered impossible (Merlingen, 1977, cited in Catford, 1983) until the segment was
+discovered in Abzakh. Catford (1983) presents spectrograms of plain versus palatalized glottal
+stop: his analysis confirms an acoustic distinction between the two phonemes that is reflected in
+the formant structure of the following vowel, although the effects are phonetically weak.
+Labialized alveolar obstruents are a prominent feature of NWC languages. Labialization in
+alveolar stops is realized as labial closure, and in fricatives as labial frication. For example, /tw/ is
+realized as a typologically rare doubly articulated bilabio- alveolar [t͡p].
+
+        Ubykh and Abkhaz have doubly articulated bilabio-alveolar stops (Colarusso, 1988). For
+the purpose of examining acoustic properties of labialized alveolars in NWC, we analyze
+recordings of Tevfik Esenç uttering words /dwa/ ‘awl’ and /da/ ‘now’ in isolation (from the
+LaCiTO online database). Figure 15.4 shows spectrograms of these words. The labialized
+alveolar is realized as a doubly articulated stop ([d͡b]). While it is possible that the weak but
+abrupt rise in energy at about 15 ms before the full release in the spectrogram for /dwa/ shows an
+alveolar release (before the labial release), further and more accurate recordings and articulatory
+data are needed to confirm this analysis. The formant structure provides cues for acoustic
+disambiguation of /d/ and /dw/: we observe lowering of all formants for the labialized stop, but
+especially of F3 and F4.
+
+        To test effects of doubly articulated stops on formants of the following vowel, we
+measured formant values in the same recording from the LaCiTO database that contains three
+repetitions of /dwa/ and two repetitions of /da/. Formants at 5% of vowel duration were measured
+in Praat (Boersma & Weenink, 2015) with a modified Vowel Analyzer Praat script (Riebold,
+2013). Labialization lowers F2 (Z = 1.86, p = 0.1) and F3 (Z = 1.74, p = 0.2), but with such small
+sample size, no differences are significant (according to the Exact Two-Sample Fisher–Pitman
+Permutation Test, based on the oneway_test function from the coin package; Hothorn, Hornik,
+van de Wiel, & Zeileis, 2008). Further data with larger sample sizes in Abkhaz should yield
+more conclusive results.
+
+
+
+
+                                                   13
+        Labialized alveolar stops (/dw/) that are realized as doubly articulated stops [d͡b]) also
+appear acoustically distinct from plain labials (/b/). A recording of Ubykh words /abana/ and
+/adwana/ from the LaCiTO database was analyzed. The recording contains three tokens of each
+word. F1 is lower at 5% of vowel duration after /dw/ compared to position after a plain labial (Z
+= 2.06, p = 0.1). F3 likewise lowers after /dw/ (Z = 2.20, p = 0.1). F2, however, is higher after
+/dw/ compared to /b/ (Z = −2.05, p = 0.1), but none of these differences reach statistical
+significance. Acoustically distinct is also the vowel preceding /dw/, compared to the vowel
+preceding /b/, but again the differences are not statistically significant (according to the
+Permutation Test).
+
+        Based on the analysis above, we can conclude that Ubykh indeed has bilabio-alveolar
+doubly articulated stops. While doubly articulated stops involving velar and labial closure are not
+infrequent, those involving labial and alveolar closure are very rare. It has even been claimed
+that no language features a bilabio-alveolar doubly articulated stop as a contrastive phoneme
+(Maddieson, 1983). In light of these claims, Ladefoged and Maddieson (1996) suggest that
+double articulation in Caucasian might be better analyzed as secondary articulation, based on the
+articulatory description from Catford (1972; via Ladefoged & Maddieson, 1996), who claims
+that labial contact in the closure of doubly articulated stops is “light,” lips are protruded further
+forward, and contact is made with the inner part of the lips. It is not immediately clear, however,
+why these articulatory properties described in Catford (1972) would necessarily point to an
+analysis with secondary articulation. It is also unclear what counts as a distinctive criterion for
+distinguishing secondary articulation with complete closure from “true” double articulation.
+
+         Since Maddieson (1983), other cases of bilabio-alveolar doubly articulated stops have
+been found: Ladefoged and Maddieson (1996) present an analysis of Yelentye (spoken in Papua
+New Guinea) as featuring truly bilabial-alveolar doubly articulated stops. Most analyses in the
+literature thus rightfully maintain the double articulation status of labialized stops in NWC.
+
+       While voiceless and voiced doubly articulated bilabio-alveolar stops are featured in other
+languages such as Yelentye, no language outside NWC features doubly articulated bilabio-
+alveolar ejective stops, such as Ubykh [t͡p’].
+
+        Further articulatory studies of labialized alveolars, especially of the ejective series, in
+languages such as Abkhaz, where labialized alveolars are also realized as doubly articulated
+stops, should reveal further information about phonetic properties of these rare segments.
+
+        The realization of labialized dentals in NWC also provides evidence for diachronic
+origins of doubly articulated stops, which has, to my knowledge, not been discussed so far.
+Ubykh and Abkhaz examples point to one potential source of doubly articulated stops:
+labialization as secondary articulation.
+
+
+
+
+                                                  14
+       Figure 4: Spectrograms of /da/ ‘now’ (left) and /dwa/ ‘awl’ (right)
+
+
+2.2.2 Fricatives
+
+Another prominent feature of NWC phoneme inventories is the presence of a high number of
+fricative phonemes. As summarized in Catford (1977) and Gordon and Applebaum (2013), a
+canonical NWC inventory includes four sibilant fricative series: “apico- or lamino-alveolar” /s/,
+alveolo-palatal /ɕ/, “apico-postalveolar (slightly velarized)” /ʃ/ (sometimes analyzed as retroflex,
+e.g., in Fenwick, 2011), and the “peculiar NWC sibilant” /ŝ/. This latter is described as “laminal
+closed post-alveolar” (in Ladefoged & Maddieson, 1996, p. 162) and as a “hissing-hushing
+sound” articulated with tongue tip “rest[ing] against the alveoles of the lower teeth” with “the
+main articulatory channel [. . .] at the back of the alveolar ridge” (Catford, 1977, p. 290) and “not
+produced with the sublingual cavity that often characterizes postalveolar fricatives
+crosslinguistically” (Gordon & Applebaum, 2013). Adding laryngeal features to these four series
+of sibilants coupled with labialization as secondary articulations, systems can feature up to 14
+phonemic sibilant fricatives, e.g., in Bzhedugh (Catford, 1977) or Shapsugh (Gordon &
+Applebaum, 2013) dialects of Adyghe. Figure 15.5 shows spectrograms of the four-way contrast
+with contrastive labialization in two series in Ubykh (the spectral analysis was performed in
+Praat, based on the recordings from the UCLA Phonetics Lab Archive). The spectrograms show
+the generalization established for Kabardian (Gordon & Applebaum, 2006) and for sibilants in
+general (Gordon, Barthmaier, & Sands, 2002): peak energy is higher for more anterior fricatives.
+For spectral studies of Kabardian fricatives and their influences on formant structure of the
+following vowel, see Gordon and Applebaum (2006); for spectrograms and X-ray tracings of
+Ubykh and other NWC languages, see Colarusso (1988).
+
+        Other NWC dialects can merge the four-way opposition into a three-, two-, or oneway
+opposition (Gordon & Applebaum, 2013). The exact phonetic realization as well as analyses of
+the four series of fricatives can vary substantially. For example, some NWC sibilants are
+analyzed as “moderately retroflex”: /ʃ/ is analyzed as /ʂ/ in Ubykh in Fenwick (2011, p. 18; see
+also Gordon & Applebaum, 2013). For a detailed phonetic treatment of NWC sibilants, see
+
+
+
+
+                                                 15
+Colarusso (1988), Ladefoged and Maddieson (1996), Gordon and Applebaum (2006, 2013),
+Fenwick (2011, p. 19), and references therein.5
+
+         Ejective fricatives are typologically even more informative. Gordon and Applebaum
+(2006) present a detailed acoustic study of Kabardian fricatives. Kabardian features three
+ejective fricatives, /f ’/, /ɬ’/, and /ʃ’/, which are typologically uncommon and for which very few
+phonetic descriptions are available. Labio-dental ejective fricatives are particularly rare, attested
+only in Kabardian, Abaza, and some dialects of Abkhaz (Colarusso, 1988); outside Caucasian,
+the PHOIBLE database (Moran, McCloy, & Wright, 2014) lists only North American isolate
+Yuchi as having /f ’/. Gordon and Applebaum (2006) provide valuable acoustic and articulatory
+information about ejective fricatives. Ejective fricatives have shorter frication duration, smaller
+frication intensity, and greater degree of constriction compared to their plain counterparts (based
+on palatography). In fact, some tokens show complete oral closure. A period with complete
+closure is not uncommon for ejective fricatives and is phonetically motivated (Kuipers, 1960, p.
+46): closure increases intraoral pressure which facilitates an audible release of ejectives (Gordon
+& Applebaum, 2006). Gordon and Applebaum (2006) measure intraoral pressure and oral flow
+in [f] and [f ’], uttered by one Kabardian speaker. Intraoral pressure rises substantially in
+production of the ejective fricative and is comparatively lower for the plain fricative. Airflow
+data aligns well with airflow trajectories in ejective stops (Shosted & Chikovani, 2006): for plain
+fricatives, it rises with frication and decreases only slightly before vowel onset. For ejective
+fricatives, airflow raises and decreases back to the zero level before the onset of the following
+vowel (Gordon & Applebaum, 2006).
+
+        Ubykh only features one ejective fricative /ɬ’/, which is marginal. Figure 15.6 gives
+spectrograms of two words read in isolation, /p’ɬ’ə/ ‘four’ (right) and /pɬə/ ‘red’ (left) from the
+LaCiTO database. The main characteristics of ejective versus plain fricatives reported for
+Kabardian are observed in Ubykh as well: frication duration is substantially shorter for the
+ejective fricatives. The shorter frication is followed by a period of silence which results from
+constricted glottis blocking the airflow. Noise in the plain fricative, on the other hand, is steady
+throughout the frication duration.
+
+        While most scholars accept the analyses of large consonantal systems in NWC presented
+thus far, some attempts have been made to reduce the unusually large consonantal systems of
+NWC languages by analyzing secondary articulations such as labialization and palatalization as
+underlying sequences of consonants + glides /j/ and /w/, which would reduce the number of
+phonemes across NWC languages substantially (discussion in Colarusso, 1988, p. 94). Colarusso
+(1988, p. 94) provides crucial evidence against this proposal. The most convincing
+counterevidence comes from the fact that there exist sequences of stop + /j/ in NWC that do not
+change to the palatalized variant of the stop but surface as two segments.
+
+
+
+
+5
+    See chapter 9, for other descriptions and proposals concerning the place of articulation.
+
+
+
+
+                                                                  16
+Figure 5: Spectrograms of Ubykh sibilants: /s/ (upper left), /ŝ/ (upper middle), /ʃ/ (upper right),
+/ɕ/ (lower left), /ɕw/ (lower middle) and /ʃw/ (lower right), based on recordings from the UCLA
+Phonetics Lab Archive.
+
+
+
+
+Figure 6: Spectrograms of /pɬə/ ‘red’ (left) and /p’ɬ’ə/ ‘four’ (right).
+
+
+
+2.2.3 Vocalic inventories
+
+
+
+
+                                                  17
+Another prominent feature of NWC languages has to do with vertical vocalic inventories limited
+to two or three vocalic phonemes, commonly described as /ə/, /a/, and sometimes /aː/. With a
+two-way phonemic contrast in the vowel system, /a/ and /ə/, we can define vowels with a single
+feature value, [±high], hence the term “vertical vowel system.”
+
+         Ubykh is an example of such a system: it features two vocalic phonemes, /ə/ and /a/.
+Some analyses include a third vowel /aː/, but this low vowel can also be analyzed as underlying
+/ah/, /ha/, or /aa/ (Chirikba, 2003a; Colarusso, 1988). Some researchers claim that the distribution
+of /ə/ and /a/ is predictable (Allen, 1956, 1965b; Kuipers, 1960) and posit only one vocalic
+element for Ubykh. In other words, according to the onevowel analysis, /ə/ is an automatic
+epenthetic vowel. It is true that /ə/ is often optional, can be deleted under certain circumstances,
+and, as Colarusso (1988) notes, it “has a low functional load.” He, however, shows that there
+exists strong evidence in favor of the phonemic status of /ə/ for all languages: Colarusso (1988,
+pp. 347–373) offers a detailed discussion of cases in which /ə/ contrasts with ∅.
+
+        The rest of this section focuses on acoustic analyses of small vocalic inventories. That the
+two posited vowels have different phonetic values is confirmed by the analysis of Ubykh
+recordings. The LaCiTO database contains a minimal pair, /bla/ ‘eye’ and /blə/ ‘seven’, uttered
+in isolation. The spectrogram in Figure 15.7 clearly shows that the two vowels have different
+qualities. For the low vowel /a/ at midpoint of vowel duration in a relatively neutral phonetic
+environment, F1 = 745 Hz, F2= 1,712 Hz; for /ə/ F1 = 424 Hz, F2 = 1,958 Hz. These formant
+values suggest that /a/ is phonetically relatively front and high, /ə/ is relatively high. Fenwick
+(2011) transcribes the two vocalic phonemes as /ɜ/ and /ɨ/ to better reflect their phonetic values.
+Vowel /aː/, regardless of its phonemic status, is phonetically lower than /a/ and therefore
+transcribed as /ɐ/ in Fenwick (2011). Very similar analyses of vocalic inventories and their
+phonetic values are proposed for other NWC languages, especially in Abaza and Abkhaz; for
+Circassian languages the overall phonetic realization of vowels is reported to be comparatively
+higher (Colarusso, 1988). For spectral measurements of Kabardian vowels and their
+coarticulatory variation, see Choi (1991), Wood (1994), and references therein.
+
+         Small vocalic inventories are often prone to a high degree of coarticulatory influence
+from adjacent consonants. Colarusso (1988, p. 295) claims that “all tautosyllabic consonants tend
+to color vowel to a greater or lesser degree.” For example, anterior consonants produce front
+vowels, high consonants produce high vowels, rounded anterior consonants produce rounded
+vowels, cf. Ubykh /tət/  [thɛth]; /swa/  [sɸoe] (Colarusso, 1988, p. 296). In Circassian,
+alveolars are reported to change tautosyllabic /ə/ to a high [ɪ]. High variability of phonetic values
+of Ubykh vowels is illustrated in Figure 15.8 that shows formant transitions in an utterance
+/amɣjan jəkjanan/, from the LaCiTO database, analyzed in Praat (Boersma & Weenink, 2015).
+Initial /a/ has values of F1 = 753 Hz and F2 = 1,552 at midpoint, similar to the values for /a/ in
+isolation in Figure 15.7. All subsequent vowels are colored by palatalization: F1 lowers and F2
+rises. The most radical coloring targets the schwa /ə/ between two palatalized velars /kj/ and /j/
+to the degree that its F1 lowers to 415 Hz and F2 rises to 2,089 Hz with almost no transitions in
+formant structure. Despite this heavy coloring, formants still tend to transition back to their
+targets in the absence of coarticulatory influence of the following consonant. In pre-pausal
+position, formants transition to their underlying vocalic targets, even after consonants with
+secondary articulations. Figure 15.8 shows formants of /a/ in /ja/ in pre-pausal position that
+
+
+                                                 18
+clearly transition toward the target for /a/ in the second half of the vowel duration (F1 = 675 Hz,
+F2 = 1,626 Hz). In other words, consonants do not fully color vowels in all positions: underlying
+targets are still present and realized, despite some traditional descriptions implicitly suggesting
+that vowels are colored completely.
+
+
+
+
+                Figure 7: Spectrograms of /bla/ ‘eye’ (left) and /blə/ ‘seven’ (right)
+
+
+
+
+Figure 8: Spectrograms of /amɣjan gjəkjanan/ (left) and /gja/ (right)
+
+
+
+2.3 Nakh-Dagestanian
+
+Nakh-Dagestanian phoneme inventories are also comparatively large, primarily due to a four-
+way distinction in stop type in some languages (voiceless aspirated, voiced, ejective, and fortis),
+a high number of phoneme segments in the post-velar part of the vocal tract (pharyngeal,
+epiglottal, and laryngeal obstruents), and the phonemic status of secondary articulations such as
+labialization (Kibrik & Kodzasov, 1990). Compared to NWC, Nakh-Dagestanian languages
+feature larger vocalic inventories, often with a length distinction. The number of Nakh-
+Dagestanian languages and dialects and their variability in phonemic inventories is substantially
+greater compared to Kartvelian or NWC. Here, two illustrative languages were chosen (for a
+survey of phonemic inventories of most other languages, see Alekseev, 1998b; Bokarev et al.,
+
+
+
+                                                19
+1967; Hewitt, 2004; Job, 2004; Kibrik & Kodzasov, 1990; Smeets, 2004; van den Berg, 2005a).
+Tables 15.5 and 15.7 (with data from Chechen for the Nakh and from Archi for the Dagestanian
+group) illustrate NEC consonantal inventories, Tables 15.6 and 15.8, their vocalic inventories.
+Pharyngeal segments and pharyngealization are among the better-studied features of Nakh-
+Dagestanian. Nakh-Dagestanian languages provide crucial information for the typology of
+pharyngealization; some languages feature voiceless stops, voiced stops, and fricatives with
+pharyngeal and epiglottal place of articulation as well as pharyngealization or epiglottization as
+secondary articulation.
+
+In what follows, I will discuss main acoustic properties of Nakh-Dagestanian phoneme
+inventories, with a focus on pharyngealization. Because pharyngealization is also present in
+NWC, data from NWC languages are included in this section to supplement the analysis. Several
+aspects of pharyngeal place of articulation and pharyngealization as secondary articulation are
+still unknown, both from acoustic as well as articulatory and perceptual perspectives.
+
+Nakh-Dagestanian phoneme inventories are also comparatively large, primarily due to a four-
+way distinction in stop type in some languages (voiceless aspirated, voiced, ejective, and fortis),
+a high number of phoneme segments in the post-velar part of the vocal tract (pharyngeal,
+epiglottal, and laryngeal obstruents), and the phonemic status of secondary articulations such as
+labialization (Kibrik and Kodzasov 1990). Compared to NWC, Nakh-Dagestanian languages
+feature larger vocalic inventories, often with a length distinction. The number of Nakh-
+Dagestanian languages and dialects and their variability in phonemic inventories is substantially
+greater compared to Kartvelian or NWC. Here, two illustrative languages were chosen: for a
+survey of phonemic inventories of most other languages, see Bokarev et al. (1967), Kibrik and
+Kodzasov (1990), Job (1994), Alekseev (1998), Smeets (2004), Hewitt (2004), van den Berg
+(2005). Tables 5 and 7 (with data from Chechen for the Nakh and from Archi for the
+Dagestanian group) illustrate NEC consonantal inventories, Tables 6 and 8, their vocalic
+inventories.
+
+                                                                                                                 phar./epi
+              bilab.        l.-d.       dent.       alveo. post-al.            pal.        vel.        uvul.        gl.    glot.
+            ph, b, p’,                th, d, t’,                                        kh, ɡ, k’,
+stop            pː                        tː                                                kː qh, q’, qː              ʡ     ʔ
+affricate                        ʦ, dz, ʦ’ ʧ, ʤ, ʧ’
+nasal      m                          n
+tap/trill                            r,r̥
+fricative           v             s, z, sː    ʃ, ʒ                                           x            ʁ            ħ     h
+approx.                                                                          j
+lat. appr.                            l
+Table 5: Chechen consonant inventory
+Note: From Nichols (1994, 1997a); Sylak (2011). Ingush features a very similar consonant inventory: Ingush
+lacks /pː/, /kː/, /dz/, and /ʤ/ but features an additional series, palatalized velars /kj, ɡj, kj’/ (Nichols, 2011).
+
+
+
+                                       front                         central                back
+                           -round               +round
+
+
+                                                                   20
+          high     i, iː                    y, yː                                         u, uː
+          mid      ɛ, eː                                                                  o, oː
+          mid     jɛ, iːe̯                 ɥœ, yːœ               ə                       wɔ, uːɔ̯
+           low      æ                                          a, aː                     o̯a, ɔː
+Table 6: Chechen vowels
+Note: Note: From Nichols (1994, 1997a); Nichols and Vagapov (2004); Sylak (2011); cf. Komen
+(2007a). Ingush vocalic inventory is similar with some differences primarily in mid vowels (as
+described in Nichols, 2011). For Chechen and Ingush diphthongs, see Nichols (1994, 2011).
+
+
+                bilab.       dent.         post-al.     pal.           (pre-)vel.              uvul.    phar.   glot.
+              ph, b, p’,
+stop              pː     th, d, t’, tː                             kh, ɡ, k’, kː qh, q’, qː                      ʔ
+                                                                     khw, ɡw,
+labial.                     tw, dw                                   kw’, kːw qw, qw’
+affricate                 ʦ, ʦ’, ʦː’ ʧ, ʧ’, ʧː’
+labial.                    ʦw, ʦw’ ʧw, ʧw’
+lateral                                                                  k͡ʟ̝̊ , k͡ʟ̝̊’
+lat. lab.                                                              ͡kʟ̝̊w, k͡ʟ̝̊’w
+nasal             m            n
+tap/trill                      r
+fricative                   s, z, sː    ʃ, ʒ, ʃ                                             χ, ʁ, χː    ħ, ʕ     h
+                           w w       w w w w
+labial.                   s , z , sː ʃ , ʒ , ʃ                                            χ , ʁw, χːw
+                                                                                           w
+
+lateral                                                                  ʟ̝̊, ʟ̝, ʟ̝̊ː
+lat. lab.                                                                ʟ̝̊w, ʟ̝̊ːw
+approx.           w                                      j
+lat. appr.                     l
+
+
+Table 7: Archi consonant inventory
+Note: From Kibrik (1994); Kibrik and Kodzasov (1990); Kodzasov (1977); Ladefoged and Maddieson (1996);
+and Mikailov (1967).
+
+                                   front                     central                      back
+          high     i, iː                                                                  u, uː
+     open-mid                               e, eː                ə                        o, oː
+           low                                                 a, aː
+Table 8: Archi vowels
+Note: From Kibrik (1994); Kibrik and Kodzasov (1990).
+
+
+
+
+                                                        21
+2.3.1 Laryngeal features
+
+As already mentioned, in addition to the “common” Caucasian three-way opposition in obstruent
+types with three laryngeal features (voiceless aspirated, voiced, and ejective), Chechen, Ingush,
+Batsbi, Andi, Avar, Lak, Lezgian, Dargwa, Tabasaran, Agul, Archi, and Tsakhur feature a
+“fourth type” of stops (Kibrik & Kodzasov, 1990). This series receives various different
+analyses; they are labeled intensive, fortis, unaspirated, or geminated consonants (Catford, 1977;
+Kibrik & Kodzasov, 1990; Gaprindašvili, 1966; Hewitt, 2004). The characteristic features of this
+series is lack of aspiration and phonetically longer closure. The exact phonetic realization differs
+across languages; in some languages “fortis” stops are realized as geminates intervocalically
+(e.g., in Lak, Dargwa, and Khinalug; Catford, 1977; cf. Gaprindashvili, 1966, Kibrik, Kodzasov,
+& Olovjannikova, 1972), and in others as affricates (e.g., in Avar and Andi; Catford, 1977). A
+four-way opposition in obstruent types is also present in the Hatkoy and Shapsugh dialects of
+Adyghe (for a detailed phonetic study of the contrast there, see Gordon & Applebaum, 2006,
+2013).
+
+        Warner (1996) presents a study of laryngeal features in Ingush and confirms most of the
+commonly-held phonetic generalizations concerning ejective stops. VOT in Ingush is, for
+example, significantly longer in voiceless stops (M = 45.1 ms) and shorter in ejectives (M = 26.2
+ms). Ejective stops lack noise after burst; there is a significant difference in average power of
+post-burst noise between ejective and voiceless series, but no significant difference in average
+peak burst power (replicated in Grawunder, Simpson, & Khalilov, 2010). Warner also reports an
+audible effect of ejective stops on pitch of the following vowel. On average, the difference in
+pitch value at the onset of following vowel is 26.2 Hz: pitch is higher after ejectives compared to
+voiceless stops. The difference is significant both at the vowel onset as well as at fifth to seventh
+period of the vowel. On the other hand, Warner (1996) found no significant difference in peak
+burst power between the ejective and voiceless series. Likewise, no specific spectral
+characteristics of burst in ejectives were observed.
+
+        Hewitt (2004) reports a correlation between aspiration and ejection: ejectives appear
+“more glottalized” in those dialects that have less aspiration and vice versa. This observation is,
+however, not supported by any quantitative analysis. Further quantified treatments of
+correlations in phonetic realization of different stop types could yield important insights into a
+thus far unexplained variation (cf. also our observation of inter-speaker variation in stop
+production in Georgian in section 15.2.1.1).
+
+2.3.2 Lateral obstruents
+
+Another notable feature of Nakh-Dagestanian languages is the presence of a large number of
+lateral obstruents. Lateral fricatives can be voiceless (ɬ) or “fortis” (ɬː). Lateral affricates can be
+voiceless (t͡ɬ), ejective (t͡ɬ’), fortis (t͡ɬː), or fortis ejective (t͡ɬː’) (Catford, 1977; Kibrik & Kodzasov,
+1990). According to Catford (1977), the system with the highest number of lateral consonants is
+Akhvakh, featuring seven contrastive consonants with lateral articulation (including the
+approximant /l/).
+
+
+
+
+                                                     22
+              Archi exhibits typologically very rare velar lateral fricatives and affricates (Kodzasov,
+1977; Ladefoged & Maddieson, 1996). Archi features voiceless, voiced, geminate (or tense) pre-
+velar lateral fricatives (/ʟ̝̊/, /ʟ̝/, and /ʟ̝̊ː/) as well as voiceless and ejective pre-velar lateral affricate
+/k͡ʟ̝̊/, /k͡ʟ̝̊’/. Moreover, the voiceless and ejective affricate and voiceless and geminate fricative can
+be phonemically rounded: /k͡ʟ̝̊w/, /k͡ʟ̝̊w’/, /ʟ̝̊w/ and /ʟ̝̊ːw/ (based on Kodzasov, 1977). Ladefoged and
+Maddieson (1996) provide spectrograms of these segments and a qualitative description of their
+acoustic properties. The pre-velar lateral fricative in Archi features strong frication and a close
+proximity between the second and third formants. Articulatorily, these segments are produced
+with tongue body constriction along the velum and the palate and with tongue tip “passively
+lowered to the lower teeth” (Kodzasov, 1977, in Ladefoged & Maddieson, 1996, p. 206). For
+further acoustic measurements of these sounds, see Grawunder, Simpso, & Khalilov (2010), who
+suggest that pre-velar realization of lateral fricatives and affricates is also found for some
+speakers of Bezhta and Avar.
+
+2.3.3 Pharyngeal place of articulation
+
+As already mentioned, one of the major topics in phonetics of Nakh-Dagestanian is
+pharyngealization. As Sylak (2011) points out, pharyngealization is rare in the world’s
+languages: only 5% of languages surveyed feature pharyngeal place of articulation or
+pharyngealization as secondary articulation (Maddieson, 1984). Most work on pharyngealization
+centers on Semitic and North American languages, and comparatively fewer instrumental studies
+have been done on Caucasian pharyngealization.
+
+       There are opposing views in the general phonetic literature on the topic of articulatory
+and acoustic aspects of consonants produced in the region between the uvula and the glottis:
+pharyngeal/epiglottal place of articulation (Catford, 1983; Esling, 1996, 1999; Laufer & Condax,
+1979a, 1979b; for surveys of post-velar articulations and their phonetic and phonological
+properties, see Bessell, 1992; Moisik, 2013; Sylak-Glassman, 2014). For example, no consensus
+has been reached on the question of whether languages can contrast epiglottal and pharyngeal
+place of articulation, exactly which articulators are active (and in what ways) during the
+production of these obstruents, or what the exact acoustic properties for each place of articulation
+are.
+
+        Nakh-Dagestanian languages provide crucial phonetic information for the typology of
+segments in the radical part of the vocal tract (Catford, 1983; Esling, 1999; Kibrik & Kodzasov,
+1990; Kodzasov, 1986; Ladefoged & Maddieson, 1996; Nichols, 2000). Languages of the family
+have a large number of phonemes with primary articulation between the glottis and uvula, the
+most common of which are pharyngealized voiceless /ħ/ and voiced /ʕ/ fricatives. In some
+languages, such as Chechen, the Nakh-Dagestanian pharyngeal series is produced at the
+epiglottal place of articulation (Catford, 1983). Despite the rich inventory of post-velar sounds in
+Nakh-Dagestanian, instrumental acoustic and articulatory studies of pharyngeal/epiglottal
+obstruents are still lacking. The most informative for the discussion on differences between
+pharyngeal and epiglottal place of articulation are the Burshag and Burkikhan dialects of Agul
+
+
+
+
+                                                      23
+(Kibrik & Kodzasov, 1990; Kodzasov, 1986; cf. Magometov, 1970; Šaumjan, 1941). 6 These
+dialects are reported to have a phonemic contrast between pharyngeal and epiglottal places of
+articulation (Kodzasov, 1986; Ladefoged & Maddieson, 1996). Agul features voiceless /ħ/ and
+voiced /ʕ/ pharyngeal fricatives, and voiceless /ʜ/ and voiced /ʢ/ epiglottal fricatives. The Agul
+phonemic inventory also contains epiglottal stop /ʡ/ (Catford, 1983; Kibrik & Kodzasov, 1990).
+Altogether, Agul has five phonemes between the uvular and glottal places of articulation.
+
+        Ladefoged and Maddieson (1996) further show that the pharyngeal and epiglottal
+fricatives are acoustically quite different: the epiglottal series is noisier, and its formant structure
+resembles neighboring vowels more than that of the pharyngeal series. The latter is characterized
+by a high F1 above 1,000 Hz and a small distance between the first and the second formant
+(Ladefoged & Maddieson, 1996, pp. 167–168). Some of these observations are illustrated by
+spectral analysis: Figure 15.9 shows spectra of /ħ/ and /ʜ/ in words /ħatʃ/ ‘wolf ’ and /ʜæʧh/
+‘apple’.
+
+
+
+
+Figure 9: Spectra of /ħ/ (left) and /ʜ/ (right) analyzed in Praat (Boersma & Weenink, 2015) with
+25 ms window length, at approximately midpoint of the fricative (where clear formant structure
+was visible) from recordings of Agul at the UCLA Phonetics Lab Archive.
+
+Recently, however, Esling (1999, 2010, 1997) and others (Heap, 1997; Moisik, 2013; Sylak-
+Glassman, 2014) proposed that the distinction in Agul is not of place of articulation but rather of
+manner of articulation: Esling argues that pharyngeal fricatives are fricatives, but that what
+Ladefoged and Maddieson (1996) analyze as epiglottal fricatives are in fact trills. In other words,
+all five obstruents in Agul are produced in the same epiglottal (aryepiglotto-epiglottal) region
+and their primary distinction is in manner of articulation (see also Moisik, 2013). Sylak-
+Glassman (2014) and Moisik (2013) even question the phonemic status of the two series in Agul.
+The question of whether a language can phonemically distinguish pharyngeal and epiglottal
+place of articulation of the same manner of articulation thus remains open for further research.
+
+
+
+
+6
+ Recordings of the Burkikhan dialect of Agul with examples of obstruents in the pharyngeal/epiglottal region are
+available at the UCLA Phonetics Lab Archiveat[http://archive.phonetics.ucla.edu/Language/AGX/ agx.html].
+
+
+
+                                                        24
+2.3.4 Pharyngealization as secondary articulation
+
+Nakh-Dagestanian languages also have pharyngealization as a secondary articulation. Kibrik and
+Kodzasov (1990) distinguish two types of pharyngealization in Nakh- Dagestanian, which,
+according to Nichols (2000), corresponds to the distinction between pharyngeal and epiglottal
+places of articulation. The distinction between pharyngealization and epiglottalization as
+secondary articulation is, however, problematic, and several open questions remain to be
+answered (see Moisik, 2013, and references therein and discussion below).
+
+       Pharyngealization has been analyzed as an autosegmental/prosodic feature on the basis of
+pharyngeal spreading, where the pharyngealization feature spreads from one vowel/syllable in
+the word to neighboring vowels/syllables (Kibrik & Kodzasov, 1990; Schulze, 1997b; Sylak-
+Glassman, 2014), e.g., in Lak or Archi (Anderson, 1997; Kibrik, 1994, cited in Sylak-Glassman,
+2014, and Moisik, 2013). Pharyngeal spreading can be sensitive to stress or blocked by other
+segments (Moisik, 2013; Sylak-Glassman, 2014).
+
+        In NWC languages, pharyngealization is commonly analyzed as a secondary articulation
+on consonants (Catford, 1983; Hewitt, 2004). In contrast, Nakh-Dagestanian pharyngealization is
+most commonly analyzed as a property of the vowel or of the syllable, rather than a property of
+the consonant (Kibrik & Kodzasov, 1990; Kodzasov, 1986; Maddieson, Rajabov, &
+Sonnenschein, 1996; Nichols, 2011). In some languages such as Tsez or Rutul, pharyngealization
+is analyzed as a property of both vowels and consonants (see Maddieson, Rajabov, &
+Sonnenschein, 1996; Sylak-Glassman, 2014).
+
+        Phonetic distinction between vocalic and consonantal pharyngealization is difficult to
+draw, because both involve similar gestures: compression or contraction of the pharynx or
+epiglottis that is simultaneous with vocalic or consonantal articulation (for complexity of
+articulations, see Moisik, 2013). This means that analyses have to rely primarily on phonological
+data. For example, as shown in Figure 15.10, pharyngealization in Ubykh, despite being
+analyzed as a consonantal feature, affects the following vowel throughout its duration by
+lowering the F1 and F3 values.
+
+        For both families, there are X-ray tracings and spectral analyses of pharyngealization
+(Gaprindashvili, 1966; Dzheyranishvili, 1959, via Ladefoged & Maddieson, 1996; Catford,
+1983; Colarusso, 1988), but acoustic studies sometimes yield contradictory results. The analysis
+of acoustic effects of pharyngealization is complicated by several factors: pharyngealization is
+not homogeneous in terms of where and how it is realized (primarily on the vowel or primarily
+on the consonant) or in terms of place of articulation (pharyngealization vs. epiglottization). It is
+thus not surprising that different studies report different results.
+
+        Kingston and Nichols (1987) and Nichols (1997a) examine general acoustic effects of
+pharyngealization as secondary articulation in Chechen and argue that pharyngealization
+primarily affects formants of the vowel and VOT duration of the consonant. The authors show
+that VOT duration of pharyngealized consonants is longer compared to plain voiceless or
+ejectives (reported in Nichols, 2011, and Sylak, 2011). Nichols (1994) further reports “very
+noisy aspiration” or “murmured” phonation in the VOT of pharyngealized voiceless and voiced
+
+
+
+                                                 25
+consonants. Moreover, F1 rises and F2 and F3 lower in the presence of pharyngealization. In
+other words, pharyngealization “produces compaction” of the spectrum: “lowering and backing
+of the low vowels and centralization of the others” (Nichols, 2011).
+
+        Sylak (2011) measures formants of five male Chechen speakers and compares the
+measurements with predicted formant values. The predicted values are calculated based on
+source-filter theory and estimation of vocal tract parameters. His study confirms that
+pharyngealization raises F1 values and lowers F2. No significant effects of pharyngealization
+were found on F3. For some places of articulation, his measurements suggest that the secondary
+articulation is in fact epiglottization rather than pharyngealization: Nichols (2011) claims the
+same for Ingush. These claims can only be confirmed with further articulatory studies.
+
+        Ladefoged and Maddieson (1996) and Catford (1983) report a study of pharyngealization
+in Tsakhur and Udi (cf. Ibragimov, 1968, 1990). The most noticeable acoustic effect of
+pharyngealization reported there is a substantial lowering of F3, for anything between 150–1200
+Hz (depending on the vowel and language). Additionally, F1 is reported to raise, but not as
+considerably. F2 lowers in /eʕ/ and /iʕ/ but rises in /aʕ/, /oʕ/, and /uʕ/. X-ray tracing of pharyngeals
+in these two languages (Gaprindashvili, 1966) reveals the “curious tongue configuration. The
+tongue root at about the level of the tip of the epiglottis bulges backward into the pharynx, while
+a depression is formed in the dorsal surface of the tongue approximately opposite the uvula, with
+a further upward bulge further forward in the tongue,” also called the “double bunching”
+(Catford, 1983, p. 349; see also Bessell, 1992; Gaprindašvili, 1966; and Moisik, 2013).
+
+        In Tsez, pharyngealization is reported to affect formants of the vowel both at vowel onset
+as well as at its midpoint. The effects of pharyngealization differ across different vowel qualities
+(Maddieson, Rajabov, & Sonnenschein, 1996). Pharyngealization is reported to raise F1 in all
+five vowels measured, although the effect of F1 raising is greater for /i/ and /e/ compared to other
+vowels. F2 is lower in pharyngealized /iʕ/, and /eʕ/, but higher in pharyngealized /aʕ/, /oʕ/, and /uʕ/
+compared to their non-pharyngealized counterparts. The measurements are reported to yield
+“complex” results for F3. Pharyngealization is reported to lower F3 significantly in /a/ and /u/.
+
+        The magnitude of the effect of pharyngealization is greater at vowel onset compared to
+the mid-point position (Maddieson, Rajabov, & Sonnenschein, 1996). Gaprindashvili (1966)
+further suggests that the main acoustic effect of vocalic pharyngealization in Dargi is the
+presence of the fourth formant in the region around 1280 Hz. Moisik (2013) and Sylak-
+Glassman (2014) also report a number of studies that claim vowels adjacent to pharyngeal
+fricatives get fronted or pattern phonologically as palatalizing vowels. Fronting is reported for
+Avar in Sylak-Glassman (2014) (based on Charachidze, 1981), Kryz (based on Authier, 2009),
+and Agul (based on Magometov, 1970). For example, /o/ and /u/ are realized as [oe] and [y] in
+Avar if they are adjacent to a voiceless or voiced pharyngeal fricative: [gøħ] for /goħ/ ‘mountain’
+(Sylak-Glassman, 2014). Moisik (2013) reports that pharyngealized vowels in Lak (based on
+Anderson, 1997) and Bezhta (based on Kibrik & Testelets, 2004) cause phonological
+palatalization. For example, in Lak /k/ and /l/ palatalize before pharyngealized fronted vowels.
+Effects of pharyngealization are visible beyond formant structure and VOT. Grawunder,
+Simpson, & Khalilov (2010) report that burst spectra differ for pharyngealized stops compared to
+plain stops in Tsez; the same observation is made for Tsez in Maddieson, Rajabov, &
+
+
+
+                                                  26
+Sonnenschein (1996). Maddieson, Rajabov, & Sonnenschein (1996) also measure formant
+transition of vowels before pharyngealized uvulars: the only consistent result they report is
+lowering of F3 of the preceding vowel (e.g., in /ʀaqʕ/ vs. /ʀaq/).
+
+       The most comprehensive study of effects of pharyngealization in NWC is provided by
+Colarusso (1988), who offers spectrograms but no statistical data on the effects. Colarusso
+concludes that acoustic effects are “complex,” but he identifies the most noticeable ones: noisy
+energy in 400–600 Hz range (and sometimes around 1,100 Hz and 2,000–2,400 Hz) (Colarusso,
+1988, p. 222).
+
+        To my knowledge, no quantified measurements of Ubykh pharyngealization have been
+presented in the literature, and Colarusso (1988) does not measure formants of vowels following
+pharyngealized segments. I analyzed a recording of two Ubykh words, /qʕ’aːp’a/ ‘handful’ and
+/q’aːp’a/ ‘hand’, each uttered eight times in isolation, in apparent random order, by Tevfik Esenç
+(recorded by Georges Dumézil and available at LaCiTO). The following parameters of the stop
+following /qʕ’/ and /q’/ were measured: F0, F1, F2, F3 (all at 20%, 50%, and 80% of vowel
+duration).
+
+         Pharyngealization significantly affects F1 and F3 values, but not F2 values. Contrary to
+the effects of pharyngealization observed in Chechen, Ubykh pharyngealization lowers F1
+significantly at 20%, 50%, and 80% of vowel duration (at 20%, t = 9.1, df = 10.2, p < 0.0001).
+There is no significant effect of pharyngealization on F2 at any of the three points measured (at
+20%, t = 0.76, df = 8.2, p = 0.47). Pharyngealization significantly lowers F3 at all three points (at
+20%, t = 7.9, df = 9.1, p < 0.0001). Figure 15.10 illustrates the effects of pharyngealization on
+the first three formants with standard errors.
+
+        Furthermore, vowel durations are significantly shorter if the vowel is pharyngealized (t =
+4.7, df = 13.9, p < 0.001; Welch Two Sample t-test). The data, however, show no effect of
+pharyngealization on F0, either at 20%, 50%, or 80% of vowel duration (at 50%, t = –1.67, df =
+13, p = 0.12 with Welch two-sample t-test).7
+
+         The effects of pharyngealization on the following vowel in Ubykh differ in some aspects
+from the effects summarized for Nakh-Dagestanian languages above. However, the Ubykh data
+are limited to one speaker and a single minimal pair. F3 does indeed lower substantially after
+pharyngealized stops, in accordance with results from other languages. F1, however, lowers
+substantially too, which differs from most other studies. This discrepancy reveals that effects of
+pharyngealization can be quite different across languages and that detailed descriptions of
+acoustic effects of pharyngealization as well as their articulatory and perceptual properties are
+still lacking.
+
+
+
+
+7
+ It is possible that experiments with higher power would yield different results with respect to effect of
+pharyngealization on F0.
+
+
+
+                                                          27
+Figure 10: Differences in vowel formants with standard errors for pharyngealized vs. plain low
+vowel in Ubykh (obtained with lm() function and effects package, Fox, 2003).
+
+
+
+
+3 Phonotactics
+
+Consonant clusters, especially Kartvelian clusters, are probably the best-studied aspect of
+Caucasian phonotactics. Articulatory and perceptual research on Georgian clusters provides
+crucial information for the discussion on the role of production versus perception in phonology.
+This section reviews the discussion on Georgian clusters and their relevance for phonological
+theory as well as points to aspects of Kartvelian phonotactics that have remained largely
+unnoticed in the current phonological literature.
+
+3.1 Georgian clusters
+
+Traditional grammarians identify two kinds of clusters in Kartvelian: harmonic and non-
+harmonic (Axvlediani, 1949, among others, via Butskhrikidze, 2002). Harmonic clusters are
+clusters of two obstruents, a dorsal and a non-dorsal that agree in laryngeal features. Non-
+harmonic are all other clusters that do not belong to the harmonic group, but are permitted
+phonotactically in Georgian. Table 15.9 shows harmonic clusters in Georgian (from
+Butskhrikidze, 2002; Chitoran, 1998).
+
+
+
+
+                                               28
+       C+stop                C+fricative
+voicedvoicelessejectivevoicedvoicelessejective
+  bɡ    phkh     p’k’    bɣ     phx      p’χ’
+         h h                     h
+  dɡ    tk       t’k’    dɣ     tx       t’χ’
+ dzɡ    ʦhkh     ʦ’k’ dzɣ      ʦhx       ʦ’χ’
+ ʤɡ     ʧhkh     ʧ’k’ ʤɣ        ʧhx      ʧ’χ’
+           h
+         sk              zɣ     sx
+         ʃkh             ʒɣ      ʃx
+
+Table 9: Georgian harmonic clusters
+Note: From Butskhrikidze (2002, p. 103).
+
+
+
+        Harmonic clusters are distinguished from non-harmonic ones phonetically and
+phonologically. Harmonic clusters can appear in stem-final position, never feature optional r-
+insertion, are copied in reduplication (e.g., /tsxel-tsxeli/ for /red-tsxeli/ ‘hot’), and according to
+speakers’ judgments, syllabify into the same syllable, e.g., /si.t’q’va/ ‘word’ (Butskhrikidze,
+2002, pp. 103–105). This latter claim is, however, disputed. Syllabification data are based
+exclusively on speakers’ judgments, and Chitoran (1998) reports inconsistent judgments in her
+experiment.
+
+         The phonetic status of harmonic clusters has been subject to even more debate. Harmonic
+clusters are either analyzed as complex, doubly articulated segments or as sequences of simple
+segments. Some analyses divide harmonic clusters even further: corono-dorsal clusters are
+analyzed as complex segments, whereas labio-dorsal clusters can be either clusters or complex
+segments with lexicalized distribution between the two (discussion in Chitoran, 1998). The basis
+for this distinction is the observation that corono-dorsal clusters can surface in three-stop
+clusters, e.g., /t’k’bili/ ‘sweet’, whereas labio-dorsals cannot.
+
+         Acoustic studies of Georgian harmonic clusters yield little support for the complex-
+segment analysis. Chitoran (1998) analyzed harmonic clusters and corresponding sequences of
+two obstruents across word boundary. Her study found no significant difference in proportion of
+released versus unreleased stops between harmonic clusters and “harmonic” sequences of stops
+across word boundary: the first and second element in clusters are equally frequently released in
+harmonic clusters compared to sequences of stops across word boundary. Harmonic clusters
+almost always have two releases, contrary to what has been described impressionistically in
+earlier literature. Similar results are obtained in McCoy (1999), who reports that all clusters in
+her experiment feature two releases and that in voiced harmonic clusters a presence of an
+automatic transitional vowel was detected (e.g., [dəas] for /das/). Moreover, measurements of
+duration do not support the complex-segment analysis either. Duration of harmonic clusters is
+not shorter compared to sequences of stops across word boundary (Chitoran, 1998; also McCoy,
+1999).
+
+       Georgian clusters have also been analyzed articulatorily (Chitoran, Goldstein, & Byrd,
+2002; Zhghent’i, 1956). Cross-linguistically, clusters have been found to have significantly less
+overlap word-initially, and significantly less overlap in front-to-back clusters compared to back-
+
+
+                                                   29
+to-front clusters. It has been argued that these patterns stem from perceptual recoverability;
+word-initially, clusters lack formant transitions into closure. It is reasonable to assume that the
+minimal overlap results from the need for more perceptual cues in a position where such cues are
+reduced. A similar explanation has been proposed for the smaller degree of overlap in back-to-
+front clusters. If back-to-front clusters overlap to a high degree, the release of the first segment in
+the cluster occurs when the second stop is still unreleased, which again reduces perceptual cues
+(as summarized in Chitoran, Goldstein, & Byrd, 2002).
+
+        Georgian clusters that feature a division into two groups (harmonic or recessive and non-
+harmonic or non-recessive) are perfect for testing these hypotheses. Chitoran, Goldstein, & Byrd
+(2002) conducted an articulatory experiment involving two speakers of Georgian, with EMA
+measurements of cluster articulations. Their study confirms the hypotheses outlined above: there
+is significantly less overlap in word-initial clusters and significantly less overlap in back-to-front
+(non-harmonic) clusters. Chitoran, Goldstein, & Byrd (2002) also suggest that it is precisely the
+high degree of overlap in front-to-back clusters that is responsible for the requirement of
+harmonic clusters to agree in laryngeal features. In other words, a high degree of overlap means
+that laryngeal features of the first stop are realized at the onset of the second stop, i.e., the
+members of the cluster share laryngeal features.
+
+        The hypothesis outlined above—that perceptual factors influence the degree of gestural
+overlap—leads to questions concerning the interplay of synchronic and diachronic effects on
+phonetics and phonology. While it is true that greater overlap in front-to-back clusters could be
+caused by perceptual mechanisms, this is not the only possible cause. Chitoran, Goldstein, &
+Byrd (2002) mention that the origin of harmonic clusters are likely velarized obstruents that later
+segmented into a sequence of two stops (as proposed in Gamkrelidze & Ivanov, 2010). However,
+they do not discuss the implications of this historical development. If Gamkrelidze’s
+reconstruction holds, then we expect harmonic clusters that go back to single segments to have
+greater overlap by virtue of their origin, not necessarily because of perceptual recoverability.
+
+         That perception cannot be the only cause of differences in degree of overlap is argued in
+subsequent articulatory work on Georgian clusters. Chitoran and Goldstein (2006) measured
+overlap in clusters of a stop and a sonorant. There too, back-to-front clusters such as [kl] and [rb]
+“are less overlapped” than front-to-back clusters (reported in Chitoran & Cohn, 2009), although
+perceptual recoverability plays a much smaller role when sonorants are members of clusters. In
+fact, as Chitoran and Cohn (2009, p. 35) point out, “liquids do not rely on their releases in order
+to be correctly perceived.” The authors then suggest that “perceptual recoverability is not directly
+encoded in the in the phonology.” Phonetic differences in the degree of overlap may have
+emerged for perceptual reasons, but were then phonologized over time, generalized, and encoded
+as part of phonological grammar. The problem of different degrees of overlap in consonant
+clusters across different types and positions, as well as the question of their causes and origins
+thus requires further investigation.
+
+        Harmonic and non-harmonic clusters of two obstruents represent just a subset of licit
+clusters. Kartvelian languages have consonant clusters with up to six consonants in word-initial
+position. Perhaps the most famous example is the Georgian word /phrthskhvna/ ‘to peel’.
+
+
+
+
+                                                  30
+        Large clusters are governed by different phonotactic rules across Kartvelian languages
+(Harris, 1991c; Öztürk & Pöchtrager, 2011, among others). Common to all restrictions is that
+longer clusters obligatorily include sonorants. For example, Megrelian clusters of two obstruents
+can only be preceded by an /r/ or an /n/ and followed by a /v/ (Harris, 1991c, based on Gudava &
+Gamkrelidze, 1981).
+
+        Kartvelian clusters thus pose a problem to the Sonority Sequencing Principle (SSP): if
+sonorants precede segments with lower sonority such as voiceless stops, SSP is violated quite
+severely (as in /phrthskhvna/). Some analyses of Kartvelian clusters argue that these sonorants
+are syllabic and that harmonic clusters are doubly-articulated single segments (Butskhrikidze,
+2002). Under this analysis then, the SSP would not be violated. For example, /p’rʧ’χ’ali/ would
+be analyzed as [p’r̩.ʧ͡ ’χ’ali] or an initial sequence /bdɣvn-/ would be analyzed as [b͡dɣvna-] or
+possibly [b͡dɣwna-] without SSP violations. There is, however, little external support for such a
+hypothesis: harmonic clusters do not behave as complex segments according to phonetic
+analyses, and syllabification arguments are based solely on speakers’ judgments which are
+inconsistent (Chitoran, 1998). Phonetic analyses might reveal that sonorants undergo substantial
+reductions in sonority in the cluster environment, which would mean that SSP would not be
+violated. This is suggested by the realization of /r/, which is reported as devoiced before
+voiceless obstruents (Butskhrikidze, 2013; Sturm, 2016; Zhghent’i, 1956). Further acoustic and
+articulatory studies of phonetic realization of sonorants in clusters are much needed.
+
+3.2 Svan clusters
+
+Some aspects of cluster phonotactics differ across Kartvelian languages. Long clusters in
+Georgian are restricted to word-initial position. This distribution is reversed in Svan: word-
+initially, Svan allows only one two-member harmonic cluster (or a cluster that historically goes
+back to a harmonic cluster) with an optional following [w], while no such restriction exists for
+word-final position (Tuite, 1998a). Tuite (1998a; citing Zhghenti, 1949) illustrates long word-
+final clusters in Svan: /axeqws/ you stole up on something’ or /xoswʒ/ ‘I ordered
+somebody’.
+
+        The restriction against word-initial clusters to the exclusion of word-final clusters is
+likely part of active phonology in Svan and is reflected in loanword phonology and
+morphophonological alternations. For example, initial clusters in loanwords undergo epenthesis
+(/karavæt/ < Rus. krovat bed). The restriction against initial clusters is also revealed
+morphophonologically, in metathesis and epenthesis: /x/ of the prefix /xw-/ is deleted and /w/ is
+metathesized before a consonant-initial root, e.g., /xw-t’ix-e/  [t’wixe] ‘I return it’ (Tuite,
+1998a). If metathesis is not available, initial clusters are repaired by epenthesis, e.g., /m-t’ix-e/
+ [mət’xe].
+
+        While longer clusters in Svan are not restricted to codas specifically, they are restricted to
+word-final position, where they necessarily appear in the coda position. In other words, Svan
+syllables allow many more complex codas than complex onsets. The concentration of clusters
+word-initially vs. word-finally in Georgian and Svan leads to questions concerning phonetic
+motivation in phonotactics. We also know that initial clusters are articulated with greater degree
+of overlap compared to final clusters, which was confirmed by articulatory studies on Georgian.
+
+
+                                                  31
+To my knowledge, no articulatory studies of Svan clusters exist; experimental studies on the
+topic would provide information on whether the universal distribution of the degree of overlap
+holds true even for languages in which complex codas are more frequent than complex onsets.
+
+3.3 Outside Kartvelian
+
+Consonant clusters are much more restricted in Nakh-Dagestanian and Northwest Caucasian
+languages as compared to Kartvelian. The maximal syllable structure in many languages is CVC.
+Godoberi is among the languages with the most restricted syllable structure (Kodzasov, 1996;
+Saidova, 2004): syllables can only be closed with a sonorant or the labial [b] (Kodzasov, 1996).
+The tendency toward open syllables is also strong in Tsez (Alekseev & Radzhabov, 2004). While
+clusters are more restricted in Nakh-Dagestanian and NWC, Catford (1977) notes that most
+morpheme-initial clusters in Northwest Caucasian and intra-morphemic clusters in Nakh
+languages observe the same restriction as in Kartvelian whereby only harmonic clusters are
+possible, agreeing in laryngeal features, recessive, and consisting of a stop and a stop or fricative.
+The division of clusters into harmonic and non-harmonic thus appears to be shared by all
+Caucasian languages.
+
+4 Processes
+
+Caucasian phonological systems are not characterized by a great amount of active synchronic
+phonological alternations. Some of the more common processes include vowel deletion in hiatus;
+root-final vowel deletion before a grammatical morpheme (e.g., in Nakh-Dagestanian); vowel
+deletion in open syllables; metathesis of /v/ and /r/ driven by the SSP (e.g., in Katvelian); voice,
+place, or manner assimilation in clusters; dissimilation of two rhotics (e.g., in Georgian, Abkhaz,
+Abaza); labialization and delabialization of obstruents before rounded vowels; pharyngeal
+spreading; and vowel harmony (e.g., in Svan, Bezhta, Tsakhur).
+
+Several processes that have the potential to affect phonological theory have gone unnoticed in
+Caucasian linguistics. I present them here with an appeal for further investigation, as many of
+these processes are poorly described.
+
+4.1 Laz identical consonant deletion
+
+The Khopa subdialect of Laz, spoken in Sharpi, has a rule of identical consonant deletion. In a
+VCiVCi sequence, the first consonant is deleted in order to satisfy the OCP constraint: two
+identical segments are not permissible within adjacent syllables. Deletion of the consonant
+results in a hiatus that remains unresolved, e.g., /mkjapu-pe-k/  [mkjaupek], /op’ʦ’op-up-t/ 
+[op’ʦ’oupt] or /bʤiraminonja/  [bʤiamionja] (Holisky, 1991, based on Kartozia, 1968). In the
+Optimality Theoretic framework, this alternation is easy to account for: the OCP constraint that
+penalizes two identical consonants in onsets of adjacent syllables is ranked above the Max
+constraint. Despite theoretical predictability, such deletion, where a consonant is dropped before
+an identical consonant in the following syllable, is not typologically frequent. 0004866621.
+
+4.2 Megrelian nasalization
+
+
+
+                                                 32
+Harris (1991c) describes a rule in Megrelian whereby /ph/, /p’/, /b/, and /m/ turn into [n] before a
+consonant across a morpheme boundary, e.g.[k’oʦ-ep-i] vs. [k’oʦ-en-k] and [k’oʦ-en-s].
+
+(1) [+lab] -> [+cor,+nas] / _- [+cons].
+
+This alternation is limited to morpheme boundaries: it constitutes a case of Non- Derived
+Environment Blocking (NDEB; Kiparsky, 1993) where, as the name suggests, an alternation
+only operates in derived environments and is blocked elsewhere. Moreover, the alternation is not
+completely regular: it does not apply in all morphological environments (Harris, 1991c). This
+alternation triggers both change in manner, from obstruents to nasals, as well as change in place
+of articulation, from labial to coronal. At first sight, the alternation appears phonetically highly
+unmotivated; nasalization in a non-nasal environment (before a voiceless stop) is not
+phonetically easy to motivate. However, Megrelian syllable structure and cluster phonotactics
+might motivate the rule internally. It is reasonable to assume that the change in manner is
+motivated by the SSP: plateaus such as /-phkh#/ or /-phs#/ are repaired by increasing the sonority
+of the first element. Note, however, that /phs/ is a licit cluster in Megrelian. The change in place
+could be motivated by a restriction on Megrelian clusters, whereby the first element of a cluster
+in which second element is an obstruent has to be either /r/ or /n/. Further descriptive and
+experimental work is needed for more conclusive results.
+
+4.3 Focus gemination
+
+One of the more intriguing processes in Nakh-Dagestanian is focus gemination, reported for
+Chechen and Ingush (Nichols, 1994, 2011). The process targets the last intervocalic consonant in
+Chechen and first post-vocalic consonant of a word in Ingush when that word is in focus or
+emphasized. The consonant undergoes gemination, e.g., Ingush /lʌqʌ/ ‘high’ versus /lʌqqʌ/
+‘high.foc’ (Nichols, 2011). This process could also be analyzed as a C-reduplication of focused
+words, but because another synchronic process, word-final-gemination, produces identical results
+in Ingush (see 15.4.5), the analysis with gemination seems appropriate. In addition to
+gemination, focused words receive a special intonational pattern with both vowels around the
+geminated consonant receiving high pitch and emphasis. This intonation gives an acoustic
+impression of the word under focus featuring two stressed syllables (Nichols, 2011).
+
+      As Nichols points out, syntactic conditions of gemination are not always clear. For
+Chechen, this process seems to be “frozen in the lexicon” (Nichols, 1994, p. 20), but no such
+remarks are made for Ingush.
+
+       A similar process is reported in some verbal stems in Abkhaz (Hewitt, 1979a), where it is
+sporadic and analyzed as reduplication, e.g., /a-ħwa-ra/ ‘to say’ and /a-ħwħwa-ra/ ‘to cry’.
+Gemination/reduplication in Abkhaz serves several functions: from adding intensive semantic
+component to onomatopoeia (Hewitt, 1979a). Further studies of this typologically rare
+phenomenon are needed.
+
+
+
+
+                                                 33
+4.4 Reduplication
+
+Several reduplicative patterns emerge in Caucasian languages, ranging from C- or
+CVreduplication to total reduplication (e.g., Butskhrikidze, 2002; Schulze, 1997b). A
+typologically rare pattern is reported for Hinuq by Forker (2013c): reduplication morpheme is of
+the structure CVC(V), but the initial consonant of the reduplicated stem is replaced by /m/ or /t’/,
+e.g., [koɬe] versus [koɬe-moɬe], [ħali] versus [ħali-malica], [kottu] versus [k’ot-mottu], [roq’e] for
+[roq’e-t’oq’e]. The semantics of this reduplication is ‘more emphatic or more extreme’ and can
+target different parts of speech. This reduplication pattern is highly reminiscent of echo
+formations or the so-called shm-reduplication, but the semantics of Hinuq reduplication differs
+from the semantics of echo formations. Echo formations are “used to downplay or deride a
+particular phrase” (Nevins & Vaux, 2003); Hinuq reduplication is used for emphasis. This
+suggests that echo-formation types of reduplication which manipulate root-initial segments are
+possible in the function other than that of downplaying.
+
+
+
+4.5 Processes targeting word-final voiceless stops
+
+The rest of this section focuses on two processes in Nakh-Dagestanian that target consonants in
+word-final position: final gemination and final voicing. Both processes are typologically rare and
+arguably unnatural: they target the unmarked segment and turn it into a marked segment in a
+given environment. While final gemination might be phonetically motivated, final voicing is
+truly unnatural: it operates against a universal phonetic tendency that devoices word-final voiced
+obstruents (Beguš, 2019).
+
+4.5.1 Final gemination
+
+Nichols (2011) reports that consonants are geminated in word-final position in Ingush. Voiceless
+obstruents alternate with existing voiceless geminates, whereas consonants without phonemic
+geminate counterparts get phonetically geminated, e.g., [bʌtː] for /bʌt/ or [maːw] for /maw/.
+Final gemination also targets stops and affricates (but not fricatives) in some, but not all, word-
+final clusters: [fordː] for /ford/. The application of the rule is morphologically conditioned: it
+applies in only a subset of morphological forms (Nichols, 2011).
+
+Final gemination is typologically an unusual process. A survey of sound changes in Kümmel
+(2007) found only one case of final gemination, which, moreover, targets only a coronal nasal.
+Geminates are also articulatorily and perceptually dispreferred in wordfinal position. Long
+consonants are in general articulatorily more difficult to produce, but even more so in word-final
+position where segments have “reduced pulmonary pressure” (Iverson & Salmons, 2011, p.
+1633). In addition, perceptual cues for closure duration are severely impoverished in word-final
+position.
+
+       While final gemination seems to operate against a universal phonetic tendency, it can also
+be motivated by a process that lengthens final segments. Segments are cross- linguistically
+phonetically longer in word-final position (Lindblom, 1968; Oller, 1973). Final gemination can
+
+
+                                                 34
+thus be analyzed as a phonetically motivated result of word-final phonetic lengthening. The
+morphologically limited scope of this rule, however, suggests that final gemination did not arise
+from a single sound change.
+
+4.5.2 Final voicing
+
+Word-final or coda voicing (/T/  [D] / _#) is one of the most thoroughly discussed
+phonological processes. It is assumed to be a highly unnatural process which is either impossible
+or unattested synchronically.
+
+         The opposite process, final devoicing, has clear articulatory and perceptual motivations:
+phonation is difficult to maintain during closure, and this difficulty is even greater word-finally,
+where stops are produced “with reduced pulmonary pressure” (Blevins, 2004; Iverson &
+Salmons, 2011, p. 1633). Moreover, cues for presence or absence of voicing are perceptually
+impoverished in final position (Iverson & Salmons, 2011; Steriade, 1997). Passive phonetic
+devoicing in word-final position is attested even in languages without phonological final
+devoicing. Word-final devoicing thus fits the bill for a universal phonetic tendency (Beguš,
+2019): it has a well-motivated phonetic explanation; there exists a phonetic tendency to devoice
+final stops even in languages without phonological devoicing; and it is very common and well-
+attested cross-linguistically.
+
+       Kiparsky (2006) claims that final voicing is never attested as a productive synchronic
+process, despite several diachronic scenarios that could lead to it (he identifies several such
+scenarios). In fact, he goes a step further and claims that final voicing is not only unattested but
+also impossible and that cognitive restrictions of synchronic grammar are responsible for this
+typological gap.
+
+         Because of these claims, final voicing has become a test case for the discussion of factors
+that influence phonological typology. The absence of final voicing is used as evidence in favor of
+the Analytic Bias approach that claims cognitive restrictions shape the typology; if diachronic
+explanation (Channel Bias; Moreton, 2008) is unable to explain the systematic gap, it has to be
+Universal Grammar that rules out final voicing. Blevins (2004) presents several cases of final
+voicing, but Kiparsky (2006) argues that none of these apparent cases qualiy as synchronic final
+voicingor, at least, that the described phenomena have competing alternative explanations.
+
+        The most robust example of word-final voicing is found in Lezgian, where word-final
+voicing targets final unaspirated stops and voices them, e.g., /rap/  [rab] needle’ (Fallon,
+1998; Gajdarov, Giulmagomedov, Mejlanova, & Talibov, 2009; Haspelmath, 1993; Yu, 2004).
+Haspelmath (1993) and Yu (2004, p. 77) report that Lezgian distinguishes four stop series
+prevocalically (plain voiced, voiceless ejective, voiceless aspirated, and plain voiceless), which
+in coda position get reduced to a three-way distinction: the plain voiceless series and voiced
+series merge into a single voiced series. In other words, Lezgian features a synchronic
+phonological alternation that targets an unmarked segment, word-final unaspirated voiceless
+stop, and turns it into a marked segment, voiced stops. Final voicing is limited to monosyllabic
+words.
+
+
+
+                                                 35
+        The phonetic study in Yu (2004), however, shows that underlying voiced and plain
+voiceless series do not neutralize completely: there is a statistically significant difference
+between the two series in word-final position. Voiced consonants that derive from underlying
+plain voiceless stops have a significantly longer closure duration as well as a longer duration of
+voicing into closure. If we wish to maintain that Lezgian voices final stops, we must, at the same
+time, assume that these consonants receive (at least phonetic) lengthening as well. It is unclear
+from a synchronic perspective why this should happen.
+
+        The fact that the two series do not neutralize completely allows Kiparsky (2006) to
+propose an alternative analysis. He assumes that the Lezgian synchronic phonological system has
+four series of stops, but unlike Yu, he proposes that the fourth series consists of voiced
+geminates. Thus, instead of coda voicing, he assumes that the process in Table 15.10 is in fact
+onset degemination and devoicing (/Dː/  [T] / σ[_). Table 15.11 summarizes the two analyses.
+
+       Kiparsky’s (2006) analysis, too, has its shortcomings. Like Yu, Kiparsky has to devise a
+two-step process: devoicing and degemination of voiced geminates in onset position, and onset
+devoicing is not a particularly common process in its own right. However, this derivation is by
+no means impossible, and Kiparsky (2008) provides evidence from other languages including
+Mordvin, Ewondo, and Lac Simon Algonquian (Iverson, 1983), demonstrating that initial
+devoicing is a possible synchronic phonological process. As a sound change, such development
+may be attested in Anatolian and in Selkup (Kümmel, 2007).
+
+        In sum, although Lezgian provides an apparently compelling example of final voicing,
+two major problems persist. First, the voicing process is limited to monosyllabic words. Second,
+the plain voiceless and voiced series do not neutralize completely in coda position; a phonetic
+difference between the two series is detectable. These problems pave the way for alternative
+proposals that analyze the alternating series as underlyingly voiced and assume that the
+synchronic phonological process in Lezgian is in fact onset devoicing rather than final voicing.
+Additionally, lack of speaker data from nonce word tests makes it difficult to determine how
+productive this process actually is. Further investigation of this typologically rare process is
+needed. For instance, wug tests could provide information on productivity, and dialectal research
+might reveal varieties that neutralize voiceless and voiced stops completely in word-final
+position.
+
+
+
+Place           #             VV
+bilabial        rab           rapar          ‘needle’
+dental          pad           patar          ‘side’
+velar           mug           mukar          ‘nest’
+uvular          raɢ           raqar          ‘sun’
+dental          warz          warʦar         ‘moon’
+post-alveolar   raʒ           raʧar          ‘grain’
+
+Table 10: Final voicing in Lezgian
+
+
+
+                                                36
+Note: From Haspelmath (1993).
+
+
+
+
+ Yu (2004) Kiparsky (2006)
+Input Output Input Output
+      V #           σ [ ]σ
+  D D D        D    D D
+  T’ T’ T’ T’      T’ T’
+  Th Th Th Th      Th Th
+  T T D       D:    T D:
+
+Table 11: Different input analyses of Lezgian stops in Yu (2004) and Kiparsky (2006)
+
+5 Conclusion and future directions
+
+This chapter surveyed major topics of segmental phonetics, phonotactics, and phonological
+alternations of Caucasian languages. Details on individual languages can be found in descriptive
+chapters on language families and individual languages in this volume.
+
+        The section on phonemic inventories focuses on a few main topics in each family:
+laryngeal features, typologically rare segments or rare phonemic oppositions, and
+pharyngealization. New experimental data from Georgian are presented and some phonetic
+generalizations, such as gradual shortening of aspiration in the context before another aspirated
+stop, are reported for the first time. The first section also features a new acoustic and statistical
+analysis of already existing recordings of Ubykh. The section on phonotactics focuses on
+consonant clusters and their role in the discussion on the role of perception versus production in
+phonology. Finally, the last section on active phonological alternations reviews data from
+Caucasian in light of discussion on naturalness and universals in phonology.
+
+        Each section reveals that even the major topics in Caucasian phonetics and phonology are
+understudied and point to those aspects that merit further research. It is surprising that languages
+of the Caucasus have not received more attention in phonetic and phonological literature,
+especially given their rich inventories of segments and a number of typologically unusual
+processes.
+
+         Several research projects could produce results that would be relevant for phonetic and
+phonological theory. Pharyngeals and pharyngealization, velar lateral fricatives, ejective
+fricatives, and doubly articulated bilabio-alveolar stops are some of the highly unusual segments
+of Caucasian languages, yet detailed and systematic phonetic descriptions of these phenomena
+are still lacking. Standards and technological availability of both acoustic and articulatory
+research tools and methods have improved dramatically since last major studies of Caucasian
+phonetics were undertaken; thus, the first next step in phonetic research of the Caucasus should
+involve instrumental acoustic and articulatory descriptions of at least those dialects that feature
+typologically unusual segments. Articulatory real-time MRI or ultrasound studies of pharyngeals,
+epiglottals, pharyngealization, and epiglottization could offer insight into the phonetics of the
+
+
+
+                                                  37
+radical part of the vocal tract and answer questions such as the following: Is phonemic contrast
+between pharyngeal and epiglottal place of articulation possible? What are acoustic correlates of
+pharyngeal versus epiglottal place of articulation? Exactly how many different possible
+articulations are there in the radical part of the vocal tract and what are their mechanisms, and
+what (if any) are phonetic differences between consonantal and vocalic pharyngealization?
+Articulatory studies of velar laterals, NWC series of sibilants, and ejective fricatives would
+reveal where precisely in the vocal tract the point of constriction is made for these segments and
+what are their acoustic correlates. The outstanding question of how we define a doubly
+articulated stop versus a secondary articulation and, relatedly, are doubly articulated bilabio-
+alveolar stops even possible should be explored on the case of NWC labialized alveolars: further,
+articulatory and acoustic studies of these segments, especially with respect to timing difference
+between two constrictions, are a desideratum.
+
+        Other topics worthy of further investigation include correlation in different acoustic
+parameters between stops with different laryngeal features (both intra- and inter-dialectally),
+phonetic typology of ejectives, phonetic effects of ejectives on neighboring sounds, and causes
+of aspiration dissimilation.
+
+         In phonology, several experimental studies could have a bearing on theory construction.
+An experimental study in the form of well-formedness judgments could reveal whether the
+restriction of large clusters to word-initial versus word-final position in Georgian versus Svan is
+part of active synchronic phonology in these two languages. Likewise, Lezgian final voicing has
+been analyzed phonetically and phonologically in detail, but no experimental studies exist that
+test synchronic productivity of this rule, and those would provide invaluable further insights into
+naturalness in phonology. Similarly, thorough descriptive and experimental studies of other less
+well-described unnatural or typologically unusual processes discussed in this chapter, such as
+final gemination, focus gemination, Megrelian nasalization, or Laz identical consonant deletion,
+would also yield further insights for theoretical questions in phonology.
+
+
+
+Acknowledgements
+
+I would like to thank Lena Borise, Marika Butskhrikidze, Ioana Chitoran, and Maria Polinsky for
+their helpful discussion on aspects of Caucasian phonetics and phonology. Some experimental
+results are reported for the first time in this chapter. The experiments were funded by the Mind
+Brain Behavior initiative at Harvard University and the Abby and George O’Neill Research
+Grant at Davis Center at Harvard University to the author, as well as the NSF grants BCS-
+1144223 and BCS-1619857 to Maria Polinsky.
+
+
+References
+
+
+
+
+                                                38
+Akhvlediani, G. (1949). Zogadi ponet’ik’is sapudzvlebi. [Foundations of general phonetics]. Tbil-
+       isi: Tbilisis Sakhelmc’ipo Universit’et’is Gamomcemloba.
+Alekseev, Mikhail E. (ed.). 1998. Jazyki mira: Kavkazkie jazyki. Moscow: Izdatel’stvo Academia.
+Alekseev, M. E. and R. N. Radžabov. 2004. Tsez. In Michael Job (ed.), The North East Caucasian
+       Languages. The indigenous languages of the Caucasus 3. Part 1. 115-168. Delmar, NY:
+       Caravan Books.
+Allen,W. S. 1956. Structure and system in the Abaza verbal complex. Transactions of the Philo-
+       logical Society 55:127-176.
+Allen, W. S. 1965. On one-vowel systems .Lingua 13: 111-124.
+Anderson, G. D. S. 1997. Lak phonology. In Alan S. Kaye and Peter T. Daniels (eds.), Phonologies
+       of Asia and Africa (Including the Caucasus). 973-997. Winona Lake, IN: Eisenbrauns.
+Authier, Gilles. 2009. Grammaire Kryz (langue caucasique d’Azerbaı̈djan, dialecte d’Alik). Paris:
+       Peeters.
+Bates, Douglas, Martin Maechler, Ben Bolker, and Steve Walker 2015. Fitting Linear Mixed-
+       Effects Models Using lme4. Journal of Statistical Software 67(1): 1-48.
+Beguš, Gašper. 2016. Post-Nasal Devoicing and a Probabilistic Model of Phonological Typology.
+       Ms., Harvard University. (lingbuzz/003232)
+Beguš, Gašper. 2017. Effects of ejective stops on preceding vowel duration. Journal of the Acous-
+       tical Society of America 142(4): 2168-2184
+Beguš, Gašper and Aleksei Nazarov. 2017. Lexicon against naturalness: Unnatural gradient
+       phonotactic restrictions and their origins. Ms., Harvard University.
+Bessell, Nicola J. 1992. Towards a phonetic and phonological typology of post-velar articulation.
+       Ph.D. Thesis, University of British Columbia.
+Blevins, Juliette. 2004. Evolutionary Phonology. Cambridge: Cambridge University Press.
+Boersma, Paul and David Weenink. 2015. Praat: doing phonetics by computer [Computer pro-
+       gram]. Version 5.4.06, retrieved 21 February 2015 from http://www.praat.org/.
+Bokarev, E. A., K. V. Lomtatidze, Y. D. Dešeriev, G. B. Murkelinskij, M. A. Kumaxov, S. M.
+       Xajdakov, and A. K. Šagirov (eds.). 1967. Jazyki narodov SSSR. Volume 4: Iberijsko-
+       kavkazskie jazyki. Moskva: Akademija nauk SSSR.
+Butskhrikidze, Marika. 2002. The Consonant Phonotactics of Georgian. Utrecht: LOT.
+Butskhrikidze, Marika. 2013. /r/ drop in Colloquial Georgian. Ms.
+Catford, J.C. 1972. Labialization in Caucasian languages, with special reference to Abkhaz. In A.
+       Rigault and R. Charbonneau (eds.), Proceedings of the Seventh International Congress of
+       Phonetic Sciences. 679-682. The Hague.
+Catford, J. C. 1977. Mountain of Tongues: The Languages of the Caucasus. Annual Review of
+       Anthropology 6(1): 283-314.
+Catford, J.C. 1983. Pharyngeal and laryngeal sounds in Caucasian languages. In D. M. Bless and J.
+       H. Abbs (eds., Vocal Fold Physiology: Contemporary Research and Clinical Issues 344-350.
+       San Diego, CA: College Hill Press.
+Charachidze, Georges. 1981. Grammaire de la langue avar. Paris: Éditions Jean-Favard.
+
+
+
+                                                1
+Chen M. 1970. Vowel length variation as a function of the voicing of the consonant environment.
+       Phonetica 22(3). 129-159.
+Chitoran, Ioana. 1998. Georgian harmonic clusters: phonetic cues to phonological representation.
+       Phonology 15: 121-141.
+Chitoran, I., L. Goldstein, and D. Byrd. 2002. Gestural Overlap and Recoverability: Articulatory
+       Evidence from Georgian. In C. Gussenhoven and N. Warner (eds.) Laboratory Phonology
+       7. 419-447. Berlin: Mouton de Gruyter.
+Chitoran, I. and L. Goldstein. 2006. Testing the phonological status of perceptual recoverability:
+       Articulatory evidence from Georgian. Poster presented at Laboratory Phonology 10, Paris,
+       France, June-July 2006.
+Chitoran, I. and A. C. Cohn. 2009. Complexity in phonetics and phonology: Gradience, categori-
+       ality, and naturalness. In F. Pellegrino, E. Marsico, I. Chitoran, C. Coupé (eds.), Approaches
+       to Phonological Complexity. 21-46. Berlin: Mouton de Gruyter.
+Chirikba, Viacheslav. A. (2003). Abkhaz. Munich: Lincom Europa.
+Choi, Jonh D. 1991. An acoustic study of Kabardian vowels. Journal of the International Phonetic
+       Association 21(1): 4-12.
+Colarusso, John. 1988. The Northwest Caucasian Languages: A Phonological Survey. New York:
+       Garland.
+Davidson, Lisa. 2016. Variability in the implementation of voicing in American English obstruents.
+       Journal of Phonetics 54: 35-50.
+Durvasula, Karthik and Qian Luo. 2014. Voicing, aspiration, and vowel duration in Hindi. Pro-
+       ceedings of Meetings on Acoustics 18(1): 060009.
+Džejranišvili, E. F. 1959. Faringalizovanye glasnye v Tsakhursko-Rutul’skom i Udinskom jazykakh.
+       Iberijsko-Kavkazkoe Jazykoznanie 11: 339-335.
+Esling, John H. 1996. Pharyngeal Consonants and the Aryepiglottic Sphincter. Journal of the
+       International Phonetic Association 26(2): 65-88.
+Esling, John H. 1997. Pharyngeal approximants, fricatives, trills, and stops. Working Papers of the
+       Linguistics Circle of the University of Victoria 14. 1-12.
+Esling, John H. 1999. The IPA categories “pharyngeal” and “epiglottal”: Laryngoscopic observa-
+       tions of the pharyngeal articulations and larynx height. Language and Speech 42: 349-372.
+Esling, John H. 2010. Phonetic notation. In William J. Hardcastle, John Laver, and Fiona E.
+       Gibbon (eds.), The Handbook of Phonetic Sciences. Second Edition. 678-702. Oxford:
+       Blackwell.
+Fallon, Paul D. 1995. Synchronic and Diachronic Typology: The Case of Ejective Voicing. Pro-
+       ceedings of the Twenty-First Annual Meeting of the Berkeley Linguistics Society: General
+       Session and Parasession on Historical Issues in Sociolinguistics/Social Issues in Historical
+       Linguistics. 105-116.
+Fenwick, Rohan S. H. 2011. A grammar of Ubykh. Munich: Lincom Europa.
+Forker, Diana. A Grammar of Hinuq. Berlin: Mouton de Gruyter.
+Fox, John. 2003. Effect Displays in R for Generalised Linear Models. Journal of Statistical
+       Software 8(15): 1-27.
+
+                                                 2
+Gajdarov, R. I., A. G. Gjulmagomedov, U. A. Mejlanova, and B. B. Talibov. 2009. Sovremennyj
+      lezginskij jazyk. Maxačkala: IJaLI DNC RAN.
+Gamkrelidze Thomas V. and Vjaceslav V. Ivanov. 2010. Indo-European and the Indo-Europeans. A
+      Reconstruction and Historical Analysis of a Proto-Language and Proto-Culture. Tr. Johanna
+      Nichols. Berlin: De Gruyter Mouton.
+Garrett, Andrew. 2015. Sound change. In Claire Bowern and Bethwyn Evans (eds.), The Routledge
+      Handbook of Historical Linguistics. 227-248. London: Routledge.
+Gaprindašvili, Šota G. 1966. Fonetika Darginskogo Jazyka. Tbilisi: Macniereba.
+Gordon, Matthew, and Ayla Applebaum. 2006. Phonetic Structures of Turkish Kabardian. Journal
+      of the International Phonetic Association 36(2): 159-86.
+Gordon, Matthew, and Ayla Applebaum. 2013. A comparative phonetic study of the Circassian
+      languages. Berkeley Linguistics Society: 3-17.
+Gordon, Matthew, Paul Barthmaier, and Kathy Sands. 2002. A cross-linguistic acoustic study of
+      fricatives. Journal of the International Phonetic Association 32: 141-174.
+Grawunder, Sven, Adrian Simpson and Madzhid Khalilov. 2010. Phonetic characteristics of ejec-
+      tives — samples from Caucasian languages. In Susanne Fuchs, Martine Toda, and Marzena
+      Zygis, Turbulent Sounds. 209-244. Berlin: De Gruyter Mouton.
+Gudava, Togo and Tamaz Gamkrelidze. 1981. Tanxmovantk’omp’leksebi megrulshi [Consonant
+      clusters in Mingrelian], Ak’ak’i Shanizhes [Festschrift]. 202-243.
+Hargus, Sharon. 2007. Witsuwit’en Grammar: Phonetics, Phonology, Morphology. Vancouver:
+      University of British Columbia Press.
+Harris, Alice C. 1991. Mingrelian. In Alice C. Harris (ed.), Kartvelian Languages. The indigenous
+      languages of the Caucasus 1. 313-349. Delmar, NY: Caravan Books.
+Haspelmath, Martin. 1993. Lezgian grammar. Berlin: Mouton de Gruyter.
+Hayes, Bruce. 2016. Varieties of Noisy Harmonic Grammar. Talk presented at Annual Meeting on
+      Phonology on October 21, 2016, University of Southern California.
+Heap, Lynn M. 1997. Acoustic analysis of pharyngeal approximants, fricatives, trills, and stops.
+      Working Papers of the Linguistics Circle of the University of Victoria. 13-22.
+Hewitt, B. G. 1979. Abkhaz. Lingua Descriptive Studies, Vol. 2. Amsterdam: North-Holland
+      Publishing Company.
+Hewitt, George. 2004. Introduction to the Study of the Languages of the Caucasus. Munich:
+      Lincom Europa.
+Holisky, Dee Ann. 1991. Laz. In Alice C. Harris (ed.), Kartvelian Languages. The indigenous
+      languages of the Caucasus 1. 395-472. Delmar, NY: Caravan Books.
+Hothorn, Torsten, Kurt Hornik, Mark A. van de Wiel, and Achim Zeileis. 2006. A Lego System
+      for Conditional Inference. The American Statistician 60(3): 257-263.
+Ibragimov, G. X. 1968. Fonetika Caxurskogo jazyka. Maxačkala: Dagestanskij filial akademii
+      nauk SSSR.
+Ibragimov, G. X. 1990. Caxurskij jazyk. Moscow: Nauka.
+Imnadze, Nat’ela. 1981. Zanuri enis megruli dialek’tis bgerit’i sedgeniloba [The sound structure
+      of the Megrelian dialect of the Zan language]. Tbilisi: Mecniereba.
+
+                                               3
+Iverson, Gregory. 1983. Voice alternations in Lac Simon Algonquian. Journal of Linguistics 19:
+       161-164.
+Iverson, Gregory K. and Joseph C. Salmons. 2011. Final Devoicing and Final Laryngeal Neu-
+       tralization. In Marc van Oostendorp et al. (eds.), The Blackwell Companion to Phonology:
+       Suprasegmental and prosodic phonology. Volume 2. 1622-1643. Malden, MA: Wiley-
+       Blackwell.
+Jakobson, R., C. G. M. Fant, and M. Halle. 1951. Preliminaries to Speech Analysis. Cambridge,
+       MA: The MIT Press.
+Jatteau, Adèle and Michaela Hejná. 2016. Dissimilation can be gradient: Evidence from Aberyst-
+       wyth English. Papers in Historical Phonology 1: 359-386.
+Job, Michael (ed.). 2004. The North East Caucasian Languages. The indigenous languages of the
+       Caucasus 3. Part 1. Delmar, NY: Caravan Books.
+Kartozia, Guram. 1968. Masalebi lazuri zep’irsit’q’vierebisatvis [Material for Laz folklore]. Kar-
+       tuli lit’erat’uris sak’itxebi. 132-78. Tbilisi: SSSR MAG.
+Kibrik, A. E. 1994. Archi. In Rieks Smeets (ed), The North East Caucasian languages. The
+       indigenous languages of the Caucasus 4. Part 2. 297-365. Delmar, NY: Caravan Books.
+Kibrik, A. E. and S. V. Kodzasov. 1990. Sopostavitel’noe izuchenie dagestanskix jazykov: Imja.
+       Fonetika. Moscow: Izdatel’stvo Moskovskogo universiteta.
+Kibrik, A. E., S. V. Kodzasov, and I. P. Olovjanikova.1972. Fragmenty grammatiki Xinalugskogo
+       jazyka. Moscow: Izdatel’stvo Moskovskogo universiteta.
+Kibrik, A. E., and J. G. Testelets. 2004. Bezhta. In Michael Job (ed.), The North East Caucasian
+       Languages. The indigenous languages of the Caucasus 3. Part 1. 217-295. Delmar, NY:
+       Caravan Books.
+Kingston, John. 2005. The phonetics of Athabaskan tonogenesis. In Sharon Hargus and Keren
+       Rice (eds.), Athabaskan Prosody 137-184. Amsterdam: Benjamins.
+Kingston, John and Johanna Nichols. 1987. Pharyngealization in Chechen: Its Implications for
+       Phonetics and Phonology. Ms. Earlier version presented at 112th meeting of the ASA in
+       Anaheim, CA, Dec. 1986.
+Kiparsky, Paul. 1993. Blocking in non-derived environments. In S. Hargus and E. Kaisse (eds.),
+       Studies in lexical phonology. 277-313. San Diego: Academic Press.
+Kiparsky, Paul. 2006. Amphichronic linguistics vs.Evolutionary Phonology. Theoretical Linguis-
+       tics 32: 217-236.
+Kiparsky, Paul. 2008. Universals constrain change, change results in typological generalizations.
+       In Jeff Good, (ed.), Linguistic universals and language change. Oxford: OUP.
+Kodzasov, Sandro V. 1977. Fonetika Archinskogo Jazyka. In A.E. Kibrik, S.V. Kodzasov, I.P.
+       Olovjannikova, and D.S. Samedov (eds.), Opyt strukturnogo opisanija Archinskogo jazyka.
+       Vol. 1, 185-352. Moscow: Izdatel’stvo Moskovskogo Universiteta.
+Kodzasov, Sandro V. 1987. Pharyngeal features in the Daghestan languages. Proceedings of the
+       XIth International Congress of Phonetic Sciences. 2nd Volume. 142-144. Academy of
+       Sciences of the Estonian SSR, Tallinn, 1987.
+
+
+
+                                                4
+Kodzasov, Sandro V. 1996. Phonological preliminaries. In Alexandr E. Kibrik Sergej G. Tat-
+      evosov, and Alexander Eulenberg, Godoberi. 1-6. Munich: Lincom Europa.
+Komen, Erwin R. 2007. Chechen vowel inventory. In Pepijn Hendriks, Frank Landsbergen, Mika
+      Poss, and Jenneke van der Wal (eds.), Leiden (Working) Papers in Linguistics 4(1): 1-28.
+Kuipers, Aert H. 1960. Phoneme and morpheme in Kabardian (Eastern Adyghe). The Hague:
+      Mouton.
+Kümmel, Martin. 2007. Konsonantenwandel. Wiesbaden: Reichert.
+Kuznetsova, Alexandra, Per Bruun Brockhoff, and Rune Haubo Bojesen Christensen. 2016. lmerTest:
+      Tests in Linear Mixed Effects Models. R package version 2.0-33.
+Lacroix, René. 2009. Description du dialecte laze d’Arhavi (caucasique du sud, Turquie) - Gram-
+      maire et textes. Doctoral dissertation, Sciences du langage, Lyon 2.
+Ladefoged, Peter and Ian Maddieson. 1996. The Sounds of World’s Languages. Oxford: Black-
+      well.
+Lampp, Claire and Heidi Reklis. 2004. Effects of coda voicing and aspiration on Hindi vowels.
+      The Journal of the Acoustical Society of America 115(5): 2540-2540.
+Laufer, Asher, and Iovanna D. Condax. 1979a. The epiglottis as an articulator. Journal of the
+      International Phonetic Association 9(2): 50-56.
+Laufer, Asher, and Iovanna D. Condax. 1979b. The epiglottis as an articulator. UCLA Working
+      Papers in phonetics 45: 60-83.
+Leben, William R. 1973. Suprasegmental Phonology, Doctoral dissertation, MIT.
+Lindblom, B. 1968. Temporal organization of syllable production. Dept. for Speech, Music and
+      Hearing Quarterly Progress and Status Report 9(2-3): 1-5.
+Lisker, Leigh. 1957. Closure duration and the intervocalic voiced-voiceless distinction in English.
+      Language 33(1): 42-49.
+Luce, Paul, and Jan Charles-Luce. 1985. Contextual effects on vowel duration, closure duration,
+      and the consonant/vowel ratio in speech production. Journal of the Acoustical Society of
+      America 78(6): 1949-1957.
+Maddieson, Ian. 1997. Phonetic Universals. In William J.Hardcastle and John Laver (eds.) The
+      Handbook of Phonetic Sciences. 619-639. Cambridge: Blackwell.
+Maddieson, Ian. 1983. The analysis of complex phonetic elements in Bura and the syllable. Studies
+      in African Linguistics 15: 285-310.
+Maddieson, Ian. 1984. Patterns of Sounds. Cambridge: Cambridge University Press.
+Maddieson, Ian and Jack Gandour. 1976. Vowel length before aspirated consonants. UCLA work-
+      ing papers in phonetics 31: 46-52.
+Maddieson, Ian, Ramazan Rajabov, and Aaron Sonnenschein. 1996. The main features of Tsez
+      phonetics. UCLA Working Papers in Phonetics 93: 94-110.
+Magometov A. A. 1970. Agul’skij jazyk: Issledovanie i texty. Tbilisi: Mecniereba.
+McCarthy, John J. 1986. OCP Effects: Gemination and antigemination. Linguistic Inquiry 17:207-
+      263.
+McDonough, Joyce, and Peter Ladefoged. 1993. Navajo stops. UCLA Working Papers in Phonetics
+      84: 151-164.
+
+                                               5
+Melikishvili, Irine, Nana Gamkrelidze, Ivane Lezhava, Luiza Lortkipanidze, Ketevan Margiani,
+        and Isabella Kobalava. 2011. glot’alizebuli fonemebi (eiekt’ivebi) kartvelur enebshi. [Glot-
+        talized phonemes (ejectives) in Kartvelian languages]. Enatmetsnierebis sak’itkhebi [Issues
+        of Linguistics]. International Volume of Articles devoted to Professor Jemshid Giunashvili.
+        183-202. Tbilisi: Tbilisi University Press.
+Merlingen, Weriand. 1977. Artikulation Und Phonematik Des H: Mit Einem Anh. über Phone-
+        matik. Wien: VWGÖ Verb. D. Wissenschaftl. Gesellschaften Österreichs.
+Mikailov, K. Š., 1967. Arčinskij jazyk. Maxačkala.
+Moisik, Scott. 2013. The Epilarynx in Speech. Ph.D. thesis, University of Victoria.
+Moran, Steven, Daniel McCloy, and Richard Wright (eds.) 2014. PHOIBLE Online. Leipzig:
+        Max Planck Institute for Evolutionary Anthropology. (Available online at http://phoible.org,
+        Accessed on 2017-03-31.)
+Moreton, Elliott. 2008. Analytic bias and phonological typology. Phonology 25(1): 83-127.
+Nevins, Andrew and Bert Vaux. 2003. Metalinguistic shmetalinguistic: The phonology of shm-
+        reduplication. Proceedings of Chicago Linguistic Society 39. 702-721.
+Nichols, Johanna. 1994. Chechen. In Rieks Smeets (ed), The North East Caucasian languages.
+        The indigenous languages of the Caucasus 4. Part 2. 1-78. Delmar, NY: Caravan Books.
+Nichols, Johanna. 1997. Chechen Phonology. In Alan S. Kaye and Peter T. Daniels (eds.),
+        Phonologies of Asia and Africa (Including the Caucasus). 941-972. Winona Lake, IN:
+        Eisenbrauns.
+Nichols, Johanna. 2000. The Historical Geography of Pharyngeals and Laterals in the Caucasus.
+        Proceedings of the 25th Annual Meeting of the Berkeley Linguistics Society: Special Session
+        on Caucasian, Dravidian, and Turkic Linguistics. 1-13.
+Nichols, Johanna. 2011. Ingush Grammar. Berkeley: University of California Press.
+Nichols, Johanna and Arbi Vagapov. 2004. Chechen-English and English-Chechen Dictionary.
+        New York: Routledge.
+Nooteboom, S. G. and G. J. N. Doodeman. 1980. Production and perception of vowel length in
+        spoken sentences. The Journal of the Acoustical Society of America 67(1): 276-287.
+Ohala, John J. 1993. The phonetics of sound change. In Charles Jones (ed.), Historical linguistics:
+        Problems and perspectives. 237-278. London: Longman.
+Ohala, Manjari and Ohala, Johh J. 1992. Phonetics universals and Hindi segment duration. J.
+        J. Ohala, T. Nearey, B. Derwing, M. Hodge, and G. Wiebe (eds.), Proceedings, International
+        Conference on Spoken Language Processing, Banff, 12-16 Oct 1992. 831-834. Edmonton:
+        University of Alberta.
+Oller, D. Kimbrough. 1973. The effect of position in utterance on speech segment duration in
+        English. The Journal of the Acoustical Society of America 54(5): 1235-1247.
+Öztürk, Balkız and Markus A. Pöchtrager (eds.). 2011. Pazar Laz. Munich: Lincom Europa.
+Prince, Alan and Paul Smolensky. 1993. Optimality Theory: Constraint interaction in generative
+        grammar. Tech. Rep. 2, Rutgers University Center for Cognitive Science.
+Prince, Alan, and Paul Smolensky. 2004. Optimality Theory: Constraint Interaction in Generative
+        Grammar. Malden, MA: Blackwell.
+
+                                                 6
+R Core Team. 2016. R: A language and environment for statistical computing. R Foundation for
+       Statistical Computing, Vienna, Austria. URL https://www.R-project.org/.
+Riebold, John. 2013. Vowel Analyzer. Praat script, available at [https://raw.githubusercontent.com/
+       jmriebold/Praat-Tools/master/Vowel-Analyzer.praat].
+Robert F. Port. 1985. Linguistic timing factors in combination. The Journal of the Acoustical
+       Society of America 69(1):262-274.
+Robins, R. H. and Natalie Waterson (1952). Notes on the phonetics of the Georgian word. Bulletin
+       of the School of Oriental and African Studies 14, 52-72.
+Saidova. 2004. Ghodoberi. In Michael Job (ed.), The North East Caucasian Languages. The
+       indigenous languages of the Caucasus 3. Part 1. 69-114. Delmar, NY: Caravan Books.
+Schulze, Wolfgang. 1997. Tsakhur. Munich: Lincom Europa.
+Shosted, Ryan K. and Vakhtang Chikovani. 2006. Standard Georgian. Journal of the International
+       Phonetic Association 36(2): 255-264.
+Smeets, Rieks. 1984. Studies in East Circassian Phonology and Morphology. Leiden: Hakuchi.
+Smeets, Rieks (ed.). 1994. The North East Caucasian Languages. The indigenous languages of
+       the Caucasus 3. Part 2. Delmar, NY: Caravan Books.
+Solé, Maria-J. 2011. Articulatory adjustments in initial voiced stops in Spanish, French and En-
+       glish. In Wai S. Lee and Yun Y. Zee (eds.), Proceedings of the 17th international congress
+       of phonetic sciences (ICPhS XVII): August 17-21, 2011. 1878-1881. Hong Kong: City
+       University of Hong Kong.
+Steriade, Donca. 1997. Phonetics in phonology: the case of laryngeal neutralization. Ms., UCLA.
+Sturm, Julia. 2016. Sonorants in Georgian Consonant Clusters. Poster presented at South Cau-
+       casian Chalk Circle at the University of Chicago Center, Paris. September 22, 2016.
+Svantesson, Jan-Olof and Anastasia Karlsson. 2012. Preaspiration in Modern and Old Mongolian.
+       Suomalais-ugrilaisen seuran toimituksia 264: 453-464.
+Sylak, John. 2011. Pharyngealization in Chechen is gutturalization. In Chundra Cathcart, Shinae
+       Kang, and Clare S. Sandy (eds.), Proceedings of the 37th Annual Meeting of the Berkeley
+       Linguistics Society: Special Session on Languages of the Caucasus. 81-95.
+Sylak-Glassman, John. 2014. Deriving natural classes: The phonology and typology of post-velar
+       consonants. Ph.D. Thesis, University of California, Berkeley.
+Šaumyan, R. 1941. Grammatičeskij očerk Agul’skogo jazyka. Moscow: Izdatel’stvo akademii nauk
+       SSSR.
+Talibov, B. B. 2004. Tsakhur. In Michael Job (ed.), The North East Caucasian Languages. The
+       indigenous languages of the Caucasus 3. Part 1. 347-419. Delmar, NY: Caravan Books.
+Tuite, Kevin. 1997. Svan. Munich: Lincom Europa.
+van den Berg, Helma. 2005. The East Caucasian language family. Lingua 115: 147-190.
+Vicenik, Chad. 2010. An acoustic study of Georgian stop consonants. Journal of the International
+       Phonetic Association 40(1): 59-92.
+Warner, Natasha. 1996. Acoustic characteristics of ejectives in Ingush. In Timothy H. Bunnell
+       and William Idsardi (eds.), Proceedings ICSLP: Fourth International Conference on Spoken
+       Language. Vol. 3. 1525-1528.
+
+                                                7
+Wood, Sidney A. J. 1994. A Spectrographic Analysis of Vowel Allophones in Kabardian. Lund
+      University Dept. of Linguistics Working Papers 42: 241-250.
+Wysocki, Tamra. 2004. Acoustic analysis of Georgian stop consonants and stop clusters. Ph.D.
+      dissertation, University of Chicago.
+Yu, Alan C. L. 2004. Explaining final obstruent voicing in Lezgian: Phonetics and history. Lan-
+      guage 80: 73-97.
+Zhgent’i, Sergi. 1949. svanuri enis ponet’ik’is dziritadi sak’itxebi. Tbilisi: Mecniereba.
+Zhgent’i, Sergi. 1956. K’art’uli enis p’onetika [Phonetics of Georgian language]. Tbilisi: Stalinis
+      saxelobis T’bilisis saxelmcip’o universitetis gamomc’emloba.
+
+
+
+
+                                                8
+

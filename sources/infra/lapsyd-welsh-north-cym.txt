@@ -1,0 +1,76 @@
+LAPSyD (Lyon-Albuquerque Phonological Systems Database) — language page
+Maddieson, Flavier, Marsico, Coupe & Pellegrino. lapsyd.huma-num.fr. CC BY-NC-ND 3.0.
+URL: https://lapsyd.huma-num.fr/lapsyd/index.php?data=view&code=10008
+Retrieved: 2026-08-24
+
+Language name : Welsh, Northern
+ISO 639-3     : cym
+Alternate     : Cymraeg
+Classification: Indo-European, Celtic, Brythonic
+Location      : Primarily in the North and West of Wales (Dyfed and Gwynedd) (point location is Bangor)
+
+COUNTS: consonants=23 basic vowels=7 total vowels=27 C/V ratio=0.85185185185185 top C= top V=
+
+=== SYLLABLE STRUCTURE ===
+Syllcat (cf. WALS ch.12): Complex
+Syllabic index (O+N+C) = 7   [Onset=3 Nucleus=2 Coda=2]
+Canonical Form      : (C)(C)(C)V(V)(C)(C)
+Syllabic Restriction: C)(C)(C)V(V)(C)(C)
+Syllabic notes      : (C)(C)(C)V(V)(C)(C) e.g. /sgləin/ "shine", /tluːs/ "pretty", /ɬuŋk/ "lip", /gwevl/ "lip"
+
+=== STRESS ===
+Stresscat (cf. WALS ch.14/16): Lexical
+Fixed Stress: Penult   Weight-sensitivity: None
+Stress notes: "Primary stress, in indigenous Welsh words, falls normally on the penultimate syllable, but in some cases on the ultimate" (Thomas 1992: 331).
+
+=== TONE ===
+Tonecat: None
+Tone notes: None
+
+=== CONSONANT NOTES ===
+The 'mutated' nasals written are considered unitary consonants by some but are analyzed as Nh sequences here following Ball & Williams (2001). The two affricates /tʃ, dʒ/ occur in more recent English loans, but are not included here.
+
+=== VOWEL NOTES ===
+Short mid vowels /e, o/ are somewhat lower than their long counterparts.
+
+=== SOURCES CITED BY LAPSyD ===
+Thomas, Alan R. 1992. The Welsh Language. In Ronald Macauley (ed.) The Celtic Languages. Cambridge University Press, Cambridge: 251-345.
+
+Ball, Martin J. and Briony Williams. 2001. Welsh Phonetics. Edwin Mellen Press, Lewiston NY. 
+
+Jones, Glyn E. 1984. The distinctive vowels and consonants of Welsh. In Ball, Martin J. and G. E. Jones, eds. Welsh Phonology. University of Wales Press, Cardiff: 40-64.
+
+=== INVENTORY TABLES (flattened; blank cells = empty table slots) ===
+Vowels | front | central | back
+unrounded | unrounded | rounded
+ | long |  | long |  | long
+high |  |  | i | iː | ɨ | ɨː | u | uː
+higher mid |  |  | e | eː | ə | əː | o | oː
+low |  |  |  |  | a | aː |  | 
+Diphthongs | count | unrounding | rounding | fronting | backing | rising | long
+au | 1 |  | X |  | X | X | 
+oi | 1 | X |  | X |  | X | 
+ai | 1 |  |  | X |  | X | 
+eu | 1 |  | X |  | X | X | 
+iu | 1 |  | X |  | X |  | 
+əu | 1 |  | X |  | X | X | 
+aɨ | 1 |  |  |  |  | X | 
+əi | 1 |  |  | X |  | X | 
+oɨ | 1 | X |  | X |  | X | 
+aːɨ | 1 |  |  |  |  | X | X
+uɨ | 1 | X |  | X |  |  | 
+əɨ | 1 |  |  |  |  | X | 
+ɨu | 1 |  | X |  | X |  | 
+Consonants | bilabial | lab-den | alv | pal-alv | palatal | velar | glottal
+ |  |  |  |  |  |  |  |  |  | velar |  |  |  |  |  | 
+pulm | stop |  |  |  |  | -vless |  |  | p |  |  | t |  |  | k | 
+-ved |  |  | b |  |  | d |  |  | ɡ | 
+fric |  |  |  |  | -vless |  |  |  |  | f | θ̠ |  |  | x | h
+-ved |  |  |  |  | v | ð̠ |  |  |  | 
+sib |  | -vless |  |  |  |  |  | s | ʃ |  |  | 
+lat |  |  |  | -vless |  |  |  |  |  | ɬ |  |  |  | 
+nasal |  |  |  |  | -ved |  |  | m |  |  | n |  |  | ŋ | 
+tap/flap |  |  |  |  | -vless |  |  |  |  |  | ɾ̥ |  |  |  | 
+-ved |  |  |  |  |  | ɾ |  |  |  | 
+appr |  |  |  |  | -ved |  |  |  | w |  |  |  | j |  | 
+lat |  |  |  | -ved |  |  |  |  |  | l |  |  |  | 

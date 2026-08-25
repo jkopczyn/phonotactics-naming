@@ -1,0 +1,689 @@
+<LINK "but-r12">
+      "but-r13">
+
+
+
+
+                   <TARGET "but" DOCINFO
+
+
+
+
+                   AUTHOR "Marika Butskhrikidze and Vincent J. van Heuven"
+
+
+
+
+                   TITLE "Georgian harmonic clusters as complex segments?"
+
+
+
+
+                   SUBJECT "AVT, Volume 18 (2001)"
+
+
+
+
+                   KEYWORDS ""
+
+
+
+
+                   SIZE HEIGHT "220"
+
+
+
+
+                   WIDTH "150"
+
+
+
+
+                   VOFFSET "4">
+
+
+
+
+                                                                                        Georgian harmonic clusters
+                                                                                        as complex segments?
+                                                                                        A perceptual experiment
+
+                                                                                        Marika Butskhrikidze and Vincent J. van Heuven
+                                                                                        ULCL-HIL Leiden
+
+
+
+
+                                                                             1.   Introduction
+
+                                                                             Harmonic clusters in Georgian consist of two obstruents, the ﬁrst being a coronal
+                                                                             or a labial and the second being a dorsal. The obstruents share the voicing charac-
+                                                                             teristics. There are two types of harmonic clusters, referred to as type A and type B.
+                                                                             Type A refers to the combinations of [−dorsal] stops, aﬀricates and fricatives with
+                                                                             [+dorsal] stops /g k k’/ and type B refers to the combinations of [−dorsal] stops,
+                                                                             aﬀricates and fricatives with [+dorsal] fricatives /γ x χ’/.1 In some studies (Marr
+                                                                             1925; Machavariani 1965), the combinations of fricatives /s s¦/ with dorsal obstruents
+                                                                             are also treated as harmonic clusters:
+
+
+                                                                                  (1)
+                                                                                        Type A (C + stop)                              Type B (C + fricative)
+
+                                                                                        [+voi]        [−voi]       [glot]              [+voi]        [−voi]     [+glot]
+
+                                                                                        bg            pk           p’k’                bγ            px         p’χ’
+                                                                                        dg            tk           t’k’                dγ            tx         t’χ’
+                                                                                        jg            ck           c’k’                jγ            cx         c’χ’
+                                                                                        ¦J g          c¦ k         c¦ ’k’              ¦J γ          c¦ x       c¦ ’χ’
+                                                                                        zg            sk                               zγ            sx
+                                                                                        z¦ g          s¦k                              z¦ γ          s¦x
+
+
+
+                                                                             While investigating the special behaviour of Georgian harmonic clusters, several
+                                                                             phonological arguments have been proposed to support their analysis as complex
+
+                                                                                        Linguistics in the Netherlands 2001, 27–40. issn 0929–7332
+                                                                                        © 2001 John Benjamins Publishing Company
+<LINK "but-r2">
+      "but-r9">
+      "but-r6">
+      "but-r16">
+      "but-r18">
+
+
+
+
+                   28   Marika Butskhrikidze and Vincent J. van Heuven
+
+
+                        segments. Some of them are considered below:
+                        –   Harmonic clusters always syllabify together intervocalically, while other
+                            obstruent clusters are never tautosyllabic, e.g. sit’cc’va ‘word’ [si.t’χ
+                                                                                                    χ’va], cecxli
+                            ‘ﬁre’ [ce.cxli] (Axvlediani 1949; Žgenti 1956).
+                        –   Studies on the phonological processes involving consonant clusters revealed
+                            that in case one consonant of a harmonic cluster changes, then the other
+                            member changes as well, i.e., the processes shown in (2) are not attested
+                            (Dzidzishvili 1966). Rather, one harmonic cluster changes into another
+                            harmonic cluster, e.g. the alternation dg ~ tk: c’ardgra ~ c’artkra, etc.2
+
+                            (2) *dg   tg               *tk      dk
+                                      dk                        tg
+                        –   Consonant complexes, other than harmonic clusters, are characterized by
+                            optional /r/-insertion (Vogt 1958; Chikobava 1971; Deprez 1988).
+                        –   Harmonic clusters never occur across morpheme boundaries. Harmonic
+                            groups always belong to one morpheme, more speciﬁcally to the lexical
+                            morpheme, which is called the stem.
+                        –   Harmonic groups are the only obstruent sequences to appear in stem-ﬁnal
+                            position (Vogt 1961; Deprez 1988).
+                        –   In reduplicated forms, harmonic clusters retain their complexity, e.g. čkar-
+                            čkara ‘quickly’; cxel-cxeli ‘hot’. Usually other types of obstruent sequences do
+                            not participate in the reduplication process. Exceptions to this generalisation
+                            are clusters of the /s/+C type, e.g. sc’or-sc’ori ‘right’, or svel-sveli ‘wet’.
+                        –   Harmonic clusters are present in all Kartvelian languages (Svan, Megrelian and
+                            Laz). There are many examples of correspondences of harmonic clusters in
+                            Kartvelian languages, where the unity of the cluster is retained, e.g.
+                            (3) Georgian      Megrelian       Laz            Gloss
+                                    χ’l-
+                                mat’χ              χ’or-
+                                              mont’χ          mont’k’or      ‘wool’
+                        In addition to phonological evidence, phonetic claims about simultaneity of closure
+                        and release in harmonic clusters advocated by Žgenti (1965) and Aronson (1982)
+                        led Deprez (1988) to the conclusion that harmonic clusters should be treated as
+                        complex segments, represented as consisting of one root node as shown in (4):3
+<LINK "but-r7">
+      "but-r5">
+
+
+
+
+                                                         Georgian harmonic clusters as complex segments?      29
+
+
+                     (4)                                        /dg /
+
+                                                                ROOT
+
+                                                         lar            supralar
+
+                                                        voice             place
+
+                                                                coronal            dorsal
+
+                  In line with Deprez’ analysis, Chitoran (1998) argues that if harmonic clusters are
+                  complex segments, their articulatory gestures should overlap in time. As a result,
+                  the release burst of the ﬁrst member of the cluster is suppressed by the occlusion
+                  phase of the second member of the pair, so that only the release burst of the second
+                  stop should come to the surface. Also, due to the (partial) temporal overlap of the
+                  two stops in the harmonic cluster, the duration of the complex segment should be
+                  shorter than that of the corresponding (heterosyllabic) sequence of consonants.
+                  Unexpectedly, there was no signiﬁcant diﬀerence in frequency of occurrence of
+                  release bursts of the ﬁrst and second stops in the two types of clusters; in fact, bursts
+                  were realised in more than 90 per cent of the cases, regardless of the type of cluster.
+                  Secondly, the duration of the harmonic clusters was not shorter than that of the
+                  corresponding C#C sequences; moreover, if there were signiﬁcant duration
+                  diﬀerences, they were in the unexpected direction.
+                       It should be pointed out that just counting the presence or absence of release
+                  bursts is a very crude measure. We found that C1 bursts in the complex segment
+                  were always present but had shorter durations and/or weaker intensities than their
+                  counterparts in heterosyllabic sequences (Butskhrikidze 1998). This ‘incomplete
+                  suppression’ of the C1 burst is hard to reconcile with the notion of gestural overlap,
+                  but does argue for a diﬀerent status of harmonic groups as opposed to C+C
+                  sequences. Also, the phonological environments in which the harmonic clusters and
+                  their corresponding C+C sequences were examined, were not held constant in
+                  Chitoran (1998). Therefore, the issue is as yet unsettled. The present paper is yet
+                  another attempt to ascertain the phonological status of harmonic clusters as
+                  complex segments.
+
+
+                  Alternative approach
+                  We tested the phonological hypothesis of harmonic clusters as complex segments
+                  by looking at perceptual cues of native speakers of Georgian. The goal of our
+                  experiment was to show whether harmonic clusters have perceptual cues diﬀerent
+30   Marika Butskhrikidze and Vincent J. van Heuven
+
+
+     from other types of consonant sequences, but similar to simplex segments. The task
+     of the experiment was the detection of a CVC target embedded in three diﬀerent
+     types of non-word contexts: harmonic cluster (CV.CcV…), unrelated sequence
+     (CVC.CV…), and single consonant (CV.CV….). The dot between V and C
+     represents a phonetic syllable boundary. Two dependent variables were used to
+     evaluate the experimental results, viz. detection rate (hit rate in %) and detection
+     latency (reaction time in ms).
+          If harmonic clusters are indeed complex segments, it should be diﬃcult to
+     detect a CVC target embedded within a CV.CcV… context. This is because the ﬁnal
+     C in the target string occurs in the onset of the next syllable and is (arguably) part
+     of a single phonological segment (i.e., a harmonic cluster). Consequently, in terms
+     of the two dependent variables, hit rates should be poor while reaction times (for
+     correct decisions) should be high.
+          Detection of the CVC target should be easy (high hit rates and fast latencies) if
+     the ﬁnal C of the target is in the coda position of the test string, i.e., if the stimulus
+     string has the structure CVC.C…. This situation should arise when the target is
+     embedded in an unrelated consonant string context (CVC.C…).
+          An intermediate degree of diﬃculty is predicted for the detection of the CVC
+     target in a stimulus string where the ﬁnal C of the target appears as a single conso-
+     nant in the onset of the next syllable. The detection is relatively diﬃcult because the
+     listener has to resyllabify the ﬁnal C, but less diﬃcult than in the case of a harmonic
+     cluster, as no decomposition of the cluster is required.
+          For instance, the target k’ab, should be maximally easy to detect in the stimulus
+     string k’ab.ra.na (ﬁnal b is in coda position), most diﬃcult to detect in k’a.bga.na
+     (ﬁnal b is part of a complex cluster in the onset of the following syllable), and
+     intermediate in k’a.ba.na (ﬁnal b is a single C in the next onset).
+
+
+     2.   Method
+
+     2.1 Stimuli
+     Targets were always sequences of the CVC type embedded in diﬀerent phonetic
+     contexts. Thirty-two sets (corresponding to the number of harmonic clusters, cf.
+     (1)) were designed, each containing six non-words.4 Three non-words in each set
+     were target bearing, as follows:
+     i. one containing a harmonic cluster (harmonic Cc),
+     ii. one containing the consonant string (unrelated CC), the ﬁrst segment of which
+          was identical with the beginning of the harmonic cluster,
+     iii. one containing just the ﬁrst segment of the harmonic cluster (single C).
+<LINK "but-r3">
+
+
+
+
+                                                         Georgian harmonic clusters as complex segments?     31
+
+
+                  The other three non-words in the set did not contain the target. For instance, in the
+                  case of the target tab the set of six non-words was ta.bga.mi – tab.ra.mi – ta.ba.mi –
+                  ta.ra.mi – da.ra.mi – ča.ra.mi. The full set of targets plus non-words is included in
+                  Appendix 1.
+                       In all, 192 non-words (32 sets × 6 non-words) were recorded on Digital Audio
+                  Tape (DAT) by a female native speaker of Standard Georgian (the ﬁrst author of the
+                  present paper) in a sound-proofed recording booth, using a Sennheiser MKH416
+                  unidirectional condenser microphone. The recordings were then transferred to
+                  computer disk, downsampled to 16 kHz, edited out by means of a high-resolution
+                  waveform editor (Praat software, Boersma and Weenink 1996) and stored on disk.
+
+
+                  2.2 Listeners
+                  A total of 24 native Georgian listeners (15 female and 9 male) participated in the
+                  experiment. Subjects’ ages ranged from 18 to 40. None of the subjects reported any
+                  speech or hearing impairment. All subjects took part on a voluntary basis and
+                  received no remuneration for their service.
+
+
+                  2.3 Procedure
+                  Subjects participated in the experiment in individual sessions. During the experi-
+                  ment the listener was seated in a quiet (but not sound-treated) room, with no other
+                  persons present. Subjects were instructed, interactively and in writing, to monitor
+                  the non-words that would be presented to them, and to decide for each non-word,
+                  as fast as they comfortably could while avoiding errors, whether it did or did not
+                  contain a pre-speciﬁed CVC sequence. If the stimulus contained the target se-
+                  quence, the subject was to press a green key on the keyboard of a notebook
+                  computer with his right hand; if the non-word did not contain the target sequence,
+                  the subject was to press a red key with his left hand.5
+                       The subject ﬁrst heard a target (CVC sequence), followed by a 500-ms pause,
+                  which in turn was followed by a non-word. A 2000-ms timeout interval followed
+                  the stimulus. If the subject responded before 2000 ms had elapsed, the presentation
+                  of the next target was initiated 100 ms after the issuing of the response. If the no key
+                  was pressed, the next target was presented immediately after the 2000-ms time out.
+                       The 192 target-non-word combinations were presented without any break,
+                  preceded by eight practice sequences. A diﬀerent random order of presentation was
+                  used for each listener. Stimuli were converted from digital to analog on a notebook
+                  computer and presented to the listeners over good quality headphones. Stimulus
+                  presentation and response collection were fully automated, using E-prime soft-
+                  ware.6
+<LINK "but-r6">
+      "but-r16">
+
+
+
+
+                   32   Marika Butskhrikidze and Vincent J. van Heuven
+
+
+                        3.   Results
+
+                        In total 24 (subjects) × 192 (stimuli) = 4,608 responses were collected. Only
+                        responses to target-bearing stimuli were statistically analysed, reducing the nominal
+                        number of responses to 2,304. Hit rate and mean latencies (for hits only) were
+                        computed and subjected to oneway analyses of variance (ANOVA) with consonant
+                        type (harmonic Cc, unrelated CC, single C) as a ﬁxed eﬀect. Post hoc t-tests for
+                        contrasts between pairs of consonant types were run if the overall eﬀect was
+                        signiﬁcant. We will ﬁrst present the results for the dependent variable ‘hit rate’, and
+                        then proceed with the ‘latency’ data. Finally, the data will be analysed a second time,
+                        after selecting a speciﬁc, phonologically (distributionally) motivated, subset with
+                        coronal stops and aﬀricates only.
+
+
+                        3.1 Hit rate
+                        Table 1 presents means and standard deviations for the dependent variable ‘hit rate’
+                        broken down by the three types of consonant sequences.
+
+                        Table 1.Mean hit rate (%) and standard deviation broken down by type of stimulus
+                        sequence
+                        Type of stimulus sequence                        Mean            SD         N
+
+                        Unrelated (CC)                                   86              35         754
+                        Single (C)                                       78              41         748
+                        Harmonic cluster (Cc)                            80              40         748
+
+
+
+                             Table 1 shows that the CVC target was correctly detected in stimuli where the
+                        target was an integral syllable (unrelated CC, i.e. the easiest condition) in 86 percent
+                        of the cases. The hit rate is substantially poorer (80%) in the harmonic cluster (Cc)
+                        context, which is as predicted. However, the hit rate in the single consonant (C)
+                        context, which we predicted to assume an intermediate position along the diﬃculty
+                        scale, was poorer still (78%). The overall eﬀect is signiﬁcant, F(2,2247) = 6.8
+                        (p = .001). The post hoc tests reveal that unrelated CC diﬀers from the other two
+                        types, which do not diﬀer from one another.
+                             Several studies have claimed a diﬀerence within harmonic groups on distrib-
+                        utional grounds: coronal + dorsal versus labial + dorsal (Vogt 1958; Chikobava
+                        1971; Deprez 1988). Coronal + dorsal harmonic groups may be part of three-
+                        member clusters while labial + dorsal harmonics may not. Secondly, coronal +
+                        dorsal harmonic groups participate in long consonant sequences while the labial +
+                                     Georgian harmonic clusters as complex segments?    33
+
+
+dorsal type does not. On the basis of these distributional criteria, Deprez (1988)
+proposed that all coronal + dorsal harmonic groups should be treated as complex
+segments, whilst the labial + dorsal type should be analysed as either true (CC)
+clusters or as complex (Cc) segments, based on some lexical distinction.
+    Since all our stimuli are non-words, there is no way of knowing which labial +
+dorsal Cc clusters should be analysed as true CC clusters. Therefore we reran the
+analysis after selecting only responses to stimuli that contained the coronal-dorsal
+type (for which the predictions are clear cut). To be on the safe side, we also
+excluded the harmonic types that began with a continuant; these seem to pattern
+with the labial + dorsal type. As a result of this data selection, only the types
+contained in rows 2, 3 and 4 in (1) were kept in the analysis. This left us with 18
+harmonic clusters (instead of 32) and 54 stimuli. Table 2 presents the breakdown of
+results.
+
+Table 2.Mean hit rate (%) and standard deviation broken down by type of stimulus
+sequence. Only cluster types with coronal stops and aﬀricates were selected
+Type of stimulus sequence)                          Mean         SD         N
+
+Unrelated (CC)                                      86           35         446
+Single (C)                                          74           44         442
+Harmonic cluster (Cc)                               75           34         443
+
+
+
+     The results are qualitatively the same as in Table 1, but the scores for the
+harmonic clusters (Cc) and those of the single consonants have dropped a few
+points, so that they diﬀer more from the unrelated C+C sequences. Consequently,
+the overall eﬀect is more strongly signiﬁcant, F(2,1328) = 10.7 (p < .001). CC diﬀers
+from both Cc and C, which do not diﬀer from each other.
+     We conclude that separating out the coronal obstruent cases does not substan-
+tially change the eﬀects. Therefore, there seems no ﬁrm experimental support for
+the claim that complex segment status only applies to coronal obstruent clusters.
+
+
+3.2 Reaction time
+Table 3 presents mean detection time (in milliseconds) for hits only, broken down
+by type of cluster. Detection time was deﬁned as the time interval between the onset
+of the stimulus sequence and the moment the listener pressed the response key.
+     The results indicate that the target was detected somewhat faster in the single
+C condition than in the other two conditions, which do not seem to diﬀer from
+each other. However, the eﬀect is a trend at best, as the ANOVA just fails to reach
+signiﬁcance, F(2,1829) = 2.7, p = 0.067 (ins.).
+34   Marika Butskhrikidze and Vincent J. van Heuven
+
+
+     Table 3.Mean and standard deviation of target detection time (ms) for hits only,
+     measured from the stimulus onset, broken down by type of stimulus sequence
+     Type of stimulus sequence                              Mean        SD       N
+
+     Unrelated (CC)                                         1041        354      645
+     Single (C)                                             1007        335      587
+     Harmonic cluster (Cc)                                  1052        362      600
+
+
+
+          Of course, the listener can only detect the target once the third segment in the
+     stimulus sequence has become available. Since there may well be a diﬀerence in
+     temporal structure between the three types of stimuli, we redeﬁned the detection
+     time as starting from the earliest moment in the acoustic signal of the stimulus that
+     fully contained the CVC sequence speciﬁed by the target. That is to say, the reaction
+     time was measured from the oﬀset of the ﬁrst (or only) consonant in the crucial
+     sequence. The results for the corrected detection times are presented in Table 4.
+
+     Table 4.Mean and standard deviation of target detection time (ms) for hits only,
+     measured from the oﬀset of C1 in stimulus, broken down by type of stimulus sequence
+     Type of stimulus sequence                             Mean         SD      N
+
+     Unrelated (CC)                                        894          389     645
+     Single (C)                                            844          372     587
+     Harmonic cluster (Cc)                                 892          407     600
+
+
+
+          The results are qualitatively the same as before, but the diﬀerence between the
+     relatively fast detection time for the single C condition and the remaining two has
+     increased to about 50 ms, and reaches signiﬁcance, F(2,1829) = 3.2, p = 0.042. Single
+     C diﬀers signiﬁcantly from the other conditions, which do not diﬀer from each
+     other (Scheﬀé test).
+          On the basis of Table 4 then, we conclude that the harmonic clusters pattern
+     with the unrelated CC sequences. This patterning is diﬀerent from that found in the
+     results for hit rate (Tables 1 and 2).
+
+
+     3.3 Summary of results
+     Table 5 summarizes the results of the experiment in terms of relative degree of ease
+     with which the CVC target was detected in the stimuli, broken down by the three
+     types of stimulus sequence. In Table 5 ‘+’ stands for ‘relatively easy detection’,
+     whilst ‘−’ represents ‘relatively diﬃcult detection’. Of course, easy detection
+                                      Georgian harmonic clusters as complex segments?     35
+
+
+corresponds with a high percentage of correct detections, but with low detection
+times.
+
+Table 5.Relative ease ‘+’ versus diﬃculty ‘−’ for hit rate and detection time, broken
+down by stimulus type
+Stimulus sequence                 Unrelated CC      Harmonic Cc         Single C
+Dependent
+
+Hit rate (%)                      +                 −                   −
+Detection time (ms)               −                 −                   +
+
+
+
+     The summary in Table 5 shows quite clearly that the harmonic Cc clusters
+behave like single consonants in terms of hit rate, but as a sequence of two unrelated
+consonants when it comes to detection time. We interpret this patterning as an
+indication that harmonic clusters are neither true consonant sequences nor simplex
+consonants. They have separate, intermediate, status in the phonology of Georgian.
+     Also, Table 5 indicates that detection of a CVC sequence was always diﬃcult in
+a harmonic cluster context. Probably, this very patterns shows that harmonic
+clusters are indeed complex segments, perceived indeed as a unit by Georgian native
+listeners.
+
+
+4. Conclusion and discussion
+
+In the introduction we presented rather simple and straightforward predictions
+regarding the detectability of a word-initial CVC target that was embedded in three
+types of stimulus contexts, viz. the single C condition (CV.CV…), the harmonic
+cluster condition (CV.CcV…), and the unrelated sequence condition
+(CVC.CV…).
+     We predicted that ease of detection would show up simultaneously in high
+detection rates (hit rates) and fast detection times (for hits). Moreover, we predict-
+ed that the target CVC would be most diﬃcult to detect if the ﬁnal consonant were
+the ﬁrst part of a harmonic cluster in the onset of the second syllable in the stimulus
+string. The rationale behind this prediction was that the listener would have to
+break up a highly cohesive phonological unit, i.e. a complex segment, in order to
+match the target CVC with the stimulus string, and make the match in spite of a
+diﬀerence in syllable boundary.
+     Although high hit rates usually go together with fast detection time, this result
+did not obtain throughout our experiment. Yet, in the crucial condition, i.e. the
+complex segment condition, we did ﬁnd the predicted correlation between poor hit
+<LINK "but-r18">
+      "but-r10">
+      "but-r15">
+      "but-r17">
+
+
+
+
+                   36   Marika Butskhrikidze and Vincent J. van Heuven
+
+
+                        rate and long detection time. Moreover, the harmonic clusters were consistently
+                        found to be the most diﬃcult type in the experiment, whether the results are
+                        expressed in terms of hit rate or in detection time. The reference conditions (CC
+                        and C) were easier to detect than the harmonic clusters in terms of either hit rate
+                        (unrelated CC) or detection time (single C). On the strength of this evidence we
+                        argue that our perception experiment has substantiated the phonological status of
+                        Georgian harmonic clusters as complex segments. Apparently, a perceptual
+                        technique such as target detection in nonsense strings may provide a useful
+                        diagnostic in the determination of the phonological status of some sound unit,
+                        when the study of speech production or acoustics yields undecided results.
+                             Before any deﬁnitive conclusions, whether substantive or methodological, are
+                        to be drawn from our experiment, however, the experimental technique should be
+                        calibrated against a clear-cut set of contrasts between simplex versus complex
+                        segments. After all, one might argue that if the Georgian complex segments were
+                        truly single consonants in the mental representation of the listener, it is hard to
+                        understand how our experimental subjects were at all able to split them up into
+                        plosive plus velar obstruent parts. Although the task of matching the target string to
+                        a complex segment was more diﬃcult, our subjects were still quite successful in
+                        accomplishing their task. It would make sense, therefore, to run a similar experi-
+                        ment in English, where the aﬀricates /J̌ č/ constitute clear and undisputed examples
+                        of complex segments that should be analyzed as single units — relying on syn-
+                        chronic distributional criteria, phonological processes, their behavior in speech
+                        errors (aﬀricates are always interchanged with single consonants, Fromkin 1971) as
+                        well as on their historical origin (Steriade 1989; van de Weijer 1996). As in Geor-
+                        gian, the ‘components’ of the English complex segments also occur as single
+                        consonants in the phonology of the language, so that the task of splitting the
+                        complex segment and matching the ﬁrst component to a single stop, should be
+                        doable. We expect that the English results will be highly comparable to our
+                        Georgian data.
+
+
+                        Notes
+
+                        1. The Georgian fricative χ’ is alternatively transcribed as a glottalised uvular stop q’.
+                        Impressionistically it combines properties of stop and fricative articulation; nevertheless it
+                        functions as a fricative.
+                        2. Given that it is highly unusual across languages to have members in a CC sequence —
+                        even across a syllable boundary — to have opposed [voice] values, the argument presented
+                        here is not compelling; the facts can be explained as straightforward voicing assimilation.
+                        However, Georgian is diﬀerent from most languages in that it regularly allows heterogeneous
+                        obstruent clusters diﬀering in the voicing feature (Žgenti 1956).
+<LINK "but-r14">
+<DEST "but-r11">
+      "but-r4">
+      "but-r1">
+      "but-r2">
+      "but-r3">
+      "but-r4">
+      "but-r5">
+      "but-r6">
+      "but-r7">
+      "but-r8">
+      "but-r9">
+      "but-r10">
+      "but-r11">
+      "but-r12">
+      "but-r13">
+      "but-r14">
+      "but-r15">
+      "but-r16">
+
+
+
+
+                                                             Georgian harmonic clusters as complex segments?          37
+
+
+                   3. Harmonic clusters are considered as complex segments in numerous studies (Gamkrelidze
+                   and Machavariani (1965), Deprez (1988), Bush (1997), Nepveu (1994).
+                   4. Non-words were chosen for several reasons: to maintain sameness of the phonetic
+                   environment of a target, and to avoid morphological or word frequency eﬀects.
+                   5. In the Georgian educational system right-handedness is normative. Assuming that no
+                   natural diﬀerences between right-handed and left-handed subjects exist in this population,
+                   we decided not to instruct our subjects to use their preferred hand for positive responses.
+                   6. The script for the experiment was written by Ing. Jos J.A. Pacilly of the Universiteit Leiden
+                   Phonetics Laboratory.
+
+
+
+                   References
+
+                   Akhvlediani, G. (1949) Zogadi Ponetikis Sapudzvlebi. [Foundations of General Phonetics].
+                        Tbilisis Saxelmcipo Universitetis Gamomcemloba, Tbilisi.
+                   Aronson, H. I. (1982) Georgian: A Reading Grammar. Slavica, Columbus.
+                   Boersma, P. & Weenink, D. (1996) Praat, a System for doing Phonetics by Computer,
+                        Verscon 3.4. Report 132. Institute of Phonetic Sciences of the University of Amsterdam.
+                   Bush, R. (1997) Georgian Syllable Structure. MA thesis, UC Santa Cruz.
+                   Butskhrikidze, M. (1998) Phonetic Evidence for the Georgian Harmonic Groups. Unpub-
+                        lished paper, Holland Institute of Generative Linguistics, Leiden.
+                   Chikobava A. S. (1971) Gruzinskij Jazyk. [The Georgian Language]. Ganatleba, Tbilisi.
+                   Chitoran, I. (1998) ‘Georgian Harmonic Clusters: Phonetic Cues to Phonological Re-
+                        presentation’. Phonology 15, 121–141.
+                   Depréz, V. (1988) ‘Georgian Complex Segments’. NELS 18, 109–23.
+                   Dzidzishvili, M. (1966) ‘Tanxmovanta Kompleksisa da Ponetikuri Procesis Urtiert-
+                        mimartebis Shesaxeb Kartulshi’. [‘The Relationship between the Consonant Complexes
+                        and Phonetic Processes in Georgian’]. Iberiul-Kavkasiuri Enatmecniereba 15.
+                   Fromkin, V.A. (1971) ‘The Non-linear Nature of Anomalous Utterances’. Language 47, 27–52.
+                   Gamkrelidze T. and Machavariani, G. (1965) Sonantta Sistema da Ablauti Kartvelur Enebshi.
+                        [Sonant System and Ablaut in Kartvelian Languages]. Tbilisis Saxelmcipo Universitetis
+                        Gamomcemloba, Tbilisi.
+                   Machavariani, M. (1965) Saerto Kartveluri Konsonanturi Sistema. [The Common-Kartvelian
+                        Consonant System].Tbilisis Saxelmcipo Universitetis Gamomcemloba, Tbilisi.
+                   Marr, N. (1925) Grammatika Drevneliteraturnogo Gruzunskogo Jazyka. [Grammar of Old
+                        Literary Georgian]. Leningrad.
+                   Nepveu, D. (1994) Georgian and Bella Coola: Headless Syllables and Syllabic Obstruents. MA
+                        thesis, UC Santa Cruz.
+                   Steriade, D. (1989) ‘Aﬀricates are Stops’. Paper presented at the MIT conference on Features.
+                        MIT, Cambridge, Massachusetts.
+                   Vogt, H. (1958) ‘Structure Phonémique du Géorgien’. Norsk Tidsskrift for Sprogvidenskap 18,
+                        5–90.
+<DEST "but-r18">
+      "but-r17">
+
+
+
+
+                   38   Marika Butskhrikidze and Vincent J. van Heuven
+
+
+                        Vogt, H. (1961) Kartuli Enis Ponematuri Struktura. [Phonematic Structure of the Georgian
+                            Language]. Tbilisis Saxelmcipo Universitetis Gamomcemloba, Tbilisi.
+                        Weijer, J. van de (1996) Segmental Structure and Complex Segments. Niemeyer, Tübingen.
+                        Žgenti, S. (1956) Kartuli Enis Ponetika. [Phonetics of the Georgian Language]. Tbilisis
+                            Saxelmcipo Unversitetis Gamomcemloba, Tbilisi.
+                        Žgenti, S. (1965) ‘Harmonische Komplexe von Konsonanten in der Khartvelischen Sprachen’.
+                            Zeitschrift für Phonetik, Sprachwissenschaft und Kommunikationsforschung 18, 143–148.
+                                      Georgian harmonic clusters as complex segments?   39
+
+
+Appendix 1. The full set of targets (bold) and stimuli (non-words)
+
+       1.   k’a.bga.na           1.   da.p’k’a.li                 1.   ta.bga.mi
+       2.   k’ab.ra.na           2.   dap’.ra.li                  2.   tab.ra.mi
+       3.   k’a.ba.na            3.   da.p’a.li                   3.   ta.ba.mi
+       4.   ca.ba.na             4.   ba.ta.li                    4.   c¦ a.ra.mi
+       5.   ma.sa.na             5.   k’a.da.li                   5.   da.ra.mi
+       6.   ba.ra.na             6.   ra.da.li                    6.   ta.ra.mi
+k’ab                      dap’                           tab
+       1.   da.pki.nu            1.   ca.pxi.li                   1.   c¦ a.p’χ’a.ri
+       2.   dap.ri.nu            2.   cap.ri.li                   2.   c¦ ap’.la.ri
+       3.   da.pi.nu             3.   ca.pi.li                    3.   c¦ a.p’a.ri
+       4.   ta.ri.nu             4.   pa.ni.li                    4.   da.p’a.li
+       5.   da.k’i.nu            5.   da.vi.li                    5.   sa.ra.li
+       6.   da.di.nu             6.   na.di.li                    6.   s¦a.ma.li
+dap                       cap                            c¦ ap’
+       1.   sa.dge.ri            1.   da.tko.mi                   1.   la.t’k’a.ni
+       2.   sad.le.ri            2.   da.tro.mi                   2.   la.t’r.ni
+       3.   sa.de.ri             3.   da.to.mi                    3.   la.t’a.ni
+       4.   va.de.ri             4.   ga.so.mi                    4.   k’a.ja.ni
+       5.   ga.me.ri             5.   k’a.do.mi                   5.   ga.da.ni
+       6.   ja.ne.ri             6.   na.no.mi                    6.   sa.ca.ni
+sad                       dat                            lat’
+       1.   c’a.dg e.ri          1.   na.txi.li                   1.   za.t’χ’a.di
+       2.   c’ad.le.ro           2.   nat.mi.li                   2.   zat’.ra.di
+       3.   c’a.de.ri            3.   na.ti.li                    3.   za.t’a.di
+       4.   va.ge.ri             4.   s¦a.di.ri                   4.   sa.ma.di
+       5.   jàa.xe.ri            5.   k’a.ci.li                   5.   ja.sa.di
+       6.   sa.te.ri             6.   ma.ni.li                    6.   k’a.sa.di
+c’ad                      nat                            zat’
+       1.   te.jgi.mo            1.   k’a.cki.li                  1.   de.c’k’e.vi
+       2.   tej.di.mo            2.   k’ac.gi.li                  2.   dec.’de.vi
+       3.   te.ji.mo             3.   k’a.ci.li                   3.   de.c’e.vi
+       4.   ge.ri.mo             4.   da.ci.li                    4.   ge.xe.vi
+       5.   se.di.mo             5.   sa.ri.li                    5.   ne.ge.vi
+       6.   le.ki.mo             6.   z¦ a.di.li                  6.   te.ge.vi
+tej                       k’ac                           dec’
+</TARGET "but">
+
+
+
+
+                  40   Marika Butskhrikidze and Vincent J. van Heuven
+
+
+
+                               1.   c’a.jg u.li             1.   da.cxo.mi               1.   ve.c’χ’u.k’i
+                               2.   c’aj.nu.li              2.   dac.k’o.mi              2.   vec.’gu.k’i
+                               3.   c’a.ju.li               3.   da.co.mi                3.   ve.c’u.k’i
+                               4.   da.su.li                4.   ga.do.mi                4.   ge.du.k’i
+                               5.   da.c’u.li               5.   k’a.so.mi               5.   se.xu.ki
+                               6.   da.zu.li                6.   la.do.mi                6.   ze.su.k’i
+
+                       c’aj                         dac                         vec’
+                               1.   ma.J¦gu.di              1.   se.c¦ .ko.na            1.   jo.c¦ ’k’o.li
+                               2.   maJ¦.ru.di              2.   sec¦ .lo.na             2.   joc¦ ’.mo.li
+                               3.   ma.J¦u.di               3.   se.c¦ .o.na             3.   jo.c¦ ’o.li
+                               4.   ga.ru.di                4.   s¦.e.bo.na              4.   do.ro.li
+                               5.   ja.χ’u.di               5.   ge.so.na                5.   p’o.so.li
+                               6.   la.ku.di                6.   p’e.lo.na               6.   do.do.li
+                       maJ¦J                        sec¦                        joc¦
+                               1.   ma.J¦ga.li              1.   la.c¦ xa.di             1.   sa.c¦ ’χ’u.gi
+                               2.   maJ¦.sa.li              2.   lac¦ .ma.di             2.   sac¦ ’.ru.gi
+                               3.   ma.J¦a.li               3.   la.c¦ a.di              3.   sa.c¦ ’u.gi
+                               4.   na.ga.li                4.   k’a.sa.di               4.   da.cu.gi
+                               5.   ka.la.li                5.   pa.za.di                5.   va.nu.gi
+                               6.   da.za.li                6.   na.p’a.di               6.   la.su.gi
+                       maJ¦J                        lac¦                        sac¦ ’
+                               1.   be.zgu.sa               1.   t’a.sko.ni              1.   ge.zgo.bi
+                               2.   bez.ru.sa               2.   t’as.mo.ni              2.   gez.m o.bi
+                               3.   be.zu.sa                3.   t’a.so.ni               3.   ge.zo.bi
+                               4.   je.gu.sa                4.   da.xo.ni                4.   se.do.bi
+                               5.   de.bu.sa                5.   ba.go.ni                5.   xe.bo.bi
+                               6.   le.mus.a                6.   ta.lo.ni                6.   le.do.bi
+                       bez                          t’as                        gez
+                               1.   na.sxa.zi               1.   ge.z¦ gu.k’a            1.   be.s¦ko.mi
+                               2.   nas.ma.zi               2.   gez¦ .du.k’a            2.   bes¦.lo.mi
+                               3.   na.sa.zi                3.   ge.z¦ u.k’a             3.   be.s¦o.mi
+                               4.   ma.la.zi                4.   de.xu.k’a               4.   ge.so.mi
+                               5.   k’a.pa.zi               5.   me.su.k’a               5.   pe.do.mi
+                               6.   ja.ra.zi                6.   c’e.zu.k’a              6.   de.go.mi
+                       nas                          gez¦                        bes¦
+                               1.   za.z¦ gu.lu             1.   χ’o.s¦xo.pi
+                               2.   zaz¦ .ku.lu             2.   χ’os¦.mo.pi
+                               3.   za.z¦ u.lu              3.   χ’o.s¦o.pi
+                               4.   la.su.lu                4.   ro.k’o.pi
+                               5.   χ’a.du.lu               5.   do.no.pi
+                               6.   ta.xu.lu                6.   p’o.go.pi
+                       zaz¦                         χ’os¦
+

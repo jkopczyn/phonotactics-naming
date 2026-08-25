@@ -1,0 +1,345 @@
+7. Syllable                                                                                                        ID: 613
+
+
+         INTRUSIVE VOCOIDS AND SYLLABLE STRUCTURE IN GEORGIAN
+                        Caroline Crouch1, Ioana Chitoran2, Louis Goldstein3, Argyro Katsika4
+     1
+      Rice University, 2Université Paris Cité, 3University of Southern California, 4University of California, Santa
+                                                        Barbara
+                 cc185@rice.edu; ioana.chitoran@u-paris.fr; louisgol@usc.edu; argyro@ucsb.edu
+
+                       ABSTRACT                                  acoustic duration. In parallel, we show kinematic data
+  Complex onsets in Georgian are characterized by                that illustrate the position of major articulators during
+  long lags between consonant constrictions, which               the open transitions between consonants.
+  differ depending on the sonority shape of the onset                 Our second goal is to explore syllable-level
+  cluster. These lags result in relatively open vocal tract      motivations for the sonority shape-based differences
+  configurations where vocoids sometimes intrude. In             in the distribution of vocoids, and consequently in the
+  this study, we examine the phonetic properties of such         duration of the lag between consonants as well.
+  vocoids and present evidence that, although they               Syllable-level motivations originate in previous
+  emerge from the cluster’s articulatory configuration,          research [1][3], which has shown that constriction lag
+  they may create conditions for resyllabification.              occurs in all clusters in Georgian, regardless of
+  Specifically, results show that, although the                  sonority shape or place of articulation [1][3] (see also
+  distribution of vocoids depends on sonority shape              [4] on place of articulation). These patterns thus
+  (more appear in rises, fewer in falls), their formant          strongly suggest that segment-level perceptual
+  structure and duration remain stable and unaffected            concerns do not motivate differences in degree of lag,
+  by the cluster’s sonority and the nucleus vowel’s              as previously proposed [4]. Instead a different
+  quality. They are shorter in duration than Georgian            proposal is put forward in [1][3], according to which
+  lexical vowels. Yet, preliminary analyses show that            the modulation of consonant-consonant timing in
+  vocoids affect the syllable-scale structure of the             Georgian is due to syllable-level planning: Speakers
+  amplitude envelope in ways that could lead to                  plan for syllables to have a single, vocalic nucleus,
+  resyllabification in sonority falls. Implications for          and in onsets with initial approximants (i.e., sonority
+  Georgian syllabic structure are discussed.                     falls) the sequence of approximant+vocoid could
+                                                                 result in an additional large peak in the amplitude
+  Keywords: vocoids, sonority, syllabic structure,               envelope that could be reinterpreted as a syllable
+  resyllabification, Georgian                                    nucleus, and could lead to syllable misparsing. Here
+                                                                 we take a first step towards assessing this hypothesis
+                  1. INTRODUCTION                                more directly by examining the structure of the
+                                                                 syllable-scale amplitude envelope across syllables
+  Georgian syllable structure is typologically unusual:          with and without audible vocoids, and of all sonority
+  onsets can be up to seven consonants in length, with           shapes. We use the amplitude envelope, because it
+  minimal restrictions on consonant combinations.                has been shown to relate to speech comprehension
+  Complex syllable onsets in Georgian often include              [5], and thus differences in the amplitude envelope in
+  transitional, schwa-like elements in between                   vocoid-containing syllables of different sonority
+  consonants. Word onset clusters are also                       shapes could reflect different possible syllabification
+  characterized by long lags between the constrictions           parsings by the listener.
+  of the consonants [1][2]. Interestingly, the duration of
+  these lags differs according to sonority shape, as does                            2. METHODS
+  the distribution of vocoids [1]. Sonority rises (e.g.,
+  /br/) have the longest lags and the highest percentage         2.1. Participants and procedure
+  of vocoid occurrence, while plateaus (e.g., /bg/) have
+  shorter lags, and fewer vocoids, and falls (e.g., /rb/)        Three native speakers of Georgian in their twenties
+  have the shortest lags and fewest reported vocoids.            (S1, S2, and S3) participated in the experiment. They
+        The primary goal of this study is to determine           were recruited through an announcement circulated
+  whether these vocoids are epenthetic vowels or rather          by a local Georgian cultural association.
+  are artifacts of the vocal tract configuration during the          The data analysed here were collected as part of
+  open transition between consonants, i.e., during the           a larger series of Electromagnetic Articulography
+  lag between consonant constrictions. For this                  (EMA) experiments that included the simultaneous
+  purpose, we compare the vocoids to phonological                collection of audio data. EMA sensors were attached
+  vowels acoustically, in terms of formant structure and         at three points along the midsagittal line of the
+
+
+
+
+                                                          2000
+7. Syllable                                                                                                          ID: 613
+
+
+  tongue: one on the tongue tip (TT), one on the tongue                      mtaze ‘mountain.in’     rbena ‘running (n)’
+  dorsum (TD), and one on the midpoint between TT                 Sonority   mdare ‘worthless’       lp’eba ‘decaying (n)’
+  and TD, referred to as TB. Two sensors were attached            fall
+  on the lips: one on the upper lip and one on the lower.
+  The Euclidean distance between these sensors at each              Table 1: Test words for S1
+  timepoint was calculated and the resulting variable—
+  Lip Aperture (LA)—was used for labial segments.                            Front to back         Back to front
+  Sensors were also attached on the upper and lower               Sonority   bregi ‘mound’         tmaze ‘hair.in’
+  incisor for reference and jaw movement respectively,            rise       bneli ‘darkness’      dmanisi      ‘Dmanisi
+  and on the bridge of the nose and behind each ear for                      bneda ‘epilepsy’      (town in Georgia)’
+  head correction. Audio was recorded with a Shure                           blepi ‘bluff’         grevi ‘gift’
+  SCM262 microphone mixer at a 16 kHz sampling                               mlode ‘waiting’       glexi ‘peasant’
+  rate, with a Sennheiser shotgun microphone                      Sonority   ʃxama ‘poison’        xʃavs ‘shut off’
+  positioned a foot away from the participant’s mouth.            plateau    bgera ‘sound’         gdeba ‘lie about’
+                                                                             ptila ‘hair lock’     tbeba ‘warm up’
+  Kinematic data was automatically synchronized with
+                                                                             mnaxe ‘see me’
+  the external audio data.
+                                                                             mtaze                 rbena ‘running (n)’
+  2.2. Stimuli                                                    Sonority   ‘mountain.in’         lbeba ‘softening (n)’
+                                                                  fall       mdare ‘worthless’     lmoba          ‘feeling
+  Stimuli were presented in Georgian orthography on a                        rgeba ‘benefitting’   sadness’
+  computer screen approximately four to five feet from
+  the EMA. Test words appeared first in isolation and               Table 2: Test words for S2 and S3
+  then in a frame sentence, without the word in isolation
+                                                                    Stimuli were randomized and included test words
+  disappearing from the screen. Two frame sentences
+                                                                 for other experiments alongside those reported here.
+  were used. The sentence was changed following S1’s
+                                                                 S1 and S2 recorded each word eight times, while S3
+  participation in order to facilitate kinematic labelling.
+                                                                 recorded 7 due to time constraints. The underlined
+                                                                 words are those that were analysed for the current
+  (1) _____. kal-ma _____ mo-m-ts’er-a. [S2 & S3]
+                                                                 study. They were selected because a) at least one
+   _____. woman.ERG ____ PRVB-1SG.OBJ-write-                     production had an intrusive vocoid and b) because the
+  3SG.SUBJ.AOR                                                   vowel following the cluster of interest (bolded in
+  _____. The woman wrote _____ to me.                            Tables 1 and 2) is either /e/ or /a/. The other
+                                                                 phonological vowels of Georgian (/o/, /i/, /u/) are far
+  (2) _____. k’idev _____ v-tkv-i. [S1]                          less frequent in the test words, so in the interest of
+      _____. again ____ 1SG.SUBJ-say-AOR.                        having a balanced data set, words with those vowels
+       _____. I said ______ again.                               were excluded. Only productions with vocoids were
+                                                                 considered in this study. There were a total of 240
+      Tables 1 and 2 show the test words analysed in             vocoid-vowel tautosyllabic pairs across all words,
+  the current study. As with the frame sentence, the test        speakers, and phrasal positions (isolation vs.
+  words were refined and expanded following S1’s                 quotative). 58 vocoids precede /a/ and 82 precede /e/.
+  participation. Test words manipulate both sonority
+  shape and order of place of articulation of the                2.3. Analysis
+  consonants in the onset. Order of place of articulation
+  was included as a factor because it has been                   2.3.1. Acoustic analysis
+  demonstrated to affect gestural overlap or lag in              All vocoids and vowels were segmented in Praat [6].
+  Georgian [4].                                                  We define a post-release vocalism as a vocoid, if it
+                                                                 has both a voicing bar and a distinct formant structure
+                 Front to back       Back to front
+                                                                 (see Fig. 3). Onset and offset of both vocoids and
+    Sonority     brelo ‘chaff’       tmaze ‘hair.in’             vowels were determined by the presence of f2.
+    rise         p’ledi ‘rug’        dmanisi ‘Dmanisi            Formant values at the midpoint of the vowel or
+                                     (town in Georgia)’
+                                                                 vocoid, and acoustic duration, were automatically
+    Sonority     mnaxe ‘see me’      t’baze ‘lake.in’
+                                                                 extracted using a Praat script [7]. Values were
+    plateau      bk’ich’i ‘raisin’   k’bili ‘tooth’              checked by hand and corrected where necessary.
+                 bgera ‘sound’       k’bena ‘sting’
+
+
+
+
+                                                          2001
+7. Syllable                                                                                                           ID: 613
+
+
+  2.3.2 Articulatory analysis                                         Sonority shape does, however, significantly
+                                                                 affect the duration of the lag between consonant
+  Articulatory analysis of consonant (C) constriction            constrictions [2]. Sonority falls have shorter lags than
+  lag was done semi-automatically using Mview (Mark              rises (p<.001). Across all sonority conditions, lags are
+  Tiede, Haskins Laboratories). EMA sensor                       on average 100ms, nearly equivalent to the duration
+  trajectories were used to label the C constrictions for        of a full vowel. As with vocoid duration, phrasal
+  each onset cluster. Lip aperture was used for labial           position significantly affects lag: lags are longer in
+  consonants, tongue tip vertical displacement for               the isolation condition (p<.001). However,
+  coronal, and tongue dorsum displacement for dorsal.            constriction lag duration and vocoid duration are not
+  Relevant timepoints for the constrictions were                 correlated.
+  labelled using velocity criteria as shown in Figure 1.              Figure 3 shows the spectrogram and EMA sensor
+                                                                 trajectories for /bneda/ with an intrusive vocoid. The
+                                                                 colored boxes mark the gestures for /b/, /n/, /e/. The
+                                                                 filled boxes represent the constriction plateaus. The
+                            Constriction
+                            duration
+                                                                 horizontal arrow shows the lag between consonant
+                                                                 constrictions, while the dotted vertical lines delimit
+                                                                 the vocoid. We can see from this example that not
+                                                                 only does the vocoid occupy only a fraction of the lag,
+      Figure 1: Timepoints labelled for each gesture             but also that the tongue dorsum (TD) is not moving
+                                                                 towards an articulatory target during the vocoid,
+      The lag between C constrictions is calculated              instead it is in the process of moving along with the
+  as the time between the first consonant’s release              tongue tip (TT) to the following /n/ target.
+  and the second consonant’s target.
+
+  2.3.3 Amplitude envelope analysis
+
+  The amplitude envelope was extracted following
+  Tilsen and Arvaniti [8] using a Matlab script [9].
+
+   2.3.4 Statistical analysis
+
+  All statistical analysis was done in R [10] with linear
+  mixed effects models [11]. Minimal adequate fixed
+                                                                    Figure 2: Durations (ms) for vocoids and vowels in
+  effects structures were determined using drop1 [10]
+                                                                    the isolation (left) and quotative (right) conditions.
+  and minimal adequate random effects structures using
+  rePCA [12]. Post-hoc pairwise comparisons with a
+  Holm correction were done using emmeans [13].
+  Graphics were made with ggplot2 [14].
+
+                       3. RESULTS
+
+  3.1 Distribution
+
+  The distribution of vocoids in the data are not                   Figure 3: Spectrogram and sensor trajectories for
+  random. Of the 240 vocoids measured, 149 appear in                /bneda/, with vocoid (dotted lines) and constriction
+  sonority rises, 62 in sonority plateaus, and 29 in falls.         lag (arrow) marked. TDz stands for tongue dorsum
+                                                                    vertical displacement; TTz for tongue tip vertical
+  3.2 Duration                                                      displacement; LA for lip aperture. Boxes on each
+                                                                    trajectory mark the target (filled box) and
+  Vocoids are significantly shorter than vowels                     movement into and out of the target (empty boxes).
+  (p<.001). Mean vocoid duration overall is 36.6ms,
+  while mean vowel duration overall is 118.3ms                   3.3 Formants
+  Phrasal position is also highly significant, with both
+                                                                 Vocoids are distinct from both /a/ and /e/ in both first
+  vocoids and vowels produced in the isolation
+                                                                 and second formants (p<.001). Moreover, the quality
+  condition being longer than those in the quotative
+                                                                 of the following vowel does not affect the formant
+  condition (p<.001). Neither sonority shape nor order
+                                                                 values of the vocoid. Figure 4 shows the f1 by f2 plot.
+  of place of articulation have an effect on vocoid or
+                                                                 Three clouds are visible: one for the /a/ vowel, one for
+  vowel duration.
+
+
+
+                                                          2002
+7. Syllable                                                                                                            ID: 613
+
+
+  the /e/ vowels and one for the vocoids, regardless of               something similar for the sonority fall /lbeba/ in
+  the quality of the following vowel.                                 Figure 5c. The production with the vocoid has three
+                                                                      peaks in the first derivative identified, while the non-
+                                                                      vocoid production has only two. The first peak in the
+                                                                      vocoid production, which coincides with the vocoid
+                                                                      itself, is greater in magnitude than many lexical
+                                                                      vowels in the utterance.
+
+                                                                                        4. DISCUSSION
+
+                                                                      These results indicate that intrusive vocoids in
+      Figure 4: f1 and f2 values for /a/, /e/, and vocoids            Georgian are articulatory artifacts that emerge due to
+      preceding either /a/ or /e/.                                    the long lag between consonant constrictions.
+                                                                      According to [3], this lag is created because C
+  3.4 Amplitude envelope                                              constriction gestures in Georgian onsets are in anti-
+                                                                      phase coordination with each other, with the
+  Figure 5 shows the waveform and corresponding
+                                                                      prenuclear C gesture also anti-phase with the nucleus
+  amplitude envelope per sonority shape.
+                                                                      V gesture. This means that each successive gesture is
+                                                                      initiated only after the previous gesture has reached
+                                                                      its target. As articulators move from one C to the
+                                                                      other, a relatively neutral configuration is created in
+                                                                      the vocal tract. When the second consonant is voiced,
+                                                                      voicing may occur during some part of this transition
+                                                                      resulting in the vocoid, as illustrated in Fig. 3. Since
+                                                                      the overlap between lag and voicing is brief and the
+                                                                      oral tract is target-less during this interval—hence the
+                                                                      non-effect of sonority on vocoid quality—the
+                                                                      resulting vocoid has a schwa-like quality (see Fig. 4;
+                                                                      F1 ~ 500 Hz and F2 ~ 1500 Hz for the vocoids). The
+                                                                      fact that the quality of the vocoid is unaffected by the
+                                                                      following vowel is consistent with the account of the
+                                                                      nucleus V gesture being anti-phase with the onset. If
+                                                                      the vowel gesture were in-phase with the onset, the
+                                                                      lag between consonant gestures would briefly
+                                                                      ‘unmask’ the V gesture, and the formant structure of
+                                                                      the resultant vocoid would be expected to be affected
+                                                                      by the quality of the phonological vowel.
+                                                                           Sonority shape does affect the duration of the lag
+                                                                      and the distribution of vocoids. It has been
+  Figure 5: Waveform and amplitude envelope for sonority              hypothesized that this may avoid resyllabification [3].
+  rise /blepi/ (5a), sonority plateau /mnaxe/ (5b), and sonority      Preliminary examination of the syllable-scale
+  fall /lbeba/ (5c) with and without a vocoid, as produced by
+                                                                      amplitude envelope supports this hypothesis, since it
+  S2. Regions of interest are outlined; the box on the left of
+  each pair marks the production with a vocoid, and the box           shows that the presence of a vocoid in a sonority
+  on the right marks the one without.                                 plateau or fall (Figures 5b-c) results in a distinct
+                                                                      additional peak, which could be interpreted as an
+       In these examples, isolation productions have a                additional syllable. Conversely, in a sonority rise, the
+  vocoid, while the quotative ones do not. In sonority                vocoid is less distinct from the nuclear amplitude
+  rises (Fig. 5a), the vocoid and non-vocoid productions              peak (Figure 5a). The distributional asymmetry of
+  have the same amplitude envelope shape, with the                    intrusive vocoids across onsets of different sonority
+  same number of amplitude peaks identified. The                      shapes thus mirrors the potential disruptiveness of the
+  vocoid peak is smaller in magnitude and peak                        vocoid. In those onsets where a vocoid may result in
+  velocity than the vowel peak. In a sonority plateau                 resyllabification, we find fewer vocoids and shorter
+  like /mnaxe/, we see different shapes in the envelope               lags between consonants, as speakers plan for a
+  for the vocoid and non-vocoid productions (Fig. 5b).                syllable with a single nucleus.
+  The production with a vocoid has two distinct peaks,
+  while the non-vocoid production has one. We see
+
+
+
+
+                                                               2003
+7. Syllable                                                                                                            ID: 613
+
+
+              5. ACKNOWLEDGEMENTS                                      [14] H. Wickham, ggplot2: Elegant Graphics for Data
+                                                                          Analysis. Springer-Verlag New York, 2016. [Online].
+  This work was supported by the National Science                         Available: https://ggplot2.tidyverse.org
+  Foundation (#1551428) to Argyro Katsika (PI) and
+  National Institutes of Health (NIDCD-DC-002717)
+  to Douglas Whalen (PI).
+
+                      6. REFERENCES
+
+  [1] C. Crouch, A. Katsika, and I. Chitoran, “Sonority
+      sequencing and its relationship to articulatory timing in
+      Georgian,” Journal of the International Phonetic
+      Association, pp. 1–24, 2023.
+  [2] M. Pouplier et al., “Language and cluster-specific
+      effects in the timing of onset consonant sequences in
+      seven languages,” Journal of Phonetics, vol. 93, p.
+      101153, Jul. 2022, doi: 10.1016/j.wocn.2022.101153.
+  [5] Y. Oganian and E. F. Chang, “A speech envelope
+      landmark for syllable encoding in human superior
+      temporal gyrus,” Science Advances, vol. 5, no. 11, p.
+      eaay6279, Nov. 2019, doi: 10.1126/sciadv.aay6279.
+  [3] C. Crouch, “Postcards from the syllable edge: sonority
+      and articulatory timing in complex onsets in Georgian,”
+      UC Santa Barbara, 2022. Accessed: Jan. 04, 2023.
+      [Online].                                      Available:
+      https://escholarship.org/uc/item/5w18167d
+  [4] I. Chitoran, L. Goldstein, and D. Byrd, “Gestural
+      overlap and recoverability: Articulatory evidence from
+      Georgian,” Laboratory phonology, vol. 7, no. 4–1, pp.
+      419–447, 2002.
+  [6] P. Boersma, and D. Weenink, “Praat: doing phonetics
+      by computer [Computer program],” Version 6.3.03,
+      http://www.praat.org/
+  [7] Lennes, Mietta, “SpeCT - Speech Corpus Toolkit for
+      Praat (v1.0.0). First release on GitHub”. Zenodo, Mar.
+      08, 2017. doi: 10.5281/zenodo.375923.
+  [8] S. Tilsen and A. Arvaniti, “Speech rhythm analysis
+      with decomposition of the amplitude envelope:
+      characterizing rhythmic patterns within and across
+      languages,” The Journal of the Acoustical Society of
+      America, vol. 134, no. 1, pp. 628–639, 2013.
+  [9] A. MacIntyre, “AcousticLandmarks” Accessed: 4
+      January           2023           [Matlab            script]
+      https://github.com/alexisdmacintyre/AcousticLandmar
+      ks
+  [10] R Core Team, “R: A language and environment for
+      statistical computing.” R foundation for statistical
+      computing Vienna, Austria, 2018.
+  [11] A. Kuznetsova, P. B. Brockhoff, and R. H. B.
+      Christensen, “lmerTest Package: Tests in Linear Mixed
+      Effects Models,” Journal of Statistical Software, vol.
+      82, no. 13, pp. 1–26, 2017, doi: 10.18637/jss.v082.i13.
+  [12] D. Bates, M. Mächler, B. Bolker, and S. Walker,
+      “Fitting Linear Mixed-Effects Models Using lme4,”
+      Journal of Statistical Software, vol. 67, no. 1, pp. 1–48,
+      2015, doi: 10.18637/jss.v067.i01.
+  [13]R. Lenth, J. Love, and M. Herve, “emmeans: Estimated
+      Marginal Means, aka Least-Squares Means.” Jan. 10,
+      2018. Accessed: Jan. 04, 2023. [Online]. Available:
+      https://CRAN.R-project.org/package=emmeans
+
+
+
+
+                                                                2004
+

@@ -1,0 +1,883 @@
+To appear in: H. Kardela and B. Szymanek `Festschrift for Prof. E. Gussmann from his friends and
+colleagues', Lublin: KUL.
+
+
+
+
+                                                     2+2=3
+                                      Stress in Munster Irish*
+
+
+                                                  Graóyna Rowicka
+                                              Leiden University / HIL
+                                                 Dept. of Linguistics
+                                     e-mail: Rowicka@rullet.LeidenUniv.nl
+
+
+
+Unlike the other dialects of Modern Irish, Munster Irish1 has developed a complex quantity-sensitive
+stress system. In this paper I will argue that many intricacies of the system can be untangled when
+assuming a trimoraic foot as the basic foot type of Munster Irish. Foot trimoraicity results from its
+double-branching. I will propose an analysis within the framework of Optimality Theory developed
+by Prince and Smolensky (1993) (henceforth: PS) and McCarthy and Prince (1993a, b) (henceforth:
+MPa and MPb), which affords new insights into the foot structure of Munster Irish.
+    The paper is organised as follows. First I present the basic facts concerning the stress system of
+Munster Irish (§ 1.1) and introduce the theoretical approach applied in this study (§ 1.2). In § 2 I
+develop the analysis. I begin in § 2.1 with some evidence in favour of a trimoraic foot in Munster
+Irish. In § 2.2 the structure of a doubly-branching foot is discussed. § 2.3 presents an OT analysis of
+the foot structure and main stress assignment in Munster Irish. § 2.4 I point out some predictions
+which follow from the analysis proposed in this paper and adduce some more evidence in its favour.
+§ 3 sums up the findings of the previous sections.
+
+
+*   An earlier version of this paper has been written for a 1994 HIL course on stress in Optimality Theory, independently
+    of the article by Gussmann (1994). I consider it a remarkable coincidence that, despite the different theoretical
+    frameworks adopted, the analyses proposed in both studies share a number of affinities. The present paper does not aspire
+    to cover the stress facts of Munster Irish in such an exhaustive way as Gussmann's, but rather concentrates on the insights
+    and predictions offered by the framework of Optimality Theory.
+
+1   Munster is the southernmost province of Ireland.
+STRESS IN MUNSTER IRISH
+
+
+
+
+1. Introduction
+1.1 The stress facts of Munster Irish
+
+
+Stress assignment in Munster Irish is generally insensitive to the morphological complexity of words,
+i.e. it treats underived and derived words (including compounds) on a par (see Ó Siadhail 1989). Only
+syllables containing a long vowel or a diphthong count as heavy. Consonants in the coda do not
+contribute to syllable weight.2 Moreover, vowels resulting from epenthesis between a sonorant and
+a non-homorganic consonant generally behave the same as underlying ones (see Ó Siadhail 1989).
+The patterns of primary and secondary stress are given below and illustrated with examples.3
+
+
+    (1)       Words of two syllables:
+              a) Ll                     solas                            [sólMs]                    `light'
+              b) lH                     garsún                           [garsú:n]                  `boy'
+              c) Hl                     cúram                            [kú:rMm]                   `care'
+              d) hH                     díomhaoin                        [dji:ví:nj]                `idle'
+
+
+
+
+2   Complications such as the apparent influence of /ax/ sequences on stress will not be considered in this paper. Doherty
+    (1991) observes that syllables containing /ax/ may attract stress, but only in the second position of the word. He suggests
+    that this bizarre behaviour is related to the high sonority of the vowel /a/. Moreover, certain affixes are said to violate the
+    predicted patterns by attracting stress and some others by avoiding stress. Gussmann (1994) points out that these
+    deviations involve only a handful of examples which may be treated as lexical exceptions.
+
+3   Examples in this paper are taken from Breatnach (1947), Ó Cuív (1944) and (1947), mostly after Doherty (1991), largely
+    preserving the original orthography and transcription. (1o) and (6a,b) are due to Gussmann 1994). Note that in Irish
+    orthography accent marks represent underlying long vowels, whereas in phonetic transcription they mark stress. Unlike
+    in the original, transcriptions in this paper include the (default) initial primary stress as well as the secondary stress
+    assigned according to the description given in Ó Cuív (1944:67). Non-initial secondary stress is said to be optional (see
+    Ó Cuív 1944 and Ó Sé 1989).
+
+                                                               2
+GRAòYNA ROWICKA
+
+
+
+             Words of three syllables:
+             e) Lll                 anagal                    [ánMgMl]              `corrupt matter'
+             f) LlH                 moltachán                 [mòlhMxÜ:n]           `wether'
+             g) lHl                 frithálamh                [frjihÜ:lMv]          `entertain'
+                                                                             j
+             h) lHh                 cruinniúcháin             [kriõú:xá:n ]         `(political) meetings'
+             i) Hll                 tiodhlacadh               [tj'MilMkM]           `gift'
+             j) HlH                 ughdardhás                [ú:dMr`á:s]           `authority'
+             k) hHl                 réasúnta                  [re:sú:ntM]           `reasonable'
+             l) hHh                 máirnéulaíocht            [má:rnjé:li:xt]       `navigation'
+             Words of four syllables:
+             m) Llll                anamacha                  [ánMmMxM]             `souls'
+             n) LllH                patalachán                [p'ÜtalMx`á:n]        `plump creature'
+             o) HlHl                fógrófar                  [fò:gMró:fMr]         `will be announced'
+
+
+     where l     - light syllable
+             L - light syllable with secondary stress
+             L - light syllable with primary stress
+             h   - heavy syllable
+             H - heavy syllable with secondary stress
+             H - heavy syllable with primary stress
+             [á] - vowel with primary stress
+             [à] - vowel with secondary stress
+
+
+On the basis of disyllabic words it can be concluded that heavy syllables attract stress (cf. (1)b and
+(c)). Stress is initial in words of light syllables only, but non-initial in words of heavy syllables only.
+These generalisations are also true with respect to longer words. The stress on the initial light syllable
+instead of the heavy one in `lllh' words (cf. (1)n) may suggest that stress assignment is restricted to
+the first three syllables.
+     Different stress placement in words containing light and heavy syllables suggests that the system
+is weight-sensitive. Initial stress in sequences of light syllables points to left-headed, i.e. trochaic, foot
+structure. However, Munster Irish stress does not yield to a straightforward analysis in terms of
+
+
+                                                      3
+STRESS IN MUNSTER IRISH
+
+
+
+bimoraic trochees and the initial End Rule (Prince 1983), which would predict incorrectly initial stress
+in (1)d, (f), (k) and (l). To account for these patterns, Doherty (1991) has suggested word-initial foot
+extrametricality on the condition that the extrametrical foot is directly followed by another foot. The
+condition on extrametricality protects initial stress in the words in (1)j and (n) parsed as (h)l(h) and
+(ll)l(h). However, the analysis runs into another problem: initial stress in (1)i and (m) can only be
+derived without extrametricality. Doherty's way out is to postulate that extrametricality is inapplicable
+because these words contain only one foot each: (h)ll and (ll)ll. Light syllables in non-initial position
+within the word are not parsed into feet.
+    To sum up, an analysis of Munster Irish stress in terms of bimoraic trochees necessitates such
+ad hoc mechanisms as foot extrametricality conditioned by strict foot adjacency and a ban on
+footifying light syllables non-initially within the word.4 Still, it predicts incorrectly initial stress in
+(1)o, whose pattern has been left out of Doherty's (1991) study.
+    In this paper I will propose an alternative account of the Munster Irish stress facts within the
+framework of Optimality Theory, an account which does not necessitate language-specific theoretical
+innovations. It makes appeal to general prosodic well-formedness conditions whose role in other
+languages has been well-documented in the OT literature. Two new constraints are proposed which,
+however, are analogical to those which have already been well-established. The basic tenets of the
+framework are presented below.
+
+
+
+1.2 The framework
+
+
+The framework adopted in this paper is that of Optimality Theory, as presented in PS and MPa and
+MPb. This approach focuses on well-formedness conditions governing the output of the phonological
+component (and the grammar in general), rather than on rules modifying its input. What differentiates
+it from other frameworks developed in this spirit is the view that well-formedness constraints do not
+have to be surface-true. The selected outputs of the phonological component may violate some
+constraints, provided that they are still `optimal'. Optimality involves best satisfaction of a hierarchy
+of constraints which may sometimes be in conflict.
+
+
+
+4   Doherty (1991) also considers and rejects an alternative account in terms of iambic feet.
+
+                                                           4
+GRAòYNA ROWICKA
+
+
+
+    The set of possible well-formedness constraints is part of Universal Grammar, which also
+contains the functions Gen(erate) and Eval(uate). The former generates a large set of candidate
+outputs for each given input which are then evaluated by the function Eval with respect to the system
+of well-formedness constraints. Any two possible outputs are compared and such evaluation defines
+the degree of relative success of each candidate with respect to the others. Constraints are
+hierarchically arranged. Low-ranked ones can be violated in an optimal output in order to satisfy
+higher-ranked ones, but not vice versa. Individual grammars are constructed by imposing a language-
+specific ranking on the universally given set of possible well-formedness constraints. Constraints may
+also differ cross-linguistically in the setting of certain parameters.
+    The fundamentals of Optimality Theory are thus the following (after MPa):
+
+
+    (2)      Principles of Optimality Theory
+             a. Violability
+                 Constraints are violable; but violation is minimal.
+             b. Ranking
+                 Constraints are ranked on a language-particular basis; the notion of minimal violation
+                 is defined in terms of this ranking.
+             c. Inclusiveness
+                 The candidate analyses, which are evaluated by the constraint hierarchy, are admitted
+                 by very general considerations of structural well-formedness; there are no specific
+                 rules or repair strategies with specific structural descriptions or structural changes
+                 or with connections to specific constraints.
+             d. Parallelism
+                 Best-satisfaction of the constraint hierarchy is computed over the whole hierarchy
+                 and the whole candidate set.
+
+
+The analysis presented in this paper crucially hinges on these aspects of Optimality Theory. The
+notation used in the constraint tableaux evaluating various candidate outputs is explained in the
+appendix to this paper.
+
+
+
+
+                                                    5
+STRESS IN MUNSTER IRISH
+
+
+
+2. Analysis
+2.1 Ternary feet in Munster Irish
+
+
+Previous analyses of Munster Irish have generally taken initial stress to be default. However, this
+conclusion seems controversial if words with sequences of equally stressable elements, namely heavy
+syllables, are considered. Their behaviour suggests that primary stress is preferably non-initial and,
+if also possible, non-final (cf. (1)h, (k) and (l)). Primary stress is found word-initially only in cases
+where the word begins with a heavy syllable followed by a light one (cf. (1)i, (j), or with three light
+syllables (cf. (1)e, (m) and (n). The sequences of `hl' and `lll' apparently have some stress-attracting
+properties.
+    Compare the stress patterns given in (1)n and (f) above and repeated below as (3)a and (b).
+
+
+    (3)       a) LllH             patalachán                 [pÜtalMx`á:n]
+    `plump creature'
+              b) LlH              moltachán                  [mòlhMxÜ:n]           `wether'
+
+
+In both cases the initial light syllable and the heavy syllable bear prominence, which indicates that they
+are heads of feet. However, in (3)a primary stress falls on the first foot of the word while in (b) it falls
+on the second. Given a bimoraic trochee as the foot type, as assumed by Doherty (1991), both words
+contain two identical feet (ll) and (h), with the third light syllable in (3)a left unparsed. The difference
+in primary stress assignment remains a puzzle.
+    On the other hand, if a trimoraic trochee is adopted as the basic foot type in Munster Irish, the
+word in (3)a consists of a trimoraic foot followed by a bimoraic one: (lll)(h). The stress-attracting
+property of the first foot is its trimoraicity, as opposed to the bimoraicity of the second foot. The
+same holds for `hl' sequences footified into trimoraic trochees. Furthermore, if a word contains more
+than one trimoraic foot, e.g. (hl)(hl) (cf. (1)o), the non-initial foot receives primary stress. Under such
+an analysis, primary stress assignment in Munster Irish can be described in terms of the following
+algorithm:
+
+
+
+
+                                                     6
+GRAòYNA ROWICKA
+
+
+
+     6 Create trimoraic or, if not possible, bimoraic feet within the word;
+     6 Put main stress on a trimoraic foot, if possible;
+     6 Stress a non-initial foot, if possible;
+     6 If possible, stress a non-final foot of the word.
+
+
+Given such an algorithm words given in (1) above have the prosodic structure shown in the respective
+right-hand columns below. Syllables predicted to bear primary stress are underlined.
+
+
+     (4)     a) Ll                (ll)                     i) Hll              (hl)l
+             b) lH                l(h)                     j) HlH              (hl)(h)
+             c) Hl                (hl)                     k) hHl              (h)(hl)
+             d) hH                (h)(h)                   l) hHh              (h)(h)(h)
+             e) Lll               (lll)                    m) Llll             (lll)l
+             f) LlH               (ll)(h)                  n) LllH             (lll)(h)
+             g) lHl               l(hl)                    o) HlHl             (hl)(hl)
+             h) lHh               l(h)(h)
+
+
+As can be seen, the predicted location of primary stress corresponds in all cases to the actual stress
+placement. Moreover, the heads (i.e. the left-most syllables) of other feet coincide with the location
+of secondary stress, except for those cases (with heavy syllable sequences) where a stress clash would
+result.
+     Thus, an analysis adopting a trimoraic trochee as the basic foot type in Munster Irish accounts
+correctly for all the facts presented in (1). It also makes further predictions with respect to the
+location of main stress. It anticipates that a trimoraic foot will be stressed, no matter whether it is
+within or outside the `three syllable window' postulated in the literature. Consider some hypothetical
+sequences of light and heavy syllables given in the left-hand column below. The present account
+predicts for them the foot structure and main stress location given in the middle column. For
+comparison, the foot structure and stress pattern predicted by Doherty's (1991) analysis are given in
+the right-hand column:
+
+
+
+
+                                                   7
+STRESS IN MUNSTER IRISH
+
+
+
+     (5)                        present analysis             Doherty's analysis
+             a. llhhl           (ll)(h)(hl)                  (ll)(h)(h)l
+             b. lllhl           (lll)(hl)                    (ll)l(h)l
+             c. hhhhl           (h)(h)(h)(hl)                (h)(h)(h)(h)l
+
+
+As can be seen above, the predictions following from the present analysis and that of Doherty's differ
+crucially.
+     Words with the relevant structure are missing from the data considered in most studies of
+Munster Irish stress. In this respect Gussmann (1994) constitutes a noteworthy exception. Consider
+some examples which he brings to light (following the source, secondary stress is not marked):
+
+
+     (6)     a. llhHl           imigéiniúla               [imige:njú:lM]      `distant-NOM-PL'
+             b. lllHl           eadargála                 [ádMrMgÜ:lM]        `mediation-GEN-SG'
+
+
+The words above are of the structure considered in (5)a and (b) above. It is immediately clear that
+they confirm the predictions of the present analysis and not that of Doherty's.
+
+
+
+2.2 A doubly-branching foot
+
+
+A foot dominating three moras may be viewed as having flat structure, with one strong branch and
+two weak ones. However, it has also been proposed in the literature (see Dresher and Lahiri 1991,
+and Rice 1992) that foot ternarity may result from its double-branchingness. A foot of this type
+dominates two branches, one strong and one weak, of which the strong branch itself also dominates
+two elements. The two structural possibilities are represented below:
+
+
+
+
+                                                   8
+GRAòYNA ROWICKA
+
+
+
+    (7)     Trimoraic feet
+            a. flat                       b. doubly-branching
+              F                              F
+              *       \      \               *        \
+               s      w    w                  s           w
+              *       *      *               *        \   *
+              µ       µ      µ               µ        µ   µ
+
+
+             where `µ' - mora
+
+
+In what follows I will argue for a doubly-branching structure for trimoraic feet in Munster Irish.
+
+
+
+2.3 An OT account
+2.3.1 Foot structure
+
+
+Within OT the foot structure of a language follows from the language-specific way in which universal
+constraints on foot well-formedness are ranked. Left-headedness within the foot is required by
+RHTYPE = TROCHEE (PS). This constraint does not itself demand branching within the foot, but only
+rules out right-headed feet. Branchingness is due to another constraint, well-documented cross-
+linguistically (see, e.g. Prince 1980, McCarthy and Prince 1986, Kager 1989, Hayes 1991 as well as
+PS). In the OT literature the following formulation of FOOT BINARITY has been adopted:
+
+
+    (8)     FTBIN
+            Feet must be binary under syllabic or moraic analysis.
+
+
+
+
+                                                  9
+STRESS IN MUNSTER IRISH
+
+
+
+Crucially, this constraint requires branching of the foot node itself 5, and not anywhere within the
+foot. RHTYPE and FTBIN together will favour binary left-headed feet over other foot types.
+    To derive ternary feet, another constraint must occupy a high position in the hierarchy, which
+will demand branching within the head of the foot. It can be formulated as follows:
+
+
+    (9)      HEADBIN (cf. HeadBranch in van der Hulst 1994)6
+             The head of the foot must be branching.
+
+
+In order to satisfy both FTBIN and HEADBIN feet have to be doubly-brancing: at the level of the foot
+head and at the level of the foot node itself. This results in ternary foot structure.
+    FTBIN and HEADBIN may sometimes be in conflict. If there are only two moras available, they
+can either be parsed as a branching foot with a non-branching head, or as a non-branching foot with
+a branching head. Both parsing are represented in (10)a and (b), respectively:
+
+
+    (10)        a.       F                      b.       F
+                         *       \                       *
+                         s      w                        s
+                         *       *                       *        \
+                         µ       µ                       µ        µ
+
+
+The tableau in (11) below evaluates both parsings with respect to the two relevant constraints. As
+shown in the tableau, a different candidate parsing will be selected depending on the relative ranking
+of HEADBIN and FTBIN. The ranking FTBIN >> HEADBIN will favour the parsing represented in
+
+
+5   To be precise, FTBIN in this formulation rules out not only degenerate feet, but also unbounded feet and ternary feet with
+    flat structure as represented in (7)a above. I will not address here the issue of whether this is desirable in all cases, or
+    whether a more general formulation should instead be adopted. See, e.g. van der Hulst (1994) where branching is
+    demanded, rather than specifically binarity. Moreover, in Rowicka (1994) I argue for two separate FTBIN constraints
+    which require binarity at the syllabic and the moraic level of analysis. However, for the purposes of the present analysis
+    this division is insignificant.
+
+6   According to OT, where all constraints are assumed to be present in all languages, HEADBIN is also supposed to be
+    present in the constraint hierarchies of languages which do not allow for ternary feet. As argued by van der Hulst (1994),
+    in such languages HEADBIN is ranked below (and hence `disactivated' by) NOLAPSE which rules out sequences of two
+    unaccented syllables/moras. Hung (1993) postulates another constraint, RHYTHM, which can have the same effect if
+    ranked above HEADBIN. There is independent motivation for a constraint of the type NOLAPSE or RHYTHM.
+
+                                                             10
+GRAòYNA ROWICKA
+
+
+
+(10)a, while HEADBIN >> FTBIN will favour that in (10)b. In the tableau below the relevant
+constraints are not ranked and the winning candidate is not indicated. The actual ranking in Munster
+Irish will be established below.
+
+
+    (11)     Evaluation tableau for bimoraic feet
+
+
+            Candidates                      HEADBIN                         FTBIN
+
+      F
+      sw                                        *
+      µµ
+      F
+      s                                                                       *
+      µµ
+
+
+
+Consider now another constraint which governs parsing into feet. In all the parsings in (4) syllable
+integrity is respected: moras of heavy syllables are never parsed into different feet in order to achieve
+the optimal ternary foot structure. For instance, in terms of the number of moras the sequence `hhl'
+in (4)k is identical to `hlh' in (4)j and can be parsed analogically, with the two moras of the second
+heavy syllable split up between two feet: (hµ)(µl). However , such a candidate output must bear
+primary stress on the first heavy syllable since this is the head of a trimoraic foot, while in the selected
+output stress falls on (the first mora of) the second heavy syllable. The principle which rules out
+parsings such as (hµ)(µl) can be formulated as the following constraint:
+
+
+    (12)     SYLLABLE INTEGRITY
+             Moras of a syllable cannot be divided between different metrical constituents.
+
+
+SYLINT is never violated in Munster Irish in that moras of a heavy syllable are never split up between
+two feet.
+
+
+
+
+                                                    11
+STRESS IN MUNSTER IRISH
+
+
+
+    The head and the dependent branch within one foot can also be regarded as `different metrical
+constituents'. If this interpretation is taken into account, the constraint also disallows dividing
+tautosyllabic moras between the strong and the weak branch of the same foot. Evidence that SYLINT
+in this sense is also respected in Munster Irish can be found in the behaviour of `lh' sequences (cf.
+(1)b, (g) and (h) above). Such a trimoraic sequence could itself constitute a ternary foot, with the
+head dominating the light syllable and the first mora of the heavy syllable, as shown below:
+
+
+    (13)              F
+                      *      \
+                      s            w
+                      *      \     *
+                      µ     µ      µ
+                      *      *     /
+                      l     h
+
+
+The foot represented above should bear stress on its first mora, i.e. on the light syllable. However,
+the primary stress on the heavy syllable in (1)b, (g) and (h) shows that parsings such as that in (13)
+are never selected. Heavy syllables are always included as a whole into the foot head, even at the cost
+of leaving a preceding light syllable unparsed. I conclude that SYLINT in either interpretation is
+inviolable in Munster Irish.
+    Given the high ranking of SYLINT, heavy syllables will preferably be parsed into branching heads
+of non-branching feet (cf. (10)b), irrespective of the ordering between FTBIN and HEADBIN. Evidence
+for the relative ordering of the latter two constraints can, however, be found in the parsing of light
+syllable sequences, where SYLINT is redundant. As observed above, if FTBIN dominates HEADBIN,
+two light syllables will be parsed as in (10)a, i.e. differently from two moras of a single heavy syllable.
+In a language with such a constraint ordering a sequence `ll' will form a branching foot (with a non-
+branching head), while a heavy syllable will form (the branching head of) a non-branching foot, due
+to SYLINT. One can expect that, given the structural distinction between `ll' feet and `h' feet, the two
+kinds of feet may behave differently, for instance, in primary stress assignment, since the `h' foot type
+is in a way degenerate. No such difference is evident in Munster Irish. For instance, `(ll)(h)' words
+have the same stress pattern as `(h)(h)' words (cf. (4)f and (d). I conclude that in Munster Irish `ll'
+
+
+                                                    12
+GRAòYNA ROWICKA
+
+
+
+sequences and heavy sylables are parsed the same, namely, as represented in (10)b. Such parsings are
+selected due to the domination of HEADBIN over FTBIN.
+     The behaviour of `llh' and `hh' sequences provides evidence for the high ranking of another
+constraint on foot structure. Such sequences can be parsed as single feet where both the head and the
+dependent are branching, to the satisfaction of both HEADBIN and FTBIN:
+
+
+     (14)       a.      F                                         b.   F
+                        *       \                                      *   \
+                        s              w                               s       w
+                        *       \      *       \                       *   \    *
+                        µ       µ      µ       µ                       µ   µ    µ     µ
+                        *       *      *       /                       *   /    *
+                         l      l      h                               h        h
+
+
+Feet like this, however, should bear stress on their first syllable, which prediction is counterevidenced
+by the data in (1)f and (d). Apparently, in Munster Irish heavy syllables are never included in the foot
+as the weak branch. As observed by Hayes (1980), in weight-sensitive systems heavy syllables are
+usually prohibited from occupying weak metrical positions. PS adopt the following formulation of
+this principle (cf. also Prince 1990):
+
+
+     (15)     Weight-to-Stress Principle (WSP)
+              Heavy syllables are prominent in foot structure and on the grid.
+
+
+Apart from the dependent foot branch, a ternary foot contains one more weak metrical position,
+namely the right branch of the foot head. If heavy syllables are allowed in this position, the sequence
+`lhl' is parsed as a single foot:7
+
+
+
+
+7    Dresher and Lahiri (1991) argue for such feet in Germanic.
+
+                                                          13
+STRESS IN MUNSTER IRISH
+
+
+
+    (16)       F
+               *      \
+               s            w
+               *      \     *
+               l      h      l
+
+
+The above structure satisfies both HEADBIN and FTBIN, but it violates WSP since a heavy syllable
+occupies a weak metrical position. In such a foot stress is predicted to fall on the foot head, i.e. on
+the first light syllable. However, `lhl' words in Munster Irish are stressed on the heavy syllable instead
+(see (1)g above). The selected parsing for `lhl' words is not that given in (16). I conclude that in
+Munster Irish heavy syllables are never parsed in any weak position within the foot, which indicates
+that WSP is inviolable.
+    To sum up, the discussion carried out in this section has pointed out the relevance of the
+following well-formedness constraints for foot structure assignment in Munster Irish:
+
+
+    (17)     Constraint hierarchy governing foot structure in Munster Irish
+             RHTYPE = T, SYLINT, WSP, HEADBIN >> FTBIN.
+
+
+These constraints guarantee that feet in Munster Irish are left-headed and have a branching head. Foot
+structure respects syllable integrity. Weak positions within the foot may only dominate one mora.
+Branching feet are preferred to non-branching ones.
+    In the following section I will concentrate on the constraints responsible for main stress
+assignment in Munster Irish.
+
+
+
+2.3.2 Main stress assignment
+
+
+In Munster Irish trimoraic feet attract stress stronger than bimoraic feet. This preference for locating
+the prominence peak of the word on the foot dominating the greatest number of moras might be
+attributed to the constraint PEAK-PROMINENCE (PS, after McCarthy and Prince 1986):
+
+
+
+
+                                                   14
+GRAòYNA ROWICKA
+
+
+
+    (18)     PEAK-PROMINENCE
+             Peak (x) ™ Peak (y) if *x* > *y*
+
+
+By this constraint, the element x is a better peak than y if the intrinsic prominence of x is greater than
+that of y. Greater intrinsic prominence may denote greater metrical weight, as in the analysis of a
+Hindi dialect that PS present. I suggest, however, that reference to intrinsic prominence may be more
+suitable in the case of indisputably prominence-driven stress systems analysed in terms of `unbounded'
+feet. A more straightforward account can be proposed for the stress system of Munster Irish.
+    Recall that, given the domination of HEADBIN over FTBIN, trimoraic feet are the only ones which
+branch. Bimoraic feet, on the other hand, have binary heads, but do not branch themselves. Compare
+the structures below:
+
+
+    (19)       a.     F                                 b.    F
+                      *     \                                 *
+                      s           w                           s
+                      *     \      *                          *     \
+                      µ     µ      µ                         µ     µ
+
+
+                    a trimoraic foot                         a bimoraic foot
+
+
+I propose to express the preference for a trimoraic foot to bear the word's main stress in terms of a
+requirement that the head of the prosodic word must be branching:
+
+
+    (20)     PWHEAD BIN
+             The head of the prosodic word must be branching.
+
+
+PWHEADBIN, HEADBIN and FTBIN form a family of constraints which demand that elements of
+prosodic structure be binary.
+    PWHEADBIN is violated in words which do not contain any trimoraic feet, but only bimoraic
+ones, e.g. (h)(h) from (4)d. One of the feet must bear main stress, although it does not branch. The
+violation of PWHEADBIN is forced by the undominated constraints SYLINT and WSP which discard
+any other foot structure for such words. There is also evidence that in Munster Irish PWHEADBIN
+
+                                                   15
+STRESS IN MUNSTER IRISH
+
+
+
+is ranked below HEADBIN. Consider again `llh' words (cf. (4)f). As argued in § 2.3.1, high ranked
+HEADBIN selects the parsing in which two light syllables are the head of a non-branching foot.
+Therefore `llh' words contain two non-branching feet. Such outputs violate PWHEADBIN. The latter
+constraint would select another candidate output where `ll' is a branching foot (with a non-branching
+head) and the p-word head. This parsing violates HEADBIN. Both candidate outputs of `llh' words are
+represented in (21)a and (b) respectively. `F' (in bold print) indicates the p-word head. Main stress
+falls on the head of the foot which is the p-word head, i.e. on the heavy syllable in (21)a and on the
+initial light syllable in (21)b. The stress pattern predicted in (21)b is incorrect. In the selected output
+(cf. (4)f) the non-branching foot (h) is the p-word head, which indicates that the foot (ll) is not
+branching either. This gives evidence for the ranking HEADBIN >> PWHEADBIN in Munster Irish.
+    (21)       a.     F            F                     b.   F            F
+                      *            *                          *     \      *
+                      s            s                          s     w      s
+                      *      \     *                          *     *      *
+                      l      l     h                          l     l      h
+
+
+              HEADBIN >> PWHEADBIN                            PWHEADBIN >> HEADBIN
+
+
+The interaction of WSP, HEADBIN, PWHEADBIN and FTBIN is illustrated in the tableau below for
+some candidate parsings of `hh' and `llh' words.
+
+
+
+
+                                                    16
+GRAòYNA ROWICKA
+
+
+
+      (22)   Interaction of WSP and binarity requirements
+
+
+      Candidates            WSP            HEADBIN         PWHEAD BIN            FTBIN
+
+  F
+  sw                         *!
+  hh
+  F F
+  s s        7                                                    *                **
+  h h
+
+  F     F
+  s     s 7                                                       *                **
+  ll h
+  F     F
+  sw s                                         *!                                   *
+  l l h
+  F
+  s    w                     *!
+  ll h
+
+
+
+For `hh' words the first candidate output is excluded by WSP because it contains a heavy syllable in
+a weak metrical position. The second candidate wins although it violates some binarity requirements.
+For `llh' words WSP rules out the third candidate, the second candidate loses with respect to
+HEADBIN, and the first candidate is selected. The behaviour of words containing only bimoraic feet
+with respect to primary stress assignment, such as (ll)(h), (h)(h) and (h)(h)(h), indicates the relevance
+of other constraints on the location of the p-word head. The main stress on the second foot in words
+of the structure (ll)(h) and (h)(h) shows that the p-word head should not be p-word-initial. On the
+other hand, the main stress on the medial foot in (h)(h)(h) sequences shows that it should preferably
+not be p-word-final either. The observation that many languages tend to avoid locating the p-word
+head at the right edge of the p-word has led to the postulation of the constraint NONFINALITY (PS):
+
+                                                    17
+STRESS IN MUNSTER IRISH
+
+
+
+    (23)     NONFINALITY
+             No head of p-word is final in p-word.
+
+
+NONFINALITY favours candidate outputs in which primary stress is assigned to a nonfinal foot in the
+p-word, for instance, to the second foot in the sequence (h)(h)(h). However, in words of only two
+feet it would incorrectly predict initial stress. The fact that the final, rather than the initial, foot is
+primarily stressed in (ll)(h) and (h)(h) sequences indicates that NONFINALITY is dominated by a
+constraint which rules out the p-word-initial location of the p-word head. The constraint in question
+is then a mirror image of NONFINALITY. I propose to formulate it as follows:
+
+
+    (24)     NONINITIALITY
+             No head of p-word is initial in p-word.
+
+
+The function of NONFINALITY and NONINITIALITY in a constraint-based framework such as OT is
+analogical to extrametricality in earlier approaches. As in the case of final vs. initial extrametricality,
+substantial evidence is adduced in the OT literature for NONFINALITY, but not for NONINITIALITY.
+To my knowledge the latter has not yet in fact been formulated as a constraint. However, the
+theoretical framework of OT does not rule it out. On the contrary. The well-established constraint
+NONFINALITY is antagonistic to one of the ALIGN-Right constraints (MPa) which demands that the
+p-word head occupies the rightmost position within the p-word. Whether a language exhibits final
+extrametricality effects or not depends, among other factors, on the relative ranking of NONFINALITY
+and ALIGN-Right. Given that ALIGN-Left (MPa) demands the leftmost location of the p-word head
+within the p-word, one may anticipate a competing constraint in the system, which is precisely
+NONINITIALITY. The reason why the impact of the latter constraint is not noted in the literature may
+be related to the special significance of the left p-word edge and the usually strong position of
+ALIGN-Left constraints cross-linguistically. However, the stress facts of Munster Irish seem to offer
+positive evidence in favour of NONINITIALITY.
+    The effects of NONINITIALITY and NONFINALITY are evident if all feet within the p-word have
+the same structure, i.e. they are all branching or all non-branching. If there is only one branching foot,
+it is assigned main stress irrespective of its location within the p-word. This provides evidence for the
+ranking PWHEADBIN >> NONINITIALITY >> NONFINALITY. The interaction of the three constraints
+governing primary stress assignment is illustrated in the tableau below:
+
+                                                    18
+GRAòYNA ROWICKA
+
+
+
+      (25)   Interaction of constraints on primary stress assignment
+
+
+        Candidates            PWHEAD BIN              NONINITIALITY           NONFINALITY
+
+  F     F                          *!                                               *
+  hl h
+  F     F    7                                              *
+  hl h
+
+  F F                              *                       *!
+  h h
+  F F        7                     *                                                *
+  h h
+
+  F F F                            *                       *!
+  h h h
+  F F F       7                    *
+  h h h
+  F F F                            *                                               *!
+  h h h
+
+
+
+For `hlh' words PWHEADBIN eliminates the candidate output in which a non-branching foot is
+assigned primary stress in favour of the candidate where a branching foot is stressed. In the case of
+`hh' words both candidates violate PWHEADBIN. Therefore the selection is done by the lower ranked
+constraint NONINITIALITY which is only satisfied by the second candidate output. As far as `hhh'
+words are concerned, all the three candidates score the same regarding PWHEADBIN and
+NONINITIALITY rules out only the first candidate. The choice between the second and the third
+candidate is determined by NONFINALITY in favour of the second.
+
+
+
+
+                                                 19
+STRESS IN MUNSTER IRISH
+
+
+
+3. Conclusion
+
+
+In this paper I have developed an OT analysis of stress in Munster Irish. It has been proposed that
+the basic type of foot in this language is a trimoraic trochee. Foot ternarity results from the fact that
+the foot has a binary-branching head and it branches itself. Such feet attract main stress. Moreover,
+main stress is preferably non-initial and, if also possible, non-final within the p-word. It has been
+argued that these properties of Munster Irish stress system are due to several universal constraints
+on the well-formedness of prosodic structure. Their ranking in Munster Irish is the following:
+
+
+     (26)     Constraint hierarchy governing foot structure and main stress
+              in Munster Irish
+
+
+              RHTYPE = T, SYLINT, WSP, HEADBIN >>
+              FTBIN, PWHEADBIN >>
+              NONINITIALITY >>
+              NONFINALITY
+
+
+An essential premise of OT, as opposed to other constraint-based approaches, is that lower ranked
+constraints can be violated in the selected outputs in order to satisfy higher-ranked ones. I hope to
+have demonstrated that this is indeed the case in Munster Irish and thus to have shown the adequacy
+of the framework of OT in the analysis of the Munster Irish stress system.
+
+
+
+Appendix: constraint tableau notation
+
+
+*                Constraint violation.
+!                Fatal violation - candidate loses against at least one other candidate.
+<>               Unparsed material.
+Dotted line      Constraints not crucially ordered.
+Shading          Constraint plays no role in the evaluation of the candidate.
+7                The optimal candidate.
+
+
+                                                   20
+GRAòYNA ROWICKA
+
+
+
+Acknowledgements
+
+
+    I would like to thank Eithne Carlin, Colin Ewen, Harry van der Hulst, Edmund Gussmann,
+    Krisztina Polgárdi, Ruben van de Vijver, Jeroen van de Weijer and the anonymous reviewer for
+    their comments on an earlier version of this paper. I am the only one to blame, of course.
+
+
+
+References
+
+
+de Bhaldraithe, T. (ed.). (1959). English-Irish Dictionary. Dublin, OiFig an tSoláthair.
+Breatnach, Risteard B. (1947). The Irish of Ring Co. Waterford. Dublin, Dublin Institute for
+Advanced Studies.
+Dinneen, P.S. (ed.). 1927). Foclóir Gaedhilge agus Béarla: An Irish-English Dictionary. Dublin,
+the Irish Texts Society.
+Doherty, C. (1991). Munster Irish Stress. In Phonology at Santa Cruz, vol. 2, 19-32.
+Dresher, B.E. and A. Lahiri (1991). The Germanic Foot: Metrical Coherence in Old English.
+Linguistic Inquiry 22, 251-86.
+Gussmann, E. (1994). Putting Your Best Foot Forward. Ms, Catholic University of Lublin.
+Hayes, B. (1980). A Metrical Theory of Stress Rules. PhD diss., MIT, Cambridge, MA.
+Hayes, B. (1991). Metrical Stress Theory: Principles and Case Studies. Ms, UCLA.
+Hulst, H.G. van der (1994). Notes on Foot Typology and Optimality Theory. Ms, Holland Institute
+of Generative Linguistics, Leiden and the Netherlands Institute for Advanced Science, Wassenaar.
+Hung, H. (1993). The Rhythmic and Prosodic Organization of Edge Constituents. PhD diss.,
+Brandeis University, Waltham.
+Kager, R. (1989). A Metrical Theory of Stress and Destressing in English and Dutch. Dordrecht,
+Foris.
+McCarthy, J.J. and A.S. Prince (1986). Prosodic Morphology. Samizdat, Amherst and Waltham, MA.
+McCarthy, J.J. and A.S. Prince (1993a). Generalized Alignment. Yearbook of Morphology, 79-153.
+McCarthy, J.J. and A.S. Prince (1993b). Prosodic Morphology I. Ms, University of Massachusetts
+at Amherst and Rutgers University. [Forthcoming MIT Press.]
+Ó Cuív, Brian (1944). The Irish of West Muskerry, Co. Cork. A Phonetic Study. Dublin, Dublin
+Institute for Advanced Studies.
+
+                                                21
+STRESS IN MUNSTER IRISH
+
+
+
+Ó Cuív, Brian (1947). Cnósach Focal ó Bhaile Bhúirne i gCunndae Chorcaí. Dublin, Institiúid Árd-
+Léighinn Bhaile Atha Chliath, Baile Atha Cliath.
+Ó Dónail, N. (1977). Foclóir Gaeilge-Béarla. Dublin, OiFig an tSoláthair.
+Ó Sé, D. (1989). Contributions to the Study of Word Stress in Irish. Ériu XL, 147-78.
+Ó Siadhail, M. (1989). Modern Irish. Grammatical Structure and Dialectal Variation. Cambridge,
+University Press Cambridge.
+Prince, A.S. (1983). Relating to the Grid. Linguistic Inquiry 14, 19-100.
+Prince, A.S. and P. Smolensky (1993). Optimality Theory: Constraint Interaction in Generative
+Grammar. Ms, Rutgers University, New Brunswick and University of Colorado, Boulder.
+[Forthcoming MIT Press.]
+Rice, C. (1992). Binarity and Ternarity in Metrical Theory: Parametric Extensions. PhD diss.,
+University of Texas, Austin.
+Rowicka, G.J. (1994). Prosodic Optimality and Prefixation in Polish. Paper presented at the Prosodic
+Morphology Workshop in Utrecht. To appear in the Proceedings.
+Vijver, R. van de (1994). Main Stress in Munster Irish. A Case of Non-Morphological Reduplication.
+Ms, Free University Amsterdam.
+
+
+
+
+                                                22
+

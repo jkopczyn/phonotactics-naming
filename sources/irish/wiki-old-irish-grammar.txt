@@ -1,0 +1,3532 @@
+
+Old Irish grammar
+Grammar of the Old Irish language
+
+	
+
+	
+
+This article has multiple issues. Please help improve it or discuss these issues on the talk page. (Learn how and when to remove these messages)
+
+      
+
+	
+
+	
+This article's lead section may be too short to adequately summarize the key points. Please consider expanding the lead to provide an accessible overview of all important aspects of the article.  (March 2021) (Learn how and when to remove this message)
+
+	
+
+	
+This article is missing information about information on adjectives, pronouns, some verb endings, and syntax. Please expand the article to include this information. Further details may exist on the talk page.  (March 2021)
+
+	
+
+	
+This article may require cleanup to meet Wikipedia's quality standards. The specific problem is: Examples should be replaced with those cited from existing texts (glosses, poetry, fiction, tracts, etc.), not made up from whole cloth. Please help improve this article if you can.  (February 2021) (Learn how and when to remove this message)
+
+	
+
+	
+This article may be too long to read and navigate comfortably. Consider splitting content into sub-articles, condensing it, or adding subheadings. Please discuss this issue on the article's talk page.  (March 2021)
+
+    
+
+ (Learn how and when to remove this message)
+
+This article describes the grammar of the Old Irish language. The grammar of the language has been described with exhaustive detail by various authors, including Thurneysen, Binchy and Bergin,[1][2] McCone,[3] O'Connell,[4] Stifter,[5] among many others.
+
+Morphophonology
+
+Initial mutations
+
+In the system of initial consonant mutations, the initial consonant of a word is modified in one or another way, depending on the nature of the preceding word: la tech /la tʲex/ "towards a house" vs. fo thech /fo θʲex/ "under a house", i tech /i dʲex/ "into a house", with the alternation /t ~ θ ~ d/ in the initial consonant of tech "house" triggered by the preceding preposition.
+
+There are three types of mutation: 
+
+Lenition, a weakening of the initial consonant. This generally turns plosives into fricatives, among other effects.
+
+Nasalisation, originally a prepending of a nasal consonant to the word, which caused further changes.
+
+Aspiration and gemination, causing either gemination of the initial consonant, or the insertion of /h/.
+
+The mutations became an important part of the grammar and remain, with little change, in Modern Irish (see Irish initial mutations). They were often crucial in distinguishing various grammatical forms, which would be homophones if not for the mutations. For example, in the case of the possessive determiner a, only the initial mutation of the following word distinguishes the meanings "his", "her", and "their":
+
+Meanings distinguished by initial mutations
+
+	No change
+	Lenition
+	Nasalization
+	Aspiration/gemination
+
+	
+
+ech
+
+/ex/
+
+ech
+
+/ex/
+
+"horse"
+
+	
+
+a
+
+/a
+
+ech
+
+ex/
+
+a ech
+
+/a ex/
+
+"his horse"
+
+	
+
+a
+
+/a
+
+n-ech
+
+nex/
+
+a n-ech
+
+/a nex/
+
+"their horse"
+
+	
+
+a
+
+/a
+
+ech
+
+hex/
+
+a ech
+
+/a hex/
+
+"her horse"
+
+	
+
+bo
+
+/bo/
+
+bo
+
+/bo/
+
+"cow"
+
+	
+
+a
+
+/a
+
+bo
+
+vo/
+
+a bo
+
+/a vo/
+
+"his cow"
+
+	
+
+a
+
+/a
+
+m-bo
+
+mbo/
+
+a m-bo
+
+/a mbo/
+
+"their cow"
+
+	
+
+a
+
+/a
+
+bo
+
+bbo/
+
+a bo
+
+/a bbo/
+
+"her cow"
+
+	
+
+tech
+
+/tʲex/
+
+tech
+
+/tʲex/
+
+"house"
+
+	
+
+a
+
+/a
+
+thech
+
+θʲex/
+
+a thech
+
+/a θʲex/
+
+"his house"
+
+	
+
+a
+
+/a
+
+tech
+
+dʲex/
+
+a tech
+
+/a dʲex/
+
+"their house"
+
+	
+
+a
+
+/a
+
+tech
+
+ttʲex/
+
+a tech
+
+/a ttʲex/
+
+"her house"
+
+	
+
+fer
+
+/fʲer
+
+becc
+
+bʲeɡ/
+
+fer becc
+
+/fʲer bʲeɡ/
+
+"small man" (nominative)
+
+	
+
+dá
+
+/daː
+
+fer
+
+er
+
+becc
+
+vʲeɡ/
+
+dá fer becc
+
+/daː er vʲeɡ/
+
+"two small men" (nominative)
+
+	
+
+fer
+
+/fʲer
+
+m-becc
+
+mbʲeɡ/
+
+fer m-becc
+
+/fʲer mbʲeɡ/
+
+"small man" (accusative)
+
+	
+
+Another grammatical feature signalled by mutations is relative clause attachment, in which lenition indicates the beginning of a relative clause, often in place of any explicit relative pronoun (although in some cases the verbal ending also changes to a special relative form).
+
+In general, there is no way to predict from the form of a given word the type of mutation that it will trigger. (Note that the spelling of the initial consonant does not always change to indicate mutation in Old Irish although it generally does starting in Middle Irish).
+
+Initial mutations were originally sandhi effects, and depended on the shape of the original final syllable in Primitive Irish. It was grammaticalised by the loss of final syllables in the transition from Primitive Irish to Old Irish. In Old Irish, the process was already grammatical to a large degree, and was limited to applying across words within a single syntactic phrase (e.g. between a noun and a modifying adjective, or between a preposition and the rest of the prepositional phrase). Initial mutations did not apply across phrase boundaries generally, but there are some instances where this does occur in the earliest Old Irish attestations.
+
+Lenition
+
+Lenition is the weakening of a consonant according to a particular pattern. It applied to consonants appearing between vowels in Primitive Irish. When a preceding word ended in a vowel, the first consonant of the following word was lenited.
+
+Lenition was not indicated in the spelling except in the case of initial voiceless stops, which were written ph th ch when lenited. In later Old Irish, initial f s come to be written ḟ ṡ when lenited, with a dot (a so-called punctum delens) above the letter.
+
+Lenition occurs after:
+
+Certain case forms within a noun phrase, either of the noun or a preceding article or possessive. These include, at least:
+
+Nominative and vocative singular of all feminines
+
+Dative singular of all genders
+
+Nominative, vocative, accusative and genitive dual of all masculines and feminines
+
+Nominative, vocative and accusative plural of all neuters (but inconsistently after -a)
+
+Certain prepositions
+
+Certain conjunctions
+
+Certain infixed pronouns
+
+Nasalisation
+
+Nasalisation, also known as eclipsis in Modern Irish grammar, is the prepending of a nasal consonant to the word. It was caused by a preceding word ending in a nasal consonant. Due to later changes involving clusters of nasals and other consonants, in particular the coalescing of nasal-stop clusters to voiced plosives (such as /nt/ > /d/), nasalisation may also manifest itself as voicing in Old Irish.
+
+Nasalisation was not indicated in the spelling except for initial voiced stops and vowels, where n- is prefixed (m- before b).
+
+Nasalisation occurs after:
+
+Certain case forms within a noun phrase, either of the noun or a preceding article or possessive. These include, at least:
+
+Nominative, vocative and accusative singular and dual of all neuters
+
+Accusative singular of all masculines and feminines
+
+Genitive plural of all genders
+
+Certain prepositions
+
+Certain conjunctions
+
+Certain infixed pronouns
+
+Aspiration and gemination
+
+Originally two different effects, aspiration and gemination came to be triggered in the same environments and thus can be treated as one type of mutation.
+
+Aspiration involved prepending an additional /h/ to a vowel-initial word. It was primarily caused by syllables formerly ending in /s/, which lenited to /h/ between vowels. In gemination, an initial consonant was geminated by a preceding word originally ending in /k/, /s/ or /t/ after a vowel. By analogy, words originally ending in /k/ and /t/ came to aspiration before vowel-initial words as well.
+
+Gemination was only occasionally indicated, and as geminated consonants were in the process of reducing to single consonants in Old Irish times, the mutation effect itself was waning. Aspiration was not indicated at all.
+
+Aspiration/gemination occurs after:
+
+Within a noun phrase, either of the noun or a preceding article or possessive, all forms that end in a vowel but do not trigger lenition or nasalisation. This includes, at least:
+
+Genitive singular of all feminines
+
+Vocative and accusative plural of all genders
+
+Certain prepositions
+
+ní and ba
+
+Palatalisation
+
+Palatalisation as such is phonological, but it also has a grammatical aspect to it. Certain case forms of nouns automatically trigger palatalisation of the final consonant of a word, as do forms of verbs. Consequently, the quality of the final consonant can often vary between different forms of the same word.
+
+Palatalisation also occurs when a syllable that originally contained a front vowel undergoes syncope.
+
+Palatalisation can sometimes affect the immediately preceding vowel:
+
+ía → é.
+
+áe, óe → aí, oí. This is purely an orthographical distinction used in normalised spellings for clarity. It is not adhered to strongly in the manuscripts.
+
+Development and restrictions on palatalization
+
+The development of palatalization has been traditionally separated into multiple stages.[6][7][8] For these rules, original Proto-Celtic a and ā did not count as front vowels.
+
+Palatalization occurred when a single consonant, and also homorganic clusters of a nasal consonant followed by a corresponding voiced obstruent, was surrounded by two original front vowels. Hence beirid "carries" from *bereti-s (*eCe eligible) with palatalized r but not canaid "sings" with unpalatalized n from *kaneti-s (*aCe ineligible).
+
+Palatalization occurred for single coronal consonants and nd not only preceded by any vowel except á, but also followed by original Proto-Celtic i or ī. This condition may be illustrated by prefixed derivatives of rím "counting" from Proto-Celtic rīmā. Tuirem "recounting" from *torīmā displays palatalization of r, but áram "number" from *adrīmā did not palatalize its r because it was part of an original ineligible consonant cluster.
+
+Palatalization of single labial and velar consonants followed by original Proto-Celtic i or ī was blocked when the consonant was preceded by stressed rounded back vowels. Otherwise palatalization also applied.
+
+Palatalization of both single consonants and consonant clusters occurred before stressed front vowels.
+
+The consonant cluster cht /xt/ never palatalized. Whenever palatalization was expected for grammatical or etymological reasons, the palatalization was omitted. For example, the dative singular of the feminine ā-stem dúthracht "wish" was still dúthracht, not *dúthraicht.
+
+Vowel affection
+
+Vowel affection is the changing of the height of a vowel to more closely match the height of the vowel in a following syllable. It is similar to Germanic umlaut, but more pervasive. It was originally a relatively automatic process, but because the final vowels were later mostly lost in the transition to Old Irish, the process became unpredictable and grammaticalised. Three different kinds of vowel affection existed in Old Irish, lowering, raising and u-insertion.
+
+Lowering was caused by a (former) low vowel a or o in the following syllable, and affected the underlying short vowels i and u, changing them to e and o respectively. It occurred regardless of the preceding consonants, and was thus rather common.
+
+Raising was the reverse development: when followed by a (former) high vowel, short i or u, in the following syllable, the vowels e and o were changed to i and u. It did not occur in all cases, as it was limited by the intervening consonants. It occurred only when at most one consonant stood between the syllables, and the consonant had to be voiced (this included sonorants). Thus, while the noun cenn /kʲeN/ was raised to cinn /kʲiNʲ/ in the genitive singular form (along with palatalisation), ech /ex/ was not raised and retained its original vowel in its genitive singular form eich /exʲ/.
+
+The underlying vowel of a word remained when the vowel e formerly followed. For example, in masculine o-stems, the vocative singular form had e in the ending, but the other forms had other vowels which caused either raising or lowering. In neuter o-stems, all forms had raising or lowering endings, none originally contained e. This can make it difficult to ascertain what the original underlying vowel was.
+
+U-insertion was a third effect, caused by a (formerly) following u. It involved inserting the vowel u (or o, as an orthographic variant) after an existing vowel, and occurred with the long vowel é and the short vowels a, e and i. The results were as follows:
+
+a → au.
+
+e → iu if raising can take place, eu/eo otherwise.
+
+i → iu.
+
+é → éu/éo, sometimes also íu.
+
+U-insertion did not necessarily occur in all cases where it might be expected, in particular when the u that might cause the effect was still present. For example, the accusative plural of ech may be euchu/eochu, but echu is also found, lacking u-insertion. For fer, the accusative plural is firu, never *fiuru.
+
+Syncope
+
+Syncope of word-medial unstressed short vowels plays an extensive role in derivational morphology in addition to the inflection of Old Irish nouns, verbs, and adjectives. It activates upon attaching a suffix onto a prehistoric stem that would otherwise make the resulting word at least three syllables long.
+
+When syncope occurs, it deletes the vowel of every even-numbered syllable except the last. Deleted vowels subject the consonant clusters consisting of both the consonants before the syncopated vowel and the consonants after it now standing in their place to transphonologization, as Old Irish generalised the palatal or nonpalatal quality across an entire consonant cluster. If an underlying front vowel like /e/ or /i/ was lost, the whole cluster would be subject to palatalization. On the other hand, syncope of other underlying vowels would cause the loss of any palatalization that the consonants in the cluster previously had. This could lead to alternations between palatalisation in the syncopated forms and non-palatalisation in the unsyncopated forms of a word, and vice versa.
+
+For example, the noun dorus /ˈdorus/ "door" originally had a front vowel e in the second syllable (Proto-Celtic *dworestu), but this did not cause palatalisation due to the u-affection of the final vowel. However, when the noun was syncopated in certain case forms, the palatalisation reappeared and spread also to the final s, seen in the genitive singular doirseo /ˈdorʲsʲo/ and dative plural doirsib /ˈdorʲsʲəvʲ/.
+
+There were a few exceptions to the tendencies of syncope. Several consonant-stem nouns evaded syncope due to a restructuring of the declension system to block and/or revert the process based on their semantic animacy; animate, thus human nouns in consonant-stem classes were more likely to evade syncope.[9] Additionally, the third-person deponent endings also shielded the immediately preceding syllable from syncope.
+
+Apparent exceptions to syncope may turn out to not have been exceptions upon etymological analysis. For example, ingen /iŋʲ.ɡʲen/ "nail, claw" syncopates as expected, with a nominative plural ingnea, with a syncopated e palatalizing the stem-final /n/ when it joined the post-syncope consonant cluster. But its heteronym ingen /inʲ.ɣʲen/ "daughter, girl" seems to evade syncope with a dative plural ingenaib. The discrepancy becomes explainable upon discovering that the ancestor of the latter term had an /i/ in between its n and g that faced syncope. Since the now-final syllable of ingen "daughter" would contain the word's third syllable at the rise of syncope, the syncope process would thus pass over that syllable in its inflected forms. But as ingen "nail" had no such intervening vowel, its final syllable underwent the syncope.
+
+There was another kind of syncope which occurred due to haplology earlier than the usual syncope. If two dental fricatives, s, or r are separated by a vowel in a final syllable preceded by another unstressed syllable, this vowel is syncopated away. Unlike the usual syncope, the resulting consonant is always depalatalized. This syncope most noticeably operates in the conjugation of some strong verbs. For example, the prototonic passive singular of derivatives of beirid include ·tabarr "it was given" (compare deuterotonic do·berar) and ·eperr "it was said" (compare deuterotonic as·berar). Additionally, compounds of strong verbs with root-final dental fricatives were affected by this, leading to otherwise-unusual depalatalization in the third-person singular, such as guidid "prays" forming ar·neget (also meaning "prays"; the root-final /ð/ syncopates with the /ð/ of the personal ending -id, leaving an unpalatalized -t). The syncope was also extended analogically to places where it did not originally operate, such as as·berr for as·berar.
+
+Articles
+
+Old Irish had a definite article but no indefinite article. This meant a noun without an article can refer to either a general reference, or an indefinite reference to a singular occurrence of a noun.
+
+The definite article
+
+The definite article is used similarly to the English one, marking definite noun phrases.
+
+There was also a restriction that prohibited two definite articles in the same noun phrase. When a definite-marked noun is modified by a genitive definite noun phrase, the modified noun loses its article. The definite article can also be used for the introduction of a new character into a narrative, where in English an indefinite article is expected.
+
+Declension of the definite article
+
+The definite article is declined for case, gender, and number, and phonological context.
+
+Declension of the Old Irish definite article
+
+		Singular	Dual	Plural
+
+	Masculine	Feminine	Neuter	All genders	Masculine	Feminine	Neuter
+
+	Nominative
+	in(t)	in(d)L, intL	aN	in	in(d)L, intL	(in)naH	(in)na
+
+	Accusative
+	inN	(in)naH
+
+	Genitive
+	in(d)L, intL	(in)naH	in(d)L, intL	(in)naN
+
+	Dative
+	-(si)n(d)L	-(s)naib
+
+Morphophonology of the definite article
+
+The declined forms of the article are also influenced by the initial phoneme of the following word.
+
+The nominative singular masculine article is int when in front of a vowel-initial word, and is in otherwise.
+
+The genitive singular masculine and neuter, nominative singular feminine, nominative plural masculine, and dative singular all share peculiar morphophonological alternations, marked by -n(d) in the above table. 
+
+They end in an extra d when the next word begins in a vowel, a liquid consonant, n, or f. Hence dath ind nime "the colour of the sky", ind escong "the eel", ind fir "the men", dind ríg "from the king".
+
+When the next word begins in s, all these forms end in an extra t instead. Hence mullach int sléibe "the top of the mountain", int súil "the eye", int sacairt "the priests".
+
+Otherwise, they end in neither of these consonants.
+
+Fusion of the article with prepositions
+
+Accusative and especially dative articles undergo mandatory fusion with a preceding preposition, to the point that the dative article seldom ever appears independently. The dative article suffix lacks -s- if the preposition normally lenites a following noun (with the exception of tre, which does use -s- in article fusion) or is oc. The dative article suffix contains -s- if it fails to lenite a following noun, or is tre. For may or may not take -s-.
+
+Examples of the article fusing with the preposition include:
+
+Dative prepositions:
+
+di "from, of": din(d), dint, plural dinaib
+
+do "to, for": don(d), dont, dun(d), dunt, plural donaib
+
+ó "from, by": ón(d), plural ónaib
+
+i "in, at": isin(d), isint, plural isnaib
+
+Accusative prepositions:
+
+la "beside, with": lasin, plural lasna
+
+ré "before": résin(d), plural résna
+
+i "into": isin, plural isna
+
+tre "through": tresin, plural tresna
+
+Nouns
+
+Old Irish has three genders: masculine, feminine and neuter; 3 numbers: singular, dual and plural; and 5 cases: nominative, vocative, accusative, genitive and dative. The dual is predominantly preceded by the cardinal number dá "two".
+The full range of forms is only evident in the noun phrase, where the article causes noun initial mutation, and where the initials of following adjectives are mutated according to the underlying case ending, though at times such mutations were not written. In the following, L shows lenition, N shows nasalisation, and H shows aspiration/gemination. In addition, there was some syncretism in forms regardless of mutations: certain forms were always identical. These were:
+
+Nominative/vocative/accusative of all neuter nouns in all numbers.
+
+Nominative/vocative/accusative dual of all nouns.
+
+Vocative/accusative plural of all nouns.
+
+Dative dual/plural of all nouns.
+
+o-stems
+
+The o-stems could be masculine or neuter, and were the most widespread kind of noun, thus this class is well attested. They descend from the Proto-Indo-European thematic inflection. They are characterized by a genitive singular formed by palatalizing the final consonant of the word. Some monosyllables may have their root vowel e or o raised to i or u respectively when forming the genitive singular. Additionally, their dative singular forms are a constant target for u-infection.
+
+The masculine o-stems' nominative plurals were identical to their genitive singulars and had an accusative plural ending in -u. The accusative plural tended to trigger vowel raising, syncope of multisyllabic words, and occasionally u-infection.
+
+Masculine o-stems
+
+	
+	fer ("man")	
+	sorn ("furnace, oven")	
+	claideb ("sword")	
+	ball ("part")
+
+	Singular
+	Dual
+	Plural
+	Singular
+	Dual
+	Plural
+	Singular
+	Dual
+	Plural
+	Singular
+	Dual
+	Plural
+
+	Nominative
+	fer
+	ferL
+	firL
+	sorn
+	sornL
+	suirnL
+	claideb
+	claidebL
+	claidibL
+	ball
+	ballL
+	baillL
+
+	Vocative
+	firL
+	firuH
+	soirnL
+	surnuH
+	claidibL
+	claidbiuH
+	baillL
+	baulluH
+
+	Accusative
+	ferN
+	sornN
+	claidebN
+	ballN
+
+	Genitive
+	firL
+	ferN
+	suirnL
+	sornN
+	claidibL
+	claidebN
+	baillL
+	ballN
+
+	Dative
+	fiurL
+	feraib
+	surnL
+	sornaib
+	claidiubL
+	claidbib
+	baullL
+	ballaib
+
+The declensions of fïach "raven" and fíach "debt" demonstrate the contrast between a hiatus of two vowels and a similar-looking diphthong. fíach also demonstrates ía and é alternations, the former appearing in front of unpalatalized consonants and the latter appearing before palatalized consonants.
+
+Masculine o-stems, continued
+
+	
+	fïach ("raven")	
+	fíach ("debt")
+
+	Singular
+	Dual
+	Plural
+	Singular
+	Dual
+	Plural
+
+	Nominative
+	fïach
+	fïachL
+	fïaichL
+	fíach
+	fíachL
+	féichL
+
+	Vocative
+	fïaichL
+	fíachuH
+	féichL
+	fíachuH
+
+	Accusative
+	fïachN
+	fíachN
+
+	Genitive
+	fïaichL
+	fïachN
+	féichL
+	fíachN
+
+	Dative
+	fïuchL
+	fíachaib
+	fíachL
+	fíachaib
+
+In the neuter variant, the genitive and dative forms were the same as those of the masculine variant, while the nominative, vocative and accusative differed. There were two forms of the nominative-accusative plural, an endingless form and a longer form that ended in -a. The endingless form was common after numerals and the definite article, while the long form tended to occur when the noun is used without an article.
+
+Neuter o-stems
+
+	
+	Singular
+	Dual
+	Plural
+	
+	Singular
+	Dual
+	Plural
+
+	Nominative
+	scélN
+	scélN
+	scélL, scéla(L)
+	ceólN
+	ceólN
+	ceólL, ceóla(L)
+
+	Vocative
+
+	Accusative
+
+	Genitive
+	scéilL
+	scélN
+	cíuilL
+	ceólN
+
+	Dative
+	scéulL
+	scélaib
+	cíulL
+	ceólaib
+
+io-stems
+
+The io-stems were originally simply o-stems with a /j/ before the endings. Later sound changes deleted this consonant, but its presence caused some of the case endings to be preserved where they were deleted in the plain o-stem inflection. The final consonant is either always palatalised, or never.
+
+Masculine io-stems
+
+	
+	Singular
+	Dual
+	Plural
+	
+	Singular
+	Dual
+	Plural
+
+	Nominative
+	céileH
+	céileL
+	céiliL
+	daltaeH
+	daltaeL
+	daltaiL
+
+	Vocative
+	céiliL
+	céiliuH
+	daltaiL
+	daltuH
+
+	Accusative
+	céileN
+	daltaeN
+
+	Genitive
+	céiliL
+	céileN
+	daltaiL
+	daltaeN
+
+	Dative
+	céiliuL
+	céilib
+	daltuL
+	daltaib
+
+Neuter io-stems
+
+	
+	Singular
+	Dual
+	Plural
+	
+	Singular
+	Dual
+	Plural
+
+	Nominative
+	crideN
+	crideN
+	crideL
+	cumachtaeN
+	cumachtaeN
+	cumachtaeL
+
+	Vocative
+
+	Accusative
+
+	Genitive
+	cridiL
+	crideN
+	cumachtaiL
+	cumachtaeN
+
+	Dative
+	cridiuL
+	cridib
+	cumachtuL
+	cumachtaib
+
+ā-stems
+
+The ā-stems were always feminine, and were the most common type of feminine noun. It was also not uncommon for the dative singular of ā-stem verbal nouns, which ended in palatalized consonants, to displace the unpalatalized nominative singular.
+
+Feminine ā-stems
+
+	
+	Singular
+	Dual
+	Plural
+
+	Nominative
+	túathL
+	túaithL
+	túathaH
+
+	Vocative
+
+	Accusative
+	túaithN
+
+	Genitive
+	túaitheH
+	túathL
+	túathN
+
+	Dative
+	túaithL
+	túathaib
+
+iā-stems
+
+The iā-stems were originally a variant of the ā-stems, but were preceded by a /j/ which caused changes similar to those in the io-stem inflection. Again, the final consonant could be always palatalised, or never.
+
+Feminine iā-stems
+
+	
+	Singular
+	Dual
+	Plural
+	
+	Singular
+	Dual
+	Plural
+
+	Nominative
+	guideL
+	guidiL
+	guidiH
+	ungaeL
+	ungaiL
+	ungaiH
+
+	Vocative
+
+	Accusative
+	guidiN
+	ungaiN
+
+	Genitive
+	guideH
+	guideL
+	guideN
+	ungaeH
+	ungaeL
+	ungaeN
+
+	Dative
+	guidiL
+	guidib
+	ungaiL
+	ungaib
+
+ī-stems
+
+The ī-stems were always feminine, and were a variant of the iā-stem inflection in which a few case forms lacked an overt ending. In these forms, the final consonant was always palatalised. The forms with an ending could be either palatalised or not, depending on the noun. The ī-stem inflection continues the so-called devī- or ī/yā-inflection of Proto-Indo-European.
+
+There were two sub-variants. The original, "long" variant had endings in the accusative and optionally in the dative singular, while the newer "short" variant had no ending and only palatalisation in these forms, by analogy with the ā-stems.
+
+Feminine ī-stems
+
+	
+	Singular
+	Dual
+	Plural
+	
+	Singular
+	Dual
+	Plural
+
+	Nominative
+	rígainL
+	rígainL
+	rígnaiH
+	aithisL
+	aithisL
+	aithisiH
+
+	Vocative
+
+	Accusative
+	rígnaiN
+	aithisN
+
+	Genitive
+	rígnaeH
+	rígnaeL
+	rígnaeN
+	aithiseH
+	aithiseL
+	aithiseN
+
+	Dative
+	rígainL, rígnaiL
+	rígnaib
+	aithisL
+	aithisib
+
+i-stems
+
+The i-stems could have any gender. This declension class was characterized by the alternation between a nominative singular ending in a slender consonant and the genitive singular depalatalizing that consonant when attaching the signature genitive ending (-o or -a) without fail. The genitive singular formation for monosyllables would also lower any root vowel i or u into e and o respectively. The plural forms could either be always palatalised, or never (depending on the noun), while in the singular and dual, the palatalisation depended on the ending.
+
+The masculine and feminine variants were identical except for one detail: the nominative singular of feminine i-stems caused lenition, while it did not for masculine i-stems.
+
+Masculine/feminine i-stems
+
+	
+	Singular
+	Dual
+	Plural
+	
+	Singular
+	Dual
+	Plural
+
+	Nominative
+	cnáim
+	cnáim
+	cnámaiH
+	súilL
+	súilL
+	súiliH
+
+	Vocative
+	cnáimL
+
+	Accusative
+	cnáimN
+	súilN
+
+	Genitive
+	cnámo, -aH
+	cnámo, -aL
+	cnámaeN
+	súlo, -aH
+	súlo, -aL
+	súileN
+
+	Dative
+	cnáimL
+	cnámaib
+	súilL
+	súilib
+
+Several irregular vowel alternations within i-stem nouns existed.
+
+Masculine/feminine i-stems, continued
+
+	
+	bíail "axe"	
+	aig "ice"
+
+	Singular
+	Dual
+	Plural
+	Singular
+
+	Nominative
+	bíail
+	bíail
+	belaiH
+	aigL
+
+	Vocative
+	bíailL
+
+	Accusative
+	bíailN
+	aigN
+
+	Genitive
+	belo, -aH
+	belo, -aL
+	belaeN
+	ego, -aH
+
+	Dative
+	bíailL
+	belaib
+	aigL
+
+Neuter i-stems were relatively rare. Like in the o-stems, only the nominative, vocative and accusative differed from the masculine variety, while the genitive and dative forms were the same.
+
+Neuter i-stems
+
+	
+	Singular
+	Dual
+	Plural
+
+	Nominative
+	muirN
+	muirN
+	muireL
+
+	Vocative
+
+	Accusative
+
+	Genitive
+	moro, -aH
+	moro, -aN
+	muireN
+
+	Dative
+	muirL
+	muirib
+
+u-stems
+
+The u-stems could be masculine or neuter, and their declensions resembled that of i-stems. Like the i-stems, monosyllables would have their nominative singular root vowel lowered from i and u to e and o in the genitive singular form. Feminine u-stem nouns had originally existed, but they had all been converted into ā-stems by the time Old Irish was written. The major difference between u-stems and i-stems were that the nominative singular and its homophones always ended in an unpalatalized consonant, when the opposite was true of the i-stems. None of the endings triggered palatalisation by themselves. However, palatalisation did occur when a syllable (formerly) containing a front vowel was contracted; the front vowel itself would then be erased by a u-infection in the inflections that did not involve this syncope.
+
+The masculine u-stem nominative plural was often in flux, and attestations varied wildly in its form, with endings in -e, -a, and -i all being attested.
+
+Masculine u-stems
+
+	
+	guth ("voice, sound")	
+	ammus ("attempt")
+
+	Singular
+	Dual
+	Plural
+	Singular
+	Dual
+	Plural
+
+	Nominative
+	guth
+	guthL
+	gothae, -ai, -aH
+	ammus
+	ammusL
+	aimsiH
+
+	Vocative
+	guthuH
+	aimsiuH
+
+	Accusative
+	guthN
+	ammusN
+
+	Genitive
+	gotho, -aH
+	gotho, -aL
+	gothaeN
+	aimseo, -aH
+	aimseo, -aL
+	aimseN
+
+	Dative
+	guthL
+	gothaib
+	ammusL
+	aimsib
+
+Neuter u-stems were not very common. The genitive singular and dative plural forms were formed similarly to the masculine variety. However, the neuter u-stem genitive plural is unstable; the genitive plural is usually identical to the nominative singular, but occasionally other endings appear (for instance, doirsea as genitive plural of dorus "door").[10] Like the neuter o-stems, they had two forms for the nominative/accusative plural; one identical with the nominative singular but triggering lenition instead of nasalization, and a form ending in -a. The two forms shared similar usage tendencies as their o-stem counterparts.
+
+Neuter u-stems
+
+	
+	rind ("constellation")	
+	dorus ("doorway")
+
+	Singular
+	Dual
+	Plural
+	Singular
+	Dual
+	Plural
+
+	Nominative
+	rindN
+	rindN
+	rindL, renda
+	dorusN
+	dorusN
+	dorusL, doirsea
+
+	Vocative
+
+	Accusative
+
+	Genitive
+	rendo, -aH
+	rendo, -aN
+	rindN
+	doirseo, -aH
+	doirseo, -aN
+	doirseaN
+
+	Dative
+	rindL
+	rendaib
+	dorusL
+	doirsib
+
+Velar stems
+
+The velar stems, also called "guttural stems", belonged to the larger class of "consonant stems", which mostly shared the same endings. They were masculine or feminine, and had a stem ending in a velar consonant, ch, g (/ɣ/) or c /ɡ/. The final consonant itself was lost in the nominative and vocative singular. Word-final palatalised -ich was voiced to -ig, partially merging the two types.
+
+Masculine/feminine velar stems
+
+	
+	Singular
+	Dual
+	Plural
+	
+	Singular
+	Dual
+	Plural
+	
+	Singular
+	Dual
+	Plural
+
+	Nominative
+	sail
+	sailigL
+	sailig
+	ríH
+	rígL
+	ríg
+	lie, liaH
+	liicL
+	lieic, liaic, liic
+
+	Vocative
+	sailcheaH
+	rígaH
+	*lie, *liaH
+	leccaH
+
+	Accusative
+	sailigN
+	rígN
+	lieic, liaic, liicN
+
+	Genitive
+	sailech
+	sailechL
+	sailechN
+	ríg
+	rígL
+	rígN
+	liac(c)
+	*lieic, *liaic, *liicL
+	liac(c)N
+
+	Dative
+	sailigL, sailL
+	sailchib
+	rígL, ríL
+	rígaib
+	lieic, liaic, liicL
+	*lecaib
+
+Dental stems
+
+The dental stems were also consonant stems, and had a stem ending in a dental consonant, th, d (/ð/) or t (/d/). The final consonant itself was lost in the nominative and vocative singular. Unstressed word-final -th was generally converted to -d early on, so that the two types became indistinguishable in most forms.
+
+Masculine/feminine dental stems
+
+	
+	Singular
+	Dual
+	Plural
+	
+	Singular
+	Dual
+	Plural
+	
+	Singular
+	Dual
+	Plural
+
+	Nominative
+	cing
+	cingid, -thL
+	cingid, -th
+	araeH
+	araidL
+	araid
+	caraeH
+	caraitL
+	carait
+
+	Vocative
+	cingtheaH
+	aradaH, araduH
+	cairtea, -deaH
+
+	Accusative
+	cingid, -thN
+	araidN
+	caraitN
+
+	Genitive
+	cinged, -th
+	cinged, -thL
+	cinged, -thN
+	arad
+	aradL
+	aradN
+	carat
+	caratL
+	caratN
+
+	Dative
+	cingid, -thL, cingL
+	cingthib
+	araidL, araeL
+	aradaib
+	caraitL
+	cairtib, -dib
+
+Only a few neuters existed.
+
+Neuter dental stems
+
+	
+	Singular
+	Dual
+	Plural
+
+	Nominative
+	détN
+	détN
+	détL
+
+	Vocative
+
+	Accusative
+
+	Genitive
+	dét
+	?
+	détN
+
+	Dative
+	déitL
+	détaib
+
+r-stems
+
+The r-stems were limited to a handful of words for family members. The final -r was preserved throughout the paradigm, and all but one had th before the r. Later varieties of Irish attached velar-stem endings to the plural of all members of this class. Only bráthair "brother" (now no longer being used to refer to actual siblings) survived into Modern Irish with its r-stem declension intact.
+
+Masculine/feminine r-stems
+
+	
+	Singular
+	Dual
+	Plural
+	
+	Singular
+	Dual
+	Plural
+
+	Nominative
+	máthair
+	*máthairL
+	máithir
+	siur
+	sieirL
+	seithir
+
+	Vocative
+	máithreaH
+	sethraH
+
+	Accusative
+	máthairN
+	sieirN, siairN
+
+	Genitive
+	máthar
+	*mátharL
+	máithreN, máthraeN
+	sethar
+	*setharL
+	setharN
+
+	Dative
+	máthairL
+	máithrib, máthraib
+	sieirL, siairL
+	sethraib
+
+s-stems
+
+The s-stems were all neuter. The final consonant had disappeared everywhere, leaving the name a bit of a misnomer. The class is called "s-stem" because of its relationship to nouns of this class in other Indo-European languages.
+
+Neuter s-stems
+
+	
+	Singular
+	Dual
+	Plural
+	
+	Singular
+	Dual
+	Plural
+
+	Nominative
+	nemN
+	nemN
+	nimeL
+	tegN, techN
+	tegN, techN
+	tigeL, taigeL
+
+	Vocative
+
+	Accusative
+
+	Genitive
+	nimeH
+	nimeL
+	nimeN
+	tigeH, taigeH
+	tigeL, taigeL
+	tigeN, taigeN
+
+	Dative
+	nimL
+	nimib
+	tigL, taigL
+	tigib, taigib
+
+n-stems
+
+The n-stems were masculine, feminine or neuter, though the neuters behaved differently from the masculines and feminines. There were several subclasses among the masculine and feminine n-stems:
+
+Lenited final n
+
+Final vowel in nominative singular
+
+No final vowel in nominative singular
+
+Unlenited n(n)
+
+The nouns with lenited final n included agent nouns ending in -am/-em, among other nouns. The nominative singular could be either endingless or end in -u or -e; those with a vowel had three possible dative singular forms.
+
+Masculine/feminine n-stems, lenited
+
+	
+	Singular
+	Dual
+	Plural
+	
+	Singular
+	Dual
+	Plural
+
+	Nominative
+	talam
+	talmainL
+	talmain
+	toimtiuH
+	toimtinL
+	toimtin
+
+	Vocative
+	talmanaH
+	toimtenaH
+
+	Accusative
+	talmainN
+	toimtinN
+
+	Genitive
+	talman
+	talmanL
+	talmanN
+	toimten
+	toimtenL
+	toimtenN
+
+	Dative
+	talmainL, talamL
+	talmanaib
+	toimteL, toimtiuL, toimtinL
+	toimtenaib
+
+The nouns with unlenited -n(n) inflected as follows:
+
+Masculine/feminine n-stems, unlenited
+
+	
+	Singular
+	Dual
+	Plural
+
+	Nominative
+	gobaeH
+	gobainnL
+	gobainn
+
+	Vocative
+	goibneaH
+
+	Accusative
+	gobainnN
+
+	Genitive
+	gobann
+	gobannL
+	gobannN
+
+	Dative
+	gobainnL, gobaeL
+	goibnib
+
+The neuters of this class continued the Indo-European proterokinetic neuters in *-men-. Consequently, they almost all ended in -m(m) in Old Irish.
+
+Neuter n-stems
+
+	
+	Singular
+	Dual
+	Plural
+	
+	Singular
+	Dual
+	Plural
+
+	Nominative
+	céimmN
+	céimmN
+	céimmennL
+	ainmN
+	ainmN
+	anmannL
+
+	Vocative
+
+	Accusative
+
+	Genitive
+	céimmeH
+	?
+	céimmennN
+	anmaeH
+	?
+	anmannN
+
+	Dative
+	céimmimmL, céimmL
+	céimmennaib
+	anmaimmL, ainmL
+	anmannaib
+
+One neuter r/n-heteroclitic noun existed, arbor "grain".
+
+	
+	Singular
+
+	Nominative
+	arbor
+
+	Vocative
+
+	Accusative
+
+	Genitive
+	arbaeH
+
+	Dative
+	arbaimmL
+
+Irregular nouns
+
+Ben "woman" preserved a vestige of Indo-European ablaut, with a zero-grade stem *bn- evolving to mn-. The ablaut allowed several instances of the Proto-Celtic feminine theme long vowel ā to survive into Irish intact in its declension paradigm, since the zero-grade allowed the thematic vowel in those inflections to become tonic syllable nuclei and thus evade several vowel reductions that affected the rest of the ā-stems.
+
+Declension of ben "woman"
+
+	
+	Singular
+	Dual
+	Plural
+
+	Nominative
+	ben	mnaíL	mnáH
+
+	Vocative
+
+	Accusative
+	mnaíN, beinN
+
+	Genitive
+	mnáH	banN	banL
+
+	Dative
+	mnaíL	mnáib
+
+There was one noun, duine, which contained suppletion. Its plural forms are genetically unrelated to the singular forms, being derived from unrelated roots. Its singular declined like a masculine io-stem while its plural declined like an i-stem. The dual forms of this term are unattested.
+
+Declension of duine "person"
+
+	
+	Singular
+	Plural
+
+	Nominative
+	duine	doíniH
+
+	Vocative
+	duini
+
+	Accusative
+	duineN
+
+	Genitive
+	duiniL	doíneN
+
+	Dative
+	duiniuL	doínib
+
+Also irregular were a few miscellaneous consonant-stem nouns that were neither velar stems, dental stems, nt-stems, nor n-stems. Five of these nouns retained vestiges of a consonant-stem declension with a stem-final -w- in Proto-Celtic. They have been misleadingly been grouped under the u-stem declension by Thurneysen. These nouns are bó "cow", brú "brow" (and derivative forbrú "eyebrow") cnú "nut", and crú "blood". The original -w- had vanished in almost all forms.
+
+Declension of consonant-stem nouns with historical stem-final -w-
+
+	
+	Singular
+	Dual
+	Plural
+	
+	Singular
+	Dual
+	Plural
+	
+	Singular
+
+	Nominative
+	bóL	baíL, boinL	baíH
+	cnúL	cnoíL	cnoíH
+	crúL
+
+	Vocative
+
+	Accusative
+	boinN	búH
+	cnoíN	cnóH
+	crúN
+
+	Genitive
+	bóH	bóL	baoN
+	cnóH	cnóL	cnóN
+	cróuH, cráuH
+
+	Dative
+	boinL	búaib
+	cnoíL	cnóib
+	crúL
+
+Another miscellaneous consonant stem, mí "month", had a root ending in -ns- in Proto-Celtic.
+
+Masculine ns-stems
+
+	
+	Singular
+	Dual
+	Plural
+
+	Nominative
+	míH
+	míL
+	mís
+
+	Vocative
+	*míH
+	mísaH
+
+	Accusative
+	mísN
+
+	Genitive
+	mís
+	mísN
+
+	Dative
+	mísL, míL
+	mísaib
+
+Indeclinable nouns
+
+Some nouns were indeclinable. These include:
+
+Three native words meaning "choice": togu, rogu, and uccu
+
+coí "weeping"
+
+dardaín "Thursday"
+
+Many names of Biblical figures (including Ísu "Jesus", Iohain "John", and Duaid "David")
+
+Patraic "Patrick"
+
+Several mythical names beginning with the element da, such as Da Derga.
+
+Adjectives
+
+Old Irish adjectives have four degrees of comparison, namely the positive, comparative, equative and superlative forms. In the positive degree, adjectives agree with nouns in case, gender, and number. The other three degrees do not inflect for gender, number, or case.
+
+Demonstrative adjectives have proximal, medial, and distal forms.
+
+Adjective inflection classes
+
+The adjectives in the positive degree are divided into four basic inflection types: o-ā-stems, io-iā-stems, i-stems, and u-stems. There are also two irregular consonant-stem adjectives, éola "knowledgeable" and té "hot".
+
+Old Irish o-ā-stem adjective inflection
+
+	
+	bec "small"
+
+	Singular
+	Plural
+
+	Masculine
+	Feminine
+	Neuter
+	Masculine
+	Feminine
+	Neuter
+
+	Nominative
+	bec
+	becL
+	becN
+	bicL
+	becaH
+
+	Vocative
+	bicL
+	bicuH
+
+	Accusative
+	becN
+	bicN
+
+	Genitive
+	bicL
+	biceH
+	bicL
+	becN
+
+	Dative
+	biucL
+	bicL
+	biucL
+	becaib
+
+Old Irish io-iā-stem adjective inflection
+
+	
+	nue "new"
+
+	Singular
+	Plural
+
+	Masculine
+	Feminine
+	Neuter
+	Masculine
+	Feminine
+	Neuter
+
+	Nominative
+	nue
+	nueL
+	nueN
+	nuiL
+	nuiH
+	nuiL
+
+	Vocative
+	nuiL
+	nuiH
+
+	Accusative
+	nueN
+	nuiN
+
+	Genitive
+	nuiL
+	nueH
+	nuiL
+	nueN
+
+	Dative
+	nuuL
+	nuiL
+	nuuL
+	nuib
+
+Old Irish i-stem adjective inflection
+
+	
+	maith "good"
+
+	Singular
+	Plural
+
+	Masculine
+	Feminine
+	Neuter
+	Any gender
+
+	Nominative
+	maith
+	maithL
+	maithN
+	maithiH
+
+	Vocative
+	maithL
+
+	Accusative
+	maithN
+
+	Genitive
+	maithL
+	maitheH
+	maithL
+	maith(e)N
+
+	Dative
+	maithL
+	maithib
+
+The u-stem adjectives were the rarest type of adjective. They inflected like o/ā-stem adjectives in the singular (except for their characteristic nominative singular u-infection), and similarly to i-stems in the plural. Attestations of the genitive plural of these adjectives in Early Irish are scant, and those that exist show the adoption of a genitive plural akin to the o/ā-stems.
+
+Old Irish u-stem adjective inflection
+
+	
+	follus "clear, evident"
+
+	Singular
+	Plural
+
+	Masculine
+	Feminine
+	Neuter
+	Any gender
+
+	Nominative
+	follus
+	follusL
+	follusN
+	foilsiH
+
+	Vocative
+	follusL
+
+	Accusative
+	follusN
+	follaisN
+
+	Genitive
+	follaisL
+	foilseH
+	follaisL
+	follusN
+
+	Dative
+	follusL
+	follaisL
+	follusL
+	foilsib
+
+Degrees of comparison
+
+In addition to the unmarked positive degree, Old Irish adjectives have three other degrees of comparison. These are the equative, the comparative, and the superlative. All three of these are formed by suffixes; all three suffixes trigger vowel raising if applicable, in addition to causing syncope since they add extra syllables. A basic example of these suffixes is provided by soirb "easy", with its equative soirbidir, comparative soirbiu, and superlative soirbem.
+
+Unlike in English, these other degrees of adjective are solely predicative and cannot directly modify other nouns attributively. If such an attributive use is desirable, a relative construction may be used instead:
+
+Cía
+
+although
+
+thés
+
+go.3SG.SBJV
+
+hi
+
+into
+
+loc
+
+place.ACC
+
+bes
+
+be.3SG.SBJV.REL
+
+ardu…
+
+higher
+
+Cía thés hi loc bes ardu…
+
+although go.3SG.SBJV into place.ACC be.3SG.SBJV.REL higher
+
+"Although he may go into a higher place…"
+
+ 
+
+Equative degree
+
+The equative degree is used for describing a noun having an adjective's qualities to the same degree as another noun. Equative adjectives are created by suffixing -ithir or -idir onto the adjective. Equative adjectives are followed by the accusative case of the noun being compared to. In the following example, áthithir "as sharp as" is the equative of áth "sharp".
+
+áthithir
+
+sharp.EQ
+
+delc
+
+thorn.ACC
+
+sciach
+
+hawthorn.GEN
+
+áthithir delc sciach
+
+sharp.EQ thorn.ACC hawthorn.GEN
+
+"as sharp as a hawthorn thorn" (Táin Bó Cúailgne recension I)
+
+Comparative degree
+
+The comparative degree asserts that an adjective applies to a noun to a greater degree than to a different noun. It is formed by attaching the suffix -(i)u to the adjective's root. 
+
+The other noun being compared to can appear standalone in the dative case. In the following example, ardu is the comparative of ard "high" and nim is the dative singular of nem "heaven". 
+
+Ní
+
+is.NEG
+
+ardu
+
+higher
+
+ní
+
+anything.NOM
+
+nim.
+
+heaven.DAT
+
+Ní ardu ní nim.
+
+is.NEG higher anything.NOM heaven.DAT
+
+"Nothing is higher than Heaven."
+
+Superlative degree
+
+The superlative degree denotes how the adjective applies to the greatest degree to a certain noun or pronoun than to any other relevant noun. It is formed with a suffix to the adjective's root. It takes on the form -em if the immediately preceding consonants can be palatalized and -am if they cannot. Several examples of superlatives are:
+
+caín "fine, fair" → caínem "finest, fairest"
+
+airgnae "well-known" → aurgnam "best-known"
+
+álaind "beautiful" → áildem "most beautiful"
+
+Irregularly formed degrees of comparison
+
+There exist some adjectives that form their degrees of comparison irregularly. Many of them involve suppletion, where the other degrees are formed from a separate root to the positive degree. Others expose fossilized derivational suffixes that were attached to the positive degree in pre-Celtic times that were not also applied to the other degrees. 
+
+Most of these irregular adjectives have a comparative ending in -a, instead of the usual -(i)u comparative ending.
+
+Irregularly formed degrees of comparison in Old Irish
+
+	Meaning
+	Positive
+	Comparative
+	Superlative
+	Equative
+
+	"good"
+	maith
+	ferr
+	dech
+	(unattested)
+
+	"bad"
+	olc
+	messa
+	messam
+	(unattested)
+
+	"near, close"
+	ocus
+	nessa
+	nessam
+	(unattested)
+
+	"broad, wide"
+	lethan
+	letha
+	(unattested)
+	leithir
+
+	"fat"
+	remor
+	*reimiu
+	(unattested)
+	remithir, remir
+
+	"big, great"
+	már, mór
+	mou, moa
+	maam, moam
+	móir
+
+	"small"
+	bec
+	laugu, laigiu, lugu
+	luigem
+	(unattested)
+
+	"many"
+	il
+	lia
+	(unattested)
+	lir
+
+	"young"
+	oac, óc
+	óa
+	óam
+	(unattested)
+
+	"long"
+	sír
+	sía
+	síam
+	sithithir, sithir
+
+	"strong"
+	trén
+	tressa
+	tressam
+	tressithir
+
+Intensifying prefixes
+
+Old Irish had primarily four prefixes that could be attached to adjectives to signify that they apply to a particularly high degree. All four prefixes usually caused the lenition of the first consonant of the adjective stem they attach to. The most basic of these is ro-, which becomes ru- before historically present front vowels. Ro- itself can also have implications of excess. From ro- are derived two other intensifying prefixes, der- (from *de-ro-) and ér- (from *ess-ro-). In contrast with ro-, der- and ér- are used without any excess implied. There also existed another adjective-intensifying prefix, rug-; this one assimilated a following g-, stopping its lenition.
+
+Verbs
+
+Verbs stand initially in the sentence (preceded only by some particles, forming a "verbal complex", and very few adverbs). The verb can be either suffixed for tense, person, mood and aspect (often portmanteau suffixes), or these can be shown by vowel changes in the stem (e.g. as·beir present "says", as·rubart past "said", as·béra future "will say"). Before this core "verb phrase" are placed various other preverbal clitic particles, e.g. negative ni-/ní-, perfective ro- or one or more preverbal particles that add meaning of the verb stem (compare ā-, ex-, in-, dē-, etc. in Latin verbs). Personal pronouns as direct objects are infixed between the preverb and the verbal stem. A single verb can stand as an entire sentence in Old Irish, in which case emphatic particles such as -sa and -se are affixed to the end of the verb [citation needed].
+
+Verbs are conjugated in present, imperfect, past, future and preterite tenses; indicative, subjunctive, conditional and imperative moods; and active and passive voices. Old Irish doesn't have the infinitive, which is covered, as in the modern Gaelic languages, by the verbal noun. Old Irish inherits a large amount of Indo-European verbal morphology, including:
+
+extensive ablaut variations, made significantly more complicated by vowel affection and syncope
+
+reduplication
+
+primary and secondary endings
+
+thematic and athematic endings
+
+deponent verbs
+
+multiple ways of forming each of the various tenses and moods, and no general cross-tense/mood conjugational classes, i.e. in general a series of principal parts must be memorised for each verb, much as in Latin or Ancient Greek.
+
+n-infix verbs
+
+Independent and dependent forms
+
+Most verbs have, in addition to the tenses, voices, and moods named above, two sets of forms: an independent and a dependent conjugation. The independent conjugation occurs when the verb occurs absolutely sentence-initial with no preverbs, while the dependent conjugation occurs when the verb is preceded by one or more preverbs. The formation of the independent and dependent conjugations depends on whether a verb is simple or complex. A complex verb is a verb that is always combined with a preverb, while all other verbs are simple verbs. The dependent conjugation of a simple verb is essentially the same as the independent conjugation of a complex verb, though different terminology is used:
+
+	
+	Independent
+	Dependent
+
+	Simple verb
+	Absolute inflection
+	Conjunct inflection
+
+	Complex verb
+	Deuterotonic inflection
+	Prototonic inflection
+
+The absolute and conjunct inflections are distinguished primarily by the endings, e.g. biru "I carry", berid "he carries" vs. ní-biur "I do not carry", ní-beir "he does not carry" (with negative prefix ní-). The difference between absolute and conjunct endings is thought to reflect an additional particle *-es added to the absolute verbal form.[11] Final -i in the conjunct forms was apparently lost early on (cf. a similar change in Latin), though the exact mechanism of the deletion is debated.
+
+The difference between deuterotonic and prototonic inflections involves a stress shift. The stress is always placed on the second preverb from the beginning, due to the Celtic version of Wackernagel's law. Consequently, when a preverb is attached to a verb that already has one, the stress shifts one preverb to the left. This stress shift is accompanied by (sometimes radical) changes in the verbal stem and all but the first preverbal particle(s), which merge with the stem, e.g. do⋅berat "they bring/give", as⋅berat "they say" vs. ní-taibret "they do not bring/give", ní-epret "they do not say". In the s-subjunctive, the allomorphy is even more extreme, especially in the third-person singular: indicative as⋅boind "he refuses" vs. ní⋅opaind "he does not refuse", subjunctive as⋅bó "he may refuse" vs. ní⋅op "he may not refuse". In many cases, from a synchronic perspective, the changes appear utterly random (do⋅rósc(a)i "he surpasses" vs. ní-derscaigi "he does not surpass") or even unrecognisable (imm⋅soí "he turns around" vs. ní-impaí "he does not turn around"). However, the forms usually result from a series of regular sound changes.[* 1]
+
+A few verbs form their prototonic forms irregularly. Three verbs beginning with the prefix ro-, ro·cluinethar ("to hear"), ro·finnadar ("to find out"), and ro·laimethar ("to dare") form their prototonic forms by solely deleting the prefix without any stem change. Two verbs beginning in ad-, ad·aig ("to drive") and ad·ágathar ("to dread") do the same. Two other verbs, fo·ceird ("to put" or "to throw", prototonic ·cuirethar) and do·bidci ("to shoot, hurl", prototonic stem díbairg-) use suppletion to create their prototonic forms.
+
+Several verbs beginning with the lexical prefixes to- (deuterotonic do·), fo·, and sometimes ro· are permitted to use their prototonic forms even where normally a deuterotonic form would be used. This tends to occur when the next syllable in the deuterotonic form starts with a vowel, e.g. tánicc "came" instead of do·ánicc.
+
+Non-initial verbs in poetic Bergin's law constructions always take their dependent forms.
+
+Classification
+
+Two main classifications of Old Irish verbs exist, both based on the formation of the present indicative: the Thurneysen classification and the McCone classification. Both systems classify verbs broadly between weak and strong, the distinction being that weak verbs have a 3rd person singular conjunct form ending in a vowel, while strong verbs have a 3rd person singular conjunct form ending in a consonant. This distinction, like the strong-weak distinction found in the Germanic languages, reflects the PIE split between primary and secondary verbs. McCone's system additionally has a separate class for so-called "hiatus" verbs, in which the root itself ends in a vowel rather than the verb having a vocalic suffix, as in the "true" weak verbs. Thurneysen groups these with the weak verbs.
+
+	Thurneysen
+	McCone
+	Characteristic
+	Example
+	Origin
+
+	A I
+	W1
+	3rd sg. conj. -a
+	mór(a)id, ·móra "magnify"
+	PC *-ā- < PIE *-eh₂- (cf. Latin -āre)
+
+	A II
+	W2a
+	3rd sg. conj. -i
+	lé(i)cid, ·lé(i)ci "leave"
+	PC *-ī- < PIE denominative *-eyé-
+
+	W2b
+	3rd sg. conj. -i, root vowel o or u
+	roithid, ·roithi "make run"
+	PC *-ī- < PIE causative *-éye-
+
+	A III
+	H1
+	Hiatus verbs: root ending -a
+	raïd/ráïd, ·rá "row"
+	PIE simple thematic verbs (usually of seṭ roots, ending in a laryngeal)
+
+	H2
+	Hiatus verbs: root ending -i
+	gniïd/gníïd, ·gní "do"
+
+	H3
+	Hiatus verbs: root ending other vowels
+	sceïd/scéid, ·scé "vomit"
+
+	B I
+	S1a & S1b
+	Palatalisation in 2rd and 3rd sg, 2nd pl.
+	beirid, ·beir "carry"
+	PIE simple thematic verbs
+
+	S1c
+	Palatalisation in 3rd sg conjunct only
+	canaid, ·cain "sing"
+	PIE simple thematic verbs with a back vowel in their Proto-Celtic roots
+
+	B II
+	S2
+	Palatalisation in all forms
+	gaibid, ·gaib "take"
+	PIE thematic verbs in *-ye-
+
+	B III
+	S1d
+	n-infix, palatalisation as B I
+	boingid "break", with reduplicated preterite bobag-
+	PIE n-infix verbs
+
+	B IV
+	S3a
+	Nonpalatalised n-suffix
+	crenaid "buy", 3rd sing. subjunctive ·cria
+	PIE n-infix verbs to (vowel-final) seṭ roots
+
+	B V
+	S3b
+	Alternating broad/slender n-suffix [dubious – discuss]
+	ara·chrin "decay", pl. ara·chrinat
+	PIE -new- ~ -nu-
+
+At some early stage of Old Irish, denominal verbs tended to have A I presents, except when they were causative or transitive iterative verbs, which tended to have A II presents instead. However, as Old Irish evolved, the A II deponent suffix -aigidir overtook these two means of derivation, having lost all semantic restrictions.[12]
+
+Old Irish verbs have, however, up to five principal parts, so that for the complete conjugation of a verb all five inflectional stems must be known. These are:
+
+Present stem: forms the present and imperfect indicative, and the imperative.
+
+Subjunctive stem: forms the present and past subjunctive
+
+Future stem: forms the future
+
+Preterite active stem: forms the active preterite forms
+
+Preterite passive stem: forms the passive preterite forms
+
+Reduplication
+
+Reduplication in Old Irish verbal conjugation tends to happen in the formation of s-futures, a-futures and reduplicated preterites, especially in strong verbs.
+
+In reduplicated preterites, the first syllable of the reduplicated root consists of the first root-initial consonant followed by /e/. The following syllable would begin with the root-initial consonants (that were not previously deleted) followed by a and then the root-final consonant. No endings were added in the first and second person singular forms. In the third-person singular, the root-final consonant was always slender, while the plural forms had endings.
+
+In s-futures and a-futures, the first syllable's vowel was instead often /i/, which may be lowered by a-affection to /e/.
+
+However, due to various historical phonetic deletions, the reduplication may not be obvious, and in some cases the reduplication of one verb would be analogically extended to other verbs that did not reduplicate similarly. For example, sligid "strikes down" has a reduplicated preterite selaig "struck down" and an s-future silis "will strike down", with a lost reduplicated s formerly in front of the l in both paradigms.
+
+Reduplicated conjugations in Old Irish verbs 
+ (all conjugations are in the third person singular absolute or deuterotonic unless noted)
+
+	Present
+	Reduplicated preterite
+	Reduplicated future
+	Notes
+	English translation
+
+	sligid
+	selaig
+	silis
+	s lost when reduplicating
+	strikes down, fells
+
+	lingid
+	leblaing
+	(unattested)
+	Initial reduplicating Proto-Celtic *ɸ lost, initial l later restored.
+	leaps
+
+	ligim (1st-person singular)
+	lelaig
+	·lilsat (3rd-person plural conjunct)
+	
+	licks
+
+	·seinn (conjunct; absolute form unattested)
+	sephainn
+	sibsa
+	Proto-Celtic *sw becoming /f/ in preterite, leading to the medial labiodentals in preterite and s-future.
+	plays musical instruments, strikes
+
+	orgaid
+	(unreduplicated)
+	iurait (third-person plural)
+	Vowel-initial reduplication
+	kills
+
+	ro·cluinethar
+	ro·cúalae
+	ro·cechladar
+	In Proto-Celtic, the preterite reduplicated with *u. Reduplicating *k in the middle of the word was then lost, causing compensatory lengthening. The resulting long o proceeded to break into a diphthong. Future stem demonstrates lowering of reduplicating i to e in front of a.
+	hears
+
+	fichid
+	fích
+	feis
+	Proto-Celtic reduplicating *w was lost intervocally, but remained word-initially as Old Irish f.
+	fights
+
+	ernaid
+	ír
+	ebarthi (with suffixed pronoun -i)
+	Irregular preterite reduplication with no consensus on formation. Future reduplication exposes lost root-initial *ɸ.
+	grants, bestows
+
+	baïd
+	bebais
+	bebaid
+	Demonstration of A III verbs' tendency to combine reduplication with an s-preterite.
+	dies
+
+	aigid
+	(unreduplicated)
+	eblaid (absolute) 
+ ·ebla (conjunct)
+	aigid and ailid have identical future formations. Aigid gained its future through suppletion of Proto-Celtic *ɸiɸlati, originally a reduplicated future of *ɸalnati. It analogically spread to ailid as well.
+	drives
+
+	ailid
+	(unreduplicated)
+	rears, fosters
+
+Augmentation
+
+Old Irish verbs may systematically use certain verbal prefixes to express either perfect aspect or potentiality. Such prefixes are called augments. Perfective augmentation is generally performed on the preterite indicative, creating perfect-aspect forms, while potential augmentation is often applied to subjunctive forms. Both augmentations may be done albeit less commonly on the present indicative, and rarely appear elsewhere.
+
+Augmentation of the preterite marked the later relevance or significance of a past action, and as such often, but not always, corresponds to the perfect aspect. Additionally, augmenting a preterite verb in a subordinate clause indicates the completion of an action in that clause before the action indicated by another non-subordinated preterite phrase, slightly resembling a pluperfect. This sort of augmentation may also accompany another verb in the habitual or gnomic present to describe an action preceding another within an aphorism.
+
+Since augmentation can also express potentiality, it can be used instead of the general potential verb con·icc "can, to be able to". It is also not uncommon for the present indicative to be able to receive potential augments as well. Hence one can say Ní·dérnai (with the augmented prototonic present of do·gní "does") "he can't do it" instead of Ní·cumaing a dénum (with con·icc and the verbal noun dénum) "he can't do it".
+
+Formation of augmented forms
+
+The vast majority of verbs use ro- as their augment. However, there are several major exceptions to using ro-. (augments bolded)
+
+Verbs formed with prefixed com- (or its allomorph con-) usually use ad- as their augment. For example, con·scara "destroys" forms a perfect con·ascar "destroyed".
+
+Some irregularly distributed compound verbs use com- as its augment. For example, as·renar "is paid away" has the augmented form as·comrenar "has been paid away".
+
+ibid ("to drink") uses ess-. Hence its perfect is as·ib "he/she/it drank".
+
+saidid ("to sit") and laigid ("to lie (down, etc.)") combine dí- and in- to form their augments. Hence the perfect of saidid is do·essid "sat".
+
+tongaid ("to swear") combines to- and com- to create its augment. Hence its perfect is do·cuitig "he/she/it swore".
+
+mligid ("to milk") combines to- and uss- to make its augment. Hence the perfect form do·ommalg "I milked".
+
+Some verbs supplete an unrelated verb stem entirely to serve as their augmented forms.
+
+Fo·ceird "to put" and several of its related compounds ending in its suppleted conjunct form ·cuirethar use a ro-augmented suppletive stem ro·lá.
+
+ad·cí "to see" suppletes ad·condairc for deuterotonic augmented preterite forms. Otherwise, this verb cannot be augmented.
+
+beirid uses a suppleted augmented stem ro·uic. All compounds related to this verb except do·beir "to bring, give" augment normally with ro-.
+
+do·beir uses different augmentations depending on the meaning. When used to mean "to bring" it uses do·uic for augmentation, but when it means "to give", do·rat is used instead.
+
+téit "to go" and some of its compounds use a formation that decomposes into dí-cum-feth-. It manifests in forms like the augmented preterite do·cuaid, the augmented subjunctive do·coí, and the augmented present do·cuat.
+
+Furthermore, some verbs are prohibited from using augments entirely. These verbs include those derived from the roots ·icc and ·gnin, any verbs already lexically containing the ro- prefix, ad·cota "to get", and fo·gaib "to find".
+
+Imperfect endings
+
+The imperfect, conditional, and past subjunctive have a shared ending set. The imperfect is formed by attaching the imperfect endings onto the present stem, the past subjunctive is formed by attaching these endings to the subjunctive stem, and the conditional is formed by doing likewise to the future stem. The endings have only conjunct forms; if an imperfect, conditional, or past subjunctive simple verb form is to be used in absolute position, the conjunct forms are often used with the dummy particle no preceding them. The endings are identical for both non-deponent and deponent verbs.
+
+Old Irish imperfect endings
+
+	
+	singular
+	plural
+
+	1st person
+	-(a)inn
+	-m(a)is
+
+	2nd person
+	-th(e)a
+	-th(a)e
+
+	3rd person
+	-ed, -ad
+	-t(a)is
+
+Subjunctive stem types
+
+The subjunctive comes in three variants, all continuing the PIE s-aorist subjunctive.[citation needed]
+
+	Type
+	Verb types
+
+	a-subjunctive
+	Weak and hiatus verbs, strong verbs with a root ending in any other consonant
+
+	e-subjunctive
+	Hiatus verbs with a root ending in i
+
+	s-subjunctive
+	Strong verbs with a root ending in a dental or velar consonant or in -nn
+
+In the s-subjunctive, the s is attached directly to the root. The endings are partly athematic, especially the 3rd singular, with original suffix *-s-t that leads to truncation of the root: cf. as·boind "he refuses" < *uss-ˈbond-et, prototonic ·op(a)ind < *ˈuss-bond-et; subj. as·bó < *uss-ˈbod-s-t, prototonic ·op /ob/ < *ˈuss-bod-s-t; 2 sg. subj. as·bóis < *uss-ˈbod-s-es, prototonic ·obbais < *ˈuss-bod-s-es with thematic *-s-es.[* 2]
+
+In the e-subjunctive, the root-final vowel i of a suitable hiatus verb is transformed into e in the subjunctive and is followed directly by a personal ending with neither -s- nor -a- being additionally suffixed in between.
+
+The below table, comparing the conjugations of the a- and s-subjunctives, uses beirid "to carry" and do·beir (prototonic ·tabair) "to give, bring" as examples of a-subjunctive formation while téit "to go" and at·reig "to rise" serve as examples of s-subjunctive formations. For e-subjunctive formations, these are sparsely attested outside of the very common verbs at·tá "to be" and do·gní "to do", and go unused in the prototonic forms of compounds, where a-subjunctives are used instead.
+
+Comparison of subjunctive conjugation classes
+
+	
+	singular
+	plural
+
+	1st	2nd	3rd
+	1st	2nd	3rd
+
+	a-
+	absolute
+	*bera
+	*berae
+	beraid
+	*bermai
+	*berthae
+	*berait
+
+	conjunct
+	deuterotonic
+	do⋅ber
+	do⋅berae
+	do⋅bera
+	do⋅beram
+	do⋅berid, -ith
+	do⋅berat
+
+	prototonic
+	*ní taiber
+	ní taibre
+	ní taibrea
+	*ní tabram
+	ní taibrid, -ith
+	ní tabrat
+
+	s-
+	absolute
+	tíasu
+	téisi
+	téis
+	*tíasmai
+	*tíastae
+	*tíasait
+
+	conjunct
+	deuterotonic
+	ní tías
+	ní téis
+	ní té
+	ní tíasam
+	ní téssid
+	ní tíasat
+
+	prototonic
+	ní erus
+	ní eirreis
+	ní éir
+	*ní eirsem
+	*ní eirsed
+	ní eirset
+
+	e-
+	absolute
+	béo
+	bé
+	beid
+	bemmi
+	bethe
+	beit
+
+	conjunct
+	deuterotonic
+	do·gnéo
+	do·gné
+	do·gné
+	do·gnem
+	do·gneid
+	do·gnet
+
+Future stem types
+
+The future comes in four variants.
+
+	Type
+	Verb types
+	Remarks
+
+	f-future
+	All weak verbs, H3 hiatus verbs
+	Added to present stem; same endings as a-subjunctive, except 1st sg. conjunct.
+
+	s-future
+	Verbs that have an s-subjunctive
+	Formed like s-subjunctive, usually with additional reduplication. Same endings as s-subjunctive, except 1st sg. absolute.
+
+	a-future
+	H1 hiatus verbs, S1 and S2 strong verbs with root ending in b, l, m, n, r, a few other weak or hiatus verbs
+	Same endings as a-subjunctive. Either reduplicated or with é in the root.
+
+	i-future
+	H2 and S3 hiatus verbs with root-final i
+	Same endings as W2 present, except 2nd sg. Either reduplicated or with íu in the root.
+
+In the below table, beirid "to carry" and its derivative do·beir "to bring, give" is once again used to demonstrate an a-future conjugation. For s-future formations, cingid "to step" and fo·loing "to support, sustain" are drawn upon.
+
+Comparison of future conjugation classes
+
+	
+	singular
+	plural
+
+	1st	2nd	3rd
+	1st	2nd	3rd
+
+	f-future
+	absolute
+	*leicfea
+	*leicfe
+	*leicfid
+	leicfimmi
+	*leicfithe
+	leicfit
+
+	conjunct
+	deuterotonic
+	con·icub
+	con·icbe
+	con·icfa
+	con·icfam
+	con·icfid
+	con·icfat
+
+	prototonic
+	*do·aidliub
+	do·aidlibe
+	do·aidlibea
+	do·aidlibem
+	*do·aidlibid
+	*do·aidlibet
+
+	a-future
+	absolute
+	*béra
+	*bérae
+	béraid
+	*bérmai
+	*bérthae
+	bérait
+
+	conjunct
+	deuterotonic
+	do⋅bér
+	do⋅bérae
+	do⋅béra
+	do⋅béram
+	do⋅bérid, -ith
+	do⋅bérat
+
+	prototonic
+	ní tibér
+	ní tibérae
+	ní tibrea
+	*ní tibream
+	*ní tibrid, -ith
+	ní tibreat
+
+	s-future
+	absolute
+	*cichsea
+	cichsi
+	cichis
+	cichsimmi
+	*cicheste
+	cichsit
+
+	conjunct
+	deuterotonic
+	fo·lilus
+	fo·lilais
+	fo·lil
+	*fo·lilsam
+	*fo·lilsid
+	fo·lilsat
+
+	prototonic
+	ní fóelus
+	ní fóelais
+	ní fóel
+	*ní fóelsam
+	*ní fóelsid
+	ní fóelsat
+
+	i-future
+	absolute
+	*liliu
+	lile
+	lilid
+	*lilmi
+	*lilthe
+	lilit
+
+	conjunct
+	deuterotonic
+	as·ririu
+	as·rire
+	as·riri
+	*as·rirem
+	*as·ririd
+	as·riret
+
+	prototonic
+	?
+	ní tórbie
+	?
+	?
+	?
+	?
+
+Preterite active stem types
+
+The preterite active comes in four variants:
+
+	Type
+	Verb types
+	Remarks
+
+	s-preterite
+	All weak and hiatus verbs,[* 3] and the strong verbs gaibid "take", ibid "drink", ar·neat "expect, wait" do·lin "flow", ad·cumaing "strike"[* 4]
+	Reduplication in most hiatus verbs.
+
+	t-preterite
+	All strong verbs with root ending in l or r, some ending in g, and em- "take", sem- "pour".
+	
+
+	Reduplicated preterite
+	Some strong verbs
+	
+
+	Long vowel preterite
+	Some strong verbs
+	Originally also reduplicated, but the reduplication was lost and various other changes resulted.
+
+The reduplicated and long vowel preterites share a conjugation pattern (being "suffixless"). No second-person plural absolute forms are attested for any preterite formation, and no non-third-person absolute forms are attested for any t-preterite formations.
+
+The preterite conjugations of léicid "to leave, let" for the absolute s-preterite, orcaid "to slay" for the absolute t-preterite, do·beir "to give, to bring" for the conjunct t-preterite, téit (preterite lod-) "to go" for the absolute suffixless preterite, and do·icc "to reach" for the conjunct suffixless formation are listed in the below table. In addition, the augmented preterite forms of do·beir "to give" for the conjunct s-preterite and as·beir for an unstressed conjunct t-preterite are also provided.
+
+Comparison of preterite conjugation classes
+
+	
+	singular
+	plural
+
+	1st	2nd	3rd
+	1st	2nd	3rd
+
+	s-preterite
+	absolute
+	léicsiu
+	léicsi
+	léicis
+	*léicsimmi
+	?
+	léicsit
+
+	conjunct
+	deuterotonic
+	do·ratus
+	do·ratais
+	do·rat
+	do·ratsam
+	*do·ratsaid
+	do·ratsat
+
+	prototonic
+	ní tartus
+	ní tartais
+	ní tarat
+	*ní tartsam
+	ní tartsaid
+	ní tartsat
+
+	t-preterite
+	absolute
+	?
+	?
+	oirt
+	?
+	?
+	ortatar
+
+	conjunct
+	deuterotonic
+	do⋅biurt
+	do⋅birt
+	do⋅bert
+	*do⋅bertammar
+	*do·bertaid
+	do⋅bertatar
+
+	prototonic
+	as·ruburt
+	*as·rubairt
+	as·rubart
+	as·rubartmar
+	as·rubartaid
+	as·rubartatar
+
+	suffixless preterite
+	absolute
+	lod
+	lod
+	luid
+	lodmar
+	?
+	lodatar
+
+	conjunct
+	deuterotonic
+	do·ánac
+	do·ánac
+	do·ánaic
+	do·áncammar
+	do·áncaid
+	do·áncatar
+
+	prototonic
+	ní tánac
+	ní tánac
+	ní tánaic
+	ní táncammar
+	*ní táncaid
+	ní táncatar
+
+Preterite passive stem types
+
+The preterite passive occurs only in one type, with a t-suffix, originally to the zero-grade root. It originates in the PIE verbal adjective in *-tós. This suffix, however, has diverged into multiple phonetic outcomes due to sound changes. There is no direct connection between the preterite passive stem and the active stem. In the case of roots containing liquid consonants, traces of Indo-European ablaut even remain, with the apparent "metathesis" in the passive stem formation in fact continuing the zero-grade form of the Indo-European root.
+
+Old Irish preterite passive overview
+
+	Ending type
+	Singular
+	Plural
+	Comments
+
+	Absolute
+	Conjunct
+	Absolute
+	Conjunct
+
+	General endings
+	-(a)e
+	-Ø
+	-(a)i
+	-a
+	They are attached to a preterite passive stem, which is formed depending on the shape of the verb root. The absolute plural preterite passive in particular is very poorly attested.
+
+	Stem ends in -th-
+	brethae
+	·breth 
+ ·suidiged
+	bíthi
+	·bítha
+	Singular examples are from beirid "to bring", for which apparent "metathesis" appears. Plural examples are for benaid "to strike". A form of suidigidir "to place" is used to demonstrate the -th conjunct singular ending being converted to -d in multisyllabic words.
+
+	Coronal consonant assimilation
+	nassa[e]
+	fo·cre(s)s
+	(unattested)
+	fo·cres(s)a
+	Conjunct examples are of fo·ceird "to put", which also demonstrates apparent "metathesis". Nassa[e] is a form of nascaid "to bind".
+
+	Nasalization of t-suffix resulting in /d/
+	(unattested)
+	·cét
+	(unattested)
+	·céta
+	Conjunct examples are those of canaid "to sing".
+
+	Velar consonant contact with t-suffix
+	anachtae
+	·anacht
+	anachtai
+	·anachta
+	Forms of aingid "to save, protect".
+
+Example
+
+The following is an example of a strong present-tense verb (class B I), showing the absolute, conjunct deuterotonic and conjunct prototonic forms.
+
+Conjugation of berid "he carries", do⋅beir "he gives, brings" < *to-beret(i), ní-tab(a)ir "he does not give, bring" < *nís to-beret(i), as⋅beir "he says" < *ess-beret(i), ní-ep(a)ir "he does not say" < *nís ess-beret(i)
+
+		Absolute	Conjunct
+
+	Deuterotonic	Prototonic
+
+	
+	Old Irish	PCelt	Old Irish	PCelt	Old Irish
+
+	1st Sing
+	biru	*berū-s	do⋅biur	as⋅biur	*-berū	ní-tabur	ní-epur
+
+	2nd Sing
+	biri	*beresi-s	do⋅bir	as⋅bir	*-beres(i)	ní-tab(a)ir	ní-ep(a)ir
+
+	3rd Sing
+	berid, -ith	*bereti-s	do⋅beir	as⋅beir	*-beret(i)	ní-tab(a)ir	ní-ep(a)ir
+
+	1st Pl
+	berm(a)i	*beromos-es	do⋅beram	as⋅beram	*-beromos	ní-taibrem	ní-eprem
+
+	2nd Pl
+	*beirthe	*beretes-es[13]	do⋅berid, -ith	as⋅berid, -ith	*-beretes[13]	ní-taibrid, -ith	ní-eprid, -ith
+
+	3rd Pl
+	ber(a)it	*beronti-s	do⋅berat	as⋅berat	*-beront(i)	ní-taibret	ní-epret
+
+Prepositions
+
+Prepositions inflect for person and number, and different prepositions govern different cases, sometimes depending on the semantics intended.
+
+The prepositions can be divided into two basic classes. One governs either the dative or accusative, and the other governs the genitive. The two classes have different syntactic and inflectional behaviour and thus are to be treated separately.
+
+Dative and accusative prepositions
+
+These unstressed prepositions govern either the accusative or dative and can trigger any of the three major mutations. When they would otherwise govern a pronoun, the prepositions are inflected for person, number, and in the third person singular, gender. Prepositions that take either the dative or accusative cases depending on the semantic meaning also have different inflections for each of the governing cases in the third person. The third-person-singular masculine/neuter form is not formed by a consistent ending, and is formed by various idiosyncratic means. However, the other inflections do follow a consistent ending set.
+
+Old Irish preposition inflection
+
+	
+	Ending
+	doL "to"
+	iN "in, into"
+	friH
+
+	1st singular
+	-(u)m(m)
+	dom
+	indium(m)
+	frim(m)
+
+	2nd singular
+	-(u)t
+	duit
+	indiut
+	frit
+
+	3rd singular
+	masc. and neut.
+	(idiosyncratic)
+	dó
+	and (dative) 
+ind (accusative)
+	fris
+
+	fem.
+	-i (dative) 
+-e (accusative)
+	dí
+	indi (dative) 
+inte (accusative)
+	fri(a)e
+
+	1st plural
+	-(u)n(n)
+	dún(n)
+	indiunn
+	frinn
+
+	2nd plural
+	-ib
+	dúib
+	indib
+	frib
+
+	3rd plural
+	-ib (dative) 
+ -u (accusative)
+	doib
+	indib (dative) 
+intiu (accusative)
+	friu
+
+Genitive prepositions
+
+These prepositions invariably govern the genitive. Many of them are formed from a dative or accusative preposition followed by a noun, although there are a few that do not take on such a form. Unlike dative/accusative prepositions, they do not inflect for person, number, or gender for pronominal purposes. Pronominal governance is instead done by fusing a possessive pronoun with the component dative/accusative preposition if it exists, and in front of the preposition if it does not. Hence i n-arrad "beside" can form a phrase inna arrad "beside him", with the possessive pronoun a fused with the component preposition iN.
+
+The accusative preposition coH and the genitive preposition dochum, both meaning "to, towards", may be used to illustrate the contrast between the two classes. "To an end" may be rendered as dochum forcinn, with dochum causing the genitive form forcinn to be used. On the other hand, this can also be rendered as co forcenn, with the accusative form forcenn being used. "Towards him" can likewise be rendered with both the possessive pronominal phrase a dochum (with the preceding a being the possessive pronoun meaning "his") and the inflected preposition cucci.
+
+Pronouns
+
+Independent personal pronouns
+
+Independent personal pronouns have been reduced to emphatic and topical function, and only occur in the nominative generally following the copula. The copula remains in its third-person singular forms regardless the person and number of the independent pronoun, with the exception of the third-person plural, which forces the copula into its third-person plural forms. However, in the modern Goidelic languages the nominative pronouns have become much more common, even for non-emphatic purposes.
+
+There were also independent genitive pronouns, serving both possessive functions (e.g. "mine", "yours", "theirs", "ours") and partitive functions ("of us", "of you", "of them"). However, by modern times the independent genitive pronouns disappeared, being replaced by various idioms.
+
+Old Irish independent personal pronouns
+
+		Short	Emphatic	Possessive
+
+	1st sing
+	mé	messe, meisse, mese	muí
+
+	2nd sing
+	tú	tussu	taí
+
+	3rd sing
+	masc.
+	é	ésom	aí
+
+	fem.
+	sí	sisi
+
+	neut.
+	ed	(unattested)
+
+	1st pl
+	sní	snisni	nathar, nár
+
+	2nd pl
+	sí, sib	sissi, sibsi	sethar, sár
+
+	3rd pl
+	é	ésom	aí
+
+Infixed personal pronouns
+
+By far the most prolific Old Irish personal pronoun formations are their affixed personal pronouns. These serve as direct object pronouns and are always attached onto the preverb preceding the stressed portion of a deuterotonic verbal complex. If a deuterotonic formation does not exist by default (due to the verb being simple in the first place), the preverb no is used with the conjunct forms of the simple verb to concoct deuterotonic forms. For example, the simple verb caraid, conjunct ·cara "loves" can form a deuterotonic base no·cara onto which infixed pronouns can be attached.
+
+The infixed pronouns belong to three classes, conventionally labelled A, B, and C. The three classes vary by the phonological context of the preverb (classes A and B) or syntactical context of the clause containing it (Class C vs. Classes A and B). They are attached between the first preverb and the next stressed syllable.
+
+Class A pronouns are used after preverbs that historically ended in vowels, such as do- (preverbal form of to- and dí-), ro-, fo-, no-, imm-, and ar-. They are also used after the verbal negation particle ní. For imm- and ar-, a vowel was used to link the preverb and the Class A pronoun. This vowel was overall random but tended to be -u-.
+
+Class B pronouns are used after preverbs historically ending in consonants. They are characterized by starting with /d/, spelled as t or d (the forms beginning with t in the below table can also be sometimes spelled with d) and their irregular fusions with their preverbs.
+
+Class C pronouns are used with verbs within a nasalized subordinate clause. They all contain a voiced dental fricative /ð/, spelled d. This delenited to /d/ when the consonant is preceded by the nasal relative infix -n-.
+
+Old Irish infixed direct object pronouns
+
+		Class A	Class B	Class C
+
+	1st sing
+	-mL	-tomL, -tumL, -tamL	-domL, -dumL, -damL
+
+	2nd sing
+	-tL	-totL, -tatL, -tL	-datL, -ditL
+
+	3rd sing
+	masc.
+	-aN	-tN	-dN, -idN, -didN
+
+	fem.
+	-s(N)	-taH	-daH
+
+	neut.
+	-aL	-tL	-dL, -idL, -didL
+
+	1st pl
+	-n	-ton, -tan	-don, -dun, -din, -dan
+
+	2nd pl
+	-b	-tob, -tab, -dub	-dob, -dub, -dib, -dab
+
+	3rd pl
+	-s(N)	-taH	-daH
+
+Various irregularities in the phonological manifestations of the pronouns exist.
+
+The Class A pronoun -a (whether masculine or neuter) suppresses the final vowels of the preverbs it attaches to. On the other hand, it is itself suppressed by the negative particle ní "does not", leaving only mutational effects behind. For example, Na·chachnatar "they sang it (i.e. a song, the neuter noun céol)" contains the infixed pronoun -a- in between the preverb no- and the next syllable, with -a- suppressing the preverb's vowel. But in Ní chachnatar "they did not sing it", the pronoun vanishes, leaving only lenition as the marker of its presence.
+
+Class B pronouns replace the final consonant of all their preverbs except etar- and for-. They also irregularly merge in- with ad- when attached.
+
+Class C pronouns in the third-person singular masculine and neuter are further subdivided based on either phonological context or the particle preceding the verb.
+
+-d appears where the Class A pronoun would otherwise be used.
+
+-id appears where the Class B pronoun would otherwise be used.
+
+-did when the clause is preceded by i "into which" or co "so that".
+
+There also existed a set of negative modal pronouns that substitute for the negative imperative particle ná and the negative relative or interrogative particle nád whenever a direct object pronoun was called for. These pronouns were built off a stem nach- or nách-.
+
+Old Irish negative modal pronouns
+
+	
+	Pronoun
+
+	1st sing
+	nachamL, nachimL
+
+	2nd sing
+	nachatL, nachitL
+
+	3rd sing
+	masc.
+	nachN
+
+	fem.
+	nachaH
+
+	neut.
+	nachL, nachidL
+
+	1st pl
+	nachan
+
+	2nd pl
+	nachab, nachib
+
+	3rd pl
+	nachaH
+
+Possessive pronouns
+
+Possessive pronouns in Old Irish, as expected, have genitive function. Additionally, when modifying verbal nouns, they may encode the direct object of a transitive verbal noun and the subject of an intransitive verbal noun. Unlike genitive modifiers, they are placed before the modified noun. They do not inflect for case and are immune to any word-initial mutation. However, mo "my" and do "your (singular)" lose their /o/ in front of a word beginning with a vowel. The initial consonant of do is also devoiced in this situation to /t/ and may also be optionally lenited after that to /θ/.
+
+Old Irish possessive pronouns
+
+		Pronoun	Examples
+
+	1st sing
+	moL, m'	mo mathair /mo ṽaθərʲ/ "my mother", m'athair /maθərʲ/ "my father"
+
+	2nd sing
+	doL, t', th'	do macc /do ṽak/ "your son", t'ingen /tʲinʲɣʲən/ "your daughter"
+
+	3rd sing
+	masc.
+	aL	a thech /a θʲex/ "his house"
+
+	fem.
+	aH	a tech /a tʲex/ "her house", a ainm /a hanʲmʲ/ "her name"
+
+	neut.
+	aL	a chumtach /a xuṽdəx/ "its construction" (of a neuter-gender object, say, a tech "house")
+
+	1st pl
+	arN	ar n-anmann /ar nanmaN/ "our names", ar tír /ar dʲiːr/ "our land"
+
+	2nd pl
+	forN, farN, barN	for n-anman /for nanmaN/ "your names", for cland /for glaN(d)/ "your children"
+
+	3rd pl
+	aN	a tech /a dʲex/ "their house", a n-anmann /a nanmaN/ "their names"
+
+Fusion of possessive pronouns with prepositions
+
+Like the definite article, possessive pronouns undergo several compulsory contractions with any preceding prepositions. The fusion is more straightforward, but still has several irregularities.
+
+mo and do become -m and -t when contracted onto a preposition.
+
+do and di both contract with any pronoun of the form a to form dia.
+
+The second-person plural possessive pronoun never contracts with a preposition.
+
+Nasalizing prepositions have an unlenited -(n)n- between the preposition and fusing possessive pronoun.
+
+Contraction of mo after for is not mandatory. Both the uncontracted for mo and the contracted form are attested.
+
+Suffixed pronouns
+
+A much less frequent type of pronominal formation is the suffixed pronoun. Suffixed pronouns also denote direct objects, but are instead exclusive to the third-person singular absolute forms of simple verbs. They cause mandatory syncope of the vowel in front of the voiced dental fricative d that serves as the absolute third-person singular ending, as well as devoicing that consonant termination to th. For example, caraid "she loves" suffixed with the suffixed pronoun -i "him" creates carthai "she loves him", exhibiting the pronouns' signature syncope and devoicing.
+
+Old Irish suffixed
+direct object pronouns
+
+	
+	singular
+	plural
+
+	1st person
+	-um
+	-unn
+
+	2nd person
+	-ut
+	-uib
+
+	3rd person
+	masc.
+	-i
+	-us
+
+	fem.
+	-us
+
+	neut.
+	-i
+
+There also existed a masculine or neuter suffixed pronoun that can be instead attached to absolute simple verbs' first-person singular future forms in -(e)a, first-person plural forms ending in -m(a)i, and third-person plural forms in -(a)it. This suffixed pronoun took on the form -it. Its vowel suppressed the final vowels of the former two endings and syncopated the vowel of the third.
+
+Syntax
+
+Old Irish has VSO word order shared by most Insular Celtic languages. Other orders are possible, especially under Bergin's Law. Verbs are all fully conjugated and have most forms typical of Indo-European languages. Personal pronouns, when used as direct objects, are prefixed to the verb with which they are associated (after other prefixes, and therefore are often referred to as infixes). Prepositions have the same status as the Latin prepositions, including the property of being verb prefixes.
+
+Copular sentences involving the copula is generally follow a different word order. The copula comes first, followed by the predicate, and then the subject. For example, Is fer Duaid "David is a man" has the copula is first, fer "man" as the predicate, and Duaid "David" as the subject.
+
+Possessor nouns and attributive adjectives follow the modified noun, while possessive pronouns precede them. For example, in mo súil dess "my right eye", the possessive pronoun mo "my" precedes the possessed noun súil "eye" and the attributive adjective dess "right" comes after the noun.
+
+Relative clauses and subordination
+
+Relative clauses and various other subordinate clauses in Old Irish are indicated via multiple mutually exclusive strategies. No relative pronouns are used, instead favoring mutations of verbs. The modified noun always precedes the verb beginning its associated relative clause.
+
+A leniting relative clause, with the preceding noun serving as its subject, lenites the initial consonant of a deuterotonic form of a verb, inflected appropriately for person and number. If no such deuterotonic form already exists (such as if a verb is simplex), the dummy particle no is used with the simplex's conjunct forms to create the deuterotonic form. For example, Do·cer in fer ("the man fell") could make a relative phrase in fer do·cher ("the man who fell") by placing the subject in fer ("man") in front of the verb and leniting the initial stressed consonant of the verb do·cer ("fell").
+
+If the object is the antecedent of the relative clause, lenition is not necessary.
+
+Simplex verbs in the third person, first person plural, and in the passive have special relative forms. For instance, from Caraid in fer mo fiair "the man loves my sister" can be made a relative clause In fer caras mo fiair "the man who loves my sister". Unlike the leniting relative construction, the antecedent can always be either the subject or the object of the relative verb, so that there could also be In fer caras mo fiur "the man my sister loves".
+
+Several conjunctions and constructions cause the insertion of a nasal mutation into a following subordinate clause. These phenomena are known as nasalizing relative clauses. These clauses occur, non-exhaustively, when:
+
+The clause starts with certain temporal references, whether it be by introducing a period of time in which the action comprising the clause occurs, or by several temporal conjunctions such as in tan "when", cé(i)n(e) "as long as", aN "when", or lase "when".
+
+The clause starts with certain manner specifications. These include the conjunctions ama(i)l and f(e)ib, both meaning "like, as"
+
+In expressions where the relative clause is preceded by the verbal noun of its own verb, a construction known as the figura etymologica.
+
+The noun on which the clause is dependent on is a bare predicate.
+
+The clause is dependent on certain irrealis verbs and expressions.
+
+Optionally when the relative clause's antecedent would be the object of the clause's verb.
+
+Optionally after conjunctions introducing a cause.
+
+The nasal mutation for the manifests according to a complex set of rules. Relative forms of simple verbs simply face nasal mutation word-initially. Deuterotonic verbs instead infix the nasal mutation immediately after the first preverb. Class C pronouns go immediately after this nasal infix. Relative forms of the copula, such as bes, go unnasalized but the nasal mutation applies to the following word after the copula instead.
+
+Emphasis
+
+Old Irish does not rely on intonation changes to relay emphasis, unlike English. Instead, a set of particles are suffixed onto words to emphasize a given element of the sentence. The particles, also referred to with the Latin name notae augentes (singular nota augens) can be attached to verbs and nouns alike. The emphatic suffixes vary by person and number, but contain major syncretism in the third person; the emphatic suffixes for the third person masculine and neuter singular in addition to the third-person plural are identical. The emphatic suffixes are:
+
+Emphatic particles in Old Irish
+
+	Person and number	Broad form	Slender form
+
+	1st sing
+	-sa
+	-sea, -se
+
+	2nd sing
+	-so, -su
+	-siu
+
+	3rd sing masc.
+	-som, -sam
+	-sem, -sium, -seom
+
+	3rd sing neut.
+
+	3rd sing fem.
+	-si
+
+	1st pl
+	-ni
+
+	2nd pl
+	-si
+
+	3rd pl
+	-som, -sam
+	-sem, -sium, -seom
+
+On verbs, they can be used to emphasize the subject or object of a verb when they are encoded within its conjugation or infixed pronoun. Their appearance on verbs is governed by an animacy hierarchy, organized in four tiers. The four tiers, from highest to lowest, are first person, second person, third person human, and third-person inanimate. A nota of a lower tier cannot appear if the subject or object of the would-be-affixed verb belongs to a higher tier. A vast majority of notae refer specifically to people. Additionally, for third-person notae, an overtly expressed or relative subject for the verb means that a third-person nota is not used.[14]
+
+Hence:
+
+Rom·chúalae-sa. "She had heard me." (-sa emphasizing who the woman heard — the speaker) would be permitted due to the first-person notae being unrestricted in the tier system.
+
+*Rom·chúalae-si. "She had heard me." (-si emphasizing who heard the speaker — the woman) would be prohibited due to attempting to refer to a third-person subject in the presence of a first-person object.
+
+The emphatic particles can also emphasize conjugated prepositions. 
+
+Don·ratsat a bíad dún-ni. "They had given us the food." (-ni emphasizes that the food was given to the speaker's group and not to, say, the dogs)
+
+They can also emphasize possessive pronouns indirectly by being suffixed after the possessed object, since possessive pronouns go unstressed.
+
+Ní mo chú-sa. "It's not my dog." (-sa emphasizes that the speaker in particular isn't the owner, but rather a different person is)
+
+Another strategy for emphasis is to front the emphasized element into a copular clause, and convert the remainder of the sentence into a relative clause. Take for example the basic sentence Marbais fer mo charait "a man killed my friend". Copular emphasis can create:
+
+Is fer marbas mo charait. (emphasizes who killed the speaker's friend — a man)
+
+Is mo charae marbas fer. (emphasizes who the man killed — the speaker's friend)
+
+Is marbad mo charat do·gní in fer. (emphasizes what the man did to the speaker's friend — kill them.)
+
+Verbal nouns
+
+Genitive and possessive modifiers of verbal nouns exhibit behaviour analogous with that of an ergative–absolutive language. Genitive modifiers indicate the object of a transitive verbal noun, with the transitive subject instead being indicated by a prepositional phrase (generally based on prepositions do or la). On the other hand, intransitive verbs do indeed allow genitive modifiers to indicate their subject.
+
+a ndígal "avenging them" (the possessive pronoun a indicates the third-person plural object of dígal, the verbal noun of do·fich "to avenge")
+
+a ndígal dom "my avenging of them" (adding a conjugated pronominal phrase dom to indicate the subject of the verbal noun)
+
+a guidi "their prayers" (a in this case indicates the subject of guidi, nominative plural of the verbal noun of guidid "to pray")
+
+Preceding the verbal noun by oc "at" and the appropriate conjugation of the verb at·tá "to be" indicates progressive aspect.
+
+At·tó oc ithi bíid. "I'm eating food."
+
+Interrogation
+
+Interrogative constructions in Old Irish are divided into two types: yes–no questions and the wh-questions.
+
+Yes–no questions
+
+A yes–no question in Old Irish uses a dedicated particle in before the dependent form of a verb. The particle causes nasalization of the following word. For example, ad·cí "you see" can form a yes-no interrogative In·n-accai? "do you see?". Class C infixed pronouns may be attached between the particle and the verb, e.g. inda·ierr? "will you kill them?"
+
+Wh-questions
+
+Wh-questions often use a stressed copular pronoun cía and an unstressed particle cia that precedes the dependent form of a verb.
+
+The stressed wh-copula cía generally agrees in number and gender with any attached nominal predicate, with cía serving as the masculine singular, cisí or cessi as feminine singular, cid as neuter, and either citné or cisné as plural. There are exceptions to this agreement attested, such as airm "place, where", which is feminine but takes cía. When used without a nominal predicate, the pronoun cía means "who" and cid means "what". Hence "who is it?" can be rendered as Cía hé?. The pronoun's forms, with or without a nominal predicate, may be followed by a relative clause describing either the pronoun or the predicate, as in Cid du·gén-sa? "what will I do?" (with du·gén-sa meaning "that I will do".)
+
+The unstressed pronominal particle cia attaches to dependent forms of verbs to create wh-questions out of them. It can represent both a subject or object of the oncoming verb, and may also may take on the forms ce and ci. Examples include Ce·róich? "how far does it extend?" (literally "what it reaches?", independent form ro·saig).
+
+Coordination
+
+Two verbal subjects conjoined by ocus "and" do not automatically entail plural-number inflection on the verb. Instead, the grammatical number the verb is inflected for is often (but not always) determined entirely by the grammatical number of the first of the conjoined subjects.[15]
+
+Notes
+
+↑ Primitive Irish *di-s-ro-uss-skokīt vs. *nī-s-di-ro-uss-skokīt, *embi-s-sawet vs. *nī-s-embi-sawet, with the stressed syllable underlined.
+
+↑ The root of this verb is *bod-, originally *bud- < PIE *bhudh- (cognate with Old English bēodan "to offer, announce", Sanskrit bodhati "to awaken, inquire"); the variant *bod- occurred in the present indicative through a-infection and was generalised. The *-n- is a present-tense infix (cf. the cognate Ancient Greek verb punthánomai "I inquire", aorist eputhómēn "I inquired").
+
+↑ Exceptions do exist; the weak verbs do·goa, and asa·gúsi use reduplicated preterites.
+
+↑ Ad·cumaing has two different preterites depending on the meaning. When used to refer to striking with physical force, it uses an s-preterite. But when used to mean "happen", a reduplicated preterite like ad·comnaic or ad·cóemnacair appears.
+
+References
+
+↑ Thurneysen, Rudolf (1998) [1946]. A Grammar of Old Irish. Translated by D. A. Binchy and Osborn Bergin. Dublin: Dublin Institute for Advanced Studies. ISBN 1-85500-161-6.
+
+↑ McCone, Michael (1987). The Early Irish Verb. Maynooth: An Sagart. ISBN 1-870684-00-1.
+
+↑ McCone, Kim (2005). A First Old Irish Grammar and Reader. Maynooth: Department of Old and Middle Irish, National University of Ireland. ISBN 0-901519-36-7.
+
+↑ O'Connell, Frederick William (1912). A Grammar of Old Irish. Belfast: Mayne, Boyd & Son.
+
+↑ Stifter, David (2006). Sengoídelc: Old Irish for Beginners. Syracuse, New York: Syracuse University Press. ISBN 0-8156-3072-7.
+
+↑ Greene, David (1973). "The Growth of Palatalization in Irish". Transactions of the Philological Society. 72 (1). Wiley: 127–136. doi:10.1111/j.1467-968x.1973.tb01017.x. ISSN 0079-1636.
+
+↑ Kortlandt, Frederik (1979). "The Old Irish Absolute and Conjunct Endings and Questions of Relative Chronology". Ériu. 30. Royal Irish Academy: 35–53. JSTOR 30007677. Retrieved 11 May 2022.
+
+↑ McCone, K. (1996). Towards a Relative Chronology of Ancient and Medieval Celtic Sound Change. Maynooth studies in Celtic linguistics. Maynooth: Department of Old Irish, St. Patrick's College. ISBN 978-0-901519-40-5.
+
+↑ Stifter, David (2011). "Lack of Syncope and other nichtlautgesetzlich Vowel Developments in OIr. Consonant-Stem Nouns. Animacy Rearing its Head in Morphology?". In Krisch, Thomas; Lindner, Thomas; Crombach, Michael; Niederreiter, Stefan (eds.). Indogermanistik und Linguistikim Dialog Akten der XIII. Fachtagung der Indogermanischen Gesellschaftvom 21. bis 27. September 2008 in Salzburg. Wiesbaden: Ludwig Reichert Verlag. pp. 556–565. ISBN 9783895006814.
+
+↑ Stifter, David (2019). "An apple a day…". Indogermanische Forschungen (in German). 124 (1). Walter de Gruyter GmbH: 171–218. doi:10.1515/if-2019-0006. ISSN 1613-0405. S2CID 208141167.
+
+↑ Thurneysen 1946, p. 363. sfn error: no target: CITEREFThurneysen1946 (help)
+
+↑ Le Mair, Esther (2013). "Why a Single Burst or Multiple Scatterings Can Make All the Difference: The Patterns Underlying the Formation of A I and A II Verbs". Studia Celtica Fennica. 10. Finnish Society for Celtic Studies: 65–80. ISSN 1795-097X.
+
+1 2 Sihler 1995, p. 465. sfn error: no target: CITEREFSihler1995 (help)
+
+↑ Griffith, Aaron (2008). "The animacy hierarchy and the distribution of the notae augens in Old Irish". Ériu. 58: 55–75. doi:10.3318/ERIU.2008.58.55. JSTOR 20696362. S2CID 170923317.
+
+↑ Lash, Elliott; Griffith, Aaron (1 January 2018). "Coordinate Subjects, Expletives, and the EPP in Early Irish" (PDF). Journal of Celtic Linguistics. 19 (1). University of Wales Press/Gwasg Prifysgol Cymru: 87–156. doi:10.16922/jcl.19.5. ISSN 0962-1377. S2CID 165208984.
+
+	
+
+v
+
+t
+
+e
+
+Grammars of the world's languages
+
+	
+
+Phonologies
+
+Orthographies
+
+Grammars
+
+Adjectives
+
+Adpositions
+
+Determiners
+
+Nouns
+
+Pronouns
+
+Verbs
+
+	Natural	
+
+	Afroasiatic	
+
+Arabic
+
+Levantine
+
+Central Atlas Tamazight
+
+Hebrew
+
+Historical
+
+Kabyle
+
+Somali
+
+Tigrinya
+
+Ugaritic
+
+	Altaic (sprachbund)	
+
+	Turkic	
+
+Kazakh
+
+Kyrgyz
+
+Tatar
+
+Turkish
+
+Turkmen
+
+Uyghur
+
+Uzbek
+
+Yakut
+
+	Japonic	
+
+Japanese
+
+Classical
+
+Okinawan
+
+Hachijō
+
+	Other	
+
+Evenki
+
+Korean
+
+Mongolian
+
+	Austroasiatic	
+
+Khmer
+
+Vietnamese
+
+Santali
+
+	Austronesian	
+
+Cebuano
+
+Hawaiian
+
+Ilocano
+
+Malay
+
+Tagalog
+
+	Dravidian	
+
+Kannada
+
+Malayalam
+
+Tamil
+
+Telugu
+
+	Indo-European	
+
+	Baltic	
+
+Latvian
+
+Lithuanian
+
+	Celtic	
+
+Breton
+
+Cornish
+
+Irish
+
+Old
+
+Manx
+
+Scottish Gaelic
+
+Welsh
+
+colloquial
+
+literary
+
+	Germanic	
+
+Afrikaans
+
+Danish
+
+Dutch
+
+English
+
+Old
+
+Faroese
+
+German
+
+Icelandic
+
+Norwegian
+
+Old Norse
+
+Ripuarian
+
+Swedish
+
+West Frisian
+
+Yiddish
+
+	Indo-Aryan	
+
+Bengali
+
+Bhojpuri
+
+Gujarati
+
+Hindustani
+
+Maithili
+
+Marathi
+
+Nepali
+
+Odia
+
+Punjabi
+
+Sanskrit
+
+Vedic
+
+	Iranian	
+
+Kurdish
+
+Sorani
+
+Pashto
+
+Persian
+
+Tajik
+
+	Italic	
+
+Catalan
+
+Dalmatian
+
+French
+
+Istro-Romanian
+
+Italian
+
+Latin
+
+Lombard
+
+Eastern
+
+Western
+
+Portuguese
+
+Romanian
+
+Spanish
+
+Venetian
+
+	Slavic	
+
+Belarusian
+
+Bulgarian
+
+Czech
+
+Kashubian
+
+Macedonian
+
+Old Church Slavonic
+
+Polish
+
+Russian
+
+Rusyn
+
+Silesian
+
+Serbo-Croatian
+
+Slovak
+
+Slovene
+
+Slovincian
+
+Ukrainian
+
+	Other	
+
+Albanian
+
+Greek
+
+Ancient
+
+Koine
+
+Hittite
+
+	Kartvelian	
+
+Georgian
+
+Laz
+
+Mingrelian
+
+	Kra–Dai	
+
+Has Hlai
+
+Lao
+
+Thai
+
+	Native American	
+
+	Algic	
+
+Massachusett
+
+Munsee
+
+Ojibwe
+
+	Na-Dene	
+
+Navajo
+
+Tlingit
+
+	Siouan-Catawban	
+
+Mandan
+
+	Uto-Aztecan	
+
+Cahuilla
+
+Nahuatl
+
+Classical
+
+Nawat
+
+	Other	
+
+Cherokee
+
+Inuit
+
+Lushootseed
+
+Miskito
+
+Otomi
+
+	Niger–Congo	
+
+Fula
+
+Pular
+
+Herero
+
+Sotho
+
+Swahili
+
+Tumbuka
+
+Zulu
+
+	Northwest Caucasian	
+
+Abkhaz
+
+Adyghe
+
+Kabardian
+
+	Sino-Tibetan	
+
+Burmese
+
+Chinese
+
+Classical
+
+Cantonese
+
+Dzongkha
+
+Kokborok (Tripuri)
+
+Meitei (Manipuri)
+
+Mizo
+
+Tibetan
+
+	Uralic	
+
+Estonian
+
+Finnish
+
+Hungarian
+
+Ingrian
+
+Komi
+
+Livonian
+
+Meänkieli
+
+Udmurt
+
+	Other	
+
+American Sign Language
+
+Basque
+
+Mandan
+
+Ubykh
+
+	Constructed	
+
+	Artistic	
+
+Klingon
+
+Naʼvi
+
+Quenya
+
+	Auxiliary	
+
+Esperanto
+
+Interlingua
+
+Interlingue
+
+Lingua Franca Nova
+
+Sambahsa
+
+	Other	
+
+Lojban
+

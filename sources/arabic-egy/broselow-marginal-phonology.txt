@@ -1,0 +1,1774 @@
+            Marginal phonology: Phonotactics on the edge1
+
+
+                                                                   ELLEN BROSELOW
+
+
+
+
+Abstract
+
+As has long been recognized, the isomorphism between word edges and word-
+internal syllable edges is far from perfect. This paper examines the ﬁt between
+an Optimality-Theoretic account of edge/interior asymmetries, using position-
+speciﬁc faithfulness constraints to protect edges or interiors of morphological
+constituents, and the actual typology of attested edge/interior asymmetries. A
+detailed analysis of the Indonesian language Balantak, in which the ﬁrst mem-
+ber of a CC cluster is severely restricted unless that ﬁrst C is root-ﬁnal, is com-
+patible with the positional faithfulness account, but is problematic for accounts
+that explain greater freedom at edges solely in terms of licensing by higher
+prosodic structure or by phonetic context. I argue that a theory of edge/interior
+asymmetries must incorporate two possible functions of phonotactic restric-
+tions: to facilitate recovery of segmental contrasts, and to facilitate the parsing
+of strings into morphemes.
+
+
+1. Introduction: Edge-interior asymmetries
+
+One argument for including the syllable in phonological representations ap-
+peals to parallels between medial phonotactics and the phonotactics of word
+
+
+  1. This work was supported by in part by NSF grant SBR-9729108 to the author and Daniel Finer
+     and by funding from the Nederlandse Organisatie voor Wetenschappelik Onderzoek NWO.
+     Portions of this paper were presented at the 8th Manchester Phonology Meeting, UK, May
+     2000, the 8th Biennial Workshop on Phonology, University of Utrecht, June 2000; 6th Annual
+     SWOT (South Western Optimality Theory) Conference, USL Los Angeles, April 2001; and
+     at SUNY Stony Brook, March 2001. I am grateful to those audiences, particularly Yoonjung
+     Kang and Ricardo Bermudez-Otero, and to an anonymous reviewer for valuable comments
+     and suggestions. Special thanks to Jon MacDonald for suggesting the title.
+
+
+
+The Linguistic Review 20 (2003), 159–193                              0167–6318/03/020-0159
+                                                                         Walter
+                                                                          c       de Gruyter
+
+
+
+
+                    Brought to you by | SUNY Stony Brook University Libraries
+                                          Authenticated
+                                Download Date | 9/25/14 11:22 PM
+160    Ellen Broselow
+
+margins. For example, Kahn (1976) argues that the word-internal consonant
+sequences judged possible by English speakers are just those that can be de-
+composed into a word-ﬁnal coda and word-initial onset. Thus, restrictions on
+possible syllables provide a uniﬁed account of the unacceptability of word-ﬁnal
+*tk#, word-initial *#kp, and word-internal *tkp.
+   However, as has long been recognized, the isomorphism between word edges
+and word-internal syllable edges is far from perfect. Considering the match be-
+tween left word edge and word-internal onsets, we ﬁnd both Guhang Ifugao,
+where all words begin with consonants but word-internal syllables may lack
+onsets (Landman 1999), and the mirror image Axininca Campa, where word-
+initial vowels are possible but word-internal syllables begin only with con-
+sonants (Spring 1990, McCarthy and Prince 1993a, Kager 1999). Comparing
+the right edge of words with word-internal codas, we ﬁnd both Diyari (Mc-
+Carthy and Prince 1994, Landman 1999, Wiltshire 2003), in which words must
+end in vowels but internal codas are possible, and conversely, many languages
+that allow a wider range of structures at right edge than in word-internal pre-
+consonantal position, including Kamaiurá (Everett and Seki 1985, McCarthy
+and Prince 1993a, Wiltshire 2003), Diola-Fogny (Sapir 1965, Ito 1986, Piggott
+1999, Kager 1999), and Misantla Totonac (MacKay 1991).2
+   This lack of universal isomorphism between word margins and syllable mar-
+gins has spawned a panoply of theoretical proposals, most of which focus on
+cases involving greater freedom at the right edges of words. The various pro-
+posals differ with respect to the three fundamental assumptions whose conver-
+gence makes asymmetry between word edges and syllable edges problematic:
+(i) that phonotactic constraints are a function of restrictions on syllable posi-
+tions; (ii) that prosodic structure is strictly layered (Selkirk 1981, Nespor and
+Vogel 1986), with all segments contained within syllables; and (iii) that re-
+strictions on syllable structure are uniformly applied, regardless of the position
+of the syllable in the word. Analyses of edge/interior asymmetries range from
+accounts that maintain all three assumptions by assuming abstract representa-
+tions in which ﬁnal consonants are onsets to a degenerate syllable (e.g., Kaye,
+Lowenstamm and Vergnaud 1990), to those that abandon the connection be-
+tween syllables and phonotactics altogether, appealing to functional principles
+of perceptual salience (Steriade 1999, Blevins 2003). Between these poles are
+proposals that give up the assumption of strict layering, allowing consonants
+at edges to be extraprosodic or attached directly to the prosodic word (Steri-
+ade 1982, Ito 1986, Rubach and Booij 1990, Hung 1994, Goad and Brannen in
+press, among many others); or that abandon the uniform application of syllable
+
+
+
+ 2. See Blevins (1995) for a summary of various patterns.
+
+
+
+
+          Brought to you by | SUNY Stony Brook University Libraries
+                                Authenticated
+                      Download Date | 9/25/14 11:22 PM
+                                                      Marginal phonology      161
+
+structure restrictions across the word by making special licensing provisions
+at word edge (Piggott 1999), or by incorporating positional faithfulness con-
+straints that enforce greater faithfulness at constituent edges (alignment and
+anchoring, McCarthy and Prince 1993b and 1995b, Wiltshire 2003). These var-
+ious treatments serve almost as a guidebook to the history of generative phonol-
+ogy, with a shift over time from focus on derivations in rule-based phonology
+to focus on representations in autosegmental phonology and on violable, in-
+teracting surface constraints in Optimality Theory. To date, no consensus has
+emerged as to the best account of edge/interior asymmetries, making this an
+area where examination of cross-linguistic variation may be useful in choosing
+among competing accounts.
+   In this paper, I examine the ﬁt between the array of attested right edge/
+interior patterns and an Optimality-Theoretic account of phonotactics that uses
+position-speciﬁc faithfulness constraints to override the effects of otherwise
+high ranking coda markedness constraints. The focus is on two types of lan-
+guages: those that allow coda consonants only at edges (CVCVC) or internally
+(CVCCV); and those that allow single consonants in both internal and edge
+codas (CVCCVC), but exhibit a greater range of place and/or manner contrasts
+in one position than in another. I begin in Section 2 with a brief survey of the
+types of relationships found between the right edges of words and the codas
+of word-internal syllables, and examine the match between the attested pat-
+terns and the patterns predicted by free ranking of coda markedness constraints,
+position-speciﬁc faithfulness constraints, and general faithfulness constraints.
+In Section 3, I present a case study of one language, Balantak, that exhibits a
+greater range of contrasts at the right edges of stems than elsewhere, a pattern
+that is problematic for accounts that tie the location of greater contrast solely
+to the edges of prosodic constituents or to phonetic context. Section 4 presents
+a comparison of alternative approaches to edge/interior asymmetries with re-
+spect to predictions concerning the location and type of greater contrast, and
+predictions for areas beyond phonotactics, such as the abstractness of represen-
+tations, the weight of ﬁnal consonants, and the expected inﬁxation patterns. I
+conclude that a theory of phonotactics must recognize the role of phonotactic
+restrictions in facilitating the parsing of a string into morphemes (reﬂected in
+anchoring constraints), as well as in facilitating the recoverability of segmental
+contrasts.
+
+
+2. Typology and constraints
+
+We will ﬁrst consider the match between the simplest type of markedness, the
+presence vs. absence of syllable codas. We begin with symmetrical patterns
+then move on to edge/interior asymmetries.
+
+
+
+
+                  Brought to you by | SUNY Stony Brook University Libraries
+                                        Authenticated
+                              Download Date | 9/25/14 11:22 PM
+162     Ellen Broselow
+
+2.1. Coda vs. no coda
+
+2.1.1. Symmetrical patterns (coda/no coda). For cases in which consonant
+sequences cannot form complex onsets, the standard assumption is that in-
+tervocalic CC sequences are divided into a coda followed by an onset.3 If
+words consist simply of possible syllables, we therefore expect symmetry be-
+tween word-ﬁnal and preconsonantal positions. Languages maintaining such
+symmetry are indeed attested: Hawaiian and Zulu (Grijzenhout and van Rooy
+2000), for example, have no consonant sequences and no word-ﬁnal conso-
+nants, while Manam has both CC sequences and single word-ﬁnal consonants
+(Piggott 1999).4 We can describe the symmetrical possibilities in terms of the
+ranking of the familiar markedness constraint N O C ODA (syllables must not
+have codas) with respect to the block of faithfulness constraints. These possibil-
+ities are outlined in the chart below. Where N O C ODA outranks all faithfulness
+constraints (M>>F), all syllables are open; and where faithfulness constraints
+dominate N O C ODA (F>>M), all occurring codas will be preserved:
+(1)      Symmetrical patterns, Interiors (I) vs. Right Edges (E)
+               Inside     Edge Language Ranking               Syllable
+                                                              description
+         I = E a. U        U      Hawaiian N O C ODA>>F uniformly open
+                  V.CV     V#
+                 *VC.CV *VC#
+               b. U, M U, M Manam F>>N O C ODA uniformly
+                  V.CV V#                                     faithful (open or
+                  VC.CV VC#                                   closed)
+               c. M        M          —             —         uniformly closed
+                 *V.CV *V#
+                  VC.CV VC#
+
+I know of no language corresponding to (1c), in which all syllables have codas.
+This gap is expected, since it would require a constraint favoring closed over
+open syllables in all positions. Such a constraint has been explicitly rejected on
+typological grounds (Prince and Smolensky 1993, Kager 1999).5
+
+
+ 3. As a reviewer pointed out, another logical possibility is that one of the two consonants is
+    ambisyllabic.
+ 4. As discussed below, all codas in Manam, both word-internally and word-ﬁnally, are restricted
+    to nasals, requiring another markedness constraint, Coda=Nas, ranked above faithfulness con-
+    straints.
+ 5. Hammond (1999) proposes a constraint that requires all syllables to be bimoraic, and this
+    constraint could have the effect of inducing codas if accompanied by a highranking constraint
+    banning long vowels; however, the need for a constraint requiring uniform bimoraicity is not
+    well established.
+
+
+
+
+          Brought to you by | SUNY Stony Brook University Libraries
+                                Authenticated
+                      Download Date | 9/25/14 11:22 PM
+                                                         Marginal phonology          163
+
+2.1.2. Asymmetrical patterns (Coda/NoCoda). Structures found at right
+edges are not always the same as those found in preconsonantal position. For
+example, Kamaiurá (Everett and Seki 1985, McCarthy and Prince 1993a), Luo,
+and Yucatec Maya (Harris and Gussmann 1998) have word-ﬁnal consonants
+but no CC sequences anywhere. Conversely, Diyari (Austin 1981), Thargari
+(Klokeid 1969), Pitjantjatjara and PittaPitta (Wiltshire 2003), and Telugu and
+Italian (Harris and Gussmann 1998) have only vowel-ﬁnal words, but do al-
+low CC sequences within a word. And Yapese has no vowel-ﬁnal words, but
+permits both open and closed syllables within a word (Jensen 1977, Piggott
+1999).6 Considering these patterns in terms of syllable structure markedness,
+we ﬁnd the enforcement of stronger standards of markedness both at interiors
+and at edges:
+
+(2)      Right edge more marked
+         a. Kamaiurá, Luo, Yucatec Maya
+             (i) Final syllables: Coda possible
+             (ii) Nonﬁnal syllables: Coda not possible
+         b. Yapese
+             (i) Final syllables: Coda required
+             (ii) Nonﬁnal syllables: Coda possible
+(3)      Right edge less marked
+         Diyari, Thargari, Pitjantjatjara, PittaPitta, Telugu, Italian
+         (i) Final syllables: Coda not possible
+         (ii) Nonﬁnal syllables: Coda possible
+
+ Asymmetries in edge/interior markedness can be induced by faithfulness or
+markedness constraints speciﬁc to position. I will assume the following:
+
+(4)      Position-speciﬁc constraints
+         a. A NCHOR -R (G RW): A segment at the right edge of the gram-
+              matical word in the output has a correspondent at the right edge
+              of the grammatical word in the input (no epenthesis or deletion
+              at the edge; McCarthy and Prince 1995a).
+         b. I-O C ONTIGUITY: The correspondents of a contiguous input
+              string must be contiguous in the output, and vice versa (no me-
+              dial epenthesis or deletion; McCarthy and Prince 1994).
+         c. F INAL -C: Prosodic words must end in consonants (McCarthy
+              and Prince 1994).
+
+
+ 6. Jensen (1977) points out that borrowed words (such as doolaa ‘dollar’) may end in long
+    vowels.
+
+
+
+
+                   Brought to you by | SUNY Stony Brook University Libraries
+                                         Authenticated
+                               Download Date | 9/25/14 11:22 PM
+164    Ellen Broselow
+
+Position-speciﬁc faithfulness constraints (A NCHOR and C ONTIGUITY) man-
+date faithful realization of some portion of a constituent, either the edge or the
+interior. Ranking A NCHOR above the general markedness constraints would
+give us the Kamaiurá pattern, in which only edge syllables are immune to the
+N O C ODA constraint:
+
+(5)      Kamaiurá pattern
+                 /CVCCVC/                   A NCHOR -R       N O C ODA   FAITH
+          a.     CVCCVC                                         **!
+          b.     CVCV                            *!                        **
+          c. ☞ CVCVC                                                 *      *
+          d.     CVCCV                           *!                  *      *
+
+Normally, the ranking N O C ODA MAX,DEP in Diyari would require all syl-
+lables to end in vowels, even if this requires deletion or insertion of segments.
+But if N O C ODA is dominated by I-O C ONTIGUITY, which forbids insertion
+or deletion inside a word, only ﬁnal syllables can be forced to conform to the
+NoCoda requirement (McCarthy and Prince 1994):
+
+(6)      Diyari pattern
+                  /CVCCVC/                 I-O C ONTIG       N O C ODA   FAITH
+          a.      CVCCVC                                        **!
+          b.      CVCV                           *!                        **
+          c.      CVCVC                          *!                  *      *
+          d. ☞ CVCCV                                                 *      *
+
+A third source of asymmetry is (4c): F INAL -C; ranked above N O C ODA, this
+derives the Yapese pattern, in which codas are not only allowed in word-ﬁnal
+position (as in Kamaiurá), but are actually required in this position:
+
+(7)      Yapese pattern
+                 /CVCCVC/                    F INAL -C       N O C ODA   FAITH
+          a.     CVCCVC                                         **!
+          b.     CVCV                            *!                        **
+          c. ☞ CVCVC                                                 *      *
+          d.     CVCCV                           *!                  *      *
+
+As Wiltshire (2003) argues, F INAL -C may be active on phrase edges, rather
+than word edges: the Atampaya dialect of the Australian language Uradhi re-
+quires phrase-ﬁnal but not word-ﬁnal or word-medial syllables to be closed.
+  We can now examine the ﬁt between the patterns of asymmetrical syllable
+types predicted by free ranking of the constraints discussed to this point, and
+
+
+
+
+         Brought to you by | SUNY Stony Brook University Libraries
+                               Authenticated
+                     Download Date | 9/25/14 11:22 PM
+                                                             Marginal phonology             165
+
+attested asymmetries. Logically possible patterns of open and closed syllables
+within a word are summarized in the following chart:
+(8)      Asymmetrical patterns, Interior Codas (I) vs. Right Edges (E)
+                Structure Structure Language Ranking            Syllable
+                inside     at word                              description
+                word       edge                                 (by position
+                                                                in word)
+         I ⊂ E a. U        U,M         Kamaiurá A NCHOR         edge: open
+                   V.CV    V#                     >>N O C ODA or closed;
+                   *VC.CV VC#                     >>F           inside: open
+                b. M         U, M         —             —       edge: open
+                    *V.CV    V#                                 or closed;
+                    VC.CV VC#                                   inside:
+                                                                closed
+         I ⊃ E c. U, M     U           Diyari     C ONTIG       edge: open;
+                   V.CV    V#                     >>N O C ODA inside: open
+                   VC.CV *VC#                     >>F           or closed
+                d. U, M    M           Yapese     F INAL -C     edge: closed;
+                   V.CV    *V#                    >>F           inside: open
+                   VC.CV VC#                      >>N O C ODA or closed
+         I = E e. U       M           ?          F INAL -C     edge: closed;
+                   V.CV    *V#                    >>N O C ODA inside: open
+                   *VC.CV VC#                     >>F
+                f. M         U            —             —       edge: open;
+                    *V.CV    V#                                 inside:
+                    VC.CV *VC#                                  closed
+The chart in (8) shows three gaps. The lack of languages like (8b) and (8f) is
+expected in the absence of a constraint that would require all syllables to be
+closed in all positions. However, a potentially problematic gap in (8) is type
+(8e), which generally forbids closed syllables, but requires all words to end
+in consonants. A constraint set containing N O C ODA and F INAL -C predicts
+that such a language should be possible, derived from the ranking F INAL -C
+>>N O C ODA>>F. It is of course difﬁcult to determine whether the absence
+of a particular pattern represents a gap in the data set, an accidental gap in
+human languages, or an impossible pattern. If (8e) is not in fact a possible
+human language, this gap points to the need for a revision of the theory.7 In
+
+
+ 7. A reviewer suggests an alternative account in which N O C ODA is replaced by a family of con-
+    straints relativized to prosodic domains and universally ranked N O C ODA -PW D>>N O C ODA -
+    F T>>N O C ODA -S YLL, following Wiese’s (1996) similar treatment of O NSET. This system
+
+
+
+
+                    Brought to you by | SUNY Stony Brook University Libraries
+                                          Authenticated
+                                Download Date | 9/25/14 11:22 PM
+166     Ellen Broselow
+
+the absence of conclusive evidence, I will put this question aside to focus on
+accounting for attested patterns. At this point we turn to a different sort of
+asymmetry involving not the presence vs. absence of codas, but rather the range
+of contrasts found in coda segments.8
+
+
+2.2. Single C coda: Wider contrast vs. narrower contrast
+
+Even where languages allow codas in both word-internal and word-ﬁnal syl-
+lables, markedness constraints speciﬁc to consonant sequences may induce
+asymmetries between the possible contrasts found in the different positions.
+For example, Rose (2000) proposes (following Vennemann 1972, among oth-
+ers) a constraint called S YLLABLE C ONTACT, which requires that “the ﬁrst
+segment of the onset of a syllable must be lower in sonority than the last seg-
+ment in the preceding syllable” (Rose 2000: 401). High ranking of this con-
+straint will rule out word-internal codas of low sonority, reducing manner con-
+trasts in word-internal but not word-ﬁnal codas. This pattern is exempliﬁed by
+Eastern Ojibwa, in which internal CC is limited to nasal-stop or fricative-stop,
+while ﬁnal consonants are unrestricted (Piggott 1999). Conversely, internal co-
+das may show a wider range in place of articulation than word-ﬁnal consonants,
+due to a constraint requiring sonorant-obstruent clusters to agree in place of ar-
+ticulation. Such a pattern is familiar, being attested in Japanese, in Selayarese
+(Mithun and Basri 1986), and in Lardil (Hale 1973), in which only word-ﬁnal
+nasals have a single place of articulation, while internal coda nasals agree in
+place with a following consonant.9 A similar pattern is found in the Western
+Australian language Martuthunira, which restricts ﬁnal nasals to alveolar and
+palatal, but permits labial, velar, and lamino-dental nasals as the ﬁrst member
+of a homorganic cluster (Dench 1995). We can therefore assume a constraint
+AGREE P LACE : nasals must share place with a following obstruent. Adding the
+
+
+
+    would predict that we should ﬁnd another pattern, one that is to my knowledge also unattested:
+    a language in which codas can appear in foot-initial syllables but not in foot-ﬁnal ones, con-
+    sistent with the ranking N O C ODA -PW D , N O C ODA -F T>>F>>N O C ODA -S YLL. This would
+    predict the existence of a language in which only alternate syllables can have codas. Interest-
+    ingly, whether a syllable has a coda would be logically independent of whether the syllable is
+    stressed, since in a language with iambic feet, it would be the stressed syllable that would be
+    foot-ﬁnal and therefore codaless.
+ 8. Wiltshire (2003) points out that Leti requires phrase-ﬁnal syllables, but not syllables in other
+    positions, to be open. She accounts for this pattern with a constraint requiring phrase edges to
+    align with a vowel. Following the approach above, we could account for this by relativizing
+    the contiguity constraint to the phrase level.
+ 9. The Selayarese pattern is often described as requiring that codas must be placeless; in such
+    an account, the word-ﬁnal velar nasal is placeless at some level of analysis (Piggott 1999).
+
+
+
+
+          Brought to you by | SUNY Stony Brook University Libraries
+                                Authenticated
+                      Download Date | 9/25/14 11:22 PM
+                                                            Marginal phonology            167
+
+syllable contact constraint and the nasal agreement constraint to our repertoire
+therefore predicts two types of contrast asymmetries:
+
+(9)      Asymmetrical patterns: Wider range of manners at right edge (E)
+                   Inside Edge Language Ranking               Description
+          I⊂E      U         U,M Eastern        SyllContact edge: more
+          (manner) V.CV      V#     Ojibwa      >>F           contrasts
+                   VN.TV VC#                    >>Coda
+                   VS.TV                        Markedness
+(10)     Asymmetrical patterns: Wider range of places in interior Codas (I)
+                  Inside Edge Language Ranking                 Description
+          I ⊃ E U, M       U       Lardil      AgreePlace edge: fewer
+          (place) V.CV     Vn#                 >>Coda          contrasts
+                  VC.CV *Vm#                   Markedness
+                                               >>F
+
+   We may ﬁnd similar asymmetries with respect to constraints requiring agree-
+ment in voicing. For example, Catalan allows only voiced obstruents in coda,
+except that coda obstruents will agree in voicing with an immediately follow-
+ing voiced obstruent (Beckman 1998).
+   However, asymmetries induced by agreement constraints and syllable con-
+tact constraints do not exhaust the types of attested asymmetries. In Malay-
+alam, the only word-ﬁnal consonants are [m] and [n], but word-internal CC
+sequences may begin with other consonants (e.g., cuřuļmuţi ‘curly hair’ (Mo-
+hanan 1989)).10 This situation is reminiscent of the Diyari case, in which C ON -
+TIGUITY protects internal segments from the effects of markedness constraints.
+For Malayalam, we can assume that the relevant coda markedness constraint is
+the following:
+
+(11)      C ODA =NAS: Codas must be nasal.
+
+This constraint is obeyed in all positions in Manam, as discussed above, where
+it outranks all faithfulness constraints. The Malayalam asymmetrical pattern
+can be derived by ranking both the positional faithfulness C ONTIGUITY con-
+straint and the featural faithfulness constraint I DENT [NASAL ] above C ODA =
+NAS. For a medial coda, C ONTIGUITY rules out moving the nasal out of coda
+position, and I DENT [NAS ] prevents change to a non-nasal consonant:
+
+
+10. Mohanan uses this fact, among others, to argue that internal consonant sequences comprise
+    onsets (at surface level) in Malayalam. See Broselow, Chen, and Huffman (1997) for counter-
+    arguments, but see also Steriade (1999), who argues in favor of the onset analysis.
+
+
+
+
+                    Brought to you by | SUNY Stony Brook University Libraries
+                                          Authenticated
+                                Download Date | 9/25/14 11:22 PM
+168     Ellen Broselow
+
+(12)      Medial C protected
+                 /VlmV/      C ONTIG I DENT NAS C ODA =NAS M AX(C)
+          a. ☞ VlmV                                  *
+          b.     VnmV                    *!
+          c.     VmV            *!                            *
+
+C ONTIGUITY is irrelevant, however, to ﬁnal non-nasals, leaving them subject
+to deletion (or insertion of a following vowel):
+
+(13)      Final C unprotected
+                  /. . .Vl/   C ONTIG I DENT NAS C ODA =NAS M AX(C)
+           a.     . . .Vl                            *!
+           b.     . . .Vn                 *!
+           c. ☞ . . .V                                         *
+
+Thus, we can derive the wider/narrower contrast asymmetry from the rank-
+ing edge-speciﬁc faithfulness, featural faithfulness>>coda markedness, gen-
+eral faithfulness:
+
+(14)      Asymmetrical patterns: Wider range of manners in interior codas (I):
+                  Inside      Edge Language Ranking              Description
+          I⊃E     c. U, M U         Malayalam Contig,            edge: fewer
+          (manner) V.CV Vn#                     Ident[Nas]>> contrasts
+                     VC.CV *Vt#                 >>Coda
+                                                Markedness, F
+
+Just as C ONTIGUITY protects marked codas in internal positions, A NCHOR
+protects marked codas in ﬁnal position. Therefore we predict the existence of
+cases in which ﬁnal codas display a wider range of place and/or manner con-
+trasts than internal codas, resulting from the ranking of A NCHOR and I DENT
+constraints over coda markedness constraints. The next section discusses such
+a case.11
+
+
+
+11. An additional type of positional faithfulness, proposed by Beckman (1998), protects entire
+    syllables in privileged positions. Beckman discusses a number of cases in which initial on-
+    sets, nuclei, and codas of word-initial syllables show a wider range of segment types than is
+    seen in non-initial syllables. Thus, a constraint mandating faithfulness to word-initial sylla-
+    bles is one potential source of inventory asymmetries. Beckman does not propose a parallel
+    constraint protecting ﬁnal syllables, and indeed, it appears to be word-ﬁnal consonants, rather
+    than onsets or nuclei of word-ﬁnal syllables, that enjoy privileged status.
+
+
+
+
+          Brought to you by | SUNY Stony Brook University Libraries
+                                Authenticated
+                      Download Date | 9/25/14 11:22 PM
+                                                        Marginal phonology          169
+
+3. Case study in wider right edge contrast: Balantak
+
+Balantak, a member of the Saluan subgroup of Central Sulawesi languages of
+Indonesia, is of particular interest because it exempliﬁes another variable in
+edge/interior asymmetries: the location of wider contrast in Balantak is not the
+right edge of the word, but the right edge of the root.12 The Balantak case
+will therefore be useful in comparing the predictions of different approaches
+to edge protection, such as those that tie contrast to prosodic constituency or
+to the recoverability of perceptual cues in particular phonetic contexts. My dis-
+cussion of the phonotactics of Balantak relies mainly on the insightful accounts
+of Busenitz and Busenitz (1990, 1991) and Busenitz (1994), and on conﬁrma-
+tion of their descriptions by Hasan Basri after consultation with native speakers
+of Balantak.
+
+
+3.1. Balantak phonotactics
+
+Comparing the range of consonants that occurs prevocalically with those that
+occur word-ﬁnally in Balantak, we see that word-ﬁnal position is slightly more
+restrictive, disallowing voiced obstruents and glides:
+
+(15)     Balantak consonants
+         Prevocalic Word-ﬁnal
+         p, t, k, P13 p, t, k, P
+         b, d, g       (*b, d, g)
+         m, n, N       m, n, N
+         s, l, r, j, w s, l, r (*j, w)
+
+The set of consonants allowed in morpheme-internal codas, however, is much
+smaller. Morpheme-internally, all CC sequences consist of a nasal followed by
+a homorganic obstruent:
+
+(16)     Morpheme-internal: Homorganic nasal-obstruent
+         gampal ‘underlayer’
+         lense   ‘empty’
+         pintuN  ‘dark’
+         uNgak   ‘hornbill bird’
+
+
+
+12. Himmelmann (1991) makes the same claim for another Central Sulawesi language, Totoli,
+    which is a member of the Tomini-Tolitoli subgroup.
+13. Glottal stop occurs intervocalically but not word-initially.
+
+
+
+
+                  Brought to you by | SUNY Stony Brook University Libraries
+                                        Authenticated
+                              Download Date | 9/25/14 11:22 PM
+170    Ellen Broselow
+
+Arguing against an analysis of these nasal-obstruent sequences as single seg-
+ments, Busenitz and Busenitz (1991: 31) claim that “the syllable break falls
+between the two consonants.”
+   CC sequences across preﬁx-stem boundaries are also restricted to homor-
+ganic nasal-obstruent, a restriction supported by alternations. A nonhomor-
+ganic nasal-obstruent sequence is repaired by place assimilation of the nasal,
+as in (17):
+
+(17)     Preﬁx-root: Nasal-obstruent input
+         /piN+osoP/      [piN+osoP]        ‘wash hands (imperative)’
+         /niN+borek/     [nimborek]        ‘lied’
+         /saN+kau/       [saNkau]          ‘one tree’
+         /miN+sapit/     [minsapit]        ‘hidden’
+         /saN+taaP/      [santaaP]         ‘one word’
+         /toN+giok/      [toNgiok]         ‘unintentionally move’
+
+When the preﬁxal nasal is followed by a sonorant, either the nasal is deleted, as
+in (18a), or a vowel is inserted between the nasal and the sonorant, as in (18b):
+
+(18)     Preﬁx-root: Nasal-sonorant input
+         a. Nasal deleted
+             /saN+wuras/      [sawuras]            ‘one seed’
+             /saN+loloon/     [saloloon]           ‘one thousand’
+             /miN+noa/        [minoa]              ‘to breathe’
+                                                   (B&B: ‘to breath’)
+         b.   Vowel inserted
+              /mVN+roNor/    [moNoroNor]           ‘to hear’
+              /mVN+juNgot/ [muNujuNgot]            ‘to shake’
+
+The choice of consonant deletion vs. vowel insertion depends on whether the
+preﬁxal vowel is ﬁxed or is a copy of the stem vowel; insertion of a copy vowel
+is tolerated if vowel copy is independently required to ﬁll in the vocalic portion
+of the preﬁx (see Pater 2002 for an analysis of these facts).
+   A third type of problematic CC sequence involves a preﬁx-ﬁnal glottal stop
+followed by any consonant. In this case, the glottal stop is deleted:
+
+(19)     Preﬁx-root: Glottal stop-consonant input
+         /moP+aleP/       [moPaleP]       ‘to garden’
+         /moP+tokol/      [motokol]       ‘to lie down’
+
+   When we turn our attention to root-sufﬁx combinations, however, we ﬁnd
+a signiﬁcantly wider range of freedom in the ﬁrst member of a CC sequence.
+In fact, any consonant, with the exception of voiced obstruents or glides, is
+
+
+
+
+         Brought to you by | SUNY Stony Brook University Libraries
+                               Authenticated
+                     Download Date | 9/25/14 11:22 PM
+                                                     Marginal phonology         171
+
+possible in root-ﬁnal position, regardless of the following context; the only
+prohibition is against two identical consonants:
+
+(20)     Root-sufﬁx
+         a. Nasal-ﬁnal roots
+             /laigan+ku/     [laiganku]            ‘my house’
+             /wuruN+ta/      [wuruNta]             ‘our (inclusive) language’
+             /laigan+mai/    [laiganmai]           ‘our house’
+         b. Other C-ﬁnal stems
+             /nuur+ku/       [nuurku]              ‘my coconut’
+             /siok+ta/       [siokta]              ‘our (inclusive) chicken’
+             /bantil+kon/    [bantilkon]           ‘inform (benefactive)’
+         c. Identical consonants
+             /susum+muu/ [susumuu]                 ‘your (plural) ﬁsh’
+             /dampas+si/     [dampasi]             ‘(will be) free later’
+
+The pronunciation of the sequences in (20a, b) is not conﬁned to careful speech,
+according to Busenitz and Busenitz (conﬁrmed by Hasan Basri in interviews
+with native speakers):
+
+   Note that with these [consonant-initial] sufﬁxes, sequences other than nasal-
+   obstruent consonants occur across morpheme boundaries. Where nasal and non-
+   homorganic sequences do occur, no assimilation has been noted in normal
+   speech. (Busenitz and Busenitz 1991: 42)
+
+In sum, then, we ﬁnd an asymmetric distribution of possible contrasts in differ-
+ent positions:
+
+(21)     Summary
+         a. Morpheme-internal codas: Nasal sharing place with following
+            obstruent.
+            Codas in preﬁx: Nasal sharing place with following obstruent.
+         b. Root-ﬁnal codas (word-ﬁnal or not): Any consonant other than
+            voiced stops or glides (except no identical adjacent Cs).
+
+Because both word-ﬁnal and root-ﬁnal positions harbor a wider range of con-
+trasts than are found elsewhere, Balantak provides a test case for distinguishing
+the typological efﬁcacy of different accounts of right edge markedness.
+
+
+3.2. Analysis
+
+To account for Balantak phonotactics, we ﬁrst require markedness constraints
+on coda position:
+
+
+
+
+                 Brought to you by | SUNY Stony Brook University Libraries
+                                       Authenticated
+                             Download Date | 9/25/14 11:22 PM
+172     Ellen Broselow
+
+(22)      Coda Constraints
+          a. N O C ODA [VOI O BS ]: Codas must not contain voiced obstruents.
+          b. N O C ODA [G LIDE ]: Codas must not contain glides.
+          c. C ODA = NAS: Codas must be nasal.
+          d. N O C ODA P LACE: Codas must not have independent place.
+
+The ﬁrst two are undominated, but the constraints against non-nasal codas and
+codas with independent place are violated in root-ﬁnal position. I assume that
+consonants are protected at right root edges by an Anchor constraint, ranked
+among the coda markedness constraints; this constraint refers speciﬁcally to
+the right edge of the root, requiring the root-ﬁnal segment to be syllable-ﬁnal
+as well:
+
+(23)      A NCHOR -R ROOT, SYLL: The right edge of the root must coincide
+          with the right edge of a syllable.
+          N O C ODA [VOI O BS ], N O C ODA [G LIDE ] >> A NCHOR
+          >> C ODA =NAS , N O C ODA P L
+
+3.2.1. Failure of place assimilation in stem-ﬁnal position. A NCHOR is ir-
+relevant to morpheme-internal and preﬁx-ﬁnal codas, which are restricted to
+nasals sharing place with the following consonant:
+
+(24)      Hypothetical root /saNtaaP/ or (actual) preﬁx + root:
+           /saN+taaP/             A NCHOR-R MAX-C               NO                       I DENT
+           ‘one word’               root, σ                  C ODA                       P LACE
+                                                             P LACE
+           a.     saN. t aaP                                    *!
+
+                      vel cor
+            b. ☞      san.taaP14                                                             *
+
+                        cor
+            c.        san. taaP                                                *!            *
+
+                       cor cor
+            d.        sa taaP                                    *!
+
+
+
+14. This form will tie with [saNkaaP], while can be ruled out either by positional faithfulness
+    (faithfulness to onset) or by stem faithfulness; see also Wilson (2001) for a targeted constraint
+    approach to a similar problem in Diola-Fogny.
+
+
+
+
+           Brought to you by | SUNY Stony Brook University Libraries
+                                 Authenticated
+                       Download Date | 9/25/14 11:22 PM
+                                                            Marginal phonology            173
+
+A NCHOR will crucially protect root-ﬁnal nasals from deletion, or from inser-
+tion of a following vowel. If we also assume that A NCHOR enforces crisp align-
+ment, in which association with the relevant syllable must be exclusive (Ito and
+Mester 1995), this constraint will also prevent the nasal from sharing the place
+features of the following consonant (25b, d):15
+
+(25)     root + sufﬁx:
+          /wuruN+ta/            A NCHOR -R MAX-C N O I DENT P LACE
+          ‘our (incl.) language’ (C RISP)        C ODA
+                                   ROOT,        P LACE
+                                          SYLL
+          a. ☞ wuruN. ta                                              *
+
+                    vel cor
+          b.     wuru n.t a                 *!                                      *
+
+                     cor
+          c.     wurun. ta                                            *             *!
+
+                    cor cor
+          d.     wuruN. ka                  *!
+
+                      vel
+          e.     wuru. ta                   *!             *
+
+Even if the nasal changes its place features to match the place of the following
+consonant, as in (25c), it still violates the constraint that forbids a nasal from
+being sole owner of any place feature, and therefore the most faithful candidate,
+(25a), wins.
+
+
+3.2.2. Tolerance of nonnasal consonants in root-ﬁnal position. The next
+fact to account for is the occurrence of nonnasal consonants in root-ﬁnal po-
+sition, since elsewhere, the only possible CC sequences are nasal-obstruent. If
+I DENT[NAS] outranks CODA=NAS and DEP, MAX, preconsonantal nonnasal
+consonants inside a morpheme will be deleted or will have a vowel inserted af-
+ter them:
+
+
+
+15. But see Bakovic and Keer (2000) for arguments that crisp alignment predicts unattested con-
+    trasts in syllabiﬁcation.
+
+
+
+
+                    Brought to you by | SUNY Stony Brook University Libraries
+                                          Authenticated
+                                Download Date | 9/25/14 11:22 PM
+174       Ellen Broselow
+
+(26)       Hypothetical root
+/gasta/           A NCHOR-R ID[ NAS ] C ODA= D EP, N O C ODA I D [P LACE ]
+                     ROOT,              NAS M AX [P LACE]
+                      SYLL
+a.   gasta                                     *!                *
+b. ☞ gata,                                              *
+     gasata
+c.   ganta                          *!                           *
+
+But a root-ﬁnal nonnasal (whether word-ﬁnal or before a consonant-initial suf-
+ﬁx) will be protected from deletion or vowel insertion by A NCHOR, and from
+nasalization by I DENT[NAS], leaving retention of the ﬁnal consonant as the
+best option:
+(27)
+/wuras/ ‘seed’ A NCHOR-R ID[ NAS ] C ODA= D EP, N O C ODA I D [P LACE ]
+                  ROOT,              NAS M AX [P LACE]
+                      SYLL
+a. ☞ wuras                                     *                 *
+b.   wura,              *!                              *
+     wurasa
+c.   wuran                          *!                           *
+
+
+
+3.2.3. Tolerance of nasal-sonorant across root-sufﬁx boundary. A further
+oddity of root-ﬁnal consonants is that they may be followed by a sonorant,
+whereas elsewhere nasals may be followed only by obstruent consonants.
+Again, the proper ranking of A NCHOR and faithfulness constraints with re-
+spect to the relevant markedness constraint will serve to shut off avenues to
+change for a root-ﬁnal nasal, though not to nasals in other positions:
+(28)       Hypothetical root
+            /sanlon/       A NCHOR-R I DENT [ SON ] *NAS - SON M AX(C)
+                              ROOT,
+                                SYLL
+            a.   saN.lon                                          *!
+            b. ☞ salon                                                 *
+
+
+
+
+           Brought to you by | SUNY Stony Brook University Libraries
+                                 Authenticated
+                       Download Date | 9/25/14 11:22 PM
+                                                     Marginal phonology          175
+
+(29)    Preﬁx + root
+         /saN+loloon/            A NCHOR-R I DENT *NAS - SON M AX(C)
+         ‘one thousand’             ROOT,  [ SON ]
+                                     SYLL
+          a.   saNloloon                                       *!
+          b. ☞ saloloon                                                      *
+(30)    Root + sufﬁx
+         /laigan+mai/            A NCHOR-R I DENT *NAS - SON M AX(C)
+         ‘our house’                ROOT,  [ SON ]
+                                     SYLL
+          a. ☞ laigan mai                                      *
+          b.   laigamai               *!
+          c.   laiganbai                           *!
+
+3.2.4. Tolerance of ﬁnal nasals in sufﬁxes. The rankings developed above
+serve to protect root-ﬁnal place and manner contrasts, while narrowing down
+codas within a morpheme and at the right edge of a preﬁx to nasals lacking
+independent place speciﬁcation. However, we do ﬁnd place contrasts among
+word-ﬁnal nasals; the Balantak inventory includes sufﬁxes ending in both [n]
+and [m], violating NOCODAPLACE. However, if DEP and MAX are ranked
+above NOCODAPLACE, a nasal in absolute ﬁnal position has no option but
+to have an independent place speciﬁcation, assuming that a placeless nasal is
+unpronounceable. Thus, the best option is to keep the original speciﬁcation of
+the sufﬁx nasal:
+
+(31)    Root+sufﬁx
+        /tatapi+kon/        A NCHOR-R C ODA D EP(V), N O C ODA I DENT
+        ‘wash, benefactive’    ROOT,  =NAS M AX(C) P LACE P LACE
+                                  SYLL
+         a. ☞ tatapikon                                              *
+         b.   tatapiko,                                  *!
+              tatapikono
+         c.   tatapikoN                                              *           *!
+
+
+3.3. Summary
+
+We have seen that the wider range of contrasts in stem-ﬁnal consonants can
+be described as an effect of the ranking of Anchor constraints with other con-
+straints. A stem-ﬁnal consonant is protected from deletion, from vowel inser-
+tion, and from assimilation via place-sharing by high-ranked A NCHOR. Be-
+
+
+
+
+                 Brought to you by | SUNY Stony Brook University Libraries
+                                       Authenticated
+                             Download Date | 9/25/14 11:22 PM
+176    Ellen Broselow
+
+cause all coda place is prohibited, there is no advantage to changing the place
+of root-ﬁnal consonants, and change of manner is prohibited by high-ranking
+manner identity constraints. Consonants in preﬁxes and within morphemes are
+not so protected, and markedness constraints therefore restrict codas in posi-
+tions other than root-ﬁnal to nasals sharing place with a following obstruent.
+We should note that the greater range of contrasts in root-ﬁnal vs. preﬁx-ﬁnal
+consonants could not be derived via the ranking ROOT FAITH >> A FFIX FAITH,
+since it is only segments at the edge of the root that are privileged: codas within
+the root are subject to the same stringent constraints as preﬁxal codas.
+   Because A NCHOR is a constraint ranked among other constraints, it need not
+protect all possible consonants at right edge. Indeed, it must be ranked below
+the constraints banning ﬁnal voiced obstruent codas (there are no roots like hy-
+pothetical [*wurad, *wuraw]) and sequences of identical obstruents. Similarly,
+because a root-ﬁnal consonant forms an onset to a following vowel, A NCHOR
+must be ranked above DEP(C) to prevent the realization of /CVC+V/ as the
+well-aligned but unfaithful [CVC.CV].
+   The A NCHOR constraint therefore provides an account of the rather complex
+phonotactic patterns of Balantak, including the greater freedom at the right
+edge of stems. In the following section I outline alternative approaches, and
+consider how they fare in describing the range of possible edge/internal asym-
+metries.
+
+
+4. Alternative approaches: The nature of edge protection
+
+To this point I have developed an account of edge/interior asymmetries in Bal-
+antak that relies on an Anchor constraint to prevent right edge segments from
+being moved out of edge position. However, this is but one of many ways to
+account for right edge freedom. In this section I will compare various proposals
+and try to tease apart their differences, particularly with respect to typological
+predictions. We can identify three major classes of approaches:
+   (i) Positional Faithfulness Approaches: The Anchor approach outlined above
+confers immunity to otherwise general markedness constraints on segments at
+edges. This immunity to markedness appears to be a property of ﬁnal segments,
+not of ﬁnal syllables, since the onsets and nuclei of word-ﬁnal segments do
+not appear to enjoy special privileges (in contrast, Beckman 1998 argues that
+we often ﬁnd greater possibilities for contrast in all members of word-initial
+syllables). Non-OT positional faithfulness approaches are also possible, such
+as the ‘remote licensing’ of Piggott (1999) which allows prosodic word edges
+to license segments that violate general restrictions on coda position.
+   (ii) Representational approaches: These approaches assume representations
+that put ﬁnal consonants outside the province of general coda constraints. Final
+
+
+
+
+         Brought to you by | SUNY Stony Brook University Libraries
+                               Authenticated
+                     Download Date | 9/25/14 11:22 PM
+                                                      Marginal phonology       177
+
+consonants have variously been analyzed as onsets to following (phonetically
+unrealized) vowels (Kaye, Lowenstamm and Vergnaud 1990, Goad and Bran-
+nen in press, etc.); as outside the prosodic structure entirely, at least at pre-
+surface levels (as in, e.g., Ito 1986); as attached directly to higher constituents
+such as the prosodic word (Steriade 1982, Hung 1994, Rubach and Booij 1990,
+among others); or as members of syllable appendices or minor syllables (Mc-
+Carthy 1979, Bye and de Lacy 2000, among others).
+   (iii) Perceptual Cue Approaches: A third approach to right edge freedom is
+to give up the assumption that phonotactic restrictions have their source in ab-
+stract prosodic structure. On this account, phonotactic patterns reﬂect the fact
+that contrasts are more likely to be found in contexts in which they are most
+perceptible: the cues for consonantal contrasts are more salient before a vowel
+or resonant consonant than before an obstruent (Steriade 1999, Blevins 2003).
+Thus, what has traditionally been labelled onset position (prevocalic or preres-
+onant) is simply the position where consonantal contrasts are most likely to be
+perceived; what has traditionally been labelled coda position (preconsonantal)
+is the position where cues to contrast are obscured. The asymmetry between in-
+terior coda position and word-ﬁnal position is therefore not a problem for this
+account– rather, it is expected, because phonetic cues are presumably more
+easily recovered in ﬁnal position than before a following consonant.
+   The Balantak case is potentially a good one for teasing apart the different
+analyses of right edge freedom. First, because the range of stem-ﬁnal conso-
+nants in Balantak is more restricted than the range of onsets (voiced obstruents
+and glides occur only prevocalically), the hypothesis that ﬁnal consonants are
+onsets to unrealized vowels is not a good ﬁt for this case (see Piggott 1999
+for similar arguments for some other languages). Second, because the location
+of greater freedom in Balantak is the edge of a morphosyntactic constituent,
+rather than a prosodic constituent, this case is difﬁcult for accounts that link
+freedom to the edges of prosodic words. Furthermore, because a wide range
+of contrasts in Balantak are licensed at the end of a stem, regardless of pho-
+netic context, this case does not lend itself to a pure perceptual cue licensing
+approach. In the following sections I will compare the different approaches
+to edge/interior asymmetries in terms of their predictions concerning the loca-
+tion and type of contrasts. I will also consider predictions beyond phonotactics,
+such as the sorts of grammar they presuppose (for example, grammars involv-
+ing abstract representations or more than two levels of representation), and the
+functional motivation for particular types of position-sensitive constraints.
+
+
+
+
+                  Brought to you by | SUNY Stony Brook University Libraries
+                                        Authenticated
+                              Download Date | 9/25/14 11:22 PM
+178     Ellen Broselow
+
+4.1. Location of protected contrasts
+
+Free ranking of markedness, faithfulness, and position-speciﬁc faithfulness
+Anchor constraints predicts the possibility of languages allowing a greater
+range of contrast at the edges of words or stems than are permitted in word-
+internal codas (Kamaiurá, Balantak). Similarly, the position-speciﬁc C ONTI -
+GUITY constraint predicts the possibility of a greater range of contrasts in in-
+ternal codas (Diyari, Malayalam). In this section I compare the Anchor account
+with alternative approaches to edge/interior asymmetries.
+
+
+4.1.1. Licensing by prosodic word and location of contrast. Perhaps the
+most prevalent representational analysis of right edge freedom assumes that
+ﬁnal consonants may be licensed not only by the syllable, but also by some
+higher level prosodic constituent (Steriade 1982, Hung 1994, McCarthy 2002,
+and many others):
+
+(32)     Prosodic word attachment
+         Prosodic word
+
+                σ
+
+                V        C
+
+This analysis leads us to expect a greater range of freedom at the edges of
+prosodic constituents, but not inside prosodic constituents. The CVCCV pat-
+tern instantiated in Diyari, Thargari, Pitjantjatjara, PittaPitta, Telugu, and Ital-
+ian will therefore require some alternative explanation. Furthermore, because
+it is higher prosodic structure that licenses edge segments, we should not ex-
+pect to ﬁnd greater contrast at the edges of morphosyntactic constituents such
+as stem. In contrast, accounts based on alignment and anchor constraints may
+refer to the edges of both morphosyntactic and prosodic constituents. Thus,
+because the location of greatest freedom in Balantak is the edge of the stem,
+not the prosodic word, this case appears problematic for the PWd licensing ac-
+count, unless it can be demonstrated that the edge of the stem is also the edge
+of the prosodic word. I will now consider (and reject) that possibility.
+   The ﬁrst question to ask is whether the edge of a stem in Balantak is neces-
+sarily coterminous with the edge of a prosodic constituent. An obvious place to
+look for evidence in favor of this hypothesis is the stress system; if we ﬁnd that
+sufﬁxes fall outside the domain of stress, while preﬁxes fall inside the stress
+domain, we could reasonably conclude that the unit preﬁx+stem constitutes a
+prosodic word.
+
+
+
+
+         Brought to you by | SUNY Stony Brook University Libraries
+                               Authenticated
+                     Download Date | 9/25/14 11:22 PM
+                                                      Marginal phonology      179
+
+   In fact, the stress facts argue for the opposite conclusion. Balantak stress is
+quite regular. In single morphemes the penultimate syllable bears stress, with
+a secondary stress falling on each alternate syllable to the left of the penult.
+Sufﬁxes fall inside the stress domain, as in (33b):
+
+(33)     Penultimate stress
+         a. Single morphemes
+             wúruN                      ‘language’
+             líNkoN                     ‘fern’
+             bakókoP                    ‘machete’
+             kaPápu                     ‘cook’
+             mòroPóne                   ‘male’
+             bòlusúkon                  ‘durian’
+         b. Stem+Sufﬁx
+             wurúN+ta                   ‘our (incl.) language’
+             kaan+ón+ku                 ‘eaten by me’
+
+In contrast, a single preﬁx receives stress, even when it falls directly before
+the main stressed syllable, leading to contrasts between monomorphemes and
+preﬁx plus stem combinations:
+
+(34)     Preﬁxal Stress
+         σ+σσ
+         nìm+béla            ‘wounded’
+         vs. monomorphemes bakókoP ‘machete’; wurúN+ta ‘our (incl.) lan-
+         guage’
+
+With a sequence of preﬁxes, secondary stress falls on the penultimate syllable
+counting from the rightmost preﬁx (vowel sequences, Busenitz and Busenitz
+(1991: 31) argue, are heterosyllabic). Preﬁxal stress may interfere with the gen-
+eral pattern of alternating stress, producing both clashes and lapses:
+
+(35)     Preﬁx sequences
+         a. σ+σ+σσσ
+             nò+ton+tokúi           ‘castrated’ (*notòntokúi)
+         b. σ+σ+σσ+σ
+             màm+pa+paté+i          ‘to try to get’ (*mampàpatéi)
+
+As Busenitz and Busenitz (1991: 30–31) point out, these facts suggest that pre-
+ﬁxes deﬁne a prosodic word domain: ”On verbal forms, a single preﬁx, or a
+combination of preﬁxes together, function, for stress purposes, as independent
+– but more weakly stressed – PW’s.” Therefore, if we expect to ﬁnd greater
+freedom of contrast at any point, it would be the right edge of the preﬁx, rather
+
+
+
+
+                  Brought to you by | SUNY Stony Brook University Libraries
+                                        Authenticated
+                              Download Date | 9/25/14 11:22 PM
+180     Ellen Broselow
+
+than the right edge of the stem. Busenitz and Busenitz explicitly note the dis-
+crepancy between the phonotactics and the stress facts:
+
+   In the matter of stress, preﬁxes rather than sufﬁxes, function more like words;
+   however, we will note in the discussion of morphophonemics below that pre-
+   ﬁxes have phonotactic restrictions similar to those found intramorphemically
+   while (some) sufﬁxes exhibit features like those found across word boundaries.
+   (Busenitz and Busenitz (1991: 45, Note 5))
+
+This discrepancy is a problem for accounts that attempt to tie phonotactic gen-
+eralizations to prosodic constituency, as well as for stratal accounts allowing
+different rankings at different levels. In a stratal analysis we might assume a
+grammar of the following sort, in which markedness is enforced in Level 1
+(with CodaMarkedness as a cover term for constraints determining possible
+coda consonants) but overridden in Level 2 by higher ranked faithfulness con-
+straints:16
+
+(36)     Stratal analysis
+         Level 1: Stems, and Stems with Preﬁxes
+                     CodaMarkedness >> Faith
+         Level 2: Sufﬁxes
+                     Faith >> CodaMarkedness
+While it would be possible in such an account to assign preﬁx stress at Level
+1 and stress to stem+sufﬁx(es) at Level 2, this would leave the phonotactics as
+the sole argument for these levels. Thus, the Balantak facts are problematic for
+accounts that link edge asymmetries solely to prosodic structure.
+
+4.1.2. Perceptual cue licensing and location of contrast. The perceptual cue
+approach predicts greater contrast in positions in which the phonetic context
+makes cues to contrast most recoverable. One of the most attractive features of
+this approach is that it ties the expression of particular contrasts to the positions
+in which they will be most salient. It includes a hierarchy of positions that favor
+the realization of consonantal contrasts whose cues lie mainly in their release:
+the most favorable position is prevocalic, followed by pre-resonant consonant,
+followed by word-ﬁnal. Such contrasts are least likely to be maintained pre-
+ceding an obstruent. However, while most positions are characterized by their
+phonetic context, word-ﬁnal position is not: in fact, word-ﬁnal consonants may
+well be followed by obstruents in connected speech. Therefore, cue licensing
+must admit grammatical factors as well as phonetic factors.
+
+
+16. I am grateful to Ricardo Bermúdez-Otero for suggesting this analysis to me.
+
+
+
+
+          Brought to you by | SUNY Stony Brook University Libraries
+                                Authenticated
+                      Download Date | 9/25/14 11:22 PM
+                                                               Marginal phonology              181
+
+   The CVCCV pattern of Diyari and other languages is problematic for the
+cue licensing approach. And the Balantak case is clearly incompatible with
+an account that relies solely on phonetic context, because stem-ﬁnal conso-
+nants occur in precisely the same phonetic contexts as the more restricted set
+of morpheme-internal consonants. This is in fact simply a more obvious mani-
+festation of the problem of word-ﬁnal consonants, and suggests that the main-
+tenance of contrast may be phonologized, with grammatical context playing a
+role alongside phonetic context.
+   It is indeed possible to protect stem-ﬁnal consonants in a perceptual cue
+licensing analysis of Balantak, by means of high-ranked Output-Output con-
+straints that demand correspondence between the sufﬁxed and nonsufﬁxed
+forms. Thus, we could assume that stem-ﬁnal consonants, even those followed
+by a sufﬁxal consonant, are privileged by their correspondence to forms in
+which the stem-ﬁnal consonant occurs in word-ﬁnal position:
+
+(37)      /wuruN+ta/
+           base: [wuruN]              I DENT   O-O N O C ODA P LACE I DENT
+                                     Place/_V [place]               PL ACE
+           a. ☞ wuruNta                                    *
+           b.   wurunta                         *!                     *
+           c.   wuruN-ka                 *!                            *
+
+However, once reference to grammatical structure is built in to the perceptual
+cue approach, it becomes difﬁcult to distinguish this from the Anchor approach
+in terms of empirical coverage of phonotactic distributions.17
+   The functional motivation of the perceptual cue licensing approach is quite
+clear: segments are sequenced in ways that facilitate recoverability of segmen-
+tal contrast. The Anchor approach, in contrast, can be understood as responding
+to a different functional motivation: segments are sequenced in ways that facili-
+tate identiﬁcation of word and/or morpheme boundaries. Balantak listeners, for
+example, should readily identify a kt sequence as not only necessarily hetero-
+morphemic, but as necessarily spanning either two words, or a stem plus sufﬁx
+(see McQueen 1998 for evidence that listeners make use of this sort of knowl-
+edge in parsing continuous speech). Both factors (the need to recover both seg-
+mental and morphological information) undoubtedly play a role in language,
+and the ideal model must reﬂect both.
+
+
+17. One possible empirical difference is that the perceptual cue approach requires that the stem be
+    able to occur in absolute ﬁnal position, unsufﬁxed (that is, in a position in which the cues for
+    the ﬁnal consonant are recoverable). This prediction is not shared by the Anchor approach,
+    which requires only that the stem edge coincide with a syllable edge. Unfortunately, I did not
+    have access to sufﬁcient data to test this hypothesis.
+
+
+
+
+                     Brought to you by | SUNY Stony Brook University Libraries
+                                           Authenticated
+                                 Download Date | 9/25/14 11:22 PM
+182     Ellen Broselow
+
+4.2. Types of protected contrasts
+
+4.2.1. Featural faithfulness vs. segmental faithfulness. The typology devel-
+oped in Sections 2 and 3 includes a wide range of possible edge/interior asym-
+metries. The obvious question to ask is whether there is any pattern that is not
+predicted by the ranking of A NCHOR /C ONTIGUITY with respect to general
+markedness and faithfulness constraints.
+   It is important to note ﬁrst of all that we have been assuming a speciﬁc type
+of positional faithfulness, one which demands that a segment at some input po-
+sition have a correspondent at some output position. These constraints alone do
+not specify whether particular features of these correspondents must be iden-
+tical. However, additional sorts of positional faithfulness are possible: speciﬁ-
+cally, I DENTITY constraints demanding faithful realization of a particular fea-
+ture in a particular position. As Steriade (1999) points out, such constraints
+may make unfortunate predictions. For example, if a language has the familiar
+M>>F pattern, where the markedness constraint bans [+aspirated] segments,
+then aspiration contrasts will be suppressed in all positions. However, if we al-
+low edge-speciﬁc featural faithfulness constraints such as I DENT [ ASP ]( RIGHT
+EDGE ), free ranking of this constraint predicts languages in which an aspiration
+contrast is possible only at the right edge. This counterintuitive pattern would
+arise from the familiar asymmetry ranking of (position-speciﬁc)F>>M>>F:
+
+(38)     Final aspiration with EdgeFaith
+                  /ph okh oth /     I DENT [ ASP ]-       *[ASP]      I DENT [ ASP ]
+                                     R IGHT E DGE
+          a.      ph okh oth                                **!*
+          b. ☞ pokoth                                        *            **
+          c.      pokot                   *!                              ***
+
+Thus, allowing edge faithfulness constraints that refer to speciﬁc features pre-
+dicts that edges may exhibit a contrast that is suppressed in all other positions,
+both onsets and codas. In contrast, as Steriade points out, the perceptual cue
+approach would explicitly connect the nature of a contrast with the positions
+in which it is most salient, disallowing aspiration contrasts in ﬁnal position
+unless such contrasts are also attested in positions where the contrast is more
+recoverable.
+   This is indeed a compelling argument. However, note that the typology de-
+veloped above, which includes anchor and contiguity constraints but no pos-
+ition-speciﬁc identity constraints, avoids this type of overgeneration. Anchor
+constraints cannot by themselves protect edge segments from general segment
+markedness considerations: A NCHOR does not care whether a segment is aspi-
+rated or unaspirated, just so long as it is present at the right edge. If *[ ASP ] is
+
+
+
+
+          Brought to you by | SUNY Stony Brook University Libraries
+                                Authenticated
+                      Download Date | 9/25/14 11:22 PM
+                                                            Marginal phonology            183
+
+ranked above I DENT [ ASP ], aspirated segments will not surface, regardless of
+the ranking of A NCHOR:
+
+(39)     Final aspiration with A NCHOR
+                  /ph okh oth / A NCHOR -R STEM,                 *[ASP]      I DENT [ ASP ]
+                                              SYLL
+           a.        ph okh oth                                   *!**
+           b.        pokoth                                        *!             **
+           c. ☞      pokot                                                        ***
+           d.        poko                       *!                                **
+
+Thus, it is impossible to protect a contrast at right edge that is suppressed in
+all other positions, both onset and coda, so long as we avoid constraints that
+demand featural identity at edges.18
+
+
+4.3. Predictions beyond phonotactics
+
+4.3.1. The nature of representations. The different approaches to account-
+ing for edge/interior asymmetries are embedded in particular models of the
+grammar which potentially have far-ranging consequences beyond the area of
+phonotactics. For example, the assumption that ﬁnal consonants are onsets en-
+tails fairly abstract surface representations containing unpronounced segments.
+The assumption that ﬁnal consonants are extraprosodic relies on multiple lev-
+els of representation, assuming that pronounced segments must at some level
+be incorporated into prosodic structure. Both these accounts are incompatible
+with models like standard OT, which assumes only two levels of representation:
+inputs and surface representations that hug the phonetic ground fairly closely.
+   Analyses in which ﬁnal consonants may attach directly to the prosodic word
+also make a fairly strong prediction about possible representations: they make
+possible a contrast between consonants contained within a syllable and extra-
+syllabic consonants. For example, a word-ﬁnal consonant in a language like
+English would presumably be contained in a syllable coda, while a word-ﬁnal
+consonant in Kamaiurá, which has no word-internal codas, would be extrasyl-
+labic. Independent evidence for a contrast between coda consonants and extra-
+syllabic word-ﬁnal consonants (that is, independent of phonotactics) is hard to
+come by (though see Piggott 1999, Goad and Brannen in press).
+
+
+
+18. See Prince and Tesar (1999) and Zoll (1998) for discussion of other potentially problematic
+    aspects of featural positional faithfulness constraints.
+
+
+
+
+                    Brought to you by | SUNY Stony Brook University Libraries
+                                          Authenticated
+                                Download Date | 9/25/14 11:22 PM
+184    Ellen Broselow
+
+   One potential independent argument for extrasyllabicity comes from lan-
+guages in which ﬁnal consonants are weightless. Thus, word-ﬁnal consonants
+in Egyptian Arabic do not count for the purposes of stress assignment, and be-
+cause Egyptian Arabic also allows two consonants at the right edge of a phrase,
+but not in phrase-internal codas, we might conclude that these two facts are a
+reﬂection of the same phenomenon, the extrasyllabicity of right edge conso-
+nants. However, right edge freedom and lack of ﬁnal consonant weight are not
+necessarily correlated. Levantine Arabic dialects, for example, allow no con-
+sonant sequences at right edge, but still assign no independent weight to ﬁnal
+consonants (Broselow, Chen, and Huffman 1997). Therefore, the existence of
+ﬁnal weightless consonants does not necessarily argue for extraprosodicity.
+   A potentially compelling argument for extraprosodicity, however, involves
+contrasts that we have not considered, in which the number of consonants at
+word edges exceeds the number of consonants permitted in internal syllable
+margins (as in English, Hammond 1999). In representational analyses, these
+‘extra’ consonants may be extraprosodic or occupy degenerate syllables or ap-
+pendices. A positional faithfulness approach can account for ‘extra’ consonants
+that arise as a result of sufﬁxation (through a combination of positional faithful-
+ness constraints and morpheme realization constraints), but monomorphemic
+cases are more difﬁcult. Any complete analysis of edge/interior asymmetries
+will need to take these cases into account, though they are beyond the scope
+of this paper. I now turn to areas beyond phonotactics, which may, I argue,
+provide arguments for the positional faithfulness approach.
+
+4.3.2. Inﬁxation. In this section I consider a particular pattern of afﬁxation,
+illustrated by Kamaiurá, in which the reduplicant appears as a sufﬁx after a
+vowel-ﬁnal stem and as an inﬁx before a stem-ﬁnal consonant:
+
+(40)     Kamaiurá PreFinalC pattern
+         (Everett and Seki 1986, McCarthy and Prince 1993b):
+         a. ohuka           ohuka-huka        ‘he laughed/he kept laughing’
+         b. apot            apo-apo-t         ‘I jump/I jump repeatedly’
+                            (*apot-apot)
+
+Because Kamaiurá is a also a language which allows codas only in word-ﬁnal
+position, it is tempting to ascribe both these facts to the same cause: ﬁnal con-
+sonants are outside the core prosodic structure. These facts would then con-
+stitute evidence for an extrasyllabic analysis of ﬁnal consonants. However, as
+McCarthy and Prince (1993a) have pointed out, we would expect ﬁnal con-
+sonant extraprosodicity to hold across all processes of the language; thus, all
+sufﬁxes should manifest the PreFinalC pattern. But in fact, ﬁnal consonants
+in a language may typically function as extraprosodic for some sufﬁxes and
+
+
+
+
+         Brought to you by | SUNY Stony Brook University Libraries
+                               Authenticated
+                     Download Date | 9/25/14 11:22 PM
+                                                     Marginal phonology      185
+
+some processes but not for others. Nor is there a necessary correlation between
+placement of an afﬁx before the ﬁnal consonant and greater range of contrasts
+at the right edge (Chamorro, for example, has the ﬁrst but not the second).
+   McCarthy and Prince (1993a, b) analyze the PreFinalC pattern as an effect of
+the ranking of phonological markedness constraints above constraints on mor-
+pheme position, such as R IGHTMOST, which requires the reduplicative afﬁx to
+be realized at the right edge of the word:
+
+(41)     Inﬁxation as Markedness >> Edgemost (McCarthy and Prince 1993)
+                  /ohuka+RED/                 N O C ODA R IGHTMOST
+           a. ☞ ohuka-huka
+           b.     ohuk-huk-a                      *!           *
+                  /apot+RED/
+           c.     apot-apot                      **!
+           d. ☞ apo-apo-t                         *            *
+
+The inﬁxed reduplicant apo-apo-t incurs fewer violations of N O C ODA than the
+sufﬁxed form apot.-apot.with complete reduplication. (The form apo.t-a.pot.,
+in which the stem-ﬁnal consonant syllabiﬁes as onset to the reduplicative suf-
+ﬁx, can be ruled out by high-ranking S YLLABIC ROLE, which requiring cor-
+responding segments in the base and reduplicant to occupy the same syllabic
+position. This constraint is violated by apo.t-a.pot. because [t] is an onset in
+the the stem and a coda in the sufﬁx.)
+   An alternative analysis of this inﬁxation pattern, however, would compel
+inﬁxation by a high-ranked A NCHOR constraint requiring the right edge of the
+stem to coincide with the right edge of a syllable, or a prosodic word – that
+is, just the sort of anchor constraint we used to derive right edge phonotactic
+freedom. This constraint is satisﬁed under sufﬁxation to a vowel-ﬁnal stem, as
+in ohuka-huka. But with a consonant-ﬁnal stem, inﬁxing reduplication provides
+the best means of satisfying both anchoring constraints and phonological well-
+formedness:
+
+(42)     Inﬁxation as A NCHOR>>E DGEMOST
+                /ohuka       A NCHOR -R STEM , N O C ODA R IGHTMOST
+                +RED/              SYLL
+          a. ☞ ohuka-huka
+          b.    ohuk-huk-a                         *!         *
+                 /apot+RED/
+          c.    apot.-apot.                       **!
+          d.    apo.t-apot.         *!
+          e. ☞ apo-apo-t.                          *          *
+
+
+
+
+                 Brought to you by | SUNY Stony Brook University Libraries
+                                       Authenticated
+                             Download Date | 9/25/14 11:22 PM
+186    Ellen Broselow
+
+The positional faithfulness account would then connect right edge phonotactic
+freedom with the PreFinalC inﬁxation pattern, in that both would be an effect
+of ranking A NCHOR above other constraints.
+   We should note that an Anchor account of inﬁxation is required indepen-
+dently, since inﬁxation sometimes produces structures that are more marked
+than would be produced by afﬁxation at the edge. In Choctaw, for example,
+the passive morpheme is realized as an inﬁxed [l]. In words beginning with
+a vowel, the afﬁx appears after that vowel. In consonant-initial words, the af-
+ﬁx also occurs after the vowel, triggering insertion of a copy vowel to create
+well-formed syllables (McCarthy and Prince 1995b):
+
+(43)     Choctaw passive (McCarthy and Prince 1995b)
+             Active Passive
+         a. abani     albani (*labani) ‘to barbeque’
+         b. hokči    holokči         ‘to plant’
+
+Note that the account of inﬁxation as phonological markedness>>edgemost
+constraints does not go through in this case. Preﬁxation of [l] to vowel-initial
+words would clearly result in a syllabically better-formed word. There is also
+no clear phonological motivation for inﬁxation of the passive morpheme in
+consonant-initial forms, since the inﬁx cannot be incorporated into a syllable
+unless a vowel is inserted – and there is no obvious reason why it should be
+better to insert a vowel inside the stem, rather than at the beginning: *lohokči
+would fare equally well in terms of syllabic well-formedness, and better in
+terms of contiguity. Facts like these, then, appear to demand an account of
+inﬁxation in terms of anchoring (though in this case, it is anchoring of the stem
+to the edge of the prosodic word):
+
+(44)    Inﬁxation as A NCHOR>>E DGEMOST
+     /l+abani/    A NCHOR -L *C OMPLEX L EFTMOST N O C ODA D EP(V)
+                 STEM , PW D M ARGIN (- L - AFFIX )
+a.   labani            *!
+b. ☞ albani                                 *         *
+c.   abanil                              **!***       *
+     /l+hokči/
+d.   lohokči          *!                             *       *
+e. ☞ holokči                               **        *       *
+f.   hokčil                             ***!**      **
+
+Thus, cases like the Choctaw passive argue that at least some inﬁxation must
+be a result of at least some sorts of anchoring constraints (see also Ussishkin
+1999).
+
+
+
+
+         Brought to you by | SUNY Stony Brook University Libraries
+                               Authenticated
+                     Download Date | 9/25/14 11:22 PM
+                                                     Marginal phonology      187
+
+   We now return to Balantak, which, like Kamaiurá, has greater freedom at
+right edges than in internal codas. Balantak also exhibits the PreFinalC inﬁxa-
+tion pattern. The second person possessive morpheme attached to a vowel-ﬁnal
+stem yields a copy of the ﬁnal vowel followed by [m]:
+
+(45)     Balantak 2nd singular possessive: Vowel-ﬁnal stems
+         a. tama          tama-am           ‘your father’
+         b. tambue        tambue-em         ‘your green beans’
+         c. kopi          kopi-im           ‘your coffee’
+
+With stems ending in a consonant, however, the second person possessive is
+marked by a copy vowel preceding the ﬁnal consonant:
+
+(46)     Balantak 2nd singular possessive: Consonant-ﬁnal stems
+         a. sarat         sara-a-t          ‘your foot’
+         b. wewer         wewe-e-r          ‘your water’
+         c. witis         witi-i-s          ‘your calf (of leg)’
+
+Busenitz and Busenitz (1991) argue that vowel sequences are heterosyllabic,
+pointing out that there are no restrictions on sequences of vowels, and that
+words with VV sequences, such as óe ‘rattan’ and káan ‘to eat,’ satisfy the
+requirement that words be minimally disyllabic. Thus, forms like (45a) tama-
+am can be syllabiﬁed so that the stem-ﬁnal vowel is also syllable-ﬁnal. This
+would not be true for a VC sufﬁx attached to a consonant-ﬁnal stem, however,
+which is presumably why (46a) sara-a-t is preferred to a sufﬁxed candidate
+*sarat-am.
+  There is, however, one class of consonant-ﬁnal stems which do take the suf-
+ﬁxed form of the second person possessive: stems ending in glottal stop:
+
+(47)     Balantak 2nd singular possessive: Stems ending in [P]
+         a. aleP          aleP-em           ‘your garden’
+         b. waaP          waaP-am           ‘your ear infection’
+         c. oriiP         oriiP-im          ‘your poles’
+
+If the glottal stop is syllabiﬁed as an onset to the sufﬁx-initial vowel, these
+forms violate the A NCHOR -R ( STEM , SYLLABLE ) constraint. But according
+to Busenitz and Busenitz (1991), glottal stop can never be an onset. Glottal
+stop never occurs word-initially, and “when a single consonant occurs intervo-
+calically, native speaker intuition views this consonant as an onset for the fol-
+lowing vowel . . . The only exception is the glottal consonant. It alone seems to
+function as closure for the preceding vowel” (Busenitz and Busenitz 1991: 31).
+Thus, since stem-ﬁnal glottal stop must syllabify with the preceding vowel,
+
+
+
+
+                 Brought to you by | SUNY Stony Brook University Libraries
+                                       Authenticated
+                             Download Date | 9/25/14 11:22 PM
+188     Ellen Broselow
+
+glottal-ﬁnal stems pattern with vowel-ﬁnal stems in terms of satisfying A N -
+CHOR :
+
+(48)      a.    Vowel-ﬁnal:            ta.ma.]am.          ‘your father’           (tama+2PS)
+          b.    Oral C-ﬁnal:           sa.ra.at.]          ‘your foot’             (sarat+2PS)
+                                      *sa.ra.t]am
+          c.    Glottal-ﬁnal:          a.leP.]em.          ‘your garden’           (aleP+2PS)
+The reader is referred to Broselow (2001) for a complete analysis of these facts
+(and to Pater (2002) for an alternative analysis).19
+   The cooccurrence of right edge freedom and PreFinalC inﬁxation in Ka-
+maiurá and Balantak suggests that this inﬁxation pattern might be more likely
+in languages in which the phonotactics establish a high rank for A NCHOR -R.
+Of course, neither PreFinalC nor right edge freedom necessarily implies the
+presence of the other, since the ﬁrst is a reﬂection of A NCHOR>>E DGEMOST,
+and the second of A NCHOR>>coda constraints. However, we might expect to
+ﬁnd some statistical correlation, since by transitivity of ranking, evidence for
+ranking A NCHOR above ConstraintX also constitutes evidence that A NCHOR
+outranks all constraints dominated by X. Therefore, subtle constraint interac-
+tions might in fact be sufﬁcient to place A NCHOR above both coda constraints
+and edgemost constraints.
+   One additional question to consider involves the typological predictions of
+the A NCHOR >> E DGEMOST account of inﬁxation. McCarthy and Prince
+(1993a) point out that the Markedness >> E DGEMOST account of inﬁxation
+predicts that no morpheme with a segmentally speciﬁed shape can have the Pre-
+FinalC distribution, because PreFinalC placement of a ﬁxed shape morpheme
+cannot improve phonological markedness. In the apo-apo-t case, for example,
+inﬁxation allows us to avoid N O C ODA violations only because the shape of
+the reduplicant depends on the shape of that portion of the stem to which it
+is adjacent. In contrast, the A NCHOR>>E DGEMOST account predicts that the
+PreFinalC pattern should be possible for one ﬁxed sufﬁx shape, VCV:
+
+
+
+
+19. Pater ascribes the fact that glottal stop allows sufﬁxation to the transparency of glottal stop
+    with respect to copying. On this account the fact that glottal stops cannot be onsets is uncon-
+    nected to the fact that glottal-ﬁnal stems allow sufﬁxation, while other consonant-ﬁnal stems
+    require inﬁxation.
+
+
+
+
+          Brought to you by | SUNY Stony Brook University Libraries
+                                Authenticated
+                      Download Date | 9/25/14 11:22 PM
+                                                      Marginal phonology          189
+
+(49)     A NCHOR -R>>E DGEMOST
+                hypothetical A NCHOR -R              N O C ODA ,    R IGHTMOST
+                /ohuka+imi/     STEM ,                O NSET
+                                     SYLLABLE
+           a. ☞    ohuka.imi                              *
+           b.      ohuki.mi.a.                            *               *!
+                   /apot+imi/
+           c.      apo.ti.mi              *!
+           d. ☞    apo.i.mit.                            **                   *
+This does indeed seem like a counterintuitive result, though of course we can-
+not rule out the possibility that such a pattern exists in some language. Note that
+for this pattern to emerge, however, we need a conjunction of numerous factors:
+it is crucial ﬁrst, that the alignment constraint outrank phonological marked-
+ness constraints, and second, that faithfulness constraints outrank markedness;
+otherwise, we would expect to see simpliﬁcation of VCV to decrease marked-
+ness, giving for example ohukami, apotmi.
+   To summarize the discussion thus far, we have seen that the analysis of right
+edge consonants as extrasyllabic would lead us to expect that all sufﬁxes in
+a language with right edge freedom should exhibit the PreFinalC distribution
+pattern. This is, as McCarthy and Prince (1993a) have pointed out, clearly too
+strong a prediction. In contrast, the anchoring account connects PreFinalC with
+right edge freedom causally, but does not predict that they must cooccur, only
+that the probability of their cooccurrence is probably somewhat greater than
+chance.
+   It is not clear that the perceptual cue approach makes any predictions about
+the PreFinalC pattern. In fact, it is difﬁcult to explain the PreFinalC pattern
+by reference to perceptual salience of contrasts: because the position in which
+most consonant contrasts are heard most easily is prevocalic, there is no ap-
+parent advantage to inﬁxation in apo-apo-t as opposed to sufﬁxation in *apot-
+apot.
+
+4.4. Summary
+
+The chart below summarizes the different predictions of three representative
+approaches to right edge freedom. The positional faithfulness approach assum-
+ing Anchor constraints allows a greater range of contrasts at the right edges of
+constituents (either morphosyntactic or prosodic). As we have seen, Balantak
+exempliﬁes this pattern.
+
+
+
+
+                  Brought to you by | SUNY Stony Brook University Libraries
+                                        Authenticated
+                              Download Date | 9/25/14 11:22 PM
+190    Ellen Broselow
+
+(50)     Predictions of different approaches
+
+                            Positional         Representational Perceptual cue
+                            faithfulness       assuming PWd assuming no C
+                            assuming           attachment       contrast before
+                            anchor                              obstruent
+                            constraints
+         location of right edges of mor- edges of higher before vowel,
+         edge              phosyntactic or prosodic      resonant, or
+         markedness        prosodic        constituents  word boundary
+                           constituents
+         type of right      protects against protects against protects against
+         edge               deletion at      deletion and     deletion and
+         markedness         edges; featural featural change featural change
+                            change possible at edges          in phonetic
+                            depending on                      contexts that
+                            ranking of Ident                  maximize
+                            constraints                       perceptual
+                                                              salience of
+                                                              particular
+                                                              features
+
+
+5. Conclusion
+
+I have examined asymmetries in the range of contrasts found at edges and in
+interiors of words and stems, with particular attention to cases in which the
+right edge allows greater freedom than is found in preconsonantal positions
+before a consonant. I identiﬁed three families of approaches to the problem
+of these asymmetries: one which maintains uniform syllable structure but en-
+forces greater faithfulness at constituent edges, one which assigns a represen-
+tation in which ﬁnal consonants are not in coda position, and one which looks
+to phonetic context rather than prosodic structure for the explanation of phono-
+tactics. These different approaches represent different schools of thought in
+phonology, ranging from reliance on formal representations to appeal to func-
+tional principles. The Balantak data suggest that our theory must allow for pro-
+tection of contrast not only at the edges of prosodic constituents, or in phonet-
+ically favorable contexts, but also at the edges of morphosyntactic constituents
+such as stems. This makes good functional sense: the preservation of marked
+sequences at morpheme boundaries should facilitate the parsing of speech. Ul-
+timately, any theory of phonotactics must recognize two functions served by
+
+
+
+
+         Brought to you by | SUNY Stony Brook University Libraries
+                               Authenticated
+                     Download Date | 9/25/14 11:22 PM
+                                                               Marginal phonology             191
+
+constraints limiting the possible sequencing of segments: to facilitate the re-
+coverability of segmental contrasts, and to facilitate the decomposition of the
+speech stream into morphemes.
+
+                                                                      Stony Brook University
+
+
+References
+
+Austin, Peter (1981). A Grammar of Diyari, South Australia. Cambridge: Cambridge University
+       Press.
+Bakovic, Eric and Ed Keer (2000). Review of Rene Kager, Harry van der Hulst, and Wim Zonn-
+     eveld (eds.), The Prosody-Morphology Interface. Phonology 17: 484–494.
+Beckman, Jill (1998). Positional Faithfulness. Ph.D. dissertation, University of Massachusetts at
+     Amherst. GLSA: Amherst, MA.
+Blevins, Juliette (1995). The syllable in phonological theory. In The Handbook of Phonological
+     Theory, J. Goldsmith (ed.), 206–244. Cambridge, MA and Oxford, UK: Blackwell Publishers.
+— (2003). The independent nature of phonotactic constraints: an alternative to syllable-based
+     approaches. In The Syllable in Optimality Theory, Caroline Féry and Ruben van de Vijver
+     (eds.), 375-404. Cambridge: Cambridge University Press.
+Broselow, Ellen (2001). Uh-oh: Glottal stops and syllable organization in Sulawesi. In Surface
+     Syllable Structure and Segment Sequencing, Elizabeth Hume, Norval Smith, and Jeroen van
+     de Weijer (eds.), 77–90. Leiden: Holland Institute of Generative Linguistics.
+Broselow, Ellen, Su-I Chen, and Marie Huffman (1997). Syllable weight: convergence of phonol-
+     ogy and phonetics. Phonology 14: 47–82.
+Busenitz, Robert L. (1994). Marking Focus in Balantak. In Studies in Sulawesi Linguistics, Part III,
+     R. van den Berg (ed.), 1–15. NUSA: Linguistic Studies of Indonesian and Other Languages
+     in Indonesia 36.
+Busenitz, Robert L. and Marilyn J. Busenitz (1990). "Balantak [language text]." In Sulawesi lan-
+     guage texts, Barbara Friberg (ed.), 7–22. Language Data, Asian-Paciﬁc Series, 15. Ujung
+     Pandang: Summer Institute of Linguistics.
+— (1991). Balantak phonology and morphophonemics. In Studies in Sulawesi Linguistics, Part
+     II, J.J. Sneddon (ed.), 29–47. NUSA: Linguistic Studies of Indonesian and Other Languages
+     in Indonesia 33.
+Bye, Patrick and Paul de Lacy (2000). Edge asymmetries in phonology and morphology. In Ji-Yung
+     Kim and Masako Hirotani (eds.), Proceedings of NELS 30.
+Dench, Alan (1995). Martuthunira: A Language of the Pilbara Region of Western Australia. Paciﬁc
+     Linguistics C-125. Canberra: The Australian National University.
+Everett, Daniel and Lucy Seki (1985) Reduplication and CV skeleta in Kamaiurá. Linguistic In-
+     quiry 16: 326–330.
+Goad, Heather and Kathleen Brannen (in press). Syllabiﬁcation at the right edge of words: Par-
+     allels between child and adult grammars. In Issues in the Phonetics–Phonology Interface:
+     Selected Papers from the Fourth HIL Phonology Conference, Jeroen van de Weijer, Vincent
+     van Heuven, and Harry van der Hulst (eds.). Amsterdam: John Benjamins.
+Grijzenhout, Janet and Bertus van Rooy (2000) Second language phonology: Acquisition through
+     gradual constraint demotion. Ms, Heinrich-Heine-Universität, Düsseldorf and Potchefstroom-
+     se Universiteit vir CHO, South Africa.
+Hale, Kenneth (1973). Deep-surface canonical disparities in relation to analysis and change: An
+     Australian example. Current Trends in Linguistics 11: 401–458.
+Hammond, Michael (1999). The Phonology of English: A Prosodic Optimality-Theoretic Approach.
+     Oxford: Oxford University Press.
+
+
+
+
+                      Brought to you by | SUNY Stony Brook University Libraries
+                                            Authenticated
+                                  Download Date | 9/25/14 11:22 PM
+192      Ellen Broselow
+
+Harris, John and Edmund Gussmann (1998) Final codas: why the west was wrong. In Structure
+      and Interpretation. Studies in Phonology, E. Cyran (ed.), 139–162. Lublin: Folium.
+Himmelmann, Nikolaus (1991). Tomini-Tolitoli sound structures. In Studies in Sulawesi Linguis-
+      tics, Part II, J. J. Sneddon (ed.), 49–70. NUSA: Linguistic Studies of Indonesian and Other
+      Languages in Indonesia, 33.
+Hung, Henrietta (1994). The rhythmic and prosodic organization of edge constituents. Ph.D. dis-
+      sertation, Rutgers University.
+Itô, Junko (1986). Syllable theory in prosodic phonology. Ph.D. dissertation. GLSA: University of
+      Massachusetts at Amherst.
+Itô, Junko and Armin Mester (1995). Realignment. In The Prosody-Morphology Interface, René
+      Kager, Harry van der Hulst, and Wim Zonneveld (eds.), 188–217. Cambridge: Cambridge
+      University Press.
+Jensen, John Thayer (1977). Yapese Reference Grammar. Honolulu: University of Hawaii Press.
+Kahn, Dan (1976). Syllable-based generalizations in English phonology. PhD dissertation, MIT.
+Kaye, Jonathan, Jean Lowenstamm, and Jean-Roger Vergnaud (1990). Constituent structure and
+      government in phonology. Phonology 7: 193–231.
+Kiparsky, Paul (1999). Paradigm effects and opacity. Ms., Stanford University.
+Klokeid, Terry (1969). Thargari Phonology and Morphology. Paciﬁc Linguistics B-12. Canberra:
+      The Australian National University.
+Landman, M. (1999). Morphological contiguity. Unpublished paper, University of Massachusetts
+      at Amherst.
+MacKay, Carolyn (1991). A grammar of Misantla Totonac. Unpublished doctoral dissertation, The
+      University of Texas at Austin.
+McCarthy, John (1979). On stress and syllabiﬁcation. Linguistic Inquiry 10: 443–466.
+— (2002). Optimal paradigms. ROA-485.
+McCarthy, John and Alan Prince (1993a). Prosodic morphology I: Constraint interaction and sat-
+      isfaction. Ms., University of Massachusetts at Amherst and Rutgers University.
+— (1993b). Generalized alignment. In Yearbook of Morphology 1993, Geert Booij and Jaap van
+      Marle (eds.), 79–153. Dordrecht: Kluwer.
+— (1995a). Faithfulness and reduplicative identity. In Papers in Optimality Theory. University of
+      Massachusetts Occasional Papers in Linguistics 18, Jill Beckman, Laura Walsh Dickey, and
+      Suzanne Urbanczyk (eds.), 160–164. Amherst, MA: Graduate Linguistic Student Association.
+— (1995b). Prosodic morphology. In A Handbook of Phonological Theory, John Goldsmith
+      (ed.), 318–366. Cambridge, MA and Oxford, UK: Blackwell Publishers.
+McQueen, James (1998). Segmentation of continuous speech using phonotactics. Journal of Mem-
+      ory and Language 39: 21–46.
+Mohanan, Tara (1989). Syllable structure in Malayalam. Linguistic Inquiry 20: 589–625.
+Nespor, Marina and Irene Vogel (1986) Prosodic Phonology. Dordrecht: Foris.
+Pater, Joe (2002). Assimilation triggers metathesis in Balantak: Implications for theories of possi-
+      ble repairs in OT. Handout of talk presented at Cornell University.
+Piggott, Glyne L. (1999). At the right edges of words. The Linguistic Review 16: 143–185.
+Prince, Alan and Bruce Tesar (1999). Learning phonotactic distributions. Rutgers Optimality Ar-
+      chive.
+Rose, Sharon (2000) Epenthesis positioning and syllable contact in Chaha. Phonology 17: 397–
+      425.
+Rozali, Latif, Asri Hente, Darwis Mustafa, and Ny. Nurhayati P. (1992). Struktur Bahasa Bal-
+      antak. Jakarta: Pusat Pembinaan dan Pengembangan Bahasa, Departemen Pendidikan dan
+      Kebudayaan.
+Rubach, Jerzy and Geert Booij (1990). Edge of constituent effects in Polish. Phonology 7: 121–
+      158.
+Sapir, J. David (1965). A Grammar of Diola-Fogny. Cambridge: Cambridge University Press.
+
+
+
+
+           Brought to you by | SUNY Stony Brook University Libraries
+                                 Authenticated
+                       Download Date | 9/25/14 11:22 PM
+                                                             Marginal phonology            193
+
+Selkirk, Elisabeth (1981). On the nature of phonological representation. In The Cognitive Repre-
+     sentation of Speech, J. Anderson, J. Laver, and T. Meyers (eds.), 379–388. Amsterdam: North
+     Holland.
+Smolensky, Paul, Lisa Davidson, and Peter Jusczyk (2001). The initial and ﬁnal states: Theoreti-
+     cal implications and experimental explorations of Richness of the Base. Rutgers Optimality
+     Archive.
+Spring, Cari (1990). Implications of Axininca Campa for prosodic morphology and reduplication.
+     PhD dissertation, University of Arizona.
+Steriade, Donca (1982). Greek prosodies and the nature of syllabiﬁcation. PhD dissertation, MIT.
+— (1999). Alternatives to syllable-based accounts of consonantal phonotactics. In Proceedings
+     of the 1998 Linguistics and Phonetics Conference, O. Fujimura, B.D. Joseph, and B. Palek
+     (eds.), 205–242. Prague: The Karolinum Press.
+Tesar, Bruce and Alan Prince (1999). Learning phonotactic distributions. ROA-353.
+Ussishkin, Adam (2000). Fixed prosodic effects in Austronesian: an Optimality-Theoretic account.
+     In Proceedings of the Austronesian Formal Linguistics Association [AFLA], Miriam Klamer
+     (ed.), 259–270. Amsterdam: Vrije Universiteit.
+Vennemann, Theo (1972). On the theory of syllable phonology. Linguistische Berichte 18: 1–18.
+Wiese, Richard (1996). The Phonology of German. Oxford: Oxford University Press.
+Wilson, Colin (2001). Cluster neutralization and targeted constraints. Phonology 18: 147–197.
+Wiltshire, Caroline (2003). Beyond codas: Word- and phrase-ﬁnal alignment. In The Syllable in
+     Optimality Theory, Caroline Féry and Ruben van de Vijver (eds.), 254–270. Cambridge: Cam-
+     bridge University Press.
+Zoll, Cheryl (1998). Positional asymmetries and licensing. Rutgers Optimality Archive, ROA-282.
+
+
+
+
+                     Brought to you by | SUNY Stony Brook University Libraries
+                                           Authenticated
+                                 Download Date | 9/25/14 11:22 PM
+

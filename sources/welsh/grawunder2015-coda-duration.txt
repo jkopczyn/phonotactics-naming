@@ -1,0 +1,359 @@
+        ON THE CORRELATION OF ACOUSTIC VOWEL AND CODA
+        DURATION IN MODERN WELSH C(C)VC MONOSYLLABLES
+
+                        Sven Grawunder1 , Sabine Asmus2 3 , Cormac Anderson1 4
+
+    Max Planck Institute for Evolutionary Anthropology, Dept of Linguistics, Leipzig, Germany1
+                    Leipzig University, Dept. of Sorbian Studies, Leipzig, Germany2
+                         Szczecin University, Dept. of English, Szczecin, Poland3
+                               Adam Mickiewicz University, Poznań, Poland4
+                                              grawunder@eva.mpg.de
+
+                    ABSTRACT                              syllables and before ‘fortis’ codas. While a number
+                                                          of acoustic correlates serve to distinguish the two se-
+This project investigates the relationship of vowel       ries of coda consonants [15], the durational param-
+duration and coda duration in modern Welsh mono-          eter is particularly evident. Ball [1] demonstrates
+syllabic words ending in a simplex consonant.             that also in Welsh, there are notable differences in
+Acoustic data from 16 native speakers from the two        perceived duration between the lenis and fortis se-
+major dialectal varieties of Welsh were analysed.         ries, but the actual relationship between vowel and
+We found vowel duration highly predictive by coda         consonant duration in that language has not yet been
+duration, taking into account possible influences of      explored acoustically.
+phrase prosody, speaker and variety specific devia-          The tendency for vowels to occur short before
+tions. Also, prosodic prominence primarily appears        long codas and long before short codas is well-
+to effect coda duration in Welsh.                         attested in other languages (e.g. in Bavarian [11]
+Keywords: vowel coda interaction, Welsh, speaker          and in Bolognese [9]). Assuming a high correspon-
+specific behaviour                                        dence with the labels ‘lenis’ and ‘fortis’, there is also
+                                                          a cross-linguistic tendency for vowels to be longer
+               1. INTRODUCTION                            before ‘voiced’ segments than ‘voiceless’ ones [7]
+                                                          and indeed the patterns observed for Breton fit into
+This study investigates the distribution of vowel du-     a broader typology in which there is mutual depen-
+ration in Modern Welsh and its relationship to coda       dency between vowel and coda duration, sometimes
+consonants in C(C)VC monosyllables. Previous              termed V/C complementation [3]. This study tests
+studies of Welsh phonology [2, 10, 14, 18] have           the hypothesis that a similar pattern may be at work
+tended to posit the existence of distinctive vowel        also in Modern Welsh.
+length in that language, but have also identified con-
+siderable contextual conditioning dependent on fac-                     2. DATA & METHODS
+tors such as syllable structure and category/class of
+coda consonants. Regarding the latter, which is the       2.1. Stimuli word list and reading task
+focus of this study, there is agreement that the vowel
+duration contrast is neutralised in favour of the short   The 89 stimuli word list consisted of monosyllables
+vowels before some coda consonants and in favour          of a C(C)VC-structure. It was constructed to repre-
+of the long vowels in others. Details of this condi-      sent all the occurring coda consonants in the Modern
+tioning differ between authors.                           Welsh lexicon, except /-N/, focusing on native vo-
+   Furthermore, already in the middle of the twen-        cabulary. A few English loan words were included
+tieth century, Falc’hun [8] showed by means of            for control purposes. In order to assess a likely in-
+spirometry that in Breton, a Brythonic language           fluence of prosodic prominence, the following car-
+closely related to Welsh, vowel and coda conso-           rier phrase was chosen: Dw i heb ddweud X, ond
+nant duration are mutually interdependent. Falc’hun       Y. (literally ‘I am without say(ing) X, but Y’, actual
+identified a bimodal distribution, with long vowels       meaning ‘I did not say X, but Y’). In this way we
+occurring before silence or ‘lenis’ codas in stressed     ensured that each item occurred two times in each
+syllables, and short vowels occurring in unstressed       position (X= position 1; Y=position 2), expecting
+higher prominence in the second, but each time with     bases for reported p-values.
+a different pairing of words.
+                                                                                                    3. RESULTS
+2.2. Participants
+                                                        3.1. Overall tendencies in duration
+16 participants (7 female / 9 male) were asked to
+read these sentences. The speakers ranged in age        Vowel duration in our corpus (N=5816) ranged be-
+from 19 to 72 and were all educated native speakers     tween 51ms and 541ms, with a median of 231ms
+of Modern Welsh who use their language at home          (71.8), while coda duration values ranged from
+and at work. With regard to their origin, 11 came       20ms to 610ms with a median of 204ms (90.1).
+from North Wales and 5 (F2, F5, F6, M3, M8) from        Hence vowels constitute a (mean) proportion of 0.42
+South Wales.                                            (0.13) with respect to total word duration and 0.52
+                                                        (1.5) with respect to vowel + coda duration only.
+2.3. Recordings
+                                                        Codas show a proportion of 0.4 (0.14) and 0.50
+Some recordings were carried out under field condi-     (0.15) respectively, ranging from 5% to 79% of the
+tions using the soundcard of a laptop (ASUS K5OIJ)      word length (RATIO 1) and ranging from 6% to 90%
+together with a TRUST 16973 / STARZZ dynamic            of the part following the onset (RATIO 2).
+microphone. Others were carried out in a lab or                               Figure 1: overall plot of absolute coda duration
+studio environment using an Olympus LS-11 with                                grouped by coda consonants comprising 16 speak-
+in-built electret microphones and sounddevice T788                            ers
+with a Audix HT5 headset microphone.                                          0.6
+
+2.4. Acoustic Measurements & Data
+                                                                              0.5
+
+
+
+
+The acoustic sequences of carrier phrases and vow-
+els were grossly segmented in an automatic fashion
+                                                        coda duration (sec)
+
+                                                                              0.4
+
+
+
+
+by means of PRAAT[6]-based intensity and pitch
+detection. The remaining manual segmentation and
+                                                                              0.3
+
+
+
+
+adjustment was carried out by a person unfamiliar
+with the topic and the language, and checked for ac-
+                                                                              0.2
+
+
+
+
+curacy and consistency by the first author. Based
+on the usual conventions, stop onsets were labelled
+                                                                              0.1
+
+
+
+
+at the release of the stop, while other onsets were
+identified by first zero crossings, and vowel onsets
+                                                                              0.0
+
+
+
+
+and offsets with regard to F2-energy. For better
+control of speaker-specific performance, including                                  b   d   g   v   ð   f   θ   x   p   t   k   ɬ   m n   l   r   s
+
+speaking rate, relative measures were additionally
+determined. The relative measures of vowel dura-
+tion considered either the entire word length or word   3.2. Prediction of vowel duration by coda duration
+length excluding onset as reference, i.e. we use sim-
+ply vowel or coda duration as a ratio of the actual     In order to test how well vowel duration is predicted
+duration and entire word duration (RATIO 1) and as a    by coda duration, a linear mixed effects (LME)
+ratio the of the vowel or coda duration and the word    model was constructed with SPEAKER, VOWEL and
+less its onset (RATIO 2).                               POSITION as random intercepts and slopes for coda
+                                                        duration. The reported correlation of fixed effects
+2.5. Statistical Analysis                               −0.594 shows the negative correlation of the two
+                                                        measures (χ 2 (1) = 14.174, p = 0.000166). Pear-
+In order to test the predictions, we applied linear     son product moment correlations for absolute vowel
+mixed effects models in R [16] using maximum like-      and coda duration measures ranged among speakers
+lihood estimation by means of the package lme4 [5].     between −0.219 (spk M6) and −0.536 (spk M3).
+Along with fixed effects, we applied a maximal ran-     However, relating the values with respect to total
+dom effects structure [4] with random intercepts as     word duration (RATIO 1) to each other, correlations
+well as random slopes for coda category (CODA -         range between −0.623 (spk M4) and −0.766, all of
+CAT ), speaker ( SPEAK ), position ( POSIT) and vowel   which are significant. On the other hand, if we test
+(VOWEL). Maximum likelihood ratio tests served as       onset duration as predictor for vowel duration in a
+similar LME we gain a non-significant maximum
+                                                                                   Figure 2: Plot of means of absolute vowel dura-
+likelihood ratio. Since also correlations of range                                 tions for individual speakers grouped by coda cat-
+very low (−0.116 and −0.140) too, onset duration                                   egorie; vertical bars show confidence intervals
+can be assumed to explain only little of the variance
+in vowel duration.
+                                                                                  0.30
+3.3. Coda grouping for coda categories                                                                                                codacat
+                                                                                                                                           fortis
+                                                                                                                                           lenis
+Applying recursive partitioning by conditional infer-
+ence using party-package [12] in R, we found that
+
+
+
+
+                                                           vowel duration (sec)
+the highest ranked splits in the data based on rela-                              0.25
+
+
+tive coda duration give /-k, -x, -f, -ì, -m, -p, -s, -t,
+-T/ on the one hand and /-b, -d, -ð, -v, -g, -l, -n, -
+r/ on the other, whereas the absolute coda duration
+values would still group /-m/ with the ‘lenis’ obstru-                            0.20
+
+ents. These splits are seemingly independent of the
+preceding vowel qualities and of position and rep-
+resent for the obstruents what had been proposed as
+fortis vs. lenis contrast in Modern Welsh. A sub-
+                                                                                         F1   F2   F3   F4   F5   F6   F7   M1   M2   M3     M4     M5   M6   M7   M8   M9
+sequent sub-split between ‘lenis’ obstruents and /-n,                                                                       speaker
+-m, -l, -r/ is considerably less clear and seems to be
+very speaker specific.
+                                                           all three coda duration measures (s. 3.3) for each in-
+3.4. Prediction of vowel duration by coda categories
+                                                           dividual speaker. Using absolute measures, only two
+                                                           speakers (S; N) show a coda split whereby /-m/ is
+                                                           grouped with the ‘fortis’ obstruents. However, un-
+We then tested how the achieved and proposed (for-
+                                                           der RATIO 1 /-m/ is ‘long’ for all 5 Southern speakers
+tis/lenis) coda categories serve as predictors for
+                                                           and for half of the Northern speakers. For the other
+vowel duration. This involved constructing a LME
+                                                           half of the Northern speakers the /-m/-values group
+model with SPEAKER, VOWEL and POSIT as ran-
+                                                           with the ‘lenis’ obstruents. The situation changes
+dom intercepts and slopes for CODACAT. This
+                                                           again when RATIO 2 is under consideration. In this
+model only reached significance (χ 2 (1)=14.104,
+                                                           case, /-m/ groups with the ‘fortis’ consonants for all
+p=0.0001729) in predicting the relative vowel length
+                                                           speakers, while for seven speakers /-n/ is also ‘long’
+(vowel/word duration ratio). We recognise that a
+                                                           and for one speaker /-b/ as well. Only with RATIO 2,
+phonetically plausible sub-category of nasals and
+                                                           and only for a few speakers, VOWEL is a relevant
+liquids /-n, -m, -l, -r/ can be tested as well, since
+                                                           secondary split factor. In these cases, longer codas
+the overall coda duration of these seems to range in
+                                                           split with high vowels (<i,y,u,w>). Additionally we
+between the two obstruent categories (Figure 1). But
+                                                           constructed LMEs with VARIETY as interacting pre-
+here the LME model reaches significance also only
+                                                           dictor, but found no effect.
+for absolute values (χ 2 (2)=8.9466, p=0.01141).
+
+3.5. Speaker & variety-specific results                    3.6. Word-specific results
+
+Testing the prediction of vowel duration by CODA -         In order to generalise the observations for (vowel)
+CAT reaches only significance if SPEAKER is added          durations in individual words and to talk about
+as fixed effect (χ 2 (16) = 94.128, p = 4.314e − 13).      trends (‘long’ and ‘short’) we can, therefore, posit
+Speakerwise testing of the vowel duration difference       a kind of grid with regard to the maxima occurring
+between the coda categories (‘fortis/lenis’) reveals       in the vowel duration distribution and mean values
+for speaker F7 a non-significant result, which may         for the two positions (s. Fig. 3). Some words are ex-
+be confounded by influence of POSIT. As well as            pected to behave as shibboleths. For example, heb
+examining the range of correlation (s. 3.2) and test-      (‘without’) and grêt (‘great’) are often considered to
+ing predictions by individual speaker (s. 3.2), we         be diagnostic for dialectal background. In our data
+used biographical data, i.e. geographical origin of        we can observe that, as expected, heb is pronounced
+each speaker, as a means to test the null hypothesis       by the Southern speakers with a relative vowel du-
+with respect to the factor of VARIETY (North/South;        ration in the mid range under RATIO 1, while most
+N/S). We first checked the coda duration split using       speakers from North Wales had a lower ratio. How-
+ever, other words of similar structure, such as neb
+                                                                         Figure 3: Densities of vowel duration grouped by
+(‘no-one’), show to a degree the opposite behaviour.                     CODA (panels) und POSITION (line type); vertical
+However, grêt is pronounced by all speakers in the                       lines mark the threshold area for individual posi-
+mid to low range, thus generally following the pre-                      tions
+dicted tendency, i.e. short vowel before fortis coda.
+For certain codas, such as /-s/, there is a tendency
+for the vowel duration of individual words to be rea-                               b                           d                     g
+                                                                     6
+sonably consistent, but some words have generally                    4
+                                                                     2
+‘longer’ vowels, while others have ‘shorter’ ones.                   0
+                                                                                     f                          dd                    ff
+Thus, the vowel of gwas (‘servant’) has a high rela-                 6
+tive duration, whereas that of blas (‘taste’) is in the              4
+                                                                     2
+mid to low range. Similarly, some words with /-n/                    0
+                                                                                    th                          ch                    p
+show a bimodal distribution of vowel duration val-                   6
+                                                                     4
+ues, in which, e.g. brân (‘crow’), shows higher du-                  2
+
+
+
+
+                                                           density
+ration ratios, while, e.g. rhan (‘part’) shows a lower               0
+                                                                                     t                           c                    ll
+duration ratios.                                                     6
+                                                                     4
+                                                                     2
+                                                                     0
+3.7. Prosodic influence                                                             m                           n                     l
+                                                                     6
+                                                                     4
+Throughout the analyses, it became evident that the                  2
+                                                                     0
+second position in the carrier sentence indeed at-                                   r                           s                         pos
+tracts stronger prosodic prominence. Measuring f0                    6
+                                                                     4
+                                                                                                                                                 1
+                                                                                                                                                 2
+within the vowel portions of the two target words,                   2
+                                                                     0
+we see a general mean f0 shift in the second posi-                         0.25   0.50   0.75   1.00   0.25   0.50   0.75    1.00
+                                                                                                vowel / word - onset ratio (ratio2)
+tion. There is an interaction of gender in this: female
+participants, regardless of their dialect background,
+show this (+12.2Hz, χ 2 (3) = 10.762, p = 0.01308).        ever, the effects measured in our data set are of a
+We also observe aberrant patterns for some speakers,       different order of magnitude.
+shifting the main focus of the sentence to position 1         By means of the maxima of the vowel duration
+or attempting to emphasise both. In all, there is a        distribution we gain potential margins of categori-
+consistent trend for position 2 to show longer coda        cal boundaries for Modern Welsh speakers that re-
+duration. However, the median differences of vowel         main to be tested, as do subsequent perceptual impli-
+duration with respect to lenis-fortis codas are lo-        cations in terms of possible sound changes in coda
+cated at 56.3ms (30.37) for position 1 and at 56.8ms       consonants.
+(28.53) for position 2, which is not indicative of a
+significant difference between these conditions.              Our findings also support those of Williams [19]
+                                                           of longer coda duration in stronger prosodic posi-
+                  4. DISCUSSION                            tions, such as the focus positions in our study.
+
+Attempting to extrapolate from elicited speech to
+                                                                                    5. ACKNOWLEDGMENTS
+real speech, we were able to account for the effects
+of prosodic positions in the phrase, variability of a
+speaker and word specific nature. Our data sug-            We are grateful to Bernard Comrie for his
+gest that coda duration in Modern Welsh C(C)VC             support and to Peter Fröhlich, Roger Mundry,
+monosyllables is a very good indicator for preced-         Katharina Kluge, Sylwester Jaworski for as-
+ing vowel duration. However, a few exceptions may          sistance with data collection and preparation.
+be found, which suggests a possible contrast or at         We are in debt to our participants and those
+least a word specific grammaticalisation before cer-       who helped with recordings, in particular we
+tain codas. These point to the possible limits of pre-     thank in particular Siôn Rhys Williams/Dunstable
+dictability, i.e. higher error probability for learners.   (England), Handel Jones/Rhandir-Mwyn (Wales),
+   We can compare our analyses with phenomena              Geraint Lewis/Gweiadur (Wales), and Gwenllian
+such as incomplete neutralisation of coda obstruents       Awbery/Caerdydd (Wales). We are maximally
+in German [17] or Polish [13], where small differ-         grateful to Delyth, Dewi, Sioned, Marian, Fflur, Hy-
+ences in the preceding vowels are found, with longer       wel, Eiri, Peredur, Llion, Aled, Martin, Edward,
+vowels before lenis obstruents and vice versa. How-        Rhiannon, Guto, Nia, and Bryn.
+                  6. REFERENCES                                     cal phonology. Amsterdam: Rodopi.
+                                                               [19] Williams, B. 1985. Pitch and duration in Welsh
+ [1] Ball, M. J. 1984. Phonetics for phonology. In:                 stress perception: The implications for intonation.
+     Ball, M. J., Jones, G. E., (eds), Welsh Phonol-                Journal of Phonetics.
+     ogy. Selected readings. Caerdydd: Gwasg Prifysgol
+     Cymru 5–39.
+ [2] Ball, M. J., Jones, G. E., (eds) 1984. Welsh Phonol-
+     ogy. Selected readings. Caerdydd: Gwasg Prifysgol
+     Cymru.
+ [3] Bannert, R. 1973. Mutual Complementation of VC-
+     Sequences in Central Bavarian. Lund University
+     Phonetics Laboratory Working Papers 9, 72–83.
+ [4] Barr, D. J., Levy, R., Scheepers, C., Tily, H. J. 2013.
+     Random effects structure for confirmatory hypoth-
+     esis testing: Keep it maximal. Journal of Memory
+     and Language 68(3), 255–278.
+ [5] Bates, D., Maechler, M., Bolker, B. 2012. lme4:
+     Linear mixed-effects models using s4 classes,
+     2011. URL http://CRAN. R-project. org/package=
+     lme4. R package version 0.999375-42.
+ [6] Boersma, P., Weenink, D. 2014. Praat: do-
+     ing phonetics by computer [Computer program].
+     Version 5.3.77 retrieved 18 March 2014 from
+     http://www.praat.org/.
+ [7] Chen, M. 1970. Vowel length variation as a func-
+     tion of the voicing of the consonant environment.
+     Phonetica 22(3), 129–159.
+ [8] Falc’hun, F. 1951. Le système consonantique du
+     breton: avec une étude comparative de phonétique
+     expérimentale. Rennes.
+ [9] Hajek, J. 1994. Phonological length and phonetic
+     duration in Bolognese: are they related?            In:
+     Togneri, R., (ed), Proceedings of the Fifth Aus-
+     tralian International Conference on Speech Science
+     and Technology vol.2. Canberra 2: 662–667.
+[10] Hannahs, S. J. 2013. The Phonology of Welsh. Ox-
+     ford: Oxford University Press.
+[11] Hinderling, R. 1980.          Lenis und Fortis im
+     Bairischen. Versuch einer morphophonemischen
+     Interpretation. Zeitschrift für Dialektologie und
+     Linguistik 47(1), pp. 25–51.
+[12] Hothorn, T., Hornik, K., Zeileis, A. 2006. Unbi-
+     ased recursive partitioning: A conditional inference
+     framework. Journal of Computational and Graph-
+     ical Statistics 15(3), 651–674.
+[13] Jassem, W., Richter, L. 1989. Neutralization of
+     voicing in polish obstruents. Journal of Phonetics
+     17(4), 317–325.
+[14] Lewis, C., (ed) 1987. Orgraff yr Iaith Gym-
+     raeg [The Orthography of the Welsh language].
+     Caerdydd: Gwasg Prifysgol Cymru.
+[15] Press, I. J. 1986. A grammar of modern Breton vol-
+     ume 2. Walter de Gruyter.
+[16] R Core Team, 2014. R: A Language and Environ-
+     ment for Statistical Computing. R Foundation for
+     Statistical Computing Vienna, Austria.
+[17] Roettger, T., Winter, B., Grawunder, S., Kirby, J.,
+     Grice, M. 2014. Assessing incomplete neutraliza-
+     tion of final devoicing in German. Journal of Pho-
+     netics 43(0), 11 – 25.
+[18] Schrijver, P. 1995. Studies in British Celtic histori-
+

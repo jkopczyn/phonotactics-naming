@@ -1,0 +1,67 @@
+LAPSyD (Lyon-Albuquerque Phonological Systems Database) — language page
+Maddieson, Flavier, Marsico, Coupe & Pellegrino. lapsyd.huma-num.fr. CC BY-NC-ND 3.0.
+URL: https://lapsyd.huma-num.fr/lapsyd/index.php?data=view&code=683
+Retrieved: 2026-08-24
+
+Language name : Dutch
+ISO 639-3     : nld
+Alternate     : Nederlands
+Classification: Indo-European, Germanic, West
+Location      : The Netherlands and generally northern parts of Belgium
+
+COUNTS: consonants=18 basic vowels=13 total vowels=16 C/V ratio=1.125 top C=t top V=
+
+=== SYLLABLE STRUCTURE ===
+Syllcat (cf. WALS ch.12): Complex
+Syllabic index (O+N+C) = 8   [Onset=3 Nucleus=2 Coda=3]
+Canonical Form      : (C)(C)(C)V(V)(C)(C)(C)(C)
+Syllabic Restriction: -
+Syllabic notes      : (C)(C)(C)V(V)(C)(C)(C)(C)
+
+=== STRESS ===
+Stresscat (cf. WALS ch.14/16): Lexical
+Fixed Stress: No   Weight-sensitivity: Coda
+Stress notes: Stress location is unpredictable but there are few minimal pairs.
+
+=== TONE ===
+Tonecat: None
+Tone notes: None, at least in Standard Dutch
+
+=== CONSONANT NOTES ===
+Basic coronals are said to be laminal except for /|/.
+
+=== VOWEL NOTES ===
+Gussenhoven '99 positions the "lax" front vowels on the vowel chart as if they were central but uses front vowel symbols. Three vowels transcribed as long /e P o / are said to be "narrow diphthongs" /ei Py ou/ and are added to dipthong list here. Gussenhoven '99 recognizes several additional long vowels in "recent loans" not included here.
+
+=== SOURCES CITED BY LAPSyD ===
+Gussenhoven, Carlos. 1999. Dutch. Handbook of the International Phonetic Association. Cambridge University Press, Cambridge: 74-77.
+
+Zuidema, Willem. 2009. A syllable frequency list for Dutch. http://www.illc.uva.nl/Research/Reports/PP-2009-50.text.pdf
+
+=== INVENTORY TABLES (flattened; blank cells = empty table slots) ===
+Vowels | front | central | back
+unrounded | rounded | unrounded | unrounded | rounded
+ |  |  | long |  | 
+high |  |  | i | y |  |  |  | u
+lowered high |  |  | ɪ | ʏ |  |  |  | 
+higher mid |  |  |  |  | ə |  |  | 
+lower mid |  |  | ɛ |  |  |  |  | ɔ
+low |  |  |  |  |  | aː | ɑ | 
+Diphthongs | count | rounding | rising | long
+ei | 1 |  | X | 
+ou | 1 |  | X | 
+ɛi | 1 |  | X | 
+øy | 1 |  | X | X
+œy | 1 |  | X | 
+ɑu | 1 | X | X | 
+Consonants | bilabial | lab-den | alv | palatal | velar | uvular | glottal
+pulm | stop |  |  |  |  | -vless |  |  | p |  | t |  | k |  | 
+-ved |  |  | b |  | d |  |  |  | 
+fric |  |  |  |  | -vless |  |  |  | f |  |  |  | χ | 
+-ved |  |  |  | v |  |  |  |  | ɦ
+sib |  | -vless |  |  |  |  | s |  |  |  | 
+-ved |  |  |  |  | z |  |  |  | 
+nasal |  |  |  |  | -ved |  |  | m |  | n |  | ŋ |  | 
+tap/flap |  |  |  |  | -ved |  |  |  |  | ɾ |  |  |  | 
+appr |  |  |  |  | -ved |  |  |  | ʋ |  | j |  |  | 
+lat |  |  |  | -ved |  |  |  |  | l |  |  |  | 

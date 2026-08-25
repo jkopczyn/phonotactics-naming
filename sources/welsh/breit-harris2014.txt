@@ -1,0 +1,325 @@
+S. J. Hannahs (2013) The Phonology of Welsh. (The Phonology of the World’s Languages.) Oxford:
+Oxford University Press. Pp. xiv + 183.
+
+Florian Breit
+John Harris
+University College London
+
+
+There is no lack of article-length publications on individual aspects of Welsh phonology. However, it has
+been a long wait for a book-length overview, especially one that incorporates modern theoretical insights.
+SJ Hannahs’ new book is thus a welcome addition to the Phonology of the World’s Languages series. As
+with other volumes in the series, the author sets out to strike a balance between theory-neutral description
+and theoretically informed analysis. His framework of choice is Optimality Theory. The book will be of
+interest to specialist phonologists, Celticists and linguists with a non-specialist interest in Welsh.
+The book is divided into seven chapters: an introduction to the history of Welsh and its modern dialects,
+a phonetic outline, four core chapters on phonology, and a final chapter touching on phenomena and
+issues not addressed elsewhere in the book.
+Chapter 2 provides a compact but comprehensive overview of Welsh phonetics, including outlines of the
+consonant and vowel inventories of the main dialects (Hannahs accepts the established broad division
+into northern and southern varieties). Particularly welcome here are the author’s succinct discussions of
+a range of phenomena that have not always been clearly described elsewhere, including voicing in stops,
+gemination, the status of affricates, vowel length and schwa. The chapter provides the reader with a very
+useful entry to the relevant literature.
+In chapter 3, Hannahs presents his analysis of the prosodic structure of the word in Welsh. His description
+of syllable structure follows well established practice in two respects: (a) it is based almost entirely on
+the monosyllabic word, and (b) it assumes that consonant cluster phonotactics are syllabically
+conditioned. This approach gives rise to certain anomalies, by no means peculiar to Welsh, and leads to
+the claim that the language has complex codas. However, a scan of examples from this and other chapters
+reveals that the complex-coda analysis only holds of word-final position. Word-internally, codas contain
+at most only one consonant. Word-final clusters of falling sonority also show up word-internally, but here
+they form heterosyllabic coda–onset sequences: compare say plant [plant] ‘children’, gardd [ɡarð]
+‘garden’ with plentyn [plɛn.tɨn] ‘child’, gerddi [ɡɛr.ði] ‘gardens’. Likewise, medial examples of
+three-consonant sequences appear to be consistently of the type s+stop+consonant and can be either
+analysed as heterosyllabic coda–onset sequences, e.g. in gwystlo [gwɨs.tlo] ‘to pawn’ (note that [tl] is
+also a common word-initial cluster in Welsh, e.g. in tlawd [tlaʊd] ‘poor’), or they are examples of
+word-level compounding, e.g. in tystlythr [[təst][lə.θɨr]] ‘testament’ < tysty ‘witness’ + lythyr ‘letter’ and
+trystfawr [[trəst][vaʊr]] ‘noisy’ < trwst ‘noise’ + mawr ‘big’. This points to one of two alternative
+conclusions that have been reached with respect to other languages. One is that cluster phonotactics are
+not syllabically conditioned after all. The other is that final clusters of falling sonority are not complex
+codas but are syllabified in the same way as their internal counterparts, i.e. as coda–onset sequences
+(cf. Dell’s 1995 analysis of French).
+Welsh also has consonant clusters of rising sonority, consisting of a consonant and a liquid, which
+Hannahs discusses later in the book. Word-internally, these are syllabified as complex onsets (in
+accordance with onset maximisation), e.g. cablu [ˈka:.blɨ] ‘to blaspheme’, goblygu [goˈblə.gɨ] ‘to wrap’.
+They also potentially occur in word-final position. Hannahs refers to these as complex codas, which is
+somewhat puzzling since they do not actually show up as clusters here but are instead subject to one of
+two processes. Either the sequence is split by an epenthetic vowel, as in cwbl [kʊbʊl] ‘all’ (where the
+second vowel is an epenthetic copy of the first), or the liquid is deleted, as in posibl [pɔsɪb] ‘possible’.
+Nor can these sequences be said to be complex codas underlyingly since, at least under the standard OT
+
+                                                      1
+assumptions Hannahs works with, syllable structure is absent from lexical representation. Perhaps he is
+alluding to the fact that rising-sonority clusters can appear finally in stems (reflected in written forms
+such as posibl). However, here they only surface as genuine clusters when they form internal complex
+onsets followed by a suffix vowel (e.g. pobl+og [pɔblɔg] ‘populous’). In absolute word-final position, a
+stem-final cluster is subject to epenthesis (pobl [pɔbɔl] ‘people’). In any event, consonant–liquid
+sequences provide no support for the claim that Welsh has complex codas.
+The word in Welsh is minimally bimoraic. Short vowels bear one mora, while long vowels and
+diphthongs bear two. The moraicity of single word-final consonants varies according to quality:
+[p, t, k, m, ŋ] are moraic, [l, n, r] are moraic in some words but not in others, and the remaining
+consonants are non-moraic. Word-final clusters are generally moraic, with the exception of [sC] and [ɬC]
+in northern dialects. The moraic status of a consonant is reflected in the length of the preceding vowel.
+Stressed vowels are short before moraic consonants and consonant clusters (apart from [sC] and [ɬC]),
+and long before non-moraic consonants. With monosyllables, this gives us long vowels in for example
+sudd [sɨːð] ‘juice’ and cryg [krɨːɡ] ‘hoarse’, and short vowels in sut [sɨt] ‘how’ and dim [dɪm] ‘not’. With
+variably moraic [l, n, r] we find some words with a short vowel (e.g. tal [tal] ‘tall’) and others with a long
+vowel (e.g. tâl [taːl] ‘pay’). As with his discussion of syllabification, Hannahs focuses his moraic
+descriptions on monosyllabic words. However, in order to get a clear overview of weight in Welsh, it is
+also important to know how moraicity works in polysyllables with regular penultimate stress. Although
+the author is much less explicit about this, we can infer from examples elsewhere in the book that
+penultimate stressed syllables follow the same basic pattern of consonant-sensitive vowel length as
+monosyllables. Thus we find for example a long vowel in rhagor [ˈr̥ʰaːɡor] ‘excellence’ (where the
+following consonant is a non-moraic onset) versus a short vowel in campio [ˈkampjo] ‘to frolic’ (where
+the consonant is a moraic coda).
+The interplay between vowel length and the following consonant begs the question of whether Welsh has
+anything approaching quantity-determined stress, with all stressed syllables having to be heavy. The
+language is not usually described in these terms (and Hannahs certainly doesn’t do so), presumably on
+the grounds that canonical quantity-determined languages, such as Italian or Icelandic, do not care about
+the quality of the consonant following a stressed vowel. However, there are additional facts about Welsh
+that suggest the issue should not be left to lie. One is that, when intervocalic, the consonants Hannahs
+describes as moraic are of greater duration than their non-moraic counterparts. He takes this as evidence
+for representing them as geminates1. Under this analysis, Welsh stress starts to look very much like a
+quantity-determined system, at least word-medially: a stressed syllable must be bimoraic, consisting of
+either a long vowel in an open syllable (as in safon [ˈsaː.vɔn] ‘standard’) or a short vowel in a closed
+syllable (as in macyn [ˈmak.kɨn] ‘handkerchief and plentyn [ˈplɛn.tɨn] ‘child’).
+The quantity-determined analysis extends to consonants at the end of stressed monosyllables, where
+bimoraicity takes the form of either a short vowel plus a moraic consonant (as in clap [klap] ‘gossip’) or
+a long vowel plus a non-moraic consonant (as in lab [la:b] ‘blow/stroke’). A reasonable question to ask
+of this analysis is whether there is any duration evidence to support the moraic versus non-moraic
+distinction in final consonants, parallel to that in medial position. We would expect a consonant to be of
+greater duration after a short vowel than after a long vowel. Hannahs’ review of the phonetic literature
+suggests this is indeed the case, although he does not follow up on it. It would be particularly good to
+know whether this duration difference also holds of the distinction between moraic and non-moraic
+versions of [l, n, r]. In any event, there is an additional reason for delving further into the duration
+evidence: it is surely not an accident that the plosives Hannahs describes as moraic are fortis while their
+
+
+1
+, Hannahs allows that these intervocalic consonants might alternatively be ambisyllabic singletons.
+However, if this is to be understood as being in any way different from gemination, it is incompatible
+with his moraic account.
+
+                                                      2
+non-moraic counterparts are lenis. It is well known that post-vocalic fortis obstruents are of greater
+duration than lenis. The fact that, of the Welsh final stops, it is the phonetically longer fortis series that
+co-occur with preceding short vowels strengthens the suspicion that we are dealing here with a quantity-
+determined system.
+There are other indications of a link between quantity and fortis/lenis in Welsh. In the final chapter,
+Hannahs discusses ‘provection’, a process that turns lenis stops into fortis after a stressed vowel (the
+Welsh term for this, calediad ‘hardening’, seems more felicitous). This is the context where Hannahs
+describes the fortis series as geminates, so hardening produces alternations between short and long
+consonants; compare pretonic lenis [ɡ] in agorodd [aˈɡɔroð] ‘open 3SG.PAST’ with post-tonic fortis [kk]
+in agor [ˈakkɔr] ‘open’, or lenis [b] in gwlyb [ɡlɨːb] ‘wet’ with fortis [pp] in gwlyped /ˈɡlɨːb+hɛd/ >
+[ˈɡləppɛd] ‘as wet as’ (in the latter example, we also see the effects of vowel shortening and vowel
+mutation, on which more below).
+How is the evident bond between stressed vowel length and consonant duration in Welsh to be captured,
+not just word-medially but also finally? One approach is to assume that length and fortis/lenis contrasts
+are represented in terms of the same abstract suprasegmental feature, as advocated by Iosad (2012) in his
+treatment of Pembrokeshire Welsh. Hannahs’ own moraic descriptions suggest a weight-based approach.
+However, he declines to develop this, leaving several important questions unasked. For example, does
+drawing a distinction between moraic and non-moraic consonants replace the feature specification of
+fortis/lenis in Welsh? How is the distinction between moraic and non-moraic consonants integrated into
+syllable structure? Is this distinction represented differently in word-internal versus word-final positions?
+If it is (and Hannahs’ positing of complex codas suggests he believes it is), how can this be reconciled
+with the phonotactic parallels between the two contexts? The author deserves credit for bringing together
+the apparently disparate length and fortis/lenis facts of Welsh in one place. Nevertheless, given the
+book-sized space at his disposal, we can’t help feeling that an opportunity has been missed to delve
+deeper into the issues they raise.
+Chapter 4, on phonological processes in Welsh, begins with a discussion of schwa, which occupies a
+special place in the Welsh vowel system. It behaves like a reduced vowel in appearing in unstressed
+syllables but like a full vowel in also appearing in stressed syllables. However, unlike other full vowels
+in the system, it can only occur as short. Amongst other things, this means that it cannot appear in
+monosyllables, where its shortness would contravene word minimality requirements.
+Schwa features in a mutation process that reduces [u, ɨ, aɪ, aɨ, aʊ, ɨʊ] to [ə, ə, əɪ, əɨ, ɔ, ɨ] in pre-final
+position, e.g. taith [taɪθ] ‘journey’, teithio [təɪθjo] ‘to travel’. The process is neutralising, since vowels
+with the mutated quality can also appear in final position, e.g. dweud [dwəɨd] ‘to say’. [ɨ] shows two
+different behaviours with respect to mutation. In some words, it alternates with [ə] (e.g. bryn [brɨn] ‘hill’,
+bryniau [brənja] ‘hills’), while in others it fails to alternate at all (e.g. pur [pɨːr] ‘pure’, puro [pɨːro]
+‘purify’). Hannahs rejects a previou account that posits an absolutely neutralised underlying contrast
+between two types of /ɨ/.. He proposes a convincing constraint-based alternative where stable [ɨ] is
+underlyingly /ɨ/, while alternating [ɨ] is underlyingly /ə/. The contrast is contextually neutralised under
+[ɨ] in final syllables because of the independent ban on schwa in this position. This analysis mirrors Welsh
+orthography, which uses y for alternating [ɨ] and u for stable [ɨ].
+The other vowel schwa mutates with is [u], e.g. trwm [trum] ‘heavy’, trymion [trəmjɔn] ‘heavy PL.’. Here
+Hannahs posits an underlying /u/, which surfaces as [u] in a word-final syllable and as [ə] elsewhere.
+Mutation to [ə] is blocked if another [u] appears in the final syllable, e.g. cwmwl [kumul] ‘cloud’
+(*[kəmul]). (Compare this with cymylau /kumul+a/ > [kəməla] ‘clouds’, where mutation does occur
+because the otherwise blocking /u/ in the root-final syllable is no longer final in the word.) According to
+the author, the blocking effect results from the two nuclei being doubly linked to a single feature
+specification. The latter counts as final in the word and thus does not meet the pre-final structural
+description of mutation
+
+                                                      3
+The chapter ends with discussions of two other processes: place and manner assimilation in nasals, and
+vowel ‘affection’. The latter is a now morphologised form of umlaut that raises and/or fronts root vowels
+under the influence of [i] or [ɨ] in a suffix, e.g. mab [maːb] ‘son’, meibion [ˈmɛɪbjɔn] ‘sons’.
+It is becoming increasingly clear that the context for many of the segmental phenomena previously
+analysed in terms of the syllable is better viewed in terms of the foot. In chapter 6, Hannahs adds to this
+evidence by showing how the foot plays host to a range of phenomena in Welsh, including vowel
+epenthesis, the distribution of [h], and the deletion of antepenultimate unstressed syllables.
+As mentioned above, vowel epenthesis is one of the strategies Welsh employs to break up rising-sonority
+clusters at the end of words, e.g. pobl /pɔbl/ > [pɔbɔl] ‘people’. Under Hannahs’ OT account, this
+particular repair is driven by, among other factors, a need for the output to form a bisyllabic foot. Highly
+ranked foot-binarity constraints are violated when a candidate is neither bisyllabic nor bimoraic; this
+rules out consonant deletion as a repair when it would yield a monomoraic monosyllable, e.g.
+/pɔbl/ > *[pɔb] (recall that final [b] is non-moraic). Specific rankings of additional markedness,
+alignment and faithfulness constraints are needed to ensure that the epenthetic vowel is a copy of the root
+vowel, that epenthesis is medial rather than final, and that the linear order of the root segments is
+preserved as far as possible. Further constraint rankings are needed to ensure that this analysis also works
+for forms with final three-consonant clusters with a falling-rising sonority profile, such as the final
+underlying /ŋkr/ of cancr ‘cancer’. Both attested [kaŋkar] and unattested *[kaŋk], with final deletion,
+satisfy foot binarity, the former syllabically, the latter moraically (recall that true—i.e. falling-sonority—
+word-final clusters are moraic). To cater for examples such as this, epenthesis must always be preferred
+over deletion, achieved by ranking MAX-IO over DEP-IO.
+According to previous descriptions, [h] in Welsh can only appear either word-initially or in the onset of
+a stressed syllable. Hannahs proposes that this disjunction can be avoided by stating the distribution
+‘simply’ as ‘foot-initial’ (p. 103). This is the same distribution as plosive aspiration, a pattern now
+increasingly being recognised as typical of aspirating languages, including English
+(cf. Davis & Cho 2003). It would be invidious to make constant comparisons between the phonologies
+of Welsh and English (not least because of political sensitivities in Wales and the UK at large), and
+Hannahs steers well clear of doing so here. That’s not to say there aren’t good linguistic grounds for
+investigating the phonological similarities—centuries of language contact, bilingualism, and borrowing.
+However, Hannahs is probably right to have decided that a book in this series is not the place to dwell on
+this issue.
+In fact Hannahs’ account of [h] turns out to require a disjunction after all. The account is woven into his
+OT analysis of footing in Welsh. Regular main stress is penultimate, derivable by building syllabic
+trochees aligned with the right edge of the word. In monosyllabic words as well as in words with lexically
+marked final stress such as parhau ‘to continue’ and gwahodd ‘to invite’, the foot at the right edge of the
+word is a bimoraic monosyllable rather than bisyllabic. Hannahs derives this pattern by a constraint
+ranking that makes it less important for feet to be syllabically binary than for syllables to be footed and
+lexical stresses to be preserved. Syllables preceding a final or penultimate stress may be footed, indicating
+the presence of subsidiary stresses, or left unfooted.
+As to [h], it can appear initially in a foot (which we indicate by curly brackets), whether this contains a
+main stress, as in brenhines [{brɛn}{hinɛs}] ‘queen’ or a subsidiary stress, as in hanesyddol
+[{hanɛ}{səðɔl}] ‘historical’. However, it can also appear word-initially in an unstressed (i.e. unfooted)
+syllable, e.g. hanesion [ha{nɛʃɔn}] ‘stories’, hyhi [hə{ˈhiː}] ‘she EMP.’ (note that the stray syllables here
+are monomoraic and thus too small to satisfy foot binarity). Stating the distribution of [h] must thus refer
+disjointly to foot-initial and word-initial positions. Exactly the same analytic challenge is posed by other
+languages with parallel distributions of [h] and aspiration. The distribution could be described more
+broadly as ‘metrical-domain-initial’. The only obvious way to retain a purely foot-based treatment is to
+allow initial stray syllables to be incorporated into something like a super-foot (cf. Davis & Cho 2003).
+
+                                                      4
+Although the author does not employ the super-foot directly in his treatment of [h]’s distribution, it does
+feature later, in the discussion of antepenultimate deletion. This optionally deletes an initial unstressed
+syllable in trisyllabic words, e.g. adéryn > déryn ‘bird’, eistéddwch > stéddwch ‘sit 2FORMAL.IMP.’,
+Nadólig > Dólig ‘Christmas’ (stress marks ours). Some words fail to undergo the process in spite of
+apparently meeting its structural description, e.g. capéli > *péli ‘chapels’, uchélach > *chélach ‘higher’.
+Hannahs suggests the difference can be attributed to different metrical representations. The initial syllable
+is adjoined to a superfoot in stable trisyllables such as capeli but attaches directly to the prosodic word
+in alternating forms such as aderyn. In the latter case, the initial syllable is extrametrical, and it is this
+that makes it a target of deletion. The author acknowledges that extrametricality violates the general
+constraint requiring all syllables to be parsed. What is not acknowledged, though, is that the deletion of
+[h]-initial syllables in words such as hosánau > sánau ‘stockings’ and hesbínod > sbínod ‘yearling ewes’
+also violates the constraint requiring [h] to be preserved in domain-initial position. Hannahs notes that
+frequency may be playing a role here, with more common words being more susceptible to truncation.
+This would be consistent with a non-metrical account of the lexical selectivity of the process, according
+to which the longer and shorter forms of more frequent trisyllables are simply listed in the lexicon.
+If there is one phenomenon that looms large over any description of Celtic phonology it is word-initial
+consonant mutation. Hannahs chooses to postpone discussion of this phenomenon until the penultimate
+chapter of the book. His reasoning is that mutation is not phonological and thus does not deserve to
+occupy centre stage in a book belonging to a series on phonology. The reader, especially one not fully
+versed in Celtic phonology, might find the postponement frustrating since the central place of mutation
+in Welsh grammar inevitably means it keeps cropping up throughout the book, including in the opening
+chapters.
+The mutation of radical (root-initial) consonants in Welsh comes in three main grades—soft, nasal and
+aspirate. Hannahs provides a handy summary of their effects:
+(1)
+                                Radical     p    t   k    b   d ɡ m ɬ r̥
+                                Soft        b   d    ɡ    v   ð Ø v l r
+                                Nasal       m̥ n̥    ŋ̊   m   n ŋ
+                                Aspirate    f   θ    χ
+
+
+By ‘not phonological’ Hannahs means that mutation is not phonologically conditioned. This much is
+pretty uncontroversial: as the author’s review of the literature shows, there is general agreement that,
+though Celtic mutation was once phonologically regular, it is now triggered by complex sets of
+morphological and syntactic factors. This is not to say that the phenomenon is altogether
+non-phonological: there are clear, segmentally non-arbitrary connections between the inputs and outputs
+in all three grades.
+Hannahs reviews various approaches to mutation, ranging from the fully phonological (in which
+alternants derive from a single underlying form) to the fully lexical (in which alternants are listed in the
+lexicon as allomorphs). He rejects the first of these on the grounds that the environment of mutation
+cannot be specified in phonological terms. Moreover, a fully phonological analysis is incompatible with
+a basic prediction of OT, that an unfaithful (i.e. mutated) form would only be selected if it is less marked;
+as is clear from (1), for at least some mutated forms, the opposite is the case. Hannahs rejects a fully
+lexical account on the grounds that it overlooks the undeniably phonological connection between
+mutation inputs and outputs.
+The solution Hannahs himself proposes is based on what he terms ‘pattern extraction’, a notion strongly
+
+                                                      5
+reminiscent of Bybee’s schemas (cf. Bybee & Slobin 1982, Bybee & Moder 1983). The extracted patterns
+are represented independently in the lexicon in the form of links between each radical consonant and its
+mutated alternants, as in (2a). The speaker/hearer draws upon these links to arrive at the correct form of
+a morpheme in a given mutation context. The contexts themselves are defined by subcategorisation,
+which can be lexical (e.g. the preposition â ‘with’ selects an <aspirate> alternant) or syntactic (e.g. <soft>
+is selected on the initial word following an XP).
+(2)    (a)                                            (b)
+       d <soft>                                       soft <VOICED STOP>
+
+
+               t <radical>                                    radical <VOICELESS STOP>
+
+
+                       n̥ <nasal>                                     nasal <VOICELESS NASAL>
+       θ <aspirate>                                   aspirate <VOICELESS FRICATIVE>
+
+
+Much of the time, Hannahs presents the extraction patterns as relations among autonomous phonemes,
+as in (2a). However, in acknowledgment of the subsegmental regularities underlying these relations, he
+hints that speakers might further generalise the patterns into segment classes, as in (2b). Other than
+making passing reference to the feature [continuant], he goes no further than using traditional IPA terms
+to label these classes. Adequate as this labelling might be for the handful of alternation examples with
+which he illustrates pattern extraction, it’s not up to the task of capturing the overall shape of the three
+mutation types in (1), a point that has been made elsewhere in the Celtic phonology literature. There is
+no discussion in this chapter of specific proposals for how best to capture these regularities in terms of
+features or elements (no mention for example of Buczek’s (1995) and Cyran’s (2010) work on Welsh or
+of Cyran’s (1997) work on the cognate patterns in Irish).
+Various productive phenomena related to mutation in Welsh can be taken as showing the advantages of
+an approach based on pattern extraction over one based on lexical allomorphy. Loans and neologisms
+can take part in mutation (e.g. drinc ‘drink’ > fy nrinc ‘my drink’), and some loans have been reanalysed
+as already-mutated forms (e.g. melfed from English velvet). In some native Welsh words, an
+etymologically mutated consonant has been reanalysed as the radical, leading to a further, unetymological
+mutation. For example, bobl ‘people’ (from pobl by soft mutation) can be ‘over-mutated’ to fobl. The
+word addo ‘promise’, which frequently occurs in a soft mutation context (e.g. dy addo ‘your promise’),
+can be reanalysed as underlying gaddo, with an unetymological [ɡ]. Evidence of this sort strongly
+suggests that, although the trigger for mutation may no longer be phonological, the consonant alternations
+themselves still show active feature-based patterning.
+The last chapter briefly describes further aspects of Welsh phonology not treated elsewhere in the book,
+including the process of calediad mentioned above. There are discussions of: (i) the segmental and stress
+differences between ‘loose’ and ‘strict’ compounds; (ii) the analytical challenge posed by pro- and
+enclitics, which appear to be in the domain of their host for some phonological phenomena but not for
+stress; (iii) the syllabification of the definite article y/yr/’r, which sometimes behaves as a proclitic and
+at others an enclitic; and (iv) the syllabication of the voiceless sonorants [m̥, n̥, ŋ̊, r̥ʰ], which can
+apparently split across a syllable boundary, e.g. fy mhen /ə m̥ɛn/ > [əm hɛn] ‘my head’. There was no
+lack of space to discuss these issues at greater length. Nonetheless, this chapter is one of the most useful
+parts of the book, as it clearly sets out some of the problems that readers might want to tackle themselves.
+The Phonology of Welsh raises as many analytical questions as it answers. You could see this as one of
+the book’s strengths, especially since it does such a valuable job of marshalling the available facts in one
+
+                                                      6
+place. It provides an excellent entry point for phonologists wishing to take these questions further and
+will serve as an important reference point for future work on Welsh.
+
+
+References
+Buczek, Anita (1995). Lenition and fortition: Consonant mutation in Welsh. In E. Gussmann (ed.),
+Licensing in Syntax and Phonology (Vol. 1, p. 187–216). Lublin, Folium.
+Bybee, Joan L. and Carol L. Moder (1983). Morphological classes as natural categories. Language, 59,
+pp. 251–270.
+Bybee, Joan L. and Dan I. Slobin (1982). Rules and schemas in the development and use of the English
+past tense. Language, 58, pp. 265–289.
+Cyran, Eugeniusz (1997). Resonance Elements in Phonology. A Study in Munster Irish. Lublin: Folium.
+Cyran, Eugeniusz (2010). Complexity scales and licensing in phonology. Berlin: De Gruyter Mouton.
+Davis, Stuart & Mi-Hui Cho (2003). The distribution of /h/ and aspirated stops in American English and
+Korean: an alignment approach with typological implications. Linguistics, 41, pp. 607–652.
+Dell, François (1995). Consonant clusters and phonological syllables in French. Lingua, 95, pp. 5–26.
+Iosad, Pavel (2012). Representation and variation in substance-free phonology: A case study in Celtic.
+Doctoral dissertation, University of Tromsø.
+
+
+
+
+                                                   7
+

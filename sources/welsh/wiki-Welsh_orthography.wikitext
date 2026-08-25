@@ -1,0 +1,415 @@
+{{Short description|Rules for writing the Welsh language}}
+{{Use dmy dates|date=April 2022}}
+{{IPA notice}}
+'''Welsh orthography''' uses 29 [[letter (alphabet)|letter]]s (including eight [[digraph (orthography)|digraph]]s) of the [[Latin script]] to write native [[Welsh language|Welsh]] words as well as established loanwords.<ref>{{cite web|url=http://www.madog.org/dysgwyr/gramadeg/gramadeg1.html|title=Yr Wyddor Gymraeg/The Welsh Alphabet|access-date=4 March 2015}}</ref><ref>{{cite web|url=http://www.comisiynyddygymraeg.cymru/english/Part%203/10%20Locales%20alphabets%20and%20character%20sets/10.2%20Alphabets/Pages/10-2-Alphabets.aspx|title=Alphabets|access-date=30 May 2017|archive-date=17 September 2020|archive-url=https://web.archive.org/web/20200917002233/http://www.comisiynyddygymraeg.cymru/english/Part%203/10%20Locales%20alphabets%20and%20character%20sets/10.2%20Alphabets/Pages/10-2-Alphabets.aspx|url-status=dead}}</ref>
+
+{| class="wikitable" style="margin:1em auto; width: 50em; text-align: center; border-collapse:collapse;"
+! style="background: #efefef; font-weight: normal;" colspan="29" | '''[[Capital letters|Majuscule forms]]''' (also called '''uppercase''' or '''capital letters''')
+|-
+| [[A]] || [[B]] || [[C]] || [[Ch (digraph)|CH]] || [[D]] || [[Dd (digraph)|DD]] || [[E]] || [[F]] || [[Ff (digraph)|FF]] || [[G]] || [[Ng (digraph)|NG]] || [[H]] || [[I]] || [[J]] || [[L]] || [[Ll (digraph)|LL]] || [[M]] || [[N]] || [[O]] || [[P]] || [[Ph (digraph)|PH]] || [[R]] || [[Rh (digraph)|RH]] || [[S]] || [[T]] || [[Th (digraph)|TH]] || [[U]] || [[W]] || [[Y]]
+|-
+! style="background: #efefef; font-weight: normal;" colspan="29" | [[Titlecase]] forms
+|-
+| A || B || C || Ch || D || Dd || E || F || Ff || G || Ng || H || I || J || L || Ll || M || N || O || P || Ph || R || Rh || S || T || Th || U || W || Y
+|-
+! style="background: #efefef; font-weight: normal;" colspan="29" | '''[[Lower case|Minuscule forms]]''' (also called '''lowercase''' or '''small letters''')
+|-
+| a || b || c || ch || d || dd || e || f || ff || g || ng || h || i || j || l || ll || m || n || o || p || ph || r || rh || s || t || th || u || w || y
+|}
+
+The traditional names of the letters are {{lang|cy|a, bi, èc, èch, di, èdd, e, èf, èff, èg, èng, aets, i, je, èl, èll, èm, èn, o, pi, ffi (yff), èr, rhi, ès, ti, èth, u, w, y.}}<ref>Brake, P. and Brake, J. (2020), ''Welsh in 12 Weeks'', pp. 5–6.</ref><ref>Morris-Jones, J. (1922), ''An Elementary Welsh Grammar'', p. 1.</ref> In South Wales, where the letters ''i'' and ''u'' are pronounced identically, they are distinguished as {{lang|cy|i-dot}} and {{lang|cy|u-bedol}} ({{lang|cy|bedol}} means "horseshoe"). Thus the television channel [[S4C]] is pronounced {{lang|cy|ès pedwar èc}}. Informally, another way of saying the letters is often used, adding the sound [ɘ] after stop consonants and simply pronouncing the others: ''a, by, cy, ch, dy, dd'', and so on.
+
+In a Welsh dictionary, the Welsh order of letters is strictly observed, so that {{lang|cy|cyngor}} 'council' is found before {{lang|cy|cyhyrog}} 'muscular', and {{lang|cy|lori}} 'lorry' is found before {{lang|cy|llaeth}} 'milk'.
+
+Welsh [[orthography]] makes use of multiple [[diacritic]]s, which are primarily used on vowels, namely the [[acute accent]] ({{lang|cy|acen ddyrchafedig}}), the [[grave accent]] ({{lang|cy|acen ddisgynedig}}), the [[circumflex]] ({{lang|cy|acen grom}}, {{lang|cy|to bach}}, or {{lang|cy|hirnod}}) and the [[diaeresis (diacritic)|diaeresis]] ({{lang|cy|didolnod}}). They are considered variants of their base letter, i.e. they are not [[alphabetisation|alphabetised]] separately. The Welsh alphabet also makes no use of {{vr|[[K]]}} ({{lang|cy|ce}}, {{IPA|cy|keː|}}), {{vr|[[Q]]}} ({{lang|cy|ciw}}, {{IPA|cy|kɪu̯|}}), {{vr|[[V]]}} ({{lang|cy|fi}}, {{IPA|cy|viː|}}), {{vr|[[X]]}} ({{lang|cy|ecs}}, {{IPA|cy|ɛks|}}), and {{vr|[[Z]]}} ({{lang|cy|sèd}}, {{IPA|cy|sɛd|}}/{{IPA|cy|zɛd|}}).<ref>{{cite web |title=The Alphabet |url=https://www.chelmsfordwelsh.org.uk/alphabet.html#:~:text=The%20letters%20J%2C%20K%2C%20Q,%2C%20ph%2C%20rh%20and%20th |website=ChelmsfordWelsh.org.uk |publisher=Chelmsford & District Welsh Society |access-date=7 May 2026}}</ref>
+
+== Foreign words ==
+
+Welsh borrows a number of words from English.<ref>{{cite book |last1=Nadine Kröschel |first1=Nadine |title=Welsh - A vanishing language through English loans |date=2002 |publisher=University of Marburg |isbn=9783638524391 |url=https://www.grin.com/document/58172|access-date=7 May 2026}}</ref> Those words are spelled according to Welsh spelling conventions, for example: {{lang|cy|bws}} "[[bus]]", {{lang|cy|bwc}} "[[Wiktionary:buck|buck]]", {{lang|cy|bwced}} "[[bucket]]", {{lang|cy|car}} "[[car]]", {{lang|cy|nogin}} "[[Wiktionary:noggin|noggin]]", {{lang|cy|gob}} "[[Wiktionary:gob|gob]]", {{lang|cy|slogan}} "[[slogan]]", {{lang|cy|fflanel}} "[[flannel]]", {{lang|cy|trwnt}} "[[truant]]", and {{lang|cy|gêl/geol/jael/jêl/siêl}} "[[gaol]]".
+
+=== Non-native letters in Welsh ===
+
+The letter ⟨j⟩ has only recently entered into Welsh orthography, but is still debated: for newly borrowed words from English which retain the {{IPA|/dʒ/}} sound, even when it was not originally spelled ⟨j⟩ in English, as in {{lang|cy|garej}} ("garage"), {{lang|cy|jiráff}} ("giraffe"), and {{lang|cy|ffrij}} ("fridge"), although often these words have Welsh equivalences or are spelt without ⟨j⟩ such as {{lang|cy|modurdy}} ("garage"), {{lang|cy|siráff}} ("giraffe"), and {{lang|cy|oergell}} ("fridge"). Older borrowings of English words containing {{IPA|/dʒ/}} resulted in the sound being pronounced and spelled in various other ways, most commonly approximated by ⟨si⟩ with the {{IPA|/ʃ/}} sound as in {{lang|cy|Siapan}} ("[[Japan]]"), and {{lang|cy|siaced}} ("[[jacket]]").{{efn|While the [[International Rugby Club]] uses the term "Siapan" in Welsh, sources such as Yr Atlas Cymraeg Newydd and the [[Welsh Wikipedia]] use the term "Japan".}}
+
+The letters ⟨k, q, v, x, z⟩ are not part of the Welsh Alphabet. However, these letters are used in foreign [[proper names]] and their derivatives: {{lang|cy|Kantaidd}}, {{lang|cy|Zwinglïaidd}}. They are also sometimes used in technical and other specialized terms, like ''kilogram'', ''queer'', ''volt'', ''taxi'', and ''zero'', but in all cases can be, and often are, nativised: {{lang|cy|cilogram}}, {{lang|cy|cwiar}}, {{lang|cy|folt}}, {{lang|cy|tacsi}} and {{lang|cy|sero}}.<ref>Thomas, Peter Wynn (1996) ''Gramadeg y Gymraeg.'' Cardiff: University of Wales Press: 757.</ref>
+
+== History ==
+[[File:Welsh alphabet card italic C19th.jpg|thumb|A 19th-century Welsh alphabet printed in [[Welsh language|Welsh]], without {{vr|j}} or {{vr|rh}}]]
+The earliest samples of written Welsh date from the 6th century and are in the [[Latin alphabet]] (see [[Old Welsh]]). The orthography differs from that of modern Welsh, particularly in the use of {{vr|p, t, c}} to represent the [[Voice (phonetics)|voiced]] [[plosive]]s {{IPA|/b, d, ɡ/}} non initially. Similarly, the voiced [[Fricative consonant|fricatives]] {{IPA|/v, ð/}} were written {{vr|b, d}}.<ref name="Watkins">Watkins, T. Arwyn (1993) "Welsh" in Ball, Martin J. with Fife, James (Eds) ''The Celtic Languages.'' London/New York: Routledge: 289-348.</ref>
+
+By the [[Middle Welsh]] period, this had given way to quite a bit of variability: Although {{vr|b, d, g}} were now used to represent {{IPA|/b, d, ɡ/}}, these sounds were also often written as in Old Welsh, while {{IPA|/v/}} could be denoted by {{vr|u, v, [[ỽ]], f, w}}. In earlier manuscripts, moreover, [[Fricative consonant|fricatives]] were often not distinguished from [[plosive]]s (e.g. {{vr|t}} for {{IPA|/θ/}}, now written {{vr|th}}).<ref>Evans, Simon D. (1964) ''A Grammar of Middle Welsh.'' Dublin: ColourBooks Ltd.</ref> The [[grapheme]] {{vr|k}} was also used, unlike in the modern alphabet, particularly before [[front vowel]]s.<ref name="Watkins" /> The disuse of this letter is at least partly due to the publication of [[William Salesbury]]'s Welsh New Testament and [[William Morgan (Bible translator)|William Morgan]]'s [[Welsh Bible]], whose English printers, with type letter frequencies set for English and Latin, did not have enough {{vr|k}} letters in their type cases to spell every {{IPA|/k/}} as {{vr|k}}, so the order went "C for K, because the printers have not so many as the Welsh requireth";<ref>{{Deprecated archive|url=https://archive.today/20200924220312/https://faculty.smu.edu/bwheeler/tolkien/online_reader/T-English&Welsh.PDF|title=English and Welsh}},{{dead link|date=December 2023}} an essay by [[J. R. R. Tolkien]]</ref> this was not liked at the time, but has become standard usage.
+
+In this period, {{vr|[[Eth|ð]]}} (capital {{vr|Ð}}) was also used interchangeably with {{vr|dd}}, such as the passage in the 1567 New Testament: {{lang|cy|A Dyw y sych ymaith yr oll '''ð'''eigre o'''dd'''iwrth y llygeid}}, which contains both {{vr|ð}} and {{vr|dd}}.  Elsewhere, the same word is spelt in different ways, e.g. {{lang|cy|newy'''dd'''}} and {{lang|cy|newy'''ð'''}}.<ref>{{citation |url=https://www.bible.com/bible/2000/REV.21.sby1567 |title=Testament Newydd (1567) Pen 21 |trans-title=The 1567 New Testament, Revelation 21}}.</ref>
+
+The printer and publisher [[Lewis Jones (Patagonia)|Lewis Jones]], one of the co-founders of {{lang|cy|[[Y Wladfa]]|italic = no}}, the Welsh-speaking settlement in Patagonia, favoured a limited [[spelling reform]] which replaced Welsh {{vr|f}} {{IPA|/v/}} and {{vr|ff}} {{IPA|/f/}} with {{vr|v}} and {{vr|f}}, and from ''circa'' 1866 to 1886 Jones employed this innovation in a number of newspapers and periodicals he published and/or edited in the colony.<ref name="Watkins" /> However, the only real relic of this practice today is the Patagonian placename [[Trevelin]] ("mill town"), which in standard Welsh orthography would be {{lang|cy|Trefelin}}.
+
+In 1928, a committee chaired by Sir [[John Morris-Jones]] standardised the orthography of modern Welsh.
+
+In 1987, a committee chaired by Professor Stephen J. Williams made further small changes,{{which|date=September 2021}} introducing {{vr|[[j]]}}. Not all modern writers adhere to the conventions established by these committees.<ref>Thomas, Peter Wynn (1996) ''Gramadeg y Gymraeg.'' Cardiff: University of Wales Press: 749.</ref>
+
+== Letter names and sound values ==
+"N" and "S" indicate variants specific to the northern and southern dialects of Welsh. Throughout Wales, an alternative system is also in use, in which all consonant letters are named using the corresponding consonant sound plus a [[schwa]] (e.g. {{lang|cy|cy}} {{IPA|/kə/}} for {{lang|cy|èc}}). In this system the vowels are named as below.
+:{| class="wikitable"
+! Letter
+! Name
+! Corresponding sounds
+! English approximation
+|-
+| a
+| {{lang|cy|a}}
+| {{IPA|/{{IPAlink|a}}, {{IPAlink|ɑː}}, a:/}}
+| f'''a'''ther (long)
+|-
+| b
+| {{lang|cy|bi}}
+| {{IPAslink|b}}
+| '''b'''at
+|-
+| c
+| {{lang|cy|èc}}
+| {{IPAslink|k}}
+| '''c'''ase
+|-
+| ch
+| {{lang|cy|èch}}
+| {{IPAslink|χ}}
+| No English equivalent; similar to lo'''ch''' in Scots, but pronounced further back.
+|-
+| d<ref group=* name=si>The sequence ''si'' indicates {{IPA|/ʃ/}} when followed by a vowel; similarly, ''di'' and ''ti'' sometimes indicate {{IPA|/dʒ/}} and {{IPA|/tʃ/}} respectively when followed by a vowel, although these sounds are spelled ''j'' and ''ts'' in loanwords like {{lang|cy|jẁg}} "jug" and {{lang|cy|wats}} "watch".</ref>
+| {{lang|cy|di}}
+| {{IPAslink|d}}
+| '''d'''ay
+|-
+| dd
+| {{lang|cy|èdd}}
+| {{IPAslink|ð}}
+| '''th'''ese
+|-
+| e
+| {{lang|cy|e}}
+| {{IPA|/{{IPAlink|ɛ}}, {{IPAlink|eː}}/}}
+| b'''e'''d (short) / closest to h'''e'''y (long)
+|-
+| f
+| {{lang|cy|èf}}
+| {{IPAslink|v}}
+| '''v'''iolet
+|-
+| ff
+| {{lang|cy|èff}}
+| {{IPAslink|f}}
+| '''f'''our
+|-
+| g
+| {{lang|cy|èg}}
+| {{IPAslink|ɡ}}
+| '''g'''ate
+|-
+| ng
+| {{lang|cy|èng}}
+| {{IPAslink|ŋ}}
+| thi'''ng'''
+|-
+| h<ref group=*>In addition to representing the phoneme {{IPA|/h/}}, ''h'' indicates [[Voice (phonetics)|voicelessness]] in the [[grapheme]]s ''mh'', ''nh'', and ''ngh''.</ref>
+| {{lang|cy|aets}}
+| {{IPAslink|h}}
+| '''h'''at
+|-
+| i
+| {{lang|cy|i}}, {{lang|cy|i dot}} (S)
+| {{IPA|/{{IPAlink|ɪ}}, {{IPAlink|iː}}, {{IPAlink|j}}/}}
+| b'''i'''t (short) / mach'''i'''ne (long) / '''y'''es (as consonant; before vowels)
+|-
+| j
+| {{lang|cy|je}}
+| {{IPAslink|d͡ʒ}}
+| '''j'''ump (only found in loanwords, usually from English but still in wide use such as {{lang|cy|'''j'''eli}} ('jelly', {{IPA|cy|dʒɛlɪ|ipa}}) and {{lang|cy|'''j'''îns}} ('jeans', {{IPA|cy|dʒɪnz|ipa}})
+|-
+| l
+| {{lang|cy|èl}}
+| {{IPAslink|l}}
+| '''l'''ad
+|-
+| ll
+| {{lang|cy|èll}}
+| {{IPAslink|ɬ}}
+| not present in English; a [[voiceless alveolar lateral fricative]]. A bit like what the consonant cluster "hl" would sound like.
+|-
+| m
+| {{lang|cy|èm}}
+| {{IPAslink|m}}
+| '''m'''at
+|-
+| n
+| {{lang|cy|èn}}
+| {{IPAslink|n}}
+| '''n'''et
+|-
+| o
+| {{lang|cy|o}}
+| {{IPA|/{{IPAlink|ɔ}}, {{IPAlink|oː}}/}}
+| Short, like "b'''o'''g" in [[received pronunciation|RP]]; long like d'''aw'''n in RP or st'''o'''ve in [[Scottish English]]
+|-
+| p
+| {{lang|cy|pi}}
+| {{IPAslink|p}}
+| '''p'''et
+|-
+| ph<ref group=*>The digraph ''ph'' – which indicates the [[Welsh morphology|aspirate mutation]] of ''p'' (e.g. {{lang|cy|ei phen-ôl}}) – may also be found very occasionally in words derived from [[Greek language|Greek]] (e.g. {{lang|cy|Pharo}}), although most words of Greek origin are spelt with ''ff'' (e.g. {{italics correction|{{lang|cy|ffotograff}}}}).</ref>
+| {{lang|cy|ffi}}
+| {{IPAslink|f}}
+| '''ph'''one
+|-
+| r
+| {{lang|cy|èr}}
+| {{IPAslink|r}}
+| Rolled R
+|-
+| rh
+| {{lang|cy|rhi}}
+| {{IPAslink|r̥}}
+| Voiceless rolled R
+|-
+| s<ref group=* name=si />
+| {{lang|cy|ès}}
+| {{IPAslink|s}}
+| '''s'''at
+|-
+| t<ref group=* name=si />
+| {{lang|cy|ti}}
+| {{IPAslink|t}}
+| s'''t'''ick
+|-
+| th
+| {{lang|cy|èth}}
+| {{IPAslink|θ}}
+| '''th'''in
+|-
+| u
+| {{lang|cy|u}} (N), {{lang|cy|u bedol}} (S)
+| {{IPA|/{{IPAlink|ɨ̞}}, {{IPAlink|ɨː}}/}} (N),<ref group="*" name=":0">In the North, the letters ''u'' and ''y'' are occasionally pronounced {{IPA|/ɪ, iː/}}, the same as in the South, rather than {{IPA|/ɨ̞, ɨː/}}. This is usually the case when the preceding vowel is {{IPA|/ɪ/}} or when ''y'' is preceded or followed by ''g'' {{IPA|/ɡ/}} or followed by ''w'' {{IPA|/u/}}, forming a diphthong.{{Cite web|url = http://www.geiriaduracademi.org/?page_id=50|title = Morffoleg y Gymraeg|access-date = 25 July 2014|website = Geiriadur yr Academi|publisher = Bangor University}}</ref><br />{{IPA|/{{IPAlink|ɪ}}, {{IPAlink|iː}}/}} (S)
+| for Southern variants: b'''i'''t (short) / mach'''i'''ne (long); in Northern dialects {{IPA|/ɨ̞, ɨː/}} not found in English. Identical to "î" and "â" in [[Romanian language|Romanian]], and similar to the "e" in English ''ros'''e'''s''.
+|-
+| w
+| {{lang|cy|w}}
+| {{IPA|/{{IPAlink|ʊ}}, {{IPAlink|uː}}, {{IPAlink|w}}/}}
+| p'''u'''sh (short) / p'''oo'''l (long) / '''w'''et (glide)
+|-
+| y<ref group=*>The vowel letter ''y'' indicates {{IPA|/ə/}} in unstressed monosyllabic words (e.g. {{lang|cy|y}} "the", {{lang|cy|fy}} "my") or non-final syllables (regardless of whether these are stressed or not), but {{IPA|/ɨ̞, ɨː/}} (N) or {{IPA|/ɪ, iː/}} (S) in word-final syllables (again, regardless of stress).</ref>
+| {{lang|cy|ỳ}}
+| {{IPA|/{{IPAlink|ɨ̞}}, {{IPAlink|ɨː}}, {{IPAlink|ə}}/}} (N),<ref name=":0" group="*" /><br />{{IPA|/{{IPAlink|ɪ}}, {{IPAlink|iː}}, {{IPAlink|ə}}/}} {{IPAslink|əː}} (S)
+| for Southern variants: b'''i'''t (final syllable, short) / mach'''i'''ne (final syllable, long) <br /> '''a'''bove (other places, short) / ros'''e'''s {{IPA|/ɨ̞, ɨː/}}, found in certain dialects of English that differentiate "Rosa's" and "roses", for example, General American.
+|}
+
+;Notes
+<references group=* />
+
+=== Diphthongs ===
+:{| class="wikitable"
+! Orthography
+! Northern dialects
+! Southern dialects
+! English (approximation only)
+|-
+| rowspan=2 | ae
+| {{IPA|/ɑːɨ̯/}} <ref group=*>final or only syllable, e.g. {{lang|cy|chwar'''ae'''}}, {{lang|cy|c'''ae'''th}}</ref>
+| {{IPA|/ai̯/}}
+| '''eye'''
+|-
+| {{IPA|/eːɨ̯/}} <ref group=*>non-final syllable. e.g. {{lang|cy|chwar'''ae'''wr}}, {{lang|cy| c'''ae'''thwas}}</ref>
+| {{IPA|/ɛi̯/}}
+| m'''ay'''
+|-
+| ai
+| {{IPA|/ai̯/}}
+| {{IPA|/ai̯/}}
+| '''eye'''
+|-
+| au
+| {{IPA|/aɨ̯/}}, {{IPA|/a/}}
+| {{IPA|/ai̯/}}, {{IPA|/ɛ/}}
+| '''eye'''. Realised as c'''a'''t (north) and b'''e'''t (south) in plural endings.
+|-
+| aw
+| {{IPA|/au̯, ɑːu̯/}}
+| {{IPA|/au̯/}}
+| h'''ow'''
+|-
+| ei
+| {{IPA|/ɛi̯/}}
+| {{IPA|/ɛi̯/}}
+| As in '''ei'''ght.
+|-
+| eu
+| {{IPA|/əɨ̯/}}
+| {{IPA|/əi̯/}}
+| As in h'''eigh'''t.
+|-
+| ew
+| {{IPA|/ɛu̯, eːu̯/}}
+| {{IPA|/ɛu̯/}}
+| Roughly like ''Edward'' with the ''d'' removed: '''''E'w'''ard'', or Cockney pronunciation of ''-ell'' in words like ''w'''ell''''', ''h'''ell'''''.
+|-
+| ey
+| {{IPA|/e.ɨ̯/}}
+| {{IPA|/e.ɪ/}}
+| Two distinct vowels.
+|-
+| iw
+| {{IPA|/ɪu̯/}}
+| {{IPA|/ɪu̯/}}
+| Similar to Cockney pronunciation of ''-ill'' in words like ''b'''ill''''', ''f'''ill'''''.
+|-
+| oe
+| {{IPA|/ɔɨ̯, ɔːɨ̯/}}
+| {{IPA|/ɔi̯/}}
+| b'''oy'''
+|-
+| oi
+| {{IPA|/ɔi̯/}}
+| {{IPA|/ɔi̯/}}
+| b'''oy'''
+|-
+| ou
+| {{IPA|/ɔɨ̯, ɔːɨ̯/}}
+| {{IPA|/ɔi̯/}}
+| b'''oy'''
+|-
+| ow
+| {{IPA|/ɔu̯/}}
+| {{IPA|/ɔu̯/}}
+| g'''oa'''l
+|-
+| uw
+| {{IPA|/ɨu̯/}}
+| {{IPA|/ɪu̯/}}
+| Northern {{IPA|/ɨu̯/}}: not present in English. Southern {{IPA|/ɪu̯/}}: see "iw" above.
+|-
+| wy <ref group=*>In some other words containing the letter combination "wy", instead of this being a diphthong, the "w" is a consonant ({{IPA|/w/}}). In these cases, the pronunciation of the "y" can then vary as shown in the previous table. For example: short final in {{lang|cy|gwyn}} ({{IPA|/ɡwɨ̞n/}} (N), {{IPA|/ɡwɪn/}} (S)), long final in {{lang|cy|gwych}} ({{IPA|/ɡwɨːχ/}} (N), {{IPA|/ɡwiːχ/}} (S)), non-final in {{lang|cy|gwynion}} ({{IPA|/ˈɡwənjɔn/}}).</ref>
+| {{IPA|/ʊɨ̯, uɨ̯/}}
+| {{IPA|/ʊi̯/}}
+| Not present in English; closest to g'''ooey'''.
+|-
+| yw <ref group=*>where yw is followed by a vowel, e.g. {{lang|cy|cywir}}, {{lang|cy|tywod}}, {{lang|cy|tywydd}}, this does not contain the ''yw'' diphthong, but a non-final ''y'' (hence {{IPA|/ə/}}, see above) followed by a consonantal ''w'' {{IPA|/w/}}</ref>
+| {{IPA|/ɨu̯/}}
+| {{IPA|/ɪu̯/}}
+| See "uw" above.
+|}
+
+;Notes
+<references group=* />
+
+== Diacritics ==
+Welsh makes use of a number of [[diacritic]]s.
+
+The [[circumflex]] (ˆ) is mostly used to mark [[vowel length|long vowels]], so ''â, ê, î, ô, û, ŵ, ŷ'' are always long. However, not all long vowels are marked with a circumflex, so the letters ''a, e, i, o, u, w, y'' with no circumflex do not necessarily represent short vowels; see {{section link||Predicting vowel length from orthography}}.
+
+The [[grave accent]] (`) is sometimes used, usually in words borrowed from another language, to mark vowels that are short when a long vowel would normally be expected, e.g. {{lang|cy|pas}} {{IPA|/paːs/}} (a cough), {{lang|cy|pàs}} {{IPA|/pas/}} (a pass/permit or a lift in a car); {{lang|cy|mwg}} {{IPA|/muːɡ/}} (smoke), {{lang|cy|mẁg}} {{IPA|/mʊɡ/}} (a mug).
+
+The [[acute accent]] (´) is sometimes used to mark a stressed final syllable in a polysyllabic word. Thus the words {{lang|cy|gwacáu}} (to empty) and {{lang|cy|dicléin}} (decline) have final stress. However, not all polysyllabic words with final stress are marked with the acute accent ({{lang|cy|Cymraeg}} "Welsh" and {{lang|cy|ymlaen}} "forward/onward", for example, are written with none). The acute may also be used to indicate that a letter ''w'' represents a vowel where a glide might otherwise be expected, e.g. {{lang|cy|gẃraidd}} {{IPA|/ˈɡʊ.raið/}} (two syllables) "manly", as opposed to {{lang|cy|gwraidd}} {{IPA|/ˈɡwraið/}} (one syllable) "root".
+
+Similarly, the [[Diaeresis (diacritic)|diaeresis]] (¨) is used to indicate that two adjoining vowels are to be pronounced separately (not as a diphthong). However, it is also used to show that the letter ''i'' is used to represent the sequence {{IPA|/ij/}} which is always followed by another vowel, e.g. {{lang|cy|copïo}} (to copy) pronounced {{IPA|/kɔ.ˈpi.jɔ/}}, not {{IPA|*/ˈkɔp.jɔ/}}.
+
+The grave and acute accents in particular are very often omitted in casual writing, and the same is true to a lesser extent of the diaeresis. The circumflex, however, is usually included. Accented vowels are not considered distinct letters for the purpose of collation.
+
+== Predicting vowel length from orthography ==
+As mentioned above, vowels marked with the circumflex are always long, and those marked with the grave accent are always short. If a vowel is not marked with a diacritic, its length must be determined by its environment; the rules vary a bit according to dialect.<ref>{{Cite book|chapter=Phonotactic constraints in Welsh |first=Gwenllian M. |last=Awbery |pages=65–104 |title=Welsh Phonology: Selected Readings |editor1-first=Martin J. |editor1-last=Ball |editor2-first=Glyn E. |editor2-last=Jones |place=Cardiff |publisher=University of Wales Press |year=1984 |isbn=0-7083-0861-9}}</ref><ref>{{cite book |title=[[s:A Welsh Grammar, Historical and Comparative|A Welsh Grammar, Historical and Comparative]] |last=Morris Jones |first=J. |author-link=John Morris-Jones |year=1913 |publisher=Clarendon Press |location=Oxford |pages=11–18, 65–74}}</ref>
+
+In all dialects, only stressed vowels may be long; unstressed vowels are always short.
+
+An unmarked (stressed) vowel is long:
+* in the last syllable of a word when no consonant follows: {{lang|cy|da}} {{IPA|/dɑː/}} (good).
+* before [[voiced stop]]s ''b'', ''d'', ''g'' and before all [[fricatives]] (except for ''ll'') ''ch'', ''dd'', ''f'', ''ff'', ''th'', ''s'': {{lang|cy|mab}} {{IPA|/mɑːb/}} (son), {{lang|cy|hoff}} {{IPA|/hoːf/}} (favourite), {{lang|cy|peth}} {{IPA|/peːθ/}} (thing), {{lang|cy|nos}} {{IPA|/noːs/}} (night).
+
+An unmarked vowel is short:
+* in an unstressed ([[clitic|proclitic]]) word: {{lang|cy|a}} {{IPA|/a/}}.
+* before [[voiceless]] [[Plosive|stops]] ''p'', ''t'', ''c'' {{lang|cy|iet}} {{IPA|/jɛt/}} (gate), {{lang|cy|lloc}} {{IPA|/ɬɔk/}} (sheepfold) and before all [[consonant cluster]]s (except for those that start with s or ll) {{lang|cy|sant}} {{IPA|/sant/}} (saint), {{lang|cy|perth}} {{IPA|/pɛrθ/}} (hedge), {{lang|cy|Ebrill}} {{IPA|/ˈɛbrɪɬ/}} (April).
+
+When preceding the final syllable in a multisyllabic word, ''y'' is most often pronounced as {{IPA|/ə/}}: {{lang|cy|cyfan}} (whole) {{IPA|/ˈkəvan/}}. In monosyllabic words, or in the final syllable of a word, it follows the same rules as other vowels: {{lang|cy|dydd}} (day) {{IPA|/ˈdɨːð/}} (North) ~ {{IPA|/ˈdiːð/}} (South), {{lang|cy|ynys}} (island) {{IPA|/ˈənɨ̞s/}} (North) ~ {{IPA|/ˈənɪs/}} (South).
+
+Before ''l'', ''m'', ''n'', and ''r'', unmarked vowels are long in some words and short in others:
+:{|
+|- style="text-align:left;"
+! vowel
+! &emsp;
+! long  !! {{center|&emsp;}} !! &emsp;
+! &emsp;
+! short !! {{center|&emsp;}} !! &emsp;
+|-
+! i
+| &emsp;
+| {{lang|cy|gwin}}  || {{center|{{IPA|/ɡwiːn/}} }} || &nbsp;(wine)
+| &emsp;
+| {{lang|cy|prin}}  || {{center|{{IPA|/prɪn/}} }}  || &nbsp;(scarcely)
+|-
+! e
+| &emsp;
+| {{lang|cy|hen}}   || {{center|{{IPA|/heːn/}} }}  || &nbsp;(old)
+| &emsp;
+| {{lang|cy|pen}}   || {{center|{{IPA|/pɛn/}} }}   || &nbsp;(head)
+|-
+! y
+| &emsp;
+| {{lang|cy|dyn}}   || {{center|{{IPA|/dɨːn/ ~ /diːn/}} }} || &nbsp;(man)
+| &emsp;
+| {{lang|cy|gwyn}}  || {{center|{{IPA|/ɡwɨ̞n/ ~ /ɡwɪn/}} }} || &nbsp;(white)
+|-
+! w
+| &emsp;
+| {{lang|cy|stwmo}} || {{center|{{IPA|/ˈstuːmo/}} }}  || &nbsp;(bank up a fire)
+| &emsp;
+| {{lang|cy|amal}}  || {{center|{{IPA|/ˈamal/}} }}    || &nbsp;(often)
+|-
+! e
+| &emsp;
+| {{lang|cy|celyn}} || {{center|{{IPA|/ˈkeːlɪn/}} }} || &nbsp;(holly)
+| &emsp;
+| {{lang|cy|calon}} || {{center|{{IPA|/ˈkalɔn/}} }} || &nbsp;(heart)
+|}
+
+(The last four examples are given in South Welsh pronunciation only since vowels in nonfinal syllables are always short in North Welsh.)
+
+Before ''nn'' and ''rr'', vowels are always short: {{lang|cy|onn}} {{IPA|/ˈɔn/}} (ash trees), {{lang|cy|ennill}} {{IPA|/ˈɛnɪɬ/}} (to win), {{lang|cy|carreg}} {{IPA|/ˈkarɛɡ/}} (stone).
+
+In Northern dialects, long vowels are stressed and appear in the final syllable of the word. Vowels in non-final syllables are always short. In addition to the rules above, a vowel is long in the North before a consonant cluster beginning with ''s'': {{lang|cy|tyst}} {{IPA|/tɨːst/}} (witness). Before ''ll'', a vowel is short when no consonant follows the ''ll'': {{lang|cy|gwell}} (better) {{IPA|/ɡwɛɬ/}} It is long when another consonant does follow the ''ll'': {{lang|cy|gwallt}} {{IPA|/ɡwɑːɬt/}} (hair).
+
+In Southern dialects, long vowels may appear in a stressed [[penult]]imate syllable as well as in a stressed word-final syllable. Before ''ll'', a stressed vowel in the last syllable can be either long (e.g. {{lang|cy|gwell}} "better" {{IPA|/ɡweːɬ/}}) or short (e.g. {{lang|cy|twll}} "hole" {{IPA|/tʊɬ/}}). However, a stressed vowel in the [[penult]] before ''ll'' is always short: {{lang|cy|dillad}} {{IPA|/ˈdɪɬad/}} (clothes).{{citation needed|date=March 2014}}
+Before ''s'', a stressed vowel in the last syllable is long, as mentioned above, but a stressed vowel in the penult is short: {{lang|cy|mesur}} (measure) {{IPA|/ˈmɛsir/}}. Vowels are always short before consonant clusters: {{lang|cy|sant}} {{IPA|/sant/}} (saint), {{lang|cy|gwallt}} {{IPA|/ɡwaɬt/}} (hair), {{lang|cy|tyst}} {{IPA|/tɪst/}} (witness).
+
+== Digraphs ==
+[[File:Lldigraph.png|thumb|The Middle-Welsh LL ligature.<ref>{{cite book|url=https://books.google.com/books?id=C00O1ZYs0pAC|title=Example of a book using the "ll" ligature|isbn=9781402153075|access-date=20 September 2014|last1=Rhys|first1=John|date=December 2003|publisher=Adegi Graphics LLC }}</ref><br />[[Unicode]]: U+1EFA and U+1EFB.]]
+
+While the [[digraph (orthography)|digraphs]] ''ch, dd, ff, ng, ll, ph, rh, th'' are each written with two symbols, they are all considered to be single letters.  This means, for example, that {{lang|cy|[[Llanelli]]}} (a town in South Wales) is considered to have only six letters in Welsh, compared to eight letters in English.  Consequently, they each take up only a single space in Welsh [[crossword]]s. ''Ll'' itself had actually been written as the ligature {{not a typo|[[Ỻ]]}} in Middle Welsh.
+
+[[Collation|Sorting]] is done in correspondence with the alphabet. For example, {{lang|cy|la}} comes before {{lang|cy|ly}}, which comes before {{lang|cy|lla}}, which comes before {{lang|cy|ma}}.  Automated sorting may occasionally be complicated by the fact that additional information may be needed to distinguish a genuine digraph from a juxtaposition of letters; for example {{lang|cy|llom}} comes after {{lang|cy|llong}} (in which the {{lang|cy|ng}} stands for {{IPA|/ŋ/}}) but before {{lang|cy|llongyfarch}} (in which ''n'' and ''g'' are pronounced separately as {{IPA|/ŋɡ/}}).
+
+Although the digraphs above are considered to be single letters, only their first component letter is capitalised when a word in lower case requires an initial capital letter. Thus:
+: {{lang|cy|Ll''andudno'', Ff''estiniog'', Rh''uthun''|italic=unset}}, etc. (place names)
+: {{lang|cy|Ll''ŷr'', Rh''ian''|italic=unset}}, etc. (personal names)
+: {{lang|cy|Rh''edeg busnes dw i''.  Ll''yfrgellydd ydy hi.''|italic=unset}} (other sentences starting with a digraph)
+The two letters in a digraph are only both capitalised when the whole word is in uppercase:
+: {{lang|cy|'''LL'''ANDUDNO,  '''LL'''ANE'''LL'''I, Y '''RH'''YL|italic=unset}} (as on a poster or sign)
+
+The status of the digraphs as single letters is reflected in the stylised forms used in the logos of the [[National Library of Wales]] ([[:File:NLW Square Logo.Logo Sgwar LLGC.svg|logo]]) and [[Cardiff University]] ([[:File:Cardiff_University_(logo).svg|logo]]).
+
+== See also ==
+*[[Coelbren y Beirdd|Bardic Alphabet]]
+*[[Welsh Braille]]
+
+== References ==
+{{Reflist}}
+
+==Notes==
+{{notelist}}
+
+== External links ==
+{{Wikibooks|Welsh/Pronunciation}}
+* [http://welsh.typeit.org/ Type Welsh characters online]
+* [http://triples.office-on-the.net/welsh/accent.htm Type Welsh accents in Word]
+* [http://morgannwg.ybont.org/course/view.php?id=9 Welsh pronunciation course with audio]
+
+{{Welsh linguistics}}{{Language orthographies}}
+
+{{DEFAULTSORT:Welsh orthography}}
+[[Category:Welsh language|Orthography]]
+[[Category:Indo-European Latin-script orthographies]]

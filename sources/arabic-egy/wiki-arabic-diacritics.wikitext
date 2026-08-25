@@ -1,0 +1,515 @@
+{{Short description|Diacritics used in the Arabic script}}
+{{Cleanup MOS|date=June 2024}}
+
+[[File:Elements of Arabic script improved.svg|thumb|500px|Early written Arabic used only ''[[rasm]]'' (in black). Later, ''i‘jām'' (in red) were added so that letters such as [[ṣād]] ({{lang|ar|ص}}) and [[ḍād]] ({{lang|ar|ض}}) could be distinguished. ''Ḥarakāt'' (in blue)—which is used in the Qur'an but not in most written Arabic—indicate short vowels, long consonants, and some other vocalizations.]]
+{{Arabic alphabet}}
+
+The [[Arabic script]] has numerous [[diacritic]]s, which include consonant pointing known as '''{{transliteration|ar|ALA|i{{ayn}}jām}}''' ({{lang|ar|إِعْجَام}}, {{IPA|ar|ʔɪʕˈdʒæːm|IPA}}), and supplementary diacritics known as '''{{transliteration|ar|ALA|tashkīl}}''' ({{lang|ar|تَشْكِيل}}, {{IPA|ar|tæʃˈkiːl|IPA}}). The latter include the vowel marks termed '''{{transliteration|ar|ALA|ḥarakāt}}''' ({{lang|ar|حَرَكَات}}, {{IPA|ar|ħɑrɑˈkæːt|IPA}}; {{singular}} {{lang|ar|حَرَكَة}}, ''{{transliteration|ar|ALA|ḥarakah}}'', {{IPA|ar|ˈħɑrɑkæ|IPA}}).
+
+The Arabic script is a modified [[abjad]], where all letters are consonants, leaving it up to the reader to fill in the vowel sounds. Short consonants and long vowels are represented by letters, but short vowels and [[consonant length]] are not generally indicated in writing. ''{{transliteration|ar|ALA|Tashkīl}}'' is optional to represent missing vowels and consonant length. Modern Arabic is always written with the ''i‘jām''—consonant pointing—but only religious texts, children's books and works for learners are written with the full ''tashkīl''—vowel guides and consonant length. It is, however, not uncommon for authors to add diacritics to a word or letter when the grammatical case or the meaning is deemed otherwise ambiguous. In addition, classical works and historical documents rendered to the general public are often rendered with the full ''tashkīl'', to compensate for the gap in understanding resulting from stylistic changes over the centuries.
+
+Moreover, tashkīl can change the meaning of the entire word, for example, the words: (دِين), meaning (religion), and (دَين), meaning (debt). Even though they have the same letters, their meanings are different because of the tashkīl. In sentences without tashkīl, readers understand the meaning of the word by simply using context.
+
+== Tashkīl ==
+{{anchor|Tashkil}}
+The literal meaning of {{lang|ar|تَشْكِيل}} ''{{transliteration|ar|ALA|tashkīl}}'' is 'formation'. As the normal Arabic text  does not indicate all aspects of correct pronunciation, the main purpose of ''{{transliteration|ar|ALA|tashkīl}}'' (and ''{{transliteration|ar|ALA|ḥarakāt}}'') is to provide a phonetic guide or a phonetic aid; i.e. show the correct pronunciation in contexts where such is required, such as for education and poetry.
+
+The bulk of Arabic script is written without ''{{transliteration|ar|ALA|ḥarakāt}}'' (or short vowels). However, they are commonly used in texts that demand strict adherence to exact pronunciation. This is true, primarily, of the [[Qur'an]] {{angle bracket|{{lang|ar|ٱلْقُرْآن}}}} (''{{transliteration|ar|ALA|al-Qurʾān}}'') and [[w:Arabic poetry|poetry]]. It is also quite common to add ''{{transliteration|ar|ALA|ḥarakāt}}'' to [[hadith]]s {{angle bracket|{{lang|ar|ٱلْحَدِيث}}}} (''{{transliteration|ar|ALA|al-ḥadīth}}''; plural: ''{{transliteration|ar|ALA|al-ḥādīth}}'') and the [[w:Bible translations into Arabic|Bible]]. Another use is in children's literature. Moreover, ''{{transliteration|ar|ALA|ḥarakāt}}'' are used in ordinary texts in individual words when an ambiguity of pronunciation cannot easily be resolved from context alone. Arabic dictionaries with vowel marks provide information about the correct pronunciation to both native and foreign Arabic speakers. In art and [[calligraphy]], ''{{transliteration|ar|ALA|ḥarakāt}}'' might be used simply because their writing is considered [[aesthetics|aesthetically]] pleasing.
+
+An example of a fully ''vocalised'' (''vowelised'' or ''vowelled'') Arabic from the ''[[Basmala|Bismillah]]'':
+
+{{Block indent|
+{{lang|ar|بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ}}<br/>
+{{transliteration|ar|ALA|bismi l-lāhi r-raḥmāni r-raḥīm}}<br/>
+In the name of God, the All-Merciful, the Especially-Merciful.
+}}
+
+Some Arabic textbooks for foreigners now use ''{{transliteration|ar|ALA|ḥarakāt}}'' as a phonetic guide to make learning reading Arabic easier. The other method used in textbooks is phonetic [[Romanization of Arabic|romanisation]] of unvocalised texts. Fully vocalised Arabic texts (i.e. Arabic texts with ''{{transliteration|ar|ALA|ḥarakāt}}''/diacritics) are sought after by learners of Arabic. Some online bilingual dictionaries also provide ''{{transliteration|ar|ALA|ḥarakāt}}'' as a phonetic guide similarly to English dictionaries providing transcription.
+
+{{anchor|ḥarakāt|harakat}}
+
+=== Ḥarakāt (short vowel marks)<span class="anchor" id="Ḥarakāt"></span> ===
+
+The ''{{transliteration|ar|ALA|ḥarakāt}}'' {{lang|ar|حَرَكَات}}, which literally means 'motions', are the short vowel marks. There is some ambiguity as to which ''{{transliteration|ar|ALA|tashkīl}}'' are also ''{{transliteration|ar|ALA|ḥarakāt}}''; the ''{{transliteration|ar|ALA|tanwīn}}'', for example, are markers for both vowels and consonants.
+
+==== Fatḥah ====
+{{Symb|ـَ}}
+
+The '''{{transliteration|ar|ALA|fatḥah}}''' ({{angle bracket|{{lang|ar|فَتْحَة}}}} 'opening') is a small diagonal line placed ''above'' a letter, and represents a short {{IPA|/a/}} (like the {{IPA|/a/}} sound in the English word "cat"). The word ''{{transliteration|ar|ALA|fatḥah}}'' itself ({{lang|ar|فَتْحَة}}) means ''opening'' and refers to the opening of the mouth when producing an {{IPA|/a/}}. For example, with ''[[Dalet|{{transliteration|ar|ALA|dāl}}]]'' (henceforth, the base consonant in the following examples): {{angle bracket|{{lang|ar|دَ}}}} {{IPA|/da/}}.
+
+When a  {{transliteration|ar|ALA|fatḥah}} is placed before a plain letter {{angle bracket|{{lang|ar|ا}}}} (''[[Aleph|{{transliteration|ar|ALA|alif}}]]'') (i.e. one having no hamza or vowel of its own), it represents a long {{IPA|/aː/}} (close to the sound of "a" in the English word "dad", with an open front vowel {{IPAslink|æː}}, not back {{IPAslink|ɑː}} as in "father"). For example: {{angle bracket|{{lang|ar|دَا}}}} {{IPA|/daː/}}. The ''{{transliteration|ar|ALA|fatḥah}}'' is not usually written in such cases. When a fathah is placed before the letter ⟨{{lang|ar|ﻱ}}⟩ (yā’), it creates an {{IPA|/aj/}} (as in "l'''ie'''"); and when placed before the letter ⟨{{lang|ar|و}}⟩ (wāw), it creates an {{IPA|/aw/}} (as in "c'''ow'''").
+
+Although paired with a plain letter creates an open front vowel {{IPA|/a/}}, often realized as near-open {{IPAslink|æ}}, the standard also allows for variations, especially under certain surrounding conditions. Usually, in order to have the  back pronunciation {{IPAslink|ɑ}}, the word features a nearby back consonant, such as the emphatics, as well as ''[[qāf]]'', or ''[[Resh|rā’]]''. A similar "back" quality is undergone by other vowels as well in the presence of such consonants, however not as drastically realized as in the case of {{transliteration|ar|ALA|fatḥah}}.<ref name="Karin C. Ryding 2005">Karin C. Ryding, "A Reference Grammar of Modern Standard Arabic", Cambridge University Press, 2005, pgs. 25-34, specifically “Chapter 2, Section 4: Vowels”</ref><ref>Anatole Lyovin, Brett Kessler, William Ronald Leben, "An Introduction to the Languages of the World", "5.6 Sketch of Modern Standard Arabic",  Oxford University Press, 2017, pg. 255, Edition 2, specifically “5.6.2.2 Vowels”</ref><ref>Amine Bouchentouf, Arabic For Dummies®, John Wiley & Sons, 2018, 3rd Edition, specifically section "All About Vowels"</ref>
+{{clear}}
+
+''{{transliteration|ar|ALA|Fatḥah}}''s are encoded
+{{unichar|0618}},
+{{unichar|064E}},
+{{unichar|FE76}}, or
+{{unichar|FE77}}.
+
+==== Kasrah ====
+{{Symb|ـِ}}
+
+A similar diagonal line ''below'' a letter is called a '''{{transliteration|ar|ALA|kasrah}}''' ({{angle bracket|{{lang|ar|كَسْرَة}}}} 'break') and designates a short {{IPA|/i/}} (as in "me", "be") and its allophones [i, ɪ, e, e̞, ɛ] (as in "Tim", "sit"). For example: {{angle bracket|{{lang|ar|دِ}}}} {{IPA|/di/}}.<ref name="uvic.ca">{{cite web|url=http://web.uvic.ca/hrd/hist455/vowels/vowels_pres.htm|title=Introduction to Written Arabic|website=University of Victoria, Canada}}</ref>
+
+When a ''{{transliteration|ar|ALA|kasrah}}'' is placed before a plain letter {{angle bracket|{{lang|ar|ﻱ}}}} (''[[ي|{{transliteration|ar|ALA|yā’}}]]''), it represents a long {{IPA|/iː/}} (as in the English word "steed"). For example: {{angle bracket|{{lang|ar|دِي}}}} {{IPA|/diː/}}. The ''{{transliteration|ar|ALA|kasrah}}'' is usually not written in such cases, but if ''[[ي|{{transliteration|ar|ALA|yā’}}]]'' is pronounced as a diphthong {{IPA|/aj/}}, ''{{transliteration|ar|ALA|fatḥah}}'' should be written on the preceding letter to avoid mispronunciation. The word ''{{transliteration|ar|ALA|kasrah}}'' means 'breaking'.<ref name="Karin C. Ryding 2005" />
+{{clear}}
+
+''{{transliteration|ar|ALA|Kasrah}}''s are encoded {{unichar|061A}},
+{{unichar|0650}},
+{{unichar|FE7A}}, or
+{{unichar|FE7B}}.
+
+==== Ḍammah ====
+{{Symb|ـُ}}
+
+The '''{{transliteration|ar|ALA|ḍammah}}''' ({{angle bracket|{{lang|ar|ضَمَّة}}}} 'embrace') is a small curl-like diacritic placed above a letter to represent a short /u/ (as in "duke", shorter "you") and its allophones [u, ʊ, o, o̞, ɔ] (as in "put", or "bull"). For example: {{angle bracket|{{lang|ar|دُ}}}} {{IPA|/du/}}.<ref name="uvic.ca" />
+
+When a '''{{transliteration|ar|ALA|ḍammah}}''' is placed before a plain letter {{angle bracket|{{lang|ar|و}}}} (''{{transliteration|ar|ALA|[[wāw]]}}''), it represents a long {{IPA|/uː/}} (like the 'oo' sound in the English word "swoop"). For example: {{angle bracket|{{lang|ar|دُو}}}} {{IPA|/duː/}}. The ''{{transliteration|ar|ALA|ḍammah}}'' is usually not written in such cases, but if ''{{transliteration|ar|ALA|wāw}}'' is pronounced as a diphthong {{IPA|/aw/}}, ''{{transliteration|ar|ALA|fatḥah}}'' should be written on the preceding consonant to avoid mispronunciation.<ref name="Karin C. Ryding 2005" />
+{{clear}}
+
+The word ''ḍammah'' (ضَمَّة) in this context means ''rounding'', since it is the only rounded vowel in the vowel inventory of Arabic and because its sound is made by rounding the lips in an O shape.
+
+''{{transliteration|ar|ALA|Ḍammah}}''s are encoded {{unichar|0619}},
+{{unichar|064F}},
+{{unichar|FE78}}, or
+{{unichar|FE79}}.
+
+==== Alif Khanjarīyah ====
+{{Symb|ــٰ}}
+
+The [[Dagger alif|'''dagger {{transliteration|ar|ALA|alif}}''']] or '''superscript {{transliteration|ar|ALA|alif}}''' {{angle bracket|{{lang|ar|أَلِف خَنْجَرِيَّة}}}} ({{transliteration|ar|ALA|alif khanjarīyah}}), is written as short vertical stroke on top of a letter. It indicates a long {{IPA|/aː/}} sound for which [[Aleph#Arabic|{{transliteration|ar|ALA|alif}}]] is normally not written. For example: {{angle bracket|{{lang|ar|هَٰذَا}}}} ({{transliteration|ar|ALA|hādhā}}) or {{angle bracket|{{lang|ar|رَحْمَٰن}}}} ({{transliteration|ar|ALA|raḥmān}}).
+
+The dagger {{transliteration|ar|ALA|alif}} occurs in only a few words, but they include some common ones; it is seldom written, however, even in fully vocalised texts. Most keyboards do not have dagger {{transliteration|ar|ALA|alif}}. The word [[Allah]] {{angle bracket|{{lang|ar|الله}}}} ({{transliteration|ar|ALA|Allāh}}, "[[God]]") is usually produced automatically by entering {{transliteration|ar|ALA|alif lām lām hāʾ}}. The word consists of {{transliteration|ar|ALA|alif}} + ligature of doubled {{transliteration|ar|ALA|lām}} with a {{transliteration|ar|ALA|shaddah}} and a dagger {{transliteration|ar|ALA|alif}} above {{transliteration|ar|ALA|lām}}, followed by {{transliteration|ar|hā'}}.
+{{clear}}
+
+=== Maddah ===
+{{Distinguish|Tilde}}
+{{Symb|ـٓ}}
+{{Symb|آ}}
+
+The '''{{transliteration|ar|ALA|maddah}}''' ({{angle bracket|{{lang|ar|مَدَّة}}}} 'extension') is a [[tilde]]-shaped diacritic, which can only appear on top of an [[Arabic alphabet#Alif|alif]] (آ) and indicates a [[glottal stop]] {{IPA|/ʔ/}} followed by a long {{IPA|/aː/}}.
+
+In theory, the same sequence {{IPA|/ʔaː/}} could also be represented by two ''{{transliteration|ar|ALA|alif}}''s, as in *{{angle bracket|{{lang|ar|أَا}}}}, where a hamza above the first ''{{transliteration|ar|ALA|alif}}'' represents the {{IPA|/ʔ/}} while the second ''{{transliteration|ar|ALA|alif}}'' represents the {{IPA|/aː/}}.  However, consecutive ''{{transliteration|ar|ALA|alif}}''s are never used in the Arabic orthography. Instead, this sequence must always be written as a single ''{{transliteration|ar|ALA|alif}}'' with a ''{{transliteration|ar|ALA|maddah}}'' above it, the combination known as an ''{{transliteration|ar|ALA|alif maddah}}''. For example: {{angle bracket|{{lang|ar|قُرْآن}}}} {{IPA|/qurˈʔaːn/}}.
+
+In Quranic writings, a ''maddah'' is placed on any other letter to denote the name of the letter, though some letters may take on a dagger ''alif''. For example: {{angle bracket|{{lang|ar|لٓمٓصٓ}}}} (''lām''-''mīm''-''ṣād'') or {{angle bracket|{{lang|ar|يـٰسٓ}}}} (''yāʼ-sīn)''
+
+=== Alif waṣlah ===
+{{Main|Wasla (diacritic)}}
+{{Symb|ٱ}}
+
+The '''{{transliteration|ar|ALA|waṣlah}}''' ({{angle bracket|{{lang|ar|وَصْلَة}}}} 'connection'), '''{{transliteration|ar|ALA|alif waṣlah}}''' {{angle bracket|{{lang|ar|أَلِف وَصْلَة}}}} or '''{{transliteration|ar|ALA|hamzat waṣl}}''' {{angle bracket|{{lang|ar|هَمْزَة وَصْل}}}} looks like the head of a small ''[[Tsade#Arabic Ṣād|{{transliteration|ar|ALA|ṣād}}]]'' on top of an ''{{transliteration|ar|ALA|alif}}'' {{angle bracket|{{lang|ar|ٱ}}}} (also indicated by an ''{{transliteration|ar|ALA|alif}}'' {{angle bracket|{{lang|ar|ا}}}} without a ''{{transliteration|ar|ALA|hamzah}}''). It means that the ''{{transliteration|ar|ALA|alif}}'' is not pronounced when its word does not begin a sentence. For example: {{angle bracket|{{lang|ar|بِٱسْمِ}}}} (''{{transliteration|ar|ALA|bismi}}''), but {{angle bracket|{{lang|ar|ٱمْشُوا۟}}}} (''imshū'' not ''mshū''). This is because in Arabic, the first consonant in a word must always be followed by a vowel sound: If the second letter from the {{transliteration|ar|ALA|waṣlah}} has a kasrah, the alif-waslah makes the sound /i/. However, when the second letter from it has a dammah, it makes the sound /u/.
+
+It occurs only in the beginning of words, but it can occur after prepositions and the definite article. It is commonly found in imperative verbs, the perfective aspect of verb stems VII to X and their [[Arabic verbs#Masdar|verbal nouns]] (''{{transliteration|ar|ALA|maṣdar}}''). The ''alif'' of the definite article is considered a ''{{transliteration|ar|ALA|waṣlah}}''.
+{{clear}}
+It occurs in phrases and sentences (connected speech, not isolated/dictionary forms):
+* To replace the elided hamza whose alif-seat has assimilated to the previous vowel. For example: {{lang|ar|فِي ٱلْيَمَن}} or {{lang|ar|في اليمن}} (''{{transliteration|ar|ALA|fi l-Yaman}}'') 'in Yemen'.
+* In hamza-initial imperative forms following a vowel, especially following the conjunction {{angle bracket|{{lang|ar|و}}}} (''{{transliteration|ar|ALA|wa-}}'') 'and'. For example: {{lang|ar|قُمْ وَٱشْرَبِ ٱلْمَاءَ}} (''{{transliteration|ar|ALA|qum wa-shrab-i l-mā’}}'') 'rise and drink the water'.
+
+Like the superscript alif, it is not written in fully vocalized scripts, except for sacred texts, like the Quran and Arabized Bible.
+
+=== Sukūn ===
+{{Symb|ـْـ}}
+
+The '''{{transliteration|ar|ALA|sukūn}}''' ({{angle bracket|{{lang|ar|سُكُونْ}}}} 'stillness') is a circle-shaped diacritic placed above a letter ({{lang|ar|&nbsp;&#x652;}}). It indicates that the letter to which it is attached is not followed by a vowel, i.e., [[Zero (linguistics)|zero]]-vowel.
+
+It is a necessary symbol for writing consonant-vowel-consonant syllables, which are very common in Arabic. For example: {{angle bracket|{{lang|ar|دَدْ}}}} (''{{transliteration|ar|ALA|dad}}'').
+
+The '''{{transliteration|ar|ALA|sukūn}}''' may also be used to help represent a diphthong. A ''{{transliteration|ar|ALA|fatḥah}}'' followed by the letter {{angle bracket|{{lang|ar|ﻱ}}}} (''[[yodh|{{transliteration|ar|ALA|yā’}}]]'') with a {{transliteration|ar|ALA|sukūn}} over it ({{lang|ar|ـَيْ}}) indicates the diphthong ''{{transliteration|ar|ALA|ay}}'' ([[International Phonetic Alphabet|IPA]] {{IPA|/aj/}}). A ''{{transliteration|ar|ALA|fatḥah}}'', followed by the letter {{angle bracket|{{lang|ar|ﻭ}}}} (''{{transliteration|ar|ALA|[[wāw]]}}'') with a ''{{transliteration|ar|ALA|sukūn}}'', ({{lang|ar|ـَوْ}}) indicates {{IPA|/aw/}}.
+
+''{{transliteration|ar|ALA|Sukūn}}''s are encoded {{unichar|0652}}, {{unichar|FE7E}}, or {{unichar|FE7F}}.
+
+<div style="float:left;margin:0;margin-right:1em;border:1px solid #eee;padding:0.3em;font-size:180%;line-height:1.5;">{{Script/Arabic|ـۡـ}}</div>
+The '''{{transliteration|ar|ALA|sukūn}}''' may have also an alternative form of the small high head of [[ḥāʾ|''{{transliteration|ar|ALA|ḥāʾ}}'']] ({{unichar|06E1}}), particularly in some Qurans. Other shapes may exist as well (for example, like a small comma above ⟨ʼ⟩ or like a [[circumflex]] ⟨ˆ⟩ in [[Nastaʿlīq script|''{{transliteration|ar|ALA|nastaʿlīq}}'']]).<ref>{{cite web|url=https://r12a.github.io/scripts/arabic/block#char0652|title=Arabic character notes|website=r12a}}</ref>
+{{clear}}
+
+{{anchor|Tanwin}}
+
+=== Tanwīn ===
+{{Main|Nunation}}
+{{Symb|ـٌ}}
+{{Symb|ـٍ}}
+{{Symb|ـً}}
+
+The three vowel diacritics may be doubled at the end of a word to indicate that the vowel is followed by the consonant ''n''. They may or may not be considered {{transliteration|ar|ALA|ḥarakāt}} and are known as '''{{transliteration|ar|ALA|tanwīn}}''' ({{angle bracket|{{lang|ar|تَنْوِين}}}} '[[ن|''nun'']]-ification' , or nunation. The signs indicate, from left to right, {{transliteration|ar|ALA|''-an, -in, -un''}}.
+
+These endings are used as non-pausal grammatical indefinite case endings in [[Modern Standard Arabic|Literary Arabic]] or [[classical Arabic]] ([[ʾIʿrab#Fully declined nouns (triptotes)|triptotes]] only). In a vocalised text, they may be written even if they are not pronounced (see [[pausa]]). See ''[[ʾIʿrab|{{transliteration|ar|ALA|i‘rāb}}]]'' for more details. In many spoken Arabic dialects, the endings are absent. Many Arabic textbooks introduce standard Arabic without these endings. The grammatical endings may not be written in some vocalized Arabic texts, as knowledge of ''[[ʾIʿrab|{{transliteration|ar|ALA|i‘rāb}}]]'' varies from country to country, and there is a trend towards simplifying Arabic grammar.
+
+The sign {{angle bracket|{{lang|ar|ـً}}}} is most commonly written in combination with ''[[aleph|{{transliteration|ar|ALA|alif}}]]'' {{angle bracket|{{lang|ar|ـًا}}}}, ''[[Ta' marbuta|{{transliteration|ar|ALA|tā’ marbūṭah}}]]'' {{angle bracket|{{lang|ar|ةً}}}}, ''{{transliteration|ar|ALA|alif hamzah}}'' {{angle bracket|{{lang|ar|أً}}}}, or stand-alone  ''{{transliteration|ar|ALA|[[hamza]]h}}'' {{angle bracket|{{lang|ar|ءً}}}}. ''{{transliteration|ar|ALA|Alif}}'' should always be written (except for words ending in ''{{transliteration|ar|ALA|tā’ marbūṭah, hamzah}}'' or diptotes) even if ''{{transliteration|ar|ALA|an}}'' is not. Grammatical cases and ''{{transliteration|ar|ALA|tanwīn}}'' endings in indefinite triptote forms:
+
+* ''{{transliteration|ar|ALA|-un}}'':  [[nominative case]];
+* ''{{transliteration|ar|ALA|-an}}'':  [[accusative case]], also serves as an adverbial marker;
+* ''{{transliteration|ar|ALA|-in}}'':  [[genitive case]].
+
+{{Symb|ـ&#x08F1;}}
+Dammatan has another shape, {{unichar|U+08F1}}, which better resembles how the symbol is handwritten, printed in school books, and in the Quran.<ref>{{Cite web |title=القرآن الكريم (حفص، المدينة النبوية)/سورة البقرة - ويكي مصدر |url=https://ar.wikisource.org/wiki/%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86_%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85_(%D8%AD%D9%81%D8%B5%D8%8C_%D8%A7%D9%84%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%A7%D9%84%D9%86%D8%A8%D9%88%D9%8A%D8%A9)/%D8%B3%D9%88%D8%B1%D8%A9_%D8%A7%D9%84%D8%A8%D9%82%D8%B1%D8%A9 |access-date=2026-05-08 |website=ar.wikisource.org |language=ar}}</ref>
+{{clear}}
+
+=== Shaddah ===
+{{Main|Shaddah}}
+{{Symb|ـّـ}}
+
+The '''shadda''' or '''shaddah''' ({{angle bracket|{{lang|ar|شَدَّة}}}} 'emphasis'), or '''tashdid''' {{angle bracket|{{lang|ar|تَشْدِيد}}}} (''{{transliteration|ar|ALA|tashdīd}}''), is a diacritic shaped like a small written Latin "[[w]]".
+
+It is used to indicate [[gemination]] (consonant doubling or extra length), which is phonemic in Arabic. It is written above the consonant which is to be doubled. It is the only ''{{transliteration|ar|ALA|ḥarakah}}'' that is commonly used in ordinary spelling to avoid [[ambiguity]]. For example: {{angle bracket|{{lang|ar|دّ}}}} {{IPA|/dd/}}; ''{{transliteration|ar|ALA|madrasah}}'' {{angle bracket|{{lang|ar|مَدْرَسَة}}}} ('school') vs. ''{{transliteration|ar|ALA|mudarrisah}}'' {{angle bracket|{{lang|ar|مُدَرِّسَة}}}} ('teacher', female). Note that when the doubled letter bears a vowel, it is the shaddah that the vowel is attached to, not the letter itself: {{angle bracket|{{lang|ar|دَّ}}}} {{IPA|/dda/}}, {{angle bracket|{{lang|ar|دِّ}}}} {{IPA|/ddi/}}.
+{{clear}}
+
+''{{transliteration|ar|ALA|Shaddah}}''s are encoded {{unichar|0651}},
+{{unichar|FE7C}}, or
+{{unichar|FE7D}}.
+
+{{anchor|I'jam}}
+
+== I‘jām ==
+[[File:Kufic Quran, sura 7, verses 86-87.jpg|thumb|right|7th-century [[kufic]] script without any ''{{transliteration|ar|ALA|ḥarakāt}}'' or ''{{transliteration|ar|ALA|i‘jām}}''.]]
+
+The ''i‘jām'' ({{lang|ar|إِعْجَام}}; sometimes also called ''{{Transliteration|ar|ALA|nuqaṭ}}'')<ref>{{cite book |title=What the Koran Really Says : Language, Text & Commentary |publisher=Prometheus |year=2002 |isbn=1-57392-945-X |editor-last=Ibn Warraq |author1=Ibn Warraq |author-link1=Ibn Warraq |location=New York |url=https://www.ebooklibs.co/book/view/1m41/what-the-koran-really-says.html |translator-last=Ibn Warraq |page=64 |access-date=9 April 2019 |ref=WtKRS-I-IW2002 |archive-url=https://web.archive.org/web/20190411194515/https://www.ebooklibs.co/book/view/1m41/what-the-koran-really-says.html |archive-date=11 April 2019 |url-status=dead }}</ref> are the diacritic points that distinguish various letters that have the same backbone form (''{{transliteration|ar|ALA|[[rasm]]}}''). In modern Arabic scripts, typically one, two or three dots above or below the letter distinguish it as a different letter. For example, {{angle bracket|{{lang|ar|ص}}}} {{IPA|/sˤ/}} is the letter ''{{Transliteration|ar|DIN|[[Tsade#Arabic ṣād|ṣād]]}}'', whereas {{angle bracket|{{lang|ar|ض}}}} {{IPA|/dˤ/}} with a dot above is the letter {{Transliteration|ar|DIN|[[ḍād]]}}. Typically ''i‘jām'' are not considered diacritics but part of the letter.
+
+Early manuscripts of the [[Quran]] did not use diacritics either for vowels or to distinguish the different values of the ''{{transliteration|ar|ALA|rasm}}.'' Vowel pointing was introduced first, as a red dot placed above, below, or beside the ''{{transliteration|ar|ALA|rasm}}'', and later consonant pointing was introduced, as thin, short black single or multiple dashes placed above or below the ''rasm''. These ''i‘jām'' became black dots about the same time as the ''{{transliteration|ar|ALA|ḥarakāt}}'' became small black letters or strokes.
+
+Typically, Egyptians do not use dots under final ''{{transliteration|ar|ALA|yā’}}'' ({{lang|ar|ي}}), which looks exactly like [[alif maqsura]]h ({{lang|ar|ى}}) in handwriting and in print. This practice is also used in copies of the ''[[Mus'haf|{{transliteration|ar|ALA|muṣḥaf}}]]'' ([[Qurʾān]]) scribed by [[Uthman Taha|{{transliteration|ar|ALA|‘Uthman Ṭāhā}}]]. The same unification of ''{{transliteration|ar|ALA|yā}}'' and ''{{transliteration|ar|ALA|alif maqṣūrā}}'' has happened in [[Persian language|Persian]], resulting in what [[the Unicode Standard]] calls "{{smallcaps|Arabic Letter Farsi Yeh}}", that looks exactly the same as ''{{transliteration|ar|ALA|yā}}'' in initial and medial forms, but exactly the same as ''{{transliteration|ar|ALA|alif maqṣūrah}}'' in final and isolated forms.
+
+[[File:Arabic letter kaf forms with ‘alāmat al-ihmāl.png|thumb|Isolated kāf with ''‘alāmātu-l-ihmāl'' and without top stroke next to initial kāf with top stroke.]]
+ 
+{{Symb|سۡ&#x200A;سۜ&#x200A;سۣ&#x200A;سٚ&#x200A;ڛ}}
+
+At the time when the ''i‘jām'' was optional, unpointed letters were more difficult to decipher. To clarify that a letter would lack ''i‘jām'' in pointed text, the letter could be marked with a small v- or [[seagull (diacritic)|seagull]]-shaped diacritic above, also a superscript semicircle (crescent), a subscript dot (except in the case of {{angle bracket|{{lang|ar|ح}}}}; three dots were used with {{angle bracket|{{lang|ar|س}}}}), or a subscript miniature of the letter itself. A superscript stroke known as ''jarrah'', resembling a long ''fatḥah'', was used for a contracted (assimilated) ''sīn''. Thus {{angle bracket|{{lang|ar|ڛ سۣ سۡ سٚ}}}} were all used to indicate that the letter in question was truly {{angle bracket|{{lang|ar|[[س]]}}}} and not {{angle bracket|{{lang|ar|[[ش]]}}}}.<ref>{{cite book|last=Gacek|first=Adam|title=Arabic Manuscripts: A Vademecum for Readers|chapter-url=https://books.google.com/books?id=NeaHnLb6RdUC&pg=PA286|year=2009|publisher=BRILL|isbn=978-90-04-17036-0|page=286|chapter=Unpointed letters}}</ref> These signs, collectively known as ''‘alāmātu-l-ihmāl'', are still occasionally used in modern [[Arabic calligraphy]], either for their original purpose (i.e. marking letters without ''i‘jām''), or often as purely decorative space-fillers. The small {{lang|ar|ک}} above the [[ك|''kāf'']] in its final and isolated forms {{angle bracket|{{lang|ar|ك&nbsp;&nbsp;ـك}}}} was originally an ''‘alāmatu-l-ihmāl'' that became a permanent part of the letter. Previously this sign could also appear above the medial form of ''kāf'', when that letter was written without the stroke on its [[ascender (typography)|ascender]]. When ''kāf'' was written without that stroke, it could be mistaken for ''lām'', thus ''kāf'' was distinguished with a superscript ''kāf'' or a small superscript ''[[hamza]]'' (''nabrah''), and ''lām'' with a superscript ''l-a-m'' (''lām-alif-mīm'').<ref>{{cite book|title=Les manuscrits du Moyen-Orient: essais de codicologie et de paléographie. Actes du colloque d'Istanbul (Istanbul 26–29 mai 1986)|last=Gacek|first=Adam|date=1989|editor=Déroche|editor-first=François|editor-link=François Déroche|page=57 (§&nbsp;8. Diacritical marks and vowelisation)|chapter=Technical Practices and Recommendations Recorded by Classical and Post-Classical Arabic Scholars Concerning the Copying and Correction of Manuscripts|chapter-url=http://www.islamicmanuscripts.info/reference/books/Deroche-1989-MMO/MMO-1989-051-060-Gacek.pdf}}</ref>
+
+== Hamza ==
+{{anchor|Hamza}}
+{{Main|Hamza}}
+{{Symb|ئ&nbsp;&nbsp;ؤ&nbsp;&nbsp;إ&nbsp;&nbsp;أ&nbsp;ء}}
+
+Although not always considered a letter of the alphabet, the '''hamza''' {{lang|ar|هَمْزة}} (''{{transliteration|ar|ALA|hamzah}}'', [[glottal stop]]), often stands as a separate letter in writing, is written in unpointed texts and is not considered a ''{{transliteration|ar|ALA|tashkīl}}.''  It may appear as a letter by itself or as a diacritic over or under an ''{{transliteration|ar|ALA|alif}}'', ''{{transliteration|ar|ALA|wāw}}'', or ''{{transliteration|ar|ALA|yā}}''.
+
+Which letter is to be used to support the ''{{transliteration|ar|ALA|hamzah}}'' depends on the quality of the adjacent vowels and its location in the word;
+
+* If the glottal stop occurs at the beginning of the word:
+** Indicated by hamza on an ''{{Transliteration|ar|ALA|alif}}'': above if the following vowel is {{IPA|/a/}} or {{IPA|/u/}} and below if it is {{IPA|/i/}}.
+*** In order to clarify a starting /a/ or /u/, a respective ''fatḥah'' or ''ḍammah'' can be used
+* If the glottal stop occurs in the middle of the word the following prioritization of writing qualities are used:
+** First'':'' if ''hamza'' is it is preceded or followed by {{IPA|/i/}}, ''hamza'' sits on a tooth; ex: <عَائِلَة>
+** Second: if ''hamza'' is preceded or followed by /u/, ''hamza'' sits on ''{{transliteration|ar|ALA|[[wāw]]}}, <ؤ>''
+** Third: else hamza sits on ''alif'', <أ>
+* If the glottal stop occurs at the end of the word (ignoring any grammatical suffixes),
+** First: if ''hamza'' follows a short vowel it is written above ''{{transliteration|ar|ALA|alif}}'', ''{{transliteration|ar|ALA|wāw}}'', or ''{{transliteration|ar|ALA|yā}}'' the same as for a medial case;
+** Second: if it follows a long vowel, diphthong or consonant, ''hamza'' is written on the line <ء>
+* Exception: Two ''{{transliteration|ar|ALA|alif}}''s in succession are never allowed: {{IPA|/ʔaː/}} is written with ''[[#Maddah|{{transliteration|ar|ALA|alif maddah}}]]'' {{angbr|{{lang|ar|آ}}}} and {{IPA|/aːʔ/}} is written with a free ''{{transliteration|ar|ALA|hamzah}}'' on the line {{angbr|{{lang|ar|اء}}}}.
+
+Consider the following words: {{angle bracket|{{lang|ar|أَخ}}}} {{IPA|/ʔax/}} ("brother"), {{angle bracket|{{lang|ar|إسْماعِيل}}}} {{IPA|/ʔismaːˈʕiːl/}} ("Ismael"), {{angle bracket|{{lang|ar|أُمّ}}}} {{IPA|/ʔumm/}} ("mother"). All three of above words "begin" with a vowel opening the syllable, and in each case, ''{{transliteration|ar|ALA|alif}}'' is used to designate the initial glottal stop (the ''actual'' beginning). But if we consider ''middle'' syllables "beginning" with a vowel: {{angle bracket|{{lang|ar|نَشْأة}}}} {{IPA|/ˈnaʃʔa/}} ("origin"), {{angle bracket|{{lang|ar|أَفْئِدة}}}} {{IPA|/ʔafˈʔida/}} ("hearts"—notice the {{IPA|/ʔi/}} syllable; singular {{angle bracket|{{lang|ar|فُؤاد}}}} {{IPA|/fuˈʔaːd/}}), {{angle bracket|{{lang|ar|رُؤُوس}}}} {{IPA|/ruˈʔuːs/}} ("heads", singular {{angle bracket|{{lang|ar|رَأْس}}}} {{IPA|/raʔs/}}), the situation is different, as noted above. See the comprehensive article on ''hamzah'' for more details.
+{{clear}}
+
+==Diacritics not used in Modern Standard Arabic==
+Diacritics not used in Modern Standard Arabic but in other languages that use the Arabic script, and sometimes to write Arabic dialects, include (the list is not exhaustive):
+{|class=wikitable
+|-
+! Description
+! Unicode
+! Example
+! Language(s)
+! Notes
+|-
+! colspan=5  style="text-align:left;" | Bars and lines
+|-
+| diagonal bar above
+|
+| style="font-size:36px;line-height:1.05;" | {{Script/Arabic|گ}}
+| Arabic (Iraq), [[Azerbaijani language|Azerbaijani]], [[Balti language|Balti]], [[Burushaski language|Burushaski]], [[Kashmiri language|Kashmiri]], [[Kazakh language|Kazakh]], [[Khowar language|Khowar]], [[Kurdish language|Kurdish]], [[Kyrgyz language|Kyrgyz]], [[Persian alphabet|Persian]], [[Sindhi language|Sindhi]], [[Urdu language|Urdu]], [[Uyghur language|Uyghur]]
+| 
+*Diagonal bar above [[Kaph|kaf]] to create [[gaf]]: [[گ]] {{IPAslink|g}}
+*When writing Arabic, often used in Iraq to represent the sound {{IPAslink|ɡ}}. Often used in Iraq to represent the {{IPA|/g/}} sound to write foreign words in Arabic script, while in Morocco the variant ݣ is seen.<ref>Alkalesi, Yasin M. (2001) ''Modern Iraqi Arabic: A Textbook''. Georgetown University Press. {{ISBN|978-0878407880}}</ref>
+|-
+| horizontal bar above
+| {{unichar|0659}}
+| style="font-size:36px;line-height:1.05;" | {{Script/Arabic|◌ٙ}}
+| [[Pashto alphabet|Pashto]]
+| 
+*''[[zwarakay]]'', equivalent to Latin [[ə]], IPA {{IPAslink|ə}}
+|-
+| vertical line above
+|
+| style="font-size:36px;line-height:1.05;" | {{Script/Arabic|ئۈ}}
+| [[Uyghur Arabic alphabet|Uyghur]]
+|
+*the letter ئۈ (IPA {{IPAslink|y}}) contains a vertical line above the ''vav''
+|-
+! colspan=5  style="text-align:left;" | Dots
+|-
+| 2 dots (vertical)
+| {{unichar|FBBD}}
+| style="font-size:36px;line-height:1.05;" | {{Script/Arabic|ݭ}} {{Script/Arabic|ݙ}}
+|[[Uyghur Arabic alphabet|Uyghur]]
+|
+|-
+| 4 dots
+| {{unichar|FBBA}}
+| style="font-size:36px;line-height:1.05;" | {{Script/Arabic|ڐ}} {{Script/Arabic|ٿ}} {{Script/Arabic|ڐ}} {{Script/Arabic|ڙ}}
+| Sindhi, [[Shina language|Shina]], Khariboli
+|
+|-
+| dot below
+| {{unichar|065C|ARABIC VOWEL SIGN DOT BELOW}}
+| style="font-size:36px;line-height:1.4;" | {{Script/Arabic|◌ٜ}}
+| African languages<ref name="u0600"/>
+|
+* also used in Quranic text in African and other orthographies<ref name="u0600">{{cite web |title=Arabic Range: 0600–06FF The Unicode Standard, Version 15.1 |url=https://www.unicode.org/charts/PDF/U0600.pdf |website=Unicode |access-date=10 July 2024}}</ref>
+|-
+! colspan=5 style="text-align:left;" | Variants of standard Arabic diacritics
+|-
+| [[wavy hamza]]
+| {{unichar|065F}}
+| style="font-size:36px;line-height:1.4;" | {{Script/Arabic|ٲ}} {{Script/Arabic|اٟ}}
+| Kashmiri
+|
+*The [[Kashmiri language]] written in Arabic script includes the diacritic or "wavy hamza".
+*In Kashmiri the diacritic is called ''amālü mad'' when used above alif: ٲ to create the vowel {{IPAslink|əː}}.<ref>{{cite web |title=Vowel 04: ٲ / ä – (aae) |url=https://kashmiridictionary.org/vowel-04-ٲ-a-aae/ |website=Kashmiri Dictionary |access-date=11 July 2024 |date=31 January 2021}}</ref>
+*Kashmiri calls the wavy hamza as ''sāyi mad'' when below the alif: اٟ to create the sound {{IPAslink|ɨː}}.<ref>{{cite web |title=Vowel07: اٟ / ü ( ι )|url=https://kashmiridictionary.org/vowel07-اٟ-u-ι/ |website=Kashmiri Dictionary |access-date=11 July 2024 |date=6 February 2021}}</ref>
+|-
+| curly dammah above
+| {{unichar|08E5}}
+| style="font-size:36px;line-height:1.05;" | {{Script/Arabic|◌ࣥ}}
+| Rohingya
+|
+*Latin "ou"
+|-
+| inverted and regular curly dammahs above
+| {{unichar|08E8}}
+| style="font-size:36px;line-height:1.05;" | {{Script/Arabic|◌ࣨ}}
+| Rohingya
+|
+*Latin "ouñ"
+|-
+| double dammah
+| {{unichar|08F1}}
+| style="font-size:36px;line-height:1.05;" | {{Script/Arabic|◌ࣱ}}
+| Rohingya
+|
+*Latin "uñ"
+|-
+! colspan=5 style="text-align:left;"  | Tildes
+|-
+| diagonal tilde shape above
+| {{unichar|08E4}}
+| style="font-size:36px;line-height:1.05;" | {{Script/Arabic|◌ࣤ}}
+| [[Rohingya language|Rohingya]]
+| 
+*Latin "o"
+|-
+| double diagonal tilde shape above
+| {{unichar|08E7}}
+| style="font-size:36px;line-height:1.05;" | {{Script/Arabic|◌ࣧ}}
+| Rohingya
+|
+*Latin "oñ"
+|-
+| diagonal tilde shape below
+| {{unichar|08E6}}
+| style="font-size:36px;line-height:1.05;" | {{Script/Arabic|◌ࣦ}}
+| Rohingya
+|
+*Latin "e"
+|-
+| double diagonal tilde shape below
+| {{unichar|08E9}}
+| style="font-size:36px;line-height:1.05;" | {{Script/Arabic|◌ࣩ}}
+| Rohingya
+|
+*Latin "eñ"
+|-
+! colspan=5 style="text-align:left;" | Arabic letters
+|-
+| miniature Arabic letter hah (initial form) {{Script/Arabic|ح‍}} above
+| {{unichar|06E1}}
+| style="font-size:36px;line-height:1.05;" | {{Script/Arabic|◌ۡ}}
+| Rohingya
+|
+*Sukun (zero-vowel)
+|-
+| miniature Arabic letter tah {{Script/Arabic|ط}} above
+| {{unichar|FBC0}}
+| style="font-size:36px;line-height:1.05;" | {{Script/Arabic|ٹ}}
+| Urdu
+| 
+|-
+| colspan=5 style="text-align:left;" | '''[[Eastern Arabic numerals]]'''<ref name="buru">{{cite book |last1=Mirza |first1=Umair |script-title=ur:بروشسکی اردو لغت |trans-title=Burushaski–Urdu Dictionary |date=2006 |isbn=((969-404-66-0)) |pages=28–29 |access-date=13 July 2024 |url=https://archive.org/search?query=بروشسکی+اردو+لغت+ـ+جلد |language=ur, bsk}}</ref>
+|-
+| Eastern Arabic numeral {{Script/Arabic|٢}} (2) above
+| {{unichar|0662}}
+| style="font-size:36px;line-height:1.05;" | {{Script/Arabic|ݳ}} {{Script/Arabic|ݵ}} {{Script/Arabic|ݸ}} {{Script/Arabic|ݺ}}
+| Burushaski
+|
+|-
+| Eastern Arabic numeral {{Script/Arabic|٣}} (3) above
+| {{unichar|0663}}
+| style="font-size:36px;line-height:1.05;" | {{Script/Arabic|ݴ}} {{Script/Arabic|ݶ}} {{Script/Arabic|ݹ}} {{Script/Arabic|ݻ}}
+| Burushaski
+|
+|-
+| Eastern Arabic number {{Script/Arabic|۴}} (4) above or below
+| {{unichar|06F4}}
+| style="font-size:36px;line-height:1.05;" | {{Script/Arabic|ݷ}} {{Script/Arabic|ݼ}} {{Script/Arabic|ݽ}}
+| Burushaski
+|
+|-
+! colspan=5 style="text-align:left;" | Other shapes
+|-
+| [[Nūn ġuṇnā]], "u" shape above
+| {{unichar|0658}}
+| style="font-size:36px;line-height:1.05;" | {{Script/Arabic|ن٘}}
+| Urdu
+|
+*[[Nasal vowel|Vowel nasalization]] is represented by ''nun ghunna'', which in medial form is written as ''nun'' with the diacritic {{Lang|ur-latn|maghnoona}} (also called ''ulta jazm'', Unicode U+0658) above: {{Nastaliq|ن٘}}.
+|-
+| "v" shape above
+| {{unichar|065A}}
+| style="font-size:36px;line-height:1.05;" | {{Script/Arabic|ۆ}} {{Script/Arabic|ێ}} {{Script/Arabic|ئۆ}}
+| [[Azerbaijani alphabet|Azerbaijani]], [[Turkmen language|Turkmen]], [[Kurdo-Arabic alphabet|Kurdish]], [[Kazakh language|Kazakh]], [[Uyghur Arabic alphabet|Uyghur]]، [[Bosnian language|Bosnian (Arebica)]]
+|
+*used on top of waw: ۆ to represent "o" {{IPAslink|oː}} in Kurdish, and "ü" {{IPAslink|y}} in Azerbaijani and Turkmen
+*used on top of ye: ێ represents "ê" {{IPAslink|eː}} in Kurdish.
+*used on top of waw: ۆ to represent "v" {{IPAslink|v}} in Kazakh.
+*In Uyghur it used as part of the letter [[Digraph (orthography)|digraph]] ئۆ to represent "ö" {{IPAslink|ø}}.
+|-
+| inverted "v" shape above
+| {{unichar|065B}}
+| style="font-size:36px;line-height:1.05;" | {{Script/Arabic|یٛ}}
+|[[Azerbaijani alphabet|Azerbaijani]], [[Turkmen language|Turkmen]], Bosnian (Arebica)
+|
+* in Azerbaijani, used only on top of ye: {{Script/Arabic|یٛ}} (rarely used) is equivalent to Latin [[ı]], Cyrillic [[ы]], IPA {{IPAslink|ɯ}}
+* in Turkmen, used only on top of ye {{Script/Arabic|یٛ}} is equivalent to Latin [[y]], Cyrillic [[ы]], IPA {{IPAslink|ɯ}}
+|-
+| dotted fatha
+| {{unichar|08F5}}
+| style="font-size:36px;line-height:1.15;" | {{Script/Arabic|◌ࣵ}}
+| [[Wolof language|Wolof]]
+| Latin à
+|-
+| circle with fatha
+| {{unichar|08F4}}
+| style="font-size:36px;line-height:1.15;" | {{Script/Arabic|◌ࣴ‎}}
+| Wolof
+| Latin ë
+|-
+| less than sign - below
+| {{unichar|08F9}}
+| style="font-size:36px;line-height:1.15;" | {{Script/Arabic|◌ࣹ‎}}
+| Wolof
+| Latin e
+|-
+| greater than sign - below
+| {{unichar|08FA}}
+| style="font-size:36px;line-height:1.15;" | {{Script/Arabic|◌ࣺ‎}}
+| Wolof
+| Latin é
+|-
+| less than sign - above
+| {{unichar|08F7}}
+| style="font-size:36px;line-height:1.15;" | {{Script/Arabic|◌ࣷ‎}}
+| Wolof
+| Latin o
+|-
+| greater than sign - above
+| {{unichar|08F8}}
+| style="font-size:36px;line-height:1.15;" | {{Script/Arabic|◌ࣸ‎}}
+| Wolof
+| Latin ó
+|-
+| ring
+|
+| style="font-size:36px;line-height:1.15;" | {{Script/Arabic|ګ}}
+| Pashto
+|
+*[[Kaph|kaf]] with ring {{Script/Arabic|ګ}} is used for IPA {{IPAslink|ɡ}}
+|-
+! colspan=5 style="text-align:left;" | Other shapes
+|-
+| "fish" shape above
+| {{unichar|08EC}}
+| style="font-size:36px;line-height:1.4;" |دࣤ࣬&nbsp;&nbsp;دࣥ࣬&nbsp;&nbsp;دࣦ࣯
+| Rohingya
+| '''Ṭāna''', e.g. {{script/Arabic|دࣤ࣬}} {{Script/Arabic|دࣥ࣬}} {{Script/Arabic|دࣦ࣯}} written above or below other diacritics to mark a [[Tone (linguistics)|long rising tone]] ({{IPAslink|˨˦}}).<ref name="tones1"/><ref name="tones2"/>
+|-
+| Various
+|
+|
+| Urdu
+|
+*Special diacritics usually found only in dictionaries for clarification of irregular pronunciation include  ''kasrah-e-majhool'', ''fathah-e-majhool'', ''dammah-e-majhool'', and ''alif-e-wavi''.<ref name="diacritics">{{cite web|url=http://www.cle.org.pk/clt09/download/Papers/Paper20.pdf|title=Proposal of Inclusion of Certain Characters in Unicode}}</ref>
+|}
+
+===Rohingya tone markers===
+Historically, the Arabic script has been adopted and used by many tonal languages; examples include [[Xiao'erjing]] for [[Mandarin Chinese]] as well as [[Ajami script]] adopted for writing various languages of Western Africa. However, the Arabic script never had an inherent way of representing tones until it was adapted for the [[Rohingya language]]. The ''Rohingya Fonna'' are 3 tone markers which are part of the standardized and accepted orthographic convention of Rohingya. It remains the only known instance of tone markers within the [[Arabic script]].<ref name="tones1">{{cite web|url=https://www.unicode.org/L2/L2010/10288r-arabic-proposal.pdf|title=Proposal to add Arabic script characters for African and Asian languages |last1=Priest|first1=Lorna A.|last2=Hosken|first2=Martin|date=10 August 2010|website=The Unicode Consortium|access-date=5 May 2023|archive-date=8 October 2022|archive-url=https://web.archive.org/web/20221008024419/http://unicode.org/L2/L2010/10288r-arabic-proposal.pdf|url-status=live}}</ref><ref name="tones2">{{cite web|url=http://unicode.org/L2/L2015/15278-hanifi-rohingya.pdf|title=Proposal to encode the Hanifi Rohingya script in Unicode|last=Pandey|first=Anshuman|date=27 October 2015|website=The Unicode Consortium|access-date=5 May 2023|archive-date=12 December 2019|archive-url=https://web.archive.org/web/20191212071859/http://unicode.org/L2/L2015/15278-hanifi-rohingya.pdf|url-status=live}}</ref>
+
+Tone markers act as "modifiers" of vowel diacritics. In simpler words, they are "diacritics for the diacritics". They are written "outside" of the word, meaning that they are written above  the vowel diacritic if the diacritic is written above the word, and they are written below the diacritic if the diacritic is written below the word. They are only ever written where there are vowel diacritics. This is important to note, as without the diacritic present, there is no way to distinguish between tone markers and ''I‘jām'' i.e. dots that are used for purpose of phonetic distinctions of consonants.
+
+====Hārbāy====
+{{Symb|◌࣪ / ◌࣭}}
+
+The '''Hārbāy''' as it is called in Rohingya, is a single dot that is placed on top of ''Fatḥah'' and ''Ḍammah'', or ''curly Fatḥah'' and ''curly Ḍammah'' (vowel diacritics unique to Rohinghya), or their respective ''Fatḥatan'' and ''Ḍammatan'' versions, and it is placed underneath ''Kasrah'' or ''curly Kasrah'', or their respective ''Kasratan'' version.  (e.g. {{script/Arabic|دً࣪ / دٌ࣪ / دࣨ࣪ / دٍ࣭}}) This tone marker indicates a [[Tone (linguistics)|short high tone]] ({{IPA|/˥/}}).<ref name="tones1"/><ref name="tones2"/>
+
+====Ṭelā====
+{{Symb|◌࣫ / ◌࣮}}
+
+The '''Ṭelā''' as it is called in Rohingya, is two dots that are  placed on top of ''Fatḥah'' and ''Ḍammah'', or ''curly Fatḥah'' and ''curly Ḍammah'', or their respective ''Fatḥatan'' and ''Ḍammatan'' versions, and it  is placed underneath ''Kasrah'' or ''curly Kasrah'', or their respective ''Kasratan'' version.  (e.g. {{script/Arabic|دَ࣫ / دُ࣫ / دِ࣮}}) This tone marker indicates a [[Tone (linguistics)|long falling tone]] ({{IPA|/˥˩/}}).<ref name="tones1"/><ref name="tones2"/>
+
+====Ṭāna====
+{{Symb|◌࣬ / ◌࣯}}
+
+The '''Ṭāna''' as it is called in Rohingya, is a fish-like looping line that is placed on top of ''Fatḥah'' and ''Ḍammah'', or ''curly Fatḥah'' and ''curly Ḍammah'', or their respective ''Fatḥatan'' and ''Ḍammatan'' versions, and it is placed underneath ''Kasrah'' or ''curly Kasrah'', or their respective ''Kasratan'' version.  (e.g. {{script/Arabic|دࣤ࣬ / دࣥ࣬ / دࣦ࣯}}) This tone marker indicates a [[Tone (linguistics)|long rising tone]] ({{IPA|/˨˦/}}).<ref name="tones1"/><ref name="tones2"/>
+
+== History ==
+[[File:Arabic script evolution.svg|thumb|250px|Evolution of early Arabic calligraphy (7th–11th century). The [[basmala]] was taken as an example, from [[Kufic]] ''[[Qur'an]]'' manuscripts.
+
+(1) Early 7th century, script with no dots or diacritic marks (see [[:File:Basmala kufi.svg|image of early Basmala Kufic]]);
+
+(2) and (3) 7th–10th century under Abbasid dynasty, Abu al-Aswad's system established red dots with each arrangement or position indicating a different short vowel; later, a second black-dot system was used to differentiate between letters like ''{{transliteration|ar|ALA|fā’}}'' and ''{{transliteration|ar|ALA|qāf}}'';
+
+(4) 11th century, in al-Farāhídi's system (system we know today) dots were changed into shapes resembling the letters to transcribe the corresponding long vowels.
+]]
+
+According to tradition, the first to commission a system of ''ḥarakāt'' was [[Ali]] who appointed [[Abu al-Aswad al-Du'ali]] for the task. Abu al-Aswad devised a system of dots to signal the three short vowels (along with their respective allophones) of Arabic. This system of dots predates the ''{{transliteration|ar|ALA|i‘jām}}'', dots used to distinguish between different consonants.
+
+<gallery>
+File:Basmala kufi.svg|Early Basmala Kufic
+File:Kufi.jpg|Middle Kufic
+File:Folio from a Qur’an, sura 91,14-15; sura 92,1-5 (F1929.70).jpg|Modern Kufic in Qur'an
+</gallery>
+
+=== Abu al-Aswad's system ===
+Abu al-Aswad's system of Harakat was different from the system we know today. The system used red dots with each arrangement or position indicating a different short vowel.
+
+A dot above a letter indicated the vowel ''{{transliteration|ar|ALA|a}}'', a dot below indicated the vowel ''{{transliteration|ar|ALA|i}}'', a dot on the side of a letter stood for the vowel ''{{transliteration|ar|ALA|u}}'', and two dots stood for the ''[[tanwin|{{transliteration|ar|ALA|tanwīn}}]]''.
+
+However, the early manuscripts of the Qur'an did not use the vowel signs for every letter requiring them, but only for letters where they were necessary for a correct reading.
+
+=== Al Farahidi's system ===
+The precursor to the system we know today is Al Farahidi's system. ''[[Al Farāhídi|{{transliteration|ar|ALA|al-Farāhīdī}}]]'' found that the task of writing using two different colours was tedious and impractical. Another complication was that the ''{{transliteration|ar|ALA|i‘jām}}'' had been introduced by then, which, while they were short strokes rather than the round dots seen today, meant that without a color distinction the two could become confused.
+
+Accordingly, he replaced the ''{{transliteration|ar|ALA|ḥarakāt}}'' with small superscript letters: small alif, yā’, and wāw for the short vowels corresponding to the long vowels written with those letters, a small ''s(h)īn'' for ''shaddah'' (geminate), a small ''khā’'' for ''khafīf'' (short consonant; no longer used). His system is essentially the one we know today.<ref name="Versteegh1997">{{cite book|last=Versteegh|first=C. H. M.|title=The Arabic Language|url=https://books.google.com/books?id=2tghviSsrF8C|year=1997|publisher=Columbia University Press|isbn=978-0-231-11152-2|pages=56ff}}</ref>
+
+== Automatic diacritization ==
+The process of automatically restoring diacritical marks is called diacritization or diacritic restoration. It is useful to avoid ambiguity in applications such as [[Arabic machine translation]], [[text-to-speech]], and [[information retrieval]]. Automatic diacritization algorithms have been developed.<ref>{{Cite journal|last1=Azmi|first1=Aqil M.|last2=Almajed|first2=Reham S.|date=2013-10-10|title=A survey of automatic Arabic diacritization techniques|url=https://www.cambridge.org/core/product/identifier/S1351324913000284/type/journal_article|journal=Natural Language Engineering|language=en|volume=21|issue=3|pages=477–495|doi=10.1017/S1351324913000284|s2cid=31560671|issn=1351-3249|url-access=subscription}}</ref><ref>{{Cite journal|last=Almanea|first=Manar|date=2021|title=Automatic Methods and Neural Networks in Arabic Texts Diacritization: A Comprehensive Survey|journal=IEEE Access|volume=9|pages=145012–145032|doi=10.1109/ACCESS.2021.3122977|s2cid=240011970|issn=2169-3536|doi-access=free|bibcode=2021IEEEA...9n5012A }}</ref> For [[Modern Standard Arabic]], the [[state-of-the-art]] algorithm has a [[word error rate]] (WER) of 4.79%. The most common mistakes are proper [[Arabic nouns and adjectives|nouns]] and [[ʾIʿrab|case endings]].<ref>{{cite arXiv|last1=Thompson|first1=Brian|last2=Alshehri|first2=Ali|date=2021-09-28|title=Improving Arabic Diacritization by Learning to Diacritize and Translate|class=cs.CL|eprint=2109.14150}}</ref> Similar algorithms exist for other [[varieties of Arabic]].<ref>{{Cite journal|last1=Masmoudi|first1=Abir|last2=Aloulou|first2=Chafik|last3=Abdellahi|first3=Abdel Ghader Sidi|last4=Belguith|first4=Lamia Hadrich|date=2021-08-08|title=Automatic diacritization of Tunisian dialect text using SMT model|url=https://doi.org/10.1007/s10772-021-09864-6|journal=International Journal of Speech Technology|volume=25 |pages=89–104 |language=en|doi=10.1007/s10772-021-09864-6|s2cid=238782966|issn=1572-8110|url-access=subscription}}</ref>
+
+== See also ==
+* [[Arabic alphabet]]:
+** ''[[ʾIʿrab|{{transliteration|ar|ALA|I‘rāb}}]]'' ({{lang|ar|إِعْرَاب}}), the case system of Arabic
+** ''[[Rasm|{{transliteration|ar|ALA|Rasm}}]]'' ({{lang|ar|رَسْم}}), the basic system of Arabic consonants
+** ''[[Tajwid|{{transliteration|ar|ALA|Tajwīd}}]]'' ({{lang|ar|تَجْوِيد}}), the phonetic rules of recitation of Qur'an in Arabic
+* [[Hebrew language|Hebrew]]:
+** [[Hebrew diacritics]], the Hebrew equivalent
+** ''[[Niqqud]],'' the Hebrew equivalent of ''{{transliteration|ar|ALA|ḥarakāt}}''
+** ''[[Dagesh]],'' the Hebrew diacritic similar to Arabic ''{{transliteration|ar|ALA|i‘jām}}'' and shaddah
+
+== References ==
+{{reflist}}
+<!-- to add future references -->
+* [https://hal.archives-ouvertes.fr/hal-02113751 Alexis Neme and Sébastien Paumier (2019), "Restoring Arabic vowels through omission-tolerant dictionary lookup", ''Lang Resources & Evaluation'', Vol. 53, pp. 1-65]
+
+{{Arabic language}}
+{{Navbox diacritical marks}}
+
+[[Category:Arabic diacritics| ]]
+[[Category:Arabic words and phrases]]
+[[Category:Quranic orthography]]
+[[Category:Phonetic guides]]

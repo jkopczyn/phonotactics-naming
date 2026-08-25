@@ -1,0 +1,715 @@
+{{IPA key|H:IPA-GA}}
+The charts below show the way in which the [[International Phonetic Alphabet]] (IPA) represents [[Irish language|Irish-language]] pronunciations in Wikipedia articles. For a guide to adding IPA characters to Wikipedia articles, see [[Template:IPA]] and {{section link|Wikipedia:Manual of Style/Pronunciation#Entering IPA characters}}.
+
+See [[Irish phonology]] and [[Irish orthography]] for a more thorough look at the sounds of Irish and how they are represented in writing, respectively.
+{{Horizontal TOC}}
+
+==Key==
+{|class="wikitable"
+|+ Consonants<ref>Irish makes contrasts between [[velarized]] ("broad") and [[palatalization (phonetics)|palatalized]] ("slender") consonants. Velarized consonants, denoted in the IPA by a superscript {{vr|ˠ}} (that is not a capital Y but a Latin letter, based on a Greek lowercase [[gamma]], {{vr|&gamma;}}), are pronounced with the back of the [[tongue]] raised toward the [[soft palate|velum]], which happens to the {{IPA|/l/}} in English ''pi'''ll''''' in some accents like [[Received Pronunciation|RP]] and [[General American]] but not [[Hiberno-English]]. In [[Irish orthography]], broad consonants are surrounded by {{vr|a}}, {{vr|o}}, and {{vr|u}}. Slender consonants, denoted in the IPA by a superscript {{vr|ʲ}}, are pronounced with the body of the tongue raised toward the [[hard palate]] like the articulation of the {{IPAblink|j}} sound in ''yes'' {{IPAc-en|j|ɛ|s}}. In Irish orthography, slender consonants are surrounded by {{vr|e}} and {{vr|i}}.</ref>
+! colspan="3" | [[velarization|Broad]]
+! colspan="3" | [[palatalization (phonetics)|Slender]]
+|-
+! IPA
+! Example
+! English approximation
+! IPA
+! Example
+! English approximation
+|-
+| {{big|{{IPAlink|b|bˠ}}}}
+| '''b'''ain, scua'''b'''
+| '''b'''oot
+| {{big|{{IPA|bʲ}}}}
+| '''b'''éal, cnái'''b'''
+| '''b'''eautiful
+|-
+| {{big|{{IPAlink|d|d̪ˠ}}}}
+| '''d'''orn, nea'''d'''
+| '''d'''o (''but dental''), '''th'''ough (''[[Hiberno-English|Ireland]]'')
+| {{big|{{IPA|dʲ}}}}
+| '''d'''earg, cui'''d'''
+| me'''di'''a
+|-
+| {{big|{{IPAlink|f|fˠ}}}}
+| '''f'''ós, gra'''f''', '''ph'''oll
+| '''f'''ool
+| {{big|{{IPA|fʲ}}}}
+| '''f'''íon, stui'''f''', '''ph'''ríosún
+| '''f'''uel
+|-
+| {{big|{{IPAlink|ɡ}}}}
+| '''g'''asúr, bo'''g'''
+| '''g'''oose
+| {{big|{{IPAlink|ɟ}}}}
+| '''g'''eata, carrai'''g'''
+| ar'''g'''ue
+|-
+| {{big|{{IPAlink|ɣ}}}}
+| '''dh'''orn, '''gh'''asúr
+| ''Spanish'' hi'''g'''o
+| {{big|{{IPAlink|j}}}}<ref>Also {{IPAblink|ʝ}} in some positions in some dialects. In Munster word final {{IPA|/j/}} is [[fortition|fortified]] to {{IPA|[ɟ]}}, merging with {{IPA|/ɟ/}}.</ref><ref name="wj">Word final {{IPA|/əj/}} ({{vr|(a)idh, (a)igh}}) and {{IPA|/əw/}} ({{vr|(e)abh, (e)amh}} or {{vr|bh, mh}} after an epenthetic schwa) have merged with {{IPA|/ə/}} in South Connacht. In North Connacht and Ulster they merge with {{IPA|/iː/}} and {{IPA|/uː/}}, respectively. In Munster, the former is realised as {{IPA|[əɟ]}} and the latter as {{IPA|[əvˠ]}}.</ref>
+| '''dh'''earg, '''gh'''eata
+| '''y'''ellow
+|-
+| {{big|{{IPAlink|h}}}}<ref name="h">{{IPA|/h/}} is neither broad nor slender, but can sometimes be [[Elision|elided]] when intervocalically (e.g. “athair” is pronounced as {{IPA|/aːɾʲ}}/).</ref>
+| '''Sh'''asana, '''sh'''ean, '''th'''aisce, '''th'''eanga, '''h'''ata, na '''h'''éisc
+| '''h'''and
+| colspan="3" {{n/a}}
+|-
+| {{big|{{IPAlink|k}}}}
+| '''c'''áis, ma'''c'''
+| '''c'''art
+| {{big|{{IPAlink|c}}}}
+| '''c'''eist, mi'''c'''
+| '''c'''ube
+|-
+| {{big|{{IPAlink|ɫ|l̪ˠ}}}}<ref name=l>Few, if any, modern dialects of Irish distinguish all four types of L sound. Most dialects have merged {{IPA|/l̪ˠ/}} and {{IPA|/lˠ/}} as {{IPA|[l̪ˠ]}}, and some have also merged {{IPA|/l̠ʲ/}} and {{IPA|/lʲ/}} as {{IPA|[lʲ]}}. Still others have merged {{IPA|/lˠ/}} and {{IPA|/lʲ/}} as {{IPAblink|l}}.</ref>
+| '''l'''abhair, ba'''ll'''a
+| fi'''l'''th
+| {{big|{{IPA|l̠ʲ}}}}<ref name=l />
+| '''l'''eabhair, goi'''ll'''eadh
+| mi'''ll'''ion
+|-
+| {{big|{{IPAlink|l|lˠ}}}}<ref name=l />
+| fh'''l'''aith, bea'''l'''ach
+| poo'''l'''
+| {{big|{{IPA|lʲ}}}}<ref name=l />
+| fh'''l'''easc, goi'''l'''e
+| '''l'''eaf
+|-
+| {{big|{{IPAlink|m|mˠ}}}}
+| '''m'''ór, a'''m'''
+| '''m'''oot
+| {{big|{{IPA|mʲ}}}}
+| '''m'''ilis, i'''m'''
+| '''m'''ute
+|-
+| {{big|{{IPAlink|n̪|n̪ˠ}}}}<ref name=n>Few, if any, modern dialects of Irish distinguish all four types of N sound. Most dialects have merged {{IPA|/n̪ˠ/}} and {{IPA|/nˠ/}} as {{IPA|[n̪ˠ]}}, and some have also merged {{IPA|/n̠ʲ/}} and {{IPA|/nʲ/}} as {{IPA|[nʲ]}}. Still others have merged {{IPA|/nˠ/}} and {{IPA|/nʲ/}} as {{IPAblink|n}}. In parts of [[Munster Irish|Munster]], {{IPA|/n̠ʲ/}} has merged with {{IPA|/ɲ/}} in non-initial position.</ref>
+| '''n'''aoi, do'''nn'''a
+| te'''n'''th
+| {{big|{{IPA|n̠ʲ}}}}<ref name=n />
+| '''n'''í, bai'''nn'''e
+| o'''n'''ion
+|-
+| {{big|{{IPAlink|n|nˠ}}}}<ref name=n />
+| do'''n'''a
+| '''n'''oon
+| {{big|{{IPA|nʲ}}}}<ref name=n />
+| bai'''n'''is
+| i'''n'''ch
+|-
+| {{big|{{IPAlink|ŋ}}}}
+| '''ng'''asúr
+| lo'''ng'''
+| {{big|{{IPAlink|ɲ}}}}
+| '''ng'''eata
+| ca'''ny'''on
+|-
+| {{big|{{IPAlink|p|pˠ}}}}
+| '''p'''oll, sto'''p'''
+| '''p'''oor
+| {{big|{{IPA|pʲ}}}}
+| '''p'''ríosún, trui'''p'''
+| '''p'''ure
+|-
+|{{big|{{IPAlink|ɾ|ɾˠ}}}}
+| ba'''rr''', ca'''rr'''
+| '''r'''ule (''but [[tap consonant|tapped]]'')
+| {{big|{{IPA|ɾʲ}}}}
+| fh'''r'''éamh, ti'''r'''im
+| '''r'''eal (''but tapped'')
+|-
+| {{big|{{IPAlink|s|sˠ}}}}
+| '''S'''a'''s'''ana, tú'''s''', '''s'''peal
+| '''s'''oon
+| {{big|{{IPAlink|ʃ}}}} <ref name="slender s and t">Slender ⟨s⟩ and ⟨t⟩ can be either pronounced as /ʃ/ and /tʲ/ or /ɕ/ and /t͡ɕ/</ref>
+| '''s'''ean, cái'''s'''
+| '''sh'''eet
+|-
+| {{big|{{IPAlink|t|t̪ˠ}}}}
+| '''t'''aisce, cear'''t'''
+| '''t'''ool (''but dental''), '''th'''orn (''[[Hiberno-English|Ireland]]'')
+| {{big|{{IPA|tʲ}}}} <ref name="slender s and t" />
+| '''t'''ír, beir'''t'''
+| '''t'''une (''accents without [[Phonological history of English consonant clusters#Yod-dropping|yod dropping]]'')
+|-
+| {{big|{{IPAlink|w}}}}<ref>{{IPA|[w~βˠ~vˠ]}} depending on dialect and position.</ref><ref name="wj"></ref>
+| '''bh'''ain, du'''bh''', '''mh'''ór, léa'''mh''', '''v'''óta
+| '''w'''ood or '''v'''oodoo
+| {{big|{{IPA|vʲ}}}}
+| '''bh'''éal, si'''bh''', '''mh'''ilis, ni'''mh''', '''v'''eidhlín
+| '''v'''iew
+|-
+| {{big|{{IPAlink|x}}}}
+| '''ch'''áis, taoisea'''ch''' 
+| lo'''ch''' (''[[Scottish English|Scotland]]'')
+| {{big|{{IPAlink|ç}}}}
+| '''ch'''eist, dei'''ch'''
+| '''h'''ue (''pronounced strongly'')
+|}
+
+{|class="wikitable floatleft"
+|+ Vowels
+! IPA
+! Examples
+! English approximation
+! IPA
+! Examples
+! English approximation
+|-
+| {{big|{{IPAlink|a}}}}
+| m'''a'''c
+| tr'''a'''p
+|{{big|{{IPAlink|aː}}}}
+|t'''á'''
+|f'''a'''ther
+|-
+| {{big|{{IPAlink|ɛ}}}}
+| c'''ei'''st
+| b'''e'''st
+|{{big|{{IPAlink|eː}}}}
+|m'''é''', g'''ae'''l
+|p'''ay'''
+|-
+| {{big|{{IPAlink|ɪ}}}}
+| '''i'''th, d'''ui'''ne
+| k'''i'''t
+|{{big|{{IPAlink|iː}}}}
+|m'''í'''n, n'''aoi'''
+|m'''ea'''n
+|-
+| {{big|{{IPAlink|ɔ}}}}
+| '''o'''lc, d'''eo'''ch
+| '''o'''ff
+|{{big|{{IPAlink|oː}}}}
+|b'''ó''', c'''eo'''l 
+|c'''o'''re
+|-
+| {{big|{{IPAlink|ʊ}}}}
+| d'''u'''bh, fl'''iu'''ch
+| g'''oo'''d
+|{{big|{{IPAlink|uː}}}}
+|t'''ú'''
+|c'''oo'''l
+|-
+| {{big|{{IPAlink|ə}}}}
+| sol'''a'''s, mil'''i'''s
+| sof'''a'''
+| colspan="3" {{n/a}}
+|}
+
+{|class="wikitable"
+|+Diphthongs
+!IPA
+!Examples 
+!English
+Approximation 
+|-
+|align=center |{{big|{{IPA|iə}}}}<ref name=diph>All Irish diphthongs have [[falling diphthong|falling]] sonority; they could therefore more precisely be transliterated as {{IPA|[iə̯, uə̯, əi̯, əu̯]}}.</ref>
+| b'''ia'''
+| id'''ea'''
+|-
+|align=center |{{big|{{IPA|uə}}}}<ref name=diph />
+| f'''ua'''r
+| tr'''ua'''nt
+|-
+|align=center |{{big|{{IPA|əi}}}}<ref name=diph /><ref name=monophthongization>{{IPA|/əi/}} and {{IPA|/əu/}} can be sometimes [[Monophthongization|compressed]] into {{IPA|/eː/}} and {{IPA|/oː/}} in the [[Ulster Irish|Ulster dialect]].</ref>
+| s'''agha'''s
+| l'''igh'''t
+|-
+|align=center |{{big|{{IPA|əu}}}}<ref name=diph /><ref name=monophthongization />
+| l'''eabha'''r
+| ab'''ou'''t
+|}
+
+{| class="wikitable"
+|+ Suprasegmentals
+! IPA !! Explanation
+|-
+|align=center |{{big|{{IPA|ˈ}}}}
+| [[primary stress]] (placed before the stressed syllable);<br/>usually the first syllable except in [[Munster Irish|Munster]]
+|-
+|align=center |{{big|{{IPA|ˌ}}}}
+| [[secondary stress]] (usually found only in [[compound (linguistics)|compounds]])
+|}
+{{clear}}
+
+==Comparison of transcription schemes==
+Materials published elsewhere use somewhat different conventions from those used at Wikipedia. For example, it is a longstanding tradition to leave velarized ("broad") consonants unmarked and mark palatalized ("slender") consonants with the [[prime (symbol)|prime]], but that is not standard IPA usage.
+
+This section compares the IPA system used at Wikipedia (which is based on that used by Ailbhe Ní Chasaide in her description of Irish in the ''Handbook of the International Phonetic Association'', {{ISBN|0-521-63751-1}}) with the systems used in some other works.
+
+{|class="wikitable" style="text-align: center"
+! IPA
+! Ní Chasaide (1999)<ref>{{cite book|last=Ní Chasaide |first=Ailbhe |year=1999 |chapter=Irish |title=Handbook of the International Phonetic Association |location=Cambridge |publisher=Cambridge University Press |pages=111–116 |isbn=0-521-63751-1 |chapter-url=https://pdfhost.io/v/2740vhkDX_Irishpdf.pdf}}</ref><br/>([[Ulster Irish|Gweedore]])
+! Quiggin (1906)<ref>{{cite book|last=Quiggin|first=E.&nbsp;C.|year=1906|title=[[s:A Dialect of Donegal|A Dialect of Donegal: Being the Speech of Meenawannia in the Parish of Glenties]]|location=Cambridge|publisher=Cambridge University Press}}</ref><br />([[Ulster Irish|Glenties]])
+! Breatnach (1947)<ref>{{cite book|last=Breatnach |first=Risteard B. |title=The Irish of Ring, Co. Waterford |publisher=Dublin Institute for Advanced Studies |year=1947 |isbn=0-901282-50-2}}</ref><br />([[Munster Irish|Ring]])
+! Ó Sé (2000)<ref>{{cite book|last=Ó Sé |first=Diarmuid |title=Gaeilge Chorca Dhuibhne|place=Dublin |publisher=Institiúid Teangeolaíochta Éireann |year=2000 |isbn=0-946452-97-0 |language=Irish}}</ref><br />([[Munster Irish|Dingle Peninsula]])
+! Mhac an Fhailigh (1968)<ref>{{cite book|last=Mhac an Fhailigh |first=Éamonn |title=The Irish of Erris, Co. Mayo |publisher=Dublin Institute for Advanced Studies |year=1968 |isbn=0-901282-02-2}}</ref><br />([[Connacht Irish|Erris]])
+! Ó Siadhail (1988)<ref>{{cite book|title=Learning Irish: An Introductory Self-tutor |first=Mícheál |last=Ó Siadhail |author-link=Micheal O'Siadhail |isbn=0-300-04224-8 |location=New Haven |publisher=Yale University Press |year=1988}}</ref><br/>([[Connacht Irish|Cois Fharraige]])
+! ''Foclóir Póca'' (1993)<ref>{{cite book|title=Foclóir póca: English-Irish/Irish-English dictionary |location=Dublin |publisher=An Gúm |year=1993 |isbn=1-85791-047-8}}</ref><br/>(Lárchanúint)
+|-class="IPA"
+| {{big|a}}
+| a
+| æ, α
+| a
+| a
+| a
+| æ:, a:
+| a
+|-class="IPA"
+| {{big|aː}}
+| æ
+| α:
+| a:
+| ɑː
+| a:
+| ɑ:
+| a:
+|-class="IPA"
+| {{big|bˠ}}
+| bˠ
+| b
+| b
+| b
+| b
+| b
+| b
+|-class="IPA"
+| {{big|bʲ}}
+| bʲ
+| b′
+| b′
+| b′
+| b′
+| b′
+| b′
+|-class="IPA"
+| {{big|c}}
+| c
+| k′
+| k′
+| k′
+| k′
+| k′
+| k′
+|-class="IPA"
+| {{big|ç}}
+| ç
+| ç
+| ç
+| x′
+| ç
+| x′
+| x′
+|-class="IPA"
+| {{big|d̪ˠ}}
+| d̪ˠ
+| d
+| d
+| d
+| d
+| d
+| d
+|-class="IPA"
+| {{big|dʲ}}
+| d̠ʲ
+| d′
+| d′
+| d′
+| d′
+| d′
+| d′
+|-class="IPA"
+| {{big|eː}}
+| e
+| e:
+| e:
+| eː
+| e:
+| e:
+| e:
+|-class="IPA"
+| {{big|ɛ}}
+| ɛ
+| ɛ, e
+| e
+| e
+| e
+| e
+| e
+|-class="IPA"
+| {{big|ə}}
+| ə
+| ə
+| ə
+| ə, ɪ
+| ə
+| ə
+| ə
+|-class="IPA"
+| {{big|əi}}
+| —
+| αi
+| əi
+| ai
+| əi
+| ai
+| ai
+|-class="IPA"
+| {{big|əu}}
+| au
+| αu
+| əu
+| ou
+| əu
+| au
+| au
+|-class="IPA"
+| {{big|fˠ}}
+| fˠ
+| f
+| f
+| f
+| f
+| f
+| f
+|-class="IPA"
+| {{big|fʲ}}
+| fʲ
+| f′
+| f′
+| f′
+| f′
+| f′
+| f′
+|-class="IPA"
+| {{big|ɡ}}
+| ɡ
+| g<!-- NOT the IPA open-tail ɡ-->
+| g<!-- NOT the IPA open-tail ɡ-->
+| ɡ
+| g<!-- NOT the IPA open-tail ɡ-->
+| g<!-- NOT the IPA open-tail ɡ-->
+| g<!-- NOT the IPA open-tail ɡ-->
+|-class="IPA"
+| {{big|ɣ}}
+| ɣ
+| ℊ
+| γ<!-- the Greek letter, NOT the IPA gamma-->
+| ɣ
+| ɣ
+| ɣ
+| γ<!-- the Greek letter, NOT the IPA gamma-->
+|-class="IPA"
+| {{big|h}}
+| h
+| h
+| h, h′
+| h
+| h
+| h
+| h
+|-class="IPA"
+| {{big|iː}}
+| i
+| i:
+| i:
+| iː
+| i:
+| i:
+| i:
+|-class="IPA"
+| {{big|ɪ}}
+| ɪ
+| ï, i, y
+| i
+| i
+| i
+| i
+| i
+|-class="IPA"
+| {{big|iə}}
+| ia
+| iə
+| iə
+| iːə
+| iə
+| i:ə
+| iə
+|-class="IPA"
+| {{big|j}}
+| j
+| j
+| j
+| ɣ′
+| j
+| ɣ′
+| γ′
+|-class="IPA"
+| {{big|ɟ}}
+| ɟ
+| g′
+| g′
+| ɡ′
+| g′
+| g′
+| g′
+|-class="IPA"
+| {{big|k}}
+| k
+| k
+| k
+| k
+| k
+| k
+| k
+|-class="IPA"
+| {{big|l̪ˠ}}
+| rowspan=2 | l̪ˠ
+| L
+| rowspan=2 | l
+| rowspan=2 | l
+| L
+| rowspan=2 | L
+| rowspan=2 | l
+|-class="IPA"
+| {{big|lˠ}}
+| l
+| l
+|-class="IPA"
+| {{big|l̠ʲ}}
+| l̠ʲ
+| L′
+| rowspan=2 | l′
+| rowspan=2 | l′
+| L′
+| L′
+| rowspan=2 | l′
+|-class="IPA"
+| {{big|lʲ}}
+| l
+| l′
+| l′
+| l′
+|-class="IPA"
+| {{big|mˠ}}
+| mˠ
+| m
+| m
+| m
+| m
+| m
+| m
+|-class="IPA"
+| {{big|mʲ}}
+| mʲ
+| m′
+| m′
+| m′
+| m′
+| m′
+| m′
+|-class="IPA"
+| {{big|n̪ˠ}}
+| n̪ˠ
+| N
+| rowspan=2 | n
+| rowspan=2 | n
+| N
+| rowspan=2 | N
+| rowspan=2 | n
+|-class="IPA"
+| {{big|nˠ}}
+| n
+| n
+| n
+|-class="IPA"
+| {{big|n̠ʲ}}
+| rowspan=2 | n̠ʲ
+| N′
+| rowspan=2 | n′
+| rowspan=2 | n′
+| N′
+| N′
+| rowspan=2 | n′
+|-class="IPA"
+| {{big|nʲ}}
+| n′
+| n′
+| n′
+|-class="IPA"
+| {{big|ɲ}}
+| ɲ
+| ɲ
+| ŋ′
+| ŋ′
+| ŋ′
+| ŋ′
+| ŋ′
+|-class="IPA"
+| {{big|ŋ}}
+| ŋ
+| ŋ
+| ŋ
+| ŋ
+| ŋ
+| ŋ
+| ŋ
+|-class="IPA"
+| {{big|oː}}
+| o
+| o:, ɔ:
+| o:
+| oː
+| o:
+| o:
+| o:
+|-class="IPA"
+| {{big|ɔ}}
+| ʌ
+| ɔ, o̤
+| o
+| o
+| o
+| o
+| o
+|-class="IPA"
+| {{big|pˠ}}
+| pˠ
+| p
+| p
+| p
+| p
+| p
+| p
+|-class="IPA"
+| {{big|pʲ}}
+| pʲ
+| p′
+| p′
+| p′
+| p′
+| p′
+| p′
+|-class="IPA"
+| {{big|ɾˠ}}
+| ɾˠ
+| r, R
+| r
+| r
+| r
+| r
+| r
+|-class="IPA"
+| {{big|ɾʲ}}
+| ɾʲ
+| r′
+| r′
+| r′
+| r′
+| r′
+| r′
+|-class="IPA"
+| {{big|sˠ}}
+| sˠ
+| s
+| s
+| s
+| s
+| s
+| s
+|-class="IPA"
+| {{big|ʃ}}
+| ɕ
+| ʃ
+| ʃ
+| ʃ
+| ʃ
+| s′
+| s′
+|-class="IPA"
+| {{big|t̪ˠ}}
+| t̪ˠ
+| t
+| t
+| t
+| t
+| t
+| t
+|-class="IPA"
+| {{big|tʲ}}
+| t̠ʲ
+| t′
+| t′
+| t′
+| t′
+| t′
+| t′
+|-class="IPA"
+| {{big|uː}}
+| u
+| u:
+| u:
+| uː
+| u:
+| u:
+| u:
+|-class="IPA"
+| {{big|ʊ}}
+| ɤ
+| U
+| u
+| u
+| u
+| u
+| u
+|-class="IPA"
+| {{big|uə}}
+| ua
+| uə
+| uə
+| uːə
+| uə
+| u:ə
+| uə
+|-class="IPA"
+| {{big|vʲ}}
+| vʲ
+| v
+| v′
+| v′
+| v′
+| w′
+| v′
+|-class="IPA"
+| {{big|w}}
+| w
+| w
+| v
+| v
+| w
+| w
+| v
+|-class="IPA"
+| {{big|x}}
+| x
+| χ
+| x
+| x
+| x
+| x
+| x
+|}
+
+==See also==
+* {{clc|Pages with Irish IPA|pages}}
+
+==Notes==
+{{reflist}}
+
+== External links ==
+* [http://www.abair.tcd.ie/?lang=eng&xpos=0&ypos=592&page=transcription&input=&submit=Phonetise&synth=cm_V2&countdown=2000&pinFada=on&map_to=html-ipa&showstress=on&syllbound=on Irish Phonetic Transcription Converter]—Free Online Tool to convert Irish Text to IPA Phonetic Transcription
+
+{{IPA keys}}

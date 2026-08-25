@@ -1,0 +1,459 @@
+{{short description|Phonology of the Irish language}}
+{{about|the phonology of the Irish Gaelic language|Irish accents in English|Hiberno-English}}
+{{Use dmy dates|date=April 2022}}
+{{Use Oxford spelling|date=August 2021}}
+{{IPA-ga notice}}
+[[File:Gaeltachtai le hainmneacha2.svg|thumb|upright=1.13|Map of the [[Gaeltacht|Irish-speaking areas]] of [[Ireland]]. Places mentioned in this article are named on the map.]]
+'''Irish [[phonology]]''' varies from [[Irish language#Dialects|dialect to dialect]]; there is no [[standard language|standard pronunciation]] of [[Irish language|Irish]]. Therefore, this article focuses on phenomena shared by most or all dialects, and on the major differences among the dialects. Detailed discussion of the dialects can be found in the specific articles: [[Ulster Irish]], [[Connacht Irish]], and [[Munster Irish]].
+
+Irish phonology has been studied as a discipline since the late 19th century, with numerous researchers publishing [[descriptive linguistics|descriptive]] accounts of dialects from all regions where the language is spoken. More recently, Irish phonology has been a focus of [[theoretical linguist]]s.
+
+One of the most important aspects of Irish phonology is that almost all [[consonant]]s (except {{IPA|/h/}}) come in pairs, a "broad" and a "slender" pronunciation. Broad consonants are either [[velarized]] ({{IPA|◌ˠ}}; back of tongue is pulled back and slightly up in the direction of the [[soft palate]] during articulation) or simply [[Velar consonant|velar]] (for example, {{IPA|/k ɡ/}}). Slender consonants are [[Palatalization (phonetics)|palatalized]] ({{IPA|◌ʲ}}; tongue pushed up towards the [[hard palate]] during articulation). The contrast between broad and slender consonants is crucial in Irish, because the meaning of a word can change if a broad consonant is substituted for a slender consonant or vice versa. For example, the only difference in pronunciation between the words {{lang|ga|bó}} ('cow') and {{lang|ga|beo}} ('alive') is that {{lang|ga|bó}} is pronounced with broad {{IPA|/bˠ/}}, while {{lang|ga|beo}} is pronounced with slender {{IPA|/bʲ/}}. The contrast between broad and slender consonants plays a critical role not only in distinguishing the individual consonants themselves, but also in the pronunciation of the surrounding [[vowel]]s, in the determination of which consonants can stand next to each other, and in the behaviour of words that begin with a vowel. This broad/slender distinction is similar to the hard/soft one of several [[Slavic languages]], like [[Russian language|Russian]].
+
+Irish shares a number of phonological characteristics with its nearest linguistic relatives, [[Scottish Gaelic]] and [[Manx language|Manx]], as well as with [[Hiberno-English]], which it currently has the most [[language contact]] with.
+
+==History of the discipline==
+[[File:Die araner mundart.djvu|thumb|page=7|Title page of {{Lang|de|Die araner mundart. Ein beitrag zur erforschung des westirischen}} ('The Aran dialect. A contribution to the study of West Irish') {{Harvcol|Finck|1899}}.|link=File:Die_araner_mundart.djvu%3Fpage=7]]
+Until the end of the 19th century, linguistic discussions of Irish focused either on the traditional grammar (issues like the [[inflection]] of nouns, verbs and adjectives) or on the [[historical linguistics|historical]] development of sounds from [[Proto-Indo-European language|Proto-Indo-European]] through [[Proto-Celtic]] to [[Old Irish]]. The first [[descriptive linguistics|descriptive]] analysis of the phonology of an Irish dialect was {{Harvcoltxt|Finck|1899}}, which was based on [[Franz Nikolaus Finck|the author]]'s fieldwork in the [[Aran Islands]]. This was followed by {{Harvcoltxt|Quiggin|1906}}, a phonetic description of the dialect of Meenawannia near [[Glenties]], County Donegal. {{Harvcoltxt|Pedersen|1909}} is predominantly a historical account, but has some description of modern dialects as well. [[Alf Sommerfelt]] published early descriptions of [[Ulster Irish|Ulster]] dialects ({{Harvcolnb|Sommerfelt|1922}} and {{Harvcolnb|Sommerfelt|1965}} for the village of Torr in [[Gweedore]], {{Harvcolnb|Sommerfelt|1927}}, and {{Harvcolnb|Sommerfelt|1929}} for the now extinct dialect of South [[County Armagh|Armagh]]). The dialect of [[Dunquin]] on the [[Dingle Peninsula]] in Munster was described by {{Harvcoltxt|Sjoestedt|1931}}. From 1944 to 1968 the [[Dublin Institute for Advanced Studies]] published a series of monographs, each describing the phonology of one local dialect: {{Harvcoltxt|Ó Cuív|1944}} for West Muskerry in [[County Cork]] ([[Ballyvourney]], [[Coolea]] and vicinity), {{Harvcoltxt|de Bhaldraithe|1966}} (first published 1945) for [[Cois Fhairrge]] in [[County Galway]] ([[Barna]], [[Spiddal]], [[Inverin]] and vicinity), {{Harvcoltxt|Breatnach|1947}} for [[An Rinn]] in County Waterford, {{Harvcoltxt|de Búrca|1958}} for [[Tourmakeady]] in [[County Mayo]], {{Harvcoltxt|Wagner|1959}} for [[Teelin]], County Donegal, {{Harvcoltxt|Mhac an Fhailigh|1968}} for [[Erris]] in County Mayo. More recent descriptive phonology has been published by {{Harvcoltxt|Lucas|1979}} for [[Rosguill]] in northern Donegal, {{Harvcoltxt|Hughes|1986}} for Tangaveane and Commeen (also near Glenties), {{Harvcoltxt|Ó Curnáin|1996}} for [[Iorras Aithneach]] in [[Connemara]] ([[Kilkieran]] and vicinity) and {{Harvcoltxt|Ó Sé|2000}} for the [[Dingle Peninsula]], County Kerry.
+
+Research into the theoretical phonology of Irish began with {{Harvcoltxt|Ó Siadhail|Wigger|1975}}, which follows the principles and practices of Chomsky and Halle's ''[[The Sound Pattern of English]]'' and which formed the basis of the phonology sections of {{Harvcoltxt|Ó Siadhail|1989}}. Dissertations examining Irish phonology from a theoretical point of view include {{Harvcoltxt|Ní Chiosáin|1991}}, {{Harvcoltxt|Green|1997}} in [[optimality theory]], and {{Harvcoltxt|Cyran|1997}} and {{Harvcoltxt|Bloch-Rozmej|1998}} in [[government phonology]].
+
+==Consonants==
+Most dialects of Irish contain at a minimum the consonant [[phoneme]]s shown in the following chart (see [[International Phonetic Alphabet]] for an explanation of the symbols). The consonant {{IPA|/h/}} is neither broad nor slender.
+
+{| class="wikitable" style="text-align: center;"
+|+ Consonant phonemes
+! rowspan="2" colspan="2" |
+! colspan="2" | [[Labial consonant|Labial]]
+! colspan="2" | [[Coronal consonant|Coronal]]
+! colspan="2" | [[Dorsal consonant|Dorsal]]
+! rowspan="2" | [[Glottal consonant|Glottal]]
+|- class="small"
+! [[velarization|broad]]
+! [[Palatalization (phonetics)|slender]]
+! [[velarization|broad]]
+! [[Palatalization (phonetics)|slender]]
+! [[velarization|broad]]
+! [[Palatalization (phonetics)|slender]]
+|-
+! rowspan="2" | [[Stop consonant|Stop]]
+! <small>[[Voice (phonetics)|voiceless]]</small>
+| {{IPAlink|p|pˠ}} || {{IPAlink|p|pʲ}}
+| {{IPAlink|t̪|t̪ˠ}} || {{IPAlink|t|tʲ}}
+| {{IPAlink|k}} || {{IPAlink|c}}
+|
+|-
+! <small>[[Voice (phonetics)|voiced]]</small>
+| {{IPAlink|b|bˠ}} || {{IPAlink|b|bʲ}}
+| {{IPAlink|d̪|d̪ˠ}} || {{IPAlink|d|dʲ}}
+| {{IPAlink|ɡ}} || {{IPAlink|ɟ}}
+|
+|-
+! rowspan="2" | [[Continuant]]
+! <small>[[Voice (phonetics)|voiceless]]</small>
+| {{IPAlink|f|fˠ}} || {{IPAlink|f|fʲ}}
+| {{IPAlink|s|sˠ}} || {{IPAlink|ʃ}}
+| {{IPAlink|x}} || {{IPAlink|ç}}
+| {{IPAlink|h}}
+|-
+! <small>[[Voice (phonetics)|voiced]]</small>
+| {{IPAlink|w}} || {{IPAlink|v|vʲ}}
+| {{IPAlink|l̪ˠ}} || {{IPAlink|l|lʲ}}
+| {{IPAlink|ɣ}} || {{IPAlink|j}}
+|
+|-
+! colspan="2" | [[Nasal stop|Nasal]]
+| {{IPAlink|m|mˠ}} || {{IPAlink|m|mʲ}}
+| {{IPAlink|n̪|n̪ˠ}} || {{IPAlink|n|nʲ}}
+| {{IPAlink|ŋ}} || {{IPAlink|ɲ}}
+|
+|-
+! colspan="2" | [[Flap consonant|Tap]]
+| ||
+| {{IPAlink|ɾ|ɾˠ}} || {{IPAlink|ɾ|ɾʲ}}
+| ||
+|
+|}
+
+===On- and offglides===
+Broad ([[Velar consonant|velar]] or [[Velarization|velarized]]) consonants have a noticeable [[velar approximant|velar offglide]] ({{IPA|[ɰ]}}; a very short vowel-like sound) before [[front vowel]]s, which sounds like the English {{IPA|/w/}} but without [[Roundedness|rounding]]. Thus {{lang|ga|naoi}} {{IPA|/n̪ˠiː/}} ('nine') and {{lang|ga|caoi}} {{IPA|/kiː/}} ('way, manner') are pronounced {{IPA|[n̪ˠɰiː]}} and {{IPA|[kɰiː]}}, respectively.<ref>{{Harvcolnb|Sjoestedt|1931|p=19}}</ref><ref>{{Harvnb|Sutton|1993}}</ref> This velar offglide is [[labialized]] (pronounced [w]) after [[labial consonant]]s, so {{lang|ga|buí}} {{IPA|/bˠiː/}} ('yellow') is pronounced {{IPA|[bˠwiː]}}.<ref>{{Harvnb|Sutton|1993}}</ref><ref>{{Harvcolnb|Quiggin|1906|p=76}}</ref>
+
+Similarly, slender ([[Palatal consonant|palatal]] or [[Palatalization (phonetics)|palatalized]]) consonants have a [[palatal approximant|palatal offglide]] ({{IPA|[j]}}; like English {{Anglebracket|y}}) before [[back vowel]]s, e.g. {{lang|ga|tiubh}} {{IPA|/tʲuː/}} ('thick') is pronounced {{IPA|[tʲjuː]}}.<ref>{{Harvcolnb|Ó Sé|2000|p=11}}</ref>
+
+When a broad consonant follows a front vowel, there is a very short vowel sound {{IPA|[ə̯]}} (called an onglide) just before the consonant, e.g. {{lang|ga|díol}} {{IPA|/dʲiːl̪ˠ/}} ('sell') is pronounced {{IPA|[dʲiːə̯l̪ˠ]}}. Similarly, when a slender consonant follows a back vowel, there is an onglide {{IPA|[i̯]}} before the consonant, e.g. {{lang|ga|áit}} {{IPA|/aːtʲ/}} ('place') is pronounced {{IPA|[aːi̯tʲ]}},<ref>{{Harvcolnb|Ó Sé|2000|p=11}}</ref><ref>{{Harvcolnb|de Bhaldraithe|1966|p=43}}</ref>{{lang|ga|óil}} {{IPA|/oːlʲ/}} ('drinking' [[genitive case|gen.]]) is pronounced {{IPA|[oːi̯lʲ]}},<ref>{{Harvcolnb|de Búrca|1958|p=59}}</ref> {{lang|ga|meabhair}} {{IPA|/mʲəuɾʲ/}} ('understanding') is {{IPA|[mʲəui̯ɾʲ]}},<ref>{{Harvcolnb|Mhac an Fhailigh|1968|p=46}}</ref> and {{lang|ga|dúinn}} {{IPA|/d̪ˠuːn̠ʲ/}} ('to us') is {{IPA|[d̪ˠuːi̯n̠ʲ]}}.<ref>{{Harvcolnb|Sommerfelt|1922|p=150}}</ref>
+
+These all are also a feature of certain Slavic languages such as [[Russian language|Russian]], as well as of [[Lithuanian language|Lithuanian]].{{fact|date=May 2026}}<!--Citation needed for all the details about the phonetic realisations above being present in Russian and Lithuanian, apart from the actual presence of phonemic velarised and palatalised consonants.-->
+
+===Allophones===
+{{IPA|/w/}} (written as {{angbr|bh, mh(, v)}}) has two basic [[allophone]]s: the [[labiovelar approximant]] {{IPA|[w]}} and the velarized [[voiced labiodental fricative]] {{IPA|[vˠ]}}. The distribution of these allophones varies from dialect to dialect. In Munster, generally only {{IPA|[vˠ]}} is found,<ref>{{Harvcolnb|Sjoestedt|1931|pp=28–29}}</ref> and in Ulster generally only {{IPA|[w]}} is found.<ref>{{Harvcolnb|Quiggin|1906|pp=74–76}}</ref> In Connacht, {{IPA|[w]}} is found word-initially before vowels (e.g. {{lang|ga|bhfuil}} {{IPA|[wɪlʲ]}} 'is') and {{IPA|[vˠ]}} in other positions (e.g. {{lang|ga|naomh}} {{IPA|[n̪ˠiːvˠ]}} 'saint', {{lang|ga|fómhar}} {{IPA|[ˈfˠuːvˠəɾˠ]}} 'autumn', and {{lang|ga|bhrostaigh}} {{IPA|[ˈvˠɾˠɔsˠt̪ˠə]}} 'hurried'<ref>{{Harvcolnb|Finck|1899|pp=64–67}}</ref><ref>{{Harvcolnb|de Bhaldraithe|1966|pp=30–31}}</ref>).
+
+The remaining labial fricatives are typically [[labiodental consonant|labiodental]] {{IPA|[fˠ, fʲ, vʲ]}}, but they as well as the fricative allophone {{IPA|[vˠ]}} of {{IPA|/w/}} have [[bilabial consonant|bilabial]] allophones {{IPA|[ɸˠ, ɸʲ, βˠ, βʲ]}} in many dialects; the distribution depends partly on environment (bilabials are more likely to be found adjacent to rounded vowels) and partly on the individual speaker.<ref>{{Harvcolnb|de Bhaldraithe|1966|pp=31–32}}</ref>
+
+Most coronals are [[alveolar consonant|alveolar]], except broad stops and approximants which are typically [[Dental consonant|dental]] {{IPA|[t̪ˠ, d̪ˠ, n̪ˠ, l̪ˠ]}}, and the slender fricative is typically [[postalveolar consonant|postalveolar]] {{IPA|[ʃ]}}. {{IPA|/tʲ, dʲ/}} may be realized as [[alveolo-palatal consonant|alveolo-palatal]] [[affricate]]s {{IPA|[tɕ, dʑ]}} in a number of dialects, including Tourmakeady,<ref>{{Harvcolnb|de Búrca|1958|pp=24–25}}</ref> Erris,<ref>{{Harvcolnb|Mhac an Fhailigh|1968|pp=36–37}}</ref> and Teelin.<ref>{{Harvcolnb|Wagner|1959|pp=9–10}}</ref>
+
+{{IPA|/c, ɟ, ɲ/}} may be true [[Palatal consonant|palatals]] {{IPA|[c, ɟ, ɲ]}} or [[velar consonant|palatovelars]] {{IPA|[k̟, ɡ˖, ŋ˖]}}.<ref>{{Harvcolnb|Ó Sé|2000|pp=14–15, 18}}</ref>
+
+{{IPA|/j/}} has three allophones in most dialects: a [[palatal approximant]] {{IPA|[j]}} before vowels (except {{IPA|/iː/}}) and [[syllable]]-finally (e.g. {{lang|ga|dheas}} {{IPA|[jasˠ]}} 'nice', {{lang|ga|beidh}} {{IPA|[bʲɛj]}} 'will be'); a [[voiced palatal fricative|voiced (post)palatal fricative]] {{IPA|[ʝ]}} before consonants (e.g. {{lang|ga|ghrian}} {{IPA|[ʝɾʲiən̪ˠ]}} 'sun'); and an intermediate sound {{IPA|[j˔]}} (with more [[fricative consonant|frication]] than {{IPA|[j]}} but less frication than {{IPA|[ʝ]}}) before {{IPA|/iː/}} (e.g. {{lang|ga|dhírigh}} {{IPA|[j˔iːɾʲə]}} 'straightened').<ref>{{Harvcolnb|Breatnach|1947|pp=39–40}}</ref><ref>{{Harvcolnb|Ó Cuív|1944|pp=42–43}}</ref><ref>{{Harvcolnb|de Bhaldraithe|1966|p=34}}</ref><ref>{{Harvcolnb|Mhac an Fhailigh|1968|pp=34–35}}</ref>
+
+{{IPA|/ɾʲ/}} has the primary allophone {{IPA|[ɹ̝ʲ]}}, a palatalized postalveolar fricative.<ref>{{Harvcolnb|Ó Sé|2000|p=19}}</ref>
+
+In many varieties, {{IPA|/x/}} and {{IPA|/ç/}} alternate with {{IPA|/h/}} under a variety of circumstances. For example, as the [[lenition]] of {{IPA|/tʲ/}} and {{IPA|/ʃ/}}, {{IPA|/h/}} is replaced by {{IPA|[ç]}} before back vowels, e.g. {{lang|ga|thabharfainn}} {{IPA|/ˈçuːɾˠhən̠ʲ/}}{{ref|thabharfainn|6}} ('I would give'), {{lang|ga|sheoil}} {{IPA|/çoːlʲ/}} ('drove').<ref>{{Harvcolnb|de Búrca|1958|pp=129–30}}</ref> In Munster, {{IPA|/ç/}} becomes {{IPA|[h]}} after a vowel, e.g. {{lang|ga|fiche}} {{IPA|[ˈfʲɪhə]}} ('twenty').<ref>{{Harvcolnb|Ó Cuív|1944|pp=117–18}}</ref> In Ring, final {{IPA|/h/}} becomes {{IPA|[x]}} in monosyllabic words, e.g. {{lang|ga|scáth}} {{IPA|[sˠkaːx]}} ('fear').<ref>{{Harvcolnb|Breatnach|1947|p=137}}</ref> In some Ulster varieties, e.g. [[Tory Island]], {{IPA|/x/}} can be replaced by {{IPA|[h]}}, e.g. {{lang|ga|cha}} {{IPA|[ha]}} ('not'), be deleted word-finally or before {{IPA|/t̪ˠ/}}, e.g. {{lang|ga|santach}} {{IPA|[ˈsˠan̪ˠt̪ˠa(h)]}} ('greedy') and {{lang|ga|seacht}} {{IPA|[ʃat̪ˠ]}} ('seven').<ref>{{Harvcolnb|Hamilton|1974|p=152}}</ref><ref>{{Harvcolnb|Ó Searcaigh|1925|p=136}}</ref>
+
+As in [[English language|English]], [[voice (phonetics)|voiceless]] stops are [[aspiration (phonetics)|aspirated]] (articulated with a puff of air immediately upon release) at the start of a word, while voiced stops may be incompletely voiced but are never aspirated. Voiceless [[Stop consonant|stops]] are unaspirated after {{IPA|/sˠ/}} and {{IPA|/ʃ/}} (e.g. {{lang|ga|scanradh}} {{IPA|[sˠkauɾˠə]}}{{ref|scanradh|1}} 'terror'); however, stops remain aspirated after the [[clitic]] ''is'' {{IPA|/sˠ/}} (e.g. {{lang|ga|is cam}} {{IPA|[sˠkʰaum]}} 'it's crooked').<ref>{{Harvcolnb|Breatnach|1947|pp=33, 76}}</ref> Several researchers (e.g. {{Harvnb|Ó Cuív|1944}}, {{Harvnb|Wagner|1959}}, {{Harvnb|de Bhaldraithe|1966}}, {{Harvnb|Mhac an Fhailigh|1968}}, and {{Harvnb|Ó Sé|2000}}) use transcriptions like {{IPA|/sb sd sɡ xd/}}, etc., indicating they consider the stops that occur after voiceless fricatives to be devoiced allophones of the voiced stops rather than unaspirated allophones of the voiceless stops, but this is a minority view.
+
+===Fortis and lenis sonorants===
+In [[Old Irish]], the [[sonorant]]s (those spelled {{angbr|l, n, r, m}}) were divided not only into broad and slender types, but also into [[fortis and lenis]] types. The precise phonetic definition of these terms is somewhat vague, but the coronal fortis sounds (spelled {{angbr|l, n, r}}) were probably longer in duration and may have had a larger area of contact between the tongue and the roof of the mouth than the lenis sounds. Fortis {{angbr|m}} was probably a normal {{IPA|[m]}}, while lenis {{angbr|m}} was a nasalized semivowel {{IPA|[w̃]}}, perhaps tending towards a nasalized fricative {{IPA|[ṽ]}} or {{IPA|[β̃]}} when palatalized. By convention, the fortis coronals are transcribed with small capital letters {{angbr IPA|ʟ, ɴ, ʀ}} or [[capital letters]] {{angbr IPA|L, N, R}}, the lenis with lower case {{angbr IPA|l, n, r}} (some authors, such as {{Harvcolnb|Stifter|2006}}, instead use Latin {{angbr IPA|l, n, r, m}} for fortis and Greek {{angbr IPA|λ, ν, ρ, μ}} for lenis). Thus Old Irish had four [[rhotic consonant|rhotic]] phonemes {{IPA|/Rˠ, Rʲ, rˠ, rʲ/}}, four [[lateral consonant|lateral]] phonemes {{IPA|/Lˠ, Lʲ, lˠ, lʲ/}}, and four coronal [[nasal stop|nasal]] phonemes {{IPA|/Nˠ, Nʲ, nˠ, nʲ/}}.<ref>{{Harvcolnb|McCone|1994|p=90}}</ref> Fortis and lenis sonorants contrasted with each other between vowels and word-finally after vowels in Old Irish, e.g. {{lang|sga|berraid}} {{IPA|/bʲeRˠɨðʲ/}} ('he shears') vs. {{lang|sga|beraid}} {{IPA|/bʲerˠɨðʲ/}} ('he may carry'); {{lang|sga|coll}} {{IPA|/koLˠ/}} ('hazel') vs. {{lang|sga|col}} {{IPA|/kolˠ/}} ('sin'); {{lang|sga|sonn}} {{IPA|/sˠoNˠ/}} ('stake') vs. {{lang|sga|son}} {{IPA|/sˠonˠ/}} ('sound').<ref>{{Harvcolnb|Quin|1975|pp=4–5}}</ref> Word-initially, only the fortis sounds were found, but they became lenis in environments where [[Irish initial mutations|morphosyntactically triggered lenition]] was found: {{lang|sga|rún}} {{IPA|/Rˠuːnˠ/}} ('mystery') vs. {{lang|sga|a rún}} {{IPA|/a rˠuːnˠ/}} ('his mystery'), {{lang|sga|lón}} {{IPA|/Lˠoːnˠ/}} ('provision') vs. {{lang|sga|a lón}} {{IPA|/a lˠoːnˠ/}} ('his provision').<ref>{{Harvcolnb|Quin|1975|p=8}}</ref>
+
+In the modern language, the four rhotics have been reduced to two in all dialects, {{IPA|/Rˠ, Rʲ, rˠ/}} having merged as {{IPA|/ɾˠ/}}. For the laterals and nasals, some dialects have kept all four distinct, while others have reduced them to three or two distinct phonemes, as summarized in the following table.
+
+{| class="wikitable" style="text-align: center;"
+! rowspan="2" | Old Irish
+! colspan="2" | Ulster
+! colspan="3" | Connacht
+! colspan="2" | Munster
+|-
+! Rosguill<ref>{{Harvcolnb|Lucas|1979}}</ref>
+! Glenties<ref>{{Harvcolnb|Quiggin|1906}}</ref>
+! Erris<ref>{{Harvcolnb|Mhac an Fhailigh|1968}}</ref>
+! Connemara<ref>{{Harvcolnb|de Bhaldraithe|1966}}</ref>
+! Aran<ref>{{Harvcolnb|Finck|1899}}</ref>
+! Dingle Peninsula<ref>{{Harvcolnb|Ó Sé|2000}}</ref>
+! West Muskerry<ref>{{Harvcolnb|Ó Cuív|1944}}</ref>
+|-
+| | {{IPA|Rˠ}}
+| rowspan="3" colspan="7" | {{IPA|ɾˠ}}
+|-
+| | {{IPA|rˠ}}
+|-
+| | {{IPA|Rʲ}}
+|-
+| | {{IPA|rʲ}}
+| colspan="7" | {{IPA|ɾʲ}}
+|-
+| | {{IPA|Lˠ}}
+| rowspan="2" | {{IPA|l̪ˠ}}
+| colspan="2" | {{IPA|l̪ˠ}}
+| rowspan="2" | {{IPA|l̪ˠ}}
+| | {{IPA|l̪ˠ}}
+| rowspan="2" colspan="2" | {{IPA|l̪ˠ}}
+|-
+| | {{IPA|lˠ}}
+| colspan="2" | {{IPA|lˠ}}
+| rowspan="2" | {{IPA|l}}
+|-
+| | {{IPA|lʲ}}
+| | {{IPA|l}}
+| colspan="3" | {{IPA|lʲ}}
+| rowspan="2" colspan="2" | {{IPA|lʲ}}
+|-
+| | {{IPA|Lʲ}}
+| colspan="5" | {{IPA|l̠ʲ}}
+|-
+| | {{IPA|Nˠ}}
+| rowspan="2" | {{IPA|n̪ˠ}}
+| colspan="2" | {{IPA|n̪ˠ}}
+| rowspan="2" | {{IPA|n̪ˠ}}
+| | {{IPA|n̪ˠ}}
+| rowspan="2" colspan="2" | {{IPA|n̪ˠ}}
+|-
+| | {{IPA|nˠ}}
+| colspan="2" | {{IPA|nˠ}}
+| rowspan="2" | {{IPA|n}}
+|-
+| | {{IPA|nʲ}}
+| | {{IPA|n}}
+| colspan="3" | {{IPA|nʲ}}
+| rowspan="2" | {{IPA|nʲ}}
+| | {{IPA|nʲ}}
+|-
+| | {{IPA|Nʲ}}
+| colspan="5" | {{IPA|n̠ʲ}}
+| | {{IPA|nʲ}} ''word-initially''<br />{{IPA|ɲ}} ''elsewhere''
+|-
+| colspan="8" | ''Note: ''{{IPA|l̠ʲ}}'' and ''{{IPA|n̠ʲ}}'' are [[alveolo-palatal consonant]]s.''
+|}
+
+As for fortis and lenis {{angbr|m}}, in time the lenis version (nasalized semivowel or labial fricative) came to be pronounced as a regular semivowel or fricative along with nasalization of the preceding vowel. The later loss of {{IPA|/w/}} between vowels has resulted in phonemically nasalized vowels in some modern dialects (see [[#Nasalized vowels|below]]), but these are not robustly maintained in any dialect; the strong tendency is to eliminate the nasalization entirely. The original nasalized semivowel is still reflected as {{angbr|mh}} in the spelling, however.
+
+==Vowels==
+[[File:Connacht Irish vowel chart.svg|class=skin-invert-image|thumb|Vowel phonemes of Connacht Irish<ref>{{Harvcolnb|de Búrca|1958|p=7}}</ref>]]
+[[File:Munster Irish vowel chart.svg|class=skin-invert-image|thumb|Vowel phonemes of Munster Irish<ref>{{Harvcolnb|Ó Cuív|1944|p=13}}</ref>]]
+[[File:Ulster Irish vowel chart.svg|class=skin-invert-image|thumb|Vowel phonemes of Ulster Irish<ref>{{Harvcolnb|Ní Chasaide|1999}}</ref>]]
+
+The [[vowel]] sounds vary from dialect to dialect, but in general Connacht and Munster at least agree in having the [[monophthong]]s {{IPA|/iː/}}, {{IPA|/ɪ/}}, {{IPA|/uː/}}, {{IPA|/ʊ/}}, {{IPA|/eː/}}, {{IPA|/ɛ/}}, {{IPA|/oː/}}, {{IPA|/ɔ/}}, {{IPA|/aː/}}, {{IPA|/a/}}, and [[schwa]] ({{IPA|/ə/}}), which is found only in [[stress (linguistics)|unstressed]] syllables; and the [[diphthong]]s {{IPA|/əi/}}, {{IPA|/əu/}}, {{IPA|/iə/}}, and {{IPA|/uə/}}.
+
+The vowels of [[Ulster Irish]] are more divergent and are not discussed in this article.
+
+===Vowel backness===
+The [[vowel backness|backness]] of vowels (that is, the horizontal position of the highest point of the tongue) depends to a great extent on the quality (broad or slender) of adjacent consonants. Some researchers (e.g. {{Harvcolnb|Ó Siadhail|Wigger|1975|pp=80–82}}, {{Harvcolnb|Ó Siadhail|1989|pp=35–37}}, {{Harvnb|Ní Chiosáin|1994}}) have argued that {{IPA|[ɪ]}} and {{IPA|[ʊ]}} are actually allophones of the same phoneme, as are {{IPA|[ɛ]}} and {{IPA|[ɔ]}}, as in a [[vertical vowel system]]. Under this view, these phonemes are [[underspecification|not marked]] at an abstract level as either [[front vowel]]s or [[back vowel]]s. Rather, they acquire a specification for frontness or backness from the consonants around them. In this article, however, the more traditional assumption that {{IPA|/ɪ, ʊ, ɛ, ɔ/}} are four distinct phonemes will be followed. The descriptions of the allophones in this section come from {{Harvcoltxt|Ó Sé|2000|pp=20–24}}; the pronunciations therefore reflect the Munster accent of the [[Dingle Peninsula]]. Unless otherwise noted, however, they largely hold for other Munster and Connacht accents as well.
+
+====Close vowels====
+The four [[close vowel]] phonemes of Irish are the fully close {{IPA|/iː/}} and {{IPA|/uː/}}, and the [[near-close vowel|near-close]] {{IPA|/ɪ/}} and {{IPA|/ʊ/}}. Their exact pronunciation depends on the quality of the surrounding consonants. {{IPA|/iː/}} is realized as a [[front vowel|front]] {{IPA|[iː]}} between two slender consonants (e.g. {{lang|ga|tír}} {{IPA|[tʲiːrʲ]}} 'country'). Between a slender and a broad consonant, the tongue is retracted slightly from this position (for which the IPA symbol is {{IPA|[i̠ː]}}), e.g. {{lang|ga|díol}} {{IPA|[dʲi̠ːl̪ˠ]}} ('sale'), {{lang|ga|caoire}} {{IPA|[ki̠ːɾʲə]}} ('berry' gen.). Between two broad consonants, the tongue is retracted even further, almost to the point of being a [[central vowel]] (in IPA, {{IPA|[ïː]}}): {{lang|ga|caora}} {{IPA|[kïːɾˠə]}} ('sheep'). {{IPA|/uː/}} is a fully back {{IPA|[uː]}} between broad consonants (e.g. {{lang|ga|dún}} {{IPA|[d̪ˠuːn̪ˠ]}} 'fort'), but between a broad and a slender consonant, the tongue is somewhat advanced (IPA {{IPA|[u̟ː]}}), e.g. {{lang|ga|triúr}} {{IPA|[tʲɾʲu̟ːɾˠ]}} ('three people'), {{lang|ga|súil}} {{IPA|[sˠu̟ːlʲ]}} ('eye'). Between two slender consonants, it is advanced even further, to a centralized vowel (IPA {{IPA|[üː]}}): {{lang|ga|ciúin}} {{IPA|[cüːnʲ]}} ('quiet').
+
+[[File:Ga close allophones.svg|class=skin-invert-image|thumb|Approximate ranges of the allophones of close vowels]]
+The near-close vowels {{IPA|/ɪ/}} and {{IPA|/ʊ/}} show a similar pattern. {{IPA|/ɪ/}} is realized between slender consonants as a front {{IPA|[i̞]}}, e.g. {{lang|ga|tigh}} {{IPA|[tʲi̞ɟ]}} ('house' [[dative case|dat.]]). After a slender consonant and before a broad one, it is a [[near-front vowel|near-front]] {{IPA|[ɪ]}}, e.g. {{lang|ga|giota}} {{IPA|[ˈɟɪt̪ˠə]}} ('piece'). After a broad consonant and before a slender one, it is a more retracted {{IPA|[ɪ̈]}}, e.g. {{lang|ga|tuigeann}} {{IPA|[ˈt̪ˠɪ̈ɟən̪ˠ]}} ('understands'). Finally, between two broad consonants it is a central {{IPA|[ɨ̞]}}, e.g. {{lang|ga|goirt}} {{IPA|[ɡɨ̞ɾˠtʲ]}}{{ref|goirt|2}} ('salty'). {{IPA|/ʊ/}} is a [[near-back vowel|near-back]] {{IPA|[ʊ]}} when all adjacent consonants are broad, e.g. {{lang|ga|dubh}} {{IPA|[d̪ˠʊvˠ]}} ('black'), and a more centralized {{IPA|[ʊ̟]}} after a slender consonant, e.g. {{lang|ga|giobal}} {{IPA|[ˈɟʊ̟bˠəl̪ˠ]}} ('rag').
+
+====Mid vowels====
+[[File:Ga mid allophones.svg|class=skin-invert-image|thumb|Approximate ranges of the allophones of mid vowels]]
+The realization of the long [[close-mid vowel]]s {{IPA|/eː/}} and {{IPA|/oː/}} varies according to the quality of the surrounding consonants. {{IPA|/eː/}} is a front {{IPA|[eː]}} between two slender consonants (e.g. {{lang|ga|béic}} {{IPA|[bʲeːc]}} 'yell'), a centralized {{IPA|[ëː]}} between a broad and a slender consonant (e.g. {{lang|ga|glaoigh}} {{IPA|[ɡl̪ˠëːɟ]}} 'call'), and a more open centralized {{IPA|[ɛ̝̈ː]}} between two broad consonants (e.g. {{lang|ga|baol}} {{IPA|[bˠɛ̝̈ːl̪ˠ]}} 'danger'). {{IPA|/oː/}} ranges from a back {{IPA|[oː]}} between two broad consonants (e.g. {{lang|ga|fód}} {{IPA|[fˠoːd̪ˠ]}} 'turf') to an advanced {{IPA|[o̟ː]}} between a broad and a slender consonant (e.g. {{lang|ga|fóid}} {{IPA|[fˠo̟ːdʲ]}} 'turf' [gen.]) to a centralized {{IPA|[öː]}} between two slender consonants (e.g. {{lang|ga|ceoil}} {{IPA|[cöːlʲ]}} 'music' [gen.]).
+
+The short [[open-mid vowel]]s also vary depending on their environment. Short {{IPA|/ɛ/}} ranges from a front {{IPA|[ɛ̝]}} between slender consonants (e.g. {{lang|ga|beidh}} {{IPA|[bʲɛ̝ɟ]}} 'will be') to a retracted {{IPA|[ɛ̝̈]}} between a broad and a slender consonant (e.g. {{lang|ga|bead}} {{IPA|[bʲɛ̝̈d̪ˠ]}} 'I will be', {{lang|ga|raibh}} {{IPA|[ɾˠɛ̝̈vʲ]}} 'was') to a central {{IPA|[ɘ̞]}} when the only adjacent consonant is broad (e.g. {{lang|ga|croich}} {{IPA|[kɾˠɘ̞]}} 'cross' [dat.]). Short {{IPA|/ɔ/}} between two broad consonants is usually a back {{IPA|[ɔ̝]}}, e.g. {{lang|ga|cloch}} {{IPA|[kl̪ˠɔ̝x]}} ('stone'), but it is a centralized {{IPA|[ö]}} adjacent to [[nasal stop|nasal consonants]] and [[labial consonant]]s, e.g. {{lang|ga|ansan}} {{IPA|[ən̪ˠˈsˠön̪ˠ]}} ('there') and {{lang|ga|bog}} {{IPA|[bˠöɡ]}} ('soft'). Between a broad and a slender consonant, it is a more open {{IPA|[ɔ̝̈]}}: {{lang|ga|scoil}} {{IPA|[skɔ̝̈lʲ]}} ('school'), {{lang|ga|deoch}} {{IPA|[dʲɔ̝̈x]}} ('drink').
+
+=====Schwa=====
+
+Unstressed {{IPA|/ə/}} is realized as a near-close, near-front {{IPA|[ɪ]}} when adjacent to a [[palatal consonant]], e.g. {{lang|ga|píce}} {{IPA|[ˈpʲiːcɪ]}} ('pike'). Next to other slender consonants, it is a mid-centralized {{IPA|[ɪ̽]}}, e.g. {{lang|ga|sáile}} {{IPA|[ˈsˠaːlʲɪ̽]}} ('salt water'). Adjacent to broad consonants, it is usually a mid central {{IPA|[ə]}}, e.g. {{lang|ga|eolas}} {{IPA|[ˈoːl̪ˠəsˠ]}} ('information'), but when the preceding syllable contains one of the close back vowels {{IPA|/uː, ʊ/}}, it is realized as a mid-centralized back {{IPA|[ʊ̽]}}, e.g. {{lang|ga|dúnadh}} {{IPA|[ˈd̪ˠuːn̪ˠʊ̽]}} ('closing'), {{lang|ga|muca}} {{IPA|[ˈmˠʊkʊ̽]}} ('pigs').
+
+====Open vowels====
+[[File:Ga open allophones.svg|class=skin-invert-image|thumb|Approximate ranges of the allophones of open vowels in Munster]]
+The realization of the [[open vowel]]s varies according to the quality of the surrounding consonants; there is a significant difference between Munster dialects and Connacht dialects as well. In Munster, long {{IPA|/aː/}} and short {{IPA|/a/}} have approximately the same range of realization: both vowels are relatively back in contact with broad consonants and relatively front in contact with slender consonants. Specifically, long {{IPA|/aː/}} in word-initial position and after broad consonants is a back {{IPA|[ɑː]}}, e.g. {{lang|ga|áit}} {{IPA|[ɑːtʲ]}} ('place'), {{lang|ga|trá}} {{IPA|[t̪ˠɾˠɑː]}} ('beach'). Between a slender and a broad consonant, it is a retracted front {{IPA|[a̠ː]}}, e.g. {{lang|ga|gearrfaidh}} {{IPA|[ˈɟa̠ːɾˠhəɟ]}} ('will cut'), while between two slender consonants it is a fully front {{IPA|[aː]}}, e.g. {{lang|ga|a Sheáin}} {{IPA|[ə çaːnʲ]}} ('John' [[vocative case|voc.]]). In Dingle, the back allophone is rounded to {{IPA|[ɒː]}} after broad labials, e.g. {{lang|ga|bán}} {{IPA|[bˠɒːn̪ˠ]}} ('white'), while in [[Ring, County Waterford]], rounded {{IPA|[ɒː]}} is the usual realization of {{IPA|/aː/}} in all contexts except between slender consonants, where it is a centralized {{IPA|[ɒ̈ː]}}.<ref>{{Harvcolnb|Breatnach|1947|pp=12–13}}</ref> Short {{IPA|/a/}} between two slender consonants is a front {{IPA|[a]}}, as in {{lang|ga|gairid}} {{IPA|[ɟaɾʲədʲ]}}{{ref|gairid|3}} ('short'). Between a broad and a slender consonant, it is in most cases a retracted {{IPA|[a̠]}}, e.g. {{lang|ga|fear}} {{IPA|[fʲa̠ɾˠ]}} ('man'), and {{lang|ga|caite}} {{IPA|[ˈka̠tʲə]}} ('worn'), but after broad labials and {{IPA|/l̪ˠ/}} it is a centralized front {{IPA|[ä]}}, e.g. {{lang|ga|baile}} {{IPA|[bˠälʲə]}} ('town'), {{lang|ga|loit}} {{IPA|[l̪ˠätʲ]}}{{ref|loit|4}} ('injure'). When it is adjacent only to broad consonants, it is a centralized back {{IPA|[ɑ̈]}}, e.g. {{lang|ga|mac}} {{IPA|[mˠɑ̈k]}} ('son'), {{lang|ga|abair}} {{IPA|[ɑ̈bˠəɾʲ]}} ('say').
+
+[[File:Ga-CON open allophones.svg|class=skin-invert-image|thumb|Approximate ranges of the allophones of open vowels in Connacht]]
+In Connacht varieties,<ref>{{Harvcolnb|de Bhaldraithe|1966|pp=12–14}}</ref><ref>{{Harvcolnb|de Búrca|1958|pp=13–14}}</ref><ref>{{Harvcolnb|Mhac an Fhailigh|1968|pp=13–16}}</ref> the allophones of short {{IPA|/a/}} are consistently further front than the allophones of long {{IPA|/aː/}}. In Erris, for example, short {{IPA|/a/}} ranges from a [[near-open front unrounded vowel|near-open front vowel]] {{IPA|[æ]}} before slender consonants (e.g. {{lang|ga|sail}} {{IPA|[sˠælʲ]}} 'earwax') to an open {{IPA|[a]}} after slender consonants (e.g. {{lang|ga|geal}} {{IPA|[ɟalˠ]}} 'bright') to a centralized back {{IPA|[ɑ̈]}} between broad consonants (e.g. {{lang|ga|capall}} {{IPA|[ˈkɑ̈pˠəl̪ˠ]}} 'horse'). Long {{IPA|/aː/}}, on the other hand, ranges from a back {{IPA|[ɑː]}} between broad consonants (e.g. {{lang|ga|bád}} {{IPA|[bˠɑːd̪ˠ]}} 'boat') to an advanced back {{IPA|[ɑ̟ː]}} before slender consonants (e.g. {{lang|ga|fáil}} {{IPA|[fˠɑ̟ːlʲ]}} 'to get') to a centralized back {{IPA|[ɑ̈ː]}} after slender consonants (e.g. {{lang|ga|breá}} {{IPA|[bʲɾʲɑ̈ː]}} 'fine'). In [[Toormakeady]],<ref>{{Harvcolnb|de Búrca|1958|p=13}}</ref> the back allophone is rounded to {{IPA|[ɒː]}} after broad labials, e.g. {{lang|ga|bán}} {{IPA|[bˠɒːn̪ˠ]}} ('white'). In Connemara, the allophones of {{IPA|/a/}} are lengthened in duration, so that only vowel quality distinguishes the allophones of {{IPA|/a/}} from those of {{IPA|/aː/}}.<ref>{{Harvcolnb|de Bhaldraithe|1966|pp=12–13}}</ref>
+
+====Diphthongs====
+[[File:Ga ai-au allophones.svg|class=skin-invert-image|thumb|Approximate ranges of the allophones of {{IPA|/əi/}} and {{IPA|/əu/|cat=no}}]]
+The starting point of {{IPA|/əi/}} ranges from a near-open central {{IPA|[ɐ]}} after broad consonants to an open-mid centralized front {{IPA|[ɛ̈]}} after slender consonants, and its end point ranges from a near-close near-front {{IPA|[ɪ]}} before slender consonants to a centralized {{IPA|[ɪ̈]}} before broad consonants.<ref>{{Harvcolnb|Breatnach|1947|pp=23–24}}</ref> Examples include {{lang|ga|cladhaire}} {{IPA|[kl̪ˠɐɪɾʲə]}} ('rogue'), {{lang|ga|gadhar}} {{IPA|[ɡɐɪ̈ɾˠ]}} ('dog'), {{lang|ga|cill}} {{IPA|[cɛ̈ɪlʲ]}} ('church'), and {{lang|ga|leigheas}} {{IPA|[lʲɛ̈ɪ̈sˠ]}} ('cure').
+
+The starting point of {{IPA|/əu/}} ranges from a near-open central {{IPA|[ɐ]}} after broad consonants to an open-mid advanced central {{IPA|[ɜ̟]}} after slender consonants, and its end point ranges from a near-close near-back {{IPA|[ʊ]}} before broad consonants to a centralized {{IPA|[ʊ̈]}} before slender consonants.<ref>{{Harvcolnb|Breatnach|1947|pp=24–25}}.</ref> Examples include {{lang|ga|bodhar}} {{IPA|[bˠɐʊɾˠ]}} ('deaf'), {{lang|ga|feabhas}} {{IPA|[fʲɜ̟ʊsˠ]}} ('improvement'), {{lang|ga|labhairt}} {{IPA|[l̪ˠɐʊ̈ɾʲtʲ]}} ('speak'), and {{lang|ga|meabhair}} {{IPA|[mʲɜ̟ʊ̈ɾʲ]}} ('memory'). In West Muskerry and the Dingle Peninsula, however, the starting point of {{IPA|/əu/}} is rounded and further back after broad consonants,<ref>{{Harvcolnb|Ó Cuív|1944|p=29}}</ref><ref>{{Harvcolnb|Ó Sé|2000|p=24}}</ref> e.g. {{lang|ga|gabhar}} {{IPA|[ɡɔʊɾˠ]}} ('goat').
+
+[[File:Ga ia-ua allophones.svg|class=skin-invert-image|thumb|Approximate ranges of the allophones of {{IPA|/iə/}} and {{IPA|/uə/|cat=no}}]]
+The starting point of {{IPA|/iə/}} ranges from a close front {{IPA|[i]}} after slender consonants to a retracted {{IPA|[i̠]}} after word-initial broad {{IPA|/ɾˠ/}} (the only context in which it appears after a broad consonant). Its end point ranges from a mid central {{IPA|[ə]}} before broad consonants to a close-mid centralized front {{IPA|[ë]}} before slender consonants.<ref>{{Harvcolnb|Ó Sé|2000|p=24}}</ref> Examples include {{lang|ga|ciall}} {{IPA|[ciəl̪ˠ]}} ('sense'), {{lang|ga|riamh}} {{IPA|[ɾˠi̠əvˠ]}} ('ever'), and {{lang|ga|diabhail}} {{IPA|[dʲiëlʲ]}} ('devils').
+
+The starting point of {{IPA|/uə/}} is consistently a close back {{IPA|[u]}} while the end point ranges from {{IPA|[ɐ]}} to {{IPA|[ɪ̽]}}:<ref>{{Harvcolnb|Ó Sé|2000|p=25}}</ref> {{lang|ga|thuas}} {{IPA|[huɐsˠ]}} ('above'), {{lang|ga|uan}} {{IPA|[uən̪ˠ]}} ('lamb'), {{lang|ga|buail}} {{IPA|[bˠuɪ̽lʲ]}} ('strike').
+
+===Nasalized vowels===
+In general, vowels in Irish are [[nasalized]] when adjacent to [[nasal consonant]]s. For some speakers, there are reported to be [[minimal pair]]s between [[nasal vowel]]s and oral vowels, indicating that nasal vowels are also separate phonemes; these generally result from an earlier nasalized semivowel {{IPA|[w̃]}} (historically the lenited version of {{IPA|/m/}}), that has since been lost. However, the contrast is not robust in any dialect; most published descriptions say that contrastively nasal vowels are present in the speech of only some (usually older) speakers. Potential minimal pairs include those shown in the table below.<ref>{{Harvcolnb|Quiggin|1906|p=65}}</ref><ref>{{Harvcolnb|Sjoestedt|1931|p=68}}</ref><ref>{{Harvcolnb|Ó Cuív|1944|p=54}}</ref><ref>{{Harvcolnb|Ó Sé|2000|p=25}}</ref>
+
+{| class="wikitable"
+! colspan="3" | Nasal vowel
+! colspan="3" | Oral vowel
+|-
+! Spelling
+! Pronunciation
+! Gloss
+! Spelling
+! Pronunciation
+! Gloss
+|-
+| {{lang|ga|amhras}} || {{IPA|[ˈə̃ũɾˠəsˠ]}} || 'doubt' || {{lang|ga|abhras}} || {{IPA|[ˈəuɾˠəsˠ]}} || 'yarn'
+|-
+| {{lang|ga|áth}} || {{IPA|[ãː]}} || 'ford' || {{lang|ga|ádh}} || {{IPA|[aː]}} || 'luck'
+|-
+| {{lang|ga|comhair}} || {{IPA|[kõːɾʲ]}} || (in phrase<br />{{lang|ga|os comhair}}<br />'in front of, opposite') || {{lang|ga|cóir}} || {{IPA|[koːɾʲ]}} || 'righteous'
+|-
+| {{lang|ga|cumha}} || {{IPA|[kũː]}} || 'sorrow' || {{lang|ga|cú}} || {{IPA|[kuː]}} || 'hound'
+|-
+| {{lang|ga|deimhis}} || {{IPA|[dʲĩːʃ]}} || 'pairs of shears' || {{lang|ga|dís}} || {{IPA|[dʲiːʃ]}} || 'two people'
+|-
+| {{lang|ga|fómhair}} || {{IPA|[fˠõːɾʲ]}} || 'autumn' (genitive) || {{lang|ga|fóir}} || {{IPA|[fˠoːɾʲ]}} || 'limit'
+|-
+| {{lang|ga|lámha}} || {{IPA|[l̪ˠãː]}} || 'hands' || {{lang|ga|lá}} || {{IPA|[l̪ˠaː]}} || 'day'
+|-
+| {{lang|ga|lámhach}} || {{IPA|[l̪ˠãːx]}} || 'shooting' || {{lang|ga|lách}} || {{IPA|[l̪ˠaːx]}} || 'generous'
+|-
+| {{lang|ga|nimhe}} || {{IPA|[nʲĩː]}} || 'poison' (genitive) || {{lang|ga|ní}} || {{IPA|[nʲiː]}} || 'washing'
+|-
+| {{lang|ga|rámha}} || {{IPA|[ɾˠãː]}} || 'oar' (genitive) || {{lang|ga|rá}} || {{IPA|[ɾˠaː]}} || 'saying'
+|}
+
+In addition, where a vowel is nasalized because it is adjacent to a nasal consonant, it often retains its nasalization in related forms where the consonant is no longer nasal. For example, the nasal {{IPA|/m/}} of {{lang|ga|máthair}} {{IPA|[ˈmãːhəɾʲ]}} ('mother') is replaced by nonnasal {{IPA|/w/}} in the phrase {{lang|ga|a mháthair}} {{IPA|[ə ˈwãːhəɾʲ]}} ('his mother'), but the vowel remains nasalized.<ref>{{Harvcolnb|Quiggin|1906|p=65}}</ref> Similarly, in {{lang|ga|sneachta}} {{IPA|[ˈʃnʲãxt̪ˠə]}} ('snow') the vowel after the {{IPA|/nʲ/}} is nasalized, while in {{lang|ga|an tsneachta}} {{IPA|[ə ˈtʲɾʲãxt̪ˠə]}} ('the snow' gen.), the {{IPA|/nʲ/}} is replaced by {{IPA|/ɾʲ/}} in some northern dialects, but the nasalized vowel remains.<ref>{{Harvcolnb|de Bhaldraithe|1966|p=46}}</ref>
+
+==Phonotactics==
+The most notable aspects of Irish [[phonotactics]] revolve around the behaviour of [[consonant cluster]]s. Here it is important to distinguish between clusters that occur at the beginnings of words and those that occur after vowels, although there is overlap between the two groups.
+
+===Word-initial consonant clusters===
+[[File:2C cluster nonmut.svg|thumb|upright=1.36|A summary of the two-consonant clusters available in non-mutation environments]]
+[[File:2C cluster mut2.svg|thumb|upright=1.36|A summary of the two-consonant clusters available in mutation environments]]
+Irish words can begin with clusters of two or three consonants. In general, all the consonants in a cluster agree in their quality, i.e. either all are broad or all are slender. Two-consonant clusters consist of an [[obstruent consonant]] followed by a [[liquid consonant|liquid]] or [[nasal stop|nasal consonant]] (however, labial obstruents may not be followed by a nasal); examples (from {{Harvcolnb|Ní Chiosáin|1999}}) include {{lang|ga|bleán}} {{IPA|/bʲlʲaːnˠ/}} ('milking'), {{lang|ga|breá}} {{IPA|/bʲɾʲaː/}} ('fine'), {{lang|ga|cnaipe}} {{IPA|/ˈkn̪ˠapʲə/}} ('button'), {{lang|ga|dlí}} {{IPA|/dʲlʲiː/}} ('law'), {{lang|ga|gnáth}} {{IPA|/ɡn̪ˠaː/}} ('usual'), {{lang|ga|pleidhce}} {{IPA|/ˈpʲlʲəicə/}} ('idiot'), {{lang|ga|slios}} {{IPA|/ʃlʲɪsˠ/}} ('slice'), {{lang|ga|sneachta}} {{IPA|/ˈʃnʲaxt̪ˠə/}} ('snow'), {{lang|ga|tlúth}} {{IPA|/t̪ˠl̪ˠuː/}} ('poker'), and {{lang|ga|tnúth}} {{IPA|/t̪ˠn̪ˠuː/}} ('long for'). In addition, {{IPA|/sˠ/}} and {{IPA|/ʃ/}} may be followed by a voiceless stop, as in {{lang|ga|sparán}} {{IPA|/ˈsˠpˠaɾˠaːn̪ˠ/}} ('purse') and {{lang|ga|scéal}} {{IPA|/ʃceːl̪ˠ/}} ('story'). Further, the cluster {{IPA|/mˠn̪ˠ/}} occurs in the word {{lang|ga|mná}} {{IPA|/mˠn̪ˠaː/}} ('women') and a few forms related to it. Three-consonant clusters consist of {{IPA|/sˠ/}} or {{IPA|/ʃ/}} plus a voiceless stop plus a liquid. Examples include {{lang|ga|scliúchas}} {{IPA|/ˈʃclʲuːxəsˠ/}} ('rumpus'), {{lang|ga|scread}} {{IPA|/ʃcɾʲad̪ˠ/}} ('scream'), {{lang|ga|splanc}} {{IPA|/sˠpˠl̪ˠaŋk/}} ('flash'), {{lang|ga|spraoi}} {{IPA|/sˠpˠɾˠiː/}} ('fun'), and {{lang|ga|stríoc}} {{IPA|/ʃtʲɾʲiːk/}} ('streak').
+
+One exception to quality agreement is that broad {{IPA|/sˠ/}} is found before slender labials (and for some speakers in Connemara and Dingle before {{IPA|/c/}} as well<ref>{{Harvcolnb|de Bhaldraithe|1966|p=106}}</ref><ref>{{Harvcolnb|Ó Sé|2000|p=31}}</ref>). Examples include: {{lang|ga|sméara}} {{IPA|/sˠmʲeːɾˠə/}} ('berries'), {{lang|ga|speal}} {{IPA|/sˠpʲal/}} ('scythe'), {{lang|ga|spleách}} {{IPA|/sˠpʲlʲaːx/}} ('dependent'), {{lang|ga|spreag}} {{IPA|/sˠpʲɾʲaɡ/}} ('inspire'), and {{lang|ga|scéal}} {{IPA|/ʃceːl̪ˠ/ ~ /sˠceːl̪ˠ/}} ('story').
+
+In the environment of an initial [[consonant mutation]], there is a much wider range of possible onset clusters;<ref>{{Harvnb|Ní Chiosáin|1999}}</ref><ref>{{Harvcolnb|Ó Sé|2000|p=33}}</ref> for example, in a lenition environment the following occur: {{lang|ga|bhlas}} {{IPA|/wl̪ˠasˠ/}} ('tasted'), {{lang|ga|bhris}} {{IPA|/vʲɾʲɪʃ/}} ('broke'), {{lang|ga|chleacht}} {{IPA|/çlʲaxt̪ˠ/}} ('practiced'), {{lang|ga|chrom}} {{IPA|/xɾˠɔmˠ/}} ('bent'), {{lang|ga|ghreamaigh}} {{IPA|/ˈjɾʲamˠə/}} ('stuck'), {{lang|ga|ghníomhaigh}} {{IPA|/ˈjnʲiːwə/}} ('acted'), {{lang|ga|shleamhnaigh}} {{IPA|/hlʲəun̪ˠə/}} ('slipped'), {{lang|ga|shnámh}} {{IPA|/hn̪ˠaːw/}} ('swam'), {{lang|ga|shroich}} {{IPA|/hɾˠɪç/}} ('reached'). In an eclipsis environment, the following are found: {{lang|ga|mbláth}} {{IPA|/mˠl̪ˠaː/}} ('flower'), {{lang|ga|mbliana}} {{IPA|/ˈmʲlʲiən̪ˠə/}} ('years'), {{lang|ga|mbrisfeá}} {{IPA|/ˈmʲɾʲɪʃaː/}} ('you would break'), {{lang|ga|ndlúth}} {{IPA|/n̪ˠl̪ˠuː/}} ('warp'), {{lang|ga|ndroichead}} {{IPA|/ˈn̪ˠɾˠɔhəd̪ˠ/}} ('bridge'), {{lang|ga|ndréimire}} {{IPA|/ˈnʲɾʲeːmʲəɾʲə/}} ('ladder'), {{lang|ga|ngléasfá}} {{IPA|/ˈɲlʲeːsˠaː/}} ('you would dress'), {{lang|ga|ngreadfá}} {{IPA|/ˈɲɾʲat̪ˠaː/}} ('you would leave'), {{lang|ga|ngníomhófá}} {{IPA|/ˈɲnʲiːwoːhaː/}} ('you would act').
+
+In Donegal, Mayo, and Connemara dialects (but not usually on the Aran Islands), the coronal nasals {{IPA|/nˠ, nʲ/}} can follow only {{IPA|/sˠ, ʃ/}} respectively in a word-initial cluster. After other consonants, they are replaced by {{IPA|/ɾˠ, ɾʲ/}}:<ref>{{Harvcolnb|Ó Siadhail|Wigger|1975|pp=116–17}}</ref><ref>{{Harvcolnb|Ó Siadhail|1989|p=95}}</ref> {{lang|ga|cnoc}} {{IPA|/kɾˠʊk/}} ('hill'), {{lang|ga|mná}} {{IPA|/mˠɾˠaː/}} ('women'), {{lang|ga|gnaoi}} {{IPA|/ɡɾˠiː/}} ('liking'), {{lang|ga|tnúth}} {{IPA|/t̪ˠɾˠuː/}} ('long for').
+
+Under lenition, {{IPA|/sˠn̪ˠ, ʃnʲ/}} become {{IPA|/hn̪ˠ, hnʲ/}} as expected in these dialects, but [[Irish initial mutations#After proclitics|after the definite article ''an'']] they become {{IPA|/t̪ˠɾˠ, tʲɾʲ/}}: {{lang|ga|sneachta}} {{IPA|/ʃnʲaxt̪ˠə/}} ('snow'), {{lang|ga|shneachta}} {{IPA|/hnʲaxt̪ˠə/}} ('snow' [lenited form]), {{lang|ga|an tsneachta}} {{IPA|/ə tʲɾʲaxt̪ˠə/}} ('the snow' gen.).
+
+===Post-vocalic consonant clusters and epenthesis===
+[[File:Epenthesis cluster.svg|thumb|Clusters subject to epenthesis]]
+Like word-initial consonant clusters, post-vocalic consonant clusters usually agree in broad or slender quality. The only exception here is that broad {{IPA|/ɾˠ/}}, not slender {{IPA|/ɾʲ/}}, appears before the slender coronals {{IPA|/tʲ, dʲ, ʃ, nʲ, lʲ/}}:<ref>{{Harvcolnb|Ó Sé|2000|pp=34–36}}</ref> {{lang|ga|beirt}} {{IPA|/bʲɛɾˠtʲ/}} ('two people'), {{lang|ga|ceird}} {{IPA|/ceːɾˠdʲ/}} ('trade'), {{lang|ga|doirse}} {{IPA|/ˈd̪ˠoːɾˠʃə/}} ('doors'), {{lang|ga|doirnín}} {{IPA|/d̪ˠuːɾˠˈnʲiːnʲ/}} ('handle'), {{lang|ga|comhairle}} {{IPA|/ˈkuːɾˠlʲə/}} ('advice').
+
+A cluster of {{IPA|/ɾˠ, ɾʲ/}}, {{IPA|/l̪ˠ, lʲ/}}, or {{IPA|/n̪ˠ, nʲ/}} followed by a labial or dorsal consonant (except the voiceless stops {{IPA|/pˠ, pʲ/}}, {{IPA|/k, c/}}) is broken up by an [[epenthesis|epenthetic]] vowel {{IPA|/ə/}}:<ref>{{Harvcolnb|Ní Chiosáin|1999}}</ref> {{lang|ga|borb}} {{IPA|/ˈbˠɔɾˠəbˠ/}} ('abrupt'), {{lang|ga|gorm}} {{IPA|/ˈɡɔɾˠəmˠ/}} ('blue'), {{lang|ga|dearmad}} {{IPA|/ˈdʲaɾˠəmˠəd̪ˠ/}} ('mistake'), {{lang|ga|dearfa}} {{IPA|/ˈdʲaɾˠəfˠə/}} ('certain'), {{lang|ga|seirbhís}} {{IPA|/ˈʃɛɾʲəvʲiːʃ/}} ('service'), {{lang|ga|fearg}} {{IPA|/ˈfʲaɾˠəɡ/}} ('anger'), {{lang|ga|dorcha}} {{IPA|/ˈd̪ˠɔɾˠəxə/}} ('dark'), {{lang|ga|dalba}} {{IPA|/ˈd̪ˠal̪ˠəbˠə/}} ('bold'), {{lang|ga|colm}} {{IPA|/ˈkɔl̪ˠəmˠ/}} ('dove'), {{lang|ga|soilbhir}} {{IPA|/ˈsˠɪlʲəvʲəɾʲ/}} ('pleasant'), {{lang|ga|gealbhan}} {{IPA|/ˈɟal̪ˠəwən̪ˠ/}} ('sparrow'), {{lang|ga|binb}} {{IPA|/ˈbʲɪnʲəbʲ/}} ('venom'), {{lang|ga|Banbha}}, {{IPA|/ˈbˠan̪ˠəwə/}} (a name for Ireland), {{lang|ga|ainm}} {{IPA|/ˈanʲəmʲ/}} ('name'), {{lang|ga|meanma}} {{IPA|/ˈmʲan̪ˠəmˠə/}} ('mind'), {{lang|ga|ainmhí}} {{IPA|/ˈanʲəvʲiː/}} ('animal').
+
+There is no epenthesis, however, if the vowel preceding the cluster is long or a diphthong: {{lang|ga|fáirbre}} {{IPA|/ˈfˠaːɾʲbʲɾʲə/}} ('wrinkle'), {{lang|ga|téarma}} {{IPA|/ˈtʲeːɾˠmˠə/}} ('term'), {{lang|ga|léargas}} {{IPA|/ˈlʲeːɾˠɡəsˠ/}} ('insight'), {{lang|ga|dualgas}} {{IPA|/ˈd̪ˠuəl̪ˠɡəsˠ/}} ('duty'). There is also no epenthesis into words that are at least three syllables long: {{lang|ga|firmimint}} {{IPA|/ˈfʲɪɾʲmʲəmʲənʲtʲ/}} ('firmament'), {{lang|ga|smiolgadán}} {{IPA|/ˈsˠmʲɔl̪ˠɡəd̪ˠaːn̪ˠ/}} ('throat'), {{lang|ga|caisearbhán}} {{IPA|/ˈkaʃəɾˠwaːn̪ˠ/}} ('dandelion'), {{lang|ga|Cairmilíteach}} {{IPA|/ˈkaɾʲmʲəlʲiːtʲəx/}} ('Carmelite').
+
+==Phonological processes==
+
+===Vowel-initial words===
+Vowel-initial words in Irish exhibit behaviour that has led linguists to suggest that the vowel sound they begin with on the surface is not actually the first sound in the word at a more abstract level. Specifically, when a clitic ending in a consonant precedes a word beginning with the vowel, the consonant of the clitic surfaces as either broad or slender, depending on the specific word in question. For example, the {{Anglebracket|n}} of the [[definite article]] {{lang|ga|an}} ('the') is slender before the word {{lang|ga|iontais}} ('wonder') but broad before the word {{lang|ga|aois}} ('age'):<ref>{{Harvcolnb|Ní Chiosáin|1991|pp=80–82}}</ref>{{lang|ga|an iontais}} {{IPA|/ənʲ&nbsp;ˈiːn̪ˠt̪ˠəʃ/}} ('the wonder' gen.) vs. {{lang|ga|an aois}} {{IPA|/ən̪ˠ&nbsp;ˈiːʃ/}} ('the age').
+
+One analysis of these facts<ref>{{Harvcolnb|Ní Chiosáin|1991|p=83}}</ref> is that vowel-initial words actually begin, at an abstract level of representation, with a kind of "empty" consonant that consists of nothing except the information "broad" or "slender". Another analysis is that vowel-initial words, again at an abstract level, all begin with one of two [[semivowel]]s, one triggering palatalization and the other triggering velarization of a preceding consonant.<ref>{{Harvcolnb|Ó Siadhail|Wigger|1975|pp=98–99}}</ref><ref>{{Harvcolnb|Ó Siadhail|1989|pp=64–65}}</ref>
+
+===Lengthening before fortis sonorants===
+Where reflexes of the Old Irish [[#Fortis and lenis sonorants|fortis sonorants]] appear in syllable-final position (in some cases, only in word-final position), they trigger a lengthening or diphthongization of the preceding vowel in most dialects of Irish.<ref>{{Harvcolnb|O'Rahilly|1932|pp=49–52}}</ref><ref>{{Harvcolnb|Ó Siadhail|Wigger|1975|pp=89–94}}</ref><ref>{{Harvcolnb|Ó Siadhail|1989|pp=49–50}}</ref><ref>{{Harvnb|Carnie|2002}}</ref> The details vary from dialect to dialect.
+
+In Donegal and Mayo, lengthening is found only before {{Anglebracket|rd, rl, rn}}, before {{Anglebracket|rr}} (except when a vowel follows), and in a few words also before word-final {{Anglebracket|ll}},<ref>{{Harvcolnb|de Búrca|1958|pp=132–34}}</ref><ref>{{Harvcolnb|Mhac an Fhailigh|1968|pp=163–64}}</ref><ref>{{Harvcolnb|Evans|1969|p=127}}</ref><ref>{{Harvcolnb|Ó Baoill|1996|p=16}}</ref> e.g. {{lang|ga|barr}} {{IPA|/bˠaːɾˠ/}} ('top'), {{lang|ga|ard}} {{IPA|/aːɾˠd̪ˠ/}} ('tall'), {{lang|ga|orlach}} {{IPA|/ˈoːɾˠl̪ˠax/}} ('inch'), {{lang|ga|tuirne}} {{IPA|/ˈt̪uːɾˠn̠ʲə/}} ('spinning wheel'), {{lang|ga|thall}} {{IPA|/haːl̪ˠ/}} ('yonder').
+
+In Connemara,<ref>{{Harvcolnb|de Bhaldraithe|1966|pp=109–12}}</ref> the Aran Islands,<ref>{{Harvcolnb|Finck|1899}}</ref> and Munster,<ref>{{Harvcolnb|Breatnach|1947|pp=142–44}}</ref><ref>{{Harvcolnb|Ó Cuív|1944|pp=121–23}}</ref> lengthening is found generally not only in the environments listed above, but also before {{Anglebracket|nn}} (unless a vowel follows) and before word-final {{Anglebracket|m, ng}}. For example, the word {{lang|ga|poll}} ('hole') is pronounced {{IPA|/pˠəul̪ˠ/}} in all of these regions, while {{lang|ga|greim}} ('grip') is pronounced {{IPA|/ɟɾʲiːmʲ/}} in Connemara and Aran and {{IPA|/ɟɾʲəimʲ/}} in Munster.
+
+Because vowels behave differently before broad sonorants than before slender ones in many cases, and because there is generally no lengthening (except by [[Analogy#Linguistics|analogy]]) when the sonorants are followed by a vowel, there is a variety of vowel [[alternation (linguistics)|alternations]] between different related word-forms. For example, in Dingle<ref>{{Harvcolnb|Ó Sé|2000|pp=40–42}}</ref> {{lang|ga|ceann}} ('head') is pronounced {{IPA|/cəun̪ˠ/}} with a diphthong, but {{lang|ga|cinn}} (the [[genitive]] singular of the same word) is pronounced {{IPA|/ciːnʲ/}} with a long vowel, while {{lang|ga|ceanna}} (the plural, meaning 'heads') is pronounced {{IPA|/ˈcan̪ˠə/}} with a short vowel.
+
+This lengthening has received a number of different explanations within the context of theoretical phonology. All accounts agree that some property of the fortis sonorant is being transferred to the preceding vowel, but the details about what property that is vary from researcher to researcher. {{Harvcoltxt|Ó Siadhail|Wigger|1975|pp=89–90}}<ref>also repeated in {{Harvcolnb|Ó Siadhail|1989|pp=48–50}}</ref> argue that the fortis sonorant is [[tenseness|tense]] (a term only vaguely defined phonetically) and that this tenseness is transferred to the vowel, where it is realized phonetically as vowel length and/or diphthongization. {{Harvcoltxt|Ní Chiosáin|1991|pp=188–95}} argues that the triggering consonant is underlyingly associated with a unit of [[syllable weight]] called a [[mora (linguistics)|''mora'']]; this mora then shifts to the vowel, creating a long vowel or a diphthong. {{Harvcoltxt|Carnie|2002}} expands on that analysis to argue that the fortis sonorants have an [[advanced tongue root]] (that is, the bottom of the tongue is pushed upward during articulation of the consonant) and that diphthongization is an [[articulatory phonetics|articulatory]] effect of this tongue movement.
+
+===Devoicing===
+Where a voiced [[obstruent]] or {{IPA|/w/}} comes into contact with {{IPA|/h/}}, the {{IPA|/h/}} is absorbed into the other sound, which then becomes voiceless (in the case of {{IPA|/w/}}, devoicing is to {{IPA|/fˠ/}}). Devoicing is found most prominently in the [[future tense|future]] of [[Irish verbs#First conjugation|first conjugation]] verbs (where {{IPA|/h/}} is spelled {{Anglebracket|f}}) and in the formation of [[verbal adjective]]s (where {{IPA|/h/}} is spelled {{Anglebracket|th}}). For example, the verb {{lang|ga|scuab}} {{IPA|/sˠkuəbˠ/}} ('sweep') ends in the voiced consonant {{IPA|/bˠ/}}, but its future tense {{lang|ga|scuabfaidh}} {{IPA|/ˈsˠkuəpˠəɟ/}} ('will sweep') and verbal adjective {{lang|ga|scuabtha}} {{IPA|/ˈsˠkuəpˠə/}} ('swept') have the voiceless consonant {{IPA|/pˠ/}}.<ref>{{Harvcolnb|Breatnach|1947|pp=137–38}}</ref>
+
+===Sandhi===
+Irish exhibits a number of external [[sandhi]] effects, i.e. phonological changes across word boundaries, particularly in rapid speech. The most common type of sandhi in Irish is [[Assimilation (linguistics)|assimilation]], which means that a sound changes its pronunciation in order to become more similar to an adjacent sound. One type of assimilation in Irish is found when a coronal consonant ({{Anglebracket|d, l, n, r, s, t}}) changes from being broad to being slender before a word that begins with a slender coronal consonant and vice versa. For example, {{lang|ga|feall}} {{IPA|/fʲal̪ˠ/}} ('deceive') ends with a broad {{Anglebracket|ll}}, but in the phrase {{lang|ga|d'fheall sé orm}} {{IPA|[dʲal̠ʲ ʃə ɔɾˠəmˠ]}} ('it deceived me'), the {{Anglebracket|ll}} has become slender because the following word, {{lang|ga|sé}}, starts with a slender coronal consonant.<ref>{{Harvcolnb|Quiggin|1906|pp=146–50}}</ref>
+
+{{Anglebracket|n(n)}} may also assimilate to the [[place of articulation]] of a following consonant, becoming labial before a labial consonant, palatal before a palatal consonant, and velar before a velar consonant.<ref>{{Harvcolnb|de Búrca|1958|pp=65–68}}</ref> For example, {{Anglebracket|nn}} of {{lang|ga|ceann}} {{IPA|/can̪ˠ/}} ('one') becomes {{IPA|[mˠ]}} in {{lang|ga|ceann bacach}} {{IPA|[camˠ ˈbˠakəx]}} ('a lame one') and {{IPA|[ŋ]}} in {{lang|ga|ceann carrach}} {{IPA|[caŋ ˈkaɾˠəx]}} ('a scabbed one'). A voiced consonant at the end of a word may devoice when the next word begins with a voiceless consonant,<ref>{{Harvcolnb|Finck|1899|pp=123–24}}</ref> as in {{lang|ga|lúb sé}} {{IPA|[l̪ˠuːpˠ ʃeː]}} ('he bent'), where {{IPA|/bˠ/}} of {{lang|ga|lúb}} {{IPA|/l̪ˠuːbˠ/}} ('bent') became {{IPA|[pˠ]}} before the voiceless {{IPA|/ʃ/}} of {{lang|ga|sé}}.
+
+==Stress==
+
+In Irish, words normally have only one [[stress (linguistics)|stressed]] syllable (ˈ◌). Outside of Munster this is usually the first syllable of the word, e.g. {{lang|ga|d'imigh}} {{IPA|/ˈdʲɪmʲiː/}} ('left' [verb]) and {{lang|ga|easonóir}} {{IPA|/ˈasˠən̪ˠoːɾʲ/}} ('dishonor').<ref>
+{{Harvcolnb|de Búrca|1958|pp=74–75}}</ref> However, certain words, especially [[adverb]]s and [[loanword]]s, have stress on a noninitial syllable, e.g. {{lang|ga|amháin}} {{IPA|/əˈwaːnʲ/}} ('only'), {{lang|ga|tobac}} {{IPA|/təˈbak/}} ('tobacco').
+
+===Compound words===
+In most [[compound (linguistics)|compound]] words, there are four possible stress patterns:<ref>{{Harvcolnb|Ó Liatháin|Nic Mhaoláin|Ní Bhrádaigh|Ní Ící|1998|pp=416–17}}</ref>
+<ol>
+  <li>In most compounds, primary stress falls on the first member and a [[secondary stress]] (ˌ◌) falls on the second member, e.g. {{lang|ga|lagphortach}} {{IPA|/ˈl̪ˠaɡˌfˠɔɾˠt̪ˠəx/}} ('spent bog').</li>
+  <li>In compounds beginning with {{lang|ga|do-}}, {{lang|ga|so-}} and {{lang|ga|in-}} ('possible'), the prefix takes secondary stress, while the following element takes primary stress, e.g. {{lang|ga|dothuigthe}} {{IPA|/ˌdˠoˈhɪkʲə/}} ('unintelligible').</li>
+  <li>In compounds beginning with {{lang|ga|an-}} (intensive prefix), {{lang|ga|bith-}} ('perpetual'), {{lang|ga|colg-, comh-, dian-, glan-, gnáth-, lán-}} and {{lang|ga|príomh-}}, both the prefix and the following syllable take primary stress, e.g. {{lang|ga|an-mhaith}} {{IPA|/ˈanˈwa/}} ('very good'). Note that {{lang|ga|an-}} (meaning 'in-, un-') and {{lang|ga|bith-}} (meaning 'bio-') follow the group 1 (primary-secondary) stress pattern.</li>
+  <li>The last group ({{lang|ga|ard-, dearg-, droch-, fíor-, iar-, ró-, síor-}}) show a mix of:
+    <ol type="i">
+      <li>variation between primary-primary and primary-secondary stress, e.g. {{lang|ga|Fíor-Dhia}} {{IPA|/ˈfʲiːɾˠ⁠ˈjiːə/}} ('true God') vs. {{lang|ga|fíoruisce}} {{IPA|/ˈfʲiːɾˠˌɪʃcə/}} ('spring water')</li>
+      <li>variation between primary-secondary and primary-zero stress, particularly in old compounds now treated as simple words, e.g. {{lang|ga|goltraí}} {{IPA|/ˈgɔl̪ˠt̪ˠɾˠiː/}} ('sorrowful music, lament'), {{lang|ga|suantraí}} {{IPA|/ˈsuːən̪ˠt̪ˠɾˠiː/}} ('lullaby').</li>
+      <li>variation in stress pattern depending on whether the second element is a noun or adjective, e.g. primary-primary {{lang|ga|droch-dhuine}} {{IPA|/ˈd̪ˠɾˠɔx⁠ˈɣinʲə/}} ('bad person') vs. primary-secondary {{lang|ga|drochbhéasach}} {{IPA|/ˈd̪ˠɾˠɔx⁠ˌvʲeːsəx/}} ('bad-mannered'), primary-primary {{lang|ga|Ard-Easpag}} {{IPA|/ˈaːɾˠd̪ˠ⁠ˈæsˠpˠəɡ/}} ('Archbishop') vs. primary-secondary {{lang|ga|ardnósach}} {{IPA|/ˈaːɾˠd̪ˠˌn̪ˠõːsəx/}} ('bad-mannered')</li>
+    </ol>
+</ol>
+
+===Munster===
+In Munster, stress is attracted to a long vowel or diphthong in the second or third syllable of a word, e.g. {{lang|ga|cailín}} {{IPA|/kaˈlʲiːnʲ/}} ('girl'), {{lang|ga|achainí}} {{IPA|/axəˈnʲiː/}} ('request').<ref>{{Harvcolnb|Ó Sé|2000|pp=46–47}}</ref> In the now-extinct accent of East Mayo, stress was attracted to a long vowel or diphthong in the same way as in Munster; in addition, stress was attracted to a short vowel before word-final {{Anglebracket|ll, m, nn}} when that word was also final in its utterance.<ref>{{Harvcolnb|Lavin|1957}}</ref><ref>{{Harvcolnb|Dillon|1973}}</ref><ref>{{Harvcolnb|Green|1997|pp=86–90}}</ref> For example, {{lang|ga|capall}} ('horse') was pronounced {{IPA|[kaˈpˠɞl̪ˠ]}} in isolation or as the last word of a sentence, but as {{IPA|[ˈkapˠəl̪ˠ]}} in the middle of a sentence.
+
+In Munster, stress is attracted to {{IPA|/a/}} in the second syllable of a word if it is followed by {{IPA|/x/}}, ''provided'' the first syllable (and third syllable, if there is one) contains a short vowel. Examples include {{lang|ga|bacach}} {{IPA|/bˠəˈkax/}} ('lame') and {{lang|ga|slisneacha}} {{IPA|/ʃlʲəˈʃnʲaxə/}} ('chips'). However, if the first or third syllable contains a long vowel or diphthong, stress is attracted to that syllable instead, and the {{IPA|/a/}} before {{IPA|/x/}} is reduced to {{IPA|/ə/}} as normal, e.g. {{lang|ga|éisteacht}} {{IPA|/ˈeːʃtʲəxt̪ˠ/}} ('listen'), {{lang|ga|moltachán}} {{IPA|/ˌmˠɔl̪ˠhəˈxaːn̪ˠ/}}{{ref|moltachán|5}} ('wether').<ref>{{Harvcolnb|Ó Cuív|1944|p=66}}</ref>
+
+==Samples==
+The following table shows some sample sentences from the Aran dialect.<ref>{{Harvcolnb|Finck|1899|pp=II.1–2}}</ref>
+{| class="wikitable"
+! IPA
+! Spelling
+! Translation
+|-
+| width="300" | {{IPA|vʲiː ʃeː əɟ ˈafˠəɾˠk əˈmˠax asˠ ə ˈwɪn̠ʲoːɡ nuəɾʲ ə vʲiː ˈmʲɪʃə ɡɔl haɾˠt̪ˠ}}
+| width="300" | {{lang|ga|Bhí sé ag amharc}}{{ref|amharc|7}} {{lang|ga|amach as an bhfuinneog nuair a bhí mise ag dul thart.}}
+| width="300" | He was looking out the window when I went past.
+|-
+| {{IPA|n̠ʲiː ˈɛcətʲ ʃeː pˠəul̪ˠ hɾʲiː ˈdʲɾʲeːmʲɾʲə}} || {{lang|ga|Ní fheicfeadh sé poll thrí dréimire.}} || He wouldn't see a hole through a ladder (i.e. he's very near-sighted).
+|-
+| {{IPA|t̪ˠaː mʲeː fʲlɔx hɾʲiːdʲ əsˠ hɾʲiːdʲ}} || {{lang|ga|Tá mé fliuch thríd is thríd.}} || I am wet through and through.
+|-
+| {{IPA|hʊɡ ʃeː klɔx woːɾ ˈaɡəsˠ xa ʃeː lɛʃ ə ˈwɪn̠ʲoːɡ iː}} || {{lang|ga|Thug sé cloch mhór agus chaith sé leis an bhfuinneog í.}} || He took a large stone and he threw it against the window.
+|-
+| {{IPA|ˈhaːnəɟ ʃeː əʃˈtʲax aɡəsˠ kuːx əɾʲ}} || {{lang|ga|Tháinig sé isteach agus cuthach air.}} || He came in <!-- not a mistake-->in a rage.
+|-
+| ―{{IPA|əɾˠ iːk ʃɪbʲ ˈmˠoːɾˠaːn əɾʲ ə mˠuːn}}<br />―{{IPA|ɡə ˈdʲɪvʲən dʲiːk sˠə ˈl̪ˠəiəd̪ˠ ə wɪl aːn̪ˠ jɪ}} || {{lang|ga|―Ar íoc sibh}}{{ref|sibh|8}} {{lang|ga|mórán ar an móin?}}<br />{{lang|ga|―Go deimhin d'íoc is a laghad a bhfuil ann dhi.}} || ―Did you pay much for the turf?<br />―We certainly did, considering how little there is of it.
+|-
+| {{IPA|ˈtʲaɡəmʲ aːn̪ˠ xɪlə l̪ˠaː sˠəsˠ ˈmʲɪnəc n̪ˠax mʲiən̪ˠ ˈmˠoːɾˠaːn ˈfˠaːl̠ʲtʲə ɾˠuːmˠ}} || {{lang|ga|Tagaim}}{{ref|tagaim|9}} {{lang|ga|ann chuile lá is is minic nach mbíonn mórán fáilte romham.}} || I come there every day but often I'm not very welcome.
+|-
+| {{IPA|t̪ˠaː mʲeː ˈklɪʃtʲaːl ə ɡɔl haɾˠəmˠ ɡə mʲəi ˈsˠavˠɾˠə fʲlɔx sˠə ˈmʲliənə aɡən̠ʲ aɡəsˠ ˈçiːt̪ˠəɾˠ ɣɔmˠ pʲeːn ɡəɾˠ ˈaʃtʲəx ə ʃceːl eː ʃɪn}} || {{lang|ga|Tá mé ag cloisteáil ag dul tharam go mbeidh samhradh fliuch sa mbliana againn, agus chítear}}{{ref|chítear|10}} {{lang|ga|dhom féin{{ref|féin|11}} gur aisteach an scéal é sin.}} || I have heard tell that we'll have a wet summer this year, but it seems to me that that story is strange.
+|-
+| {{IPA|wɪl nə ˈfˠat̪ˠiː xoː mˠasˠ d̪ˠuːɾʲtʲ ʃeː}} || {{lang|ga|An bhfuil na fataí chomh maith is dúirt sé?}} || Are the potatoes as good as he said?
+|-
+| {{IPA|ə ˈɣeːlɟə ˈl̪ˠəuɾˠiːɾˠ ə ˈɡuːɟə mˠuːn n̠ʲiː ˈhɔnən̪ˠ iː sˠə ˈɣeːlɟə ˈʃaɡən̠ʲə}} || {{lang|ga|An Ghaeilge a labhraítear}}{{ref|labhraítear|12}} {{lang|ga|i gCúige Mumhan, ní hionann í is an Ghaeilge seo againne.}} || The Irish spoken in Munster isn't the same as our Irish.
+|}
+
+The first eight chapters of [[Peadar Ua Laoghaire]]'s autobiography ''[[oldwikisource:Mo Sgéal Féin|Mo Sgéal Féin]]'' at [[Wikisource]] include recordings of the text being read by a native speaker of Muskerry (Munster) Irish.
+
+==Comparison with other languages==
+
+===Scottish Gaelic and Manx===
+{{main|Comparison of Scottish Gaelic and Irish}}
+Many of the phonological processes found in Irish are found also in its nearest relatives, [[Scottish Gaelic]] and [[Manx language|Manx]]. For example, both languages contrast "broad" and "slender" consonants, but only at the coronal and dorsal [[place of articulation|places of articulation]]; both Scottish Gaelic and Manx have lost the distinction in labial consonants. The change of {{IPA|/kn̪ˠ ɡn̪ˠ mn̪ˠ/}} etc. to {{IPA|/kɾˠ ɡɾˠ mɾˠ/}} etc. is found in Manx and most dialects of Scottish Gaelic. Evidence from written manuscripts suggests it had begun in Scottish Gaelic as early as the 16th century and was well established in both Scottish Gaelic and Manx by the late 17th to early 18th century.<ref>{{Harvcolnb|O'Rahilly|1932|pp=22–23}}</ref> Lengthening or diphthongization of vowels before fortis sonorants is also found in both languages.<ref>{{Harvcolnb|O'Rahilly|1932|pp=49–52}}</ref> The stress pattern of Scottish Gaelic is the same as that in Connacht and Ulster Irish, while in Manx, stress is attracted to long vowels and diphthongs in noninitial syllables, but under more restricted conditions than in Munster.<ref>{{Harvcolnb|O'Rahilly|1932|pp=113–115}}</ref><ref>{{Harvcolnb|Green|1997|pp=90–93}}</ref>
+
+Manx and many dialects of Scottish Gaelic share with Ulster Irish the property of not reducing unstressed {{IPA|/a/}} to {{IPA|/ə/}} before {{IPA|/x/}}.<ref>{{Harvcolnb|O'Rahilly|1932|pp=110–12}}</ref>
+
+===Hiberno-English===
+Irish pronunciation has had a significant influence on the features of [[Hiberno-English]].<ref>{{Harvcolnb|Wells|1982|pp=417–50}}</ref> For example, most of the vowels of Hiberno-English (with the exception of {{IPA|/ɔɪ/}}) correspond to vowel [[Phone (phonetics)|phones]] of Irish. The Irish stops {{IPA|[t̪ˠ d̪ˠ]}} are common realizations of the English phonemes {{IPA|/θ ð/}}. Hiberno-English also allows {{IPA|/h/}} where it is permitted in Irish but excluded in other [[List of dialects of the English language|dialects of English]], such as before an [[unstressed vowel]] (e.g. ''Haughey'' {{IPA|/ˈhɑhi/}}) and at the end of a word (e.g. ''McGrath'' {{IPA|/məˈɡɹæh/}}). There is [[epenthesis]] in words like ''film'' {{IPA|[ˈfɪləm]}} and ''form'' {{IPA|[ˈfɒːɹəm]}}.
+
+==See also==
+* {{lang|ga|[[An Caighdeán Oifigiúil]]}} – "The Official Standard", for writing Irish
+
+==Notes==
+*{{note|scanradh|1}} {{lang|ga|Scanradh}} is pronounced as if spelled *{{angbr|scamhradh}}; see [[Irish orthography]]
+*{{note|goirt|2}} {{lang|ga|Goirt}} is pronounced as if spelled {{angbr|guirt}}
+*{{note|gairid|3}} {{lang|ga|Gairid}} is pronounced as if spelled {{angbr|geairid}}
+*{{note|loit|4}} {{lang|ga|Loit}} is pronounced as if spelled {{angbr|lait}}
+*{{note|moltachán|5}} {{lang|ga|Moltachán}} is pronounced as if spelled *{{angbr|molthachán}}
+*{{note|thabharfainn|6}} {{lang|ga|Thabharfainn}} is pronounced as if spelled *{{angbr|thiúrfainn}}
+*{{note|amharc|7}} {{lang|ga|Amharc}} is pronounced as if spelled {{angbr|afarc}}
+*{{note|sibh|8}} {{lang|ga|Sibh}} is pronounced as if spelled {{angbr|sib}}
+*{{note|tagaim|9}} {{lang|ga|Tagaim}} is pronounced as if spelled {{angbr|teagaim}}
+*{{note|chítear|10}} {{lang|ga|Chítear}} is pronounced as if spelled {{angbr|chíotar}}
+*{{note|féin|11}} {{lang|ga|Féin}} is pronounced as if spelled {{angbr|péin}}
+*{{note|labhraítear|12}} {{lang|ga|Labhraítear}} is pronounced as if spelled *{{angbr|labhraíthear}}
+
+==Footnotes==
+{{Reflist|30em}}
+
+==References==
+{{Refbegin|30em}}
+* {{Citation| surname=Bloch-Rozmej| given=Anna| year=1998| title=Elements Interactions in Phonology: A Study in Connemara Irish| publisher=Ph.D. dissertation, [[John Paul II Catholic University of Lublin|Catholic University of Lublin]]| isbn=83-228-0641-8}}
+* {{Citation| surname=Breatnach| given=Risteard B.| title=The Irish of Ring, Co. Waterford| publisher=Dublin Institute for Advanced Studies| year=1947| isbn=0-901282-50-2}}
+* {{Citation| surname=Carnie| given=Andrew| title=A note on diphthongization before tense sonorants in Irish: An articulatory explanation| journal=Journal of Celtic Linguistics| year=2002| volume=7| pages=129–48}}
+* {{Citation| surname=Cyran| given=Eugeniusz| year=1997| title=Resonance Elements in Phonology: A Study in Munster Irish| publisher=Ph.D. dissertation, [[John Paul II Catholic University of Lublin|Catholic University of Lublin]]| isbn=83-86239-41-7}}
+* {{Citation| surname=de Bhaldraithe| given=Tomás| author-link=Tomás de Bhaldraithe| title=The Irish of Cois Fhairrge, Co. Galway| edition=2nd| publisher=Dublin Institute for Advanced Studies| year=1966| isbn=0-901282-51-0}}
+* {{Citation| surname=de Búrca| given=Seán| title=The Irish of Tourmakeady, Co. Mayo| publisher=Dublin Institute for Advanced Studies| year=1958| isbn=0-901282-49-9}}
+* {{Citation| surname=Dillon| given=Myles| year=1973| title=Vestiges of the Irish dialect of East Mayo| journal=Celtica| volume=10| pages=15–21}}
+* {{Citation| surname=Evans| given=Emrys| year=1969| title=The Irish dialect of Urris, Inishowen, Co. Donegal| journal=Lochlann| volume=4| pages=1–130}}
+* {{Citation| surname=Finck| given=Franz Nikolaus| author-link=Franz Nikolaus Finck |title=[[s:de:Die araner mundart|Die araner mundart]]| place=Marburg| publisher=N. G. Elwert| year=1899|language=de}}
+* {{Citation| surname=Green| given=Antony| year=1997| title=The Prosodic Structure of Irish, Scots Gaelic, and Manx| publisher=Ph.D. dissertation, [[Cornell University]]| url=http://roa.rutgers.edu/files/196-0597/196-0597-GREEN-0-0.PDF| access-date=2018-05-23}}
+* {{Citation| surname=Hamilton| given=John Noel| year=1974| title=A Phonetic Study of the Irish of Tory Island, County Donegal| publisher=[[Queen's University Belfast]]}}
+* {{Citation| surname=Hughes| given=A.&nbsp;J.| year=1986| title=The Gaelic of Tangaveane and Commeen, County Donegal| publisher=Ph.D. dissertation, [[Queen's University Belfast]]}}
+* {{Citation| surname=Hughes| given=Art| year=1994| chapter=Gaeilge Uladh| pages=611–60| title=Stair na Gaeilge in ómós do Pádraig Ó Fiannachta|editor1=Kim McCone |editor2=Damian McManus |editor3=Cathal Ó Háinle |editor4=Nicholas Williams |editor5=Liam Breatnach | place=Maynooth| publisher=Department of Old Irish, St. Patrick's College| isbn=0-901519-90-1|language=Irish}}
+* {{Citation| surname=Lavin| given=T.&nbsp;J.| year=1957| title=Notes on the Irish of East Mayo: 1| journal=Éigse| volume=8| pages=309–21}}
+* {{Citation| surname=Lucas| given=Leslie W.| year=1979| title=Grammar of Ros Goill Irish, County Donegal| publisher=Queen's University of Belfast}}
+* {{Citation| surname=McCone| given=Kim| year=1994| chapter=An tSean-Ghaeilge agus a réamhstair| pages=61–219| title=Stair na Gaeilge in ómós do Pádraig Ó Fiannachta|editor1=Kim McCone |editor2=Damian McManus |editor3=Cathal Ó Háinle |editor4=Nicholas Williams |editor5=Liam Breatnach | place=Maynooth| publisher=Department of Old Irish, St. Patrick's College| isbn=0-901519-90-1|language=Irish}}
+* {{Citation| surname=Mhac an Fhailigh| given=Éamonn| title=The Irish of Erris, Co. Mayo| publisher=Dublin Institute for Advanced Studies| year=1968| isbn=0-901282-02-2}}
+* {{Citation| surname=Ní Chasaide| given=Ailbhe| year=1999| chapter=Irish| title=Handbook of the International Phonetic Association| publisher=Cambridge University Press| pages=111–16| isbn=0-521-63751-1|chapter-url=https://books.google.com/books?id=33BSkFV_8PEC&pg=PA111| access-date=2009-01-21}}
+* {{Citation| surname=Ní Chiosáin| given=Máire| year=1991| title=Topics in the Phonology of Irish| publisher=Ph.D. dissertation, [[University of Massachusetts Amherst]]}}
+* {{Citation| surname=Ní Chiosáin| given=Máire| year=1994| chapter=Vowel features and underspecification: Evidence from Irish|editor1=W. U. Dressler |editor2=M. Prinzhorn |editor3=J. R. Rennison | title=Phonologica 1992: Proceedings of the 7th International Phonology Meeting, Krems, Austria| place=Turin| publisher=Rosenberg & Sellier| pages=157–64| isbn=88-7011-611-5}}
+* {{Citation| surname=Ní Chiosáin| given=Máire| year=1999| chapter=Syllables and phonotactics in Irish|editor1=H. van der Hulst |editor2=N. A. Ritter | title=The syllable: Views and facts| place=Berlin| publisher=Mouton de Gruyter| pages=551–75| isbn=3-11-016274-1| chapter-url=https://books.google.com/books?id=EDNCEwG6GmYC&pg=PA551| access-date=2009-01-21}}
+* {{Citation| surname=Ó Baoill| given=Dónall P.| title=An Teanga Bheo: Gaeilge Uladh| place=Dublin| publisher=Institiúid Teangeolaíochta Éireann| year=1996| isbn=0-946452-85-7}}
+* {{Citation| surname=Ó Cuív| given=Brian| title=The Irish of West Muskerry, Co. Cork| publisher=Dublin Institute for Advanced Studies| year=1944| isbn=0-901282-52-9}}
+* {{Citation| surname=Ó Curnáin| given=Brian| year=1996| title=Aspects of the Irish of Iorras Aithneach, Co. Galway| publisher=Ph.D. dissertation, [[University College Dublin]]}}
+* {{Citation| surname=Ó Dochartaigh| given=Cathair| year=1987| title=Dialects of Ulster Irish| place=Belfast| publisher=Institute of Irish Studies, Queen's University of Belfast| isbn=0-85389-296-2}}
+* {{Citation |last1=Ó Liatháin |first1=Annraoi |last2=Nic Mhaoláin |first2=Máire |last3=Ní Bhrádaigh |first3=Eilís |last4=Ní Ící |first4=Máire |last5=Ó Briain |first5=Seán |last6=Ó Baoill |first6=Dónal P. |title=Foclóir Scoile |date=1998 |publisher=An Gúm |location=Dublin |isbn=1-85791-121-0 |page=416–17 |edition=An Seachtú Cló}}
+* {{Citation| surname=O'Rahilly| given=T. F.| author-link=T. F. O'Rahilly| title=Irish Dialects Past and Present| place=Dublin| publisher=Browne & Nolan| year=1932}}. Reprinted 1972 by the Dublin Institute for Advanced Studies, {{ISBN|0-901282-55-3}}.
+* {{Citation| surname=Ó Sé| given=Diarmuid| title=Gaeilge Chorca Dhuibhne| place=Dublin| publisher=Institiúid Teangeolaíochta Éireann| year=2000| isbn=0-946452-97-0|language=Irish}}
+* {{Citation| surname=Ó Searcaigh| given=Séamus| title=Foghraidheacht Ghaedhilge an Tuaiscirt| place=Belfast| publisher=Browne & Nolan| year=1925|language=Irish}}
+* {{Citation| surname=Ó Siadhail| given=Mícheál| author-link=Mícheál Ó Siadhail |title=Modern Irish: Grammatical structure and dialectal variation| publisher=Cambridge University Press| year=1989| isbn=0-521-37147-3| url=https://books.google.com/books?id=QUlGDUBmB50C| access-date=2009-01-21}}
+* {{Citation| surname1=Ó Siadhail| given1=Mícheál| surname2=Wigger| given2=Arndt| title=Córas fuaimeanna na Gaeilge| publisher=Dublin Institute for Advanced Studies| isbn=0-901282-64-2| year=1975|language=Irish}}
+* {{Citation| surname=Pedersen| given=Holger| author-link=Holger Pedersen (linguist)| year=1909| title=Vergleichende Grammatik der keltischen Sprachen| place=Göttingen| publisher=Vandenhoeck & Ruprecht| isbn=3-525-26119-5|language=de}}
+* {{Citation| surname=Quiggin| given=E.&nbsp;C.| year=1906| title=[[s:A Dialect of Donegal|A Dialect of Donegal: Being the Speech of Meenawannia in the Parish of Glenties]]| publisher=Cambridge University Press}}
+* {{Citation| surname=Quin| given=E. G.| year=1975| title=Old-Irish Workbook| place=Dublin| publisher=Royal Irish Academy| isbn=0-901714-08-9}}
+* {{Citation| surname=Sjoestedt| given=M.-L.| year=1931| title=Phonétique d'un parler irlandais de Kerry| place=Paris| publisher=Leroux|language=fr}}
+* {{Citation| surname=Sommerfelt| given=Alf| author-link=Alf Sommerfelt| year=1922| title=The Dialect of Torr, Co. Donegal| place=Kristiania| publisher=Brøggers}}
+* {{Citation| surname=Sommerfelt| given=Alf| year=1927| title=Munster vowels and consonants| journal=Proceedings of the Royal Irish Academy |volume=37 |location= Sec. C, Archaeology, Linguistic<!--sic-->, and Literature |pages=195–244}}
+* {{Citation| surname=Sommerfelt| given=Alf| year=1929| title=South Armagh Irish| journal=Norsk Tidsskrift for Sprogvidenskap| volume=2| pages=107–91}}
+* {{Citation| surname=Sommerfelt| given=Alf| year=1965| title=The phonemic structure of the dialect of Torr, Co. Donegal| journal=Lochlann| volume=3| pages=237–54}}
+* {{Citation| surname=Stifter| given=David| title=Sengoídelc: Old Irish for Beginners |publisher=Syracuse University Press |year=2006 |isbn=0-8156-3072-7}}
+* {{Citation| surname=Sutton| given=Laurel| title='Palatal' consonants in spoken Irish| journal=UC Berkeley Working Papers in Linguistics| volume=1| pages=164–86| year=1993}}
+* {{Citation| surname=Wagner| given=Heinrich| year=1959| title=Gaeilge Theilinn| publisher=Dublin Institute for Advanced Studies| isbn=1-85500-055-5|language=Irish}}
+* {{Citation| surname=Wells| given=J. C.| author-link=John C. Wells| title=Accents of English 2: The British Isles| year=1982| publisher=Cambridge University Press| isbn=0-521-28540-2| url=https://books.google.com/books?id=ghVrBE-UVYwC| access-date=2009-01-21}}
+{{Refend}}
+
+==External links==
+* [https://www.uni-due.de/DI/DI_Studies_in_Irish_Phonology.htm Studies in Irish Phonology]
+* [http://www.celt.dias.ie/publications/online/caint_ros_muc/CH1/ Caint Ros Muc], a collection of sound files of speakers from [[Ros Muc]]
+*[https://www.dias.ie/celt/celt-publications-2/celt-the-irish-of-iorras-aithneach-county-galway/ The Irish of Iorras Aithneach, County Galway], a detailed publicly available study on the Irish spoken in Iorras Aithneach
+* [http://www.nualeargais.ie/gnag/phonol.htm Irish phonology] {{Webarchive|url=https://web.archive.org/web/20100718100450/http://www.nualeargais.ie/gnag/phonol.htm |date=18 July 2010 }}
+* [http://www.phouka.com/gaelic/sounds/sounds.htm Recordings of the sounds of Irish]
+* [https://web.archive.org/web/20140707173246/http://www.smo.uhi.ac.uk/~oduibhin/cruinneas/foghraidheacht.htm Pronunciation hints for learners] {{in lang|ga}}
+* [https://web.archive.org/web/20140714175045/http://www.fuaimeanna.ie/en/ Fuaimeanna na Gaeilge], listen to different phonemes in three different dialects
+* [https://spw.uni-goettingen.de/projects/aig/lng-sga.html glottothèque - Ancient Indo-European Grammars online], an online collection on Ancient Indo-European languages, including videos on the phonology of Old Irish
+
+{{Irish linguistics}}
+{{Language phonologies}}
+
+[[Category:Irish grammar|Phonology]]
+[[Category:Celtic phonologies]]

@@ -1,0 +1,555 @@
+                                                                   Linguistics Beyond And Within 6 (2020), 5-16
+
+
+
+Fortis-lenis vs voiced-voiceless plosives in Welsh
+Sabine Asmus
+University of Szczecin, Poland
+University of Leipzig, Germany
+
+Sylwester Jaworski
+University of Szczecin, Poland
+
+Michał Baran
+University of Szczecin, Poland
+
+
+
+
+Abstract
+This paper questions the voiceless-voiced distinction of Welsh consonants and claims that the fortis-lenis
+distinction is more appropriate for the description of the language. In light of research results of theoretical as well
+as experimental investigations into Welsh, e.g. the vowel-coda length dependence discovered by Asmus and
+Grawunder (2017), advocated further research into that matter, seeing also that the fortis-lenis distinction
+establishes a firm link to focal properties of Welsh, such as morpheme-initial consonant mutations (mICM). It
+was, therefore, decided to look at potential phonetic features that would contribute to the postulated distinction.
+These features are aspiration, voicing, hold phase duration and the centre of gravity (abbreviated to CoG) in the
+articulation of Welsh plosives. Preliminary results of the study discussed in this paper were summarised in “Fortis-
+lenis or Voiced-voiceless – features of Welsh consonants” (Asmus et al. 2019). However, expanding our research
+has yielded more comprehensive findings. As a result, it appears that the two series of plosives under review are
+different in terms of all features studied, but it is aspiration that is of major importance (thus confirming
+classifications of Welsh as an aspiration language).
+
+Keywords: fortis-lenis distinction, plosives, consonant distinctions, aspiration
+
+
+
+
+1. Introduction
+
+Consonant distinctions are vital in describing a language because they facilitate any subsequent
+research of more complex language structures. Therefore, a language cannot be effectively
+analysed, taught or studied unless correct consonant distinctions are established. As far as
+Welsh is concerned, it is claimed here that its description as a fortis-lenis language is more
+appropriate than that as a voiced-voiceless tongue.
+S. Asmus, S. Jaworski, M. Baran / Linguistics Beyond And Within 6 (2020), 5-16                                        6
+
+
+     Some major accounts of the Welsh language (Ball and Fife 2002; Hannahs 2013) postulate
+that Welsh consonants are organised into a voiced and voiceless set. Such claims may result
+from the fact that the voiced-voiceless distinction is often seen as universal.1 Ideal cases of
+languages based on the voiced-voiceless distinction should exhibit a phonological system, in
+which all obstruent phonemes can be arranged into voiced-voiceless pairs. The sound systems
+of Ukrainian (Shevelov 1996), Belorussian (Mayo 1996) or Polish2 (Gussmann 2007; Sawicka
+1995) may be quoted as examples of such consonantal inventories. For Welsh, however, this is
+certainly not the case as becomes clear in the course of this paper (see also Asmus et al. 2019
+and Grawunder and Asmus 2017).
+     As Welsh is not the only language that does not feature such a phonological system, the
+universal status of the voiced-voiceless distinction has been challenged by various researchers.
+Some postulate that it is only one of the possible options of laryngeal contrast. Kiparski (2006),
+for instance, discusses so-called voicing and non-voicing languages, where the latter exhibit a
+different type of laryngeal contrast, not based on the presence or absence of phonetic voicing.
+Honeybone’s (2005) laryngeal realism points to two major systems based on laryngeal contrast,
+one of which is the fortis-lenis distinction.3
+     Back in 1983, Jaeger discussed both notions referring to the terms ‘fortis/lenis’ as “used to
+characterize a basic phonological contrast in consonant systems which cannot be explained in
+terms of a voicing distinction” (1983: 177).4 In context of the Insular Celtic languages, the
+voiced-voiceless distinction has also been questioned. A look at Bednarska (2016) reveals a
+fortis-lenis divide at work in Breton, which, like Welsh, is an Insular p-Celtic language.
+     Ball (1984), Jones (1984), Ball and Williams (2001), Morris and Hejná (2019) and Iosad
+(forthcoming) have also employed the fortis-lenis terminology in analyses, but rather in order
+to describe some features of Welsh consonants, e.g. aspiration where phonetic voicing is not
+enough to describe them (see Jaeger and the case of English below), than identifying Welsh as
+
+
+1
+    See Maddieson (2013) for such an approach. On the basis of such approaches and the features of the degree of
+    obstruction of the vocal tract during the production of the sound and the absence or presence of voicing, a
+    sonority scale was defined, which is by some also seen as universal (see Carr 2008: 160, Davenport and Hannahs
+    2005: 75).
+2
+    In standard Polish, the voiced velar fricative [ɣ] seems to have lost its phonemic status; however, it is still used
+    in the south and east of Poland.
+3
+    It has also been established that languages may have a three-way distinction among fortis, lenis and aspirated
+    plosives. In such systems, several articulatory, acoustic and aerodynamic factors contribute simultaneously to
+    the contrast formation. According to Chang (2007), the lenis, fortis and aspirated plosives of Korean differ from
+    each other with respect to linguo-palatal contact, glottal configuration, subglottal and intraoral pressure,
+    laryngeal and supralaryngeal articulatory tension, voice onset time (VOT), fundamental frequency (f0) of vowel
+    onset, intensity of vowel onset, and voice quality of vowel onset. Chang (2007: 21) also stresses the fact that
+    “none of these cues alone differentiates all three series from each other due to a high degree of overlap between
+    two or sometimes all three categories with respect to their range of realizations of these phonetic dimensions”.
+    Welsh distinguishes between a fortis, a lenis and an aspirated [r] (Jaworski and Asmus 2018), as well as between
+    a fortis, lenis and aspirated variant of [l]. These may seem like an instance of a division similar to the Korean
+    contrast, but they are in fact a remnant of an incomplete development of the four-fold Old Irish sonorant system
+    in Welsh (see Asmus and Grawunder 2017), which came to an end in the 10th century CE, probably due to a
+    limited influence of palatalisation resulting from language contact.
+4
+    Other uses of the term ‘fortis/lenis’ may refer to secondary phonetic features as is seen in the following.
+S. Asmus, S. Jaworski, M. Baran / Linguistics Beyond And Within 6 (2020), 5-16                                             7
+
+
+a language that displays a fortis-lenis phonological system.5 However, van Sluis described in
+2019 that aspiration, together with general articulation length, is decisive for the distinction
+between the radical fortis plosives, lenited fortis plosives and radical lenis plosives in Old and
+Middle Welsh (2019: 75).
+     When Baran and Asmus (2019) revisited morpheme-initial consonant mutations (mICM)
+in Welsh and Irish, they showed that lenition processes, i.e. deaspiration /p, t, k/ > /b, d, g/,
+spirant mutation /p, t, k/ > /f, θ, χ/ (i.e. lenition of fortis plosives plus aspiration),
+approximantisation /ɫ, r̥ʰ/ > /l, r/ and debucculisation /s/ > /h/6 established a whole system of
+phonetic contrasts that are used in order to mark morphological and syntactic features in the
+language. In addition, Asmus and Grawunder (2017) found out that there is little or no final
+devoicing – also referred to as contrast neutralisation of voiced and devoiced codas – in Welsh
+monosyllables ending in simplex codas. To the contrary, the maintenance of the fortis-lenis
+codas is semantically relevant and, whereas devoicing is largely absent, consonant length is
+decisive.
+     As can be seen, there is a clear phonological contrast in Welsh consonants, which cannot
+be explained by a voicing distinction. This is also confirmed by minimal pairs, which clearly
+follow the fortis-lenis divide. Whereas English features the voiced-voiceless7 distinction
+between /s/ and /z/, like in seal and zeal, Welsh exhibits minimal pairs along the fortis-lenis
+divide8 as can be seen in the following:
+
+        sil ‘seed’ vs hil ‘breed’
+
+In addition, this minimal pair9 cannot be explained within the voiced-voiceless framework
+because both sounds are voiceless.
+
+5
+    It may be interesting though that Ball and Müller deny the applicability of this sonority scale to the Insular Celtic
+    languages in 2016 and 2019.
+6
+    The contrast between /s/ and /h/ stopped being productive in Welsh in the 6th century CE and nowadays it is
+    no longer productive in the mutation system (Jackson 1953: 12–513, 517–521, 525–527, 625), so it is often
+    omitted by researchers (see for instance Ball 1984) but see also below.
+7
+    Some scholars refer to English in certain frameworks as a fortis-lenis language, the implication being that fortis
+    sounds involve a greater amount of articulatory effort (Cruttenden 1996: 31). However, Jaeger rightly declines
+    this idea (1983: 177–179) claiming that in English the voiceless stops are considered fortis only because of the
+    presence of aspiration and the fortis-lenis distinction, understood in that way does not have any further
+    phonological or phonetic implications. In the English language, the phonological status of aspiration is thus
+    somewhat ambiguous due to it occurring in predictable contexts.
+8
+    This phonetic change /s/ - /h/ has already been referred to as a specific form of lenition, i.e. debucculisation,
+    above. It is part of the lenition processes in Europe apparent in the 1st century CE. Whereas – as said above –
+    lenition became grammaticalised in the Insular Celtic languages, it can still be found as a dialectal marker in
+    several varieties of Spanish, e.g. Andalusian, Mexican or Caribbean Spanish (see Hualde 2005; Penny 2000).
+9
+    The word sil and hil can still be understood as ‘seed’ (for the confirmation thereof, we would like to thank Dr.
+    Guto Rhys), although hil would normally be used in the sense of ‘lineage’ and ‘race’ these days (Geiriadur
+    Prifysgol Ar Lein). Another good minimal pair is sedd - hedd. Both share the same etymology, but specialised on
+    the current meanings ‘seat’ and ‘peace’ respectively. A shared etymology can also be established for soch/swch
+    and hwch ‘pig’. Although the latter is now a specific pig, i.e. ‘a swine’, the first is only loosely linked to the animal
+    these days and normally understood as ‘ploughshare’ or ‘snout’. However, the children’s book Jaci Soch (Jones
+    2004) talks about the adventures of a little pig, not least because “soch, soch” may be used onomatopoetically in
+S. Asmus, S. Jaworski, M. Baran / Linguistics Beyond And Within 6 (2020), 5-16                                       8
+
+
+     In order to present the phonological fortis-lenis divide as a fully distinct one, phonetically
+distinctive features that distinguish between the two series must be identified. It can be assumed
+that features or their combination may be different for different manners of articulation.
+Therefore, the influence of voicing, aspiration, articulatory timing/hold phase duration and the
+centre of gravity (CoG) of the aspiration noise that follows the release of Welsh plosives is
+investigated here.
+     The remaining part of the article is structured as follows. Section 2 introduces the phonetic
+properties of plosives and describes how they contribute to making speech sounds distinct.
+Section 3 is devoted to an investigation into specific features of Welsh plosives, which might
+prove our claim, and specifies the objectives, describes the research methodology and presents
+the results. The article ends with conclusions, which also include suggestions for further
+research in this area.
+
+
+2. Phonetic properties of plosives and their importance in laryngeal contrasts
+
+The first of the features analysed in our current studies is phonetic voicing. Trask (1996: 381)
+defines it as vocal folds vibration happening while articulating a given sound. He claims that
+this may be the one parameter that distinguishes between voiced and voiceless sounds.
+Ladefoged (1975) in his feature system differentiates between five different values of the voice
+feature: glottal stop, laryngealised, voice, murmur and voiceless. Measuring voicing in Welsh
+plosives may answer the question whether this feature alone is enough to distinguish between
+the minimal pairs of sounds resulting from laryngeal contrast. If it were, it would provide
+phonetic evidence for a phonological voiced-voiceless distinction, but previous phonetic
+analyses of Welsh consonants such as Ball (1984) and Asmus and Grawunder (2017) suggest
+that the influence of phonetic voicing, especially word-finally, is incidental at the most.
+      The second feature, i.e. aspiration may generally be defined as ‘a period of voiceless
+breathing’, that follows an obstruent (Stevens 1998: 451; Trask 1996: 36). As far as experimental
+phonetics is concerned, aspiration manifests itself as friction following the release of a plosive.
+It is closely connected with the voice-onset time (abbreviated to VOT), i.e. the time between the
+release of the plosive to the beginning of modal voicing signifying a vowel. Ladefoged and
+Maddieson (1996: 45) argue that languages make use of three modal possibilities, namely,
+voiced, voiceless unaspirated and voiceless aspirated. When VOT equals zero or is very short,
+it normally means that a sound is an unaspirated voiceless plosive. Long, positive VOT may
+indicate an aspirated voiceless plosive and a negative VOT suggests that voicing starts before
+the release of the closure, a feature characteristic of voiced unaspirated plosives.10 Aspiration,
+
+   Welsh for the sound of a pig (I would like to thank Prifardd Meirion MacIntyre Huws for this information).
+   More examples could be listed for Welsh (see also Asmus and Grawunder at
+   https://www.academia.edu/33509077/Language_structuring_consonant_mutation_s_in_Welsh_and_Irish).
+   However, the /s/ - /h/ contrast is fully phonologically productive in other Insular Celtic language, i.e. Irish. All
+   in all, it makes good sense to include this contrast in our investigation.
+10
+   In some language, e.g. Polish, phrase or sentence initial voiced plosives are always pre-voiced, i.e. vocal folds
+   vibration begins during the hold phase, a few tens of milliseconds before the closure is released (Sobkowiak
+   2004).
+S. Asmus, S. Jaworski, M. Baran / Linguistics Beyond And Within 6 (2020), 5-16                      9
+
+
+together with general articulation length, is seen to have been decisive for the distinction
+between the radical fortis plosives, lenited fortis plosives and radical lenis plosives observable
+in Old and Middle Welsh before the lenited fortis plosives blended with the radical lenis ones
+forming the consonant system known from Modern Welsh (van Sluis 2019: 75).
+     The plosive sounds of the Welsh language, despite being assigned to either the lenis or fortis
+category, do not fall neatly into the pattern as they are aspirated, irrespective of the group they
+belong to. As a consequence, the fortis-lenis dichotomy in Welsh appears to be a combination
+of two factors, namely, aspiration and voicing. As for the former, the amount of aspiration
+following the Welsh plosives, as in other languages, e.g. English, is closely related to their place
+of articulation, with the velars being followed by the longest and the bilabials by the shortest
+period of aspiration. The latter feature is superimposed on aspiration to a varying degree, with
+the lenis plosives having typically more voicing than the fortis ones.
+     To illustrate the point, a lenis plosive, pronounced in the word dŵr ‘water’, is depicted in
+Figure 1. The second half of the 25-millisecond aspiration period is voiced as indicated by the
+pulses of vocal fold activity. In the case of /b/ and /d/, it is not uncommon for voicing to be
+present not only throughout the aspiration, but also during the preceding hold phase.
+
+
+
+
+Figure 1: Partially voiced period of aspiration in the word dŵr ‘water’
+
+      By contrast, fortis plosives are characterised by considerably longer aspiration periods,
+which tend to be voiced to a much lesser extent than those of lenis plosives. As illustrated in
+Figure 2, the period of aspiration of the /t/ plosive is 186 ms long, the last 17 ms of which is
+voiced. Although the voiced section of aspiration is slightly longer than that of dŵr (cf. Figure
+1), it constitutes less than 10% of the total duration of the aspiration period. Since the Welsh
+lenis and fortis plosives differ with respect to the amount of aspiration they are followed by, as
+well as in regard to the duration of the voiced section of the aspiration noise, it is hypothesised
+in this work that both aspiration and voicing constitute crucial features underlying the fortis
+and lenis series.
+      The third factor under review is the hold phase, also called approach. It is sometimes
+claimed that in citation forms or after a pause, /p, t, k/ feature a longer hold phase than /b, d, g/,
+but the differences are not evident in connected speech (Ogden 2009: 98). Hold phase duration
+is here seen as one of the articulatory timing features and as such seems to be worth measuring
+because of the apparent vowel-coda duration dependence discovered by Asmus and Grawunder
+(2017). Recording statistically relevant differences in hold phase duration between the fortis
+and lenis series could suggest that length and articulatory timing are decisive in the fortis-lenis
+distinction.
+S. Asmus, S. Jaworski, M. Baran / Linguistics Beyond And Within 6 (2020), 5-16                  10
+
+
+
+
+Figure 2: Partially voiced period of aspiration in the word tir ‘land’
+
+     The last phonetic factor under review is centre of gravity of aspiration noise (henceforth
+CoG). This parameter can be thought of as the average frequency of aperiodic noise in a
+spectrum, which is correlated with the place of articulation of a fricative consonant (Ladefoged
+and Maddieson 1996; Stevens 1998). In general terms, the energy of front fricatives tends to be
+concentrated at higher frequencies than that of back ones. The burst release of a plosive consists
+of a certain amount of noise, which can be analysed in the same way as fricative sounds. If the
+CoG values of the aspiration noise following the Welsh plosives turn out to be significant, they
+might be considered as a potential phonetic factor that distinguishes between the lenis and fortis
+plosives.
+
+
+3. The study
+
+
+3.1. The objectives
+
+As mentioned above, the objective of this study is to determine whether the four phonetic
+factors: aspiration, voicing, articulatory timing/hold phase duration and CoG contribute to the
+phonological fortis-lenis distinction in the case of the Welsh plosives. If so, the results will
+indicate that the voiced-voiceless distinction is inappropriate for the Welsh plosives and that
+the fortis-lenis divide appears to be phonologically distinctive and language-structuring.
+
+
+3.2. The participants and methodology
+
+In order to achieve the objectives of the study, we conducted an acoustic analysis of the Welsh
+plosives, i.e. /p, b, t, d, k, g/ produced in a reading task by 31 native speakers, male and female
+aged 19–71, from North and South Wales, who use their language at home and at work. The
+analysis was undertaken both in the onset and coda of monosyllabic native lexemes currently
+in use. The lexemes were taken from previous corpora of native vocabulary (Asmus and
+Grawunder 2017), but further amended by adding additional lexical items. An occasional
+English loan word was used as a control item. The tokens were then placed in the carrier phrase
+S. Asmus, S. Jaworski, M. Baran / Linguistics Beyond And Within 6 (2020), 5-16                                        11
+
+
+Dw i heb ddweud X ond Y! [I didn’t say X but Y]11 and were ordered in a way that every lexeme
+appears in the recording twice in a strong and twice in a weak prosodic position, with X being
+weak and Y being strong.12 Selected native lexemes were also recorded in randomly chosen short
+sentences used as distractors. By so doing, we managed to record the same number of tokens of
+each plosive occurring in the same phonological context, which makes statistical analyses more
+reliable. The target items were subsequently examined with the help of the Praat software
+(version 5.3.85).
+      As regards the exact physical properties of the target sounds, the following features were
+measured: (i) the hold phase of word-final plosives,13 (ii) the duration of the aspiration phase,
+(iii) the duration of the voicing phase that overlaps aspiration, (iv) the duration of the voiced
+part of the hold phase and (v) centre of gravity for the friction following the release of a plosive.
+With respect to aspiration, we define it is a period of friction extending from the release of a
+plosive to the onset of modal voicing. In the case of Welsh lenis plosives, the presence of friction
+following release is an indicator of aspiration. It is also assumed that friction following an initial
+lenis plosive may be partially voiced. Therefore, both parameters were measured in order to
+establish whether their relative durations distinguish fortis plosives from their lenis
+counterparts.
+      The collected data were subjected to a statistical analysis by means of a mixed-design
+ANOVA, which takes into consideration the influence of random effects, i.e. factors in an
+experimental design that are selected from a large population of potential samples rather than
+deliberately arranged by the researcher. In the case of this study, the random effects include the
+speakers and the phonological contexts in which the target sounds occur.
+
+
+3.3. Results
+
+As assumed above, the results of the analyses strongly suggest that the fortis-lenis dichotomy in
+Welsh is a function of the aspiration-voicing combination. In word-initial position, the lenis
+plosives /b, d, g/ seem to follow the pattern found in other languages (Ladefoged and Maddieson
+1996). In word-final position, however, where aspiration of lenis plosives is cross-linguistically
+uncommon, the same duration pattern was formed, with /g/ followed by the longest and /b/ by
+the shortest period of aspiration (see Table 1 and Table 2). Periods of aspiration in the Welsh
+initial lenis plosives tend to be partially voiced, as shown in Figure 1 above. In the case of /b/
+and /d/, it is not uncommon for voicing to be present not only throughout the aspiration, but
+also during the preceding hold phase. 14
+
+
+
+11
+   Literally, ‘I am without say(ing) X, but Y’.
+12
+   Based on the analysis of their recordings, Grawunder, Asmus and Anderson (2015) found out that the second
+   position in the carrier sentence attracts stronger prosodic prominence.
+13
+   The duration of the hold phase of word-initial plosives was not determined as the informants would frequently
+   make a short pause before producing a target word, which made accurate measurements impossible.
+14
+   The lack of hold phase duration data for initial plosives is due to the fact that, in numerous cases, the participants
+   hesitated before pronouncing a target word, which made it impossible to measure the length of the hold phase
+   with an acceptable degree of accuracy.
+S. Asmus, S. Jaworski, M. Baran / Linguistics Beyond And Within 6 (2020), 5-16                        12
+
+
+Table 1: Average durations (in ms) of hold phases (HP), periods of aspiration (A) and periods of voicing
+of lenis plosives /b, d, g/ in prosodically weak position
+
+                             Weak initial                               Weak final
+                          A                 V              HP               V                 A
+        b               17.3               9.5             74.6            22.7              47.3
+                       (± 3.1)           (± 2.5)         (± 13.7)         (± 7.8)          (± 18.6)
+        d                21.8             13.7             83.4            29.4              56.6
+                      (± 4.64)           (± 3.1)         (± 14.2)         (± 6.3)          (± 17.1)
+        g                33.4             17.1             97.3            40.1              66.2
+                       (± 5.1)           (± 4.4)         (± 15.6)         (± 7.2)          (± 17.9)
+        p                90.3             14.2            157.3            24.6              82.4
+                      (± 16.6)           (± 2.2)         (± 20.2)         (± 5.9)          (± 19.4)
+        t               113.4             16.9            177.8            19.2              96.9
+                      (± 20.7)           (± 3.3)         (± 26.4)         (± 6.8)          (± 22.5)
+        k               138.6             13.8            195.7            17.3             120.1
+                      (± 25.8)           (± 3.1)         (± 34.4)         (± 2.7)          (± 28.8)
+
+Table 2: Average durations (in ms) of hold phases (HP), periods of aspiration (A) and periods of voicing
+of lenis plosives /b, d, g/ in prosodically strong position
+
+                            Strong initial                              Strong final
+                          A                V               HP               V                 A
+        b               19.9              11.3             96.2            21.2              66.8
+                       (± 3.1)           (± 2.8)         (± 28.9)         (± 5.3)          (± 25.4)
+        d                22.8             12.1            109.5            20.4              89.6
+                       (± 4.2)           (± 2.5)         (± 38.7)         (± 4.6)          (± 19.7)
+        g                33.4             13.8            123.3            22.1              95.9
+                       (± 3.7)           (± 3.6)         (± 42.2)         (± 3.9)          (± 22.3)
+        p               117.6             13.4            208.2            17.4             119.6
+                      (± 24.5)           (± 2.6)         (± 39.8)         (± 3.1)          (± 27.7)
+        t               129.3             12.2            203.6            13.4             124.7
+                      (± 34.6)           (± 2.1)         (± 46.3)         (± 2.4)          (± 39.4)
+        k               148.2             13.5            226.9            16.1             142.6
+                      (± 41.4)           (± 1.9)         (± 49.5)         (± 2.6)          (± 40.8)
+
+     There is speaker-specific variation regarding the amount of aspiration. Predictably, the
+speaker effect turned out to be significant (p < .0001). It is worth pointing out that the Welsh
+lenis plosives have considerably more aspiration than voiced plosives in non-aspiration
+languages, e.g. (Sobkowiak 2004), Polish, but also in English (Ladefoged and Maddieson 1996).
+The difference seems to relate to the amount of friction noise, which includes intensity and/or
+duration, following the release; an aspect that will be further investigated in a different study.
+     With respect to the final lenis plosives, they are regularly aspirated to a greater extent than
+initial ones. Importantly, the aspiration noise is never voiced, yet a certain amount of voicing
+may occur in the hold phase (cf. Asmus and Grawunder 2017). The amount of aspiration
+following final /b, d, g/ forms the same pattern as in initial position.
+     By comparison, the fortis plosives /p, t, k/ are characterised by significantly longer periods
+of aspiration and relatively shorter periods of voicing in the hold phase. In the case of the hold
+phase, the differences are highly significant, regardless of the place articulation of plosive
+S. Asmus, S. Jaworski, M. Baran / Linguistics Beyond And Within 6 (2020), 5-16                    13
+
+
+(p<.00001). The data in Table 1 and Table 2 indicate that this finding refers to both prosodic
+positions investigated in this study.
+      The analysis of the CoG values of the aspiration noise following the Welsh plosives
+produced inconclusive results. Cross-linguistically speaking, the CoG values, falling within the
+2,400–3,700 Hz range, tend to be much lower than those obtained for sibilant fricatives
+produced in various places of articulation (Stevens 1998; Żygis et al. 2015). What is more, in the
+study conducted by Wallin and Koffi (2017), which focuses on whispered speech, the CoG
+values for the non-sibilant fricatives [f], [v], [θ], [ð] are much lower than those of the sibilants
+[s], [z], [ʃ], [ʒ]. Thus, the findings strongly suggest that the aspiration friction that follows the
+Welsh plosives is generated at the glottis.
+
+
+
+
+Figure 3: Mean CoG values of aspiration noise following the Welsh plosives
+
+     When the place of articulation is taken as a variable, the data presented in Figure 3 form a
+pattern inconsistent with what has been established regarding the relationship between the
+place of articulation of a plosive and its CoG. For both the lenis and fortis series, the mean CoG’s
+of the aspiration following the velars are lower than in the case of alveolars, while the aspiration
+following the bilabials has the lowest CoG values. The differences between the velars and
+alveolars, as well bilabials and alveolars, turned out to be statistically significant (p<.05),
+whereas those between the velars and bilabials did not reach the level of statistical significance
+(p>.05).
+     Somewhat surprising are the data relating to the fortis-lenis pairs produced in the same
+place of articulation. The general impression is that the friction that follows the lenis plosives
+has a higher CoG than that of its fortis counterpart. In our study, this rule holds for the bilabials
+and velars, with statistically significant differences between the lenis and fortis segments. As for
+the alveolars, the CoG of the aspiration following /d/ is lower than that of /t/, yet the difference
+did not appear to be significant in terms of statistics (p=0.1259).
+S. Asmus, S. Jaworski, M. Baran / Linguistics Beyond And Within 6 (2020), 5-16                                    14
+
+
+4. Conclusion
+
+The authors of this paper claim that the fortis-lenis distinction is more appropriate to describe
+the phonological system of Welsh than the voiced-voiceless one, at least when looking at Welsh
+plosives. The claim is based on previous research, e.g. into basic phonetic processes at work in
+the Welsh mICM system, the correlation between the length of simplex coda consonants and
+preceding vowels in Welsh monosyllables and minimal pairs in the language, which cannot be
+explained by a voice-voiceless distinction.
+     This research was continued and supplemented by an investigation into specific features of
+Welsh consonants, which promised to prove our claim, because, ideally, the proposed
+consonant distinction should be identified by a set of phonetic correlates in order to be seen as
+separate from the voiced-voiceless distinction. Supported by a literature review, four phonetic
+correlates, namely, aspiration, voicing, hold phase duration and centre of gravity, were selected
+for this analysis.
+     The collected data point to the conclusion that both voicing and aspiration contribute to
+differentiating between fortis and lenis plosives. The period of aspiration following the lenis
+plosives is significantly shorter than that of their fortis counterparts in both word-initial and
+word-final position, while the differences in voicing do not form a consistent pattern. Also, the
+ratio between the length of the voiced period of aspiration and its total duration is significantly
+higher in the case of /b, d, g/. A similar relationship can also be established in word-final
+position, where the voiced part of the hold phase of the lenis plosives appears to be relatively
+longer than that of fortis /p, t, k/. Fortis plosives were found to have significantly longer hold
+phases than their lenis counterparts (see Tables 1 and 2). These findings agree to a considerable
+extent with data reported by Ball (1984), Jones (1984), Ball and Williams (2001), Morris and
+Hejná (2019) and Iosad (forthcoming). However, we think the data form a basis for seeing the
+fortis-lenis distinction from a wider perspective, not restricted to accounting for aspiration in
+plosives.
+     In brief, the acoustic investigation of the first two phonetic features, i.e. aspiration and
+voicing, offers promising phonetic evidence for a potentially phonological fortis-lenis divide as
+indicated by grammatical and semantic patterns. The effects of aspiration and voicing
+contribute to our claim that Welsh should be classified as a fortis-lenis language rather than a
+voiced-voiceless one, in particular when considering the general articulation length of Welsh
+simplex codas and the devoicing of lenis codas (Asmus and Grawunder 2017). What is more,
+general articulatory length (hold phase and aspiration) forms a pattern similar to that described
+by van Sluis (2019) for Old and Middle Welsh.
+     With regard to the CoG data collected for the purposes of the study, they seem to be
+inconclusive, yet they indicate that the aspiration noise following a plosive is generated at the
+glottis. Somewhat surprisingly, however, the fortis plosives, with the exception of /t/, are
+followed by friction whose CoG is lower than that of their lenis counterparts.15 For this reason,
+
+
+
+15
+     In the study by Wallis and Koffi (2017), [v] has a higher CoG than [f], while the CoG of [θ] is higher than that
+     of [ð]. In the case of sibilants, the value of CoG is always higher in the case of voiceless fricatives.
+S. Asmus, S. Jaworski, M. Baran / Linguistics Beyond And Within 6 (2020), 5-16                                    15
+
+
+the data must be treated with caution and can only be regarded as one of the potential phonetic
+criteria that differentiate between lenis and fortis plosives.
+
+
+References
+
+Asmus, S., and S. Grawunder. 2018. Language-structuring consonant mutation(s) in Welsh (and Irish). Retrieved
+      from
+      https://www.academia.edu/33509077/Language_structuring_consonant_mutation_s_in_Welsh_and_Irish,
+      Accessed at 2020-10-04)
+Asmus, S., and S. Grawunder. 2017. Vowel length in Welsh monosyllables, its interrelation with Irish and related
+      problems. Lewiston: Edwin Mellen Press.
+Asmus, S., Jaworski, S., and M. Baran. 2019. Fortis-lenis or voiced-voiceless – Features of Welsh consonants. In S.
+      Calhoun, P. Escudero, M. Tabain and P. Warren (eds.), Proceedings of the 19th International Congress of
+      Phonetic Sciences, Melbourne, Australia 2019, 3773–3776. Canberra: Australasian Speech Science and
+      Technology Association Inc.
+Ball, M. J., and J. Fife. 2002. The Celtic languages. London: Routledge.
+Ball, M. J., and N. Müller. 2016. Sonority and initial consonant mutation in the Celtic languages. In M. J. Ball, and
+      N. Müller (eds.), Challenging sonority. Cross-linguistic evidence, 276–294. Sheffield: Equinox.
+Ball, M. J., and N. Müller. 2019. Sonority and initial consonant mutation in Modern Celtic. In M. Bloch-Trojnar
+      and M. Ó Fionnáin (eds.), Centres and peripheries in Celtic linguistics, 11–26. Bern: Peter Lang.
+Ball, M. J. 1984. Phonetics for phonology. In M. J. Ball and G. E. Jones (eds.), Welsh phonology. Selected readings,
+      5–39. Cardiff: University of Wales Press.
+Ball, M. J. and B. Williams. 2001. Welsh phonetics. Lewiston: The Edwin Mellen Press.
+Baran, M., and S. Asmus. 2019. A new perspective on Welsh and Irish consonant mutations. In S. Asmus, and K.
+      Jaworska-Biskup (eds), New perspectives of Modern Wales – Studies in Welsh language, literature and social
+      politics, 157–177. Cambridge: Cambridge Scholars Publishing.
+Bednarska, K. 2016. Quantity in Breton and Welsh. Lublin: KUL.
+Carr, P. 2008. A glossary of phonology. Oxford: Blackwell.
+Chang, Ch. 2007. Korean fricatives: Production, perception, and laryngeal typology. UC Berkeley Phonology Lab
+      Annual Report (2007): 20–70.
+Cruttenden, A. 1996. Gimson’s pronunciation of English. Oxon: Routledge.
+Davenport, M., and S. J. Hannahs. 2005. Introducing phonetics and phonology. Oxon: Routledge.
+GPC Online. University of Wales Centre for Advanced Welsh and Celtic Studies. http://www.geiriadur.ac.uk.
+Gussmann, E. 2007. The Phonology of Polish. Oxford: Oxford University Press.
+Grawunder, S., Asmus, S., and C. Anderson. 2015. On the correlation of acoustic vowel and coda duration in
+      Modern Welsh C(C)VC monosyllables. In M. Wolters, J. Livingstone, B. Beattie, R. Smith, M. MacMahon, J.
+      Stuart-Smith, and J. Scobbie (eds.), Proceedings of the 18th International Congress of Phonetic Sciences, 1–5.
+      London: The International Phonetic Association.
+Hannahs, S. J. 2013. The phonology of Welsh. Oxford: Oxford University Press.
+Honeybone, P. 2005. Diachronic evidence in segmental phonology: the case of obstruent laryngeal specifications.
+      In M. van Oostendorp, and J. van de J. Weijer (eds.), The internal organization of phonological segments, 319–
+      354. Berlin: Mouton de Gruyter.
+Hualde, J. I. 2005. The sounds of Spanish. New York: Cambridge University Press.
+Iosad, P. Forthcoming. The ATR/Laryngeal connection and emergent features. Submitted to B. Botma, and M. van
+      Oostendorp (eds.), Primitives of phonological structure.
+Jackson, K. H. 1953. Language and history in Early Britain. Harvard University Press.
+Jaworski, S., and S. Asmus. 2018. An acoustic study of Welsh and Slavonic rhotics. Studia Celto-Slavica 9: 95–120.
+Jaeger, J. J. 1983. The fortis/lenis question: evidence from Zapotec and Jawoñ. Journal of Phonetics 11: 177–189.
+Jones, G. E. 1984. The distinctive vowels and consonants of Welsh. In M. J. Ball and G. E. Jones (eds.), Welsh
+      phonology. Selected readings, 40–64. Cardiff: University of Wales Press.
+S. Asmus, S. Jaworski, M. Baran / Linguistics Beyond And Within 6 (2020), 5-16                                      16
+
+
+Jones, M.V. 2004. Jaci Soch. Aberystwyth: Cymdeithas Lyfrau Ceredigion.
+Kiparski, P. 2006. The Amphichronic Program vs. Evolutionary Phonology. Theoretical Linguistics 32(2): 217–236.
+Ladefoged, P. 1975. A course in phonetics. New York: Harcourt Brace Jovanovich.
+Ladefoged, P., and I. Maddieson. 1996. The sounds of the world’s languages. Oxford: Blackwell Publishers.
+Maddieson, I. 2013. Voicing in plosives and fricatives. In M. S. Dryer, and M. Haspelmath (eds.), The world atlas
+     of language structures online. Leipzig: Max Planck Institute for Evolutionary Anthropology. (Available online
+     at http://wals.info, Accessed on 2020-11-17.)
+Mayo, P. J. 1996. A grammar of Byelorussian. Sheffield: University of Sheffield.
+Morris, J., and M. Hejná. 2019. Pre-aspiration in Bethesda Welsh: A sociophonetic analysis. Journal of the
+     International Phonetic Association 50(2): 1–25.
+Ogden, R. 2009. An introduction to English phonetics. Edinburgh: Edinburgh University Press.
+Penny, R. 2000. Variation and change in Spanish. Cambridge: Cambridge University Press.
+Shevelov, G. 1993. Ukrainian. In B. Comrie, and G. G. Corbett (eds.), The Slavonic Languages. 947–997. London,
+     New York: Routledge.
+Sawicka, I. 1995. Fonologia. Gramatyka współczesnego języka polskiego. Vol. 3. Fonetyka i fonologia. 105–195. [The
+     grammar of the contemporary Polish language. Vol. 3. Phonetics and phonology.]
+Sobkowiak, W. 2004. English phonetics for Poles. Poznań: Wydawnictwo Poznańskie.
+Stevens, K. 1998. Acoustic phonetics. Cambridge, MA: MIT Press.
+van Sluis, S. 2019. Lenited voiceless stops in Middle Welsh: Phonology and orthography. Ph.D. diss. Cardiff:
+     University of Wales.
+Trask, R. L. 1996. A dictionary of phonetics and phonology. Oxon: Routledge.
+Wallin, J. and E. Koffi. 2017. The acoustic correlates of fricatives in whispered speech. Linguistic Portfolios 6: 101–
+     108.
+Żygis, M, Pape, D., Jesus, L., and M. Jaskuła. 2015. The effects of intonation on acoustic properties of fricatives. In
+     M. Wolters, J. Livingstone, B. Beattie, R. Smith, M. MacMahon, J. Stuart-Smith, and J. Scobbie (eds.),
+     Proceedings of the 18th International Congress of Phonetic Sciences. 1–5. London: The International Phonetic
+     Association.
+                                                 [do not delete]
+

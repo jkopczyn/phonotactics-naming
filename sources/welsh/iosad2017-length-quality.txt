@@ -1,0 +1,3663 @@
+Edinburgh Research Explorer
+
+The phonologization of redundancy
+Length and quality in Welsh vowels
+
+
+Citation for published version:
+Iosad, P 2017, 'The phonologization of redundancy: Length and quality in Welsh vowels', Phonology, vol.
+34, no. 1, pp. 121-162. https://doi.org/10.1017/S0952675717000057
+
+
+
+Digital Object Identifier (DOI):
+10.1017/S0952675717000057
+
+
+Link:
+Link to publication record in Edinburgh Research Explorer
+
+
+Document Version:
+Peer reviewed version
+
+
+
+Published In:
+Phonology
+
+
+Publisher Rights Statement:
+This article has been published in a revised form in Phonology
+DOI: https://doi.org/10.1017/S0952675717000057. This version is free to view and download for private
+research and study only. Not for re-distribution, re-sale or use in derivative works. © copyright holder.
+
+
+
+
+General rights
+Copyright for the publications made accessible via the Edinburgh Research Explorer is retained by the author(s)
+and / or other copyright owners and it is a condition of accessing these publications that users recognise and
+abide by the legal requirements associated with these rights.
+
+
+Take down policy
+The University of Edinburgh has made every reasonable effort to ensure that Edinburgh Research Explorer
+content complies with UK legislation. If you believe that the public display of this file breaches copyright please
+contact openaccess@ed.ac.uk providing details, and we will remove access to the work immediately and
+investigate your claim.
+
+
+
+
+Download date: 25. Aug. 2026
+                    The phonologization of redundancy
+                         Length and quality in Welsh vowels*
+
+                                              Pavel Iosad
+
+                                         1st November 2016
+
+
+
+                                                 Abstract
+
+
+          ‘Phonologization’ is a process whereby a phonetic phenomenon enters the phonolo-
+      gical grammar and becomes conceptualized as the result of categorical manipulation of
+      phonological symbols. I analyse the phonologization of a predictable phonological pat-
+      tern in Welsh, with particular attention to identifying criteria for whether phonologiza-
+      tion has occurred. I argue for a model where phonologization experiences bottom-up
+      and top-down biases. From the bottom up, there is pressure to phonologize phenom-
+      ena with a categorical distribution; from the top down, there exist formal constraints
+      on featural speciﬁcation. I focus on the requirement for featural speciﬁcations to obey
+      the Contrastivist Hypothesis, which denies that redundant features can be involved in
+      phonological computation, in the context of a framework with emergent features. I sug-
+      gest that the Contrastivist Hypothesis acts as a useful check for emergent-feature theor-
+      ies, whilst independent phonologization criteria provide contrastivist approaches with
+      a more solid conceptual underpinning.
+    *Portions of this paper were presented at the 1st Edinburgh Symposium on Historical Phonology, the Edin-
+burgh P-workshop, GLOW workshop Phonological Speciﬁcation and Interface Interpretation (Brussels), the 8th
+North American Phonology Conference (Montreal), the 21st and 22nd Welsh Linguistics Seminars (Gregynog),
+the 1st Conference on Linguistic Diversity in Wales (Aberystwyth), and the 24th Manchester Phonology Meet-
+ing. Thanks to the audiences at these forums for questions and comments, particularly Gwen Awbery, Ricardo
+Bermúdez-Otero, Josef Fruehwald, Daniel Currie Hall, and Michaela Hejná. For help with ﬁeldwork, thanks to
+Christine Jones and Mererid Hopwood (University of Wales Trinity Saint David) and Diarmuid Johnson (Menter
+Rhos-y-Gilwen). At Phonology, a huge thanks to three anonymous reviewers, an anonymous associate editor,
+Ellen Kaisse, and Colin Ewen for numerous questions and suggestions that have immeasurably improved the
+paper. All errors of fact or interpretation remain entirely mine.
+
+
+
+                                                     1
+1      Introduction: contrast, predictability and phonologization
+
+This paper explores the relationship between contrast, interpreted as the absence of redund-
+
+ant information from phonological representations, and the phonologization of predictable
+
+properties. I argue that although phonologization via the life cycle of phonological processes
+
+introduces predictable information into phonological representation, this fact is compatible
+
+with a version of the Contrastivist Hypothesis (Hall 2007, Dresher 2009), which requires re-
+
+dundant features to be absent from the phonology. To demonstrate the viability of such a
+
+framework, I oﬀer a case study involving mutually predictable distribution, where standard
+
+criteria fail to unequivocally identify a ‘contrastive’ phonological property. I address the fol-
+
+lowing three questions:
+
+
+      • Can mutually predictable distribution of phonological speciﬁcations be reconciled
+
+       with the Contrastivist Hypothesis?
+
+      • How can we establish that a distinction is accessible to the phonology as a featural
+
+       speciﬁcation, and hence subject to contrastivist restrictions?
+
+      • Can the Contrastivist Hypothesis be reconciled with the process of phonologization
+
+       introducing redundant information into the phonology?
+
+
+1.1     The Contrastivist Hypothesis and its discontents
+
+Our starting point is the Contrastivist Hypothesis, formulated as follows by (Hall 2007: 20):
+
+‘The phonological component of a language L operates only on those features which are ne-
+
+cessary to distinguish the phonemes of L from one another.’ As charted by Dresher (2009),
+
+this principle was historically important in structuralist phonology, but downgraded by
+
+many (though not all) currents of generative phonological theory. More recently years it has
+
+again attracted the attention of phonologists, notably those working within the ‘Toronto
+
+school’ (e. g. Dresher, Piggott & Rice 1994, Dresher 2009, Hall 2007, Cowper & Hall 2014,
+
+Mackenzie 2013).
+
+
+
+
+                                               2
+   Under the version of the Contrastivist Hypothesis given above, contrastiveness is deﬁned
+
+over phonemes as understood in generative phonology, that is segments found in underlying
+
+representations in a language. Kiparsky (2017) calls them ‘m-phonemes’ (for ‘morphophon-
+
+emes’) — a usage that I adopt here. Hence, establishing whether a feature is ‘contrastive’ in
+
+the language can be non-trivial, since the set of m-phonemes can only be discovered through
+
+careful analysis.
+
+   Disagreements over such analysis are frequent in cases of mutually predictable distribu-
+
+tion, where two apparently distinct phonological properties are coextensive in surface rep-
+
+resentations. Both properties are candidates for being contrastive (and thus available to the
+
+phonological grammar), but under strict contrastivist assumptions one of them must be re-
+
+dundant. The problem for contrastivist approaches is that this choice must be made, but it
+
+appears to be vacuous and forced only by theoretical considerations, since the data seem
+
+equally compatible with either solution.
+
+   I consider a case of mutually predictable distribution in Welsh, focusing on vowel quant-
+
+ity and quality. As in familiar languages like English and German, Welsh vowels can be di-
+
+vided into two classes simultaneously diﬀering in quantity and ‘tense’/‘lax’ quality. The ana-
+
+lysis of these systems is controversial: some scholars view the contrast as primarily one of
+
+length (e. g. Durand 2005), others see the quality distinction as primary (e. g. Harris 1994);
+
+yet others subsume the diﬀerence under ‘syllable cut’ (e. g. Botma & van Oostendorp 2012).
+
+   I focus on dialectal diversity in Welsh vowel systems and concentrate in particular on
+
+south-western varieties, where, according to previous descriptions, vowel quantity and qual-
+
+ity have diverged in ways unattested in other dialects. I report an acoustic study and argue
+
+that in these varieties quality must be represented in the phonology separately from the
+
+length. I argue that this is consistent with a view of phonologization where the extraction of
+
+phonological patterns proceeds bottom-up, on the basis of categoricity in the ambient data,
+
+but the precise characterization of the resulting phenomena in terms of distinctive features
+
+is driven at least partly by top-down contrastivist pressures.
+
+
+
+
+                                              3
+1.2     Establishing the criteria
+
+Being able to verify or falsify a theory that allows for manipulation of predictable informa-
+
+tion by the phonology requires criteria to establish whether a phenomenon falls within the
+
+purview of phonological grammar. It is common to ascribe ‘gradient’ phenomena to ‘phon-
+
+etics’ and to take categoricity of distribution as a sign of phonologization (e. g. Myers 2000).
+
+However, this approach can be problematic. Even classifying phonological phenomena as
+
+‘categorical’ or ‘gradient’ is not trivial (Strycharczuk 2012).
+
+      In this paper, I argue that the phonological status of a pattern should be determined
+
+with reference to criteria of modularity (e. g. Scheer 2010, Bermúdez-Otero 2012), which
+
+requires that the ﬂow of information between grammatical modules be restricted. I focus
+
+on representational incommensurability between modules. Speciﬁcally, some kinds of ob-
+
+jects are proprietary to ‘their’ module: for phonology, examples are featural speciﬁcations,
+
+autosegmental association lines, metrical constituency, etc. Under this approach, if a pat-
+
+tern makes crucial reference to such proprietary phonological information, it must also be
+
+phonological, because only computation inside the phonological module can access such
+
+phonology-internal information.
+
+      Using this criterion, we can establish if a pattern is within the scope of phonological
+
+grammar and thus, ideally, contrastivist restrictions. The Contrastivist Hypothesis can be
+
+reframed as follows:
+
+
+      • If P is the set of patterns that can be established as phonological in language L; and
+
+      • If PH is the set of phonemes in L; and
+
+      • If F is the set of features necessary to distinguish the phonemes of PH; then
+
+      • No pattern in P makes crucial reference to features that are not in F.
+
+
+      Assuming that we can establish the extent of P and PH using the modularity criteria sug-
+
+gested above — as I will exemplify in this paper — the content and correctness of the con-
+
+trastivist hypothesis turn on the understanding of ‘necessity’ in the deﬁnition of the set F. In
+
+
+
+                                                 4
+this paper I argue that contentful predictions can indeed be made, if it is understood with
+
+reference to a contrastive hierarchy of distinctive features (Dresher 2009).
+
+
+1.3     Phonologization and redundancy
+
+Another problem, directly relevant to the issue of phonologization, is the determination of
+
+PH, the set of relevant ‘phonemes’. Kiparsky (2017) calls segments posed by the analyst for
+
+underlying representations ‘m-phonemes’ (‘morphophonemes’), and contrastivists in the
+
+generative tradition have usually concentrated on this m-phonemic level. Kiparsky (2017),
+
+however, suggests distinguishing between m-phonemes and ‘l-phonemes’, for ‘lexical phon-
+
+emes’: segments produced by phonological grammar at the lexical level (word-level phono-
+
+logy) in a stratal framework that builds on the insights of Lexical Phonology. Kiparsky (2017)
+
+argues that typological and theoretical generalizations such as those concerning the struc-
+
+ture of inventories or historical change should properly refer to this l-phonemic level. Cru-
+
+cially, he argues, the l-phonemic level may contain predictable information such as redund-
+
+ant feature speciﬁcations, if it is introduced by phonological computation at the lexical level.
+
+Hence, this framework appears incompatible with the Contrastivist Hypothesis.
+
+      The presence of redundant information in the phonological computation is only to be
+
+expected if the source of phonological patterns lies in the life cycle of phonological patterns,
+
+and speciﬁcally within the process of phonologization (Hyman 1976, 2013, Kiparsky 2015).
+
+This term is commonly used to describe a linguistic change whereby a phenomenon previ-
+
+ously construed as ‘phonetic’ enters the purview of phonological grammar. Phonetic pro-
+
+cesses give predictable (if stochastic) outcomes. Therefore, the system immediately after
+
+phonologization is likely to have the new symbols standing in predictable distributions.
+
+‘New’ phonological patterns will therefore tend to be allophonic, potentially reducing the
+
+scope for positing an m-phonemic contrast that could justify the phonological involvement
+
+of the relevant feature under contrastivist assumptions.
+
+      There is a tension between the Contrastivist Hypothesis and the study of phonologiza-
+
+tion, because contrastivist approaches privilege ‘top-down’ information about contrast and
+
+morphophonological patterning, whilst models of phonologization recognize the important
+
+
+                                               5
+role of ‘bottom-up’ information. Under contrastivist assumptions, the evidence for the ex-
+
+istence of a phonological segment and its representational make-up comes from categorical
+
+information, such as the structure of the inventory and the segment’s morphophonological
+
+behaviour. Theories of phonologization, on the other hand, emphasize the role of variation
+
+in the speech signal, whether inherent and uncontrolled or speaker-speciﬁc.
+
+    A third argument in this paper is that this tension can be resolved in a framework where
+
+phonological features are categorical and assigned on the basis of contrastivist reasoning,
+
+but emergent and phonetically arbitrary (‘substance-free’). This makes it possible to con-
+
+struct an adequate theory of phonologization that takes the speech signal as its starting
+
+point. In this framework, contrastivist assumptions serve both to capture the existence of
+
+top-down, featurally implemented biases in phonologization, and to restrict the set of pos-
+
+sible speciﬁcations one could assign to a given inventory.
+
+    The remainder of this paper is structured as follows. In section 2 I review the available
+
+knowledge regarding vowel quantity and quality in dialects of Modern Welsh. Section 3
+
+presents the results of an acoustic study of a south-western variety of Welsh that has been
+
+reported to show an unusual deviation from the common Welsh system; I argue that in this
+
+variety ‘tense’/‘lax’ quality and quantity are separately represented in the phonology. In sec-
+
+tion 4 I take the criteria for phonological status developed in the course of this argument
+
+and apply them to other varieties of Welsh, showing the extent of dialect variation in feature
+
+speciﬁcations. Finally, in section 5 I reconsider the status of contrastive speciﬁcations in an
+
+emergent-feature framework and their role in phonologization.
+
+
+
+2    Vowel quantity and quality in Welsh
+
+Here I review available descriptions of vowel quantity and quality and Welsh and argue that
+
+there is good evidence for viewing quantity as a phonological distinction, speciﬁcally one
+
+expressed via suprasegmental (metrical) structure. I also review the controversies in the lit-
+
+erature around the phonemic interpretation of the Welsh vowel system.
+
+
+
+
+                                              6
+                                 Height    Front       Central   Back
+                                 High       iː ɪ        (ɨː ɨ)   uː ʊ
+                                 Mid        eː ɛ          ə      oː ɔ
+                                 Low                    aː a
+
+                              Table 1: Representative vowel inventory
+
+
+2.1     The received view
+
+A representative inventory of Welsh stressed monophthongs is shown in table 1 (Ball & Wil-
+
+liams 2001, Mayr & Davies 2011, Hannahs 2013). Some variation of this system is common
+
+throughout the Welsh-speaking region. Apart from the diﬀerences in the realization of short
+
+and long vowels, subject to discussion below, the following dialectal variations should be
+
+noted:
+
+
+      • The vowels [ɨː] and [ɨ] are found only in northern Wales;
+
+      • The vowel [ə] lacks a phonologically long counterpart;
+
+      • In many varieties there is an additional low vowel, variously a low front [æː] or a raising
+
+        and/or centralizing diphthong, considered to be an allophone of [aː].
+
+
+      Here, I concentrate on the relationship between the short and long vowels.
+
+
+2.1.1    Distribution
+
+All dialects of Welsh restrict phonologically long vowels to stressed syllables. In monosyl-
+
+lables we ﬁnd both short and long vowels.
+
+
+(1)    All dialects
+
+       a. [ˈtʰoːn]      tôn      ‘tune’
+
+       b. [ˈtʰɔn]       ton      ‘wave’
+
+      In polysyllabic words, stress overwhelmingly falls on the penult, apart from a small num-
+
+ber of native words with ﬁnal stress and a handful of borrowings with antepenultimate stress.
+
+
+
+                                                   7
+      There is a major distinction between northern and southern varieties of Welsh in the
+
+behaviour of stressed penults (Awbery 1984). In South Welsh, short and long vowels are dis-
+
+tinct in both penultimate and ﬁnal stressed syllables. However, long vowels in penultimate
+
+syllables are phonetically shorter than long vowels in ﬁnal syllables (e. g. G. E. Jones 1971),
+
+and often described as ‘half-long’.
+
+
+(2)    South Welsh
+
+       a. [ˈtʰoˑnɛ]     tonau    ‘tunes’
+
+       b. [ˈtʰɔnɛ]      tonnau ‘waves’
+
+      In North Welsh, stressed vowels are always short in penults, so the minimal pair in (2) is
+
+impossible in such varieties: both tonau and tonnau are realized as [ˈtʰɔna].
+
+      In addition to these patterns, the native lexicon of Welsh enforces restrictions on the dis-
+
+tribution of short and long stressed vowels depending on the properties of following conson-
+
+ants (Wells 1979, Awbery 1984). The restrictions in ﬁnal stressed syllables (including mono-
+
+syllables) are as follows:
+
+
+      • Short before [pʰ tʰ kʰ m ŋ];
+
+      • Long before [b d ɡ f θ χ v ð];
+
+      • Long or short before [n l r], with lexically determined distribution;
+
+      • In northern varieties, short before [s ɬ]. In the south, long before ﬁnal [s ʃ ɬ];
+
+      • Before [w j], vowels are always short in the south. In the north, they may be long in ﬁnal
+
+        stressed syllables, but the distribution is lexical;
+
+      • In the south, vowels are always short before consonant clusters. In the north, vowels
+
+        are obligatorily long before fricative-stop clusters [sp st sk ɬt ft] but obligatorily short
+
+        before other clusters.
+
+
+      In non-ﬁnal stressed syllables, vowels are always short in Northern Welsh. In the south,
+
+the distribution of length in stressed penults is very similar to that in stressed ultima, but
+
+                                                   8
+not fully identical: vowels are obligatorily short before medial [s ʃ ɬ] but long before the same
+
+consonants word-ﬁnally.
+
+      To summarize, phonologically long vowels are restricted to stressed syllables. In north-
+
+ern Welsh they are further restricted to ﬁnal stressed syllables. Vowel length in the native
+
+lexicon is largely predictable. It depends both on syllable structure (with a dispreference for
+
+long vowels in closed syllables) and on the melody of the following consonant. Most often,
+
+the length of a stressed vowel is predictable from the manner and laryngeal speciﬁcation of
+
+a following consonant, with the exception of [n l r], where the distribution is lexically condi-
+
+tioned.
+
+
+2.1.2     Phonological length and phonetic duration
+
+The phonetic correlates of the phonological distinction identiﬁed above as ‘length’ include
+
+both vowel quality and duration. First, phonologically long vowels have greater duration
+
+than phonologically short vowels (e. g. G. E. Jones 1971, Grawunder, Asmus & C. Anderson
+
+2015). As for consonant duration, descriptions of South Welsh agree that consonants after a
+
+short stressed penult are ‘half-long’ irrespective of whether the vowel is followed by a single
+
+consonant ([ˈtʰɔnˑɛ] tonnau ‘waves’), or by a consonant sequence ([ˈamˑsɛr] amser ‘time’);
+
+see e. g. A. R. Thomas 1961, Awbery 1986, C. H. Thomas 1993. The situation is less clear in
+
+North Welsh. Many sources (summarized in Hannahs 2013: §2.2.6) mention ‘gemination’ of
+
+fortis stops [pʰ tʰ kʰ] after a stressed penult, and there are scattered references to other con-
+
+sonants being lengthened in the same position. Subject to further research, it appears that
+
+the lengthening of consonants after a short stressed vowel in a penultimate syllable is uni-
+
+versal across Welsh dialects.
+
+      Similar facts obtain in stressed ultima. G. E. Jones (1984: p. 54) states that consonants are
+
+long after short vowels in this context:
+
+
+(3)    a. [ˈmanː]      man       ‘place’
+
+       b. [ˈmɑːn]      mân       ‘ﬁne, small’
+
+
+
+
+                                                  9
+(4)    a. [ˈtalː]      tal       ‘tall’
+
+       b. [ˈtɑːl]      tâl       ‘payment’
+
+      A. R. Thomas (1966) gives a similar statement for the Alyn Valley dialect (North Wales).
+
+For South Wales, the length of ﬁnal consonants after a short stressed vowel is mentioned by
+
+C. H. Thomas (1993: pp. 69–70). For North Welsh monosyllables, the claim is corroborated
+
+experimentally by Grawunder, Asmus & C. Anderson (2015).
+
+      Thus, phonological ‘length’ is reﬂected by phonetic duration, and there is also a trading
+
+relation between the duration of stressed vowels and following consonants.
+
+
+2.1.3    Length and quality
+
+Another correlate of phonological ‘length’ is vowel quality. Vowels other than [ə] (and likely
+
+[a]) come in ‘tense’ and ‘lax’ pairs: [oː] vs. [ɔ], [iː] vs. [ɪ], and so on. Such pairs pattern together,
+
+as they participate in alternations determined by the consonantal context:
+
+(5)    a. [ˈtʰeːɡ]     teg       ‘fair’
+
+       b. [ˈtʰɛkʰa]    tecaf     ‘fairest’
+
+      It is sometimes desirable to refer to such vowel pairs without prejudice to the exact real-
+
+ization; here, I adopt the useful notation from Wmﬀre 2003 using double slashes: //i//, //e//
+
+etc.
+
+      The precise quality of vowels depends on their phonological quantity and their position
+
+with respect to stress. The standard picture is as follows:
+
+   1. Non-low stressed long vowels are ‘tense’ [iː uː eː oː]. Sources diﬀer as to whether there
+
+        is a similar qualitative distinction between long and short //a//: for instance, Awbery
+
+        (1986) does not describe a diﬀerence between [a] and [aː], but G. E. Jones (1984) de-
+
+        scribes long [aː] as somewhat retracted compared to [a]. Some descriptions (e. g. C. H.
+
+        Thomas 1993, G. E. Jones 2000) use the symbol [ɑ(ː)] for the ‘long’ member. However,
+
+        in an instrumental study Mayr & Davies (2011) do not ﬁnd a reliable qualitative dis-
+
+        tinction between short and long //a// in monosyllables, and Wmﬀre (2007) states that
+
+        long //a// is never phonetically [ɑ];
+
+                                                  10
+  2. Stressed short vowels in South Wales are lax [ɛ ɪ ɔ ʊ]. This is conﬁrmed for monosyl-
+
+       lables by Mayr & Davies (2011). For North Wales, detailed descriptions are lacking, es-
+
+       pecially for stressed penults, but broadly the situation appears similar;
+
+  3. The length contrast is neutralized in unstressed syllables. There is agreement in the
+
+       literature that quality varies between ‘tense’ and ‘lax’. For instance Awbery (1986) de-
+
+       scribes the unstressed vowel system of Pembrokeshire Welsh thus:
+
+          • In pretonic syllables and in closed ﬁnal syllables, both ‘tense’ and ‘lax’ variants
+
+            are allowed: [pʰɛˈdɔːli] ∼ [pʰeˈdɔːli] pedoli ‘to shoe (a horse)’, [ˈwɛːdɪn] ∼ [ˈwɛːdin]
+
+            wedyn ‘afterwards’;
+
+          • In pretonic syllables in hiatus, only ‘tense’ variants are allowed: [r̥ʰeˈoːle] rheolau
+
+            ‘rules’ (*[r̥ʰɛˈoːle]);
+
+          • In ﬁnal open syllables, high vowels can only be ‘tense’, but mid vowels are in ‘free’
+
+            variation.
+
+       Thus, it appears that greater leeway in the qualitative properties of unstressed vowels
+
+       compared to those of stressed vowels is characteristic of most varieties of Welsh.
+
+
+2.2     Analysis
+
+As discussed in section 1.1, the close relationship between vowel quantity and vowel length
+
+such as that found in Welsh, presents a potential problem if redundant information has no
+
+place in phonological representation. One such approach is the traditional taxonomic frame-
+
+work that aims to represent all utterances as uniquely identiﬁable phoneme strings, where
+
+‘phonemes’ are understood as minimally redundant units standing in overlapping distribu-
+
+tion. Kiparsky (2017) dubs these units ‘s-phonemes’ (for ‘structuralist phonemes’) and ar-
+
+gues that they have no privileged place in phonological architecture.
+
+      As the existing literature on Welsh demonstrates, an s-phonemic framework requires
+
+a choice between length and tenseness, but the data do not provide much guidance on
+
+which analysis is better. Much of the literature designates quality as primary (e. g. Pilch 1957,
+
+
+                                                 11
+Watkins 1967, G. E. Jones 2000, C. H. Thomas 1993), with length marks often altogether omit-
+
+ted from the phonemic transcriptions. Length is more consistently written in early literature
+
+that does not use a phonemic approach (e. g. Sommerfelt 1925), but also in some later work
+
+(e. g. A. R. Thomas 1960).
+
+   The reasons for this choice are seldom explicitly discussed. A. R. Thomas (1966) justiﬁes
+
+his choice of length by referring to ‘symmetry’. Length is independently required to distin-
+
+guish /a/ and /aː/: since it is used in the phonology of the language, it can be applied to
+
+express the same contrast in other pairs, making ‘tongue position’ redundant. On the other
+
+hand, Watkins (1967) points out the existence of long ‘lax’ vowels in English borrowings,
+
+quoting [ˈbrɔːn] ‘brawn’ and [ɪnd͡ʒɪˈnɛːr] ‘engineer’, and argues that this makes tenseness
+
+unpredictable and thus phonemic.
+
+   Both approaches are open to criticism. The symmetry-based argument for a quantity
+
+analysis is not empirical; it might also not go through if varieties with a quality distinction
+
+between [a] and [ɑː] do exist. The argument for a quality analysis based on borrowings might
+
+be more plausible, but it runs into the unclear status of borrowings in the broader phonology.
+
+Moreover, it is not entirely clear that the borrowed long vowels are qualitatively identical to
+
+the native short ones: for instance, C. H. Thomas (1993) uses diﬀerent symbols for the native
+
+short //o// (she writes [ɒ]) and the borrowed long [ɔ].
+
+   Here, I adopt the analysis defended in Iosad (2012), according to which quantity (more
+
+speciﬁcally, moraicity) must be present in underlying representations (i. e. it is m-phon-
+
+emic). This is motivated by the interaction of the abstract ‘length’ distinction with the con-
+
+sonantal context; such systems, where vowel length depends on the properties of the fol-
+
+lowing consonant, even where that consonant is not part of a cluster, submit to a moraic
+
+analysis (see, for instance, Morén 2001 on Metropolitan New York English, Bye & de Lacy
+
+2008 on Latvian, and Torres-Tamarit 2015 on Northern Romance).
+
+   The basic idea, developed in depth in Iosad (2012), to which I refer for details, and also
+
+shared by Hannahs (2013), is that lengthening is driven by a stress-to-weight requirement,
+
+which is counteracted by faithfulness to underlying moraic speciﬁcations and by restrictions
+
+on what segments can acquire a mora. Within this framework, the phonotactics of stressed
+
+
+                                              12
+syllables across Welsh dialects can be analysed as a mix of ‘distinctive’ and ‘coerced’ weight
+
+in terms of Morén (2001). Weight coercion arises when a (stressed) syllable is required to be
+
+bimoraic. This can be satisﬁed by the lengthening of either the consonant or the vowel (with
+
+the choice dependent on the ranking of relevant constraints), or fail to be satisﬁed (as in the
+
+case of North Welsh penultimate syllables in hiatus, where stressed vowels remain short). In
+
+an Optimality Theoretic (Prince & Smolensky 1993) framework such as Morén’s (2001), the
+
+typology can be derived from the ranking of DEPLINK-µ constraints for vowels and various
+
+kinds of consonants vis-à-vis each other and the stress-to-weight constraint.
+
+   ‘Distinctive weight’, with underlying moraic speciﬁcation faithfully reproduced on the
+
+surface, arises in the case of [n l r], which can be preceded by both long and short vowels,
+
+with a lexical distribution. In cases such as the minimal pair in (2), vowel lengthening de-
+
+pends on whether the post-tonic consonant is underlyingly moraic: if it is, there is no need
+
+for lengthening, because the second mora is already provided; if it is not, lengthening ensues
+
+(Iosad 2012).
+
+   Thus, the behaviour of Welsh stressed vowels can be derived from moraic structure, some
+
+of it underlying. The moraicity of the vowels is deﬁnitely involved in the phonological gram-
+
+mar. It appears more diﬃcult to oﬀer a principled account of these facts if vowel quality is the
+
+sole phonologically relevant property, and so I conclude that if a choice between quantity
+
+and quality is to be made, then quantity is preferred.
+
+   Even if we accept this, however, the status of vowel ‘tensing’ (and/or ‘laxing’) in the gram-
+
+mar still remains ambiguous. One option is that it is not a symbolic phonological operation
+
+but part of ‘phonetic implementation’, with tenseness never entering the phonological com-
+
+putation. The other possibility is that the distribution is introduced by the grammar, via a
+
+rule along the following lines (or an equivalent OT ranking):
+                     [             ]
+                       +stressed
+(6) V → [α tense] /
+                         α long
+
+   This could be a problem for contrastivist approaches, since the feature [(±)tense] is not
+
+needed for ‘m-phonemic’ contrasts: it is entirely predictable, being only introduced by rule
+
+(6). Crucially, the same cannot be said of moraicity, because it must be encoded in underlying
+
+                                              13
+representations at least for [n l r] in Welsh.¹ In a sense, this approach subverts the entire
+
+controversy: once a moraic representation of quantity is accepted, there is no need for a
+
+segmental feature [±long], and there is no obligatory choice between [±long] and [±tense]
+
+to make. (I return to this issue brieﬂy in section 6.)
+
+    However, this analysis does not rule out the distinction between ‘tense’ and ‘lax’ vowels
+
+being visible to the phonology. In the remainder of the paper, I will argue that this distinction
+
+in Welsh must also be part of the phonological computation, despite being redundant at the
+
+‘s-phonemic’ level (in some varieties). To verify this, I use the criteria for phonological status
+
+oﬀered in section 1.2. Speciﬁcally, I discuss the distribution of length and quantity in several
+
+varieties of Welsh, and show that the ‘tenseness’ distinction fulﬁls the following two criteria:
+
+
+    • It is inherently (not accidentally) categorical, in that its categoricity both can be estab-
+
+       lished and cannot be derived using a continuous function from some other categorical
+
+       distinction;² and
+
+    • Its distribution is regulated by proprietary phonological factors.
+
+
+    Having established that ‘tenseness’ has undergone phonologization to a degree where
+
+it is now part of ‘l-phonemic’ representations in Welsh, I will then reconsider the criteria of
+
+contrastive status necessary for the Contrastivist Hypothesis to be falsiﬁable.
+
+
+
+3    Quantity and quality in South-West Welsh
+
+This section focuses on varieties of Welsh spoken in the south-west part of the country, spe-
+
+ciﬁcally the counties of Carmarthenshire, Cardiganshire (Ceredigion), and the northern part
+
+of Pembrokeshire. These dialects possess a sound pattern that, unusually for Welsh, involves
+
+‘lax’ long mid vowels [ɛː ɔː] in the native vocabulary. As far as I am aware, these data have not
+
+previously been examined instrumentally, or brought to bear on the question of quantity-
+
+quality interactions in Welsh, which provides the motivation for the study.
+     ¹It is also likely that underlying moraicity for vowels may be necessary to account for exceptional ﬁnal stress,
+as in [maŋˈɡiː] mamgu ‘grandmother’ (see Iosad 2012: §6.4.5.3.2).
+     ²See Scobbie (2007) for a discussion of such ‘accidental’ categoricity.
+
+
+
+                                                        14
+3.1     Available descriptions
+
+Several descriptions of dialects from this area are available. C. Jones & Thorne (1992) oﬀer
+
+an overview for a general audience. Awbery (1986) provides an explicit description of the
+
+phonology of Pembrokeshire Welsh in a generative framework. Wmﬀre (2003) is focused on
+
+Cardiganshire placenames, but also provides numerous details of the phonology of relevant
+
+dialects. All these descriptions recognize the existence of distinct allophones for long mid
+
+vowels: [eː oː] and [ɛː ɔː]. The latter appear in penultimate syllables when the vowel in the
+
+following (unstressed) syllable is high //i// or //u//:
+
+
+(7)    Tense vowels before non-high vowels
+
+       a. [ˈeːdɛ]       edau    ‘thread’
+
+       b. [ˈoːɡɔv]      ogof    ‘cave’
+
+(8)    Lax vowels before high vowels
+
+       a. [ˈtʰɛːbɪɡ]    tebyg   ‘similar’
+
+       b. [ˈkʰɔːdi]     codi    ‘rise’
+
+      Long mid vowels in monosyllables are always tense. No similar allophony is described for
+
+either low or high long vowels or any kind of phonologically short vowel. Changes in relevant
+
+types of phonological conditioning produce the expected alternations:
+
+
+(9)    a. [ˈtʰreː]      tref    ‘town’
+
+       b. [ˈtʰrɛːvɪð]   trefydd ‘towns’
+
+(10)    a. [ˈkʰɔːdi]     codi    ‘to rise’
+
+        b. [ˈkʰoːdɔð] cododd ‘((s)he) rose’
+
+      If these descriptions are correct, then these dialects are a potentially valuable testing
+
+ground for the status of [ɛː ɔː] in native (rather than borrowed) vocabulary. However, aud-
+
+itory descriptions cannot give us conﬁdence that this south-western pattern is, in fact, cat-
+
+egorical. In this paper, I report the results of an acoustic study conducted to verify these
+
+descriptions and establish the status of the pattern.
+
+                                               15
+3.2     Methods
+
+Eight participants in Carmarthen were recruited beforehand and on the spot; the demo-
+
+graphic data are reported in table 5 in the Appendix. The convenience sampling has created
+
+some skewing in terms of gender and age. Since the focus of the study is on phonological
+
+aspects of the patterning rather than on precise factors driving sociolinguistic variation, this
+
+skew will not be further discussed.
+
+      Also as a result of the convenience sampling, the study included two speakers who have
+
+lived in the relevant area for a considerable period of time but reported being brought
+
+up elsewhere in Wales. Sp4 was brought up in the capital, Cardiﬀ; however, their Welsh-
+
+speaking parent is from the south-western area, and they show much the same system as
+
+the other south-western speakers. Their data was therefore pooled with other south-western
+
+speakers. Sp8, on the other hand, who was brought up in Aberystwyth, in mid-Wales, but
+
+has lived in the area for over ten years, turned out to have a diﬀerent system. I report the
+
+data gathered from this speaker in section 3.3.3 by way of contrast to the south-western sys-
+
+tem, but do not oﬀer a detailed analysis for lack of complete data. In addition, one of the
+
+demographically south-western speakers (Sp1) did not show the expected pattern, but in-
+
+stead demonstrated the system described for other South Welsh varieties. Since that system
+
+is relatively well understood, I do discuss those data in detail in section 3.3.1.
+
+      In contrast to Mayr & Davies (2011), the present study used actual rather than nonce
+
+words. Disyllabic words of a suitable shape were chosen, with reference to frequency counts
+
+in a corpus of written Welsh (Ellis et al. 2001). As far as possible, the wordlist aimed for bal-
+
+anced representation of the following variables:
+
+
+      • Quality of the stressed vowel. All of //ə i u e o// were included; //a// was excluded, as
+
+        it is not expected to show qualitative variation in these varieties;
+
+      • Phonological length of the stressed vowel, in several consonantal contexts
+
+      • Consonant place of articulation;
+
+      • Phonological category of post-tonic vowel (high vs. non-high)
+
+
+                                                 16
+      The full wordlist of 118 words is given in table 6 in the Appendix, with the expected pro-
+
+nunciation of the item in a south-western dialect. There were a total of 2,767 tokens analysed.
+
+Words were presented in their orthographic representation in the standard language: Welsh
+
+spelling is transparent enough for the intended vowel to be easily recoverable. Although
+
+some patterns of interest are less common in the standard language than in dialects (not-
+
+ably //u// in non-ﬁnal syllables), meaning no suitable test items could be found for some
+
+conditions, no attempt was made to guess dialectal pronunciations and represent them in
+
+the stimuli.
+
+      Stimuli were presented to participants in a self-paced reading task, with items appearing
+
+on a screen in three independently randomized blocks. The stimuli were embedded in the
+
+carrier phrase Glywes i’r gair     ddoe ‘I heard the word    yesterday’. In the brieﬁng, speak-
+
+ers were instructed to produce natural rather than spelling-based forms (which they did to
+
+varying extents).
+
+      The acoustic analysis was completed using Praat (Boersma & Weenink 2015). The seg-
+
+ments were marked up by hand, noting the duration of vocalic intervals, consonantal inter-
+
+vals (stop closure, frication duration etc.) and pre- and post-aspiration intervals separately.
+
+Formant measurements were taken at the midpoint of every vowel in ﬁnal and penultimate
+
+syllables. The raw acoustic data, Praat TextGrid ﬁles, formant measurements, as well as an R
+
+package with the resulting data are available online (Iosad 2016).
+
+
+3.3     Results
+
+The study reveals the existence of at least three diﬀerent patterns of quantity-quality inter-
+
+actions. We begin with speaker Sp1, who shows the neat co-occurrence of length and tense-
+
+ness characteristic of most dialects of South Welsh. The largest group of speakers exemplify
+
+the south-western system as described in the literature. Finally, Sp8 shows a pattern that
+
+appears to not have been systematically described before.
+
+
+3.3.1    The standard southern system
+
+
+
+
+                                               17
+                                                                 //i//                                        //e//
+
+
+
+                                          200
+
+
+                                          150
+ Duration including preaspiration, msec
+
+
+
+
+                                          100
+
+
+                                          50
+
+
+
+                                                                 //o//                                        //u//
+
+
+
+                                          200
+
+
+                                          150
+
+
+                                          100
+
+
+                                          50
+
+
+
+                                                       Short               Long                     Short                Long
+                                                                                     Vowel length
+
+
+                                                        Figure 1: Vowel duration by vowel category and length, Sp1
+
+
+Speaker Sp1 shows the ‘standard’ South Welsh system. There is a distinction in duration
+
+between phonologically short and long vowels. Figure 1 demonstrates this by plotting the
+
+density of the distribution of durations for diﬀerent short and long vowels, together with
+
+means and ±1 standard deviations. A two-way ANOVA with vowel length and vowel quality
+
+as independent variables and vowel duration including preaspiration³ shows both factors
+
+to be signiﬁcant: for vowel length, the ANOVA gives F (1, 278) = 554.36, p < 0.00001 and for
+
+vowel quality F (3, 278) = 23.74, p < 0.00001, presumably reﬂecting inherent length eﬀects.
+
+                                           As for vowel quality, ﬁg. 2 shows F1 and F2 values for this speaker in short and long vowels.
+
+Instead of the traditional dot plot, the plot shows a binned 2D kernel density estimate of the
+
+distribution of tokens for each category on the basis of this data. Thus, the plot shows the
+    ³I do not discuss the status of preaspiration in detail here. Its existence in Welsh has until recently gone largely
+unnoticed, apart from a brief mention by Ball & Williams (2001); however, more recently it has been described
+for some varieties (e. g. Morris 2010). Iosad (2017) discusses its characteristics in the present dataset in more
+detail. Brieﬂy, preaspiration is found before the fortis stops [pʰ tʰ kʰ], which are preceded by short vowels. If the
+duration of preaspiration is included, then the duration of such short vowels is in line with the duration of short
+vowels that do not precede fortis stops; I take this to indicate that vowel duration including preaspiration is a
+suitable measure, although further research is needed to reliably establish this.
+
+
+
+
+                                                                                      18
+                        Short vowels                             Long vowels
+
+
+      200
+
+
+
+
+      400
+
+
+
+
+                                                                                         Vowel
+                                                                                            //e//
+ F1
+
+
+
+
+                                                                                            //i//
+      600                                                                                   //o//
+                                                                                            //u//
+
+
+
+
+      800
+
+
+
+
+            3000        2000           1000              3000    2000          1000
+                                               F2
+
+
+                    Figure 2: Formant values of vowels by length, speaker Sp1
+
+
+extent of variation within each category but also the region of the vowel space where most
+
+of the tokens are concentrated.
+
+       In this case, long and short vowels form distinct clusters in the vowel space, particularly
+
+along the F1 dimension. However, in principle this qualitative diﬀerence could be an eﬀect
+
+of under- or overshoot (Lindblom 1963) relative to a fairly high target, so that the shorter
+
+the duration of the vowel, the lower (‘laxer’) it is in quality. The apparently categorical diﬀer-
+
+ence could then derive not from the existence of two qualitative categories underlying the
+
+distribution of the tokens but simply from the distribution of duration, without a categorical
+
+quality distinction.
+
+       If this were the case, we expect the relationship between the duration of the vowel and
+
+its quality to be expressible as a continuous function. To verify whether the relationship of
+
+vowel duration and vowel quality is continuous or discrete, several generalized additive mod-
+
+els were ﬁt using the mgcv package (Wood 2006) in the R statistical environment (R Core Team
+
+                                                    19
+2016). A major motivation for the use of additive rather than linear models is their ability to
+
+model non-linear eﬀects, which, as we shall see, are present in the data. After initial model-
+
+ling, the residuals showed a non-normal distribution; this was corrected by treating log2 of
+
+F1 as the dependent variable. Independent variables included vowel quality, F2 (since the
+
+vowels are not evenly distributed in the vowel space), and the duration of the vowel including
+
+preaspiration of the following consonant.
+
+   A good ﬁt was obtained in a model that included an interaction between vowel length and
+
+vowel quality, as well as a random intercept for lexical item. A selection of the better models
+
+is shown in table 7 in the Appendix, which includes the estimated coeﬃcients and 95% con-
+
+ﬁdence intervals. An eﬀect is considered signiﬁcant if the conﬁdence interval excludes zero
+
+(these cases are marked with an asterisk).
+
+   To evaluate goodness of ﬁt of the diﬀerent models, we can use the Akaike Information
+
+Criterion (see Burnham & D. R. Anderson 2004 for a brief practical introduction). Brieﬂy, the
+
+AIC produces a measure of the deviance explained by the model with a trade-oﬀ against
+
+the degrees of freedom, to avoid overﬁtting. Burnham & D. R. Anderson (2004) recommend
+
+using second-order AIC (AI C c ) in cases with relatively small samples, as is the case for all the
+
+data sets in this paper. Absolute AI C (c ) values for diﬀerent models are less informative than
+
+diﬀerence (∆AI C (c ) ) between the best model in the set (the one with the smallest value) and
+
+the model of interest. It is commonly assumed that a model with a ∆AI C ≤ 2 is substantially
+
+supported by the data, one with a ∆AI C of between 4 and 7 is substantially less supported by
+
+the data, and a model with a ∆AI C of over 10 has essentially no support.
+
+   This type of modelling allows us to disentangle the inﬂuence of phonetic duration on
+
+vowel quality (e. g. undershoot eﬀects) from the eﬀects of a phonological ‘length’ category.
+
+Table 7 shows that both of these factors exert an inﬂuence. Speciﬁcally, a model including
+
+both is superior to models that exclude one of these terms: excluding phonological length
+
+produces a ∆AI Cc of 28, and excluding duration gives a ∆AI Cc of 10. The precise inﬂuence of
+
+both factors can be seen in ﬁg. 3. The line shows the estimated eﬀect, the shading the 95%
+
+conﬁdence interval and the dots represent residuals. The vertical axis is reversed to ease the
+
+interpretation of the ﬁgures in terms of the vowel space.
+
+
+                                                20
+                                                                                                                                                     //i//                                 //e//
+
+
+
+
+                                                                                                                                   500
+                                700
+
+
+
+
+                                                                                                                                   750
+Estimated F1 (reversed scale)
+
+
+
+
+                                800
+
+
+
+
+                                                                                                   Estimated F1 (reversed scale)
+                                                                                                                                   1000
+
+
+
+
+                                900                                                                                                                  //o//                                 //u//
+
+
+
+
+                                                                                                                                   500
+
+                                1000
+
+
+                                                                                                                                   750
+
+
+
+                                1100
+                                                                                                                                   1000
+
+
+
+                                          50           100              150             200                                                  Short           Long                  Short           Long
+                                               Duration including preaspiration, msec                                                                               Vowel length
+
+                                               (a) Eﬀect of duration                                                                      (b) Eﬀect of phonological length by vowel
+
+                                                  Figure 3: Eﬀects of duration and phonological length, Sp1
+
+
+                                   As ﬁg. 3a shows, longer duration generally corresponds to a lower value for F1, although
+
+the eﬀect is highly non-linear. I interpret this as an eﬀect of undershoot: relatively short vow-
+
+els are lower than the target. This is especially pronounced with vowels of greater duration
+
+(presumably mostly phonologically long ones), but less visible at short durations. This eﬀect,
+
+however, cannot account for the full range of variation in F1, with the category of phonolo-
+
+gical length making a clear additional contribution (especially in the case of the mid vowels),
+
+as seen in ﬁg. 3b.
+
+                                   Thus, Sp1 exempliﬁes the vowel system in penultimate syllables seen in existing descrip-
+
+tions of South Welsh. This speaker demonstrates a reliable distinction in duration between
+
+vowels in phonologically ‘short’ and ‘long’ contexts, and a categorical distinction in quality
+
+between the two classes. This applies to all the vowels that enter the length contrast, and
+
+the quality distinction cannot be accounted for solely by undershoot. This is precisely the
+
+phonologically ambiguous situation described in section 2.2.
+
+
+
+
+                                                                                              21
+                                                                     //i//                                      //e//
+                                               2
+
+
+                                               1
+ Normalized duration including preaspiration
+
+
+
+
+                                               0
+
+
+                                               -1
+
+
+                                               -2
+
+
+                                                                    //o//                                       //u//
+                                               2
+
+
+                                               1
+
+
+                                               0
+
+
+                                               -1
+
+
+                                               -2
+
+                                                           Short              Long                    Short               Long
+                                                                                       Vowel length
+
+
+                                                           Figure 4: Vowel duration by category, south-western speakers
+
+
+3.3.2                                               The south-western system
+
+Six of the eight speakers exemplify the south-western system, where the quality of long mid
+
+vowels depends on the phonological category of the post-tonic vowel. Figure 4 demonstrates
+
+that all vowels show the expected diﬀerence in duration between the ‘short’ and ‘long’ con-
+
+texts. (Durations have been normalized by converting to z-scores, with the mean duration of
+
+all vowels, including post-tonic ones, taken as 0.) A two-way ANOVA with normalized dur-
+
+ation as dependent variable again shows that both vowel length (F (1, 1699) = 744.85, p <
+
+0.00001) and vowel quality (F (3, 1699) = 122.05, p < 0.00001) are signiﬁcant predictors of
+
+duration.
+
+                                                Figure 5 illustrates the distribution of vowel qualities by vowel duration, with formant
+
+values Lobanov-normalized (i. e. converted to z-scores) by speaker (Adank, Smits & van Hout
+
+2004). The plot shows long mid vowel tokens to be concentrated in two regions of the vowel
+
+space: one with approximately the same quality as the corresponding short vowel and one
+
+
+
+
+                                                                                         22
+                                  Short vowels                            Long vowels
+                 -2
+
+
+
+
+                 -1
+ Normalized F1
+
+
+
+
+                                                                                                   Vowel quality
+                 0                                                                                    //i//
+                                                                                                      //e//
+                                                                                                      //o//
+                                                                                                      //u//
+
+
+
+
+                 1
+
+
+
+
+                 2
+
+
+
+                          1         0            -1     -2            1     0           -1    -2
+                                                      Normalized F2
+
+
+                       Figure 5: Densities of vowels for the south-western group, by vowel length
+
+
+corresponding to a higher, more peripheral vowel in the same region of the vowel space as
+
+the long ‘tense’ vowels of Sp1.
+
+                  The distribution of the lower (‘lax’) allophones of long mid vowels is consistent with the
+
+descriptions: they appear, almost without exception, before a high vowel. (Due to the re-
+
+strictions of the lexicon, the high vowel in the post-tonic syllable was always //i//.) There
+
+is, however, at least one exception. The word ﬀenestr ‘window’ consistently has [ɛː] despite
+
+the non-high vowel in the post-tonic syllable: [ˈfɛːnɛst(r)]. Most speakers produced all three
+
+tokens of ﬀenestr in the task with a vowel with a normalized F1 of well above zero, even
+
+though most other tokens of long //e// before a non-high vowel have negative normalized
+
+F1. The exception is speaker Sp4, who always has tense [eː] here.⁴
+    ⁴Recall that this is the speaker who was brought up in Cardiﬀ, and otherwise shows a south-western system.
+Speculatively, this could be a case of incomplete dialect acquisition due to insuﬃcient input: having successfully
+acquired the general rule, speaker Sp4 nevertheless may not have received enough input to acquire the lexical
+exception.
+
+
+
+
+                                                                23
+    Given the highly consistent behaviour of ﬀenestr (but not any other lexical items) across
+
+speakers, it seems likely that it is not an artefact of experimental conditions but a true lexical
+
+exception. To take this into account, further modelling was conducted on the assumption
+
+that the stressed vowel of ﬀenestr for all speakers except Sp4 falls within the same category
+
+as other ‘lax’ long vowels.
+
+    To identify the nature of the following vowel’s inﬂuence on the stressed vowel, we again
+
+ﬁt several generalized additive mixed models, all with random intercepts for speaker and
+
+word (see table 8 in the Appendix). The results show that the quality of the stressed vowel is
+
+inﬂuenced by the high or non-high speciﬁcation on the post-tonic vowel. A model without
+
+the height of the post-tonic vowel as a predictor fares worse than one that does. However, a
+
+model with only a single ﬁxed eﬀect of post-tonic vowel height (i. e. consistent across vowel
+
+quality and length speciﬁcations of the stressed vowel), does signiﬁcantly worse than one
+
+with a three-way interaction between stressed vowel quality, stressed vowel length, and post-
+
+tonic vowel height (∆AI Cc = 20).
+
+    As table 8 shows, most of the eﬀect of the height of the post-tonic vowel is accounted
+
+for by the mid stressed vowels — neither short vowels nor the long high vowels are aﬀected
+
+by a post-tonic high vowel, exactly as the descriptions claim. The eﬀect of the post-tonic
+
+high vowel essentially cancels out the raising eﬀect of phonological length, making the ‘lax’
+
+long vowels identical to the corresponding short ones. For short //e// (i. e. [ɛ]) the estimated
+
+eﬀect of vowel category is 1.58 standard deviations (relative to the F1 of [ɪ]), while for a long
+
+lax //e// (i. e. [ɛː]) the sum of all relevant eﬀects is 1.55 SDs; for //o//, the corresponding
+
+numbers are 1.54 for [ɔ] and 1.72 for [ɔː].
+
+    The results of the acoustic study conﬁrm the existence of two qualitative categories
+
+within most vowel pairs.⁵ Among high vowels, the distribution is identical to that found else-
+
+where in Welsh: ‘lax’ [ɪ ʊ] are associated with phonological shortness, and ‘tense’ [i u] are
+
+found in contexts requiring phonological length. The distribution of mid vowels is diﬀerent:
+
+‘lax’ [ɛ ɔ] are associated with short contexts and with long contexts if there is a following high
+    ⁵The exception is //u//, which does not show a signiﬁcant diﬀerence in F1. However, further modelling
+identiﬁes a robust diﬀerence between short and long //u// in F2; it is also probable that F3, not measured here,
+contributes to this distinction.
+
+
+
+                                                      24
+vowel; ‘tense’ [e o] are found elsewhere in long contexts (before a non-high vowel and —
+
+following traditional descriptions and Mayr & Davies 2011 — presumably in stressed ﬁnal
+
+syllables).
+
+   Modelling also allows us to exclude the hypothesis that the dissimilation is an artefact
+
+of a continuous trade-oﬀ in duration between two neighbouring vowels. Such an explana-
+
+tion has been proposed to account for height dissimilation phenomena (Crosswhite 2000),
+
+and continuous trade-oﬀs along these lines has been identiﬁed in Kera (Pearce 2007) and
+
+in dialectal Russian (Kniazev & Šaul’skij 2007). However, modelling with the duration of the
+
+post-tonic vowel or its (normalized) F1 as the explanatory variable gives results inferior to
+
+those with the phonological category of the post-tonic vowel as the chief factor: ∆AI Cc = 27
+
+for normalized duration and ∆AI Cc = 32 for normalized F1. Thus, we are dealing with a cat-
+
+egorical eﬀect of the following vowel’s height speciﬁcation on the quality of the stressed one,
+
+rather than a continuous interaction. This justiﬁes treating the ‘mid vowel dissimilation’ as
+
+a categorical process that, crucially, involves access to proprietary phonological informa-
+
+tion — the featural speciﬁcation of the post-tonic vowel. Under modularist assumptions, this
+
+presents clear evidence for the phonological nature of the distinction between the ‘tense’
+
+and ‘lax’ variants, at least of the mid vowels.
+
+
+3.3.3   The non-enhanced system
+
+Finally, speaker Sp8, brought up in Aberystwyth in Mid Wales, apparently shows another
+
+type of interaction between vowel quantity and quality. Like other speakers in the study,
+
+Sp8 shows some diﬀerence in vowel duration between the ‘short’ and ‘long’ contexts, with
+
+the exception of //u//. Unfortunately, the dataset for the single speaker is insuﬃciently
+
+large for any deﬁnite pronouncements on statistical signiﬁcance. A two-way ANOVA with
+
+vowel duration as dependent variable indicates that both phonological length (F (3, 276) =
+
+50.38, p < 0.001) and vowel quality (F (1, 276) = 17.89, p < 0.001), as well as their interaction
+
+(F (3, 276) = 6.41, p < 0.001) are signiﬁcant
+
+   The existence of a quantitative distinction between short and long vowels in this variety
+
+is further conﬁrmed by a distinction in the duration of post-tonic consonants, which are
+
+
+                                                  25
+                                                                              //i//                                 //e//
+ Duration (including preaspiration for vowels), msec
+
+
+
+
+                                                       200
+
+
+
+
+                                                       100
+
+
+
+
+                                                                                                                                       Type
+                                                                                                                                         Vowel
+                                                                              //o//                                 //u//
+                                                                                                                                         Consonant
+
+
+
+
+                                                       200
+
+
+
+
+                                                       100
+
+
+
+
+                                                                  Short               Long                  Short           Long
+                                                                                             Vowel length
+
+
+                                                                          Figure 6: Vowel and consonant duration by context, Sp8
+
+
+longer after short vowels and shorter after long vowels, consistent with the moraic structure
+
+postulated for South Welsh varieties in section 2.2. This is seen in ﬁg. 6.
+
+                                                        Vowel quality shows a diﬀerent picture. Figure 7 demonstrates that ‘long’ and ‘short’ vow-
+
+els occupy the same position in the vowel space (with the possible exception of //o//). It also
+
+shows that a large number of tokens coded as short //o// are located in the same region as
+
+tokens coded as //u//. This may be the result of a sound change, as the distribution of these
+
+anomalous tokens of //o// appears to be at least some extent lexically driven. Those cases
+
+where all tokens of a given word show an F1 value of under 400 Hz (unless this was the sole
+
+representative of the item in this data set) were recoded for the purposes of modelling as
+
+representing the category //u// rather than //o//. As the plot indicates, this is clearly not suf-
+
+ﬁcient, as many tokens coded as //o// nevertheless clearly occupy much the same position
+
+in the vowel space as tokens of //u//, but barring further investigation of relevant varieties
+
+no other attempts to prejudge the categorization were made.
+
+                                                        The results of modelling of the stressed vowel’s F1 as predicted by vowel quality, vowel
+
+length, and their interactions are shown in table 9 in the Appendix. They conﬁrm that there
+
+                                                                                                     26
+                                    Short                                   Long
+
+
+
+
+                 -2
+
+
+
+
+                 -1
+ Normalized F1
+
+
+
+
+                                                                                                   Vowel quality
+                                                                                                      //i//
+                                                                                                      //e//
+                 0                                                                                    //o//
+                                                                                                      //u//
+
+
+
+
+                 1
+
+
+
+
+                 2
+
+
+                       2       1        0      -1      -2       2     1        0        -1    -2
+                                                    Normalized F2
+
+
+                                        Figure 7: Density plot for vowel quality, Sp8
+
+
+is no signiﬁcant eﬀect of phonological length on the quality of the stressed vowel, in contrast
+
+to the standard southern system. Adding duration as a predictor improves model ﬁt (∆AI Cc =
+
+14). Speciﬁcally, increased vowel duration gives a higher F1, i. e. a lower vowel (ﬁg. 8; as with
+
+ﬁg. 3, the y axis is reversed).
+
+                  The variation in the quality of stressed vowels in this system is not sensitive to phonolo-
+
+gical factors, notably length, that are so prominent in other varieties of Welsh. In fact, the
+
+raising eﬀect of shorter duration seen in ﬁg. 8 is consistent with undershoot of a relatively
+
+low target: the target qualities of at least the mid vowels for this speaker are in the region of
+
+other speakers’ [ɛ ɔ], even when the vowels are phonologically long and have long duration.
+
+This clearly contrasts with Sp1, where undershoot produces relatively low vowels (ﬁg. 3).
+
+                  Subject to further investigation, I tentatively conclude that speaker Sp8 exempliﬁes a vari-
+
+ety of Welsh without a robust distinction in quality between long and short stressed vowels
+
+(at least in penultimate syllables), with all mid vowels being ‘lax’ in quality.
+
+                                                              27
+                                 400
+
+
+
+
+                                 600
+ Estimated F1 (reversed scale)
+
+
+
+
+                                 800
+
+
+
+
+                                 1000
+
+
+
+
+                                                   50                        100                            150         200
+                                                                   Duration including preaspiration, msec
+
+
+                                                        Figure 8: Eﬀect of vowel duration on F1, Sp8
+
+
+                                  It is not clear whether such a system has been described in detail before in Welsh. Pilch
+
+1957 presents an auditory study based on the speech of a single informant from Bow Street,
+
+a village 3.5 miles outside Aberystwyth. Although no explicit statement of the distribution
+
+of ‘tense’ and ‘lax’ vowels is given, at least for the mid vowels the distribution appears to
+
+be ‘tense when long in a stressed monosyllable and pretonically, lax otherwise’: [ˈmɛðɪɡ]
+
+meddyg ‘doctor’ vs. [meˈðəɡɔn] meddygon ‘doctors’, [ˈhen] hen ‘old’. Pilch (1957) does not,
+
+however, write length unless it has ‘s-phonemic’ function: thus, in his transcriptions the min-
+
+imal pair ton ‘wave’ vs. tôn ‘tune’ is written [tʰɔn] vs. [tʰon], even though the latter presum-
+
+ably has a long vowel. Hence, it is not clear whether his <mɛðɪɡ> corresponds to the [ˈmɛːðɪɡ]
+
+expected for Sp8.
+
+                                  The situation is diﬀerent in the description of the dialect of (rural) north-west Ceredigion
+
+by Lewis (1960). He conﬁrms that there is no length distinction in the penultimate syllables
+
+in this variety: [ˈtʰɔn] ton ‘wave’ and [ˈtʰoːn] tôn ‘tune’ are distinct, but the plurals tonnau
+
+                                                                                   28
+and tonau are not. However, according to Lewis (1960) the realization of vowels in penul-
+
+timate syllables shows ‘free variation’ between a half-long tense vowel (followed by a short
+
+consonant) and a short lax vowel (followed by a long consonant): [ˈtʰoːnɛ̝] ∼ [ˈtʰɔnːɛ]. In ﬁnal
+
+stressed syllables, the system described by Lewis (1960) is identical to the standard one for
+
+mid vowels, but, interestingly, he does not describe a quality diﬀerence between short and
+
+long high vowels even in stressed ﬁnal syllables. Thus, although there are suggestive simil-
+
+arities between the system shown by Sp8 and those discussed by Pilch (1957), Lewis (1960),
+
+it appears that so far the pattern discussed here cannot be identiﬁed with another pattern
+
+described in the literature without further research.
+
+
+3.3.4   Unstressed syllables
+
+Finally, we turn to qualitative diﬀerences in post-tonic, unstressed syllables. As noted in sec-
+
+tion 2.1.3, previous descriptions lead us to expect no ‘s-phonemic’ contrast in that position:
+
+the quality of the unstressed vowel is predictable, if sometimes variable. The distribution
+
+depends at least partly on syllable structure, with, for instance, high vowels always tense in
+
+ﬁnal open syllables and always lax in ﬁnal closed syllables.
+
+    If we accept the suggestion in section 2.2 that short vowels in stressed syllables precede
+
+moraic codas, then this distribution is in fact very similar to the distribution in stressed syl-
+
+lables: tense vowels are obligatory in open syllables, whether stressed (and thus phonologic-
+
+ally long) or post-tonic (where the phonological quantity contrast is neutralized), while lax
+
+vowels are possible only in closed syllables (whether stressed or unstressed). The nature of
+
+the eﬀect is open to question: given that vowels in closed syllables are commonly shorter
+
+than those in open ones, it could be due to duration rather than syllable structure.
+
+    The acoustic study allows us to conduct a preliminary examination of post-tonic vowels.
+
+A subset of the words were coded as containing a ‘closed’ or ‘open’ ﬁnal syllable⁶ and further
+
+models were ﬁtted to this data set.
+
+    Figure 9 shows (normalized) vowel quality in ﬁnal syllables by syllable type. It indicates
+
+that the descriptions are largely, but not entirely, correct. There is obvious separation in the
+    ⁶Some items were disregarded, in particular those ending in [ð] or [v], which are prone to variable deletion.
+In all, there were 32 items coded as having a ﬁnal open syllable and 68 items with a closed ﬁnal syllable.
+
+
+                                                      29
+                                   Closed                                Open
+
+
+
+
+                 -1
+
+
+
+
+                 0
+                                                                                                Post-tonic vowel
+ Normalized F1
+
+
+
+
+                                                                                                   //a//
+                                                                                                   //e//
+                                                                                                   //i//
+                                                                                                   //o//
+                                                                                                   //u//
+                 1
+
+
+
+
+                 2
+
+
+
+
+                           1        0       -1       -2           1      0        -1       -2
+                                                  Normalized F2
+
+
+                         Figure 9: Normalized vowel quality, by ﬁnal syllable type, all speakers
+
+
+case of the high vowels //i// and //u//, with signiﬁcantly centralized quality in closed syl-
+
+lables, but no clear distinction among the non-low vowels. This is shown in ﬁg. 13 in the
+
+Appendix, plotting the estimated values of normalized F1 in a model that includes an inter-
+
+action of vowel quality and syllable type (open or closed) in postvocalic syllables, as well as
+
+normalized duration, normalized F2, and random intercept by speaker as independent vari-
+
+ables: as the ﬁgure shows, the 95% conﬁdence intervals for vowels in open or closed syllables
+
+do not overlap for //i// and //u//, but do overlap for other vowels.
+
+                  Thus, if the picture painted by the present data set is representative, the sources appear
+
+to be imprecise when they describe the realization of //e o// in ﬁnal syllables as variable.
+
+Instead of a stochastic choice between ‘lax’ [ɛ ɔ] and ‘tense’ [e o], or a phonetic continuum
+
+with the ‘tense’ and ‘lax’ qualities as endpoints, we observe unimodal distributions in the
+
+case of the mid vowels. Moreover, the F1 values of these posttonic //e o// are very close to
+
+
+
+                                                             30
+the F1 values for the corresponding short stressed vowels. Thus, we can tentatively conclude
+
+that post-tonic mid vowels are realized as [ɛ ɔ] in both closed and open syllables.
+
+      Since the conditions in post-tonic syllables were not controlled in this study, it is too early
+
+to give signiﬁcant credence to the quantitative results reported here, even if the diﬀerence in
+
+the magnitude of the eﬀects is highly suggestive. Further research is required to fully verify
+
+the hypotheses.
+
+
+3.4     Summary
+
+To summarize, the acoustic study has demonstrated the existence of three diﬀerent types of
+
+interaction between vowel quantity and vowel quality:
+
+      • The ‘standard southern’ system: robust phonetic distinction between ‘tense’ and ‘lax’
+
+        vowels driven by phonological length, with an unclear phonological signiﬁcance;⁷
+
+      • The ‘south-western’ system: robust distinction between ‘tense’ and ‘lax’ vowels driven
+
+        by phonological length and phonological speciﬁcation of neighbouring vowels, and
+
+        thus available to the phonological grammar;
+
+      • Provisionally, the ‘non-enhanced’ system: phonological length distinction expressed
+
+        via duration, but no robust qualitative distinction.
+
+      In post-tonic syllables, high vowels are obligatorily tense in open syllables and lax in
+
+closed ones; mid (and low) vowels show no inﬂuence from syllable structure, in all systems.
+
+Although in general terms the distribution of the allophones is similar, we can highlight the
+
+following diﬀerences between the systems:
+
+      • In the standard southern system, all long vowels are tense. Word-ﬁnal high vowels are
+
+        also tense;
+
+      • In the south-western system, tense vowels are either long or word-ﬁnal, and restricted
+
+        to a subset of open syllables; not all long vowels are tense;
+    ⁷This conclusion must be slightly tentative given that only a single speaker in this data set represents this
+system. However, given the weight of available evidence for this type of patterning, including the quantitative
+study by Mayr & Davies (2011), it seems reasonable to conclude that this state of aﬀairs is general.
+
+
+                                                       31
+      • In the non-enhanced system, tenseness is found only word-ﬁnally, for a subset of vow-
+
+        els. Mid vowels are never tense. However, the situation in monosyllables is unclear.
+
+
+      In the next section I oﬀer a phonological interpretation of these patterns of cross-
+
+dialectal diversity.
+
+
+
+4      Analysis
+
+This cross-dialectal variation requires a phonological analysis, with particular reference to
+
+the exact status of the ‘tenseness’ distinction. The acoustic study allows us to establish the
+
+categorical nature of the ‘tenseness’ distinction in the standard southern system; however,
+
+its phonological status can only be established with reference to a concrete analysis. To ap-
+
+proach such an analysis, we begin with the south-western system, where the phonological
+
+status of the distinction is more secure.
+
+
+4.1     The south-western system
+
+As discussed above, I take the results of the acoustic study reported in section 3.3 to mean
+
+that the co-incidence of vowel tenseness and length in these varieties of Welsh is due to a
+
+phonological pattern, because the distinction is categorical (rather than continuously de-
+
+pendent on the duration of the vowel) and sensitive to phonological information. Speciﬁc-
+
+ally, the distribution is as follows:
+
+
+      • High vowels are tense in open syllables and lax in closed syllables, irrespective of stress
+
+        and length;
+
+(11)    Tense high vowels
+
+        a. [.ˈkʰliː.dɔ.] cludo    ‘to move’
+
+        b. [.ˈhɛð.li.]   heddlu ‘police’
+
+        c. [.ˈtʰiː.]     tŷ       ‘house’
+
+
+
+
+                                                 32
+(12)   Lax high vowels
+
+       a. [.ˈhʊn.nu.] hwnnw ‘that’
+
+       b. [.ˈmɔd.rɪb.] modryb ‘aunt’
+
+       c. [.ˈtʰʊpʰ.]       twp        ‘stupid’
+
+
+   • Mid vowels are lax irrespective of syllable structure, unless they are long and not fol-
+
+       lowed by a high vowel:
+
+(13)   Tense mid vowels
+
+       a. [.ˈseː.rɛn.] seren          ‘star’
+
+       b. [.ɡloː.]         glo        ‘coal’
+
+
+(14)   Lax mid vowels
+
+       a. [.ˈmɛː.ðʊl] meddwl ‘to think’
+
+       b. [.ˈɛb.rɪɬ]       Ebrill     ‘April’
+
+       c. [.ˈneː.ɡɛs] neges           ‘message’
+
+       d. [.ˈboː.rɛ.]      bore       ‘morning’
+
+       e. [.ˈpʰɛn.]        pen        ‘head’
+
+
+   • To complete the picture, we should discuss the vowel [ə]. It is not found in ﬁnal syl-
+
+       lables.⁸ In penultimate stressed syllables, it is always short, and hence requires a mo-
+
+       raic coda: [ˈkʰəvˑan] cyfan ‘all’. It is also impossible in hiatus. In other words, the schwa
+
+       only appears in closed syllables, fully patterning in this respect with high lax vowels [ɪ]
+
+       and [ʊ].
+
+   Hence, accounting for the distribution of tense and lax vowels in this system requires ref-
+
+erence not just to the featural speciﬁcations of neighbouring vowels but also to syllabic struc-
+
+ture (the presence of a coda) and moraic structure more speciﬁcally (vowel length). This is
+   ⁸Exceptions are function words like fy ‘my’, y(r) ‘the’ (plausibly proclitics), and borrowings like syr ‘sir’.
+
+
+                                                         33
+clearly proprietary phonological information, and hence by the modularity criterion laid out
+
+in section 1.2 the ‘tenseness’ speciﬁcations of these vowels are also phonological by nature.
+
+In other words, both the acoustic data (categoricity) and the details of the distribution (refer-
+
+ence to moraic structure) converge on an analysis where pairs such as [e] and [ɛ] are distinct
+
+in the phonological grammar. Such distinctions are normally encoded via featural structure.
+
+
+4.1.1    The featural analysis of tenseness
+
+To address the exact featural diﬀerence between [i] and [ɪ] or [e] and [ɪ], I draw on the major
+
+insight of contrastivist approaches to phonology, which seeks evidence for featural speciﬁca-
+
+tions primarily in the grammatical behaviour of the relevant segments and not (just) in their
+
+phonetic properties. As noted in section 1.3, I implement this in a substance-free framework
+
+with emergent features (e. g. Mielke 2008, Morén 2006, Blaho 2008, Odden 2013). In this ap-
+
+proach, features do not have intrinsic phonetic content, highlighting the fact that they are
+
+arbitrary labels useful for designating sets of segments that show similar phonological beha-
+
+viour, but without any claim to a one-to-one phonology-phonetics mapping.
+
+   In such a framework, we cannot assume that all pairs entering the ‘tenseness’ contrasts
+
+diﬀer by the same feature. In fact, a closer analysis shows that ‘tenseness’ behaves diﬀerently
+
+in the high and mid vowel subinventories in south-western Welsh.
+
+   In mid vowels, the necessary condition on the presence of tenseness is bimoraicity. Bimo-
+
+raicity itself is only possible in the absence of a coda, but this is an incidental generalization
+
+unrelated to vowel quality. However, this condition is not suﬃcient: some long mid vowels
+
+are still lax. Moreover, the ‘tense’ speciﬁcation of mid vowels interacts with featural speciﬁc-
+
+ations of other vowels, speciﬁcally with their height. Crucially, the tenseness of the post-tonic
+
+vowels is irrelevant: both tense and lax high vowels trigger laxing of a stressed mid vowel:
+
+
+(15)    a. [ˈɡɛːlɪn]   gelyn    ‘enemy’
+
+        b. [ˈhɛːdi]    heddiw ‘today’
+
+   High vowels (and [ə]), on the other hand, show a symmetric patterning of tense-lax pairs
+
+driven solely by syllable structure and only coincidentally related to length thanks to open
+
+
+                                               34
+                     Segment       [coronal]     [dorsal]     [lax]   [open]      [closed]
+                     /i/               ✓                                              ✓
+                     /ɪ/               ✓                        ✓                     ✓
+                     /u/                                                              ✓
+                     /ʊ/                                        ✓                     ✓
+                     /ə/               ✓             ✓          ✓                     ✓
+                     /e/               ✓                                 ✓            ✓
+                     /ɛ/               ✓
+                     /o/                             ✓                                ✓
+                     /ɔ/                             ✓
+                     /a/                                                 ✓
+
+                  Table 2: Featural speciﬁcations for vowels: South-West Welsh
+
+
+syllable lengthening: lax vowels are impossible in open syllables (some of which are bimo-
+
+raic), and tense vowels are impossible in closed syllables. There is little evidence for the in-
+
+teraction of this distinction with any other element of the phonological grammar.
+
+    If we start from emergentist, substance-free assumptions that require phonological,
+
+ideally positive, evidence before assigning a common feature to a set of segments, it is ap-
+
+parent that the assumption of a single ‘tenseness’ feature covering all four non-low pairs
+
+in Welsh (and the unpaired [ə]) is unfounded. Moreover, and perhaps even more seriously,
+
+common universal feature systems are unable to describe the relevant phonological classes:
+
+for instance, the class of segments excluded from open syllables — [ɪ ʊ ə] — cannot be de-
+
+scribed by a conjunction of features that excludes [ɛ ɔ] in common systems such as that of
+
+Jakobson, Fant & Halle (1951) or Chomsky & Halle (1967);⁹ it is even more diﬃcult to express
+
+in featural terms the connection between mid vowel tenseness and the height of the follow-
+
+ing vowel.
+
+    Instead, I propose that the vowel patterns of South-West Welsh can be accounted for us-
+
+ing the emergent featural speciﬁcations shown in table 2. For concreteness, I use privative
+
+features with vaguely phonetic labels reminiscent of versions of Uniﬁed Feature Theory (Cle-
+
+ments & Hume 1995); it is important to remember, however, that since the featural theory
+
+assumed here is substance-free, the labels do not lay claim to inherent phonetic content
+    ⁹The phonological class /ɪ ʊ ə/ appears to be rare cross-linguistically: the PBase database (Mielke 2008) con-
+tains one example (Punjabi) of a pattern exclusively involving these vowels.
+
+
+
+                                                       35
+(thus, for example, the co-occurrence of [open] and [closed] in [e] is not meant to represent
+
+a paradox like the co-occurrence of [+high] and [+low] in some theories). For reasons of
+
+space and focus, I do not present an explicit account of how the speciﬁcations in table 2 are
+
+manipulated by the grammar to produce the patterns; they can be quite straightforwardly
+
+implemented in a rule-based or OT formalism.
+
+    This system can be justiﬁed as follows:
+
+    • The feature [closed] covers segments implicated in the height dissimilation pattern,
+
+      namely all high vowels (its triggers) and the ‘tense’ mid vowels [e] and [o];
+
+    • The feature [lax] covers the class [ɪ ʊ ə] banned from open syllables;
+
+    The distribution of ‘tenseness’ vis-à-vis length is largely accounted for by restrictions on
+
+[closed] and [lax]. The [lax] vowels [ɪ ʊ ə] cannot be long, because they are always found in
+
+closed syllables. The mid ‘lax’ vowels [ɛ] and [ɔ] do not fall within the scope of this general-
+
+ization — correctly, as they are found in open syllables in this variety of Welsh (example 15).
+
+In fact, the system in table 2 implies that the markedness relationships of tense and lax vow-
+
+els are reversed in high and mid subinventories: among the high vowels, lax [ɪ ʊ] are more
+
+marked (they bear the extra feature [lax]), and among the mid vowels, tense [e o] are more
+
+marked (they bear the extra feature [closed]).
+
+    In the high subinventory, this can be justiﬁed because the lax [ɪ ʊ ə] are associated with
+
+the more cross-linguistically marked context of closed syllables. We can think of the oblig-
+
+atory laxing of vowels in this context as a in instance of licensing: it is common in privative
+
+feature theories to assume that marked elements can only be retained in the presence of
+
+some additional material, and in this case [lax] licenses the coda.
+
+    As for the mid subinventory, in order to understand the markedness relationships
+
+between the sets [e o] and [ɛ ɔ], we need to determine the direction of the mid vowel tense-
+
+ness alternation. Does the alternation in [ˈkʰɔːdi] codi ‘rise’ vs. [ˈkʰoːdɔð] cododd ‘(s)he rose’
+
+reﬂect an underlying /ɔ/ raised before a non-high vowel or an underlying /o/ lowered before
+
+a high one?¹⁰
+   ¹⁰A reviewer rightly suggests a third possibility, namely that the underlying vowel is featurally identical to
+neither surface allophone. Particularly with binary features, one could, for instance, imagine an underspeciﬁed
+
+
+                                                       36
+    I suggest that the word ﬀenestr ‘window’, consistently realized with [ɛː] rather than the
+
+expected [eː] before a non-high vowel, provides a clue. Rather than being arbitrarily marked
+
+as exceptional, it could indicate that the phonological grammar fails to raise an input mid
+
+lax vowel, ensuring a faithful mapping in terms of quality even if the vowel is contextually
+
+lengthened. This analysis is, of course, also consistent with the possibility of long lax [ɛː ɔː]
+
+in English borrowings, discussed in section 2.2. Thus, alternations in codi ∼ cododd are ex-
+
+amples of lowering, or deletion of [closed] in the presence of another instance of this feature
+
+within a ﬁnal disyllabic domain; the domain could be, for instance, an uneven trochaic (H́L)
+
+foot.
+
+    This deletion gives the expected result when applied to /o/. Deletion of [closed] from /e/
+
+results in the disallowed segment {[coronal], [open]}, so [open] is further deleted to produce
+
+[ɛ]. In the high vowels, which are all [closed], deletion of this feature would produce disal-
+
+lowed segments in the case of /i/, /ɪ/, and /ʊ/; and the empty segment (presumably also
+
+disallowed) in the case of /u/, and therefore can be straightforwardly blocked.
+
+    I take the existence of the form [ˈfɛːnɛst] (and possibly also English borrowings) as in-
+
+dicating that there is no obligatory raising of long lax mid vowels, at least in monosyllables.
+
+Given that long mid vowels are (apparently) obligatorily tense in forms with ﬁnal stress like
+
+[ˈheːn] hen ‘old’, this requires us to posit either a tensing process somehow restricted to ﬁnal
+
+stressed syllables, or to admit a lexical gap, i. e. the absence of lexical items of the shape /hɛn/
+
+that would map to a surface [ˈhɛːn], as opposed to input /hen/, crucially with a [closed] /e/
+
+that lengthens. The latter is not in fact entirely unattractive, because a diachronic explana-
+
+tion for the gap is readily available: if mid long vowels in ﬁnal closed syllables are originally
+
+tense, there is no historical process by which they would become lax, and so the gap is simply
+
+due to the vagaries of history.¹¹
+
+    The relatively unrestricted patterning of [ɛ] and [ɔ] contrasts with the fact that [e] and
+
+[o] are subject to a further requirement. They are only allowed to surface when bimoraic:
+vowel and a feature-ﬁlling process. With unary features, this option is less appealing as the less marked vowel
+essentially is the underspeciﬁed correspondent. In the absence of strong positive evidence for setting up a third
+vowel category this option does not seem to have obvious advantages.
+   ¹¹See also Iosad 2017 for more evidence that historically long vowels in Welsh can enter an underlying (‘m-
+phonemic’) tenseness contrast.
+
+
+
+                                                      37
+                               Stressed                                   Unstressed
+                     Short                   Long                Closed                Open
+    Input    Output     Pattern     Output     Pattern     Output    Pattern    Output   Pattern
+    ɪʊ          ɪʊ                    iu            OST¹    ɪʊ                    iu      OST
+    iu          ɪʊ           CSL²     iu                    ɪʊ        CSL         iu
+    eo          ɛɔ           SVL³     eo                    ɛɔ        SVL         ɛɔ          SVL
+                                      ɛɔ            HD⁴
+    ɛɔ          ɛɔ                    ɛɔ                    ɛɔ                    ɛɔ
+                                     (e o)      (FLT)⁵
+    ¹ Open syllable tensing: ɪ ʊ → i u / in any open syllable
+    ² Close syllable laxing: i u → ɪ ʊ / in any closed syllable
+    ³ Short vowel laxing: e o → ɛ ɔ / when monomoraic
+    ⁴ Height dissimilation: e o → ɛ ɔ / before [closed] vowel
+    ⁵ Final long vowel tensing: ɛ ɔ → e o / in a ﬁnal stressed syllable
+
+             Table 3: Input-output mappings in a grammar of South-West Welsh
+
+
+mid vowels are obligatorily lax in unstressed syllables and in stressed syllables with moraic
+
+codas. This patterning asymmetry further supports the proposition that the ‘tense’ vowels
+
+[e o] are more marked than the ‘lax’ [ɛ ɔ], in a reversal of the situation observed in the high
+
+subinventory.
+
+   The phonological grammar of tenseness and laxness in South-Western Welsh is summar-
+
+ized in table 3. It shows various types of potential inputs in diﬀerent contexts, and any rules
+
+(or, in OT parlance, unfaithful mappings) that are required to eﬀect the necessary changes.
+
+As discussed above, it is not clear whether input [ɛ ɔ] become [e o] when long in a ﬁnal syl-
+
+lable.
+
+
+4.1.2    Other phonological processes
+
+Apart from the grammar of tenseness and laxness, the proposed featural speciﬁcations
+
+should also be consistent with other morphophonological alternations in Welsh. These tend
+
+to involve the coarser vowel categories (i. e.//i//, //u// etc.). The most important phenom-
+
+ena are the following (Iosad 2012, Hannahs 2013):
+
+
+
+
+                                                     38
+    • ‘Vowel mutation’: /ə/ is realized as //i// in a ﬁnal syllable; this neutralization can be
+
+        analysed as deletion of [dorsal] (and [lax] if necessary because of syllable structure) to
+
+        produce //i//;¹²
+
+    • ‘Vowel mutation’ in some varieties also encompasses the alternation between the diph-
+
+        thong [ai] in a ﬁnal syllable and [ei] in a non-ﬁnal one: [ˈbraiχ] braich ‘hand’ ∼ [ˈbreiχɛ]
+
+        breichiau ‘hands’, analysed as spreading of [coronal] from the glide to the nucleus of
+
+        the diphtong;
+
+    • Finally, an underlying [ɔ] in some stressed monosyllables alternates with [ə], or [ɪ]
+
+        where schwa is excluded from this context: [ˈfɔn] ﬀon ‘stick’, pl. [ˈfən] or [ˈfɪn] ﬀyn; Iosad
+
+        (2012) analyses this is as addition of a ﬂoating [coronal], and uses this evidence for the
+
+        analysis of //ə// as the union of the features of //o// and //i//.
+
+    The present proposal preserves in the main the analysis in Iosad (2012); I refer to that
+
+work for detailed justiﬁcation. The speciﬁcations are consistent with a substance-free ap-
+
+proach in that they refer only to phonological patterning: for instance, //o// and //u// do
+
+not share features, in contrast to an approach where they would share a colour speciﬁcation,
+
+because they do not act as a class in any phonological pattern of Welsh.
+
+
+4.1.3    The feature analysis and the contrastive hierarchy
+
+I will now discuss how the present analysis is relevant to the Contrastivist Hypothesis. In par-
+
+ticular, what is the import of contrastivism if phonological representations are constructed
+
+‘from the bottom up’, on the basis of the inventory of categorically distinct units and their
+
+behaviour in the grammar? One could imagine that if there is enough evidence for phonolo-
+
+gical activity of redundant distinctions, then this could defeat the Contrastivist Hypothesis
+
+(cf. Blaho 2008: §1.2.2).
+
+    Indeed, the emphasis in much contrastivist practice has been on identifying the proper
+
+assignment of a closed set of universal features, and Hall (2011) in particular presents a de-
+
+fence of this approach over emergent-feature theories in a contrastivist context. However,
+    ¹²Traditionally ‘vowel mutation’ also encompasses the alternation between ﬁnal-syllable [u] and non-ﬁnal
+[ə], but see Iosad 2012 for arguments that this is not a phonological pattern in Modern Welsh.
+
+
+                                                    39
+                                           iɪəuʊeɛoɔa
+
+
+                                   uʊoɔa                          [coronal]
+                                                                   iɪəeɛ
+                          ɔa                   [closed]
+                                                 uʊo                  ɛ        [closed]
+                                                                                 iɪəe
+                 [open]    [dorsal]
+                    a         ɔ           uo              [lax]
+                                                            ʊ         iɪə             [open]
+                                                                                         e
+                                      u   [dorsal]
+                                             o                    i           [lax]
+                                                                               ɪə
+
+
+                                                                          ɪ     [dorsal]
+                                                                                   ə
+
+                   Figure 10: Contrastive hierarchy for South-West Welsh
+
+
+both Cowper & Hall (2014) and Dresher (2014) suggest that emergent features are compatible
+
+with contrastivism, as long as the foundational importance of contrast is also recognized.
+
+   Here, I follow the latter line of inquiry, and suggest that the Contrastivist Hypothesis can
+
+be made contentful in the context of emergent features by restating it as a condition on in-
+
+ventories. Speciﬁcally, I suggest that a set of featural speciﬁcations in an inventory is con-
+
+sistent with the Contrastivist Hypothesis if there exists a contrastive hierarchy constructed
+
+in line with the Successive Division Algorithm (SDA; Dresher 2009) that assigns that set of
+
+speciﬁcations to that inventory.
+
+   Brieﬂy, the Successive Division Algorithm takes an inventory and uses some feature F to
+
+divide it into two subinventories depending on whether they bear F (or [+F ] and [−F ] values,
+
+in the binary version), and then recursively repeats that procedure with diﬀerent features,
+
+stopping when a subinventory consists of a single segment. This guarantees lack of redund-
+
+ancy: the algorithm only assigns a feature to a segment if it contributes to distinguishing it
+
+from some other segment. However, the SDA is not fully deterministic: the set of features
+
+used in a particular language, and the order of subdivisions, are subject to cross-linguistic
+
+variation.
+
+                                                 40
+      Successive division can be applied to both binary and unary features. Figure 10 shows
+
+a contrastive hierarchy corresponding to the inventory of South-West Welsh proposed in
+
+table 2. It has been constructed following the version of the SDA for privative features de-
+
+scribed by Hall (2007), with one non-trivial diﬀerence.
+
+      Hall’s (2007) SDA for privative features guarantees that one of the segments in the invent-
+
+ory remains featurally empty, because every cut produces a subinventory where no feature is
+
+assigned. I suggest that the presence of such an empty segment is a matter of cross-linguistic
+
+variation. It may well be that in some languages there is strong evidence for such empty seg-
+
+ments in the phonological grammar. However, it is also possible that no evidence is avail-
+
+able for a featurally empty segment: for instance, even if it is theoretically possible in inputs,
+
+the grammar may insist on always inserting some features to neutralize it with another seg-
+
+ment. I suggest that in such cases the empty segment’s place in the contrastive hierarchy
+
+may be occupied by another segment speciﬁed for a single feature, with the restriction that
+
+this feature is also used elsewhere in the hierarchy. Such features are deemed to be available,
+
+because they, as our formulation of the Contrastivist Hypothesis has it, are still necessary to
+
+distinguish (some other) phonemes of the language. If a feature were only assigned to this
+
+isolated segment, it cannot be said to be necessary, as the segment would still be distinct if
+
+it remained unspeciﬁed.
+
+      In the case of South-Welsh Welsh, I suggest the segment is [a] and the feature is [open],
+
+which is also assigned to [e] fully in line with the algorithm. With this amendment, the invent-
+
+ory of South-West Welsh proposed in table 2 is consistent with the Contrastivist Hypothesis
+
+and allows us to successfully account for the behaviour of the categories ‘tense’ and ‘lax’ this
+
+variety.
+
+
+4.2     The standard southern system
+
+Applying the criteria for phonological status used in the previous section to the standard
+
+southern system shows that the set of categories active in the phonological grammar is es-
+
+sentially identical to that in the south-west. The high vowels //i// and //u// show the same
+
+sensitivity to syllable structure — tense in open syllables, lax in closed syllables. Thus, the
+
+
+                                                41
+[i]/[ɪ] and [u]/[ʊ] distinctions are visible to the phonology. The markedness reasoning also
+
+carries over unchanged: [ɪ] and [ʊ] are more marked than [i] and [u].
+
+   The status of ‘tenseness’ in mid vowels is less clear. The distinction interacts with moraic
+
+structure, so by the modularity criterion its phonological status is assured. However, there
+
+are fewer cues to its featural content, since it is not involved in interactions with other seg-
+
+ments. Yet there is an important diﬀerence between the standard southern and the south-
+
+western system: in the latter, mid vowels are bimoraic if they are tense; in the former, mid
+
+vowels are bimoraic if and only if they are tense. Thus, the argument from restricted distri-
+
+bution cannot be used to decide whether ‘tense’ or ‘lax’ mid vowels are more marked, as the
+
+restrictions are symmetrical.
+
+   One could reason that the mid tense vowels are more marked, since they are associated
+
+with the marked context of bimoraicity (much as lax high vowels are marked because they
+
+are associated with the marked context of closed syllables). Although such arguments are
+
+not particularly decisive, by parity of reasoning I adopt the solution whereby in high vowels
+
+it is the lax member that bears an extra feature, and in mid vowels it is the tense member.
+
+In any case, as in the south-western system, there does not appear to be positive phonolo-
+
+gical evidence for treating the ‘tenseness’ distinction in the mid and high vowels as instan-
+
+tiating the same contrast. Table 4 lays out the proposed analysis, with speciﬁcations for the
+
+south-western system from table 2 added in grey for comparison. Note that although I use
+
+the same feature labels as in preceding section, no phonetic identity or similarity is neces-
+
+sarily implied.
+
+   It is worth noting the diﬀerence is the speciﬁcation of [a], which only has the feature
+
+[tense], whereas in the south-western system it is [open]. The reason is the diﬀerent scope
+
+of [closed], which only singles out high vowels (and [ə]) in the latter, but does some of the
+
+work of [tense] in the former: essentially, in the standard southern system [tense] does the
+
+work that [closed] cannot do because there is no phonological relationship between /e o/
+
+on the one hand and high vowels on the other. This has a desirable consequence: if [a] is
+
+[tense], then the low vowel is expected not to support the tenseness distinction, agreeing
+
+
+
+
+                                              42
+            Segment     [coronal]   [dorsal]   [lax]    [closed]   [tense]   [open]
+            /i/            ✓                               ✓
+                           ✓                               ✓
+            /ɪ/            ✓                        ✓      ✓
+                           ✓                        ✓      ✓
+            /u/                                            ✓
+                                                           ✓
+            /ʊ/                                            ✓
+                                                    ✓      ✓
+            /ə/            ✓           ✓            ✓      ✓
+                           ✓           ✓            ✓      ✓
+            /e/            ✓                                         ✓
+                           ✓                               ✓                   ✓
+            /ɛ/            ✓
+                           ✓
+            /o/                        ✓                             ✓
+                                       ✓                   ✓
+            /ɔ/                        ✓
+                                       ✓
+            /a/                                                      ✓
+                                                                               ✓
+
+            Table 4: Featural representations for the standard southern system
+
+
+with the instrumental data available so far: as noted in section 2.1, no instrumental study
+
+has yet corroborated the claims of a qualitative diﬀerence between short and long vowels.
+
+   Figure 11 shows a contrastive hierarchy, drawn up on the same principles as that in the
+
+previous section and compatible with the speciﬁcations in table 4.
+
+   Thus, despite the essentially identical surface inventory, the ‘south-western’ and ‘stand-
+
+ard southern’ systems diﬀer both in representation (i. e. featural speciﬁcations) and compu-
+
+tation (i. e. the patterns and rankings that account for them). This supports the position of
+
+emergent feature theory, where the symbolic representation of very similar phonetic phe-
+
+nomena can vary cross-linguistically and must be discovered with reference to patterns of
+
+distribution and alternation.
+
+
+
+
+                                               43
+                                              iɪəuʊeɛoɔa
+
+
+                                  eɛoɔa                            [closed]
+                                                                    iɪəuʊ
+                         aoɔ                 [cor]
+                                              eɛ              uʊ        [coronal]
+                                                                           iɪə
+                   [tense]       [dor]
+                      a           oɔ     ɛ     [tense]    u    [lax]
+                                                  e              ʊ        i       [lax]
+                                                                                   ɪə
+                             ɔ     [tense]
+                                      o
+                                                                              ɪ      [dor]
+                                                                                       ə
+
+               Figure 11: Contrastive hierarchy for the standard southern system
+
+
+4.3     Featural analysis: summary
+
+The cross-dialectal investigation of quantity-quality interaction in Welsh vowels demon-
+
+strates non-trivial cross-dialectal divergences in inventories, the phonological interpreta-
+
+tion of very similar phonetic contrasts, and phonological grammars. In all cases, the most
+
+important diﬀerences concern the status of ‘tenseness’.
+
+      In the standard southern system, the tenseness distinction covers all vowels (except [ə]
+
+and [a]), but it does not create a surface (‘s-phonemic’) contrast, and there is little positive
+
+phonological evidence to connect this distinction in high vowels with the one in mid vowels.
+
+      By contrast, in the south-western system the distinction interacts with other features,
+
+which provides some evidence as to its nature within the context of the broader grammar.
+
+Moreover, in this system ‘tenseness’ is not just phonologized, but also phonemicized (Hy-
+
+man 1976): it appears to be necessary in underlying representations to account for forms
+
+like [ˈfɛːnɛst] ‘window’. In the next section I discuss the role of the phonologization process
+
+in creating these situations.
+
+
+
+
+                                                     44
+5    Phonologization, redundancy, and the Contrastivist Hypothesis
+
+We can now return to the question of whether assigning a phonological ‘tenseness’ speciﬁc-
+
+ation to Welsh vowels is consistent with the Contrastivist Hypothesis, using the criteria in
+
+section 1.2. To recap, we established the following:
+
+    • The set of Welsh phonological patterns P contains categorical patterns involving pro-
+
+      prietary phonological entities such as syllables;
+
+    • It is possible to envisage a set of Welsh phonemes PH where ‘tense’/‘lax’ pairs such as
+
+      /e/ and /ɛ/ are treated as separate phonemes;
+
+    • It is possible to use a version of the Successive Division Algorithm to assign a set of non-
+
+      redundant speciﬁcations for PH using the feature set F (that includes, in this case, the
+
+      features [tense] and [lax]);
+
+    • All patterns in P make crucial reference to features that are present in F.
+
+    Under these criteria, then, Welsh ‘tenseness’ does not present a counterexample to the
+
+Contrastivist Hypothesis even if quality is also treated as phonologically relevant. This result
+
+stands in stark distinction to the traditional analysis that must designate ‘tenseness’ as an
+
+allophonic phenomenon.
+
+    The key to the disconnect between the various understanding of contrastiveness lies in
+
+the life cycle of phonological processes, and speciﬁcally in the process of phonologization.
+
+Phonologization represents not so much a change in the observed patterns as a change in
+
+their interpretation by the learner. At least in the early stages of phonologization the distribu-
+
+tion of newly created categories adheres very closely to the original phonetic conditioning,
+
+and thus appears to be ‘allophonic’ under traditional criteria. This is shown in ﬁg. 12.
+
+    Before phonologization, the grammar maps an input category /α / to a single category
+
+[α ] in the surface phonological representation. However, enhancement (or other phonetic
+
+implementation processes) maps that output category [α ] to several distinct regions in the
+
+phonetic space (contexts A and B). After phonologization, the grammar includes rules map-
+
+ping input /α / to [α ] in context A but to [ β ] in context B, with attendant implementation
+
+                                               45
+        Phonology: input              Phonology: output                      Phonetics
+
+            Context A                      Context A                     t   Context A
+                                                                    cemen
+                           grammar                         enhan
+                                                           enha
+                                                                n  ceme
+            Context B                      Context B                   nt    Context B
+               /α /                             [α ]
+                                      (a) Before phonologization
+
+        Phonology: input             Phonology: output                       Phonetics
+                                                   implementation
+            Context A            a r    Context  A                           Context A
+                           gramm
+                                            [α ]
+                           gramm
+                                 ar
+            Context B                      Context B                         Context B
+                                                     implementation
+               /α /                          [ β]
+                                      (b) After phonologization
+
+        Figure 12: Phonology-phonetics relationships before and after phonologization
+
+
+mechanisms for [α ] and [ β ]. In both cases, input phonological /α / corresponds to a similar
+
+distribution of the phonetic variants, but the underlying mechanism has changed.
+
+    In the case of Welsh ‘tenseness’, the original ‘enhancement’ mechanism is the raising
+
+of long vowels, still apparently absent in (parts of) the ‘non-enhanced’ system. This raising
+
+must have originally been a pure implementation eﬀect. In the standard southern system,
+
+however, this implementation eﬀect coexists with its phonological congener, a categorical
+
+tensing rule for long vowels — an example of what Bermúdez-Otero (2015) calls ‘rule scatter-
+
+ing’.
+
+    This framework requires the phonological computation to be able to create fully predict-
+
+able (‘allophonic’) distributions of phonological symbols (such as segments) and thus break
+
+the link between phonological status and predictability. Indeed, just such a requirement has
+
+been at the heart of objections to the taxonomic phoneme — and hence to a privileged role
+
+for contrast in phonology since at least Bloomﬁeld 1939. Here, I suggest that even if we recog-
+
+nize that phonological computation can enforce such predictable distributions, a contrast-
+
+
+
+
+                                                 46
+ivist approach provides a strong and useful restriction on inventory structure if it is reframed
+
+with reference to non-redundant speciﬁcation implemented with a contrastive hierarchy.
+
+    In our deﬁnition of the Contrastivist Hypothesis, no phonological pattern can make ref-
+
+erence to features that are not necessary to distinguish the phonemes of the language.¹³ I
+
+suggest here that a feature is ‘necessary’ for the purposes of this deﬁnition if it is used to dis-
+
+tinguish between at least one pair of segments without redundancy — that is, within a set of
+
+speciﬁcations consistent with being constructed by the Successive Division Algorithm. For
+
+instance, in the ‘standard’ Welsh system the features [lax] and [tense] are not redundant,
+
+since they distinguish between pairs that are otherwise non-distinct (such as [i]/[ɪ]).
+
+    The ‘(non-)redundancy’ of a feature is always relative to the entire set of speciﬁcations for
+
+the given language’s inventory. A contrastive hierarchy captures the insight that redundancy
+
+is always contingent and language-speciﬁc. Much work in this area, usefully summarized by
+
+Dresher (2009), has shown the range of cross-linguistic variation in contrastive speciﬁcation.
+
+As Dresher (2014) argues, the way each language structures the space of available distinc-
+
+tions determines the patterning of phonological symbols; the constitutive role of contrast,
+
+both in phonological and morphosyntactic domains, is also underlined by Cowper & Hall
+
+(2014).
+
+    How, then, can one falsify the Contrastivist Hypothesis within an emergent-feature
+
+framework? Such a falsiﬁcation requires identifying the set of phonological symbols and
+
+phonological patterns, with reference to independent criteria for phonological status. I have
+
+suggested that categoricity is an important necessary condition, but also argued that it is
+
+not suﬃcient, given the possibility of categorical patterns emerging from non-categorical
+
+underlying processes, and suggested modularity as an additional criterion. Building on this
+
+analysis, the featural implementations of the necessary distinctions can be subjected to the
+
+contrastivist test: given a proposed phonological grammar P manipulating (emergent) fea-
+
+tures F, can the set F be derived using a contrastivist approach such as successive division?
+    ¹³The deﬁnition of ‘phonological activity’ — whether the grammar ‘makes reference’ to a feature — depends
+on the framework. In a rule-based approach, ‘activity’ must mean being present in the structural description or
+structural change of some rule. In a constraint-based approach, a feature could be ‘active’ if referred to by an
+‘active’ constraint, following the deﬁnition by Kiparsky (2017): ‘a constraint is active at a given level if it is ranked
+in such a way that it is visible in at least some derivation, i. e. that the output would be diﬀerent if it were removed
+entirely’.
+
+
+                                                           47
+The Contrastivist Hypothesis can then be falsiﬁed if some independently motivated set of
+
+speciﬁcations F cannot be derived in such a non-redundant manner. Such a falsiﬁcation
+
+is, of course, contingent on a fully worked-out analysis of the patterns of the individual lan-
+
+guage.
+
+
+
+6    Conclusion
+
+In this paper I have shown how an approach based on the contrastive hierarchy is compat-
+
+ible with emergent feature theory. As both Dresher (2014) and Cowper & Hall (2014) em-
+
+phasize, constrastive speciﬁcation via successive division provides a fundamental mechan-
+
+ism for feature speciﬁcation, but does not necessarily put substantive restrictions on the
+
+nature of the distinctive features involved. An emergent-feature approach goes hand in hand
+
+with a theory of phonologization, where symbolic phonological generalizations emerge over
+
+the course of the life cycle. Once the categories are identiﬁed, the learner must label them.
+
+The labelling can be subject both to bottom-up pressures (e. g. the learnability advantage
+
+aﬀorded by phonetically coherent categories) and to top-down inﬂuence. For the latter cat-
+
+egory, this paper has focused on morphophonological patterns as an important source of
+
+evidence for phonological speciﬁcation, in line with emergent feature theory and contrast-
+
+ivist approaches.
+
+    The study of microvariation in featural speciﬁcations reiterates the advantages of emer-
+
+gent features. The varieties examined here have very similar surface inventories, and yet the
+
+behaviour of the ‘tenseness’ distinction diﬀers in the three varieties. Emergent features al-
+
+low us to not only oﬀer an analysis of the patterns but also capture these cross-linguistic
+
+diﬀerences in a way that universal feature speciﬁcations fail to do, either because they can-
+
+not capture the right classes of segments (as in the case of the restriction on [ə ɪ ʊ] in open
+
+syllables) or because they predict the existence of classes for which there is no phonological
+
+evidence (as in the case of the set of [+tense] segments, which show diﬀering markedness
+
+behaviour in the high and mid subinventories).
+
+
+
+
+                                              48
+    Further questions remain. One issue, as a reviewer correctly points out, is at what level
+
+the ‘inventory’ PH relevant for contrastive speciﬁcation should be determined. In the ana-
+
+lysis given here, I have emphasized the phonological visibility of predictable information,
+
+which sits rather uncomfortably with the generativist emphasis on inventories of ‘m-phon-
+
+emes’ — segments that should be posited in underlying representations, stripped of predict-
+
+able information introduced computationally.
+
+    It may well be turn out to be the case that the right level for generalizations about ‘invent-
+
+ories’ is what Kiparsky (2017) calls the ‘l-phonemic’ level: the output of the lexical stratum,
+
+which may contain predictable information.¹⁴ By reframing the issue of ‘contrast’ in terms
+
+of lack of redundancy, I have not considered in detail whether the [tense] and [lax] speciﬁc-
+
+ations should be present at Kiparsky’s ‘m-phonemic’ level, i. e. whether they are contrast-
+
+ive in the traditional generative sense. For the south-western system, there are indications
+
+that at least for the mid vowels this distinction must be encoded there (‘phonemicized’ in
+
+the sense of Hyman 1976) given the existence of unpredictable lax long vowels ([ˈfɛːnɛst]
+
+‘window’). For the high vowels in the south-western system and all non-low vowels in the
+
+standard southern system, however, the distribution still appears fully predictable. Whether
+
+‘tenseness’ should be encoded ‘m-phonemically’ in these cases is a separate question that
+
+cannot be addressed here in detail. Under certain OT assumptions, it is likely that this could
+
+be the case that non-alternating forms lead the learner to postulate a distinction between
+
+underlying (say) /ɛ/ and /e/ (for the standard southern system, cf. [ˈweːdi] wedi ‘after’ but
+
+[ˈvɛɬi] felly ‘so’); (cf. Krämer 2012). By contrast, Dunbar, Dillon & Idsardi (2013) argue that
+
+fully predictable (‘allophonic’) variation is factored out during the learning process so that
+
+such distinctions are not postulated underlyingly. I leave the exploration of this question to
+
+further research.
+
+    Another open question is whether the Contrastivist Hypothesis is applicable to all as-
+
+pects of phonological representation, or only to subsegmental features. In the case of Welsh,
+
+I have not included moraic or other quantity speciﬁcations in the contrastive hierarchy. It is,
+
+however, clear that if the analysis of quantity laid out in section 2.2 moraic speciﬁcations are
+  ¹⁴See also, for instance, Mackenzie (2016) for discussion of the relationship between contrastive speciﬁcation
+and stratal computation.
+
+
+                                                      49
+contrastive in the ‘m-phonemic’ sense, since moraic and nonmoraic /n l r/ are underlyingly
+
+distinct; thus, the case treated here should not be problematic for contrastivist approaches.
+
+However, the question remains open in more general terms: for instance, Kiparsky (2017)
+
+rejects the Contrastivist Hypothesis as formulated by Hall (2007) precisely because supraseg-
+
+mental phenomena such as stress or syllabiﬁcation can be phonologically relevant without
+
+being contrastive underlyingly.
+
+   To conclude, Dresher (2014) objects to emergent-feature approaches on the grounds that
+
+they put too much of an explanatory burden on extraphonological factors and not enough
+
+on formal phonological structure. I have argued that both types of factors play an important
+
+role in a substance-free analysis. While functional and learnability pressures undoubtedly
+
+have an inﬂuence, in particular through their role in phonological change (including phono-
+
+logization), non-trivial formal hypotheses can be formulated and tested within a substance-
+
+free approach. In particular, an emergent-feature analysis can shed light on an important
+
+challenge to the Contrastivist Hypothesis, and contribute to its reconciliation with the data.
+
+The emphasis on phonology-internal evidence inherent in an emergent-feature approach
+
+allows us to clearly identify independent, computationally framed criteria for phonologiz-
+
+ation (phonological status) that put contrastivist approaches on a ﬁrmer methodological
+
+footing.
+
+
+
+References
+
+Adank, Patti, Roel Smits & Roeland van Hout. 2004. A comparison of vowel normalization
+
+   procedures for language variation research. Journal of the Acoustical Society of America
+
+   116(5). 3099–3107.
+
+Awbery, Gwenllian M. 1984. Phonotactic constraints in Welsh. In Martin J. Ball & Glyn E.
+
+   Jones (eds.), Welsh phonology: Selected readings, 65–104. Cardiﬀ: University of Wales
+
+   Press.
+
+Awbery, Gwenllian M. 1986. Pembrokeshire Welsh: A phonological study. Llandysul: Welsh
+
+   Folk Museum.
+
+
+
+                                             50
+Ball, Martin J. & Briony Williams. 2001. Welsh phonetics (Welsh Studies 17). Lewiston, Queen-
+
+   ston & Lampeter: Edwin Mellen Press.
+
+Bermúdez-Otero, Ricardo. 2012. The architecture of grammar and the division of labour in
+
+   exponence. In Jochen Trommer (ed.), The phonology and morphology of exponence: The
+
+   state of the art (Oxford Studies in Theoretical Linguistics 41), 8–83. Oxford: Oxford Uni-
+
+   versity Press.
+
+Bermúdez-Otero, Ricardo. 2015. Amphichronic explanation and the life cycle of phonolo-
+
+   gical processes. In Patrick Honeybone & Joseph C. Salmons (eds.), The Oxford handbook
+
+   of historical phonology, 374–399. Oxford: Oxford University Press.
+
+Blaho, Sylvia. 2008. The syntax of phonology: A radically substance-free approach. Tromsø:
+
+   University of Tromsø dissertation.
+
+Bloomﬁeld, Leonard. 1939. Menomini morphophonemics. Travaux du cercle linguistique de
+
+   Prague 8. 105–115.
+
+Boersma, Paul & David Weenink. 2015. Praat: Doing phonetics by computer.
+
+Botma, Bert & Marc van Oostendorp. 2012. A propos of the Dutch vowel system 21 years on,
+
+   22 years on. In Bert Botma & Roland Noske (eds.), Phonological explorations: Empirical,
+
+   theoretical and diachronic issues, 135–154. Berlin: De Gruyter.
+
+Burnham, Kenneth P. & David R. Anderson. 2004. Multimodel inference: Understanding AIC
+
+   and BIC in model selection. Sociological Methods and Research 33(2). 261–304.
+
+Bye, Patrik & Paul de Lacy. 2008. Metrical inﬂuences on fortition and lenition. In Joaquim
+
+   Brandão de Carvalho, Tobias Scheer & Philippe Ségéral (eds.), Lenition and fortition
+
+   (Studies in Generative Grammar 99), 173–206. Berlin: Mouton de Gruyter.
+
+Chomsky, Noam & Morris Halle. 1967. The sound pattern of English. New York: Harper & Row.
+
+Clements, G. Nick & Elizabeth V. Hume. 1995. The internal organization of speech sounds. In
+
+   John Goldsmith (ed.), The handbook of phonological theory, 245–306. Oxford: Blackwell.
+
+Cowper, Elizabeth & Daniel Currie Hall. 2014. Reductiō ad discrīmen: Where features come
+
+   from. Nordlyd 41(2). 145–164.
+
+Crosswhite, Catherine M. 2000. Vowel reduction in Russian: A uniﬁed account of standard,
+
+   dialectal, and ‘dissimilative’ patterns. In Catherine M. Crosswhite & Joyce McDonough
+
+
+                                             51
+   (eds.), University of Rochester working papers in the language sciences, vol. Spring 2000,
+
+   107–171.
+
+Dresher, B. Elan. 2009. The contrastive hierarchy in phonology. Cambridge: Cambridge Uni-
+
+   versity Press.
+
+Dresher, B. Elan. 2014. The arch not the stones: Universal feature theory without universal
+
+   features. Nordlyd 41(2). 165–181.
+
+Dresher, B. Elan, Glyne Piggott & Keren Rice. 1994. Contrast in phonology: overview. Toronto
+
+   Working Papers in Linguistics 14. iii–xvii.
+
+Dunbar, Ewan, Brian Dillon & William J. Idsardi. 2013. A Bayesian evaluation of the cost of
+
+   abstractness. In Montserrat Sanz, Itziar Laka & Michael K. Tanenhaus (eds.), Language
+
+   down the garden path: The cognitive and biological basis for linguistic structures, 360–
+
+   384. Oxford: Oxford University Press.
+
+Durand, Jacques. 2005. Tense/lax, the vowel system of English and phonological theory. In
+
+   Philip Carr, Jacques Durand & Colin J. Ewen (eds.), Headhood, elements, speciﬁcation, and
+
+   contrastivity: Papers in honour of John Anderson (Current Issues in Linguistic Theory 259),
+
+   77–97. Amsterdam: John Benjamins.
+
+Ellis, Nick C., Cathal O’Docharthaigh, William Hicks, Menna Morgan & Nadine Laporte. 2001.
+
+   Cronfa Electroneg o Gymraeg (CEG): A 1 million word lexical database and frequency
+
+   count for Welsh. http://www.bangor.ac.uk/canolfanbedwyr/ceg.php.en.
+
+Grawunder, Sven, Sabine Asmus & Cormac Anderson. 2015. On the correlation of acoustic
+
+   vowel and coda duration in modern Welsh C(C)VC monosyllables. In The Scottish Con-
+
+   sortium for ICPhS 2015 (ed.), Proceedings of the 18th International Congress of Phonetic
+
+   Sciences. Glasgow: The University of Glasgow.
+
+Hall, Daniel Currie. 2007. The role and representation of contrast in phonological theory.
+
+   Toronto: University of Toronto dissertation.
+
+Hall, Daniel Currie. 2011. Phonological contrast and its phonetic enhancement: Dispersed-
+
+   ness without dispersion. Phonology 28(1). 1–54.
+
+Hannahs, S. J. 2013. The phonology of Welsh. Oxford: Oxford University Press.
+
+Harris, John. 1994. English sound structure. Oxford: Blackwell.
+
+
+                                                 52
+Hyman, Larry M. 1976. Phonologization. In Alphonse Juilland (ed.), Linguistic studies presen-
+
+   ted to Joseph H. Greenberg, 407–418. Saratoga: Anna Libri.
+
+Hyman, Larry M. 2013. Enlarging the scope of phonologization. In Alan C. L. Yu (ed.), Origins
+
+   of sound change: Approaches to phonologization, 3–28. Oxford: Oxford University Press.
+
+Iosad, Pavel. 2012. Representation and variation in substance-free phonology: A case study in
+
+   Celtic. Tromsø: University of Tromsø dissertation.
+
+Iosad, Pavel. 2016. Welsh vowels data. Dataset. http://datashare.is.ed.ac.uk.
+
+Iosad, Pavel. 2017. The ATR/Laryngeal connection and emergent features. In Bert Botma &
+
+   Marc van Oostendorp (eds.), Primitives of phonological structure. Oxford: Oxford Univer-
+
+   sity Press. Forthcoming.
+
+Jakobson, Roman, Gunnar Fant & Morris Halle. 1951. Preliminaries to speech analysis. Cam-
+
+   bridge, MA: MIT Press.
+
+Jones, Christine & David Thorne. 1992. Dyfed: Blas ar ei thafodieithoedd. Llandysul: Gwasg
+
+   Gomer.
+
+Jones, Glyn E. 1971. Hyd llafariaid yn y Gymraeg. Studia Celtica 6. 175–188.
+
+Jones, Glyn E. 1984. The distinctive vowels and consonants of Welsh. In Martin J. Ball & Glyn
+
+   E. Jones (eds.), Welsh phonology: Selected readings, 40–64. Cardiﬀ: University of Wales
+
+   Press.
+
+Jones, Glyn E. 2000. Iaith lafar Brycheiniog: Astudiaeth o’i ﬀonoleg a’i morﬀoleg. Caerdydd:
+
+   Gwasg Prifysgol Cymru.
+
+Kiparsky, Paul. 2015. Phonologization. In Patrick Honeybone & Joseph C. Salmons (eds.), The
+
+   Oxford handbook of historical phonology, 563–582. Oxford: Oxford University Press.
+
+Kiparsky, Paul. 2017. Formal and empirical issues in phonological typology. In Larry Hyman
+
+   & Frans Plank (eds.), Phonological typology (Phonetics and Phonology 23). Berlin: De
+
+   Gruyter. Forthcoming.
+
+Kniazev, Sergey & Evgeniy Šaul’skij. 2007. Генезис диссимилятивного аканья (в связи
+
+   с проблемой фонологизации фонетических явлений) [The genesis of dissimilative
+
+   akan’je and the problem of phonologization]. Russkij jazyk v naučnom osveščenii 13(1).
+
+   210–224.
+
+
+                                             53
+Krämer, Martin. 2012. Underlying representations (Key Topics in Phonology 2). Cambridge:
+
+   Cambridge University Press.
+
+Lewis, David Gerwyn. 1960. Astudiaeth eirfaol o iaith lafar gogledd-orllewin Ceredigion.
+
+   Aberystwyth: University of Wales, Aberystwyth MA thesis.
+
+Lindblom, Björn. 1963. Spectrographic study of vowel reduction. The Journal of the Acous-
+
+   tical Society of America 35(11). 1773.
+
+Mackenzie, Sara. 2013. Laryngeal co-occurrence restrictions in Aymara: Contrastive repres-
+
+   entations and constraint interaction. Phonology 30. 297–345.
+
+Mackenzie, Sara. 2016. Consonant harmony in Nilotic: Contrastive speciﬁcations and Stratal
+
+   OT. Glossa 1(1), 12. 1–38.
+
+Mayr, Robert & Hannah Davies. 2011. A cross-dialectal acoustic study of the monophthongs
+
+   and diphthongs of Welsh. Journal of the International Phonetic Association 41(1). 1–25.
+
+Mielke, Jeﬀ. 2008. The emergence of distinctive features. Oxford: Oxford University Press.
+
+Morén, Bruce. 2001. Distinctiveness, coercion, and sonority: A uniﬁed theory of weight. Lon-
+
+   don, New York: Routledge.
+
+Morén, Bruce. 2006. Consonant–vowel interactions in Serbian: Features, representations
+
+   and constraint interactions. Lingua 116(8). 1198–1244.
+
+Morris, Jonathan. 2010. Phonetic variation in North Wales: preaspiration. In Proceedings of
+
+   the Second Summer School on Sociolinguistics, University of Edinburgh. http://www.lel.
+
+   ed.ac.uk/sssocio/proceedings/Jon.pdf.
+
+Myers, Scott. 2000. Boundary disputes: The distinction between phonetic and phonological
+
+   sound patterns. In Noel Burton-Roberts, Philip Carr & Gerard Docherty (eds.), Phonolo-
+
+   gical knowledge: Concepts and empirical issues, 245–272. Oxford: Oxford University Press.
+
+Odden, David. 2013. Formal Phonology. Nordlyd 40(1). 24–43.
+
+Pearce, Mary. 2007. ATR allophones or undershoort in Kera? UCL Working Papers in Linguist-
+
+   ics 19.
+
+Pilch, Herbert. 1957. Das kymrische Lautsystem. Zeitschrift für vergleichende Sprach-
+
+   forschung auf dem Gebiete der Indogermanischen Sprachen 75(1/2). 24–57.
+
+
+
+
+                                             54
+Prince, Alan S. & Paul Smolensky. 1993. Optimality Theory: Constraint Interaction in Gener-
+
+   ative Grammar. Tech. rep. Rutgers University Center for Cognitive Science & University
+
+   of Colorado, Boulder.
+
+R Core Team. 2016. R: A Language and Environment for Statistical Computing. Version 3.2.4.
+
+   R Foundation for Statistical Computing. Vienna, Austria. http://www.R-project.org/.
+
+Scheer, Tobias. 2010. A guide to morphosyntax–phonology interface theories: How extra-
+
+   phonological information is treated in phonology since Trubetzkoy’s Grenzsignale. Berlin:
+
+   Mouton de Gruyter.
+
+Scobbie, James M. 2007. Interface and overlap in phonetics and phonology. In Charles Reiss
+
+   & Gillian Ramchand (eds.), The Oxford handbook of linguistic interfaces, 17–52. Oxford:
+
+   Oxford University Press.
+
+Sommerfelt, Alf. 1925. Studies in Cyfeiliog Welsh: A contribution to Welsh dialectology.
+
+   Avhandlinger utgitt av Det Norske Videnskaps-Akademi i Oslo. II. Hist.-Filos. Klasse. 192,
+
+   No. 3. Oslo: I kommission hos Jacob Dybwad.
+
+Strycharczuk, Patrycja. 2012. Phonetics-phonology interaction in pre-sonorant voicing.
+
+   Manchester: University of Manchester dissertation.
+
+Thomas, Alan R. 1960. Ffonemau llafarog tafodiaith Dyﬀryn Wysg. Bulletin of the Board of
+
+   Celtic Studies 18. 265–270.
+
+Thomas, Alan R. 1961. Ffonemau cytseiniol tafodiaith Dyﬀryn Wysg. Bulletin of the Board of
+
+   Celtic Studies 19. 193–201.
+
+Thomas, Alan R. 1966. Systems in Welsh phonology. Studia Celtica 1. 93–127.
+
+Thomas, Ceinwen H. 1993. Tafodiaith Nantgarw: Astudiaeth o Gymraeg llafar Nantgarw yng
+
+   Nghwm Taf, Morgannwg. Caerdydd: Gwasg Prifysgol Cymru.
+
+Torres-Tamarit, Francesc. 2015. Length and voicing in Friulian and Milanese: Or why rule-
+
+   free derivations are needed. Natural Language & Linguistic Theory 33(4). 1351–1386.
+
+Watkins, Arwyn T. 1967. Some phonological features of the Welsh dialect of Llansamlet (West
+
+   Glamorgan). In Wolfgang Meid (ed.), Beiträge zur Indogermanistik und Keltologie: Julius
+
+   Pokorny zum 80. Geburtstag gewidmet, 315–322. Innsbruck: Sprachwissenschaftliches In-
+
+   stitut der Universität Innsbruck.
+
+
+                                            55
+Wells, John C. 1979. Final voicing and vowel length in Welsh. Phonetica 36(4–5). 344–360.
+
+Wmﬀre, Iwan. 2003. Language and place-names in Wales: The evidence of toponymy in Car-
+
+   diganshire. Cardiﬀ: University of Wales Press.
+
+Wmﬀre, Iwan. 2007. Review of Ball & Williams (2001). Zeitschrift für celtische Philologie 55.
+
+   301–307.
+
+Wood, Simon N. 2006. Generalized additive models: An introduction with R. Chapman &
+
+   Hall/CRC.
+
+
+
+
+                                             56
+Appendix
+
+
+           Word        Expected pronunciation   Gloss
+           blynyddau   [bləˈnəðˑɛ]              ‘years’
+           boddi       [ˈbɔːði]                 ‘to perish’
+           bore        [ˈboːrɛ]                 ‘morning’
+           brodor      [ˈbroːdɔr]               ‘native (noun)’
+           brodorol    [brɔˈdoːrɔl]             ‘native (adjective)’
+           bwced       [ˈbʊkʰˑɛd]               ‘bucket’
+           bwgan       [ˈbuːɡan]                ‘ghost’
+           byddin      [ˈbəðˑɪn]                ‘army’
+           caletaf     [kʰaˈlɛtʰˑa]             ‘hardest’
+           cegin       [ˈkʰɛːɡɪn]               ‘kitchen’
+           cerrig      [ˈkʰɛrˑɪɡ]               ‘stones’
+           cigydd      [ˈkʰiˑɡɪð]               ‘butcher’
+           cludo       [ˈkʰliːdɔ]               ‘to transport’
+           codi        [ˈkʰɔːdi]                ‘to rise’
+           colli       [ˈkʰɔɬˑi]                ‘to lose’
+           copi        [ˈkʰɔpʰˑi]               ‘copy’
+           crwtyn      [ˈkʰrʊtʰɪn]              ‘boy’
+           curo        [ˈkʰiːrɔ]                ‘to bear’
+           cwbwl       [ˈkʰuːbʊl]               ‘entire’
+           cwlwm       [ˈkʰuːlʊm]               ‘knot’
+           cwpan       [ˈkʰʊpʰˑan]              ‘cup’
+           cwpwrdd     [ˈkʰʊpʰˑʊrθ]             ‘cupboard’
+           cwta        [ˈkʰʊtʰˑa]               ‘curt’
+           cyfan       [ˈkʰəvˑan]               ‘entire, all’
+           cyﬂe        [ˈkʰəvˑlɛ]               ‘chance’
+           cyllell     [ˈkʰəɬˑɛɬ]               ‘knife’
+           cynnal      [ˈkʰənˑal]               ‘to support’
+           cyson       [ˈkʰəsˑɔn]               ‘regular’
+           defod       [ˈdeːvɔd]                ‘ceremony’
+           diben       [ˈdiːbɛn]                ‘purpose’
+           dibyn       [ˈdiːbɪn]                ‘precipice’
+           difyr       [ˈdiːvɪr]                ‘pleasant’
+           digon       [ˈdiːɡɔn]                ‘enough’
+           dillad      [ˈdɪɬˑad]                ‘clothes’
+           dilyn       [ˈdiːlɪn]                ‘to follow’
+           diweddar    [dɪˈweːðar]              ‘latest’
+           dwsin       [ˈdʊsˑɪn]                ‘dozen’
+           Ebrill      [ˈɛbˑrɪɬ]                ‘April’
+           edrych      [ˈɛdˑrɪχ]                ‘to look’
+           enillwch    [ɛˈnɪɬˑʊχ]               ‘win! (pl.)’
+           ennill      [ˈɛnˑɪɬ]                 ‘to win’
+
+
+                                      57
+Word       Expected pronunciation   Gloss
+enwocaf    [ɛnˈwɔkʰˑa]              ‘most famous’
+felly      [ˈvɛɬˑi]                 ‘so’
+ﬀenestr    [ˈfeːnɛst]               ‘window’
+ﬀrwgwd     [ˈfruːɡʊd]               ‘brawl’
+ﬀyddlon    [ˈfəðˑlɔn]               ‘loyal’
+gelyn      [ˈɡɛːlɪn]                ‘enemy’
+geni       [ˈɡɛːni]                 ‘to give birth’
+goddef     [ˈɡoːðɛ]                 ‘to suﬀer’
+gofal      [ˈɡoːval]                ‘care’
+gofyn      [ˈɡɔːvɪn]                ‘to ask’
+gogledd    [ˈɡɔɡˑlɛð]               ‘north’
+gosod      [ˈɡɔsˑɔd]                ‘to attack’
+Guto       [ˈɡɪtʰɔ]                 personal name
+gwddw      [ˈɡuːðʊɡ]                ‘neck’
+gwella     [ˈɡwɛɬˑa]                ‘to improve’
+gyrru      [ˈɡərˑi]                 ‘to drive’
+heddiw     [ˈhɛːði]                 ‘today’
+heddlu     [ˈhɛðˑli]                ‘police’
+hollol     [ˈhɔɬˑɔl]                ‘entire’
+honni      [ˈhɔnˑi]                 ‘to claim’
+hwnnw      [ˈhʊnˑu]                 ‘that’
+hybu       [ˈhəbˑi]                 ‘to promote’
+Hydref     [ˈhədˑrɛ]                ‘October’
+ifanc      [ˈiːvaŋk]                ‘young’
+isod       [ˈɪsˑɔd]                 ‘below’
+llety      [ˈɬɛtʰi]                 ‘hotel’
+llinell    [ˈɬɪnˑɛɬ]                ‘line’
+llipa      [ˈɬɪpʰˑa]                ‘limp’
+llogi      [ˈɬɔːɡi]                 ‘to hire’
+llonydd    [ˈɬɔːnɪð]                ‘contented’
+lludw      [ˈɬiːdu]                 ‘ashes’
+llygad     [ˈɬəɡˑad]                ‘eye’
+lwcus      [ˈlʊkʰˑɪs]               ‘happy’
+meddwl     [ˈmɛːðʊl]                ‘to think’
+minnau     [ˈmɪnˑɛ]                 ‘I (emphatic)’
+modryb     [ˈmɔdˑrɪb]               ‘aunt’
+mwdwl      [ˈmuːdʊl]                ‘haycock’
+Nadolig    [(na)ˈdɔːlɪɡ]            ‘Christmas’
+neges      [ˈneːɡɛs]                ‘message’
+nesaf      [ˈnɛsˑa]                 ‘next’
+ogof       [ˈoːɡɔv]                 ‘cave’
+pecyn      [ˈpʰɛkʰˑɪn]              ‘package’
+pennod     [ˈpʰɛnˑɔd]               ‘chapter’
+personol   [pʰɛrˈsoːnɔl]            ‘personal’
+plygu      [ˈpʰləɡˑi]               ‘to fold’
+
+
+                           58
+Word       Expected pronunciation       Gloss
+pobi       [ˈpʰɔːbi]                    ‘to bake’
+pobol      [ˈpʰoːbɔl]                   ‘people’
+popeth     [ˈpʰɔpʰˑɛθ]                  ‘everything’
+posib      [ˈpʰɔsˑɪb]                   ‘possible’
+problem    [ˈpʰrɔbˑlɛm]                 ‘problem’
+pryder     [ˈpʰrədˑɛr]                  ‘worry’
+prynu      [ˈpʰrənˑi]                   ‘to buy’
+           [ˈpʰʊrˑni]
+prysur     [ˈpʰrəsˑir]                  ‘busy’
+pwysicaf   [pʰʊiˈsɪkʰˑa]                ‘most important’
+pysgota    [pʰəsˈkɔtʰˑa]                ‘to ﬁsh’
+rhedeg     [ˈrʰeːdɛɡ]                   ‘to run’
+rheswm     [ˈrʰɛsˑʊm]                   ‘reason’
+sefyll     [ˈsɛːvɪɬ]                    ‘to stay’
+seren      [ˈseːrɛn]                    ‘star’
+siglo      [ˈsiɡˑlɔ]                    ‘to shake’
+           [ˈʃɪɡˑlɔ]
+suddo      [ˈsiːðɔ]                     ‘to sink’
+sydyn      [ˈsədˑɪn]                    ‘sudden’
+tebycaf    [tʰɛˈbəkʰˑa]                 ‘most similar’
+tebyg      [ˈtʰɛːbɪɡ]                   ‘similar’
+tecaf      [ˈtʰɛkʰˑa]                   ‘fairest’
+tipyn      [ˈtʰɪpʰˑɪn]                  ‘little bit’
+tlotyn     [ˈtʰlɔtʰˑɪn]                 ‘poor person’
+tocyn      [ˈtʰɔkʰˑɪn]                  ‘ticket’
+tonnau     [ˈtʰɔnˑɛ]                    ‘waves’
+torri      [ˈtʰɔrˑi]                    ‘to break’
+trefnu     [ˈtʰrɛvˑni]                  ‘to arrange’
+tybed      [ˈtʰəbˑɛd]                   ‘I wonder’
+tyfu       [ˈtʰəvˑi]                    ‘to grow’
+unig       [ˈiːnɪɡ]                     ‘only’
+wedyn      [ˈwɛːdɪn]                    ‘afterwards’
+wynebau    [ʊjˈneːbɛ]                   ‘faces’
+           [ɡwɪˈneːbɛ]
+ysbyty     [əsˈpətʰˑi]                  ‘hospital’
+
+                  Table 6: Test items
+
+
+
+
+                           59
+                                      //a//                       //e//                      //i//
+                          3
+
+
+
+                          2
+
+
+
+                          1
+
+
+
+                          0
+Estimated normalized F1
+
+
+
+
+                          -1
+
+
+
+
+                                      //o//                       //u//
+                          3
+
+
+
+                          2
+
+
+
+                          1
+
+
+
+                          0
+
+
+
+                          -1
+
+
+
+                               Open           Closed      Open            Closed
+                                                          Final syllable type
+
+                               Figure 13: Estimated normalized F1, by ﬁnal syllable type and vowel
+
+
+
+
+                                                                 60
+Code   Gender   Age bracket    Place of origin
+Sp1    Female   56–60          Carmarthen, Carmarthenshire
+Sp2    Male     60–65          Meidrim, Carmarthenshire
+Sp3    Male     18–25          Carmarthen, Carmarthenshire
+Sp4    Female   50–55          Cardiﬀ, Glamorgan
+Sp5    Female   75–80          Goodwick, Pembrokeshire
+Sp6    Female   70–75          Crymych, Pembrokeshire
+Sp7    Female   25–30          Carmarthen, Carmarthenshire
+Sp8    Female   40–45          Aberystwyth, Cardiganshire
+
+         Table 5: Participants in the acoustic study
+
+
+
+
+                              61
+                                          No duration eﬀect   No length eﬀect     Both duration and length   No random eﬀect
+     Intercept                                   8.55∗              8.45∗                    8.51∗                 8.54∗
+                                              [8.41; 8.70]       [8.30; 8.59]             [8.37; 8.65]          [8.43; 8.66]
+     //ə//                                       0.54∗              0.43∗                    0.51∗                 0.51∗
+                                              [0.33; 0.75]       [0.21; 0.64]             [0.31; 0.71]          [0.34; 0.67]
+     //e//                                       0.76∗              0.70∗                     0.77∗                0.77∗
+                                              [0.64; 0.88]       [0.61; 0.79]             [0.65; 0.89]          [0.68; 0.86]
+     //o//                                       0.88∗              0.79∗                     0.89∗                0.81∗
+                                              [0.61; 1.14]       [0.51; 1.07]             [0.63; 1.14]          [0.60; 1.03]
+     //u//                                        0.12               0.20                     0.10                  0.02
+                                             [−0.16; 0.40]      [−0.09; 0.48]            [−0.17; 0.36]         [−0.20; 0.24]
+     Long vowel                                  −0.29∗                                      −0.19∗                −0.21∗
+                                            [−0.46; −0.12]                              [−0.36; −0.02]        [−0.35; −0.07]
+     Long //e//                                  −0.14                                       −0.12                 −0.13∗
+                                             [−0.30; 0.02]                               [−0.27; 0.04]        [−0.25; −0.01]
+     Long //o//                                  −0.25∗                                      −0.23∗                −0.19∗
+                                            [−0.47; −0.03]                              [−0.44; −0.01]        [−0.37; −0.02]
+
+
+
+
+62
+     Long //u//                                   0.23                                        0.24∗                 0.30∗
+                                             [−0.02; 0.47]                                [0.01; 0.47]          [0.11; 0.49]
+     F2 smooth                                    8.77               8.68                     8.76                  8.71
+                                            [−8.72; 26.25]      [−8.72; 26.09]          [−8.72; 26.24]        [−8.88; 26.31]
+     Random intercept for word                   63.45              76.51                    58.88
+                                          [−146.27; 273.16]   [−141.05; 294.06]       [−150.84; 268.59]
+     Duration smooth                                                 3.24                     3.14                 3.17
+                                                                [−3.84; 10.33]          [−3.79; 10.07]        [−4.00; 10.34]
+     AICc                                      -327.97             -310.40                 -337.98               -322.74
+     AIC                                       -380.23             -382.63                 -388.17               -325.85
+     BIC                                        -64.24              -19.67                  -77.70               -241.76
+     Log Likelihood                            272.33              285.75                  274.86                184.80
+     R2                                          0.95                0.95                    0.95                  0.93
+     Num. obs.                                   345                 345                     345                   345
+     ∗ 0 outside the conﬁdence interval
+
+
+
+                                               Table 7: Models for log2 (F1) for speaker Sp1
+                                     No height eﬀect         No interaction     Model with interaction
+Intercept                                   −1.01∗                 −1.06∗                 −1.00∗
+                                       [−1.24; −0.77]         [−1.29; −0.83]         [−1.18; −0.83]
+//ə//                                       0.70∗                  0.65∗                  0.79∗
+                                         [0.44; 0.97]           [0.38; 0.91]           [0.58; 1.00]
+//e//                                        1.54∗                  1.43∗                  1.58∗
+                                         [1.28; 1.81]           [1.16; 1.70]           [1.35; 1.82]
+//o//                                        1.59∗                  1.51∗                  1.54∗
+                                         [1.27; 1.91]           [1.19; 1.83]           [1.26; 1.81]
+//u//                                        0.26                   0.14                   0.29
+                                        [−0.09; 0.60]          [−0.20; 0.49]          [−0.04; 0.62]
+Long vowel                                  −0.22                  −0.28∗                 −0.25∗
+                                        [−0.49; 0.05]         [−0.56; −0.01]         [−0.47; −0.04]
+Long /e/                                    −0.26                  −0.17                  −0.83∗
+                                        [−0.62; 0.10]          [−0.52; 0.19]         [−1.15; −0.52]
+Long /o/                                     0.00                   0.06                  −0.38∗
+                                        [−0.35; 0.36]          [−0.29; 0.42]         [−0.68; −0.08]
+Long /u/                                     0.34                   0.34                   0.35
+                                        [−0.09; 0.76]          [−0.09; 0.76]          [−0.16; 0.85]
+Duration smooth                              1.86                   1.53                   2.23
+                                        [−2.70; 6.42]          [−2.17; 5.24]          [−3.16; 7.61]
+F2 smooth                                    3.34                   3.48                   3.79
+                                       [−4.05; 10.73]         [−4.06; 11.01]         [−3.97; 11.56]
+Speaker (random)                             4.41                   4.43                   4.35
+                                       [−5.39; 14.21]         [−5.37; 14.23]         [−5.45; 14.15]
+Word (random)                               98.08                  96.93                  76.56
+                                     [−117.51; 313.68]      [−118.67; 312.52]      [−123.35; 276.48]
+High post-tonic vowel                                               0.27∗                  0.05
+                                                                [0.15; 0.38]          [−0.27; 0.36]
+//e// before high                                                                         −0.08
+                                                                                      [−0.46; 0.29]
+//o// before high                                                                          0.02
+                                                                                      [−0.35; 0.38]
+//u// before high                                                                         −0.18
+                                                                                      [−0.60; 0.24]
+Long vowel before high                                                                     0.03
+                                                                                      [−0.35; 0.41]
+Long //e// before high                                                                     1.06∗
+                                                                                       [0.58; 1.54]
+Long //o// before high                                                                     0.82∗
+                                                                                       [0.35; 1.30]
+Long //u// before high                                                                     0.05
+                                                                                      [−0.59; 0.69]
+AICc                                     2113.37                2105.94                2085.73
+AIC                                      2098.96                2091.61                2074.11
+BIC                                      2761.47                2752.27                2670.42
+Log Likelihood                           -931.78                -928.44                -931.12
+R2                                         0.79        63         0.79                   0.79
+Num. obs.                                 2057                   2057                   2057
+∗ 0 outside the conﬁdence interval
+
+
+
+                  Table 8: Models for normalized F1, south-western speakers
+                            No duration eﬀect        Duration eﬀect     Model with interaction
+Intercept                          345.73∗               381.57∗                 345.09∗
+                              [286.15; 405.32]      [327.99; 435.16]        [271.91; 418.28]
+//ə//                              99.06∗                88.54∗                  155.20∗
+                               [33.17; 164.95]       [30.06; 147.02]         [67.97; 242.42]
+//e//                              294.38∗               250.44∗                 277.96∗
+                              [234.12; 354.65]      [199.97; 300.90]        [203.94; 351.98]
+//o//                              197.05∗               114.78∗                 191.61∗
+                               [93.96; 300.13]       [19.17; 210.40]         [79.28; 303.94]
+//u//                               47.06                 31.88                   59.40
+                              [−50.98; 145.11]      [−57.61; 121.37]        [−48.50; 167.30]
+Long vowel                          13.43                −12.86                   8.24
+                               [−44.22; 71.08]       [−40.49; 14.77]         [−51.54; 68.01]
+Long /e/                            −2.26                                        −19.40
+                               [−77.03; 72.51]                               [−96.29; 57.50]
+Long /o/                           −63.91                                        −74.77
+                              [−143.35; 15.53]                               [−157.25; 7.72]
+Long /u/                             4.19                                         37.05
+                               [−81.50; 89.88]                              [−51.42; 125.53]
+F2 smooth                            2.77                 2.76                    2.81
+                                [−3.63; 9.17]         [−3.60; 9.11]           [−3.66; 9.28]
+Word (random)                       17.86                 21.02                   16.89
+                             [−193.82; 229.54]      [−196.53; 238.58]      [−194.79; 228.56]
+Duration smooth                                           2.05
+                                                      [−2.86; 6.96]
+Duration for //i//                                                               1.49
+                                                                             [−2.02; 4.99]
+Duration for //e//                                                               1.00
+                                                                             [−0.96; 2.96]
+Duration for //o//                                                               1.40
+                                                                             [−1.87; 4.68]
+Duration for //u//                                                               2.86
+                                                                             [−3.59; 9.31]
+AICc                                 4107.10             4090.27               4093.57
+AIC                                  4100.75             4082.94               4083.92
+BIC                                  4217.76             4208.36               4226.97
+Log Likelihood                       -2019.75           -2008.64               -2004.52
+R2                                     0.67               0.69                   0.69
+Num. obs.                              337                 337                   337
+∗ 0 outside the conﬁdence interval
+
+
+
+                                       Table 9: Models for F1, Sp8
+
+
+
+
+                                                   64
+

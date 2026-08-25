@@ -1,0 +1,1456 @@
+Issues in Loanword Adaptation: a Case Study from Thai*
+
+
+Michael Kenstowicz
+Department of Linguistics
+Massachusetts Institute of Technology
+Tel: 617-2534457
+Fax: 617-2535017
+e-mail: kenstow@mit.edu
+and
+Atiwong Suchato
+Department of Computer Engineering
+
+Chulalongkorn University
+
+Bangkok, Thailand
+
+Abstract
+
+
+In this paper we review the results of a study of an 800 word corpus of loanwords from
+English into Thai and consider their relevance for models of loanword adaptation. The
+discussion focuses on the context-free adaptation of consonants; the correspondences
+between the voiceless aspirated, voiceless unaspirated, and voiced stops of the two
+languages; adaptations to accommodate Thai's CRVC syllable template; and the
+selection of a tone for the loanword.
+
+
+
+Key Words: loanwords, phonological similarity, experimental phonology
+                                                                                          2
+
+
+1. Introduction
+
+
+In the past decade we have seen the study of loanwords evolve from a minor curiosity to
+a phenomenon meriting serious and sustained study. The most significant motivation has
+undoubtedly been the conceptual shift in our field from rules to a constraints and repair
+model of sound change. Loanword adaptation is constraints and repairs in "real time". In
+adapting a loan the speaker tries to remain faithful to the source word while still making
+the loan conform to the native language (L1) segmental inventory, phonotactic
+constraints, and prosodic structures. Because inputs of considerable diversity and
+complexity can be devised, loanword phonology takes on the status of something akin to
+an "experiment of nature" in allowing us to probe phonological competence. Needless to
+say, various methodological issues have arisen in this enterprise such as the distinction
+between on-line vs. integrated loans, the role of orthography, as well as the often-variable
+nature of the data necessitating statistical generalizations and tendencies rather than
+categorical rules. Finally, in a significant number of cases adapters converge on a repair
+strategy that lacks a precedent in the native system and sometimes may even contradict
+L1 repairs, raising serious learnability puzzles.
+        A particularly thorny issue is the input to the adaptation process itself and the
+nature and locus of the repairs. Three positions on this question have emerged in the
+recent literature. Carole Paradis and her collaborators (LaCharité and Paradis, 2005 and
+cited references) defend the view that loanword adaptation is largely performed by
+bilinguals who draw on their native-like competencies in both the donor and recipient
+languages to discern equivalences between phonological categories and structures that
+abstract away from the details of their phonetic realization in each grammar (cf. also
+Jakobs and Gussenhoven, 2000 for a similar view). An opposing position was articulated
+by Daniel Silverman (1992) and later taken up by Sharon Peperkamp and Emmanuel
+Dupoux (2003). Impressed by the learnability puzzle, their hypothesis is that the surface
+form of the foreign loan is mapped to L1 phonological categories and schemata in an
+extra-grammatical speech perception module on the basis of language-independent
+acoustic similarity. Finally, an intermediate position has been articulated by such
+researchers as Broselow (2003), Kang (2003), Kenstowicz (2001/4, 2003), Shinohara
+(1997, 2000), Steriade (2001), Yip (1993, 2002) and others. On this view the adaptation
+process can take into account a variety of factors to achieve the best match to the source
+word including phonetics as well as orthography. The adapter is not a passive recipient of
+the speech perception module but exercises active control over the native grammar in
+shaping the loan as well as possibly calling on implicit knowledge of phonetic similarity
+to fashion adaptations that lack a precedent in the native system.
+        In this paper we will present some of the results of a study of loanword adaptation
+in Thai from the perspective of these three approaches. The data come from an 800-word
+corpus of loans from English assembled by the second author. About 90% of the corpus
+consists of established loans taken from an English-Thai dictionary (Paopichit 1982); the
+remaining are recent adaptations used by Thai students in the United States. The
+properties of Thai grammar that are relevant to the subsequent discussion include the
+following. Thai has a CRV(V)C syllable template. Main stress is on the final syllable of
+the word. There is a five-way tonal distinction of High, Mid, Low, Rising, and Falling.
+                                                                                          3
+
+
+Concerning the phonemic inventory (1), the plosive series is characterized by the well-
+known three-way aspirated, plain voiceless, and voiced series. Voiced plosives are
+missing at the palatal and velar points of articulation and there is no voicing contrast in
+the fricatives. The contrast between the two liquids is unstable.
+
+(1)    Thai phonemic system
+       ph       th          ch   kh                      i      i       u
+       p        t           c    k       ?               e      ´       o
+       b        d                                        E      a       ç
+       f        s                        h
+       m        n                N
+                l, r
+       w                    j
+
+       Our discussion focuses on four topics. First, we examine the context-free
+adaptation of consonants that lack a direct correspondent in the Thai phonemic inventory.
+Second, we survey the various contexts in which Thai accommodates the English binary
+voiceless -voiced opposition. We then turn to the repairs employed in adapting the loan to
+the Thai CVC syllable template. The final section examines the factors at play in
+assigning tone to the loanword. It should be noted that all references to Thai in this study
+concern the standard language based on the Central Thai dialect.
+
+
+2. Context-Free Mapping of Consonants
+
+English consonants that have a direct counterpart in Thai are regularly mapped as such.
+
+(2)    E        T                E       T               E      T
+       phin     phi#n            file    fa#aj           link   li@N
+       thone    tho#on           solo so#olo^o           rum    ra#m
+       chip     chi@ip           hand hE#En              web    we@p
+       khitty   khi@tti^i        mail me#ew              yard   ja@at
+       bit      bi$t             noise nç@çj
+       data     da#ata^a         fishing fi@tchi^N
+
+English consonants that lack Thai counterparts are shown in (3) with their loanword
+correspondences.
+
+(3)    g -> k                            Z -> c
+       E      T                          E      T
+       goal ko#o                         to jam cE#Em
+       green kri#in                      joy    cç#çj
+       degree di#ikri#i                  eject i#ice$k
+                                                                                           4
+
+
+       z -> s                            ∫ -> ch
+       E        T                        E              T
+       zip      si@p                     shirt          chA@At
+       zulu     su#ulu#u                 show           cho#o
+       busy     bi#isi^i                 fashion        fE#Echa^n
+
+       T -> t                                     v -> w
+       E                   T                      E      T
+       thyroid             tha#jrç#çj             level le#ewe^ew
+       thankyou            tE@Nkwi^iw             visa wi# isa^a
+       wreath              liit (Panlay 1997) [1] vote wo$ot
+       footpath            futbaat                virus wa#jra@t
+                                                  soviet so#owia^t
+                                                  level le#ewe^ew
+
+         Such correspondences are of course one of the most intriguing aspects of loan
+phonology since, at least at the onset of language contact, there are no precedents to
+guide the adaptation process as to which phoneme to select from the native inventory.
+Obviously some notion of similarity is at play. Paradis (1996) and Paradis and LaCharité
+(1997) hypothesize that the location of such segments in feature geometry and prosodic
+structure is the relevant factor. The adapter will search for the minimal change in the
+space defined by the feature tree and the prosodic hierarchy. Thus, matching for stress
+may engage radical changes such as syllable and foot truncation (Davidson and Noyer
+1996, Fenyvesi and Zsigri 2004, Matondo 2004). Satisfaction of phonotactic constraints
+can entail addition of a syllable (English bus, film -> Korean [p´si], [pHillim]) while the
+adaptation of individual segments may involve distributing their distinctive features over
+successive segments (cf. Paradis and Prunet's 2000 "unpacking" of nasal vowels to VN
+sequences) or changing a feature's coefficient.
+          An alternative conception of phonological similarity based on shared features and
+natural classes has been utilized by Frisch, Pierrehumbert and Broe (2004) in their study
+of the well-known co-occurrence restrictions on consonants composing the Arabic
+triliteral root. Similarity is computed by the formula in (4).
+
+(4)    similarity          =             shared natural classes
+                                  shared natural classes + unshared natural classes
+
+On this view the similarity of a pair of phonemes is decreased when one of them gains
+neighbors in phonological space. For example, at the labial point of articulation the
+Arabic phonemic inventory comprises /b, f, m, w/. Utilizing the features [sonorant],
+[continuant], [nasal], and [voice] to define these phonemes, the pair /f, m/ share just two
+natural classes and have seven unshared classes for a similarity value of 2/9 or 0.22. If /p/
+and /v/ were added to the system then while /f/ and /m/ still share just two classes, the
+number of unshared classes is increased to eleven. The consequence is that the similarity
+                                                                                             5
+
+
+between /f/ and /m/ decreases to 2/13 or 0.15. So far as we know, this notion of similarity
+has not been applied to the study of loanword adaptation. It could prove helpful in
+resolving alternative adaptations that are otherwise phonologically/phonetically
+equidistant. Similar remarks hold for Clements' (2003) notion of Feature Economy.
+        Finally, Steriade (2001) sees loanword adaptation as guided by a general model of
+sound similarity called the P-Map that underlies OT faithfulness as well as judgements of
+rhyme (cf. also Kenstowicz 2001/4, 2003 for loanword studies from this perspective). On
+this view similarity is not based on gross feature count but on some more fine-grained
+distance in auditory space that is highly sensitive to the effects of context and
+subphonemic (enhancing) properties on the relative salience of speech sounds.
+        When viewed from the perspective of these three models of
+phonological/phonetic distance, some of the Thai adaptations in (3) make sense while
+others remain puzzling. The devoicing of /g/, /Z/ is predicted by all models. An alternative
+change to /b/ or /d/ would preserve voice and manner but at the expense of change in the
+major articulator. Change in the plus or minus value of the terminal feature [voice] is
+obviously minimal when compared to a change of the dominating articulator in the
+feature tree Clements (1984). Frisch, Pierrehumbert and Broe (2004) explicitly weight the
+sharing of the same major articulator higher than overlap in other natural classes in order
+to accommodate the fact that the Arabic root co-occurrence constraints are grosso modo
+based on shared place of articulation. Below in (5) we reproduce the similarity values
+found by adding in the English segments /g, Z, z/ to the existing Thai phonemic inventory
+one at a time using the shared natural class algorithm as instantiated in the script due to
+Albright (2004). [2] Adaptations that seek out the most similar member of the Thai
+phonemic inventory correctly predict devoicing in the g -> k, Z -> c, and z -> s cases.
+
+(5)            g       k       kh      N
+       g       1.0     .75     .40     .45
+
+               Z       c       ch      d
+       Z       1.0     .75     .39     .50
+
+               z       s       d       r       n
+       z       1.0     .75     .51     .38     .31
+
+Also in Steriade's P-Map devoicing is viewed as the auditorially minimal change based
+on results from experimental studies of confusability (confusion matrixes) as well as
+being the cross-linguistically canonical repair to violations of phonotactic constraints that
+bar word-final voiced obstruents (final devoicing) or a nasal+voiceless stop sequence
+(post-nasal voicing).
+        A more subtle adaptation is the affrication of English /∫/ to the Thai aspirated
+affricate /ch/ rather than fronting to /s/. Here a change of the minor place feature
+[anterior] (a dependent of the Coronal node in feature geometry) is rejected in favor of a
+change in continuancy. The location of [continuant] in the feature tree has been a topic of
+considerable debate (cf. Padgett (1994), Halle (1992)) and so this particular adaptation's
+implications for the feature-geometric conception of similarity is difficult to assess. But
+since an affricate preserves the turbulence of the fricative in its delayed release, ∫ -> ch is
+                                                                                             6
+
+
+probably best viewed as a repackaging and hence preservation of the essential features of
+the [∫] at the expense of adding the supporting closure. This hypothesis is strengthened
+by the systematic choice of the aspirated affricate /ch/ over the voiceless unaspirated /c/.
+This suggests that an equivalence is drawn between aspiration and stridency--properties
+that contribute to turbulence-- the acoustic signature of a fricative. Aspiration and
+stridency are not adjacent in the articulator-based feature tree. So the connection would
+seem to be auditory in nature. Calculation via shared natural classes over distinctive
+features also fails to choose the aspirated version of the affricate. Indeed it predicts a tie
+between ∫ -> s (change of [anterior]) and ∫ -> c (change of [continuant]).
+
+(6)            ∫       c       ch      s       h
+       ∫       1.0     .49     .32     .49     .30
+
+        The mapping of the E inderdentals to stops vs. fricatives is still a major mystery in
+loanword phonology. See Brannen (2002) and Ahn (2003) for recent discussion of the
+problem and review of the literature. Thai parts company with Japanese, European
+French, and German where E /T/ is adapted as /s/ and joins with Russian, Canadian
+French and Turkish in choosing /t/ instead. An interesting finding from Brannen's study is
+that Canadian French speakers who pair /T/ with /t/ still judge /f/ as a closer sound in a
+psycholinguistic experiment. If auditory similarity underpins loanword adaptation (as
+opposed to shared articulation or raw feature count) then we would have to say that the
+interdental's lack of labial articulation and the possible presence of a dental articulation in
+the visual modality is enough to overcome the auditory bias to /f/.[3] Interestingly, the
+algorithm based on shared natural classes makes the correct choice in this case, as shown
+by the table of values in (7).
+
+(7)            T       t       s       f
+       T       1.0     .66     .50     .47
+
+        The final mystery is the mapping of the voiced English /v/ to the approximant
+glide /w/ rather than devoicing to the fricative /f/. Given that /z/ devoices to /s/ why does
+/v/ not follow suit and converge on /f/? This is the expected result in terms of adjacency
+in the feature tree (change in the terminal feature [voice] as opposed to the root node
+feature [sonorant]) as well as in terms of calculation via shared natural classes.
+
+(8)            v       f       b       w
+       v       1.0     .71     .51     .19
+
+The voiced labio-dental /v/ is the least turbulent of the English fricatives. If sounds are
+judged in terms of their distance in auditory space then it is conceivable that /v/'s minimal
+turbulence is sufficient to push it into the sonorant region of the Thai speaker's P-Map
+and hence make /w/ the closest match. This hypothesis is complicated by the fact that
+Thai adaptation of E /v/ to /w/ only occurs in the syllable onset. In final position /v/
+systematically maps to /p/ even though /w/ is phonotactically valid in the coda (often as a
+realization of /l/).
+                                                                                             7
+
+
+
+(9)            E               T
+               creative        khri#I?e#ethi$ip
+               conservative    khç#ns´#´we#eti$ip
+               serve           s´@´p
+               proof           pru@up
+               safe            se@ep
+       cf.     shell           che#ew
+               scale           s´#ke#ew
+
+Parallel adaptation of E /v/ as /w/ instead of as an obstruent is also reported for Mandarin
+(Li 2003), Hawaiian (Adler 2004), and Fula (Paradis and LaCharité 1997). This behavior
+contrasts sharply with Arabic where /v/ maps predominantly to /f/ and occasionally to /b/
+but never to /w/. Mahasen Abu-Mansour (p.c.) supplies these examples for Saudi Arabic:
+van -> [fan], vitamiin -> [fitamíin], virus -> [fayrúus] but veranda -> [baránda]. Arabic
+contrasts voiced and voiceless fricatives at several places of articulation (interdental /T/
+vs. /D/, alveolar /s/ vs. /z/, dorsal /x/ vs./ƒ/, and pharyngeal /!/, /¿/). But Thai, Mandarin,
+Hawaiian, and Fula have relatively impoverished fricative inventories with no contrast in
+voicing. Thus when being adapted into Arabic, it is possible that E /v/ is attracted to the
+more densely packed obstruent system overriding the auditory bias towards /w/ seen in
+these other languages. Obviously, much more systematic study of the role of contrast vs.
+raw feature count and auditory similarity is called for in order to gain a better
+understanding of such sound substitutions.
+
+3. Adaptation of Laryngeal Features: Phonological or Phonetic?
+
+We now turn to one of the best-known properties of Thai--it's three-way /b, p, ph/
+laryngeal distinction. Since English has a binary [±voice] phonemic contrast we can ask
+whether and how this opposition will be expressed in a system with a ternary laryngeal
+distinction. An interesting complication is presented by the fact that the English voiceless
+stop has both aspirated and unaspirated allophones depending on context. If adaptation
+takes place at the phonemic level, then we expect a mapping that abstracts away from
+these allophonic differences. If the adapter has access to the phonetic representation and
+strives to achieve the best phonetic match then we expect a correspondence of allophones
+to the extent possible. In what follows we survey the Thai adaptation of English stops
+with respect to four contexts in the source word: word-initial, in sC clusters, intervocalic,
+and word-final.
+
+3.1 Initial Position
+
+Assuming a simple [±voice] phonemic opposition, mapping at the phonological level
+predicts that English /p/ will be paired with Thai /p/ and that English /b/ will be paired
+with Thai /b/. But if loanword adaptation takes place at the phonetic level, then E [ph]
+should be paired with Thai [ph]. As for the voiced stops, Lisker and Abramson (1964)
+                                                                                          8
+
+
+find that for the majority of their subjects English initial voiced stops occupy the 0 to 20
+VOT region while for Thai the 0-25 VOT region is occupied by [p,t,k]. We might thus
+expect English [b8] to map to the Thai voiceless unaspirated [p]. These expectations are
+diagrammed below.
+
+(10)   Phonological Adaptation                           Phonetic Adaptation
+
+               Thai                   English                         Thai
+               /ph/                   /p/    [ph]                     [ph]
+               /p/                    /b/    [p], [b8]                [p]
+               /b/                           [b]                      [b]
+
+       The results from our corpus are that English initial voiceless stops are uniformly
+adapted as Thai voiceless aspirated stops (11). (There is one qualification to this
+statement--see 3.4). This looks like strong support for Phonetic Adaptation.
+
+(11)           E                      T
+               pin                    phi#n
+               penny                  phe#nni#i
+               parade                 pha#are$et
+               test                   the@es
+               team                   thi#im
+               Tibet                  thi@be$et
+               cone                   kho#on
+               cupid                  khi#wpi^t
+               confirm                khç#nf´#´m
+
+But just as uniformly English word-initial minimally voiced stops are paired with Thai
+voiced stops.
+
+(12)           E                      T
+               busy                   bi#isi^i
+               bible                  ba#ib´^n
+               bazaar                 ba#asa^a
+               deuce                  di#w
+               dollar                 dç#nla^a
+               domain                 do#ome#en
+
+Thus, neither a purely phonetic nor a purely phonological account of the adaptation
+process is straightforward. We might conjecture that when mapping two elements along
+a three-point scale like VOT, the adapter opts for the extremes in order to maximize a
+contrast, especially in a salient context like word- or syllable-onset position. This would
+                                                                                           9
+
+
+imply that the adaptation process is not a piece-meal, word-by-word affair but operates at
+a more systemic level so that adaptations can be remembered and compared. It thus
+seems to presuppose bilingualism. The only comparable result we know bearing on this
+conjecture is Maddieson's (1977) study of tone loans from two-tone Hausa to various
+three-tone Nigerian languages. In general, Hausa H and L were mapped to H and M or
+M and L in the other languages rather than to the extremes of the tonal space.
+         A more relevant factor from the phonetic perspective is that while English word-
+initial voiced stops typically lack closure voicing, they nevertheless lower the F0 of the
+following vowel (House and Fairbanks, 1953, Lehiste & Peterson, 1961). Research has
+shown that the F0 differences are in the range of perceptibility and that they can be used
+as cues to stop identification by English subjects (Abramson and Lisker, 1985). But if we
+make the plausible assumption that the majority of English loanwords were adapted into
+Thai by native Thai (bilinguals) then the question is whether Thai speakers can use the F0
+differences as cues to the voicing character of the stop. It so happens that precisely this
+question was investigated experimentally by Abramson and Erickson (1992). Their
+perceptual experiments with Thai native speakers found a two-way interaction between
+voicing category (as measured by VOT) and tone on the following vowel (as measured
+by F0). As F0 is shifted in 10 Hz steps through a range of 140Hz to 100Hz, the number of
+/b/ identifications increases systematically as the F0 decreases. They also found a parallel
+effect in the opposite direction for /p/: higher F0 onsets increases the number of /p/
+responses and earlier perceptual crossovers between the /b/ and /p/ categories.
+Interestingly, there was no comparable effect of F0 on the identification of the aspirated
+stop /ph/. As we shall see in section 5, Thai adaptations do not in general equate English
+F0 contours with Thai tonal categories. So F0 variations to which Thais are normally
+sensitive could be interpreted as relevant to stop identification instead and thus help to
+push the 0 VOT of English stops into the perceptual space of the Thai voiced stops.
+         Thus, it is possible that Thai adapters use the lower F0 of the English initial [b8]
+loan as a cue that would override the VOT that otherwise places it in the region of Thai
+/p/. Two qualifications are relevant here. One problem this interpretation faces is the
+systematicity of the process. In our corpus at least, English initial /b/ and /d/ are always
+mapped to Thai /b/ and /d/. This suggests a rule or convention that abstracts away from
+the phonetic gradience. One might grant that for current bilingual speakers the adaptation
+process is now a phonological rule but still maintain that it was originally phonetically
+based along the lines proposed above. Another relevant point. Abramson and Lisker
+(1985) look at the effect of F0 on English speakers' judgements of a /b/ vs. /p/ difference
+and conclude that VOT is the dominant cue and that F0 has only a "modest effect" on
+voicing contrasts. The relative salience of the VOT cue presumably underlies the fact
+that while shifts in VOT can magnify and phonologize F0 differences (tonogenesis)
+changes in the opposite direction where voicing contrasts arise from tonal neutralizations
+are much rarer (see Halle, 2003 for a possible example). Further study is obviously
+required to determine the relative weighting of different cues. (See Kingston and Diehl,
+1994 for general discussion).
+                                                                                        10
+
+
+3.2 sC Clusters
+
+English /sC/ clusters contain voiceless unaspirated stops. The cluster is adapted into Thai
+with the help of a minor syllable containing a reduced, schwa-like vowel for the /s/
+followed uniformly by a voiceless unaspirated stop.
+
+(13)   E              T                         E             T
+       spare          s´pe#e                    screen        s´kri#in
+       sponsor        s´pç#çns´^´               scan          s´kE#En
+       style          s´ta#aj                   plaster       phla@ats´t´^´
+       sticker        s´ti@kk´^´                gymnastic     ji#mna@ats´ti$k
+
+This is consistent with phonetically veridical mapping. From the phonological
+perspective we might follow Stampe (1973) in saying that English speakers phonemicize
+the stop in an initial sC cluster as voiceless /p, t, k/ (rather than the archiphonemes
+/P,T,K/) and that Thai bilinguals draw on this knowledge. But then it is mysterious why
+word-initial stops are assigned so consistently to the aspirated category. Since Thai has a
+three-way VOT contrast there is no reason from the perspective of Thai grammar why
+word-initial voiceless stops should be aspirated but post-s stops unaspirated.
+
+3.3 Word-Medial Position
+
+In this section we report word-medial outcomes for the English voiced vs. voiceless stops
+on the basis of an analysis of the first half of the corpus (c. 400 words). English voiced
+stops consistently map to voiced stops in Thai (14).
+
+(14)   E              T                         E             T
+       cabin          khe#ebi^n                 credit        khre#edi$t
+       fiber          fa#jb´^´                  lady          le#edi$i
+       cubic          khi#wbi$k                 cider         sa#jd´^´
+
+        The behavior of voiceless stops is more varied but in a way that depends on the
+nature of the English source. When the following vowel is stressed then the choice
+between the voiceless unaspirated (15a) and voiceless aspirated (15b) is at chance (ten
+examples each).
+
+(15)           E              T                          E            T
+       a.      cartoon        ka#atu#un                  apache       a#apa#ache^e
+               chateau        cha#ato^o                  torpedo      tç#çpi#ido#o
+       b.      cocaine        kho#okhe#en                request      ri#ikhwe@et
+               compile        khç#mpha#aj                shampoo      chE#Emphu#u
+               container      khç#nthe#enn´^´            contact      khç#nthE$k
+                                                                                            11
+
+
+       But when the following vowel is unaccented in the English source then by a wide
+margin the voiceless stop is adapted as unaspirated in Thai (41 examples with unaspirated
+(16a) vs. 5 aspirated (16b).
+
+(16)              E               T                         E              T
+         a.       market          ma#ake^t                  cheetah        chi#ita^a
+                  apple           E@pp´^n                   chimpanzee     chi#mpE#Ensi#i
+                  auto            ç#çtç^ç                   coupon         khu#upç#N
+                  beta            be#eta^a                  cupid          khi#wpi^t
+                  center          se#nt´^´                  data           da#ata^a
+         b.       calculus        khE#Ewkhu#ula@t           intro          I#nthro#o
+                  carpenter       kha#aphe#nt´^´            item           a#ithe^em
+                  creative        khri#ie#ethi$ip
+
+        Posttonic position is of course the context where voiceless stops are minimally
+aspirated in English and the site of various lenitions. It thus appears that here as well Thai
+speakers are sensitive to the phonetic realization. On the other hand the almost even
+distribution before a stressed vowel in (15) is puzzling.
+
+3.4 Final Position
+
+In the syllable coda Thai stops are unreleased with no contrast in the largyngeal features
+of voicing or aspiration. As we shall see in 5.1, syllables terminating in a stop can bear H
+or L tone. A search through the corpus for monosyllabic English loans ending in an
+obstruent showed a strong tendency to be H if voiceless (76 examples vs. 9 with L)--cf.
+(17a). If the English source word ends a voiced obstruent (17b) then the loan is still likely
+to be H but less strongly so (14 H vs. 10 L). This difference is statistically significant (p =
+.001, 2 tail T-test) and so it appears that the choice of tone is influenced by the voicing of
+the final obstruent in the English source.
+
+(17)      E              T                          E             T
+       a. cap            kE@p                       boot          bu@ut
+          cock           khç@k                      coke          kho@ok
+          brake          bre$ek                     bit           bi$t
+       b club            khla$p                     lord          lç$çt
+          tag            thE$k                      grade         kre$et
+          code           kho@ot                     mob           mç@p
+
+3.5 An Emergent Pattern
+
+Our data also contain an insipient harmony pattern: initial aspiration is often missing
+from an otherwise expected correspondent to an English initial aspirated stop. We list
+several of these loans (30 examples in total) in (18). They are almost entirely composed
+                                                                                           12
+
+
+of cases in which there is a following (covert) unaspirated stop, suggesting a
+dispreference for Ch…C.
+
+(18)   E               T                      E               T
+       cap             kE@p                   peg             pe@k
+       card            ka@at                  pepsi           pe@psi^i
+       cartoon         ka#atu#un              peter           pi#it´^´
+       cocoa           ko#oko^o               taxi            tE@Eksi^i
+       cook            ku@k                   tent            te@en
+       park            pa@ak                  tick            ti@k
+
+However, there are many more cases in which the voiceless aspirated stop appears even if
+a voiceless unaspirated one follows. For the velar point of articulation we counted 8 loans
+such as cap -> kE@p where initial aspiration is blocked vs. 24 such as cupid -> khi#wpi^t
+where it surfaces as expected. For the dentals there were 6 loans like taxi -> tE@Eksi^i
+where aspiration is blocked vs. 19 such as technic(al) -> the@kni$k where aspiration is
+assigned. For labials the two patterns are more evenly balanced with 16 examples such as
+park -> pa@ak where aspiration is blocked and 16 such as pack -> phE@k where it is not.
+When we set aside the cases where an unaspirated voiceless stop follows, then the
+mapping of English word-initial voiceless aspirated stops to Thai aspirated stops is
+virtually unanimous (palm -> pa#am, piano -> pia#ano#o, and ton -> ta#n are the only the
+exceptions in the entire corpus).
+
+3.6 Summary
+
+Stepping back from the details, we find that for the statistically most robust contexts
+(word-initial, initial sC cluster, and intervocalic post-tonic) the Thai loans faithfully
+reproduce the English surface allophones of the voiceless stop phoneme. Somewhat
+paradoxically, English voiced stops are faithfully reproduced word-medially while the
+partially voiced initial [b8] [d8] is overlooked. The latter adaptation strategy seems to hold
+more generally. We are not aware of any cases in the loanword literature where E initial
+and medial voiced stops are distinguished as voiceless vs. voiced.[4] From the phonetic
+point of view we conjecture that this reflects an adaptation strategy in which the percepts
+taken from more salient and stable environments in the source language set the standard
+to which more variable ones follow suit. Further study of this conjecture is clearly
+required.
+
+4. Prosodic Structure
+
+Thai has a CRV(V)C syllable template with neutralization in the coda to unreleased
+voiceless stops, nasals, and glides. As we have seen in 3.4, when English stops are
+adapted into Thai they neutralize the voicing distinction in the coda. Final nasals and
+glides map to their Thai counterparts. Final /r/ deletes while final /l/ is adapted as /n/ in
+                                                                                           13
+
+
+older loans and as the glide /w/ in more recent ones. The constraint against coda fricatives
+is being relaxed to allow for /s/ in the speech of Thais familiar with English. A similar
+finding is reported in Panlay's (1997) study. Two of her six subjects also allowed /f/ in
+the adaptation of lift as [lif] rather than [lip]--a pattern not found in our corpus. Examples
+illustrating these adaptations to the Thai coda appear in (19).
+
+(19)   E               T                      E               T
+       dome            do#om                  joy             chç#çj
+       can             khE#En                 cowboy          kha#awbç#çj
+       shopping        chç@ppi^N
+
+       bill            bi#n                   grill           kri#w
+       billiards       bi#nlia^t              gel             ce#w
+       fair            fE#E                   blur            blA#A
+       proof           pru@up                 safe            se@ep
+       boss            bç@çt
+       bonus           bo#ona@t               bus             ba@s
+       gas             ke@et                  disk            di@s
+
+        As seen in 3.2, English #sC clusters are repaired by mapping the /s/ to a minor CV
+syllable whose nucleus is a schwa that alternates with /a/. Curiously, loans with a final
+cluster never employ epenthesis and instead systematically truncate the consonants that
+are not next to the vowel.
+
+(20)   E               T                      E               T
+       act             ?E@k                   coil            khç#çj
+       camp            khE@m                  news            niw
+       climax          khla#imE$k             strike          s´tra@j
+       milk            mi@w                   down            da#aw
+       lift            li@p                   ice             a@j
+       physics         fi@?si$k
+
+Thai nuclear diphthongs are of the falling sonority variety composed of a high vowel
+onglide followed by the low central vowel /a/ (Haas, 1964). The offglides in English /aj/
+and /aw/ diphthongs are assigned to the Thai coda, bumping off any following
+consonants: strike [strajk] -> s´tra@j, ice [ajs] -> áj, down [dawn] -> da#aw. Preservation
+of the postvocalic element and deletion of the terminal element of the cluster is expected
+from Côté's (2000) cue-based approach to consonant cluster phonotactics. This would be
+especially true in Thai where final stops are voiceless and unreleased, leaving VC
+formant transitions as the only cue to the final stop's place of articulation.
+        But we can still ask why strike is adapted as s´tra@ j and not as *s ´trajk´ with
+assignment of the stray consonant to a minor syllable. Why particular languages employ
+                                                                                         14
+
+
+epenthesis vs. truncation in loanword adaptation is still a major mystery (see Yip, 2002
+for discussion). While we cannot provide a general answer to this question, we think
+there are good reasons why epenthesis is blocked for final clusters in Thai. As shown by
+Bennett (1994), Thai has a minimal word template that takes the form of an iambic foot.
+The major stress is on the final syllable, which must be bimoraic--composed of a long
+vowel or a coda consonant or both. Words of the shape CV and CVCV are systematically
+avoided. Underlying light syllables are augmented by a glottal stop so that /phrá/ (cf.
+phrá.câaw 'sacred, lord') appears as [phra@?] 'lord, monk'. The rejection of *s´trajk´ in
+favor of s´tra@j can thus be described as a familiar case of constraint ranking where the
+prosodic requirement of terminating in a stressed heavy syllable overrides the
+preservation of the cluster. (*'v is the constraint from Shinohara 1997 that blocks stress--
+more generally prominence--on an epenthetic vowel).
+
+(21)
+                       /strajk/      prosody     *'v      Max-C
+                       s´tra#jk´     *!
+                       s´tra#jk´#´               *!
+                       -> s´tra@j                         *
+
+        Bennett's (1994) discussion indicates that native Thai grammar augments a
+syllable by addition of a glottal stop to the coda. We might thus expect this repair to
+operate in loanwords as well. But in fact glottal stop augmentation is rejected in favor of
+gemination. As seen in (22) final short vowels of English are adapted with long vowels--
+never with a glottal stop.
+
+(22)   E              T                        E              T
+       coma           kho#om´^´                busy           bi#isi^i
+       data           da#ata^a                 center         se#nt´^´
+       auto           ?o#oto^o                 layer          le#ej´^´
+
+We thus appear to have another example of the phonomenon noted by Oh (1996) for
+Korean: a repair emerges in loanword adaptation that differs from the one employed in
+the native grammar.[5] Arguably in these cases (cf. Steriade, 2001) the adapter is
+choosing a strategy that he judges to yield an output that is more faithful to the foreign
+source: in Korean mapping to a CV syllable headed by the minimal vowel [i] in
+preference to loss of the consonant or laryngeal feature, and in Thai lengthening the
+vowel as opposed to adding a glottal stop. Under the view that the adapter exercises
+control over the native grammar to take account of the foreign source, this can be
+modeled as an Output-Output constraint (aka "Match constraints" in Yip 2004). In (23)
+the rejection of [phraa] in favor of [phra?] indicates a dispreference for long vowels VV
+in comparison to the insertion of the glottal stop IO-Dep-C (don't insert a consonant). We
+model augmentation in terms of Prince's (1990) Weight-to-Stress constraint requiring
+stressed syllables to be heavy (bimoraic).
+                                                                                        15
+
+
+(23)
+                          /phra/     W-to-S *VV IO-Dep-C
+
+
+
+                          phra       *!
+
+                          -> phra?                     *
+
+                          phraa                *!
+
+
+In (24) Faithfulness to the English source coma in the form of the Output-Output
+constraint Dep-C is ranked above the constraint dispreferring long vowels. This ranking
+leads to the adaptation [khoom´´].
+
+(24)
+                              /khoom´/   OO-Dep-C *VV
+                              khoom´?    *!
+                              -> khoom´´          *
+
+        Another example of this phenomenon occurs in word-medial position. When
+English loans are rendered in what Surintramont (1973) refers to as the isolative speech
+style in which each syllable is bimoraic and bears some degree of prominence, if the
+English source contains a short vowel then the adapter prefers to geminate the following
+consonant rather than to insert a glottal stop--so long as the outcome is a valid syllable
+coda. Otherwise the glottal stop is inserted. [6]
+
+(25)   cookie         ku@k.ki^i              europe         ju@?.ro$op
+       copy           kç@p.pi^i              gorilla         kç#ç.ri@?.la^a
+       chassis        chE@t.si#i
+
+Once again, the rejection of the native augmentation option (glottal coda) in favor of
+gemination makes sense if the adapter is trying to remain as faithful as possible to the
+English source while still satisfying the syllable canons of native Thai grammar. It can be
+modeled in the form of an OT Output-Output constraint against the insertion of a
+consonant (OO-Dep-C).
+(26)
+                          /khçpi/ W-to-S OO-Dep-C *gem
+                          kçpii      *!
+                          kçppii                             *
+                          -> kç?pi              *!
+                                                                                         16
+
+
+In the adaptation of gorilla the native Thai constraint against liquid codas blocks the
+perceptually minimal candidate with gemination allowing the candidate that satisfies
+augmentation via the native strategy of glottal stop insertion to emerge as the winner.
+
+(27)
+                /gorila/      W-to-S Coda-Con OO-Dep-C *gem
+                kçç.ri.laa    *!
+                kçç.ril.laa          *!                *
+                ->kçç.ri?.laa                 *
+
+
+We suspect that vowel lengthening--the strategy used word finally to satisfy
+augmentation--is dispreferred to consonant gemination word medially (copy -> kçppii,
+*kççpii) because vowel length is used in part to distinguish among English vowels of
+different quality--tense vs. lax. Also gemination of a voiceless stop simply prolongs the
+duration of silence and is presumably less salient than prolonging the vowel. Vowel
+lengthening must be employed word finally since there is no following consonant to
+geminate.
+        In sum, this analysis integrates the loanword adaptation into the native grammar
+in the form of familiar OT faithfulness constraints with an eye to the foreign source. The
+leading hypothesis is that the ranking of such Output-Output constraints is guided by
+some overarching theory of similarity--whether auditorially based or otherwise.
+        At this point let us consider an alternative interpretation of the truncation of
+consonant clusters and augmentation of final vowels. Peperkamp and Dupoux (2003)
+propose that loanword adaptation takes place in an extra-grammatical speech perception
+module that maps the surface form of the loan into an acoustic signal that is then decoded
+and matched with an output from the native grammar. Peperkamp (2003) articulates this
+approach in greater detail. Calling attention to cases in which the repair used in loan
+adaptation lacks a precedent in the native language or is even contradicted by the native
+repair, she rejects the hypothesis that loanword adaptation is the product of the native
+grammar. Instead, loanword adaptations are performed by the same mechanism of
+phonetic decoding that transforms the acoustic stream into forms that are in accordance
+with the native phonology. "These perceptual assimilations are completely automatic and
+apply beyond the listener's awareness. Moreover they are phonetic rather than
+phonological in nature, and in the cases studied so far they correspond to the
+transformations that take place in loanword adaptation. " She goes on to state that
+"language-specific effects in speech perception are entirely due to differences in the
+surface phonetic structure of individual languages" illustrating with the Dupoux et al
+(1999) psycholinguistic study of Japanese listeners who perceive [ebzo] as [ebuzo], the
+phonetically closest legal form in their language.
+        On this view the adapter matches the loan with the phonetically closest output of
+the L1 native grammar that is phonotactically valid. From this perspective it is not so
+clear how to solve the problem of different repair strategies for the same violation such as
+epenthesis vs. truncation for the adaptation of illegal consonant clusters or adaptation of
+the English interdentals as a stop vs. fricative. If adaptation is modeled in terms of
+                                                                                             17
+
+
+Output-Output constraints then there is more flexibility in ways to achieve a match. This
+implies a greater range of variation in loanword adaptation than does Peperkamp's
+hypothesis, but one that we believe is empirically justified. Given the hypothesis that
+these Output-Output constraints are grounded in perception (e.g. Steriade's P-Map) then
+they implicate a hierarchy of preferences that can be (dis)confirmed and compared with
+other sound changes. Another relevant point of comparison between the two models is
+that loanword adaptations may sometimes override native constraints and give rise to an
+output that is otherwise not found in the native system. As noted earlier this appears to be
+happening in Thai where speakers with greater exposure to English now allow /s/ in the
+coda. This phenomenon can eventuate in a stratified lexicon with different sectors having
+different phonotactic constraints. (cf. Itô and Mester's (1995) discussion of Japanese *nt
+which is overridden in the loan vocabulary not by a sound change but by remaining
+faithful to the source.) If the phonetic decoder automatically matches the acoustic input to
+a phonotactically valid string of the native grammar, it is not clear how to model such
+importations, which violate the native constraint system and hence would not be present
+in the pool of phonotactically valid outputs.
+
+5. Tone
+
+Every syllable in Thai must be assigned one of five possible tones. There are restrictions
+on which tones can combine with which syllable structures in Thai grammar. While tone
+is lexically contrastive in Thai, F0 in English is assigned at the level of the intonational
+phrase. Given the distinct functions that F0 serves in the two languages, it is not obvious
+that loanword adaptation will drawn any equivalences between the two.
+         In this section we survey the tonal assignments found in our corpus and speculate
+as to their basis. First, we review the phonotactic restrictions and the prior literature. We
+then turn to our findings and an experiment that corroborates one of them in more depth.
+         As in many other Asian languages, syllables closed by an obstruent restrict the
+range of tonal contrasts. Traditional Thai grammar distinguishes between "live" and
+"dead" syllables. The latter terminate in an obstruent ([p, t, k] and glottal stop) while the
+former do not. CVV as well as CVVR and CVR syllables may take all five tones: H (na@a
+'aunt'), M (na#a 'rice field', L (na$a 'custard apple'), R (na&a 'thick'), F (na^a 'face'). Dead
+syllables containing a long vowel (CVVT) are restricted to L and F while dead syllables
+with a short vowel nucleus (CVT) take either H or L. (See Morén and Zsiga, 2004 for a
+recent analysis).
+         In a short paper on the rules for assigning tone to English loanwords in Thai,
+Gandour (1979) discovered the gross generalizations that allow the tone of the loan to be
+predicted with a fair degree of accuracy. Our more extensive corpus largely confirms his
+findings. Gandour noted some significant discrepancies (tabulated in (28)) between the
+tonal inventory of native Thai words and English loans. Final live syllables in loans are
+restricted to M and F. Long dead syllables in loans lack the F and have a H not found in
+the native vocabulary. And in short dead syllables the native inventory of H and L
+expands to include a F.
+
+(28)
+                           Syll type          Thai          E loan
+                                                                                       18
+
+
+                          CVV(R), CVR H,M,L,R,F M,F
+                          CVVT        L, F      H, L
+                          CVT         H,L       H, L, F
+
+
+It turns out that this table is not very informative because the tonal outcomes are also
+determined by the number of syllables and the location of stress in the English source. In
+our exposition, we follow Gandour in distinguishing between monosyllablic and
+polysyllabic loans.
+
+5.1 Monosyllables
+
+The tone of a monosyllable is largely predictable from its syllable shape. Syllables
+terminating in a sonorant (vowel or consonant) are almost without exception M.
+
+(29)   E               T                    E               T
+       bill            bi#n                 cone            kho#on
+       claim           khle#em              fair            fE#E
+       coil            khç#çj               fan             fE#En
+
+Syllables terminating in an obstruent contain both H and L tones and thus conform to the
+native Thai inventory for dead syllables. But the native vowel length restriction is
+overlooked. We find virtually no F in monosyllabic dead syllables even if the nucleus is
+long; and we also find a predominance of H even when the nucleus is long. Specifically,
+our corpus contains 97 dead monosyllables with H (30a) vs. 21 with L (30b). Among the
+21 ten have a voiced obstruent in the source.
+
+(30)           E             T                      E                T
+       a.      big           bi@k                   boot             bu@ut
+               bird          b´@´t                  boss             bç@çt
+               block         blç@k                  Bob              bç@p
+       b.      grade         kre$et                 lab              lE$p
+               bit           bi$t                   brake            bre$ek
+
+        Gandour also noted the existence of the monosyllables in (31) which terminate in
+a sonorant and hence should be M but instead take a H. They originate from English
+words with a final obstruent that has been clipped to satisfy Thai syllable structure
+constraints. Gandour suggests an ordering of the adaptation rules to assign tone before
+simplification of the consonant clusters. The underlying obstruent will place these words
+in the class of (30) that take H. We will refer to this class of words as containing a
+"covert" obstruent.
+
+(31)           E             T
+               bank          bE@N
+                                                                                        19
+
+
+               pump           pa@m
+               tent           te@n
+               belt           be@n
+               tank           thE@N
+
+We list (32) all additional words in our corpus terminating in a deleted obstruent as well
+as a few cited elsewhere in the literature.
+
+(32)           English        Thai: H                English        Thai: M
+               camp           khE@m                  blond          blç#n
+               champ          chE@Em                 brand          brE#En
+               Frank          frE@N                  bronze         brç#çn
+               link           li@N                   deuce          di#w
+               malt           mç@çw                  field          f i #w
+               mink           mi@N                   fuse           f i #w
+               mouse          ma@aw                  jaws           cç#ç
+               noise          nç@çj                  Jones          cç#çn
+               punch          pha@n                  pence          pE#n
+               site           sa@j                   land           lE#En
+               slide          sala@j
+               sphinx         safi@N
+               Sprite         sapra@j
+               tank           thE@N
+               volt           wo@ow
+               waltz          wo@ow
+
+There are 21 items in the covert class that are assigned a H tone and ten that take a M.
+The vast majority of items taking H end in a voiceless obstruent in English (noise and
+slide are the exceptions) while the majority of items taking M terminate in a voiced
+obstruent (deuce and pence are the exceptions). In a study of the truncation of final
+clusters in a number of loan corpora, Shinohara (this volume) finds a significantly greater
+tendency to truncate clusters ending in voiced obstruents. For example, in the adaptation
+of English loans CV Fijian maps consonants not followed by a vowel to an epenthetic
+syllable. Final nt clusters assign both elements to a prenasalized stop plus vowel (e.g.
+parliament > [palimendi]) while in final nd clusters the d is typically missing (band >
+[bani]). Shinohara (this volume) and Kenstowicz (2003) suggest that the acoustic cues to
+the voiced obstruent in nd are diminished to the point where either it is not perceived or
+its presence in an epenthetic syllable would represent such an auditory disparity with the
+original that deletion proves a better match. If the same asymmetry is operative in Thai
+and the final obstruent is not perceived, then only two cases remain in (32) where a word
+from the covert obstruent class takes a mid: deuce > [di# w ] and pence > [pE#n]. We
+                                                                                          20
+
+
+conclude that Gandour's observation of CVNT -> CVN with a H tone is a valid
+generalization. (See also Bickner 1986).
+        The loans with covert obstruents are obviously of some significance since if
+Gandour's interpretation is taken literally they represent a challenge to the position that
+loanword adaptation consists in finding the closest match between a loan and a
+phonotactically permissible output. The final obstruent cannot be included in a legitimate
+coda and is elided. But yet it still controls the tone. This phenomenon bears a strong
+resemblance to derivational opacity, which is modeled well by grammatical input-output
+mappings. These data raise two questions. First, is the generalization psychologically
+real? Second, if it is, on what basis is the H tone assigned? Does tone assignment refer to
+the deleted obstruent or to some other property of the English syllable (e.g. duration)?
+Before addressing these questions we will review our findings for the remainder of the
+corpus.
+
+5.2 Polysyllables
+
+In multisyllable loans, the tone assigned to nonfinal (unstressed) syllables is again a
+function of the syllable structure: it is H if the coda is an obstruent and M otherwise. This
+assignment has no exceptions and is identical to rules operating on monosyllables (29,
+30)-- putting aside the small number of monosyllables in L. It is in the tone of the final
+(stressed) syllable of the multi-syllabic loan that we find intriguing differences. Gandour
+(1979) noted that a final live syllable tends to show a fall if the stress in the English
+source is penultimate (more generally nonfinal). Our findings confirm this trend.
+        First of all, smooth syllables that correspond to English oxytones (final stress)
+overwhelmingly have mid tone (29 examples with M vs. 6 with F).
+
+(33)   E               T                      E              T
+       domain          do#ome#en              bazaar         ba#asa^a
+       canoe           khE#Ennu#u             café           kha#afe^e
+       cartoon         ka#atu#un              chateau        cha#ato^o
+       compile         khç#mpa#aj             cigar          si@?ka^a
+       chimpanzee      chi#mpE#Ensi#i         guitar         ki#ita^a
+       chlorine        khlo#ori#in            buffet         bu@pfe^e
+       cocaine         kho#okhe#en
+
+         Second nonfinal stress in the English source disproportionally correlates with a F
+on the final syllable of the Thai loan terminating in a live syllable. Our corpus contains
+222 items with this tonal correspondence; the remaining 85 take M. This difference is
+statistically significant (2-tail: 2.57).
+
+(34)   E               T                      E              T
+       apple           E@pp´^n                alloy          a#nlç#çj
+       agency          e#ece#nsi^i            baron          ba#arç#n
+       action          E@kcha^n               barrel         ba#are#w
+                                                                                       21
+
+
+       arrow          E#Ero^o                capsule       khE@psu#un
+       auto           ç#çto^o
+       bible          ba#ibE^n
+       brewery        bri#ww´#´ri^i
+       broker         bro@okk´^´
+
+       We follow Gandour in assuming that the stressed syllable of English is associated
+with an F0 peak (in citation pronunciations) followed by a fall to a L boundary tone, as
+sketched below.
+
+(35)          English        's s s
+                              | |
+                              H L
+                                \ |
+              Thai           s s 's
+
+In Thai loanword adaptation the peak is shifted to the final (stressed) syllable. The
+examples with M tone such as baron > [ba#arç#n] represent cases where the peak is not
+shifted (presumably because the English F0 was not perceived or given a tonal
+interpretation) and thus follow the default M assignment for a live syllable. Stressed
+syllables and F0 peaks have a natural affinity both in loanword adaptation (Kenstowicz
+2004) and of course in synchronic phonology (see de Lacy (2002) as well as Li (2003) for
+recent discussion, the latter based on examples from several Asian languages). Thus
+phonologically speaking the shift of the peak depicted in (35) has ample precedent.[7]
+        Turning to polysyllables terminating in an obstruent, we find three tonal outcomes
+for the final syllable. In order of frequency they are L (75), H (24), and F (15).
+
+(36)          E                       T
+       a.     booklet                 bu@kle$t
+              trumpet                 thra#mpe$t
+              tulip                   thi#wli$p
+              united                  ju#una#jte$t
+              pilot                   pha#jlç$t
+       b.     tennis                  the#nni@t
+              donut                   do#ona@t
+              bonus                   bo#ona@t
+              calculus                khE#Ewkhu#ula@t
+       c.     billiards               bi#nlia^t
+              make up                 me@ek?a^p
+
+The examples with a final fall (36c) presumably reflect the shift of the peak sketched in
+(35) above. Curiously in many of these cases the vowel nucleus is short and thus the
+                                                                                          22
+
+
+native Thai phonotactic constraint banning F on a short dead syllable is not obeyed.
+Presumably it is for this reason these adaptations are in the minority. The cases in (36b)
+represent the situation in which the F0 contour of the original is either not perceived or
+not equated with a Thai tone, leaving the default rule to step in and assign a H to the final
+dead syllable. Alternatively, they can be analyzed as cases where the peak H is parsed at
+the expense of the terminal L. The words with final L (36a) represent examples in which
+the terminal portion of the F0 contour of the English source is parsed but the shift of the
+peak is blocked--presumably to avoid a F on a dead syllable with a short vowel nucleus.
+        The adaptations in (36) can be modeled in terms of constraints that ban the F0
+peak on a syllable with weaker stress (Peak-to-Stress) and the interplay of Max-H and
+Max-L which demand preservation of the two tones comprising the English F0 contour in
+the Thai output with the constraint of Thai grammar that bans a F on a short dead
+syllable. We illustrate with the evaluations assigned to a generic penultimately stressed
+English word of the shape CaaCat (37). We assume all candidates satisfy the
+undominated Peak-to-Stress. Depending on the ranking (statistically determined) one of
+the three candidates depicted emerges as the output.
+
+(37)
+                           /CáaCàt/ *CVˆC Max-H Max-L
+                           CaaCât *
+                           CaaCát               *
+                           CaaCàt         *
+
+5.3 Interpretation
+
+Stepping back from the details, one of our most striking findings is that F is not found on
+monosyllables. Evidently to the Thai ear the falling F0 contour on the E word team lacks
+the scooped rise plus fall that characterizes the Thai falling tone in citation form. The
+recent study of Morén and Zsiga (2004) reports that the Thai F actually rises or stays H
+until beginning of second mora when it sharply descends. This finding accords with the
+previous literature. The Thai M has a much more gradual decline that starts at the
+beginning of the first mora. Representative pitch tracks from one of Morén and Zsiga's
+subjects are reproduced below.
+
+(38)
+                                                                                                       23
+
+
+
+
+(38)
+
+
+
+Exemplar pitch contours for five contrastive tones in citation form (Morén and Zsiga,
+2004)
+
+
+         The F0 contour on the citation form of an English CV(R) monosyllable such as
+team typically lacks the initial rise and sharp fall that characterize the Thai F and so it is
+perhaps not too surprising that this contour is not equated with the Thai F. What is less
+clear is whether the gradual descent of the Thai M is singled out as a positive match
+(correspondent) for the English contour or rather is selected as a default given that the
+English contour does not sufficiently approximate any Thai tonal category but yet every
+Thai syllable must be assigned some tone. We are inclined to the latter interpretation but
+experimentation is required to determine the similarity in the F0 contours of the two
+languages and their perceptual correlates.
+         The emergence of default accent patterns in the face of a failure to identify
+English F0 contours with native accents has been documented before. Shinohara (1997,
+2000) showed that the default antepenultimate accent of Japanese is assigned to French
+loans. See also Kubozono (2004). Kenstowicz and Sohn (2001) document a default
+penultimate accent in Northern Kyungsang Korean loans from English.
+         The loanword evidence thus suggests that the equations live syllable = mid tone
+and dead syllable = high tone are default patterns for Thai. We are not aware of any
+evidence internal to Thai tonology that would suggest such a connection though Haas
+(1956:26) and Peyasantiwong (1986:220) call attention to a fast speech rule whereby an
+unstressed syllable loses its glottal stop with the result that underlying H and L tones turn
+to mid: [tha@?le#e] ≈ [tha#le#e] 'sea', [bu$?ri$i] ≈ [bu#r i$i] 'cigar, cigarette, [ku$?la$ap] ≈ [ku$la$ap]
+'rose', [pha@ ? na# n ] ≈ [pha# n a# n ] 'gamble'. However, this is a fast speech rule and so its
+connection to the rule operative in loans is not so clear.
+         Putting aside the question of the origin of the live syllable = mid tone and dead
+syllable = high tone equations with respect to Thai grammar, we can ask whether these
+                                                                                          24
+
+
+tonal assignments have a natural phonetic basis. One possibly relevant factor is the
+observation by Henderson (1962) that the final unexploded stops of Thai are
+accompanied by secondary closure at the glottis to ensure no perceptible off-glide when
+the oral stop is released. She also notes that both the high tone and the falling tone are
+accompanied by glottal constriction before pause. More importantly, "the mid tone is not
+accompanied by a glottal constriction of any kind at the end" (p. 416). It is well known
+that laryngealization on consonants can affect the F0 contour of adjacent vowels and give
+rise to tonal distinctions. For example, Kingston (2003) proposes that the H vs. L reflex
+of a Proto-Athabaskan glottalized coda reflects two different phonetic realizations of the
+glottalization--a stiffening vs. a slackening of the vocal folds. Noting that coda obstruents
+are accompanied by a glottal closure in Thai, Morén and Zsiga (2004) postulate a
+constraint requiring the coda of a dead syllable to project a L tone. This constraint bars a
+default M from being inserted and helps to account for the otherwise puzzling absence of
+the default M on dead syllables in native Thai grammar. If this analysis is correct and if
+the default H on dead syllables in loans is still properly connected to glottalization in the
+Thai coda then the laryngealization in loans would have to be [+stiff vf] while that in
+native grammar [-stiff vf]. We noted earlier that the final syllable of loans is augmented
+by vowel lengthening rather than by glottalization--the native language repair. It is thus
+at least possible that the adaptation of a word-final obstruent could also differ from the
+native grammar in terms of the type of laryngealization that is imposed. Phonetic testing
+will be required to (dis)confirm this hypothesis.
+         The literature on Thai phonology contains another observation on the connection
+between the high tone of dead syllables and laryngealization. Haas (1952) describes a
+taboo governing the speech of Thai students studying in the United States (in the 1940's
+and 1950's) in which they avoided using Thai words that bear a phonetic resemblance to
+English obscene words. Among the words she cited are fàk 'sheath, (bean-)pod', fák 'to
+hatch', and phrík 'chili pepper'. Of particular relevance here is Haas' discussion of the
+tabooed khán 'to crush, squeeze out'. She notes that there are other words with the same
+phonemic sequence but different tones that are not taboo: kha#n 'to itch', and kha&n 'to be
+funny'. "But it is only the word having the high tone that bears, to the Thai ear, a strong
+resemblance to the English tabooed word" [p. 359]. Haas goes on to offer an explanation
+that English words ending in a stop are borrowed into Thai with a H and notes that H on a
+syllable lacking a final stop is accompanied by glottal stricture prepausally. "The Thai ear
+equates the final stop of the English word with the glottal stricture of the Thai word;
+hence the English word, as pronounced in English, sounds like the Thai word khán,
+whereas kha# n and kha& n do not". While one may question the assertion of a direct
+connection between the English final stop and Thai glottal stricture, the example clearly
+points to the correlation observed earlier between the covert obstruent class and H tone.
+
+6. A Tonal Experiment
+
+In order to test whether the connection between the covert obstruent and the H tone noted
+by Haas (1952), Gandour (1979, and by our data in (30) represents a linguistically
+significant one in the mind of the Thai speaker we conducted an experiment. A battery of
+CVN and CVNT nonsense syllables were recorded by a native English speaker. [8] Each
+such English nonsense syllable was paired with a Thai "loan" adapted by the second
+                                                                                          25
+
+
+author in accord with the sound correspondences found in our corpus. The Thai loan took
+the form CVN but systematically differed as to M vs. H tone. These nonsense syllables
+were combined into an A-X-B stimulus where X is the English "word" and A and B are
+the Thai "loans" with M or H tone. For example, English [bæm] was paired with Thai
+[ba@m] and [ba#m]. Stimuli were chosen to avoid overlap with existing Thai words. The
+stimuli were counterbalanced for H and M tone in the A and B positions and presented
+aurally over head-phones to ten native Thai subjects who were required to choose
+between the A vs. B Thai loan in terms of which sounded closest to the English word.[9]
+The subjects responded by clicking a box labeled A or B on the computer screen. They
+were permitted to replay the stimuli. But once a choice was made they were passed on to
+the next stimulus. The English stimuli consisted of syllables formed from the four short
+English vowels [i], [u], [E] and [æ] followed by [m], [n], [N] codas for the "live" syllable
+category and corresponding CVNT (T = [p], [t], or [k]) for the "dead" syllable category.
+Onset consonants were drawn from the set [b, d, f, g, h, k, l, s, ∫, t, w]. (See Appendix for
+the complete list of English stimuli). There were a total of 36 CVN and 36 matching
+CVNT syllables. These 72 items were intermingled and presented to each subject in
+randomized order in two blocks with a short break in between. Four subjects completed
+the two blocks once for 144 responses. Five subjects completed the two blocks twice for
+288 responses each. And one subject completed a single block just once for 72 responses.
+The overall results are presented in the following table. The differences between the two
+variables H vs. M tone and CVN vs. CVNT syllables type is highly significant by the
+Fisher's Exact Test.
+
+(39)
+                                         H   M
+                                    CVN  202 842
+                                    CVNT 593 451
+
+
+It is thus clear that Thai subjects discern a difference between the CVN vs. CVNT
+English words and correlate it with the tone of the Thai correspondences in a fashion that
+replicates the tonal assignments found in the loans in our corpus as well as in the previous
+literature.
+        The next question is what could be the basis of the distinction? In deciding
+between a M and a H tone do Thai speakers refer to the presence or absence of the stop
+directly or could they be attending to differences in the VN portion of syllable rhyme of
+the English stimulus that reflect the English stop in terms of rules of English
+phonology/phonetics presumably unknown to the Thai speaker? One obvious correlate is
+rhyme duration. The voiced portion of the English syllable rhyme is significantly longer
+in the CVN than in the CVNT syllables. So one reasonable hypothesis is that the shorter
+rime in the English CVNT syllables correlates with a difference in the F0 contours of
+these nonsense syllables that Thai speaker attends to in deciding whether to categorize
+the stimulus as H or M. Some reasonable differences could be the height of the peak
+(higher in CVNT stimuli) or the extent of the fall between the peak and the F0 terminus
+(smaller in the short rhyme CVNT syllables and hence more likely to be categorized as H
+than M). A third possibility is that there was a difference in the location of the peak
+                                                                                        26
+
+
+within the syllable rime. Remembering that the Thai M exhibits a gradual decline while
+the H peak is delayed in (38), might there be a correlation between the subjects' H vs. M
+response and the relative location of the peak in the E stimulus?
+        An analysis of the data found no correlation between the amount of pitch drop in
+the English stimulus and the Thai subjects' H vs. M response. Nor was there any
+correlation between the maximum pitch attained in the stimulus and the H vs. M
+response. Finally, for both the CVN and CVNT syllables the maximum F0 value was at
+the very beginning of the syllable rhyme.
+        It thus appears that the H vs. M categorization is not dependent on any obvious
+differences in the F0 contour in the English stimuli. The only significant difference we
+found was within the class of CVNT stimuli. The number of H responses for CVNk
+stimuli was significantly higher than for CVmp ones. When we looked at an estimate of
+the burst energy for the stop within the entire CVNT class we found a good fit with the
+number of H responses: the greater the burst energy the larger the number of H responses.
+This finding suggests that Thai speaker decides between the H vs. M tone on the basis of
+whether or not the stimulus is perceived to terminate in a stop, the salience of the burst
+being the major cue. This in turn looks like solid support for the tonal assignment based
+on the rule dead syllable = high tone originally proposed by Gandour (1979).
+        Another point worth mentioning is that our subjects were much more confident in
+assigning CVN stimuli to the M class than they were in assigning CVNT stimuli to the H
+class. This is apparent in the ratios of tonal response: 80% vs. 20% M for the CVN
+syllables in comparison to 60% vs. 40% H for the CVNT syllables. It also shows up in
+the number replays of the A-X-B stimulus the subjects made before deciding their
+answer: CVNT vs. CVN were replayed on a 3 to 2 ratio. In terms of the experimental task
+there were two competing representations that could serve as the basis for tonal
+assignment in the CVNT stimuli: the input English stimuli with a final stop that calls for
+the H response (dead syllable) and the output CVN (live syllable) which calls for a M
+response. The CVN stimuli had a consistent shape at both levels of representation. This
+difference can be modeled directly in an OT grammar on the basis of faithfulness to the
+English source or to the surface Thai output. But if adaptation proceeds on the basis of an
+automatic parse of the stimulus in terms of the Thai CVC syllable template then it is
+unclear how to account for the tonal difference.
+
+7. Summary and Conclusion
+
+This paper reported some of the major results from an analysis of an 800-word corpus of
+loanwords from English into Thai and their bearing on models of loanword adaptation in
+the current theoretical literature. The first section reviewed the adaptation of consonants
+lacking a counterpart in the Thai phonemic inventory. Adaptations such as ∫ -> ch and v -
+> w made more sense when viewed from the perspective of auditory similarity rather
+than proximity in articulator-based feature geometry or shared natural classes. On the
+other hand, the adaptation of the interdentals as dental rather than the auditorily more
+similar labio-dental seemed to be based on articulatory grounds. It was speculated that
+visual information may override auditory factors.
+        The next section reviewed the mapping of English voiceless-voiced stops to the
+Thai three-way aspirated, voiceless, voiced series. The consistent assignment of English
+                                                                                            27
+
+
+word-initial voiceless stops to the aspirate category suggests that the Thai adapter is
+trying to achieve a match with English surface phonetics and hence that the details of
+phonetic realization play a role in adaptation. But the fact that certain details are
+overlooked (e.g. partially voiced stops in initial position) indicates that some abstraction
+over the surface phonetics also occurs. It was speculated that salient contexts in which
+phonetic distinctions are more reliable in the source set the standard for normalization.
+        The next section discussed adaptation to Thai prosodic structure in which the final
+syllable of the citation form bears a major stress and is required to be a heavy syllable.
+Well-established alignment constraints and avoidance of prominence on weak vowels
+implied truncation rather than epenthesis as the appropriate repair. It was also noted that
+loanword adaptation invoked a novel repair of vowel lengthening as opposed to
+glottalization found in the native grammar. We suggested that a modeling in terms of OT
+Output-Output Correspondence constraints provides an adequate interpretation.
+        The final topic was the assignment of a tone to the loanwords. Our corpus allowed
+us to confirm the tonal assignments discovered by Gandour (1979). The data suggest that
+no direct correspondence is drawn between English F0 contours and Thai tonal
+categories. For the most part tone is assigned in terms of two default rules: syllables
+terminating in a sonorant take M and syllables terminating in an obstruent take H. It was
+shown that the latter rule is sensitive to a covert obstruent that is not realized in the loan.
+A phonetic experiment in which listeners were required to choose between M vs. H tonal
+assignments for CVN and CVNT corroborated the reality of these rules.
+
+Footnotes
+
+*This paper was read at the 12 Manchester Phonology Conference, Manchester
+University, May 2004. We are grateful to our reviewers Curtis Rice and Moira Yip as
+well as to Arthur Abramson, François Dell, and Jackson Gandour for comments and
+criticisms.
+[1] These loans are cited without tone marks by Panlay (1997:85). The second author of
+this paper assigns líit and fútbàat.
+[2] Thanks to Andrew Nevins for help in running these calculations.
+[3] See Yip (this volume) for similar observations on the relevance of the visual
+modality. However, she reports (based on Hung and Man 2004 and p.c.) that English /T/
+is loaned as /f/ in Cantonese as in thin -> [fIn].
+[4] Shin and Davis (2003) report cases of English loans into Korean where the initial
+voiced stop is realized as tense in the face of intervocalic lax (phonetically voiced)
+adaptations such as dollar -> [t'alla], bar -> [p'a]. However, as they show this is
+paralleled by a more general shift of word-initial lax stops to tense that affects the Korean
+lexicon as a whole--both native and loans.
+[5] In Korean native vocabulary the ban against release features in the syllable coda is
+repaired by suppression of the release node (leading to massive neutralization) while in
+loans release features are preserved by epenthesis: cf. [nach-il] 'face' acc. but [nat] 'face'
+citation form vs. E coach > [khochi]. The same asymmetry holds for clusters. Underlying
+/talk/ 'chicken' (cf. [talk-il] acc.) is realized as [tak] citation form while English belt is
+adapted with epenthesis as [pelti].
+                                                                                        28
+
+
+[6] A similar phenomenon occurs in Cantonese loans from English. Yip (1993:274) cites
+copy -> khap55phi35 and letter -> let55tha35. When consonant gemination would lead to an
+illicit coda such as [s] then vowel lengthening occurs instead: commission ->
+kham35mi:55sön35.
+[7] There is nothing abnormal about a H-L tonal sequence in native Thai vocabulary (cf.
+na@ampa$a 'forest flood'). The shift of the peak only occurs in loanword adaptation--a
+retreat to the unmarked in the sense of Kenstowicz (2005); see Steriade (2004) for other
+examples of emergence of the unmarked in loanword adaptation. Since tone in English
+loanwords has minimal value as a lexical contrast, it is not surprising that markedness
+factors like alignment of the F0 peak with metrical prominence step in to shape the loan.
+[8] Thanks to Seth Cable for help in constructing these stimuli.
+[9] Before the experiment began the subjects were given some examples of English
+loanwords into Thai and told that the study was designed to test their reactions to English
+loans in connection with choosing brand names for new products on the Thai market.
+
+Appendix
+Stimuli for experiment
+
+       CVN            CVNT
+       bQm            bQmp
+       bEN            bENk
+       bim            bimp
+       dEm            dEmp
+       fEN            fENk
+       fim            fimp
+       fum            fump
+       gEm            gEmp
+       gEn            gEnt
+       giN            giNk
+       hQn            hQnt
+       hEn            hEnt
+       hiN            hiNk
+       kQN            kQNk
+       kuN            kuNk
+       lQn            lQnt
+       lun            lunt
+       meN            mENk
+       min            mint
+       nQm            nQmp
+       nQn            nQnt
+       nEm            nEmp
+                                                                                        29
+
+
+       nEN            nENk
+       nim            nimp
+       nuN            nuNk
+       sQn            sQnt
+       sEm            sEmp
+       SQn            SQnt
+       SEn            SEnt
+       sim            simp
+       sin            sint
+       tQm            tQmp
+       tEN            tENk
+       wQn            wQnt
+       wQN            wQNk
+       wEN            wENk
+
+References
+
+Abramson, A., Lisker, L. 1985. Relative power of cues: F0 shift versus voice timing. In
+    Fromkin, V. (Ed.), Phonetic Linguistics: Essays in Honor of Peter Ladefoged.
+     Academic Press, San Diego, pp. 25-33.
+Abramson, A., Erickson, D. 1992. Tone splits and voicing shifts in Thai: phonetic
+    plausibility. Haskins Laboratories Status Report on Speech Research, SR-109/110,
+     255-62. Also in Pan-Asiatic Linguistics: Proceedings of the Third International
+    Symposium on Languages and Linguistics, vol. 1, Chulalongkorn University,
+    Bangkok, pp. 1-16.
+Adler, A. 2004. Faithfulness and perception in loanword adaptation: a case study from
+     Hawaiian. MIT Generals Paper, Cambridge.
+Ahn, S-Ch. 2003. English interdental substitution. The Journal of English Language &
+     Literature 49, 981-1004.
+Albright, A. 2004. SimilarityCalculator.pl
+Bennett, J. F. 1994. Iambicity in Thai. Studies in the Linguistic Sciences 24, 19-38.
+Bickner, R. 1986. Thai tones and English loanwords: a proposed explanation. In Bickner,
+    R. et al. (Eds.), Papers from a Conference on Thai Studies in Honor of William J.
+    Gedney. Michigan Papers on South and Southeast Asia, Center for South and
+    Southeast Asian Studies, University of Michigan, Ann Arbor, pp. 19-39.
+Brannen, K. 2002. The role of perception in differential substitution. Canadian Journal of
+       Linguistics 47, 1-46.
+Broselow, E. 2003. Language contact phonology: richness of the stimulus, poverty of the
+     base. To appear in Proceedings of the Northeast Linguistics Society 34.
+Clements, G.N. 1984. The geometry of phonological features. Phonology Yearbook 2,
+    223-50.
+Clements, G.N. 2003. Feature economy in sound systems. Phonology 20, 287-334.
+Côté, M-H.2000. Consonant Cluster Phonotactics: a Perceptual Approach. MIT,
+                                                                                       30
+
+
+     Cambridge, Ph.D. dissertation.
+Davidson, L., Noyer, R. 1996. Loan phonology in Huave: nativization and the ranking of
+          faithfulness constraints. West Coast Conference on Formal Linguistics 15, 65-80.
+         Center for the Study of Language and Information., Stanford University, Stanford.
+De Lacy, P. 2002. The interaction of tone and stress in Optimality Theory. Phonology 19,
+     1-32.
+Dupoux, E. et al. 1999. Epenthetic vowels in Japanese: a perceptual illusion? Journal of
+     Experimental Psychology: Human Perception and Performance 25, 1568-78.
+Fenyvesi, A., Gylua Z. 2004. Loanword adaptation in American Hungarian: a cross-
+     linguistic OT account of initial unstressed syllables. 12th Manchester Phonology
+      Meeting, Manchester University, Manchester.
+Frisch, S., Pierrehumbert, J., Broe, M. 2004. Similarity avoidance and the OCP. Natural
+         Language & Linguistic Theory 22, 179-228.
+Gandour, J. 1979. Tonal rules for English loanwords in Thai. In Thongkum, T.L.,
+     Kullavanijaya, P., Panupong, P.V., Tingsabadh, K. (Eds). Studies in Tai and Mon-
+     Khmer Phonetics and Phonology in Honour of Eugénie J. A. Henderson,
+     Chulalongkorn University Press, Bangkok, pp. 94-105 .
+Haas, M. 1951. Interlingual word taboos. American Anthropologist 53, 338-44.
+Haas, M. 1956. The Thai System of Writing. American Council of Learned Societies,
+     Washington D.C.
+Haas, M. 1964. Thai-English Student's Dictionary. Stanford University Press, Stanford.
+Halle, M. 1992. Phonological features. In Bright, W. (Ed.), International Encyclopedia of
+     Linguistics. Oxford University Press, Oxford, pp. 207-12.
+Halle, M. 2003. Verner's Law. In Homma, T. et al. (Eds.),# A New Century of Phonology
+      and Phonological Theory : A Festschrift for Professor Shosuke Haraguchi on the
+     Occasion of his Sixtieth Birthday. Kaitakusha, Tokyo, pp. 155-172.
+Henderson, E. 1962. Marginalia to Siamese Phonetic Studies. In Abercrombie, D. (Ed.),
+       In Honour of Daniel Jones. Longmans, London, pp. 415-23.
+House, A. Fairbanks, G. 1953. The influence of consonant environment upon the
+      secondary acoustical characteristics of vowels. Journal of the Acoustical Society of
+     America 25, 105-113.
+Hung, T., Man, V. 2004. The interlanguage phonology of Hong Kong learners of
+     English:pedagogical implications. Ms, Hong Kong Baptist University, Hong Kong.
+Itô, J., Mester, A. 1995. The core-periphery structure of the lexicon and constraints on
+         rereanking. In Beckman, J et al. (Eds.), Papers in Optimality Theory. Amherst,
+          University of Massachusetts, Amherst, pp.181-210.
+Jacobs, H., Gussenhoven, C. 2000. Loan phonology: perception, salience, the lexicon,
+     and OT. In Dekkers, J. et al, (Eds), Optimality Theory: Phonology, Syntax, and
+     Acquisition. Oxford University Press, Oxford, pp.193-210.
+Kang, Y. 2004. Perceptual similarity in loanword adaptation: English post-vocalic word-
+     final stops in Korean. Phonology 20, 219-74.
+Kenstowicz, M. 2001/4. The Role of Perception in Loanword Phonology. To appear in
+     Linguistique africaine 20 and Studies in African Linguistics 32, 95-112.
+Kenstowicz, M. 2003. Salience and similarity in loanword adaptation: a case study from
+     Fijian. To appear in Language Sciences.
+Kenstowicz, M. 2004. Tone loans; the adaptation of English loanwords into Yoruba.
+                                                                                      31
+
+
+     Paper presented at the 35th Annual Conference on African Linguistics, Harvard
+      University.
+Kenstowicz, M. 2005. The phonetics and phonology of Korean loanword adaptation.
+      Paper presented at First European Conference on Korean Linguistics, Leiden
+     University, Leiden.
+Kingston, J., Diehl, R. 1994. Phonetic knowledge. Language 70, 419-54.
+Kingston, J. 2003. Mechanisms of tone reversal. In Kaji, S. (Ed.), Proceedings of the
+     Symposium Cross-Linguistic Studies of Tonal Phenomena. Tokyo University of
+     Foreign Studies, Research Institute for Languages and Cultures, Tokyo, pp. 57-120.
+Kubozono, H. 2004. Loanword accentuation in Japanese: the emergence of the
+      unmarked. (this volume)
+LaCharité, D., Paradis, C. 2002. Addressing and disconfirming some predictions of
+     phonetic approximation for loanword adaptation. Langues et linguistique 28, 71-91.
+LaCharité, D., Paradis, C.. 2005. Category preservation and proximity vs. phonetic
+         approximation in loanword adaptation. Linguistic Inquiry 36, 223-58.
+Li, Z. 2003. The Phonetics and Phonology of Tone Mapping in a Constraint-Based
+     Approach. MIT Ph.D. dissertation, Cambridge.
+Lisker, L., Abramson, A. 1964. A cross language study of voicing in initial stops. Word
+     20, 384-422.
+Lehiste, I., Peterson, G. 1961. Some basic considerations in the analysis of intonation.
+     Journal of the Acoustic Society of America 33, 419-23.
+Maddieson, I. 1977. Tone loans. UCLA Working Papers in Phonetics 36, 49-83.
+Matondo, M. 2004. Reduplication of recent and future loanwords in Kisukuma. Paper
+     presented at the 12th Manchester Phonology Meeting, Manchester University,
+     Manchester.
+Morén, B., Zsiga, E. 2004. The lexical and postlexical phonology of Thai tones. To
+     appear in Natural language & Linguistic Theory.
+Oh, M. 1996. Linguistic input to loanword phonology. Studies in Phonetics, Phonology,
+     and Morphology 2, 117-26.
+Padgett, J. 1994. Stricture and nasal place assimilation. Natural Language & Linguistic
+     Theory 12, 465-514.
+Panlay, S. 1997. The Effect of English Loanwords on the Pronunciation of Thai.
+     Michigan State University MA thesis, East Lansing.
+Paopichit, K. 1982. Modern English-Thai Dictionary. Thai Wattana Panich Publishing
+      Co., Bangkok.
+Paradis, C. 1996. The inadequacy of filters and faithfulness in loanword adaptation. In
+     Durand, J., Laks, B. (Eds.), Current Trends in Phonology: Models and Methods, Vol.
+      2, European Studies Research Institute, University of Salford, Salford, pp. 509-34.
+Paradis, C., LaCharité, D. 1997. Preservation and minimality in loanword adaptation.
+     Journal of Linguistics 33, 379-430.
+Paradis, C., Prunet, J-F. 2000. Nasal vowels as two segments: evidence from borrowings.
+         Language 76, 324-57.
+Peperkamp, S. 2003. Towards a new theory of loanword adaptations. Ms., University of
+     Paris 8.
+Peperkamp, S., Dupoux, E . 2003. Reinterpreting loanword adaptations: the role of
+         perception. Proceedings of the 15th International Congress of Phonetic Sciences,
+                                                                                     32
+
+
+         367-70.
+Peyasantiwong, P. 1986. Stress in Thai. In Bickner, R. et al. (Eds.), Papers from a
+     Conference on Thai Studies in Honor of William J. Gedney. Michigan Papers on
+      South and Southeast Asia, Center for South and Southeast Asian Studies, University
+     of Michigan, Ann Arbor, pp. 19-39.
+Prince, A. 1990. Quantitative consequences of rhythmic organization. In Ziolkowski, M.
+     et al. (Eds.), Parasession on the Syllable in Phonetics and Phonology. Chicago
+      Linguistics Society, Chicago, pp. 355-98.
+Shih, L-J. 2004. Consonantal and syllabic adaptations in English loanwords in Mandarin.
+      Michigan State University Masters Thesis, East Lansing.
+Shin, S-H., Davis,S. 2003. Where have all the lax stops gone? To appear in Japanese /
+         Korean Linguistics 13.
+Shinohara, S. 1997. Analyse phonologique de l’adaptation japonaise de
+         mots étrangers. Thèse de doctorat, Université Paris III. [ROA-243]
+Shinohara, S. 2000. Default accentuation and foot structure in Japanese:
+     evidence from adaptations of French words. Journal of East Asian
+     Linguistics 9, 55-96.
+Shinohara, S. 2004. Perceptual effects in segment deletion patterns in loanword
+     phonology. (this volume)
+Silverman, D. 1992. Multiple scansions in loanword phonology: evidence from
+     Cantonese. Phonology 9, 289-328.
+Stampe, D. 1973. A Dissertation on Natural Phonology. University of Chicago Ph.D.
+      dissertation.Published by Garland Press, New York, 1979.
+Steriade, D. 2001. The phonology of perceptibility effects: the P-map and its
+     consequences for constraint organization. UCLA ms.
+Steriade, D. (2004). Sources of markedness and why they matter. Paper presented at the
+      GLOW Markedness Workshop, Thessalonika.
+Surintramont, A. 1973. Some aspects of underlying syllable structure in Thai: evidence
+     from Khamphuan--a Thai word game. Studies in the Linguistic Sciences 3,1, 121-42.
+Yip, M. 1993. Cantonese loanword phonology and optimality theory. Journal of East
+     Asian Linguistics 2, 261-91.
+Yip, M. 2002. Perceptual influences in Cantonese Loanword Phonology. Journal of the
+      Phonetic Society of Japan 6,1; 4-21.
+Yip, M. 2004. The symbiosis between perception and grammar in interlanguage and
+     loanword phonology. Paper presented at the 12th Manchester Phonology Meeting.
+      (this volume
+

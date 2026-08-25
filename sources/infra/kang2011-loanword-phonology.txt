@@ -1,0 +1,1393 @@
+TBC_100.qxd       8/3/10   17:25   Page 1
+
+
+
+
+              100             Loanword Phonology
+                              Yoonjung Kang
+
+
+
+
+              1 Introduction
+              “Loanwords” are words borrowed from one language to another. These borrowed
+              words usually undergo “adaptation” processes to conform to the structural con-
+              straints of the borrowing language phonology. Such adaptation affects all facets
+              of phonological structure, reflecting the segmental, phonotactic, suprasegmental
+              and morphophonological restrictions of the borrowing language. The patterns that
+              emerge in loanword adaptation often reveal aspects of native speakers’ know-
+              ledge that are not necessarily obvious in data of the native language and, as a
+              result, loanword data can inform our analysis of the native phonology (Hyman
+              1970, Holden 1976, Ahn & Iverson 2004, Kawahara 2008, Wetzels 2009, Chang forth-
+              coming, among others). In this respect, loanword adaptation can be considered
+              a real-life Wug test (Berko 1958) which can enable us to probe into the grammat-
+              ical knowledge of speakers in ways that native data alone cannot. Conversely,
+              however, such emergent patterns in loanword adaptation present a learnability
+              puzzle (cf. Broselow 2009): if a loanword pattern is underdetermined by the native
+              phonology, where does the pattern come from? Also, what type of representation
+              does the adaptation process refer to as it searches for licit forms in the borrow-
+              ing language that most closely match the foreign language input? Is it an abstract
+              phonological representation, a detailed phonetic representation, or a combination
+              of the two? Are there any universal preferences for certain types of repair over
+              others (e.g. epenthesis over deletion, or retention of a vocalic feature over a
+              consonantal feature)? These are some of the major recurring questions in recent
+              studies in loanword phonology and we will address them in this chapter.
+                 This chapter is organized as follows. §100.2 examines various types of emergent
+              patterns in loanword adaptation which pose a potential learnability puzzle, as
+              well as examining proposed explanations for such emergent patterns. §100.3 pro-
+              vides a survey of instances of segmental adaptation and the levels of represent-
+              ation they refer to. §100.4 examines phonotactic adaptations.1
+
+              1
+                 There is a growing body of research on supra-segmental adaptation, which is not dealt with in
+              this chapter due to limitations of space. Readers should refer to Y. Kang (forthcoming) for a recent
+              review of this topic.
+TBC_100.qxd   8/3/10   17:25   Page 2
+
+
+
+
+              2    Yoonjung Kang
+
+
+              2    Emergent patterns in loanwords
+              Research on loanword phonology intensified with the advent of constraint-based
+              models of phonology, such as the theory of Constraints and Repair Strategies
+              (Paradis 1988) and Optimality Theory (Prince & Smolensky 1993) in particular,
+              largely due to their use of output constraints which could motivate the adapta-
+              tion process even when particular processes themselves had no precedents in the
+              native phonology (Yip 1993, Paradis & LaCharité 1997, Broselow 1999, Jacobs &
+              Gussenhoven 2000). In addition, the principle of Richness of the Base in Optimality
+              Theory naturally allows for, and perhaps even requires, an analysis of novel input
+              forms which are not attested in native learning data (cf. Smolensky 1996, chap-
+              ter 76: richness of the base), making the theory more amenable to the study of
+              loanword adaptation phenomena. However, it has also been noted that constraint-
+              based models only resolve one aspect of the puzzle (i.e. why an adaptation takes
+              place at all), while leaving many other questions unanswered (Golston & Yang
+              2001, Peperkamp 2005, Broselow 2009). The puzzling emergent patterns in loan-
+              word adaptation identified in the literature can be classified into five categories.
+
+              1. The too-many-solutions problem: The too-many-solutions problem (Steriade
+                 2001), or differential faithfulness (Broselow 2009), refers to how, given an offend-
+                 ing structure in the foreign input, there is almost always more than one
+                 logically possible repair strategy, yet adaptation often converges on a specific
+                 strategy even when speakers have no apparent evidence for that process in
+                 their native language. For example, Hawaiian does not have a voiced stop
+                 /b/, and thus, as it is unattested in native phonology by definition, there
+                 is no direct evidence from the native phonology as to how such an illicit
+                 segment should be repaired. Yet English /b/ is systematically adapted as /p/
+                 (boulder → [polu’ka(]) and not /m/, /w/ or any other segment of the
+                 Hawaiian inventory (Adler 2006). Similarly, a repair for a phonotactic con-
+                 straint violation presents a wide range of logically possible choices. For
+                 example, when an onset cluster (C1C2V) is borrowed into a language which
+                 bans complex onsets, the structural requirements of the native language can
+                 be satisfied by the deletion of a consonant (> C2V or C1V), an option found
+                 in French loanwords in Vietnamese (crème → [kem]), or by the epenthesis of
+                 a vowel in front of the cluster (> vC1C2V) or inside the cluster (> C1vC2V).
+                 The epenthesis repair is found in Japanese (Christmas → [kurisumasu]) and
+                 Hawaiian (Christmas → [kalikimaki]), among other languages, and these
+                 examples also illustrate some of the different possibilities in the quality of the
+                 epenthetic vowel (Broselow 2006). How, given all these options, do adapters
+                 converge on a specific repair strategy?
+              2. Divergent repair: Even more puzzling is the fact that the repair chosen some-
+                 times seems to contradict the native repair strategy – a situation referred to
+                 as divergent repair by Kenstowicz (2005) and as ranking reversal by Broselow
+                 (2009; see also chapter 71: conspiracies). For example, Thai requires the final
+                 syllable of a word to be heavy. This requirement is satisfied by glottal stop
+                 insertion in native words, as in /ph rá/ → [ph rá?] ‘monk’, but by vowel
+                 lengthening in English loans, as in coma → [khd(m–(]. In native Korean, a restric-
+                 tion against a sequence of an obstruent + nasal is repaired by nasalization, as
+TBC_100.qxd    8/3/10   17:25   Page 3
+
+
+
+
+                                                                       Loanword Phonology      3
+
+                 in /kuk-mul/ [kuImul] ‘soup’, but epenthesis is the dominant repair option
+                 employed for English loanwords, as in picnic → [ph ikh qnik] (see Peperkamp
+                 et al. (2008: 156) for more examples of divergent repairs).
+              3. Unnecessary repair: Moreover, there are cases where adaptation takes
+                 place even when there is no apparent illicit structure in need of repair – a
+                 situation referred to as unnecessary repair by Peperkamp (2005). For example,
+                 Korean allows voiceless stops in coda position, but English voiceless stops
+                 are variably adapted with vowel epenthesis, as in cut → [k hZt h q] ~ [k hZt]
+                 (Y. Kang 2003). Also, an English cluster of a coronal stop + [w] is adapted
+                 with epenthesis in Korean (twin → [t h qwin], *[t h win]) (H. Kang 2006), even
+                 though such clusters are allowed in Korean. In Hmong, /,/ in French loan-
+                 words is adapted as /j/, despite the fact that /,/ is a phoneme in Hmong
+                 (/,o.zef/ Joseph → /jG.sè/, */,G.sè/) (Golston & Yang 2001). Also, in French
+                 loanwords in Japanese and Korean, an epenthetic vowel is added “unneces-
+                 sarily” following word-final nasals (French [kan] Cannes → Japanese [kannu],
+                 *[kan] (Shinohara 1997, Peperkamp et al. 2008); French [kom] comme → Korean
+                 [k’ommq], *[k’om] (H. Kang 1996)).
+              4. Differential importation: Yet another type of puzzling emergent pattern
+                 is differential importation. Importation refers to a situation where a structure
+                 not attested in native phonology is exceptionally allowed in loanwords.
+                 While such importation in and of itself is not a problem from a learnability
+                 perspective, the fact that only certain structures, but not others, are imported
+                 requires an explanation (Holden 1976, Itô & Mester 1995, 1999, 2001, Davidson
+                 & Noyer 1997, Broselow 2009). Given foreign input with two types of novel
+                 structures which are both equally unattested in the native data, why is one
+                 structure readily allowed into the language but not the other? For example,
+                 in Hawaiian, the fully nativized form of the English word truck is [kH’lakH].
+                 Also possible is a “less Hawaiian” variant [tH’lakH], where English /t/ remains
+                 unadapted. But the variant *[’krakH], where the complex onset is retained, but
+                 /t/ is adapted as /k/, is judged to be impossible (Adler 2006). In other words,
+                 the restriction against /t/ is more easily relaxed than the restriction against
+                 an onset cluster. In Russian, the requirement that only palatalized consonants
+                 occur before /e/ is often violated in adaptation, but the process of reducing
+                 unstressed /o/ and /e/ is more likely to be upheld (Holden 1976).
+              5. Retreat to the unmarked: While importation is a situation where native
+                 constraints are relaxed in the loanwords, allowing a wider range of output
+                 structure in the loanword stratum than in the native stratum, we also find
+                 the opposite situation, i.e. that loanwords conform to stricter structural
+                 requirements than the native phonology, such that the foreign input is trans-
+                 formed to an unmarked form, even when there is a seemingly more faithful
+                 licit form available in the language. Kenstowicz (2005) refers to such cases
+                 as retreat to the unmarked. Pitch accent assignment in Japanese and Korean
+                 exhibits an emergence of a default accent assignment pattern – the most
+                 general pattern being to accent the penultimate syllable in Kyungsang
+                 Korean (Kenstowicz & Sohn 2001, Lee 2009) and the antepenultimate one in
+                 Tokyo Japanese (Shinohara 2000, Kubozono 2006). Similarly, tone assignment
+                 in loanwords in White Hmong (Golston & Yang 2001), Thai (Kenstowicz &
+                 Suchato 2006), Tibetan (Hsieh & Kenstowicz 2008), Taiwanese (Hsieh 2006),
+                 Mandarin (Wu 2006) and Vietnamese (Barker 1969) is based on the segmental
+TBC_100.qxd   8/3/10     17:25     Page 4
+
+
+
+
+              4     Yoonjung Kang
+
+                   composition of the input. The “retreat to the unmarked” is also found in the
+                   segmental domain. In Hungarian, word-final voiceless obstruents in mono-
+                   syllabic loanwords are geminated, in an apparent requirement for syllables
+                   to be heavy (e.g. shock → [sokk], *[sok]), but “Hungarian does not have a require-
+                   ment for syllables to be heavy” and this is a case of “a peripheral stratum of
+                   the lexicon introducing a requirement which is not a part of the core-stratum”
+                   (Kertész 2003).2 In Thai, English word-initial voiceless stops are generally
+                   adapted as aspirated stops, retaining the aspiration of the input (e.g. English
+                   [ph]in → Thai [ph in], [t h]eam → [t h i(m], [kh]one → [kho(n]). The only exceptions
+                   are when there is an unaspirated stop in the same word, as in [ph]eg → [pek],
+                   *[phek], and [kh]ook → [kuk], *[khuk], indicating a preference for a non-aspiration
+                   harmony – a generalization not present in the native phonology (Kenstowicz
+                   & Suchato 2006). The retreat to the unmarked in many of these cases is
+                   particularly puzzling, because there is no clear evidence for the “unmarked”
+                   status of the resulting structure in the native data.
+
+              We now turn to explanations for emergent patterns in loanword phonology in
+              the literature, which can be grouped into five broad categories, which are not
+              necessarily mutually exclusive.3
+
+              1.   Native phonology: The first possibility is that the adaptation pattern is indeed
+                   a reflection of language-specific facts of the native phonology – the loanword
+                   pattern only appears to be novel. For example, it has been proposed that
+                   in segmental adaptation, the choice regarding which feature to preserve and
+                   which feature to sacrifice is informed by the status of the features in the native
+                   phonology (Hancin-Bhatt 1994, Clements 2001, Herd 2005, among others;
+                   see §100.3.1 for further discussion). Rose and Demuth (2006) propose that the
+                   choice of the epenthetic vowel quality in English and Afrikaans loanwords
+                   in Sesotho is predictable from the contrastive feature specifications of the native
+                   phonology. The native phonology generalizations that affect loanwords can
+                   also take the form of covert statistical generalizations. Zuraw (2000) demon-
+                   strates that the variable application of nasal substitution in loanwords in Tagalog
+                   is a direct reflection of statistical tendencies in the native lexicon. It has also
+                   been argued that the default accentuation in loanwords in Tokyo Japanese
+                   has a direct correlate in native phonology as a covert default in the lexicon as
+                   a whole (Kubozono 2006). Luke and Lau (2008) show that in recent English
+                   loans in Cantonese, verbs are generally truncated to become monosyllabic,
+
+              2
+                 Consonant gemination in loanwords is a widespread phenomenon, found in Japanese (Katayama
+              1998, Shinohara 2004, Kato 2006, Kubozono et al. 2008), Italian (Repetti 1993, 2006, 2009), Finnish
+              (Karvonen 2005), Maltese and Egyptian Arabic (Hafez 1996) and Kannada (Sridhar 1990). While some
+              writers analyze gemination in loanwords as the emergence of the unmarked (Repetti 1993, Shinohara
+              2004, Kubozono et al. 2008, among others), others argue that the gemination is motivated by the preser-
+              vation of the input structure and does not necessarily result in less markedness of the output (Kato
+              2006, Repetti 2006). Repetti (2006), in fact, refers to the gemination in loanwords in Italian as a case
+              of the emergence of “marked” structures. Under these alternative interpretations, consonant gemina-
+              tion can be categorized as a case of (seemingly) unnecessary repair ((iii) above), rather than a retreat
+              to the unmarked.
+              3
+                 Another possibility not listed here is to posit a separate set of principles or constraints governing
+              loanword adaptation (Paradis & LaCharité 1997). Such approaches may be considered a type of UG
+              approach if we assume that UG contains a separate set of principles for loan adaptation.
+TBC_100.qxd       8/3/10   17:25    Page 5
+
+
+
+
+                                                                                       Loanword Phonology             5
+
+                 whereas nouns tend to be bisyllabic, and this pattern conforms to lexical
+                 statistics in native words. Walter (2006) argues that gender assignment in Arabic
+                 loanwords in Spanish also mirrors phonological generalizations and statistical
+                 tendencies in the native lexicon.
+              2. Default setting of UG: However, many emergent patterns in loanwords
+                 still elude explanations based on covert generalizations in native phonology.
+                 Some attribute these emergent patterns to default settings of Universal
+                 Grammar. Default accentuation in Northern Kyungsang Korean exhibits a case
+                 of this retreat to the unmarked – a pattern which does not appear otherwise
+                 to be motivated in the native phonology and which must thus be attributed
+                 to UG (Kenstowicz & Sohn 2001). Uffmann (2006) resorts to a universal
+                 markedness hierarchy to account for the epenthetic vowel quality in loanwords
+                 in Shona, Sranan, Samoan and Kinyarwanda. In their influential work on the
+                 lexical stratification of Japanese, Itô and Mester (1995, 1999, 2001) argue that
+                 the differential importation of foreign features in loanwords reveals covert
+                 constraint rankings from the initial state of UG that lie latent in the native
+                 phonology (also see Shinohara 2000, 2004).4 Similarly, Davidson et al. (2004)
+                 argue that the differing rates in the correct L2 production of foreign clusters
+                 reveal a covert ranking in the initial state of UG. Analyses that resort to the
+                 universal hierarchy of perceptual similarity (P-map) to account for adaptation
+                 patterns can also be grouped into this category (Fleischhacker 2005, Shinohara
+                 2006, Kawahara 2008). We will return to this P-map-based approach below.
+              3. Adaptation as perception: The next possibility is that a seemingly puzzling
+                 adaptation in fact takes place during the perception of foreign input and not
+                 in the computation of the production grammar (Silverman 1992, Peperkamp
+                 & Dupoux 2003, Peperkamp et al. 2008, Boersma & Hamann 2009, Calabrese
+                 2009). Based on findings that the perception of foreign sounds is constrained
+                 by the segmental and structural constraints of the native language (Massaro
+                 & Cohen 1983, Werker & Tees 1984, Dupoux et al. 1997, Dupoux et al. 1999),
+                 it is argued that most, if not all, of the adaptation in fact takes place during
+                 the perception of foreign input. This approach breaks away from the assump-
+                 tion that the input to the production grammar in loanword adaptation faith-
+                 fully retains the phonetic and/or phonological structure of the source language
+                 input (cf. Jacobs & Gussenhoven 2000, LaCharité & Paradis 2005). This view
+                 provides a solution to many puzzling adaptations, such as unnecessary repair
+                 or divergent repair, where the adaptation pattern seems to contradict the pro-
+                 duction grammar of the borrowing language.5
+                    While some propose that perceptual adaptation is one of many steps in adapt-
+                 ation (e.g. Silverman 1992, Kenstowicz 2003, Broselow 2009), others propose
+                 that “all loanword adaptations are phonetically minimal transformations that
+
+              4
+                 Crawford (2007, 2008) argues that the different degree of nativization is grammar-external (i.e. the
+              apparent differential adaptation is a reflection of differing transmissibility of foreign features as they
+              spread from bilingual to monolingual populations). Davidson (2007) also shows how foreign struc-
+              tures can initially be introduced by bilingual speakers and evolve further during transmission to the
+              monolingual population.
+              5
+                 Under this view, the burden of explanation for the adaptation pattern is passed on to the percep-
+              tion module and the question of learnability is still not fully resolved – i.e. why is the novel foreign
+              input perceived the way it is? Some cases of perceptual adaptation have a comparable precedent in
+              the native language, but not all.
+TBC_100.qxd   8/3/10     17:25     Page 6
+
+
+
+
+              6     Yoonjung Kang
+
+                   apply during speech perception” [emphasis original] (Peperkamp 2005; see
+                   also Peperkamp et al. 2008 and Boersma & Hamann 2009).6 Peperkamp et al.
+                   (2008: 132) state:
+
+                       [D]ue to the automatic character of perceptual assimilation and the primacy
+                       of perception over production, [our psycholinguistic model] only allows for a
+                       limited number of loanword adaptations that are not due to distortions during
+                       speech perception.
+
+                 Boersma and Hamann (2009) take the strict view that perception is largely
+                 bound by native output constraints, so that a structure that violates native
+                 constraints cannot be perceived faithfully. Peperkamp et al. (2008), on the other
+                 hand, allow for the possibility that foreign structures may be correctly per-
+                 ceived, leading to importation rather than adaptation. Overall, this approach
+                 makes the strong empirical prediction that adaptation is tightly correlated with
+                 perception. See Chapter 104: Perceptual Effects for further discussion.
+              4. Perceptual similarity: Steriade (2001) proposes that speakers possess know-
+                 ledge of perceptual similarity between strings of sounds (the P-map), which
+                 is utilized in loanword adaptation (see Yip 2002, 2006, Y. Kang 2003, Kenstowicz
+                 2003, 2007, Fleischhacker 2005, Kawahara 2006, Miao 2006, Shinohara 2006, Kang
+                 et al. 2008, among others, for the application of P-map constraints to loanword
+                 adaptation).7 The perceptual similarity approach, similar to the adaptation-
+                 as-perception approach, places an emphasis on perceptual factors and phonetic
+                 details in accounting for adaptation patterns. However, the former differs from
+                 the latter in that perceptual factors are incorporated into grammatical con-
+                 straints which can be ranked with respect to other grammatical constraints.
+                 As a result, the P-map dictates that the repair be as perceptually minimal as
+                 possible, but does not necessarily dictate whether adaptation has to actually
+                 take place; this is determined by the relative ranking of P-map-based faith-
+                 fulness constraints with respect to native structural constraints (Steriade
+                 2007). In other words, this approach allows for the possibility that foreign input
+                 is faithfully perceived, yet can nevertheless be adapted to adhere to native
+                 phonotactic constraints. For example, Kabak and Idsardi (2007) examined Korean
+                 speakers’ perception of English consonant clusters that violate phonotactic
+                 restrictions in Korean and found that some clusters that undergo adaptation
+                 in loanwords, such as [gm] and [km], were correctly perceived as distinct from
+                 their counterparts with an epenthetic vowel, i.e. [gÁm] and [kÁm] respectively.
+                 This contrasts with the adaptation-as-perception view, where the connection
+                 between perception and adaptation is much tighter. Yip (2002: 10) notes:
+
+                       [R]eference to perceptual salience within the phonology proper resolves the para-
+                       dox that quite subtle non-native distinctions are clearly perceived, but nonetheless
+                       less salient segments are more likely to be sacrificed than highly salient ones.
+
+              6
+                 Peperkamp (2005) and Peperkamp et al. (2008) acknowledge the possibility that some adaptation
+              processes may be due to non-perception-related factors (e.g. cases of “retreat to the unmarked”).
+              7
+                 The knowledge of the P-map is largely universal, and therefore this approach can be categorized
+              under the UG approach. However, Steriade (2001: 243) also leaves open the possibility that the specifics
+              of the P-map can differ according to language-specific experiences, and Y. Kang (2003), for example,
+              employs the P-map model, but assumes that some aspects of the P-map can be language-specific.
+TBC_100.qxd       8/3/10   17:25   Page 7
+
+
+
+
+                                                                                    Loanword Phonology           7
+
+                 A strict interpretation of the P-map, as presented in Steriade (2008), predicts
+                 a strong correspondence between native repair and loan repair, since the
+                 P-map hierarchy affects both native and loanword phonology. However,
+                 cases of divergent repair, discussed above, contradict this strict interpretation.
+                 Y. Kang (2003), Kenstowicz (2005) and Yip (2006), on the other hand, propose
+                 loanword-specific mapping constraints, variously named Be similar, Match,
+                 Mimic, or Output–Output faithfulness constraints, which are distinct from native
+                 Input–Output constraints (see chapter 66: markedness and faithfulness con-
+                 straints). These constraints require preservation of the source language
+                 information, and – depending on the relative ranking of these constraints
+                 with respect to native markedness and faithfulness constraints – importation
+                 (Floan » M » Fnative), retreat to the unmarked (Fnative » M » Fforeign), or divergent
+                 repair (F1loan » F2loan , while F2native » F1native) can occur (Kenstowicz 2005).
+                    Yip (2006) also notes that adaptation by perception alone is too deter-
+                 ministic to account for the range of variation attested in data. For example,
+                 a single language, such as Mandarin, can show different adaptation strat-
+                 egies for illicit codas in English loanwords, namely epenthesis in Mainland
+                 Mandarin (Friedman → [fu.li.tH.man]) and deletion in Taiwanese Mandarin
+                 (Friedman → [fu.li.man]). Similarly, Adler (2006) reports variation between
+                 deletion and epenthesis in English loanwords in Hawaiian. In such cases, per-
+                 ception underdetermines adaptation and the ranking of grammatical constraints
+                 determines the final outcome. Broselow (2009) and Peperkamp et al. (2008),
+                 concerned with the unconstrained nature of these loanword-specific mapping
+                 constraints which can be freely ranked across languages, argue that adapta-
+                 tion is actually much more constrained by perceptual factors than is predicted
+                 by loanword-specific faithfulness constraints.
+              5. Grammar-external factors: Finally, it has been proposed that sociolinguistic
+                 or grammar-external factors affect the pattern of (non-)adaptation, especially
+                 where aspects of loanword phonology are underdetermined by grammatical
+                 factors. First of all, the rate of importation has been shown to positively cor-
+                 relate with the level of bilingualism in the community (Haugen 1950, Paradis
+                 & LaCharité 1997, 2008, 2009, Heffernan 2007, Friesner 2009a). The level of
+                 bilingualism has also been argued to determine the mode of adaptation: the
+                 higher the level of bilingualism, the more likely the adaptation will refer to
+                 phonological representations over phonetic representations of the input lan-
+                 guage (Heffernan 2007).8 The channel of borrowing (i.e. spoken vs. written)
+                 and the related influence of orthography have also been proposed to affect
+                 the adaptation pattern (Dohlus 2005, Smith 2006, Vendelin & Peperkamp 2006,
+                 Detey & Nespoulous 2008, Friesner 2009a). It is also proposed that adapters
+                 look to orthography, especially when other factors underdetermine the
+                 adaptation pattern and the adapters are uncertain about the “correct” pattern
+                 (Y. Kang 2009). For example, in 1930s Korean, non-preconsonantal /s/ in
+                 English loanwords was variably adapted as lax /s/ or tense /s’/, the latter
+                 written as geminate <ss> in Korean orthography. Whether the English /s/
+                 was written with a single or double <s> had a significant effect on the choice
+                 between the two adaptation patterns.
+
+              8
+                 See Paradis and LaCharité (2008, 2009) for arguments against this view that the mode of adaptation
+              is dependent on the level of bilingualism.
+TBC_100.qxd   8/3/10    17:25     Page 8
+
+
+
+
+              8     Yoonjung Kang
+
+
+              3     Segmental adaptation
+              When the foreign input contains a non-native segment, the segment is replaced
+              with the “closest” sound in the native language. The main problem here is how
+              to define the “closest” sound. For example, when a front rounded vowel ([−back,
+              +round]) is borrowed into a language that lacks such vowels, the vowel under-
+              goes transformation. The French high rounded vowel [y] is adapted as [u] in
+              White Hmong (Golston & Yang 2001), preserving the rounding feature of the input,
+              as [i] in Mauritian Creole (Jacobs & Gussenhoven 2000), Fula, Kinyawaranda and
+              Lingala (Paradis 2006), preserving the backness feature of the input, and variably
+              as [u] or [i] in Moroccan Arabic (Paradis 2006), Egyptian Arabic (Hafez 1996).
+              The same vowel is adapted as [ju] in Japanese (Dohlus 2005), preserving both the
+              backness and rounding features of the input segment, but creating a bisegmental
+              structure. Such diverse substitution indicates that there is no universal metric of
+              similarity that all languages follow in segmental adaptation. How then is sim-
+              ilarity determined in segmental adaptation? A related key issue in the literature
+              on loanword phonology, and segmental adaptation in particular, is the level of
+              representation that the similarity calculation refers to. This question can be exam-
+              ined in two parts: the nature of the borrowing language representation (§100.3.1)
+              and the nature of the input language representation (§100.3.2).
+
+
+              3.1      Borrowing language representation
+              As for the level of representation of the native language which acts as a sieve for
+              the foreign language input, it has been hypothesized that phonological features
+              in the input form that are underlyingly contrastive in the native phonology are
+              preferentially preserved over features that are redundant and non-contrastive in
+              the native phonology (Clements 2001, Herd 2005, Dresher 2009, among others).
+              For example, in all Indo-Aryan languages that maintain a contrast between dental
+              and retroflex stops, English alveolar stops ([+anterior, −distributed]) are consis-
+              tently adapted as retroflex stops ([−anterior, −distributed]), rather than as dental
+              stops ([+anterior, +distributed]) (Lehiste 1988, Arsenault 2009). For example,
+              English taxi and soda are adapted as /Íæksi/ and /soÕa/, respectively, in Hindi.
+              The observed adaptation preserves the [−distributed] feature of the English input
+              while sacrificing the [+anterior] feature. Arsenault (2009) proposes that this is
+              due to the fact that [distributed] is a phonologically active feature in these host
+              languages and [anterior] is not.
+                 Similarly, Clements (2001) discusses the adaptation of English consonants to
+              Hawaiian and proposes that substitution preserves the contrastive feature speci-
+              fication of the native language, which is determined by the composition of the
+              native inventory, as well as a universal hierarchy of feature accessibility. Herd
+              (2005) applies Clements’s (2001) model to the adaptation of English consonants
+              in other Polynesian languages. For example, both Hawaiian and New Zealand
+              Maori lack sibilants, and English sibilants /s z œ ,/ are adapted to /h/ in New
+              Zealand Maori, but the same English sibilants map to /k/ in Hawaiian, despite
+              the fact that both /k/ and /h/ are available in both languages.9 According to Herd
+              9
+                Adler’s (2006) elicitation data, however, show that sibilants are variably adapted as /k/, /h/ or
+              null (i.e. are deleted) in Hawaiian.
+TBC_100.qxd        8/3/10   17:25   Page 9
+
+
+
+
+                                                                                       Loanword Phonology             9
+
+              (2005), the crucial difference between Hawaiian and New Zealand Maori is that
+              in Hawaiian /h/ contrasts with /?/ and, as a result, /h/ is contrastively specified
+              for [+spread glottis], thereby creating a mismatch with English sibilants, while in
+              New Zealand Maori /h/ does not contrast with another glottal sound and there-
+              fore is unspecified for [+spread]. At the same time, in New Zealand Maori, /t/
+              and /k/ contrast and /k/ is contrastively specified for [Dorsal], which creates a
+              mismatch with English sibilants. Similarly, Hancin-Bhatt (1994) and Brown (2000)
+              claim that features that play a higher contrastive function in the L1 are more likely
+              to be preserved in the modification of foreign sounds in L2 production.
+                 An alternative view is that phonetically salient input characteristics are prefer-
+              entially preserved over less salient characteristics and that the abstract phonological
+              status of those characteristics – i.e. whether they are underlyingly contrastive or
+              not – is not particularly relevant (Brannen 2002, Hsieh & Kenstowicz 2008, Lin
+              2008, Steriade 2008, Hsieh et al. 2009). Given that phonologically contrastive features
+              tend to be phonetically salient and that there is also a degree of indeterminacy in
+              phonological analyses of contrastiveness, the two views often converge on the same
+              predictions, but not always (see Y. Kang 2008a for more discussion on this issue).
+                 It has also been claimed that the saliency of a given feature is not invariant across
+              contexts; rather, depending on other features co-occurring within the same seg-
+              ment and the neighboring segmental contexts, the saliency of features can vary.
+              For example, Brannen (2002) proposes that the English interdental fricative /h/
+              is adapted differently in European French and Quebec French, mapping to /s/
+              in European French and to /t/ in Quebec French. The crucial difference between
+              the two dialects is that in European French the coronal fricative /s/ has a dental
+              place of articulation, while in Quebec French /s/ is alveolar, a phonetic detail
+              that is not contrastive in either of the dialects. On the basis of these findings, Brannen
+              (2002) argues that adaptation is sensitive to non-contrastive, but phonetically salient,
+              features, such as stridency and minor place of articulation features. The adaptation
+              of English vowels in Mandarin (Lin 2008) is another case where non-contrastive
+              features of the borrowing language are preferentially preserved at the cost of
+              contrastive features. In Mandarin non-high vowels, height is contrastive but
+              backness is not – it is predictable from the context (Duanmu 2000). If the phono-
+              logical status of these features directly influences the segmental adaptation, we
+              would expect height to be preserved and backness to be sacrificed when the input
+              vowel has to be modified due to phonotactic or semantic restrictions. However,
+              contrary to this prediction, Lin’s (2008) survey finds that when English vowels
+              are adapted in Mandarin, vowel height is routinely altered, but backness is fairly
+              consistently preserved (on the relation between backness and vowel height see
+              also chapter 19: vowel Height). A similar tendency is also found in English
+              loanwords in Cantonese (Yip 2002).
+                 Proponents of perceptual similarity assume that there is a quasi-universal
+              hierarchy of featural salience such that “certain features are inherently more salient
+              than others” (Brannen 2002). For example, Steriade (2008) states that “stricture
+              differences ([sonorant], [continuant], [consonantal]) play the major role in gener-
+              ating dissimilarity judgments, in contrast to voicing and place.”10 This hierarchy
+              10
+                  Clements’s feature hierarchy (2001: 80, repeated below) also predicts quasi-universal tendencies
+              in selective feature preservation, although in his model, only features that are contrastive in the native
+              language are relevant in loanword adaptation: [coronal] > [sonorant] > [labial] > [dorsal] > [strident]
+              > [nasal] > [posterior] > [lateral] > [voice].
+TBC_100.qxd   8/3/10    17:25   Page 10
+
+
+
+
+              10    Yoonjung Kang
+
+              is compatible with the adaptation pattern found in Selayarese (Broselow 1999) and
+              Mandarin (Miao 2006). In Selayarese, the coda position is restricted to glottal stops
+              and velar nasals, and potential violations of the coda restriction in loanwords from
+              Bahasa Indonesian are repaired by changes in place of articulation, but never by
+              changes in nasality or continuancy. Also, in a comprehensive examination of
+              segmental adaptation in English, German and Italian loanwords in Mandarin,
+              Miao (2006) concludes that segmental adaptation obeys the following hierarchy:
+              Ident(Manner) » Ident(Major Place) » Ident(Place) » Ident (Voice/Aspiration).
+              Brannen (2002), on the other hand, provides a slightly different hierarchy to account
+              for the adaptation of English dental fricative in various languages: Turbulence
+              (strident/mellow) > Major Articulators (Labial/Coronal) > Airflow (stop/continuant)
+              and Location (Lip/Dental/Alveolar) > Minor Articulators (Laminal/Apical). It
+              remains to be seen to what extent the claim of universal hierarchy holds true, either
+              as an absolute principle or as a general tendency, in view of the full body of data.
+                 Finally, the adaptation-as-perception view claims that segmental adaptation is
+              also a result of L1 speech perception applied to the foreign acoustic input (Silverman
+              1992, H. Kim 2008, 2009, Peperkamp et al. 2008, Boersma & Hamann 2009). H. Kim
+              (2008, 2009) proposes that segmental adaptation is due to L1 feature-driven percep-
+              tion. Foreign input is mapped to a phonological category via perceptual mapping
+              of the acoustic signal to relevant featural representations. The concept of “feature”
+              in her model is somewhat more abstract than what is assumed in the other studies
+              discussed above. For example, a [tense] feature can be signaled by a combination
+              of acoustic correlates, such as duration and pitch of the adjacent vowel, and the
+              same feature can be signaled by different combinations of acoustic correlates depend-
+              ing on the context within which it occurs.
+                 As mentioned above, the adaptation-as-perception view predicts a very strong
+              correlation between perception and adaptation. The strongest view, where all
+              foreign segments are obligatorily transformed to native sounds (Silverman 1992,
+              Boersma & Hamann 2009, among others) has difficulty accounting for how some
+              foreign contrasts can be easily perceived (Best 1994), and some foreign segments
+              are adopted without adaptation (i.e. imported). Also, the view that all adaptation
+              occurs during perception is unable to explain cases where adapters can perceive
+              the foreign contrast but nevertheless adapt it to a native segment. Also, there are
+              cases where the perception results do not match the adaptation results. For
+              example, Brannen (2002) shows that [f] is the segment that is most likely to be
+              confused with [h] by French speakers, yet [t] or [s] is the consonant of choice in
+              the adaptation of English [h].
+
+              3.2      Input language representation
+              With respect to the input to the adaptation process, some argue that the input is
+              the phonological representation of the source language, devoid of redundant phon-
+              etic details (Paradis & LaCharité 1997, Shinohara 2004, LaCharité & Paradis 2005).
+              This view, referred to here as the “phonological input” view, predicts uniform
+              adaptation of a source language phoneme across different contexts (i.e. phonemic
+              uniformity). Others assume that the input is the acoustic representation of the source
+              language, including all subphonemic phonetic details of the source language sounds
+              (Silverman 1992, Yip 1993, Peperkamp 2005, Iverson & Lee 2006, Peperkamp et al.
+              2008). The latter view, referred to here as the “phonetic input” view, predicts that
+TBC_100.qxd        8/3/10   17:25    Page 11
+
+
+
+
+                                                                                    Loanword Phonology   11
+
+              a given phoneme of the source language can be adapted differently in different
+              segmental contexts depending on its surface phonetic characteristics in the input
+              language.
+                 Empirical research accumulated over the years, however, shows that adapta-
+              tions of both types are amply attested. The range of possibilities is well illustrated
+              by the different adaptation of English voiceless stops in languages with aspiration
+              contrasts in voiceless stops. English voiceless stops vary in aspiration depending
+              on the context. The “phonological input” view predicts that the adaptation should
+              be uniform, regardless of position, barring modifications due to phonotactic
+              restrictions. The “phonetic input” view, on the other hand, predicts adaptation
+              to aspirated and unaspirated stops, depending on the allophonic realization of
+              the English input stops. An example of adaptation based on “phonological input”
+              is found in Korean, where English voiceless stops are consistently adapted as
+              aspirated, even in contexts where the English input is unaspirated, as in [t h]oy
+              s[t]ory → [t hoi sqt hori].11 Examples of adaptation based on “phonetic input” are
+              found in Cantonese (Silverman 1992, Yip 1993) and Thai (Kenstowicz & Suchato
+              2006). In Thai, English voiceless stops are adapted as aspirated in word-initial posi-
+              tion, but as unaspirated following /s/. In word-medial position and elsewhere,
+              the adaptation varies between aspirated and unaspirated stops, with the aspirated
+              adaptation being more likely in pretonic position.
+                 Burmese and Mandarin present a mixed picture. In Burmese, voiceless stops
+              are adapted as unaspirated voiceless stops in most contexts, as in Poland → [pou.lã],
+              except in English word-initial TR sequences, where the stop is adapted as aspir-
+              ated, as in cream → [khH.jh] (Chang 2009). In Mandarin, the majority pattern is to
+              adapt English voiceless stops as aspirated stops regardless of the input aspiration
+              as in [ph]izza → [ph itsa] ~ [ph isa] and hi[p]ies → [siph iÏ] (Paradis & Tremblay 2009).
+              However, the aspirated adaptation is proportionately much more likely to occur
+              when the English input stop is aspirated (88.8%) than when it is unaspirated (78.8%),
+              indicating some influence of the phonetic information.
+                 Additional examples of segmental mapping based on phonological vs. phonetic
+              input found in the literature are listed in (1).
+
+              (1)     a.    Phonetic input
+                            Thai: English /v/ is mapped to /w/ in the onset and to /p/ in the coda
+                              (Kenstowicz & Suchato 2006).
+                            Jahai: Malay /k/ is generally adapted as /k/, but as /?/ word-finally,
+                              reflecting the allophonic realization of /k/ in the Malay input
+                              (Burenhult 2001).
+                            Fon: French /r/ is mapped to /úl/ word-initially, to /l/ in non-initial pre-
+                              vocalic position, and is deleted in preconsonantal or word-final position
+                              (Gbéto 2000, as discussed in Kenstowicz 2003).
+                            Korean: English /s/ is adapted as /s’/ in prevocalic or word-final position
+                              and as /s/ elsewhere (S. Kim & Curtis 2002, Ahn & Iverson 2004, Davis
+                              & Cho 2006, Y. Kang 2008c).
+                            1930s Korean: English voiced stops /b d g/ are mapped to tense stops
+                              /p’ t’ k’/ word-initially and as lax stops /p t k/ elsewhere (Y. Kang
+                              2008b).
+              11
+                    See Oh (2004) and Kenstowicz (2005) for alternative analyses.
+TBC_100.qxd   8/3/10    17:25   Page 12
+
+
+
+
+              12     Yoonjung Kang
+
+                        Yanbian Korean: Mandarin unaspirated voiceless stops/affricates /p t k
+                          ts tu ÍÏ/ are mapped to tense stops/affricates /p’ t’ k’ c’/ word-initially,
+                          but to lax stops/affricates /p t k c/ elsewhere (Ito & Kenstowicz 2009).
+                        Korean: Japanese voiceless stops are adapted as lax stops word-initially,
+                          but as lax or tense stops in word-medial position, depending on the
+                          place of articulation (Ito et al. 2006).
+                        Hawaiian: English /t d/ is mapped to /k/ in general but the adaptation
+                          varies between /k/ and /?/ word-finally (Adler 2006).
+                        Palauan: Palauan lacks /g/ as a phoneme. Japanese /g/ is adapted as
+                          /k/ word-initially but as /I/ word-medially, reflecting the allophonic
+                          variation of Japanese /g/ (Takahashi 2006).
+                   b.   Phonological input
+                        Thai: English voiced stops are adapted as voiced word-initially, where they
+                          are significantly devoiced, and hence voiceless adaptation may be
+                          expected under the phonetic adaptation view (Kenstowicz & Suchato 2006).
+                        Korean: English non-morphemic /z/ is consistently adapted as /c/, even
+                          in contexts where /z/ is significantly devoiced and is better matched
+                          by /s/ or /s’/ (Y. Kang 2009).
+                        See LaCharité & Paradis (2005) for more examples.
+
+              The empirical evidence overwhelmingly suggests that loanword adaptation is not
+              completely based on phonetic or phonological representation; rather, both types
+              of adaptations are attested, oftentimes within a single contact situation, leading
+              many to conclude that the adaptation process can refer to both phonological and
+              phonetic (as well as morphological,12 semantic and orthographic) details of the
+              source language (Y. Kang 2003, 2009, Adler 2006, Kenstowicz & Suchato 2006, Smith
+              2006, Friesner 2009a, b, Chang forthcoming, among others).
+                 It seems reasonable to assume that adapters have some knowledge of the input
+              language phonology, which is accessible in adaptation – contra the view that the
+              input to adaptation is an unstructured acoustic signal (Silverman 1992). At the
+              same time, simply the fact they know phonology does not mean that it is the only
+              aspect they pay attention to (Y. Kang 2008a, Chang forthcoming) – contra Paradis
+              and LaCharité (2009). From this perspective, a more appropriate question is not
+              whether loanword adaptation is phonological or phonetic, but rather what factors
+              make one type of adaptation more likely than the other. For example, aspects of
+              the contact situation, such as the level of bilingualism or the spoken vs. written
+              channel of borrowing, have been proposed as factors that help shape the adap-
+              tation pattern (Dohlus 2005, Rose & Demuth 2006, Smith 2006, Heffernan 2007,
+              Y. Kang 2008c, 2009).
+
+
+              4    Phonotactic adaptation
+              I now turn to adaptation due to phonotactic restrictions. Here again, we are faced
+              with the “too-many-solutions” problem and many seemingly puzzling emergent
+              adaptation patterns. In §100.4.1, I will examine the claim that epenthesis is the
+
+              12
+                See Repetti (2006, 2009), Y. Kang (2009) and Friesner (2009b) for discussion on the role of
+              morphological information in the input language in adaptation.
+TBC_100.qxd        8/3/10    17:25   Page 13
+
+
+
+
+                                                                                        Loanword Phonology             13
+
+              generally preferred adaptation over deletion (Paradis & LaCharité 1997, Shinohara
+              2006). In §100.4.2, I will examine co-occurrence restrictions where the adaptation
+              forces the preservation of certain features over others.
+
+
+              4.1       Epenthesis vs. deletion
+              Paradis and LaCharité (1997) propose the Preservation Principle, which dictates that
+              the input material be preserved as much as possible, unless the cost of preserva-
+              tion is too extreme (see also chapter 78: structure preservation and chapter
+              41: vowel epenthesis). In other words, epenthesis should generally be preferred
+              over deletion. In this section, I will provide a survey of word-initial and word-
+              final cluster adaptations to examine whether epenthesis is indeed the preferred
+              option overall.
+
+              4.1.1         Word-initial clusters
+              As for word-initial onset clusters, a survey of available cases indeed shows that
+              epenthesis is the predominant choice of repair. Epenthesis-only adaptation is found
+              in Burmese (Chang forthcoming), Egyptian Arabic (Hafez 1996), Farsi (Shademan
+              2003), Fijian (Schütz 1978), Fula (Paradis & LaCharité 1997), Hindi (Singh 1985),
+              Huave (Davidson & Noyer 1996), Inuktitut (Pollard 2008), Japanese (Katayama
+              1998),13 Kikuyu (Mwihaki 2001), Korean (H. Kang 1996, among others), Samoan
+              (Cain 1986), Sesotho (Rose & Demuth 2006) and Shona (Uffmann 2006), among
+              others. For example, Inuktitut does not allow consonant clusters, and onset
+              clusters are repaired by epenthesis as in (Santa) Claus → [kalasi] and Scotia → [sikusa]
+              (Pollard 2008).
+                 There are far fewer languages that only employ a deletion strategy in word-
+              initial clusters and many of them are creole languages where only /s/ + stop
+              clusters are repaired (see also chapter 39: sc clusters). In the English-based
+              creole Sranan, /s/-nasal clusters are retained without adaptation, as in smoke →
+              [smoko], but /s/-stop clusters are repaired by /s/-deletion speak → [piki] (Alber
+              & Plag 2001). A similar pattern is found in Dutch-based Negerhollands (e.g.
+              stop → [top] ~ [stop]; Sabino 1990, cited in Alber & Plag 2001), English-based
+              Krio (e.g. spoon → [pun]) and Guyana (e.g. story → [tDri]; Tinelli 1981, cited in
+              Fleischhacker 2005), and an older stage of English-based Belizean Creole (e.g. skirt
+              → [ko(ti]; Greene 1999, cited in Fleischhacker 2005). The only non-creole language
+              where deletion repair is reported to the exclusion of epenthesis for word-initial
+              clusters is Finnish, where all consonants, except for the one immediately preced-
+              ing the vowel, are deleted (e.g. Swedish strand → [ranta] ‘shore’, Russian gramatika
+              → [ra(mattu] ‘bible’). English loans found in “Finglish” (Finnish as spoken by the
+              Finns who migrated to America) also employ the deletion strategy, as in street →
+              [ri(ti] ~ [tri(ti] and blanket → [lenketti] ~ [plenketti] (Karttunen 1977). However,
+              in most deletion-only cases, importation of clusters is the prevalent option along
+              with deletion.14
+              13
+                  According to Smith (2006), deletion repair is marginally found even in word-initial clusters in Japanese,
+              but these forms exist as a part of doublets with a variant with epenthesis.
+              14
+                  As Fleischhacker (2005) points out, the deletion of /s/ is potentially problematic for theories of
+              loanword adaptation that appeal to perceptual factors (i.e. the adaptation-as-perception view and the
+              perceptual similarity view), since /s/ is arguably one of the most salient consonants and is argued
+              to be preferentially preserved in most other contexts (cf. Steriade 2001, Shinohara 2006).
+TBC_100.qxd   8/3/10     17:25    Page 14
+
+
+
+
+              14      Yoonjung Kang
+
+                 Several languages use a deletion strategy in combination with epenthesis
+              word-initially. Polynesian languages that lack /s/ in their inventory delete /s/
+              in /s/-initial clusters while all other clusters are repaired by epenthesis. Examples
+              include Maori ( frock → [poraka], Scotsman → [ko(timana]; Harlow 2004, Herd 2005)
+              and Tahitian (president → [peretiteni], stocking → [totini]; Geraghty & Tent 2004a,
+              Herd 2005). In Hawaiian, initial clusters are generally adapted with epenthesis,
+              as in blessing → [pele’kine] but for /s/-initial clusters, there is variation between
+              epenthesis and /s/ deletion, as in speak → [kH’pikH] ~ [’pikH] (Adler 2006). Adler
+              (2006) attributes the Hawaiian pattern to the fact that /s/ is not a segment of
+              Hawaiian and retaining it requires additional steps of repair in violation of the
+              Threshold Principle of Paradis and LaCharité (1997). However, note that this expla-
+              nation does not extend to the deletion of /s/ in the creole languages discussed
+              above. For example, in Sranan, the language not only has /s/, but it preferentially
+              preserves /s/ in non-initial position, as in sister → [sisa] *[sita]; haste → [hesi],
+              *[heti] (Alber & Plag 2001).
+                 Other languages that show a combination of deletion and epenthesis strategies
+              preferentially preserve /s/-initial clusters while obstruent–liquid clusters may be
+              simplified via deletion of C2 (liquid) (cf. Fleischhacker 2005). In Cantonese, dele-
+              tion and epenthesis repairs are both attested, and the variation is conditioned by
+              the bisyllabic word requirement, as shown in freezer → [fisa] vs. cream → [kejlim]
+              (Silverman 1992, Yip 1993). Interestingly, it is only the obstruent + liquid clusters
+              that allow deletion (of the liquid); /s/-initial clusters undergo epenthesis rather
+              than deletion. Mandarin shows a similar asymmetry between cluster types (Miao
+              2006). Vietnamese is another case where the repair varies between deletion and
+              epenthesis for obstruent + liquid clusters (French gramme → [gam] ~ [garam]) (Barker
+              1969, Andrea Hoa Pham, personal communication).
+                 In Thai, /s/-initial clusters are adapted with epenthesis (style → [sata(j]), but
+              obstruent + liquid clusters are often adapted with deletion of the liquid (plastic
+              → [pattik]) (Gandour 1979).15 A similar asymmetry is found in Contemporary
+              Saramaccan (Aceto 1996, cited in Fleischhacker 2005).
+                 Finally, in Telugu, the repair varies between epenthesis and deletion, regard-
+              less of the type of cluster, and deletion targets a liquid in obstruent + liquid clus-
+              ters (glass → [gasu] ~ [galasu]) and /s/ in /s/-initial clusters (station → [teœHnu]
+              ~ [isteœHnu]) (Broselow 1992, cited in Fleischhacker 2005). Languages that employ
+              deletion repair in word-initial clusters are summarized in Table 100.1.
+
+              4.1.2     Word-final coda consonants and clusters
+              Compared to word-initial position, repairs for coda clusters (e.g. NoCoda or
+              CodaCondition violation) in word-final position are more variable and it is not
+              clear whether epenthesis is cross-linguistically the preferred strategy over deletion
+              in this position (see also chapter 35: final consonants). Examples of languages
+              that choose epenthesis as the repair of choice for word-final coda restrictions include
+              Japanese (Katayama 1998), Kikuyu (Mwihaki 2001), Korean (H. Kang 1996) and
+              Sesotho (Rose & Demuth 2006). On the other hand, there are languages that sys-
+              tematically choose deletion for repair, such as Vietnamese (Barker 1969), Burmese
+              (Chang 2009), Thai (Kenstowicz & Suchato 2006) and White Hmong (Golston &
+
+              15
+                  Kenstowicz and Suchato (2006) report that obstruent–liquid clusters are allowed in Thai and there-
+              fore remain unadapted.
+TBC_100.qxd        8/3/10   17:25   Page 15
+
+
+
+
+                                                                                  Loanword Phonology           15
+
+
+              Table 100.1 Languages that show deletion repair in word-initial clusters.
+
+                                         /s/-C            Obstruent–Liquid                  Languages
+
+              Deletion only         /s/ deletion ~        n/a                    Sranan, Negerhollands,
+                                    importation                                  Krio, Guyanese Creole,
+                                                                                 Belizean Creole
+              Epenthesis            C1 deletion ~         C1 deletion ~          (older) Swedish, Russian,
+              and deletion          importation           importation            and English loans in Finnish
+                                    /s/ deletion ~        Epenthesis             Hawaiian, Maori, Tahitian
+                                    epenthesis            (CC > CvC)
+                                    Epenthesis            Epenthesis ~           Cantonese, Mandarin,
+                                    (sC > svC)            C2 deletion            Vietnamese
+                                    Epenthesis            importation ~          Contemporary Sarammacan,
+                                    (sC > svC)            C2 deletion            Thai
+                                    Epenthesis            Epenthesis             Telugu
+                                    (sC > vsC) ~          (CC > CvC)
+                                    /s/ deletion          ~ C2 deletion
+
+
+
+
+              Yang 2001).16 Some examples from White Hmong include cake → [k h ê], French
+              Adam [adam] → [?àdà]. Notable is the fact that all languages listed above that
+              choose deletion repair in coda position have a strong preference for monosyllabic
+              morphemes. But note that even these languages do not systematically prefer
+              deletion for onset clusters. For example, Burmese chooses epenthesis for word-
+              initial clusters but debuccalization and deletion for word-final clusters, as in Christ
+              → [k h H.7>?] (Chang 2009).
+                Yet another group of languages show both epenthesis and deletion depending
+              on the segmental composition of the offending structure. These languages include
+              Cantonese (Silverman 1992), Fijian (Schütz 2004, Shinohara 2006, Kenstowicz
+              2007), Hawaiian (Adler 2006), Inuktitut (Pollard 2008), Hawaiian Japanese (Higa
+              1970, Smith 2006), Mandarin (Miao 2006), Maori (Harlow 2004), Marshallese
+              (Shinohara 2006) and Yoruba (Shinohara 2006). Examples from Fijian, east → [’isi],
+              wolf → [‘o’liva], illustrate the variability of repair patterns.
+                The question then is what factors contribute to the choice between epenthesis
+              and deletion in coda position. The theory of P-map proposes that, all things being
+              equal, consonants with more salient perceptual cues are more likely to be
+              retained than those with less salient cues (Steriade 2008; see Shinohara (2006) and
+              Fleischhacker (2005) in particular for the application of the P-map theory for vari-
+              able deletion in onset and coda clusters, respectively. See also Miao (2006) for a
+              detailed examination of onset and coda repair patterns for different segmental
+              types in Mandarin).
+
+              16
+                  Golston and Yang (2001) state that “syllable-final consonants are categorically deleted in White
+              Hmong.” While the majority of relevant data available in Golston and Yang (2001) indeed show dele-
+              tion of word-final coda consonants, there are some exceptional forms showing final epenthesis
+              (French [lyk] Luke → [lù.kà]).
+TBC_100.qxd   8/3/10    17:25     Page 16
+
+
+
+
+              16     Yoonjung Kang
+
+                 As for grammar-external factors, Smith (2006) demonstrates that English loan-
+              words in Japanese are systematically adapted with epenthesis in the homeland
+              variety, with deletion attested only sporadically, but deletion is much more
+              prevalent in Hawaiian Japanese. She attributes the difference to the different
+              channel of borrowing: the homeland variety is more influenced by the written
+              input and is thus more likely to preserve the input material, while the Hawaiian
+              variety is more influenced by the aural input and is more prone to perceptual
+              adaptation. Miao (2006) proposes a similar explanation to account for why coda
+              deletion is much more frequent in English loanwords than in German loanwords
+              in Mandarin.17
+                 The choice in the specific location and the quality of the epenthetic segment
+              also often lacks a straightforward precedent in native phonology (see Fleischhacker
+              2005 for a P-map-based account of the location of the epenthetic vowel in word-
+              initial clusters). Different strategies for determining the quality of the epenthetic
+              segment include default insertion, vowel harmony, and consonantal assimila-
+              tion (cf. de Lacy 2006, Uffmann 2006). The specific patterns of vowel epenthesis
+              have been examined in detail in various languages, e.g. Farsi (Shademan 2003),
+              Fijian (Kenstowicz 2007), Hindi (Singh 1985), Inuktitut (Pollard 2008), Kikuyu
+              (Mwihaki 2001), Korean (Oh 1992, Heo 2006, K. Kim 2009), Mandarin (Miao 2006),
+              Cook Island Maori (Kitto & de Lacy 1999), Samoan (Uffmann 2006), Sesotho (Rose
+              & Demuth 2006), Selayarese (Broselow 1999), Shona (Uffmann 2006), Sranan
+              (Uffmann 2006), Yoruba (Pulleyblank 1988, Akinlabi 1993). Here again, explanations
+              proposed for the choice of epenthetic vowel and its location are very diverse, from
+              the spreading of (contrastively marked) features determined by native phonology
+              (Akinlabi 1993, Pollard 2008, K. Kim 2009) to the emergence of the unmarked
+              (Lombardi 2002, Uffmann 2006), perceptual similarity (Y. Kang 2003, Kenstowicz
+              2007, Steriade 2008) and epenthesis by misperception (Dupoux et al. 1999, Kabak
+              & Idsardi 2007). See chapter 41: vowel epenthesis.18
+
+
+              4.2      Co-occurrence restrictions
+              Languages may also impose restrictions on possible combinations of vowels and
+              consonants, and such restrictions can induce adaptation of the foreign input. Again,
+              we are faced with the too-many-solutions problem. In the case of segmental
+              adaptation discussed in §100.3, the features that compete for preservation are
+              all consonantal features or all vocalic features, but in the case of sequential
+              co-occurrence restrictions, vocalic and consonantal features are pitted against
+              each other. Here I will discuss a few such examples.
+                 In Inuktitut, vowels are allophonically retracted next to a uvular consonant,
+              as in /tiriganniq/ [tirigann>q] ‘fox’ and /pirurtuq/ [pirurtÁq] ‘fruits’ (Denis &
+              Pollard 2008). Therefore, on the surface, a sequence of a retracted vowel and a
+
+
+              17
+                  Miao (2006) also notes that loans used in commercial brand names are more likely to show dele-
+              tion than other loans.
+              18
+                  Consonantal epenthesis is also a common repair for a vowel-initial word or vowel hiatus in lan-
+              guages that require onsets. Examples of consonantal epenthesis in loanwords are found in Egyptian
+              Arabic (Hafez 1996), Burmese (Chang forthcoming), Jahai (Burenhult 2001) and White Hmong
+              (Golston & Yang 2001), among others.
+TBC_100.qxd    8/3/10   17:25    Page 17
+
+
+
+
+                                                                           Loanword Phonology        17
+
+              non-uvular consonant cannot occur. Thus, when the English input contains illicit
+              sequences such as />k/, there are at least two logically possible repairs to bring
+              the foreign input in line with native phonotactics: change the vowel quality to
+              [ik] or change the place of articulation of the dorsal consonant [>q]. Actual data
+              suggest that the consonantal place remains stable; the vowel quality changes, as
+              in six → [siksi], *[s>qsi] (based on Pollard 2008). This seems like a case of straight-
+              forward maintenance of contrastive features of the native language, since in
+              Inuktitut, the distinction between tense and lax vowel is allophonic, but the
+              contrast between velar and uvular places of articulation is phonemic.
+                 French and Spanish loanwords in Moroccan Arabic, on the other hand, show
+              the opposite pattern (Kenstowicz & Louriz 2009). In Moroccan Arabic, the vowels
+              /i a u/ are allophonically lowered and/or retracted to [e A o] when adjacent to
+              emphatic (= pharyngealized) consonants, as in [sif] ‘sword’ vs. [s#ef] ‘summer’.
+              In other words, the contrastive distinction in Moroccan Arabic is the emphatic vs.
+              non-emphatic distinction in consonants, whereas the vowel quality difference is
+              an allophonic property. In actual adaptations, mid vowels of French and Spanish
+              are adapted as their corresponding mid vowels in Moroccan Arabic, but with an
+              emphatic version of the adjacent consonants, as in French taupe [top] →
+              Moroccan Arabic [t#ob# b#-A] ‘rat (fem)’, retaining the allophonic distinction of the
+              native language over a contrastive distinction. The adaptation of the English
+              sequences [An] and [æI] in Mandarin, as examined by Hsieh et al. (2009), pre-
+              sents a similar pattern. In Mandarin, the backness of a low vowel is predictable
+              from the context; specifically, it is front before /n/, but is back before /I/, a restric-
+              tion referred to as “rhyme harmony” by Duanmu (2000). English, on the other
+              hand, allows the free combination of low vowels and nasal codas, including [An]
+              and [æI], which violates the phonotactic constraints of Mandarin. Surprisingly,
+              in loanword adaptation, the backness of the vowel is preferentially preserved over
+              the place of articulation of the nasal consonants ([An] → [AI], [æI] → [an]), despite
+              the fact that the place feature of a nasal consonant is contrastive and the
+              backness of a low vowel is not in Mandarin. Some representative examples are
+              monsoon [mAnsun] → mang.xun [mAI.uyn] and bank [bæIk] → ban.ke [pan.kh-].
+              They attribute this pattern to the perceptual saliency of vowel place contrasts over
+              that of consonantal nasal place contrasts, which are known to be perceptually not
+              very salient (Jun 2004, Steriade 2008).
+                 While the place feature of a consonant seems vulnerable in the Mandarin and
+              the Moroccan Arabic examples, consonantal manner features such as [nasal]
+              seem to be more stable than vowel features. Burmese (Chang 2009) provides
+              a relevant example. In Burmese, only glottal stops are allowed in coda position
+              and coda nasals are adapted as nasalization on the preceding vowel, as in
+              champagne → [œÖpÅh]. However, not all Burmese vowels have a nasalized coun-
+              terpart. When English words contain a vowel that lacks a nasal counterpart
+              in Burmese, such as [e D i u], followed by a nasal coda, further adaptation is
+              necessary. In such cases, the vowel quality is changed to allow nasalization, rather
+              than failing to preserve nasality, as shown in November → [noùvábà], *[noùvèbà].
+              This indicates that preservation of the input nasality takes precedence over
+              preservation of the input vowel quality. However, the limited number of cases
+              examined in the literature does not allow us to conjecture on any cross-linguistic
+              generalizations.
+TBC_100.qxd   8/3/10   17:25   Page 18
+
+
+
+
+              18    Yoonjung Kang
+
+
+              5    Conclusion
+              The study of loanwords has played an important role in the development of
+              phonological theories in recent years, and loanword phonology presents a rich
+              empirical ground for examining many topical questions in the field of phonology.
+              The issues that the study of loanwords bears upon, directly or indirectly, include
+              the role of output constraints vs. processes, the phonetics–phonology interface (more
+              specifically, the role of perceptual factors in shaping phonological patterns), the
+              role of native phonological contrasts in phonological processes, the productivity
+              of stochastic generalizations and the role of innate vs. acquired knowledge.
+                 At the same time, loanword adaptation is conditioned by many extragrammatical
+              factors, such as the role of orthography, the channel of borrowing, the degree of
+              bilingualism, etc. The diverse nature of the contact situation poses an interesting
+              challenge and yet also presents a natural locus of interface between theoretical
+              phonology and sociolinguistics. It has been pointed out that some of the disagree-
+              ments in the debate on the nature of loanword phonology stem from differing
+              assumptions on what is classified as a loanword (cf. Rose & Demuth 2006); some
+              linguists focus on on-line adaptations (by monolinguals or bilinguals), while
+              others focus on established loanwords that are sanctioned by norms of the
+              community. While these two endpoints likely exhibit slightly different patterns
+              of adaptation and varying degrees of variability, we expect the two to be related
+              in a systematic way – the output of the initial on-line adaptation serves as the
+              input for a successive chain of speakers in the rest of the community, eventually
+              leading to the establishment of norms. Some researchers are already addressing
+              the question of how loanwords are transformed over time, in order to provide
+              a more comprehensive and dynamic picture of loanword phonology (Poplack &
+              Sankoff 1984, Crawford 2007, 2008, Davidson 2007, Y. Kang 2008b, Y. Kang et al.
+              2008, Friesner 2009a).
+
+
+              ACKNOWLEDGMENTS
+              I would like to thank Michael Kenstowicz, Sharon Peperkamp and Andrea Hoa Pham,
+              as well as the editors and two anonymous reviewers, for their helpful comments and
+              suggestions.
+
+
+
+              REFERENCES
+              Aceto, Michael. 1996. Early Saramaccan syllable structure: An analysis of complex onsets
+                  from Schumann’s 1978 manuscript. Journal of Pidgin and Creole Languages 11. 23–44.
+              Adler, Allison N. 2006. Faithfulness and perception in loanword adaptation: A case study
+                  from Hawaiian. Lingua 116. 1024–1045.
+              Ahn, Sang-Cheol & Gregory K. Iverson. 2004. Dimensions in Korean laryngeal phonology.
+                  Journal of East Asian Linguistics 13. 345–379.
+              Akinlabi, Akinbiyi. 1993. Underspecification and the phonology of Yoruba /r/. Linguistic
+                  Inquiry 24. 139 –160.
+              Alber, Birgit & Ingo Plag. 2001. Epenthesis, deletion and the emergence of the optimal
+                  syllable in creole: The case of Sranan. Lingua 111. 811–840.
+TBC_100.qxd    8/3/10    17:25     Page 19
+
+
+
+
+                                                                                Loanword Phonology           19
+
+              Arsenault, Paul. 2009. Coronal features and retroflexion in Dhivehi and other Indo-Aryan
+                   languages. Toronto Working Papers in Linguistics 30. 17–33.
+              Barker, Milton. 1969. The phonological adaptation of French loanwords in Vietnamese.
+                   Mon-Khmer Studies Journal 3. 138–147.
+              Berko, Jean. 1958. The child’s learning of English morphology. Word 14. 150–177.
+              Best, Catherine T. 1994. The emergence of native-language phonological influences in infants:
+                   A perceptual assimilation model. In Judith C. Goodman & Howard C. Nusbaum (eds.),
+                   The development of speech perception: The transition from speech sounds to spoken words,
+                   167–224. Cambridge, MA: MIT Press.
+              Boersma, Paul & Silke Hamann. 2009. Loanword adaptation as first-language phonolo-
+                   gical perception. In Calabrese & Wetzels (2009), 11–58.
+              Brannen, Kathleen. 2002. The role of perception in differential substitution. Canadian
+                   Journal of Linguistics 47. 1– 46.
+              Broselow, Ellen. 1992. The structure of fricative-stop onsets. Unpublished ms., State
+                   University of New York, Stony Brook.
+              Broselow, Ellen. 1999. Stress, epenthesis, and segment transformation in Selayarese loans.
+                   Proceedings of the Annual Meeting, Berkeley Linguistics Society 25. 311–325.
+              Broselow, Ellen. 2006. Loanword phonology. In Keith Brown (ed.), Encyclopedia of language
+                   and linguistics, vol. 7. 2nd edn., 286–290. Oxford: Elsevier.
+              Broselow, Ellen. 2009. Stress adaptation in loanword phonology: Perception and learnability.
+                   In Paul Boersma & Silke Hamann (eds.), Phonology in perception, 191–234. Berlin &
+                   New York: Mouton de Gruyter.
+              Brown, Cynthia A. 2000. The interrelation between speech perception and phonological
+                   acquisition from infant to adult. In John Archibald (ed.), Second language acquisition
+                   and linguistic theory, 4 – 65. Oxford: Blackwell.
+              Burenhult, Niclas. 2001. Loanword phonology in Jahai. Lund University Department of
+                   Linguistics Working Papers 48. 5–14.
+              Cain, Horst. 1986. A lexicon of foreign loan-words in the Samoan language. Cologne: Böhlau
+                   Verlag.
+              Calabrese, Andrea. 2009. Perception, production and acoustic inputs in loanword phono-
+                   logy. In Calabrese & Wetzels (2009), 59–114.
+              Calabrese, Andrea & W. Leo Wetzels (eds.). 2009. Loan phonology. Amsterdam &
+                   Philadelphia: John Benjamins.
+              Chang, Charles B. 2009. English loanword adaptation in Burmese. Journal of the Southeast
+                   Asian Linguistics Society 1. 77–94.
+              Chang, Charles B. Forthcoming. Phonetics vs. phonology in loanword adaptation:
+                   Revisiting the role of the bilingual. Proceedings of the Annual Meeting, Berkeley Linguistics
+                   Society 34.
+              Clements, G. N. 2001. Representational economy in constraint-based phonology. In T. Alan
+                   Hall (ed.), Distinctive feature theory, 71–146. Berlin & New York: Mouton de Gruyter.
+              Crawford, Clifford. 2007. The role of loanword diffusion in changing adaptation patterns:
+                   A study of coronal stops in Japanese borrowings. Working Papers of the Cornell
+                   Phonetics Laboratory 16. 32–56
+              Crawford, Clifford. 2008. An evolutionary account of loanword-induced sound change in
+                   Japanese. University of Pennsylvania Working Papers in Linguistics 14. 56–80.
+              Davidson, Lisa. 2007. The relationship between the perception of non-native phonotactics
+                   and loanword adaptation. Phonology 24. 261–286.
+              Davidson, Lisa, Peter Jusczyk & Paul Smolensky. 2004. The initial and final states:
+                   Theoretical implications and experimental explorations of Richness of the Base. In Kager
+                   et al. (2004), 321–368.
+              Davidson, Lisa & Rolf Noyer. 1997. Loan phonology in Huave: Nativization and the
+                   ranking of faithfulness constraints. Proceedings of the West Coast Conference on Formal
+                   Linguistics 15. 65 –79.
+TBC_100.qxd   8/3/10    17:25   Page 20
+
+
+
+
+              20     Yoonjung Kang
+
+              Davis, Stuart & Mee-Hui Cho. 2006. Phonetics versus phonology: English word final /s/
+                   in Korean loanword phonology. Lingua 116. 1008–1023.
+              de Lacy, Paul. 2006. Markedness: Reduction and preservation in phonology. Cambridge:
+                   Cambridge University Press.
+              Denis, Derek & Mark Pollard. 2008. An acoustic analysis of the vowel space of Inuktitut:
+                   Evidence for allophony. Paper presented at Inuktitut Linguistics Workshop, University
+                   of Toronto.
+              Detey, Sylvain & Jean-Luc Nespoulous. 2008. Can orthography influence second language
+                   syllabic segmentation? Japanese epenthetic vowels and French consonantal clusters.
+                   Lingua 118. 66 –81.
+              Dohlus, Katrin. 2005. Phonetics or phonology: Asymmetries in loanword adaptations –
+                   French and German mid front rounded vowels in Japanese. ZAS Papers in Linguistics
+                   42. 117–135.
+              Dresher, B. Elan. 2009. The contrastive hierarchy in phonology. Cambridge: Cambridge
+                   University Press.
+              Duanmu, San. 2000. The phonology of Standard Chinese. Oxford: Oxford University Press.
+              Dupoux, Emmanuel, Kazuhiko Kakehi, Yuki Hirose, Christophe Pallier & Jacques Mehler.
+                   1999. Epenthetic vowels in Japanese: A perceptual illusion? Journal of Experimental
+                   Psychology: Human Perception and Performance 25. 1568–1578.
+              Dupoux, Emmanuel, Christopher Pallier, Núria Sebastián-Galles & Jacques Mehler. 1997.
+                   A destressing “deafness” in French? Journal of Memory Language 36. 406–421.
+              Fleischhacker, Heidi. 2005. Similarity in phonology: Evidence from reduplication and loan
+                   adaptation. Ph.D. dissertation, University of California, Los Angeles.
+              Friesner, Michael L. 2009a. The social and linguistic predictors of the outcomes of borrowing
+                   in the speech community of Montreal. Ph.D. dissertation, University of Pennsylvania.
+              Friesner, Michael L. 2009b. The adaptation of Romanian loanwords from Turkish and French.
+                   In Calabrese & Wetzels (2009), 115–130.
+              Gandour, Jackson. 1979. Tonal rules for English loanwords in Thai. In T. L. Thongkum,
+                   P. Kullavanijaya, P. V. Panupong & K. Tingsabadh (eds.), Studies in Tai and Mon-Khmer
+                   phonetics and phonology in honour of Eugénie J. A. Henderson, 94–105. Bangkok:
+                   Chulalongkorn University Press.
+              Gbéto, Flavien. 2000. Les emprunts linguistiques d’origine européenne en Fon (Nouveau
+                   Kwa, Gbe: Bénin). Cologne: Rüdiger Köppe Verlag.
+              Geraghty, Paul & Jan Tent. 2004a. From lowlands to islands: Dutch loans in Polynesia.
+                   In Geraghty & Tent (2004b). 99–143.
+              Geraghty, Paul & Jan Tent (eds.). 2004b. Borrowing: A Pacific perspective. Canberra:
+                   Australian National University.
+              Golston, Chris & Phong Yang. 2001. White Hmong loanword phonology. In Caroline
+                   Féry, Antony Dubach Green & Ruben van de Vijver (eds.), Proceedings of HILP 5, 40–57.
+                   Potsdam: University of Potsdam.
+              Greene, Laurie A. 1999. A grammar of Belizean Creole: Compilations from two existing United
+                   States dialects. New York: Peter Lang.
+              Hafez, Ola. 1996. Phonological and morphological integration of loanwords into Egyptian
+                   Arabic. Égypte/Monde Arabe, première série 27–28. 383–410.
+              Hancin-Bhatt, Barbara Jean. 1994. Segment transfer: A consequence of a dynamic system.
+                   Second Language Research 10. 241–269.
+              Harlow, Ray. 2004. Borrowing and its alternatives in Maori. In Geraghty & Tent (2004b),
+                   145 –169.
+              Haugen, Einar. 1950. The analysis of linguistic borrowing. Language 26. 210–231.
+              Heffernan, Kevin. 2007. The role of phonemic contrast in the formation of Sino-Japanese.
+                   Journal of East Asian Linguistics 16. 61–86.
+              Heo, Younghyon. 2006. Postpalatal epenthesis in Korean and Japanese: the role of contrast.
+                   In William O’Grady, Jong-Yurl Yoon, Jae-Young Han, Ponghyung Lee, Hae-Yeon Kim,
+TBC_100.qxd    8/3/10    17:25    Page 21
+
+
+
+
+                                                                              Loanword Phonology          21
+
+                    Sung-Hoon Hong, Seunghye Chung & Fernando Torres (eds.), Inquiries into Korean
+                    Linguistics II, 157–165. Seoul: Taehaksa.
+              Herd, Jonathon. 2005. Loanword adaptation and the evaluation of similarity. Toronto
+                    Working Papers in Linguistics 24. 65–116.
+              Higa, Masanori. 1970. The sociolinguistic significance of borrowed words in the Japanese
+                    spoken in Hawaii. University of Hawaii Working Papers in Linguistics 2. 125–140.
+              Holden, Kyril. 1976. Assimilation rates of borrowings and phonological productivity.
+                    Language 52. 131–147.
+              Hsieh, Feng-fan. 2006. High infidelity: The non-mapping of Japanese accent onto
+                    Taiwanese tone. MIT Working Papers in Linguistics 52. 1–27.
+              Hsieh, Feng-fan & Michael Kenstowicz. 2008. Phonetic knowledge in tonal adaptation:
+                    Mandarin and English loanwords in Lhasa Tibetan. Journal of East Asian Linguistics 17.
+                    279 –297.
+              Hsieh, Feng-fan, Michael Kenstowicz & Xiaomin Mou. 2009. Mandarin adaptations of coda
+                    nasals in English loanwords. In Calabrese & Wetzels (2009), 131–154.
+              Hyman, Larry M. 1970. The role of borrowing in the justification of phonological grammars.
+                    Studies in African Linguistics 1. 1–48.
+              Ito, Chiyuki & Michael Kenstowicz. 2009. Mandarin loanwords in Yanbian Korean I:
+                    Laryngeal features. Onin Kenkyuu [Phonological Studies] 12. 61–72.
+              Ito, Chiyuki, Yoonjung Kang & Michael Kenstowicz. 2006. The adaptation of Japanese
+                    loanwords into Korean. MIT Working Papers in Linguistics 52. 65–104.
+              Itô, Junko & Armin Mester. 1995. Japanese phonology. In John A. Goldsmith (ed.) The
+                    handbook of phonological theory, 817–838. Cambridge, MA & Oxford: Blackwell.
+              Itô, Junko & Armin Mester. 1999. The phonological lexicon. In Natsuko Tsujimura (ed.),
+                    The handbook of Japanese linguistics, 62–100. Malden, MA & Oxford: Blackwell.
+              Itô, Junko & Armin Mester. 2001. Covert generalizations in Optimality Theory: The role
+                    of stratal faithfulness constraints. Studies in Phonetics, Phonology, and Morphology 7.
+                    273–299.
+              Iverson, Gregory & Ahrong Lee. 2006. Perception of contrast in Korean loanword adap-
+                    tation. Korean Linguistics 13. 49–87.
+              Jacobs, Haike & Carlos Gussenhoven. 2000. Loan phonology: Perception, salience, the
+                    lexicon and OT. In Joost Dekkers, Frank van der Leeuw & Jeroen van de Weijer (eds.),
+                    Optimality Theory: Phonology, syntax, and acquisition, 193–210. Oxford: Oxford University
+                    Press.
+              Jun, Jongho. 2004. Place assimilation. In Bruce Hayes, Robert Kirchner & Donca Steriade
+                    (eds.), Phonetically based phonology, 58–86. Cambridge: Cambridge University Press.
+              Kabak, Baris & William J. Idsardi. 2007. Perceptual distortions in the adaptation of English
+                    consonant clusters: Syllable structure or consonantal contact constraints? Language and
+                    Speech 50. 23–52.
+              Kager, René, Joe Pater & Wim Zonneveld (eds.). 2004. Constraints in phonological acquisition.
+                    Cambridge: Cambridge University Press.
+              Kang, Hyunsook. 1996. English loanwords in Korean. Studies in Phonetics, Phonology, and
+                    Morphology 2. 21– 47.
+              Kang, Hyunsook. 2006. An acoustic study of the perceptual significance of F2 transition
+                    of /w/ in English and Korean. Speech Sciences 13. 7–21.
+              Kang, Yoonjung. 2003. Perceptual similarity in loanword adaptation: English postvocalic
+                    word-final stops in Korean. Phonology 20. 219–273.
+              Kang, Yoonjung. 2008a. Interlanguage segmental mapping as evidence for the nature of
+                    lexical representation. Language and Linguistics Compass 2. 85–100.
+              Kang, Yoonjung. 2008b. Tensification of voiced stops in English loanwords in Korean. Harvard
+                    Studies in Korean Linguistics 12. 179–192.
+              Kang, Yoonjung. 2008c. The adaptation of English /s/ in Korean. In John Whitman,
+                    Ponghyung Lee, Chang-Kook Suh, Sungdai Cho, Yeun-Jin Jung, Jae Young Chung &
+TBC_100.qxd   8/3/10    17:25    Page 22
+
+
+
+
+              22     Yoonjung Kang
+
+                   Jeong-Im Han (eds.), Inquiries into Korean Linguistics III, 1–14. Seoul: Hankook
+                   Munhwasa.
+              Kang, Yoonjung. 2009. English /z/ in 1930s Korean. Simon Fraser University Working
+                   Papers in Linguistics 2.
+              Kang, Yoonjung. Forthcoming. Tutorial overview: Suprasegmental adaptation in loanwords.
+                   Lingua.
+              Kang, Yoonjung, Michael Kenstowicz & Chiyuki Ito. 2008. Hybrid loans: A study of
+                   English loanwords transmitted to Korean via Japanese. Journal of East Asian Linguistics
+                   17. 299 –316.
+              Karttunen, Frances. 1977. Finnish in America: A case study in monogenerational language
+                   change. In Ben Blount & Mary Sanches (eds.), The social dimensions of language change,
+                   173–184. New York: Academic Press.
+              Karvonen, Daniel. 2005. Word prosody in Finnish. Ph.D. dissertation, University of
+                   California, Santa Cruz.
+              Katayama, Motoko. 1998. Optimality Theory and Japanese loanword phonology. Ph.D.
+                   dissertation, University of California, Santa Cruz.
+              Kato, Sachiko. 2006. Loanword adaptation in Japanese: Consonant gemination of English
+                   loanwords. MIT Working Papers in Linguistics 52. 105–137.
+              Kawahara, Shigeto. 2006. A faithfulness ranking projected from a perceptibility scale: The
+                   case of [+voice] in Japanese. Language 82. 536–574.
+              Kawahara, Shigeto. 2008. Phonetic naturalness and unnaturalness in Japanese loanword
+                   phonology. Journal of East Asian Linguistics 17. 317–330.
+              Kenstowicz, Michael 2003. The role of perception in loanword phonology: A review of
+                   Les emprunts linguistiques d’origine européenne en Fon. Studies in African Linguistics 32.
+                   95 –112.
+              Kenstowicz, Michael 2005. The phonetics and phonology of loanword adaptation. In
+                   S.-J. Rhee (ed.), Proceedings of ECKL 1: Proceedings of 1st European Conference on Korean
+                   Linguistics, 17–32. Seoul: Hankook Publishing Co.
+              Kenstowicz, Michael 2007. Salience and similarity in loanword adaptation: A case study
+                   from Fijian. Language Sciences 29. 316–340.
+              Kenstowicz, Michael & Nabila Louriz. 2009. Reverse engineering: Emphatic consonants and
+                   the adaptation of vowels in French loanwords into Moroccan Arabic. Brill’s Annual of
+                   Afroasiatic Languages and Linguistics 1. 41–74.
+              Kenstowicz, Michael & Hyang-Sook Sohn. 2001. Accentual adaptation in North
+                   Kyungsang Korean. In Michael Kenstowicz (ed.), Ken Hale: A life in language, 239–270.
+                   Cambridge, MA: MIT Press.
+              Kenstowicz, Michael & Atiwong Suchato. 2006. Issues in loanword adaptation: A case study
+                   from Thai. Lingua 116. 921–949.
+              Kertész, Zsuzsa. 2003. Vowel harmony and the stratified lexicon of Hungarian. The Odd
+                   Yearbook 7. 62–77.
+              Kim, Hyunsoon. 2008. Loanword adaptation between Japanese and Korean: Evidence for
+                   L1 feature-driven perception. Journal of East Asian Linguistics 17. 331–346.
+              Kim, Hyunsoon. 2009. Korean adaptation of English affricates and fricatives in a feature-
+                   driven model of loanword adaptation. In Calabrese & Wetzels (2009), 155–180.
+              Kim, Kyumin. 2009. Coronals in epenthesis in loanwords in comparison to velars. Toronto
+                   Working Papers in Linguistics 30. 53–67.
+              Kim, Soohee & Emily Curtis. 2002. Phonetic duration of English /s/ and its borrowing
+                   into Korean. In Noriko M. Akatsuka & Susan Strauss (eds.), Japanese/Korean Linguistics
+                   10, 406 – 419. Palo Alto: CSLI.
+              Kitto, Catherine & Paul de Lacy. 1999. Correspondence and epenthetic quality. In
+                   Catherine Kitto & Carolyn Smallwood (eds.), Proceedings of AFLA VI: The Sixth Meeting
+                   of the Austronesian Formal Linguistics Association, 181–200. Toronto: Department of
+                   Linguistics, University of Toronto.
+TBC_100.qxd    8/3/10    17:25    Page 23
+
+
+
+
+                                                                               Loanword Phonology          23
+
+              Kubozono, Haruo. 2006. Where does loanword prosody come from? A case study of Japanese
+                   loanword accent. Lingua 116. 1140–1170.
+              Kubozono, Haruo, Junko Ito & Armin Mester. 2008. Consonant gemination in Japanese
+                   loanword phonology. Paper presented at the 18th International Congress of Linguistics,
+                   Seoul.
+              LaCharité, Darlene & Carole Paradis. 2005. Category preservation and proximity versus
+                   phonetic approximation in loanword adaptation. Linguistic Inquiry 36. 223–258.
+              Lee, Dongmyung. 2009. The loanword tonology of South Kyungsang Korean. Ph.D. dis-
+                   sertation, Indiana University.
+              Lehiste, Ilse. 1988. Lecture notes on language contact. Cambridge, MA: MIT Press.
+              Lin, Yen-Hwei. 2008. Variable vowel adaptation in Standard Mandarin loanwords. Journal
+                   of East Asian Linguistics 17. 363–380.
+              Lombardi, Linda. 2002. Coronal epenthesis and markedness. Phonology 19. 219–251.
+              Luke, Kang-kwong & Chaakming Lau. 2008. On loanword truncation in Cantonese.
+                   Journal of East Asian Linguistics 17. 347–362.
+              Massaro, Dominic W. & Michael M. Cohen. 1983. Phonological context in speech percep-
+                   tion. Perception and Psychophysics 34. 338–348.
+              Miao, Ruiqin. 2006. Loanword adaptation in Mandarin Chinese: Perceptual, phonological
+                   and sociolinguistic factors. Ph.D. dissertation, State University of New York, Stony Brook.
+              Mwihaki, Alice. 2001. Consonant–vowel harmony: Evidence from the phonotactics of
+                   loanword adaptation. Poznan Studies in Contemporary Linguistics 37. 139–145.
+              Oh, Mira. 1992. Palatal consonants, labial consonants, and vowel epenthesis in Korean
+                   loanword phonology. Linguistic Journal of Korea 17. 141–161.
+              Oh, Mira. 2004. English stop adaptation as Output-to-output Correspondence. Onin
+                   Kenkyuu 7. 165 –172.
+              Paradis, Carole. 1988. Towards a theory of constraint violations. McGill Working Papers in
+                   Linguistics 5. 1– 43.
+              Paradis, Carole. 2006. The unnatural /Cju/ (< foreign /Cy/) sequence in Russian loan-
+                   words: A problem for the perceptual view. Lingua 116. 976–995.
+              Paradis, Carole & Darlene Lacharité. 1997. Preservation and minimality in loanword
+                   adaptation. Journal of Linguistics 33. 379–430.
+              Paradis, Carole & Darlene LaCharité. 2008. Apparent phonetic approximation: English
+                   loanwords in old Quebec French. Journal of Linguistics 44. 87–128.
+              Paradis, Carole & Darlene LaCharité. 2009. English loanwords in Old Quebec French: Fewer
+                   bilinguals does not mean a great increase in naive phonetic approximation. Langues
+                   et linguistique 32. 82–117.
+              Paradis, Carole & Antoine Tremblay. 2009. Nondistinctive features in loanword adaptation:
+                   The unimportance of English aspiration in Mandarin Chinese phoneme categoriza-
+                   tion. In Calabrese & Wetzels (2009), 211–224.
+              Peperkamp, Sharon. 2005. A psycholinguistic theory of loanword adaptation. Proceedings
+                   of the Annual Meeting, Berkeley Linguistics Society 30. 341–352.
+              Peperkamp, Sharon & Emmanuel Dupoux. 2003. Reinterpreting loanword adaptations: The
+                   role of perception. In M. J. Solé, D. Recasens & J. Romero (eds.), Proceedings of the 15th
+                   International Congress of Phonetic Sciences, 367–370. Barcelona: Causal Productions.
+              Peperkamp, Sharon, Inga Vendelin & Kimihiro Nakamura. 2008. On the perceptual origin
+                   of loanword adaptations: Experimental evidence from Japanese. Phonology 25. 129–164.
+              Pollard, Mark G. 2008. Epenthetic vowel quality in English loanwords in Inuktitut. M.A.
+                   thesis, University of Toronto.
+              Poplack, Shana & David Sankoff. 1984. Borrowing: The synchrony of integration.
+                   Linguistics 22. 99 –135.
+              Prince, Alan & Paul Smolensky. 1993. Optimality theory: Constraint interaction in generative
+                   grammar. Unpublished ms., Rutgers University & University of Colorado, Boulder.
+                   Published 2004, Malden, MA & Oxford: Blackwell.
+TBC_100.qxd   8/3/10    17:25    Page 24
+
+
+
+
+              24     Yoonjung Kang
+
+              Pulleyblank, Douglas. 1988. Vocalic underspecification in Yoruba. Linguistic Inquiry 19.
+                   233–270.
+              Repetti, Lori. 1993. The integration of foreign loans in the phonology of Italian. Italica 70.
+                   182–196.
+              Repetti, Lori. 2006. The emergence of marked structures in the integration of loans in Italian.
+                   In Randall S. Gess & Deborah Arteaga (eds.), Historical Romance linguistics: Retrospective
+                   and perspectives, 209 –235. Amsterdam & Philadalphia: John Benjamins.
+              Repetti, Lori. 2009. Gemination in English loans in American varieties of Italian. In
+                   Calabrese & Wetzels (2009), 225–240.
+              Rose, Yvan & Katherine Demuth. 2006. Vowel epenthesis in loanword adaptation:
+                   Representational and phonetic considerations. Lingua 116. 1112–1139.
+              Sabino, Robin. 1990. Towards a phonology of Negerhollands: An analysis of phonological
+                   variation. Ph.D. dissertation, University of Pennsylvania.
+              Schütz, Albert J. 1978. English loanwords in Fijian. In Albert J. Schütz (ed.), Fijian language
+                   studies: Borrowing and pidginization (Bulletin of the Fiji Museum No. 4), 1–50. Suva, Fiji:
+                   Fiji Museum.
+              Schütz, Albert J. 2004. English loanwords in Fijian. In Geraghty & Tent (2004b), 253–294.
+              Shademan, Shabnam. 2003. Epenthetic vowel harmony in Farsi. M.A. thesis, University of
+                   California, Los Angeles.
+              Shinohara, Shigeko. 1997. Analyse phonologique de l’adaptation japonaise de mots
+                   étrangers. Thèse de doctorat, Université Paris III.
+              Shinohara, Shigeko. 2000. Default accentuation and foot structure in Japanese: Evidence
+                   from Japanese adaptations of French words. Journal of East Asian Linguistics 9. 55–96.
+              Shinohara, Shigeko. 2004. Emergence of universal grammar in foreign word adaptations.
+                   In Kager et al. (2004), 292–320.
+              Shinohara, Shigeko. 2006. Perceptual effects in final cluster reduction patterns. Lingua 116.
+                   1046 –1078.
+              Silverman, Daniel. 1992. Multiple scansions in loanword phonology: Evidence from
+                   Cantonese. Phonology 9. 289 –328.
+              Singh, Fajendra. 1985. Prosodic adaptation in interphonology. Lingua 67. 269–282.
+              Smith, Jennifer L. 2006. Loan phonology is not all perception: Evidence from Japanese loan
+                   doublets. In Timothy J. Vance & Kimberly A. Jones (eds.), Japanese/Korean Linguistics
+                   14, 63–74. Palo Alto: CLSI.
+              Smolensky, Paul. 1996. The initial state and “Richness of the Base” in Optimality Theory.
+                   Unpublished ms., Johns Hopkins University, Baltimore. (ROA-154.)
+              Sridhar, Shikaripur N. 1990. Kannada. London: Routledge.
+              Steriade, Donca. 2001. Directional asymmetries in place assimilation: A perceptual
+                   account. In Elizabeth Hume & Keith Johnson (eds.), The role of speech perception in phono-
+                   logy, 219 –250. San Diego: Academic Press.
+              Steriade, Donca. 2007. Perceptual repair and syllable structure: A reply to Kabak and Idsardi.
+                   Unpublished ms., MIT.
+              Steriade, Donca. 2008. The phonology of perceptibility effects: The P-map and its conse-
+                   quences for constraint organization. In Kristin Hanson & Sharon Inkelas (eds.), The
+                   nature of the word: Studies in honor of Paul Kiparsky, 151–180. Cambridge, MA: MIT Press.
+              Takahashi, Shoichi. 2006. Topics in Palauan loanword phonology. MIT Working Papers in
+                   Linguistics 52. 165 –200.
+              Tinelli, Henri. 1981. Creole phonology. The Hague: Mouton.
+              Uffmann, Christian. 2006. Epenthetic vowel quality in loanwords: Empirical and formal
+                   issues. Lingua 116. 1079 –1111.
+              Vendelin, Inga & Sharon Peperkamp. 2006. The influence of orthography on loanword
+                   adaptations. Lingua 116. 996 –1007.
+              Walter, Mary Ann. 2006. Grammatical gender via lexical statistics: The case of Arabic-
+                   to-Spanish loanwords. MIT Working Papers in Linguistics 52. 201–225.
+TBC_100.qxd    8/3/10    17:25   Page 25
+
+
+
+
+                                                                             Loanword Phonology         25
+
+              Werker, Janet F. & Richard C. Tees. 1984. Phonemic and phonetic factors in adult cross-
+                   language speech perception. Journal of the Acoustical Society of America 75. 1866–1878.
+              Wetzels, W. Leo. 2009. Nasal harmony and the representation of nasality in Maxacalí: Evidence
+                   from Portuguese loans. In Calabrese & Wetzels (2009), 241–270.
+              Wu, Hsiao-hung Iris. 2006. Stress to tone: A study of tone loans in Mandarin Chinese. MIT
+                   Working Papers in Linguistics 52. 227–253.
+              Yip, Moira. 1993. Cantonese loanword phonology and Optimality Theory. Journal of East
+                   Asian Linguistics 2. 261–291.
+              Yip, Moira. 2002. Necessary but not sufficient: Perceptual influences in loanword phonology.
+                   Journal of the Phonetic Society of Japan 6. 4–21.
+              Yip, Moira. 2006. The symbiosis between perception and grammar in loanword phonology.
+                   Lingua 116. 950 –975.
+              Zuraw, Kie. 2000. Patterned exceptions in phonology. Ph.D. dissertation, University of
+                   California, Los Angeles.
+

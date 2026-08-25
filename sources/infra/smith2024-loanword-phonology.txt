@@ -1,0 +1,1201 @@
+To appear in Adam Jardine & Paul de Lacy (eds.), The Cambridge Handbook of Phonology (2e.)
+DRAFT | version date: April 1, 2025
+
+Loanword Phonology
+       Jennifer L. Smith
+       University of North Carolina at Chapel Hill
+
+1. Introduction
+This chapter addresses basic concepts, research topics, and key proposals concerning loanword
+phonology, as well as some of the implications that loanwords and loanword adaptation have for
+fundamental questions in phonological theory. After a brief historical overview in section 2, the
+chapter focuses primarily on contributions to experimental and theoretical work published after
+2011, subsequent to the extensive review of loanword phonology by Kang (2011; see also Kang
+2013 for an annotated bibliography) and the theoretical and methodological overview by Paradis &
+LaCharité (2011). Section 3 discusses non-phonological factors that influence loanword phonology:
+phonetics and perception, orthography, and social context. Section 4 reviews recent applications of
+loanword phonology as evidence in phonological theory. Conclusions are presented in section 5.
+      Before beginning a discussion of the role of loanword phonology in phonological theory,
+however, it is important to clarify what is meant by the terms loanword and loanword phonology.
+
+1.1 Loanwords: From source language to borrowing language
+A loanword can be defined as a word introduced to one language, the borrowing language or Lb, from
+another language, the source language or Ls. This discussion focuses specifically on loanwords
+whose phonological shape (or an approximation thereof) is introduced into Lb along with its
+meaning. Such phonological loanwords can be distinguished from the class of borrowings called
+semantic loans, calques, or loan translations, in which pre-existing Lb morphemes are used to express
+a borrowed concept that is the translation of an Ls form or expression. Loanwords must also be
+distinguished from code-switches, defined by Poplack (2018: chapter 1) as “alternation[s...] of
+stretches of one language with stretches of another, each retaining the morphology, syntax, and
+optionally the phonology” of its language of origin. How, and even whether, to distinguish borrowing
+from code-switching has been controversial, but Poplack argues that any form that is
+morphosyntactically integrated into Lb is not a code-switch, even if it is a novel or one-time
+borrowing.
+
+
+                                                   1
+      In some cases, a loanword includes phonological structures or sequences that are identical (or
+at least similar) to aspects of the Ls source form but are not found in the non-loan phonology of Lb,
+as when English speakers produce the name Bach with a final velar fricative [x] corresponding to the
+German source form; such non-native structures are said to be imported (Haugen 1950). In other
+cases, some or all non-Lb-like phonological structures or sequences are brought into conformity with
+the Lb phonological system, as when English speakers produce the word tempura, borrowed from
+Japanese [tempɯɾa], with a rhotic approximant [ɹ] replacing the Ls tap [ɾ], a rounded [u] replacing
+the Ls unrounded [ɯ], a reduced [ə] replacing the Ls low central [a], and a word stress (on [u]). Such
+differences between the Lb and Ls shapes of a loanword are known as adaptations or nativizations.
+The mechanisms by which loanwords are adapted are complex and have been the subject of much
+research and debate (section 3).
+      In summary, the term loanword is used in this chapter to refer to a word introduced to Lb from
+Ls, whose sound shape is based on that of Ls (possibly subject to adaptation), and which is not a
+code-switch.
+
+1.2 Loanword phonology: Established loanwords versus loanword adaptation
+The term loanword phonology has been used to refer to two different, though related, phenomena.
+Sometimes this term refers to phonological generalizations about established, lexicalized loanwords
+in Lb, often with a focus on how the phonology of such loanwords compares, either to the L s-internal
+phonology of the source words, or to the non-loan phonology of Lb. Loanword-specific phonological
+patterns can involve a variety of aspects, including phoneme inventory, phonotactic restrictions,
+prosodic structure, or phonological alternations.
+      In other cases, the term loanword phonology is used in reference to loanword adaptation, the
+phonological (though see also section 3) changes that accompany the real-time introduction of a
+new loan from Ls into Lb.
+      These two aspects can also become intermingled, because even loanwords that are now
+established must have been borrowed for the first time at some point. In addition, generalizations
+concerning the phonology of established loanwords can become conventionalized within the L b
+community, leading to predictable or systematic strategies for adapting newly introduced loanwords
+(section 3.3).
+      In this chapter, loanword adaptation will be distinguished from phonological generalizations
+over established loanwords where maintaining the distinction is relevant, and the more general term
+
+
+
+                                                    2
+loanword phonology will be used where considering both aspects together is useful, or where the
+two cannot easily be disentangled.
+
+2. A brief history of loanword phonology
+Figure 1 summarizes the usage of the terms loanword phonology and loanword adaptation in the
+“English 2024” Google Books corpus, using the Google Ngrams tool (Michel et al. 2011). The search
+results are reported as a percentage of all bigrams (two-word phrases) in the “English 2024” corpus
+for each year in the range; because these values are very small, the y-axis scale in Figure 1 is
+multiplied by 1,000,000,000 for clarity. The results of this simple corpus search provide some
+general context for the discussion in this chapter, although these usage counts are not a direct
+measure of the rate of occurrence of the search terms in academic publications.
+
+
+
+
+      Figure 1. Google Ngrams results for loanword adaptation and loanword phonology in the
+         "English 2024" corpus (no smoothing). From [http://books.google.com/ngrams].
+
+      The corpus results show a small amount of activity for loanword phonology beginning in the
+late 1940s, then there is an uptick around 1975, followed by another increase around 1995, with a
+maximum around 2006. Similarly, loanword adaptation shows activity starting in the late 1960s,
+with a peak around 2008. The term loanword phonology is more common at first, but loanword
+adaptation catches up around 2000 and becomes the more commonly used of the two after that.
+      The uptick in the use of these terms in the 1970s corresponds, chronologically, to an interest
+in loanword data as external evidence for phonological grammars and as evidence for or against
+
+
+
+                                                    3
+particular theoretical proposals in early generative phonology (section 2.2). The increase in the
+1990s lines up with the development of Optimality Theory and other constraint-based approaches,
+which reconsidered some fundamental assumptions about the nature of the phonological grammar,
+making evidence from loanwords relevant in new ways (section 2.3). The emerging preference for
+the term loanword adaptation co-occurs with an increased interest in determining the degree to
+which factors beyond the Lb phonological grammar, especially phonetic similarity and perceptual
+illusions (section 3.1), contribute to the differences in phonological shape between loans in L b and
+their Ls source forms.
+      Although the most recent years show fewer instances of both search terms than at their peaks
+around 2006–2008, interest in loanword phonology and loanword adaptation continues. With
+appropriate attention to non-phonological factors (section 3), and the incorporation of a variety of
+methodologies (section 4.1), evidence from loanwords continues to bear on our understanding of
+the phonological grammar and its interfaces with phonetic, orthographic, and social factors.
+
+2.1 Haugen (1950)
+One of the first systematic discussions of loanwords and loanword phonology is that by Haugen
+(1950), who sets out to establish fundamental concepts and terminology related to linguistic
+borrowing and to posit general hypotheses about the process of borrowing and its linguistic and
+social context.
+      Haugen is primarily interested in loanwords and their properties as a means to investigate the
+process of linguistic borrowing itself. This perspective stands in contrast to that of later generations
+of researchers who would consider the role of loanword phonology as a source of evidence about
+broader aspects of human language and cognition. Nevertheless, in the course of his discussion,
+Haugen identifies a number of issues and questions that are still of current interest. For example, he
+distinguishes between adaptation (which he calls “substitution”) and importation in the phonology
+of loanwords, and he hypothesizes that lower proficiency in Ls leads to more adaptation of non-Lb
+phonological structures. He also observes that patterns seen in loanwords can be gradiently foreign
+rather than falling on either side of a well-defined boundary between native and foreign. He flags
+orthographic influence as a potential complicating factor in loanword phonology. Additionally,
+Haugen notes that speakers' use of established loanwords is not strictly the same phenomenon as
+the initial process of borrowing, but he suggests that patterns in established loans can nevertheless
+shed light on that initial process.
+
+
+
+                                                   4
+2.2 Loanwords in early generative phonology
+With the development of generative phonology came both an interest in using loanword phonology
+as a source of external evidence for proposals about the phonological grammar of a particular
+language, and exploration of the theoretical implications of languages with loanword-specific
+phonological patterns.
+      Hyman (1970a, b) is one of the first to emphasize that loanwords can provide an important
+source of what would come to be known as substantive or external evidence in phonology (Kiparsky
+1982 [1971]; Skousen 1972; Botha 1973; Zwicky 1975; Churma 1979), defined by Zwicky (1975) as
+any source of data bearing on the phonological grammar beyond morpheme alternations and
+patterns of phonological distribution. Hyman takes the position that, if the goal of linguistic analysis
+is no longer merely a description of the patterns observed in a language, but rather a model of the
+generative linguistic system of the language itself, then external evidence becomes necessary for
+deciding between multiple possible phonological analyses of a language. Hyman’s discussion
+focuses on loanword adaptation (and the perception of foreign forms more generally) as one source
+of external evidence. He argues that, if a posited phonological rule can be shown to apply to an L s
+form when it is adapted to Lb, this shows that the rule is productive and thus is a psychologically real
+part of the phonological grammar of Lb.
+      Also of interest in early generative phonology were lexical strata — lexical subclasses with
+distinct phonological properties that arise when Ls structures are imported rather than adapted,
+leading to phonological contrasts or syllable structures that are permitted only in loanwords. In a
+rule-based framework, this motivates rules or exceptions that must apply to entire subsets of the
+lexicon (Chomsky & Halle 1968; Kiparsky 1968; Saciuk 1969).
+
+2.3 Loanword phonology in constraint-based models
+Although loanword phonology can be a source of external evidence for phonological grammars, it
+also presents complications for a rule-based phonological model. The development of constraint-
+based frameworks such as Optimality Theory (OT; Prince & Smolensky 2004 [1993]) and the Theory
+of Constraints and Repair Strategies (TCRS; Paradis & LaCharité 1997, 2011) allowed new
+perspectives on some of these issues.
+      One problem is that a rule-based analysis of loanword phonology can require multiple formal
+devices that derive the same surface pattern — a situation known as a conspiracy or a duplication
+problem (Kisseberth 1970; Clayton 1976), often viewed as the sign of a missed generalization. For
+
+
+
+                                                   5
+example, consider a language with no surface onset clusters, but also with no morphological
+alternations overtly resolving onset clusters, because no potential clusters happen to occur in
+monomorphemic URs or in morpheme combinations. In a classic rule-based approach, the absence
+of URs with potential clusters would be modeled by means of a morpheme-structure condition
+(Stanley 1967) prohibiting such structures in lexical entries. Now suppose that the same language
+has a process of epenthesis into onset clusters in loanword adaptation (and that the epenthesis is
+phonological; see section 3.1.2). This adaptation process would serve as external evidence that the
+onset-cluster prohibition is productive in Lb. And yet, the phonological analysis of this language
+must now include an epenthesis rule that is needed only for loanwords, and moreover such a rule
+forms a conspiracy with the morpheme-structure condition that is needed to account for the
+absence of onset clusters in non-loan forms. (See Stampe (1973) for more on problems raised by
+loanword adaptation for Chomsky & Halle’s (1968) approach to morpheme-structure conditions.)
+      The picture is different in a constraint-based model. If the phonological grammar consists of,
+not a series of ordered rules, but a hierarchy of output constraints, then loanword adaptation is
+actually expected, even in the absence of active alternations in the non-loan phonology. To continue
+the example from above, if an onset-cluster prohibition is productive in Lb, then a constraint against
+onset clusters (*COMPLEXONSET) dominates at least one of the faithfulness constraints that would
+protect any potential complex onset that might arise (Smolensky 1996). This high rank for
+*COMPLEXONSET automatically predicts that onset clusters are avoided in loanwords.
+      In OT and related frameworks, then, patterns of loanword adaptation can be seen as external
+evidence not only for the productivity of a particular phonological process, but more specifically for
+the presence of a high-ranking constraint in the grammar of a language. Early approaches to
+loanword phonology in constraint-based models often emphasize this line of thinking: see, for
+example, Yip (1993); Paradis (1995); Paradis & LaCharité (1997); Broselow (2000); Jacobs &
+Gussenhoven (2000); Shinohara (2004). Questions remain, however: for example, high-ranking
+markedness constraints account for why the structures that are absent from L b are also those that
+are repaired in loanword adaptation, but they do not necessarily predict which of the many possible
+adaptation strategies are applied.
+      Constraint-based models also provide new approaches to modeling lexical strata created by
+borrowing, including constraint rankings that vary by stratum (J. Ito & Mester 1995; Inkelas & Zoll
+2007) and constraints that are indexed to specific strata (Fukazawa et al. 1998; J. Ito & Mester
+1999).
+
+
+                                                   6
+      The heightened interest in loanword phonology sparked by the development of constraint-
+based phonological frameworks produced several books and special issues of journals (Kenstowicz
+& Uffmann 2006; Calabrese & Wetzels 2009; Kenstowicz & Cabré 2012), as well as review articles
+(Kang 2011; Paradis & LaCharité 2011), within roughly the first decade of the 21st century. Kang
+(2011) is a particularly useful overview addressing the new insights that come from viewing
+questions of loanword phonology, especially loanword adaptation, from a constraint-based
+perspective. Kang discusses the role of loanword phonology as external evidence and summarizes
+key debates over factors involved in loanword adaptation, including the phonology/phonetics
+debate (see section 3.1) and the extent to which universal factors explain languages’ choice of
+loanword repair. Paradis & LaCharité (2011) focus on arguments in favor of phonological factors in
+loanword adaptation and make methodological recommendations for research in loanword
+phonology, such as using large corpora, considering only cases where a form from Ls is borrowed
+directly into Lb without intermediate borrowings in other languages, and controlling for the effects
+of non-phonological factors (see section 3).
+
+3. Non-phonological factors
+Loanwords have long been regarded as a source of external evidence for the phonological grammar
+— a way to confirm the productivity of phonological processes, for example, or a way to test claims
+about representations or constraints (section 2). From the earliest studies, however, it has been
+clear that loanword sound shapes can also be affected by factors beyond the phonological grammar,
+especially phonetics and perception, orthography, and social context. A full understanding of
+loanword phonology and its implications for phonological theory therefore requires an
+understanding of how and under what circumstances such non-phonological factors contribute to
+loanword adaptation or phonological generalizations over loanwords.
+
+3.1 Phonetics and perception
+Phonetic factors, including phonetic similarity and perceptual illusions, are a major non-phonological
+influence on the process of loanword adaptation. There is a body of literature debating whether
+adaptation should be seen as “primarily” phonological or phonetic (see Kang 2011 and Paradis &
+LaCharité 2011 for discussion), but Kang (2011) concludes that it is too simplistic to view this as an
+either/or question. Recent studies showing combined effects of phonetic and phonological factors,
+sometimes explicitly investigating the circumstances under which particular factors predominate,
+include Daland et al. (2015); Durvasula & Kahng (2015); Louriz (2015); Al-Hashmi (2016); Guba
+
+
+                                                  7
+(2016); Kang et al. (2016); Jian (2017); Durvasula et al. (2018); Huang & Lin (2019); Yun (2019);
+Phetkla (2020); Glewwe (2021); Kang & Schertz (2021); Kim (2021); He & He (2022); Chen & Lu
+(2022); Alenazi (2023); and Laidler (2023).
+
+3.1.1 Phonetic similarity
+To the extent that Lb speakers intend (consciously or not) to produce a loanword in a way that
+sounds as similar as possible to its Ls form, then modifications to the Ls form made during loanword
+adaptation are likely to be influenced by phonetic similarity (Silverman 1992; Kang 2003). Recent
+evidence for such phonetic influence is provided by Ryu et al. (2020), who find a strong effect of Ls
+phonetic duration on whether a diphthong in a loanword from Mandarin into a Chinese variety of
+Korean is realized as a diphthong or adapted as a monophthong. Other examples include C. Ito &
+Kenstowicz (2015), who show that changes over time in the phonetic correlates of laryngeal
+contrasts in Ls Japanese and Lb Korean have changed loanword adaptation patterns, and Peperkamp
+(2015), who finds an effect of coarticulation from the surrounding consonant context — a phonetic
+rather than phonological factor — on participants' judgments when adapting English vowels into
+French.
+      At the same time, studies such as Batais (2013), Stoltzfus (2014), Natvig (2017), Kennard &
+Lahiri (2020), and Yeung (2020) continue to support a role for phonological factors, including
+prosodic-structure requirements and formal properties of feature systems, in loanword adaptation.
+
+3.1.2 Perceptual illusions
+The way an acoustic signal is initially perceived by a listener and assigned a phonological structure
+can be influenced by the listener’s phonological system (Massaro & Cohen 1983). Consequently,
+some differences between an Lb loanword and its Ls source form might not be the output of the
+phonological production grammar at all — that is, might not be phonological processes applied to an
+Ls form that an Lb speaker judges to be illicit — but instead might simply reflect how the Lb speaker
+(inaccurately) perceives the Ls form.
+      Dupoux et al. (1999) provide evidence for just this type of perceptual illusion, concerning
+epenthesis. Japanese loanwords typically repair any illicit codas or consonant clusters from Ls
+source forms with the insertion of [ɯ] (Lovins 1973). Dupoux et al. find that Japanese-speaking
+listeners are much more likely than French-speaking listeners to perceive a medial [ɯ] between
+consonants in a (non-word) stimulus such as abge, which is phonotactically illegal in Japanese. In
+addition, Japanese listeners are significantly less likely than French listeners to distinguish between
+
+
+                                                   8
+stimuli such as abge and ab[ɯ]ge. These results indicate that Japanese listeners experience a
+perceptual illusion when they hear stimuli such as abge, perceiving ab[ɯ]ge instead.
+      Peperkamp & Dupoux (2003) propose that all loanword adaptation (that is not orthographic)
+is a result of perceptual illusions of this kind (see also Boersma & Hamann 2009). This proposal has
+a significant consequence: There can be no role for the Lb production grammar to modify illegal
+structures in the Ls source form if the Lb listener never perceives such Lb-illicit structures in the first
+place. On this view, it is not just that perceptual similarity plays a role in loanword adaptation;
+instead, loanword adaptation would not be a matter for the phonological production grammar at all.
+Arguments in favor of perceptual illusions as a key factor in loanword adaptation are also made by
+Jacobs (2014) and Blevins (2017). Guevara-Rukoz et al. (2017), Guevara-Rukoz et al. (2021), and
+Song (2022) explore the extent to which perceptual illusion effects can even predict the quality of
+epenthetic vowels that appear when loanwords are adapted.
+      On the other hand, evidence has been accumulating against the strong view that loanword
+adaptation is always the result of perceptual illusions (Smith 2006; Uffmann 2006; Kabak & Idsardi
+2007). Evidence that Lb speakers can sometimes perceive Ls contrasts is provided by Radomski
+(2019) and Zuraw et al. (2019); another example would be the “Oprah effect” (Jurgec 2014), in
+which Ls structures are adapted when loanwords undergo morphological derivation, but are
+faithfully imported in morphologically simple loanwords. Other studies arguing that adaptation by
+perception cannot be the whole story — often because the results of perception experiments differ
+from loanword adaptation patterns — include De Jong & Cho (2012); Dong (2012); Mattingley et al.
+(2015); Huang & Lin (2016); Szpyra-Kozłowska (2016); and Daland et al. (2019).
+
+3.2 Orthography
+Loanwords borrowed from written sources may show different phonological patterns or L s/Lb
+structural correspondences from those borrowed orally, a fact that has been noted for some time
+(Bloomfield 1933; Haugen 1950; Lovins 1973). Orthographic effects have also entered the
+perception/phonology debate (section 3.1), with proponents of each side sometimes relegating
+examples that seem to support the other position to “mere” orthographic effects. As with phonetic
+and perceptual factors, however, it is important to investigate the influence of orthography on
+loanword phonology systematically in order to understand how orthography interacts with
+phonology (and phonetics).
+
+
+
+
+                                                     9
+3.2.1 Evidence from descriptions of established loanwords
+Relatively strong evidence for orthographic influence on loanwords comes from Lb forms that
+encode information represented in Ls only in writing and not in speech. Segments in the surface
+form of a loanword in Lb that correspond to "silent" units in the Ls orthographic representation, with
+no reflex in the Ls surface form, are reported by Duběda (2014) in loanwords from French into
+Czech, by Cohen (2019) in loanwords from English into Hebrew, and by Yun (2019) in loanwords
+from English into Telugu. Similarly, Cohen (2019) and Beckham (2019) discuss Lb forms that reflect
+distinctions made in the Ls orthography but not in the spoken language.
+      Sometimes, the Lb form of a loanword is unexpected from a phonetic or phonological
+perspective, but plausible as the result of influence from Ls orthography. Szpyra-Kozłowska (2016)
+discusses the outcomes of Ls English /ɪ/ in a corpus of established loanwords in Polish, where the
+most phonetically similar Lb category should be /ɨ/. She presents examples that appear to be
+conditioned by a Lb-influenced interpretation of the Ls vowel spelling: Ls /ɪ/ corresponding to Lb /i/
+when spelled <i> in Ls, to Lb /ɨ/ when spelled <y>, to Lb /ɛ/ when spelled <e>, and to Lb /ɛj/ when
+spelled <ey> or <ay>. Approximately 84.5% of the 700 English loans with /ɪ/ in Szpyra-Kozłowska’s
+corpus are consistent with these orthographic generalizations, although phonological factors also
+predict some of the same patterns. A similar effect is reported by Laidler (2023), who examines
+loanwords into Russian whose source forms contain (British) English /ɜ:/. Shafi (2017) elicits
+productions of established loanwords into Mirpur Pahari from English, and attributes to
+orthographic effects both the avoidance of consonant deletion and also certain patterns of stress
+variation in the Lb forms of loanwords.
+      Damulakis & Nevins (2022) discuss an interesting pattern in Brazilian Portuguese involving an
+orthographic version of the “Oprah effect” (Jurgec 2014), that is, a pattern in which an imported
+(non-Lb) phoneme is maintained when a loan is morphologically underived in Lb but undergoes
+adaptation in morphologically complex forms. In this case, involving loans from English, French, and
+German, once the morphological context requires the imported phoneme to become adapted, the
+outcome of adaptation is not a phonetically similar Lb vowel, but instead is determined by an Lb
+grapheme-to-phoneme interpretation of the (Ls) orthographic form. For example, the English noun
+bug [bʌg] is borrowed with an imported vowel /ɐ/ (marginal in Lb non-loans) as b[ɐ]g, but in the
+derived verb b[u]gar ‘to bug out’, the vowel is adapted not to the phonetically similar [a], but to the
+orthographically signaled [u].
+
+
+
+                                                   10
+      As seen in the cases discussed so far, orthographic influence on loanwords is typically caused
+by the Ls form. A different kind of effect, based in properties of the Lb orthographic system, is found
+in Chinese languages, in the class of loanwords known in Chinese linguistics as transliterations (Cook
+2018). This type of loanword is written with hanzi characters — which typically represent a specific
+morpheme, that is, a particular meaning as well as a sound shape — but in the loanword are used for
+their sound value alone. A transliteration, therefore, is an adaptation of the sound shape of the L s
+form in terms of orthographically permissible syllables in Lb. Cook (2018: 12) provides the example
+of Mandarin 伊妹儿 [i55-meɪ51-ɑɻ35], where the hanzi graphemes, if representing morphemes, would
+translate (meaninglessly) as 'he/she-little.sister-son', but are used in this word to represent a
+transliteration loan from the English Ls form email.
+      In a situation like that of the Chinese transliteration loans, if the orthographically permissible
+syllables are a subset of the phonologically permissible syllables, then the Lb forms of loanwords
+may include mismatches with the Ls source words that are driven not by the phonology of either
+language, or even by Lb perception, but purely by Lb orthographic considerations. Lb speakers could,
+of course, maintain Ls-based spoken distinctions in loanwords even when these distinctions are not
+represented in the Lb orthography, but if the Lb spoken forms are consistent with their Lb
+orthographic representations, this constitutes Lb-driven orthographic interference in loanword
+phonology. To see the effects of this kind of Lb orthographic filter, it is useful to contrast
+transliteration loans in Mandarin with what Cook (2018) calls wholesale loans, in which the Ls (often
+English) orthography is borrowed along with the semantics and (an adaptation of) the phonological
+shape. One example is Mandarin OK (from English OK), which includes the syllable [kheɪ], a C+V
+combination that corresponds to no hanzi character and thus could not be represented in a
+transliteration loanword (Cook 2018: 19). Other cases of possible Lb orthographic effects on the
+sound shape of loanwords in Mandarin are discussed by Hsieh et al. (2009: 240, note 7) and Chang
+(2020).
+
+3.2.2 Experimental evidence
+Orthographic effects are most clearly visible when they lead to Lb outcomes that are distinct from
+phonological and perceptual factors. However, orthography might influence loanword phonology
+even in cases where it is indistinguishable from the influence of phonological or perceptual factors
+(Vendelin & Peperkamp 2006; Crawford 2009; Daland et al. 2015). Consequently, a deeper
+
+
+
+
+                                                    11
+understanding of the role of orthography requires experiments or analyses that explicitly control for
+non-orthographic factors.
+      In one of the first such studies, Vendelin & Peperkamp (2006) present French bilingual
+speakers with English-like nonce words to be adapted into French under two conditions: one with
+only auditory presentation of the stimuli, and one with both auditory and orthographic presentation.
+They find that for some vowel categories, there is a difference in the most frequently chosen French
+vowel between the two conditions — demonstrating that orthography can indeed influence
+adaptation. This initial study has inspired similar experiments for other language contexts,
+including Al-Hashmi (2016), as well as Daland et al. (2015), whose Perceptual Uncertainty
+Hypothesis proposes that orthography plays a greater role in loanword adaptation when perceptual
+information underdetermines the Lb phonological parse.
+
+3.2.3 Phonological models incorporating orthographic influence
+If information coming from an orthographic representation can have an effect on phonological
+behavior, then the phonological grammar must have access to orthographic information. One way of
+modeling this is to propose that speakers’ phonological representations of Ls forms can include
+information acquired from multiple sources. For example, Smith (2009) models loanword
+adaptation with a posited Ls representation, a repository for all the information the Lb speaker has
+about the Ls source form, along with an associated correspondence relation (McCarthy & Prince
+1999) that allows for faithfulness to this representation. Crucially, the posited Ls representation may
+include information received from multiple sources, including perception, orthography, and
+knowledge of Lb phonology — whether that information is accurate, or distorted from the L s form by
+Lb perceptual filtering or orthographic misparsing. Mathieu (2012) proposes a single input
+representation that includes perceptual and orthographic information simultaneously, along with
+faithfulness constraints specific to orthographic and to phonological material respectively.
+      Along similar lines, but implemented as an extension of the Bidirectional Phonetics and
+Phonology framework (Boersma 2011), is the model developed by Hamann & Colombo (2017). In
+this model, the phonological surface form (which itself corresponds to a lexical underlying form at a
+higher level of representation) stands in correspondence with two distinct representations: the
+auditory form, as in Boersma (2011), and here also the orthographic form. Distinct sets of
+correspondence constraints link the surface form to the auditory form and the orthographic form —
+CUE constraints and ORTH(ographic) constraints respectively — and these can be ranked with respect
+
+
+
+
+                                                  12
+to each other and with respect to the structural (markedness) constraints that hold of the surface
+form. Hamann & Colombo present this model as a general model of reading and writing that can
+also account for orthographic effects in loanword adaptation, including cases where orthographic
+effects occur along with auditory effects.
+      Hamann & Colombo's (2017) analysis of loanwords from English into Italian applies the Lb-
+internal ORTH constraints directly to loans from Ls (with their Ls orthography). As Hamann &
+Colombo note, this strategy is only available if Ls and Lb share an alphabet (or other system of
+glyphs). Vendelin & Peperkamp (2006), in their discussion of orthographic effects on loanwords
+from English into French (section 3.2.2), raise the possibility that French speakers have learned a set
+of grapheme(Ls)-to-phoneme(Lb) mappings, which are potentially distinct from orthographic
+mappings within Lb; in cases like this, Hamann & Colombo's approach would need to be augmented
+with additional ORTH constraints relating Ls orthography directly to Lb forms. Overall, however, the
+general insight behind their proposal seems appealing, especially the ability for orthographic
+constraints to be in the same grammatical system as, and ranked with respect to, phonological
+constraints, while representations for orthographic and acoustic information remain distinct.
+Damulakis & Nevins (2022), in their analysis of the orthographic "Oprah effect" (section 3.2.1),
+formalize their account in terms of Hamann & Colombo’s model.
+      Important questions nevertheless remain with respect to the formal modeling of orthographic
+effects on loanword phonology. Hamann & Colombo’s model would seem to allow any possible
+combination of auditory and orthographic properties to determine the shape of loanwords in L b, but
+if Daland et al. (2015) are right that orthographic effects matter more when perceptual effects are
+less available, is this something that the model should encode? Are there properties that are cross-
+linguistically more likely to be influenced by orthography or by perception, and if so, why?
+
+3.2.4 Summary
+As evidence accumulates concerning orthographic influence on the Lb forms of loanwords,
+experiments uncover more details about the context and degree of such influence, and formal
+models that include orthographic effects on loanwords are developed and tested, our understanding
+moves beyond the traditional view that orthographic influence is nothing but a source of error in
+loanword phonology. Making the contribution of orthographic influence explicit can help clarify the
+role of factors like perception and the Lb grammar in loanword phonology. Including orthographic
+
+
+
+
+                                                  13
+influence in formal phonological models can potentially shed light on the question of how the
+phonological grammar itself interacts with written language in the context of a literate society.
+
+3.3 Social context
+Given that the act of borrowing a word into a language is a type of language contact, it is
+unsurprising that social factors can influence how loanwords are adapted and become established in
+a community. There are many options for integrating an Ls form into Lb: Do non-Lb phonological
+structures tend to be imported, or adapted? Are adaptation strategies generally based on the L b or
+Ls phonological grammar, or speech perception (section 3.1), or orthographic factors (section 3.2),
+or some combination? Have adaptation strategies become conventionalized, so that even speakers
+who are highly proficient in Ls systematically adapt loanwords to “fit” Lb? The answers to questions
+like these for any individual borrowing situation are potentially influenced by the social context.
+Consequently, it is important to determine how social factors interact with the phonology of
+loanwords, so that such factors can be controlled for in considering the implications of loanwords
+for phonological theory.
+      This section discusses proficiency in Ls, identity construction and attitude toward Ls, and
+community-based conventionalization of loanword adaptation strategies. For more about
+borrowing in the broader context of language contact, see Thomason & Kaufman (1988), Van
+Coetsem (1988, 2000), Simonović (2015), and Poplack (2018). For a general discussion of
+methodologies for studying language contact and language variation in multilingual communities,
+see Ravindranath (2015).
+
+3.3.1 Proficiency in Ls
+As Haugen (1950) hypothesized, Lb speakers' familiarity with or proficiency in Ls can influence the
+relative rate of importing non-Lb phonological structures in loanwords. For example, Kadenge &
+Mudzingwa (2012) find that monolingual chiShona speakers consistently nativize non-Lb segments
+and syllable structures in loanwords from English, while bilingual speakers import /l/, post-nasal
+voiceless obstruents, and onset clusters. In Sa’aida’s (2015) study of English loanwords in Jordanian
+Urban Arabic among female students at the University of Jordan, participants specializing in English
+and with a history of English as the medium of instruction both use more English loanwords in
+general, and import more Ls segment categories and final consonant clusters, than participants
+studying other subjects and with a history of Arabic-medium instruction.
+
+
+
+                                                  14
+      Not only the speaker's Ls proficiency, but even the speaker's perception of the interlocutors' L s
+proficiency, can be a factor in determining whether loanwords are nativized. Lev‐Ari et al. (2014)
+perform a statistical analysis of Spanish loanwords in Mexicano, including both established loans
+and spontaneous borrowings, elicited in a conversation task. They find no effect of the speaker's
+own degree of bilingualism on the choice between retaining or nativizing non-L b segments and
+consonant clusters in the loanwords. However, they do find an effect of the factor they call
+“interlocutors’ bilingualism,” coded as ‘high’ if at least 75% of the participants in the conversation
+where the loanword was produced were considered by a research consultant from the community to
+both speak and understand Spanish, and as ‘low’ otherwise.
+      Not only the choice between importation and adaptation of Ls structures, but also the types of
+adaptation, can differ based on Lb speakers' proficiency in Ls. A number of studies assessing the
+interaction of Ls proficiency and perceptual factors in loanword or nonce-loan adaptation find that
+lower levels of proficiency in Ls correlate with stronger effects of phonetic and perceptual factors
+(section 3.1) on adaptation patterns. Nomura and Ishikawa (2018) compare the perception of
+English words by Japanese speakers classified as either introductory or intermediate English-
+language learners, finding that the intermediate learners have a slightly lower rate of perceptual
+epenthesis. Stronger perceptual similarity effects for Lb speakers with lower Ls proficiency are
+reported by Huang & Lin (2016), Kwon (2017), and Wang (2023).
+      Bilingual speakers are not necessarily immune to the influence of perceptual similarity,
+however. Aktü rk-Drake (2014) looks at the adaptation of Swedish loanwords into Turkish by
+speakers of Turkish who are bilingual in Swedish, and finds that phonetically long (but
+phonologically short) Swedish vowels are adapted as long vowels in Turkish, while phonologically
+long (but phonetically not very long) Swedish consonants are adapted as short consonants — the
+surface, phonetic length determines the adaptation even though the speakers are bilingual.
+
+3.3.2 Attitudes and identity
+Beyond the effects of Ls proficiency in loanword adaptation and loanword phonology, other social
+factors can influence how loanwords are adapted or produced by Lb speakers. In particular, when
+there is variation in the pronunciation of loanwords, a number of social or identity-related factors
+have been shown to play a role.
+      One such factor is the social attitude of Lb speakers toward Ls language and culture (Weinreich
+1968). Paradis & LaCharité (2012) propose that the degree to which Ls is considered prestigious by
+
+
+
+                                                   15
+Lb speakers can influence the choice of strategy for adapting Ls phonemes. When Ls is held in high
+prestige, they argue, Lb speakers may opt for a "flawed production-based attempt" to import an Ls
+phoneme, resulting in an adaptation that is more perceptually similar to the L s source phoneme than
+would otherwise be predicted. Jaggers (2018) finds that the attitudes of American English speakers
+toward the source of a loanword contribute to the likelihood for a given speaker to use a more Ls-like
+or a more Lb-adapted pronunciation of a loanword, such as a foreign place name.
+      At a more fine-grained situational level, Lev-Ari & Peperkamp (2014) and Lev‐Ari et al. (2014)
+find, for Hebrew and Mexicano respectively, that the degree of adaptation of L s sounds in loanwords
+can be influenced by the prestige of the donor language within the semantic domain of the
+loanword. Similarly, Hashimoto (2019a, b) reports that the choice of a more or less Ls-like
+pronunciation of loanwords from Mā ori into New Zealand English is influenced by situational factors
+such as the topic of discussion as well as by a given speaker’s attitude toward Ls.
+      Also relevant are attitudes, not just toward the language or culture that is the source of a
+particular loanword, but toward language or cultural contact more generally. Jaggers (2018) looks
+at loanwords in American English that show variation between more and less L s-like pronunciations,
+analyzing the effect of various social predictors. He finds some effect of political identity, and (as
+noted above) of attitude toward Ls specifically, but the strongest social predictor of more Ls-like
+pronunciations is the speaker's degree of alignment with a globalist, rather than a nationalist,
+ideology. A general effect of openness to contact is also found by Jaggers & Baese-Berk (2020) in an
+experiment on listeners' representation of ambiguous acoustic cues. American English speakers
+heard C(ǝ)CVC nonce loanwords, where (ǝ) varied along a duration and intensity continuum from
+nothing ([CCVC]) to a full schwa ([CǝCVC]); the onset clusters in the CCVC interpretations were legal
+in English, so this was not a potential case of perceptual illusion (section 3.1.2). The more highly
+speakers rate themselves as open to traveling, learning foreign languages, and pronouncing foreign
+names close to their original pronunciations, the more likely they are to represent an ambiguous
+acoustic cue (from the non-endpoints of the continuum) as a full /ǝ/ for a word that was presented
+as a loanword.
+      As with other sociolinguistic, especially sociophonetic, variables (Eckert 2019), the
+importation versus adaptation of Ls phonological characteristics can be used by speakers to express
+aspects of their identity. For example, the political identity of the speaker is one factor that predicts
+more versus less Ls-like productions of loanwords in the study by Jaggers (2018) (see above). Babel
+(2016) describes the conditions under which speakers of a variety of Bolivian Spanish maintain L s-
+
+
+                                                   16
+faithful laryngealized (aspirated and ejective) consonants in loanwords from Quechua. Notably,
+conversations concerning topics for which loanwords are generally most likely to appear, including
+agriculture, the local landscape, and insults or threats, are also the contexts in which laryngealized
+consonants are most likely to be realized. While most uses of laryngealized consonants occur within
+Quechua loanwords, Babel even documents cases where heavy aspiration is realized in Spanish
+words for expressive or sound-symbolic purposes.
+      Aziz et al. (2023) elicit productions of established loanwords from Indonesian into Acehnese
+from bilingual speakers highly proficient in Ls. They find a tendency for a variety of Lb-compatible Ls
+vowels, especially /i/, /ǝ/, and /a/, to be adapted as the high back unrounded vowel /ɯ/, which
+does not occur in Ls and is a salient characteristic of Lb. Aziz et al. propose that this adaptation
+pattern is used to express Acehnese identity by making the loanwords sound more like Lb words.
+This phenomenon, involving changes to an Ls structure that would already have been legal in L b, can
+be called overadaptation.
+      In general, since overadaptation involves changes to Lb-compatible structures, it is not likely to
+be caused either by Lb speakers' perception of Ls forms, or by the Lb non-loan phonological grammar.
+We might therefore expect cases of overadaptation to be related to social factors — such as the
+expression of Lb speakers' identity, as argued by Aziz et al. (2023) for Acehnese, or community-wide
+social conventions for loanword phonology, which are addressed in the following section.
+
+3.3.3 Social conventions for loanword phonology
+Once a community has adapted a number of loanwords, the possibility emerges for the development
+of a set of conventions for how loanwords, perhaps from a specific source language, are to be
+adapted.
+      Shinohara et al. (2011) compare the results of perception experiments with patterns of
+loanword adaptation in Korean from the source languages Japanese, English, and French. They find
+a number of cases where the loanword adaptation patterns are systematic, but nevertheless diverge
+from the actual perception results, and argue that the loanword patterns show effects of social
+conventions, including official prescriptive standards, for loanwords; a similar argument is made by
+De Jong & Cho (2012), who compare the results of an experiment on the perception of English
+stimuli by Korean listeners with a corpus of established loanwords from English into Korean, and
+conclude that some of the differences are explained by an “explicit sociocultural standard.” Duběda
+(2014) argues that consonants, and to some extent vowels, in Czech loanwords from French are
+
+
+
+                                                   17
+mapped to Czech phonological categories in a “mechanical,” conventionalized way, referring to this
+system as a “shadow phonology” of French represented by speakers of Czech. Chang (2020)
+identifies effects of prescriptive considerations in lexical tone assignment for loanwords from
+English into Mandarin. General models of loanword adaptation by speech communities rather than
+by individual speakers, which explicitly account for effects of conventionalization, are proposed by
+Crawford (2009) and Uffmann (2013). See also Poplack (2018: chapter 10) on social factors in
+aspects of borrowing behavior beyond phonology.
+
+3.3.4 Summary: Effects of social factors and social context on loanword phonology
+On the one hand, lower Ls proficiency on the part of Lb speakers often correlates with a greater
+reliance on perception-based patterns in loanword adaptation. This is intuitively plausible:
+speakers who know little of Ls might be expected to rely more on what they can hear, rather than on
+abstract categories that are meaningful in the context of the Ls grammar.
+      Other social factors discussed here, including attitudes toward L s or toward linguistic and
+cultural contact in general, as well as the indexation of identity, appear mainly to be predictors of the
+degree to which loanwords undergo adaptation (nativization) versus importation (preservation of
+Ls-like structures). That said, Jaggers & Baese-Berk (2020) find that attitudes toward linguistic
+contact can also influence the interpretation of acoustic cues in loanword adaptation. It will be
+interesting to see whether future studies uncover further examples in which speaker attitudes
+influence adaptation strategies beyond the question of adaptation versus importation.
+
+4. Implications of loanwords for phonological theory
+As we have seen, factors beyond phonology, especially phonetic, orthographic, and social factors,
+also influence the phonological shape of loanwords (section 3). Thus, loanword patterns are not
+necessarily a direct window into the Lb phonological grammar (see also de Lacy 2009). Much recent
+and current work in loanword phonology seeks to disentangle the effects of these various influences,
+both to understand each better in its own right, but also to clarify how and when evidence from
+loanwords can legitimately be invoked in phonological argumentation. Loanword data still has the
+potential to serve as external evidence for claims about the Lb phonological grammar specifically,
+and about the nature of the phonological component of human language more generally.
+
+
+
+
+                                                   18
+4.1. Methodologies
+Current work on the phonology of loanwords and its implications often involves experimental,
+corpus, and/or quantitative methods, in addition to formal phonological analysis.
+        Nonce-loanword nativization experiments, in which participants “borrow” Ls-like nonwords,
+remove the potential confound of Lb speakers’ knowledge of established loans and directly examine
+how they adapt loans that they have never encountered before. This methodology has the advantage
+of showing what nativization patterns are productive for, or preferred by, Lb speakers. Unless the
+stimuli are explicitly designed to do so, however, these experiments may not distinguish among the
+effects of the many phonological and non-phonological factors that can influence loanword
+adaptation.
+        Perception experiments can be used to compare Lb speakers’ perception of Ls stimuli with
+patterns observed in loanword adaptation or established loanwords. This methodology does not
+ask Lb speakers to nativize an Ls form, but rather probes what they hear when they encounter
+structures from Ls. This approach can be used to identify patterns in loanword phonology that do,
+or do not, conform to perceptual illusion effects for the same language (section 3.1.2).
+        In a sense, almost all research on established loanwords is a type of corpus study; there is a
+long tradition of drawing generalizations from lists of loanwords, whether collected from
+dictionaries, elicited from Lb speakers, or observed naturalistically. Recent years have seen an
+increase in studies using larger-scale corpora, more sophisticated statistical analysis methods, or a
+combination of the two. The goals of such studies often include the documentation of trends or
+patterns that may previously have been described only impressionistically or anecdotally, as well as
+the identification of new generalizations about loanwords or adaptation processes — including
+gradient trends or tendencies that were not examined, or perhaps not even observed, in earlier
+work.
+        It is important to keep in mind that different experiment methodologies have been shown to
+amplify different factors, such as phonetic factors versus phonological representations, or gradient
+versus categorical judgments (Paradis & LaCharité 2011; Kawahara 2013).
+
+4.2 External evidence for aspects of the Lb phonological grammar
+Recent research continuing to apply loanword data as evidence for phonological productivity
+includes Sano (2012), who computes statistics over a corpus of Japanese spontaneous speech to
+examine the production of (imported) geminate voiced obstruents in loanwords, arguing that
+
+
+                                                    19
+certain Lb restrictions on these geminates are productive enough to be gradiently active even in
+loanwords. Similarly, Kawahara (2012), using data from loanword and nonce-word judgment tasks,
+finds gradient effects in loanwords of a phonological restriction that holds categorically only in non-
+loans in Japanese: Lyman's Law, a prohibition on multiple voiced obstruents in the same morpheme.
+Traoré & Féry (2019) use adaptation patterns from loanwords in the Frò ʔò dialect of Tagbana to
+demonstrate the productivity of a set of morphophonological processes affecting syllable structure,
+which provides support for claims they make about the set of possible shapes for underlying
+representations of non-loan morphemes in the language. Other examples include AlShammari &
+AlShammari (2020), on Arabic loanwords in Turkish, and Abdallah (2021), on English, Hausa, and
+Arabic loanwords in Dagbani.
+      Emergence-of-the-unmarked effects (McCarthy & Prince 1994) are found in loanwords (Paradis
+1995) when patterns or defaults that are not observed in the non-loan grammar become evident in
+adaptation patterns or loanword-specific generalizations. Adell (2013) describes a process of
+gradient vowel devoicing that occurs in Kaqchikel only in Spanish loanwords, but conforms to
+typological generalizations about vowel devoicing despite its limited domain of application. Cohen
+(2013) finds evidence for emergent effects of vowel harmony in loanwords in Modern Hebrew —
+and further predicts, given the OT postulate of universal constraints, that such emergent vowel
+harmony should be a cross-linguistic effect. Other examples include Guba (2016, 2021), who
+identifies emergent effects in segmental and prosodic properties of English loanwords in Ammani
+Arabic, and Radomski (2019), who argues that the preservation of contrasts between words with the
+Polish voiceless affricates [tʂ] (postalveolar) and [tɕ] (prepalatal) in English is an emergent effect of
+the faithfulness constraint IDENT-IO[±distributed].
+      In many cases, claims about the Lb phonological grammar that are based on facts from
+loanword adaptation depend on the adaptation patterns being phonological operations, rather than
+misperceptions or perceptual illusions (section 3.1). An interesting exception is Song (2022), who
+applies data from perceptual illusion effects in loanword adaptation in North Kyungsang Korean to
+argue that the identity of the vowel involved in perceptual epenthesis depends on the phonological
+vowel inventory of the language.
+
+4.3 External evidence for approaches to phonological analysis
+Loanwords continue to be used as evidence for particular theoretical approaches to phonological
+analysis. For example, Oh (2012) argues that morphologically complex loanwords from English in
+Korean provide support for a Lexical Conservatism effect in morphological alternations (Steriade
+
+                                                   20
+2000). Davis & Rahgeb (2014) use evidence from final-stress words borrowed from English and
+French into Cairene Arabic as part of a more general argument concerning the phonology of
+geminates, supporting a moraic representation (Hayes 1989) over a skeletal-slot representation
+(Leben 1980). Becker & Jurgec (2017) argue that the same markedness constraint against high tone
+on lax mid vowels that drives a tone alternation in the non-loan phonology of Slovenian also drives a
+vowel quality alternation in loanwords, noting that loanword evidence for this proposed tone/vowel
+co-occurrence constraint is valuable support because phonological interactions between tone and
+vowel quality are typologically uncommon. Alhoody (2019) uses evidence from the adaptation of
+English loanwords into Qassimi Arabic to support a particular analysis of contrastive versus
+redundant features in Lb, implementing Contrastive Hierarchy Theory (Dresher 2009).
+
+4.4 Lexical strata and their theoretical implications
+To the extent that lexical strata are synchronically productive for Lb speakers, the phonological
+grammar of Lb has to be able to specify different phonologies for different strata (sections 2.2, 2.3).
+Complicating matters further, lexical strata often reflect a “hierarchy of foreignness” (Kiparsky 1968;
+see also Holden 1976; J. Ito & Mester 1995, 1999), in which certain Ls structures are more frequently
+nativized than others. J. Ito & Mester (1999) enforce such nativization hierarchies in their OT
+indexed-faithfulness model with a metaconstraint that specifies a consistent faithfulness ranking
+across strata. Recent work in Harmonic Grammar (HG; Legendre et al. 1990), where constraints are
+weighted rather than ranked, has aimed to derive nativization hierarchies from basic principles of
+the model: Hsu & Jesney (2017, 2018) develop an HG version of stratum-specific rankings with
+scalar weights that represent the degree of “foreignness” for each lexeme and algorithmically adjust
+constraint domination relations accordingly. Smith (2018) makes use of HG’s cumulative constraint
+interaction, allow general and stratum-specific constraints to generate a consistent faithfulness
+ranking across strata by default.
+      An alternative approach to grammars with phonologically distinct lexical subsets has been
+developed by Becker & Gouskova (2016). In their model, forms are assigned to distinct lexical
+subclasses by gatekeeper grammars before their outputs are determined by a (possibly subclass-
+specific) grammar proper.
+      The synchronic productivity of lexical strata is itself an empirical question (Rice 2006), which
+has been tested experimentally by Pinta (2013) for Guarani, by Smith & Tashiro (2019) for Japanese,
+and by Pons-Moll & Torres-Tamarit (2021) for Catalan. These studies demonstrate that at least some
+
+
+
+                                                   21
+stratum-specific patterns and nativization hierarchies are productive, although the results are
+complex. Meanwhile, the formal learnability of lexical strata has been computationally confirmed by
+Morita & O’Donnell (2022) for Japanese. Further data on productivity and formal learnability for
+lexical strata in additional languages would be welcome.
+
+5. Conclusions
+In addition to the phonological grammar of Lb, the phonological shape of loanwords can be affected
+by a number of factors, including phonetic similarity, perceptual illusions, orthography, and the
+social characteristics and attitudes of Lb speakers. Nevertheless, when the influence of these factors
+is controlled for, patterns in loanword phonology can serve as external evidence for the L b grammar
+or for phonological models more generally. Moreover, precisely because there are so many different
+factors at play, loanwords can be a fruitful testing ground for models of phonological interfaces.
+      Recent years have seen an increase in experimental, computational, and statistical approaches
+to loanword phonology. Loanword data from additional languages, and studies investigating new
+and familiar data with more sophisticated methodologies, continue to refine our understanding of
+possible patterns in loanword phonology and their implications for phonological theory.
+
+References
+Abdallah, Iddrisu (2021). Segmental processes in loanword adaptation in Dagbani. Journal of West
+      African Languages 48(2). 42–58.
+      [https://journalofwestafricanlanguages.org/index.php/downloads/summary/141-volume-
+      48-2/767-segmental-processes-in-loanword-adaptation-in-dagbani]
+Adell, Eric (2013). Descriptive account of Spanish loanword phonology in Kaqchikel. Kansas Working
+      Papers in Linguistics 34. 43–59. [https://doi.org/10.17161/KWPL.1808.12862]
+Aktü rk-Drake, Memet (2015). Phonological adoption through bilingual borrowing: Comparing elite
+      bilinguals and heritage bilinguals. PhD dissertation, Stockholm University.
+Al-Hashmi, Shadiya (2016). The phonetics and phonology of Arabic loanwords in Turkish: Residual
+      effects of gutturals. PhD dissertation, University of York.
+Alenazi, Areej (2023). Variation in loanword phonology: The case of /v/ and /tʃ/ in English loanwords
+      into Saudi Arabic. PhD dissertation, University of York.
+Alhoody, Metab Mohammad A. (2019). Phonological adaptation of English loanwords into Qassimi
+      Arabic: An optimality–theoretic account. PhD dissertation, Newcastle University.
+
+
+
+                                                   22
+AlShammari, Wafi Fhaid & Ahmad Radi AlShammari (2020). Adaptation of Turkish loanwords
+      originating from Arabic. International Journal of English Linguistics 10(5). 388–398.
+      [https://doi.org/10.5539/ijel.v10n5p388]
+Aziz, Zulfadli A., Rob Amery & Faisal Mustafa (2023). Vowel adaptations of Indonesian loanwords
+      into dialects of Acehnese: Reinforcing Acehnese identity. Studies in English Language and
+      Education 10(1). 447–469. [https://jurnal.usk.ac.id/SiELE/article/view/25488]
+Babel, Anna M. (2016). Affective motivations for borrowing: Performing local identity through loan
+      phonology. Language & Communication 49. 70–83.
+      [https://doi.org/10.1016/j.langcom.2016.06.002]
+Batais, Saleh Saeed (2013). Consonantal and syllabic repairs of Arabic and Dutch loanwords in
+      Indonesian: A phonological account. PhD dissertation, University of Florida.
+Becker, Michael & Maria Gouskova (2016). Source-oriented generalizations as grammar inference in
+      Russian vowel deletion. LI 47(3). 391–425. [https://doi-org/10.1162/LING_a_00217]
+Becker, Michael & Peter Jurgec (2017). Interactions of tone and ATR in Slovenian. In Wolfgang
+      Kehrein, Bjö rn Kö hnlein, Paul Boersma & Marc van Oostendorp (eds.) Segmental structure and
+      tone. Berlin: Walter de Gruyter. 11–25. [https://doi.org/10.1515/9783110341263]
+Beckham, Sarah (2019). Loanword phonology in Marathi. PhD dissertation, University of Wisconsin–
+      Madison.
+Blevins, Juliette (2017). Between natural and unnatural phonology: the case of cluster-splitting
+      epenthesis. In Claire Bowern, Laurence Horn & Raffaella Zanuttini (eds.) On looking into words
+      (and beyond): structures, relations, analyses. Berlin: Language Science Press. 3–15.
+Bloomfield, Leonard (1933). Language. New York: Henry Holt & Co.
+Boersma, Paul (2011). A programme for bidirectional phonology and phonetics and their acquisition
+      and evolution. In Anton Benz & Jason Mattausch (eds.) Bidirectional optimality theory.
+      Amsterdam: John Benjamins. 33–72.
+Boersma, Paul & Silke Hamann (2009). Loanword adaptation as first-language phonological
+      perception. In Andrea Calabrese & W. Leo Wetzels (eds.) Loan phonology. Amsterdam: John
+      Benjamins. 11-58.
+Botha, Rudolf (1973). The justification of linguistic hypotheses. The Hague: Mouton.
+Broselow, Ellen (2000). Stress, epenthesis, and segment transformation in Selayarese loans. BLS 25.
+      311–325.
+Calabrese, Andrea & W. Leo Wetzels (eds.) (2009). Loan phonology. Amsterdam: John Benjamins.
+
+
+                                                  23
+Chen, Yangyu & Yu-An Lu (2022). Variation in loanword adaptation: a case from Mandarin Chinese.
+     Second Language Research 38(3). 423–447. [https://doi.org/10.1177/0267658320961444]
+Chomsky, Noam & Morris Halle (1968). The sound pattern of English. New York: Harper & Row.
+Churma, Donald G. (1979). Arguments from external evidence in phonology. PhD dissertation, The
+     Ohio State University.
+Clayton, Mary L. (1976). The redundance of underlying morpheme-structure conditions. Lg 52. 295–
+     313. [https://doi.org/10.2307/412561]
+Cohen, Evan-Gary (2013). The emergence of the unmarked: vowel harmony in Hebrew loanword
+     adaptation. Lingua 131. 66–79. [https://doi.org/10.1016/j.lingua.2013.02.001]
+Cohen, Evan-Gary (2019). Loanword phonology in Modern Hebrew. Brill’s Journal of Afroasiatic
+     Languages and Linguistics 11(1). 182–200. [https://doi.org/10.1163/18776930-01101012]
+Cook, Angela (2018). A typology of lexical borrowing in Modern Standard Chinese. Lingua Sinica
+     4(1). 6:1–32. [https://doi.org/10.1186/s40655-018-0038-7]
+Crawford, Clifford J. (2009). Adaptation and transmission in Japanese loanword phonology. PhD
+     dissertation, Cornell University.
+Daland, Robert, Mira Oh & Lisa Davidson (2019). On the relation between speech perception and
+     loanword adaptation: cross-linguistic perception of Korean-illicit word-medial clusters. NLLT
+     37. 825–868. [https://doi.org/10.1007/s11049-018-9423-2]
+Daland, Robert, Mira Oh & Syejeong Kim (2015). When in doubt, read the instructions: orthographic
+     effects in loanword adaptation. Lingua 159. 70–92.
+     [https://doi.org/10.1016/j.lingua.2015.03.002]
+Damulakis, Gean & Andrew Nevins (2022). An orthographic twist to the Oprah Effect. Radical 3. 89–
+     124. [https://radical.cnrs.fr/damulakis-nevins-an-orthographic-twist-to-the-oprah-effect/]
+Davis, Stuart & Marwa Ragheb (2014). Geminate representation in Arabic. Perspectives on Arabic
+     Linguistics 25. 3–19.
+de Jong, Kenneth & Mi-Hui Cho (2012). Loanword phonology and perceptual mapping: comparing
+     two corpora of Korean contact with English. Lg 88(2). 341–368.
+     [https://www.jstor.org/stable/23251834]
+de Lacy, Paul (2009). Phonological evidence. In Steve Parker (ed.) Phonological argumentation:
+     essays on evidence and motivation. London: Equinox. 43–78.
+Dong, Xiaoli (2012). What borrowing buys us: a study of Mandarin Chinese loanword phonology. PhD
+     dissertation, Utrecht University.
+
+
+                                                24
+Dresher, B. Elan (2009). The contrastive hierarchy in phonology. Cambridge: Cambridge University
+      Press.
+Duběda, Tomá š (2014). When one phonology meets another: the case of Gallicisms in Czech.
+      Proceedings of the Olomouc Linguistics Colloquium 2014. 701–713. [http://olinco.upol.cz/wp-
+      content/uploads/2017/05/olinco-2014-proceedings.pdf]
+Dupoux, Emmanuel, Kazuhiko Kakehi, Yuki Hirose, Christophe Pallier & Jacques Mehler (1999).
+      Epenthetic vowels in Japanese: a perceptual illusion?. Journal of Experimental Psychology:
+      Human Perception and Performance 25(6). 1568–1578. [https://doi.org/10.1037/0096-
+      1523.25.6.1568]
+Durvasula, Karthik, Ho-Hsin Huang, Sayako Uehara, Qian Luo & Yen-Hwei Lin (2018). Phonology
+      modulates the illusory vowels in perceptual illusions: evidence from Mandarin and English.
+      Laboratory Phonology 9(1). 7:1–27. [https://doi.org/10.5334/labphon.57]
+Durvasula, Karthik & Jimin Kahng (2015). Illusory vowels in perceptual epenthesis: the role of
+      phonological alternations. Phonology 32(3). 385–416.
+      [https://doi.org/10.1017/S0952675715000263]
+Eckert, Penelope (2019). The limits of meaning: social indexicality, variation, and the cline of
+      interiority. Lg 95(4). 751–776. [https://doi.org/10.1353/lan.2019.0072]
+Fukazawa, Haruka, Mafuyu Kitahara & Mitsuhiko Ota (1998). Lexical stratification and ranking
+      invariance in constraint-based grammars. CLS 34:2. 47-62.
+Glewwe, Eleanor (2021). The phonological determinants of tone in English loanwords in Mandarin.
+      Phonology 38(2). 203–239. [https://doi.org/10.1017/S0952675721000154]
+Guba, Mohammed Nour Abu (2016). Phonological adaptation of English loanwords in Ammani Arabic.
+      PhD dissertation, University of Salford.
+Guba, Mohammed Nour Abu (2021). Gemination within English loanwords in Ammani Arabic: an
+      optimality-theoretic analysis. JL 57(1). 3–40. [https://doi.org/10.1017/S0022226720000183]
+Guevara-Rukoz, Adriana, Isabelle Lin, Masahiro Morii, Yasuyo Minagawa, Emmanuel Dupoux &
+      Sharon Peperkamp (2017). Which epenthetic vowel? Phonetic categories versus acoustic
+      detail in perceptual vowel epenthesis. JASA 142(2). EL211–EL217.
+      [https://doi.org/10.1121/1.4998138]
+Guevara-Rukoz, Adriana, Shi Yu & Sharon Peperkamp (2017). Speech perception and loanword
+      adaptations: the case of copy-vowel epenthesis. Interspeech 2021. 4004–4008.
+      [https://doi.org/10.21437/Interspeech.2021-1481]
+
+
+                                                   25
+Hamann, Silke & Ilaria E. Colombo (2017). A formal account of the interaction of orthography and
+      perception: English intervocalic consonants borrowed into Italian. NLLT 35. 683–714.
+      [https://doi.org/10.1007/s11049-017-9362-3]
+Hashimoto, Daiki (2019a). Loanword phonology in New Zealand English: exemplar activation and
+      message predictability. PhD dissertation, University of Canterbury.
+Hashimoto, Daiki (2019b). Sociolinguistic effects on loanword phonology: topic in speech and
+      cultural image. Laboratory Phonology 10(1). 11:1–34. [https://doi.org/10.5334/labphon.187]
+Haugen, Einar (1950). The analysis of linguistic borrowing. Lg 26(2). 210–231.
+      [https://doi.org/10.2307/410058]
+Hayes, Bruce (1989). Compensatory lengthening in moraic phonology. LI 20(2). 253–306.
+      [https://www.jstor.org/stable/4178626]
+He, Mosi & Jianing He (2022). Integration of perceptual similarity with faithful mapping of
+      phonological contrast in loanword adaptation: Mandarin Chinese adaptation of English stops.
+      Journal of Language Teaching and Research 13(3). 541–549.
+      [https://doi.org/10.17507/jltr.1303.10]
+Holden, Kyril. 1976. Assimilation rates of borrowings and phonological productivity. Lg 52. 131–147.
+      [https://doi.org/10.2307/413213]
+Hsieh, Feng-fan, Michael Kenstowicz & Xiaomin Mou (2009). Mandarin adaptations of coda nasals in
+      English loanwords. In Andrea Calabrese & W. Leo Wetzels (eds.) Loan phonology. Amsterdam:
+      John Benjamins. 131–154.
+Hsu, Brian & Karen Jesney (2017). Loanword adaptation in Québec French: evidence for weighted
+      scalar constraints. WCCFL 34: 249–258. [http://lingref.com/cpp/wccfl/34/paper3318.pdf]
+Hsu, Brian & Karen Jesney (2018). Weighted scalar constraints capture the typology of loanword
+      adaptation. Proceedings of the Annual Meetings on Phonology 2017.
+      [http://dx.doi.org/10.3765/amp.v5i0.4246].
+Huang, Ho-Hsin & Yen-Hwei Lin (2016). To epenthesize or not? Adaptations of English coda [m] in
+      Standard Mandarin loanwords. Proceedings of the Annual Meetings on Phonology 2015.
+      [https://doi.org/10.3765/amp.v3i0.3686]
+Huang, Ho-Hsin & Yen-Hwei Lin (2019). Vowel quality cues to variable nasal adaptation in Mandarin
+      loanword phonology. Proceedings of the Annual Meetings on Phonology 2018.
+      [https://doi.org/10.3765/amp.v7i0.4486]
+
+
+
+
+                                                 26
+Hyman, Larry M. (1970a). How concrete is phonology? Lg 46(1). 58–76.
+      [https://doi.org/10.2307/412407]
+Hyman, Larry M. (1970b). The role of borrowing in the justification of phonological grammars.
+      Studies in African Linguistics 1. 1–48.
+Inkelas, Sharon & Cheryl Zoll (2007). Is grammar dependence real? A comparison between
+      cophonological and indexed constraint approaches to morphologically conditioned phonology.
+      Linguistics 45. 133-171. [https://doi.org/10.1515/LING.2007.004]
+Ito, Chiyuki & Michael Kenstowicz (2015). The adaptation of contemporary Japanese loanwords in
+      Korean. Japanese/Korean Linguistics 22. 1–18.
+Ito, Junko & Armin Mester (1995). The core-periphery structure of the lexicon and constraints on
+      reranking. In Jill Beckman, Suzanne Urbanczyk & Laura Walsh Dickey (eds.) Papers in
+      Optimality Theory. Amherst: GLSA. 181–209.
+Ito, Junko & Armin Mester (1999). The structure of the phonological lexicon. In Natsuko Tsujimura
+      (ed.) The handbook of Japanese linguistics. Malden, MA: Blackwell. 62–100.
+Jacobs, Haike (2014). Modelling loanword adaptation. In Eugeniusz Cyran & Jolanta Szpyra–
+      Kozlowska (eds.) Crossing phonetics-phonology lines. Newcastle: Cambridge Scholars
+      Publishing. 191–217.
+Jacobs, Haike & Carlos Gussenhoven (2000). Loan phonology: perception, salience, the lexicon and
+      OT. In Joost Dekkers, Frank van der Leeuw & Jeroen van de Weijer (eds.) Optimality Theory:
+      phonology, syntax, and acquisition. Oxford: Oxford University Press. 193–209.
+Jaggers, Zachary (2018). A combined sociolinguistic and experimental phonetic approach to loanword
+      variation and adaptation. PhD dissertation, New York University.
+Jaggers, Zachary & Melissa M. Baese-Berk (2020). Investigating a bias for cue preservation in
+      loanword adaptation. JASA 147(6). EL511–EL516. [https://doi.org/10.1121/10.0001375]
+Jian, Li (2017). Tonal adaptation of English loanwords in contemporary Mandarin. Journal of Chinese
+      Linguistics 45(2). 423–450. [https://doi.org/10.1353/jcl.2017.0018]
+Jurgec, Peter (2014). Morphology affects loanword phonology. NELS 43. 191–202.
+Kabak, Bariş & William J. Idsardi (2007). Perceptual distortions in the adaptation of English
+      consonant clusters: syllable structure or consonantal contact constraints?. Language and
+      Speech 50(1). 23–52. [https://doi.org/10.1177/00238309070500010201]
+
+
+
+
+                                                  27
+Kadenge, Maxwell & Calisto Mudzingwa (2012). Comparing chiShona loanwords of monolingual and
+      bilingual speakers: an Optimality Theory analysis. South African Journal of African Languages
+      32(2). 141–151. [https://doi.org/10.2989/SAJAL.2012.32.2.5.1142]
+Kang, Yoonjung (2003). Perceptual similarity in loanword adaptation: English postvocalic word-final
+      stops in Korean. Phonology 20(2). 219–273. [https://doi.org/10.1017/S0952675703004524]
+Kang, Yoonjung (2011). Loanword phonology. In Marc van Oostendorp, Colin Ewen, Elizabeth Hume
+      & Keren Rice (eds.) Blackwell companion to phonology. Malden, MA: Wiley-Blackwell. 2258–
+      2282.
+Kang, Yoonjung (2013). Loanwords. Oxford Bibliographies Online.
+      [https://doi.org/10.1093/OBO/9780199772810-0027]
+Kang, Yoonjung, Andrea Hò a Phạ m & Benjamin Storme (2016). French loanwords in Vietnamese: the
+      role of input language phonotactics and contrast in loanword adaptation. Proceedings of the
+      Annual Meetings on Phonology 2014. [https://doi.org/10.3765/amp.v2i0.3749]
+Kang, Yoonjung & Jessamyn Schertz (2021). The influence of perceived L2 sound categories in on-
+      line adaptation and implications for loanword phonology. NLLT 39. 555–578.
+      [https://doi.org/10.1007/s11049-020-09477-9]
+Kawahara, Shigeto (2012). Lyman's Law is active in loanwords and nonce words: evidence from
+      naturalness judgment studies. Lingua 122(11). 1193–1206.
+      [https://doi.org/10.1016/j.lingua.2012.05.008]
+Kawahara, Shigeto (2013). Testing Japanese loanword devoicing: addressing task effects. Linguistics
+      51(6). 1271–1299. [https://doi.org/10.1515/ling-2013-0050]
+Kennard, Holly J. & Aditi Lahiri (2020). Nonesuch phonemes in loanwords. Linguistics 58(1). 83–
+      108. [https://doi.org/10.1515/ling-2019-0033]
+Kenstowicz, Michael J. & Teresa Cabré (eds.) (2012). On loanword phonology [special issue]. Catalan
+      Journal of Linguistics 11. [https://revistes.uab.cat/catJL/issue/view/v11]
+Kenstowicz, Michael J. & Christian Uffmann (eds.) (2006). Loanword phonology: current issues
+      [special issue]. Lingua 116(7).
+      [https://www.sciencedirect.com/journal/lingua/vol/116/issue/7]
+Kiegel-Keicher, Yvonne (2020). Simple metathesis in loanword phonology: the Arabic-Romance
+      language contact. Zeitschrift für romanische Philologie 136(4). 1049–1084.
+      [https://doi.org/10.1515/zrp-2020-0057]
+
+
+
+
+                                                 28
+Kim, Jungyeon (2021). Perception of foreign segments in loanword phonology. Lingua 262. 103–160.
+      [https://doi.org/10.1016/j.lingua.2021.103160]
+Kiparsky, Paul. 1968. How abstract is phonology? In Osamu Fujimura (ed.) Three dimensions of
+      linguistic theory. Tokyo: TEC. 5–56.
+Kiparsky, Paul (1982 [1971]). Historical linguistics. Explanation in phonology. Dordrecht: Foris. 57–
+      80.
+Kisseberth, Charles (1970). On the functional unity of phonological rules. LI 1. 291–306.
+      [https://www.jstor.org/stable/4177568]
+Kwon, Harim (2017). Language experience, speech perception and loanword adaptation: variable
+      adaptation of English word–final plosives into Korean. JPh 60. 1–19.
+      [https://doi.org/10.1016/j.wocn.2016.10.001]
+Laidler, Kateryna (2023). The interaction of orthography, perception, and phonology in the
+      adaptation of E /ɜː/ in loanwords into Russian. Przegląd Rusycystyczny 181. 180–206.
+Leben, William R. (1980). A metrical analysis of length. LI 11(3). 497–509.
+      [https://www.ceeol.com/search/article-detail?id=1172262]
+Legendre, Géraldine, Yoshiro Miyata & Paul Smolensky (1990). Can connectionism contribute to
+      syntax?: Harmonic Grammar, with an application. Report CU-CS-485-90. Computer Science
+      Department, University of Colorado at Boulder.
+Lev-Ari, Shiri & Sharon Peperkamp (2014). An experimental study of the role of social factors in
+      language change: the case of loanword adaptations. Laboratory Phonology 5(3). 379–401.
+      [https://doi.org/10.1515/lp-2014-0013]
+Lev‐Ari, Shiri, Marcela San Giacomo & Sharon Peperkamp (2014). The effect of domain prestige and
+      interlocutors’ bilingualism on loanword adaptations. Journal of Sociolinguistics 18(5). 658–
+      684. [https://doi.org/10.1111/josl.12102]
+Louriz, Nabila (2015). Loanword adaptation: phonetics or phonology?. Association Internationale de
+      Dialectologie Arabe 2008. 47–64.
+Lovins, Julie Beth (1973). Loanwords and the phonological structure of Japanese. PhD dissertation,
+      The University of Chicago.
+Massaro, Dominic W. & Michael M. Cohen (1983). Phonological context in speech perception.
+      Perception & Psychophysics 34(4). 338–348. [https://doi.org/10.3758/BF03203046]
+
+
+
+
+                                                  29
+Mathieu, Lionel (2012). Orthographic traces in Romanian and Japanese loanwords: enriching
+      phonological representations. Journal of Language Contact 5(1). 144–181.
+      [https://doi.org/10.1163/187740912X624450]
+Mattingley, Wakayo, Elizabeth Hume & Kathleen Currie Hall (2015). The influence of preceding
+      consonant on perceptual epenthesis in Japanese. Proceedings of the International Congress of
+      Phonetic Sciences 18. 888:1–5. [https://www.internationalphoneticassociation.org/icphs-
+      proceedings/ICPhS2015/Papers/ICPHS0888.pdf]
+McCarthy, John J. & Alan Prince (1994). The emergence of the unmarked: optimality in Prosodic
+      Morphology. NELS 24. 333–379.
+McCarthy, John & Alan Prince (1999). Faithfulness and identity in Prosodic Morphology. In René
+      Kager, Harry van der Hulst & Wim Zonneveld (eds.) The prosody-morphology interface.
+      Cambridge: Cambridge University Press. 218–309.
+Michel, Jean-Baptiste, Yuan Kui Shen, Aviva Presser Aiden, Adrian Veres, Matthew K. Gray, William
+      Brockman, The Google Books Team, Joseph P. Pickett, Dale Hoiberg, Dan Clancy, Peter Norvig,
+      Jon Orwant, Steven Pinker, Martin A. Nowak & Erez Lieberman Aiden (2011). Quantitative
+      analysis of culture using millions of digitized books. Science 331(6014). 176–182.
+      [https://doi.org/10.1126/science.1199644]
+Morita, Takashi & Timothy J. O’Donnell (2022). Statistical evidence for learnable lexical subclasses in
+      Japanese. LI 53(1). 87–120. [https://doi.org/10.1162/ling_a_00401]
+Natvig, David (2017). A model of underspecified recognition for phonological integration: English
+      loan vowels in American Norwegian. Journal of Language Contact 10(1). 22–55.
+      [https://doi.org/10.1163/19552629-01001003]
+Nomura, Jun & Keiichi Ishikawa (2018). Effects of first language processes and representations on
+      second language perception: the case of vowel epenthesis by Japanese speakers. International
+      Journal of Bilingualism 22(1). 69–87. [https://doi.org/10.1177/1367006916654997]
+Oh, Mira (2012). Adaptation of English complex words into Korean. Journal of East Asian Linguistics
+      21. 267–304. [https://doi.org/10.1007/s10831-012-9089-4]
+Paradis, Carole (1995). Native and loanword phonology as one: constraints vs. rules. Proceedings of
+      the International Congress of Phonetic Sciences 13(3). 74–81. [https://www.coli.uni-
+      saarland.de/groups/BM/phonetics/icphs/ICPhS1995/13_ICPhS_1995_Vol_3/p13.3_074.pdf]
+Paradis, Carole & Darlene LaCharité (1997). Preservation and minimality in loanword adaptation. JL
+      33(2). 379–430. [https://doi.org/10.1017/S0022226797006786]
+
+
+                                                  30
+Paradis, Carole & Darlene LaCharité (2011). Loanword adaptation: from lessons learned to findings.
+      In John Goldsmith, Jason Riggle & Alan C. L. Yu (eds.), The handbook of phonological theory,
+      2nd edition. Malden, MA: Wiley-Blackwell. 751–778.
+Paradis, Carole & Darlene LaCharité (2012). The influence of attitude on the treatment of
+      interdentals in loanwords: ill-performed importations. Catalan Journal of Linguistics 11. 97–
+      126. [https://revistes.uab.cat/catJL/article/view/v11-paradis-laCharite%CC%81]
+Peperkamp, Sharon & Emmanuel Dupoux (2003). Reinterpreting loanword adaptations: the role of
+      perception. Proceedings of the International Congress of Phonetic Sciences 15. 367–370.
+      [https://www.internationalphoneticassociation.org/icphs-proceedings/ICPhS2003/papers/
+      p15_0367.pdf]
+Peperkamp, Sharon (2015). Phonology versus phonetics in loanword adaptations. In Joaquín
+      Romero and María Riera (eds.) The phonetics-phonology interface: representations and
+      methodologies. Amsterdam: John Benjamins. 71–90.
+Phetkla, Chanuwan (2020). Vowel adaptation in English loanwords in Thai. PhD dissertation,
+      Newcastle University.
+Pinta, Justin (2013). Lexical strata in loanword phonology: Spanish loans in Guarani. MA thesis,
+      University of North Carolina at Chapel Hill.
+Pons-Moll, Clà udia & Francesc Torres-Tamarit (2021). Catalan nativization patterns in the light of
+      weighted scalar constraints. In Sergio Baauw, Frank Drijkoningen & Luisa Meroni (eds.)
+      Romance languages and linguistic theory 2018. Amsterdam: John Benjamins. 205–224.
+Poplack, Shana. (2018). Borrowing: loanwords in the speech community and in the grammar. Oxford:
+      Oxford University Press.
+Prince, Alan & Paul Smolensky (2004 [1993]). Optimality Theory: constraint interaction in generative
+      grammar. Malden, MA: Wiley-Blackwell.
+Radomski, Marek (2019). Segmental adaptation of Polish voiceless affricates in CC consonant
+      clusters by native speakers of English. Linguistica Silesiana 40. 121–137.
+      [https://doi.org/10.24425/linsi.2019.129405]
+Ravindranath, Maya (2015). Sociolinguistic variation and language contact. Language and Linguistics
+      Compass 9(6). 243–255. [https://doi.org/10.1111/lnc3.12137]
+Rice, Curt (2006). Norwegian stress and quantity: the implications of loanwords. Lingua 116(7).
+      1171-1194. [https://doi.org/10.1016/j.lingua.2005.05.008]
+
+
+
+
+                                                     31
+Ryu, Na-Young, Yoonjung Kang & Sungwoo Han (2020). The effects of phonetic duration on loanword
+      adaptation: Mandarin falling diphthong in Chinese Korean. Language Research 56(2). 225–
+      261. [https://doi.org/10.30961/lr.2020.56.2.225]
+Sa'aida, Zainab Ahmad Mahmoud (2015). Aspects of the phonology of English loanwords in Jordanian
+      urban Arabic: a distinctive feature, moraic, and metrical stress analysis. PhD dissertation,
+      University of Leeds.
+Saciuk, Bohdan. 1969. The stratal division of the lexicon. Papers in Linguistics 1. 464–532.
+      [https://doi.org/10.1080/08351816909389128]
+Sano, Shin-ichiro (2012). Patterns in the avoidance of marked segmental configurations in Japanese
+      loanword phonology. Proceedings of GLOW in Asia 9. 245–260.
+Shafi, Sehrish (2017). A phonological analysis of English loanwords in Mirpur Pahari: exploring
+      variable adaptation in Optimality Theory. PhD dissertation, University of York.
+Shinohara, Shigeko (2004). Emergence of universal grammar in foreign word adaptation. In René
+      Kager, Joe Pater & Wim Zonneveld (eds.) Constraints in phonological acquisition. Cambridge:
+      Cambridge University Press. 292–320.
+Shinohara, Shigeko, Seong-Rim Ji, Tomohiko Ooigawa & Takahito Shinya (2011). The limited role of
+      perception in Korean loanword adaptation: the Korean three-way laryngeal categorization of
+      Japanese, French, English and Chinese plosives. Lingua 121(9). 1461–1484.
+      [https://doi.org/10.1016/j.lingua.2011.04.001]
+Silverman, Daniel (1992). Multiple scansions in loanword phonology: evidence from Cantonese.
+      Phonology 9(2). 289–328. [https://www.jstor.org/stable/4420058]
+Simonović, Marko (2015). Lexicon immigration service: prolegomena to a theory of loanword
+      integration. PhD dissertation, Utrecht University.
+Skousen, Royal (1972). On capturing regularities. CLS 8. 567–578.
+Smith, Jennifer L. (2006). Loan phonology is not all perception: evidence from Japanese loan
+      doublets. Japanese/Korean Linguistics 14. 63–74.
+Smith, Jennifer L. (2009). Source similarity in loanword adaptation: Correspondence Theory and the
+      posited source-language representation. In Steve Parker (ed.) Phonological argumentation:
+      essays on evidence and motivation. London: Equinox. 155–177.
+Smith, Jennifer L. (2018). Stratified faithfulness in Harmonic Grammar and emergent core-periphery
+      structure. In Ryan Bennett, Andrew Angeles, Adrian Brasoveanu, Dhyana Buckley, Nick
+
+
+
+
+                                                   32
+      Kalivoda, Shigeto Kawahara, Grant McGuire & Jaye Padgett (eds.) Hana-bana: a festschrift for
+      Junko Ito and Armin Mester. 13:1–22. [https://itomestercelebration.sites.ucsc.edu/]
+Smith, Jennifer L. & Yuka Tashiro (2019). Nonce-loan judgments and impossible-nativization effects
+      in Japanese. Proceedings of the Linguistic Society of America 4(1). 26:1–14.
+      [https://doi.org/10.3765/plsa.v4i1.4531]
+Smolensky, Paul (1996). The initial state and ‘richness of the base’ in Optimality Theory. Technical
+      Report JHU-CogSci-96-4. Baltimore: The Johns Hopkins University. Available as ROA-154 from
+      the Rutgers Optimality Archive. [http://roa.rutgers.edu/article/view/165]
+Song, Jiyeon (2022). Illusory vowels and the North Kyungsang Korean vowel merger in English
+      loanword adaptation into Korean. PhD dissertation, University of South Carolina.
+Stampe, David (1973). On chapter nine. In Michael Kenstowicz & Charles Kisseberth (eds.) Issues in
+      phonological theory. The Hague: Mouton. 44–52.
+Steriade, Donca (2000). Lexical conservatism and the notion base of affixation. Ms, University of
+      California, Los Angeles. Available (August 2024) at
+      https://www.researchgate.net/profile/Donca-Steriade/publication/248721860_Lexical_cons
+      ervatism_and_the_Notion_Base_of_Affixation/links/54e7b3560cf27a6de10ad1b3/Lexical-
+      conservatism-and-the-Notion-Base-of-Affixation.pdf.
+Stoltzfus, Daniel Paul (2014). Predictions on markedness and feature resilience in loanword
+      adaptation. PhD dissertation, Université Laval.
+Stanley, Richard S. (1967). Redundancy rules in phonology. Lg 43. 393–436.
+      [https://doi.org/10.2307/411542]
+Szpyra-Kozłowska, Jolanta (2016). Perception? Orthography? Phonology? Conflicting forces behind
+      the adaptation of English /ɪ/ in loanwords into Polish. Poznań Studies in Contemporary
+      Linguistics 52(1). 119–147. [https://doi.org/10.1515/psicl-2016-0001]
+Thomason, Sarah Grey & Terrence Kaufman (1988). Language contact, creolization, and genetic
+      linguistics. Berkeley: University of California Press.
+Traoré, Yranahan & Caroline Féry (2019). Syllable structure and loanword adaptation in Frò ʔò .
+      African linguistics across the disciplines: selected papers from the Annual Conference on African
+      Linguistics 48. 1–28.
+      [https://library.oapen.org/bitstream/handle/20.500.12657/23428/1006722.pdf?
+      sequence=1#page=7]
+
+
+
+
+                                                    33
+Uffmann, Christian (2006). Epenthetic vowel quality in loanwords: empirical and formal issues.
+      Lingua 116(7). 1079–1111. [https://doi.org/10.1016/j.lingua.2005.06.009]
+Uffmann, Christian (2013). Loanword adaptation. In Patrick Honeybone & Joseph Salmons (eds) The
+      Oxford Handbook of Historical Phonology. Oxford: Oxford University Press. 644–666.
+Van Coetsem, Frans (1988). Loan phonology and the two transfer types in language contact. Berlin:
+      De Gruyter.
+Van Coetsem, Frans (2000). A general and unified theory of the transmission process in language
+      contact. Heidelberg: Winter.
+Vendelin, Inga & Sharon Peperkamp (2006). The influence of orthography on loanword adaptations.
+      Lingua 116(7). 996–1007. [https://doi.org/10.1016/j.lingua.2005.07.005]
+Wang, Wei (2023). L2 proficiency level influences loanword adaptation: variable adaptation of
+      English co-occurrence of low vowel and nasal into Mandarin. Sage Open 13(4).
+      21582440231202297. [https://doi.org/10.1177/21582440231202297]
+Weinreich, Uriel (1968). Languages in contact: findings and problems. The Hague: Mouton.
+Yeung, Alex Hong–Lun (2020). Revisiting phonotactic repairs in Cantonese loanword phonology: it’s
+      all about sC. Journal of East Asian Linguistics 29. 279–309. [https://doi.org/10.1007/s10831-
+      020-09212-w]
+Yip, Moira (1993). Cantonese loanword phonology and Optimality Theory. Journal of East Asian
+      Linguistics 2(3). 261–291. [https://doi.org/10.1007/BF01739135]
+Yun, Suyeon (2019). English Loanword Adaptation in Telugu. Studies in Linguistics 53. 75–94.
+      [https://doi.org/10.17002/sil..53.201910.75]
+Zuraw, Kie, Kathleen Chase O’Flynn & Kaeli Ward (2019). Non–native contrasts in Tongan loans.
+      Phonology 36(1). 127–170. [https://doi.org/10.1017/S095267571900006X]
+Zwicky, Arnold (1975). The strategy of generative phonology. In Wolfgang U. Dressler & F. V. Mareš
+      (eds) Phonologica 1972. Munich: Wilhelm Fink Verlag. 151–165.
+
+
+
+
+                                                 34
+

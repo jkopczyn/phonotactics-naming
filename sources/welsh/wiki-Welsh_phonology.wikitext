@@ -1,0 +1,380 @@
+{{Short description|Sounds and pronunciation of the Welsh language}}
+{{use dmy dates|date=June 2024}}
+{{self-reference|For assistance with IPA transcriptions of Welsh for Wikipedia articles, see [[Help:IPA/Welsh]].}}
+{{IPA notice}}
+The [[phonology]] of [[Welsh language|Welsh]] is characterised by a number of sounds that do not occur in [[English language|English]] and are rare in [[Languages of Europe|European languages]], such as the [[Voiceless dental and alveolar lateral fricatives|voiceless alveolar lateral fricative]] {{IPA|[ɬ]}} and several [[Sonorant#Voiceless|voiceless sonorants]] ([[nasal consonant|nasals]] and [[liquid consonant|liquids]]). Welsh has a [[Stress (linguistics)|stress]] accent, which usually falls on the [[Penult|penultimate syllable]] in polysyllabic words.
+
+A notable characteristic of Welsh is the three kinds of consonant mutations (soft, nasal, and aspirate) which affect the beginnings of words and which are also found internally within compound words. Welsh also has vowel mutations, usually occurring when a word is extended by a suffix (including certain suffixes which were formerly pronounced but are now lost).
+
+==Consonants==
+Welsh has the following [[consonant]] [[phoneme]]s:{{sfnp|Ball|1984|pp=5–39}}{{sfnp|King|1996|pp=3–15}}{{sfnp|Jones|1913|pp=9–188}}{{sfnp|Williams|1980|pp=1–5}}{{sfnp|Hannahs|2013|pp=21–22}}{{sfnp|Liu|2018|p=5}}
+
+{| class="wikitable" style="text-align: center"
+!
+! colspan="2" |[[Labial consonant|Labial]]
+! colspan="2" |[[Interdental consonant|Dental]]
+! colspan="2" |[[Alveolar consonant|Alveolar]]
+! colspan="2" |[[Postalveolar consonant|Post-<br />alveolar]]
+! colspan="2" |[[Palatal consonant|Palatal]]
+! colspan="2" |[[Dorsal consonant|Dorsal]]
+! colspan="2" |[[Glottal consonant|Glottal]]
+|-
+![[Nasal consonant|Nasal]]
+| style="border-right: 0;" |{{IPA link|m̥}}
+| style="border-left: 0;" |{{IPA link|m}}
+| colspan="2" |
+| style="border-right: 0;" |{{IPA link|n̥}}
+| style="border-left: 0;" |{{IPA link|n}}
+| colspan="2" |
+| colspan="2" |
+| style="border-right: 0;" |{{IPA link|ŋ̊}}
+| style="border-left: 0;" |{{IPA link|ŋ}}
+| colspan="2" |
+|-
+![[Stop consonant|Stop]]
+| style="border-right: 0;" |{{IPA link|p}}
+| style="border-left: 0;" |{{IPA link|b}}
+| colspan="2" |
+| style="border-right: 0;" |{{IPA link|t}}
+| style="border-left: 0;" |{{IPA link|d}}
+| style="border-right: 0;" |({{IPA link|tʃ}})
+| style="border-left: 0;" |({{IPA link|dʒ}})
+| colspan="2" |
+| style="border-right: 0;" |{{IPA link|k}}
+| style="border-left: 0;" |{{IPA link|ɡ}}
+| colspan="2" |
+|-
+![[Fricative consonant|Fricative]]
+| style="border-right: 0;" |{{IPA link|f}}
+| style="border-left: 0;" |{{IPA link|v}}
+| style="border-right: 0;" |{{IPA link|θ}}
+| style="border-left: 0;" |{{IPA link|ð}}
+| style="border-right: 0;" |{{IPA link|s}}
+| style="border-left: 0;" |({{IPA link|z}})
+| style="border-right: 0;" |{{IPA link|ʃ}}
+| style="border-left: 0;" |
+| colspan="2" |
+| style="border-right: 0;" |{{IPA link|χ}}
+| style="border-left: 0;" |
+| style="border-right: 0;" |
+| style="border-left: 0;" |{{IPA link|h}}
+|-
+![[Trill consonant|Trill]]
+| colspan="2" |
+| colspan="2" |
+| style="border-right: 0;" | {{IPA link|r̥}}
+| style="border-left: 0;" |{{IPA link|r}}
+| colspan="2" |
+| colspan="2" |
+| colspan="2" |
+| colspan="2" |
+|-
+![[Approximant consonant|Approximant]]
+| colspan="2" |
+| colspan="2" |
+| colspan="2" |
+| style="border-right: 0;" |
+| style="border-left: 0;" |
+| style="border-right: 0;" |
+| style="border-left: 0;" |{{IPA link|j}}
+| style="border-right: 0;" |({{IPA link|ʍ}})
+| style="border-left: 0;" |{{IPA link|w}}
+| colspan="2" |
+|-
+![[Lateral consonant|Lateral]]
+| colspan="2" |
+| colspan="2" |
+| style="border-right: 0;" |{{IPA link|ɬ}}
+| style="border-left: 0;" |{{IPA link|l}}
+| colspan="2" |
+| colspan="2" |
+| colspan="2" |
+| colspan="2" |
+|}
+
+Symbols in parentheses are either [[allophone]]s, or found only in [[loanword]]s. The sound {{IPA|/z/}} generally occurs in loanwords, e.g. ''sŵ'' {{IPA|/zuː/}} ('zoo'), although this is usually realised as {{IPA|/s/}} in [[Welsh language#Dialects|northern accents]], e.g. {{IPA|/suː/}}.  The postalveolar affricates {{IPA|/tʃ/}} and {{IPA|/dʒ/}} occur mainly in loanwords, e.g. {{lang|cy|tsips}} {{IPA|/tʃɪps/}} ('chips')  and {{lang|cy|jeli}} {{IPA|/ˈdʒɛli/}} ('[[gelatin dessert|jelly]]'), but also in some dialects as developments from {{IPA|/tj/}} and {{IPA|/dj/}}, e.g. {{IPA|/dʒaul/}} from {{lang|cy|diafol}} {{IPA|/ˈdjavɔl/}} ('devil'). The [[Nasal consonant#Voiceless nasals|voiceless nasals]] {{IPA|/m̥ n̥ ŋ̊/}} occur mostly word-initially, as a consequence of [[Welsh morphology#Nasal mutation|nasal mutation]]. These nasals have recently been interpreted as sequences of {{IPA|/m n ŋ/}} + {{IPA|/h/}} and are often pronounced as such.{{sfnp|Hammond|2019|}}{{sfnp|Bell et al.|2023|p=7}} Initial {{IPA|/χw/}} is colloquially realised as {{IPA|[ʍ]}} in the south, e.g. {{lang|cy|chwech}} {{IPA|/χweːχ/}} ('six') pronounced {{IPA|[ʍeːχ]}}.
+
+===Fortis and lenis===
+Some linguists argue that Welsh consonants are better described in terms of [[fortis and lenis]] rather than [[voice (phonetics)|voiced]] and [[voicelessness|unvoiced]]. According to these scholars, not only {{IPA|/p/}}~{{IPA|/b/}} and {{IPA|/t/}}~{{IPA|/d/}} but possibly also {{IPA|/s/}}~{{IPA|/h/}} and {{IPA|/m/}}~{{IPA|/v/}} can be described as fortis–lenis pairs.{{sfnp|Asmus|Jaworski|Baran|2020|pp=5-16}} The fortis consonants {{IPA|/f θ χ p t k ɬ/}} and {{IPA|/s/}}, when they end a monosyllable such as {{lang|cy|map}} 'map' or {{lang|cy|bach}} 'little' or {{lang|cy|hyll}} 'ugly', tend to have a longer duration than the other consonants. Voiceless {{IPA|/r̥/}} does not occur at the end of a word, but is considered to belong to the fortis group. {{IPA|/h/}} despite being partially unvoiced is considered lenis.
+
+===Stops===
+
+The stops {{IPA|/p t k/}} are distinguished from {{IPA|/b d ɡ/}} by means of [[aspiration (phonetics)|aspiration]] more consistently than by [[voicing (phonetics)|voicing]], as {{IPA|/b d ɡ/}} are actually devoiced in some contexts. This devoiced nature is recognised in the spelling of {{IPA|/sp sk/}} as {{angbr|sb sg}}, although {{IPA|/st/}} is [[Orthography|orthographically]] {{angbr|st}} for historical reasons.  In words where {{IPA|/p t k/}} are preceded by a vowel, phonetic studies have shown that at least in some dialects of North and West Wales these consonants are not only followed by aspiration, but also preceded by a period of aspiration. The aspiration before the consonant is shorter than the aspiration that follows it.{{sfnp|Morris|Hejná|2020}}
+
+A study of mainly North Welsh speakers showed that the fortis plosives {{IPA|/p t k/}} are about twice as long as the lenis {{IPA|/b d ɡ/}}, whether in word-initial or in word-final position.{{sfnp|Baran|2020|p=55}} 
+
+When {{IPA|/k/}} and {{IPA|/ɡ/}} are followed by {{IPA|/i(ː)/}} or {{IPA|/e(ː)/}}, as in {{lang|cy|ci}} 'dog' or {{lang|cy|ceg}} 'mouth' they are slightly [[Palatalization (phonetics)|palatalised]]. In some dialects (such as that of [[Bangor, Gwynedd|Bangor]] district) a palatalised {{IPA|[kʲ]}} and {{IPA|[ɡʲ]}} can also be heard before {{IPA|/a(:)/}}, but only in certain loanwords borrowed from English{{sfnp|Fynes-Clinton|1913|p=xxiv}}{{sfnp|Czerniak|2015b|pp=141–2}} The palatalisation is sometimes reflected in spelling, e.g. {{lang|cy|giât}} or {{lang|cy|gât}} 'gate'.<ref>Both spellings are given by the dictionary [https://geiriadur.ac.uk/gpc/gpc.html Geiriadur Prifysgol Cymru].</ref>
+
+===Fricatives===
+The fortis fricatives {{IPA|/f, s, θ/}} are slightly longer and have less voicing than the lenis fricatives {{IPA|/v, h, ð/}}. The fricative {{IPA|/h/}} was shown in a phonetic study to have more voicing than {{IPA|/s/}} but less than {{IPA|/v/}}.{{sfnp|Baran|2020|p=57}} {{IPA|/h/}} is usually found only word-initially or at the beginning of a stressed syllable; after a stress it generally disappears, e.g. {{lang|cy|brenhínes}} 'queen' but {{lang|cy|brénin}} 'king'. Consequently {{IPA|/h/}} is not found finally in any word. In parts of south-east Wales, {{IPA|/h/}} disappears in all positions, and in these same dialects {{IPA|/r̥/}} is replaced by {{IPA|/r/}}.{{sfnp|Awbery|2009|p=369}}
+
+The fricatives {{IPA|/v ð/}} are sometimes not pronounced at the end of a word, e.g. {{lang|cy|nesaf}} {{IPA|/nɛsav/}} ('next') realised as {{IPA|/ˈnɛsa/}} or {{lang|cy|i fyny}} {{IPA|/iː ˈvənɨ/}} ('up') from {{lang|cy|mynydd}} {{IPA|/'mənɨð, 'mənɪð/}} ('mountain'). 
+
+The phoneme {{IPA|/ʃ/}} occurs for all speakers in certain words, almost all borrowings (e.g., {{lang|cy|siarad}} 'talk', {{lang|cy|sisial}} 'whisper', {{lang|cy|siop}} 'shop', {{lang|cy|siampŵ}} 'shampoo'). Otherwise its distribution varies regionally. In northern accents, it can occur when {{IPA|/s/}} precedes {{IPA|/iː j/}}, even (depending on region) across some word boundaries, e.g., {{lang|cy|es i}} {{IPA|[ˈeːʃ i]}} ('I went'). In some [[Welsh language#Dialects|southern accents]] it is produced when {{IPA|/s/}} follows {{IPA|/ɪ/}} or {{IPA|/iː/}}, e.g. {{lang|cy|mis}} {{IPA|[miːʃ]}} ('month'). 
+
+The voiceless fricative {{IPA|/χ/}} is realised as uvular except by some southwestern speakers, who produce a velar variant {{IPA|[x]}}.
+
+===Other consonants===
+
+The {{IPA|/r/}} phoneme is pronounced as the [[voiced uvular fricative]] {{IPA|[ʁ]}} by some speakers in [[Dyfed]] and [[Gwynedd]], in a pronunciation known as {{lang|cy|tafod tew}} ('thick tongue').{{sfnp|Wells|1982|p=390}}
+
+In some dialects of north-western Welsh, the {{IPA|/l/}} phoneme is consistently [[dental, alveolar and postalveolar lateral approximants#Dark L|velarised]] or "dark" ({{IPA|[ɫ]}}, not to be confused with {{IPA|[ɬ]}}) in all positions, but remains unvelarised or "clear" ({{IPA|[l]}}) in the south,{{sfnp|Bell et al.|2023|p=494}} except in rare exceptions where {{IPA|[ɫ]}} is found after {{IPA|/d/}}, e.g. {{lang|cy|dlos}} {{IPA|[dɫoːs]}} 'pretty'.
+
+In some words such as {{lang|cy|gwlad}} 'country', {{lang|cy|gwlân}} 'wool', {{lang|cy|gwneud}} '(to) do', {{lang|cy|gwraig}} and their mutated forms {{lang|cy|wlad}}, {{lang|cy|wlân}}, {{lang|cy|wneud}}, {{lang|cy|wraig}}, the letter {{angbr|w}} is not sounded as a vowel but is a consonant, realised by a rounding of the lips accompanying the {{IPA|/ɡ/}} or {{IPA|/l, n, r/}}.{{sfnp|Fynes-Clinton|1913|p=xxiv}} These words are considered to be of one syllable only.{{sfnp|Griffiths|Jones|1995|at=Consonant}} As is usual with words beginning with a consonant, the definite article has the form {{lang|cy|y}}, for example {{lang|cy|y wraig}} 'the woman'.
+
+The voiceless sounds {{IPA|/m̥, n̥, ŋ̊, r̥/}} are generally "followed by a full, distinctly enunciated {{IPA|/h/}}".{{sfnp|Fynes-Clinton|1913|p=xxiv}} Thus {{lang|cy|fy mhen}} 'my head' and {{lang|cy|yng Nghaerdydd}} 'in Cardiff' are pronounced as {{IPA|[ɘ ˈm̥hɛn, ɘŋ ŋ̊haɨ̯rˈdɨːð]}}. Phrases like {{lang|cy|fy mhres}} 'my money' and {{lang|cy|fy nghrys}} 'my shirt', which are spelled with ''hr'', are pronounced with the {{IPA|/h/}} following the {{IPA|/r/}}: {{IPA|[ɘ ˈm̥r̥heːs, ɘ ˈŋ̊r̥hɨːs]}}.{{sfnp|Fynes-Clinton|1913|p=xxiv}}
+
+When a word traditionally ends with a stop or fricative + {{IPA|/l/}} or {{IPA|/r/}}, for example {{lang|cy|pobl}} 'people' or {{lang|cy|ffenestr}} 'window', there is a tendency to adapt it in spoken Welsh to remove the cluster.{{sfnp|Hannahs|2013|pp=88–93}} In some cases an [[epenthesis|epenthetic]] vowel, repeating the existing vowel, is added to make a two-syllable word: {{lang|cy|pobl}} > {{IPA|[ˈpɔbɔl]}}, {{lang|cy|cancr}} 'cancer' > {{IPA|[ˈkankar]}}, {{lang|cy|brwydr}} 'battle' > {{IPA|[ˈbruɨdɨr]}}. If this strategy would result in an antepenultimate accent, the {{IPA|/l/}} or {{IPA|/r/}} may simply be deleted: {{lang|cy|ffenestr}} 'window' > {{IPA|[ˈfɛnɛst]}}, {{lang|cy|posibl}} 'possible' > {{IPA|['pɔsib]}}. Occasionally, with {{IPA|/θr/}}, there may be [[metathesis (linguistics)|metathesis]]: {{lang|cy|ewythr}} 'uncle' > {{IPA|[ˈewɨrθ]}}. Words like {{lang|cy|marw}} {{IPA|[ˈmarʊ]}} 'dead', {{lang|cy|chwerw}} {{IPA|[ˈχwerʊ]}} 'bitter', {{lang|cy|hoyw}} {{IPA|[ˈhɔjʊ]}} 'gay', which were formerly monosyllabic, are pronounced in modern Welsh with two syllables and the consonant {{IPA|[w]}} is vocalised as the vowel {{IPA|[ʊ]}}; but in {{lang|cy|marwdy}} 'mortuary' and {{lang|cy|chwerwder}} 'bitterness' the {{IPA|[w]}} is usually silent.{{sfnp|Morris-Jones|1921|pp=17–8}} When a word like {{lang|cy|pelydr}} 'ray of light' or {{lang|cy|anadl}} 'breath' is pronounced colloquially with three syllables, the accent remains unchanged on the first syllable.
+
+===Geminated consonants===
+Certain consonants in Welsh can be pronounced lengthened or [[gemination|geminated]], even though this is not reflected in the spelling. This gemination only occurs after a strongly stressed vowel: thus the {{IPA|/t/}} is long in {{lang|cy|áteb}} {{IPA|[ˈatːʰɛb]}} 'answer' but short in {{lang|cy|atébion}} {{IPA|[aˈtʰɛbjɔn]}} 'answers', where the preceding vowel is unstressed.{{sfnp|Hannahs|2013|p=21}} In many cases, geminated consonants are derived historically from a merging of two separate consonants.
+
+According to Morris-Jones (1921), the consonants {{IPA|/p, t, k, s, ɬ, m, ŋ/}} are double, and shorten the preceding vowel; he adds that {{IPA|/n/}} and {{IPA|/r/}} are also double in some words where they are written with {{angbr|nn}} and {{angbr|rr}}, and in a few words {{IPA|/l/|}} is double (although not shown in spelling).{{sfnp|Morris-Jones|1921|pp=27}} To these consonants Fynes-Clinton (1913) adds {{IPA|/f, θ, χ/}}. However, in modern Welsh, not only these consonants but also other consonants such as {{IPA|/b, d, ɡ/}} are also sometimes pronounced lengthened after a stressed vowel. The distinction between long and short {{IPA|/n, r, l/}} mentioned by Morris-Jones appears to be generally no longer made, so that {{lang|cy|tonnau}} 'waves' and {{lang|cy|tonau}} 'tones' are usually pronounced identically, except for the half-long vowel of the latter in southern dialects.{{sfnp|Williams|1983|pp=56}} 
+
+In her thesis on the perception of stress, Williams notes that if the words {{lang|cy|ymladd}} {{IPA|/ˈəmlað/}} 'to fight' and {{lang|cy|ymlâdd}} {{IPA|/əmˈlaːð/}} 'to tire oneself out' are compared, the length of the {{IPA|/m/}} in the former, following a stressed vowel, is longer than the {{IPA|/m/}} in the latter, where it follows an unstressed vowel.{{sfnp|Williams|1983|pp=53}}
+
+The shortening of a double consonant to a single one after an unstressed vowel can be heard even when the consonants are in different words. Thus {{lang|cy|Port Talbot}} 'Port Talbot' is pronounced {{IPA|[pɔrˈtalbɔt]}}, and {{lang|cy|iechyd da}} 'good health!' is pronounced {{IPA|[jaχɪˈdaː]}}. In phrases with nasal mutation of a voiced plosive, like {{lang|cy|ym Mangor}} 'in Bangor', the {{IPA|/m/}} can be pronounced either single or double: {{IPA|[ǝm(m)áŋgɔr]}}.{{sfnp|Hammond|2019|pp=38}}
+
+This lengthening is found not only in Welsh but also in the English of speakers with a Welsh accent, especially of bilingual speakers.{{sfnp|Collée|2016|pp=13–19, 21}} According to J.C. Wells (1982), the phenomenon is most obvious in voiceless consonants such as {{IPA|/p, t, θ, s/}} in words such as ''chapel'', ''matter'', ''nothing'', ''missing'', but can also sometimes be heard in words such as ''ready'', ''ever'' with {{IPA|/d, v/}} following a stressed penultimate. However, the phenomenon seems not to occur in some parts of South Wales such as Gwent and Cardiff.{{sfnp|Wells|1982|pp=387–8}}
+
+===Consonant mutations===
+{{further|Literary Welsh morphology#Initial consonant mutation}}
+An important feature of Welsh (as of other [[Celtic languages]]) is the system of consonant mutations, in which certain consonants are replaced by other consonants in certain contexts. These mutations are found both at the beginning of words, and internally in compound words. Three different types of mutation are recognised: the soft mutation; the nasal mutation; and the aspirate mutation. For example, {{lang|cy|tad}} {{IPA|/taːd/}} 'father' (the radical form); {{lang|cy|ei dad}} {{IPA|/i daːd/}} 'his father' (soft mutation); {{lang|cy|(fy) nhad}} {{IPA|/və n̥aːd/}} 'my father' (nasal mutation); {{lang|cy|ei thad}} {{IPA|/i θaːd/}} 'her father' (aspirate mutation).{{sfnp|King|2003|pp=13–19}}
+
+Some mutations have a grammatical function (for example, distinguishing masculine from feminine, or subject from object, or noun from adverb). Other mutations occur automatically, for example after words such as {{lang|cy|o}} 'from' (followed by a soft mutation), {{lang|cy|yn}} 'in' (followed by a nasal mutation) or {{lang|cy|a}} 'and' (followed by an aspirate mutation), or when a noun is preceded by an adjective or prefix, e.g. {{lang|cy|hen ddyn}} {{IPA|/heːn ðɨːn/}} 'old man' (soft mutation). The presence of the definite article blocks a mutation caused by a preceding word, e.g. {{lang|cy|o ddrws}} {{IPA|/ɔ ðruːs/}} 'from a door' (soft mutation), but {{lang|cy|o'r drws}} {{IPA|/ɔr druːs/}} 'from the door' (no mutation).{{sfnp|King|2003|pp=13–19}} The changes which occur in the soft mutation derive historically from [[lenition]] of consonants following a vowel. However, in many cases the vowel which caused the lenition is no longer pronounced, so in modern Welsh the soft mutation exists independently, occurring for example after the article {{lang|cy|y}} 'the' in a feminine singular noun, but not in a masculine one.
+
+* In the soft mutation, which is the most common, {{IPA|/p, t, k, b, d, ɡ, m, r̥, ɬ/}} mutate to {{IPA|/b, d, ɡ, v, ð, ∅, v, r, l/}}. In colloquial Welsh, {{IPA|/tʃ/}} can mutate to {{IPA|/dʒ/}}. In certain circumstances, for example when a feminine singular noun follows the definite article, the other seven consonants mutate, but {{IPA|/ɬ/}} and {{IPA|/r̥/}} do not mutate; this is called limited soft mutation. The soft mutation of {{IPA|/ɡ/}} is silent in most words, but in some borrowings from English, such as {{lang|cy|gêm}} {{IPA|/ɡeːm/}} 'game', {{IPA|/ɡ/}} does not mutate.
+
+* In the nasal mutation, {{IPA|/p, t, k, b, d, ɡ/}} mutate into {{IPA|/m̥, n̥, ŋ̊, m, n, ŋ/}}. In colloquial Welsh, {{IPA|/m/}} and {{IPA|/n/}} can sometimes mutate to {{IPA|/m̥/}} and {{IPA|/n̥/}}. Other consonants are unaffected.
+
+* In the aspirate mutation, {{IPA|/p, t, k/}} mutate to {{IPA|/f, θ, χ/}}. Other consonants are unaffected, or in some circumstances may undergo the soft mutation.
+
+* The fricative consonants {{IPA|/f, h, s, ʃ, χ, v, θ, ð/}} and the approximants {{IPA|/w, j/}} never mutate.
+
+A contrary process called [[provection]], whereby {{IPA|/b, d, ɡ, v, ð/}} are hardened to {{IPA|/p, t, k, f, θ/}}, also exists in Welsh. One circumstance where this occurs is when a word has been extended by a suffix which historically began with {{IPA|/h/}}: the {{IPA|/h/}} disappears in post-stress position, hardening and doubling the consonant to which it is joined, e.g. {{lang|cy|bwyd}} + ''-ha'' > {{lang|cy|bwyta}} {{IPA|[bʊɨtːa]}} 'eating'; {{lang|cy|gwlyb}} 'wet' + ''-hach'' > {{lang|cy|glypach}} {{IPA|[ɡlɘpːaχ]}} 'wettest'; {{lang|cy|atgoffa}} {{IPA|[atˈgɔfːa]}} 'remind', from {{lang|cy|cof}} {{IPA|[koːv]}} 'mind'.
+
+Provection can also occur in compound words where {{IPA|/b, d, ɡ/}} meet {{IPA|/p, t, k/}} (or their soft mutations {{IPA|/b, d, ɡ/}}). Thus {{lang|cy|pob}} + {{lang|cy|peth}} > {{lang|cy|popeth}} {{IPA|[ˈpɔpːɛθ]}} 'everything'; {{lang|cy|bwyd}} + {{lang|cy|tŷ}} > {{lang|cy|bwyty}} {{IPA|[ˈbʊɨtːɨ]}} 'restaurant'.{{sfnp|Hannahs|2013|pp=150–4}}
+
+==Vowels==
+[[File:Welsh vowel chart.svg|thumb|upright=1.36|A chart plotting the vowel [[formant]]s of a Welsh speaker from [[Bangor, Gwynedd]]{{sfnp|Ball|1984|pp=5–39}}|class=skin-invert-image]]
+The [[vowel]] phonemes of Welsh are as follows:{{sfnp|Jones|1913|pp=9–188}}{{sfnp|Williams|1980|pp=1–5}}{{sfnp|Ball|1984|pp=5–39}}{{sfnp|King|1996|pp=3–15}}{{sfnp|Hannahs|2013|pp=21–22}}{{sfnp|Liu|2018|p=5}}
+{| class="wikitable" style="text-align: center;"
+! rowspan="2" |
+! colspan="2" | [[Front vowel|Front]]
+! colspan="2" | [[Central vowel|Central]]
+! colspan="2" | [[Back vowel|Back]]
+|-
+! <small>short</small>
+! <small>long</small>
+! <small>short</small>
+! <small>long</small>
+! <small>short</small>
+! <small>long</small>
+|-
+! [[Close vowel|Close]]
+| {{IPA link|ɪ}} || {{IPA link|iː}}|| {{IPA link|ɨ̞}} || {{IPA link|ɨː}} || {{IPA link|ʊ}} || {{IPA link|uː}}
+|-
+! [[Mid vowel|Mid]]
+| {{IPA link|ɛ}} || {{IPA link|eː}}|| {{IPA link|ə}} || || {{IPA link|ɔ}} || {{IPA link|oː}}
+|-
+! [[Open vowel|Open]]
+| || | || {{IPA link|ä|a}} || {{IPA link|ä|aː}} || ||
+|}
+
+The vowels {{IPA|/ɨ̞/}} and {{IPA|/ɨː/}} merged with {{IPA|/ɪ/}} and {{IPA|/iː/}} in southern dialects, but are retained in northern dialects. An acoustic study of ten speakers from North Wales showed that some speakers did not distinguish the short vowels {{IPA|/ɪ/}} and {{IPA|/ɨ̞/}}, although all clearly distinguished the long vowels {{IPA|/ɨː/}} and {{IPA|/iː/}}.{{sfnp|Mayr|Davies|2011}} The same study showed that long vowels clearly have longer duration than short ones both in Southern and Northern Welsh.
+
+The length contrast for most vowels in most cases involves also a contrast in vowel quality (e.g., {{IPA|/iː/}} vs. {{IPA|/ɪ/}}) and there is debate as to which is the primary contrasting feature.{{sfnp|Hannahs|2013|pp=21–22}} The long counterpart to short {{IPA|/a/}} is sometimes misleadingly transcribed {{IPA|/ɑ/}}. This is often found in solely quality-distinctive transcriptions to avoid using a length mark. The actual pronunciation of long {{IPA|/a/}} is {{IPA|[aː]}}, which makes the vowel pair unique in that for most speakers there is no significant quality difference.{{sfnp|Mayr|Davies|2011}} Regional realisations of {{IPA|/aː/}} may be {{IPA|[æː]}} or {{IPA|[ɛː]}} in north-central and (decreasingly) south-eastern [[Wales]] or sporadically as {{IPA|[ɑː]}} in some southern areas undoubtedly under the influence of English.{{sfnp|Wmffre|2013|p=3}}
+
+Long vowels are found only in stressed syllables, and in North Wales only in stressed final syllables or monosyllables.  Since stress in Welsh is, with a few exceptions, on the penultimate syllable of polysyllabic words, this means that length contrasts mostly occur only in monosyllabic words, apart from a few words such as {{lang|cy|Caerdydd}} 'Cardiff' which are stressed on the final syllable.{{sfnp|Hannahs|2013|pp=21–22}} To a large extent the length of the vowel in a stressed final syllable can be predicted by the consonant which follows it. Where there is no final consonant, as in {{lang|cy|tŷ}} 'house', or if the vowel in a final syllable is followed by ''b, d, g, v, dd, ff, th, ch, s'', e.g. {{lang|cy|dydd}} 'day', {{lang|cy|cath}} 'cat', {{lang|cy|bach}} 'small', {{lang|cy|mis}} 'month', the vowel is usually long. When the final syllable ends in ''p, t, c, m, ng, sh, j'' or when it ends with two consonants the vowel is usually short, e.g. {{lang|cy|trwm}} 'heavy', {{lang|cy|twp}} 'stupid', {{lang|cy|llong}} 'ship', {{lang|cy|plant}} 'children', {{lang|cy|corff}} 'body'.{{sfnp|Griffiths|Jones|1995|at=Quantity of vowels}}
+
+Sometimes there are differences between North and South Wales. Words in which the final vowel is followed by ''ll'' or ''s'' before a stop consonant, such as {{lang|cy|gwallt}} 'hair', {{lang|cy|Pasg}} 'Easter', and {{lang|cy|cosb}} 'punishment', tend to have a long vowel in the North, short in the South. Conversely, {{lang|cy|heb}} 'without', and monosyllables ending in ''ll'' such as {{lang|cy|llall}} 'the other', and {{lang|cy|pell}} 'far' tend to have a short vowel in the North, but long in the South. But {{lang|cy|(h)oll}} 'all' has a long vowel even in the North.{{sfnp|Griffiths|Jones|1995|at=Quantity of vowels}}
+
+When a final vowel is followed by ''l'', ''n'', ''r'', the vowel is long in some words, short in others: for example, it is long in {{lang|cy|mil}} 'a thousand', {{lang|cy|hen}} 'old', {{lang|cy|tir}} 'land', but short in {{lang|cy|tal}} 'tall', {{lang|cy|pren}} 'wood', {{lang|cy|car}} 'car'.
+
+Since a vowel can be long only in stressed syllables, in a phrase like {{lang|cy|dros nos}} {{IPA|/drɔs ˈnoːs/}} 'over night', the vowel of the preposition {{lang|cy|dros}} is short, being unstressed, but the vowel of {{lang|cy|nos}} 'night' is long.
+
+The vowel {{IPA|/ə/}} does not occur in the final syllable of words (except a few monosyllabic [[proclitic]]s) and some English words. It is always pronounced short except when emphasised in the name of the letter {{lang|cy|y}}.{{sfnp|Wmffre|2013|p=3}}
+
+In penultimate syllables in North Wales accents all vowels are short. Thus {{lang|cy|cath}} 'cat' has a long vowel, but {{lang|cy|cathod}} 'cats' has a short one. In South Wales in some words, such as {{lang|cy|defaid}} 'sheep (pl)', {{lang|cy|efail}} 'forge', {{lang|cy|ola(f)}} 'last', {{lang|cy|rhedeg}} 'to run', {{lang|cy|ugain}} 'twenty', {{lang|cy|ifanc}} 'young', can be heard with a vowel which has been described as "half-long". Words such as {{lang|cy|lleol}} 'local', where the penultimate vowel is followed by no consonant, also have a half long vowel. In South Wales {{lang|cy|tonau}} {{IPA|cy|ˈtʰoˑnɛ|}} 'tunes' and {{lang|cy|tonnau}} {{IPA|cy|ˈtʰɔnɛ|}} 'waves' are often pronounced differently, but in North Wales identically.{{sfnp|Iosad|2017}}
+
+Vowels in penultimate syllables followed by two consonants, as in {{lang|cy|cynta(f)}} 'first' or {{lang|cy|gorffen}} 'to finish', are usually short, as are vowels followed by a consonant + the semivowel {{IPA|[i̯]}}, as in {{lang|cy|dynion}} 'men' or {{lang|cy|cofio}} 'to remember'. Penultimate vowels before {{IPA|/p/, /t/, /c/, /m/, /ŋ/, /ɫ/, /s/, /ʃ/, /dʒ/}} are usually short{{sfnp|Griffiths|Jones|1995|at=Quantity of vowels}} and the consonants themselves, especially {{IPA|/p/, /t/, /c/, /ɫ/,}} are often pronounced long when following a stressed vowel, e.g. {{lang|cy|hapus}} {{IPA|[ˈhapːʰɨs]}} 'happy', {{lang|cy|capel}} {{IPA|[ˈkapːʰɛl]}} 'chapel', {{lang|cy|ateb}} {{IPA|[ˈatːʰɛb]}} 'to answer', {{lang|cy|tocyn}} {{IPA|[ˈtɔkːʰɨn]}} 'ticket', {{lang|cy|cyllell}} {{IPA|/ˈkəɬːɛɬ/}} 'knife'.{{sfnp|Hannahs|2013|pp=21|at=§2.2.6}} The fricative {{IPA|/s/}} has a contradictory effect, making a final stressed vowel long, but a penultimate stressed vowel short; thus {{lang|cy|bys}} {{IPA|[bɨːs]}} 'finger' has a long vowel, but {{lang|cy|bysedd}} {{IPA|[ˈbəsːeð]}} 'fingers' has a short one.
+
+The long vowels are not all derived from [[Proto-Celtic language|Proto-Celtic]] long vowels, which in some cases were transformed into diphthongs in Welsh, but instead from the [[New Quantity System]].{{sfnp|Willis|2009}}
+
+===Diphthongs===
+Northern Welsh has at least 13 diphthongs,<ref>Some writers claim more than 13 diphthongs: see {{harvcoltxt|Czerniak|2015a|p=18–9}}. {{harvcoltxt|Fynes-Clinton|1913|p=xiv}} counts up to 24 diphthongs for the Bangor dialect.</ref> but these are collapsed to just 8 diphthongs in Southern Welsh. Thus, Northern Welsh {{lang|cy|(h)ail}} 'second' {{IPA|cy|hai̯l|}}, {{lang|cy|hael}} 'liberal' {{IPA|cy|haːɨ̯l|}}, and {{lang|cy|haul}} 'sun' {{IPA|cy|haɨ̯l|}} are homophones in Southern Welsh and pronounced {{IPA|cy|hai̯l|}}.{{sfnp|Mayr|Davies|2011}}
+
+{| class="wikitable" style="text-align: center;"
+! [[Diphthong]]s || colspan="3" | Second component
+|-
+! First component || front || central || back
+|-
+! close
+| 
+| {{IPA|ʊɨ}}
+| {{IPA|ɪu, ɨu}}
+|-
+! mid
+| {{IPA|əi/ɛi, ɔi}}
+| {{IPA|əɨ/ɛɨ, ɔɨ}}
+| {{IPA|əu/ɛu, ɔu}}
+|-
+! open
+| {{IPA|ai}}
+| {{IPA|aɨ, aːɨ}}
+| {{IPA|au}}
+|}
+
+The diphthongs containing {{IPA|/ɨ/}} occur only in northern dialects; in southern dialects {{IPA|/ʊɨ/}} is replaced by {{IPA|/ʊi/}} and {{IPA|/ɨu, əɨ~ɛɨ, ɔɨ, a(ː)ɨ/}} are merged with {{IPA|/ɪu, əi~ɛi, ɔi, ai/}}. There is a general tendency in the South to simplify diphthongs in [[Colloquialism|everyday speech]], e.g. Northern {{IPA|/ɡwaːɨθ/}} corresponding to {{IPA|/ɡwaːθ/}} in the South, or Northern {{IPA|/ɡwɛiθjɔ/}} and Southern {{IPA|/ɡwiθɔ/}}. Since different speakers pronounce the diphthongs in different ways, the phonetic transcription can only be approximate. Mayr and Davies note that although {{IPA|/ɔi/}} and {{IPA|/ɔɨ/}} are both usually transcribed with {{IPA|/ɔ/}} as their first element, in fact the two diphthongs start from different vowels.{{sfnp|Mayr|Davies|2011}}{{page needed|date=June 2026}}{{clarify|date=June 2026}}<!--What is the phonetic nature of the difference?-->
+
+For the north Welsh diphthongs ending in {{IPA|/ɨ/}} etc., Hammond (2019) writes {{IPA|/eɰ/, /aɰ/}} etc., noting that the glide in these diphthongs is distinct from the vowel {{IPA|/ɨ/}}.{{sfnp|Hammond|2019|pp=58}}{{clarify|date=June 2026}}<!--What is the phonetic nature of the difference?-->
+
+Some writers classify the diphthongs as long and short. In their acoustic study of 20 different speakers from North and South Wales, {{harvtxt|Mayr|Davies|2011}} found that {{IPA|/ɛi/}} tended to be shorter than other diphthongs in overall length; however, they judged that there was no clear way of dividing the diphthongs into long and short as there is with monophthongs.{{sfnp|Mayr|Davies|2011}} On the other hand, {{harvtxt|Ball|1983}}, testing a speaker from Anglesey pronouncing words containing {{IPA|/ai/, /aɨ/,}} and {{IPA|/aːɨ/}} (for example {{lang|cy|hail}} 'feast', {{lang|cy|haul}} 'sun', {{lang|cy|hael}} 'generous'), found that {{IPA|/aːɨ/}} was not only longer overall than the other two by about 30%, but that the first element in {{IPA|/aːɨ/}} was approximately twice as long as the first element of the other two.{{sfnp|Ball|1983}} Similar spectrographic evidence showed that the first element in {{IPA|/ɔɨ/}} {{angbr|oe}} in the pronunciation of one Northern Welsh speaker was longer than the first element of {{IPA|/ɔi/}} {{angbr|oi}}.{{sfnp|Mayr|Davies|2009}} According to {{harvtxt|Morris-Jones|1921}}, the diphthong {{IPA|/ʊɨ/}} also has a long first element in some words, such as {{lang|cy|hwyr}} 'late', {{lang|cy|mwy}} 'more', {{lang|cy|llwyd}} 'grey', though a short one in others such as {{lang|cy|pwynt}} 'point' and {{lang|cy|rhwystr}} 'obstacle'. He notes that in North Wales there is also a long first element in words such as {{lang|cy|llaw}} 'hand' and {{lang|cy|tew}} 'fat' where there is no final consonant. According to the same author the first element is also long in certain other words such as {{lang|cy|paun}} 'peacock', {{lang|cy|trôi}} 'he was turning'.{{sfnp|Morris-Jones|1921|pp=25–6}} In penultimate syllables, the first element of all diphthongs is short.{{sfnp|Morris-Jones|1921|pp=29}}
+
+Welsh also has rising diphthongs and triphthongs, starting with the glides {{IPA|/w/}} and {{IPA|/j/}}, e.g. {{lang|cy|chwech}} 'six', {{lang|cy|iaith}} 'language'. The glide {{IPA|/w/}} when derived by mutation from {{IPA|/ɡw/}} is usually treated as a consonant, taking the article {{lang|cy|y}}, e.g. {{lang|cy|y wasg}} 'the press'; whereas {{IPA|[j]}} is usually treated as a vowel with the article {{lang|cy|yr}}, e.g. {{lang|cy|yr iaith}} 'the language'. Both glides tend to become devoiced following a voiceless consonant, for example in {{lang|cy|chwerthin}} 'to laugh', {{lang|cy|clociau}} 'clocks'.{{sfnp|Hannahs|2013|p=20|at=§2.2.6}}
+
+The digraph {{angbr|wy}} is ambiguous, since it can represent either a falling diphthong ({{IPA|/ʊɨ/, /ʊi/, /uːi/, /uːɨ/}}) or a rising one ({{IPA|/wi/, /wɨ/, /wiː/, /wɨː/}}): falling in {{lang|cy|wythnos}} 'week', {{lang|cy|gwyliau}} 'holidays', {{lang|cy|posibilrwydd}} 'possibility'; rising in {{lang|cy|gwydr}} 'glass', {{lang|cy|digwydd}} 'to happen', {{lang|cy|ffermwyr}} 'farmers'. There are several words which formerly had a falling diphthong but which now are often pronounced with a rising one, especially in North Wales, for example {{lang|cy|wyneb}} 'face', {{lang|cy|ofnadwy}} 'dreadful', {{lang|cy|Conwy}} 'Conwy'.{{sfnp|Morris-Jones|1921|pp=8–12}} In formal Welsh, the definite article remains {{lang|cy|yr}} as usual for words starting with a vowel: {{lang|cy|yr wyneb}} 'the face', {{lang|cy|yr Wyddfa}} 'Mount Snowdon'.
+
+===Vowel mutations===
+====Mutations before a suffix====
+Vowels and diphthongs in the final syllable of a word (including monosyllabic words) often mutate to a different vowel when a suffix is added. Examples of such mutations are as follows:{{sfnp|Morris-Jones|1921|pp=30–1, 42}}
+* {{IPA|/ai/}} > {{IPA|/əi~ɛi/}}; e.g. {{lang|cy|dail}} 'foliage', {{lang|cy|deilen}} 'leaf'
+* {{IPA|/aɨ/}} > {{IPA|/əɨ~ɛɨ/}}; e.g. {{lang|cy|haul}} 'sun', {{lang|cy|heulog}} 'sunny'
+* {{IPA|/ai/}} > {{IPA|/a/}}; e.g. {{lang|cy|gwraig}} 'wife', {{lang|cy|gwragedd}} 'wives'
+* {{IPA|/əɨ~ɛɨ/}} > {{IPA|/a/}}; e.g. {{lang|cy|lleidr}} 'thief', {{lang|cy|lladron}} 'thieves'
+* {{IPA|/au/}} > {{IPA|/ɔ/}}: e.g. {{lang|cy|tlawd}} 'poor' {{lang|cy|tlotaf}} 'poorest'; {{lang|cy|awr}} 'hour', {{lang|cy|oriau}} 'hours'; 
+* {{IPA|/ɨ/}} > {{IPA|/ə/}}; {{lang|cy|byr}} {{IPA|/bɨr/}} 'short', {{lang|cy|byrrach}} {{IPA|/ˈbəraχ/}} 'shorter' 
+* {{IPA|/u/}} > {{IPA|/ə/}}; {{lang|cy|trwm}} {{IPA|/trum/}} 'heavy', {{lang|cy|trymach}} {{IPA|/ˈtrəmaχ/}} 'heavier'; {{lang|cy|cwch}} {{IPA|/kuːχ/}} 'boat', {{lang|cy|cychod}} {{IPA|/'kəχod/}} 'boats' 
+* {{IPA|/ɨuχ/}} > {{IPA|/ɨχ/}}, e.g. {{lang|cy|uwch}} {{IPA|/ɨuχ/}} 'higher', {{lang|cy|uchaf}} {{IPA|/ˈɨχav/}} 'highest' 
+
+The change from {{IPA|/ɨ/}} to {{IPA|/ə/}} only occurs when {{IPA|/ɨ/}} is spelled ''y''; when {{IPA|/ɨ/}} in a final syllable is spelled ''u'', there is no change. Thus the vowel changes in {{lang|cy|dydd}} {{IPA|/dɨːð/}} 'day', {{lang|cy|dyddiau}} {{IPA|/ˈdəðje/}} 'days', but not in {{lang|cy|llun}} {{IPA|/ɬɨːn/}} 'picture', {{lang|cy|lluniau}} {{IPA|/ˈɬɨnje/}} 'pictures'. In some words the penultimate vowel also changes, e.g. {{lang|cy|cwmwl}} {{IPA|/ˈkumul/}} 'cloud', {{lang|cy|cymylau}} {{IPA|/kəˈməle/}} 'clouds'.
+
+It is thought that these vowel mutations may have arisen at a period when the stress in Welsh was still on the final syllable of two-syllable words; when the stress shifted to the penultimate syllable, the reduced vowels remained even though they were now in stressed syllables.{{sfnp|Williams|1983|pp=242–3}} The mutation {{IPA|/au/}} > {{IPA|/ɔ/}} also occurs in final syllables (e.g. {{lang|cy|dwylo}} 'hands' from {{lang|cy|llaw}} 'hand'), but this is thought to have arisen after the stress moved from the final to the penultimate syllable.{{sfnp|Willis|2009}}
+
+====Penultimate i-affection====
+A different set of changes, known as penultimate i-affection, takes place when the suffix begins with {{IPA|/i, ɨ/}} or {{IPA|/j/}}. These mostly concern the vowel {{IPA|/a/}} or diphthongs beginning with {{IPA|/a/}}:{{sfnp|Morris-Jones|1921|pp=35, 41–2}}
+
+Before {{IPA|/i/}}:
+* {{IPA|/a/}} > {{IPA|/e/}}: e.g. {{lang|cy|truan}} 'wretch(ed)', {{lang|cy|trueni}} 'wretchedness'
+* {{IPA|/aːɨ̯/}} > {{IPA|/əi~ɛi/}}: e.g.  {{lang|cy|gwaedd}} 'shout', {{lang|cy|gweiddi}} '(to) shout'
+* {{IPA|/au/}} > {{IPA|/əu~ɛu/}}: e.g. {{lang|cy|cawr}} 'giant', {{lang|cy|cewri}} 'giants'
+
+Before {{IPA|/ɨ/}}: 
+* {{IPA|/a/}} > {{IPA|/e/}}: e.g.  {{lang|cy|plant}} 'children', {{lang|cy|plentyn}} 'child'
+* {{IPA|/aːɨ/}} > {{IPA|/əɨ~ɛɨ/}}: e.g. {{lang|cy|caer}} 'fortified town', {{lang|cy|ceyrydd}} 'fortified towns'; {{lang|cy|aeth}} '(s)he went', {{lang|cy|euthum}} 'I went'
+* {{IPA|/aːu/}} > {{IPA|/əu~ɛu/}}: e.g. {{lang|cy|taw}} 'silence', {{lang|cy|tewych}} 'silence'
+
+Before {{IPA|/j/}}:
+*{{IPA|/a/}} > {{IPA|/əi~ɛi/}}: {{lang|cy|mab}} 'son', {{lang|cy|meibion}} 'sons'
+*{{IPA|/e/}} > {{IPA|/əi~ɛi/}}: {{lang|cy|gorwedd}} 'lie down', {{lang|cy|gorweiddiog}} 'lying down'
+*{{IPA|/aːɨ̯/}} > {{IPA|/əi~ɛi/}}: {{lang|cy|draen}} 'thorn', {{lang|cy|dreiniog}} 'thorny'
+
+====Ultimate i-affection====
+In some cases i-affection takes place in a final syllable or in a monosyllable where there was formerly an i-suffix which is no longer pronounced. This kind of i-affection is frequent in plural nouns and is also found in some adjectives and some 3rd person singular verbs. The changes, however, differ from those shown above where a suffix is still present. In a two-syllable word if the penultimate vowel is {{IPA|/a/}}, as in {{lang|cy|dafad}} or {{lang|cy|alarch}}, it changes to {{IPA|/e/}} by penultimate i-affection:{{sfnp|Morris-Jones|1921|pp=34, 39}}
+
+*{{IPA|/a/}} > {{IPA|/ai/}}: {{lang|cy|dafad}} 'sheep (sg.)', {{lang|cy|defaid}} 'sheep (pl.)'
+*{{IPA|/aː/}} > {{IPA|/ai/}}: {{lang|cy|brân}} 'crow', {{lang|cy|brain}} 'crows'
+*{{IPA|/aːɨ/}} > {{IPA|/ai/}}: {{lang|cy|draen}} 'thorn', {{lang|cy|drain}} 'thorns'
+*{{IPA|/a/}} > {{IPA|/əi~ɛi/}}: {{lang|cy|car}} 'car', {{lang|cy|ceir}} 'cars'; {{lang|cy|arth}} 'bear', {{lang|cy|eirth}} 'bears'
+*{{IPA|/a/}} > {{IPA|/ɨ/}}: {{lang|cy|alarch}} 'swan', {{lang|cy|elyrch}} 'swans'
+*{{IPA|/ɔ/}} > {{IPA|/ɨ/}}: {{lang|cy|ffordd}} 'road', {{lang|cy|ffyrdd}} 'roads'
+*{{IPA|/ʊ/}} > {{IPA|/ɨ/}}: {{lang|cy|asgwrn}} 'bone', {{lang|cy|esgyrn}} 'bones'; {{lang|cy|gŵr}} 'husband', {{lang|cy|gwŷr}} 'husbands'
+*{{IPA|/ɔɨ/}} > {{IPA|/ʊɨ/}}: {{lang|cy|oen}} 'lamb', {{lang|cy|ŵyn}} 'lambs'
+
+Examples in plural adjectives are:{{sfnp|Morris-Jones|1921|pp=66–7}}
+*{{IPA|/a/}} > {{IPA|/ai/}}: {{lang|cy|bychan}} > {{lang|cy|bychain}} 'small' 
+*{{IPA|/a/}} > {{IPA|/əi~ɛi/}}: {{lang|cy|hardd}} > {{lang|cy|heirdd}} 'handsome'; {{lang|cy|marw}} > {{lang|cy|meirw}} 'dead'
+
+An example in a verb is:
+*{{IPA|/ɔ/}} > {{IPA|/ɨ/}}: {{lang|cy|agor}} 'open', {{lang|cy|egyr}} '(s)he opens (will open)'
+
+====Ultimate a-affection====
+Another vowel change, concerning only the vowels {{IPA|/ɨ, ɨː/}} (when spelled ''y'') and {{IPA|/ʊ, uː/}}, is found in the feminine of adjectives. This change is called a-affection, since it is believed to have arisen from a lost feminine suffix ''-a''. (For example, Brythonic *{{IPA|/birraː/}} > MW. {{lang|cy|berr}} 'short (fem.)', as against *{{IPA|/birros/}} > MW. {{lang|cy|byrr}} 'short (masc.)'.){{sfnp|Willis|2009}} Many of these adjectives are single-syllable words:{{sfnp|Morris-Jones|1921|p=33}}
+
+*{{IPA|/ɨ/}} > {{IPA|/ɛ/}}: {{lang|cy|gwyn}} 'white (m.)', {{lang|cy|gwɛn}} 'white (f.)'; {{lang|cy|trydydd}} 'third (m.)', {{lang|cy|trydedd}} 'third (f.)'
+*{{IPA|/ɨː/}} > {{IPA|/eː/}}: {{lang|cy|cryf}} 'strong (m.)', {{lang|cy|cref}} 'strong (f.)'
+*{{IPA|/ʊ/}} > {{IPA|/ɔ/}}: {{lang|cy|trwm}} 'heavy (m.)', {{lang|cy|trom}} 'heavy (f.)'; {{lang|cy|hwn}} 'this (m.)', {{lang|cy|hon}} 'this (f.)'
+*{{IPA|/uː/}} > {{IPA|/oː/}}: {{lang|cy|tlws}} 'pretty (m.)', {{lang|cy|tlos}} 'pretty (f.)'
+
+The affected vowel is usually in the ultimate (or only) syllable, but occasionally the penultimate is affected, as in the following word:
+*{{IPA|/ə/}} > {{IPA|/ɛ/}}: {{lang|cy|bychan}} 'small (m.)', {{lang|cy|bechan}} 'small (f.)'
+
+In the following word, both vowels are changed, with a-affection of {{IPA|/ɨ/}} > {{IPA|/ɛ/}} in the final syllable of the feminine, and i-affection of {{IPA|/a/}} > {{IPA|/e/}} in the penultimate syllable of the masculine form:
+*{{IPA|/ɨ/}} > {{IPA|/ɛ/}}:  {{lang|cy|pedwerydd}} 'fourth (m.)', {{lang|cy|pedwaredd}} 'fourth (f.)'
+
+After a noun, the feminine adjective has soft mutation of the first letter, e.g. {{lang|cy|rhaff gref}} 'a strong rope', {{lang|cy|cath wen}} 'a white cat'; but the masculine adjective is used after {{lang|cy|a}} 'and', e.g. {{lang|cy|cath ddu a gwyn}} 'a black-and-white cat'. Feminine adjectives are only used with singular nouns, as there is no distinction of gender in the plural in Welsh.
+
+==Stress and pitch==
+[[Stress (linguistics)|Stress]] falls in the vast majority of polysyllabic words on the [[wikt:penultimate|penultimate]] [[syllable]]. There are three main sources of exception.{{sfnp|Griffiths|Jones|1995|at=Quantity of vowels: G. Stress and length of vowels in polysyllables}} First, in a few native words, the stress falls on the final syllable (e.g. verbs ending in -áu and words like {{lang|cy|Cymraeg}} 'Welsh') as a result of a stressed penultimate syllable [[Fusion (phonetics)|coalescing]] with a following vowel to form a diphthong or long monophthong. Second, certain prefixes do not reliably take stress (e.g., {{lang|cy|di-}} 'without', as in {{lang|cy|diwerth}} 'worthless', which is stressed on the final syllable). Third, borrowings from other languages often retain the stress in the original language, as with {{lang|cy|ambiwlans}} and {{lang|cy|testament}} (both stressed on the first syllable), though even here stress generally shifts to the penultimate in inflected forms such as the plural.{{sfnp|Williams|1983|p=?}}{{sfnp|Hannahs|2013|pp=44–47}} When syllables are added to the end of a word the stress moves correspondingly:
+
+{| class="wikitable"
+|+
+|-
+!Word !! Pronunciation !! Meaning
+|-
+| {{lang|cy|ysgrif}}
+| style="text-align: left;" | {{IPA|/ˈəsɡrɪv/}} || 'article, essay'
+|-
+| {{lang|cy|ysgrifen}}
+| style="text-align: left;" | {{IPA|/əsˈɡrivɛn/}} || 'writing'
+|-
+| {{lang|cy|ysgrifennydd}}
+| style="text-align: left;" | {{IPA|/əsɡrɪˈvɛnɨð/}} || 'secretary'
+|-
+| {{lang|cy|ysgrifenyddes}}
+| style="text-align: left;" | {{IPA|/əsɡrɪvɛˈnəðɛs/}} || 'female secretary'
+|-
+| {{lang|cy|ysgrifenyddesau}}
+| style="text-align: left;" | {{IPA|/əsɡrɪvɛnəˈðɛsai/}} || 'female secretaries'
+|}
+
+Adding a syllable to {{lang|cy|ysgrifennydd}} to form {{lang|cy|ysgrifenyddes}} changes the pronunciation of the second {{angbr|y}}. This is because the pronunciation of {{angbr|y}} depends on whether or not it is in the final syllable.
+
+Compound nouns are usually accented on the penultimate like other words, e.g. {{lang|cy|gwínllan}} 'vineyard', {{lang|cy|ánnoeth}} 'unwise'.{{sfnp|Morris-Jones|1921|pp=18–9}} In some cases, however, they are pronounced as if they were two separate words, with a secondary accent on the first part and the primary accent on the second part, e.g. {{lang|cy|cyn-faer}} {{IPA|[ˌkɨnˈvaɨr]}} 'ex-mayor'. Under this secondary accent, the vowel spelled {{angbr|y}} has the sound {{IPA|[ɨ]}}, as usual in final syllables, and long vowels can be preserved, as in the place name {{lang|cy|Casnewydd}}  {{IPA|[ˌkaːsˈnewɨð]}} or {{IPA|[ˌkasˈnewɨð]}} 'Newport'.
+
+In many accents, stress on penultimate syllables is characterised by a low [[Pitch accent|pitch]], which is followed by a high pitch falling to a low pitch on the (unstressed) word-final syllable; but in stressed monosyllables and in polysyllabic words where stress is on the final syllable, that syllable also bears the high pitch.{{sfnp|Williams|1983|pp=78}} This high pitch is thought to be a remnant of the high-pitched word-final accent of early [[Old Welsh]] (derived from original penultimate stress in [[Common Brittonic]] by the loss of final syllables); the stress shift from final to penultimate occurred in the Old Welsh period without affecting the overall pitch of the word.{{sfnp|Williams|1983|pp=26}} The date of the shift in stress from the final to the penultimate syllable is dated differently by various scholars, for example 11th century (Jackson, 1953) or 9th century (Watkins, 1972).{{sfnp|Willis|2009}}
+
+==References==
+
+===Citations===
+{{reflist}}
+
+===Bibliography===
+{{Refbegin|indent=yes|30em}}
+* {{Cite journal | last1=Asmus | first1=S. | last2=Jaworski | first2=S. | last3=Baran | first3=M. | year=2020 | title=Fortis-lenis vs voiced-voiceless plosives in Welsh | journal=Linguistics Beyond and Within (LingBaW) | volume=6 | issue=1 | doi=10.31743/lingbaw.11828 | doi-access=free}}
+* {{Cite book | editor1-last=Ball | editor1-first=M. | editor2-last=Fife | editor2-first=J. | year=1996 | title=The Celtic Languages | edition=1st | publisher=[[Routledge]] | url=https://archive.org/details/celticlanguages0000unse}}
+** {{Cite book | last=Willis | first=D. | year=2009 | title=Old and Middle Welsh | url=https://davidwillis.net/old_and_middle_welsh.pdf | editor1-last=Ball | editor1-first=M. | editor2-last=Müller | editor2-first=N. | edition=2nd | pages=117–160}}
+** {{Cite book | last=Awbery | first=G. | year=2009 | title=Welsh | editor1-last=Ball | editor1-first=M. | editor2-last=Müller| editor2-first=N. | edition=2nd | pages=373-440}}
+* {{Cite journal | last=Ball | first=M. J. | year=1983 | title=A spectrographic investigation of three Welsh diphthongs | journal=[[Journal of the International Phonetic Association|JIPA]] | volume=13 | issue=2 | pages=82-89 | doi=10.1017/S0025100300002589 | jstor=44526700}}
+* {{Cite book | author=Ball | year=1984 | chapter=Phonetics for phonology | title=Welsh Phonology: Selected Readings | editor-first1=M. J. | editor-last1=Ball | editor-first2=G. E. | editor-last2=Jones | location=Cardiff | publisher=[[University of Wales Press|UWP]] | isbn=0-7083-0861-9 | url=https://archive.org/details/welshphonologyse0000unse |author-mask=2}}
+* {{Cite journal | last=Baran | first=M. | year=2020 | title=Fortis-lenis distinction of fricatives and plosives in Welsh – Phonetically distinctive factors | journal=LingBaW | volume=6 | issue=1 | pages=47-59 | doi=10.31743/lingbaw.11830}}
+* {{Cite journal | last1=Bell | first1=E. | last2=Archangeli | first2=D. B. | last3=Anderson | first3=S. J. | last4=Hammond | first4=M. | last5=Webb-Davies | first5=P. | last6=Brooks | first6=H. | year=2023 | title=Northern Welsh |journal=[[Journal of the International Phonetic Association|JIPA]] | volume=53 | issue=2 | pages=487–510 | doi=10.1017/S0025100321000165 | doi-access=free | ref = {{harvid|Bell et al.|2023}}}}
+* {{cite thesis | last=Collée |first=K. Ellen | year=2016 |title=Gemination in Northern Welsh English | degree=B.A. | publisher=[[Utrecht University]] | url=https://studenttheses.uu.nl/bitstream/handle/20.500.12932/23305/Collee,%20Final%20version%20dissertation4.pdf?sequence=2}}
+* {{Cite book | last=Czerniak | first=P.T. | year=2015a | url=https://books.google.fr/books?hl=en&lr=&id=e_qmBgAAQBAJ&oi=fnd&pg=PA17&dq=cerniak+diphthongs+wales&ots=4-N01eYOd-&sig=4t9yY_15nSDioPYbjjLV5XLhZww#v=onepage&q=cerniak%20diphthongs%20wales&f=false | chapter=2. Diphthongs in the North of Wales | editor1=Bednarski, A. | editor2=Czerniak, P. T. | editor3=Czerniakowski, M. | title=New Perspectives in Celtic Studies | publisher=[[Cambridge Scholars Publishing|CSP]]}}
+* {{Cite book | last=Czerniak | first=T. | year=2015b | chapter=Welsh vowels-element distribution and interaction | title=Representations and Interpretations in Celtic Studies | editor1=Czerniak T. | editor2=Czerniakowski M. | editor3=Jaskusa K. | location=Lublin | publisher=Wydawnictwo KUL | pages=133-153 | chapter-url=https://d1wqtxts1xzle7.cloudfront.net/38636185/Czerniak_2015_Welsh_vowels_elements-libre.pdf?1441128501=&response-content-disposition=inline%3B+filename%3DWelsh_vowels_element_distribution_and_in.pdf&Expires=1768480992&Signature=XQjgMZ6BnxwGW0Z~Smn1aVmNd3b4DTKi2a2a-bNfN3BQwo~939qLxyZK5rxG8tDkNO7SZZf1D3~2eVq~ujC-Ma8KKUmSMwg-yb5-7r2Gz5iPUCzHGYN5H84XYEt8yTbhCFMneULhmpHGQLPLSeVRmUxBVBf9o-Rik-fLw50VrcKm4Yw304~DET8w5kv5pXRIx5GYsxDeHQZPK504rbZGs-3hOPvtMOZXOlcYfKsg57wMIPmUwLSzs~w6l9~dy76-TFusFNllGqg~WEB7R-fxVL~w0xZKzS-CDsh2wiBQo8BJr303qnmCuZIoXEu4uueFEf6Sjjxu7LLe2dPAVqqN~w__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA}}
+* {{Cite book | last=Fynes-Clinton | first=O. H. | year=1913 | title=The Welsh vocabulary of the Bangor district | publisher=[[Oxford University Press|OUP]] | url=https://archive.org/details/welshvocabularyo00fyneuoft/}}
+* {{Cite journal | last1=Grawunder | first1=S. | last2=Asmus | first2=S. | last3=Anderson | first3=C. | year=2015 | title=On the correlation of acoustic vowel and coda duration in modern Welsh C(C)VC monosyllables | journal=8th International Congress of Phonetic Sciences | publisher=University of Glasgow | URL=https://pure.mpg.de/rest/items/item_3007371/component/file_3007373/content}}
+* {{Cite book | last1=Griffiths | first1=B. | last2=Jones | first2=D. G. | year=1995 | chapter=Morffoleg y Gymraeg | title=The Welsh Academy English-Welsh Dictionary | chapter-url=https://geiriaduracademi.org/morffoleg-y-gymraeg/ | publisher=[[University of Wales Press|UWP]]}}
+* {{Cite journal | last=Hammond | first=Michael | date=January 2019 | title=Voiceless Nasals in Welsh | journal=[[Journal of Celtic Linguistics]] | volume=20 | issue=1 | pages=31–60 | doi=10.16922/jcl.20.3 | s2cid=165438641}}
+* {{Cite book | last=Hannahs | first=S. J. | year=2013 | title=The Phonology of Welsh | publisher=[[Oxford University Press|OUP]] | isbn=978-0-19-960123-3}}
+* {{Cite journal | last=Iosad | first=P. | year=2017 | title=The phonologisation of redundancy: length and quality in Welsh vowels | journal=[[Phonology (journal)|Phonology]] | volume=34 | issue=1 | pages=121–162 | url=https://www.pure.ed.ac.uk/ws/portalfiles/portal/28667740/paper.pdf}}
+* {{Cite book | last=Jones | first=J. M. | year=1913 | title=A Welsh Grammar, Historical and Comparative | publisher=[[Oxford University Press|OUP]] | url=https://archive.org/details/welshgrammarhist00joneuoft/ | id=pibn:1000706503}}
+* {{Cite book | last=King | first=G. |year=1996 | title=Modern Welsh, A Comprehensive Grammar | location=London | publisher=[[Routledge]] | isbn=978-1-138-82630-4 | doi= }}
+** {{Cite book | last=King | year=2003 | title=Modern Welsh: A Comprehensive Grammar | edition=2nd | isbn=0-415-28270-5 |author-mask=&nbsp;}}
+* {{Cite book | last=Liu | first=Z. |year=2018 | title=Phonetics of Southern Welsh Stress | publisher=[[University College London|UCL]] | url=https://www.ucl.ac.uk/brain-sciences/sites/brain_sciences/files/liu_2018_phonetics_of_southern_welsh_stress.pdf}}
+* {{cite conference | last1=Mayr | first1=R. | last2=Davies | first2=H. | date=September 6-10, 2009 | title=The monophthongs and diphthongs of north-eastern Welsh: an acoustic study | conference=Interspeech 2009 | location=Brighton | pages=2315–2318 | url=https://www.isca-archive.org/interspeech_2009/mayr09_interspeech.pdf | doi=10.21437/Interspeech.2009-655}}
+* {{Cite journal | author1=Mayr | author2=Davies | year=2011 | title=A cross-dialectal acoustic study of the monophthongs and diphthongs of Welsh | journal=[[Journal of the International Phonetic Association|JIPA]] | volume=41 | issue=1 | pages=1–25 |url=https://repository.cardiffmet.ac.uk/bitstream/handle/10369/5446/Mayr%20and%20Davies%202011.pdf?sequence=2| doi=10.1017/S0025100310000290 | jstor=44526588 |url-status=dead |archive-url=https://web.archive.org/web/20170922004217/https://repository.cardiffmet.ac.uk/bitstream/handle/10369/5446/Mayr%20and%20Davies%202011.pdf?sequence=2|archive-date=2017-09-22 |author-mask1=2|author-mask2=2}}
+* {{Cite book | author=Morris-Jones | year=1921 | title=An Elementary Welsh Grammar | publisher=Oxford Clarendon Press | url=https://dbooks.bodleian.ox.ac.uk/books/PDFs/503369961.pdf}}
+* {{Cite journal | last1=Morris | first1=J. | last2=Hejná | first2=M. | year=2020 | title=Pre-aspiration in Bethesda Welsh: A sociophonetic analysis | journal=[[Journal of the International Phonetic Association|JIPA]] | volume=50 | issue=2 | pages=168-192 | url=https://orca.cardiff.ac.uk/id/eprint/112231/ | doi=10.1017/S0025100318000221}}
+* {{Cite book | last=Wells | first=J. C. | year=1982 |title=Accents of English | publisher=[[Cambridge University Press|CUP]] | volume=2 | isbn=0-521-28540-2 | url=https://books.google.com/books?id=a3-ElL71fikC}}
+* {{Cite book | last=Williams | first=St. J. | year=1980 | title=A Welsh Grammar | location=Cardiff | publisher=[[University of Wales Press|UWP]] | isbn=0-7083-0737-X}}
+* {{cite thesis | last=Williams |first=Br. J. | year=1983 |title=Stress in Modern Welsh | degree=Ph.D. | publisher=[[University of Cambridge]] | doi=10.17863/CAM.16507 | hdl=1810/250821}}
+* {{Cite book | last=Wmffre | first=Iwan | year=2013 |title=The Qualities and the Origins of the Welsh Vowel [ɨː] | location=Berlin | publisher=Curach Bhán Publications | isbn=9783942002127 | oclc=910913657}}
+{{Refend}}
+
+==External links==
+{{wikibooks|Welsh/Pronunciation}}
+{{Welsh linguistics}}{{Language phonologies}}
+
+[[Category:Welsh grammar]]
+[[Category:Celtic phonologies]]

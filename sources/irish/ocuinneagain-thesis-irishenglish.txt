@@ -1,0 +1,2616 @@
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+
+
+
+     To What Extent Do Irish Fluency and Gender Affect Prevalence of Irish-influenced
+
+                          Phonological Features in Irish English?
+
+                               Leah Rachael O'Cuinneagain
+
+                                     MA by Research
+
+                                    University of York
+
+                             Language and Linguistic Science
+
+                                        June 2019
+
+
+
+
+                                            1
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+Abstract
+
+
+This thesis presents research into the variety of Irish English spoken in the Múscraí area of
+County Cork, Republic of Ireland. The focus of the research is to examine phonological features
+of Irish English which may have been influenced by Irish and how these interact with speakers'
+levels of Irish fluency and to a lesser extent, to their gender. The use of dental stops [tt dt] as
+realisations of /θ/ and /ð/ in THINK/THIS lexical sets are considered, as they are seen as a
+hallmark feature of West Irish Englishes (Hickey, 2004). In addition to th-stopping, levels of
+rhoticity and vowel epenthesis (both classed as supraregional features of Irish English by Hickey
+(2004)) are also examined. All data was collected by means of questionnaires and interviews
+with participants living or working in the West Cork Gaeltacht (Irish speaking area). Analysis
+consisted of examination of questionnaire results and transcription of all interviews, followed by
+comparison of use of the focus variables between interviews and questionnaires. Distinct trends
+noted in this work were that fluency and gender did not necessarily correlate positively with use
+of the focus variants as predicted. Fluent Irish speakers were more likely to use [dt] stops in place
+of /ð/ than non-fluent speakers in interviews, but this finding was reversed in the reading tasks,
+with non-fluent participants using [dt] more frequently. Men generally used dental stops more
+frequently than women. However, it was female speakers who took the lead in r-dropping. Both
+male and fluent Irish speakers reported using epenthetic variants more often than non-epenthetic
+variants during the sound file segment of the study, but only two examples of epenthesis could
+be found across all interviews and reading tasks. This indicates a more complex sociolinguistic
+situation in Múscraí English than might be expected.
+
+
+
+
+                                                    2
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+List of Contents
+
+
+
+
+Abstract - page 2.
+
+
+List of Contents - page 3.
+
+
+List of Tables - page 5.
+
+
+List of Figures - page 5.
+
+
+Acknowledgements - page 5.
+
+
+Declaration - page 6.
+
+
+1. Introduction – page 7.
+
+
+  1.1. Overview – page 7.
+  1.2. Aims and Objectives – page 8.
+  1.3. Research questions – page 9.
+
+
+2. Background – page 10.
+
+
+  2.1. Historical overview – page 10.
+  2.2.1 Context of study - page 15.
+  2.2.2 Focus variables – page 17.
+
+
+3. Methodology – page 22.
+
+
+  3.1. Data collection process – page 22.
+  3.2. Methods of analysis – page 29.
+
+                                            3
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+4. Results – page 30.
+
+
+  4.1. Participant attitudes and perceptions - page 30.
+  4.2. Th-stopping - page 32.
+  4.3. Rhoticity - page 36.
+  4.4. Epenthesis - page 37.
+  4.5. Participant comprehension issues during sound-files - page 38.
+
+
+5. Discussion – page 39.
+
+
+  5.1. Revisiting research questions - page 39.
+  5.2. Use of dental stops [tt dt] in place of /θ/ and /ð/ - page 40.
+  5.3. Rhoticity - page 43.
+  5.4. Epenthesis - page 44.
+  5.5. Unexpected findings - page 45.
+  5.6. Speaker attitudes and perceptions - page 47.
+  5.7. Limitations of the work - page 49.
+
+
+6. Conclusion – page 50.
+
+
+  6.1. Final statements - page 50.
+  6.2. Implications for future research - page 51.
+  6.3. Projected trends for the future - page 54.
+
+
+References - page 55.
+
+
+Appendices – page 61.
+
+
+
+
+                                                    4
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+List of Tables
+
+
+Table 1: Examples of vowel epenthesis in Irish words (Ní Chiosáin, 1999) – page 20.
+
+
+Table 2: A fieldwork sample table for data collection - page 23.
+
+
+Table 3: The focus words used in the sound file segment - page 25.
+
+
+Table 4: An example of the statements given in the attitudinal section of the questionnaire, with a
+Likert scale - page 26.
+
+
+List of Figures
+
+
+Figure 1: The location of the Múscraí Gaeltacht in Ireland (Ó hIfearnáin, 2007. p. 513) - page
+16.
+
+
+Figure 2 - : The use of [tt ] stops by gender in sound files - page 33.
+
+
+Figure 3 - : Use of [tt ] stops by gender in interviews - page 34.
+
+
+Figure 4 - : Use of [dt] stops by gender in interviews - page 34.
+
+
+Figure 5 - : Use of [tt ] and [dt] stops by gender in reading tasks - page 35.
+
+
+Figure 6 - : Number of occurrences of participant comprehension difficulties per focus word -
+page 39.
+
+
+Acknowledgements
+
+
+I would like to sincerely thank my supervisor, Dr Carmen Llamas, for all her help and
+encouragement throughout the writing of this thesis. Additionally, I am indebted to my parents
+and my husband Eric for all of their moral support.
+                                               5
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+Declaration
+
+
+I declare that this thesis is a presentation of original work and I am the sole author. This work
+has not previously been presented for an award at this, or any other, University. All sources are
+acknowledged as References.
+
+
+
+
+                                                 6
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+1. Introduction
+
+
+1.1. Overview
+
+
+In the most recent census for the Republic of Ireland (2016), it is reported that of 1,761,420
+people over the age of three who claimed they could speak Irish, nearly a quarter of them stated
+that they never spoke it (Central Statistics Office, 2017). However, it is interesting to note that
+the census merely asked whether or not the person spoke Irish with options for “Yes” or “No” -
+there was no option to indicate what level of ability the speaker had. The results of the 2016
+census add to a body of evidence documenting the decline of the Irish language, which in no
+small part is due to the prevalence of English in the Republic (Hickey, 2004). However, a shift in
+public perception of the Irish-English language contact situation could indeed play some small
+role in halting this decline. The traditional narrative put forth in literature has at times cast
+English as being an unstoppable force that has the minority Irish speakers at its mercy - Bliss
+(1981) presents this view. Governmental policy has passed legislation within this vein, providing
+protections to Irish within the educational sphere and legal world. The necessity of such actions
+is justified by lawmakers as protecting Irish as a central part of the Irish cultural identity. Despite
+centuries of native use across the island of Ireland, the English language is not afforded this
+same role. While legislation protecting minority languages is generally to be celebrated, research
+has shown that in some cases, such efforts have had unintended consequences for the Irish
+fluency of people living in first language (L1) Irish communities (Ó hIfearnáin, 2007).
+
+
+Ó hIfearnáin (2007) interviewed inhabitants of the Cork Gaeltacht who had sent their children to
+schools with Irish as the language of instruction. He found that often parents had felt worried
+that their children would not achieve an equal level of English fluency with Irish being the
+language of instruction, so had sought to remedy this by speaking more English at home. This
+had in turn led to a decline in Irish fluency as the children grew, something that the parents had
+grown to regret with hindsight. Ó hIfearnáin describes a need for Irish-speaking parents to be
+better informed about the contact situation between Irish and English, so that they might make
+choices that would encourage more equal bilingualism in their communities. Chief amongst this
+information would be a reassurance that knowledge of one language need not necessarily mean a
+poverty in the other, a concern found amongst parents in the Gaeltacht in the past and at present
+                                               7
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+(Ó Giollagáin, 2014).
+
+
+Like many languages in close contact situations, Irish and Irish English have both left their mark
+on each other phonologically. This research focuses on Irish English and several phonological
+features of note from Irish that have become adopted into the English speech of those living in
+Irish language communities.
+
+
+More specifically, this study examines to what degree Irish fluency plays a part in this
+phenomenon, especially since increasingly fewer people are speaking Irish on a regular basis.
+The aim is that this research is relevant to how we understand the role of Irish in the
+development of Irish varieties of English, as well as examining language trends and attitudes in
+Gaeltacht areas.
+
+
+1.2. Aim and Objectives
+
+
+The research undertaken contributes to the relatively small body of knowledge about the
+sociolinguistic environment of Múscraí, Country Cork. A linguistic survey of the Irish spoken in
+the area was done in the early 20th century by Brian Ó Cuiv (1944), whereas a comprehensive
+study of Ballyvourney English was undertaken in 1981 by Anthony Lunny (1981). Since then,
+only individual features of the area's speech have been examined, for example levels of lenition
+of /t/ (Panek, Ferragne, and Zumstein, 2015). In addition, the aim of this study is to determine
+the nature of the relationship between Irish and the English spoken in the region.
+
+
+The research will contribute in a meaningful way to the field of knowledge of Irish English
+generally. This work also draws attention to the importance of examining the effect of Irish on
+English, in the context of a minority language's features being adopted into a local variety of the
+dominant language, in this case English. With the decline of Irish being presented as a foregone
+conclusion frequently in popular media and academia (Ó Giollagáin, 2014), it is easy to take a
+pessimistic view of Irish and English language contact - that English is a barrier to Irish
+language development and growth. However, such viewpoints do not account for the enriching
+effects that the close language contact between Irish and English has had on both languages
+(Gansterer, 2016).
+                                                 8
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+There is evidence that during its period of contact with English, features from Irish have been
+transferred to Irish English. These features range from individual lexical items to phonological
+and syntactic variants. The relationship between Irish and English need not necessarily be
+combative, especially since so many new speakers of Irish are first language English speakers
+(Walsh, O'Rourke and Rowland, 2015). Therefore, research into the effects of Irish on Irish
+Englishes can only be beneficial for our collective understanding of the contemporary language
+situation in the Republic of Ireland.
+
+
+1.3. Research questions
+
+
+In this study, the aim is to answer the following research question:
+
+
+To what extent does Irish fluency affect the prevalence of “Irish-influenced” phonological
+features in Irish English?
+
+
+More specifically, this research question can be broken down into the following sub-questions:
+
+
+Are the dental stops [tt dt] more likely to be realisations of English /θ/ and /ð/ in Irish
+English speakers who report higher levels of Irish fluency? If so, to what extent?
+
+
+Are less fluent Irish speakers more likely to be non-rhotic in their Irish English speech
+than those with a greater degree of Irish fluency?
+
+
+Can higher levels of epenthesis ([fɪlɪm] for “film”) be found in the Irish English speech of
+more fluent Irish speakers than their less Irish-fluent counterparts?
+
+
+Does the gender of a speaker affect the level of Irish-influenced features found in Irish
+English?
+
+
+This research project was undertaken with the hypothesis in mind that higher levels of Irish
+fluency would correlate with an increase in th-stopping, epenthesis and rhoticity. It was also
+expected that if gender interacted with these features, it would be insofar that female speakers
+                                                 9
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+would be less likely to abandon them than males. Each of the focus features are considered to be
+either characteristic of the dialect spoken in the area or are supraregional features of Irish
+English more generally, so a female-led use of the features would align with the more traditional
+view of women adhering to linguistic standards. (Labov, 1990).
+
+
+2. Background
+
+
+2.1. Historical overview
+
+
+Like any language contact situation involving conquest, the relationship between English and
+Irish has been complicated from the beginning. Despite the colonisation of Ireland by the
+Normans and then by the English, Middle English did not overtake Irish in the Medieval period.
+In fact, Irish flourished alongside the new languages introduced by the new nobility, French and
+English. Some French borrowings in Irish from this time can still be observed today,
+predominantly in place names and family surnames, e.g. Fitzwilliam, De Róiste (MacLysaght,
+1972). Various scholars have attributed the endurance of Irish during this time to the willingness
+of the Norman invaders to adopt Gaelic language and cultural practices (Kennedy, 2015). Hickey
+claims that by the end of 15th century, the Anglo-Norman ruling class in Ireland had been
+absorbed culturally and linguistically into their new home. However, some areas remained
+relatively unscathed by conquest - Ballyvourney shows no sign of Anglo-Norman settlement
+(Lunny, 1981).
+
+
+In the 17th century, English began to overtake Irish in terms of everyday use in some areas.
+Filppula (1999) describes the social changes that took place in Ireland during the 1650s as being
+some of the most influential on the decline of Irish. Agricultural workers from all over England
+and Scotland were sent to join the workforce in Ireland, in order to reinforce English presence
+there (Hickey, 2006). As a result of this influx of British immigrants, Irish speakers began to be
+exposed to various regional British varieties of English - Scots in the North and Midlands
+dialects in the Southern counties.
+
+
+In the 18th century, academics began to document features of certain varieties of Irish English.
+These early forays into Irish English study regularly took the form of glossaries, cataloguing
+                                                10
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+lexical items of interest from regional varieties. The noted elocutionist Thomas Sheridan wrote
+one of the first descriptions of colloquial Irish English in his work “A Rhetorical Grammar of the
+English Language” in 1780. Focusing on the speech of middle-class Dubliners, he took a rather
+prescriptivist view (Hickey, 2005). Principally, Sheridan described a maintenance of Middle
+English /ɛ:/ in place of the /i:/ found elsewhere in Britain post the Great Vowel Shift, as well
+as /ai/ being produced as /ei/. In addition to these distinctive vowel variants, he described a
+“thickening (of) the sounds of d and t in certain situations” (Sheridan, 1780). While a description
+of the realisation of /t/ and /d/ more generally is likely, Hickey (1999) suggested that Sheridan
+was describing some realisation of dental fricatives as alveolar plosives. This would certainly
+align with modern pronunciations of Dublin English.
+
+
+Education played a crucial role in the decline of Irish, but also in the development of Irish
+Englishes. Primary education was not widely available to the general population until the
+introduction of the National School system in 1831 (Donnelly, 2011). State schools were
+required to give their students a basic grounding in arithmetic, literacy and often religious
+education, with some tutelage in various vocational skills. However, Irish was not always part of
+the curriculum. Teachers and village priests were regularly recruited from more affluent,
+English-speaking areas and even at the time, it was noted that these figures often did not teach or
+speak Irish with much enthusiasm (Kennedy, 2015). In the same year as the National School
+system being introduced, the Irish language was removed from the national curriculum. Sean
+Beecher (1993) describes this as being one of the most damaging acts for the language to date.
+He explains that this decision on the part of the National System of Education affected Irish
+people of all ages, contributing not only to the language's decline amongst the young but also
+affecting the varieties of Irish English that were still developing across Ireland. Filppula (1999)
+too acknowledges that the establishment of National Schools in 1831 played a major role in
+prioritising English over Irish for many young people.
+
+
+A different view of 19th century education in Ireland is put forth by Bliss (1977), who focuses not
+on the Irish ability of school teachers in this period but on the variety of English that they spoke.
+He describes many school teachers as being Irish English speakers themselves and not British
+English speakers, lending evidence to the argument that Irish English developed indigenously
+with heavy input from Irish. The perspective of Irish English not being acquired mainly through
+                                               11
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+education (and therefore Standard British English) is shared by Odlin (1997).
+
+
+Regardless of the variety of English that they acquired, children had little choice but to learn
+English as a means of getting an education, which was being taken increasingly more seriously
+as the nineteenth century progressed. Parents who previously had run their homes monolingually
+with Irish as the first language encouraged their children in their English studies, as it proved to
+provide better employment prospects both in Ireland and abroad (Lunny, 1981). Throughout the
+19th century, the belief that speaking a Standard British form of English proficiently was
+beneficial for those wishing to move up in society became increasingly accepted (Kennedy,
+2015). A proponent of this idea was politician Daniel O'Connell, who recommended that the
+Irish learn English in order to have a respectable voice in society and to advance themselves
+socially (Lunny, 1981). This belief endured well into the twentieth century and as English
+overtook Irish as the most widely spoken language in Ireland, it became more common to
+prioritise English language learning over Irish nationwide.
+
+
+Despite opportunities for Irish use in the public sphere decreasing, many people still continued
+to natively speak Irish as their first language, especially in rural areas. However, as a result of
+English replacing Irish as the language of instruction in most schools, the vast majority of
+written sources from Ireland in the 19th century were produced in English (Bliss, 1981). This has
+resulted in a drought of evidence for the colloquial Irish spoken in the nineteenth and early
+twentieth centuries.
+
+
+It took many years and major political upheaval for Irish to be added back to the national school
+curriculum, but by the time it was, great damage had been done. There were no censuses taken in
+Ireland gathering data on bilingual Irish people until after 1851, so the academic community can
+only make estimates at the rate of the language's decline in this time period (Hickey, 2004).
+Garret FitzGerald (1984, 2003) worked extensively on works that aimed to estimate the decline
+of Irish across the country from the 18th century until the early 20th century, using the early
+censuses as a source of population data. FitzGerald (2003) states that in the 1851 census, 21% of
+Irish speakers were monoglots; however, by 1881, this number had dropped to 6.75% of the
+Irish-speaking population. In his earlier work on the minimum levels of Irish being spoken from
+the 18th century onwards, FitzGerald (1984) emphasized the importance of monolingual Irish
+                                              12
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+speakers in maintaining Irish fluency in language communities. The effects of monolingual Irish
+preservation during this period are still being felt today: areas where over half of the 1851
+population were Irish monoglots correspond geographically to modern Gaeltachts almost
+without exception.
+
+
+During the 19th century, Irish was declining at such a rate that it was noticeable to contemporary
+Irish scholars. This awareness is evidenced by the formation of myriad different bodies and
+organisations dedicated to the protection and preservation of the threatened Irish language and
+culture during this period. Some notable examples include the Gaelic Athletic Association
+(1884), the Irish Archaeological Society (1840), the Gaelic League (1893) and numerous Irish
+colleges (Beecher, 1993). Members of these groups understood the powerful role of language in
+a community, so they organised Irish language classes open to all across the country (Ní
+Chumhaill, 2016). These bodies placed Irish in context as a means of keeping culture alive and
+encouraged its use as a tool of political defiance.
+
+
+In the 21st century, both Irish and English enjoy equal status as official languages in the Republic
+of Ireland. However, Irish is today only spoken natively in a handful of areas roughly situated
+along the West coast of the Republic. These areas collectively are known in Ireland as the
+Gaeltacht - literally “Irish-speaking area”. According to the 2011 census, the Gaeltacht has a
+population of only around 100,716 people, spread across an area of around 4300km squared. It is
+fastidiously maintained and preserved by a specialist body known as Údarás na Gaeltachta.
+Údarás na Gaeltachta (“Gaeltacht authority”) was founded in 1980 after the Irish government
+passed the Údarás na Gaeltachta Act in 1979 (Údarás na Gaeltachta, c2019). Today it functions
+as a regionally-run authority funded by the Irish government, tasked with the development and
+safeguarding of the Gaeltacht. It concerns itself with the economic, social, educational and
+geographical interests of the Gaeltacht and its inhabitants. This can range from funding
+businesses that champion the use of Irish in the workplace, to organising festivals celebrating
+traditional Irish music, poetry and art.
+
+
+The Irish revival movement can be observed nationwide and even abroad. Movements in
+Northern Ireland to promote Irish have garnered success - the Northern Irish Minister of Culture,
+Arts and Leisure launched a scheme named Líofa (meaning “sharpened” or “fluent”) in
+                                            13
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+September of 2011. The initiative provides free Irish language classes with the initial aim that by
+2015, 1,000 people in Northern Ireland would have enrolled. The success of the initiative
+exceeded expectations, with over 13,000 speakers having signed up to take part by the fourth
+anniversary of its launch (BBC News, 2015). The positive reception of this scheme and others
+launched in the Republic hint at a brighter future for Irish, but this amelioration of public
+opinion is not reflected everywhere. It was reported in 2019 that the Irish national broadcaster
+RTÉ had been delivering only 0.7% of their programming in Irish (Conradh na Gaeilge, 2019).
+This is in spite of the Broadcasting Act of 2009, which was passed specifically by the Irish
+government to legally obligate the Irish media to provide a wide variety of material through
+Irish. This demonstrates that the outcome of laws and measures designed to protect and promote
+Irish are not always as effective as intended by their proponents.
+
+
+Many bodies invested in the preservation and study of the Irish language do not do so to the
+exclusion of English. Recently, An Chomhairle um Oideachas Gaeltachta agus Gaelscolaíochta
+“the council on Gaeltacht education and Irish-medium schooling” (cogg.ie) funded research
+examining Irish and English bilingualism in Ireland and the effects it can have on proficiency in
+spoken Irish amongst the young living in Gaeltacht areas (Péterváry, Ó Curnáin, Sheahan and Ó
+Giollagáin, 2014). This was the first major comparative study of its kind into bilingualism in
+Irish and English (Ó Giollagáin, 2014).
+
+
+The findings of Péterváry et al (2014) indicated a clear disadvantage to Irish speakers, with even
+the highest linguistic competency scores in Irish being only comparable in level to the lowest
+scores in English. The researchers described the effect of bilingualism in the Gaeltacht as
+subtractive, with early exposure to English being linked to lower proficiency in Irish. Péterváry
+et al (2014) ascribed this damaging effect to the social role of Irish (even in Gaeltacht areas)
+being lower and less common than English, as well as the status of Irish as a minority language.
+There are fewer opportunities to socialise through Irish in public, with businesses and events
+operating through English first and foremost.
+
+
+Péterváry et al (2014) drew attention to the subtractive nature of this particular kind of bilingual
+environment by collecting data from children in Cois Fharraige and South Conamara in the
+Galway Gaeltacht. This area is described by the researchers as the strongest Irish-speaking area
+                                               14
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+left and they deemed it to be representative of other Irish and English bilingual communities
+within Ireland. They found that the language competency of children who are L2 Irish speakers
+(such as Gaeilscoileanna students from English-speaking homes) do not show the same
+deficiency in their L1 as seen in L1 Irish speakers. Their Irish knowledge does not detract from
+their L1 English, instead it contributes to an additive form of bilingualism. Their L2 ability in
+Irish enhances the social and future career prospects of these children, while not damaging their
+L1 English. Péterváry et al (2014) suggest that the key difference in these scenarios is that
+English is far better represented in media and society, as the majority language in Ireland. This
+increases opportunity and variety of use for speakers, leading to L1 English staying more robust
+when threatened with the addition of a minority L2 such as Irish.
+
+
+Indeed, research in this field often focuses both on the language of the youth and also on the
+influence that English has on Irish. As a result of English being the dominant language in this
+particular contact situation, it is understandable that much of the efforts of the community focus
+on how Irish is being changed or limited by its proximity to English (Bliss, 1981). It is less
+common that studies into Irish Englishes describe change as a result of Irish influence - Hickey
+(1986) justifies this by explaining that while the most Irish influence can be seen in areas where
+Irish is still spoken natively, there are almost no areas left in the Republic of Ireland where
+exclusively Irish is spoken. English is spoken in every Gaeltacht, so even these areas are not
+exempt from English contact.
+
+
+2.2.1. Context of study
+
+
+This study focuses on the inhabitants of the Múscraí Gaeltacht, known in English as Muskerry or
+the Cork Gaeltacht. The area is the smallest Gaeltacht in the country, making up only 262 square
+kilometres, or 6% of the total Gaeltacht area. It is situated in the south-west of Ireland, around 36
+miles away from Cork City itself. Like most other Gaeltacht areas, Múscraí is rural. The main
+settlements in the area are the twin villages of Ballyvourney (Baile Bhuirne) and Ballymakeera
+(Baile Mhic Íre) and the nearby town of Ballingeary (Béal Átha an Ghaorthaidh). It has a
+population of just under 4,000 people, making up 4% of the overall Gaeltacht population
+nationwide (Údarás na Gaeltachta, c2019b).
+Múscraí holds a place of note in the world of Irish folk music and dance, with a popular dance
+                                                15
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+set originating in Múscraí being known as the Ballyvourney set, named for the village. The area
+has been the home of several famous Irish musicians, most notably the traditional musician and
+songwriter Seán Ó Riada and his family (Biletz, 2013). Locals of Múscraí continue to promote
+local culture and the villages are proud to host regular concerts and recitals in Irish. The regional
+office for Údarás na Gaeltachta (henceforth an t-Údarás “the authority”) in Múscraí is situated
+centrally and its staff strive to maintain a relevant role for Irish in the area through numerous
+initiatives and schemes. It is not uncommon in the town centre to see shop frontage and signage
+in Irish, in addition to posters encouraging customers to interact with staff in Irish.
+
+
+Figure 1: The location of the Múscraí Gaeltacht in Ireland (Ó hIfearnáin, 2007. p. 513).
+
+
+
+
+A common initiative promoting Irish in Múscraí is the cooperation with local industry by Údarás
+na Gaeltachta. As laid out in the Gaeltacht Act of 2012, businesses in Gaeltacht Language
+Planning Areas are eligible for extensive support and advice in formulating language plans from
+an t-Údarás staff (Údarás na Gaeltachta, c2019c). Such language plans are formulated on a
+community level, holistically developing strategies that will not impede day-to-day business and
+taking the wishes of nearby residents into account. Aiming not only to encourage the use of Irish
+                                                16
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+in business, another objective of an t-Údarás' efforts is to ensure that Gaeltacht businesses
+guarantee reliable employment in the area for years to come. Sustainability and relevance are
+crucial to industry in Gaeltacht Language Planning Areas, in order to maintain population
+growth and therefore the development of natural Irish language communities. It is for this reason
+that the Muscraí branch of an t-Údarás has supported firms in the communications and
+technology fields, as well as computing and electronics among others. These fields have brought
+international investment into Múscraí and as of 2011, 633 people were employed full-time by an
+t-Údarás client companies (Údarás na Gaeltachta, c2019b).
+
+
+2.2.2. Focus variables
+
+
+As with other regional dialects, the dialect of both Irish and English spoken in Múscraí are
+distinctive. Due to the area's challenging rural landscape, the inhabitants of Múscraí have
+remained isolated and have retained several salient features from centuries of ebbing language
+contact with outside Englishes. This view is taken by Lunny (1981), who described
+Ballyvourney English as being a “type of seventeeth century English” that developed from L1
+Irish speakers using their native phonemic system. Hickey (2004) classifies the majority of the
+English input in the area during the Early Modern period as from the West Midlands of England.
+
+
+The choice to examine the modern language contact situation in this region was simple, as a
+result of the uniqueness of the varieties spoken there. Due to the small geographical size of the
+area and integral role of Irish in the area's identity, Múscraí made for a research zone that was
+both manageable and suitable.
+
+
+Th-stopping
+
+
+Hickey (2004) describes the use of stops in place of the dental fricatives in THIS/THINK lexical
+sets as being a distinctive feature of Southern Irish English. In the West of Ireland, these stops
+are dental in nature, whereas in the East and the South they are alveolar. Múscraí is situated in
+the South West of Ireland and th-stopping involves dental stops in their variety of Irish English.
+Lunny (1981) describes the feature in his study of Ballyvourney English, claiming an Irish origin
+for the dental stop /t/ used in place of English fricative /θ/ in words such as “thick” [tt ɪk] and
+                                                   17
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+”thin” [tt ɪn]. Like Hickey (2004), Lunny argues for a direct transfer of the dental stops from
+Irish.
+
+
+As mentioned previously, Hickey identified th-stopping as being a key feature of Southern
+varieties of Irish English, as well as rhoticity and epenthesis being supraregional features found
+across the country. He described th-stopping as being a feature likely to have origins in the
+dialects of Irish spoken in the South. But with the effects of migration and decline in use of Irish,
+to what extent is th-stopping still characteristic of Southern Irish varieties of English?
+
+
+One study undertaken in 2015 set out to review the use of stops in a community in County Cork
+(Panek, Ferragne, and Zumstein, 2015). Alongside lenition of /t/, Panek et al catalogued the
+levels of dental stops in place of the dental fricatives /θ/ and /ð/ in the speech of sixteen
+inhabitants of Midleton, a settlement near Cork City. Data was gathered by means of a short
+passage read by those taking part and recorded. The passage contained nine words containing
+<th> in varying word positions - 3 with <th> appearing word-initially (think, throats, throw), 3
+word-medially (leather, neither, rather), and 3 with a word-final <th> (smith, teeth, truth). Six of
+the words have the digraph <th> representing a Standard British English pronunciation of /θ/,
+whereas the three appearing word-medially would all generally represent a /ð/. Their findings
+showed a clear preference for the use of stops amongst those surveyed, with the stopped variant
+being used 94% of the time word-initially and 73% word-medially. In word-final context,
+speakers were only slightly more inclined to use a stop than a more fricative (56%). There also
+appeared to be a difference in speaking habits between the genders in the study, with male
+participants opting to use a plosive in 90% of cases overall, whereas their female counterparts
+used them only 64% of the time (Panek, Ferragne, and Zumstein, 2015. p.1). This study
+indicates that there might be some gendered difference in perception of stops. If indeed female
+speakers in Midleton associate th-stopping with some negative social connotations, then their
+lesser use of the feature when compared to their male counterparts would support the traditional
+view that female speakers adhere to more standard forms of language where possible, in order to
+maintain social status (Gordon, 1997).
+
+
+
+
+                                                  18
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+Rhoticity
+
+
+Hickey (2004) describes rhoticity as being a supraregional feature of both Irish and Irish
+English, with the notable exception of Dublin English. Dublin English is only weakly rhotic and
+more recent studies have shown evidence of non-rhoticity becoming increasingly more common
+(Hickey, 2005). Though rhoticity is a common feature across many different varieties of Irish
+English (and indeed in other world Englishes, notably American Englishes), the origin of this
+feature in Irish English is debated.
+
+
+Irish is rhotic and so it might seem reasonable to ascribe Irish English rhoticity to historical
+contact with Irish itself. In Irish English, /r/ continues to be used in all cases where it appears
+orthographically (Hickey, 1985). However, some argue for a more retentionist view - that
+rhoticity in Irish English has its origins in the Englishes spoken by English settlers in early
+modern Ireland (Hickey, 2004).
+
+
+In his appraisal of Dublin English, Raymond Hickey (2005) looked into patterns of rhoticity and
+noted an interesting trend regarding the gender of those advancing linguistic change. In his work,
+he stresses that it is important to clearly make a distinction between several different Englishes
+cohabiting in Dublin, as each develop independently and have differing key features. The
+regional variety he calls “local Dublin English” can be defined as the variety spoken by people
+natively from the city and who use a more conservative, traditional Dublin English to show their
+origin. De-rhoticisation is a common characteristic of local Dublin English, whereas more recent
+varieties that Hickey describes as “non-local” are definitively rhotic. It is suggested that these
+more recent Dublin English varieties are more associated with younger speakers who wish to
+distinguish themselves linguistically as both cosmopolitan and modern, therefore not adopting
+the forms used frequently by traditional Dubliners (Hickey, 2005).
+
+
+When identifying emerging trends in non-local Dublin Englishes, one can see more than just de-
+rhoticisation - the realisation of /r/ as retroflex [ɻ] has also been observed. Notably, Hickey
+(2005) explains that female participants were shown to definitely favour the new retroflex
+pronunciation of target phrases by quite some margin, whereas the males were more split with a
+slight preference for the form with no r-retroflexion. This lends evidence to the theory that
+                                                 19
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+female speakers are indeed more likely to adopt new linguistic trends, especially if there is a
+socially advantageous reason to do so (i.e. to style yourself as belonging to a certain generation
+or class in society) (Labov, 1990). These results also show that while rhoticity is a traditional
+feature of most Irish Englishes, it is a feature that can be phased in and out of use as socio-
+political circumstances change in an area.
+
+
+Though the origin of rhoticity as a feature cannot be confirmed, it is interesting nonetheless to
+examine levels of rhoticity in rural Múscraí with the context of the de-rhoticisation of Dublin
+English in mind during this study. Since rhoticity is a supraregional, standard feature of Irish
+English, it is reasonable for one to expect rhoticity to remain robust in all participants. However,
+if there is any deviation from this norm, it could go two ways. If the speakers of Ballyvourney
+English follow traditional trends for gender, female speakers will be less likely than males to use
+non-rhotic forms. Yet if Hickey's (2005) example of the adoption of retroflex [ɻ] by young
+female Dubliners demonstrates anything, it may suggest that linguistic norms are not concrete
+and may well be challenged by women, even if the feature in question is not socially prestigious
+at first.
+
+
+Epenthesis
+
+
+Another supragregional feature present in Múscraí English is vowel epenthesis. Epenthesis
+occurs naturally in Irish and can be described as the insertion of a schwa vowel (/ə/) between
+two consonants that cannot be combined monosyllabically into a cluster (Hickey, 1986). The
+traditionally accepted view is of a clear Irish transfer for Irish English epenthesis.
+
+
+Table 1: Examples of vowel epenthesis in Irish words (Ní Chiosáin, 1999).
+
+
+            Irish word                    IPA Transcription                English translation
+              borb                           /ˈbˠɔɾˠəbˠ/                         “abrupt”
+              gorm                           /ˈɡɔɾˠəmˠ/                           “blue”
+             dearmad                       /ˈdʲaɾˠəmˠədtˠ/                      “mistake”
+             dearfa                          /ˈdʲaɾˠəfˠə/                        “certain”
+
+
+                                                  20
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+In Irish English, epenthesis occurs similarly to in Irish, yet it is limited to appearing only
+between sonorants. Common examples are “burn” [bʌɹən], “film” [fɪləm] and “arm” [æɹəm].
+Hickey (1986) explains that while some features of Irish English cannot conclusively be said to
+have Irish origins, vowel epenthesis most definitely is as a result of Irish language contact.
+Evidence of epenthesis occuring in Irish English has early beginnings - de Rijke (2018) was able
+to identify myriad examples in a collection of historical emigrant letters from Irish English
+speakers in the Corpus of Irish English Correspondence or “CORIECOR”, spanning in date 200
+years. These examples were indicated orthographically by non-standard spellings that suggest
+epenthetic pronunciation in the Irish English speech of the author. Examples ranged from words
+in which epenthesis can still be observed today ([ˈfarəm] “farm”) to environments where it is
+seen less frequently (/wn/, /dr/, /ŋr/, /fl/, /rl/, /tr/ and /nr/). Perhaps surprisingly, de Rijke found
+examples of epenthesis far less frequently in consonant clusters where it would more commonly
+be found today, for example /ɹn/ and /lm/. This could indicate several things - the writers of these
+sources lived in a different era and their contact with different varieties of English was likely not
+as varied as the average Irish person today, without the advent of radio and the internet. Could it
+be that frequency of epenthesis in one's speech might decrease when exposed to more varied
+forms of English that do not use epenthesis? We cannot say, but the examples found in
+CORIECOR do show robust evidence of epenthesis in varieties of Irish English going back
+several centuries (de Rijke, 2018).
+
+
+As noted prior, epenthesis in Irish English is generally accepted to have originated as a direct
+transfer from Irish. However, this is not accepted by all. Maguire (2018) challenged this view,
+arguing that the diversity in Irish English dialects and the unique environments in which each
+developed makes a direct transfer unlikely. In his 2018 study, comparisons were made between
+examples of epenthesis from Mid-Ulster English and those taken from Irish, English and Scots.
+By providing examples of epenthesis that occur naturally in other languages and dialects that
+came into contact with English historically, he argues that Irish is not necessarily the source of
+epenthesis in modern Irish English.
+
+
+
+
+                                                    21
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+3. Methodology
+
+
+3.1. Data collection process
+
+
+All responses were solicited from participants of 18 years of age and above. This study focuses
+only on the language of adult speakers. The aim was to collect data from 20 participants in total,
+with that number being split between two separate research trips, both in the same area of
+Ballyvourney. The fieldwork took place between the 13-15th of November 2017 and 5-9th of
+February 2018, in sessions during usual business hours and evenings. It was important to attempt
+to recruit equal numbers of female and male participants to take part, in order to make any
+gender comparisons as fair as possible. Age was also a factor to be considered, so where
+necessary, participants were recruited specifically in order to balance out the age range of data.
+
+
+For example, most of the participants recruited during the first data collection period were over
+the age of 40. According to an t-Údarás, one third of the population in the area are under the age
+of 25 (Údarás na Gaeltachta, c2019b). Methods taken to remedy this in the second period of data
+collection included narrowing recruitment to establishments frequented by younger patrons (i.e.
+community centres, local businesses that employ a younger workforce). This proved successful,
+as well as specifically asking participants for recommendations of younger people who might
+take part. Level of fluency in Irish was also controlled - whilst fluency was self-reported, the aim
+was for half of the contributors to the study to be fluent Irish speakers, with the others all
+reporting varying lower levels of ability in the language. Where necessary, participants were
+sourced according to their degree of Irish fluency, in order to provide balance to the participant
+base.
+
+
+All participants were native English speakers, with all participants saying they possessed at least
+some level of Irish also. All participants self-reported at least a Level 3 “Some basic phrases” or
+above on the provided fluency scale, based on the model used by Darmody and Daly (2015). All
+speakers taking part in the study either lived in the Múscraí Gaeltacht or spent much of their
+time working in the area, living nearby. Participants were all asked to recommend friends or
+colleagues that they thought would be willing to participate also, following the Friend of a
+Friend method. Fortunately, most of the local people in the Cork Gaeltacht were very
+                                               22
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+enthusiastic about taking part in the study and the community was fairly close-knit - participants
+often knew each other. Therefore, it was possible for me to recruit several suitable interviewees
+in a relatively short period of time, most of whom were happy to suggest other relevant places or
+people of interest.
+
+
+When first searching for speakers, I sought out local authority figures, such as the village priest,
+various pub landlords, members of staff at the Údarás na Gaeltachta office, as well as other
+people well known in the village. This proved to be a useful tactic, as most of these people cared
+deeply about the Irish language and therefore knew well who else would be willing to contribute
+to my research. Due to the very nature of Gaeltacht areas, it was not difficult to find local people
+who had distinct opinions on the importance of the Irish language being preserved, which
+resulted in some interesting perspectives on the topic.
+
+
+Table 2: A fieldwork sample table for data collection.
+
+
+Fieldwork        N = total study N = male          N = female       N = fluent       N = non-fluent
+date             participants     participants     participants     Irish speakers Irish speakers
+        th
+13-15            12               6                6                4                8
+November                          (1 fluent, 5     (3 fluent, 3     (3 female, 1     (3 female, 5
+2017                              non-fluent)      non-fluent)      male)            male)
+5-9th February 8                  3                5                6                2
+2018                              (2 fluent, 1     (4 fluent, 1     (4 female, 2     (1 female, 1
+                                  non-fluent)      non-fluent)      male)            male)
+
+
+It was made clear to all participants that there was no financial incentive in return for taking part;
+that they would be kept anonymous and their data confidential and that they could revoke their
+consent to take part at any time. All participants signed consent forms acknowledging that they
+understood this, prior to taking part. In addition, each participant received a full written
+explanation of the data collection process. After giving some preliminary background
+information (i.e. gender, home town, level of Irish fluency etc.), they would begin by listening to
+a series of short sound files, consisting of an Irish English speaker saying an English focus word
+twice. They would then take part in a simple attitudinal questionnaire about Irish culture and
+                                                 23
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+language, then asked to read two short reading passages out loud. This was recorded and
+followed by a brief interview where they would be asked to discuss their perceptions and
+opinions of Irish culture. These recordings would then later be transcribed. All interviewees gave
+their full consent and were informed of what their contributions would be used for.
+
+
+However, it was found quickly that how the study was initially introduced to a potential
+participant played a large part in successfully recruiting local people. Originally, various
+potential contributors to the study refused to take part once they learned that it involved
+discussion of Irish. Most of these people declined quickly on the basis that they did not speak
+Irish well and did not enjoy speaking it - any attempts to persuade them that their opinions on the
+topic would still be valuable unfortunately did not move them. This was not overly surprising, as
+even in Gaeltacht areas, many speakers' feelings towards Irish can be conflicted - not all
+Gaeltacht residents are fluent Irish speakers and they may feel shame or pressure regarding this.
+Once the study began to be framed as focusing on the English spoken in the Gaeltacht and the
+participants' opinions on culture and language, local people were a lot more receptive to giving
+their time, even those who spoke Irish proudly and natively.
+
+
+Each person heard thirteen short sound files and were assured that they could hear them as many
+times as they liked. The sound files consisted of recorded English words being produced in two
+different and distinct ways each by native Irish-speaking participants. Recordings from two
+different speakers (one male in his early fifties, one a younger woman in her late teens) were
+deliberately chosen, with participants alternately hearing sound files from both speakers. This
+was in an attempt to combat any bias that listeners might experience as a result of personally
+held convictions regarding the focus phonological features and speaker gender (for example, if a
+participant predominantly associated epenthesis with older male speakers). In the sound files, the
+focus variants are split evenly as possible between the two speakers (7 words voiced by the male
+speaker and 6 by the female speaker) - participants heard files containing rhoticity, epenthesis
+and th-stopping from both speakers. A list of which words were voiced by each speaker can be
+seen in Table 3.
+
+
+Both of the recorded speakers used in the sound files grew up in the south of Ireland and speak
+English and Irish. They self-reported their levels of Irish fluency as being Intermediate and
+                                                 24
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+described both the Irish and Irish English dialects they speak as being Southern in nature, with a
+specific focus on Cork city. While the city of Cork is just outside the Múscraí Gaeltacht area, the
+varieties of Irish English spoken in the two areas are extremely close and include the
+supraregional phonological features examined in this study, as well as the characteristically
+Southern use of dental stops [tt dt] in place of the fricatives [θ] and [ð]. In addition to this, it
+added another layer of analysis: using two speakers allowed me to question whether or not there
+seemed to be a correlation between age or gender of the participant and reporting use of certain
+features.
+
+
+Table 3: The focus words used in the sound file segment.
+
+
+Focus feature         English word         IPA of first         IPA of second         Speaker heard by
+                                           production           production (with      participants
+                                           (without focus       focus feature)
+                                           feature)
+Th-stopping ([tt ]    Thing                [θɪŋ]                [tt ɪŋ]               Female
+in place of /θ/)
+                      Earth                [əːɹθ]               [əːɹtt ]              Female
+                      Thirst               [θəːɹst]             [tt əːɹst]            Male
+Th-stopping ([dt]     There                [ðɛːɹ]               [dtɛːɹ]               Female
+in place of /ð/)
+                      They                 [ðeɪ]                [dteɪ]                Male
+                      That                 [ðat]                [dtatt ]              Male
+Epenthesis            Burn                 [bəːɹn]              [bəːɹən]              Male
+                      Arm                  [æɹm]                [æɹəm]                Female
+                      Film                 [fɪlm]               [fɪləm]               Male
+Rhoticity             Card                 [kɑːd]               [kɑːɹd]               Female
+                      Harp                 [hɑːp]               [hɑːɹp]               Female
+                      Park                 [pɑːk]               [pɑːɹk]               Male
+                      Bar                  [bɑː]                [bɑːɹ]                Male
+
+
+After listening to each sound file, the participants individually then had to indicate which one of
+
+                                                      25
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+the two words in the sound bite sounded more like the way they thought they themselves would
+produce it. They did this by putting a tick or some other mark in the boxes provided on the
+question sheet. In several cases, listeners recorded having heard no difference between the two
+productions on a recording: in these cases, I instructed them to listen to them once more and that
+if they still heard no difference, to simply make an asterisk next to the word on the form. The
+next section of the data collection process (Section 2) was the attitudinal section, which in some
+cases (i.e. where the participant had very little time to give) was recorded in place of the
+interview and the participant was encouraged to discuss their reasons out loud for their answers
+after each question. This did not cause any problems whatsoever, as almost every person who
+took part began to discuss them with me naturally anyway. From time to time, gentle
+encouragement that there would be a designated recorded time for their viewpoints and stories
+had to be given. This section was made up of a series of statements relating to participant
+opinions on Ireland, Irish life, culture and language. The participant's task was to indicate their
+own perception of these issues by means of a five point Likert scale, depending on how true or
+applicable they felt that statement was to them. They would tick or cross the box underneath the
+scale next to each statement, with headings ranging from “Strongly Agree” to “Somewhat
+Agree”, all the way to “Strongly Disagree”.
+
+
+Table 4: An example of the statements given in the attitudinal section of the questionnaire,
+with a 5 point Likert scale, inspired by the scale used by Darmody and Daly (2015).
+
+
+                         1                 2                3                 4                5
+                   Strongly Agree     Somewhat       Neither Agree       Somewhat         Strongly
+                                        Agree         nor Disagree        Disagree        Disagree
+I like living in
+Ireland.
+
+
+Most participants reported having little trouble understanding the questionnaires; however, there
+were often conditions for their answers (for example, they might agree that all school lessons in
+Ireland should be presented in Irish, but not feel that it would be feasible) - they were instructed
+to note these down on their question sheets where possible. Following the attitudinal section, the
+production section (or interview, labeled as Section 3) was recorded. The participants were
+                                                26
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+instructed that a relaxed interview was to follow in order to discuss some of the topics raised in
+the questionnaire. The conversation usually began by letting the participant know that we were
+being recorded from now on and then asking them about one or two of their particularly strong
+responses to a statement on the attitudinal section.
+
+
+Wherever possible, the speakers were left to speak uninterrupted, with agreement and
+encouragement from the researcher where necessary. The aim of this segment was to inspire
+natural speech, so in several cases, the conversation was permitted to wander into tangents and
+develop organically. This atmosphere ensured that the interview did not seem forced or too
+formal, therefore resulting in a more relaxed speaker. It was also for this reason that on one
+occasion, three elderly speakers were allowed to participate and be recorded together in a group.
+They had taken their questionnaires separately and individually, yet all felt nervous and
+uncomfortable about being interviewed and recorded in isolation. Deciding that it was better to
+receive mixed audio than none at all, this seemed to be a scenario that would be reasonable to
+accommodate and all three speakers felt much more at ease as a result.
+
+
+In addition to ensuring the comfort of my participants, I tried my best to use certain words that
+would elicit the production of the target phonological features of this project. In particular,
+epenthesis is classed in literature as a distinctive and strong supraregional feature of Irish
+English - yet there was a possibility that it could manifest infrequently or not at all in such a
+short passage of conversation. Not wishing to rely on chance, I often chose to include the word
+“film” in questions to my speakers. This was easy enough to insert into conversation without
+detection, as one of the statements in Section 2 was relating to Irish film and television. This
+gave participants the chance to discuss their views on the topic while influencing them to
+produce a word which was a suitable and common environment for epenthesis to take place.
+
+
+Overall, all speakers contributing to the study were asked for only five minutes of their time
+each for Section 3. This was done in order to maximise the number of responses. Fortunately,
+most contributors were more than happy to talk for longer than this - the average conversation
+length was 12 minutes and 30 seconds. While longer interviews would of course have been
+preferable, participants were often limited for time - once all the necessary paperwork and
+questionnaires had been completed, ten minutes could easily have elapsed. Once the
+                                             27
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+conversation reached a natural conclusion or the speaker wished to finish, participants were
+informed that the recording was about to stop and that now was the time for any further
+remaining questions they might have. The recording was then stopped and their sound files were
+saved whilst making all the necessary last checks to paperwork and consent forms.
+
+
+In the second fieldwork trip, an extra section was added to the data collection process to increase
+the number of tokens gathered. This section was made up of two brief reading passages to be
+read aloud by the participants, prior to the interview. The two passages chosen were “The North
+Wind and The Sun” from Aesop's Fables (International Phonetic Association, 1999) and
+“Comma Gets a Cure” by Jill McCullough & Barbara Somerville (2000). Both of these texts
+contain all the phonemic contrasts of English and are recommended by the International
+Phonetic Association for use in dialect research. These reading passages provided more tokens
+and allowed for a natural conversation point at the beginning of each interview. Each participant
+was informed that they were being recorded and was asked to read the two passages aloud. They
+then were asked to re-tell the story of “The North Wind and The Sun” in their own words. This
+ensured further recorded material and more natural speech.
+
+
+During the first fieldwork session, all interviews were captured using the simple microphone
+facilities and recording software available on my laptop with Windows 10. This proved to be a
+most convenient solution whilst travelling, as travel limitations did not provide the room for
+more extensive recording equipment. Several participants reported that they preferred this
+method of recording their interviews, as they found it easier to forget that they were taking part
+in a study and speak more naturally without a large microphone in their face. Of course, this was
+desirable in order to elicit the most natural speech from the speakers. A drawback of using a
+generic laptop microphone in favour of using a more complex separate device was an increase in
+background noise. This was an issue due to some of the interviews taking place in public areas,
+such as cafes and community centres. While recording in these areas was both convenient and
+set participants at ease, some interference and mild noise pollution was unavoidable.
+
+
+However, the sound issues present on recordings from the first data collection session were
+easily remedied with the sound editing software Audacity. Some simple editing significantly
+improved the quality of the more noisy public recordings and allowed for better and more
+                                               28
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+accurate judgements in transcribing the audio.
+
+
+During the second data collection session, all recordings were captured using an Olympus VN-
+540PC portable dictophone. This solved previous issues with background noise and recording
+clarity, as the model used is equipped with specific noise-cancelling modes for designed for
+recordings in the field. It was also found to be convenient for transport between interviews, due
+to its relatively small size. This method produced recordings superior in quality than those
+gathered on the first data collection period, though some additional editing of those interviews
+was needed at times for purposes of clarity.
+
+
+When making transcriptions of participant conversation, the word processor Microsoft Word was
+used. If this study were to be replicated in the future, the use of said dictophone would be
+encouraged. This format of recording is suitable as it strikes a balance between upkeep of
+auditory quality and integrity, whilst also fostering a comfortable, un-intrusive atmosphere for all
+participants. In addition to the recording technology used in the study, additional logistical
+measures could further improve the data collection process. For example, prior organisation of a
+research-specific environment (e.g. a quiet back room of a local bar or church hall) in the area
+could ensure less noise-polluted samples and fewer distractions for study participants.
+
+
+3.2. Methods of analysis
+
+
+Data analysis was undertaken after the completion of both fieldwork trips. Prior to analysis,
+responses to each questionnaire were noted and organised individually in a word processor.
+Participants were grouped by demographic for ease of analysis, with self-reported level of Irish
+fluency and gender being the focus variables. When processing the recordings of participant
+interviews and the additional reading passages, all utterances were transcribed manually with all
+environments for the focus phonological features being highlighted. The recordings were then
+played back and the number of tokens for each per speaker was counted and noted. It was
+sufficient for analysis to be auditory in nature, as the focus variants were relatively easy to
+distinguish from each other. Microsoft Word and Microsoft Excel were the programs used to
+process the raw data and conduct all statistical testing.
+
+                                                 29
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+All descriptive statistics were done manually, but the responses to the questionnaires and
+interviews had to be analysed for statistical significance using Fisher's Exact Test. This was used
+in favour of a Chi Squared Test, as some of the token sizes were low in numerical value,
+especially the results of the sound file section.
+
+
+4. Results
+
+
+In initial questionnaires, half of all participants described themselves as being a fluent speaker of
+Irish, with the remaining participants reporting lesser degrees of fluency. All participants taking
+part in the study reported some knowledge of Irish, ranging from “3. Some basic phrases” to “6.
+Fluent, Native Speaker”. The fluent Irish speakers consisted of three males and seven females,
+whereas the less fluent speakers were more evenly split by gender, being made up of six males
+and four females. Participants ranged in age from 22 to 70 years of age.
+
+
+As part of the personal information sheet included in the questionnaire, participants were asked
+to give their social class. No options were included on the form, only a space for the participant
+to note down their own response. Only one participant would answer this question seriously,
+with every other participant either refusing to answer or indicating that they did not recognise
+social class (for example, writing “no class” or “human”). These responses (or lack thereof)
+indicate a trend amongst those interviewed of viewing Irish society as largely “classless”. This
+may or may not be the case (Irish Post, 2013), but it does prevent observations from being made
+between social class and the levels of the focus features being studied.
+
+
+4.1. Participant attitudes and perceptions
+
+
+In the attitudinal section of the questionnaire, results were remarkably similar across all groups.
+All statements (see Appendix) focused on the role of the Irish language in national identity;
+traditional culture and in daily life, as well as the participants' perspective of their own identity
+and culture. Responses to the questionnaire indicated a firm sense of Irish identity in those
+surveyed, with 100% of respondents saying that they strongly agreed with the statement “I feel
+strongly Irish” and 95% of respondents strongly agreeing with the statement “I like living in
+Ireland”. Positive views could also be observed regarding the role of Irish in traditional cultural
+                                               30
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+activities: 85% of respondents strongly agreed with the statement “I feel that the Irish language
+is central to traditional Irish culture (traditional dance, music, etc)”.
+
+
+With the 5 point Likert scale used, a lower score indicates a generally positive view of Irish and
+the efforts used to keep it relevant in Irish society. Opinions given by participants were more or
+less homogeneous, with very little variation. The statements that did elicit more difference in
+opinion referred to speaking English (“I am proud to speak English”, with only 55% agreeing to
+some degree and 40% of respondents neither agreeing nor disagreeing), the representation of
+Irish in daily life (“I wish I had more opportunity to speak Irish in the home”, with 40% of
+participants neither agreeing nor disagreeing with the statement) and making the use of Irish
+mandatory in education (“I feel that all school lessons should be taught in Irish throughout
+Ireland.”, with 15% somewhat disagreeing with this statement and a further 15% strongly
+disagreeing). The statement “I feel that it is important to speak Irish well in order to get ahead in
+the workplace in Ireland” was also extremely polarising, with 35% of participants strongly
+agreeing and 30% strongly disagreeing.
+
+
+For each statement, the average scores were calculated for both genders and fluent vs non-fluent
+Irish speakers. Using Fisher's Exact test, no significant trends could be observed between the
+attitudes of either gender, nor between fluent and non-fluent speakers.
+
+
+Due to lack of variation in speaker attitudes on Irish language and culture, it was not possible to
+categorise participants according to their views in this study. A reasonable explanation for these
+results could be simply that by living and working in a Gaeltacht area, an inhabitant might
+demonstrate a sympathy for Irish language conservation and traditional culture. In future
+research, greater diversity in speaker perceptions could perhaps be found by focusing on
+communities in the border region of a larger Gaeltacht. This might lend more opportunities to
+survey members of different language communities in the area, therefore increasing the
+likelihood of more diversity in Irish language attitudes.
+
+
+While no evidence could be found of a relationship between positive attitudes towards Irish and
+language fluency, valuable information can be gleaned from the attitudinal questions
+nonetheless. By identifying the subjects of statements that inspired disagreement amongst
+                                                 31
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+participants, some suggestions could be made for topics to be included in future attitudinal
+research in the area. Disagreement over mandatory use of Irish in the media and in schooling
+shows that there is nuance in the participants' individual experiences of the Irish language, as
+well as the need for careful discussion of the effectiveness of language conservation efforts in
+minority language communities.
+
+
+4.2. Th-stopping
+
+
+Sound files
+
+
+When listening to the sound files containing words with th-stopping, both genders reported that
+they were more likely to use the unstopped form [θ] than [tt ] (respondents indicated use of [θ] in
+73% of cases, N = 44). However, the difference in how frequently men and women reported use
+of the stopped variant was found to be statistically significant when using Fisher's Exact test (p =
+0.0396). Female speakers were even less likely to report that they would use the stopped form [tt ]
+than male speakers, reporting that they would do so in only 15% of examples (N = 5). No
+significant relationship between the native fluent speakers and non-native speakers could be
+observed in the responses to the sound files.
+
+
+
+
+                                                32
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+
+                            Figure 2 - : The use of [tt ] stops by gender in sound files.
+
+                       30                                                          85%
+
+                       25
+
+                       20
+    Number of tokens
+
+
+
+
+                                              59%                                            [tt ]
+                       15                                                                    [θ]
+                                 41%
+                       10
+                                                                    15%
+                       5
+
+                       0
+                                       Male                               Female
+
+
+All participants generally favoured the [ð] variant in sound files, reporting that they would use
+the word containing [ð] 80% of the time (N = 48) versus using [dt] in only 20% of cases (N =
+12). No significant difference could be observed in perception of the [dt] between fluent-non-
+fluent groups or male-female groups when tested using Fisher's Exact test.
+
+
+Interviews
+
+
+In interviews, male speakers were found to be far more likely to use a [tt ] stop than an unstopped
+variant, opting for [tt ] stops on 68% of occasions (N = 149). Their female counterparts were the
+opposite, using [tt ] only 14% of the time (N = 28). When using Fisher's Exact test, the differences
+between male and female use of [tt ] in the interview was found to be significant (p = <0.00001).
+However, using the same statistical test, no significant relationship between level of fluency and
+frequency of use of the [tt ] stop could be observed in these responses.
+
+
+
+
+                                                          33
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+                               Figure 3 - : Use of [tt ] stops by gender in interviews.
+
+                        180                                                            86%
+                        160           68%
+                        140
+                        120
+     Number of tokens
+
+
+
+
+                                                                                                   [tt ]
+                        100
+                                                                                                   [θ]
+                        80                          32%
+                        60
+                        40                                              14%
+                        20
+                         0
+                                             Male                             Female
+
+
+                                 Figure 4 - : Use of [dt] stops by gender in interviews.
+
+                        1400
+                                                    77%
+                        1200
+                                                                                       98%
+                        1000
+     Number of tokens
+
+
+
+
+                        800                                                                        [dt ]
+                                                                                                   [ð]
+                        600
+
+                        400            23%
+
+                        200
+                                                                         2%
+                          0
+                                             Male                             Female
+
+
+Concerning the use of [dt] stops in the interviews, both male and female participants were more
+likely to use [ð] than [dt] when speaking (on 86% of occasions, N = 2236). However, males used
+the [dt] stopped form more frequently than female speakers, with men using [dt] in 23% of cases
+(N = 358) compared to only 2% of the time by women (N = 19). This relationship was found to
+be statistically significant using Fisher's Exact test, with a p value of <0.00001. Fluent Irish
+speakers were slightly more likely to use a [dt] stopped variant (in 16% of cases, N = 255) than
+the non-native speakers (in 12% of cases, N = 122); however, both groups still were more likely
+
+                                                             34
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+to use no stop ([ð] was used in 86% of cases across all participants, N = 2236). Though the
+difference in use was small, it was found to be significant using Fisher's Exact test (p = 0.0007).
+
+
+From the responses of those who also took part in the reading tasks, several significant results
+were found. Firstly, female speakers were observed to use both [tt ] and [dt] stops less frequently
+(overall female use of stopped variants was 3%, N = 10) than male speakers reading the same
+texts (overall male use of both stops was 41%, N = 110). Not only were the male participants
+more likely to use both stopped varieties more often than females, they used the [tt ] stop more
+frequently than [θ] in the reading tasks (males used [tt ] in 69% of instances, N = 36). The
+relationships between participant gender and use of both the [tt ] stop and the [dt] stop were found
+
+
+                              Figure 5 - : Use of [tt ] and [dt] stops by gender in reading tasks.
+
+                        300
+                                                                                                 99%
+                        250
+
+                        200
+     Number of tokens
+
+
+
+
+                                                                               66%                           Stopped variant
+                        150
+                                                                                                             Unstopped variant
+                        100                                            34%
+                                                           89%
+                        50       69%
+                                        31%         11%                                    1%
+                         0
+                                Male [θ] or [tt ] Female [θ] or [tt ] Male [ð] or [dt] Female [ð] or [dt ]
+                                                        Participant gender
+
+
+to be significant using Fisher's Exact test, with both p values being <0.00001.
+
+
+There also appeared to be a strong association between Irish fluency and use of the [dt] stop in
+the reading passages. While both fluent and non-fluent participants were more likely to use a
+non-stopped variant in the reading tasks ([θ] and [ð] were used 80% of the time across all
+participants, N = 483), the fluent native speakers favoured non-stopped variants even more than
+their non-fluent fellows. Fluent speakers used non-stopped variants in 85% of cases (N = 341),
+compared to the 71% used by non-fluent Irish speakers (N = 142). The p value of this data was
+0.0003 when using Fisher's Exact test, indicating a significant connection between speaker
+
+                                                                          35
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+fluency and use of the [dt] stop in the reading tasks.
+
+
+4.3. Rhoticity
+
+
+Rhoticity is a supraregional feature of almost all Irish Englishes that is free from social stigma.
+Hickey (2004) even described its absence (along with h-dropping) in Irish English contexts as
+being a sure-fire sign of that the speaker is not Irish. With Irish being chiefly rhotic also, it could
+be reasonably expected that the speech of the people of Múscraí would be predominantly rhotic,
+regardless of if the Irish spoken in the area has any influence over this feature. A weakening of
+rhoticity in Múscraí English would be interesting, as it could indicate that outside speech
+communities are influencing language change in the area.
+
+
+Sound files
+
+
+No significant connection could be observed between gender of the participant and rhoticity in
+the responses to the sound files, when tested using Fisher's Exact test. Female speakers reported
+use of the rhotic variant 91% of the time (N = 40) and males that they would use the rhotic
+variant in 78% of examples (N = 28).
+
+
+When split according to Irish fluency, it was found that fluent Irish speakers and non-fluent
+speakers showed the exact same results regarding rhoticity. Both groups perceived that their
+speech would be rhotic predominantly, reporting use of the rhotic variant 85% of the time
+(Rhotic variant N = 34, non-rhotic variant N = 6). Fisher's Exact test did not find this to be
+significant.
+
+
+Interviews
+
+
+In interviews too, all participants were chiefly rhotic: non-rhotic forms occurred in only 0.56%
+of occasions (N = 27). However, an association could be seen between gender and rhoticity in
+the interviews, with female speakers using non-rhotic forms more frequently than the males.
+Female participants used non-rhotic forms 1% of the time (N = 24), compared to male speakers
+reporting use of non-rhotic forms in only 0.1% of cases (N = 3). This association was seen to be
+                                               36
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+significant, with a p value of <0.00001 when tested using Fisher's Exact test.
+
+
+Natively fluent Irish speakers too were discovered to be more likely to use non-rhotic
+realisations than their non-fluent counterparts. Surprisingly, the speech of fluent Irish speakers
+was found to be non-rhotic in 0.8% of cases (N = 23), compared to non-fluent use amounting to
+only 0.2% (N = 4). Though occurring in less than 1% of environments for potential rhoticity, the
+relationship between speaker fluency and non-rhoticity was found to be significant (p = 0.0028)
+when using Fisher's Exact test.
+
+
+Using the same statistical test, no significant trends could be observed in rhoticity levels in the
+reading passages - only 3 tokens of non-rhoticity were observed, all by fluent Irish-speaking
+male speakers (accounting for 0.2% of all occasions for rhoticity in the reading tasks).
+
+
+4.4. Epenthesis
+
+
+Sound files
+
+
+When listening to the sound file section of the questionnaire, male participants reported that they
+would be more likely to use the epenthetic form of the focus words (accounting for 63% of the
+sound files, N = 17) than the version not containing epenthesis, e.g. [æɹəm] for “arm”. Female
+participants were more evenly split, being almost equally as likely to report use of the epenthetic
+form as the non-epenthetic version (use of the epenthetic variant was reported in 48% of cases,
+N =16). However, the differences between the genders in the use of the feature was not found to
+be statistically significant when using Fisher's Exact test.
+
+
+Level of Irish fluency too showed no significant relationship to frequency of epenthesis in the
+sound file section. Fluent speakers stated that they would use the version of the word containing
+epenthesis twice as often as they chose the ones without (epenthetic variants were chosen 67%
+of the time, N = 20), whereas non-fluent participants were more likely to opt for the non-
+epenthetic variants of the focus words (making up 43% of their sound file responses, N = 13).
+However, this was again not seen to be statistically significant when tested with Fisher's Exact
+test.
+                                                 37
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+Interviews
+
+
+The interview section of the questionnaire yielded very little evidence of epenthesis - only two
+examples could be found across all the conversations. Both examples were epenthetic forms of
+the same word - “girl” [ɡɛɹəl] - spoken once each by two participants. One speaker was female
+and a non-fluent Irish speaker, while the other was a natively fluent male. The only feature the
+two speakers shared was age, as both were aged in their early sixties. The relationship between
+these instances and any demographic the speakers belonged to was observed to be not
+significant, due to the tiny sample size and the lack of any shared demographic between the two
+speakers of these tokens.
+
+
+Reading tasks
+
+
+No instances of epenthesis manifested during the reading task section of the study, despite ample
+opportunities being presented in both “The North Wind and The Sun” and “Comma Gets a
+Cure”.
+
+
+4.5. Participant comprehension issues during sound-files
+
+
+During the sound file segment of the questionnaire, an unexpected problem occurred. Nine of the
+thirteen audio files used in the study yielded at least one instance of a participant struggling to
+hear a difference between the two versions of the focus word - two containing rhoticity, four
+containing th-stopping and all three examples of epenthesis. Most files resulted in only one
+instance of difficulty, which was remedied quickly by repeating the recording a second time.
+This was not the case however for the three files containing epenthesis. All three examples
+yielded multiple requests for the audio file to be repeated with the participants still not being
+able to discern any difference. The word “burn” seemed troublesome in particular, with five
+participants struggling to hear a difference between [bə:ɹn] VS [bə:ɹən].
+
+
+
+
+                                                 38
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+
+   Figure 6 - : Number of occurrences of participant1comprehension difficulties per focus word.
+
+                                                                  2
+                                  5
+                                                                                           Burn 5
+                                                                                           Card 1
+                                                                      1                    Earth 1
+                                                                                           Arm 2
+                                                                                           Thirst 1
+                                                                                           Film 2
+                                                                      2
+                                                                                           They 1
+                                  1                                                        Park 2
+                                                                                           That 1
+                                        1                     1
+                                                   2
+
+
+
+
+Of sixteen such instances in total, 87.5% of the speakers reporting comprehension issues
+identified themselves as fluent Irish speakers. However, when all responses to the listening tasks
+are grouped according to reported fluency of the speakers (tagged as fluent or non-fluent), no
+patterns can be observed. This is the case across all thirteen of the audio files with no observed
+trends between the three focus phenomena. When examining if there was a significant link
+between degree of Irish fluency and difficulty in distinguishing epenthetic forms, no significant
+relationship was found using the Fisher's Exact test. The same can be said for participant gender,
+as the same difficulties were experienced equally by male and female participants.
+
+
+
+
+5. Discussion
+
+
+5.1. Revisiting research questions
+
+
+After viewing the results given in the previous chapter, it is prudent to revisit the research
+questions posed in the Introduction of this thesis. The aim of this study was to explore the
+following question:
+
+
+To what extent does Irish fluency affect the prevalence of “Irish-flavoured” phonological
+                                                 39
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+features in Irish English?
+In addition to the above main research question, the following questions were also explored in
+the course of this study.
+
+
+Are the dental stops [tt dt] more likely to replace English /θ/ and /ð/ in Irish English speakers
+who report higher levels of Irish fluency? If so, to what extent?
+
+
+Are less fluent Irish speakers more likely to be non-rhotic in their Irish English speech
+than those with a greater degree of Irish fluency?
+
+
+Can higher levels of epenthesis be found in the English speech of more fluent Irish speakers
+than their less Irish-fluent counterparts?
+
+
+Does the gender of a speaker affect the level of Irish-influenced features found in Irish
+English?
+
+
+When relating these questions to the results of this research, the following can be observed: both
+level of Irish fluency and speaker gender do indeed seem to affect the use of certain Irish-
+influenced phonological features chosen in this study.
+
+
+5.2. Use of dental stops [tt dt] in place of [θ] and [ð]
+
+
+In interviews, speakers of all backgrounds were usually more likely to use fricatives [θ] and [ð]
+than the stops [tt dt] (fricatives were used in 82% of cases, N = 2474). This would support the idea
+that th-stopping is declining in Múscraí. When stops were used however, there was a clear
+pattern in gendered use. The dental stop [tt ] was actually produced by male speakers more
+frequently than [θ] (stops used on 68% of occasions, N = 149), which indicates that the male
+speakers surveyed were comfortable with using the more distinctly Irish form. However, female
+speakers showed the opposite results, producing the standard fricative [θ] more often than a
+plosive (stops only accounted for 14% of female results, N = 28). The relationship between
+gender and use of the dental stop [tt ] was found to be significant, with a p value <0.00001 when
+using Fisher's Exact test. When examining [dt] stops, both genders also showed a preference for
+                                                40
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+the unstopped form [ð] ([ð] was used on 86% of occasions, N = 2236). However, in the instances
+where these [dt] stops were used, male participants were seen to be significantly more likely to be
+responsible than their female counterparts (with men using [dt] in 23% of cases, N = 358,
+compared to only 2% of the time by women, N = 19). The relationship between use of [dt] stops
+and gender in interviews was also found to be significant, with a p value of <0.00001.
+
+
+These same gendered trends can be seen in the results of the reading tasks undertaken by
+participants in the second fieldwork period. Males used both [tt ] and [dt] more often than female
+speakers to a significant degree (males used stopped variants 41% of the time, N = 110, versus
+women using stops only 3% of the time, N = 10) and even used [tt ] more frequently than [θ]
+(males used [tt ] in 69% of instances, N = 36). The relationships between participant gender and
+use of both the [tt ] stop and the [dt] stop were found to be significant using Fisher's Exact test,
+with both p values being <0.00001. This corroborates the findings in the listening and interview
+sections of the paper, indicating a consistent tendency towards th-stopping in the males of
+Múscraí, a behaviour not shared by the women who took part.
+
+
+Similar results were found by Panek et al (2015) in their study into lenition of /t/ and use of
+dental stops in Midleton, near Cork. They found that male participants used stopped variants in
+90% of cases overall, whereas their female informants used them only 64% of the time. The
+findings by Panek et al provide further evidence for a male-led preference for dental stopping in
+the wider Cork area.
+
+
+Similar observations can be made when analysing the data according to degree of Irish fluency.
+In interviews, fluent Irish speakers were slightly more likely to use a [dt] stopped variant (in 16%
+of cases, N = 255) when compared with the non-fluent speakers (who used [dt] in 12% of cases,
+N = 122). Both groups still were more likely to use no stop ([ð] was used in 86% of cases across
+all participants, N = 2236). The relationship between Irish fluency and use of [dt] stops was
+found to be significant using Fisher's Exact test (p = 0.0007). This would support the hypothesis
+that native Irish speakers would be more likely to use phonological features in English that have
+their origins in Irish.However, the results of the interviews conflict with those found in the
+reading tasks. While both native and non-native speakers still preferred to use forms with no
+stop, non-fluent Irish speakers were more likely to use [dt] stops in reading tasks than their
+                                                41
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+natively fluent counterparts, to a significant degree (non-fluent speakers used [dt] in 29% of cases
+(N = 40), compared to only 15% of the time by fluent Irish speakers (N = 37)). The p value of
+this data was 0.0003 when using Fisher's Exact test. This defies expectations and gives evidence
+against the hypothesis that Irish fluency correlates positively with higher use of Irish-influenced
+features in English.
+
+
+It could be suggested that the disparity between speaker performance in the reading tasks and in
+interviews are as a result of conscious effort. The fluent native speakers of Irish might perceive
+th-stopping in Irish English to be more stigmatised than their non-fluent neighbours, leading to
+them being hyper-aware of its use and taking greater efforts to avoid stops in their own English
+speech. This could be a pattern of linguistic behaviour that took root in childhood, with
+bilingualism in Irish and English requiring additional processing time when using their L2,
+English. This could have led to a learned avoidance of th-stopping into adulthood, as they
+associate the stops with negative rural stereotypes - as mentioned, in interviews several
+participants expressed negative opinions of speakers who use th-stopping. Such performative
+efforts would be more likely to be forgotten in the interview section as time went on, as the
+interviews were casual in nature in order to elicit more natural speech from the participants. The
+less formal atmosphere of the interviews could account for the rise in use of dental stops of both
+kinds.
+
+
+Another suggestion is that it is the non-fluent Irish speakers who are altering their speech in the
+reading tasks. A non-fluent Irish speaker might feel the need to try and make up for their lack of
+ability in Irish by using Irish English forms they perceive as being distinctly Irish in character.
+This could account for the higher use of [dt] stops by non-fluent Irish speakers during the reading
+passages. As said previously, such performative efforts would be gradually forgotten as the
+speaker relaxes and focuses on conversation during the interview section instead. This would
+lead to an increase in use of [dt] by non-fluent speakers during the reading passages, then a drop
+in its use once the interviews have begun.
+
+
+5.3. Loss of rhoticity
+
+
+While all speakers were chiefly rhotic throughout, two interesting associations could be
+                                               42
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+observed: both female speakers and fluent Irish speakers were found to lead in using non-rhotic
+variants in the interview section of the study. Female participants used non-rhotic forms 1% of
+the time (N = 24), compared to only 0.1% of male speech being non-rhotic (N = 3). This
+relationship was found to be significant, with a p value of <0.00001 when tested using Fisher's
+Exact test.
+
+
+The speech of fluent Irish speakers was found to be non-rhotic in 0.8% of cases in interviews (N
+= 23), compared to non-fluent use amounting to only 0.2% (N = 4). Though occurring in less
+than 1% of environments for potential rhoticity and the token size being small, the relationship
+between speaker fluency and non-rhoticity was found to be significant (p = 0.0028) when using
+Fisher's Exact test.
+
+
+These patterns of rhoticity also give evidence against two of this study's hypotheses. Firstly, that
+a higher degree of Irish fluency would correlate with increased use of Irish English speech
+features that originate in Irish. Secondly, that female speakers will adhere to local linguistic
+standards and avoid features that deviate from the norm. Hickey (2004) describes rhoticity as a
+supraregional feature of Irish English and while de-rhoticisation is not always stigmatised (for
+example, some forms of Dublin English are traditionally weakly rhotic in nature), non-rhotic
+forms are not standard in most Irish Englishes.
+
+
+Historically, it has been expected that female speakers will avoid deviation from whatever
+prestigious standard form is spoken, especially if these deviations are perceived to carry a social
+stigma (Labov, 1990). Paradoxically however, it is often found that women are the first to
+support language change by adopting new forms. Hickey (2005) drew attention to such a
+scenario when he focused on a burgeoning linguistic situation in Dublin. Surprisingly, he found
+that young females took the lead in using a retroflex /r/ in place of the more standard /r/ in their
+rhotic dialect of Dublin English. The women who used this feature were predominantly young
+and spoke a dialect of Dublin English that came to be associated with a more modern,
+cosmopolitan Dubliner. This dialect (Hickey terms it “non-local Dublin English”, in contrast to
+the more traditional “local Dublin English”) formed partly to distance its speakers from the older
+generation of Dubliners. The flexibility shown by the women of this speech community in
+adopting retroflex /r/ gives evidence to show that language change in Irish English can be
+                                                43
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+female-led. When put in the context of Hickey's research on retroflex /r/ in Dublin English, the
+results of this study support the theory that female speakers will not always avoid the adoption of
+non-standard forms.
+
+
+5.4. Epenthesis
+
+
+Regarding epenthesis in the speech of those surveyed, unfortunately no patterns could be found
+whatsoever. This is because there simply was not enough data made available during the study
+(only 2 examples across all speaker interviews and reading passages) to form any solid
+conclusions about the interaction between fluency in Irish and the level of epenthesis in their
+English speech. One could argue that perhaps epenthesis alone is on the decline in English
+speech generally, as some forms of vowel epenthesis in Irish English are seen stigmatised and so
+might be avoided (Hickey, 1986). Indeed, epenthesis in /rn/ and /rl/ clusters (such as “girl” and
+“barn”) are seen as particularly linked to an ignorant, rural West and South West language
+stereotype. A gradual decline in epenthesis could be inferred when considering research by de
+Rijke (2018), who argued that various non-standard spellings of words in historical letters were
+evidence of epenthesis in the speech of the writer. De Rijke found examples of schwa inserted
+into a large number of different consonant clusters, many of which are not commonly used today
+even in epenthetic versions of English (for example, /fl/, /rl/, /tr/ and /nr/). This might indicate
+not only a general decline in the feature but also a narrowing of the consonantal environments it
+now manifests in.
+
+
+What can be conclusively stated is that in the sound file section of this study, some respondents
+did report that they would use the epenthetic versions of the target words and indeed, these
+speakers often could not discern a difference between words containing an additional vowel or
+not. The example words used in the sound files were “arm”, “burn” and “film”. “Burn” proved
+to be the most troublesome word for participants, with 25% of all participants reporting
+difficulty in discerning the difference between [bə:ɹn] and [bə:ɹən] (5 participants in total). We
+may not be able to make any solid judgements regarding the levels of the feature in their natural
+speech, but their difficulty in identifying the feature might indicate that the speakers themselves
+do not regard or perceive epenthesis as negatively. This would contrast with Hickey's (1986)
+claim that some forms of vowel epenthesis carry a stigma. If true, this could suggest not a
+                                              44
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+decline in levels of epenthesis, but a change in sociolinguistic attitudes in Irish society and an
+amelioration of some formerly stigmatised forms.
+
+
+Another suggestion is that the audio files used for the words containing epenthesis had issues in
+their production. All were produced by two native speakers of Irish who understood the aim of
+the study, therefore ensuring correct, distinct productions of the focus words with and without
+the additional epenthetic schwa. There is however the possibility that other qualities of the
+speakers' voices contributed to participant confusion in hearing the additional vowels. These
+qualities could range from voice pitch, clarity or intonation. For example, a slight deviation in
+the speaker's intonation when producing one form of the focus words might lead a participant to
+be confused as to what feature they are listening for. Efforts were taken to lessen the effect of
+such confounding factors, yet variation cannot be avoided completely when using live speakers.
+
+
+5.5. Unexpected findings
+
+
+Unexpected findings from this study must include the very low level of epenthesis in the
+interviews and reading task sections of the questionnaire. Though not in significant levels,
+participants did report that they would use some of the epenthetic forms of the words in the
+sound files over the version without epenthesis. This was not reflected, however, in their general
+speech, aside from in two small instances and both occurring in the same word (“girl”).
+Discussion was led by the researcher deliberately in order to elicit examples of the feature, for
+example by discussing media in Ireland and the film industry (with the intention being to elicit
+an example in the word [filəm]). However, this did not encourage any examples further than the
+two previously mentioned. This could well be as a result of the variety of English spoken by the
+researcher, which is definitively non-epenthetic. A lack of epenthesis in the utterances of the
+researcher may have interfered with the natural speech of the participants, in that their attention
+was consciously drawn to production of epenthesis. It is also possible that participants shifted
+their speech to be less epenthetic in order to accommodate the interviewer. Gallois, Ogay &
+Giles (2005) suggested in their Communication Accommodation Theory that speakers may
+converge their speech to be more similar to that of their interlocutor (in this case, the researcher),
+in order to build rapport and maintain a positive social status. In the context of these interviews,
+the aim of such convergence may be an earnest attempt to give the researcher what the speaker
+                                             45
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+believes they are looking for or a more subconscious adherence to a perceived prestige form of
+Irish English.
+
+
+Although efforts had been taken in every way to encourage a less formal and more comfortable
+atmosphere for those taking part, the general interview scenario may also have contributed to
+more guarded and Standard British English type of speech, i.e. without vowel epenthesis. Of
+course, it is also possible that epenthesis is indeed in decline in Irish English or simply that the
+number of participants was not great enough to provide ample opportunities for it to manifest.
+
+
+Also surprising was the seemingly contrasting results gleaned from certain participants during
+different sections of the study. For example, natively fluent Irish speakers were significantly
+more likely to use a [dt] stop (16% of cases, N = 255) than non-fluent Irish speakers (who used
+[dt] in 12% of cases, N = 122) during the interview segment (p = 0.0007, tested using Fisher's
+Exact test). This would indicate that natively fluent speakers are indeed more comfortable using
+the phonological features marked as being Irish in origin, supporting the main hypothesis.
+However, this is in conflict with the responses found in recordings of the reading passages,
+where indeed it was the non-fluent speakers of Irish who used [dt] stops more frequently (non-
+fluent speakers used [dt] in 29% of cases (N = 40), compared to only 15% of the time by fluent
+Irish speakers (N = 37), p = 0.0003). As suggested in the previous section, this could be due to
+the non-fluent speakers purposefully increasing their use of th-stopping, in order to make up for
+their lack of ability in Irish. If the speaker has high opinions of Irish culture and language, they
+might wish to associate themselves with it more closely by adopting forms that they judge to be
+more distinctly Irish.
+
+
+Another explanation that could account for this disparity in results is that during the reading
+tasks, natively fluent Irish speakers took more care to avoid speech features that they perceived
+as stigmatised. This would result in these features being produced less frequently in their reading
+tasks, only for their number to increase in the interview segment as the participants become more
+relaxed and less guarded in their speech. This explanation is supported by comments made in
+multiple participant interviews - it was common that participants expressed distaste at the idea of
+using certain features, primarily the use of [dt] stops in place of [ð]. The reasoning given by
+participants for this distaste was almost exclusively that they associated the feature in Irish
+                                                 46
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+English with a lack of education on the part of the speaker. Native Irish speakers might wish to
+further distance their Irish English speech from their Irish and take additional measures to avoid
+th-stopping in English, if they associate the feature with such negative social stereotypes. Such
+conscious perceptions could account for this difference in stop production between the interview
+segment and reading tasks.
+
+
+5.6. Speaker attitudes and perceptions
+
+
+The attitudinal data gathered in this study showed no particular lean towards any speaker
+demographic - non-fluent speakers of Irish were just as likely to hold positive views as their
+natively fluent counterparts. Across the board, all participants showed very positive views
+towards the Irish language and culture. However, as mentioned in the Results section, some
+statements garnered more division in opinions than others. The results were not seen to be
+significant when comparing responses to certain demographics (gender, degree of Irish fluency),
+but a trend can be observed in the type of statements that showed less participant consensus.
+
+
+When examining these more controversial statements, the participant interviews provided
+valuable insight. The participants who did disagree with certain statements in the questionnaire
+explained that they generally did so not due to a lack of passion or interest in Irish and Irish
+culture, but with a mindset of what is realistic. It was common for participants to express a wish
+for an “ideal world” in which more Irish was spoken, however; they acknowledged the status of
+English as the majority language and therefore did not feel they could agree with certain
+statements. A good example of this type of statement is “I feel that it is important to speak Irish
+well in order to get ahead in the workplace in Ireland”. It was extremely polarising, with 35% of
+participants strongly agreeing and 30% strongly disagreeing.
+
+
+Statements focusing on English garnered slightly less enthusiasm than those stating pride in Irish
+ability. For example, “I am proud to speak English”, with only 55% agreeing to some degree and
+40% of respondents neither agreeing nor disagreeing. Many participants elaborated on their
+reasoning for this in the interview section, stating that they felt pride for their bilingualism, not
+for speaking English in particular. Many felt that with the majority status of English in the
+Republic of Ireland being as it is, they had had no choice but to speak English natively.
+                                                 47
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+Therefore, they felt no pride in their English fluency, as they perceived it as necessary and easy
+in a way that Irish was not. This pride in bilingualism as opposed to English fluency has been
+found in other research, such as Péterváry et al (2014) and Ó hIfearnáin (2007). Both sets of
+research focused on bilingualism of the youth in Ireland and it was found that parents
+consistently felt concern over the subtractive nature of the bilingualism their children were
+acquiring. The ideal was a balanced bilingualism, with English enhancing the prospects of the
+speaker while not encroaching on their ability in Irish. However, this was found to be seldom the
+case, with even L1 Irish speakers educated in Irish experiencing a deficit in their exposure to
+Irish when compared to English use, leading to a loss of Irish fluency. It is for this reason that
+some respondents expressed greater pride in Irish fluency than in English, as it is perceived as
+being more difficult to acquire and maintain.
+
+
+The findings of Péterváry et al (2014) and Ó hIfearnáin (2007) can be related to other more
+controversial statements in the attitudinal stage of this research. The mandatory use of Irish as a
+language of instruction in statements such as “I feel that all school lessons should be taught in
+Irish throughout Ireland.” had 15% of participants somewhat disagreeing and a further 15%
+strongly disagreeing. However, this disagreement was not indicative of a dislike for Irish, rather
+than a worry about feasibility. Several participants cited issues with Irish-language education -
+from lack of Irish fluency in teaching staff to the difficulties in teaching different dialects of
+Irish. These responses also provided insight into how the participants viewed the linguistic
+landscape of modern Ireland and the needs of its people. A common reason given for participant
+reluctance for mandatory Irish instruction in schools was concern for immigrant communities in
+Ireland - they worried that children from outside Ireland would be left at a disadvantage in their
+education if forced to conduct it in Irish. Ó hIfearnáin (2007) observed similar reservations when
+interviewing residents of Múscraí, with many local advocates and native speakers of the Irish
+language having mixed feelings about enforcing a mandatory Irish education in all subjects.
+These views were often as a result of ignorance as to how equal bilingualism is maintained and a
+concern for the greater practicalities of English nationwide.
+
+
+Another statement that inspired less agreement amongst participants examined the role of Irish
+in a domestic setting. Several participants had difficulty with the statement, “I wish I had more
+opportunity to speak Irish in the home” (with 40% of participants neither agreeing nor
+                                               48
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+disagreeing with the statement), as they admitted that they had as much opportunity as they
+wished. However, they did not wish to say that they “Strongly” disagreed with this statement, as
+they were in favour of Irish use in the home. This was remedied by participants answering
+“Neither Agree nor Disagree” on the scale provided and making an asterix or note next to the
+statement on their questionnaire. No significant relationship could be found between speaker
+fluency and response to this statement when using Fisher's Exact test, with home Irish speakers
+and non-fluent speakers alike expressing contentment with their opportunity to use Irish with
+their families. Similar problems were found with the same statement but focusing on Irish use in
+the workplace, but to a lesser extent.
+
+
+5.7. Limitations of the work
+
+
+Despite the numerous significant results found in the course of this research, the inferences we
+can make are limited somewhat by several practicalities of the study. Primarily, the sample size
+of participants (N = 20) was smaller than initially planned. This does reduce the relevancy of
+assumptions that can be made about the wider speech community of Múscraí. However, it was
+important for any sample size used in this study to be feasible for a lone researcher to manage
+whilst in the field. In this case, twenty participants split between two short data collection
+sessions proved suitable and achievable.
+
+
+Another factor that limited the conclusions of the researcher was the lack of diversity of
+responses in the Attitudinal section of the questionnaire. It was the intention of this study to not
+only observe the relationship between fluency and gender with the focus phonological features,
+but also any links between these Irish-influenced features and speaker attitudes. Perceptions of
+Irish culture and language in Múscraí proved to be extremely positive across all demographics.
+The results of the attitudinal statements inform our view of current attitudes in Múscraí, but do
+not allow comparisons to be made between the speech habits of those more or less invested in
+Irish language and culture. This is in some ways unsurprising, as Gaeltacht areas are by their
+very nature supportive and encouraging of Irish and traditional culture. The residents of such
+areas could be viewed as sympathetic to the Irish language merely by virtue of living and
+working in the region.
+
+                                                 49
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+An unavoidable obstacle encountered during this study came as a result of the previous factor.
+After the first fieldwork session, it was decided that an additional task should be added to the
+questionnaire in order to elicit more participant speech. The reading tasks “The North Wind and
+The Sun” and “Comma Gets a Cure” were chosen for this. The decision to add this extra step
+turned out to be valuable, as the supplementary data sourced from the reading tasks permitted a
+further level of comparison to be made between them and the interviews. All participants
+interviewed in the second fieldwork trip took part in the reading tasks. However, it proved
+difficult and in some cases impossible for participants from the first data collection session to
+attend and take part in the supplementary reading task. This resulted in just under half of all
+participants having taken part in the reading task. While this limited the extent of inferences
+made using this data, the reading task did increase the overall number of opportunities for
+production of th-stopping, rhoticity and vowel epenthesis.
+
+
+6. Conclusion
+
+
+6.1. Final statements
+
+
+The aim of this dissertation has been to take stock of the language contact situation present in
+Múscraí and how the contact affects phonological transfer between the languages spoken there.
+The work undertaken in this paper has shown that at least in the Gaeltacht inhabitants surveyed,
+the relationship between their familiarity with Irish and how much Irish influence is present in
+their English varies widely based on several factors. Based on quantitative analysis of the data
+collected from the inhabitants of Múscraí, it can be concluded that both Irish fluency and gender
+are important factors to consider when examining Irish English speech. The findings of this
+study indicate that male speakers in Múscraí were far more likely than females to use [tt ] dental
+stops in place of [θ] and in some scenarios, they were more likely to use [tt ] than [θ] generally.
+This supports the hypothesis that men are more likely to adopt distinctly Irish English linguistic
+features than their female counterparts. Fluent Irish speakers too used th-stopping more
+frequently than non-fluent speakers, with fluent speakers being more likely to use a [dt] stop in
+place of [ð] than non-fluent participants. This also supports the hypothesis that native Irish
+speakers will include more Irish-influenced features in their English speech.
+
+                                                 50
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+More surprising were the results that did not support the predicted trends. Fluent Irish speakers
+were more likely to use [dt] stops than non-fluent speakers in interviews; however, the opposite
+was found to be true in the reading tasks. Rhoticity is considered to be a standard feature across
+most Irish Englishes, yet this study found that it was female speakers and fluent Irish speakers
+who were more likely to drop /r/ in their utterances. This was at odds with the expectation that
+these two groups would be less likely to deviate from using the Irish-influenced features that
+were considered standard for Múscraí English. It was difficult to make any judgements on
+interactions between epenthesis and speaker demographic, as production proved to be limited in
+interviews. In addition to this, no links with any particular demographic were found to be
+significant. While this might limit the capability to link epenthesis in this study to fluency or
+gender, it demonstrates a need for further specialised research into the contemporary status of the
+focus variables in Múscraí. What can be taken from this work is an insight into the evolving
+nature of the English spoken in Múscraí and an indication of what specific changes might occur
+in the area in the future (e.g. further loss of rhoticity, the maintenance of dental stops [tt ] and [dt]
+by fluent Irish speakers).
+
+
+6.2. Implications for future research
+
+
+Although the data collected in this study does provide some insight into the levels of certain
+features in Múscraí English, further research on a wider scale would reveal more about the
+speaking habits of those living and working in the Cork Gaeltacht.
+
+
+Discussing local attitudes about Irish culture and language with those with more diverse
+opinions on those topics could be particularly valuable, as it would shed light onto the linguistic
+practises of those who are disenfranchised with the Irish language. The views of such Gaeltacht
+residents proved difficult to gather in this study. Further study in this area would also allow for
+an additional layer of analysis, as levels of the focus phonological variables could be compared
+with speaker attitudes as intended. One might imagine that speakers disinterested in promoting
+Irish might consciously avoid features in English that they associate with native Irish speakers,
+but as we see in the results of this study, the effects of Irish fluency on English speech are not
+that simple. Therefore, future researchers in this area would be encouraged to specifically seek
+out those in the area who do not hold positive views on the Irish language.
+                                                51
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+Expanding and improving upon the methods used in this study could benefit further linguistic
+research in the region, by means of deepening current understanding of the status of Irish in the
+Cork Gaeltacht and its surrounding area. Leading on from this, sociolinguistic examinations of
+the language in the area might allow language conservation bodies to better predict language
+trends and change in the future. This would allow such bodies to plan and formulate more
+informed language conservation plans tailored to the region, which may increase the likelihood
+of their success. In addition to this, examination of the current interactions between Irish and
+English in Múscraí might draw attention to the ways in which Múscraí English can be celebrated
+and used in conjunction with Irish in the community. Any contribution to the shared knowledge
+surrounding language attitudes in Gaeltacht areas could be valuable to educators and promoters
+of traditional culture in these same areas, by means of making the Irish language less
+intimidating and more accessible through English. As mentioned in the Introduction, the
+narrative of a combative relationship between Irish and English is not always helpful in
+furthering Irish use in the community.
+
+
+A logical next step for researchers interested in future research in this area would be to look into
+funding in order to provide an incentive for further participants. This would allow for a larger
+participant base in consequent studies and potentially, further ease in recruitment. Another
+important step that would be crucial to gathering more diverse responses to the attitudinal aspect
+of this study would be to control recruitment to include those less invested in Irish language and
+culture in the community. Since the Irish language is so tied in with many local institutions and
+bodies within Múscraí, it could be prudent perhaps to approach those in some of the surrounding
+border areas, designated by Údarás na Gaeltachta as Gaeltacht service towns.
+
+
+Generally, the area will have had to agree to participate in certain schemes aimed at Irish
+promotion in order to qualify as a Gaeltacht service town. Yet, they are not bound by limitations
+and requirements quite as strict as those found within Gaeltacht areas (Údarás na Gaeltachta,
+c2019d). These settlements are predominantly situated on the borders of the Gaeltacht regions
+and have a significant overspill of native Gaeltacht inhabitants seeking work and education
+within the service towns, as well as service town citizens seeking the same within the Gaeltacht.
+This geographical and cultural proximity to the Gaeltacht could provide study participants that
+speak a very closely-related dialect to the people of Múscraí, while being perhaps less invested
+                                                 52
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+in the Irish language. Such individuals could be found by similar methods to those sourced
+within the Gaeltacht (i.e. within public houses, local shops and businesses), but also by
+employing different tactics. Businesses and hobby groups that do not focus on traditional Irish
+activities might attract customers and employees alike who do not consider being Irish to be as
+central to their identity as those who frequent more traditional past-times (i.e. Irish dance, poetry,
+sean-nós singing). It would therefore be recommended that groups like these be approached in
+Gaeltacht service towns in order to recruit more diverse participants in future research.
+
+
+Another consideration that could prove useful (if feasible) in future research is for the interview
+process to be undertaken by a researcher with a native Irish accent, preferably one from the
+South of Ireland. It is impossible to know to what extent exactly the accent of the researcher
+might have had on the results of this current research. However, it is a factor that could be
+controlled in further research in this area. The author of this paper speaks English with a
+Northern English accent with no rhoticity, no epenthesis and no th-stopping. It is possible that
+speaking to a researcher with an accent not containing the focus phonological features may have
+consciously or subconsciously influenced the participants, so that they may have down-played
+these features in their own speech in order to accommodate the researcher, as described by
+Gallois et al (2005). If the accent of the researcher does indeed have an effect on the participant
+responses to the survey, this might be reflected in data collected by such a locally-recruited
+researcher. Leading on from this idea, a researcher who can be audibly identified as Irish by
+participants might further put them at ease, eliciting more natural speech during interviews and
+reading tasks. Unconscious bias on the part of participants may never be entirely avoided, but
+the recommendation of using an Irish English-speaking person for data collection could help to
+combat it.
+
+
+Additional research into the variation and change of Múscraí English (and Gaeltacht Englishes
+generally) could contribute somewhat to fighting stereotypes held about the speakers of rural
+Ireland. It has long been the aim of Údarás na Gaeltachta and charities concerned with
+preserving native Irish that Gaeltachts be seen as modern regions with potential for growth in the
+future. A more informed perception of these areas in the public sphere could be very useful in
+encouraging increased migration into these areas, which in turn could influence their future.
+Migration and growth is extremely important in Gaeltacht regions, for Irish relies on new
+                                              53
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+speakers adopting the language for daily use as well as those native L1 Irish speakers.
+
+
+6.3. Projected trends for the future
+
+
+While the scope of this study is not large, some inferences can be made about possible
+developments in the future of Múscraí English and the varieties spoken nearby. This research
+found that for the most part, the dental fricatives [θ] and [ð] are used more commonly than the
+dental stops [tt ] and [dt]. However, th-stopping may endure in the area still, as it is has remained a
+common feature of Dublin English. (Hickey, 2005). With increased access to the media, travel
+and more diversity in accents being portrayed in television and radio (Moriarty, 2018), it is
+easier than ever for new language trends to be shared and transferred between dialects. Indeed,
+the major national television network, RTÉ, is based in Dublin and takes great efforts to ensure
+that their presenters speak up-to-date, modern Irish Englishes in order to stay relevant (Hickey,
+2003).
+
+
+This study has found that currently, the inhabitants of the Múscraí Gaeltacht are predominantly
+rhotic. Therefore, it is reasonable to assume that rhoticity will remain in Múscraí as a constant
+supraregional feature of Irish English. De-rhoticisation spreading further to more rural areas
+could increase amongst the youth and amongst women as a minority non-standard feature,
+following the example of r-retroflexion being adopted by young women in Dublin (Hickey,
+2005). Epenthesis may be observed less frequently in the future of Irish English or even fall out
+of use eventually. This is of course if historical references to epenthesis are to be relied upon. It
+has been suggested that the more varied environments in which epenthesis was potentially
+recorded in the past indicate a general narrowing of use of the feature. If this is the case,
+epenthesis might continue to decline in use as time goes on, surviving only in isolated instances,
+for example in “film”.
+
+
+
+
+                                                  54
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+References
+
+
+BBC News (2015). Líofa: Irish language fluency campaign surpasses 2015 target. BBC News, -.
+Retrieved from: https://www.bbc.co.uk/news/uk-northern-ireland-34162665
+
+
+Beecher, S. (1993). An Gaeilge in Cork City – An Historical Perspective to 1894. Cork: Goldy
+Angel Press.
+
+
+Biletz, F. (2013). Historical Dictionary of Ireland. Lanham, Maryland: Scarecrow Press.
+
+
+Bliss, A. (1977). A Dialogue in Hybernian Stile, by Jonathan Swift. (1st ed., pp. 16-17). Dublin:
+Cadenus Press.
+
+
+Bliss, A. (1981). The Standardization of Irish. The Crane Bag,5(2), 76-82. Retrieved from
+http://www.jstor.org/stable/30060638
+
+
+Central Statistics Office. (2017). Press Statement Census 2016 Results Profile 10 Education
+Skills and the Irish Language. Retrieved from
+http://pdf.cso.ie/www/pdf/20171123101102_Press_Statement_Census_2016_Results_Profile_10
+__Education_Skills_and_the_Irish_Language_full.pdf
+
+
+Conradh na Gaeilge. (2019, 04 April). RTÉ Failing to Fulfill Statutory Obligations when it
+comes to Irish Language. [Weblog]. Retrieved 05 May 2019, from https://cnag.ie/en/news/1232-
+rté-failing-to-fulfill-statutory-obligations-when-it-comes-to-irish-language.html
+
+
+Darmody, M & Daly, T. (2015). Attitudes towards the Irish Language on the Island of Ireland. (1
+ed.). Retrieved 12 September 2016, from https://www.esri.ie/pubs/BKMNEXT294_Vol-1.pdf
+
+
+de Rijke, P.M. (2018). ‘I Intend to Try Some Other Part of the Worald’: Evidence of Schwa-
+Epenthesis in the Historical Letters of Irish Emigrants. In Villanueva Romero, D, Amador-
+Moreno, C & Sánchez García, M (Eds), Voice and Discourse in the Irish Context (pp. 75-104).
+London: Palgrave Macmillan.
+                                                55
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+Donnelly, J. (2011, 22nd September). A History of the Irish Education System. [Weblog].
+Retrieved 10 April 2019, from https://www.teachdontpreach.ie/2011/09/a-history-of-the-irish-
+education-system-2/
+
+
+Filppula, M. (1999). The Grammar of Irish English: Language in Hibernian Style (1st ed., pp. 1-
+45). Abingdon: Routledge.
+
+
+FitzGerald, G. (1984). Estimates for Baronies of Minimum Level of Irish-Speaking Amongst
+Successive Decennial Cohorts: 1771-1781 to 1861-1871. Proceedings of the Royal Irish
+Academy. Section C: Archaeology, Celtic Studies, History, Linguistics, Literature, 84C, 117-155.
+Retrieved January 20, 2020, from www.jstor.org/stable/25506114
+
+
+FitzGerald, G. (2003). Irish-Speaking in the Pre-Famine Period: A Study Based on the 1911
+Census Data for People Born before 1851 and Still Alive in 1911. Proceedings of the Royal Irish
+Academy. Section C: Archaeology, Celtic Studies, History, Linguistics, Literature, 103C(5), 191-
+283. Retrieved January 11, 2020, from www.jstor.org/stable/25506198
+
+
+Gallois, C., Ogay, T., & Giles, H. (2005). Communication Accommodation Theory. A look back
+and a look ahead. In W. B. Gudykunst (Ed). Theorizing about Intercultural Communication,
+121–148.
+
+
+Gansterer, J. (2016). The influence of the Irish language on Irish English. B.A. Level. University
+of Iceland.
+
+
+Gordon, E. (1997). Sex, speech, and stereotypes: Why women use prestige speech forms more
+than men. Language in Society, 26(1), 47-63.
+
+
+Hickey, R. (1985). R-Coloured vowels in Irish English. Journal of the International Phonetic
+Association, 15(2), 44-58. Retrieved from http://www.jstor.org/stable/44525934
+
+
+Hickey, R. (1986). Possible phonological parallels between Irish and Irish English. English
+World-Wide, 7(1), 1-21. Retrieved 10 April, 2019, from https://www.uni-
+                                              56
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+due.de/~lan300/07_Possible_Phonological_Parallels_(Hickey).pdf
+
+
+Hickey, R. (1999). Dublin English: Current changes and their motivation. In: P. Foulkes and G.
+Docherty, ed., Urban Voices, 1st ed. [online] London: Edward Arnold, pp.265-281. Available at:
+https://www.uni-due.de/~lan300/23_Dublin_English_%5BUrban_Voices%5D_(Hickey).pdf
+[Accessed 15 Jan. 2020].
+
+
+Hickey, R. (2003). What´s cool in Irish English? Linguistic change in contemporary Ireland. In:
+Celtic Englishes III. 1. Heidelberg: Anglistische Forschungen. pp. 357-73.
+
+
+Hickey, R. (2004). The phonology of Irish English. In Kortmann, B (Ed), Handbook of varieties
+of English (pp. 68-97). Berlin: Mouton de Gruyter.
+
+
+Hickey, R. (2005). Dublin English. Retrieved 11 April, 2019, from https://www.uni-
+due.de/IERC/IERC_Dublin_English.htm
+
+
+Hickey, R. (2006). Irish English, Research and Developments. Études irlandaises, 31(2), 11-32.
+Retrieved 11 April, 2019, from https://doi.org/10.3406/irlan.2006.1761
+
+
+Honorof, D., McCullough, J. and Somerville, B. (2000). Comma gets a cure: A diagnostic
+passage for accent study. Retrieved from:
+https://www.researchgate.net/publication/318124660_Comma_gets_a_cure_A_diagnostic_passa
+ge_for_accent_study/stats
+
+
+International Phonetic Association. (1999). Handbook of the International Phonetic Association.
+Cambridge: Cambridge University Press.
+
+
+Irish Post (2013). 'To say there's no class structure in Ireland is rubbish - just look at O'Driscoll
+and Keane'. Irish Post. Retrieved from: https://www.irishpost.com/news/its-time-to-face-the-
+facts-about-irelands-classless-society-9990
+
+
+Kennedy, I. (2015, 8th March). The Decline of the Irish Language in the Nineteenth Century.
+                                              57
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+[Weblog]. Retrieved 10 April 2019, from https://www.yeatssociety.com/news/2015/03/09/the-
+decline-of-the-irish-language-in-the-nineteenth-century/
+
+
+Labov, W. (1990). The intersection of sex and social class in the course of linguistic change.
+Language Variation And Change, 2(2), 205-254. DOI: 0954-3945/91.
+
+
+Lunny, A. (1981). Linguistic interaction: English and Irish in Ballyvourney, West Cork. In M.
+Barry, Aspects of English Dialects in Ireland (1st ed., pp. 118-141). Belfast: Institute of Irish
+Studies, The Queen's University of Belfast.
+
+
+MacLysaght, E. (1972). Irish Families: Their Names, Arms and Origins. (3rd ed.). Dublin:
+Crown Publishers.
+
+
+Maguire, W. (2018). The Origins of Epenthesis in Liquid+Sonorant Clusters in Mid-Ulster
+English. Transactions of the Philological Society, 116(3), 484–508. Retrieved 20 May, 2019,
+from https://www.onlinelibrary.wiley.com/doi/pdf/10.1111/1467-968X.12131
+
+
+Moriarty, M. (2018, 22nd May). What do our accents say about us?. [Weblog]. Retrieved 11
+April 2019, from https://www.rte.ie/lifestyle/living/2018/0519/964946-what-do-our-accents-say-
+about-us/
+
+
+Ní Chiosáin, M. (1999). Syllables and phonotactics in Irish. In Van der hulst, H & Ritter, N. .A
+(Eds), The syllable: Views and facts (pp. 551-575). Berlin: Mouton de Gruyter.
+
+
+Ní Chumhaill, E. (2016, 8th March). History of Cumann na mBan. [Weblog]. Retrieved 20
+March 2019, from https://www.anphoblacht.com/contents/23897
+
+
+Ó Cuiv, B. (1944). The Irish of West Muskerry, Co Cork : a phonetic study. Dublin: The Dublin
+Institute for Advanced Studies.
+
+
+Odlin, T. (1997). Bilingualism and substrate influence: a look at clefts and reflexives. In J.
+Kallen, Focus on Ireland (1st ed., pp. 1-15). Amsterdam: John Benjamins.
+                                                58
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+Ó Giollagáin, C. (2014). Early exposure to English is damaging the standard of Irish among
+Gaeltacht young. Retrieved 09 April, 2019, from
+https://www.irishtimes.com/news/education/early-exposure-to-english-is-damaging-the-
+standard-of-irish-among-gaeltacht-young-1.2025774
+
+
+Ó hIfearnáin, T. (2007). Raising Children to be Bilingual in the Gaeltacht: Language Preference
+and Practice. International Journal of Bilingual Education and Bilingualism, 10(4), 510-528.
+Retrieved 11 April, 2019, from http://dx.doi.org/10.2167/beb457.0
+
+
+Panek, M., Ferragne, E. and Zumstein, F. (2015) TH-Stopping and /t/ lenition in Irish English.
+Retrieved from: https://www.academia.edu/12815236/TH-
+Stopping_and_t_lenition_in_Irish_English
+
+
+Péterváry, T et al. (2014). Analysis of Bilingual Competence: Language Acquisition among
+Young People in the Gaeltacht. Retrieved 10 April, 2019, from https://www.cogg.ie/wp-
+content/uploads/iniuchadh-ar-an-gcumas-datheangach.pdf
+
+
+Sheridan, T. (1780). A general dictionary of the English language.: One main object of which, is,
+to establish a plain and permanent standard pronunciation. : To which is prefixed a rhetorical
+grammar. London: Printed for J. Dodsley, C. Dilly and J. Wilkie.
+
+
+Údarás na Gaeltachta. (c2019). Fast Facts. Retrieved 28 November, 2017, from
+http://www.udaras.ie/en/faoin-udaras/nuacht-na-meain/firici-gasta/
+
+
+Údarás na Gaeltachta. (c2019b). Cork. Retrieved 12 April, 2019, from
+http://www.udaras.ie/en/an-ghaeilge-an-ghaeltacht/an-ghaeltacht/corcaigh/
+
+
+Údarás na Gaeltachta. (c2019c). The Language Planning Process in the Gaeltacht. Retrieved 10
+April, 2019, from http://www.udaras.ie/en/an-ghaeilge-an-ghaeltacht/an-proiseas-pleanala-
+teanga/
+
+
+Údarás na Gaeltachta. (c2019d). Gaeltacht Service Towns. Retrieved18 May, 2019, from
+                                              59
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+http://www.udaras.ie/en/an-ghaeilge-an-ghaeltacht/bailte-seirbhise-gaeltachta/
+
+
+Walsh, J., O'Rourke, B. and Rowland, H. (2015). New Speakers of Irish. Retrieved from:
+http://www.forasnagaeilge.ie/wp-content/uploads/2015/10/New-speakers-of-Irish-report.pdf .
+
+
+
+
+                                               60
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+Appendices
+
+
+Appendix A
+
+
+Full questionnaire used in data collection
+
+
+Question Sheet
+
+
+Please fill in the following personal information. When a question provides answers, circle the
+answer that you feel most applies to you. If for some reason you do not feel comfortable
+answering a given question, please put a cross in the answer space instead of answering.
+I am collecting this information purely for organisational purposes of your data and it will be
+kept securely and privately by myself. You will remain anonymous in any publication of my
+thesis.
+
+
+Age: _____
+
+
+Gender: Male / Female / Rather Not Say
+
+
+Occupation: ____________
+
+
+Social class: ____________
+
+
+Home town (If this is outside of Ireland, please indicate this by also including the country,
+e.g. “York, UK” or “Berlin, Germany”) : ____________
+
+
+- Is your home town within a Gaeltacht area? Yes/No
+
+
+Current place of residence:
+
+
+Do you speak any Irish: Yes / No
+
+                                                61
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+If yes, how much Irish would say you speak? Indicate using the scale below:
+
+
+1. None
+2. A few words
+3. Some basic phrases
+4. Intermediate, can hold more than a basic conversation
+5. Advanced but non-native
+6. Fluent, Native Speaker
+
+
+Level of Irish: ____________
+
+
+Was Irish one of your home languages? If yes, please indicate if it was your main language
+at home and which other languages (if any) were spoken. Yes / No
+Other languages spoken in the home: ____________________
+
+
+In which situations do you use Irish the most? Please choose all that apply, with the most
+common being picked first. (If only some apply, leave the other spaces blank.)
+
+
+At work, At school/university, At home, Out in town, Other (Please describe the situation if
+Other).
+
+
+1. ____________
+2. ____________
+3. ____________
+4. ____________
+5. ____________
+
+
+Section 1: Sound files
+
+
+Using the computer and headphones provided, please listen to the short sound files carefully.
+You will hear an English word being said twice. You can listen to them as many times as you
+like. Once you have listened to a file, please indicate which version of the word sounds most like
+                                                  62
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+the way you would say it - either “first” or “second”. The word does NOT have to match exactly
+with how you would say it, I am merely interested in which production of the word is the most
+similar to how you yourself would say it. Once you are finished with this section, you will no
+longer need the computer or headphones.
+
+
+
+
+             First        Second
+Thing:
+Burn:
+Card:
+Earth:
+Arm:
+Thirst:
+Harp:
+There:
+Film:
+They:
+Park:
+Bar:
+That:
+
+
+
+Section 2: Opinions
+
+
+For this section, you will only need your pen and this question sheet. Read through the series of
+statements below and indicate on the scales below each one to what extent you personally agree.
+Where possible, avoid giving a “neutral” score.
+
+
+                           1             2                 3               4               5
+                     Strongly Agree   Somewhat        Neither Agree    Somewhat        Strongly
+                                       Agree          nor Disagree      Disagree       Disagree
+I like living in
+
+                                                 63
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+Ireland.
+I feel strongly
+Irish.
+I enjoy
+speaking Irish.
+I enjoy
+speaking
+English.
+I would like it
+if Irish were
+spoken more in
+the workplace.
+I would like it
+if Irish were
+spoken more in
+the home.
+I am proud to
+speak Irish.
+I am proud to
+speak English.
+I speak English
+with an Irish
+accent.
+I wish I had
+more
+opportunity to
+speak Irish in
+the home.
+I wish I had
+more
+opportunity to
+speak Irish in
+
+                                 64
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+the workplace
+I think all
+children in
+Ireland should
+learn Irish at
+school.
+I feel that all
+school lessons
+should be
+taught in Irish
+throughout
+Ireland.
+I believe that
+the Gaeltacht
+should be
+preserved.
+I feel that the
+Irish language
+is central to
+Irish identity.
+I feel that it is
+important to
+speak Irish
+well in order to
+get ahead in
+the workplace
+in Ireland.
+Children
+should be
+encouraged to
+speak Irish in
+the home.
+                                 65
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+I feel that
+popular media
+(TV and radio)
+should be
+presented in
+Irish in Ireland.
+I feel that the
+Irish language
+is central to
+traditional Irish
+culture
+(traditional
+dance, music,
+etc).
+
+
+Section 3: Discussion
+
+
+In this section, you will be asked to read two short texts aloud. After a minute or so, I will ask
+you to retell the first text to me in your own words. Then we will have a brief, relaxed talk where
+we'll discuss your answers in Section 2 in more detail. This will be recorded, but will only be
+available to myself and you will remain anonymous. If you have any questions about my
+research, this project or Irish English sociolinguistics generally, I will try my best to answer
+those questions at the end of this conversation! Once we are done, this is the end of our session.
+Thank you very much for your time!
+
+
+
+
+                                                 66
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+Appendix B
+
+
+“The North Wind and the Sun” reading passage
+
+
+The North Wind and the Sun were disputing which was the stronger, when a traveller came
+along wrapped in a warm cloak. They agreed that the one who first succeeded in making the
+traveller take his cloak off should be considered stronger than the other. Then the North Wind
+blew as hard as he could, but the more he blew the more closely did the traveller fold his cloak
+around him, and at last the North Wind gave up the attempt. Then the Sun shone out warmly, and
+immediately the traveller took off his cloak. And so the North Wind was obliged to confess that
+the Sun was the stronger of the two.
+
+
+
+
+                                                67
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+Appendix C
+
+
+Comma Gets a Cure. A Diagnostic Passage for Accent Study (Draft September 7, 2000) by
+Jill McCullough & Barbara Somerville Edited by Douglas N. Honorof.
+
+
+Comma Gets a Cure and derivative works may be used freely for any purpose without special
+permission provided the present sentence and the following copyright notification accompany
+the passage in print, if reproduced in print, and in audio format in the case of a sound recording:
+Copyright 2000 Douglas N. Honorof, Jill McCullough & Barbara Somerville. All rights
+reserved.
+
+
+Well, here's a story for you: Sarah Perry was a veterinary nurse who had been working daily at
+an old zoo in a deserted district of the territory, so she was very happy to start a new job at a
+superb private practice in north square near the Duke Street Tower. That area was much nearer
+for her and more to her liking. Even so, on her first morning, she felt stressed. She ate a bowl of
+porridge, checked herself in the mirror and washed her face in a hurry. Then she put on a plain
+yellow dress and a fleece jacket, picked up her kit and headed for work. When she got there,
+there was a woman with a goose waiting for her. The woman gave Sarah an official letter from
+the vet. The letter implied that the animal could be suffering from a rare form of foot and mouth
+disease, which was surprising, because normally you would only expect to see it in a dog or a
+goat. Sarah was sentimental, so this made her feel sorry for the beautiful bird. Before long, that
+itchy goose began to strut around the office like a lunatic, which made an unsanitary mess. The
+goose's owner, Mary Harrison, kept calling, "Comma, Comma," which Sarah thought was an
+odd choice for a name. Comma was strong and huge, so it would take some force to trap her, but
+Sarah had a different idea. First she tried gently stroking the goose's lower back with her palm,
+then singing a tune to her. Finally, she administered ether. Her efforts were not futile. In no time,
+the goose began to tire, so Sarah was able to hold onto Comma and give her a relaxing bath.
+Once Sarah had managed to bathe the goose, she wiped her off with a cloth and laid her on her
+right side. Then Sarah confirmed the vet’s diagnosis. Almost immediately, she remembered an
+effective treatment that required her to measure out a lot of medicine. Sarah warned that this
+course of treatment might be expensive—either five or six times the cost of penicillin. I can’t
+imagine paying so much, but Mrs. Harrison—a millionaire lawyer—thought it was a fair price
+                                           68
+IRISH PHONOLOGICAL FEATURES IN IRISH ENGLISH
+
+for a cure.
+
+
+
+
+                                 69
+

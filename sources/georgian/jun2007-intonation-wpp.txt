@@ -1,0 +1,658 @@
+UCLA
+Working Papers in Phonetics
+
+Title
+WPP, No. 106: Intonational Phonology of Georgian
+
+Permalink
+https://escholarship.org/uc/item/8vk1j9n6
+
+Authors
+Jun, Sun-Ah
+Vicenik, Chad
+Lofstedt, Ingvar
+
+Publication Date
+2007-09-01
+
+
+
+
+ eScholarship.org                                  Powered by the California Digital Library
+                                                                   University of California
+UCLA Working Papers in Phonetics No. 106, pp. 41-57
+
+
+
+
+                                 Intonational Phonology of Georgian
+                                Sun-Ah Jun, Chad Vicenik, & Ingvar Lofstedt
+                 (jun@humnet.ucla.edu; cvicenik@humnet.ucla.edu; ingvar@humnet.ucla.edu)
+
+
+                                                      Abstract
+
+    This paper proposes a prosodic structure and the tonal pattern of Georgian, the national language of
+    Georgia. The language has three prosodic units above the Word: Intonation Phrase (IP), Intermediate
+    Phrase (ip), and Accentual Phrase (AP). All these units are marked by a boundary tone, but an AP in
+    Georgian is unique typologically in that it has pitch accent linked to a stressed syllable and phrase accent
+    (H+L) linked to an antepenultimate syllable of an AP. Contrary to previous studies on Georgian stress,
+    we claim that this High tone on the antepenult is a property of an AP, not linked to a stressed syllable of
+    a word. This phrase accent occurs in questions and focus phrases, suggesting its connection to an
+    emphatic meaning. The intonation of a declarative sentence consists of a sequence of rises, with a
+    lowering of f0 peaks over the utterance. The height of the f0 peak/valley and the tonal pattern of an AP
+    mark a prosodic grouping of words, which often matches a semantic/syntactic grouping of words.
+
+
+    1. Introduction
+
+    Georgian, also known as Kartuli ena, is the national language of Georgia, a country located
+    in the Caucasus. It is a member of the South Caucasian language group, and is spoken by
+    over 4 million people (Hewitt 1995).
+
+    Georgian is well known for its complex morphology and segmental properties, but not
+    much is known about its intonation. The language is claimed to have stress, although its
+    exact realization is debated in the literature. Robin and Waterson (1952) examined ‘a word
+    in isolation’ data from one speaker, and proposed the following rules for stress assignment.
+    They added that stress is weak in Georgian and is realized through high pitch.
+
+         (1)    Number of syllables in word                  Location of stress
+                       2                                     1st syllable
+                       3                                     1st or 2nd syllable
+                       4                                     2nd or on 1st & 3rd syllables
+                       5                                     1st & 3rd or on 2nd & 4th syllables
+                       6+                                    1st & antepenult (primary stress)
+
+    Slightly different stress assignment rules were proposed in Aronson (1990). See (2).
+
+         (2)    Number of syllables in word                  Location of stress
+                   4 or fewer                                1st or antepenult syllable
+                   5 or more                                 1st & antepenult syllables
+
+
+
+
+                                                        41
+So, what is common in these two studies is that the first syllable of a word is stressed, and
+when a word is longer than 4 syllables, the 1st and antepenultimate syllables are stressed.
+
+Our study investigates the intonation of Georgian in the Autosegmental-Metrical (AM)
+model of intonation (e.g., Pierrehumbert 1980, Beckman & Pierrehumbert 1986, Ladd
+1996). Georgian intonation has rarely been studied in this framework except for a few
+studies on question intonation (Bush 1999, Müller 2005). As far as we know, this study is
+the first systematic investigation of Georgian intonation conducted by examining various
+sentence types in both broad and narrow focus contexts. Section 2 introduces our method
+of data collection, Section 3 reports our analysis, and Section 4 discusses the results and
+provides the summary of the tonal inventory and the prosodic structure of Georgian.
+
+2. Methods
+
+The data for this study are from four Georgian speakers, three females (MB, JB, N) and one
+male (L), in their 30s and 40s. Speaker MB’s production was collected through 20 weeks
+of fieldwork (January-June 2007), one hour per week, in a quiet classroom or office at
+UCLA. She produced 575 sentence types (154 declaratives, 49 yes/no-questions, 153
+wh-questions, 185 focus sentences, and 34 others (e.g., list, vocative, tag questions), with
+at least two repetitions of each sentence. Focus was elicited either by asking wh-questions
+or by providing the context for corrective focus (not A but B). Three other speakers read
+selected sentences from MB’s data, at least twice each: 30 declaratives, 15
+yes/no-questions, 40 wh-questions, and 30 focus sentences.
+
+Procedure: Subject wore a head-mounted microphone connected to a laptop computer.
+Utterances were recorded, using PitchWorks (Scicon R&D), directly into a laptop
+computer at 11 or 22 kHz sampling rate, in a quiet room. Target sentences were extracted
+from the original session recording. Pitch tracks were created using PitchWorks and word
+boundaries and the meaning of each word were labeled on two tiers (words and glosses).
+Pitch tracks were analyzed by examining the location of f0 peak/valley and the timing of
+each pitch targets. Tones were added on the ‘Tones’ tier after discussion.
+
+3. Results
+
+In Georgian, each content word tends to be marked by a tonal pattern, either by a rising
+tone pattern over a word (L H), or a falling tone pattern over a word (H L). In general, this
+tonally marked unit includes one word but can include more than one word. Since this
+tonally marked unit is slightly larger than a word, we call it an Accentual Phrase (AP), as
+proposed in other languages (e.g., Japanese (Beckman & Pierrehumbert 1986), Korean
+(Jun 1993, 1998), French (Jun & Fougeron 1995, 2000, 2002), Farsi (Jun 2005,
+Arbisi-Kelm 2007, Esposito & Barjam 2007, Sadat-Tehrani 2007), and Bengali (Khan
+2006, 2007).
+
+The first syllable of an AP is often prominent by having stronger amplitude and longer
+duration (though not as prominent as stress in English). This suggests that the first syllable
+of a word is stressed in Georgian, as proposed by Robin and Waterson (1952) and Aronson
+
+
+
+                                              42
+(1990), mentioned above. However, the antepenultimate syllable of a word did not show
+stronger amplitude or longer duration. Instead, it sometimes showed a high tone,
+immediately followed by a low tone on the penultimate syllable. But this HL falling tone
+over the antepenult-penult sequence was not confined to a word level. Our data show that
+the HL falling tone occurs on the antepenultimate-penultimate syllables of an Accentual
+Phrase. That is, that falling tone was the property of an AP, not of a word. For this reason,
+we sometimes found a falling tone over a word boundary (i.e., a High tone at the end of a
+word and L tone at the beginning of the following word, when these two words are in the
+same AP). This suggests that the antepenultimate syllable of a word is not stressed at the
+lexical level. Since the sharp falling tone over antepenultimate-penultimate syllables is
+quite salient, we call this falling tone an AP phrase accent, H+L. The AP phrase accent
+commonly occurs in interrogatives or when a sentence is produced with focus on a certain
+word. See Figures 5, 7-10, 12-13.
+
+Since the AP-initial syllable is prominent in Georgian and is often realized with a low pitch
+(in declaratives) or high pitch (interrogative or focus), we proposed that Georgian has a
+pitch accent linked to the stressed syllable of a word. The tonal shape over the stressed
+syllable can be Low (L*), high (H*), or rising (L*+H, where the f0 peak comes after
+stressed syllable, or L+H*, where the f0 peak is on the stressed syllable). An AP can have
+more than one word, but only the first stressed syllable is realized with a pitch accent.
+
+The end of an AP is also marked by a tone, i.e., an AP boundary tone. It can be either
+High (Ha) or Low (La) realized on the AP-final syllable, or Rising (L+Ha) realized on the
+penultimate-final syllables. L+Ha comes after a bitonal pitch accent, and is much rarer than
+La or Ha.
+
+In addition to an AP, Georgian has two higher prosodic units marked by a tone and
+duration. We call them an Intermediate Phrase (ip) and an Intonation Phrase (IP). Both
+units are marked by a boundary tone and phrase-final lengthening, but the degree of
+juncture is stronger at the end of an IP than that of an ip. A prosodic structure of Georgian
+and the affiliation of tones are shown in Figure 1.
+
+
+
+
+                                             43
+                      IP
+
+              ip            (ip)
+
+         AP        (AP)
+
+     w     (w)
+
+  s s ... s s s
+  |       |   \
+  T* (H+L) Ta               T-        T%
+
+Figure 1. A Prosodic Structure and Tone Affiliations in Georgian
+
+AP: Accentual Phrase. It can have one or more words and have only one pitch accent (T* = L*, H*, L+H*,
+     or L*+H) on AP-initial syllable, a possible phrase accent (H+L) on the antepenult of an AP, and a
+     boundary tone realized on AP-final (Ta = Ha, La) or AP-penult & final syllables (Ta = L+Ha).
+ip: Intermediate Phrase. It can have one or more APs, and is marked by a boundary tone (T- = H-, L-,
+         L+H-) on the ip-final syllable, which is slightly lengthened.
+IP: Intonation Phrase. It can have one or more ips, and is marked by a boundary tone (T% = H%, L%, or
+         HL%) on the IP-final syllable, which is substantially lengthened.
+w: word; s: syllable
+
+
+3.1 Declaratives
+
+The default tonal pattern of a declarative sentence in Georgian is a sequence of rising APs,
+[L* Ha], with a lowered peak of Ha over a sentence. The sentence final boundary tone is
+often L%. Figure 2 shows an example pitch track of a sentence, Manana washed Lali. The
+preferred word order in declarative is SOV:
+
+[Mananam][Lali][dabana]
+‘Manana   Lali washed’
+
+As shown in the figure, each word forms one AP with a Low tone (L*) on the word-initial
+syllable and a High tone (Ha) at the end of the word. The pitch accented, initial-syllable
+nuclear [a]-sounds in [mananam] and [dabana] are longer and their amplitudes are greater
+than those of the [a]-sounds in non-initial syllables.
+
+
+
+
+                                                 44
+Figure 2. An example pitch track of a sentence, Manana washed Lali. Each word forms one AP [L* Ha],
+and the last AP ends with L%, a common IP-boundary tone for a declarative sentence.
+
+
+However, when adjacent words are semantically linked and form one syntactic group, they
+are often prosodically marked by forming one prosodic unit. Figure 3 shows an example.
+Here, a heavy Noun Phrase subject, [Possessive noun + Adjective + Head noun], forms one
+Intermediate Phrase. In this case, the ip-final H- boundary tone is either the same or higher
+in pitch than the preceding AP-final High tone, Ha. That is, it is not lower than the
+preceding H, as is the case in Figure 2. When more than one AP forms one ip, an ip-initial
+AP can have Ha or La but the second AP often has La (preceded by H* pitch accent). When
+the f0 peak of H* is substantially lower than the preceding H tone, we labled !H*, to reflect
+the downstep-like High pitch accent, but we believe this downstepped !H* is not
+distinctive, but an allo-tone of H*.
+
+Figure 4 shows another example pitch track of a complex declarative sentence. The subject
+noun phrase is modified by a relative clause, and this heavy NP subject forms one
+intermediate phrase, marked by H-. In this example, the main subject noun and the relative
+pronoun each forms one AP, while the embedded subject noun and the predicate together
+form one AP. The first AP shows a rising pitch accent, L*+H, and both the first and the
+second APs show a La boundary.
+
+
+
+
+                                                45
+Figure 3. An example pitch track of a complex declarative sentence, The soldier’s big aunt is washing
+Manana. Here, The soldier’s big aunt forms one ip, and the end of this unit is marked by a H- boundary
+tone. The prosodic grouping of the sentence is: /{[the soldier’s][big] [aunt])} {[Manana][is washing]}/.
+In this paper, [ ] is used for an AP grouping, { } for an ip grouping, and / / for an IP grouping.
+
+
+
+
+Figure 4. An example pitch track of a complex declarative sentence, The fisherman who washed Lali is
+meeting Manana. The prosodic grouping is: /{[the fisherman][who][Lali+washed]} {[Manana.][is
+meeting]}]. The heavy NP subject forms one ip which includes three APs. The 1st and 2nd APs have La.
+
+
+3.2 Yes/No-Questions
+
+The default word order of a simple yes/no-question in Georgian, when the complement is
+not heavy, is “Subject + Verb + Complement”. Prosodically, a big prosodic break (often an
+Intermediate phrase boundary) is produced after the Verb, with a H- or L- boundary tone,
+
+
+                                                  46
+and the sentence final boundary tone is either H% or HL%: Subject+Verb (H-/L-)
+Complement (H%/HL%). When the Verb comes after a short complement phrase, it is
+interpreted as an echo-question. In general, the first AP of a yes/no-question has H* pitch
+accent and a La boundary tone.
+
+As mentioned earlier, in yes/no-questions, ‘H+L’ AP-phrase accent is commonly found on
+the antepenultimate syllable of an AP when the AP has H* pitch accent and is longer than 3
+syllables.1 Figure 5 shows an example pitch track of a simple Yes/No-Question, Is Miriam
+washing beautiful Lali?. Here, the subject noun and the verb together form one AP and one
+ip, showing H+L phrase accent followed by an ip-boundary tone, H-. Here, the H and L
+phrase accent tones are realized, respectively, on the penultimate and final syllables of the
+first word, miriami, illustrating that the H+L phrase accent is not a property of the first
+word, but of the first AP. That is, they are the antepenult and penult of the first AP.
+
+The complement phrase, Adjective + Noun, in Figure 5 also forms one AP with L* pitch
+accent (but no H+L phrase accent). The question sentence as a whole forms one IP, with a
+H% boundary tone. An IP-boundary tone is realized on the IP-final syllable and is not
+directly interpolated with pitch accent.
+
+
+
+
+Figure 5. An example pitch track of a simple Yes/No-Question, Is Miriam washing beautiful Lali?. The
+prosodic grouping of this sentence is /{[Miriam +is washing]} {[beautiful+Lali]}/. The first ip has one
+AP, and the H+L phrase accent is realized on the penultimate (H) and final (L) syllables of the first word,
+which are the antepenultimate and penultimate syllables of the AP.
+
+
+When the complement NP is heavier, Adverb+Adj.+Noun, for example, they can still form
+one AP, as shown in Figure 6. This illustrates that, as was the case in the declarative
+examples above, prosody marks a syntactic/semantic grouping in Georgian. The sentence
+
+1
+ When an AP had L* pitch accent, the H+L phrase accent was in general not realized, but we have seen a few
+cases where H+L phrase accent was realized on a focused word. In that case, an AP-initial syllable showed a
+L tone and the antepenultimate syllable showed an f0 peak with stronger amplitude, suggesting the pitch
+accent might have shifted to the antepenult of the AP. More focus data needs to be observed.
+
+
+
+                                                    47
+in Figure 6 is Did Manana drop very big sourcherry?. The prosodic grouping of this
+sentence is /{[Manana][drop]} {[very+big+sourcherry]}/. The Subject forms its own AP
+ending with La, and the Verb is followed by a bigger juncture, marked by a H- ip-boundary
+tone. The complement NP forms one AP, having H* and H+L phrase accent. The final
+syllable carries a High boundary tone, H%, marking the end of a whole question.
+
+
+
+
+Figure 6. An example pitch track of a Yes/No-Question with a heavy object NP. The sentence is Did
+Manana drop very big sourcherry?. The prosodic grouping of this sentence is /{[Manana][dropped]}
+{[very+big+sourcherry]}/. The last three syllables of each ip have a H-L-H contour, i.e., H+L phrase
+accent and H boundary tone (H- or H%). The object NP has three words (Very big sourcherry) but forms
+one AP, prosodically marking a syntactic group.
+
+
+When the subject NP is heavy in Yes/No-question, the verb does not come sentence-
+medially. Figure 7 shows an example where a subject NP is modified by a relative clause.
+Here, the verb comes at the end of a sentence, thus having the word order preferred in a
+declarative sentence. However, if we compare this example with the example in Figure 4
+where a pitch track of a declarative sentence of a similar structure is shown, we can see that
+even though the word order and a higher level prosodic grouping are the same in these two
+sentences, the tonal pattern of an AP and the sentence final boundary tone are different. In
+the declarative, the phrasing was /{[The fisherman][Who][Lali][washed]}{[Manana][is
+meeting]}/, with an H- Intermediate Phrase boundary after the relative clause and L% at
+the end of a sentence, but in the Yes/No-question, shown in Figure 7, the prosodic phrasing
+is /{[the fisherman][who+Lali+washed][Manana+is meeting]}/, with an La AP boundary
+after the head noun and after the relative clause, H+L phrase accent in each AP, and HL%
+at the end. The H* in the second and third AP is much lower than the preceding H target,
+thus downstepped H* or !H*.
+
+
+
+
+                                                48
+Figure 7. An example pitch track of a Yes/No-Question with a heavy subject NP. The sentence, Is the
+fisherman who washed Lali meeting Manana?, is prosodically grouped as /{[the fisherman]
+[who+Lali.+washed] [Manana+is meeting]}/. The relative clause has three words but forms one AP
+with H+L phrase accent. The main verb comes at the end of a sentence with HL% boundary tone on the
+last syllable. Compare this with the declarative shown in Figure 4.
+
+
+3.3 Wh-Questions
+
+The default tonal pattern of wh-question in Georgian is similar to that of the
+Yes/No-question in that the H+L phrase accent is often found, and a bigger juncture
+marked by H- follows a sentence-medial verb. But, unlike the verb in Y/N-questions, the
+verb in wh-questions is included in the same AP as the wh-phrase. A typical tonal pattern
+of wh-question is: {(L+)H* ... H+L H-} {T* ... ((H+)L) H%}.
+
+A monosyllabic wh-word is realized with H* or L+H* pitch accent but polysyllabic
+wh-words are often realized with L*+H (i.e., High tone on the second syllable). Since the
+wh-phrase and the verb form one AP, thus often longer than 4 syllables, the AP has H+L
+phrase accent, and is followed by an ip boundary tone at the end of the Verb. The
+post-verbal complement phrase also tends to form one AP with much reduced pitch range.
+But the tonal contour of this AP is very similar to the main wh-phrase AP: [H* ... H+L H%].
+In other words, the final three syllables of both Intermediate Phrases (the wh-phrase and
+the complement phrase) show a H-L-H contour, with each tone realized on the last three
+syllables of the phrase. When the post-verbal complement phrase is three syllables long,
+each of the three tones is realized on each syllable. We analyzed this contour as H* on the
+first syllable, H+L phrase accent on the first syllable (H on the first syllable (=antepenult)
+and L on the second syllable (=penult)), and H% on the final syllable of the phrase. When
+the phrase has only two syllables, such that it cannot carry all three tones, two patterns were
+found. Either the first syllable shows L* pitch accent followed by H% on the final syllable,
+i.e., the initial H tone was deleted (Figure 8), or all three tones were realized on two
+syllables by lengthening the first syllable, thus carrying two tones (H and L), followed by
+H% on the final syllable (i.e., H* (H+)L H%). That is, H* and H+L are realized as a falling
+
+
+
+                                                49
+tone in one syllable. When the phrase has only one syllable, either a L-H or a H-L-H
+contour was realized on the single syllable by lengthening the syllable. In this case, we
+labeled as L* H% or H* (H+)L H%, respectively.
+
+Figures 8, 9, and 10 show example pitch tracks of wh-question sentences with varying
+length of the wh-phrase and the post-verbal complement phrase. Though the boundary
+tones shown in these figures are all High tones (H- after the Verb and H% at the end of the
+sentence), some speakers produced L- after the Verb and HL% at the end of the sentence.
+When the boundary tone was HL%, the tonal pattern of the complement phrase was [H* ...
+H+L HL%]. That is, the antepenult showed a H tone, the penult showed a L tone, and the
+final syllable showed a HL contour tone. We are not sure at the moment if the choice of a
+different boundary tone is associated with a different meaning. Though speakers tend to
+have their favorite tone choice, we sometimes found that the same speaker was using a
+different type of the boundary tone in the same session.
+
+In Figure 8, the first ip (how many fox sat) has one AP with H+L phrase accent. Here, the H
+tone of the phrase accent is realized on the last syllable of the second word, [mela] ‘fox’,
+and the L tone is realized on the first syllable of the third word, [ijda] ‘sat’, supporting our
+claim that the phrase accent, realized as a sharp f0 fall, is not associated with the antepenult
+of a word, but with the antepenult of an AP.
+
+
+
+
+Figure 8. An example pitch track of a wh-question with a seven-syllable wh-phrase and a two-syllable
+post-verbal phrase. The sentence means How many foxes sat on the boat?. The wh-phrase shows a
+H-L-H contour at the end (H+L phrase accent followed by H- boundary tone), but the complement
+phrase shows a L-H contour only (L* pitch accent and H%). The H of phrase accent is on the final
+syllable of the 2nd word [mela] and the L part of the phrase accent is realized on the first syllable of the
+3rd word [ijda], rejecting the claim that stress on an antepenultimate syllable is a property of a word. As
+shown here, the f0 peak is on the antepenultimate syllable of an AP.
+
+
+
+
+                                                    50
+Figures 9 and 10 show a pitch track of a wh-question with a longer wh-phrase and a longer
+post-verbal phrase than that in Figure 8. Here, each phrase forms one ip, and shows a
+H-L-H contour at the end (H+L phrase accent followed by a H boundary tone). Note that
+the f0 peak of the pitch accent in the complement phrase is much lower than that of the
+wh-phrase (i.e., the downstep happens across an ip boundary). In Figure 10, the pitch
+tracking is not successful on the penultimate syllable of the post-verbal phrase. The
+speaker produced extremely low pitch by using creaky phonation. The creakiness can be
+observed from the waveform.
+
+
+
+
+Figure 9. An example pitch track of a wh-question with a seven-syllable wh-phrase and a three-syllable
+post-verbal phrase. The sentence means Who made Mary happy?. Both the wh-phrase and the
+complement phrase show a H-L-H contour at the end (H+L phrase accent followed by a H- boundary
+tone in the wh-phrase, and H* pitch accent followed by the L part of phrase accent and a H% boundary
+tone in the complement phrase). Note that the f0 peak of the pitch accent in the complement phrase is
+much lower than that of the wh-phrase (see !H*).
+
+
+
+
+                                                 51
+Figure 10. An example pitch track of a wh-question with a nine-syllable wh-phrase and a seven-syllable
+post-verbal phrase. The sentence means Which investigator made the beautiful soldier happy?. Both the
+wh-phrase and the complement phrase show a H-L-H contour at the end (H+L phrase accent followed
+by a H- boundary tone). The pitch range of the complement phrase is reduced. The pitch track is not
+clear on the penultimate syllable of the post-verbal phrase. A creaky phonation (observable from the
+waveform) was used to produce an extremely low pitch.
+
+
+3.4 Focus
+
+A focused word in Georgian, either narrowly focused as an answer to wh-question or
+correctively focused in the ‘not A but B’ frame, is realized with High pitch accent, H* or
+L+H*. A focused word is generally produced in expanded pitch range, and the post-focus
+word is either deaccented (such that a pitch accent is deleted) and/or dephrased (such that
+a prosodic boundary is deleted), or integrated with the focused word and carries H+L
+phrase accent.
+
+Figure 11 shows an example of deaccenting/dephrasing and Figure 12 shows an example
+of integration. In Figure 11, the subject ‘the drummer’ is correctively focused (X is hiding
+behind the ship. No, the DRUMMER is hiding behind the ship), and all the following words
+(the ship, behind, hide) lost their pitch accent and there is no AP boundary after the focused
+word. Figure 12 shows an answer to Who traveled to the ruins?, (MANANA traveled to the
+ruins). Here, the subject and the verb together form one AP, eight-syllable long, and carry a
+H+L phrase accent on the antepenultimate syllable of the AP. This “hat” pattern (H pitch
+accent followed by H+L phrase accent), which was used in yes/no-question and wh-
+question, seems to be linked to the meaning of emphasis. It’s quite common cross-
+linguistically that a wh-word behaves as a focused word prosodically (e.g., Korean (Jun &
+Oh 1996), Japanese (Maekawa 1991)), and the verb in a yes/no-question behaves as a
+focused word in prosody (e.g., Greek; Baltazani & Jun 1999, Arvaniti & Baltazani 2005).
+
+
+
+
+                                                 52
+Figure 11. An example pitch track of a sentence with corrective focus on the subject noun, (No.) The
+DRUMMER is hiding behind the ship. There is no pitch accent/boundary after the subject noun,
+illustrating the case of deaccenting and dephrasing.
+
+
+
+
+Figure 12. An example pitch track of a sentence with focus on the subject noun: MANANA traveled to
+the ruins (as an answer to Who traveled to the ruins?). Here, (MANANA traveled) forms one AP and
+carries H+L phrase accent on the antepenult of the AP, forming a “hat” pattern (H* ... H+L). The
+complement phrase also shows a “hat” pattern in a reduced pitch range.
+
+
+However, when a sentence-final word gets focused, there was little or a very minor effect
+in prosody, especially if the word is short. A focused, sentence-final, short word did not
+show much change in pitch range and/or amplitude, compared to the same word produced
+
+
+                                                  53
+in a neutral condition. But when the word is polysyllabic, the effect was more visible,
+though not as strong as that in non-final position.
+
+Finally, when a focused word is in a sentence-medial position, it can begin a new prosodic
+unit. Figure 13 shows an example where an embedded subject in yes/no-question is
+narrowly focused. The neutral production of the same yes/no-question sentence is shown in
+Figure 7. In the focus condition, an Intermediate Phrase boundary is inserted just before the
+focused word (after the complementizer, who, which is prosodically cliticized to the
+preceding head noun). Here, even though narrow focus was given only to the subject noun,
+the focused subject and the following verb are integrated to form one AP and show the
+“hat” pattern. The focus, however, did not affect the phrasing or the tones after the verb.
+
+
+
+
+Figure 13. An example pitch track of a sentence with focus on the embedded subject noun: Is the
+fisherman who washed LALI meeting Manana?. There is an Intermediate Phrase break before the
+focused word, Lali, and the focused subject and the following verb form one AP showing the “hat”
+pattern. Compare with Figure 7 where a neutral production of this yes/no-question is shown. The
+phrasing and tonal pattern of the current utterance is the same as that in yes/no-question. The only
+difference is the insertion of an ip-boundary right before the focused subject.
+
+
+4. Discussion and Summary
+
+In this paper, we have proposed a prosodic structure of Georgian and the tonal pattern of
+each unit. There are three prosodic units above the Word: Intonation Phrase (IP),
+Intermediate Phrase (ip), and Accentual Phrase (AP). The right edge of each unit is marked
+by a boundary tone, and the ip and IP are also marked by phrase-final lengthening.
+Georgian AP is exotic by virtue of having two additional tones. An AP has post-lexical
+pitch accent and H+L phrase accent. Pitch accent is realized on the first syllable of an AP,
+and phrase accent is realized on the antepenultimate and penultimate syllable of an AP (H
+
+
+
+                                                  54
+on antepenult and L on penult). Previous studies on Georgian stress claimed that the
+antepenultimate syllable of a word has stress in addition to the first syllable. Observations
+of pitch at a sentence level, however, suggest that the high pitch on the antepenultimate
+syllable is not a property of a word, but of a phrase, AP. The high pitch was on the
+antepenult of an AP regardless of its location in a word. We assume that the earlier claim
+on stress is based on the case where a phrase has one long word or when a phrase ends with
+a long word so that the antepenult of a word matches the antepenult of a phrase. The
+antepenultimate syllable, however, was not as prominent as the word-initial syllable. So,
+we categorized this tone as a phrase accent of an AP, not a pitch accent which is linked to a
+stressed syllable. In questions and focus phrases, this H+L phrase accent was often realized
+after H-toned pitch accent, creating a “hat”-like pitch contour.
+
+Compared to English or Spanish, Georgian shows much closer connection between
+syntactic/semantic grouping and prosodic phrasing. In general, each content word in
+Georgian forms one AP, but a sequence of words that are semantically and syntactically
+close tends to form one AP (similar to Farsi; Arbisi-Kelm 2007), or one ip by changing the
+tonal pattern of an AP and adding an ip- boundary tone. The default tone pattern of an AP is
+L* pitch accent and a Ha boundary tone ([L* Ha]), but when a sequence of APs forms one
+ip, the ip-medial AP tends to have High pitch accent and a Low boundary tone (i.e., [H*
+La]). The grouping of APs was also achieved by a higher H boundary tone (H-) or a lower
+L boundary tone (L-).
+
+Another interesting property of Georgian intonation is the complex tonal contour, HLH or
+HLHL, and its syllable affiliation at the end of a question phrase. The complex contour,
+occurring on the last three syllables of a phrase, is due to the combination of the H+L
+phrase accent and the IP-final boundary tone. That is, HLH is H+L phrase accent (thus, on
+antepenult and penult, respectively) followed by a H% boundary tone, and HLHL is H+L
+phrase accent followed by HL%.
+
+Even though Georgian is known to have free word order, we found that certain sentence
+types have a preferred word order and pitch contour:
+• Declarative: SOV order; rising [L* Ha] AP contour and L% sentence-final boundary
+• Yes/No-Q: SVO order in a simple sentence (but, SOV order in a complex sentence);
+    falling [H* La] AP contour Subject. An ip break after a sentence-medial verb (can be
+    L- or H-), H+L phrase accent possible, and sentence-final HL% (or H%).
+• Wh-Q: SVO order; (L+)H* on wh-word followed by H+L phrase accent, and a
+    sentence-final H% (or HL%).
+
+In sum, the inventory of tones in Georgian is as follows:
+
+   1 AP pitch accent
+          L*, L*+H (in longer word): common in declaratives
+          H*, L+H* (in longer word): common in focus & questions
+   2 AP phrase accent, H+L: associated with the antepenult of AP, but realized on the
+     antepenult and the penult of the AP
+
+
+
+
+                                             55
+   3   AP boundary tones
+            Ha: common after L*
+            La: common after H*
+            L+Ha: common after L*+H; on AP-final two syllables
+   4   ip boundary tones
+            L- or H-: on ip-final syllable
+            L+H-: on ip-final two syllables
+   5   IP boundary tones
+            L%: common in declaratives; on IP-final syllable
+            H% and HL%: in questions; on IP-final syllable
+            L+H% (or LH% if not enough syllables): in questions, on final 2 syllables.
+
+Finally, the prosodic structure and tonal patterns proposed in this paper are based on
+limited data collected from four speakers. More data need to be collected to confirm and
+improve our analysis.
+
+
+References
+
+Aronson, Howard. 1990. Georgian: A reading grammar. Slavica Publishers, Inc.
+
+Arbisi-Kelm, T. 2007. An analysis of the intonation of complex sentences in Farsi. UCLA
+       Working Papers in Phonetics, No. 105, pp.35-50.
+
+Arvaniti, A. & M. Baltazani. 2005. Intonational Analysis and Prosodic Annotation of
+       Greek Spoken Corpora. S.-A. Jun (ed) Prosodic Typology: The Phonology of
+       Intonation and Phrasing. Oxford University Press. 84-117.
+
+Baltazani, M. & S.-A. Jun. 1999. Focus and Tepic intonation in Greek. Proceedings of 14th
+       International Congress of Phonetic Sciences (ICPhS), San Francisco, CA. pp.
+       1305-1308.
+
+Beckman, M. & J. Pierrehumbert. 1986. Intonational structure in Japanese and English.
+     Phonology Yearbook 3: 255–309.
+
+Bush, R. 1999. Georgian yes-no question intonation. In Phonology at Santa Cruz, Vol. 6.
+       Santa Cruz, CA: US Santa Cruz. 1-11.
+
+Esposito, C. & P, Barjam. 2007. The intonation of question in Farsi: Wh-questions,
+       Yes/No-questions, and Echo-questions. UCLA Working Papers in Phonetics, No.
+       105, pp. 1-18.
+
+Hewitt, B.G. 1995. Georgian: A structural reference grammar. John Benjamins
+       Publishing Co. Amsterdam.
+
+Jun, S.-A. 1993. The Phonetics and Phonology of Korean Prosody. Ph.D. dissertation.
+        Ohio State University. [Published in 1996 by Garland Publishing Co.]
+
+
+
+                                           56
+Jun, S.-A. 1998. The Accentual Phrase in the Korean prosodic hierarchy, Phonology.
+        15.2:189-226
+
+Jun, S.-A. & C. Fougeron 1995. The accentual phrase and the Prosodic structure of French,
+        in the Proceedings of XIIIth International Congress of Phonetic Sciences . Vol. 2:
+        722-725. Stockholm, Sweden .
+
+Jun, S.-A. & C. Fougeron 2000. A Phonological model of French intonation, in A. Botinis
+        (ed.) Intonation: Analysis, Modeling and Technology. Kluwer Academic
+        Publishers. Pp. 209-242.
+
+Jun, S.-A. & C. Fougeron 2002. The Realization of the Accentual Phrase in French
+        Intonation. Probus 14:147-172.
+
+Jun, S.-A. and M. Oh. 1996. A prosodic analysis of three types of wh-phrases in Korean.
+        Language and Speech. 39(1): 37-61.
+
+Kahn, S. 2007. Phrasing and Focus in Bengali. A poster presented at the Workshop on
+       Intonational Phonology: Understudied or Fieldwork Languages. A satellite
+       meeting of ICPhS, Saarbruecken, Germany, August 5, 2007.
+
+Ladd, R. 1996. Intonational Phonology. Cambridge University Press.
+
+Maekawa, K. 1991. Perception of Intonational characteristics of WH and NON-WH
+     questions in Tokyo Japanese. Proceedings of the 12trh International Congress of
+     Phonetic Sciences (Aix-en-Provence, France), 4, 202-205.
+
+Müller, G. (2005) Frageintonation im Georgischen. Unpublished M.A.-thesis. Institute
+       for Linguistics, University of Cologne
+
+Pierrehumbert, J. 1980. The Phonology and Phonetics of English Intonation. Unpublished
+       Ph.D. dissertation. MIT.
+
+Robins, R.H. & Waterson, Natalie. 1952. "Notes on the Phonetics of the Georgian
+       Word." Bulletin of the School of Oriental and African Studies, University of
+       London. Vol. 14, no. 1. pgs. 55-72.
+
+Sadat-Tehrani, N. S. 2007. Intonation of Farsi. A poster presented at the Workshop on
+       Intonational Phonology: Understudied or Fieldwork Languages. A satellite
+       meeting of ICPhS, Saarbruecken, Germany, August 5, 2007.
+
+
+
+
+                                            57
+

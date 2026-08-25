@@ -1,0 +1,273 @@
+                            HARMONY AND SONORITY IN GEORGIAN
+                                                      Priscilla McCoy
+                                                  Berkeley, CA 94709, USA
+                         ABSTRACT
+                                                                                 Lab. Dent. Alv. Palat-Alv. Vel. Post-Velar
+It has been claimed that in Georgian, harmonic consonant
+clusters have a single release, regardless of the number of          Stops vcd. b         d      dz       dZ           g
+consonants in the cluster [1]. Harmonic consonant clusters
+are those clusters that group together based on manner of            & asp.       p       th     tsh      tSh          kh
+articulation, e.g. voiced, aspirated, ejective, etc. [1,2,3, 4].     Affric.glot. p'      t'     ts'       tS'            k'       q'
+To examine this claim, harmonic and non-harmonic                     Fric. vcd.           z      Z                                 Ä
+consonant clusters were recorded and analyzed in order to 1)
+assess the phonetic reality of the initial claim; and (2) t o             vcls.           s      S                                 X
+compare durations of cluster releases and whole cluster              Nasals       m      n
+segments. Results of the distribution of release durations           Liquids & v         l,r
+show a correlation to a sonority hierarchy [5]. This builds o n      Glides
+previous work on Georgian, where it was found that while the
+use of a prefix {h} was decreasing [6], the pattern of its loss          Table 1. Georgian Consonant System [1]
+manifested a marked sonority hierarchy in two respects. I
+investigate here whether these hierarchies hold true across          2.2 Non-Harmonic Cluster Types
+other phonological processes in Georgian.                            Non-harmonic clusters may in principle be composed of a
+                                                                     variety of consonant combinations, the restrictions of
+                   1. INTRODUCTION                                   Georgian phonotactics notwithstanding. Clusters occur
+Languages of the Caucasus have long been know for their rich         primarily in morpheme initial position. An example of a non-
+consonantal systems and complex consonant clusters.                  harmonic cluster is :
+Georgian, a language in the Kartvelian or South Caucasian              h
+family of languages, not only follows this pattern, but              [t b i l i s i]      'Tbilisi', the capital city of Georgia.
+differentiates between types of consonant clusters within its        The first element of the cluster is aspirated, and the second is
+system. The clusters are divided into groups of harmonic             voiced - a cluster differing by place and manner. Below (Figure
+consonant clusters and non-harmonic consonant clusters. In           1.), the spectrogram illustrates a normative release pattern,
+grammars of current usage (Aronson [1], Dirr [3], Marr and           closure and burst for the aspirated /t/, closure and burst for
+Briere [5], Rudenko [6], Tschenkeli [8], Vogt [9]) these clusters    voiced /b/, i.e. two releases.
+are described in detail. My purpose in this paper is to examine
+claims that harmonic clusters have a different release pattern
+than that of other consonant clusters -- that there is a single
+release at the end of the cluster rather than the expected release
+after each sound (more or less).
+     This paper will first present the rudiments of the Georgian
+consonantal system and then move on to explain the
+differences between the two consonant cluster types. This i s
+followed by experimental concerns -- the parameters, the set-
+up, the results with discussion. After this I will look at issues                   th         b i l i             s           i
+of sonority manifested in Georgian from a previous work [10]
+and examine how these issues of sonority relate to harmonic
+consonant clusters.
+
+               2. GEORGIAN CONSONANTS
+2.1 Georgian Consonant System
+The Georgian consonant system, although not as complex as
+some languages in the North Caucasus, is fairly robust. Below
+is a table (adapted from Aronson [1]) that gives the consonant
+inventory of Georgian. Stops and affricates are grouped
+together as they have the three-way distinction - voiced,
+aspirated, glottalized. They are also the focus of this study.
+Although fricatives form harmonic clusters as well as the stop
+series, their lack of total closure makes them even less likely
+candidates for 'zero release'; they will not be considered here.
+
+                                                                                           Figure 1. [ th b i l i s i ]
+
+
+
+
+                                                             page 447                                            ICPhS99                San Francisco
+2.3 Harmonic Cluster Types
+A view of harmonic cluster types is listed below. Although             Tkvi ______ or dZer.
+clusters can include more elements than those listed, the basic
+structure is grouped by manner, front of the oral cavity (labial,      'Say _______ two times.'
+dental, alveolar, palato-alveolar) with a velar element, with a
+possible 2nd element post-velar as well.                               Immediately following this, each of the tokens was then
+                                                                       pronounced twice in isolation for a total of three tokens per
+Voiced:                     bg, dg, dzg, dZg                           word.
+ Voiced, 2nd element:       Ä                                              The test clusters were of 4 types:
+Aspirated:                  pk, tk, tsk, tSk
+                                                                       1) Non-harmonic initial clusters
+  Aspirated, 2nd element: X                                            2) Harmonic initial clusters - aspirated
+Glottalized:                p'k', t'k', ts'k', t§k'                    3) Harmonic initial clusters - voiced
+  Glottalized, 2nd element: q'                                         4) Harmonic initial clusters - glottalized
+
+         Table 2. Harmonic Consonant Cluster Groups                    4.2. Acoustic Parameters Examined
+                                                                       The elements investigated in this study were various burst
+               3. RESEARCH QUESTIONS                                   durations. First, burst durations of elements in each of the four
+The experiment was designed with these specific research               cluster types were measured. Durations of whole clusters were
+questions in mind:                                                     also measured for comparison purposes. Comparison of
+                                                                       durations of like elements in harmonic clusters and non-
+1) Do harmonic consonant clusters have only one release?               harmonic clusters were made to see whether there appreciable
+                                                                       differences that regularly patterned with each cluster and
+2) Is it possible to differentiate consonants if there is no           element type.
+    intervening release?
+                                                                       4.3. Results
+3) If there is a release, is it so much shorter than that of non-      First and foremost it should be noted that all tokens of
+     harmonic clusters that grammars have stated there is              harmonic consonant clusters showed a release after each
+     no release?                                                       element in the cluster. There were no cases of a single release
+                                                                       for a cluster sequence.
+     The first question is, to a certain extent, a straw dog in               Across all 6 speakers (varying by both age and gender)
+that it seems unlikely that the consonants can have zero               the difference between the duration of the releases of elements
+release and still be identifiable. Although some cues may be           within harmonic clusters and non-harmonic clusters was
+had from the onset of a sound, the offset/release is a critical        minimal. In some cases, the duration of a release of an
+cue that given a series of no releases, as these clusters are          element within a harmonic cluster was even greater than that
+described, there would be minimal chance of perceiving the             of the same element in a non-harmonic cluster environment.
+intervening segments. This also addresses the second                   The findings would indicate that definitive differences that
+question, a follow-up to the first -- without an acoustic signal       could be attributed to an element's membership in one cluster
+of any sort, it again seems dubious that a complex cluster             type or another did not materialize.
+could be perceived. It is then to the third question, that this               The next spectrogram (Figure 2.) shows the token
+paper is really addressed -- are the differences in the release
+                                                                       [ tS' k' u a ]. This is a two-member glottalized harmonic
+durations between these two consonant cluster types so great
+as to engender a possible description of no release in                 cluster. The first member a palato-alveolar, the second - velar.
+harmonic clusters?                                                     A careful inspection shows that there is considerable frication
+                                                                       noise as part of the release of the first member of the cluster .
+                        4. EXPERIMENT                                  In this case the initial member is an affricate, but again, in
+4.1 Procedures                                                         order to generate the noise seen on the spectrogram, there
+Six native speakers of Georgian were recorded on a DAT                 must be an egress of air .
+taperecorder using a Marantz Condenser microphone.                            A review of aspirated harmonic cluster sequences is
+Although a sound booth was unavailable in the field, very              similar to the previous paragraph about glottalized clusters.
+quiet conditions were achieved by using a central room,                The word, [ th kh v a ], across the 18 tokens shows the same
+without windows to the outside. The speakers were natives of           results. The aspirated initial dental not only has a release, but
+Tbilisi, the capital of Georgia, and considered to be fluent           the release does not differ appreciably from the release seen in
+speakers of the standard literary language. The age of the             the example above for /tbilisi/ (Figure 1.).
+speaker varied from 10 years old to 70 years old. The gender                  There were also cases where there was the addition of a
+distribution was two females, four males. Although there is            vocalic element between consonants in the cluster, e.g. for
+some variation to be found between males and females, this is          example in the voiced harmonic token, /dgas/, its
+not of the sort that should show a differences in consonant            spectrogram shows a strong vowel-like segment between the
+cluster production.                                                    /d/ and the /g/ that is clearly a schwa -- [d « g a s ] . Although
+      There were three repetitions of a total of 29 individual         it is possible in principle to produce the token with a dental
+words. The first token was spoken in the frame sentence:               onset and a velar offset for the cluster, this was not a course
+
+
+
+
+                                                                page 448                                      ICPhS99          San Francisco
+chosen by any of the six speakers, or 18 tokens of the same           Old Georgian                  Modern Georgian
+lexical item.
+                                                                      h>0 / __V                     h>0 / __V
+                                                                      h>h / __ L, N                 h>0 / __ L, N
+                                                                      h>h / __ P, K                 h>h / __ P, K
+                                                                      h>s / __ T, C                 h > s / __ T, C
+                                                                        s>S / __ C
+
+                                                                      ( C is used here as a cover term for palatals)
+
+                                                                      Table 3. Old Georgian vs. Modern Georgian {h} Distribution
+
+                                                                           Sonority hierarchies are usually set up by the degrees of
+                                                                      sonority, that is resonance. For Georgian, sonority becomes
+                                                                      relevant for both the h-series morpheme and that of the
+                                                                      following consonant. Clements [2] proposes a sonority
+                                                                      hierarchy set up in such a manner.
+
+                                                                                   +Sonority                      -Sonority
+
+                                                                                               V>G>L>N>O
+
+                                                                             (V-vowel, G-glide, L-liquid, N-nasal, O-obstruent)
+
+                                                                         We assume these principles of sonority operate in both the
+                                                                      morpheme {h} and the followings consonant. The {h} becomes
+                                                                      the target and the following consonant or vowel the trigger.
+                                                                          The sonority of [h] is closest to that of vowels, that is, it i s
+                                                                      next in the sonority hierarchy after vowels.             The first
+                      Figure 2. [ tS' k' u a ]                        environment to lose {h} is pre-vocalic, vowels being the most
+                                                                      sonorous.      We therefore have two sonority hierarchies
+                                                                      operating simultaneously -- that of the {h} where /h/ is more
+                        5. DISCUSSION
+                                                                      sonorous than /s/ and that of the following element. The
+5.1 Experimental Results
+                                                                      frication of the laryngeal spirant [h] is produced when the air
+ Results from the experiment show that the statement found in
+                                                                      passes through the half-closed glottis. The noise then receives
+grammars, 'harmonic clusters have one release,' [1], [3], [5],
+                                                                      coloring from surrounding vowels. This may account for its
+[6],[7], [8], [9] does not turn out to be true in its phonetic
+                                                                      earlier disappearance before vowels.
+realization. There were also no differences that could be
+                                                                         Next is {h} before L,N (Liquids and Nasals), most likely i n
+attributed to gender distinctions. Age as well did not seem to
+                                                                      that order:
+play a role. There is the possibility that there could be a style
+of speech (theatrical perhaps) that tries to follow this rule as
+                                                                                             +    Sonority        -
+closely as possible. Such a hypothesis would be interesting
+to pursue as the provenance of this dictum is opaque.
+                                                                                                        L>N
+      In a study [11], it has also been shown that harmonic
+consonant clusters in Georgian have more than one release
+                                                                         We now come to the remaining environments of {h} --
+and that further, their sequencing is a result of a complex set of
+                                                                      obstruents. Because there has already been the change from h >
+parameters that include issues of sonority in their number.
+                                                                      s, we can hypothesize that the next environment is most likely
+                                                                      to have been that of the feature grave and finally the feature
+5.2 Sonority in Georgian Phonological Processes
+                                                                      acute, with /s/ as its marker.
+In a previous paper, the distribution of the morpheme {h} i n
+                                                                          Both of these hierarchies of sonority, working in parallel
+Georgian (Old, Middle, and Modern) was defined in acoustic
+                                                                      explain the loss of the {h} morpheme and the ordering of its
+terms using the feature grave/acute [4]. This morpheme was
+                                                                      loss. As an explanation of a phonological process, this
+gradually being lost from usage and followed a clear hierarchy
+                                                                      hierarchy seems to work. However, does this hierarchy have
+of + sonority > - sonority . A brief look at the gradual loss of
+                                                                      any bearing on Georgian consonants and their synchronic
+this prefix over time follows. The table below compares the
+                                                                      inner workings -- and should it?
+differences between the Old Georgian rule vs. the Modern
+Georgian rule of the distribution of the morpheme {h}.
+                                                                      5.3 Sonority in Georgian
+                                                                      Returning to some of the examples in the harmonic consonant
+                                                                      clusters, one sees that although consonant clusters may be
+                                                                      long, i.e. there are no vowels in the consonant clusters, the
+                                                                      longer consonant clusters are broken up with elements of
+                                                                      greater sonority than that of obstruents.
+
+
+
+
+                                                               page 449                                       ICPhS99          San Francisco
+     The example above /dgas/ is a voiced harmonic consonant                The most reasonable conclusion here is then, that
+cluster. Its phonetic realization includes, in addition to the         although Georgian has seemingly impossible consonant
+release of the first element [d], an intervening schwa-like            clusters, most are in fact broken up in some way such that the
+element before continuing on to the [g] and the remainder of the       actual consonantal length of any cluster phonetically i s
+word. This insertion of more sonorous elements, seen visibly           probably rarely more than 2 (maybe 3) together.
+in words by the interplay phonotactically of liquids, glides,
+nasals to offset obstruents, is a factor in the ability to permit                               REFERENCES
+what looks to be long and complex consonant clusters [11].             [1] Aronson, Howard I. 1982. Georgian: A Reference
+What occurs in addition to the actual representation of a given        Grammar, Columbus, Ohio: Slavica Publishers.
+lexical item are the additional phonetic insertions, that provide      [2] Clements, G. N. 1990. The role of the sonority cycle i n
+even more sonority to a the production of a word.                      core syllabification. In Kingston , J. and M. E. Beckman (ed.)
+     How does this conform to principles of sonority that view         Between the grammar and physics of speech. Papers i n
+consonant cluster sequencing as start to finish process? It            Laboratory Phonology 1. Cambridge [England] ; New York :
+doesn't. What it does do, however, is to adhere to principles of       Cambridge University Press, 1990.
+sonority sequencing in a wave across a word, that is adjacent          [3]     Dirr, A. (1928),     Einfuehrung in das Studium der
+elements will follow a trajectory though the sonority hierarchy        kaukasischen Sprachen, Leipzig.
+within the production of the word. This may well be to say that        [4] Jakobson, R., G. Fant, and M. Halle. 1951. Preliminaries
+sonority as a concept is as fluid as ever -- difficult to apply i n    to Speech Analysis: the Distinctive Features and their
+rigid terms to the phonetic realization of Georgian.                   Correlates, Cambridge, Mass.: M.I.T. Press.
+                                                                       [5] Marr, R. and BriŽre. 1931. La langue Georgienne. Paris.
+                                                                       [6]ÊRudenko,ÊB.Ê1940.Grammatika                    gruzinskogo
+                      6. CONCLUSION                                    jazyka,.Moscow, Leningrad.
+                                                                       [7] Shanidze, A. 1980. Txzulebani tormet tomad, v.3.
+                                                                       Tbilisi : Tbilisis saxelnicipo universiteti
+                                                                       [8]    Tschenkeli, K. 1958. Einfuhrung in die georgische
+                                                                       Sprache, Bd. 1. Zurich.
+                                                                       [9] Vogt, H. 1939. Grammaire de la langue Georgienne. Oslo.
+                                                                       [10] McCoy, P. 1995. Sonority and the H-series in Georgian.
+                                                                       Proceedinga of the 13th Internatinl OCngress of Phonetic
+                                                                       Sciences, v. 4. Stockholm.
+                                                                       [11] Chitoran, I. ms. Some evidence for feature specification
+                                                                       constraints on Georgian consonant sequencing.
+
+
+
+
+                   Figure 3. [f ph tsh kh v n i ]
+
+The word in Figure 3., [f p h ts h k h v n i ], is often cited as an
+example of a long consonant cluster in Georgian. It is, but it i s
+also a good example of the insertion of vocalizing elements i n
+the production of such a cluster. The initial /v/ is devoiced t o
+[f] by its proximity to [ p h ] . A careful look a the next three
+segments shows them to be voiceless as well. However, a close
+look at the bottom of the spectrogram shows intermittent
+voicing throughout these segments. In addition, there are
+fairly strong formant lines crossing through these areas of
+frication. In fact, what one hears is vocalic elements at the
+offset of [ ph] and in the release of [ kh].
+
+
+
+
+                                                               page 450                                    ICPhS99         San Francisco
+

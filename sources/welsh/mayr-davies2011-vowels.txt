@@ -1,0 +1,1324 @@
+Journal of the International Phonetic
+Association
+http://journals.cambridge.org/IPA
+
+Additional services for Journal of the International Phonetic
+Association:
+
+Email alerts: Click here
+Subscriptions: Click here
+Commercial reprints: Click here
+Terms of use : Click here
+
+
+A cross­dialectal acoustic study of the monophthongs and
+diphthongs of Welsh
+Robert Mayr and Hannah Davies
+
+Journal of the International Phonetic Association / Volume 41 / Issue 01 / April 2011, pp 1 ­ 25
+DOI: 10.1017/S0025100310000290, Published online: 28 March 2011
+
+Link to this article: http://journals.cambridge.org/abstract_S0025100310000290
+
+How to cite this article:
+Robert Mayr and Hannah Davies (2011). A cross­dialectal acoustic study of the monophthongs and
+diphthongs of Welsh. Journal of the International Phonetic Association, 41, pp 1­25 doi:10.1017/
+S0025100310000290
+
+Request Permissions : Click here
+
+
+
+
+Downloaded from http://journals.cambridge.org/IPA, IP address: 193.62.97.115 on 16 Apr 2013
+                                   A cross-dialectal acoustic study of the
+                                  monophthongs and diphthongs of Welsh
+                                                                        Robert Mayr & Hannah Davies
+                                                                       Centre for Speech and Language Therapy,
+                                                                         University of Wales Institute, Cardiff, UK
+                                                                                              rmayr@uwic.ac.uk
+                                                                                         h.d.davies@uwic.ac.uk
+
+
+
+
+      The Welsh language has a complex vowel inventory with up to thirteen monophthongs and
+      the same number of diphthongs. According to descriptive reports, systematic differences
+      are found between the two main varieties of Welsh, Northern and Southern Welsh (Ball &
+      Williams 2001, Jones 1984). However, few studies have attempted to verify these claims
+      instrumentally, and little is known about the acoustic properties of Welsh vowels. The present
+      study is the first systematic acoustic investigation of the monophthongs and diphthongs of
+      Northern and Southern Welsh and includes measurements of formant trajectory length and
+      spectral rate of change for the diphthongs (Fox & Jacewicz 2009).
+         The results largely confirm claims about contrastive vowel categories in Northern and
+      Southern Welsh. In contrast to auditory-based accounts, however, pairs of Northern Welsh
+      vowels were found to differ, not only in terms of duration, but also vowel quality. The
+      diphthongs, in turn, revealed interesting cross-dialectal differences in spectral dynamics
+      across their trajectories. The results have implications for notions of contrastivity in
+      languages with large vowel inventories.
+
+
+
+1 Introduction
+The vowel inventories in the world’s languages differ considerably in size. Thus, according to
+the UPSID corpus of 317 languages (Maddieson 1984), there are, on average, approximately
+six contrastive vowel categories per language. Of the languages surveyed, 5.7% contain only
+three vowel phonemes while, at the other extreme, 4.1% have 17 or more contrastive vowel
+categories. The most common vowels are /a i u/, while front and central rounded vowels, for
+instance, are comparatively rare (see also Maddieson 2008 for further details).
+     In terms of its vowel inventory, Welsh, a member of the Brythonic branch of Celtic
+languages, is an interesting case since it distinguishes up to thirteen monophthongs and the
+same number of diphthongs. Interestingly, however, not all varieties of the language exploit the
+full number of contrastive categories. While there is a wealth of auditory-based descriptions
+of Welsh vowels (Awbery 1984, Ball 1984, Jones 1984, Ball & Williams 2001), only a
+limited number of small-scale acoustic studies is available. Moreover, the few existing ones
+(Oftedal 1969; Ball 1983, 1984; Ball & Williams 2001; Mayr & Davies 2009) only include
+information on some of the relevant categories and are restricted to northern varieties of
+Welsh. The purpose of the present study is to complement the existing literature by providing
+
+Journal of the International Phonetic Association (2011) 41/1               
+                                                                            C International Phonetic Association
+doi:10.1017/S0025100310000290
+2   Robert Mayr & Hannah Davies
+
+
+
+           Table 1 The vowel inventory of Northern and Southern Welsh (adapted from Ball & Williams 2001: 29–48).
+                                Northern Welsh                                                   Southern Welsh
+                              13 monophthongs                                                   11 monophthongs
+                        short vowels                        long vowels               short vowels            long vowels
+                              iˆu                                i˘ ˆ˘ u˘                    IU                   iu
+                             e´o                                   e˘ o˘                    E´ç                   eo
+                                a                                   a˘                         a                  A
+                                 13 diphthongs                                                    8 diphthongs
+             front closing         central closing             back closing           front closing          back closing
+                aI çI ´I            aˆ Aˆ çˆ Uˆ ´ˆ             IU EU aU ´U               aI çI UI ´I         IU EU aU ´U
+                                                                     ˆU
+
+
+an initial systematic acoustic investigation of the monophthongs and diphthongs in the two
+main varieties of Welsh: Northern and Southern Welsh.
+
+
+
+2 Background
+2.1 Welsh
+The Welsh language is spoken by approximately 700,000 people, or 21% of the population
+of Wales (http://www.statistics.gov.uk/census2001, Gathercole & Thomas 2009). The
+geographical distribution of Welsh speakers is uneven, however. Welsh-language strongholds
+are found in Gwynedd (69%) and Anglesey (60%) in North Wales, Ceredigion (52%) in Mid
+Wales, and Carmarthenshire (50%) in South Wales. Conversely, only 9% of the people in
+Blaenau Gwent and Monmouthshire are able to speak Welsh.
+    The sociolinguistic situation of Welsh is complex. In line with other diglossic areas
+(Ferguson 1959), a high variety, used in literary and academic contexts, is distinguished from
+a low variety, used in spoken every-day interactions (Ball, Griffiths & Jones 1988). While
+there is a standard written form of Welsh, attempts to develop a spoken standard form of
+the language, Cymraeg Byw [Living Welsh] that can be used as a model for second-language
+learners, have only been partially successful (Davies 1988, B. P. Jones 1988, D. G. Jones
+1988). Spoken Welsh finds expression in the form of various regional dialects, with major
+dialect areas found in the North, the Midlands and the South, each further divided into eastern
+and western parts (Thomas 1973, 1988; Ball 1988a).
+    Unlike Received Pronunciation (RP) for English, there is no generally accepted supra-
+regional standard accent of Welsh (Ball 1988b: 50). However, it is commonly acknowledged
+that the accents of educated speakers from North and South Wales, as used in formal contexts,
+come closest to standard forms of pronunciation. Accordingly, descriptive accounts of the
+sound system of Welsh (Awbery 1984, Jones 1984, Ball & Williams 2001) have focused on
+Northern and Southern varieties, as well. Central and western accents, on the other hand, tend
+to be treated as hybrid forms and are therefore described in terms of their commonalities with,
+and differences from, Northern or Southern accents.
+
+
+2.2 The vowels of Welsh
+Table 1 summarizes the vowel phonemes of Northern and Southern Welsh, as distinguished
+in Ball & Williams (2001). Note that the notation differs slightly from that used in Awbery
+(1984) and Jones (1984).
+    With the exception of /´/, Southern Welsh monophthongs are described as occurring in
+the form of tense–lax pairs that differ in terms of vowel quality and quantity. Note that the
+                                                                             Welsh monophthongs and diphthongs   3
+
+
+
+
+symbols used by Ball & Williams (2001) merely reflect the qualitative differences. Northern
+Welsh monophthongs, on the other hand, are described as only being distinguished on the
+basis of duration. Moreover, this variety includes an additional set of phonemes: the close
+central vowels /ˆ˘/ and /ˆ/. In Southern Welsh, there are no close central vowels, so Northern
+Welsh tŷ ‘house’ /tˆ˘/ and ti ‘you’ /ti˘/ are homophones in southern varieties and pronounced
+[ti˘].
+     Northern and Southern Welsh also differ in terms of their diphthong categories. Southern
+Welsh has two sets of diphthongs, one that moves towards a close front quality, and another
+that moves towards a close back quality (see Table 1).1 Northern Welsh, in contrast, also
+distinguishes a set of central closing diphthongs. As a result, many of the Northern Welsh
+contrasts are neutralized in southern varieties. Thus, Northern Welsh (h)ail ‘second’2 /haIl/,
+hael ‘liberal’ /hAˆl/, and haul ‘sun’ /haˆl/ are homophones in Southern Welsh and pronounced
+[haIl].3
+     Cross-dialectal differences also affect the phonetic realization of Welsh diphthongs
+in terms of the relative distribution of spectral change across formant trajectories. Thus,
+according to Ball & Williams (2001), Southern Welsh diphthongs have short initial elements,
+while Northern Welsh diphthongs vary systematically in the relative duration of their onsets
+and offsets. The main spectral change in Northern Welsh /Aˆ/, for instance, occurs later in the
+vowel than that in /aI/ and /aˆ/.
+     While the latter difference has been confirmed in acoustic studies (Ball 1983, Mayr &
+Davies 2009), information on the acoustic properties of Welsh vowels is generally scarce.
+With respect to the monophthongs, the only available studies are Oftedal (1969), Ball (1984),
+Ball & Williams (2001) and Mayr & Davies (2009). These are, however, all small-scale
+studies based on individual speakers from North Wales. Information on the duration of Welsh
+monophthongs is also available in Jones (1982). With respect to the diphthongs, Ball (1983)
+provides an account of Northern Welsh /aI/, /aˆ/ and /Aˆ/. The only acoustic study to date that
+encompasses all monophthong and diphthong categories of Northern Welsh is Mayr & Davies
+(2009). However, this study is based on a single speaker from the village of Dyffryn Clwyd
+in north-eastern Wales. No acoustic record is currently available of Southern Welsh vowels.
+The present study aims to provide an extension of the available literature by systematically
+examining the acoustic properties of Northern and Southern Welsh vowels.
+
+
+3 Methods
+3.1 Participants
+Twenty male native speakers of Welsh participated in the study, ten from North Wales
+(Gwynedd and Anglesey) and ten from South Wales (Carmarthenshire and Swansea). They
+had a mean age of 20 years (range: 18–21 years), and were recruited from a local Welsh
+Language Society. All participants were university students at the time of the study.
+
+1
+  Note, however, that Southern Welsh diphthongs may be given different realizations in colloquial style.
+  For example, haud may be realized as hoid, haed as hâd, and hwyd as hoid. See Ball & Williams (2001:
+  46–47, 65–66) for details.
+2
+  Note that hail involves application of aspirate mutation. The corresponding non-mutated form would be
+  ail. Mutations are a characteristic of Celtic languages and involve morpho-phonological changes that
+  typically affect the initial consonants of words (Ball & Müller 1992, Thomas & Gathercole 2007).
+3
+  Note that Ball & Williams (2001: 44–47) represent the offset points of the central closing diphthongs of
+  Northern Welsh with the symbol [Æ] in order to indicate their reduced phonetic qualities compared with
+  [ˆ]. The symbol [Æ] is, however, currently not recognized by the IPA. As a result, the offset points of the
+  central closing diphthongs are symbolized as [ˆ] in Tables 1 and 2, i.e. [aˆ Aˆ çˆ Uˆ ´ˆ], instead of [aÆ AÆ
+  çÆ UÆ ´Æ].
+4   Robert Mayr & Hannah Davies
+
+
+
+                  Table 2 Target words and corresponding phonetic symbols in Northern Welsh (N) and Southern Welsh (S)
+                          (Ball & Williams 2001).
+                                 Monophthongs                                          Diphthongs
+                    hı̂d                 N: /i˘/                     haid                  N: /aI/
+                                         S: /i/                                            S: /aI/
+                    hid                  N: /i/                      haud                  N: /aˆ/
+                                         S: /I/                                            S: /aI/
+                    hûd                 N: /ˆ˘/                     haed                  N: /Aˆ/
+                                         S: /i/                                            S: /aI/
+                    hud                  N: /ˆ/                      hoid                  N: /çI/
+                                         S: /I/                                            S: /çI/
+                    hêd                 N: /e˘/                     hoed                  N: /çˆ/
+                                         S: /e/                                            S: /çI/
+                    hed                  N: /e/                      hwyd                  N: /Uˆ/
+                                         S: /E/                                            S: /UI/
+                    hâd                 N: /a˘/                     heid                  N: /´I/
+                                         S: /A/                                            S: /´I/
+                    had                  N: /a/                      heud                  N: /´ˆ/
+                                         S: /a/                                            S: /´I/
+                    hôd                 N: /o˘/                     hiwd                  N: /IU/
+                                         S: /o/                                            S: /IU/
+                    hod                  N: /o/                      huwd                  N: /ˆU/
+                                         S: /ç/                                            S: /IU/
+                    hŵd                 N: /u˘/                     hewd                  N: /EU/
+                                         S: /u/                                            S: /EU/
+                    hwd                  N: /u/                      hawd                  N: /aU/
+                                         S: /U/                                            S: /aU/
+                    hyd                  N: /´/                      hywd                  N: /´U/
+                                         S: /´/                                            S: /´U/
+
+
+    Exposure to Welsh from birth was an essential requirement for inclusion in the study, with
+Welsh as the participants’ only home language. They were also required to have spent their
+formative years locally, attending Welsh-medium education for most of their schooling. Note
+that due to the prevalence of English in Wales, the participants had also had extensive
+exposure to English throughout their childhood and adolescence. Nevertheless, they all
+identified themselves clearly as Welsh-dominant bilinguals in terms of their language use
+and proficiency.
+
+
+3.2 Materials and procedure
+Table 2 displays the target words used in the study, alongside the corresponding phonetic
+symbols, as distinguished in Ball & Williams (2001: 29–48). The materials were selected
+so as to provide the participants with ample opportunities to produce all the contrastive
+monophthong and diphthong categories of Welsh. To control for phonetic context effects,
+these were embedded in a /hVd/ frame.
+    Note that despite a number of real words (e.g. had ‘seed’, haid ‘swarm’, hid ‘heed’, hyd
+‘length’), the majority of the target words are non-words. While the spelling conventions of
+Welsh are generally consistent (Ball & Williams 2001: 81–89), they do permit some degree
+of variability. As a result, orthography-based difficulties with some of the target words could
+not be ruled out altogether. In order to ensure activation of the intended vowel categories,
+production of the target words was therefore primed by the use of real words of Welsh that
+                                                                           Welsh monophthongs and diphthongs   5
+
+
+
+
+contain the relevant vowels. Where feasible, rhyming words were used (see Appendix A).4
+Data collection took place in individual sessions in a quiet room of a local Welsh
+Language Society. Recordings were made using a Zoom H2 Handy Recorder with integrated
+microphone, which was positioned a few centimeters from the participant’s mouth. Each
+session commenced with a brief interaction in Welsh between the participant and the second
+author, a native speaker of Southern Welsh. This was done so as to activate the participant’s
+Welsh language mode (Grosjean 1989, 2001). Upon familiarization with the target words, the
+participants read out the real word primes for each category at a natural pace followed by the
+relevant target word produced once in isolation and subsequently three times in the carrier
+phrase Dyweda X hefyd ‘Say X also’. This procedure yielded 26 × 3 = 78 sentences from
+each participant. On average, the recording sessions lasted approximately 20 minutes.
+
+3.3 Analysis
+The acoustic material was transferred to a standard PC and analyzed using Praat software
+(Boersma & Weenink 2008). Following extraction of the target words from the carrier phrases,
+the duration of each vowel was measured from the first positive peak in the digitized waveform
+up to, but not including, the portion of acoustic silence that signals the constriction of the post-
+vocalic plosive. Subsequently, the frequency of the first two formants was measured using
+formant trackers, set at a frequency maximum of 5500 Hz with a dynamic range of 30 dB
+and a window length of 0.025 seconds. F1 and F2 frequencies were measured at the vowel mid-
+point for the monophthongs, and at the 20%, 35%, 50%, 65% and 80% portions for the diph-
+thongs. Where mistracking occurred, the automatically tracked formants were hand corrected.
+    In addition to formant frequency measurements, the TRAJECTORY LENGTH (TL) and
+SPECTRAL RATE OF CHANGE (SpecROC) were determined for each diphthong, following
+Fox & Jacewicz’s (2009) account. Trajectory length constitutes a measure of spectral change
+that tracks formant movement in the F1∼F2 space across equidistant sections. In the present
+study, as in Fox & Jacewicz (2009), this involved four sections: 20%–35%, 35%–50%, 50%–
+65% and 65%–80%. The TL of each section was calculated on the basis of the following
+formula, where VSLn constitutes the length of one vowel section:
+                                    
+                           V S L n = (F1n − F1n+1 )2 + (F2n − F2n+1 )2
+     Overall TL was then defined as the sum of the length of the four sections. Note that
+TL has been shown to constitute a more accurate measure of spectral change than VECTOR
+LENGTH, which involves calculating the Euclidean distance from the diphthong onset point
+to its offset point (Fox & Jacewicz 2009). However, TL is a time-normalized measure and,
+as a result, does not indicate how quickly, or slowly, spectral change occurs in real time. To
+account for dynamic changes across the duration of Welsh diphthongs, their overall spectral
+rate of changhe (TLroc ) was calculated, using the following formula:
+                                                          TL
+                                         T L r oc =
+                                                      0.60 × vdur
+   In addition, the spectral rate of change was calculated separately for each section (VSLrocn )
+on the basis of the following formula:
+                                                           VSLn
+                                        V S L r ocn =
+                                                        0.15 × vdur
+
+4
+    Two speakers from South Wales were inconsistent in their production of hywd compared with the real
+    word primes for this category. As a result, these speakers’ productions were excluded from subsequent
+    analysis.
+6   Robert Mayr & Hannah Davies
+
+
+
+    Together, these measurements make it possible to determine dialect-specific changes in
+spectral dynamics across diphthong trajectories, revealing how ‘the same’ category may be
+realized differently in Northern and Southern Welsh.
+
+
+
+4 Results
+4.1 Monophthongs
+4.1.1 Duration
+Figure 1 displays the mean duration values (in ms), with standard deviations, of the Northern
+and Southern Welsh monophthongs. Note that these are labeled in terms of the /hVd/ target
+words, rather than IPA symbols, since one of the objectives of this study is to determine whether
+the conventionally used symbols for the vowels are in line with their acoustic properties.
+    Inspection of the figure shows that the speakers in both varieties made a clear durational
+distinction between phonologically long and short monophthongs. Not surprisingly, a 13
+(vowel) × 2 (variety) mixed-plot ANOVA (repeated measures) revealed a significant main
+effect of vowel (F(12,216) = 119.894, p < .001), a significant vowel∗ variety interaction
+(F(12,216) = 2.417, p = .006), but a non-significant main effect of variety (F(1,18) =
+.176, p = .679). Subsequent independent samples t-tests, conducted separately for each
+monophthong, failed to show any significant differences in duration across the two varieties.
+This suggests that vowel duration is utilized in the same way for Northern and Southern Welsh
+monophthongs.
+
+
+4.1.2 Formant frequencies
+Figures 2 and 3 display the mean F1 and F2 frequencies (in Hz) of the monophthong categories
+of Northern and Southern Welsh, respectively, as produced by each speaker. For F1 and F2
+mean values and standard deviations in each variety, see Table 3.
+     Inspection of Figure 2 indicates that the thirteen monophthong categories of Northern
+Welsh are spectrally largely distinct, with the exception of the vowels in hâd and had, which
+only appear to contrast in duration (see Section 4.1.1 above). Moreover, together with the
+results for duration, it appears that the monophthongs of Northern Welsh form tense–lax pairs,
+with the tense vowels produced with greater duration and a more peripheral quality than their
+lax counterparts. The tense–lax pairs concerned are hı̂d – hid, hêd – hed, hôd – hod, hŵd –
+hwd, and hûd – hud. The only Northern Welsh vowel that remains unpaired is hyd.
+     According to descriptive accounts (Jones 1984, Ball & Williams 2001), one of the most
+striking characteristics of Northern Welsh is the contrast between close front and close
+central vowels, as we have seen. Figure 2 corroborates this distinction, in particular for the
+tense vowels hı̂d and hûd, which clearly differ in F2 (see also table 3). The lax contrast hid –
+hud, on the other hand, is less clearly distinct and shows a certain degree of variability across
+individuals. Interestingly, although the majority of speakers from North Wales conformed
+to the expected pattern, three speakers did not produce a clear F2 contrast between hud and
+hid.
+     The Southern Welsh monophthong system, in turn, largely mirrors that of Northern
+Welsh in terms of its distinctive categories, as Figure 3 shows. Thus, the Southern Welsh
+monophthongs occur in the same tense–lax pairs as Northern Welsh vowels, with the exception
+of the close central vowels. As in Northern Welsh, the two open vowels are spectrally largely
+overlapping, yet contrastive in duration, and the mid central vowel hyd has no counterpart
+in Southern Welsh, either. As anticipated, the most conspicuous difference between the two
+varieties is the absence of close central vowel categories in Southern Welsh. Accordingly,
+                                                                                                Welsh monophthongs and diphthongs        7
+
+
+
+
+                    250
+
+
+                    200
+
+
+        Duration
+                 150
+         (ms)
+
+                    100
+
+
+                      50
+
+                               hîd          hid          hûd          hud          hêd          hed
+
+
+                    250
+
+
+                    200
+        Duration
+         (ms)    150
+
+
+                    100
+
+
+                      50
+                              hâd         had        hôd        hod         hŵd      hwd         hyd
+
+
+         Figure 1 Mean duration (in ms) of the monophthongs of Northern Welsh (filled circles) and Southern Welsh (unfilled circles). Error
+                  bars denote +/−1 SD.
+
+
+
+inspection of Figure 3 shows that Southern Welsh speakers’ productions of hı̂d and hûd, on
+the one hand, and hid and hud, on the other, are almost identical in the F1∼F2 space, with all
+four categories produced as front vowels (see also Table 3).
+    While the monophthong systems in the two Welsh varieties are phonologically similar,
+with the exception of the close central contrast, they may nevertheless be quite distinct in terms
+of their phonetic realization. In order to enquire into cross-dialectal phonetic differences, the
+mean formant frequency values from each participant were submitted to 13 (vowel) × 2
+(variety) mixed-plot ANOVAs (repeated measures), run separately for F1 and F2. The results
+revealed significant main effects of vowel (F1: F(12,216) = 447.469, p < .001; F2: F(12,216) =
+744.339, p < .001), significant vowel∗ variety interactions (F1: F(12,216) = 10.926, p < .001;
+F2: F(12,216) = 7.766, p < .001), but non-significant main effects of variety (F1: F(1,18) =
+1.782, p = .199; F2: F(1,18) = 1.814, p = .195).
+    Subsequently, a series of independent samples t-tests was conducted for each vowel and
+separately for F1 and F2. The results revealed significant cross-dialectal differences for hêd
+(F1: t(18) = 10.779, p < .001; F2: t(18) = −2.838, p = .011), hed (F2: t(18) = −2.178, p =
+.043), hôd (F1: t(18) = 7.677, p < .001), hŵd (F1: t(18) = 2.628, p = .017), hyd (F1: t(18) =
+−3.229, p = .005) and hûd (F1: t(18) = 3.205, p = .005; F2: t(18) = −5.65, p < .001). No
+significant differences in F1 and F2 across the two varieties were found for hı̂d, hid, had,
+hâd, hod, hwd, and hud. Together with the descriptive data (see Table 3), the results suggest
+that Northern Welsh hêd, hôd, hŵd, and hûd are realized with greater degrees of openness
+than their Southern Welsh counterparts, while the reverse holds true for hyd. Moreover, hêd,
+hed, and hûd are produced with more centralized qualities in Northern Welsh than Southern
+Welsh.
+8   Robert Mayr & Hannah Davies
+
+
+
+
+           200
+                                                                                                       hîd
+                                                                                                       hid
+                                                                                                       hûd
+                                                                                                       hud
+           300
+                                                                                                       hêd
+                                                                                                       hed
+                                                                                                       hâd
+           400
+                                                                                                       had
+                                                                                                       hôd
+                                                                                                       hod
+           500
+                                                                                                       hŵd
+F1 (Hz)                                                                                                hwd
+                                                                                                       hyd
+           600
+
+
+
+
+           700
+
+
+
+
+           800
+
+
+
+
+           900
+
+
+                            2500                2000                 1500                 1000   500
+                                                        F2 (Hz)
+
+           Figure 2 F1∼F2 plot of Northern Welsh monophthongs, as produced by ten speakers.
+
+
+
+
+4.2 Diphthongs
+4.2.1 Duration
+Figure 4 displays the mean vowel duration values (in ms) and standard deviations for Northern
+and Southern Welsh diphthongs. Inspection of the figure suggests a large degree of temporal
+overlap across the various categories. Moreover, there do not appear to be any cross-dialectal
+differences in the duration of Welsh diphthongs. A 13 (vowel) × 2 (variety) mixed-plot
+ANOVA (repeated measures) revealed a significant main effect of vowel (F(12,192) = 5.385,
+p < .001), a non-significant vowel∗ variety interaction (F(12,192) = 1.5, p = .127), and a
+non-significant main effect of variety (F(1,16) = .203, p = .658). A Bonferroni pairwise
+comparison revealed that heid is significantly shorter in duration than hewd (p = .001), hawd
+(p < .001), hywd (p = .004), huwd (p = .009), haud (p = .003), haed (p < .001), hoed (p =
+.011), and heud (p = .048). None of the other pairwise comparisons were significant. Despite
+the comparatively shorter duration of heid, it is noteworthy that this vowel exhibits a large
+degree of temporal overlap with all other diphthongs, as well as with the long monophthong
+categories. It is therefore unlikely that duration is used systematically as a critical cue to the
+identity of heid. Taken together, the results therefore suggest that, unlike the monophthongs,
+the Welsh diphthongs appear not to be distinguished on the basis of duration. This pattern is
+consistent across Northern and Southern varieties of the language.
+                                                                                                Welsh monophthongs and diphthongs   9
+
+
+
+
+            200
+                                                                                                                           hîd
+                                                                                                                           hid
+                                                                                                                           hûd
+            300                                                                                                            hud
+                                                                                                                           hêd
+                                                                                                                           hed
+            400
+                                                                                                                           hâd
+                                                                                                                           had
+                                                                                                                           hôd
+                                                                                                                           hod
+ F1 (Hz)    500                                                                                                            hŵd
+                                                                                                                           hwd
+                                                                                                                           hyd
+            600
+
+
+
+
+            700
+
+
+
+
+            800
+
+
+                    2500                   2000                   1500                   1000                   500
+
+                                                                F2 (Hz)
+
+         Figure 3 F1∼F2 plot of Southern Welsh monophthongs, as produced by ten speakers.
+
+                      Table 3 Mean F1 and F2 frequencies (in Hz) of the monophthongs of Northern and Southern
+                              Welsh; standard deviations in parentheses.
+                                           Northern Welsh                          Southern Welsh
+                                        F1                   F2                F1                    F2
+                        hı̂d        299 (25)           2238 (199)           289 (21)          2252 (125)
+                        hid         400 (48)           1948 (163)           435 (25)          1915 (110)
+                        hêd        498 (21)           1874 (159)           404 (18)          2055 (123)
+                        hed         591 (44)           1651 (122)           582 (31)          1746 (65)
+                        hâd        690 (61)           1290 (75)            665 (29)          1253 (92)
+                        had         691 (71)           1308 (97)            667 (29)          1273 (85)
+                        hôd        503 (23)             870 (62)           432 (18)           826 (46)
+                        hod         571 (40)           1024 (91)            569 (42)          1009 (74)
+                        hŵd        338 (26)             814 (69)           309 (24)           832 (102)
+                        hwd         444 (31)           1018 (87)            453 (28)          1093 (122)
+                        hûd        325 (25)           1953 (144)           288 (26)          2256 (90)
+                        hud         399 (42)           1857 (121)           430 (29)          1915 (94)
+                        hyd         503 (37)           1522 (89)            550 (28)          1537 (74)
+
+
+
+4.2.2 Formant frequencies
+Figures 5 and 6 display the formant trajectories of Northern and Southern Welsh diphthongs,
+respectively. Note that each diphthong is depicted in the form of four arrowed lines,
+10     Robert Mayr & Hannah Davies
+
+
+
+                       260
+
+                       240
+
+                     220
+            Duration
+             (ms) 200
+
+
+                       180
+
+                       160
+
+                       140
+
+                                haid       haud       haed       hoid       hoed      hwyd
+
+                       240
+
+                       220
+
+                     200
+            Duration
+             (ms) 180
+
+
+                       160
+
+                       140
+
+                       120
+
+                                heid      heud       hiwd      huwd       hewd      hawd       hywd
+
+
+             Figure 4 Mean duration (in ms) of the diphthongs of Northern Welsh (filled circles) and Southern Welsh (unfilled circles). Error
+                      bars denote +/−1 SD.
+corresponding to the 25%–35%, 35%–50%, 50%–65%, and 65%–80% portions of the vowel.
+The purpose of the different line types in Figure 5 is to support visual differentiation of
+the Northern Welsh diphthongs. For a breakdown of F1 and F2 mean values and standard
+deviations by measurement point and variety, see Table 4.
+    In line with descriptive accounts (Jones 1984, Ball & Williams 2001), the Northern Welsh
+speakers made a clear spectral distinction between the thirteen Welsh diphthong categories
+(see Figure 5). In contrast, the Southern Welsh speakers only distinguished eight categories
+spectrally (see Figure 6). They failed to produce acoustic differences between haid – haud –
+haed, hoid – hoed, heid – heud, and hiwd – huwd, with virtually identical F1∼F2 values for
+the elements of these contrasts (see Table 4).5 These results corroborate the cross-dialectal
+phonological distinctions reported in the literature.
+    In terms of phonetic realization, all diphthongs were produced with decreasing F1 values
+in both varieties, as one would expect for closing diphthongs (see Table 4). In terms of F2,
+some categories (haid, haud, haed, hoid, hoed, hwyd, heid, heud) showed steady increases
+in formant frequency, with central to fronted offset points, while others (hiwd, huwd, hewd,
+hawd, hywd) showed steady decreases, with retracted offset points.
+    In order to identify differences in phonetic realization across Northern and Southern
+Welsh diphthongs, 13 (vowel) × 5 (measurement point) × 2 (variety) mixed-plot ANOVAs
+(repeated measures) were carried out separately for F1 and F2. The results revealed significant
+main effects of vowel (F1: F(12,192) = 188.575, p < .001; F2: F(12,192) = 265.617,
+
+5
+    Note that the F1 and F2 values in Figure 6 are based on the means of the elements of each neutralized
+    contrast.
+                                                                                              Welsh monophthongs and diphthongs   11
+
+
+
+
+            300
+                                            hiwd
+                    heid                             huwd
+
+                                                                hwyd
+            400                heud
+                                             hoid
+                                                                                 hywd
+        F1 (Hz)                 haid                                 hewd
+                                          haud
+            500                                                         hoed
+
+
+
+                                                        haed
+            600                                                                hawd
+
+
+
+
+            700
+
+                    2200      2000       1800       1600    1400        1200     1000        800
+                                                       F2 (Hz)
+
+
+        Figure 5 F1∼F2 plot of thirteen Northern Welsh diphthongs, measured at the 20%, 35%, 50%, 65% and 80% portions of the
+                 vowels.
+
+
+
+              300
+
+
+                                                      hwyd          hiwd/ huwd
+
+                             heid/heud
+              400
+
+                                                                    hewd
+        F1 (Hz)                                            hoid/ hoed
+                                                                               hywd
+
+              500                                haid/ haud/ haed                     hawd
+
+
+
+
+              600
+
+
+
+
+              700
+
+                      2400           2100           1800         1500          1200          900
+                                                           F2 (Hz)
+
+
+        Figure 6 F1∼F2 plot of eight Southern Welsh diphthongs, measured at the 20%, 35%, 50%, 65% and 80% portions of the vowels.
+
+p < .001), significant main effects of measurement point (F1: F(4,64) = 374.134, p < .001;
+F2: F(4,64) = 140.497, p < .001), but non-significant main effects of variety (F1: F(1,16) =
+.292, p = .597; F2: F(1,16) = 3.472, p = .081). Moreover, all interactions were significant,
+including vowel∗ variety (F1: F(12,192) = 8.666, p < .001; F2: F(12,192) = 13.753, p < .001),
+                                                                                                                                                                                    12
+                                                                                                                                                                                    Robert Mayr & Hannah Davies
+Table 4 Mean F1 and F2 frequencies of 13 Welsh diphthongs in two varieties, as measured at the 20%, 35%, 50%, 65% and 80% portions; standard deviations in parentheses.
+                                             Northern Welsh                                                                  Southern Welsh
+                     20%               35%             50%               65%             80%             20%           35%             50%               65%              80%
+  haid    F1       647 (65)         574 (74)        473 (61)          393 (49)        341 (37)        664 (27)      628 (40)         531 (47)         437 (50)          386 (48)
+          F2      1428 (100)       1611 (118)      1887 (156)       2062 (155)       2144 (173)      1320 (101)    1468 (127)      1725 (164)        1982 (151)       2073 (154)
+  haud    F1       674 (73)         605 (86)        512 (79)          437 (52)        386 (37)        658 (38)      624 (51)         540 (50)         433 (46)          386 (48)
+          F2      1379 (119)       1525 (135)      1713 (153)       1839 (121)       1906 (118)      1318 (102)    1452 (132)      1686 (145)        1947 (163)       2052 (145)
+  haed    F1       687 (79)         677 (78)        631 (84)          563 (68)        474 (45)        655 (26)      632 (31)         543 (47)         443 (45)          389 (39)
+          F2      1278 (73)        1352 (113)      1442 (142)       1611 (158)       1747 (137)      1306 (83)     1450 (131)      1693 (159)        1925 (184)       2053 (149)
+  hoid    F1       543 (43)         504 (48)        444 (53)          380 (37)        342 (33)        568 (29)      552 (28)         498 (42)         425 (44)          378 (43)
+          F2      1124 (40)        1340 (109)      1647 (181)       1914 (139)       2043 (177)      1033 (85)     1161 (103)      1428 (184)        1787 (155)       1993 (149)
+  hoed    F1       500 (32)         495 (33)        498 (31)          487 (35)        440 (37)        565 (26)      553 (28)         495 (49)         422 (41)          371 (29)
+          F2       911 (63)         957 (78)       1106 (89)        1364 (151)       1679 (159)      1042 (89)     1163 (122)      1452 (189)        1781 (146)       1970 (123)
+  hwyd F1          366 (26)         376 (24)        386 (24)          390 (24)        372 (19)        434 (30)      420 (24)         383 (31)         348 (31)          331 (29)
+          F2       802 (63)         880 (83)       1101 (115)       1529 (204)       1814 (155)      1030 (134)    1191 (166)      1563 (143)        1900 (140)       2053 (101)
+  heid    F1       431 (37)         387 (39)        352 (38)          334 (37)        323 (31)        432 (27)      402 (28)         371 (33)         343 (34)          331 (29)
+          F2      1976 (179)       2067 (181)      2136 (190)       2157 (191)       2155 (189)      1987 (104)    2063 (125)      2150 (122)        2194 (114)       2201 (112)
+  heud    F1       463 (46)         416 (27)        381 (27)          359 (25)        338 (23)        433 (27)      401 (26)         366 (34)         331 (27)          314 (22)
+          F2      1808 (161)       1884 (139)      1938 (146)       1968 (145)       1994 (133)      1991 (73)     2062 (83)       2148 (103)        2200 (102)       2208 (107)
+  hiwd    F1       336 (37)         335 (32)        326 (29)          317 (29)        310 (30)        404 (27)      397 (22)         367 (29)         344 (34)          337 (23)
+          F2      2075 (178)       1968 (182)      1467 (192)       1111 (142)       1070 (119)      1953 (122)    1804 (158)      1475 (202)        1224 (212)       1153 (205)
+  huwd F1          365 (48)         355 (47)        341 (44)          332 (37)        323 (39)        401 (29)      392 (32)         368 (41)         343 (37)          333 (30)
+          F2      1851 (116)       1767 (93)       1422 (107)       1151 (70)        1111 (68)       1938 (130)    1762 (173)      1473 (218)        1236 (201)       1182 (186)
+  hewd F1          557 (82)         527 (72)        474 (63)          422 (44)        389 (49)        557 (40)      523 (41)         467 (38)         415 (38)          380 (27)
+          F2      1648 (124)       1554 (150)      1273 (197)       1087 (159)       1023 (89)       1732 (90)     1686 (102)      1537 (134)        1304 (90)        1226 (95)
+  hawd F1          653 (82)         593 (70)        516 (54)          445 (30)        412 (27)        659 (36)      617 (35)         529 (59)         464 (43)          413 (36)
+          F2      1218 (99)        1138 105)       1000 (99)          908 (80)        904 (92)       1239 (116)    1193 (110)      1111 (116)        1024 (124)         995 (122)
+  hywd F1          486 (27)         444 (31)        410 (36)          385 (36)        365 (29)        551 (52)      499 (46)         438 (27)         394 (31)          375 (27)
+          F2      1128 (89)        1017 (74)        939 (70)          899 (71)        936 (90)       1229 (107)    1176 (110)      1080 (91)         1003 (95)          999 (98)
+                                                                   Welsh monophthongs and diphthongs   13
+
+
+
+
+vowel∗ measurement point (F1: F(48,768) = 55.528, p < .001; F2: F(48,768) = 244.063, p <
+.001), measurement point∗ variety (F1: F(4,64) = 5.074, p = .001; F2: F(4,64) = 13.794,
+p < .001), and vowel∗ measurement point∗ variety (F1: F(48,768) = 6.352, p < .001; F2:
+F(48,768) = 3.038, p < .001).
+    Subsequently, a series of independent samples t-tests was carried out in order to determine
+cross-dialectal differences for each measurement point and formant (see Appendix B). The
+results indicate systematic differences in diphthong realization across Northern and Southern
+varieties. Cross-dialectally, heid and huwd are most similar, showing no significant difference
+for any of the ten acoustic components, i.e. F1 and F2 measured at five different points,
+while all other categories were found to differ on at least one acoustic component. The most
+dissimilar diphthongs across Northern and Southern Welsh are hoed and hwyd, with nine
+out of ten acoustic components significantly different. Inspection of Figures 5 and 6 as well
+as Table 4 suggests that hoed is characterized by greater F1-related change and consistently
+higher F2 values in Southern Welsh than Northern Welsh. Southern Welsh hwyd, in turn,
+is produced with consistently higher F1 and F2 values than its Northern Welsh counterpart.
+Other diphthongs that differ noticeably across the two varieties include heud, haed, hoid, and
+hywd (see Appendix B). While heud and haed are characterized by comparatively lower F1
+and higher F2 frequencies in Southern Welsh than Northern Welsh, the opposite holds true
+for hoid. Finally, hywd is produced with consistently higher F1 and F2 values in Southern
+Welsh than in Northern Welsh.
+
+4.2.3 Trajectory length
+As a measure of spectral change, trajectory length (TL) was computed, following Fox &
+Jacewicz’s (2009) account. Recall (from Section 3.3 above) that this involved calculating
+the Euclidean distance in the F1∼F2 space for each of the four sections of the diphthongs.
+Subsequently, the overall TL was determined by totaling the values of the four sections.
+Figure 7 displays the mean TL (in Hz) for each Northern and Southern Welsh diphthong.
+    Inspection of the figure indicates considerable differences in TL across the various
+diphthong categories: hwyd, hoid and hiwd exhibit the largest amount of spectral change,
+while movement in the F1∼F2 space is minimal for heid, heud and hywd. Not surprisingly,
+the TL of the categories that are non-contrastive in Southern Welsh is very similar. In Northern
+Welsh, on the other hand, these categories may be quite distinct in their TL. For instance,
+hiwd has a considerably greater TL than huwd.
+    In order to determine differences in TL by diphthong and variety, the mean TL values
+from each participant were submitted to a 13 (vowel) × 2 (variety) mixed-plot ANOVA
+(repeated measures). The results revealed a significant main effect of vowel (F(12,192) =
+108.686, p < .001), a significant vowel∗ variety interaction (F(12,192) = 6.115, p < .001), but
+a non-significant main effect of variety (F(1,16) = .183, p = .675). Subsequently, independent
+samples t-tests were conducted separately for each diphthong. The results revealed significant
+cross-dialectal differences in TL for haud (t(18) = 3.182, p = .005), haed (t(18) = 4.849,
+p < .001), hoed (t(18) = 2.898, p = .01), and hewd (t(18) = −2.529, p = .021). The TL of the
+other diphthongs did not differ significantly across the two varieties, although the difference
+for hiwd was found to approach significance (t(18) = −2.023, p = .058).
+
+4.2.4 Spectral rate of change
+In addition to TL, the overall spectral rate of change (TLroc ) was determined for each diphthong
+(Fox & Jacewicz 2009). Recall that this involved dividing the overall TL of each diphthong
+(in Hz) by its duration (in ms), as measured from the 20% point to the 80% point. Figure 8
+depicts the mean TLroc of the Northern and Southern Welsh diphthongs.
+    The results indicate considerable differences in the spectral rate of change of the Welsh
+diphthongs. In line with measurements of TL, heid, heud and hywd are characterized by
+modest rates of change across diphthong trajectories, while hwyd and hoid exhibit large
+rates of spectral change. Not surprisingly, a 13 (vowel) × 2 (variety) mixed-plot ANOVA
+14   Robert Mayr & Hannah Davies
+
+
+
+
+                     1,200
+
+                     1,000
+
+                       800
+           Trajectory
+            Length 600
+              (Hz)
+                        400
+
+                        200
+
+                           0
+
+                                 haid      haud      haed      hoid      hoed      heid      heud
+
+
+                     1,400
+
+                     1,200
+
+                     1,000
+          Trajectory
+           Length 800
+             (Hz)
+                        600
+
+                        400
+
+                        200
+
+                                   hiwd      huwd         hwyd        hewd        hawd        hywd
+
+
+           Figure 7 Mean Trajectory Length (in Hz) of the diphthongs of Northern Welsh (filled circles) and Southern Welsh (unfilled circles).
+                    Error bars denote +/−1 SD.
+
+(repeated measures) for TLroc revealed a significant main effect of vowel (F(5,12) = 20.959,
+p = .002). In addition, it showed a significant vowel∗ variety interaction (F(5,12) = 7.921,
+p = .016), but a non-significant main effect of variety (F(1,16) = .071, p = .793). While
+TLroc does not appear to differ generally across Northern and Southern Welsh, the significant
+vowel∗ variety interaction indicates that cross-dialectal differences may be significant for
+some of the diphthong categories. As a result, independent samples t-tests were carried
+out separately for each diphthong. The results revealed significant differences between the
+varieties in the TLroc of haud (t(18) = 2.473, p = .024), haed (t(18) = 3.689, p = .002), hiwd
+(t(18) = −2.145, p = .046), hewd (t(18) = −2.516, p = .022) and hawd (t(18) = −2.939,
+p = .009). None of the other differences reached significance.
+    Finally, the spectral rate of change was determined for the four sections of each diphthong.
+This was done by dividing the trajectory length of a given section (VSLn ) by its duration.
+Figure 9 depicts the mean spectral rate of change for each section by diphthong and variety.
+Note that Northern Welsh diphthongs are represented by thin lines, Southern Welsh diphthongs
+by bold lines.
+    As one would expect, the figure shows similar patterns of spectral change for the categories
+that are non-contrastive in Southern Welsh, i.e. haid – haud – haed, hoid – hoed, hiwd – huwd,
+heid – heud. In Northern Welsh, however, these categories exhibit quite distinct patterns.
+Some, like haid and haud or hiwd and huwd differ in their EXTENT of spectral change, but
+otherwise show similar patterns of peaks and troughs. Other categories differ in their RELATIVE
+                                                                                              Welsh monophthongs and diphthongs       15
+
+
+
+
+                  12
+
+
+                  10
+
+
+                   8
+          TLroc
+         (Hz/ms) 6
+
+
+                   4
+
+
+                   2
+
+
+                   0
+
+                          haid        haud       haed        hoid       hoed        heid       heud
+
+
+                  12
+
+
+                  10
+
+
+                   8
+         TLroc
+        (Hz/ms)
+                   6
+
+
+                   4
+
+
+                   2
+
+                           hiwd         huwd          hwyd          hewd        hawd          hywd
+
+
+         Figure 8 Mean TLroc (in Hz/ms) of the diphthongs of Northern Welsh (filled circles) and Southern Welsh (unfilled circles). Error
+                  bars denote +/−1 SD.
+
+
+
+DISTRIBUTION of spectral change across the four sections. For example, while haid and haud
+exhibit the greatest spectral change in the 35%–50% portion, haed is characterized by little F1
+and F2 movement in initial phases, with a peak in the 50%–65% portion. Likewise, Northern
+Welsh hoid exhibits a peak in the 35%–50% portion of the vowel, while hoed shows a steady
+increase in spectral change, culminating in a peak in the 65%–80% portion. This latter pattern
+is atypical, as Figure 9 shows, since the majority of diphthongs display a peak in Sections 2
+and 3, i.e. between the 35% and 65% points, rather than in the more peripheral areas.
+     To determine differences in the spectral rate of change for each section by diphthong and
+variety, a 13 (vowel) × 4 (section) × 2 (variety) mixed-plot ANOVA (repeated measures)
+was carried out. The results revealed a significant main effect of vowel (F(12,192) = 81.92,
+p < .001), a significant main effect of section (F(3,48) = 43.151, p < .001), but a non-
+significant main effect of variety (F(1,16) = .032, p = .86). Interactions were significant for
+vowel∗ variety (F(12,192) = 5.578, p < .001), vowel∗ section (F(36,576) = 11.505, p < .001),
+and vowel∗ section∗ variety (F(36,576) = 5.096, p < .001), but not for section∗ group (F(3,48) =
+43.151, p < .001). Subsequently, independent samples t-tests were carried out separately for
+each diphthong section.
+16   Robert Mayr & Hannah Davies
+
+
+
+
+           Figure 9 Spectral rate of change for each section by diphthong and variety.
+                      Welsh monophthongs and diphthongs   17
+
+
+
+
+Figure 9 Continued.
+18   Robert Mayr & Hannah Davies
+
+
+
+     The results (see Appendix C) indicate that heud and huwd are cross-dialectally most
+similar, as they do not differ significantly on any of the four sections. All other diphthongs,
+on the other hand, differ across Northern and Southern Welsh on at least one of the four
+sections. Interestingly, hwyd, which exhibits no cross-dialectal differences in TL or TLroc ,
+shows the largest degree of dissimilarity: all four sections of the diphthong were found to
+differ significantly across Northern and Southern Welsh. Inspection of Figure 9 shows that this
+is due to differences in the distribution of spectral change across the diphthong trajectories:
+in Southern Welsh, hwyd peaks in the 35%–50% portion, while in Northern Welsh it peaks
+in the 50%–65% portion.
+
+
+
+5 Discussion
+5.1 Monophthongs
+This study set out to provide a first systematic acoustic account of the monophthongs and
+diphthongs in two varieties of Welsh: Northern Welsh and Southern Welsh.
+    With respect to the monophthongs, the results indicate a relatively symmetrical system for
+Southern Welsh, with four close vowels, four mid vowels, two open vowels, and a mid central
+vowel. In line with other languages that have large vowel inventories (e.g. Bohn 2004, Mayr
+2005, Steinlen 2005), Northern Welsh, in contrast, is characterized by less evenly distributed
+categories. This is mainly due to the two close central vowels, which make the close front to
+central portion of the vowel space more crowded.
+    In conformity with descriptive accounts (Jones 1984, Ball & Williams 2001), Southern
+Welsh was found to distinguish pairs of vowels on the basis of both spectrum and duration.
+Interestingly, however, this pattern also appears to hold true for Northern Welsh, despite the
+fact that Northern Welsh monophthongs are typically reported as being distinguished on the
+basis of duration alone (Jones 1984: 57; Ball & Williams 2001: 36–39).6 The empirical data
+of the present study are hence at odds with the claims of descriptive studies. Interestingly,
+inspection of the formant values reported in the few existing acoustic studies of Northern
+Welsh also suggests consistent spectral distinctions between long and short monophthongs, in
+particular with respect to the mid-vowel pairs (see Oftedal 1969, Ball & Williams 2001, Mayr
+& Davies 2009). An implication of this finding is that the symbols used to represent Southern
+Welsh monophthongs may also be appropriate for those of Northern Welsh. Accordingly, on
+the basis of the spectral and temporal properties of the vowels obtained in this study, the
+eleven monophthongs shared by both varieties of Welsh may best be represented as /i˘ I e˘ E
+a a˘ o˘ ç u˘ U ´/ and the two additional categories of Northern Welsh as /ˆ˘/ and /ˆ/.7
+    With respect to the latter pair, the speakers from North Wales made a clear distinction
+between close front and close central vowels, as expected on the basis of previous studies.
+The tense contrast was maintained by all Northern Welsh speakers, and hence appears to
+function as a marker of regional identity. Interestingly, the contrast between the lax front
+and central monophthongs was only spectrally maintained by some of the Northern Welsh
+speakers. This could be indicative of a change in progress in the vocalic system of Northern
+
+
+6
+  Note, however, that while Ball & Williams (2001) advocate a duration-based classification of Northern
+  Welsh monophthongs, they concede that this may not be appropriate for all Northern Welsh accents (see
+  p. 32).
+7
+  Note that there is no IPA symbol for the close central lax vowel in hud that is distinct from its tense
+  equivalent in hûd. As a result, representing these two vowels as /ˆ/ and /ˆ˘/, respectively, fails to take
+  account of the qualitative differences between them. We would therefore advocate the adoption of [Æ]
+  as a recognized IPA symbol to represent the lax counterpart of [ˆ], in conformity with the close front
+  opposition between [i] and [I].
+                                                                            Welsh monophthongs and diphthongs   19
+
+
+
+
+Welsh, potentially leading to a merger of the two categories. However, before any conclusions
+can be drawn, it is, of course, imperative to obtain additional data.
+    The findings of this study also suggest a number of cross-dialectal differences in the
+phonetic realization of Welsh monophthongs. For example, the mid vowels /e˘/ and /o˘/
+were found to be characterized by significantly higher F1 values in Northern Welsh than in
+Southern Welsh. Note that open realizations of these vowels are also reported in other acoustic
+studies of Northern Welsh (Ball & Williams 2001, Mayr & Davies 2009). The more open
+realization of /e˘/ is perhaps a result of the relatively crowded high-to-mid front vowel space
+in this variety. In other words, this vowel may be produced with higher F1 values in order
+to maintain contrastivity with the high front and high central vowels. In Southern Welsh, on
+the other hand, /e˘/ remains distinctive despite its comparatively close realization, due to the
+absence of /ˆ˘/ and /ˆ/ in this variety. Note, however, that this hypothesis does not explain
+the observed differences in vowel height for /o˘/ since the back vowel space is not crowded
+in either variety. Perhaps, the relatively more open realization of /o˘/ in Northern Welsh is a
+result of vowel height harmonic processes by analogy with /e˘/.
+
+5.2 Diphthongs
+The results for the diphthongs confirm the phonological distinctions identified in the literature
+(Awbery 1984, Jones 1984, Ball & Williams 2001): Northern Welsh distinguishes thirteen
+contrastive categories, Southern Welsh eight.
+     In realizational terms, the two-way distinction in Southern Welsh between front closing
+and back closing diphthongs seems appropriate. Note, however, that the offset points within
+these two sets are relatively heterogeneous (see Figure 6). Nevertheless, the symbols used
+to designate Southern Welsh diphthongs seem appropriate, with the exception of heid/ heud
+and hywd, which Ball & Williams (2001: 42–44) represent as /´I/ and /´U/, respectively. The
+acoustic analyses, however, suggest the symbols /eI/ and /çU/ to reflect the less centralized
+quality of the vowel onsets. Note that Ball & Williams (2001: 46) recognize these qualities
+as allophonic variants (see also Awbery 1984: 92).
+     The acoustic analysis of the Northern Welsh diphthongs, in turn, indicates a more complex
+picture: while the distinction between front closing and back closing diphthongs is largely
+borne out, the spectral quality of the central closing diphthongs is highly variable. The
+offset points of hoed and haed, for instance, are much more open than those of heud and hwyd
+(see Figure 5). As a result, not all the symbols used to designate the Northern Welsh diphthongs
+match the acoustic results. The open offset qualities of haed and hoed, for example, suggest
+that /AE/ and /çE/ may be more appropriate transcriptions than /Aˆ/ and /çˆ/, respectively. As
+in Southern Welsh, the onsets of heid and hywd are relatively peripheral. The same holds true
+for heud. The quality of these vowels may therefore be better represented as /eI/, /çU/ and
+/eˆ/, respectively.8
+     Following Fox & Jacewicz’s (2009) account, this study included two additional measures
+of spectral change: TL and SpecROC. The results for TL revealed systematic differences
+in formant movement across the various diphthong categories and the two varieties of
+Welsh. Some categories exhibited large degrees of spectral change, while others approximated
+monophthongal qualities.
+     Measurements of spectral rate of change, in turn, were included to factor in possible
+durational differences across Northern and Southern Welsh diphthongs. In contrast to cross-
+dialectal studies of other languages (e.g. Clopper, Pisoni & de Jong 2005, Fox & Jacewicz
+2009), vowel duration was not found to differ systematically between the two varieties
+
+8
+    In addition to our plea for recognition of the symbol [Æ] to represent a close central lax monophthong
+    (see above), we feel that the same symbol would be an appropriate label for the offset points of some
+    of the central closing diphthongs of Northern Welsh, namely [aÆ eÆ UÆ], to represent the vowels in haud,
+    heud and hwyd, respectively. This would conform to Ball & Williams’ (2001) use of this notation.
+20   Robert Mayr & Hannah Davies
+
+
+
+of Welsh, however. Nevertheless, the results for SpecROC revealed interesting inter- and
+intra-dialectal differences in diphthong dynamics. Importantly, spectral change was not only
+manifest in the extent of formant movement, but also in the relative distribution of peaks and
+troughs across diphthong trajectories, revealing significant dialect-specific differences. The
+results largely confirm Ball & Williams’ (2001: 42–47) claims about the relative duration of
+diphthong onsets and offsets, in particular for Northern Welsh. Interestingly, however, not
+all Southern Welsh diphthongs were found to have short initial elements: hoid and hewd, for
+instance, exhibit their main spectral change after the vowel mid-point.
+
+
+
+6 Conclusion
+This study has provided a first acoustic account of Northern and Southern Welsh vowels.
+As such, it adds to a growing body of literature on cross-dialectal vowel acoustics (Tsukada
+2002, Yu, Li & Wang 2004, Clopper et al. 2005, Morrison & Escudero 2007, Escudero,
+Boersma, Rauber & Bion 2009, Fox & Jacewicz 2009). However, as only young middle-class
+males from North and South Wales were included, it is not certain whether the acoustic
+characteristics identified in this study are applicable to other groups of Welsh speakers. Thus,
+future sociophonetic work will need to build upon this study by taking account of different
+age groups, genders and socioeconomic classes, and comprise a wider range of regional
+accents. Moreover, it might be interesting to include not only Welsh-dominant bilinguals
+but also English-dominant ones. After all, there is a growing tendency for children from
+English-speaking homes to attend Welsh-medium education (Gathercole & Thomas 2009,
+http://wales.gov.uk/docs/statistics/2009/091029schoolsgen09ency.pdf).
+     For descriptive purposes, monophthongs and diphthongs were discussed separately in this
+study. However, it is important to point out that no categorical distinction was implied. After
+all, it is well-known that supposedly monophthongal vowels are never entirely steady-state
+(Nearey & Assmann 1986, Morrison & Nearey 2007, Fox & Jacewicz 2009), even when
+discounting consonantal transitions. In future studies, it might therefore be interesting to
+assess the amount of vowel-inherent spectral change in nominal Welsh monophthongs. This
+may be a particularly interesting approach to take in view of the minimal spectral change of
+some of the Welsh diphthongs.
+     By extension, this issue also raises questions about the role of vowel dynamics in
+perception. It is, for example, not clear how much spectral change is required to be perceptually
+relevant. More work is also needed on the role of dynamic properties in the identification of
+vowels. This will eventually enable us to understand how listeners manage to differentiate
+categories in languages with complex vowel systems, such as Welsh.
+
+
+
+Acknowledgements
+     The authors are much indebted to Helen Pandeli, Enlli Môn Thomas and two anonymous reviewers
+     for comments on an earlier draft of this paper.
+                                                                             Welsh monophthongs and diphthongs           21
+
+
+
+
+Appendix A. /hVd/ words and real-word primes
+
+
+                         Monophthongs                                                Diphthongs
+    hı̂d   di-hid ‘easy going’, prid ‘costly’, brı̂d ‘breed’       haid   paid ‘don’t’, naid ‘jump’, rhaid ‘must’
+    hid    asid ‘acid’, grid ‘grid’, nid ‘no’                      haud   haul ‘sun’, baud ‘baud’
+    hêd   marmalêd ‘marmalade’, cred ‘belief’, lled ‘width’      haed   gwaed ‘blood’, traed ‘feet’
+    hed    Dyfed (place name), yfed ‘to drink’, Marged             hoid   asteroid ‘asteroid’, steroid ‘steroid’,
+           (personal name), ledled ‘throughout’                           thyroid ‘thyroid’
+    hâd   boddhad ‘gratification’, iachâd ‘cure’, rhad ‘cheap’   hoed   coed ‘wood’, oed ‘age’
+    had    wastad ‘always’, dirnad ‘to discern’                    hwyd   llwyd ‘grey’, bwyd ‘food’, rhwyd ‘net’
+    hôd   bod ‘to be’, dod ‘to come’, rhod ‘wheel’                heid   heidiau ‘swarms’, heidio ‘to swarm’
+    hod    parod ‘ready’, hynod ‘remarkable’                       heud   ymwneud ‘to get along with’, gwneud ‘to do’,
+                                                                          dweud ‘to say’
+    hŵd   rhwd ‘rust’, brwd ‘eager’, cnwd ‘crop’                  hiwd   lliw ‘colour’, ciw ‘queue’, briw ‘wound’
+    hwd    nenfwd ‘ceiling’, mwgwd ‘mask’, mwd ‘mud’               huwd   uwd ‘porridge’
+    hûd   drud ‘expensive’, crud ‘cradle’, mud ‘dumb’             hewd   tewdra ‘fatness’, glewder ‘courage’,
+                                                                          drewdod ‘stench’
+    hud    alltud ‘exiled’, astud ‘attentive’, barcud ‘kite’       hawd   blawd ‘flour’, ffawd ‘fortune’, bawd ‘thumb’
+    hyd    hydref ‘October’, hyder ‘confidence’,                   hywd   tywallt ‘to pour’, Tywi (place name),
+           hydrin ‘amenable’                                              Hywel (personal name)
+22   Robert Mayr & Hannah Davies
+
+
+
+
+Appendix B. Independent samples t-tests across Northern and Southern Welsh diphthongs
+
+
+                             20%                  35%                 50%                 65%                80%
+      haid    F1     t(11.9) = .773,      t(18) = 2.042,       t(18) = 2.395,      t(18) = 1.983,     t(18) = 2.365,
+                                                               ∗                                      ∗
+                     p = .455             p = .056               p = .028          p = .063             p = .029
+              F2     t(18) = −2.377,      t(18) = −2.61,       t(18) = −2.255,     t(18) = −1.165,    t(18) = −.976,
+                     ∗                    ∗                    ∗
+                       p = .029             p = .018             p = .037          p = .259           p = .342
+      haud    F1     t(13.51) = −.606,    t(14.617) = .601,    t(15.26) = .953,    t(18) = −.164,     t(18) = 0,
+                     p = .554             p = .557             p = .356            p = .872           p=1
+              F2     t(18) = −1.221,      t(18) = −1.215,      t(18) = −.399,      t(18) = 1.684,     t(18) = 2.476,
+                                                                                                      ∗
+                     p = .238             p = .24              p = .694            p = .109             p = .023
+      haed    F1     t(10.99) = −1.215,   t(11.81) = −1.708,   t(18) = −2.874,     t(18) = −4.681,    t(18) = −4.458,
+                                                               ∗                   ∗                  ∗
+                     p = .25              p = .114               p = .01             p < .001           p < .001
+              F2     t(18) = .816,        t(18) = 1.788,       t(18) = 3.727,      t(18) = 4.105,     t(18) = 4.795,
+                                                               ∗                   ∗                  ∗
+                     p = .425             p = .091               p = .002            p = .001           p < .001
+      hoid    F1     t(18) = 1.527,       t(18) = 2.774,       t(18) = 2.491,      t(18) = 2.441,     t(18) = 2.037,
+                                          ∗                    ∗                   ∗
+                     p = .144               p = .013             p = .023            p = .025         p = .057
+              F2     t(18) = −3.073,      t(18) = −3.767,      t(18) = −2.685,     t(18) = −1.929,    t(18) = −.686,
+                     ∗                    ∗                    ∗
+                       p = .007             p = .001             p = .015          p = .07            p = .501
+      hoed    F1     t(18) = 5.048,       t(18) = 4.291,       t(18) = −.143,      t(18) = −3.795,    t(18) = −4.665,
+                     ∗                    ∗                                        ∗                  ∗
+                       p < .001             p < .001           p = .888              p = .001           p < .001
+              F2     t(18) = 3.811,       t(15.24) = 4.5,      t(12.76) = 5.235,   t(18) = 6.263,     t(18) = 4.575,
+                     ∗                    ∗                    ∗                   ∗                  ∗
+                       p < .001             p < .001             p < .001            p < .001           p < .001
+      hwyd    F1     t(18) = 5.473,       t(18) = 4.145,       t(18) = −.251,      t(18) = −3.407,    t(18) = −3.7,
+                     ∗                    ∗                                        ∗
+                       p < .001             p = .001           p = 804               p = .003         p∗ = .002
+              F2     t(12.78) = 4.876,    t(13.3) = 5.3,       t(18) = 7.974,      t(18) = 4.746,     t(18) = 4.081,
+                     ∗                    ∗                    ∗                   ∗                  ∗
+                       p < .001             p < .001             p < .001            p < .001           p = .001
+      heid    F1     t(18) = .068,        t(18) = 1.003,       t(18) = 1.172,      t(18) = .533,      t(18) = .566,
+                     p = .946             p = .329             p = .256            p = .6             p = .578
+              F2     t(18) = .168,        t(18) = −.063,       t(18) = .202,       t(18) = .524,      t(18) = .66,
+                     p = .868             p = .95              p = .842            p = .607           p = .518
+      heud    F1     t(18) = −1.761,      t(18) = −1.13,       t(18) = −1.063,     t(18) = −2.42,     t(18) = −2.354,
+                                                                                   ∗                  ∗
+                     p = .095             p = .273             p = .302              p = .026           p = .03
+              F2     t(12.53) = 3.286,    t(18) = 3.46,        t(18) = 3.722,      t(18) = 4.144,     t(18) = 3.963,
+                     ∗                    ∗                    ∗                   ∗                  ∗
+                       p = .006             p = .003             p = .002            p = .001           p = .001
+      hiwd    F1     t(18) = 4.727,       t(18) = 4.969,       t(18) = 3.152,      t(18) = 1.918,     t(18) = 2.285,
+                     ∗                    ∗                    ∗                                      ∗
+                       p < .001             p < .001             p = .006          p = .071             p = .035
+              F2     t(18) = −1.778,      t(18) = −2.158,      t(18) = .092,       t(18) = 1.406,     t(18) = 1.114,
+                                          ∗
+                     p = .092               p = .045           p = .928            p = .177           p = .28
+      huwd    F1     t(18) = 2.016,       t(18) = 2.035,       t(18) = 1.41,       t(18) = .687,      t(18) = .651,
+                     p = .059             p = .057             p = .176            p = .501           p = .523
+              F2     t(18) = 1.583,       t(18) = −.087,       t(13.13) = .661,    t(11.18) = 1.27,   t(11.35) = 1.14,
+                     p = .131             p = .932             p = .52             p = .23            p = .278
+      hewd    F1     t(18) = .01,         t(18) = −.152,       t(14.81) = −.31,    t(18) = −.378,     t(18) = −.461,
+                     p = .992             p = .881             p = .761            p = .71            p = .651
+              F2     t(18) = 1.732,       t(18) = 2.295,       t(18) = 3.489,      t(18) = 3.768,     t(18) = 4.938,
+                                          ∗                    ∗                   ∗                  ∗
+                     p = .1                 p = .034             p = .003            p = .001           p < .001
+                                                                                     Welsh monophthongs and diphthongs   23
+
+
+
+
+Appendix B. (continued)
+     hawd   F1     t(18) = .197,         t(18) = .944,        t(18) = .5,        t(18) = 1.135,       t(18) = .07,
+                   p = .846              p = .358             p = .623           p = .271             p = .945
+            F2     t(18) = .434,         t(18) = 1.15,        t(18) = 2.286,     t(18) = 2.484,       t(18) = 1.889,
+                                                              ∗                  ∗
+                   p = .669              p = .265               p = .035           p = .023           p = .075
+     hywd   F1     t(10.03) = 3.226,     t(16) = 3.034,       t(16) = 1.787,     t(16) = .553,        t(16) = .747,
+                   ∗                     ∗
+                     p = .009              p = .008           p = .093           p = .588             p = .466
+            F2     t(16) = 2.188,        t(16) = 3.677,       t(16) = .713,      t(16) = 2.654,       t(16) = 1.416,
+                   ∗                     ∗                    ∗                  ∗
+                     p = .044              p = .002             p = .002           p = .017           p = .176
+
+
+
+
+Appendix C. Independent samples t-tests for each diphthong section across Northern and
+Southern Welsh
+
+                               Section 1            Section 2           Section 3           Section 4
+                 haid     t(18) = 1.351,      t(18) = 4.821,       t(18) = 1.556,     t(18) = −.281,
+                                              ∗
+                          p = .193              p < .001           p = .137           p = .782
+                 haud     t(18) = −.653,      t(18) = 1.032,       t(18) = 3.633,     t(18) = 1.158,
+                                                                   ∗
+                          p = .522            p = .316               p = .002         p = .262
+                 haed     t(18) = 1.351,      t(18) = 4.821,       t(18) = 2.211,     t(18) = −.817,
+                                              ∗                    ∗
+                          p = .193              p < .001             p = .04          p = .425
+                 hoid     t(18) = −2.852,     t(18) = −1.242,      t(18) = 1.211,     t(18) = 1.293,
+                          ∗
+                            p = .011          p = .23              p = .242           p = .212
+                 hoed     t(18) = 3.23,       t(18) = 3.982,       t(18) = 1.729,     t(18) = −2.45,
+                          ∗                   ∗                                       ∗
+                            p = .005            p = .001           p = .101             p = .025
+                 heid     t(18) = −1.738,     t(18) = .727,        t(18) = 2.429,     t(18) = .962,
+                                                                   ∗
+                          p = .099            p = .477               p = .026         p = .349
+                 heud     t(18) = −.801,      t(14.59) = 1.487,    t(18) = 1.971,     t(13.33) = −1.868,
+                          p = .434            p = .158             p = .064           p = .084
+                 hiwd     t(11.07) = .936,    t(12.28) = −2.22,    t(18) = −2.041,    t(18) = .377,
+                                              ∗
+                          p = .369              p = .046           p = .056           p = .71
+                 huwd     t(11.35) = 1.919,   t(18) = −1.096,      t(18) = −.976,     t(18) = .709,
+                          p = .08             p = .287             p = .342           p = .487
+                 hwyd     t(18) = 2.641,      t(18) = 3.513,       t(18) = −2.53,     t(11.79) = −2.607,
+                          ∗                   ∗                    ∗                  ∗
+                            p = .017            p = .002             p = .021           p = .023
+                 hewd     t(18) = −1.726,     t(18) = −2.799,      t(18) = .789,      t(18) = .123,
+                                              ∗
+                          p = .102              p = .012           p = .44            p = .904
+                 hawd     t(18) = −2.398,     t(18) = −2.075,      t(18) = −.512,     t(18) = .882,
+                          ∗
+                            p = .028          p = .053             p = .615           p = .389
+                 hywd     t(16) = −2.294,     t(9.97) = 1.343,     t(16) = 2.245,     t(16) = −.031,
+                          ∗                                        ∗
+                            p = .036          p = .209               p = .039         p = .975
+
+
+
+References
+Awbery, Gwenllian M. 1984. Phonotactic constraints in Welsh. In Ball & Jones (eds.), 65–104.
+Ball, Martin J. 1983. A spectrographic investigation of three Welsh diphthongs. Journal of the International
+   Phonetic Association 13, 82–89.
+Ball, Martin J. 1984. Phonetics for phonology. In Ball & Jones (eds.), 5–39.
+24   Robert Mayr & Hannah Davies
+
+
+
+Ball, Martin J. (ed.). 1988. The use of Welsh: A contribution to sociolinguistics. Clevedon & Philadelphia:
+   Multilingual Matters.
+Ball, Martin J. 1988a. Accounting for linguistic variation: dialectology. In Ball (ed.), 7–23.
+Ball, Martin J. 1988b. The study of pronunciation patterns. In Ball (ed.), 49–57.
+Ball, Martin J., Tweli Griffiths & Glyn E. Jones. 1988. Broadcast Welsh. In Ball (ed.), 182–199.
+Ball, Martin J. & Glyn E. Jones (eds.). 1984. Welsh phonology: Selected readings. Cardiff: University of
+   Wales Press.
+Ball, Martin J. & Nicole Müller. 1992. Mutation in Welsh. London: Routledge.
+Ball, Martin J. & Briony Williams. 2001. Welsh phonetics. Lampeter: The Edwin Mellen Press.
+Boersma, Paul & David Weenink. 2008. Praat: Doing phonetics by computer (version 5.0). http://www.
+   fon.hum.uva.nl/praat/ (7 July 2008).
+Bohn, Ocke-Schwen. 2004. How to organize a fairly large vowel inventory: The vowels of Fering (North
+   Frisian). Journal of the International Phonetic Association 34(2), 161–173.
+Clopper, Cynthia G., David P. Pisoni & Kenneth de Jong. 2005. Acoustic characteristics of the vowel
+   systems of six regional varieties of American English. Journal of the Acoustical Society of America
+   118(3), 1661–1676.
+Davies, Cennard. 1988. Cymraeg Byw. In Ball (ed.), 200–210.
+Escudero, Paola, Paul Boersma, Andreia   ⁄ S. Rauber & Ricardo A. H. Bion. 2009. A cross-dialect acoustic
+   description of vowels: Brazilian and European Portuguese. Journal of the Acoustical Society of America
+   126(3), 1379–1393.
+Ferguson, Charles A. 1959. Diglossia. Word 15, 325–340.
+Fox, Robert A. & Ewa Jacewicz. 2009. Cross-dialectal variation in formant dynamics of American English
+   vowels. Journal of the Acoustical Society of America 126(5), 2603–2618.
+Gathercole, Virginia C. Mueller & Enlli Môn Thomas. 2009. Bilingual first-language development:
+   Dominant language takeover, threatened minority language take-up. Bilingualism: Language and
+   Cognition 12(2), 213–237.
+Grosjean, FranCois. 1989. Neurolinguists beware! The bilingual is not two monolinguals in one person.
+   Brain and Language 36, 3–15.
+Grosjean, FranCois. 2001. The bilingual’s language modes. In Janet Nicol (ed.), One mind two languages:
+   Bilingual language processing, 1–22. Oxford: Blackwell.
+Jones, Berwyn P. 1988. Official Welsh. In Ball (ed.), 172–181.
+Jones, Dafydd G. 1988. Literary Welsh. In Ball (ed.), 125–171.
+Jones, Glyn E. 1982. Hyd y llafariaid yn y Gymraeg: III. Y llafariaid hanner hir. Studia Celtica 16/17,
+   209–213.
+Jones, Glyn E. 1984. The distinctive vowels and consonants of Welsh. In Ball & Jones (eds.), 40–64.
+Maddieson, Ian. 1984. Patterns of sounds. Cambridge: Cambridge University Press.
+Maddieson, Ian. 2008. Vowel quality inventories. In Martin Haspelmath, Matthew S. Dryer, David Gil &
+   Bernard Comrie (eds.), The world atlas of language structures online, Chapter 2. Munich: Max Planck
+   Digital Library. http://wals.info/feature/2 (8 April 2010).
+Mayr, Robert. 2005. The perception and production of German monophthongs by British learners of
+   German. Ph.D. dissertation, University of Sheffield.
+Mayr, Robert & Hannah Davies. 2009. The monophthongs and diphthongs of North-eastern Welsh:
+   An acoustic study. 10th Annual Conference of the International Speech Communication Association
+   (INTERSPEECH 2009), Brighton, UK. 2315–2318.
+Morrison, Geoffrey S. & Paola Escudero. 2007. A cross-dialect comparison of Peninsular- and Peruvian-
+   Spanish vowels. 16th International Congress of Phonetic Sciences (ICPhS XVI), Saarbrücken,
+   Germany. 1505–1508.
+Morrison, Geoffrey S. & Terrance M. Nearey. 2007. Testing theories of vowel-inherent spectral change.
+   Journal of the Acoustical Society of America 122, EL15–EL22.
+Nearey, Terrance M. & Peter F. Assmann. 1986. Modelling the role of inherent spectral change in vowel
+   identification. Journal of the Acoustical Society of America 80(5), 1297–1308.
+                                                                       Welsh monophthongs and diphthongs   25
+
+
+
+
+Oftedal, Magne. 1969. A new approach to North Welsh vowels. Lochlann 4, 243–269.
+Steinlen, Anja K. 2005. The influence of consonants on native and non-native vowel production: A cross-
+   linguistic study. Tübingen: Gunter Narr.
+Thomas, Alan R. 1973. The linguistic geography of Wales. Cardiff: University of Wales Press.
+Thomas, Alan R. 1988. Studying lexical geography. In Ball (ed.), 41–48.
+Thomas, Enlli Môn & Virginia C. Mueller Gathercole. 2007. Children’s productive command of
+   grammatical gender and mutation in Welsh: An alternative to rule-based learning. First Language
+   27, 251–278.
+Tsukada, Kimiko. 2002. An acoustic comparison between American English and Australian English
+   vowels. 7th International Conference on Spoken Language Processing (ICSLP 2002), Denver,
+   Colorado, USA. 2257–2260.
+Yu, Jue, Aijun Li & Xia Wang. 2004. A contrastive investigation of diphthongs between Standard Mandarin
+   and Shanghai accented Mandarin. International Symposium on Tonal Aspects of Languages with
+   Emphasis on Tone Languages, 229–234, Beijing, China.
+

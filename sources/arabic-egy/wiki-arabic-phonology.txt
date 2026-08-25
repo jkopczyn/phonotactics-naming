@@ -1,0 +1,1426 @@
+
+Standard Arabic phonology
+
+This article is about the phonology of Modern Standard Arabic. For phonologies of regional dialects, see Varieties of Arabic. For the phonology of classical Arabic, see Classical Arabic § Phonology.
+
+For broader coverage of this topic, see Arabic grammar.
+
+This article contains phonetic transcriptions in the International Phonetic Alphabet (IPA). For an introductory guide on IPA symbols, see Help:IPA. For the distinction between [ ], / / and ⟨ ⟩, see IPA § Brackets and transcription delimiters.
+
+While many languages have numerous dialects that differ in phonology, contemporary spoken Arabic is more properly described as a continuum of varieties.[1] This article deals primarily with Modern Standard Arabic (MSA), which is the standard variety shared by educated speakers throughout Arabic-speaking regions. MSA is used in writing in formal print media and orally in newscasts, speeches and formal declarations of numerous types.[2]
+
+Modern Standard Arabic has 28 consonant phonemes and 6 vowel phonemes, with four "emphatic" (pharyngealized) consonants that contrast with their non-emphatic counterparts. Some of these phonemes have coalesced in the various modern dialects, while new phonemes have been introduced through borrowing or phonemic splits. A "phonemic quality of length" applies to consonants as well as vowels.[3]
+
+History
+
+Of the 29 Proto-Semitic consonants, only one has been lost: */ʃ/, which merged with /s/, while /ɬ/ became /ʃ/ (see Semitic languages).[4] Various other consonants have also changed sound, but have remained distinct. An original */p/ lenited to /f/, and */ɡ/ – consistently attested in pre-Islamic Greek transcription of Arabic languages[5] – became palatalized to /ɡʲ/ or /ɟ/ by the time of the Quran, and to /d͡ʒ/, /ɡ/, /ʒ/ or /ɟ/ after early Muslim conquests and in MSA (see § Local variations of Modern Standard Arabic for more detail).[6]
+
+Its emphatic counterpart /ɬˠ~ɮˤ/ was considered by Arabs to be the most unusual sound in Arabic (hence Classical Arabic's appellation لُغَةُ ٱلضَّادِ luɣatu‿ḍ-ḍād or "language of the ḍād"). For most modern dialects, it has become an emphatic stop /dˤ/ with loss of the laterality[7] or, with complete loss of any pharyngealization or velarization, /d/. The classical ḍād pronunciation with pharyngealization /ɮˤ/ still occurs in the Mehri language, and a similar sound without velarization, /ɮ/, exists in other Modern South Arabian languages.
+
+The first known book printed in Arabic: Kitābu ṣalāti s-sawā'ī (كتاب صلاة السواعي), a book of hours printed with movable type in 1514.[8]
+
+Other changes may also have happened; Classical Arabic pronunciation is not thoroughly recorded and different reconstructions of the sound system of Proto-Semitic propose different phonetic values. One example is the emphatic consonants, which are pharyngealized in modern pronunciations but may have been velarized in the eighth century and glottalized in Proto-Semitic.[7]
+
+Reduction of /j/ and /w/ between vowels occurs in a number of circumstances and is responsible for much of the complexity of third-weak (or "defective") verbs. Early Akkadian transcriptions of Arabic names show that this reduction had not yet occurred as of the early part of the 1st millennium BC.[citation needed]
+
+The Classical Arabic language as recorded was a poetic koine that reflected a consciously archaizing dialect, chosen based on the tribes of the western part of the Arabian Peninsula, who spoke the most conservative variants of Arabic. Even at the time of Muhammad and before, other dialects existed with many more changes, including the loss of most glottal stops, the loss of case endings, the reduction of the diphthongs /aj/ and /aw/ into monophthongs /eː, oː/, etc. Most of these changes are present in most or all modern varieties of Arabic.[citation needed]
+
+An interesting feature of the writing system of the Quran (and hence of Classical Arabic) is that it contains certain features of Muhammad's native dialect of Mecca, corrected through diacritics into the forms of standard Classical Arabic. Among these features visible under the corrections are the loss of the glottal stop and a differing development of the reduction of certain final sequences containing /j/: Evidently, the final /-awa/ became /aː/ as in the Classical language, but final /-aja/ became a different sound, possibly /eː/ (rather than again /aː/ in the Classical language). This is the apparent source of the alif maqṣūrah 'restricted alif' where a final /-aja/ is reconstructed: a letter that would normally indicate /j/ or some similar high-vowel sound, but is taken in this context to be a logical variant of alif and represent the sound /aː/.[citation needed]
+
+Historical development
+
+Arabic phonology has evolved over centuries, influenced by language contact and historical expansion. Classical Arabic phonological features have shifted in modern dialects, partly due to the spread of Arabic through conquest and trade.[9] These changes have resulted in both the preservation of classical features and significant innovations across dialects.
+
+Literary Arabic
+
+Recording of a poem by Al-Ma'arri titled "I no longer steal from nature"
+
+The "colloquial" spoken dialects of Arabic are learned at home and constitute the native languages of Arabic speakers. "Formal" Modern Standard Arabic is learned at school; although many speakers have a native-like command of the language, it is technically not the native language of any speakers. Both varieties can be both written and spoken, although the colloquial varieties are rarely written down and the formal variety is spoken mostly in formal circumstances, e.g., in radio and TV broadcasts, formal lectures, parliamentary discussions and to some extent between speakers of different colloquial dialects.
+
+Even when the literary language is spoken, it is normally only spoken in its standard form when reading a prepared text out loud or communicating between speakers of different colloquial dialects. When speaking extemporaneously (i.e. making up the language on the spot, as in a normal discussion among people), speakers tend to deviate somewhat from the strict literary language in the direction of the colloquial varieties. There is a continuous range of "in-between" spoken varieties: from nearly orthodox Modern Standard Arabic (MSA), to a form that still uses MSA grammar and vocabulary but with colloquial influence, to a form of the colloquial language that imports a number of words and grammatical constructions in MSA, to a form that is close to pure colloquial but with the "rough edges" (the most noticeably "vulgar" or non-Classical aspects) smoothed out, to forms that are purely colloquial.
+
+The particular variant (or register) used depends on the social class and education level of the speakers involved and the level of formality of the speech situation. Often it will vary within a single encounter, e.g., moving from nearly pure MSA to a more mixed language in the process of a radio interview, as the interviewee becomes more comfortable with the interviewer. This type of variation is characteristic of the diglossia that exists throughout the Arabic-speaking world.[citation needed]
+
+Coverage in Al-Ahram in 1934 of the inauguration of the Academy of the Arabic Language in Cairo, an organization of major importance to the modernization of Arabic.
+Although Modern Standard Arabic (MSA) is a unitary language, its pronunciation varies somewhat from country to country and from region to region within a country. The variation in individual "accents" of MSA speakers tends to mirror corresponding variations in the colloquial speech of the speakers in question, but with the distinguishing characteristics moderated somewhat. It is important in descriptions of "Arabic" phonology to distinguish between pronunciation of a given colloquial (spoken) dialect and the pronunciation of MSA by these same speakers.
+
+Although they are related, they are not the same. For example, the phoneme that derives from Standard Arabic /d͡ʒ/ has many different pronunciations in the modern spoken varieties, e.g., [d͡ʒ ~ ʒ ~ ɟ ~ ɡʲ ~ ɡ]. Speakers whose native variety has either [d͡ʒ] or [ʒ] will often use the same pronunciation when speaking MSA. Even speakers from Cairo, whose native Egyptian Arabic has [ɡ], normally use [ɡ] when speaking MSA.
+
+For another example, many colloquial varieties are known for a type of vowel harmony in which the presence of an "emphatic consonant" triggers backed allophones of nearby vowels (especially of the low vowels /aː/, which are backed to [ɑ(ː)] in these circumstances and very often fronted to [æ(ː)] in all other circumstances). In many spoken varieties, the backed or "emphatic" vowel allophones spread a fair distance in both directions from the triggering consonant. In some varieties, most notably Egyptian Arabic, the "emphatic" allophones spread throughout the entire word, usually including prefixes and suffixes, even at a distance of several syllables from the triggering consonant.
+
+Speakers of colloquial varieties with this vowel harmony tend to introduce it into their MSA pronunciation as well, but usually with a lesser degree of spreading than in the colloquial varieties. For example, speakers of colloquial varieties with extremely long-distance harmony may allow a moderate, but not extreme, amount of spreading of the harmonic allophones in their MSA speech, while speakers of colloquial varieties with moderate-distance harmony may only harmonize immediately adjacent vowels in MSA.[citation needed]
+
+Vowels
+
+ Vowel chart representing the pronunciation of long vowels by a Palestinian speaker educated in Beirut. From Thelwall (1990:38). (These values vary between regions across North Africa and West Asia.)
+Vowel chart representing the pronunciation of diphthongs by a Palestinian speaker educated in Beirut. From Thelwall (1990:38)
+
+Modern Standard Arabic has six vowel phonemes forming three pairs of corresponding short and long vowels (/a, aː, i, iː, u, uː/). Many spoken varieties also include /oː/ and /eː/. Modern Standard Arabic has two diphthongs (formed by a combination of short /a/ with the semivowels /j/ and /w/). Allophony in different dialects of Arabic can occur and is partially conditioned by neighboring consonants within the same word. The following are some general rules:
+
+/a, aː/
+
+retracted to [ɑ] in the environment of a neighboring emphatic consonant: /sˤ/, /dˤ/, /tˤ/, /ðˤ/, /rˤ/, /ɫ/ and in a few regional standard pronunciations also /χ/ and /ʁ/;[10]
+
+only in Iraq and the Persian Gulf: [ɐ] before a word boundary;[10]
+
+advanced to [æ] in the environment of most consonants (only used in dialects):
+
+labial consonants (/m/, /b/ and /f/),
+
+plain (non-emphatic) coronal consonants with the exception of /r/: namely /θ/, /ð/, /n/, /t/, /d/, /s/, /z/, /l/, /ʃ/ and /d͡ʒ~ɡ~ʒ/
+
+glottal consonants (/h/ and /ʔ/)
+
+/j/, /k/ and /w/;[11]
+
+Across North Africa and West Asia, the allophones [æ] and [ɑ] may be realized differently, either as [a ~ ɑ ~ ɛ], or both as [a ~ ä];
+
+In northwestern Africa, the open front vowel /æ/ is raised to [ɛ] or [e].
+
+/i, iː, u, uː/
+
+Across North Africa and West Asia, /i/ may be realized as [ɪ ~ e ~ ɨ] before or adjacent to emphatic consonants and [q], [r], (exclusively west Asian [ħ], [ʕ]). /u/ can also have different realizations, i.e. [ʊ ~ o ~ ʉ]. Sometimes with one value for each vowel in both short and long lengths or two different values for each short and long lengths. They can be distinct phonemes in loanwords for a number of speakers.
+
+In Egypt, close vowels have different values; short initial or medial: [e], [o] ← instead of /i, u/. /i~ɪ/ and /u~ʊ/ completely become [e] and [o] respectively in some other particular dialects. Unstressed final long /aː, iː, uː/ are most often shortened or reduced: /aː/ → [æ ~ ɑ], /iː/ → [i], /uː/ → [o~u].
+
+Example words[12]
+
+	short
+	long
+
+	i
+	عِدْ /ʕid/	"promise!"	عِيد /ʕiːd/	"holiday"
+
+	u
+	عُدّ /ʕudd/	"count (command)"	عُود /ʕuːd/	"oud"
+
+	a
+	عَدّ /ʕadd/	"counted"	عَاد /ʕaːd/	"came back"
+
+	aj
+
+	عَيْن /ʕajn/	"eye"
+
+	aw
+
+	عَوْد /ʕawd/	"return"
+
+However, the actual rules governing vowel-retraction are a good deal more complex and have relatively little in the way of an agreed-upon standard, as there are often competing notions of what constitutes a "prestige" form.[13] Often, even highly proficient speakers will import the vowel-retraction rules from their native dialects.[14] Thus, for example, in the Arabic of someone from Cairo, emphatic consonants will affect every vowel between word boundaries, whereas certain Saudi speakers exhibit emphasis only on the vowels adjacent to an emphatic consonant.[15] Certain speakers (most notably Levantine speakers) exhibit a degree of asymmetry in leftward vs. rightward spread of vowel-retraction.[15][16]
+
+Vowel phonemes of Modern Standard and Classical Arabic
+
+	Short
+	Long
+
+	Front
+	Back
+	Front
+	Back
+
+	Close
+	/i/
+	/u/
+	/iː/
+	/uː/
+
+	Open
+	/a/
+	/aː/
+
+Common vowel system among colloquial Mashriqi Arabic dialects
+
+	Short
+	Long
+
+	Front
+	Back
+	Front
+	Back
+
+	Close
+	/i/
+	/u/
+	/iː/
+	/uː/
+
+	Mid
+	/eː/
+	/oː/
+
+	Open
+	/a/
+	/aː/
+
+The final heavy syllable of a root is stressed.[12]
+
+The short vowels [u, ʊ, o, o̞, ɔ] are all possible allophones of /u/ across different dialects; e.g., قُلْت /ˈqult/ ('I said') is pronounced [ˈqʊlt] or [ˈqolt] or [ˈqɔlt], since the difference between the short mid vowels [o, o̞, ɔ] and [u, ʊ] is never phonemic, and they are mostly found in complementary distribution, except for a number of speakers where they can be phonemic but only in foreign words.
+
+The short vowels [i, ɪ, e, e̞, ɛ] are all possible allophones of /i/ across different dialects; e.g., مِن /ˈmin/ ('from') is pronounced [ˈmɪn] or [ˈmen] or [ˈmɛn] since the difference between the short mid vowels [e, e̞, ɛ] and [i, ɪ] is never phonemic, and they are mostly found in complementary distribution, except for a number of speakers where they can be phonemic but only in foreign words.
+
+The long mid vowels /oː/ and /eː/ appear to be phonemic in most varieties of Arabic except in general Maghrebi Arabic, where they merge with /uː/ and /iː/. For example, لون ('color') is generally pronounced /loːn/ in Mashriqi dialects but /luːn/ in most Maghrebi Arabic. The long mid vowels can be used in Modern Standard Arabic in dialectal words or in some stable loanwords or foreign names,[17] as in روما /ˈroːma/ ('Rome') and شيك /ˈʃeːk/ ('cheque').
+
+Foreign words often have a liberal sprinkling of long vowels, as vowels tend to be written as long vowels in foreign loans, under the influence of European-language orthographies which write down every vowel with a letter.[18] The long mid vowels /eː/ and /oː/ are always rendered with the letters ي and و, respectively, accompanied by a preceding hamzah sitting above (أ) and below (إ) an alif (ا) respectively word-initially. In general, the pronunciation of loanwords is highly dependent on the speaker's native variety.
+
+Consonants
+
+See also: Arabic alphabet and sun and moon letters
+
+Even in the most formal contexts, pronunciation of Arabic depends on the speaker's background,[19] even if the number and phonetic character of most of the 28 consonants has a broad degree of regularity among Arabic-speaking regions. Arabic is particularly rich in uvular, pharyngeal, and pharyngealized ("emphatic") sounds.
+
+Note: the table and notes below discuss the phonology of Modern Standard Arabic among Arabic speakers and not regional dialects.
+
+Modern Standard Arabic consonant phonemes
+
+	Labial
+	Dental
+	Alveolar
+	Post-alv./
+Palatal
+	Velar
+	Uvular
+	Pharyngeal
+	Glottal
+
+	plain
+	emphatic[a][b]
+
+	Nasal
+	m م
+
+	n ن
+
+	Plosive
+	voiceless[c]
+
+	t ت
+	tˤ ط
+
+	k ك
+	q ق
+
+	ʔ أ
+
+	voiced
+	b ب
+
+	d د
+	dˤ ض
+	d͡ʒ[d] ج
+	(ɡ)[e]
+
+	Fricative
+	voiceless
+	f ف
+	θ ث
+	s س
+	sˤ ص
+	ʃ ش
+	x ~ χ[f] خ
+	ħ ح
+	h هـ
+
+	voiced
+
+	ð ذ
+	z ز
+	ðˤ[g] ظ
+
+	ɣ ~ ʁ[f] غ
+	ʕ ع
+
+	Trill
+
+	r[h] ر
+
+	Approximant
+
+	l ل
+	(ɫ)[i]
+	j ي
+	w و
+
+↑ Emphatic consonants are pronounced with the back of the tongue approaching the pharynx (see pharyngealization).  They are pronounced with velarization by Iraqi and Persian Gulf speakers.[citation needed] /q/, /ħ/, and /ʕ/ can be considered the emphatic counterparts to /k/, /h/, and /ʔ/ respectively.[20]
+
+↑ The emphatic coronals (/sˤ/, /dˤ/, /tˤ/, and /ðˤ/) cause assimilation of emphasis to adjacent non-emphatic coronal consonants.[citation needed]
+
+↑ /t/ and /k/ are aspirated [tʰ] and [kʰ], whereas /tˤ/ and /q/ are unaspirated.[21]
+
+↑ When speaking Modern Standard Arabic, the phoneme represented by the Arabic letter ǧīm (ج) is pronounced depending on the speaker's native dialect,[22] as follows: [d͡ʒ] in the Arabian Peninsula, Iraq, parts of the Levant, north-central Algeria, and parts of Egypt, [ʒ] in most of Northwest Africa and the Levant and in some parts of the Arabian Peninsula, [ɡ] in Egypt, and [ɟ] in Sudan, parts of Yemen and parts of Oman. Outside the Arab League, [d͡ʒ] is the preferred taught variant, the pronunciation mostly used in Qur'an recitation, and the predominant pronunciation mostly used in Arabic loanwords across other languages.
+
+↑ In Modern Standard Arabic /ɡ/ is either the standard pronunciation[23] for ǧīm (ج) (in Egypt, Oman, and coastal Yemen) or is used in foreign or dialectal words and proper nouns which may be transcribed more commonly with ج, غ, ق or ك or less commonly ݣ‎ (in Morocco) or ڨ‎ (in Tunisia and Algeria), mainly depending on the regional spoken variety of Arabic.
+
+1 2 In most regions, uvular fricatives of the classical period have become velar or post-velar.[24]
+
+↑ The voiced emphatic dental fricative ظ  [ðˤ] is sometimes pronounced as a voiced emphatic alveolar fricative [zˤ] depending on the speaker in Egypt and Lebanon.[25]
+
+↑ The trill /r/ is sometimes reduced to a single vibration when single, but it remains potentially a trill, not a flap [ɾ]: the pronunciation of this single trill is between a trill [r] and a flap [ɾ]. ⟨r⟩ is in free variation between a trill [r] and a flap [ɾ] in Egypt and the Levant.
+
+↑ In most pronunciations, /ɫ/ as a marginal phoneme only occurs in الله Allah /ʔaɫˈɫaːh/, the name of God, and (for some speakers) a handful of loanwords,[22] except when it follows long or short /i/ when it is not emphatic: بسم الله bismi l-lāh /bis.milˈlaːh/ ("in the name of God").[26] However, /ɫ/ is absent in many regions, such as the Nile Valley, and is more widespread in certain regions, such as Iraq, where the uvulars have velarized surrounding instances of /l/  in the environment of emphatic consonants when the two are not separated by /i/.[27]
+
+Long (geminate or double) consonants are pronounced exactly like short consonants, but last longer. In Arabic, they are called mushaddadah ("strengthened", marked with a shaddah). Between a long consonant and a pause, an epenthetic [ə] occurs,[12] but this is only common across regions in West Asia.
+
+Phonotactics
+
+Standard Arabic syllables come in only five forms:[28]
+
+CV (light)
+
+CVV (heavy)
+
+CVC (heavy)
+
+CVVC (super-heavy)
+
+CVCC (super-heavy)
+
+Standard Arabic syllable structure does not allow syllables to start with a vowel or with a consonant cluster.[28] In cases where a word starts with a consonant cluster it is preceded by an epenthetic /ʔi/ utterance initially or /i/ when preceded by a word that ends with a consonant; there are however exceptions like من /min/ and ـهم /-hum/ that connect with a following word-initial consonant cluster with /a/ and /u/ respectively, if the preceding word ends with a long vowel that vowel is then shortened.
+
+Super-heavy syllables are usually not allowed except word finally,[28] with the exception of CVV- before geminates creating non-final CVVC- syllables, these can be found in the active participles of geminate Form I verbs, like in ‏مادة‎ /maːd.da/ ('substance, matter'), ‏كافة‎ /kaːf.fa/ ('entirely'). In the pausal form, the final geminates behave as a single consonant, only when preceding another word or with vocalization, the geminates start appearing, belonging to two separate syllables. E.g.: ‏سام‎ /saːm(.m)/ ('poisonous'), ‏جاف‎ /d͡ʒaːf(.f)/ ('dry'), ‏عام‎ /ʕaːm(.m)/ ('public, general'), ‏خاص‎ /χaːsˤ(.sˤ)/ ('private, special'), and ‏حار‎ /ħaːr(.r)/ ('hot, spicy').[28]
+
+Loanwords can break some phonotactic rules like allowing initial consonant clusters (with an initial epenthetic /i/ or often another repeated vowel from the word being optionally inserted after the first consonant) like in استاد /(i)s.taːd/ "stadium" and فلورنسا /f(i).loː.ran.saː/ "Florence" or allowing CVVC syllables non-finally without geminates like in روسيا /ruːs.jaː/ "Russia" and سوريا /suːr.jaː/ "Syria", which can be modified to /ruː.si.jaː, suː.ri.jaː/ to fit the phonotactics better.[28]
+
+Word stress
+
+See also: Classical Arabic phonology
+
+Stress in Modern Standard Arabic is generally consistent and standardized across the Arab world. Exceptions exist only in a limited set of scenarios, detailed below. Broadly speaking, stress is most likely to fall on the second-to-last syllable (the penultimate syllable), but frequently occurs in the final (ultimate) and third-to-last (antepenultimate) as well.
+
+Arabic syllables can be categorized as light, heavy, and superheavy. This refers to the arrangement of vowels and consonants within the syllable.
+
+With "C" representing a consonant, "V" representing a vowel, and "VV" representing a long vowel:
+
+Light:
+
+A syllable containing a short vowel (i.e. CV), such as وَ /wa/ ('and').
+
+Heavy:
+
+A syllable containing a long vowel (i.e. CVV), such as لَا /laː/ ('no').
+
+A syllable containing a short vowel followed by one consonant (i.e. CVC), such as مِن /min/ ('from').
+
+Super-heavy:
+
+A syllable containing a long vowel followed by one consonant (i.e. CVVC), such as بَاب /baːb/ ('door').
+
+A syllable containing a short vowel followed by two consonants (i.e. CVCC), such as بِنْت /bint/ ('girl'), or a long vowel followed by a geminate consonant (i.e. CVVCiCi), such as مادّ /maːdd/ ('stretching').
+
+Phonotactic constraints in Arabic ensure that syllables do not generally fall outside of these patterns.[29]
+
+A flowchart depiction of Modern Standard Arabic stress placement.
+
+The following description of Arabic stress patterns is adapted from the description provided by Halpern (2009).[30]
+
+Disregard all attached (prefixed) prepositions.[Note 1][Note 2] If this leaves only one syllable, stress it.
+
+If the final syllable is superheavy, stress it.
+
+Otherwise, if the word has only two syllables, stress the first one.
+
+Otherwise, if the second-to-last syllable is heavy, stress it.
+
+When the above rules are insufficient to determine stress, speakers will employ different approaches to determine stress. These choices are influenced by the speaker's native dialect. Nearly all arrangements are possible. At least one source records four different stress placements for كتبتا /ka.ta.ba.taa/ ('two women wrote'):  /ˈka.ta.ba.taa/ (Upper Egypt), /ka.ˈta.ba.taa/ (Jordan), /ka.ta.ˈba.taa/ (Cairo), and /ka.ta.ba.ˈtaa/ (Lebanon).[31]
+
+Local variations of Modern Standard Arabic
+
+Spoken varieties differ from Classical Arabic and Modern Standard Arabic not only in grammar but also in pronunciation. this variation might affect the way Modern Standard Arabic is spoken in each country or region.
+
+Some examples of variation:
+
+Consonants
+
+The standard pronunciation of ⟨ج⟩ in MSA varies regionally, most prominently [d͡ʒ] in the Arabian Peninsula, parts of the Levant, Iraq, north-central Algeria, and southern Egypt, it is also considered as the predominant pronunciation of Literary Arabic outside the Arab world and the pronunciation mostly used in Arabic loanwords across other languages (e.g. in Georgian, Malay, Persian, Turkish and Urdu), and [ʒ] in Morocco, Tunisia, Libya, southern Algeria, most of the Levant, eastern Arabian Peninsula. Other pronunciations include [ɡ] in Egypt, in coastal Yemen, and Oman, as well as [ɟ] in Sudan and hinterland Yemen.
+
+In Modern Standard Arabic (not when it's native), /ɡ/ is used as a marginal phoneme to pronounce some dialectal and loan words. On the other hand, it is considered a native phoneme or allophone in most modern Arabic dialects, mostly as a variant of ق /q/ (as in Arabian Peninsula and Northwest African dialects) or as a variant of /d͡ʒ/ ج (as in Egyptian and Sanaani and Omani dialects). It is also considered a separate foreign phoneme that appears only in loanwords, as in most urban Levantine dialects where ق is /ʔ/ and ج is /d͡ʒ~ʒ/.
+
+The dental ض [dˤ] was historically [ɮˤ], a value it retains among older speakers in a few isolated dialects.[32]
+
+Mergers and mispronunciations
+
+Regional modern dialects may influence the way Modern Standard Arabic is spoken, which sometimes causes mergers or mispronunciations in consonants:
+
+Speakers that merge ض /dˤ/ and ظ /ðˤ/ to ظ /ðˤ/ in their respective dialects usually mispronounce ض as ظ [ðˤ] when speaking Modern Standard Arabic instead of the standard [dˤ],[33] e.g. ضار 'harmful' is pronounced [ðˤaːr] instead of /dˤaːr/.
+
+The voiced emphatic dental fricative ظ /ðˤ/ is sometimes mispronounced as a voiced emphatic alveolar fricative [zˤ] depending on the speaker in Egypt, Sudan and Lebanon,[25] e.g. محافظة 'governorate' is pronounced [mu.ħaː.fa.zˤah] instead of /mu.ħaː.fa.ðˤah/.
+
+Speakers that lack the interdentals ث /θ/ and ذ /ð/ in their respective dialects, may merge them with ت [t] and د [d] or س [s] and ز [z], respectively.
+
+Some speakers especially in Lebanon and Egypt might pronounce the standard uvular ق /q/ as a plain velar ك [k].
+
+A number of speakers in Yemen and among Bedu pronounce the uvular ق /q/ as a velar [g] when speaking Modern Standard Arabic, e.g. لقد قلت لهم 'I told them' is pronounced /la.gad gul.tu la.hum/ instead of /la.qad qul.tu la.hum/.
+
+Foreign phonemes
+
+The foreign phonemes /p/, /v/, /t͡ʃ/, /t͡s/ etc. are not necessarily pronounced by all Arabic speakers, but they can be pronounced by some speakers especially in foreign proper nouns and loanwords. /p/ and /v/ are usually transcribed with their own letters ﭖ /p/ and ﭪ /v/ but as these letters are not part of Standard Arabic, and they are simply written with ب /b/ and ف /f/, e.g. The use of both sounds may be considered marginal and Arabs may pronounce the words interchangeably; both نوفمبر and نوڤمبر /nu(ː)fambar/, /novambar, -ber/ or /nofember/ "November", both كاپريس and كابريس /ka(ː)pri(ː)s, ka(ː)bri(ː)s/ "caprice" can be used.[18][34]
+
+/t͡ʃ/ is a possible loanword phoneme, as in the word سندوتش‎ or ساندوتش‎ (sandawitš or sāndwitš 'sandwich'), though a number of varieties instead break up the [t] and [ʃ] sounds with an epenthetic vowel.[35] Egyptian Arabic treats /t͡ʃ/ as two consonants ([tʃ]) and inserts [e], as [teʃC] or [Cetʃ], when it occurs before or after another consonant. /t͡ʃ/ is found as normal in Iraqi Arabic and Gulf Arabic dialects.[36] Normally the combination تش (tā'-shīn) is used to transliterate the [tʃ]. e.g. تشاد /t͡ʃaːd/ "Chad".
+
+Vowels
+
+Development of highly distinctive allophones of /a/ and /aː/, with highly fronted [a(ː)], [æ(ː)] or [ɛ(ː)] in non-emphatic contexts, and retracted [ɑ(ː)] in emphatic contexts.[citation needed] The more extreme distinctions are characteristic of sedentary varieties, while Bedouin and conservative Arabian-peninsula varieties have much closer allophones. In some of the sedentary varieties, the allophones are gradually splitting into new phonemes under the influence of loanwords, where the allophone closest in sound to the source-language vowel often appears regardless of the presence or absence of nearby emphatic consonants.[citation needed]
+
+Spread of "emphasis", visible in the backing of phonemic /a(ː)/. In conservative varieties of the Arabic peninsula, only /a/ adjacent to emphatic consonants is affected, while in Cairo, an emphatic consonant anywhere in a word tends to trigger emphatic allophones throughout the entire word.[citation needed] Dialects of the Levant are somewhere in between. Moroccan Arabic is unusual in that /i/ and /u/ have clear emphatic allophones as well (typically lowered, e.g. to [e] and [o]).[citation needed]
+
+The diphthongs /aj/ and /aw/ have monophthongized into /eː/ and /oː/ in most the Mashreqi dialects, these mid vowels may also be present in loanwords when speaking MSA, such as ملبورن (/mil.boːrn/ Melbourne), سكرتير (/sikriteːr/ '(male) secretary'),  روما (/roːmaː/ Rome) and دكتور (/duktoːr/ 'doctor').[17]
+
+Loss of final short vowels (with /i/ sometimes remaining), and shortening of final long vowels. This triggered the loss of most Classical Arabic case and mood distinctions.[citation needed]
+
+Change of nisba suffix -iyy > -i, the nisba suffix -iyy as عَرَبِيّ (/ʕarabijj/ '(male) Arabic') is usually mispronounced -i /ʕarabi/ by many speakers.
+
+Shorten of final long -ī > -i  حُبِّي (/ħubbiː/ 'my love') is usually pronounced /ħubbi/ with a short final -i by many speakers.
+
+Distribution
+
+The most frequent consonant phoneme is /r/, the rarest is /ðˤ/. The frequency distribution of the 28 consonant phonemes, based on the 2,967 triliteral roots listed by Wehr[34] is (with the percentage of roots in which each phoneme occurs):
+
+	Phoneme
+	Frequency
+
+	Phoneme
+	Frequency
+
+	/r/
+	24%
+	/w/
+	18%
+
+	/l/
+	17%
+	/m/
+	17%
+
+	/n/
+	17%
+	/b/
+	16%
+
+	/f/
+	14%
+	/ʕ/
+	13%
+
+	/q/
+	13%
+	/d/
+	13%
+
+	/s/
+	13%
+	/ħ/
+	12%
+
+	/j/
+	12%
+	/ʃ/
+	11%
+
+	/d͡ʒ/
+	10%
+	/k/
+	9%
+
+	/h/
+	8%
+	/z/
+	8%
+
+	/tˤ/
+	8%
+	/χ/
+	8%
+
+	/sˤ/
+	7%
+	/ʔ/
+	7%
+
+	/t/
+	6%
+	/dˤ/
+	5%
+
+	/ʁ/
+	5%
+	/θ/
+	3%
+
+	/ð/
+	3%
+	/ðˤ/
+	1%
+
+This distribution does not necessarily reflect the actual frequency of occurrence of the phonemes in speech, since pronouns, prepositions and suffixes are not taken into account, and the roots themselves will occur with varying frequency. In particular, /t/ occurs in several extremely common affixes (occurring in the marker for second-person or feminine third-person as a prefix, the marker for first-person or feminine third-person as a suffix, and as the second element of Forms VIII and X as an infix) despite being fifth from last on Wehr's list. The list does give, however, an idea of which phonemes are more marginal than others. Note that the five least frequent letters are among the six letters added to those inherited from the Phoenician alphabet, namely, ḍād, ṯāʾ, ḫāʾ, ẓāʾ, ḏāl and ġayn.
+
+Sample
+
+The Literary Arabic sample text is a reading of The North Wind and the Sun by a speaker who was born in Safed, lived and was educated in Beirut from age 8 to 15, subsequently studied and taught in Damascus, studied phonetics in Scotland and since then has resided in Scotland and Kuwait.[37]
+
+Normal orthographic version
+
+كانت ريح الشمال تتجادل والشمس في أي منهما كانت أقوى من الأخرى، وإذ بمسافر يطلع متلفعا بعباءة سميكة. فاتفقتا على اعتبار السابق في إجبار المسافر على خلع عباءته الأقوى. عصفت ريح الشمال بأقصى ما استطاعت من قوة. ولكن كلما ازداد العصف ازداد المسافر تدثرا بعباءته، إلى أن أسقط في يد الريح فتخلت عن محاولتها. بعدئذ سطعت الشمس بدفئها، فما كان من المسافر إلا أن خلع عباءته على التو. وهكذا اضطرت ريح الشمال إلى الاعتراف بأن  الشمس كانت هي الأقوى.
+
+Diacriticized orthographic version
+
+كَانَتْ رِيحُ الشَّمَالِ تَتَجَادَلُ وَالشَّمْسَ فِي أَيٍّ مِنْهُمَا كَانَتْ أَقْوَى مِنَ الأُخْرَى، وَإِذْ بِمُسَافِرٍ يَطْلَعُ مُتَلَفِّعًا بِعَبَاءَةٍ سَمِيكَةٍ. فَاتَّفَقَتَا عَلَى اعْتِبارِ السَّابِقِ فِي إِجْبارِ المُسَافِرِ عَلَى خَلْعِ عَباءَتِهِ الأَقْوى. عَصَفَتْ رِيحُ الشَّمالِ بِأَقْصَى مَا اسْتَطَاعَتْ مِن قُوَّةٍ. وَلٰكِنْ كُلَّمَا ازْدَادَ العَصْفُ ازْدَادَ المُسَافِرُ تَدَثُّرًا بِعَبَاءَتِهِ، إِلَى أَنْ أُسْقِطَ فِي يَدِ الرِّيحِ فَتَخَلَّتْ عَنْ مُحَاوَلَتِهَا. بَعْدَئِذٍ سَطَعَتِ الشَّمْسُ بِدِفْئِهَا، فَمَا كَانَ مِنَ المُسَافِرِ إِلَّا أَنْ خَلَعَ عَبَاءَتَهُ عَلَى التَّوِّ. وَهٰكَذَا اضْطُرَّتْ رِيحُ الشَّمَالِ إِلَى الاِعْتِرَافِ بِأَنَّ الشَّمْسَ كَانَتْ هِيَ الأَقْوَى.[38]
+
+Phonemic transcription (with i'rāb)
+
+/kaːnat riːħ uʃ.ʃamaːli tatad͡ʒaːdalu waʃ.ʃamsa fiː ʔaj.jin minhumaː kaːnat ʔaqwaː min al ʔuxraː | wa ʔið bi musaːfirin jatˤlaʕu mutalaf.fiʕan bi ʕabaːʔatin samiːka || fat.tafaqataː ʕala ʕ.tibaːr is.saːbiqi fiː ʔid͡ʒbaːr il.musaːfiri ʕalaː xalʕi ʕabaːʔatihi l.ʔaqwaː || ʕasˤafat riːħ uʃ.ʃamaːli bi ʔaqsˤaː mas.tatˤaːʕat min quw.wa || wa laːkin kul.lama z.daːd al.ʕasˤfu z.daːd al musaːfiru tadaθ.θuran bi ʕabaːʔatih | ʔilaː ʔan ʔusqitˤa fiː jad ir.riːħi fataxal.lat ʕan muħaːwalatihaː || baʕda.ʔiðin satˤaʕat iʃ.ʃamsu bi difʔihaː | fa maː kaːna min al musaːfiri ʔil.laː ʔan xalaʕa ʕabaːʔatahu ʕalat.taw || wa haːkaða t.tˤur.rat riːħ uʃ.ʃamaːli ʔila l.ʔiʕtiraːfi bi ʔan.n aʃ.ʃamsa kaːnat hija l.ʔaqwaː/[38]
+
+Phonemic transcription (without i'rāb)
+
+/kaːnat riːħ uʃ.ʃamaːl tatad͡ʒaːdal waʃ.ʃams fiː ʔaj.jin minhumaː kaːnat ʔaqwaː min al ʔuxraː | wa ʔið bi musaːfir jatˤlaʕ mutalaf.fiʕan bi ʕabaːʔa samiːkah || fa t.tafaqataː ʕala ʕ.tibaːri s.saːbiq fiː ʔid͡ʒbaːri l musaːfir ʕalaː xalʕ ʕabaːʔatihi l.ʔaqwaː || ʕasˤafat riːħu ʃ.ʃamaːl bi ʔaqsˤaː ma statˤaːʕat min quw.wa || wa laːkin kul.lama z.daːda l.ʕasˤfu z.daːd al.musaːfir tadaθːuran bi ʕabaːʔatih | ʔilaː ʔan ʔusqitˤ fiː jad ir.riːħ fa taxal.lat ʕan muħaːwalatihaː || baʕdaʔiðin satˤaʕat iʃ.ʃams bi difʔihaː | fa maː kaːn min al musaːfir ʔil.laː ʔan xalaʕa ʕabaːʔatahu ʕala t.taw || wa haːkaða t.tˤur.rat riːħ uʃ.ʃamaːl ʔila l.ʔiʕtiraːf bi ʔan.n aʃ.ʃams kaːnat hija l.ʔaqwaː/
+
+Phonetic transcription (Egypt)
+
+[ˈkæːnæt riːħ æʃ.ʃæˈmæːl tætæˈɡæːdæl wæʃˈʃæm.se fiː ˈʔæj.jin menˈhomæ ˈkæːnæt ˈʔɑqwɑ mɪn ælˈʔʊxrɑ | wæ ʔɪð bi mʊˈsæːfer ˈjɑtˤlɑʕ mʊtæˈlæf.feʕ bi ʕæˈbæːʔæ sæˈmiːkæ || fæ t.tæfɑqɑˈtæː ˈʕælæ ʕ.teˈbɑːrɪ sˈsɑːbeq fiː ʔeɡbɑːr æl mʊˈsæːfer ˈʕælæ ˈxælʕe ʕæbæːˈʔæt(i)hi lˈʔɑqwɑː || ˈʕɑsˤɑfɑt riːħ æʃ.ʃæˈmæːl bi ˈʔɑqsˤɑ mæ s.tɑˈtˤɑːʕɑt mɪn ˈqow.wɑ || wæ ˈlæːken kʊlˈlæmæ zˈdæːd æl ʕɑsˤf ɪzˈdæːd æl.mʊˈsæːfer tædæθˈθʊræn bi ʕæbæːˈʔætih | ˈʔilæ ʔæn ˈʔosqetˤ fiː jæd ærˈriːħ fæ tæˈxæl.læt ʕæn mʊħæːwæˈlæt(i)hæ || bæʕdæˈʔiðin ˈsɑtˤɑʕɑt æʃˈʃæm.se bi dɪfˈʔihæ | fæ mæː kæːn mɪn æl.mʊˈsæːfer ˈʔil.læ ʔæn ˈxælæʕ ʕæbæːˈʔætæh ʕælætˈtæw || wæ hæːˈkæðæ tˈtˤor.rɑt riːħ æʃ.ʃæˈmæːl ˈʔilæ l.ʔeʕteˈrɑːf biˈʔænn æʃˈʃæm.se ˈkæːnæt ˈhɪ.jæ lˈʔɑqwɑ]
+
+ALA-LC transliteration
+
+Kānat rīḥ al-shamāl tatajādalu wa-al-shams fī ayyin minhumā kānat aqwá min al-ukhrá, wa-idh bi-musāfir yaṭlaʻu mutalaffiʻ bi-ʻabāʼah samīkah. Fa-ittafaqatā ʻalá iʻtibār al-sābiq fī ijbār al-musāfir ʻalá khalʻ ʻabāʼatihi al-aqwá. ʻAṣafat rīḥ al-shamāl bi-aqṣá mā istaṭāʻat min qūwah. Wa-lākin kullamā izdāda al-ʻaṣf izdāda al-musāfir tadaththuran bi-ʻabāʼatih, ilá an usqiṭ fī yad al-rīḥ fa-takhallat ʻan muḥāwalatihā. Baʻdaʼidhin saṭaʻat al-shams bi-difʼihā, fa-mā kāna min al-musāfir illā an khalaʻa ʻabāʼatahu ʻalá al-taww. Wa-hākadhā iḍṭurrat rīḥ al-shamāl ilá al-iʻtirāf bi-an al-shams kānat hiya al-aqwá.
+
+English Wiktionary transliteration (based on Hans Wehr)
+
+kānat rīḥu š-šamāli tatajādalu wa-š-šamsa fī ʾayyin minhumā kānat ʾaqwā mina l-ʾuḵrā, wa-ʾiḏ bi-musāfirin yaṭluʿu mutalaffiʿan bi-ʿabāʾatin samīkatin. fa-t-tafaqatā ʿalā ʿtibāri s-sābiqi fī ʾijbāri l-musāfiri ʿalā ḵalʿi ʿabāʾatihi l-ʾaqwā. ʿaṣafat rīḥu š-šamāli bi-ʾaqṣā mā staṭāʿat min quwwatin. walākin kullamā zdāda l-ʿaṣfu zdāda l-musāfiru tadaṯṯuran bi-ʿabāʾatihi, ʾilā ʾan ʾusqiṭa fī yadi r-rīḥi fataḵallat ʿan muḥāwalatihā. baʿdaʾiḏin saṭaʿati š-šamsu bi-difʾihā, famā kāna mina l-musāfiri ʾillā ʾan ḵalaʿa ʿabāʾatahu ʿalā t-tawwi. wa-hakaḏā ḍṭurrat rīḥu š-šamāli ʾilā l-ʾiʿtirāfi biʾanna š-šamsa kānat hiya l-ʾaqwā.
+
+English Translation
+
+The North Wind and the Sun were disputing which was the stronger, when a traveler came along wrapped in a warm cloak. They agreed that the one who first succeeded in making the traveler take his cloak off should be considered stronger than the other. Then the North Wind blew as hard as he could, but the more he blew the more closely did the traveler fold his cloak around him; and at last the North Wind gave up the attempt. Then the Sun shined out warmly, and immediately the traveler took off his cloak. And so the North Wind was obliged to confess that the Sun was the stronger of the two.
+
+Notes
+
+↑ A notable exception are words using the preposition لِ or بِ with a possessive enclitic, such as لَك and لَهُ, or بِنا and بِكم. These words are stressed on the first syllable even though this syllable is an attached prefix.
+
+↑ Note that this rule only excludes attached prefixes, and not possessive enclitics. Possessive suffixes like كَ- and هُم- will affect the stress.
+
+References
+
+↑ Kirchhoff & Vergyri (2005:38)
+
+↑ Kirchhoff & Vergyri (2005:38–39)
+
+↑ Holes (2004:57)
+
+↑ Lipinski (1997:124)
+
+↑ Al-Jallad, 42
+
+↑ Watson (2002:5, 15–16)
+
+1 2 Watson (2002:2)
+
+↑ "Recently catalogued: an enigma in the Senior Library | Lincoln College Oxford". lincoln.ox.ac.uk. Retrieved 2022-04-11.
+
+↑ Versteegh, Kees (2014). The Arabic Language (NED - New edition, 2 ed.). Edinburgh University Press. doi:10.3366/j.ctt1g0b09q. ISBN 978-0-7486-4528-2.
+
+1 2 Thelwall (1990:39)
+
+↑ Holes (2004:60)
+
+1 2 3 Thelwall (1990:38)
+
+↑ Abd-El-Jawad (1987:359)
+
+↑ Abd-El-Jawad (1987:361)
+
+1 2 Watson (1999:290)
+
+↑ Davis (1995:466)
+
+1 2 Elementary Modern Standard Arabic: Volume 1, by Peter F. Abboud (Editor), Ernest N. McCarus (Editor)
+
+1 2 Teach Yourself Arabic, by Jack Smart (Author), Frances Altorfer (Author)
+
+↑ Holes (2004:58)
+
+↑ Watson (2002:44)
+
+↑ Thelwall (1990:38), Al Ani (1970:32, 44–45)
+
+1 2 Watson (2002:16)
+
+↑ al Nassir, Abdulmunʿim Abdulamir (1985). Sibawayh the Phonologist (PDF) (in Arabic). University of New York. p. 80. Retrieved 23 April 2024.
+
+↑ Watson (2002:18)
+
+1 2 Watson (2002:19)
+
+↑ Holes (2004:95)
+
+↑ Ferguson (1956:449)
+
+1 2 3 4 5 Ryding, Karin C. (2005-08-25). A Reference Grammar of Modern Standard Arabic. Cambridge University Press. ISBN 978-0-521-77151-1.
+
+↑ Broselow, Ellen (2006-08-01). The Encyclopedia of Arabic Language And Linguistics. Vol. 3. pp. 615–616.
+
+↑ Halpern, Jack (January 2009). "Word Stress and Vowel Neutralization in Modern Standard Arabic" (PDF). The CJK Dictionary Institute. Archived (PDF) from the original on 2024-04-24.
+
+↑ Broselow, Ellen (2006-08-01). The Encyclopedia of Arabic Language And Linguistics. Vol. 3. p. 613.
+
+↑ Al-Azraqi. (2019). Delateralisation in Arabic and Mehri. Dialectologia, 23: 1–23. https://raco.cat/index.php/Dialectologia/article/download/366597/460520/
+
+↑ Hamdan, Jihad (2020). The Arabic /dˤ/ Revisited: A Critical Review. Zarqa University. p. 29.
+
+1 2 Hans Wehr, Dictionary of Modern Written Arabic (transl. of Arabisches Wörterbuch für die Schriftsprache der Gegenwart, 1952)
+
+↑ Watson (2002:60–62), citing Ṣan'ā'ni and Cairene as examples with and without this phoneme, respectively.
+
+↑ "The Arabic Sounds I. | Gulf Arabic E-learning System". www.gulfarabic.com.
+
+↑ Thelwall (1990:37)
+
+1 2 Thelwall (1990:40)
+
+Bibliography
+
+Abd-El-Jawad, Hassan (1987). "Cross-Dialectal Variation in Arabic: Competing Prestigious Forms". Language in Society. 16 (3): 359–367. doi:10.1017/S0047404500012446. S2CID 143839694.
+
+Al Ani, S. H. (1970). Arabic Phonology: An Acoustical and Physiological Investigation. The Hague: Mouton.
+
+Davis, Stuart (1995). "Emphasis Spread in Arabic and Grounded Phonology". Linguistic Inquiry. 26 (3). The MIT Press: 465–498. JSTOR 4178907.
+
+Ferguson, Charles (1956). "The Emphatic L in Arabic". Language. 32 (3): 446–452. doi:10.2307/410565. JSTOR 410565.
+
+Gairdner, W. H. T. (1925). The Phonetics of Arabic. London: Oxford University Press.
+
+Holes, Clive (2004). Modern Arabic: Structures, Functions, and Varieties. Georgetown University Press. ISBN 978-1-58901-022-2.
+
+Kästner, H. (1981). Phonetik und Phonologie des modernen Hocharabisch. Leipzig: Verlag Enzyklopädie.
+
+Kirchhoff, Katrin; Vergyri, Dimitra (2005). "Cross-dialectal data sharing for acoustic modeling in Arabic speech recognition". Speech Communication. 46 (1): 37–51. doi:10.1016/j.specom.2005.01.004.
+
+Ladefoged, Peter; Maddieson, Ian (1996). The Sounds of the World's Languages. Oxford: Blackwell. ISBN 0-631-19815-6.
+
+Lipinski, E. (1997). Semitic Languages. Leuven: Peters.
+
+McCarthy, John J. (1994). "The phonetics and phonology of Semitic pharyngeals". In Keating, Patricia (ed.). Papers in laboratory phonology III: phonological structure and phonetic form. Cambridge: Cambridge University Press. pp. 191–233.
+
+Mion, Giuliano (2010). Sociofonologia dell'arabo. Dalla ricerca empirica al riconoscimento del parlante. Rome: Sapienza Orientale.
+
+Neme, Alexis (2013). "Pattern-and-root inflectional morphology: the Arabic broken plural". Language Sciences. 40 (2): 221–250. arXiv:2605.22310. doi:10.1016/j.langsci.2013.06.002. S2CID 16383947.
+
+Thelwall, Robin (1990). "Illustrations of the IPA: Arabic". Journal of the International Phonetic Association. 20 (2): 37–41. doi:10.1017/S0025100300004266. JSTOR 44526807. S2CID 243640727.
+
+Watson, Janet (1999). "The Directionality of Emphasis Spread in Arabic". Linguistic Inquiry. 30 (2): 289–300. doi:10.1162/002438999554066. S2CID 57568284.
+
+Watson, Janet C. E. (2002). The Phonology and Morphology of Arabic. New York: Oxford University Press.
+
+v
+
+t
+
+e
+
+Phonologies of the world's languages
+
+Phonologies
+
+Orthographies
+
+Grammars
+
+Adjectives
+
+Determiners
+
+Nouns
+
+Prepositions
+
+Pronouns
+
+Verbs
+
+	A–E
+
+Abkhaz
+
+Acehnese
+
+Adyghe
+
+Afrikaans
+
+American Sign Language
+
+Arabic
+
+Standard
+
+Egyptian
+
+Hejazi
+
+Levantine
+
+Moroccan
+
+Tunisian
+
+Avestan
+
+Bashkir
+
+Belarusian
+
+Bengali
+
+Bulgarian
+
+Burmese
+
+Catalan
+
+Chinese
+
+Mandarin
+
+Cantonese
+
+Hokkien
+
+Northern Wu
+
+Old
+
+Historical
+
+Chukchi
+
+Cornish
+
+Czech
+
+Danish
+
+Dutch
+
+Standard
+
+Orsmaal-Gussenhoven dialect
+
+English
+
+Australian
+
+General American
+
+New Zealand
+
+Received Pronunciation
+
+Regional North American
+
+White South African
+
+Standard Canadian
+
+Old
+
+Middle
+
+Esperanto
+
+Estonian
+
+	F–L
+
+Faroese
+
+Finnish
+
+French
+
+Parisian
+
+Quebec
+
+Galician
+
+German
+
+Standard
+
+Bernese
+
+Greek
+
+Standard Modern
+
+Ancient
+
+Koine
+
+Gujarati
+
+Hawaiian
+
+Hebrew
+
+Modern
+
+Biblical
+
+Tiberian
+
+Samaritan
+
+Hindustani
+
+Hittite
+
+Hungarian
+
+Icelandic
+
+Ingrian
+
+Inuit
+
+Greenlandic
+
+Irish
+
+Italian
+
+Japanese
+
+Kiowa
+
+Konkani
+
+Korean
+
+Kurdish
+
+Kurukh
+
+Kurmanji
+
+Kyrgyz
+
+Latgalian
+
+Latin
+
+Latvian
+
+Limburgish
+
+Maastrichtian
+
+Lithuanian
+
+Luxembourgish
+
+	M–S
+
+Macedonian
+
+Malay
+
+Maldivian
+
+Māori
+
+Marathi
+
+Massachusett
+
+Medumba
+
+Navajo
+
+Nepali
+
+Norwegian
+
+Occitan
+
+Ojibwe
+
+Old Saxon
+
+Oromo
+
+Ottawa
+
+Pashto
+
+Persian
+
+Polish
+
+Portuguese
+
+Proto-Indo-European
+
+Ripuarian
+
+Colognian
+
+Kerkrade dialect
+
+Romanian
+
+Russian
+
+Sardinian
+
+Scots
+
+Scottish Gaelic
+
+Serbo-Croatian
+
+Slovak
+
+Slovene
+
+Somali
+
+Sotho
+
+Spanish
+
+Dialects and varieties
+
+Swedish
+
+	T–Z
+
+Tagalog
+
+Tamil
+
+Taos
+
+Turkish
+
+Ubykh
+
+Ukrainian
+
+Uyghur
+
+Vietnamese
+
+Welsh
+
+West Frisian
+
+Yiddish
+
+Zuni
+
+v
+
+t
+
+e
+
+Arabic language
+
+	Overviews
+
+Language
+
+Alphabet
+
+History
+
+Romanization
+
+Numerals
+
+Influence on other languages
+
+	Scripts
+
+Nabataean script
+
+Arabic script
+
+Ancient North Arabian
+
+Ancient South Arabian script
+
+Arabic numerals
+
+Eastern numerals
+
+Arabic Braille
+
+Algerian Braille
+
+Maltese Braille
+
+Diacritics
+
+i‘jām
+
+Tashkil
+
+Harakat
+
+Nunation (tanwin)
+
+Shaddah
+
+Hamza
+
+Dagger alif
+
+Maltese alphabet
+
+	Letters
+
+ʾAlif
+
+Bāʾ
+
+Tāʾ
+
+Ṯāʾ
+
+Ǧīm
+
+Ḥāʾ
+
+Ḫāʾ
+
+Dāl
+
+Ḏāl
+
+Rāʾ
+
+Zāy
+
+Sīn
+
+Šīn
+
+Ṣād
+
+Ḍād
+
+Ṭāʾ
+
+Ẓāʾ
+
+ʿAyn
+
+Ġayn
+
+Fāʾ
+
+Qāf
+
+Kāf
+
+Lām
+
+Mīm
+
+Nūn
+
+Hāʾ
+
+Wāw
+
+Yāʾ
+
+	Varieties
+
+	Pre-Islamic
+
+Proto-Arabic
+
+Nabataean Arabic
+
+Old Arabic
+
+Old Hijazi Arabic
+
+Pre-classical Arabic
+
+	Literary
+
+Classical
+
+Modern Standard
+
+	Modern
+spoken
+
+	Maghrebi
+
+	Pre-Hilalian
+
+Andalusi
+
+Sicilian
+
+Maltese
+
+Australian
+
+Cottenera
+
+Gozitan
+
+Qormi
+
+Żejtun
+
+Żurrieqi
+
+Urban
+
+Ceuta
+
+Tunis (North-Eastern Tunisian)
+
+Fessi
+
+Village
+
+Eastern
+
+Sahili (Sahel)
+
+Sfaxian
+
+Jijel (Lesser Kabylia)
+
+Western
+
+Traras-Msirda
+
+Jebli (Mountain)
+
+Judeo-Maghrebi
+
+Judeo-Moroccan
+
+Judeo-Tripolitanian
+
+Judeo-Tunisian
+
+	Hilalian
+
+Central Hilal
+
+Algerian koiné
+
+Judeo-Algerian
+
+Algerian Saharan
+
+Eastern Algerian
+
+Eastern Hilal
+
+Tunisian koiné
+
+Maqil
+
+Hassaniya
+
+Nemadi
+
+Moroccan koiné
+
+Eastern
+
+Western
+
+Western Algerian
+
+Sulaym
+
+Libyan koiné
+
+Western Egyptian Bedawi
+
+	Nile Valley
+
+Egyptian
+
+Saʽidi
+
+Sudanese
+
+	Levantine
+
+	North
+
+Cilician
+
+Lebanese
+
+Syrian
+
+Aleppine
+
+Damascene
+
+	South
+
+Jordanian
+
+Palestinian
+
+	Mesopotamian
+
+	Gilit
+
+Baghdadi
+
+Khuzestani
+
+Shawi
+
+South
+
+	North (Qeltu)
+
+Anatolian
+
+Cypriot
+
+Judeo-Iraqi
+
+Baghdadi
+
+	Peninsular
+
+Bahrani
+
+Bareqi
+
+Bedawi
+
+Dhofari
+
+Gulf
+
+Bahraini
+
+Emirati
+
+Kuwaiti
+
+Khamseh
+
+Hejazi
+
+/-k/ group
+
+Yāfiʿī
+
+Najdi
+
+Omani
+
+Shihhi
+
+Yemeni
+
+Hadhrami
+
+Indonesian
+
+Sanʽani
+
+Taʽizzi-Adeni
+
+Tihami
+
+Judeo-Yemeni
+
+	Others
+
+Central Asian
+
+Bactrian
+
+Bukhara
+
+Kashkadarya
+
+Khorasani
+
+Shirvani
+
+Chadian
+
+Nigerian
+
+	Sociological
+
+Bedouin Arabic
+
+	Judeo-Arabic
+
+Judeo-Algerian
+
+Judeo-Egyptian
+
+Judeo-Iraqi
+
+Baghdadi
+
+Judeo-Moroccan
+
+Kjal
+
+Wqal
+
+Judeo-Palestinian
+
+Judeo-Syrian
+
+Judeo-Tripolitanian
+
+Judeo-Tunisian
+
+Tunisene
+
+Judeo-Yemeni
+
+Adeni
+
+Beda
+
+Habban
+
+Sanʽani
+
+	Creoles
+and pidgins
+
+Bimbashi
+
+Bongor
+
+Gulf Pidgin
+
+Jordanian Bengali Pidgin
+
+Juba
+
+Maridi
+
+Nubi
+
+Pidgin Madam
+
+Turku
+
+	Academic
+
+Literature
+
+Names
+
+	Linguistics
+
+Standard Arabic phonology
+
+Sun and moon letters
+
+Tajwid
+
+Imāla
+
+ʾIʿrāb (case)
+
+Grammar
+
+Triliteral root
+
+Mater lectionis
+
+IPA
+
+Quranic Arabic Corpus
+
+	Calligraphy
+· Script
+
+Ajami script
+
+Diwani
+
+Hijazi script
+
+Jawi script
+
+Jeli Thuluth
+
+Kairouani
+
+Kufic
+
+Maghrebi
+
+Mashq
+
+Muhaqqaq
+
+Naskh (script)
+
+Nastaliq
+
+Rasm
+
+Ruqʿah script
+
+Shahmukhi
+
+Sini (script)
+
+Taliq script
+
+Tawqi
+
+Thuluth
+
+	Technical
+
+Arabic keyboard
+
+Arabic script in Unicode
+
+ISO/IEC 8859-6
+
+Windows-1256
+
+MS-DOS codepages
+
+708
+
+709
+
+710
+
+711
+
+720
+
+864
+
+MacArabic encoding
+
+	Other
+
+Islam and Arabic language
+
+Italics indicate extinct languages
+
+Languages between parentheses are varieties of the language on their left.
+
+ Category
+

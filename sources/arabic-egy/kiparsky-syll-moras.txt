@@ -1,0 +1,1368 @@
+                          Syllables and Moras in Arabic
+
+                                              Paul Kiparsky
+                                           Stanford University
+
+
+1 CV-, VC-, and C- dialects
+Some of the most salient differences among Arabic vernaculars have to do with syllable struc-
+ture. This study focuses on the syllabification patterns of three dialect groups, (1) VC-dialects,
+(2) C-dialects, and (3) CV-dialects,1 and argues that they differ in the licencing of SEMISYLLA -
+BLES, moras unaffiliated with syllables and adjoined to higher prosodic constituents. The analysis
+provides some evidence for a constraint-based version of Lexical Phonology, which treats word
+phonology and sentence phonology as distinct constraint systems which interact in serial fashion.
+    VC-dialects include the dialects of Syria, Lebanon, Palestine, Iraq, and Turkey (Behnstedt
+1994, Blanc 1953, Cowell 1964, Erwin 1963, Grotzfeld 1965, Jastrow 1978, Palva 1966), Bedouin
+and Bedouin-type dialects such as Bani-Hassan (Jordan, Irshied & Kenstowicz 1984), the Hijazi
+dialects of Central Arabia (Jastrow 1980a), and the dialects of Eastern Libya (Owens 1984:12ff.,
+Mitchell 1993:85,88), and two groups of Egyptian dialects, spoken in the Easternmost part of
+the Delta, and in Upper Egypt approximately to Asyut. (Woidich 1980:207, Behnstedt & Woidich
+1985).
+    C-dialects are spoken over a large area in North Africa, including Morocco (Harrell 1962a,
+1962b, 1965), Tunis (Marçais 1977:28, Singer 1980), and Mauretania (Cohen 1963). Like the
+coterritorial Berber,2 they have long consonant sequences, which have been analyzed both as com-
+plex clusters and as sequences of syllables with consonantal nuclei. Certain Bedouin-type dialects
+also seem to belong in this group, as does the Maltese language.
+    CV-dialects constitute a distinctive group, comprising the majority of the dialects of Egypt,
+including Cairo, most of the Delta, the oases of the Libyan desert, and Middle Egypt (Woidich
+1980, Behnstedt & Woidich 1985). They correspond to to Broselow’s (1992) onset dialects.3
+    VC- and C-dialects often coexist as distinct speech registers or sociolects within a basic re-
+gional dialect. I will argue that they have the same lexical syllabification, and differ mainly in
+their postlexical phonology. The CV-dialects, with a distinct lexical syllabification, differ more
+fundamentally from both.
+   1
+      I present a more extensive treatment of this material in my forthcoming Paradigm Effects and Opacity. I would
+like to thank Andrew Garrett, Larry Hyman, John McrCarthy, and Michael Redford for comments and discussion,
+and Albert Borg and Manwel Mifsud for their expert counsel on Maltese. The final version has benefited from the
+comments of two readers. After this paper was written I became aware that Hagstrom 1997 (who in turn refers to
+Potter 1994) had proposed more or less the same idea of unsyllabified moras for Mohawk and Passamaquoddy.
+    2
+      Dell and Elmedlaoui 1985, 1988, 1996a, 1996b, 1997, Dell and Tangi 1992, 1993, Prince and Smolensky 1993,
+Clements 1997.
+    3
+      But this classification does not coincide with the division between gilit and q@ltu dialects (Jastrow 1978).
+
+                                                        1
+    The table in [1] illustrates the distribution of diagnostic properties for 15 Arabic dialects, and
+for the Maltese language. Column G is included to show that the syllabification isoglosses do
+not bundle with the major word stress isogloss. The Egyptian data is from Behnstedt & Woidich
+(1985), that from other dialects from Fischer & Jastrow 1980, Mitchell 1993, and the additional
+sources indicated below.4
+
+  [1]              A           B            C              D                E              F            G
+               ‘dog’      ‘I wrote’    ‘book’        ‘they write’    ‘they talk to’   ‘her door’    ‘library’
+        1a.    kalib      katábit     (?i)ktáab    yı́kitbu        ikálmu          báabha       maktába
+        1b.    kalb       katábit     ktáab        yı́kitbu        ikállmu         báabha       máktaba
+        1c.    kal(i)b    kitábit     (?i)ktáab    yikitbúun      ykalmúun        báabha       máktaba
+        1d.    čal@b     čatábet    ktáab        yičetbúun     yčal(l)múun    báabha       máktabi
+        1e.    kal(@)b    katáb@t     ktáab        yék(@)tbu                       báabha       máktaba
+        1f.    kalib      kitábit     ?iktáab      yék(@)tbu      ikállmu         báabha       máktiba
+
+        2a.    k@lb       ktebt        ktaab         y@ktbu                           baabha        m@ktaba
+        2b.    kalb       kitábt                    yuktbúun       ykállmih        baabha
+        2c.               ktibt        ktieb         jiktbu          jitkellmu        biebha
+                          [ktipt]      [kti:p]       [jı́gdbu]       [jitkélmu]      [bı́:ba]
+
+        3a.    kalb       katábt      kitáab       yiktı́bu        yikallı́mu       bábha        maktába
+        3b.    kalb       katábt      kitáab       yiktı́bu        yikillı́mu       bábha        maktába
+        3c.    kalb       katábt      kitáab       yı́kt(i)bu      y(i)káll(i)mu   bábha        máktaba
+        3d.    kalb       katábt      kitáab       yı́ktibu        yikı́llimu       báabha       máktaba
+        3e.    kalb       katábt      kitáab       yikts ibúu     yikillimúu      bàabiháa    makts ába
+        3f.    kalb       katábt      kitáab       yikts ibóo     yikillimóo      bàabiháa    miktáaba
+        3g.    kalb       katábt      kitáab       yı́ktibu        yikállimu       báabha       máktaba
+
+
+
+
+   4
+    The words in this table are meant to represent phonological types. Most cited forms are taken directly from the
+sources cited, but in the Egyptian data I have replaced, with fingers crossed, Behnstedt & Woidich’s type word siláah.
+‘plowshare’ with the corresponding forms of kitáab ‘book’, which is better attested in the other sources.
+  [2] Key to the dialects
+
+       1. VC-dialects
+          1a. Šarqiyya dialects (Easternmost part of Delta)
+          1b. Upper Egypt South of Asyut.
+          1c. Iraq (Baghdad, Erwin 1963)
+          1d. Syria (Soukhne, Behnstedt 1994)
+          1e. Syria (Damascus, Cowell 1964, Grotzfeld 1965)
+          1f. Eastern Libya (Owens 1984)
+
+       2. C-dialects
+          2a. Tunisia (Marçais 1977, Singer 1980)
+          2b. Rufaidah, Southern Hijaz (Prochazka 1988:32,153,163,179,185,198,200)
+          2c. Maltese (Aquilina 1959, 1987)
+
+       3. CV-dialects
+          3a. Cairo
+          3b. Rosetta
+          3c. Damietta (Dumyāt.)
+          3d. ilBah.ariyya oasis
+          3e. alFarāfira oasis
+          3f. adDāxila oasis
+          3g. Middle Egypt, Upper Egypt to Asyut.
+
+   A summary of the cross-dialectal generalizations follows.
+    Phrase-final -CC clusters occur unrestrictedly only in CV- and C- dialects (columns A, B).
+They can be broken up by an epenthetic vowel, under conditions that vary according to style and
+dialect. E.g. /katab-t/ katabit, katabt (CV-dialects), ktebt (C-dialects) ‘I wrote’, /?akl/ ?akl, ?akil
+‘food’, /?ism/ ?ism, ?isim ‘name’. The VC-dialects either permit no -CC clusters (kalib,
+katabit) or permit them only with falling sonority (kalb, katabit).
+    Phrase-initial onset CC- clusters are allowed in VC- and C-dialects, which accordingly
+allow the pan-Arabic process that deletes high vowels in open syllables to reduce even initial
+CiC- to CC- (column C). The resulting clusters are often broken up by a prothetic vowel
+(which in turn is phonetically preceded by a glottal stop, in satisfaction of Arabic’s undom-
+inated ranking of Onset). E.g. (?i)slaah. , ‘plowshare’, (?i)klaab, (?i)claab ‘dogs’, (?i)h. maar
+‘donkey’ (silaah. , kilaab, h. imaar in CV dialects).
+    Geminates are included in the class of permissible initial CC- clusters, a fact that will
+be of special significance in the analysis below. Most often arising from assimilation, initial
+geminates occur only in VC- and C-dialects. They can be resolved by epenthesis in the same
+way as other onset clusters, e.g. /l-landan/ llandan, ?illandan ‘to London’, /l-čaay/ č-čaay
+‘the tea’.
+    Medial -CCC- clusters are broken up as -CiCC- in VC-dialects, and as -CCiC- in CV-
+dialects. E.g. Iraqi gı́litla, Cairene ?ultı́lu(h), Moroccan q@ltlu ‘I/you (M.) said to him’.
+    “Metathesis” of medial -CCiC- to -CiCC- occurs only in VC-dialects (column D), e.g.
+/yi-ktib-u/ yikitbu ‘they write’. CV-dialects always retain -CCiC- (yiktibu), and C-dialects
+simply drop the vowel in the corresponding cases (yiktbu). Woidich 1980:212 and indepen-
+dently Broselow 1992:35 noticed that dialects have metathesis only if they have epenthesis
+of the -CCC- → -CiCC- type, and the correlation with the other VC-dialects traits can be
+seen for Egyptian in Behnstedt & Woidich (1985 maps 59, 66, 67). As Woidich and Broselow
+point out, this is evidence for interpreting metathesis as a composite process consisting of
+medial syncope followed by insertion of an epenthetic vowel into the resulting -CCC- cluster
+(-CCiC- → -CCC- → -CiCC-).
+    Desonorization of word-final -VCR, -VVR occurs only in CV-dialects. E.g. in N. Yemen
+the CV-/VC- isogloss coincides with the incidence of glottalization and devoicing (-VCR,
+-V´?R) (Behnstedt 1985:14, 48, 58). In Egypt, final glottalization occurs in a subset ˚     of
+ ˚  ˚
+CV-dialects, e.g. [ka?l, mo:?s] (Behnstedt and Woidich 1985, maps 41-43).
+                    ˚˚
+    High vowel deletion occurs after geminates only in the VC- and C-dialects (column E).
+E.g. /y-kallim-u/ (y)ikal(l)mu ‘they talk to someone’, /y-sakkir-u/ (y)isak(k)ru, ‘they shut’,
+/y-Qallim-u/ (y)iQal(l)mu ‘they teach’. All CV-dialects retain the vowel, e.g. yikallimu,
+yiQallimu, yisakkiru (or yikillimu etc.). In most dialects, the geminate is then shortened,
+but retention of a quantitative distinction between -VCC.C- and -VC.C- is attested e.g. in
+Qift. (Upper Egypt, Nishio 1994:41). For Egyptian dialects, the fact that the incidence of
+i-deletion after medial geminates correlates with the possibility of initial clusters and with
+epenthesis of the -CCC- → -CiCC- type was noted by Behnstedt & Woidich 1985:74.
+    Shortening of non-final CVVC- before word-level endings, and in the output of word-level
+syncope, occurs only in CV-dialects. E.g. /baab-ha/ babha ‘her door’, /saah. ib-i/ sah. b-i ‘my
+friend’, /saah. ib-a/ sah. b-a ‘girlfriend’ (column F).
+   ‘Cyclic’ effects, such as the contrast between fhı́mna ‘we understood’ vs. fihı́mna ‘he
+understood us’ (Brame 1974, Kenstowicz 1981, 1996) are attested only in VC-dialects.
+     Opaque epenthesis/stress interactions (such as the antepenultimate stress of /fihm-na/
+fı́himna ‘our understanding’) are attested only in VC-dialects. Only in these dialects is the
+epenthetic vowel invisible to lexical processes such as stress and vowel shortening. In CV-
+dialects, epenthetic vowels are always visible to lexical processes, and get stressed under
+the same conditions as regular vowels, e.g. Cairene /bint-na/ bintı́na ‘our daughter’, like
+maktába.
+    Previous theoretical literature on these phenomena has concentrated primarily on two
+sets of issues: the divergent ways of resolving consonant clusters by epenthesis, and the
+problems of cyclicity and opacity raised by the Levantine dialects. Discussion of the first
+question was launched by Selkirk 1981 in the context of syllable theory with a proposal that
+stray consonants are assigned to onsets in CV-dialects, and to rimes in VC-dialects. In a
+variation on this approach, Broselow 1992 argued that stray consonants are linked to syllable
+nodes directly in CV-dialects, and via moras in VC-dialects. A rather different approach
+was initiated by Itô 1986, 1989, and further developed by Farwaneh 1995. They suggested
+that CV-dialects syllabify left-to-right, and VC-dialects syllabify right-to-left. Mester and
+Padgett 1994 noted that this processual formulation can be translated into constraint-based
+terms by means of alignment constraints.
+   Research on the second complex of issues began with Brame (1974), who noted that
+in Levantine dialects the blocking of syncope is systematically predictable, and proposed a
+cyclic analysis to explain it. It was continued by Kenstowicz and others, and recently by
+Kager 1999, who worked out an OT renalysis using Output/Output constraints, and also
+proposed a transderivational analysis for the problem of opaque stress.
+    In the analysis to be developed below I claim that the dialects differ in whether they
+license unsyllabifiable consonants by moras adjoined to the prosodic word.5 I will refer to
+consonants so licensed as semisyllables. Formally, semisyllables arise where a constraint
+License-, which requires all moras to be licensed by syllables, is outranked by markedness
+constraints on the form of syllables and feet. The syllabic typology introduced above can be
+reconstructed in terms of the level at which semisyllables are licensed: (1) C-dialects allow
+semisyllables both at the word level and postlexically, (2) VC-dialects allow semisyllables
+only at the word level (License- is undominated postlexically), and (3) CV-dialects allow no
+semisyllables at any level (License- is undominated everywhere). I show that this analysis
+is superior to the directionality/alignment approach to Arabic syllabification and eliminates
+the O/O constraints that have been proposed for the cyclicity and opacity phenomena.
+    Such theoretical interest as the analysis developed here may have lies primarily in two
+aspects. First, it provides evidence for the violable character of Strict Layering, and in
+particular for moras that are unaffiliated with syllables. Secondly, it is incompatible with
+fully parallel OT, because it crucially requires distinct constraint systems for word phonology
+and sentence phonology, which moreover must interact in serial fashion. Thus, if the analysis
+is correct, it constitutes support for a constraint-based version of Lexical Phonology and
+Morphology (LPM).
+   The main features of the specific model of constraint-based LPM that I will assume are
+the following:
+
+    • Stems, words, and sentences are characterized by distinct constraint systems.
+
+    • These constraint systems are serially related.
+
+    • Morphology and phonology are cyclically interleaved in each domain.
+
+    • I/O constraints are the only type of correspondence. constraint.
+
+I refer to this as LPM-OT. In Kiparsky (to appear) I argue that LPM-OT does a better
+job of explaining morphology/phonology interactions, and opaque constraint interactions,
+than parallel OT with an enriched correspondence theory. Trading in sympathy constraints,
+Output/Output constraints, and Paradigm Uniformity constraints for the intrinsic seriality
+of domains improves descriptive adequacy, and leads to gains in learnability, naturalness,
+and typological restrictiveness. Just as LPM solves OT’s problems with synchronic analogy
+and opaque constraint interactions, so OT helps LPM complete its synchronic program of
+modeling the lexicon and the morphology/phonology interface and its diachronic program of
+providing the basis for a theory of analogical change. In the cited work I support these claims
+   5
+      This is a preliminary hypothesis made for the sake of concreteness. The question where unsyllabifiable moras
+are adjoined requires more study. On general grounds one would expect them to be adjoined as low as constraints on
+the form of prosodic constituents allows, since that minimizes violations of strict layering. Adjunction to the prosodic
+word would be motivated by a constraint against the resolution of moraic trochees. A reviewer point out that adjunction
+to a foot entails that unsyllabified moras could never occur between two syllables that form a foot (provided adjunction
+is allowed only to the edges of constituents). I believe this is true for Arabic; in Mohawk and Passamaquoddy, where
+Hagstrom argues for adjunction to feet, precisely that structure is motivated. For more on the locus of adjunction see
+below.
+with analyses of the principal benchmark phonological systems of the recent theoretical
+literature, as well as several that are new to it.
+   An important strand of evidence for LPM-OT is that it helps realize the typological goals
+of OT phonology. Crucially, an important site of cross-linguistic and dialectal variation
+is whether a markedness constraint is active in stems, in words, or postlexically, which
+determines its domain and interaction with other constraints.
+   It is sometimes claimed that that parallel OT is more restrictive than serial models.
+That is true only if correspondence theory is restricted to I/O constraints. When augmented
+with sympathy constraints, O/O constraints, and/or with Paradigm Uniformity constraints,
+parallel OT is not more restrictive than LPM. It is just different, and the differences are
+uniformly to its disadvantage.
+    While the present paper assumes LPM-OT, and its results add a measure of support to
+that framework, its main purpose is not to compare it with parallel OT or with rule-based
+serial theories. It is primarily about syllable theory and the syllable structure of Arabic
+vernaculars.
+
+
+2 Semisyllables
+Generalizing the Exhaustive Syllabification principle of Selkirk 1981, the Prosodic Licensing
+principle formulated by Itô 1986, 1989 requires that every segment must be assigned to a
+higher-level prosodic constituent. A stronger licensing requirement, Strict Layering, requires
+that every nonhighest prosodic or metrical element must be in its entirety a constituent of
+an element belonging to the next higher category on the prosodic hierarchy (Nespor and
+Vogel 1986:7):
+
+  [3]   a. A given nonterminal unit of the prosodic hierarchy, Xp , is composed of one or
+           more units of the immediately lower category, Xp−1 .
+        b. A unit of a given level of the hierarchy is exhaustively contained in the superor-
+           dinate unit of which it is a part.
+
+   In the OT perspective, higher-ranked constraints could force violations of Prosodic Li-
+censing and Strict Layering. “Floating” elements are presumably violations of Prosodic
+Licensing, occurring when it is dominated both by markedness constraints (syllable struc-
+ture etc.) and by Faithfulness constraints. Such violations of Prosodic Licensing do not
+occur in Arabic, as far I can tell. But Strict Layering is, under certain conditions, violable
+in Arabic.
+     I assume the proposal of Selkirk 1995 that Strict Layering corresponds to a class of
+subconstraints which regulate the affiliation of elements in the prosodic hierarchy, and which
+are dominated but nevertheless visible in Arabic. Of particular interest here will be the two
+constraints License- and License-Segment, which respectively require that a mora must be
+affiliated with a syllable, and that a segment must be affiliated with a syllable. It is these
+constraints whose ranking determines the syllabic typology of Arabic vernaculars.
+  The claim that Strict Layering constraints are violable has respectable roots even in pre-
+OT work. Aside from extrametrical and floating elements, which violate Prosodic Licensing
+and a fortiori Strict Layering, several other types of prosodic representations which violate
+the latter constraint have been motivated by Itô and Mester 1992 under the heading of weak
+layering. For metrical constituency, Itô and Mester propose structures of the form [4].
+
+  [4]           ω
+
+                
+
+                            
+
+                           
+
+
+
+    Structures of the form [5], required for cliticization and compounding, respectively, also
+violate Strict Layering.6
+
+  [5] a.        ω                  b.       ω
+
+            ω                           ω       ω
+
+           X        clitic              X       Y
+
+
+   Itô and Mester claim that Strict Layering does hold between moras and syllables, and
+formulate a principle (“Mora Confinement”) which states that  can only be licensed by .
+This would be an unexpected restriction on their otherwise general hypothesis. I shall argue
+that the Weak Layering hypothesis holds in complete generality.
+     Violations of Weak Layering for moras require no novel constraints. The possibility is
+already inherent in the uncontroversial constraints of standard syllable theory. Suppose that
+Foot-Binarity, License-Seg (which requires that a segment be licensed by a syllable or mora)
+and the relevant Max and Dep constraints all dominate the requirement that a mora must
+be affiliated with a syllable (License- ). OT principles require, other things being equal,
+the representation which constitutes the minimal violation of the constraints. To avoid
+gratuitously violating Prosodic Licensing, a mora that cannot be affiliated with a syllable
+should be affiliated with the lowest possible superordinate prosodic category. In Arabic,
+affiliation of an unsyllabified mora with the next higher category foot would violate the
+otherwise undominated constraints on foot size. I will therefore assume that it is affiliated
+with the prosodic word, which is not subject to any size constraints (or at least not to any
+size constraints that would bar this affiliation).
+    Previous evidence for moraic licensing includes Hyman 1985 for Gokana, Zec 1988 for
+Bulgarian, and Buckley 1994, 6.4 for Kashaya. Moras that are prosodically licensed by ad-
+junction to a superordinate prosodic category offer a way to accommodate what an older
+phonetic tradition originating with Sievers has called semisyllables, or minor syllables, (Siev-
+ers’ Nebensilben). I shall adopt the term semisyllable here to denote such an unsyllabified
+   6
+     See Han 1994 for compelling arguments that these are in fact the correct representations, and additional evidence
+in favor of the Itô-Mester theory of weak layering.
+mora, without meaning to imply that all the things that have been called semisyllables are
+necessarily to be analyzed that way.
+    Semisyllables offer what is arguably the right representation for trimoraic trochees, in-
+cluding superheavy syllables and resolved trochees. Bye 1997 argues that Estonian and
+Saami superheavy (overlong, Q3) syllables have a third unsyllabified mora after the bimoraic
+core. He actually suggests that the unsyllabified mora in such sesquisyllabic structures is
+freestanding, but that does not seem to be an essential feature of his analysis.
+    In a number of Slavic languages, nonsyllabic sonorants occur ar word edges in positions
+where they violate the sonority sequencing constraint. For example, Russian words like [6a]
+are monosyllabic (as evidence from stress, versification, etc. shows). In Czech, word-initial
+liquids are nonsyllabic, while consonant+liquid sequences are syllabic (Rubach & Booij 1990).
+
+  [6]    a. Russian: mglá ‘mist’, rtá ‘mouth’ (gen.) (one syllable)
+         b. Czech: rty ‘lips’, rvát ‘pull’ (one syllable), srdce ‘heart’, zrno ‘corn’, vlna ‘wool’,
+            vichr ‘wind’, bobr ‘beaver’, bratr ‘brother’ (two syllables)
+
+In some Mon-Khmer languages, the canonical word structure is a sesquisyllable (a “1 12 -
+syllable”), carefully documented for Kammu by Svantesson 1983. Svantesson proposes that
+sesquisyllables are regular syllables with a prepended headless syllable (syllable with an
+empty nucleus, a minor syllable, in his terminology).7 A degenerate syllable treatment has
+been worked out by Shaw 1993 for Bella Coola semisyllables; Cho and King 1996, and this
+volume, also argue that some semisyllables are nonmoraic syllables.
+   A more minimalist view of semisyllables, in line with the proposal of this paper, is that
+they are unsyllabified moras. Sesquisyllabic structures, then, would be regular syllables with
+a prepended mora. Bagemihl 1991 suggests this analysis for Bella Coola, where semisyllables
+are not constrained by position or sonority.
+    I do not wish to claim that headless syllables are ruled out in principle; in fact, it is
+possible that they occur, in addition to both unsyllabified moras, in Kammu. Svantesson
+distinguishes between non-tonal and tonal semisyllables. Non-tonal minor syllables contain
+just a single consonant, with the possibility of an added schwa in careful speech, e.g. c.mccl
+‘to sow’. Tonal minor syllables are of the form CC-, where the second consonant is either a
+sonorant (e.g. hr.maal ‘soul’) or a reduplicated copy of the stem-final segment, which may
+be an obstruent (e.g. rt.yuut ‘bellows’). The former would be a semisyllable in my terms,
+the latter a degenerate (headless) full syllable.
+    One virtue of the interpretation of semisyllables as unsyllabified moras offered here is that
+it implies that they are not necessarily restricted to consonants. If Onset is also added to the
+set of constraints that dominate License-, then onsetless syllables will be avoided by treating
+onsetless vowels as semisyllables. Several researchers have indeed noticed that onsetless
+initial vowels tend to have a special prosodically defective status in various languages, of a
+kind that suggests that they are not syllables in their own right at least at some level of
+representation. Mutaka and Hyman 1990, in their study of Kinande reduplication, argue
+that there are only CV syllables at the stem level, and that unsyllabified moras join syllables
+at a later stratum (or postlexically). Downing 1998 pursues this analysis and relates it
+   7
+    Taking a maximalist position, van der Hulst and Ritter 1998 argue that sesquisyllables consist of two feet, each
+containing two degenerate syllables.
+to the Onset constraint of Prince & Smolensky 1993. Further evidence for the degenerate
+status of onsetless syllables has been presented by McCarthy and Prince 1993 and Odden
+1995. In terms of the constraints assumed here, a parse as unsyllabified moras follows
+straightforwardly from the constraint ranking in which Onset, Max, and Dep dominate
+License-.
+   The basic argument for treating semisyllables as unsyllabified moras is that it immediately
+explains their characteristic cross-linguistic properties:
+
+  [7]      a. Unstressed, toneless, or reduced tonal contrasts
+           b. Restricted segmental inventory
+           c. Can be less sonorous than syllable nuclei
+           d. Restricted shape (e.g. no onset, or no branching onset, no coda)
+           e. Sometimes restricted to peripheral position (typically word edges)
+            f. Prosodically invisible
+           g. Can be subject to minimum sonority requirement
+
+Precisely these properties hold for the second (nonhead) mora of syllabic nuclei. On the
+assumption that they are properties of non-head moras, the present proposal predicts them
+for semisyllables as well.
+    In the C- and VC- dialects, License- is ranked below the constraints that impose syllable
+and foot well-formedness, and below Reduce (Kirchner 1996, McCarthy 1999), which requires
+minimizing the duration of light syllables on the scale a > i,u > ∅ (in practice, in non-final
+position, because a dominant Alignment constraint preserves vowels at the right edge). This
+ranking will result in certain sesquisyllabic structures. For example, on /baab-ha/, /yi-ktib-
+u/, /?akl/, and /silaah. /, it imposes the syllabification [8] in the C-dialects, and, at the word
+level, in the VC-dialects as well:8
+
+  [8] Semisyllables in VC- and C-dialects:
+            ω                             ω                             ω                     ω
+
+                                                                                           
+
+                                                                                         
+
+                                                                                    
+         b a      b h a                y i k t b u                   ? a k l             s l a      h.
+
+
+Postlexically, VC-dialects epenthesize a vowel before moraic consonants under certain (partly
+variable) conditions, e.g. (yı́k)tµ .bu → (yi.ki)tµ .bu, (?ak)lµ → (?a.ki)lµ , and, optionally, in
+initial clusters that result from deletion, e.g. sµ .(laa)h. µ → (?is).(laa)h. µ .
+    The CV-dialects, where avoidance of semisyllables is a high-priority constraint, the syl-
+labification in [9] results instead, and is retained in the postlexical phonology:
+  8
+      For the moment, let us assume that the foot structure of all dialects of Arabic is organized into moraic trochees.
+  [9] In CV-dialects, moras must be affiliated with syllables:
+                  ω                        ω                           ω                       ω
+
+                                                                                           
+
+                                                                                        
+
+                                                                                      
+         b a b h a                y i k t i b u                      ? a k l           s i l a       h.
+
+
+    Crucially, moras which are not affiliated with syllables or feet do not count towards
+syllable weight or foot size. Therefore, all dialects that allow semisyllables permit what
+look like superheavy syllables, that is, on our analysis regular syllables with an adjoined
+semisyllable.
+    Additional evidence that unsyllabified and unfooted moras do not count for prosodic
+minimality is furnished by the relationship of epenthesis and lengthening in the dialect of
+Dēr izZōr spoken in Syria (Jastrow 1978:79-80, 87).9 Like most dialects of Arabic, Dēr izZōr
+categorically prohibits monosyllabic lexical words of the form (C)CV̌C. Such words would
+have only a single mora because an undominated constraint Final-C forces final consonants
+to be weightless. When the morphology forms such words, they are accommodated to the
+minimum word requirement in one of two ways. Either the root vowel is lengthened (see
+[10a]), or alternatively, a prothetic stressed i (or u, in back contexts) may be added, in
+which case the root vowel remains short (see [10b]). As in other dialects of this type,
+all initial clusters may optionally get a prothetic vowel. Because epenthesis is postlexical,
+the prothetic vowel is unstressable, hence does not count towards satisfaction of the word
+minimum. Therefore, lengthening takes place regardless of prothesis (see [10c]).
+
+ [10]      a. /kal/ kōl ‘eat’, /ktib/ ktēb ‘write’, /rkab/ rkāb ‘climb’, d. rāb ‘hit’ (2Sg.Masc.
+              imperatives)
+           b. ı́ktib ‘write’, ı́rkab ‘climb’, úd. rub ‘hit’
+           c. ˇskūn ∼ iˇskū´n (*iˇskún) “what”
+
+Thus, /ktib/ ‘write!’ has three possible pronunciations in the Dēr izZōr dialect: ktēb,
+iktē´b (lexical lengthening with optional postlexical epenthesis), and ı́ktib (lexical epenthesis).
+Impossible, on the other hand, are the following pronunciations: *ktib (too short), *iktı́b
+(with postlexical epenthesis the word still does not satisfy the lexical word minimum, with
+lexical epenthesis the stress is misplaced), *´iktēb (if postlexical epenthesis, it has the wrong
+stress, if lexical epenthesis, the vowel lengthening is unnecessary, constituting a gratuitous
+Dep violation).
+    Jastrow 1978 insightfully explains these and other data on the basis of a distinction
+between phonemic and phonetic epenthesis, which in this case is for practical purposes
+equivalent to our distinction between lexical and postlexical epenthesis. A similar idea
+figures in other traditional and structural grammars of Arabic as well.
+  9
+      See Behnstedt 1994:64 for traces of a similar system in the Syrian dialect of Soukhne.
+3 Overview of the analysis
+The syllable structure of the dialects differs in the ranking of License- in the word-level
+phonology. In the VC- and C-dialects, it is outranked by a number of faithfulness constraints
+(of both the Max and Dep type), by the markedness constraints Foot-Bin, License-C, and by
+Reduce (which minimizes the number of light syllables, specifically, because of dominating
+Align and Max constraints, of nonfinal light syllables with high vowels); in CV-dialexts, it
+dominates them. [11] and [12] show the basic idea in schematic form.
+
+ [11]
+         VC-dialects: Word level             Reduce      Max-         License-     ...
+         Input: [(baa)b]-ha
+         1a. ☞ (báa)bµ .ha                     **                         *
+         1b.      (bab).ha                      **           *
+         1c.      (báa).(bi.ha)               ***
+         Input: [ki.(táa)b]
+         2a. ☞ kµ (táa)b                                                  *
+         2b.      ki(táa)b                      *
+         Input: [(yı́k).(ti.bu)]
+         3a. ☞ (yı́k).tµ .bu                    *                          *
+         3b.      (yı́k).(ti.bu)                **
+
+ [12]
+         CV-dialects: Word level             License-      Reduce       Max- . . .
+         Input: [(baa)b]-ha
+         1a.      (báa)bµ .ha                    *              **
+         1b. ☞ (bab).ha                                          **            *
+         1c.      (báa).(bi.ha)                                 ***
+         Input: [ki.(táa)b]
+         2a.      kµ (táa)b                      *
+         2b. ☞ ki(táa)b                                         *
+         Input: [(yı́k).tib]u
+         3a.      (yı́k).tµ .bu                   *              *
+         3b. ☞ (yı́k).(ti.bu)                                    **
+
+Because of the low ranking of License- in VC- and C-dialects, they preserve the long vowel
+in /baabha/, and delete the syllable-final -i- in /fihimna/ and /yiktibu/, in each case forming
+an unsyllabified moraic consonant. In the VC-dialects, however, License- is promoted in the
+postlexical phonology, causing epenthesis of an unmarked vowel (i, or @, in those dialects that
+have it) before semisyllables.10 In the VC-dialects, the vowel is epenthesized before rather
+than after the semisyllable because of prosodic Faithfulness: it is the minimal modification
+  10
+     The quality of the epenthetic vowel varies but generally in a uniform way for medial, initial, and final syllables
+in a given dialect. The vowel is most often i (in Syrian @, sometimes ī or e), and under dialectally varying conditions
+it are liable to be assimilated to a back vowel in the preceding syllable, e.g. mnúqutlu ‘we’ll kill him’, rukub ‘riding’,
+šahar ‘month’ (Palestinian, Palva 1966:30, 53). Epenthetic vowels are “often pronounced as full vowels and as such
+are phonetically comparable with phonemic vowels occurring in the same positions.” (Palva 1966:42 ff.).
+that brings the word-level moraic (semisyllabic) parse into line with the language’s surface
+syllable canon. Thus, (yı́k).tµ .bu → (yı́.ki)tµ .bu, not (*yı́k).(ti.bu).
+    Non-final CVVC syllables that arise in the word-level phonology surface in all VC- and
+C-dialects, because these dialects license the third mora -C as a semisyllable ((báa).bµ .ha
+‘her door’). In the CV-dialects, License- ranks high at the word level, forcing violations of
+faithfulness constraints and phonological constraints, depending on their ranking. Most CV-
+dialects eliminate CVVC- syllables by shortening the vowel, e.g. /baab-ha/ → bábha. Some
+do it by epenthesis (baabiha), and some Middle Egyptian dialects accommodate superheavy
+syllables as is (baabha). These three subtypes of CV dialects arise by variation in ranking
+between the constraints Dep-µ, Foot-Bin, and Max-µ.
+    Phrase-initial onset CC- clusters are allowed only in VC- and C-dialects, e.g. sµ (laa)h. µ
+∼ (?is).(laa)h. µ , ‘plowshare, weapon’, vs. si.(laa)h. µ in CV-dialects. Syncope is allowed to
+create initial clusters only where their first consonant can be licensed as a semisyllable. The
+distribution of initial geminates is similar, e.g. Syrian (Mitchell 1993:92 ff.) /n-midd/ mmidd
+‘we extend’, /w-t-afaQ/ ttáfaQ ‘he agreed’ (infixed /t/), Moroccan /tte-kteb/ ttekteb ‘it was
+written’. The semisyllabic analysis of initial geminates is shown in [13].
+
+ [13]         ω
+
+              
+
+              
+
+                  
+        t    a f a Q
+
+
+In addition to the dialectal distribution of geminates, this representation accounts for their
+phonological properties. They are bimoraic, hence true geminates, as shown by the fact that
+they commonly arise by assimilation. While the first member is moraic, it is nonsyllabic,
+hence invisible to stress, and does not satisfy word minimality constraints. Because final
+consonants and the initial consonant of a geminate are both semisyllables, a hypothetical
+*mmut would have a monomoraic foot; therefore it is not a possible word.
+   Medial -CCC- clusters can be parsed in VC- and C-dialects by making the middle con-
+sonant a semisyllable, e.g. /gil-t-la/ → (word level) (gil).tµ .la → (postlexical) (gi.li)tµ .la in
+VC-dialects, but /?ul-t-lu/ → (?ul)(ti.lu) in CV-dialects.
+    “Metathesis” is restricted to VC-dialects. I follow a long tradition of Arabic phonology
+in treating “metathesis” as syncope followed by epenthesis (Mitchell 1960, Woidich 1974,
+Woidich 1980:211, Kenstowicz and Abdul-Karim 1980, Kenstowicz 1986, Broselow 1992).
+Syncope is driven by Reduce at the word level (/yiktibu/ → (yik)tµ .bu) and epenthesis
+is postlexical as before ((yik)tµ .bu → (yi.ki)tµ .bu).11 In CV-dialects, word-level syncope is
+blocked after clusters, because they do not allow the semisyllable needed to parse its output in
+conformity with Foot-Bin, hence /yi-ktib-u/ → (yik).(ti.bu). C-dialects simply have deletion
+without postlexical epenthesis. My analysis requires, and is in a sense a consequence of, the
+  11
+    Not all VC-dialects undergo “metathesis”. Dialects which otherwise have VC-phonology but retain the medial -
+CV- in cases like yiktibu are found in Mesopotamia and Anatolia, e.g. Mardin y@kt@būn ‘they write’ (Jastrow 1978:204),
+and the Gulf, e.g. Makkan yiktub, tiktubu (Jastrow 1980a).
+intrinsic serialism of levels in LPM. Any evidence for it will thus further support LPM-OT
+over parallel OT. The analysis of “metathesis” thus crucially depends on the serial relation
+between the word-level and postlexical phonology. The two constraint systems induce an
+intrinsic ordering /yiktibu/ → yı́k.tµ .bu → (yı́.ki)tµ .bu. This is also the key to our solution
+to the opacity and cyclicity problems.
+    High vowels delete after geminate consonants only in VC- and C-dialects: /y-kallim-u/
+y(i)kal(l)mu ‘they talk to someone’, vs. yikallimu in CV-dialects. Only in the former can the
+resulting superheavy syllable be prosodically licensed.12
+    The correlation of medial syncope, “metathesis”, and retention of superheavy syllables
+follows because deletion of light vowels and retention of superheavy syllables are prosodically
+licensed the same way; in VC-dialects they can apply more widely because semisyllables are
+allowed. Several intermediate forms VC- and CV-dialects are also attested, corresponding
+to the possibility of ranking License- at several points among the other constraints.
+    Phrase-final -CC clusters that violate sonority sequencing occur only in CV- and C-
+dialects, but their status is quite different in the two types. In VC- and C-dialects, the
+second C is licensed as a semisyllable at the word level, and in VC-dialects an epenthetic
+vowel is inserted before it, at least if the cluster violates sonority sequencing. E.g. the lexical
+representation of /akl/ is ?ak.lµ in VC-dialects and in C-dialects; the semisyllable is broken
+up by postlexical epenthesis in VC-dialects (?akil). In CV-dialects, on the other hand, the
+second consonant is parsed in the word phonology as a non-moraic stray consonant (an
+“extrametrical” consonant adjoined to the prosodic word), viz. ?akl; therefore epenthesis is
+inapplicable.
+    Desonorization of word-final consonants seems to be a trait of CV-dialects. It character-
+istically involves devoicing and glottalization, sometimes near-deletion. In Northern Yemen,
+the Western dialects break up final -CC clusters of rising sonority with an epenthetic vowel,
+a VC-dialect trait, e.g. /?ism/ → (?i)sim ‘name’, /?ibn/ → (?i)bin ‘son’. Those of the
+Eastern part seem to be of the CV-type, and lack epenthesis in -CC clusters. In these di-
+alects, final consonants, including sonorants, are glottalized after a long vowel and devoiced
+in clusters: V¯?C, -VCC. Jastrow 1980a:110 reports similar desonorization phenomena for
+Southern Yemen,˚ ˚ which ˚ also retain -CC. Epenthesis and desonorization thus seem to be in
+complementary distribution (Behnstedt 1985:14, 48, 58). In some Egyptian dialects, again of
+the CV-type, word-final consonants are devoiced and an intrusive glottal is heard, e.g. /-al/
+→ [a?l], /-ooz/ → [ō?s], Behnstedt & Woidich 1985, maps 41-43).13 This distribution can be
+    ˚˚
+understood    if we take desonorization to be a process that applies to non-moraic consonants,
+in terms of the syllable structure of VC- and CV-dialects proposed in [8] and [9]. Thus the
+boxed consonant in [14b] undergoes desonorization:
+
+  12
+      The geminate is postlexically shortened in many, perhaps the majority of dialects, often optionally (Mitchell
+1993:95-96); for some reason no CV-dialect has lexical degemination, which would allow deletion after geminates.
+   13
+      Turkish-style final devoicing, without glottalization, is naturally widespread in Anatolian and other Northern di-
+alects of Arabic, including those of the CV-type (Jastrow 1978). Nigerian Arabic glottalizes all prepausal segments in-
+cluding vowels (Owens 1993:21-22). Sudanese Arabic also has final glottalization, perhaps a substrate effect (Michael
+Redford, 1996 et voce).
+ [14]       ω                          ω
+
+                                      
+
+                                      
+
+                                       
+        ?   a   k    l             ?   a   k    l
+        (a) VC-dialects            (b) CV-dialects
+
+    That moraic consonants should tend to remain more sonorous than nonmoraic consonants
+makes good phonological sense, since moraic elements are known to be subject to sonority
+restrictions (Zec 1988).
+    Cyclic blocking of syncope, typified by the fihı́mna : fhı́mna contrast, is restricted to a
+group of VC-dialects. All Levantine dialects are said to have it (Mitchell 1993:156). To my
+knowledge it has not been reported for any CV-dialect, and this is predicted, for in CV-
+dialects, deletion cannot give rise to forms like fhı́m-na ‘we understood’ in the first place,
+so the question of blocking that deletion by lexically assigned stress does not arise. In C-
+dialects, Reduce outranks Max-V́, so that stem-level stresses do not protect vowels from
+deleting at the word level; thus these cyclic effects cannot surface. The next tableau shows
+the word level phonology of VC-dialects; the corresponding tableau for CV-dialects follows.
+
+ [15]
+        VC-dialects               . . . *Complex Max-[V́] Reduce License-         ...
+        1. Input: [(fı́.hi)mµ ] ‘he understood’ (unsuffixed): no change
+        2. Input: [fi.(hı́mµ )na] ‘we understood’ (stem level suffix)
+        2a.      fi.(hı́m).na                                   ***
+        2b. ☞ fµ (hı́m).na                                       **     *
+        2c.      (fhı́m).na                *                     **
+        3. Input: [(fı́.hi)m]-na ‘he understood us’ (word level suffix)
+        3a. ☞ fi.(hı́m).na                                      ***
+        3b.      fµ (hı́m).na                          *         **     *
+        3c.      (fhı́m).na                *           *         **
+
+ [16]
+        CV-dialects               . . . *Complex Max-[V́] License-       Reduce   ...
+        1. Input: [(fı́.hi)m] ‘he understood’ (unsuffixed): no change
+        2. Input: [fi.(hı́m)na] ‘we understood’ (stem level suffix)
+        2a. ☞ fi.(hı́m).na                                                 ***
+        2b.     fµ (hı́m).na                                      *         **
+        2c.     (fhı́m).na                 *                                **
+        3. Input: [(fı́.hi)m]-na ‘he understood us’ (word level suffix)
+        3a. ☞ fi.(hı́m).na)                                                ***
+        3b.     fµ (hı́m).na                           *          *         **
+        3c.     (fhı́m).na                 *           *                    **
+
+    Invisibility of epenthetic vowels to lexical constraints (such as stress and shortening) is
+restricted to VC- and C-dialects, because in these dialects stray consonants are licensed as
+semisyllables, so epenthetic vowels are not present at the word level.14 This results in surface
+violations of the otherwise inviolable requirement that the last non-final foot is stressed, e.g.
+/fihm-na/ → (word-level) (fı́h)mµ .na → (postlex.) fı́him-na ‘our understanding’. On the
+other hand, stray consonants cannot be licensed in CV-dialects (except word-finally), so
+they must receive an epenthetic vowels in the lexical phonology, which is necessarily visible
+to stress like any other lexical vowel. E.g. Cairene (?ul)(tı́.lu) ‘I/you (masc.sg.) said to him’
+is stressed like (mak)(tába).
+    In sum, apparent surface exceptions to stress arise when the conditions for lexical stress
+assignment are masked by postlexical epenthesis. A word like fı́him-na is disyllabic for pur-
+poses of the word phonology, including stress. The assumption that unsyllabifiable conso-
+nants are semisyllables in the lexical phonology of VC-dialects explains the opaque constraint
+interaction of stress and epenthesis.
+    The licensing of semisyllables in VC-dialects is subject to certain constraints. In or-
+der to derive ka(táb)tµ rather than *(káta)bµ tµ , and to exclude hypothetical forms with
+complex consonant clusters, we must assume that some constraint prohibits two adjacent
+semisyllables.15 This has a further consequence: the two middle consonants of a medial
+four-consonant cluster cannot be licensed as consecutive semisyllables. Epenthesis is then
+lexical, making the closed syllable visible to stress. In an input such as /kitab-t-l-ha/, -tl-
+cannot be parsed as two semisyllables, nor (since semisyllables are onsetless) as one. The
+cluster must therefore get a full syllable for all its consonants to be parsed. A full syllable
+requires a vocalic nucleus, therefore gets an epenthetic vowel, forming a closed syllable at
+the word level. Contrast:
+
+ [17]     a. /kitab-l-ha/ → (w.l.) ki.táb.lµ .ha → (postlex.) kitábilha ‘he wrote to her’
+          b. /kitab-t-l-ha/ → (w.l.) kitabtı́lha ‘I wrote to her’
+
+   In the following sections I motivate in more detail some aspects of the analysis just
+sketched out.
+
+
+4 Initial geminates
+Mitchell’s phonetic description of initial geminates in Arabic states clearly that they share
+with medial geminates the phonetic characteristics of length and tenseness: “All types of
+gemination reveal not only an increase of duration over non-gemination but also greater
+muscular tension and pulmonary pressure, a more extensive spread of tongue-palate contact,
+increased loudness of adjoining vowels and ‘incisiveness’ of on- and off-glides (especially in the
+case of plosive consonants), as relevant phonetic characteristics.” (1993:92). “An epenthetic
+vowel may be heard initially in most cases of initial gemination but it is never essential and
+is better omitted in the [Moroccan, Iraqi, and Levantine] vernaculars. . . ” (ibid.) Owens
+  14
+      Nevertheless, there are some VC-dialects in which epenthesis is lexical under some conditions, particularly in
+the case of clusters which violate sonority sequencing. In these dialects, a constraint requiring sonority peaks to be
+syllable heads has been promoted in the lexical phonology.
+   15
+      A reviewer suggests that a parallel to this constraint can be found at the level of syllables. There are languages
+that permit single unfooted syllables, but force two adjacent unfooted syllables to form a foot. Similarly, in Arabic,
+two adjacent unsyllabified moras must form a syllable, forcing epenthesis of a nucleus.
+(1984:26) similarly states that gemination in Eastern Libyan “may have a realization as
+glottalization or an increased length on an initial consonant, the latter realization common
+before voiceless consonants and nasals”.
+    Initial geminates constitute fairly direct evidence for unsyllabified moras. Given that that
+assimilation is the spread of a melody over timing slots or syllabic positions, an assimilated
+geminate must be affiliated with two such positions. In a medial geminate, these positions
+are the coda of one syllable and the onset of the next, or, in the most popular version
+of the moraic theory, the second mora of one syllable, and the syllable node of the next.
+Onset geminates must have some extra syllabic position, and under standard assumptions,
+this can only be a mora. (It cannot constitute a syllable of its own, since the geminate
+consonant does not function as a syllable peak.) This mora must be affiliated with the foot
+or the word, presumably depending on whether it adds weight. Thus moraic theory requires
+representations like [18a] for medial geminates, as in a hypothetical word atto, and [18b] or
+[18c] for initial geminates, as in tto.
+
+ [18] a.               b.                 c.        ω
+
+                                                   
+
+         a     t o                                   
+                                  t o                  
+                                                      t o
+
+
+   If we adopt this representation of initial geminates for Arabic we can immediately explain
+why their distribution correlates with the distribution of initial clusters. In Arabic, initial
+geminates are restricted to C-dialects and to those VC-dialects that allow initial clusters. In
+CV-dialects, initial clusters are categorically excluded.
+
+ [19]   a. CV-dialects: Egyptian kitaab ‘book’ (*ktaab), siláah. ‘plowshare’, katábt ‘I wrote’,
+           fihı́mt ‘I understood’
+        b. VC-dialects: Levantine ktaab ∼ ?iktaab ‘book’, sláah. ∼ ?isláah. ‘plowshare’, claab
+           ∼ ?iclaab ‘dogs’ (Iraqi, Erwin 1963:), kt@bt ‘I wrote’ (Syrian, Grotzfeld 1980:177),
+           fhı́m(i)t ‘I understood’.
+        c. C-dialects: ktebt ‘I wrote’, fžemb t. t. reeq ‘at the side of the road’, lh. em žžmel
+           ‘camel meat’, flQˇsiya ‘in the evening’ (Moroccan, Mitchell 1993:62-65), ktibt ‘I
+           wrote’, klāb ‘dogs’ (Tunis) nh. rag ‘he was burned’ (Mzāb), ktabt ‘I wrote’ (Beng-
+           hazi) (Singer 1980:257, 255, 260).
+
+    Many initial geminates arise by assimilation of consonantal prefixes or infixes to stem-
+initial consonants ([20a-g]). In Maghrebi dialects, initial [tt-] seems to mark passive verbs
+([20h-i]) and stative verbs ([20j]).
+ [20] a.   /b-baal-a/          bbáala        ‘in his mind’ (Iraqi)
+      b.   /l-landan/          llandan        ‘to London’ (Iraqi)
+      c.   /w-walad-ha/        wwaládha      ‘and her son’ (Iraqi)
+      d.   /b-fuut/            ffuut          ‘I go in’ (Syrian)
+      e.   /l-rjaal/           rrjaal         ‘the men’ (Syrian)
+      f.   /l-šriik/         ˇsˇsriik        ‘the partner’ (Syrian)
+      g.   /w-t-afaQ/          ttáfaQ        ‘he agreed’ (infixed /t/) (Syrian)
+      h.   /tte-d. r. eb/       tted. r. eb   ‘it was beaten’ (Moroccan)
+      i.   /tt-s. ab/           tts. ab       ‘it was found’ (Moroccan)
+      j.   /t-t. eelleb/       t. t. eelleb   ‘to be a mediocre student’ (Algerian, Singer 1980:264-5)
+
+CV-dialects admit no initial consonant clusters, hence in particular no initial geminates, so
+prothetic [?i-] is obligatory in cases comparable to [20]. Similarly, those VC-dialects that
+avoid word-initial clusters tend to have obligatory prothesis before initial geminates, e.g.
+Cyrenaican Bedouin.
+   Therefore, I take the parallelism between initial geminates and consonant clusters as
+support for the semisyllable analysis.
+    Could the parallelism be accounted for without invoking mora theory? Owens’ (1980)
+structural analysis of Eastern Libyan is one analysis which attempts to do that. He takes the
+first member of an initial geminate as the realization of a vowel “v”, which is the epenthetic
+vowel here written i. [21a] is his representation of an initial geminate, and [21b] shows a
+variant articulation where the first member is replaced by a glottal:
+
+ [21] a.   j j lu:d ‘skins’         b. ? t tikállam ‘you m. speak’
+
+           v CC                        v CC
+
+To update something like Owens’ analysis, we would have to reintroduce CV slots or X-slots
+into phonological representations (Clements and Keyser 1983, Levin 1985), and that is just
+what Hume, Muller, and van Engelenhoven 1997 advocate. With one crucial exception, their
+data on Leti gemination is very similar to the Arabic data discussed here, but they arrive at
+a different conclusion. In both languages, geminates pattern distributionally with consonant
+clusters (in Leti, geminates and clusters occur underlyingly only in word-initial position).
+They arise in medial as well as initial position by assimilation of adjacent consonants, and
+unlike other two-consonant sequences, may not be broken up by epenthesis (for Arabic, see
+Abu-Salim 1980) — evidence that they have a single root node. And in both languages,
+initial geminates do not count towards the weight of the syllable that follows.
+   Hume, Muller, and van Engelenhoven nevertheless reject representations such as [18b,c].
+The reason has to do with an optional postlexical process which “downgrades” the prosodic
+prominence of the first of two syntactically related words, with certain concomitant vowel
+reduction processes. Words with long vowels and words with geminates, including inital
+geminates, cannot undergo this Downgrading process. Hume, Muller, and van Engelenhoven
+capture this restriction with a Length-to-Prominence constraint which requires a long seg-
+ment to be in a prominant domain, and plausibly suggest that its functional motivation is to
+prevent the merger of durational contrasts. They then state that this constraint is inconsis-
+tent with the moraic (‘semisyllabic’) representation of geminates: “Since a mora unattached
+to a syllable node would not contribute to syllable weight, a geminate-initial syllable would
+again not be predicted to pattern with long vowels in terms of weight. Note that this same
+problem would arise if the extrasyllabic mora were linked to a node higher than the syllable,
+e.g. foot, phonological phrase.”
+     Actually, there is no difficulty with the moraic representation if we distinguish carefully
+between segment length and syllable weight. Let us say that a segment is long if it is
+affiliated with more than one timing slot (mora or syllable). And let us say that a syllable
+is heavy if it has more than one mora (and, of course, superheavy if it has more than two
+moras). Then the initial consonant in [18b] is long (bimoraic), but the first mora that it is
+affiliated with does not contribute to syllable weight, because it is not part of the syllable.
+The Length-to-Prominence constraint can then be stated in terms of segment length, exactly
+as Hume, Muller, and van Engelenhoven have it, and it will correctly refer to long vowels
+and geminates, including initial geminates.
+    A second objection that Hume, Muller, and van Engelenhoven raise to the moraic rep-
+resentation [18b] is that it violates Prosodic Licensing. But this is the case only if the
+unsyllabified mora is stray. Since the unsyllabified mora can be affiliated with a higher
+prosodic category, as they recognize in the passage quoted above, this objection does not
+seem valid either.
+    My proposal immediately entails that there could exist languages in which initial gem-
+inates are not only long but weight-bearing as well. These would be languages in which a
+stray mora is associated at the syllable level, or perhaps at the foot level. Hart 1991 shows
+that Trukese is a case of just this type (see also Davis 1998). Like Arabic, Trukese has a
+bimoraic word minimum and an undominated constraint that requires final consonants to
+be weightless. Because final consonants do not contribute to syllable weight, words like maa
+‘behavior’, tiip ‘emotions’ are possible, wheras words like *ba, *ban do not occur. Yet words
+with initial geminates allow both of these otherwise forbidden rhyme types, e.g. tto ‘clam
+sp.’, ffen ‘advice’. The conclusion is that in Trukese, initial geminates contribute to prosodic
+weight, and that the weight-bearing mora must be contained within the prosodic category
+in terms of which the minimality constraint is stated. Supposing this to be the foot, the
+structure of tto in Trukese would be as was shown in [18b].
+    A second, similar case would be Piro (Lin 1997). Lin works out a moraic licensing analysis
+of stray consonants, including initial geminates. Since Piro has compensatory lengthening
+effects, the semisyllables would be have to be associated at the foot level, according to what
+I said above. This appears to be compatible with Lin’s analysis, though Lin opts for the
+alternative affiliation at the prosodic word level.16
+
+
+5 Sonority, syllabicity, epenthesis
+Nearly all CV- and C-dialects allow phrase-final -CC clusters.17
+
+  16
+      Interestingly, Lin’s analysis depends on cyclic constraint evaluation. However, Lin assumes that all segments are
+redundantly moraic in underlying representations, which seems incompatible with Richness of the Base.
+   17
+      Final -CR clusters of rising sonority are avoided under some conditions, even if they are not categorically excluded
+(Cohen 1975:80).
+ [22]     a. CV-dialects: katábt ‘I wrote’, ?akl ‘food’, gabr ‘algebra’ (phrase-finally), but ?akli
+             mas. ri ‘Egyptian food’.
+          b. C-dialects: ktebt ‘I wrote’, Moroccan s. t. h. ăqt ‘I needed’, rebh. ‘winning’, žeˇsm
+             ‘body’ (Mitchell 1993:70 ff., Cohen 1975:74 ff.)
+
+With regard to their treatment of phrase-final -CC clusters, VC-dialects fall into two areally
+discontinuous groups. The first group of dialects permits phrase-final -CC clusters only if
+they satisfy the sonority sequencing principle. Most Levantine dialects are of this type. The
+typical VC-dialect pattern is illustrated by the following examples from Tripoli (Kenstowicz
+and Abdul-Karim 1980):
+
+         a.   /h. ilm/ h. ilm       ‘dream’      h. ı́lim-na 3.Pl.Poss.     h. ı́lm-ak 2.P.Poss.
+ [23]
+         b.   /himl/ hı́mil         ‘load’       hı́mil-na                  hı́ml-ak
+
+A second group of VC-dialects permits no phrase-final -CC clusters at all. For example,
+Baghdad Christian Arabic (Abu-Haidar 1991) epenthesizes @ into a final cluster irrespective
+of sonority, and there seems to be no evidence of an underlying contrast between /CVC@C/
+and /CVCC/:18
+
+ [24]     a. kál@b ‘dog’, b@n@t ‘girl’, ˇs´@γ@b ‘drink’
+          b. @
+             ´ s@m ‘name’, más. @ ‘Egypt’, qám@l ‘lice’
+
+In Baghdad Jewish Arabic, on the other hand, epenthesis is sensitive to the sonority profile
+of the final cluster, and /CVC@C/ contrasts lexically with /CVCC/ (Mansour 1991:101 ff.):19
+
+ [25]     a. /b@nt/ b@n@t ‘daughter’, /b@nt-a/ b´@nta ‘her daughter’
+          b. /ban-@t/ ban@t ‘she built’, /ban@t-a/ bn´@ta ‘she built it (F.)’,
+
+    A number of writers report stylistic and sociolectal variation as to epenthesis in -RC
+clusters of falling sonority: (Palva 1966:35 and passim, Mitchell 1993:86 f., Haddad 1984).20
+
+ [26]     a. /bint/ bint ∼ binit ‘daughter’, /fhim-t/ fhimt ∼ fhimit ‘did you understand?’,
+             /dars/ dárs ∼ daris ‘lesson’.
+          b. /h. ı́lm/ h. ı́lim ‘dream’, /jı́bn/ jı́bin ‘cheese’.
+
+    A second point of variation is whether the inserted vowel counts for stress or not. In
+all CV-dialects, epenthetic vowels behave with respect to stress like ordinary vowels. In the
+majority of VC-dialects, epenthetic vowels are invisible to stress, both in that they do not
+get stressed themselves, and in that the syllable they head is ‘skipped’ in the calculation
+of stress. This is the case, for example, in Baghdad Jewish and Christian Arabic ([27a],
+Abu-Haidar 1991:34), and in the Anatolian dialect of Mardı̄n ([27b], Jastrow 1980b:144).
+  18
+      Similarly the Egyptian dialects of the Eastern Delta region (Behnstedt & Woidich 1985, map 51).
+  19
+      It appears that there is no covert contrast in those contexts in which epenthesis is obligatory, i.e. basically in
+clusters of rising sonority.
+   20
+      According to Palva 1966:36, “the pronunciation of a consonant as syllabic [moraic, in my terms P.K.] is often
+heard in [Lower Galilean Palestinian] in elevated style and in learned borrowings. In colloquial, however, an epenthetic
+vowel is pronounced before a syllabic consonant.”
+ [27]     a. kál@b-ki ‘your dog’, b´@n@t-k@m ‘your daughter’ @
+                                                              ´ s@m-na ‘our name’
+          b. ák@l-na ‘our food’, ´@b@n-ki ‘your (f.) son’
+
+But there are dialects in which the epenthetic vowel obligatorily counts for stress:
+
+ [28] ak´@l-na ‘our food’, @b´@n-ki ‘your (f.) son’ (Qartmı̄n, Jastrow ibid.):
+
+In Baghdad Moslem Arabic, as well as in some Palestinian dialects, there is variation with
+respect to this point, with penult stress an option, e.g. /gil-t-la/ gı́litla ∼ gilı́tla ‘I said to
+him’, ák@lna ‘our food’ > ak´@lna, yúdurbu ‘he hits him’ > yudúrbu (Blanc 1953:28-29, Palva
+1966:53, Erwin 1963, Mitchell 1993:82,194).
+    An epenthetic vowel that is stressable must be inserted lexically, either at the stem level
+or at the word level. We will assume the latter, though reanalysis of stem-level (underlying)
+representations should be kept in mind as a possibility (as suggested by Hamid 1984 for Su-
+danese nominal stems). In either case, we predict that such dialects will show no postlexical
+distinction between /CVC@C/ (or /CVCiC/) and /CVCC/. This prediction seems to be true
+in general.21
+     An interesting test case appears in the Palestinian dialect of the speaker studied by
+Johnson 1979. Here epenthesis shows special behavior in two specific classes of words.
+The larger consists of some morphologically defined types of nouns in -CC which undergo
+regular epenthesis even when the cluster is not of rising sonority. For stress and postlexical
+phonology, the vowel nevertheless counts as epenthetic. These include infinitives and active
+participles, e.g. dáres ‘studying’, versus the phonologically expected dárs ‘lesson’, and plurals
+of adjectives of color and defect, e.g. zorQ ‘blue’ (pl.). For this speaker, then, the moraic
+parsing of the final consonant in these specific classes of words is fixed lexically, perhaps
+in observance of some templatic constraint; adjectives of color and defect notoriously show
+a rigid template and special morphophonological behavior in Arabic.22 The second set is
+very small, and contains obligatorily just the word kotob ‘book’ (and optionally also málek
+‘king’). Here the vowel of the second syllable is invisible for purposes of word stress, like
+a normal epenthetic vowel (kótobna ‘our book’, like fóronna ‘our oven’), but it functions
+like an underlying vowel in the phrasal phonology (kótob el wálad ‘the boy’s book’, versus
+fórn el wálad). From the present point of view, this exceptional word must involve a lexical
+alternation between a bound allomorph /kotb/ in kótobna and a free allomorph /kotob/ in
+kótob el wálad.
+    The North African C-dialects would require special study, but a few inconclusive remarks
+may not be out of place here. According to phonetic descriptions, medial three-consonant
+clusters are either retained without epenthesis (yilbsu, yiktbu), or get a furtive phonetic
+transitional vowel on one or the other side of the middle consonant yı́k@tbu, yı́kt@bu (Fischer
+& Jastrow 1980:65, Singer 1980:255). The latter happens typically when the cluster contains
+a sonorant or guttural, e.g. (Mauretanian) y@z@rgu ‘they (will) ask’, y@d@h. lu ‘they (will)
+enter’, y@r@dfu (Cohen 1963:90).23
+  21
+      Epenthetic vowels count for stress in Soukhne Syrian (Behnstedt 1994) and in some parts of Upper Egypt (Behn-
+stedt & Woidich 1985, map 3).
+   22
+      For example, in Eastern Libyan they are systematically stressed on the initial syllable, unlike other words: hábal
+‘foolish’, but kitáb ‘he wrote’.
+   23
+      Cohen 1963 considers the transitional vowels to be phenomena of phonetic implementation, endorsing Can-
+tineau’s statement that “phonologiquement, elles n’ont aucune existence réelle et sont tenues pour zéro par les sujets
+   When no epenthesis takes place, what is the syllable structure? One possibility is that
+consonants can be syllable peaks, at least on the phonetic level (Zawadowski 1978:50-51).
+Alternatively, the long consonant sequences of these dialects could be considered clusters
+rather than syllables (Mitchell 1993:72). The representation suggested here raises a third
+possibility, that they are moraic but unsyllabified consonants, i.e. semisyllables.
+    Auditorily, these dialects certainly have vowelless peaks. See Harrell 1962, where various
+analyses including voiceless schwa and empty nuclei are considered. In songs,24 consonants
+(at least sonorants and voiceless fricatives) readily occupy beats. This could point to syllabic
+status, but a semisyllabic analysis cannot be excluded a priori.
+    My methodological starting point is that phonological rather than phonetic evidence is
+the key to the answer. Syllable structure, like stress, is a matter of prosodic organization and
+is not necessarily manifested directly in any single phonetic dimension. From comparative
+Slavic phonology (Liewehr 1967) it is clear that the difference between, say, a semisyllabic
+r and a syllabic r is not reliably identifiable from the phonetic record alone. The decisive
+considerations are whether it can or cannot be stressed, whether it can have an onset, whether
+it contributes to syllable and foot weight, etc. Moreover, a segment can be nonsyllabic in the
+lexical phonology and syllabic in the postlexical phonology, as the m of English rhythm.
+    Phonological evidence of this kind is not easy to come by. However, there are indications
+that sonorants can be syllable nuclei in Maghrebi Arabic, at least on some level. First, they
+can constitute the most sonorous segment of a word, as in Moroccan /d@rb/ [drb] ‘cul-de-
+sac’ (Mitchell 1993:63). If the r in this word were not syllabic, then the word would" have no
+syllable, or an empty nucleus, both options problematic. Secondly, sonorants are stressable,
+e.g. Marrakshi mˇs´rbtha (Mitchell 1993:201).
+                    "
+    Conversely, it seems that no word can consist entirely of obstruents, and that obstruents
+apparently cannot be stressed, so we might conclude that obstruents cannot form syllable
+peaks in Maghrebi, at least at the phonetic level. If obstruents could be syllabic, they should
+be capable of having onsets, and given these dialects’ preference for closed syllables, they
+should have codas as well, predicting the possibility of words like *ktb, which do not seem
+to occur.
+  Cohen 1963:128 describes the following variation pattern for phrase-initial sonorants in
+Mauretanian Arabic.
+
+ [29] a.      @nžr. ah. t *nžr. ah. t      ‘I have been injured’
+      b.      @nžar. @h. @t nžar. @h. @t   ‘she has been injured’
+
+On the assumption that Cohen’s transcription @n represents syllabic [n] as described by
+Mitchell and others, and that n in a sonority peak position is a semisyllable,  "     the distribu-
+tion in [29] could be understood in the following way. Syllabification is obligatory before
+-CCV , because the nasal must be a syllable nucleus if it has to support a coda consonant,
+viz. nž.r. @h. @t. Otherwise it is optionally syllabified, or remains a semisyllable (n.žar. @h. @t ∼
+      " @h@t). Under the assumptions stated, this would indicate variation between
+nµ .žar                                                                               " syllabic
+       . .
+parlants qui souvent n’ont pas conscience de les prononcer.” (Cantineau 1946:179). Nevertheless, Cohen notes that
+the transitional vowel can be phonetically identical to phonemic @, though it never gets stressed in environments where
+a regular vowel would be stressed.
+   24
+      For example, in recordings by the Algerian singer Dahmane el Harrachi.
+and semisyllabic parsing of sonorants in sonority peak position, except when other constraints
+on syllable structure make the syllabic parsing obligatory.
+    Cohen also cites the following remarkable data for Mauretanian, virtually a reversal
+between underlying and output forms. In the 3SgM perfect, the citation form is monosyllabic
+(kt@b ‘he wrote’), but in context a prothetic @ is usually inserted, unless the preceding word
+begins with a vowel, viz. @kt@b. In the imperative, the citation form is on the contrary
+disyllabic (@kt@b ‘write!’), but the most frequent pronunciation in running speech, in all
+contexts, is monosyllabic kt@b. If the citation form is taken as the underlying form, we are
+in trouble, for how can we have /kt@b/ → @kt@b and at the same time /@kt@b/ → kt@b?
+    We can make some sense of this by positing the respective underlying forms /k@t@b/
+‘he wrote’ and /kt@b/ ‘write!’, with lexical epenthesis to @kt@b. The citation form can be
+identified with the output of the word-level phonology, derived by imposing on the underlying
+form the previously discussed constraint Reduce that bars light syllables. In the phrasal
+context, the perfect’s initial C is joined into a syllable with a preceding vowel. The imperative
+is not subject to phrasal resyllabification, presumably because it initiates its own intonational
+group (as in English and in most languages), and only undergoes optional reduction to a
+monosyllable:
+
+ [30]                     underlying       w.l., citation      C        V
+         Perfect          /k@t@b/          kµ .t@b             C@k.t@b Vk.t@b ‘he wrote’
+         Imperative       /kt@b/           @kt@b                 @kt@b ∼ kµ .t@b ‘write! (MascSg)’
+
+   I tentatively conclude that sonorants in Maghrebi dialects may be syllabic if they are
+sonority peaks, and that they are otherwise at least optionally retained as semisyllables.
+
+
+6 Opaque shortening of medial CVVC
+The subject agreement endings in Arabic are introduced at the stem level of the lexical
+phonology, while object endings are word level. Before consonant-initial subject endings,
+the long vowel of CVVC- syllables is obligatorily shortened in all Arabic dialects, regardless
+of whether the final cluster is subject to epenthesis or not, e.g. Iraqi /gaal-t/ gilit, Egyptian
+/qaal-tu/ qultu ‘I said’.25 So *CVVC syllables are categorically prohibited everywhere in the
+stem-level phonology. More generally, the Ft-Bin constraint that prohibits feet exceeding
+the two-mora limit is undominated at the stem level.
+    The relationship between shortening before subject endings and epenthesis is opaque in all
+dialects (counterbleeding). For example, the 1.Sg. form corresponding to ˇsaaf ‘he saw’, ˇsif-na
+‘we saw’ is ˇsift or ˇsuft; there are no dialects with forms such as *ˇsaaf-it ‘I saw’. This follows
+from the consonantal underlying form of the ending /-t/, if subject endings are assigned at
+the stem level in all dialects (as other facts of the phonology and morphology independently
+show). Epenthesis, on the other hand, is active only in the postlexical constraint system, or
+in some dialects at the word level, and therefore in either case intrinsically follows shortening.
+  25
+     Long -aa- is shortened to i or u, or, in dialects that neutralize high vowels, to @. Historically, these long vowels
+are derived from -VCV- roots by loss of a medial glide or laryngeal, whose color originally determined the quality of
+the shortened root vowel.
+    With regard to the treatment of CVVC- syllables before object clitics and other word-
+level endings, dialects differ. VC- and C-dialects always retain the long vowel, or shorten it
+variably at the postlexical level,26 and CV-dialects show three different treatments: shorten-
+ing, epenthesis, and retention of the long vowel:
+
+ [31] /báab-ha/ ‘her door’
+
+          a. VC- and C-dialects: báabha
+         b. CV-dialects
+               1. Shortening: bábha (Cairo, Delta)
+               2. Epenthesis: bàabiháa (alFarāfira, adDāxila), báabaha (Mecca)
+               3. Retention of CVVC-: báabha (Middle and Northern Upper Egypt, ilBah. ariyya)
+
+    In addition to object endings and possessive endings, a second class of word-level closed
+syllable shortening environments arises when medial syncope before vocalic word-level suf-
+fixes creates closed syllables, which are then shortened if long in the CV-dialects (Woidich
+1980:213, Abu-Mansour 1991):
+
+ [32]     a. CV-dialects: /kaatib-a/ → katba ‘having written’ (fem.), /s. aah. ib-a/ → s. ah. ba
+             ‘female friend’
+         b. VC-dialects: /kaatib-a/ → kaatba, /s. aah. ib-a/ → s. aah. ba
+
+The dialectal distribution of this second type of shortening tallies very closely with that of
+the first, as we would expect.
+    Next consider dialects where superheavy syllables that arise by morphological combina-
+tion are eliminated by epenthesis, with preservation of the long vowel. They include two
+oasis dialects in Egypt (dialects (3e) and (3f) in [1]), and Makkan, where the epenthetic
+vowel is a, e.g. /Qumr-ha/ → Qumraha, /šuf-t-ni/ → šuftani (Abu-Mansour 1991:141).
+    The third solution is found in Middle Egyptian CV- dialects. In these dialects, superheavy
+syllables occur, but the restrictions on consonant clusters are the same as in other dialects
+(baabha but yiktibu). A similar system is found in Makkan (Abu-Mansur 1991).27
+   Typically, CVCC and CVVC syllables have a parallel status, and syllabification works to
+avoid both. Yet CVCC and CVVC do not behave in exactly the same way in all dialects; the
+former are more restricted. Also, syncope is allowed more readily after geminates than after
+other CC clusters, for shortening of long vowels and of geminates is a way of accommodating
+the syllable structure without incurring a melodic Max-violation. This is an instance of a
+“lookahead” effect of the sort that OT makes sense of.
+    The interplay of epenthesis and shortening in the resolution of overlength gives a measure
+of support for the LPM-OT approach to constraint interaction. Farwaneh (1995:152) notes
+that monomorphemic -CV endings, bimorphemic -C-V endings, and bimorphemic -C-CV
+  26
+     In the Mesopotamian q@ltu-dialects it is an optional allophonic process, according to Jastrow 1978:212-213.
+  27
+     Interestingly, this class of Egyptian CV-dialects (Behnstedt & Woidich 1985, map 74) includes all those dialects
+that lengthen all vowels under stress, apparently non-phonemically (Behnstedt & Woidich 1985, map 5), e.g. /bagar.a/
+bá:gar.a ‘cow’, gu:t..ta ‘cat’ (ibid., map 5).
+endings all behave differently. In the Levantine dialects described by Abu-Salim (1982) and
+Haddad (1984), only monomorphemic -CV suffixes like those in [33b] allow the length of the
+preceding stem to surface:28
+
+ [33]     a. Shortening before stem-level consonantal endings:
+              i.   /šaaf/    ˇsaaf ‘he saw’
+              ii. /šaaf-t/   ˇsı́fit ‘I saw’
+              iii. /šaaf-na/ ˇsı́fna ‘we saw’
+          b. No shortening before word level -CV endings:
+              i.   /beet-na/      béetna      ‘our house’
+              ii. /nooQ-ha/       nóoQha      ‘its (f.) type’
+              iii. /?ih. taaj-ha/ ?ih. táajha ‘he needed it (f.)’
+              iv. /jaab-ha/       jáabha      ‘he brought her’
+          c. Shortening before word level -C-V endings:
+              i. /jaab-l-i/ jábli ‘he brought for me’
+              ii. /jaab-l-u/ jáblu ‘he brought for him’
+          d. Shortening before word level -C-CV endings (with epenthesis):
+              i.   /jaab-l-ha/ jábilha ‘he brought for her’
+              ii. /šaaf-l-ha/ ˇsáfilha ‘he saw for her’
+              iii. /raah-l-ha/ ráhilha ‘he went to her’
+
+   These data indicate that suffixation with -l triggers cyclic shortening of the resulting
+hyperlong (four-mora) syllable. This confirms that the word level can be cyclic, and that
+bound bases can constitute domains of constraint evaluation.
+    Farwaneh’s South Palestinian dialect differs in having no shortening in the [33c] cases,
+e.g. jaablu (1995:162). A third group of dialects keeps the vowel long before all word-level
+endings, including cases like [33c] and [33d], e.g. Northern Iraqi Jewish Arabic baaQ-l-ú-me
+‘he sold them to him’, jáab-@l-k@m ‘he brought you (pl.)’ (Jastrow 1990:59,325).29
+    A prediction of our analysis is that there should be no word-level closed syllable shortening
+before stressable epenthetic vowels. The reasoning that leads to this prediction is as follows.
+Because closed syllable shortening is lexical, it must be bled by lexical epenthesis, and it
+cannot be bled by postlexical epenthesis. The status of epenthesis as lexical or postlexical
+is independently determined by its interaction with word stress. Since stress is lexical, an
+epenthetic vowel that is stressable must be lexically inserted, and an epenthetic vowel that is
+unstressable must be postlexically inserted. So, closed syllable shortening should be bled by
+the insertion of stressable epenthetic vowels. This is confirmed by Soukhne Syrian kaalı́lha
+‘he said to her’ (Behnstedt 1994:107), and by Iraqi jaabı́lha (alternating with jáabilha, see
+below) ‘he brought to her’ (Erwin 143, 41), with transparent constraint interaction (not
+*jabı́lha).
+   Conversely, since unstressable (postlexically inserted) epenthetic vowels are invisible at
+the word level, they should not block lexical closed-syllable shortening. And this is what we
+  28
+     All these endings trigger shortening in all CV-dialects, of course, e.g. Egyptian /raah.-l-ha/ rah.laha ‘he went to
+her’.
+  29
+     Farwaneh accounts for the data in [33] by supposing that monoconsonantal suffixes like -l are underlyingly moraic,
+an ad hoc solution which in any case does not extend to the other variations on the shortening theme.
+find e.g. in Levantine jaab-l-ha → (word level) jáblµ ha → (postlexical) jábilha. Thus the
+intrinsic serial relation of the levels enforces opaque (counterbleeding) constraint interaction.
+     In dialects with general pre-stress shortening, the root vowel is of course short even before
+a stressable epenthetic vowel. For example, all Egyptian dialects have pre-stress shorten-
+ing (Fischer/Jastrow 1980:213), evidently at the word level. Hence Egyptian dialects which
+stress epenthetic vowels do shorten before those vowels, e.g. il-Bi‘raat jabı́lhum (Woidich
+1973-4:365). Blanc 1953:44,75 explicitly give this analysis for North Palestinian examples like
+/h. maar-t-ku/ h. marı́tku ‘your female donkey’. Similarly, the Benghazi Libyan jabı́lha (Far-
+waneh 1995:141) may really be jaabı́lha with the variable phonetic shortening of unstressed
+vowels described by Owens (1984:30) for a closely related Libyan dialect (1984:30).30
+    The prediction is that dialects retain length before unstressable epenthetic vowels only
+if they tolerate hyperlong syllables. This is confirmed by data from Eastern Libyan (Owens
+1984), which admits final hyperlong syllables in the output, and apparently also retains
+medial hyperlong configuration -CVVC-C- in cases like [33c] in spite of postlexical epenthesis:
+
+ [34] ma ˇsif-nā-k-ˇs ‘we didn’t see you’ (Owens 1984:158)
+      ma inQā´m-ˇs ‘not swimmable’ (124)
+      dāff ‘has pushed’ (24)
+      gĀ´l-il-ha, from /gaal-l-ha/ ‘he said to her’ (inferred from 33,105,113)
+
+Perhaps structures like [34] are prosodically accommodated by licensing two semisyllables in
+a row at the word level.31
+    The dialect data are very complex, but they seem compatible with the prediction that
+closed syllable shortening is bled by lexical epenthesis. Apparent cases of counterbleeding
+are attributable to independently motivated word-level or postlexical processes that shorten
+unstressed syllables. This would tend to further support the claim that interaction of phono-
+logical processes is transparent within a level, and that opacity effects arise from inter-level
+serialism.
+
+
+7 Summary
+I have argued that certain Arabic dialects permit consonants to form unsyllabified moras
+(onsetless “semisyllables”) in the word-level phonology. These moras are licensed by ad-
+junction to the prosodic word. Semisyllables persist into the output in certain contexts in
+C-dialects, in part accounting for the Berber-type syllable structure of these dialects. In
+VC-dialects an epenthetic vowel is inserted before them as a nucleus postlexically, render-
+ing lexical processes such as stress and shortening opaque. Faithfulness requires that the
+  30
+      Allophonic and/or variable shortening of unstressed vowels is attested for other dialects, see e.g. Fleisch 1947-
+48:60 on Zah.le (Lebanon), Johnson 1979 on Palestinian, and Cohen 1975:55 on ‘half-long’ vowels in Moroccan
+Jewish Arabic.
+   31
+      Syrian shows variation: /žaab-l-na/ žáab@lna ‘he brought to us’ (Cowell 1964:481), /ma-ktuub-l-ak/ makt@blak
+‘written to you (masc.)’ (Grotzfeld 1965:42), cf. /ma kaan-š/ makanš (Grotzfeld 1980:178), Soukhne Syrian maa bi-
+šuuf-š ‘he doesn’t see anything’ (Behnstedt 1994:162). Iraqi shows stress variation in case of epenthesis, e.g. ?ı́bin-ha
+∼ ?ibı́n-ha ‘her son’ (Erwin 1963:41); no shortening is reported for forms like jáabla, jáabilha ∼ jaabı́lha (ibid 143).
+I was unable to find consonantal word-level suffixes like -š in Iraqi to test the prediction.
+epenthetic vowel be placed before the consonant, so as to maintain its moraic character and
+to minimize changes in the foot structure of the word. In CV dialects, a Licensing con-
+straint requiring moras to be affiliated with syllables ranks higher, ruling out semisyllables
+in general. Unsyllabifiable consonants never become moraic, but get an epenthetic vowel
+after them (its place again dictated by prosodic Faithfulness). The characteristic syllabic
+differences between the dialects can largely be explained from these assumptions.
+Bibliography
+A BU -H AIDAR , FARIDA . 1991. Christian Arabic of Baghdad. Wiesbaden: Harrassowitz.
+A BU -M ANSOUR , M AHASEN . 1991. Epenthesis in Makkan Arabic: Unsyllabifiable conso-
+      nants versus degenerate syllables. Mushira Eid and John McCarthy, Perspectives on
+      Arabic Linguistics III: Papers from the third annual symposium on Arabic linguistics.
+      137-159. Amsterdam: John Benjamins.
+A BU -M ANSOUR , M AHASEN . 1992. Closed Syllable Shortening and morphological levels.
+      Mushira Eid and John McCarthy, Perspectives on Arabic Linguistics IV: Papers from
+      the fourth annual symposium on Arabic linguistics. 47-76. Amsterdam: John Ben-
+      jamins.
+A BU -S ALIM , I SSAM . 1980. Epenthesis and geminate consonants in Palestinian Arabic. Stud-
+      ies in Linguistic Sciences 10: 1-12.
+AQUILINA , J OSEPH . 1959. The structure of Maltese. Valletta: Royal University of Malta.
+BAGEMIHL , B RUCE . 1991. Syllable structure in Bella Coola. LI 22: 589-646.
+B EHNSTEDT, P ETER AND M ANFRED WOIDICH . 1985. Die ägyptisch-arabischen Dialekte. Wies-
+      baden: L. Reichert.
+B EHNSTEDT, P ETER . 1985. Die nordjemenitischen Dialekte. Teil 1: Atlas. Wiesbaden: L.
+      Reichert.
+B EHNSTEDT, P ETER . 1994. Der arabische Dialekt von Soukhne (Syrien). Wiesbaden: Har-
+      rassowitz, 1994.
+B LANC , H AIM . 1953. Studies in North Palestinian Arabic; linguistic inquiries among the
+      Druzes of western Galilee and Mt. Carmel. Oriental Notes and Studies, No. 4.
+      Jerusalem: Israel Oriental Society.
+B OOIJ , G EERT. 1997. Non-derivational phonology meets Lexical Phonology. In Iggy Roca
+      (ed.) Derivations and constraints in the lexicon. Oxford: Clarendon Press.
+B RAME , M ICHAEL . 1974. The cycle in phonology: stress in Palestinian, Maltese and Span-
+      ish,’ Linguistic Inquiry, 5.39-60.
+B ROCH , O LAF. 1912. Slavische Phonetik. Heidelberg: Winter.
+B ROSELOW, E LLEN . 1992. Parametric variation in Arabic dialect phonology. Mushira Eid
+      and John McCarthy, Perspectives on Arabic Linguistics IV: Papers from the fourth
+      annual symposium on Arabic linguistics. 1-42. Amsterdam: John Benjamins.
+B ROSELOW, E LLEN . 1976. The phonology of Egyptian Arabic. Ph.D. dissertation, Univer-
+      sity of Massachusetts, Amherst.
+B ROSELOW, E LLEN . 1982. On Predicting the Interaction of Stress and Epenthesis. Glossa
+      16.115-132.
+B ROSELOW, E LLEN . 1980. Syllable structure in two Arabic dialects. Studies in the Linguis-
+      tic Sciences 10 ed. by Michael Kenstowicz, 13-24. Urbana: Department of Linguistics,
+      University of Illinois.
+B ROSELOW, E LLEN . 1979. Cairene Arabic Syllable Structure. Linguistic Analysis 5.345-382.
+BUCKLEY, E UGENE . 1994. Theoretical aspects of Kashaya phonology and morphology. Stan-
+      ford: CSLI.
+B YE , PATRIK . 1997. Representing ‘overlength’: Against trimoraic syllables. In Geert Booij
+      and Jeroen van der Weijer (eds.) Phonology in progress — Progress in phonology. HIL
+      Phonology Papers III. The Hague: Holland Academic Graphics.
+C ANTINEAU , J EAN . 1946. Les parlers arabes du Hôrân. Vol. 2. Paris: C. Klincksieck.
+C HO , YOUNG - MEE Y U AND T RACY H OLLOWAY K ING . 1996. Semi-syllables and Georgian
+      clusters. TREND VI, Stanford University.
+C LEMENTS , G. N. 1997. Berber syllabification: derivations or constraints? In I. Roca (ed.)
+      Constraints and derivations in phonology, 289-330. Oxford: Oxford University Press.
+C LEMENTS , G EORGE N. AND S AMUEL JAY K EYSER . 1983. CV Phonology: a generative
+      theory of the syllable. Cambridge, MA.: MIT Press.
+C OHEN , DAVID . 1963. Le dialecte arabe Hassaniya de Mauritanie (parler de la Gabla).
+      Paris, C. Klincksieck.
+C OHEN , DAVID . 1975. Le parler arabe des juifs de Tunis. Vol. 2. Paris: Mouton.
+C OWELL , M ARK W. 1964. A reference grammar of Syrian Arabic, based on the dialect of
+      Damascus.
+D ELL , F RANÇOIS AND O. TANGI . 1993. On the vocalization of /r/ in Ath-Sidhar Rifian
+      Berber”, Linguistica Communicatio V.5-53.
+D ELL , F RANÇOIS AND O. TANGI . 1992. Syllabification and empty nuclei in Ath-Sidhar Ri-
+      fian Berber. Journal of African Languages and Linguistics 13.125-162.
+D ELL , F RANÇOIS AND M OHAMED E LMEDLAOUI . 1985. Syllabic Consonants and Syllabifi-
+      cation in lmdlawn Tashilhiyt Berber. Journal of African Languages and Linguistics
+      7.105-130.
+D ELL , F RANÇOIS AND M OHAMED E LMEDLAOUI . 1988. Syllabic consonants in Berber: Some
+      new evidence. Journal of African Languages and Linguistics 10.1-17.
+D ELL , F RANÇOIS AND M OHAMED E LMEDLAOUI . 1996a. On consonant releases in Imdlawn
+      Tashlhiyt Berber. Linguistics 34.357-395.
+D ELL , F RANÇOIS AND M OHAMED E LMEDLAOUI . 1997. La syllabation et les géminés dans
+      la posie berbère du Maroc (dialecte chleuh). Cahiers de grammaire 22.1-95.
+D ELL , F RANÇOIS AND M OHAMED E LMEDLAOUI . 1996b. Nonsyllabic transitional vocoids in
+      Imdlawn Tashlhiyt Berber. In J. Durand and B. Laks, eds., Current Trends in Phonol-
+      ogy: Models and Methods, 219-246. European Studies Research Institute, University
+      of Salford.
+D OWNING , L AURA J. 1998. On the prosodic misalignment of onsetless syllables. Natural
+      Language and Linguistic Theory 16: 1-52.
+E RWIN , WALLACE M. 1963. A short reference grammar of Iraqi Arabic. Washington: George-
+      town University Press
+FABRI , R AY. 1999. Radicals, roots, stems, and the lexicon. Paper presented at the Second
+      Mediterranean Morphology Meeting, Malta.
+FARWANEH , S AMIRA . 1995. Directionality effects in Arabic syllable structure. Ph.D. Dis-
+      sertation, University of Utah.
+F ISCHER , WOLFDIETRICH , AND OTTO JASTROW. 1980. Handbuch der arabischen Dialekte.
+      Wiesbaden: Otto Harrassowitz.
+F LEISCH , H ENRI . 1947-48. Notes sur le dialecte arabe de Zah. lé (Liban). MUSJ 27. Page
+      references to the reprint in Fleisch 1974.
+F LEISCH , H ENRI . 1974. Etudes d’arabe dialectal. Beyrouth: Dar el-Machreq.
+G ROTZFELD , H EINZ . 1965 Syrisch-arabische Grammatik. Wiesbaden: Harrassowitz.
+H ADDAD , G HASSAN F. Epenthesis and sonority in Lebanese Arabic. Studies in the Linguis-
+         tic Sciences 14.57-87.
+H AGSTROM , PAUL . 1997. Contextual metrical invisibility. MIT Working Papers in Linguis-
+         tics 30, also Rutgers Optimality Archive 219.
+H AN , E UNJOO . 1994. Prosodic structure in compounds. Ph.D. Dissertation. Stanford Uni-
+         versity.
+H ARRELL , R ICHARD S. 1965. A basic course in Moroccan Arabic. Washington, Georgetown
+         University Press.
+H ARRELL , R ICHARD S. 1962a. A short reference grammar of Moroccan Arabic. Washing-
+         ton, Georgetown University Press.
+H ARRELL , R ICHARD S. 1962b. Consonant, vowel, and syllable in Moroccan Arabic. In
+         A. Sovijärvi (ed.) Proceedings of the Fourth International Congress of the Phonetic
+         Sciences. The Hague: Mouton.
+H ART, M. E. 1991. The moraic status of initial geminates in Trukese. BLS 17.107-120.
+VAN DER H ULST, H ARRY, AND NANCY R ITTER . 1998. Kammu minor syllables in Head-driven
+         Phonology. In Eugeniusz Cyran and Piotr Stalmaszczyk (eds.) Structure and inter-
+         pretation. Studies in phonology. Lublin: Wydawnictwo FOLIUM.
+H UME , E LIZABETH , J ENNIFER M ULLER , AND AONE VAN E NGELENHOVEN . 1997. Nonmoraic
+         geminates in Leti. Phonology 14.371-402.
+H YMAN , L ARRY. 1985. A theory of phonological weight. Dordrecht: Foris.
+I RSHIED , O MAR , & M ICHAEL K ENSTOWICZ . 1984. Some phonological rules of Bani-Hassan
+         Arabic: A Bedouin dialect. Studies in the Linguistic Sciences 14: 109-147.
+I T Ô , J UNKO . 1986. Syllable theory in prosodic phonology. Ph.D. Thesis, University of Mas-
+         sachusetts.
+I T Ô , J UNKO . 1989. A prosodic theory of epenthesis. Natural Language and Linguistic The-
+         ory 7.217-259.
+I T Ô , J UNKO & A RMIN M ESTER . 1992. Weak layering and word binarity. Linguistics Reser-
+         arch Center Report 92-09. University of California, Santa Cruz.
+JASTROW, OTTO . 1973. Daragözü, eine arabische Mundart der Kozluk-Sason-Gruppe (Südostanatolien).
+         Nuernberg: H.Carl.
+JASTROW, OTTO . 1978. Die mesopotamisch-arabischen qeltu-Dialekte. Wiesbaden: Steiner.
+JASTROW, OTTO . 1980a. Die Dialekte der arabischen Halbinsel. In Fischer and Jastrow
+         1980.
+JASTROW, OTTO . 1980b. Das mesopotamische Arabisch. In Fischer and Jastrow 1980.
+JASTROW, OTTO . 1990. Der arabische Dialekt der Juden von Aqra und Arbil. Wiesbaden:
+         Harrassowitz.
+J OHNSON , C. D OUGLAS . 1979. Opaque stress in Palestinian. Lingua 49: 153-168.
+K AGER , R EN É . 1992 [1989]. A metrical theory of stress and destressing in English and
+         Dutch. Dordrecht: Foris.
+K AGER , R EN É . 1999. Surface opacity of metrical structure. In B. Hermans and M. van
+       Oostendorp (ed.) The derivational residue in phonology, 207-245. Amsterdam: Ben-
+       jamins.
+K ENSTOWICZ , M ICHAEL , AND K AMAL A BDUL -K ARIM . 1980. Cyclic Stress in Levantine Ara-
+       bic. Studies in the Linguistic Sciences 10: 55-76.
+K ENSTOWICZ , M ICHAEL . 1981. A note on cyclic structure in Levantine Arabic. Epenthesis
+       and degenerate syllables in Cairene Arabic. Hagit Borer and Youssef Aoun (edd.)
+       Theoretical issues in the grammar of Semitic languages. MIT Working Papers in
+       Linguistics 3.
+K ENSTOWICZ , M ICHAEL . 1983. Parametric variation and accent in the Arabic dialects. CLS
+       19: 205-213.
+K ENSTOWICZ , M ICHAEL . 1986. Notes on syllable structure in three Arabic dialects. Revue
+       Québecqoise de linguistique 16.101-128.
+K ENSTOWICZ , M ICHAEL . 1996. Base-identity and uniform exponence: alternatives to cyclic-
+       ity. In J. Durand and B. Laks (edd.) Current trends in phonology: models and meth-
+       ods, 363-393. Salford: European Studies Research Institute.
+K IPARSKY, PAUL . To appear. Paradigm effects and opacity. Stanford: CSLI.
+K IRCHNER , R. 1996. Synchronic chain shifts in Optimality Theory. LI 27:341-350.
+L EVIN , J ULIETTE . 1985. A metrical theory of syllabicity. Ph.D. dissertation. MIT.
+L IEWEHR , F. 1967. Zur Entstehung und Behandlung der Nebensilbigkeit im Slavischen.
+       Zeitschrift für Slawistik 12: 708-726.
+L IN , Y EN -H WEI . 1997. Syllabic and moraic structures in Piro. Phonology 14: 404-436.
+M ANSOUR , JACOB . 1991. The Jewish Baghdadi dialect. Or-Yehuda: The Babylonian Jewry
+       Heritage Center.
+M ARÇAIS , P HILIPPE . 1977. Esquisse grammaticale de l’arabe maghrébin. Paris: Librairie
+       d’Amérique et d’Orient.
+M C C ARTHY, J OHN . 1998c. Morpheme structure constraints and paradigm occultation. MS.
+M C C ARTHY, J OHN . 1999. Serialism, OT, and the Duke-of-York Gambit. Rutgers Optimality
+       Archive.
+M C C ARTHY, J., AND A. P RINCE . 1993. Prosodic Morphology I. Constraint Interaction and
+       Satisfaction. Ms. University of Massachusetts, Amherst and Rutgers University, New
+       Brunswick. To appear, MIT Press.
+M ESTER , A RMIN AND JAYE PADGETT. 1994. Directionality in generalized alignment. Phonol-
+       ogy at Santa Cruz 3.79-85.
+M ITCHELL , T. F. 1960. Prominence and syllabification in Arabic. BSOAS 23.369-389.
+M ITCHELL , T. F. 1993. Pronouncing Arabic, Vol. 2. Oxford: Clarendon Press.
+M UTAKA , N GESSIMO , AND L ARRY H YMAN . 1990. Syllable and morpheme integrity in Ki-
+       nande reduplication. Phonology 7:73-120.
+N ESPOR , M ARINA , AND I RENE VOGEL . 1986. Prosodic phonology. Dordrecht: Foris.
+N ISHIO , T ETSUO . 1994. The Arabic dialect of Qift. (Upper Egypt): grammar and classified
+       vocabulary. Tokyo: Institute for the Study of Languages and Cultures of Asia and
+       Africa.
+O DDEN , DAVID . 1995. Onsetless syllables in Kikerewe. OSU Working papers in linguistics
+       41:46-84.
+OWENS , J ONATHAN . 1984. A short reference grammar of Eastern Libyan Arabic. Wies-
+       baden: O. Harrassowitz.
+OWENS , J ONATHAN . 1980. The syllable as prosody: a reanalysis of syllabification in Eastern
+       Libyan Arabic. BSOAS 43: 277-287.
+OWENS , J ONATHAN . 1993. A grammar of Nigerian Arabic. Wiesbaden: Harrassowitz.
+PALVA , H EIKKI . 1966. Lower Galilean Arabic: an analysis of its anaptyctic and prothetic
+       vowels with sample texts. Helsinki. Studia Orientalia 32.
+P OTTER , B RIAN . 1994. Serial optimality in Mohawk prosody. CLS 30.
+P RINCE , A LAN AND PAUL S MOLENSKY. 1993. Optimality theory: Constraint interaction in
+       generative grammar. Ms., Rutgers University and U. of Colorado.
+P ROCHAZKA , T HEODORE . 1988. Saudi Arabian dialects. London: Kegan Paul Interna-
+       tional.
+R EDFORD , M ICHAEL . 1996. Some Aspects of Sudanese Colloquial Arabic Phonology. MA
+       Thesis. Universität Konstanz.
+RUBACH , J ERZY & G EERT B OOIJ . 1990. Syllable structure assignment in Polish. Phonology
+       7:121-158.
+S ELKIRK , E LIZABETH . 1981. Epenthesis and degenerate syllables in Cairene Arabic. Hagit
+       Borer and Youssef Aoun (edd.) Theoretical issues in the grammar of Semitic languages.
+       MIT Working Papers in Linguistics 3.
+S ELKIRK , E LIZABETH . 1995. The prosodic structure of function words. In Jill N. Beckman,
+       Laura Walsh Dickey and Suzanne Urbanczyk (eds.) Papers in Optimality Theory, p.
+       439-469. University of Massachusetts Occasional Papers, 18; GLSA, UMass Amherst.
+S HAW, PATRICIA . 1993. The prosodic constituency of minor syllables. WCCFL 12:117-132.
+S INGER , H ANS -RUDOLF. 1980. Das Westarabische oder Maghribinische. In Fischer and
+       Jastrow 1980.
+S VANTESSON , JAN -O LOF. 1983. Kammu phonology and morphology. Lund: Liber Förlag.
+WOIDICH , M ANFRED . 1973-4. Die 3. Person Feminin Singular Perfekt in dem Oberägyptischen
+       Dialekt von il-Bi‘rāt. Beyrouth: Imprimerie catholique.
+WOIDICH , M ANFRED . 1974. Ein arabischer Bauerndialekt aus dem südlichen Oberägypten.
+       ZDMG 124.42-58.
+Z AWAYDEH , BUSHRA A DNAN . 1998a. On an optimality-theoretic account of epenthesis and
+       syncope in Arabic dialects. In Mushira Eid and Robert Ratcliffe, Perspectives on
+       Arabic linguistics X: Papers from the tenth annual symposium on Arabic linguistics.
+       191-213. Amsterdam: Benjamins.
+Z EC , D RAGA . 1988. Sonority constraints on prosodic structure. Ph.D. dissertation, Stanford
+       University.
+

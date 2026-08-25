@@ -1,0 +1,790 @@
+
+Irish initial mutations
+Word initial consonantal sound changes in Irish
+
+	
+
+	
+This article needs more citations. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed.
+Find sources: "Irish initial mutations" – news · newspapers · books · scholar · JSTOR  (April 2017) (Learn how and when to remove this message)
+
+This article uses the IPA to transcribe Irish. Readers familiar with other conventions may wish to see Help:IPA/Irish for a comparison of the IPA system with those used in learners' materials.
+
+An Irish language sign which displays an inflected form of the word Caisleán "castle" with a mutated ⟨c⟩.
+
+Irish, like all modern Celtic languages, is characterised by its initial consonant mutations.[1] These mutations affect the initial consonant of a word under specific morphological and syntactic conditions. The mutations are an important tool in understanding the relationship between two words and can differentiate various meanings.
+
+Irish, like Scottish Gaelic and Manx, features two initial consonant mutations: lenition (Irish: séimhiú [ˈʃeːvʲuː]) and eclipsis (urú [ˈʊɾˠuː]) (the alternative names, aspiration for lenition and nasalisation for eclipsis, are also used, but those terms are misleading).
+
+Originally these mutations were phonologically governed by external sandhi effects: lenition was caused by a consonant being between two vowels, and eclipsis when a nasal preceded an obstruent, including at the beginning of a word.
+
+Irish also features t-prothesis and h-prothesis, related phenomena which affect vowel-initial words.
+
+See Irish phonology for a discussion of the symbols used on this page.
+
+Historical development
+
+Lenition
+
+Lenition as an initial mutation originally stems from the historical allophonic lenition of an intervocalic consonant, both word internally and across word boundaries, i.e if a word ended in a vowel and the next word began with a consonant + a vowel, the consonant lenited. 
+
+Today, these former final vowels are usually elided, but the lenition of following consonants remains and has been grammaticised. For example, Proto-Celtic *esyo "his" caused the lenition of a following consonant due to its final vowel and its modern form a now causes lenition, keeping it distinct from a "her" and a "their", which cause h-prothesis and eclipsis respectively.
+
+Lenition caused stops and *m to become fricatives, *s to debuccalise to [h], *f to elide, and the liquids *l, *n, *r to split into fortis and lenis variants. Though by the end of the Middle Irish period lenited *m largely lost its nasal quality, lenited *t debuccalised to [h], and lenited *d lost its coronal articulation.
+
+Lenition did not only occur word initially, though non-initial lenition was never grammaticised. For example Proto-Celtic *knāmis → cnáim → cnáimh "bone", and *abalnā → aball → abhaill "apple tree".
+
+Prothetic ⟨t⟩- and ⟨h⟩-
+
+While it is not initially apparent, the prothesis of ⟨t⟩ and ⟨h⟩ stems from historical lenition combined with vowel reduction.
+
+The prosthetic ⟨t⟩- of vowel initial words is a fossilised fragment of the Proto-Celtic masculine definite article *sindos. Before vowels, the *s of the ending *-os was lenited to [h], which (combined with the loss of the *-o-) devoiced the preceding *-d- to *-t.
+
+i.e. *sindos [sindoh] → int → an t-).
+
+The prosthetic ⟨t⟩ of ⟨s⟩ initial words is a fossilised fragment of the d of Proto-Celtic nominative feminine definite article *sindā and masculine genitive definite article *sindī. Since they ended in vowels, a following word initial *s was lenited to [h] which (combined with the loss of the *-ā, *-ī) devoiced the preceding *-d to *-t.
+
+i.e. *sindā sūli [sindaː huːli] → int ṡúil → an tsúil)
+
+The prothetic ⟨h⟩ of vowel initial words has two origins, the first being epenthetic to avoid vowel hiatus, and the second being the fossilised remnant of a historic consonant. For example, the *s of Proto-Celtic *esyās "her" was lenited between vowels to [h]. Overtime *esyās was reduced to a but the [h] remains when it is followed by a vowel initial word but is now written as part of the following word.
+
+Eclipsis
+
+"Eclipsis" redirects here. For punctuation mark historically sometimes known as an eclipsis, see dash.
+
+Eclipsis originally stems from the historical coalescence of consonant clusters beginning with a nasal, both word internally and across word boundaries, i.e if a word ended in a nasal and the next word began with a stop or labial fricative, they would coalesce.
+
+Today, many of the former final nasals have been elided, but still have an effect on the pronunciation of a following consonant, which has been grammaticised. For example, the Proto-Celtic genitive plural of the definite article *sindoisom has lost its final nasal and been reduced to na but it now causes the eclipsis of a following consonant or the prothesis of ⟨n-⟩ to a vowel. 
+
+The cluster reductions involved in eclipsis turned nasal stops followed by a voiced stop into nasal stops, nasal stops followed by a voiceless stop into voiced plosives, nasal stops followed by a voiceless labial fricative into a voiced fricative, and words which have lost their final nasal add an ⟨n-⟩ to vowel initial words.
+
+These cluster reductions did not only occur word initially, though non-initial coalescence was never grammaticised. For example, Proto-Celtic *lindos → lind → linn "pool", and *kʷenkʷe → cóic → cúig "five".
+
+Summary table
+
+This table shows the orthographical and phonological effects of lenition, eclipsis, h-prothesis, and t-prothesis. Vowels are represented by ⟨v⟩ and /V/. Consonants are broad before ⟨a, á, o, ó, u, ú⟩ and slender before ⟨e, é, i, í⟩. See also Irish orthography which has a table showing non-initial lenited consonants which elided or vocalised to form diphthongs or long vowels.
+
+	Unmutated
+	Lenition
+	Eclipsis
+	T-Prothesis
+	H-Prothesis
+	Meaning
+
+	Spell.	IPA	E.G.
+	Spell.	IPA	E.G.
+	Spell.	IPA	E.G.
+	Spell.	IPA	E.G.
+	Spell.	IPA	E.G.
+
+	V
+v
+	/V/
+	éan
+/eːnˠ/
+	—N/a
+	nV
+n-v
+	/n̪ˠV/
+/n̠ʲV/
+	n-éan
+/n̠ʲeːnˠ/
+	tV
+t-v
+	/t̪ˠV/
+/tʲV/
+	t-éan
+/tʲeːnˠ/
+	hV
+hv
+	/hV/
+	héan
+/heːnˠ/
+	bird
+
+	B
+b
+	/bˠ/
+/bʲ/
+	bean
+/bʲanˠ/
+	Bh
+bh
+	/w/
+/vʲ/
+	bhean
+/vʲanˠ/
+	mB
+mb
+	/mˠ/
+/mʲ/
+	mbean
+/mʲanˠ/
+	—N/a
+	—N/a
+	woman
+
+	C
+c
+	/k/
+/c/
+	ceann
+/caːn̪ˠ/
+	Ch
+ch
+	/x/
+/ç/
+	cheann
+/çaːn̪ˠ/
+	gC
+gc
+	/ɡ/
+/ɟ/
+	gceann
+/ɟaːn̪ˠ/
+	head
+
+	D
+d
+	/d̪ˠ/
+/dʲ/
+	droim
+/d̪ˠɾˠiːmʲ/
+	Dh
+dh
+	/ɣ/
+/j/
+	dhroim
+/ɣɾˠiːmʲ/
+	nD
+nd
+	/n̪ˠ/
+/n̠ʲ/
+	ndroim
+/n̪ˠɾˠiːmʲ/
+	back
+
+	F
+f
+	/fˠ/
+/fʲ/
+	freagra
+/fʲɾʲaɡɾˠə/
+	Fh
+fh
+	∅
+	fhreagra
+/ɾʲaɡɾˠə/
+	bhF
+bhf
+	/w/
+/vʲ/
+	bhfreagra
+/vʲɾʲaɡɾˠə/
+	answer
+
+	G
+g
+	/ɡ/
+/ɟ/
+	glúin
+/gl̪ˠuːnʲ/
+	Gh
+gh
+	/ɣ/
+/j/
+	ghlúin
+/ɣl̪ˠuːnʲ/
+	nG
+ng
+	/ŋ/
+/ɲ/
+	nglúin
+/ŋl̪ˠuːnʲ/
+	knee
+
+	L
+l
+	/l̪ˠ/
+/l̠ʲ/
+	leanbh
+/l̠ʲanˠəw/
+	L
+l
+	*/lˠ/
+*/lʲ/
+	leanbh
+/lʲanˠəw/
+	—N/a
+	baby
+
+	M
+m
+	/mˠ/
+/mʲ/
+	máthair
+/mˠaːhəɾʲ/
+	Mh
+mh
+	/w/
+/vʲ/
+	mháthair
+/waːhəɾʲ/
+	mother
+
+	N
+n
+	/n̪ˠ/
+/n̠ʲ/
+	naomh
+/n̪ˠiːw/
+	N
+n
+	*/nˠ/
+*/nʲ/
+	naomh
+/nˠiːw/
+	saint
+
+	P
+p
+	/pˠ/
+/pʲ/
+	peann
+/pʲaːn̪ˠ/
+	Ph
+ph
+	/fˠ/
+/fʲ/
+	pheann
+/fʲaːn̪ˠ/
+	bP
+bp
+	/bˠ/
+/bʲ/
+	bpeann
+/bʲaːn̪ˠ/
+	pen
+
+	S
+s
+	/sˠ/
+/ʃ/
+	súil
+/sˠuːlʲ/
+	Sh
+sh
+	/h/
+	shúil
+/huːlʲ/
+	—N/a
+	tS
+ts
+	/t̪ˠ/
+/tʲ/
+	tsúil
+/t̪ˠuːlʲ/
+	eye
+
+	T
+t
+	/t̪ˠ/
+/tʲ/
+	teach
+/tʲax/
+	Th
+th
+	theach
+/hax/
+	dT
+dt
+	/d̪ˠ/
+/dʲ/
+	dteach
+/dʲax/
+	—N/a
+	house
+
+* Not all dialects contrast lenited ⟨l⟩ and ⟨n⟩ from their unlenited forms. See Irish Phonology#Fortis and lenis sonorants.
+
+Environments of lenition
+
+After proclitics
+
+After the definite article
+
+The definite article triggers the lenition of:
+
+a feminine noun in the nominative singular
+an bhean "the woman"
+
+a masculine noun in the genitive singular
+an fhir "of the man" e.g. carr an fhir, the man's car (car of the man)
+
+a noun in the dative singular, when the article follows one of the prepositions de "from", do "to" or i "in"
+do + an = don: don fhear "to the man"
+de + an = den: den bhean "from the woman"
+i + an = sa(n): sa chrann "in the tree"; san fhómhar "in the autumn"
+
+Lenition is blocked when a coronal consonant is preceded by an.
+
+an deoch "the drink", although deoch is feminine nominative singular
+an tí "of the house", although tí is masculine genitive singular
+
+Instead of leniting to /h/, after the definite article, /sˠ, ʃ/ become /t̪ˠ, tʲ/ (written ⟨ts⟩):
+
+an tsúil /ən̪ˠ t̪ˠuːlʲ/ "the eye" (fem. nom. sg.)
+an tsaoil /ən̪ˠ t̪ˠiːlʲ/ "of the world" (masc. gen. sg.)
+
+After the vocative particle a
+
+a Bhríd "Bríd!"
+
+a Sheáin "Seán!"
+
+a chairde "my friends!"
+
+After possessive pronouns
+
+The possessive pronouns that trigger lenition are mo "my", do "your (sg.)", a "his"
+
+mo mhac "my son"
+
+do theach "your house"
+
+a pheann "his pen"
+
+After certain prepositions
+
+de chrann "out of a tree"
+
+faoi chrann "under a tree"
+
+mar dhuine "as a person"
+
+ó Chorcaigh "from Cork"
+
+roimh mhaidin "before morning"
+
+trí shioc agus shneachta "through frost and snow"
+
+um Cháisc "at Easter"
+
+idir fhir agus mhná "both men and women"
+
+ar bhord "on a table"
+
+do chrann "to a tree"
+
+thar chrann "over a tree"
+
+After the preterite/conditional of the copula
+
+Ba dhuine mór é. "He was a big person."
+
+Ba dheas uait é. "That was nice of you."
+
+After the preterite preverbal particles
+
+Níor mhúinteoir é. "He was not a teacher."
+
+Níor thug mé "I didn't give"
+
+Ar shagart é? "Was he a priest?"
+
+Ar tháinig sé? "Did he come?"
+
+After certain preverbal particles
+
+ní thuigim "I don't understand"
+
+má thagann sé "if he comes"
+
+an fear a thabharfaidh dom é "the man who will give it to me"
+
+A verb in the preterite, imperfect or conditional
+
+These were originally preceded by the particle do and often still are in Munster.
+
+bhris mé "I broke"
+
+bhrisinn "I used to break"
+
+bhrisfinn "I would break"
+
+In modifier + head constructions
+
+Lenition is blocked in these constructions if two coronals are adjacent.
+
+After certain numbers
+
+The singular form is used after numbers and is lenited in the following cases:
+
+aon bhó amháin "one cow"
+
+an chéad bhliain "the first year"
+
+dhá theach "two houses"
+
+beirt fhear "two men"
+
+trí bhád "three boats"
+
+ceithre bhó "four cows"
+
+cúig phunt "five pounds"
+
+sé mhí "six months"
+
+After preposed adjectives
+
+Constructions of adjective + noun are written as compounds.
+
+seanbhean "old woman"
+
+drochdhuine "bad person"
+
+dea-sheirbhís "good deed"
+
+nuatheanga "modern language"
+
+tréanmhuir "stormy sea"
+
+fíorchneas "true skin"
+
+ardbhrú "high pressure"
+
+ógfhear "young man"
+
+After most prefixes
+
+an-bheag "very small"
+
+róbheag "too small"
+
+aisghabháil "retake"
+
+athbhliain "new year"
+
+dobhréagnaithe "undeniable"
+
+fochupán "saucer"
+
+forbhríste "overalls"
+
+idirchreidmheach "interconfessional"
+
+ilphósadh "polygamy"
+
+leasmháthair "stepmother"
+
+míshásta "unhappy"
+
+neamhchodladh "insomnia"
+
+príomhchathair "capital city"
+
+sobhriste "fragile"
+
+The second part of a compound
+
+ainmfhocal "noun" (lit. "name word")
+
+dúghorm "dark blue"
+
+státfhiach "national debt"
+
+In head + modifier constructions
+
+In these constructions coronals are lenited even following other 
+
+aimsir bháistí "rainy weather" (lenition after a feminine singular noun)
+
+buidéil shú "bottles of juice" (lenition after a plural ending in a slender consonant)
+
+teach Sheáin "Seán's house" (lenition of a definite noun in the genitive)
+
+Postposed adjectives in certain circumstances
+
+bean dheas "a pretty woman" (lenition after a feminine singular noun)
+
+na fir mhóra "the big men" (lenition after a plural noun ending in a slender consonant)
+
+ainm an fhir bhig "the name of the small man" (lenition after a masculine singular noun in the genitive)
+
+sa chrann mhór "in the big tree" (lenition after a noun lenited by virtue of being in the dative after den, don, or sa(n))
+
+Environments of eclipsis 
+
+Eclipsis displayed on a sign in Tramore: Fánán na mBád "slip of the boats". Even in an all-caps, the eclipsed letter is not capitalised.
+Eclipsis displayed on a sign in Raphoe: Sráith na nGael "Row of the Gaels".
+
+After plural possessive pronouns
+
+The possessive pronouns that trigger eclipsis are ár "our", bhur "your (pl.)", a "their"
+
+ár gcairde "our friends"
+
+bhur bpáistí "your (pl.) children"
+
+a mbád "their boat",
+
+a can mean "his", "her" or "their", but these different uses can still be distinguished, since a causes lenition when used as "his" (a bhád), causes eclipsis when used as "their" (a mbád), and neither when used as "her" (a bád).
+
+After certain numbers
+
+The numbers that trigger eclipsis (the noun being in the singular) are:
+
+seacht gcapall "seven horses"
+
+ocht n-asal "eight donkeys"
+
+naoi gcat "nine cats"
+
+deich bpeann "ten pens"
+
+After the preposition i "in"
+
+Before a vowel in is written instead of i n-.
+
+i dteach "in a house"
+
+in Éirinn "in Ireland"
+
+Genitive plural nouns after the definite article
+
+The genitive plural article na eclipses a following noun:
+
+na n-asal "of the donkeys"
+
+na bhfocal "of the words"
+
+Dative singular nouns after the definite article
+
+In western and southern dialects, nouns beginning with a noncoronal consonant are eclipsed after combinations of preposition + article in the singular (except den, don, and sa(n), which trigger lenition)
+
+ag an bhfear "by the man"
+
+ar an gcrann "on the tree"
+
+After certain preverbal particles
+
+an poll a dtagann na coiníní as "the hole that the rabbits come out of"
+
+An dtagann sé gach lá? "Does he come every day?"
+
+Cá bhfuil mo spéaclaí? "Where are my glasses?"
+
+Dúirt sé go dtiocfadh sé. "He said that he would come."
+
+dá mbeadh a fhios sin agam "if I had known that"
+
+Changes to vowel-initial words
+
+In environments where lenition occurs a vowel initial word remains unchanged:
+
+an oíche "the night" (feminine singular nominative noun after definite article)
+
+an uisce "of the water" (masculine singular genitive noun after definite article)
+
+ó Albain "from Scotland" (noun after leniting preposition)
+
+seanathair "grandfather" (noun after preposed adjective: sean "old" + athair "father")
+
+However, In environments where neither eclipsis nor lenition is expected, an initial vowel may acquire a prothetic consonant. For example, a vowel-initial masculine singular nominative noun requires a ⟨t-⟩ (a voiceless coronal plosive) after the definite article:
+
+an t-uisce "the water" (masculine singular nominative)
+
+Additionally, there is the prothetic ⟨h⟩ (a voiceless glottal fricative), which occurs when both the following conditions are met:
+
+a proclitic causes neither lenition nor eclipsis of consonants.
+
+a proclitic itself ends in a vowel.
+
+Examples of h-prothesis:
+
+a haois "her age" (after possessive pronoun a "her"; compare with a aois, "his age" and a n-aois, "their age" with regular urú)
+
+go hÉirinn "to Ireland" (after preposition go "to, towards")
+
+le hAntaine "with Antaine" (after preposition le "with")
+
+na hoíche "of the night" (on feminine singular genitive noun after definite article)
+
+na héin "the birds" (on plural nominative/dative noun after definite article)
+
+chomh hard le caisleán "as high as a castle" (after chomh [xo] "as")
+
+go hálainn "beautifully" (after adverb-forming particle go)
+
+Ná himigh uaim "Don't leave me!" (after negative imperative particle ná "don't")
+
+an dara háit "the second place" (after an ordinal numeral)
+
+References
+
+↑ Kevin M. Conroy (April 2008). Celtic initial consonant mutations - nghath and bhfuil? (B.A.). Boston College. Retrieved 4 April 2017.
+
+	
+
+v
+
+t
+
+e
+
+Irish language
+
+	History	
+
+Proto-Indo-European
+
+Proto-Celtic
+
+Insular Celtic
+
+Proto-Goidelic
+
+Primitive Irish
+
+Old Irish
+
+Middle Irish
+
+Early Modern Irish
+
+Modern Irish
+
+	Sociolinguistics	
+
+List of Gaeilgeoirí
+
+Connacht Irish
+
+Leinster Irish
+
+Munster Irish
+
+Ulster Irish
+
+Status (Northern Ireland)
+
+Outside Ireland (in Newfoundland)
+
+Béarlachas
+
+Fáinne
+
+	Grammar	
+
+An Caighdeán Oifigiúil
+
+Initial mutations
+
+Declension
+
+Conjugation
+
+Dependent and independent forms
+
+Phonology
+
+Syntax
+
+	Writing	
+
+Orthography
+
+Ogham
+
+Gaelic type
+
+Braille
+
+Early literature
+
+Modern literature
+
+Lexicography
+
+An Caighdeán Oifigiúil
+
+	Media	
+
+	Journals	
+
+Comhar
+
+Feasta
+
+An tUltach
+
+Tuairisc.ie
+
+Nós
+
+An Gael
+
+Seachtain
+
+	Television	
+
+TG4
+
+Cúla 4
+
+RTÉ One (Nuacht RTÉ)
+
+BBC Two NI (sporadic)
+
+NVTV (sporadic)
+
+	Radio	
+
+RTÉ Raidió na Gaeltachta
+
+Raidió Rí-Rá
+
+Raidió Na Life
+
+Raidió Fáilte
+
+BBC Radio Ulster (Blas)
+
+	Publishers	
+
+Tuairisc.ie
+
+An Gúm
+
+Cló Iar-Chonnacht
+
+Coiscéim
+
+Gael Linn
+
+Irish Texts Society
+
+Sáirséal agus Dill
+
+Glór na nGael
+
+	Qualifications	
+
+Leaving Cert Irish
+
+Teastas Eorpach na Gaeilge
+
+	Names	
+
+Personal and family names
+
+List of personal names
+
+	
+
+ Category
+
+External links
+
+Seimhiu.ie Converts modern Irish to Gaelic script

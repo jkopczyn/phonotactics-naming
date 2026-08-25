@@ -1,0 +1,262 @@
+WALS Online -
+Chapter Fixed Stress Locations
+Home
+Features
+Chapters
+Languages
+References
+Authors
+Chapter Fixed Stress Locations
+by Rob Goedemans and Harry van der Hulst cite
+1. Stress
+This and the next three Chapters (15, 16, 17) report on word stress and word rhythm in the world's languages. The data were collected for a project called StressTyp and are also available on-line (see Goedemans and van der Hulst, forthcoming). The StressTyp database contains 510 languages, based on written primary and secondary sources (such as grammars and typological studies). StressTyp naturally only documents languages that have stress and therefore does not provide data about the numerous languages that are reported to lack stress, often tonal languages. In these chapters, ancient or extinct languages are excluded in accordance with the general policy of this atlas, so that the maps are based on a sample of 500 languages.
+The term stress is used here to refer to an abstract property of syllables within the domain of “words” (cf. Dixon and Aikhenvald 2002 for discussions of the notion word ). A stressed syllable is likely to be pronounced with more prominence than unstressed syllables. Prominence may involve greater loudness, higher pitch, greater duration and greater accuracy of articulation (most notably in vowels). Typically, words have at most one syllable that stands out in this way over all other syllables. This syllable is said to have primary stress (or main stress). Chapters 14, 15, 16 deal with the location of the syllable that bears primary stress in the word. In addition, provided that words are long enough, many languages show so-called non-primary or secondary stresses (with various rhythm types) on additional syllables. Rhythm types are discussed in Chapter 17.
+There are, as might be expected, many ways to group stress systems into types. The choices that we have made here represent one (we hope, reasonable) typology, but one that involves lumping together types that one might want to keep separate, or classify differently, in a more elaborate study (cf. §4.2). For reasons of visual clarity, however, we had to limit the number of categories.
+We also need to emphasize that we have not considered the role of morphological structure, which, as is well-known, may co-determine the location of stress. Our data on the languages in StressTyp are mostly based on stress locations in simplex words or complex words whose morphological structure is not relevant to stress (according to our sources). In some languages, like English, words with certain classes of affixes behave just like simplex words as far as stress is concerned. In other languages, all affixation is like this. We hasten to add that the interplay between stress and morphological structure is in need of more research and documentation (cf. Revithiadou 1999).
+2. Defining the values
+Somewhat more than half of the languages in our sample have fixed stress. By this we mean that stress is located on the same syllable in each word. The location is independent of the weight (usually quantity) of the syllables in the word and is determined with reference to a word edge only. (Languages with quantity-sensitive stress rules are discussed in Chapter 15.) Among the languages with fixed stress, we distinguish six different types. Thus, Map 14A shows the seven values given in the feature-value box:
+Values of Map 14A. Fixed Stress Locations
+Go to map |
+| Value | Representation |
+|
+No fixed stress (mostly weight-sensitive stress) |
+220 |
+|
+Initial: stress is on the first syllable |
+92 |
+|
+Second: stress is on the second syllable |
+16 |
+|
+Third: stress is on the third syllable |
+1 |
+|
+Antepenultimate: stress is on the antepenultimate (third from the right) syllable |
+12 |
+|
+Penultimate: stress is on the penultimate (second from the right) syllable |
+110 |
+|
+Ultimate: stress is on the ultimate (last) syllable |
+51 |
+Total: |
+502 |
+A fairly large number of languages have initial stress. An example is Cahuilla (Uto-Aztecan; California): ˈñaʔaˌčeh ‘sit down’, ˈneñukum ‘female cousins’.
+A few languages have stress on the second syllable. An example is Mapudungun (Araucanian; Chile and Argentina): t̪iˈpanto ‘year’, eˈlumuˌyu ‘give us’.
+Only one language in our sample, Winnebago (Siouan; Illinois), exhibits stress on the third syllable: hochiˈchinik ‘boy’, waghiˈghi ‘ball’ (see also Hayes 1995).
+An example of a language with antepenultimate stress is Paumarí (Arauan; Amazonas, Brazil): raˈbodiki ‘wide’, oniˈmanari ‘seagull’.
+Penultimate stress is again fairly common. A language with this pattern is Djingili (West Barkly; Northern Territory, Australia): biˈaŋga ‘later’, ˌŋuruˈala ‘we all’.
+A language that exhibits ultimate stress is Weri (Trans-New Guinea; Morobe, Papua New Guinea): uˌluaˈmit ‘mist’, ˌakuˌneteˈpal ‘times’.
+3. Geographical distribution
+We observe the following broad generalizations:
+European systems (if not weight-sensitive) mostly have initial stress. The percentage of weight-sensitive languages is greater in the south.
+Austronesian systems mostly have penultimate stress.
+Arabic dialects are commonly weight-sensitive.
+South American languages are mostly weight-insensitive, with stress oriented towards the right edge of the word.
+North American systems form a rather heterogeneous group.
+Except for the northern part (where we find the non-Pama-Nyungan languages with penultimate stress), Australian systems mainly have initial stress.
+4. Theoretical interpretation
+4.1. Stress parameters
+Several factors determine the location of primary stress:
+(1)
+a.
+|
+size of the stress window (bounded: two peripheral syllables; or unbounded: the whole word)
+|
+b.
+|
+the location of the window if it is bounded (left or right edge of the word)
+|
+c.
+|
+non-peripherality or extrametricality (yes/no; if yes: exclusion of a peripheral syllable of the word in determination of the stress window)
+|
+d.
+|
+the location of stress within the window (left or right )
+|
+e.
+|
+syllable weight (yes/no; if yes: heavy and light syllables)
+|
+The role of these “parameters” will be explained in the texts that accompany this and the following maps. We deliberately choose a quasi-formal, parametric approach so that interested readers will come prepared when consulting the StressTyp database on which the present maps are based.
+Map 14A deals with languages in which the stress location is fixed. In this study that means that the window is bounded. Stress is located within a two-syllable window that is either on the left side or the right side of the word. Here we do not reckon with syllable weight; we leave that for Chapter 15. In some cases, it appears that the stress window is trisyllabic because stress can occur on the antepenultimate or third syllable (either regularly or, if stress is not fixed, as an option). To “reach” the third position in, students of stress suggest that the left- or rightmost, syllable in the word can be disregarded in the determination of the stress window. We refer to this parameter as nonperipherality (the term extrametricality is also often used). Thus, for languages in which the size parameter = bounded, and the weight parameter = no weight, we can now distinguish the six cases in Table 1 (the symbol σ stands for a syllable, underlining means stress, parentheses indicate the stress window, and brackets show the word edge):
+Table 1. Fixed stress types
+Pattern
+|
+Window
+|
+Nonperiph.
+|
+Location
+|
+Initial
+|
+left
+|
+no
+|
+left
+|
+[( σ σ ) σ
+|
+Second
+|
+left
+|
+no
+|
+right
+|
+[( σ σ ) σ
+|
+Third
+|
+left
+|
+yes
+|
+right
+|
+[σ ( σ σ )
+|
+Ultimate
+|
+right
+|
+no
+|
+right
+|
+σ ( σ σ )]
+|
+Penultimate
+|
+right
+|
+no
+|
+left
+|
+σ ( σ σ )]
+|
+Antepenultimate
+|
+right
+|
+yes
+|
+left
+|
+( σ σ ) σ]
+|
+Henceforth we refer to a window having a left-location for stress inside the window as left-headed. The opposite choice will be called right-headed.
+Most languages with fixed stress have, or tolerate, exceptions, which, interestingly, represent small deviations from the fixed rule (here understood as a set of parameter settings). Malagasy, for example, has penultimate stress, but allows words with ultimate stress (marked “location: right-headed”) or with antepenultimate stress (marked “nonperipherality: yes”). These alternatives are exemplified in (2).
+(2) Malagasy (Austronesian; Madagascar)
+taˈnana
+|
+‘village’
+|
+oˈme
+|
+‘to give’
+|
+ˈsatroka
+|
+‘hat’
+|
+Exceptions with regard to the window parameter are rare, if not absent. For example, it is highly unusual for a language with penultimate stress to have exceptions with initial stress.
+This being said, fixed antepenultimate stress is rare. We have only 13 cases in the sample. This does not mean that antepenultimate stress location as such is rare in languages of the world. A typical pattern in the Romance languages (except French) is that stress can be ultimate, penultimate or antepenultimate. Such cases can have a dominant pattern (let us say penultimate), with ultimate and antepenultimate being less frequent. If the number of exceptions is so high that the dominant pattern may be obscured, we treat the stress location as variable, rather than fixed (cf. Chapter 15). The choice between fixed (with exceptions) and variable (with remnants of a dominant pattern) cannot always be made objectively.
+The most frequent fixed pattern, then, is penultimate, followed by initial. Both correspond to a left-headed bounded domain (σσ), which is a trochaic (i.e. “strong–weak”) pattern. Antepenultimate stress also involves this pattern, combined with right-edge nonperipherality. It is interesting to note that closely related languages with different fixed stress patterns may share this trochaic pattern, while differing in terms of other parameters. Consider the following three Slavic languages:
+Table 2. Fixed stress in three Slavic languages
+|
+Window
+|
+Nonperiph.
+|
+Location
+|
+Pattern
+|
+Czech: Initial
+|
+left
+|
+no
+|
+left
+|
+[( σ σ ) σ
+|
+Polish: Penultimate
+|
+right
+|
+no
+|
+left
+|
+σ ( σ σ )]
+|
+Macedonian: Antepen.
+|
+right
+|
+yes
+|
+left
+|
+( σ σ ) σ]
+|
+The preponderance of the trochaic type supports the idea that stress in languages with bounded domains is grounded in the same principles that govern the rhythmic alternation of secondary stresses, where, as we will see in Chapter 17, left-headed (or trochaic) patterns are also dominant.
+The third most frequent type is ultimate, followed at a distance by second-syllable stress. Both patterns involve a right-headed iambic window (σσ). Fixed second-syllable stress is very rare, much rarer than ultimate stress. Fixed third-syllable stress is found only in one language, Winnebago.
+4.2. Ambiguities
+We now wish to draw attention to the fact that the interpretation of stress patterns as being left-headed (within the stress window) or right-headed may not be as straightforward as it seems. There has been a certain amount of discussion concerning the need for right-headed (iambic) patterns, which at first sight seem inevitable for the ultimate and second-syllable stress types. It could be said, however, that second-syllable stress results from nonperipherality combined with a left-headed stress domain:
+(3)
+[σ (σ σ)]...
+|
+Siroi (Trans-New Guinea; Papua New Guinea)
+|
+amˈbonga
+|
+‘at first’
+|
+Since the penultimate type is more frequent than the antepenultimate type, we consider nonperipherality to be a marked phenomenon. Thus, the advantage of the analysis in (3) is that second-syllable stress would fall in the same category as antepenultimate stress, both being relatively rare. But this “explanation” for the rarity of the second-syllable pattern presupposes that we eliminate iambic primary stress domains altogether, which, in turn, raises the question of how we will deal with the rather frequent ultimate type.
+Here is a possible way of re-analyzing these ultimate cases. As we have specified above, languages may choose an unbounded domain for stress assignment, in which case stress may fall on any syllable in the word, provided that this syllable is heavy, while (preceding or following it, depending on the language) others are light. As a result, stress may end up in a location that is clearly outside the reach of a bounded window, as in Northern Haida, where stress falls on the rightmost heavy syllable in the word, or the last if there are no heavy syllables.
+(4)
+[σ σ σ σh σ σ σ]
+|
+Northern Haida (isolate; British Columbia, Canada)
+|
+kilˌħaldaanhˈlángˌidʔwaˌgan
+|
+‘caused.pot.be.slaves.incep.’
+|
+Indeed, the usual idea is that unbounded systems are all weight-sensitive. However, it might be argued that the choice of an unbounded window may also coincide with the choice of not being sensitive to syllable weight, in which case a language with fixed ultimate stress could be characterized as being unbounded, (5a), rather than being bounded, (5b):
+(5)
+a.
+|
+[σ σ σ σ σ]
+|
+b.
+|
+[σ σ σ (σ σ)]
+|
+Of course, once this discussion is opened, one might wish to re-examine penultimate stress or second-syllable stress cases in order to determine whether these perhaps combine unboundedness of the stress window with nonperipherality:
+(6)
+a.
+|
+[(σ σ σ σ) σ]
+|
+b.
+|
+[σ (σ σ σ σ)]
+|
+Although the discussion has now assumed a rather theoretical and hypothetical flavor, unfit for a data-oriented survey, we believe that it is important to see that classifications based on surface patterns can be dangerous and misleading, especially if one assumes a direct mapping from descriptive categories onto theoretical categories. We add, however, that the descriptive categories used for the maps are not affected by these different theoretical interpretations.
+Related map(s)
+Fixed Stress Locations
+References
+Dixon and Aikhenvald 2002
+Revithiadou 1999
+Hayes 1995
+×

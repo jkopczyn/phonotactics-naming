@@ -1,0 +1,1160 @@
+
+Help:IPA/Irish
+
+		This is the pronunciation key for IPA transcriptions of Irish on Wikipedia.
+It provides a set of symbols to represent the pronunciation of Irish in Wikipedia articles, and example words that illustrate the sounds that correspond to them. Integrity must be maintained between the key and the transcriptions that link here; do not change any symbol or value without establishing consensus on the talk page first.
+
+For an introductory guide on IPA symbols, see Help:IPA. For the distinction between [ ], / / and ⟨ ⟩, see IPA § Brackets and transcription delimiters.
+	
+
+Shortcut
+
+H:IPA-GAH:IPA-GA
+
+Wikipedia key to pronunciation of Irish
+
+The charts below show the way in which the International Phonetic Alphabet (IPA) represents Irish-language pronunciations in Wikipedia articles. For a guide to adding IPA characters to Wikipedia articles, see Template:IPA and Wikipedia:Manual of Style/Pronunciation § Entering IPA characters.
+
+See Irish phonology and Irish orthography for a more thorough look at the sounds of Irish and how they are represented in writing, respectively.
+
+Key
+
+Consonants[1]
+
+	Broad
+	Slender
+
+	IPA
+	Example
+	English approximation
+	IPA
+	Example
+	English approximation
+
+	bˠ
+	bain, scuab
+	boot
+	bʲ
+	béal, cnáib
+	beautiful
+
+	d̪ˠ
+	dorn, nead
+	do (but dental), though (Ireland)
+	dʲ
+	dearg, cuid
+	media
+
+	fˠ
+	fós, graf, pholl
+	fool
+	fʲ
+	fíon, stuif, phríosún
+	fuel
+
+	ɡ
+	gasúr, bog
+	goose
+	ɟ
+	geata, carraig
+	argue
+
+	ɣ
+	dhorn, ghasúr
+	Spanish higo
+	j[2][3]
+	dhearg, gheata
+	yellow
+
+	h[4]
+	Shasana, shean, thaisce, theanga, hata, na héisc
+	hand
+	—N/a
+
+	k
+	cáis, mac
+	cart
+	c
+	ceist, mic
+	cube
+
+	l̪ˠ[5]
+	labhair, balla
+	filth
+	l̠ʲ[5]
+	leabhair, goilleadh
+	million
+
+	lˠ[5]
+	fhlaith, bealach
+	pool
+	lʲ[5]
+	fhleasc, goile
+	leaf
+
+	mˠ
+	mór, am
+	moot
+	mʲ
+	milis, im
+	mute
+
+	n̪ˠ[6]
+	naoi, donna
+	tenth
+	n̠ʲ[6]
+	ní, bainne
+	onion
+
+	nˠ[6]
+	dona
+	noon
+	nʲ[6]
+	bainis
+	inch
+
+	ŋ
+	ngasúr
+	long
+	ɲ
+	ngeata
+	canyon
+
+	pˠ
+	poll, stop
+	poor
+	pʲ
+	príosún, truip
+	pure
+
+	ɾˠ
+	barr, carr
+	rule (but tapped)
+	ɾʲ
+	fhréamh, tirim
+	real (but tapped)
+
+	sˠ
+	Sasana, tús, speal
+	soon
+	ʃ [7]
+	sean, cáis
+	sheet
+
+	t̪ˠ
+	taisce, ceart
+	tool (but dental), thorn (Ireland)
+	tʲ [7]
+	tír, beirt
+	tune (accents without yod dropping)
+
+	w[8][3]
+	bhain, dubh, mhór, léamh, vóta
+	wood or voodoo
+	vʲ
+	bhéal, sibh, mhilis, nimh, veidhlín
+	view
+
+	x
+	cháis, taoiseach
+	loch (Scotland)
+	ç
+	cheist, deich
+	hue (pronounced strongly)
+
+Vowels
+
+	IPA
+	Examples
+	English approximation
+	IPA
+	Examples
+	English approximation
+
+	a
+	mac
+	trap
+	aː
+	tá
+	father
+
+	ɛ
+	ceist
+	best
+	eː
+	mé, gael
+	pay
+
+	ɪ
+	ith, duine
+	kit
+	iː
+	mín, naoi
+	mean
+
+	ɔ
+	olc, deoch
+	off
+	oː
+	bó, ceol
+	core
+
+	ʊ
+	dubh, fliuch
+	good
+	uː
+	tú
+	cool
+
+	ə
+	solas, milis
+	sofa
+	—N/a
+
+Diphthongs
+
+	IPA
+	Examples
+	English
+
+Approximation 
+
+	iə[9]
+	bia
+	idea
+
+	uə[9]
+	fuar
+	truant
+
+	əi[9][10]
+	saghas
+	light
+
+	əu[9][10]
+	leabhar
+	about
+
+Suprasegmentals
+
+	IPA	Explanation
+
+	ˈ
+	primary stress (placed before the stressed syllable);
+usually the first syllable except in Munster
+
+	ˌ
+	secondary stress (usually found only in compounds)
+
+Comparison of transcription schemes
+
+Materials published elsewhere use somewhat different conventions from those used at Wikipedia. For example, it is a longstanding tradition to leave velarized ("broad") consonants unmarked and mark palatalized ("slender") consonants with the prime, but that is not standard IPA usage.
+
+This section compares the IPA system used at Wikipedia (which is based on that used by Ailbhe Ní Chasaide in her description of Irish in the Handbook of the International Phonetic Association, ISBN 0-521-63751-1) with the systems used in some other works.
+
+	IPA
+	Ní Chasaide (1999)[11]
+(Gweedore)
+	Quiggin (1906)[12]
+(Glenties)
+	Breatnach (1947)[13]
+(Ring)
+	Ó Sé (2000)[14]
+(Dingle Peninsula)
+	Mhac an Fhailigh (1968)[15]
+(Erris)
+	Ó Siadhail (1988)[16]
+(Cois Fharraige)
+	Foclóir Póca (1993)[17]
+(Lárchanúint)
+
+	a
+	a
+	æ, α
+	a
+	a
+	a
+	æ:, a:
+	a
+
+	aː
+	æ
+	α:
+	a:
+	ɑː
+	a:
+	ɑ:
+	a:
+
+	bˠ
+	bˠ
+	b
+	b
+	b
+	b
+	b
+	b
+
+	bʲ
+	bʲ
+	b′
+	b′
+	b′
+	b′
+	b′
+	b′
+
+	c
+	c
+	k′
+	k′
+	k′
+	k′
+	k′
+	k′
+
+	ç
+	ç
+	ç
+	ç
+	x′
+	ç
+	x′
+	x′
+
+	d̪ˠ
+	d̪ˠ
+	d
+	d
+	d
+	d
+	d
+	d
+
+	dʲ
+	d̠ʲ
+	d′
+	d′
+	d′
+	d′
+	d′
+	d′
+
+	eː
+	e
+	e:
+	e:
+	eː
+	e:
+	e:
+	e:
+
+	ɛ
+	ɛ
+	ɛ, e
+	e
+	e
+	e
+	e
+	e
+
+	ə
+	ə
+	ə
+	ə
+	ə, ɪ
+	ə
+	ə
+	ə
+
+	əi
+	—
+	αi
+	əi
+	ai
+	əi
+	ai
+	ai
+
+	əu
+	au
+	αu
+	əu
+	ou
+	əu
+	au
+	au
+
+	fˠ
+	fˠ
+	f
+	f
+	f
+	f
+	f
+	f
+
+	fʲ
+	fʲ
+	f′
+	f′
+	f′
+	f′
+	f′
+	f′
+
+	ɡ
+	ɡ
+	g
+	g
+	ɡ
+	g
+	g
+	g
+
+	ɣ
+	ɣ
+	ℊ
+	γ
+	ɣ
+	ɣ
+	ɣ
+	γ
+
+	h
+	h
+	h
+	h, h′
+	h
+	h
+	h
+	h
+
+	iː
+	i
+	i:
+	i:
+	iː
+	i:
+	i:
+	i:
+
+	ɪ
+	ɪ
+	ï, i, y
+	i
+	i
+	i
+	i
+	i
+
+	iə
+	ia
+	iə
+	iə
+	iːə
+	iə
+	i:ə
+	iə
+
+	j
+	j
+	j
+	j
+	ɣ′
+	j
+	ɣ′
+	γ′
+
+	ɟ
+	ɟ
+	g′
+	g′
+	ɡ′
+	g′
+	g′
+	g′
+
+	k
+	k
+	k
+	k
+	k
+	k
+	k
+	k
+
+	l̪ˠ
+	l̪ˠ
+	L
+	l
+	l
+	L
+	L
+	l
+
+	lˠ
+	l
+	l
+
+	l̠ʲ
+	l̠ʲ
+	L′
+	l′
+	l′
+	L′
+	L′
+	l′
+
+	lʲ
+	l
+	l′
+	l′
+	l′
+
+	mˠ
+	mˠ
+	m
+	m
+	m
+	m
+	m
+	m
+
+	mʲ
+	mʲ
+	m′
+	m′
+	m′
+	m′
+	m′
+	m′
+
+	n̪ˠ
+	n̪ˠ
+	N
+	n
+	n
+	N
+	N
+	n
+
+	nˠ
+	n
+	n
+	n
+
+	n̠ʲ
+	n̠ʲ
+	N′
+	n′
+	n′
+	N′
+	N′
+	n′
+
+	nʲ
+	n′
+	n′
+	n′
+
+	ɲ
+	ɲ
+	ɲ
+	ŋ′
+	ŋ′
+	ŋ′
+	ŋ′
+	ŋ′
+
+	ŋ
+	ŋ
+	ŋ
+	ŋ
+	ŋ
+	ŋ
+	ŋ
+	ŋ
+
+	oː
+	o
+	o:, ɔ:
+	o:
+	oː
+	o:
+	o:
+	o:
+
+	ɔ
+	ʌ
+	ɔ, o̤
+	o
+	o
+	o
+	o
+	o
+
+	pˠ
+	pˠ
+	p
+	p
+	p
+	p
+	p
+	p
+
+	pʲ
+	pʲ
+	p′
+	p′
+	p′
+	p′
+	p′
+	p′
+
+	ɾˠ
+	ɾˠ
+	r, R
+	r
+	r
+	r
+	r
+	r
+
+	ɾʲ
+	ɾʲ
+	r′
+	r′
+	r′
+	r′
+	r′
+	r′
+
+	sˠ
+	sˠ
+	s
+	s
+	s
+	s
+	s
+	s
+
+	ʃ
+	ɕ
+	ʃ
+	ʃ
+	ʃ
+	ʃ
+	s′
+	s′
+
+	t̪ˠ
+	t̪ˠ
+	t
+	t
+	t
+	t
+	t
+	t
+
+	tʲ
+	t̠ʲ
+	t′
+	t′
+	t′
+	t′
+	t′
+	t′
+
+	uː
+	u
+	u:
+	u:
+	uː
+	u:
+	u:
+	u:
+
+	ʊ
+	ɤ
+	U
+	u
+	u
+	u
+	u
+	u
+
+	uə
+	ua
+	uə
+	uə
+	uːə
+	uə
+	u:ə
+	uə
+
+	vʲ
+	vʲ
+	v
+	v′
+	v′
+	v′
+	w′
+	v′
+
+	w
+	w
+	w
+	v
+	v
+	w
+	w
+	v
+
+	x
+	x
+	χ
+	x
+	x
+	x
+	x
+	x
+
+See also
+
+Category:Pages with Irish IPA (822)
+
+Notes
+
+↑ Irish makes contrasts between velarized ("broad") and palatalized ("slender") consonants. Velarized consonants, denoted in the IPA by a superscript ⟨ˠ⟩ (that is not a capital Y but a Latin letter, based on a Greek lowercase gamma, ⟨γ⟩), are pronounced with the back of the tongue raised toward the velum, which happens to the /l/ in English pill in some accents like RP and General American but not Hiberno-English. In Irish orthography, broad consonants are surrounded by ⟨a⟩, ⟨o⟩, and ⟨u⟩. Slender consonants, denoted in the IPA by a superscript ⟨ʲ⟩, are pronounced with the body of the tongue raised toward the hard palate like the articulation of the [j] sound in yes /jɛs/. In Irish orthography, slender consonants are surrounded by ⟨e⟩ and ⟨i⟩.
+
+↑ Also [ʝ] in some positions in some dialects. In Munster word final /j/ is fortified to [ɟ], merging with /ɟ/.
+
+1 2 Word final /əj/ (⟨(a)idh, (a)igh⟩) and /əw/ (⟨(e)abh, (e)amh⟩ or ⟨bh, mh⟩ after an epenthetic schwa) have merged with /ə/ in South Connacht. In North Connacht and Ulster they merge with /iː/ and /uː/, respectively. In Munster, the former is realised as [əɟ] and the latter as [əvˠ].
+
+↑ /h/ is neither broad nor slender, but can sometimes be elided when intervocalically (e.g. “athair” is pronounced as /aːɾʲ/).
+
+1 2 3 4 Few, if any, modern dialects of Irish distinguish all four types of L sound. Most dialects have merged /l̪ˠ/ and /lˠ/ as [l̪ˠ], and some have also merged /l̠ʲ/ and /lʲ/ as [lʲ]. Still others have merged /lˠ/ and /lʲ/ as [l].
+
+1 2 3 4 Few, if any, modern dialects of Irish distinguish all four types of N sound. Most dialects have merged /n̪ˠ/ and /nˠ/ as [n̪ˠ], and some have also merged /n̠ʲ/ and /nʲ/ as [nʲ]. Still others have merged /nˠ/ and /nʲ/ as [n]. In parts of Munster, /n̠ʲ/ has merged with /ɲ/ in non-initial position.
+
+1 2 Slender ⟨s⟩ and ⟨t⟩ can be either pronounced as /ʃ/ and /tʲ/ or /ɕ/ and /t͡ɕ/
+
+↑ [w~βˠ~vˠ] depending on dialect and position.
+
+1 2 3 4 All Irish diphthongs have falling sonority; they could therefore more precisely be transliterated as [iə̯, uə̯, əi̯, əu̯].
+
+1 2 /əi/ and /əu/ can be sometimes compressed into /eː/ and /oː/ in the Ulster dialect.
+
+↑ Ní Chasaide, Ailbhe (1999). "Irish" (PDF). Handbook of the International Phonetic Association. Cambridge: Cambridge University Press. pp. 111–116. ISBN 0-521-63751-1.
+
+↑ Quiggin, E. C. (1906). A Dialect of Donegal: Being the Speech of Meenawannia in the Parish of Glenties . Cambridge: Cambridge University Press.
+
+↑ Breatnach, Risteard B. (1947). The Irish of Ring, Co. Waterford. Dublin Institute for Advanced Studies. ISBN 0-901282-50-2. {{cite book}}: ISBN / Date incompatibility (help)
+
+↑ Ó Sé, Diarmuid (2000). Gaeilge Chorca Dhuibhne (in Irish). Dublin: Institiúid Teangeolaíochta Éireann. ISBN 0-946452-97-0.
+
+↑ Mhac an Fhailigh, Éamonn (1968). The Irish of Erris, Co. Mayo. Dublin Institute for Advanced Studies. ISBN 0-901282-02-2.
+
+↑ Ó Siadhail, Mícheál (1988). Learning Irish: An Introductory Self-tutor. New Haven: Yale University Press. ISBN 0-300-04224-8.
+
+↑ Foclóir póca: English-Irish/Irish-English dictionary. Dublin: An Gúm. 1993. ISBN 1-85791-047-8.
+
+External links
+
+Irish Phonetic Transcription Converter—Free Online Tool to convert Irish Text to IPA Phonetic Transcription
+
+	
+
+v
+
+t
+
+e
+
+International Phonetic Alphabet keys
+
+	
+
+Abkhaz
+
+Acehnese
+
+Adyghe
+
+Afrikaans
+
+Albanian
+
+Altai
+
+Amharic
+
+Arabic
+
+Modern Standard
+
+Egyptian
+
+Hejazi
+
+Lebanese
+
+Tunisian
+
+Armenian
+
+Assamese
+
+Asturian
+
+Australian languages
+
+Aymara
+
+Azerbaijani
+
+Bashkir
+
+Basque
+
+Belarusian
+
+Bengali
+
+Berber
+
+Bislama
+
+Bosnian
+
+Breton
+
+Bulgarian
+
+Burmese
+
+Catalan
+
+Standard
+
+Insular
+
+Chamorro
+
+Chinese
+
+Mandarin
+
+Cantonese
+
+Hokkien
+
+Jin
+
+Wu
+
+Xiang
+
+Corsican
+
+Croatian
+
+Czech
+
+Danish
+
+Dari
+
+Dutch
+
+Dzongkha
+
+English
+
+Old English
+
+Emilian-Romagnol
+
+Esperanto
+
+Estonian
+
+Extremaduran
+
+Fijian
+
+Finnish
+
+Franco-Provençal
+
+French
+
+Galician
+
+Georgian
+
+German
+
+Standard
+
+Alemannic
+
+Colognian
+
+Greek
+
+Greenlandic
+
+Gujarati
+
+Guadeloupean Creole
+
+Haitian Creole
+
+Hawaiian
+
+Hebrew
+
+Hindi
+
+Hmong
+
+Hungarian
+
+Icelandic
+
+Igbo
+
+Indonesian
+
+Inuktitut
+
+Inupiaq
+
+Irish
+
+Isan
+
+Italian
+
+Central
+
+Japanese
+
+Kannada
+
+Kazakh
+
+Khmer
+
+Korean
+
+Kurdish
+
+Kyrgyz
+
+Lakota
+
+Lao
+
+Latin
+
+Latvian
+
+Laz
+
+Ligurian
+
+Lithuanian
+
+Lombard
+
+Luxembourgish
+
+Macedonian
+
+Maithili
+
+Malagasy
+
+Malay
+
+Malayalam
+
+Maldivian
+
+Maltese
+
+Manx
+
+Māori
+
+Marathi
+
+Marshallese
+
+Mauritian Creole
+
+Mayan
+
+Mongolian
+
+Montenegrin
+
+Mirandese
+
+Nahuatl
+
+Navajo
+
+Neapolitan
+
+Nepali
+
+Northern Thai
+
+Norwegian
+
+Occitan
+
+Odia
+
+Okinawan
+
+Old Church Slavonic
+
+Ossetian
+
+Pashto
+
+Persian
+
+Piedmontese
+
+Polish
+
+Portuguese
+
+Punjabi
+
+Quechua
+
+Romanian
+
+Romansh
+
+Russian
+
+Samoan
+
+Sanskrit
+
+Sardinian
+
+Scottish Gaelic
+
+Serbo-Croatian
+
+Shan
+
+Sicilian
+
+Sinhala
+
+Slovak
+
+Slovene
+
+Somali
+
+Sorbian
+
+Spanish
+
+Swahili
+
+Swazi
+
+Swedish
+
+Sylheti
+
+Tagalog
+
+Tahitian
+
+Tai Lue
+
+Tajik
+
+Tamil
+
+Tatar
+
+Telugu
+
+Thai
+
+Tibetan
+
+Tigrinya
+
+Tok Pisin
+
+Tongan
+
+Turkish
+
+Turkmen
+
+Tuvaluan
+
+Tuvan
+
+Ukrainian
+
+Urdu
+
+Uzbek
+
+Uyghur
+
+Venetian
+
+Vietnamese
+
+Walloon
+
+Welsh
+
+West Frisian
+
+Xhosa
+
+Yiddish
+
+Yoruba
+
+Zhuang
+
+Zulu
+
+	Comparisons	
+
+IPA conventions for English
+
+English dialects
+
+Wikipedia pronunciation respelling
+
+Other English pronunciation respellings
+
+	Introductory guides	
+
+Symbols
+
+For English speakers
+
+Manual of Style: Pronunciation
+

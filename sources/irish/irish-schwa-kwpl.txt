@@ -1,0 +1,536 @@
+          The value of Irish schwa: An acoustic analysis of
+                          epenthetic vowels
+                                              Kerry McCullough∗
+
+                                      Department of Linguistics
+                               University of Kansas; Lawrence, KS, USA
+
+         This study was conducted in an effort to learn more about the phonology of the Irish language. The
+     research is intended to be a phonetic analysis of one of the phonological processes characteristic to Celtic
+     languages. The present study examines the extent to which schwa epenthesis in Irish acts as a neutral-
+     ization process. A list of 30 Irish words acting as near-minimal pairs was compiled for this study. Vowel
+     environment and syllable count matched across pairs, and only the vowel itself differed in whether it was
+     epenthetic or underlying. Six native-Irish speakers were recruited for this experiment representing all three
+     major dialects of the language: three speakers from Cork (Munster), two speakers from Donegal (Ulster),
+     one speaker from Connemara (Connacht). Participants read from the word list, reading each word twice.
+     Acoustic analysis focused on two measurements: vowel duration and formant frequencies. The formants
+     for each vowel type are comparable, but the difference in duration is significant, indicating that Irish schwa
+     epenthesis is an incomplete neutralization process. While schwa epenthesis has been reported to create an
+     identical phonological form to that of the underlying schwa, the significant difference in vowel duration
+     indicates a residual contrast of the original underlying forms.
+     Keywords: epenthesis, neutralization, Irish, vowel duration
+
+
+
+1. Introduction
+Epenthesis is a recognized neutralization process found in a variety of world languages including Arabic,
+Welsh, Mono, and Dutch (Hall, 2006, 2011). The insertion of an underlyingly absent vowel neutralizes
+pre-existing contrasts between different lexical items. Evidence of this process is visible in Irish, and most
+obviously in the orthography. Words like anam ([an@m] “soul”), become minimal pairs with words like
+ainm ([an@m] “name”), pronounced identically and distinguished only by the underlying value of schwa.
+    Epenthesis is a phonological process seen in a variety of Celtic languages. However, little literature
+exists that pertains to both the acoustic value of these vowels and Irish in particular. The goal of the present
+study is to identify whether or not there exists a difference between underlying and epenthetic schwa in
+Irish.
+
+2. Irish and epenthesis
+2.1. Irish language status. Irish is the first national language of the Republic of Ireland, despite only 1%
+of the Irish population relying solely on its use. There are only a few pockets in the western parts of the
+country where Irish is spoken on a daily basis; these areas are called Gaeltachts and are common in Counties
+Donegal, Galway, and Kerry (Hickey, 2014). Irish shares a unique relationship with English, for while Irish
+is the country’s first national language, English is the primary language used in everyday conversation.
+Throughout the country, Irish and English place names are both listed on road signs, public offices, and
+official documents (Hickey, 2014). Today, Irish is taught in schools until the equivalent of high school, and
+even then, the subject is not included in final examinations. The Irish language is a compulsory part of the
+curriculum in all government-funded schools in the Republic of Ireland (Ó’Murchú, 2001). In summary,
+  ∗ Address correspondence to kerrymccullough@ku.edu
+
+
+
+
+                                                       Kansas Working Papers in Linguistics | Vol. 38 (2017) | pp. 1–11
+2                                                 K. McCullough
+
+
+
+the people of Ireland have a core understanding of basic Irish, but the language is rarely used on a regular
+basis.
+
+2.2. Epenthesis in Irish. Epenthesis is the phonological process of vowel insertion. In most cases, such
+a process is used to break up phonologically inadmissible clusters, and in Irish, schwa [@] is the only
+epenthetic vowel. Hickey makes a number of general statements about the epenthetic vowel in Irish. Firstly,
+an epenthetic vowel never carries any lexical information nor does it indicate grammatical category. Addi-
+tionally, an epenthetic vowel is never stressed (Hickey, 2014).
+
+                                     gorm      “blue”    /goôm/      [goô@m]
+                                     ainm     “name”     /an@m/       [an@m]
+                                     seilg    “hunt”     /SEl@g/      [SEl@g]
+
+                                      Table 1: Words with epenthetic vowels
+
+    In essence, epenthetic schwa is inserted between two consonants where C1 is sonorant (Carnie, 1994).
+Furthermore, the consonants must be non-homorganic in their place of articulation. The first consonant in
+the sequence is always a sonorant, but the nature of the second is not obvious. It appears that the second
+consonant is at least as sonorant as a voiced obstruent, and is never a voiceless stop. Typologically, the
+more congruent the two consonants are in sonority, the less likely the phonology is to allow such a cluster;
+in general, languages disprefer rising or flat sonority sequences in their codas (Gordon, 2016). However,
+according to Carnie (1994), epenthesis is likely to be triggered in Irish where there is a minimal difference
+in sonority between adjacent segments. Running with Carnie’s conclusion, the farther apart the consonants
+in the sequence fall on the sonority scale, the more acceptable they are and the less likely epenthesis is to
+occur. Hickey (2014) goes on to discuss an explicit cut-off point in the sonority hierarchy in Irish between
+the voiced and voiceless plosives that trigger epenthesis:
+
+                                    a)    sonorants and sonorants
+                                    b)    sonorants and voiced fricatives
+                                    c)    sonorants and voiceless fricatives
+                                    d)    sonorants and voiced stops
+                                    e)    [sonorants and voiceless stops]
+
+                                 Table 2: Preferential environments for epenthesis
+
+   There is another type of epenthesis that has been identified in Irish, known as “secondary epenthesis.”
+This kind of epenthesis is an optional process that normally occurs in onset clusters (Carnie, 1994). Accord-
+ing to Carnie, secondary epenthesis occurs in the following morphological contexts: within morphemes,
+between compounds, between affixes and stems, at word edges, before inflectional suffixers, in borrowed
+words, and in the middle of words (Carnie, 1994). Given the different phonological and morphological
+nature of secondary epenthesis, the current study only focuses on the obligatory primary epenthesis that
+occurs within monomorphemic words.
+   This phenomenon is so prevalent in Irish, that evidence of it has even surfaced in Irish English. English
+words like film [fIlm] and farm [faôm] surface as [fIl@m] and [faô@m] in Irish English dialects (Sell, 2012). Irish
+English has been studied in its own right, and the epenthesis so characteristic to Irish plays a role in the
+English dialect spoken in Ireland. Overall, epenthesis is a very recognizable process within Irish phonology
+and, in fact, within a number of other Celtic languages.
+
+2.3. Literature review.
+
+2.3.1 Phonological invisibility. The motivation for this study stems most directly from research conducted
+on a similar language with a similar phenomenon. Hammond et al. (2014) asked if epenthetic vowels in
+Scottish Gaelic were treated the same as their underlying counterparts. Scottish Gaelic, like Irish, inserts
+neutral schwa in certain environments:
+
+
+                                                     Kansas Working Papers in Linguistics | Vol. 38 (2017) | pp. 1–11
+                                           The value of Irish schwa                                               3
+
+
+
+                           aran          /aran/       [ar.an]       “bread”
+                           arm           /arm/        [a.ram]       “army”
+                           seanair       /SEnEô/      [SEn.Eô]      “grandfather”
+                           seanmhair     /SEnvEô/     [SE.nEv.Eô]   “grandmother”
+
+                              Table 3: Scottish Gaelic words with inserted vowels
+
+
+
+    Earlier arguments had been made that the epenthetic schwa was excrescent, that it does not affect sylla-
+ble counts or other facets of the phonology of the word. Hall (2006) claimed that inserted vowels in Scottish
+Gaelic were phonologically invisible. The characteristics of excrescent vowels include: the vowel is likely
+optional; the vowel is either schwa or a copy of a nearby vowel; if it is a copy, it copies over sonorant or
+guttural consonants, “guttural” referring to velar, uvular, or pharyngeal consonants; the vowel occurs in
+heterorganic clusters; the vowel does not repair illicit structures (Hall, 2006). The inserted vowels in Scot-
+tish Gaelic exhibit many of these properties. In regard to Hammond et al.’s (2014) research, the argument
+of excrescence claimed that this extra vowel did not add any kind of additional syllable weight to the word.
+The Hammond et al. (2014) study sought to determine whether the inserted vowel was truly phonologically
+invisible as had been previously hypothesized. Hammond et al. (2014) conducted a variety of experiments
+including word identification tasks, nonsense word tasks involving spelling and vowel interpretation, and
+knocking for syllable beat tasks. Looking at the question of excrescence, the syllable counting tasks were
+revealing. Subjects were prompted with an English word or phrase and were instructed to give the Scottish
+Gaelic equivalent. They were then asked to count the number of syllables in the word they offered. Sub-
+jects in Hammond et al.’s (2014) study had a different syllable count for words with and without inserted
+vowels.
+    The results from Hammond et al.’s (2014) experiments indicate that native speakers of Scottish Gaelic
+do assign some value to epenthetic schwa, but that it is still less than their underlying counterparts. Par-
+ticipants preferred to count the inserted schwa as contributing half a syllable rather than none at all and
+responded to the prompt with responses like “one and a half syllables.” Native speakers were generally
+able to distinguish between the two types of vowels even when they were removed from context. Ham-
+mond et al. (2014) concluded that the inserted vowels in Scottish Gaelic are not equivalent to underlying
+vowels, but they are, nevertheless, phonologically recognized.
+
+2.3.2 Incomplete neutralization. By inserting a vowel into a word that underlyingly does not have that vowel
+(and in the case of Irish, the orthography doesn’t recognize it either), the distinction between lexical items
+that have and do not have that vowel underlyingly is wiped out. On the surface, these become words that
+are pronounced the same way despite their distinct meanings, and sentence context becomes one of the few
+cues that can help identify the word meaning.
+    However, an increasing number of phonetic studies have found that phonological processes that were
+reported to be neutralizing, in fact, leave a residual difference between the two underlying forms. This
+phenomenon is referred to as incomplete neutralization. For instance, studies conducted by Fourakis and
+Iverson (1984), Port and Crawford (1989), and Charles-Luce (1985) on German final devoicing found sig-
+nificant differences in the acoustics surrounding what should have been the neutralized environment. By
+measuring the vowel duration of the preceding vowel and the closure duration of the final consonant, these
+authors were able to identify an incomplete neutralization process (Zhang, 2017). Final devoicing is also
+recognized as an incomplete neutralization process in Russian. Using 34 word pairs contrasting in the
+underlying voicing of the final obstruent, Dmitrieva et al. (2010) analysed four measures (duration of the
+preceding vowel, duration of the final obstruent, duration of voicing into closure, duration of release of
+final stop). Their study revealed that speakers of Russian, native and learner, produce the two types of
+words differently, subconsciously recognizing that their underlying forms differ.
+   In Scottish Gaelic, schwa epenthesis should have wiped out the difference in syllable count between
+words like aran [ar.an] and arm [ar.am]. Although the main goal of Hammond et al’s (2014) experiment
+was to determine whether the epenthetic vowel was phonologically visible at all, the fact that they found
+a difference in syllable count between the two types of words indicates that epenthesis in Scottish Gaelic is
+
+
+                                                    Kansas Working Papers in Linguistics | Vol. 38 (2017) | pp. 1–11
+4                                                          K. McCullough
+
+
+
+an example of incomplete neutralization. Had the ∅ ∼ schwa distinction truly been lost, the syllable count
+of the word with the epenthetic vowel would have been identical to that of the one with the underlying
+schwa. But the contrast is still realized in the numerical values of the syllable count; words like arm [ar.am]
+that should have had one syllable were assigned an extra syllable 59% of the time (Hammond et al., 2014).
+   Looking at Irish epenthetic vowels, should there be a significant difference in the duration and formant
+values of epenthetic and underlying vowels, the Irish process of epenthesis should be considered an ex-
+ample of incomplete neutralization as well. The present study diverges from previous literature in that it
+focuses on a phonetic analysis of the sounds in question.
+
+3. Research proposal
+3.1. Research hypothesis. There is a significant difference between the vowel duration of epenthetic and
+underlying schwa in Irish. Additional differences between the two vowel types can be gleaned from for-
+mant frequencies. These two hypotheses involving context-independent differences differ from the final
+hypothesis that epenthetic vowels in environments where the sonority distinction between the two conso-
+nants is less severe should be longer as their presence is required to break up that dispreferred coda cluster.
+   The aim of this research is to establish whether there is any inherent acoustic difference between epenthetic
+and underlying vowels in Irish. Such a differentiation in acoustics would classify Irish epenthesis as an in-
+complete neutralization process.
+
+4. Methods
+4.1. Participants. All of the participants recruited for this experiment were native speakers of Irish, and to
+varying degrees, they instruct others in its use. Codes were used in place of participant names: the first
+letter refers to the dialect of the speaker and the second to their gender.
+
+    Participant      Location           Dialect         Profession                           Recruited via
+    M1-M             Cork               Munster         Professor of Modern                  Email
+                                                        Irish, Irish university
+    M2-M             Cork               Munster         Grammar school teacher               Email, family friend
+    M3-F             Cork               Munster         Grammar school teacher               Email, Facebook, family friend
+    U1-M             Donegal            Ulster          Instructor with Irish adult          Email
+                                                        language school
+    U2-F             Donegal            Ulster          Fulbright Teaching Assis-            Email
+                                                        tant, Irish College
+    C1-F             Connemara          Connacht        Celtic Studies Professor,            Email
+                                                        US university
+
+                                          Table 4: Participant background information
+
+    Recruiting participants for this study proved challenging as email was the primary means of communi-
+cation. Requests for advice and resources were sent to a myriad of educational institutions, ranging from
+universities to summer language retreats; the individuals above responded.
+
+4.2. Stimuli. A list of 15 Irish near-minimal pairs was constructed with the aid of an online Irish dictio-
+nary. Near-minimal pairs contained similar environments; emphasis was placed on the similarity of the
+surrounding consonants and, on occasion, on the quality of the preceding vowel.1 Stimuli contrasted in the
+underlying presence of schwa. 15 words contained an underlying schwa, recognized by the orthography;
+15 words contained an epenthetic schwa that was not recognized by the orthography.
+   1 The initial plan was to compile a word list and then insert the target words into carrier sentences to elicit less rehearsed speech.
+
+The carrier sentences proved problematic given Irish’s VSO structure, genitive case-markings, and the fact that few Irish experts were
+at hand to confirm the proposed structures.
+
+
+                                                               Kansas Working Papers in Linguistics | Vol. 38 (2017) | pp. 1–11
+                                           The value of Irish schwa                                              5
+
+
+
+                             Underlying                                 Epenthetic
+                 /ôb/                                    /ôb/
+                 parabal      [paô@bl]   “parable”       carball      [kaô@b@l]   “gum”
+
+                 /ôm/                                    /ôm/
+                 urraim       [oô@m]     “deference”     orm          [oô@m]      “on me”
+                 cothrom      [kOôIm]    “balance”       gorm         [goô@m]     “blue”
+                 éirim       [eôIm]     “gist”          feirm        [fEôIm]     “farm”
+
+                 /ôn/                                    /ôn/
+                 torann       [taô@n]    “sound”         carn         [kaô@n]     “heap”
+                 fearann      [fæô@n]    “grounds”       corn         [koô@n]     “trophy”
+
+                 /ôg/                                    /ôg/
+                 léirigh     [leôIg]    “manifest”      dearg        [daô@g]     “red”
+                 cóirigh     [koôIg]    “prepare”       lorg         [loô@g]     “invite”
+
+                 /lm/                                    /lm/
+                 foghlaim     [faulIm]   “glean”         colm         [k2l@m]     “dove”
+
+                 /lv/                                    /lv/
+                 talamh       [tal@v]    “ground”        sealbh       [SEl@v]     “possession”
+                 ullamh       [ol@v]     “ready”         balbh        [bol@v]     “mute”
+                 éileamh     [el@v]     “demand”        dealbh       [dæl@v]     “poor”
+
+                 /lg/                                    /lg/
+                 reilig       [ôElIg]    “graveyard”     seilg        [SEl@g]     “hunt”
+
+                 /nm/                                    /nm/
+                 anam         [an@m]     “soul”          ainm         [an@m]      “name”
+
+                 /nv/                                    /nv/
+                 gaineamh     [gan@v]    “sand”          banbh        [ban@v]     “piglet”
+
+                                              Table 5: Example?
+
+
+
+    The majority of the words used as stimuli were monomorphemic (orm, “on me” being the only excep-
+tion) and, on the surface, bisyllabic (parabal “parable” and carball “gum” being the only exceptions). Schwa
+was always realized in the second syllable of the word, whether it was epenthetic or underlying, and stress
+fell on the first syllable. The main focus of the study was the CVC/CVC segments in the second syllable of
+the near-minimal pairs, where V represents underlying schwa and V represents epenthetic schwa.
+
+4.3. Procedure. Participants were asked to read each word from the list twice before proceeding to the next.
+This instruction allowed for subjects to become comfortable with the target word and to give the researcher
+a choice in data selection, although the second utterance of each word was selected from each participant
+for consistency across samples.
+   Participants were left to their own preferences in how they recorded their speech, and a myriad of file
+types were submitted (ie. MP3, M4a, wma, .3gp). Each file was converted to a .wav file for analysis in Praat,
+but because of the long-distance and virtual nature of the researcher-participant interaction, control of the
+recording environment and full-knowledge of recording software was not available. Nevertheless, the data
+received was clear and organized.
+   Having converted the original sound files to .wav files, the second utterance of each word was identified
+and measured individually in Praat. Because of the sonorant nature of the consonant preceding the vowel,
+
+
+                                                   Kansas Working Papers in Linguistics | Vol. 38 (2017) | pp. 1–11
+6                                               K. McCullough
+
+
+
+special care was taken in measuring the duration of the vowel. The spectrograms were used to identify
+the vowels, and the beginning and end points of the vowel were located by sudden changes of the formant
+structure. All the vowel durations in this study were measured this way consistently. F1 and F2 were the
+formant frequencies measured in this study. Formant measurements were taken from the middle of the
+vowel utterance.
+
+5. Results
+All but one of the participants sent back recordings that contained the requested repetition of each word.
+The data from the last participant (C1-F) was taken from a recording that only had one utterance of each
+word. The duration patterns seen in her speech were vastly different from those observed in the other
+participants; the careful reading of the word list may have contributed to her slower speech and the dif-
+ference in underlying pattern. Due to this difference between subject data, results from C1-F are included
+separately but still acknowledged in the analysis.
+
+5.1. Vowel duration. A repeated measures ANOVA was run in SPSS to compile the data presented below:
+
+
+
+
+                          Figure 1: Vowel duration in epenthetic and underlying cases
+
+
+
+    Excluding the data from C1-F, results indicate that there is a significant difference in the duration of
+underlying and epenthetic vowels. Given the first five speakers, epenthetic vowels have an average du-
+ration of 0.059 seconds whereas underlying vowels average 0.069 seconds. Epenthetic vowels are nearly
+10 milliseconds shorter than their underlying counterparts; while this difference is likely unnoticeable to
+speakers, it is enough to note that there is an inherent acoustic difference between the two types of vowels.
+Results of the ANOVA were significant at p < 0.029. Considering the data with results from C1-F, there
+is no significant effect of the underlying vs. epenthetic variable and the null hypothesis is more appropri-
+ate (p = 0.086). C1-F, the one participant who read each word only once, was the only participant whose
+epenthetic vowels were not, on average, shorter than her underlying ones. This could be, in part, due to
+the fact that she only read each word once; her careful reading may have affected the rate of her speech
+and slowed it down in comparison to the other participants. After including the last set of data the average
+duration for epenthetic vowels jumped to 0.062 seconds and the average duration for underlying vowels
+went to 0.069, a difference too small to be considered significant.
+
+
+                                                   Kansas Working Papers in Linguistics | Vol. 38 (2017) | pp. 1–11
+                                           The value of Irish schwa                                             7
+
+
+
+
+                       Table 6: Results of repeated measures ANOVA on vowel duration
+
+
+
+
+                    Figure 2: Overall duration differences with and without data from C1-F
+
+
+
+
+5.2. Formant frequencies. The formant frequency measurements were not affected by adding C1-F’s data
+to the mix. F1 and F2 measurements for epenthetic vowels averaged at 550 Hz and 1680 Hz, respectively;
+underlying vowels averaged an F1 at 535 Hz and an F2 at 1729 Hz.
+   F1 and F2 averages were analyzed in SPSS using a repeated measures ANOVA. The p values for F1 (p
+= 0.39) and F2 (p = 0.23) did not indicate a significant difference between the two vowel types. It can be
+concluded that the formant frequencies of both epenthetic and Irish schwa are not significantly different
+from one another.
+
+5.3. Sonority of environments. Further analysis was conducted in relation to the environments in which
+schwa was inserted. This comparison was motivated by an interest in determining if the duration of the
+epenthetic vowel differed depending on the environment (i.e. Would it be longer if the sonority of the
+two consonants was more similar?) Considering Carnie’s previous mention of the sonority scale, each
+epenthetic environment was categorized according to consonant type and the averages of each speaker
+were compared.
+    No pattern was discovered that aligned with the notion of the sonority hierarchy and disliked coda
+sequences. Had the research hypothesis been correct, epenthetic vowels in sequences like (liquid + nasal)
+or (nasal + nasal) should have elicited longer durations given their proximity in the sonority hierarchy.
+While the pattern given this sample does not align with Carnie’s hypothesis, the sample size was not truly
+adequate to confirm this trend.
+
+
+                                                  Kansas Working Papers in Linguistics | Vol. 38 (2017) | pp. 1–11
+8                                              K. McCullough
+
+
+
+
+              Table 7: Results of repeated measures ANOVA on vowel duration excluding C1-F data
+
+
+
+
+                             Table 8: Results of repeated measures ANOVA on F1
+
+
+
+6. Discussion and conclusion
+The present study examined the acoustic characteristics of epenthetic vowels in Irish as compared to their
+underlying counterparts. Six native speakers of Irish were recruited for the experiment, all of them with
+careers related to teaching, a career that requires a standard knowledge of the Irish language. In order to
+compare the two vowel types in question, two measurements were taken: vowel duration and formant
+frequencies. The research hypothesis predicts a difference between the two types of vowels.
+    Results indicate that there is a significant acoustic difference in the duration of the vowels. Perhaps
+a residual effect left over from its underlying form, epenthetic vowels are generally shorter in duration
+(approximately 10 milliseconds) than underlying vowels. These results indicate that Irish epenthesis is an
+incomplete neutralization process. The process that should have eliminated the contrast between words
+fails to do so because the contrast leaves a residue on the surface forms of the words. In this case, the
+underlying absence of a vowel makes the inserted schwa shorter than one that is underlyingly present.
+Looking at the other measurements taken, formant frequencies were consistent across vowel types. This
+confirms that the epenthetic vowel is normally realized as neutral schwa.
+    Despite these discoveries, there were inherent setbacks to the set-up and actualization of this experi-
+ment. The small number of participants is a hindrance to the generalizability of the results. The difficulty
+in accessing native Irish speakers and experts on the language proved challenging. This was also seen in
+
+
+                                                  Kansas Working Papers in Linguistics | Vol. 38 (2017) | pp. 1–11
+                                            The value of Irish schwa                                             9
+
+
+
+
+                       Figure 3: Formant frequencies of epenthetic and underlying vowels
+
+
+
+
+the reliance on a word list rather than the use of meaningful Irish sentences. The limitations of words lists
+include: the plain reliance on orthography where the speaker’s production might be swayed on how the
+word is spelled; the repetitive nature of the word list leads to careful reading, which is more likely to exag-
+gerate any difference related to orthography. Future studies should take advantage of the opportunity to
+recruit more native Irish participants and to move away from strict word list use.
+    Questions regarding the value of the epenthetic vowel, its perception, and its initial motivation arose
+from this study. Having to transcribe recordings from an online Irish dictionary, the transcriptions seen
+in the original list of words with epenthetic vowels were based solely on one recording available via the
+website. Nevertheless, it was thought that in some cases [I] was more appropriate than [@]. The fact that
+[@] seemed to surface as [I] calls into question the phonological status of the epenthetic vowel and the
+process through which each of its forms is realized. Vowel harmony could play a role in determining which
+vowel is preferable given the features of the vowel in the first syllable, but further analyses are necessary
+before any real conclusion can be reached. Another research opportunity extends in the direction of speaker
+perception. Even though the difference in duration is statistically significant, it may be imperceptible to
+native speakers. Nevertheless, epenthetic vowels have a weight and affect the language’s phonology. A
+follow-up experiment related to Hammond et al.’s (2014) work with Scottish Gaelic is feasible now that an
+acoustic difference in the vowels can be accounted for.
+   Additionally, the notion that this vowel is epenthetic is motivated primarily through orthographic rep-
+resentation and historical linguistics (Jaskula, 2006). Epenthetic vowels are not represented in the orthogra-
+phy, and it is understood that that is the indication of their not existing in the underlying representation. In
+short, cues from the orthography are the driving force behind the classification of this vowel, and while the
+author did find one example of phonological alternation (hunt = seilg [SEl@g], hunter = sealgaire [SElg@ô@]),
+a more developed list and further research should be conducted in order to better understand how these
+words behave with and without this inserted vowel.
+    Results of this study indicate that although native speakers may not recognize it, there is an acoustic
+difference between Irish epenthetic and underlying schwa. This evidence of incomplete neutralization
+adds to the discussion on theoretical motivations of such processes and opens up doors for future study of
+the Celtic languages.
+
+
+                                                   Kansas Working Papers in Linguistics | Vol. 38 (2017) | pp. 1–11
+10                                             K. McCullough
+
+
+
+
+                              Table 9: Results of repeated measures ANOVA on F2
+
+
+                       Word      Environment     Sonority Sequence      Mean Dur. (s)
+                       balbh          l@v        liquid + fricative               0.096
+                       dealbh         l@v        liquid + fricative               0.069
+                       seilbh         l@v        liquid + fricative               0.076
+                       colm          l@m         liquid + nasal                   0.057
+                       feirm         ô@m         liquid + nasal                   0.065
+                       gorm          ô@m         liquid + nasal                   0.067
+                       orm           ô@m         liquid + nasal                   0.058
+                       carn          ô@n         liquid + nasal                   0.033
+                       corn          ô@n         liquid + nasal                   0.047
+                       seilg          l@g        liquid + plosive                 0.093
+                       carball       ô@b         liquid + plosive                 0.044
+                       dearg         ô@g         liquid + plosive                 0.068
+                       lorg          ô@g         liquid + plosive                 0.051
+                       leanbh        n@v         nasal + fricative                0.074
+                       ainm          n@m         nasal + nasal                    0.060
+
+                                                  Table 10
+
+
+
+Acknowledgements
+I would like to extend my thanks to Dr. Jie Zhang for guiding me through this research process and for
+helping me understand the implications of what I stumbled upon. I would also like to thank David, Anna,
+Seán, Louise, Liam, and Bairbre for taking the time to participate in this study.
+
+References
+Carnie, A. (1994). Whence sonority? Evidence from epenthesis in Modern Irish. Papers on Phonology and
+  Morphology.
+Charles-Luce, J. (1985). Word-final devoicing in German and the effects of phonetic and sentential contexts.
+  The Journal of the Acoustical Society of America, 77(S1), S85.
+Dmitrieva, O., Jongman, A., & Sereno, J. (2010). Phonological neutralization by native and non-native
+  speakers: The case of Russian final devoicing. Journal of Phonetics, 38(3), 483–92.
+Fourakis, M., & Iverson, G. K. (1984). On the ‘incomplete neutralization’ of German final obstruents. Pho-
+  netica, 41(3), 140–149.
+
+
+                                                  Kansas Working Papers in Linguistics | Vol. 38 (2017) | pp. 1–11
+                                           The value of Irish schwa                                            11
+
+
+
+                                       Sonority Sequence      Average
+                                       liquid + nasal         0.055
+                                       liquid + fricative     0.080
+                                       liquid + plosive       0.064
+                                       nasal + fricative      0.074
+                                       nasal + nasal          0.060
+
+                                                  Table 11
+
+
+
+
+                                                  Figure 4
+
+
+Gordon, M. (2016). Phonological typology. Oxford: Oxford University Press.
+Hall, N. (2006). Cross-linguistic patterns of vowel intrusion. Phonology, 23(3), 387–429.
+Hall, N. (2011). Vowel epenthesis. In The Blackwell Companion to Phonology (pp. 1576–1596) . Oxford: Wiley-
+   Blackwell.
+Hammond, M., Warner, N., Davis, A., Carnie, A., Archangeli, D., & Fisher, M. (2014). Vowel insertion in
+   Scottish Gaelic. Phonology, 31(1), 123–53.
+Hickey, R. (2014) The sound structure of modern Irish. Berlin: De Gruyter Mouton.
+Jaskula, K. (2006). Ancient sound changes and Old Irish phonology. Lublin.
+Ó’Murchú, H. (2001). The Irish language in education in the Republic of Ireland. Mercator-Education: Euro-
+   pean Network for Regional or Minority Languages and Education.
+Port, R., & Crawford, P. (1989). Incomplete neutralization and pragmatics in German. Journal of phonetics,
+   17, 257–282.
+Sell, K. (2012). [’fIl@m] and [’far@m]? Sociolinguistic findings on schwa epenthesis in Galway English. In
+   Migge, B., & Nı́ Chiosáin, M. (Eds.), Varieties of English around the world. Amsterdam/Philadelphia: John
+   Benjamins Publishing Company.
+Zhang, J. (2017). The consequences of incomplete neutralization [Lecture]. Linguistics 910. University of
+   Kansas, Lawrence, KS.
+
+
+
+
+                                                  Kansas Working Papers in Linguistics | Vol. 38 (2017) | pp. 1–11
+

@@ -1,0 +1,535 @@
+{{Short description|Sounds and pronunciation of Egyptian Arabic}}
+{{more citations needed|date=October 2014}}
+{{IPA notice}}
+This article is about the phonology of [[Egyptian Arabic]], also known as ''[[Cairo|Cairene]] Arabic'' or ''Masri''.<ref name="E25">{{e25|arz|Egyptian Arabic}}</ref> It deals with the [[phonology]] and [[phonetics]] of Egyptian Arabic as well as the [[phonological development]] of child native speakers of the dialect. To varying degrees, it affects the [[pronunciation]] of [[Modern Standard Arabic|Literary Arabic]] by native Egyptian Arabic speakers, as is the case for speakers of all other [[varieties of Arabic]].
+
+== Phonemes ==
+
+=== Consonants ===
+{| class="wikitable" style="text-align: center;"
+|+ Egyptian Arabic consonant phonemes{{sfnp|Watson|2002|p=21}}
+|-
+! rowspan="2" colspan=2 | &nbsp;
+! colspan="2" | [[Labial consonant|Labial]]
+! colspan="2" | [[Alveolar consonant|Alveolar]]
+! rowspan="2" | [[Palatal consonant|Palatal]]
+! rowspan="2" | [[Velar consonant|Velar]]
+! rowspan="2" | [[Uvular consonant|Uvular]]
+! rowspan="2" | [[Pharyngeal consonant|Pharyngeal]]
+! rowspan="2" | [[Glottal consonant|Glottal]]
+|-
+! <small>plain</small>
+! <small>[[pharyngealization|emphatic]]</small>
+! <small>plain</small>
+! <small>[[pharyngealization|emphatic]]</small>{{ref|1|1}}
+|-
+! colspan=2 | [[Nasal stop|Nasal]]
+| {{IPA link|m}} || style="background:#CAFF70"| ({{IPA link|ˤ|mˤ}}){{ref|4|4}} || {{IPA link|n}} || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp; ||&nbsp;
+|-
+! rowspan=2 | [[Stop consonant|Stop]]
+! <small>[[Voiceless consonant|voiceless]]</small>
+| style="background:#FFC9CF"| ({{IPA link|p}}){{ref|2|2}}|| &nbsp; || {{IPA link|t}} || {{IPA link|tˤ}} || &nbsp; || {{IPA link|k}} || style="background:#EEE8AA"| ({{IPA link|q}}){{ref|5|5}}|| &nbsp; || {{IPA link|ʔ}}
+|-
+! <small>[[Voiced consonant|voiced]]</small>
+| {{IPA link|b}} || style="background:#CAFF70"| ({{IPA link|ˤ|bˤ}}){{ref|4|4}}|| {{IPA link|d}} || {{IPA link|dˤ}} ||  <!-- d͡ʒ is a phoneme of Saidi dialect while this article is on Egyptian (North) dialect --> || {{IPA link|ɡ}}{{ref|3|3}} || &nbsp; || &nbsp; || &nbsp;
+|-
+! rowspan=2 | [[Fricative consonant|Fricative]]
+! <small>[[Voiceless consonant|voiceless]]</small>
+| {{IPA link|f}} ||&nbsp;|| {{IPA link|s}} || {{IPA link|sˤ}} || {{IPA link|ʃ}} || {{IPA link|x}} ||&nbsp;|| {{IPA link|ħ}} || rowspan="2" | {{IPA link|h}}
+|-
+! <small>[[Voiced consonant|voiced]]</small>
+| style="background:#FFC9CF"| ({{IPA link|v}}){{ref|2|2}} ||&nbsp;|| {{IPA link|z}} || style="background:#EEE8AA"| ({{IPA link|zˤ}}){{ref|5|5}} || style="background:#FFC9CF"| ({{IPA link|ʒ}}){{ref|2|2}} || {{IPA link|ɣ}} ||&nbsp; || {{IPA link|ʕ}} <!--|| &nbsp;-->
+|-
+! colspan=2 | [[Flap consonant|Flap]]/[[Trill consonant|trill]]
+| &nbsp; ||&nbsp;|| {{IPA link|ɾ}}~{{IPA link|r}} || style="background:#CAFF70"| ({{IPA link|ˤ|ɾˤ}}~{{IPA link|ˤ|rˤ}}){{ref|4|4}} || &nbsp; || &nbsp; || &nbsp; || &nbsp; || &nbsp;
+|-
+! colspan=2 | [[Approximant]]
+| &nbsp; ||&nbsp;||  {{IPA link|l}} ||style="background:#CAFF70"| ({{IPA link|ˤ|lˤ}}){{ref|4|4}} || {{IPA link|j}}&nbsp; || {{IPA link|w}} || &nbsp; || &nbsp; || &nbsp;
+|}
+
+{{refbegin}}
+*{{note|1|1}} [[Pharyngealization|Emphatic]] consonants are not commonly pronounced by illiterate speakers, which suggests that they are foreign and borrowed from Literary Arabic.
+*{{note|2|2}} Many Egyptians cannot pronounce <span style="background:#FFC9CF;padding:2px 2px;">{{IPA|[p, v, ʒ]}}</span>, which are mostly found in names or loanwords from languages like English, French and Persian, not Literary Arabic.{{sfnp|Watson|2002|p=22}}
+*: {{IPAblink|ʒ}}, which can come from the deaffrication of foreign {{IPAslink|d͡ʒ}} in Egyptianized loanwords, tends to merge with {{IPAblink|ʃ}}. For example, {{lang|arz|جراش}} ('garage') is mostly pronounced {{IPA|[ɡɑˈɾɑːʃ]}}, even by educated speakers.{{citation needed|date=July 2015}}
+* {{note|3|3}} A few [[rural]] speakers away from [[Cairo]] pronounce this {{IPAblink|ʒ}} instead of {{IPAblink|ɡ}},{{citation needed|date=July 2015}} but doing so in native vocabulary is not considered [[Prestige (sociolinguistics)|prestigious]].
+* {{note|4|4}} {{Harvcoltxt|Watson|2002}} argues that emphatic <span style="background:#CAFF70;padding:2px 2px;">{{IPA|/ɾˤ, bˤ, mˤ, lˤ/}}</span> are additional consonants in Egyptian Arabic with marginal status.
+* {{note|5|5}} <span style="background:#EEE8AA;padding:2px 2px;">{{IPA|/zˤ, q/}}</span> appear in borrowings from Literary Arabic with {{IPA|/ðˤ, q/}}. In inherited words, the two phonemes regularly became {{IPA|/dˤ, ʔ/}} respectively.
+*: Non-Egyptianized loanwords with {{IPAslink|q}} may either be Egyptianized to {{IPAblink|ʔ}} or approximated to {{IPAblink|k}}, with the front vowel {{IPAslink|æ}} being backed to {{IPAblink|ɑ}} in a word having an open vowel in the latter case.
+*: {{IPA|/ðˤ/}} in borrowings from Literary Arabic are realized as {{IPA|/zˤ/}}. A few words with original {{IPA|/dˤ/}} became with {{IPA|/zˤ/}}, e.g. from the [[triliteral]] root ض-ب-ط as in {{lang|ar|ضابط}} turned to {{lang|arz|ظابط}} {{IPA|[ˈzˤɑːbetˤ]}}, "police/military officer".
+*: Non-Egyptianized loanwords having [[interdental consonant]]s ({{IPAslink|θ}}, {{IPAslink|ð}}) are approximated to the [[sibilant consonant|sibilant]]s {{IPAblink|s}}, {{IPAblink|z}}.
+{{refend}}
+
+Traditionally, the <!--the case isn't restricted to words of Literary Arabic origin--> [[interdental consonant]]s {{IPA|/θ ð ðˤ/}} correspond to the Egyptian Arabic [[alveolar consonant]]s {{IPA|/t d dˤ/}}.{{citation needed|date=July 2015}} This is a feature common to some North African Arabic varieties and is attested in pre-modern, inherited words:
+* {{IPA|/θ/}} > {{IPA|/t/}}: {{IPA|/taʕlab/}} ('fox') from {{IPA|*/θaʕlab/}} {{lang|ar|ثعلب}} (never *{{IPA|/saʕlab/}}). Likewise: {{IPA|/talɡ/}} ('ice') from {{IPA|*/θalɟ/}} {{lang|ar|ثلج}}, {{IPA|/taman/}} ('price') from {{IPA|*/θaman/}} {{lang|ar|ثمن}}, {{IPA|/talaːta/}} ('three') from {{IPA|*/θalaːθa/}} {{lang|ar|ثلاثة}}, {{IPA|/miħraːt/}} ('plough') from {{IPA|*/miħraːθ/}} {{lang|ar|محراث}}, and {{IPA|/ʕatar/}} ('tripped') from *{{IPA|/ʕaθar/}} {{lang|ar|عثر}}.
+* {{IPA|/ð/}} > {{IPA|/d/}}: {{IPA|/deːl/}} ('tail') from {{IPA|*/ðajl/}} {{lang|ar|ذيل}} and never {{IPA|/zajl/}}. Likewise {{IPA|/dakar/}} ('male') from {{IPA|*/ðakar/}} {{lang|ar|ذكر}}, {{IPA|/kidib/}} ('lied') from {{IPA|*/kaðib/}} {{lang|ar|كذب}}, and {{IPA|/diːb/}} ('wolf') from {{IPA|*/ðiʔb/}} {{lang|ar|ذئب}}.
+* {{IPA|/ðˤ/}} > {{IPA|/d(ˤ)/}}: {{IPA|/d(ˤ)ufr/}} ('nail') from {{IPA|*/ðˤufr/}} {{lang|ar|ظفر}} (never *{{IPA|/zˤufr/}}). Likewise {{IPA|/ðˤ/}} > {{IPA|/dˤ/}}: {{IPA|/dˤalma/}} ('darkness'), from {{IPA|*/ðˤulma/}} {{lang|ar|ظلمة}}; {{IPA|/ʕadˤm/}} ('bone'), from عظم {{IPA|/ʕaðˤm/}}.
+However, unlike other North African varieties, in Egyptian Arabic, the Literary Arabic interdental consonants {{IPA|/θ ð ðˤ/}} may correspond to [[sibilant consonant]]s {{IPA|/s z zˤ/}}, particularly in more recent learned borrowings.{{sfnp|Watson|2002|p=22}}
+
+* {{IPA|/θ/}} > {{IPA|/s/}}: {{IPA|/sawra/}} ('revolution'), from Literary {{IPA|/θawra/}} {{lang|ar|ثورة}}
+* {{IPA|/ð/}} > {{IPA|/z/}}: {{IPA|/ʔizaːʕa/}} ('broadcasting'), from Literary {{IPA|/ʔiðaːʕa/}} {{lang|ar|إذاعة}}
+* {{IPA|/ðˤ/}} > {{IPA|/zˤ/}}: {{IPA|/bazˤr/}} ('clitoris'), from Literary {{IPA|/baðˤr/}} {{lang|ar|بظر}}
+
+The correspondent phoneme of the Classical Arabic ''{{Transliteration|ar|ALA-LC|j}}'', {{lang|ar|ج}} {{IPA|*/ɟ/}}, is realized as a [[velar consonant|velar]] in the dialect of Cairo, in the same way as it is in some Arabic dialects of southern Yemen.{{sfnp|Watson|2002|p=16}} Thus, ''{{Transliteration|ar|DIN|ǧabal}}'' {{lang|ar|جبل}} ('mountain') is pronounced, even in Literary Arabic, as {{IPA|[ˈɡæbæl]}} rather than {{IPA|/d͡ʒabal/}}.
+
+The linguist Janet C. E. Watson considers the following to be additional marginal consonants:{{sfnp|Watson|2002|p=22}}
+* The emphatic rhotic {{IPA|/rˤ/}} in some native words, such as {{IPA|[ˈbɑʔɑɾi]}} ('my cows', {{IPA|/ˈbaʔarˤ/}} being 'cows'), which contrasts with {{IPA|[ˈbæʔæɾi]}} ('cow-like, of cows', a derived adjective). Additionally, in loanwords from European languages, such as {{IPA|[bɑɾɑˈʃot]}} ('parachute').
+* The labial emphatics {{IPA|/bˤ/}} and {{IPA|/mˤ/}} also in loanwords; minimal pairs include {{IPA|/bˤaːbˤa/ [ˈbɑːbɑ]}} ('patriarch') vs {{IPA|/baːba/ [ˈbæːbæ]}} ('[[Paopi]]').
+
+Classical Arabic *{{IPAslink|q}} became {{IPAblink|ʔ}} in Cairo and the Nile Delta (a feature also shared with [[Levantine Arabic]]),{{sfnp|Watson|2002|p=17}} but {{IPAslink|q}} is retained natively in some dialects to the west of the Nile Delta, outside of [[Alexandria]],{{sfnp|Behnstedt|Woidich|1985|p=?}} and has been reintroduced as a marginal phoneme from Standard Arabic, particularly relating to certain religious words,{{sfnp|Watson|2002|p=17}} besides others such as those deriving from the root {{IPA|/θ-q-f/}}, relating to the [[intellect]] and [[culture]]. {{IPA|/q/}} may be used to distinguish between homophones, at least in mildly careful speech. For example, {{lang|ar|قانون}} {{IPA|/ʔæˈnuːn/}} may be disambiguated as {{IPA|[qɑˈnuːn]}} ('law') vs. {{IPA|[ʔæˈnuːn]}} ('[[kanun (instrument)|kanun]], a musical instrument'); {{lang|ar|قوى}} {{IPA|/ˈʔæwi/}} as {{IPA|[ˈqɑwi]}} ('strong') or the colloquial adverb {{IPA|[ˈʔæwi]}} ('very').<ref name="أبونا_داوود">{{Citation |title=ربنا قوي أوي - تأمل - أبونا داوود لمعي |url=https://www.youtube.com/watch?v=3vKGdMhNSDU |access-date=2023-12-23 |language=arz}}</ref> {{IPAslink|v}},<ref>{{Citation |title=الحلقة 11 نيفين الجندي {{!}} ازاي تلاقي نفسك |url=https://www.youtube.com/watch?v=w0JHMyGkcf8&t=67s |access-date=2023-12-23 |language=arz}}</ref> {{IPAslink|p}},<ref>{{Citation |title=د. پيتر حبشي كل ما تريد معرفته عن جفاف العين. |url=https://www.youtube.com/watch?v=CaVVjV9r05s&t=467s |access-date=2023-12-23 |language=arz}}</ref> and {{IPAslink|ʒ}} appear in loanwords such as {{IPA|[ʒæˈkettæ, ˈʒæ(ː)ket]}} ('jacket').<ref>{{Citation |title=نــاقـص حـتـه / وجـيـه عـزيـز ...... شعر على سلامه |url=https://www.youtube.com/watch?v=FnKvRMDvh_c&t=55s |access-date=2023-12-23 |language=arz}}</ref>
+
+==== Allophones ====
+===== Assimilation =====
+* [[Pharyngeal consonant]]s before {{IPAslink|h}}:
+** The sequence {{IPA|/ħ'''h'''/}} is more commonly pronounced {{IPA|[ħ'''ħ''']}}, especially outside of careful speech.{{citation needed|date=July 2015}} For example, {{IPA|/fæˈtæħ'''h'''æ/}} ('opened it<sup>(feminine)</sup>') → {{IPA|[fæˈtæħ'''ħ'''æ]}}.
+** The sequence {{IPA|/ʕh/}} is more commonly pronounced {{IPA|[ʕ̞ħ̞]}} (or sometimes {{IPA|[ħħ]}}), especially outside of careful speech.{{citation needed|date=July 2015}} For example, {{IPA|/biˈtaʕha/}} ('hers') → {{IPA|[beˈtæʕ̞ħ̞æ]}} or {{IPA|[beˈtæħħæ]}}.
+* {{IPAslink|n}} before {{IPAslink|b}}:
+** Often, the sequence of {{IPA|/nb/}} assimilates to {{IPA|[mb]}}. 
+**: Examples: {{IPA|/zanb/}} ('guilt') → {{IPA|[zæmb]}}; {{IPA|/ʔanˈbuːba/}} ('tube') → {{IPA|[ʔæmˈbuːbæ]}}; {{IPA|/ilˈlinbi/}} ('[[Edmund Allenby, 1st Viscount Allenby|Allenby]]') → {{IPA|[elˈlembi]}}.<ref group="note">An Egyptian popular film called, ''El-Lembi'' ({{lang|arz|اللمبى}}), named after [[Edmund Allenby, 1st Viscount Allenby|Allenby]], but has no relation to him, it is a light-comedy movie character.</ref>
+* [[Sibilant consonant]]s before {{IPAslink|ʃ}}:
+** Word-finally:
+*** The sequences {{IPA|/sʃ/}} and {{IPA|/sˤʃ/}} are more commonly pronounced {{IPA|[ss]}}, especially outside of careful speech.{{citation needed|date=July 2015}} For example, {{IPA|/mabas'''ʃ'''/}} ('didn't kiss') → {{IPA|[mæˈbæ'''s(s)''']}}
+*** The sequences {{IPA|/zʃ/}} and {{IPA|/zˤʃ/}} are more commonly pronounced {{IPA|[ss]}}.{{citation needed|date=July 2015}} For example, {{IPA|/mabazˤʃ/}} ('wasn't corrupt') → {{IPA|[mɑˈbɑs(s)]}}.
+** Intervocalic:
+*** {{IPA|/sʃ/}} → {{IPA|[ʃʃ]}}: {{IPA|/kiːsʃibsi/}} ('''[[Potato chips|Chipsy]]'' sac') → {{IPA|[ˈkiːʃˈʃibsi]}}
+
+===== Voicing and devoicing =====
+For some speakers, there is a [[Consonant voicing and devoicing|voicing and devoicing]] [[Assimilation (linguistics)|assimilation]] for the following consonants:
+* The sequence {{IPA|/ʒʃ/}} is more commonly pronounced {{IPA|[ʃʃ]}}. For example, {{IPA|/mamantiʒʃ/}}  ('didn't montage') → {{IPA|[mæmænˈteʃ(ʃ)]}}.
+<!--don't add tˁ and dˁ, the latter is a learned consonant -->
+* Voiced: {{IPAslink|t}} → {{IPAblink|d}}; {{IPAslink|s}} → {{IPAblink|z}}; {{IPAslink|sˤ}} → {{IPAblink|zˤ}}; {{IPAslink|k}} → {{IPAblink|ɡ}}; {{IPAslink|x}} → {{IPAblink|ɣ}}; {{IPAslink|ʃ}} → {{IPAblink|ʒ}}; {{IPAslink|f}} → {{IPAblink|v}}.
+* Devoiced: {{IPAslink|d}} → {{IPAblink|t}}; {{IPAslink|z}} → {{IPAblink|s}}; {{IPAslink|zˤ}} → {{IPAblink|sˤ}}; {{IPAslink|ɡ}} → {{IPAblink|k}}; {{IPAslink|ɣ}} → {{IPAblink|x}}; {{IPAslink|ʒ}} → {{IPAblink|ʃ}}; {{IPAslink|v}} → {{IPAblink|f}}.
+When the input consonants are plosives differing only in voicing, the resultant assimilation will be complete.
+* Examples on voicing assimilation: {{IPA|/la'''x'''batˤ/}} ('he/it confused') → {{IPA|[ˈlɑ'''ɣ'''bɑtˤ]}}; {{IPA|/ji'''s'''baʔ/}} ('outrun') → {{IPA|[ˈje'''z'''bæʔ]}}; {{IPA|/ma'''ʃ'''ˈbuːh/}} ('suspected') → {{IPA|[mæ'''ʒ'''ˈbuːh]}}; {{IPA|/la'''f'''zˤ/}} ('utter') → {{IPA|[lɑ'''v'''zˤ]}}; {{IPA|/mi'''t'''ˈdaːjiʔ/}} ('annoyed') → {{IPA|[me'''d'''ˈdæːjeʔ]}}, a complete assimilation.
+* Examples of devoicing assimilation: {{IPA|/mo'''ɡ'''ˈtamaʕ/}} ('society') → {{IPA|[mo'''k'''ˈtæmæʕ]}}; {{IPA|/jista'''ɣ'''faɾ/}} ('ask forgiveness [of God]') → {{IPA|[jesˈtɑ'''x'''fɑɾ]}}; {{IPA|/xa'''d'''t/}} ('took') → {{IPA|[xæ'''t'''(t)]}}, a complete assimilation.
+
+=== Vowels ===
+{{see also|Coptic language#Vowels}}
+
+The Egyptian Arabic [[Vowels#systems|vocalic system]] differs from [[Classical Arabic]]. The system of vowels is as follows:
+
+{|class="wikitable" text-align="center"
+|+ Vowel phonemes
+! rowspan=2 |
+! colspan=2 | Short
+! colspan=2 | Long
+|-
+! [[Front vowel|Front]]
+! [[Back vowel|Back]]
+! [[Front vowel|Front]]
+! [[Back vowel|Back]]
+|-align=center
+! [[Close vowel|Close]]
+| rowspan="2" | {{IPA link|i}}~{{IPA link|ɪ}}~{{IPA link|e}}
+| rowspan="2" | {{IPA link|u}}~{{IPA link|ʊ}}~{{IPA link|o}}
+| {{IPA link|iː}}
+| {{IPA link|uː}}
+|-align=center
+! [[Mid vowel|Mid]]
+| {{IPA link|eː}}
+| {{IPA link|oː}}
+|-align=center
+! [[Open vowel|Open]]
+| {{IPA link|æ}}
+| {{IPA link|ɑ}}
+| {{IPA link|æː}}
+| {{IPA link|ɑː}}
+|}
+
+The short vowels {{IPA|/ɪ/}} and {{IPA|/ʊ/}} are realized as {{IPAblink|i}} and {{IPAblink|ʊ}} respectively at the end of a word. When {{IPA|/ɪ/}} surfaces as an epenthetic vowel at the end of a word, it is strictly {{IPAblink|e}} contrasting with the [[possessive suffix]] {{IPAblink|i}}. The vowel {{IPAblink|ɑ}} is mostly from non-Semitic words if not in words with [[emphatic consonant]]s.
+
+The symbols {{angbr IPA|e}} and {{angbr IPA|o}} represent vowels that vary between close-mid {{IPA|[{{IPAplink|e}}, {{IPAplink|o}}]}} and near-close {{IPA|[{{IPAplink|e̝}}, {{IPAplink|o̝}}]}}. Their centralized allophones (transcribed with {{angbr IPA|ɘ}} and {{angbr IPA|ɵ}}) have the same variable height: {{IPA|[{{IPAplink|ɘ}} ~ {{IPAplink|ɘ̝}}]}} and {{IPA|[{{IPAplink|ɵ}} ~ {{IPAplink|ɵ̝}}]}}.
+
+The final allophone of {{IPA|/u/}} varies in height between close {{IPAblink|u}} and close-mid {{IPAblink|o}} ({{IPA|[{{IPAplink|ʉ}} ~ {{IPAplink|ɵ}}]}} when centralized). For the sake of simplicity, only {{angbr IPA|u}} and {{angbr IPA|ʉ}} are used in this section.
+
+{|
+| '''Long vowels''' (always stressed)
+|-
+|'''{{IPA|/iː/}}''': {{IPAblink|iː}}
+|-
+|'''{{IPA|/uː/}}''': {{IPAblink|uː}}
+|-
+|'''{{IPA|/eː/}}''': {{IPAblink|eː}}
+|-
+|'''{{IPA|/oː/}}''': {{IPAblink|oː}}
+|-
+|'''{{IPA|/aː/}}''': {{IPAblink|æː}}, {{IPAblink|ɑː}}
+|}
+
+{{IPA|/eː/}} and {{IPA|/oː/}} are close-mid {{IPA|[{{IPAplink|eː}}, {{IPAplink|oː}}]}}.
+The following centralized realizations are possible around emphatic consonants.
+{|
+|{{center|{{IPAblink|iː}} &nbsp; → &nbsp; {{IPAblink|ɨː}}}}
+|-
+|{{center|{{IPAblink|i}} &nbsp; → &nbsp; {{IPAblink|ɨ}}}}
+|-
+|{{center|{{IPAblink|uː}} &nbsp; → &nbsp; {{IPAblink|ʉː}}}}
+|-
+|{{center|{{IPAblink|u}} &nbsp; → &nbsp; {{IPAblink|ʉ}}}}
+|-
+|{{center|{{IPAblink|eː}} &nbsp; → &nbsp; {{IPAblink|ɘː}}}}
+|-
+|{{center|{{IPAblink|e}} &nbsp; → &nbsp; {{IPAblink|ɘ}}}}
+|-
+|{{center|{{IPAblink|oː}} &nbsp; → &nbsp; {{IPAblink|ɵː}}}}
+|-
+|{{center|{{IPAblink|o}} &nbsp; → &nbsp; {{IPAblink|ɵ}}}}
+|}
+
+{{IPAblink|eː}} and {{IPAblink|oː}} are derived from the [[Classical Arabic]] [[diphthong]]s {{IPA|/aj/}} and {{IPA|/aw/}}, respectively, when occurring in [[closed syllable]]s (i.e. not followed by a vowel).  Note that the diphthongs {{IPA|/aj/}} and {{IPA|/aw/}} also occur in the same environment, due to later deletion of unstressed vowels and resulting contraction, e.g. {{IPA|/mudawla/}} {{IPA|[moˈdæwlæ]}} ('consultation') from Classical {{IPA|*/mudaːwala/}}.{{sfnp|Watson|2002|p=23}} Minimal pairs such as {{IPA|/ʃajla/}} {{IPA|[ˈʃæjlæ]}} ('carrying fem. sg.'  and {{IPA|/ʃeːla/}} {{IPA|[ˈʃeːlæ]}} ('burden') also occur.  Both of these words are derived from {{IPA|*/ʃaːjila/}}; {{IPA|/ʃeːla/}} is the phonologically regular outcome, while {{IPA|/ʃajla/}} is an analogical reformation based on the corresponding participial form {{IPA|/CaCCa/}} of other verbs of the same class.
+
+Egyptian Arabic maintains in all positions the early post-Classical distinctions between short {{IPAslink|i}} and {{IPAslink|u}}. Unlike, for example, [[Levantine Arabic]] dialects, which merge {{IPAslink|i}} and {{IPAslink|u}} into {{IPAblink|e}} in most positions, and [[Moroccan Arabic]], which deletes {{IPAslink|i}}, {{IPAslink|u}} and {{IPAslink|a}} in almost all positions. In particular, note the different shapes and vowel distinctions between {{IPA|[keˈtæːb]}} ('book') and {{IPA|[ɡoˈmæːl]}} ('beautiful' pl.) vs. {{IPA|[ɡeˈmæːl]}} ('camels') and {{IPA|[exˈtɑːɾ]}} ('he chose'); in most Levantine dialects, all the short vowels in these words are [[elision|elided]], leading to the identical shapes {{IPA|/ktaːb/}}, {{IPA|/ʒmaːl/}}, {{IPA|/xtaːr/}}.
+
+;Partial vowel allophones:
+The phonemes {{IPA|/a/}} and {{IPA|/aː/}} are in the process of splitting into two phonemes each, resulting in the four Egyptian Arabic phonemes {{IPA|/æ æː ɑ ɑː/}}.  The front and back variants alternate in verbal and nominal paradigms in ways that are largely predictable, but the back variants {{IPA|/ɑ ɑː/}} occur unpredictably in some lexical stems, especially those of non-Semitic origin.  This is discussed more below.
+
+;Vowel allophones:
+Vowels {{IPAblink|e}} and {{IPAblink|o}} are often regarded as allophones of the vowels {{IPA|/i/}} and {{IPA|/u/}} respectively instead of constituting separate vowel phonemes; so they cannot form minimal pairs. For further discussion regarding vowel allophony in Egyptian Arabic, see {{harvnb|Georgiou|2018}}.
+Also Watson does not consider the short mid vowels {{IPA|[e]}} and {{IPA|[o]}} as phonemes on their own and says that they are not used by most speakers of Cairene.{{sfnp|Watson|2002|p=22|loc=2.4.3 Diphthongs with footnote 6}}
+Woidich argues that educated speakers of Cairene when pronouncing carefully and slowly tend to distinguish short {{IPA|[e]}} and {{IPA|[o]}} as the results of shortened {{IPA|/eː/}} and {{IPA|/oː/}} from short {{IPA|[ɪ]}} and {{IPA|[ʊ]}} which leads to minimal pairs between them, but stresses that this does not happen with normal speech tempo.{{sfnp|Woidich|2006|p=7}}
+
+;Epenthesis:
+An [[epenthesis|epenthetic]] vowel is automatically inserted after the second of three or more consonants in a cluster to break up such clusters.  The epenthetic vowel is analyzed as {{IPAslink|i}}, even though there is a minimal pair distinguishing in many cases between {{IPAblink|e}} and {{IPAblink|i}}.
+*An example contrasting possession:
+**{{IPA|/bint ɡa.miː.la/}} {{IPA|[ˈben.t'''e''' ɡæˈmiː.læ]}} ('a beautiful girl', {{lang|arz|بنت جميلة}})
+**{{IPA|/bin.t'''i''' ɡa.miː.la/}} {{IPA|[ˈben.t'''i''' ɡæˈmiː.læ]}} ('my girl is beautiful', {{lang|arz|بنتى جميلة}})
+*Another example contrasting gender:
+**{{IPA|/ʕa.malt ʔeː/}} {{IPA|[ʕæˈmæl.t'''e''' ʔeː]}} ('what did you (m.) do?', {{lang|arz|عملت ايه؟}})
+**{{IPA|/ʕa.mal.t'''i''' ʔeː/}} {{IPA|[ʕæˈmæl.t'''i''' ʔeː]}} ('what did you (f.) do?', {{lang|arz|عملتى ايه؟}})
+
+==== Emphasis spreading ====
+{{Unreferenced section|date=March 2024}}
+
+Many spoken [[Arabic varieties]] have developed two allophones of the [[Classical Arabic]] vowels {{IPAslink|a}} and {{IPAslink|aː}}, with fronted allophones {{IPA|[æ æː]}} occurring in most circumstances, but backed allophones {{IPA|[ɑ ɑː]}} occurring in the vicinity of [[emphatic consonant]]s.  This process is known as '''emphasis spreading'''. The exact criteria of both "vicinity" and "emphatic consonant" varies depending on the individual speech variety.  In Egyptian Arabic, the occurrence of {{IPA|[ɑ ɑː]}} is no longer completely predictable, suggesting that these sounds have become [[phoneme|phonemicized]] or inherited from the Coptic language, the former language of Egypt; but see below for more discussion.
+
+In Egyptian Arabic, the consonants that trigger emphasis spreading include the [[pharyngealized]] consonants {{IPA|/tˤ dˤ sˤ zˤ/}}, the [[uvular consonant|uvular]] [[stop consonant|stop]] {{IPAslink|q}}, and some instances of {{IPAslink|r}} (see below).  On the other hand, the [[pharyngeal consonant]]s {{IPA|/ħ ʕ/}} do ''not'' trigger emphasis spreading; in the prestigious Cairene dialect, the [[velar consonant|velar]] [[fricative]]s {{IPA|/x ɣ/}} also do not, although this is different in the [[Sa'idi Arabic|Saidi]] variant in which they are [[uvular consonant|uvular]] {{IPA|[χ ʁ]}}.
+
+In general, when emphasis spreading is triggered, the back variants {{IPA|[ɑ ɑː]}} spread both forward and backward throughout the phonological word, including any morphological prefixes, suffixes and [[clitic]]s. Note that this is different from many other Arabic varieties.  For example, in [[Moroccan Arabic]], emphasis spreading usually travels no farther than the first full vowel on either side of the triggering consonant, and in many varieties of [[Levantine Arabic]], emphasis spreading is of indefinite extent but is blocked by the phonemes {{IPA|/j ʃ/}}.  Nevertheless, emphasis spreading is not completely reliable, and there is some free variation, especially in the pronunciation of prefixes and suffixes at some distance from the triggering consonant.
+
+Some instances of {{IPAslink|r}} trigger emphasis spreading, while others do not. Originally, an {{IPAslink|r}} adjacent to {{IPAslink|i}} was considered non-emphatic, while others were emphatic and triggered emphasis spreading.  Currently, however, this is no more than a rough guideline, as many exceptions have since developed.  This situation has led the linguist ''Janet C. E. Watson'', who mostly studied the [[Yemeni Arabic]] dialects, to postulate the existence of two phonemes {{IPA|/r rˤ/}}, which both surface as {{IPA|[r~ɾ]}} but where only {{IPAslink|rˤ}} triggers emphasis spreading.  This analysis is not completely ideal in that these two resulting "phonemes" {{IPA|/r rˤ/}} alternate to a large extent (often unpredictably) in related forms derived from the same root.
+
+Currently, to the extent that the emphatic or non-emphatic variant of {{IPAslink|r}} can be predicted, it works as follows: If {{IPAslink|r}} is adjacent to a vowel {{IPA|/i(ː)/}}, emphasis-spreading is inhibited; otherwise, it occurs.  The {{IPAslink|r}} is able to "see across" [[derivational morphology|derivational]] but not [[inflectional morphology|inflectional]] morphemes.  As an example, {{IPA|[teˈɡɑːɾɑ]}} ('commerce') and {{IPA|[ˈtekbɑɾ]}} ('you grow' masc.) both have emphasis spreading, since {{IPAslink|r}} occurs adjacent to low {{IPA|/a(ː)/}} but not adjacent to any non-low front vowel.  On the other hand, of the derived forms {{IPA|[teˈɡæːɾi]}} ('commercial') and {{IPA|[tekˈbɑɾi]}} ('you grow' fem.), only the latter has emphasis spreading.  In this case, the derivational suffix {{IPA|/-i/}} ('related to') creates a new [[lexical item]] in the language's vocabulary, and hence the stem is reevaluated for emphasis, with the non-low front vowel {{IPA|/i/}} triggering non-emphatic {{IPAslink|r}}; but the inflectional suffix {{IPA|/-i/}} marking feminine singular does not create a new lexical item, and as a result the emphasis in the stem remains. (For these purposes, past and non-past forms of a verb are considered separate stems; hence alternations can occur like {{IPA|/istamarˤrˤ/}} 'he continued' vs. {{IPA|/jistamirr/}} 'he continues'.)
+
+An emphasis-spreading {{IPAslink|r}} is usually adjacent to a low vowel {{IPA|/a(ː)/}} (which in turn is backed to {{IPA|/ɑ(ː)/}}), but that is not necessary, and {{IPA|/u(ː)/}} also triggers emphasis-spreading: Examples {{IPA|/maʃhuːrˤ/}} ('famous') → {{IPA|[mɑʃˈhuːɾ]}}, {{IPA|/maʃrˤuːʕ/}} ('project') → {{IPA|[mɑʃˈruːʕ]}}, {{IPA|/rˤufajjaʕ/}} ('thin') → {{IPA|[roˈfɑjjɑʕ]}}.
+
+The alternation between {{IPAblink|æ|æ(ː)}} and {{IPAblink|ɑ|ɑ(ː)}} is almost completely predictable in verbal and nominal paradigms, as well as in the large majority of words derived from Classical Arabic.  It is also irrelevant for the operation of the numerous phonological adjustment rules (e.g. vowel lengthening, shortening and elision) in Egyptian Arabic.  As a result, linguistic descriptions tend to subsume both under an [[Phoneme#Neutralization and archiphonemes|archiphoneme]] {{IPA|/a(ː)/}}.  On the other hand, there are a number of [[lexical item]]s in which "autonomous" {{IPA|[ɑ ɑː]}} tend to occur irrespective of the presence of emphatic consonants.  A few are in Aramaic-derived words, e.g. {{IPA|[ˈmɑjjɑ]}} ('water'), but the majority are in words of non-Semitic origin — especially those derived from European languages — where {{IPA|[ɑ ɑː]}} echo the vowel quality of {{IPA|/a/}} in those languages.
+
+Different authors have proposed differing phonemic analyses of this situation:
+*Some go ahead and treat all occurrences of {{IPA|[æ(ː) ɑ(ː)]}} as separate phonemes, despite the additional complexity of the resulting morphological descriptions;
+*Some treat only "autonomous" occurrences of {{IPA|[ɑ(ː)]}} as phonemes {{IPA|/ɑ(ː)/}}, with all the rest subsumed under {{IPA|/a(ː)/}};
+*Some have created new emphatic consonants (e.g. analyzing {{IPA|[ˈmɑjjɑ]}} as {{IPA|/mˤajja/}}, where underlying {{IPA|/mˤ/}} surfaces as {{IPAblink|m}} but triggers the back allophone {{IPAblink|ɑ}});
+*Some have ignored the distinction entirely.
+The approach followed here is to ignore the distinction in phonemic descriptions, subsuming {{IPA|[æ(ː) ɑ(ː)]}} as allophones of {{IPA|/a(ː)/}}, but where necessary to also include a phonetic explication (i.e. detailed pronunciation) that indicates the exact quality of all vowels.  Generally, these phonetic explications are given for the examples in the section on [[#Phonology|phonology]], and elsewhere whenever autonomous {{IPAblink|ɑ|ɑ(ː)}} occurs.
+
+==== Phonological processes ====
+
+{| class="wikitable" style="text-align: center;"
+|+ '''Examples of operations on vowels'''
+|-
+! Operation !! Original !! After operation (phonemic) !! Pronunciation (phonetic)
+|-
+| Vowel shortening || {{IPA|/ʔaːl li/}} 'he.said – to.me' || {{IPA|/ʔalli/}} || {{IPA|[ˈʔælli]}} 'he said to me'
+|-
+| Vowel lengthening || {{IPA|/katabu/}} 'they wrote' + {{IPA|/-ha/}}  'it (fem.)' || {{IPA|/kataˈbuːha/}} || {{IPA|[kætæˈbuːhæ]}} 'they wrote it'
+|-
+| Vowel deletion ([[syncope (phonetics)|syncope]]) || {{IPA|/fi/}} 'in' + {{IPA|/kitaːb/}} 'a book' || {{IPA|/fiktaːb/}} || {{IPA|[fekˈtæːb]}} 'in a book'
+|-
+| Vowel insertion ([[epenthesis]]) || {{IPA|/il/}} 'the' + {{IPA|/bint/}} 'girl' + {{IPA|/di/}} 'this' || {{IPA|/il bintdi/}} || {{IPA|[el ˈbenteˈdi]}} 'this girl'
+|}
+
+===== Vowel shortening =====
+All long vowels are shortened when followed by two consonants (including [[geminated]] consonants), and also in unstressed syllables, though they are sometimes kept long in careful speech pronunciations of loanwords, as in {{IPA|/qaːˈhira/}} ('Cairo') and a few other borrowings from Classical Arabic with similar shapes, such as {{IPA|/zˤaːˈhira/}} ('phenomenon').{{sfnp|Mitchell|1978|p=112}} Long vowel {{IPA|[iː, uː]}}, when shortened collapse with {{IPA|[e, o]}} which are, as well, the shortened form of {{IPA|[eː, oː]}}; as a result, the following three words are only distinguished contextually:
+# {{IPA|/ɡibna/}} {{IPA|[ˈɡebnæ]}} ('cheese')
+# {{IPA|/ɡiːb/}}+{{IPA|/na/}} → {{IPA|/ɡibna/}} {{IPA|[ˈɡebnæ]}} ('we brought')
+# {{IPA|/ɡeːb/}}+{{IPA|/na/}} → {{IPA|/ɡebna/}} {{IPA|[ˈɡebnæ]}} ('our pocket')
+It is worth mentioning that vowel shortening is not made by [[fellah|rural speakers]] of Egyptian Arabic, whose form of speech is in decline.
+
+===== Vowel lengthening =====
+Final short vowels are lengthened when the stress is brought forward onto them as a result of the addition of a suffix.
+
+===== Vowel deletion ([[syncope (phonetics)|syncope]]) =====
+Unstressed {{IPA|/i/}} and {{IPA|/u/}} are deleted (i.e. [[syncope (phonetics)|syncope]]) when occurring in the context /VC'''V'''CV/, i.e. in an internal syllable with a single consonant on both sides.  This also applies across word boundaries in cases of close syntactic connection.
+
+===== Vowel insertion ([[epenthesis]]) =====
+Three or more consonants are never allowed to appear together, including across a word boundary.  When such a situation would occur, an [[epenthetic]] {{IPAblink|e}} is inserted between the second and third consonants.
+
+Before {{IPA|/u/}} the epenthetic vowel is {{IPA|/u/}}.{{sfn|Watson|2002|p=64|loc=4.4.1.1 Epenthesis}}
+
+===== Vowel elision and linking =====
+Unlike in most Arabic dialects, Egyptian Arabic has many words that logically begin with a vowel (e.g. {{IPA|/ana/}} 'I'), in addition to words that logically begin with a glottal stop (e.g. {{IPA|/ʔawi/}} 'very', from Classical {{IPA|/qawij(j)/}} 'strong').  When pronounced in isolation, both types of words will be sounded with an initial glottal stop.  However, when following another word, words beginning with a vowel will often follow smoothly after the previous word, while words beginning with a glottal stop will always have the glottal stop sounded, e.g.:
+* {{IPA|/il walad (ʔ)aħmar/}} → {{IPA|[el ˈwælæˈdɑħmɑɾ]}} or {{IPA|[el ˈwælæd ˈʔɑħmɑɾ]}} ('the boy is red)
+* {{IPA|/inta kibiːr ʔawi/}} → {{IPA|/intakbiːr ʔawi/}} {{IPA|[entækˈbiːɾ ˈʔæwi]}} ('you [masc. sg.] are very big')
+
+The phonetic pronunciations indicated above also demonstrate the phenomenon of ''linking'', a normal process in Egyptian Arabic where syllable boundaries are adjusted across word boundaries to ensure that every syllable begins with exactly one consonant.
+
+[[Elision]] of vowels often occurs across word boundaries when a word ending with a vowel is followed by a word beginning with a vowel, especially when the two vowels are the same, or when one is {{IPA|/i/}}.
+More specifically, elision occurs in the following circumstances:
+#When both vowels are the same, one will be elided.
+#When final {{IPA|/i/}} is followed by initial {{IPA|/a/}}, {{IPA|/i/}} is elided.
+#When any vowel is followed by initial {{IPA|/i/}}, {{IPA|/i/}} is elided.
+
+{| class="wikitable"
+|+Examples of elision
+|-
+! Condition for elision !! Original !! After elision (phonemic) !! Pronunciation (phonetic)
+|-
+| Both vowels same || {{IPA|/inta aħmar/}} || {{IPA|/intaħmar/}} || {{IPA|[enˈtɑħmɑɾ]}} 'you (masc. sg.) are red'
+|-
+| Final {{IPA|/i/}} followed by initial {{IPA|/a/}} || {{IPA|/naːwi aruːħ/}} || {{IPA|/naːwaruːħ/}} || {{IPA|[ˈnæːwɑˈɾuːħ]}} 'I intend to go'
+|-
+| || {{IPA|/xallini arawwaħ/}} || {{IPA|/xalliːnarawwaħ/}} || {{IPA|[xælˈliːnɑˈɾɑwwɑħ]}} 'let me go home'
+|-
+| Vowel followed by initial {{IPA|/i/}} || {{IPA|/da illi ana ʕaːwiz+u/}} || {{IPA|/dallana ʕawzu/}} || {{IPA|[ˈdælˈlænæ ˈʕæwzu]}} 'that's what I want'
+|-
+| || {{IPA|/huwwa inta kibiːr/}} || {{IPA|/huwwantakbiːr/}} || {{IPA|[howˈwæntækˈbiːɾ]}} 'are you grown-up?'
+|}
+
+===== Multiple processes =====
+
+Multiple processes often apply simultaneously. An example of both insertion and deletion working together comes from the phrase {{IPA|/il bint kibiːra/}} ('the girl is grown up'):
+Example of insertion and deletion together:
+*Underlying representation: {{IPA|/il bint kibiːra/}}
+*Epenthesis in CCC sequence: {{IPA|*/il bintekibiːra/}}
+*Deletion of {{IPA|/i/}} VCVCV: {{IPA|[il bintekbiːra]}}
+*Surface realization: {{IPA|[el ˈben.tekˈbiːræ]}}
+Compare {{IPA|/il walad kibiːr/}} ('the boy is grown up'), where neither process applies.
+
+Similarly, an example of both deletion and long-vowel shortening appears in the phrase {{IPA|/sˤaːħiba/}} ('friend' fem.):
+*Underlying representation: {{IPA|/sˤaːħiba/}}
+*Deletion of {{IPA|/i/}} in VCVCV: {{IPA|*/sˤaːħba/}}
+*Vowel shortening in VCC: {{IPA|[sˤaħb+a]}}
+*Surface realization: {{IPA|[ˈsˤɑħbɑ]}}
+Compare with Classical Arabic {{IPA|/sˤaːħiba/}}.
+
+The operation of the various processes can often produce ambiguity:
+* {{IPA|/ana ʕaːwiz aːkul/}} → {{IPA|/ana ʕawzaːkul/}} ('I [masc.] want to eat')
+* {{IPA|/ana ʕaːwiza aːkul/}} → {{IPA|/ana ʕawza aːkul/}} → {{IPA|/ana ʕawzaːkul/}} ('I [fem.] want to eat')
+Hence, {{IPA|[ænæ ˈʕawˈzæːkol]}} is ambiguous in regards to grammatical gender.
+
+=== Letter names ===
+In Egypt, the letters are called {{lang|arz|ألف به}} {{IPA|arz|ˈʔælef be|}} or {{lang|arz|أبجديه}} {{IPA|arz|ʔæbɡæˈdej.jæ|}}, and are even taught in entertainment and children's shows, like the [[Alam Simsim|Egyptian version]] of ''[[Sesame Street]]''.<ref name="SimSimWorld">{{cite web |title=الحروف العربية عالم سمسم |url=//www.youtube.com/watch?v=ifktT2RAVtg&t=39s |access-date=27 July 2019 | language=arz}}</ref>
+
+The following table does not contain the characters which have the same names in Literary Arabic.
+
+{| class="wikitable" style="font-size:125%"
+! style="font-size:80%"| Letter
+! style="font-size:80%"| Name in Arabic
+! style="font-size:80%"| Pronunciation
+! style="font-size:80%"| Phoneme
+|-
+| {{lang|arz|ا}} || {{lang|arz|ألف}} || {{IPA|arz|ˈʔælef|}} || {{IPA link|∅}}, {{IPA link|ʔ}}, {{IPA link|æ(ː)}}, {{IPA link|ɑ(ː)}}
+|-
+| {{lang|arz|ب}} || {{lang|arz|به}} || {{IPA|arz|be|}} || {{IPA link|b}}
+|-
+| rowspan="2"| {{lang|arz|ت}} || {{lang|arz|ته}} || {{IPA|arz|te|}} || rowspan="2"| {{IPA link|t}}
+|-
+| {{lang|arz|ته مفتوحه}} || {{IPA|arz|teh mæfˈtuːħæ|}} 
+|-
+| {{lang|arz|ث}} || {{lang|arz|ثه}} || {{IPA|arz|se, θe|}} || {{IPA link|s}}, {{IPA link|θ}} 
+|-
+| {{lang|arz|ج}} || {{lang|arz|جيم}} || {{IPA|arz|ɡiːm|}} || {{IPA link|ɡ}}
+|-
+| {{lang|arz|ح}} || {{lang|arz|حه}} || {{IPA|arz|ħɑ|}} || {{IPA link|ħ}}
+|-
+| {{lang|arz|خ}} || {{lang|arz|خه}} || {{IPA|arz|xɑ|}} || {{IPA link|x}}
+|-
+| {{lang|arz|د}} || {{lang|arz|دال}} || {{IPA|arz|dæːl|}} || {{IPA link|d}}
+|-
+| {{lang|arz|ذ}} || {{lang|arz|ذال}} || {{IPA|arz|zæːl, ðæːl|}} || {{IPA link|z}}, {{IPA link|ð}}
+|-
+| {{lang|arz|ر}} || {{lang|arz|ره}} || {{IPA|arz|ɾe|}} || {{IPA link|ɾ}}
+|-
+| {{lang|arz|ز}} || {{lang|arz|زين}} || {{IPA|arz|zeːn|}} || {{IPA link|z}}
+|-
+| {{lang|arz|س}} || {{lang|arz|سين}} || {{IPA|arz|siːn|}} || {{IPA link|s}}
+|-
+| {{lang|arz|ش}} || {{lang|arz|شين}} || {{IPA|arz|ʃiːn|}} || {{IPA link|ʃ}}
+|-
+| {{lang|arz|ص}} || {{lang|arz|صاد}} || {{IPA|arz|sˤɑːd|}} || {{IPA link|sˤ}}
+|-
+| {{lang|arz|ض}} || {{lang|arz|ضاد}} || {{IPA|arz|dˤɑːd|}} || {{IPA link|dˤ}}
+|-
+| {{lang|arz|ط}} || {{lang|arz|طه}} || {{IPA|arz|tˤɑ|}} || {{IPA link|tˤ}}
+|-
+| {{lang|arz|ظ}} || {{lang|arz|ظه}} || {{IPA|arz|zˤɑ, ðˤɑ|}} || {{IPA link|zˤ}}, {{IPA link|ðˤ}}
+|-
+| {{lang|arz|ع}} || {{lang|arz|عين}} || {{IPA|arz|ʕeːn|}} || {{IPA link|ʕ}}
+|-
+| {{lang|arz|غ}} || {{lang|arz|غين}} || {{IPA|arz|ɣeːn|}} || {{IPA link|ɣ}}
+|-
+| {{lang|arz|ف}} || {{lang|arz|فه}} || {{IPA|arz|fe|}} || {{IPA link|f}}
+|-
+| {{lang|arz|ق}} || {{lang|arz|قاف}} || {{IPA|arz|qɑːf|}} || {{IPA link|q}}, {{IPA link|ʔ}}
+|-
+| {{lang|arz|ك}} || {{lang|arz|كاف}} || {{IPA|arz|kæːf|}} || {{IPA link|k}}
+|-
+| {{lang|arz|ل}} || {{lang|arz|لام}} || {{IPA|arz|læːm|}} || {{IPA link|l}}
+|-
+| {{lang|arz|م}} || {{lang|arz|ميم}} || {{IPA|arz|miːm|}} || {{IPA link|m}}
+|-
+| {{lang|arz|ن}} || {{lang|arz|نون}} || {{IPA|arz|nuːn|}} || {{IPA link|n}}
+|-
+| {{lang|arz|هـ}} || {{lang|arz|هه}} || {{IPA|arz|he|}} || {{IPA link|h}}
+|-
+| {{lang|arz|و}} || {{lang|arz|واو}} || {{IPA|arz|wɑːw, wæːw|}} || {{IPA link|w}}, {{IPA link|u(ː)}}, {{IPA link|o(ː)}}
+|-
+| {{lang|arz|ى}}<!--<br><span style="font-size:70%">The final and isolated forms are always dotless</span>--> || {{lang|arz|يه}} || {{IPA|arz|je|}} || {{IPA link|j}}, {{IPA link|i(ː)}}, {{IPA link|e(ː)}}
+|-
+! style="font-size:80%" colspan="4"| Not considered separate letters
+|-
+| {{lang|arz|ى}} || {{lang|arz|ألف لينه}} || {{IPA|arz|ˈʔælef læjˈjenæ|}} || {{IPA link|æ}}, {{IPA link|ɑ}}
+|-
+| {{lang|arz|ة}} || {{lang|arz|ته مربوطه}} || {{IPA|arz|teh mɑɾˈbuːtˤɑ|}} || {{IPA link|t}}
+|-
+| {{lang|arz|ئ}} || {{lang|arz|همزه على نبره}} || {{IPA|arz|ˈhæmzæ ˈʕælæ ˈnɑbɾɑ|}} || {{IPA link|ʔ}}
+|-
+! style="font-size:80%" colspan="4"| Used in loanwords and names
+|-
+| {{lang|arz|پ}} || {{lang|arz|به بتلات نقط}} || {{IPA|arz|be beˈtælæt ˈnoʔɑtˤ|}} || {{IPA link|p}} 
+|-
+| {{lang|arz|چ}} || {{lang|arz|جيم بتلات نقط}} || {{IPA|arz|ɡiːm beˈtælæt ˈnoʔɑtˤ|}} || {{IPA link|ʒ}} <!--NOT tʃ PLEASE DON'T DISPLACE IT-->
+|-
+| {{lang|arz|ڤ}} || {{lang|arz|فه بتلات نقط}} || {{IPA|arz|fe beˈtælæt ˈnoʔɑtˤ|}} || {{IPA link|v}}
+|}
+
+;Notes: Traditionally, {{IPA|/teh mɑɾbuːtˤɑ/}} ({{lang|arz|[[ة]]}}) and {{IPA|/he/}} ({{lang|arz|[[ه]]}}) were only distinguished in writing if a {{IPAslink|t}} is [[construct state#Arabic|finally pronounced]]. The final and separate {{IPA|/je/}} ({{lang|arz|[[ى]]}}) are written in the same way they are in Ottoman Turkish and [[Persian alphabet|Persian]], but two different characters are used electronically. The [[dental consonants|dental]] pronunciations of {{IPA|/se, zæːl, zˤɑ/}} ({{lang|arz|ث}},&lrm; {{lang|arz|ذ}},&lrm; {{lang|arz|ظ}}) are uncommon out of learned contexts.
+
+== Phonotactics ==
+
+=== Syllable structure ===
+
+Egyptian Arabic has the following five syllable types: CV, CVː, CVC, CVːC, and CVCC.
+
+CVː, CVːC, and CVCC are long, or [[Syllable weight|heavy]], syllables. Long syllables bear [[Stress (linguistics)|primary stress]], and there is only one stressed syllable per word.{{sfnp|Ammar|2002|p=154}}
+Egyptian Arabic has a strong preference for heavy syllables, and various phonetic adjustments conspire to modify the surface pronunciation of connected speech towards the ideal of consisting entirely of heavy syllables.  Examples can be seen below:
+*Shortening of long vowels to avoid superheavy syllables (CVːC.CV → CVC.CV)
+*Lengthening of short vowels to avoid light stressed syllables (ˈCV.CV → ˈCVː.CV) or the increasingly rarer cases (ˈCV.CVC → ˈCVː.CVC) or avoiding light syllables and converting them into heavy syllables (CVC → CVːC)
+*Elision of short vowels to avoid sequences of superlight syllables (CV.CV.CV → CVC.CV)
+*Insertion of short vowels to avoid three-consonant sequences, which would result in a superheavy syllable (CVCC.CV or CVC.CCV → CVC.CV.CV)
+*Movement of syllable boundaries across word boundaries to avoid vowel-initial syllables (CVC VC VC → CV.C-V.C-VC)
+*Insertion of a glottal stop when necessary to avoid vowel-initial syllables
+
+An example of these various processes together:
+{|class="wikitable"
+|+{{IPA|/da illi ana ʕaːwiz-u/}} → {{IPA|/dallana ʕawzu/}} ('that's what I want')
+! Operation !! Result
+|-
+| Original || {{IPA|/da illi ana ʕaːwizu/}}
+|-
+| Deletion of short<br />high vowel in CVːC'''V'''CV || {{IPA|/da illi ana ʕaːwzu/}}
+|-
+| Shortening before<br />two consonants || {{IPA|/da illi ana ʕawzu/}}
+|-
+|  Elision of {{IPA|/i/}}<br />next to a vowel || {{IPA|/dallana ʕawzu/}}
+|-
+| Continuous, resyllabified pronunciation (phonetic) || {{IPA|[ˈdælˈlæ.næˈʕæw.zu]}}
+|-
+| Normal-form pronunciation || {{IPA|[ˈdælˈlænæ ˈʕæwzu]}}
+|}
+
+In the following and similar analyses, the normal-form pronunciation is given as the phonetic equivalent of the given phonemic form, although the intermediate steps may be given if necessary for clarity.
+
+Other examples include {{IPA|/ana ʕaːwiz aːkul/}} ('I want to eat') → {{IPA|[ænæ ˈʕæwˈzæːkol]}}, {{IPA|/ana ʕaːwiz aːkulu/}} ('I want to eat it') → {{IPA|[ænæ ˈʕæwˈzæklu]}}, and {{IPA|/humma ʕaːwiziːn jaːkuluː/}} ('They want to eat it') → {{IPA|[hommæ ʕæwˈziːn jækˈluː]}}.
+
+== Prosody ==
+
+=== Stress ===
+The position of stress is essentially automatic. The basic rule is that, proceeding from the end to the beginning of the word, the stress goes on the first encountered syllable of any of these types:
+
+# A [[heavy syllable]]: that is, a syllable ending in either a long vowel (CVː), a long vowel and a consonant (CVːC), or two consonants (CVCC)
+# A non-final light syllable that directly follows a heavy syllable
+# A non-final light syllable that directly follows two light syllables (i.e. ...CVCVˈCVCV...)
+# The first syllable of the word
+
+{| class="wikitable"
+|+ Examples of rules of stress placement
+|-
+! Rule !! Phonemic form (no stress) !! Phonetic form (stressed) !! Meaning
+|-
+| 1a. Syllable closed with a long vowel || {{IPA|/kaː.tib/}} || {{IPA|[ˈkæːteb]}} ||'writing' or 'writer'
+|-
+|  || {{IPA|/ki.taːb/}} || {{IPA|[keˈtæːb]}} || 'book'
+|-
+| || {{IPA|/tik.ti.biː/}} || {{IPA|[tekteˈbiː]}} || 'you (fem.) write it'
+|-
+| 1b. Syllable closed with two consonants || {{IPA|/ka.tabt/}} || {{IPA|[kæˈtæbt]}}  || 'I wrote'
+|-
+| || {{IPA|/kat.ba/}} || {{IPA|[ˈkætbæ]}} || 'female writer'
+|-
+|  || {{IPA|/mak.tab/}} || {{IPA|[ˈmæktæb]}} || 'desk'
+|-
+|  || {{IPA|/tik.tib/}} || {{IPA|[ˈtekteb]}} || 'you (masc.) write'
+|-
+| 2. Nonfinal light syllable following heavy syllable || {{IPA|/mak.ta.ba/}} || {{IPA|[mækˈtæbæ]}} || 'library'
+|-
+| || {{IPA|/tik.ti.bi/}} || {{IPA|[tekˈtebi]}} || 'you (fem.) write'
+|-
+| 3. Nonfinal light syllable following two lights || {{IPA|/ka.ta.bi.tu/}} || {{IPA|[kætæˈbetu]}} || 'she wrote it'
+|-
+| 4. First syllable || {{IPA|/ka.tab/}} || {{IPA|[ˈkætæb]}} || 'he wrote'
+|-
+|  || {{IPA|/ka.ta.bit/}} || {{IPA|[ˈkætæbet]}} || 'she wrote'
+|}
+
+Because the stress is almost completely predictable, it is not indicated in phonemic transcriptions (but ''is'' given in the corresponding phonetic explication).
+
+== Phonological development ==
+
+=== Phonemic developmental stages ===
+{{Harvcoltxt|Omar|Nydell|1973}} identifies three stages in the phonological acquisition of Egyptian Arabic, ending with completion of the consonant inventory (with the possible exception of {{IPAslink|q}}) at approximately age five.{{sfnp|Omar|Nydell|1973|p=52}}
+
+*'''Babbling stage: (~6–10 months)'''
+The sound inventory found in the [[babbling]] stage does not technically consist of phonemes, but rather vowel- and consonant-''like'' sounds. Therefore, they are not true speech sounds.{{sfnp|Omar|Nydell|1973|p=35}} Like children acquiring other world languages, Egyptian Arabic infants produce consonant-like sounds approximating {{IPAslink|b}}, {{IPAslink|p}}, {{IPAslink|ʔ}}, {{IPAslink|h}}, {{IPAslink|ɣ}}, {{IPAslink|v}}, {{IPAslink|z}}, {{IPAslink|m}}, {{IPAslink|w}}, {{IPAslink|j}}.{{sfnp|Omar|Nydell|1973|p=38}}
+
+*'''Stage I (~1–2 years)'''
+At this stage children have acquired the basic {{IPA|/i/}}, {{IPA|/a/}}, {{IPA|/u/}} vowel triangle, and the consonants {{IPAslink|b}}, {{IPAslink|m}}, {{IPAslink|w}}, {{IPAslink|j}}, and {{IPAslink|h}}. At this stage {{IPAslink|ʔ}} is only produced word-initially (possibly due to speakers’ tendency to insert a glottal stop on words which begin with a vowel). There is typically no voiced-voiceless contrast and no single-[[Gemination|double]] consonant contrast.{{sfnp|Omar|Nydell|1973|p=45}}
+
+*'''Stage II (~2–3 years)'''
+Newly acquired phonemes are: {{IPAslink|t}}, {{IPAslink|d}}, {{IPAslink|k}}, {{IPAslink|ɡ}}, {{IPAslink|n}}, {{IPAslink|f}}, {{IPAslink|s}}, {{IPAslink|z}}, {{IPAslink|l}}, {{IPAslink|x}}, {{IPAslink|ɣ}}, {{IPAslink|æ}}, {{IPAslink|e}}, {{IPAslink|o}}. A voiced-voiceless contrast is now apparent in stops and fricatives. Consonant clusters appear but are unstable, often being omitted or simplified ([[Phonological development|consonant cluster reduction]]). The newly acquired [[Lateral consonant|lateral]] {{IPAslink|l}} is frequently used in place of the [[Alveolar flap|flap]]{{sfnp|Omar|Nydell|1973|pp=48–49}}/[[Alveolar trill|trill]] {{IPAblink|ɾ}}~{{IPAblink|r}} ([[Lateral consonant|lateralization]]). Example: {{IPA|/madɾasa/}} ('school') → {{IPA|[mædˈlæsæ]}}
+
+*'''Intermediate Stage II-III (~3–5 years)'''
+Vowel length distinction, the [[Emphatic consonant|emphatics]] {{IPAslink|sˤ}}, {{IPAslink|zˤ}}, {{IPAslink|tˤ}}, {{IPAslink|dˤ}}; &nbsp; {{IPAslink|ʕ}} (sometimes realized as {{IPAslink|ʔ}}) and {{IPAslink|ʃ}} (often realized as {{IPAblink|s}}) are acquired. A [[Gemination|geminated consonant]] distinction is developing, although children have difficulty with {{IPA|/xx/}} and its voiced pair {{IPA|/ɣɣ/}}.{{sfnp|Saleh|Shoeib|Hegazi|Ali|2007|pp=234–240}}
+
+*'''Phonemic Stage III (Adult mastery ~5 years)'''
+The flap/trill {{IPAslink|ɾ}}~{{IPAslink|r}} and all diphthongs and clusters are acquired, and geminate consonant distinction is stable. The phoneme {{IPAslink|q}} is rare in Egyptian Arabic and is typically only mastered with formal schooling at around age seven or eight, and is realized acceptably in the dialect as {{IPAblink|k}}.{{sfnp|Omar|Nydell|1973|p=52}}
+
+=== Cross-linguistic comparison and phonological processes ===
+Egyptian Arabic phoneme acquisition has been chiefly compared to that of English. The order of phoneme acquisition is similar for both languages: Exceptions are {{IPAslink|s}}, {{IPAslink|z}}, and {{IPAslink|h}}, which appear earlier in Arabic-speaking children's inventory than in English, perhaps due to the frequency of their occurrence in the children's input.{{sfnp|Amayreh|Dyson|1998}} Egyptian Arabic differs most from English in terms of age of phoneme acquisition: Vowel distinctions appear at an earlier age in Egyptian Arabic than in English, which could reflect both the smaller inventory and the higher functional value of Arabic vowels: The consonantal system, on the other hand, is completed almost a year later than that of English.{{sfnp|Omar|Nydell|1973|p=60}} However, the lateral {{IPAslink|l}} is acquired by most Arabic-speaking children by age two, a year earlier than English-speaking children.{{sfnp|Saleh|Shoeib|Hegazi|Ali|2007|pp=154–160}} The most difficult phonemes for young Arabic children are emphatic stops, fricatives, and the flap{{sfnp|Amayreh|Dyson|2000|p=84}}/trill {{IPAslink|ɾ}}~{{IPAslink|r}}. &nbsp; {{IPAslink|x}} and {{IPAslink|ɣ}}, which are relatively rare sounds in other languages, are the most difficult geminate consonants to acquire.{{sfnp|Abou-Elsaad|Baz|El-Banna|2009|pp=275–282}}
+
+==== Phonological processes ====
+For children under two, [[Phonological development|syllable reduction]] and [[Phonological development|final consonant deletion]] are the most common phonological processes.{{sfnp|Saleh|Shoeib|Hegazi|Ali|2007|pp=234–240}} De-emphasis, involving the loss of the secondary articulation for emphatic consonants (e.g., realizing emphatic {{IPAslink|sˤ}} as {{IPAblink|s}}), may reflect the motoric difficulty of emphatic consonants, which are rare in world languages,{{sfnp|Amayreh|Dyson|2000|p=94}} as well as their relatively low frequency and functional load in Arabic.{{sfnp|Amayreh|Dyson|2000|p=100}}
+
+The back fricatives {{IPAslink|ħ}} and {{IPAslink|x}} are unusually accurate at an early age and less prone to [[Phonological development|fronting]] than in other languages.{{sfnp|Amayreh|Dyson|2000|p=87}}
+
+=== Acquisition of syllable structure ===
+Most children have mastered all syllable types between the ages of two and three. A preference for three-syllable words is evident (CVːC syllables being the most frequently produced) and production rarely exceeds four syllables. Simplification processes like those detailed above may occur to reduce CVCC syllables to CVːC or CVC syllables; however, when children change the syllable structure, they preserve the prosodic weight of the altered syllable in order to maintain stress relations.{{sfnp|Ammar|2002|pp=154–158}}
+
+== See also ==
+* [[Egyptian Arabic]]
+* [[Ruqʿah script|Riqaa script]]
+* [[Modern Standard Arabic|Standard Arabic]]
+* [[Arabic chat alphabet]]
+
+== Notes ==
+{{reflist}}
+{{reflist|group=note}}
+
+== References ==
+{{refbegin|2}}
+*{{cite journal |last1=Abou-Elsaad |first1=T. |last2=Baz |first2=H. |last3=El-Banna |first3=M |title=Developing an articulation test for Arabic-speaking school-age children |journal=Folia Phoniatrica et Logopaedica |year=2009 |volume=61 |issue=5 |pages=275–282 |doi=10.1159/000235650 |pmid=19696489|doi-access=free }}
+*{{cite journal |last1=Amayreh |first1=Mousa M. |last2=Dyson |first2=Alice T. |title=The acquisition of Arabic consonants |journal=Journal of Speech, Language, and Hearing Research |year=1998 |volume=41 |issue=3 |pages=642–653 |doi=10.1044/jslhr.4103.642|pmid=9638928 }}
+*{{cite journal |last1=Amayreh |first1=Mousa M. |last2=Dyson |first2=Alice T. |title=Phonological errors and sound changes in Arabic-speaking children |journal=[[Clinical Linguistics and Phonetics]] |year=2000 |volume=14 |issue=2 |pages=79–109 |doi=10.1080/026992000298850}}
+*{{cite book |last=Ammar |first=W. |title=Investigations in Clinical Phonetics and Linguistics |year=2002 |publisher=Erlbaum |location=Mahwah: NJ |pages=153–160 |editor1=F. Windsor |editor2=M. Kelly |editor3=N. Hewlett. |chapter=Acquisition of syllable structure in Egyptian Colloquial Arabic}}
+*{{cite book |last1=Behnstedt |first1=Peter |last2=Woidich |first2=Manfred |title=Die ägyptisch-arabischen Dialekte, vols. I, II |year=1985 |publisher=L. Reichert |location=Wiesbaden }}
+*{{cite journal |last=Georgiou |first=Georgios P. |title=Discrimination of L2 Greek vowel contrasts: Evidence from learners with Arabic L1 background |journal=Speech Communication |year=2018 |volume=102 |pages=68–77 |doi=10.1016/j.specom.2018.07.003|s2cid=52297330 }}
+*{{cite book |last1=Mitchell |first1=T. F. |title=An introduction to Egyptian colloquial Arabic |date=1978 |orig-date=1956 |publisher=Oxford University Press |location=Oxford |isbn=0-19-815148-9}}
+*{{cite book |last1=Omar |first1=Margaret K. |last2=Nydell |first2=Margaret Kleffner |title=The Acquisition of Egyptian Arabic as a Native Language |url=https://books.google.com/books?id=VVGcRMZxKDIC&pg=PP1 |year=1973 |publisher=Georgetown University Press |isbn=1-58901-168-6}}
+*{{cite journal |last1=Saleh |first1=M. |last2=Shoeib |first2=R. |last3=Hegazi |first3=M. |last4=Ali |first4=P. |title=Early phonological development in Arabic Egyptian children: 12–30 months |journal=Folia Phoniatrica et Logopaedica |year=2007 |volume=59 |issue=5 |pages=234–240 |doi=10.1159/000104461 |pmid=17726326|s2cid=27575250 }}
+*{{cite book |last=Watson |first=Janet C. E. |title=The Phonology and Morphology of Arabic |url=https://books.google.com/books?id=lLQSDAAAQBAJ&pg=PP1 |year=2002 |publisher=Oxford University Press |isbn=978-0-19-925759-1}}
+*{{cite book |last1=Woidich |first1=Manfred |title=Das Kairenisch-Arabische : eine Grammatik |url=https://www.harrassowitz-verlag.de/Das_Kairenisch-Arabische/titel_3090.ahtml |date=2006 |publisher=Harrassowitz |location=Wiesbaden |isbn=978-3-447-05315-0 |language=de}}
+{{refend}}
+
+{{Language phonologies}}
+
+{{DEFAULTSORT:Egyptian Arabic Phonology}}
+[[Category:Egyptian Arabic|Phonology]]
+[[Category:Arabic phonology]]
