@@ -58,8 +58,10 @@ Every cell is traceable: `explain` prints each rule that fired with its `%attest
 4. **Georgian cluster legality is now pairwise** (experiment 2026-08-25, `28010a3`, awaiting
    your confirmation): Butskhrikidze's finding that underlying clusters are biconsonantal,
    applied as "every adjacent pair must be attested". Six words stopped hitting the cluster
-   fallback (*splanc* → *sp'lank'*, not *ts'k'lank'*); 15 fallback cases remain, all Cʷ on
-   sonorants (*naomh* → *dviv*) — pending your call on restricting Cʷ to obstruents.
+   fallback (*splanc* → *sp'lank'*, not *ts'k'lank'*). You then kept Cʷ on all broad
+   non-labials (*drvim, sp'rvi*) and chose `cluster-fallback = keep`: unattested clusters are
+   left intact and flagged (*mná* → *mra*, *dorn* → *dorn*), with one narrow undo of the Cʷ
+   *v* where it alone made a cluster illegal (*naomh* → *niv*). Georgian fallbacks 108 → 14.
 5. **Georgian /p t k/: aspirate by default, ejective only after a consonant** — your decision
    4, implemented as seven explicit segment lines (a feature bundle can't reach the ejective
    rows). It is tagged `%design` and runs *contra* the digest's recommendation of unconditional

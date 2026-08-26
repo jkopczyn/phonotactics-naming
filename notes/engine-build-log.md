@@ -19,3 +19,12 @@
   (Cʷ never fired on dorsals); `h -> ç` overreach on lenited th-/sh-; dutch-weight stressing
   schwa; Dutch bars waived by xfail. Fix agent dispatched; Dutch bars restated (C ≥ 27/35,
   E ≥ 4/26, ratchet-held) by owner-default decision.
+- 2026-08-25 evening: Georgian tuned in three single-variable steps, each with before/after
+  gallery diffs: (1) `cluster-legality = pairwise` (28010a3; Butskhrikidze: constraints are
+  pairwise) — 6 words rescued from bad fallbacks; (2) Cʷ left as is by owner choice (drvim,
+  sp'rvi preferred); (3) `cluster-fallback = keep` + `overlay-undo = v` (895bf4f, 7e40ef8,
+  8220ea5) — unattested clusters kept and flagged UNATTESTED_CLUSTER, no substitution;
+  Georgian fallbacks 108 → 14 cells, Mode C 0.807 → 0.832. Welsh: Awbery pass (ab6a3f1,
+  84e4b54, 151f309) settled Llanwrtyd = Southern and the penult length rule; CONFLICT-Awb-3
+  resolved by owner decision (8974c34): final /m/ lexical (Irish length decides, circumflex),
+  /ŋ/ short. Suite 941 passed / 2 xfailed.
