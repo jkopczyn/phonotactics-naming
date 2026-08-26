@@ -14,3 +14,8 @@
   produce (ml mr nl nr ŋl ŋr; χr χl θr; wl wr) as attested-under-mutation, sC- via decision-15
   prothesis, `h -> 0 / #_[NAS]` %design, cluster-fallback retained as last resort only. Welsh
   Mode C denominator is 15 (four rows carry consonant ː unlicensed by features.tsv).
+- 2026-08-25 17:30: workflow complete (40 agents; one API drop at 23b, resumed). Suite 841
+  passed / 4 xfailed. Verification found: dorsal normalization overriding explicit broad k/ɡ
+  (Cʷ never fired on dorsals); `h -> ç` overreach on lenited th-/sh-; dutch-weight stressing
+  schwa; Dutch bars waived by xfail. Fix agent dispatched; Dutch bars restated (C ≥ 27/35,
+  E ≥ 4/26, ratchet-held) by owner-default decision.
