@@ -18,8 +18,33 @@ Powyseg is mid-Wales [wiki-cy-lang §The four traditional dialects]. Sources als
 **PHOIBLE row.** InvID 2406, source `ea`, "Welsh (Llanwrtyd)", 48 segments (29 C + 19 V), none
 marked Marginal.
 
-**Caveat on the row's dialect label (unresolved).** Two separate things must be kept apart here,
-and conflating them produces an unsupported inference:
+**The row's dialect label — RESOLVED in revision 2 by `awbery1984`.** Llanwrtyd is **Southern**,
+and this is now a source statement rather than an inference:
+
+- `awbery1984` **uses Llanwrtyd as one of its own data points.** Its note 1 (p.103) reads: "Data
+  relating to Pembrokeshire derives from my own fieldwork, and I am indebted to **Glyn E. Jones and
+  Beth Thomas for information about the Llanwrtyd area** and the Clwyd valley respectively"
+  [awbery1984 p.103 n.1].
+- Llanwrtyd is in the **historic county of Breconshire** (Brycheiniog), and Awbery draws the
+  north/south line by historic county: "**North Cardiganshire and north Breconshire align with the
+  south**, while the Dyfi basin and Llanfair Caereinion in Montgomeryshire are clearly northern"
+  [awbery1984 p.72] — the boundary of Map 1 (vowel length in monosyllables).
+- For consonant clusters the line sits further north still: "it is considerably to the north of the
+  corresponding boundary shown on Map 1… **This time mid Wales is firmly in the southern camp**"
+  [awbery1984 p.90, Map 6].
+- Llanwrtyd falls outside all three of the chapter's special sub-areas: the south Cardiganshire /
+  north Pembrokeshire "extended system" and the west Pembrokeshire /ə/ loss (Map 3, p.80), the
+  north-west and south-east /e/→/a/ merger in unstressed finals (Map 4, p.82), and the south-east
+  medial-stop devoicing (Map 5, p.84). It therefore takes the **normal Southern** value on each.
+
+See `awbery1984-digest.md` §"What this settles" (c) for the map-by-map table. Two cautions carry
+forward: the Map 2 (penultimate length) assignment rests on reading the drawn isogloss rather than
+on a sentence, and Awbery's own note 4 (p.103) says every boundary in the chapter is "perforce
+hesitant… Further work is necessary to establish exactly where the boundaries run."
+
+**Why the earlier caveat was right to refuse the county inference.** The pre-Awbery reasoning below
+is retained because it is still the correct treatment of the *modern* county name; what changed is
+that a source now names the *historic* county, which is a dialect-relevant unit:
 
 - **Y Bowyseg**, the *traditional dialect*. `breit2019` groups it with the **North**: "Y Wyndodeg …
   and Y Bowyseg 'Powys-ish' **in the north**, and Y Ddyfedeg and Y Wenhwyseg in the south", adding
@@ -28,16 +53,19 @@ and conflating them produces an unsupported inference:
 - **Powys**, the *modern administrative county* Llanwrtyd sits in. This is a 1974 local-government
   unit, not a dialect area.
 
-**No source connects Llanwrtyd to Y Bowyseg, or to any dialect.** Llanwrtyd is not named in any
-source file, and `breit2019` mentions neither Llanwrtyd nor the PHOIBLE survey. Inferring the
-dialect from the county name would be an administrative-area ⇒ dialect inference with nothing
-behind it, and this digest does not make it. What can safely be said: **Breit groups Y Bowyseg with
-North/Mid Welsh; Llanwrtyd's dialect affiliation and local phonotactics are unverified.**
-Central-western accents "tend to be treated as hybrid forms" [mayr-davies2011 p.3].
+Inferring the dialect from the **modern administrative county** would be an administrative-area ⇒
+dialect inference with nothing behind it, and this digest still does not make it. `breit2019`
+mentions neither Llanwrtyd nor the PHOIBLE survey, and central-western accents "tend to be treated
+as hybrid forms" [mayr-davies2011 p.3].
 
-The **segment list** in the row is nonetheless unambiguously Southern (no /ɨ/, eight diphthongs),
-so §1 stands on the row's own evidence. It is the N/S *tagging* of §§2–4 and §8 that rests on the
-unverified assumption.
+**What resolves it is `awbery1984`, above** — not the county name, but a phonotactician placing
+*north Breconshire* on the southern side of his own isoglosses and taking Llanwrtyd data from
+Glyn E. Jones. The Y Bowyseg question is now moot for this digest: whatever traditional-dialect
+label Llanwrtyd carries, Awbery's Southern rules are the ones stated to apply there.
+
+The **segment list** in the row is independently and unambiguously Southern (no /ɨ/, eight
+diphthongs), so §1 always stood on the row's own evidence. The N/S *tagging* of §§2–4 and §8 now
+rests on `awbery1984` rather than on an assumption.
 
 **Sources by weight for the South.** `williams1995` (the only explicit enumerated South phoneme
 list, 32 C + 19 V = 51, from one male native South Welsh speaker) · `liu2018` (the one modern
@@ -278,11 +306,83 @@ conclusion rests on **a single speaker** [iosad2017 p.30 n.7]. [mayr-davies2011 
 Southern monophthongs bar /ə/ as tense–lax pairs differing in both quality and quantity.
 ## 2. Syllable structure and phonotactics
 
-**Read the "STATED" / "ASSEMBLED" tags in this section as load-bearing.** No open source we hold
-gives an explicit licit-onset or licit-coda list for Welsh. Hannahs 2013, Awbery 1984 and
-Czerniak 2015 — the three works that would — are all closed (see `bib.md`). Everything marked
-ASSEMBLED is the digest author's inference from a class statement plus lexically attested words,
-and should be checked before it becomes a rule.
+**Revision 2: `awbery1984` is now held in full and is the primary source for this section.**
+See `awbery1984-digest.md`. It changes the standing of much of what follows, and the change is not
+"here is the licit-cluster list we were missing" — Awbery never gives a list. He gives a **closed
+set of constraints that generates one**, which is strictly better for rule-writing. §2.2A below
+records the constraints; the per-cluster tables that follow are kept, re-tiered against them.
+
+Hannahs 2013 and Czerniak 2015 remain closed. Everything still marked ASSEMBLED is the digest
+author's inference and should be checked before it becomes a rule; but the tags below now read
+against Awbery first and the class statements of `breit2019` / `jipa-north` second.
+
+### 2.2A Awbery's constraint set — STATED, Southern, and complete as stated
+
+**Internal constraints** — Awbery states these hold "throughout Wales without dialectal variation"
+[awbery1984 p.86]:
+
+1. A two-consonant cluster may be any of the four obstruent/sonorant types (`O+O`, `S+S`, `S+O`,
+   `O+S`), and beyond constraints 2–3 "**there are no other restrictions on clusters of two
+   consonants**" [awbery1984 p.86].
+2. **A nasal and a following stop must be homorganic** — /ˈgʊmpas/, /ˈambeɬ/, /ˈkənta/, /ˈgʊndun/,
+   /ˈwɪŋki/, /ˈdaŋgos/. "There are occasional exceptions… such as /ˈamkan/ 'guess' and /ˈamgilχ/
+   'around', but they are rare." **No such requirement for a nasal + fricative** [awbery1984 p.86].
+3. **Obstruent + obstruent clusters must agree in voicing** — "either both are voiced or both are
+   voiceless": /ˈgʊðge/, /ˈɾagvir/, /ˈaskurn/, /ˈkɔpsi/ [awbery1984 p.86].
+4. **Three-consonant clusters have exactly two shapes**: `/s/ + stop + liquid` (/ˈəsprid/ 'ghost',
+   /ˈkaskli/ 'to collect') and `nasal + stop + liquid` (/ˈʃendler/ 'candlestick', /ˈmentro/ 'to
+   dare') [awbery1984 p.86].
+
+**Positional constraints** — Table 6 [awbery1984 p.87]:
+
+| | Initial | Medial | Final |
+|---|---|---|---|
+| O + O | Yes | Yes | Yes |
+| S + S | **No** | Yes | Yes |
+| S + O | **No** | Yes | Yes |
+| O + S | Yes | Yes | **No** |
+
+Table 7's reading of the initial/final asymmetry: "in a cluster which consists of an obstruent and
+a sonorant **the obstruent must be the outermost element, next to the word boundary**"
+[awbery1984 p.87]. Extended to glides at p.101: `# O + S + G + Vowel + G + S + O #`.
+
+**The O+S final ban is total in the South.** Table 9 [awbery1984 p.90]:
+
+| | South | North |
+|---|---|---|
+| Fricative + Nasal | **No** | Yes |
+| Fricative + Liquid | **No** | Yes |
+| Stop + Nasal | **No** | No |
+| Stop + Liquid | **No** | No |
+
+with the single lexical exception /ˈbanadl/ 'broom' [awbery1984 p.90]. Southern /ˈoːvon/ against
+Northern /ɔvn/ 'fear'; Southern /ˈɬəvir/ against Northern /ɬɪvr/ 'book' [awbery1984 p.89].
+
+**Word-initial singletons** — Table 5 [awbery1984 p.83]: every consonant **except /χ/, /ð/, /ŋ/**.
+Awbery notes these "cannot be expressed in terms of natural classes". Two riders, both important:
+
+- **Note 7 (p.103) exempts mutation explicitly**: "we are referring here only to the **basic
+  unmutated forms** of words. Where mutations have applied then of course **a rather different
+  range of consonants is permitted**." This is direct source backing for the carve-out the plan's
+  Known Deviation 9 (b) had to make on a coordinator ruling.
+- **Note 6 (p.103)**: /tʃ/ and /dʒ/ "appear freely alone, but **do not form clusters with other
+  consonants**"; /z/ "appears only in loans from English".
+
+**Word-initial glide clusters, South** [awbery1984 p.100]: "in **most of south Wales only /h/, /k/
+and /g/ may precede /w/, and only /d/ may precede /j/**" — /hweːχ/, /gwin/, /ˈkwaːrel/, /djawl/;
+and "the /dj/ cluster is very marginal and is often replaced by the affricate /dʒ/". Three-consonant
+initials with a glide are exactly **/gwl/, /gwr/, /gwn/** [awbery1984 p.99]. **The South has /hw/
+where the North has /χw/** [awbery1984 p.100, Map 6].
+
+**Medial and word-final singletons**: the **full** consonant set in both positions
+[awbery1984 p.81], except /h/ (see §2.5).
+
+**Glide clusters by position** — Table 13 [awbery1984 p.99]: `G+G` initial No / medial Yes / final
+No; `G+C` initial No / medial Yes / final Yes; `C+G` initial Yes / medial Yes / final No.
+
+**Repair of an illegal final cluster** — Table 8 [awbery1984 p.89]: `O+S` **obligatory**, `O+O`
+sometimes, `S+S` sometimes, `S+O` **never**. The two strategies and their conditioning are in §3.2.
+An illegal *initial* cluster is never repaired: "it simply does not appear" [awbery1984 p.87].
 
 ### 2.1 Maximal syllable template
 
@@ -343,6 +443,31 @@ for rule-writing:
 - **D — DISPUTED ANALYSIS**: the sequence occurs but sources disagree whether it is an onset
   cluster at all (nucleus material, or a coda + empty nucleus).
 
+**Re-tiering against `awbery1984` (revision 2).** Awbery's Table 6 licenses **every** `O+O` and
+`O+S` cluster initially, subject only to the internal constraints of §2.2A. That promotes to
+**STATED (Awbery)** every onset below that is obstruent-initial with an obstruent or sonorant
+second member — i.e. the whole stop+liquid set `pl pr bl br tl tr dl dr kl kr ɡl ɡr`, the
+fricative+liquid set `fl fr θr χl χr vl vr ðl ðr`, `sl sr`, the sibilant+stop set `sp st sk`, the
+CCC set `spr stl skl str` (constraint 4: /s/+stop+liquid), and `ɡn kn`. The digest's old tiers B, C
+and E for these are superseded; `/fr/` in particular no longer depends on emending `breit2019`, and
+`/χr/ /χl/ /θr/` are no longer unattested inferences. **The tier letters in the tables below are
+left as revision 1 wrote them, with an `→A(Awb)` marker added, so the revision-1 reasoning stays
+auditable.**
+
+Awbery also **narrows** three things the digest had left open:
+
+- **`sm` and `sn` are not onsets** — they are `O+S` and so licensed by Table 6, but constraint 3
+  (obstruent clusters agree in voicing) does not bear on them and Awbery lists no `sm-`/`sn-` word;
+  more decisively they are absent from his initial examples. The digest's revision-1 decision to
+  route them through prothesis (§3.1, decision 15) is **not contradicted** and is retained.
+- **`χw` is Northern.** The South has `hw` [awbery1984 p.100]. Revision 1 listed `χw` as tier D from
+  `jipa-north` (North) and `wiki-cy-phon`; Awbery makes the N/S split explicit. See CONFLICT-Awb-1.
+- **`ɡw kw hw` are the only C+G onsets**, and `dj` only marginally [awbery1984 p.100].
+  `ɡwl ɡwr ɡwn` are confirmed as the only CCG initials [awbery1984 p.99], which settles the
+  revision-1 "D — DISPUTED ANALYSIS" row for them: Awbery treats them as **real initial clusters**
+  (underlyingly /glw grw gnw/, the glide "attracted to a position between the other two
+  consonants"), not as secondary articulation.
+
 **A — STATED CLASS onsets:**
 
 | Class | Members | Source |
@@ -397,6 +522,19 @@ Structural constraints (STATED, all [breit2019]):
 only in recent English loans (*chocolate*, *chips*) [breit2019 pp.65–66], and [lapsyd-cy] omits
 them from the inventory.
 
+**Onset exclusions added by `awbery1984` (STATED, Southern):**
+
+| Excluded | Basis |
+|---|---|
+| **Word-initial /χ/, /ð/, /ŋ/ as singletons** — and hence as C1 of any cluster | Table 5 [awbery1984 p.83]. **Applies to basic unmutated forms only**; mutation output is exempt [awbery1984 p.103 n.7], which is why `χr χl ðr ðl ŋl ŋr` survive as mutation onsets |
+| **All `S+S` and `S+O` initial clusters** | Table 6 [awbery1984 p.87]. Again mutation-exempt: `ml mr nl nr ŋl ŋr wl wr wn` are nasal- and soft-mutation output |
+| **Any cluster containing /tʃ/ or /dʒ/** | "the two affricates… appear freely alone, but **do not form clusters with other consonants**" [awbery1984 p.103 n.6] — stronger than `breit2019`'s historical point |
+| **Initial C+G other than /hw kw ɡw/ and marginal /dj/** | [awbery1984 p.100] |
+| **Initial CCG other than /ɡwl ɡwr ɡwn/** | [awbery1984 p.99] |
+| **Nasal + non-homorganic stop**, anywhere | constraint 2 [awbery1984 p.86] |
+| **Voicing-mismatched obstruent clusters**, anywhere — this is `breit2019` p.66's `*[dʃ]` generalised, and it independently rules out `*sb *sd *sɡ *zp` etc. | constraint 3 [awbery1984 p.86] |
+| **Any CCC that is not /s/+stop+liquid or nasal+stop+liquid** | constraint 4 [awbery1984 p.86] |
+
 **E — ASSEMBLED / UNVERIFIED (unattested inference; do not encode without a check).** Generalising
 the stop+liquid class from the two stated members /tl pr/ to the full set /pl pr bl br tl tr dl dr
 kl kr ɡl ɡr/ is the digest author's inference. /pl br tr ɡr/ have no citation in this corpus at all;
@@ -414,10 +552,26 @@ Irish /sC-/ needs any repair at all.
 
 ### 2.3 Coda clusters
 
-**Templates (North)** [jipa-north p.506], verbatim: "Two-consonant coda clusters may be of the type
-obstruent + obstruent (/klɨstʰ/ *clust* 'ear') or sonorant + obstruent (/garð/ *gardd* 'garden').
-Final obstruent + sonorant sequences (as in /disgɨpl/ *disgybl*) are often subject to vowel
-epenthesis."
+**`awbery1984` supersedes the Northern template here.** Table 6 [p.87] licenses `O+O`, `S+S` and
+`S+O` finally and bars `O+S`; Table 9 [p.90] shows the `O+S` ban is total in the South across all
+four subtypes (fricative/stop × nasal/liquid), one lexical exception aside (/ˈbanadl/). The
+internal constraints of §2.2A apply here too — so a final cluster must be homorganic if it is
+nasal+stop, and must agree in voicing if it is obstruent+obstruent. **This is a STATED Southern
+coda statement, and it replaces the ASSEMBLED sonority heuristic that closed revision 1's §2.3.**
+
+Two consequences worth stating plainly:
+
+- **`sb` is not a licit coda.** It violates constraint 3 (obstruent clusters agree in voicing).
+  Welsh ⟨sb⟩ in *cosb* is the **spelling** of /sp/ — cf. §8.6's ⟨sb sg⟩ convention. Revision 1
+  listed `sb` as a tier-B coda on the strength of the orthographic form. See CONFLICT-Awb-2.
+- **Every remaining member of revision 1's coda list is `O+O`, `S+S` or `S+O`**, so Awbery licenses
+  the list as a whole; the members below keep their word citations but their tier is now the class
+  statement of a Southern source rather than a Northern one.
+
+**Templates (North, retained for contrast)** [jipa-north p.506], verbatim: "Two-consonant coda
+clusters may be of the type obstruent + obstruent (/klɨstʰ/ *clust* 'ear') or sonorant + obstruent
+(/garð/ *gardd* 'garden'). Final obstruent + sonorant sequences (as in /disgɨpl/ *disgybl*) are
+often subject to vowel epenthesis."
 
 Hannahs, second-hand: Welsh has complex codas [Hannahs via breit-harris2014 p.1].
 
@@ -469,10 +623,16 @@ vn vr ðl ðn ðr sl sn sr χl χn χr θl θn θr ml/) are **disallowed word-fi
 sequences are fine as onsets. Examples: *aml* → /a m a l/, *llwybr* → /ɬ uɨ b i r/, *cefn* →
 *cefen* [williams1994 §2.1, exx. 5–7].
 
-ASSEMBLED generalisation **(unattested inference — stronger than the source)**: Southern word-final
-CC tends to falling or level sonority. `williams1994` enumerates one repaired class (C + {l, n, r});
-it does not demonstrate that *every* rising-sonority final is repaired, nor that every falling or
-level one is licit. Treat as a heuristic, not a closed phonotactic rule.
+ASSEMBLED generalisation of revision 1 — **now SUPERSEDED, and it was too weak, not too strong**:
+revision 1 said "Southern word-final CC *tends* to falling or level sonority… treat as a heuristic,
+not a closed phonotactic rule." `awbery1984` Table 6 + Table 9 make it a **closed rule**: every
+`O+S` final is barred in the South, obligatorily repaired (Table 8), with /ˈbanadl/ the only stated
+exception. `williams1994`'s C+{l,n,r} epenthesis class is one *instance* of Awbery's `O+S`
+category, not an isolated list. The two sources agree and Awbery is the general statement.
+
+Note also what Awbery adds that `williams1994` does not: **`O+O` and `S+S` finals are "sometimes"
+repaired too** (Table 8) — /ˈguːðug/ 'neck' ~ /ˈgʊðge/ 'necks', /ˈheːlem/ 'cornstack' ~ /ˈhɛlmi/ —
+so a licit-looking `O+O` final is not guaranteed to survive. Only `S+O` is "never" affected.
 Rising-sonority finals in that class are repaired (see §3) and surface as clusters only when a vowel-initial
 suffix re-syllabifies them into an onset: *pobl* [pɔbɔl] but *poblog* [pɔblɔg]
 [breit-harris2014 p.1].
@@ -1070,8 +1230,81 @@ penults are phonetically shorter than in final syllables — **"half-long"** [io
 **(North)** stressed penult vowels are **always short** and the pair is impossible, both [ˈtʰɔna]
 [iosad2017 pp.7–8; wiki-cy-phon §Vowels: *cath* long, *cathod* short].
 
+### 4.3A `awbery1984` Fig. 1 — the Southern decision tree, and how it compares
+
+Awbery gives the rule as a decision tree over three factors, in order: **stress**, then **final vs
+nonfinal syllable**, then **the immediately following segment** [awbery1984 p.70, p.71 Fig. 1].
+"Final" means *monosyllable or stressed final syllable*; "nonfinal" means *penult* — his own gloss,
+p.70.
+
+```
+unstressed                                        → SHORT
+stressed, following /s/ or /ɬ/, word-final syll.  → LONG
+stressed, following /s/ or /ɬ/, nonfinal syll.    → SHORT
+stressed, following A = /b d g v ð f θ χ/, zero   → LONG
+stressed, following B = /m n ŋ l r/               → LONG OR SHORT   (lexical)
+stressed, following C = /p t k/, any cluster      → SHORT
+```
+
+Southern diphthongs: **the first element is always short**, the glides behaving as class C —
+"glides appear to side rather unexpectedly with voiceless stops and consonant clusters which also
+require that a preceding vowel be short at all times" [awbery1984 p.97].
+
+**Row-by-row against the seven-row table below:**
+
+| Digest row | Awbery | Verdict |
+|---|---|---|
+| 1. `V → Vː / ˈ_ #` (open final) | class A includes **zero** → LONG | **agrees** [p.71] |
+| 2. `V → Vː / ˈ_ {b d ɡ v ð f θ χ} #` | class A exactly | **agrees** [p.71] |
+| 3. `V → Vː / ˈ_ {s ʃ ɬ} #` (South only) | /s ɬ/ → LONG in a word-final syllable | **agrees** [p.71]; Awbery does not mention /ʃ/ in the tree, but lists it among the voiceless fricatives and gives /miːʃ/ 'month' long [p.81, p.83] |
+| 4. `V → V / ˈ_ {p t k m ŋ} #` | class C is **/p t k/ + clusters only**; **/m ŋ/ are class B** | **CONFLICT-Awb-3** — see below |
+| 5. `V → V / ˈ_ {w j}` (South) | glides side with class C — always short in the South | **agrees, and Awbery is the better citation** [p.97] |
+| 6. `V → V / ˈ_ CC #` (South) | class C: "the identity of the consonants making up the cluster is **irrelevant**" [p.66] | **agrees** [p.66, p.71] |
+| 7. `V or Vː / ˈ_ {n l r} #` lexical | class B → LONG OR SHORT | **agrees** [p.71] |
+
+**CONFLICT-Awb-3 — /m/ and /ŋ/.** The digest's row 4 puts /m ŋ/ with the fortis stops in the SHORT
+class. Awbery puts them in class B (LONG OR SHORT). But his own prose undercuts his own table:
+"**Very few long vowels appear before /m/; no long vowels at all appear before /ŋ/**" — the single
+example is /biːm/ 'I was' — and he explicitly declines to decide whether this is systematic or
+accidental, adding that "accidental gaps will be ignored in the body of this chapter"
+[awbery1984 p.67]. So the *table* says lexical and the *prose* says short-in-practice.
+**Unresolved.** For a generator the practical outcome is the same (short), which is what
+`welsh.rules` emits; the conflict is recorded rather than acted on.
+
+**CONFLICT-Awb-4 — the big one: Southern stressed PENULTS.** See §4.3B.
+
+### 4.3B Southern penults: `awbery1984` resolves §9's open item 5
+
+Revision 1 recorded a CONFLICT (below) over whether length is contrastive in Southern penults —
+`iosad2017`, `wiki-cy-phon`, `williams1983` and `breit2019` say yes; `liu2018` says length is
+contrastive only in monosyllables. **`awbery1984` comes down squarely on the "yes" side, for the
+right variety, with the full environment table**, and is the most explicit statement available:
+
+> "**In the south all stressed syllables — monosyllables, penultimates and finals — behave alike.
+> Before a single sonorant vowel length is contrastive; elsewhere the choice of a long or short
+> vowel is predictable from what immediately follows.** In the north however this parallelism is
+> lost." [awbery1984 p.72]
+
+Table 2 [p.69] gives the two columns side by side, and the **only** difference between a Southern
+monosyllable and a Southern stressed penult is /s/ and /ɬ/ — long in the monosyllable, short in the
+penult. Everything else — voiceless stop, cluster, nasal, liquid, voiced stop, voiced fricative,
+/f θ χ/, zero — is identical. Worked pairs: /ˈaːraɬ/ 'other' vs /ˈkareg/ 'stone'; /ˈkaːder/ 'chair'
+vs /ˈateb/ 'to answer' [p.74], all four with the North's short vowel for contrast.
+
+Table 4 [p.74] states it as a grid:
+
+| | South | North |
+|---|---|---|
+| Monosyllables | LONG, SHORT | LONG, SHORT |
+| Finals | LONG, SHORT | LONG, SHORT |
+| **Penultimates** | **LONG, SHORT** | **— SHORT** |
+
+**This is a behavioural change for the tool**, not just a digest note: `welsh.rules [post-stress]`
+was written to leave stressed penults short, citing exactly the CONFLICT that Awbery now settles.
+See §9 item 5 and the rule file's `[post-stress]` header.
+
 Southern rule for **final stressed syllables** (including monosyllables) [iosad2017 p.8, cross-checked
-against wiki-cy-phon §Vowels, breit2019 pp.76–78]:
+against wiki-cy-phon §Vowels, breit2019 pp.76–78; = `awbery1984` Fig. 1's word-final branch]:
 
     V → Vː / ˈ_ #                       open final syllable:  tŷ, da
     V → Vː / ˈ_ {b d ɡ v ð f θ χ} #     mab, gradd, rhaff, brath, cath, bach
@@ -1137,7 +1370,11 @@ CONFLICT: **is Welsh vowel length fully predictable?**
 CONFLICT: **is length contrastive in Southern penults at all?** [iosad2017 p.7],
 [wiki-cy-phon §Vowels], [williams1983 pp.190–191] and [breit2019 p.79] say yes. [liu2018 pp.6–7]
 says "vowel length is only contrastive in monosyllabic words" — despite Liu's target being Southern.
-Unresolved, and it decides whether the romanizer may emit half-long penults.
+**RESOLVED in revision 2 in favour of "yes"** by [awbery1984 pp.69, 72, 74] — see §4.3B. Awbery is
+a dedicated phonotactic description of the Southern system with a full environment table and
+explicit North/South contrast pairs; `liu2018` is an instrumental study of *stress* whose length
+remark is an aside, and whose own data (Table 4 above) is about the stressed/unstressed contrast,
+not the penult length contrast. Four sources now say yes against one aside.
 
 CONFLICT: **which coda classes condition length.** [grawunder2015 §3.3]'s data-driven split is
 /-k -χ -f -ɬ -m -p -s -t -θ/ (short V) vs /-b -d -ð -v -ɡ -l -n -r/ (long V) — agreeing on /m/ but
@@ -1735,18 +1972,24 @@ The sources say little about how Welsh handles donor-side alternations, but thre
 
 ## 9. Open questions
 
-1. **Is the PHOIBLE variety actually Southern?** Two facts, and a gap between them. `breit2019`
-   pp.53–54 groups the *traditional dialect* **Y Bowyseg** with **North/Mid** Welsh; Llanwrtyd sits
-   in the modern *administrative county* of Powys. **No source connects the two**, and Llanwrtyd is
-   named in no source file. So this is not (yet) a dialect conflict — it is a gap. The row's segment
-   list is unambiguously Southern (no /ɨ/, eight diphthongs), so §1 is safe; but the **N/S tagging
-   running through §§2–4 and §8 rests on an assumption no source verifies**, and "Llanwrtyd is in
-   Powys" must not be used as evidence for Northern or Powyseg rules. See §0.
-   This is the digest's largest unresolved issue.
-2. **No open source gives a licit onset or coda cluster list.** Hannahs 2013, Awbery 1984 and
-   Czerniak 2015 are all closed. §2's cluster inventory is ASSEMBLED from class statements plus
-   lexical attestation and is labelled as such. `bib.md` says Morris Jones 1913 gives "initial
-   combinations"; **it does not** — see the digest log.
+1. **~~Is the PHOIBLE variety actually Southern?~~ CLOSED in revision 2 — yes.** `awbery1984`
+   takes its own Llanwrtyd data from Glyn E. Jones [p.103 n.1] and places **north Breconshire**,
+   the historic county Llanwrtyd sits in, **on the southern side** of its isoglosses [p.72]; for
+   consonant clusters mid Wales is "firmly in the southern camp" [p.90]. Llanwrtyd also falls
+   outside all three of the chapter's special sub-areas (Maps 3, 4, 5), so it takes the normal
+   Southern value on each. The **N/S tagging running through §§2–4 and §8 now rests on a source**
+   rather than an assumption. See §0 and `awbery1984-digest.md` "What this settles" (c).
+   Residual caution: the Map 2 (penult length) assignment reads a drawn isogloss rather than a
+   sentence, and Awbery's note 4 calls every boundary in the chapter "perforce hesitant".
+2. **~~No open source gives a licit onset or coda cluster list.~~ LARGELY CLOSED in revision 2.**
+   `awbery1984` is now held in full. It gives no *list*, but it gives the **closed constraint set
+   that generates one** — four internal constraints and a four-by-three position table (§2.2A) —
+   which is what §2 actually needed. Hannahs 2013 and Czerniak 2015 remain closed; nothing in §2
+   now depends on them. `bib.md` says Morris Jones 1913 gives "initial combinations"; **it does
+   not** — see the digest log.
+   What is still open: Awbery states his constraints over **basic unmutated forms** [p.103 n.7],
+   so the licit range under mutation is still not enumerated by any source — the plan's Known
+   Deviation 9 (b) carve-out now has source *warrant* but still not a source *list*.
 3. **No Irish→Welsh adaptation evidence exists in the open corpus.** All of §8 rests on
    English/Latin loan behaviour and Welsh-internal sound change. `bib.md` flags Welsh Journals
    Online (Melville Richards, *Bulletin of the Board of Celtic Studies*) as **blocked, not missing** —
@@ -1755,10 +1998,13 @@ The sources say little about how Welsh handles donor-side alternations, but thre
 4. **The direction of the duration cue to stress is unresolved** (CONFLICT in §4.2). Williams 1983
    says the stressed penult is *shorter*; Liu 2018, on Southern speakers with a proper control, says
    it is *longer*. The two give opposite instructions for how the romanization should be read.
-5. **Is length contrastive in Southern penults?** [iosad2017 p.7], [wiki-cy-phon], [williams1983] and
-   [breit2019 p.79] say yes (half-long); [liu2018 pp.6–7] says length is contrastive only in
-   monosyllables — despite targeting the South. This decides whether the tool may emit half-long
-   penults.
+5. **~~Is length contrastive in Southern penults?~~ CLOSED in revision 2 — yes.**
+   [awbery1984 pp.69, 72, 74]: "in the south all stressed syllables — monosyllables, penultimates
+   and finals — behave alike", with Table 2 showing the only monosyllable/penult difference is
+   /s ɬ/ and Table 4 stating the South/North penult split as a grid. Four sources for yes against
+   `liu2018`'s aside. §4.3B carries the resolution; `welsh.rules [post-stress]` changes with it.
+   Still open underneath it: **§9.7** (which words take a *half-long* penult) — Awbery settles that
+   the contrast exists, not its phonetic realisation, and says nothing about half-length.
 6. **Which "Southern"?** [iosad2017 pp.30–31] distinguishes standard-southern (1 speaker,
    Cardiff-raised), south-western (6 of 8 speakers) and "non-enhanced" (1 speaker). [liu2018 p.7]'s
    speakers are all Cardiff-area. If the target is Cardiff-area Southern, Liu plus Iosad's Sp1 are
@@ -1770,8 +2016,9 @@ The sources say little about how Welsh handles donor-side alternations, but thre
 8. **Whether to emit secondary stress at all.** [liu2018] gives a placement rule but found **no
    acoustic exponent** in Southern Welsh (all p > 0.2). The exception is compound secondary stress,
    which does have segmental consequences [wiki-cy-phon §Stress and pitch].
-9. **Initial /mn/ in Welsh is not addressed by any source** — neither permitted nor forbidden, and no
-   headword.
+9. **~~Initial /mn/ in Welsh is not addressed by any source.~~ ANSWERED in revision 2 — forbidden.**
+   /mn/ is `S+S`, and `awbery1984` Table 6 [p.87] bars **all** `S+S` initial clusters. (It remains
+   available as nasal-mutation output only, per note 7.)
 10. **Irish /ç/ has no coverage whatsoever.** No source names [ç] in connection with Welsh.
 11. **No source addresses a foreign centring diphthong** (/iə uə/) in Welsh loans.
 12. **Pagination caveats.** `iosad2017` citations use the **preprint** page numbers (pp.1–50); the
@@ -1780,3 +2027,20 @@ The sources say little about how Welsh handles donor-side alternations, but thre
     cited by section or PDF page.
 13. **`buczek2014` draws no North/South distinction anywhere** (verified by grep), so no
     Southern-specific loan-stress statement is available.
+14. **NEW (revision 2): does the Southern `O+O` / `S+S` "sometimes repaired" class have a rule?**
+    `awbery1984` Table 8 [p.89] says final `O+S` is **obligatorily** repaired, `S+O` **never**, and
+    `O+O` / `S+S` **sometimes** — /ˈguːðug/ ~ /ˈgʊðge/, /ˈheːlem/ ~ /ˈhɛlmi/, /ˈamal/ ~ /ˈamlaχ/,
+    /ˈsaːdun/ ~ /saˈdərne/. He gives no condition separating the repaired from the unrepaired cases.
+    `welsh.rules` repairs only the `O+S` class, which is the safe subset; a name landing on an
+    `O+O` or `S+S` final is emitted unrepaired and may be one of the "sometimes" cases.
+15. **NEW (revision 2): CONFLICT-Awb-3, /m/ and /ŋ/ in the length classes.** Awbery's Fig. 1 puts
+    them in class B (lexical); his own p.67 prose says long vowels before /m/ are "very few" and
+    before /ŋ/ absent, and declines to decide. §4.3A. The digest's row 4 and the rule file both
+    treat them as SHORT; recorded, not acted on.
+16. **NEW (revision 2): CONFLICT-Awb-1, initial /hw/ vs /χw/.** `awbery1984` p.100 makes /hw/ the
+    Southern form and /χw/ the Northern one, with the boundary at Map 6. §1 and §2.2 carry /χw/
+    (from `jipa-north`, North) alongside the Southern [ʍ] realisation of `wiki-cy-phon`. Three
+    descriptions of one thing; which the romanizer should emit for a generated name is not settled.
+17. **NEW (revision 2): CONFLICT-Awb-2, `sb` as a coda.** `awbery1984` p.86's voicing-agreement
+    constraint rules out a /sb/ obstruent cluster; *cosb* is /sp/ spelled ⟨sb⟩. Revision 1's §2.3
+    listed `sb` as a coda on the orthographic form. §2.3.

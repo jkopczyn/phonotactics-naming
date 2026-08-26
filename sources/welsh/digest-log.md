@@ -233,3 +233,92 @@ knock-on effects to check. **No recommendation is made — this is the user's de
    experiment"** is correct and I have not added a hedge, because §3.1 already presents it inside a
    section headed as historical and the modern corpus contains no counter-evidence. Flagging it
    further would imply a doubt no source raises.
+
+---
+
+# Revision 2 (Awbery)
+
+2026-08-25. Trigger: `awbery1984` — "Phonotactic constraints in Welsh" — was acquired in full
+(39 page screenshots of pp.66–101, plus the pre-existing OCR of pp.102–106) and transcribed into
+`awbery1984-digest.md`. Revision 1 listed this chapter in `bib.md` under "Not used (paywalled /
+login-walled / blocked)" and named it, with Hannahs 2013 and Czerniak 2015, as the reason §2 had to
+be ASSEMBLED. That reason is now gone.
+
+## What changed, by section
+
+**§0 — Llanwrtyd.** Revision 1's largest unresolved issue is closed. The digest had refused, and was
+right to refuse, to infer a dialect from the *modern administrative county* of Powys. Awbery
+supplies what was missing on two independent counts: his note 1 (p.103) credits Glyn E. Jones for
+"information about the **Llanwrtyd area**", so Llanwrtyd is one of his own data points; and p.72
+places **north Breconshire** — the *historic* county, a dialect-relevant unit — on the southern side
+of Map 1's isogloss. Map 6's boundary is further north again ("mid Wales is firmly in the southern
+camp", p.90). Llanwrtyd is outside the special sub-areas of Maps 3, 4 and 5. The refused inference
+and its reasoning are retained in §0, relabelled, because they remain the correct treatment of the
+modern county name.
+
+**§2 — clusters.** Added §2.2A, which is the substantive change. Awbery gives **no cluster list**;
+he gives four internal constraints (nasal+stop homorganic; obstruent clusters agree in voicing;
+CCC restricted to two shapes; "no other restrictions" on CC) and a position table (Table 6), plus
+Table 9's total ban on Southern final `O+S` and Table 5's word-initial singleton bar on /χ ð ŋ/.
+The per-cluster tables of revision 1 were **kept and marked, not rewritten** — see "Where I did not
+follow the obvious course" below.
+
+**§4 — length.** Added §4.3A (Fig. 1 as a decision tree, row-by-row against the digest's seven-row
+table) and §4.3B (Southern penults). Six of the seven rows agree with Awbery; row 4 conflicts over
+/m ŋ/; and Awbery adds the penult system the digest had left in CONFLICT.
+
+**§9 — open items.** Closed 1 (Llanwrtyd), 2 (no cluster list — largely), 5 (penult contrast) and
+9 (initial /mn/). Added 14–17: the unconditioned "sometimes repaired" class, and CONFLICT-Awb-1
+(/hw/~/χw/), -2 (`sb`), -3 (/m ŋ/).
+
+## The three findings that change behaviour, not just prose
+
+1. **Southern stressed penults carry the length contrast** (§4.3B). Revision 1 recorded this as an
+   unresolved CONFLICT between `iosad2017` et al. and `liu2018`, and `welsh.rules [post-stress]`
+   was written to the `liu2018` side — penults left short. Awbery p.72 states the opposite
+   directly, Table 2 gives the environment table, and Table 4 grids the South/North split. Four
+   sources now stand against one aside in a paper about stress rather than length.
+2. **The final `O+S` ban is a closed rule, not a heuristic.** Revision 1's §2.3 closed with an
+   ASSEMBLED generalisation hedged as "a heuristic, not a closed phonotactic rule". Awbery makes it
+   closed, total for the South, and obligatory-repair (Tables 6, 8, 9). `williams1994`'s
+   C+{l,n,r} epenthesis class turns out to be one instance of it.
+3. **Note 7 licenses the mutation carve-out.** The plan's Known Deviation 9 (b) admitted
+   mutation-derived onsets on a *coordinator ruling* because no source addressed them. Awbery's
+   note 7 (p.103) addresses them explicitly: his restrictions cover "basic unmutated forms" only,
+   and "where mutations have applied then of course a rather different range of consonants is
+   permitted". The ruling stands unchanged; it now has a citation.
+
+## Where I did not follow the obvious course
+
+1. **I did not rewrite §2.2's and §2.3's per-cluster tables into a single Awbery-derived list.**
+   Awbery licenses whole classes, so a mechanical rewrite would promote almost every cluster to
+   STATED and erase the record of what each one rested on before. Instead §2.2A states Awbery's
+   constraints as the primary statement, and the old tables keep their tier letters with a
+   `→A(Awb)` marker. The cost is a longer section; the benefit is that if Awbery's class reading is
+   ever challenged, revision 1's per-cluster evidence is still there to fall back on.
+2. **I did not act on CONFLICT-Awb-3 (/m ŋ/).** Awbery's Fig. 1 puts them in the lexical class B,
+   which would license long vowels before final /m ŋ/. His own prose two pages earlier says long
+   vowels before /m/ are "very few" and before /ŋ/ absent, and refuses to classify the gap. Where a
+   source contradicts itself, the digest records both and the rule file keeps the behaviour that
+   revision 1's other sources already supported (short). Acting on the table alone would have
+   changed generated names on the strength of a legend Awbery himself hedges.
+3. **I did not remove `χw` from §2.2 or §1.** Awbery p.100 makes it Northern, but `wiki-cy-phon`
+   describes a Southern [ʍ] realisation of the same initial and `jipa-north` gives /χw/ for the
+   North. Three partial descriptions; CONFLICT-Awb-1 records them rather than picking one, because
+   the choice is a romanization question (§9.16) and not a phonotactic one.
+4. **I did not treat Awbery as a §3 or §8 source.** He is emphatic that he is not one: recent
+   monosyllabic loans are excluded from his analysis precisely because they "are not integrated
+   into the native vowel length system" (note 2), and his conclusion is that modern loans "are used
+   unchanged even when their form conflicts with the normal requirements of Welsh" (p.102). His
+   copy-epenthesis and liquid-deletion repairs are stated over **native morphology**
+   (monosyllable ↔ inflected form), and §3.2 cites them as such — they corroborate the
+   *pobl*/*ffenestr* triad's conditioning (monosyllable → epenthesis, longer form → deletion) but
+   are not loanword rules.
+5. **I did not use Awbery's diphthong notation.** He writes /aj ɔj əj ʊj/, /aw ɛw əw ɪw/ and argues
+   at length (pp.94–96, 101) that diphthongs are vowel + consonantal glide. The digest and rule
+   file use /ai ɔi əi ʊi/, /au ɛu əu ɪu/ per §1 and spec §12.B, where the offglide is a vowel
+   segment inside one nucleus. The two are notational variants of the same eight-way contrast; a
+   switch would touch `[inventory]`, `[syllable] nuclei` and every `[respell]` diphthong row for no
+   gain. Awbery's Table 11 (`*ɪj`, `*ʊw`, `*jiː`, `*jɪ`, `*wuː`, `*wʊ` — "a glide may not stand
+   adjacent to the high vowel which is most closely related to it") is, however, a much better
+   citation for the glide-drop rules than `morrisjones1913` §36, and §2.6 should eventually take it.

@@ -310,12 +310,9 @@ tagged N./S. Wales throughout).
   Wikipedia article, which cites Hannahs page-by-page for gemination, vowel length and the
   *pobl/ffenestr/ewythr* repairs — so several of his claims are recoverable *with* page
   numbers, but at one remove.
-- **Awbery, G. M. (1984). "Phonotactic constraints in Welsh."** In Ball & Jones (eds.),
-  *Welsh Phonology: Selected Readings*, Cardiff: UWP, pp. 65–104. — Verified to exist as
-  described. The book is on archive.org (`archive.org/details/welshphonologyse0000unse`) but
-  is **controlled digital lending: borrow requires an archive.org account**, so excluded.
-  What we lose: the one dedicated statement of Welsh phonotactic constraints, i.e. the
-  explicit licit-onset/licit-coda lists §2 wants.
+- ~~**Awbery, G. M. (1984). "Phonotactic constraints in Welsh."**~~ — **NO LONGER BLOCKED.**
+  Acquired in full 2026-08-25 and moved to "Used" above. This was the largest listed loss after
+  Hannahs; it is now the primary source for §2.
 - **Awbery, G. (2009). "Welsh."** In Ball & Müller (eds.), *The Celtic Languages* 2nd ed.,
   Routledge, 373–440. — book on archive.org under lending restriction; a standard descriptive
   chapter incl. Southern dialect detail.
@@ -371,18 +368,39 @@ tagged N./S. Wales throughout).
    is that both sides are in orthography, not IPA, so `target_ipa`/`source_ipa` will often be
    blank per `../ATTESTED-FORMAT.md`.
 
-### awbery1984 — Awbery, "Phonotactic constraints in Welsh" (PARTIAL)
+### awbery1984 — Awbery, "Phonotactic constraints in Welsh" *(both, with explicit S/N contrasts)*
 - Full citation: Awbery, G. M. (1984). "Phonotactic constraints in Welsh." In M. J. Ball & G. E.
-  Jones (eds.), *Welsh Phonology: Selected Readings*, pp. [start]–106. Cardiff: University of
-  Wales Press.
-- Access: archive.org controlled lending (user's account); saved by the user 2026-08-25 as a
-  DOM snapshot of the BookReader. **Coverage: pp. 102–106 only** (conclusion + notes) — the
-  BookReader renders only pages near the current view, so the chapter body with the cluster
-  tables was not captured. Re-save with all chapter pages loaded, or screenshot the table pages.
-- Files: `welsh_phonology_chapter.ugly.html` (force-added), `awbery1984-phonotactic-constraints.txt`
-- Covers so far: §0/§9 only — the conclusion states the organizing factors (position in word,
-  stress, segmental environment), the S/N consonant-length ~ vowel-length covariation, the
-  loanword note ("In the past loans appear to have been integrated into the native system, but
-  this no longer seems to happen"), and — usefully — that Awbery's data includes **Llanwrtyd**
-  (via Glyn E. Jones), the PHOIBLE 2406 locality. The SE /h/ note (p.103) is the one segment-
-  position fact present.
+  Jones (eds.), *Welsh Phonology: Selected Readings*, pp. 65–104. Cardiff: University of Wales Press.
+- Access: archive.org controlled lending (`archive.org/details/welshphonologyse0000unse`), read
+  through the user's own account. Verification: confirmed against the printed page numbers.
+- **Coverage: FULL.** Revision 1 held only pp.102–106 (conclusion + notes) from a DOM snapshot,
+  because the BookReader renders only pages near the current view. The user screenshotted the
+  remaining chapter pages on 2026-08-25.
+- Files: `awbery1984/` (39 PNG page screenshots, book pp.66–101, in filename order — the file named
+  `12-01-44` is a stray, not a chapter page) · `awbery1984-phonotactic-constraints.txt` (OCR of
+  pp.102–106) · `welsh_phonology_chapter.ugly.html` (the original DOM snapshot) ·
+  **`awbery1984-digest.md` — the transcription; read that, not the PNGs.**
+- Covers: **§2 in full, and §4 in full.** This is the dedicated statement of Welsh phonotactic
+  constraints the brief was missing, and it is organised exactly as §2 needs:
+  - **Tables 5–9, 13** — word-initial singletons (all but /χ ð ŋ/, unmutated forms only, note 7);
+    the four-way O/S cluster typology by position (initial bars S+S and S+O, final bars O+S);
+    the total Southern ban on final O+S across all four subtypes; the epenthesis/deletion table;
+    glide clusters by position.
+  - **The internal constraints** (p.86): nasal+stop homorganic, obstruent clusters agree in
+    voicing, CCC only /s/+stop+liquid or nasal+stop+liquid, "no other restrictions" on CC.
+  - **Figs. 1–3, 10 and Tables 1–4** — vowel length as decision trees for **south, north and the
+    mid-Wales buffer separately**, with the class A/B/C legends, and the statement (p.72) that in
+    the South monosyllables, penults and stressed finals all behave alike.
+  - **Maps 1–6** — the isoglosses for each of those splits, by historic county.
+  - **§3 corroboration only**: the copy-epenthesis / liquid-deletion split (monosyllable vs longer
+    form) stated over native morphology, pp.87–89.
+- **Dialect value: this is the source that settles §0.** Note 1 (p.103) credits **Glyn E. Jones for
+  the Llanwrtyd data** — the PHOIBLE 2406 locality — making Llanwrtyd one of Awbery's own points;
+  and p.72 places **north Breconshire** with the south. See `digest.md` §0 and §9 item 1.
+- **Not a loanword source, and says so.** Note 2 excludes recent monosyllabic English loans from the
+  analysis because they "are not integrated into the native vowel length system"; the conclusion
+  (p.102) is that modern loans "are used unchanged even when their form conflicts with the normal
+  requirements of Welsh". No adaptation rules anywhere in the chapter.
+- Caveats: Awbery's own note 4 calls every map boundary "perforce hesitant". He writes diphthongs as
+  vowel+glide (/aj/, not /ai/) — a substantive analytic claim, but notationally divergent from this
+  digest. The screenshots are ~410×659 px; a few small glyphs are flagged `[?]` in the transcription.
