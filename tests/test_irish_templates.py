@@ -19,7 +19,10 @@ def ipa(word):
 
 def test_voc_of_a_first_declension_masculine_name():
     words = build_construction("VOC", {"NAME": entry("ʃaːnˠ", declension="m1")}, IRISH, TABLE)
-    assert len(words) == 1 and ipa(words[0]) == "əçaːnʲ"                  # a Sheáin
+    # a Sheáin: LEN /ʃ/ -> /h/ [wiki-irish-mutations §Summary table] + m1 slenderization.
+    # The attested [ə çaːnʲ] is the Munster realization of that /h/; [normalize] no longer
+    # derives it (see the [normalize] comment where the old `h -> ç` rule stood).
+    assert len(words) == 1 and ipa(words[0]) == "əhaːnʲ"
 
 
 def test_voc_outside_m1_skips_slenderization():
@@ -146,7 +149,7 @@ def test_article_feminine_genitive_is_na_with_h_prothesis():
 def test_slot_input_is_normalized_before_the_functions_run():
     # user-style transcription: ɑː alias and a quality-less final /n/ (digest line 27, §5.1)
     words = build_construction("VOC", {"NAME": entry("ʃɑːn", declension="m1")}, IRISH, TABLE)
-    assert ipa(words[0]) == "əçaːnʲ"
+    assert ipa(words[0]) == "əhaːnʲ"
 
 
 def test_construction_leaves_a_trace():

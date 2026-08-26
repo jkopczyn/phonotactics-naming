@@ -80,3 +80,20 @@ def test_every_single_entry_construction_is_covered():
     """The multi-slot templates are the only ones skipped for every entry."""
     skipped = {c for name, c in CASES if not any(True for _ in _results(name, c))}
     assert skipped == {"ADJ", "OF", "COMPOUND"}, skipped
+
+
+# ---- lenition /h/ is not a dorsal fricative in any target -------------------------------
+
+@pytest.mark.parametrize("orthography", ["theach", "shúil"])
+@pytest.mark.parametrize("name", TARGETS)
+def test_initial_lenition_h_never_surfaces_as_a_dorsal_fricative(name, orthography):
+    """*theach* /hax/ and *shúil* /huːlʲ/ are lenited forms whose initial is /h/. Irish
+    [ç] is an allophone of /h/ only where the /h/ is the lenition of the SLENDER /tʲ ʃ/
+    (digest §1.1 [wiki-irish-phonology §Allophones]); [normalize] cannot see that
+    provenance, so it must leave /h/ alone. Before the fix a blanket `h -> ç` turned both
+    into /ç/ and every target then rendered them with a dorsal fricative (*chach*, *chŵl*).
+    """
+    row = next(r for r in ROWS if r["orthography"] == orthography)
+    result = run_entry(entry_of(row), "DESC", IRISH, RF[name], TABLE)
+    first = result.words[0].segments[0]
+    assert first not in ("x", "χ", "ç", "ʁ", "ɣ"), (name, orthography, result.ipa)

@@ -66,10 +66,10 @@ Irish: /ʃaːnˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ychan /ˈə.χan/ | akhaan /ʔa.ˈxaːn/ | axian /ɑxiɑn/ | echaan /ə.ˈxaːn/ |
+| VOC | yhan /ˈə.han/ | ahaan /ʔa.ˈhaːn/ | ahan /ɑhɑn/ | ehaan /ə.ˈhaːn/ |
 | GEN | siân /ˈʃaːn/ | shaan /ˈʃaːn/ | shian /ʃiɑn/ | sjaan /ˈʃaːn/ |
 | PATRO_O | osian /ˈɔ.ʃan/ | ushaan /ʔu.ˈʃaːn/ | oshian /ɔʃiɑn/ | oosjaan /oː.ˈʃaːn/ |
-| PATRO_NI | nichan /ˈnɪ.χan/ | nikhaan /ni.ˈxaːn/ | nixian /nixiɑn/ | njiechaan /nji.ˈxaːn/ +1 |
+| PATRO_NI | nihan /ˈnɪ.han/ | nihaan /ni.ˈhaːn/ | nihan /nihɑn/ | njiehaan /nji.ˈhaːn/ +1 |
 | DESC | siân /ˈʃaːn/ | shaan /ˈʃaːn/ | shian /ʃiɑn/ | sjaan /ˈʃaːn/ |
 | DESC+ADJ | sianaidd /ˈʃaː.naið/ | shaani /ˈʃaː.ni/ | shianuri /ʃiɑnuri/ | sjaanachtech /ʃaː.ˈnɑx.təx/ |
 | DESC+NOUN | siân /ˈʃaːn/ | shaana /ˈʃaː.na/ | shiani /ʃiɑni/ | sjaan /ˈʃaːn/ |
@@ -94,10 +94,10 @@ Irish: /ˈʃʊwaːnˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ychwan /ə.ˈχʊ.an/ | akhuwaan /ʔa.xu.ˈwaːn/ | axiuvan /ɑxiuvɑn/ | echuvaan /ə.xʏ.ˈvaːn/ +1 |
+| VOC | yhwan /ə.ˈhʊ.an/ | ahuwaan /ʔa.hu.ˈwaːn/ | ahuvan /ɑhuvɑn/ | ehuvaan /ə.hʏ.ˈvaːn/ +1 |
 | GEN | siwana /ʃʊ.ˈa.na/ | shuwaana /ʃu.ˈwaː.na/ | shiuvania /ʃiuvɑniɑ/ | sjuvanje /ʃʏ.ˈvaː.njə/ +1 |
 | PATRO_O | osiwana /ɔ.ʃʊ.ˈa.na/ | ushuwaana /ʔu.ʃu.ˈwaː.na/ | oshiuvania /ɔʃiuvɑniɑ/ | oosjuvanje /oː.ʃʏ.ˈvaː.njə/ +1 |
-| PATRO_NI | nichwana /nɪ.χʊ.ˈa.na/ | nikhuwaana /ni.xu.ˈwaː.na/ | nixiuvania /nixiuvɑniɑ/ | njiechuvanje /nji.xʏ.ˈvaː.njə/ +2 |
+| PATRO_NI | nihwana /nɪ.hʊ.ˈa.na/ | nihuwaana /ni.hu.ˈwaː.na/ | nihuvania /nihuvɑniɑ/ | njiehuvanje /nji.hʏ.ˈvaː.njə/ +2 |
 | DESC | siwan /ˈʃʊ.an/ | shuwaan /ʃu.ˈwaːn/ | shiuvan /ʃiuvɑn/ | sjuvaan /ʃʏ.ˈvaːn/ +1 |
 | DESC+ADJ | siwanaidd /ʃʊ.ˈa.naið/ | shuwaani /ʃu.ˈwaː.ni/ | shiuvanuri /ʃiuvɑnuri/ | sjuvaanachtech /ʃʏ.vaː.ˈnɑx.təx/ +1 |
 | DESC+NOUN | siwan /ˈʃʊ.an/ | shuwaana /ʃu.ˈwaː.na/ | shiuvani /ʃiuvɑni/ | sjuvaan /ʃʏ.ˈvaːn/ +1 |
@@ -234,10 +234,10 @@ Irish: /ˈsˠɔɾˠəxə/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ychorycha /ə.χɔ.ˈrə.χa/ | akhurakha /ʔa.xu.ˈra.xa/ | axioraxa /ɑxiɔrɑxɑ/ | echorreche /ə.ˈxɔ.rə.xə/ |
+| VOC | yhorycha /ə.hɔ.ˈrə.χa/ | ahurakha /ʔa.hu.ˈra.xa/ | ahoraxa /ɑhɔrɑxɑ/ | ehorreche /ə.ˈhɔ.rə.xə/ |
 | GEN | sorycha /sɔ.ˈrə.χa/ | ṣurakha /ˈsˤu.ra.xa/ | soraxa /sɔrɑxɑ/ | sorreche /ˈsɔ.rə.xə/ |
 | PATRO_O | osorycha /ɔ.sɔ.ˈrə.χa/ | uṣurakha /ʔu.ˈsˤu.ra.xa/ | osoraxa /ɔsɔrɑxɑ/ | oozorreche /oː.ˈzɔ.rə.xə/ |
-| PATRO_NI | nichorycha /nɪ.χɔ.ˈrə.χa/ | nikhurakha /ni.ˈxu.ra.xa/ | nixioraxa /nixiɔrɑxɑ/ | njiechorreche /nji.ˈxɔ.rə.xə/ +1 |
+| PATRO_NI | nihorycha /nɪ.hɔ.ˈrə.χa/ | nihurakha /ni.ˈhu.ra.xa/ | nihoraxa /nihɔrɑxɑ/ | njiehorreche /nji.ˈhɔ.rə.xə/ +1 |
 | DESC | sorycha /sɔ.ˈrə.χa/ | ṣurakha /ˈsˤu.ra.xa/ | soraxa /sɔrɑxɑ/ | sorreche /ˈsɔ.rə.xə/ |
 | DESC+ADJ | sorychaaidd /sɔ.rə.ˈχa.aið/ | ṣurakhi /ˈsˤu.ra.xi/ | soraxauli /sɔrɑxɑuli/ | sorrecheachtech /sɔ.rə.xə.ˈɑx.təx/ |
 | DESC+NOUN | sorycha /sɔ.ˈrə.χa/ | ṣurakha /ˈsˤu.ra.xa/ | soraxa /sɔrɑxɑ/ | sorreche /ˈsɔ.rə.xə/ |
@@ -332,10 +332,10 @@ Irish: /t̪ˠəiɡ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ycheug /ˈə.χəiɡ/ | akhayg /ʔa.ˈxajɡ/ | axiayg /ɑxiɑiɡ/ | echeich /ə.ˈxɛix/ |
+| VOC | yheug /ˈə.həiɡ/ | ahayg /ʔa.ˈhajɡ/ | ahayg /ɑhɑiɡ/ | eheich /ə.ˈhɛix/ |
 | GEN | teug /ˈtəiɡ/ | ṭayg /ˈtˤajɡ/ | tayg /tʰɑiɡ/ | teich /ˈtɛix/ |
 | PATRO_O | oteug /ˈɔ.təiɡ/ | uṭayg /ʔu.ˈtˤajɡ/ | otayg /ɔtʰɑiɡ/ | ooteich /oː.ˈtɛix/ |
-| PATRO_NI | nicheug /ˈnɪ.χəiɡ/ | nikhayg /ni.ˈxajɡ/ | nixiayg /nixiɑiɡ/ | njiecheich /nji.ˈxɛix/ +1 |
+| PATRO_NI | niheug /ˈnɪ.həiɡ/ | nihayg /ni.ˈhajɡ/ | nihayg /nihɑiɡ/ | njieheich /nji.ˈhɛix/ +1 |
 | DESC | teug /ˈtəiɡ/ | ṭayg /ˈtˤajɡ/ | tayg /tʰɑiɡ/ | teich /ˈtɛix/ |
 | DESC+ADJ | teugaidd /ˈtəi.ɡaið/ | ṭaygi /ˈtˤaj.ɡi/ | tayguri /tʰɑiɡuri/ | teichachtech /tɛi.ˈxɑx.təx/ |
 | DESC+NOUN | teug /ˈtəiɡ/ | ṭayga /ˈtˤaj.ɡa/ | taygi /tʰɑiɡi/ | teich /ˈtɛix/ |
@@ -710,10 +710,10 @@ Irish: /tʲax/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ychach /ˈə.χaχ/ | aakhakh /ˈʔaː.xax/ | axiax /ɑxiɑx/ | echach /ˈə.xɑx/ +1 |
+| VOC | yhach /ˈə.haχ/ | aahakh /ˈʔaː.hax/ | ahax /ɑhɑx/ | ehach /ˈə.hɑx/ +1 |
 | GEN | tsach /ˈtʃaːχ/ | takh /ˈtax/ | chiax /tʃʰiɑx/ | tjach /ˈtjɑx/ +1 |
 | PATRO_O | otsach /ˈɔ.tʃaχ/ | ootakh /ˈʔoː.tax/ | ochiax /ɔtʃʰiɑx/ | ootjach /ˈoː.tjɑx/ +1 |
-| PATRO_NI | nichach /ˈnɪ.χaχ/ | niikhakh /ˈniː.xax/ | nixiax /nixiɑx/ | njiechach /ˈnji.xɑx/ +2 |
+| PATRO_NI | nihach /ˈnɪ.haχ/ | niihakh /ˈniː.hax/ | nihax /nihɑx/ | njiehach /ˈnji.hɑx/ +2 |
 | DESC | tsach /ˈtʃaːχ/ | takh /ˈtax/ | chiax /tʃʰiɑx/ | tjach /ˈtjɑx/ +1 |
 | DESC+ADJ | tsachaidd /ˈtʃaː.χaið/ | takhi /ˈta.xi/ | chiaxuri /tʃʰiɑxuri/ | tjachachtech /tjɑ.ˈxɑx.təx/ +1 |
 | DESC+NOUN | tsach /ˈtʃaːχ/ | takha /ˈta.xa/ | chiaxi /tʃʰiɑxi/ | tjach /ˈtjɑx/ +1 |
@@ -724,13 +724,13 @@ Irish: /hax/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ychach /ˈə.χaχ/ | aakhakh /ˈʔaː.xax/ | axiax /ɑxiɑx/ | echach /ˈə.xɑx/ +1 |
-| GEN | chach /ˈχaːχ/ | khakh /ˈxax/ | xiax /xiɑx/ | chach /ˈxɑx/ +1 |
-| PATRO_O | ochach /ˈɔ.χaχ/ | ookhakh /ˈʔoː.xax/ | oxiax /ɔxiɑx/ | oogach /ˈoː.ɣɑx/ +1 |
-| PATRO_NI | nichach /ˈnɪ.χaχ/ | niikhakh /ˈniː.xax/ | nixiax /nixiɑx/ | njiechach /ˈnji.xɑx/ +2 |
-| DESC | chach /ˈχaːχ/ | khakh /ˈxax/ | xiax /xiɑx/ | chach /ˈxɑx/ +1 |
-| DESC+ADJ | chachaidd /ˈχaː.χaið/ | khakhi /ˈxa.xi/ | xiaxuri /xiɑxuri/ | chachachtech /xɑ.ˈxɑx.təx/ +1 |
-| DESC+NOUN | chach /ˈχaːχ/ | khakha /ˈxa.xa/ | xiaxi /xiɑxi/ | chach /ˈxɑx/ +1 |
+| VOC | yhach /ˈə.haχ/ | aahakh /ˈʔaː.hax/ | ahax /ɑhɑx/ | ehach /ˈə.hɑx/ +1 |
+| GEN | hach /ˈhaːχ/ | hakh /ˈhax/ | hax /hɑx/ | hach /ˈhɑx/ +1 |
+| PATRO_O | ohach /ˈɔ.haχ/ | oohakh /ˈʔoː.hax/ | ohax /ɔhɑx/ | oohach /ˈoː.hɑx/ +1 |
+| PATRO_NI | nihach /ˈnɪ.haχ/ | niihakh /ˈniː.hax/ | nihax /nihɑx/ | njiehach /ˈnji.hɑx/ +2 |
+| DESC | hach /ˈhaːχ/ | hakh /ˈhax/ | hax /hɑx/ | hach /ˈhɑx/ +1 |
+| DESC+ADJ | hachaidd /ˈhaː.χaið/ | hakhi /ˈha.xi/ | haxuri /hɑxuri/ | hachachtech /hɑ.ˈxɑx.təx/ +1 |
+| DESC+NOUN | hach /ˈhaːχ/ | hakha /ˈha.xa/ | haxi /hɑxi/ | hach /ˈhɑx/ +1 |
 
 ## dteach — house (eclipsed)
 
@@ -780,13 +780,13 @@ Irish: /huːlʲ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ychwl /ˈə.χʊl/ | akhuul /ʔa.ˈxuːl/ | axiul /ɑxiul/ | echoel /ə.ˈxul/ +1 |
-| GEN | chwla /ˈχʊ.la/ | khuula /ˈxuː.la/ | xiula /xiulɑ/ | choele /ˈxu.lə/ +1 |
-| PATRO_O | ochwla /ɔ.ˈχʊ.la/ | ukhuula /ʔu.ˈxuː.la/ | oxiula /ɔxiulɑ/ | oogoele /oː.ˈɣu.lə/ +1 |
-| PATRO_NI | nichwla /nɪ.ˈχʊ.la/ | nikhuula /ni.ˈxuː.la/ | nixiula /nixiulɑ/ | njiechoele /nji.ˈxu.lə/ +2 |
-| DESC | chŵl /ˈχuːl/ | khuul /ˈxuːl/ | xiul /xiul/ | choel /ˈxul/ +1 |
-| DESC+ADJ | chwlaidd /ˈχuː.laið/ | khuuli /ˈxuː.li/ | xiuluri /xiuluri/ | choelachtech /xu.ˈlɑx.təx/ +1 |
-| DESC+NOUN | chŵl /ˈχuːl/ | khuula /ˈxuː.la/ | xiuli /xiuli/ | choel /ˈxul/ +1 |
+| VOC | yhwl /ˈə.hʊl/ | ahuul /ʔa.ˈhuːl/ | ahul /ɑhul/ | ehoel /ə.ˈhul/ +1 |
+| GEN | hwla /ˈhʊ.la/ | huula /ˈhuː.la/ | hula /hulɑ/ | hoele /ˈhu.lə/ +1 |
+| PATRO_O | ohwla /ɔ.ˈhʊ.la/ | uhuula /ʔu.ˈhuː.la/ | ohula /ɔhulɑ/ | oohoele /oː.ˈhu.lə/ +1 |
+| PATRO_NI | nihwla /nɪ.ˈhʊ.la/ | nihuula /ni.ˈhuː.la/ | nihula /nihulɑ/ | njiehoele /nji.ˈhu.lə/ +2 |
+| DESC | hŵl /ˈhuːl/ | huul /ˈhuːl/ | hul /hul/ | hoel /ˈhul/ +1 |
+| DESC+ADJ | hwlaidd /ˈhuː.laið/ | huuli /ˈhuː.li/ | huluri /huluri/ | hoelachtech /hu.ˈlɑx.təx/ +1 |
+| DESC+NOUN | hŵl /ˈhuːl/ | huula /ˈhuː.la/ | huli /huli/ | hoel /ˈhul/ +1 |
 
 ## naomh — std-scheme radical 'saint'
 
@@ -1494,10 +1494,10 @@ Irish: /suːlʲ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ychwl /ˈə.χʊl/ | akhuul /ʔa.ˈxuːl/ | axiul /ɑxiul/ | echoel /ə.ˈxul/ +1 |
+| VOC | yhwl /ˈə.hʊl/ | ahuul /ʔa.ˈhuːl/ | ahul /ɑhul/ | ehoel /ə.ˈhul/ +1 |
 | GEN | swla /ˈsʊ.la/ | ṣuula /ˈsˤuː.la/ | sula /sulɑ/ | soele /ˈsu.lə/ +1 |
 | PATRO_O | oswla /ɔ.ˈsʊ.la/ | uṣuula /ʔu.ˈsˤuː.la/ | osula /ɔsulɑ/ | oozoele /oː.ˈzu.lə/ +1 |
-| PATRO_NI | nichwla /nɪ.ˈχʊ.la/ | nikhuula /ni.ˈxuː.la/ | nixiula /nixiulɑ/ | njiechoele /nji.ˈxu.lə/ +2 |
+| PATRO_NI | nihwla /nɪ.ˈhʊ.la/ | nihuula /ni.ˈhuː.la/ | nihula /nihulɑ/ | njiehoele /nji.ˈhu.lə/ +2 |
 | DESC | sŵl /ˈsuːl/ | ṣuul /ˈsˤuːl/ | sul /sul/ | soel /ˈsul/ +1 |
 | DESC+ADJ | swlaidd /ˈsuː.laið/ | ṣuuli /ˈsˤuː.li/ | suluri /suluri/ | soelachtech /su.ˈlɑx.təx/ +1 |
 | DESC+NOUN | sŵl /ˈsuːl/ | ṣuula /ˈsˤuː.la/ | suli /suli/ | soel /ˈsul/ +1 |
@@ -2012,10 +2012,10 @@ Irish: /təˈbak/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ychybic /ə.ˈχə.bɪk/ | aakhabik /ˈʔaː.xa.bik/ | axiabyk /ɑxiɑbikʰ/ | echebjik /ə.ˈxə.bjɪk/ |
+| VOC | yhybic /ə.ˈhə.bɪk/ | aahabik /ˈʔaː.ha.bik/ | ahabyk /ɑhɑbikʰ/ | ehebjik /ə.ˈhə.bjɪk/ |
 | GEN | tybic /ˈtə.bɪk/ | ṭabik /ˈtˤa.bik/ | tabyk /tʰɑbikʰ/ | tebjik /ˈtə.bjɪk/ |
 | PATRO_O | otybic /ɔ.ˈtə.bɪk/ | uṭabik /ʔu.ˈtˤa.bik/ | otabyk /ɔtʰɑbikʰ/ | ootebjik /ˈoː.tə.bjɪk/ |
-| PATRO_NI | nichybic /nɪ.ˈχə.bɪk/ | nikhabik /ni.ˈxa.bik/ | nixiabyk /nixiɑbikʰ/ | njiechebjik /ˈnji.xə.bjɪk/ +1 |
+| PATRO_NI | nihybic /nɪ.ˈhə.bɪk/ | nihabik /ni.ˈha.bik/ | nihabyk /nihɑbikʰ/ | njiehebjik /ˈnji.hə.bjɪk/ +1 |
 | DESC | tybac /ˈtə.bak/ | ṭabak /ˈtˤa.bak/ | tabak /tʰɑbɑkʰ/ | tebak /ˈtə.bɑk/ +1 |
 | DESC+ADJ | tybacaidd /tə.ˈba.kaið/ | ṭabaki /ˈtˤa.ba.ki/ | tabakuri /tʰɑbɑkʰuri/ | tebakkachtech /tə.bɑ.ˈkɑx.təx/ +1 |
 | DESC+NOUN | tybac /ˈtə.bak/ | ṭabaka /ˈtˤa.ba.ka/ | tabaki /tʰɑbɑkʰi/ | tebak /ˈtə.bɑk/ +1 |

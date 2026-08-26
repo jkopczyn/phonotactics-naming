@@ -82,9 +82,18 @@ def test_a_plain_dorsal_in_a_cluster_keeps_its_broad_value():
     assert normalize(w("iʃk"), IRISH, TABLE).segments[-1] == "k"
 
 
-def test_h_becomes_c_cedilla_initially_before_a_non_front_vowel():
-    assert normalize(w("hoːlʲ"), IRISH, TABLE).segments[0] == "ç"      # sheoil, digest §1.1
-    assert normalize(w("hiː"), IRISH, TABLE).segments[0] == "h"
+def test_h_is_never_rewritten_to_c_cedilla():
+    """digest §1.1 [wiki-irish-phonology §Allophones]: [ç] is a realization of /h/ only
+    where that /h/ is the lenition of the SLENDER /tʲ ʃ/ (*sheoil* /çoːlʲ/). [normalize]
+    has no provenance channel, and the following vowel is not the conditioning factor —
+    *shúil* /huːlʲ/ (lenition of broad /sˠ/) has a back vowel and *héan* /heːnˠ/ a front
+    one, and both are [h]. Inputs that mean [ç] transcribe it directly (*a Sheáin*
+    /ə çaːnʲ/, *cheann* /çaːn̪ˠ/ in test-words.tsv), so no rule fires here."""
+    assert normalize(w("hax"), IRISH, TABLE).segments[0] == "h"        # theach
+    assert normalize(w("huːlʲ"), IRISH, TABLE).segments[0] == "h"      # shúil
+    assert normalize(w("heːnˠ"), IRISH, TABLE).segments[0] == "h"      # héan
+    assert normalize(w("hoːlʲ"), IRISH, TABLE).segments[0] == "h"
+    assert normalize(w("çoːlʲ"), IRISH, TABLE).segments[0] == "ç"      # sheoil, as written
     assert normalize(w("ahaː"), IRISH, TABLE).segments[1] == "h"
 
 
@@ -111,11 +120,18 @@ def test_irish_rules_passes_check_with_zero_errors():
 
 
 def test_vocative_of_sean_composes_to_a_sheain():
-    """digest §3.5: /ʃaːnˠ/ -> LEN -> /haːnˠ/ -> [ç] before a back vowel -> VOC_M1."""
+    """digest §3.5: /ʃaːnˠ/ -> LEN -> /haːnˠ/ -> VOC_M1 slenderizes the final.
+
+    The composed form keeps the /h/ that [mutations] LEN gives for /ʃ/
+    [wiki-irish-mutations §Summary table]. The attested *a Sheáin* [ə çaːnʲ] is a MUNSTER
+    surface form (its test-words row is tagged dialect M, and its citation is
+    wiki-irish-phonology §Vowel backness, Ó Sé's Dingle data); [ç] there is the allophone
+    of that /h/, and the row supplies it directly rather than having [normalize] derive it
+    (see the [normalize] comment where the old blanket `h -> ç` rule stood)."""
     x = apply_mutation(w("ʃaːnˠ"), "LEN", IRISH, TABLE)
     x = normalize(x, IRISH, TABLE)
     x = apply_inflection(x, "VOC_M1", IRISH, TABLE)
-    assert x.ipa(marks=False) == "çaːnʲ"
+    assert x.ipa(marks=False) == "haːnʲ"
 
 
 def test_trace_records_the_normalize_stage():

@@ -248,11 +248,17 @@ g   -> ɡ           %design # ASCII duplicate of U+0261, tooling only (I-34)
 ɑ   -> a           %design # user transcription only, digest line 27 — NOT a digest §1.1 claim
 ɑː  -> aː          %design # ditto, line 27
 
-# /h/ (the lenition product of /tʲ ʃ/) is [ç] before a "back" vowel (*sheoil* /çoːlʲ/,
-# digest §1.1 lines 107-108 [wiki-irish-phonology §Allophones]). "Back" there means
-# non-front: /a aː ə/ are front=- back=- in features.tsv (as for the ECL prothesis rule), so
-# the environment is written `[V -front]` — `[V +back]` would miss *a Sheáin* /çaːnʲ/.
-h -> ç / # _ [V -front]      %attested # [wiki-irish-phonology §Allophones], digest §1.1
+# NO `h -> ç` rule. The source (digest §1.1 lines 107-108 [wiki-irish-phonology
+# §Allophones]) says: "as the lenition of /tʲ/ and /ʃ/, /h/ is replaced by [ç] before back
+# vowels". The conditioning factor is the PROVENANCE of the /h/ — it must be the lenition of
+# a SLENDER /tʲ ʃ/ — and [normalize] has no provenance channel: by the time it runs, the /h/
+# of *theach* /hax/ (lenited /tʲ/) and the /h/ of *shúil* /huːlʲ/ (lenited broad /sˠ/) are
+# the same segment. Neither available proxy works. Keyed to a non-front vowel it fired on
+# *theach* -> /çax/ (Welsh *chach*, Dutch *chach*) and on *shúil* -> /çuːlʲ/ (Welsh *chŵl*),
+# all wrong; keyed to a front vowel it would fire on *héan* /heːnˠ/, also wrong. And [ç] is
+# an allophone (square brackets in the source), not a phonemic change, so nothing is lost:
+# an input that means [ç] transcribes it directly — *a Sheáin* /ə çaːnʲ/, *cheann* /çaːn̪ˠ/,
+# *sheoil* /çoːlʲ/ — and /ç/ is in the inventory above and passes through untouched.
 
 # Quality inference (caol le caol / leathan le leathan, digest §5.1 [wiki-irish-orthography
 # §Vowels]), written as EXPLICIT segment -> segment lines over the UNMARKED class (spec
