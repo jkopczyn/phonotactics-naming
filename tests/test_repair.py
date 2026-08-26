@@ -1,7 +1,9 @@
 """Plan Task 11: the unconditional repair loop and `cluster-fallback` (spec §12.A, §12.E)."""
+import pytest
+
 from helpers import TABLE, w
-from strands.dsl import parse_rules
-from strands.repair import MAX_REPAIR_PASSES, cluster_fallback, repair
+from strands.dsl import ParseError, parse_rules
+from strands.repair import (MAX_REPAIR_PASSES, cluster_fallback, cluster_keep, repair)
 from strands.syllabify import syllabify
 
 SRC = ("[inventory]\ns k i a t d\n[syllable]\ntemplate = (C)N(C)\nonsets = s k i t d\n"
@@ -143,3 +145,78 @@ def test_repair_is_deterministic():
     rf = parse_rules(SRC, TABLE)
     x = syllabify(w("ski"), rf, TABLE)
     assert repair(x, rf, TABLE) == repair(x, rf, TABLE)
+
+
+# ---- cluster-fallback = keep (owner decision 2026-08-25; digest §3.7) ---------------------------
+
+KEEP_SRC = ("[inventory]\np t k s l a\n[syllable]\ntemplate = (C)(C)N\nonsets = p t k s l pl kl\n"
+            "codas = any\nsonority = off\n[repair]\ncluster-fallback = keep\n")
+
+
+def test_cluster_keep_leaves_the_span_unchanged_and_clears_the_marks():
+    """Owner decision 2026-08-25: Georgian imports a foreign cluster intact (digest §3.7),
+    so an illegal onset is kept and the repair loop terminates without UNREPAIRED."""
+    rf = parse_rules(KEEP_SRC, TABLE)
+    out = repair(syllabify(w("tla"), rf, TABLE), rf, TABLE)
+    assert out.segments == ("t", "l", "a")
+    assert out.illegal == frozenset()
+    assert "UNREPAIRED" not in out.flags
+
+
+def test_cluster_keep_flags_the_kept_cluster():
+    rf = parse_rules(KEEP_SRC, TABLE)
+    out = repair(syllabify(w("tla"), rf, TABLE), rf, TABLE)
+    assert "UNATTESTED_CLUSTER:tl" in out.flags
+
+
+def test_cluster_keep_does_not_count_as_a_fallback():
+    """Nothing was substituted, so the fallback count must not move."""
+    rf = parse_rules(KEEP_SRC, TABLE)
+    out = repair(syllabify(w("tla"), rf, TABLE), rf, TABLE)
+    assert out.fallback_count() == 0
+    assert not any(t.tag == "fallback" for t in out.trace)
+
+
+def test_cluster_keep_trace_entry_shape():
+    rf = parse_rules(KEEP_SRC, TABLE)
+    out = repair(syllabify(w("tla"), rf, TABLE), rf, TABLE)
+    (t,) = [t for t in out.trace if t.rule_id == "cluster-keep"]
+    assert (t.stage, t.rule_id, t.tag) == ("repair", "cluster-keep", "design")
+    assert (t.before, t.after) == ("tla", "tla")
+    assert t.note == ("tl: unattested cluster kept (Georgian imports foreign clusters intact; "
+                      "digest §3.7)")
+
+
+def test_cluster_keep_handles_a_coda_span():
+    src = ("[inventory]\np t k l a\n[syllable]\ntemplate = (C)N(C)(C)\nonsets = p t k l\n"
+           "codas = p t k l lp lt\nsonority = off\n[repair]\ncluster-fallback = keep\n")
+    rf = parse_rules(src, TABLE)
+    out = repair(syllabify(w("alk"), rf, TABLE), rf, TABLE)
+    assert out.segments == ("a", "l", "k") and out.illegal == frozenset()
+    assert "UNATTESTED_CLUSTER:lk" in out.flags
+
+
+def test_cluster_keep_flags_one_cluster_per_span():
+    src = ("[inventory]\np t k l a\n[syllable]\ntemplate = (C)(C)N(C)(C)\nonsets = p t k l tl\n"
+           "codas = p t k l lp\nsonority = off\n[repair]\ncluster-fallback = keep\n")
+    rf = parse_rules(src, TABLE)
+    out = repair(syllabify(w("plalk"), rf, TABLE), rf, TABLE)
+    assert out.segments == ("p", "l", "a", "l", "k")
+    assert [f for f in out.flags if f.startswith("UNATTESTED_CLUSTER")] == \
+        ["UNATTESTED_CLUSTER:pl", "UNATTESTED_CLUSTER:lk"]
+
+
+def test_cluster_keep_is_off_unless_declared():
+    src = ("[inventory]\np t k s l a\n[syllable]\ntemplate = (C)(C)N\nonsets = p t k s l pl kl\n"
+           "codas = any\nsonority = off\n")
+    rf = parse_rules(src, TABLE)
+    x = syllabify(w("tla"), rf, TABLE)
+    assert cluster_keep(x, rf, TABLE) == x
+    assert "UNREPAIRED" in repair(x, rf, TABLE).flags
+
+
+def test_cluster_fallback_directive_rejects_an_unknown_value():
+    src = ("[inventory]\np a\n[syllable]\ntemplate = (C)N\nonsets = p\ncodas = any\n"
+           "sonority = off\n[repair]\ncluster-fallback = nearest\n")
+    with pytest.raises(ParseError):
+        parse_rules(src, TABLE)

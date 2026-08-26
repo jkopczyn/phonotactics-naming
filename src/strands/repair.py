@@ -6,9 +6,10 @@ Plan Task 11; spec §12.A (which overrides §4.4) and §12.E.
 these rules are active processes (Dutch final devoicing, Welsh fortition/prothesis), not fixes
 for illegal parses, so they fire whether or not anything is marked illegal. After any rule that
 changes the word — count-preserving or not — the word is re-syllabified, so later rules in the
-same pass see fresh syllable boundaries and illegal marks. At the end of each pass, when the
-file declares `cluster-fallback = same-length` and illegal marks remain, `cluster_fallback()`
-runs and the word is re-syllabified again if it changed anything.
+same pass see fresh syllable boundaries and illegal marks. At the end of each pass, when
+illegal marks remain, the file's `cluster-fallback` directive runs: `same-length` substitutes
+(`cluster_fallback()`, then a re-syllabification if anything changed), `keep` leaves the
+cluster alone (`cluster_keep()`, and NO re-syllabification — it clears the marks itself).
 
 A further pass runs only while illegal marks remain AND the previous pass changed the segment
 string. Cycle detection is on the segment string: every string seen at a pass boundary is
@@ -31,9 +32,16 @@ cluster of the SAME LENGTH from the file's `onsets` / `codas` list minimising th
 per-position segment feature distance under the file's `[weights]` (I-12); ties break by list
 order (first wins). `onsets = any` / `codas = any` offer no candidates. A span with no
 same-length candidate is left marked; the caller (`repair`) then flags `UNREPAIRED`.
+
+`cluster_keep()` — `cluster-fallback = keep` (owner decision 2026-08-25 for Georgian; digest
+§3.7: Georgian imports foreign clusters intact and does not repair them). The same onset/coda
+spans are found, but nothing is replaced: the marks are cleared so the loop terminates without
+`UNREPAIRED`, each span records `repair cluster-keep %design` and adds an
+`UNATTESTED_CLUSTER:<cluster>` flag, and the fallback count does not move.
 """
 from __future__ import annotations
 
+from dataclasses import replace
 from typing import Sequence
 
 from .dsl import RuleFile
@@ -42,13 +50,18 @@ from .rewrite import apply_rule
 from .syllabify import syllabify
 from .word import TraceEntry, Word
 
-__all__ = ["MAX_REPAIR_PASSES", "UNREPAIRED", "repair", "cluster_fallback"]
+__all__ = ["MAX_REPAIR_PASSES", "UNREPAIRED", "UNATTESTED_CLUSTER", "repair",
+           "cluster_fallback", "cluster_keep"]
 
 MAX_REPAIR_PASSES = 10
 UNREPAIRED = "UNREPAIRED"
+UNATTESTED_CLUSTER = "UNATTESTED_CLUSTER"
 STAGE = "repair"
 CLUSTER_FALLBACK = "cluster-fallback"
+CLUSTER_KEEP = "cluster-keep"
 SAME_LENGTH = "same-length"
+KEEP = "keep"
+KEEP_NOTE = ("unattested cluster kept (Georgian imports foreign clusters intact; digest §3.7)")
 
 
 # ---- cluster fallback (§12.E) -------------------------------------------------------------------
@@ -133,6 +146,40 @@ def cluster_fallback(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
     return out
 
 
+def cluster_keep(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
+    """`cluster-fallback = keep` (owner decision 2026-08-25; digest §3.7): an illegal onset or
+    coda span is LEFT AS IT IS. Its illegal marks are cleared, so the repair loop terminates
+    normally instead of flagging UNREPAIRED, and each kept span records a
+    `repair cluster-keep %design` trace entry and an `UNATTESTED_CLUSTER:<cluster>` flag.
+    Nothing is substituted, so no `%fallback` entry is made and the fallback count is unmoved.
+
+    A span that is neither an onset nor a coda (a nucleus-less domain, a ban over vowels, a
+    required-but-missing onset) is NOT kept: its marks stay and the caller flags UNREPAIRED,
+    exactly as under `same-length`. The word's segments never change, so the caller must not
+    re-syllabify afterwards — that would put the cleared marks straight back."""
+    if rf.cluster_fallback != KEEP or not word.illegal or rf.syllable is None:
+        return word
+    kept: list[tuple[int, int]] = []
+    for a, b in _illegal_runs(word):
+        if _span_role(word, a, b) is None:
+            continue
+        kept.append((a, b))
+    if not kept:
+        return word
+    out = word
+    cleared = set(out.illegal)
+    for a, b in kept:
+        cluster = "".join(out.segments[a:b])
+        here = out.ipa()
+        out = out.traced(TraceEntry(stage=STAGE, rule_id=CLUSTER_KEEP, tag="design",
+                                    before=here, after=here,
+                                    note=f"{cluster}: {KEEP_NOTE}"))
+        out = out.with_flag(f"{UNATTESTED_CLUSTER}:{cluster}")
+        cleared -= set(range(a, b))
+    return replace(out, illegal=frozenset(cleared))
+
+
+
 # ---- the loop (§12.A) ---------------------------------------------------------------------------
 
 def repair(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
@@ -155,6 +202,8 @@ def repair(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
             new = cluster_fallback(word, rf, table)
             if new is not word:
                 word = syllabify(new, rf, table)
+        elif word.illegal and rf.cluster_fallback == KEEP:
+            word = cluster_keep(word, rf, table)   # no re-syllabify: it would re-mark the span
         if not word.illegal:
             return word
         if word.segments in seen:                   # unchanged, or a longer cycle

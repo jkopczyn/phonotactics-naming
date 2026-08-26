@@ -48,6 +48,10 @@ SECTION_NAMES: tuple[str, ...] = (
 )
 REWRITE_SECTIONS: tuple[str, ...] = ("substitute", "repair", "post-stress", "respell", "normalize")
 SUBTABLE_SECTIONS: tuple[str, ...] = ("mutations", "inflect")          # I-15
+# [repair] `cluster-fallback` values (spec §12.E): "same-length" substitutes the nearest
+# attested cluster of the same length; "keep" leaves the illegal span alone, clears its
+# marks and flags it (owner decision 2026-08-25 for Georgian; digest §3.7).
+CLUSTER_FALLBACK_VALUES: tuple[str, ...] = ("same-length", "keep")
 TAGS: tuple[str, ...] = ("attested", "design", "fallback")
 STRESS_PROCEDURES: tuple[str, ...] = ("initial", "penult", "cairene", "dutch-weight", "keep-source")
 TEMPLATE_ARGS: tuple[str, ...] = ("NAME", "FATHER", "NOUN", "ADJ", "FIRST", "SECOND")
@@ -179,7 +183,9 @@ class RuleFile:
     templates: dict[str, tuple[TemplateItem, ...]] = field(default_factory=dict)
     mutations: dict[str, tuple[Rule, ...]] = field(default_factory=dict)   # I-15
     inflect: dict[str, tuple[Rule, ...]] = field(default_factory=dict)     # I-15
-    cluster_fallback: str | None = None     # [repair] directive, "same-length" (spec §12.E)
+    cluster_fallback: str | None = None     # [repair] directive (spec §12.E): "same-length"
+                                            # (substitute the nearest attested cluster) or
+                                            # "keep" (leave it, clear the marks, flag it)
 
 
 class ParseError(Exception):
@@ -872,9 +878,10 @@ def parse_rules(text: str, table: FeatureTable, path: str = "<string>") -> RuleF
         if section in REWRITE_SECTIONS:
             if section == "repair" and re.match(r"cluster-fallback\s*=", line):
                 _, value = _key_value(_strip_comment(line), lineno, path)
-                if value != "same-length":
-                    raise ParseError(f"cluster-fallback must be 'same-length', not {value!r} "
-                                     "(spec §12.E)", lineno, path)
+                if value not in CLUSTER_FALLBACK_VALUES:
+                    raise ParseError(f"cluster-fallback must be one of "
+                                     f"{', '.join(map(repr, CLUSTER_FALLBACK_VALUES))}, "
+                                     f"not {value!r} (spec §12.E)", lineno, path)
                 if cluster_fallback is not None:
                     raise ParseError("cluster-fallback given twice", lineno, path)
                 cluster_fallback = value
