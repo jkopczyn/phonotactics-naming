@@ -4,7 +4,7 @@
 
 The engine exists and runs end-to-end. `phonotactics/` now holds a Python package `strands`
 (no runtime dependencies), five rule files (`rules/irish.rules` + one per target), a feature
-table, and a test suite of FIXME_TESTS tests. Build path: spec (approved in chat, §12
+table, and a test suite of 862 tests. Build path: spec (approved in chat, §12
 amendments after plan review) → plan (3 drafts, GPT-5.6 + Opus reviews) → 40-agent workflow,
 each task test-first with its own commit → four cross-family reviews with fixes → my own
 verification pass, which found three defects (below), now fixed.
@@ -23,7 +23,7 @@ uv run strands lint my.tsv [--accept]                                        # f
 
 | Irish | Welsh | Cairene | Georgian | Dutch |
 |---|---|---|---|---|
-| Ciara /ˈkɪəɾˠə/ | cira | kiʼara | FIXME_CIARA | kjiere |
+| Ciara /ˈkɪəɾˠə/ | cira | kiʼara | kviara | kiere |
 | Matánach | matanach | maṭaanakh | matanax | mattanech |
 | Lasairchos | llasyrchos | laṣarkhuṣ | lasarxos | lasserchos |
 | Seán | siân | shaan | shian | sjaan |
@@ -67,7 +67,12 @@ Every cell is traceable: `explain` prints each rule that fired with its `%attest
 - A `h → ç` allophone rule fired outside its slender context: lenited *theach, shúil* came out
   *chach, chŵl* in Welsh and Dutch.
 - Dutch weight-stress could stress a schwa syllable (*an bhean* → *ˈən.vjɑn*).
-FIXME_FIXES
+
+All three fixed test-first (4 commits, suite 862 passed / 2 xfailed, tree clean). One
+genuine cost surfaced: the `h → ç` rule was the only thing producing the Munster vocative
+*a Sheáin* [ə çaːnʲ]; removing it gives /əhaːnʲ/ everywhere. A correct fix needs per-rule
+dialect gating, which the DSL doesn't have — a small feature if you want it. Also: with plain
+*k* now broad, *stríoc*'s inferred declension flipped f2 → m1 (a dictionary question).
 
 ## Known gaps (not defects)
 
