@@ -266,11 +266,19 @@ x x -> x       %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhri
 ɣ ɣ -> ɣ    %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
 l l -> l       %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
 r r -> r       %attested # digest §3.6 [gabunia2021 pp.50-51]; §2.10 [butskhrikidze2002 p.101 n.18]
-# spec §12.E, %fallback. SYNTHETIC: digest §3.0/§3.7 (lines 999–1027) state that NO cluster
-# repair is observed in the data ("Georgian does not fix an awkward loan; it declines to
-# adopt it", [rayfield2023 p.17]); this directive is ours, for the Irish clusters the §2
+# Overlay-undo (owner decision, 2026-08-25). The Cʷ overlay of [substitute] is an epenthesis;
+# where the /v/ it inserts is the only reason an onset is unlicensed, the overlay is undone
+# rather than the word repaired (naomh /n̪ˠiːw/ -> `niv`, not `nviv`). Where the onset stays
+# unlicensed without it the /v/ is kept, because the overlay is the more valued of the two
+# (ndroim -> `nrvim`); a licensed onset never reaches this rule at all (droim -> `drvim`).
+overlay-undo = v
+# spec §12.E. Owner decision (2026-08-25): Georgian does NOT repair an illegal cluster by
+# substitution. digest §3.0/§3.7 (lines 999–1027) — no cluster repair is observed in the data
+# ("Georgian does not fix an awkward loan; it declines to adopt it", [rayfield2023 p.17]) and
+# §3.7 has it importing foreign clusters intact — so an unlicensed cluster is KEPT, flagged
+# `UNATTESTED_CLUSTER:<cluster>`, and costs no fallback. This covers the Irish clusters the §2
 # lists do not license (e.g. lenited /hr hl hn/, §2.8 p.87 /h/ never in a sequence).
-cluster-fallback = same-length
+cluster-fallback = keep
 
 [stress]
 # digest §4.1 [borise2023 p.1, p.32; butskhrikidze2002 p.48, p.152]: fixed initial stress.

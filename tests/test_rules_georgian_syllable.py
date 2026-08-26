@@ -198,19 +198,24 @@ def test_degemination_is_attested_and_exceptionless():
     assert all(r.tag == "attested" for r in rules), [r.rule_id for r in rules if r.tag != "attested"]
 
 
-def test_cluster_fallback_is_synthetic_not_attested():
-    """§3.7 lines 999-1027: no cluster repair is observed in the data. This rule is ours."""
-    assert TARGET.cluster_fallback == "same-length"
+def test_cluster_repair_is_declined_rather_than_synthesised():
+    """§3.7 lines 999-1027: no cluster repair is observed in the data. Under the owner
+    decision of 2026-08-25 the file therefore declines to repair at all (`keep`) instead of
+    substituting a synthetic nearest cluster, and undoes the Cʷ overlay first."""
+    assert TARGET.cluster_fallback == "keep"
+    assert TARGET.overlay_undo == "v"
 
 
-def test_cluster_fallback_replaces_an_unlicensed_onset_synthetically():
-    """SYNTHETIC (spec §12.E): no Georgian datum shows this — the digest's point (§3.7) is
-    that Georgian keeps clusters. /hr/ is barred (§2.8 p.87); the fallback picks the nearest
-    two-member onset."""
+def test_an_unlicensed_onset_is_kept_intact_and_flagged():
+    """/hr/ is barred (§2.8 p.87: /h/ never in a sequence). §3.7 — Georgian imports the
+    foreign cluster rather than fixing it, so /hr/ survives, flagged and free of charge."""
     out = adapt([w("hɾˠaː")], TARGET, TABLE)
     assert "UNREPAIRED" not in out.flags
-    assert legal_onset(out.words[0].segments[:2], TARGET.syllable, TABLE)
-    assert any(t.rule_id == "cluster-fallback" for t in out.words[0].trace)
+    assert out.words[0].segments[:2] == ("h", "r")
+    assert not legal_onset(out.words[0].segments[:2], TARGET.syllable, TABLE)
+    assert "UNATTESTED_CLUSTER:hr" in out.flags
+    assert out.fallbacks == 0
+    assert not any(t.rule_id == "cluster-fallback" for t in out.words[0].trace)
 
 
 def test_the_temporary_syllable_block_from_23a_is_gone():
@@ -290,3 +295,67 @@ def test_a_broad_labial_before_a_front_vowel_does_not_get_v():
     """The Cʷ rule excludes labials (§1.6): *buí* /bˠiː/ stays plain."""
     segs = _desc("buí", "bˠiː").words[0].segments
     assert "v" not in segs, segs
+
+
+# ---- owner decision 2026-08-25: Georgian keeps unattested clusters (digest §3.7) ---------------
+
+def _desc_by_ortho(ortho: str) -> list[str]:
+    """Every test-words row with this orthography, run through DESC, as respellings."""
+    rows = [r for r in read_test_words() if r["orthography"] == ortho]
+    assert rows, ortho
+    return [run_entry(entry_of(r), "DESC", IRISH, TARGET, TABLE).respelling for r in rows]
+
+
+# The owner's table (2026-08-25). Left: the words whose DESC output the decision changes;
+# the cluster is now kept (or the Cʷ overlay undone) instead of substituted.
+CHANGED = [
+    ("naomh", {"niv"}),          # nv -> the overlay v is undone, not repaired to dv
+    ("ndroim", {"nrvim"}),       # nrv: undoing v leaves nr, also unlicensed, so v stays
+    ("nglúin", {"nlun"}),
+    ("mná", {"mra"}),
+    ("mbláth", {"mla"}),
+    ("shnámh", {"hnav"}),
+    ("scéal", {"shk'el"}),
+    # Owner's table says `shch'rik` / `berch'`; the engine's IPA is exactly that
+    # (/ʃtʃʼrikʰ/, /bɛrtʃʼ/) — the spelling differs only by the project's own D2 overlay
+    # (digest §5.3 D2: ჭ /tʃʼ/ is `tch`, not national `ch'`, after the canon name Tchaeul).
+    ("stríoc", {"shtchrik"}),
+    ("beirt", {"bertch"}),
+    ("dorn", {"dorn"}),
+    ("dhorn", {"ghorn"}),
+]
+
+# Controls: the decision must not move these.
+UNCHANGED = [
+    ("Ciara", {"kviara", "kiara"}),
+    ("Seán", {"shian"}),
+    ("Gaelach", {"gvelax"}),
+    ("taoiseach", {"tvishiax"}),
+    ("Saoirse", {"svirshia"}),
+    ("Lasairchos", {"lasarxos"}),
+    ("Matánach", {"matanax"}),
+    ("an tsúil", {"ant'ul"}),
+    ("sneachta", {"shniaxt'a"}),
+    ("droim", {"drvim"}),        # `drv` is licensed, so overlay-undo never fires
+    ("splanc", {"sp'lank'"}),
+    ("spraoi", {"sp'rvi"}),
+]
+
+
+@pytest.mark.parametrize("ortho,expected", CHANGED + UNCHANGED)
+def test_desc_matches_the_owner_table(ortho, expected):
+    assert set(_desc_by_ortho(ortho)) == expected
+
+
+def test_a_kept_cluster_is_flagged_and_costs_no_fallback():
+    rows = [r for r in read_test_words() if r["orthography"] == "shnámh"]
+    r = run_entry(entry_of(rows[0]), "DESC", IRISH, TARGET, TABLE)
+    assert "UNATTESTED_CLUSTER:hn" in r.flags
+    assert r.fallbacks == 0
+    assert not any(t.rule_id == "cluster-fallback" for t in r.trace)
+
+
+def test_the_overlay_undo_is_traced_on_naomh():
+    rows = [r for r in read_test_words() if r["orthography"] == "naomh"]
+    r = run_entry(entry_of(rows[0]), "DESC", IRISH, TARGET, TABLE)
+    assert any(t.rule_id == "overlay-undo" and t.stage == "repair" for t in r.trace)

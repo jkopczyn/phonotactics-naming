@@ -327,6 +327,24 @@ replaces an illegal onset/coda span by the attested cluster of the same length w
 summed segment feature distance (ties: list order), tagged `%fallback`; no candidate →
 `UNREPAIRED`. Tests are synthetic (no attested example exists).
 
+*Amended by owner decision, 2026-08-25 (Georgian only).* `cluster-fallback` takes a second
+value, `keep`: the illegal onset/coda span is left exactly as it is, its illegal marks are
+cleared so the repair loop terminates without `UNREPAIRED`, each span records a
+`repair cluster-keep %design` trace entry and adds a `Result.flags` entry
+`UNATTESTED_CLUSTER:<cluster>`. Nothing is substituted, so the fallback count does not move.
+This is Georgian's policy per digest §3.7 (Georgian imports a foreign cluster intact rather
+than repairing it); `same-length` remains Welsh's last resort. A span that is neither an
+onset nor a coda is still left marked and still yields `UNREPAIRED`.
+
+A second `[repair]` directive, `overlay-undo = <segment>`, runs before it: where a target
+writes a secondary-articulation overlay as an epenthesis in `[substitute]` (Georgian's Cʷ,
+`0 -> v / [BROAD -labial] _ [V +front]`) and that insertion is the only reason an onset is
+unlicensed, the inserted segment is deleted again (`repair overlay-undo %design`) instead of
+the cluster being repaired. If the onset is unlicensed without it too, the overlay is kept and
+the span falls through to `cluster-fallback`. Provenance comes from `Word.origins`, which
+`rewrite.apply_rule` fills for insertion rules only — a segment the input itself contained is
+never undone.
+
 **F. Segment spelling canon.** Canonical segment spellings are the digests' (`sˤ tʼ tʃ dʒ`,
 plain `g`), not PHOIBLE's (`s̪ˤ t̪ʼ t̠ʃ d̠ʒ ɡ`). `features.tsv` is built with a normalization
 map from PHOIBLE spellings; the tokenizer accepts an alias table (ASCII `g`→`ɡ` is *not*

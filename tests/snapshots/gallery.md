@@ -570,13 +570,13 @@ Irish: /n̪ˠɾˠiːmʲ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ynrim /ˈə.nrɪm/ | anriim /ʔan.ˈriːm/ | abrjym /ɑbrdʒim/ +1 | enriem /ən.ˈrim/ +1 |
-| GEN | nrima /ˈnrɪ.ma/ | niriima /ni.ˈriː.ma/ | brjimia /brdʒimiɑ/ +1 | riemje /ˈri.mjə/ +1 |
-| PATRO_O | onrima /ɔ.ˈnrɪ.ma/ | unriima /ʔun.ˈriː.ma/ | obrjimia /ɔbrdʒimiɑ/ +1 | oonriemje /oːn.ˈri.mjə/ +1 |
-| PATRO_NI | ninrima /nɪ.ˈnrɪ.ma/ | ninriima /nin.ˈriː.ma/ | nibrjimia /nibrdʒimiɑ/ +1 | njienriemje /njin.ˈri.mjə/ +1 |
-| DESC | nrim /ˈnrɪm/ | niriim /ni.ˈriːm/ | brjim /brdʒim/ +1 | riem /ˈrim/ +1 |
-| DESC+ADJ | nrimaidd /ˈnrɪ.maið/ | niriimi /ni.ˈriː.mi/ | brjimuli /brdʒimuli/ +1 | riemachtech /ri.ˈmɑx.təx/ +1 |
-| DESC+NOUN | nrim /ˈnrɪm/ | niriima /ni.ˈriː.ma/ | brjimi /brdʒimi/ +1 | riem /ˈrim/ +1 |
+| VOC | ynrim /ˈə.nrɪm/ | anriim /ʔan.ˈriːm/ | anrvym /ɑnrvim/ !UNATTESTED_CLUSTER:nrv | enriem /ən.ˈrim/ +1 |
+| GEN | nrima /ˈnrɪ.ma/ | niriima /ni.ˈriː.ma/ | nrvimia /nrvimiɑ/ !UNATTESTED_CLUSTER:nrv | riemje /ˈri.mjə/ +1 |
+| PATRO_O | onrima /ɔ.ˈnrɪ.ma/ | unriima /ʔun.ˈriː.ma/ | onrvimia /ɔnrvimiɑ/ !UNATTESTED_CLUSTER:nrv | oonriemje /oːn.ˈri.mjə/ +1 |
+| PATRO_NI | ninrima /nɪ.ˈnrɪ.ma/ | ninriima /nin.ˈriː.ma/ | ninrvimia /ninrvimiɑ/ !UNATTESTED_CLUSTER:nrv | njienriemje /njin.ˈri.mjə/ +1 |
+| DESC | nrim /ˈnrɪm/ | niriim /ni.ˈriːm/ | nrvim /nrvim/ !UNATTESTED_CLUSTER:nrv | riem /ˈrim/ +1 |
+| DESC+ADJ | nrimaidd /ˈnrɪ.maið/ | niriimi /ni.ˈriː.mi/ | nrvimuli /nrvimuli/ !UNATTESTED_CLUSTER:nrv | riemachtech /ri.ˈmɑx.təx/ +1 |
+| DESC+NOUN | nrim /ˈnrɪm/ | niriima /ni.ˈriː.ma/ | nrvimi /nrvimi/ !UNATTESTED_CLUSTER:nrv | riem /ˈrim/ +1 |
 
 ## freagra — answer (radical)
 
@@ -654,13 +654,13 @@ Irish: /ŋl̪ˠuːnʲ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ynglwn /ˈə.ŋlʊn/ | anluun /ʔan.ˈluːn/ | adlun /ɑdlun/ +1 | engloen /əŋ.ˈlun/ +1 |
-| GEN | nglwna /ˈŋlʊ.na/ | nuluuna /nu.ˈluː.na/ | dlunia /dluniɑ/ +1 | loenje /ˈlu.njə/ +1 |
-| PATRO_O | onglwna /ɔ.ˈŋlʊ.na/ | unluuna /ʔun.ˈluː.na/ | odlunia /ɔdluniɑ/ +1 | ongloenje /ɔŋ.ˈlu.njə/ +1 |
-| PATRO_NI | ninglwna /nɪ.ˈŋlʊ.na/ | ninluuna /nin.ˈluː.na/ | nidlunia /nidluniɑ/ +1 | njiengloenje /njiŋ.ˈlu.njə/ +2 |
-| DESC | nglŵn /ˈŋluːn/ | nuluun /nu.ˈluːn/ | dlun /dlun/ +1 | loen /ˈlun/ +1 |
-| DESC+ADJ | nglwnaidd /ˈŋluː.naið/ | nuluuni /nu.ˈluː.ni/ | dlunuri /dlunuri/ +1 | loenachtech /lu.ˈnɑx.təx/ +1 |
-| DESC+NOUN | nglŵn /ˈŋluːn/ | nuluuna /nu.ˈluː.na/ | dluni /dluni/ +1 | loen /ˈlun/ +1 |
+| VOC | ynglwn /ˈə.ŋlʊn/ | anluun /ʔan.ˈluːn/ | anlun /ɑnlun/ !UNATTESTED_CLUSTER:nl | engloen /əŋ.ˈlun/ +1 |
+| GEN | nglwna /ˈŋlʊ.na/ | nuluuna /nu.ˈluː.na/ | nlunia /nluniɑ/ !UNATTESTED_CLUSTER:nl | loenje /ˈlu.njə/ +1 |
+| PATRO_O | onglwna /ɔ.ˈŋlʊ.na/ | unluuna /ʔun.ˈluː.na/ | onlunia /ɔnluniɑ/ !UNATTESTED_CLUSTER:nl | ongloenje /ɔŋ.ˈlu.njə/ +1 |
+| PATRO_NI | ninglwna /nɪ.ˈŋlʊ.na/ | ninluuna /nin.ˈluː.na/ | ninlunia /ninluniɑ/ !UNATTESTED_CLUSTER:nl | njiengloenje /njiŋ.ˈlu.njə/ +2 |
+| DESC | nglŵn /ˈŋluːn/ | nuluun /nu.ˈluːn/ | nlun /nlun/ !UNATTESTED_CLUSTER:nl | loen /ˈlun/ +1 |
+| DESC+ADJ | nglwnaidd /ˈŋluː.naið/ | nuluuni /nu.ˈluː.ni/ | nlunuri /nlunuri/ !UNATTESTED_CLUSTER:nl | loenachtech /lu.ˈnɑx.təx/ +1 |
+| DESC+NOUN | nglŵn /ˈŋluːn/ | nuluuna /nu.ˈluː.na/ | nluni /nluni/ !UNATTESTED_CLUSTER:nl | loen /ˈlun/ +1 |
 
 ## peann — pen (radical)
 
@@ -794,13 +794,13 @@ Irish: /n̪ˠiːw/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ynif /ˈə.nɪv/ | aniif /ʔa.ˈniːf/ | advyv /ɑdviv/ +1 | enief /ə.ˈnif/ +1 |
-| GEN | nif /ˈniːv/ | niif /ˈniːf/ | dviv /dviv/ +1 | nief /ˈnif/ +1 |
-| PATRO_O | onif /ˈɔ.nɪv/ | uniif /ʔu.ˈniːf/ | odvyv /ɔdviv/ +1 | oonief /oː.ˈnif/ +1 |
-| PATRO_NI | ninif /ˈnɪ.nɪv/ | niniif /ni.ˈniːf/ | nidvyv /nidviv/ +1 | njienief /nji.ˈnif/ +1 |
-| DESC | niw /ˈnɪu/ | niiw /ˈniːw/ | dviv /dviv/ +1 | nief /ˈnif/ +1 |
-| DESC+ADJ | niwaidd /ˈnɪu.aið/ | niiwi /ˈniː.wi/ | dvivuri /dvivuri/ +1 | niefachtech /ni.ˈfɑx.təx/ +1 |
-| DESC+NOUN | niw /ˈnɪu/ | niiwa /ˈniː.wa/ | dvivi /dvivi/ +1 | nief /ˈnif/ +1 |
+| VOC | ynif /ˈə.nɪv/ | aniif /ʔa.ˈniːf/ | anyv /ɑniv/ | enief /ə.ˈnif/ +1 |
+| GEN | nif /ˈniːv/ | niif /ˈniːf/ | niv /niv/ | nief /ˈnif/ +1 |
+| PATRO_O | onif /ˈɔ.nɪv/ | uniif /ʔu.ˈniːf/ | onyv /ɔniv/ | oonief /oː.ˈnif/ +1 |
+| PATRO_NI | ninif /ˈnɪ.nɪv/ | niniif /ni.ˈniːf/ | ninyv /niniv/ | njienief /nji.ˈnif/ +1 |
+| DESC | niw /ˈnɪu/ | niiw /ˈniːw/ | niv /niv/ | nief /ˈnif/ +1 |
+| DESC+ADJ | niwaidd /ˈnɪu.aið/ | niiwi /ˈniː.wi/ | nivuri /nivuri/ | niefachtech /ni.ˈfɑx.təx/ +1 |
+| DESC+NOUN | niw /ˈnɪu/ | niiwa /ˈniː.wa/ | nivi /nivi/ | nief /ˈnif/ +1 |
 
 ## naomh — 'saint' (lenited n)
 
@@ -808,13 +808,13 @@ Irish: /nˠiːw/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ynif /ˈə.nɪv/ | aniif /ʔa.ˈniːf/ | advyv /ɑdviv/ +1 | enief /ə.ˈnif/ +1 |
-| GEN | nif /ˈniːv/ | niif /ˈniːf/ | dviv /dviv/ +1 | nief /ˈnif/ +1 |
-| PATRO_O | onif /ˈɔ.nɪv/ | uniif /ʔu.ˈniːf/ | odvyv /ɔdviv/ +1 | oonief /oː.ˈnif/ +1 |
-| PATRO_NI | ninif /ˈnɪ.nɪv/ | niniif /ni.ˈniːf/ | nidvyv /nidviv/ +1 | njienief /nji.ˈnif/ +1 |
-| DESC | niw /ˈnɪu/ | niiw /ˈniːw/ | dviv /dviv/ +1 | nief /ˈnif/ +1 |
-| DESC+ADJ | niwaidd /ˈnɪu.aið/ | niiwi /ˈniː.wi/ | dvivuri /dvivuri/ +1 | niefachtech /ni.ˈfɑx.təx/ +1 |
-| DESC+NOUN | niw /ˈnɪu/ | niiwa /ˈniː.wa/ | dvivi /dvivi/ +1 | nief /ˈnif/ +1 |
+| VOC | ynif /ˈə.nɪv/ | aniif /ʔa.ˈniːf/ | anyv /ɑniv/ | enief /ə.ˈnif/ +1 |
+| GEN | nif /ˈniːv/ | niif /ˈniːf/ | niv /niv/ | nief /ˈnif/ +1 |
+| PATRO_O | onif /ˈɔ.nɪv/ | uniif /ʔu.ˈniːf/ | onyv /ɔniv/ | oonief /oː.ˈnif/ +1 |
+| PATRO_NI | ninif /ˈnɪ.nɪv/ | niniif /ni.ˈniːf/ | ninyv /niniv/ | njienief /nji.ˈnif/ +1 |
+| DESC | niw /ˈnɪu/ | niiw /ˈniːw/ | niv /niv/ | nief /ˈnif/ +1 |
+| DESC+ADJ | niwaidd /ˈnɪu.aið/ | niiwi /ˈniː.wi/ | nivuri /nivuri/ | niefachtech /ni.ˈfɑx.təx/ +1 |
+| DESC+NOUN | niw /ˈnɪu/ | niiwa /ˈniː.wa/ | nivi /nivi/ | nief /ˈnif/ +1 |
 
 ## leanbh — child (radical)
 
@@ -1341,12 +1341,12 @@ Irish: /mˠɾˠaː/
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
 | VOC | ewra /ˈəu.ra/ | awraa /ʔaw.ˈraː/ | avra /ɑvrɑ/ | evra /ə.ˈvraː/ |
-| GEN | mra /ˈmraː/ | miraa /mi.ˈraː/ | bra /brɑ/ +1 | ra /ˈraː/ |
-| PATRO_O | omra /ˈɔ.mra/ | umraa /ʔum.ˈraː/ | obra /ɔbrɑ/ +1 | oomra /ˈoːm.raː/ |
+| GEN | mra /ˈmraː/ | miraa /mi.ˈraː/ | mra /mrɑ/ !UNATTESTED_CLUSTER:mr | ra /ˈraː/ |
+| PATRO_O | omra /ˈɔ.mra/ | umraa /ʔum.ˈraː/ | omra /ɔmrɑ/ !UNATTESTED_CLUSTER:mr | oomra /ˈoːm.raː/ |
 | PATRO_NI | niwra /ˈnɪu.ra/ | niwraa /niw.ˈraː/ | nivra /nivrɑ/ | njievra /ˈnji.vraː/ +1 |
-| DESC | mra /ˈmraː/ | miraa /mi.ˈraː/ | bra /brɑ/ +1 | ra /ˈraː/ |
-| DESC+ADJ | mraaidd /ˈmraː.aið/ | miraaʼi /mi.ˈraː.ʔi/ | brauli /brɑuli/ +1 | raaachtech /raː.ˈɑx.təx/ |
-| DESC+NOUN | mra /ˈmraː/ | miraa /mi.ˈraː/ | bra /brɑ/ +1 | ra /ˈraː/ |
+| DESC | mra /ˈmraː/ | miraa /mi.ˈraː/ | mra /mrɑ/ !UNATTESTED_CLUSTER:mr | ra /ˈraː/ |
+| DESC+ADJ | mraaidd /ˈmraː.aið/ | miraaʼi /mi.ˈraː.ʔi/ | mrauli /mrɑuli/ !UNATTESTED_CLUSTER:mr | raaachtech /raː.ˈɑx.təx/ |
+| DESC+NOUN | mra /ˈmraː/ | miraa /mi.ˈraː/ | mra /mrɑ/ !UNATTESTED_CLUSTER:mr | ra /ˈraː/ |
 
 ## sneachta — snow
 
@@ -1354,10 +1354,10 @@ Irish: /ˈʃnʲaxt̪ˠə/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ycnachta /ə.ˈknaχ.ta/ +1 | ahnakhṭa /ʔah.ˈnax.tˤa/ | ashniaxt'a /ɑʃniɑxtʼɑ/ +1 | enachte /ə.ˈnɑx.tə/ +1 |
+| VOC | ycnachta /ə.ˈknaχ.ta/ +1 | ahnakhṭa /ʔah.ˈnax.tˤa/ | ahniaxt'a /ɑhniɑxtʼɑ/ !UNATTESTED_CLUSTER:hn | enachte /ə.ˈnɑx.tə/ +1 |
 | GEN | ysnachta /əs.ˈnaχ.ta/ | shinakhṭa /ʃi.ˈnax.tˤa/ | shniaxt'a /ʃniɑxtʼɑ/ | snachte /ˈsnɑx.tə/ +1 |
 | PATRO_O | osnachta /ɔs.ˈnaχ.ta/ | ushnakhṭa /ʔuʃ.ˈnax.tˤa/ | oshniaxt'a /ɔʃniɑxtʼɑ/ | oosnachte /oː.ˈsnɑx.tə/ +1 |
-| PATRO_NI | nicnachta /nɪ.ˈknaχ.ta/ +1 | nihnakhṭa /nih.ˈnax.tˤa/ | nishniaxt'a /niʃniɑxtʼɑ/ +1 | njienachte /nji.ˈnɑx.tə/ +2 |
+| PATRO_NI | nicnachta /nɪ.ˈknaχ.ta/ +1 | nihnakhṭa /nih.ˈnax.tˤa/ | nihniaxt'a /nihniɑxtʼɑ/ !UNATTESTED_CLUSTER:hn | njienachte /nji.ˈnɑx.tə/ +2 |
 | DESC | ysnachta /əs.ˈnaχ.ta/ | shinakhṭa /ʃi.ˈnax.tˤa/ | shniaxt'a /ʃniɑxtʼɑ/ | snachte /ˈsnɑx.tə/ +1 |
 | DESC+ADJ | ysnachtaaidd /əs.naχ.ˈtaː.aið/ | shinakhṭi /ʃi.ˈnax.tˤi/ | shniaxt'auri /ʃniɑxtʼɑuri/ | snachteachtech /snɑx.tə.ˈɑx.təx/ +1 |
 | DESC+NOUN | ysnachta /əs.ˈnaχ.ta/ | shinakhṭa /ʃi.ˈnax.tˤa/ | shniaxt'a /ʃniɑxtʼɑ/ | snachte /ˈsnɑx.tə/ +1 |
@@ -1368,10 +1368,10 @@ Irish: /sˠpˠl̪ˠaŋk/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yffplangc /ˈəf.plaŋk/ +1 | ahbilank /ʔah.bi.ˈlank/ | ats'k'lank' /ɑtsʼkʼlɑnkʼ/ +1 | echplank /əx.ˈplɑŋk/ +1 |
+| VOC | yffplangc /ˈəf.plaŋk/ +1 | ahbilank /ʔah.bi.ˈlank/ | ahp'lank' /ɑhpʼlɑnkʼ/ !UNATTESTED_CLUSTER:hpʼl | echplank /əx.ˈplɑŋk/ +1 |
 | GEN | ysblangc /ˈəs.plaŋk/ | ṣibilank /sˤi.bi.ˈlank/ | sp'lank' /spʼlɑnkʼ/ | splank /ˈsplɑŋk/ +1 |
 | PATRO_O | osblangc /ˈɔs.plaŋk/ | uṣbilank /ʔusˤ.bi.ˈlank/ | osp'lank' /ɔspʼlɑnkʼ/ | oosplank /oː.ˈsplɑŋk/ +1 |
-| PATRO_NI | niffplangc /ˈnɪf.plaŋk/ +1 | nihbilank /nih.bi.ˈlank/ | nits'k'lank' /nitsʼkʼlɑnkʼ/ +1 | njiechplank /njix.ˈplɑŋk/ +2 |
+| PATRO_NI | niffplangc /ˈnɪf.plaŋk/ +1 | nihbilank /nih.bi.ˈlank/ | nihp'lank' /nihpʼlɑnkʼ/ !UNATTESTED_CLUSTER:hpʼl | njiechplank /njix.ˈplɑŋk/ +2 |
 | DESC | ysblangc /ˈəs.plaŋk/ | ṣibilank /sˤi.bi.ˈlank/ | sp'lank' /spʼlɑnkʼ/ | splank /ˈsplɑŋk/ +1 |
 | DESC+ADJ | ysblangcaidd /əs.ˈplaŋ.kaið/ | ṣibilanki /sˤi.bi.ˈlan.ki/ | sp'lank'uri /spʼlɑnkʼuri/ | splankachtech /splɑŋ.ˈkɑx.təx/ +1 |
 | DESC+NOUN | ysblangc /ˈəs.plaŋk/ | ṣibilanka /sˤi.bi.ˈlan.ka/ | sp'lank'i /spʼlɑnkʼi/ | splank /ˈsplɑŋk/ +1 |
@@ -1382,10 +1382,10 @@ Irish: /sˠpˠɾˠiː/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yffpri /ˈəf.prɪ/ +1 | ahbirii /ʔah.bi.ˈriː/ | atxzvi /ɑtʰxzvi/ +1 | echprie /əx.ˈpri/ +1 |
+| VOC | yffpri /ˈəf.prɪ/ +1 | ahbirii /ʔah.bi.ˈriː/ | ahp'rvi /ɑhpʼrvi/ !UNATTESTED_CLUSTER:hpʼrv | echprie /əx.ˈpri/ +1 |
 | GEN | ysbri /ˈə.sprɪ/ | ṣibirii /sˤi.bi.ˈriː/ | sp'rvi /spʼrvi/ | sprie /ˈspri/ +1 |
 | PATRO_O | osbri /ˈɔ.sprɪ/ | uṣbirii /ʔusˤ.bi.ˈriː/ | osp'rvi /ɔspʼrvi/ | oosprie /ˈoː.spri/ +1 |
-| PATRO_NI | niffpri /ˈnɪf.prɪ/ +1 | nihbirii /nih.bi.ˈriː/ | nitxzvi /nitʰxzvi/ +1 | njiechprie /ˈnjix.pri/ +1 |
+| PATRO_NI | niffpri /ˈnɪf.prɪ/ +1 | nihbirii /nih.bi.ˈriː/ | nihp'rvi /nihpʼrvi/ !UNATTESTED_CLUSTER:hpʼrv | njiechprie /ˈnjix.pri/ +1 |
 | DESC | ysbri /ˈə.sprɪ/ | ṣibirii /sˤi.bi.ˈriː/ | sp'rvi /spʼrvi/ | sprie /ˈspri/ +1 |
 | DESC+ADJ | ysbriaidd /ə.ˈspriː.aið/ | ṣibiriiʼi /sˤi.bi.ˈriː.ʔi/ | sp'rviuli /spʼrviuli/ | spriejachtech /spri.ˈjɑx.təx/ +1 |
 | DESC+NOUN | ysbri /ˈə.sprɪ/ | ṣibirii /sˤi.bi.ˈriː/ | sp'rvi /spʼrvi/ | sprie /ˈspri/ +1 |
@@ -1396,10 +1396,10 @@ Irish: /sˠpʲal/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yffpil /ˈəf.pɪl/ +1 | aahbil /ˈʔaːh.bil/ | asp'yl /ɑspʼil/ +1 | echpil /əx.ˈpɪl/ |
+| VOC | yffpil /ˈəf.pɪl/ +1 | aahbil /ˈʔaːh.bil/ | ahp'yl /ɑhpʼil/ !UNATTESTED_CLUSTER:hpʼ | echpil /əx.ˈpɪl/ |
 | GEN | ysbil /ˈə.spɪl/ | ṣibil /ˈsˤi.bil/ | sp'il /spʼil/ | spil /ˈspɪl/ |
 | PATRO_O | osbil /ˈɔ.spɪl/ | uuṣbil /ˈʔuːsˤ.bil/ | osp'yl /ɔspʼil/ | oospil /ˈoː.spɪl/ |
-| PATRO_NI | niffpil /ˈnɪf.pɪl/ +1 | niihbil /ˈniːh.bil/ | nisp'yl /nispʼil/ +1 | njiechpil /ˈnjix.pɪl/ +1 |
+| PATRO_NI | niffpil /ˈnɪf.pɪl/ +1 | niihbil /ˈniːh.bil/ | nihp'yl /nihpʼil/ !UNATTESTED_CLUSTER:hpʼ | njiechpil /ˈnjix.pɪl/ +1 |
 | DESC | ysbal /ˈə.spal/ | ṣibal /ˈsˤi.bal/ | sp'ial /spʼiɑl/ | spal /ˈspɑl/ +1 |
 | DESC+ADJ | ysbalaidd /ə.ˈspa.laið/ | ṣibali /ˈsˤi.ba.li/ | sp'ialuri /spʼiɑluri/ | spallachtech /spɑ.ˈlɑx.təx/ +1 |
 | DESC+NOUN | ysbal /ˈə.spal/ | ṣibala /ˈsˤi.ba.la/ | sp'iali /spʼiɑli/ | spal /ˈspɑl/ +1 |
@@ -1410,10 +1410,10 @@ Irish: /sˠmʲeːɾˠə/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ysbera /ə.ˈspɛ.ra/ +1 | ahmeera /ʔah.ˈmeː.ra/ | asmera /ɑsmɛrɑ/ +1 | emere /ə.ˈmeː.rə/ |
+| VOC | ysbera /ə.ˈspɛ.ra/ +1 | ahmeera /ʔah.ˈmeː.ra/ | ahmera /ɑhmɛrɑ/ !UNATTESTED_CLUSTER:hm | emere /ə.ˈmeː.rə/ |
 | GEN | ysmera /əs.ˈmɛ.ra/ | ṣimeera /sˤi.ˈmeː.ra/ | smera /smɛrɑ/ | smere /ˈsmeː.rə/ |
 | PATRO_O | osmera /ɔs.ˈmɛ.ra/ | uṣmeera /ʔusˤ.ˈmeː.ra/ | osmera /ɔsmɛrɑ/ | oosmere /oː.ˈsmeː.rə/ |
-| PATRO_NI | nisbera /nɪ.ˈspɛ.ra/ +1 | nihmeera /nih.ˈmeː.ra/ | nismera /nismɛrɑ/ +1 | njiemere /nji.ˈmeː.rə/ +1 |
+| PATRO_NI | nisbera /nɪ.ˈspɛ.ra/ +1 | nihmeera /nih.ˈmeː.ra/ | nihmera /nihmɛrɑ/ !UNATTESTED_CLUSTER:hm | njiemere /nji.ˈmeː.rə/ +1 |
 | DESC | ysmera /əs.ˈmɛ.ra/ | ṣimeera /sˤi.ˈmeː.ra/ | smera /smɛrɑ/ | smere /ˈsmeː.rə/ |
 | DESC+ADJ | ysmeraaidd /əs.mɛ.ˈraː.aið/ | ṣimeeri /sˤi.ˈmeː.ri/ | smerauli /smɛrɑuli/ | smereachtech /smeː.rə.ˈɑx.təx/ |
 | DESC+NOUN | ysmera /əs.ˈmɛ.ra/ | ṣimeera /sˤi.ˈmeː.ra/ | smera /smɛrɑ/ | smere /ˈsmeː.rə/ |
@@ -1424,13 +1424,13 @@ Irish: /ʃceːl̪ˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yffcel /ˈəf.kɛl/ +1 | ahkeel /ʔah.ˈkeːl/ | ask'el /ɑskʼɛl/ +1 | echkeel /əx.ˈkeːl/ |
-| GEN | ysgel /ˈə.skɛl/ | ishkeel /ʔiʃ.ˈkeːl/ | sk'el /skʼɛl/ +1 | skeel /ˈskeːl/ |
-| PATRO_O | osgel /ˈɔ.skɛl/ | ushkeel /ʔuʃ.ˈkeːl/ | osk'el /ɔskʼɛl/ +1 | ooskeel /oː.ˈskeːl/ |
-| PATRO_NI | niffcel /ˈnɪf.kɛl/ +1 | nihkeel /nih.ˈkeːl/ | nisk'el /niskʼɛl/ +1 | njiechkeel /njix.ˈkeːl/ +1 |
-| DESC | ysgel /ˈə.skɛl/ | ishkeel /ʔiʃ.ˈkeːl/ | sk'el /skʼɛl/ +1 | skeel /ˈskeːl/ |
-| DESC+ADJ | ysgelaidd /ə.ˈskɛ.laið/ | ishkeeli /ʔiʃ.ˈkeː.li/ | sk'eluri /skʼɛluri/ +1 | skeelachtech /skeː.ˈlɑx.təx/ |
-| DESC+NOUN | ysgel /ˈə.skɛl/ | ishkeela /ʔiʃ.ˈkeː.la/ | sk'eli /skʼɛli/ +1 | skeel /ˈskeːl/ |
+| VOC | yffcel /ˈəf.kɛl/ +1 | ahkeel /ʔah.ˈkeːl/ | ahk'el /ɑhkʼɛl/ !UNATTESTED_CLUSTER:hkʼ | echkeel /əx.ˈkeːl/ |
+| GEN | ysgel /ˈə.skɛl/ | ishkeel /ʔiʃ.ˈkeːl/ | shk'el /ʃkʼɛl/ !UNATTESTED_CLUSTER:ʃkʼ | skeel /ˈskeːl/ |
+| PATRO_O | osgel /ˈɔ.skɛl/ | ushkeel /ʔuʃ.ˈkeːl/ | oshk'el /ɔʃkʼɛl/ !UNATTESTED_CLUSTER:ʃkʼ | ooskeel /oː.ˈskeːl/ |
+| PATRO_NI | niffcel /ˈnɪf.kɛl/ +1 | nihkeel /nih.ˈkeːl/ | nihk'el /nihkʼɛl/ !UNATTESTED_CLUSTER:hkʼ | njiechkeel /njix.ˈkeːl/ +1 |
+| DESC | ysgel /ˈə.skɛl/ | ishkeel /ʔiʃ.ˈkeːl/ | shk'el /ʃkʼɛl/ !UNATTESTED_CLUSTER:ʃkʼ | skeel /ˈskeːl/ |
+| DESC+ADJ | ysgelaidd /ə.ˈskɛ.laið/ | ishkeeli /ʔiʃ.ˈkeː.li/ | shk'eluri /ʃkʼɛluri/ !UNATTESTED_CLUSTER:ʃkʼ | skeelachtech /skeː.ˈlɑx.təx/ |
+| DESC+NOUN | ysgel /ˈə.skɛl/ | ishkeela /ʔiʃ.ˈkeː.la/ | shk'eli /ʃkʼɛli/ !UNATTESTED_CLUSTER:ʃkʼ | skeel /ˈskeːl/ |
 
 ## stríoc — streak
 
@@ -1438,13 +1438,13 @@ Irish: /ʃtʲɾʲiːk/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yfftric /ˈəf.trɪk/ +1 | ahtiriik /ʔah.ti.ˈriːk/ | asts'ryk /ɑstsʼrikʰ/ +1 | echtriek /əx.ˈtrik/ +1 |
-| GEN | ystric /ˈə.strɪk/ | ishtiriik /ʔiʃ.ti.ˈriːk/ | sts'rik /stsʼrikʰ/ +1 | striek /ˈstrik/ +1 |
-| PATRO_O | ostric /ˈɔ.strɪk/ | ushtiriik /ʔuʃ.ti.ˈriːk/ | osts'ryk /ɔstsʼrikʰ/ +1 | oostriek /oː.ˈstrik/ +1 |
-| PATRO_NI | nifftric /ˈnɪf.trɪk/ +1 | nihtiriik /nih.ti.ˈriːk/ | nists'ryk /nistsʼrikʰ/ +1 | njiechtriek /njix.ˈtrik/ +1 |
-| DESC | ystric /ˈə.strɪk/ | ishtiriik /ʔiʃ.ti.ˈriːk/ | sts'rik /stsʼrikʰ/ +1 | striek /ˈstrik/ +1 |
-| DESC+ADJ | ystricaidd /ə.ˈstrɪ.kaið/ | ishtiriiki /ʔiʃ.ti.ˈriː.ki/ | sts'rikuli /stsʼrikʰuli/ +1 | striekachtech /stri.ˈkɑx.təx/ +1 |
-| DESC+NOUN | ystric /ˈə.strɪk/ | ishtiriika /ʔiʃ.ti.ˈriː.ka/ | sts'riki /stsʼrikʰi/ +1 | striek /ˈstrik/ +1 |
+| VOC | yfftric /ˈəf.trɪk/ +1 | ahtiriik /ʔah.ti.ˈriːk/ | ahtchryk /ɑhtʃʼrikʰ/ !UNATTESTED_CLUSTER:htʃʼr | echtriek /əx.ˈtrik/ +1 |
+| GEN | ystric /ˈə.strɪk/ | ishtiriik /ʔiʃ.ti.ˈriːk/ | shtchrik /ʃtʃʼrikʰ/ !UNATTESTED_CLUSTER:ʃtʃʼr | striek /ˈstrik/ +1 |
+| PATRO_O | ostric /ˈɔ.strɪk/ | ushtiriik /ʔuʃ.ti.ˈriːk/ | oshtchryk /ɔʃtʃʼrikʰ/ !UNATTESTED_CLUSTER:ʃtʃʼr | oostriek /oː.ˈstrik/ +1 |
+| PATRO_NI | nifftric /ˈnɪf.trɪk/ +1 | nihtiriik /nih.ti.ˈriːk/ | nihtchryk /nihtʃʼrikʰ/ !UNATTESTED_CLUSTER:htʃʼr | njiechtriek /njix.ˈtrik/ +1 |
+| DESC | ystric /ˈə.strɪk/ | ishtiriik /ʔiʃ.ti.ˈriːk/ | shtchrik /ʃtʃʼrikʰ/ !UNATTESTED_CLUSTER:ʃtʃʼr | striek /ˈstrik/ +1 |
+| DESC+ADJ | ystricaidd /ə.ˈstrɪ.kaið/ | ishtiriiki /ʔiʃ.ti.ˈriː.ki/ | shtchrikuli /ʃtʃʼrikʰuli/ !UNATTESTED_CLUSTER:ʃtʃʼr | striekachtech /stri.ˈkɑx.təx/ +1 |
+| DESC+NOUN | ystric /ˈə.strɪk/ | ishtiriika /ʔiʃ.ti.ˈriː.ka/ | shtchriki /ʃtʃʼrikʰi/ !UNATTESTED_CLUSTER:ʃtʃʼr | striek /ˈstrik/ +1 |
 
 ## beirt — two people
 
@@ -1452,13 +1452,13 @@ Irish: /bʲɛɾˠtʲ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yfert /ˈə.vɛrt/ | afirt /ʔa.ˈfirt/ | averj /ɑvɛrdʒ/ +1 | evjert /ə.ˈvjɛrt/ |
+| VOC | yfert /ˈə.vɛrt/ | afirt /ʔa.ˈfirt/ | avertch /ɑvɛrtʃʼ/ !UNATTESTED_CLUSTER:rtʃʼ | evjert /ə.ˈvjɛrt/ |
 | GEN | bertsa /ˈbɛr.tʃa/ | birta /ˈbir.ta/ | bertchia /bɛrtʃʼiɑ/ | bjertje /ˈbjɛr.tjə/ |
 | PATRO_O | obertsa /ɔ.ˈbɛr.tʃa/ | ubirta /ʔu.ˈbir.ta/ | obertchia /ɔbɛrtʃʼiɑ/ | oobjertje /oː.ˈbjɛr.tjə/ |
 | PATRO_NI | nifertsa /nɪ.ˈvɛr.tʃa/ | nifirta /ni.ˈfir.ta/ | nivertchia /nivɛrtʃʼiɑ/ | njievjertje /nji.ˈvjɛr.tjə/ +1 |
-| DESC | bert /ˈbɛrt/ | birt /ˈbirt/ | berj /bɛrdʒ/ +1 | bjert /ˈbjɛrt/ |
-| DESC+ADJ | bertaidd /ˈbɛr.taið/ | birti /ˈbir.ti/ | berjuli /bɛrdʒuli/ +1 | bjertachtech /bjɛr.ˈtɑx.təx/ |
-| DESC+NOUN | bert /ˈbɛrt/ | birta /ˈbir.ta/ | berji /bɛrdʒi/ +1 | bjert /ˈbjɛrt/ |
+| DESC | bert /ˈbɛrt/ | birt /ˈbirt/ | bertch /bɛrtʃʼ/ !UNATTESTED_CLUSTER:rtʃʼ | bjert /ˈbjɛrt/ |
+| DESC+ADJ | bertaidd /ˈbɛr.taið/ | birti /ˈbir.ti/ | bertchuli /bɛrtʃʼuli/ !UNATTESTED_CLUSTER:rtʃʼ | bjertachtech /bjɛr.ˈtɑx.təx/ |
+| DESC+NOUN | bert /ˈbɛrt/ | birta /ˈbir.ta/ | bertchi /bɛrtʃʼi/ !UNATTESTED_CLUSTER:rtʃʼ | bjert /ˈbjɛrt/ |
 
 ## ceann — head, one
 
@@ -1536,13 +1536,13 @@ Irish: /d̪ˠoːɾˠn̪ˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ygorn /ˈə.ɡɔrn/ | aghurn /ʔa.ˈɣurn/ | aghord /ɑɣɔrd/ +1 | egoren /ə.ˈɣoː.rən/ |
-| GEN | dorn /ˈdɔrn/ | ḍurn /ˈdˤurn/ | dord /dɔrd/ +1 | doren /ˈdoː.rən/ |
-| PATRO_O | odorn /ˈoː.dɔrn/ | uḍurn /ʔu.ˈdˤurn/ | odord /ɔdɔrd/ +1 | oodoren /oː.ˈdoː.rən/ |
-| PATRO_NI | nigorn /ˈniː.ɡɔrn/ | nighurn /ni.ˈɣurn/ | nighord /niɣɔrd/ +1 | njiegoren /nji.ˈɣoː.rən/ +1 |
-| DESC | dorn /ˈdɔrn/ | ḍurn /ˈdˤurn/ | dord /dɔrd/ +1 | doren /ˈdoː.rən/ |
-| DESC+ADJ | dornaidd /ˈdɔr.naið/ | ḍurni /ˈdˤur.ni/ | dorduli /dɔrduli/ +1 | dorenachtech /doː.rə.ˈnɑx.təx/ |
-| DESC+NOUN | dorn /ˈdɔrn/ | ḍurna /ˈdˤur.na/ | dordi /dɔrdi/ +1 | doren /ˈdoː.rən/ |
+| VOC | ygorn /ˈə.ɡɔrn/ | aghurn /ʔa.ˈɣurn/ | aghorn /ɑɣɔrn/ !UNATTESTED_CLUSTER:rn | egoren /ə.ˈɣoː.rən/ |
+| GEN | dorn /ˈdɔrn/ | ḍurn /ˈdˤurn/ | dorn /dɔrn/ !UNATTESTED_CLUSTER:rn | doren /ˈdoː.rən/ |
+| PATRO_O | odorn /ˈoː.dɔrn/ | uḍurn /ʔu.ˈdˤurn/ | odorn /ɔdɔrn/ !UNATTESTED_CLUSTER:rn | oodoren /oː.ˈdoː.rən/ |
+| PATRO_NI | nigorn /ˈniː.ɡɔrn/ | nighurn /ni.ˈɣurn/ | nighorn /niɣɔrn/ !UNATTESTED_CLUSTER:rn | njiegoren /nji.ˈɣoː.rən/ +1 |
+| DESC | dorn /ˈdɔrn/ | ḍurn /ˈdˤurn/ | dorn /dɔrn/ !UNATTESTED_CLUSTER:rn | doren /ˈdoː.rən/ |
+| DESC+ADJ | dornaidd /ˈdɔr.naið/ | ḍurni /ˈdˤur.ni/ | dornuli /dɔrnuli/ !UNATTESTED_CLUSTER:rn | dorenachtech /doː.rə.ˈnɑx.təx/ |
+| DESC+NOUN | dorn /ˈdɔrn/ | ḍurna /ˈdˤur.na/ | dorni /dɔrni/ !UNATTESTED_CLUSTER:rn | doren /ˈdoː.rən/ |
 
 ## long — ship
 
@@ -1606,13 +1606,13 @@ Irish: /n̪ˠiːvˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ynif /ˈə.nɪv/ | aniif /ʔa.ˈniːf/ | advyv /ɑdviv/ +1 | enief /ə.ˈnif/ +1 |
-| GEN | nif /ˈniːv/ | niif /ˈniːf/ | dviv /dviv/ +1 | nief /ˈnif/ +1 |
-| PATRO_O | onif /ˈɔ.nɪv/ | uniif /ʔu.ˈniːf/ | odvyv /ɔdviv/ +1 | oonief /oː.ˈnif/ +1 |
-| PATRO_NI | ninif /ˈnɪ.nɪv/ | niniif /ni.ˈniːf/ | nidvyv /nidviv/ +1 | njienief /nji.ˈnif/ +1 |
-| DESC | nif /ˈniːv/ | niiw /ˈniːw/ | dviv /dviv/ +1 | nief /ˈnif/ +1 |
-| DESC+ADJ | nifaidd /ˈniː.vaið/ | niiwi /ˈniː.wi/ | dvivuri /dvivuri/ +1 | niefachtech /ni.ˈfɑx.təx/ +1 |
-| DESC+NOUN | nif /ˈniːv/ | niiwa /ˈniː.wa/ | dvivi /dvivi/ +1 | nief /ˈnif/ +1 |
+| VOC | ynif /ˈə.nɪv/ | aniif /ʔa.ˈniːf/ | anyv /ɑniv/ | enief /ə.ˈnif/ +1 |
+| GEN | nif /ˈniːv/ | niif /ˈniːf/ | niv /niv/ | nief /ˈnif/ +1 |
+| PATRO_O | onif /ˈɔ.nɪv/ | uniif /ʔu.ˈniːf/ | onyv /ɔniv/ | oonief /oː.ˈnif/ +1 |
+| PATRO_NI | ninif /ˈnɪ.nɪv/ | niniif /ni.ˈniːf/ | ninyv /niniv/ | njienief /nji.ˈnif/ +1 |
+| DESC | nif /ˈniːv/ | niiw /ˈniːw/ | niv /niv/ | nief /ˈnif/ +1 |
+| DESC+ADJ | nifaidd /ˈniː.vaið/ | niiwi /ˈniː.wi/ | nivuri /nivuri/ | niefachtech /ni.ˈfɑx.təx/ +1 |
+| DESC+NOUN | nif /ˈniːv/ | niiwa /ˈniː.wa/ | nivi /nivi/ | nief /ˈnif/ +1 |
 
 ## gealbhan — sparrow
 
@@ -1634,13 +1634,13 @@ Irish: /ɣoːɾˠn̪ˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ygorn /ˈə.ɡɔrn/ | aghurn /ʔa.ˈɣurn/ | aghord /ɑɣɔrd/ +1 | egoren /ə.ˈɣoː.rən/ |
-| GEN | gorn /ˈɡɔrn/ | ghurn /ˈɣurn/ | ghord /ɣɔrd/ +1 | goren /ˈɣoː.rən/ |
-| PATRO_O | ogorn /ˈoː.ɡɔrn/ | ughurn /ʔu.ˈɣurn/ | oghord /ɔɣɔrd/ +1 | oogoren /oː.ˈɣoː.rən/ |
-| PATRO_NI | nigorn /ˈniː.ɡɔrn/ | nighurn /ni.ˈɣurn/ | nighord /niɣɔrd/ +1 | njiegoren /nji.ˈɣoː.rən/ +1 |
-| DESC | gorn /ˈɡɔrn/ | ghurn /ˈɣurn/ | ghord /ɣɔrd/ +1 | goren /ˈɣoː.rən/ |
-| DESC+ADJ | gornaidd /ˈɡɔr.naið/ | ghurni /ˈɣur.ni/ | ghorduli /ɣɔrduli/ +1 | gorenachtech /ɣoː.rə.ˈnɑx.təx/ |
-| DESC+NOUN | gorn /ˈɡɔrn/ | ghurna /ˈɣur.na/ | ghordi /ɣɔrdi/ +1 | goren /ˈɣoː.rən/ |
+| VOC | ygorn /ˈə.ɡɔrn/ | aghurn /ʔa.ˈɣurn/ | aghorn /ɑɣɔrn/ !UNATTESTED_CLUSTER:rn | egoren /ə.ˈɣoː.rən/ |
+| GEN | gorn /ˈɡɔrn/ | ghurn /ˈɣurn/ | ghorn /ɣɔrn/ !UNATTESTED_CLUSTER:rn | goren /ˈɣoː.rən/ |
+| PATRO_O | ogorn /ˈoː.ɡɔrn/ | ughurn /ʔu.ˈɣurn/ | oghorn /ɔɣɔrn/ !UNATTESTED_CLUSTER:rn | oogoren /oː.ˈɣoː.rən/ |
+| PATRO_NI | nigorn /ˈniː.ɡɔrn/ | nighurn /ni.ˈɣurn/ | nighorn /niɣɔrn/ !UNATTESTED_CLUSTER:rn | njiegoren /nji.ˈɣoː.rən/ +1 |
+| DESC | gorn /ˈɡɔrn/ | ghurn /ˈɣurn/ | ghorn /ɣɔrn/ !UNATTESTED_CLUSTER:rn | goren /ˈɣoː.rən/ |
+| DESC+ADJ | gornaidd /ˈɡɔr.naið/ | ghurni /ˈɣur.ni/ | ghornuli /ɣɔrnuli/ !UNATTESTED_CLUSTER:rn | gorenachtech /ɣoː.rə.ˈnɑx.təx/ |
+| DESC+NOUN | gorn /ˈɡɔrn/ | ghurna /ˈɣur.na/ | ghorni /ɣɔrni/ !UNATTESTED_CLUSTER:rn | goren /ˈɣoː.rən/ |
 
 ## dhearg — red (lenited)
 
@@ -1690,13 +1690,13 @@ Irish: /hn̪ˠaːw/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ycnaf /ˈə.knav/ +1 | ahnaaf /ʔah.ˈnaːf/ | ashnav /ɑʃnɑv/ +1 | enaaf /ə.ˈnaːv/ |
-| GEN | naf /ˈnaːv/ | hinaaf /hi.ˈnaːf/ | shnav /ʃnɑv/ +1 | naaf /ˈnaːv/ |
-| PATRO_O | ocnaf /ˈɔ.knav/ +1 | uhnaaf /ʔuh.ˈnaːf/ | oshnav /ɔʃnɑv/ +1 | oonaaf /oː.ˈnaːv/ |
-| PATRO_NI | nicnaf /ˈnɪ.knav/ +1 | nihnaaf /nih.ˈnaːf/ | nishnav /niʃnɑv/ +1 | njienaaf /nji.ˈnaːv/ +1 |
-| DESC | naw /ˈnau/ | hinaaw /hi.ˈnaːw/ | shnav /ʃnɑv/ +1 | naaf /ˈnaːv/ |
-| DESC+ADJ | nawaidd /ˈnau.aið/ | hinaawi /hi.ˈnaː.wi/ | shnavuri /ʃnɑvuri/ +1 | naavachtech /naː.ˈvɑx.təx/ |
-| DESC+NOUN | naw /ˈnau/ | hinaawa /hi.ˈnaː.wa/ | shnavi /ʃnɑvi/ +1 | naaf /ˈnaːv/ |
+| VOC | ycnaf /ˈə.knav/ +1 | ahnaaf /ʔah.ˈnaːf/ | ahnav /ɑhnɑv/ !UNATTESTED_CLUSTER:hn | enaaf /ə.ˈnaːv/ |
+| GEN | naf /ˈnaːv/ | hinaaf /hi.ˈnaːf/ | hnav /hnɑv/ !UNATTESTED_CLUSTER:hn | naaf /ˈnaːv/ |
+| PATRO_O | ocnaf /ˈɔ.knav/ +1 | uhnaaf /ʔuh.ˈnaːf/ | ohnav /ɔhnɑv/ !UNATTESTED_CLUSTER:hn | oonaaf /oː.ˈnaːv/ |
+| PATRO_NI | nicnaf /ˈnɪ.knav/ +1 | nihnaaf /nih.ˈnaːf/ | nihnav /nihnɑv/ !UNATTESTED_CLUSTER:hn | njienaaf /nji.ˈnaːv/ +1 |
+| DESC | naw /ˈnau/ | hinaaw /hi.ˈnaːw/ | hnav /hnɑv/ !UNATTESTED_CLUSTER:hn | naaf /ˈnaːv/ |
+| DESC+ADJ | nawaidd /ˈnau.aið/ | hinaawi /hi.ˈnaː.wi/ | hnavuri /hnɑvuri/ !UNATTESTED_CLUSTER:hn | naavachtech /naː.ˈvɑx.təx/ |
+| DESC+NOUN | naw /ˈnau/ | hinaawa /hi.ˈnaː.wa/ | hnavi /hnɑvi/ !UNATTESTED_CLUSTER:hn | naaf /ˈnaːv/ |
 
 ## ngasúr — boy (eclipsed)
 
@@ -1733,12 +1733,12 @@ Irish: /mˠl̪ˠaː/
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
 | VOC | ewla /ˈəu.la/ | awlaa /ʔaw.ˈlaː/ | avla /ɑvlɑ/ | evla /ə.ˈvlaː/ |
-| GEN | mla /ˈmlaː/ | milaa /mi.ˈlaː/ | bla /blɑ/ +1 | la /ˈlaː/ |
-| PATRO_O | omla /ˈɔ.mla/ | umlaa /ʔum.ˈlaː/ | obla /ɔblɑ/ +1 | oomla /ˈoːm.laː/ |
+| GEN | mla /ˈmlaː/ | milaa /mi.ˈlaː/ | mla /mlɑ/ !UNATTESTED_CLUSTER:ml | la /ˈlaː/ |
+| PATRO_O | omla /ˈɔ.mla/ | umlaa /ʔum.ˈlaː/ | omla /ɔmlɑ/ !UNATTESTED_CLUSTER:ml | oomla /ˈoːm.laː/ |
 | PATRO_NI | niwla /ˈnɪu.la/ | niwlaa /niw.ˈlaː/ | nivla /nivlɑ/ | njievla /ˈnji.vlaː/ +1 |
-| DESC | mla /ˈmlaː/ | milaa /mi.ˈlaː/ | bla /blɑ/ +1 | la /ˈlaː/ |
-| DESC+ADJ | mlaaidd /ˈmlaː.aið/ | milaaʼi /mi.ˈlaː.ʔi/ | blauri /blɑuri/ +1 | laaachtech /laː.ˈɑx.təx/ |
-| DESC+NOUN | mla /ˈmlaː/ | milaa /mi.ˈlaː/ | bla /blɑ/ +1 | la /ˈlaː/ |
+| DESC | mla /ˈmlaː/ | milaa /mi.ˈlaː/ | mla /mlɑ/ !UNATTESTED_CLUSTER:ml | la /ˈlaː/ |
+| DESC+ADJ | mlaaidd /ˈmlaː.aið/ | milaaʼi /mi.ˈlaː.ʔi/ | mlauri /mlɑuri/ !UNATTESTED_CLUSTER:ml | laaachtech /laː.ˈɑx.təx/ |
+| DESC+NOUN | mla /ˈmlaː/ | milaa /mi.ˈlaː/ | mla /mlɑ/ !UNATTESTED_CLUSTER:ml | la /ˈlaː/ |
 
 ## na héisc — the fish (pl.)
 
