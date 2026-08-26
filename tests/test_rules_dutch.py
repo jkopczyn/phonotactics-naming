@@ -239,10 +239,12 @@ def test_row_accounting():
 
 
 @pytest.mark.xfail(strict=True, reason=(
-    "Mode C bar 0.80 is unreachable under decision 9.17: 7 of the 35 Mode C rows are French "
-    "loans with lexical FINAL stress (digest §4 lines 691–696, *anarchie* [ɑ.nɑr.ˈxi]) which the "
-    "dutch-weight procedure cannot reproduce (it would need keep-source); *roos* [roːs] and "
-    "*lunch* [lʏnʃ] fail the file's own bans. Measured 26/35 = 0.743; the ratchet holds it."))
+    "Mode C bar 0.80 (28/35) is not met under decision 9.17/9.18: 7 of the 35 Mode C rows are "
+    "French loans with lexical FINAL stress (digest §4 lines 691–696, *anarchie* [ɑ.nɑr.ˈxi]) "
+    "which the dutch-weight procedure cannot reproduce (it would need keep-source), and *roos* "
+    "[roːs] fails the word-final tense-V + voiceless-fricative ban (the 9.18 repair is ordered "
+    "after final devoicing, so the file predicts [roːz]). Measured 27/35 = 0.771; the ratchet "
+    "holds it."))
 def test_regression_meets_the_bar():
     rep = run_regression("dutch", TABLE)
     assert rep.rate("C") >= 0.80, rep.summary()
@@ -250,19 +252,19 @@ def test_regression_meets_the_bar():
 
 def test_regression_measured_rate():
     """The achieved Mode C rate (see the xfail above): every failure is either a French
-    final-stress loan or one of the two attested surface forms the [syllable] bans reject."""
+    final-stress loan or the one attested surface form the word-final pact ban rejects."""
     rep = run_regression("dutch", TABLE)
-    assert rep.rate("C") >= 0.74, rep.summary()
+    assert rep.rate("C") >= 0.77, rep.summary()
     failing = {r.target_ipa for r in rep.rows if r.mode == "C" and not r.passed}
     assert failing <= {"ɑ.lə.ɣo.ˈri", "ɑ.nɑr.ˈxi", "ɑ.na.to.ˈmi", "e.nɛr.ˈʒi", "me.laŋ.xo.ˈli",
-                       "pro.fe.ˈsi", "ɛn.si.klo.pe.ˈdi", "roːs", "lʏnʃ"}, failing
+                       "pro.fe.ˈsi", "ɛn.si.klo.pe.ˈdi", "roːs"}, failing
 
 
 @pytest.mark.xfail(strict=True, reason=(
-    "Mode E bar 0.25 (8/32) is unreachable: 9 of the 25 tokenizable rows carry the English "
+    "Mode E bar 0.25 (8/32) is unreachable: 9 of the 26 tokenizable rows carry the English "
     "infinitive particle *tu:* against a Dutch -en form, 6 keep Netherlandic short `e o` for "
     "/eː oː/, and the rest are score-2 loans reproduced with English phonology (digest §3.4 "
-    "lines 530–535). Measured 3/25 = 0.12; the ratchet holds it (plan: 'the ratchet, not the "
+    "lines 530–535). Measured 4/26 = 0.154; the ratchet holds it (plan: 'the ratchet, not the "
     "absolute number, is the value')."))
 def test_mode_e_meets_the_bar():
     rep = run_regression("dutch", TABLE)
@@ -270,13 +272,13 @@ def test_mode_e_meets_the_bar():
 
 
 def test_error_bucket_is_small():
-    """Plan cap: ≤ 6. Measured: 7, every one an untokenizable SOURCE-side English symbol
-    (ʌ ×4, ɒ, the t̯ diacritic) or the French nasal œ̃ — nothing a rule file can address;
-    features.tsv (Task 1b) has no rows for them."""
+    """Plan cap: ≤ 6 (10% of 67). Every error is an untokenizable SOURCE-side English symbol
+    (ʌ ×4, ɒ, the t̯ diacritic): features.tsv (Task 1b) has no rows for them. The French
+    nasal œ̃ of *parfum* tokenizes (Belgian speakers keep it, digest §3.2.1 via nagy2008)."""
     rep = run_regression("dutch", TABLE)
     errors = [r for r in rep.rows if r.mode == "error"]
-    assert len(errors) <= 7, rep.summary()
-    assert {r.reason[0] for r in errors} <= set("ʌɒ̯̃"), [r.reason for r in errors]
+    assert len(errors) <= 6, rep.summary()
+    assert {r.reason[0] for r in errors} <= set("ʌɒ̯"), [r.reason for r in errors]
 
 
 def test_ratchet_does_not_slip():

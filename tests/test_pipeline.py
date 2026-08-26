@@ -1,5 +1,10 @@
 """Plan Task 21: the stage pipeline, token-stream respell and epithet slots (spec §4,
 §12.C, §12.H; I-8, I-19, I-39)."""
+import os
+import pathlib
+import subprocess
+import sys
+
 import pytest
 
 from helpers import FIXTURES, TABLE, irish, w
@@ -72,6 +77,26 @@ def test_stress_mark_defaults_to_on():
     assert r.ipa == "ˈpa.pa" and r.respelling == "baba"
 
 
+def test_respell_word_final_insertion_is_rendered():
+    """DSL epenthesis at `_ #` inserts AFTER the last segment (review-targets fix 2)."""
+    rf = parse_rules('[inventory]\na\n[respell]\n0 -> "Z" / _ #\n', TABLE)
+    assert respell(Word(segments=("a",)), rf, TABLE) == "aZ"
+
+
+def test_respell_insertion_does_not_claim_the_following_segment():
+    """An insertion is a chunk of width zero: the segment after it stays matchable (I-19)."""
+    rf = parse_rules('[inventory]\na\n[respell]\n0 -> "Z" / # _\na -> "A"\n', TABLE)
+    assert respell(Word(segments=("a",)), rf, TABLE) == "ZA"
+
+
+def test_respell_insertion_inside_an_opaque_chunk_is_not_rendered():
+    """A later insertion whose point lies strictly inside an earlier chunk is swallowed
+    by the chunk (the chunk is opaque); one at the chunk's edges renders."""
+    rf = parse_rules('[inventory]\np a\n[respell]\np a -> "X"\n0 -> "Z" / p _ a\n'
+                     '0 -> "Y" / # _\n0 -> "W" / _ #\n', TABLE)
+    assert respell(Word(segments=("p", "a")), rf, TABLE) == "YXW"
+
+
 def test_unmatched_segments_pass_through():
     rf = parse_rules('[inventory]\np a\n[respell]\np -> "b"\n', TABLE)
     assert respell(Word(segments=("p", "a")), rf, TABLE) == "ba"
@@ -141,6 +166,29 @@ def test_every_output_segment_is_in_the_target_inventory():
 
 def test_pipeline_is_deterministic():
     assert adapt([w("pˠaːd̪ˠɾˠəɟ")], TOY, TABLE) == adapt([w("pˠaːd̪ˠɾˠəɟ")], TOY, TABLE)
+
+
+_SEED_SCRIPT = """
+from helpers import FIXTURES, TABLE, w
+from strands.dsl import parse_rules_file
+from strands.pipeline import adapt
+rf = parse_rules_file(FIXTURES / "toy-target.rules", TABLE)
+print(repr(adapt([w("pa").with_flag("ZZZ").with_flag("AAA"), w("ka")], rf, TABLE)))
+"""
+
+
+def test_serialized_result_is_identical_across_hash_seeds():
+    """Byte-identical determinism (review-targets fix 1): a two-flag adaptation serializes the
+    same under several PYTHONHASHSEED values in separate processes."""
+    root = pathlib.Path(__file__).parents[1]
+    env = {**os.environ, "PYTHONPATH": os.pathsep.join([str(root / "src"), str(root / "tests")])}
+    outs = set()
+    for seed in ("0", "1", "2", "42", "4242"):
+        proc = subprocess.run([sys.executable, "-c", _SEED_SCRIPT], capture_output=True,
+                              text=True, check=True, env={**env, "PYTHONHASHSEED": seed})
+        outs.add(proc.stdout)
+    assert len(outs) == 1, outs
+    assert "('ZZZ', 'AAA')" in next(iter(outs))
 
 
 def test_unknown_target_name_raises():

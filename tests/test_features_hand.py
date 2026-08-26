@@ -3,19 +3,19 @@ import csv, pathlib, unicodedata
 ROOT = pathlib.Path(__file__).parents[1]
 
 HAND = ("pˠ bˠ t̪ˠ d̪ˠ fˠ sˠ mˠ n̪ˠ l̪ˠ ɾˠ vˠ pʲ bʲ tʲ dʲ fʲ vʲ mʲ nʲ lʲ ɾʲ "
-        "c ɟ ç ɲ lˠ l̠ʲ nˠ n̠ʲ o æ õː g ʋ tʃʰ e y œ ɔː ɛː").split()
+        "c ɟ ç ɲ lˠ l̠ʲ nˠ n̠ʲ o æ õː g ʋ tʃʰ e y œ ɔː ɛː œ̃").split()
 
 def rows():
     with (ROOT / "rules" / "features.tsv").open(encoding="utf-8") as fh:
         return list(csv.DictReader(fh, delimiter="\t"))
 
-def test_all_40_hand_rows_present():
+def test_all_41_hand_rows_present():
     segs = {r["segment"] for r in rows()}
     for s in HAND:
         assert s in segs, s
 
-def test_total_row_count_is_113():
-    assert len(rows()) == 113        # 73 PHOIBLE + 40 hand
+def test_total_row_count_is_114():
+    assert len(rows()) == 114        # 73 PHOIBLE + 41 hand
 
 def test_no_length_marked_consonant_rows():
     """Gemination is repeated segments, not a length diacritic (I-2)."""

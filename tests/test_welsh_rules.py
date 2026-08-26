@@ -316,15 +316,11 @@ def test_repair_table(before, after, cite):
     assert repair(syllabify(w(before), TARGET, TABLE), TARGET, TABLE).ipa(marks=False) == after, cite
 
 
-@pytest.mark.xfail(reason="digest line 508 gives only the orthographic pair cannu/canu; "
-                          "no IPA before/after pair exists for degemination")
-def test_degemination_has_no_attested_ipa_example():
-    assert False
-
-
 def test_degemination_is_encoded_over_repeated_segments():
     """§2.4 line 499 (R17a): CC → C after an unstressed syllable; geminates are repeated
-    segments (I-2). Synthetic: pɔ.tta.da (unstressed first syllable) → pɔtada."""
+    segments (I-2). Synthetic: pɔ.tta.da (unstressed first syllable) → pɔtada.
+    Limitation: digest line 508 gives only the orthographic pair cannu/canu — no attested
+    IPA before/after pair exists for degemination, so the input here is synthetic."""
     word = adapt([w("pɔttada")], TARGET, TABLE).words[0]
     assert "".join(word.segments) == "pɔtada", word.segments
 

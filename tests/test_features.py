@@ -4,8 +4,8 @@ from strands.features import load_features, FeatureError, FEATURE_NAMES
 
 TABLE = load_features(pathlib.Path(__file__).parents[1] / "rules" / "features.tsv")
 
-def test_table_has_38_features_and_113_segments():
-    assert len(FEATURE_NAMES) == 38 and len(TABLE.segments) == 113
+def test_table_has_38_features_and_114_segments():
+    assert len(FEATURE_NAMES) == 38 and len(TABLE.segments) == 114
 
 def test_segments_are_in_file_order_c_before_v():
     classes = [TABLE.segment_class(s) for s in TABLE.segments]

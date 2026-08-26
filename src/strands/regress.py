@@ -33,6 +33,7 @@ from __future__ import annotations
 
 import csv
 import json
+import math
 import unicodedata
 from dataclasses import dataclass
 from pathlib import Path
@@ -276,10 +277,17 @@ def assert_ratchet(report: RegressionReport, tolerance: float = 0.0) -> None:
                              + "; ".join(failures) + "\n" + report.summary())
 
 
+def _floor4(rate: float) -> float:
+    """Truncate to four decimals. Never rounds UP: a 2/3 report saved as 0.6667 would fail its
+    own assert_ratchet (0.6666… < 0.6667); 0.6666 cannot create a regression."""
+    return math.floor(rate * 10_000) / 10_000
+
+
 def write_ratchet(report: RegressionReport) -> None:
-    """Record the current rates for the modes that have rows. Run by hand, never by a test."""
+    """Record the current rates (floored to 4 decimals) for the modes that have rows.
+    Run by hand, never by a test."""
     counts = report.counts()
-    data = {mode: round(report.rate(mode), 4) for mode in ("E", "C") if counts.get(mode)}
+    data = {mode: _floor4(report.rate(mode)) for mode in ("E", "C") if counts.get(mode)}
     RATCHET_DIR.mkdir(parents=True, exist_ok=True)
     (RATCHET_DIR / f"{report.target}.json").write_text(
         json.dumps(data, indent=2, sort_keys=True) + "\n", encoding="utf-8")

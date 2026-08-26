@@ -171,6 +171,16 @@ def test_write_ratchet_round_trips(tmp_path, monkeypatch):
     assert_ratchet(rep)
 
 
+def test_write_ratchet_never_records_a_floor_above_the_rate(tmp_path, monkeypatch):
+    """A 2/3 report must not be saved as 0.6667 and then fail its own assert_ratchet
+    (review-targets fix 3): the stored floor is <= the exact rate."""
+    monkeypatch.setattr("strands.regress.RATCHET_DIR", tmp_path)
+    rep = RegressionReport(target="x", rows=(PASSING_ROW, PASSING_ROW, FAILING_ROW))
+    write_ratchet(rep)
+    assert load_ratchet("x")["C"] <= rep.rate("C")
+    assert_ratchet(rep)
+
+
 def test_edit_distance_is_reported():
     assert edit_distance(("k", "a", "l", "b"), ("k", "a", "l", "p")) == 1
     assert edit_distance((), ("a",)) == 1

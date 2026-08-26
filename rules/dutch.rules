@@ -20,8 +20,8 @@ variety = Belgian Standard Dutch (Verhoeven 2005; PHOIBLE InvID 2169)
 epithet-ADJ = ACHTIG
 # epithet-NOUN is deliberately unmapped (I-39 / spec §12.H): Dutch has no nominal epithet affix.
 # R21: the digest licenses up to THREE word-final coronal obstruents as appendix (§2 line 158,
-# "up to three appendix positions restricted to coronal obstruents"); `appendix = s t` below is a
-# narrowing to the two the examples actually show (herfst, ernst, promptst), recorded here.
+# "up to three appendix positions restricted to coronal obstruents"); `appendix = s t ʃ` below is a
+# narrowing to the three the examples show (herfst, ernst, promptst; loan *lunch*), recorded here.
 appendix-narrowed = design: digest §2 line 158
 
 [inventory]
@@ -43,6 +43,9 @@ i ɪ eː ɛ ɑ aː ɔ oː u ʏ yː øː ə
 œ y
 # Delta 2 — the loan vowels /ɛː ɔː/ (§1 line 116; /œː/ has no features.tsv row)
 marginal: ɛː ɔː
+# The French nasal of *parfum* [pɑrfœ̃]: Belgian/southern speakers keep it (95%) where the
+# Netherlandic norm adapts to [ʏm] (§3.4 line 523 [nagy2008-frans §3.2.1]; attested.tsv row *parfum*).
+marginal: œ̃
 # TRANSCRIPTION VARIANTS, not Belgian phonemes: the Netherlandic sources behind attested.tsv
 # write the A-class vowels /aː eː oː/ as `a e o` and WOLD writes /i u/ as `iː uː` (digest §0
 # lines 30–31, the normalization layer). The harness (I-25 Mode C) checks attested rows against
@@ -164,8 +167,9 @@ onsets-tier = pl:NATIVE pr:NATIVE bl:NATIVE br:NATIVE tʋ:NATIVE tr:NATIVE dʋ:N
 # (245), *lb *rb (250), *mb *ŋɡ (258–259), nasal+fricative (259).
 codas    = p b t d k f v s z ʃ ʒ x ɣ m n ŋ l r j ʋ lm rm rn lf lv ls lz lx lɣ lp lt ld lk rf rv rs rz rx rɣ rp rt rd rk mp nt nd ŋk md mt pt ps ts kt ks ft sp st sk xt jt js
 # Word-final coronal-obstruent appendix (§2 lines 158–161, 231–234): herfst = rf + st. Narrowed to
-# two positions — see [meta] appendix-narrowed.
-appendix = s t
+# three positions — see [meta] appendix-narrowed. /ʃ/ is a coronal obstruent and is the appendix
+# of the attested loan *lunch* [lʏnʃ] (WOLD; nasal + fricative is otherwise a banned coda, line 259).
+appendix = s t ʃ
 domain   = word
 # The lists are exhaustive and themselves contain sonority-violating members (pt, kt, sp sk st,
 # §2 line 265), so the generic scale is off; the lists decide. (design)

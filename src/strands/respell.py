@@ -26,11 +26,18 @@ STAGE = "respell"
 MARKS = (".", "ˈ", "ˌ")
 
 
-def _render(segments: tuple[str, ...], chunks: dict[int, tuple[int, str]]) -> str:
-    """Join chunks (start -> (stop, text)) and pass-through segments in order."""
+def _render(segments: tuple[str, ...], chunks: dict[int, tuple[int, str]],
+            inserts: dict[int, list[str]]) -> str:
+    """Join chunks (start -> (stop, text)), zero-width insertions (position -> texts, rendered
+    before the segment at that position; position len(segments) is the word end) and
+    pass-through segments, in order. An insertion point strictly inside a chunk's span is
+    never visited, so the chunk swallows it (it is opaque)."""
     out: list[str] = []
     i = 0
-    while i < len(segments):
+    while True:
+        out.extend(inserts.get(i, ()))
+        if i >= len(segments):
+            break
         if i in chunks:
             stop, text = chunks[i]
             out.append(text)
@@ -52,34 +59,34 @@ def respell_traced(word: Word, rf: RuleFile, table: FeatureTable) -> tuple[str, 
     rule_id "respell:<line>"), recording the rendered stream before and after."""
     rules = rf.sections.get(STAGE, ())
     chunks: dict[int, tuple[int, str]] = {}
+    inserts: dict[int, list[str]] = {}
     claimed: set[int] = set()
     trace: list[TraceEntry] = []
     for rule in rules:
-        before = _render(word.segments, chunks)
+        before = _render(word.segments, chunks, inserts)
         fired = False
         for start, stop, caps in find_matches(word, rule, rf, table):
-            span = range(start, stop) if stop > start else (start,)
-            if any(i in claimed for i in span):
-                continue                                # opaque chunk (I-19): never rematched
             text = "".join(_replacement(word, rule, start, stop, caps, table))
             if not rule.target:                         # epenthesis: a chunk of width zero
-                # An insertion sits BEFORE the segment at `start`; fold it into that
-                # segment's slot so rendering stays a single left-to-right pass.
-                if start in chunks:
+                # An insertion sits BEFORE the segment at `start` (or at the word end when
+                # start == len(segments)). It claims no segment, so later rules still match
+                # the segment after it; one strictly inside an existing chunk is dropped.
+                if any(cs < start < ce for cs, (ce, _) in chunks.items()):
                     continue
-                existing = word.segments[start] if start < len(word.segments) else ""
-                chunks[start] = (start + (1 if existing else 0), text + existing)
-                if existing:
-                    claimed.add(start)
+                inserts.setdefault(start, []).append(text)
                 fired = True
                 continue
+            span = range(start, stop)
+            if any(i in claimed for i in span):
+                continue                                # opaque chunk (I-19): never rematched
             chunks[start] = (stop, text)
             claimed.update(span)
             fired = True
         if fired:
             trace.append(TraceEntry(stage=STAGE, rule_id=rule.rule_id, tag=rule.tag,
-                                    before=before, after=_render(word.segments, chunks)))
-    return _strip_marks(_render(word.segments, chunks)), tuple(trace)
+                                    before=before,
+                                    after=_render(word.segments, chunks, inserts)))
+    return _strip_marks(_render(word.segments, chunks, inserts)), tuple(trace)
 
 
 def respell(word: Word, rf: RuleFile, table: FeatureTable) -> str:
