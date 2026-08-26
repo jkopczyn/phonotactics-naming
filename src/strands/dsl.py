@@ -56,7 +56,7 @@ TEMPLATE_FUNCS: tuple[str, ...] = (
     "VOC_M1", "ART", "LEN_IF_F")
 _SYLLABLE_KEYS: frozenset[str] = frozenset((
     "template", "nuclei", "onsets", "codas", "onsets-tier", "codas-tier", "onset-required",
-    "appendix", "domain", "sonority", "bans"))
+    "appendix", "domain", "sonority", "bans", "cluster-legality"))
 _TIER_RE = re.compile(r"[A-Z][A-Z0-9]*\Z")
 _SUBTABLE_HEAD_RE = re.compile(r"([A-Za-z][A-Za-z0-9_-]*)\s*:\s*(?:#.*)?\Z")
 
@@ -137,6 +137,9 @@ class SyllableSpec:
     domain: str                                     # "word" | "stem"
     sonority: bool
     bans: tuple[tuple[CtxItem, ...], ...]
+    cluster_legality: str = "whole"                 # "whole" | "pairwise"; default = §12.D
+    onset_pairs: tuple[tuple[str, str], ...] = ()   # adjacent pairs inside `onsets`, first-seen
+    coda_pairs: tuple[tuple[str, str], ...] = ()    # adjacent pairs inside `codas`, first-seen
 
 
 @dataclass(frozen=True)
@@ -633,6 +636,17 @@ def _template_slots(value: str, line: int, path: str) -> tuple[tuple[str, bool],
     return tuple(out)
 
 
+def _adjacent_pairs(clusters: tuple[tuple[str, ...], ...] | None
+                    ) -> tuple[tuple[str, str], ...]:
+    """Every adjacent segment pair occurring inside some cluster of the list, in first-seen
+    order (`cluster-legality = pairwise`; see syllabify.legal_onset)."""
+    out: dict[tuple[str, str], None] = {}
+    for cluster in clusters or ():
+        for a, b in zip(cluster, cluster[1:]):
+            out.setdefault((a, b), None)
+    return tuple(out)
+
+
 class _SyllableBuilder:
     def __init__(self, path: str, table: FeatureTable) -> None:
         self.path = path
@@ -649,6 +663,7 @@ class _SyllableBuilder:
         self.domain = "word"
         self.sonority = False
         self.bans: list[tuple[CtxItem, ...]] = []
+        self.cluster_legality = "whole"
 
     def entry(self, line: str, lineno: int) -> None:
         path, table = self.path, self.table
@@ -708,6 +723,10 @@ class _SyllableBuilder:
             if value not in ("on", "off"):
                 raise ParseError("sonority must be on or off", lineno, path)
             self.sonority = value == "on"
+        elif key == "cluster-legality":
+            if value not in ("whole", "pairwise"):
+                raise ParseError("cluster-legality must be whole or pairwise", lineno, path)
+            self.cluster_legality = value
         elif key == "bans":
             self.bans.append(_LineParser("syllable", lineno, path, table).ctx_sequence(value))
 
@@ -719,7 +738,9 @@ class _SyllableBuilder:
             coda_set=None if self.codas is None else frozenset(self.codas),
             onset_tiers=self.onset_tiers, coda_tiers=self.coda_tiers,
             onset_required=self.onset_required, appendix=self.appendix,
-            domain=self.domain, sonority=self.sonority, bans=tuple(self.bans))
+            domain=self.domain, sonority=self.sonority, bans=tuple(self.bans),
+            cluster_legality=self.cluster_legality,
+            onset_pairs=_adjacent_pairs(self.onsets), coda_pairs=_adjacent_pairs(self.codas))
 
 
 class _TemplateParser:

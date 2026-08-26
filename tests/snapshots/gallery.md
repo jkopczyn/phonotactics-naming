@@ -178,10 +178,10 @@ Irish: /bʲɾʲiːdʲ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yfrid /ˈə.vrɪd/ | afriid /ʔaf.ˈriːd/ | azryj /ɑzridʒ/ +1 | evriet /ə.ˈvrit/ +1 |
+| VOC | yfrid /ˈə.vrɪd/ | afriid /ʔaf.ˈriːd/ | avryj /ɑvridʒ/ | evriet /ə.ˈvrit/ +1 |
 | GEN | brija /ˈbrɪ.dʒa/ | biriida /bi.ˈriː.da/ | brijia /bridʒiɑ/ | briedje /ˈbri.djə/ +1 |
 | PATRO_O | obrija /ɔ.ˈbrɪ.dʒa/ | ubriida /ʔub.ˈriː.da/ | obrijia /ɔbridʒiɑ/ | oobriedje /oː.ˈbri.djə/ +1 |
-| PATRO_NI | nifrija /nɪ.ˈvrɪ.dʒa/ | nifriida /nif.ˈriː.da/ | nizrijia /nizridʒiɑ/ +1 | njievriedje /nji.ˈvri.djə/ +1 |
+| PATRO_NI | nifrija /nɪ.ˈvrɪ.dʒa/ | nifriida /nif.ˈriː.da/ | nivrijia /nivridʒiɑ/ | njievriedje /nji.ˈvri.djə/ +1 |
 | DESC | brid /ˈbriːd/ | biriid /bi.ˈriːd/ | brij /bridʒ/ | briet /ˈbrit/ +1 |
 | DESC+ADJ | bridaidd /ˈbriː.daið/ | biriidi /bi.ˈriː.di/ | brijuli /bridʒuli/ | brietachtech /bri.ˈtɑx.təx/ +1 |
 | DESC+NOUN | brid /ˈbriːd/ | biriida /bi.ˈriː.da/ | briji /bridʒi/ | briet /ˈbrit/ +1 |
@@ -262,10 +262,10 @@ Irish: /bʲɾʲiənˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yfrin /ˈə.vrɪn/ | afreen /ʔaf.ˈreːn/ | azrian /ɑzriɑn/ +1 | evrien /ə.ˈvrin/ |
+| VOC | yfrin /ˈə.vrɪn/ | afreen /ʔaf.ˈreːn/ | avrian /ɑvriɑn/ | evrien /ə.ˈvrin/ |
 | GEN | brin /ˈbrɪn/ | bireen /bi.ˈreːn/ | brian /briɑn/ | brien /ˈbrin/ |
 | PATRO_O | obrin /ˈɔ.brɪn/ | ubreen /ʔub.ˈreːn/ | obrian /ɔbriɑn/ | oobrien /oː.ˈbrin/ |
-| PATRO_NI | nifrin /ˈnɪ.vrɪn/ | nifreen /nif.ˈreːn/ | nizrian /nizriɑn/ +1 | njievrien /nji.ˈvrin/ +1 |
+| PATRO_NI | nifrin /ˈnɪ.vrɪn/ | nifreen /nif.ˈreːn/ | nivrian /nivriɑn/ | njievrien /nji.ˈvrin/ +1 |
 | DESC | brin /ˈbrɪn/ | bireen /bi.ˈreːn/ | brian /briɑn/ | brien /ˈbrin/ |
 | DESC+ADJ | brinaidd /ˈbrɪ.naið/ | bireeni /bi.ˈreː.ni/ | brianuli /briɑnuli/ | brienachtech /bri.ˈnɑx.təx/ |
 | DESC+NOUN | brin /ˈbrɪn/ | bireena /bi.ˈreː.na/ | briani /briɑni/ | brien /ˈbrin/ |
@@ -458,10 +458,10 @@ Irish: /nʲiː vʲɾʲiənʲ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ynifrin /ə.ˈnɪ.vrɪn/ | anifreen /ʔa.nif.ˈreːn/ | anyvrian /ɑnivriɑn/ | enjiefrjien /ə.njif.ˈrjin/ +1 |
+| VOC | ynifrin /ə.ˈnɪ.vrɪn/ | anifreen /ʔa.nif.ˈreːn/ | anivrian /ɑnivriɑn/ | enjiefrjien /ə.njif.ˈrjin/ +1 |
 | GEN | nifrina /nɪ.ˈvrɪ.na/ | nifreena /nif.ˈreː.na/ | nivriania /nivriɑniɑ/ | njiefrjienje /njif.ˈrji.njə/ +1 |
-| PATRO_O | onifrina /ɔ.nɪ.ˈvrɪ.na/ | unifreena /ʔu.nif.ˈreː.na/ | onyvriania /ɔnivriɑniɑ/ | oonjiefrjienje /oː.njif.ˈrji.njə/ +1 |
-| PATRO_NI | ninifrina /nɪ.nɪ.ˈvrɪ.na/ | ninifreena /ni.nif.ˈreː.na/ | ninyvriania /ninivriɑniɑ/ | njienjiefrjienje /nji.njif.ˈrji.njə/ +1 |
+| PATRO_O | onifrina /ɔ.nɪ.ˈvrɪ.na/ | unifreena /ʔu.nif.ˈreː.na/ | onivriania /ɔnivriɑniɑ/ | oonjiefrjienje /oː.njif.ˈrji.njə/ +1 |
+| PATRO_NI | ninifrina /nɪ.nɪ.ˈvrɪ.na/ | ninifreena /ni.nif.ˈreː.na/ | ninivriania /ninivriɑniɑ/ | njienjiefrjienje /nji.njif.ˈrji.njə/ +1 |
 | DESC | nifrin /ˈnɪ.vrɪn/ | nifreen /nif.ˈreːn/ | nivrian /nivriɑn/ | njiefrjien /njif.ˈrjin/ +1 |
 | DESC+ADJ | nifrinaidd /nɪ.ˈvrɪ.naið/ | nifreeni /nif.ˈreː.ni/ | nivrianuli /nivriɑnuli/ | njiefrjienachtech /njif.rji.ˈnɑx.təx/ +1 |
 | DESC+NOUN | nifrin /ˈnɪ.vrɪn/ | nifreena /nif.ˈreː.na/ | nivriani /nivriɑni/ | njiefrjien /njif.ˈrjin/ +1 |
@@ -542,13 +542,13 @@ Irish: /d̪ˠɾˠiːmʲ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ygrim /ˈə.ɡrɪm/ | aghriim /ʔaɣ.ˈriːm/ | aghrdzym /ɑɣrdzim/ +1 | egriem /ə.ˈɣrim/ +1 |
-| GEN | drima /ˈdrɪ.ma/ | ḍiriima /dˤi.ˈriː.ma/ | brjimia /brdʒimiɑ/ +1 | driemje /ˈdri.mjə/ +1 |
-| PATRO_O | odrima /ɔ.ˈdrɪ.ma/ | uḍriima /ʔudˤ.ˈriː.ma/ | obrjimia /ɔbrdʒimiɑ/ +1 | oodriemje /oː.ˈdri.mjə/ +1 |
-| PATRO_NI | nigrima /nɪ.ˈɡrɪ.ma/ | nighriima /niɣ.ˈriː.ma/ | nighrdzimia /niɣrdzimiɑ/ +1 | njiegriemje /nji.ˈɣri.mjə/ +1 |
-| DESC | drim /ˈdrɪm/ | ḍiriim /dˤi.ˈriːm/ | brjim /brdʒim/ +1 | driem /ˈdrim/ +1 |
-| DESC+ADJ | drimaidd /ˈdrɪ.maið/ | ḍiriimi /dˤi.ˈriː.mi/ | brjimuli /brdʒimuli/ +1 | driemachtech /dri.ˈmɑx.təx/ +1 |
-| DESC+NOUN | drim /ˈdrɪm/ | ḍiriima /dˤi.ˈriː.ma/ | brjimi /brdʒimi/ +1 | driem /ˈdrim/ +1 |
+| VOC | ygrim /ˈə.ɡrɪm/ | aghriim /ʔaɣ.ˈriːm/ | aghrvym /ɑɣrvim/ | egriem /ə.ˈɣrim/ +1 |
+| GEN | drima /ˈdrɪ.ma/ | ḍiriima /dˤi.ˈriː.ma/ | drvimia /drvimiɑ/ | driemje /ˈdri.mjə/ +1 |
+| PATRO_O | odrima /ɔ.ˈdrɪ.ma/ | uḍriima /ʔudˤ.ˈriː.ma/ | odrvimia /ɔdrvimiɑ/ | oodriemje /oː.ˈdri.mjə/ +1 |
+| PATRO_NI | nigrima /nɪ.ˈɡrɪ.ma/ | nighriima /niɣ.ˈriː.ma/ | nighrvimia /niɣrvimiɑ/ | njiegriemje /nji.ˈɣri.mjə/ +1 |
+| DESC | drim /ˈdrɪm/ | ḍiriim /dˤi.ˈriːm/ | drvim /drvim/ | driem /ˈdrim/ +1 |
+| DESC+ADJ | drimaidd /ˈdrɪ.maið/ | ḍiriimi /dˤi.ˈriː.mi/ | drvimuli /drvimuli/ | driemachtech /dri.ˈmɑx.təx/ +1 |
+| DESC+NOUN | drim /ˈdrɪm/ | ḍiriima /dˤi.ˈriː.ma/ | drvimi /drvimi/ | driem /ˈdrim/ +1 |
 
 ## dhroim — back (lenited)
 
@@ -556,13 +556,13 @@ Irish: /ɣɾˠiːmʲ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ygrim /ˈə.ɡrɪm/ | aghriim /ʔaɣ.ˈriːm/ | aghrdzym /ɑɣrdzim/ +1 | egriem /ə.ˈɣrim/ +1 |
-| GEN | grima /ˈɡrɪ.ma/ | ghiriima /ɣi.ˈriː.ma/ | ghrdzimia /ɣrdzimiɑ/ +1 | griemje /ˈɣri.mjə/ +1 |
-| PATRO_O | ogrima /ɔ.ˈɡrɪ.ma/ | ughriima /ʔuɣ.ˈriː.ma/ | oghrdzimia /ɔɣrdzimiɑ/ +1 | oogriemje /oː.ˈɣri.mjə/ +1 |
-| PATRO_NI | nigrima /nɪ.ˈɡrɪ.ma/ | nighriima /niɣ.ˈriː.ma/ | nighrdzimia /niɣrdzimiɑ/ +1 | njiegriemje /nji.ˈɣri.mjə/ +1 |
-| DESC | grim /ˈɡrɪm/ | ghiriim /ɣi.ˈriːm/ | ghrdzim /ɣrdzim/ +1 | griem /ˈɣrim/ +1 |
-| DESC+ADJ | grimaidd /ˈɡrɪ.maið/ | ghiriimi /ɣi.ˈriː.mi/ | ghrdzimuli /ɣrdzimuli/ +1 | griemachtech /ɣri.ˈmɑx.təx/ +1 |
-| DESC+NOUN | grim /ˈɡrɪm/ | ghiriima /ɣi.ˈriː.ma/ | ghrdzimi /ɣrdzimi/ +1 | griem /ˈɣrim/ +1 |
+| VOC | ygrim /ˈə.ɡrɪm/ | aghriim /ʔaɣ.ˈriːm/ | aghrvym /ɑɣrvim/ | egriem /ə.ˈɣrim/ +1 |
+| GEN | grima /ˈɡrɪ.ma/ | ghiriima /ɣi.ˈriː.ma/ | ghrvimia /ɣrvimiɑ/ | griemje /ˈɣri.mjə/ +1 |
+| PATRO_O | ogrima /ɔ.ˈɡrɪ.ma/ | ughriima /ʔuɣ.ˈriː.ma/ | oghrvimia /ɔɣrvimiɑ/ | oogriemje /oː.ˈɣri.mjə/ +1 |
+| PATRO_NI | nigrima /nɪ.ˈɡrɪ.ma/ | nighriima /niɣ.ˈriː.ma/ | nighrvimia /niɣrvimiɑ/ | njiegriemje /nji.ˈɣri.mjə/ +1 |
+| DESC | grim /ˈɡrɪm/ | ghiriim /ɣi.ˈriːm/ | ghrvim /ɣrvim/ | griem /ˈɣrim/ +1 |
+| DESC+ADJ | grimaidd /ˈɡrɪ.maið/ | ghiriimi /ɣi.ˈriː.mi/ | ghrvimuli /ɣrvimuli/ | griemachtech /ɣri.ˈmɑx.təx/ +1 |
+| DESC+NOUN | grim /ˈɡrɪm/ | ghiriima /ɣi.ˈriː.ma/ | ghrvimi /ɣrvimi/ | griem /ˈɣrim/ +1 |
 
 ## ndroim — back (eclipsed)
 
@@ -612,13 +612,13 @@ Irish: /vʲɾʲaɡɾˠə/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yfragra /ə.ˈvra.ɡra/ | afragra /ʔaf.ˈraɡ.ra/ | azriagra /ɑzriɑɡrɑ/ +1 | evragre /ə.ˈvrɑ.ɣrə/ +1 |
-| GEN | fragra /ˈvra.ɡra/ | firagra /fi.ˈraɡ.ra/ | zriagra /zriɑɡrɑ/ +1 | vragre /ˈvrɑ.ɣrə/ +1 |
-| PATRO_O | ofragra /ɔ.ˈvra.ɡra/ | ufragra /ʔuf.ˈraɡ.ra/ | ozriagra /ɔzriɑɡrɑ/ +1 | oovragre /oː.ˈvrɑ.ɣrə/ +1 |
-| PATRO_NI | nifragra /nɪ.ˈvra.ɡra/ | nifragra /nif.ˈraɡ.ra/ | nizriagra /nizriɑɡrɑ/ +1 | njievragre /nji.ˈvrɑ.ɣrə/ +2 |
-| DESC | fragra /ˈvra.ɡra/ | firagra /fi.ˈraɡ.ra/ | zriagra /zriɑɡrɑ/ +1 | vragre /ˈvrɑ.ɣrə/ +1 |
-| DESC+ADJ | fragraaidd /vra.ˈɡra.aið/ | firagri /fi.ˈraɡ.ri/ | zriagrauli /zriɑɡrɑuli/ +1 | vragreachtech /vrɑ.ɣrə.ˈɑx.təx/ +1 |
-| DESC+NOUN | fragra /ˈvra.ɡra/ | firagra /fi.ˈraɡ.ra/ | zriagra /zriɑɡrɑ/ +1 | vragre /ˈvrɑ.ɣrə/ +1 |
+| VOC | yfragra /ə.ˈvra.ɡra/ | afragra /ʔaf.ˈraɡ.ra/ | avriagra /ɑvriɑɡrɑ/ | evragre /ə.ˈvrɑ.ɣrə/ +1 |
+| GEN | fragra /ˈvra.ɡra/ | firagra /fi.ˈraɡ.ra/ | vriagra /vriɑɡrɑ/ | vragre /ˈvrɑ.ɣrə/ +1 |
+| PATRO_O | ofragra /ɔ.ˈvra.ɡra/ | ufragra /ʔuf.ˈraɡ.ra/ | ovriagra /ɔvriɑɡrɑ/ | oovragre /oː.ˈvrɑ.ɣrə/ +1 |
+| PATRO_NI | nifragra /nɪ.ˈvra.ɡra/ | nifragra /nif.ˈraɡ.ra/ | nivriagra /nivriɑɡrɑ/ | njievragre /nji.ˈvrɑ.ɣrə/ +2 |
+| DESC | fragra /ˈvra.ɡra/ | firagra /fi.ˈraɡ.ra/ | vriagra /vriɑɡrɑ/ | vragre /ˈvrɑ.ɣrə/ +1 |
+| DESC+ADJ | fragraaidd /vra.ˈɡra.aið/ | firagri /fi.ˈraɡ.ri/ | vriagrauli /vriɑɡrɑuli/ | vragreachtech /vrɑ.ɣrə.ˈɑx.təx/ +1 |
+| DESC+NOUN | fragra /ˈvra.ɡra/ | firagra /fi.ˈraɡ.ra/ | vriagra /vriɑɡrɑ/ | vragre /ˈvrɑ.ɣrə/ +1 |
 
 ## glúin — knee (radical)
 
@@ -1214,10 +1214,10 @@ Irish: /bʲɾʲaː/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yfra /ˈə.vra/ | afraa /ʔaf.ˈraː/ | azria /ɑzriɑ/ +1 | evra /ə.ˈvraː/ |
+| VOC | yfra /ˈə.vra/ | afraa /ʔaf.ˈraː/ | avria /ɑvriɑ/ | evra /ə.ˈvraː/ |
 | GEN | bra /ˈbraː/ | biraa /bi.ˈraː/ | bria /briɑ/ | bra /ˈbraː/ |
 | PATRO_O | obra /ˈɔ.bra/ | ubraa /ʔub.ˈraː/ | obria /ɔbriɑ/ | oobra /ˈoː.braː/ |
-| PATRO_NI | nifra /ˈnɪ.vra/ | nifraa /nif.ˈraː/ | nizria /nizriɑ/ +1 | njievra /ˈnji.vraː/ +1 |
+| PATRO_NI | nifra /ˈnɪ.vra/ | nifraa /nif.ˈraː/ | nivria /nivriɑ/ | njievra /ˈnji.vraː/ +1 |
 | DESC | bra /ˈbraː/ | biraa /bi.ˈraː/ | bria /briɑ/ | bra /ˈbraː/ |
 | DESC+ADJ | braaidd /ˈbraː.aið/ | biraaʼi /bi.ˈraː.ʔi/ | briauli /briɑuli/ | braaachtech /braː.ˈɑx.təx/ |
 | DESC+NOUN | bra /ˈbraː/ | biraa /bi.ˈraː/ | bria /briɑ/ | bra /ˈbraː/ |
@@ -1340,10 +1340,10 @@ Irish: /mˠɾˠaː/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ewra /ˈəu.ra/ | awraa /ʔaw.ˈraː/ | azra /ɑzrɑ/ +1 | evra /ə.ˈvraː/ |
+| VOC | ewra /ˈəu.ra/ | awraa /ʔaw.ˈraː/ | avra /ɑvrɑ/ | evra /ə.ˈvraː/ |
 | GEN | mra /ˈmraː/ | miraa /mi.ˈraː/ | bra /brɑ/ +1 | ra /ˈraː/ |
 | PATRO_O | omra /ˈɔ.mra/ | umraa /ʔum.ˈraː/ | obra /ɔbrɑ/ +1 | oomra /ˈoːm.raː/ |
-| PATRO_NI | niwra /ˈnɪu.ra/ | niwraa /niw.ˈraː/ | nizra /nizrɑ/ +1 | njievra /ˈnji.vraː/ +1 |
+| PATRO_NI | niwra /ˈnɪu.ra/ | niwraa /niw.ˈraː/ | nivra /nivrɑ/ | njievra /ˈnji.vraː/ +1 |
 | DESC | mra /ˈmraː/ | miraa /mi.ˈraː/ | bra /brɑ/ +1 | ra /ˈraː/ |
 | DESC+ADJ | mraaidd /ˈmraː.aið/ | miraaʼi /mi.ˈraː.ʔi/ | brauli /brɑuli/ +1 | raaachtech /raː.ˈɑx.təx/ |
 | DESC+NOUN | mra /ˈmraː/ | miraa /mi.ˈraː/ | bra /brɑ/ +1 | ra /ˈraː/ |
@@ -1369,12 +1369,12 @@ Irish: /sˠpˠl̪ˠaŋk/
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
 | VOC | yffplangc /ˈəf.plaŋk/ +1 | ahbilank /ʔah.bi.ˈlank/ | ats'k'lank' /ɑtsʼkʼlɑnkʼ/ +1 | echplank /əx.ˈplɑŋk/ +1 |
-| GEN | ysblangc /ˈəs.plaŋk/ | ṣibilank /sˤi.bi.ˈlank/ | ts'k'lank' /tsʼkʼlɑnkʼ/ +1 | splank /ˈsplɑŋk/ +1 |
-| PATRO_O | osblangc /ˈɔs.plaŋk/ | uṣbilank /ʔusˤ.bi.ˈlank/ | ots'k'lank' /ɔtsʼkʼlɑnkʼ/ +1 | oosplank /oː.ˈsplɑŋk/ +1 |
+| GEN | ysblangc /ˈəs.plaŋk/ | ṣibilank /sˤi.bi.ˈlank/ | sp'lank' /spʼlɑnkʼ/ | splank /ˈsplɑŋk/ +1 |
+| PATRO_O | osblangc /ˈɔs.plaŋk/ | uṣbilank /ʔusˤ.bi.ˈlank/ | osp'lank' /ɔspʼlɑnkʼ/ | oosplank /oː.ˈsplɑŋk/ +1 |
 | PATRO_NI | niffplangc /ˈnɪf.plaŋk/ +1 | nihbilank /nih.bi.ˈlank/ | nits'k'lank' /nitsʼkʼlɑnkʼ/ +1 | njiechplank /njix.ˈplɑŋk/ +2 |
-| DESC | ysblangc /ˈəs.plaŋk/ | ṣibilank /sˤi.bi.ˈlank/ | ts'k'lank' /tsʼkʼlɑnkʼ/ +1 | splank /ˈsplɑŋk/ +1 |
-| DESC+ADJ | ysblangcaidd /əs.ˈplaŋ.kaið/ | ṣibilanki /sˤi.bi.ˈlan.ki/ | ts'k'lank'uri /tsʼkʼlɑnkʼuri/ +1 | splankachtech /splɑŋ.ˈkɑx.təx/ +1 |
-| DESC+NOUN | ysblangc /ˈəs.plaŋk/ | ṣibilanka /sˤi.bi.ˈlan.ka/ | ts'k'lank'i /tsʼkʼlɑnkʼi/ +1 | splank /ˈsplɑŋk/ +1 |
+| DESC | ysblangc /ˈəs.plaŋk/ | ṣibilank /sˤi.bi.ˈlank/ | sp'lank' /spʼlɑnkʼ/ | splank /ˈsplɑŋk/ +1 |
+| DESC+ADJ | ysblangcaidd /əs.ˈplaŋ.kaið/ | ṣibilanki /sˤi.bi.ˈlan.ki/ | sp'lank'uri /spʼlɑnkʼuri/ | splankachtech /splɑŋ.ˈkɑx.təx/ +1 |
+| DESC+NOUN | ysblangc /ˈəs.plaŋk/ | ṣibilanka /sˤi.bi.ˈlan.ka/ | sp'lank'i /spʼlɑnkʼi/ | splank /ˈsplɑŋk/ +1 |
 
 ## spraoi — fun
 
@@ -1383,12 +1383,12 @@ Irish: /sˠpˠɾˠiː/
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
 | VOC | yffpri /ˈəf.prɪ/ +1 | ahbirii /ʔah.bi.ˈriː/ | atxzvi /ɑtʰxzvi/ +1 | echprie /əx.ˈpri/ +1 |
-| GEN | ysbri /ˈə.sprɪ/ | ṣibirii /sˤi.bi.ˈriː/ | txzvi /tʰxzvi/ +1 | sprie /ˈspri/ +1 |
-| PATRO_O | osbri /ˈɔ.sprɪ/ | uṣbirii /ʔusˤ.bi.ˈriː/ | otxzvi /ɔtʰxzvi/ +1 | oosprie /ˈoː.spri/ +1 |
+| GEN | ysbri /ˈə.sprɪ/ | ṣibirii /sˤi.bi.ˈriː/ | sp'rvi /spʼrvi/ | sprie /ˈspri/ +1 |
+| PATRO_O | osbri /ˈɔ.sprɪ/ | uṣbirii /ʔusˤ.bi.ˈriː/ | osp'rvi /ɔspʼrvi/ | oosprie /ˈoː.spri/ +1 |
 | PATRO_NI | niffpri /ˈnɪf.prɪ/ +1 | nihbirii /nih.bi.ˈriː/ | nitxzvi /nitʰxzvi/ +1 | njiechprie /ˈnjix.pri/ +1 |
-| DESC | ysbri /ˈə.sprɪ/ | ṣibirii /sˤi.bi.ˈriː/ | txzvi /tʰxzvi/ +1 | sprie /ˈspri/ +1 |
-| DESC+ADJ | ysbriaidd /ə.ˈsprɪ.aið/ | ṣibiriiʼi /sˤi.bi.ˈriː.ʔi/ | txzviuri /tʰxzviuri/ +1 | spriejachtech /spri.ˈjɑx.təx/ +1 |
-| DESC+NOUN | ysbri /ˈə.sprɪ/ | ṣibirii /sˤi.bi.ˈriː/ | txzvi /tʰxzvi/ +1 | sprie /ˈspri/ +1 |
+| DESC | ysbri /ˈə.sprɪ/ | ṣibirii /sˤi.bi.ˈriː/ | sp'rvi /spʼrvi/ | sprie /ˈspri/ +1 |
+| DESC+ADJ | ysbriaidd /ə.ˈsprɪ.aið/ | ṣibiriiʼi /sˤi.bi.ˈriː.ʔi/ | sp'rviuli /spʼrviuli/ | spriejachtech /spri.ˈjɑx.təx/ +1 |
+| DESC+NOUN | ysbri /ˈə.sprɪ/ | ṣibirii /sˤi.bi.ˈriː/ | sp'rvi /spʼrvi/ | sprie /ˈspri/ +1 |
 
 ## speal — scythe
 
@@ -1676,13 +1676,13 @@ Irish: /wl̪ˠasˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ewlis /ˈəu.lɪs/ | aawlish /ˈʔaːw.liʃ/ | azlysh /ɑzliʃ/ +1 | evlisj /ə.ˈvlɪʃ/ |
-| GEN | wlis /ˈwliːs/ | wilish /ˈwi.liʃ/ | zlish /zliʃ/ +1 | vlisj /ˈvlɪʃ/ |
-| PATRO_O | owlis /ˈɔ.wlɪs/ | uuwlish /ˈʔuːw.liʃ/ | ozlysh /ɔzliʃ/ +1 | oovlisj /ˈoː.vlɪʃ/ |
-| PATRO_NI | niwlis /ˈnɪu.lɪs/ | niiwlish /ˈniːw.liʃ/ | nizlysh /nizliʃ/ +1 | njievlisj /ˈnji.vlɪʃ/ +1 |
-| DESC | wlas /ˈwlaːs/ | wilaṣ /ˈwi.lasˤ/ | zlas /zlɑs/ +1 | vlas /ˈvlɑs/ +1 |
-| DESC+ADJ | wlasaidd /ˈwlaː.saið/ | wilaṣi /ˈwi.la.sˤi/ | zlasuri /zlɑsuri/ +1 | vlassachtech /vlɑ.ˈsɑx.təx/ +1 |
-| DESC+NOUN | wlas /ˈwlaːs/ | wilaṣa /ˈwi.la.sˤa/ | zlasi /zlɑsi/ +1 | vlas /ˈvlɑs/ +1 |
+| VOC | ewlis /ˈəu.lɪs/ | aawlish /ˈʔaːw.liʃ/ | avlysh /ɑvliʃ/ | evlisj /ə.ˈvlɪʃ/ |
+| GEN | wlis /ˈwliːs/ | wilish /ˈwi.liʃ/ | vlish /vliʃ/ | vlisj /ˈvlɪʃ/ |
+| PATRO_O | owlis /ˈɔ.wlɪs/ | uuwlish /ˈʔuːw.liʃ/ | ovlysh /ɔvliʃ/ | oovlisj /ˈoː.vlɪʃ/ |
+| PATRO_NI | niwlis /ˈnɪu.lɪs/ | niiwlish /ˈniːw.liʃ/ | nivlysh /nivliʃ/ | njievlisj /ˈnji.vlɪʃ/ +1 |
+| DESC | wlas /ˈwlaːs/ | wilaṣ /ˈwi.lasˤ/ | vlas /vlɑs/ | vlas /ˈvlɑs/ +1 |
+| DESC+ADJ | wlasaidd /ˈwlaː.saið/ | wilaṣi /ˈwi.la.sˤi/ | vlasuri /vlɑsuri/ | vlassachtech /vlɑ.ˈsɑx.təx/ +1 |
+| DESC+NOUN | wlas /ˈwlaːs/ | wilaṣa /ˈwi.la.sˤa/ | vlasi /vlɑsi/ | vlas /ˈvlɑs/ +1 |
 
 ## shnámh — swam (lenited)
 
@@ -1732,10 +1732,10 @@ Irish: /mˠl̪ˠaː/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ewla /ˈəu.la/ | awlaa /ʔaw.ˈlaː/ | azla /ɑzlɑ/ +1 | evla /ə.ˈvlaː/ |
+| VOC | ewla /ˈəu.la/ | awlaa /ʔaw.ˈlaː/ | avla /ɑvlɑ/ | evla /ə.ˈvlaː/ |
 | GEN | mla /ˈmlaː/ | milaa /mi.ˈlaː/ | bla /blɑ/ +1 | la /ˈlaː/ |
 | PATRO_O | omla /ˈɔ.mla/ | umlaa /ʔum.ˈlaː/ | obla /ɔblɑ/ +1 | oomla /ˈoːm.laː/ |
-| PATRO_NI | niwla /ˈnɪu.la/ | niwlaa /niw.ˈlaː/ | nizla /nizlɑ/ +1 | njievla /ˈnji.vlaː/ +1 |
+| PATRO_NI | niwla /ˈnɪu.la/ | niwlaa /niw.ˈlaː/ | nivla /nivlɑ/ | njievla /ˈnji.vlaː/ +1 |
 | DESC | mla /ˈmlaː/ | milaa /mi.ˈlaː/ | bla /blɑ/ +1 | la /ˈlaː/ |
 | DESC+ADJ | mlaaidd /ˈmlaː.aið/ | milaaʼi /mi.ˈlaː.ʔi/ | blauri /blɑuri/ +1 | laaachtech /laː.ˈɑx.təx/ |
 | DESC+NOUN | mla /ˈmlaː/ | milaa /mi.ˈlaː/ | bla /blɑ/ +1 | la /ˈlaː/ |

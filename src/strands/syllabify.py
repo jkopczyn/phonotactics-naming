@@ -4,7 +4,9 @@ Plan Task 10; spec §3 `[syllable]` (legality = template ∧ onset-set ∧ coda-
 ¬banned; maximal onset subject to legality; on failure mark the minimal illegal span rather
 than raising), §12.B (diphthongs are two segments but one nucleus when `nuclei` licenses the
 pair; Georgian declares none and gets hiatus), §12.D (`onsets`/`codas` are COMPLETE sets
-including singletons; the empty onset/coda is always allowed unless `onset-required = yes`).
+including singletons; the empty onset/coda is always allowed unless `onset-required = yes`;
+`cluster-legality = pairwise` licenses a cluster by its adjacent PAIRS instead — see
+`_pairwise_ok`).
 Interpretations: I-2 (nuclei), I-13 (sonority scale, below), I-14 (bans mark their span),
 S1 (`Word._pending_stress` is a segment index; this stage converts it to a syllable index).
 
@@ -142,6 +144,22 @@ def _template_limits(spec: SyllableSpec) -> tuple[int | None, int | None]:
     return None, None
 
 
+def _pairwise_ok(cluster: tuple[str, ...], listed: frozenset[tuple[str, ...]] | None,
+                 pairs: tuple[tuple[str, str], ...]) -> bool:
+    """`cluster-legality = pairwise` (§12.D variant, Butskhrikidze 2002): underlying Georgian
+    clusters are maximally BIconsonantal — the longer surface clusters of the whitelists arise
+    by syncope from CVC sequences (sources/georgian/digest.md §2.1, §2.13). So a cluster is
+    licensed by its adjacent PAIRS, not as a whole string: every adjacent segment pair must
+    occur as an adjacent pair inside some listed cluster. Singletons are unchanged — legal iff
+    listed."""
+    if listed is None:
+        return True
+    if len(cluster) == 1:
+        return cluster in listed
+    pairset = frozenset(pairs)
+    return all(pair in pairset for pair in zip(cluster, cluster[1:]))
+
+
 def legal_onset(cluster: tuple[str, ...], spec: SyllableSpec, table: FeatureTable) -> bool:
     cluster = tuple(cluster)
     if not cluster:
@@ -149,7 +167,10 @@ def legal_onset(cluster: tuple[str, ...], spec: SyllableSpec, table: FeatureTabl
     limit, _ = _template_limits(spec)
     if limit is not None and len(cluster) > limit:
         return False
-    if spec.onset_set is not None and cluster not in spec.onset_set:
+    if spec.cluster_legality == "pairwise":
+        if not _pairwise_ok(cluster, spec.onset_set, spec.onset_pairs):
+            return False
+    elif spec.onset_set is not None and cluster not in spec.onset_set:
         return False
     if spec.sonority and not _sonority_ok(cluster, table, onset=True):
         return False
@@ -163,7 +184,10 @@ def legal_coda(cluster: tuple[str, ...], spec: SyllableSpec, table: FeatureTable
     _, limit = _template_limits(spec)
     if limit is not None and len(cluster) > limit:
         return False
-    if spec.coda_set is not None and cluster not in spec.coda_set:
+    if spec.cluster_legality == "pairwise":
+        if not _pairwise_ok(cluster, spec.coda_set, spec.coda_pairs):
+            return False
+    elif spec.coda_set is not None and cluster not in spec.coda_set:
         return False
     if spec.sonority and not _sonority_ok(cluster, table, onset=False):
         return False

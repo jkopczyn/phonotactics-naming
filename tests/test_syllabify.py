@@ -3,7 +3,7 @@ import pytest
 from helpers import TABLE, w
 from strands.dsl import parse_rules
 from strands.word import Word
-from strands.syllabify import syllabify, group_nuclei, legal_onset
+from strands.syllabify import syllabify, group_nuclei, legal_onset, legal_coda
 
 # The inventory line must not contain a diphthong row (I-2/I-35): diphthongs are two segments.
 CV = ("[inventory]\np t k b s l r a i u aː\n"
@@ -133,3 +133,66 @@ def test_onset_required_marks_every_onsetless_syllable_not_only_the_first():
     out2 = syl(src2, "paia")                   # pai.a — the vowel after the diphthong is onsetless
     assert out2.nuclei == ((1, 3), (3, 4)) and out2.illegal == frozenset({3})
     assert syl(src2, "papa").illegal == frozenset()
+
+
+# ---- cluster-legality = whole | pairwise (Butskhrikidze 2002; digest §2.1, §2.13) -------------
+
+# Toy analogue of the abc/abcd example: `str` and `rl` are listed, `tr` / `strl` / `sr` are not.
+# Adjacent-pair sets: onsets {st, tr, rl}; codas {tp, pr}.  `k` is deliberately not a listed
+# onset singleton, so no pair rule may license it.
+PAIRS = ("[inventory]\np t k b s l r a i u\n"
+         "[syllable]\ntemplate = any\nsonority = off\n"
+         "onsets = p t b s l r str rl\ncodas = p t s r tp pr\n")
+
+
+def test_cluster_legality_defaults_to_whole():
+    rf = parse_rules(PAIRS, TABLE)
+    assert rf.syllable.cluster_legality == "whole"
+    assert legal_onset(("s", "t", "r"), rf.syllable, TABLE)
+    for cl in (("t", "r"), ("s", "t", "r", "l"), ("s", "r"), ("k",)):
+        assert not legal_onset(cl, rf.syllable, TABLE), cl
+
+
+def test_cluster_legality_pairwise_licenses_pairs_of_listed_clusters():
+    rf = parse_rules(PAIRS + "cluster-legality = pairwise\n", TABLE)
+    assert rf.syllable.cluster_legality == "pairwise"
+    for cl in (("s", "t"), ("t", "r"), ("r", "l"), ("s", "t", "r"), ("s", "t", "r", "l")):
+        assert legal_onset(cl, rf.syllable, TABLE), cl
+    for cl in (("s", "r"), ("t", "s"), ("l", "r"), ("s", "t", "r", "l", "r")):
+        assert not legal_onset(cl, rf.syllable, TABLE), cl
+
+
+def test_cluster_legality_pairwise_keeps_singletons_list_bound():
+    """A singleton is legal iff LISTED — pair legality never licenses an unlisted segment."""
+    rf = parse_rules(PAIRS + "cluster-legality = pairwise\n", TABLE)
+    assert legal_onset(("s",), rf.syllable, TABLE)
+    assert not legal_onset(("k",), rf.syllable, TABLE)
+    assert legal_coda(("r",), rf.syllable, TABLE)
+    assert not legal_coda(("k",), rf.syllable, TABLE)
+
+
+def test_cluster_legality_pairwise_uses_the_coda_pairs_for_codas():
+    """Onset and coda pair sets are separate: `tp`/`pr` are coda pairs, `st`/`tr` onset ones."""
+    rf = parse_rules(PAIRS + "cluster-legality = pairwise\n", TABLE)
+    assert legal_coda(("t", "p", "r"), rf.syllable, TABLE)      # tp + pr
+    assert not legal_coda(("s", "t"), rf.syllable, TABLE)       # an ONSET pair only
+    assert not legal_onset(("t", "p"), rf.syllable, TABLE)      # a CODA pair only
+
+
+def test_cluster_pair_sets_are_ordered_first_seen():
+    rf = parse_rules(PAIRS, TABLE)
+    assert rf.syllable.onset_pairs == (("s", "t"), ("t", "r"), ("r", "l"))
+    assert rf.syllable.coda_pairs == (("t", "p"), ("p", "r"))
+    plain = parse_rules("[inventory]\np a\n[syllable]\nonsets = any\ncodas = any\n", TABLE)
+    assert plain.syllable.onset_pairs == () and plain.syllable.coda_pairs == ()
+
+
+def test_cluster_legality_pairwise_changes_a_whole_word_parse():
+    whole = syl(PAIRS, "astrla")
+    pairwise = syl(PAIRS + "cluster-legality = pairwise\n", "astrla")
+    assert whole.illegal and pairwise.illegal == frozenset()
+
+
+def test_cluster_legality_rejects_an_unknown_value():
+    with pytest.raises(Exception):
+        parse_rules(PAIRS + "cluster-legality = sometimes\n", TABLE)

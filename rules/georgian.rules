@@ -138,6 +138,12 @@ domain   = stem
 # digest §2.7 [crouch2022-diss §1.3.1 p.13] "the SSP is not relevant for syllabification in
 # Georgian"; rises, plateaus and falls are all attested word-initially (I-13).
 sonority = off
+# experiment 2026-08-25: pairwise legality; owner to confirm
+# digest §2.1, §2.13 [butskhrikidze2002]: underlying clusters are maximally biconsonantal and
+# the long surface clusters of the whitelists arise by syncope, so a candidate cluster is
+# licensed by its adjacent PAIRS (drawn from `onsets` / `codas` below) rather than as a whole
+# listed string; singletons are still legal only if listed.
+cluster-legality = pairwise
 # No `nuclei` (spec §12.B, I-2): digest §2.9 [shosted2006 p.262] — no diphthongs; adjacent
 # vowels are heterosyllabic ([ɡirɑɔ] 'mortgage'), and "loanwords are exactly where Georgian
 # tolerates VV" (§2.9 [butskhrikidze2002 p.83 n.8]). §2.9's monomorphemic VV bar is therefore
