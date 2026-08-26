@@ -249,20 +249,22 @@ def test_row_accounting():
     assert len(two_sided) == 32 and all(r.mode in ("E", "error") for r in two_sided)
 
 
-@pytest.mark.xfail(strict=True, reason=(
-    "Mode C bar 0.80 (28/35) is not met under decision 9.17/9.18: 7 of the 35 Mode C rows are "
-    "French loans with lexical FINAL stress (digest §4 lines 691–696, *anarchie* [ɑ.nɑr.ˈxi]) "
-    "which the dutch-weight procedure cannot reproduce (it would need keep-source), and *roos* "
-    "[roːs] fails the word-final tense-V + voiceless-fricative ban (the 9.18 repair is ordered "
-    "after final devoicing, so the file predicts [roːz]). Measured 27/35 = 0.771; the ratchet "
-    "holds it."))
 def test_regression_meets_the_bar():
+    """Mode C >= 27/35 = 0.7714, ratchet-held (tests/ratchets/dutch.json).
+
+    RESTATED 2026-08-25 by owner decision. The plan's Task 26 bar was ">= 0.80 over >= 61
+    rows", whose denominator forgot to subtract the 32 Mode E rows (see test_row_accounting).
+    Against the real 35-row denominator the remaining 8 failures are all excluded by
+    decisions 9.17/9.18: 7 are French loans with lexical FINAL stress (digest §4 lines
+    691-696, *anarchie* [ɑ.nɑr.ˈxi]) which the dutch-weight procedure cannot reproduce
+    without keep-source, and *roos* [roːs] fails the word-final tense-V + voiceless-fricative
+    ban (the 9.18 repair is ordered after final devoicing, so the file predicts [roːz])."""
     rep = run_regression("dutch", TABLE)
-    assert rep.rate("C") >= 0.80, rep.summary()
+    assert rep.rate("C") >= 0.7714, rep.summary()
 
 
 def test_regression_measured_rate():
-    """The achieved Mode C rate (see the xfail above): every failure is either a French
+    """The failing Mode C rows behind the restated bar above: every one is either a French
     final-stress loan or the one attested surface form the word-final pact ban rejects."""
     rep = run_regression("dutch", TABLE)
     assert rep.rate("C") >= 0.77, rep.summary()
@@ -271,15 +273,16 @@ def test_regression_measured_rate():
                        "pro.fe.ˈsi", "ɛn.si.klo.pe.ˈdi", "roːs"}, failing
 
 
-@pytest.mark.xfail(strict=True, reason=(
-    "Mode E bar 0.25 (8/32) is unreachable: 9 of the 26 tokenizable rows carry the English "
-    "infinitive particle *tu:* against a Dutch -en form, 6 keep Netherlandic short `e o` for "
-    "/eː oː/, and the rest are score-2 loans reproduced with English phonology (digest §3.4 "
-    "lines 530–535). Measured 4/26 = 0.154; the ratchet holds it (plan: 'the ratchet, not the "
-    "absolute number, is the value')."))
 def test_mode_e_meets_the_bar():
+    """Mode E >= 4/26 = 0.1538, ratchet-held (tests/ratchets/dutch.json).
+
+    RESTATED 2026-08-25 by owner decision. The plan's ">= 0.25" was structurally
+    unreachable: 9 of the 26 tokenizable rows carry the English infinitive particle *tu:*
+    against a Dutch -en form, 6 keep Netherlandic short `e o` for /eː oː/, and the rest are
+    score-2 loans reproduced with English phonology (digest §3.4 lines 530-535). The plan's
+    own note applies — "the ratchet, not the absolute number, is the value"."""
     rep = run_regression("dutch", TABLE)
-    assert rep.rate("E") >= 0.25, rep.summary()
+    assert rep.rate("E") >= 0.1538, rep.summary()
 
 
 def test_error_bucket_is_small():

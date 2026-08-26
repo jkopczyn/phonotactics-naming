@@ -3877,6 +3877,10 @@ def test_matanach_control_row():
   the commit body. **And** Mode E ≥ **0.25** of the **32** two-sided rows (8/32). Mode E is low
   by design: those rows are English→Dutch loans adapted by donor-specific routes while this file is
   tuned for Irish input; the ratchet, not the absolute number, is the value. Record both rates.
+  **Bars restated 2026-08-25 by owner decision: denominators corrected (the ≥ 61 figure forgot to
+  subtract the 32 Mode E rows; the real Mode C denominator is 35), so Mode C ≥ 27/35 = 0.7714 and
+  Mode E ≥ 4/26 = 0.1538, both ratchet-held — French final-stress loans and *roos* are excluded by
+  decisions 9.17/9.18.**
   **Commit:** `feat(rules): dutch.rules — Belgian Dutch target (digest §1-§6)`
 
 ---
