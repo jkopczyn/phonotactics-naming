@@ -6,9 +6,11 @@
     strands lint  INPUT.tsv [--accept]
     strands check [--features PATH] RULES.rules ...
 
-Exit codes: 0 ok; 1 a runtime failure (unreadable input, parse error in a rule file,
-`check` findings); 2 a usage error (unknown subcommand, strand or construction, missing
-argument).
+Exit codes: 0 ok; 1 a runtime failure (unreadable input, parse error in a rule file, an
+input IPA containing a segment not in `features.tsv` — reported with the word and the
+offending substring, spec §2 — an unwritable `--out`, `check` findings); 2 a usage error
+(unknown subcommand, strand or construction, missing argument). Runtime failures are
+diagnostics on stderr, never tracebacks.
 
 `run` writes one TSV row per (entry, construction, strand) — columns `orthography,
 construction, strand, respelling, ipa, flags, fallbacks, assumptions` — in input /
@@ -108,11 +110,29 @@ def _load(strands: Sequence[str]):
 
 def _entries(path: str, irish, table):
     from .inputs import InputError, infer, read_input
+    from .tokenize import SegmentError
     try:
         raw = read_input(path)
     except (OSError, InputError) as e:
         raise RuntimeError(f"cannot read {path}: {e}") from e
-    return raw, [infer(e, irish, table) for e in raw]
+    entries = []
+    for e in raw:
+        try:
+            entries.append(infer(e, irish, table))
+        except SegmentError as exc:
+            raise RuntimeError(f"{path}: {e.orthography}: {exc}") from exc
+    return raw, entries
+
+
+def _write(text: str, out: str | None) -> None:
+    """stdout, or `out`; an unwritable path is a runtime failure."""
+    if out is None:
+        sys.stdout.write(text)
+        return
+    try:
+        Path(out).write_text(text, encoding="utf-8")
+    except OSError as e:
+        raise RuntimeError(f"cannot write {out}: {e}") from e
 
 
 # ---- run ------------------------------------------------------------------------------------
@@ -122,6 +142,7 @@ def run_rows(entries, constructions: Sequence[str], irish, targets, table) -> li
     slot) keep their row with a `skipped:` note (module docstring)."""
     from .irish import MissingSlot
     from .pipeline import run_entry
+    from .tokenize import SegmentError
     rows: list[dict[str, str]] = []
     for entry in entries:
         for construction in constructions:
@@ -139,6 +160,8 @@ def run_rows(entries, constructions: Sequence[str], irish, targets, table) -> li
                     except MissingSlot as e:
                         slot = str(e).split("slot ", 1)[-1].split(" ", 1)[0].strip("'\"")
                         notes.append(f"skipped:missing-slot-{slot}")
+                    except SegmentError as e:
+                        raise RuntimeError(f"{entry.orthography} [{construction}, {name}]: {e}") from e
                     else:
                         row.update(respelling=result.respelling, ipa=result.ipa,
                                    flags=" ".join(result.flags),
@@ -155,10 +178,7 @@ def _write_tsv(rows: Sequence[dict[str, str]], out: str | None) -> None:
                             lineterminator="\n")
     writer.writeheader()
     writer.writerows(rows)
-    if out is None:
-        sys.stdout.write(buf.getvalue())
-    else:
-        Path(out).write_text(buf.getvalue(), encoding="utf-8")
+    _write(buf.getvalue(), out)
 
 
 def cmd_run(args: Sequence[str]) -> int:
@@ -207,19 +227,20 @@ def cmd_explain(args: Sequence[str]) -> int:
     strand = _strands(str(opts["--strand"]))
     if len(strand) != 1:
         raise UsageError("explain takes exactly one strand")
-    (construction,) = _constructions(opts.get("--construction"), _DEFAULT_CONSTRUCTION)
-    if construction == "all":
-        raise UsageError("explain takes exactly one construction")
+    constructions = _constructions(opts.get("--construction"), _DEFAULT_CONSTRUCTION)
+    if len(constructions) != 1:
+        raise UsageError("explain takes exactly one construction, not `all`")
+    (construction,) = constructions
     table, irish, targets = _load(strand)
     name, rf = targets[0]
     from .inputs import Entry, infer
     from .pipeline import run_entry
     from .tokenize import SegmentError
-    entry = infer(Entry(orthography=word, ipa=word), irish, table)
     try:
+        entry = infer(Entry(orthography=word, ipa=word), irish, table)
         result = run_entry(entry, construction, irish, rf, table)
     except SegmentError as e:
-        raise RuntimeError(str(e)) from e
+        raise RuntimeError(f"{word}: {e}") from e
     print(f"{word}  [{name}, {construction}]")
     print(f"respelling: {result.respelling}")
     print(f"ipa:        {result.ipa}")
@@ -243,11 +264,7 @@ def cmd_gallery(args: Sequence[str]) -> int:
     table, irish, targets = _load(_strands(None))
     _, entries = _entries(path, irish, table)
     text = render_gallery(entries, targets, CONSTRUCTIONS, table, irish=irish)
-    out = opts.get("--out")
-    if out is None:
-        sys.stdout.write(text)
-    else:
-        Path(out).write_text(text, encoding="utf-8")
+    _write(text, opts.get("--out"))
     return 0
 
 
@@ -261,7 +278,10 @@ def cmd_lint(args: Sequence[str]) -> int:
     for line in lint_report(entries):
         print(line)
     if opts.get("--accept"):
-        accept_guesses(path, entries)
+        try:
+            accept_guesses(path, entries)
+        except OSError as e:
+            raise RuntimeError(f"cannot write {path}: {e}") from e
         print(f"lint: wrote inferred fields to {path}", file=sys.stderr)
     return 0
 
@@ -334,11 +354,19 @@ def main(argv: list[str] | None = None) -> int:
     command, rest = argv[0], argv[1:]
     if command == "check":
         return _check(rest)
+    from .pipeline import PipelineError
+    from .tokenize import SegmentError
     try:
         return _HANDLERS[command](rest)
     except UsageError as e:
         print(f"{command}: {e}\nusage: {_USAGE[command]}", file=sys.stderr)
         return 2
-    except RuntimeError as e:
+    except (RuntimeError, SegmentError, PipelineError, OSError) as e:
+        # RuntimeError is the annotated form; the bare types are the boundary's last line
+        # of defence (a SegmentError raised inside the gallery, a stray OSError).
         print(f"{command}: {e}", file=sys.stderr)
         return 1
+
+
+if __name__ == "__main__":
+    sys.exit(main())

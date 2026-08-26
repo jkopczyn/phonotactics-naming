@@ -20,6 +20,7 @@ from .dsl import RuleFile
 from .features import FeatureTable
 from .inputs import Entry
 from .irish import MissingSlot
+from .tokenize import SegmentError
 from .pipeline import Result, run_entry
 
 __all__ = ["REFERENCE_NAMES", "reference_row", "render_cell", "render_gallery"]
@@ -64,6 +65,8 @@ def run_cell(entry: Entry, construction: str, irish: RuleFile, target: RuleFile,
         return run_entry(entry, construction, irish, target, table)
     except MissingSlot:
         return None
+    except SegmentError as e:
+        raise SegmentError(f"{entry.orthography} [{construction}]: {e}") from e
 
 
 def render_gallery(entries: Sequence[Entry], targets: Sequence[tuple[str, RuleFile]],

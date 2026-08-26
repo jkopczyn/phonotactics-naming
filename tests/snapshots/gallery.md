@@ -1354,10 +1354,10 @@ Irish: /ˈʃnʲaxt̪ˠə/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ycnachta /ə.ˈknaχ.ta/ +1 | ahnakhṭa /ʔah.ˈnax.tˤa/ | ashniaxt'a /ɑʃniɑxtʼɑ/ +1 | ehnachte /ə.ˈhnɑx.tə/ !UNREPAIRED +1 |
+| VOC | ycnachta /ə.ˈknaχ.ta/ +1 | ahnakhṭa /ʔah.ˈnax.tˤa/ | ashniaxt'a /ɑʃniɑxtʼɑ/ +1 | enachte /ə.ˈnɑx.tə/ +1 |
 | GEN | ysnachta /əs.ˈnaχ.ta/ | shinakhṭa /ʃi.ˈnax.tˤa/ | shniaxt'a /ʃniɑxtʼɑ/ | snachte /ˈsnɑx.tə/ +1 |
 | PATRO_O | osnachta /ɔs.ˈnaχ.ta/ | ushnakhṭa /ʔuʃ.ˈnax.tˤa/ | oshniaxt'a /ɔʃniɑxtʼɑ/ | oosnachte /oː.ˈsnɑx.tə/ +1 |
-| PATRO_NI | nicnachta /nɪ.ˈknaχ.ta/ +1 | nihnakhṭa /nih.ˈnax.tˤa/ | nishniaxt'a /niʃniɑxtʼɑ/ +1 | njiehnachte /nji.ˈhnɑx.tə/ !UNREPAIRED +2 |
+| PATRO_NI | nicnachta /nɪ.ˈknaχ.ta/ +1 | nihnakhṭa /nih.ˈnax.tˤa/ | nishniaxt'a /niʃniɑxtʼɑ/ +1 | njienachte /nji.ˈnɑx.tə/ +2 |
 | DESC | ysnachta /əs.ˈnaχ.ta/ | shinakhṭa /ʃi.ˈnax.tˤa/ | shniaxt'a /ʃniɑxtʼɑ/ | snachte /ˈsnɑx.tə/ +1 |
 | DESC+ADJ | ysnachtaaidd /əs.naχ.ˈta.aið/ | shinakhṭi /ʃi.ˈnax.tˤi/ | shniaxt'auri /ʃniɑxtʼɑuri/ | snachteachtech /snɑx.tə.ˈɑx.təx/ +1 |
 | DESC+NOUN | ysnachta /əs.ˈnaχ.ta/ | shinakhṭa /ʃi.ˈnax.tˤa/ | shniaxt'a /ʃniɑxtʼɑ/ | snachte /ˈsnɑx.tə/ +1 |
@@ -1410,10 +1410,10 @@ Irish: /sˠmʲeːɾˠə/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ysbera /ə.ˈspɛ.ra/ +1 | ahmeera /ʔah.ˈmeː.ra/ | asmera /ɑsmɛrɑ/ +1 | ehmere /ə.ˈhmeː.rə/ !UNREPAIRED |
+| VOC | ysbera /ə.ˈspɛ.ra/ +1 | ahmeera /ʔah.ˈmeː.ra/ | asmera /ɑsmɛrɑ/ +1 | emere /ə.ˈmeː.rə/ |
 | GEN | ysmera /əs.ˈmɛ.ra/ | ṣimeera /sˤi.ˈmeː.ra/ | smera /smɛrɑ/ | smere /ˈsmeː.rə/ |
 | PATRO_O | osmera /ɔs.ˈmɛ.ra/ | uṣmeera /ʔusˤ.ˈmeː.ra/ | osmera /ɔsmɛrɑ/ | oosmere /oː.ˈsmeː.rə/ |
-| PATRO_NI | nisbera /nɪ.ˈspɛ.ra/ +1 | nihmeera /nih.ˈmeː.ra/ | nismera /nismɛrɑ/ +1 | njiehmere /nji.ˈhmeː.rə/ !UNREPAIRED +1 |
+| PATRO_NI | nisbera /nɪ.ˈspɛ.ra/ +1 | nihmeera /nih.ˈmeː.ra/ | nismera /nismɛrɑ/ +1 | njiemere /nji.ˈmeː.rə/ +1 |
 | DESC | ysmera /əs.ˈmɛ.ra/ | ṣimeera /sˤi.ˈmeː.ra/ | smera /smɛrɑ/ | smere /ˈsmeː.rə/ |
 | DESC+ADJ | ysmeraaidd /əs.mɛ.ˈra.aið/ | ṣimeeri /sˤi.ˈmeː.ri/ | smerauli /smɛrɑuli/ | smereachtech /smeː.rə.ˈɑx.təx/ |
 | DESC+NOUN | ysmera /əs.ˈmɛ.ra/ | ṣimeera /sˤi.ˈmeː.ra/ | smera /smɛrɑ/ | smere /ˈsmeː.rə/ |
@@ -1690,10 +1690,10 @@ Irish: /hn̪ˠaːw/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ycnaf /ˈə.knav/ +1 | ahnaaf /ʔah.ˈnaːf/ | ashnav /ɑʃnɑv/ +1 | ehnaaf /ə.ˈhnaːv/ !UNREPAIRED |
+| VOC | ycnaf /ˈə.knav/ +1 | ahnaaf /ʔah.ˈnaːf/ | ashnav /ɑʃnɑv/ +1 | enaaf /ə.ˈnaːv/ |
 | GEN | naf /ˈnaːv/ | hinaaf /hi.ˈnaːf/ | shnav /ʃnɑv/ +1 | naaf /ˈnaːv/ |
-| PATRO_O | ocnaf /ˈɔ.knav/ +1 | uhnaaf /ʔuh.ˈnaːf/ | oshnav /ɔʃnɑv/ +1 | oohnaaf /oː.ˈhnaːv/ !UNREPAIRED |
-| PATRO_NI | nicnaf /ˈnɪ.knav/ +1 | nihnaaf /nih.ˈnaːf/ | nishnav /niʃnɑv/ +1 | njiehnaaf /nji.ˈhnaːv/ !UNREPAIRED +1 |
+| PATRO_O | ocnaf /ˈɔ.knav/ +1 | uhnaaf /ʔuh.ˈnaːf/ | oshnav /ɔʃnɑv/ +1 | oonaaf /oː.ˈnaːv/ |
+| PATRO_NI | nicnaf /ˈnɪ.knav/ +1 | nihnaaf /nih.ˈnaːf/ | nishnav /niʃnɑv/ +1 | njienaaf /nji.ˈnaːv/ +1 |
 | DESC | naw /ˈnau/ | hinaaw /hi.ˈnaːw/ | shnav /ʃnɑv/ +1 | naaf /ˈnaːv/ |
 | DESC+ADJ | nawaidd /ˈnau.aið/ | hinaawi /hi.ˈnaː.wi/ | shnavuri /ʃnɑvuri/ +1 | naavachtech /naː.ˈvɑx.təx/ |
 | DESC+NOUN | naw /ˈnau/ | hinaawa /hi.ˈnaː.wa/ | shnavi /ʃnɑvi/ +1 | naaf /ˈnaːv/ |

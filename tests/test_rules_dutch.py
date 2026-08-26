@@ -44,6 +44,17 @@ def test_no_unrepaired_on_the_144_word_set():
 
 # ---- task-specific tests (plan Task 26, step 1) ------------------------------------------------
 
+@pytest.mark.parametrize("construction", ["VOC", "PATRO_O", "PATRO_NI"])
+@pytest.mark.parametrize("orthography", ["shnámh", "sneachta", "sméara"])
+def test_lenited_h_plus_sonorant_is_repaired_after_a_prefix_too(orthography, construction):
+    """The `h -> 0 / # _ C` repair (digest §2 line 171: /h/ never enters a cluster) must also
+    fire when the lenited stem follows a particle (*a shnámh*, *Ní Shméara*): the /h/ then sits
+    after the `$` seam, not at `#`, and the review-final gallery showed those cells UNREPAIRED."""
+    row = next(r for r in read_test_words() if r["orthography"] == orthography)
+    r = run_entry(entry_of(row), construction, IRISH, TARGET, TABLE)
+    assert "UNREPAIRED" not in r.flags, r.ipa
+    assert "h" not in r.words[0].segments, r.ipa
+
 def test_slender_consonant_in_an_onset_gets_a_yod_and_in_a_coda_is_plain():
     assert adapt([w("tʲaː")], TARGET, TABLE).words[0].segments[:2] == ("t", "j")
     assert adapt([w("aːtʲ")], TARGET, TABLE).words[0].segments[-1] == "t"

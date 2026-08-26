@@ -72,7 +72,8 @@ def test_gallery_emits_markdown(tmp_path):
     assert main(["gallery", str(FIX), "--out", str(out)]) == 0
     text = out.read_text(encoding="utf-8")
     assert text.startswith("#")
-    assert "Seán" in text and "| welsh |" in text or "welsh" in text
+    assert "Seán" in text
+    assert "| welsh |" in text          # a column header names the strand
 
 
 def test_gallery_shows_the_five_canon_names_verbatim(tmp_path):
@@ -134,3 +135,53 @@ def test_missing_slot_and_missing_ipa_are_skipped_with_a_note(tmp_path):
 
 def test_run_reports_a_missing_input_file(tmp_path):
     assert main(["run", str(tmp_path / "nope.tsv")]) == 1
+
+
+def test_explain_rejects_construction_all():
+    """`explain` is one construction only: `all` is a usage error (2), never a traceback."""
+    assert main(["explain", "kaː", "--strand", "welsh", "--construction", "all"]) == 2
+
+
+# ---- runtime-error boundary (spec §2: an unknown segment is a hard error naming the word and
+#      the offending substring; module docstring: runtime failures exit 1, no traceback) -------
+
+def _bad_ipa(tmp_path):
+    src = tmp_path / "bad.tsv"
+    src.write_text("orthography\tipa\nSeán\tʃaːn̪ˠ\nBad\tQ\n", encoding="utf-8")
+    return src
+
+
+def test_run_reports_an_unknown_segment_naming_the_word(tmp_path, capsys):
+    assert main(["run", str(_bad_ipa(tmp_path)), "--strand", "welsh"]) == 1
+    err = capsys.readouterr().err
+    assert "Bad" in err and "'Q'" in err and "Traceback" not in err
+
+
+def test_gallery_reports_an_unknown_segment_naming_the_word(tmp_path, capsys):
+    assert main(["gallery", str(_bad_ipa(tmp_path))]) == 1
+    err = capsys.readouterr().err
+    assert "Bad" in err and "'Q'" in err
+
+
+def test_lint_reports_an_unknown_segment_naming_the_word(tmp_path, capsys):
+    assert main(["lint", str(_bad_ipa(tmp_path))]) == 1
+    err = capsys.readouterr().err
+    assert "Bad" in err and "'Q'" in err
+
+
+def test_unwritable_out_is_a_runtime_error(tmp_path, capsys):
+    out = tmp_path / "no-such-dir" / "o.tsv"
+    assert main(["run", str(FIX), "--strand", "welsh", "--construction", "DESC",
+                 "--out", str(out)]) == 1
+    assert "no-such-dir" in capsys.readouterr().err
+    assert main(["gallery", str(FIX), "--out", str(out)]) == 1
+    assert "no-such-dir" in capsys.readouterr().err
+
+
+def test_cli_entry_point_prints_no_traceback(tmp_path):
+    """The same boundary through the installed console script."""
+    import subprocess, sys
+    proc = subprocess.run([sys.executable, "-m", "strands.cli", "run", str(_bad_ipa(tmp_path)),
+                           "--strand", "welsh"], capture_output=True, text=True)
+    assert proc.returncode == 1, proc.stderr
+    assert "Traceback" not in proc.stderr and "Bad" in proc.stderr
