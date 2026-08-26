@@ -47,11 +47,11 @@ from typing import Sequence
 from .dsl import RuleFile
 from .features import FeatureTable
 from .rewrite import apply_rule
-from .syllabify import syllabify
+from .syllabify import legal_onset, syllabify
 from .word import TraceEntry, Word
 
 __all__ = ["MAX_REPAIR_PASSES", "UNREPAIRED", "UNATTESTED_CLUSTER", "repair",
-           "cluster_fallback", "cluster_keep"]
+           "cluster_fallback", "cluster_keep", "overlay_undo"]
 
 MAX_REPAIR_PASSES = 10
 UNREPAIRED = "UNREPAIRED"
@@ -59,6 +59,8 @@ UNATTESTED_CLUSTER = "UNATTESTED_CLUSTER"
 STAGE = "repair"
 CLUSTER_FALLBACK = "cluster-fallback"
 CLUSTER_KEEP = "cluster-keep"
+OVERLAY_UNDO = "overlay-undo"
+SUBSTITUTE = "substitute:"
 SAME_LENGTH = "same-length"
 KEEP = "keep"
 KEEP_NOTE = ("unattested cluster kept (Georgian imports foreign clusters intact; digest §3.7)")
@@ -180,6 +182,46 @@ def cluster_keep(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
 
 
 
+def overlay_undo(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
+    """`[repair] overlay-undo = <segment>` (owner decision 2026-08-25, Georgian Cʷ).
+
+    The target's secondary-articulation overlay is written as an epenthesis in `[substitute]`
+    (Georgian: `0 -> v / [BROAD -labial] _ [V +front]`). When that insertion is what makes an
+    onset unlicensed, the overlay is undone rather than the word repaired: the inserted segment
+    is deleted, the onset is rechecked, and the edit is kept only if the onset is now legal.
+    Otherwise the segment stays and the caller falls through to `cluster_keep()` — the overlay
+    is preferred to a substitution.
+
+    Provenance comes from `Word.origins`, which `apply_rule` fills for insertion rules only, so
+    a `v` the input itself contained is never touched. Only `substitute`-stage insertions count
+    (the overlay stage); a `[repair]` epenthesis is the repair loop's own work.
+    Does not re-syllabify; the caller does when the word changed."""
+    seg = rf.overlay_undo
+    if seg is None or not word.illegal or rf.syllable is None:
+        return word
+    edits: list[int] = []
+    for a, b in _illegal_runs(word):
+        if _span_role(word, a, b) != "onset":
+            continue
+        overlay = sorted((i for i, rule_id in word.origins
+                          if a <= i < b and word.segments[i] == seg
+                          and rule_id.startswith(SUBSTITUTE)), reverse=True)
+        for i in overlay:
+            trial = word.segments[a:i] + word.segments[i + 1:b]
+            if legal_onset(trial, rf.syllable, table):
+                edits.append(i)
+                break
+    out = word
+    for i in sorted(edits, reverse=True):          # right-to-left keeps earlier indices valid
+        before = out.ipa()
+        out = out.replaced(i, i + 1, ())
+        out = out.traced(TraceEntry(stage=STAGE, rule_id=OVERLAY_UNDO, tag="design",
+                                    before=before, after=out.ipa(),
+                                    note=f"overlay {seg} undone: the cluster it created is "
+                                         "not licensed"))
+    return out
+
+
 # ---- the loop (§12.A) ---------------------------------------------------------------------------
 
 def repair(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
@@ -196,6 +238,10 @@ def repair(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
     for _ in range(MAX_REPAIR_PASSES):
         for rule in rules:
             new = apply_rule(word, rule, rf, table, STAGE)
+            if new is not word:
+                word = syllabify(new, rf, table)
+        if word.illegal and rf.overlay_undo is not None:
+            new = overlay_undo(word, rf, table)
             if new is not word:
                 word = syllabify(new, rf, table)
         if word.illegal and rf.cluster_fallback == SAME_LENGTH:

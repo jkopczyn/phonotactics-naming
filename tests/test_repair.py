@@ -3,7 +3,8 @@ import pytest
 
 from helpers import TABLE, w
 from strands.dsl import ParseError, parse_rules
-from strands.repair import (MAX_REPAIR_PASSES, cluster_fallback, cluster_keep, repair)
+from strands.repair import (MAX_REPAIR_PASSES, cluster_fallback, cluster_keep,
+                            overlay_undo, repair)
 from strands.syllabify import syllabify
 
 SRC = ("[inventory]\ns k i a t d\n[syllable]\ntemplate = (C)N(C)\nonsets = s k i t d\n"
@@ -218,5 +219,76 @@ def test_cluster_keep_is_off_unless_declared():
 def test_cluster_fallback_directive_rejects_an_unknown_value():
     src = ("[inventory]\np a\n[syllable]\ntemplate = (C)N\nonsets = p\ncodas = any\n"
            "sonority = off\n[repair]\ncluster-fallback = nearest\n")
+    with pytest.raises(ParseError):
+        parse_rules(src, TABLE)
+
+
+# ---- overlay-undo (owner decision 2026-08-25) ---------------------------------------------------
+
+UNDO_SRC = ("[inventory]\nn v i r m\n[substitute]\n0 -> v / {n r} _ i   %design\n"
+            "[syllable]\ntemplate = (C)(C)(C)N(C)\nonsets = n v r m nr nrv rv\ncodas = m\n"
+            "sonority = off\n[repair]\noverlay-undo = v\ncluster-fallback = keep\n")
+
+
+def _substituted(src, ipa):
+    rf = parse_rules(src, TABLE)
+    from strands.substitute import substitute_stage
+    return rf, syllabify(substitute_stage(w(ipa), rf, TABLE), rf, TABLE)
+
+
+def test_overlay_undo_deletes_an_inserted_segment_that_makes_the_onset_legal():
+    """`nvi` is not a licensed onset; dropping the epenthetic v leaves `ni`, which is."""
+    src = UNDO_SRC.replace("onsets = n v r m nr nrv rv", "onsets = n v r m nr rv")
+    rf, x = _substituted(src, "ni")
+    out = repair(x, rf, TABLE)
+    assert out.segments == ("n", "i")
+    assert out.illegal == frozenset() and "UNREPAIRED" not in out.flags
+    assert not any(f.startswith("UNATTESTED_CLUSTER") for f in out.flags)
+
+
+def test_overlay_undo_trace_entry_shape():
+    src = UNDO_SRC.replace("onsets = n v r m nr nrv rv", "onsets = n v r m nr rv")
+    rf, x = _substituted(src, "ni")
+    (t,) = [t for t in repair(x, rf, TABLE).trace if t.rule_id == "overlay-undo"]
+    assert (t.stage, t.rule_id, t.tag) == ("repair", "overlay-undo", "design")
+    assert (t.before, t.after) == ("nvi", "ni")
+
+
+def test_overlay_undo_keeps_the_segment_when_the_onset_is_still_illegal():
+    """`nrv` is not licensed and `nr` is not either, so the v stays and cluster-keep takes it."""
+    src = UNDO_SRC.replace("onsets = n v r m nr nrv rv", "onsets = n v r m rv")
+    rf, x = _substituted(src, "nrim")
+    out = repair(x, rf, TABLE)
+    assert out.segments == ("n", "r", "v", "i", "m")
+    assert not any(t.rule_id == "overlay-undo" for t in out.trace)
+    assert "UNATTESTED_CLUSTER:nrv" in out.flags
+
+
+def test_overlay_undo_does_not_fire_on_a_legal_onset():
+    rf, x = _substituted(UNDO_SRC, "nrim")
+    out = repair(x, rf, TABLE)
+    assert out.segments == ("n", "r", "v", "i", "m") and out.trace[-1].rule_id != "overlay-undo"
+
+
+def test_overlay_undo_only_deletes_segments_the_substitute_stage_inserted():
+    """A `v` that was in the input keeps its place: only overlay material is undone."""
+    src = UNDO_SRC.replace("onsets = n v r m nr nrv rv", "onsets = n v r m nr rv")
+    rf = parse_rules(src, TABLE)
+    out = repair(syllabify(w("nvim"), rf, TABLE), rf, TABLE)
+    assert out.segments == ("n", "v", "i", "m")
+    assert "UNATTESTED_CLUSTER:nv" in out.flags
+
+
+def test_overlay_undo_is_off_unless_declared():
+    src = UNDO_SRC.replace("overlay-undo = v\n", "").replace(
+        "onsets = n v r m nr nrv rv", "onsets = n v r m nr rv")
+    rf, x = _substituted(src, "ni")
+    assert overlay_undo(x, rf, TABLE) is x
+    out = repair(x, rf, TABLE)
+    assert out.segments == ("n", "v", "i") and "UNATTESTED_CLUSTER:nv" in out.flags
+
+
+def test_overlay_undo_directive_rejects_an_unknown_segment():
+    src = UNDO_SRC.replace("overlay-undo = v", "overlay-undo = ")
     with pytest.raises(ParseError):
         parse_rules(src, TABLE)

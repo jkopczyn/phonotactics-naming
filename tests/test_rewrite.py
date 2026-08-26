@@ -169,3 +169,25 @@ def test_epenthesis_keeps_its_side_of_a_morpheme_boundary():
     rf3, rules3 = rr("[inventory]\ni p\n[substitute]\n0 -> i / $ _ p\n")
     out3 = apply_rule(wd3, rules3[0], rf3, TABLE, "substitute")
     assert out3.segments == ("p", "i", "p") and out3.morphemes == frozenset({1})
+
+
+# ---- origins: which segments a rule INSERTED (provenance for overlay-undo) ----------------------
+
+def test_an_epenthesis_rule_records_the_inserted_segment_in_origins():
+    rf, rules = rr("[inventory]\nn v i a\n[substitute]\n0 -> v / n _ i\n")
+    out = apply_rule(w("nia"), rules[0], rf, TABLE, "substitute")
+    assert out.segments == ("n", "v", "i", "a")
+    assert out.origins == frozenset({(1, rules[0].rule_id)})
+
+
+def test_origins_are_recorded_once_per_match_with_shifted_indices():
+    rf, rules = rr("[inventory]\nn v i a\n[substitute]\n0 -> v / n _ i\n")
+    out = apply_rule(w("nini"), rules[0], rf, TABLE, "substitute")
+    assert out.segments == ("n", "v", "i", "n", "v", "i")
+    assert out.origins == frozenset({(1, rules[0].rule_id), (4, rules[0].rule_id)})
+
+
+def test_a_substituting_rule_records_no_origins():
+    """Only insertions carry provenance: a replacement is not 'inserted material'."""
+    rf, rules = rr("[inventory]\np b a\n[substitute]\np -> b\n")
+    assert apply_rule(w("papa"), rules[0], rf, TABLE, "substitute").origins == frozenset()

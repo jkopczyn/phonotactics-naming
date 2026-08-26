@@ -183,6 +183,10 @@ class RuleFile:
     templates: dict[str, tuple[TemplateItem, ...]] = field(default_factory=dict)
     mutations: dict[str, tuple[Rule, ...]] = field(default_factory=dict)   # I-15
     inflect: dict[str, tuple[Rule, ...]] = field(default_factory=dict)     # I-15
+    overlay_undo: str | None = None         # [repair] directive: the overlay segment that may
+                                            # be deleted again when the cluster its insertion
+                                            # created is not licensed (owner decision
+                                            # 2026-08-25, Georgian Cʷ /v/)
     cluster_fallback: str | None = None     # [repair] directive (spec §12.E): "same-length"
                                             # (substitute the nearest attested cluster) or
                                             # "keep" (leave it, clear the marks, flag it)
@@ -854,6 +858,7 @@ def parse_rules(text: str, table: FeatureTable, path: str = "<string>") -> RuleF
     subtables: dict[str, dict[str, list[Rule]]] = {name: {} for name in SUBTABLE_SECTIONS}
     current_subtable: str | None = None
     cluster_fallback: str | None = None
+    overlay_undo: str | None = None
     section: str | None = None
 
     for lineno, raw in enumerate(text.splitlines(), 1):
@@ -876,6 +881,15 @@ def parse_rules(text: str, table: FeatureTable, path: str = "<string>") -> RuleF
             raise ParseError("entry before any [section] header", lineno, path)
 
         if section in REWRITE_SECTIONS:
+            if section == "repair" and re.match(r"overlay-undo\s*=", line):
+                _, value = _key_value(_strip_comment(line), lineno, path)
+                if value not in table.segments:
+                    raise ParseError(f"overlay-undo must name a segment in features.tsv, "
+                                     f"not {value!r}", lineno, path)
+                if overlay_undo is not None:
+                    raise ParseError("overlay-undo given twice", lineno, path)
+                overlay_undo = value
+                continue
             if section == "repair" and re.match(r"cluster-fallback\s*=", line):
                 _, value = _key_value(_strip_comment(line), lineno, path)
                 if value not in CLUSTER_FALLBACK_VALUES:
@@ -998,6 +1012,7 @@ def parse_rules(text: str, table: FeatureTable, path: str = "<string>") -> RuleF
         mutations={k: tuple(v) for k, v in subtables["mutations"].items()},
         inflect={k: tuple(v) for k, v in subtables["inflect"].items()},
         cluster_fallback=cluster_fallback,
+        overlay_undo=overlay_undo,
     )
 
 

@@ -1,8 +1,8 @@
 """Immutable `Word` model and derivation trace.
 
 Plan Task 4; spec §2 (a Word is a list of segments plus parallel annotations: syllable
-boundaries, primary stress, morpheme boundaries `$`, a per-segment "illegal" mark, and an
-ordered trace of `(stage, rule_id, rule_tag, before, after)`), §4 (output IPA carries stress
+boundaries, primary stress, morpheme boundaries `$`, a per-segment "illegal" mark, the
+provenance of inserted segments (`origins`), and an ordered trace of `(stage, rule_id, rule_tag, before, after)`), §4 (output IPA carries stress
 and syllable marks; flags carry `UNREPAIRED` and the fallback count); interpretations I-21
 (`rule_id` = "<section>:<line>"), I-40 (secondary stress is recorded and never carried into a
 target), S1 (`Tokenized.stress_index` is a SEGMENT index, `Word.stress` is an index into
@@ -10,6 +10,7 @@ target), S1 (`Tokenized.stress_index` is a SEGMENT index, `Word.stress` is an in
 
 Index conventions:
 - `syllables`, `illegal`, `secondary`, `_pending_stress`: segment indices.
+- `origins`: `(segment index, rule_id)` pairs.
 - `nuclei`: half-open `(start, stop)` segment spans.
 - `morphemes`: boundary positions `0..len(segments)` (a `$` sits BEFORE segment i).
 - `stress`: index into `syllables`.
@@ -46,6 +47,11 @@ class Word:
     trace: tuple[TraceEntry, ...] = ()
     secondary: tuple[int, ...] = ()                 # I-40: segment indices carrying ˌ; never output
     _pending_stress: int | None = field(default=None)   # S1: segment index awaiting syllabify()
+    origins: frozenset[tuple[int, str]] = frozenset()   # (segment index, rule_id) of INSERTED
+    # material — provenance for `[repair] overlay-undo`, which deletes an overlay segment again
+    # when the cluster it created is not licensed. Only insertion rules (empty TARGET) record
+    # here; a replacement is not "inserted material". Indices shift with `replaced()`, and an
+    # origin inside a replaced span is dropped with the segment.
 
     @classmethod
     def from_tokenized(cls, tok: Tokenized) -> "Word":
@@ -139,9 +145,17 @@ class Word:
             stress=stress_syll,
             morphemes=frozenset(j for i in self.morphemes if (j := boundary(i)) is not None),
             illegal=frozenset(j for i in self.illegal if (j := seg_index(i)) is not None),
+            origins=frozenset((j, rid) for i, rid in self.origins
+                              if (j := seg_index(i)) is not None),
             secondary=tuple(j for i in self.secondary if (j := seg_index(i)) is not None),
             _pending_stress=pending,
         )
+
+    def with_origins(self, indices: "Sequence[int]", rule_id: str) -> "Word":
+        """Record `indices` as segments inserted by `rule_id` (provenance for overlay-undo)."""
+        if not indices:
+            return self
+        return replace(self, origins=self.origins | {(i, rule_id) for i in indices})
 
     def traced(self, entry: TraceEntry) -> "Word":
         return replace(self, trace=self.trace + (entry,))

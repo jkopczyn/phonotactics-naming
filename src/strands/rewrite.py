@@ -248,6 +248,16 @@ def apply_rule(word: Word, rule: Rule, rf: RuleFile, table: FeatureTable, stage:
                  and isinstance(rule.right[0].atom, str) and rule.right[0].atom == "$")
     for start, stop, new in reversed(edits):     # right-to-left keeps earlier indices valid
         out = out.replaced(start, stop, new, before_boundary=left_side)
+    if not rule.target:
+        # Pure epenthesis: remember which segments this rule INSERTED, so a later stage can
+        # tell overlay material from the word's own (`[repair] overlay-undo`). Indices are the
+        # post-edit ones: `edits` is in ascending order, so a running offset places each one.
+        inserted: list[int] = []
+        offset = 0
+        for start, stop, new in edits:
+            inserted.extend(range(start + offset, start + offset + len(new)))
+            offset += len(new) - (stop - start)
+        out = out.with_origins(inserted, rule.rule_id)
     return out.traced(TraceEntry(stage=stage, rule_id=rule.rule_id, tag=rule.tag,
                                  before=before, after=out.ipa()))
 

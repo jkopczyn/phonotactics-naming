@@ -100,3 +100,25 @@ def test_replaced_insertion_can_sit_before_a_morpheme_boundary():
     # a non-empty span: a boundary at `start` stays put either way
     y = w("p", "a", morphemes=frozenset({1}))
     assert y.replaced(1, 2, ("i", "u"), before_boundary=True).morphemes == frozenset({1})
+
+
+# ---- origins: provenance of inserted segments (overlay-undo, spec §12.E note) -------------------
+
+def test_origins_shift_with_later_annotations():
+    x = w("n", "v", "i", origins=frozenset({(1, "substitute:65")}))
+    y = x.replaced(0, 1, ("a", "n"))
+    assert y.origins == frozenset({(2, "substitute:65")})
+
+
+def test_origins_inside_a_replaced_span_are_dropped():
+    x = w("n", "v", "i", origins=frozenset({(1, "substitute:65")}))
+    assert x.replaced(1, 3, ("u",)).origins == frozenset()
+
+
+def test_with_origins_adds_pairs():
+    x = w("n", "v", "i").with_origins((1,), "substitute:65")
+    assert x.origins == frozenset({(1, "substitute:65")})
+
+
+def test_origins_default_to_empty():
+    assert w("p", "a").origins == frozenset()
