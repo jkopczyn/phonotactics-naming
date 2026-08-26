@@ -55,17 +55,22 @@ Every cell is traceable: `explain` prints each rule that fired with its `%attest
    ratchet-held (can only rise). The eight Mode C misses are seven French final-stress loans
    (excluded by your Dutch-weight stress decision) and *roos*, which your "voice the
    fricative" decision predicts as [roːz].
-4. **Georgian /p t k/: aspirate by default, ejective only after a consonant** — your decision
+4. **Georgian cluster legality is now pairwise** (experiment 2026-08-25, `28010a3`, awaiting
+   your confirmation): Butskhrikidze's finding that underlying clusters are biconsonantal,
+   applied as "every adjacent pair must be attested". Six words stopped hitting the cluster
+   fallback (*splanc* → *sp'lank'*, not *ts'k'lank'*); 15 fallback cases remain, all Cʷ on
+   sonorants (*naomh* → *dviv*) — pending your call on restricting Cʷ to obstruents.
+5. **Georgian /p t k/: aspirate by default, ejective only after a consonant** — your decision
    4, implemented as seven explicit segment lines (a feature bundle can't reach the ejective
    rows). It is tagged `%design` and runs *contra* the digest's recommendation of unconditional
    ejectives. This is the single biggest lever on whether strand-4 output sits beside
    *Kas'queil*; flipping it is one block. Also: Georgian has no syllable template and no
    nucleus list, which is why its outputs show bare vowel sequences (*kviara*, *grania*) and
    no stress marks — both as designed.
-5. **Cairene emphatics are respelled with a dot-under** (*maṭaanakh*, *laṣarkhuṣ*) — the
+6. **Cairene emphatics are respelled with a dot-under** (*maṭaanakh*, *laṣarkhuṣ*) — the
    "more pronounced differences" default; the digest recommends plain letters and it sits
    uneasily with "English-reader respelling". One rule line to strip.
-6. **Irish transcription convention is load-bearing**: plain `k ɡ x ɣ ŋ` are broad, `c ɟ ç j
+7. **Irish transcription convention is load-bearing**: plain `k ɡ x ɣ ŋ` are broad, `c ɟ ç j
    ɲ` slender, and the normalizer must not infer dorsal quality from the vowel (defect 1
    below). So your *Ciara* /k/ is taken literally as broad → Georgian *kv-*; if you meant
    slender, write /c/. The digest's flag on that transcription stands.
@@ -85,8 +90,10 @@ dialect gating, which the DSL doesn't have — a small feature if you want it. A
 
 ## Known gaps (not defects)
 
-- Welsh: four attested rows carry consonant length the feature table can't tokenize; Awbery's
-  cluster tables still pending your screenshots.
+- Welsh: four attested rows carry consonant length the feature table can't tokenize. Awbery
+  1984 is now fully transcribed (`sources/welsh/awbery1984-digest.md`): she gives constraint
+  sets rather than cluster lists (homorganic nasal+stop, voicing agreement, CCC = s/nasal +
+  stop + liquid; South bans all final obstruent+sonorant), which the rule file now cites.
 - Dutch end-to-end regression is thin (26 usable rows); Georgian/Arabic/Welsh have none
   (no donor IPA in the sources) — their "Mode C" checks only that attested target forms are
   accepted by the rule file.
