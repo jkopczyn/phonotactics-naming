@@ -57,11 +57,29 @@ def test_broad_dental_coronals_gain_their_dental_features():
     assert out == "t̪ˠ" and TABLE.value(out, "distributed") == "+"
 
 
-def test_broad_k_stays_plain_k_and_slender_k_becomes_c():
-    """There is no `kˠ` row; broad /k/ IS `k` (I-41/spec §12.J)."""
+def test_plain_dorsals_are_broad_and_are_never_re_marked():
+    """`k ɡ x ɣ ŋ` are the BROAD dorsals in the project's convention (the slender ones are
+    the distinct segments `c ɟ ç j ɲ`), so they are already fully specified and normalize
+    must never infer a quality for them from a neighbouring vowel or consonant."""
     assert normalize(w("ku"), IRISH, TABLE).segments[0] == "k"
-    assert normalize(w("ki"), IRISH, TABLE).segments[0] == "c"
-    assert normalize(w("gi"), IRISH, TABLE).segments[0] == "ɟ"
+    assert normalize(w("ki"), IRISH, TABLE).segments[0] == "k"
+    assert normalize(w("kiː"), IRISH, TABLE).segments[0] == "k"
+    assert normalize(w("gi"), IRISH, TABLE).segments[0] == "ɡ"
+    assert normalize(w("ik"), IRISH, TABLE).segments[-1] == "k"
+    assert normalize(w("iɡ"), IRISH, TABLE).segments[-1] == "ɡ"
+
+
+def test_plain_dorsals_are_not_in_the_unmarked_class():
+    """UNMARKED is the set normalize assigns a quality to; `k ɡ` are not members."""
+    assert "k" not in IRISH.classes["UNMARKED"]
+    assert "ɡ" not in IRISH.classes["UNMARKED"]
+
+
+def test_a_plain_dorsal_in_a_cluster_keeps_its_broad_value():
+    """Cluster propagation may not re-mark a dorsal either: only the UNMARKED members of a
+    cluster take a neighbour's quality."""
+    assert normalize(w("kʃi"), IRISH, TABLE).segments[0] == "k"
+    assert normalize(w("iʃk"), IRISH, TABLE).segments[-1] == "k"
 
 
 def test_h_becomes_c_cedilla_initially_before_a_non_front_vowel():
@@ -143,16 +161,22 @@ def test_every_test_word_normalizes_without_error():
 def test_initial_cluster_takes_the_quality_of_the_following_vowel():
     assert normalize(w("stra"), IRISH, TABLE).segments == ("sˠ", "t̪ˠ", "ɾˠ", "a")
     assert normalize(w("stri"), IRISH, TABLE).segments == ("ʃ", "tʲ", "ɾʲ", "i")
-    assert normalize(w("skri"), IRISH, TABLE).segments == ("ʃ", "c", "ɾʲ", "i")
     assert normalize(w("skra"), IRISH, TABLE).segments == ("sˠ", "k", "ɾˠ", "a")
-    assert normalize(w("skli"), IRISH, TABLE).segments == ("ʃ", "c", "lʲ", "i")
+    # A plain `k` in the cluster is BROAD by convention and is never re-marked, so it takes
+    # the `s` with it; only the still-unmarked members follow the vowel. A slender sc- is
+    # written with `c` (*scríobh* /ʃcɾʲiːw/) and is handled by `s -> ʃ / _ SLEN`.
+    assert normalize(w("skri"), IRISH, TABLE).segments == ("sˠ", "k", "ɾʲ", "i")
+    assert normalize(w("ʃcri"), IRISH, TABLE).segments == ("ʃ", "c", "ɾʲ", "i")
+    assert normalize(w("scri"), IRISH, TABLE).segments == ("ʃ", "c", "ɾʲ", "i")
 
 
 def test_final_cluster_takes_the_quality_of_the_preceding_vowel():
     assert normalize(w("ant"), IRISH, TABLE).segments == ("a", "n̪ˠ", "t̪ˠ")
     assert normalize(w("int"), IRISH, TABLE).segments == ("i", "nʲ", "tʲ")
     assert normalize(w("arst"), IRISH, TABLE).segments == ("a", "ɾˠ", "sˠ", "t̪ˠ")
-    assert normalize(w("irk"), IRISH, TABLE).segments == ("i", "ɾʲ", "c")
+    # ... but a plain `k` is already broad and keeps its value (*mic* /mʲɪc/ is written `c`).
+    assert normalize(w("irk"), IRISH, TABLE).segments == ("i", "ɾʲ", "k")
+    assert normalize(w("irc"), IRISH, TABLE).segments == ("i", "ɾʲ", "c")
 
 
 def test_medial_cluster_follows_the_next_vowel():

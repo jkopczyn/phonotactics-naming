@@ -266,3 +266,27 @@ def test_error_bucket_is_small():
     rep = run_regression("georgian", TABLE)
     with_ipa = [r for r in rep.rows if r.target_ipa.strip()]
     assert rep.counts().get("error", 0) <= 0.15 * len(with_ipa), rep.summary()
+
+
+# ---- the Cʷ rule needs the Irish broad dorsals to reach it unchanged ---------------------
+
+def _desc(ortho, ipa):
+    from strands.inputs import infer
+    return run_entry(infer(Entry(ortho, ipa=ipa), IRISH, TABLE), "DESC", IRISH, TARGET, TABLE)
+
+
+@pytest.mark.parametrize("ortho,ipa", [("caoin", "kiːnʲ"), ("gaoth", "ɡiː"),
+                                       ("Ciara", "ˈkɪə.ɾˠə")])
+def test_a_broad_dorsal_before_a_front_vowel_gets_the_epenthetic_v(ortho, ipa):
+    """`k ɡ` are broad by convention, so [normalize] leaves them plain and the Cʷ rule
+    `0 -> v / [BROAD -labial] _ [V +front]` fires. Before the fix, [normalize] turned them
+    into `c ɟ` from the following vowel and the Cʷ rule never saw a broad dorsal."""
+    segs = _desc(ortho, ipa).words[0].segments
+    assert "v" in segs, segs
+    assert segs[1] == "v", segs
+
+
+def test_a_broad_labial_before_a_front_vowel_does_not_get_v():
+    """The Cʷ rule excludes labials (§1.6): *buí* /bˠiː/ stays plain."""
+    segs = _desc("buí", "bˠiː").words[0].segments
+    assert "v" not in segs, segs

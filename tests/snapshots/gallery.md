@@ -10,13 +10,13 @@ Irish: /ˈkɪə.ɾˠə/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ychira /ə.ˈχɪ.ra/ | akhiʼara /ʔa.xi.ˈʔa.ra/ | axiara /ɑxiɑrɑ/ | echiere /ə.ˈxi.rə/ |
-| GEN | cira /ˈkɪ.ra/ | kiʼara /ˈki.ʔa.ra/ | kiara /kʰiɑrɑ/ | kjiere /ˈkji.rə/ |
-| PATRO_O | ocira /ɔ.ˈkɪ.ra/ | ukiʼara /ʔu.ˈki.ʔa.ra/ | okiara /ɔkʰiɑrɑ/ | ookjiere /oː.ˈkji.rə/ |
-| PATRO_NI | nichira /nɪ.ˈχɪ.ra/ | nikhiʼara /ni.ˈxi.ʔa.ra/ | nixiara /nixiɑrɑ/ | njiechiere /nji.ˈxi.rə/ +1 |
-| DESC | cira /ˈkɪ.ra/ | kiʼara /ˈki.ʔa.ra/ | kiara /kʰiɑrɑ/ | kjiere /ˈkji.rə/ |
-| DESC+ADJ | ciraaidd /kɪ.ˈra.aið/ | kiʼari /ˈki.ʔa.ri/ | kiarauli /kʰiɑrɑuli/ | kjiereachtech /kji.rə.ˈɑx.təx/ |
-| DESC+NOUN | cira /ˈkɪ.ra/ | kiʼara /ˈki.ʔa.ra/ | kiara /kʰiɑrɑ/ | kjiere /ˈkji.rə/ |
+| VOC | ychira /ə.ˈχɪ.ra/ | akhiʼara /ʔa.xi.ˈʔa.ra/ | axviara /ɑxviɑrɑ/ | echiere /ə.ˈxi.rə/ |
+| GEN | cira /ˈkɪ.ra/ | kiʼara /ˈki.ʔa.ra/ | kviara /kʰviɑrɑ/ | kiere /ˈki.rə/ |
+| PATRO_O | ocira /ɔ.ˈkɪ.ra/ | ukiʼara /ʔu.ˈki.ʔa.ra/ | okviara /ɔkʰviɑrɑ/ | ookiere /oː.ˈki.rə/ |
+| PATRO_NI | nichira /nɪ.ˈχɪ.ra/ | nikhiʼara /ni.ˈxi.ʔa.ra/ | nixviara /nixviɑrɑ/ | njiechiere /nji.ˈxi.rə/ +1 |
+| DESC | cira /ˈkɪ.ra/ | kiʼara /ˈki.ʔa.ra/ | kviara /kʰviɑrɑ/ | kiere /ˈki.rə/ |
+| DESC+ADJ | ciraaidd /kɪ.ˈra.aið/ | kiʼari /ˈki.ʔa.ri/ | kviarauli /kʰviɑrɑuli/ | kiereachtech /ki.rə.ˈɑx.təx/ |
+| DESC+NOUN | cira /ˈkɪ.ra/ | kiʼara /ˈki.ʔa.ra/ | kviara /kʰviɑrɑ/ | kiere /ˈki.rə/ |
 
 ## Ciara — Ciara (f. given name) — INFERRED
 
@@ -220,13 +220,13 @@ Irish: /ˈkiːvʲə/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ychifa /ə.ˈχɪ.va/ | akhiifa /ʔa.ˈxiː.fa/ | axivia /ɑxiviɑ/ | echievje /ə.ˈxi.vjə/ +1 |
-| GEN | cifa /ˈkɪ.va/ | kiifa /ˈkiː.fa/ | kivia /kʰiviɑ/ | kjievje /ˈkji.vjə/ +1 |
-| PATRO_O | ocifa /ɔ.ˈkɪ.va/ | ukiifa /ʔu.ˈkiː.fa/ | okivia /ɔkʰiviɑ/ | ookjievje /oː.ˈkji.vjə/ +1 |
-| PATRO_NI | nichifa /nɪ.ˈχɪ.va/ | nikhiifa /ni.ˈxiː.fa/ | nixivia /nixiviɑ/ | njiechievje /nji.ˈxi.vjə/ +1 |
-| DESC | cifa /ˈkɪ.va/ | kiifa /ˈkiː.fa/ | kivia /kʰiviɑ/ | kjievje /ˈkji.vjə/ +1 |
-| DESC+ADJ | cifaaidd /kɪ.ˈva.aið/ | kiifi /ˈkiː.fi/ | kiviauri /kʰiviɑuri/ | kjievjeachtech /kji.vjə.ˈɑx.təx/ +1 |
-| DESC+NOUN | cifa /ˈkɪ.va/ | kiifa /ˈkiː.fa/ | kivia /kʰiviɑ/ | kjievje /ˈkji.vjə/ +1 |
+| VOC | ychifa /ə.ˈχɪ.va/ | akhiifa /ʔa.ˈxiː.fa/ | axvivia /ɑxviviɑ/ | echievje /ə.ˈxi.vjə/ +1 |
+| GEN | cifa /ˈkɪ.va/ | kiifa /ˈkiː.fa/ | kvivia /kʰviviɑ/ | kievje /ˈki.vjə/ +1 |
+| PATRO_O | ocifa /ɔ.ˈkɪ.va/ | ukiifa /ʔu.ˈkiː.fa/ | okvivia /ɔkʰviviɑ/ | ookievje /oː.ˈki.vjə/ +1 |
+| PATRO_NI | nichifa /nɪ.ˈχɪ.va/ | nikhiifa /ni.ˈxiː.fa/ | nixvivia /nixviviɑ/ | njiechievje /nji.ˈxi.vjə/ +1 |
+| DESC | cifa /ˈkɪ.va/ | kiifa /ˈkiː.fa/ | kvivia /kʰviviɑ/ | kievje /ˈki.vjə/ +1 |
+| DESC+ADJ | cifaaidd /kɪ.ˈva.aið/ | kiifi /ˈkiː.fi/ | kviviauri /kʰviviɑuri/ | kievjeachtech /ki.vjə.ˈɑx.təx/ +1 |
+| DESC+NOUN | cifa /ˈkɪ.va/ | kiifa /ˈkiː.fa/ | kvivia /kʰviviɑ/ | kievje /ˈki.vjə/ +1 |
 
 ## Sorcha — Sorcha (f. given name)
 
@@ -1256,13 +1256,13 @@ Irish: /ˈɡeːlˠəx/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | euelach /əi.ˈɛ.laχ/ | ayeelakh /ʔa.ˈjeː.lax/ | aielax /ɑiɛlɑx/ | ejelech /ə.ˈjeː.ləx/ |
-| GEN | geleu /ˈɡɛ.ləi/ | geelay /ˈɡeː.laj/ | gelai /ɡɛlɑi/ | gelej /ˈɣeː.ləj/ |
-| PATRO_O | ogeleu /ɔ.ˈɡɛ.ləi/ | ugeelay /ʔu.ˈɡeː.laj/ | ogelai /ɔɡɛlɑi/ | oogelej /oː.ˈɣeː.ləj/ |
-| PATRO_NI | nieleu /nɪ.ˈɛ.ləi/ | niyeelay /ni.ˈjeː.laj/ | nielai /niɛlɑi/ | njiejelej /nji.ˈjeː.ləj/ +1 |
-| DESC | gelach /ˈɡɛ.laχ/ | geelakh /ˈɡeː.lax/ | gelax /ɡɛlɑx/ | gelech /ˈɣeː.ləx/ |
-| DESC+ADJ | gelachaidd /ɡɛ.ˈla.χaið/ | gilakhi /ɡi.ˈla.xi/ | gelaxuri /ɡɛlɑxuri/ | gelechachtech /ɣeː.lə.ˈxɑx.təx/ |
-| DESC+NOUN | gelach /ˈɡɛ.laχ/ | gilakha /ɡi.ˈla.xa/ | gelaxi /ɡɛlɑxi/ | gelech /ˈɣeː.ləx/ |
+| VOC | ygelach /ə.ˈɡɛ.laχ/ | agheelakh /ʔa.ˈɣeː.lax/ | aghvelax /ɑɣvɛlɑx/ | egelech /ə.ˈɣeː.ləx/ |
+| GEN | geleu /ˈɡɛ.ləi/ | geelay /ˈɡeː.laj/ | gvelai /ɡvɛlɑi/ | gelej /ˈɣeː.ləj/ |
+| PATRO_O | ogeleu /ɔ.ˈɡɛ.ləi/ | ugeelay /ʔu.ˈɡeː.laj/ | ogvelai /ɔɡvɛlɑi/ | oogelej /oː.ˈɣeː.ləj/ |
+| PATRO_NI | nigeleu /nɪ.ˈɡɛ.ləi/ | nigheelay /ni.ˈɣeː.laj/ | nighvelai /niɣvɛlɑi/ | njiegelej /nji.ˈɣeː.ləj/ +1 |
+| DESC | gelach /ˈɡɛ.laχ/ | geelakh /ˈɡeː.lax/ | gvelax /ɡvɛlɑx/ | gelech /ˈɣeː.ləx/ |
+| DESC+ADJ | gelachaidd /ɡɛ.ˈla.χaið/ | gilakhi /ɡi.ˈla.xi/ | gvelaxuri /ɡvɛlɑxuri/ | gelechachtech /ɣeː.lə.ˈxɑx.təx/ |
+| DESC+NOUN | gelach /ˈɡɛ.laχ/ | gilakha /ɡi.ˈla.xa/ | gvelaxi /ɡvɛlɑxi/ | gelech /ˈɣeː.ləx/ |
 
 ## leisciúil — lazy
 
@@ -1439,9 +1439,9 @@ Irish: /ʃtʲɾʲiːk/
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
 | VOC | yfftric /ˈəf.trɪk/ +1 | ahtiriik /ʔah.ti.ˈriːk/ | asts'ryk /ɑstsʼrikʰ/ +1 | echtriek /əx.ˈtrik/ +1 |
-| GEN | ystrica /ə.ˈstrɪ.ka/ | ishtiriika /ʔiʃ.ti.ˈriː.ka/ | sts'rikia /stsʼrikʰiɑ/ +1 | striekje /ˈstri.kjə/ +1 |
-| PATRO_O | ostrica /ɔ.ˈstrɪ.ka/ | ushtiriika /ʔuʃ.ti.ˈriː.ka/ | osts'rikia /ɔstsʼrikʰiɑ/ +1 | oostriekje /oː.ˈstri.kjə/ +1 |
-| PATRO_NI | nifftrica /nɪf.ˈtrɪ.ka/ +1 | nihtiriika /nih.ti.ˈriː.ka/ | nists'rikia /nistsʼrikʰiɑ/ +1 | njiechtriekje /njix.ˈtri.kjə/ +1 |
+| GEN | ystric /ˈə.strɪk/ | ishtiriik /ʔiʃ.ti.ˈriːk/ | sts'rik /stsʼrikʰ/ +1 | striek /ˈstrik/ +1 |
+| PATRO_O | ostric /ˈɔ.strɪk/ | ushtiriik /ʔuʃ.ti.ˈriːk/ | osts'ryk /ɔstsʼrikʰ/ +1 | oostriek /oː.ˈstrik/ +1 |
+| PATRO_NI | nifftric /ˈnɪf.trɪk/ +1 | nihtiriik /nih.ti.ˈriːk/ | nists'ryk /nistsʼrikʰ/ +1 | njiechtriek /njix.ˈtrik/ +1 |
 | DESC | ystric /ˈə.strɪk/ | ishtiriik /ʔiʃ.ti.ˈriːk/ | sts'rik /stsʼrikʰ/ +1 | striek /ˈstrik/ +1 |
 | DESC+ADJ | ystricaidd /ə.ˈstrɪ.kaið/ | ishtiriiki /ʔiʃ.ti.ˈriː.ki/ | sts'rikuli /stsʼrikʰuli/ +1 | striekachtech /stri.ˈkɑx.təx/ +1 |
 | DESC+NOUN | ystric /ˈə.strɪk/ | ishtiriika /ʔiʃ.ti.ˈriː.ka/ | sts'riki /stsʼrikʰi/ +1 | striek /ˈstrik/ +1 |

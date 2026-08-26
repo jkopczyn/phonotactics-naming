@@ -158,19 +158,25 @@ def test_construction_leaves_a_trace():
 # ---- review-stress-irish fix 2: a supplied gen_ipa is used, not regularized -----------------
 
 def test_gen_uses_a_supplied_irregular_genitive():
+    """The supplied string is used verbatim (bar [normalize]'s aliases): a plain `k` is the
+    BROAD dorsal and is not re-marked from the following /iː/ — a slender one is supplied
+    as `c` (see below)."""
     e = entry("mˠak", gen_ipa="mˠəkiː", declension="m1")
     words = build_construction("GEN", {"NAME": e}, IRISH, TABLE)
-    assert ipa(words[0]) == "mˠəciː"                      # supplied + [normalize] (k -> c / _ iː)
+    assert ipa(words[0]) == "mˠəkiː"                      # supplied, not regularized
     assert ipa(words[0]) != "mʲɪc"
     assert any(t.rule_id == "templates:GEN" and "gen_ipa" in t.note for t in words[0].trace)
+    e = entry("mˠak", gen_ipa="mˠəciː", declension="m1")
+    words = build_construction("GEN", {"NAME": e}, IRISH, TABLE)
+    assert ipa(words[0]) == "mˠəciː"
 
 
 def test_nested_mutation_applies_to_the_supplied_genitive():
     e = entry("mˠak", gen_ipa="mˠəkiː", declension="m1")
     words = build_construction("PATRO_NI", {"FATHER": e}, IRISH, TABLE)
-    assert ipa(words[0]) == "nʲiːwəciː"                   # Ní + LEN(gen_ipa)
+    assert ipa(words[0]) == "nʲiːwəkiː"                   # Ní + LEN(gen_ipa)
     words = build_construction("PATRO_O", {"FATHER": e}, IRISH, TABLE)
-    assert ipa(words[0]) == "oːmˠəciː"
+    assert ipa(words[0]) == "oːmˠəkiː"
 
 
 def test_empty_gen_ipa_still_derives_the_regular_genitive():

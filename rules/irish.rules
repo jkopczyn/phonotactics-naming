@@ -29,10 +29,14 @@ SLEN  = pʲ bʲ tʲ dʲ fʲ ʃ vʲ mʲ nʲ lʲ ɾʲ c ɟ ç j ɲ
 # Quality-less plain consonants (front/back = 0 in features.tsv) that [normalize] assigns a
 # quality to (I-41 / spec §12.J). Every member must be the target of a [normalize] line in
 # both environments (_ V and V _ #); tests/test_irish_normalize.py checks the coverage.
-UNMARKED = p b t d k ɡ f v s m n l r
-# BROAD without the plain `k ɡ`, whose broad form IS the unmarked form: a `k` that no rule has
-# yet placed next to a vowel cannot tell a neighbour which quality to take (I-41). Used as
-# the SOURCE of the [normalize] cluster-propagation passes only.
+# The dorsals are NOT members: on this project's convention (as on Wikipedia's) the broad
+# dorsals are written plain `k ɡ x ɣ ŋ` and the slender ones are the distinct segments
+# `c ɟ ç j ɲ`, so a plain `k` is already fully specified as BROAD and must never be re-marked
+# from its neighbours. [normalize] therefore has no `k`/`ɡ` target lines at all.
+UNMARKED = p b t d f v s m n l r
+# BROAD minus the plain dorsals. Retained as the SOURCE class of the [normalize]
+# cluster-propagation passes so that a following vowel keeps its precedence over a following
+# dorsal as the quality source (*circe* -irc- is /ɾʲc/); see pass (c) below.
 BROAD_MARKED = pˠ bˠ t̪ˠ d̪ˠ fˠ sˠ w vˠ mˠ n̪ˠ l̪ˠ ɾˠ x ɣ ŋ
 
 [mutations]
@@ -278,8 +282,6 @@ l -> lʲ    / _ [V +front]    %attested
 l -> l̪ˠ   / _ [V -front]    %attested
 r -> ɾʲ    / _ [V +front]    %attested
 r -> ɾˠ    / _ [V -front]    %attested
-k -> c     / _ [V +front]    %attested # broad /k/ is plain `k`; only the slender member changes
-ɡ -> ɟ     / _ [V +front]    %attested # broad /ɡ/ is plain `ɡ`
 # (b) a word-final unmarked consonant takes the PRECEDING vowel's quality (digest §5.1)
 p -> pʲ    / [V +front] _ #  %attested # digest §5.1
 p -> pˠ    / [V -front] _ #  %attested
@@ -303,14 +305,13 @@ l -> lʲ    / [V +front] _ #  %attested
 l -> l̪ˠ   / [V -front] _ #  %attested
 r -> ɾʲ    / [V +front] _ #  %attested
 r -> ɾˠ    / [V -front] _ #  %attested
-k -> c     / [V +front] _ #  %attested
-ɡ -> ɟ     / [V +front] _ #  %attested
 # Clusters (digest §2.2 [wiki-irish-phonology §Word-initial consonant clusters]: "all the
 # consonants in a cluster agree in their quality"; spec §4.1: EVERY unmarked consonant gets a
 # quality). (a)/(b) fix the vowel-adjacent member; the passes below carry that quality along
 # the cluster. Rules run in file order, so each pass lists its targets from the vowel
 # outwards: a member is only ever resolved after the neighbour it copies from. A vowel always
-# beats a plain `k ɡ` as the source (BROAD_MARKED, [classes]): *circe* -irc- is /ɾʲc/.
+# beats a plain `k ɡ` as the source (BROAD_MARKED, [classes]): *circe* -irc- is /ɾʲc/. The
+# dorsals are never TARGETS here: plain `k ɡ x ɣ ŋ` are already broad ([classes] above).
 # (c) an unmarked consonant BEFORE a marked one takes its quality (rightward, onset clusters:
 # *stríoc* /ʃtʲɾʲiːk/, *spraoi* /sˠpˠɾˠiː/). Stops/fricatives first, `s` last (outermost).
 p  -> pʲ    / _ SLEN                 %attested # digest §2.2
@@ -321,8 +322,6 @@ t  -> tʲ    / _ SLEN                 %attested
 t  -> t̪ˠ   / _ BROAD_MARKED         %attested
 d  -> dʲ    / _ SLEN                 %attested
 d  -> d̪ˠ   / _ BROAD_MARKED         %attested
-k  -> c     / _ SLEN                 %attested
-ɡ  -> ɟ     / _ SLEN                 %attested
 f  -> fʲ    / _ SLEN                 %attested
 f  -> fˠ    / _ BROAD_MARKED         %attested
 v  -> vʲ    / _ SLEN                 %attested
@@ -337,12 +336,10 @@ r  -> ɾʲ    / _ SLEN                 %attested
 r  -> ɾˠ    / _ BROAD_MARKED         %attested
 s  -> ʃ     / _ SLEN                 %attested
 s  -> sˠ    / _ BROAD_MARKED         %attested
-# sC- with a broad `k ɡ`, which stays plain: the stop is broad when a non-front vowel or a
-# broad-marked consonant follows it (*scoil* /sˠkolʲ/, *scread* /ʃcɾʲad̪ˠ/ vs *scraith*).
-s  -> sˠ    / _ k [V -front]         %attested # digest §2.2
-s  -> sˠ    / _ ɡ [V -front]         %attested
-s  -> sˠ    / _ k BROAD_MARKED       %attested
-s  -> sˠ    / _ ɡ BROAD_MARKED       %attested
+# sC- with a plain dorsal: a plain `k ɡ` IS broad, so the `s` is broad whatever follows the
+# dorsal (*scoil* /sˠkolʲ/; slender *scian* /ʃciən̪ˠ/ has `c`, caught by `s -> ʃ / _ SLEN`).
+s  -> sˠ    / _ k                    %attested # digest §2.2
+s  -> sˠ    / _ ɡ                    %attested
 # (d) an unmarked consonant after a vowel with no following vowel (the first member of a
 # final or medial cluster whose later members are still unmarked: *ceart* /caɾˠt̪ˠ/) takes the
 # PRECEDING vowel's quality (digest §5.1). After (a) and (c), so a following vowel or an
@@ -355,8 +352,6 @@ t  -> tʲ    / [V +front] _           %attested
 t  -> t̪ˠ   / [V -front] _           %attested
 d  -> dʲ    / [V +front] _           %attested
 d  -> d̪ˠ   / [V -front] _           %attested
-k  -> c     / [V +front] _           %attested
-ɡ  -> ɟ     / [V +front] _           %attested
 f  -> fʲ    / [V +front] _           %attested
 f  -> fˠ    / [V -front] _           %attested
 v  -> vʲ    / [V +front] _           %attested
@@ -373,9 +368,9 @@ r  -> ɾʲ    / [V +front] _           %attested
 r  -> ɾˠ    / [V -front] _           %attested
 # (e) an unmarked consonant AFTER a marked one takes its quality (leftward, coda clusters:
 # *ceart* /caɾˠt̪ˠ/; a marked mismatch such as *beirt* /bʲɛɾˠtʲ/ is left as written, since
-# only UNMARKED members are targets). Sonorants first, then `s`, then
-# `k ɡ` (so a following stop sees a resolved one), then the other stops and fricatives
-# (`-rst`: r from the vowel, s from r, t from s). Here a `k ɡ` still plain after (d) IS broad.
+# only UNMARKED members are targets). Sonorants first, then `s`, then the stops and
+# fricatives (`-rst`: r from the vowel, s from r, t from s). A plain `k ɡ` is broad and is
+# a SOURCE here (it is in BROAD), never a target.
 r  -> ɾʲ    / SLEN _                 %attested # digest §2.2
 r  -> ɾˠ    / BROAD _                %attested
 l  -> lʲ    / SLEN _                 %attested
@@ -386,8 +381,6 @@ m  -> mʲ    / SLEN _                 %attested
 m  -> mˠ    / BROAD _                %attested
 s  -> ʃ     / SLEN _                 %attested
 s  -> sˠ    / BROAD _                %attested
-k  -> c     / SLEN _                 %attested
-ɡ  -> ɟ     / SLEN _                 %attested
 p  -> pʲ    / SLEN _                 %attested
 p  -> pˠ    / BROAD _                %attested
 b  -> bʲ    / SLEN _                 %attested
