@@ -15,7 +15,7 @@ Irish: /ˈkɪə.ɾˠə/
 | PATRO_O | ocira /ɔ.ˈkɪ.ra/ | ukiʼara /ʔu.ˈki.ʔa.ra/ | okviara /ɔkʰviɑrɑ/ | ookiere /oː.ˈki.rə/ |
 | PATRO_NI | nichira /nɪ.ˈχɪ.ra/ | nikhiʼara /ni.ˈxi.ʔa.ra/ | nixviara /nixviɑrɑ/ | njiechiere /nji.ˈxi.rə/ +1 |
 | DESC | cira /ˈkɪ.ra/ | kiʼara /ˈki.ʔa.ra/ | kviara /kʰviɑrɑ/ | kiere /ˈki.rə/ |
-| DESC+ADJ | ciraaidd /kɪ.ˈra.aið/ | kiʼari /ˈki.ʔa.ri/ | kviarauli /kʰviɑrɑuli/ | kiereachtech /ki.rə.ˈɑx.təx/ |
+| DESC+ADJ | ciraaidd /kɪ.ˈraː.aið/ | kiʼari /ˈki.ʔa.ri/ | kviarauli /kʰviɑrɑuli/ | kiereachtech /ki.rə.ˈɑx.təx/ |
 | DESC+NOUN | cira /ˈkɪ.ra/ | kiʼara /ˈki.ʔa.ra/ | kviara /kʰviɑrɑ/ | kiere /ˈki.rə/ |
 
 ## Ciara — Ciara (f. given name) — INFERRED
@@ -29,7 +29,7 @@ Irish: /ˈciəɾˠə/
 | PATRO_O | ocira /ɔ.ˈkɪ.ra/ | ukeera /ʔu.ˈkeː.ra/ | okiara /ɔkʰiɑrɑ/ | ookjiere /oː.ˈkji.rə/ |
 | PATRO_NI | nichira /nɪ.ˈχɪ.ra/ | nikheera /ni.ˈxeː.ra/ | nixiara /nixiɑrɑ/ | njiechiere /nji.ˈxi.rə/ +1 |
 | DESC | cira /ˈkɪ.ra/ | keera /ˈkeː.ra/ | kiara /kʰiɑrɑ/ | kjiere /ˈkji.rə/ |
-| DESC+ADJ | ciraaidd /kɪ.ˈra.aið/ | keeri /ˈkeː.ri/ | kiarauli /kʰiɑrɑuli/ | kjiereachtech /kji.rə.ˈɑx.təx/ |
+| DESC+ADJ | ciraaidd /kɪ.ˈraː.aið/ | keeri /ˈkeː.ri/ | kiarauli /kʰiɑrɑuli/ | kjiereachtech /kji.rə.ˈɑx.təx/ |
 | DESC+NOUN | cira /ˈkɪ.ra/ | keera /ˈkeː.ra/ | kiara /kʰiɑrɑ/ | kjiere /ˈkji.rə/ |
 
 ## Matánach — 'Burly' (epithet)
@@ -43,7 +43,7 @@ Irish: /ˈmˠat̪ˠɑːnˠəx/
 | PATRO_O | omataneu /ɔ.ma.ˈta.nəi/ | umaṭaanay /ʔu.ma.ˈtˤaː.naj/ | omatanai /ɔmɑtʰɑnɑi/ | oomattanej /oː.mɑ.ˈtaː.nəj/ +1 |
 | PATRO_NI | niwataneu /nɪu.a.ˈta.nəi/ | niwaṭaanay /ni.wa.ˈtˤaː.naj/ | nivatanai /nivɑtʰɑnɑi/ | njievattanej /nji.vɑ.ˈtaː.nəj/ +2 |
 | DESC | matanach /ma.ˈta.naχ/ | maṭaanakh /ma.ˈtˤaː.nax/ | matanax /mɑtʰɑnɑx/ | mattanech /mɑ.ˈtaː.nəx/ +1 |
-| DESC+ADJ | matanachaidd /ma.ta.ˈna.χaið/ | maṭanakhi /ma.tˤa.ˈna.xi/ | matanaxuri /mɑtʰɑnɑxuri/ | mattanechachtech /mɑ.taː.nə.ˈxɑx.təx/ +1 |
+| DESC+ADJ | matanachaidd /ma.ta.ˈnaː.χaið/ | maṭanakhi /ma.tˤa.ˈna.xi/ | matanaxuri /mɑtʰɑnɑxuri/ | mattanechachtech /mɑ.taː.nə.ˈxɑx.təx/ +1 |
 | DESC+NOUN | matanach /ma.ˈta.naχ/ | maṭanakha /ma.tˤa.ˈna.xa/ | matanaxi /mɑtʰɑnɑxi/ | mattanech /mɑ.ˈtaː.nəx/ +1 |
 
 ## Lasairchos — 'Flamefoot' (compound epithet)
@@ -94,13 +94,13 @@ Irish: /ˈʃʊwaːnˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yhwan /ə.ˈhʊ.an/ | ahuwaan /ʔa.hu.ˈwaːn/ | ahuvan /ɑhuvɑn/ | ehuvaan /ə.hʏ.ˈvaːn/ +1 |
+| VOC | yhwan /ə.ˈhuː.an/ | ahuwaan /ʔa.hu.ˈwaːn/ | ahuvan /ɑhuvɑn/ | ehuvaan /ə.hʏ.ˈvaːn/ +1 |
 | GEN | siwana /ʃʊ.ˈa.na/ | shuwaana /ʃu.ˈwaː.na/ | shiuvania /ʃiuvɑniɑ/ | sjuvanje /ʃʏ.ˈvaː.njə/ +1 |
 | PATRO_O | osiwana /ɔ.ʃʊ.ˈa.na/ | ushuwaana /ʔu.ʃu.ˈwaː.na/ | oshiuvania /ɔʃiuvɑniɑ/ | oosjuvanje /oː.ʃʏ.ˈvaː.njə/ +1 |
 | PATRO_NI | nihwana /nɪ.hʊ.ˈa.na/ | nihuwaana /ni.hu.ˈwaː.na/ | nihuvania /nihuvɑniɑ/ | njiehuvanje /nji.hʏ.ˈvaː.njə/ +2 |
-| DESC | siwan /ˈʃʊ.an/ | shuwaan /ʃu.ˈwaːn/ | shiuvan /ʃiuvɑn/ | sjuvaan /ʃʏ.ˈvaːn/ +1 |
+| DESC | siwan /ˈʃuː.an/ | shuwaan /ʃu.ˈwaːn/ | shiuvan /ʃiuvɑn/ | sjuvaan /ʃʏ.ˈvaːn/ +1 |
 | DESC+ADJ | siwanaidd /ʃʊ.ˈa.naið/ | shuwaani /ʃu.ˈwaː.ni/ | shiuvanuri /ʃiuvɑnuri/ | sjuvaanachtech /ʃʏ.vaː.ˈnɑx.təx/ +1 |
-| DESC+NOUN | siwan /ˈʃʊ.an/ | shuwaana /ʃu.ˈwaː.na/ | shiuvani /ʃiuvɑni/ | sjuvaan /ʃʏ.ˈvaːn/ +1 |
+| DESC+NOUN | siwan /ˈʃuː.an/ | shuwaana /ʃu.ˈwaː.na/ | shiuvani /ʃiuvɑni/ | sjuvaan /ʃʏ.ˈvaːn/ +1 |
 
 ## Eoin — Owen/John (m. given name)
 
@@ -110,8 +110,8 @@ Irish: /oːnʲ/
 |---|---|---|---|---|
 | VOC | yon /ˈə.ɔn/ | aʼoon /ʔa.ˈʔoːn/ | aon /ɑɔn/ | eoon /ə.ˈoːn/ |
 | GEN | ôn /ˈoːn/ | oon /ˈʔoːn/ | on /ɔn/ | oon /ˈoːn/ |
-| PATRO_O | oon /ˈɔ.ɔn/ | uʼoon /ʔu.ˈʔoːn/ | oon /ɔɔn/ | oowoon /oː.ˈʋoːn/ |
-| PATRO_NI | nion /ˈnɪ.ɔn/ | niʼoon /ni.ˈʔoːn/ | nion /niɔn/ | njiejoon /nji.ˈjoːn/ +1 |
+| PATRO_O | oon /ˈoː.ɔn/ | uʼoon /ʔu.ˈʔoːn/ | oon /ɔɔn/ | oowoon /oː.ˈʋoːn/ |
+| PATRO_NI | nion /ˈniː.ɔn/ | niʼoon /ni.ˈʔoːn/ | nion /niɔn/ | njiejoon /nji.ˈjoːn/ +1 |
 | DESC | ôn /ˈoːn/ | oon /ˈʔoːn/ | on /ɔn/ | oon /ˈoːn/ |
 | DESC+ADJ | onaidd /ˈoː.naið/ | ooni /ˈʔoː.ni/ | onuri /ɔnuri/ | oonachtech /oː.ˈnɑx.təx/ |
 | DESC+NOUN | ôn /ˈoːn/ | oona /ˈʔoː.na/ | oni /ɔni/ | oon /ˈoːn/ |
@@ -122,13 +122,13 @@ Irish: /ˈoːənˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yoan /ə.ˈɔ.an/ | aʼooʼan /ʔa.ˈʔoː.ʔan/ | aoan /ɑɔɑn/ | eowen /ə.ˈoː.ʋən/ |
-| GEN | oan /ˈɔ.an/ | ooʼan /ˈʔoː.ʔan/ | oan /ɔɑn/ | owen /ˈoː.ʋən/ |
-| PATRO_O | ooan /ɔ.ˈɔ.an/ | uʼooʼan /ʔu.ˈʔoː.ʔan/ | ooan /ɔɔɑn/ | oowowen /oː.ˈʋoː.ʋən/ |
-| PATRO_NI | nioan /nɪ.ˈɔ.an/ | niʼooʼan /ni.ˈʔoː.ʔan/ | nioan /niɔɑn/ | njiejowen /nji.ˈjoː.ʋən/ +1 |
-| DESC | oan /ˈɔ.an/ | ooʼan /ˈʔoː.ʔan/ | oan /ɔɑn/ | owen /ˈoː.ʋən/ |
+| VOC | yoan /ə.ˈoː.an/ | aʼooʼan /ʔa.ˈʔoː.ʔan/ | aoan /ɑɔɑn/ | eowen /ə.ˈoː.ʋən/ |
+| GEN | oan /ˈoː.an/ | ooʼan /ˈʔoː.ʔan/ | oan /ɔɑn/ | owen /ˈoː.ʋən/ |
+| PATRO_O | ooan /ɔ.ˈoː.an/ | uʼooʼan /ʔu.ˈʔoː.ʔan/ | ooan /ɔɔɑn/ | oowowen /oː.ˈʋoː.ʋən/ |
+| PATRO_NI | nioan /nɪ.ˈoː.an/ | niʼooʼan /ni.ˈʔoː.ʔan/ | nioan /niɔɑn/ | njiejowen /nji.ˈjoː.ʋən/ +1 |
+| DESC | oan /ˈoː.an/ | ooʼan /ˈʔoː.ʔan/ | oan /ɔɑn/ | owen /ˈoː.ʋən/ |
 | DESC+ADJ | oanaidd /ɔ.ˈa.naið/ | uʼani /ʔu.ˈʔa.ni/ | oanuri /ɔɑnuri/ | owenachtech /oː.ʋə.ˈnɑx.təx/ |
-| DESC+NOUN | oan /ˈɔ.an/ | uʼana /ʔu.ˈʔa.na/ | oani /ɔɑni/ | owen /ˈoː.ʋən/ |
+| DESC+NOUN | oan /ˈoː.an/ | uʼana /ʔu.ˈʔa.na/ | oani /ɔɑni/ | owen /ˈoː.ʋən/ |
 
 ## Diarmaid — Dermot (m. given name)
 
@@ -141,7 +141,7 @@ Irish: /dʲiərmədʲ/
 | PATRO_O | ojirmad /ɔ.ˈdʒɪr.mad/ | udirmad /ʔu.ˈdir.mad/ | ojiarmaj /ɔdʒiɑrmɑdʒ/ | oodjiermet /oː.ˈdjir.mət/ |
 | PATRO_NI | niirmad /nɪ.ˈɪr.mad/ | niyirmad /ni.ˈjir.mad/ | niiarmaj /niiɑrmɑdʒ/ | njiejiermet /nji.ˈjir.mət/ +1 |
 | DESC | jirmad /ˈdʒɪr.mad/ | dirmad /ˈdir.mad/ | jiarmaj /dʒiɑrmɑdʒ/ | djiermet /ˈdjir.mət/ |
-| DESC+ADJ | jirmadaidd /dʒɪr.ˈma.daið/ | dirmadi /dir.ˈma.di/ | jiarmajuli /dʒiɑrmɑdʒuli/ | djiermetachtech /djir.mə.ˈtɑx.təx/ |
+| DESC+ADJ | jirmadaidd /dʒɪr.ˈmaː.daið/ | dirmadi /dir.ˈma.di/ | jiarmajuli /dʒiɑrmɑdʒuli/ | djiermetachtech /djir.mə.ˈtɑx.təx/ |
 | DESC+NOUN | jirmad /ˈdʒɪr.mad/ | dirmada /dir.ˈma.da/ | jiarmaji /dʒiɑrmɑdʒi/ | djiermet /ˈdjir.mət/ |
 
 ## fionn — fair, light-haired / Fionn (m. given name)
@@ -152,8 +152,8 @@ Irish: /fʲʊn̪ˠ/
 |---|---|---|---|---|
 | VOC | ywn /ˈə.ʊn/ | aaʼun /ˈʔaː.ʔun/ | aun /ɑun/ | eun /ə.ˈʏn/ +1 |
 | GEN | ffwn /ˈfʊn/ | fun /ˈfun/ | piun /pʰiun/ | fjun /ˈfjʏn/ +1 |
-| PATRO_O | offwn /ˈɔ.fʊn/ | oofun /ˈʔoː.fun/ | opiun /ɔpʰiun/ | oofjun /ˈoː.fjʏn/ +1 |
-| PATRO_NI | niwn /ˈnɪ.ʊn/ | niiʼun /ˈniː.ʔun/ | niun /niun/ | njiejun /ˈnji.jʏn/ +2 |
+| PATRO_O | offwn /ˈoː.fʊn/ | oofun /ˈʔoː.fun/ | opiun /ɔpʰiun/ | oofjun /ˈoː.fjʏn/ +1 |
+| PATRO_NI | niwn /ˈniː.ʊn/ | niiʼun /ˈniː.ʔun/ | niun /niun/ | njiejun /ˈnji.jʏn/ +2 |
 | DESC | ffwn /ˈfʊn/ | fun /ˈfun/ | piun /pʰiun/ | fjun /ˈfjʏn/ +1 |
 | DESC+ADJ | ffwnaidd /ˈfʊ.naið/ | funi /ˈfu.ni/ | piunuri /pʰiunuri/ | fjunnachtech /fjʏ.ˈnɑx.təx/ +1 |
 | DESC+NOUN | ffwn /ˈfʊn/ | funa /ˈfu.na/ | piuni /pʰiuni/ | fjun /ˈfjʏn/ +1 |
@@ -193,9 +193,9 @@ Irish: /nʲiəw/
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
 | VOC | yniw /ˈə.nɪu/ | aneew /ʔa.ˈneːw/ | aniav /ɑniɑv/ | enjief /ə.ˈnjif/ |
-| GEN | nifa /ˈnɪ.va/ | neefa /ˈneː.fa/ | niavia /niɑviɑ/ | njievje /ˈnji.vjə/ |
-| PATRO_O | onifa /ɔ.ˈnɪ.va/ | uneefa /ʔu.ˈneː.fa/ | oniavia /ɔniɑviɑ/ | oonjievje /oː.ˈnji.vjə/ |
-| PATRO_NI | ninifa /nɪ.ˈnɪ.va/ | nineefa /ni.ˈneː.fa/ | niniavia /niniɑviɑ/ | njienjievje /nji.ˈnji.vjə/ +1 |
+| GEN | nifa /ˈniː.va/ | neefa /ˈneː.fa/ | niavia /niɑviɑ/ | njievje /ˈnji.vjə/ |
+| PATRO_O | onifa /ɔ.ˈniː.va/ | uneefa /ʔu.ˈneː.fa/ | oniavia /ɔniɑviɑ/ | oonjievje /oː.ˈnji.vjə/ |
+| PATRO_NI | ninifa /nɪ.ˈniː.va/ | nineefa /ni.ˈneː.fa/ | niniavia /niniɑviɑ/ | njienjievje /nji.ˈnji.vjə/ +1 |
 | DESC | niw /ˈnɪu/ | neew /ˈneːw/ | niav /niɑv/ | njief /ˈnjif/ |
 | DESC+ADJ | niwaidd /ˈnɪu.aið/ | neewi /ˈneː.wi/ | niavuri /niɑvuri/ | njiefachtech /nji.ˈfɑx.təx/ |
 | DESC+NOUN | niw /ˈnɪu/ | neewa /ˈneː.wa/ | niavi /niɑvi/ | njief /ˈnjif/ |
@@ -207,9 +207,9 @@ Irish: /nʲiəvˠ/
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
 | VOC | ynif /ˈə.nɪv/ | aneew /ʔa.ˈneːw/ | aniav /ɑniɑv/ | enjief /ə.ˈnjif/ |
-| GEN | nifa /ˈnɪ.va/ | neefa /ˈneː.fa/ | niavia /niɑviɑ/ | njievje /ˈnji.vjə/ |
-| PATRO_O | onifa /ɔ.ˈnɪ.va/ | uneefa /ʔu.ˈneː.fa/ | oniavia /ɔniɑviɑ/ | oonjievje /oː.ˈnji.vjə/ |
-| PATRO_NI | ninifa /nɪ.ˈnɪ.va/ | nineefa /ni.ˈneː.fa/ | niniavia /niniɑviɑ/ | njienjievje /nji.ˈnji.vjə/ +1 |
+| GEN | nifa /ˈniː.va/ | neefa /ˈneː.fa/ | niavia /niɑviɑ/ | njievje /ˈnji.vjə/ |
+| PATRO_O | onifa /ɔ.ˈniː.va/ | uneefa /ʔu.ˈneː.fa/ | oniavia /ɔniɑviɑ/ | oonjievje /oː.ˈnji.vjə/ |
+| PATRO_NI | ninifa /nɪ.ˈniː.va/ | nineefa /ni.ˈneː.fa/ | niniavia /niniɑviɑ/ | njienjievje /nji.ˈnji.vjə/ +1 |
 | DESC | nif /ˈniːv/ | neew /ˈneːw/ | niav /niɑv/ | njief /ˈnjif/ |
 | DESC+ADJ | nifaidd /ˈniː.vaið/ | neewi /ˈneː.wi/ | niavuri /niɑvuri/ | njiefachtech /nji.ˈfɑx.təx/ |
 | DESC+NOUN | nif /ˈniːv/ | neewa /ˈneː.wa/ | niavi /niɑvi/ | njief /ˈnjif/ |
@@ -220,13 +220,13 @@ Irish: /ˈkiːvʲə/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ychifa /ə.ˈχɪ.va/ | akhiifa /ʔa.ˈxiː.fa/ | axvivia /ɑxviviɑ/ | echievje /ə.ˈxi.vjə/ +1 |
-| GEN | cifa /ˈkɪ.va/ | kiifa /ˈkiː.fa/ | kvivia /kʰviviɑ/ | kievje /ˈki.vjə/ +1 |
-| PATRO_O | ocifa /ɔ.ˈkɪ.va/ | ukiifa /ʔu.ˈkiː.fa/ | okvivia /ɔkʰviviɑ/ | ookievje /oː.ˈki.vjə/ +1 |
-| PATRO_NI | nichifa /nɪ.ˈχɪ.va/ | nikhiifa /ni.ˈxiː.fa/ | nixvivia /nixviviɑ/ | njiechievje /nji.ˈxi.vjə/ +1 |
-| DESC | cifa /ˈkɪ.va/ | kiifa /ˈkiː.fa/ | kvivia /kʰviviɑ/ | kievje /ˈki.vjə/ +1 |
-| DESC+ADJ | cifaaidd /kɪ.ˈva.aið/ | kiifi /ˈkiː.fi/ | kviviauri /kʰviviɑuri/ | kievjeachtech /ki.vjə.ˈɑx.təx/ +1 |
-| DESC+NOUN | cifa /ˈkɪ.va/ | kiifa /ˈkiː.fa/ | kvivia /kʰviviɑ/ | kievje /ˈki.vjə/ +1 |
+| VOC | ychifa /ə.ˈχiː.va/ | akhiifa /ʔa.ˈxiː.fa/ | axvivia /ɑxviviɑ/ | echievje /ə.ˈxi.vjə/ +1 |
+| GEN | cifa /ˈkiː.va/ | kiifa /ˈkiː.fa/ | kvivia /kʰviviɑ/ | kievje /ˈki.vjə/ +1 |
+| PATRO_O | ocifa /ɔ.ˈkiː.va/ | ukiifa /ʔu.ˈkiː.fa/ | okvivia /ɔkʰviviɑ/ | ookievje /oː.ˈki.vjə/ +1 |
+| PATRO_NI | nichifa /nɪ.ˈχiː.va/ | nikhiifa /ni.ˈxiː.fa/ | nixvivia /nixviviɑ/ | njiechievje /nji.ˈxi.vjə/ +1 |
+| DESC | cifa /ˈkiː.va/ | kiifa /ˈkiː.fa/ | kvivia /kʰviviɑ/ | kievje /ˈki.vjə/ +1 |
+| DESC+ADJ | cifaaidd /kɪ.ˈvaː.aið/ | kiifi /ˈkiː.fi/ | kviviauri /kʰviviɑuri/ | kievjeachtech /ki.vjə.ˈɑx.təx/ +1 |
+| DESC+NOUN | cifa /ˈkiː.va/ | kiifa /ˈkiː.fa/ | kvivia /kʰviviɑ/ | kievje /ˈki.vjə/ +1 |
 
 ## Sorcha — Sorcha (f. given name)
 
@@ -239,7 +239,7 @@ Irish: /ˈsˠɔɾˠəxə/
 | PATRO_O | osorycha /ɔ.sɔ.ˈrə.χa/ | uṣurakha /ʔu.ˈsˤu.ra.xa/ | osoraxa /ɔsɔrɑxɑ/ | oozorreche /oː.ˈzɔ.rə.xə/ |
 | PATRO_NI | nihorycha /nɪ.hɔ.ˈrə.χa/ | nihurakha /ni.ˈhu.ra.xa/ | nihoraxa /nihɔrɑxɑ/ | njiehorreche /nji.ˈhɔ.rə.xə/ +1 |
 | DESC | sorycha /sɔ.ˈrə.χa/ | ṣurakha /ˈsˤu.ra.xa/ | soraxa /sɔrɑxɑ/ | sorreche /ˈsɔ.rə.xə/ |
-| DESC+ADJ | sorychaaidd /sɔ.rə.ˈχa.aið/ | ṣurakhi /ˈsˤu.ra.xi/ | soraxauli /sɔrɑxɑuli/ | sorrecheachtech /sɔ.rə.xə.ˈɑx.təx/ |
+| DESC+ADJ | sorychaaidd /sɔ.rə.ˈχaː.aið/ | ṣurakhi /ˈsˤu.ra.xi/ | soraxauli /sɔrɑxɑuli/ | sorrecheachtech /sɔ.rə.xə.ˈɑx.təx/ |
 | DESC+NOUN | sorycha /sɔ.ˈrə.χa/ | ṣurakha /ˈsˤu.ra.xa/ | soraxa /sɔrɑxɑ/ | sorreche /ˈsɔ.rə.xə/ |
 
 ## Órla — Orla (f. given name)
@@ -253,7 +253,7 @@ Irish: /ˈoːɾˠl̪ˠə/
 | PATRO_O | oorla /ɔ.ˈɔr.la/ | uʼurla /ʔu.ˈʔur.la/ | oorla /ɔɔrlɑ/ | oowoorle /oː.ˈʋoːr.lə/ |
 | PATRO_NI | niorla /nɪ.ˈɔr.la/ | niʼurla /ni.ˈʔur.la/ | niorla /niɔrlɑ/ | njiejoorle /nji.ˈjoːr.lə/ +1 |
 | DESC | orla /ˈɔr.la/ | urla /ˈʔur.la/ | orla /ɔrlɑ/ | oorle /ˈoːr.lə/ |
-| DESC+ADJ | orlaaidd /ɔr.ˈla.aið/ | urli /ˈʔur.li/ | orlauli /ɔrlɑuli/ | oorleachtech /oːr.lə.ˈɑx.təx/ |
+| DESC+ADJ | orlaaidd /ɔr.ˈlaː.aið/ | urli /ˈʔur.li/ | orlauli /ɔrlɑuli/ | oorleachtech /oːr.lə.ˈɑx.təx/ |
 | DESC+NOUN | orla /ˈɔr.la/ | urla /ˈʔur.la/ | orla /ɔrlɑ/ | oorle /ˈoːr.lə/ |
 
 ## Brian — Brian (m. given name)
@@ -281,7 +281,7 @@ Irish: /ˈn̪ˠuəl̪ˠə/
 | PATRO_O | onwla /ɔ.ˈnʊ.la/ | unoola /ʔu.ˈnoː.la/ | onuala /ɔnuɑlɑ/ | oonoele /oː.ˈnu.lə/ |
 | PATRO_NI | ninwla /nɪ.ˈnʊ.la/ | ninoola /ni.ˈnoː.la/ | ninuala /ninuɑlɑ/ | njienoele /nji.ˈnu.lə/ +1 |
 | DESC | nwla /ˈnʊ.la/ | noola /ˈnoː.la/ | nuala /nuɑlɑ/ | noele /ˈnu.lə/ |
-| DESC+ADJ | nwlaaidd /nʊ.ˈla.aið/ | nooli /ˈnoː.li/ | nualauri /nuɑlɑuri/ | noeleachtech /nu.lə.ˈɑx.təx/ |
+| DESC+ADJ | nwlaaidd /nʊ.ˈlaː.aið/ | nooli /ˈnoː.li/ | nualauri /nuɑlɑuri/ | noeleachtech /nu.lə.ˈɑx.təx/ |
 | DESC+NOUN | nwla /ˈnʊ.la/ | noola /ˈnoː.la/ | nuala /nuɑlɑ/ | noele /ˈnu.lə/ |
 
 ## Aoife — Eva (f. given name)
@@ -290,13 +290,13 @@ Irish: /ˈiːfʲə/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yiffa /ə.ˈɪ.fa/ | aʼiifa /ʔa.ˈʔiː.fa/ | aipia /ɑipʰiɑ/ | eifje /ˈɛi.fjə/ +1 |
-| GEN | iffa /ˈɪ.fa/ | iifa /ˈʔiː.fa/ | ipia /ipʰiɑ/ | iefje /ˈi.fjə/ +1 |
-| PATRO_O | oiffa /ɔ.ˈɪ.fa/ | uʼiifa /ʔu.ˈʔiː.fa/ | oipia /ɔipʰiɑ/ | oowiefje /oː.ˈʋi.fjə/ +1 |
-| PATRO_NI | niiffa /nɪ.ˈɪ.fa/ | niʼiifa /ni.ˈʔiː.fa/ | nipia /nipʰiɑ/ | njiejiefje /nji.ˈji.fjə/ +1 |
-| DESC | iffa /ˈɪ.fa/ | iifa /ˈʔiː.fa/ | ipia /ipʰiɑ/ | iefje /ˈi.fjə/ +1 |
-| DESC+ADJ | iffaaidd /ɪ.ˈfa.aið/ | iifi /ˈʔiː.fi/ | ipiauri /ipʰiɑuri/ | iefjeachtech /i.fjə.ˈɑx.təx/ +1 |
-| DESC+NOUN | iffa /ˈɪ.fa/ | iifa /ˈʔiː.fa/ | ipia /ipʰiɑ/ | iefje /ˈi.fjə/ +1 |
+| VOC | yiffa /ə.ˈiː.fa/ | aʼiifa /ʔa.ˈʔiː.fa/ | aipia /ɑipʰiɑ/ | eifje /ˈɛi.fjə/ +1 |
+| GEN | iffa /ˈiː.fa/ | iifa /ˈʔiː.fa/ | ipia /ipʰiɑ/ | iefje /ˈi.fjə/ +1 |
+| PATRO_O | oiffa /ɔ.ˈiː.fa/ | uʼiifa /ʔu.ˈʔiː.fa/ | oipia /ɔipʰiɑ/ | oowiefje /oː.ˈʋi.fjə/ +1 |
+| PATRO_NI | niiffa /nɪ.ˈiː.fa/ | niʼiifa /ni.ˈʔiː.fa/ | nipia /nipʰiɑ/ | njiejiefje /nji.ˈji.fjə/ +1 |
+| DESC | iffa /ˈiː.fa/ | iifa /ˈʔiː.fa/ | ipia /ipʰiɑ/ | iefje /ˈi.fjə/ +1 |
+| DESC+ADJ | iffaaidd /ɪ.ˈfaː.aið/ | iifi /ˈʔiː.fi/ | ipiauri /ipʰiɑuri/ | iefjeachtech /i.fjə.ˈɑx.təx/ +1 |
+| DESC+NOUN | iffa /ˈiː.fa/ | iifa /ˈʔiː.fa/ | ipia /ipʰiɑ/ | iefje /ˈi.fjə/ +1 |
 
 ## Pádraig — Patrick (m. given name)
 
@@ -309,7 +309,7 @@ Irish: /ˈpˠaːd̪ˠɾˠəɟ/
 | PATRO_O | opadrag /ɔ.ˈpa.draɡ/ | ubaḍrag /ʔu.ˈbadˤ.raɡ/ | opadrag /ɔpʰɑdrɑɡ/ | oopadrech /oː.ˈpaː.drəx/ |
 | PATRO_NI | niffadrag /nɪ.ˈfa.draɡ/ | nifaḍrag /ni.ˈfadˤ.raɡ/ | nipadrag /nipʰɑdrɑɡ/ | njiefadrech /nji.ˈfaː.drəx/ +1 |
 | DESC | padrag /ˈpa.draɡ/ | baḍrag /ˈbadˤ.raɡ/ | padrag /pʰɑdrɑɡ/ | padrech /ˈpaː.drəx/ |
-| DESC+ADJ | padragaidd /pa.ˈdra.ɡaið/ | baḍragi /badˤ.ˈra.ɡi/ | padraguli /pʰɑdrɑɡuli/ | padrechachtech /paː.drə.ˈxɑx.təx/ |
+| DESC+ADJ | padragaidd /pa.ˈdraː.ɡaið/ | baḍragi /badˤ.ˈra.ɡi/ | padraguli /pʰɑdrɑɡuli/ | padrechachtech /paː.drə.ˈxɑx.təx/ |
 | DESC+NOUN | padrag /ˈpa.draɡ/ | baḍraga /badˤ.ˈra.ɡa/ | padragi /pʰɑdrɑɡi/ | padrech /ˈpaː.drəx/ |
 
 ## Cathal — Cathal (m. given name)
@@ -351,7 +351,7 @@ Irish: /ˈɡɾˠaːnʲə/
 | PATRO_O | ograna /ɔ.ˈɡra.na/ | ugraana /ʔuɡ.ˈraː.na/ | ogrania /ɔɡrɑniɑ/ | oogranje /oː.ˈɣraː.njə/ |
 | PATRO_NI | nigrana /nɪ.ˈɡra.na/ | nighraana /niɣ.ˈraː.na/ | nighrania /niɣrɑniɑ/ | njiegranje /nji.ˈɣraː.njə/ +1 |
 | DESC | grana /ˈɡra.na/ | giraana /ɡi.ˈraː.na/ | grania /ɡrɑniɑ/ | granje /ˈɣraː.njə/ |
-| DESC+ADJ | granaaidd /ɡra.ˈna.aið/ | giraani /ɡi.ˈraː.ni/ | graniauli /ɡrɑniɑuli/ | granjeachtech /ɣraː.njə.ˈɑx.təx/ |
+| DESC+ADJ | granaaidd /ɡra.ˈnaː.aið/ | giraani /ɡi.ˈraː.ni/ | graniauli /ɡrɑniɑuli/ | granjeachtech /ɣraː.njə.ˈɑx.təx/ |
 | DESC+NOUN | grana /ˈɡra.na/ | giraana /ɡi.ˈraː.na/ | grania /ɡrɑniɑ/ | granje /ˈɣraː.njə/ |
 
 ## Saoirse — Saoirse (f. given name), 'freedom'
@@ -365,7 +365,7 @@ Irish: /ˈsˠiːɾˠʃə/
 | PATRO_O | osirsia /ɔ.ˈsɪr.ʃa/ | uṣirsha /ʔu.ˈsˤir.ʃa/ | osvyrshia /ɔsvirʃiɑ/ | ooziersje /oː.ˈzir.ʃə/ +1 |
 | PATRO_NI | nihirsia /nɪ.ˈhɪr.ʃa/ | nihirsha /ni.ˈhir.ʃa/ | nihyrshia /nihirʃiɑ/ | njiehiersje /nji.ˈhir.ʃə/ +1 |
 | DESC | sirsia /ˈsɪr.ʃa/ | ṣirsha /ˈsˤir.ʃa/ | svirshia /svirʃiɑ/ | siersje /ˈsir.ʃə/ +1 |
-| DESC+ADJ | sirsiaaidd /sɪr.ˈʃa.aið/ | ṣirshi /ˈsˤir.ʃi/ | svirshiauli /svirʃiɑuli/ | siersjeachtech /sir.ʃə.ˈɑx.təx/ +1 |
+| DESC+ADJ | sirsiaaidd /sɪr.ˈʃaː.aið/ | ṣirshi /ˈsˤir.ʃi/ | svirshiauli /svirʃiɑuli/ | siersjeachtech /sir.ʃə.ˈɑx.təx/ +1 |
 | DESC+NOUN | sirsia /ˈsɪr.ʃa/ | ṣirsha /ˈsˤir.ʃa/ | svirshia /svirʃiɑ/ | siersje /ˈsir.ʃə/ +1 |
 
 ## Rónán — Ronan (m. given name)
@@ -407,7 +407,7 @@ Irish: /ˈuːnˠə/
 | PATRO_O | owna /ɔ.ˈʊ.na/ | uʼuuna /ʔu.ˈʔuː.na/ | ouna /ɔunɑ/ | oowoene /oː.ˈʋu.nə/ +1 |
 | PATRO_NI | niwna /nɪ.ˈʊ.na/ | niʼuuna /ni.ˈʔuː.na/ | niuna /niunɑ/ | njiejoene /nji.ˈju.nə/ +2 |
 | DESC | wna /ˈʊ.na/ | uuna /ˈʔuː.na/ | una /unɑ/ | oene /ˈu.nə/ +1 |
-| DESC+ADJ | wnaaidd /ʊ.ˈna.aið/ | uuni /ˈʔuː.ni/ | unauri /unɑuri/ | oeneachtech /u.nə.ˈɑx.təx/ +1 |
+| DESC+ADJ | wnaaidd /ʊ.ˈnaː.aið/ | uuni /ˈʔuː.ni/ | unauri /unɑuri/ | oeneachtech /u.nə.ˈɑx.təx/ +1 |
 | DESC+NOUN | wna /ˈʊ.na/ | uuna /ˈʔuː.na/ | una /unɑ/ | oene /ˈu.nə/ +1 |
 
 ## Máire — Mary (f. given name)
@@ -421,7 +421,7 @@ Irish: /ˈmˠaːɾʲə/
 | PATRO_O | omara /ɔ.ˈma.ra/ | umaara /ʔu.ˈmaː.ra/ | omaria /ɔmɑriɑ/ | oomarje /oː.ˈmaː.rjə/ |
 | PATRO_NI | niwara /nɪu.ˈa.ra/ | niwaara /ni.ˈwaː.ra/ | nivaria /nivɑriɑ/ | njievarje /nji.ˈvaː.rjə/ +1 |
 | DESC | mara /ˈma.ra/ | maara /ˈmaː.ra/ | maria /mɑriɑ/ | marje /ˈmaː.rjə/ |
-| DESC+ADJ | maraaidd /ma.ˈra.aið/ | maari /ˈmaː.ri/ | mariauli /mɑriɑuli/ | marjeachtech /maː.rjə.ˈɑx.təx/ |
+| DESC+ADJ | maraaidd /ma.ˈraː.aið/ | maari /ˈmaː.ri/ | mariauli /mɑriɑuli/ | marjeachtech /maː.rjə.ˈɑx.təx/ |
 | DESC+NOUN | mara /ˈma.ra/ | maara /ˈmaː.ra/ | maria /mɑriɑ/ | marje /ˈmaː.rjə/ |
 
 ## Séamus — James (m. given name)
@@ -474,8 +474,8 @@ Irish: /bʲanˠ/
 |---|---|---|---|---|
 | VOC | yfin /ˈə.vɪn/ | aafin /ˈʔaː.fin/ | avyn /ɑvin/ | evjin /ə.ˈvjɪn/ |
 | GEN | bin /ˈbɪn/ | bin /ˈbin/ | bin /bin/ | bjin /ˈbjɪn/ |
-| PATRO_O | obin /ˈɔ.bɪn/ | oobin /ˈʔoː.bin/ | obyn /ɔbin/ | oobjin /ˈoː.bjɪn/ |
-| PATRO_NI | nifin /ˈnɪ.vɪn/ | niifin /ˈniː.fin/ | nivyn /nivin/ | njievjin /ˈnji.vjɪn/ +1 |
+| PATRO_O | obin /ˈoː.bɪn/ | oobin /ˈʔoː.bin/ | obyn /ɔbin/ | oobjin /ˈoː.bjɪn/ |
+| PATRO_NI | nifin /ˈniː.vɪn/ | niifin /ˈniː.fin/ | nivyn /nivin/ | njievjin /ˈnji.vjɪn/ +1 |
 | DESC | ban /ˈban/ | ban /ˈban/ | bian /biɑn/ | bjan /ˈbjɑn/ +1 |
 | DESC+ADJ | banaidd /ˈba.naið/ | bani /ˈba.ni/ | bianuri /biɑnuri/ | bjannachtech /bjɑ.ˈnɑx.təx/ +1 |
 | DESC+NOUN | ban /ˈban/ | bana /ˈba.na/ | biani /biɑni/ | bjan /ˈbjɑn/ +1 |
@@ -488,8 +488,8 @@ Irish: /vʲanˠ/
 |---|---|---|---|---|
 | VOC | yfin /ˈə.vɪn/ | aafin /ˈʔaː.fin/ | avyn /ɑvin/ | evjin /ə.ˈvjɪn/ |
 | GEN | fin /ˈvɪn/ | fin /ˈfin/ | vin /vin/ | vjin /ˈvjɪn/ |
-| PATRO_O | ofin /ˈɔ.vɪn/ | oofin /ˈʔoː.fin/ | ovyn /ɔvin/ | oovjin /ˈoː.vjɪn/ |
-| PATRO_NI | nifin /ˈnɪ.vɪn/ | niifin /ˈniː.fin/ | nivyn /nivin/ | njievjin /ˈnji.vjɪn/ +1 |
+| PATRO_O | ofin /ˈoː.vɪn/ | oofin /ˈʔoː.fin/ | ovyn /ɔvin/ | oovjin /ˈoː.vjɪn/ |
+| PATRO_NI | nifin /ˈniː.vɪn/ | niifin /ˈniː.fin/ | nivyn /nivin/ | njievjin /ˈnji.vjɪn/ +1 |
 | DESC | fan /ˈvan/ | fan /ˈfan/ | vian /viɑn/ | vjan /ˈvjɑn/ +1 |
 | DESC+ADJ | fanaidd /ˈva.naið/ | fani /ˈfa.ni/ | vianuri /viɑnuri/ | vjannachtech /vjɑ.ˈnɑx.təx/ +1 |
 | DESC+NOUN | fan /ˈvan/ | fana /ˈfa.na/ | viani /viɑni/ | vjan /ˈvjɑn/ +1 |
@@ -503,7 +503,7 @@ Irish: /mʲanˠ/
 | VOC | yfin /ˈə.vɪn/ | aafin /ˈʔaː.fin/ | avyn /ɑvin/ | evjin /ə.ˈvjɪn/ |
 | GEN | min /ˈmɪn/ | min /ˈmin/ | min /min/ | mjin /ˈmjɪn/ |
 | PATRO_O | omin /ˈɔ.mɪn/ | oomin /ˈʔoː.min/ | omyn /ɔmin/ | oomjin /ˈoː.mjɪn/ |
-| PATRO_NI | nifin /ˈnɪ.vɪn/ | niifin /ˈniː.fin/ | nivyn /nivin/ | njievjin /ˈnji.vjɪn/ +1 |
+| PATRO_NI | nifin /ˈniː.vɪn/ | niifin /ˈniː.fin/ | nivyn /nivin/ | njievjin /ˈnji.vjɪn/ +1 |
 | DESC | man /ˈman/ | man /ˈman/ | mian /miɑn/ | mjan /ˈmjɑn/ +1 |
 | DESC+ADJ | manaidd /ˈma.naið/ | mani /ˈma.ni/ | mianuri /miɑnuri/ | mjannachtech /mjɑ.ˈnɑx.təx/ +1 |
 | DESC+NOUN | man /ˈman/ | mana /ˈma.na/ | miani /miɑni/ | mjan /ˈmjɑn/ +1 |
@@ -516,8 +516,8 @@ Irish: /çaːn̪ˠ/
 |---|---|---|---|---|
 | VOC | ychan /ˈə.χan/ | akhaan /ʔa.ˈxaːn/ | axian /ɑxiɑn/ | echaan /ə.ˈxaːn/ |
 | GEN | chân /ˈχaːn/ | khaan /ˈxaːn/ | xian /xiɑn/ | chaan /ˈxaːn/ |
-| PATRO_O | ochan /ˈɔ.χan/ | ukhaan /ʔu.ˈxaːn/ | oxian /ɔxiɑn/ | oogaan /oː.ˈɣaːn/ |
-| PATRO_NI | nichan /ˈnɪ.χan/ | nikhaan /ni.ˈxaːn/ | nixian /nixiɑn/ | njiechaan /nji.ˈxaːn/ +1 |
+| PATRO_O | ochan /ˈoː.χan/ | ukhaan /ʔu.ˈxaːn/ | oxian /ɔxiɑn/ | oogaan /oː.ˈɣaːn/ |
+| PATRO_NI | nichan /ˈniː.χan/ | nikhaan /ni.ˈxaːn/ | nixian /nixiɑn/ | njiechaan /nji.ˈxaːn/ +1 |
 | DESC | chân /ˈχaːn/ | khaan /ˈxaːn/ | xian /xiɑn/ | chaan /ˈxaːn/ |
 | DESC+ADJ | chanaidd /ˈχaː.naið/ | khaani /ˈxaː.ni/ | xianuri /xiɑnuri/ | chaanachtech /xaː.ˈnɑx.təx/ |
 | DESC+NOUN | chân /ˈχaːn/ | khaana /ˈxaː.na/ | xiani /xiɑni/ | chaan /ˈxaːn/ |
@@ -530,8 +530,8 @@ Irish: /ɟaːn̪ˠ/
 |---|---|---|---|---|
 | VOC | euan /ˈəi.an/ | ayaan /ʔa.ˈjaːn/ | aian /ɑiɑn/ | ejaan /ə.ˈjaːn/ |
 | GEN | gân /ˈɡaːn/ | gaan /ˈɡaːn/ | gian /ɡiɑn/ | gaan /ˈɣaːn/ |
-| PATRO_O | ogan /ˈɔ.ɡan/ | ugaan /ʔu.ˈɡaːn/ | ogian /ɔɡiɑn/ | oogaan /oː.ˈɣaːn/ |
-| PATRO_NI | nian /ˈnɪ.an/ | niyaan /ni.ˈjaːn/ | nian /niɑn/ | njiejaan /nji.ˈjaːn/ +1 |
+| PATRO_O | ogan /ˈoː.ɡan/ | ugaan /ʔu.ˈɡaːn/ | ogian /ɔɡiɑn/ | oogaan /oː.ˈɣaːn/ |
+| PATRO_NI | nian /ˈniː.an/ | niyaan /ni.ˈjaːn/ | nian /niɑn/ | njiejaan /nji.ˈjaːn/ +1 |
 | DESC | gân /ˈɡaːn/ | gaan /ˈɡaːn/ | gian /ɡiɑn/ | gaan /ˈɣaːn/ |
 | DESC+ADJ | ganaidd /ˈɡaː.naið/ | gaani /ˈɡaː.ni/ | gianuri /ɡiɑnuri/ | gaanachtech /ɣaː.ˈnɑx.təx/ |
 | DESC+NOUN | gân /ˈɡaːn/ | gaana /ˈɡaː.na/ | giani /ɡiɑni/ | gaan /ˈɣaːn/ |
@@ -589,7 +589,7 @@ Irish: /fʲɾʲaɡɾˠə/
 | PATRO_O | offragra /ɔ.ˈfra.ɡra/ | ufragra /ʔuf.ˈraɡ.ra/ | opriagra /ɔpʰriɑɡrɑ/ | oofragre /oː.ˈfrɑ.ɣrə/ +1 |
 | PATRO_NI | niragra /nɪ.ˈra.ɡra/ | niragra /ni.ˈraɡ.ra/ | niriagra /niriɑɡrɑ/ | njierjagre /nji.ˈrjɑ.ɣrə/ +2 |
 | DESC | ffragra /ˈfra.ɡra/ | firagra /fi.ˈraɡ.ra/ | priagra /pʰriɑɡrɑ/ | fragre /ˈfrɑ.ɣrə/ +1 |
-| DESC+ADJ | ffragraaidd /fra.ˈɡra.aið/ | firagri /fi.ˈraɡ.ri/ | priagrauli /pʰriɑɡrɑuli/ | fragreachtech /frɑ.ɣrə.ˈɑx.təx/ +1 |
+| DESC+ADJ | ffragraaidd /fra.ˈɡraː.aið/ | firagri /fi.ˈraɡ.ri/ | priagrauli /pʰriɑɡrɑuli/ | fragreachtech /frɑ.ɣrə.ˈɑx.təx/ +1 |
 | DESC+NOUN | ffragra /ˈfra.ɡra/ | firagra /fi.ˈraɡ.ra/ | priagra /pʰriɑɡrɑ/ | fragre /ˈfrɑ.ɣrə/ +1 |
 
 ## fhreagra — answer (lenited)
@@ -603,7 +603,7 @@ Irish: /ɾʲaɡɾˠə/
 | PATRO_O | oragra /ɔ.ˈra.ɡra/ | uragra /ʔu.ˈraɡ.ra/ | oriagra /ɔriɑɡrɑ/ | oorjagre /oː.ˈrjɑ.ɣrə/ +1 |
 | PATRO_NI | niragra /nɪ.ˈra.ɡra/ | niragra /ni.ˈraɡ.ra/ | niriagra /niriɑɡrɑ/ | njierjagre /nji.ˈrjɑ.ɣrə/ +2 |
 | DESC | rhagra /ˈr̥a.ɡra/ | ragra /ˈraɡ.ra/ | riagra /riɑɡrɑ/ | rjagre /ˈrjɑ.ɣrə/ +1 |
-| DESC+ADJ | rhagraaidd /r̥a.ˈɡra.aið/ | ragri /ˈraɡ.ri/ | riagrauli /riɑɡrɑuli/ | rjagreachtech /rjɑ.ɣrə.ˈɑx.təx/ +1 |
+| DESC+ADJ | rhagraaidd /r̥a.ˈɡraː.aið/ | ragri /ˈraɡ.ri/ | riagrauli /riɑɡrɑuli/ | rjagreachtech /rjɑ.ɣrə.ˈɑx.təx/ +1 |
 | DESC+NOUN | rhagra /ˈr̥a.ɡra/ | ragra /ˈraɡ.ra/ | riagra /riɑɡrɑ/ | rjagre /ˈrjɑ.ɣrə/ +1 |
 
 ## bhfreagra — answer (eclipsed)
@@ -617,7 +617,7 @@ Irish: /vʲɾʲaɡɾˠə/
 | PATRO_O | ofragra /ɔ.ˈvra.ɡra/ | ufragra /ʔuf.ˈraɡ.ra/ | ovriagra /ɔvriɑɡrɑ/ | oovragre /oː.ˈvrɑ.ɣrə/ +1 |
 | PATRO_NI | nifragra /nɪ.ˈvra.ɡra/ | nifragra /nif.ˈraɡ.ra/ | nivriagra /nivriɑɡrɑ/ | njievragre /nji.ˈvrɑ.ɣrə/ +2 |
 | DESC | fragra /ˈvra.ɡra/ | firagra /fi.ˈraɡ.ra/ | vriagra /vriɑɡrɑ/ | vragre /ˈvrɑ.ɣrə/ +1 |
-| DESC+ADJ | fragraaidd /vra.ˈɡra.aið/ | firagri /fi.ˈraɡ.ri/ | vriagrauli /vriɑɡrɑuli/ | vragreachtech /vrɑ.ɣrə.ˈɑx.təx/ +1 |
+| DESC+ADJ | fragraaidd /vra.ˈɡraː.aið/ | firagri /fi.ˈraɡ.ri/ | vriagrauli /vriɑɡrɑuli/ | vragreachtech /vrɑ.ɣrə.ˈɑx.təx/ +1 |
 | DESC+NOUN | fragra /ˈvra.ɡra/ | firagra /fi.ˈraɡ.ra/ | vriagra /vriɑɡrɑ/ | vragre /ˈvrɑ.ɣrə/ +1 |
 
 ## glúin — knee (radical)
@@ -671,7 +671,7 @@ Irish: /pʲaːn̪ˠ/
 | VOC | yffan /ˈə.fan/ | afaan /ʔa.ˈfaːn/ | apian /ɑpʰiɑn/ | efjaan /ə.ˈfjaːn/ |
 | GEN | pân /ˈpaːn/ | baan /ˈbaːn/ | pian /pʰiɑn/ | pjaan /ˈpjaːn/ |
 | PATRO_O | opan /ˈɔ.pan/ | ubaan /ʔu.ˈbaːn/ | opian /ɔpʰiɑn/ | oopjaan /oː.ˈpjaːn/ |
-| PATRO_NI | niffan /ˈnɪ.fan/ | nifaan /ni.ˈfaːn/ | nipian /nipʰiɑn/ | njiefjaan /nji.ˈfjaːn/ +1 |
+| PATRO_NI | niffan /ˈniː.fan/ | nifaan /ni.ˈfaːn/ | nipian /nipʰiɑn/ | njiefjaan /nji.ˈfjaːn/ +1 |
 | DESC | pân /ˈpaːn/ | baan /ˈbaːn/ | pian /pʰiɑn/ | pjaan /ˈpjaːn/ |
 | DESC+ADJ | panaidd /ˈpaː.naið/ | baani /ˈbaː.ni/ | pianuri /pʰiɑnuri/ | pjaanachtech /pjaː.ˈnɑx.təx/ |
 | DESC+NOUN | pân /ˈpaːn/ | baana /ˈbaː.na/ | piani /pʰiɑni/ | pjaan /ˈpjaːn/ |
@@ -684,8 +684,8 @@ Irish: /fʲaːn̪ˠ/
 |---|---|---|---|---|
 | VOC | yan /ˈə.an/ | aʼaan /ʔa.ˈʔaːn/ | aan /ɑɑn/ | eaan /ə.ˈaːn/ |
 | GEN | ffân /ˈfaːn/ | faan /ˈfaːn/ | pian /pʰiɑn/ | fjaan /ˈfjaːn/ |
-| PATRO_O | offan /ˈɔ.fan/ | ufaan /ʔu.ˈfaːn/ | opian /ɔpʰiɑn/ | oofjaan /oː.ˈfjaːn/ |
-| PATRO_NI | nian /ˈnɪ.an/ | niʼaan /ni.ˈʔaːn/ | nian /niɑn/ | njiejaan /nji.ˈjaːn/ +1 |
+| PATRO_O | offan /ˈoː.fan/ | ufaan /ʔu.ˈfaːn/ | opian /ɔpʰiɑn/ | oofjaan /oː.ˈfjaːn/ |
+| PATRO_NI | nian /ˈniː.an/ | niʼaan /ni.ˈʔaːn/ | nian /niɑn/ | njiejaan /nji.ˈjaːn/ +1 |
 | DESC | ffân /ˈfaːn/ | faan /ˈfaːn/ | pian /pʰiɑn/ | fjaan /ˈfjaːn/ |
 | DESC+ADJ | ffanaidd /ˈfaː.naið/ | faani /ˈfaː.ni/ | pianuri /pʰiɑnuri/ | fjaanachtech /fjaː.ˈnɑx.təx/ |
 | DESC+NOUN | ffân /ˈfaːn/ | faana /ˈfaː.na/ | piani /pʰiɑni/ | fjaan /ˈfjaːn/ |
@@ -698,8 +698,8 @@ Irish: /bʲaːn̪ˠ/
 |---|---|---|---|---|
 | VOC | yfan /ˈə.van/ | afaan /ʔa.ˈfaːn/ | avian /ɑviɑn/ | evjaan /ə.ˈvjaːn/ |
 | GEN | bân /ˈbaːn/ | baan /ˈbaːn/ | bian /biɑn/ | bjaan /ˈbjaːn/ |
-| PATRO_O | oban /ˈɔ.ban/ | ubaan /ʔu.ˈbaːn/ | obian /ɔbiɑn/ | oobjaan /oː.ˈbjaːn/ |
-| PATRO_NI | nifan /ˈnɪ.van/ | nifaan /ni.ˈfaːn/ | nivian /niviɑn/ | njievjaan /nji.ˈvjaːn/ +1 |
+| PATRO_O | oban /ˈoː.ban/ | ubaan /ʔu.ˈbaːn/ | obian /ɔbiɑn/ | oobjaan /oː.ˈbjaːn/ |
+| PATRO_NI | nifan /ˈniː.van/ | nifaan /ni.ˈfaːn/ | nivian /niviɑn/ | njievjaan /nji.ˈvjaːn/ +1 |
 | DESC | bân /ˈbaːn/ | baan /ˈbaːn/ | bian /biɑn/ | bjaan /ˈbjaːn/ |
 | DESC+ADJ | banaidd /ˈbaː.naið/ | baani /ˈbaː.ni/ | bianuri /biɑnuri/ | bjaanachtech /bjaː.ˈnɑx.təx/ |
 | DESC+NOUN | bân /ˈbaːn/ | baana /ˈbaː.na/ | biani /biɑni/ | bjaan /ˈbjaːn/ |
@@ -741,7 +741,7 @@ Irish: /dʲax/
 | VOC | euach /ˈəi.aχ/ | aayakh /ˈʔaː.jax/ | aiax /ɑiɑx/ | ejach /ə.ˈjɑx/ +1 |
 | GEN | jach /ˈdʒaːχ/ | dakh /ˈdax/ | jiax /dʒiɑx/ | djach /ˈdjɑx/ +1 |
 | PATRO_O | ojach /ˈɔ.dʒaχ/ | oodakh /ˈʔoː.dax/ | ojiax /ɔdʒiɑx/ | oodjach /ˈoː.djɑx/ +1 |
-| PATRO_NI | niach /ˈnɪ.aχ/ | niiyakh /ˈniː.jax/ | niax /niɑx/ | njiejach /ˈnji.jɑx/ +2 |
+| PATRO_NI | niach /ˈniː.aχ/ | niiyakh /ˈniː.jax/ | niax /niɑx/ | njiejach /ˈnji.jɑx/ +2 |
 | DESC | jach /ˈdʒaːχ/ | dakh /ˈdax/ | jiax /dʒiɑx/ | djach /ˈdjɑx/ +1 |
 | DESC+ADJ | jachaidd /ˈdʒaː.χaið/ | dakhi /ˈda.xi/ | jiaxuri /dʒiɑxuri/ | djachachtech /djɑ.ˈxɑx.təx/ +1 |
 | DESC+NOUN | jach /ˈdʒaːχ/ | dakha /ˈda.xa/ | jiaxi /dʒiɑxi/ | djach /ˈdjɑx/ +1 |
@@ -852,8 +852,8 @@ Irish: /eːnˠ/
 |---|---|---|---|---|
 | VOC | yen /ˈə.ɛn/ | aʼeen /ʔa.ˈʔeːn/ | aen /ɑɛn/ | eeen /ə.ˈeːn/ |
 | GEN | ên /ˈeːn/ | een /ˈʔeːn/ | en /ɛn/ | een /ˈeːn/ |
-| PATRO_O | oen /ˈɔ.ɛn/ | uʼeen /ʔu.ˈʔeːn/ | oen /ɔɛn/ | ooween /oː.ˈʋeːn/ |
-| PATRO_NI | nien /ˈnɪ.ɛn/ | niʼeen /ni.ˈʔeːn/ | nien /niɛn/ | njiejeen /nji.ˈjeːn/ +1 |
+| PATRO_O | oen /ˈoː.ɛn/ | uʼeen /ʔu.ˈʔeːn/ | oen /ɔɛn/ | ooween /oː.ˈʋeːn/ |
+| PATRO_NI | nien /ˈniː.ɛn/ | niʼeen /ni.ˈʔeːn/ | nien /niɛn/ | njiejeen /nji.ˈjeːn/ +1 |
 | DESC | ên /ˈeːn/ | een /ˈʔeːn/ | en /ɛn/ | een /ˈeːn/ |
 | DESC+ADJ | enaidd /ˈeː.naið/ | eeni /ˈʔeː.ni/ | enuri /ɛnuri/ | eenachtech /eː.ˈnɑx.təx/ |
 | DESC+NOUN | ên /ˈeːn/ | eena /ˈʔeː.na/ | eni /ɛni/ | een /ˈeːn/ |
@@ -1021,7 +1021,7 @@ Irish: /mˠak/
 | VOC | yfic /ˈə.vɪk/ | aafik /ˈʔaː.fik/ | avyk /ɑvikʰ/ | evjik /ə.ˈvjɪk/ |
 | GEN | mic /ˈmɪk/ | mik /ˈmik/ | mik /mikʰ/ | mjik /ˈmjɪk/ |
 | PATRO_O | omic /ˈɔ.mɪk/ | oomik /ˈʔoː.mik/ | omyk /ɔmikʰ/ | oomjik /ˈoː.mjɪk/ |
-| PATRO_NI | nific /ˈnɪ.vɪk/ | niifik /ˈniː.fik/ | nivyk /nivikʰ/ | njievjik /ˈnji.vjɪk/ +1 |
+| PATRO_NI | nific /ˈniː.vɪk/ | niifik /ˈniː.fik/ | nivyk /nivikʰ/ | njievjik /ˈnji.vjɪk/ +1 |
 | DESC | mac /ˈmak/ | mak /ˈmak/ | mak /mɑkʰ/ | mak /ˈmɑk/ +1 |
 | DESC+ADJ | macaidd /ˈma.kaið/ | maki /ˈma.ki/ | makuri /mɑkʰuri/ | makkachtech /mɑ.ˈkɑx.təx/ +1 |
 | DESC+NOUN | mac /ˈmak/ | maka /ˈma.ka/ | maki /mɑkʰi/ | mak /ˈmɑk/ +1 |
@@ -1076,7 +1076,7 @@ Irish: /bˠaːnˠ/
 |---|---|---|---|---|
 | VOC | ewan /ˈəu.an/ | awaan /ʔa.ˈwaːn/ | avan /ɑvɑn/ | evaan /ə.ˈvaːn/ |
 | GEN | bân /ˈbaːn/ | baan /ˈbaːn/ | ban /bɑn/ | baan /ˈbaːn/ |
-| PATRO_O | oban /ˈɔ.ban/ | ubaan /ʔu.ˈbaːn/ | oban /ɔbɑn/ | oobaan /oː.ˈbaːn/ |
+| PATRO_O | oban /ˈoː.ban/ | ubaan /ʔu.ˈbaːn/ | oban /ɔbɑn/ | oobaan /oː.ˈbaːn/ |
 | PATRO_NI | niwan /ˈnɪu.an/ | niwaan /ni.ˈwaːn/ | nivan /nivɑn/ | njievaan /nji.ˈvaːn/ +1 |
 | DESC | bân /ˈbaːn/ | baan /ˈbaːn/ | ban /bɑn/ | baan /ˈbaːn/ |
 | DESC+ADJ | banaidd /ˈbaː.naið/ | baani /ˈbaː.ni/ | banuri /bɑnuri/ | baanachtech /baː.ˈnɑx.təx/ |
@@ -1090,8 +1090,8 @@ Irish: /d̪ˠʊw/
 |---|---|---|---|---|
 | VOC | ygwf /ˈə.ɡʊv/ | aaghuf /ˈʔaː.ɣuf/ | aghuv /ɑɣuv/ | eguf /ə.ˈɣʏf/ +1 |
 | GEN | dwf /ˈduːv/ | ḍuf /ˈdˤuf/ | duv /duv/ | duf /ˈdʏf/ +1 |
-| PATRO_O | odwf /ˈɔ.dʊv/ | ooḍuf /ˈʔoː.dˤuf/ | oduv /ɔduv/ | ooduf /ˈoː.dʏf/ +1 |
-| PATRO_NI | nigwf /ˈnɪ.ɡʊv/ | niighuf /ˈniː.ɣuf/ | nighuv /niɣuv/ | njieguf /ˈnji.ɣʏf/ +2 |
+| PATRO_O | odwf /ˈoː.dʊv/ | ooḍuf /ˈʔoː.dˤuf/ | oduv /ɔduv/ | ooduf /ˈoː.dʏf/ +1 |
+| PATRO_NI | nigwf /ˈniː.ɡʊv/ | niighuf /ˈniː.ɣuf/ | nighuv /niɣuv/ | njieguf /ˈnji.ɣʏf/ +2 |
 | DESC | dw /ˈduː/ | ḍuw /ˈdˤuw/ | duv /duv/ | duf /ˈdʏf/ +1 |
 | DESC+ADJ | dwaidd /ˈduː.aið/ | ḍuwi /ˈdˤu.wi/ | duvuri /duvuri/ | duffachtech /dʏ.ˈfɑx.təx/ +1 |
 | DESC+NOUN | dw /ˈduː/ | ḍuwa /ˈdˤu.wa/ | duvi /duvi/ | duf /ˈdʏf/ +1 |
@@ -1104,8 +1104,8 @@ Irish: /d̪ˠʊvˠ/
 |---|---|---|---|---|
 | VOC | ygwf /ˈə.ɡʊv/ | aaghuf /ˈʔaː.ɣuf/ | aghuv /ɑɣuv/ | eguf /ə.ˈɣʏf/ +1 |
 | GEN | dwf /ˈduːv/ | ḍuf /ˈdˤuf/ | duv /duv/ | duf /ˈdʏf/ +1 |
-| PATRO_O | odwf /ˈɔ.dʊv/ | ooḍuf /ˈʔoː.dˤuf/ | oduv /ɔduv/ | ooduf /ˈoː.dʏf/ +1 |
-| PATRO_NI | nigwf /ˈnɪ.ɡʊv/ | niighuf /ˈniː.ɣuf/ | nighuv /niɣuv/ | njieguf /ˈnji.ɣʏf/ +2 |
+| PATRO_O | odwf /ˈoː.dʊv/ | ooḍuf /ˈʔoː.dˤuf/ | oduv /ɔduv/ | ooduf /ˈoː.dʏf/ +1 |
+| PATRO_NI | nigwf /ˈniː.ɡʊv/ | niighuf /ˈniː.ɣuf/ | nighuv /niɣuv/ | njieguf /ˈnji.ɣʏf/ +2 |
 | DESC | dwf /ˈduːv/ | ḍuw /ˈdˤuw/ | duv /duv/ | duf /ˈdʏf/ +1 |
 | DESC+ADJ | dwfaidd /ˈduː.vaið/ | ḍuwi /ˈdˤu.wi/ | duvuri /duvuri/ | duffachtech /dʏ.ˈfɑx.təx/ +1 |
 | DESC+NOUN | dwf /ˈduːv/ | ḍuwa /ˈdˤu.wa/ | duvi /duvi/ | duf /ˈdʏf/ +1 |
@@ -1121,7 +1121,7 @@ Irish: /ˈdʲaɾˠəɡ/
 | PATRO_O | ojarag /ɔ.ˈdʒa.raɡ/ | udarag /ʔu.ˈda.raɡ/ | ojiarag /ɔdʒiɑrɑɡ/ | oodjarrech /oː.ˈdjɑ.rəx/ +1 |
 | PATRO_NI | niarag /nɪ.ˈa.raɡ/ | niyarag /ni.ˈja.raɡ/ | niarag /niɑrɑɡ/ | njiejarrech /nji.ˈjɑ.rəx/ +2 |
 | DESC | jarag /ˈdʒa.raɡ/ | darag /ˈda.raɡ/ | jiarag /dʒiɑrɑɡ/ | djarrech /ˈdjɑ.rəx/ +1 |
-| DESC+ADJ | jaragaidd /dʒa.ˈra.ɡaið/ | daragi /ˈda.ra.ɡi/ | jiaraguli /dʒiɑrɑɡuli/ | djarrechachtech /djɑ.rə.ˈxɑx.təx/ +1 |
+| DESC+ADJ | jaragaidd /dʒa.ˈraː.ɡaið/ | daragi /ˈda.ra.ɡi/ | jiaraguli /dʒiɑrɑɡuli/ | djarrechachtech /djɑ.rə.ˈxɑx.təx/ +1 |
 | DESC+NOUN | jarag /ˈdʒa.raɡ/ | daraga /ˈda.ra.ɡa/ | jiaragi /dʒiɑrɑɡi/ | djarrech /ˈdjɑ.rəx/ +1 |
 
 ## gorm — blue
@@ -1174,8 +1174,8 @@ Irish: /aːɾˠd̪ˠ/
 |---|---|---|---|---|
 | VOC | yardd /ˈə.arð/ | aʼard /ʔa.ˈʔard/ | aarj /ɑɑrdʒ/ | eaart /ə.ˈaːrt/ |
 | GEN | ardd /ˈarð/ | ard /ˈʔard/ | arj /ɑrdʒ/ | aart /ˈaːrt/ |
-| PATRO_O | oardd /ˈɔ.arð/ | uʼard /ʔu.ˈʔard/ | oarj /ɔɑrdʒ/ | oowaart /oː.ˈʋaːrt/ |
-| PATRO_NI | niardd /ˈnɪ.arð/ | niʼard /ni.ˈʔard/ | niarj /niɑrdʒ/ | njiejaart /nji.ˈjaːrt/ +1 |
+| PATRO_O | oardd /ˈoː.arð/ | uʼard /ʔu.ˈʔard/ | oarj /ɔɑrdʒ/ | oowaart /oː.ˈʋaːrt/ |
+| PATRO_NI | niardd /ˈniː.arð/ | niʼard /ni.ˈʔard/ | niarj /niɑrdʒ/ | njiejaart /nji.ˈjaːrt/ +1 |
 | DESC | ardd /ˈarð/ | arḍ /ˈʔardˤ/ | ard /ɑrd/ | aart /ˈaːrt/ |
 | DESC+ADJ | arddaidd /ˈar.ðaið/ | arḍi /ˈʔar.dˤi/ | arduli /ɑrduli/ | aartachtech /aːr.ˈtɑx.təx/ |
 | DESC+NOUN | ardd /ˈarð/ | arḍa /ˈʔar.dˤa/ | ardi /ɑrdi/ | aart /ˈaːrt/ |
@@ -1191,7 +1191,7 @@ Irish: /ˈd̪ˠɔɾˠəxə/
 | PATRO_O | odorycha /ɔ.dɔ.ˈrə.χa/ | uḍurakha /ʔu.ˈdˤu.ra.xa/ | odoraxa /ɔdɔrɑxɑ/ | oodorreche /oː.ˈdɔ.rə.xə/ |
 | PATRO_NI | nigorycha /nɪ.ɡɔ.ˈrə.χa/ | nighurakha /ni.ˈɣu.ra.xa/ | nighoraxa /niɣɔrɑxɑ/ | njiegorreche /nji.ˈɣɔ.rə.xə/ +1 |
 | DESC | dorycha /dɔ.ˈrə.χa/ | ḍurakha /ˈdˤu.ra.xa/ | doraxa /dɔrɑxɑ/ | dorreche /ˈdɔ.rə.xə/ |
-| DESC+ADJ | dorychaaidd /dɔ.rə.ˈχa.aið/ | ḍurakhi /ˈdˤu.ra.xi/ | doraxauli /dɔrɑxɑuli/ | dorrecheachtech /dɔ.rə.xə.ˈɑx.təx/ |
+| DESC+ADJ | dorychaaidd /dɔ.rə.ˈχaː.aið/ | ḍurakhi /ˈdˤu.ra.xi/ | doraxauli /dɔrɑxɑuli/ | dorrecheachtech /dɔ.rə.xə.ˈɑx.təx/ |
 | DESC+NOUN | dorycha /dɔ.ˈrə.χa/ | ḍurakha /ˈdˤu.ra.xa/ | doraxa /dɔrɑxɑ/ | dorreche /ˈdɔ.rə.xə/ |
 
 ## ciúin — quiet
@@ -1233,7 +1233,7 @@ Irish: /bˠəˈkax/
 | PATRO_O | obycach /ɔ.ˈbə.kaχ/ | ubakakh /ʔu.ˈba.kax/ | obakax /ɔbɑkʰɑx/ | oobekach /ˈoː.bə.kɑx/ +1 |
 | PATRO_NI | niwycach /nɪu.ˈə.kaχ/ | niwakakh /ni.ˈwa.kax/ | nivakax /nivɑkʰɑx/ | njievekach /ˈnji.və.kɑx/ +2 |
 | DESC | bycach /ˈbə.kaχ/ | bakakh /ˈba.kax/ | bakax /bɑkʰɑx/ | bekach /bə.ˈkɑx/ +1 |
-| DESC+ADJ | bycachaidd /bə.ˈka.χaið/ | bakakhi /ˈba.ka.xi/ | bakaxuri /bɑkʰɑxuri/ | bekachachtech /bə.kɑ.ˈxɑx.təx/ +1 |
+| DESC+ADJ | bycachaidd /bə.ˈkaː.χaið/ | bakakhi /ˈba.ka.xi/ | bakaxuri /bɑkʰɑxuri/ | bekachachtech /bə.kɑ.ˈxɑx.təx/ +1 |
 | DESC+NOUN | bycach /ˈbə.kaχ/ | bakakha /ˈba.ka.xa/ | bakaxi /bɑkʰɑxi/ | bekach /bə.ˈkɑx/ +1 |
 
 ## taoiseach — chieftain, leader
@@ -1247,7 +1247,7 @@ Irish: /ˈt̪ˠiːʃəx/
 | PATRO_O | otisieu /ɔ.ˈtɪ.ʃəi/ | uṭiishay /ʔu.ˈtˤiː.ʃaj/ | otvishiai /ɔtʰviʃiɑi/ | ootiesjej /oː.ˈti.ʃəj/ +1 |
 | PATRO_NI | nihisieu /nɪ.ˈhɪ.ʃəi/ | nihiishay /ni.ˈhiː.ʃaj/ | nihishiai /nihiʃiɑi/ | njiehiesjej /nji.ˈhi.ʃəj/ +1 |
 | DESC | tisiach /ˈtɪ.ʃaχ/ | ṭiishakh /ˈtˤiː.ʃax/ | tvishiax /tʰviʃiɑx/ | tiesjech /ˈti.ʃəx/ +1 |
-| DESC+ADJ | tisiachaidd /tɪ.ˈʃa.χaið/ | ṭishakhi /tˤi.ˈʃa.xi/ | tvishiaxuri /tʰviʃiɑxuri/ | tiesjechachtech /ti.ʃə.ˈxɑx.təx/ +1 |
+| DESC+ADJ | tisiachaidd /tɪ.ˈʃaː.χaið/ | ṭishakhi /tˤi.ˈʃa.xi/ | tvishiaxuri /tʰviʃiɑxuri/ | tiesjechachtech /ti.ʃə.ˈxɑx.təx/ +1 |
 | DESC+NOUN | tisiach /ˈtɪ.ʃaχ/ | ṭishakha /tˤi.ˈʃa.xa/ | tvishiaxi /tʰviʃiɑxi/ | tiesjech /ˈti.ʃəx/ +1 |
 
 ## Gaelach — Gaelic
@@ -1261,7 +1261,7 @@ Irish: /ˈɡeːlˠəx/
 | PATRO_O | ogeleu /ɔ.ˈɡɛ.ləi/ | ugeelay /ʔu.ˈɡeː.laj/ | ogvelai /ɔɡvɛlɑi/ | oogelej /oː.ˈɣeː.ləj/ |
 | PATRO_NI | nigeleu /nɪ.ˈɡɛ.ləi/ | nigheelay /ni.ˈɣeː.laj/ | nighvelai /niɣvɛlɑi/ | njiegelej /nji.ˈɣeː.ləj/ +1 |
 | DESC | gelach /ˈɡɛ.laχ/ | geelakh /ˈɡeː.lax/ | gvelax /ɡvɛlɑx/ | gelech /ˈɣeː.ləx/ |
-| DESC+ADJ | gelachaidd /ɡɛ.ˈla.χaið/ | gilakhi /ɡi.ˈla.xi/ | gvelaxuri /ɡvɛlɑxuri/ | gelechachtech /ɣeː.lə.ˈxɑx.təx/ |
+| DESC+ADJ | gelachaidd /ɡɛ.ˈlaː.χaið/ | gilakhi /ɡi.ˈla.xi/ | gvelaxuri /ɡvɛlɑxuri/ | gelechachtech /ɣeː.lə.ˈxɑx.təx/ |
 | DESC+NOUN | gelach /ˈɡɛ.laχ/ | gilakha /ɡi.ˈla.xa/ | gvelaxi /ɡvɛlɑxi/ | gelech /ˈɣeː.ləx/ |
 
 ## leisciúil — lazy
@@ -1284,13 +1284,13 @@ Irish: /ˈbˠaːd̪ˠoːɾʲ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ewador /əu.ˈa.dɔr/ | awaḍoor /ʔa.wa.ˈdˤoːr/ | avador /ɑvɑdɔr/ | evadoor /ə.vaː.ˈdoːr/ |
+| VOC | ewador /əu.ˈaː.dɔr/ | awaḍoor /ʔa.wa.ˈdˤoːr/ | avador /ɑvɑdɔr/ | evadoor /ə.vaː.ˈdoːr/ |
 | GEN | badora /ba.ˈdɔ.ra/ | baḍoora /ba.ˈdˤoː.ra/ | badora /bɑdɔrɑ/ | badore /baː.ˈdoː.rə/ |
 | PATRO_O | obadora /ɔ.ba.ˈdɔ.ra/ | ubaḍoora /ʔu.ba.ˈdˤoː.ra/ | obadora /ɔbɑdɔrɑ/ | oobadore /oː.baː.ˈdoː.rə/ |
 | PATRO_NI | niwadora /nɪu.a.ˈdɔ.ra/ | niwaḍoora /ni.wa.ˈdˤoː.ra/ | nivadora /nivɑdɔrɑ/ | njievadore /nji.vaː.ˈdoː.rə/ +1 |
-| DESC | bador /ˈba.dɔr/ | baḍoor /ba.ˈdˤoːr/ | bador /bɑdɔr/ | badoor /baː.ˈdoːr/ |
+| DESC | bador /ˈbaː.dɔr/ | baḍoor /ba.ˈdˤoːr/ | bador /bɑdɔr/ | badoor /baː.ˈdoːr/ |
 | DESC+ADJ | badoraidd /ba.ˈdɔ.raið/ | baḍoori /ba.ˈdˤoː.ri/ | badoruli /bɑdɔruli/ | badoorachtech /baː.doː.ˈrɑx.təx/ |
-| DESC+NOUN | bador /ˈba.dɔr/ | baḍoora /ba.ˈdˤoː.ra/ | badori /bɑdɔri/ | badoor /baː.ˈdoːr/ |
+| DESC+NOUN | bador /ˈbaː.dɔr/ | baḍoora /ba.ˈdˤoː.ra/ | badori /bɑdɔri/ | badoor /baː.ˈdoːr/ |
 
 ## cailín — girl
 
@@ -1331,7 +1331,7 @@ Irish: /ˈkn̪ˠapʲə/
 | PATRO_O | ocnapa /ɔ.ˈkna.pa/ | uknaba /ʔuk.ˈna.ba/ | oknapia /ɔkʰnɑpʰiɑ/ | ooknapje /oː.ˈknɑ.pjə/ +1 |
 | PATRO_NI | nichnapa /nɪχ.ˈna.pa/ | nikhnaba /nix.ˈna.ba/ | nixnapia /nixnɑpʰiɑ/ | njiechnapje /nji.ˈxnɑ.pjə/ +2 |
 | DESC | cnapa /ˈkna.pa/ | kinaba /ˈki.na.ba/ | knapia /kʰnɑpʰiɑ/ | knapje /ˈknɑ.pjə/ +1 |
-| DESC+ADJ | cnapaaidd /kna.ˈpa.aið/ | kinabi /ˈki.na.bi/ | knapiauri /kʰnɑpʰiɑuri/ | knapjeachtech /knɑ.pjə.ˈɑx.təx/ +1 |
+| DESC+ADJ | cnapaaidd /kna.ˈpaː.aið/ | kinabi /ˈki.na.bi/ | knapiauri /kʰnɑpʰiɑuri/ | knapjeachtech /knɑ.pjə.ˈɑx.təx/ +1 |
 | DESC+NOUN | cnapa /ˈkna.pa/ | kinaba /ˈki.na.ba/ | knapia /kʰnɑpʰiɑ/ | knapje /ˈknɑ.pjə/ +1 |
 
 ## mná — women
@@ -1359,7 +1359,7 @@ Irish: /ˈʃnʲaxt̪ˠə/
 | PATRO_O | osnachta /ɔs.ˈnaχ.ta/ | ushnakhṭa /ʔuʃ.ˈnax.tˤa/ | oshniaxt'a /ɔʃniɑxtʼɑ/ | oosnachte /oː.ˈsnɑx.tə/ +1 |
 | PATRO_NI | nicnachta /nɪ.ˈknaχ.ta/ +1 | nihnakhṭa /nih.ˈnax.tˤa/ | nishniaxt'a /niʃniɑxtʼɑ/ +1 | njienachte /nji.ˈnɑx.tə/ +2 |
 | DESC | ysnachta /əs.ˈnaχ.ta/ | shinakhṭa /ʃi.ˈnax.tˤa/ | shniaxt'a /ʃniɑxtʼɑ/ | snachte /ˈsnɑx.tə/ +1 |
-| DESC+ADJ | ysnachtaaidd /əs.naχ.ˈta.aið/ | shinakhṭi /ʃi.ˈnax.tˤi/ | shniaxt'auri /ʃniɑxtʼɑuri/ | snachteachtech /snɑx.tə.ˈɑx.təx/ +1 |
+| DESC+ADJ | ysnachtaaidd /əs.naχ.ˈtaː.aið/ | shinakhṭi /ʃi.ˈnax.tˤi/ | shniaxt'auri /ʃniɑxtʼɑuri/ | snachteachtech /snɑx.tə.ˈɑx.təx/ +1 |
 | DESC+NOUN | ysnachta /əs.ˈnaχ.ta/ | shinakhṭa /ʃi.ˈnax.tˤa/ | shniaxt'a /ʃniɑxtʼɑ/ | snachte /ˈsnɑx.tə/ +1 |
 
 ## splanc — flash, spark
@@ -1387,7 +1387,7 @@ Irish: /sˠpˠɾˠiː/
 | PATRO_O | osbri /ˈɔ.sprɪ/ | uṣbirii /ʔusˤ.bi.ˈriː/ | osp'rvi /ɔspʼrvi/ | oosprie /ˈoː.spri/ +1 |
 | PATRO_NI | niffpri /ˈnɪf.prɪ/ +1 | nihbirii /nih.bi.ˈriː/ | nitxzvi /nitʰxzvi/ +1 | njiechprie /ˈnjix.pri/ +1 |
 | DESC | ysbri /ˈə.sprɪ/ | ṣibirii /sˤi.bi.ˈriː/ | sp'rvi /spʼrvi/ | sprie /ˈspri/ +1 |
-| DESC+ADJ | ysbriaidd /ə.ˈsprɪ.aið/ | ṣibiriiʼi /sˤi.bi.ˈriː.ʔi/ | sp'rviuli /spʼrviuli/ | spriejachtech /spri.ˈjɑx.təx/ +1 |
+| DESC+ADJ | ysbriaidd /ə.ˈspriː.aið/ | ṣibiriiʼi /sˤi.bi.ˈriː.ʔi/ | sp'rviuli /spʼrviuli/ | spriejachtech /spri.ˈjɑx.təx/ +1 |
 | DESC+NOUN | ysbri /ˈə.sprɪ/ | ṣibirii /sˤi.bi.ˈriː/ | sp'rvi /spʼrvi/ | sprie /ˈspri/ +1 |
 
 ## speal — scythe
@@ -1415,7 +1415,7 @@ Irish: /sˠmʲeːɾˠə/
 | PATRO_O | osmera /ɔs.ˈmɛ.ra/ | uṣmeera /ʔusˤ.ˈmeː.ra/ | osmera /ɔsmɛrɑ/ | oosmere /oː.ˈsmeː.rə/ |
 | PATRO_NI | nisbera /nɪ.ˈspɛ.ra/ +1 | nihmeera /nih.ˈmeː.ra/ | nismera /nismɛrɑ/ +1 | njiemere /nji.ˈmeː.rə/ +1 |
 | DESC | ysmera /əs.ˈmɛ.ra/ | ṣimeera /sˤi.ˈmeː.ra/ | smera /smɛrɑ/ | smere /ˈsmeː.rə/ |
-| DESC+ADJ | ysmeraaidd /əs.mɛ.ˈra.aið/ | ṣimeeri /sˤi.ˈmeː.ri/ | smerauli /smɛrɑuli/ | smereachtech /smeː.rə.ˈɑx.təx/ |
+| DESC+ADJ | ysmeraaidd /əs.mɛ.ˈraː.aið/ | ṣimeeri /sˤi.ˈmeː.ri/ | smerauli /smɛrɑuli/ | smereachtech /smeː.rə.ˈɑx.təx/ |
 | DESC+NOUN | ysmera /əs.ˈmɛ.ra/ | ṣimeera /sˤi.ˈmeː.ra/ | smera /smɛrɑ/ | smere /ˈsmeː.rə/ |
 
 ## scéal — story
@@ -1469,7 +1469,7 @@ Irish: /caːn̪ˠ/
 | VOC | ychan /ˈə.χan/ | akhaan /ʔa.ˈxaːn/ | axian /ɑxiɑn/ | echaan /ə.ˈxaːn/ |
 | GEN | cân /ˈkaːn/ | kaan /ˈkaːn/ | kian /kʰiɑn/ | kjaan /ˈkjaːn/ |
 | PATRO_O | ocan /ˈɔ.kan/ | ukaan /ʔu.ˈkaːn/ | okian /ɔkʰiɑn/ | ookjaan /oː.ˈkjaːn/ |
-| PATRO_NI | nichan /ˈnɪ.χan/ | nikhaan /ni.ˈxaːn/ | nixian /nixiɑn/ | njiechaan /nji.ˈxaːn/ +1 |
+| PATRO_NI | nichan /ˈniː.χan/ | nikhaan /ni.ˈxaːn/ | nixian /nixiɑn/ | njiechaan /nji.ˈxaːn/ +1 |
 | DESC | cân /ˈkaːn/ | kaan /ˈkaːn/ | kian /kʰiɑn/ | kjaan /ˈkjaːn/ |
 | DESC+ADJ | canaidd /ˈkaː.naið/ | kaani /ˈkaː.ni/ | kianuri /kʰiɑnuri/ | kjaanachtech /kjaː.ˈnɑx.təx/ |
 | DESC+NOUN | cân /ˈkaːn/ | kaana /ˈkaː.na/ | kiani /kʰiɑni/ | kjaan /ˈkjaːn/ |
@@ -1522,13 +1522,13 @@ Irish: /ˈiːçə/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yicha /ə.ˈɪ.χa/ | aʼiikha /ʔa.ˈʔiː.xa/ | aixia /ɑixiɑ/ | eiche /ˈɛi.xə/ +1 |
-| GEN | icha /ˈɪ.χa/ | iikha /ˈʔiː.xa/ | ixia /ixiɑ/ | ieche /ˈi.xə/ +1 |
-| PATRO_O | oicha /ɔ.ˈɪ.χa/ | uʼiikha /ʔu.ˈʔiː.xa/ | oixia /ɔixiɑ/ | oowieche /oː.ˈʋi.xə/ +1 |
-| PATRO_NI | niicha /nɪ.ˈɪ.χa/ | niʼiikha /ni.ˈʔiː.xa/ | nixia /nixiɑ/ | njiejieche /nji.ˈji.xə/ +1 |
-| DESC | icha /ˈɪ.χa/ | iikha /ˈʔiː.xa/ | ixia /ixiɑ/ | ieche /ˈi.xə/ +1 |
-| DESC+ADJ | ichaaidd /ɪ.ˈχa.aið/ | iikhi /ˈʔiː.xi/ | ixiauri /ixiɑuri/ | iecheachtech /i.xə.ˈɑx.təx/ +1 |
-| DESC+NOUN | icha /ˈɪ.χa/ | iikha /ˈʔiː.xa/ | ixia /ixiɑ/ | ieche /ˈi.xə/ +1 |
+| VOC | yicha /ə.ˈiː.χa/ | aʼiikha /ʔa.ˈʔiː.xa/ | aixia /ɑixiɑ/ | eiche /ˈɛi.xə/ +1 |
+| GEN | icha /ˈiː.χa/ | iikha /ˈʔiː.xa/ | ixia /ixiɑ/ | ieche /ˈi.xə/ +1 |
+| PATRO_O | oicha /ɔ.ˈiː.χa/ | uʼiikha /ʔu.ˈʔiː.xa/ | oixia /ɔixiɑ/ | oowieche /oː.ˈʋi.xə/ +1 |
+| PATRO_NI | niicha /nɪ.ˈiː.χa/ | niʼiikha /ni.ˈʔiː.xa/ | nixia /nixiɑ/ | njiejieche /nji.ˈji.xə/ +1 |
+| DESC | icha /ˈiː.χa/ | iikha /ˈʔiː.xa/ | ixia /ixiɑ/ | ieche /ˈi.xə/ +1 |
+| DESC+ADJ | ichaaidd /ɪ.ˈχaː.aið/ | iikhi /ˈʔiː.xi/ | ixiauri /ixiɑuri/ | iecheachtech /i.xə.ˈɑx.təx/ +1 |
+| DESC+NOUN | icha /ˈiː.χa/ | iikha /ˈʔiː.xa/ | ixia /ixiɑ/ | ieche /ˈi.xə/ +1 |
 
 ## dorn — fist
 
@@ -1538,8 +1538,8 @@ Irish: /d̪ˠoːɾˠn̪ˠ/
 |---|---|---|---|---|
 | VOC | ygorn /ˈə.ɡɔrn/ | aghurn /ʔa.ˈɣurn/ | aghord /ɑɣɔrd/ +1 | egoren /ə.ˈɣoː.rən/ |
 | GEN | dorn /ˈdɔrn/ | ḍurn /ˈdˤurn/ | dord /dɔrd/ +1 | doren /ˈdoː.rən/ |
-| PATRO_O | odorn /ˈɔ.dɔrn/ | uḍurn /ʔu.ˈdˤurn/ | odord /ɔdɔrd/ +1 | oodoren /oː.ˈdoː.rən/ |
-| PATRO_NI | nigorn /ˈnɪ.ɡɔrn/ | nighurn /ni.ˈɣurn/ | nighord /niɣɔrd/ +1 | njiegoren /nji.ˈɣoː.rən/ +1 |
+| PATRO_O | odorn /ˈoː.dɔrn/ | uḍurn /ʔu.ˈdˤurn/ | odord /ɔdɔrd/ +1 | oodoren /oː.ˈdoː.rən/ |
+| PATRO_NI | nigorn /ˈniː.ɡɔrn/ | nighurn /ni.ˈɣurn/ | nighord /niɣɔrd/ +1 | njiegoren /nji.ˈɣoː.rən/ +1 |
 | DESC | dorn /ˈdɔrn/ | ḍurn /ˈdˤurn/ | dord /dɔrd/ +1 | doren /ˈdoː.rən/ |
 | DESC+ADJ | dornaidd /ˈdɔr.naið/ | ḍurni /ˈdˤur.ni/ | dorduli /dɔrduli/ +1 | dorenachtech /doː.rə.ˈnɑx.təx/ |
 | DESC+NOUN | dorn /ˈdɔrn/ | ḍurna /ˈdˤur.na/ | dordi /dɔrdi/ +1 | doren /ˈdoː.rən/ |
@@ -1566,8 +1566,8 @@ Irish: /fˠuəɾˠ/
 |---|---|---|---|---|
 | VOC | ywr /ˈə.ʊr/ | aʼoor /ʔa.ˈʔoːr/ | auar /ɑuɑr/ | our /ˈɔur/ |
 | GEN | ffwr /ˈfʊr/ | foor /ˈfoːr/ | puar /pʰuɑr/ | foer /ˈfur/ |
-| PATRO_O | offwr /ˈɔ.fʊr/ | ufoor /ʔu.ˈfoːr/ | opuar /ɔpʰuɑr/ | oovoer /oː.ˈvur/ |
-| PATRO_NI | niwr /ˈnɪ.ʊr/ | niʼoor /ni.ˈʔoːr/ | niuar /niuɑr/ | njiejoer /nji.ˈjur/ +1 |
+| PATRO_O | offwr /ˈoː.fʊr/ | ufoor /ʔu.ˈfoːr/ | opuar /ɔpʰuɑr/ | oovoer /oː.ˈvur/ |
+| PATRO_NI | niwr /ˈniː.ʊr/ | niʼoor /ni.ˈʔoːr/ | niuar /niuɑr/ | njiejoer /nji.ˈjur/ +1 |
 | DESC | ffwr /ˈfʊr/ | foor /ˈfoːr/ | puar /pʰuɑr/ | foer /ˈfur/ |
 | DESC+ADJ | ffwraidd /ˈfʊ.raið/ | foori /ˈfoː.ri/ | puaruli /pʰuɑruli/ | foerachtech /fu.ˈrɑx.təx/ |
 | DESC+NOUN | ffwr /ˈfʊr/ | foora /ˈfoː.ra/ | puari /pʰuɑri/ | foer /ˈfur/ |
@@ -1580,8 +1580,8 @@ Irish: /əiɾˠk/
 |---|---|---|---|---|
 | VOC | yeurc /ˈə.əirk/ | aʼayrik /ʔa.ˈʔaj.rik/ | aayrk' /ɑɑirkʼ/ | eeirek /ə.ˈɛi.rək/ |
 | GEN | eurc /ˈəirk/ | ayrik /ˈʔaj.rik/ | ayrk' /ɑirkʼ/ | eirek /ˈɛi.rək/ |
-| PATRO_O | oeurc /ˈɔ.əirk/ | uʼayrik /ʔu.ˈʔaj.rik/ | oayrk' /ɔɑirkʼ/ | ooweirek /oː.ˈʋɛi.rək/ |
-| PATRO_NI | nieurc /ˈnɪ.əirk/ | niʼayrik /ni.ˈʔaj.rik/ | niayrk' /niɑirkʼ/ | njiejeirek /nji.ˈjɛi.rək/ +1 |
+| PATRO_O | oeurc /ˈoː.əirk/ | uʼayrik /ʔu.ˈʔaj.rik/ | oayrk' /ɔɑirkʼ/ | ooweirek /oː.ˈʋɛi.rək/ |
+| PATRO_NI | nieurc /ˈniː.əirk/ | niʼayrik /ni.ˈʔaj.rik/ | niayrk' /niɑirkʼ/ | njiejeirek /nji.ˈjɛi.rək/ +1 |
 | DESC | eurc /ˈəirk/ | ayrik /ˈʔaj.rik/ | ayrk' /ɑirkʼ/ | eirek /ˈɛi.rək/ |
 | DESC+ADJ | eurcaidd /ˈəir.kaið/ | ayriki /ʔaj.ˈri.ki/ | ayrk'uli /ɑirkʼuli/ | eirekachtech /ɛi.rə.ˈkɑx.təx/ |
 | DESC+NOUN | eurc /ˈəirk/ | ayrika /ʔaj.ˈri.ka/ | ayrk'i /ɑirkʼi/ | eirek /ˈɛi.rək/ |
@@ -1636,8 +1636,8 @@ Irish: /ɣoːɾˠn̪ˠ/
 |---|---|---|---|---|
 | VOC | ygorn /ˈə.ɡɔrn/ | aghurn /ʔa.ˈɣurn/ | aghord /ɑɣɔrd/ +1 | egoren /ə.ˈɣoː.rən/ |
 | GEN | gorn /ˈɡɔrn/ | ghurn /ˈɣurn/ | ghord /ɣɔrd/ +1 | goren /ˈɣoː.rən/ |
-| PATRO_O | ogorn /ˈɔ.ɡɔrn/ | ughurn /ʔu.ˈɣurn/ | oghord /ɔɣɔrd/ +1 | oogoren /oː.ˈɣoː.rən/ |
-| PATRO_NI | nigorn /ˈnɪ.ɡɔrn/ | nighurn /ni.ˈɣurn/ | nighord /niɣɔrd/ +1 | njiegoren /nji.ˈɣoː.rən/ +1 |
+| PATRO_O | ogorn /ˈoː.ɡɔrn/ | ughurn /ʔu.ˈɣurn/ | oghord /ɔɣɔrd/ +1 | oogoren /oː.ˈɣoː.rən/ |
+| PATRO_NI | nigorn /ˈniː.ɡɔrn/ | nighurn /ni.ˈɣurn/ | nighord /niɣɔrd/ +1 | njiegoren /nji.ˈɣoː.rən/ +1 |
 | DESC | gorn /ˈɡɔrn/ | ghurn /ˈɣurn/ | ghord /ɣɔrd/ +1 | goren /ˈɣoː.rən/ |
 | DESC+ADJ | gornaidd /ˈɡɔr.naið/ | ghurni /ˈɣur.ni/ | ghorduli /ɣɔrduli/ +1 | gorenachtech /ɣoː.rə.ˈnɑx.təx/ |
 | DESC+NOUN | gorn /ˈɡɔrn/ | ghurna /ˈɣur.na/ | ghordi /ɣɔrdi/ +1 | goren /ˈɣoː.rən/ |
@@ -1653,7 +1653,7 @@ Irish: /ˈjaɾˠəɡ/
 | PATRO_O | oiarag /ɔi.ˈa.raɡ/ | uyarag /ʔu.ˈja.raɡ/ | oiarag /ɔiɑrɑɡ/ | oojarrech /oː.ˈjɑ.rəx/ +1 |
 | PATRO_NI | niarag /nɪ.ˈa.raɡ/ | niyarag /ni.ˈja.raɡ/ | niarag /niɑrɑɡ/ | njiejarrech /nji.ˈjɑ.rəx/ +2 |
 | DESC | iarag /ˈja.raɡ/ | yarag /ˈja.raɡ/ | iarag /iɑrɑɡ/ | jarrech /ˈjɑ.rəx/ +1 |
-| DESC+ADJ | iaragaidd /ja.ˈra.ɡaið/ | yaragi /ˈja.ra.ɡi/ | iaraguli /iɑrɑɡuli/ | jarrechachtech /jɑ.rə.ˈxɑx.təx/ +1 |
+| DESC+ADJ | iaragaidd /ja.ˈraː.ɡaið/ | yaragi /ˈja.ra.ɡi/ | iaraguli /iɑrɑɡuli/ | jarrechachtech /jɑ.rə.ˈxɑx.təx/ +1 |
 | DESC+NOUN | iarag /ˈja.raɡ/ | yaraga /ˈja.ra.ɡa/ | iaragi /iɑrɑɡi/ | jarrech /ˈjɑ.rəx/ +1 |
 
 ## chrom — bent (lenited)
@@ -1723,7 +1723,7 @@ Irish: /ˈɲat̪ˠə/
 | PATRO_O | onata /ɔ.ˈna.ta/ | unaṭa /ʔu.ˈna.tˤa/ | oniata /ɔniɑtʰɑ/ | oonjatte /oː.ˈnjɑ.tə/ +1 |
 | PATRO_NI | ninata /nɪ.ˈna.ta/ | ninaṭa /ni.ˈna.tˤa/ | niniata /niniɑtʰɑ/ | njienjatte /nji.ˈnjɑ.tə/ +2 |
 | DESC | nata /ˈna.ta/ | naṭa /ˈna.tˤa/ | niata /niɑtʰɑ/ | njatte /ˈnjɑ.tə/ +1 |
-| DESC+ADJ | nataaidd /na.ˈta.aið/ | naṭi /ˈna.tˤi/ | niatauri /niɑtʰɑuri/ | njatteachtech /njɑ.tə.ˈɑx.təx/ +1 |
+| DESC+ADJ | nataaidd /na.ˈtaː.aið/ | naṭi /ˈna.tˤi/ | niatauri /niɑtʰɑuri/ | njatteachtech /njɑ.tə.ˈɑx.təx/ +1 |
 | DESC+NOUN | nata /ˈna.ta/ | naṭa /ˈna.tˤa/ | niata /niɑtʰɑ/ | njatte /ˈnjɑ.tə/ +1 |
 
 ## mbláth — flower (eclipsed)
@@ -1765,7 +1765,7 @@ Irish: /ə tʲɾʲaxt̪ˠə/
 | PATRO_O | oytrachta /ɔ.ə.ˈtraχ.ta/ | uʼatrakhṭa /ʔu.ʔat.ˈrax.tˤa/ | oachriaxt'a /ɔɑtʃʰriɑxtʼɑ/ | oowetrjachte /oː.ʋət.ˈrjɑx.tə/ +1 |
 | PATRO_NI | niytrachta /nɪ.ə.ˈtraχ.ta/ | niʼatrakhṭa /ni.ʔat.ˈrax.tˤa/ | niachriaxt'a /niɑtʃʰriɑxtʼɑ/ | njietrjachte /njit.ˈrjɑx.tə/ +2 |
 | DESC | ytrachta /ə.ˈtraχ.ta/ | atrakhṭa /ʔat.ˈrax.tˤa/ | achriaxt'a /ɑtʃʰriɑxtʼɑ/ | etrjachte /ət.ˈrjɑx.tə/ +1 |
-| DESC+ADJ | ytrachtaaidd /ə.traχ.ˈta.aið/ | atrakhṭi /ʔat.ˈrax.tˤi/ | achriaxt'auli /ɑtʃʰriɑxtʼɑuli/ | etrjachteachtech /ət.rjɑx.tə.ˈɑx.təx/ +1 |
+| DESC+ADJ | ytrachtaaidd /ə.traχ.ˈtaː.aið/ | atrakhṭi /ʔat.ˈrax.tˤi/ | achriaxt'auli /ɑtʃʰriɑxtʼɑuli/ | etrjachteachtech /ət.rjɑx.tə.ˈɑx.təx/ +1 |
 | DESC+NOUN | ytrachta /ə.ˈtraχ.ta/ | atrakhṭa /ʔat.ˈrax.tˤa/ | achriaxt'a /ɑtʃʰriɑxtʼɑ/ | etrjachte /ət.ˈrjɑx.tə/ +1 |
 
 ## droch-dhuine — bad person
@@ -1779,7 +1779,7 @@ Irish: /ˈd̪ˠɾˠɔxˈɣinʲə/
 | PATRO_O | odrochgina /ɔ.drɔχ.ˈɡi.na/ | uḍrukhghina /ʔudˤ.rux.ˈɣi.na/ | odroxghvinia /ɔdrɔxɣviniɑ/ | oodrochgienje /oː.drɔx.ˈɣi.njə/ |
 | PATRO_NI | nigrochgina /nɪ.ɡrɔχ.ˈɡi.na/ | nighrukhghina /niɣ.rux.ˈɣi.na/ | nighroxghvinia /niɣrɔxɣviniɑ/ | njiegrochgienje /nji.ɣrɔx.ˈɣi.njə/ +1 |
 | DESC | drochgina /drɔχ.ˈɡi.na/ | ḍurukhghina /dˤu.rux.ˈɣi.na/ | droxghvinia /drɔxɣviniɑ/ | drochgienje /drɔx.ˈɣi.njə/ |
-| DESC+ADJ | drochginaaidd /drɔχ.ɡi.ˈna.aið/ | ḍurukhghini /dˤu.rux.ˈɣi.ni/ | droxghviniauli /drɔxɣviniɑuli/ | drochgienjeachtech /drɔx.ɣi.njə.ˈɑx.təx/ |
+| DESC+ADJ | drochginaaidd /drɔχ.ɡi.ˈnaː.aið/ | ḍurukhghini /dˤu.rux.ˈɣi.ni/ | droxghviniauli /drɔxɣviniɑuli/ | drochgienjeachtech /drɔx.ɣi.njə.ˈɑx.təx/ |
 | DESC+NOUN | drochgina /drɔχ.ˈɡi.na/ | ḍurukhghina /dˤu.rux.ˈɣi.na/ | droxghvinia /drɔxɣviniɑ/ | drochgienje /drɔx.ˈɣi.njə/ |
 
 ## drochbhéasach — ill-mannered
@@ -1793,7 +1793,7 @@ Irish: /ˈd̪ˠɾˠɔxˌvʲeːsəx/
 | PATRO_O | odrochfeseu /ɔ.drɔχ.ˈvɛ.səi/ | uḍrukhfeeṣay /ʔudˤ.rux.ˈfeː.sˤaj/ | odroxvesai /ɔdrɔxvɛsɑi/ | oodrochvjezej /oː.drɔx.ˈvjeː.zəj/ |
 | PATRO_NI | nigrochfeseu /nɪ.ɡrɔχ.ˈvɛ.səi/ | nighrukhfeeṣay /niɣ.rux.ˈfeː.sˤaj/ | nighroxvesai /niɣrɔxvɛsɑi/ | njiegrochvjezej /nji.ɣrɔx.ˈvjeː.zəj/ +1 |
 | DESC | drochfesach /drɔχ.ˈvɛ.saχ/ | ḍurukhfeeṣakh /dˤu.rux.ˈfeː.sˤax/ | droxvesax /drɔxvɛsɑx/ | drochvjezech /drɔx.ˈvjeː.zəx/ |
-| DESC+ADJ | drochfesachaidd /drɔχ.vɛ.ˈsa.χaið/ | ḍurukhfiṣakhi /dˤu.rux.fi.ˈsˤa.xi/ | droxvesaxuli /drɔxvɛsɑxuli/ | drochvjezechachtech /drɔx.vjeː.zə.ˈxɑx.təx/ |
+| DESC+ADJ | drochfesachaidd /drɔχ.vɛ.ˈsaː.χaið/ | ḍurukhfiṣakhi /dˤu.rux.fi.ˈsˤa.xi/ | droxvesaxuli /drɔxvɛsɑxuli/ | drochvjezechachtech /drɔx.vjeː.zə.ˈxɑx.təx/ |
 | DESC+NOUN | drochfesach /drɔχ.ˈvɛ.saχ/ | ḍurukhfiṣakha /dˤu.rux.fi.ˈsˤa.xa/ | droxvesaxi /drɔxvɛsɑxi/ | drochvjezech /drɔx.ˈvjeː.zəx/ |
 
 ## Fíor-Dhia — True God
@@ -1802,13 +1802,13 @@ Irish: /ˈfʲiːɾˠˈjiːə/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yiria /ə.ɪ.ˈrɪ.a/ | aʼiryiiʼa /ʔa.ʔir.ˈjiː.ʔa/ | airia /ɑiriɑ/ | eirjie /ˈɛi.rji/ +1 |
-| GEN | ffiria /fɪ.ˈrɪ.a/ | firyiiʼa /fir.ˈjiː.ʔa/ | piria /pʰiriɑ/ | fjierjie /ˈfji.rji/ +1 |
-| PATRO_O | offiria /ɔ.fɪ.ˈrɪ.a/ | ufiryiiʼa /ʔu.fir.ˈjiː.ʔa/ | opiria /ɔpʰiriɑ/ | oofjierjie /oː.ˈfji.rji/ +1 |
-| PATRO_NI | niiria /nɪ.ɪ.ˈrɪ.a/ | niʼiryiiʼa /ni.ʔir.ˈjiː.ʔa/ | niria /niriɑ/ | njiejierjie /nji.ˈji.rji/ +1 |
-| DESC | ffiria /fɪ.ˈrɪ.a/ | firyiiʼa /fir.ˈjiː.ʔa/ | piria /pʰiriɑ/ | fjierjie /ˈfji.rji/ +1 |
-| DESC+ADJ | ffiriaaidd /fɪ.rɪ.ˈa.aið/ | firyiiʼi /fir.ˈjiː.ʔi/ | piriauli /pʰiriɑuli/ | fjierjiejachtech /fji.rji.ˈjɑx.təx/ +1 |
-| DESC+NOUN | ffiria /fɪ.ˈrɪ.a/ | firyiiʼa /fir.ˈjiː.ʔa/ | piria /pʰiriɑ/ | fjierjie /ˈfji.rji/ +1 |
+| VOC | yiria /ə.ɪ.ˈriː.a/ | aʼiryiiʼa /ʔa.ʔir.ˈjiː.ʔa/ | airia /ɑiriɑ/ | eirjie /ˈɛi.rji/ +1 |
+| GEN | ffiria /fɪ.ˈriː.a/ | firyiiʼa /fir.ˈjiː.ʔa/ | piria /pʰiriɑ/ | fjierjie /ˈfji.rji/ +1 |
+| PATRO_O | offiria /ɔ.fɪ.ˈriː.a/ | ufiryiiʼa /ʔu.fir.ˈjiː.ʔa/ | opiria /ɔpʰiriɑ/ | oofjierjie /oː.ˈfji.rji/ +1 |
+| PATRO_NI | niiria /nɪ.ɪ.ˈriː.a/ | niʼiryiiʼa /ni.ʔir.ˈjiː.ʔa/ | niria /niriɑ/ | njiejierjie /nji.ˈji.rji/ +1 |
+| DESC | ffiria /fɪ.ˈriː.a/ | firyiiʼa /fir.ˈjiː.ʔa/ | piria /pʰiriɑ/ | fjierjie /ˈfji.rji/ +1 |
+| DESC+ADJ | ffiriaaidd /fɪ.rɪ.ˈaː.aið/ | firyiiʼi /fir.ˈjiː.ʔi/ | piriauli /pʰiriɑuli/ | fjierjiejachtech /fji.rji.ˈjɑx.təx/ +1 |
+| DESC+NOUN | ffiria /fɪ.ˈriː.a/ | firyiiʼa /fir.ˈjiː.ʔa/ | piria /pʰiriɑ/ | fjierjie /ˈfji.rji/ +1 |
 
 ## lagphortach — spent bog
 
@@ -1821,7 +1821,7 @@ Irish: /ˈl̪ˠaɡˌfˠɔɾˠt̪ˠəx/
 | PATRO_O | olagfforteu /ɔ.laɡ.ˈfɔr.təi/ | ulagfurṭay /ʔu.laɡ.ˈfur.tˤaj/ | olagport'ai /ɔlɑɡpʰɔrtʼɑi/ | oolachfortej /oː.lɑx.ˈfɔr.təj/ +1 |
 | PATRO_NI | nilagfforteu /nɪ.laɡ.ˈfɔr.təi/ | nilagfurṭay /ni.laɡ.ˈfur.tˤaj/ | nilagport'ai /nilɑɡpʰɔrtʼɑi/ | njielachfortej /nji.lɑx.ˈfɔr.təj/ +2 |
 | DESC | llagffortach /ɬaɡ.ˈfɔr.taχ/ | lagfurṭakh /laɡ.ˈfur.tˤax/ | lagport'ax /lɑɡpʰɔrtʼɑx/ | lachfortech /lɑx.ˈfɔr.təx/ +1 |
-| DESC+ADJ | llagffortachaidd /ɬaɡ.fɔr.ˈta.χaið/ | lagfurṭakhi /laɡ.fur.ˈtˤa.xi/ | lagport'axuli /lɑɡpʰɔrtʼɑxuli/ | lachfortechachtech /lɑx.fɔr.tə.ˈxɑx.təx/ +1 |
+| DESC+ADJ | llagffortachaidd /ɬaɡ.fɔr.ˈtaː.χaið/ | lagfurṭakhi /laɡ.fur.ˈtˤa.xi/ | lagport'axuli /lɑɡpʰɔrtʼɑxuli/ | lachfortechachtech /lɑx.fɔr.tə.ˈxɑx.təx/ +1 |
 | DESC+NOUN | llagffortach /ɬaɡ.ˈfɔr.taχ/ | lagfurṭakha /laɡ.fur.ˈtˤa.xa/ | lagport'axi /lɑɡpʰɔrtʼɑxi/ | lachfortech /lɑx.ˈfɔr.təx/ +1 |
 
 ## garmhac — grandson
@@ -1849,7 +1849,7 @@ Irish: /ˈkaːɾˠvʲalˠəx/
 | PATRO_O | ocarfaleu /ɔ.kar.ˈva.ləi/ | ukarfalay /ʔu.kar.ˈfa.laj/ | okarvialai /ɔkʰɑrviɑlɑi/ | ookaarvjallej /oː.kaːr.ˈvjɑ.ləj/ +1 |
 | PATRO_NI | nicharfaleu /nɪ.χar.ˈva.ləi/ | nikharfalay /ni.xar.ˈfa.laj/ | nixarvialai /nixɑrviɑlɑi/ | njiechaarvjallej /nji.xaːr.ˈvjɑ.ləj/ +2 |
 | DESC | carfalach /kar.ˈva.laχ/ | karfalakh /kar.ˈfa.lax/ | karvialax /kʰɑrviɑlɑx/ | kaarvjallech /kaːr.ˈvjɑ.ləx/ +1 |
-| DESC+ADJ | carfalachaidd /kar.va.ˈla.χaið/ | karfalakhi /kar.ˈfa.la.xi/ | karvialaxuli /kʰɑrviɑlɑxuli/ | kaarvjallechachtech /kaːr.vjɑ.lə.ˈxɑx.təx/ +1 |
+| DESC+ADJ | carfalachaidd /kar.va.ˈlaː.χaið/ | karfalakhi /kar.ˈfa.la.xi/ | karvialaxuli /kʰɑrviɑlɑxuli/ | kaarvjallechachtech /kaːr.vjɑ.lə.ˈxɑx.təx/ +1 |
 | DESC+NOUN | carfalach /kar.ˈva.laχ/ | karfalakha /kar.ˈfa.la.xa/ | karvialaxi /kʰɑrviɑlɑxi/ | kaarvjallech /kaːr.ˈvjɑ.ləx/ +1 |
 
 ## an-chiúin — very quiet
@@ -1877,7 +1877,7 @@ Irish: /ˈaːɾˠd̪ˠˈæsˠpˠəɡ/
 | PATRO_O | oardesbag /ɔ.ar.ˈdɛ.spaɡ/ | uʼarḍaṣbag /ʔu.ʔar.ˈdˤæsˤ.baɡ/ | oardvesp'ag /ɔɑrdvɛspʼɑɡ/ +1 | oowaardespech /oː.ʋaːr.ˈdɛ.spəx/ |
 | PATRO_NI | niardesbag /nɪ.ar.ˈdɛ.spaɡ/ | niʼarḍaṣbag /ni.ʔar.ˈdˤæsˤ.baɡ/ | niardvesp'ag /niɑrdvɛspʼɑɡ/ +1 | njiejaardespech /nji.jaːr.ˈdɛ.spəx/ +1 |
 | DESC | ardesbag /ar.ˈdɛ.spaɡ/ | arḍaṣbag /ʔar.ˈdˤæsˤ.baɡ/ | ardvesp'ag /ɑrdvɛspʼɑɡ/ +1 | aardespech /aːr.ˈdɛ.spəx/ |
-| DESC+ADJ | ardesbagaidd /ar.dɛ.ˈspa.ɡaið/ | arḍaṣbagi /ʔar.dˤæsˤ.ˈba.ɡi/ | ardvesp'aguli /ɑrdvɛspʼɑɡuli/ +1 | aardespechachtech /aːr.dɛ.spə.ˈxɑx.təx/ |
+| DESC+ADJ | ardesbagaidd /ar.dɛ.ˈspaː.ɡaið/ | arḍaṣbagi /ʔar.dˤæsˤ.ˈba.ɡi/ | ardvesp'aguli /ɑrdvɛspʼɑɡuli/ +1 | aardespechachtech /aːr.dɛ.spə.ˈxɑx.təx/ |
 | DESC+NOUN | ardesbag /ar.ˈdɛ.spaɡ/ | arḍaṣbaga /ʔar.dˤæsˤ.ˈba.ɡa/ | ardvesp'agi /ɑrdvɛspʼɑɡi/ +1 | aardespech /aːr.ˈdɛ.spəx/ |
 
 ## ardnósach — haughty
@@ -1891,7 +1891,7 @@ Irish: /ˈaːɾˠd̪ˠˌn̪ˠõːsəx/
 | PATRO_O | oardnoseu /ɔ.ard.ˈnɔ.səi/ | uʼarḍinooṣay /ʔu.ʔar.dˤi.ˈnoː.sˤaj/ +1 | oardnosai /ɔɑrdnɔsɑi/ +1 | oowaartnozej /oː.ʋaːrt.ˈnoː.zəj/ +1 |
 | PATRO_NI | niardnoseu /nɪ.ard.ˈnɔ.səi/ | niʼarḍinooṣay /ni.ʔar.dˤi.ˈnoː.sˤaj/ +1 | niardnosai /niɑrdnɔsɑi/ +1 | njiejaartnozej /nji.jaːrt.ˈnoː.zəj/ +2 |
 | DESC | ardnosach /ard.ˈnɔ.saχ/ | arḍinooṣakh /ʔar.dˤi.ˈnoː.sˤax/ +1 | ardnosax /ɑrdnɔsɑx/ +1 | aartnozech /aːrt.ˈnoː.zəx/ +1 |
-| DESC+ADJ | ardnosachaidd /ard.nɔ.ˈsa.χaið/ | arḍinuṣakhi /ʔar.dˤi.nu.ˈsˤa.xi/ +1 | ardnosaxuli /ɑrdnɔsɑxuli/ +1 | aartnozechachtech /aːrt.noː.zə.ˈxɑx.təx/ +1 |
+| DESC+ADJ | ardnosachaidd /ard.nɔ.ˈsaː.χaið/ | arḍinuṣakhi /ʔar.dˤi.nu.ˈsˤa.xi/ +1 | ardnosaxuli /ɑrdnɔsɑxuli/ +1 | aartnozechachtech /aːrt.noː.zə.ˈxɑx.təx/ +1 |
 | DESC+NOUN | ardnosach /ard.ˈnɔ.saχ/ | arḍinuṣakha /ʔar.dˤi.nu.ˈsˤa.xa/ +1 | ardnosaxi /ɑrdnɔsɑxi/ +1 | aartnozech /aːrt.ˈnoː.zəx/ +1 |
 
 ## an-mhaith — very good
@@ -1905,7 +1905,7 @@ Irish: /ˈanˈwa/
 | PATRO_O | oanwa /ɔ.ˈan.wa/ | uʼanwa /ʔu.ˈʔan.wa/ | oanva /ɔɑnvɑ/ | oowanwa /oː.ˈʋɑn.ʋɑ/ +1 |
 | PATRO_NI | nianwa /nɪ.ˈan.wa/ | niʼanwa /ni.ˈʔan.wa/ | nianva /niɑnvɑ/ | njiejanwa /nji.ˈjɑn.ʋɑ/ +2 |
 | DESC | anwa /ˈan.wa/ | anwa /ˈʔan.wa/ | anva /ɑnvɑ/ | anwa /ˈɑn.ʋɑ/ +1 |
-| DESC+ADJ | anwaaidd /an.ˈwa.aið/ | anwi /ˈʔan.wi/ | anvauri /ɑnvɑuri/ | anwaachtech /ɑn.ʋɑ.ˈɑx.təx/ +1 |
+| DESC+ADJ | anwaaidd /an.ˈwaː.aið/ | anwi /ˈʔan.wi/ | anvauri /ɑnvɑuri/ | anwaachtech /ɑn.ʋɑ.ˈɑx.təx/ +1 |
 | DESC+NOUN | anwa /ˈan.wa/ | anwa /ˈʔan.wa/ | anva /ɑnvɑ/ | anwa /ˈɑn.ʋɑ/ +1 |
 
 ## fíoruisce — spring water
@@ -1919,7 +1919,7 @@ Irish: /ˈfʲiːɾˠˌɪʃcə/
 | PATRO_O | offirisga /ɔ.fɪ.ˈrɪ.ska/ | ufirishka /ʔu.fi.ˈriʃ.ka/ | opirvyshk'ia /ɔpʰirviʃkʼiɑ/ | oofjieriskje /oː.fji.ˈrɪs.kjə/ +1 |
 | PATRO_NI | niirisga /nɪ.ɪ.ˈrɪ.ska/ | niʼirishka /ni.ʔi.ˈriʃ.ka/ | nirvyshk'ia /nirviʃkʼiɑ/ | njiejieriskje /nji.ji.ˈrɪs.kjə/ +1 |
 | DESC | ffirisga /fɪ.ˈrɪ.ska/ | firishka /fi.ˈriʃ.ka/ | pirvyshk'ia /pʰirviʃkʼiɑ/ | fjieriskje /fji.ˈrɪs.kjə/ +1 |
-| DESC+ADJ | ffirisgaaidd /fɪ.rɪ.ˈska.aið/ | firishki /fi.ˈriʃ.ki/ | pirvyshk'iauli /pʰirviʃkʼiɑuli/ | fjieriskjeachtech /fji.rɪs.kjə.ˈɑx.təx/ +1 |
+| DESC+ADJ | ffirisgaaidd /fɪ.rɪ.ˈskaː.aið/ | firishki /fi.ˈriʃ.ki/ | pirvyshk'iauli /pʰirviʃkʼiɑuli/ | fjieriskjeachtech /fji.rɪs.kjə.ˈɑx.təx/ +1 |
 | DESC+NOUN | ffirisga /fɪ.ˈrɪ.ska/ | firishka /fi.ˈriʃ.ka/ | pirvyshk'ia /pʰirviʃkʼiɑ/ | fjieriskje /fji.ˈrɪs.kjə/ +1 |
 
 ## borb — abrupt, fierce
@@ -1933,7 +1933,7 @@ Irish: /ˈbˠɔɾˠəbˠ/
 | PATRO_O | oborab /ɔ.ˈbɔ.rab/ | uburab /ʔu.ˈbu.rab/ | oborab /ɔbɔrɑb/ | ooborrep /oː.ˈbɔ.rəp/ |
 | PATRO_NI | niworab /nɪu.ˈɔ.rab/ | niwurab /ni.ˈwu.rab/ | nivorab /nivɔrɑb/ | njievorrep /nji.ˈvɔ.rəp/ +1 |
 | DESC | borab /ˈbɔ.rab/ | burab /ˈbu.rab/ | borab /bɔrɑb/ | borrep /ˈbɔ.rəp/ |
-| DESC+ADJ | borabaidd /bɔ.ˈra.baið/ | burabi /ˈbu.ra.bi/ | borabuli /bɔrɑbuli/ | borrepachtech /bɔ.rə.ˈpɑx.təx/ |
+| DESC+ADJ | borabaidd /bɔ.ˈraː.baið/ | burabi /ˈbu.ra.bi/ | borabuli /bɔrɑbuli/ | borrepachtech /bɔ.rə.ˈpɑx.təx/ |
 | DESC+NOUN | borab /ˈbɔ.rab/ | buraba /ˈbu.ra.ba/ | borabi /bɔrɑbi/ | borrep /ˈbɔ.rəp/ |
 
 ## fearg — anger
@@ -1947,7 +1947,7 @@ Irish: /ˈfʲaɾˠəɡ/
 | PATRO_O | offarag /ɔ.ˈfa.raɡ/ | ufarag /ʔu.ˈfa.raɡ/ | opiarag /ɔpʰiɑrɑɡ/ | oofjarrech /oː.ˈfjɑ.rəx/ +1 |
 | PATRO_NI | niarag /nɪ.ˈa.raɡ/ | niʼarag /ni.ˈʔa.raɡ/ | niarag /niɑrɑɡ/ | njiejarrech /nji.ˈjɑ.rəx/ +2 |
 | DESC | ffarag /ˈfa.raɡ/ | farag /ˈfa.raɡ/ | piarag /pʰiɑrɑɡ/ | fjarrech /ˈfjɑ.rəx/ +1 |
-| DESC+ADJ | ffaragaidd /fa.ˈra.ɡaið/ | faragi /ˈfa.ra.ɡi/ | piaraguli /pʰiɑrɑɡuli/ | fjarrechachtech /fjɑ.rə.ˈxɑx.təx/ +1 |
+| DESC+ADJ | ffaragaidd /fa.ˈraː.ɡaið/ | faragi /ˈfa.ra.ɡi/ | piaraguli /pʰiɑrɑɡuli/ | fjarrechachtech /fjɑ.rə.ˈxɑx.təx/ +1 |
 | DESC+NOUN | ffarag /ˈfa.raɡ/ | faraga /ˈfa.ra.ɡa/ | piaragi /pʰiɑrɑɡi/ | fjarrech /ˈfjɑ.rəx/ +1 |
 
 ## téarma — term
@@ -1961,7 +1961,7 @@ Irish: /ˈtʲeːɾˠmˠə/
 | PATRO_O | otserma /ɔ.ˈtʃɛr.ma/ | utirma /ʔu.ˈtir.ma/ | ocherma /ɔtʃʰɛrmɑ/ | ootjeerme /oː.ˈtjeːr.mə/ |
 | PATRO_NI | niherma /nɪ.ˈhɛr.ma/ | nihirma /ni.ˈhir.ma/ | niherma /nihɛrmɑ/ | njieheerme /nji.ˈheːr.mə/ +1 |
 | DESC | tserma /ˈtʃɛr.ma/ | tirma /ˈtir.ma/ | cherma /tʃʰɛrmɑ/ | tjeerme /ˈtjeːr.mə/ |
-| DESC+ADJ | tsermaaidd /tʃɛr.ˈma.aið/ | tirmi /ˈtir.mi/ | chermauli /tʃʰɛrmɑuli/ | tjeermeachtech /tjeːr.mə.ˈɑx.təx/ |
+| DESC+ADJ | tsermaaidd /tʃɛr.ˈmaː.aið/ | tirmi /ˈtir.mi/ | chermauli /tʃʰɛrmɑuli/ | tjeermeachtech /tjeːr.mə.ˈɑx.təx/ |
 | DESC+NOUN | tserma /ˈtʃɛr.ma/ | tirma /ˈtir.ma/ | cherma /tʃʰɛrmɑ/ | tjeerme /ˈtjeːr.mə/ |
 
 ## dualgas — duty
@@ -1989,7 +1989,7 @@ Irish: /ˈkaɾʲmʲəlʲiːtʲəx/
 | PATRO_O | ocarmylitseu /ɔ.kar.mə.ˈlɪ.tʃəi/ | ukarmaliitay /ʔu.kar.ma.ˈliː.taj/ | okarmialichiai /ɔkʰɑrmiɑlitʃʰiɑi/ | ookarmjeljietjej /oː.kɑr.mjə.ˈlji.tjəj/ +2 |
 | PATRO_NI | nicharmylitseu /nɪ.χar.mə.ˈlɪ.tʃəi/ | nikharmaliitay /ni.xar.ma.ˈliː.taj/ | nixarmialichiai /nixɑrmiɑlitʃʰiɑi/ | njiecharmjeljietjej /nji.xɑr.mjə.ˈlji.tjəj/ +2 |
 | DESC | carmylitsach /kar.mə.ˈlɪ.tʃaχ/ | karmaliitakh /kar.ma.ˈliː.tax/ | karmialichiax /kʰɑrmiɑlitʃʰiɑx/ | karmjeljietjech /kɑr.mjə.ˈlji.tjəx/ +2 |
-| DESC+ADJ | carmylitsachaidd /kar.mə.lɪ.ˈtʃa.χaið/ | karmalitakhi /kar.ma.li.ˈta.xi/ | karmialichiaxuli /kʰɑrmiɑlitʃʰiɑxuli/ | karmjeljietjechachtech /kɑr.mjə.lji.tjə.ˈxɑx.təx/ +2 |
+| DESC+ADJ | carmylitsachaidd /kar.mə.lɪ.ˈtʃaː.χaið/ | karmalitakhi /kar.ma.li.ˈta.xi/ | karmialichiaxuli /kʰɑrmiɑlitʃʰiɑxuli/ | karmjeljietjechachtech /kɑr.mjə.lji.tjə.ˈxɑx.təx/ +2 |
 | DESC+NOUN | carmylitsach /kar.mə.ˈlɪ.tʃaχ/ | karmalitakha /kar.ma.li.ˈta.xa/ | karmialichiaxi /kʰɑrmiɑlitʃʰiɑxi/ | karmjeljietjech /kɑr.mjə.ˈlji.tjəx/ +2 |
 
 ## seirbhís — service

@@ -246,9 +246,21 @@ def test_glide_next_to_its_own_vowel_drops():
 
 
 def test_unstressed_vowels_stay_short():
-    """§4.3 line 1063: long vowels are restricted to stressed syllables."""
+    """§4.3 line 1063: long vowels are restricted to stressed syllables [iosad2017 p.7];
+    "in unstressed syllables only short vowels may appear, regardless of what immediately
+    follows" [awbery1984 p.69].
+
+    Revised in digest revision 2. This test previously ran /tada/ and asserted no `aː` in
+    `segs[:-1]` — which covers the STRESSED penult as well, so it was really asserting the
+    old "penults stay short" reading. `awbery1984` p.72 overturns that (see §4.3B), and
+    /tada/ is now [ˈtaːda] on Awbery's own /'ka:der/ pattern. What the docstring actually
+    claims is tested here instead: the UNSTRESSED syllables are short."""
     segs = adapt([w("t̪ˠad̪ˠa")], TARGET, TABLE).words[0].segments           # tadau-type
-    assert "aː" not in segs[:-1]
+    assert segs == ("t", "aː", "d", "a"), segs      # penult long (class A /d/), ultima short
+    # a 3-syllable word: only the penult may be long, whatever follows the other vowels
+    segs = adapt([w("ad̪ˠad̪ˠaɡ")], TARGET, TABLE).words[0].segments
+    assert segs[0] == "a" and segs[-1] == "ɡ", segs           # antepenult short before /d/
+    assert segs.count("aː") == 1, segs
 
 
 def test_epithets_and_slot_mapping():
@@ -322,7 +334,10 @@ def test_degemination_is_encoded_over_repeated_segments():
     Limitation: digest line 508 gives only the orthographic pair cannu/canu — no attested
     IPA before/after pair exists for degemination, so the input here is synthetic."""
     word = adapt([w("pɔttada")], TARGET, TABLE).words[0]
-    assert "".join(word.segments) == "pɔtada", word.segments
+    # `taː` not `ta`: the stressed penult lengthens before class-A /d/ [awbery1984 p.71],
+    # digest §4.3B. The gemination collapse pɔ.tt- -> pɔ.t- is what this test is about.
+    assert "".join(word.segments) == "pɔtaːda", word.segments
+    assert "tt" not in "".join(word.segments)
 
 
 # ---- regression (Mode C; Mode E is empty for Welsh, I-25) ---------------------------------------
@@ -359,3 +374,171 @@ def test_modern_orthography_only_rows_are_skipped_not_compared():
 
 def test_ratchet_does_not_slip():
     assert_ratchet(run_regression("welsh", TABLE))
+
+
+# ---- awbery1984 (digest revision 2) --------------------------------------------------------------
+# `awbery1984` is now held in full (sources/welsh/awbery1984-digest.md) and is the primary source
+# for digest §2 and §4.3. These tests pin the claims that changed the rule file. Where Awbery
+# contradicts a decision or contradicts himself, the test asserts the DECISION and names the
+# conflict — it does not encode Awbery's side (digest §9 items 15–17).
+
+AWBERY_A = "b d ɡ v ð f θ χ".split()      # Fig. 1 class A, minus `zero`  [awbery1984 p.71]
+AWBERY_B = "m n ŋ l r".split()            # Fig. 1 class B — LONG OR SHORT, lexical
+AWBERY_C = "p t k".split()                # Fig. 1 class C, plus any cluster
+
+
+def test_southern_penult_carries_the_length_contrast():
+    """[awbery1984 p.72]: "in the south all stressed syllables — monosyllables, penultimates
+    and finals — behave alike". Table 2 [p.69] gives the penult column; Table 4 [p.74] grids
+    the South/North split. This closes digest §9 item 5 (was: CONFLICT with liu2018) and is
+    the one Awbery finding that changes generated names."""
+    # /'ka:der/ 'chair' [awbery1984 p.68] — class A /d/, single C, so LONG in the penult.
+    assert adapt([w("kader")], TARGET, TABLE).words[0].segments == ("k", "aː", "d", "ɛ", "r")
+
+
+@pytest.mark.parametrize("c", AWBERY_A)
+def test_penult_is_long_before_each_class_a_consonant(c):
+    """[awbery1984 p.68, p.71 Fig. 1 legend A]: /'ɬi:du/, /'e:de/, /'ka:der/, /'ko:di/,
+    /'bi:ðe/, /'kla:ði/, /'i:χel/, /'a:χos/ — voiced stops, voiced fricatives and /f θ χ/."""
+    segs = adapt([w("a" + c + "a")], TARGET, TABLE).words[0].segments
+    assert segs[0] == "aː", (c, segs)
+
+
+@pytest.mark.parametrize("c", AWBERY_C)
+def test_penult_is_short_before_each_class_c_stop(c):
+    """[awbery1984 p.68]: /'jɛte/ 'gates', /'ateb/ 'to answer', /'gʊter/ 'stream'."""
+    segs = adapt([w("a" + c + "a")], TARGET, TABLE).words[0].segments
+    assert segs[0] == "a", (c, segs)
+
+
+def test_penult_is_short_before_a_cluster():
+    """[awbery1984 p.66]: "the identity of the consonants making up the cluster is
+    irrelevant"; p.68 /'mɪɬtir/, /'daŋgos/, /'gɔrmod/."""
+    assert adapt([w("daŋɡos")], TARGET, TABLE).words[0].segments[1] == "a"
+    assert adapt([w("ɡormod")], TARGET, TABLE).words[0].segments[1] == "ɔ"
+
+
+def test_penult_is_short_before_s_and_ll_the_one_deviation():
+    """[awbery1984 p.69 Table 2, p.70]: THE single difference between a Southern monosyllable
+    and a Southern stressed penult. Monosyllable /gwe:ɬ/ long, penult /'dɪɬad/ short;
+    /'mɛsir/, /'lasog/, /'hɔson/ short before /s/."""
+    assert adapt([w("lasoɡ")], TARGET, TABLE).words[0].segments[1] == "a"
+    assert adapt([w("aɬad")], TARGET, TABLE).words[0].segments[0] == "a"
+    # ...while the monosyllable keeps the long vowel before the same segments (row 3).
+    assert adapt([w("ɡlas")], TARGET, TABLE).words[0].segments[2] == "aː"
+
+
+def test_open_penult_in_hiatus_is_long():
+    """[awbery1984 p.68]: class A includes `zero` — /'ɬi:en/ 'cloth', /'r̥e:ol/ 'rule',
+    /'bu:a/ 'bow'. Hiatus is two syllables (spec §12.J), so the penult is open."""
+    segs = adapt([w("bʊa")], TARGET, TABLE).words[0].segments
+    assert segs == ("b", "uː", "a"), segs           # /'bu:a/ — Welsh <w> is /ʊ uː/
+    assert adapt([w("ɬɪɛn")], TARGET, TABLE).words[0].segments[1] == "iː"    # /'ɬi:en/
+
+
+def test_penult_diphthong_first_element_stays_short():
+    """[awbery1984 p.97]: "in the south the first element of the diphthong is always short,
+    and glides appear to side rather unexpectedly with voiceless stops and consonant
+    clusters". The open-penult rule must not fire inside a nucleus."""
+    segs = adapt([w("kaura")], TARGET, TABLE).words[0].segments
+    assert "aː" not in segs, segs
+
+
+def test_length_before_final_m_and_ng_stays_short_despite_awberys_class_b():
+    """CONFLICT-Awb-3 (digest §9 item 15, §4.3A). Awbery's Fig. 1 legend puts /m ŋ/ in class B
+    (LONG OR SHORT); his own p.67 prose says long vowels before /m/ are "very few" and before
+    /ŋ/ absent, and he declines to classify the gap, adding that "accidental gaps will be
+    ignored in the body of this chapter". The digest's §4.3 row 4 and this rule file keep them
+    SHORT. Asserting the DECISION, not Awbery's legend."""
+    assert adapt([w("kam")], TARGET, TABLE).words[0].segments == ("k", "a", "m")
+    assert adapt([w("ɬoŋ")], TARGET, TABLE).words[0].segments == ("ɬ", "ɔ", "ŋ")
+    rows = [r for r in TARGET.sections["post-stress"] if "CONFLICT-Awb-3" in r.comment]
+    assert rows, "the /m ŋ/ conflict must be recorded on the rule lines that decide it"
+
+
+def test_no_cluster_contains_an_affricate():
+    """[awbery1984 p.103 n.6]: /tʃ/ and /dʒ/ "appear freely alone, but do not form clusters
+    with other consonants". Stronger than breit2019's historical point, and Southern."""
+    for cl in TARGET.syllable.onsets:
+        if len(cl) > 1:
+            assert not ({"tʃ", "dʒ"} & set(cl)), ("onset", cl)
+    for cl in TARGET.syllable.codas:
+        if len(cl) > 1:
+            assert not ({"tʃ", "dʒ"} & set(cl)), ("coda", cl)
+
+
+def test_obstruent_clusters_agree_in_voicing_so_sb_is_not_a_coda():
+    """CONFLICT-Awb-2 (digest §9 item 17, §2.3). [awbery1984 p.86]: obstruent clusters "must
+    agree in voicing; either both are voiced or both are voiceless". Welsh ⟨sb⟩ in *cosb* is
+    the SPELLING of /sp/ — §8.6's ⟨sb sg⟩ convention, already in [respell]. Revision 1 listed
+    `sb` as a coda on the strength of the orthographic form."""
+    assert ("s", "b") not in TARGET.syllable.coda_set
+    assert ("s", "p") in TARGET.syllable.coda_set
+    # the ⟨sb⟩ spelling is still produced, from the /sp/ coda
+    assert adapt([w("kosp")], TARGET, TABLE).respelling.endswith("sb")
+
+
+def test_no_final_obstruent_sonorant_cluster():
+    """[awbery1984 p.87 Table 6] bars O+S finally; [p.90 Table 9] shows the ban is total in
+    the South across all four subtypes (fricative/stop x nasal/liquid), /'banadl/ aside.
+    Every listed coda cluster must therefore end in an obstruent or be S+S."""
+    son = set("m n ŋ l r ɬ w j".split())
+    obs = set("p b t d k ɡ tʃ dʒ f v θ ð s ʃ χ z".split())
+    for cl in TARGET.syllable.codas:
+        if len(cl) > 1 and cl[0] in obs:
+            assert cl[-1] in obs, ("O+S coda is barred in the South", cl)
+
+
+def test_southern_initial_glide_clusters_are_awberys_set():
+    """[awbery1984 p.100]: "in most of south Wales only /h/, /k/ and /g/ may precede /w/, and
+    only /d/ may precede /j/" — /hwe:χ/, /gwin/, /'kwa:rel/, /djawl/. [p.99]: the only CCG
+    initials are /gwl/, /gwr/, /gwn/, which Awbery treats as real clusters (underlyingly
+    /glw grw gnw/), settling revision 1's 'D — DISPUTED ANALYSIS' row for them."""
+    for cl in ("ɡw", "kw", "hw"):
+        assert tuple(cl) in TARGET.syllable.onset_set, cl
+    for cl in ("ɡwl", "ɡwr", "ɡwn"):
+        assert tuple(cl) in TARGET.syllable.onset_set, cl
+
+
+def test_initial_sonorant_clusters_are_mutation_only_and_awbery_licenses_the_carve_out():
+    """[awbery1984 p.87 Table 6] bars S+S and S+O initially — which would delete every
+    mutation onset the plan's Known Deviation 9 (b) admits. [awbery1984 p.103 n.7] is the
+    exemption, and it is explicit: "we are referring here only to the BASIC UNMUTATED FORMS
+    of words. Where mutations have applied then of course a rather different range of
+    consonants is permitted." The coordinator ruling stands; it now has a citation."""
+    for cl in "ml mr nl nr ŋl ŋr wl wr wn".split():
+        assert tuple(cl) in TARGET.syllable.onset_set, cl
+    assert TARGET.syllable.onset_tiers[tuple("ml")] == "B"
+
+
+def test_word_initial_chi_eth_and_eng_are_mutation_only_singletons():
+    """[awbery1984 p.83 Table 5]: /χ/, /ð/ and /ŋ/ are circled — barred word-initially — in
+    basic unmutated forms. They stay in `onsets` because [p.103 n.7] exempts mutation output,
+    and Welsh's aspirate/soft/nasal mutations produce exactly these three."""
+    for seg in ("χ", "ð", "ŋ"):
+        assert (seg,) in TARGET.syllable.onset_set, seg
+    r = adapt([w("xaː")], TARGET, TABLE)                 # ei chath — aspirate mutation of /k/
+    assert r.words[0].segments[0] == "χ" and "UNREPAIRED" not in r.flags
+
+
+def test_no_long_vowel_survives_outside_the_stressed_syllable():
+    """[awbery1984 p.69]: "in unstressed syllables only short vowels may appear, regardless of
+    what immediately follows". The penult rules above can create length, and affixing an
+    epithet re-runs stress on a longer word (spec §4.6, digest §4.4 knock-on ii) — so a vowel
+    lengthened as the penult of the bare stem must shorten when it becomes an antepenult.
+    Regression for the bug the §4.3B change exposed: oan [ˈoːan] but oanaidd [ɔˈanaið]."""
+    assert adapt([w("oan")], TARGET, TABLE).words[0].segments == ("oː", "a", "n")
+    r = run_entry(entry_of(_row("Eoghan")), "DESC+ADJ", IRISH, TARGET, TABLE)
+    assert "oː" not in r.words[0].segments, r.words[0].segments
+    for row in read_test_words():
+        for tag in ("DESC", "DESC+ADJ"):
+            res = run_entry(entry_of(row), tag, IRISH, TARGET, TABLE)
+            for word in res.words:
+                longs = [i for i, s in enumerate(word.segments) if s.endswith("ː")]
+                if not longs or word.stress is None:
+                    continue
+                start = word.syllables[word.stress]
+                stop = (word.syllables[word.stress + 1]
+                        if word.stress + 1 < len(word.syllables) else len(word.segments))
+                assert all(start <= i < stop for i in longs), \
+                    (row["orthography"], tag, word.segments, word.stress)

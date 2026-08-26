@@ -198,14 +198,37 @@ nuclei   = ai ɔi əi ʊi au ɛu əu ɪu
 #   C  fr — §2.2 line 370 (the emended [pr] of breit2019 p.252); also the aspirate mutation
 #      of pr (ei phrawd) and the modern row ffres [ˈfrɛs] (§4.3 line 1152).
 #   D  ɡwl ɡwr ɡwn χw — §2.2 lines 376–377 (gwlad, gwraig, gwneud, chwech).
+#   awbery1984 (digest revision 2, §2.2A) — the Southern C+G set is STATED: "in most of south
+#   Wales only /h/, /k/ and /g/ may precede /w/, and only /d/ may precede /j/" [p.100], so
+#   kw and hw are added (tier A); /dj/ is "very marginal and is often replaced by the
+#   affricate /dʒ/" [p.100] and [substitute] already sends dʲ -> dʒ, so no dj onset. The only
+#   CCG initials are ɡwl ɡwr ɡwn [p.99], which Awbery treats as REAL clusters (underlyingly
+#   /glw grw gnw/, the glide "attracted to a position between the other two consonants") —
+#   that settles the digest's tier-D "disputed analysis" row for them, though the tier letters
+#   are left as revision 1 wrote them (digest-log revision 2, "where I did not follow").
+#   χw is kept: Awbery p.100 makes it Northern against Southern hw, but wiki-cy-phon has a
+#   Southern [ʍ] realisation of the same initial — three partial descriptions, recorded as
+#   CONFLICT-Awb-1 (digest §9 item 16) and not acted on, since the choice is a romanization
+#   question. Table 6 [p.87] bars S+S and S+O initially and Table 5 [p.83] bars word-initial
+#   /χ ð ŋ/ — both are lifted for mutation output by note 7 [p.103]: "we are referring here
+#   only to the basic unmutated forms of words. Where mutations have applied then of course a
+#   rather different range of consonants is permitted." That is the citation the coordinator
+#   ruling (b) did not have; the ruling is unchanged.
 #   Tier E (§2.2 line 400) sm sn are NOT onsets: they take the prothetic vowel (decision 15,
 #   Morris Jones's wider scope — see [repair]). θr χr χl are admitted under B, not E.
-onsets   = p b t d k ɡ tʃ dʒ m n ŋ f v θ ð s ʃ χ h ɬ l r r̥ w j z m̥ n̥ ŋ̥ fl tl pr sl sr st sp sk stl spr skl pl br bl tr dr kr kl ɡr ɡl θr str dl ɡn kn ɡw ml mr nr nl ŋl ŋr χr χl vr vl ðr ðl wl wr wn fr ɡwl ɡwr ɡwn χw
-onsets-tier = fl:A tl:A pr:A sl:A sr:A st:A sp:A sk:A stl:A spr:A skl:A pl:A br:A bl:A tr:A dr:A kr:A kl:A ɡr:A ɡl:A θr:A str:B dl:B ɡn:B kn:B ɡw:B ml:B mr:B nr:B nl:B ŋl:B ŋr:B χr:B χl:B vr:B vl:B ðr:B ðl:B wl:B wr:B wn:B fr:C ɡwl:D ɡwr:D ɡwn:D χw:D
+onsets   = p b t d k ɡ tʃ dʒ m n ŋ f v θ ð s ʃ χ h ɬ l r r̥ w j z m̥ n̥ ŋ̥ fl tl pr sl sr st sp sk stl spr skl pl br bl tr dr kr kl ɡr ɡl θr str dl ɡn kn ɡw kw hw ml mr nr nl ŋl ŋr χr χl vr vl ðr ðl wl wr wn fr ɡwl ɡwr ɡwn χw
+onsets-tier = fl:A tl:A pr:A sl:A sr:A st:A sp:A sk:A stl:A spr:A skl:A pl:A br:A bl:A tr:A dr:A kr:A kl:A ɡr:A ɡl:A θr:A str:B dl:B ɡn:B kn:B ɡw:B kw:A hw:A ml:B mr:B nr:B nl:B ŋl:B ŋr:B χr:B χl:B vr:B vl:B ðr:B ðl:B wl:B wr:B wn:B fr:C ɡwl:D ɡwr:D ɡwn:D χw:D
 # Complete coda set. Singletons: every consonant may end a word except /h/ (§2.5 line 509
 # "not found finally in any word"), /r̥/ (§2.5 line 507 "never word-final") and the
 # mutation-initial voiceless nasals (§2.5 line 513); /w j/ close a syllable in §4.3 line 1080.
-# Clusters: digest §2.3 tier B (lines 438–448) — rð nt st rf ɬt sk sb lχ ft sp; the digest's
+# awbery1984 (digest revision 2, §2.2A): the coda list is licensed as a CLASS by Table 6
+# [awbery1984 p.87] — final O+O, S+S and S+O are all licit — with Table 9 [p.90] showing the
+# O+S ban is TOTAL in the South (all four of fricative/stop x nasal/liquid), /ˈbanadl/ aside.
+# Every cluster below is O+O, S+S or S+O, so Awbery licenses the list; the Northern template
+# of [jipa-north p.506] is no longer what it rests on. `sb` was REMOVED in revision 2: it
+# violates Awbery's voicing-agreement constraint on obstruent clusters [p.86], and Welsh ⟨sb⟩
+# in cosb is the SPELLING of /sp/ (the [respell] rule p -> "b" / s _, digest §8.6 line 1632).
+# Clusters: digest §2.3 tier B (lines 438–448) — rð nt st rf ɬt sk lχ ft sp; the digest's
 # str and ŋkr are omitted: it cites them "precisely as a word that is repaired" (line 446)
 # and "(North; Southern epenthesises)" (line 445). Added with the same B evidence: ns (lwans
 # [ˈluːans], §2.5 line 524 [wood1988 p.231]; §3.3 line 774 trespans), nz (jîns [dʒɪnz], §3.4
@@ -220,8 +243,8 @@ onsets-tier = fl:A tl:A pr:A sl:A sr:A st:A sp:A sk:A stl:A spr:A skl:A pl:A br:
 # §3.3 line 741), mp (chwimp, swmp — §3.3 line 773 [parry1923 §130] "∅ → p / m _ #"); rd rk rχ
 # lb lɡ ls on the class statement alone. Final rd/nd/ld are reshaped first by the [repair]
 # word-edge rules (§3.3 lines 745–758), so rd is effectively a medial coda (ardd-).
-codas    = p b t d k ɡ tʃ dʒ m n ŋ f v θ ð s ʃ χ ɬ l r w j z rð nt st rf ɬt sk sb lχ ft sp ns nz rθ rt rd rk rs rχ rn lk lm lb lɡ ls nd ŋk mp
-codas-tier = rð:B nt:B st:B rf:B ɬt:B sk:B sb:B lχ:B ft:B sp:B ns:B nz:B rθ:B rt:B rd:A rk:A rs:A rχ:A rn:A lk:A lm:A lb:A lɡ:A ls:A nd:A ŋk:A mp:A
+codas    = p b t d k ɡ tʃ dʒ m n ŋ f v θ ð s ʃ χ ɬ l r w j z rð nt st rf ɬt sk lχ ft sp ns nz rθ rt rd rk rs rχ rn lk lm lb lɡ ls nd ŋk mp
+codas-tier = rð:B nt:B st:B rf:B ɬt:B sk:B lχ:B ft:B sp:B ns:B nz:B rθ:B rt:B rd:A rk:A rs:A rχ:A rn:A lk:A lm:A lb:A lɡ:A ls:A nd:A ŋk:A mp:A
 onset-required = no
 domain   = word
 # Spec §7 has sonority on; the plan (R17b) tags it %design: §2.2 never mentions sonority and
@@ -339,11 +362,16 @@ a -> aː / ˈ C* _ {s ʃ ɬ} #              %attested # digest §4.3 line 1078 [
 ʊ -> uː / ˈ C* _ {s ʃ ɬ} #              %attested # digest §4.3 line 1078 [iosad2017 p.8] (South)
 # Row 4 — V → V / ˈ_ {pʰ tʰ kʰ m ŋ} #   twp, clap, cam, trwm, llong, sang   (line 1079); the
 # fortis stops are written p t k in this file ([inventory] note).
-iː -> ɪ / ˈ C* _ {p t k m ŋ} #          %attested # digest §4.3 line 1079 [iosad2017 p.8]
-eː -> ɛ / ˈ C* _ {p t k m ŋ} #          %attested # digest §4.3 line 1079 [iosad2017 p.8]
-aː -> a / ˈ C* _ {p t k m ŋ} #          %attested # digest §4.3 line 1079 [iosad2017 p.8]
-oː -> ɔ / ˈ C* _ {p t k m ŋ} #          %attested # digest §4.3 line 1079 [iosad2017 p.8]
-uː -> ʊ / ˈ C* _ {p t k m ŋ} #          %attested # digest §4.3 line 1079 [iosad2017 p.8]
+# CONFLICT-Awb-3 (digest §4.3A, §9 item 15): awbery1984's Fig. 1 legend puts /m ŋ/ in class B
+# (LONG OR SHORT, lexical), not with the fortis stops in class C. His own p.67 prose says long
+# vowels before /m/ are "very few" and before /ŋ/ absent, and he declines to decide whether the
+# gap is systematic or accidental — "accidental gaps will be ignored in the body of this
+# chapter". Source contradicts itself; the digest's row 4 and these lines keep SHORT.
+iː -> ɪ / ˈ C* _ {p t k m ŋ} #          %attested # digest §4.3 line 1079 [iosad2017 p.8]; CONFLICT-Awb-3 [awbery1984 p.71 Fig.1 B vs p.67]
+eː -> ɛ / ˈ C* _ {p t k m ŋ} #          %attested # digest §4.3 line 1079 [iosad2017 p.8]; CONFLICT-Awb-3 [awbery1984 p.71 Fig.1 B vs p.67]
+aː -> a / ˈ C* _ {p t k m ŋ} #          %attested # digest §4.3 line 1079 [iosad2017 p.8]; CONFLICT-Awb-3 [awbery1984 p.71 Fig.1 B vs p.67]
+oː -> ɔ / ˈ C* _ {p t k m ŋ} #          %attested # digest §4.3 line 1079 [iosad2017 p.8]; CONFLICT-Awb-3 [awbery1984 p.71 Fig.1 B vs p.67]
+uː -> ʊ / ˈ C* _ {p t k m ŋ} #          %attested # digest §4.3 line 1079 [iosad2017 p.8]; CONFLICT-Awb-3 [awbery1984 p.71 Fig.1 B vs p.67]
 # Row 5 — V → V / ˈ_ {w j}   SOUTH: always short   (line 1080)
 iː -> ɪ / ˈ C* _ {w j}                  %attested # digest §4.3 line 1080 [iosad2017 p.8] (South)
 eː -> ɛ / ˈ C* _ {w j}                  %attested # digest §4.3 line 1080 [iosad2017 p.8] (South)
@@ -369,6 +397,53 @@ eː -> ɛ / V C* . C* _ {n l r} #            %attested # digest §4.3 line 1063 
 aː -> a / V C* . C* _ {n l r} #            %attested # digest §4.3 line 1063 [iosad2017 p.7]
 oː -> ɔ / V C* . C* _ {n l r} #            %attested # digest §4.3 line 1063 [iosad2017 p.7]
 uː -> ʊ / V C* . C* _ {n l r} #            %attested # digest §4.3 line 1063 [iosad2017 p.7]
+# --- STRESSED PENULTS (awbery1984; digest §4.3B) ------------------------------------------
+# Added in digest revision 2. The seven rows above are Fig. 1's WORD-FINAL branch. Awbery's
+# tree applies to every stressed syllable, and [awbery1984 p.72] states the consequence flatly:
+# "in the south all stressed syllables — monosyllables, penultimates and finals — behave alike.
+# Before a single sonorant vowel length is contrastive; elsewhere the choice of a long or short
+# vowel is predictable from what immediately follows." Table 2 [p.69] gives the penult column
+# and Table 4 [p.74] grids the South/North split (North: penults short unconditionally).
+# This REPLACES the previous "stressed penults are left short" reading, which was written to
+# the liu2018 side of a digest CONFLICT that awbery1984 now settles (digest §9 item 5).
+#
+# Only the LONG environments need rules: under L1 ([substitute]) every vowel arrives short.
+#   class A  {b d ɡ v ð f θ χ}, single C then a vowel  -> LONG  ('ka:der, 'i:χel, 'kla:ði)
+#   class A  `zero`, i.e. an OPEN penult in hiatus     -> LONG  ('bu:a, 'ɬi:en, 'r̥e:ol)
+#   class B  {m n ŋ l r} -> lexical; arrives short and stays short, as in the final syllable
+#   class C  {p t k} and any cluster -> SHORT, and /s ʃ ɬ/ -> SHORT in a penult (Table 2's one
+#            monosyllable/penult difference, p.70) — all already short on arrival, no rule
+# The `.` after `_` is what makes these penult-only and cluster-safe: a single medial C is the
+# next syllable's onset (digest §2.4 line 466 [morrisjones1913 §27 i]), so `_ . C V` matches
+# exactly one following consonant, while a cluster ('daŋgos, 'mɪɬtir) closes the penult and
+# leaves no boundary there. It also keeps the hiatus rule out of a diphthong nucleus, whose
+# two vowels have no boundary between them — the Southern diphthong's first element is always
+# short [awbery1984 p.97].
+ɪ -> iː / ˈ C* _ . {b d ɡ v ð f θ χ} V  %attested # digest §4.3B [awbery1984 p.71 Fig.1 A; p.68]
+ɛ -> eː / ˈ C* _ . {b d ɡ v ð f θ χ} V  %attested # digest §4.3B [awbery1984 p.71 Fig.1 A; p.68]
+a -> aː / ˈ C* _ . {b d ɡ v ð f θ χ} V  %attested # digest §4.3B [awbery1984 p.71 Fig.1 A; p.68]
+ɔ -> oː / ˈ C* _ . {b d ɡ v ð f θ χ} V  %attested # digest §4.3B [awbery1984 p.71 Fig.1 A; p.68]
+ʊ -> uː / ˈ C* _ . {b d ɡ v ð f θ χ} V  %attested # digest §4.3B [awbery1984 p.71 Fig.1 A; p.68]
+ɪ -> iː / ˈ C* _ . V                    %attested # digest §4.3B [awbery1984 p.71 Fig.1 A "zero"; p.68 'ɬi:en]
+ɛ -> eː / ˈ C* _ . V                    %attested # digest §4.3B [awbery1984 p.71 Fig.1 A "zero"; p.68 'r̥e:ol]
+a -> aː / ˈ C* _ . V                    %attested # digest §4.3B [awbery1984 p.71 Fig.1 A "zero"; p.68]
+ɔ -> oː / ˈ C* _ . V                    %attested # digest §4.3B [awbery1984 p.71 Fig.1 A "zero"; p.68]
+ʊ -> uː / ˈ C* _ . V                    %attested # digest §4.3B [awbery1984 p.71 Fig.1 A "zero"; p.68 'bu:a]
+# --- unstressed syllables are short, restated for the epithet re-run ----------------------
+# "In unstressed syllables only short vowels may appear, regardless of what immediately
+# follows" [awbery1984 p.69]; digest §4.3 line 1063 [iosad2017 p.7]. Needed only because the
+# penult rules above can now create length: affixing an epithet re-runs syllabify/stress/
+# post-stress on the longer word (spec §4.6), so a vowel legitimately lengthened as the penult
+# of the bare stem (oan [ˈoːan]) becomes an antepenult (oanaidd) and must shorten again —
+# digest §4.4's knock-on (ii), "adding an epithet suffix re-runs stress and therefore re-runs
+# length". `_ C* . C* V C* .` = at least two syllables follow, which under penultimate stress
+# is exactly the set of syllables before the stressed one. Ordered last so it cleans up after
+# the lengthening rules; the penult itself has only one following syllable and never matches.
+iː -> ɪ / _ C* . C* V C* .              %attested # digest §4.3 line 1063 [awbery1984 p.69; iosad2017 p.7]
+eː -> ɛ / _ C* . C* V C* .              %attested # digest §4.3 line 1063 [awbery1984 p.69; iosad2017 p.7]
+aː -> a / _ C* . C* V C* .              %attested # digest §4.3 line 1063 [awbery1984 p.69; iosad2017 p.7]
+oː -> ɔ / _ C* . C* V C* .              %attested # digest §4.3 line 1063 [awbery1984 p.69; iosad2017 p.7]
+uː -> ʊ / _ C* . C* V C* .              %attested # digest §4.3 line 1063 [awbery1984 p.69; iosad2017 p.7]
 
 [epithets]
 # digest §6 lines 1298–1316 [morrisjones1913 §153, §126]: ten rows, eight suffixes; seven are
