@@ -20,7 +20,9 @@ Readings the digest leaves open (kept as simple as possible):
   before it is simply skipped by the later steps.
 - Steps 3–5 need a penult/antepenult; a monosyllable stresses its only syllable and a
   disyllable's step 4 (no antepenult) falls to step 5.
-- Step 6 clamps the result rightwards into the window, skipping schwa syllables.
+- Step 6 clamps the result rightwards into the window, and step 1's ban on stressing
+  schwa is enforced at every candidate: a schwa syllable is never returned while the
+  word has a non-schwa one (see `_clamp`).
 """
 from __future__ import annotations
 
@@ -94,7 +96,7 @@ def dutch_weight(word: Word, spec: StressSpec, table: FeatureTable) -> int | Non
                     return _clamp(word, t, lo)
     # step 2: superheavy or diphthong-final
     if _superheavy(word, final, table) or _is_diphthong(word, final):
-        return final
+        return _clamp(word, final, lo)
     if n == 1:
         return 0
     # step 3: closed penult with a full vowel
@@ -109,10 +111,26 @@ def dutch_weight(word: Word, spec: StressSpec, table: FeatureTable) -> int | Non
 
 
 def _clamp(word: Word, i: int, lo: int) -> int:
-    """Step 6: move a too-far-left result rightwards into the window, skipping schwa."""
-    if i >= lo:
+    """Step 6 plus step 1's standing ban: move a too-far-left result rightwards into the
+    window, and never return a schwa syllable.
+
+    Step 1 only triggers on a schwa syllable at index >= 1, so a WORD-INITIAL schwa reaches
+    steps 2-5 and can be chosen there (*an bhean* /ənvjɑn/: the schwa is the penult, and
+    step 5 took it). Dutch never stresses schwa, so the candidate moves to the nearest
+    non-schwa syllable — leftwards first, as step 1 prefers the syllable before the schwa,
+    then rightwards. A word with no non-schwa syllable at all keeps the candidate; there is
+    nowhere to move it to and every word needs exactly one stress."""
+    if i < lo:
+        i = lo
+    if not _has_schwa(word, i):
         return i
-    for t in range(lo, len(word.syllables)):
+    for t in range(i - 1, lo - 1, -1):
+        if not _has_schwa(word, t):
+            return t
+    for t in range(i + 1, len(word.syllables)):
+        if not _has_schwa(word, t):
+            return t
+    for t in range(lo - 1, -1, -1):
         if not _has_schwa(word, t):
             return t
     return i

@@ -150,7 +150,7 @@ Irish: /fʲʊn̪ˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ywn /ˈə.ʊn/ | aaʼun /ˈʔaː.ʔun/ | aun /ɑun/ | eun /ˈə.ʏn/ +1 |
+| VOC | ywn /ˈə.ʊn/ | aaʼun /ˈʔaː.ʔun/ | aun /ɑun/ | eun /ə.ˈʏn/ +1 |
 | GEN | ffwn /ˈfʊn/ | fun /ˈfun/ | piun /pʰiun/ | fjun /ˈfjʏn/ +1 |
 | PATRO_O | offwn /ˈɔ.fʊn/ | oofun /ˈʔoː.fun/ | opiun /ɔpʰiun/ | oofjun /ˈoː.fjʏn/ +1 |
 | PATRO_NI | niwn /ˈnɪ.ʊn/ | niiʼun /ˈniː.ʔun/ | niun /niun/ | njiejun /ˈnji.jʏn/ +2 |
@@ -472,7 +472,7 @@ Irish: /bʲanˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yfin /ˈə.vɪn/ | aafin /ˈʔaː.fin/ | avyn /ɑvin/ | evjin /ˈə.vjɪn/ |
+| VOC | yfin /ˈə.vɪn/ | aafin /ˈʔaː.fin/ | avyn /ɑvin/ | evjin /ə.ˈvjɪn/ |
 | GEN | bin /ˈbɪn/ | bin /ˈbin/ | bin /bin/ | bjin /ˈbjɪn/ |
 | PATRO_O | obin /ˈɔ.bɪn/ | oobin /ˈʔoː.bin/ | obyn /ɔbin/ | oobjin /ˈoː.bjɪn/ |
 | PATRO_NI | nifin /ˈnɪ.vɪn/ | niifin /ˈniː.fin/ | nivyn /nivin/ | njievjin /ˈnji.vjɪn/ +1 |
@@ -486,7 +486,7 @@ Irish: /vʲanˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yfin /ˈə.vɪn/ | aafin /ˈʔaː.fin/ | avyn /ɑvin/ | evjin /ˈə.vjɪn/ |
+| VOC | yfin /ˈə.vɪn/ | aafin /ˈʔaː.fin/ | avyn /ɑvin/ | evjin /ə.ˈvjɪn/ |
 | GEN | fin /ˈvɪn/ | fin /ˈfin/ | vin /vin/ | vjin /ˈvjɪn/ |
 | PATRO_O | ofin /ˈɔ.vɪn/ | oofin /ˈʔoː.fin/ | ovyn /ɔvin/ | oovjin /ˈoː.vjɪn/ |
 | PATRO_NI | nifin /ˈnɪ.vɪn/ | niifin /ˈniː.fin/ | nivyn /nivin/ | njievjin /ˈnji.vjɪn/ +1 |
@@ -500,7 +500,7 @@ Irish: /mʲanˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yfin /ˈə.vɪn/ | aafin /ˈʔaː.fin/ | avyn /ɑvin/ | evjin /ˈə.vjɪn/ |
+| VOC | yfin /ˈə.vɪn/ | aafin /ˈʔaː.fin/ | avyn /ɑvin/ | evjin /ə.ˈvjɪn/ |
 | GEN | min /ˈmɪn/ | min /ˈmin/ | min /min/ | mjin /ˈmjɪn/ |
 | PATRO_O | omin /ˈɔ.mɪn/ | oomin /ˈʔoː.min/ | omyn /ɔmin/ | oomjin /ˈoː.mjɪn/ |
 | PATRO_NI | nifin /ˈnɪ.vɪn/ | niifin /ˈniː.fin/ | nivyn /nivin/ | njievjin /ˈnji.vjɪn/ +1 |
@@ -710,7 +710,7 @@ Irish: /tʲax/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yhach /ˈə.haχ/ | aahakh /ˈʔaː.hax/ | ahax /ɑhɑx/ | ehach /ˈə.hɑx/ +1 |
+| VOC | yhach /ˈə.haχ/ | aahakh /ˈʔaː.hax/ | ahax /ɑhɑx/ | ehach /ə.ˈhɑx/ +1 |
 | GEN | tsach /ˈtʃaːχ/ | takh /ˈtax/ | chiax /tʃʰiɑx/ | tjach /ˈtjɑx/ +1 |
 | PATRO_O | otsach /ˈɔ.tʃaχ/ | ootakh /ˈʔoː.tax/ | ochiax /ɔtʃʰiɑx/ | ootjach /ˈoː.tjɑx/ +1 |
 | PATRO_NI | nihach /ˈnɪ.haχ/ | niihakh /ˈniː.hax/ | nihax /nihɑx/ | njiehach /ˈnji.hɑx/ +2 |
@@ -724,7 +724,7 @@ Irish: /hax/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yhach /ˈə.haχ/ | aahakh /ˈʔaː.hax/ | ahax /ɑhɑx/ | ehach /ˈə.hɑx/ +1 |
+| VOC | yhach /ˈə.haχ/ | aahakh /ˈʔaː.hax/ | ahax /ɑhɑx/ | ehach /ə.ˈhɑx/ +1 |
 | GEN | hach /ˈhaːχ/ | hakh /ˈhax/ | hax /hɑx/ | hach /ˈhɑx/ +1 |
 | PATRO_O | ohach /ˈɔ.haχ/ | oohakh /ˈʔoː.hax/ | ohax /ɔhɑx/ | oohach /ˈoː.hɑx/ +1 |
 | PATRO_NI | nihach /ˈnɪ.haχ/ | niihakh /ˈniː.hax/ | nihax /nihɑx/ | njiehach /ˈnji.hɑx/ +2 |
@@ -738,7 +738,7 @@ Irish: /dʲax/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | euach /ˈəi.aχ/ | aayakh /ˈʔaː.jax/ | aiax /ɑiɑx/ | ejach /ˈə.jɑx/ +1 |
+| VOC | euach /ˈəi.aχ/ | aayakh /ˈʔaː.jax/ | aiax /ɑiɑx/ | ejach /ə.ˈjɑx/ +1 |
 | GEN | jach /ˈdʒaːχ/ | dakh /ˈdax/ | jiax /dʒiɑx/ | djach /ˈdjɑx/ +1 |
 | PATRO_O | ojach /ˈɔ.dʒaχ/ | oodakh /ˈʔoː.dax/ | ojiax /ɔdʒiɑx/ | oodjach /ˈoː.djɑx/ +1 |
 | PATRO_NI | niach /ˈnɪ.aχ/ | niiyakh /ˈniː.jax/ | niax /niɑx/ | njiejach /ˈnji.jɑx/ +2 |
@@ -934,13 +934,13 @@ Irish: /ən̪ˠ vʲanˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yynfin /ə.ˈən.vɪn/ | aʼanfin /ʔa.ˈʔan.fin/ | aanvyn /ɑɑnvin/ | eenvjin /ə.ˈən.vjɪn/ |
-| GEN | ynfin /ˈən.vɪn/ | anfin /ˈʔan.fin/ | anvyn /ɑnvin/ | envjin /ˈən.vjɪn/ |
+| VOC | yynfin /ə.ˈən.vɪn/ | aʼanfin /ʔa.ˈʔan.fin/ | aanvyn /ɑɑnvin/ | eenvjin /ə.ən.ˈvjɪn/ |
+| GEN | ynfin /ˈən.vɪn/ | anfin /ˈʔan.fin/ | anvyn /ɑnvin/ | envjin /ən.ˈvjɪn/ |
 | PATRO_O | oynfin /ɔ.ˈən.vɪn/ | uʼanfin /ʔu.ˈʔan.fin/ | oanvyn /ɔɑnvin/ | oowenvjin /ˈoː.ʋən.vjɪn/ |
 | PATRO_NI | niynfin /nɪ.ˈən.vɪn/ | niʼanfin /ni.ˈʔan.fin/ | nianvyn /niɑnvin/ | njienvjin /ˈnjin.vjɪn/ +1 |
-| DESC | ynfan /ˈən.van/ | anfan /ˈʔan.fan/ | anvian /ɑnviɑn/ | envjan /ˈən.vjɑn/ +1 |
+| DESC | ynfan /ˈən.van/ | anfan /ˈʔan.fan/ | anvian /ɑnviɑn/ | envjan /ən.ˈvjɑn/ +1 |
 | DESC+ADJ | ynfanaidd /ən.ˈva.naið/ | anfani /ʔan.ˈfa.ni/ | anvianuri /ɑnviɑnuri/ | envjannachtech /ən.vjɑ.ˈnɑx.təx/ +1 |
-| DESC+NOUN | ynfan /ˈən.van/ | anfana /ʔan.ˈfa.na/ | anviani /ɑnviɑni/ | envjan /ˈən.vjɑn/ +1 |
+| DESC+NOUN | ynfan /ˈən.van/ | anfana /ʔan.ˈfa.na/ | anviani /ɑnviɑni/ | envjan /ən.ˈvjɑn/ +1 |
 
 ## mo pheann — my pen
 
@@ -1018,7 +1018,7 @@ Irish: /mˠak/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yfic /ˈə.vɪk/ | aafik /ˈʔaː.fik/ | avyk /ɑvikʰ/ | evjik /ˈə.vjɪk/ |
+| VOC | yfic /ˈə.vɪk/ | aafik /ˈʔaː.fik/ | avyk /ɑvikʰ/ | evjik /ə.ˈvjɪk/ |
 | GEN | mic /ˈmɪk/ | mik /ˈmik/ | mik /mikʰ/ | mjik /ˈmjɪk/ |
 | PATRO_O | omic /ˈɔ.mɪk/ | oomik /ˈʔoː.mik/ | omyk /ɔmikʰ/ | oomjik /ˈoː.mjɪk/ |
 | PATRO_NI | nific /ˈnɪ.vɪk/ | niifik /ˈniː.fik/ | nivyk /nivikʰ/ | njievjik /ˈnji.vjɪk/ +1 |
@@ -1032,7 +1032,7 @@ Irish: /mʲɪc/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yfic /ˈə.vɪk/ | aafik /ˈʔaː.fik/ | avyk /ɑvikʰ/ | evjik /ˈə.vjɪk/ |
+| VOC | yfic /ˈə.vɪk/ | aafik /ˈʔaː.fik/ | avyk /ɑvikʰ/ | evjik /ə.ˈvjɪk/ |
 | GEN | mica /ˈmɪ.ka/ | mika /ˈmi.ka/ | mikia /mikʰiɑ/ | mjikje /ˈmjɪ.kjə/ |
 | PATRO_O | omica /ɔ.ˈmɪ.ka/ | umika /ʔu.ˈmi.ka/ | omikia /ɔmikʰiɑ/ | oomjikje /oː.ˈmjɪ.kjə/ |
 | PATRO_NI | nifica /nɪ.ˈvɪ.ka/ | nifika /ni.ˈfi.ka/ | nivikia /nivikʰiɑ/ | njievjikje /nji.ˈvjɪ.kjə/ +1 |
@@ -1088,7 +1088,7 @@ Irish: /d̪ˠʊw/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ygwf /ˈə.ɡʊv/ | aaghuf /ˈʔaː.ɣuf/ | aghuv /ɑɣuv/ | eguf /ˈə.ɣʏf/ +1 |
+| VOC | ygwf /ˈə.ɡʊv/ | aaghuf /ˈʔaː.ɣuf/ | aghuv /ɑɣuv/ | eguf /ə.ˈɣʏf/ +1 |
 | GEN | dwf /ˈduːv/ | ḍuf /ˈdˤuf/ | duv /duv/ | duf /ˈdʏf/ +1 |
 | PATRO_O | odwf /ˈɔ.dʊv/ | ooḍuf /ˈʔoː.dˤuf/ | oduv /ɔduv/ | ooduf /ˈoː.dʏf/ +1 |
 | PATRO_NI | nigwf /ˈnɪ.ɡʊv/ | niighuf /ˈniː.ɣuf/ | nighuv /niɣuv/ | njieguf /ˈnji.ɣʏf/ +2 |
@@ -1102,7 +1102,7 @@ Irish: /d̪ˠʊvˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ygwf /ˈə.ɡʊv/ | aaghuf /ˈʔaː.ɣuf/ | aghuv /ɑɣuv/ | eguf /ˈə.ɣʏf/ +1 |
+| VOC | ygwf /ˈə.ɡʊv/ | aaghuf /ˈʔaː.ɣuf/ | aghuv /ɑɣuv/ | eguf /ə.ˈɣʏf/ +1 |
 | GEN | dwf /ˈduːv/ | ḍuf /ˈdˤuf/ | duv /duv/ | duf /ˈdʏf/ +1 |
 | PATRO_O | odwf /ˈɔ.dʊv/ | ooḍuf /ˈʔoː.dˤuf/ | oduv /ɔduv/ | ooduf /ˈoː.dʏf/ +1 |
 | PATRO_NI | nigwf /ˈnɪ.ɡʊv/ | niighuf /ˈniː.ɣuf/ | nighuv /niɣuv/ | njieguf /ˈnji.ɣʏf/ +2 |
@@ -1214,7 +1214,7 @@ Irish: /bʲɾʲaː/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yfra /ˈə.vra/ | afraa /ʔaf.ˈraː/ | azria /ɑzriɑ/ +1 | evra /ˈə.vraː/ |
+| VOC | yfra /ˈə.vra/ | afraa /ʔaf.ˈraː/ | azria /ɑzriɑ/ +1 | evra /ə.ˈvraː/ |
 | GEN | bra /ˈbraː/ | biraa /bi.ˈraː/ | bria /briɑ/ | bra /ˈbraː/ |
 | PATRO_O | obra /ˈɔ.bra/ | ubraa /ʔub.ˈraː/ | obria /ɔbriɑ/ | oobra /ˈoː.braː/ |
 | PATRO_NI | nifra /ˈnɪ.vra/ | nifraa /nif.ˈraː/ | nizria /nizriɑ/ +1 | njievra /ˈnji.vraː/ +1 |
@@ -1228,13 +1228,13 @@ Irish: /bˠəˈkax/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ewycach /əu.ˈə.kaχ/ | aawakakh /ˈʔaː.wa.kax/ | avakax /ɑvɑkʰɑx/ | evekach /ə.ˈvə.kɑx/ +1 |
-| GEN | bycach /ˈbə.kaχ/ | bakakh /ˈba.kax/ | bakax /bɑkʰɑx/ | bekach /ˈbə.kɑx/ +1 |
+| VOC | ewycach /əu.ˈə.kaχ/ | aawakakh /ˈʔaː.wa.kax/ | avakax /ɑvɑkʰɑx/ | evekach /ə.və.ˈkɑx/ +1 |
+| GEN | bycach /ˈbə.kaχ/ | bakakh /ˈba.kax/ | bakax /bɑkʰɑx/ | bekach /bə.ˈkɑx/ +1 |
 | PATRO_O | obycach /ɔ.ˈbə.kaχ/ | ubakakh /ʔu.ˈba.kax/ | obakax /ɔbɑkʰɑx/ | oobekach /ˈoː.bə.kɑx/ +1 |
 | PATRO_NI | niwycach /nɪu.ˈə.kaχ/ | niwakakh /ni.ˈwa.kax/ | nivakax /nivɑkʰɑx/ | njievekach /ˈnji.və.kɑx/ +2 |
-| DESC | bycach /ˈbə.kaχ/ | bakakh /ˈba.kax/ | bakax /bɑkʰɑx/ | bekach /ˈbə.kɑx/ +1 |
+| DESC | bycach /ˈbə.kaχ/ | bakakh /ˈba.kax/ | bakax /bɑkʰɑx/ | bekach /bə.ˈkɑx/ +1 |
 | DESC+ADJ | bycachaidd /bə.ˈka.χaið/ | bakakhi /ˈba.ka.xi/ | bakaxuri /bɑkʰɑxuri/ | bekachachtech /bə.kɑ.ˈxɑx.təx/ +1 |
-| DESC+NOUN | bycach /ˈbə.kaχ/ | bakakha /ˈba.ka.xa/ | bakaxi /bɑkʰɑxi/ | bekach /ˈbə.kɑx/ +1 |
+| DESC+NOUN | bycach /ˈbə.kaχ/ | bakakha /ˈba.ka.xa/ | bakaxi /bɑkʰɑxi/ | bekach /bə.ˈkɑx/ +1 |
 
 ## taoiseach — chieftain, leader
 
@@ -1312,7 +1312,7 @@ Irish: /kɾˠʊk/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ychrwc /ˈə.χrʊk/ | aakhruk /ˈʔaːx.ruk/ | axruk /ɑxrukʰ/ | echruk /ˈə.xrʏk/ +1 |
+| VOC | ychrwc /ˈə.χrʊk/ | aakhruk /ˈʔaːx.ruk/ | axruk /ɑxrukʰ/ | echruk /ə.ˈxrʏk/ +1 |
 | GEN | crwc /ˈkrʊk/ | kuruk /ˈku.ruk/ | kruk /kʰrukʰ/ | kruk /ˈkrʏk/ +1 |
 | PATRO_O | ocrwc /ˈɔ.krʊk/ | uukruk /ˈʔuːk.ruk/ | okruk /ɔkʰrukʰ/ | ookruk /ˈoː.krʏk/ +1 |
 | PATRO_NI | nichrwc /ˈnɪ.χrʊk/ | niikhruk /ˈniːx.ruk/ | nixruk /nixrukʰ/ | njiechruk /ˈnji.xrʏk/ +2 |
@@ -1340,7 +1340,7 @@ Irish: /mˠɾˠaː/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ewra /ˈəu.ra/ | awraa /ʔaw.ˈraː/ | azra /ɑzrɑ/ +1 | evra /ˈə.vraː/ |
+| VOC | ewra /ˈəu.ra/ | awraa /ʔaw.ˈraː/ | azra /ɑzrɑ/ +1 | evra /ə.ˈvraː/ |
 | GEN | mra /ˈmraː/ | miraa /mi.ˈraː/ | bra /brɑ/ +1 | ra /ˈraː/ |
 | PATRO_O | omra /ˈɔ.mra/ | umraa /ʔum.ˈraː/ | obra /ɔbrɑ/ +1 | oomra /ˈoːm.raː/ |
 | PATRO_NI | niwra /ˈnɪu.ra/ | niwraa /niw.ˈraː/ | nizra /nizrɑ/ +1 | njievra /ˈnji.vraː/ +1 |
@@ -1382,7 +1382,7 @@ Irish: /sˠpˠɾˠiː/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yffpri /ˈəf.prɪ/ +1 | ahbirii /ʔah.bi.ˈriː/ | atxzvi /ɑtʰxzvi/ +1 | echprie /ˈəx.pri/ +1 |
+| VOC | yffpri /ˈəf.prɪ/ +1 | ahbirii /ʔah.bi.ˈriː/ | atxzvi /ɑtʰxzvi/ +1 | echprie /əx.ˈpri/ +1 |
 | GEN | ysbri /ˈə.sprɪ/ | ṣibirii /sˤi.bi.ˈriː/ | txzvi /tʰxzvi/ +1 | sprie /ˈspri/ +1 |
 | PATRO_O | osbri /ˈɔ.sprɪ/ | uṣbirii /ʔusˤ.bi.ˈriː/ | otxzvi /ɔtʰxzvi/ +1 | oosprie /ˈoː.spri/ +1 |
 | PATRO_NI | niffpri /ˈnɪf.prɪ/ +1 | nihbirii /nih.bi.ˈriː/ | nitxzvi /nitʰxzvi/ +1 | njiechprie /ˈnjix.pri/ +1 |
@@ -1396,7 +1396,7 @@ Irish: /sˠpʲal/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yffpil /ˈəf.pɪl/ +1 | aahbil /ˈʔaːh.bil/ | asp'yl /ɑspʼil/ +1 | echpil /ˈəx.pɪl/ |
+| VOC | yffpil /ˈəf.pɪl/ +1 | aahbil /ˈʔaːh.bil/ | asp'yl /ɑspʼil/ +1 | echpil /əx.ˈpɪl/ |
 | GEN | ysbil /ˈə.spɪl/ | ṣibil /ˈsˤi.bil/ | sp'il /spʼil/ | spil /ˈspɪl/ |
 | PATRO_O | osbil /ˈɔ.spɪl/ | uuṣbil /ˈʔuːsˤ.bil/ | osp'yl /ɔspʼil/ | oospil /ˈoː.spɪl/ |
 | PATRO_NI | niffpil /ˈnɪf.pɪl/ +1 | niihbil /ˈniːh.bil/ | nisp'yl /nispʼil/ +1 | njiechpil /ˈnjix.pɪl/ +1 |
@@ -1480,7 +1480,7 @@ Irish: /kɔʃ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ychos /ˈə.χɔs/ | aakhush /ˈʔaː.xuʃ/ | axosh /ɑxɔʃ/ | echosj /ˈə.xɔʃ/ |
+| VOC | ychos /ˈə.χɔs/ | aakhush /ˈʔaː.xuʃ/ | axosh /ɑxɔʃ/ | echosj /ə.ˈxɔʃ/ |
 | GEN | cosia /ˈkɔ.ʃa/ | kusha /ˈku.ʃa/ | koshia /kʰɔʃiɑ/ | kosje /ˈkɔ.ʃə/ |
 | PATRO_O | ocosia /ɔ.ˈkɔ.ʃa/ | ukusha /ʔu.ˈku.ʃa/ | okoshia /ɔkʰɔʃiɑ/ | ookosje /oː.ˈkɔ.ʃə/ |
 | PATRO_NI | nichosia /nɪ.ˈχɔ.ʃa/ | nikhusha /ni.ˈxu.ʃa/ | nixoshia /nixɔʃiɑ/ | njiechosje /nji.ˈxɔ.ʃə/ +1 |
@@ -1662,7 +1662,7 @@ Irish: /xɾˠɔmˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ychrom /ˈə.χrɔm/ | aakhrum /ˈʔaːx.rum/ | axrom /ɑxrɔm/ | echrom /ˈə.xrɔm/ |
+| VOC | ychrom /ˈə.χrɔm/ | aakhrum /ˈʔaːx.rum/ | axrom /ɑxrɔm/ | echrom /ə.ˈxrɔm/ |
 | GEN | chrom /ˈχrɔm/ | khurum /ˈxu.rum/ | xrom /xrɔm/ | chrom /ˈxrɔm/ |
 | PATRO_O | ochrom /ˈɔ.χrɔm/ | uukhrum /ˈʔuːx.rum/ | oxrom /ɔxrɔm/ | oochrom /ˈoː.xrɔm/ |
 | PATRO_NI | nichrom /ˈnɪ.χrɔm/ | niikhrum /ˈniːx.rum/ | nixrom /nixrɔm/ | njiechrom /ˈnji.xrɔm/ +1 |
@@ -1676,7 +1676,7 @@ Irish: /wl̪ˠasˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ewlis /ˈəu.lɪs/ | aawlish /ˈʔaːw.liʃ/ | azlysh /ɑzliʃ/ +1 | evlisj /ˈə.vlɪʃ/ |
+| VOC | ewlis /ˈəu.lɪs/ | aawlish /ˈʔaːw.liʃ/ | azlysh /ɑzliʃ/ +1 | evlisj /ə.ˈvlɪʃ/ |
 | GEN | wlis /ˈwliːs/ | wilish /ˈwi.liʃ/ | zlish /zliʃ/ +1 | vlisj /ˈvlɪʃ/ |
 | PATRO_O | owlis /ˈɔ.wlɪs/ | uuwlish /ˈʔuːw.liʃ/ | ozlysh /ɔzliʃ/ +1 | oovlisj /ˈoː.vlɪʃ/ |
 | PATRO_NI | niwlis /ˈnɪu.lɪs/ | niiwlish /ˈniːw.liʃ/ | nizlysh /nizliʃ/ +1 | njievlisj /ˈnji.vlɪʃ/ +1 |
@@ -1732,7 +1732,7 @@ Irish: /mˠl̪ˠaː/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ewla /ˈəu.la/ | awlaa /ʔaw.ˈlaː/ | azla /ɑzlɑ/ +1 | evla /ˈə.vlaː/ |
+| VOC | ewla /ˈəu.la/ | awlaa /ʔaw.ˈlaː/ | azla /ɑzlɑ/ +1 | evla /ə.ˈvlaː/ |
 | GEN | mla /ˈmlaː/ | milaa /mi.ˈlaː/ | bla /blɑ/ +1 | la /ˈlaː/ |
 | PATRO_O | omla /ˈɔ.mla/ | umlaa /ʔum.ˈlaː/ | obla /ɔblɑ/ +1 | oomla /ˈoːm.laː/ |
 | PATRO_NI | niwla /ˈnɪu.la/ | niwlaa /niw.ˈlaː/ | nizla /nizlɑ/ +1 | njievla /ˈnji.vlaː/ +1 |
@@ -2012,10 +2012,10 @@ Irish: /təˈbak/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yhybic /ə.ˈhə.bɪk/ | aahabik /ˈʔaː.ha.bik/ | ahabyk /ɑhɑbikʰ/ | ehebjik /ə.ˈhə.bjɪk/ |
-| GEN | tybic /ˈtə.bɪk/ | ṭabik /ˈtˤa.bik/ | tabyk /tʰɑbikʰ/ | tebjik /ˈtə.bjɪk/ |
+| VOC | yhybic /ə.ˈhə.bɪk/ | aahabik /ˈʔaː.ha.bik/ | ahabyk /ɑhɑbikʰ/ | ehebjik /ə.hə.ˈbjɪk/ |
+| GEN | tybic /ˈtə.bɪk/ | ṭabik /ˈtˤa.bik/ | tabyk /tʰɑbikʰ/ | tebjik /tə.ˈbjɪk/ |
 | PATRO_O | otybic /ɔ.ˈtə.bɪk/ | uṭabik /ʔu.ˈtˤa.bik/ | otabyk /ɔtʰɑbikʰ/ | ootebjik /ˈoː.tə.bjɪk/ |
 | PATRO_NI | nihybic /nɪ.ˈhə.bɪk/ | nihabik /ni.ˈha.bik/ | nihabyk /nihɑbikʰ/ | njiehebjik /ˈnji.hə.bjɪk/ +1 |
-| DESC | tybac /ˈtə.bak/ | ṭabak /ˈtˤa.bak/ | tabak /tʰɑbɑkʰ/ | tebak /ˈtə.bɑk/ +1 |
+| DESC | tybac /ˈtə.bak/ | ṭabak /ˈtˤa.bak/ | tabak /tʰɑbɑkʰ/ | tebak /tə.ˈbɑk/ +1 |
 | DESC+ADJ | tybacaidd /tə.ˈba.kaið/ | ṭabaki /ˈtˤa.ba.ki/ | tabakuri /tʰɑbɑkʰuri/ | tebakkachtech /tə.bɑ.ˈkɑx.təx/ +1 |
-| DESC+NOUN | tybac /ˈtə.bak/ | ṭabaka /ˈtˤa.ba.ka/ | tabaki /tʰɑbɑkʰi/ | tebak /ˈtə.bɑk/ +1 |
+| DESC+NOUN | tybac /ˈtə.bak/ | ṭabaka /ˈtˤa.ba.ka/ | tabaki /tʰɑbɑkʰi/ | tebak /tə.ˈbɑk/ +1 |

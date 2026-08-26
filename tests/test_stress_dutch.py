@@ -5,6 +5,7 @@ from helpers import TABLE, w
 from strands.dsl import parse_rules
 from strands.syllabify import syllabify
 from strands.stress import assign_stress
+from strands.stress.dutch_weight import SCHWA
 
 # The plan's inventory lists a short `ø`; rules/features.tsv has no `ø` row (only `øː`), and
 # [inventory] rejects unknown segments, so `ø` is omitted here. No test word uses it.
@@ -74,3 +75,33 @@ def test_lax_final_with_two_codas_is_superheavy():
 def test_trace_entry():
     out = stressed("arena")
     assert out.trace[-1].stage == "stress" and out.trace[-1].rule_id == "stress:dutch-weight"
+
+
+# ---- a schwa nucleus is never a stress candidate (digest §4 step 1) ----------------------
+
+def _stressed_syllable(out):
+    lo = out.syllables[out.stress]
+    hi = (out.syllables[out.stress + 1] if out.stress + 1 < len(out.syllables)
+          else len(out.segments))
+    return out.segments[lo:hi]
+
+
+@pytest.mark.parametrize("plain", [
+    "ənvjɑn",      # an bhean: the initial schwa syllable IS the penult, and step 5 took it
+    "əvjɑn",
+    "əkɑt",
+    "ənvjɑnən",
+])
+def test_an_initial_schwa_syllable_is_never_stressed(plain):
+    """Dutch never stresses schwa (digest §4, step 1 of the six-step procedure). Step 1 only
+    looks at schwa syllables from index 1 rightwards, so a WORD-INITIAL schwa used to reach
+    steps 2-5 and be picked as the penult: *an bhean* came out ˈən.vjɑn."""
+    out = stressed(plain)
+    assert SCHWA not in _stressed_syllable(out), out.ipa()
+    assert "ˈə" not in out.ipa(), out.ipa()
+
+
+def test_a_word_of_nothing_but_schwa_still_gets_a_stress():
+    """No non-schwa syllable to move to: the procedure must still return an index."""
+    out = stressed("ənən")
+    assert out.stress is not None
