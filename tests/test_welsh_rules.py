@@ -542,3 +542,19 @@ def test_no_long_vowel_survives_outside_the_stressed_syllable():
                         if word.stress + 1 < len(word.syllables) else len(word.segments))
                 assert all(start <= i < stop for i in longs), \
                     (row["orthography"], tag, word.segments, word.stress)
+
+
+def test_final_m_is_lexical_but_final_eng_is_short():
+    """Owner decision 2026-08-25 on CONFLICT-Awb-3 (awbery1984 p.71 Fig.1 vs p.67): follow the
+    attested distribution, not the legend. Long vowels before a final /m/ are attested (few:
+    /biːm/), so /m/ joins the lexical class and the Irish length decides, written with the
+    circumflex; no long vowel is attested before /ŋ/, so /ŋ/ stays with the SHORT class."""
+    r = adapt([w("kaːmˠ")], TARGET, TABLE)
+    assert r.words[0].segments == ("k", "aː", "m") and r.respelling == "câm"
+    r = adapt([w("kamˠ")], TARGET, TABLE)
+    assert r.words[0].segments == ("k", "a", "m") and r.respelling == "cam"
+    r = adapt([w("kaːŋ")], TARGET, TABLE)
+    assert r.words[0].segments == ("k", "a", "ŋ") and r.respelling == "cang"
+    # non-final /m/ still shortens (L1): the carve-out is word-final only
+    r = adapt([w("ˈkaːmˠə")], TARGET, TABLE)
+    assert "aː" not in r.words[0].segments

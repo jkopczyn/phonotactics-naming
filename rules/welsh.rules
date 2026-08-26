@@ -133,25 +133,25 @@ x -> χ                                  %design   # design: digest §8.3 line 1
 # environments below are the complement of "_ {n l r} #"; an unstressed ultima is shortened
 # again in [post-stress] (long vowels only under stress, §4.3 line 1063).
 iː -> ɪ / _ [-nasal -lateral -trill]   %design   # design: §9.13; digest §4.4 line 1176 L1
-iː -> ɪ / _ {m ŋ}                      %design   # design: §9.13; digest §4.4 line 1176 L1
+iː -> ɪ / _ ŋ                          %design   # design: §9.13; digest §4.4 line 1176 L1
 iː -> ɪ / _ #                          %design   # design: §9.13; digest §4.4 line 1176 L1
-iː -> ɪ / _ {n l r} {C V}              %design   # design: §9.13; digest §4.4 line 1176 L1
+iː -> ɪ / _ {n l r m} {C V}            %design   # design: §9.13; digest §4.4 line 1176 L1
 uː -> ʊ / _ [-nasal -lateral -trill]   %design   # design: §9.13; digest §4.4 line 1176 L1
-uː -> ʊ / _ {m ŋ}                      %design   # design: §9.13; digest §4.4 line 1176 L1
+uː -> ʊ / _ ŋ                          %design   # design: §9.13; digest §4.4 line 1176 L1
 uː -> ʊ / _ #                          %design   # design: §9.13; digest §4.4 line 1176 L1
-uː -> ʊ / _ {n l r} {C V}              %design   # design: §9.13; digest §4.4 line 1176 L1
+uː -> ʊ / _ {n l r m} {C V}            %design   # design: §9.13; digest §4.4 line 1176 L1
 eː -> ɛ / _ [-nasal -lateral -trill]   %design   # design: §9.13; digest §4.4 line 1176 L1
-eː -> ɛ / _ {m ŋ}                      %design   # design: §9.13; digest §4.4 line 1176 L1
+eː -> ɛ / _ ŋ                          %design   # design: §9.13; digest §4.4 line 1176 L1
 eː -> ɛ / _ #                          %design   # design: §9.13; digest §4.4 line 1176 L1
-eː -> ɛ / _ {n l r} {C V}              %design   # design: §9.13; digest §4.4 line 1176 L1
+eː -> ɛ / _ {n l r m} {C V}            %design   # design: §9.13; digest §4.4 line 1176 L1
 oː -> ɔ / _ [-nasal -lateral -trill]   %design   # design: §9.13; digest §4.4 line 1176 L1
-oː -> ɔ / _ {m ŋ}                      %design   # design: §9.13; digest §4.4 line 1176 L1
+oː -> ɔ / _ ŋ                          %design   # design: §9.13; digest §4.4 line 1176 L1
 oː -> ɔ / _ #                          %design   # design: §9.13; digest §4.4 line 1176 L1
-oː -> ɔ / _ {n l r} {C V}              %design   # design: §9.13; digest §4.4 line 1176 L1
+oː -> ɔ / _ {n l r m} {C V}            %design   # design: §9.13; digest §4.4 line 1176 L1
 aː -> a / _ [-nasal -lateral -trill]   %design   # design: §9.13; digest §4.4 line 1176 L1
-aː -> a / _ {m ŋ}                      %design   # design: §9.13; digest §4.4 line 1176 L1
+aː -> a / _ ŋ                          %design   # design: §9.13; digest §4.4 line 1176 L1
 aː -> a / _ #                          %design   # design: §9.13; digest §4.4 line 1176 L1
-aː -> a / _ {n l r} {C V}              %design   # design: §9.13; digest §4.4 line 1176 L1
+aː -> a / _ {n l r m} {C V}            %design   # design: §9.13; digest §4.4 line 1176 L1
 # --- glide codas become diphthong offglides ---------------------------------------------------
 # Final [w] vocalises (marw [ˈmarʊ], digest §2.6 line 539; §8.8 line 1698 [wiki-cy-phon §Other
 # consonants]); after a vowel the pair is one of the eight nuclei (§1 line 208): au ɛu əu ɪu.
@@ -366,12 +366,14 @@ a -> aː / ˈ C* _ {s ʃ ɬ} #              %attested # digest §4.3 line 1078 [
 # (LONG OR SHORT, lexical), not with the fortis stops in class C. His own p.67 prose says long
 # vowels before /m/ are "very few" and before /ŋ/ absent, and he declines to decide whether the
 # gap is systematic or accidental — "accidental gaps will be ignored in the body of this
-# chapter". Source contradicts itself; the digest's row 4 and these lines keep SHORT.
-iː -> ɪ / ˈ C* _ {p t k m ŋ} #          %attested # digest §4.3 line 1079 [iosad2017 p.8]; CONFLICT-Awb-3 [awbery1984 p.71 Fig.1 B vs p.67]
-eː -> ɛ / ˈ C* _ {p t k m ŋ} #          %attested # digest §4.3 line 1079 [iosad2017 p.8]; CONFLICT-Awb-3 [awbery1984 p.71 Fig.1 B vs p.67]
-aː -> a / ˈ C* _ {p t k m ŋ} #          %attested # digest §4.3 line 1079 [iosad2017 p.8]; CONFLICT-Awb-3 [awbery1984 p.71 Fig.1 B vs p.67]
-oː -> ɔ / ˈ C* _ {p t k m ŋ} #          %attested # digest §4.3 line 1079 [iosad2017 p.8]; CONFLICT-Awb-3 [awbery1984 p.71 Fig.1 B vs p.67]
-uː -> ʊ / ˈ C* _ {p t k m ŋ} #          %attested # digest §4.3 line 1079 [iosad2017 p.8]; CONFLICT-Awb-3 [awbery1984 p.71 Fig.1 B vs p.67]
+# chapter". Source contradicts itself. OWNER DECISION 2026-08-25: follow the attested
+# distribution — /ŋ/ stays SHORT (no long vowel attested), /m/ joins the lexical n l r class
+# (long vowels attested, few), so the Irish length decides before a final /m/ (câm).
+iː -> ɪ / ˈ C* _ {p t k ŋ} #            %attested # digest §4.3 line 1079 [iosad2017 p.8]; CONFLICT-Awb-3 [awbery1984 p.71 Fig.1 B vs p.67]
+eː -> ɛ / ˈ C* _ {p t k ŋ} #            %attested # digest §4.3 line 1079 [iosad2017 p.8]; CONFLICT-Awb-3 [awbery1984 p.71 Fig.1 B vs p.67]
+aː -> a / ˈ C* _ {p t k ŋ} #            %attested # digest §4.3 line 1079 [iosad2017 p.8]; CONFLICT-Awb-3 [awbery1984 p.71 Fig.1 B vs p.67]
+oː -> ɔ / ˈ C* _ {p t k ŋ} #            %attested # digest §4.3 line 1079 [iosad2017 p.8]; CONFLICT-Awb-3 [awbery1984 p.71 Fig.1 B vs p.67]
+uː -> ʊ / ˈ C* _ {p t k ŋ} #            %attested # digest §4.3 line 1079 [iosad2017 p.8]; CONFLICT-Awb-3 [awbery1984 p.71 Fig.1 B vs p.67]
 # Row 5 — V → V / ˈ_ {w j}   SOUTH: always short   (line 1080)
 iː -> ɪ / ˈ C* _ {w j}                  %attested # digest §4.3 line 1080 [iosad2017 p.8] (South)
 eː -> ɛ / ˈ C* _ {w j}                  %attested # digest §4.3 line 1080 [iosad2017 p.8] (South)
@@ -391,12 +393,12 @@ uː -> ʊ / ˈ C* _ C C #                  %attested # digest §4.3 line 1081 [i
 # it is left as it arrives in the STRESSED final syllable (the identity line is the row's
 # tag-carrier) and shortened in an unstressed ultima (`V C* . C* _` = a non-initial, non-stressed
 # final syllable under penultimate stress: Rónán → rhonan, not *rhonân).
-a -> a / ˈ C* _ {n l r} #               %design   # design: digest §4.3 line 1082 open (lexically determined) [breit2019 p.79; iosad2017 pp.7–8]
-iː -> ɪ / V C* . C* _ {n l r} #            %attested # digest §4.3 line 1063 "Long vowels are restricted to stressed syllables" [iosad2017 p.7]
-eː -> ɛ / V C* . C* _ {n l r} #            %attested # digest §4.3 line 1063 [iosad2017 p.7]
-aː -> a / V C* . C* _ {n l r} #            %attested # digest §4.3 line 1063 [iosad2017 p.7]
-oː -> ɔ / V C* . C* _ {n l r} #            %attested # digest §4.3 line 1063 [iosad2017 p.7]
-uː -> ʊ / V C* . C* _ {n l r} #            %attested # digest §4.3 line 1063 [iosad2017 p.7]
+a -> a / ˈ C* _ {n l r m} #             %design   # design: digest §4.3 line 1082 open (lexically determined) [breit2019 p.79; iosad2017 pp.7–8]
+iː -> ɪ / V C* . C* _ {n l r m} #          %attested # digest §4.3 line 1063 "Long vowels are restricted to stressed syllables" [iosad2017 p.7]
+eː -> ɛ / V C* . C* _ {n l r m} #          %attested # digest §4.3 line 1063 [iosad2017 p.7]
+aː -> a / V C* . C* _ {n l r m} #          %attested # digest §4.3 line 1063 [iosad2017 p.7]
+oː -> ɔ / V C* . C* _ {n l r m} #          %attested # digest §4.3 line 1063 [iosad2017 p.7]
+uː -> ʊ / V C* . C* _ {n l r m} #          %attested # digest §4.3 line 1063 [iosad2017 p.7]
 # --- STRESSED PENULTS (awbery1984; digest §4.3B) ------------------------------------------
 # Added in digest revision 2. The seven rows above are Fig. 1's WORD-FINAL branch. Awbery's
 # tree applies to every stressed syllable, and [awbery1984 p.72] states the consequence flatly:
@@ -513,11 +515,11 @@ a u -> "aw"                             %attested # digest §5 line 1244 [wiki-c
 # reaches a final syllable here ([repair]). Final-syllable /ɪ/ is written i (i-dot, line 1266).
 # The lexical n l r class is the one place a long vowel is not predictable from the spelling
 # (§5 lines 1279–1281): "marked with a circumflex if long" — tâl, tôn, gêr (§4.3 line 1084).
-iː -> "î" / _ {n l r} #                 %attested # digest §5 line 1281 [wiki-cy-orth §Predicting vowel length]
-eː -> "ê" / _ {n l r} #                 %attested # digest §5 line 1281 [wiki-cy-orth §Predicting vowel length]
-aː -> "â" / _ {n l r} #                 %attested # digest §5 line 1281 [wiki-cy-orth §Predicting vowel length]
-oː -> "ô" / _ {n l r} #                 %attested # digest §5 line 1281 [wiki-cy-orth §Predicting vowel length]
-uː -> "ŵ" / _ {n l r} #                 %attested # digest §5 line 1281 [wiki-cy-orth §Predicting vowel length]
+iː -> "î" / _ {n l r m} #               %attested # digest §5 line 1281 [wiki-cy-orth §Predicting vowel length]
+eː -> "ê" / _ {n l r m} #               %attested # digest §5 line 1281 [wiki-cy-orth §Predicting vowel length]
+aː -> "â" / _ {n l r m} #               %attested # digest §5 line 1281 [wiki-cy-orth §Predicting vowel length]
+oː -> "ô" / _ {n l r m} #               %attested # digest §5 line 1281 [wiki-cy-orth §Predicting vowel length]
+uː -> "ŵ" / _ {n l r m} #               %attested # digest §5 line 1281 [wiki-cy-orth §Predicting vowel length]
 ɪ -> "i"                                %attested # digest §5 line 1237 [wiki-cy-orth]
 iː -> "i"                               %attested # digest §5 line 1237 [wiki-cy-orth]
 ɛ -> "e"                                %attested # digest §5 line 1236 [wiki-cy-orth]

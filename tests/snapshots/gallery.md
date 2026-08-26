@@ -546,9 +546,9 @@ Irish: /d̪ˠɾˠiːmʲ/
 | GEN | drima /ˈdrɪ.ma/ | ḍiriima /dˤi.ˈriː.ma/ | drvimia /drvimiɑ/ | driemje /ˈdri.mjə/ +1 |
 | PATRO_O | odrima /ɔ.ˈdrɪ.ma/ | uḍriima /ʔudˤ.ˈriː.ma/ | odrvimia /ɔdrvimiɑ/ | oodriemje /oː.ˈdri.mjə/ +1 |
 | PATRO_NI | nigrima /nɪ.ˈɡrɪ.ma/ | nighriima /niɣ.ˈriː.ma/ | nighrvimia /niɣrvimiɑ/ | njiegriemje /nji.ˈɣri.mjə/ +1 |
-| DESC | drim /ˈdrɪm/ | ḍiriim /dˤi.ˈriːm/ | drvim /drvim/ | driem /ˈdrim/ +1 |
-| DESC+ADJ | drimaidd /ˈdrɪ.maið/ | ḍiriimi /dˤi.ˈriː.mi/ | drvimuli /drvimuli/ | driemachtech /dri.ˈmɑx.təx/ +1 |
-| DESC+NOUN | drim /ˈdrɪm/ | ḍiriima /dˤi.ˈriː.ma/ | drvimi /drvimi/ | driem /ˈdrim/ +1 |
+| DESC | drîm /ˈdriːm/ | ḍiriim /dˤi.ˈriːm/ | drvim /drvim/ | driem /ˈdrim/ +1 |
+| DESC+ADJ | drimaidd /ˈdriː.maið/ | ḍiriimi /dˤi.ˈriː.mi/ | drvimuli /drvimuli/ | driemachtech /dri.ˈmɑx.təx/ +1 |
+| DESC+NOUN | drîm /ˈdriːm/ | ḍiriima /dˤi.ˈriː.ma/ | drvimi /drvimi/ | driem /ˈdrim/ +1 |
 
 ## dhroim — back (lenited)
 
@@ -560,9 +560,9 @@ Irish: /ɣɾˠiːmʲ/
 | GEN | grima /ˈɡrɪ.ma/ | ghiriima /ɣi.ˈriː.ma/ | ghrvimia /ɣrvimiɑ/ | griemje /ˈɣri.mjə/ +1 |
 | PATRO_O | ogrima /ɔ.ˈɡrɪ.ma/ | ughriima /ʔuɣ.ˈriː.ma/ | oghrvimia /ɔɣrvimiɑ/ | oogriemje /oː.ˈɣri.mjə/ +1 |
 | PATRO_NI | nigrima /nɪ.ˈɡrɪ.ma/ | nighriima /niɣ.ˈriː.ma/ | nighrvimia /niɣrvimiɑ/ | njiegriemje /nji.ˈɣri.mjə/ +1 |
-| DESC | grim /ˈɡrɪm/ | ghiriim /ɣi.ˈriːm/ | ghrvim /ɣrvim/ | griem /ˈɣrim/ +1 |
-| DESC+ADJ | grimaidd /ˈɡrɪ.maið/ | ghiriimi /ɣi.ˈriː.mi/ | ghrvimuli /ɣrvimuli/ | griemachtech /ɣri.ˈmɑx.təx/ +1 |
-| DESC+NOUN | grim /ˈɡrɪm/ | ghiriima /ɣi.ˈriː.ma/ | ghrvimi /ɣrvimi/ | griem /ˈɣrim/ +1 |
+| DESC | grîm /ˈɡriːm/ | ghiriim /ɣi.ˈriːm/ | ghrvim /ɣrvim/ | griem /ˈɣrim/ +1 |
+| DESC+ADJ | grimaidd /ˈɡriː.maið/ | ghiriimi /ɣi.ˈriː.mi/ | ghrvimuli /ɣrvimuli/ | griemachtech /ɣri.ˈmɑx.təx/ +1 |
+| DESC+NOUN | grîm /ˈɡriːm/ | ghiriima /ɣi.ˈriː.ma/ | ghrvimi /ɣrvimi/ | griem /ˈɣrim/ +1 |
 
 ## ndroim — back (eclipsed)
 
@@ -574,9 +574,9 @@ Irish: /n̪ˠɾˠiːmʲ/
 | GEN | nrima /ˈnrɪ.ma/ | niriima /ni.ˈriː.ma/ | nrvimia /nrvimiɑ/ !UNATTESTED_CLUSTER:nrv | riemje /ˈri.mjə/ +1 |
 | PATRO_O | onrima /ɔ.ˈnrɪ.ma/ | unriima /ʔun.ˈriː.ma/ | onrvimia /ɔnrvimiɑ/ !UNATTESTED_CLUSTER:nrv | oonriemje /oːn.ˈri.mjə/ +1 |
 | PATRO_NI | ninrima /nɪ.ˈnrɪ.ma/ | ninriima /nin.ˈriː.ma/ | ninrvimia /ninrvimiɑ/ !UNATTESTED_CLUSTER:nrv | njienriemje /njin.ˈri.mjə/ +1 |
-| DESC | nrim /ˈnrɪm/ | niriim /ni.ˈriːm/ | nrvim /nrvim/ !UNATTESTED_CLUSTER:nrv | riem /ˈrim/ +1 |
-| DESC+ADJ | nrimaidd /ˈnrɪ.maið/ | niriimi /ni.ˈriː.mi/ | nrvimuli /nrvimuli/ !UNATTESTED_CLUSTER:nrv | riemachtech /ri.ˈmɑx.təx/ +1 |
-| DESC+NOUN | nrim /ˈnrɪm/ | niriima /ni.ˈriː.ma/ | nrvimi /nrvimi/ !UNATTESTED_CLUSTER:nrv | riem /ˈrim/ +1 |
+| DESC | nrîm /ˈnriːm/ | niriim /ni.ˈriːm/ | nrvim /nrvim/ !UNATTESTED_CLUSTER:nrv | riem /ˈrim/ +1 |
+| DESC+ADJ | nrimaidd /ˈnriː.maið/ | niriimi /ni.ˈriː.mi/ | nrvimuli /nrvimuli/ !UNATTESTED_CLUSTER:nrv | riemachtech /ri.ˈmɑx.təx/ +1 |
+| DESC+NOUN | nrîm /ˈnriːm/ | niriima /ni.ˈriː.ma/ | nrvimi /nrvimi/ !UNATTESTED_CLUSTER:nrv | riem /ˈrim/ +1 |
 
 ## freagra — answer (radical)
 
