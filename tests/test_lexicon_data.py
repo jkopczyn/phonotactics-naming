@@ -119,3 +119,43 @@ def test_the_second_pass_defect_rate_admits_the_genitive_less_rows():
 def test_removed_rows_are_gone_and_kept_rows_are_present():
     for r in verification("old-irish-lexicon.verification2.tsv")[1]:
         assert (key(r["orthography"]) in LEX) != (r["verdict"] == "removed"), r["orthography"]
+
+
+# ---- Task 4: the Middle Irish tier (spec §10; O-22) --------------------------------------
+
+MIDDLE = [r for r in ROWS if r.status == "middle"]
+
+
+def test_the_middle_irish_tier_is_populated():
+    """spec §10: the important names should not be left to the filter."""
+    assert len(MIDDLE) >= 8, len(MIDDLE)
+
+
+@pytest.mark.parametrize("headword", ["Eoghan", "Tadhg", "Oisín"])
+def test_the_named_middle_irish_names_are_now_covered(headword):
+    row = LEX.get(key(headword))
+    assert row is not None and row.status == "middle", headword
+    assert row.oi_nom, headword
+
+
+def test_every_middle_row_flags_ATTESTED_MIr():
+    """O-22: the tier shows up in the flag and nowhere else."""
+    assert all(r.flag == "ATTESTED:MIr" for r in MIDDLE)
+
+
+def test_no_middle_row_records_a_reconstructed_form():
+    assert [r.orthography for r in MIDDLE if "*" in r.oi_nom or "*" in r.oi_gen] == []
+
+
+def test_every_middle_row_says_it_is_middle_irish_only():
+    assert all("middle irish" in r.note.lower() for r in MIDDLE)
+
+
+def test_the_middle_tier_only_added_rows():
+    """R4: a `middle` row is a NEW row, never a reclassified `attested` one."""
+    assert sum(r.status == "attested" for r in ROWS) >= 265
+
+
+def test_the_lexicon_is_still_clean_and_within_its_size_bound():
+    assert check_lexicon_file(PATH) == []
+    assert len(ROWS) <= 330

@@ -451,3 +451,68 @@ palatalised variant, not the rule.
 `strands check rules/old-irish-lexicon.tsv` is silent. `LEX_NONE_NO_KIND`, `LEX_NONE_HAS_FORM`
 and `LEX_IRREGULAR_NO_GEN` are errors; `LEX_NEEDS_TASK3` no longer fires on `irregular` (a
 reserved class since §10) and is skipped for the two explained-blank prefixes.
+
+## Middle Irish tier (Task 4, 2026-08-27)
+
+Spec §10 took the second of the two routes named under "Unresolved": `status = middle` admits
+a form attested in Middle Irish (flag `ATTESTED:MIr`, O-22). All **49** unresolved headwords
+were revisited: every one whose reason named a Middle Irish form, plus the three named by the
+spec (*Órla, Gráinne, Úna*) and a fresh Wiktionary lookup under a plausible medieval spelling
+for the rest. Pages were read as raw wikitext (`action=raw`) on 2026-08-27. Result: **10
+`middle` rows, 1 `attested` row, 38 stay unresolved**. File after the pass: **313 rows**
+(273 `attested`, 10 `middle`, 29 `none`).
+
+### Written
+
+| headword | form | class / gender | page | what it shows |
+|---|---|---|---|---|
+| `Eoghan` | *Eógan* | — / m | Wiktionary *Eoghan* | `{{inh|ga|mga|Eógan}}`; no *Eógan* lemma exists |
+| `Tadhg` | *Tadg* | — / m | Wiktionary *Tadg* §Middle Irish | proper noun, m, no inflection table |
+| `Méabh` | *Medb*, gen *Meidbe* | ā / f | Wiktionary *Medb* §Middle Irish | proper noun f with gen/acc/dat; ā is from the genitive shape, not stated |
+| `Oisín` | *Oisín* | — / m | Wiktionary *oisín* §Middle Irish | the MIr common noun (m) lists *Oisín* as a derived term |
+| `bealach` | *belach* | — / — | Wiktionary *bealach* | `{{inh|ga|mga|belach}}`, DIL 5608; no lemma |
+| `dualgas` | *dúalgas* | — / — | Wiktionary *dualgas* | `{{inh|ga|mga|dúalgas}}`, DIL 18960; no lemma |
+| `sméar` | *smér* | — / — | Wiktionary *sméar* | `{{inh|ga|mga|smér}}`, DIL 38041; no lemma |
+| `gaiscíoch` | *gaiscedach*, gen *gaiscedaig* | o / m | Wiktionary *gaiscedach* §Middle Irish | noun m with genitive; o from the *-aig* genitive |
+| `gearr` | *gerr* | adjective | Wiktionary *gerr* §Middle Irish | adjective "short", DIL 25748 |
+| `garbh` | *garb* | adjective | Wiktionary *garbh* | `{{der|ga|mga|garb}}`, DIL 25380; no MIr lemma |
+| `saoi` | *suí*, gen *suad* | dental / m | Wiktionary *suí* §Old Irish | **`attested`, not `middle`**: the harvest missed the page's Old Irish section (sga-noun m, `sga-decl-t&d`, descendants mga *suí* → ga *saoi*). Writing it as "Middle Irish only" would have been false |
+
+*gearr* and *garbh* are not in the plan's example list; their unresolved prose names the Middle
+Irish forms (*gerr*, *garb*) and the pages print them, so they qualify under the same rule.
+
+Notes on the rows: a `middle` row whose page shows no declension carries the Task 3
+`unattested:` prefix (adjectives the `no nominal paradigm: adjective` prefix) so the blank-stem
+check stays satisfied, followed by the plan's "Middle Irish only" sentence. Two stem classes
+are taken from an inflection table rather than a statement (*Medb* ā, *gaiscedach* o), as plan
+Task 4 step 4 directs; the notes say so.
+
+### Source conflicts recorded (finding 6 continued)
+
+- **`Méabh`**: Wikipedia's *Medb* article says "In Old Irish her name is Medb; in Middle Irish
+  Meḋḃ". Wiktionary files *Medb* under Middle Irish. Kept `middle` as the plan names it; the row
+  note flags the conflict so the owner can promote it to `attested` on Wikipedia's label.
+- **`Eoghan`**: Wikipedia's *Eógan* article heads itself *Éogan* with the Old Irish language
+  code but the visible label is only "early Irish". Not relied on.
+
+### Still unresolved (38)
+
+- **Fresh check, nothing found** (spec's three): `Órla` — no *Órlaith*/*Órla* Wiktionary page;
+  Wikipedia *Órlaith* and *Orla (name)* give the form for 10th–13th-century queens and cite the
+  annals index but never label a language period. `Gráinne` — Wiktionary unchanged (derivative
+  of OI *grán* / MIr *gráin*); Wikipedia calls *Finn and Gráinne* "probably Middle Irish" but
+  prints the name in its modern spelling only. `Úna` — Wiktionary unchanged; Wikipedia *Úna*
+  redirects to *Una (given name)*, which gives only "may be derived from uan".
+- **Reconstructed only** (plan step 3): `gealach` (\**gelach*), `gruaig` (\**gruac*).
+- **Re-fetched under a medieval spelling, no page**: `Cairbre` (*Cairpre, Coirpre*),
+  `Criomhthann` (*Crimthann*), `Suibhne` (*Suibne*), `Bláthnaid` (*Bláthnat*), `Maolmhuire`
+  (*Máel Muire*), `Ultán`, `Naoise` (*Noísiu*; the Irish page has no etymology), `Éanna`
+  (*Énna*), `Sláine`, `Comhghall` (*Comgall*), `Dubhghall` (*Dubgall*), `Séadna` (*Sétna*),
+  `Ardghal` (*Ardgal, Artgal*), `Iarlaith`, `Dallán`, `Garbhán` (*Garbán*), `Cúán`, `Damhnait`
+  (*Damnat*), `Brígh` (*Bríg*), `Ríona`, `Eoghanán`.
+- **Page exists, still no ancestor form**: `Rónán`, `Lorcán`, `Áine` (derivative of OI *án*),
+  `Macha`, `Fachtna`, `Fionntan` (*Fintan* is English-only), `Barra`, `Laoise`, `splanc`,
+  `stríoc`, `matán` (the last three: still no Etymology section).
+- **Phrase**: `uisce beatha` — unchanged; use the element rows.
+
+`strands check rules/old-irish-lexicon.tsv` is silent.
