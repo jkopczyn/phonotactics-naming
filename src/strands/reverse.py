@@ -24,11 +24,17 @@ as atomic optional groups, not individual slots (V-30).
 closure that composes two rules only when the producing rule runs FIRST (V-11/V-28). Each section
 expands over its own inventory (V-29). `un_substitute` walks a parsed pattern back across it.
 
-Later tasks add `widen` (§3.3), `expand`, `verify` and the report; the dataclasses they need
-(`Source`, `Deletion`, `OptionalGroup`) live here.
+`widen` (§3.3) adds the `[repair]`/`[post-stress]` readings and the optional groups; the
+constraint set, `render_pattern` and `report` print §4; and `expand`/`verify` (§3.5) turn a
+pattern into concrete Irish candidates, cheapest first under a hard cap of 2000, spell each one
+with `g2p_inverse.spell` and run EVERY spelling forward through the real engine, keeping only
+what `fnmatchcase` says really matches (V-22 … V-26, V-34). Nothing is printed as a concrete
+word that has not been through `run_entry`.
 """
 from __future__ import annotations
 
+import fnmatch
+import heapq
 import itertools
 import re
 import unicodedata
@@ -47,7 +53,8 @@ __all__ = [
     "parse_pattern", "parse_ipa_pattern", "SourceMap", "section_inventory", "expand_target",
     "source_map", "un_substitute", "WIDEN_SECTIONS", "widen", "RULE_COL", "FORWARD_STAGES",
     "ConstraintLine", "Constraint", "Example", "format_rule_line", "constraints",
-    "dropped_lines", "render_pattern", "report",
+    "dropped_lines", "render_pattern", "report", "CAP", "PALETTE", "STAR_LENGTHS",
+    "Candidate", "rank", "expand", "verify",
 ]
 
 ANY, ONE, SEG = "any", "one", "seg"
@@ -1244,3 +1251,251 @@ def report(word: str, strand: str, pattern: Pattern, examples: Sequence[Example]
     out.append(header)
     out.extend(_example_lines(examples) if examples else ["  none"])
     return out
+
+
+# ---- expansion and verification (spec §3.5; V-22 … V-26, V-30, V-34) ---------------------------
+
+CAP = 2000                            # R4: candidates per word; no --cap flag in v1
+
+#: R5's palette in Irish IPA: the five short vowels, then `r l n m s d t c g b` broad (V-23).
+PALETTE = ("a", "ɛ", "ɪ", "ɔ", "ʊ", "ɾˠ", "l̪ˠ", "n̪ˠ", "mˠ", "sˠ",
+           "d̪ˠ", "t̪ˠ", "k", "ɡ", "bˠ")
+STAR_LENGTHS = (0, 1, 2)              # R5: a `*` is filled with 0, 1 then 2 palette segments
+
+_RANK_OF_KIND = {"identity": 0, "rule": 1, "fallback": 3, "epenthesis": 4}
+_GROUP_CAP = 64                       # present combinations kept per optional group
+#: `ˈ ˌ .` only — `$` and the space of `MARKS` are not stress marks (V-25).
+_STRESS_MARKS = "ˈˌ."
+
+
+@dataclass(frozen=True)
+class Candidate:
+    segments: tuple[str, ...]
+    rank: int
+
+
+@dataclass(frozen=True)
+class _Option:
+    """One filling of one unit — a slot, or a whole optional group (V-24)."""
+    segments: tuple[str, ...]
+    rank: int
+
+
+def _unmark(text: str) -> str:
+    """`ˈ ˌ .` stripped: stress is ignored everywhere in reverse (V-18, V-25)."""
+    return "".join(ch for ch in text if ch not in _STRESS_MARKS)
+
+
+def rank(alt: Alternative) -> int:
+    """V-22: the alternative's OLDEST step — the `[substitute]` one — decides its cost.
+    `0` identity, `1` rule, `2` rule tagged `%design`, `3` fallback, `4` epenthesis."""
+    if not alt.steps:
+        return 0
+    step = alt.steps[-1]
+    base = _RANK_OF_KIND.get(step.kind, 1)
+    return 2 if base == 1 and step.tag == "design" else base
+
+
+def _alt_options(alts: Sequence[Alternative]) -> list[_Option]:
+    """A slot's alternatives as options, cheapest first — a STABLE sort, so alternatives of
+    equal rank keep their file order (V-22, V-24)."""
+    options = [_Option(segments=alt.segments, rank=rank(alt)) for alt in alts]
+    return sorted(options, key=lambda option: option.rank)
+
+
+def _palette_options() -> list[_Option]:
+    """A `ONE` slot with no inverted class draws from the palette (V-23). A palette segment is
+    an Irish segment taken as itself, so it costs what an identity source costs."""
+    return [_Option(segments=(seg,), rank=0) for seg in PALETTE]
+
+
+def _star_options() -> list[_Option]:
+    """0, then 1, then 2 palette segments — 1 + 15 + 225 = 241 fillings, in that order
+    (V-23)."""
+    options = [_Option(segments=(), rank=0)]
+    for length in STAR_LENGTHS[1:]:
+        for combination in itertools.product(PALETTE, repeat=length):
+            options.append(_Option(segments=combination, rank=0))
+    return options
+
+
+def _slot_options(slot: Slot) -> list[_Option]:
+    """The option list of one slot.
+
+    A `SEG` slot whose alternatives were all dropped by `un_substitute` has NO Irish source at
+    all (Welsh `th` ← /θ/, which no Irish segment reaches), so its option list is empty and the
+    word has no candidates. That is the one place reverse does not over-generate: inventing a
+    palette filling there would claim an Irish source the map denies.
+    """
+    if slot.kind == ANY:
+        return _star_options()
+    if slot.alts:
+        return _alt_options(slot.alts)
+    if slot.kind == ONE:
+        return _palette_options()
+    return []
+
+
+def _group_options(slots: Sequence[Slot], group: OptionalGroup) -> list[_Option]:
+    """One option list shared by the whole span, so the group is present or absent ATOMICALLY
+    (V-30): a two-segment insertion can never be half-filled.
+
+    Option 0 is `absent` at rank 0 (V-22) — the span's letters were inserted by the rule, so
+    the Irish word carries nothing for them. Then each present combination: the span's slots
+    filled from their own alternatives, ordered by summed rank, capped at `_GROUP_CAP`.
+    """
+    options = [_Option(segments=(), rank=0)]
+    per_slot = [_slot_options(slot) for slot in slots[group.start:group.stop]]
+    if any(not column for column in per_slot):
+        return options
+    combinations = itertools.islice(itertools.product(*per_slot), _GROUP_CAP)
+    present = [_Option(segments=tuple(seg for option in combo for seg in option.segments),
+                       rank=max(option.rank for option in combo))
+               for combo in combinations]
+    options.extend(sorted(present, key=lambda option: option.rank))
+    return options
+
+
+def _units(pattern: Pattern) -> list[list[_Option]]:
+    """The pattern as independent option lists, left to right: one per slot, except that an
+    optional group's whole span is a SINGLE unit (V-24, V-30)."""
+    groups = {group.start: group for group in pattern.groups}
+    units: list[list[_Option]] = []
+    index = 0
+    while index < len(pattern.slots):
+        group = groups.get(index)
+        if group is not None:
+            units.append(_group_options(pattern.slots, group))
+            index = group.stop
+            continue
+        units.append(_slot_options(pattern.slots[index]))
+        index += 1
+    return units
+
+
+def expand(pattern: Pattern, *, cap: int = CAP):
+    """Concrete Irish candidates, breadth-first and cheapest first (spec §3.5, V-24).
+
+    Per-unit option lists are rank-ordered (V-22), so a candidate's cost is the SUM of its
+    chosen option indices; candidates come out by ascending cost, ties broken lexicographically
+    by the index tuple. A `heapq` over index tuples means the cap can be applied without
+    materialising the product. `Candidate.rank` is that cost — 0 for the cheapest candidate,
+    which is the one whose every unit took its cheapest source.
+
+    Duplicate segment sequences (two index tuples that spell the same Irish word) are emitted
+    once; `cap` counts what is emitted.
+    """
+    units = _units(pattern)
+    if any(not unit for unit in units):
+        return
+    if not units:
+        yield Candidate(segments=(), rank=0)
+        return
+
+    start = (0,) * len(units)
+    heap: list[tuple[int, tuple[int, ...]]] = [(0, start)]
+    queued = {start}
+    emitted: set[tuple[str, ...]] = set()
+    count = 0
+    while heap and count < cap:
+        cost, indexes = heapq.heappop(heap)
+        segments = tuple(seg for unit, i in zip(units, indexes) for seg in unit[i].segments)
+        if segments not in emitted:
+            emitted.add(segments)
+            count += 1
+            yield Candidate(segments=segments, rank=cost)
+        for position, index in enumerate(indexes):
+            if index + 1 < len(units[position]):
+                nxt = indexes[:position] + (index + 1,) + indexes[position + 1:]
+                if nxt not in queued:
+                    queued.add(nxt)
+                    heapq.heappush(heap, (cost + 1, nxt))
+
+
+def _matches(text: str, pattern: str) -> bool:
+    """V-25: `fnmatchcase` on both sides NFC-normalized and casefolded BY US, so the host OS's
+    case rules never enter."""
+    return fnmatch.fnmatchcase(_fold(text), _fold(pattern))
+
+
+def _forward(spelling: str, irish: RuleFile, target: RuleFile, table: FeatureTable):
+    """One real forward run, or `None` when the engine cannot run this candidate (V-26).
+
+    A synthetic candidate is allowed to be unpronounceable: `MissingSlot`, `SegmentError`,
+    `RuleError` and `ConstructionNotInStrand` are caught and counted, never propagated.
+    """
+    from . import g2p, inputs, pipeline
+    from .irish import MissingSlot
+    from .rewrite import RuleError
+
+    try:
+        entry = inputs.infer(inputs.Entry(orthography=spelling, ipa=g2p.g2p(spelling)[0]),
+                             irish, table)
+        return pipeline.run_entry(entry, "DESC", irish, target, table)
+    except (MissingSlot, SegmentError, RuleError, pipeline.ConstructionNotInStrand,
+            g2p.G2PError):
+        return None
+
+
+def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTable,
+           *, limit: int = 8, cap: int = CAP, ipa_mode: bool = False,
+           raw_pattern: str | None = None) -> tuple[tuple[Example, ...], int, bool]:
+    """Run candidates forward and keep the ones that really match (spec §3.5, V-26, V-34).
+
+    Every spelling `g2p_inverse.spell` returns is tried, not just the first: the spelling that
+    matches is frequently not the first one (Georgian `Ar*v*` wants *ardmhaor*, and ⟨bh⟩
+    precedes ⟨mh⟩ in the `g2p` table). A `(segments, spelling)` pair already tried is skipped
+    before any forward work — the same spelling reaches the same `Result` — so `tried` counts
+    UNIQUE forward runs, and `cap` bounds that same counter as well as the candidate stream.
+
+    Returns `(examples, tried, cap_hit)`; examples are sorted by
+    `(fallbacks, len(flags), rank, spelling_index)`, de-duplicated by orthography and truncated
+    to `limit`.
+    """
+    wanted = pattern.text if raw_pattern is None else raw_pattern
+    found: list[Example] = []
+    seen: set[tuple[tuple[str, ...], str]] = set()
+    tried = 0
+    produced = 0
+    cap_hit = False
+
+    for candidate in expand(pattern, cap=cap):
+        produced += 1
+        if tried >= cap:
+            cap_hit = True
+            break
+        for index, spelling in enumerate(g2p_inverse.spell(candidate.segments)):
+            key = (candidate.segments, spelling)
+            if key in seen:
+                continue
+            seen.add(key)
+            if tried >= cap:
+                cap_hit = True
+                break
+            tried += 1
+            result = _forward(spelling, irish, target, table)
+            if result is None:
+                continue
+            text = _unmark(result.ipa) if ipa_mode else result.respelling
+            if not _matches(text, wanted):
+                continue
+            found.append(Example(orthography=spelling, respelling=result.respelling,
+                                 # Stress is ignored everywhere in reverse (V-18), and spec §4's
+                                 # own example block prints unmarked IPA.
+                                 ipa=_unmark(result.ipa), flags=result.flags,
+                                 fallbacks=result.fallbacks, rank=candidate.rank,
+                                 spelling_index=index))
+    if produced >= cap:
+        cap_hit = True
+
+    ordered = sorted(found, key=lambda e: (e.fallbacks, len(e.flags), e.rank, e.spelling_index))
+    examples: list[Example] = []
+    printed: set[str] = set()
+    for example in ordered:
+        if example.orthography in printed:
+            continue
+        printed.add(example.orthography)
+        examples.append(example)
+        if len(examples) == limit:
+            break
+    return tuple(examples), tried, cap_hit
