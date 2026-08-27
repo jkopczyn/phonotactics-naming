@@ -207,3 +207,40 @@ def test_cli_entry_point_prints_no_traceback(tmp_path):
 def test_check_accepts_a_lexicon_tsv():
     from strands.cli import main
     assert main(["check", str(ROOT / "rules" / "old-irish-lexicon.tsv")]) == 0
+
+
+# ---- Old Irish (plan Task 17; O-17, O-23) ------------------------------------------------------
+
+def test_run_accepts_the_fifth_strand(tmp_path):
+    from strands.cli import main
+    out = tmp_path / "out.tsv"
+    assert main(["run", str(FIX), "--strand", "old-irish", "--out", str(out)]) == 0
+    assert "old-irish" in out.read_text(encoding="utf-8")
+
+
+def test_a_construction_the_strand_lacks_is_a_skipped_row_not_an_error(tmp_path):
+    """O-17: PATRO_NI for old-irish, MAEL for welsh — both are skips."""
+    from strands.cli import main
+    out = tmp_path / "out.tsv"
+    assert main(["run", str(FIX), "--strand", "all", "--construction", "all",
+                 "--out", str(out)]) == 0
+    assert "skipped:construction-not-in-strand" in out.read_text(encoding="utf-8")
+
+
+def test_explain_warns_when_no_orthography_is_given_for_old_irish(capsys):
+    """O-23: lookup keys on orthography, which a bare IPA argument cannot supply."""
+    from strands.cli import main
+    assert main(["explain", "nʲiəl̪ˠ", "--strand", "old-irish"]) == 0
+    out = capsys.readouterr().out
+    assert "RETRO" in out and "--orthography" in out
+
+
+def test_explain_uses_the_orthography_for_the_lookup(capsys):
+    from strands.cli import main
+    assert main(["explain", "nʲiəl̪ˠ", "--strand", "old-irish", "--orthography", "Niall"]) == 0
+    assert "ATTESTED" in capsys.readouterr().out
+
+
+def test_check_passes_on_the_old_irish_rule_file():
+    from strands.cli import main
+    assert main(["check", str(ROOT / "rules" / "old-irish.rules")]) == 0

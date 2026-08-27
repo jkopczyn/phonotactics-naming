@@ -1,7 +1,7 @@
 """Command-line entry point (spec §6; plan Tasks 6 and 27).
 
     strands run   INPUT.tsv [--strand X|all] [--construction NAME|all] [--out out.tsv]
-    strands explain WORD --strand X [--construction NAME]
+    strands explain WORD --strand X [--construction NAME] [--orthography TEXT]
     strands gallery INPUT.tsv [--out gallery.md]
     strands lint  INPUT.tsv [--accept]
     strands check [--features PATH] RULES.rules|LEXICON.tsv ...
@@ -24,6 +24,13 @@ is SKIPPED: the row is still written, with empty output columns and a `skipped:.
 `lint` prints `inputs.lint_report`; `--accept` writes the guesses back — including an `ipa`
 constructed from the spelling by `strands.g2p` (spec §5, milestone 8), which also gets a
 `note` saying so.
+
+Old Irish (plan Task 17; O-17, O-23): a construction the strand has no template for
+(`PATRO_NI` for old-irish, `MAEL` for welsh) is a `skipped:construction-not-in-strand` row.
+The Old Irish lookup keys on the **orthography**, which a bare IPA `WORD` cannot supply, so
+`explain --orthography TEXT` makes TEXT the lookup key and the aligner's input; without it,
+`explain --strand old-irish` runs the pure retro path and says so in a one-line note, since a
+silent `RETRO` looks like a lexicon miss.
 """
 
 from __future__ import annotations
@@ -225,7 +232,8 @@ def format_trace(result, citations: dict[str, str]) -> list[str]:
 
 
 def cmd_explain(args: Sequence[str]) -> int:
-    (word,), opts = _parse(args, {"--strand": True, "--construction": True}, 1)
+    (word,), opts = _parse(args, {"--strand": True, "--construction": True,
+                                  "--orthography": True}, 1)
     if "--strand" not in opts:
         raise UsageError("explain needs --strand")
     strand = _strands(str(opts["--strand"]))
@@ -240,12 +248,19 @@ def cmd_explain(args: Sequence[str]) -> int:
     from .inputs import Entry, infer
     from .pipeline import run_entry
     from .tokenize import SegmentError
+    orthography = opts.get("--orthography")
+    is_old_irish = rf.meta.get("strand", "").strip() == "old-irish"
     try:
-        entry = infer(Entry(orthography=word, ipa=word), irish, table)
+        entry = infer(Entry(orthography=str(orthography or word), ipa=word), irish, table)
         result = run_entry(entry, construction, irish, rf, table)
     except SegmentError as e:
         raise RuntimeError(f"{word}: {e}") from e
     print(f"{word}  [{name}, {construction}]")
+    if orthography is not None:
+        print(f"orthography: {orthography}")
+    elif is_old_irish:
+        print("note: no --orthography given, so the lexicon lookup (which keys on the "
+              "citation spelling, O-23) cannot hit; this is the pure RETRO path")
     print(f"respelling: {result.respelling}")
     print(f"ipa:        {result.ipa}")
     if result.flags:
@@ -351,7 +366,7 @@ def _check(argv: list[str]) -> int:
 
 _USAGE = {
     "run": "strands run INPUT.tsv [--strand X|all] [--construction NAME|all] [--out out.tsv]",
-    "explain": "strands explain WORD --strand X [--construction NAME]",
+    "explain": "strands explain WORD --strand X [--construction NAME] [--orthography TEXT]",
     "gallery": "strands gallery INPUT.tsv [--out gallery.md]",
     "lint": "strands lint INPUT.tsv [--accept]",
 }
