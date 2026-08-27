@@ -64,25 +64,25 @@ UNMARKED = p b t d f v s m n l r
 # (a) Lenition digraphs -> the lenited series (digest §10.1 chart; §10.2 point 1: "written
 #     ph th ch when lenited", point 2: ⟨b d g⟩ non-initially = /v ð ɣ/). Each pair keeps the
 #     modern quality (R11): the broad and slender branches are matched by class + spelling.
-[BROAD orth="bh"] -> β                  %attested # digest §10.1; lexicon dubh ~ dub, sliabh ~ slíab
-[SLEN  orth="bh"] -> βʲ                 %attested # digest §10.1; lexicon bhí (modern /vʲ/) ~ bí
+[BROAD orth="bh"] -> β                  %attested # digest §10.1; [old-irish-lexicon] dubh ~ dub, sliabh ~ slíab
+[SLEN  orth="bh"] -> βʲ                 %attested # digest §10.1; [old-irish-lexicon] bhí (modern /vʲ/) ~ bí
 # ⟨mh⟩ -> /β̃/ is a good DEFAULT, not a law (S16): *naomh ~ noíb* and *claíomh ~ claideb* are
 # attested rows where modern ⟨mh⟩ descends from Old Irish ⟨b⟩ /β/; the lexicon wins there.
-[BROAD orth="mh"] -> β̃                  %attested # digest §10.1; lexicon lámh ~ lám, Domhnall ~ Domnall
-[SLEN  orth="mh"] -> β̃ʲ                 %attested # digest §10.1; lexicon Niamh ~ Niam
-[BROAD orth="dh"] -> ð                  %attested # digest §10.2 point 2; lexicon adharc ~ adarc
+[BROAD orth="mh"] -> β̃                  %attested # digest §10.1; [old-irish-lexicon] lámh ~ lám, Domhnall ~ Domnall
+[SLEN  orth="mh"] -> β̃ʲ                 %attested # digest §10.1; [old-irish-lexicon] Niamh ~ Niam
+[BROAD orth="dh"] -> ð                  %attested # digest §10.2 point 2; [old-irish-lexicon] adharc ~ adarc
 # Modern slender ⟨dh gh⟩ is the glide /j/ (in SLEN, per the I-41 copy above).
 [SLEN  orth="dh"] -> ðʲ                 %design   # digest §10.2 point 2 (slender ⟨dh⟩ = /ðʲ/, §10.1 chart)
-[BROAD orth="gh"] -> ɣ                  %attested # digest §10.2 point 2; lexicon Lughaidh ~ Lugaid
-[SLEN  orth="gh"] -> ɣʲ                 %attested # digest §10.2 point 2; lexicon Lughaidh ~ Lugaid (final ⟨-aidh⟩)
-[BROAD orth="ch"] -> x                  %attested # digest §10.2 point 1; lexicon cloch ~ cloch (identity: fixes /x/)
-[SLEN  orth="ch"] -> ç                  %attested # digest §10.2 point 1; lexicon cheann ~ cenn (identity: fixes /ç/ = /xʲ/, O-1)
+[BROAD orth="gh"] -> ɣ                  %attested # digest §10.2 point 2; [old-irish-lexicon] Lughaidh ~ Lugaid
+[SLEN  orth="gh"] -> ɣʲ                 %attested # digest §10.2 point 2; [old-irish-lexicon] Lughaidh ~ Lugaid (final ⟨-aidh⟩)
+[BROAD orth="ch"] -> x                  %attested # digest §10.2 point 1; [old-irish-lexicon] cloch ~ cloch (identity: fixes /x/)
+[SLEN  orth="ch"] -> ç                  %attested # digest §10.2 point 1; [old-irish-lexicon] cheann ~ cenn (identity: fixes /ç/ = /xʲ/, O-1)
 # ⟨th⟩: modern /h/ carries NO quality mark, so `[BROAD orth="th"]`/`[SLEN orth="th"]` can
 # never match it. The tag fixes the segment as /θ/ (identity in spelling: *cath ~ cath*);
 # the quality then follows the modern caol-le-caol convention exactly as irish.rules
 # [normalize] gives it to an unmarked consonant (following vowel, else preceding vowel at
 # the word edge). Only ⟨th⟩ yields /θ/ here, so the quality rules need no tag.
-@orth("th") -> θ                        %attested # digest §10.2 point 1 (⟨th⟩ = /θ/); lexicon cath ~ cath, bláth ~ bláth
+@orth("th") -> θ                        %attested # digest §10.2 point 1 (⟨th⟩ = /θ/); [old-irish-lexicon] cath ~ cath, bláth ~ bláth
 θ -> θʲ / _ [V +front]                  %design   # digest §10.2 point 5 (quality from the glide vowel); irish.rules [normalize] (a)
 θ -> θʲ / [V +front] _ #                %design   # digest §10.2 point 5; irish.rules [normalize] (b)
 # ⟨ph⟩ and ⟨sh⟩ occur in NONE of the 270 attested modern keys (log finding 3): these lines
@@ -99,38 +99,38 @@ UNMARKED = p b t d f v s m n l r
 #
 # (c) ⟨ia ua⟩ -> ⟨ía úa⟩: the FIRST element only (R12, positional tags O-6). Old Irish /ia ua/
 #     are the O-28 values; the modern second element is the reduction vowel.
-@orth("ia:1") -> i                      %attested # digest §10.1 diphthongs; lexicon iasc ~ íasc, grian ~ grían, Niall ~ Níall
-@orth("ia:2") -> a                      %attested # digest §10.1 diphthongs; lexicon iasc ~ íasc (33 pairs, plan Task 9)
-@orth("ua:1") -> u                      %attested # digest §10.1 diphthongs; lexicon tuath ~ túath, cluas ~ clúas
-@orth("ua:2") -> a                      %attested # digest §10.1 diphthongs; lexicon tuath ~ túath
+@orth("ia:1") -> i                      %attested # digest §10.1 diphthongs; [old-irish-lexicon] iasc ~ íasc, grian ~ grían, Niall ~ Níall
+@orth("ia:2") -> a                      %attested # digest §10.1 diphthongs; [old-irish-lexicon] iasc ~ íasc (33 pairs, plan Task 9)
+@orth("ua:1") -> u                      %attested # digest §10.1 diphthongs; [old-irish-lexicon] tuath ~ túath, cluas ~ clúas
+@orth("ua:2") -> a                      %attested # digest §10.1 diphthongs; [old-irish-lexicon] tuath ~ túath
 #
 # (d) Quality digraphs (the largest class, 50 attested pairs — log finding 2). Modern caol le
 #     caol brackets the vowel on both sides; Old Irish marks quality by the FOLLOWING glide
 #     vowel only (digest §10.2 point 5). The vowel letter that carries the sound survives, at
 #     its modern length (spec §4: length is not reversed — R11).
-[V +long orth="ea"] -> eː               %attested # digest §10.2 point 5; lexicon beann ~ benn, ceann ~ cenn
-[V -long orth="ea"] -> e                %attested # digest §10.2 point 5; lexicon fear ~ fer, bean ~ ben, dearg ~ derg
+[V +long orth="ea"] -> eː               %attested # digest §10.2 point 5; [old-irish-lexicon] beann ~ benn, ceann ~ cenn
+[V -long orth="ea"] -> e                %attested # digest §10.2 point 5; [old-irish-lexicon] fear ~ fer, bean ~ ben, dearg ~ derg
 [V +long orth="io"] -> iː               %design   # digest §10.2 point 5
-[V -long orth="io"] -> i                %attested # digest §10.2 point 5; lexicon Fionn ~ Finn
+[V -long orth="io"] -> i                %attested # digest §10.2 point 5; [old-irish-lexicon] Fionn ~ Finn
 [V +long orth="ai"] -> aː               %design   # digest §10.2 point 5 (R10: `ai` is a real aligner unit)
-[V -long orth="ai"] -> a                %attested # digest §10.2 point 5; lexicon athair ~ athair (unstressed ⟨ai⟩ = /ə/ -> a)
+[V -long orth="ai"] -> a                %attested # digest §10.2 point 5; [old-irish-lexicon] athair ~ athair (unstressed ⟨ai⟩ = /ə/ -> a)
 [V +long orth="oi"] -> oː               %design   # digest §10.2 point 5
-[V -long orth="oi"] -> o                %attested # digest §10.2 point 5; lexicon cloch ~ cloch (gen. cloiche)
+[V -long orth="oi"] -> o                %attested # digest §10.2 point 5; [old-irish-lexicon] cloch ~ cloch (gen. cloiche)
 [V +long orth="ui"] -> uː               %design   # digest §10.2 point 5
 [V -long orth="ui"] -> u                %design   # digest §10.2 point 5
 #
 # (e) The lax short vowels collapse onto digest §10.1's five short vowels (sound-driven).
 #     No `ea -> ɑ` / `a -> ɑ` (S3): irish.rules [normalize] folds ɑ -> a first.
-ɪ -> i                                  %attested # digest §10.1 (5 short vowels) [pokorny1914-oldirish-grammar p.6 §4]; lexicon Fionn ~ Finn
-ʊ -> u                                  %attested # digest §10.1; lexicon dubh ~ dub
+ɪ -> i                                  %attested # digest §10.1 (5 short vowels) [pokorny1914-oldirish-grammar p.6 §4]; [old-irish-lexicon] Fionn ~ Finn
+ʊ -> u                                  %attested # digest §10.1; [old-irish-lexicon] dubh ~ dub
 ɛ -> e                                  %design   # digest §10.1
-ɔ -> o                                  %attested # digest §10.1; lexicon gorm ~ gorm, cloch ~ cloch
+ɔ -> o                                  %attested # digest §10.1; [old-irish-lexicon] gorm ~ gorm, cloch ~ cloch
 #
 # (f) The epenthetic schwa (spec §8 row O5; digest §2.4). By spelling first: the aligner tags
 #     it as the SECOND segment of a single sonorant letter (*gorm* -> g o r:1 r:2 m), which
 #     fires only where the spelling shows no vowel. Then by sound, for untagged words (O-15).
-@orth("r:2") -> 0                       %attested # digest §2.4; lexicon gorm ~ gorm, dearg ~ derg
-@orth("l:2") -> 0                       %attested # digest §2.4; lexicon Colmán ~ Colmán
+@orth("r:2") -> 0                       %attested # digest §2.4; [old-irish-lexicon] gorm ~ gorm, dearg ~ derg
+@orth("l:2") -> 0                       %attested # digest §2.4; [old-irish-lexicon] Colmán ~ Colmán
 @orth("n:2") -> 0                       %design   # digest §2.4
 @orth("m:2") -> 0                       %design   # digest §2.4
 ə -> 0 / SONORANT _ C                   %design   # digest §2.4 (after a sonorant, before a consonant — O-15)
@@ -226,9 +226,9 @@ bˠ -> "b" / {mˠ mʲ} _                   %design   # digest §10.4 (⟨mb⟩ /
 bʲ -> "b" / {mˠ mʲ} _                   %design   # digest §10.4; §10.2 conv. 4 (*imb*)
 d̪ˠ -> "d" / {n̪ˠ nʲ ɾˠ ɾʲ} _             %design   # digest §10.4 (⟨nd⟩); §10.2 conv. 4 (*bind*, *cerd*)
 dʲ -> "d" / {n̪ˠ nʲ ɾˠ ɾʲ} _             %design   # digest §10.4 (⟨nd⟩); §10.2 conv. 4 (*bind*, *cerd*)
-ɡ -> "g" / {ŋ ɲ l̪ˠ lʲ ɾˠ ɾʲ} _          %attested # digest §10.4 (⟨ng⟩); §10.2 conv. 4 (*long*, *delg*); lexicon dearg ~ derg
+ɡ -> "g" / {ŋ ɲ l̪ˠ lʲ ɾˠ ɾʲ} _          %attested # digest §10.4 (⟨ng⟩); §10.2 conv. 4 (*long*, *delg*); [old-irish-lexicon] dearg ~ derg
 ɟ -> "g" / {ŋ ɲ l̪ˠ lʲ ɾˠ ɾʲ} _          %design   # digest §10.4 (⟨ng⟩); §10.2 conv. 4 (*delg* /dʲelɡ/)
-k -> "c" / SONORANT _                   %attested # digest §10.2 conv. 4 (*derc*, *daltae* ~ *celtae*: no doubling after l n r m); lexicon adharc ~ adarc
+k -> "c" / SONORANT _                   %attested # digest §10.2 conv. 4 (*derc*, *daltae* ~ *celtae*: no doubling after l n r m); [old-irish-lexicon] adharc ~ adarc
 c -> "c" / SONORANT _                   %design   # digest §10.2 conv. 4
 t̪ˠ -> "t" / SONORANT _                  %design   # digest §10.2 conv. 4 (*daltae* /daLte/)
 tʲ -> "t" / SONORANT _                  %design   # digest §10.2 conv. 4
@@ -239,26 +239,26 @@ pʲ -> "p" / SONORANT _                  %design   # digest §10.2 conv. 4; /p/ 
 #     or the unaspirated sounds" [pokorny1914-oldirish-grammar p.7 §8]. THERE IS NO ⟨bh dh gh
 #     mh⟩ IN OLD IRISH — the single biggest visual difference from a modern name and the
 #     lexicon log's largest reversal class.
-β -> "b"                                %attested # digest §10.2 conv. 1 [pokorny1914-oldirish-grammar p.7 §8]; lexicon dubh ~ dub, sliabh ~ slíab
-βʲ -> "b"                               %attested # digest §10.2 conv. 1; lexicon sliabh ~ slíab (gen. sléibe)
-ð -> "d"                                %attested # digest §10.2 conv. 1; lexicon adharc ~ adarc
-ðʲ -> "d"                               %attested # digest §10.2 conv. 1; lexicon Lughaidh ~ Lugaid (final ⟨-aid⟩)
-ɣ -> "g"                                %attested # digest §10.2 conv. 1; lexicon Lughaidh ~ Lugaid
-ɣʲ -> "g"                               %attested # digest §10.2 conv. 1; lexicon Lughaidh ~ Lugaid (gen. Luigdech)
-β̃ -> "m"                                %attested # digest §10.2 conv. 1; lexicon lámh ~ lám
-β̃ʲ -> "m"                               %attested # digest §10.2 conv. 1; lexicon Niamh ~ ném
+β -> "b"                                %attested # digest §10.2 conv. 1 [pokorny1914-oldirish-grammar p.7 §8]; [old-irish-lexicon] dubh ~ dub, sliabh ~ slíab
+βʲ -> "b"                               %attested # digest §10.2 conv. 1; [old-irish-lexicon] sliabh ~ slíab (gen. sléibe)
+ð -> "d"                                %attested # digest §10.2 conv. 1; [old-irish-lexicon] adharc ~ adarc
+ðʲ -> "d"                               %attested # digest §10.2 conv. 1; [old-irish-lexicon] Lughaidh ~ Lugaid (final ⟨-aid⟩)
+ɣ -> "g"                                %attested # digest §10.2 conv. 1; [old-irish-lexicon] Lughaidh ~ Lugaid
+ɣʲ -> "g"                               %attested # digest §10.2 conv. 1; [old-irish-lexicon] Lughaidh ~ Lugaid (gen. Luigdech)
+β̃ -> "m"                                %attested # digest §10.2 conv. 1; [old-irish-lexicon] lámh ~ lám
+β̃ʲ -> "m"                               %attested # digest §10.2 conv. 1; [old-irish-lexicon] Niamh ~ ném
 #
 # (3) Written lenition: "only in the case of c, p, t is aspiration regularly expressed in
 #     writing" (conv. 1) — ⟨ch th ph⟩; "in later Old Irish, initial f s come to be written
 #     ḟ ṡ". ⟨ph⟩ and ⟨ṡ⟩ only where the SOURCE spelling was ⟨ph⟩ / ⟨sh⟩ (the orth tag
 #     survives [substitute]'s rewrite); an /f/ or /h/ of any other origin is ⟨f⟩ / ⟨h⟩.
-x -> "ch"                               %attested # digest §10.2 conv. 1; lexicon cloch ~ cloch
+x -> "ch"                               %attested # digest §10.2 conv. 1; [old-irish-lexicon] cloch ~ cloch
 ç -> "ch"                               %design   # digest §10.2 conv. 1 (⟨ch⟩ = /x/; /xʲ/ IS ç, O-1)
-θ -> "th"                               %attested # digest §10.2 conv. 1; lexicon bláth ~ bláth, cath ~ cath
+θ -> "th"                               %attested # digest §10.2 conv. 1; [old-irish-lexicon] bláth ~ bláth, cath ~ cath
 θʲ -> "th"                              %design   # digest §10.2 conv. 1
 @orth("ph") -> "ph"                     %design   # digest §10.2 conv. 1 (⟨ph⟩ = /f/); no attested pair (log finding 3)
-fˠ -> "f"                               %attested # digest §10.2 master table (⟨f⟩ = /f/); lexicon Fionn ~ Finn
-fʲ -> "f"                               %attested # digest §10.2 master table; lexicon fear ~ fer
+fˠ -> "f"                               %attested # digest §10.2 master table (⟨f⟩ = /f/); [old-irish-lexicon] Fionn ~ Finn
+fʲ -> "f"                               %attested # digest §10.2 master table; [old-irish-lexicon] fear ~ fer
 @orth("sh") -> "ṡ"                      %design   # digest §10.2 conv. 1 (later Old Irish ⟨ṡ⟩ = /h/); punctum = off renders ⟨s⟩ (O-14)
 h -> "h"                                %design   # digest §10.2 conv. 6 (⟨h⟩ = /h/ where a sound is written at all)
 #
@@ -272,14 +272,14 @@ u i -> "uí"                             %design   # digest §10.1 diphthongs; O
 a u -> "áu"                             %design   # digest §10.1 diphthongs; O-28
 e u -> "éu"                             %design   # digest §10.1 diphthongs; O-28 (lexicon éan ~ én, gen. éuin)
 i u -> "íu"                             %design   # digest §10.1 diphthongs; O-28
-i a -> "ía"                             %attested # digest §10.1 diphthongs; lexicon iasc ~ íasc, Niall ~ Níall
-u a -> "úa"                             %attested # digest §10.1 diphthongs; lexicon tuath ~ túath
-ə i -> "aí"                             %design   # digest §10.1 diphthongs (the modern /əi/ pass-through of [syllable] nuclei, O-28); lexicon Tadhg ~ Tadg is the lexicon's own spelling
+i a -> "ía"                             %attested # digest §10.1 diphthongs; [old-irish-lexicon] iasc ~ íasc, Niall ~ Níall
+u a -> "úa"                             %attested # digest §10.1 diphthongs; [old-irish-lexicon] tuath ~ túath
+ə i -> "aí"                             %design   # digest §10.1 diphthongs (the modern /əi/ pass-through of [syllable] nuclei, O-28); [old-irish-lexicon] Tadhg ~ Tadg is the lexicon's own spelling
 ə u -> "áu"                             %design   # digest §10.1 diphthongs (the modern /əu/ pass-through, O-28)
 #
 # (5) Length: the acute (spec §6; digest §10.1).
-aː -> "á"                               %attested # digest §10.1 long vowels; lexicon lámh ~ lám, bláth ~ bláth
-eː -> "é"                               %attested # digest §10.1 long vowels; lexicon éan ~ én
+aː -> "á"                               %attested # digest §10.1 long vowels; [old-irish-lexicon] lámh ~ lám, bláth ~ bláth
+eː -> "é"                               %attested # digest §10.1 long vowels; [old-irish-lexicon] éan ~ én
 iː -> "í"                               %design   # digest §10.1 long vowels
 oː -> "ó"                               %design   # digest §10.1 long vowels
 uː -> "ú"                               %design   # digest §10.1 long vowels
@@ -289,11 +289,11 @@ uː -> "ú"                               %design   # digest §10.1 long vowels
 #     unmutated sound". So a non-initial voiceless stop is doubled and a non-initial voiced
 #     stop is written with the voiceless letter. This restores *mac -> macc* with no lexical
 #     list. Initial = `# _`; (1) has already claimed the post-sonorant cases.
-k -> "c" / # _                          %attested # digest §10.2 master table; lexicon cloch ~ cloch, cath ~ cath
-k -> "cc"                               %attested # digest §10.2 conv. 2-3 (*macc* /mak/); lexicon mac ~ macc
-c -> "c" / # _                          %attested # digest §10.2 master table; lexicon ceann ~ cenn
-c -> "cc"                               %attested # digest §10.2 conv. 2-3; lexicon mac ~ macc (gen. maicc)
-t̪ˠ -> "t" / # _                         %attested # digest §10.2 master table; lexicon tuath ~ túath
+k -> "c" / # _                          %attested # digest §10.2 master table; [old-irish-lexicon] cloch ~ cloch, cath ~ cath
+k -> "cc"                               %attested # digest §10.2 conv. 2-3 (*macc* /mak/); [old-irish-lexicon] mac ~ macc
+c -> "c" / # _                          %attested # digest §10.2 master table; [old-irish-lexicon] ceann ~ cenn
+c -> "cc"                               %attested # digest §10.2 conv. 2-3; [old-irish-lexicon] mac ~ macc (gen. maicc)
+t̪ˠ -> "t" / # _                         %attested # digest §10.2 master table; [old-irish-lexicon] tuath ~ túath
 t̪ˠ -> "tt"                              %design   # digest §10.2 conv. 2-3 (*bratt* /brat/)
 tʲ -> "t" / # _                         %design   # digest §10.2 master table
 tʲ -> "tt"                              %design   # digest §10.2 conv. 2-3
@@ -301,17 +301,17 @@ pˠ -> "p" / # _                         %design   # digest §10.2 master table;
 pˠ -> "pp"                              %design   # digest §10.2 conv. 2-3 (⟨pp⟩ /p/)
 pʲ -> "p" / # _                         %design   # digest §10.2 master table; /p/ marginal
 pʲ -> "pp"                              %design   # digest §10.2 conv. 2-3
-ɡ -> "g" / # _                          %attested # digest §10.2 master table; lexicon gorm ~ gorm
+ɡ -> "g" / # _                          %attested # digest §10.2 master table; [old-irish-lexicon] gorm ~ gorm
 ɡ -> "c"                                %design   # digest §10.2 conv. 2 (*bec* /bʲeɡ/); the lexicon's own rows may keep ⟨g⟩ (Tadhg ~ Tadg)
 ɟ -> "g" / # _                          %design   # digest §10.2 master table
 ɟ -> "c"                                %design   # digest §10.2 conv. 2
-d̪ˠ -> "d" / # _                         %attested # digest §10.2 master table; lexicon dubh ~ dub, dearg ~ derg
+d̪ˠ -> "d" / # _                         %attested # digest §10.2 master table; [old-irish-lexicon] dubh ~ dub, dearg ~ derg
 d̪ˠ -> "t"                               %design   # digest §10.2 conv. 2 (*brot* /brod/)
 dʲ -> "d" / # _                         %design   # digest §10.2 master table
 dʲ -> "t"                               %design   # digest §10.2 conv. 2
-bˠ -> "b" / # _                         %attested # digest §10.2 master table; lexicon bláth ~ bláth
+bˠ -> "b" / # _                         %attested # digest §10.2 master table; [old-irish-lexicon] bláth ~ bláth
 bˠ -> "p"                               %design   # digest §10.2 conv. 2 (non-initial ⟨p⟩ = /b/)
-bʲ -> "b" / # _                         %attested # digest §10.2 master table; lexicon bean ~ ben
+bʲ -> "b" / # _                         %attested # digest §10.2 master table; [old-irish-lexicon] bean ~ ben
 bʲ -> "p"                               %design   # digest §10.2 conv. 2
 #
 # (7) Sonorant geminates: "double letters mean fortis" (conv. 3), ⟨ll nn rr mm⟩ = /L N R m/
@@ -320,14 +320,14 @@ bʲ -> "p"                               %design   # digest §10.2 conv. 2
 #     lexicon-sourced word, never on filter output. *ainm -> ainmm*, *cill -> cell*,
 #     *bainne -> bannae*, *Neasa -> Nessa* are NOT derivable and are lexicon-only; what IS
 #     delivered is the spelling of a geminate that already exists.
-l̪ˠ l̪ˠ -> "ll"                            %attested # digest §10.2 conv. 3 (⟨ll⟩ /L/); lexicon Niall ~ Níall
-lʲ lʲ -> "ll"                           %attested # digest §10.2 conv. 3; lexicon cill ~ cell (gen. cille)
-n̪ˠ n̪ˠ -> "nn"                            %attested # digest §10.2 conv. 3 (⟨nn⟩ /N/); lexicon Fionn ~ Finn
-nʲ nʲ -> "nn"                           %attested # digest §10.2 conv. 3; lexicon ceann ~ cenn (gen. cinn)
+l̪ˠ l̪ˠ -> "ll"                            %attested # digest §10.2 conv. 3 (⟨ll⟩ /L/); [old-irish-lexicon] Niall ~ Níall
+lʲ lʲ -> "ll"                           %attested # digest §10.2 conv. 3; [old-irish-lexicon] cill ~ cell (gen. cille)
+n̪ˠ n̪ˠ -> "nn"                            %attested # digest §10.2 conv. 3 (⟨nn⟩ /N/); [old-irish-lexicon] Fionn ~ Finn
+nʲ nʲ -> "nn"                           %attested # digest §10.2 conv. 3; [old-irish-lexicon] ceann ~ cenn (gen. cinn)
 ɾˠ ɾˠ -> "rr"                           %design   # digest §10.2 conv. 3 (⟨rr⟩ /R/)
 ɾʲ ɾʲ -> "rr"                           %design   # digest §10.2 conv. 3
-mˠ mˠ -> "mm"                           %attested # digest §10.2 conv. 3 (⟨mm⟩ /m/); lexicon ainm ~ ainmm
-mʲ mʲ -> "mm"                           %attested # digest §10.2 conv. 3; lexicon ainm ~ ainmm
+mˠ mˠ -> "mm"                           %attested # digest §10.2 conv. 3 (⟨mm⟩ /m/); [old-irish-lexicon] ainm ~ ainmm
+mʲ mʲ -> "mm"                           %attested # digest §10.2 conv. 3; [old-irish-lexicon] ainm ~ ainmm
 #
 # (8) The §36 glide (digest §10.2 conv. 5): "before a palatal consonant at the end of a word
 #     or of a syllable (except after í, é, and the diphthongs áe/aí, óe/oí, uí) a glide-vowel
@@ -343,7 +343,7 @@ mʲ mʲ -> "mm"                           %attested # digest §10.2 conv. 3; lex
 #     (*Muirchertach* syllabifies mˠu.ɾʲçeɾˠ.t̪ˠax). The two lines are disjoint by
 #     construction (a slender consonant is followed by `#`, a consonant, or a vowel), so a
 #     final cluster (*ceinn*, *cairt*) gets one glide, not two.
-0 -> "i" / {a e o u aː oː uː} _ SLEN #  %attested # digest §10.2 conv. 5 [pokorny1914-oldirish-grammar p.14 §36]; lexicon muir ~ muir, Colmán ~ Colmán (gen. Colmáin)
+0 -> "i" / {a e o u aː oː uː} _ SLEN #  %attested # digest §10.2 conv. 5 [pokorny1914-oldirish-grammar p.14 §36]; [old-irish-lexicon] muir ~ muir, Colmán ~ Colmán (gen. Colmáin)
 0 -> "i" / {a e o u aː oː uː} _ SLEN C  %design   # digest §10.2 conv. 5 (ii) [wiki-old-irish §Orthography]; [pokorny1914-oldirish-grammar p.14 §36] ("or of a syllable")
 #
 # (9) Word-final /ə/ is the UNRESOLVED ENDING MARKER (spec §11): a grapheme token with an
@@ -356,30 +356,30 @@ mʲ mʲ -> "mm"                           %attested # digest §10.2 conv. 3; lex
 #      letter has no relation to the etymological vowel" — it is chosen by the quality of
 #      the flanking consonants. Last line: a fallback for an unclassed neighbour (/h/, a
 #      vowel, the word start), so the marker token can never leak into a medial position.
-ə -> "a" / BROAD _ BROAD                %attested # digest §10.2 conv. 5 grid (*dígal* /ˈdʲiːɣəl/) [wiki-old-irish §Vowels]; lexicon Colmán ~ Colmán
-ə -> "ai" / BROAD _ SLEN                %attested # digest §10.2 conv. 5 grid (*dígail* /ˈdʲiːɣəlʲ/); lexicon Lughaidh ~ Lugaid
+ə -> "a" / BROAD _ BROAD                %attested # digest §10.2 conv. 5 grid (*dígal* /ˈdʲiːɣəl/) [wiki-old-irish §Vowels]; [old-irish-lexicon] Colmán ~ Colmán
+ə -> "ai" / BROAD _ SLEN                %attested # digest §10.2 conv. 5 grid (*dígail* /ˈdʲiːɣəlʲ/); [old-irish-lexicon] Lughaidh ~ Lugaid
 ə -> "e" / SLEN _ BROAD                 %design   # digest §10.2 conv. 5 grid (*dliged* /ˈdʲlʲiɣʲəð/)
 ə -> "i" / SLEN _ SLEN                  %design   # digest §10.2 conv. 5 grid (*dligid* /ˈdʲlʲiɣʲəðʲ/)
 ə -> "a"                                %fallback # design: digest §10.2 conv. 5 (broad default where no flanking consonant is classed); keeps the ending token out of medial position
 #
 # (11) Identity (S21): written explicitly rather than left to the stage's pass-through, so
 #      the section is complete over the inventory and the R27 property is checkable.
-a -> "a"                                %attested # digest §10.1 short vowels; lexicon cath ~ cath
-e -> "e"                                %attested # digest §10.1 short vowels; lexicon fear ~ fer
-i -> "i"                                %attested # digest §10.1 short vowels; lexicon Fionn ~ Finn
-o -> "o"                                %attested # digest §10.1 short vowels; lexicon cloch ~ cloch
-u -> "u"                                %attested # digest §10.1 short vowels; lexicon dubh ~ dub
+a -> "a"                                %attested # digest §10.1 short vowels; [old-irish-lexicon] cath ~ cath
+e -> "e"                                %attested # digest §10.1 short vowels; [old-irish-lexicon] fear ~ fer
+i -> "i"                                %attested # digest §10.1 short vowels; [old-irish-lexicon] Fionn ~ Finn
+o -> "o"                                %attested # digest §10.1 short vowels; [old-irish-lexicon] cloch ~ cloch
+u -> "u"                                %attested # digest §10.1 short vowels; [old-irish-lexicon] dubh ~ dub
 æ -> "a"                                %design   # design: digest §10.1 (u-infected /a/, marginal); no held source gives its letter — ⟨a⟩ keeps the output tokenizable (R27)
-sˠ -> "s"                               %attested # digest §10.2 master table; lexicon sliabh ~ slíab
-ʃ -> "s"                                %attested # digest §10.2 master table (no slender letter, conv. 5); lexicon sliabh ~ slíab
-l̪ˠ -> "l"                               %attested # digest §10.2 master table; lexicon cloch ~ cloch
-lʲ -> "l"                               %attested # digest §10.2 master table; lexicon sliabh ~ slíab
-n̪ˠ -> "n"                               %attested # digest §10.2 master table; lexicon éan ~ én
-nʲ -> "n"                               %attested # digest §10.2 master table; lexicon Niall ~ Níall
-ɾˠ -> "r"                               %attested # digest §10.2 master table; lexicon gorm ~ gorm
-ɾʲ -> "r"                               %attested # digest §10.2 master table; lexicon muir ~ muir
-mˠ -> "m"                               %attested # digest §10.2 master table; lexicon mac ~ macc
-mʲ -> "m"                               %attested # digest §10.2 master table; lexicon Niamh ~ ném
+sˠ -> "s"                               %attested # digest §10.2 master table; [old-irish-lexicon] sliabh ~ slíab
+ʃ -> "s"                                %attested # digest §10.2 master table (no slender letter, conv. 5); [old-irish-lexicon] sliabh ~ slíab
+l̪ˠ -> "l"                               %attested # digest §10.2 master table; [old-irish-lexicon] cloch ~ cloch
+lʲ -> "l"                               %attested # digest §10.2 master table; [old-irish-lexicon] sliabh ~ slíab
+n̪ˠ -> "n"                               %attested # digest §10.2 master table; [old-irish-lexicon] éan ~ én
+nʲ -> "n"                               %attested # digest §10.2 master table; [old-irish-lexicon] Niall ~ Níall
+ɾˠ -> "r"                               %attested # digest §10.2 master table; [old-irish-lexicon] gorm ~ gorm
+ɾʲ -> "r"                               %attested # digest §10.2 master table; [old-irish-lexicon] muir ~ muir
+mˠ -> "m"                               %attested # digest §10.2 master table; [old-irish-lexicon] mac ~ macc
+mʲ -> "m"                               %attested # digest §10.2 master table; [old-irish-lexicon] Niamh ~ ném
 ŋ -> "n"                                %design   # digest §10.2 master table (⟨ng⟩ /ŋ/: the ⟨g⟩ is the stop's letter, written by (1))
 ɲ -> "n"                                %design   # digest §10.2 master table
 # Filter-only transients: [substitute] (g) rewrites /w vʲ/ before this stage; the lines
@@ -409,7 +409,7 @@ LEN:
 # digest §10.4 [wiki-old-irish §Orthography; pokorny1914-oldirish-grammar p.7 §7]: "only in
 # the case of c, p, t is aspiration regularly expressed in writing" (conv. 1); "in later
 # Old Irish, initial f s come to be written ḟ ṡ".
-c -> ch / # _                           %attested # digest §10.4 (/k/ -> /x/ ⟨ch⟩); §10.4 contrast set *tech* ~ *a thech*; lexicon Máel Coluim (gen.) ~ Cú Chulainn (lenited gen.)
+c -> ch / # _                           %attested # digest §10.4 (/k/ -> /x/ ⟨ch⟩); §10.4 contrast set *tech* ~ *a thech*; [old-irish-lexicon] Máel Coluim (gen.) ~ Cú Chulainn (lenited gen.)
 t -> th / # _                           %attested # digest §10.4 (/t/ -> /θ/ ⟨th⟩); §10.4 contrast set *tech* ~ *a thech*
 p -> ph / # _                           %design   # digest §10.4 (/p/ -> /f/ ⟨ph⟩); /p/ marginal (digest §10.1), no attested pair
 s -> ṡ / # _                            %design   # digest §10.4 (/s/ -> /h/ ⟨ṡ sh⟩); §10.2 master table ⟨ṡ sh⟩ = /h/; punctum = off renders ⟨s⟩ (O-14)
@@ -436,3 +436,323 @@ g -> ng / # _                           %attested # digest §10.4 (/ɡ/ -> /ŋ/ 
 # Deliberately absent — f: digest §10.4 gives "/f/ -> /v/ (written ⟨b⟩)"; neither spec §5
 # nor §11 lists it and the plan's Task 13 table omits it, so it is left for a later decision
 # rather than half-written (⟨b⟩ initial would reconstruct as /b/, not /v/).
+
+[inflect]
+# Case inflection as GRAPHEME-TOKEN rewrites on the spelled word (spec §5, §11; O-10, O-26;
+# plan Task 14). Tables are named <CASE>_<STEM> (O-26); each is applied ORDERED
+# (`apply_grapheme_table(simultaneous=False)`: every rule sees the previous rule's output),
+# so within a table a rule's OUTPUT must never be a later rule's INPUT — the INF block below
+# is ordered for exactly that. Precedence lives in `oldirish.apply_case`: an attested
+# lexicon genitive wins verbatim, `indecl`/`irregular` are inert, then these tables.
+#
+# Two shared primitives (digest §10.2 [pokorny1914-oldirish-grammar p.14 §§36-41]) are
+# declared ONCE, as the INF: and DEP: tables, and copied VERBATIM into the case tables that
+# use them — the DSL has no table inclusion, and a test asserts the copies are identical.
+#   INF  i-infection of the LAST nucleus (§36): the glide ⟨i⟩ before a word-final palatal
+#        consonant. "Stressed" = monosyllabic (digest §10.3: initial stress), written as the
+#        left contexts `# _`, `# C _`, `# C C _`, `# C C C _`; ⟨ch th ph⟩ and the doubled
+#        letters are single tokens, so they count as ONE consonant in a context — except
+#        where a rule names the doubled tokens explicitly (⟨o⟩ before "two consonants":
+#        *Conn/Cuinn*, *cnocc/cnuicc*, *dorn/duirn* [lexicon]). The coda is `_ C #` or
+#        `_ C C #`. No glide after ⟨í⟩, ⟨aí oí uí⟩ (§36 exception): no rule for them.
+#   DEP  depalatalization: delete the glide ⟨i⟩ of the final nucleus; a resulting STRESSED
+#        ⟨u⟩ lowers to ⟨o⟩ (*muir/moro*, *druimm/drommo* [digest §10.5]).
+#   SYNC syncope of the final unstressed syllable is table-specific (its replacement carries
+#        the suffix), so it is written inline where it is used.
+# Two-token replacements such as `a i` are written as separate tokens: ⟨ai ae ea eo iu⟩ are
+# FINAL-only tokens of the grapheme table, and a medial ⟨ai⟩ is ⟨a⟩ + glide ⟨i⟩.
+INF:
+# ordered so that no rule feeds a later one: u first (a/o -> ui produce it), éu before é
+# (é -> éui produces it), ía/áe/óe after é (they produce é i / aí / oí).
+u -> u i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] focul/focuil, mucc/muicce
+u -> u i / _ C C #                      %design   # [pokorny1914-oldirish-grammar §36]
+a -> u i / # _ {nn nd ng} #             %attested # digest §10.5 *ball/boill*-type u-infection; [old-irish-lexicon] crann/cruinn
+a -> u i / # C _ {nn nd ng} #           %attested # [old-irish-lexicon] crann/cruinn (CONFLICT: Flann/Flainn keeps ⟨ai⟩; the lexicon row wins there)
+a -> u i / # C C _ {nn nd ng} #         %attested # [old-irish-lexicon] crann/cruinn
+a -> u i / # C C C _ {nn nd ng} #       %design   # design: as the line above, three-consonant onset
+a -> a i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; digest §10.5 fer/fir type; [old-irish-lexicon] Cormac/Cormaic, macc/maicc
+a -> a i / _ C C #                      %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] Domnall/Domnaill (ll is one token), Lothland/Lothlainde
+o -> u i / # _ {ll nn rr mm cc tt pp bb ss nd ng mb} # %attested # digest §10.5 pattern; [old-irish-lexicon] Conn/Cuinn
+o -> u i / # C _ {ll nn rr mm cc tt pp bb ss nd ng mb} # %attested # [old-irish-lexicon] Conn/Cuinn
+o -> u i / # C C _ {ll nn rr mm cc tt pp bb ss nd ng mb} # %attested # [old-irish-lexicon] cnocc/cnuicc
+o -> u i / # C C C _ {ll nn rr mm cc tt pp bb ss nd ng mb} # %design # design: as the line above
+o -> u i / # _ C C #                    %attested # [old-irish-lexicon] dorn/duirn
+o -> u i / # C _ C C #                  %attested # [old-irish-lexicon] dorn/duirn
+o -> u i / # C C _ C C #                %design   # design: as the line above
+o -> u i / # C C C _ C C #              %design   # design: as the line above
+o -> o i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] cos/coise, cloch/cloiche, epscop/epscoip
+o -> o i / _ C C #                      %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] Conchobar/Conchobair
+e -> i / _ C #                          %attested # digest §10.5 fer/fir, nem/nime; [old-irish-lexicon] net/nit, Goídel/Goídil
+e -> i / _ C C #                        %attested # digest §10.5 cenn/cinn; [old-irish-lexicon] cell/cille, muinter/muintire
+éu -> íu i / _ C #                      %attested # [old-irish-lexicon] céul/cíuil
+éu -> íu i / _ C C #                    %design   # design: as the line above
+é -> éu i / # _ C #                     %attested # digest §10.5 scél/scéuil; [old-irish-lexicon] fér/féuir, én/éuin
+é -> éu i / # C _ C #                   %attested # digest §10.5 scél/scéuil (CONFLICT: bél/béoil is the ⟨éo⟩ sibling; [old-irish-lexicon] row wins)
+é -> éu i / # C C _ C #                 %attested # digest §10.5 scél/scéuil
+é -> éu i / # C C C _ C #               %design   # design: as the line above
+é -> é i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] Néill (gen. of Níall), unstressed é
+é -> é i / _ C C #                      %design   # [pokorny1914-oldirish-grammar §36]
+ía -> é i / _ C #                       %attested # digest §10.5 slíab/sléibe; [old-irish-lexicon] Níall/Néill, scíath/scéith
+ía -> é i / _ C C #                     %attested # [old-irish-lexicon] íasc/éisc, grían/gréine
+áe -> aí / _ C #                        %attested # [old-irish-lexicon] láech/laích, máel/maíle
+áe -> aí / _ C C #                      %design   # design: as the line above
+óe -> oí / _ C #                        %attested # [old-irish-lexicon] cóem/coíme
+óe -> oí / _ C C #                      %design   # design: as the line above
+úa -> úa i / _ C #                      %attested # digest §10.5 túath/túaithe; [old-irish-lexicon] clúas/clúaise
+úa -> úa i / _ C C #                    %design   # design: as the line above
+á -> á i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] Colmán/Colmáin, Cíarán/Cíaráin, arán/aráin (CONFLICT: lám/láme; [old-irish-lexicon] row wins)
+á -> á i / _ C C #                      %design   # [pokorny1914-oldirish-grammar §36]
+ó -> ó i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] slóg/slóig, ór/óir, srón/sróine
+ó -> ó i / _ C C #                      %design   # [pokorny1914-oldirish-grammar §36]
+ú -> ú i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] dún/dúin
+ú -> ú i / _ C C #                      %design   # [pokorny1914-oldirish-grammar §36]
+DEP:
+i -> 0 / V _ C #                        %attested # digest §10.5 cnáim/cnámo, súil/súlo
+i -> 0 / V _ C C #                      %attested # [old-irish-lexicon] druimm/drommo
+u -> o / # _ C #                        %design   # digest §10.5 muir/moro: stressed u lowers
+u -> o / # C _ C #                      %attested # digest §10.5 muir/moro; [old-irish-lexicon] fuil/folo
+u -> o / # C C _ C #                    %attested # [old-irish-lexicon] druimm/drommo
+u -> o / # C C C _ C #                  %design   # design: as the line above
+GEN_O:
+# o-/io-stem m./n. — digest §10.5 fer/fir, claideb/claidib, ball/boill, céile/céili,
+# daltae/daltai [wiki-old-irish-grammar §o-stems; strachan1909-oldirish-paradigms pp.2-5;
+# pokorny1914-oldirish-grammar §§133-135].
+ae -> ai / _ #                          %attested # digest §10.5 daltae/daltai (io-stem); [old-irish-lexicon] bannae/bannai, snechtae/snechtai
+e -> i / _ #                            %attested # digest §10.5 céile/céili, cride/cridi; [old-irish-lexicon] duine/duini, aue/aui
+# the productive -ach/-ech class: the slender velar spirant is written ⟨g⟩, NOT ⟨ch⟩ (R29)
+a ch -> a i g / C _ #                   %attested # [old-irish-lexicon] Cellach/Cellaig, Dubthach/Dubthaig, sinnach/sinnaig
+e ch -> i g / C _ #                     %attested # [old-irish-lexicon] toísech/toísig
+# other vowel-final o-stems are unchanged (no rule). Else: INF (verbatim copy of INF:)
+u -> u i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] focul/focuil, mucc/muicce
+u -> u i / _ C C #                      %design   # [pokorny1914-oldirish-grammar §36]
+a -> u i / # _ {nn nd ng} #             %attested # digest §10.5 *ball/boill*-type u-infection; [old-irish-lexicon] crann/cruinn
+a -> u i / # C _ {nn nd ng} #           %attested # [old-irish-lexicon] crann/cruinn (CONFLICT: Flann/Flainn keeps ⟨ai⟩; the lexicon row wins there)
+a -> u i / # C C _ {nn nd ng} #         %attested # [old-irish-lexicon] crann/cruinn
+a -> u i / # C C C _ {nn nd ng} #       %design   # design: as the line above, three-consonant onset
+a -> a i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; digest §10.5 fer/fir type; [old-irish-lexicon] Cormac/Cormaic, macc/maicc
+a -> a i / _ C C #                      %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] Domnall/Domnaill (ll is one token), Lothland/Lothlainde
+o -> u i / # _ {ll nn rr mm cc tt pp bb ss nd ng mb} # %attested # digest §10.5 pattern; [old-irish-lexicon] Conn/Cuinn
+o -> u i / # C _ {ll nn rr mm cc tt pp bb ss nd ng mb} # %attested # [old-irish-lexicon] Conn/Cuinn
+o -> u i / # C C _ {ll nn rr mm cc tt pp bb ss nd ng mb} # %attested # [old-irish-lexicon] cnocc/cnuicc
+o -> u i / # C C C _ {ll nn rr mm cc tt pp bb ss nd ng mb} # %design # design: as the line above
+o -> u i / # _ C C #                    %attested # [old-irish-lexicon] dorn/duirn
+o -> u i / # C _ C C #                  %attested # [old-irish-lexicon] dorn/duirn
+o -> u i / # C C _ C C #                %design   # design: as the line above
+o -> u i / # C C C _ C C #              %design   # design: as the line above
+o -> o i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] cos/coise, cloch/cloiche, epscop/epscoip
+o -> o i / _ C C #                      %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] Conchobar/Conchobair
+e -> i / _ C #                          %attested # digest §10.5 fer/fir, nem/nime; [old-irish-lexicon] net/nit, Goídel/Goídil
+e -> i / _ C C #                        %attested # digest §10.5 cenn/cinn; [old-irish-lexicon] cell/cille, muinter/muintire
+éu -> íu i / _ C #                      %attested # [old-irish-lexicon] céul/cíuil
+éu -> íu i / _ C C #                    %design   # design: as the line above
+é -> éu i / # _ C #                     %attested # digest §10.5 scél/scéuil; [old-irish-lexicon] fér/féuir, én/éuin
+é -> éu i / # C _ C #                   %attested # digest §10.5 scél/scéuil (CONFLICT: bél/béoil is the ⟨éo⟩ sibling; [old-irish-lexicon] row wins)
+é -> éu i / # C C _ C #                 %attested # digest §10.5 scél/scéuil
+é -> éu i / # C C C _ C #               %design   # design: as the line above
+é -> é i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] Néill (gen. of Níall), unstressed é
+é -> é i / _ C C #                      %design   # [pokorny1914-oldirish-grammar §36]
+ía -> é i / _ C #                       %attested # digest §10.5 slíab/sléibe; [old-irish-lexicon] Níall/Néill, scíath/scéith
+ía -> é i / _ C C #                     %attested # [old-irish-lexicon] íasc/éisc, grían/gréine
+áe -> aí / _ C #                        %attested # [old-irish-lexicon] láech/laích, máel/maíle
+áe -> aí / _ C C #                      %design   # design: as the line above
+óe -> oí / _ C #                        %attested # [old-irish-lexicon] cóem/coíme
+óe -> oí / _ C C #                      %design   # design: as the line above
+úa -> úa i / _ C #                      %attested # digest §10.5 túath/túaithe; [old-irish-lexicon] clúas/clúaise
+úa -> úa i / _ C C #                    %design   # design: as the line above
+á -> á i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] Colmán/Colmáin, Cíarán/Cíaráin, arán/aráin (CONFLICT: lám/láme; [old-irish-lexicon] row wins)
+á -> á i / _ C C #                      %design   # [pokorny1914-oldirish-grammar §36]
+ó -> ó i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] slóg/slóig, ór/óir, srón/sróine
+ó -> ó i / _ C C #                      %design   # [pokorny1914-oldirish-grammar §36]
+ú -> ú i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] dún/dúin
+ú -> ú i / _ C C #                      %design   # [pokorny1914-oldirish-grammar §36]
+GEN_A:
+# ā-/iā-/ī-stem fem. — digest §10.5 túath/túaithe, cíall/céille, guide/guide, rígain/rígnae,
+# Brigit/Brigte [wiki-old-irish-grammar §ā-stems; strachan1909-oldirish-paradigms pp.6-8;
+# pokorny1914-oldirish-grammar §§136-138]. iā-stem ⟨-e -i⟩ finals are unchanged (no rule).
+# The ī-stem is selected by SHAPE (O-21): polysyllabic with a final nucleus ⟨ai⟩ (glide) or
+# plain ⟨i⟩ -> SYNC + ⟨-ae⟩ / ⟨-e⟩ (§41: /e/ is written ⟨-ae⟩ after a broad consonant,
+# ⟨-e⟩ after a slender one). Written as append-then-delete, since a rule cannot both
+# delete a nucleus and add a suffix past the consonant that follows it.
+0 -> ae / V C a i C _ #                 %attested # digest §10.5 rígain/rígnae; [old-irish-lexicon] blíadain/blíadnae (CONFLICT: Líadain/Líadaine; [old-irish-lexicon] row wins)
+0 -> ae / V C C a i C _ #               %design   # design: as the line above, two-consonant medial cluster
+a i -> 0 / V C _ C ae #                 %attested # digest §10.5 rígain/rígnae (the SYNC half)
+a i -> 0 / V C C _ C ae #               %design   # design: as the line above
+0 -> e / V C i C _ #                    %attested # digest §10.5 Brigit/Brigte
+0 -> e / V C C i C _ #                  %design   # design: as the line above
+i -> 0 / V C _ C e #                    %attested # digest §10.5 Brigit/Brigte (the SYNC half)
+i -> 0 / V C C _ C e #                  %design   # design: as the line above
+# other vowel-final ā-stems: V + e (no lexicon datum; Nessa/Nessa keeps ⟨-a⟩, so ⟨a⟩ is excluded)
+0 -> e / {o u á é í ó ú} _ #             %design   # digest §10.5 pattern (V# -> V + e); no lexicon datum
+# Else: INF + ⟨e⟩ (verbatim copy of INF:, then the suffix)
+u -> u i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] focul/focuil, mucc/muicce
+u -> u i / _ C C #                      %design   # [pokorny1914-oldirish-grammar §36]
+a -> u i / # _ {nn nd ng} #             %attested # digest §10.5 *ball/boill*-type u-infection; [old-irish-lexicon] crann/cruinn
+a -> u i / # C _ {nn nd ng} #           %attested # [old-irish-lexicon] crann/cruinn (CONFLICT: Flann/Flainn keeps ⟨ai⟩; the lexicon row wins there)
+a -> u i / # C C _ {nn nd ng} #         %attested # [old-irish-lexicon] crann/cruinn
+a -> u i / # C C C _ {nn nd ng} #       %design   # design: as the line above, three-consonant onset
+a -> a i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; digest §10.5 fer/fir type; [old-irish-lexicon] Cormac/Cormaic, macc/maicc
+a -> a i / _ C C #                      %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] Domnall/Domnaill (ll is one token), Lothland/Lothlainde
+o -> u i / # _ {ll nn rr mm cc tt pp bb ss nd ng mb} # %attested # digest §10.5 pattern; [old-irish-lexicon] Conn/Cuinn
+o -> u i / # C _ {ll nn rr mm cc tt pp bb ss nd ng mb} # %attested # [old-irish-lexicon] Conn/Cuinn
+o -> u i / # C C _ {ll nn rr mm cc tt pp bb ss nd ng mb} # %attested # [old-irish-lexicon] cnocc/cnuicc
+o -> u i / # C C C _ {ll nn rr mm cc tt pp bb ss nd ng mb} # %design # design: as the line above
+o -> u i / # _ C C #                    %attested # [old-irish-lexicon] dorn/duirn
+o -> u i / # C _ C C #                  %attested # [old-irish-lexicon] dorn/duirn
+o -> u i / # C C _ C C #                %design   # design: as the line above
+o -> u i / # C C C _ C C #              %design   # design: as the line above
+o -> o i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] cos/coise, cloch/cloiche, epscop/epscoip
+o -> o i / _ C C #                      %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] Conchobar/Conchobair
+e -> i / _ C #                          %attested # digest §10.5 fer/fir, nem/nime; [old-irish-lexicon] net/nit, Goídel/Goídil
+e -> i / _ C C #                        %attested # digest §10.5 cenn/cinn; [old-irish-lexicon] cell/cille, muinter/muintire
+éu -> íu i / _ C #                      %attested # [old-irish-lexicon] céul/cíuil
+éu -> íu i / _ C C #                    %design   # design: as the line above
+é -> éu i / # _ C #                     %attested # digest §10.5 scél/scéuil; [old-irish-lexicon] fér/féuir, én/éuin
+é -> éu i / # C _ C #                   %attested # digest §10.5 scél/scéuil (CONFLICT: bél/béoil is the ⟨éo⟩ sibling; [old-irish-lexicon] row wins)
+é -> éu i / # C C _ C #                 %attested # digest §10.5 scél/scéuil
+é -> éu i / # C C C _ C #               %design   # design: as the line above
+é -> é i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] Néill (gen. of Níall), unstressed é
+é -> é i / _ C C #                      %design   # [pokorny1914-oldirish-grammar §36]
+ía -> é i / _ C #                       %attested # digest §10.5 slíab/sléibe; [old-irish-lexicon] Níall/Néill, scíath/scéith
+ía -> é i / _ C C #                     %attested # [old-irish-lexicon] íasc/éisc, grían/gréine
+áe -> aí / _ C #                        %attested # [old-irish-lexicon] láech/laích, máel/maíle
+áe -> aí / _ C C #                      %design   # design: as the line above
+óe -> oí / _ C #                        %attested # [old-irish-lexicon] cóem/coíme
+óe -> oí / _ C C #                      %design   # design: as the line above
+úa -> úa i / _ C #                      %attested # digest §10.5 túath/túaithe; [old-irish-lexicon] clúas/clúaise
+úa -> úa i / _ C C #                    %design   # design: as the line above
+á -> á i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] Colmán/Colmáin, Cíarán/Cíaráin, arán/aráin (CONFLICT: lám/láme; [old-irish-lexicon] row wins)
+á -> á i / _ C C #                      %design   # [pokorny1914-oldirish-grammar §36]
+ó -> ó i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] slóg/slóig, ór/óir, srón/sróine
+ó -> ó i / _ C C #                      %design   # [pokorny1914-oldirish-grammar §36]
+ú -> ú i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] dún/dúin
+ú -> ú i / _ C C #                      %design   # [pokorny1914-oldirish-grammar §36]
+0 -> e / C _ #                          %attested # digest §10.5 túath/túaithe, cíall/céille; [old-irish-lexicon] cloch/cloiche, cell/cille
+GEN_I:
+# i-stem — digest §10.5 cnáim/cnámo, súil/súlo, muir/moro [wiki-old-irish-grammar §i-stems;
+# strachan1909-oldirish-paradigms p.9; pokorny1914-oldirish-grammar §139]: DEP + ⟨o⟩
+# (verbatim copy of DEP:, then the suffix). The ⟨-o⟩/⟨-a⟩ alternation is lexical.
+i -> 0 / V _ C #                        %attested # digest §10.5 cnáim/cnámo, súil/súlo
+i -> 0 / V _ C C #                      %attested # [old-irish-lexicon] druimm/drommo
+u -> o / # _ C #                        %design   # digest §10.5 muir/moro: stressed u lowers
+u -> o / # C _ C #                      %attested # digest §10.5 muir/moro; [old-irish-lexicon] fuil/folo
+u -> o / # C C _ C #                    %attested # [old-irish-lexicon] druimm/drommo
+u -> o / # C C C _ C #                  %design   # design: as the line above
+0 -> o / C _ #                          %attested # digest §10.5 cnáim/cnámo; [old-irish-lexicon] flaith/flatho, Diarmait/Diarmato
+GEN_U:
+# u-stem — digest §10.5 guth/gotho, dorus/doirseo [wiki-old-irish-grammar §u-stems;
+# strachan1909-oldirish-paradigms p.10; pokorny1914-oldirish-grammar §140]. The ⟨-o⟩/⟨-a⟩
+# alternation (Lug/Loga, Oíngus/Oíngusa) is lexical: precedence rule 1.
+u -> o / # _ C #                        %design   # digest §10.5 guth/gotho: stressed u lowers
+u -> o / # C _ C #                      %attested # digest §10.5 guth/gotho; [old-irish-lexicon] Lug/Loga
+u -> o / # C C _ C #                    %design   # design: as the line above
+s -> ss / V C {a e i o u} _ #           %attested # [old-irish-lexicon] Fergus/Fergusso (R29a): ⟨-s⟩ after a short non-initial vowel is written ⟨-ss⟩ before the ending
+s -> ss / V C C {a e i o u} _ #         %design   # design: as the line above
+0 -> o / C _ #                          %attested # digest §10.5 guth/gotho; [old-irish-lexicon] cath/catho, bláth/blátho
+GEN_N:
+# n-stem — digest §10.5 brithem/brithemon, ainm/anmae, Ériu/Érenn [wiki-old-irish-grammar
+# §n-stems; strachan1909-oldirish-paradigms pp.13-14; pokorny1914-oldirish-grammar §§145-146].
+# The suffix vowel and its gemination (-ann/-an/-en/-enn) are lexical: precedence rule 1.
+mm -> m ae / _ #                        %attested # digest §10.5 ainm(m)/anmae: one ⟨m⟩ + ⟨-ae⟩
+i -> 0 / V _ C m ae #                   %attested # digest §10.5 ainmm/anmae: the DEP half
+ú -> o n / # C _ #                      %attested # digest §10.5 cú/con: monosyllabic vowel-final -> ⟨-on⟩
+i u cc -> c o n / V C _ #               %attested # [old-irish-lexicon] Miliucc/Milcon: SYNC + degeminate + ⟨-on⟩
+iu -> e nn / _ #                        %attested # digest §10.5 Ériu/Érenn; [old-irish-lexicon] Bricriu/Bricrenn, Derdriu/Derdrenn (CONFLICT: Tailltiu/Taillten; [old-irish-lexicon] row wins)
+u -> a nn / _ #                         %attested # [old-irish-lexicon] Anu/Anann, Cúalu/Cúalann, rétglu/rétglann (CONFLICT: Albu/Alban, Mumu/Mumen; [old-irish-lexicon] rows win)
+a m -> m a n / V C _ #                  %attested # [old-irish-lexicon] talam/talman: SYNC + ⟨-an⟩
+0 -> o n / e m _ #                      %attested # digest §10.5 brithem/brithemon (the agentive -em)
+GEN_DENT:
+# dental stem — digest §10.5 carae/carat, fili/filed, Núadu/Núadat [wiki-old-irish-grammar
+# §Dental stems; strachan1909-oldirish-paradigms p.12; pokorny1914-oldirish-grammar §143].
+# The consonant-final default comes FIRST so that it cannot re-apply to a suffix written
+# by the vowel-final rules below (every rule sees the previous rule's output).
+0 -> a d / C _ #                        %design   # digest §10.5 pattern; the -tu/-tad abstracts (bethu/bethad) are vowel-final
+ae -> a t / _ #                         %attested # digest §10.5 carae/carat
+u -> a t / _ #                          %attested # digest §10.5 Núadu/Núadat
+i -> e d / _ #                          %attested # digest §10.5 fili/filed
+e -> e d / _ #                          %attested # [old-irish-lexicon] teine/teined
+GEN_VELAR:
+# velar stem — digest §10.5 rí/ríg, Lugaid/Luigdech, Echu/Echach [wiki-old-irish-grammar
+# §Velar stems; strachan1909-oldirish-paradigms p.11; pokorny1914-oldirish-grammar §142].
+# Order: the -id class first (it writes ⟨-ech⟩), then the consonant-final default — after
+# every consonant token but ⟨ch⟩, so it cannot re-apply to a suffix this table has just
+# written — then the vowel-final rules.
+a i d -> d e ch / V C _ #               %attested # digest §10.5 Lugaid/Luigdech: SYNC + ⟨-ech⟩ (the INF half follows)
+u -> u i / _ C d e ch #                 %attested # digest §10.5 Lugaid/Luigdech: INF of the new final nucleus
+a -> a i / _ C d e ch #                 %design   # design: as the line above
+o -> o i / _ C d e ch #                 %design   # design: as the line above
+e -> i / _ C d e ch #                   %design   # design: as the line above
+0 -> a ch / {b c d g l m n p r s t f h th ph ll nn rr mm cc tt pp bb ss nd ng mb} _ #   %design   # digest §10.5 pattern (CONFLICT: Findabair/Findubrech, cauru/caírech are suppletive; [old-irish-lexicon] rows win)
+0 -> g / # C V _ #                      %attested # digest §10.5 rí/ríg: monosyllabic vowel-final -> + ⟨g⟩
+0 -> g / # V _ #                        %design   # design: as the line above, onsetless
+u -> a ch / _ #                         %attested # digest §10.5 Echu/Echach; [old-irish-lexicon] Cúanu/Cúanach
+ai -> a ch / _ #                        %attested # [old-irish-lexicon] Fíachrai/Fíachrach
+i -> 0 / V _ C C í #                    %attested # [old-irish-lexicon] Ruaidrí/Ruadrach: the DEP half
+i -> 0 / V _ C í #                      %design   # design: as the line above
+í -> a ch / V C _ #                     %attested # [old-irish-lexicon] Ruaidrí/Ruadrach
+í -> a ch / V C C _ #                   %attested # [old-irish-lexicon] Ruaidrí/Ruadrach
+e -> e ch / _ #                         %attested # [old-irish-lexicon] Ainmire/Ainmirech
+i -> e ch / _ #                         %design   # digest §10.5 pattern
+GEN_R:
+# r-stem — digest §10.5 athair/athar, máthair/máthar [wiki-old-irish-grammar §r-stems;
+# strachan1909-oldirish-paradigms p.15; pokorny1914-oldirish-grammar §147]: the final
+# nucleus becomes ⟨a⟩. siur/sethar is suppletive (precedence rule 1).
+a i -> a / _ C #                        %attested # digest §10.5 athair/athar; [old-irish-lexicon] bráthair/bráthar
+i -> a / C _ C #                        %attested # [old-irish-lexicon] máthir/máthar
+GEN_S:
+# s-stem neut. — digest §10.5 nem/nime, tech/tige, slíab/sléibe [wiki-old-irish-grammar
+# §s-stems; strachan1909-oldirish-paradigms p.16; pokorny1914-oldirish-grammar §148]:
+# V# -> V + ⟨e⟩, else INF + ⟨e⟩ (verbatim copy of INF:, then the suffix).
+0 -> e / {a o u á é í ó ú} _ #           %design   # digest §10.5 pattern (V# -> V + e); no lexicon datum
+u -> u i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] focul/focuil, mucc/muicce
+u -> u i / _ C C #                      %design   # [pokorny1914-oldirish-grammar §36]
+a -> u i / # _ {nn nd ng} #             %attested # digest §10.5 *ball/boill*-type u-infection; [old-irish-lexicon] crann/cruinn
+a -> u i / # C _ {nn nd ng} #           %attested # [old-irish-lexicon] crann/cruinn (CONFLICT: Flann/Flainn keeps ⟨ai⟩; the lexicon row wins there)
+a -> u i / # C C _ {nn nd ng} #         %attested # [old-irish-lexicon] crann/cruinn
+a -> u i / # C C C _ {nn nd ng} #       %design   # design: as the line above, three-consonant onset
+a -> a i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; digest §10.5 fer/fir type; [old-irish-lexicon] Cormac/Cormaic, macc/maicc
+a -> a i / _ C C #                      %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] Domnall/Domnaill (ll is one token), Lothland/Lothlainde
+o -> u i / # _ {ll nn rr mm cc tt pp bb ss nd ng mb} # %attested # digest §10.5 pattern; [old-irish-lexicon] Conn/Cuinn
+o -> u i / # C _ {ll nn rr mm cc tt pp bb ss nd ng mb} # %attested # [old-irish-lexicon] Conn/Cuinn
+o -> u i / # C C _ {ll nn rr mm cc tt pp bb ss nd ng mb} # %attested # [old-irish-lexicon] cnocc/cnuicc
+o -> u i / # C C C _ {ll nn rr mm cc tt pp bb ss nd ng mb} # %design # design: as the line above
+o -> u i / # _ C C #                    %attested # [old-irish-lexicon] dorn/duirn
+o -> u i / # C _ C C #                  %attested # [old-irish-lexicon] dorn/duirn
+o -> u i / # C C _ C C #                %design   # design: as the line above
+o -> u i / # C C C _ C C #              %design   # design: as the line above
+o -> o i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] cos/coise, cloch/cloiche, epscop/epscoip
+o -> o i / _ C C #                      %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] Conchobar/Conchobair
+e -> i / _ C #                          %attested # digest §10.5 fer/fir, nem/nime; [old-irish-lexicon] net/nit, Goídel/Goídil
+e -> i / _ C C #                        %attested # digest §10.5 cenn/cinn; [old-irish-lexicon] cell/cille, muinter/muintire
+éu -> íu i / _ C #                      %attested # [old-irish-lexicon] céul/cíuil
+éu -> íu i / _ C C #                    %design   # design: as the line above
+é -> éu i / # _ C #                     %attested # digest §10.5 scél/scéuil; [old-irish-lexicon] fér/féuir, én/éuin
+é -> éu i / # C _ C #                   %attested # digest §10.5 scél/scéuil (CONFLICT: bél/béoil is the ⟨éo⟩ sibling; [old-irish-lexicon] row wins)
+é -> éu i / # C C _ C #                 %attested # digest §10.5 scél/scéuil
+é -> éu i / # C C C _ C #               %design   # design: as the line above
+é -> é i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] Néill (gen. of Níall), unstressed é
+é -> é i / _ C C #                      %design   # [pokorny1914-oldirish-grammar §36]
+ía -> é i / _ C #                       %attested # digest §10.5 slíab/sléibe; [old-irish-lexicon] Níall/Néill, scíath/scéith
+ía -> é i / _ C C #                     %attested # [old-irish-lexicon] íasc/éisc, grían/gréine
+áe -> aí / _ C #                        %attested # [old-irish-lexicon] láech/laích, máel/maíle
+áe -> aí / _ C C #                      %design   # design: as the line above
+óe -> oí / _ C #                        %attested # [old-irish-lexicon] cóem/coíme
+óe -> oí / _ C C #                      %design   # design: as the line above
+úa -> úa i / _ C #                      %attested # digest §10.5 túath/túaithe; [old-irish-lexicon] clúas/clúaise
+úa -> úa i / _ C C #                    %design   # design: as the line above
+á -> á i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] Colmán/Colmáin, Cíarán/Cíaráin, arán/aráin (CONFLICT: lám/láme; [old-irish-lexicon] row wins)
+á -> á i / _ C C #                      %design   # [pokorny1914-oldirish-grammar §36]
+ó -> ó i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] slóg/slóig, ór/óir, srón/sróine
+ó -> ó i / _ C C #                      %design   # [pokorny1914-oldirish-grammar §36]
+ú -> ú i / _ C #                        %attested # [pokorny1914-oldirish-grammar §36]; [old-irish-lexicon] dún/dúin
+ú -> ú i / _ C C #                      %design   # [pokorny1914-oldirish-grammar §36]
+0 -> e / C _ #                          %attested # digest §10.5 nem/nime, slíab/sléibe; [old-irish-lexicon] leth/leithe, tír/tíre
+NOM_A:
+# spec §11: the retro-filter's unresolved ending marker ⟨ə⟩ is realized ⟨-e⟩ for an ā-stem.
+ə -> e / _ #                            %design   # [spec §11] ("-e for ā-stems"); digest §10.5 guide, Eithne
+NOM_O:
+# spec §11: ⟨-a⟩ for every other class.
+ə -> a / _ #                            %design   # [spec §11] ("-a otherwise")
+DAT_O:
+# identity (digest §10.4): the dative's leniting mutation is supplied by the template.
+DAT_A:
+# identity, as DAT_O.

@@ -35,6 +35,7 @@ class CheckError:
                      # | UNKNOWN_STRESS_PARAM | UNREACHABLE_CHANGE | CLUSTER_OFF_INVENTORY
                      # | BAD_TEMPLATE_ARG | UNDEFINED_BACKREF | NUCLEUS_OFF_INVENTORY
                      # | ORTH_UNKNOWN_UNIT | ORTH_BAD_POSITION (Old Irish Task 6, R9)
+                     # | GRAPHEME_UNKNOWN_TOKEN (Old Irish Task 14)
     message: str
     severity: str    # "error" | "warning"
 
@@ -298,6 +299,50 @@ class _Checker:
             self.context(ep.left, line)
             self.context(ep.right, line)
 
+    def grapheme_rules(self) -> None:
+        """Old Irish Task 14 (O-10): every target and replacement token of a `[mutations]`
+        / `[inflect]` line of a `grammar = graphemes` file must be a token of the grapheme
+        table named by `[meta] orthography` (else the Old Irish default). The parser already
+        refuses unknown tokens, so this catches a table edited AFTER the rule file was
+        written, or a `GraphemeRule` built by hand. `V`, `C` and inline sets are checked by
+        member; `#` is an environment atom and never a target."""
+        tables = [t for t in (self.rf.grapheme_mutations, self.rf.grapheme_inflect) if t]
+        if not tables:
+            return
+        from .spelled import OI_ORTHOGRAPHY_PATH, SpelledError, load_graphemes
+        path = OI_ORTHOGRAPHY_PATH
+        orthography = self.rf.meta.get("orthography")
+        if orthography:
+            path = Path(orthography)
+            if not path.is_absolute():
+                path = OI_ORTHOGRAPHY_PATH.parents[1] / path
+        try:
+            tokens = frozenset(r.token for r in load_graphemes(path))
+        except (OSError, SpelledError) as e:
+            self.add(0, "GRAPHEME_UNKNOWN_TOKEN", f"cannot load grapheme table {path}: {e}")
+            return
+
+        def atoms(seq: tuple[str, ...]) -> list[str]:
+            out: list[str] = []
+            for a in seq:
+                if a in ("V", "C", "#"):
+                    continue
+                if a.startswith("{") and a.endswith("}"):
+                    out.extend(a[1:-1].split())
+                else:
+                    out.append(a)
+            return out
+
+        for table in tables:
+            for name, rules in table.items():
+                for r in rules:
+                    for where, seq in (("target", r.target), ("replacement", r.replacement)):
+                        for tok in atoms(seq):
+                            if tok not in tokens:
+                                self.add(r.line, "GRAPHEME_UNKNOWN_TOKEN",
+                                         f"[{r.rule_id.partition(':')[0]}] {name}: {where} "
+                                         f"token {tok!r} is not in {path.name}")
+
     def run(self) -> list[CheckError]:
         for rules in self.rf.sections.values():
             for r in rules:
@@ -306,6 +351,7 @@ class _Checker:
             for rules in table.values():
                 for r in rules:
                     self.rule(r)
+        self.grapheme_rules()
         self.syllable()
         self.stress()
         self.templates()

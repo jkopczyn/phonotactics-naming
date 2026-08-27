@@ -37,6 +37,15 @@ stressed by this target's `[syllable]` / `[stress]`, so the cross-target propert
 (inventory membership, one primary stress) see the same object they see elsewhere; the IPA
 string itself is the reconstruction, unmarked.
 
+Inflection (spec §5, §11; digest §10.5; plan Task 14). `apply_case` is the stem dispatch over
+the `[inflect]` grapheme tables (O-26 names). The LEXICON is authoritative and the table is
+the fallback: an attested `oi_gen` is returned verbatim, because the n-stem suffix vowel and
+the u-stem `-o`/`-a` are lexical in Old Irish and cannot be derived from spelling. The
+vocative is identity outside the masculine o-stem (O-30; digest §10.5 [pokorny1914 p.65
+§142]), whose vocative IS the genitive table. `NOM_A`/`NOM_O` realize spec §11's ending
+marker ⟨ə⟩ (⟨-e⟩ for an ā-stem, ⟨-a⟩ otherwise); `run_entry_oi` applies the nominative to
+every word before rendering, so no finished output carries the marker.
+
 Constructions. `DESC` and its two slot forms are supported here: this strand declares no
 `epithet-*` keys, so a slot resolves to "no affix" with an `epithet:<SLOT>-unmapped-in-Old
 Irish` assumption and `DESC+ADJ` equals `DESC` (R30, O-17). Every other name raises
@@ -69,7 +78,8 @@ if TYPE_CHECKING:
     from .inputs import Entry
 
 __all__ = ["OI_FLAGS", "LOOKUP_STAGE", "RECONSTRUCT_STAGE", "ConstructionNotInStrand", "Stem",
-           "infer_stem", "to_old_irish", "apply_oi_mutation", "adapt_oi", "run_entry_oi"]
+           "infer_stem", "to_old_irish", "apply_oi_mutation", "CASE_TABLES", "PRIMITIVE_TABLES",
+           "apply_case", "adapt_oi", "run_entry_oi"]
 
 OI_FLAGS = ("ATTESTED", "ATTESTED:MIr", "RETRO", "RETRO:loan", "RETRO:late")
 LOOKUP_STAGE = "lookup"
@@ -230,6 +240,87 @@ def apply_oi_mutation(word: SpelledWord, name: str, oi: RuleFile) -> SpelledWord
     return apply_grapheme_table(word, rules, simultaneous=True).with_mutation(name)  # type: ignore[arg-type]
 
 
+# ---- the inflection (spec §5, §11; digest §10.5; plan Task 14) -----------------------------
+
+CASE_TABLES: dict[tuple[str, str], str] = {
+    ("gen", "o"): "GEN_O", ("gen", "ā"): "GEN_A", ("gen", "i"): "GEN_I", ("gen", "u"): "GEN_U",
+    ("gen", "n"): "GEN_N", ("gen", "dental"): "GEN_DENT", ("gen", "velar"): "GEN_VELAR",
+    ("gen", "r"): "GEN_R", ("gen", "s"): "GEN_S",
+    # VOC_O = GEN_O (digest §10.5 [pokorny1914 p.65 §142]): the DSL has no table aliasing,
+    # so the o-stem vocative resolves to the genitive table by name here.
+    ("voc", "o"): "GEN_O",
+    ("nom", "ā"): "NOM_A", ("nom", ""): "NOM_O",        # "" = every other class
+    ("dat", "o"): "DAT_O", ("dat", "ā"): "DAT_A",
+}
+"""(case, lexicon stem) -> `[inflect]` sub-table (O-26). `indecl` and `irregular` have no
+table (they are inert in `apply_case`)."""
+
+PRIMITIVE_TABLES: dict[str, tuple[str, ...]] = {
+    "INF": ("GEN_O", "GEN_A", "GEN_S"),
+    "DEP": ("GEN_I",),
+}
+"""The shared primitives (digest §10.2 §§36-41) declared once as their own `[inflect]`
+sub-tables and copied verbatim into the case tables named here; a test asserts the copies
+are identical to the declaration. SYNC is table-specific (its replacement carries the
+suffix) and is written inline."""
+
+_INERT_STEMS = ("indecl", "irregular")
+
+
+def _case_note(trace: list[TraceEntry] | None, case: str, stem: Stem, rule_id: str, note: str,
+               after: str) -> None:
+    if trace is None:
+        return
+    before = " ".join(w.render() for w in stem.words)
+    trace.append(TraceEntry(stage="inflect", rule_id=rule_id, tag="", before=before,
+                            after=after, note=f"{case}: {note}"))
+
+
+def apply_case(stem: Stem, case: str, oi: RuleFile, *,
+               trace: list[TraceEntry] | None = None) -> tuple[SpelledWord, ...]:
+    """The case form of a stem, one spelled word per written word. Precedence — the lexicon
+    is authoritative, the table is the fallback (plan Task 14):
+
+    1. `case == "gen"` and `stem.gen` is not None   -> the ATTESTED genitive, verbatim.
+    2. `stem.stem` in (`indecl`, `irregular`)        -> unchanged, trace note.
+    3. a `CASE_TABLES` entry for (case, stem.stem)   -> `apply_grapheme_table(ordered)`.
+    4. `case == "voc"`                               -> IDENTITY (O-30 / R23), trace note.
+    5. otherwise                                     -> `GEN_O`, tagged `case:<case>-fallback-o`.
+
+    For `nom`, every class but `ā` takes `NOM_O` (the `("nom", "")` entry). A table is
+    applied to every written word of the stem; `trace`, when given, receives one entry."""
+    after = lambda words: " ".join(w.render() for w in words)      # noqa: E731
+    if case == "gen" and stem.gen is not None:
+        _case_note(trace, case, stem, "inflect:attested", "attested genitive, verbatim "
+                   "(precedence rule 1)", after(stem.gen))
+        return stem.gen
+    if stem.stem in _INERT_STEMS:
+        _case_note(trace, case, stem, f"inflect:{stem.stem}", f"{stem.stem} stem: unchanged",
+                   after(stem.words))
+        return stem.words
+    key = (case, stem.stem)
+    if case == "nom" and stem.stem != "ā":
+        key = ("nom", "")
+    name = CASE_TABLES.get(key)
+    note = f"table {name}"
+    if name is None and case == "voc":
+        _case_note(trace, case, stem, "inflect:voc-identity",
+                   "vocative = nominative outside the masculine o-stem (O-30; digest §10.5 "
+                   "[pokorny1914 p.65 §142])", after(stem.words))
+        return stem.words
+    if name is None:
+        name = "GEN_O"
+        note = f"case:{case}-fallback-o (no table for stem {stem.stem!r})"
+    if name not in oi.grapheme_inflect:
+        raise PipelineError(f"{oi.path}: no [inflect] table {name!r} (have: "
+                            + ", ".join(sorted(oi.grapheme_inflect)) + ")")
+    rules = oi.grapheme_inflect[name]
+    words = tuple(apply_grapheme_table(w, rules, simultaneous=False)  # type: ignore[arg-type]
+                  for w in stem.words)
+    _case_note(trace, case, stem, f"inflect:{name}", note, after(words))
+    return words
+
+
 # ---- the assembly (O-11, O-14) ---------------------------------------------------------------
 
 def _punctum(oi: RuleFile) -> bool:
@@ -302,5 +393,6 @@ def run_entry_oi(entry: "Entry", construction: str, irish: RuleFile, oi: RuleFil
     for flag in stem.engine_flags:
         if flag not in flags:
             flags.append(flag)
-    return adapt_oi(stem.words, oi, table, assumptions=assumptions, flags=flags,
-                    trace=stem.trace)
+    trace = list(stem.trace)
+    words = apply_case(stem, "nom", oi, trace=trace)      # realizes the ending marker (spec §11)
+    return adapt_oi(words, oi, table, assumptions=assumptions, flags=flags, trace=trace)
