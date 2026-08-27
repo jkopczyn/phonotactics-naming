@@ -14,9 +14,30 @@ def test_reads_all_ten_columns():
     assert read_input(FIX)[0].gen_ipa == "ʃaːnʲ"
 
 
-def test_row_without_ipa_is_flagged_not_dropped():
+def test_row_without_ipa_gets_a_constructed_one(): 
+    """Milestone 8 / spec §5: an empty `ipa` is now filled by the provisional G2P and tagged,
+    instead of skipping the row."""
     e = [x for x in read_input(FIX) if x.orthography == "NoIpa"][0]
+    assert e.ipa and "ipa:constructed" in e.assumptions
+    assert "skipped:no-ipa" not in e.assumptions
+
+
+def test_no_ipa_is_only_for_an_unreadable_orthography():
+    """`skipped:no-ipa` survives for the two cases G2P cannot help with."""
+    e = infer(Entry("123"), IRISH, TABLE)          # no vowel letter: g2p raises
     assert e.ipa == "" and "skipped:no-ipa" in e.assumptions
+
+
+def test_g2p_notes_become_assumption_tags():
+    e = infer(Entry("cnoc"), IRISH, TABLE)
+    assert e.ipa == "kɾˠɔk"          # [C] ⟨cn⟩ is /kɾˠ/, one of the rules that records a note
+    assert any(t.startswith("g2p:") for t in e.assumptions)
+
+
+def test_constructed_ipa_feeds_the_later_inference_steps():
+    """The constructed string is a real transcription, so declension and gen_ipa follow."""
+    e = infer(Entry("Cormac"), IRISH, TABLE)
+    assert e.ipa and e.gen_ipa and "gen_ipa:inferred-m1" in e.assumptions
 
 
 def test_unknown_columns_are_ignored():
@@ -80,10 +101,10 @@ def test_vowel_final_gen_ipa_is_unchanged():
     assert e.gen_ipa == "bˠal̪ˠə" and "gen_ipa:inferred-d4" in e.assumptions
 
 
-def test_no_ipa_row_gets_no_gen_ipa_but_is_still_inferred():
+def test_row_read_without_ipa_is_still_fully_inferred():
     e = infer(read_input(FIX)[1], IRISH, TABLE)
-    assert e.orthography == "NoIpa" and e.gen_ipa == "" and "skipped:no-ipa" in e.assumptions
-    assert e.gender and e.declension
+    assert e.orthography == "NoIpa" and e.gender and e.declension
+    assert e.ipa and e.gen_ipa and "ipa:constructed" in e.assumptions
 
 
 def test_supplied_fields_are_never_overwritten():
@@ -99,7 +120,7 @@ def test_infer_is_idempotent():
 def test_lint_report_lists_one_line_per_guess():
     lines = lint_report([infer(x, IRISH, TABLE) for x in read_input(FIX)])
     assert any("declension" in l for l in lines) and all(l.strip() for l in lines)
-    assert any("NoIpa" in l and "skipped:no-ipa" in l for l in lines)
+    assert any("NoIpa" in l and "ipa = " in l and "ipa:constructed" in l for l in lines)
     assert any(l.startswith("Bríd") and "gender" in l for l in lines)
 
 
@@ -111,9 +132,13 @@ def test_accept_writes_the_guesses_back(tmp_path):
     assert all(r["dialect"] for r in rows)
     assert [r["orthography"] for r in rows] == [e.orthography for e in read_input(FIX)]
     by = {r["orthography"]: r for r in rows}
-    assert by["mac"]["gen_ipa"] == "mʲɪc" and by["NoIpa"]["gen_ipa"] == ""
+    assert by["mac"]["gen_ipa"] == "mʲɪc"
+    # the constructed IPA is written into the `ipa` column, and said so in `note`
+    assert by["NoIpa"]["ipa"] and by["NoIpa"]["gen_ipa"]
+    assert "ipa constructed by g2p" in by["NoIpa"]["note"]
+    assert by["Seán"]["ipa"] == "ʃaːn̪ˠ"          # a supplied transcription is untouched
+    assert "g2p" not in by["Seán"]["note"]
     assert by["Seán"]["gen_ipa"] == "ʃaːnʲ"          # supplied value untouched
-    assert by["NoIpa"]["ipa"] == ""                   # no fabricated IPA
 
 
 # ---- review-stress-irish fix 4: classify and inflect the NORMALIZED form -------------------

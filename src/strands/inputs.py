@@ -21,8 +21,7 @@ aliases such as ASCII `g` and quality-less consonants, which are in neither `BRO
 `SLEN`), so an alias-final feminine noun is `f2`, not the `m1` default, and the inferred
 `gen_ipa` is canonical. No stress is added to the stored `gen_ipa`.
 
-A row with no `ipa` is kept, tagged `skipped:no-ipa`; steps 1–3 still run on its
-orthography, step 4 is skipped. Supplied values are never overwritten.
+
 
 `declension` is an optional input column (spec §12.K, 2026-08-27); when empty, the `GEN()` fallback of
 I-38) is treated as "not yet inferred": `infer()` re-derives it whenever it is "" or "m1"
@@ -40,6 +39,7 @@ from pathlib import Path
 from typing import Sequence
 
 from .dsl import RuleFile
+from .g2p import G2PError, g2p
 from .features import FeatureTable
 from .irish import _normalize_rewrites, apply_inflection
 from .tokenize import tokenize
@@ -51,7 +51,8 @@ __all__ = ["INPUT_COLUMNS", "DECLENSIONS", "Entry", "read_input", "infer", "lint
 INPUT_COLUMNS = ("orthography", "ipa", "dialect", "gloss", "category",
                  "gender", "declension", "gen_ipa", "pl_ipa", "note")
 DECLENSIONS = ("m1", "ach", "f2", "m3", "d4")
-_INFERRED_COLUMNS = ("dialect", "gender", "declension", "gen_ipa")    # what accept_guesses writes back
+_INFERRED_COLUMNS = ("ipa", "dialect", "gender", "declension", "gen_ipa")  # accept_guesses writes these
+_CONSTRUCTED_NOTE = "ipa constructed by g2p"
 _DEFAULT_DECLENSION = "m1"
 _DECLENSIONS = ("m1", "ach", "f2", "m3", "d4")   # accepted values of the optional `declension` column
 
@@ -99,6 +100,19 @@ def _read_rows(path: str | Path) -> tuple[list[str], list[dict[str, str]]]:
     return header, rows
 
 
+def construct_ipa(orthography: str, dialect: str) -> tuple[str, tuple[str, ...]]:
+    """`(ipa, tags)` for a row with no transcription of its own (spec §5, milestone 8).
+    Returns `("", ("skipped:no-ipa",))` when there is no orthography, or when `g2p` cannot
+    read the one there is."""
+    if not orthography:
+        return "", ("skipped:no-ipa",)
+    try:
+        ipa, notes = g2p(orthography, dialect or "C")
+    except G2PError:
+        return "", ("skipped:no-ipa",)
+    return ipa, ("ipa:constructed",) + tuple(f"g2p:{n}" for n in notes)
+
+
 def _strip_delims(ipa: str) -> str:
     """Accept `/…/` and `[…]` around a transcription (owner request 2026-08-27): one wrapping
     pair of slashes or square brackets is removed; anything else is left alone."""
@@ -110,7 +124,9 @@ def _strip_delims(ipa: str) -> str:
 def read_input(path: str | Path) -> list[Entry]:
     """Header must contain `orthography`; unknown columns (e.g. test-words.tsv's `features`)
     are ignored; missing ones read as "" (so `infer()` fills and tags them). A row with no
-    `ipa` returns ipa='' and assumption 'skipped:no-ipa'. Blank rows are dropped."""
+    `ipa` gets a constructed one from `strands.g2p`, tagged `ipa:constructed` (spec §5,
+    milestone 8); only an orthography `g2p` cannot read leaves ipa='' and
+    'skipped:no-ipa'. Blank rows are dropped."""
     header, rows = _read_rows(path)
     if "orthography" not in header:
         raise InputError(f"{path}: header must contain 'orthography' (have: {header})")
@@ -121,7 +137,9 @@ def read_input(path: str | Path) -> list[Entry]:
         fields = {c: row.get(c, "") for c in INPUT_COLUMNS}
         for k in ("ipa", "gen_ipa", "pl_ipa"):
             fields[k] = _strip_delims(fields[k])
-        assumptions = ("skipped:no-ipa",) if not fields["ipa"] else ()
+        assumptions: tuple[str, ...] = ()
+        if not fields["ipa"]:
+            fields["ipa"], assumptions = construct_ipa(fields["orthography"], fields["dialect"])
         out.append(Entry(**fields, assumptions=assumptions))
     return out
 
@@ -213,8 +231,14 @@ def _infer_declension(entry: Entry, gender: str, quality: str | None) -> tuple[s
 def infer(entry: Entry, irish: RuleFile, table: FeatureTable) -> Entry:
     """Fill dialect, gender, declension and gen_ipa where missing (module docstring)."""
     tags: list[str] = list(entry.assumptions)
-    if not entry.ipa and "skipped:no-ipa" not in tags:
+    ipa = entry.ipa
+    if not ipa and not any(t.startswith(("ipa:", "skipped:")) for t in tags):
+        # An `Entry` built by hand rather than by `read_input` (spec §5, milestone 8).
+        ipa, new = construct_ipa(entry.orthography, entry.dialect)
+        tags.extend(new)
+    if not ipa and "skipped:no-ipa" not in tags:
         tags.append("skipped:no-ipa")
+    entry = replace(entry, ipa=ipa)
     word = _word(entry, irish, table)
     quality = _final_quality(entry, word, irish, table)
 
@@ -253,13 +277,14 @@ def _field_of(tag: str) -> str:
 
 
 def lint_report(entries: Sequence[Entry]) -> list[str]:
-    """One line per guess: `<orthography>\\t<field> = <value>\\t<tag>` (`skipped:no-ipa`
-    lines carry no value)."""
+    """One line per guess: `<orthography>\\t<field> = <value>\\t<tag>`. A tag that names no
+    input field — `skipped:no-ipa`, the `g2p:<note>` tags of a constructed `ipa` — carries no
+    value and prints as `<orthography>\\t<tag>`."""
     lines: list[str] = []
     for e in entries:
         for tag in e.assumptions:
             field_name = _field_of(tag)
-            if field_name == "skipped":
+            if field_name not in INPUT_COLUMNS:
                 lines.append(f"{e.orthography}\t{tag}")
             else:
                 lines.append(f"{e.orthography}\t{field_name} = {getattr(e, field_name, '')}\t{tag}")
@@ -271,7 +296,8 @@ def accept_guesses(path: str | Path, entries: Sequence[Entry]) -> None:
     Rows pair with `entries` by order (blank rows are skipped, as `read_input` does);
     existing columns — spec or not — are kept in place, and a missing spec column is
     appended to the header. Only empty cells are filled; nothing supplied is changed.
-    `declension` (spec §12.K) is written like the others."""
+    `declension` (spec §12.K) is written like the others, and a constructed `ipa` (spec §5,
+    milestone 8) says so in `note` when the file has that column."""
     path = Path(path)
     header, rows = _read_rows(path)
     data_rows = [r for r in rows if r.get("orthography")]
@@ -287,6 +313,9 @@ def accept_guesses(path: str | Path, entries: Sequence[Entry]) -> None:
         for col in _INFERRED_COLUMNS:
             if not row.get(col):
                 row[col] = getattr(entry, col)
+        if "note" in header and "ipa:constructed" in entry.assumptions:
+            row["note"] = f"{row['note']}; {_CONSTRUCTED_NOTE}".lstrip("; ") \
+                if row.get("note") else _CONSTRUCTED_NOTE
     with path.open("w", encoding="utf-8", newline="") as fh:
         writer = csv.DictWriter(fh, fieldnames=header, delimiter="\t", extrasaction="ignore",
                                 lineterminator="\n")

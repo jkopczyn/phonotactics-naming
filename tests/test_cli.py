@@ -117,12 +117,30 @@ def test_lint_accept_rewrites_the_file(tmp_path):
     assert dst.read_text(encoding="utf-8") != before
 
 
-def test_missing_slot_and_missing_ipa_are_skipped_with_a_note(tmp_path):
+def test_an_unreadable_orthography_is_skipped_with_a_note(tmp_path):
+    """Since milestone 8 a missing `ipa` is constructed, so `skipped:no-ipa` is left only for
+    an orthography `g2p` cannot read — and the row is kept, never an error."""
+    src = tmp_path / "in.tsv"
+    src.write_text("orthography\tipa\n123\t\nSeán\tʃaːn̪ˠ\n", encoding="utf-8")
     out = tmp_path / "o.tsv"
-    assert main(["run", str(FIX), "--construction", "PATRO_O", "--out", str(out)]) == 0
+    assert main(["run", str(src), "--out", str(out)]) == 0
     rows = _rows(out)
-    skipped = [r for r in rows if "skipped" in r["assumptions"]]
+    skipped = [r for r in rows if "skipped:no-ipa" in r["assumptions"]]
     assert skipped and all(r["ipa"] == "" and r["respelling"] == "" for r in skipped)
+    assert any("skipped" not in r["assumptions"] for r in rows)
+
+
+def test_a_constructed_ipa_row_is_processed_normally(tmp_path):
+    src = tmp_path / "in.tsv"
+    src.write_text("orthography\tipa\nAisling\t\n", encoding="utf-8")
+    out = tmp_path / "o.tsv"
+    assert main(["run", str(src), "--out", str(out)]) == 0
+    rows = _rows(out)
+    assert rows and all("ipa:constructed" in r["assumptions"] for r in rows)
+    assert all(r["respelling"] for r in rows if "skipped" not in r["assumptions"])
+
+
+def test_missing_slot_is_skipped_with_a_note(tmp_path):
     # a two-slot template cannot be built from one entry: skipped, never an error
     out2 = tmp_path / "o2.tsv"
     assert main(["run", str(FIX), "--strand", "welsh", "--construction", "ADJ",

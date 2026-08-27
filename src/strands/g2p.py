@@ -506,9 +506,13 @@ def _word_segments(word: str, dialect: str, notes: list[str],
         if k != stress or proclitic:
             if i in plus_h:
                 value = plus_h[i][1]
-            elif value not in _LONG_OR_DIPH and len(value) <= 2 and value not in (
-                    "iːaː", "uːaː", "iːoː", "uːoː"):
-                value = "ə"                     # unstressed short vowels reduce (§Vowels)
+            else:
+                # The lengthening overrides of `_VOWELS` are listed under "stressed" in the
+                # source table, so an unstressed syllable falls back to the row's default and
+                # reduces if that is short: *Muireann* /ˈmˠɪɾʲən̪ˠ/, not */ˈmˠɪɾʲaːn̪ˠ/.
+                base = (_VOWELS.get(runs[i][1]) or _VOWELS.get(runs[i][1][:2])
+                        or _VOWELS.get(runs[i][1][:1]) or (value, ()))[0]
+                value = "ə" if _short(base) else base
         out.extend(_split_nucleus(value))
         n += 1
 
@@ -529,6 +533,12 @@ def _onset_start(out: list[str]) -> int:
     while i > 0 and out[i - 1] not in _VOWEL_SEGMENTS and out[i - 1] not in _LONG_SEGMENTS:
         i -= 1
     return i
+
+
+def _short(value: str) -> bool:
+    """A nucleus that is a short monophthong — the only kind an unstressed syllable reduces
+    [wiki-irish-orthography §Vowels: "Unstressed short vowels are generally reduced to /ə/"]."""
+    return len(value) == 1 and value not in ("ə",)
 
 
 def _offset(runs: list[tuple[str, str]], i: int) -> int:

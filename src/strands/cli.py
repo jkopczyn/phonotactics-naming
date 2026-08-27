@@ -21,7 +21,9 @@ is SKIPPED: the row is still written, with empty output columns and a `skipped:.
 `DESC+NOUN` epithet tags (I-39). `explain` prints the derivation trace of one IPA word
 (default construction `DESC`): stage, rule id, tag, before -> after, and the rule's own
 `#` citation comment where the id names a rule line. `gallery` is `gallery.render_gallery`.
-`lint` prints `inputs.lint_report`; `--accept` writes the guesses back.
+`lint` prints `inputs.lint_report`; `--accept` writes the guesses back — including an `ipa`
+constructed from the spelling by `strands.g2p` (spec §5, milestone 8), which also gets a
+`note` saying so.
 """
 
 from __future__ import annotations

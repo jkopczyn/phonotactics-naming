@@ -13,7 +13,7 @@ Dutch — as IPA plus an English-reader respelling, with a derivation trace. Fiv
 in the fiction; the fifth (Old Irish) is a lookup task and is **out of scope** here.
 
 Non-goals: probabilistic output; perception modelling; a general Irish declension engine; a
-general G2P (a *provisional* Irish G2P is a later milestone); creole-style reduction layers;
+general G2P (the *provisional* Irish G2P of milestone 8 is Irish-only); creole-style reduction layers;
 any GUI.
 
 Tooling: Python ≥3.12, `uv`, `pytest`, no runtime dependencies beyond the standard library
@@ -158,8 +158,10 @@ Determinism: no randomness anywhere; identical input and rule files give identic
 ## 5. Input
 
 TSV, header row: `orthography ipa dialect gloss category gender gen_ipa pl_ipa note`.
-Only `orthography` is required. Missing `ipa` → row skipped with a note (until the
-provisional G2P milestone exists, after which: constructed IPA tagged `ipa:constructed`).
+Only `orthography` is required. Missing `ipa` → constructed from the spelling by the
+provisional Irish G2P (`strands.g2p`, milestone 8, now implemented) and tagged
+`ipa:constructed`; only an orthography the reader cannot read leaves the row skipped
+with a note.
 Missing `gender` → inferred (known-name list, then ending heuristics, else `m`), tagged.
 Missing `gen_ipa` → inferred by declension shape (broad-C-final m → slenderize; `-ach` →
 `-aigh`; f + C → slenderize + `-e`; vowel-final → unchanged), tagged. Missing `dialect` →
@@ -270,7 +272,7 @@ One row per design default; each is one line to change in the named file.
 6. Target rule files, one per milestone-commit each: Georgian, Arabic, Welsh, Dutch — each
    with its regression run against attested data and its section of the gallery.
 7. CLI (`run`, `explain`, `gallery`, `lint`) and the committed gallery snapshot.
-8. (Later, optional) provisional Irish G2P.
+8. Provisional Irish G2P (`strands.g2p`), wired into input inference — **done**.
 
 ## 11. Open items carried, not blocking
 
