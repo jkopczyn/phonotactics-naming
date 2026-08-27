@@ -39,3 +39,9 @@
   milestone 8, previously optional) is a v1 blocker; agent dispatched (src/strands/g2p.py,
   lint/--accept integration, regression against the attested test-words rows). Old Irish
   strand: spec 23f317b approved; plan writer + lexicon harvest running in parallel.
+- 2026-08-27: Old Irish plan draft 3 (6474eb4) passed GPT re-check after two Opus+GPT
+  rounds (spec §11: grammar on the written form, citation-form input). Workflow launched:
+  run `wf_00ce1718-7fa`, script `/home/jkop/.claude/jobs/5f09897a/tmp/oi-workflow.js`
+  (18 tasks, 3 reviews; check.py order 2→6→7; Task 4 Middle Irish harvest runs beside the
+  rules chain). Resume with `Workflow({scriptPath, resumeFromRunId})`. Do NOT SendMessage
+  its agents (see memory: duplicates).
