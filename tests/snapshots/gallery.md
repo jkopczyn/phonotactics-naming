@@ -52,20 +52,20 @@ Irish: /ˈmˠat̪ˠɑːnˠəx/
 
 | construction | welsh | arabic-egy | georgian | dutch | old-irish |
 |---|---|---|---|---|---|
-| VOC | ewatanach /əu.a.ˈta.naχ/ | awaṭaanakh /ʔa.wa.ˈtˤaː.nax/ | avatanax /ɑvɑtʰɑnɑx/ | evattanech /ə.vɑ.ˈtaː.nəx/ +1 | a Mattáinch /a β̃at̪ˠaːnʲç/ !RETRO |
-| GEN | mataneu /ma.ˈta.nəi/ | maṭaanay /ma.ˈtˤaː.naj/ | matanai /mɑtʰɑnɑi/ | mattanej /mɑ.ˈtaː.nəj/ +1 | Mattáinch /mˠat̪ˠaːnʲç/ !RETRO |
+| VOC | ewatanach /əu.a.ˈta.naχ/ | awaṭaanakh /ʔa.wa.ˈtˤaː.nax/ | avatanax /ɑvɑtʰɑnɑx/ | evattanech /ə.vɑ.ˈtaː.nəx/ +1 | a Mattánaig /a β̃at̪ˠaːn̪ˠəɣʲ/ !RETRO |
+| GEN | mataneu /ma.ˈta.nəi/ | maṭaanay /ma.ˈtˤaː.naj/ | matanai /mɑtʰɑnɑi/ | mattanej /mɑ.ˈtaː.nəj/ +1 | Mattánaig /mˠat̪ˠaːn̪ˠəɣʲ/ !RETRO |
 | PATRO_O | omataneu /ɔ.ma.ˈta.nəi/ | umaṭaanay /ʔu.ma.ˈtˤaː.naj/ | omatanai /ɔmɑtʰɑnɑi/ | oomattanej /oː.mɑ.ˈtaː.nəj/ +1 | — |
 | PATRO_NI | niwataneu /nɪu.a.ˈta.nəi/ | niwaṭaanay /ni.wa.ˈtˤaː.naj/ | nivatanai /nivɑtʰɑnɑi/ | njievattanej /nji.vɑ.ˈtaː.nəj/ +2 | — |
-| DESC | matanach /ma.ˈta.naχ/ | maṭaanakh /ma.ˈtˤaː.nax/ | matanax /mɑtʰɑnɑx/ | mattanech /mɑ.ˈtaː.nəx/ +1 | Mattánch /mˠat̪ˠaːn̪ˠx/ !RETRO |
-| DESC+ADJ | matanachaidd /ma.ta.ˈnaː.χaið/ | maṭanakhi /ma.tˤa.ˈna.xi/ | matanaxuri /mɑtʰɑnɑxuri/ | mattanechachtech /mɑ.taː.nə.ˈxɑx.təx/ +1 | Mattánch /mˠat̪ˠaːn̪ˠx/ !RETRO |
-| DESC+NOUN | matanach /ma.ˈta.naχ/ | maṭanakha /ma.tˤa.ˈna.xa/ | matanaxi /mɑtʰɑnɑxi/ | mattanech /mɑ.ˈtaː.nəx/ +1 | Mattánch /mˠat̪ˠaːn̪ˠx/ !RETRO |
-| MAEL | — | — | — | — | Máel Mattáinch /mˠail̪ˠ mˠat̪ˠaːnʲç/ !RETRO |
-| GILLA | — | — | — | — | Gilla Mattáinch /ɟil̪ˠl̪ˠa mˠat̪ˠaːnʲç/ !RETRO |
-| CU | — | — | — | — | Cú Mattáinch /kuː β̃at̪ˠaːnʲç/ !RETRO |
-| FER | — | — | — | — | Fer Mattáinch /fʲeɾˠ mˠat̪ˠaːnʲç/ !RETRO |
-| MAC | — | — | — | — | macc Mattáinch /mˠak mˠat̪ˠaːnʲç/ !RETRO |
-| UA | — | — | — | — | aue Mattáinch /aue mˠat̪ˠaːnʲç/ !RETRO |
-| INGEN | — | — | — | — | ingen Mattáinch /iɲɟən̪ˠ β̃at̪ˠaːnʲç/ !RETRO |
+| DESC | matanach /ma.ˈta.naχ/ | maṭaanakh /ma.ˈtˤaː.nax/ | matanax /mɑtʰɑnɑx/ | mattanech /mɑ.ˈtaː.nəx/ +1 | Mattánach /mˠat̪ˠaːn̪ˠəx/ !RETRO |
+| DESC+ADJ | matanachaidd /ma.ta.ˈnaː.χaið/ | maṭanakhi /ma.tˤa.ˈna.xi/ | matanaxuri /mɑtʰɑnɑxuri/ | mattanechachtech /mɑ.taː.nə.ˈxɑx.təx/ +1 | Mattánach /mˠat̪ˠaːn̪ˠəx/ !RETRO |
+| DESC+NOUN | matanach /ma.ˈta.naχ/ | maṭanakha /ma.tˤa.ˈna.xa/ | matanaxi /mɑtʰɑnɑxi/ | mattanech /mɑ.ˈtaː.nəx/ +1 | Mattánach /mˠat̪ˠaːn̪ˠəx/ !RETRO |
+| MAEL | — | — | — | — | Máel Mattánaig /mˠail̪ˠ mˠat̪ˠaːn̪ˠəɣʲ/ !RETRO |
+| GILLA | — | — | — | — | Gilla Mattánaig /ɟil̪ˠl̪ˠa mˠat̪ˠaːn̪ˠəɣʲ/ !RETRO |
+| CU | — | — | — | — | Cú Mattánaig /kuː β̃at̪ˠaːn̪ˠəɣʲ/ !RETRO |
+| FER | — | — | — | — | Fer Mattánaig /fʲeɾˠ mˠat̪ˠaːn̪ˠəɣʲ/ !RETRO |
+| MAC | — | — | — | — | macc Mattánaig /mˠak mˠat̪ˠaːn̪ˠəɣʲ/ !RETRO |
+| UA | — | — | — | — | aue Mattánaig /aue mˠat̪ˠaːn̪ˠəɣʲ/ !RETRO |
+| INGEN | — | — | — | — | ingen Mattánaig /iɲɟən̪ˠ β̃at̪ˠaːn̪ˠəɣʲ/ !RETRO |
 
 ## Lasairchos — 'Flamefoot' (compound epithet)
 
@@ -640,20 +640,20 @@ Irish: /ˈʃeːmˠəsˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch | old-irish |
 |---|---|---|---|---|---|
-| VOC | yhemas /ə.ˈhɛ.mas/ | aheemash /ʔa.ˈheː.maʃ/ | ahemash /ɑhɛmɑʃ/ | ehemesj /ə.ˈheː.məʃ/ | a Ṡéims /a heːβ̃ʲʃ/ !RETRO:loan |
-| GEN | siemas /ˈʃɛ.mas/ | sheemash /ˈʃeː.maʃ/ | shemash /ʃɛmɑʃ/ | sjemesj /ˈʃeː.məʃ/ | Séims /ʃeːβ̃ʲʃ/ !RETRO:loan |
+| VOC | yhemas /ə.ˈhɛ.mas/ | aheemash /ʔa.ˈheː.maʃ/ | ahemash /ɑhɛmɑʃ/ | ehemesj /ə.ˈheː.məʃ/ | a Ṡémais /a heːβ̃əʃ/ !RETRO:loan |
+| GEN | siemas /ˈʃɛ.mas/ | sheemash /ˈʃeː.maʃ/ | shemash /ʃɛmɑʃ/ | sjemesj /ˈʃeː.məʃ/ | Sémais /ʃeːβ̃əʃ/ !RETRO:loan |
 | PATRO_O | osiemas /ɔ.ˈʃɛ.mas/ | usheemash /ʔu.ˈʃeː.maʃ/ | oshemash /ɔʃɛmɑʃ/ | oosjemesj /oː.ˈʃeː.məʃ/ | — |
 | PATRO_NI | nihemas /nɪ.ˈhɛ.mas/ | niheemash /ni.ˈheː.maʃ/ | nihemash /nihɛmɑʃ/ | njiehemesj /nji.ˈheː.məʃ/ +1 | — |
-| DESC | siemas /ˈʃɛ.mas/ | sheemas /ˈʃeː.mas/ | shemas /ʃɛmɑs/ | sjemes /ˈʃeː.məs/ | Séms /ʃeːβ̃sˠ/ !RETRO:loan |
-| DESC+ADJ | siemasaidd /ʃɛ.ˈma.saið/ | shimasi /ʃi.ˈma.si/ | shemasuri /ʃɛmɑsuri/ | sjemesachtech /ʃeː.mə.ˈsɑx.təx/ | Séms /ʃeːβ̃sˠ/ !RETRO:loan |
-| DESC+NOUN | siemas /ˈʃɛ.mas/ | shimasa /ʃi.ˈma.sa/ | shemasi /ʃɛmɑsi/ | sjemes /ˈʃeː.məs/ | Séms /ʃeːβ̃sˠ/ !RETRO:loan |
-| MAEL | — | — | — | — | Máel Séims /mˠail̪ˠ ʃeːβ̃ʲʃ/ !RETRO:loan |
-| GILLA | — | — | — | — | Gilla Séims /ɟil̪ˠl̪ˠa ʃeːβ̃ʲʃ/ !RETRO:loan |
-| CU | — | — | — | — | Cú Ṡéims /kuː heːβ̃ʲʃ/ !RETRO:loan |
-| FER | — | — | — | — | Fer Séims /fʲeɾˠ ʃeːβ̃ʲʃ/ !RETRO:loan |
-| MAC | — | — | — | — | macc Séims /mˠak ʃeːβ̃ʲʃ/ !RETRO:loan |
-| UA | — | — | — | — | aue Séims /aue ʃeːβ̃ʲʃ/ !RETRO:loan |
-| INGEN | — | — | — | — | ingen Ṡéims /iɲɟən̪ˠ heːβ̃ʲʃ/ !RETRO:loan |
+| DESC | siemas /ˈʃɛ.mas/ | sheemas /ˈʃeː.mas/ | shemas /ʃɛmɑs/ | sjemes /ˈʃeː.məs/ | Sémas /ʃeːβ̃əsˠ/ !RETRO:loan |
+| DESC+ADJ | siemasaidd /ʃɛ.ˈma.saið/ | shimasi /ʃi.ˈma.si/ | shemasuri /ʃɛmɑsuri/ | sjemesachtech /ʃeː.mə.ˈsɑx.təx/ | Sémas /ʃeːβ̃əsˠ/ !RETRO:loan |
+| DESC+NOUN | siemas /ˈʃɛ.mas/ | shimasa /ʃi.ˈma.sa/ | shemasi /ʃɛmɑsi/ | sjemes /ˈʃeː.məs/ | Sémas /ʃeːβ̃əsˠ/ !RETRO:loan |
+| MAEL | — | — | — | — | Máel Sémais /mˠail̪ˠ ʃeːβ̃əʃ/ !RETRO:loan |
+| GILLA | — | — | — | — | Gilla Sémais /ɟil̪ˠl̪ˠa ʃeːβ̃əʃ/ !RETRO:loan |
+| CU | — | — | — | — | Cú Ṡémais /kuː heːβ̃əʃ/ !RETRO:loan |
+| FER | — | — | — | — | Fer Sémais /fʲeɾˠ ʃeːβ̃əʃ/ !RETRO:loan |
+| MAC | — | — | — | — | macc Sémais /mˠak ʃeːβ̃əʃ/ !RETRO:loan |
+| UA | — | — | — | — | aue Sémais /aue ʃeːβ̃əʃ/ !RETRO:loan |
+| INGEN | — | — | — | — | ingen Ṡémais /iɲɟən̪ˠ heːβ̃əʃ/ !RETRO:loan |
 
 ## Dónall — Donal (m. given name)
 
@@ -1879,20 +1879,20 @@ Irish: /ˈɡeːlˠəx/
 
 | construction | welsh | arabic-egy | georgian | dutch | old-irish |
 |---|---|---|---|---|---|
-| VOC | ygelach /ə.ˈɡɛ.laχ/ | agheelakh /ʔa.ˈɣeː.lax/ | aghvelax /ɑɣvɛlɑx/ | egelech /ə.ˈɣeː.ləx/ | a Géilch /a ɣʲeːlʲç/ !RETRO:late |
-| GEN | geleu /ˈɡɛ.ləi/ | geelay /ˈɡeː.laj/ | gvelai /ɡvɛlɑi/ | gelej /ˈɣeː.ləj/ | Géilch /ɟeːlʲç/ !RETRO:late |
+| VOC | ygelach /ə.ˈɡɛ.laχ/ | agheelakh /ʔa.ˈɣeː.lax/ | aghvelax /ɑɣvɛlɑx/ | egelech /ə.ˈɣeː.ləx/ | a Gélaig /a ɣʲeːl̪ˠəɣʲ/ !RETRO:late |
+| GEN | geleu /ˈɡɛ.ləi/ | geelay /ˈɡeː.laj/ | gvelai /ɡvɛlɑi/ | gelej /ˈɣeː.ləj/ | Gélaig /ɟeːl̪ˠəɣʲ/ !RETRO:late |
 | PATRO_O | ogeleu /ɔ.ˈɡɛ.ləi/ | ugeelay /ʔu.ˈɡeː.laj/ | ogvelai /ɔɡvɛlɑi/ | oogelej /oː.ˈɣeː.ləj/ | — |
 | PATRO_NI | nigeleu /nɪ.ˈɡɛ.ləi/ | nigheelay /ni.ˈɣeː.laj/ | nighvelai /niɣvɛlɑi/ | njiegelej /nji.ˈɣeː.ləj/ +1 | — |
-| DESC | gelach /ˈɡɛ.laχ/ | geelakh /ˈɡeː.lax/ | gvelax /ɡvɛlɑx/ | gelech /ˈɣeː.ləx/ | Gélch /ɟeːl̪ˠx/ !RETRO:late |
-| DESC+ADJ | gelachaidd /ɡɛ.ˈlaː.χaið/ | gilakhi /ɡi.ˈla.xi/ | gvelaxuri /ɡvɛlɑxuri/ | gelechachtech /ɣeː.lə.ˈxɑx.təx/ | Gélch /ɟeːl̪ˠx/ !RETRO:late |
-| DESC+NOUN | gelach /ˈɡɛ.laχ/ | gilakha /ɡi.ˈla.xa/ | gvelaxi /ɡvɛlɑxi/ | gelech /ˈɣeː.ləx/ | Gélch /ɟeːl̪ˠx/ !RETRO:late |
-| MAEL | — | — | — | — | Máel Géilch /mˠail̪ˠ ɟeːlʲç/ !RETRO:late |
-| GILLA | — | — | — | — | Gilla Géilch /ɟil̪ˠl̪ˠa ɟeːlʲç/ !RETRO:late |
-| CU | — | — | — | — | Cú Géilch /kuː ɣʲeːlʲç/ !RETRO:late |
-| FER | — | — | — | — | Fer Géilch /fʲeɾˠ ɟeːlʲç/ !RETRO:late |
-| MAC | — | — | — | — | macc Géilch /mˠak ɟeːlʲç/ !RETRO:late |
-| UA | — | — | — | — | aue Géilch /aue ɟeːlʲç/ !RETRO:late |
-| INGEN | — | — | — | — | ingen Géilch /iɲɟən̪ˠ ɣʲeːlʲç/ !RETRO:late |
+| DESC | gelach /ˈɡɛ.laχ/ | geelakh /ˈɡeː.lax/ | gvelax /ɡvɛlɑx/ | gelech /ˈɣeː.ləx/ | Gélach /ɟeːl̪ˠəx/ !RETRO:late |
+| DESC+ADJ | gelachaidd /ɡɛ.ˈlaː.χaið/ | gilakhi /ɡi.ˈla.xi/ | gvelaxuri /ɡvɛlɑxuri/ | gelechachtech /ɣeː.lə.ˈxɑx.təx/ | Gélach /ɟeːl̪ˠəx/ !RETRO:late |
+| DESC+NOUN | gelach /ˈɡɛ.laχ/ | gilakha /ɡi.ˈla.xa/ | gvelaxi /ɡvɛlɑxi/ | gelech /ˈɣeː.ləx/ | Gélach /ɟeːl̪ˠəx/ !RETRO:late |
+| MAEL | — | — | — | — | Máel Gélaig /mˠail̪ˠ ɟeːl̪ˠəɣʲ/ !RETRO:late |
+| GILLA | — | — | — | — | Gilla Gélaig /ɟil̪ˠl̪ˠa ɟeːl̪ˠəɣʲ/ !RETRO:late |
+| CU | — | — | — | — | Cú Gélaig /kuː ɣʲeːl̪ˠəɣʲ/ !RETRO:late |
+| FER | — | — | — | — | Fer Gélaig /fʲeɾˠ ɟeːl̪ˠəɣʲ/ !RETRO:late |
+| MAC | — | — | — | — | macc Gélaig /mˠak ɟeːl̪ˠəɣʲ/ !RETRO:late |
+| UA | — | — | — | — | aue Gélaig /aue ɟeːl̪ˠəɣʲ/ !RETRO:late |
+| INGEN | — | — | — | — | ingen Gélaig /iɲɟən̪ˠ ɣʲeːl̪ˠəɣʲ/ !RETRO:late |
 
 ## leisciúil — lazy
 
@@ -2761,20 +2761,20 @@ Irish: /ˈkaːɾˠvʲalˠəx/
 
 | construction | welsh | arabic-egy | georgian | dutch | old-irish |
 |---|---|---|---|---|---|
-| VOC | ycharfalach /ə.χar.ˈva.laχ/ | akharfalakh /ʔa.xar.ˈfa.lax/ | axarvialax /ɑxɑrviɑlɑx/ | echaarvjallech /ə.xaːr.ˈvjɑ.ləx/ +1 | a chárbilch /a xaːɾʲβʲəlʲç/ !RETRO |
-| GEN | carfaleu /kar.ˈva.ləi/ | karfalay /kar.ˈfa.laj/ | karvialai /kʰɑrviɑlɑi/ | kaarvjallej /kaːr.ˈvjɑ.ləj/ +1 | cárbilch /kaːɾʲβʲəlʲç/ !RETRO |
+| VOC | ycharfalach /ə.χar.ˈva.laχ/ | akharfalakh /ʔa.xar.ˈfa.lax/ | axarvialax /ɑxɑrviɑlɑx/ | echaarvjallech /ə.xaːr.ˈvjɑ.ləx/ +1 | a chárbelaig /a xaːɾʲβʲəl̪ˠəɣʲ/ !RETRO |
+| GEN | carfaleu /kar.ˈva.ləi/ | karfalay /kar.ˈfa.laj/ | karvialai /kʰɑrviɑlɑi/ | kaarvjallej /kaːr.ˈvjɑ.ləj/ +1 | cárbelaig /kaːɾʲβʲəl̪ˠəɣʲ/ !RETRO |
 | PATRO_O | ocarfaleu /ɔ.kar.ˈva.ləi/ | ukarfalay /ʔu.kar.ˈfa.laj/ | okarvialai /ɔkʰɑrviɑlɑi/ | ookaarvjallej /oː.kaːr.ˈvjɑ.ləj/ +1 | — |
 | PATRO_NI | nicharfaleu /nɪ.χar.ˈva.ləi/ | nikharfalay /ni.xar.ˈfa.laj/ | nixarvialai /nixɑrviɑlɑi/ | njiechaarvjallej /nji.xaːr.ˈvjɑ.ləj/ +2 | — |
-| DESC | carfalach /kar.ˈva.laχ/ | karfalakh /kar.ˈfa.lax/ | karvialax /kʰɑrviɑlɑx/ | kaarvjallech /kaːr.ˈvjɑ.ləx/ +1 | cárbelch /kaːɾʲβʲəl̪ˠx/ !RETRO |
-| DESC+ADJ | carfalachaidd /kar.va.ˈlaː.χaið/ | karfalakhi /kar.ˈfa.la.xi/ | karvialaxuli /kʰɑrviɑlɑxuli/ | kaarvjallechachtech /kaːr.vjɑ.lə.ˈxɑx.təx/ +1 | cárbelch /kaːɾʲβʲəl̪ˠx/ !RETRO |
-| DESC+NOUN | carfalach /kar.ˈva.laχ/ | karfalakha /kar.ˈfa.la.xa/ | karvialaxi /kʰɑrviɑlɑxi/ | kaarvjallech /kaːr.ˈvjɑ.ləx/ +1 | cárbelch /kaːɾʲβʲəl̪ˠx/ !RETRO |
-| MAEL | — | — | — | — | Máel cárbilch /mˠail̪ˠ kaːɾʲβʲəlʲç/ !RETRO |
-| GILLA | — | — | — | — | Gilla cárbilch /ɟil̪ˠl̪ˠa kaːɾʲβʲəlʲç/ !RETRO |
-| CU | — | — | — | — | Cú chárbilch /kuː xaːɾʲβʲəlʲç/ !RETRO |
-| FER | — | — | — | — | Fer cárbilch /fʲeɾˠ kaːɾʲβʲəlʲç/ !RETRO |
-| MAC | — | — | — | — | macc cárbilch /mˠak kaːɾʲβʲəlʲç/ !RETRO |
-| UA | — | — | — | — | aue cárbilch /aue kaːɾʲβʲəlʲç/ !RETRO |
-| INGEN | — | — | — | — | ingen chárbilch /iɲɟən̪ˠ xaːɾʲβʲəlʲç/ !RETRO |
+| DESC | carfalach /kar.ˈva.laχ/ | karfalakh /kar.ˈfa.lax/ | karvialax /kʰɑrviɑlɑx/ | kaarvjallech /kaːr.ˈvjɑ.ləx/ +1 | cárbelach /kaːɾʲβʲəl̪ˠəx/ !RETRO |
+| DESC+ADJ | carfalachaidd /kar.va.ˈlaː.χaið/ | karfalakhi /kar.ˈfa.la.xi/ | karvialaxuli /kʰɑrviɑlɑxuli/ | kaarvjallechachtech /kaːr.vjɑ.lə.ˈxɑx.təx/ +1 | cárbelach /kaːɾʲβʲəl̪ˠəx/ !RETRO |
+| DESC+NOUN | carfalach /kar.ˈva.laχ/ | karfalakha /kar.ˈfa.la.xa/ | karvialaxi /kʰɑrviɑlɑxi/ | kaarvjallech /kaːr.ˈvjɑ.ləx/ +1 | cárbelach /kaːɾʲβʲəl̪ˠəx/ !RETRO |
+| MAEL | — | — | — | — | Máel cárbelaig /mˠail̪ˠ kaːɾʲβʲəl̪ˠəɣʲ/ !RETRO |
+| GILLA | — | — | — | — | Gilla cárbelaig /ɟil̪ˠl̪ˠa kaːɾʲβʲəl̪ˠəɣʲ/ !RETRO |
+| CU | — | — | — | — | Cú chárbelaig /kuː xaːɾʲβʲəl̪ˠəɣʲ/ !RETRO |
+| FER | — | — | — | — | Fer cárbelaig /fʲeɾˠ kaːɾʲβʲəl̪ˠəɣʲ/ !RETRO |
+| MAC | — | — | — | — | macc cárbelaig /mˠak kaːɾʲβʲəl̪ˠəɣʲ/ !RETRO |
+| UA | — | — | — | — | aue cárbelaig /aue kaːɾʲβʲəl̪ˠəɣʲ/ !RETRO |
+| INGEN | — | — | — | — | ingen chárbelaig /iɲɟən̪ˠ xaːɾʲβʲəl̪ˠəɣʲ/ !RETRO |
 
 ## an-chiúin — very quiet
 
@@ -2971,20 +2971,20 @@ Irish: /ˈkaɾʲmʲəlʲiːtʲəx/
 
 | construction | welsh | arabic-egy | georgian | dutch | old-irish |
 |---|---|---|---|---|---|
-| VOC | ycharmylitsach /ə.χar.mə.ˈlɪ.tʃaχ/ | akharmaliitakh /ʔa.xar.ma.ˈliː.tax/ | axarmialichiax /ɑxɑrmiɑlitʃʰiɑx/ | echarmjeljietjech /ə.xɑr.mjə.ˈlji.tjəx/ +2 | a Chairmlíttig /a xaɾʲβ̃ʲlʲiːtʲəɣʲ/ !RETRO:loan |
-| GEN | carmylitseu /kar.mə.ˈlɪ.tʃəi/ | karmaliitay /kar.ma.ˈliː.taj/ | karmialichiai /kʰɑrmiɑlitʃʰiɑi/ | karmjeljietjej /kɑr.mjə.ˈlji.tjəj/ +2 | Cairmlíttig /kaɾʲβ̃ʲlʲiːtʲəɣʲ/ !RETRO:loan |
+| VOC | ycharmylitsach /ə.χar.mə.ˈlɪ.tʃaχ/ | akharmaliitakh /ʔa.xar.ma.ˈliː.tax/ | axarmialichiax /ɑxɑrmiɑlitʃʰiɑx/ | echarmjeljietjech /ə.xɑr.mjə.ˈlji.tjəx/ +2 | a Chairmilíttig /a xaɾʲβ̃ʲəlʲiːtʲəɣʲ/ !RETRO:loan |
+| GEN | carmylitseu /kar.mə.ˈlɪ.tʃəi/ | karmaliitay /kar.ma.ˈliː.taj/ | karmialichiai /kʰɑrmiɑlitʃʰiɑi/ | karmjeljietjej /kɑr.mjə.ˈlji.tjəj/ +2 | Cairmilíttig /kaɾʲβ̃ʲəlʲiːtʲəɣʲ/ !RETRO:loan |
 | PATRO_O | ocarmylitseu /ɔ.kar.mə.ˈlɪ.tʃəi/ | ukarmaliitay /ʔu.kar.ma.ˈliː.taj/ | okarmialichiai /ɔkʰɑrmiɑlitʃʰiɑi/ | ookarmjeljietjej /oː.kɑr.mjə.ˈlji.tjəj/ +2 | — |
 | PATRO_NI | nicharmylitseu /nɪ.χar.mə.ˈlɪ.tʃəi/ | nikharmaliitay /ni.xar.ma.ˈliː.taj/ | nixarmialichiai /nixɑrmiɑlitʃʰiɑi/ | njiecharmjeljietjej /nji.xɑr.mjə.ˈlji.tjəj/ +2 | — |
-| DESC | carmylitsach /kar.mə.ˈlɪ.tʃaχ/ | karmaliitakh /kar.ma.ˈliː.tax/ | karmialichiax /kʰɑrmiɑlitʃʰiɑx/ | karmjeljietjech /kɑr.mjə.ˈlji.tjəx/ +2 | Cairmlíttech /kaɾʲβ̃ʲlʲiːtʲəx/ !RETRO:loan |
-| DESC+ADJ | carmylitsachaidd /kar.mə.lɪ.ˈtʃaː.χaið/ | karmalitakhi /kar.ma.li.ˈta.xi/ | karmialichiaxuli /kʰɑrmiɑlitʃʰiɑxuli/ | karmjeljietjechachtech /kɑr.mjə.lji.tjə.ˈxɑx.təx/ +2 | Cairmlíttech /kaɾʲβ̃ʲlʲiːtʲəx/ !RETRO:loan |
-| DESC+NOUN | carmylitsach /kar.mə.ˈlɪ.tʃaχ/ | karmalitakha /kar.ma.li.ˈta.xa/ | karmialichiaxi /kʰɑrmiɑlitʃʰiɑxi/ | karmjeljietjech /kɑr.mjə.ˈlji.tjəx/ +2 | Cairmlíttech /kaɾʲβ̃ʲlʲiːtʲəx/ !RETRO:loan |
-| MAEL | — | — | — | — | Máel Cairmlíttig /mˠail̪ˠ kaɾʲβ̃ʲlʲiːtʲəɣʲ/ !RETRO:loan |
-| GILLA | — | — | — | — | Gilla Cairmlíttig /ɟil̪ˠl̪ˠa kaɾʲβ̃ʲlʲiːtʲəɣʲ/ !RETRO:loan |
-| CU | — | — | — | — | Cú Chairmlíttig /kuː xaɾʲβ̃ʲlʲiːtʲəɣʲ/ !RETRO:loan |
-| FER | — | — | — | — | Fer Cairmlíttig /fʲeɾˠ kaɾʲβ̃ʲlʲiːtʲəɣʲ/ !RETRO:loan |
-| MAC | — | — | — | — | macc Cairmlíttig /mˠak kaɾʲβ̃ʲlʲiːtʲəɣʲ/ !RETRO:loan |
-| UA | — | — | — | — | aue Cairmlíttig /aue kaɾʲβ̃ʲlʲiːtʲəɣʲ/ !RETRO:loan |
-| INGEN | — | — | — | — | ingen Chairmlíttig /iɲɟən̪ˠ xaɾʲβ̃ʲlʲiːtʲəɣʲ/ !RETRO:loan |
+| DESC | carmylitsach /kar.mə.ˈlɪ.tʃaχ/ | karmaliitakh /kar.ma.ˈliː.tax/ | karmialichiax /kʰɑrmiɑlitʃʰiɑx/ | karmjeljietjech /kɑr.mjə.ˈlji.tjəx/ +2 | Cairmilíttech /kaɾʲβ̃ʲəlʲiːtʲəx/ !RETRO:loan |
+| DESC+ADJ | carmylitsachaidd /kar.mə.lɪ.ˈtʃaː.χaið/ | karmalitakhi /kar.ma.li.ˈta.xi/ | karmialichiaxuli /kʰɑrmiɑlitʃʰiɑxuli/ | karmjeljietjechachtech /kɑr.mjə.lji.tjə.ˈxɑx.təx/ +2 | Cairmilíttech /kaɾʲβ̃ʲəlʲiːtʲəx/ !RETRO:loan |
+| DESC+NOUN | carmylitsach /kar.mə.ˈlɪ.tʃaχ/ | karmalitakha /kar.ma.li.ˈta.xa/ | karmialichiaxi /kʰɑrmiɑlitʃʰiɑxi/ | karmjeljietjech /kɑr.mjə.ˈlji.tjəx/ +2 | Cairmilíttech /kaɾʲβ̃ʲəlʲiːtʲəx/ !RETRO:loan |
+| MAEL | — | — | — | — | Máel Cairmilíttig /mˠail̪ˠ kaɾʲβ̃ʲəlʲiːtʲəɣʲ/ !RETRO:loan |
+| GILLA | — | — | — | — | Gilla Cairmilíttig /ɟil̪ˠl̪ˠa kaɾʲβ̃ʲəlʲiːtʲəɣʲ/ !RETRO:loan |
+| CU | — | — | — | — | Cú Chairmilíttig /kuː xaɾʲβ̃ʲəlʲiːtʲəɣʲ/ !RETRO:loan |
+| FER | — | — | — | — | Fer Cairmilíttig /fʲeɾˠ kaɾʲβ̃ʲəlʲiːtʲəɣʲ/ !RETRO:loan |
+| MAC | — | — | — | — | macc Cairmilíttig /mˠak kaɾʲβ̃ʲəlʲiːtʲəɣʲ/ !RETRO:loan |
+| UA | — | — | — | — | aue Cairmilíttig /aue kaɾʲβ̃ʲəlʲiːtʲəɣʲ/ !RETRO:loan |
+| INGEN | — | — | — | — | ingen Chairmilíttig /iɲɟən̪ˠ xaɾʲβ̃ʲəlʲiːtʲəɣʲ/ !RETRO:loan |
 
 ## seirbhís — service
 

@@ -164,6 +164,35 @@ def test_an_unaligned_word_still_loses_its_epenthesis_and_stays_in_inventory():
     assert set(out) <= set(OI.inventory) and "ə" not in out and "ɔ" not in out
 
 
+@pytest.mark.parametrize("orthography,ipa,expected", [
+    # -ach/-as endings: the vowel is lexical and Old Irish writes it (*baccach*, *dúalgas*).
+    ("Matánach", "ˈmˠat̪ˠɑːnˠəx", ("mˠ", "a", "t̪ˠ", "aː", "n̪ˠ", "ə", "x")),
+    ("Gaelach", "ˈɡeːlˠəx", ("ɡ", "eː", "l̪ˠ", "ə", "x")),
+    # a SHORT vowel before ⟨l⟩ — only the C2 test keeps this one: /x/ is not on the grid.
+    ("carrbhealach", "ˈkaːɾˠvʲalˠəx", ("k", "aː", "ɾˠ", "βʲ", "a", "l̪ˠ", "ə", "x")),
+    # /m/ is no §2.4 C1 and /s/ no §2.4 C2.
+    ("Séamus", "ˈʃeːmˠəsˠ", ("ʃ", "eː", "mˠ", "ə", "sˠ")),
+])
+def test_a_lexical_unstressed_vowel_is_not_deleted_as_epenthesis(orthography, ipa, expected):
+    """Digest §2.4 is a GRID, not `SONORANT _ C`: C1 is {l r n} (never /m/), C2 is labial or
+    dorsal and never a voiceless stop, and a long vowel before C1 blocks epenthesis outright
+    (blocker 1). Draft 1's `ə -> 0 / SONORANT _ C` matched all four of these and gave
+    *Mattánch*, *Gélch*, *cárbelch*, *Séms*."""
+    assert retro(ipa) == expected
+
+
+@pytest.mark.parametrize("ipa,expected", [
+    ("ˈɡɔɾˠəmˠ", ("ɡ", "o", "ɾˠ", "mˠ")),                  # ⟨r⟩ + /m/, the worked example
+    ("ˈfʲaɾˠəɡ", ("fʲ", "a", "ɾˠ", "ɡ")),                  # ⟨r⟩ + /g/
+    ("ˈbˠɔɾˠəbˠ", ("bˠ", "o", "ɾˠ", "bˠ")),                # ⟨r⟩ + /b/
+    ("ˈɟal̪ˠəwən̪ˠ", ("ɟ", "a", "l̪ˠ", "β", "ə", "n̪ˠ")),      # ⟨l⟩ + /w/; the SECOND ə is lexical
+    ("ˈanʲəmʲ", ("a", "nʲ", "mʲ")),                        # ⟨n⟩ + /mʲ/
+])
+def test_the_grid_epenthesis_is_still_deleted_by_sound_alone(ipa, expected):
+    """O-7/O-15: the narrowed rule must keep firing on every §2.4 environment, untagged."""
+    assert retro(ipa) == expected
+
+
 @pytest.mark.parametrize("orthography,ipa", [
     ("athair", "ˈahəɾʲ"), ("máthair", "ˈmˠaːhəɾʲ"), ("bráthair", "ˈbˠɾˠaːhəɾʲ"),
     ("arán", "əˈɾˠaːnˠ"), ("Colmán", "ˈkɔl̪ˠəmˠaːnˠ"),

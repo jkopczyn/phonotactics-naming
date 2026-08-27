@@ -49,6 +49,28 @@ def test_a_miss_is_a_plain_retro():
                         TABLE).flag == "RETRO"
 
 
+def spelling(orthography, ipa):
+    """The whole RETRO path, as `strands run --construction DESC` renders it."""
+    return " ".join(word.render()
+                    for word in to_old_irish(entry(orthography, ipa), LEX, OI, IRISH,
+                                             TABLE).words)
+
+
+@pytest.mark.parametrize("orthography,ipa,expected", [
+    ("Matánach", "ˈmˠat̪ˠɑːnˠəx", "Mattánach"),   # ⟨tt⟩ is conv. 2 doubling, not epenthesis
+    ("Gaelach", "ˈɡeːlˠəx", "Gélach"),
+    ("carrbhealach", "ˈkaːɾˠvʲalˠəx", "cárbelach"),
+    ("Séamus", "ˈʃeːmˠəsˠ", "Sémas"),
+    ("gorm", "ˈɡɔɾˠəmˠ", "gorm"),          # the §2.4 grid case still loses its schwa
+    ("bacach", "bˠəˈkax", "baccach"),      # the attested ⟨-ach⟩ pair is untouched
+])
+def test_the_retro_path_keeps_the_unstressed_vowel_outside_the_epenthesis_grid(
+        orthography, ipa, expected):
+    """Digest §2.4 (the grid) end to end: draft 1 wrote *Mattánch*, *Gélch*, *cárbelch*,
+    *Séms*."""
+    assert spelling(orthography, ipa) == expected
+
+
 @pytest.mark.parametrize("declension,gender,expected", [
     ("m1", "m", "o"), ("f2", "f", "ā"), ("ach", "m", "o"), ("d4", "m", "indecl"),
     ("", "f", "ā"), ("", "m", "o"),

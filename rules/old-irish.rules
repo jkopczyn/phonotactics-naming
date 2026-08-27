@@ -138,7 +138,14 @@ UNMARKED = p b t d f v s m n l r
 @orth("l:2") -> 0                       %attested # digest §2.4; [old-irish-lexicon] Colmán ~ Colmán
 @orth("n:2") -> 0                       %design   # digest §2.4
 @orth("m:2") -> 0                       %design   # digest §2.4
-ə -> 0 / SONORANT _ C                   %design   # digest §2.4 (after a sonorant, before a consonant — O-15)
+#     The sound-driven rule is the digest §2.4 grid, not "any sonorant + any consonant":
+#     C1 is {l r n} (NOT m), C2 is labial or dorsal and never a voiceless stop, and the
+#     preceding vowel must be short (§2.4 blocker 1). Anything outside the grid is a
+#     LEXICAL unstressed vowel — the -ach/-as endings, *Séamus*, *Matánach* — and Old
+#     Irish keeps it. C2 is spelled with the values (a)'s digraph rules have already
+#     produced (⟨bh mh gh⟩ -> β β̃ ɣ), plus the modern /w vˠ vʲ/ that (g) rewrites later.
+ə -> 0 / [V -long] {l̪ˠ lʲ ɾˠ ɾʲ} _ {bˠ bʲ ɡ ɟ fˠ fʲ w vˠ vʲ mˠ mʲ β βʲ β̃ β̃ʲ ɣ ɣʲ}   %design   # digest §2.4 grid line 1 ({l r} + labial/dorsal non-stop)
+ə -> 0 / [V -long] {n̪ˠ nʲ} _ {bˠ bʲ fˠ fʲ w vˠ vʲ mˠ mʲ β βʲ β̃ β̃ʲ}                  %design   # digest §2.4 grid line 2 (⟨n⟩ takes labials only)
 #
 # (g) Survivors of the digraph rules: /w/ is not an Old Irish phoneme (S6), nor /v/.
 w  -> β                                 %design   # digest §10.1 chart (no /w/; lenited b = /v/~/β/)
