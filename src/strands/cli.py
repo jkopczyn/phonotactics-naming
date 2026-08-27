@@ -2,6 +2,7 @@
 
     strands run   INPUT.tsv [--strand X|all] [--construction NAME|all] [--out out.tsv]
     strands explain WORD --strand X [--construction NAME] [--orthography TEXT]
+    strands word  SPELLING [--strand X|all] [--construction NAME] [--trace]
     strands gallery INPUT.tsv [--out gallery.md]
     strands lint  INPUT.tsv [--accept]
     strands check [--features PATH] RULES.rules|LEXICON.tsv ...
@@ -21,7 +22,10 @@ is SKIPPED: the row is still written, with empty output columns and a `skipped:.
 `DESC+NOUN` epithet tags (I-39). `explain` prints the derivation trace of one IPA word
 (default construction `DESC`): stage, rule id, tag, before -> after, and the rule's own
 `#` citation comment where the id names a rule line. `gallery` is `gallery.render_gallery`.
-`lint` prints `inputs.lint_report`; `--accept` writes the guesses back — including an `ipa`
+`word` is the no-file path: one Irish spelling, its IPA constructed by `strands.g2p` (so
+`assumptions` always carries `ipa:constructed`), one construction (default `DESC`), every
+strand by default, printed as aligned lines rather than TSV. `--trace` appends the `explain`
+derivation and so needs a single `--strand`. `lint` prints `inputs.lint_report`; `--accept` writes the guesses back — including an `ipa`
 constructed from the spelling by `strands.g2p` (spec §5, milestone 8), which also gets a
 `note` saying so.
 
@@ -43,7 +47,7 @@ from typing import Sequence
 
 from . import __version__
 
-COMMANDS = ("run", "explain", "gallery", "lint", "check")
+COMMANDS = ("run", "explain", "word", "gallery", "lint", "check")
 DEFAULT_FEATURES = Path(__file__).resolve().parents[2] / "rules" / "features.tsv"
 RUN_COLUMNS = ("orthography", "construction", "strand", "respelling", "ipa",
                "flags", "fallbacks", "assumptions")
@@ -284,6 +288,61 @@ def cmd_explain(args: Sequence[str]) -> int:
     return 0
 
 
+# ---- word -----------------------------------------------------------------------------------
+
+def cmd_word(args: Sequence[str]) -> int:
+    (spelling,), opts = _parse(args, {"--strand": True, "--construction": True,
+                                      "--trace": False}, 1)
+    strands = _strands(opts.get("--strand"))
+    trace = bool(opts.get("--trace"))
+    if trace and len(strands) != 1:
+        raise UsageError("--trace needs a single --strand")
+    constructions = _constructions(opts.get("--construction"), _DEFAULT_CONSTRUCTION)
+    if len(constructions) != 1:
+        raise UsageError("word takes exactly one construction, not `all`")
+    (construction,) = constructions
+    table, irish, targets = _load(strands)
+    from .inputs import Entry, infer
+    from .irish import MissingSlot
+    from .pipeline import ConstructionNotInStrand, run_entry
+    from .tokenize import SegmentError
+    try:
+        entry = infer(Entry(orthography=spelling), irish, table)
+    except SegmentError as e:
+        raise RuntimeError(f"{spelling}: {e}") from e
+    if not entry.ipa:
+        raise RuntimeError(f"{spelling}: could not construct an IPA from the spelling "
+                           f"({' '.join(entry.assumptions)})")
+    print(f"{spelling}  [{construction}]  ipa: {entry.ipa}")
+    print(f"assumptions: {' '.join(entry.assumptions)}")
+    results = []
+    for name, rf in targets:
+        try:
+            results.append((name, run_entry(entry, construction, irish, rf, table)))
+        except MissingSlot as e:
+            raise UsageError(f"{e}; word takes one word and cannot fill a second slot") from e
+        except ConstructionNotInStrand:                     # Old Irish O-17
+            results.append((name, None))
+        except SegmentError as e:
+            raise RuntimeError(f"{spelling} [{construction}, {name}]: {e}") from e
+    width = max(len(name) for name, _ in results) if results else 0
+    for name, r in results:
+        if r is None:
+            print(f"{name:<{width}}  skipped:construction-not-in-strand")
+            continue
+        flags = " ".join(r.flags)
+        extra = [f for f in (flags,) if f]
+        if r.fallbacks:
+            extra.append(f"fallbacks={r.fallbacks}")
+        print(f"{name:<{width}}  {r.respelling:<14} {r.ipa:<20} {' '.join(extra)}".rstrip())
+    if trace and results and results[0][1] is not None:
+        (_, r), (_, rf) = results[0], targets[0]
+        print()
+        for line in format_trace(r, _citations(irish, rf)):
+            print(line)
+    return 0
+
+
 # ---- gallery --------------------------------------------------------------------------------
 
 def cmd_gallery(args: Sequence[str]) -> int:
@@ -377,10 +436,11 @@ def _check(argv: list[str]) -> int:
 _USAGE = {
     "run": "strands run INPUT.tsv [--strand X|all] [--construction NAME|all] [--out out.tsv]",
     "explain": "strands explain WORD --strand X [--construction NAME] [--orthography TEXT]",
+    "word": "strands word SPELLING [--strand X|all] [--construction NAME] [--trace]",
     "gallery": "strands gallery INPUT.tsv [--out gallery.md]",
     "lint": "strands lint INPUT.tsv [--accept]",
 }
-_HANDLERS = {"run": cmd_run, "explain": cmd_explain, "gallery": cmd_gallery, "lint": cmd_lint}
+_HANDLERS = {"run": cmd_run, "explain": cmd_explain, "word": cmd_word, "gallery": cmd_gallery, "lint": cmd_lint}
 
 
 def main(argv: list[str] | None = None) -> int:

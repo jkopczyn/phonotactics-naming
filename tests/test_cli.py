@@ -272,3 +272,29 @@ def test_explain_uses_the_orthography_for_the_lookup(capsys):
 def test_check_passes_on_the_old_irish_rule_file():
     from strands.cli import main
     assert main(["check", str(ROOT / "rules" / "old-irish.rules")]) == 0
+
+
+# ---- word: one spelling in, all strands out, no file ------------------------------------------
+
+def test_word_takes_a_spelling_and_prints_every_strand(capsys):
+    assert main(["word", "indeagó"]) == 0
+    out = capsys.readouterr().out
+    assert "ipa:constructed" in out                 # g2p built the source IPA
+    for name in TARGETS:
+        assert name in out
+    assert "injygo" in out                          # the README's welsh line
+
+
+def test_word_trace_needs_one_strand_and_prints_the_derivation(capsys):
+    assert main(["word", "Niall", "--strand", "old-irish", "--trace"]) == 0
+    out = capsys.readouterr().out
+    assert "ATTESTED" in out                        # spelling is the lexicon key
+    assert "->" in out
+    assert main(["word", "Niall", "--trace"]) == 2   # all strands + trace is a usage error
+
+
+def test_word_rejects_unknown_strand_and_unfillable_construction(capsys):
+    assert main(["word", "Niall", "--strand", "klingon"]) == 2
+    rc = main(["word", "Niall", "--strand", "welsh", "--construction", "ADJ"])
+    err = capsys.readouterr().err
+    assert rc == 2 and "Traceback" not in err and "ADJ" in err
