@@ -1263,7 +1263,6 @@ PALETTE = ("a", "ɛ", "ɪ", "ɔ", "ʊ", "ɾˠ", "l̪ˠ", "n̪ˠ", "mˠ", "sˠ",
 STAR_LENGTHS = (0, 1, 2)              # R5: a `*` is filled with 0, 1 then 2 palette segments
 
 _RANK_OF_KIND = {"identity": 0, "rule": 1, "fallback": 3, "epenthesis": 4}
-_GROUP_CAP = 64                       # present combinations kept per optional group
 #: `ˈ ˌ .` only — `$` and the space of `MARKS` are not stress marks (V-25).
 _STRESS_MARKS = "ˈˌ."
 
@@ -1286,14 +1285,19 @@ def _unmark(text: str) -> str:
     return "".join(ch for ch in text if ch not in _STRESS_MARKS)
 
 
-def rank(alt: Alternative) -> int:
-    """V-22: the alternative's OLDEST step — the `[substitute]` one — decides its cost.
+def _rank_of_steps(steps: Sequence[Step]) -> int:
+    """V-22's cost from a step trail: the OLDEST step (the `[substitute]` one) decides.
     `0` identity, `1` rule, `2` rule tagged `%design`, `3` fallback, `4` epenthesis."""
-    if not alt.steps:
+    if not steps:
         return 0
-    step = alt.steps[-1]
+    step = steps[-1]
     base = _RANK_OF_KIND.get(step.kind, 1)
     return 2 if base == 1 and step.tag == "design" else base
+
+
+def rank(alt: Alternative) -> int:
+    """V-22: the alternative's OLDEST step — the `[substitute]` one — decides its cost."""
+    return _rank_of_steps(alt.steps)
 
 
 def _alt_options(alts: Sequence[Alternative]) -> list[_Option]:
@@ -1341,18 +1345,24 @@ def _group_options(slots: Sequence[Slot], group: OptionalGroup) -> list[_Option]
     (V-30): a two-segment insertion can never be half-filled.
 
     Option 0 is `absent` at rank 0 (V-22) — the span's letters were inserted by the rule, so
-    the Irish word carries nothing for them. Then each present combination: the span's slots
-    filled from their own alternatives, ordered by summed rank, capped at `_GROUP_CAP`.
+    the Irish word carries nothing for them. Then EVERY present combination (V-24: the option
+    list holds each of them, uncapped — a group spans SEG slots only, so the product is the
+    product of a few alternative lists), each at the GROUP's own rank (V-22: present costs the
+    group's epenthesis provenance, not its constituents'). Within `present`, combinations are
+    stably ordered by the summed rank of their constituent slot options, so the group's own
+    option list is still cheapest first (V-24).
     """
     options = [_Option(segments=(), rank=0)]
     per_slot = [_slot_options(slot) for slot in slots[group.start:group.stop]]
     if any(not column for column in per_slot):
         return options
-    combinations = itertools.islice(itertools.product(*per_slot), _GROUP_CAP)
-    present = [_Option(segments=tuple(seg for option in combo for seg in option.segments),
-                       rank=max(option.rank for option in combo))
-               for combo in combinations]
-    options.extend(sorted(present, key=lambda option: option.rank))
+    present_rank = _rank_of_steps(group.steps)
+    combinations = list(itertools.product(*per_slot))
+    combinations.sort(key=lambda combo: sum(option.rank for option in combo))
+    options.extend(
+        _Option(segments=tuple(seg for option in combo for seg in option.segments),
+                rank=present_rank)
+        for combo in combinations)
     return options
 
 
@@ -1446,7 +1456,9 @@ def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTa
     matches is frequently not the first one (Georgian `Ar*v*` wants *ardmhaor*, and ⟨bh⟩
     precedes ⟨mh⟩ in the `g2p` table). A `(segments, spelling)` pair already tried is skipped
     before any forward work — the same spelling reaches the same `Result` — so `tried` counts
-    UNIQUE forward runs, and `cap` bounds that same counter as well as the candidate stream.
+    UNIQUE forward runs, and `cap` bounds THAT counter only. The candidate stream keeps its own
+    `CAP` (V-24): a candidate whose `spell()` is empty costs no forward run, so it must not
+    consume the forward-run budget and hide a later candidate that matches.
 
     Returns `(examples, tried, cap_hit)`; examples are sorted by
     `(fallbacks, len(flags), rank, spelling_index)`, de-duplicated by orthography and truncated
@@ -1459,7 +1471,7 @@ def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTa
     produced = 0
     cap_hit = False
 
-    for candidate in expand(pattern, cap=cap):
+    for candidate in expand(pattern, cap=CAP):
         produced += 1
         if tried >= cap:
             cap_hit = True
@@ -1485,7 +1497,7 @@ def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTa
                                  ipa=_unmark(result.ipa), flags=result.flags,
                                  fallbacks=result.fallbacks, rank=candidate.rank,
                                  spelling_index=index))
-    if produced >= cap:
+    if produced >= CAP:
         cap_hit = True
 
     ordered = sorted(found, key=lambda e: (e.fallbacks, len(e.flags), e.rank, e.spelling_index))

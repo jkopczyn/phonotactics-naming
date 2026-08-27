@@ -124,3 +124,64 @@ def test_ipa_mode_matches_the_unmarked_ipa():
     examples, _t, _c = verify(p, GEO, IRISH, TABLE, limit=3, cap=200, ipa_mode=True,
                               raw_pattern="ɑr*")
     assert all(all(m not in e.ipa for m in ("ˈ", "ˌ", ".")) for e in examples)
+
+
+# ---- review fixes (task 7) ------------------------------------------------------------------------
+
+def test_an_unspellable_candidate_does_not_consume_the_forward_run_budget():
+    """V-34: `cap` counts unique `(candidate, spelling)` FORWARD RUNS. A candidate whose
+    `spell()` is empty costs no forward run, so it must not push a later matching candidate
+    out of a small cap (the candidate stream has its own `CAP`, V-24)."""
+    import types
+
+    from strands import reverse
+
+    p = analysed(GEO, "ar")
+    first_three = [c.segments for c in itertools.islice(expand(p), 3)]
+    assert len(first_three) == 3
+
+    def fake_spell(segments):
+        return ("arbitrary",) if segments == first_three[2] else ()
+
+    def fake_forward(spelling, *args, **kwargs):
+        return types.SimpleNamespace(respelling="ar", ipa="ˈar", flags=(), fallbacks=0)
+
+    monkey = pytest.MonkeyPatch()
+    try:
+        monkey.setattr(reverse.g2p_inverse, "spell", fake_spell)
+        monkey.setattr(reverse, "_forward", fake_forward)
+        examples, tried, _cap_hit = verify(p, GEO, IRISH, TABLE, limit=8, cap=2,
+                                           raw_pattern="ar")
+    finally:
+        monkey.undo()
+    assert tried == 1
+    assert [e.orthography for e in examples] == ["arbitrary"]
+
+
+def test_a_group_keeps_every_present_combination():
+    """V-24: the group's option list holds `absent` and then EACH present combination — the
+    span's slots are SEG slots, so the product is bounded by their alternative lists."""
+    import math
+
+    from test_reverse_sourcemap import SYNTH_GROUP
+    from strands.reverse import _group_options, _slot_options
+
+    p = analysed(SYNTH_GROUP, "qisk")
+    (group,) = p.groups
+    expected = math.prod(len(_slot_options(s)) for s in p.slots[group.start:group.stop])
+    assert expected > 64
+    assert len(_group_options(p.slots, group)) == 1 + expected
+
+
+def test_a_present_group_option_carries_the_groups_own_rank():
+    """V-22: `present` costs the optional group's own rank (its epenthesis provenance), not
+    the maximum rank of the slot alternatives that fill it."""
+    from test_reverse_sourcemap import SYNTH_GROUP
+    from strands.reverse import _group_options
+
+    p = analysed(SYNTH_GROUP, "qisk")
+    (group,) = p.groups
+    assert group.steps[-1].kind == "epenthesis"     # so the group's own rank is 4
+    options = _group_options(p.slots, group)
+    assert options[0].rank == 0 and options[0].segments == ()
+    assert all(option.rank == 4 for option in options[1:])
