@@ -22,7 +22,7 @@ from .dsl import (
 from .features import FeatureError, FeatureTable
 from .stress.params import PROCEDURE_PARAMS
 
-__all__ = ["CheckError", "check_rule_file"]
+__all__ = ["CheckError", "check_lexicon_file", "check_rule_file"]
 
 _CLASS_RE = re.compile(r"[A-Z][A-Z0-9_]*\Z")
 _TEMPLATE_SPECIAL_SLOTS = frozenset({"C", "V", "N"})
@@ -277,3 +277,17 @@ class _Checker:
 def check_rule_file(rf: RuleFile, table: FeatureTable) -> list[CheckError]:
     """All findings for `rf`, sorted by line then code. Never raises for a finding."""
     return _Checker(rf, table).run()
+
+
+# ---- the Old Irish lexicon (Old Irish plan Task 2) -------------------------------------------
+
+def check_lexicon_file(path: str | Path) -> list[CheckError]:
+    """Read and validate `old-irish-lexicon.tsv` (codes `LEX_*`, see `lexicon.validate`).
+    An unreadable file is a single LEX_HEADER error at line 1 rather than an exception."""
+    from .lexicon import LexiconError, read_rows, validate
+
+    try:
+        header, entries = read_rows(path)
+    except LexiconError as e:
+        return [CheckError(1, "LEX_HEADER", str(e), "error")]
+    return validate(header, entries, path)

@@ -4,7 +4,7 @@
     strands explain WORD --strand X [--construction NAME]
     strands gallery INPUT.tsv [--out gallery.md]
     strands lint  INPUT.tsv [--accept]
-    strands check [--features PATH] RULES.rules ...
+    strands check [--features PATH] RULES.rules|LEXICON.tsv ...
 
 Exit codes: 0 ok; 1 a runtime failure (unreadable input, parse error in a rule file, an
 input IPA containing a segment not in `features.tsv` — reported with the word and the
@@ -291,7 +291,8 @@ def cmd_lint(args: Sequence[str]) -> int:
 # ---- check (Task 6) -------------------------------------------------------------------------
 
 def _check(argv: list[str]) -> int:
-    """`strands check [--features PATH] RULES...`: parse + static checks (Task 6).
+    """`strands check [--features PATH] RULES... | LEXICON.tsv`: parse + static checks (Task 6);
+    a `.tsv` argument is validated as the Old Irish lexicon instead.
     Findings go to stderr as `path:line: CODE: message`. Exit 1 on a parse error or any
     error-severity finding; warnings alone exit 0."""
     from .check import check_rule_file
@@ -311,7 +312,7 @@ def _check(argv: list[str]) -> int:
         else:
             paths.append(arg)
     if not paths:
-        print("usage: strands check [--features PATH] RULES.rules ...", file=sys.stderr)
+        print("usage: strands check [--features PATH] RULES.rules|LEXICON.tsv ...", file=sys.stderr)
         return 2
     try:
         table = load_features(features)
@@ -320,6 +321,16 @@ def _check(argv: list[str]) -> int:
         return 1
     failed = False
     for path in paths:
+        if path.endswith(".tsv"):
+            # Old Irish plan Task 2: a lexicon TSV routes to the LEX_* checks; warnings
+            # (the Task 3 backlog) are listed but do not fail the run.
+            from .check import check_lexicon_file
+            for err in check_lexicon_file(path):
+                print(f"{path}:{err.line}: {err.code}: {err.message} [{err.severity}]",
+                      file=sys.stderr)
+                if err.severity == "error":
+                    failed = True
+            continue
         try:
             rf = parse_rules_file(path, table)
         except ParseError as e:

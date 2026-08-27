@@ -2,7 +2,7 @@
 import csv
 import shutil
 
-from helpers import FIX
+from helpers import FIX, ROOT
 from strands.cli import main
 from strands.pipeline import TARGETS
 
@@ -203,3 +203,8 @@ def test_cli_entry_point_prints_no_traceback(tmp_path):
                            "--strand", "welsh"], capture_output=True, text=True)
     assert proc.returncode == 1, proc.stderr
     assert "Traceback" not in proc.stderr and "Bad" in proc.stderr
+
+
+def test_check_accepts_a_lexicon_tsv():
+    from strands.cli import main
+    assert main(["check", str(ROOT / "rules" / "old-irish-lexicon.tsv")]) == 0
