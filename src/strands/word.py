@@ -47,6 +47,10 @@ class Word:
     trace: tuple[TraceEntry, ...] = ()
     secondary: tuple[int, ...] = ()                 # I-40: segment indices carrying ˌ; never output
     _pending_stress: int | None = field(default=None)   # S1: segment index awaiting syllabify()
+    word_breaks: frozenset[int] = frozenset()       # spec §3: positions 0<i<len where a new
+    # space-separated WORD starts. A Word carries these only through the Irish pre-pass
+    # (stage 1), where an input such as *an tsúil* /ən̪ˠ t̪ˠuːlʲ/ is assembled and mutated as
+    # one object; `split_words()` breaks it apart before stages 2-7, which are per-word.
     origins: frozenset[tuple[int, str]] = frozenset()   # (segment index, rule_id) of INSERTED
     # material — provenance for `[repair] overlay-undo`, which deletes an overlay segment again
     # when the cluster it created is not licensed. Only insertion rules (empty TARGET) record
@@ -58,14 +62,51 @@ class Word:
         """Build a Word from tokenizer output. `tok.stress_index` is a SEGMENT index; it is
         parked in `_pending_stress` and converted to a syllable index by `syllabify()`
         (Task 10), so `stress` is always None here (S1). Explicit "." boundaries are kept
-        as `syllables`. `tok.words` is ignored: a Word is one word."""
+        as `syllables`. `tok.words` becomes `word_breaks`: the Word is still ONE object (the
+        Irish pre-pass mutates a construction as a whole), but it remembers where the
+        space-separated words start so `split_words()` can take it apart (spec §3)."""
         return cls(
             segments=tuple(tok.segments),
             syllables=tuple(tok.syllable_starts),
             morphemes=frozenset(tok.morphemes),
             secondary=tuple(tok.secondary),
             _pending_stress=tok.stress_index,
+            word_breaks=frozenset(i for i in tok.words if i),
         )
+
+    def split_words(self) -> list["Word"]:
+        """One Word per `word_breaks` span (spec §3). Annotations are re-based on each
+        span; the trace stays with the FIRST piece so that rejoining the pieces' traces
+        (as `adapt()` does) neither loses nor double-counts an entry."""
+        if not self.word_breaks:
+            return [self]
+        bounds = [0, *sorted(self.word_breaks), len(self.segments)]
+        stressed = self.syllables[self.stress] if self.stress is not None else None
+        out: list[Word] = []
+        for k, (a, b) in enumerate(zip(bounds, bounds[1:])):
+            if a >= b:
+                continue
+            syllables = tuple(s - a for s in self.syllables if a <= s < b)
+            stress = (syllables.index(stressed - a)
+                      if stressed is not None and a <= stressed < b
+                      and (stressed - a) in syllables else None)
+            pending = (self._pending_stress - a
+                       if self._pending_stress is not None
+                       and a <= self._pending_stress < b else None)
+            out.append(Word(
+                segments=self.segments[a:b],
+                syllables=syllables,
+                nuclei=tuple((x - a, y - a) for x, y in self.nuclei if a <= x and y <= b),
+                stress=stress,
+                morphemes=frozenset(m - a for m in self.morphemes if a < m < b),
+                illegal=frozenset(i - a for i in self.illegal if a <= i < b),
+                flags=self.flags,
+                trace=self.trace if k == 0 else (),
+                secondary=tuple(i - a for i in self.secondary if a <= i < b),
+                _pending_stress=pending,
+                origins=frozenset((i - a, r) for i, r in self.origins if a <= i < b),
+            ))
+        return out
 
     def ipa(self, *, marks: bool = True) -> str:
         """Segments joined, with "." before every non-initial syllable start and "ˈ" before
@@ -144,6 +185,8 @@ class Word:
             nuclei=nuclei,
             stress=stress_syll,
             morphemes=frozenset(j for i in self.morphemes if (j := boundary(i)) is not None),
+            word_breaks=frozenset(j for i in self.word_breaks
+                                  if (j := boundary(i)) is not None and 0 < j),
             illegal=frozenset(j for i in self.illegal if (j := seg_index(i)) is not None),
             origins=frozenset((j, rid) for i, rid in self.origins
                               if (j := seg_index(i)) is not None),

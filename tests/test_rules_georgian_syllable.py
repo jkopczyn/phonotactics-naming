@@ -334,7 +334,9 @@ UNCHANGED = [
     ("Saoirse", {"svirshia"}),
     ("Lasairchos", {"lasarxos"}),
     ("Matánach", {"matanax"}),
-    ("an tsúil", {"ant'ul"}),
+    # Two words (spec §3): each is adapted on its own, so /t̪ˠ/ is WORD-INITIAL and
+    # takes the aspirated `t` of §9.4, not the ejective the merged `ant'ul` parse gave it.
+    ("an tsúil", {"an tul"}),
     ("sneachta", {"shniaxt'a"}),
     ("droim", {"drvim"}),        # `drv` is licensed, so overlay-undo never fires
     ("splanc", {"sp'lank'"}),

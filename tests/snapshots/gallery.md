@@ -80,13 +80,13 @@ Irish: /ə çaːnʲ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yychan /ə.ˈə.χan/ | aʼakhaan /ʔa.ʔa.ˈxaːn/ | aaxian /ɑɑxiɑn/ | eechaan /ə.ə.ˈxaːn/ |
+| VOC | ya chân /ˈə.a ˈχaːn/ | aaʼa khaan /ˈʔaː.ʔa ˈxaːn/ | aa xian /ɑɑ xiɑn/ | ee chaan /ˈə.ə ˈxaːn/ |
 | GEN | ychana /ə.ˈχa.na/ | akhaana /ʔa.ˈxaː.na/ | axiania /ɑxiɑniɑ/ | echanje /ə.ˈxaː.njə/ |
 | PATRO_O | oychana /ɔ.ə.ˈχa.na/ | uʼakhaana /ʔu.ʔa.ˈxaː.na/ | oaxiania /ɔɑxiɑniɑ/ | oowechanje /oː.ʋə.ˈxaː.njə/ |
 | PATRO_NI | niychana /nɪ.ə.ˈχa.na/ | niʼakhaana /ni.ʔa.ˈxaː.na/ | niaxiania /niɑxiɑniɑ/ | njiechanje /nji.ˈxaː.njə/ +1 |
-| DESC | ychan /ˈə.χan/ | akhaan /ʔa.ˈxaːn/ | axian /ɑxiɑn/ | echaan /ə.ˈxaːn/ |
-| DESC+ADJ | ychanaidd /ə.ˈχa.naið/ | akhaani /ʔa.ˈxaː.ni/ | axianuri /ɑxiɑnuri/ | echaanachtech /ə.xaː.ˈnɑx.təx/ |
-| DESC+NOUN | ychan /ˈə.χan/ | akhaana /ʔa.ˈxaː.na/ | axiani /ɑxiɑni/ | echaan /ə.ˈxaːn/ |
+| DESC | a chân /ˈaː ˈχaːn/ | a khaan /ˈʔa ˈxaːn/ | a xian /ɑ xiɑn/ | e chaan /ˈə ˈxaːn/ |
+| DESC+ADJ | a chanaidd /ˈaː ˈχaː.naið/ | a khaani /ˈʔa ˈxaː.ni/ | a xianuri /ɑ xiɑnuri/ | e chaanachtech /ˈə xaː.ˈnɑx.təx/ |
+| DESC+NOUN | a chân /ˈaː ˈχaːn/ | a khaana /ˈʔa ˈxaː.na/ | a xiani /ɑ xiɑni/ | e chaan /ˈə ˈxaːn/ |
 
 ## Siobhán — Joan (f. given name)
 
@@ -458,13 +458,13 @@ Irish: /nʲiː vʲɾʲiənʲ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ynifrin /ə.ˈnɪ.vrɪn/ | anifreen /ʔa.nif.ˈreːn/ | anivrian /ɑnivriɑn/ | enjiefrjien /ə.njif.ˈrjin/ +1 |
+| VOC | yni frin /ˈə.nɪ ˈvrɪn/ | anii fireen /ʔa.ˈniː fi.ˈreːn/ | ani vrian /ɑni vriɑn/ | enjie vrien /ə.ˈnji ˈvrin/ +1 |
 | GEN | nifrina /nɪ.ˈvrɪ.na/ | nifreena /nif.ˈreː.na/ | nivriania /nivriɑniɑ/ | njiefrjienje /njif.ˈrji.njə/ +1 |
 | PATRO_O | onifrina /ɔ.nɪ.ˈvrɪ.na/ | unifreena /ʔu.nif.ˈreː.na/ | onivriania /ɔnivriɑniɑ/ | oonjiefrjienje /oː.njif.ˈrji.njə/ +1 |
 | PATRO_NI | ninifrina /nɪ.nɪ.ˈvrɪ.na/ | ninifreena /ni.nif.ˈreː.na/ | ninivriania /ninivriɑniɑ/ | njienjiefrjienje /nji.njif.ˈrji.njə/ +1 |
-| DESC | nifrin /ˈnɪ.vrɪn/ | nifreen /nif.ˈreːn/ | nivrian /nivriɑn/ | njiefrjien /njif.ˈrjin/ +1 |
-| DESC+ADJ | nifrinaidd /nɪ.ˈvrɪ.naið/ | nifreeni /nif.ˈreː.ni/ | nivrianuli /nivriɑnuli/ | njiefrjienachtech /njif.rji.ˈnɑx.təx/ +1 |
-| DESC+NOUN | nifrin /ˈnɪ.vrɪn/ | nifreena /nif.ˈreː.na/ | nivriani /nivriɑni/ | njiefrjien /njif.ˈrjin/ +1 |
+| DESC | ni frin /ˈniː ˈvrɪn/ | nii fireen /ˈniː fi.ˈreːn/ | ni vrian /ni vriɑn/ | njie vrien /ˈnji ˈvrin/ +1 |
+| DESC+ADJ | ni frinaidd /ˈniː ˈvrɪ.naið/ | nii fireeni /ˈniː fi.ˈreː.ni/ | ni vrianuli /ni vriɑnuli/ | njie vrienachtech /ˈnji vri.ˈnɑx.təx/ +1 |
+| DESC+NOUN | ni frin /ˈniː ˈvrɪn/ | nii fireena /ˈniː fi.ˈreː.na/ | ni vriani /ni vriɑni/ | njie vrien /ˈnji ˈvrin/ +1 |
 
 ## bean — woman (radical)
 
@@ -906,13 +906,13 @@ Irish: /ən̪ˠ t̪ˠuːlʲ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yyntwl /ə.ˈən.tʊl/ | aʼanṭuul /ʔa.ʔan.ˈtˤuːl/ | aant'ul /ɑɑntʼul/ | eentoel /ə.ən.ˈtul/ +1 |
+| VOC | yan tŵl /ˈə.an ˈtuːl/ | aaʼan ṭuul /ˈʔaː.ʔan ˈtˤuːl/ | aan tul /ɑɑn tʰul/ | een toel /ˈə.ən ˈtul/ +1 |
 | GEN | yntwla /ən.ˈtʊ.la/ | anṭuula /ʔan.ˈtˤuː.la/ | ant'ula /ɑntʼulɑ/ | entoele /ən.ˈtu.lə/ +1 |
 | PATRO_O | oyntwla /ɔ.ən.ˈtʊ.la/ | uʼanṭuula /ʔu.ʔan.ˈtˤuː.la/ | oant'ula /ɔɑntʼulɑ/ | oowentoele /oː.ʋən.ˈtu.lə/ +1 |
 | PATRO_NI | niyntwla /nɪ.ən.ˈtʊ.la/ | niʼanṭuula /ni.ʔan.ˈtˤuː.la/ | niant'ula /niɑntʼulɑ/ | njientoele /njin.ˈtu.lə/ +2 |
-| DESC | yntwl /ˈən.tʊl/ | anṭuul /ʔan.ˈtˤuːl/ | ant'ul /ɑntʼul/ | entoel /ən.ˈtul/ +1 |
-| DESC+ADJ | yntwlaidd /ən.ˈtʊ.laið/ | anṭuuli /ʔan.ˈtˤuː.li/ | ant'uluri /ɑntʼuluri/ | entoelachtech /ən.tu.ˈlɑx.təx/ +1 |
-| DESC+NOUN | yntwl /ˈən.tʊl/ | anṭuula /ʔan.ˈtˤuː.la/ | ant'uli /ɑntʼuli/ | entoel /ən.ˈtul/ +1 |
+| DESC | an tŵl /ˈan ˈtuːl/ | an ṭuul /ˈʔan ˈtˤuːl/ | an tul /ɑn tʰul/ | en toel /ˈən ˈtul/ +1 |
+| DESC+ADJ | an twlaidd /ˈan ˈtuː.laið/ | an ṭuuli /ˈʔan ˈtˤuː.li/ | an tuluri /ɑn tʰuluri/ | en toelachtech /ˈən tu.ˈlɑx.təx/ +1 |
+| DESC+NOUN | an tŵl /ˈan ˈtuːl/ | an ṭuula /ˈʔan ˈtˤuː.la/ | an tuli /ɑn tʰuli/ | en toel /ˈən ˈtul/ +1 |
 
 ## an tsaoil — of the world (masc. gen. sg.)
 
@@ -920,13 +920,13 @@ Irish: /ən̪ˠ t̪ˠiːlʲ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yyntil /ə.ˈən.tɪl/ | aʼanṭiil /ʔa.ʔan.ˈtˤiːl/ | aant'vyl /ɑɑntʼvil/ | eentiel /ə.ən.ˈtil/ +1 |
+| VOC | yan tîl /ˈə.an ˈtiːl/ | aaʼan ṭiil /ˈʔaː.ʔan ˈtˤiːl/ | aan tvil /ɑɑn tʰvil/ | een tiel /ˈə.ən ˈtil/ +1 |
 | GEN | yntila /ən.ˈtɪ.la/ | anṭiila /ʔan.ˈtˤiː.la/ | ant'vilia /ɑntʼviliɑ/ | entielje /ən.ˈti.ljə/ +1 |
 | PATRO_O | oyntila /ɔ.ən.ˈtɪ.la/ | uʼanṭiila /ʔu.ʔan.ˈtˤiː.la/ | oant'vilia /ɔɑntʼviliɑ/ | oowentielje /oː.ʋən.ˈti.ljə/ +1 |
 | PATRO_NI | niyntila /nɪ.ən.ˈtɪ.la/ | niʼanṭiila /ni.ʔan.ˈtˤiː.la/ | niant'vilia /niɑntʼviliɑ/ | njientielje /njin.ˈti.ljə/ +1 |
-| DESC | yntil /ˈən.tɪl/ | anṭiil /ʔan.ˈtˤiːl/ | ant'vyl /ɑntʼvil/ | entiel /ən.ˈtil/ +1 |
-| DESC+ADJ | yntilaidd /ən.ˈtɪ.laið/ | anṭiili /ʔan.ˈtˤiː.li/ | ant'vyluri /ɑntʼviluri/ | entielachtech /ən.ti.ˈlɑx.təx/ +1 |
-| DESC+NOUN | yntil /ˈən.tɪl/ | anṭiila /ʔan.ˈtˤiː.la/ | ant'vyli /ɑntʼvili/ | entiel /ən.ˈtil/ +1 |
+| DESC | an tîl /ˈan ˈtiːl/ | an ṭiil /ˈʔan ˈtˤiːl/ | an tvil /ɑn tʰvil/ | en tiel /ˈən ˈtil/ +1 |
+| DESC+ADJ | an tilaidd /ˈan ˈtiː.laið/ | an ṭiili /ˈʔan ˈtˤiː.li/ | an tviluri /ɑn tʰviluri/ | en tielachtech /ˈən ti.ˈlɑx.təx/ +1 |
+| DESC+NOUN | an tîl /ˈan ˈtiːl/ | an ṭiila /ˈʔan ˈtˤiː.la/ | an tvili /ɑn tʰvili/ | en tiel /ˈən ˈtil/ +1 |
 
 ## an bhean — the woman
 
@@ -934,13 +934,13 @@ Irish: /ən̪ˠ vʲanˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yynfin /ə.ˈən.vɪn/ | aʼanfin /ʔa.ˈʔan.fin/ | aanvyn /ɑɑnvin/ | eenvjin /ə.ən.ˈvjɪn/ |
+| VOC | yan fin /ˈə.an ˈvɪn/ | aaʼan fin /ˈʔaː.ʔan ˈfin/ | aan vin /ɑɑn vin/ | een vjin /ˈə.ən ˈvjɪn/ |
 | GEN | ynfin /ˈən.vɪn/ | anfin /ˈʔan.fin/ | anvyn /ɑnvin/ | envjin /ən.ˈvjɪn/ |
 | PATRO_O | oynfin /ɔ.ˈən.vɪn/ | uʼanfin /ʔu.ˈʔan.fin/ | oanvyn /ɔɑnvin/ | oowenvjin /ˈoː.ʋən.vjɪn/ |
 | PATRO_NI | niynfin /nɪ.ˈən.vɪn/ | niʼanfin /ni.ˈʔan.fin/ | nianvyn /niɑnvin/ | njienvjin /ˈnjin.vjɪn/ +1 |
-| DESC | ynfan /ˈən.van/ | anfan /ˈʔan.fan/ | anvian /ɑnviɑn/ | envjan /ən.ˈvjɑn/ +1 |
-| DESC+ADJ | ynfanaidd /ən.ˈva.naið/ | anfani /ʔan.ˈfa.ni/ | anvianuri /ɑnviɑnuri/ | envjannachtech /ən.vjɑ.ˈnɑx.təx/ +1 |
-| DESC+NOUN | ynfan /ˈən.van/ | anfana /ʔan.ˈfa.na/ | anviani /ɑnviɑni/ | envjan /ən.ˈvjɑn/ +1 |
+| DESC | an fan /ˈan ˈvan/ | an fan /ˈʔan ˈfan/ | an vian /ɑn viɑn/ | en vjan /ˈən ˈvjɑn/ +1 |
+| DESC+ADJ | an fanaidd /ˈan ˈva.naið/ | an fani /ˈʔan ˈfa.ni/ | an vianuri /ɑn viɑnuri/ | en vjannachtech /ˈən vjɑ.ˈnɑx.təx/ +1 |
+| DESC+NOUN | an fan /ˈan ˈvan/ | an fana /ˈʔan ˈfa.na/ | an viani /ɑn viɑni/ | en vjan /ˈən ˈvjɑn/ +1 |
 
 ## mo pheann — my pen
 
@@ -948,13 +948,13 @@ Irish: /mˠə fʲaːn̪ˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ewyffan /əu.ˈə.fan/ | awafaan /ʔa.wa.ˈfaːn/ | avapian /ɑvɑpʰiɑn/ | evefjaan /ə.və.ˈfjaːn/ |
+| VOC | ewa ffân /ˈəu.a ˈfaːn/ | aawa faan /ˈʔaː.wa ˈfaːn/ | ava pian /ɑvɑ pʰiɑn/ | eve fjaan /ˈə.və ˈfjaːn/ |
 | GEN | myffan /ˈmə.fan/ | mafaan /ma.ˈfaːn/ | mapian /mɑpʰiɑn/ | mefjaan /mə.ˈfjaːn/ |
 | PATRO_O | omyffan /ɔ.ˈmə.fan/ | umafaan /ʔu.ma.ˈfaːn/ | omapian /ɔmɑpʰiɑn/ | oomefjaan /ˈoː.mə.fjaːn/ |
 | PATRO_NI | niwyffan /nɪu.ˈə.fan/ | niwafaan /ni.wa.ˈfaːn/ | nivapian /nivɑpʰiɑn/ | njievefjaan /ˈnji.və.fjaːn/ +1 |
-| DESC | myffan /ˈmə.fan/ | mafaan /ma.ˈfaːn/ | mapian /mɑpʰiɑn/ | mefjaan /mə.ˈfjaːn/ |
-| DESC+ADJ | myffanaidd /mə.ˈfa.naið/ | mafaani /ma.ˈfaː.ni/ | mapianuri /mɑpʰiɑnuri/ | mefjaanachtech /mə.fjaː.ˈnɑx.təx/ |
-| DESC+NOUN | myffan /ˈmə.fan/ | mafaana /ma.ˈfaː.na/ | mapiani /mɑpʰiɑni/ | mefjaan /mə.ˈfjaːn/ |
+| DESC | ma ffân /ˈmaː ˈfaːn/ | ma faan /ˈma ˈfaːn/ | ma pian /mɑ pʰiɑn/ | me fjaan /ˈmə ˈfjaːn/ |
+| DESC+ADJ | ma ffanaidd /ˈmaː ˈfaː.naið/ | ma faani /ˈma ˈfaː.ni/ | ma pianuri /mɑ pʰiɑnuri/ | me fjaanachtech /ˈmə fjaː.ˈnɑx.təx/ |
+| DESC+NOUN | ma ffân /ˈmaː ˈfaːn/ | ma faana /ˈma ˈfaː.na/ | ma piani /mɑ pʰiɑni/ | me fjaan /ˈmə ˈfjaːn/ |
 
 ## a bpeann — their pen
 
@@ -962,13 +962,13 @@ Irish: /ə bʲaːn̪ˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yyban /ə.ˈə.ban/ | aʼabaan /ʔa.ʔa.ˈbaːn/ | aabian /ɑɑbiɑn/ | eebjaan /ə.ə.ˈbjaːn/ |
+| VOC | ya bân /ˈə.a ˈbaːn/ | aaʼa baan /ˈʔaː.ʔa ˈbaːn/ | aa bian /ɑɑ biɑn/ | ee bjaan /ˈə.ə ˈbjaːn/ |
 | GEN | yban /ˈə.ban/ | abaan /ʔa.ˈbaːn/ | abian /ɑbiɑn/ | ebjaan /ə.ˈbjaːn/ |
 | PATRO_O | oyban /ɔ.ˈə.ban/ | uʼabaan /ʔu.ʔa.ˈbaːn/ | oabian /ɔɑbiɑn/ | oowebjaan /ˈoː.ʋə.bjaːn/ |
 | PATRO_NI | niyban /nɪ.ˈə.ban/ | niʼabaan /ni.ʔa.ˈbaːn/ | niabian /niɑbiɑn/ | njiebjaan /nji.ˈbjaːn/ +1 |
-| DESC | yban /ˈə.ban/ | abaan /ʔa.ˈbaːn/ | abian /ɑbiɑn/ | ebjaan /ə.ˈbjaːn/ |
-| DESC+ADJ | ybanaidd /ə.ˈba.naið/ | abaani /ʔa.ˈbaː.ni/ | abianuri /ɑbiɑnuri/ | ebjaanachtech /ə.bjaː.ˈnɑx.təx/ |
-| DESC+NOUN | yban /ˈə.ban/ | abaana /ʔa.ˈbaː.na/ | abiani /ɑbiɑni/ | ebjaan /ə.ˈbjaːn/ |
+| DESC | a bân /ˈaː ˈbaːn/ | a baan /ˈʔa ˈbaːn/ | a bian /ɑ biɑn/ | e bjaan /ˈə ˈbjaːn/ |
+| DESC+ADJ | a banaidd /ˈaː ˈbaː.naið/ | a baani /ˈʔa ˈbaː.ni/ | a bianuri /ɑ biɑnuri/ | e bjaanachtech /ˈə bjaː.ˈnɑx.təx/ |
+| DESC+NOUN | a bân /ˈaː ˈbaːn/ | a baana /ˈʔa ˈbaː.na/ | a biani /ɑ biɑni/ | e bjaan /ˈə ˈbjaːn/ |
 
 ## na bpeann — of the pens (gen. pl.)
 
@@ -976,13 +976,13 @@ Irish: /n̪ˠə bʲaːn̪ˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ynyban /ə.ˈnə.ban/ | anabaan /ʔa.na.ˈbaːn/ | anabian /ɑnɑbiɑn/ | enebjaan /ə.nə.ˈbjaːn/ |
+| VOC | yna bân /ˈə.na ˈbaːn/ | aana baan /ˈʔaː.na ˈbaːn/ | ana bian /ɑnɑ biɑn/ | ene bjaan /ˈə.nə ˈbjaːn/ |
 | GEN | nyban /ˈnə.ban/ | nabaan /na.ˈbaːn/ | nabian /nɑbiɑn/ | nebjaan /nə.ˈbjaːn/ |
 | PATRO_O | onyban /ɔ.ˈnə.ban/ | unabaan /ʔu.na.ˈbaːn/ | onabian /ɔnɑbiɑn/ | oonebjaan /ˈoː.nə.bjaːn/ |
 | PATRO_NI | ninyban /nɪ.ˈnə.ban/ | ninabaan /ni.na.ˈbaːn/ | ninabian /ninɑbiɑn/ | njienebjaan /ˈnji.nə.bjaːn/ +1 |
-| DESC | nyban /ˈnə.ban/ | nabaan /na.ˈbaːn/ | nabian /nɑbiɑn/ | nebjaan /nə.ˈbjaːn/ |
-| DESC+ADJ | nybanaidd /nə.ˈba.naið/ | nabaani /na.ˈbaː.ni/ | nabianuri /nɑbiɑnuri/ | nebjaanachtech /nə.bjaː.ˈnɑx.təx/ |
-| DESC+NOUN | nyban /ˈnə.ban/ | nabaana /na.ˈbaː.na/ | nabiani /nɑbiɑni/ | nebjaan /nə.ˈbjaːn/ |
+| DESC | na bân /ˈnaː ˈbaːn/ | na baan /ˈna ˈbaːn/ | na bian /nɑ biɑn/ | ne bjaan /ˈnə ˈbjaːn/ |
+| DESC+ADJ | na banaidd /ˈnaː ˈbaː.naið/ | na baani /ˈna ˈbaː.ni/ | na bianuri /nɑ biɑnuri/ | ne bjaanachtech /ˈnə bjaː.ˈnɑx.təx/ |
+| DESC+NOUN | na bân /ˈnaː ˈbaːn/ | na baana /ˈna ˈbaː.na/ | na biani /nɑ biɑni/ | ne bjaan /ˈnə ˈbjaːn/ |
 
 ## deich bpeann — ten pens
 
@@ -990,13 +990,13 @@ Irish: /dʲɛç bʲaːn̪ˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | euechban /əi.ˈɛχ.ban/ | ayikhbaan /ʔa.jix.ˈbaːn/ | aiexbian /ɑiɛxbiɑn/ | ejechbjaan /ə.jɛx.ˈbjaːn/ |
+| VOC | euech bân /ˈəi.ɛχ ˈbaːn/ | aayikh baan /ˈʔaː.jix ˈbaːn/ | aiex bian /ɑiɛx biɑn/ | ejech bjaan /ə.ˈjɛx ˈbjaːn/ |
 | GEN | jechban /ˈdʒɛχ.ban/ | dikhbaan /dix.ˈbaːn/ | jexbian /dʒɛxbiɑn/ | djechbjaan /djɛx.ˈbjaːn/ |
 | PATRO_O | ojechban /ɔ.ˈdʒɛχ.ban/ | udikhbaan /ʔu.dix.ˈbaːn/ | ojexbian /ɔdʒɛxbiɑn/ | oodjechbjaan /oː.djɛx.ˈbjaːn/ |
 | PATRO_NI | niechban /nɪ.ˈɛχ.ban/ | niyikhbaan /ni.jix.ˈbaːn/ | niexbian /niɛxbiɑn/ | njiejechbjaan /nji.jɛx.ˈbjaːn/ +1 |
-| DESC | jechban /ˈdʒɛχ.ban/ | dikhbaan /dix.ˈbaːn/ | jexbian /dʒɛxbiɑn/ | djechbjaan /djɛx.ˈbjaːn/ |
-| DESC+ADJ | jechbanaidd /dʒɛχ.ˈba.naið/ | dikhbaani /dix.ˈbaː.ni/ | jexbianuri /dʒɛxbiɑnuri/ | djechbjaanachtech /djɛx.bjaː.ˈnɑx.təx/ |
-| DESC+NOUN | jechban /ˈdʒɛχ.ban/ | dikhbaana /dix.ˈbaː.na/ | jexbiani /dʒɛxbiɑni/ | djechbjaan /djɛx.ˈbjaːn/ |
+| DESC | jech bân /ˈdʒeːχ ˈbaːn/ | dikh baan /ˈdix ˈbaːn/ | jex bian /dʒɛx biɑn/ | djech bjaan /ˈdjɛx ˈbjaːn/ |
+| DESC+ADJ | jech banaidd /ˈdʒeːχ ˈbaː.naið/ | dikh baani /ˈdix ˈbaː.ni/ | jex bianuri /dʒɛx biɑnuri/ | djech bjaanachtech /ˈdjɛx bjaː.ˈnɑx.təx/ |
+| DESC+NOUN | jech bân /ˈdʒeːχ ˈbaːn/ | dikh baana /ˈdix ˈbaː.na/ | jex biani /dʒɛx biɑni/ | djech bjaan /ˈdjɛx ˈbjaːn/ |
 
 ## bhán — white, fair (lenited)
 
@@ -1746,13 +1746,13 @@ Irish: /n̪ˠə heːʃc/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ynyhesg /ə.ˈnə.hɛsk/ | anahishk /ʔa.na.ˈhiʃk/ | anaheshk' /ɑnɑhɛʃkʼ/ | enehesk /ə.nə.ˈhɛsk/ |
+| VOC | yna hesg /ˈə.na ˈhɛsk/ | aana hishk /ˈʔaː.na ˈhiʃk/ | ana heshk' /ɑnɑ hɛʃkʼ/ | ene hesk /ˈə.nə ˈhɛsk/ |
 | GEN | nyhesga /nə.ˈhɛ.ska/ | nahishka /na.ˈhiʃ.ka/ | naheshk'ia /nɑhɛʃkʼiɑ/ | neheeskje /nə.ˈheːs.kjə/ |
 | PATRO_O | onyhesga /ɔ.nə.ˈhɛ.ska/ | unahishka /ʔu.na.ˈhiʃ.ka/ | onaheshk'ia /ɔnɑhɛʃkʼiɑ/ | ooneheeskje /oː.nə.ˈheːs.kjə/ |
 | PATRO_NI | ninyhesga /nɪ.nə.ˈhɛ.ska/ | ninahishka /ni.na.ˈhiʃ.ka/ | ninaheshk'ia /ninɑhɛʃkʼiɑ/ | njieneheeskje /nji.nə.ˈheːs.kjə/ +1 |
-| DESC | nyhesg /ˈnə.hɛsk/ | nahishk /na.ˈhiʃk/ | naheshk' /nɑhɛʃkʼ/ | nehesk /nə.ˈhɛsk/ |
-| DESC+ADJ | nyhesgaidd /nə.ˈhɛ.skaið/ | nahishki /na.ˈhiʃ.ki/ | naheshk'uri /nɑhɛʃkʼuri/ | neheskachtech /nə.hɛ.ˈskɑx.təx/ |
-| DESC+NOUN | nyhesg /ˈnə.hɛsk/ | nahishka /na.ˈhiʃ.ka/ | naheshk'i /nɑhɛʃkʼi/ | nehesk /nə.ˈhɛsk/ |
+| DESC | na hesg /ˈnaː ˈhɛsk/ | na hishk /ˈna ˈhiʃk/ | na heshk' /nɑ hɛʃkʼ/ | ne hesk /ˈnə ˈhɛsk/ |
+| DESC+ADJ | na hesgaidd /ˈnaː ˈhɛ.skaið/ | na hishki /ˈna ˈhiʃ.ki/ | na heshk'uri /nɑ hɛʃkʼuri/ | ne heskachtech /ˈnə hɛ.ˈskɑx.təx/ |
+| DESC+NOUN | na hesg /ˈnaː ˈhɛsk/ | na hishka /ˈna ˈhiʃ.ka/ | na heshk'i /nɑ hɛʃkʼi/ | ne hesk /ˈnə ˈhɛsk/ |
 
 ## an tsneachta — the snow (gen.)
 
@@ -1760,13 +1760,13 @@ Irish: /ə tʲɾʲaxt̪ˠə/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | yytrachta /ə.ə.ˈtraχ.ta/ | aʼatrakhṭa /ʔa.ʔat.ˈrax.tˤa/ | aachriaxt'a /ɑɑtʃʰriɑxtʼɑ/ | eetrjachte /ə.ət.ˈrjɑx.tə/ +1 |
+| VOC | ya trachta /ˈə.a ˈtraχ.ta/ | aaʼa tirakhṭa /ˈʔaː.ʔa ti.ˈrax.tˤa/ | aa chriaxt'a /ɑɑ tʃʰriɑxtʼɑ/ | ee trachte /ˈə.ə ˈtrɑx.tə/ +1 |
 | GEN | ytrachta /ə.ˈtraχ.ta/ | atrakhṭa /ʔat.ˈrax.tˤa/ | achriaxt'a /ɑtʃʰriɑxtʼɑ/ | etrjachte /ət.ˈrjɑx.tə/ +1 |
 | PATRO_O | oytrachta /ɔ.ə.ˈtraχ.ta/ | uʼatrakhṭa /ʔu.ʔat.ˈrax.tˤa/ | oachriaxt'a /ɔɑtʃʰriɑxtʼɑ/ | oowetrjachte /oː.ʋət.ˈrjɑx.tə/ +1 |
 | PATRO_NI | niytrachta /nɪ.ə.ˈtraχ.ta/ | niʼatrakhṭa /ni.ʔat.ˈrax.tˤa/ | niachriaxt'a /niɑtʃʰriɑxtʼɑ/ | njietrjachte /njit.ˈrjɑx.tə/ +2 |
-| DESC | ytrachta /ə.ˈtraχ.ta/ | atrakhṭa /ʔat.ˈrax.tˤa/ | achriaxt'a /ɑtʃʰriɑxtʼɑ/ | etrjachte /ət.ˈrjɑx.tə/ +1 |
-| DESC+ADJ | ytrachtaaidd /ə.traχ.ˈtaː.aið/ | atrakhṭi /ʔat.ˈrax.tˤi/ | achriaxt'auli /ɑtʃʰriɑxtʼɑuli/ | etrjachteachtech /ət.rjɑx.tə.ˈɑx.təx/ +1 |
-| DESC+NOUN | ytrachta /ə.ˈtraχ.ta/ | atrakhṭa /ʔat.ˈrax.tˤa/ | achriaxt'a /ɑtʃʰriɑxtʼɑ/ | etrjachte /ət.ˈrjɑx.tə/ +1 |
+| DESC | a trachta /ˈaː ˈtraχ.ta/ | a tirakhṭa /ˈʔa ti.ˈrax.tˤa/ | a chriaxt'a /ɑ tʃʰriɑxtʼɑ/ | e trachte /ˈə ˈtrɑx.tə/ +1 |
+| DESC+ADJ | a trachtaaidd /ˈaː traχ.ˈtaː.aið/ | a tirakhṭi /ˈʔa ti.ˈrax.tˤi/ | a chriaxt'auli /ɑ tʃʰriɑxtʼɑuli/ | e trachteachtech /ˈə trɑx.tə.ˈɑx.təx/ +1 |
+| DESC+NOUN | a trachta /ˈaː ˈtraχ.ta/ | a tirakhṭa /ˈʔa ti.ˈrax.tˤa/ | a chriaxt'a /ɑ tʃʰriɑxtʼɑ/ | e trachte /ˈə ˈtrɑx.tə/ +1 |
 
 ## droch-dhuine — bad person
 

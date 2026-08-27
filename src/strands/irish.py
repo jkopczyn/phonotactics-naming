@@ -179,7 +179,8 @@ def _normalize_rewrites(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
 
 def _join(a: Word, b: Word) -> Word:
     """`a $ b`: segments concatenated with a morpheme boundary at the seam; b's own
-    boundaries, secondary marks and trace shifted / appended. A pending stress on `a` wins."""
+    boundaries (morpheme AND word, spec §3), secondary marks and trace shifted / appended.
+    A pending stress on `a` wins."""
     n = len(a.segments)
     if not a.segments:
         return b
@@ -191,6 +192,7 @@ def _join(a: Word, b: Word) -> Word:
     return Word(
         segments=a.segments + b.segments,
         morphemes=a.morphemes | {n} | frozenset(n + m for m in b.morphemes if m != 0),
+        word_breaks=a.word_breaks | frozenset(n + i for i in b.word_breaks),
         flags=a.flags + tuple(f for f in b.flags if f not in a.flags),
         trace=a.trace + b.trace,
         secondary=a.secondary + tuple(n + i for i in b.secondary),
@@ -347,7 +349,7 @@ class _Builder:
                 continue
             if item.kind == "literal" and not item.value.strip():      # " " = word separator
                 if current.segments:
-                    words.append(current)
+                    words.extend(current.split_words())
                 current = Word(segments=())
                 continue
             if item.kind == "call" and item.child is None:
@@ -359,7 +361,7 @@ class _Builder:
                 word = _normalize_rewrites(word, self.rf, self.table)
             current = _join(current, word)
         if current.segments:
-            words.append(current)
+            words.extend(current.split_words())
         joined = " ".join(w.ipa() for w in words)
         return [w.traced(TraceEntry(stage=STAGE, rule_id=f"templates:{self.name}", tag="",
                                     before="", after=joined,
@@ -369,6 +371,10 @@ class _Builder:
 
 def build_construction(name: str, slots: "dict[str, Entry]", rf: RuleFile,
                        table: FeatureTable) -> list[Word]:
-    """Apply rf.templates[name]; one Word per space-separated word (I-16).
+    """Apply rf.templates[name]; one Word per space-separated word (I-16) — both the `" "`
+    separators written in the template and any spaces inside a slot's own IPA (*an tsúil*
+    /ən̪ˠ t̪ˠuːlʲ/, spec §3). The construction is assembled and mutated as ONE object, so a
+    mutation still reaches across a boundary; `Word.split_words()` takes it apart at the end,
+    and stages 2-7 then run per word.
     Raises MissingSlot when a required slot is absent; IrishError for an unknown template."""
     return _Builder(name, slots, rf, table).build()
