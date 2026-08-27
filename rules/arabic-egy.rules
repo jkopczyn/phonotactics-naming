@@ -52,6 +52,7 @@ ANY = b t d k ɡ ʔ f s z ʃ x ɣ ħ ʕ h m n r l j w tˤ dˤ sˤ zˤ p v ʒ q t
 # /ʃ/" [abdelmassih-v3 pp.83-84]; /rˤ/ has no row; /l/ is not in the set (il- + l- is a
 # geminate anyway); /k ɡ/ assimilate only optionally (line 1045) and are left out.
 SUN = t tˤ d dˤ s sˤ z zˤ r n ʃ
+BACKV = a aː ɑ ɑː ɔ o oː ʊ u uː ə    # emphasis environment (Hafez); Irish vowels pre-substitution incl. ə (-> a)
 
 [substitute]
 # ---- consonants absent from Cairene (digest §3.6, lines 581-591) ----
@@ -78,9 +79,16 @@ mʲ -> m                     %design   # design: §9.1
 # ---- Irish coronals: broad -> emphatic where an emphatic exists (design: §9.9, evidence digest
 # §8.1 lines 1326-1352: Cairene "over-assigns" emphasis to loan alveolars), slender -> plain
 # (design: §9.1; digest §8.1 line 1303 "Palatalized: no. Flatly not covered") ----
-t̪ˠ -> tˤ                    %design   # design: §9.9; evidence digest §8.1 line 1330 `t -> tˤ` [ema1958 §19-20], line 1373 /t̪ˠ/ -> tˤ
-d̪ˠ -> dˤ                    %design   # design: §9.9; evidence digest §8.1 line 1330 `d -> dˤ`, line 1374
-sˠ -> sˤ                    %design   # design: §9.9; evidence digest §8.1 line 1330 `s -> sˤ`, line 1375
+# OWNER DECISION 2026-08-25 (narrows §9.9): emphasis only in Hafez's attested environment,
+# [alveolar] -> [emphatic] / _ [back V] (digest §8.1 lines 1228-1242 [ema1958]: ṣaloon,
+# lukanḍa, ~15 examples). BACKV lists the vowels as they arrive from Irish (the vowel rules
+# below run after these lines); /a/ counts as back for emphasis (PHOIBLE marks it back=-).
+t̪ˠ -> tˤ / _ BACKV          %attested # digest §8.1 line 1330 `t -> tˤ` [ema1958 §19-20], env. lines 1228-1242
+d̪ˠ -> dˤ / _ BACKV          %attested # digest §8.1 line 1330 `d -> dˤ`, env. lines 1228-1242
+sˠ -> sˤ / _ BACKV          %attested # digest §8.1 line 1330 `s -> sˤ`, env. lines 1228-1242
+t̪ˠ -> t                     %design   # design: §9.9 narrowed — elsewhere plain
+d̪ˠ -> d                     %design   # design: §9.9 narrowed — elsewhere plain
+sˠ -> s                     %design   # design: §9.9 narrowed — elsewhere plain
 l̪ˠ -> l                     %design   # design: §9.9 — /lˤ/ (digest §8.1 line 1376) has no features.tsv row; plain /l/
 n̪ˠ -> n                     %design   # design: §9.9 — digest §8.1 line 1383 / §8.3 line 1509: no /nˤ/ anywhere
 ɾˠ -> r                     %design   # design: §9.9 — /rˤ/ (digest §8.1 line 1377) has no features.tsv row; /r/ ~ [ɾ] (§8.3 line 1507)

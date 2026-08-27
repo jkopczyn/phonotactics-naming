@@ -99,7 +99,8 @@ def test_there_is_no_degemination_rule():
 
 
 def test_no_final_obstruent_devoicing():
-    assert adapt([w("bˠaːd̪ˠ")], TARGET, TABLE).words[0].segments[-1] == "dˤ"
+    # final broad /d̪ˠ/ is plain /d/ (no following back vowel; owner decision 2026-08-25)
+    assert adapt([w("bˠaːd̪ˠ")], TARGET, TABLE).words[0].segments[-1] == "d"
     assert adapt([w("bˠaːdʲ")], TARGET, TABLE).words[0].segments[-1] == "d"
 
 
@@ -236,3 +237,18 @@ def test_error_bucket_is_small():
 def test_ratchet_does_not_slip():
     assert (ROOT / "tests" / "ratchets" / f"{NAME}.json").exists()
     assert_ratchet(run_regression(NAME, TABLE))
+
+
+def test_emphasis_only_before_back_vowels():
+    # Owner decision 2026-08-25: narrow decision 9 to Hafez's attested environment,
+    # [alveolar] -> [emphatic] / _ [back V] (digest §8.1 lines 1228-1242 [ema1958]). Broad
+    # coronals before a front vowel, before a consonant, or word-finally stay plain.
+    def seg(ipa):
+        return adapt([w(ipa)], TARGET, TABLE).words[0].segments
+    assert seg("sˠaː")[0] == "sˤ"            # before a (Hafez: saloon -> ṣaloon)
+    assert seg("sˠuːlʲ")[0] == "sˤ"          # súil: before u
+    assert seg("t̪ˠɔ")[0] == "tˤ"             # before Irish ɔ (-> u)
+    assert seg("sˠiːɾˠʃə")[0] == "s"         # Saoirse: before i -> plain
+    assert seg("ˈʃeːmˠəsˠ")[-1] == "s"       # Séamus: word-final -> plain
+    assert seg("d̪ˠɾˠiːmʲ")[0] == "d"         # droim: before a consonant -> plain
+    assert seg("ˈmˠat̪ˠɑːnˠəx")[2] == "tˤ"    # Matánach: before ɑː
