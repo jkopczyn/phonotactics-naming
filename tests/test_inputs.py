@@ -8,8 +8,8 @@ from strands.inputs import Entry, INPUT_COLUMNS, accept_guesses, infer, lint_rep
 IRISH = irish()
 
 
-def test_reads_all_nine_columns():
-    assert len(INPUT_COLUMNS) == 9
+def test_reads_all_ten_columns():
+    assert len(INPUT_COLUMNS) == 10
     assert read_input(FIX)[0].orthography and read_input(FIX)[0].gloss
     assert read_input(FIX)[0].gen_ipa == "ʃaːnʲ"
 
@@ -141,3 +141,25 @@ def test_ipa_column_accepts_slash_and_bracket_delimiters(tmp_path):
     rows = read_input(f)
     assert rows[0].ipa == "iːˈdɑːn" and rows[0].gen_ipa == "iːˈdɑːnʲ"
     assert rows[1].ipa == "ʃaːnˠ"
+
+
+def test_declension_column_is_read_written_and_validated(tmp_path):
+    """Spec §12.K (2026-08-27): `declension` is an optional column. A supplied value is
+    honoured (no `declension:` assumption, GEN/VOC dispatch on it); `--accept` writes the
+    inferred value back so lint stops reporting it; a bad value is an InputError."""
+    import pytest
+    from strands.inputs import InputError
+    f = tmp_path / "in.tsv"
+    f.write_text("orthography\tipa\tgender\tdeclension\nSeán\tʃaːnˠ\tm\t\nBríd\tbʲɾʲiːdʲ\tf\tf2\n",
+                 encoding="utf-8")
+    entries = [infer(x, IRISH, TABLE) for x in read_input(f)]
+    assert entries[0].declension == "m1" and any(a.startswith("declension:") for a in entries[0].assumptions)
+    assert entries[1].declension == "f2" and not any(a.startswith("declension:") for a in entries[1].assumptions)
+    accept_guesses(f, entries)
+    rows = list(csv.DictReader(f.open(encoding="utf-8"), delimiter="\t"))
+    assert rows[0]["declension"] == "m1" and rows[1]["declension"] == "f2"
+    again = [infer(x, IRISH, TABLE) for x in read_input(f)]
+    assert not any(a.startswith("declension:") for e in again for a in e.assumptions)
+    f.write_text("orthography\tipa\tdeclension\nX\tʃaːnˠ\tq9\n", encoding="utf-8")
+    with pytest.raises(InputError):
+        infer(read_input(f)[0], IRISH, TABLE)

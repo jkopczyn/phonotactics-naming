@@ -378,3 +378,8 @@ contains whichever named regular inflections the plan enumerates (superset of th
 §3). Welsh's template is one nucleus per syllable, as §12.B states; hiatus is two syllables.
 The five pre-existing strand-4 names are canon inputs, displayed verbatim in the gallery's
 reference row and never passed through the engine.
+
+**K. (2026-08-27)** The input TSV has an optional `declension` column (`m1 | ach | f2 | m3 |
+d4`). Supplied values are honoured and validated; when empty it is inferred and reported in
+`assumptions`; `strands lint --accept` writes the inference back like `gender` and `gen_ipa`.
+IPA cells may be wrapped in `/…/` or `[…]`.

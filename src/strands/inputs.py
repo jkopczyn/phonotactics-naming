@@ -24,7 +24,7 @@ aliases such as ASCII `g` and quality-less consonants, which are in neither `BRO
 A row with no `ipa` is kept, tagged `skipped:no-ipa`; steps 1–3 still run on its
 orthography, step 4 is skipped. Supplied values are never overwritten.
 
-`declension` is not an input column, so its dataclass default "m1" (the `GEN()` fallback of
+`declension` is an optional input column (spec §12.K, 2026-08-27); when empty, the `GEN()` fallback of
 I-38) is treated as "not yet inferred": `infer()` re-derives it whenever it is "" or "m1"
 and keeps any other value. A row that really is `m1` therefore always carries a
 `declension:inferred-m1` tag.
@@ -49,10 +49,11 @@ __all__ = ["INPUT_COLUMNS", "DECLENSIONS", "Entry", "read_input", "infer", "lint
            "accept_guesses", "known_names"]
 
 INPUT_COLUMNS = ("orthography", "ipa", "dialect", "gloss", "category",
-                 "gender", "gen_ipa", "pl_ipa", "note")
+                 "gender", "declension", "gen_ipa", "pl_ipa", "note")
 DECLENSIONS = ("m1", "ach", "f2", "m3", "d4")
-_INFERRED_COLUMNS = ("dialect", "gender", "gen_ipa")    # what accept_guesses writes back
+_INFERRED_COLUMNS = ("dialect", "gender", "declension", "gen_ipa")    # what accept_guesses writes back
 _DEFAULT_DECLENSION = "m1"
+_DECLENSIONS = ("m1", "ach", "f2", "m3", "d4")   # accepted values of the optional `declension` column
 
 # Spec §5 ending heuristics, over NFC orthography (lower-cased). Order matters: the
 # masculine diminutive -ín ends in a slender consonant, so it is tested before the
@@ -75,7 +76,7 @@ class Entry:
     gloss: str = ""
     category: str = ""
     gender: str = "m"
-    declension: str = _DEFAULT_DECLENSION      # m1 | ach | f2 | m3 | d4   (I-38)
+    declension: str = ""                       # m1 | ach | f2 | m3 | d4   (I-38); "" = infer
     gen_ipa: str = ""
     pl_ipa: str = ""
     note: str = ""
@@ -227,9 +228,11 @@ def infer(entry: Entry, irish: RuleFile, table: FeatureTable) -> Entry:
         gender, tag = _infer_gender(entry, quality)
         tags.append(tag)
 
-    declension = entry.declension
-    if declension in ("", _DEFAULT_DECLENSION) and not any(
-            t.startswith("declension:") for t in tags):
+    declension = (entry.declension or "").strip().lower()
+    if declension and declension not in _DECLENSIONS:
+        raise InputError(f"{entry.orthography}: declension {entry.declension!r} is not one of "
+                         f"{', '.join(_DECLENSIONS)}")
+    if not declension and not any(t.startswith("declension:") for t in tags):
         declension, tag = _infer_declension(entry, gender, quality)
         tags.append(tag)
 
@@ -268,7 +271,7 @@ def accept_guesses(path: str | Path, entries: Sequence[Entry]) -> None:
     Rows pair with `entries` by order (blank rows are skipped, as `read_input` does);
     existing columns — spec or not — are kept in place, and a missing spec column is
     appended to the header. Only empty cells are filled; nothing supplied is changed.
-    `declension` is not a spec §5 column and is not written."""
+    `declension` (spec §12.K) is written like the others."""
     path = Path(path)
     header, rows = _read_rows(path)
     data_rows = [r for r in rows if r.get("orthography")]
