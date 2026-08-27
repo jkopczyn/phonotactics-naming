@@ -33,6 +33,7 @@ whenever it is present.
 form from the table's `punctum` COLUMN (⟨ṡ⟩→s, ⟨ḟ⟩→f) in the output string alone; tokens,
 metadata and IPA are untouched, so the setting provably cannot change the IPA.
 """
+
 from __future__ import annotations
 
 import re
@@ -42,10 +43,24 @@ from dataclasses import dataclass, replace
 from pathlib import Path
 
 __all__ = [
-    "OI_ORTHOGRAPHY_PATH", "OI_RULES_PATH", "ROLES", "ENVS", "MUTATIONS",
-    "DECLARED_QUALITY_PAIRS", "GraphemeRow", "GraphemeRule", "SpelledError", "SpelledWord",
-    "apply_grapheme_table", "load_graphemes", "load_quality_pairs", "parse_quality_pairs",
-    "spelling_to_ipa", "spelling_to_words", "tokenize_spelling", "token_roles",
+    "OI_ORTHOGRAPHY_PATH",
+    "OI_RULES_PATH",
+    "ROLES",
+    "ENVS",
+    "MUTATIONS",
+    "DECLARED_QUALITY_PAIRS",
+    "GraphemeRow",
+    "GraphemeRule",
+    "SpelledError",
+    "SpelledWord",
+    "apply_grapheme_table",
+    "load_graphemes",
+    "load_quality_pairs",
+    "parse_quality_pairs",
+    "spelling_to_ipa",
+    "spelling_to_words",
+    "tokenize_spelling",
+    "token_roles",
 ]
 
 _ROOT = Path(__file__).resolve().parents[2]
@@ -64,9 +79,9 @@ ENVS: tuple[str, ...] = ("initial", "noninitial", "final", "any")
 MUTATIONS: tuple[str, ...] = ("", "LEN", "NAS")
 _NUCLEUS_ROLES = frozenset({"vowel", "long"})
 _CONSONANT_ROLES = frozenset({"cons", "nasal"})
-_SLENDER_LETTERS = frozenset("eéií")           # digest §10.2 conv. 5 (i)
-_U_GLIDE_AFTER = frozenset({"a", "e", "i"})    # [pokorny1914 §38]: the u-glide follows short a e i
-_REDUCES_TO_U = frozenset({"u", "o"})          # digest §10.1: non-final /u/ is written ⟨u o⟩
+_SLENDER_LETTERS = frozenset("eéií")  # digest §10.2 conv. 5 (i)
+_U_GLIDE_AFTER = frozenset({"a", "e", "i"})  # [pokorny1914 §38]: the u-glide follows short a e i
+_REDUCES_TO_U = frozenset({"u", "o"})  # digest §10.1: non-final /u/ is written ⟨u o⟩
 _NASAL_PREFIX = "n-"
 
 # digest §10.2 conv. 1 (unwritten lenition of the voiced stops and m) and spec §11 (ii)
@@ -80,7 +95,8 @@ _UNWRITTEN = {
 
 DECLARED_QUALITY_PAIRS = (
     "pˠ:pʲ bˠ:bʲ t̪ˠ:tʲ d̪ˠ:dʲ k:c ɡ:ɟ fˠ:fʲ sˠ:ʃ x:ç ɣ:ɣʲ β:βʲ β̃:β̃ʲ ð:ðʲ θ:θʲ mˠ:mʲ n̪ˠ:nʲ "
-    "ŋ:ɲ l̪ˠ:lʲ ɾˠ:ɾʲ h:h w:-")
+    "ŋ:ɲ l̪ˠ:lʲ ɾˠ:ɾʲ h:h w:-"
+)
 """Spec §11's explicit BROAD↔SLEN declaration, as `old-irish.rules [meta] quality-pairs`
 states it. Bootstrap only: `load_quality_pairs` prefers the rule file when it exists."""
 
@@ -95,16 +111,17 @@ class SpelledError(Exception):
 
 # ---- the table ---------------------------------------------------------------------------
 
+
 @dataclass(frozen=True)
 class GraphemeRow:
-    token: str          # lower-case letters as written, 1-3 chars
-    env: str            # one of ENVS
-    left: str           # letters, one of which must END the previous token, or "" for any
-    ipa: tuple[str, ...]   # () = silent
-    role: str           # one of ROLES
-    punctum: str        # the plain-letter form for `punctum = off`, or "" for none
+    token: str  # lower-case letters as written, 1-3 chars
+    env: str  # one of ENVS
+    left: str  # letters, one of which must END the previous token, or "" for any
+    ipa: tuple[str, ...]  # () = silent
+    role: str  # one of ROLES
+    punctum: str  # the plain-letter form for `punctum = off`, or "" for none
     note: str
-    line: int = 0       # file line, for `check_grapheme_table`
+    line: int = 0  # file line, for `check_grapheme_table`
 
 
 _HEADER = ("token", "env", "left", "ipa", "role", "punctum", "note")
@@ -138,10 +155,18 @@ def load_graphemes(path: Path | None = None) -> tuple[GraphemeRow, ...]:
         token, env, left, ipa, role, punctum, note = cells[:7]
         if not token:
             raise SpelledError(f"{path}:{n}: empty token")
-        rows.append(GraphemeRow(
-            token=token, env=env, left="" if left == "-" else left,
-            ipa=() if ipa in ("-", "") else tuple(ipa.split("+")), role=role,
-            punctum="" if punctum == "-" else punctum, note=note, line=n))
+        rows.append(
+            GraphemeRow(
+                token=token,
+                env=env,
+                left="" if left == "-" else left,
+                ipa=() if ipa in ("-", "") else tuple(ipa.split("+")),
+                role=role,
+                punctum="" if punctum == "-" else punctum,
+                note=note,
+                line=n,
+            )
+        )
     if not header_seen:
         raise SpelledError(f"{path}: no header line")
     out = tuple(sorted(rows, key=lambda r: -len(r.token)))
@@ -171,8 +196,9 @@ def _row_applies(row: GraphemeRow, index: int, is_last: bool, prev: str | None) 
     return True
 
 
-def _select_row(rows: Sequence[GraphemeRow], token: str, index: int, is_last: bool,
-                prev: str | None) -> GraphemeRow | None:
+def _select_row(
+    rows: Sequence[GraphemeRow], token: str, index: int, is_last: bool, prev: str | None
+) -> GraphemeRow | None:
     """The first row (longest-token-first, then file order) for `token` whose `env` and
     `left` are satisfied at this position."""
     for r in rows:
@@ -193,23 +219,26 @@ def tokenize_spelling(text: str, rows: Sequence[GraphemeRow] | None = None) -> t
     while i < n:
         for r in rows:
             if text.startswith(r.token, i) and _row_applies(
-                    r, len(tokens), i + len(r.token) == n, tokens[-1] if tokens else None):
+                r, len(tokens), i + len(r.token) == n, tokens[-1] if tokens else None
+            ):
                 tokens.append(r.token)
                 i += len(r.token)
                 break
         else:
-            raise SpelledError(f"cannot tokenize {text!r}: no grapheme token matches "
-                               f"{text[i]!r} at position {i}")
+            raise SpelledError(
+                f"cannot tokenize {text!r}: no grapheme token matches {text[i]!r} at position {i}"
+            )
     return tuple(tokens)
 
 
 # ---- the object (O-27) --------------------------------------------------------------------
 
+
 @dataclass(frozen=True)
 class SpelledWord:
-    graphemes: tuple[str, ...]      # LOWER-CASE grapheme tokens, in order (O-32)
-    capitalized: bool = False       # render the first letter upper-case
-    mutation: str = ""              # "" | "LEN" | "NAS" — the INITIAL mutation, as metadata
+    graphemes: tuple[str, ...]  # LOWER-CASE grapheme tokens, in order (O-32)
+    capitalized: bool = False  # render the first letter upper-case
+    mutation: str = ""  # "" | "LEN" | "NAS" — the INITIAL mutation, as metadata
 
     @classmethod
     def from_spelling(cls, text: str) -> SpelledWord:
@@ -225,8 +254,10 @@ class SpelledWord:
 
     def with_mutation(self, name: str) -> SpelledWord:
         if name not in MUTATIONS:
-            raise SpelledError(f"unknown mutation {name!r}; expected one of "
-                               + ", ".join(repr(m) for m in MUTATIONS))
+            raise SpelledError(
+                f"unknown mutation {name!r}; expected one of "
+                + ", ".join(repr(m) for m in MUTATIONS)
+            )
         return replace(self, mutation=name)
 
     def render(self, *, punctum: bool = True) -> str:
@@ -244,7 +275,7 @@ class SpelledWord:
             # A written nasal prefix is not the name's first letter: *n-Ériu*, not *N-ériu*.
             k = len(_NASAL_PREFIX) if self.graphemes[0] == _NASAL_PREFIX else 0
             if k < len(text):
-                text = text[:k] + text[k].upper() + text[k + 1:]
+                text = text[:k] + text[k].upper() + text[k + 1 :]
         return text
 
     def ipa(self) -> tuple[str, ...]:
@@ -258,6 +289,7 @@ def spelling_to_words(text: str) -> tuple[SpelledWord, ...]:
 
 
 # ---- the quality pairs (spec §11) --------------------------------------------------------
+
 
 def parse_quality_pairs(text: str) -> dict[str, str]:
     """`pˠ:pʲ bˠ:bʲ … w:-` -> {broad: slender}; a `-` partner means none and is omitted."""
@@ -301,12 +333,14 @@ def load_quality_pairs(path: Path | None = None) -> dict[str, str]:
 
 # ---- the reconstruction (O-11) -----------------------------------------------------------
 
+
 def _is_vowel_letter(role: str | None) -> bool:
     return role in _NUCLEUS_ROLES
 
 
-def spelling_to_ipa(word: SpelledWord, *, pairs: Mapping[str, str] | None = None
-                    ) -> tuple[str, ...]:
+def spelling_to_ipa(
+    word: SpelledWord, *, pairs: Mapping[str, str] | None = None
+) -> tuple[str, ...]:
     """Reconstruct the segments of a finished spelled word (digest §10.2 read forwards).
 
     1. Initial mutation (conv. 1; spec §11 (ii)): an unwritten `LEN`/`NAS` replaces the
@@ -342,8 +376,7 @@ def spelling_to_ipa(word: SpelledWord, *, pairs: Mapping[str, str] | None = None
     for k, tok in enumerate(tokens):
         row = _select_row(rows, tok, k, k == n - 1, tokens[k - 1] if k else None)
         if row is None:
-            raise SpelledError(f"no grapheme row for {tok!r} at token {k} of "
-                               f"{''.join(tokens)!r}")
+            raise SpelledError(f"no grapheme row for {tok!r} at token {k} of {''.join(tokens)!r}")
         selected.append(row)
     roles = [r.role for r in selected]
     segs: list[list[str]] = [list(r.ipa) for r in selected]
@@ -358,8 +391,9 @@ def spelling_to_ipa(word: SpelledWord, *, pairs: Mapping[str, str] | None = None
     for k in range(1, n - 1):
         if roles[k + 1] not in _CONSONANT_ROLES:
             continue
-        if (tokens[k] == "i" and roles[k - 1] in _NUCLEUS_ROLES) \
-                or (tokens[k] == "u" and tokens[k - 1] in _U_GLIDE_AFTER):
+        if (tokens[k] == "i" and roles[k - 1] in _NUCLEUS_ROLES) or (
+            tokens[k] == "u" and tokens[k - 1] in _U_GLIDE_AFTER
+        ):
             roles[k] = "glide"
             segs[k] = []
 
@@ -392,14 +426,15 @@ def spelling_to_ipa(word: SpelledWord, *, pairs: Mapping[str, str] | None = None
 
 # ---- grapheme rewrites (O-10) -------------------------------------------------------------
 
+
 @dataclass(frozen=True)
 class GraphemeRule:
-    table: str          # the sub-table it belongs to ("LEN", "GEN_O", …)
+    table: str  # the sub-table it belongs to ("LEN", "GEN_O", …)
     line: int
-    rule_id: str        # "<section>:<line>"
-    target: tuple[str, ...]        # grapheme tokens, an inline set "{c t p}", or the class V / C
-    replacement: tuple[str, ...]   # tokens, or () for deletion
-    left: tuple[str, ...]          # context atoms: tokens, sets, classes, "#"
+    rule_id: str  # "<section>:<line>"
+    target: tuple[str, ...]  # grapheme tokens, an inline set "{c t p}", or the class V / C
+    replacement: tuple[str, ...]  # tokens, or () for deletion
+    left: tuple[str, ...]  # context atoms: tokens, sets, classes, "#"
     right: tuple[str, ...]
     tag: str
     comment: str
@@ -415,8 +450,9 @@ def _atom_matches(atom: str, token: str, roles: Mapping[str, str]) -> bool:
     return atom == token
 
 
-def _context_ok(tokens: Sequence[str], start: int, stop: int, rule: GraphemeRule,
-                roles: Mapping[str, str]) -> bool:
+def _context_ok(
+    tokens: Sequence[str], start: int, stop: int, rule: GraphemeRule, roles: Mapping[str, str]
+) -> bool:
     p = start - 1
     for atom in reversed(rule.left):
         if atom == "#":
@@ -438,30 +474,34 @@ def _context_ok(tokens: Sequence[str], start: int, stop: int, rule: GraphemeRule
     return True
 
 
-def _matches(tokens: Sequence[str], rule: GraphemeRule, roles: Mapping[str, str]
-             ) -> list[tuple[int, int]]:
+def _matches(
+    tokens: Sequence[str], rule: GraphemeRule, roles: Mapping[str, str]
+) -> list[tuple[int, int]]:
     """Every (start, stop) span of `tokens` the rule matches, left to right, overlapping
     spans included (callers decide the policy)."""
     width = len(rule.target)
     out: list[tuple[int, int]] = []
     for start in range(len(tokens) - width + 1):
         stop = start + width
-        if all(_atom_matches(a, tokens[start + i], roles) for i, a in enumerate(rule.target)) \
-                and _context_ok(tokens, start, stop, rule, roles):
+        if all(
+            _atom_matches(a, tokens[start + i], roles) for i, a in enumerate(rule.target)
+        ) and _context_ok(tokens, start, stop, rule, roles):
             out.append((start, stop))
     return out
 
 
-def _splice(tokens: tuple[str, ...], edits: list[tuple[int, int, tuple[str, ...]]]
-            ) -> tuple[str, ...]:
+def _splice(
+    tokens: tuple[str, ...], edits: list[tuple[int, int, tuple[str, ...]]]
+) -> tuple[str, ...]:
     out = list(tokens)
     for start, stop, new in sorted(edits, key=lambda e: e[0], reverse=True):
         out[start:stop] = list(new)
     return tuple(out)
 
 
-def apply_grapheme_table(word: SpelledWord, rules: Sequence[GraphemeRule],
-                         *, simultaneous: bool) -> SpelledWord:
+def apply_grapheme_table(
+    word: SpelledWord, rules: Sequence[GraphemeRule], *, simultaneous: bool
+) -> SpelledWord:
     """`simultaneous=True` for a mutation table (one pass against the pre-table word, first
     rule in file order wins an overlapping span — the `irish._apply_table` contract, edge
     contact included); `simultaneous=False` for an inflection (ordered, each rule sees the
@@ -501,6 +541,6 @@ def apply_grapheme_table(word: SpelledWord, rules: Sequence[GraphemeRule],
     # written ⟨ía⟩, the diphthong /ia/, not ⟨í⟩⟨a⟩ /iːa/), so the spliced word is re-tokenized.
     try:
         tokens = tokenize_spelling("".join(tokens))
-    except SpelledError:        # a hand-built rule writing a non-token; `check` rejects it in a file
+    except SpelledError:  # a hand-built rule writing a non-token; `check` rejects it in a file
         pass
     return replace(word, graphemes=tokens)

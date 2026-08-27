@@ -1,5 +1,6 @@
 """Plan Task 21: the stage pipeline, token-stream respell and epithet slots (spec §4,
 §12.C, §12.H; I-8, I-19, I-39)."""
+
 import os
 import pathlib
 import subprocess
@@ -59,7 +60,7 @@ def test_respell_chunks_are_opaque():
 def test_respell_always_strips_marks():
     rf = parse_rules('[inventory]\np a\n[respell]\np -> "b"\n', TABLE)
     out = respell(Word(segments=("p", "a"), syllables=(0,), stress=0), rf, TABLE)
-    assert out == "ba"                      # no "." and no "ˈ", unconditionally
+    assert out == "ba"  # no "." and no "ˈ", unconditionally
 
 
 def test_respell_contexts_see_marks_and_boundaries():
@@ -71,17 +72,23 @@ def test_respell_contexts_see_marks_and_boundaries():
 
 def test_stress_mark_off_affects_the_ipa_not_the_respelling():
     """Georgian's [stress] mark = off governs Result.ipa formatting only."""
-    rf = parse_rules('[inventory]\np a\n[syllable]\ntemplate = any\nonsets = any\n'
-                     'codas = any\nsonority = off\n[stress]\nprocedure = initial\n'
-                     'mark = off\n[respell]\np -> "b"\n', TABLE)
+    rf = parse_rules(
+        "[inventory]\np a\n[syllable]\ntemplate = any\nonsets = any\n"
+        "codas = any\nsonority = off\n[stress]\nprocedure = initial\n"
+        'mark = off\n[respell]\np -> "b"\n',
+        TABLE,
+    )
     r = adapt([w("pa")], rf, TABLE)
     assert "ˈ" not in r.ipa and r.respelling == "ba"
 
 
 def test_stress_mark_defaults_to_on():
-    rf = parse_rules('[inventory]\np a\n[syllable]\ntemplate = any\nonsets = any\n'
-                     'codas = any\nsonority = off\n[stress]\nprocedure = initial\n'
-                     '[respell]\np -> "b"\n', TABLE)
+    rf = parse_rules(
+        "[inventory]\np a\n[syllable]\ntemplate = any\nonsets = any\n"
+        "codas = any\nsonority = off\n[stress]\nprocedure = initial\n"
+        '[respell]\np -> "b"\n',
+        TABLE,
+    )
     r = adapt([w("papa")], rf, TABLE)
     assert r.ipa == "ˈpa.pa" and r.respelling == "baba"
 
@@ -101,8 +108,11 @@ def test_respell_insertion_does_not_claim_the_following_segment():
 def test_respell_insertion_inside_an_opaque_chunk_is_not_rendered():
     """A later insertion whose point lies strictly inside an earlier chunk is swallowed
     by the chunk (the chunk is opaque); one at the chunk's edges renders."""
-    rf = parse_rules('[inventory]\np a\n[respell]\np a -> "X"\n0 -> "Z" / p _ a\n'
-                     '0 -> "Y" / # _\n0 -> "W" / _ #\n', TABLE)
+    rf = parse_rules(
+        '[inventory]\np a\n[respell]\np a -> "X"\n0 -> "Z" / p _ a\n'
+        '0 -> "Y" / # _\n0 -> "W" / _ #\n',
+        TABLE,
+    )
     assert respell(Word(segments=("p", "a")), rf, TABLE) == "YXW"
 
 
@@ -123,7 +133,7 @@ def test_parse_construction_rejects_an_unknown_slot():
 
 def test_epithet_slot_resolves_through_target_meta():
     assert resolve_epithet(TOY, "ADJ") == "NISBA"
-    assert resolve_epithet(TOY, "NOUN") is None          # unmapped = no affix, not an error
+    assert resolve_epithet(TOY, "NOUN") is None  # unmapped = no affix, not an error
 
 
 def test_affix_epithet_attaches_at_a_morpheme_boundary():
@@ -193,8 +203,13 @@ def test_serialized_result_is_identical_across_hash_seeds():
     env = {**os.environ, "PYTHONPATH": os.pathsep.join([str(root / "src"), str(root / "tests")])}
     outs = set()
     for seed in ("0", "1", "2", "42", "4242"):
-        proc = subprocess.run([sys.executable, "-c", _SEED_SCRIPT], capture_output=True,
-                              text=True, check=True, env={**env, "PYTHONHASHSEED": seed})
+        proc = subprocess.run(
+            [sys.executable, "-c", _SEED_SCRIPT],
+            capture_output=True,
+            text=True,
+            check=True,
+            env={**env, "PYTHONHASHSEED": seed},
+        )
         outs.add(proc.stdout)
     assert len(outs) == 1, outs
     assert "('ZZZ', 'AAA')" in next(iter(outs))
@@ -211,5 +226,7 @@ def test_constants():
     # Old Irish plan Task 15 / O-17: every construction has a template in SOME strand's
     # file — the shared ones in irish.rules, the eight formations in old-irish.rules.
     oi = load_target("old-irish", TABLE)
-    assert all(parse_construction(c)[0] in IRISH.templates
-               or parse_construction(c)[0] in oi.templates for c in CONSTRUCTIONS)
+    assert all(
+        parse_construction(c)[0] in IRISH.templates or parse_construction(c)[0] in oi.templates
+        for c in CONSTRUCTIONS
+    )

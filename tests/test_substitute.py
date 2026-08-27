@@ -1,4 +1,5 @@
 """Plan Task 8: the substitute stage (spec §4.2a)."""
+
 from helpers import TABLE
 
 from strands.dsl import parse_rules

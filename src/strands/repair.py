@@ -39,6 +39,7 @@ spans are found, but nothing is replaced: the marks are cleared so the loop term
 `UNREPAIRED`, each span records `repair cluster-keep %design` and adds an
 `UNATTESTED_CLUSTER:<cluster>` flag, and the fallback count does not move.
 """
+
 from __future__ import annotations
 
 from collections.abc import Sequence
@@ -50,8 +51,15 @@ from .rewrite import apply_rule
 from .syllabify import legal_onset, syllabify
 from .word import TraceEntry, Word
 
-__all__ = ["MAX_REPAIR_PASSES", "UNREPAIRED", "UNATTESTED_CLUSTER", "repair",
-           "cluster_fallback", "cluster_keep", "overlay_undo"]
+__all__ = [
+    "MAX_REPAIR_PASSES",
+    "UNREPAIRED",
+    "UNATTESTED_CLUSTER",
+    "repair",
+    "cluster_fallback",
+    "cluster_keep",
+    "overlay_undo",
+]
 
 MAX_REPAIR_PASSES = 10
 UNREPAIRED = "UNREPAIRED"
@@ -63,10 +71,11 @@ OVERLAY_UNDO = "overlay-undo"
 SUBSTITUTE = "substitute:"
 SAME_LENGTH = "same-length"
 KEEP = "keep"
-KEEP_NOTE = ("unattested cluster kept (Georgian imports foreign clusters intact; digest §3.7)")
+KEEP_NOTE = "unattested cluster kept (Georgian imports foreign clusters intact; digest §3.7)"
 
 
 # ---- cluster fallback (§12.E) -------------------------------------------------------------------
+
 
 def _illegal_runs(word: Word) -> list[tuple[int, int]]:
     """Maximal contiguous illegal spans, split at syllable starts, as (start, stop)."""
@@ -94,7 +103,7 @@ def _illegal_runs(word: Word) -> list[tuple[int, int]]:
 
 
 def _span_role(word: Word, a: int, b: int) -> str | None:
-    """"onset" if the span ends at a nucleus start, "coda" if it starts at a nucleus stop."""
+    """ "onset" if the span ends at a nucleus start, "coda" if it starts at a nucleus stop."""
     if any(a_n == b for a_n, _ in word.nuclei):
         return "onset"
     if any(b_n == a for _, b_n in word.nuclei):
@@ -102,8 +111,9 @@ def _span_role(word: Word, a: int, b: int) -> str | None:
     return None
 
 
-def _best_cluster(span: Sequence[str], candidates: Sequence[tuple[str, ...]],
-                  rf: RuleFile, table: FeatureTable) -> tuple[str, ...] | None:
+def _best_cluster(
+    span: Sequence[str], candidates: Sequence[tuple[str, ...]], rf: RuleFile, table: FeatureTable
+) -> tuple[str, ...] | None:
     best: tuple[str, ...] | None = None
     best_d = 0.0
     for cand in candidates:
@@ -138,13 +148,20 @@ def cluster_fallback(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
             continue
         edits.append((a, b, best))
     out = word
-    for a, b, new in reversed(edits):             # right-to-left keeps earlier indices valid
+    for a, b, new in reversed(edits):  # right-to-left keeps earlier indices valid
         before = out.ipa()
         old = "".join(out.segments[a:b])
         out = out.replaced(a, b, new)
-        out = out.traced(TraceEntry(stage=STAGE, rule_id=CLUSTER_FALLBACK, tag="fallback",
-                                    before=before, after=out.ipa(),
-                                    note=f"{old} -> {''.join(new)}"))
+        out = out.traced(
+            TraceEntry(
+                stage=STAGE,
+                rule_id=CLUSTER_FALLBACK,
+                tag="fallback",
+                before=before,
+                after=out.ipa(),
+                note=f"{old} -> {''.join(new)}",
+            )
+        )
     return out
 
 
@@ -173,13 +190,19 @@ def cluster_keep(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
     for a, b in kept:
         cluster = "".join(out.segments[a:b])
         here = out.ipa()
-        out = out.traced(TraceEntry(stage=STAGE, rule_id=CLUSTER_KEEP, tag="design",
-                                    before=here, after=here,
-                                    note=f"{cluster}: {KEEP_NOTE}"))
+        out = out.traced(
+            TraceEntry(
+                stage=STAGE,
+                rule_id=CLUSTER_KEEP,
+                tag="design",
+                before=here,
+                after=here,
+                note=f"{cluster}: {KEEP_NOTE}",
+            )
+        )
         out = out.with_flag(f"{UNATTESTED_CLUSTER}:{cluster}")
         cleared -= set(range(a, b))
     return replace(out, illegal=frozenset(cleared))
-
 
 
 def overlay_undo(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
@@ -203,26 +226,38 @@ def overlay_undo(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
     for a, b in _illegal_runs(word):
         if _span_role(word, a, b) != "onset":
             continue
-        overlay = sorted((i for i, rule_id in word.origins
-                          if a <= i < b and word.segments[i] == seg
-                          and rule_id.startswith(SUBSTITUTE)), reverse=True)
+        overlay = sorted(
+            (
+                i
+                for i, rule_id in word.origins
+                if a <= i < b and word.segments[i] == seg and rule_id.startswith(SUBSTITUTE)
+            ),
+            reverse=True,
+        )
         for i in overlay:
-            trial = word.segments[a:i] + word.segments[i + 1:b]
+            trial = word.segments[a:i] + word.segments[i + 1 : b]
             if legal_onset(trial, rf.syllable, table):
                 edits.append(i)
                 break
     out = word
-    for i in sorted(edits, reverse=True):          # right-to-left keeps earlier indices valid
+    for i in sorted(edits, reverse=True):  # right-to-left keeps earlier indices valid
         before = out.ipa()
         out = out.replaced(i, i + 1, ())
-        out = out.traced(TraceEntry(stage=STAGE, rule_id=OVERLAY_UNDO, tag="design",
-                                    before=before, after=out.ipa(),
-                                    note=f"overlay {seg} undone: the cluster it created is "
-                                         "not licensed"))
+        out = out.traced(
+            TraceEntry(
+                stage=STAGE,
+                rule_id=OVERLAY_UNDO,
+                tag="design",
+                before=before,
+                after=out.ipa(),
+                note=f"overlay {seg} undone: the cluster it created is not licensed",
+            )
+        )
     return out
 
 
 # ---- the loop (§12.A) ---------------------------------------------------------------------------
+
 
 def repair(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
     """Spec §12.A:
@@ -249,10 +284,10 @@ def repair(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
             if new is not word:
                 word = syllabify(new, rf, table)
         elif word.illegal and rf.cluster_fallback == KEEP:
-            word = cluster_keep(word, rf, table)   # no re-syllabify: it would re-mark the span
+            word = cluster_keep(word, rf, table)  # no re-syllabify: it would re-mark the span
         if not word.illegal:
             return word
-        if word.segments in seen:                   # unchanged, or a longer cycle
+        if word.segments in seen:  # unchanged, or a longer cycle
             break
         seen.add(word.segments)
     return word.with_flag(UNREPAIRED)

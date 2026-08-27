@@ -1,4 +1,5 @@
 """Task 2: lexicon schema and validation (spec §3, §7, §10; O-18, O-19, O-21, O-22)."""
+
 import pytest
 
 from strands.check import check_lexicon_file
@@ -30,26 +31,57 @@ def row(**kw):
     return "\t".join(kw.get(c, "") for c in LEXICON_COLUMNS)
 
 
-ATTESTED = dict(orthography="Niall", oi_nom="Níall", oi_gen="Néill", stem="o", gender="m",
-                source="https://en.wiktionary.org/wiki/N%C3%ADall")
-LOAN = dict(orthography="Seán", status="none", kind="loan",
-            source="https://en.wiktionary.org/wiki/Se%C3%A1n", note="< Old French Jehan")
-LATE = dict(orthography="Saoirse", status="none", kind="late",
-            source="https://en.wiktionary.org/wiki/saoirse", note="20th-c. coinage")
-MIDDLE = dict(orthography="Tadhg", oi_nom="Tadg", stem="o", gender="m", status="middle",
-              source="https://en.wiktionary.org/wiki/Tadg")
+ATTESTED = dict(
+    orthography="Niall",
+    oi_nom="Níall",
+    oi_gen="Néill",
+    stem="o",
+    gender="m",
+    source="https://en.wiktionary.org/wiki/N%C3%ADall",
+)
+LOAN = dict(
+    orthography="Seán",
+    status="none",
+    kind="loan",
+    source="https://en.wiktionary.org/wiki/Se%C3%A1n",
+    note="< Old French Jehan",
+)
+LATE = dict(
+    orthography="Saoirse",
+    status="none",
+    kind="late",
+    source="https://en.wiktionary.org/wiki/saoirse",
+    note="20th-c. coinage",
+)
+MIDDLE = dict(
+    orthography="Tadhg",
+    oi_nom="Tadg",
+    stem="o",
+    gender="m",
+    status="middle",
+    source="https://en.wiktionary.org/wiki/Tadg",
+)
 
 
 def codes(path, severity="error"):
-    return sorted(e.code for e in check_lexicon_file(path)
-                  if severity is None or e.severity == severity)
+    return sorted(
+        e.code for e in check_lexicon_file(path) if severity is None or e.severity == severity
+    )
 
 
 def test_the_column_list_is_the_spec_3_plus_10_schema():
-    assert LEXICON_COLUMNS == ("orthography", "oi_nom", "oi_gen", "stem", "gender",
-                               "status", "kind", "source", "note")
-    assert STEMS == ("o", "ā", "i", "u", "n", "dental", "velar", "r", "s", "indecl",
-                     "irregular")
+    assert LEXICON_COLUMNS == (
+        "orthography",
+        "oi_nom",
+        "oi_gen",
+        "stem",
+        "gender",
+        "status",
+        "kind",
+        "source",
+        "note",
+    )
+    assert STEMS == ("o", "ā", "i", "u", "n", "dental", "velar", "r", "s", "indecl", "irregular")
     assert STATUSES == ("attested", "middle", "none") and KINDS == ("loan", "late")
     assert FORM_STATUSES == ("attested", "middle")
 
@@ -58,10 +90,15 @@ def test_the_four_row_shapes_all_validate(tmp_path):
     assert codes(write(tmp_path, row(**ATTESTED), row(**LOAN), row(**LATE), row(**MIDDLE))) == []
 
 
-@pytest.mark.parametrize("fields,expected", [
-    (ATTESTED, "ATTESTED"), (MIDDLE, "ATTESTED:MIr"),
-    (LOAN, "RETRO:loan"), (LATE, "RETRO:late"),
-])
+@pytest.mark.parametrize(
+    "fields,expected",
+    [
+        (ATTESTED, "ATTESTED"),
+        (MIDDLE, "ATTESTED:MIr"),
+        (LOAN, "RETRO:loan"),
+        (LATE, "RETRO:late"),
+    ],
+)
 def test_each_status_maps_to_its_result_flag(fields, expected):
     """spec §2 and §10; O-18, O-22. Task 12 reads exactly this property."""
     assert LexEntry(**fields).flag == expected
@@ -74,7 +111,8 @@ def test_the_key_is_nfc_case_folded(tmp_path):
 
 def test_duplicate_keys_are_rejected(tmp_path):
     assert "LEX_DUPLICATE_KEY" in codes(
-        write(tmp_path, row(**ATTESTED), row(**dict(ATTESTED, orthography="NIALL"))))
+        write(tmp_path, row(**ATTESTED), row(**dict(ATTESTED, orthography="NIALL")))
+    )
 
 
 def test_every_row_must_cite_a_source(tmp_path):
@@ -84,8 +122,12 @@ def test_every_row_must_cite_a_source(tmp_path):
 
 def test_a_source_must_look_like_a_url_or_a_page_citation(tmp_path):
     assert "LEX_SOURCE_SHAPE" in codes(write(tmp_path, row(**dict(ATTESTED, source="eDIL"))))
-    for good in ("https://dil.ie/33021", "digest §10.6", "strachan1909 p.9",
-                 "pokorny1914 p.60 §134"):
+    for good in (
+        "https://dil.ie/33021",
+        "digest §10.6",
+        "strachan1909 p.9",
+        "pokorny1914 p.60 §134",
+    ):
         assert codes(write(tmp_path, row(**dict(ATTESTED, source=good)))) == []
 
 
@@ -105,11 +147,14 @@ def test_the_widened_stem_vocabulary_is_accepted(tmp_path):
     assert "LEX_STEM" in codes(write(tmp_path, row(**dict(ATTESTED, stem="io"))))
 
 
-@pytest.mark.parametrize("bad,code", [
-    (dict(LOAN, kind=""), "LEX_NONE_NO_KIND"),
-    (dict(LOAN, oi_nom="Seán"), "LEX_NONE_HAS_FORM"),
-    (dict(ATTESTED, stem="irregular", oi_gen=""), "LEX_IRREGULAR_NO_GEN"),
-])
+@pytest.mark.parametrize(
+    "bad,code",
+    [
+        (dict(LOAN, kind=""), "LEX_NONE_NO_KIND"),
+        (dict(LOAN, oi_nom="Seán"), "LEX_NONE_HAS_FORM"),
+        (dict(ATTESTED, stem="irregular", oi_gen=""), "LEX_IRREGULAR_NO_GEN"),
+    ],
+)
 def test_the_three_former_task3_gaps_are_errors(tmp_path, bad, code):
     """R3a: these were warnings while the harvest was a Task 3 backlog (29, 1 and 11 rows);
     Task 3 closed it and promoted all three to `error`."""
@@ -164,4 +209,4 @@ def test_the_committed_lexicon_is_the_harvested_one():
     assert sum(r.status in FORM_STATUSES for r in FILE_ROWS) >= 260
     assert sum(r.status == "none" for r in FILE_ROWS) >= 25
     assert sum(bool(r.oi_gen) for r in FILE_ROWS) >= 160
-    assert len({key(r.orthography) for r in FILE_ROWS}) == len(FILE_ROWS)   # O-19: no dups
+    assert len({key(r.orthography) for r in FILE_ROWS}) == len(FILE_ROWS)  # O-19: no dups

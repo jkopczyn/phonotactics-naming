@@ -1,4 +1,5 @@
 """Tasks 8-11: `rules/old-irish.rules` as data (spec §4, §6, §11; digest §10)."""
+
 import pytest
 from helpers import ROOT, TABLE, target, w
 
@@ -13,8 +14,8 @@ def test_the_file_parses_and_check_reports_no_errors():
 
 
 def test_meta_declares_the_keys_the_pipeline_and_spelled_module_read():
-    assert OI.meta["strand"] == "old-irish"          # O-9: the dispatch key
-    assert OI.meta["grammar"] == "graphemes"         # O-10 / Task 7's parser mode
+    assert OI.meta["strand"] == "old-irish"  # O-9: the dispatch key
+    assert OI.meta["grammar"] == "graphemes"  # O-10 / Task 7's parser mode
     assert OI.meta["orthography"].endswith("old-irish-orthography.tsv")
     assert OI.meta.get("punctum", "on") in ("on", "off")
 
@@ -23,7 +24,7 @@ def test_the_quality_pairs_are_declared_explicitly_and_completely():
     """spec §11: an EXPLICIT mapping, never derived positionally (GPT #2 measured draft 1's
     positional derivation as 20-vs-19 with `w` unpaired)."""
     pairs = dict(p.split(":") for p in OI.meta["quality-pairs"].split())
-    assert pairs["w"] == "-"                          # no partner, stated as such
+    assert pairs["w"] == "-"  # no partner, stated as such
     for broad, slender in pairs.items():
         assert broad in OI.classes["BROAD"] or broad in ("h",), broad
         assert slender in OI.classes["SLEN"] or slender in ("-", "h"), slender
@@ -34,8 +35,10 @@ def test_this_strand_declares_no_epithet_slots():
     assert "epithet-ADJ" not in OI.meta and "epithet-NOUN" not in OI.meta
 
 
-@pytest.mark.parametrize("segment", ["β", "βʲ", "β̃", "β̃ʲ", "ð", "ðʲ", "θ", "θʲ", "x", "ç",
-                                     "ɣ", "ɣʲ", "sˠ", "ʃ", "fˠ", "fʲ", "h"])
+@pytest.mark.parametrize(
+    "segment",
+    ["β", "βʲ", "β̃", "β̃ʲ", "ð", "ðʲ", "θ", "θʲ", "x", "ç", "ɣ", "ɣʲ", "sˠ", "ʃ", "fˠ", "fʲ", "h"],
+)
 def test_the_lenited_series_and_the_lenition_products_are_in_the_inventory(segment):
     assert segment in OI.inventory
 
@@ -69,10 +72,17 @@ def test_the_quality_classes_are_declared_not_derived():
 def test_every_rule_line_everywhere_carries_a_citation():
     """R32: draft 1 iterated only `OI.sections`, so [mutations], [inflect] and [templates]
     — separate RuleFile fields — were entirely unchecked."""
+
     def cited(comment):
         c = (comment or "").strip()
-        return (c.startswith(("digest", "[", "design:")) or "digest §10" in c
-                or "pokorny1914" in c or "strachan1909" in c or "wiki-old-irish" in c)
+        return (
+            c.startswith(("digest", "[", "design:"))
+            or "digest §10" in c
+            or "pokorny1914" in c
+            or "strachan1909" in c
+            or "wiki-old-irish" in c
+        )
+
     bad = [(s, r.line) for s, rules in OI.sections.items() for r in rules if not cited(r.comment)]
     for name, rules in {**OI.grapheme_mutations, **OI.grapheme_inflect}.items():
         bad += [(name, r.line) for r in rules if not cited(r.comment)]
@@ -102,14 +112,17 @@ def retro(ipa, orthography=""):
     return substitute_stage(word, OI, TABLE).segments
 
 
-@pytest.mark.parametrize("orthography,ipa,index,expected", [
-    ("dubh",   "d̪ˠʊw",   -1, "β"),      # dubh ~ dub
-    ("sliabh", "ʃlʲiəw",  -1, "β"),      # sliabh ~ slíab
-    ("lámh",   "l̪ˠaːw",  -1, "β̃"),      # lámh ~ lám
-    ("adharc", "əiɾˠk",   None, None),   # adharc ~ adarc (see the next test)
-    ("cloch",  "kl̪ˠɔx",  -1, "x"),      # cloch ~ cloch
-    ("bláth",  "bˠl̪ˠaː", None, None),
-])
+@pytest.mark.parametrize(
+    "orthography,ipa,index,expected",
+    [
+        ("dubh", "d̪ˠʊw", -1, "β"),  # dubh ~ dub
+        ("sliabh", "ʃlʲiəw", -1, "β"),  # sliabh ~ slíab
+        ("lámh", "l̪ˠaːw", -1, "β̃"),  # lámh ~ lám
+        ("adharc", "əiɾˠk", None, None),  # adharc ~ adarc (see the next test)
+        ("cloch", "kl̪ˠɔx", -1, "x"),  # cloch ~ cloch
+        ("bláth", "bˠl̪ˠaː", None, None),
+    ],
+)
 def test_the_lenition_digraphs_map_to_the_lenited_series(orthography, ipa, index, expected):
     """R18: every fixture is an `attested` lexicon row. Log finding 3: ~49 pairs."""
     if expected is None:
@@ -134,14 +147,14 @@ def test_the_reversal_keeps_vowel_length():
 
 def test_the_quality_digraph_class_deletes_the_glide_and_keeps_the_sound():
     """Log finding 2, 50 pairs — the largest class, and invisible to any sound-based rule."""
-    assert retro("bʲanˠ", "bean")[1] == "e"          # bean ~ ben
-    assert retro("dʲaɾˠəɡ", "dearg")[1] == "e"       # dearg ~ derg
-    assert retro("fʲɪn̪ˠ", "fionn")[1] == "i"        # Fionn ~ Finn
+    assert retro("bʲanˠ", "bean")[1] == "e"  # bean ~ ben
+    assert retro("dʲaɾˠəɡ", "dearg")[1] == "e"  # dearg ~ derg
+    assert retro("fʲɪn̪ˠ", "fionn")[1] == "i"  # Fionn ~ Finn
 
 
 def test_modern_ao_becomes_the_two_segment_digraph():
     """R13: a single `aː` is unwritable as ⟨áe⟩. O-13 / spec §8 row O1."""
-    assert retro("iːnˠ", "aon")[:2] == ("a", "i")    # aon ~ óen/áen
+    assert retro("iːnˠ", "aon")[:2] == ("a", "i")  # aon ~ óen/áen
 
 
 def test_ua_and_ia_lengthen_the_first_element_only():
@@ -165,15 +178,18 @@ def test_an_unaligned_word_still_loses_its_epenthesis_and_stays_in_inventory():
     assert set(out) <= set(OI.inventory) and "ə" not in out and "ɔ" not in out
 
 
-@pytest.mark.parametrize("orthography,ipa,expected", [
-    # -ach/-as endings: the vowel is lexical and Old Irish writes it (*baccach*, *dúalgas*).
-    ("Matánach", "ˈmˠat̪ˠɑːnˠəx", ("mˠ", "a", "t̪ˠ", "aː", "n̪ˠ", "ə", "x")),
-    ("Gaelach", "ˈɡeːlˠəx", ("ɡ", "eː", "l̪ˠ", "ə", "x")),
-    # a SHORT vowel before ⟨l⟩ — only the C2 test keeps this one: /x/ is not on the grid.
-    ("carrbhealach", "ˈkaːɾˠvʲalˠəx", ("k", "aː", "ɾˠ", "βʲ", "a", "l̪ˠ", "ə", "x")),
-    # /m/ is no §2.4 C1 and /s/ no §2.4 C2.
-    ("Séamus", "ˈʃeːmˠəsˠ", ("ʃ", "eː", "mˠ", "ə", "sˠ")),
-])
+@pytest.mark.parametrize(
+    "orthography,ipa,expected",
+    [
+        # -ach/-as endings: the vowel is lexical and Old Irish writes it (*baccach*, *dúalgas*).
+        ("Matánach", "ˈmˠat̪ˠɑːnˠəx", ("mˠ", "a", "t̪ˠ", "aː", "n̪ˠ", "ə", "x")),
+        ("Gaelach", "ˈɡeːlˠəx", ("ɡ", "eː", "l̪ˠ", "ə", "x")),
+        # a SHORT vowel before ⟨l⟩ — only the C2 test keeps this one: /x/ is not on the grid.
+        ("carrbhealach", "ˈkaːɾˠvʲalˠəx", ("k", "aː", "ɾˠ", "βʲ", "a", "l̪ˠ", "ə", "x")),
+        # /m/ is no §2.4 C1 and /s/ no §2.4 C2.
+        ("Séamus", "ˈʃeːmˠəsˠ", ("ʃ", "eː", "mˠ", "ə", "sˠ")),
+    ],
+)
 def test_a_lexical_unstressed_vowel_is_not_deleted_as_epenthesis(orthography, ipa, expected):
     """Digest §2.4 is a GRID, not `SONORANT _ C`: C1 is {l r n} (never /m/), C2 is labial or
     dorsal and never a voiceless stop, and a long vowel before C1 blocks epenthesis outright
@@ -182,22 +198,31 @@ def test_a_lexical_unstressed_vowel_is_not_deleted_as_epenthesis(orthography, ip
     assert retro(ipa) == expected
 
 
-@pytest.mark.parametrize("ipa,expected", [
-    ("ˈɡɔɾˠəmˠ", ("ɡ", "o", "ɾˠ", "mˠ")),                  # ⟨r⟩ + /m/, the worked example
-    ("ˈfʲaɾˠəɡ", ("fʲ", "a", "ɾˠ", "ɡ")),                  # ⟨r⟩ + /g/
-    ("ˈbˠɔɾˠəbˠ", ("bˠ", "o", "ɾˠ", "bˠ")),                # ⟨r⟩ + /b/
-    ("ˈɟal̪ˠəwən̪ˠ", ("ɟ", "a", "l̪ˠ", "β", "ə", "n̪ˠ")),      # ⟨l⟩ + /w/; the SECOND ə is lexical
-    ("ˈanʲəmʲ", ("a", "nʲ", "mʲ")),                        # ⟨n⟩ + /mʲ/
-])
+@pytest.mark.parametrize(
+    "ipa,expected",
+    [
+        ("ˈɡɔɾˠəmˠ", ("ɡ", "o", "ɾˠ", "mˠ")),  # ⟨r⟩ + /m/, the worked example
+        ("ˈfʲaɾˠəɡ", ("fʲ", "a", "ɾˠ", "ɡ")),  # ⟨r⟩ + /g/
+        ("ˈbˠɔɾˠəbˠ", ("bˠ", "o", "ɾˠ", "bˠ")),  # ⟨r⟩ + /b/
+        ("ˈɟal̪ˠəwən̪ˠ", ("ɟ", "a", "l̪ˠ", "β", "ə", "n̪ˠ")),  # ⟨l⟩ + /w/; the SECOND ə is lexical
+        ("ˈanʲəmʲ", ("a", "nʲ", "mʲ")),  # ⟨n⟩ + /mʲ/
+    ],
+)
 def test_the_grid_epenthesis_is_still_deleted_by_sound_alone(ipa, expected):
     """O-7/O-15: the narrowed rule must keep firing on every §2.4 environment, untagged."""
     assert retro(ipa) == expected
 
 
-@pytest.mark.parametrize("orthography,ipa", [
-    ("athair", "ˈahəɾʲ"), ("máthair", "ˈmˠaːhəɾʲ"), ("bráthair", "ˈbˠɾˠaːhəɾʲ"),
-    ("arán", "əˈɾˠaːnˠ"), ("Colmán", "ˈkɔl̪ˠəmˠaːnˠ"),
-])
+@pytest.mark.parametrize(
+    "orthography,ipa",
+    [
+        ("athair", "ˈahəɾʲ"),
+        ("máthair", "ˈmˠaːhəɾʲ"),
+        ("bráthair", "ˈbˠɾˠaːhəɾʲ"),
+        ("arán", "əˈɾˠaːnˠ"),
+        ("Colmán", "ˈkɔl̪ˠəmˠaːnˠ"),
+    ],
+)
 def test_the_invariant_classes_are_left_alone(orthography, ipa):
     """S19 / log finding 4: the r-stem kinship set and the ⟨-án⟩ diminutive are
     spelling-invariant across both stages — the best 'does the filter over-apply' cases."""
@@ -244,7 +269,17 @@ def test_the_syllable_spec_is_permissive_and_word_domain():
 def test_the_nuclei_are_the_wiki_old_irish_values_plus_the_two_modern_pass_throughs():
     """O-28 / R19."""
     assert {"".join(n) for n in OI.syllable.nuclei} == {
-        "ai", "oi", "ui", "au", "eu", "iu", "ia", "ua", "əi", "əu"}
+        "ai",
+        "oi",
+        "ui",
+        "au",
+        "eu",
+        "iu",
+        "ia",
+        "ua",
+        "əi",
+        "əu",
+    }
 
 
 def test_a_diphthong_is_one_syllable():
@@ -312,14 +347,17 @@ def test_non_initial_voiceless_stops_are_doubled_and_voiced_ones_are_written_c_t
     assert spell("bˠ", "ɾˠ", "o", "d̪ˠ") == "brot"
 
 
-@pytest.mark.parametrize("segments,expected", [
-    (("ʃ", "c", "eː", "l̪ˠ"), "scél"),                       # [old-irish-lexicon] scéal ~ scél
-    (("sˠ", "pˠ", "l̪ˠ", "a", "n̪ˠ", "ɡ"), "splanc"),
-    (("sˠ", "pʲ", "e", "l̪ˠ"), "spel"),
-    (("ʃ", "pʲ", "ɾʲ", "iː"), "sprí"),
-    (("ʃ", "tʲ", "ɾʲ", "iː", "k"), "strícc"),               # final /k/ IS post-vocalic
-    (("tʲ", "ɾʲ", "e", "x", "t̪ˠ", "a"), "trechta"),         # /t/ after /x/, not after a vowel
-])
+@pytest.mark.parametrize(
+    "segments,expected",
+    [
+        (("ʃ", "c", "eː", "l̪ˠ"), "scél"),  # [old-irish-lexicon] scéal ~ scél
+        (("sˠ", "pˠ", "l̪ˠ", "a", "n̪ˠ", "ɡ"), "splanc"),
+        (("sˠ", "pʲ", "e", "l̪ˠ"), "spel"),
+        (("ʃ", "pʲ", "ɾʲ", "iː"), "sprí"),
+        (("ʃ", "tʲ", "ɾʲ", "iː", "k"), "strícc"),  # final /k/ IS post-vocalic
+        (("tʲ", "ɾʲ", "e", "x", "t̪ˠ", "a"), "trechta"),  # /t/ after /x/, not after a vowel
+    ],
+)
 def test_a_voiceless_stop_is_not_doubled_after_a_consonant(segments, expected):
     """Digest §10.2 conv. 2 is the wiki's §Stops following VOWELS: ⟨c t p⟩ read as /ɡ d b/
     only between vowels, so only there does the doubling have work to do. After ⟨s⟩ (and any
@@ -351,23 +389,30 @@ def test_a_stop_after_a_sonorant_is_written_single_and_keeps_its_voice():
 
 
 def test_the_eight_diphthongs_and_the_ao_default():
-    for segments, expected in [(("a", "i"), "áe"), (("o", "i"), "oí"), (("u", "i"), "uí"),
-                               (("a", "u"), "áu"), (("e", "u"), "éu"), (("i", "u"), "íu"),
-                               (("i", "a"), "ía"), (("u", "a"), "úa")]:
+    for segments, expected in [
+        (("a", "i"), "áe"),
+        (("o", "i"), "oí"),
+        (("u", "i"), "uí"),
+        (("a", "u"), "áu"),
+        (("e", "u"), "éu"),
+        (("i", "u"), "íu"),
+        (("i", "a"), "ía"),
+        (("u", "a"), "úa"),
+    ]:
         assert spell(*segments) == expected
 
 
 def test_the_glide_i_marks_a_final_slender_consonant():
     """digest §10.2 conv. 5 §36."""
     assert spell("mˠ", "u", "ɾʲ") == "muir"
-    assert spell("k", "a", "ɾʲ", "tʲ") == "cairt"            # the whole final cluster
-    assert spell("bˠ", "ɾʲ", "i", "a", "nʲ") == "bríain"     # after ⟨ía⟩ (gen. *Bríain*)
+    assert spell("k", "a", "ɾʲ", "tʲ") == "cairt"  # the whole final cluster
+    assert spell("bˠ", "ɾʲ", "i", "a", "nʲ") == "bríain"  # after ⟨ía⟩ (gen. *Bríain*)
     # Medially, "at the end of a syllable" = before a consonant (conv. 5 (ii)); [syllable]
     # has `onsets = any`, so a `.`-based rule would never fire on a real medial cluster.
     word = syllabify(w("mˠuɾʲçeɾˠt̪ˠax"), OI, TABLE)
     assert respell(word, OI, TABLE) == "muirchertach"
     assert spell("a", "lʲ", "βʲ", "ə") == "ailbə"
-    assert spell("k", "a", "ɾʲ", "e") == "care"               # before a vowel letter: no glide
+    assert spell("k", "a", "ɾʲ", "e") == "care"  # before a vowel letter: no glide
 
 
 def test_no_glide_is_written_before_a_broad_consonant():
@@ -378,7 +423,7 @@ def test_the_glide_is_blocked_after_i_and_the_long_front_vowels_but_not_after_e(
     """S20: Pokorny's exception list is í, é, aí, oí, uí — not short ⟨e⟩."""
     assert spell("mˠ", "iː", "nʲ") == "mín"
     assert spell("eː", "nʲ") == "én"
-    assert spell("k", "a", "i", "lʲ") == "cáel"                # c + áe + l, no second i
+    assert spell("k", "a", "i", "lʲ") == "cáel"  # c + áe + l, no second i
     assert spell("k", "e", "lʲ") == "ceil"
 
 
@@ -404,6 +449,7 @@ def test_sonorant_geminates_are_written_doubled():
 def test_written_lenition_of_p_and_s_follows_the_source_spelling():
     """digest §10.2 conv. 1: ⟨ph⟩ where the source was ⟨ph⟩, else ⟨f⟩; ⟨ṡ⟩ where ⟨sh⟩."""
     from strands.orth import tag_word
+
     assert respell(tag_word(Word(segments=("a", "fˠ", "aː", "l̪ˠ")), "aphál"), OI, TABLE) == "aphál"
     assert spell("fʲ", "e", "ɾˠ") == "fer"
     assert respell(tag_word(Word(segments=("a", "h", "aː", "l̪ˠ")), "ashál"), OI, TABLE) == "aṡál"
@@ -413,10 +459,19 @@ def test_written_lenition_of_p_and_s_follows_the_source_spelling():
 def test_every_respell_output_is_tokenizable_as_a_spelled_word():
     """R27: draft 1's [respell] and reconstruction used different alphabets. This is the
     property that keeps them one system."""
-    for segments in [("d̪ˠ", "u", "β"), ("mˠ", "a", "k"), ("k", "l̪ˠ", "o", "x"),
-                     ("mˠ", "u", "ɾʲ"), ("dʲ", "iː", "ɣ", "ə", "l̪ˠ"), ("a", "i"),
-                     ("k", "a", "ɾˠ", "ə"), ("mˠ", "bˠ", "oː"), ("k", "o", "l̪ˠ", "l̪ˠ"),
-                     ("bʲ", "e", "ɡ"), ("dʲ", "lʲ", "i", "ɣʲ", "ə", "ðʲ")]:
+    for segments in [
+        ("d̪ˠ", "u", "β"),
+        ("mˠ", "a", "k"),
+        ("k", "l̪ˠ", "o", "x"),
+        ("mˠ", "u", "ɾʲ"),
+        ("dʲ", "iː", "ɣ", "ə", "l̪ˠ"),
+        ("a", "i"),
+        ("k", "a", "ɾˠ", "ə"),
+        ("mˠ", "bˠ", "oː"),
+        ("k", "o", "l̪ˠ", "l̪ˠ"),
+        ("bʲ", "e", "ɡ"),
+        ("dʲ", "lʲ", "i", "ɣʲ", "ə", "ðʲ"),
+    ]:
         text = spell(*segments)
         assert SpelledWord.from_spelling(text).render() == text, text
 

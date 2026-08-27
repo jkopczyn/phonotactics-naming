@@ -4,6 +4,7 @@ gallery). Multi-slot templates (ADJ, OF, COMPOUND, COLOUR) raise MissingSlot and
 construction the strand has no template for (Old Irish O-17: PATRO_* for old-irish, the
 eight formations for the other four) raises ConstructionNotInStrand; both are skipped,
 exactly as `strands run` skips them."""
+
 import functools
 
 import pytest
@@ -44,8 +45,11 @@ def _results(name, construction):
 @pytest.mark.parametrize("name,construction", CASES)
 def test_determinism_across_two_runs(name, construction):
     for i, row in enumerate(ROWS):
-        assert _first(name, construction, i) == _run(name, construction, i), \
-            (name, construction, row["orthography"])
+        assert _first(name, construction, i) == _run(name, construction, i), (
+            name,
+            construction,
+            row["orthography"],
+        )
 
 
 @pytest.mark.parametrize("name,construction", CASES)
@@ -53,16 +57,22 @@ def test_every_output_segment_is_in_the_target_inventory(name, construction):
     inventory = set(RF[name].inventory)
     for row, result in _results(name, construction):
         for word in result.words:
-            assert set(word.segments) <= inventory, \
-                (name, construction, row["orthography"], word.segments)
+            assert set(word.segments) <= inventory, (
+                name,
+                construction,
+                row["orthography"],
+                word.segments,
+            )
 
 
 def test_no_unrepaired_outside_the_allow_file():
     allowed = read_allow_file()
-    bad = [(name, construction, row["orthography"])
-           for name, construction in CASES
-           for row, result in _results(name, construction)
-           if "UNREPAIRED" in result.flags and (name, row["orthography"]) not in allowed]
+    bad = [
+        (name, construction, row["orthography"])
+        for name, construction in CASES
+        for row, result in _results(name, construction)
+        if "UNREPAIRED" in result.flags and (name, row["orthography"]) not in allowed
+    ]
     assert bad == [], bad
 
 
@@ -71,8 +81,7 @@ def test_every_word_gets_exactly_one_primary_stress(name, construction):
     for row, result in _results(name, construction):
         for word in result.words:
             assert word.stress is not None, (name, construction, row["orthography"])
-            assert 0 <= word.stress < len(word.syllables), \
-                (name, construction, row["orthography"])
+            assert 0 <= word.stress < len(word.syllables), (name, construction, row["orthography"])
 
 
 @pytest.mark.parametrize("name", TARGETS)
@@ -84,12 +93,14 @@ def test_every_single_entry_construction_is_covered():
     """The multi-slot templates are the only ones skipped for every entry in EVERY strand
     (a strand-less construction — PATRO_* for old-irish, the formations elsewhere — is
     built by the strands that have it, Old Irish O-17)."""
-    skipped = {c for c in CONSTRUCTIONS
-               if not any(True for name in TARGETS for _ in _results(name, c))}
+    skipped = {
+        c for c in CONSTRUCTIONS if not any(True for name in TARGETS for _ in _results(name, c))
+    }
     assert skipped == {"ADJ", "OF", "COMPOUND", "COLOUR"}, skipped
 
 
 # ---- lenition /h/ is not a dorsal fricative in any target -------------------------------
+
 
 @pytest.mark.parametrize("orthography", ["theach", "shúil"])
 @pytest.mark.parametrize("name", TARGETS)
@@ -108,20 +119,27 @@ def test_initial_lenition_h_never_surfaces_as_a_dorsal_fricative(name, orthograp
 
 # ---- Old Irish (plan Task 18; spec §7, §11) -------------------------------------------------
 
+
 def test_every_old_irish_output_carries_exactly_one_lookup_flag():
     from strands.oldirish import OI_FLAGS
+
     for row, result in _results("old-irish", "DESC"):
-        assert len([f for f in result.flags if f in OI_FLAGS]) == 1, \
-            (row["orthography"], result.flags)
+        assert len([f for f in result.flags if f in OI_FLAGS]) == 1, (
+            row["orthography"],
+            result.flags,
+        )
 
 
 def test_every_old_irish_respelling_reconstructs_to_its_reported_ipa():
     """spec §6, §11 / O-11: the IPA is derived FROM the finished written form. This is the
     property that keeps [respell] and the grapheme table one system."""
     from strands.spelled import SpelledWord, spelling_to_ipa
+
     for row, result in _results("old-irish", "DESC"):
-        rebuilt = " ".join("".join(spelling_to_ipa(SpelledWord.from_spelling(p)))
-                           for p in result.respelling.split(" "))
+        rebuilt = " ".join(
+            "".join(spelling_to_ipa(SpelledWord.from_spelling(p)))
+            for p in result.respelling.split(" ")
+        )
         assert rebuilt == result.ipa, (row["orthography"], result.respelling)
 
 
@@ -129,8 +147,10 @@ def test_no_old_irish_output_uses_a_modern_lenition_digraph():
     """digest §10.2 conv. 1: there is no ⟨bh dh gh mh⟩ in Old Irish."""
     for row, result in _results("old-irish", "DESC"):
         low = result.respelling.lower()
-        assert not any(d in low for d in ("bh", "dh", "gh", "mh")), \
-            (row["orthography"], result.respelling)
+        assert not any(d in low for d in ("bh", "dh", "gh", "mh")), (
+            row["orthography"],
+            result.respelling,
+        )
 
 
 def test_no_finished_old_irish_output_still_carries_the_ending_marker():

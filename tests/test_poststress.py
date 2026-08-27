@@ -1,4 +1,5 @@
 """Plan Task 16: the `[post-stress]` stage (spec §4.5 — rules that depend on stress)."""
+
 from helpers import TABLE, w
 
 from strands.dsl import parse_rules
@@ -6,8 +7,10 @@ from strands.poststress import post_stress
 from strands.stress import assign_stress
 from strands.syllabify import syllabify
 
-BASE = ("[inventory]\np t s k a aː i\n[syllable]\ntemplate = (C)(C)N(C)\nonsets = p t s k sk\n"
-        "codas = p t s k\nsonority = off\n[stress]\nprocedure = penult\n")
+BASE = (
+    "[inventory]\np t s k a aː i\n[syllable]\ntemplate = (C)(C)N(C)\nonsets = p t s k sk\n"
+    "codas = p t s k\nsonority = off\n[stress]\nprocedure = penult\n"
+)
 
 
 def stressed(ipa: str, rf):
@@ -52,8 +55,9 @@ def test_count_preserving_rule_does_not_resyllabify():
 
 
 def test_rules_apply_in_file_order_each_seeing_the_previous_output():
-    rf = parse_rules(BASE + "[post-stress]\na -> aː / ˈ C _   %design\n"
-                     "aː -> i / _ t   %design\n", TABLE)
+    rf = parse_rules(
+        BASE + "[post-stress]\na -> aː / ˈ C _   %design\naː -> i / _ t   %design\n", TABLE
+    )
     out = post_stress(stressed("pata", rf), rf, TABLE)
     assert out.segments == ("p", "i", "t", "a")
 
@@ -73,8 +77,9 @@ def test_non_matching_rules_leave_the_word_identical():
 def test_net_zero_length_change_still_resyllabifies():
     """review-stress-irish fix 1: an insertion plus a deletion leaves the count unchanged
     overall, but each rule changed it, so the stale one-syllable parse must be redone."""
-    rf = parse_rules(BASE + "[post-stress]\n0 -> i / # _ p   %design\nt -> 0 / _ #   %design\n",
-                     TABLE)
+    rf = parse_rules(
+        BASE + "[post-stress]\n0 -> i / # _ p   %design\nt -> 0 / _ #   %design\n", TABLE
+    )
     out = post_stress(stressed("pat", rf), rf, TABLE)
     assert out.segments == ("i", "p", "a")
     assert out.syllables == (0, 1) and out.stress == 1 and out.ipa() == "i.ˈpa"

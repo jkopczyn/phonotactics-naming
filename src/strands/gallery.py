@@ -12,6 +12,7 @@ Spec §12.J: the five pre-existing strand-4 names are CANON INPUTS. `reference_r
 them verbatim from `REFERENCE_NAMES`; nothing in this module tokenizes, adapts or otherwise
 touches them.
 """
+
 from __future__ import annotations
 
 from collections.abc import Sequence
@@ -24,8 +25,16 @@ from .lexicon import LexEntry, key, read_lexicon
 from .pipeline import ConstructionNotInStrand, PipelineError, Result, run_entry
 from .tokenize import SegmentError
 
-__all__ = ["REFERENCE_NAMES", "FORMATION_TEMPLATES", "FORMATION_ELEMENTS", "FORMATION_NAMES",
-           "reference_row", "render_cell", "render_gallery", "formation_block"]
+__all__ = [
+    "REFERENCE_NAMES",
+    "FORMATION_TEMPLATES",
+    "FORMATION_ELEMENTS",
+    "FORMATION_NAMES",
+    "reference_row",
+    "render_cell",
+    "render_gallery",
+    "formation_block",
+]
 
 REFERENCE_NAMES = ("Tchaeul", "Th'tysh", "Kas'queil", "Xelxyx", "Ysclyth")
 """The five pre-existing strand-4 names (notes/project-goals.md). Spec §12.J: they are
@@ -70,8 +79,14 @@ def render_cell(result: Result | None) -> str:
     return _md(" ".join(parts))
 
 
-def run_cell(entry: Entry, construction: str, irish: RuleFile, target: RuleFile,
-             table: FeatureTable, slots: dict[str, Entry] | None = None) -> Result | None:
+def run_cell(
+    entry: Entry,
+    construction: str,
+    irish: RuleFile,
+    target: RuleFile,
+    table: FeatureTable,
+    slots: dict[str, Entry] | None = None,
+) -> Result | None:
     """`run_entry`, or None when the entry has no IPA, the template needs a slot the
     entry cannot fill, or the strand has no template of that name (the skips `strands run`
     reports as notes; Old Irish O-17)."""
@@ -79,42 +94,58 @@ def run_cell(entry: Entry, construction: str, irish: RuleFile, target: RuleFile,
         return None
     try:
         return run_entry(entry, construction, irish, target, table, slots)
-    except (MissingSlot, ConstructionNotInStrand):     # Old Irish O-17
+    except (MissingSlot, ConstructionNotInStrand):  # Old Irish O-17
         return None
     except SegmentError as e:
         raise SegmentError(f"{entry.orthography} [{construction}]: {e}") from e
 
 
-def _element_entry(lexicon: dict[str, LexEntry], name: str, irish: RuleFile,
-                   table: FeatureTable) -> tuple[LexEntry, Entry]:
+def _element_entry(
+    lexicon: dict[str, LexEntry], name: str, irish: RuleFile, table: FeatureTable
+) -> tuple[LexEntry, Entry]:
     """The lexicon row for a modern key and an `Entry` built from its `orthography` with a
     G2P transcription, tagged `ipa:constructed` (the elements are not test-words rows)."""
     from .inputs import construct_ipa, infer
+
     row = lexicon.get(key(name))
     if row is None:
         raise PipelineError(f"old-irish-lexicon: no row for the formation element {name!r}")
     ipa, tags = construct_ipa(row.orthography, "C")
-    entry = Entry(orthography=row.orthography, ipa=ipa, dialect="C",
-                  gender=row.gender or "m", assumptions=tags)
+    entry = Entry(
+        orthography=row.orthography,
+        ipa=ipa,
+        dialect="C",
+        gender=row.gender or "m",
+        assumptions=tags,
+    )
     return row, infer(entry, irish, table)
 
 
-def formation_block(irish: RuleFile, target: RuleFile, table: FeatureTable,
-                    lexicon: dict[str, LexEntry] | None = None) -> list[str]:
+def formation_block(
+    irish: RuleFile,
+    target: RuleFile,
+    table: FeatureTable,
+    lexicon: dict[str, LexEntry] | None = None,
+) -> list[str]:
     """Markdown lines for the Old Irish formation block (spec §7): the element rows through
     lookup (DESC, GEN), then the eight formation templates over the governed names. Every
     cell is `render_cell` output, so the lookup flags show as in the main tables."""
     lexicon = read_lexicon() if lexicon is None else lexicon
-    lines = ["## Old Irish formations", "",
-             "The eight formation templates (spec §8 row O6) over lexicon ELEMENT rows; each "
-             "element's IPA is constructed by the G2P (`ipa:constructed`). A whole-name row "
-             "(*Máel Coluim*) returns ATTESTED in one piece and never exercises a template. "
-             "The governed names are the element rows Task 3 could cite (*Colum*, *Pátraic*, "
-             "*Culann*); *Fer Diad*'s *Diad* and *Dubthach*'s *-thach* have none "
-             "(old-irish-lexicon-log), so FER and COLOUR run over the same three. A "
-             "lower-case lexicon element (*dub*, *macc*, *aue*, *ingen*) stays lower-case "
-             "(O-32).", "",
-             "| element | Old Irish | DESC | GEN |", "|---|---|---|---|"]
+    lines = [
+        "## Old Irish formations",
+        "",
+        "The eight formation templates (spec §8 row O6) over lexicon ELEMENT rows; each "
+        "element's IPA is constructed by the G2P (`ipa:constructed`). A whole-name row "
+        "(*Máel Coluim*) returns ATTESTED in one piece and never exercises a template. "
+        "The governed names are the element rows Task 3 could cite (*Colum*, *Pátraic*, "
+        "*Culann*); *Fer Diad*'s *Diad* and *Dubthach*'s *-thach* have none "
+        "(old-irish-lexicon-log), so FER and COLOUR run over the same three. A "
+        "lower-case lexicon element (*dub*, *macc*, *aue*, *ingen*) stays lower-case "
+        "(O-32).",
+        "",
+        "| element | Old Irish | DESC | GEN |",
+        "|---|---|---|---|",
+    ]
     for name in FORMATION_ELEMENTS + FORMATION_NAMES:
         row, entry = _element_entry(lexicon, name, irish, table)
         cells = [render_cell(run_cell(entry, c, irish, target, table)) for c in ("DESC", "GEN")]
@@ -134,14 +165,18 @@ def formation_block(irish: RuleFile, target: RuleFile, table: FeatureTable,
     return lines
 
 
-def render_gallery(entries: Sequence[Entry], targets: Sequence[tuple[str, RuleFile]],
-                   constructions: Sequence[str], table: FeatureTable, *,
-                   irish: RuleFile) -> str:
+def render_gallery(
+    entries: Sequence[Entry],
+    targets: Sequence[tuple[str, RuleFile]],
+    constructions: Sequence[str],
+    table: FeatureTable,
+    *,
+    irish: RuleFile,
+) -> str:
     """Markdown: a reference table (canon names) then one table per entry. `targets` are
     `(name, rule_file)` pairs in the column order wanted."""
     names = [name for name, _ in targets]
-    lines = ["# Strand gallery", "",
-             "| | names |", "|---|---|", reference_row(), ""]
+    lines = ["# Strand gallery", "", "| | names |", "|---|---|", reference_row(), ""]
     for entry in entries:
         title = _md(entry.orthography)
         if entry.gloss:
@@ -157,13 +192,14 @@ def render_gallery(entries: Sequence[Entry], targets: Sequence[tuple[str, RuleFi
         lines.append("| construction | " + " | ".join(names) + " |")
         lines.append("|---|" + "---|" * len(names))
         for construction in constructions:
-            cells = [render_cell(run_cell(entry, construction, irish, rf, table))
-                     for _, rf in targets]
+            cells = [
+                render_cell(run_cell(entry, construction, irish, rf, table)) for _, rf in targets
+            ]
             if all(cell == SKIPPED for cell in cells):
                 continue
             lines.append(f"| {construction} | " + " | ".join(cells) + " |")
         lines.append("")
     for name, rf in targets:
-        if name == "old-irish":                                 # spec §7: the formation block
+        if name == "old-irish":  # spec §7: the formation block
             lines.extend(formation_block(irish, rf, table))
     return "\n".join(lines).rstrip("\n") + "\n"

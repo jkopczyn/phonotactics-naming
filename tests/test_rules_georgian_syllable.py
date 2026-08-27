@@ -2,6 +2,7 @@
 spec §12.B/D/E). Written before the rule block (spec §12.I). The full-pipeline tests of the
 common set live here rather than in Task 23a's file because they need a real `[syllable]`.
 """
+
 import subprocess
 import sys
 
@@ -29,12 +30,36 @@ def cl(ipa: str) -> tuple[str, ...]:
 # table (62) p.110). Her notation -> IPA per §2.0: t = tʰ, p = pʰ, k = kʰ, c = ts (the chart's
 # spelling, features.tsv has no tsʰ row), č = tʃʰ, j = dz, ǰ = dʒ, γ = ɣ, χ' = qʼ.
 HARMONIC = [
-    "bɡ", "dɡ", "dzɡ", "dʒɡ",                    # voiced + velar stop
-    "pʰkʰ", "tʰkʰ", "tskʰ", "tʃʰkʰ", "skʰ", "ʃkʰ",  # aspirated + velar stop
-    "pʼkʼ", "tʼkʼ", "tsʼkʼ", "tʃʼkʼ",             # ejective + velar stop
-    "bɣ", "dɣ", "dzɣ", "dʒɣ", "zɣ", "ʒɣ",         # voiced + dorsal fricative
-    "pʰx", "tʰx", "tsx", "tʃʰx", "sx", "ʃx",       # aspirated + dorsal fricative
-    "pʼqʼ", "tʼqʼ", "tsʼqʼ", "tʃʼqʼ",             # ejective + uvular
+    "bɡ",
+    "dɡ",
+    "dzɡ",
+    "dʒɡ",  # voiced + velar stop
+    "pʰkʰ",
+    "tʰkʰ",
+    "tskʰ",
+    "tʃʰkʰ",
+    "skʰ",
+    "ʃkʰ",  # aspirated + velar stop
+    "pʼkʼ",
+    "tʼkʼ",
+    "tsʼkʼ",
+    "tʃʼkʼ",  # ejective + velar stop
+    "bɣ",
+    "dɣ",
+    "dzɣ",
+    "dʒɣ",
+    "zɣ",
+    "ʒɣ",  # voiced + dorsal fricative
+    "pʰx",
+    "tʰx",
+    "tsx",
+    "tʃʰx",
+    "sx",
+    "ʃx",  # aspirated + dorsal fricative
+    "pʼqʼ",
+    "tʼqʼ",
+    "tsʼqʼ",
+    "tʃʼqʼ",  # ejective + uvular
 ]
 
 
@@ -55,18 +80,27 @@ def test_zg_and_zhg_are_excluded_deliberately():
 
 # ---- Appendix 2 / Appendix 3 extraction (digest §2.3, §2.5; R29) --------------------------------
 
+
 def _script_output(*flags: str) -> str:
     return subprocess.run(
-        [sys.executable, str(ROOT / "rules" / "extract_georgian_clusters.py"),
-         str(ROOT / "sources" / "georgian" / "digest.md"), *flags],
-        capture_output=True, text=True, check=True).stdout
+        [
+            sys.executable,
+            str(ROOT / "rules" / "extract_georgian_clusters.py"),
+            str(ROOT / "sources" / "georgian" / "digest.md"),
+            *flags,
+        ],
+        capture_output=True,
+        text=True,
+        check=True,
+    ).stdout
 
 
 def test_appendix_2_extraction_is_reproducible():
     """The committed onset/coda lists contain everything the script extracts."""
     out = _script_output()
-    committed = {"".join(c) for c in TARGET.syllable.onsets} | \
-                {"".join(c) for c in TARGET.syllable.codas}
+    committed = {"".join(c) for c in TARGET.syllable.onsets} | {
+        "".join(c) for c in TARGET.syllable.codas
+    }
     assert set(out.split()) <= committed, sorted(set(out.split()) - committed)
 
 
@@ -77,9 +111,11 @@ def test_extraction_is_sectioned_and_the_onset_half_is_committed_as_onsets():
         kind, _, cluster = line.partition("\t")
         (onsets if kind == "onset" else codas).add(cluster)
     assert onsets <= {"".join(c) for c in TARGET.syllable.onsets}, sorted(
-        onsets - {"".join(c) for c in TARGET.syllable.onsets})
+        onsets - {"".join(c) for c in TARGET.syllable.onsets}
+    )
     assert codas <= {"".join(c) for c in TARGET.syllable.codas}, sorted(
-        codas - {"".join(c) for c in TARGET.syllable.codas})
+        codas - {"".join(c) for c in TARGET.syllable.codas}
+    )
     # digest §2.3 sizes: "~150 two-member, ~60 three-member, ~21 four-member, 1 five, 2 six"
     by_len = {}
     for c in onsets:
@@ -97,8 +133,23 @@ def test_extraction_excludes_the_never_attested_and_initial_only_sets_from_codas
     tb gd xd gǰ` only stem-initially."""
     out = _script_output("--sections")
     codas = {line.split("\t")[1] for line in out.splitlines() if line.startswith("coda")}
-    for c in ("zb", "xpʰ", "qʼpʼ", "ʒb", "rʒ", "lʒ", "lʃ", "ldz", "tʼb", "kʼb", "xb", "tʰb",
-              "ɡd", "xd", "ɡdʒ"):
+    for c in (
+        "zb",
+        "xpʰ",
+        "qʼpʼ",
+        "ʒb",
+        "rʒ",
+        "lʒ",
+        "lʃ",
+        "ldz",
+        "tʼb",
+        "kʼb",
+        "xb",
+        "tʰb",
+        "ɡd",
+        "xd",
+        "ɡdʒ",
+    ):
         assert c not in codas, c
 
 
@@ -107,7 +158,7 @@ def test_onsets_include_singletons():
     consonants = {s for s in TARGET.inventory if TABLE.value(s, "syllabic") == "-"}
     singles = {c[0] for c in TARGET.syllable.onsets if len(c) == 1}
     assert singles == consonants
-    assert ("k",) not in TARGET.syllable.onsets           # plain /k/ is not Georgian
+    assert ("k",) not in TARGET.syllable.onsets  # plain /k/ is not Georgian
     assert ("kʰ",) in TARGET.syllable.onsets and ("kʼ",) in TARGET.syllable.onsets
 
 
@@ -120,9 +171,9 @@ def test_codas_include_every_consonant_but_h():
 
 def test_stem_domain_is_used():
     assert TARGET.syllable.domain == "stem"
-    assert TARGET.syllable.template is None                # §2.1: no syllable template
-    assert TARGET.syllable.sonority is False               # §2.7 (I-13)
-    assert TARGET.syllable.nuclei == ()                    # §2.9 / spec §12.B hiatus
+    assert TARGET.syllable.template is None  # §2.1: no syllable template
+    assert TARGET.syllable.sonority is False  # §2.7 (I-13)
+    assert TARGET.syllable.nuclei == ()  # §2.9 / spec §12.B hiatus
 
 
 def test_h_is_barred_from_clusters():
@@ -153,9 +204,9 @@ def test_bans_are_checked_against_the_attested_loans():
     /bɛkʼɡraundi/ keeps /kʼɡ/; §7 *Beethoven, Stockholm* keep /tʰh kʼh/)."""
     for ipa in ("bɛkʼɡrɑundi", "bɛtʰhɔvɛni", "stʼɔkʼhɔlmi", "hɑmburɡi"):
         assert syllabify(w(ipa), TARGET, TABLE).illegal == frozenset(), ipa
-    assert syllabify(w("ɑrlnɑ"), TARGET, TABLE).illegal          # §2.7 three sonorants
-    assert syllabify(w("ɑdtsɑ"), TARGET, TABLE).illegal          # §2.6 p.86 *dc
-    assert syllabify(w("ɑtsʼsɑ"), TARGET, TABLE).illegal         # §2.6 p.86 *c's
+    assert syllabify(w("ɑrlnɑ"), TARGET, TABLE).illegal  # §2.7 three sonorants
+    assert syllabify(w("ɑdtsɑ"), TARGET, TABLE).illegal  # §2.6 p.86 *dc
+    assert syllabify(w("ɑtsʼsɑ"), TARGET, TABLE).illegal  # §2.6 p.86 *c's
 
 
 def test_coronal_ordering_ban():
@@ -175,10 +226,10 @@ def test_attested_loan_interludes_parse():
 # Geminates are repeated segments, never `ː` (I-2).
 GEORGIAN_REPAIRS = [
     ("tʼvitʼtʼɛri", "tʼvitʼɛri", "digest §3.6 line 989 (Twitter, attested.tsv row 4)"),
-    ("pʼazzli",     "pʼazli",    "digest line 948/989/1006 (puzzle, row 16)"),
-    ("ʃɔpʼpʼinɡi",  "ʃɔpʼinɡi",  "digest line 879/989 (shopping, row 18)"),
-    ("alɛɡɡoria",   "alɛɡoria",  "digest line 992 (native)"),
-    ("kʼllasi",     "kʼlasi",    "digest line 992 (native)"),
+    ("pʼazzli", "pʼazli", "digest line 948/989/1006 (puzzle, row 16)"),
+    ("ʃɔpʼpʼinɡi", "ʃɔpʼinɡi", "digest line 879/989 (shopping, row 18)"),
+    ("alɛɡɡoria", "alɛɡoria", "digest line 992 (native)"),
+    ("kʼllasi", "kʼlasi", "digest line 992 (native)"),
 ]
 
 
@@ -190,12 +241,19 @@ def test_repair_table(before, after, cite):
 
 def test_degemination_is_attested_and_exceptionless():
     """§3.6: every degemination line is %attested; every consonant but /h/ has one."""
-    rules = [r for r in TARGET.sections["repair"]
-             if len(r.target) == 2 and r.target[0].kind == "segment"
-             and r.target[0].value == r.target[1].value]
+    rules = [
+        r
+        for r in TARGET.sections["repair"]
+        if len(r.target) == 2
+        and r.target[0].kind == "segment"
+        and r.target[0].value == r.target[1].value
+    ]
     assert {r.target[0].value for r in rules} == {
-        s for s in TARGET.inventory if TABLE.value(s, "syllabic") == "-"} - {"h"}
-    assert all(r.tag == "attested" for r in rules), [r.rule_id for r in rules if r.tag != "attested"]
+        s for s in TARGET.inventory if TABLE.value(s, "syllabic") == "-"
+    } - {"h"}
+    assert all(r.tag == "attested" for r in rules), [
+        r.rule_id for r in rules if r.tag != "attested"
+    ]
 
 
 def test_cluster_repair_is_declined_rather_than_synthesised():
@@ -225,8 +283,10 @@ def test_the_temporary_syllable_block_from_23a_is_gone():
 
 # ---- the full-pipeline tests, moved here from 23a (fix 2): they need [syllable] -------------------
 
+
 def test_rule_file_parses_and_checks_clean():
     from strands.check import check_rule_file
+
     errs = [e for e in check_rule_file(TARGET, TABLE) if e.severity == "error"]
     assert errs == [], errs
 
@@ -238,7 +298,7 @@ def test_diphthongs_become_hiatus():
 
 def test_stress_is_initial_and_the_ipa_carries_no_mark():
     r = adapt([w("mˠat̪ˠaːnˠəx")], TARGET, TABLE)
-    assert r.words[0].stress == 0 and "ˈ" not in r.ipa       # §4.3, [stress] mark = off
+    assert r.words[0].stress == 0 and "ˈ" not in r.ipa  # §4.3, [stress] mark = off
 
 
 def test_common_noun_epithets_keep_the_nominative_i():
@@ -254,8 +314,11 @@ def test_mutation_output_segments_all_survive():
 
 
 def test_no_unrepaired_on_the_144_word_set():
-    bad = [row["orthography"] for row in read_test_words()
-           if "UNREPAIRED" in run_entry(entry_of(row), "DESC", IRISH, TARGET, TABLE).flags]
+    bad = [
+        row["orthography"]
+        for row in read_test_words()
+        if "UNREPAIRED" in run_entry(entry_of(row), "DESC", IRISH, TARGET, TABLE).flags
+    ]
     assert set(bad) <= read_allow_file_for("georgian"), sorted(bad)
 
 
@@ -275,13 +338,14 @@ def test_error_bucket_is_small():
 
 # ---- the Cʷ rule needs the Irish broad dorsals to reach it unchanged ---------------------
 
+
 def _desc(ortho, ipa):
     from strands.inputs import infer
+
     return run_entry(infer(Entry(ortho, ipa=ipa), IRISH, TABLE), "DESC", IRISH, TARGET, TABLE)
 
 
-@pytest.mark.parametrize("ortho,ipa", [("caoin", "kiːnʲ"), ("gaoth", "ɡiː"),
-                                       ("Ciara", "ˈkɪə.ɾˠə")])
+@pytest.mark.parametrize("ortho,ipa", [("caoin", "kiːnʲ"), ("gaoth", "ɡiː"), ("Ciara", "ˈkɪə.ɾˠə")])
 def test_a_broad_dorsal_before_a_front_vowel_gets_the_epenthetic_v(ortho, ipa):
     """`k ɡ` are broad by convention, so [normalize] leaves them plain and the Cʷ rule
     `0 -> v / [BROAD -labial] _ [V +front]` fires. Before the fix, [normalize] turned them
@@ -299,6 +363,7 @@ def test_a_broad_labial_before_a_front_vowel_does_not_get_v():
 
 # ---- owner decision 2026-08-25: Georgian keeps unattested clusters (digest §3.7) ---------------
 
+
 def _desc_by_ortho(ortho: str) -> list[str]:
     """Every test-words row with this orthography, run through DESC, as respellings."""
     rows = [r for r in read_test_words() if r["orthography"] == ortho]
@@ -309,8 +374,8 @@ def _desc_by_ortho(ortho: str) -> list[str]:
 # The owner's table (2026-08-25). Left: the words whose DESC output the decision changes;
 # the cluster is now kept (or the Cʷ overlay undone) instead of substituted.
 CHANGED = [
-    ("naomh", {"niv"}),          # nv -> the overlay v is undone, not repaired to dv
-    ("ndroim", {"nrvim"}),       # nrv: undoing v leaves nr, also unlicensed, so v stays
+    ("naomh", {"niv"}),  # nv -> the overlay v is undone, not repaired to dv
+    ("ndroim", {"nrvim"}),  # nrv: undoing v leaves nr, also unlicensed, so v stays
     ("nglúin", {"nlun"}),
     ("mná", {"mra"}),
     ("mbláth", {"mla"}),
@@ -338,7 +403,7 @@ UNCHANGED = [
     # takes the aspirated `t` of §9.4, not the ejective the merged `ant'ul` parse gave it.
     ("an tsúil", {"an tul"}),
     ("sneachta", {"shniaxt'a"}),
-    ("droim", {"drvim"}),        # `drv` is licensed, so overlay-undo never fires
+    ("droim", {"drvim"}),  # `drv` is licensed, so overlay-undo never fires
     ("splanc", {"sp'lank'"}),
     ("spraoi", {"sp'rvi"}),
 ]

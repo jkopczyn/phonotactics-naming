@@ -3,9 +3,9 @@ the package, so `strands check` can validate `[stress]` parameters without impor
 procedure implementation, and Tasks 12–15 consume this table rather than editing check.py."""
 
 PROCEDURE_PARAMS: dict[str, frozenset[str]] = {
-    "initial":      frozenset({"mark"}),        # mark = on|off (Georgian sets off)
-    "penult":       frozenset(),                # penult takes no parameters
-    "cairene":      frozenset(),
-    "dutch-weight": frozenset({"window"}),      # window = 3 (default)
-    "keep-source":  frozenset(),
+    "initial": frozenset({"mark"}),  # mark = on|off (Georgian sets off)
+    "penult": frozenset(),  # penult takes no parameters
+    "cairene": frozenset(),
+    "dutch-weight": frozenset({"window"}),  # window = 3 (default)
+    "keep-source": frozenset(),
 }

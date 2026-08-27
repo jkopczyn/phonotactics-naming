@@ -31,6 +31,7 @@ grammar, then the one-way reconstruction). `adapt()` is not involved in that str
 sum of `Word.fallback_count()`; `Result.assumptions` the entry's inference tags plus any note
 the pipeline itself adds. Everything is a tuple, so two runs of the same input compare equal.
 """
+
 from __future__ import annotations
 
 from collections.abc import Sequence
@@ -54,18 +55,48 @@ if TYPE_CHECKING:
     from .inputs import Entry
     from .lexicon import LexEntry
 
-__all__ = ["EPITHET_SLOTS", "TARGETS", "CONSTRUCTIONS", "PipelineError",
-           "ConstructionNotInStrand", "Result", "resolve_epithet", "affix_epithet", "adapt", "parse_construction", "lookup",
-           "run_entry", "load_target", "stress_marked"]
+__all__ = [
+    "EPITHET_SLOTS",
+    "TARGETS",
+    "CONSTRUCTIONS",
+    "PipelineError",
+    "ConstructionNotInStrand",
+    "Result",
+    "resolve_epithet",
+    "affix_epithet",
+    "adapt",
+    "parse_construction",
+    "lookup",
+    "run_entry",
+    "load_target",
+    "stress_marked",
+]
 
-EPITHET_SLOTS = ("ADJ", "NOUN")      # I-39 / spec §12.H
+EPITHET_SLOTS = ("ADJ", "NOUN")  # I-39 / spec §12.H
 TARGETS = ("welsh", "arabic-egy", "georgian", "dutch", "old-irish")
 # The Old Irish formations (Old Irish spec §8 row O6; plan Task 15) are listed with the rest
 # so the CLI and the gallery can ask every strand for them; a strand whose [templates] has
 # no entry of that name raises `ConstructionNotInStrand` (O-17), which they report as a skip.
-CONSTRUCTIONS = ("VOC", "GEN", "PATRO_O", "PATRO_NI", "ADJ", "OF", "COMPOUND", "DESC",
-                 "DESC+ADJ", "DESC+NOUN",
-                 "MAEL", "GILLA", "CU", "FER", "COLOUR", "MAC", "UA", "INGEN")
+CONSTRUCTIONS = (
+    "VOC",
+    "GEN",
+    "PATRO_O",
+    "PATRO_NI",
+    "ADJ",
+    "OF",
+    "COMPOUND",
+    "DESC",
+    "DESC+ADJ",
+    "DESC+NOUN",
+    "MAEL",
+    "GILLA",
+    "CU",
+    "FER",
+    "COLOUR",
+    "MAC",
+    "UA",
+    "INGEN",
+)
 _RULES_DIR = Path(__file__).resolve().parents[2] / "rules"
 _EPITHET_STAGE = "epithet"
 
@@ -93,14 +124,17 @@ class Result:
 
 # ---- epithets (§4.6, §12.H) ---------------------------------------------------------------------
 
+
 def parse_construction(tag: str) -> tuple[str, str | None]:
     """'DESC+ADJ' -> ('DESC', 'ADJ'); 'VOC' -> ('VOC', None) (I-39)."""
     name, plus, slot = tag.partition("+")
     if not plus:
         return name, None
     if slot not in EPITHET_SLOTS:
-        raise PipelineError(f"construction {tag!r}: unknown epithet slot {slot!r} "
-                            f"(one of {', '.join(EPITHET_SLOTS)})")
+        raise PipelineError(
+            f"construction {tag!r}: unknown epithet slot {slot!r} "
+            f"(one of {', '.join(EPITHET_SLOTS)})"
+        )
     return name, slot
 
 
@@ -114,8 +148,10 @@ def resolve_epithet(target: RuleFile, slot: str) -> str | None:
     if not name:
         return None
     if name not in target.epithets:
-        raise PipelineError(f"{target.path}: [meta] epithet-{slot} = {name}, but [epithets] "
-                            f"has no {name} (have: {', '.join(sorted(target.epithets)) or 'none'})")
+        raise PipelineError(
+            f"{target.path}: [meta] epithet-{slot} = {name}, but [epithets] "
+            f"has no {name} (have: {', '.join(sorted(target.epithets)) or 'none'})"
+        )
     return name
 
 
@@ -126,26 +162,47 @@ def affix_epithet(word: Word, name: str, rf: RuleFile, table: FeatureTable) -> W
     try:
         ep = rf.epithets[name]
     except KeyError:
-        raise PipelineError(f"{rf.path}: no [epithets] entry {name!r} "
-                            f"(have: {', '.join(sorted(rf.epithets)) or 'none'})") from None
+        raise PipelineError(
+            f"{rf.path}: no [epithets] entry {name!r} "
+            f"(have: {', '.join(sorted(rf.epithets)) or 'none'})"
+        ) from None
     n = len(word.segments)
     before = word.ipa()
-    joined = replace(word, segments=word.segments + ep.form,
-                     morphemes=word.morphemes | {n}, illegal=frozenset())
+    joined = replace(
+        word, segments=word.segments + ep.form, morphemes=word.morphemes | {n}, illegal=frozenset()
+    )
     left = _match_ctx(tuple(reversed(ep.left)), 0, n, -1, joined, rf, table, {})
-    right = (_match_ctx(ep.right, 0, n + len(ep.form), +1, joined, rf, table, {})
-             if left is not None else None)
+    right = (
+        _match_ctx(ep.right, 0, n + len(ep.form), +1, joined, rf, table, {})
+        if left is not None
+        else None
+    )
     rule_id = f"epithets:{name}"
     if right is None:
-        return word.traced(TraceEntry(stage=_EPITHET_STAGE, rule_id=rule_id, tag="",
-                                      before=before, after=before,
-                                      note=f"attach-condition of {name} not met; no affix"))
-    return joined.traced(TraceEntry(stage=_EPITHET_STAGE, rule_id=rule_id, tag="",
-                                    before=before, after=joined.ipa(),
-                                    note=f"affix {name} = {''.join(ep.form)} at $"))
+        return word.traced(
+            TraceEntry(
+                stage=_EPITHET_STAGE,
+                rule_id=rule_id,
+                tag="",
+                before=before,
+                after=before,
+                note=f"attach-condition of {name} not met; no affix",
+            )
+        )
+    return joined.traced(
+        TraceEntry(
+            stage=_EPITHET_STAGE,
+            rule_id=rule_id,
+            tag="",
+            before=before,
+            after=joined.ipa(),
+            note=f"affix {name} = {''.join(ep.form)} at $",
+        )
+    )
 
 
 # ---- stages 2–7 ---------------------------------------------------------------------------------
+
 
 def stress_marked(target: RuleFile) -> bool:
     """`[stress] mark = off` (Georgian, digest §4.3) suppresses ˈ in `Result.ipa`."""
@@ -162,8 +219,9 @@ def _phonology(word: Word, target: RuleFile, table: FeatureTable) -> Word:
     return post_stress(word, target, table)
 
 
-def _adapt_word(word: Word, target: RuleFile, table: FeatureTable,
-                epithet: str | None) -> tuple[Word, str, tuple[TraceEntry, ...]]:
+def _adapt_word(
+    word: Word, target: RuleFile, table: FeatureTable, epithet: str | None
+) -> tuple[Word, str, tuple[TraceEntry, ...]]:
     word = substitute_stage(word, target, table)
     word = _phonology(word, target, table)
     if epithet is not None:
@@ -175,9 +233,14 @@ def _adapt_word(word: Word, target: RuleFile, table: FeatureTable,
     return word, spelling, respell_trace
 
 
-def adapt(words: Sequence[Word], target: RuleFile, table: FeatureTable,
-          *, epithet: str | None = None,
-          assumptions: Sequence[str] = ()) -> Result:
+def adapt(
+    words: Sequence[Word],
+    target: RuleFile,
+    table: FeatureTable,
+    *,
+    epithet: str | None = None,
+    assumptions: Sequence[str] = (),
+) -> Result:
     """Spec §4 stages 2-7: substitute_stage -> syllabify -> repair -> assign_stress ->
     post_stress -> (epithet: affix then re-run syllabify/repair/stress/post-stress) ->
     respell. `Result.ipa` prints the stress mark unless the target's
@@ -191,7 +254,8 @@ def adapt(words: Sequence[Word], target: RuleFile, table: FeatureTable,
     last = len(words) - 1
     for i, word in enumerate(words):
         done, spelling, respell_trace = _adapt_word(
-            word, target, table, epithet if i == last else None)
+            word, target, table, epithet if i == last else None
+        )
         out_words.append(done)
         spellings.append(spelling)
         trace.extend(done.trace)
@@ -212,14 +276,17 @@ def adapt(words: Sequence[Word], target: RuleFile, table: FeatureTable,
 
 # ---- stage 1b: lookup (Old Irish spec §2; O-9, O-23) ------------------------------------------
 
+
 def lookup(entry: Entry, lexicon: dict[str, LexEntry]) -> LexEntry | None:
     """Stage 1b (spec §2, O-9, O-23): exact match of `entry.orthography` — the CITATION form
     — after NFC + casefold. No de-mutation, no fuzzy fallback."""
     from .lexicon import key
+
     return lexicon.get(key(entry.orthography))
 
 
 # ---- stage 1 + the rest ------------------------------------------------------------------------
+
 
 def _head_slot(irish: RuleFile, name: str) -> str | None:
     """The template's first argument slot (its head, I-16)."""
@@ -227,20 +294,28 @@ def _head_slot(irish: RuleFile, name: str) -> str | None:
     return _head_name(items) if items is not None else None
 
 
-def run_entry(entry: Entry, construction: str, irish: RuleFile, target: RuleFile,
-              table: FeatureTable, slots: dict[str, Entry] | None = None) -> Result:
+def run_entry(
+    entry: Entry,
+    construction: str,
+    irish: RuleFile,
+    target: RuleFile,
+    table: FeatureTable,
+    slots: dict[str, Entry] | None = None,
+) -> Result:
     """Stage 1 (template + normalize) then adapt(), passing the resolved epithet.
     `slots` defaults to `{head: entry}` — the template's first argument slot; a template
     with further slots (ADJ, OF, COMPOUND) needs them supplied and raises `MissingSlot`
     otherwise (the CLI reports that as a skip)."""
     name, slot = parse_construction(construction)
-    if target.meta.get("strand", "").strip() == "old-irish":        # O-9
+    if target.meta.get("strand", "").strip() == "old-irish":  # O-9
         from .oldirish import run_entry_oi
+
         return run_entry_oi(entry, construction, irish, target, table, slots=slots)
-    if name not in irish.templates:                                 # O-17
+    if name not in irish.templates:  # O-17
         raise ConstructionNotInStrand(
             f"{irish.path}: no [templates] entry {name!r} for target {target.path} "
-            f"(have: {', '.join(sorted(irish.templates)) or 'none'})")
+            f"(have: {', '.join(sorted(irish.templates)) or 'none'})"
+        )
     if slots is None:
         head = _head_slot(irish, name)
         slots = {head: entry} if head is not None else {}

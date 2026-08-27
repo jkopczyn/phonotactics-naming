@@ -2,6 +2,7 @@
 [normalize] `ɪ -> i / _ ə`). Irish has no /ɪə/ distinct from /iə/, so the user's own
 *Ciara* /ˈkɪə.ɾˠə/ must adapt exactly as /ˈkiəɾˠə/ does — before the rule the targets saw
 no diphthong nucleus and syllabified it as hiatus."""
+
 import pytest
 from helpers import TABLE, irish
 
@@ -21,14 +22,20 @@ def _run(ipa: str, strand: str):
 
 
 def test_normalize_folds_the_variant_onto_the_diphthong():
-    assert normalize(Word.from_tokenized(tokenize("kɪəɾˠə", TABLE)),
-                     IRISH, TABLE).segments[:3] == ("k", "i", "ə")
+    assert normalize(Word.from_tokenized(tokenize("kɪəɾˠə", TABLE)), IRISH, TABLE).segments[:3] == (
+        "k",
+        "i",
+        "ə",
+    )
 
 
 def test_the_rule_only_applies_before_schwa():
     """`ɪ -> i / _ ə` must not touch a plain /ɪ/ elsewhere (*cuid* /kɪdʲ/)."""
-    assert normalize(Word.from_tokenized(tokenize("kɪdʲ", TABLE)),
-                     IRISH, TABLE).segments == ("k", "ɪ", "dʲ")
+    assert normalize(Word.from_tokenized(tokenize("kɪdʲ", TABLE)), IRISH, TABLE).segments == (
+        "k",
+        "ɪ",
+        "dʲ",
+    )
 
 
 @pytest.mark.parametrize("strand", TARGETS)

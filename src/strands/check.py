@@ -9,6 +9,7 @@ entries do not (the parser keeps no line for them), so those findings are locate
 re-reading the file at `rf.path` and finding the entry's `key =` line inside its section;
 when the file is not readable (a rule file parsed from a string) the line is 0.
 """
+
 from __future__ import annotations
 
 import re
@@ -38,13 +39,13 @@ _TEMPLATE_SPECIAL_SLOTS = frozenset({"C", "V", "N"})
 @dataclass(frozen=True)
 class CheckError:
     line: int
-    code: str        # UNKNOWN_CLASS | UNKNOWN_FEATURE | OFF_INVENTORY | EPENTHESIS_NO_CONTEXT
-                     # | UNKNOWN_STRESS_PARAM | UNREACHABLE_CHANGE | CLUSTER_OFF_INVENTORY
-                     # | BAD_TEMPLATE_ARG | UNDEFINED_BACKREF | NUCLEUS_OFF_INVENTORY
-                     # | ORTH_UNKNOWN_UNIT | ORTH_BAD_POSITION (Old Irish Task 6, R9)
-                     # | GRAPHEME_UNKNOWN_TOKEN (Old Irish Task 14)
+    code: str  # UNKNOWN_CLASS | UNKNOWN_FEATURE | OFF_INVENTORY | EPENTHESIS_NO_CONTEXT
+    # | UNKNOWN_STRESS_PARAM | UNREACHABLE_CHANGE | CLUSTER_OFF_INVENTORY
+    # | BAD_TEMPLATE_ARG | UNDEFINED_BACKREF | NUCLEUS_OFF_INVENTORY
+    # | ORTH_UNKNOWN_UNIT | ORTH_BAD_POSITION (Old Irish Task 6, R9)
+    # | GRAPHEME_UNKNOWN_TOKEN (Old Irish Task 14)
     message: str
-    severity: str    # "error" | "warning"
+    severity: str  # "error" | "warning"
 
 
 class _Checker:
@@ -54,7 +55,7 @@ class _Checker:
         self.inventory = frozenset(rf.inventory)
         self.out: list[CheckError] = []
         self._lines: list[str] | None = None
-        self._orth_units: dict[str, int] | None = None   # unit -> max alternative length
+        self._orth_units: dict[str, int] | None = None  # unit -> max alternative length
 
     def add(self, line: int, code: str, message: str, severity: str = "error") -> None:
         self.out.append(CheckError(line, code, message, severity))
@@ -88,27 +89,38 @@ class _Checker:
         within the unit's longest alternative."""
         if self._orth_units is None:
             from .orth import load_orth_table
-            self._orth_units = {unit: max(len(alt) for alt in alts)
-                                for unit, alts in load_orth_table()}
+
+            self._orth_units = {
+                unit: max(len(alt) for alt in alts) for unit, alts in load_orth_table()
+            }
         unit, sep, suffix = tag.rpartition(":")
         if not (sep and suffix.isdigit()):
             unit, suffix = tag, ""
         arity = self._orth_units.get(unit)
         if arity is None:
-            self.add(line, "ORTH_UNKNOWN_UNIT",
-                     f"orth unit {unit!r} is not in rules/irish-orthography.tsv; "
-                     f"@orth({tag!r}) can never match")
+            self.add(
+                line,
+                "ORTH_UNKNOWN_UNIT",
+                f"orth unit {unit!r} is not in rules/irish-orthography.tsv; "
+                f"@orth({tag!r}) can never match",
+            )
             return
         if suffix:
             n = int(suffix)
             if arity < 2:
-                self.add(line, "ORTH_BAD_POSITION",
-                         f"orth unit {unit!r} is single-segment, so its tag carries no "
-                         f"position; @orth({tag!r}) can never match")
+                self.add(
+                    line,
+                    "ORTH_BAD_POSITION",
+                    f"orth unit {unit!r} is single-segment, so its tag carries no "
+                    f"position; @orth({tag!r}) can never match",
+                )
             elif not 1 <= n <= arity:
-                self.add(line, "ORTH_BAD_POSITION",
-                         f"orth unit {unit!r} has at most {arity} segments; position {n} "
-                         f"of @orth({tag!r}) can never match")
+                self.add(
+                    line,
+                    "ORTH_BAD_POSITION",
+                    f"orth unit {unit!r} has at most {arity} segments; position {n} "
+                    f"of @orth({tag!r}) can never match",
+                )
 
     def class_name(self, name: str, line: int) -> None:
         if name not in self.rf.classes:
@@ -131,15 +143,15 @@ class _Checker:
 
     def item(self, it: ItemSpec, line: int) -> None:
         if it.kind == "class":
-            self.class_name(it.value, line)                       # type: ignore[arg-type]
+            self.class_name(it.value, line)  # type: ignore[arg-type]
         elif it.kind == "bundle":
-            self.bundle(it.value, line)                           # type: ignore[arg-type]
+            self.bundle(it.value, line)  # type: ignore[arg-type]
         elif it.kind == "set":
-            for member in it.value:                               # type: ignore[union-attr]
+            for member in it.value:  # type: ignore[union-attr]
                 if _CLASS_RE.match(member):
                     self.class_name(member, line)
         elif it.kind == "orth":
-            self.orth(it.value, line)                             # type: ignore[arg-type]
+            self.orth(it.value, line)  # type: ignore[arg-type]
 
     def context(self, seq: tuple[CtxItem, ...], line: int) -> None:
         for c in seq:
@@ -154,20 +166,23 @@ class _Checker:
         if it.kind == "orth":
             return []
         if it.kind == "segment":
-            return [it.value] if it.value in self.inventory else []      # type: ignore
+            return [it.value] if it.value in self.inventory else []  # type: ignore
         if it.kind == "class":
             return [s for s in self.rf.classes.get(it.value, ()) if s in self.inventory]
         if it.kind == "set":
             out: list[str] = []
-            for member in it.value:                                       # type: ignore
+            for member in it.value:  # type: ignore
                 if _CLASS_RE.match(member):
                     out.extend(s for s in self.rf.classes.get(member, ()) if s in self.inventory)
                 elif member in self.inventory:
                     out.append(member)
             return out
-        b: Bundle = it.value                                              # type: ignore
-        pool = inv if b.class_name is None else \
-            [s for s in self.rf.classes.get(b.class_name, ()) if s in self.inventory]
+        b: Bundle = it.value  # type: ignore
+        pool = (
+            inv
+            if b.class_name is None
+            else [s for s in self.rf.classes.get(b.class_name, ()) if s in self.inventory]
+        )
         try:
             return [s for s in pool if self.table.matches(s, b.constraints)]
         except FeatureError:
@@ -184,8 +199,11 @@ class _Checker:
 
         # 4. epenthesis needs an environment (I-7)
         if not r.target and not r.left and not r.right:
-            self.add(line, "EPENTHESIS_NO_CONTEXT",
-                     "epenthesis (target 0) needs a non-empty environment (I-7)")
+            self.add(
+                line,
+                "EPENTHESIS_NO_CONTEXT",
+                "epenthesis (target 0) needs a non-empty environment (I-7)",
+            )
 
         captures = {it.capture for it in r.target if it.capture is not None}
         for side in (r.left, r.right):
@@ -202,7 +220,7 @@ class _Checker:
                 for it in r.target:
                     candidates = self.matching_segments(it)
                     if not candidates and it.kind == "segment":
-                        candidates = [it.value]           # type: ignore[list-item]
+                        candidates = [it.value]  # type: ignore[list-item]
                     for seg in candidates:
                         try:
                             self.table.apply_changes(seg, r.replacement.constraints)
@@ -210,23 +228,34 @@ class _Checker:
                             if seg not in failing:
                                 failing.append(seg)
                 if failing:
-                    self.add(line, "UNREACHABLE_CHANGE",
-                             "no features.tsv segment has the vector produced by the "
-                             "feature-change bundle for " + ", ".join(repr(s) for s in failing)
-                             + " (spec §12.C)")
+                    self.add(
+                        line,
+                        "UNREACHABLE_CHANGE",
+                        "no features.tsv segment has the vector produced by the "
+                        "feature-change bundle for "
+                        + ", ".join(repr(s) for s in failing)
+                        + " (spec §12.C)",
+                    )
             return
 
         for el in r.replacement:
             if isinstance(el, str):
                 # 3. off-inventory replacement segment: a warning
                 if el not in self.inventory:
-                    self.add(line, "OFF_INVENTORY",
-                             f"replacement segment {el!r} is not in [inventory]", "warning")
+                    self.add(
+                        line,
+                        "OFF_INVENTORY",
+                        f"replacement segment {el!r} is not in [inventory]",
+                        "warning",
+                    )
             elif isinstance(el, Backref):
                 # 9. every \n has a matching :n capture in the same rule
                 if el.n not in captures:
-                    self.add(line, "UNDEFINED_BACKREF",
-                             f"backreference \\{el.n} has no :{el.n} capture in this rule")
+                    self.add(
+                        line,
+                        "UNDEFINED_BACKREF",
+                        f"backreference \\{el.n} has no :{el.n} capture in this rule",
+                    )
 
     # -- sections --------------------------------------------------------------------------------
 
@@ -235,27 +264,36 @@ class _Checker:
         if sy is None:
             return
         # 7. cluster/appendix/nuclei segments in inventory
-        for key, clusters in (("onsets", sy.onsets), ("codas", sy.codas),
-                              ("onsets-tier", tuple(sy.onset_tiers)),
-                              ("codas-tier", tuple(sy.coda_tiers)),
-                              ("appendix", tuple((s,) for s in sy.appendix))):
+        for key, clusters in (
+            ("onsets", sy.onsets),
+            ("codas", sy.codas),
+            ("onsets-tier", tuple(sy.onset_tiers)),
+            ("codas-tier", tuple(sy.coda_tiers)),
+            ("appendix", tuple((s,) for s in sy.appendix)),
+        ):
             if not clusters:
                 continue
             line = self.locate("syllable", key)
             for cl in clusters:
                 for seg in cl:
                     if seg not in self.inventory:
-                        self.add(line, "CLUSTER_OFF_INVENTORY",
-                                 f"[syllable] {key}: segment {seg!r} of {''.join(cl)!r} "
-                                 "is not in [inventory]")
+                        self.add(
+                            line,
+                            "CLUSTER_OFF_INVENTORY",
+                            f"[syllable] {key}: segment {seg!r} of {''.join(cl)!r} "
+                            "is not in [inventory]",
+                        )
         if sy.nuclei:
             line = self.locate("syllable", "nuclei")
             for nuc in sy.nuclei:
                 for seg in nuc:
                     if seg not in self.inventory:
-                        self.add(line, "NUCLEUS_OFF_INVENTORY",
-                                 f"[syllable] nuclei: segment {seg!r} of {''.join(nuc)!r} "
-                                 "is not in [inventory]")
+                        self.add(
+                            line,
+                            "NUCLEUS_OFF_INVENTORY",
+                            f"[syllable] nuclei: segment {seg!r} of {''.join(nuc)!r} "
+                            "is not in [inventory]",
+                        )
         if sy.template:
             line = self.locate("syllable", "template")
             for slot, _ in sy.template:
@@ -274,16 +312,21 @@ class _Checker:
         allowed = PROCEDURE_PARAMS.get(st.procedure)
         line = self.locate("stress", "procedure")
         if allowed is None:
-            self.add(line, "UNKNOWN_STRESS_PARAM",
-                     f"unknown stress procedure {st.procedure!r}")
+            self.add(line, "UNKNOWN_STRESS_PARAM", f"unknown stress procedure {st.procedure!r}")
             return
         for key in st.params:
             if key not in allowed:
                 where = self.locate("stress", key) or line
-                self.add(where, "UNKNOWN_STRESS_PARAM",
-                         f"procedure {st.procedure} does not take parameter {key!r}"
-                         + (f" (allowed: {', '.join(sorted(allowed))})" if allowed
-                            else " (it takes none)"))
+                self.add(
+                    where,
+                    "UNKNOWN_STRESS_PARAM",
+                    f"procedure {st.procedure} does not take parameter {key!r}"
+                    + (
+                        f" (allowed: {', '.join(sorted(allowed))})"
+                        if allowed
+                        else " (it takes none)"
+                    ),
+                )
 
     def templates(self) -> None:
         # 8. every arg name is from the fixed set (I-16); every function name is in the
@@ -295,8 +338,12 @@ class _Checker:
             if item.kind == "arg" and item.value not in TEMPLATE_ARGS:
                 self.add(line, "BAD_TEMPLATE_ARG", f"unknown template argument {item.value!r}")
             elif item.kind == "call" and item.value not in legal:
-                self.add(line, "BAD_TEMPLATE_ARG", f"unknown template function {item.value!r} "
-                         f"(not a sub-table of this file nor in [meta] template-functions)")
+                self.add(
+                    line,
+                    "BAD_TEMPLATE_ARG",
+                    f"unknown template function {item.value!r} "
+                    f"(not a sub-table of this file nor in [meta] template-functions)",
+                )
             if item.child is not None:
                 visit(item.child, line)
 
@@ -322,6 +369,7 @@ class _Checker:
         if not tables:
             return
         from .spelled import OI_ORTHOGRAPHY_PATH, SpelledError, load_graphemes
+
         path = OI_ORTHOGRAPHY_PATH
         orthography = self.rf.meta.get("orthography")
         if orthography:
@@ -351,9 +399,12 @@ class _Checker:
                     for where, seq in (("target", r.target), ("replacement", r.replacement)):
                         for tok in atoms(seq):
                             if tok not in tokens:
-                                self.add(r.line, "GRAPHEME_UNKNOWN_TOKEN",
-                                         f"[{r.rule_id.partition(':')[0]}] {name}: {where} "
-                                         f"token {tok!r} is not in {path.name}")
+                                self.add(
+                                    r.line,
+                                    "GRAPHEME_UNKNOWN_TOKEN",
+                                    f"[{r.rule_id.partition(':')[0]}] {name}: {where} "
+                                    f"token {tok!r} is not in {path.name}",
+                                )
 
     def run(self) -> list[CheckError]:
         for rules in self.rf.sections.values():
@@ -378,6 +429,7 @@ def check_rule_file(rf: RuleFile, table: FeatureTable) -> list[CheckError]:
 
 # ---- the Old Irish lexicon (Old Irish plan Task 2) -------------------------------------------
 
+
 def check_lexicon_file(path: str | Path) -> list[CheckError]:
     """Read and validate `old-irish-lexicon.tsv` (codes `LEX_*`, see `lexicon.validate`).
     An unreadable file is a single LEX_HEADER error at line 1 rather than an exception."""
@@ -392,8 +444,10 @@ def check_lexicon_file(path: str | Path) -> list[CheckError]:
 
 # ---- the Old Irish grapheme table (Old Irish plan Task 7) ------------------------------------
 
-def check_grapheme_table(path: str | Path | None = None, table: FeatureTable | None = None
-                         ) -> list[CheckError]:
+
+def check_grapheme_table(
+    path: str | Path | None = None, table: FeatureTable | None = None
+) -> list[CheckError]:
     """Validate `rules/old-irish-orthography.tsv` (codes `GRAPH_*`): every `ipa` segment is
     a features.tsv row; `env` is one of `spelled.ENVS`; `role` one of `spelled.ROLES` (seven
     values — no `punctum` role, so the ⟨ṡ⟩/⟨ḟ⟩ rows validate as cons/silent carrying a
@@ -426,34 +480,65 @@ def check_grapheme_table(path: str | Path | None = None, table: FeatureTable | N
     for r in rows:
         for seg in r.ipa:
             if seg not in table:
-                out.append(CheckError(r.line, "GRAPH_UNKNOWN_SEGMENT",
-                                      f"token {r.token!r}: ipa segment {seg!r} is not a "
-                                      "features.tsv row", "error"))
+                out.append(
+                    CheckError(
+                        r.line,
+                        "GRAPH_UNKNOWN_SEGMENT",
+                        f"token {r.token!r}: ipa segment {seg!r} is not a features.tsv row",
+                        "error",
+                    )
+                )
         if r.env not in ENVS:
-            out.append(CheckError(r.line, "GRAPH_BAD_ENV",
-                                  f"token {r.token!r}: env {r.env!r} is not one of "
-                                  + ", ".join(ENVS), "error"))
+            out.append(
+                CheckError(
+                    r.line,
+                    "GRAPH_BAD_ENV",
+                    f"token {r.token!r}: env {r.env!r} is not one of " + ", ".join(ENVS),
+                    "error",
+                )
+            )
         if r.role not in ROLES:
-            out.append(CheckError(r.line, "GRAPH_BAD_ROLE",
-                                  f"token {r.token!r}: role {r.role!r} is not one of "
-                                  + ", ".join(ROLES), "error"))
+            out.append(
+                CheckError(
+                    r.line,
+                    "GRAPH_BAD_ROLE",
+                    f"token {r.token!r}: role {r.role!r} is not one of " + ", ".join(ROLES),
+                    "error",
+                )
+            )
         if r.punctum and not (len(r.punctum) == 1 and r.punctum.isalpha()):
-            out.append(CheckError(r.line, "GRAPH_BAD_PUNCTUM",
-                                  f"token {r.token!r}: punctum {r.punctum!r} must be a "
-                                  "single plain letter", "error"))
+            out.append(
+                CheckError(
+                    r.line,
+                    "GRAPH_BAD_PUNCTUM",
+                    f"token {r.token!r}: punctum {r.punctum!r} must be a single plain letter",
+                    "error",
+                )
+            )
         if r.role == "ending":
             endings.append(r.line)
         key = (r.token, r.env, r.left)
         if key in seen:
-            out.append(CheckError(r.line, "GRAPH_DUPLICATE_ROW",
-                                  f"token {r.token!r} env {r.env!r} left {r.left or '-'!r} "
-                                  f"repeats line {seen[key]}", "error"))
+            out.append(
+                CheckError(
+                    r.line,
+                    "GRAPH_DUPLICATE_ROW",
+                    f"token {r.token!r} env {r.env!r} left {r.left or '-'!r} "
+                    f"repeats line {seen[key]}",
+                    "error",
+                )
+            )
         else:
             seen[key] = r.line
     if len(endings) != 1:
-        out.append(CheckError(endings[1] if len(endings) > 1 else 0, "GRAPH_ENDING_COUNT",
-                              f"exactly one row must have role = ending (spec §11); found "
-                              f"{len(endings)}", "error"))
+        out.append(
+            CheckError(
+                endings[1] if len(endings) > 1 else 0,
+                "GRAPH_ENDING_COUNT",
+                f"exactly one row must have role = ending (spec §11); found {len(endings)}",
+                "error",
+            )
+        )
 
     # Reachability: build the smallest spellings the token's rows allow and see whether
     # tokenizing them yields the token.
@@ -474,7 +559,13 @@ def check_grapheme_table(path: str | Path | None = None, table: FeatureTable | N
                     continue
     for token, line in first_line.items():
         if token not in reachable:
-            out.append(CheckError(line, "GRAPH_UNREACHABLE_TOKEN",
-                                  f"token {token!r} is never produced by tokenization "
-                                  "(shadowed by a longer token or its own env/left)", "error"))
+            out.append(
+                CheckError(
+                    line,
+                    "GRAPH_UNREACHABLE_TOKEN",
+                    f"token {token!r} is never produced by tokenization "
+                    "(shadowed by a longer token or its own env/left)",
+                    "error",
+                )
+            )
     return sorted(out, key=lambda e: (e.line, e.code, e.message))

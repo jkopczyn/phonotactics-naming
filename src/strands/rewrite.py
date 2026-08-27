@@ -22,6 +22,7 @@ right context left-to-right from the span end. Zero-width atoms test a BOUNDARY 
 Quoted text (`[respell]` only) is emitted as its literal string; the opaque-chunk semantics
 of I-19 (later rules never rematch it) belong to `respell.py` (Task 21).
 """
+
 from __future__ import annotations
 
 from collections.abc import Sequence
@@ -43,6 +44,7 @@ class RuleError(Exception):
 
 # ---- item matching --------------------------------------------------------------------------
 
+
 def _class_members(name: str, rf: RuleFile, rule: Rule | None = None) -> tuple[str, ...]:
     try:
         return rf.classes[name]
@@ -51,15 +53,22 @@ def _class_members(name: str, rf: RuleFile, rule: Rule | None = None) -> tuple[s
         raise RuleError(f"undeclared class {name!r}{where}") from None
 
 
-def match_item(spec: ItemSpec, segment: str, rf: RuleFile, table: FeatureTable, *,
-               word: Word | None = None, index: int | None = None) -> bool:
+def match_item(
+    spec: ItemSpec,
+    segment: str,
+    rf: RuleFile,
+    table: FeatureTable,
+    *,
+    word: Word | None = None,
+    index: int | None = None,
+) -> bool:
     """Does one target/context item match one segment? `word`/`index` locate the segment
     for the orth-tag channel (Old Irish spec §4/§11, O-6): an `@orth("…")` item or an
     `orth=` bundle constraint compares against `word.tag_at(index)`, and matches nothing
     when they are absent — the same "no tag, no match" behaviour as an untagged word."""
     kind, value = spec.kind, spec.value
     if kind == "orth":
-        return _orth_ok(value, word, index)                         # type: ignore[arg-type]
+        return _orth_ok(value, word, index)  # type: ignore[arg-type]
     if kind == "segment":
         return segment == value
     if kind == "class":
@@ -92,6 +101,7 @@ def _orth_ok(tag: str, word: Word | None, index: int | None) -> bool:
 
 # ---- context matching -----------------------------------------------------------------------
 
+
 def _boundary(atom: str, pos: int, word: Word) -> bool:
     if atom == "#":
         return pos == 0 or pos == len(word.segments)
@@ -114,8 +124,16 @@ def _edge_ok(atom: str, pos: int, word: Word, step: int) -> bool:
     return _boundary(atom, pos, word)
 
 
-def _match_ctx(items: Sequence[CtxItem], k: int, pos: int, step: int, word: Word,
-               rf: RuleFile, table: FeatureTable, caps: Captures) -> Captures | None:
+def _match_ctx(
+    items: Sequence[CtxItem],
+    k: int,
+    pos: int,
+    step: int,
+    word: Word,
+    rf: RuleFile,
+    table: FeatureTable,
+    caps: Captures,
+) -> Captures | None:
     """Match items[k:] starting at boundary `pos`, consuming segments in direction `step`
     (+1: segment at pos; -1: segment at pos-1). Greedy with backtracking. Returns the
     captures gathered (a new dict) or None."""
@@ -145,8 +163,9 @@ def _match_ctx(items: Sequence[CtxItem], k: int, pos: int, step: int, word: Word
     p = pos
     while count < limit:
         s = seg_at(p)
-        if s is None or not match_item(atom, s, rf, table, word=word,
-                                       index=p if step > 0 else p - 1):
+        if s is None or not match_item(
+            atom, s, rf, table, word=word, index=p if step > 0 else p - 1
+        ):
             break
         count += 1
         p += step
@@ -164,16 +183,18 @@ def _match_ctx(items: Sequence[CtxItem], k: int, pos: int, step: int, word: Word
     return None
 
 
-def _match_env(word: Word, rule: Rule, start: int, stop: int, rf: RuleFile,
-               table: FeatureTable, caps: Captures) -> Captures | None:
+def _match_env(
+    word: Word, rule: Rule, start: int, stop: int, rf: RuleFile, table: FeatureTable, caps: Captures
+) -> Captures | None:
     left = _match_ctx(tuple(reversed(rule.left)), 0, start, -1, word, rf, table, caps)
     if left is None:
         return None
     return _match_ctx(rule.right, 0, stop, +1, word, rf, table, left)
 
 
-def _match_target(word: Word, rule: Rule, start: int, rf: RuleFile,
-                  table: FeatureTable) -> Captures | None:
+def _match_target(
+    word: Word, rule: Rule, start: int, rf: RuleFile, table: FeatureTable
+) -> Captures | None:
     caps: Captures = {}
     if start + len(rule.target) > len(word.segments):
         return None
@@ -186,15 +207,14 @@ def _match_target(word: Word, rule: Rule, start: int, rf: RuleFile,
     return caps
 
 
-def find_matches(word: Word, rule: Rule, rf: RuleFile,
-                 table: FeatureTable) -> list[Match]:
+def find_matches(word: Word, rule: Rule, rf: RuleFile, table: FeatureTable) -> list[Match]:
     """Non-overlapping (start, stop, captures) triples, leftmost-longest, all evaluated
     against the PRE-RULE word (I-6). `captures` maps capture index -> the matched
     segment string, gathered from both the target and the environment (I-33).
     Epenthesis rules return zero-width spans."""
     out: list[Match] = []
     n = len(word.segments)
-    if not rule.target:                              # epenthesis (I-7)
+    if not rule.target:  # epenthesis (I-7)
         for pos in range(n + 1):
             caps = _match_env(word, rule, pos, pos, rf, table, {})
             if caps is not None:
@@ -216,8 +236,10 @@ def find_matches(word: Word, rule: Rule, rf: RuleFile,
 
 # ---- application ----------------------------------------------------------------------------
 
-def _replacement(word: Word, rule: Rule, start: int, stop: int, caps: Captures,
-                 table: FeatureTable) -> tuple[str, ...]:
+
+def _replacement(
+    word: Word, rule: Rule, start: int, stop: int, caps: Captures, table: FeatureTable
+) -> tuple[str, ...]:
     repl = rule.replacement
     if isinstance(repl, Bundle):
         out = []
@@ -233,8 +255,10 @@ def _replacement(word: Word, rule: Rule, start: int, stop: int, caps: Captures,
             out.append(el)
         elif isinstance(el, Backref):
             if el.n not in caps:
-                raise RuleError(f"{rule.rule_id}: backreference \\{el.n} is undefined "
-                                f"(captures: {sorted(caps)})")
+                raise RuleError(
+                    f"{rule.rule_id}: backreference \\{el.n} is undefined "
+                    f"(captures: {sorted(caps)})"
+                )
             out.append(caps[el.n])
         elif isinstance(el, QuotedText):
             out.append(el.text)
@@ -259,9 +283,13 @@ def apply_rule(word: Word, rule: Rule, rf: RuleFile, table: FeatureTable, stage:
     # Insertion affinity at a `$`: an epenthesis rule whose right context starts with `$`
     # inserts on the left (stem) side of the boundary (`p _ $` -> `pi$`); any other rule,
     # `$ _` included, leaves the boundary before the new material (`$ _` -> `p$i`).
-    left_side = (not rule.target and bool(rule.right)
-                 and isinstance(rule.right[0].atom, str) and rule.right[0].atom == "$")
-    for start, stop, new in reversed(edits):     # right-to-left keeps earlier indices valid
+    left_side = (
+        not rule.target
+        and bool(rule.right)
+        and isinstance(rule.right[0].atom, str)
+        and rule.right[0].atom == "$"
+    )
+    for start, stop, new in reversed(edits):  # right-to-left keeps earlier indices valid
         out = out.replaced(start, stop, new, before_boundary=left_side)
     if not rule.target:
         # Pure epenthesis: remember which segments this rule INSERTED, so a later stage can
@@ -273,12 +301,14 @@ def apply_rule(word: Word, rule: Rule, rf: RuleFile, table: FeatureTable, stage:
             inserted.extend(range(start + offset, start + offset + len(new)))
             offset += len(new) - (stop - start)
         out = out.with_origins(inserted, rule.rule_id)
-    return out.traced(TraceEntry(stage=stage, rule_id=rule.rule_id, tag=rule.tag,
-                                 before=before, after=out.ipa()))
+    return out.traced(
+        TraceEntry(stage=stage, rule_id=rule.rule_id, tag=rule.tag, before=before, after=out.ipa())
+    )
 
 
-def apply_section(word: Word, rules: Sequence[Rule], rf: RuleFile,
-                  table: FeatureTable, stage: str) -> Word:
+def apply_section(
+    word: Word, rules: Sequence[Rule], rf: RuleFile, table: FeatureTable, stage: str
+) -> Word:
     """Apply rules in file order; each rule sees the previous rule's output."""
     for rule in rules:
         word = apply_rule(word, rule, rf, table, stage)

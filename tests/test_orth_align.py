@@ -1,4 +1,5 @@
 """Task 5: the modern-orthography <-> IPA aligner (spec §4, §11; O-6, O-7)."""
+
 import pytest
 from helpers import TABLE, irish, read_test_words, w
 
@@ -25,34 +26,41 @@ def test_the_table_is_sorted_longest_unit_first():
 
 # ---- pinned tags: S2's guard against an agent optimising the counter ----------------------
 
-@pytest.mark.parametrize("orthography,ipa,expected", [
-    ("Niamh",  "nʲiəvˠ",   ("n", "ia:1", "ia:2", "mh")),
-    ("gorm",   "ɡɔɾˠəmˠ",  ("g", "o", "r:1", "r:2", "m")),
-    ("Seán",   "ʃaːnˠ",    ("s", "eá", "n")),
-    ("naomh",  "n̪ˠiːw",    ("n", "ao", "mh")),
-    ("Caoimhe", "kiːvʲə",  ("c", "aoi", "mh", "e")),
-    ("dubh",   "d̪ˠʊw",     ("d", "u", "bh")),
-    ("sneachta", "ʃnʲaxt̪ˠə", ("s", "n", "ea", "ch", "t", "a")),
-    ("baid",   "bˠaːdʲ",   ("b", "ai", "d")),    # R10: the `ai` row exists, so <ai> tags `ai`
-    ("Colm",   "ˈkɔl̪ˠəmˠ", ("c", "o", "l:1", "l:2", "m")),
-    ("mbean",  "mʲanˠ",    ("mb", "ea", "n")),
-    ("bpeann", "bʲaːn̪ˠ",   ("bp", "ea", "nn")),
-    ("caisleán", "kaʃlʲaːnˠ", ("c", "ai", "s", "l", "eá", "n")),
-])
+
+@pytest.mark.parametrize(
+    "orthography,ipa,expected",
+    [
+        ("Niamh", "nʲiəvˠ", ("n", "ia:1", "ia:2", "mh")),
+        ("gorm", "ɡɔɾˠəmˠ", ("g", "o", "r:1", "r:2", "m")),
+        ("Seán", "ʃaːnˠ", ("s", "eá", "n")),
+        ("naomh", "n̪ˠiːw", ("n", "ao", "mh")),
+        ("Caoimhe", "kiːvʲə", ("c", "aoi", "mh", "e")),
+        ("dubh", "d̪ˠʊw", ("d", "u", "bh")),
+        ("sneachta", "ʃnʲaxt̪ˠə", ("s", "n", "ea", "ch", "t", "a")),
+        ("baid", "bˠaːdʲ", ("b", "ai", "d")),  # R10: the `ai` row exists, so <ai> tags `ai`
+        ("Colm", "ˈkɔl̪ˠəmˠ", ("c", "o", "l:1", "l:2", "m")),
+        ("mbean", "mʲanˠ", ("mb", "ea", "n")),
+        ("bpeann", "bʲaːn̪ˠ", ("bp", "ea", "nn")),
+        ("caisleán", "kaʃlʲaːnˠ", ("c", "ai", "s", "l", "eá", "n")),
+    ],
+)
 def test_the_pinned_tags_are_exact(orthography, ipa, expected):
     """Every one of these is a real corpus row. The multi-segment units carry POSITIONAL
     tags (O-6): the epenthetic schwa is `r:2`/`l:2`, the diphthong halves are `ia:1`/`ia:2`."""
     assert tags(orthography, ipa) == expected
 
 
-@pytest.mark.parametrize("orthography,ipa,expected", [
-    ("bhí", "vʲiː", ("bh", "í")),
-    ("mhac", "wak", ("mh", "a", "c")),
-    ("dhún", "ɣuːnˠ", ("dh", "ú", "n")),
-    ("chos", "xɔsˠ", ("ch", "o", "s")),
-    ("phóg", "fˠoːɡ", ("ph", "ó", "g")),
-    ("shúil", "huːlʲ", ("sh", "ú", "l")),
-])
+@pytest.mark.parametrize(
+    "orthography,ipa,expected",
+    [
+        ("bhí", "vʲiː", ("bh", "í")),
+        ("mhac", "wak", ("mh", "a", "c")),
+        ("dhún", "ɣuːnˠ", ("dh", "ú", "n")),
+        ("chos", "xɔsˠ", ("ch", "o", "s")),
+        ("phóg", "fˠoːɡ", ("ph", "ó", "g")),
+        ("shúil", "huːlʲ", ("sh", "ú", "l")),
+    ],
+)
 def test_the_reversal_relevant_digraphs_all_align(orthography, ipa, expected):
     assert tags(orthography, ipa) == expected
 
@@ -62,6 +70,7 @@ def test_a_single_segment_unit_carries_no_position_suffix():
 
 
 # ---- the algorithm's own properties -------------------------------------------------------
+
 
 def test_backtracking_is_required_and_works():
     """Measured: 14 of 144 words need it. *long* is the minimal case — `ng -> (ŋ,)` is tried
@@ -104,8 +113,9 @@ def test_the_orth_channel_survives_a_join():
     """R7: `irish._join` constructs Word(...) literally and dropped the channel, losing the
     tags on every constructed word."""
     from strands.irish import _join
+
     a = tag_word(w("ə"), "a")
-    b = tag_word(w("çaːnʲ"), "Sheáin")    # lenited s before a slender vowel is /ç/ (digest §5.3)
+    b = tag_word(w("çaːnʲ"), "Sheáin")  # lenited s before a slender vowel is /ç/ (digest §5.3)
     joined = _join(a, b)
     assert len(joined.orth) == len(joined.segments)
     assert joined.orth[0] == "a" and joined.orth[1] == "sh"
@@ -134,8 +144,7 @@ ROWS = [r for r in read_test_words() if r["ipa"]]
 
 def test_every_test_word_aligns():
     """Measured 144/144 with the committed table. A regression here is a table regression."""
-    bad = [r["orthography"] for r in ROWS
-           if not any(align(r["orthography"], segs(r["ipa"])))]
+    bad = [r["orthography"] for r in ROWS if not any(align(r["orthography"], segs(r["ipa"])))]
     assert bad == [], bad
 
 
@@ -144,6 +153,5 @@ def test_every_reversal_class_aligns_completely(name):
     """spec §11: coverage is a per-class measurement."""
     pred = CLASSES[name]
     members = [r for r in ROWS if pred(r["orthography"].casefold())]
-    bad = [r["orthography"] for r in members
-           if not any(align(r["orthography"], segs(r["ipa"])))]
+    bad = [r["orthography"] for r in members if not any(align(r["orthography"], segs(r["ipa"])))]
     assert members and bad == [], (name, len(members), bad)

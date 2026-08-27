@@ -45,8 +45,16 @@ from . import __version__
 
 COMMANDS = ("run", "explain", "gallery", "lint", "check")
 DEFAULT_FEATURES = Path(__file__).resolve().parents[2] / "rules" / "features.tsv"
-RUN_COLUMNS = ("orthography", "construction", "strand", "respelling", "ipa",
-               "flags", "fallbacks", "assumptions")
+RUN_COLUMNS = (
+    "orthography",
+    "construction",
+    "strand",
+    "respelling",
+    "ipa",
+    "flags",
+    "fallbacks",
+    "assumptions",
+)
 _DEFAULT_CONSTRUCTION = "DESC"
 
 
@@ -56,7 +64,10 @@ class UsageError(Exception):
 
 # ---- argument parsing -------------------------------------------------------------------------
 
-def _parse(argv: Sequence[str], flags: dict[str, bool], positional: int) -> tuple[list[str], dict[str, str | bool]]:
+
+def _parse(
+    argv: Sequence[str], flags: dict[str, bool], positional: int
+) -> tuple[list[str], dict[str, str | bool]]:
     """Tiny option parser: `flags` maps `--name` to whether it takes a value. Returns
     (positionals, options). Raises UsageError."""
     pos: list[str] = []
@@ -82,6 +93,7 @@ def _parse(argv: Sequence[str], flags: dict[str, bool], positional: int) -> tupl
 
 def _strands(value: str | None) -> list[str]:
     from .pipeline import TARGETS
+
     if value is None or value == "all":
         return list(TARGETS)
     if value not in TARGETS:
@@ -91,23 +103,25 @@ def _strands(value: str | None) -> list[str]:
 
 def _constructions(value: str | None, default: str) -> list[str]:
     from .pipeline import CONSTRUCTIONS
+
     if value is None:
         value = default
     if value == "all":
         return list(CONSTRUCTIONS)
     if value not in CONSTRUCTIONS:
-        raise UsageError(f"unknown construction {value!r} "
-                         f"(one of {', '.join(CONSTRUCTIONS)}, all)")
+        raise UsageError(f"unknown construction {value!r} (one of {', '.join(CONSTRUCTIONS)}, all)")
     return [value]
 
 
 # ---- shared loading ---------------------------------------------------------------------------
+
 
 def _load(strands: Sequence[str]):
     """(table, irish, [(name, target)...]) — parse errors surface as RuntimeError."""
     from .dsl import ParseError, parse_rules_file
     from .features import FeatureError, load_features
     from .pipeline import load_target
+
     try:
         table = load_features(DEFAULT_FEATURES)
         irish = parse_rules_file(DEFAULT_FEATURES.parent / "irish.rules", table)
@@ -120,6 +134,7 @@ def _load(strands: Sequence[str]):
 def _entries(path: str, irish, table):
     from .inputs import InputError, infer, read_input
     from .tokenize import SegmentError
+
     try:
         raw = read_input(path)
     except (OSError, InputError) as e:
@@ -146,19 +161,28 @@ def _write(text: str, out: str | None) -> None:
 
 # ---- run ------------------------------------------------------------------------------------
 
+
 def run_rows(entries, constructions: Sequence[str], irish, targets, table) -> list[dict[str, str]]:
     """One row per entry × construction × strand, in that order. Skips (no IPA, missing
     slot) keep their row with a `skipped:` note (module docstring)."""
     from .irish import MissingSlot
     from .pipeline import ConstructionNotInStrand, run_entry
     from .tokenize import SegmentError
+
     rows: list[dict[str, str]] = []
     for entry in entries:
         for construction in constructions:
             for name, rf in targets:
-                row = {"orthography": entry.orthography, "construction": construction,
-                       "strand": name, "respelling": "", "ipa": "", "flags": "",
-                       "fallbacks": "", "assumptions": ""}
+                row = {
+                    "orthography": entry.orthography,
+                    "construction": construction,
+                    "strand": name,
+                    "respelling": "",
+                    "ipa": "",
+                    "flags": "",
+                    "fallbacks": "",
+                    "assumptions": "",
+                }
                 notes = list(entry.assumptions)
                 if not entry.ipa:
                     if "skipped:no-ipa" not in notes:
@@ -169,14 +193,19 @@ def run_rows(entries, constructions: Sequence[str], irish, targets, table) -> li
                     except MissingSlot as e:
                         slot = str(e).split("slot ", 1)[-1].split(" ", 1)[0].strip("'\"")
                         notes.append(f"skipped:missing-slot-{slot}")
-                    except ConstructionNotInStrand:                 # Old Irish O-17
+                    except ConstructionNotInStrand:  # Old Irish O-17
                         notes.append("skipped:construction-not-in-strand")
                     except SegmentError as e:
-                        raise RuntimeError(f"{entry.orthography} [{construction}, {name}]: {e}") from e
+                        raise RuntimeError(
+                            f"{entry.orthography} [{construction}, {name}]: {e}"
+                        ) from e
                     else:
-                        row.update(respelling=result.respelling, ipa=result.ipa,
-                                   flags=" ".join(result.flags),
-                                   fallbacks=str(result.fallbacks))
+                        row.update(
+                            respelling=result.respelling,
+                            ipa=result.ipa,
+                            flags=" ".join(result.flags),
+                            fallbacks=str(result.fallbacks),
+                        )
                         notes = list(result.assumptions)
                 row["assumptions"] = " ".join(notes)
                 rows.append(row)
@@ -185,8 +214,7 @@ def run_rows(entries, constructions: Sequence[str], irish, targets, table) -> li
 
 def _write_tsv(rows: Sequence[dict[str, str]], out: str | None) -> None:
     buf = io.StringIO()
-    writer = csv.DictWriter(buf, fieldnames=RUN_COLUMNS, delimiter="\t",
-                            lineterminator="\n")
+    writer = csv.DictWriter(buf, fieldnames=RUN_COLUMNS, delimiter="\t", lineterminator="\n")
     writer.writeheader()
     writer.writerows(rows)
     _write(buf.getvalue(), out)
@@ -204,11 +232,14 @@ def cmd_run(args: Sequence[str]) -> int:
 
 # ---- explain --------------------------------------------------------------------------------
 
+
 def _citations(*rule_files) -> dict[str, str]:
     """rule_id -> the rule line's `#` comment, over every rule-bearing section."""
     out: dict[str, str] = {}
     for rf in rule_files:
-        groups = list(rf.sections.values()) + list(rf.mutations.values()) + list(rf.inflect.values())
+        groups = (
+            list(rf.sections.values()) + list(rf.mutations.values()) + list(rf.inflect.values())
+        )
         for rules in groups:
             for rule in rules:
                 if rule.comment.strip():
@@ -232,8 +263,9 @@ def format_trace(result, citations: dict[str, str]) -> list[str]:
 
 
 def cmd_explain(args: Sequence[str]) -> int:
-    (word,), opts = _parse(args, {"--strand": True, "--construction": True,
-                                  "--orthography": True}, 1)
+    (word,), opts = _parse(
+        args, {"--strand": True, "--construction": True, "--orthography": True}, 1
+    )
     if "--strand" not in opts:
         raise UsageError("explain needs --strand")
     strand = _strands(str(opts["--strand"]))
@@ -249,6 +281,7 @@ def cmd_explain(args: Sequence[str]) -> int:
     from .irish import MissingSlot
     from .pipeline import run_entry
     from .tokenize import SegmentError
+
     orthography = opts.get("--orthography")
     is_old_irish = rf.meta.get("strand", "").strip() == "old-irish"
     try:
@@ -258,6 +291,7 @@ def cmd_explain(args: Sequence[str]) -> int:
             # lexicon), so the printed "pure RETRO path" note is true even when the IPA
             # argument happens to spell a lexicon key (*mac*).
             from .oldirish import run_entry_oi
+
             result = run_entry_oi(entry, construction, irish, rf, table, lexicon={})
         else:
             result = run_entry(entry, construction, irish, rf, table)
@@ -269,8 +303,10 @@ def cmd_explain(args: Sequence[str]) -> int:
     if orthography is not None:
         print(f"orthography: {orthography}")
     elif is_old_irish:
-        print("note: no --orthography given, so the lexicon lookup (which keys on the "
-              "citation spelling, O-23) is disabled; this is the pure RETRO path")
+        print(
+            "note: no --orthography given, so the lexicon lookup (which keys on the "
+            "citation spelling, O-23) is disabled; this is the pure RETRO path"
+        )
     print(f"respelling: {result.respelling}")
     print(f"ipa:        {result.ipa}")
     if result.flags:
@@ -286,9 +322,11 @@ def cmd_explain(args: Sequence[str]) -> int:
 
 # ---- gallery --------------------------------------------------------------------------------
 
+
 def cmd_gallery(args: Sequence[str]) -> int:
     from .gallery import render_gallery
     from .pipeline import CONSTRUCTIONS
+
     (path,), opts = _parse(args, {"--out": True}, 1)
     table, irish, targets = _load(_strands(None))
     _, entries = _entries(path, irish, table)
@@ -299,8 +337,10 @@ def cmd_gallery(args: Sequence[str]) -> int:
 
 # ---- lint -----------------------------------------------------------------------------------
 
+
 def cmd_lint(args: Sequence[str]) -> int:
     from .inputs import accept_guesses, lint_report
+
     (path,), opts = _parse(args, {"--accept": False}, 1)
     table, irish, _ = _load(())
     _, entries = _entries(path, irish, table)
@@ -316,6 +356,7 @@ def cmd_lint(args: Sequence[str]) -> int:
 
 
 # ---- check (Task 6) -------------------------------------------------------------------------
+
 
 def _check(argv: list[str]) -> int:
     """`strands check [--features PATH] RULES... | LEXICON.tsv`: parse + static checks (Task 6);
@@ -352,9 +393,12 @@ def _check(argv: list[str]) -> int:
             # Old Irish plan Task 2: a lexicon TSV routes to the LEX_* checks; warnings
             # (the Task 3 backlog) are listed but do not fail the run.
             from .check import check_lexicon_file
+
             for err in check_lexicon_file(path):
-                print(f"{path}:{err.line}: {err.code}: {err.message} [{err.severity}]",
-                      file=sys.stderr)
+                print(
+                    f"{path}:{err.line}: {err.code}: {err.message} [{err.severity}]",
+                    file=sys.stderr,
+                )
                 if err.severity == "error":
                     failed = True
             continue
@@ -365,8 +409,7 @@ def _check(argv: list[str]) -> int:
             failed = True
             continue
         for err in check_rule_file(rf, table):
-            print(f"{path}:{err.line}: {err.code}: {err.message} [{err.severity}]",
-                  file=sys.stderr)
+            print(f"{path}:{err.line}: {err.code}: {err.message} [{err.severity}]", file=sys.stderr)
             if err.severity == "error":
                 failed = True
     return 1 if failed else 0
@@ -396,6 +439,7 @@ def main(argv: list[str] | None = None) -> int:
         return _check(rest)
     from .pipeline import PipelineError
     from .tokenize import SegmentError
+
     try:
         return _HANDLERS[command](rest)
     except UsageError as e:

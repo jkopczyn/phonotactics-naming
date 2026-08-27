@@ -16,6 +16,7 @@ CVː among the stress-attracting finals (word-final CVː is otherwise banned, §
 Epenthetic vowels count (`binˈtina`) because stress runs after repair — nothing to code here.
 No parameters (`params.py`).
 """
+
 from __future__ import annotations
 
 from ..dsl import StressSpec
@@ -35,7 +36,8 @@ def _final_is_superheavy(word: Word, table: FeatureTable) -> bool:
         return False
     a, b = nucleus
     return b == len(word.segments) and any(
-        table.value(s, "long") == "+" for s in word.segments[a:b])
+        table.value(s, "long") == "+" for s in word.segments[a:b]
+    )
 
 
 @register("cairene")
@@ -45,13 +47,13 @@ def cairene(word: Word, spec: StressSpec, table: FeatureTable) -> int | None:
         return None
     if n == 1:
         return 0
-    if _final_is_superheavy(word, table):                       # step 1
+    if _final_is_superheavy(word, table):  # step 1
         return n - 1
     penult, antepenult = n - 2, n - 3
-    if antepenult >= 0:                                          # step 2
+    if antepenult >= 0:  # step 2
         light = lambda i: syllable_weight(word, i, table) == "light"
         if light(penult) and light(antepenult):
             pre = antepenult - 1
             if pre < 0 or not light(pre):
                 return antepenult
-    return penult                                                # step 3
+    return penult  # step 3

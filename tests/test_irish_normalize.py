@@ -1,4 +1,5 @@
 """Task 19: `irish.rules [normalize]` and `strands.irish.normalize` (spec §4.1, §12.J)."""
+
 import pytest
 from helpers import TABLE, irish, read_test_words, w
 
@@ -9,8 +10,11 @@ from strands.syllabify import syllabify
 IRISH = irish()
 # A permissive [syllable] spec for resolving the pending stress index (S1): irish.rules has
 # no [syllable] section, and syllabify() needs one to check bans.
-ANY = parse_rules("[inventory]\n" + " ".join(IRISH.inventory) + "\n[syllable]\ntemplate = any\n"
-                  "nuclei = iə uə əi əu\n", TABLE)
+ANY = parse_rules(
+    "[inventory]\n" + " ".join(IRISH.inventory) + "\n[syllable]\ntemplate = any\n"
+    "nuclei = iə uə əi əu\n",
+    TABLE,
+)
 
 
 def test_aliases_fold_to_the_two_way_system():
@@ -89,23 +93,22 @@ def test_h_is_never_rewritten_to_c_cedilla():
     *shúil* /huːlʲ/ (lenition of broad /sˠ/) has a back vowel and *héan* /heːnˠ/ a front
     one, and both are [h]. Inputs that mean [ç] transcribe it directly (*a Sheáin*
     /ə çaːnʲ/, *cheann* /çaːn̪ˠ/ in test-words.tsv), so no rule fires here."""
-    assert normalize(w("hax"), IRISH, TABLE).segments[0] == "h"        # theach
-    assert normalize(w("huːlʲ"), IRISH, TABLE).segments[0] == "h"      # shúil
-    assert normalize(w("heːnˠ"), IRISH, TABLE).segments[0] == "h"      # héan
+    assert normalize(w("hax"), IRISH, TABLE).segments[0] == "h"  # theach
+    assert normalize(w("huːlʲ"), IRISH, TABLE).segments[0] == "h"  # shúil
+    assert normalize(w("heːnˠ"), IRISH, TABLE).segments[0] == "h"  # héan
     assert normalize(w("hoːlʲ"), IRISH, TABLE).segments[0] == "h"
-    assert normalize(w("çoːlʲ"), IRISH, TABLE).segments[0] == "ç"      # sheoil, as written
+    assert normalize(w("çoːlʲ"), IRISH, TABLE).segments[0] == "ç"  # sheoil, as written
     assert normalize(w("ahaː"), IRISH, TABLE).segments[1] == "h"
 
 
 def test_every_unmarked_segment_is_covered_in_both_environments():
     rules = IRISH.sections["normalize"]
-    targets = {r.target[0].value for r in rules
-               if r.target and isinstance(r.target[0].value, str)}
+    targets = {r.target[0].value for r in rules if r.target and isinstance(r.target[0].value, str)}
     assert set(IRISH.classes["UNMARKED"]) <= targets
     for seg in IRISH.classes["UNMARKED"]:
         mine = [r for r in rules if r.target and r.target[0].value == seg]
-        assert any(r.right and not r.left for r in mine), seg       # _ V
-        assert any(r.left and r.right for r in mine), seg           # V _ #
+        assert any(r.right and not r.left for r in mine), seg  # _ V
+        assert any(r.left and r.right for r in mine), seg  # V _ #
 
 
 def test_normalize_rules_are_tagged_and_cited():
@@ -116,6 +119,7 @@ def test_normalize_rules_are_tagged_and_cited():
 
 def test_irish_rules_passes_check_with_zero_errors():
     from strands.check import check_rule_file
+
     assert [e for e in check_rule_file(IRISH, TABLE) if e.severity == "error"] == []
 
 
@@ -173,6 +177,7 @@ def test_every_test_word_normalizes_without_error():
 
 
 # ---- review-stress-irish fix 3: clusters share quality (digest §2.2, spec §4.1) --------------
+
 
 def test_initial_cluster_takes_the_quality_of_the_following_vowel():
     assert normalize(w("stra"), IRISH, TABLE).segments == ("sˠ", "t̪ˠ", "ɾˠ", "a")

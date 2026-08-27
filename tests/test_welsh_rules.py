@@ -8,6 +8,7 @@ admits the stop+liquid set and the clusters Welsh's own mutations produce, so ti
 the prothetic y-), and `cluster-fallback = same-length` is the last resort, asserted NOT to
 fire on the common names.
 """
+
 import pytest
 from helpers import TABLE, entry_of, irish, read_allow_file_for, read_test_words, target, w
 
@@ -33,6 +34,7 @@ def _run(orthography: str):
 
 # ---- common tests (plan "Tasks 23a–26") ---------------------------------------------------------
 
+
 def test_rule_file_parses_and_checks_clean():
     errs = [e for e in check_rule_file(TARGET, TABLE) if e.severity == "error"]
     assert errs == [], errs
@@ -42,8 +44,10 @@ def test_every_rule_line_carries_a_citation():
     for section in TARGET.sections.values():
         for r in section:
             assert r.comment.strip(), r.rule_id
-            assert ("[" in r.comment or "design:" in r.comment or "digest §" in r.comment), \
-                (r.rule_id, r.comment)
+            assert "[" in r.comment or "design:" in r.comment or "digest §" in r.comment, (
+                r.rule_id,
+                r.comment,
+            )
 
 
 def test_mutation_output_segments_all_survive():
@@ -55,8 +59,11 @@ def test_mutation_output_segments_all_survive():
 
 
 def test_no_unrepaired_on_the_144_word_set():
-    bad = [row["orthography"] for row in read_test_words()
-           if "UNREPAIRED" in run_entry(entry_of(row), "DESC", IRISH, TARGET, TABLE).flags]
+    bad = [
+        row["orthography"]
+        for row in read_test_words()
+        if "UNREPAIRED" in run_entry(entry_of(row), "DESC", IRISH, TARGET, TABLE).flags
+    ]
     assert set(bad) <= read_allow_file_for("welsh"), sorted(bad)
 
 
@@ -69,11 +76,14 @@ def test_every_output_segment_is_in_the_inventory_and_no_fallback_segment():
         r = run_entry(entry_of(row), "DESC", IRISH, TARGET, TABLE)
         for word in r.words:
             assert set(word.segments) <= inv, (row["orthography"], word.segments)
-        assert not any(t.rule_id == "fallback" for t in r.trace), \
-            (row["orthography"], [t.note for t in r.trace if t.rule_id == "fallback"])
+        assert not any(t.rule_id == "fallback" for t in r.trace), (
+            row["orthography"],
+            [t.note for t in r.trace if t.rule_id == "fallback"],
+        )
 
 
 # ---- Task 25 specifics -------------------------------------------------------------------------
+
 
 def test_slender_coronals_map_to_the_welsh_palatal_series():
     assert adapt([w("ʃaː")], TARGET, TABLE).words[0].segments[0] == "ʃ"
@@ -84,7 +94,7 @@ def test_slender_coronals_map_to_the_welsh_palatal_series():
 def test_palatal_series_only_before_a_vowel():
     """§5 line 1264: ⟨ti di si⟩ carry /tʃ dʒ ʃ/ only before a vowel; before a consonant and
     finally the slender coronals are plain (§3.4 lines 840–841)."""
-    segs = adapt([w("ʃtʲɾʲiːc")], TARGET, TABLE).words[0].segments      # stríoc
+    segs = adapt([w("ʃtʲɾʲiːc")], TARGET, TABLE).words[0].segments  # stríoc
     assert "ʃ" not in segs and "tʃ" not in segs
     assert adapt([w("bʲaːʃ")], TARGET, TABLE).words[0].segments[-1] == "s"
 
@@ -92,14 +102,14 @@ def test_palatal_series_only_before_a_vowel():
 def test_irish_gamma_becomes_g_as_a_design_choice():
     assert adapt([w("ɣaː")], TARGET, TABLE).words[0].segments[0] == "ɡ"
     rules = [r for r in TARGET.sections["substitute"] if r.target[0].value == "ɣ"]
-    assert rules and rules[0].tag == "design"        # R18
+    assert rules and rules[0].tag == "design"  # R18
 
 
 def test_irish_x_and_c_cedilla_become_chi_as_design_choices():
     assert adapt([w("xaː")], TARGET, TABLE).words[0].segments[0] == "χ"
     assert adapt([w("çaː")], TARGET, TABLE).words[0].segments[0] == "χ"
     rules = [r for r in TARGET.sections["substitute"] if r.target[0].value == "x"]
-    assert rules and rules[0].tag == "design"        # R18, digest §8.3 line 1517
+    assert rules and rules[0].tag == "design"  # R18, digest §8.3 line 1517
     assert "x" not in TARGET.inventory
 
 
@@ -132,9 +142,10 @@ def test_sm_sn_take_the_prothetic_vowel_not_a_bare_onset():
 def test_template_has_exactly_one_nucleus_slot():
     """Spec §12.B/§12.J: the digest's V(V) is one nucleus; the diphthongs live in `nuclei`."""
     assert sum(1 for slot, _ in TARGET.syllable.template if slot == "N") == 1
-    assert TARGET.syllable.nuclei                      # the Welsh diphthong list is declared
-    assert set(TARGET.syllable.nuclei) == {tuple(d) for d in
-                                           ("ai", "ɔi", "əi", "ʊi", "au", "ɛu", "əu", "ɪu")}
+    assert TARGET.syllable.nuclei  # the Welsh diphthong list is declared
+    assert set(TARGET.syllable.nuclei) == {
+        tuple(d) for d in ("ai", "ɔi", "əi", "ʊi", "au", "ɛu", "əu", "ɪu")
+    }
 
 
 def test_stop_plus_liquid_onsets_are_admitted():
@@ -152,7 +163,7 @@ def test_mutation_derived_onsets_are_admitted():
 
 def test_onset_tiers_are_recorded_and_reach_the_trace():
     assert set(TARGET.syllable.onset_tiers.values()) <= {"A", "B", "C", "D"}
-    assert TARGET.syllable.onset_tiers                 # every cluster carries a tier
+    assert TARGET.syllable.onset_tiers  # every cluster carries a tier
     for cl in TARGET.syllable.onsets:
         if len(cl) > 1:
             assert cl in TARGET.syllable.onset_tiers, cl
@@ -165,10 +176,20 @@ def test_onset_tiers_are_recorded_and_reach_the_trace():
 def test_irish_mutation_clusters_survive_without_fallback():
     """Coordinator ruling (b)/(d): eclipsed and lenited Irish onsets land on Welsh
     mutation onsets; cluster-fallback must not fire on them."""
-    expect = {"mbláth": ("m", "l"), "ndroim": ("n", "r"), "nglúin": ("ŋ", "l"),
-              "chrom": ("χ", "r"), "dhroim": ("ɡ", "r"), "bhlas": ("w", "l"),
-              "Bríd": ("b", "r"), "Brian": ("b", "r"), "Gráinne": ("ɡ", "r"),
-              "droim": ("d", "r"), "cnoc": ("k", "r"), "cnaipe": ("k", "n")}
+    expect = {
+        "mbláth": ("m", "l"),
+        "ndroim": ("n", "r"),
+        "nglúin": ("ŋ", "l"),
+        "chrom": ("χ", "r"),
+        "dhroim": ("ɡ", "r"),
+        "bhlas": ("w", "l"),
+        "Bríd": ("b", "r"),
+        "Brian": ("b", "r"),
+        "Gráinne": ("ɡ", "r"),
+        "droim": ("d", "r"),
+        "cnoc": ("k", "r"),
+        "cnaipe": ("k", "n"),
+    }
     for word, onset in expect.items():
         r = _run(word)
         assert r.words[0].segments[:2] == onset, (word, r.words[0].segments)
@@ -190,14 +211,14 @@ def test_cluster_fallback_is_declared_as_last_resort():
 
 def test_final_schwa_is_repaired():
     """§1 line 200 / §2.5 line 521: /ə/ is barred from final syllables and monosyllables."""
-    r = adapt([w("mˠaːɾʲə")], TARGET, TABLE)           # Máire
+    r = adapt([w("mˠaːɾʲə")], TARGET, TABLE)  # Máire
     assert r.words[0].segments[-1] != "ə" and "UNREPAIRED" not in r.flags
 
 
 def test_irish_length_is_discarded_welsh_first():
     """§9.13 / digest §4.4 L1: Irish length vanishes; §4.3 recomputes it from the coda."""
-    assert adapt([w("bˠaːd̪ˠ")], TARGET, TABLE).words[0].segments == ("b", "aː", "d")   # mab-type
-    assert adapt([w("kaːt̪ˠ")], TARGET, TABLE).words[0].segments == ("k", "a", "t")     # clap-type
+    assert adapt([w("bˠaːd̪ˠ")], TARGET, TABLE).words[0].segments == ("b", "aː", "d")  # mab-type
+    assert adapt([w("kaːt̪ˠ")], TARGET, TABLE).words[0].segments == ("k", "a", "t")  # clap-type
 
 
 def test_southern_length_rule_open_final_syllable():
@@ -241,8 +262,8 @@ def test_length_before_n_l_r_is_left_unchanged():
 
 def test_glide_next_to_its_own_vowel_drops():
     """§2.6 line 528 [morrisjones1913 §36 i]: w drops before/after w (= ʊ), i before/after i."""
-    assert adapt([w("ʃʊwaːn̪ˠ")], TARGET, TABLE).respelling == "siwan"       # Siobhán
-    assert adapt([w("d̪ˠʊw")], TARGET, TABLE).words[0].segments == ("d", "uː")   # dubh
+    assert adapt([w("ʃʊwaːn̪ˠ")], TARGET, TABLE).respelling == "siwan"  # Siobhán
+    assert adapt([w("d̪ˠʊw")], TARGET, TABLE).words[0].segments == ("d", "uː")  # dubh
 
 
 def test_unstressed_vowels_stay_short():
@@ -255,11 +276,11 @@ def test_unstressed_vowels_stay_short():
     old "penults stay short" reading. `awbery1984` p.72 overturns that (see §4.3B), and
     /tada/ is now [ˈtaːda] on Awbery's own /'ka:der/ pattern. What the docstring actually
     claims is tested here instead: the UNSTRESSED syllables are short."""
-    segs = adapt([w("t̪ˠad̪ˠa")], TARGET, TABLE).words[0].segments           # tadau-type
-    assert segs == ("t", "aː", "d", "a"), segs      # penult long (class A /d/), ultima short
+    segs = adapt([w("t̪ˠad̪ˠa")], TARGET, TABLE).words[0].segments  # tadau-type
+    assert segs == ("t", "aː", "d", "a"), segs  # penult long (class A /d/), ultima short
     # a 3-syllable word: only the penult may be long, whatever follows the other vowels
     segs = adapt([w("ad̪ˠad̪ˠaɡ")], TARGET, TABLE).words[0].segments
-    assert segs[0] == "a" and segs[-1] == "ɡ", segs           # antepenult short before /d/
+    assert segs[0] == "a" and segs[-1] == "ɡ", segs  # antepenult short before /d/
     assert segs.count("aː") == 1, segs
 
 
@@ -302,30 +323,40 @@ def test_voiceless_sonorants_never_arrive_from_irish():
     """§8.5: /m̥ n̥ ŋ̥ r̥ ɬ/ are not Irish phonemes; only the [repair] fortition creates ɬ, r̥."""
     for seg in ("m̥", "n̥", "ŋ̥", "r̥", "ɬ"):
         assert seg not in IRISH.inventory
-    assert not any(seg in ("m̥", "n̥", "ŋ̥") for r in TARGET.sections["substitute"]
-                   for seg in r.replacement if isinstance(seg, str))
+    assert not any(
+        seg in ("m̥", "n̥", "ŋ̥")
+        for r in TARGET.sections["substitute"]
+        for seg in r.replacement
+        if isinstance(seg, str)
+    )
 
 
 # ---- I-27 repair table (review-opus §F, digest line refs) --------------------------------------
 # Every row is written over the SOUTHERN inventory: /r/ (not Irish /ɾ/) and no /ɨ/.
 WELSH_REPAIRS = [
-    ("pɔbl",     "pɔbɔl",   "§3.2 rule 1, line 680 (also 477, 705) — pobl"),
-    ("kankr",    "kankar",  "§3.2 rule 1, line 680 — cancr"),
-    ("fɛnɛstr",  "fɛnɛst",  "§3.2 rule 2, lines 522, 687 — ffenestr"),
-    ("pɔsibl",   "pɔsib",   "§3.2 rule 2, line 687 — posibl"),
-    ("ewəθr",    "ewərθ",   "§3.2 rule 3, line 694 — ewythr. The digest prints [ˈewɨrθ]; "
-                            "Southern has no /ɨ/ (§1, PHOIBLE 2406), so the carrier vowel is "
-                            "/ə/ here. The metathesis being tested is unchanged"),
-    ("lɔft",     "ɬɔft",    "§3.3 line 810 — loft > lloft"),
-    ("rəmedi",   "r̥əmedi",  "§3.3 line 810 — remedy > rhymedi"),
-    ("skarlat",  "əskarlat","§3.1 line 621 — scarlet > ysgarlat"),
-    ("stiwart",  "əstiwart","§3.1 line 621 — steward > ystiwart"),
+    ("pɔbl", "pɔbɔl", "§3.2 rule 1, line 680 (also 477, 705) — pobl"),
+    ("kankr", "kankar", "§3.2 rule 1, line 680 — cancr"),
+    ("fɛnɛstr", "fɛnɛst", "§3.2 rule 2, lines 522, 687 — ffenestr"),
+    ("pɔsibl", "pɔsib", "§3.2 rule 2, line 687 — posibl"),
+    (
+        "ewəθr",
+        "ewərθ",
+        "§3.2 rule 3, line 694 — ewythr. The digest prints [ˈewɨrθ]; "
+        "Southern has no /ɨ/ (§1, PHOIBLE 2406), so the carrier vowel is "
+        "/ə/ here. The metathesis being tested is unchanged",
+    ),
+    ("lɔft", "ɬɔft", "§3.3 line 810 — loft > lloft"),
+    ("rəmedi", "r̥əmedi", "§3.3 line 810 — remedy > rhymedi"),
+    ("skarlat", "əskarlat", "§3.1 line 621 — scarlet > ysgarlat"),
+    ("stiwart", "əstiwart", "§3.1 line 621 — steward > ystiwart"),
 ]
 
 
 @pytest.mark.parametrize("before,after,cite", WELSH_REPAIRS)
 def test_repair_table(before, after, cite):
-    assert repair(syllabify(w(before), TARGET, TABLE), TARGET, TABLE).ipa(marks=False) == after, cite
+    assert repair(syllabify(w(before), TARGET, TABLE), TARGET, TABLE).ipa(marks=False) == after, (
+        cite
+    )
 
 
 def test_degemination_is_encoded_over_repeated_segments():
@@ -341,6 +372,7 @@ def test_degemination_is_encoded_over_repeated_segments():
 
 
 # ---- regression (Mode C; Mode E is empty for Welsh, I-25) ---------------------------------------
+
 
 def test_regression_meets_the_bar():
     rep = run_regression("welsh", TABLE)
@@ -382,9 +414,9 @@ def test_ratchet_does_not_slip():
 # contradicts a decision or contradicts himself, the test asserts the DECISION and names the
 # conflict — it does not encode Awbery's side (digest §9 items 15–17).
 
-AWBERY_A = "b d ɡ v ð f θ χ".split()      # Fig. 1 class A, minus `zero`  [awbery1984 p.71]
-AWBERY_B = "m n ŋ l r".split()            # Fig. 1 class B — LONG OR SHORT, lexical
-AWBERY_C = "p t k".split()                # Fig. 1 class C, plus any cluster
+AWBERY_A = "b d ɡ v ð f θ χ".split()  # Fig. 1 class A, minus `zero`  [awbery1984 p.71]
+AWBERY_B = "m n ŋ l r".split()  # Fig. 1 class B — LONG OR SHORT, lexical
+AWBERY_C = "p t k".split()  # Fig. 1 class C, plus any cluster
 
 
 def test_southern_penult_carries_the_length_contrast():
@@ -432,8 +464,8 @@ def test_open_penult_in_hiatus_is_long():
     """[awbery1984 p.68]: class A includes `zero` — /'ɬi:en/ 'cloth', /'r̥e:ol/ 'rule',
     /'bu:a/ 'bow'. Hiatus is two syllables (spec §12.J), so the penult is open."""
     segs = adapt([w("bʊa")], TARGET, TABLE).words[0].segments
-    assert segs == ("b", "uː", "a"), segs           # /'bu:a/ — Welsh <w> is /ʊ uː/
-    assert adapt([w("ɬɪɛn")], TARGET, TABLE).words[0].segments[1] == "iː"    # /'ɬi:en/
+    assert segs == ("b", "uː", "a"), segs  # /'bu:a/ — Welsh <w> is /ʊ uː/
+    assert adapt([w("ɬɪɛn")], TARGET, TABLE).words[0].segments[1] == "iː"  # /'ɬi:en/
 
 
 def test_penult_diphthong_first_element_stays_short():
@@ -517,7 +549,7 @@ def test_word_initial_chi_eth_and_eng_are_mutation_only_singletons():
     and Welsh's aspirate/soft/nasal mutations produce exactly these three."""
     for seg in ("χ", "ð", "ŋ"):
         assert (seg,) in TARGET.syllable.onset_set, seg
-    r = adapt([w("xaː")], TARGET, TABLE)                 # ei chath — aspirate mutation of /k/
+    r = adapt([w("xaː")], TARGET, TABLE)  # ei chath — aspirate mutation of /k/
     assert r.words[0].segments[0] == "χ" and "UNREPAIRED" not in r.flags
 
 
@@ -538,10 +570,17 @@ def test_no_long_vowel_survives_outside_the_stressed_syllable():
                 if not longs or word.stress is None:
                     continue
                 start = word.syllables[word.stress]
-                stop = (word.syllables[word.stress + 1]
-                        if word.stress + 1 < len(word.syllables) else len(word.segments))
-                assert all(start <= i < stop for i in longs), \
-                    (row["orthography"], tag, word.segments, word.stress)
+                stop = (
+                    word.syllables[word.stress + 1]
+                    if word.stress + 1 < len(word.syllables)
+                    else len(word.segments)
+                )
+                assert all(start <= i < stop for i in longs), (
+                    row["orthography"],
+                    tag,
+                    word.segments,
+                    word.stress,
+                )
 
 
 def test_final_m_is_lexical_but_final_eng_is_short():

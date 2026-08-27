@@ -29,6 +29,7 @@ Ratchet: `tests/ratchets/<target>.json` holds `{"C": rate, "E": rate}` for the m
 rows; `assert_ratchet` fails loudly when a rate drops below it. `write_ratchet` is run by
 hand after a target's bar is met — never by a test.
 """
+
 from __future__ import annotations
 
 import csv
@@ -47,9 +48,19 @@ from .syllabify import syllabify
 from .tokenize import SegmentError, clean_attested, tokenize
 from .word import Word
 
-__all__ = ["RegressionRow", "RegressionReport", "MODES", "PREDICTED_PREFIX", "RATCHET_DIR",
-           "read_attested", "run_regression", "edit_distance", "load_ratchet",
-           "assert_ratchet", "write_ratchet"]
+__all__ = [
+    "RegressionRow",
+    "RegressionReport",
+    "MODES",
+    "PREDICTED_PREFIX",
+    "RATCHET_DIR",
+    "read_attested",
+    "run_regression",
+    "edit_distance",
+    "load_ratchet",
+    "assert_ratchet",
+    "write_ratchet",
+]
 
 _ROOT = Path(__file__).resolve().parents[2]
 SOURCES_DIR = _ROOT / "sources"
@@ -57,8 +68,10 @@ RULES_DIR = _ROOT / "rules"
 RATCHET_DIR = _ROOT / "tests" / "ratchets"
 MODES = ("E", "C", "skip", "error")
 PREDICTED_PREFIX = "PREDICTED-NOT-ATTESTED:"
-_CONFORMANCE_NOTE = ("Mode C = inventory/syllable/stress conformance only; it says nothing "
-                     "about substitution, repair, post-stress, affixation or respell (I-25).")
+_CONFORMANCE_NOTE = (
+    "Mode C = inventory/syllable/stress conformance only; it says nothing "
+    "about substitution, repair, post-stress, affixation or respell (I-25)."
+)
 
 
 @dataclass(frozen=True)
@@ -68,11 +81,11 @@ class RegressionRow:
     target_form: str
     target_ipa: str
     provenance: str
-    mode: str          # "E" | "C" | "skip" | "error"
+    mode: str  # "E" | "C" | "skip" | "error"
     passed: bool
     got: str
     distance: int
-    reason: str = ""   # for mode="error": the untokenizable substring
+    reason: str = ""  # for mode="error": the untokenizable substring
 
 
 @dataclass(frozen=True)
@@ -100,8 +113,10 @@ class RegressionReport:
 
     def summary(self) -> str:
         c = self.counts()
-        lines = [f"regression {self.target}: {len(self.rows)} rows — "
-                 f"E {c['E']}, C {c['C']}, skip {c['skip']}, error {c['error']}"]
+        lines = [
+            f"regression {self.target}: {len(self.rows)} rows — "
+            f"E {c['E']}, C {c['C']}, skip {c['skip']}, error {c['error']}"
+        ]
         for mode in ("E", "C"):
             n = c[mode]
             if n:
@@ -114,6 +129,7 @@ class RegressionReport:
 
 
 # ---- data ----------------------------------------------------------------------------------
+
 
 def read_attested(target: str) -> list[dict[str, str]]:
     """Rows of sources/<target>/attested.tsv, NFC-normalized (I-1). Drops rows whose `note`
@@ -130,6 +146,7 @@ def read_attested(target: str) -> list[dict[str, str]]:
 
 
 # ---- comparison helpers ----------------------------------------------------------------------
+
 
 def edit_distance(a: Sequence[str], b: Sequence[str]) -> int:
     """Levenshtein distance over two segment sequences."""
@@ -177,19 +194,20 @@ def _reason(exc: SegmentError) -> str:
     """The untokenizable substring named by the tokenizer's message."""
     msg = str(exc)
     if msg.startswith("unknown segment "):
-        head = msg[len("unknown segment "):]
+        head = msg[len("unknown segment ") :]
         return head.split(" at position ")[0].strip("'")
     return msg
 
 
 # ---- one row ----------------------------------------------------------------------------------
 
+
 def _mode_c(word: Word, attested: str, rf: RuleFile, table: FeatureTable) -> tuple[bool, str, int]:
     """Inventory ∧ legal syllabification ∧ (stress reproduced, when the row marks it)."""
     allowed = set(rf.inventory)
     off = [s for s in word.segments if s not in allowed]
     parsed = syllabify(word, rf, table)
-    attested_stress = parsed.stress                # from the row's ˈ, if any (S1)
+    attested_stress = parsed.stress  # from the row's ˈ, if any (S1)
     stressed = assign_stress(parsed, rf, table)
     mismatch = 0
     if "ˈ" in attested and stressed.stress != attested_stress:
@@ -200,17 +218,22 @@ def _mode_c(word: Word, attested: str, rf: RuleFile, table: FeatureTable) -> tup
 
 
 def _run_row(row: dict[str, str], target: str, rf: RuleFile, table: FeatureTable) -> RegressionRow:
-    base = dict(source_form=row.get("source_form", ""), source_ipa=row.get("source_ipa", ""),
-                target_form=row.get("target_form", ""), target_ipa=row.get("target_ipa", ""),
-                provenance=row.get("provenance", ""))
+    base = dict(
+        source_form=row.get("source_form", ""),
+        source_ipa=row.get("source_ipa", ""),
+        target_form=row.get("target_form", ""),
+        target_ipa=row.get("target_ipa", ""),
+        provenance=row.get("provenance", ""),
+    )
     if not base["target_ipa"].strip():
         return RegressionRow(**base, mode="skip", passed=False, got="", distance=0)
     attested = clean_attested(base["target_ipa"], target)
     try:
         target_words = _words(attested, table)
     except SegmentError as exc:
-        return RegressionRow(**base, mode="error", passed=False, got="", distance=0,
-                             reason=_reason(exc))
+        return RegressionRow(
+            **base, mode="error", passed=False, got="", distance=0, reason=_reason(exc)
+        )
     if not target_words:
         return RegressionRow(**base, mode="skip", passed=False, got="", distance=0)
 
@@ -219,8 +242,9 @@ def _run_row(row: dict[str, str], target: str, rf: RuleFile, table: FeatureTable
         try:
             source_words = _words(source, table)
         except SegmentError as exc:
-            return RegressionRow(**base, mode="error", passed=False, got="", distance=0,
-                                 reason=_reason(exc))
+            return RegressionRow(
+                **base, mode="error", passed=False, got="", distance=0, reason=_reason(exc)
+            )
         result = adapt(source_words, rf, table)
         got, want = _comparable(result.ipa, attested)
         distance = edit_distance(_segments(got, table), _segments(want, table))
@@ -241,8 +265,10 @@ def _run_row(row: dict[str, str], target: str, rf: RuleFile, table: FeatureTable
 
 # ---- the run ----------------------------------------------------------------------------------
 
-def run_regression(target: str, table: FeatureTable,
-                   rule_file: Path | None = None) -> RegressionReport:
+
+def run_regression(
+    target: str, table: FeatureTable, rule_file: Path | None = None
+) -> RegressionReport:
     """Run every attested row of `target` in its mode (E when both IPA sides exist, else C).
     `rule_file` overrides rules/<target>.rules so the harness can be tested against the toy
     fixture before any real target file exists (R28). Mode C is inventory/syllable/stress
@@ -254,6 +280,7 @@ def run_regression(target: str, table: FeatureTable,
 
 
 # ---- ratchet ----------------------------------------------------------------------------------
+
 
 def load_ratchet(target: str) -> dict[str, float]:
     """tests/ratchets/<target>.json as {mode: rate}; {} when absent."""
@@ -273,8 +300,12 @@ def assert_ratchet(report: RegressionReport, tolerance: float = 0.0) -> None:
         if rate + tolerance < floor - 1e-9:
             failures.append(f"Mode {mode}: {rate:.4f} < ratchet {floor:.4f}")
     if failures:
-        raise AssertionError(f"regression ratchet slipped for {report.target}: "
-                             + "; ".join(failures) + "\n" + report.summary())
+        raise AssertionError(
+            f"regression ratchet slipped for {report.target}: "
+            + "; ".join(failures)
+            + "\n"
+            + report.summary()
+        )
 
 
 def _floor4(rate: float) -> float:
@@ -290,4 +321,5 @@ def write_ratchet(report: RegressionReport) -> None:
     data = {mode: _floor4(report.rate(mode)) for mode in ("E", "C") if counts.get(mode)}
     RATCHET_DIR.mkdir(parents=True, exist_ok=True)
     (RATCHET_DIR / f"{report.target}.json").write_text(
-        json.dumps(data, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+        json.dumps(data, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )

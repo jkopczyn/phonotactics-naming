@@ -1,4 +1,5 @@
 """Task 20: input TSV reader, gender / declension / genitive inference, lint (spec §5, §12.H)."""
+
 import csv
 import shutil
 
@@ -15,7 +16,7 @@ def test_reads_all_ten_columns():
     assert read_input(FIX)[0].gen_ipa == "ʃaːnʲ"
 
 
-def test_row_without_ipa_gets_a_constructed_one(): 
+def test_row_without_ipa_gets_a_constructed_one():
     """Milestone 8 / spec §5: an empty `ipa` is now filled by the provisional G2P and tagged,
     instead of skipping the row."""
     e = [x for x in read_input(FIX) if x.orthography == "NoIpa"][0]
@@ -25,13 +26,13 @@ def test_row_without_ipa_gets_a_constructed_one():
 
 def test_no_ipa_is_only_for_an_unreadable_orthography():
     """`skipped:no-ipa` survives for the two cases G2P cannot help with."""
-    e = infer(Entry("123"), IRISH, TABLE)          # no vowel letter: g2p raises
+    e = infer(Entry("123"), IRISH, TABLE)  # no vowel letter: g2p raises
     assert e.ipa == "" and "skipped:no-ipa" in e.assumptions
 
 
 def test_g2p_notes_become_assumption_tags():
     e = infer(Entry("cnoc"), IRISH, TABLE)
-    assert e.ipa == "kɾˠɔk"          # [C] ⟨cn⟩ is /kɾˠ/, one of the rules that records a note
+    assert e.ipa == "kɾˠɔk"  # [C] ⟨cn⟩ is /kɾˠ/, one of the rules that records a note
     assert any(t.startswith("g2p:") for t in e.assumptions)
 
 
@@ -82,8 +83,10 @@ def test_declension_is_inferred_and_tagged():
     assert infer(Entry("bádóir", ipa="bˠaːd̪ˠoːɾʲ"), IRISH, TABLE).declension == "m3"
     assert infer(Entry("balla", ipa="bˠal̪ˠə"), IRISH, TABLE).declension == "d4"
     assert infer(Entry("cailín", ipa="kalʲiːnʲ"), IRISH, TABLE).declension == "d4"
-    assert any(a.startswith("declension:") for a in
-               infer(Entry("marcach", ipa="mˠaɾˠkəx"), IRISH, TABLE).assumptions)
+    assert any(
+        a.startswith("declension:")
+        for a in infer(Entry("marcach", ipa="mˠaɾˠkəx"), IRISH, TABLE).assumptions
+    )
 
 
 def test_gen_ipa_uses_the_inflection_tables_not_a_second_implementation():
@@ -126,7 +129,8 @@ def test_lint_report_lists_one_line_per_guess():
 
 
 def test_accept_writes_the_guesses_back(tmp_path):
-    dst = tmp_path / "in.tsv"; shutil.copy(FIX, dst)
+    dst = tmp_path / "in.tsv"
+    shutil.copy(FIX, dst)
     accept_guesses(dst, [infer(x, IRISH, TABLE) for x in read_input(dst)])
     rows = list(csv.DictReader(dst.open(encoding="utf-8"), delimiter="\t"))
     assert all(r["gender"] for r in rows)
@@ -137,12 +141,13 @@ def test_accept_writes_the_guesses_back(tmp_path):
     # the constructed IPA is written into the `ipa` column, and said so in `note`
     assert by["NoIpa"]["ipa"] and by["NoIpa"]["gen_ipa"]
     assert "ipa constructed by g2p" in by["NoIpa"]["note"]
-    assert by["Seán"]["ipa"] == "ʃaːn̪ˠ"          # a supplied transcription is untouched
+    assert by["Seán"]["ipa"] == "ʃaːn̪ˠ"  # a supplied transcription is untouched
     assert "g2p" not in by["Seán"]["note"]
-    assert by["Seán"]["gen_ipa"] == "ʃaːnʲ"          # supplied value untouched
+    assert by["Seán"]["gen_ipa"] == "ʃaːnʲ"  # supplied value untouched
 
 
 # ---- review-stress-irish fix 4: classify and inflect the NORMALIZED form -------------------
+
 
 def test_alias_final_consonant_is_classified_after_normalization():
     """ASCII `g` is an input alias of `ɡ` (irish.rules [normalize]); a feminine noun ending
@@ -162,8 +167,9 @@ def test_ipa_column_accepts_slash_and_bracket_delimiters(tmp_path):
     """Owner request 2026-08-27: `/iːˈdɑːn/` is read as `iːˈdɑːn` (also `[...]`), for ipa,
     gen_ipa and pl_ipa; a bare transcription is unchanged."""
     f = tmp_path / "in.tsv"
-    f.write_text("orthography\tipa\tgen_ipa\nÉadan\t/iːˈdɑːn/\t[iːˈdɑːnʲ]\nSeán\tʃaːnˠ\t\n",
-                 encoding="utf-8")
+    f.write_text(
+        "orthography\tipa\tgen_ipa\nÉadan\t/iːˈdɑːn/\t[iːˈdɑːnʲ]\nSeán\tʃaːnˠ\t\n", encoding="utf-8"
+    )
     rows = read_input(f)
     assert rows[0].ipa == "iːˈdɑːn" and rows[0].gen_ipa == "iːˈdɑːnʲ"
     assert rows[1].ipa == "ʃaːnˠ"
@@ -176,12 +182,19 @@ def test_declension_column_is_read_written_and_validated(tmp_path):
     import pytest
 
     from strands.inputs import InputError
+
     f = tmp_path / "in.tsv"
-    f.write_text("orthography\tipa\tgender\tdeclension\nSeán\tʃaːnˠ\tm\t\nBríd\tbʲɾʲiːdʲ\tf\tf2\n",
-                 encoding="utf-8")
+    f.write_text(
+        "orthography\tipa\tgender\tdeclension\nSeán\tʃaːnˠ\tm\t\nBríd\tbʲɾʲiːdʲ\tf\tf2\n",
+        encoding="utf-8",
+    )
     entries = [infer(x, IRISH, TABLE) for x in read_input(f)]
-    assert entries[0].declension == "m1" and any(a.startswith("declension:") for a in entries[0].assumptions)
-    assert entries[1].declension == "f2" and not any(a.startswith("declension:") for a in entries[1].assumptions)
+    assert entries[0].declension == "m1" and any(
+        a.startswith("declension:") for a in entries[0].assumptions
+    )
+    assert entries[1].declension == "f2" and not any(
+        a.startswith("declension:") for a in entries[1].assumptions
+    )
     accept_guesses(f, entries)
     rows = list(csv.DictReader(f.open(encoding="utf-8"), delimiter="\t"))
     assert rows[0]["declension"] == "m1" and rows[1]["declension"] == "f2"

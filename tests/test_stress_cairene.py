@@ -3,6 +3,7 @@
 Source: sources/arabic-egy/digest.md §4, worked table at lines 870–886 (17 data rows; R16,
 spec §8). Transcribed verbatim — no row paraphrased or dropped.
 """
+
 import pytest
 from helpers import TABLE, w
 
@@ -11,41 +12,48 @@ from strands.stress import assign_stress
 from strands.stress.params import PROCEDURE_PARAMS
 from strands.syllabify import syllabify
 
-CAIRENE = ("[inventory]\nb t d k ɡ ʔ f s z ʃ x ɣ ħ ʕ h m n l r w j sˤ tˤ dˤ zˤ "
-           "a i u aː iː uː eː oː e o æ\n"
-           "[syllable]\ntemplate = CN(C)(C)\nonsets = b t d k ɡ ʔ f s z ʃ x ɣ ħ ʕ h m n l r w j "
-           "sˤ tˤ dˤ zˤ\ncodas = b t d k ɡ ʔ f s z ʃ x ɣ ħ ʕ h m n l r w j sˤ tˤ dˤ zˤ\n"
-           "sonority = off\n[stress]\nprocedure = cairene\n")
+CAIRENE = (
+    "[inventory]\nb t d k ɡ ʔ f s z ʃ x ɣ ħ ʕ h m n l r w j sˤ tˤ dˤ zˤ "
+    "a i u aː iː uː eː oː e o æ\n"
+    "[syllable]\ntemplate = CN(C)(C)\nonsets = b t d k ɡ ʔ f s z ʃ x ɣ ħ ʕ h m n l r w j "
+    "sˤ tˤ dˤ zˤ\ncodas = b t d k ɡ ʔ f s z ʃ x ɣ ħ ʕ h m n l r w j sˤ tˤ dˤ zˤ\n"
+    "sonority = off\n[stress]\nprocedure = cairene\n"
+)
 
 # digest §4, lines 870–886, all 17 data rows: (plain, stressed)
 CAIRENE_STRESS_TABLE = [
-    ("katabt",    "kaˈtabt"),      # 1, final CVCC
+    ("katabt", "kaˈtabt"),  # 1, final CVCC
     # digest line 871 (Watson 2011 p.3003 "[ʔaˈbe(h)]"): the source's `e` is a shortened
     # /eː/ (ʔabuːh -> ʔabeː(h)); as transcribed, `beh` is CVC = heavy, not superheavy, so no
     # weight-based procedure can stress it. Strict xfail, never dropped (Task 14 acceptance);
     # see test_abeh_with_its_length_restored for the same row with the underlying /eː/.
-    pytest.param("ʔabeh", "ʔaˈbeh", marks=pytest.mark.xfail(
-        strict=True, reason="digest line 871: final `beh` is CVC (heavy); source's e is /eː/")),  # 1
-    ("sakakiːn",  "sakaˈkiːn"),    # 1, final CVːC
-    ("tˤalabaːt", "tˤalaˈbaːt"),   # 1
-    ("ʔabadan",   "ˈʔabadan"),     # 2, penult+antepenult light, no pre-antepenult
-    ("muxtalifa", "muxˈtalifa"),   # 2, pre-antepenult heavy
-    ("katabitu",  "kataˈbitu"),    # 3, pre-antepenult also light -> step 2 blocked
-    ("jiktibu",   "jikˈtibu"),     # 3, heavy antepenult rejects stress
-    ("ʕamalti",   "ʕaˈmalti"),     # 3
-    ("martaba",   "marˈtaba"),     # 3, heavy antepenult rejects stress
-    ("beːtak",    "ˈbeːtak"),      # 3
-    ("madrasa",   "madˈrasa"),     # 3, the signature Cairene pattern
-    ("bintina",   "binˈtina"),     # 3, epenthetic penult vowel
-    ("katab",     "ˈkatab"),       # 3, final CVC is light; two syllables
-    ("katabit",   "ˈkatabit"),     # 2
-    ("katba",     "ˈkatba"),       # 3
-    ("maktaba",   "mækˈtæbæ"),     # 3, heavy antepenult rejects stress
+    pytest.param(
+        "ʔabeh",
+        "ʔaˈbeh",
+        marks=pytest.mark.xfail(
+            strict=True, reason="digest line 871: final `beh` is CVC (heavy); source's e is /eː/"
+        ),
+    ),  # 1
+    ("sakakiːn", "sakaˈkiːn"),  # 1, final CVːC
+    ("tˤalabaːt", "tˤalaˈbaːt"),  # 1
+    ("ʔabadan", "ˈʔabadan"),  # 2, penult+antepenult light, no pre-antepenult
+    ("muxtalifa", "muxˈtalifa"),  # 2, pre-antepenult heavy
+    ("katabitu", "kataˈbitu"),  # 3, pre-antepenult also light -> step 2 blocked
+    ("jiktibu", "jikˈtibu"),  # 3, heavy antepenult rejects stress
+    ("ʕamalti", "ʕaˈmalti"),  # 3
+    ("martaba", "marˈtaba"),  # 3, heavy antepenult rejects stress
+    ("beːtak", "ˈbeːtak"),  # 3
+    ("madrasa", "madˈrasa"),  # 3, the signature Cairene pattern
+    ("bintina", "binˈtina"),  # 3, epenthetic penult vowel
+    ("katab", "ˈkatab"),  # 3, final CVC is light; two syllables
+    ("katabit", "ˈkatabit"),  # 2
+    ("katba", "ˈkatba"),  # 3
+    ("maktaba", "mækˈtæbæ"),  # 3, heavy antepenult rejects stress
 ]
 
 
 def test_the_table_has_seventeen_rows():
-    assert len(CAIRENE_STRESS_TABLE) == 17          # R16 / spec §8
+    assert len(CAIRENE_STRESS_TABLE) == 17  # R16 / spec §8
 
 
 @pytest.mark.parametrize("plain,expected", CAIRENE_STRESS_TABLE)

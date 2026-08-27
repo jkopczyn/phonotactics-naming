@@ -34,6 +34,7 @@ consumes n > 1 segments tags them `unit:1` … `unit:n`, so *Niamh* /nʲiəw/ is
 either element (`@orth("ia:1") -> i`) or claim the whole unit with a two-item target. A
 silent unit (`-`) consumes no segment and leaves no tag.
 """
+
 from __future__ import annotations
 
 import unicodedata
@@ -96,7 +97,7 @@ def load_orth_table(path: Path | None = None) -> Table:
         rows.append((unit, tuple(alts)))
     if not header_seen:
         raise OrthError(f"{path}: no header line")
-    rows.sort(key=lambda r: -len(r[0]))          # stable: file order within a length
+    rows.sort(key=lambda r: -len(r[0]))  # stable: file order within a length
     table: Table = tuple(rows)
     _cache[path] = table
     return table
@@ -106,8 +107,7 @@ def _clean(orthography: str) -> str:
     return unicodedata.normalize("NFC", orthography).casefold().translate(_DROP)
 
 
-def align(orthography: str, segments: Sequence[str],
-          table: Table | None = None) -> tuple[str, ...]:
+def align(orthography: str, segments: Sequence[str], table: Table | None = None) -> tuple[str, ...]:
     """Positional orth tags for `segments`, one per segment, or all-`""` on failure (O-7).
     `segments` should be as they stand after `irish.normalize` (aliases folded, quality
     marked), which is what the table's values are written against."""
@@ -130,7 +130,7 @@ def align(orthography: str, segments: Sequence[str],
                 continue
             for alt in alts:
                 k = len(alt)
-                if segs[j:j + k] != alt:
+                if segs[j : j + k] != alt:
                     continue
                 rest = search(i + len(unit), j + k)
                 if rest is not None:
@@ -153,10 +153,18 @@ def tag_word(word: Word, orthography: str, table: Table | None = None) -> Word:
     all-empty (O-7) and the trace gains `orth:unaligned`."""
     tags = align(orthography, word.segments, table)
     from dataclasses import replace
+
     out = replace(word, orth=tags)
     if word.segments and not any(tags):
-        out = out.traced(TraceEntry(stage=STAGE, rule_id="orth:unaligned", tag="",
-                                    before=word.ipa(), after=out.ipa(),
-                                    note=f"no alignment of {orthography!r} to the segments; "
-                                         f"tags absent, only sound-based rules apply (O-7)"))
+        out = out.traced(
+            TraceEntry(
+                stage=STAGE,
+                rule_id="orth:unaligned",
+                tag="",
+                before=word.ipa(),
+                after=out.ipa(),
+                note=f"no alignment of {orthography!r} to the segments; "
+                f"tags absent, only sound-based rules apply (O-7)",
+            )
+        )
     return out

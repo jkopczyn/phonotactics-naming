@@ -1,4 +1,5 @@
 """Task 3: the lexicon as data after the fix-up (spec §7, §10; O-18, O-21, O-33)."""
+
 import csv
 
 import pytest
@@ -33,6 +34,7 @@ def test_the_lexicon_is_completely_clean():
 def test_the_three_task2_warnings_are_now_errors():
     """The promotion IS this task's acceptance criterion (R3a)."""
     from strands.lexicon import LEXICON_COLUMNS, LexEntry, validate
+
     bad = LexEntry(orthography="x", status="none", source="https://e.x", line=2)
     codes = {(e.code, e.severity) for e in validate(list(LEXICON_COLUMNS), [bad], "t")}
     assert ("LEX_NONE_NO_KIND", "error") in codes
@@ -44,10 +46,20 @@ def test_the_irregular_placeholder_is_now_reserved_for_suppletion():
     assert len(left) <= 10, left
 
 
-@pytest.mark.parametrize("headword,stem", [
-    ("teach", "s"), ("sliabh", "s"), ("athair", "r"), ("máthair", "r"), ("bráthair", "r"),
-    ("rí", "velar"), ("Lughaidh", "velar"), ("Eochaidh", "velar"), ("Pádraig", "indecl"),
-])
+@pytest.mark.parametrize(
+    "headword,stem",
+    [
+        ("teach", "s"),
+        ("sliabh", "s"),
+        ("athair", "r"),
+        ("máthair", "r"),
+        ("bráthair", "r"),
+        ("rí", "velar"),
+        ("Lughaidh", "velar"),
+        ("Eochaidh", "velar"),
+        ("Pádraig", "indecl"),
+    ],
+)
 def test_the_paradigm_words_the_inflection_tests_need_are_classified(headword, stem):
     row = LEX.get(key(headword))
     assert row is not None, headword
@@ -55,8 +67,7 @@ def test_the_paradigm_words_the_inflection_tests_need_are_classified(headword, s
 
 
 def test_every_remaining_backlog_row_says_why_it_has_no_paradigm():
-    backlog = [r for r in FORMS if (not r.stem or not r.gender)
-               and not r.note.startswith(EXEMPT)]
+    backlog = [r for r in FORMS if (not r.stem or not r.gender) and not r.note.startswith(EXEMPT)]
     assert backlog == [], [(r.orthography, r.stem, r.gender) for r in backlog]
 
 
@@ -80,8 +91,11 @@ def test_the_nessa_row_is_complete():
 
 def test_old_irish_forms_carry_no_modern_lenition_digraphs():
     """digest §10.2 conv. 1 / log finding 3."""
-    bad = [(r.orthography, r.oi_nom) for r in FORMS
-           if any(d in r.oi_nom.lower() for d in ("bh", "dh", "gh", "mh"))]
+    bad = [
+        (r.orthography, r.oi_nom)
+        for r in FORMS
+        if any(d in r.oi_nom.lower() for d in ("bh", "dh", "gh", "mh"))
+    ]
     assert bad == [], bad
 
 
@@ -92,8 +106,9 @@ def test_the_measured_regression_overlap_is_intact():
     assert len(overlap) >= 54, len(overlap)
 
 
-@pytest.mark.parametrize("name", ["old-irish-lexicon.verification.tsv",
-                                  "old-irish-lexicon.verification2.tsv"])
+@pytest.mark.parametrize(
+    "name", ["old-irish-lexicon.verification.tsv", "old-irish-lexicon.verification2.tsv"]
+)
 def test_both_verification_files_exist_with_the_agreed_schema(name):
     """R3: the first pass was prose in the log; this task back-fills it."""
     header, rows = verification(name)

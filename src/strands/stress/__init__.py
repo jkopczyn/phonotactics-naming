@@ -18,6 +18,7 @@ Weight. `syllable_weight(word, i, table)` classifies syllable `i`:
 - `superheavy` — long/branching nucleus with ≥1 coda segment, OR ≥2 coda segments.
 The coda is everything from the nucleus end to the next syllable start (or word end).
 """
+
 from __future__ import annotations
 
 import importlib
@@ -30,8 +31,15 @@ from ..features import FeatureTable
 from ..word import TraceEntry, Word
 from .params import PROCEDURE_PARAMS
 
-__all__ = ["PROCEDURE_PARAMS", "PROCEDURES", "Procedure", "StressError", "register",
-           "syllable_weight", "assign_stress"]
+__all__ = [
+    "PROCEDURE_PARAMS",
+    "PROCEDURES",
+    "Procedure",
+    "StressError",
+    "register",
+    "syllable_weight",
+    "assign_stress",
+]
 
 Procedure = Callable[[Word, StressSpec, FeatureTable], "int | None"]
 PROCEDURES: dict[str, Procedure] = {}
@@ -46,15 +54,18 @@ class StressError(Exception):
 def register(name: str) -> Callable[[Procedure], Procedure]:
     """Decorator: `@register("initial")` puts the procedure in `PROCEDURES`. Registering a
     name twice is a programming error (two modules claiming one procedure)."""
+
     def deco(fn: Procedure) -> Procedure:
         if name in PROCEDURES and PROCEDURES[name] is not fn:
             raise StressError(f"stress procedure {name!r} registered twice")
         PROCEDURES[name] = fn
         return fn
+
     return deco
 
 
 # ---- weight (spec §12.B) ---------------------------------------------------------------------
+
 
 def _syllable_span(word: Word, i: int) -> tuple[int, int]:
     if not (0 <= i < len(word.syllables)):
@@ -87,6 +98,7 @@ def syllable_weight(word: Word, i: int, table: FeatureTable) -> str:
 
 # ---- dispatch ----------------------------------------------------------------------------------
 
+
 def assign_stress(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
     """Dispatch on rf.stress.procedure; sets word.stress; appends a TraceEntry
     (stage='stress', rule_id=f'stress:{procedure}'). Unknown name -> StressError.
@@ -97,16 +109,28 @@ def assign_stress(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
     try:
         proc = PROCEDURES[spec.procedure]
     except KeyError:
-        raise StressError(f"unknown stress procedure {spec.procedure!r}; registered: "
-                          f"{', '.join(sorted(PROCEDURES))}") from None
+        raise StressError(
+            f"unknown stress procedure {spec.procedure!r}; registered: "
+            f"{', '.join(sorted(PROCEDURES))}"
+        ) from None
     index = proc(word, spec, table)
     if index is not None and not (0 <= index < len(word.syllables)):
-        raise StressError(f"procedure {spec.procedure!r} returned syllable {index} for "
-                          f"{word.ipa()!r} with {len(word.syllables)} syllables")
+        raise StressError(
+            f"procedure {spec.procedure!r} returned syllable {index} for "
+            f"{word.ipa()!r} with {len(word.syllables)} syllables"
+        )
     out = replace(word, stress=index)
     note = "" if index is not None else "no syllables"
-    return out.traced(TraceEntry(stage=_STAGE, rule_id=f"{_STAGE}:{spec.procedure}", tag="",
-                                 before=word.ipa(), after=out.ipa(), note=note))
+    return out.traced(
+        TraceEntry(
+            stage=_STAGE,
+            rule_id=f"{_STAGE}:{spec.procedure}",
+            tag="",
+            before=word.ipa(),
+            after=out.ipa(),
+            note=note,
+        )
+    )
 
 
 # ---- load every procedure module (deterministic order) --------------------------------------

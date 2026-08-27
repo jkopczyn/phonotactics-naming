@@ -4,6 +4,7 @@ Sources: sources/arabic-egy/digest.md §1–§6, §8; spec §7, §9 (rows 9–12
 Common tests from the plan's "Tasks 23a–26" preamble, the Task 24 specific tests, the I-27
 repair table and the Task 14 stress table re-run against the real inventory.
 """
+
 import re
 
 import pytest
@@ -26,6 +27,7 @@ RULES_TEXT = (ROOT / "rules" / f"{NAME}.rules").read_text(encoding="utf-8")
 
 # ---- common tests (plan, Tasks 23a–26 preamble) -----------------------------------------------
 
+
 def test_rule_file_parses_and_checks_clean():
     errs = [e for e in check_rule_file(TARGET, TABLE) if e.severity == "error"]
     assert errs == [], errs
@@ -35,8 +37,10 @@ def test_every_rule_line_carries_a_citation():
     for section in TARGET.sections.values():
         for r in section:
             assert r.comment.strip(), r.rule_id
-            assert ("[" in r.comment or "design:" in r.comment or "digest §" in r.comment), \
-                (r.rule_id, r.comment)
+            assert "[" in r.comment or "design:" in r.comment or "digest §" in r.comment, (
+                r.rule_id,
+                r.comment,
+            )
 
 
 def test_mutation_output_segments_all_survive():
@@ -48,8 +52,11 @@ def test_mutation_output_segments_all_survive():
 
 
 def test_no_unrepaired_on_the_144_word_set():
-    bad = [row["orthography"] for row in read_test_words()
-           if "UNREPAIRED" in run_entry(entry_of(row), "DESC", IRISH, TARGET, TABLE).flags]
+    bad = [
+        row["orthography"]
+        for row in read_test_words()
+        if "UNREPAIRED" in run_entry(entry_of(row), "DESC", IRISH, TARGET, TABLE).flags
+    ]
     assert set(bad) <= read_allow_file_for(NAME), sorted(bad)
 
 
@@ -62,6 +69,7 @@ def test_every_output_segment_is_in_inventory_on_the_144_word_set():
 
 
 # ---- Task 24 specific tests --------------------------------------------------------------------
+
 
 @pytest.mark.parametrize("src,expected", [("pˠ", "b"), ("vʲ", "f")])
 def test_absent_segments_substitute_per_digest_3_6(src, expected):
@@ -107,7 +115,7 @@ def test_no_final_obstruent_devoicing():
 
 def test_only_one_long_vowel_survives():
     out = adapt([w("bˠaːt̪ˠaːnˠ")], TARGET, TABLE).words[0].segments
-    assert sum(1 for s in out if s.endswith("ː")) <= 1        # §3.8 item 4
+    assert sum(1 for s in out if s.endswith("ː")) <= 1  # §3.8 item 4
 
 
 def test_closed_syllable_shortening_runs_after_stress():
@@ -168,7 +176,7 @@ def test_respell_digraphs_and_long_vowels():
     assert adapt([w("ɣiː")], TARGET, TABLE).respelling == "ghii"
     assert adapt([w("ʃuː")], TARGET, TABLE).respelling == "shuu"
     assert adapt([w("jaː")], TARGET, TABLE).respelling == "yaa"
-    assert adapt([w("ɡaː")], TARGET, TABLE).respelling == "gaa"       # U+0261 -> ASCII g
+    assert adapt([w("ɡaː")], TARGET, TABLE).respelling == "gaa"  # U+0261 -> ASCII g
 
 
 def test_initial_glottal_stop_is_unwritten_and_medial_is_an_apostrophe():
@@ -186,17 +194,17 @@ def test_mode_e_is_empty():
 # post-substitution Cairene-side forms; where the digest gives only the donor and the adapted
 # form the input is derived by hand (comment on the row).
 CAIRENE_REPAIRS = [
-    ("blastik",  "bilastik", "§3.1(a) line 348/356 — plastic (p->b already applied, §3.6)"),
-    ("ski",      "ʔiski",    "§3.1(b) line 379/386 — ski"),
-    ("banknut",  "bankinut", "§3.2 line 442/456 — banknote, epenthesis after C2"),
-    ("bustman",  "bustiman", "§3.2 line 458 — postman (p->b already applied)"),
-    ("ɡrub",     "ɡurub",    "§3.3 line 361/499-503 — group, /u/ harmony"),
-    ("otel",     "ʔotel",    "§3.7 line 628/630 — hôtel, glottal insertion"),
-    ("kitaːbna", "kitabna",  "§3.8 line 728 — closed-syllable shortening"),
-    ("striːt",   "ʔistiriːt", "§3.1(c) line 408 — street, prothesis + anaptyxis"),
-    ("silajd",   "silajd",   "§3.1(a) line 357 — slide: /sl/ takes anaptyxis (input already repaired)"),
-    ("slajd",    "silajd",   "§3.1(a) line 357 — slide"),
-    ("swetar",   "siwetar",  "§3.1(a) line 358 — sweater"),
+    ("blastik", "bilastik", "§3.1(a) line 348/356 — plastic (p->b already applied, §3.6)"),
+    ("ski", "ʔiski", "§3.1(b) line 379/386 — ski"),
+    ("banknut", "bankinut", "§3.2 line 442/456 — banknote, epenthesis after C2"),
+    ("bustman", "bustiman", "§3.2 line 458 — postman (p->b already applied)"),
+    ("ɡrub", "ɡurub", "§3.3 line 361/499-503 — group, /u/ harmony"),
+    ("otel", "ʔotel", "§3.7 line 628/630 — hôtel, glottal insertion"),
+    ("kitaːbna", "kitabna", "§3.8 line 728 — closed-syllable shortening"),
+    ("striːt", "ʔistiriːt", "§3.1(c) line 408 — street, prothesis + anaptyxis"),
+    ("silajd", "silajd", "§3.1(a) line 357 — slide: /sl/ takes anaptyxis (input already repaired)"),
+    ("slajd", "silajd", "§3.1(a) line 357 — slide"),
+    ("swetar", "siwetar", "§3.1(a) line 358 — sweater"),
 ]
 
 
@@ -225,6 +233,7 @@ def test_all_17_cairene_stress_rows_pass_against_the_real_inventory(plain, expec
 
 # ---- regression harness ------------------------------------------------------------------------
 
+
 def test_regression_meets_the_bar():
     rep = run_regression(NAME, TABLE)
     assert rep.rate("C") >= 0.75, rep.summary()
@@ -232,7 +241,7 @@ def test_regression_meets_the_bar():
 
 def test_error_bucket_is_small():
     rep = run_regression(NAME, TABLE)
-    assert rep.counts().get("error", 0) <= 28, rep.summary()      # 10% of 279
+    assert rep.counts().get("error", 0) <= 28, rep.summary()  # 10% of 279
 
 
 def test_ratchet_does_not_slip():
@@ -246,10 +255,11 @@ def test_emphasis_only_before_back_vowels():
     # coronals before a front vowel, before a consonant, or word-finally stay plain.
     def seg(ipa):
         return adapt([w(ipa)], TARGET, TABLE).words[0].segments
-    assert seg("sˠaː")[0] == "sˤ"            # before a (Hafez: saloon -> ṣaloon)
-    assert seg("sˠuːlʲ")[0] == "sˤ"          # súil: before u
-    assert seg("t̪ˠɔ")[0] == "tˤ"             # before Irish ɔ (-> u)
-    assert seg("sˠiːɾˠʃə")[0] == "s"         # Saoirse: before i -> plain
-    assert seg("ˈʃeːmˠəsˠ")[-1] == "s"       # Séamus: word-final -> plain
-    assert seg("d̪ˠɾˠiːmʲ")[0] == "d"         # droim: before a consonant -> plain
-    assert seg("ˈmˠat̪ˠɑːnˠəx")[2] == "tˤ"    # Matánach: before ɑː
+
+    assert seg("sˠaː")[0] == "sˤ"  # before a (Hafez: saloon -> ṣaloon)
+    assert seg("sˠuːlʲ")[0] == "sˤ"  # súil: before u
+    assert seg("t̪ˠɔ")[0] == "tˤ"  # before Irish ɔ (-> u)
+    assert seg("sˠiːɾˠʃə")[0] == "s"  # Saoirse: before i -> plain
+    assert seg("ˈʃeːmˠəsˠ")[-1] == "s"  # Séamus: word-final -> plain
+    assert seg("d̪ˠɾˠiːmʲ")[0] == "d"  # droim: before a consonant -> plain
+    assert seg("ˈmˠat̪ˠɑːnˠəx")[2] == "tˤ"  # Matánach: before ɑː

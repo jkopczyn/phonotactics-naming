@@ -4,6 +4,7 @@ Plan Task 2; spec §2 (feature table) and §12.C (aliases, exact-lookup feature 
 interpretations I-1 (NFC on read), I-4 (exact vector lookup), I-11 (predeclared classes),
 I-12 (distance), I-20 (extra columns), I-32 (feature aliases).
 """
+
 from __future__ import annotations
 
 import unicodedata
@@ -11,18 +12,55 @@ from collections.abc import Sequence
 from pathlib import Path
 
 __all__ = [
-    "FEATURE_NAMES", "FEATURE_ALIASES", "DERIVED_CLASSES", "SEGMENT_ALIASES",
-    "FeatureTable", "FeatureError", "load_features",
+    "FEATURE_NAMES",
+    "FEATURE_ALIASES",
+    "DERIVED_CLASSES",
+    "SEGMENT_ALIASES",
+    "FeatureTable",
+    "FeatureError",
+    "load_features",
 ]
 
 # The 38 PHOIBLE features, in features.tsv column order.
 FEATURE_NAMES: tuple[str, ...] = (
-    "tone", "stress", "syllabic", "short", "long", "consonantal", "sonorant", "continuant",
-    "delayedRelease", "approximant", "tap", "trill", "nasal", "lateral", "labial", "round",
-    "labiodental", "coronal", "anterior", "distributed", "strident", "dorsal", "high", "low",
-    "front", "back", "tense", "retractedTongueRoot", "advancedTongueRoot",
-    "periodicGlottalSource", "epilaryngealSource", "spreadGlottis", "constrictedGlottis",
-    "fortis", "lenis", "raisedLarynxEjective", "loweredLarynxImplosive", "click",
+    "tone",
+    "stress",
+    "syllabic",
+    "short",
+    "long",
+    "consonantal",
+    "sonorant",
+    "continuant",
+    "delayedRelease",
+    "approximant",
+    "tap",
+    "trill",
+    "nasal",
+    "lateral",
+    "labial",
+    "round",
+    "labiodental",
+    "coronal",
+    "anterior",
+    "distributed",
+    "strident",
+    "dorsal",
+    "high",
+    "low",
+    "front",
+    "back",
+    "tense",
+    "retractedTongueRoot",
+    "advancedTongueRoot",
+    "periodicGlottalSource",
+    "epilaryngealSource",
+    "spreadGlottis",
+    "constrictedGlottis",
+    "fortis",
+    "lenis",
+    "raisedLarynxEjective",
+    "loweredLarynxImplosive",
+    "click",
 )
 
 # I-32 / spec §12.C. A `# alias = column` line in the features.tsv header block may add more.
@@ -39,7 +77,11 @@ DERIVED_CLASSES: tuple[str, ...] = ("C", "V", "LIQ", "NAS", "STOP", "FRIC", "GLI
 # Input-alias rows whose vector copies a principal's exactly (I-30 fortis/lenis spellings,
 # I-34 ASCII `g`). Exact-lookup feature changes resolve to the principal, never the alias.
 SEGMENT_ALIASES: dict[str, str] = {
-    "g": "ɡ", "lˠ": "l̪ˠ", "l̠ʲ": "lʲ", "nˠ": "n̪ˠ", "n̠ʲ": "nʲ",
+    "g": "ɡ",
+    "lˠ": "l̪ˠ",
+    "l̠ʲ": "lʲ",
+    "nˠ": "n̪ˠ",
+    "n̠ʲ": "nʲ",
 }
 
 # Non-feature columns that precede the feature block (I-20).
@@ -52,8 +94,9 @@ class FeatureError(Exception):
 
 
 class FeatureTable:
-    def __init__(self, rows: list[tuple[str, str, tuple[str, ...]]],
-                 aliases: dict[str, str]) -> None:
+    def __init__(
+        self, rows: list[tuple[str, str, tuple[str, ...]]], aliases: dict[str, str]
+    ) -> None:
         self._vectors: dict[str, tuple[str, ...]] = {}
         self._classes: dict[str, str] = {}
         for segment, klass, vector in rows:
@@ -147,11 +190,11 @@ class FeatureTable:
         """I-12: sum of weights over features where both are defined (+/-) and differ."""
         va, vb = self._seg(a), self._seg(b)
         w = self._weights(weights)
-        return sum(w[i] for i, (x, y) in enumerate(zip(va, vb))
-                   if x != y and x != "0" and y != "0")
+        return sum(w[i] for i, (x, y) in enumerate(zip(va, vb)) if x != y and x != "0" and y != "0")
 
-    def nearest(self, segment: str, candidates: Sequence[str],
-                weights: dict[str, float] | None = None) -> str:
+    def nearest(
+        self, segment: str, candidates: Sequence[str], weights: dict[str, float] | None = None
+    ) -> str:
         """Candidate with minimal distance; ties break by candidate order (first wins)."""
         best: str | None = None
         best_d = 0.0
@@ -172,20 +215,33 @@ class FeatureTable:
         if name == "V":
             return v(segment, "syllabic") == "+"
         if name == "LIQ":
-            return (v(segment, "consonantal") == "+" and v(segment, "sonorant") == "+"
-                    and v(segment, "coronal") == "+"
-                    and "+" in (v(segment, "lateral"), v(segment, "tap"), v(segment, "trill")))
+            return (
+                v(segment, "consonantal") == "+"
+                and v(segment, "sonorant") == "+"
+                and v(segment, "coronal") == "+"
+                and "+" in (v(segment, "lateral"), v(segment, "tap"), v(segment, "trill"))
+            )
         if name == "NAS":
             return v(segment, "nasal") == "+"
         if name == "STOP":
-            return (v(segment, "consonantal") == "+" and v(segment, "continuant") == "-"
-                    and v(segment, "sonorant") == "-" and v(segment, "delayedRelease") == "-")
+            return (
+                v(segment, "consonantal") == "+"
+                and v(segment, "continuant") == "-"
+                and v(segment, "sonorant") == "-"
+                and v(segment, "delayedRelease") == "-"
+            )
         if name == "FRIC":
-            return (v(segment, "continuant") == "+" and v(segment, "sonorant") == "-"
-                    and v(segment, "consonantal") == "+")
+            return (
+                v(segment, "continuant") == "+"
+                and v(segment, "sonorant") == "-"
+                and v(segment, "consonantal") == "+"
+            )
         if name == "GLIDE":
-            return (v(segment, "syllabic") == "-" and v(segment, "sonorant") == "+"
-                    and v(segment, "consonantal") == "-")
+            return (
+                v(segment, "syllabic") == "-"
+                and v(segment, "sonorant") == "+"
+                and v(segment, "consonantal") == "-"
+            )
         raise FeatureError(f"not a predeclared class: {name!r}")
 
     def derived_class(self, name: str, over: Sequence[str]) -> tuple[str, ...]:
@@ -216,7 +272,9 @@ def load_features(path: str | Path) -> FeatureTable:
             if "=" in body and header is None:
                 alias, _, target = (p.strip() for p in body.partition("="))
                 if target not in FEATURE_NAMES:
-                    raise FeatureError(f"{path}:{lineno}: alias {alias!r} -> unknown feature {target!r}")
+                    raise FeatureError(
+                        f"{path}:{lineno}: alias {alias!r} -> unknown feature {target!r}"
+                    )
                 aliases[alias] = target
             continue
         fields = line.split("\t")
@@ -227,9 +285,11 @@ def load_features(path: str | Path) -> FeatureTable:
                 raise FeatureError(f"{path}:{lineno}: unexpected header columns: {header}")
             continue
         if len(fields) != len(header):
-            raise FeatureError(f"{path}:{lineno}: expected {len(header)} columns, got {len(fields)}")
+            raise FeatureError(
+                f"{path}:{lineno}: expected {len(header)} columns, got {len(fields)}"
+            )
         segment, klass = fields[0], fields[1]
-        vector = tuple(fields[len(_EXTRA_COLUMNS):])
+        vector = tuple(fields[len(_EXTRA_COLUMNS) :])
         if klass not in ("C", "V"):
             raise FeatureError(f"{path}:{lineno}: class must be C or V, got {klass!r}")
         bad = [v for v in vector if v not in _VALUES]
