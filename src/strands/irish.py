@@ -189,8 +189,13 @@ def _join(a: Word, b: Word) -> Word:
     pending = a._pending_stress
     if pending is None and b._pending_stress is not None:
         pending = b._pending_stress + n
+    orth: tuple[str, ...] = ()
+    if a.orth or b.orth:                       # R7: the orth channel survives a join; an
+        orth = ((a.orth or ("",) * n)          # untagged side is padded with "" so the
+                + (b.orth or ("",) * len(b.segments)))   # channel stays segment-length
     return Word(
         segments=a.segments + b.segments,
+        orth=orth,
         morphemes=a.morphemes | {n} | frozenset(n + m for m in b.morphemes if m != 0),
         word_breaks=a.word_breaks | frozenset(n + i for i in b.word_breaks),
         flags=a.flags + tuple(f for f in b.flags if f not in a.flags),

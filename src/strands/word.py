@@ -56,6 +56,15 @@ class Word:
     # when the cluster it created is not licensed. Only insertion rules (empty TARGET) record
     # here; a replacement is not "inserted material". Indices shift with `replaced()`, and an
     # origin inside a replaced span is dropped with the segment.
+    orth: tuple[str, ...] = ()                      # Old Irish spec §4/§11 (plan Task 5, O-6):
+    # the per-segment ORTH TAG channel — the modern spelling unit each segment came from, as
+    # set by `orth.tag_word`. Empty when no alignment was attempted or it failed (O-7);
+    # otherwise EXACTLY `len(segments)` long. A multi-segment unit tags positionally
+    # (`ia:1`, `ia:2`); a segment with no tag (`""`) matches no `@orth` item.
+
+    def tag_at(self, i: int) -> str:
+        """The orth tag of segment `i`, or "" when the channel is empty (spec §11, O-6)."""
+        return self.orth[i] if self.orth else ""
 
     @classmethod
     def from_tokenized(cls, tok: Tokenized) -> "Word":
@@ -105,6 +114,7 @@ class Word:
                 secondary=tuple(i - a for i in self.secondary if a <= i < b),
                 _pending_stress=pending,
                 origins=frozenset((i - a, r) for i, r in self.origins if a <= i < b),
+                orth=self.orth[a:b],
             ))
         return out
 
@@ -178,6 +188,13 @@ class Word:
             if b <= start or a >= stop
         )
         pending = None if self._pending_stress is None else start_index(self._pending_stress)
+        # Orth channel (Task 5): new segments inherit the tag of the first replaced segment;
+        # a zero-width insertion has no source spelling and gets "".
+        if self.orth:
+            inherited = self.orth[start] if start < stop else ""
+            orth = self.orth[:start] + (inherited,) * len(new) + self.orth[stop:]
+        else:
+            orth = ()
         return replace(
             self,
             segments=self.segments[:start] + new + self.segments[stop:],
@@ -192,6 +209,7 @@ class Word:
                               if (j := seg_index(i)) is not None),
             secondary=tuple(j for i in self.secondary if (j := seg_index(i)) is not None),
             _pending_stress=pending,
+            orth=orth,
         )
 
     def with_origins(self, indices: "Sequence[int]", rule_id: str) -> "Word":
