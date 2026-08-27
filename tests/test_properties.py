@@ -105,3 +105,43 @@ def test_initial_lenition_h_never_surfaces_as_a_dorsal_fricative(name, orthograp
     result = run_entry(entry_of(row), "DESC", IRISH, RF[name], TABLE)
     first = result.words[0].segments[0]
     assert first not in ("x", "χ", "ç", "ʁ", "ɣ"), (name, orthography, result.ipa)
+
+
+# ---- Old Irish (plan Task 18; spec §7, §11) -------------------------------------------------
+
+def test_every_old_irish_output_carries_exactly_one_lookup_flag():
+    from strands.oldirish import OI_FLAGS
+    for row, result in _results("old-irish", "DESC"):
+        assert len([f for f in result.flags if f in OI_FLAGS]) == 1, \
+            (row["orthography"], result.flags)
+
+
+def test_every_old_irish_respelling_reconstructs_to_its_reported_ipa():
+    """spec §6, §11 / O-11: the IPA is derived FROM the finished written form. This is the
+    property that keeps [respell] and the grapheme table one system."""
+    from strands.spelled import SpelledWord, spelling_to_ipa
+    for row, result in _results("old-irish", "DESC"):
+        rebuilt = " ".join("".join(spelling_to_ipa(SpelledWord.from_spelling(p)))
+                           for p in result.respelling.split(" "))
+        assert rebuilt == result.ipa, (row["orthography"], result.respelling)
+
+
+def test_no_old_irish_output_uses_a_modern_lenition_digraph():
+    """digest §10.2 conv. 1: there is no ⟨bh dh gh mh⟩ in Old Irish."""
+    for row, result in _results("old-irish", "DESC"):
+        low = result.respelling.lower()
+        assert not any(d in low for d in ("bh", "dh", "gh", "mh")), \
+            (row["orthography"], result.respelling)
+
+
+def test_no_finished_old_irish_output_still_carries_the_ending_marker():
+    """spec §11: [inflect] resolves it by stem class (Task 14). If one leaks, NOM_A/NOM_O
+    did not run."""
+    for row, result in _results("old-irish", "DESC"):
+        assert "ə" not in result.respelling, (row["orthography"], result.respelling)
+
+
+def test_old_irish_words_are_stressed_initially():
+    for row, result in _results("old-irish", "DESC"):
+        for word in result.words:
+            assert getattr(word, "stress", 0) in (0, None), row["orthography"]

@@ -495,4 +495,12 @@ def apply_grapheme_table(word: SpelledWord, rules: Sequence[GraphemeRule],
                 tokens = _splice(tokens, edits)
     if tokens == word.graphemes:
         return word
+    # O-11 (plan Task 18): the IPA is read FROM the finished written form, so the tokens must
+    # be the ones `from_spelling` reads back from the rendered string. A rewrite that splices
+    # tokens can leave a sequence the table reads as one grapheme (*dí* + the marker's *a* is
+    # written ⟨ía⟩, the diphthong /ia/, not ⟨í⟩⟨a⟩ /iːa/), so the spliced word is re-tokenized.
+    try:
+        tokens = tokenize_spelling("".join(tokens))
+    except SpelledError:        # a hand-built rule writing a non-token; `check` rejects it in a file
+        pass
     return replace(word, graphemes=tokens)

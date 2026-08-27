@@ -20,10 +20,12 @@ from .dsl import RuleFile
 from .features import FeatureTable
 from .inputs import Entry
 from .irish import MissingSlot
+from .lexicon import LexEntry, key, read_lexicon
 from .tokenize import SegmentError
-from .pipeline import ConstructionNotInStrand, Result, run_entry
+from .pipeline import ConstructionNotInStrand, PipelineError, Result, run_entry
 
-__all__ = ["REFERENCE_NAMES", "reference_row", "render_cell", "render_gallery"]
+__all__ = ["REFERENCE_NAMES", "FORMATION_TEMPLATES", "FORMATION_ELEMENTS", "FORMATION_NAMES",
+           "reference_row", "render_cell", "render_gallery", "formation_block"]
 
 REFERENCE_NAMES = ("Tchaeul", "Th'tysh", "Kas'queil", "Xelxyx", "Ysclyth")
 """The five pre-existing strand-4 names (notes/project-goals.md). Spec §12.J: they are
@@ -32,6 +34,19 @@ them through the engine. `render_gallery` emits this row from the literal tuple;
 adapt(), run_entry() or tokenize() call touches them."""
 
 SKIPPED = "—"
+
+# ---- the Old Irish formation block (Old Irish spec §7, §8 row O6; plan Task 18, R31) --------
+FORMATION_TEMPLATES = ("MAEL", "GILLA", "CU", "FER", "COLOUR", "MAC", "UA", "INGEN")
+FORMATION_ELEMENTS = ("Maol", "Giolla", "cú", "fear", "dubh", "mac", "ua", "inion")
+"""The lexicon ELEMENT rows the templates' literals come from (Task 3 guarantees them), by
+their modern keys: *Máel, Gilla, cú, fer, dub, macc, aue, ingen*. Each is shown going
+through lookup on its own so the reviewer sees the element the literal stands for."""
+FORMATION_NAMES = ("Colm", "Pádraig", "Culann")
+"""The governed names: the second elements of the attested *Máel Coluim*, *Gilla Pátraic*
+and *Cú Chulainn*. R31: the whole-name rows return ATTESTED in one piece and never
+exercise a template, so the block is built from these element rows instead."""
+FORMATION_COLOUR = "dubh"
+"""COLOUR's first slot (*Dubthach* = dub + -thach, R31a)."""
 
 
 def reference_row() -> str:
@@ -56,17 +71,62 @@ def render_cell(result: Result | None) -> str:
 
 
 def run_cell(entry: Entry, construction: str, irish: RuleFile, target: RuleFile,
-             table: FeatureTable) -> Result | None:
-    """`run_entry`, or None when the entry has no IPA or the template needs a slot the
-    entry cannot fill (the same two skips `strands run` reports as notes)."""
+             table: FeatureTable, slots: dict[str, Entry] | None = None) -> Result | None:
+    """`run_entry`, or None when the entry has no IPA, the template needs a slot the
+    entry cannot fill, or the strand has no template of that name (the skips `strands run`
+    reports as notes; Old Irish O-17)."""
     if not entry.ipa:
         return None
     try:
-        return run_entry(entry, construction, irish, target, table)
+        return run_entry(entry, construction, irish, target, table, slots)
     except (MissingSlot, ConstructionNotInStrand):     # Old Irish O-17
         return None
     except SegmentError as e:
         raise SegmentError(f"{entry.orthography} [{construction}]: {e}") from e
+
+
+def _element_entry(lexicon: dict[str, LexEntry], name: str, irish: RuleFile,
+                   table: FeatureTable) -> tuple[LexEntry, Entry]:
+    """The lexicon row for a modern key and an `Entry` built from its `orthography` with a
+    G2P transcription, tagged `ipa:constructed` (the elements are not test-words rows)."""
+    from .inputs import construct_ipa, infer
+    row = lexicon.get(key(name))
+    if row is None:
+        raise PipelineError(f"old-irish-lexicon: no row for the formation element {name!r}")
+    ipa, tags = construct_ipa(row.orthography, "C")
+    entry = Entry(orthography=row.orthography, ipa=ipa, dialect="C",
+                  gender=row.gender or "m", assumptions=tags)
+    return row, infer(entry, irish, table)
+
+
+def formation_block(irish: RuleFile, target: RuleFile, table: FeatureTable,
+                    lexicon: dict[str, LexEntry] | None = None) -> list[str]:
+    """Markdown lines for the Old Irish formation block (spec §7): the element rows through
+    lookup (DESC, GEN), then the eight formation templates over the governed names. Every
+    cell is `render_cell` output, so the lookup flags show as in the main tables."""
+    lexicon = read_lexicon() if lexicon is None else lexicon
+    lines = ["## Old Irish formations", "",
+             "The eight formation templates (spec §8 row O6) over lexicon ELEMENT rows; each "
+             "element's IPA is constructed by the G2P (`ipa:constructed`). A whole-name row "
+             "(*Máel Coluim*) returns ATTESTED in one piece and never exercises a template.", "",
+             "| element | Old Irish | DESC | GEN |", "|---|---|---|---|"]
+    for name in FORMATION_ELEMENTS + FORMATION_NAMES:
+        row, entry = _element_entry(lexicon, name, irish, table)
+        cells = [render_cell(run_cell(entry, c, irish, target, table)) for c in ("DESC", "GEN")]
+        lines.append(f"| {_md(row.orthography)} | {_md(row.oi_nom)} | " + " | ".join(cells) + " |")
+    lines.append("")
+    _, colour = _element_entry(lexicon, FORMATION_COLOUR, irish, table)
+    governed = [_element_entry(lexicon, name, irish, table)[1] for name in FORMATION_NAMES]
+    lines.append("| formation | " + " | ".join(_md(e.orthography) for e in governed) + " |")
+    lines.append("|---|" + "---|" * len(governed))
+    for construction in FORMATION_TEMPLATES:
+        cells = []
+        for entry in governed:
+            slots = {"COLOUR": colour, "NAME": entry} if construction == "COLOUR" else None
+            cells.append(render_cell(run_cell(entry, construction, irish, target, table, slots)))
+        lines.append(f"| {construction} | " + " | ".join(cells) + " |")
+    lines.append("")
+    return lines
 
 
 def render_gallery(entries: Sequence[Entry], targets: Sequence[tuple[str, RuleFile]],
@@ -98,4 +158,7 @@ def render_gallery(entries: Sequence[Entry], targets: Sequence[tuple[str, RuleFi
                 continue
             lines.append(f"| {construction} | " + " | ".join(cells) + " |")
         lines.append("")
+    for name, rf in targets:
+        if name == "old-irish":                                 # spec §7: the formation block
+            lines.extend(formation_block(irish, rf, table))
     return "\n".join(lines).rstrip("\n") + "\n"

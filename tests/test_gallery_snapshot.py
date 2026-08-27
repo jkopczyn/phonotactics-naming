@@ -5,17 +5,11 @@ snapshot. Regenerate with
     uv run strands gallery sources/irish/test-words.tsv --out tests/snapshots/gallery.md
 and review the diff in the commit.
 """
-import pytest
-
 from helpers import ROOT
 from strands.cli import main
 
 SNAPSHOT = ROOT / "tests" / "snapshots" / "gallery.md"
 
-# Old Irish plan Task 15 added the fifth strand's templates and the eight formations to
-# CONSTRUCTIONS, so the committed gallery is stale until Task 18 regenerates it and reviews
-# the diff (its step 4). Task 18 deletes this mark.
-@pytest.mark.xfail(strict=False, reason="gallery re-snapshot lands in Old Irish plan Task 18")
 def test_gallery_matches_the_committed_snapshot(tmp_path):
     out = tmp_path / "g.md"
     assert main(["gallery", str(ROOT / "sources" / "irish" / "test-words.tsv"),
@@ -24,3 +18,37 @@ def test_gallery_matches_the_committed_snapshot(tmp_path):
     expected = SNAPSHOT.read_text(encoding="utf-8")
     assert out.read_text(encoding="utf-8") == expected, \
         "gallery changed — regenerate and review the diff in the commit"
+
+
+# ---- Old Irish plan Task 18: the fifth column and the formation block ----------------------
+
+def test_the_gallery_has_a_fifth_column_with_the_lookup_marks():
+    """spec §7. `render_cell` already prints !FLAG — this asserts it, it asks for no code."""
+    text = (ROOT / "tests" / "snapshots" / "gallery.md").read_text(encoding="utf-8")
+    assert "old-irish" in text and "!ATTESTED" in text and "!RETRO" in text
+
+
+def test_the_formation_template_block_is_present_and_built_from_elements():
+    """R31: a whole-name lexicon row returns ATTESTED in one piece and never exercises the
+    template."""
+    text = (ROOT / "tests" / "snapshots" / "gallery.md").read_text(encoding="utf-8")
+    assert "## Old Irish formations" in text
+    for name in ("MAEL", "GILLA", "CU", "FER", "COLOUR", "MAC", "UA", "INGEN"):
+        assert name in text
+    assert "Máel" in text and "macc" in text
+
+
+def test_the_formation_block_is_a_deterministic_function_of_the_rule_files():
+    """The block is rendered from the lexicon's ELEMENT rows with G2P transcriptions
+    (`ipa:constructed`); two renders agree and every formation row is present."""
+    from strands.gallery import formation_block
+    from strands.pipeline import load_target
+    from helpers import TABLE, irish
+    oi = load_target("old-irish", TABLE)
+    lines = formation_block(irish(), oi, TABLE)
+    assert lines == formation_block(irish(), oi, TABLE)
+    assert lines[0] == "## Old Irish formations"
+    rows = [l for l in lines if l.startswith("| ")]
+    for name in ("MAEL", "GILLA", "CU", "FER", "COLOUR", "MAC", "UA", "INGEN"):
+        assert any(l.startswith(f"| {name} |") for l in rows), name
+    assert any("!ATTESTED" in l for l in rows)
