@@ -246,6 +246,32 @@ def _describe_nucleus(segments: tuple[str, ...]) -> str | None:
     return ", ".join(runs) if runs else None
 
 
+def _split_vowel_run(run: tuple[str, ...]) -> list[str]:
+    """An all-vowel run with no `VOWEL_READINGS` row of its own, as its longest registered
+    sub-runs, greedily left to right; a segment with no run of its own renders `/x/`.
+
+    `describe`'s mixed-sequence loop treats a maximal vowel run as one nucleus, so without this
+    an unregistered run (Welsh `i` reaches ('ɪ', 'ə')) recursed on itself forever. Splitting
+    over-generates rather than under-generates (spec §3), as V-21's ` + ` join already does.
+    """
+    parts: list[str] = []
+    i = 0
+    while i < len(run):
+        for j in range(len(run), i, -1):
+            sub = run[i:j]
+            if sub == run:
+                continue                   # the whole run is exactly what has no reading
+            described = _describe_nucleus(sub)
+            if described is not None:
+                parts.append(described)
+                i = j
+                break
+        else:
+            parts.append(f"/{run[i]}/")
+            i += 1
+    return parts
+
+
 def describe(segments: Sequence[str]) -> str:
     """The report's description column for a segment sequence (V-21).
 
@@ -268,7 +294,11 @@ def describe(segments: Sequence[str]) -> str:
             j = i
             while j < len(segments) and segments[j] in g2p.VOWEL_SEGMENTS:
                 j += 1
-            parts.append(describe(segments[i:j]))
+            run = segments[i:j]
+            if run == segments:
+                parts.extend(_split_vowel_run(run))   # the progress guard, see above
+            else:
+                parts.append(describe(run))
             i = j
             continue
         parts.append(describe(segments[i:i + 1]))

@@ -342,3 +342,30 @@ EXAMPLES = (
 ])
 def test_the_report_matches_its_golden(golden, text, rf, kwargs):
     assert "\n".join(lines(rf, text, **kwargs)) + "\n" == golden
+
+
+# ---- task 6 review fixes -------------------------------------------------------------------------
+
+DUT = target("dutch")
+ARA = target("arabic-egy")
+
+
+@pytest.mark.parametrize("rf,text", [(WEL, "i"), (WEL, "w"), (DUT, "e"), (DUT, "o")])
+def test_a_real_strand_letter_whose_source_is_an_unregistered_vowel_run_reports(rf, text):
+    """These reach `Alternative.segments` such as ('ɪ', 'ə'), which had no `VOWEL_READINGS`
+    row and sent `describe()` into infinite recursion."""
+    out = lines(rf, text, verified=False)
+    assert out[0].startswith(f"{text}  [")
+    assert "constraints" in out
+
+
+@pytest.mark.parametrize("rf,text,want", [
+    (WEL, "g", "k|ɡ"),
+    (DUT, "a", "aː|ɑ|a"),
+    (ARA, "ʼ", "ʔ|ʕ"),
+])
+def test_an_ambiguous_chunk_keeps_every_target_alternative(rf, text, want):
+    """Spec §3.1 / V-1: ambiguity is kept, not resolved to the first-listed source."""
+    (constraint,) = constraints(analysed(rf, text))
+    assert constraint.target == want
+    assert lines(rf, text, verified=False)[1] == f"target segments: {want}"

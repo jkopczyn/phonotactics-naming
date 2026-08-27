@@ -239,3 +239,19 @@ def test_the_contains_rate_does_not_fall():
 def test_the_ratchet_records_its_denominator():
     data = json.loads(RATCHET.read_text(encoding="utf-8"))
     assert set(data) == {"contains", "n"} and data["n"] == len(hand_ipa_rows())
+
+
+# ---- V-21: an unregistered vowel run must still terminate (task 6 review) ------------------------
+
+def test_an_unregistered_vowel_run_is_described_per_sub_run():
+    """`describe` used to recurse on the whole run forever when it had no `VOWEL_READINGS`
+    row — Welsh `i` reaches ('ɪ', 'ə'). It must make progress instead (V-21)."""
+    assert ("ɪ", "ə") not in VOWEL_READINGS
+    text = describe(("ɪ", "ə"))
+    assert " + " in text
+    assert text == describe(("ɪ",)) + " + " + describe(("ə",))
+
+
+def test_a_vowel_with_no_reading_of_its_own_falls_back_to_slashes():
+    assert ("e",) not in VOWEL_READINGS
+    assert describe(("ɪ", "e")) == describe(("ɪ",)) + " + /e/"

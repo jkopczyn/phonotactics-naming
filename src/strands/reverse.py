@@ -128,12 +128,15 @@ class Slot:
     text: str                         # the pattern text: "a", "?", "*", "[aeiou]"
     alts: tuple[Alternative, ...] = ()
     notes: tuple[str, ...] = ()
-    targets: tuple[str, ...] = ()     # the TARGET-side segments this slot prints, for the
-                                      # report's `target segments:` line. Set at parse time —
-                                      # the walk back overwrites `alts` with Irish segments, so
-                                      # the target side is not recoverable later — and the
-                                      # first-listed respell source wins when a chunk is
-                                      # ambiguous. Empty falls back to `text`.
+    targets: tuple[tuple[str, ...], ...] = ()
+                                      # the distinct TARGET-side segment sequences this slot
+                                      # prints, for the report's `target segments:` line. Set at
+                                      # parse time — the walk back overwrites `alts` with Irish
+                                      # segments, so the target side is not recoverable later.
+                                      # An ambiguous chunk keeps EVERY alternative in respell
+                                      # file order (spec §3.1, V-1); the report joins the
+                                      # segments of one alternative with " " and the
+                                      # alternatives with "|". Empty falls back to `text`.
 
 
 @dataclass(frozen=True)
@@ -282,6 +285,11 @@ def _respell_alt(source: RespellSource) -> Alternative:
                                    context=source.context, kind=kind),))
 
 
+def _dedupe_segments(sequences) -> tuple[tuple[str, ...], ...]:
+    """The distinct segment sequences, first occurrence (respell file order) winning."""
+    return tuple(dict.fromkeys(tuple(seq) for seq in sequences))
+
+
 def _class_body(text: str, start: int) -> tuple[str, int]:
     """The body of the `[...]` opening at `start`, and the index just past its `]` (V-2/V-16)."""
     end = text.find("]", start + 1)
@@ -346,7 +354,7 @@ def parse_pattern(pattern: str, chunks: dict[str, tuple[RespellSource, ...]],
         sources = chunks[chunk]
         slots.append(Slot(kind=SEG, text=chunk,
                           alts=tuple(_respell_alt(s) for s in sources),
-                          targets=sources[0].segments if sources else ()))
+                          targets=_dedupe_segments(s.segments for s in sources)))
         pos += len(chunk)
 
     return Pattern(text=text, slots=tuple(slots), notes=tuple(pattern_notes))
@@ -977,13 +985,22 @@ def _merge_lines(lines: Sequence[ConstraintLine]) -> tuple[ConstraintLine, ...]:
                                        l.description)))
 
 
+def _target_text(slot: Slot) -> str:
+    """The slot's cell of the `target segments:` line: every distinct target alternative, the
+    segments of one joined by " " and the alternatives by "|" (spec §3.1, V-1). No pick is
+    made — an ambiguous respell chunk shows all of its sources."""
+    if not slot.targets:
+        return slot.text
+    return "|".join(" ".join(alt) for alt in slot.targets)
+
+
 def constraints(pattern: Pattern) -> tuple[Constraint, ...]:
     """One `Constraint` per slot: its label, the target segments it prints, and its lines."""
     out: list[Constraint] = []
     for slot in pattern.slots:
         lines = _merge_lines([_line_of(alt) for alt in slot.alts])
         out.append(Constraint(label=slot.text,
-                              target=" ".join(slot.targets) if slot.targets else slot.text,
+                              target=_target_text(slot),
                               lines=lines, notes=slot.notes, unconstrained=not lines))
     return tuple(out)
 
