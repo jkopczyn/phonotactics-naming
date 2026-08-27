@@ -62,6 +62,7 @@ class LexEntry:
     source: str = ""
     note: str = ""
     line: int = 0
+    cells: int = len(LEXICON_COLUMNS)   # the row's ACTUAL cell count (LEX_ROW_SHAPE)
 
     @property
     def flag(self) -> str:
@@ -89,7 +90,9 @@ def _nfc(s: str) -> str:
 def read_rows(path: str | Path | None = None) -> tuple[list[str], list[LexEntry]]:
     """Read the file as-is: header cells and one LexEntry per non-blank data line, in file
     order, with 1-based line numbers. Does NOT validate — a wrong header still yields entries
-    (cells mapped positionally onto LEXICON_COLUMNS) so `validate` can report LEX_HEADER."""
+    (cells mapped positionally onto LEXICON_COLUMNS) so `validate` can report LEX_HEADER;
+    a row of the wrong width is likewise padded/cut for the entry but keeps its true count in
+    `cells` so `validate` can report LEX_ROW_SHAPE."""
     path = default_lexicon_path() if path is None else Path(path)
     try:
         text = _nfc(path.read_text(encoding="utf-8"))
@@ -104,8 +107,9 @@ def read_rows(path: str | Path | None = None) -> tuple[list[str], list[LexEntry]
         if not line.strip() or line.lstrip().startswith("#"):
             continue
         cells = [c.strip() for c in line.split("\t")]
-        cells = (cells + [""] * len(LEXICON_COLUMNS))[:len(LEXICON_COLUMNS)]
-        entries.append(LexEntry(*cells, line=lineno))
+        width = len(LEXICON_COLUMNS)
+        entries.append(LexEntry(*(cells + [""] * width)[:width], line=lineno,
+                                cells=len(cells)))
     return header, entries
 
 
@@ -138,6 +142,10 @@ def validate(header: list[str], entries: list[LexEntry], path: str | Path | None
 
     seen: dict[str, int] = {}
     for e in entries:
+        if e.cells != len(LEXICON_COLUMNS):
+            add(e.line, "LEX_ROW_SHAPE",
+                f"{e.orthography!r}: {e.cells} tab-separated cells; expected "
+                f"{len(LEXICON_COLUMNS)}")
         k = key(e.orthography)
         if not k:
             add(e.line, "LEX_NO_KEY", "empty orthography")

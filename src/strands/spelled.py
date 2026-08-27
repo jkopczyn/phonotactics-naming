@@ -65,6 +65,8 @@ MUTATIONS: tuple[str, ...] = ("", "LEN", "NAS")
 _NUCLEUS_ROLES = frozenset({"vowel", "long"})
 _CONSONANT_ROLES = frozenset({"cons", "nasal"})
 _SLENDER_LETTERS = frozenset("eéií")           # digest §10.2 conv. 5 (i)
+_U_GLIDE_AFTER = frozenset({"a", "e", "i"})    # [pokorny1914 §38]: the u-glide follows short a e i
+_REDUCES_TO_U = frozenset({"u", "o"})          # digest §10.1: non-final /u/ is written ⟨u o⟩
 _NASAL_PREFIX = "n-"
 
 # digest §10.2 conv. 1 (unwritten lenition of the voiced stops and m) and spec §11 (ii)
@@ -215,7 +217,11 @@ class SpelledWord:
         text = unicodedata.normalize("NFC", text).strip()
         if not text:
             raise SpelledError("empty spelling")
-        return cls(tokenize_spelling(text), capitalized=text[0].isupper())
+        tokens = tokenize_spelling(text)
+        # The written nasal prefix is not the name's first letter (O-32): *n-Ériu* is
+        # capitalized at the letter after ⟨n-⟩, exactly where `render` re-applies it.
+        k = len(_NASAL_PREFIX) if tokens[0] == _NASAL_PREFIX else 0
+        return cls(tokens, capitalized=k < len(text) and text[k].isupper())
 
     def with_mutation(self, name: str) -> "SpelledWord":
         if name not in MUTATIONS:
@@ -305,8 +311,11 @@ def spelling_to_ipa(word: SpelledWord, *, pairs: Mapping[str, str] | None = None
 
     1. Initial mutation (conv. 1; spec §11 (ii)): an unwritten `LEN`/`NAS` replaces the
        first token's reconstruction (`_UNWRITTEN`).
-    2. Glide reclassification (conv. 5 §36): an ⟨i⟩ that is not word-initial, follows a
-       vowel or long token and precedes a consonant token contributes NO segment.
+    2. Glide reclassification (conv. 5 §36, §38): an ⟨i⟩ that is not word-initial, follows a
+       vowel or long token and precedes a consonant token contributes NO segment; likewise a
+       ⟨u⟩ after a short ⟨a e i⟩ before a consonant token (*fiuss*) — the u-glide marks
+       Pokorny's rounded quality, which is a spelling matter only (O-4), so it is neither a
+       segment nor a nucleus.
     3. Row selection, left to right: the first row whose token matches, whose `env` holds
        and whose `left` (conv. 4) contains the last letter of the previous token.
     4. Quality (conv. 5): a consonant is SLENDER iff (i) the next non-consonant token is
@@ -317,8 +326,9 @@ def spelling_to_ipa(word: SpelledWord, *, pairs: Mapping[str, str] | None = None
        datum for "through the cluster"). A doubled token is one unit: both halves take the
        same quality. The mapping is the declared `quality-pairs`, never positional.
     5. Reduction (conv. 5 grid; digest §10.1 "non-finally, only two phonemes: /ə/ and /u/"):
-       a `vowel`-role token outside the first syllable and not word-final becomes /ə/.
-       `long` tokens never reduce; word-final vowels never reduce.
+       a `vowel`-role token outside the first syllable and not word-final becomes /u/ when
+       written ⟨u o⟩ (*lebor* /ˈLʲevur/, *domun* /ˈdoṽun/) and /ə/ otherwise (⟨a ai e i⟩).
+       `long` tokens never reduce; word-final vowels never reduce (§10.1: all ten occur).
     """
     rows = load_graphemes()
     pairs = load_quality_pairs() if pairs is None else pairs
@@ -346,7 +356,10 @@ def spelling_to_ipa(word: SpelledWord, *, pairs: Mapping[str, str] | None = None
 
     # 2
     for k in range(1, n - 1):
-        if tokens[k] == "i" and roles[k - 1] in _NUCLEUS_ROLES and roles[k + 1] in _CONSONANT_ROLES:
+        if roles[k + 1] not in _CONSONANT_ROLES:
+            continue
+        if (tokens[k] == "i" and roles[k - 1] in _NUCLEUS_ROLES) \
+                or (tokens[k] == "u" and tokens[k - 1] in _U_GLIDE_AFTER):
             roles[k] = "glide"
             segs[k] = []
 
@@ -372,7 +385,7 @@ def spelling_to_ipa(word: SpelledWord, *, pairs: Mapping[str, str] | None = None
         if roles[k] in _NUCLEUS_ROLES:
             nuclei += 1
             if roles[k] == "vowel" and nuclei > 1 and k != n - 1 and segs[k]:
-                segs[k] = ["ə"]
+                segs[k] = ["u"] if tokens[k] in _REDUCES_TO_U else ["ə"]
 
     return tuple(s for group in segs for s in group)
 

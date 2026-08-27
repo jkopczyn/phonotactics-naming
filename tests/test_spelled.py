@@ -47,6 +47,15 @@ def test_capitalization_is_metadata_not_a_token():
     assert SpelledWord.from_spelling("fer").capitalized is False
 
 
+def test_a_capital_after_the_written_nasal_prefix_is_kept():
+    """O-32 / lossless: *n-Ériu* is capitalized after the ⟨n-⟩ token, as `render` already
+    assumes (review oi-data-aligner finding 5)."""
+    w = SpelledWord.from_spelling("n-Ériu")
+    assert w.capitalized is True
+    assert w.render() == "n-Ériu"
+    assert SpelledWord.from_spelling("n-ériu").render() == "n-ériu"
+
+
 def test_the_table_is_sorted_longest_token_first():
     rows = load_graphemes()
     assert OI_ORTHOGRAPHY_PATH == ROOT / "rules" / "old-irish-orthography.tsv"
@@ -134,8 +143,35 @@ def test_unstressed_vowels_reduce_but_final_and_long_ones_do_not():
     """digest §10.2 conv. 5 grid; §10.1 'word-finally, all ten combinations occur'."""
     assert ipa("dígal") == ("dʲ", "iː", "ɣ", "ə", "l̪ˠ")
     assert ipa("claideb") == ("k", "l̪ˠ", "a", "ðʲ", "ə", "β")   # digest /klaðʲəv/
-    assert ipa("carae")[-1] == "ə"           # final ⟨-ae⟩ is /ə/ by its own row
+    assert ipa("carae")[-1] == "e"           # §41: final ⟨-ae⟩ WRITES /e/ after a broad C
+    assert ipa("daltai")[-1] == "i"          # §41: final ⟨-ai⟩ writes /i/
     assert ipa("brithem") == ("bʲ", "ɾʲ", "i", "θʲ", "ə", "β̃")  # non-initial ⟨m⟩ = /ṽ/
+
+
+@pytest.mark.parametrize("text,final", [
+    ("marba", "a"), ("léicea", "a"), ("marbae", "e"), ("léice", "e"), ("marbai", "i"),
+    ("léici", "i"), ("súlo", "o"), ("doirseo", "o"), ("marbu", "u"), ("léiciu", "u"),
+])
+def test_the_ten_final_vowel_spellings_of_digest_10_1(text, final):
+    """digest §10.1: word-finally all ten short-vowel × quality combinations occur, and the
+    §40/§41 digraphs ⟨-ea -eo -iu -ae -ai⟩ spell the vowel, not a schwa (review oi-data-aligner
+    finding 1)."""
+    assert ipa(text)[-1] == final
+
+
+def test_medial_u_and_o_reduce_to_u_not_schwa():
+    """digest §10.1: non-finally only /ə/ (written ⟨a ai e i⟩) and /u/ (written ⟨u o⟩) —
+    *lebor* /ˈLʲevur/, *domun* /ˈdoṽun/ (review oi-data-aligner finding 2)."""
+    assert ipa("lebor") == ("lʲ", "e", "β", "u", "ɾˠ")
+    assert ipa("domun") == ("d̪ˠ", "o", "β̃", "u", "n̪ˠ")
+
+
+def test_the_u_glide_is_not_a_nucleus():
+    """[pokorny1914-oldirish-grammar §38]: *fiuss* — a ⟨u⟩ glide after short ⟨a e i⟩ before a
+    syllable-final consonant. Under O-4 (three-way quality is spelling only) it contributes no
+    segment and never becomes a /ə/ syllable (review oi-data-aligner finding 3)."""
+    assert ipa("fiuss") == ("fʲ", "i", "sˠ")
+    assert ipa("firu")[-1] == "u"            # §38's other example: word-FINAL ⟨u⟩ is a vowel
 
 
 @pytest.mark.parametrize("text,expected", [

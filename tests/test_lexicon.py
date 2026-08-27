@@ -4,7 +4,7 @@ import pytest
 from helpers import ROOT
 from strands.check import check_lexicon_file
 from strands.lexicon import (FORM_STATUSES, GENDERS, KINDS, LEXICON_COLUMNS, STATUSES, STEMS,
-                             LexEntry, default_lexicon_path, key, read_lexicon, read_rows)
+                             LexEntry, LexiconError, default_lexicon_path, key, read_lexicon, read_rows)
 
 HEADER = "\t".join(LEXICON_COLUMNS)
 
@@ -117,6 +117,19 @@ def test_a_blank_that_explains_itself_is_not_a_warning(tmp_path, prefix):
     the sources do not show is inferred at runtime (O-33). Neither is a backlog."""
     path = write(tmp_path, row(**dict(ATTESTED, stem="", note=prefix + " x")))
     assert codes(path) == [] and codes(path, severity="warning") == []
+
+
+@pytest.mark.parametrize("cells", [8, 10])
+def test_a_row_with_the_wrong_cell_count_is_an_error(tmp_path, cells):
+    """The schema applies to every row, not only the header: a short row is not padded and a
+    long one is not truncated silently (review oi-data-aligner finding 4)."""
+    good = row(**ATTESTED).split("\t")
+    bad = good[:cells] if cells < len(good) else good + ["stray"]
+    path = write(tmp_path, "\t".join(bad))
+    assert "LEX_ROW_SHAPE" in codes(path)
+    assert [e.line for e in check_lexicon_file(path) if e.code == "LEX_ROW_SHAPE"] == [2]
+    with pytest.raises(LexiconError):
+        read_lexicon(path)
 
 
 def test_a_wrong_header_is_reported_not_guessed(tmp_path):
