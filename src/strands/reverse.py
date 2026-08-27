@@ -690,6 +690,14 @@ def un_substitute(pattern: Pattern, smap: SourceMap, *,
 WIDEN_SECTIONS = ("repair", "post-stress")
 
 
+def _group_note(steps: Sequence[Step], extra: Sequence[str] = ()) -> str:
+    """`could be an insertion (id, id, …)`, followed by any source notes (backref copies)."""
+    ids = list(dict.fromkeys(step.rule_id for step in steps))
+    parts = [f"could be an insertion ({', '.join(ids)})"]
+    parts.extend(note for note in dict.fromkeys(extra) if note)
+    return "; ".join(parts)
+
+
 def _epenthesis_groups(slots: Sequence[Slot], smap: SourceMap, section: str
                        ) -> list[OptionalGroup]:
     """Every consecutive slot SPAN an insertion of this section could have produced (V-30).
@@ -698,8 +706,14 @@ def _epenthesis_groups(slots: Sequence[Slot], smap: SourceMap, section: str
     two-segment insertion is one width-two group and never two independent optional slots. A
     group whose first segment the `[respell]` section deletes is unreachable — that is V-30's
     accepted miss, recorded as an `invert_respell` note.
+
+    EVERY epenthesis source of the span is kept, not just the first: Welsh `repair:272`
+    (`# _ s {p t k}`) and `repair:276` (`# _ s {m n}`) both insert `/ə/`, and a span they can
+    both explain is ONE optional group carrying BOTH steps, so reporting can name each
+    insertion context. Which source's environment the surrounding slots actually satisfy is not
+    decided here — the over-generating reading (spec §3); `verify` re-runs the forward engine.
     """
-    found: list[OptionalGroup] = []
+    spans: dict[tuple[int, int], list[Source]] = {}
     for inserted, sources in smap.items():
         epenthetic = [s for s in sources if s.kind == "epenthesis"]
         if not epenthetic or not inserted:
@@ -712,32 +726,57 @@ def _epenthesis_groups(slots: Sequence[Slot], smap: SourceMap, section: str
             if not all(any(alt.segments == (seg,) for alt in slot.alts)
                        for slot, seg in zip(span, inserted)):
                 continue
-            source = epenthetic[0]
-            found.append(OptionalGroup(
-                start=start, stop=start + width,
-                steps=(Step(stage=section, rule_id=source.rule_id, tag=source.tag,
-                            context=source.context, kind="epenthesis"),),
-                note=source.note or f"could be an insertion ({source.rule_id})"))
+            bucket = spans.setdefault((start, start + width), [])
+            for source in epenthetic:
+                if source not in bucket:
+                    bucket.append(source)
+    found: list[OptionalGroup] = []
+    for (start, stop), sources in sorted(spans.items()):
+        steps = tuple(dict.fromkeys(
+            Step(stage=section, rule_id=s.rule_id, tag=s.tag, context=s.context,
+                 kind="epenthesis") for s in sources))
+        found.append(OptionalGroup(start=start, stop=stop, steps=steps,
+                                   note=_group_note(steps, [s.note for s in sources])))
     return found
+
+
+def _merge_spans(candidates: Sequence[OptionalGroup]) -> list[OptionalGroup]:
+    """One group per span: two sections (or a pattern's own group and a new one) that mark the
+    SAME slots optional are one optional group, and their steps merge rather than one being
+    dropped — V-30's provenance must survive."""
+    merged: dict[tuple[int, int], tuple[list[Step], list[str]]] = {}
+    for group in candidates:
+        steps, notes = merged.setdefault((group.start, group.stop), ([], []))
+        for step in group.steps:
+            if step not in steps:
+                steps.append(step)
+        if group.note and group.note not in notes:
+            notes.append(group.note)
+    out: list[OptionalGroup] = []
+    for (start, stop), (steps, notes) in merged.items():
+        note = notes[0] if len(notes) == 1 else _group_note(steps)
+        out.append(OptionalGroup(start=start, stop=stop, steps=tuple(steps), note=note))
+    return out
 
 
 def _resolve_groups(candidates: Sequence[OptionalGroup], notes: list[str]
                     ) -> tuple[OptionalGroup, ...]:
-    """Sorted by `(start, stop)` and non-overlapping; on an overlap the earlier, then longer
-    group wins and the other is dropped with a note (V-30)."""
-    ordered = sorted(candidates, key=lambda g: (g.start, -(g.stop - g.start), g.steps[0].rule_id))
+    """Sorted by `(start, stop)` and non-overlapping; equal spans MERGE (`_merge_spans`), and on
+    a partial overlap the earlier, then longer group wins and the other is dropped with a note
+    (V-30)."""
+    ordered = sorted(_merge_spans(candidates),
+                     key=lambda g: (g.start, -(g.stop - g.start), g.steps[0].rule_id))
     kept: list[OptionalGroup] = []
     for group in ordered:
         clash = next((k for k in kept if k.start < group.stop and group.start < k.stop), None)
         if clash is None:
             kept.append(group)
             continue
-        if (clash.start, clash.stop) != (group.start, group.stop):
-            note = (f"{group.steps[0].rule_id} could insert slots "
-                    f"{group.start}-{group.stop - 1}, which overlaps "
-                    f"{clash.steps[0].rule_id}; dropped")
-            if note not in notes:
-                notes.append(note)
+        note = (f"{group.steps[0].rule_id} could insert slots "
+                f"{group.start}-{group.stop - 1}, which overlaps "
+                f"{clash.steps[0].rule_id}; dropped")
+        if note not in notes:
+            notes.append(note)
     return tuple(sorted(kept, key=lambda g: (g.start, g.stop)))
 
 

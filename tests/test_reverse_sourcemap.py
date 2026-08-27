@@ -413,3 +413,29 @@ def test_widening_only_grows_the_slot_set():
     after = widen(before, WEL, IRISH, TABLE)
     for b, a in zip(before.slots, after.slots):
         assert {x.segments for x in b.alts} <= {x.segments for x in a.alts}
+
+
+def test_a_group_keeps_every_epenthesis_source_of_its_span():
+    """V-30 review fix: draft 1 kept only `epenthetic[0]`, so Welsh `ysmy` named `repair:272`
+    (`# _ s {p t k}`) and silently lost `repair:276` (`# _ s {m n}`), the rule that actually
+    fits — provenance Task 6 has to print."""
+    p = pat(WEL, "ysmy")
+    (initial,) = [g for g in p.groups if (g.start, g.stop) == (0, 1)]
+    ids = {st.rule_id for st in initial.steps}
+    assert {"repair:272", "repair:276"} <= ids
+    assert "repair:272" in initial.note and "repair:276" in initial.note
+
+
+def test_group_steps_are_deduped_and_each_span_appears_once():
+    """Equal spans MERGE (their steps join) instead of one being dropped."""
+    p = pat(WEL, "ysmy")
+    spans = [(g.start, g.stop) for g in p.groups]
+    assert len(spans) == len(set(spans))
+    for g in p.groups:
+        assert len(g.steps) == len(set(g.steps))
+
+
+def test_a_multi_source_group_is_still_one_atomic_group():
+    """The extra sources must not reintroduce half-groups (V-30/F4)."""
+    p = pat(SYNTH_GROUP, "qisk")
+    assert [(g.start, g.stop) for g in p.groups] == [(0, 2)]
