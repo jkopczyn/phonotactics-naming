@@ -29,7 +29,8 @@ constraint set, `render_pattern` and `report` print §4; and `expand`/`verify` (
 pattern into concrete Irish candidates, cheapest first under a hard cap of 2000, spell each one
 with `g2p_inverse.spell` and run EVERY spelling forward through the real engine, keeping only
 what `fnmatchcase` says really matches (V-22 … V-26, V-34). Nothing is printed as a concrete
-word that has not been through `run_entry`.
+word that has not been through `run_entry`. `old_irish_matches` is the one strand that
+skips all of this: Old Irish is a lexicon fnmatch and nothing else (R6).
 """
 from __future__ import annotations
 
@@ -54,7 +55,7 @@ __all__ = [
     "source_map", "un_substitute", "WIDEN_SECTIONS", "widen", "RULE_COL", "FORWARD_STAGES",
     "ConstraintLine", "Constraint", "Example", "format_rule_line", "constraints",
     "dropped_lines", "render_pattern", "report", "CAP", "PALETTE", "STAR_LENGTHS",
-    "Candidate", "rank", "expand", "verify",
+    "Candidate", "rank", "expand", "verify", "old_irish_matches", "old_irish_report",
 ]
 
 ANY, ONE, SEG = "any", "one", "seg"
@@ -1511,3 +1512,36 @@ def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTa
         if len(examples) == limit:
             break
     return tuple(examples), tried, cap_hit
+
+
+# ---- old-irish (R6, spec §2) -------------------------------------------------------------------
+
+def old_irish_matches(pattern: str, path=None) -> tuple[tuple[str, str, str], ...]:
+    """Old Irish is a lexicon lookup only (R6): no constraint set, no inversion.
+
+    Every lexicon row with a non-empty `oi_nom` whose citation form matches `pattern` under the
+    same fnmatch as everything else (V-25), as `(oi_nom, orthography, flag)`, sorted by
+    `lexicon.key(orthography)`. Rows with no `oi_nom` (`status = none`) are skipped: there is no
+    Old Irish form to match against.
+    """
+    from . import lexicon
+    rows = [(entry.oi_nom, entry.orthography, entry.flag)
+            for entry in lexicon.read_lexicon(path).values()
+            if entry.oi_nom and _matches(entry.oi_nom, pattern)]
+    return tuple(sorted(rows, key=lambda row: lexicon.key(row[1])))
+
+
+def old_irish_report(word: str, matches: Sequence[tuple[str, str, str]]) -> list[str]:
+    """The old-irish block: the header, the "§3 does not apply" note, and the match table."""
+    out = [f"{word}  [old-irish]",
+           "note: old-irish is lexicon lookup only; §3's constraint set does not apply.",
+           "",
+           "matches"]
+    if not matches:
+        out.append("  none")
+        return out
+    w1 = max(len(row[0]) for row in matches) + 2
+    w2 = max(len(row[1]) for row in matches) + 2
+    for oi_nom, orthography, flag in matches:
+        out.append(f"  {oi_nom:<{w1}}{orthography:<{w2}}{flag}".rstrip())
+    return out

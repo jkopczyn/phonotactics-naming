@@ -2,6 +2,7 @@
 
     strands run   INPUT.tsv [--strand X|all] [--construction NAME|all] [--out out.tsv]
     strands explain WORD --strand X [--construction NAME] [--orthography TEXT]
+    strands reverse PATTERN --strand X [--examples N] [--ipa]
     strands gallery INPUT.tsv [--out gallery.md]
     strands lint  INPUT.tsv [--accept]
     strands check [--features PATH] RULES.rules|LEXICON.tsv ...
@@ -25,6 +26,16 @@ is SKIPPED: the row is still written, with empty output columns and a `skipped:.
 constructed from the spelling by `strands.g2p` (spec §5, milestone 8), which also gets a
 `note` saying so.
 
+`reverse` walks the pipeline backwards (reverse spec): given one strand and a target
+respelling — possibly a glob such as `Ar*v*` — it prints the constraint set (which Irish
+spellings produce each target letter, what is unconstrained, what is excluded), an Irish
+spelling pattern, and a few examples, every one of which has been run FORWARD through the real
+engine before it is printed. It is a guessing aid: over-generating, allowed to miss, and it
+never touches `rules/` or a forward stage. `--ipa` takes the pattern as target IPA instead of a
+respelling; `--examples 0` skips the verification pass; a multi-word pattern is reported word by
+word. `--strand all` is refused (the constraint sets are per strand), and `--strand old-irish`
+is a lexicon lookup only (R6) with a note saying the constraint set does not apply.
+
 Old Irish (plan Task 17; O-17, O-23): a construction the strand has no template for
 (`PATRO_NI` for old-irish, `MAEL` for welsh) is a `skipped:construction-not-in-strand` row.
 The Old Irish lookup keys on the **orthography**, which a bare IPA `WORD` cannot supply, so
@@ -43,7 +54,7 @@ from typing import Sequence
 
 from . import __version__
 
-COMMANDS = ("run", "explain", "gallery", "lint", "check")
+COMMANDS = ("run", "explain", "gallery", "lint", "check", "reverse")
 DEFAULT_FEATURES = Path(__file__).resolve().parents[2] / "rules" / "features.tsv"
 RUN_COLUMNS = ("orthography", "construction", "strand", "respelling", "ipa",
                "flags", "fallbacks", "assumptions")
@@ -372,6 +383,82 @@ def _check(argv: list[str]) -> int:
     return 1 if failed else 0
 
 
+# ---- reverse (reverse spec §2, §4; R1, R6) ----------------------------------------------------
+
+_DEFAULT_EXAMPLES = 8
+
+
+def _examples_count(value: str | bool | None) -> int:
+    """`--examples N`, N a non-negative integer (default 8; 0 skips verification)."""
+    if value is None:
+        return _DEFAULT_EXAMPLES
+    text = str(value)
+    if not text.isdigit():           # rejects "-1", "x", "" and "+3" alike
+        raise UsageError("--examples takes a non-negative integer")
+    return int(text)
+
+
+def cmd_reverse(args: Sequence[str]) -> int:
+    """`strands reverse PATTERN --strand X [--examples N] [--ipa]` (reverse spec §2, §4).
+
+    One block per whitespace-separated word, in input order, blank-line separated. Everything
+    the block claims about a concrete word has been through `run_entry` first (spec §1); the
+    parsers' own `ReverseError`s (an unclosed `[`, a `[!…]` class, a substring that is not a
+    segment) are usage errors, exit 2.
+    """
+    from . import reverse
+    (raw_pattern,), opts = _parse(args, {"--strand": True, "--examples": True, "--ipa": False}, 1)
+    if "--strand" not in opts:
+        raise UsageError("reverse needs --strand")
+    value = str(opts["--strand"])
+    if value == "all":
+        raise UsageError("reverse takes one strand, not all (the constraint sets are per strand)")
+    (strand,) = _strands(value)
+    ipa_mode = bool(opts.get("--ipa"))
+    if strand == "old-irish" and ipa_mode:
+        raise UsageError("--ipa is meaningless for old-irish (lexicon lookup only)")
+    limit = _examples_count(opts.get("--examples"))
+    words = raw_pattern.split()
+    if not words:
+        raise UsageError("reverse needs a pattern")
+
+    blocks: list[list[str]] = []
+    if strand == "old-irish":
+        # R6: no inversion at all, so no rule files are loaded for this branch.
+        from .lexicon import LexiconError
+        try:
+            for word in words:
+                blocks.append(reverse.old_irish_report(word, reverse.old_irish_matches(word)))
+        except LexiconError as e:
+            raise RuntimeError(str(e)) from e
+    else:
+        table, irish, targets = _load([strand])
+        _, rf = targets[0]
+        chunks: dict[str, tuple] = {}
+        chunk_notes: tuple[str, ...] = ()
+        if not ipa_mode:
+            chunks, chunk_notes = reverse.invert_respell(rf, table)
+        smap, deletions, notes = reverse.source_map("substitute", rf, irish, table)
+        for word in words:
+            try:
+                pattern = (reverse.parse_ipa_pattern(word, rf, table) if ipa_mode
+                           else reverse.parse_pattern(word, chunks, notes=chunk_notes))
+            except reverse.ReverseError as e:
+                raise UsageError(str(e)) from e
+            pattern = reverse.widen(pattern, rf, irish, table)
+            pattern = reverse.un_substitute(pattern, smap, deletions=deletions, notes=notes)
+            examples: tuple[reverse.Example, ...] = ()
+            tried, cap_hit = 0, False
+            if limit:
+                examples, tried, cap_hit = reverse.verify(
+                    pattern, rf, irish, table, limit=limit, ipa_mode=ipa_mode)
+            blocks.append(reverse.report(word, strand, pattern, examples, tried=tried,
+                                         cap_hit=cap_hit, verified=bool(limit)))
+
+    _write("\n\n".join("\n".join(block) for block in blocks) + "\n", None)
+    return 0
+
+
 # ---- dispatch -------------------------------------------------------------------------------
 
 _USAGE = {
@@ -379,8 +466,10 @@ _USAGE = {
     "explain": "strands explain WORD --strand X [--construction NAME] [--orthography TEXT]",
     "gallery": "strands gallery INPUT.tsv [--out gallery.md]",
     "lint": "strands lint INPUT.tsv [--accept]",
+    "reverse": "strands reverse PATTERN --strand X [--examples N] [--ipa]",
 }
-_HANDLERS = {"run": cmd_run, "explain": cmd_explain, "gallery": cmd_gallery, "lint": cmd_lint}
+_HANDLERS = {"run": cmd_run, "explain": cmd_explain, "gallery": cmd_gallery, "lint": cmd_lint,
+             "reverse": cmd_reverse}
 
 
 def main(argv: list[str] | None = None) -> int:
