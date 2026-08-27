@@ -1047,7 +1047,7 @@ def parse_pattern(pattern: str, chunks: dict[str, tuple[RespellSource, ...]],
 # reaches the report and the CLI. Every caller passes `notes=`; a helper that drops them is a bug.
 # Each test module that parses real rule files defines
 #     def _parse(rf, text): chunks, notes = invert_respell(rf, TABLE); return parse_pattern(text, chunks, notes=notes)
-# and `cmd_reverse` does the same. Task 3 test: `test_respell_notes_reach_pattern_notes` — a synthetic
+# and `cmd_reverse` does the same inline (cli.py already uses the name `_parse` for its argument parser). Task 3 test: `test_respell_notes_reach_pattern_notes` — a synthetic
 # `[respell]` with `x -> "" / # _` parsed via `_parse` yields a `Pattern.notes` entry containing `respell:` and `unreachable`.
 def parse_ipa_pattern(pattern: str, target: RuleFile, table: FeatureTable) -> Pattern
 ```
