@@ -111,3 +111,18 @@ the Old Irish spec.
 
 Reviews and logs: `docs/plans/review-{core,stress-irish,targets,final}.md`,
 `notes/engine-build-log.md`.
+
+## Addendum 2026-08-27: G2P and the Old Irish strand
+
+- **G2P** (`src/strands/g2p.py`): rows without IPA get a constructed transcription (73% exact
+  against the attested test words; compounds are the weak class — hyphenate or supply IPA).
+  `lint` shows it, `--accept` writes it, outputs carry `ipa:constructed`.
+- **Old Irish strand** (`--strand old-irish`): lookup of attested forms (lexicon of 302 rows,
+  270 attested + 10 Middle Irish tier, 12% sample-verified twice) else a spelling-aware
+  retro-filter; grammar runs on the written form; formation templates MAEL GILLA CU FER
+  COLOUR MAC UA INGEN. On the 144 test words: 63 attested, 60 retro, 21 loan/late. Filter
+  regression 0.31 exact / 0.69 within one edit over 58 headwords — the filter is a designed
+  reversal, as the spec says; lookup carries the names that matter.
+- Decisions to revisit: `ua` renders as the attested Old Irish *aue* (later *úa*); `mac` as
+  *macc*; *stríoc* → *strícc* (post-vocalic doubling incl. after long vowels); MAEL/GILLA
+  unlenited per attestation, CU/INGEN lenite.
