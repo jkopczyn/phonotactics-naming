@@ -14,8 +14,8 @@ def test_all_41_hand_rows_present():
     for s in HAND:
         assert s in segs, s
 
-def test_total_row_count_is_114():
-    assert len(rows()) == 114        # 73 PHOIBLE + 41 hand
+def test_total_row_count_is_117():
+    assert len(rows()) == 117        # 73 PHOIBLE + 41 hand + 3 input aliases (dˠ tˠ rˠ)
 
 def test_no_length_marked_consonant_rows():
     """Gemination is repeated segments, not a length diacritic (I-2)."""

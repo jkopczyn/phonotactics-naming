@@ -37,3 +37,12 @@ def test_ciara_adapts_the_same_either_way(strand):
     canonical = _run("ˈkiəɾˠə", strand)
     assert variant.ipa == canonical.ipa
     assert variant.respelling == canonical.respelling
+
+
+def test_velarized_coronal_spelling_aliases():
+    """Owner trial 2026-08-26: `dˠ tˠ rˠ` (no dental bridge) are accepted as input aliases of
+    d̪ˠ t̪ˠ ɾˠ, like the existing lˠ/nˠ aliases (irish.rules [normalize])."""
+    for strand in ("welsh", "arabic-egy", "georgian", "dutch"):
+        assert _run("ˈaɾˠdˠ.ɣəlˠ", strand).ipa == _run("ˈaɾˠd̪ˠ.ɣəl̪ˠ", strand).ipa
+        assert _run("tˠiː", strand).ipa == _run("t̪ˠiː", strand).ipa
+        assert _run("rˠiː", strand).ipa == _run("ɾˠiː", strand).ipa

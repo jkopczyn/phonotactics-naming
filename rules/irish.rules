@@ -247,6 +247,9 @@ a  -> ɪ  / _ SLEN #     %design # design: digest §3.5 *mac* -> *a mhic*
 lˠ  -> l̪ˠ          %design # input alias, digest §1.1 lines 130-141 [wiki-help-ipa-irish note 5]
 l̠ʲ  -> lʲ          %design # ditto, note 5
 nˠ  -> n̪ˠ          %design # ditto, note 6
+dˠ  -> d̪ˠ          %design # input alias (no dental bridge), owner trial 2026-08-26
+tˠ  -> t̪ˠ          %design # ditto
+rˠ  -> ɾˠ          %design # ditto: broad r written as a trill
 n̠ʲ  -> nʲ          %design # ditto, note 6
 g   -> ɡ           %design # ASCII duplicate of U+0261, tooling only (I-34)
 ɑ   -> a           %design # user transcription only, digest line 27 — NOT a digest §1.1 claim

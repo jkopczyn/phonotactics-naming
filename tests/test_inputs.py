@@ -130,3 +130,14 @@ def test_unmarked_input_inflects_to_the_canonical_genitive():
     e = infer(Entry("mac", ipa="mak", gender="m"), IRISH, TABLE)
     assert e.declension == "m1" and e.gen_ipa == "mʲɪc"
     assert "ˈ" not in e.gen_ipa
+
+
+def test_ipa_column_accepts_slash_and_bracket_delimiters(tmp_path):
+    """Owner request 2026-08-27: `/iːˈdɑːn/` is read as `iːˈdɑːn` (also `[...]`), for ipa,
+    gen_ipa and pl_ipa; a bare transcription is unchanged."""
+    f = tmp_path / "in.tsv"
+    f.write_text("orthography\tipa\tgen_ipa\nÉadan\t/iːˈdɑːn/\t[iːˈdɑːnʲ]\nSeán\tʃaːnˠ\t\n",
+                 encoding="utf-8")
+    rows = read_input(f)
+    assert rows[0].ipa == "iːˈdɑːn" and rows[0].gen_ipa == "iːˈdɑːnʲ"
+    assert rows[1].ipa == "ʃaːnˠ"

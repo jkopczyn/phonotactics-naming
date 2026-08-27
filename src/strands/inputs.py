@@ -98,6 +98,14 @@ def _read_rows(path: str | Path) -> tuple[list[str], list[dict[str, str]]]:
     return header, rows
 
 
+def _strip_delims(ipa: str) -> str:
+    """Accept `/…/` and `[…]` around a transcription (owner request 2026-08-27): one wrapping
+    pair of slashes or square brackets is removed; anything else is left alone."""
+    t = ipa.strip()
+    if len(t) >= 2 and ((t[0] == "/" and t[-1] == "/") or (t[0] == "[" and t[-1] == "]")):
+        return t[1:-1].strip()
+    return ipa
+
 def read_input(path: str | Path) -> list[Entry]:
     """Header must contain `orthography`; unknown columns (e.g. test-words.tsv's `features`)
     are ignored; missing ones read as "" (so `infer()` fills and tags them). A row with no
@@ -110,6 +118,8 @@ def read_input(path: str | Path) -> list[Entry]:
         if not row.get("orthography"):
             continue
         fields = {c: row.get(c, "") for c in INPUT_COLUMNS}
+        for k in ("ipa", "gen_ipa", "pl_ipa"):
+            fields[k] = _strip_delims(fields[k])
         assumptions = ("skipped:no-ipa",) if not fields["ipa"] else ()
         out.append(Entry(**fields, assumptions=assumptions))
     return out
