@@ -13,7 +13,7 @@ lexicon = rules/old-irish-lexicon.tsv
 orthography = rules/old-irish-orthography.tsv
 punctum = on
 # spec §11: an EXPLICIT declared mapping. `-` = no partner. Read by spelled.py's quality pass.
-quality-pairs = pˠ:pʲ bˠ:bʲ t̪ˠ:tʲ d̪ˠ:dʲ k:c ɡ:ɟ fˠ:fʲ sˠ:ʃ x:ç ɣ:ɣʲ β:βʲ β̃:β̃ʲ ð:ðʲ θ:θʲ mˠ:mʲ n̪ˠ:nʲ ŋ:ɲ l̪ˠ:lʲ ɾˠ:ɾʲ h:h w:-
+quality-pairs = pˠ:pʲ bˠ:bʲ t̪ˠ:tʲ d̪ˠ:dʲ k:c ɡ:ɟ fˠ:fʲ sˠ:ʃ x:ç ɣ:ɣʲ β:βʲ β̃:β̃ʲ ð:ðʲ θ:θʲ mˠ:mʲ n̪ˠ:nʲ ŋ:ɲ l̪ˠ:lʲ ɾˠ:ɾʲ h:h w:- vˠ:vʲ
 
 [inventory]
 # digest §10.1 chart [wiki-old-irish §Consonants]. Quality is NOT reversed (spec §4, O-3).
@@ -38,14 +38,107 @@ i e a o u iː eː aː oː uː ə
 marginal: pˠ pʲ w vʲ ə æ
 
 [classes]
-# spec §12.J / I-41, extended with the Old Irish lenited series (O-3).
-BROAD = pˠ bˠ t̪ˠ d̪ˠ fˠ sˠ w mˠ n̪ˠ l̪ˠ ɾˠ k ɡ x ɣ ŋ β β̃ ð θ
-SLEN  = pʲ bʲ tʲ dʲ fʲ ʃ vʲ mʲ nʲ lʲ ɾʲ c ɟ ç ɣʲ ɲ βʲ β̃ʲ ðʲ θʲ
+# spec §12.J / I-41, extended with the Old Irish lenited series (O-3). The modern-only
+# members `vˠ` and `j` (Connacht [vˠ] for /w/; slender ⟨dh gh⟩ = /j/) are kept from the
+# irish.rules copy: [substitute] matches them BY CLASS + spelling before rewriting them
+# (Task 9; without them `[BROAD orth="bh"]` misses *dubh* /d̪ˠʊvˠ/ and `[SLEN orth="dh"]`
+# never fires). `vˠ:vʲ` in quality-pairs exists only so the class test's pairing holds.
+BROAD = pˠ bˠ t̪ˠ d̪ˠ fˠ sˠ w vˠ mˠ n̪ˠ l̪ˠ ɾˠ k ɡ x ɣ ŋ β β̃ ð θ
+SLEN  = pʲ bʲ tʲ dʲ fʲ ʃ vʲ mʲ nʲ lʲ ɾʲ c ɟ ç j ɲ ɣʲ βʲ β̃ʲ ðʲ θʲ
 # digest §2.4: the epenthesis environment is after l n r m (O-15).
 SONORANT = mˠ mʲ n̪ˠ nʲ ŋ ɲ l̪ˠ lʲ ɾˠ ɾʲ
 # UNMARKED is declared for parity with the other rule files and is NOT used here: this file
 # has no [normalize] section, which is UNMARKED's only consumer (S17).
 UNMARKED = p b t d f v s m n l r
+
+[substitute]
+# The retro-filter (spec §4, §11; plan Task 9). Spelling-driven reversals read the modern
+# orthographic tag of each segment (`@orth`, `orth=` — O-6); sound-driven ones apply to every
+# word, tagged or not (O-7). The strand takes the CITATION form, so no modern lenition or
+# eclipsis is reversed here (spec §11). Deliberately NOT reversed (spec §4): quality, vowel
+# length, cluster shape. No rule deletes a final vowel (log finding 4: *cara ~ carae*); the
+# ending marker of spec §11 is Task 11's. Rules run in file order and a rewritten segment
+# KEEPS its orth tag (word.replaced), which is why the ⟨th⟩ block below is ordered as it is.
+# Tags: %attested where a lexicon pair instantiates the rule (spec §4, R17), else %design.
+#
+# (a) Lenition digraphs -> the lenited series (digest §10.1 chart; §10.2 point 1: "written
+#     ph th ch when lenited", point 2: ⟨b d g⟩ non-initially = /v ð ɣ/). Each pair keeps the
+#     modern quality (R11): the broad and slender branches are matched by class + spelling.
+[BROAD orth="bh"] -> β                  %attested # digest §10.1; lexicon dubh ~ dub, sliabh ~ slíab
+[SLEN  orth="bh"] -> βʲ                 %attested # digest §10.1; lexicon bhí (modern /vʲ/) ~ bí
+# ⟨mh⟩ -> /β̃/ is a good DEFAULT, not a law (S16): *naomh ~ noíb* and *claíomh ~ claideb* are
+# attested rows where modern ⟨mh⟩ descends from Old Irish ⟨b⟩ /β/; the lexicon wins there.
+[BROAD orth="mh"] -> β̃                  %attested # digest §10.1; lexicon lámh ~ lám, Domhnall ~ Domnall
+[SLEN  orth="mh"] -> β̃ʲ                 %attested # digest §10.1; lexicon Niamh ~ Niam
+[BROAD orth="dh"] -> ð                  %attested # digest §10.2 point 2; lexicon adharc ~ adarc
+# Modern slender ⟨dh gh⟩ is the glide /j/ (in SLEN, per the I-41 copy above).
+[SLEN  orth="dh"] -> ðʲ                 %design   # digest §10.2 point 2 (slender ⟨dh⟩ = /ðʲ/, §10.1 chart)
+[BROAD orth="gh"] -> ɣ                  %attested # digest §10.2 point 2; lexicon Lughaidh ~ Lugaid
+[SLEN  orth="gh"] -> ɣʲ                 %attested # digest §10.2 point 2; lexicon Lughaidh ~ Lugaid (final ⟨-aidh⟩)
+[BROAD orth="ch"] -> x                  %attested # digest §10.2 point 1; lexicon cloch ~ cloch (identity: fixes /x/)
+[SLEN  orth="ch"] -> ç                  %attested # digest §10.2 point 1; lexicon cheann ~ cenn (identity: fixes /ç/ = /xʲ/, O-1)
+# ⟨th⟩: modern /h/ carries NO quality mark, so `[BROAD orth="th"]`/`[SLEN orth="th"]` can
+# never match it. The tag fixes the segment as /θ/ (identity in spelling: *cath ~ cath*);
+# the quality then follows the modern caol-le-caol convention exactly as irish.rules
+# [normalize] gives it to an unmarked consonant (following vowel, else preceding vowel at
+# the word edge). Only ⟨th⟩ yields /θ/ here, so the quality rules need no tag.
+@orth("th") -> θ                        %attested # digest §10.2 point 1 (⟨th⟩ = /θ/); lexicon cath ~ cath, bláth ~ bláth
+θ -> θʲ / _ [V +front]                  %design   # digest §10.2 point 5 (quality from the glide vowel); irish.rules [normalize] (a)
+θ -> θʲ / [V +front] _ #                %design   # digest §10.2 point 5; irish.rules [normalize] (b)
+# ⟨ph⟩ and ⟨sh⟩ occur in NONE of the 270 attested modern keys (log finding 3): these lines
+# are %design and untested by the regression. Their silence is not coverage.
+[BROAD orth="ph"] -> fˠ                 %design   # digest §10.2 point 1 (⟨ph⟩ = /f/); identity, fixes the segment; no attested pair
+[SLEN  orth="ph"] -> fʲ                 %design   # digest §10.2 point 1; identity; no attested pair
+# ⟨sh⟩ is /h/ or [ç] today; lenited s is /h/ in Old Irish whatever the quality (O-5), and
+# /h/ is in no quality class, so one untyped line covers both modern values.
+@orth("sh") -> h                        %design   # digest §10.1 (/h/ the lenition product of s, spec §11 (iii)); no attested pair
+#
+# (b) Modern ⟨ao⟩ -> ⟨áe⟩ (spec §8 row O1, O-13): TWO segments, the O-28 value of ⟨aí⟩/⟨áe⟩
+#     (R13: a single /aː/ respells as ⟨á⟩ and makes ⟨áe⟩ unwritable). ⟨óe⟩ is lexicon-only.
+@orth("ao") -> a i                      %design   # digest §10.1 diphthongs [pokorny1914-oldirish-grammar p.6 §4]; §10.8 conflict 5 (⟨aí⟩ ≠ ⟨á⟩+glide)
+#
+# (c) ⟨ia ua⟩ -> ⟨ía úa⟩: the FIRST element only (R12, positional tags O-6). Old Irish /ia ua/
+#     are the O-28 values; the modern second element is the reduction vowel.
+@orth("ia:1") -> i                      %attested # digest §10.1 diphthongs; lexicon iasc ~ íasc, grian ~ grían, Niall ~ Níall
+@orth("ia:2") -> a                      %attested # digest §10.1 diphthongs; lexicon iasc ~ íasc (33 pairs, plan Task 9)
+@orth("ua:1") -> u                      %attested # digest §10.1 diphthongs; lexicon tuath ~ túath, cluas ~ clúas
+@orth("ua:2") -> a                      %attested # digest §10.1 diphthongs; lexicon tuath ~ túath
+#
+# (d) Quality digraphs (the largest class, 50 attested pairs — log finding 2). Modern caol le
+#     caol brackets the vowel on both sides; Old Irish marks quality by the FOLLOWING glide
+#     vowel only (digest §10.2 point 5). The vowel letter that carries the sound survives, at
+#     its modern length (spec §4: length is not reversed — R11).
+[V +long orth="ea"] -> eː               %attested # digest §10.2 point 5; lexicon beann ~ benn, ceann ~ cenn
+[V -long orth="ea"] -> e                %attested # digest §10.2 point 5; lexicon fear ~ fer, bean ~ ben, dearg ~ derg
+[V +long orth="io"] -> iː               %design   # digest §10.2 point 5
+[V -long orth="io"] -> i                %attested # digest §10.2 point 5; lexicon Fionn ~ Finn
+[V +long orth="ai"] -> aː               %design   # digest §10.2 point 5 (R10: `ai` is a real aligner unit)
+[V -long orth="ai"] -> a                %attested # digest §10.2 point 5; lexicon athair ~ athair (unstressed ⟨ai⟩ = /ə/ -> a)
+[V +long orth="oi"] -> oː               %design   # digest §10.2 point 5
+[V -long orth="oi"] -> o                %attested # digest §10.2 point 5; lexicon cloch ~ cloch (gen. cloiche)
+[V +long orth="ui"] -> uː               %design   # digest §10.2 point 5
+[V -long orth="ui"] -> u                %design   # digest §10.2 point 5
+#
+# (e) The lax short vowels collapse onto digest §10.1's five short vowels (sound-driven).
+#     No `ea -> ɑ` / `a -> ɑ` (S3): irish.rules [normalize] folds ɑ -> a first.
+ɪ -> i                                  %attested # digest §10.1 (5 short vowels) [pokorny1914-oldirish-grammar p.6 §4]; lexicon Fionn ~ Finn
+ʊ -> u                                  %attested # digest §10.1; lexicon dubh ~ dub
+ɛ -> e                                  %design   # digest §10.1
+ɔ -> o                                  %attested # digest §10.1; lexicon gorm ~ gorm, cloch ~ cloch
+#
+# (f) The epenthetic schwa (spec §8 row O5; digest §2.4). By spelling first: the aligner tags
+#     it as the SECOND segment of a single sonorant letter (*gorm* -> g o r:1 r:2 m), which
+#     fires only where the spelling shows no vowel. Then by sound, for untagged words (O-15).
+@orth("r:2") -> 0                       %attested # digest §2.4; lexicon gorm ~ gorm, dearg ~ derg
+@orth("l:2") -> 0                       %attested # digest §2.4; lexicon Colmán ~ Colmán
+@orth("n:2") -> 0                       %design   # digest §2.4
+@orth("m:2") -> 0                       %design   # digest §2.4
+ə -> 0 / SONORANT _ C                   %design   # digest §2.4 (after a sonorant, before a consonant — O-15)
+#
+# (g) Survivors of the digraph rules: /w/ is not an Old Irish phoneme (S6), nor /v/.
+w  -> β                                 %design   # digest §10.1 chart (no /w/; lenited b = /v/~/β/)
+vˠ -> β                                 %design   # digest §10.1 chart
+vʲ -> βʲ                                %design   # digest §10.1 chart
 
 [syllable]
 # TEMPORARY (Task 8): replaced wholesale by Task 10. Do not ship.
