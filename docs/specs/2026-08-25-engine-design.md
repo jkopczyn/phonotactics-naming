@@ -18,13 +18,13 @@ any GUI.
 
 Tooling: Python ≥3.12, `uv`, `pytest`, no runtime dependencies beyond the standard library
 (PanPhon/CLTS were considered and rejected: the project's own feature table is smaller and
-covers the diacritic segments Irish needs). Package `strands` under `phonotactics/`, with
+covers the diacritic segments Irish needs). Package `strands` at the repository root, with
 `pyproject.toml` there; CLI entry point `strands`.
 
 Repo layout:
 
 ```
-phonotactics/
+<repo root>/
   pyproject.toml
   src/strands/            # the engine
   rules/

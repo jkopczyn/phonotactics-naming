@@ -2,7 +2,7 @@
 
 ## Outcome
 
-The engine exists and runs end-to-end. `phonotactics/` now holds a Python package `strands`
+The engine exists and runs end-to-end. the repository (then `phonotactics/`, now the root) holds a Python package `strands`
 (no runtime dependencies), five rule files (`rules/irish.rules` + one per target), a feature
 table, and a test suite of 862 tests (2 expected-fail). Four cross-family reviews were
 applied during the build; my own verification pass afterwards found three defects (below),
