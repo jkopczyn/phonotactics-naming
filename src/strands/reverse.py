@@ -44,7 +44,7 @@ __all__ = [
     "ANY", "ONE", "SEG", "Step", "Alternative", "RespellSource", "Source", "Deletion",
     "OptionalGroup", "Slot", "Pattern", "ReverseError", "env_text", "invert_respell",
     "parse_pattern", "parse_ipa_pattern", "SourceMap", "section_inventory", "expand_target",
-    "source_map", "un_substitute",
+    "source_map", "un_substitute", "WIDEN_SECTIONS", "widen",
 ]
 
 ANY, ONE, SEG = "any", "one", "seg"
@@ -683,3 +683,115 @@ def un_substitute(pattern: Pattern, smap: SourceMap, *,
     return Pattern(text=pattern.text, slots=tuple(slots), groups=pattern.groups,
                    deletions=pattern.deletions + tuple(deletions),
                    notes=pattern.notes + extra)
+
+
+# ---- widening over [repair] / [post-stress] (spec §3.3, V-18, V-29, V-30, V-31) ----------------
+
+WIDEN_SECTIONS = ("repair", "post-stress")
+
+
+def _epenthesis_groups(slots: Sequence[Slot], smap: SourceMap, section: str
+                       ) -> list[OptionalGroup]:
+    """Every consecutive slot SPAN an insertion of this section could have produced (V-30).
+
+    A group is found only where EVERY inserted segment has a slot that can read as it, so a
+    two-segment insertion is one width-two group and never two independent optional slots. A
+    group whose first segment the `[respell]` section deletes is unreachable — that is V-30's
+    accepted miss, recorded as an `invert_respell` note.
+    """
+    found: list[OptionalGroup] = []
+    for inserted, sources in smap.items():
+        epenthetic = [s for s in sources if s.kind == "epenthesis"]
+        if not epenthetic or not inserted:
+            continue
+        width = len(inserted)
+        for start in range(0, len(slots) - width + 1):
+            span = slots[start:start + width]
+            if any(slot.kind != SEG for slot in span):
+                continue
+            if not all(any(alt.segments == (seg,) for alt in slot.alts)
+                       for slot, seg in zip(span, inserted)):
+                continue
+            source = epenthetic[0]
+            found.append(OptionalGroup(
+                start=start, stop=start + width,
+                steps=(Step(stage=section, rule_id=source.rule_id, tag=source.tag,
+                            context=source.context, kind="epenthesis"),),
+                note=source.note or f"could be an insertion ({source.rule_id})"))
+    return found
+
+
+def _resolve_groups(candidates: Sequence[OptionalGroup], notes: list[str]
+                    ) -> tuple[OptionalGroup, ...]:
+    """Sorted by `(start, stop)` and non-overlapping; on an overlap the earlier, then longer
+    group wins and the other is dropped with a note (V-30)."""
+    ordered = sorted(candidates, key=lambda g: (g.start, -(g.stop - g.start), g.steps[0].rule_id))
+    kept: list[OptionalGroup] = []
+    for group in ordered:
+        clash = next((k for k in kept if k.start < group.stop and group.start < k.stop), None)
+        if clash is None:
+            kept.append(group)
+            continue
+        if (clash.start, clash.stop) != (group.start, group.stop):
+            note = (f"{group.steps[0].rule_id} could insert slots "
+                    f"{group.start}-{group.stop - 1}, which overlaps "
+                    f"{clash.steps[0].rule_id}; dropped")
+            if note not in notes:
+                notes.append(note)
+    return tuple(sorted(kept, key=lambda g: (g.start, g.stop)))
+
+
+def widen(pattern: Pattern, target: RuleFile, irish: RuleFile,
+          table: FeatureTable) -> Pattern:
+    """Widen a parsed pattern over `[repair]` and `[post-stress]` (spec §3.3, V-18).
+
+    (a) Every slot alternative one of those rules could have PRODUCED gains that rule's target
+    as a further alternative, with the rule's `Step` appended (V-31), so a Welsh `â` also reads
+    as the short `/a/` the §4.3 lengthening acted on. (b) Every insertion of those sections
+    becomes an `OptionalGroup` over the slot span that spells it — atomically, so a two-segment
+    insertion can never be half-present (V-30). (c) Their deletions and notes join the
+    word-level lists (V-7).
+
+    The two maps carry NO fallback and NO identity sources — V-8/V-9 are `[substitute]`-only —
+    and each expands over `target.inventory` (V-29). The sections are walked in REVERSE forward
+    order (post-stress, then repair) so a post-stress-widened alternative can be widened again
+    by a repair rule. Stress is ignored entirely: the forward engine re-derives it, and no
+    `[stress]` section is read.
+    """
+    slots = list(pattern.slots)
+    deletions = list(pattern.deletions)
+    notes = list(pattern.notes)
+    candidates: list[OptionalGroup] = []
+
+    for section in reversed(WIDEN_SECTIONS):
+        smap, section_deletions, section_notes = source_map(section, target, irish, table)
+        deletions.extend(section_deletions)
+        notes.extend(note for note in section_notes if note not in notes)
+
+        widened: list[Slot] = []
+        for slot in slots:
+            if slot.kind == ANY or not slot.alts:
+                widened.append(slot)
+                continue
+            alts = list(slot.alts)
+            seen = {(alt.segments, alt.steps) for alt in alts}
+            for alt in slot.alts:
+                for source in smap.get(alt.segments, ()):
+                    if source.kind != "rule":
+                        continue                     # epenthesis becomes a group, not an alt
+                    new = Alternative(
+                        segments=source.segments,
+                        steps=alt.steps + (Step(stage=section, rule_id=source.rule_id,
+                                                tag=source.tag, context=source.context,
+                                                kind=source.kind),))
+                    if (new.segments, new.steps) not in seen:
+                        seen.add((new.segments, new.steps))
+                        alts.append(new)
+            widened.append(Slot(kind=slot.kind, text=slot.text, alts=tuple(alts),
+                                notes=slot.notes))
+        slots = widened
+        candidates.extend(_epenthesis_groups(slots, smap, section))
+
+    return Pattern(text=pattern.text, slots=tuple(slots),
+                   groups=_resolve_groups(pattern.groups + tuple(candidates), notes),
+                   deletions=tuple(deletions), notes=tuple(notes))

@@ -284,3 +284,132 @@ def test_a_multi_item_context_free_feature_change_covers_only_the_whole_target()
     assert ("aː",) in m and ("iː",) in m
     assert "identity" in {s.kind for s in m.get(("a",), ())}
     assert "identity" in {s.kind for s in m.get(("i",), ())}
+
+
+# ================================================================================================
+# Task 5: widening over [repair] / [post-stress] (spec §3.3; V-18, V-29, V-30, V-31)
+# ================================================================================================
+
+from strands.reverse import widen                                    # noqa: E402
+
+# V-30 accepted miss: no real strand shows a two-segment insertion in its respelling
+# (arabic-egy deletes the /ʔ/ of `0 -> ʔ i` with `ʔ -> "" / # _`), so the ATOMIC-GROUP
+# behaviour is tested on a synthetic file where both inserted segments are printed.
+SYNTH_GROUP = parse_rules("""
+[meta]
+name = SynthGroup
+[inventory]
+q i s k
+[repair]
+0 -> q i / # _ s
+[respell]
+q -> "q"
+i -> "i"
+s -> "s"
+k -> "k"
+""", TABLE, path="synth-group")
+
+
+def pat(rf, text):
+    return widen(_parse(rf, text), rf, IRISH, TABLE)
+
+
+def alt_set(p):
+    return {a.segments for s in p.slots for a in s.alts}
+
+
+def test_a_welsh_long_vowel_gains_its_short_partner():
+    """spec §3.3: Welsh long vowels <- the short one via the §4.3 lengthening."""
+    got = alt_set(pat(WEL, "â"))
+    assert ("aː",) in got and ("a",) in got
+
+
+def test_welsh_y_is_widened_by_nothing_because_no_repair_rule_PRODUCES_a_schwa():
+    """MEASURED, against the plan's reading. Spec §3.3 names "Welsh y/ə ← any short vowel via
+    reduction", but `welsh.rules` has no reduction rule in `[repair]` or `[post-stress]`: the
+    only rules whose OUTPUT is /ə/ there are the two prothesis insertions (`0 -> ə / # _ s …`,
+    repair:272,276), which V-30 turns into optional GROUPS, not alternatives. The /ə/ → Irish
+    step is a `[substitute]` one (welsh.rules:173 `ə -> a / _ C* #` and its neighbours) and so
+    belongs to `un_substitute`, not to widening. Pinned so a reader does not re-derive the
+    spec's sentence as a widening requirement."""
+    m, _deletions, _notes = source_map("repair", WEL, IRISH, TABLE)
+    assert all(s.kind == "epenthesis" for s in m[("ə",)])
+    assert ("ə",) not in source_map("post-stress", WEL, IRISH, TABLE)[0]
+    assert alt_set(pat(WEL, "y")) == {("ə",)}
+
+
+def test_welsh_initial_ll_gains_plain_l():
+    got = alt_set(pat(WEL, "ll"))
+    assert ("ɬ",) in got and ("l",) in got
+
+
+def test_georgian_degemination_widens_a_consonant_slot():
+    assert ("v", "v") in alt_set(pat(GEO, "v"))
+
+
+def test_a_widened_alternative_records_the_widening_rule():
+    """V-31 / F5: draft 1 lost the rule id and could not print a source for it."""
+    p = pat(WEL, "â")
+    widened = [a for s in p.slots for a in s.alts if a.segments == ("a",)]
+    assert widened and any(st.stage in ("post-stress", "repair")
+                           for a in widened for st in a.steps)
+
+
+# ---- optional GROUPS (V-30 / F4) -----------------------------------------------------------------
+
+def test_a_single_segment_insertion_is_a_width_one_group():
+    """Welsh prothetic ⟨y⟩ (`0 -> ə / # _ s {p t k}`)."""
+    p = pat(WEL, "ysbryd")
+    assert any(g.start == 0 and g.stop == 1 for g in p.groups)
+
+
+def test_a_two_segment_insertion_is_ONE_group_of_width_two():
+    """F4 / V-30: the inserted pair is atomic. Synthetic, because `arabic-egy`'s own
+    `0 -> ʔ i` is invisible in its respelling (`ʔ -> "" / # _`)."""
+    p = pat(SYNTH_GROUP, "qisk")
+    assert [(g.start, g.stop) for g in p.groups] == [(0, 2)]
+
+
+def test_no_group_covers_only_half_an_insertion():
+    p = pat(SYNTH_GROUP, "qisk")
+    assert all(g.stop - g.start == 2 for g in p.groups)
+
+
+def test_the_arabic_pair_is_a_recorded_miss_not_a_silent_one():
+    """V-30 accepted miss: `isk` is three slots, so the two-segment insertion
+    `0 -> ʔ i / # _ s [C -sonorant]` finds no span — `[respell]` deletes its /ʔ/
+    (`ʔ -> "" / # _`), so no slot can start the group — and a note says why.
+
+    MEASURED, against the plan's `all(width == 2)` reading, which has it backwards for this
+    file: the section's SINGLE-segment insertions (`0 -> i / # C _ C V`, and the context
+    backref of repair:147) do find width-one spans, so what makes the pair a miss is that no
+    group of width TWO exists."""
+    p = pat(ARA, "isk")
+    assert all(g.stop - g.start == 1 for g in p.groups)
+    assert any("unreachable" in n for n in p.notes)
+
+
+def test_groups_are_sorted_and_non_overlapping():
+    p = pat(WEL, "ysbryd")
+    spans = [(g.start, g.stop) for g in p.groups]
+    assert spans == sorted(spans)
+    assert all(a[1] <= b[0] for a, b in zip(spans, spans[1:]))
+
+
+def test_deletions_from_the_widened_sections_reach_the_pattern():
+    """V-7: one word-level list, not a note on every slot."""
+    p = pat(WEL, "u")
+    assert isinstance(p.deletions, tuple)
+
+
+def test_stress_is_ignored():
+    for s in pat(WEL, "ysbryd").slots:
+        assert all(m not in seg for a in s.alts for seg in a.segments
+                   for m in ("ˈ", "ˌ", "."))
+
+
+def test_widening_only_grows_the_slot_set():
+    before = _parse(WEL, "â")
+    after = widen(before, WEL, IRISH, TABLE)
+    for b, a in zip(before.slots, after.slots):
+        assert {x.segments for x in b.alts} <= {x.segments for x in a.alts}
