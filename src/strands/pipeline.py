@@ -19,6 +19,13 @@ Stress (I-40). The Irish pre-pass parks Connacht initial stress as a pending seg
 (`keep-source` is the procedure that keeps it). `Result.ipa` prints the stress mark unless the
 target's `[stress] mark = off` (Georgian); `Result.respelling` never carries marks at all.
 
+Old Irish (Old Irish spec §2, O-9). `lookup()` is stage 1b: an exact match of the entry's
+CITATION form against the Old Irish lexicon, keyed by `lexicon.key` (NFC + casefold), with
+no de-mutation and no fuzzy fallback (O-23). `run_entry()` reads the target's `[meta] strand`
+right after `parse_construction`: `old-irish` hands off to `oldirish.run_entry_oi`, which
+composes the Old Irish stages in its own order (lookup or retro-filter, then the grapheme
+grammar, then the one-way reconstruction). `adapt()` is not involved in that strand.
+
 `Result.trace` is the per-word traces in word order, each followed by its respell entries;
 `Result.flags` is the union of the words' flags in first-seen order; `Result.fallbacks` the
 sum of `Word.fallback_count()`; `Result.assumptions` the entry's inference tags plus any note
@@ -44,13 +51,14 @@ from .word import TraceEntry, Word
 
 if TYPE_CHECKING:
     from .inputs import Entry
+    from .lexicon import LexEntry
 
 __all__ = ["EPITHET_SLOTS", "TARGETS", "CONSTRUCTIONS", "PipelineError", "Result",
-           "resolve_epithet", "affix_epithet", "adapt", "parse_construction", "run_entry",
-           "load_target", "stress_marked"]
+           "resolve_epithet", "affix_epithet", "adapt", "parse_construction", "lookup",
+           "run_entry", "load_target", "stress_marked"]
 
 EPITHET_SLOTS = ("ADJ", "NOUN")      # I-39 / spec §12.H
-TARGETS = ("welsh", "arabic-egy", "georgian", "dutch")
+TARGETS = ("welsh", "arabic-egy", "georgian", "dutch", "old-irish")
 CONSTRUCTIONS = ("VOC", "GEN", "PATRO_O", "PATRO_NI", "ADJ", "OF", "COMPOUND", "DESC",
                  "DESC+ADJ", "DESC+NOUN")
 _RULES_DIR = Path(__file__).resolve().parents[2] / "rules"
@@ -191,6 +199,15 @@ def adapt(words: Sequence[Word], target: RuleFile, table: FeatureTable,
     )
 
 
+# ---- stage 1b: lookup (Old Irish spec §2; O-9, O-23) ------------------------------------------
+
+def lookup(entry: "Entry", lexicon: "dict[str, LexEntry]") -> "LexEntry | None":
+    """Stage 1b (spec §2, O-9, O-23): exact match of `entry.orthography` — the CITATION form
+    — after NFC + casefold. No de-mutation, no fuzzy fallback."""
+    from .lexicon import key
+    return lexicon.get(key(entry.orthography))
+
+
 # ---- stage 1 + the rest ------------------------------------------------------------------------
 
 def _head_slot(irish: RuleFile, name: str) -> str | None:
@@ -206,6 +223,9 @@ def run_entry(entry: "Entry", construction: str, irish: RuleFile, target: RuleFi
     with further slots (ADJ, OF, COMPOUND) needs them supplied and raises `MissingSlot`
     otherwise (the CLI reports that as a skip)."""
     name, slot = parse_construction(construction)
+    if target.meta.get("strand", "").strip() == "old-irish":        # O-9
+        from .oldirish import run_entry_oi
+        return run_entry_oi(entry, construction, irish, target, table, slots=slots)
     if slots is None:
         head = _head_slot(irish, name)
         slots = {head: entry} if head is not None else {}
