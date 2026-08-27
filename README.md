@@ -15,7 +15,7 @@ beyond the Python standard library.
 ## Requirements
 
 Python ≥ 3.12 and [`uv`](https://docs.astral.sh/uv/). Nothing else. Run everything from this
-`phonotactics/` directory:
+repository root:
 
 ```sh
 uv run strands --version

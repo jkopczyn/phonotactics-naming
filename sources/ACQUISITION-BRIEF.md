@@ -1,13 +1,13 @@
 # Acquisition brief (shared instructions for step-1 agents)
 
-Repo: /home/jkop/Code/freerange/.worktrees/phonotactics (git worktree; run everything from here,
+Repo: /home/jkop/Code/phonotactics-naming (run everything from here,
 do not cd elsewhere, do not commit). Read first:
-- phonotactics/notes/project-goals.md  (what the project is)
-- phonotactics/notes/source-plan.md    (the plan; your language's section)
-- phonotactics/chat-imports/phonology_rule_file_sources.md  (baseline bibliography)
-- phonotactics/sources/DIGEST-TEMPLATE.md  (what the sources must eventually support)
+- notes/project-goals.md  (what the project is)
+- notes/source-plan.md    (the plan; your language's section)
+- chat-imports/phonology_rule_file_sources.md  (baseline bibliography)
+- sources/DIGEST-TEMPLATE.md  (what the sources must eventually support)
 
-Your job for your assigned directory `phonotactics/sources/<dir>/`:
+Your job for your assigned directory `sources/<dir>/`:
 
 1. **Verify** each source listed for your language in source-plan.md and the baseline
    bibliography: does it exist, is it what the description says, and is it OPEN ACCESS (no

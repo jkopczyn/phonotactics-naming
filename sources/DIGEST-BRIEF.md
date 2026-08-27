@@ -1,13 +1,13 @@
 # Digest brief (shared instructions for step-2 agents)
 
-Repo: /home/jkop/Code/freerange/.worktrees/phonotactics (git worktree; run everything from here,
+Repo: /home/jkop/Code/phonotactics-naming (run everything from here,
 do not cd elsewhere, do not commit). Read first, in this order:
-1. phonotactics/notes/project-goals.md
-2. phonotactics/sources/DIGEST-TEMPLATE.md and ATTESTED-FORMAT.md
-3. phonotactics/sources/<dir>/bib.md (your language) and phonotactics/sources/infra/bib.md
-4. the PHOIBLE row for your language in phonotactics/chat-imports/phoible_inventories_starter.csv
+1. notes/project-goals.md
+2. sources/DIGEST-TEMPLATE.md and ATTESTED-FORMAT.md
+3. sources/<dir>/bib.md (your language) and sources/infra/bib.md
+4. the PHOIBLE row for your language in chat-imports/phoible_inventories_starter.csv
 
-Deliverables, written only inside phonotactics/sources/<dir>/:
+Deliverables, written only inside sources/<dir>/:
 - `digest.md` — the template, filled. Keep the section numbering exactly.
 - `attested.tsv` — per ATTESTED-FORMAT.md, ≥30 rows for a target language (Irish: instead a
   `test-words.tsv` of ≥40 Irish names/words with IPA, dialect-tagged, spanning the mismatch

@@ -1,16 +1,16 @@
 # Digest review brief (shared instructions for step-2 reviewers)
 
-Repo: /home/jkop/Code/freerange/.worktrees/phonotactics. Read-only except for one output file.
+Repo: /home/jkop/Code/phonotactics-naming. Read-only except for one output file.
 Do not cd elsewhere, do not commit, do not edit digest.md or attested.tsv.
 
-Input: phonotactics/sources/<dir>/digest.md, attested.tsv, digest-log.md, bib.md, and the
-source `.txt`/`.pdf` files in that directory (and phonotactics/sources/infra/ for
-cross-linguistic items). Context: phonotactics/sources/DIGEST-TEMPLATE.md and
-ATTESTED-FORMAT.md say what the digest is supposed to be; phonotactics/notes/project-goals.md
+Input: sources/<dir>/digest.md, attested.tsv, digest-log.md, bib.md, and the
+source `.txt`/`.pdf` files in that directory (and sources/infra/ for
+cross-linguistic items). Context: sources/DIGEST-TEMPLATE.md and
+ATTESTED-FORMAT.md say what the digest is supposed to be; notes/project-goals.md
 says what it's for (a rule file for a deterministic Irish→target name adapter).
 
 Your job is adversarial verification of the digest, not a rewrite. Output one file:
-phonotactics/sources/<dir>/review.md, with these sections:
+sources/<dir>/review.md, with these sections:
 
 1. **Citation spot-check.** Sample at least 25 cited claims across §1–§8, weighted toward §2
    (cluster lists), §3 (repair rules), and §8 (Irish mismatches). For each: open the cited

@@ -12,4 +12,4 @@
 
 - `tests/test_oldirish_grammar.py:107-120` — the docstrings still claim `44/49` and `135/163`, while the implementing commit records `125/159` and the current mismatch scan finds 34 failures. Recompute and state one current numerator/denominator so the ratchet is auditable.
 
-- Full suite: `1613 passed, 2 skipped, 3 xfailed` in 55.35s (`uv --directory /home/jkop/Code/freerange/.worktrees/phonotactics/phonotactics run pytest -q`).
+- Full suite: `1613 passed, 2 skipped, 3 xfailed` in 55.35s (`uv run pytest -q`).
