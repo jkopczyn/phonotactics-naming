@@ -57,7 +57,8 @@ from .pipeline import (PipelineError, Result, lookup, parse_construction, resolv
 from .poststress import post_stress
 from .repair import repair
 from .respell import respell_traced
-from .spelled import SpelledWord, parse_quality_pairs, spelling_to_ipa, spelling_to_words
+from .spelled import (SpelledWord, apply_grapheme_table, parse_quality_pairs, spelling_to_ipa,
+                      spelling_to_words)
 from .stress import assign_stress
 from .substitute import substitute_stage
 from .syllabify import syllabify
@@ -68,7 +69,7 @@ if TYPE_CHECKING:
     from .inputs import Entry
 
 __all__ = ["OI_FLAGS", "LOOKUP_STAGE", "RECONSTRUCT_STAGE", "ConstructionNotInStrand", "Stem",
-           "infer_stem", "to_old_irish", "adapt_oi", "run_entry_oi"]
+           "infer_stem", "to_old_irish", "apply_oi_mutation", "adapt_oi", "run_entry_oi"]
 
 OI_FLAGS = ("ATTESTED", "ATTESTED:MIr", "RETRO", "RETRO:loan", "RETRO:late")
 LOOKUP_STAGE = "lookup"
@@ -212,6 +213,21 @@ def to_old_irish(entry: "Entry", lexicon: dict[str, LexEntry], oi: RuleFile, iri
         flag = row.flag
     return Stem(words, None, stem, entry.gender, flag, tuple(assumptions),
                 (head, *retro_trace), engine_flags=flags)
+
+
+# ---- the mutations (spec §5, §11; digest §10.4; plan Task 13) ------------------------------
+
+def apply_oi_mutation(word: SpelledWord, name: str, oi: RuleFile) -> SpelledWord:
+    """Apply `oi.grapheme_mutations[name]` (`LEN` or `NAS`) to a spelled word and set
+    `word.mutation = name`. The table rewrites the WRITTEN half (⟨ch th ph ṡ ḟ⟩, ⟨mb nd ng
+    n-⟩); the metadata carries the unwritten half — lenited *b d g m* and nasalized *c t p*
+    (digest §10.2 conv. 1; spec §11 (ii)) — which `spelling_to_ipa` reads. A mutation table
+    is applied simultaneously, like the segment engine's (`irish._apply_table`)."""
+    if name not in oi.grapheme_mutations:
+        raise PipelineError(f"{oi.path}: no [mutations] table {name!r} (have: "
+                            + ", ".join(sorted(oi.grapheme_mutations)) + ")")
+    rules = oi.grapheme_mutations[name]
+    return apply_grapheme_table(word, rules, simultaneous=True).with_mutation(name)  # type: ignore[arg-type]
 
 
 # ---- the assembly (O-11, O-14) ---------------------------------------------------------------

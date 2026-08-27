@@ -390,3 +390,49 @@ vʲ -> "b"                               %design   # digest §10.1 chart
 # (12) No h-prefix (spec §6; digest §10.2 conv. 6: "there is no consistent relationship"
 #      between the letter and the sound — *Ériu* ~ *Hériu*). Deliberately absent: nothing
 #      here or in [mutations] writes an ⟨h⟩ before a vowel.
+
+[mutations]
+# Initial mutations as GRAPHEME-TOKEN rewrites on the spelled word (spec §5, §11; O-10,
+# O-27; plan Task 13). Only the WRITTEN half of each mutation lives here; the unwritten half
+# is the spelled word's `mutation` metadata, which `apply_oi_mutation` sets and the
+# reconstruction reads (digest §10.2 conv. 1; spec §11 (ii)). Every line is anchored `# _`
+# (R20: over tokens, `#` = the first token). Two tables only: no h-prefix, no t-prefix
+# (spec §5; digest §10.2 conv. 6), and the third Old Irish mutation (aspiration/gemination,
+# digest §10.4 ᴴ) is "not indicated at all" in writing, so it has no table.
+#
+# Pokorny's lenition-blocking rule is NOT implemented here (S9): lenition is blocked before
+# ⟨d t⟩ when the preceding word ends in ⟨l n s⟩ (*cen tossach*) and after a homorganic
+# consonant (*cach cloine*) [pokorny1914-oldirish-grammar p.9 §19]. It is a cross-word
+# condition, so it belongs to the templates section (Task 15), which records the same
+# omission; it bites on COMPOUND and CU.
+LEN:
+# digest §10.4 [wiki-old-irish §Orthography; pokorny1914-oldirish-grammar p.7 §7]: "only in
+# the case of c, p, t is aspiration regularly expressed in writing" (conv. 1); "in later
+# Old Irish, initial f s come to be written ḟ ṡ".
+c -> ch / # _                           %attested # digest §10.4 (/k/ -> /x/ ⟨ch⟩); §10.4 contrast set *tech* ~ *a thech*; lexicon Máel Coluim (gen.) ~ Cú Chulainn (lenited gen.)
+t -> th / # _                           %attested # digest §10.4 (/t/ -> /θ/ ⟨th⟩); §10.4 contrast set *tech* ~ *a thech*
+p -> ph / # _                           %design   # digest §10.4 (/p/ -> /f/ ⟨ph⟩); /p/ marginal (digest §10.1), no attested pair
+s -> ṡ / # _                            %design   # digest §10.4 (/s/ -> /h/ ⟨ṡ sh⟩); §10.2 master table ⟨ṡ sh⟩ = /h/; punctum = off renders ⟨s⟩ (O-14)
+f -> ḟ / # _                            %design   # digest §10.4 (/f/ -> ∅ ⟨ḟ fh⟩); R24: ⟨ḟ⟩ is a token with an empty reconstruction, so nothing is deleted
+# Deliberately absent — b d g m: lenited but unwritten (digest §10.2 conv. 1 [pokorny1914-
+# oldirish-grammar p.7 §8]); `mutation = "LEN"` makes the reconstruction give /β ð ɣ β̃/.
+# Deliberately absent — l n r: digest §10.4 "/L N R/ -> /l n r/ (never written)". This
+# implementation has ONE sonorant series (O-2: fortis is the doubled token ⟨ll nn rr⟩, not
+# a segment), so fortis -> lenis lenition of a single initial letter would be an identity.
+# Deliberately absent — s₂ -> /f/ ⟨f ph⟩ (digest §10.4; §10.2 note 1: from *sw, *sɸ): a
+# handful of lexical items (S8), lexicon only.
+NAS:
+# digest §10.4 [pokorny1914-oldirish-grammar p.10 §21]: "It is only in the case of b, d, g
+# and of initial vowels that eclipsis is regularly expressed in writing."
+b -> mb / # _                           %attested # digest §10.4 (/b/ -> /m/ ⟨mb⟩); §10.4 contrast set *bo* ~ *a m-bo*. O-29 / R25: ⟨mb⟩ is ONE token reconstructing as /m/ (§10.2 master table); §10.4's /a mbo/ is the digest-internal counter-datum, recorded on the token's row
+d -> nd / # _                           %attested # digest §10.4 (/d/ -> /N/ ⟨nd⟩); §10.2 master table ⟨d⟩ eclipsed
+g -> ng / # _                           %attested # digest §10.4 (/ɡ/ -> /ŋ/ ⟨ng⟩); §10.2 master table ⟨g⟩ eclipsed
+0 -> n- / # _ V                         %attested # digest §10.4 (vowel -> /n/+V ⟨n-⟩); §10.4 contrast set *ech* ~ *a n-ech* /a nex/
+# Deliberately absent — c t p: nasalization of the voiceless stops is NOT written (spec §11
+# (ii); digest §10.4 "/p t k/ -> /b d ɡ/ (unwritten)"); `mutation = "NAS"` makes the
+# reconstruction give /ɡ d̪ˠ bˠ/ (§10.4 contrast set *tech* ~ *a tech* /a dʲex/).
+# Deliberately absent — s r l n m: digest §10.4 "*s r l n m* unchanged"; §10.2: "r l n s are
+# not subject to eclipsis".
+# Deliberately absent — f: digest §10.4 gives "/f/ -> /v/ (written ⟨b⟩)"; neither spec §5
+# nor §11 lists it and the plan's Task 13 table omits it, so it is left for a later decision
+# rather than half-written (⟨b⟩ initial would reconstruct as /b/, not /v/).
