@@ -59,6 +59,7 @@ guess, shown on the first line so you can check it; `--trace` adds step 4 for on
 ```sh
 uv run strands word indeagó
 uv run strands word indeagó --strand welsh --trace
+uv run strands word indeagó --save              # keep it: writes 20260827-143000-indeagó.tsv, as lint --accept would
 ```
 
 **4. To see why**, give `explain` the IPA from the file (it does not take spelling as its
@@ -74,8 +75,8 @@ uv run strands explain "ˈɪnʲdʲəɡoː" --strand welsh --orthography indeagó
 strands run INPUT.tsv [--strand X|all] [--construction NAME|all] [--out FILE]
 strands gallery INPUT.tsv [--out FILE]
 strands lint INPUT.tsv [--accept]
-strands explain IPA --strand X [--construction NAME] [--orthography TEXT]
-strands word SPELLING [--strand X|all] [--construction NAME] [--trace]
+strands explain IPA --strand X [--construction NAME] [--orthography TEXT] [--save [FILE]]
+strands word SPELLING [--strand X|all] [--construction NAME] [--trace] [--save [FILE]]
 strands check RULES.rules … | LEXICON.tsv
 ```
 

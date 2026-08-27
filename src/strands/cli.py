@@ -1,8 +1,8 @@
 """Command-line entry point (spec §6; plan Tasks 6 and 27).
 
     strands run   INPUT.tsv [--strand X|all] [--construction NAME|all] [--out out.tsv]
-    strands explain WORD --strand X [--construction NAME] [--orthography TEXT]
-    strands word  SPELLING [--strand X|all] [--construction NAME] [--trace]
+    strands explain WORD --strand X [--construction NAME] [--orthography TEXT] [--save [FILE]]
+    strands word  SPELLING [--strand X|all] [--construction NAME] [--trace] [--save [FILE]]
     strands gallery INPUT.tsv [--out gallery.md]
     strands lint  INPUT.tsv [--accept]
     strands check [--features PATH] RULES.rules|LEXICON.tsv ...
@@ -25,7 +25,9 @@ is SKIPPED: the row is still written, with empty output columns and a `skipped:.
 `word` is the no-file path: one Irish spelling, its IPA constructed by `strands.g2p` (so
 `assumptions` always carries `ipa:constructed`), one construction (default `DESC`), every
 strand by default, printed as aligned lines rather than TSV. `--trace` appends the `explain`
-derivation and so needs a single `--strand`. `lint` prints `inputs.lint_report`; `--accept` writes the guesses back — including an `ipa`
+derivation and so needs a single `--strand`. `--save [FILE]` (on `word` and `explain`)
+writes the entry as the minimal TSV `lint --accept` would produce, so a one-off word can
+be kept and edited (`_save_entry`). `lint` prints `inputs.lint_report`; `--accept` writes the guesses back — including an `ipa`
 constructed from the spelling by `strands.g2p` (spec §5, milestone 8), which also gets a
 `note` saying so.
 
@@ -60,25 +62,41 @@ class UsageError(Exception):
 
 # ---- argument parsing -------------------------------------------------------------------------
 
-def _parse(argv: Sequence[str], flags: dict[str, bool], positional: int) -> tuple[list[str], dict[str, str | bool]]:
-    """Tiny option parser: `flags` maps `--name` to whether it takes a value. Returns
-    (positionals, options). Raises UsageError."""
+OPTIONAL = "optional"
+
+
+def _parse(argv: Sequence[str], flags: dict[str, bool | str], positional: int) -> tuple[list[str], dict[str, str | bool]]:
+    """Tiny option parser: `flags` maps `--name` to whether it takes a value — `True`,
+    `False`, or `OPTIONAL` (takes the next token unless it is an option, or unless taking
+    it would leave the positionals short, so `word --save indeagó` still parses; a bare
+    optional flag is `True`). Returns (positionals, options). Raises UsageError."""
     pos: list[str] = []
     opts: dict[str, str | bool] = {}
-    it = iter(argv)
-    for arg in it:
-        if arg.startswith("--"):
-            if arg not in flags:
-                raise UsageError(f"unknown option {arg}")
-            if flags[arg]:
-                try:
-                    opts[arg] = next(it)
-                except StopIteration:
-                    raise UsageError(f"{arg} needs a value") from None
-            else:
-                opts[arg] = True
-        else:
+    taken_by: str | None = None            # the OPTIONAL flag that swallowed a token
+    i = 0
+    while i < len(argv):
+        arg = argv[i]
+        i += 1
+        if not arg.startswith("--"):
             pos.append(arg)
+            continue
+        if arg not in flags:
+            raise UsageError(f"unknown option {arg}")
+        nxt = argv[i] if i < len(argv) else None
+        if flags[arg] is True:
+            if nxt is None:
+                raise UsageError(f"{arg} needs a value")
+            opts[arg] = nxt
+            i += 1
+        elif flags[arg] == OPTIONAL and nxt is not None and not nxt.startswith("--"):
+            opts[arg] = nxt
+            taken_by = arg
+            i += 1
+        else:
+            opts[arg] = True
+    if len(pos) == positional - 1 and taken_by is not None:
+        pos.append(str(opts[taken_by]))
+        opts[taken_by] = True
     if len(pos) != positional:
         raise UsageError(f"expected {positional} argument(s), got {len(pos)}")
     return pos, opts
@@ -146,6 +164,23 @@ def _write(text: str, out: str | None) -> None:
         Path(out).write_text(text, encoding="utf-8")
     except OSError as e:
         raise RuntimeError(f"cannot write {out}: {e}") from e
+
+
+def _save_entry(entry, save: str | bool, stem: str) -> None:
+    """`--save [FILE]` on `word` / `explain`: the minimal TSV `lint --accept` would produce
+    for this one entry — the one-column file is written and `accept_guesses` fills it, so
+    the two cannot drift. FILE defaults to `YYYYMMDD-HHMMSS-<stem>.tsv` in the cwd. The
+    path is echoed on stderr."""
+    from datetime import datetime
+    from .inputs import accept_guesses
+    path = Path(save) if isinstance(save, str) else \
+        Path(f"{datetime.now():%Y%m%d-%H%M%S}-{stem}.tsv")
+    try:
+        path.write_text(f"orthography\n{entry.orthography}\n", encoding="utf-8")
+        accept_guesses(path, [entry])
+    except OSError as e:
+        raise RuntimeError(f"cannot write {path}: {e}") from e
+    print(f"saved {path}", file=sys.stderr)
 
 
 # ---- run ------------------------------------------------------------------------------------
@@ -237,7 +272,7 @@ def format_trace(result, citations: dict[str, str]) -> list[str]:
 
 def cmd_explain(args: Sequence[str]) -> int:
     (word,), opts = _parse(args, {"--strand": True, "--construction": True,
-                                  "--orthography": True}, 1)
+                                  "--orthography": True, "--save": OPTIONAL}, 1)
     if "--strand" not in opts:
         raise UsageError("explain needs --strand")
     strand = _strands(str(opts["--strand"]))
@@ -269,6 +304,8 @@ def cmd_explain(args: Sequence[str]) -> int:
         raise UsageError(f"{e}; explain takes one word and cannot fill a second slot") from e
     except SegmentError as e:
         raise RuntimeError(f"{word}: {e}") from e
+    if opts.get("--save"):
+        _save_entry(entry, opts["--save"], str(orthography or word))
     print(f"{word}  [{name}, {construction}]")
     if orthography is not None:
         print(f"orthography: {orthography}")
@@ -292,7 +329,7 @@ def cmd_explain(args: Sequence[str]) -> int:
 
 def cmd_word(args: Sequence[str]) -> int:
     (spelling,), opts = _parse(args, {"--strand": True, "--construction": True,
-                                      "--trace": False}, 1)
+                                      "--trace": False, "--save": OPTIONAL}, 1)
     strands = _strands(opts.get("--strand"))
     trace = bool(opts.get("--trace"))
     if trace and len(strands) != 1:
@@ -313,6 +350,8 @@ def cmd_word(args: Sequence[str]) -> int:
     if not entry.ipa:
         raise RuntimeError(f"{spelling}: could not construct an IPA from the spelling "
                            f"({' '.join(entry.assumptions)})")
+    if opts.get("--save"):
+        _save_entry(entry, opts["--save"], spelling)
     print(f"{spelling}  [{construction}]  ipa: {entry.ipa}")
     print(f"assumptions: {' '.join(entry.assumptions)}")
     results = []
@@ -435,8 +474,8 @@ def _check(argv: list[str]) -> int:
 
 _USAGE = {
     "run": "strands run INPUT.tsv [--strand X|all] [--construction NAME|all] [--out out.tsv]",
-    "explain": "strands explain WORD --strand X [--construction NAME] [--orthography TEXT]",
-    "word": "strands word SPELLING [--strand X|all] [--construction NAME] [--trace]",
+    "explain": "strands explain WORD --strand X [--construction NAME] [--orthography TEXT] [--save [FILE]]",
+    "word": "strands word SPELLING [--strand X|all] [--construction NAME] [--trace] [--save [FILE]]",
     "gallery": "strands gallery INPUT.tsv [--out gallery.md]",
     "lint": "strands lint INPUT.tsv [--accept]",
 }
