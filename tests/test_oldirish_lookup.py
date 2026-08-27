@@ -86,6 +86,31 @@ def test_the_retro_path_does_not_double_a_voiceless_stop_after_s(orthography, ip
     assert spelling(orthography, ipa) == expected
 
 
+@pytest.mark.parametrize("orthography,ipa,expected", [
+    ("Niamh", "nʲiəw", "Ném"),             # lexicon oi_nom `ném`
+    ("Caoimhe", "ˈkiːvʲə", "Cóem"),        # lexicon oi_nom `cóem`
+    ("Sorcha", "ˈsˠɔɾˠəxə", "Sorchae"),    # lexicon oi_nom `sorchae`
+    ("bean", "bʲanˠ", "ben"),              # a common noun stays lower-case
+])
+def test_a_lookup_hit_takes_the_input_orthography_s_initial_capital(orthography, ipa,
+                                                                   expected):
+    """O-32. Several name rows were harvested from common-noun entries, so their `oi_nom`
+    is lower-case; the RETRO path has always re-applied the input's capital and the lookup
+    path must too. Done in the assembly, not by editing the lexicon — an ELEMENT row
+    (*dub*, *macc*, *ingen*) has a lower-case orthography and so stays lower-case."""
+    assert spelling(orthography, ipa) == expected
+
+
+def test_the_genitive_of_a_capitalized_lookup_hit_is_capitalized_too():
+    stem = to_old_irish(entry("Niamh", "nʲiəw"), LEX, OI, IRISH, TABLE)
+    assert stem.gen is None or stem.gen[0].render()[:1].isupper()
+
+
+def test_a_lexicon_spelling_that_is_already_capitalized_is_never_lower_cased():
+    stem = to_old_irish(entry("niall", "nʲiəl̪ˠ"), LEX, OI, IRISH, TABLE)
+    assert stem.words[0].render() == LEX[key("Niall")].oi_nom
+
+
 @pytest.mark.parametrize("declension,gender,expected", [
     ("m1", "m", "o"), ("f2", "f", "ā"), ("ach", "m", "o"), ("d4", "m", "indecl"),
     ("", "f", "ā"), ("", "m", "o"),

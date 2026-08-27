@@ -186,6 +186,23 @@ def infer_stem(entry: "Entry") -> tuple[str, str]:
 
 # ---- the retro path (spec §2 step 2, §11) ----------------------------------------------------
 
+def _match_capitalization(word: SpelledWord, orthography: str) -> SpelledWord:
+    """O-32: a written word takes the input orthography's initial capital. Lower-casing is
+    never forced — a lexicon spelling that is already capitalized (*Niall*) keeps its
+    capital whatever the input looks like."""
+    if orthography[:1].isupper() and not word.capitalized:
+        return SpelledWord(word.graphemes, capitalized=True)
+    return word
+
+
+def _match_first(words: tuple[SpelledWord, ...] | None, orthography: str
+                 ) -> tuple[SpelledWord, ...] | None:
+    """`_match_capitalization` over the FIRST word of a spelling (*Cú Chulainn*)."""
+    if not words:
+        return words
+    return (_match_capitalization(words[0], orthography), *words[1:])
+
+
 def _retro_words(entry: "Entry", oi: RuleFile, irish: RuleFile, table: FeatureTable
                  ) -> tuple[tuple[SpelledWord, ...], tuple[str, ...], tuple[TraceEntry, ...]]:
     """Stages 2–7 on the citation-form IPA, one written word per space-separated word; the
@@ -208,8 +225,7 @@ def _retro_words(entry: "Entry", oi: RuleFile, irish: RuleFile, table: FeatureTa
         word = post_stress(word, oi, table)
         spelling, respell_trace = respell_traced(word, oi, table)
         spelled = SpelledWord.from_spelling(spelling)
-        if orth[:1].isupper():                              # O-32
-            spelled = SpelledWord(spelled.graphemes, capitalized=True)
+        spelled = _match_capitalization(spelled, orth)      # O-32
         words.append(spelled)
         trace.extend(word.trace)
         trace.extend(respell_trace)
@@ -228,8 +244,13 @@ def to_old_irish(entry: "Entry", lexicon: dict[str, LexEntry], oi: RuleFile, iri
     row = lookup(entry, lexicon)
     assumptions: list[str] = []
     if row is not None and row.status in ("attested", "middle"):
-        words = spelling_to_words(row.oi_nom)
-        gen = spelling_to_words(row.oi_gen) if row.oi_gen else None
+        # O-32: a lexicon row harvested from a common-noun entry has a lower-case
+        # `oi_nom` (*ném*, *cóem*, *sorchae*); when the input is a NAME the output is
+        # capitalized. Done here, not by editing the lexicon, so the element rows
+        # (*dub*, *macc*, *ingen*) — whose own orthography is lower-case — stay lower-case.
+        words = _match_first(spelling_to_words(row.oi_nom), entry.orthography)
+        gen = _match_first(spelling_to_words(row.oi_gen), entry.orthography) \
+            if row.oi_gen else None
         if row.stem:
             stem = row.stem
         else:                                               # O-33 / R31d

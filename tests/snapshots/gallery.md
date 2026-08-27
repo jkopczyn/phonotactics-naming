@@ -283,20 +283,20 @@ Irish: /nʲiəw/
 
 | construction | welsh | arabic-egy | georgian | dutch | old-irish |
 |---|---|---|---|---|---|
-| VOC | yniw /ˈə.nɪu/ | aneew /ʔa.ˈneːw/ | aniav /ɑniɑv/ | enjief /ə.ˈnjif/ | a ném /a nʲeːβ̃/ !ATTESTED |
-| GEN | nifa /ˈniː.va/ | neefa /ˈneː.fa/ | niavia /niɑviɑ/ | njievje /ˈnji.vjə/ | néuime /nʲeuβ̃ʲe/ !ATTESTED |
+| VOC | yniw /ˈə.nɪu/ | aneew /ʔa.ˈneːw/ | aniav /ɑniɑv/ | enjief /ə.ˈnjif/ | a Ném /a nʲeːβ̃/ !ATTESTED |
+| GEN | nifa /ˈniː.va/ | neefa /ˈneː.fa/ | niavia /niɑviɑ/ | njievje /ˈnji.vjə/ | Néuime /nʲeuβ̃ʲe/ !ATTESTED |
 | PATRO_O | onifa /ɔ.ˈniː.va/ | uneefa /ʔu.ˈneː.fa/ | oniavia /ɔniɑviɑ/ | oonjievje /oː.ˈnji.vjə/ | — |
 | PATRO_NI | ninifa /nɪ.ˈniː.va/ | nineefa /ni.ˈneː.fa/ | niniavia /niniɑviɑ/ | njienjievje /nji.ˈnji.vjə/ +1 | — |
-| DESC | niw /ˈnɪu/ | neew /ˈneːw/ | niav /niɑv/ | njief /ˈnjif/ | ném /nʲeːβ̃/ !ATTESTED |
-| DESC+ADJ | niwaidd /ˈnɪu.aið/ | neewi /ˈneː.wi/ | niavuri /niɑvuri/ | njiefachtech /nji.ˈfɑx.təx/ | ném /nʲeːβ̃/ !ATTESTED |
-| DESC+NOUN | niw /ˈnɪu/ | neewa /ˈneː.wa/ | niavi /niɑvi/ | njief /ˈnjif/ | ném /nʲeːβ̃/ !ATTESTED |
-| MAEL | — | — | — | — | Máel néuime /mˠail̪ˠ nʲeuβ̃ʲe/ !ATTESTED |
-| GILLA | — | — | — | — | Gilla néuime /ɟil̪ˠl̪ˠa nʲeuβ̃ʲe/ !ATTESTED |
-| CU | — | — | — | — | Cú néuime /kuː nʲeuβ̃ʲe/ !ATTESTED |
-| FER | — | — | — | — | Fer néuime /fʲeɾˠ nʲeuβ̃ʲe/ !ATTESTED |
-| MAC | — | — | — | — | macc néuime /mˠak nʲeuβ̃ʲe/ !ATTESTED |
-| UA | — | — | — | — | aue néuime /aue nʲeuβ̃ʲe/ !ATTESTED |
-| INGEN | — | — | — | — | ingen néuime /iɲɟən̪ˠ nʲeuβ̃ʲe/ !ATTESTED |
+| DESC | niw /ˈnɪu/ | neew /ˈneːw/ | niav /niɑv/ | njief /ˈnjif/ | Ném /nʲeːβ̃/ !ATTESTED |
+| DESC+ADJ | niwaidd /ˈnɪu.aið/ | neewi /ˈneː.wi/ | niavuri /niɑvuri/ | njiefachtech /nji.ˈfɑx.təx/ | Ném /nʲeːβ̃/ !ATTESTED |
+| DESC+NOUN | niw /ˈnɪu/ | neewa /ˈneː.wa/ | niavi /niɑvi/ | njief /ˈnjif/ | Ném /nʲeːβ̃/ !ATTESTED |
+| MAEL | — | — | — | — | Máel Néuime /mˠail̪ˠ nʲeuβ̃ʲe/ !ATTESTED |
+| GILLA | — | — | — | — | Gilla Néuime /ɟil̪ˠl̪ˠa nʲeuβ̃ʲe/ !ATTESTED |
+| CU | — | — | — | — | Cú Néuime /kuː nʲeuβ̃ʲe/ !ATTESTED |
+| FER | — | — | — | — | Fer Néuime /fʲeɾˠ nʲeuβ̃ʲe/ !ATTESTED |
+| MAC | — | — | — | — | macc Néuime /mˠak nʲeuβ̃ʲe/ !ATTESTED |
+| UA | — | — | — | — | aue Néuime /aue nʲeuβ̃ʲe/ !ATTESTED |
+| INGEN | — | — | — | — | ingen Néuime /iɲɟən̪ˠ nʲeuβ̃ʲe/ !ATTESTED |
 
 ## Niamh — Niamh (f. given name) — Connacht realization
 
@@ -304,20 +304,20 @@ Irish: /nʲiəvˠ/
 
 | construction | welsh | arabic-egy | georgian | dutch | old-irish |
 |---|---|---|---|---|---|
-| VOC | ynif /ˈə.nɪv/ | aneew /ʔa.ˈneːw/ | aniav /ɑniɑv/ | enjief /ə.ˈnjif/ | a ném /a nʲeːβ̃/ !ATTESTED |
-| GEN | nifa /ˈniː.va/ | neefa /ˈneː.fa/ | niavia /niɑviɑ/ | njievje /ˈnji.vjə/ | néuime /nʲeuβ̃ʲe/ !ATTESTED |
+| VOC | ynif /ˈə.nɪv/ | aneew /ʔa.ˈneːw/ | aniav /ɑniɑv/ | enjief /ə.ˈnjif/ | a Ném /a nʲeːβ̃/ !ATTESTED |
+| GEN | nifa /ˈniː.va/ | neefa /ˈneː.fa/ | niavia /niɑviɑ/ | njievje /ˈnji.vjə/ | Néuime /nʲeuβ̃ʲe/ !ATTESTED |
 | PATRO_O | onifa /ɔ.ˈniː.va/ | uneefa /ʔu.ˈneː.fa/ | oniavia /ɔniɑviɑ/ | oonjievje /oː.ˈnji.vjə/ | — |
 | PATRO_NI | ninifa /nɪ.ˈniː.va/ | nineefa /ni.ˈneː.fa/ | niniavia /niniɑviɑ/ | njienjievje /nji.ˈnji.vjə/ +1 | — |
-| DESC | nif /ˈniːv/ | neew /ˈneːw/ | niav /niɑv/ | njief /ˈnjif/ | ném /nʲeːβ̃/ !ATTESTED |
-| DESC+ADJ | nifaidd /ˈniː.vaið/ | neewi /ˈneː.wi/ | niavuri /niɑvuri/ | njiefachtech /nji.ˈfɑx.təx/ | ném /nʲeːβ̃/ !ATTESTED |
-| DESC+NOUN | nif /ˈniːv/ | neewa /ˈneː.wa/ | niavi /niɑvi/ | njief /ˈnjif/ | ném /nʲeːβ̃/ !ATTESTED |
-| MAEL | — | — | — | — | Máel néuime /mˠail̪ˠ nʲeuβ̃ʲe/ !ATTESTED |
-| GILLA | — | — | — | — | Gilla néuime /ɟil̪ˠl̪ˠa nʲeuβ̃ʲe/ !ATTESTED |
-| CU | — | — | — | — | Cú néuime /kuː nʲeuβ̃ʲe/ !ATTESTED |
-| FER | — | — | — | — | Fer néuime /fʲeɾˠ nʲeuβ̃ʲe/ !ATTESTED |
-| MAC | — | — | — | — | macc néuime /mˠak nʲeuβ̃ʲe/ !ATTESTED |
-| UA | — | — | — | — | aue néuime /aue nʲeuβ̃ʲe/ !ATTESTED |
-| INGEN | — | — | — | — | ingen néuime /iɲɟən̪ˠ nʲeuβ̃ʲe/ !ATTESTED |
+| DESC | nif /ˈniːv/ | neew /ˈneːw/ | niav /niɑv/ | njief /ˈnjif/ | Ném /nʲeːβ̃/ !ATTESTED |
+| DESC+ADJ | nifaidd /ˈniː.vaið/ | neewi /ˈneː.wi/ | niavuri /niɑvuri/ | njiefachtech /nji.ˈfɑx.təx/ | Ném /nʲeːβ̃/ !ATTESTED |
+| DESC+NOUN | nif /ˈniːv/ | neewa /ˈneː.wa/ | niavi /niɑvi/ | njief /ˈnjif/ | Ném /nʲeːβ̃/ !ATTESTED |
+| MAEL | — | — | — | — | Máel Néuime /mˠail̪ˠ nʲeuβ̃ʲe/ !ATTESTED |
+| GILLA | — | — | — | — | Gilla Néuime /ɟil̪ˠl̪ˠa nʲeuβ̃ʲe/ !ATTESTED |
+| CU | — | — | — | — | Cú Néuime /kuː nʲeuβ̃ʲe/ !ATTESTED |
+| FER | — | — | — | — | Fer Néuime /fʲeɾˠ nʲeuβ̃ʲe/ !ATTESTED |
+| MAC | — | — | — | — | macc Néuime /mˠak nʲeuβ̃ʲe/ !ATTESTED |
+| UA | — | — | — | — | aue Néuime /aue nʲeuβ̃ʲe/ !ATTESTED |
+| INGEN | — | — | — | — | ingen Néuime /iɲɟən̪ˠ nʲeuβ̃ʲe/ !ATTESTED |
 
 ## Caoimhe — Keeva (f. given name)
 
@@ -325,20 +325,20 @@ Irish: /ˈkiːvʲə/
 
 | construction | welsh | arabic-egy | georgian | dutch | old-irish |
 |---|---|---|---|---|---|
-| VOC | ychifa /ə.ˈχiː.va/ | akhiifa /ʔa.ˈxiː.fa/ | axvivia /ɑxviviɑ/ | echievje /ə.ˈxi.vjə/ +1 | a chóem /a xoiβ̃/ !ATTESTED |
-| GEN | cifa /ˈkiː.va/ | kiifa /ˈkiː.fa/ | kvivia /kʰviviɑ/ | kievje /ˈki.vjə/ +1 | coíme /koiβ̃ʲe/ !ATTESTED |
+| VOC | ychifa /ə.ˈχiː.va/ | akhiifa /ʔa.ˈxiː.fa/ | axvivia /ɑxviviɑ/ | echievje /ə.ˈxi.vjə/ +1 | a Chóem /a xoiβ̃/ !ATTESTED |
+| GEN | cifa /ˈkiː.va/ | kiifa /ˈkiː.fa/ | kvivia /kʰviviɑ/ | kievje /ˈki.vjə/ +1 | Coíme /koiβ̃ʲe/ !ATTESTED |
 | PATRO_O | ocifa /ɔ.ˈkiː.va/ | ukiifa /ʔu.ˈkiː.fa/ | okvivia /ɔkʰviviɑ/ | ookievje /oː.ˈki.vjə/ +1 | — |
 | PATRO_NI | nichifa /nɪ.ˈχiː.va/ | nikhiifa /ni.ˈxiː.fa/ | nixvivia /nixviviɑ/ | njiechievje /nji.ˈxi.vjə/ +1 | — |
-| DESC | cifa /ˈkiː.va/ | kiifa /ˈkiː.fa/ | kvivia /kʰviviɑ/ | kievje /ˈki.vjə/ +1 | cóem /koiβ̃/ !ATTESTED |
-| DESC+ADJ | cifaaidd /kɪ.ˈvaː.aið/ | kiifi /ˈkiː.fi/ | kviviauri /kʰviviɑuri/ | kievjeachtech /ki.vjə.ˈɑx.təx/ +1 | cóem /koiβ̃/ !ATTESTED |
-| DESC+NOUN | cifa /ˈkiː.va/ | kiifa /ˈkiː.fa/ | kvivia /kʰviviɑ/ | kievje /ˈki.vjə/ +1 | cóem /koiβ̃/ !ATTESTED |
-| MAEL | — | — | — | — | Máel coíme /mˠail̪ˠ koiβ̃ʲe/ !ATTESTED |
-| GILLA | — | — | — | — | Gilla coíme /ɟil̪ˠl̪ˠa koiβ̃ʲe/ !ATTESTED |
-| CU | — | — | — | — | Cú choíme /kuː xoiβ̃ʲe/ !ATTESTED |
-| FER | — | — | — | — | Fer coíme /fʲeɾˠ koiβ̃ʲe/ !ATTESTED |
-| MAC | — | — | — | — | macc coíme /mˠak koiβ̃ʲe/ !ATTESTED |
-| UA | — | — | — | — | aue coíme /aue koiβ̃ʲe/ !ATTESTED |
-| INGEN | — | — | — | — | ingen choíme /iɲɟən̪ˠ xoiβ̃ʲe/ !ATTESTED |
+| DESC | cifa /ˈkiː.va/ | kiifa /ˈkiː.fa/ | kvivia /kʰviviɑ/ | kievje /ˈki.vjə/ +1 | Cóem /koiβ̃/ !ATTESTED |
+| DESC+ADJ | cifaaidd /kɪ.ˈvaː.aið/ | kiifi /ˈkiː.fi/ | kviviauri /kʰviviɑuri/ | kievjeachtech /ki.vjə.ˈɑx.təx/ +1 | Cóem /koiβ̃/ !ATTESTED |
+| DESC+NOUN | cifa /ˈkiː.va/ | kiifa /ˈkiː.fa/ | kvivia /kʰviviɑ/ | kievje /ˈki.vjə/ +1 | Cóem /koiβ̃/ !ATTESTED |
+| MAEL | — | — | — | — | Máel Coíme /mˠail̪ˠ koiβ̃ʲe/ !ATTESTED |
+| GILLA | — | — | — | — | Gilla Coíme /ɟil̪ˠl̪ˠa koiβ̃ʲe/ !ATTESTED |
+| CU | — | — | — | — | Cú Choíme /kuː xoiβ̃ʲe/ !ATTESTED |
+| FER | — | — | — | — | Fer Coíme /fʲeɾˠ koiβ̃ʲe/ !ATTESTED |
+| MAC | — | — | — | — | macc Coíme /mˠak koiβ̃ʲe/ !ATTESTED |
+| UA | — | — | — | — | aue Coíme /aue koiβ̃ʲe/ !ATTESTED |
+| INGEN | — | — | — | — | ingen Choíme /iɲɟən̪ˠ xoiβ̃ʲe/ !ATTESTED |
 
 ## Sorcha — Sorcha (f. given name)
 
@@ -346,20 +346,20 @@ Irish: /ˈsˠɔɾˠəxə/
 
 | construction | welsh | arabic-egy | georgian | dutch | old-irish |
 |---|---|---|---|---|---|
-| VOC | yhorycha /ə.hɔ.ˈrə.χa/ | ahurakha /ʔa.hu.ˈra.xa/ | ahoraxa /ɑhɔrɑxɑ/ | ehorreche /ə.ˈhɔ.rə.xə/ | a ṡorchae /a hoɾˠxe/ !ATTESTED |
-| GEN | sorycha /sɔ.ˈrə.χa/ | ṣurakha /ˈsˤu.ra.xa/ | soraxa /sɔrɑxɑ/ | sorreche /ˈsɔ.rə.xə/ | sorchae /sˠoɾˠxe/ !ATTESTED |
+| VOC | yhorycha /ə.hɔ.ˈrə.χa/ | ahurakha /ʔa.hu.ˈra.xa/ | ahoraxa /ɑhɔrɑxɑ/ | ehorreche /ə.ˈhɔ.rə.xə/ | a Ṡorchae /a hoɾˠxe/ !ATTESTED |
+| GEN | sorycha /sɔ.ˈrə.χa/ | ṣurakha /ˈsˤu.ra.xa/ | soraxa /sɔrɑxɑ/ | sorreche /ˈsɔ.rə.xə/ | Sorchae /sˠoɾˠxe/ !ATTESTED |
 | PATRO_O | osorycha /ɔ.sɔ.ˈrə.χa/ | uṣurakha /ʔu.ˈsˤu.ra.xa/ | osoraxa /ɔsɔrɑxɑ/ | oozorreche /oː.ˈzɔ.rə.xə/ | — |
 | PATRO_NI | nihorycha /nɪ.hɔ.ˈrə.χa/ | nihurakha /ni.ˈhu.ra.xa/ | nihoraxa /nihɔrɑxɑ/ | njiehorreche /nji.ˈhɔ.rə.xə/ +1 | — |
-| DESC | sorycha /sɔ.ˈrə.χa/ | ṣurakha /ˈsˤu.ra.xa/ | soraxa /sɔrɑxɑ/ | sorreche /ˈsɔ.rə.xə/ | sorchae /sˠoɾˠxe/ !ATTESTED |
-| DESC+ADJ | sorychaaidd /sɔ.rə.ˈχaː.aið/ | ṣurakhi /ˈsˤu.ra.xi/ | soraxauli /sɔrɑxɑuli/ | sorrecheachtech /sɔ.rə.xə.ˈɑx.təx/ | sorchae /sˠoɾˠxe/ !ATTESTED |
-| DESC+NOUN | sorycha /sɔ.ˈrə.χa/ | ṣurakha /ˈsˤu.ra.xa/ | soraxa /sɔrɑxɑ/ | sorreche /ˈsɔ.rə.xə/ | sorchae /sˠoɾˠxe/ !ATTESTED |
-| MAEL | — | — | — | — | Máel sorchae /mˠail̪ˠ sˠoɾˠxe/ !ATTESTED |
-| GILLA | — | — | — | — | Gilla sorchae /ɟil̪ˠl̪ˠa sˠoɾˠxe/ !ATTESTED |
-| CU | — | — | — | — | Cú ṡorchae /kuː hoɾˠxe/ !ATTESTED |
-| FER | — | — | — | — | Fer sorchae /fʲeɾˠ sˠoɾˠxe/ !ATTESTED |
-| MAC | — | — | — | — | macc sorchae /mˠak sˠoɾˠxe/ !ATTESTED |
-| UA | — | — | — | — | aue sorchae /aue sˠoɾˠxe/ !ATTESTED |
-| INGEN | — | — | — | — | ingen ṡorchae /iɲɟən̪ˠ hoɾˠxe/ !ATTESTED |
+| DESC | sorycha /sɔ.ˈrə.χa/ | ṣurakha /ˈsˤu.ra.xa/ | soraxa /sɔrɑxɑ/ | sorreche /ˈsɔ.rə.xə/ | Sorchae /sˠoɾˠxe/ !ATTESTED |
+| DESC+ADJ | sorychaaidd /sɔ.rə.ˈχaː.aið/ | ṣurakhi /ˈsˤu.ra.xi/ | soraxauli /sɔrɑxɑuli/ | sorrecheachtech /sɔ.rə.xə.ˈɑx.təx/ | Sorchae /sˠoɾˠxe/ !ATTESTED |
+| DESC+NOUN | sorycha /sɔ.ˈrə.χa/ | ṣurakha /ˈsˤu.ra.xa/ | soraxa /sɔrɑxɑ/ | sorreche /ˈsɔ.rə.xə/ | Sorchae /sˠoɾˠxe/ !ATTESTED |
+| MAEL | — | — | — | — | Máel Sorchae /mˠail̪ˠ sˠoɾˠxe/ !ATTESTED |
+| GILLA | — | — | — | — | Gilla Sorchae /ɟil̪ˠl̪ˠa sˠoɾˠxe/ !ATTESTED |
+| CU | — | — | — | — | Cú Ṡorchae /kuː hoɾˠxe/ !ATTESTED |
+| FER | — | — | — | — | Fer Sorchae /fʲeɾˠ sˠoɾˠxe/ !ATTESTED |
+| MAC | — | — | — | — | macc Sorchae /mˠak sˠoɾˠxe/ !ATTESTED |
+| UA | — | — | — | — | aue Sorchae /aue sˠoɾˠxe/ !ATTESTED |
+| INGEN | — | — | — | — | ingen Ṡorchae /iɲɟən̪ˠ hoɾˠxe/ !ATTESTED |
 
 ## Órla — Orla (f. given name)
 
@@ -3034,8 +3034,8 @@ The eight formation templates (spec §8 row O6) over lexicon ELEMENT rows; each 
 
 | element | Old Irish | DESC | GEN |
 |---|---|---|---|
-| Maol | máel | máel /mˠail̪ˠ/ !ATTESTED | maíle /mˠailʲe/ !ATTESTED |
-| Giolla | gilla | gilla /ɟil̪ˠl̪ˠa/ !ATTESTED | gilla /ɟil̪ˠl̪ˠa/ !ATTESTED |
+| Maol | máel | Máel /mˠail̪ˠ/ !ATTESTED | Maíle /mˠailʲe/ !ATTESTED |
+| Giolla | gilla | Gilla /ɟil̪ˠl̪ˠa/ !ATTESTED | Gilla /ɟil̪ˠl̪ˠa/ !ATTESTED |
 | cú | cú | cú /kuː/ !ATTESTED | con /kon̪ˠ/ !ATTESTED |
 | fear | fer | fer /fʲeɾˠ/ !ATTESTED | fir /fʲiɾʲ/ !ATTESTED |
 | dubh | dub | dub /d̪ˠuβ/ !ATTESTED | dobo /d̪ˠoβo/ !ATTESTED |
