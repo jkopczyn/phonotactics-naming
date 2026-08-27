@@ -161,3 +161,42 @@ and case-folding; no fuzzy matching.
   modern ⟨ea io ai⟩ quality digraphs over an unchanged Old Irish vowel; ~49 ⟨bh dh gh mh⟩ →
   unmarked ⟨b d g m⟩) is invisible to sound-based rules. ⟨ph sh⟩ have no attested modern keys
   and stay `%design`.
+
+## 11. Amendments after plan review (2026-08-27)
+
+These override §2, §4 and §5 where they conflict.
+
+- **Old Irish grammar operates on the written form.** The unit the Old Irish stages pass
+  around is a *spelled word*: a sequence of Old Irish grapheme tokens (incl. silent ones and
+  the punctum forms) with capitalization preserved and mutation provenance as metadata. Lookup
+  yields the attested spelling directly (no conversion). The retro-filter runs the engine's
+  stages on IPA as before and its `[respell]` output *is* the spelled word. `[mutations]` and
+  `[inflect]` for this strand are string operations on graphemes (lenition: *c t p* → *ch th
+  ph*, *s f* → *ṡ ḟ*, *b d g m* unchanged in writing but marked in metadata; nasalization:
+  *c t p* → *g d b*, *b d g* → *mb nd ng*, V → *n-V*; stem endings by class). The
+  `spelling_to_ipa` reconstruction is **one-way and final**, producing `Result.ipa` from the
+  finished spelled word (segment string with spaces only between words). `punctum = off` is a
+  rendering option applied after reconstruction, so it cannot change the IPA.
+- **Input is the citation form; all construction mutations are Old Irish.** The Old Irish
+  strand does not consume the modern Irish template's mutated/inflected output. It takes the
+  entry's citation form (orthography + IPA), performs lookup or retro-filter on that, and then
+  applies its own `[templates]` with Old Irish mutation triggers. Consequently there is no
+  reversal of modern eclipsis/lenition in the filter, and no `ECL:`-style provenance tags; the
+  `@orth` atom serves spelling-driven segment reversals only (quality digraphs, *bh/mh/dh/gh*,
+  *th/sh*, *ao/ia/ua*).
+- **`@orth` on multi-segment graphemes**: aligned segments carry positional tags (`ia:1`,
+  `ia:2`); a rule may target either element or claim the whole unit with a two-item target.
+- **BROAD↔SLEN pairing for reconstruction** is an explicit declared mapping (no positional
+  derivation); segments with no partner (*w*) are listed as such.
+- **Final schwa / ā-stems**: the retro-filter leaves a stem-final modern /ə/ as an
+  unresolved ending marker; `[inflect]` realizes it by stem class (*-e* for ā-stems, *-a*
+  otherwise). Tested end-to-end from a modern f2 word.
+- **Regression population**: the filter regression runs over the unique citation-form keys
+  that are both in `test-words.tsv` with hand IPA and have a form-bearing lexicon row
+  (`attested` or `middle`); duplicate hand-IPA rows for a key use the first `src:attested`
+  row. The plan states the measured n and ratchets it; the G2P-widened population is
+  reported separately and not ratcheted.
+- **Old Irish template builder** is its own component (own `ART` with *in/ind/inna* and Old
+  Irish triggers; no *h*/*t*-prefix; `COLOUR`, `MAEL`, `GILLA`, `CU`, `FER`, `MAC`, `UA`,
+  `INGEN` registered in the parser and checker from one per-file registry); literals in Old
+  Irish templates are *spellings*, consistent with the first bullet.
