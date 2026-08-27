@@ -190,6 +190,18 @@ def test_a_consonant_only_candidate_does_not_raise():
     assert spell(("k",)) == []          # g2p raises G2PError; spell drops it
 
 
+@pytest.mark.parametrize("limit", [0, -1])
+def test_a_non_positive_limit_asks_for_nothing(limit):
+    """V-20 step 5: `limit` caps the kept spellings, so a cap of 0 keeps none."""
+    assert spell(segs(g2p("mac")[0]), limit=limit) == []
+    assert spell(("a",), limit=limit) == []
+
+
+def test_a_long_consonant_run_is_still_enumerated_in_full():
+    """The run matcher terminates on its own; no internal cap may drop ordinary spellings."""
+    assert "akkkkkkka" in spell(segs(g2p("akkkkkkka")[0]), limit=1000)
+
+
 def test_the_result_is_capped_and_order_is_stable():
     a = spell(segs(g2p("mac")[0]), limit=3)
     assert len(a) <= 3 and a == spell(segs(g2p("mac")[0]), limit=3)

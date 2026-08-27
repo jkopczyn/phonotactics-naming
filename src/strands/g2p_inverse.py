@@ -279,7 +279,6 @@ def describe(segments: Sequence[str]) -> str:
 # ---- spell(): the run matcher (V-20) ---------------------------------------------------------
 
 SPELL_LIMIT = 64
-_RUN_CAP = 512          # a safety bound on one consonant run's spellings; the search is a product
 _PROPOSAL_BUDGET = 1024  # spellings tried through `g2p` before a word is given up on
 
 _TABLE = None
@@ -322,29 +321,27 @@ def _runs(segments: Sequence[str]) -> list[tuple[str, tuple[str, ...]]]:
     return [(kind, tuple(run)) for kind, run in out]
 
 
-def _spell_run(run: Sequence[str], quality: Quality, at_word_start: bool) -> list[str]:
-    """Every spelling of one consonant run at one quality (V-20 step 2).
+def _run_spellings(run: tuple[str, ...], quality: Quality, at_word_start: bool):
+    """Every spelling of one consonant run at one quality, lazily (V-20 step 2).
 
     A recursive matcher: at each position, every `Reading` whose segments are a prefix of what
     is left, whose quality admits `quality` and whose position admits the position. Silent
-    readings consume nothing and may be used at most **once** per run, which is what makes the
-    search terminate. Results are in `READINGS` order.
-    """
-    run = tuple(run)
-    results: list[tuple[int, str]] = []
+    readings consume nothing and may be used at most **once** per run; with a finite run, a
+    finite `READINGS` and that once-per-run bound the recursion terminates on its own — no cap
+    on the results is needed to make it stop.
 
-    def walk(i: int, at_start: bool, silent_used: bool, acc: list[str]) -> None:
-        if len(results) >= _RUN_CAP:
-            return
-        if i == len(run):
-            results.append((1 if silent_used else 0, "".join(acc)))
-        # Segment-consuming readings first, silent ones after: a silent reading fits at every
-        # position, so leaving it in registry order would bury every real spelling of the run
-        # behind ⟨fh⟩-riddled ones and the cap of V-20 step 5 would never reach them.
+    Two passes, silent-free spellings first, `READINGS` order within each: a silent reading is
+    admissible everywhere, so in one pass the *dorn* spelling of /ɾˠn̪ˠ/ would sit behind five
+    ⟨rrnn+silent⟩ ones and the caller's cap would cut it off.
+    """
+    def walk(i: int, at_start: bool, silent_used: bool, acc: list[str], want_silent: bool):
+        if i == len(run) and silent_used == want_silent:
+            yield "".join(acc)
+        # Segment-consuming readings first, silent ones after.
         for silent in (False, True):
+            if silent and (silent_used or not want_silent):
+                continue
             for reading in READINGS:
-                if len(results) >= _RUN_CAP:
-                    return
                 if (len(reading.segments) == 0) != silent:
                     continue
                 if reading.quality != EITHER and reading.quality != quality:
@@ -354,20 +351,29 @@ def _spell_run(run: Sequence[str], quality: Quality, at_word_start: bool) -> lis
                 if reading.position == "noninitial" and at_start:
                     continue
                 if silent:
-                    if silent_used:
-                        continue
-                    walk(i, False, True, acc + [reading.grapheme])
+                    yield from walk(i, False, True, acc + [reading.grapheme], want_silent)
                     continue
                 width = len(reading.segments)
                 if run[i:i + width] != reading.segments:
                     continue
-                walk(i + width, False, silent_used, acc + [reading.grapheme])
+                yield from walk(i + width, False, silent_used, acc + [reading.grapheme],
+                                want_silent)
 
-    walk(0, at_word_start, False, [])
-    # Silent-free spellings first (stable within each group): a silent reading is admissible
-    # everywhere, so without this the *dorn* spelling of /ɾˠn̪ˠ/ sits behind five ⟨rrnn+silent⟩
-    # ones and the cap of V-20 step 5 cuts it off.
-    return [text for _silent, text in sorted(results, key=lambda row: row[0])]
+    for want_silent in (False, True):
+        yield from walk(0, at_word_start, False, [], want_silent)
+
+
+def _spell_run(run: Sequence[str], quality: Quality, at_word_start: bool, *,
+               cap: int = _PROPOSAL_BUDGET) -> list[str]:
+    """The spellings of one consonant run, in registry order, bounded by `cap`.
+
+    The bound belongs to the top-level enumeration, not to the matcher: `cap` is the caller's
+    proposal budget (`spell` never runs more than that many candidates through `g2p`), so a run
+    spelling past it is one no caller could reach anyway, and everything up to it is in the
+    order V-20 asks for. An internal cap smaller than the budget would instead drop ordinary
+    spellings the caller did ask for — the IPA of *akkkkkkka* stopped recovering that spelling.
+    """
+    return list(itertools.islice(_run_spellings(tuple(run), quality, at_word_start), cap))
 
 
 def _epenthetic(units: Sequence[tuple[str, tuple[str, ...]]], i: int) -> bool:
@@ -414,7 +420,7 @@ def _layouts(units: list[tuple[str, tuple[str, ...]]]) -> list[list[tuple[str, t
 
 
 def _options(units: Sequence[tuple[str, tuple[str, ...]]], i: int,
-             pending: Quality) -> list[tuple[str, Quality]]:
+             pending: Quality, cap: int) -> list[tuple[str, Quality]]:
     """The spellings unit `i` admits, given the quality imposed from its left, each paired with
     the quality it imposes on its right (V-20 step 4).
 
@@ -427,7 +433,7 @@ def _options(units: Sequence[tuple[str, tuple[str, ...]]], i: int,
     if kind == "C":
         qualities = [pending] if pending in (BROAD, SLENDER) else [BROAD, SLENDER]
         for quality in qualities:
-            for text in _spell_run(run, quality, at_word_start=(i == 0)):
+            for text in _spell_run(run, quality, at_word_start=(i == 0), cap=cap):
                 out.append((text, quality))
         return out
     for spelling in VOWEL_READINGS.get(run, ()):
@@ -438,7 +444,7 @@ def _options(units: Sequence[tuple[str, tuple[str, ...]]], i: int,
     return out
 
 
-def _candidates(units: Sequence[tuple[str, tuple[str, ...]]]):
+def _candidates(units: Sequence[tuple[str, tuple[str, ...]]], cap: int):
     """Every spelling of one layout, shortest first (V-20 step 5).
 
     "Registry order" over more than one unit has to be made a *total* order, and the nested
@@ -458,7 +464,7 @@ def _candidates(units: Sequence[tuple[str, tuple[str, ...]]]):
         if i == len(units):
             yield "".join(acc)
             continue
-        for j, (text, imposed) in enumerate(_options(units, i, pending)):
+        for j, (text, imposed) in enumerate(_options(units, i, pending, cap)):
             heapq.heappush(heap,
                            (cost + len(text), indices + (j,), i + 1, imposed, acc + (text,)))
 
@@ -477,13 +483,15 @@ def spell(segments: Sequence[str], *, limit: int = SPELL_LIMIT) -> list[str]:
     """
     from .tokenize import SegmentError, tokenize
 
+    if limit <= 0:                     # V-20 step 5 caps the enumeration: nothing is asked for.
+        return []
     want = tuple(segments)
     budget = max(_PROPOSAL_BUDGET, 16 * limit)
     kept: list[str] = []
     seen: set[str] = set()
     tried = 0
     for layout in _layouts(_runs(want)):
-        for text in _candidates(layout):
+        for text in _candidates(layout, budget):
             if text in seen:
                 continue
             seen.add(text)
