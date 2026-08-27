@@ -297,3 +297,11 @@ def test_error_bucket_is_small():
 
 def test_ratchet_does_not_slip():
     assert_ratchet(run_regression("dutch", TABLE))
+
+
+def test_vowel_mapping_rules_are_design_not_fallback():
+    """The explicit Irish→Dutch vowel mappings (spec §7 "F table") are deliberate, cited rules;
+    `%fallback` is reserved for the engine's nearest-segment guess, so the fallbacks column
+    means "the engine guessed" (owner review of the Dutch gallery, 2026-08-27)."""
+    subs = TARGET.sections["substitute"]
+    assert not [r for r in subs if r.tag == "fallback"]

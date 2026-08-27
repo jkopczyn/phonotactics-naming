@@ -116,17 +116,17 @@ w -> ʋ                                  %attested # digest §0 line 32 (normali
 ŋ -> n / # _                            %design   # design: digest §8.2 line 926 open — /ŋ/ is never an onset (§2 line 166) and Irish initial /ŋ/ "has no Dutch landing site at all"
 # ---- vowels: the digest's own tense/lax proposal (§3.6 line 602 "proposed policy, not a
 #      sourced rule"; §8.3 line 930 "the whole of this subsection is (design fallback)") → %fallback
-iː -> i                                 %fallback # digest §8.3 line 939 (Dutch /i/ tense but short)
-ɪ -> ɪ                                  %fallback # digest §8.3 line 940
-uː -> u                                 %fallback # digest §8.3 line 947
-ʊ -> ʏ                                  %fallback # digest §8.3 line 948 open — /ʏ/ or /ɔ/; /ʏ/ is the landing site the loan data attest (*bus* [bʏs])
-eː -> eː                                %fallback # digest §8.3 line 941
-ɛ -> ɛ                                  %fallback # digest §8.3 line 942
-aː -> aː                                %fallback # digest §8.3 line 943
-a -> ɑ                                  %fallback # digest §8.3 line 944
-oː -> oː                                %fallback # digest §8.3 line 945
-ɔ -> ɔ                                  %fallback # digest §8.3 line 946
-o -> ɔ                                  %fallback # digest §8.3 line 946 (the user's transcriptions write short /ɔ/ as `o`, cf. *Lasairchos* line 1071)
+iː -> i                                 %design   # design (explicit vowel mapping; spec §7 "F table"): digest §8.3 line 939 (Dutch /i/ tense but short)
+ɪ -> ɪ                                  %design   # design (explicit vowel mapping; spec §7 "F table"): digest §8.3 line 940
+uː -> u                                 %design   # design (explicit vowel mapping; spec §7 "F table"): digest §8.3 line 947
+ʊ -> ʏ                                  %design   # design (explicit vowel mapping; spec §7 "F table"): digest §8.3 line 948 open — /ʏ/ or /ɔ/; /ʏ/ is the landing site the loan data attest (*bus* [bʏs])
+eː -> eː                                %design   # design (explicit vowel mapping; spec §7 "F table"): digest §8.3 line 941
+ɛ -> ɛ                                  %design   # design (explicit vowel mapping; spec §7 "F table"): digest §8.3 line 942
+aː -> aː                                %design   # design (explicit vowel mapping; spec §7 "F table"): digest §8.3 line 943
+a -> ɑ                                  %design   # design (explicit vowel mapping; spec §7 "F table"): digest §8.3 line 944
+oː -> oː                                %design   # design (explicit vowel mapping; spec §7 "F table"): digest §8.3 line 945
+ɔ -> ɔ                                  %design   # design (explicit vowel mapping; spec §7 "F table"): digest §8.3 line 946
+o -> ɔ                                  %design   # design (explicit vowel mapping; spec §7 "F table"): digest §8.3 line 946 (the user's transcriptions write short /ɔ/ as `o`, cf. *Lasairchos* line 1071)
 # ---- §3.4 attested loan substitutions for segments that reach this file from non-Irish input
 #      (the Mode E attested rows are English loans): the table's sourced rows only.
 θ -> t                                  %attested # digest §3.4 line 511 [loan-posthumus1988-uitspraak §repertoire] *thinner* → *tinner*
