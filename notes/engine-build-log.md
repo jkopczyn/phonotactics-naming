@@ -35,3 +35,7 @@
 - 2026-08-26: Welsh gallery reviewed by owner; decisions: keep /iə uə/ → ɪ ʊ (Brian → Brin),
   keep native Welsh spelling (f = /v/, w = /ʊ/) — no English-reader respelling variant.
   Dutch gallery not yet reviewed by owner. Tool declared ready for trial use on real names.
+- 2026-08-27: owner trial: cannot hand-transcribe IPA → the provisional Irish G2P (spec
+  milestone 8, previously optional) is a v1 blocker; agent dispatched (src/strands/g2p.py,
+  lint/--accept integration, regression against the attested test-words rows). Old Irish
+  strand: spec 23f317b approved; plan writer + lexicon harvest running in parallel.
