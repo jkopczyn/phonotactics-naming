@@ -104,7 +104,7 @@ Columns: `orthography construction strand respelling ipa flags fallbacks assumpt
 - **fallbacks** — how many segments had no rule and were approximated; `0` means every step was
   a cited rule.
 - **flags** — `UNREPAIRED` (rules could not make the word legal; report it), `UNATTESTED_CLUSTER`
-  (Georgian/Dutch kept a cluster the language does not attest — intended), and for Old Irish
+  (Georgian kept a cluster the language does not attest — intended), and for Old Irish
   `ATTESTED` / `ATTESTED:MIr` (looked up) vs `RETRO` / `RETRO:loan` / `RETRO:late` (reconstructed).
 - **assumptions** — every inferred field, incl. `ipa:constructed`.
 
