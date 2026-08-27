@@ -59,22 +59,47 @@ in this file (`PATRO_O`, `PATRO_NI`) raises `ConstructionNotInStrand` (O-17); an
 slot raises `irish.MissingSlot`, so the CLI's skip logic is shared. `DESC` = `NOM(NOUN)`
 and its two slot forms resolve to "no affix" with an `epithet:<SLOT>-unmapped-in-Old
 Irish` assumption, so `DESC+ADJ` equals `DESC` (R30, O-17).
+
+The filter regression (spec §7, §11; plan Task 16; O-13, O-16, O-31). `filter_regression`
+runs every headword of the REGRESSION POPULATION through the retro-filter with the lexicon
+withheld — `run_entry_oi(..., lexicon={})` on `DESC`, i.e. the forced RETRO path, ending
+marker realized — and compares `Result.respelling` with the row's `oi_nom` as WRITTEN forms
+(O-16): NFC + casefold, character-level Levenshtein via `regress.edit_distance`. The
+population is the unique citation-form keys that are in `test-words.tsv` with hand IPA AND
+have a form-bearing (`attested`/`middle`) lexicon row; a `none` row has no `oi_nom` and is
+excluded (O-31; measured 58 at the time of writing, plan draft 3 said 54 before Task 4's
+Middle Irish rows). A key with several hand-IPA rows takes the first row tagged
+`src:attested`, else the first in file order — the fallback is needed because *niamh* has no
+`src:attested` row (O-31); the tag is read from the entry's `assumptions`/`note`, so entries
+built without their `features` column fall to file order, which picks the same rows here.
+
+**A low rate is the expected outcome, not a defect.** Every filter rule is `%design` or rests
+on a handful of lexicon pairs, and digest §10.7 says outright that the correspondence set
+needed to reverse the sound changes "is not in this source set". The per-class breakdown
+(`FilterReport.by_class`, over `REVERSAL_CLASSES`) is the artefact; do not "fix" the number
+by weakening the comparison. The ⟨ao⟩ class has 4 members in the ratcheted population (R2),
+so **decision O1 (modern ⟨ao⟩ → ⟨áe⟩) cannot be measured without the G2P**: with `g2p=`
+supplied every form-bearing row without a hand IPA is added with `constructed=True`, which
+is where the ~20 ⟨ao⟩ pairs live. `rate(..., constructed=False)` is what the ratchet keys
+off, so G2P accuracy can never move a filter number.
 """
 from __future__ import annotations
 
 import functools
+import unicodedata
 from dataclasses import dataclass, replace
-from typing import TYPE_CHECKING, Sequence
+from typing import TYPE_CHECKING, Callable, Sequence
 
 from .dsl import RuleFile, TemplateItem
 from .features import FeatureTable
 from .irish import MissingSlot, _head_name, normalize
-from .lexicon import LexEntry, read_lexicon
+from .lexicon import FORM_STATUSES, LexEntry, key, read_lexicon
 from .orth import tag_word
 from .pipeline import (ConstructionNotInStrand, PipelineError, Result, lookup,
                        parse_construction, resolve_epithet)
 from .poststress import post_stress
 from .repair import repair
+from .regress import edit_distance
 from .respell import respell_traced
 from .spelled import (SpelledWord, apply_grapheme_table, parse_quality_pairs, spelling_to_ipa,
                       spelling_to_words)
@@ -90,7 +115,8 @@ if TYPE_CHECKING:
 __all__ = ["OI_FLAGS", "LOOKUP_STAGE", "RECONSTRUCT_STAGE", "TEMPLATE_STAGE",
            "ConstructionNotInStrand", "Stem", "infer_stem", "to_old_irish", "apply_oi_mutation",
            "CASE_TABLES", "PRIMITIVE_TABLES", "apply_case", "CASE_FUNCTIONS", "article",
-           "build_oi_construction", "adapt_oi", "run_entry_oi"]
+           "build_oi_construction", "adapt_oi", "run_entry_oi",
+           "FilterRow", "FilterReport", "REVERSAL_CLASSES", "filter_regression"]
 
 OI_FLAGS = ("ATTESTED", "ATTESTED:MIr", "RETRO", "RETRO:loan", "RETRO:late")
 LOOKUP_STAGE = "lookup"
@@ -638,3 +664,150 @@ def _template_args(items: tuple[TemplateItem, ...]) -> list[str]:
                 out.append(node.value)
             node = node.child
     return out
+
+
+# ---- the filter regression (spec §7, §11; plan Task 16) -------------------------------------
+
+_REGRESSION_CONSTRUCTION = "DESC"        # NOM(NOUN): the nominative, marker realized
+_R_STEM_HEADWORDS = frozenset({"athair", "bráthair", "máthair"})
+
+
+def _fold(text: str) -> str:
+    return unicodedata.normalize("NFC", text).strip().casefold()
+
+
+def _contains(*parts: str) -> Callable[[str, str], bool]:
+    return lambda modern, _oi: any(p in modern for p in parts)
+
+
+def _ends_with(*parts: str) -> Callable[[str, str], bool]:
+    return lambda modern, _oi: modern.endswith(parts)
+
+
+def _doubled_letters(text: str) -> set[str]:
+    return {a for a, b in zip(text, text[1:]) if a == b and a.isalpha()}
+
+
+def _new_geminate(modern: str, oi: str) -> bool:
+    """`oi_nom` has a doubled letter the modern form lacks (plan Task 16 table)."""
+    return bool(_doubled_letters(oi) - _doubled_letters(modern))
+
+
+REVERSAL_CLASSES: dict[str, Callable[[str, str], bool]] = {
+    "quality-digraph": _contains("ea", "io", "ai", "oi", "ui"),
+    "ch-th": _contains("ch", "th"),
+    "final-vowel": _ends_with("a", "e"),
+    "geminate": _new_geminate,
+    "lenition-digraph": _contains("bh", "dh", "gh", "mh"),
+    "ao": _contains("ao"),
+    "ua-ia": _contains("ua", "ia"),
+    "an-suffix": _ends_with("án"),
+    "r-stem": lambda modern, _oi: modern in _R_STEM_HEADWORDS,
+}
+"""name -> predicate(modern orthography, oi_nom), both NFC + casefolded (plan Task 16
+table). `geminate` is the one class that needs the Old Irish side, so every predicate
+takes both."""
+
+
+@dataclass(frozen=True)
+class FilterRow:
+    orthography: str                        # the modern citation form as written in the row
+    expected: str                           # the lexicon's oi_nom
+    got: str                                # Result.respelling from the forced RETRO path
+    distance: int                           # character-level Levenshtein (O-16)
+    classes: tuple[str, ...]                # the REVERSAL_CLASSES the pair falls in
+    constructed: bool = False               # True when the IPA came from the G2P
+
+
+@dataclass(frozen=True)
+class FilterReport:
+    rows: tuple[FilterRow, ...]
+
+    def _select(self, constructed: bool | None) -> list[FilterRow]:
+        return [r for r in self.rows if constructed is None or r.constructed == constructed]
+
+    def rate(self, max_distance: int = 0, constructed: bool | None = None) -> float:
+        """Share of rows with `distance <= max_distance`; `constructed` restricts the
+        population (False = hand IPA only, the ratcheted set). 0.0 when empty."""
+        rows = self._select(constructed)
+        if not rows:
+            return 0.0
+        return sum(1 for r in rows if r.distance <= max_distance) / len(rows)
+
+    def by_class(self, max_distance: int = 0, constructed: bool | None = None
+                 ) -> dict[str, tuple[int, int]]:
+        """name -> (rows within `max_distance`, rows in the class), every class present."""
+        rows = self._select(constructed)
+        out: dict[str, tuple[int, int]] = {}
+        for name in REVERSAL_CLASSES:
+            members = [r for r in rows if name in r.classes]
+            out[name] = (sum(1 for r in members if r.distance <= max_distance), len(members))
+        return out
+
+    def summary(self) -> str:
+        hand = self._select(False)
+        lines = [f"filter regression: n={len(hand)} exact={self.rate(0, False):.4f} "
+                 f"lev1={self.rate(1, False):.4f}"]
+        wide = self._select(True)
+        if wide:
+            lines.append(f"  G2P-widened (not ratcheted): +{len(wide)} rows, "
+                         f"exact={self.rate(0):.4f} lev1={self.rate(1):.4f} over "
+                         f"{len(self.rows)}")
+        for name, (p, t) in self.by_class(constructed=None if wide else False).items():
+            lines.append(f"  {name:18} {p:3}/{t:3}")
+        return "\n".join(lines)
+
+
+def _src_attested(entry: "Entry") -> bool:
+    """O-31's tie-break tag, read from wherever a caller carried it (`assumptions`, `note`
+    or a `features` attribute); `Entry` has no `features` column of its own."""
+    haystack = (*entry.assumptions, entry.note, getattr(entry, "features", "") or "")
+    return any("src:attested" in h for h in haystack)
+
+
+def _choose(entries: Sequence["Entry"]) -> "Entry":
+    """The first row tagged src:attested, else the first in file order (O-31)."""
+    for entry in entries:
+        if _src_attested(entry):
+            return entry
+    return entries[0]
+
+
+def _filter_row(entry: "Entry", row: LexEntry, oi: RuleFile, irish: RuleFile,
+                table: FeatureTable, *, constructed: bool) -> FilterRow:
+    result = run_entry_oi(entry, _REGRESSION_CONSTRUCTION, irish, oi, table, lexicon={})
+    got, want = _fold(result.respelling), _fold(row.oi_nom)
+    modern = _fold(entry.orthography)
+    classes = tuple(name for name, pred in REVERSAL_CLASSES.items() if pred(modern, want))
+    return FilterRow(orthography=row.orthography, expected=row.oi_nom,
+                     got=result.respelling, distance=edit_distance(got, want),
+                     classes=classes, constructed=constructed)
+
+
+def filter_regression(entries: Sequence["Entry"], lexicon: dict[str, LexEntry], oi: RuleFile,
+                      irish: RuleFile, table: FeatureTable, *,
+                      g2p: "Callable[[str, str], tuple[str, list[str]]] | None" = None
+                      ) -> FilterReport:
+    """Run the retro-filter over the regression population (module docstring) and compare
+    written forms with `oi_nom`. `entries` are the hand-IPA rows (an entry without IPA is
+    ignored); with `g2p` every form-bearing lexicon row without one is added, its IPA
+    constructed and the row marked `constructed=True`. Rows come out in lexicon file order."""
+    from .inputs import Entry, infer
+    by_key: dict[str, list["Entry"]] = {}
+    for entry in entries:
+        if entry.ipa.strip():
+            by_key.setdefault(key(entry.orthography), []).append(entry)
+    rows: list[FilterRow] = []
+    for k, row in lexicon.items():
+        if row.status not in FORM_STATUSES:
+            continue
+        if k in by_key:
+            rows.append(_filter_row(_choose(by_key[k]), row, oi, irish, table,
+                                    constructed=False))
+        elif g2p is not None:
+            ipa, _notes = g2p(row.orthography, "C")
+            entry = infer(Entry(orthography=row.orthography, ipa=ipa, dialect="C",
+                                gender=row.gender or "m", assumptions=("ipa:constructed",)),
+                          irish, table)
+            rows.append(_filter_row(entry, row, oi, irish, table, constructed=True))
+    return FilterReport(rows=tuple(rows))
