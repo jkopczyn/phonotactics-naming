@@ -141,3 +141,34 @@ No consonant row carries `ː`: gemination is two identical segments everywhere (
 73 PHOIBLE + 40 hand = **113 rows** (86 consonants, 27 vowels). Test-covered by
 `tests/test_features_hand.py`, which also checks that all 64 segments used by
 `sources/irish/test-words.tsv` have a row.
+
+## Old Irish lenited series (2026-08-27)
+
+7 rows, `source = hand:old-irish`, `class = C`, bringing the table to **124 rows** (73 PHOIBLE +
+41 hand + 3 input aliases + 7 Old Irish). Citation for every row: Old Irish digest §10.1
+[wiki-old-irish §Consonants], the lenition chart. Each row is a copy of its base with only the
+listed features changed; the slender rows use the `ʲ` convention above (`front=+ back=- high=+`).
+Rows sit in (`class`, code point) order among the consonants; nothing else was moved.
+
+| segment | base | applied |
+|---|---|---|
+| `β` | `v` | `labiodental=- labial=+ round=-` — voiced bilabial fricative; `continuant=+ sonorant=- periodicGlottalSource=+` kept |
+| `βʲ` | `β` | `ʲ` |
+| `β̃` | `β` | `nasal=+` |
+| `β̃ʲ` | `βʲ` | `nasal=+` |
+| `θʲ` | `θ` | `ʲ` |
+| `ðʲ` | `ð` | `ʲ` |
+| `ɣʲ` | `ɣ` | `front=+ back=-` (`high` was already `+`) |
+
+- **O-1** — spec §4 writes the lenited /m/ as `/μ/`; project canon is IPA with diacritics, so it is
+  the nasalized bilabial fricative `β̃` (digest §10.8 conflict 3: /ṽ/ ~ /β̃/ ~ [w̃] are one segment),
+  differing from `β` only in `nasal`.
+- **O-2** — no fortis sonorant rows (`L N R`) are added: Old Irish has no fortis/lenis segment
+  contrast here; fortis is the doubled grapheme ⟨ll nn rr mm⟩, reconstructed as two identical
+  segments (I-2).
+- **R26** — `ɣʲ` is its own row because the existing `j` is a glide (`sonorant=+ consonantal=-
+  approximant=+`), not the voiced palatal fricative that digest §10.1 charts as the lenition of
+  /ɡʲ/; no `xʲ` row is added because slender /xʲ/ is exactly the existing `ç` (`x` and `ç` differ
+  only in `front`).
+
+Test-covered by the Old Irish block of `tests/test_features_hand.py`.
