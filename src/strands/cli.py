@@ -246,13 +246,23 @@ def cmd_explain(args: Sequence[str]) -> int:
     table, irish, targets = _load(strand)
     name, rf = targets[0]
     from .inputs import Entry, infer
+    from .irish import MissingSlot
     from .pipeline import run_entry
     from .tokenize import SegmentError
     orthography = opts.get("--orthography")
     is_old_irish = rf.meta.get("strand", "").strip() == "old-irish"
     try:
         entry = infer(Entry(orthography=str(orthography or word), ipa=word), irish, table)
-        result = run_entry(entry, construction, irish, rf, table)
+        if is_old_irish and orthography is None:
+            # O-23: with no citation spelling the lookup is disabled outright (an empty
+            # lexicon), so the printed "pure RETRO path" note is true even when the IPA
+            # argument happens to spell a lexicon key (*mac*).
+            from .oldirish import run_entry_oi
+            result = run_entry_oi(entry, construction, irish, rf, table, lexicon={})
+        else:
+            result = run_entry(entry, construction, irish, rf, table)
+    except MissingSlot as e:
+        raise UsageError(f"{e}; explain takes one word and cannot fill a second slot") from e
     except SegmentError as e:
         raise RuntimeError(f"{word}: {e}") from e
     print(f"{word}  [{name}, {construction}]")
@@ -260,7 +270,7 @@ def cmd_explain(args: Sequence[str]) -> int:
         print(f"orthography: {orthography}")
     elif is_old_irish:
         print("note: no --orthography given, so the lexicon lookup (which keys on the "
-              "citation spelling, O-23) cannot hit; this is the pure RETRO path")
+              "citation spelling, O-23) is disabled; this is the pure RETRO path")
     print(f"respelling: {result.respelling}")
     print(f"ipa:        {result.ipa}")
     if result.flags:

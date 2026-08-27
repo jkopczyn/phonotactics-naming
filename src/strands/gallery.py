@@ -108,7 +108,12 @@ def formation_block(irish: RuleFile, target: RuleFile, table: FeatureTable,
     lines = ["## Old Irish formations", "",
              "The eight formation templates (spec §8 row O6) over lexicon ELEMENT rows; each "
              "element's IPA is constructed by the G2P (`ipa:constructed`). A whole-name row "
-             "(*Máel Coluim*) returns ATTESTED in one piece and never exercises a template.", "",
+             "(*Máel Coluim*) returns ATTESTED in one piece and never exercises a template. "
+             "The governed names are the element rows Task 3 could cite (*Colum*, *Pátraic*, "
+             "*Culann*); *Fer Diad*'s *Diad* and *Dubthach*'s *-thach* have none "
+             "(old-irish-lexicon-log), so FER and COLOUR run over the same three. A "
+             "lower-case lexicon element (*dub*, *macc*, *aue*, *ingen*) stays lower-case "
+             "(O-32).", "",
              "| element | Old Irish | DESC | GEN |", "|---|---|---|---|"]
     for name in FORMATION_ELEMENTS + FORMATION_NAMES:
         row, entry = _element_entry(lexicon, name, irish, table)

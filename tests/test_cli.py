@@ -235,6 +235,34 @@ def test_explain_warns_when_no_orthography_is_given_for_old_irish(capsys):
     assert "RETRO" in out and "--orthography" in out
 
 
+def test_explain_without_orthography_is_the_pure_retro_path_even_for_a_lexicon_key(capsys):
+    """review-oi-final #1: the bare IPA argument doubles as the orthography, so an IPA that
+    happens to be a lexicon key (*mac*) would hit while the note says it cannot. Lookup is
+    disabled outright, so the interface is not input-dependent."""
+    from strands.cli import main
+    assert main(["explain", "mac", "--strand", "old-irish"]) == 0
+    out = capsys.readouterr().out
+    assert "RETRO" in out and "ATTESTED" not in out and "--orthography" in out
+
+
+def test_explain_rejects_a_construction_whose_slots_it_cannot_fill(capsys):
+    """review-oi-final #2: COLOUR/ADJ/OF/COMPOUND need a second slot that `explain` has no
+    way to supply; that is a usage error, not a traceback."""
+    from strands.cli import main
+    rc = main(["explain", "d̪ˠʊw", "--strand", "old-irish", "--orthography", "dubh",
+               "--construction", "COLOUR"])
+    err = capsys.readouterr().err
+    assert rc == 2
+    assert "Traceback" not in err and "NAME" in err and "COLOUR" in err
+
+
+def test_explain_missing_slot_is_a_usage_error_in_the_modern_strands_too(capsys):
+    from strands.cli import main
+    rc = main(["explain", "nʲiəl̪ˠ", "--strand", "welsh", "--construction", "ADJ"])
+    err = capsys.readouterr().err
+    assert rc == 2 and "Traceback" not in err and "ADJ" in err
+
+
 def test_explain_uses_the_orthography_for_the_lookup(capsys):
     from strands.cli import main
     assert main(["explain", "nʲiəl̪ˠ", "--strand", "old-irish", "--orthography", "Niall"]) == 0
