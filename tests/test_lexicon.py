@@ -100,17 +100,23 @@ def test_the_widened_stem_vocabulary_is_accepted(tmp_path):
     (dict(LOAN, oi_nom="Seán"), "LEX_NONE_HAS_FORM"),
     (dict(ATTESTED, stem="irregular", oi_gen=""), "LEX_IRREGULAR_NO_GEN"),
 ])
-def test_the_three_task3_gaps_are_warnings_for_now(tmp_path, bad, code):
-    """R3a: measured on the committed file these fire on 29, 1 and 11 rows. Task 3 closes
-    them and promotes all three to `error`."""
-    path = write(tmp_path, row(**bad))
-    assert codes(path) == []
-    assert code in codes(path, severity="warning")
+def test_the_three_former_task3_gaps_are_errors(tmp_path, bad, code):
+    """R3a: these were warnings while the harvest was a Task 3 backlog (29, 1 and 11 rows);
+    Task 3 closed it and promoted all three to `error`."""
+    assert code in codes(write(tmp_path, row(**bad)))
 
 
-def test_a_row_task3_still_owes_a_stem_or_gender_is_a_warning(tmp_path):
+def test_a_row_that_still_owes_a_stem_or_gender_is_a_warning(tmp_path):
     path = write(tmp_path, row(**dict(ATTESTED, stem="")))
     assert codes(path) == [] and "LEX_NEEDS_TASK3" in codes(path, severity="warning")
+
+
+@pytest.mark.parametrize("prefix", ["no nominal paradigm: adjective", "unattested: stem class"])
+def test_a_blank_that_explains_itself_is_not_a_warning(tmp_path, prefix):
+    """Task 3: adjectives, numerals and prefixes have no nominal paradigm; a noun whose class
+    the sources do not show is inferred at runtime (O-33). Neither is a backlog."""
+    path = write(tmp_path, row(**dict(ATTESTED, stem="", note=prefix + " x")))
+    assert codes(path) == [] and codes(path, severity="warning") == []
 
 
 def test_a_wrong_header_is_reported_not_guessed(tmp_path):
@@ -136,8 +142,3 @@ def test_the_committed_lexicon_is_the_harvested_one():
     assert sum(r.status == "none" for r in FILE_ROWS) >= 25
     assert sum(bool(r.oi_gen) for r in FILE_ROWS) >= 160
     assert len({key(r.orthography) for r in FILE_ROWS}) == len(FILE_ROWS)   # O-19: no dups
-
-
-def test_the_task3_backlog_is_visible_and_counted():
-    codes_seen = {e.code for e in check_lexicon_file(PATH) if e.severity == "warning"}
-    assert {"LEX_NEEDS_TASK3", "LEX_NONE_NO_KIND"} <= codes_seen

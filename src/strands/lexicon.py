@@ -9,11 +9,12 @@ own orthography is a surface form (*a Sheáin*) is a RETRO miss by design (O-23)
 Every row cites a page (`source`): a URL, `digest §10.n`, `strachan1909 p.N` or
 `pokorny1914 p.N`. Uncited or oddly-cited rows are errors (spec §3).
 
-Validation findings are `check.CheckError`s. The four `LEX_*` WARNINGS — `LEX_NONE_HAS_FORM`,
-`LEX_NONE_NO_KIND`, `LEX_IRREGULAR_NO_GEN`, `LEX_NEEDS_TASK3` — are a data backlog owned by plan
-Task 3, which fills the `kind` column, reclassifies the pre-§10 `irregular` rows and supplies
-the missing stems/genders, then promotes the first three to `error`. They are warnings here so
-that the committed harvest validates with zero errors as committed (R3a).
+Validation findings are `check.CheckError`s. `LEX_NONE_HAS_FORM`, `LEX_NONE_NO_KIND` and
+`LEX_IRREGULAR_NO_GEN` were warnings while the harvest was a Task 3 backlog and are errors since
+that task closed it (R3a). The one remaining warning, `LEX_NEEDS_TASK3`, marks a form-bearing row
+with a blank `stem` or `gender` that does not explain itself: a `note` starting
+`no nominal paradigm:` (adjective / numeral / prefix / phrase) or `unattested:` (a noun whose
+class the cited sources do not show; Task 14 infers and tags it, O-33) is exempt.
 """
 from __future__ import annotations
 
@@ -23,7 +24,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 __all__ = [
-    "FORM_STATUSES", "GENDERS", "KINDS", "LEXICON_COLUMNS", "STATUSES", "STEMS",
+    "EXEMPT_NOTE_PREFIXES", "FORM_STATUSES", "GENDERS", "KINDS", "LEXICON_COLUMNS", "STATUSES", "STEMS",
     "LexEntry", "LexiconError", "default_lexicon_path", "key", "read_lexicon", "read_rows",
     "validate",
 ]
@@ -35,6 +36,7 @@ GENDERS = ("m", "f", "n")
 STATUSES = ("attested", "middle", "none")
 KINDS = ("loan", "late")
 FORM_STATUSES = ("attested", "middle")
+EXEMPT_NOTE_PREFIXES = ("no nominal paradigm:", "unattested:")
 
 _SOURCE_SHAPES = (
     re.compile(r"^https?://"),
@@ -165,21 +167,20 @@ def validate(header: list[str], entries: list[LexEntry], path: str | Path | None
             if e.kind:
                 add(e.line, "LEX_KIND_ON_FORM_ROW",
                     f"{e.orthography!r}: kind {e.kind!r} on a {e.status} row")
-            if not e.stem or e.stem == "irregular" or not e.gender:
+            if (not e.stem or not e.gender) and not e.note.startswith(EXEMPT_NOTE_PREFIXES):
                 add(e.line, "LEX_NEEDS_TASK3",
                     f"{e.orthography!r}: stem={e.stem or '-'} gender={e.gender or '-'} "
-                    "(Task 3 backlog)", "warning")
+                    "(blank, and the note does not explain it)", "warning")
         elif e.status == "none":
             if e.oi_nom or e.oi_gen or e.stem or e.gender:
                 add(e.line, "LEX_NONE_HAS_FORM",
-                    f"{e.orthography!r}: status none but carries a form/stem/gender",
-                    "warning")
+                    f"{e.orthography!r}: status none but carries a form/stem/gender")
             if e.kind not in KINDS:
                 add(e.line, "LEX_NONE_NO_KIND",
-                    f"{e.orthography!r}: status none needs kind in {KINDS}", "warning")
+                    f"{e.orthography!r}: status none needs kind in {KINDS}")
         if e.stem == "irregular" and not e.oi_gen:
             add(e.line, "LEX_IRREGULAR_NO_GEN",
-                f"{e.orthography!r}: stem irregular needs oi_gen", "warning")
+                f"{e.orthography!r}: stem irregular needs oi_gen")
 
     out.sort(key=lambda c: (c.line, c.code))
     return out

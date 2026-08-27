@@ -358,3 +358,96 @@ actually happened. Note also that several `attested` rows are Latin loans that O
 *already* taken (*peann ~ penn*, *leabhar ~ lebor*, *caisleán ~ caisel*, *easpag ~ epscop*,
 *saol ~ saegul*, *cill ~ cell*, *ór ~ ór*) — these are correctly `attested`, and they are the
 reason the loan test has to be "is it in Old Irish?", not "is it ultimately foreign?".
+
+## Second pass (Task 3, 2026-08-27)
+
+Plan Task 3 (`docs/plans/2026-08-27-old-irish-plan.md`) re-worked the file row by row against
+spec §10. Both verification passes are now TSVs beside the file:
+`old-irish-lexicon.verification.tsv` (the 35-row first pass above, transcribed from the
+verifying agent's own table — SKIP became `ok` with a note) and
+`old-irish-lexicon.verification2.tsv` (this pass). File after the pass: **302 rows** (273
+form-bearing, 29 `none`, 168 with `oi_gen`).
+
+### Stem reclassification (finding 5)
+
+The 37 `irregular` placeholders became: **velar 9** (*Ainmire, caora, Cuanu, Eochaidh, Fiachra,
+Fionnabhair, Lughaidh, rí, Ruairí*), **r 4** (*athair, bráthair, máthair, deirfiúr*), **s 5**
+(*glúin, neamh, sliabh, teach, tír*), **indecl 13** (*Eoin* per its own declension table; the
+ten whole-name rows *Cú Chonnacht, Dubh-dá-leithe, Fear Diad, Giolla Pádraig, Giolla Íosa, Maol
+Coluim, Maol Muire, Maol Seachlainn* and, by decision, *Giolla* and *Muircheartach*; plus *Da
+Derga*, *Pátraic* and *Pádraig* from blank). **5 stay `irregular`**, every one with a genitive:
+*bean, bó, mí, mná* (suppletive or root-noun paradigms) and *Cú Chulainn* (a whole-name row whose
+genitive *Con Culainn* is attested, so `indecl` would be wrong). *gasúr* lost its stray `stem`.
+*Niamh* lost the s-stem it had borrowed from *nem* 'heaven' (see defects).
+
+### Blanks that explain themselves (Part B)
+
+Every remaining form-bearing row with a blank `stem` or `gender` now has a `note` starting with
+one of two prefixes, and `lexicon.validate` skips `LEX_NEEDS_TASK3` for both:
+
+- `no nominal paradigm: adjective` **39**, `: numeral` **11**, `: prefix` **5** (no `: phrase`
+  row exists);
+- `unattested: …` **44** — nouns (mostly names) whose cited pages show the Old Irish form but no
+  declension. **This prefix is a Task 3 addition to the plan's vocabulary.** The plan's tests
+  assumed Part E would supply every noun's class; the pages do not (the Old Irish proper-noun
+  entries for *Cían, Clídna, Brénainn, Maire* carry a gender and no table; *Aédán, Odrán, Sadb,
+  Étaín, Findbarr, Finnguala* have no Old Irish lemma at all), and inventing classes was
+  forbidden. These rows route through Task 14's `infer_stem` and are tagged (O-33).
+
+Filled from Old Irish lemma pages: *Laoghaire* (io-stem m, gen *Lóegaire*), *Gaeilge* (ā f, gen
+*Goídilce*), *Ulaidh* (plural o-stem m), *Liadain* (ī→ā), *fiacail* gender m, *madra* and
+*muileann* gender m, *Giolla* gender m.
+
+### `kind` on the 29 `none` rows (Part C)
+
+Classified from each row's own note: **loan 14** / **late 15**. Deltas from finding 7's 12/17
+table: *spraoi* and *gasúr* → `loan` (their notes say "borrowed directly from Old Norse" and
+"loanword … post-OI borrowing"). *bádóir* stays `late` (an Irish-internal *-óir* derivation whose
+base is a loan) and *Cairmilíteach* `loan` (a borrowed order-name with a native suffix) — both
+noted on the row.
+
+### Formation elements (Part D)
+
+- Added **`Dubhthach` ~ *Dubthach*** (o-stem m, gen *Dubthaig*; Wiktionary Old Irish entry) as
+  the genuine two-element colour compound for Task 15's `COLOUR` (R31a); *Donnchadh* was already
+  present. *Dubh-dá-leithe* is three elements.
+- Added **`Culann`** (gen *Culainn*, m; from the Old Irish *Cú Chulainn* entry, which names the
+  element and gives gen *Con Culainn*; no *Culann* lemma exists, so the stem is `unattested:`).
+- Added **`leath` ~ *leth*** (n; o-stem gen *leith* and s-stem gen *leithe* on the page; `s`
+  chosen because the compound shows *Leithe*).
+- **`Diad` could not be added**: no Wiktionary page for *Fer Diad* or *Diad*; Wikipedia gives
+  only competing glosses of the whole name ("man of smoke / of the pair / of two feet") and a
+  possible back-formation from the place name *Áth Fhir Diad*. Task 15 drops the *Fer Diad* case
+  (the whole-name row stays).
+- **`Neasa`**: gen *Nessa* (the digest's own *Conchobar mac Nessa*), stem `ā`; no source states
+  the class — the row note says so.
+- **Spelling: *Pátraic*** (with the fada) across the lexicon (R31b): the digest's *Patraic* row
+  is now keyed and spelled *Pátraic*, *Pádraig* → *Pátraic* is `indecl`, *Giolla Pádraig* →
+  *Gilla Pátraic* unchanged. Spec §7 and Wikipedia write *Pátraic*; the digest (§10.5, §10.6)
+  still prints *Patraic* and was not edited.
+- The *Find-* / *Finn* split stands: the `Fionn` row gives *Finn* (Wiktionary's epithet form);
+  spec §5 and the digest write *Find-* in compounds.
+
+### Verification counts (Part E)
+
+**131 rows** re-checked: every row with a blank `oi_gen`, `stem` or `gender` or an `irregular`
+stem (127 of the form-bearing rows before the pass), the R29 ā-stem trio and the Part D rows.
+Method: Wiktionary pages read as raw wikitext (`action=raw`, Old Irish / Middle Irish sections
+and the Irish etymology lines), Wikipedia via fetch, `digest §10.n` rows against the digest text.
+**2 `fixed`, 0 `removed` (1.5%)** — under the 10% gate:
+
+| row | defect | correction |
+|---|---|---|
+| `ua` | `oi_nom = ua` is the modern/Middle Irish form; the cited page derives it from Old Irish *aue* | *aue*, io-stem m, gen *aui* (alt *ui*); the formation element is now spelled *aue* |
+| `Niamh` | mapped onto *nem* 'heaven' (s-stem n, gen *nime*); the cited etymology names *ném* 'lustre', a different lexeme | *ném*, genitive/stem/gender blanked as unattested |
+
+R29's *adarc → adarcae*, *ferg → fergae*, *long → lungae* are **as the pages print them**
+(`{{sga-decl-a-fem|…|gen_sg=…ae}}` with palatalised dative/accusative *adairc, feirg, luing*): a
+bare ⟨-ae⟩ genitive is the regular ā-stem ending, and the *túath/túaithe* shape is the
+palatalised variant, not the rule.
+
+### Check status
+
+`strands check rules/old-irish-lexicon.tsv` is silent. `LEX_NONE_NO_KIND`, `LEX_NONE_HAS_FORM`
+and `LEX_IRREGULAR_NO_GEN` are errors; `LEX_NEEDS_TASK3` no longer fires on `irregular` (a
+reserved class since §10) and is skipped for the two explained-blank prefixes.
