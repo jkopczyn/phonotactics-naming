@@ -1,7 +1,8 @@
 """Task 17: Irish mutations and inflections (digest §3.1–§3.5)."""
 import pytest
-from helpers import TABLE, w, irish, mutation_rows
-from strands.irish import apply_mutation, apply_inflection
+from helpers import TABLE, irish, mutation_rows, w
+
+from strands.irish import apply_inflection, apply_mutation
 
 IRISH = irish()
 def ipa(x): return x.ipa(marks=False)

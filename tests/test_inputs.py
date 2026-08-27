@@ -3,7 +3,8 @@ import csv
 import shutil
 
 from helpers import FIX, ROOT, TABLE, irish
-from strands.inputs import Entry, INPUT_COLUMNS, accept_guesses, infer, lint_report, read_input
+
+from strands.inputs import INPUT_COLUMNS, Entry, accept_guesses, infer, lint_report, read_input
 
 IRISH = irish()
 
@@ -173,6 +174,7 @@ def test_declension_column_is_read_written_and_validated(tmp_path):
     honoured (no `declension:` assumption, GEN/VOC dispatch on it); `--accept` writes the
     inferred value back so lint stops reporting it; a bad value is an InputError."""
     import pytest
+
     from strands.inputs import InputError
     f = tmp_path / "in.tsv"
     f.write_text("orthography\tipa\tgender\tdeclension\nSeán\tʃaːnˠ\tm\t\nBríd\tbʲɾʲiːdʲ\tf\tf2\n",

@@ -1,5 +1,8 @@
 """Task 1b: hand-derived Irish, alias and target-gap rows in rules/features.tsv."""
-import csv, pathlib, unicodedata
+import csv
+import pathlib
+import unicodedata
+
 ROOT = pathlib.Path(__file__).parents[1]
 
 HAND = ("pˠ bˠ t̪ˠ d̪ˠ fˠ sˠ mˠ n̪ˠ l̪ˠ ɾˠ vˠ pʲ bʲ tʲ dʲ fʲ vʲ mʲ nʲ lʲ ɾʲ "
@@ -78,6 +81,7 @@ def test_every_segment_used_by_test_words_has_a_row():
 
 # ---- Task 1 (Old Irish plan): the lenited series, digest §10.1; O-1, O-2, R26 -------------
 import pytest
+
 from strands.features import FEATURE_NAMES, load_features
 from strands.tokenize import tokenize
 

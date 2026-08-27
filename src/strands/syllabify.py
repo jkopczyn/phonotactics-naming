@@ -45,8 +45,8 @@ nothing about the WORD ever raises.
 """
 from __future__ import annotations
 
+from collections.abc import Sequence
 from dataclasses import replace
-from typing import Sequence
 
 from .dsl import CtxItem, RuleFile, SyllableSpec
 from .features import FeatureTable

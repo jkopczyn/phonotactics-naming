@@ -9,7 +9,6 @@ Two kinds of test:
   Both are ratcheted in `tests/ratchets/g2p.json`.
 """
 import json
-import pathlib
 
 import pytest
 from helpers import ROOT, TABLE, read_test_words

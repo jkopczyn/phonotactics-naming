@@ -8,6 +8,8 @@ import re
 
 import pytest
 from helpers import ROOT, TABLE, entry_of, irish, read_allow_file_for, read_test_words, target, w
+from test_stress_cairene import CAIRENE_STRESS_TABLE
+
 from strands.check import check_rule_file
 from strands.inputs import Entry
 from strands.pipeline import adapt, run_entry
@@ -15,7 +17,6 @@ from strands.regress import assert_ratchet, run_regression
 from strands.repair import repair
 from strands.stress import assign_stress
 from strands.syllabify import syllabify
-from test_stress_cairene import CAIRENE_STRESS_TABLE
 
 NAME = "arabic-egy"
 TARGET = target(NAME)

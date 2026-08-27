@@ -33,9 +33,10 @@ the pipeline itself adds. Everything is a tuple, so two runs of the same input c
 """
 from __future__ import annotations
 
+from collections.abc import Sequence
 from dataclasses import dataclass, replace
 from pathlib import Path
-from typing import TYPE_CHECKING, Sequence
+from typing import TYPE_CHECKING
 
 from .dsl import RuleFile, parse_rules_file
 from .features import FeatureTable
@@ -211,7 +212,7 @@ def adapt(words: Sequence[Word], target: RuleFile, table: FeatureTable,
 
 # ---- stage 1b: lookup (Old Irish spec §2; O-9, O-23) ------------------------------------------
 
-def lookup(entry: "Entry", lexicon: "dict[str, LexEntry]") -> "LexEntry | None":
+def lookup(entry: Entry, lexicon: dict[str, LexEntry]) -> LexEntry | None:
     """Stage 1b (spec §2, O-9, O-23): exact match of `entry.orthography` — the CITATION form
     — after NFC + casefold. No de-mutation, no fuzzy fallback."""
     from .lexicon import key
@@ -226,8 +227,8 @@ def _head_slot(irish: RuleFile, name: str) -> str | None:
     return _head_name(items) if items is not None else None
 
 
-def run_entry(entry: "Entry", construction: str, irish: RuleFile, target: RuleFile,
-              table: FeatureTable, slots: "dict[str, Entry] | None" = None) -> Result:
+def run_entry(entry: Entry, construction: str, irish: RuleFile, target: RuleFile,
+              table: FeatureTable, slots: dict[str, Entry] | None = None) -> Result:
     """Stage 1 (template + normalize) then adapt(), passing the resolved epithet.
     `slots` defaults to `{head: entry}` — the template's first argument slot; a template
     with further slots (ADJ, OF, COMPOUND) needs them supplied and raises `MissingSlot`

@@ -30,7 +30,7 @@ import unicodedata
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from .features import FeatureError, FeatureTable, DERIVED_CLASSES
+from .features import DERIVED_CLASSES, FeatureError, FeatureTable
 from .tokenize import SegmentError, tokenize
 
 __all__ = [
@@ -182,7 +182,7 @@ class Epithet:
 class TemplateItem:
     kind: str            # "literal" | "arg" | "call"
     value: str           # literal text, argument name, or function name
-    child: "TemplateItem | None" = None    # the call's argument; None = applied to the head (I-16)
+    child: TemplateItem | None = None    # the call's argument; None = applied to the head (I-16)
     conditional: bool = False              # trailing "?"
 
 
@@ -615,7 +615,7 @@ class _GraphemeLineParser(_LineParser):
         self.subtable = subtable
         self.tokens = tokens
 
-    def parse(self, text: str) -> "GraphemeRule":       # type: ignore[override]
+    def parse(self, text: str) -> GraphemeRule:       # type: ignore[override]
         from .spelled import GraphemeRule
         target_text, repl_text, env_text, tag, comment, _ = self._split(text)
         target = self._gtarget(target_text)
@@ -908,7 +908,7 @@ class _SyllableBuilder:
             onset_pairs=_adjacent_pairs(self.onsets), coda_pairs=_adjacent_pairs(self.codas))
 
 
-def template_functions(rf: "RuleFile") -> frozenset[str]:
+def template_functions(rf: RuleFile) -> frozenset[str]:
     """The template call names legal in `rf` (Old Irish spec §11, GPT #7): the keys of its
     mutation and inflection sub-tables (segment or grapheme) plus the built-ins declared in
     `[meta] template-functions`. Read by the parser AND by `check.templates`."""

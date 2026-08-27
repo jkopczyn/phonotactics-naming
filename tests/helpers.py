@@ -2,8 +2,8 @@
 import csv
 import pathlib
 
-from strands.features import load_features
 from strands.dsl import parse_rules_file
+from strands.features import load_features
 from strands.tokenize import tokenize
 from strands.word import Word
 

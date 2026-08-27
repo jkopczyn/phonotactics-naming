@@ -1,6 +1,9 @@
 """Task 2: feature table loader — aliases, derived classes, weighted distance."""
-import pathlib, pytest
-from strands.features import load_features, FeatureError, FEATURE_NAMES
+import pathlib
+
+import pytest
+
+from strands.features import FEATURE_NAMES, FeatureError, load_features
 
 TABLE = load_features(pathlib.Path(__file__).parents[1] / "rules" / "features.tsv")
 

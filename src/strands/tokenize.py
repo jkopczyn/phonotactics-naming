@@ -10,8 +10,8 @@ attested.tsv fields), I-40 (marks, including secondary stress).
 from __future__ import annotations
 
 import unicodedata
+from collections.abc import Sequence
 from dataclasses import dataclass
-from typing import Sequence
 
 from .features import FeatureTable
 

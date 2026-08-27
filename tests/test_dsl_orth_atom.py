@@ -1,7 +1,7 @@
 """Task 6: the @orth("…") rule item with positional tags (spec §4, §11; O-6)."""
 import pytest
-
 from helpers import TABLE, w
+
 from strands.check import check_rule_file
 from strands.dsl import ItemSpec, ParseError, parse_rules, parse_rules_file
 from strands.orth import tag_word

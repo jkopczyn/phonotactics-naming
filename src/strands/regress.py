@@ -35,9 +35,9 @@ import csv
 import json
 import math
 import unicodedata
+from collections.abc import Sequence
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Sequence
 
 from .dsl import RuleFile, parse_rules_file
 from .features import FeatureTable

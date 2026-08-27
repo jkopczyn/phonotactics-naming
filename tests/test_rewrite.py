@@ -2,9 +2,10 @@
 I-33), simultaneous application (I-6), trace entries (I-21)."""
 import pytest
 from helpers import TABLE, w
+
 from strands.dsl import parse_rules
+from strands.rewrite import RuleError, apply_rule, apply_section, find_matches
 from strands.word import Word
-from strands.rewrite import apply_rule, apply_section, find_matches, RuleError
 
 
 def rr(src):

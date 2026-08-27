@@ -1,9 +1,10 @@
 """Plan Task 13: the `penult` stress procedure (sources/welsh/digest.md §4.1)."""
 import pytest
 from helpers import TABLE, w
+
 from strands.dsl import parse_rules
-from strands.syllabify import syllabify
 from strands.stress import assign_stress
+from strands.syllabify import syllabify
 
 BASE = ("[inventory]\np t k b d ɡ m n l r s ʃ x a e i o u aː eː iː oː uː ə\n"
         "[syllable]\ntemplate = (C)(C)N(C)(C)\nonsets = any\ncodas = any\nsonority = off\n"

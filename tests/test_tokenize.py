@@ -1,7 +1,12 @@
 """Task 3: longest-match tokenizer, marks (I-40), attested-data cleaning (I-36)."""
-import pytest, pathlib, csv, unicodedata
+import csv
+import pathlib
+import unicodedata
+
+import pytest
+
 from strands.features import load_features
-from strands.tokenize import tokenize, detokenize, clean_attested, SegmentError
+from strands.tokenize import SegmentError, clean_attested, detokenize, tokenize
 
 ROOT = pathlib.Path(__file__).parents[1]
 TABLE = load_features(ROOT / "rules" / "features.tsv")

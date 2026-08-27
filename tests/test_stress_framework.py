@@ -1,10 +1,11 @@
 """Plan Task 12: stress package — registry, syllable weight, `initial`, `keep-source`."""
 import pytest
 from helpers import TABLE, w
+
 from strands.dsl import parse_rules
-from strands.syllabify import syllabify
-from strands.stress import PROCEDURES, assign_stress, syllable_weight, StressError
+from strands.stress import PROCEDURES, StressError, assign_stress, syllable_weight
 from strands.stress.params import PROCEDURE_PARAMS
+from strands.syllabify import syllabify
 
 BASE = ("[inventory]\np t k a aː i n s\n[syllable]\ntemplate = (C)N(C)(C)\nonsets = p t k n s\n"
         "codas = p t k n s\nsonority = off\n")
@@ -69,8 +70,9 @@ def test_unknown_procedure_raises():
 
 
 def test_assign_stress_rejects_unregistered_procedure_directly():
-    from strands.dsl import RuleFile, StressSpec
     from dataclasses import replace
+
+    from strands.dsl import StressSpec
     rf = parse_rules(BASE + "[stress]\nprocedure = initial\n", TABLE)
     bogus = replace(rf, stress=StressSpec("wibble", {}))
     with pytest.raises(StressError):

@@ -3,8 +3,8 @@
 *Ciara* /ˈkɪə.ɾˠə/ must adapt exactly as /ˈkiəɾˠə/ does — before the rule the targets saw
 no diphthong nucleus and syllabified it as hiatus."""
 import pytest
-
 from helpers import TABLE, irish
+
 from strands.inputs import Entry, infer
 from strands.irish import normalize
 from strands.pipeline import TARGETS, load_target, run_entry

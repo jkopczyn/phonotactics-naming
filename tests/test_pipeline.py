@@ -6,12 +6,21 @@ import subprocess
 import sys
 
 import pytest
-
 from helpers import FIXTURES, TABLE, irish, w
+
 from strands.dsl import parse_rules, parse_rules_file
 from strands.inputs import Entry
-from strands.pipeline import (CONSTRUCTIONS, TARGETS, Result, adapt, affix_epithet,
-                              load_target, parse_construction, resolve_epithet, run_entry)
+from strands.pipeline import (
+    CONSTRUCTIONS,
+    TARGETS,
+    Result,
+    adapt,
+    affix_epithet,
+    load_target,
+    parse_construction,
+    resolve_epithet,
+    run_entry,
+)
 from strands.respell import respell
 from strands.word import Word
 

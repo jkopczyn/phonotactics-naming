@@ -38,8 +38,8 @@ from __future__ import annotations
 import csv
 import io
 import sys
+from collections.abc import Sequence
 from pathlib import Path
-from typing import Sequence
 
 from . import __version__
 

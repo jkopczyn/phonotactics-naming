@@ -1,8 +1,8 @@
 """Tasks 13-15: Old Irish mutations, inflection and templates as GRAPHEME operations
 (spec §5, §11; digest §10.4-§10.5)."""
 import pytest
-
 from helpers import ROOT, TABLE, irish, target
+
 from strands.lexicon import key, read_lexicon
 from strands.oldirish import apply_oi_mutation
 from strands.spelled import SpelledWord, spelling_to_ipa
@@ -76,8 +76,8 @@ def test_every_mutation_line_is_anchored_at_the_word_edge():
 
 # ---- Task 14: [inflect] by stem class, and the stem dispatch ------------------------------
 
-from strands.oldirish import CASE_TABLES, PRIMITIVE_TABLES, Stem, apply_case, to_old_irish
 from strands.inputs import Entry, infer
+from strands.oldirish import CASE_TABLES, PRIMITIVE_TABLES, Stem, apply_case, to_old_irish
 
 
 def ent(orthography, ipa="sˠiː", **kw):
@@ -216,6 +216,7 @@ def test_run_entry_oi_resolves_the_ending_marker_before_rendering():
 def test_check_reports_a_grapheme_rule_token_outside_the_grapheme_table():
     """Task 14 step 5: GRAPHEME_UNKNOWN_TOKEN is an error."""
     from dataclasses import replace
+
     from strands.check import check_rule_file
     from strands.spelled import GraphemeRule
     bad = GraphemeRule(table="GEN_O", line=7, rule_id="inflect:7", target=("zz",),

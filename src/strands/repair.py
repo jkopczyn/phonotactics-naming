@@ -41,8 +41,8 @@ spans are found, but nothing is replaced: the marks are cleared so the loop term
 """
 from __future__ import annotations
 
+from collections.abc import Sequence
 from dataclasses import replace
-from typing import Sequence
 
 from .dsl import RuleFile
 from .features import FeatureTable

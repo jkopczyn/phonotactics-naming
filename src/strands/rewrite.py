@@ -24,7 +24,7 @@ of I-19 (later rules never rematch it) belong to `respell.py` (Task 21).
 """
 from __future__ import annotations
 
-from typing import Sequence
+from collections.abc import Sequence
 
 from .dsl import Backref, Bundle, CtxItem, ItemSpec, QuotedText, Rule, RuleFile
 from .features import FeatureError, FeatureTable

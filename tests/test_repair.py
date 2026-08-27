@@ -1,10 +1,9 @@
 """Plan Task 11: the unconditional repair loop and `cluster-fallback` (spec §12.A, §12.E)."""
 import pytest
-
 from helpers import TABLE, w
+
 from strands.dsl import ParseError, parse_rules
-from strands.repair import (MAX_REPAIR_PASSES, cluster_fallback, cluster_keep,
-                            overlay_undo, repair)
+from strands.repair import MAX_REPAIR_PASSES, cluster_fallback, cluster_keep, overlay_undo, repair
 from strands.syllabify import syllabify
 
 SRC = ("[inventory]\ns k i a t d\n[syllable]\ntemplate = (C)N(C)\nonsets = s k i t d\n"

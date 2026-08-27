@@ -17,8 +17,8 @@ Index conventions:
 """
 from __future__ import annotations
 
+from collections.abc import Sequence
 from dataclasses import dataclass, field, replace
-from typing import Sequence
 
 from .tokenize import Tokenized
 
@@ -67,7 +67,7 @@ class Word:
         return self.orth[i] if self.orth else ""
 
     @classmethod
-    def from_tokenized(cls, tok: Tokenized) -> "Word":
+    def from_tokenized(cls, tok: Tokenized) -> Word:
         """Build a Word from tokenizer output. `tok.stress_index` is a SEGMENT index; it is
         parked in `_pending_stress` and converted to a syllable index by `syllabify()`
         (Task 10), so `stress` is always None here (S1). Explicit "." boundaries are kept
@@ -83,7 +83,7 @@ class Word:
             word_breaks=frozenset(i for i in tok.words if i),
         )
 
-    def split_words(self) -> list["Word"]:
+    def split_words(self) -> list[Word]:
         """One Word per `word_breaks` span (spec §3). Annotations are re-based on each
         span; the trace stays with the FIRST piece so that rejoining the pieces' traces
         (as `adapt()` does) neither loses nor double-counts an entry."""
@@ -136,7 +136,7 @@ class Word:
         return "".join(out)
 
     def replaced(self, start: int, stop: int, new: Sequence[str], *,
-                 before_boundary: bool = False) -> "Word":
+                 before_boundary: bool = False) -> Word:
         """Return a copy with `segments[start:stop]` replaced by `new`. Annotations before the
         span are kept, those after it are shifted by the length change, and those inside it
         are dropped — except a syllable start at exactly `start`, which survives when `new`
@@ -212,16 +212,16 @@ class Word:
             orth=orth,
         )
 
-    def with_origins(self, indices: "Sequence[int]", rule_id: str) -> "Word":
+    def with_origins(self, indices: Sequence[int], rule_id: str) -> Word:
         """Record `indices` as segments inserted by `rule_id` (provenance for overlay-undo)."""
         if not indices:
             return self
         return replace(self, origins=self.origins | {(i, rule_id) for i in indices})
 
-    def traced(self, entry: TraceEntry) -> "Word":
+    def traced(self, entry: TraceEntry) -> Word:
         return replace(self, trace=self.trace + (entry,))
 
-    def with_flag(self, flag: str) -> "Word":
+    def with_flag(self, flag: str) -> Word:
         if flag in self.flags:
             return self
         return replace(self, flags=self.flags + (flag,))

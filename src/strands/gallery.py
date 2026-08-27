@@ -14,15 +14,15 @@ touches them.
 """
 from __future__ import annotations
 
-from typing import Sequence
+from collections.abc import Sequence
 
 from .dsl import RuleFile
 from .features import FeatureTable
 from .inputs import Entry
 from .irish import MissingSlot
 from .lexicon import LexEntry, key, read_lexicon
-from .tokenize import SegmentError
 from .pipeline import ConstructionNotInStrand, PipelineError, Result, run_entry
+from .tokenize import SegmentError
 
 __all__ = ["REFERENCE_NAMES", "FORMATION_TEMPLATES", "FORMATION_ELEMENTS", "FORMATION_NAMES",
            "reference_row", "render_cell", "render_gallery", "formation_block"]

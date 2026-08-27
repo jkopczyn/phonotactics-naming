@@ -1,11 +1,16 @@
 """Task 12: the lookup stage and the Old Irish assembly (spec §2, §6, §11)."""
 import pytest
-
 from helpers import TABLE, irish, target
+
 from strands.inputs import Entry, infer
 from strands.lexicon import key, read_lexicon
-from strands.oldirish import (OI_FLAGS, ConstructionNotInStrand, infer_stem, run_entry_oi,
-                              to_old_irish)
+from strands.oldirish import (
+    OI_FLAGS,
+    ConstructionNotInStrand,
+    infer_stem,
+    run_entry_oi,
+    to_old_irish,
+)
 from strands.pipeline import TARGETS, load_target, lookup, run_entry
 from strands.spelled import SpelledWord, spelling_to_ipa
 

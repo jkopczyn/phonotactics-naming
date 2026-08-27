@@ -37,9 +37,9 @@ from __future__ import annotations
 
 import re
 import unicodedata
+from collections.abc import Mapping, Sequence
 from dataclasses import dataclass, replace
 from pathlib import Path
-from typing import Mapping, Sequence
 
 __all__ = [
     "OI_ORTHOGRAPHY_PATH", "OI_RULES_PATH", "ROLES", "ENVS", "MUTATIONS",
@@ -212,7 +212,7 @@ class SpelledWord:
     mutation: str = ""              # "" | "LEN" | "NAS" — the INITIAL mutation, as metadata
 
     @classmethod
-    def from_spelling(cls, text: str) -> "SpelledWord":
+    def from_spelling(cls, text: str) -> SpelledWord:
         """Tokenize a written Old Irish word. Lossless: `render()` returns `text` again."""
         text = unicodedata.normalize("NFC", text).strip()
         if not text:
@@ -223,7 +223,7 @@ class SpelledWord:
         k = len(_NASAL_PREFIX) if tokens[0] == _NASAL_PREFIX else 0
         return cls(tokens, capitalized=k < len(text) and text[k].isupper())
 
-    def with_mutation(self, name: str) -> "SpelledWord":
+    def with_mutation(self, name: str) -> SpelledWord:
         if name not in MUTATIONS:
             raise SpelledError(f"unknown mutation {name!r}; expected one of "
                                + ", ".join(repr(m) for m in MUTATIONS))

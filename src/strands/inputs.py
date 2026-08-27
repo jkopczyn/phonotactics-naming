@@ -34,13 +34,13 @@ import csv
 import functools
 import re
 import unicodedata
+from collections.abc import Sequence
 from dataclasses import dataclass, replace
 from pathlib import Path
-from typing import Sequence
 
 from .dsl import RuleFile
-from .g2p import G2PError, g2p
 from .features import FeatureTable
+from .g2p import G2PError, g2p
 from .irish import _normalize_rewrites, apply_inflection
 from .tokenize import tokenize
 from .word import Word
@@ -144,7 +144,7 @@ def read_input(path: str | Path) -> list[Entry]:
     return out
 
 
-@functools.lru_cache(maxsize=None)
+@functools.cache
 def known_names(path: str | Path = _TEST_WORDS) -> dict[str, str]:
     """orthography (lower-cased NFC) -> 'm' | 'f', from glosses stating a gender. Empty when
     the file is absent (installed package without the sources tree)."""

@@ -3,8 +3,10 @@ import csv
 import shutil
 
 from helpers import FIX, ROOT
+
 from strands.cli import main
 from strands.pipeline import TARGETS
+
 
 def _rows(path):
     return list(csv.DictReader(path.open(encoding="utf-8"), delimiter="\t"))
@@ -197,7 +199,8 @@ def test_unwritable_out_is_a_runtime_error(tmp_path, capsys):
 
 def test_cli_entry_point_prints_no_traceback(tmp_path):
     """The same boundary through the installed console script."""
-    import subprocess, sys
+    import subprocess
+    import sys
     proc = subprocess.run([sys.executable, "-m", "strands.cli", "run", str(_bad_ipa(tmp_path)),
                            "--strand", "welsh"], capture_output=True, text=True)
     assert proc.returncode == 1, proc.stderr

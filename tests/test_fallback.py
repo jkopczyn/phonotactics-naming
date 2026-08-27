@@ -1,8 +1,9 @@
 """Plan Task 9: the inventory fallback (spec §4.2b, I-12, I-23)."""
 from helpers import TABLE
+
 from strands.dsl import parse_rules
-from strands.word import Word
 from strands.substitute import fallback, substitute_stage
+from strands.word import Word
 
 
 def test_off_inventory_segment_is_replaced_by_the_nearest():

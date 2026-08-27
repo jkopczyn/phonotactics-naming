@@ -1,7 +1,7 @@
 """Tasks 8-11: `rules/old-irish.rules` as data (spec §4, §6, §11; digest §10)."""
 import pytest
-
 from helpers import ROOT, TABLE, target, w
+
 from strands.check import check_rule_file
 
 PATH = ROOT / "rules" / "old-irish.rules"
@@ -87,6 +87,7 @@ def test_every_rule_line_everywhere_carries_a_citation():
 # ---- Task 9: [substitute], the retro-filter (spec §4, §11; O-13, O-15) ---------------------
 
 from helpers import irish
+
 from strands.irish import normalize
 from strands.orth import tag_word
 from strands.substitute import substitute_stage

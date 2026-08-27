@@ -1,9 +1,10 @@
 """Plan Task 10: nucleus-aware syllabifier (spec §3 `[syllable]`, §12.B, §12.D; I-2, I-13, I-14)."""
 import pytest
 from helpers import TABLE, w
+
 from strands.dsl import parse_rules
+from strands.syllabify import group_nuclei, legal_coda, legal_onset, syllabify
 from strands.word import Word
-from strands.syllabify import syllabify, group_nuclei, legal_onset, legal_coda
 
 # The inventory line must not contain a diphthong row (I-2/I-35): diphthongs are two segments.
 CV = ("[inventory]\np t k b s l r a i u aː\n"

@@ -16,8 +16,15 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from .dsl import (
-    Backref, Bundle, CtxItem, ItemSpec, Rule, RuleFile, TEMPLATE_ARGS, template_functions,
+    TEMPLATE_ARGS,
+    Backref,
+    Bundle,
+    CtxItem,
+    ItemSpec,
+    Rule,
+    RuleFile,
     TemplateItem,
+    template_functions,
 )
 from .features import FeatureError, FeatureTable
 from .stress.params import PROCEDURE_PARAMS
@@ -396,8 +403,14 @@ def check_grapheme_table(path: str | Path | None = None, table: FeatureTable | N
     token's own `env`/`left` tokenizes to it (a token only ever shadowed by a longer one is
     dead data). An unreadable table is a single GRAPH_HEADER error."""
     from .features import load_features
-    from .spelled import (ENVS, OI_ORTHOGRAPHY_PATH, ROLES, SpelledError, load_graphemes,
-                          tokenize_spelling)
+    from .spelled import (
+        ENVS,
+        OI_ORTHOGRAPHY_PATH,
+        ROLES,
+        SpelledError,
+        load_graphemes,
+        tokenize_spelling,
+    )
 
     path = OI_ORTHOGRAPHY_PATH if path is None else Path(path)
     if table is None:

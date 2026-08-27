@@ -8,8 +8,8 @@ several words through the Irish pre-pass, so that each word runs through the tar
 IPA join with a single space.
 """
 import pytest
-
 from helpers import TABLE, irish, read_test_words
+
 from strands.inputs import Entry, infer
 from strands.pipeline import TARGETS, load_target, run_entry
 

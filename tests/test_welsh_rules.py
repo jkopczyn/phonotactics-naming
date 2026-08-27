@@ -9,7 +9,7 @@ the prothetic y-), and `cluster-fallback = same-length` is the last resort, asse
 fire on the common names.
 """
 import pytest
-from helpers import (TABLE, entry_of, irish, read_allow_file_for, read_test_words, target, w)
+from helpers import TABLE, entry_of, irish, read_allow_file_for, read_test_words, target, w
 
 from strands.check import check_rule_file
 from strands.pipeline import adapt, run_entry

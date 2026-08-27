@@ -37,8 +37,8 @@ silent unit (`-`) consumes no segment and leaves no tag.
 from __future__ import annotations
 
 import unicodedata
+from collections.abc import Sequence
 from pathlib import Path
-from typing import Sequence
 
 from .word import TraceEntry, Word
 

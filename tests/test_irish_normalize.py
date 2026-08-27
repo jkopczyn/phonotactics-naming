@@ -1,7 +1,7 @@
 """Task 19: `irish.rules [normalize]` and `strands.irish.normalize` (spec §4.1, §12.J)."""
 import pytest
-
 from helpers import TABLE, irish, read_test_words, w
+
 from strands.dsl import parse_rules
 from strands.irish import apply_inflection, apply_mutation, normalize
 from strands.syllabify import syllabify

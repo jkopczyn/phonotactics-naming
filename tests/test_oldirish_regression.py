@@ -3,8 +3,8 @@ see the module docstring in oldirish.py."""
 import json
 
 import pytest
-
 from helpers import ROOT, TABLE, irish, read_test_words, target
+
 from strands.inputs import Entry, infer
 from strands.lexicon import FORM_STATUSES, key, read_lexicon
 from strands.oldirish import REVERSAL_CLASSES, filter_regression

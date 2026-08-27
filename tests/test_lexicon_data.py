@@ -2,10 +2,10 @@
 import csv
 
 import pytest
-
 from helpers import ROOT, read_test_words
+
 from strands.check import check_lexicon_file
-from strands.lexicon import FORM_STATUSES, KINDS, STEMS, key, read_lexicon, read_rows
+from strands.lexicon import FORM_STATUSES, KINDS, key, read_lexicon, read_rows
 
 PATH = ROOT / "rules" / "old-irish-lexicon.tsv"
 HEADER, ROWS = read_rows(PATH)
@@ -32,7 +32,7 @@ def test_the_lexicon_is_completely_clean():
 
 def test_the_three_task2_warnings_are_now_errors():
     """The promotion IS this task's acceptance criterion (R3a)."""
-    from strands.lexicon import LEXICON_COLUMNS, validate, LexEntry
+    from strands.lexicon import LEXICON_COLUMNS, LexEntry, validate
     bad = LexEntry(orthography="x", status="none", source="https://e.x", line=2)
     codes = {(e.code, e.severity) for e in validate(list(LEXICON_COLUMNS), [bad], "t")}
     assert ("LEX_NONE_NO_KIND", "error") in codes

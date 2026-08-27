@@ -7,8 +7,8 @@ I-12 (distance), I-20 (extra columns), I-32 (feature aliases).
 from __future__ import annotations
 
 import unicodedata
+from collections.abc import Sequence
 from pathlib import Path
-from typing import Sequence
 
 __all__ = [
     "FEATURE_NAMES", "FEATURE_ALIASES", "DERIVED_CLASSES", "SEGMENT_ALIASES",

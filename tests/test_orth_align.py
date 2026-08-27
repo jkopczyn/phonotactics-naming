@@ -1,7 +1,7 @@
 """Task 5: the modern-orthography <-> IPA aligner (spec §4, §11; O-6, O-7)."""
 import pytest
-
 from helpers import TABLE, irish, read_test_words, w
+
 from strands.irish import normalize
 from strands.orth import align, load_orth_table, tag_word
 

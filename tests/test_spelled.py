@@ -13,13 +13,22 @@ plan's tests say they quote):
     *claideb* /ðʲ/ (digest /klaðʲəv/).
 """
 import pytest
-
 from helpers import ROOT, TABLE
+
 from strands.check import check_grapheme_table
 from strands.dsl import parse_rules
-from strands.spelled import (OI_ORTHOGRAPHY_PATH, ROLES, GraphemeRule, SpelledError,
-                             SpelledWord, apply_grapheme_table, load_graphemes,
-                             spelling_to_ipa, spelling_to_words, tokenize_spelling)
+from strands.spelled import (
+    OI_ORTHOGRAPHY_PATH,
+    ROLES,
+    GraphemeRule,
+    SpelledError,
+    SpelledWord,
+    apply_grapheme_table,
+    load_graphemes,
+    spelling_to_ipa,
+    spelling_to_words,
+    tokenize_spelling,
+)
 
 
 def ipa(text, mutation=""):

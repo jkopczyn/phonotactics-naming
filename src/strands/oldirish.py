@@ -87,22 +87,34 @@ from __future__ import annotations
 
 import functools
 import unicodedata
+from collections.abc import Callable, Sequence
 from dataclasses import dataclass, replace
-from typing import TYPE_CHECKING, Callable, Sequence
+from typing import TYPE_CHECKING
 
 from .dsl import RuleFile, TemplateItem
 from .features import FeatureTable
 from .irish import MissingSlot, _head_name, normalize
 from .lexicon import FORM_STATUSES, LexEntry, key, read_lexicon
 from .orth import tag_word
-from .pipeline import (ConstructionNotInStrand, PipelineError, Result, lookup,
-                       parse_construction, resolve_epithet)
+from .pipeline import (
+    ConstructionNotInStrand,
+    PipelineError,
+    Result,
+    lookup,
+    parse_construction,
+    resolve_epithet,
+)
 from .poststress import post_stress
-from .repair import repair
 from .regress import edit_distance
+from .repair import repair
 from .respell import respell_traced
-from .spelled import (SpelledWord, apply_grapheme_table, parse_quality_pairs, spelling_to_ipa,
-                      spelling_to_words)
+from .spelled import (
+    SpelledWord,
+    apply_grapheme_table,
+    parse_quality_pairs,
+    spelling_to_ipa,
+    spelling_to_words,
+)
 from .stress import assign_stress
 from .substitute import substitute_stage
 from .syllabify import syllabify
@@ -157,7 +169,7 @@ def _slender_final(orthography: str) -> bool:
     return bool(vowels) and vowels[-1] in _SLENDER_LETTERS
 
 
-def infer_stem(entry: "Entry") -> tuple[str, str]:
+def infer_stem(entry: Entry) -> tuple[str, str]:
     """(Old Irish stem class, assumption tag) from `Entry.declension`, else the gender
     (plan Task 12 table; S22: an unclassified feminine is an ā-stem, not an o-stem).
 
@@ -203,7 +215,7 @@ def _match_first(words: tuple[SpelledWord, ...] | None, orthography: str
     return (_match_capitalization(words[0], orthography), *words[1:])
 
 
-def _retro_words(entry: "Entry", oi: RuleFile, irish: RuleFile, table: FeatureTable
+def _retro_words(entry: Entry, oi: RuleFile, irish: RuleFile, table: FeatureTable
                  ) -> tuple[tuple[SpelledWord, ...], tuple[str, ...], tuple[TraceEntry, ...]]:
     """Stages 2–7 on the citation-form IPA, one written word per space-separated word; the
     `[respell]` output is tokenized into the spelled word. Returns (words, flags, trace)."""
@@ -237,7 +249,7 @@ def _retro_words(entry: "Entry", oi: RuleFile, irish: RuleFile, table: FeatureTa
 
 # ---- the fork (spec §2 steps 1–2) ----------------------------------------------------------
 
-def to_old_irish(entry: "Entry", lexicon: dict[str, LexEntry], oi: RuleFile, irish: RuleFile,
+def to_old_irish(entry: Entry, lexicon: dict[str, LexEntry], oi: RuleFile, irish: RuleFile,
                  table: FeatureTable) -> Stem:
     """Lookup on the citation form (O-23); a form-bearing row supplies its spelling verbatim
     and the filter never runs; a `none` row or a miss goes through the retro-filter."""
@@ -633,9 +645,9 @@ def adapt_oi(words: Sequence[SpelledWord], oi: RuleFile, table: FeatureTable, *,
     )
 
 
-def run_entry_oi(entry: "Entry", construction: str, irish: RuleFile, oi: RuleFile,
+def run_entry_oi(entry: Entry, construction: str, irish: RuleFile, oi: RuleFile,
                  table: FeatureTable, *, lexicon: dict[str, LexEntry] | None = None,
-                 slots: "dict[str, Entry] | None" = None) -> Result:
+                 slots: dict[str, Entry] | None = None) -> Result:
     """The Old Irish `run_entry` (O-9): fork each slot's entry, build the template, assemble.
     `slots` defaults to `{head: entry}` — the template's first argument slot (I-16), as in
     `pipeline.run_entry`; a multi-slot template (ADJ, OF, COMPOUND, COLOUR) needs them
@@ -779,14 +791,14 @@ class FilterReport:
         return "\n".join(lines)
 
 
-def _src_attested(entry: "Entry") -> bool:
+def _src_attested(entry: Entry) -> bool:
     """O-31's tie-break tag, read from wherever a caller carried it (`assumptions`, `note`
     or a `features` attribute); `Entry` has no `features` column of its own."""
     haystack = (*entry.assumptions, entry.note, getattr(entry, "features", "") or "")
     return any("src:attested" in h for h in haystack)
 
 
-def _choose(entries: Sequence["Entry"]) -> "Entry":
+def _choose(entries: Sequence[Entry]) -> Entry:
     """The first row tagged src:attested, else the first in file order (O-31)."""
     for entry in entries:
         if _src_attested(entry):
@@ -794,7 +806,7 @@ def _choose(entries: Sequence["Entry"]) -> "Entry":
     return entries[0]
 
 
-def _filter_row(entry: "Entry", row: LexEntry, oi: RuleFile, irish: RuleFile,
+def _filter_row(entry: Entry, row: LexEntry, oi: RuleFile, irish: RuleFile,
                 table: FeatureTable, *, constructed: bool) -> FilterRow:
     result = run_entry_oi(entry, _REGRESSION_CONSTRUCTION, irish, oi, table, lexicon={})
     got, want = _fold(result.respelling), _fold(row.oi_nom)
@@ -805,16 +817,16 @@ def _filter_row(entry: "Entry", row: LexEntry, oi: RuleFile, irish: RuleFile,
                      classes=classes, constructed=constructed)
 
 
-def filter_regression(entries: Sequence["Entry"], lexicon: dict[str, LexEntry], oi: RuleFile,
+def filter_regression(entries: Sequence[Entry], lexicon: dict[str, LexEntry], oi: RuleFile,
                       irish: RuleFile, table: FeatureTable, *,
-                      g2p: "Callable[[str, str], tuple[str, list[str]]] | None" = None
+                      g2p: Callable[[str, str], tuple[str, list[str]]] | None = None
                       ) -> FilterReport:
     """Run the retro-filter over the regression population (module docstring) and compare
     written forms with `oi_nom`. `entries` are the hand-IPA rows (an entry without IPA is
     ignored); with `g2p` every form-bearing lexicon row without one is added, its IPA
     constructed and the row marked `constructed=True`. Rows come out in lexicon file order."""
     from .inputs import Entry, infer
-    by_key: dict[str, list["Entry"]] = {}
+    by_key: dict[str, list[Entry]] = {}
     for entry in entries:
         if entry.ipa.strip():
             by_key.setdefault(key(entry.orthography), []).append(entry)

@@ -6,6 +6,7 @@ snapshot. Regenerate with
 and review the diff in the commit.
 """
 from helpers import ROOT
+
 from strands.cli import main
 
 SNAPSHOT = ROOT / "tests" / "snapshots" / "gallery.md"
@@ -41,9 +42,10 @@ def test_the_formation_template_block_is_present_and_built_from_elements():
 def test_the_formation_block_is_a_deterministic_function_of_the_rule_files():
     """The block is rendered from the lexicon's ELEMENT rows with G2P transcriptions
     (`ipa:constructed`); two renders agree and every formation row is present."""
+    from helpers import TABLE, irish
+
     from strands.gallery import formation_block
     from strands.pipeline import load_target
-    from helpers import TABLE, irish
     oi = load_target("old-irish", TABLE)
     lines = formation_block(irish(), oi, TABLE)
     assert lines == formation_block(irish(), oi, TABLE)

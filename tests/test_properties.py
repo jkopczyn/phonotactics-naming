@@ -7,11 +7,10 @@ exactly as `strands run` skips them."""
 import functools
 
 import pytest
-
 from helpers import TABLE, entry_of, irish, read_allow_file, read_test_words
+
 from strands.irish import MissingSlot
-from strands.pipeline import (CONSTRUCTIONS, ConstructionNotInStrand, TARGETS, load_target,
-                              run_entry)
+from strands.pipeline import CONSTRUCTIONS, TARGETS, ConstructionNotInStrand, load_target, run_entry
 
 IRISH = irish()
 ROWS = read_test_words()
@@ -29,7 +28,7 @@ def _run(name, construction, i):
         return None
 
 
-@functools.lru_cache(maxsize=None)
+@functools.cache
 def _first(name, construction, i):
     return _run(name, construction, i)
 

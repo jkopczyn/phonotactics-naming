@@ -1,8 +1,8 @@
 """Plan Task 26: `rules/dutch.rules` — the Belgian Dutch target (sources/dutch/digest.md
 §1–§6, §8; spec §7 Dutch, decisions 9.16–9.18). Written before the rule file (spec §12.I)."""
 import pytest
-
 from helpers import TABLE, entry_of, irish, read_allow_file_for, read_test_words, target, w
+
 from strands.check import check_rule_file
 from strands.pipeline import adapt, run_entry
 from strands.regress import assert_ratchet, run_regression

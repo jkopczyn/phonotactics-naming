@@ -2,10 +2,11 @@
 practical rule", lines 671–687 — constructed by the digest, not stated by any source)."""
 import pytest
 from helpers import TABLE, w
+
 from strands.dsl import parse_rules
-from strands.syllabify import syllabify
 from strands.stress import assign_stress
 from strands.stress.dutch_weight import SCHWA
+from strands.syllabify import syllabify
 
 # The plan's inventory lists a short `ø`; rules/features.tsv has no `ø` row (only `øː`), and
 # [inventory] rejects unknown segments, so `ø` is omitted here. No test word uses it.

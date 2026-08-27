@@ -1,8 +1,8 @@
 """Plan Task 6: `strands check` static checks and the stress-parameter registry (I-17)."""
-import pytest
-from helpers import TABLE, FIXTURES
-from strands.dsl import parse_rules, parse_rules_file
+from helpers import FIXTURES, TABLE
+
 from strands.check import check_rule_file
+from strands.dsl import parse_rules, parse_rules_file
 
 
 def codes(src):
@@ -87,8 +87,8 @@ def test_mini_fixture_has_no_errors():
 
 
 def test_registry_is_data_only():
-    from strands.stress.params import PROCEDURE_PARAMS
     from strands.dsl import STRESS_PROCEDURES
+    from strands.stress.params import PROCEDURE_PARAMS
     assert set(PROCEDURE_PARAMS) == set(STRESS_PROCEDURES)
     assert PROCEDURE_PARAMS["penult"] == frozenset()
     assert "window" in PROCEDURE_PARAMS["dutch-weight"]

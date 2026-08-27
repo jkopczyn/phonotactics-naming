@@ -7,6 +7,7 @@ follow-ups (-uli dissimilation, syncope before -eb-) through `post_stress()` on 
 affixed Words.
 """
 from helpers import TABLE, target, w
+
 from strands.check import check_rule_file
 from strands.poststress import post_stress
 from strands.respell import respell

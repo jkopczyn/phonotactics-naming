@@ -1,6 +1,7 @@
 """Task 18: Irish construction templates (spec §3 `[templates]`, I-16; digest §3.4–§3.6)."""
 import pytest
 from helpers import TABLE, irish
+
 from strands.inputs import Entry
 from strands.irish import IrishError, MissingSlot, build_construction
 

@@ -1,5 +1,6 @@
 """Plan Task 16: the `[post-stress]` stage (spec §4.5 — rules that depend on stress)."""
 from helpers import TABLE, w
+
 from strands.dsl import parse_rules
 from strands.poststress import post_stress
 from strands.stress import assign_stress

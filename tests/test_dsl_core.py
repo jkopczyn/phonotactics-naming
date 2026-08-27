@@ -1,7 +1,15 @@
 import pytest
-from helpers import TABLE, FIXTURES
-from strands.dsl import (parse_rules, parse_rules_file, ParseError, Bundle, Backref,
-                         QuotedText, ItemSpec)
+from helpers import FIXTURES, TABLE
+
+from strands.dsl import (
+    Backref,
+    Bundle,
+    ItemSpec,
+    ParseError,
+    QuotedText,
+    parse_rules,
+    parse_rules_file,
+)
 
 MINI = parse_rules_file(FIXTURES / "mini.rules", TABLE)
 

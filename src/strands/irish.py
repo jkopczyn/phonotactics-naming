@@ -47,7 +47,6 @@ Template function semantics (plan Task 18):
 from __future__ import annotations
 
 from dataclasses import dataclass, replace
-
 from typing import TYPE_CHECKING
 
 from .dsl import Rule, RuleFile, TemplateItem
@@ -169,7 +168,7 @@ class _Val:
     """An evaluated template item: its segments as a Word, the Entry whose gender /
     declension tags it carries (None for a literal), and whether it is in the genitive."""
     word: Word
-    entry: "Entry | None" = None
+    entry: Entry | None = None
     genitive: bool = False
 
 
@@ -218,7 +217,7 @@ def _head_name(items: tuple[TemplateItem, ...]) -> str | None:
     return None
 
 
-def _condition_holds(item: TemplateItem, head: "Entry | None", name: str, rf: RuleFile) -> bool:
+def _condition_holds(item: TemplateItem, head: Entry | None, name: str, rf: RuleFile) -> bool:
     """`FUNC_M1?`: the suffix after the last `_` is a declension tag; the item applies only
     when the head carries that declension (I-16 / R1)."""
     tag = item.value.rpartition("_")[2].upper() if item.kind == "call" else ""
@@ -297,7 +296,7 @@ def _article(val: _Val, rf: RuleFile, table: FeatureTable) -> _Val:
 
 
 class _Builder:
-    def __init__(self, name: str, slots: "dict[str, Entry]", rf: RuleFile,
+    def __init__(self, name: str, slots: dict[str, Entry], rf: RuleFile,
                  table: FeatureTable) -> None:
         self.name, self.slots, self.rf, self.table = name, slots, rf, table
         try:
@@ -306,9 +305,9 @@ class _Builder:
             raise IrishError(f"{rf.path}: no [templates] entry {name!r} "
                              f"(have: {', '.join(sorted(rf.templates)) or 'none'})") from None
         head = _head_name(self.items)
-        self.head: "Entry | None" = self.slot(head) if head is not None else None
+        self.head: Entry | None = self.slot(head) if head is not None else None
 
-    def slot(self, arg: str) -> "Entry":
+    def slot(self, arg: str) -> Entry:
         try:
             return self.slots[arg]
         except KeyError:
@@ -374,7 +373,7 @@ class _Builder:
                 for i, w in enumerate(words)]
 
 
-def build_construction(name: str, slots: "dict[str, Entry]", rf: RuleFile,
+def build_construction(name: str, slots: dict[str, Entry], rf: RuleFile,
                        table: FeatureTable) -> list[Word]:
     """Apply rf.templates[name]; one Word per space-separated word (I-16) — both the `" "`
     separators written in the template and any spaces inside a slot's own IPA (*an tsúil*

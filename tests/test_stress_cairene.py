@@ -5,10 +5,11 @@ spec §8). Transcribed verbatim — no row paraphrased or dropped.
 """
 import pytest
 from helpers import TABLE, w
+
 from strands.dsl import parse_rules
-from strands.syllabify import syllabify
 from strands.stress import assign_stress
 from strands.stress.params import PROCEDURE_PARAMS
+from strands.syllabify import syllabify
 
 CAIRENE = ("[inventory]\nb t d k ɡ ʔ f s z ʃ x ɣ ħ ʕ h m n l r w j sˤ tˤ dˤ zˤ "
            "a i u aː iː uː eː oː e o æ\n"

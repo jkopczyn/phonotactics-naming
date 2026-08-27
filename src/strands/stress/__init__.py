@@ -22,8 +22,8 @@ from __future__ import annotations
 
 import importlib
 import pkgutil
+from collections.abc import Callable
 from dataclasses import replace
-from typing import Callable
 
 from ..dsl import RuleFile, StressSpec
 from ..features import FeatureTable

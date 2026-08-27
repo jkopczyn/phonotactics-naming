@@ -6,8 +6,8 @@ import subprocess
 import sys
 
 import pytest
-
 from helpers import ROOT, TABLE, entry_of, irish, read_allow_file_for, read_test_words, target, w
+
 from strands.inputs import Entry
 from strands.pipeline import adapt, run_entry
 from strands.regress import assert_ratchet, run_regression

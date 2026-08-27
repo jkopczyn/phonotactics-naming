@@ -3,10 +3,18 @@ the error bucket (I-24) and the ratchet."""
 import json
 
 import pytest
-from helpers import TABLE, FIXTURES, rules_exist
+from helpers import FIXTURES, TABLE, rules_exist
 
-from strands.regress import (RegressionReport, RegressionRow, assert_ratchet, edit_distance,
-                             load_ratchet, read_attested, run_regression, write_ratchet)
+from strands.regress import (
+    RegressionReport,
+    RegressionRow,
+    assert_ratchet,
+    edit_distance,
+    load_ratchet,
+    read_attested,
+    run_regression,
+    write_ratchet,
+)
 
 TOY = FIXTURES / "toy-target.rules"
 
@@ -96,8 +104,8 @@ def test_mode_c_passes_a_conforming_form_and_fails_a_nonconforming_one():
     rows = {r.target_ipa: r for r in run_regression("dutch", TABLE, rule_file=TOY).rows}
     # a row we synthesize through the same code path: check via helper on a Report built by
     # the harness's row runner
-    from strands.regress import _run_row
     from strands.dsl import parse_rules_file
+    from strands.regress import _run_row
     rf = parse_rules_file(TOY, TABLE)
     ok = _run_row({"source_form": "", "source_ipa": "", "target_form": "", "target_ipa": "trapa",
                    "provenance": ""}, "dutch", rf, TABLE)
@@ -124,8 +132,8 @@ def test_mode_c_passes_a_conforming_form_and_fails_a_nonconforming_one():
 
 
 def test_mode_e_compares_after_stripping_marks_the_row_lacks():
-    from strands.regress import _run_row
     from strands.dsl import parse_rules_file
+    from strands.regress import _run_row
     rf = parse_rules_file(TOY, TABLE)
     row = {"source_form": "", "source_ipa": "trapa", "target_form": "", "target_ipa": "trapa",
            "provenance": ""}

@@ -1,10 +1,20 @@
 """Task 2: lexicon schema and validation (spec §3, §7, §10; O-18, O-19, O-21, O-22)."""
 import pytest
 
-from helpers import ROOT
 from strands.check import check_lexicon_file
-from strands.lexicon import (FORM_STATUSES, GENDERS, KINDS, LEXICON_COLUMNS, STATUSES, STEMS,
-                             LexEntry, LexiconError, default_lexicon_path, key, read_lexicon, read_rows)
+from strands.lexicon import (
+    FORM_STATUSES,
+    KINDS,
+    LEXICON_COLUMNS,
+    STATUSES,
+    STEMS,
+    LexEntry,
+    LexiconError,
+    default_lexicon_path,
+    key,
+    read_lexicon,
+    read_rows,
+)
 
 HEADER = "\t".join(LEXICON_COLUMNS)
 
