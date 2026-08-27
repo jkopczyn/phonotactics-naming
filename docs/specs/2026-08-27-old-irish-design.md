@@ -200,3 +200,13 @@ These override §2, §4 and §5 where they conflict.
   Irish triggers; no *h*/*t*-prefix; `COLOUR`, `MAEL`, `GILLA`, `CU`, `FER`, `MAC`, `UA`,
   `INGEN` registered in the parser and checker from one per-file registry); literals in Old
   Irish templates are *spellings*, consistent with the first bullet.
+- **Corrections to §5 (from plan review, checked against the lexicon and digest §10):**
+  (i) `MAEL` takes the genitive **unlenited** — the attested rows are *Máel Coluim, Máel
+  Muire, Máel Sechnaill*; likewise `GILLA`; `CU` lenites (*Cú Chulainn*), `INGEN` lenites.
+  (ii) Nasalization of voiceless stops (*c t p*) is **not written** in editorial Old Irish
+  orthography (only recorded in metadata and the reconstruction); only *mb nd ng* and *n-V*
+  are written. (iii) Old Irish has /h/ as the lenition product of *s* and in *h*-initial
+  loans; it is in the inventory, not phonemic in native stems.
+- **Aligner coverage** is a required, per-class measurement, not a threshold: the alignment
+  table must include the epenthetic-schwa, eclipsis-digraph and doubled-letter units, and the
+  plan states the measured alignment rate on `test-words.tsv` per reversal class.
