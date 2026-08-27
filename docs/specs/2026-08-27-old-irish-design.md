@@ -139,3 +139,25 @@ and case-folding; no fuzzy matching.
 3. `old-irish.rules`: inventory, substitute, syllable, stress, respell + IPA reconstruction.
 4. Grammar: mutations, inflection by stem class, templates incl. formation templates.
 5. Filter regression + gallery column + property checks; CLI exposure (`--strand old-irish`).
+
+## 10. Amendments after the lexicon harvest (2026-08-27)
+
+- **Stem classes** (§3): `stem` ∈ {o, ā, i, u, n, dental, velar, r, s, indecl, irregular}.
+  `[inflect]` covers velar (*rí ~ ríg*), r-stems (*athair*) and s-stems (*tech*) too — they are
+  exactly the paradigm words the tests need. `irregular` is reserved for genuinely
+  suppletive words.
+- **Middle Irish tier** (§3): `status` gains `middle` for names attested only in Middle
+  Irish (*Eoghan, Tadhg, Oisín, Órla, Gráinne, Úna* …). Lookup uses them, flagged
+  `ATTESTED:MIr`, so the important names are not left to the filter. Speculative default —
+  the register is classical, but a Middle Irish name form is still attested where a
+  reconstruction is not; the owner may prefer to filter these instead.
+- **`none` rows split** (§2, O4): `RETRO:loan` for true loans (*Seán*), `RETRO:late` for
+  Irish-internal post-Old-Irish coinages; both are filtered.
+- **O1 refined**: modern ⟨ao⟩ is *áe* or *óe* about equally in the 20 attested pairs, with
+  no clean phonological condition; lookup decides for attested words, the filter keeps *áe*
+  as the `%design` default, and the 20 pairs are the regression set for any conditioned rule
+  the plan can find.
+- The `@orth` atom (§4) is confirmed necessary: the largest reversal class (~50 pairs,
+  modern ⟨ea io ai⟩ quality digraphs over an unchanged Old Irish vowel; ~49 ⟨bh dh gh mh⟩ →
+  unmarked ⟨b d g m⟩) is invisible to sound-based rules. ⟨ph sh⟩ have no attested modern keys
+  and stay `%design`.
