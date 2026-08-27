@@ -131,3 +131,99 @@ def test_describe_is_stable_across_calls():
 def test_the_indexes_are_deterministic_tuples():
     for value in list(CONSONANT_READINGS.values()) + list(VOWEL_READINGS.values()):
         assert isinstance(value, tuple)
+
+
+# ---- Task 2: spell(), the run matcher and the ratchet (V-20) -------------------------------------
+
+import json
+import unicodedata
+
+from helpers import ROOT, TABLE, read_test_words
+from strands.g2p import g2p
+from strands.g2p_inverse import spell
+from strands.tokenize import tokenize
+
+RATCHET = ROOT / "tests" / "ratchets" / "g2p_inverse.json"
+
+
+def segs(ipa):
+    for mark in ("ˈ", "ˌ", "."):
+        ipa = ipa.replace(mark, "")
+    return tuple(tokenize(ipa, TABLE).segments)
+
+
+@pytest.mark.parametrize("orth", ["mac", "bán", "ceist", "cáis", "fíon", "dorn", "teach",
+                                  "sean", "bean", "Colm", "gorm", "ardmhaor"])
+def test_spelling_a_words_own_ipa_recovers_the_word(orth):
+    """F1: `dorn` needs single ⟨r n⟩, `sean` single ⟨s⟩, `gorm` the epenthetic schwa with no
+    letter, `ardmhaor` the noninitial /w/ -> /vˠ/ post-pass. Draft 1 recovered none of them."""
+    assert orth.casefold() in [c.casefold() for c in spell(segs(g2p(orth)[0]))]
+
+
+def test_the_session_case_word_is_spellable():
+    """spec §6 bullet 4: `ardmhaor` is the example the whole Ar*v* case turns on."""
+    assert "ardmhaor" in spell(segs(g2p("ardmhaor")[0]), limit=200)
+
+
+def test_every_proposal_reads_back_to_the_intended_ipa():
+    """spec §3.4 last sentence: nothing leaves `spell` unverified."""
+    want = segs(g2p("bán")[0])
+    for cand in spell(want):
+        assert segs(g2p(cand)[0]) == want
+
+
+def test_caol_le_caol_rules_out_the_mismatched_vowel_letters():
+    out = spell(segs(g2p("Seán")[0]))
+    assert out and all(not c.startswith("sa") for c in out)
+
+
+def test_a_two_segment_reading_is_matched_as_a_unit():
+    """⟨ng⟩ is /ŋɡ/: the run matcher must consume both segments at once."""
+    assert "long" in [c.casefold() for c in spell(segs(g2p("long")[0]))]
+
+
+def test_an_unknown_nucleus_is_unspellable_not_a_crash():
+    assert spell(("ʡ",)) == []
+
+
+def test_a_consonant_only_candidate_does_not_raise():
+    assert spell(("k",)) == []          # g2p raises G2PError; spell drops it
+
+
+def test_the_result_is_capped_and_order_is_stable():
+    a = spell(segs(g2p("mac")[0]), limit=3)
+    assert len(a) <= 3 and a == spell(segs(g2p("mac")[0]), limit=3)
+
+
+# ---- the ratchet (spec §6 bullet 2) ----------------------------------------------------------
+
+def hand_ipa_rows():
+    return [r for r in read_test_words() if (r.get("ipa") or "").strip()]
+
+
+def contains_rate():
+    rows, hit, misses = hand_ipa_rows(), 0, []
+    for row in rows:
+        want = unicodedata.normalize("NFC", row["orthography"]).casefold()
+        try:
+            got = [unicodedata.normalize("NFC", c).casefold() for c in spell(segs(row["ipa"]))]
+        except Exception:
+            got = []
+        if want in got:
+            hit += 1
+        else:
+            misses.append((row["orthography"], row["ipa"]))
+    return hit / len(rows), misses
+
+
+def test_the_contains_rate_does_not_fall():
+    rate, misses = contains_rate()
+    ratchet = json.loads(RATCHET.read_text(encoding="utf-8"))
+    assert rate >= ratchet["contains"] - 1e-9, (
+        f"contains {rate:.4f} < ratchet {ratchet['contains']}\n"
+        + "\n".join(f"  {o}\t{i}" for o, i in misses[:20]))
+
+
+def test_the_ratchet_records_its_denominator():
+    data = json.loads(RATCHET.read_text(encoding="utf-8"))
+    assert set(data) == {"contains", "n"} and data["n"] == len(hand_ipa_rows())

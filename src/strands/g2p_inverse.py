@@ -16,17 +16,21 @@ is the only judge — `spell()` runs every candidate spelling back through it be
 (spec §3.4, last sentence).
 
 Interpretations: V-27 (the registry over every emission path), V-19 (the derived indexes),
+V-20 (`spell`, the run matcher and caol le caol),
 V-21 (`describe`).
 """
 from __future__ import annotations
 
+import heapq
+import itertools
 from dataclasses import dataclass
 from typing import Sequence
 
 from . import g2p
 
 __all__ = ["Reading", "READINGS", "CONSONANT_READINGS", "VOWEL_READINGS",
-           "QUALITY_LEFT", "QUALITY_RIGHT", "BROAD_ON_THE_RIGHT", "readings_for", "describe"]
+           "QUALITY_LEFT", "QUALITY_RIGHT", "BROAD_ON_THE_RIGHT", "readings_for", "describe",
+           "spell", "SPELL_LIMIT"]
 
 Quality = str          # "broad" | "slender" | "either"
 Position = str         # "any" | "initial" | "noninitial"
@@ -270,3 +274,231 @@ def describe(segments: Sequence[str]) -> str:
         parts.append(describe(segments[i:i + 1]))
         i += 1
     return " + ".join(parts)
+
+
+# ---- spell(): the run matcher (V-20) ---------------------------------------------------------
+
+SPELL_LIMIT = 64
+_RUN_CAP = 512          # a safety bound on one consonant run's spellings; the search is a product
+_PROPOSAL_BUDGET = 1024  # spellings tried through `g2p` before a word is given up on
+
+_TABLE = None
+
+
+def _table():
+    """The feature table `g2p`'s output is tokenized with, loaded once.
+
+    `cli.DEFAULT_FEATURES` is imported lazily: `cli` imports `reverse`, which imports this
+    module, so a module-level import would close a cycle. The path constant is still the one
+    place it is written down.
+    """
+    global _TABLE
+    if _TABLE is None:
+        from .cli import DEFAULT_FEATURES
+        from .features import load_features
+        _TABLE = load_features(DEFAULT_FEATURES)
+    return _TABLE
+
+
+def _unmark(ipa: str) -> str:
+    for mark in ("ˈ", "ˌ", "."):
+        ipa = ipa.replace(mark, "")
+    return ipa
+
+
+def _runs(segments: Sequence[str]) -> list[tuple[str, tuple[str, ...]]]:
+    """The segments as alternating ("C", run) / ("V", nucleus) units (V-20 step 1).
+
+    A segment is a nucleus member iff it is in `g2p._VOWEL_SEGMENTS`; a maximal run of them is
+    one nucleus.
+    """
+    out: list[tuple[str, list[str]]] = []
+    for seg in segments:
+        kind = "V" if seg in g2p.VOWEL_SEGMENTS else "C"
+        if out and out[-1][0] == kind:
+            out[-1][1].append(seg)
+        else:
+            out.append((kind, [seg]))
+    return [(kind, tuple(run)) for kind, run in out]
+
+
+def _spell_run(run: Sequence[str], quality: Quality, at_word_start: bool) -> list[str]:
+    """Every spelling of one consonant run at one quality (V-20 step 2).
+
+    A recursive matcher: at each position, every `Reading` whose segments are a prefix of what
+    is left, whose quality admits `quality` and whose position admits the position. Silent
+    readings consume nothing and may be used at most **once** per run, which is what makes the
+    search terminate. Results are in `READINGS` order.
+    """
+    run = tuple(run)
+    results: list[tuple[int, str]] = []
+
+    def walk(i: int, at_start: bool, silent_used: bool, acc: list[str]) -> None:
+        if len(results) >= _RUN_CAP:
+            return
+        if i == len(run):
+            results.append((1 if silent_used else 0, "".join(acc)))
+        # Segment-consuming readings first, silent ones after: a silent reading fits at every
+        # position, so leaving it in registry order would bury every real spelling of the run
+        # behind ⟨fh⟩-riddled ones and the cap of V-20 step 5 would never reach them.
+        for silent in (False, True):
+            for reading in READINGS:
+                if len(results) >= _RUN_CAP:
+                    return
+                if (len(reading.segments) == 0) != silent:
+                    continue
+                if reading.quality != EITHER and reading.quality != quality:
+                    continue
+                if reading.position == "initial" and not at_start:
+                    continue
+                if reading.position == "noninitial" and at_start:
+                    continue
+                if silent:
+                    if silent_used:
+                        continue
+                    walk(i, False, True, acc + [reading.grapheme])
+                    continue
+                width = len(reading.segments)
+                if run[i:i + width] != reading.segments:
+                    continue
+                walk(i + width, False, silent_used, acc + [reading.grapheme])
+
+    walk(0, at_word_start, False, [])
+    # Silent-free spellings first (stable within each group): a silent reading is admissible
+    # everywhere, so without this the *dorn* spelling of /ɾˠn̪ˠ/ sits behind five ⟨rrnn+silent⟩
+    # ones and the cap of V-20 step 5 cuts it off.
+    return [text for _silent, text in sorted(results, key=lambda row: row[0])]
+
+
+def _epenthetic(units: Sequence[tuple[str, tuple[str, ...]]], i: int) -> bool:
+    """Is unit `i` a schwa `g2p._epenthesis` could have inserted (V-20 step 3)?
+
+    Over-generating on purpose: the union of `_EPEN_C2_LIQUID` and `_EPEN_C2_NASAL` is used,
+    and none of `_epenthesis`'s blocking conditions is re-checked — `g2p()` is the judge.
+    """
+    kind, run = units[i]
+    if kind != "V" or run != ("ə",):
+        return False
+    if i == 0 or i + 1 >= len(units):
+        return False
+    left, right = units[i - 1], units[i + 1]
+    if left[0] != "C" or right[0] != "C":
+        return False
+    return left[1][-1] in g2p.EPEN_C1 and right[1][0] in (g2p.EPEN_C2_LIQUID | g2p.EPEN_C2_NASAL)
+
+
+def _layouts(units: list[tuple[str, tuple[str, ...]]]) -> list[list[tuple[str, tuple[str, ...]]]]:
+    """The unit lists to try: an epenthetic schwa may be spelled with **no letter**, and then
+    its two neighbouring consonant runs are spelled as one run (V-20 steps 3 and 4).
+
+    The dropped reading comes first: an epenthetic schwa is the one `g2p` actually inserts, so
+    *gorm* must be reachable well inside `limit`.
+    """
+    epen = [i for i in range(len(units)) if _epenthetic(units, i)]
+    if not epen:
+        return [units]
+    out: list[list[tuple[str, tuple[str, ...]]]] = []
+    for drops in itertools.product((True, False), repeat=len(epen)):
+        dropped = {i for i, drop in zip(epen, drops) if drop}
+        layout: list[tuple[str, tuple[str, ...]]] = []
+        for i, (kind, run) in enumerate(units):
+            if i in dropped:
+                continue
+            if layout and layout[-1][0] == kind == "C":
+                layout[-1] = ("C", layout[-1][1] + run)
+            else:
+                layout.append((kind, run))
+        if layout not in out:
+            out.append(layout)
+    return out
+
+
+def _options(units: Sequence[tuple[str, tuple[str, ...]]], i: int,
+             pending: Quality) -> list[tuple[str, Quality]]:
+    """The spellings unit `i` admits, given the quality imposed from its left, each paired with
+    the quality it imposes on its right (V-20 step 4).
+
+    A consonant run takes **one** quality, enumerated once per quality that admits a complete
+    match; a nucleus admits only the runs whose `QUALITY_LEFT` is the quality already chosen for
+    the run on its left. A word-edge run is unconstrained on the missing side.
+    """
+    kind, run = units[i]
+    out: list[tuple[str, Quality]] = []
+    if kind == "C":
+        qualities = [pending] if pending in (BROAD, SLENDER) else [BROAD, SLENDER]
+        for quality in qualities:
+            for text in _spell_run(run, quality, at_word_start=(i == 0)):
+                out.append((text, quality))
+        return out
+    for spelling in VOWEL_READINGS.get(run, ()):
+        if pending in (BROAD, SLENDER) and QUALITY_LEFT.get(spelling, EITHER) not in (
+                pending, EITHER):
+            continue
+        out.append((spelling, QUALITY_RIGHT.get(spelling, EITHER)))
+    return out
+
+
+def _candidates(units: Sequence[tuple[str, tuple[str, ...]]]):
+    """Every spelling of one layout, shortest first (V-20 step 5).
+
+    "Registry order" over more than one unit has to be made a *total* order, and the nested
+    product (leftmost unit slowest) is the wrong one: the ⟨o⟩ of *dorn* and the ⟨a⟩ of
+    *ardmhaor* are `_VOWELS` context overrides, which sit at the end of their run lists, so a
+    nested product does not reach either one within any usable `limit`. The order used instead
+    is **by letter count ascending, ties broken lexicographically by the per-unit option index
+    tuple** — so each unit's own options stay in registry order, and a spelling that reads a
+    segment with one letter is offered before one that spends three on it. It is a best-first
+    walk over partial spellings (`heapq`, the shape V-24 uses), so `spell` can stop early
+    without materialising the product.
+    """
+    heap: list[tuple[int, tuple[int, ...], int, Quality, tuple[str, ...]]] = [
+        (0, (), 0, EITHER, ())]
+    while heap:
+        cost, indices, i, pending, acc = heapq.heappop(heap)
+        if i == len(units):
+            yield "".join(acc)
+            continue
+        for j, (text, imposed) in enumerate(_options(units, i, pending)):
+            heapq.heappush(heap,
+                           (cost + len(text), indices + (j,), i + 1, imposed, acc + (text,)))
+
+
+def spell(segments: Sequence[str], *, limit: int = SPELL_LIMIT) -> list[str]:
+    """Irish IPA segments → the Irish spellings that read back as them (V-20).
+
+    Candidates are enumerated shortest-first (`_candidates`) and every one is run through
+    `g2p()`, kept only if it reads back to exactly `segments`: nothing leaves here unverified
+    (spec §3.4, last sentence). `limit` caps the **kept** spellings, and `_PROPOSAL_BUDGET`
+    bounds the search behind it — V-20 step 5 caps the enumeration instead, but the registry
+    over-generates hard enough that a cap of 64 *proposals* returns only junk for a word like
+    *ardmhaor* (247 shorter spellings precede it, almost none of which `g2p` accepts), and
+    every caller wants `limit` real spellings. A word `g2p` refuses (no vowel letter) or one
+    whose nucleus has no registered run simply yields nothing.
+    """
+    from .tokenize import SegmentError, tokenize
+
+    want = tuple(segments)
+    budget = max(_PROPOSAL_BUDGET, 16 * limit)
+    kept: list[str] = []
+    seen: set[str] = set()
+    tried = 0
+    for layout in _layouts(_runs(want)):
+        for text in _candidates(layout):
+            if text in seen:
+                continue
+            seen.add(text)
+            tried += 1
+            if tried > budget:
+                break
+            try:
+                ipa, _notes = g2p.g2p(text)
+                got = tuple(tokenize(_unmark(ipa), _table()).segments)
+            except (g2p.G2PError, SegmentError):
+                continue
+            if got == want:
+                kept.append(text)
+                if len(kept) >= limit:
+                    break
+        if len(kept) >= limit or tried > budget:
+            break
+    return kept
