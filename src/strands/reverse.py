@@ -35,6 +35,7 @@ import unicodedata
 from dataclasses import dataclass
 from typing import Sequence
 
+from . import g2p_inverse
 from .dsl import Backref, Bundle, CtxItem, ItemSpec, QuotedText, Rule, RuleFile
 from .features import FeatureError, FeatureTable
 from .rewrite import match_item
@@ -44,7 +45,9 @@ __all__ = [
     "ANY", "ONE", "SEG", "Step", "Alternative", "RespellSource", "Source", "Deletion",
     "OptionalGroup", "Slot", "Pattern", "ReverseError", "env_text", "invert_respell",
     "parse_pattern", "parse_ipa_pattern", "SourceMap", "section_inventory", "expand_target",
-    "source_map", "un_substitute", "WIDEN_SECTIONS", "widen",
+    "source_map", "un_substitute", "WIDEN_SECTIONS", "widen", "RULE_COL", "FORWARD_STAGES",
+    "ConstraintLine", "Constraint", "Example", "format_rule_line", "constraints",
+    "dropped_lines", "render_pattern", "report",
 ]
 
 ANY, ONE, SEG = "any", "one", "seg"
@@ -125,6 +128,12 @@ class Slot:
     text: str                         # the pattern text: "a", "?", "*", "[aeiou]"
     alts: tuple[Alternative, ...] = ()
     notes: tuple[str, ...] = ()
+    targets: tuple[str, ...] = ()     # the TARGET-side segments this slot prints, for the
+                                      # report's `target segments:` line. Set at parse time —
+                                      # the walk back overwrites `alts` with Irish segments, so
+                                      # the target side is not recoverable later — and the
+                                      # first-listed respell source wins when a chunk is
+                                      # ambiguous. Empty falls back to `text`.
 
 
 @dataclass(frozen=True)
@@ -334,8 +343,10 @@ def parse_pattern(pattern: str, chunks: dict[str, tuple[RespellSource, ...]],
                 pattern_notes.append(note)
             pos += 1
             continue
+        sources = chunks[chunk]
         slots.append(Slot(kind=SEG, text=chunk,
-                          alts=tuple(_respell_alt(s) for s in chunks[chunk])))
+                          alts=tuple(_respell_alt(s) for s in sources),
+                          targets=sources[0].segments if sources else ()))
         pos += len(chunk)
 
     return Pattern(text=text, slots=tuple(slots), notes=tuple(pattern_notes))
@@ -677,7 +688,8 @@ def un_substitute(pattern: Pattern, smap: SourceMap, *,
                                                          rule_id=source.rule_id,
                                                          tag=source.tag, context=source.context,
                                                          kind=source.kind),)))
-        slots.append(Slot(kind=slot.kind, text=slot.text, alts=tuple(alts), notes=slot.notes))
+        slots.append(Slot(kind=slot.kind, text=slot.text, alts=tuple(alts),
+                          notes=slot.notes, targets=slot.targets))
 
     extra = tuple(note for note in notes if note not in pattern.notes)
     return Pattern(text=pattern.text, slots=tuple(slots), groups=pattern.groups,
@@ -827,10 +839,391 @@ def widen(pattern: Pattern, target: RuleFile, irish: RuleFile,
                         seen.add((new.segments, new.steps))
                         alts.append(new)
             widened.append(Slot(kind=slot.kind, text=slot.text, alts=tuple(alts),
-                                notes=slot.notes))
+                                notes=slot.notes, targets=slot.targets))
         slots = widened
         candidates.extend(_epenthesis_groups(slots, smap, section))
 
     return Pattern(text=pattern.text, slots=tuple(slots),
                    groups=_resolve_groups(pattern.groups + tuple(candidates), notes),
                    deletions=tuple(deletions), notes=tuple(notes))
+
+
+# ---- the constraint set and the report (spec §4; V-7, V-13 … V-15, V-21, V-31, V-32) -----------
+
+RULE_COL = 62                         # V-32: a CODE-POINT index, not a display column
+_ALT_CAP = 6                          # V-14: alternatives printed per slot in the rendering
+
+#: The order everything is REPORTED in — the forward engine's order, not the walk's (V-31).
+FORWARD_STAGES = ("substitute", "repair", "post-stress", "respell")
+
+_KIND_RANK = {"identity": 0, "rule": 1, "fallback": 2, "epenthesis": 3}
+_TAG_RANK = {"": 0, "attested": 0, "design": 1, "fallback": 2}
+_TAG_NAME = ("", "design", "fallback")
+# V-15: a fixed phrase per source kind, never hand prose. `describe(())` is already
+# "inserted, no Irish letter", so epenthesis needs no suffix of its own.
+_KIND_PHRASE = {"identity": "", "rule": "", "fallback": " (nearest inventory match)",
+                "epenthesis": ""}
+_DROPPED_PHRASE = "may have been dropped anywhere in this word"
+
+
+@dataclass(frozen=True)
+class ConstraintLine:
+    """One printed line of the constraint set: a group of alternatives that agree on
+    `(kind, tag, description, context)` (V-31)."""
+    description: str
+    rule_ids: tuple[str, ...]
+    tag: str                          # "" | "design" | "fallback"
+    kind: str
+    context: str                      # every context-bearing step's context, joined " ; "
+    label: str = ""                   # only the `possibly dropped` block uses this: its lines
+                                      # are not attached to a slot, so they carry their own
+                                      # label (the deleted segments)
+    contexts: tuple[tuple[str, str], ...] = ()
+    # ^ (rule_id, context) per context-bearing STEP, in forward stage order. `context` above is
+    # these joined; the exclusions block needs them apart, because it prints one line per step
+    # with that step's own rule id (V-13, V-31).
+
+
+@dataclass(frozen=True)
+class Constraint:
+    label: str                        # the pattern text of the slot: "a", "*", "[aeiou]"
+    target: str                       # the target-side segments the slot prints
+    lines: tuple[ConstraintLine, ...]
+    notes: tuple[str, ...]
+    unconstrained: bool
+
+
+@dataclass(frozen=True)
+class Example:
+    """One forward-verified concrete word (spec §3.5). Filled in by `verify` (Task 7); defined
+    here because `report` prints it."""
+    orthography: str
+    respelling: str
+    ipa: str
+    flags: tuple[str, ...]
+    fallbacks: int
+    rank: int
+    spelling_index: int
+
+
+def format_rule_line(prefix: str, description: str, suffix: str) -> list[str]:
+    """`prefix + description`, then `suffix` starting at code-point index RULE_COL.
+
+    When `prefix + description` already reaches RULE_COL - 1 or beyond, emit it on its own
+    line and put `suffix` on a continuation line indented by RULE_COL spaces. Returns 1 or 2
+    lines, each rstrip()ed. Widths are Python code points (len()), not display columns —
+    combining marks in the IPA make the two differ, and code points are what a test can
+    assert (V-32).
+    """
+    head = prefix + description
+    if not suffix:
+        return [head.rstrip()]
+    if len(head) >= RULE_COL - 1:
+        return [head.rstrip(), (" " * RULE_COL + suffix).rstrip()]
+    return [(head.ljust(RULE_COL) + suffix).rstrip()]
+
+
+def _forward_steps(steps: Sequence[Step]) -> tuple[Step, ...]:
+    """The walk's steps in FORWARD stage order — a stable sort, so two steps of one stage keep
+    their walk order (V-31)."""
+    return tuple(sorted(steps, key=lambda step: FORWARD_STAGES.index(step.stage)))
+
+
+def _weakest_tag(steps: Sequence[Step]) -> str:
+    """The weakest tag across the walk under `attested < design < fallback`; an empty tag
+    counts as attested (V-31)."""
+    return _TAG_NAME[max((_TAG_RANK.get(step.tag, 0) for step in steps), default=0)]
+
+
+def _dedupe(values: Sequence[str]) -> tuple[str, ...]:
+    return tuple(dict.fromkeys(values))
+
+
+def _line_of(alt: Alternative) -> ConstraintLine:
+    """Collapse one alternative's whole walk into a single constraint line (V-31)."""
+    steps = _forward_steps(alt.steps)
+    kind = next((step.kind for step in steps if step.stage == "substitute"), "identity")
+    contexts = tuple((step.rule_id, step.context) for step in steps if step.context)
+    return ConstraintLine(
+        description=g2p_inverse.describe(alt.segments) + _KIND_PHRASE.get(kind, ""),
+        rule_ids=_dedupe([step.rule_id for step in steps]),
+        tag=_weakest_tag(steps),
+        kind=kind,
+        context=" ; ".join(context for _rid, context in contexts),
+        contexts=contexts,
+    )
+
+
+def _merge_lines(lines: Sequence[ConstraintLine]) -> tuple[ConstraintLine, ...]:
+    """One line per distinct `(description, kind, tag, context)`; merged lines concatenate
+    their rule ids, first occurrence winning (V-31). Sorted by kind, then design last, then
+    first rule id, then description."""
+    merged: dict[tuple[str, str, str, str], ConstraintLine] = {}
+    for line in lines:
+        key = (line.description, line.kind, line.tag, line.context)
+        seen = merged.get(key)
+        if seen is None:
+            merged[key] = line
+            continue
+        merged[key] = ConstraintLine(
+            description=seen.description,
+            rule_ids=_dedupe(seen.rule_ids + line.rule_ids),
+            tag=seen.tag, kind=seen.kind, context=seen.context, label=seen.label,
+            contexts=tuple(dict.fromkeys(seen.contexts + line.contexts)))
+    return tuple(sorted(merged.values(),
+                        key=lambda l: (_KIND_RANK.get(l.kind, 9),
+                                       1 if l.tag == "design" else 0,
+                                       l.rule_ids[0] if l.rule_ids else "",
+                                       l.description)))
+
+
+def constraints(pattern: Pattern) -> tuple[Constraint, ...]:
+    """One `Constraint` per slot: its label, the target segments it prints, and its lines."""
+    out: list[Constraint] = []
+    for slot in pattern.slots:
+        lines = _merge_lines([_line_of(alt) for alt in slot.alts])
+        out.append(Constraint(label=slot.text,
+                              target=" ".join(slot.targets) if slot.targets else slot.text,
+                              lines=lines, notes=slot.notes, unconstrained=not lines))
+    return tuple(out)
+
+
+def dropped_lines(pattern: Pattern) -> tuple[ConstraintLine, ...]:
+    """The `possibly dropped` block: one line per `(segments, tag, context)`, once per WORD and
+    never a note on a slot (V-7, owner ruling).
+
+    The key includes the deleted segments — V-7 writes it as `(description, tag, context)`, but
+    the description of a deletion is the fixed phrase, so keying on it alone would merge
+    Welsh's `w -> 0` and `j -> 0` into one line and lose which segment went.
+
+    The label is the segment the SECTION deleted, so a `[substitute]` deletion labels an Irish
+    segment and a `[repair]`/`[post-stress]` one labels a segment of the strand — each is the
+    segment that would have gone missing at that stage, which is what the reader needs.
+    """
+    merged: dict[tuple[str, str, str], ConstraintLine] = {}
+    for deletion in pattern.deletions:
+        label = "".join(deletion.segments)
+        tag = _TAG_NAME[_TAG_RANK.get(deletion.tag, 0)]
+        key = (label, tag, deletion.context)
+        seen = merged.get(key)
+        rule_ids = (deletion.rule_id,) if seen is None else seen.rule_ids + (deletion.rule_id,)
+        merged[key] = ConstraintLine(
+            description=_DROPPED_PHRASE, rule_ids=_dedupe(rule_ids), tag=tag, kind="rule",
+            context=deletion.context, label=label,
+            contexts=((deletion.rule_id, deletion.context),) if deletion.context else ())
+    return tuple(sorted(merged.values(), key=lambda l: (l.rule_ids[0], l.label)))
+
+
+# ---- the Irish spelling pattern (spec §3.4, §4; V-14, V-30, R7) --------------------------------
+
+def _graphemes_of(segments: tuple[str, ...]) -> tuple[str, ...]:
+    """The Irish letters that read as this segment sequence — vowel runs first, then the
+    consonant registry (V-27/V-19). No quality words: this is the pattern line, not the
+    description column."""
+    runs = g2p_inverse.VOWEL_READINGS.get(segments)
+    if runs:
+        return tuple(runs)
+    return _dedupe([reading.grapheme for reading in g2p_inverse.readings_for(segments)])
+
+
+def _is_nucleus(segments: tuple[str, ...]) -> bool:
+    return bool(segments) and all(seg in g2p_inverse.g2p.VOWEL_SEGMENTS for seg in segments)
+
+
+def _slot_quality(slot: Slot) -> str:
+    """The quality of a consonant slot: the first-listed reading's (V-14). `""` when the slot
+    is a nucleus, has no reading, or its reading admits either quality."""
+    for alt in slot.alts:
+        if not alt.segments or _is_nucleus(alt.segments):
+            return ""
+        readings = g2p_inverse.readings_for(alt.segments)
+        if readings:
+            quality = readings[0].quality
+            return "" if quality == g2p_inverse.EITHER else quality
+    return ""
+
+
+def _slot_graphemes(slots: Sequence[Slot], index: int) -> tuple[str, ...]:
+    """The alternation printed for one slot, caol le caol respected (V-14).
+
+    Epenthesis alternatives are excluded — they spell nothing, and the rendering says so on its
+    own `or, with … inserted` line instead. A nucleus slot keeps only the vowel runs whose
+    imposed qualities match the first-listed reading of the consonant slot on each side; when
+    the filter empties the slot it falls back to the unfiltered alternation.
+    """
+    slot = slots[index]
+    graphemes: list[str] = []
+    nucleus = False
+    for alt in slot.alts:
+        if not alt.segments:
+            continue                                  # epenthesis: no letter (V-14)
+        nucleus = nucleus or _is_nucleus(alt.segments)
+        for grapheme in _graphemes_of(alt.segments):
+            if grapheme not in graphemes:
+                graphemes.append(grapheme)
+    if not nucleus or not graphemes:
+        return tuple(graphemes)
+    left = _slot_quality(slots[index - 1]) if index else ""
+    right = _slot_quality(slots[index + 1]) if index + 1 < len(slots) else ""
+    kept = [g for g in graphemes
+            if (not left or g2p_inverse.QUALITY_LEFT.get(g, g2p_inverse.EITHER)
+                in (left, g2p_inverse.EITHER))
+            and (not right or g2p_inverse.QUALITY_RIGHT.get(g, g2p_inverse.EITHER)
+                 in (right, g2p_inverse.EITHER))]
+    return tuple(kept or graphemes)
+
+
+def _slot_text(slots: Sequence[Slot], index: int) -> str:
+    slot = slots[index]
+    if slot.kind == ANY:
+        return "*"
+    graphemes = list(_slot_graphemes(slots, index))
+    if not graphemes:
+        return "?"
+    if len(graphemes) > _ALT_CAP:
+        graphemes = graphemes[:_ALT_CAP] + ["…"]
+    return graphemes[0] if len(graphemes) == 1 else "(" + "|".join(graphemes) + ")"
+
+
+def _insertions(pattern: Pattern) -> tuple[tuple[int, int, tuple[Step, ...]], ...]:
+    """Every span the engine could have inserted: the optional groups of `[repair]` /
+    `[post-stress]` (V-30), plus each slot carrying a `[substitute]` epenthesis alternative
+    (the Georgian *v* of spec §4 is one of those, not a group)."""
+    spans: dict[tuple[int, int], list[Step]] = {}
+    for group in pattern.groups:
+        spans.setdefault((group.start, group.stop), []).extend(group.steps)
+    for index, slot in enumerate(pattern.slots):
+        steps = [step for alt in slot.alts if not alt.segments for step in alt.steps
+                 if step.kind == "epenthesis"]
+        if steps:
+            spans.setdefault((index, index + 1), []).extend(steps)
+    return tuple((start, stop, tuple(dict.fromkeys(steps)))
+                 for (start, stop), steps in sorted(spans.items()))
+
+
+def _base_line(pattern: Pattern, *, drop: tuple[int, int] | None = None) -> str:
+    """The rendering, with an optional group wrapped `( … )?` and `drop`'s span left out."""
+    slots = pattern.slots
+    groups = {(g.start, g.stop) for g in pattern.groups}
+    parts: list[str] = []
+    index = 0
+    while index < len(slots):
+        span = next((s for s in sorted(groups) if s[0] == index), None)
+        if drop is not None and index == drop[0]:
+            index = drop[1]
+            continue
+        if span is not None and span != drop:
+            inner = "".join(_slot_text(slots, i) for i in range(span[0], span[1]))
+            parts.append(f"({inner})?")
+            index = span[1]
+            continue
+        parts.append(_slot_text(slots, index))
+        index += 1
+    return "  " + "".join(parts)
+
+
+def render_pattern(pattern: Pattern) -> tuple[str, ...]:
+    """The Irish spelling pattern: one base line, then one line per insertion (V-14, Q2).
+
+    Alternation is printed, never resolved to a pick (R7); the rendering is a description, not
+    a claim — `verify` is what checks a concrete spelling.
+    """
+    lines = [_base_line(pattern)]
+    for start, stop, steps in _insertions(pattern):
+        labels = "".join(pattern.slots[i].text for i in range(start, stop)) or "?"
+        contexts = _dedupe([step.context for step in steps if step.context])
+        detail = " ; ".join(contexts) if contexts else "no environment"
+        without = _base_line(pattern, drop=(start, stop)).strip() or "(nothing)"
+        lines.append(f"  or, with {labels} inserted:  {without}   (context: {detail})")
+    return tuple(lines)
+
+
+# ---- the report (spec §4; V-13, V-32) ----------------------------------------------------------
+
+#: `identity` and `fallback` are not rule ids — they are the pseudo-ids V-8/V-9 give a source
+#: with no rule behind it. The tag and the description already say so, and spec §4's own `v`
+#: line (a respell identity plus `substitute:79`) prints the rule id alone, so they are dropped
+#: from the rule column whenever a real rule id is on the line.
+_PSEUDO_IDS = ("identity", "fallback")
+
+
+def _rule_suffix(line: ConstraintLine) -> str:
+    tag = f" %{line.tag}" if line.tag in ("design", "fallback") else ""
+    ids = tuple(r for r in line.rule_ids if r not in _PSEUDO_IDS) or line.rule_ids
+    return ",".join(ids) + tag
+
+
+def _example_lines(examples: Sequence[Example]) -> list[str]:
+    width1 = max([11] + [len(e.orthography) + 2 for e in examples])
+    width2 = max([9] + [len(e.respelling) + 2 for e in examples])
+    out: list[str] = []
+    for example in examples:
+        text = "  " + example.orthography.ljust(width1) + example.respelling.ljust(width2)
+        text += example.ipa
+        if example.flags:
+            text += "  " + " ".join(example.flags)
+        if example.fallbacks:
+            text += f"  fallbacks:{example.fallbacks}"
+        out.append(text.rstrip())
+    return out
+
+
+def report(word: str, strand: str, pattern: Pattern, examples: Sequence[Example] = (),
+           *, tried: int = 0, cap_hit: bool = False, verified: bool = True) -> list[str]:
+    """The whole §4 block for one word, as lines without newlines.
+
+    Section order and content are the spec's; every rule-bearing line goes through the one
+    formatter (V-32), so the rule column cannot drift between blocks.
+    """
+    found = constraints(pattern)
+    out = [f"{word}  [{strand}]",
+           "target segments: " + " ".join(c.target for c in found),
+           "",
+           "constraints"]
+
+    for constraint in found:
+        if constraint.unconstrained:
+            out.append(f"  {constraint.label:<3} unconstrained".rstrip())
+        for index, line in enumerate(constraint.lines):
+            prefix = f"  {constraint.label:<3} ← " if index == 0 else "      ← "
+            out.extend(format_rule_line(prefix, line.description, _rule_suffix(line)))
+        for note in constraint.notes:
+            out.append(f"      note: {note}")
+    printed = {note for c in found for note in c.notes}
+    for note in pattern.notes:
+        if note not in printed:            # a slot already printed its own note above
+            out.append(f"  note: {note}")
+
+    dropped = dropped_lines(pattern)
+    if dropped:
+        out.extend(["", "possibly dropped"])
+        for line in dropped:
+            out.extend(format_rule_line(f"  {line.label:<3} ", line.description,
+                                        _rule_suffix(line)))
+
+    # V-13 (Q1): one line per context-bearing STEP, carrying that step's own environment
+    # verbatim. Nothing here negates or evaluates a context (R2).
+    exclusions: list[str] = []
+    for constraint in found:
+        for line in constraint.lines:
+            for rule_id, context in line.contexts:
+                exclusions.extend(format_rule_line(
+                    f"  {constraint.label} ← ",
+                    f"{line.description}: only when  {context}", f"({rule_id} context)"))
+    if exclusions:
+        out.extend(["", "exclusions"] + exclusions)
+
+    out.extend(["", "Irish spelling pattern"])
+    out.extend(render_pattern(pattern))
+
+    out.append("")
+    if not verified:
+        out.append("verified examples: skipped (--examples 0)")
+        return out
+    header = (f"verified examples ({len(examples)} of {tried} tried; "
+              "0 fallbacks unless shown)")
+    if cap_hit:
+        header += "; candidate cap 2000 hit"
+    out.append(header)
+    out.extend(_example_lines(examples) if examples else ["  none"])
+    return out
