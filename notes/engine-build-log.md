@@ -28,3 +28,7 @@
   84e4b54, 151f309) settled Llanwrtyd = Southern and the penult length rule; CONFLICT-Awb-3
   resolved by owner decision (8974c34): final /m/ lexical (Irish length decides, circumflex),
   /ŋ/ short. Suite 941 passed / 2 xfailed.
+- 2026-08-26: multi-word inputs fixed (d457f46: words adapted separately, joined with a
+  space — 11 test rows × 4 strands changed); /ɪə/ normalized to /iə/ (b11051a); Cairene
+  emphasis narrowed to Hafez's environment, before back vowels only (65af470; 18 DESC rows
+  lost an emphatic, Matánach/súil keep theirs). Suite 1001 passed / 2 xfailed.

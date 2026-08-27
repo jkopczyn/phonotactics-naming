@@ -69,9 +69,10 @@ Every cell is traceable: `explain` prints each rule that fired with its `%attest
    *Kas'queil*; flipping it is one block. Also: Georgian has no syllable template and no
    nucleus list, which is why its outputs show bare vowel sequences (*kviara*, *grania*) and
    no stress marks — both as designed.
-6. **Cairene emphatics are respelled with a dot-under** (*maṭaanakh*, *laṣarkhuṣ*) — the
-   "more pronounced differences" default; the digest recommends plain letters and it sits
-   uneasily with "English-reader respelling". One rule line to strip.
+6. **Cairene emphatics**: narrowed 2026-08-26 to Hafez's attested environment — broad
+   coronals become emphatic only before a back vowel (*maṭaanakh, ṣuul* keep it; *sheemas,
+   sirsha, badrag* lose it), which took emphatics from a quarter of all words to the attested
+   pattern. Still respelled with a dot-under; one rule line to strip if unwanted.
 7. **Irish transcription convention is load-bearing**: plain `k ɡ x ɣ ŋ` are broad, `c ɟ ç j
    ɲ` slender, and the normalizer must not infer dorsal quality from the vowel (defect 1
    below). So your *Ciara* /k/ is taken literally as broad → Georgian *kv-*; if you meant
