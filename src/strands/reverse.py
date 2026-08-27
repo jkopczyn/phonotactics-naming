@@ -18,8 +18,14 @@ verification step would honour them and the parser would not (V-16); every alter
 `Step` so the report can say which rule produced it (V-31); and insertions widen slot *spans*
 as atomic optional groups, not individual slots (V-30).
 
-Later tasks add `source_map` / `un_substitute` (§3.2), `widen` (§3.3), `expand`, `verify` and the
-report; the dataclasses they need (`Source`, `Deletion`, `OptionalGroup`) live here.
+`source_map` inverts one section into *target-side sequence → the sources that can produce it*
+(§3.2): every rule shape by V-5, context backrefs by V-6, deletions kept apart and never expanded
+(V-7), the inventory fallback and identity sources for `[substitute]` alone (V-8/V-9), and a chain
+closure that composes two rules only when the producing rule runs FIRST (V-11/V-28). Each section
+expands over its own inventory (V-29). `un_substitute` walks a parsed pattern back across it.
+
+Later tasks add `widen` (§3.3), `expand`, `verify` and the report; the dataclasses they need
+(`Source`, `Deletion`, `OptionalGroup`) live here.
 """
 from __future__ import annotations
 
@@ -27,16 +33,18 @@ import itertools
 import re
 import unicodedata
 from dataclasses import dataclass
+from typing import Sequence
 
-from .dsl import Bundle, CtxItem, ItemSpec, QuotedText, Rule, RuleFile
-from .features import FeatureTable
+from .dsl import Backref, Bundle, CtxItem, ItemSpec, QuotedText, Rule, RuleFile
+from .features import FeatureError, FeatureTable
 from .rewrite import match_item
 from .tokenize import MARKS, SegmentError, tokenize
 
 __all__ = [
     "ANY", "ONE", "SEG", "Step", "Alternative", "RespellSource", "Source", "Deletion",
     "OptionalGroup", "Slot", "Pattern", "ReverseError", "env_text", "invert_respell",
-    "parse_pattern", "parse_ipa_pattern",
+    "parse_pattern", "parse_ipa_pattern", "SourceMap", "section_inventory", "expand_target",
+    "source_map", "un_substitute",
 ]
 
 ANY, ONE, SEG = "any", "one", "seg"
@@ -406,3 +414,269 @@ def parse_ipa_pattern(pattern: str, target: RuleFile, table: FeatureTable) -> Pa
     flush(len(text))
 
     return Pattern(text=text, slots=tuple(slots), notes=tuple(notes))
+
+
+# ---- un-substitute (spec §3.2, V-3 … V-12, V-28, V-29) -----------------------------------------
+
+SourceMap = dict[tuple[str, ...], tuple[Source, ...]]
+
+_STAGE_OF_SECTION = {"substitute": "substitute", "repair": "repair",
+                     "post-stress": "post-stress", "respell": "respell"}
+
+
+def section_inventory(section: str, target: RuleFile, irish: RuleFile) -> tuple[str, ...]:
+    """The inventory a section's rules are expanded over (V-29).
+
+    `[substitute]` reads Irish segments and writes target ones, so it expands over
+    `irish.inventory`; `[repair]`, `[post-stress]` and `[respell]` run *after* substitution, so
+    their targets are already in the strand's phonology and they expand over `target.inventory`.
+    `target.marginal` is NEVER appended: it is a frozenset (non-deterministic order) and every
+    marginal segment is already a member of `inventory`.
+    """
+    source = irish.inventory if section == "substitute" else target.inventory
+    return tuple(source)
+
+
+def _item_options(spec: ItemSpec, match_rf: RuleFile, inventory: Sequence[str],
+                  table: FeatureTable) -> tuple[str, ...]:
+    """Every segment of `inventory` the item matches, in inventory order (V-4).
+
+    A literal segment item yields itself whether or not it is in the inventory: georgian's
+    `p -> pʼ / C _` has an Irish-side `p` that no Irish inventory row contains, and dropping it
+    would break the `pˠ -> p -> pʼ` chain (V-28). This is the over-generating reading of §3.
+    """
+    if spec.kind == "segment":
+        return (str(spec.value),)
+    return tuple(seg for seg in inventory if match_item(spec, seg, match_rf, table))
+
+
+def _target_combinations(rule: Rule, match_rf: RuleFile, inventory: Sequence[str],
+                         table: FeatureTable):
+    """Lazily, every (segment sequence, captures) the rule's target can match."""
+    options = [_item_options(spec, match_rf, inventory, table) for spec in rule.target]
+    for combination in itertools.product(*options):
+        captures = {spec.capture: seg
+                    for spec, seg in zip(rule.target, combination)
+                    if spec.capture is not None}
+        yield combination, captures
+
+
+def expand_target(rule: Rule, match_rf: RuleFile, inventory: Sequence[str],
+                  table: FeatureTable) -> tuple[tuple[tuple[str, ...], dict[int, str]], ...]:
+    """Each (segment sequence, captures) the rule's TARGET can match over `inventory`, in
+    inventory order, capped at `_EXPAND_CAP` (V-4). `match_rf` supplies the class names (always
+    the TARGET rule file — the rule's class names are its own file's); `inventory` is chosen by
+    the caller per V-29."""
+    return tuple(itertools.islice(_target_combinations(rule, match_rf, inventory, table),
+                                  _EXPAND_CAP))
+
+
+def _capture_options(rule: Rule, n: int, match_rf: RuleFile, inventory: Sequence[str],
+                     table: FeatureTable) -> tuple[str, ...]:
+    """The segments the CONTEXT item capturing `\\n` can match (V-6)."""
+    for item in itertools.chain(rule.left, rule.right):
+        if isinstance(item.atom, ItemSpec) and item.atom.capture == n:
+            return _item_options(item.atom, match_rf, inventory, table)
+    return ()
+
+
+def _invert_rule(rule: Rule, target: RuleFile, inventory: tuple[str, ...],
+                 table: FeatureTable, section: str,
+                 add, deletions: list[Deletion], notes: list[str],
+                 covered: set[tuple[str, ...]]) -> None:
+    """One rule of one section, inverted by replacement shape (V-5, V-6, V-7)."""
+    rid, tag, line = rule.rule_id, rule.tag, rule.line
+    context = env_text(rule)
+    context_free = not rule.left and not rule.right
+    replacement = rule.replacement
+
+    combinations = list(itertools.islice(
+        _target_combinations(rule, target, inventory, table), _EXPAND_CAP + 1))
+    if len(combinations) > _EXPAND_CAP:
+        combinations = combinations[:_EXPAND_CAP]
+        notes.append(f"{rid} expanded to more than {_EXPAND_CAP} targets; kept the first "
+                     f"{_EXPAND_CAP} in inventory order")
+
+    def source(segments, kind, *, rule_id=rid, note="") -> Source:
+        return Source(segments=segments, rule_id=rule_id, tag=tag, context=context,
+                      kind=kind, line=line, note=note)
+
+    if isinstance(replacement, Bundle):                      # feature change
+        if not rule.target:
+            notes.append(f"{rid} skipped: a feature change needs a target")
+            return
+        for segments, _captures in combinations:
+            for seg in segments:
+                try:
+                    changed = table.apply_changes(seg, replacement.constraints)
+                except FeatureError as exc:
+                    notes.append(f"{rid} skipped {seg}: {exc}")
+                    continue
+                add((changed,), source((seg,), "rule"))
+                if context_free:
+                    covered.add((seg,))
+        return
+
+    # A DELETION does not "cover" its target for V-8/V-9: `X -> 0` leaves nothing behind, so
+    # the fallback still has to offer X somewhere (the plan's synthetic /h/ is exactly this).
+    if replacement == ():                                    # deletion (V-7)
+        if not rule.target:
+            notes.append(f"{rid} skipped: a deletion needs a target")
+            return
+        for segments, _captures in combinations:
+            deletions.append(Deletion(segments=segments, rule_id=rid, tag=tag, context=context))
+        return
+
+    if any(isinstance(part, QuotedText) for part in replacement) and section != "respell":
+        notes.append(f"{rid} skipped: quoted text outside [respell]")
+        return
+
+    epenthesis = not rule.target
+    for segments, captures in combinations:
+        unresolved = sorted({part.n for part in replacement
+                             if isinstance(part, Backref) and part.n not in captures})
+        if not unresolved:
+            key = tuple(captures[part.n] if isinstance(part, Backref) else str(part)
+                        for part in replacement)
+            if epenthesis:
+                # V-5/V-30: however many segments are inserted, they are ONE key.
+                add(key, source((), "epenthesis"))
+            else:
+                add(key, source(segments, "rule"))
+                if context_free:
+                    covered.add(segments)
+            continue
+
+        # V-6: the replacement copies a segment captured in the CONTEXT, so its identity is
+        # unknown at inversion time — one epenthesis source per segment that item can match.
+        options = [_capture_options(rule, n, target, inventory, table) for n in unresolved]
+        if any(not choices for choices in options):
+            notes.append(f"{rid} skipped: no context item captures "
+                         f"\\{unresolved[0]}")
+            continue
+        note = "copies " + ", ".join(f"\\{n}" for n in unresolved) + " from the context"
+        for assignment in itertools.islice(itertools.product(*options), _EXPAND_CAP):
+            copied = dict(zip(unresolved, assignment))
+            key = tuple(copied[part.n] if isinstance(part, Backref) and part.n in copied
+                        else captures[part.n] if isinstance(part, Backref) else str(part)
+                        for part in replacement)
+            add(key, source((), "epenthesis", note=note))
+
+
+def _close_chains(smap: dict[tuple[str, ...], list[Source]], add, depth: int) -> None:
+    """V-11/V-28: compose `A -> B` with `B -> C` to depth `depth`, but ONLY when the producing
+    rule runs BEFORE the consuming one — arabic-egy's `ʒ -> ʃ` (61) precedes `dʒ -> ʒ` (62), so
+    forward /dʒ/ stops at /ʒ/ and must never be offered as a source of /ʃ/."""
+    for _pass in range(max(depth - 1, 0)):
+        additions: list[tuple[tuple[str, ...], Source]] = []
+        for key, sources in list(smap.items()):
+            for step in list(sources):
+                if step.kind != "rule":
+                    continue
+                for earlier in smap.get(step.segments, ()):
+                    if earlier.kind != "rule":
+                        continue
+                    if earlier.segments == key or earlier.segments == step.segments:
+                        continue                              # cycle guard (v v -> v, …)
+                    if earlier.line >= step.line:
+                        continue                              # V-28: the order guard
+                    tag = "design" if "design" in (step.tag, earlier.tag) else step.tag
+                    context = " ; ".join(x for x in (earlier.context, step.context) if x)
+                    additions.append((key, Source(
+                        segments=earlier.segments,
+                        rule_id=f"{earlier.rule_id}>{step.rule_id}",
+                        tag=tag, context=context, kind="rule", line=step.line)))
+        for key, source in additions:
+            add(key, source)
+
+
+def source_map(section: str, target: RuleFile, irish: RuleFile, table: FeatureTable,
+               *, depth: int = 3) -> tuple[SourceMap, tuple[Deletion, ...], tuple[str, ...]]:
+    """Invert one section: target-side segment sequence → the sources that can produce it (V-3).
+
+    Built rule by rule in file order; then the ordered chain closure (V-11/V-28); then, for
+    `[substitute]` only, the inventory fallback (V-8) and the identity sources (V-9). Deletions
+    are never expanded into candidates — they come back separately (V-7), as do the notes.
+    """
+    inventory = section_inventory(section, target, irish)
+    smap: dict[tuple[str, ...], list[Source]] = {}
+    seen: dict[tuple[str, ...], set[tuple[tuple[str, ...], str]]] = {}
+    deletions: list[Deletion] = []
+    notes: list[str] = []
+    covered: set[tuple[str, ...]] = set()
+
+    def add(key: tuple[str, ...], source: Source) -> None:
+        marker = (source.segments, source.rule_id)
+        if marker in seen.setdefault(key, set()):
+            return                                            # dedupe by (segments, rule_id)
+        seen[key].add(marker)
+        smap.setdefault(key, []).append(source)
+
+    for rule in target.sections.get(section, ()):
+        _invert_rule(rule, target, inventory, table, section, add, deletions, notes, covered)
+
+    _close_chains(smap, add, depth)
+
+    if section == "substitute":
+        # V-8: everything Irish that no context-free rule claims and the strand has no segment
+        # for reaches its nearest NON-MARGINAL target segment — exactly `substitute.fallback`.
+        candidates = tuple(s for s in target.inventory if s not in target.marginal)
+        for seg in irish.inventory:
+            if (seg,) in covered:
+                continue
+            if seg in target.inventory:
+                # V-9: the strand has this segment, so it can simply survive.
+                add((seg,), Source(segments=(seg,), rule_id="identity", tag="", context="",
+                                   kind="identity"))
+            else:
+                add((table.nearest(seg, candidates, target.weights),),
+                    Source(segments=(seg,), rule_id="fallback", tag="fallback", context="",
+                           kind="fallback"))
+
+    return ({key: tuple(sources) for key, sources in smap.items()},
+            tuple(deletions), tuple(notes))
+
+
+def un_substitute(pattern: Pattern, smap: SourceMap, *,
+                  deletions: Sequence[Deletion] = (), notes: Sequence[str] = ()) -> Pattern:
+    """Walk each slot's alternatives back across `[substitute]` (V-3, V-31).
+
+    For every alternative whose segments are a key of `smap`, one new alternative per `Source`,
+    with that source's `Step` APPENDED (steps are newest first, so the substitute step lands
+    oldest). An alternative with no entry is kept as it is, without a substitute step — the
+    over-generating reading of §3: it simply never verifies, and V-31 already gives a stepless
+    alternative the kind `identity`. `deletions` and `notes` are the other two members of the
+    `source_map(...)` triple and are appended to the pattern's own (V-7), so the report's
+    `possibly dropped` block can name a `[substitute]` deletion.
+    """
+    slots: list[Slot] = []
+    for slot in pattern.slots:
+        if slot.kind == ANY or not slot.alts:
+            slots.append(slot)
+            continue
+        alts: list[Alternative] = []
+        seen: set[tuple[tuple[str, ...], tuple[Step, ...]]] = set()
+
+        def keep(alt: Alternative) -> None:
+            marker = (alt.segments, alt.steps)
+            if marker not in seen:
+                seen.add(marker)
+                alts.append(alt)
+
+        for alt in slot.alts:
+            sources = smap.get(alt.segments, ())
+            if not sources:
+                keep(alt)
+                continue
+            for source in sources:
+                keep(Alternative(segments=source.segments,
+                                 steps=alt.steps + (Step(stage="substitute",
+                                                         rule_id=source.rule_id,
+                                                         tag=source.tag, context=source.context,
+                                                         kind=source.kind),)))
+        slots.append(Slot(kind=slot.kind, text=slot.text, alts=tuple(alts), notes=slot.notes))
+
+    extra = tuple(note for note in notes if note not in pattern.notes)
+    return Pattern(text=pattern.text, slots=tuple(slots), groups=pattern.groups,
+                   deletions=pattern.deletions + tuple(deletions),
+                   notes=pattern.notes + extra)
