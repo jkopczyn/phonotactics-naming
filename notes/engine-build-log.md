@@ -45,3 +45,8 @@
   (18 tasks, 3 reviews; check.py order 2→6→7; Task 4 Middle Irish harvest runs beside the
   rules chain). Resume with `Workflow({scriptPath, resumeFromRunId})`. Do NOT SendMessage
   its agents (see memory: duplicates).
+- 2026-08-27: Old Irish workflow complete (24 agents, 0 errors; 18 tasks + 3 reviews/fixes).
+  Suite 1644 passed. Column: 59 ATTESTED (+4 MIr), 60 RETRO, 21 loan/late. Filter regression
+  0.29 exact / 0.67 lev1 over 58 headwords. Owner-visible defects found on read: epenthetic
+  schwa deletion over-applying (-ach/-as vowels lost), stop doubling after s, lower-case
+  lexicon names — fix agent dispatched.
