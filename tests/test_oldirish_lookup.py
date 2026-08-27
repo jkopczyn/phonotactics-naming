@@ -71,6 +71,21 @@ def test_the_retro_path_keeps_the_unstressed_vowel_outside_the_epenthesis_grid(
     assert spelling(orthography, ipa) == expected
 
 
+@pytest.mark.parametrize("orthography,ipa,expected", [
+    ("splanc", "sˠpˠl̪ˠaŋk", "splanc"),
+    ("speal", "sˠpʲal", "spel"),
+    ("spraoi", "sˠpˠɾˠiː", "sprí"),
+    ("stríoc", "ʃtʲɾʲiːk", "strícc"),
+    ("scéal", "ʃceːl̪ˠ", "scél"),          # the attested lexicon spelling
+    ("cnoc", "kɾˠʊk", "cnocc"),            # post-vocalic /k/ still doubles (attested)
+    ("mac", "mˠak", "macc"),
+])
+def test_the_retro_path_does_not_double_a_voiceless_stop_after_s(orthography, ipa, expected):
+    """Digest §10.2 conv. 2 end to end: draft 1 wrote *spplanc*, *sppel*, *spprí*,
+    *sttrícc*, *sccél*."""
+    assert spelling(orthography, ipa) == expected
+
+
 @pytest.mark.parametrize("declension,gender,expected", [
     ("m1", "m", "o"), ("f2", "f", "ā"), ("ach", "m", "o"), ("d4", "m", "indecl"),
     ("", "f", "ā"), ("", "m", "o"),

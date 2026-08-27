@@ -311,6 +311,30 @@ def test_non_initial_voiceless_stops_are_doubled_and_voiced_ones_are_written_c_t
     assert spell("bˠ", "ɾˠ", "o", "d̪ˠ") == "brot"
 
 
+@pytest.mark.parametrize("segments,expected", [
+    (("ʃ", "c", "eː", "l̪ˠ"), "scél"),                       # [old-irish-lexicon] scéal ~ scél
+    (("sˠ", "pˠ", "l̪ˠ", "a", "n̪ˠ", "ɡ"), "splanc"),
+    (("sˠ", "pʲ", "e", "l̪ˠ"), "spel"),
+    (("ʃ", "pʲ", "ɾʲ", "iː"), "sprí"),
+    (("ʃ", "tʲ", "ɾʲ", "iː", "k"), "strícc"),               # final /k/ IS post-vocalic
+    (("tʲ", "ɾʲ", "e", "x", "t̪ˠ", "a"), "trechta"),         # /t/ after /x/, not after a vowel
+])
+def test_a_voiceless_stop_is_not_doubled_after_a_consonant(segments, expected):
+    """Digest §10.2 conv. 2 is the wiki's §Stops following VOWELS: ⟨c t p⟩ read as /ɡ d b/
+    only between vowels, so only there does the doubling have work to do. After ⟨s⟩ (and any
+    other consonant not already claimed by (1)) the single letter is unambiguous. Draft 1
+    doubled unconditionally and wrote *sccél*, *spplanc*, *sppel*, *spprí*, *sttrícc*."""
+    assert spell(*segments) == expected
+
+
+def test_the_post_vocalic_doubling_still_fires():
+    """The attested rows are the guide: *macc*, *cnocc*, *baccach*, *bratt*."""
+    assert spell("mˠ", "a", "k") == "macc"
+    assert spell("k", "n̪ˠ", "o", "k") == "cnocc"
+    assert spell("bˠ", "a", "k", "a", "x") == "baccach"
+    assert spell("bˠ", "ɾˠ", "a", "t̪ˠ") == "bratt"
+
+
 def test_a_nasalized_stop_is_not_devoiced_by_the_doubling_rule():
     assert spell("mˠ", "bˠ", "oː") == "mbó"
     assert spell("ŋ", "ɡ", "a") == "nga"

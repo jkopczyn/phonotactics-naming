@@ -1900,20 +1900,20 @@ Irish: /ˈl̠ʲɛʃcuːlʲ/
 
 | construction | welsh | arabic-egy | georgian | dutch | old-irish |
 |---|---|---|---|---|---|
-| VOC | ylesgwl /ə.ˈlɛ.skʊl/ | alishkuul /ʔa.liʃ.ˈkuːl/ | aleshk'iul /ɑlɛʃkʼiul/ | eljeskjoel /ə.ljɛs.ˈkjul/ +1 | a leisccúil /a lʲeʃkuːlʲ/ !RETRO:late |
-| GEN | llesgwla /ɬɛ.ˈskʊ.la/ | lishkuula /liʃ.ˈkuː.la/ | leshk'iula /lɛʃkʼiulɑ/ | ljeskjoele /ljɛs.ˈkju.lə/ +1 | leisccúlo /lʲeʃkuːl̪ˠo/ !RETRO:late |
+| VOC | ylesgwl /ə.ˈlɛ.skʊl/ | alishkuul /ʔa.liʃ.ˈkuːl/ | aleshk'iul /ɑlɛʃkʼiul/ | eljeskjoel /ə.ljɛs.ˈkjul/ +1 | a leiscúil /a lʲeʃɡuːlʲ/ !RETRO:late |
+| GEN | llesgwla /ɬɛ.ˈskʊ.la/ | lishkuula /liʃ.ˈkuː.la/ | leshk'iula /lɛʃkʼiulɑ/ | ljeskjoele /ljɛs.ˈkju.lə/ +1 | leiscúlo /lʲeʃɡuːl̪ˠo/ !RETRO:late |
 | PATRO_O | olesgwla /ɔ.lɛ.ˈskʊ.la/ | ulishkuula /ʔu.liʃ.ˈkuː.la/ | oleshk'iula /ɔlɛʃkʼiulɑ/ | ooljeskjoele /oː.ljɛs.ˈkju.lə/ +1 | — |
 | PATRO_NI | nilesgwla /nɪ.lɛ.ˈskʊ.la/ | nilishkuula /ni.liʃ.ˈkuː.la/ | nileshk'iula /nilɛʃkʼiulɑ/ | njieljeskjoele /nji.ljɛs.ˈkju.lə/ +2 | — |
-| DESC | llesgwl /ˈɬɛ.skʊl/ | lishkuul /liʃ.ˈkuːl/ | leshk'iul /lɛʃkʼiul/ | ljeskjoel /ljɛs.ˈkjul/ +1 | leisccúil /lʲeʃkuːlʲ/ !RETRO:late |
-| DESC+ADJ | llesgwlaidd /ɬɛ.ˈskʊ.laið/ | lishkuuli /liʃ.ˈkuː.li/ | leshk'iuluri /lɛʃkʼiuluri/ | ljeskjoelachtech /ljɛs.kju.ˈlɑx.təx/ +1 | leisccúil /lʲeʃkuːlʲ/ !RETRO:late |
-| DESC+NOUN | llesgwl /ˈɬɛ.skʊl/ | lishkuula /liʃ.ˈkuː.la/ | leshk'iuli /lɛʃkʼiuli/ | ljeskjoel /ljɛs.ˈkjul/ +1 | leisccúil /lʲeʃkuːlʲ/ !RETRO:late |
-| MAEL | — | — | — | — | Máel leisccúlo /mˠail̪ˠ lʲeʃkuːl̪ˠo/ !RETRO:late |
-| GILLA | — | — | — | — | Gilla leisccúlo /ɟil̪ˠl̪ˠa lʲeʃkuːl̪ˠo/ !RETRO:late |
-| CU | — | — | — | — | Cú leisccúlo /kuː lʲeʃkuːl̪ˠo/ !RETRO:late |
-| FER | — | — | — | — | Fer leisccúlo /fʲeɾˠ lʲeʃkuːl̪ˠo/ !RETRO:late |
-| MAC | — | — | — | — | macc leisccúlo /mˠak lʲeʃkuːl̪ˠo/ !RETRO:late |
-| UA | — | — | — | — | aue leisccúlo /aue lʲeʃkuːl̪ˠo/ !RETRO:late |
-| INGEN | — | — | — | — | ingen leisccúlo /iɲɟən̪ˠ lʲeʃkuːl̪ˠo/ !RETRO:late |
+| DESC | llesgwl /ˈɬɛ.skʊl/ | lishkuul /liʃ.ˈkuːl/ | leshk'iul /lɛʃkʼiul/ | ljeskjoel /ljɛs.ˈkjul/ +1 | leiscúil /lʲeʃɡuːlʲ/ !RETRO:late |
+| DESC+ADJ | llesgwlaidd /ɬɛ.ˈskʊ.laið/ | lishkuuli /liʃ.ˈkuː.li/ | leshk'iuluri /lɛʃkʼiuluri/ | ljeskjoelachtech /ljɛs.kju.ˈlɑx.təx/ +1 | leiscúil /lʲeʃɡuːlʲ/ !RETRO:late |
+| DESC+NOUN | llesgwl /ˈɬɛ.skʊl/ | lishkuula /liʃ.ˈkuː.la/ | leshk'iuli /lɛʃkʼiuli/ | ljeskjoel /ljɛs.ˈkjul/ +1 | leiscúil /lʲeʃɡuːlʲ/ !RETRO:late |
+| MAEL | — | — | — | — | Máel leiscúlo /mˠail̪ˠ lʲeʃɡuːl̪ˠo/ !RETRO:late |
+| GILLA | — | — | — | — | Gilla leiscúlo /ɟil̪ˠl̪ˠa lʲeʃɡuːl̪ˠo/ !RETRO:late |
+| CU | — | — | — | — | Cú leiscúlo /kuː lʲeʃɡuːl̪ˠo/ !RETRO:late |
+| FER | — | — | — | — | Fer leiscúlo /fʲeɾˠ lʲeʃɡuːl̪ˠo/ !RETRO:late |
+| MAC | — | — | — | — | macc leiscúlo /mˠak lʲeʃɡuːl̪ˠo/ !RETRO:late |
+| UA | — | — | — | — | aue leiscúlo /aue lʲeʃɡuːl̪ˠo/ !RETRO:late |
+| INGEN | — | — | — | — | ingen leiscúlo /iɲɟən̪ˠ lʲeʃɡuːl̪ˠo/ !RETRO:late |
 
 ## bádóir — boatman
 
@@ -2047,20 +2047,20 @@ Irish: /sˠpˠl̪ˠaŋk/
 
 | construction | welsh | arabic-egy | georgian | dutch | old-irish |
 |---|---|---|---|---|---|
-| VOC | yffplangc /ˈəf.plaŋk/ +1 | ahbilank /ʔah.bi.ˈlank/ | ahp'lank' /ɑhpʼlɑnkʼ/ !UNATTESTED_CLUSTER:hpʼl | echplank /əx.ˈplɑŋk/ +1 | a ṡpplainc /a hpˠl̪ˠanʲɟ/ !RETRO |
-| GEN | ysblangc /ˈəs.plaŋk/ | isbilank /ʔis.bi.ˈlank/ | sp'lank' /spʼlɑnkʼ/ | splank /ˈsplɑŋk/ +1 | spplainc /sˠpˠl̪ˠanʲɟ/ !RETRO |
+| VOC | yffplangc /ˈəf.plaŋk/ +1 | ahbilank /ʔah.bi.ˈlank/ | ahp'lank' /ɑhpʼlɑnkʼ/ !UNATTESTED_CLUSTER:hpʼl | echplank /əx.ˈplɑŋk/ +1 | a ṡplainc /a hbˠl̪ˠanʲɟ/ !RETRO |
+| GEN | ysblangc /ˈəs.plaŋk/ | isbilank /ʔis.bi.ˈlank/ | sp'lank' /spʼlɑnkʼ/ | splank /ˈsplɑŋk/ +1 | splainc /sˠbˠl̪ˠanʲɟ/ !RETRO |
 | PATRO_O | osblangc /ˈɔs.plaŋk/ | usbilank /ʔus.bi.ˈlank/ | osp'lank' /ɔspʼlɑnkʼ/ | oosplank /oː.ˈsplɑŋk/ +1 | — |
 | PATRO_NI | niffplangc /ˈnɪf.plaŋk/ +1 | nihbilank /nih.bi.ˈlank/ | nihp'lank' /nihpʼlɑnkʼ/ !UNATTESTED_CLUSTER:hpʼl | njiechplank /njix.ˈplɑŋk/ +2 | — |
-| DESC | ysblangc /ˈəs.plaŋk/ | isbilank /ʔis.bi.ˈlank/ | sp'lank' /spʼlɑnkʼ/ | splank /ˈsplɑŋk/ +1 | spplanc /sˠpˠl̪ˠan̪ˠɡ/ !RETRO |
-| DESC+ADJ | ysblangcaidd /əs.ˈplaŋ.kaið/ | isbilanki /ʔis.bi.ˈlan.ki/ | sp'lank'uri /spʼlɑnkʼuri/ | splankachtech /splɑŋ.ˈkɑx.təx/ +1 | spplanc /sˠpˠl̪ˠan̪ˠɡ/ !RETRO |
-| DESC+NOUN | ysblangc /ˈəs.plaŋk/ | isbilanka /ʔis.bi.ˈlan.ka/ | sp'lank'i /spʼlɑnkʼi/ | splank /ˈsplɑŋk/ +1 | spplanc /sˠpˠl̪ˠan̪ˠɡ/ !RETRO |
-| MAEL | — | — | — | — | Máel spplainc /mˠail̪ˠ sˠpˠl̪ˠanʲɟ/ !RETRO |
-| GILLA | — | — | — | — | Gilla spplainc /ɟil̪ˠl̪ˠa sˠpˠl̪ˠanʲɟ/ !RETRO |
-| CU | — | — | — | — | Cú ṡpplainc /kuː hpˠl̪ˠanʲɟ/ !RETRO |
-| FER | — | — | — | — | Fer spplainc /fʲeɾˠ sˠpˠl̪ˠanʲɟ/ !RETRO |
-| MAC | — | — | — | — | macc spplainc /mˠak sˠpˠl̪ˠanʲɟ/ !RETRO |
-| UA | — | — | — | — | aue spplainc /aue sˠpˠl̪ˠanʲɟ/ !RETRO |
-| INGEN | — | — | — | — | ingen ṡpplainc /iɲɟən̪ˠ hpˠl̪ˠanʲɟ/ !RETRO |
+| DESC | ysblangc /ˈəs.plaŋk/ | isbilank /ʔis.bi.ˈlank/ | sp'lank' /spʼlɑnkʼ/ | splank /ˈsplɑŋk/ +1 | splanc /sˠbˠl̪ˠan̪ˠɡ/ !RETRO |
+| DESC+ADJ | ysblangcaidd /əs.ˈplaŋ.kaið/ | isbilanki /ʔis.bi.ˈlan.ki/ | sp'lank'uri /spʼlɑnkʼuri/ | splankachtech /splɑŋ.ˈkɑx.təx/ +1 | splanc /sˠbˠl̪ˠan̪ˠɡ/ !RETRO |
+| DESC+NOUN | ysblangc /ˈəs.plaŋk/ | isbilanka /ʔis.bi.ˈlan.ka/ | sp'lank'i /spʼlɑnkʼi/ | splank /ˈsplɑŋk/ +1 | splanc /sˠbˠl̪ˠan̪ˠɡ/ !RETRO |
+| MAEL | — | — | — | — | Máel splainc /mˠail̪ˠ sˠbˠl̪ˠanʲɟ/ !RETRO |
+| GILLA | — | — | — | — | Gilla splainc /ɟil̪ˠl̪ˠa sˠbˠl̪ˠanʲɟ/ !RETRO |
+| CU | — | — | — | — | Cú ṡplainc /kuː hbˠl̪ˠanʲɟ/ !RETRO |
+| FER | — | — | — | — | Fer splainc /fʲeɾˠ sˠbˠl̪ˠanʲɟ/ !RETRO |
+| MAC | — | — | — | — | macc splainc /mˠak sˠbˠl̪ˠanʲɟ/ !RETRO |
+| UA | — | — | — | — | aue splainc /aue sˠbˠl̪ˠanʲɟ/ !RETRO |
+| INGEN | — | — | — | — | ingen ṡplainc /iɲɟən̪ˠ hbˠl̪ˠanʲɟ/ !RETRO |
 
 ## spraoi — fun
 
@@ -2068,20 +2068,20 @@ Irish: /sˠpˠɾˠiː/
 
 | construction | welsh | arabic-egy | georgian | dutch | old-irish |
 |---|---|---|---|---|---|
-| VOC | yffpri /ˈəf.prɪ/ +1 | ahbirii /ʔah.bi.ˈriː/ | ahp'rvi /ɑhpʼrvi/ !UNATTESTED_CLUSTER:hpʼrv | echprie /əx.ˈpri/ +1 | a ṡpprí /a hpʲɾʲiː/ !RETRO:loan |
-| GEN | ysbri /ˈə.sprɪ/ | isbirii /ʔis.bi.ˈriː/ | sp'rvi /spʼrvi/ | sprie /ˈspri/ +1 | spprí /ʃpʲɾʲiː/ !RETRO:loan |
+| VOC | yffpri /ˈəf.prɪ/ +1 | ahbirii /ʔah.bi.ˈriː/ | ahp'rvi /ɑhpʼrvi/ !UNATTESTED_CLUSTER:hpʼrv | echprie /əx.ˈpri/ +1 | a ṡprí /a hbʲɾʲiː/ !RETRO:loan |
+| GEN | ysbri /ˈə.sprɪ/ | isbirii /ʔis.bi.ˈriː/ | sp'rvi /spʼrvi/ | sprie /ˈspri/ +1 | sprí /ʃbʲɾʲiː/ !RETRO:loan |
 | PATRO_O | osbri /ˈɔ.sprɪ/ | usbirii /ʔus.bi.ˈriː/ | osp'rvi /ɔspʼrvi/ | oosprie /ˈoː.spri/ +1 | — |
 | PATRO_NI | niffpri /ˈnɪf.prɪ/ +1 | nihbirii /nih.bi.ˈriː/ | nihp'rvi /nihpʼrvi/ !UNATTESTED_CLUSTER:hpʼrv | njiechprie /ˈnjix.pri/ +1 | — |
-| DESC | ysbri /ˈə.sprɪ/ | isbirii /ʔis.bi.ˈriː/ | sp'rvi /spʼrvi/ | sprie /ˈspri/ +1 | spprí /ʃpʲɾʲiː/ !RETRO:loan |
-| DESC+ADJ | ysbriaidd /ə.ˈspriː.aið/ | isbiriiʼi /ʔis.bi.ˈriː.ʔi/ | sp'rviuli /spʼrviuli/ | spriejachtech /spri.ˈjɑx.təx/ +1 | spprí /ʃpʲɾʲiː/ !RETRO:loan |
-| DESC+NOUN | ysbri /ˈə.sprɪ/ | isbirii /ʔis.bi.ˈriː/ | sp'rvi /spʼrvi/ | sprie /ˈspri/ +1 | spprí /ʃpʲɾʲiː/ !RETRO:loan |
-| MAEL | — | — | — | — | Máel spprí /mˠail̪ˠ ʃpʲɾʲiː/ !RETRO:loan |
-| GILLA | — | — | — | — | Gilla spprí /ɟil̪ˠl̪ˠa ʃpʲɾʲiː/ !RETRO:loan |
-| CU | — | — | — | — | Cú ṡpprí /kuː hpʲɾʲiː/ !RETRO:loan |
-| FER | — | — | — | — | Fer spprí /fʲeɾˠ ʃpʲɾʲiː/ !RETRO:loan |
-| MAC | — | — | — | — | macc spprí /mˠak ʃpʲɾʲiː/ !RETRO:loan |
-| UA | — | — | — | — | aue spprí /aue ʃpʲɾʲiː/ !RETRO:loan |
-| INGEN | — | — | — | — | ingen ṡpprí /iɲɟən̪ˠ hpʲɾʲiː/ !RETRO:loan |
+| DESC | ysbri /ˈə.sprɪ/ | isbirii /ʔis.bi.ˈriː/ | sp'rvi /spʼrvi/ | sprie /ˈspri/ +1 | sprí /ʃbʲɾʲiː/ !RETRO:loan |
+| DESC+ADJ | ysbriaidd /ə.ˈspriː.aið/ | isbiriiʼi /ʔis.bi.ˈriː.ʔi/ | sp'rviuli /spʼrviuli/ | spriejachtech /spri.ˈjɑx.təx/ +1 | sprí /ʃbʲɾʲiː/ !RETRO:loan |
+| DESC+NOUN | ysbri /ˈə.sprɪ/ | isbirii /ʔis.bi.ˈriː/ | sp'rvi /spʼrvi/ | sprie /ˈspri/ +1 | sprí /ʃbʲɾʲiː/ !RETRO:loan |
+| MAEL | — | — | — | — | Máel sprí /mˠail̪ˠ ʃbʲɾʲiː/ !RETRO:loan |
+| GILLA | — | — | — | — | Gilla sprí /ɟil̪ˠl̪ˠa ʃbʲɾʲiː/ !RETRO:loan |
+| CU | — | — | — | — | Cú ṡprí /kuː hbʲɾʲiː/ !RETRO:loan |
+| FER | — | — | — | — | Fer sprí /fʲeɾˠ ʃbʲɾʲiː/ !RETRO:loan |
+| MAC | — | — | — | — | macc sprí /mˠak ʃbʲɾʲiː/ !RETRO:loan |
+| UA | — | — | — | — | aue sprí /aue ʃbʲɾʲiː/ !RETRO:loan |
+| INGEN | — | — | — | — | ingen ṡprí /iɲɟən̪ˠ hbʲɾʲiː/ !RETRO:loan |
 
 ## speal — scythe
 
@@ -2089,20 +2089,20 @@ Irish: /sˠpʲal/
 
 | construction | welsh | arabic-egy | georgian | dutch | old-irish |
 |---|---|---|---|---|---|
-| VOC | yffpil /ˈəf.pɪl/ +1 | aahbil /ˈʔaːh.bil/ | ahp'yl /ɑhpʼil/ !UNATTESTED_CLUSTER:hpʼ | echpil /əx.ˈpɪl/ | a ṡppil /a hpʲilʲ/ !RETRO:loan |
-| GEN | ysbil /ˈə.spɪl/ | isbil /ˈʔis.bil/ | sp'il /spʼil/ | spil /ˈspɪl/ | sppil /ʃpʲilʲ/ !RETRO:loan |
+| VOC | yffpil /ˈəf.pɪl/ +1 | aahbil /ˈʔaːh.bil/ | ahp'yl /ɑhpʼil/ !UNATTESTED_CLUSTER:hpʼ | echpil /əx.ˈpɪl/ | a ṡpil /a hbʲilʲ/ !RETRO:loan |
+| GEN | ysbil /ˈə.spɪl/ | isbil /ˈʔis.bil/ | sp'il /spʼil/ | spil /ˈspɪl/ | spil /ʃbʲilʲ/ !RETRO:loan |
 | PATRO_O | osbil /ˈɔ.spɪl/ | uusbil /ˈʔuːs.bil/ | osp'yl /ɔspʼil/ | oospil /ˈoː.spɪl/ | — |
 | PATRO_NI | niffpil /ˈnɪf.pɪl/ +1 | niihbil /ˈniːh.bil/ | nihp'yl /nihpʼil/ !UNATTESTED_CLUSTER:hpʼ | njiechpil /ˈnjix.pɪl/ +1 | — |
-| DESC | ysbal /ˈə.spal/ | isbal /ˈʔis.bal/ | sp'ial /spʼiɑl/ | spal /ˈspɑl/ +1 | sppel /ʃpʲel̪ˠ/ !RETRO:loan |
-| DESC+ADJ | ysbalaidd /ə.ˈspa.laið/ | isbali /ʔis.ˈba.li/ | sp'ialuri /spʼiɑluri/ | spallachtech /spɑ.ˈlɑx.təx/ +1 | sppel /ʃpʲel̪ˠ/ !RETRO:loan |
-| DESC+NOUN | ysbal /ˈə.spal/ | isbala /ʔis.ˈba.la/ | sp'iali /spʼiɑli/ | spal /ˈspɑl/ +1 | sppel /ʃpʲel̪ˠ/ !RETRO:loan |
-| MAEL | — | — | — | — | Máel sppil /mˠail̪ˠ ʃpʲilʲ/ !RETRO:loan |
-| GILLA | — | — | — | — | Gilla sppil /ɟil̪ˠl̪ˠa ʃpʲilʲ/ !RETRO:loan |
-| CU | — | — | — | — | Cú ṡppil /kuː hpʲilʲ/ !RETRO:loan |
-| FER | — | — | — | — | Fer sppil /fʲeɾˠ ʃpʲilʲ/ !RETRO:loan |
-| MAC | — | — | — | — | macc sppil /mˠak ʃpʲilʲ/ !RETRO:loan |
-| UA | — | — | — | — | aue sppil /aue ʃpʲilʲ/ !RETRO:loan |
-| INGEN | — | — | — | — | ingen ṡppil /iɲɟən̪ˠ hpʲilʲ/ !RETRO:loan |
+| DESC | ysbal /ˈə.spal/ | isbal /ˈʔis.bal/ | sp'ial /spʼiɑl/ | spal /ˈspɑl/ +1 | spel /ʃbʲel̪ˠ/ !RETRO:loan |
+| DESC+ADJ | ysbalaidd /ə.ˈspa.laið/ | isbali /ʔis.ˈba.li/ | sp'ialuri /spʼiɑluri/ | spallachtech /spɑ.ˈlɑx.təx/ +1 | spel /ʃbʲel̪ˠ/ !RETRO:loan |
+| DESC+NOUN | ysbal /ˈə.spal/ | isbala /ʔis.ˈba.la/ | sp'iali /spʼiɑli/ | spal /ˈspɑl/ +1 | spel /ʃbʲel̪ˠ/ !RETRO:loan |
+| MAEL | — | — | — | — | Máel spil /mˠail̪ˠ ʃbʲilʲ/ !RETRO:loan |
+| GILLA | — | — | — | — | Gilla spil /ɟil̪ˠl̪ˠa ʃbʲilʲ/ !RETRO:loan |
+| CU | — | — | — | — | Cú ṡpil /kuː hbʲilʲ/ !RETRO:loan |
+| FER | — | — | — | — | Fer spil /fʲeɾˠ ʃbʲilʲ/ !RETRO:loan |
+| MAC | — | — | — | — | macc spil /mˠak ʃbʲilʲ/ !RETRO:loan |
+| UA | — | — | — | — | aue spil /aue ʃbʲilʲ/ !RETRO:loan |
+| INGEN | — | — | — | — | ingen ṡpil /iɲɟən̪ˠ hbʲilʲ/ !RETRO:loan |
 
 ## sméara — berries
 
@@ -2152,20 +2152,20 @@ Irish: /ʃtʲɾʲiːk/
 
 | construction | welsh | arabic-egy | georgian | dutch | old-irish |
 |---|---|---|---|---|---|
-| VOC | yfftric /ˈəf.trɪk/ +1 | ahtiriik /ʔah.ti.ˈriːk/ | ahtchryk /ɑhtʃʼrikʰ/ !UNATTESTED_CLUSTER:htʃʼr | echtriek /əx.ˈtrik/ +1 | a ṡttrícc /a htʲɾʲiːk/ !RETRO |
-| GEN | ystric /ˈə.strɪk/ | ishtiriik /ʔiʃ.ti.ˈriːk/ | shtchrik /ʃtʃʼrikʰ/ !UNATTESTED_CLUSTER:ʃtʃʼr | striek /ˈstrik/ +1 | sttrícc /ʃtʲɾʲiːk/ !RETRO |
+| VOC | yfftric /ˈəf.trɪk/ +1 | ahtiriik /ʔah.ti.ˈriːk/ | ahtchryk /ɑhtʃʼrikʰ/ !UNATTESTED_CLUSTER:htʃʼr | echtriek /əx.ˈtrik/ +1 | a ṡtrícc /a hdʲɾʲiːk/ !RETRO |
+| GEN | ystric /ˈə.strɪk/ | ishtiriik /ʔiʃ.ti.ˈriːk/ | shtchrik /ʃtʃʼrikʰ/ !UNATTESTED_CLUSTER:ʃtʃʼr | striek /ˈstrik/ +1 | strícc /ʃdʲɾʲiːk/ !RETRO |
 | PATRO_O | ostric /ˈɔ.strɪk/ | ushtiriik /ʔuʃ.ti.ˈriːk/ | oshtchryk /ɔʃtʃʼrikʰ/ !UNATTESTED_CLUSTER:ʃtʃʼr | oostriek /oː.ˈstrik/ +1 | — |
 | PATRO_NI | nifftric /ˈnɪf.trɪk/ +1 | nihtiriik /nih.ti.ˈriːk/ | nihtchryk /nihtʃʼrikʰ/ !UNATTESTED_CLUSTER:htʃʼr | njiechtriek /njix.ˈtrik/ +1 | — |
-| DESC | ystric /ˈə.strɪk/ | ishtiriik /ʔiʃ.ti.ˈriːk/ | shtchrik /ʃtʃʼrikʰ/ !UNATTESTED_CLUSTER:ʃtʃʼr | striek /ˈstrik/ +1 | sttrícc /ʃtʲɾʲiːk/ !RETRO |
-| DESC+ADJ | ystricaidd /ə.ˈstrɪ.kaið/ | ishtiriiki /ʔiʃ.ti.ˈriː.ki/ | shtchrikuli /ʃtʃʼrikʰuli/ !UNATTESTED_CLUSTER:ʃtʃʼr | striekachtech /stri.ˈkɑx.təx/ +1 | sttrícc /ʃtʲɾʲiːk/ !RETRO |
-| DESC+NOUN | ystric /ˈə.strɪk/ | ishtiriika /ʔiʃ.ti.ˈriː.ka/ | shtchriki /ʃtʃʼrikʰi/ !UNATTESTED_CLUSTER:ʃtʃʼr | striek /ˈstrik/ +1 | sttrícc /ʃtʲɾʲiːk/ !RETRO |
-| MAEL | — | — | — | — | Máel sttrícc /mˠail̪ˠ ʃtʲɾʲiːk/ !RETRO |
-| GILLA | — | — | — | — | Gilla sttrícc /ɟil̪ˠl̪ˠa ʃtʲɾʲiːk/ !RETRO |
-| CU | — | — | — | — | Cú ṡttrícc /kuː htʲɾʲiːk/ !RETRO |
-| FER | — | — | — | — | Fer sttrícc /fʲeɾˠ ʃtʲɾʲiːk/ !RETRO |
-| MAC | — | — | — | — | macc sttrícc /mˠak ʃtʲɾʲiːk/ !RETRO |
-| UA | — | — | — | — | aue sttrícc /aue ʃtʲɾʲiːk/ !RETRO |
-| INGEN | — | — | — | — | ingen ṡttrícc /iɲɟən̪ˠ htʲɾʲiːk/ !RETRO |
+| DESC | ystric /ˈə.strɪk/ | ishtiriik /ʔiʃ.ti.ˈriːk/ | shtchrik /ʃtʃʼrikʰ/ !UNATTESTED_CLUSTER:ʃtʃʼr | striek /ˈstrik/ +1 | strícc /ʃdʲɾʲiːk/ !RETRO |
+| DESC+ADJ | ystricaidd /ə.ˈstrɪ.kaið/ | ishtiriiki /ʔiʃ.ti.ˈriː.ki/ | shtchrikuli /ʃtʃʼrikʰuli/ !UNATTESTED_CLUSTER:ʃtʃʼr | striekachtech /stri.ˈkɑx.təx/ +1 | strícc /ʃdʲɾʲiːk/ !RETRO |
+| DESC+NOUN | ystric /ˈə.strɪk/ | ishtiriika /ʔiʃ.ti.ˈriː.ka/ | shtchriki /ʃtʃʼrikʰi/ !UNATTESTED_CLUSTER:ʃtʃʼr | striek /ˈstrik/ +1 | strícc /ʃdʲɾʲiːk/ !RETRO |
+| MAEL | — | — | — | — | Máel strícc /mˠail̪ˠ ʃdʲɾʲiːk/ !RETRO |
+| GILLA | — | — | — | — | Gilla strícc /ɟil̪ˠl̪ˠa ʃdʲɾʲiːk/ !RETRO |
+| CU | — | — | — | — | Cú ṡtrícc /kuː hdʲɾʲiːk/ !RETRO |
+| FER | — | — | — | — | Fer strícc /fʲeɾˠ ʃdʲɾʲiːk/ !RETRO |
+| MAC | — | — | — | — | macc strícc /mˠak ʃdʲɾʲiːk/ !RETRO |
+| UA | — | — | — | — | aue strícc /aue ʃdʲɾʲiːk/ !RETRO |
+| INGEN | — | — | — | — | ingen ṡtrícc /iɲɟən̪ˠ hdʲɾʲiːk/ !RETRO |
 
 ## beirt — two people
 
@@ -2614,20 +2614,20 @@ Irish: /n̪ˠə heːʃc/
 
 | construction | welsh | arabic-egy | georgian | dutch | old-irish |
 |---|---|---|---|---|---|
-| VOC | yna hesg /ˈə.na ˈhɛsk/ | aana hishk /ˈʔaː.na ˈhiʃk/ | ana heshk' /ɑnɑ hɛʃkʼ/ | ene hesk /ˈə.nə ˈhɛsk/ | a ne héscc /a nʲe heːsˠk/ !RETRO |
-| GEN | nyhesga /nə.ˈhɛ.ska/ | nahishka /na.ˈhiʃ.ka/ | naheshk'ia /nɑhɛʃkʼiɑ/ | neheeskje /nə.ˈheːs.kjə/ | ne héiscce /nʲe heːʃce/ !RETRO |
+| VOC | yna hesg /ˈə.na ˈhɛsk/ | aana hishk /ˈʔaː.na ˈhiʃk/ | ana heshk' /ɑnɑ hɛʃkʼ/ | ene hesk /ˈə.nə ˈhɛsk/ | a ne hésc /a nʲe heːsˠɡ/ !RETRO |
+| GEN | nyhesga /nə.ˈhɛ.ska/ | nahishka /na.ˈhiʃ.ka/ | naheshk'ia /nɑhɛʃkʼiɑ/ | neheeskje /nə.ˈheːs.kjə/ | ne héisce /nʲe heːʃɟe/ !RETRO |
 | PATRO_O | onyhesga /ɔ.nə.ˈhɛ.ska/ | unahishka /ʔu.na.ˈhiʃ.ka/ | onaheshk'ia /ɔnɑhɛʃkʼiɑ/ | ooneheeskje /oː.nə.ˈheːs.kjə/ | — |
 | PATRO_NI | ninyhesga /nɪ.nə.ˈhɛ.ska/ | ninahishka /ni.na.ˈhiʃ.ka/ | ninaheshk'ia /ninɑhɛʃkʼiɑ/ | njieneheeskje /nji.nə.ˈheːs.kjə/ +1 | — |
-| DESC | na hesg /ˈnaː ˈhɛsk/ | na hishk /ˈna ˈhiʃk/ | na heshk' /nɑ hɛʃkʼ/ | ne hesk /ˈnə ˈhɛsk/ | ne héscc /nʲe heːsˠk/ !RETRO |
-| DESC+ADJ | na hesgaidd /ˈnaː ˈhɛ.skaið/ | na hishki /ˈna ˈhiʃ.ki/ | na heshk'uri /nɑ hɛʃkʼuri/ | ne heskachtech /ˈnə hɛ.ˈskɑx.təx/ | ne héscc /nʲe heːsˠk/ !RETRO |
-| DESC+NOUN | na hesg /ˈnaː ˈhɛsk/ | na hishka /ˈna ˈhiʃ.ka/ | na heshk'i /nɑ hɛʃkʼi/ | ne hesk /ˈnə ˈhɛsk/ | ne héscc /nʲe heːsˠk/ !RETRO |
-| MAEL | — | — | — | — | Máel ne héiscce /mˠail̪ˠ nʲe heːʃce/ !RETRO |
-| GILLA | — | — | — | — | Gilla ne héiscce /ɟil̪ˠl̪ˠa nʲe heːʃce/ !RETRO |
-| CU | — | — | — | — | Cú ne héiscce /kuː nʲe heːʃce/ !RETRO |
-| FER | — | — | — | — | Fer ne héiscce /fʲeɾˠ nʲe heːʃce/ !RETRO |
-| MAC | — | — | — | — | macc ne héiscce /mˠak nʲe heːʃce/ !RETRO |
-| UA | — | — | — | — | aue ne héiscce /aue nʲe heːʃce/ !RETRO |
-| INGEN | — | — | — | — | ingen ne héiscce /iɲɟən̪ˠ nʲe heːʃce/ !RETRO |
+| DESC | na hesg /ˈnaː ˈhɛsk/ | na hishk /ˈna ˈhiʃk/ | na heshk' /nɑ hɛʃkʼ/ | ne hesk /ˈnə ˈhɛsk/ | ne hésc /nʲe heːsˠɡ/ !RETRO |
+| DESC+ADJ | na hesgaidd /ˈnaː ˈhɛ.skaið/ | na hishki /ˈna ˈhiʃ.ki/ | na heshk'uri /nɑ hɛʃkʼuri/ | ne heskachtech /ˈnə hɛ.ˈskɑx.təx/ | ne hésc /nʲe heːsˠɡ/ !RETRO |
+| DESC+NOUN | na hesg /ˈnaː ˈhɛsk/ | na hishka /ˈna ˈhiʃ.ka/ | na heshk'i /nɑ hɛʃkʼi/ | ne hesk /ˈnə ˈhɛsk/ | ne hésc /nʲe heːsˠɡ/ !RETRO |
+| MAEL | — | — | — | — | Máel ne héisce /mˠail̪ˠ nʲe heːʃɟe/ !RETRO |
+| GILLA | — | — | — | — | Gilla ne héisce /ɟil̪ˠl̪ˠa nʲe heːʃɟe/ !RETRO |
+| CU | — | — | — | — | Cú ne héisce /kuː nʲe heːʃɟe/ !RETRO |
+| FER | — | — | — | — | Fer ne héisce /fʲeɾˠ nʲe heːʃɟe/ !RETRO |
+| MAC | — | — | — | — | macc ne héisce /mˠak nʲe heːʃɟe/ !RETRO |
+| UA | — | — | — | — | aue ne héisce /aue nʲe heːʃɟe/ !RETRO |
+| INGEN | — | — | — | — | ingen ne héisce /iɲɟən̪ˠ nʲe heːʃɟe/ !RETRO |
 
 ## an tsneachta — the snow (gen.)
 
@@ -2635,20 +2635,20 @@ Irish: /ə tʲɾʲaxt̪ˠə/
 
 | construction | welsh | arabic-egy | georgian | dutch | old-irish |
 |---|---|---|---|---|---|
-| VOC | ya trachta /ˈə.a ˈtraχ.ta/ | aaʼa tirakhṭa /ˈʔaː.ʔa ti.ˈrax.tˤa/ | aa chriaxt'a /ɑɑ tʃʰriɑxtʼɑ/ | ee trachte /ˈə.ə ˈtrɑx.tə/ +1 | a a trechtta /a a tʲɾʲext̪ˠa/ !RETRO |
-| GEN | ytrachta /ə.ˈtraχ.ta/ | atrakhṭa /ʔat.ˈrax.tˤa/ | achriaxt'a /ɑtʃʰriɑxtʼɑ/ | etrjachte /ət.ˈrjɑx.tə/ +1 | a trechtta /a tʲɾʲext̪ˠa/ !RETRO |
+| VOC | ya trachta /ˈə.a ˈtraχ.ta/ | aaʼa tirakhṭa /ˈʔaː.ʔa ti.ˈrax.tˤa/ | aa chriaxt'a /ɑɑ tʃʰriɑxtʼɑ/ | ee trachte /ˈə.ə ˈtrɑx.tə/ +1 | a a trechta /a a tʲɾʲexd̪ˠa/ !RETRO |
+| GEN | ytrachta /ə.ˈtraχ.ta/ | atrakhṭa /ʔat.ˈrax.tˤa/ | achriaxt'a /ɑtʃʰriɑxtʼɑ/ | etrjachte /ət.ˈrjɑx.tə/ +1 | a trechta /a tʲɾʲexd̪ˠa/ !RETRO |
 | PATRO_O | oytrachta /ɔ.ə.ˈtraχ.ta/ | uʼatrakhṭa /ʔu.ʔat.ˈrax.tˤa/ | oachriaxt'a /ɔɑtʃʰriɑxtʼɑ/ | oowetrjachte /oː.ʋət.ˈrjɑx.tə/ +1 | — |
 | PATRO_NI | niytrachta /nɪ.ə.ˈtraχ.ta/ | niʼatrakhṭa /ni.ʔat.ˈrax.tˤa/ | niachriaxt'a /niɑtʃʰriɑxtʼɑ/ | njietrjachte /njit.ˈrjɑx.tə/ +2 | — |
-| DESC | a trachta /ˈaː ˈtraχ.ta/ | a tirakhṭa /ˈʔa ti.ˈrax.tˤa/ | a chriaxt'a /ɑ tʃʰriɑxtʼɑ/ | e trachte /ˈə ˈtrɑx.tə/ +1 | a trechtta /a tʲɾʲext̪ˠa/ !RETRO |
-| DESC+ADJ | a trachtaaidd /ˈaː traχ.ˈtaː.aið/ | a tirakhṭi /ˈʔa ti.ˈrax.tˤi/ | a chriaxt'auli /ɑ tʃʰriɑxtʼɑuli/ | e trachteachtech /ˈə trɑx.tə.ˈɑx.təx/ +1 | a trechtta /a tʲɾʲext̪ˠa/ !RETRO |
-| DESC+NOUN | a trachta /ˈaː ˈtraχ.ta/ | a tirakhṭa /ˈʔa ti.ˈrax.tˤa/ | a chriaxt'a /ɑ tʃʰriɑxtʼɑ/ | e trachte /ˈə ˈtrɑx.tə/ +1 | a trechtta /a tʲɾʲext̪ˠa/ !RETRO |
-| MAEL | — | — | — | — | Máel a trechtta /mˠail̪ˠ a tʲɾʲext̪ˠa/ !RETRO |
-| GILLA | — | — | — | — | Gilla a trechtta /ɟil̪ˠl̪ˠa a tʲɾʲext̪ˠa/ !RETRO |
-| CU | — | — | — | — | Cú a trechtta /kuː a tʲɾʲext̪ˠa/ !RETRO |
-| FER | — | — | — | — | Fer a trechtta /fʲeɾˠ a tʲɾʲext̪ˠa/ !RETRO |
-| MAC | — | — | — | — | macc a trechtta /mˠak a tʲɾʲext̪ˠa/ !RETRO |
-| UA | — | — | — | — | aue a trechtta /aue a tʲɾʲext̪ˠa/ !RETRO |
-| INGEN | — | — | — | — | ingen a trechtta /iɲɟən̪ˠ a tʲɾʲext̪ˠa/ !RETRO |
+| DESC | a trachta /ˈaː ˈtraχ.ta/ | a tirakhṭa /ˈʔa ti.ˈrax.tˤa/ | a chriaxt'a /ɑ tʃʰriɑxtʼɑ/ | e trachte /ˈə ˈtrɑx.tə/ +1 | a trechta /a tʲɾʲexd̪ˠa/ !RETRO |
+| DESC+ADJ | a trachtaaidd /ˈaː traχ.ˈtaː.aið/ | a tirakhṭi /ˈʔa ti.ˈrax.tˤi/ | a chriaxt'auli /ɑ tʃʰriɑxtʼɑuli/ | e trachteachtech /ˈə trɑx.tə.ˈɑx.təx/ +1 | a trechta /a tʲɾʲexd̪ˠa/ !RETRO |
+| DESC+NOUN | a trachta /ˈaː ˈtraχ.ta/ | a tirakhṭa /ˈʔa ti.ˈrax.tˤa/ | a chriaxt'a /ɑ tʃʰriɑxtʼɑ/ | e trachte /ˈə ˈtrɑx.tə/ +1 | a trechta /a tʲɾʲexd̪ˠa/ !RETRO |
+| MAEL | — | — | — | — | Máel a trechta /mˠail̪ˠ a tʲɾʲexd̪ˠa/ !RETRO |
+| GILLA | — | — | — | — | Gilla a trechta /ɟil̪ˠl̪ˠa a tʲɾʲexd̪ˠa/ !RETRO |
+| CU | — | — | — | — | Cú a trechta /kuː a tʲɾʲexd̪ˠa/ !RETRO |
+| FER | — | — | — | — | Fer a trechta /fʲeɾˠ a tʲɾʲexd̪ˠa/ !RETRO |
+| MAC | — | — | — | — | macc a trechta /mˠak a tʲɾʲexd̪ˠa/ !RETRO |
+| UA | — | — | — | — | aue a trechta /aue a tʲɾʲexd̪ˠa/ !RETRO |
+| INGEN | — | — | — | — | ingen a trechta /iɲɟən̪ˠ a tʲɾʲexd̪ˠa/ !RETRO |
 
 ## droch-dhuine — bad person
 
@@ -2803,20 +2803,20 @@ Irish: /ˈaːɾˠd̪ˠˈæsˠpˠəɡ/
 
 | construction | welsh | arabic-egy | georgian | dutch | old-irish |
 |---|---|---|---|---|---|
-| VOC | yardesbag /ə.ar.ˈdɛ.spaɡ/ | aʼardasbag /ʔa.ʔar.ˈdæs.baɡ/ | aardvesp'ag /ɑɑrdvɛspʼɑɡ/ +1 | eaardespech /ə.aːr.ˈdɛ.spəx/ | a Árdesppaic /a aːɾʲdʲəsˠpˠəɟ/ !RETRO |
-| GEN | ardesbag /ar.ˈdɛ.spaɡ/ | ardasbag /ʔar.ˈdæs.baɡ/ | ardvesp'ag /ɑrdvɛspʼɑɡ/ +1 | aardespech /aːr.ˈdɛ.spəx/ | Árdesppaic /aːɾʲdʲəsˠpˠəɟ/ !RETRO |
+| VOC | yardesbag /ə.ar.ˈdɛ.spaɡ/ | aʼardasbag /ʔa.ʔar.ˈdæs.baɡ/ | aardvesp'ag /ɑɑrdvɛspʼɑɡ/ +1 | eaardespech /ə.aːr.ˈdɛ.spəx/ | a Árdespaic /a aːɾʲdʲəsˠbˠəɟ/ !RETRO |
+| GEN | ardesbag /ar.ˈdɛ.spaɡ/ | ardasbag /ʔar.ˈdæs.baɡ/ | ardvesp'ag /ɑrdvɛspʼɑɡ/ +1 | aardespech /aːr.ˈdɛ.spəx/ | Árdespaic /aːɾʲdʲəsˠbˠəɟ/ !RETRO |
 | PATRO_O | oardesbag /ɔ.ar.ˈdɛ.spaɡ/ | uʼardasbag /ʔu.ʔar.ˈdæs.baɡ/ | oardvesp'ag /ɔɑrdvɛspʼɑɡ/ +1 | oowaardespech /oː.ʋaːr.ˈdɛ.spəx/ | — |
 | PATRO_NI | niardesbag /nɪ.ar.ˈdɛ.spaɡ/ | niʼardasbag /ni.ʔar.ˈdæs.baɡ/ | niardvesp'ag /niɑrdvɛspʼɑɡ/ +1 | njiejaardespech /nji.jaːr.ˈdɛ.spəx/ +1 | — |
-| DESC | ardesbag /ar.ˈdɛ.spaɡ/ | ardasbag /ʔar.ˈdæs.baɡ/ | ardvesp'ag /ɑrdvɛspʼɑɡ/ +1 | aardespech /aːr.ˈdɛ.spəx/ | Árdesppac /aːɾʲdʲəsˠpˠəɡ/ !RETRO |
-| DESC+ADJ | ardesbagaidd /ar.dɛ.ˈspaː.ɡaið/ | ardasbagi /ʔar.dæs.ˈba.ɡi/ | ardvesp'aguli /ɑrdvɛspʼɑɡuli/ +1 | aardespechachtech /aːr.dɛ.spə.ˈxɑx.təx/ | Árdesppac /aːɾʲdʲəsˠpˠəɡ/ !RETRO |
-| DESC+NOUN | ardesbag /ar.ˈdɛ.spaɡ/ | ardasbaga /ʔar.dæs.ˈba.ɡa/ | ardvesp'agi /ɑrdvɛspʼɑɡi/ +1 | aardespech /aːr.ˈdɛ.spəx/ | Árdesppac /aːɾʲdʲəsˠpˠəɡ/ !RETRO |
-| MAEL | — | — | — | — | Máel Árdesppaic /mˠail̪ˠ aːɾʲdʲəsˠpˠəɟ/ !RETRO |
-| GILLA | — | — | — | — | Gilla Árdesppaic /ɟil̪ˠl̪ˠa aːɾʲdʲəsˠpˠəɟ/ !RETRO |
-| CU | — | — | — | — | Cú Árdesppaic /kuː aːɾʲdʲəsˠpˠəɟ/ !RETRO |
-| FER | — | — | — | — | Fer Árdesppaic /fʲeɾˠ aːɾʲdʲəsˠpˠəɟ/ !RETRO |
-| MAC | — | — | — | — | macc Árdesppaic /mˠak aːɾʲdʲəsˠpˠəɟ/ !RETRO |
-| UA | — | — | — | — | aue Árdesppaic /aue aːɾʲdʲəsˠpˠəɟ/ !RETRO |
-| INGEN | — | — | — | — | ingen Árdesppaic /iɲɟən̪ˠ aːɾʲdʲəsˠpˠəɟ/ !RETRO |
+| DESC | ardesbag /ar.ˈdɛ.spaɡ/ | ardasbag /ʔar.ˈdæs.baɡ/ | ardvesp'ag /ɑrdvɛspʼɑɡ/ +1 | aardespech /aːr.ˈdɛ.spəx/ | Árdespac /aːɾʲdʲəsˠbˠəɡ/ !RETRO |
+| DESC+ADJ | ardesbagaidd /ar.dɛ.ˈspaː.ɡaið/ | ardasbagi /ʔar.dæs.ˈba.ɡi/ | ardvesp'aguli /ɑrdvɛspʼɑɡuli/ +1 | aardespechachtech /aːr.dɛ.spə.ˈxɑx.təx/ | Árdespac /aːɾʲdʲəsˠbˠəɡ/ !RETRO |
+| DESC+NOUN | ardesbag /ar.ˈdɛ.spaɡ/ | ardasbaga /ʔar.dæs.ˈba.ɡa/ | ardvesp'agi /ɑrdvɛspʼɑɡi/ +1 | aardespech /aːr.ˈdɛ.spəx/ | Árdespac /aːɾʲdʲəsˠbˠəɡ/ !RETRO |
+| MAEL | — | — | — | — | Máel Árdespaic /mˠail̪ˠ aːɾʲdʲəsˠbˠəɟ/ !RETRO |
+| GILLA | — | — | — | — | Gilla Árdespaic /ɟil̪ˠl̪ˠa aːɾʲdʲəsˠbˠəɟ/ !RETRO |
+| CU | — | — | — | — | Cú Árdespaic /kuː aːɾʲdʲəsˠbˠəɟ/ !RETRO |
+| FER | — | — | — | — | Fer Árdespaic /fʲeɾˠ aːɾʲdʲəsˠbˠəɟ/ !RETRO |
+| MAC | — | — | — | — | macc Árdespaic /mˠak aːɾʲdʲəsˠbˠəɟ/ !RETRO |
+| UA | — | — | — | — | aue Árdespaic /aue aːɾʲdʲəsˠbˠəɟ/ !RETRO |
+| INGEN | — | — | — | — | ingen Árdespaic /iɲɟən̪ˠ aːɾʲdʲəsˠbˠəɟ/ !RETRO |
 
 ## ardnósach — haughty
 
@@ -2866,20 +2866,20 @@ Irish: /ˈfʲiːɾˠˌɪʃcə/
 
 | construction | welsh | arabic-egy | georgian | dutch | old-irish |
 |---|---|---|---|---|---|
-| VOC | yirisga /ə.ɪ.ˈrɪ.ska/ | aʼirishka /ʔa.ʔi.ˈriʃ.ka/ | airvyshk'ia /ɑirviʃkʼiɑ/ | eiriskje /ɛi.ˈrɪs.kjə/ +1 | a ḟíruiscca /a iːɾˠuʃka/ !RETRO |
-| GEN | ffirisga /fɪ.ˈrɪ.ska/ | firishka /fi.ˈriʃ.ka/ | pirvyshk'ia /pʰirviʃkʼiɑ/ | fjieriskje /fji.ˈrɪs.kjə/ +1 | fíruiscca /fʲiːɾˠuʃka/ !RETRO |
+| VOC | yirisga /ə.ɪ.ˈrɪ.ska/ | aʼirishka /ʔa.ʔi.ˈriʃ.ka/ | airvyshk'ia /ɑirviʃkʼiɑ/ | eiriskje /ɛi.ˈrɪs.kjə/ +1 | a ḟíruisca /a iːɾˠuʃɡa/ !RETRO |
+| GEN | ffirisga /fɪ.ˈrɪ.ska/ | firishka /fi.ˈriʃ.ka/ | pirvyshk'ia /pʰirviʃkʼiɑ/ | fjieriskje /fji.ˈrɪs.kjə/ +1 | fíruisca /fʲiːɾˠuʃɡa/ !RETRO |
 | PATRO_O | offirisga /ɔ.fɪ.ˈrɪ.ska/ | ufirishka /ʔu.fi.ˈriʃ.ka/ | opirvyshk'ia /ɔpʰirviʃkʼiɑ/ | oofjieriskje /oː.fji.ˈrɪs.kjə/ +1 | — |
 | PATRO_NI | niirisga /nɪ.ɪ.ˈrɪ.ska/ | niʼirishka /ni.ʔi.ˈriʃ.ka/ | nirvyshk'ia /nirviʃkʼiɑ/ | njiejieriskje /nji.ji.ˈrɪs.kjə/ +1 | — |
-| DESC | ffirisga /fɪ.ˈrɪ.ska/ | firishka /fi.ˈriʃ.ka/ | pirvyshk'ia /pʰirviʃkʼiɑ/ | fjieriskje /fji.ˈrɪs.kjə/ +1 | fíruiscca /fʲiːɾˠuʃka/ !RETRO |
-| DESC+ADJ | ffirisgaaidd /fɪ.rɪ.ˈskaː.aið/ | firishki /fi.ˈriʃ.ki/ | pirvyshk'iauli /pʰirviʃkʼiɑuli/ | fjieriskjeachtech /fji.rɪs.kjə.ˈɑx.təx/ +1 | fíruiscca /fʲiːɾˠuʃka/ !RETRO |
-| DESC+NOUN | ffirisga /fɪ.ˈrɪ.ska/ | firishka /fi.ˈriʃ.ka/ | pirvyshk'ia /pʰirviʃkʼiɑ/ | fjieriskje /fji.ˈrɪs.kjə/ +1 | fíruiscca /fʲiːɾˠuʃka/ !RETRO |
-| MAEL | — | — | — | — | Máel fíruiscca /mˠail̪ˠ fʲiːɾˠuʃka/ !RETRO |
-| GILLA | — | — | — | — | Gilla fíruiscca /ɟil̪ˠl̪ˠa fʲiːɾˠuʃka/ !RETRO |
-| CU | — | — | — | — | Cú ḟíruiscca /kuː iːɾˠuʃka/ !RETRO |
-| FER | — | — | — | — | Fer fíruiscca /fʲeɾˠ fʲiːɾˠuʃka/ !RETRO |
-| MAC | — | — | — | — | macc fíruiscca /mˠak fʲiːɾˠuʃka/ !RETRO |
-| UA | — | — | — | — | aue fíruiscca /aue fʲiːɾˠuʃka/ !RETRO |
-| INGEN | — | — | — | — | ingen ḟíruiscca /iɲɟən̪ˠ iːɾˠuʃka/ !RETRO |
+| DESC | ffirisga /fɪ.ˈrɪ.ska/ | firishka /fi.ˈriʃ.ka/ | pirvyshk'ia /pʰirviʃkʼiɑ/ | fjieriskje /fji.ˈrɪs.kjə/ +1 | fíruisca /fʲiːɾˠuʃɡa/ !RETRO |
+| DESC+ADJ | ffirisgaaidd /fɪ.rɪ.ˈskaː.aið/ | firishki /fi.ˈriʃ.ki/ | pirvyshk'iauli /pʰirviʃkʼiɑuli/ | fjieriskjeachtech /fji.rɪs.kjə.ˈɑx.təx/ +1 | fíruisca /fʲiːɾˠuʃɡa/ !RETRO |
+| DESC+NOUN | ffirisga /fɪ.ˈrɪ.ska/ | firishka /fi.ˈriʃ.ka/ | pirvyshk'ia /pʰirviʃkʼiɑ/ | fjieriskje /fji.ˈrɪs.kjə/ +1 | fíruisca /fʲiːɾˠuʃɡa/ !RETRO |
+| MAEL | — | — | — | — | Máel fíruisca /mˠail̪ˠ fʲiːɾˠuʃɡa/ !RETRO |
+| GILLA | — | — | — | — | Gilla fíruisca /ɟil̪ˠl̪ˠa fʲiːɾˠuʃɡa/ !RETRO |
+| CU | — | — | — | — | Cú ḟíruisca /kuː iːɾˠuʃɡa/ !RETRO |
+| FER | — | — | — | — | Fer fíruisca /fʲeɾˠ fʲiːɾˠuʃɡa/ !RETRO |
+| MAC | — | — | — | — | macc fíruisca /mˠak fʲiːɾˠuʃɡa/ !RETRO |
+| UA | — | — | — | — | aue fíruisca /aue fʲiːɾˠuʃɡa/ !RETRO |
+| INGEN | — | — | — | — | ingen ḟíruisca /iɲɟən̪ˠ iːɾˠuʃɡa/ !RETRO |
 
 ## borb — abrupt, fierce
 

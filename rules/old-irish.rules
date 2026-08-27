@@ -302,17 +302,23 @@ uː -> "ú"                               %design   # digest §10.1 long vowels
 #     stop is written with the voiceless letter. This restores *mac -> macc* with no lexical
 #     list. Initial = `# _`; (1) has already claimed the post-sonorant cases.
 k -> "c" / # _                          %attested # digest §10.2 master table; [old-irish-lexicon] cloch ~ cloch, cath ~ cath
-k -> "cc"                               %attested # digest §10.2 conv. 2-3 (*macc* /mak/); [old-irish-lexicon] mac ~ macc
+k -> "cc" / V _                         %attested # digest §10.2 conv. 2-3 (*macc* /mak/); [old-irish-lexicon] mac ~ macc — post-vocalic only (§Stops following vowels)
+k -> "c"                                %design   # digest §10.2 conv. 2 is stated for stops FOLLOWING VOWELS; after ⟨s⟩ (and any other consonant not covered by (1)) a voiceless stop is unambiguous and stays single — *splanc*, *scél*
 c -> "c" / # _                          %attested # digest §10.2 master table; [old-irish-lexicon] ceann ~ cenn
-c -> "cc"                               %attested # digest §10.2 conv. 2-3; [old-irish-lexicon] mac ~ macc (gen. maicc)
+c -> "cc" / V _                         %attested # digest §10.2 conv. 2-3; [old-irish-lexicon] mac ~ macc (gen. maicc) — post-vocalic only (§Stops following vowels)
+c -> "c"                                %design   # digest §10.2 conv. 2 is stated for stops FOLLOWING VOWELS; after ⟨s⟩ (and any other consonant not covered by (1)) a voiceless stop is unambiguous and stays single — *splanc*, *scél*
 t̪ˠ -> "t" / # _                         %attested # digest §10.2 master table; [old-irish-lexicon] tuath ~ túath
-t̪ˠ -> "tt"                              %design   # digest §10.2 conv. 2-3 (*bratt* /brat/)
+t̪ˠ -> "tt" / V _                        %design   # digest §10.2 conv. 2-3 (*bratt* /brat/) — post-vocalic only (§Stops following vowels)
+t̪ˠ -> "t"                               %design   # digest §10.2 conv. 2 is stated for stops FOLLOWING VOWELS; after ⟨s⟩ (and any other consonant not covered by (1)) a voiceless stop is unambiguous and stays single — *splanc*, *scél*
 tʲ -> "t" / # _                         %design   # digest §10.2 master table
-tʲ -> "tt"                              %design   # digest §10.2 conv. 2-3
+tʲ -> "tt" / V _                        %design   # digest §10.2 conv. 2-3 — post-vocalic only (§Stops following vowels)
+tʲ -> "t"                               %design   # digest §10.2 conv. 2 is stated for stops FOLLOWING VOWELS; after ⟨s⟩ (and any other consonant not covered by (1)) a voiceless stop is unambiguous and stays single — *splanc*, *scél*
 pˠ -> "p" / # _                         %design   # digest §10.2 master table; /p/ marginal (digest §10.1)
-pˠ -> "pp"                              %design   # digest §10.2 conv. 2-3 (⟨pp⟩ /p/)
+pˠ -> "pp" / V _                        %design   # digest §10.2 conv. 2-3 (⟨pp⟩ /p/) — post-vocalic only (§Stops following vowels)
+pˠ -> "p"                               %design   # digest §10.2 conv. 2 is stated for stops FOLLOWING VOWELS; after ⟨s⟩ (and any other consonant not covered by (1)) a voiceless stop is unambiguous and stays single — *splanc*, *scél*
 pʲ -> "p" / # _                         %design   # digest §10.2 master table; /p/ marginal
-pʲ -> "pp"                              %design   # digest §10.2 conv. 2-3
+pʲ -> "pp" / V _                        %design   # digest §10.2 conv. 2-3 — post-vocalic only (§Stops following vowels)
+pʲ -> "p"                               %design   # digest §10.2 conv. 2 is stated for stops FOLLOWING VOWELS; after ⟨s⟩ (and any other consonant not covered by (1)) a voiceless stop is unambiguous and stays single — *splanc*, *scél*
 ɡ -> "g" / # _                          %attested # digest §10.2 master table; [old-irish-lexicon] gorm ~ gorm
 ɡ -> "c"                                %design   # digest §10.2 conv. 2 (*bec* /bʲeɡ/); the lexicon's own rows may keep ⟨g⟩ (Tadhg ~ Tadg)
 ɟ -> "g" / # _                          %design   # digest §10.2 master table
