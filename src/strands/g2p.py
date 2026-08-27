@@ -479,7 +479,6 @@ def _word_segments(word: str, dialect: str, notes: list[str],
             if i + 2 < len(runs) and len(nxt) == 2:
                 absorbed.add(i + 2)             # adharc /əiɾˠk/: the second ⟨a⟩ is not read
             continue
-        final = (i + 1 == len(runs)) or (i + 2 == len(runs) and len(runs) - 1 == i + 1)
         nuclei.append(_vowel_value(runs[i][1], nxt, i + 2 >= len(runs), notes))
     live = [i for i in v_indices if i not in absorbed]
     stress = 0 if proclitic else _stress_index(nuclei, dialect, word)
@@ -487,7 +486,6 @@ def _word_segments(word: str, dialect: str, notes: list[str],
     # Pass 2: emit.
     out: list[str] = []
     stress_at: int | None = None
-    n = 0
     for i, (kind, text) in enumerate(runs):
         if kind == "C":
             prev_v = next((runs[j][1] for j in range(i - 1, -1, -1) if runs[j][0] == "V"), None)
@@ -514,7 +512,6 @@ def _word_segments(word: str, dialect: str, notes: list[str],
                         or _VOWELS.get(runs[i][1][:1]) or (value, ()))[0]
                 value = "ə" if _short(base) else base
         out.extend(_split_nucleus(value))
-        n += 1
 
     if dialect == "C":
         out = [("vˠ" if seg == "w" and k else seg) for k, seg in enumerate(out)]
