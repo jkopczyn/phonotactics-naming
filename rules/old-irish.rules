@@ -141,8 +141,68 @@ vˠ -> β                                 %design   # digest §10.1 chart
 vʲ -> βʲ                                %design   # digest §10.1 chart
 
 [syllable]
-# TEMPORARY (Task 8): replaced wholesale by Task 10. Do not ship.
+# spec §4: template `any`, sonority off — "Old Irish tolerates the modern cluster set"
+# (digest §10). No onset/coda whitelist exists for Old Irish in the held sources.
 template = any
 onsets   = any
 codas    = any
 sonority = off
+domain   = word
+# spec §12.B: a diphthong is two segments and ONE nucleus. The eight are Pokorny's
+# [pokorny1914-oldirish-grammar p.6 §4]; the VALUES are `wiki-old-irish` §Vowels' (O-28/R19):
+# ai oi ui au eu iu ia ua. Draft 1's `aːi`/`iə` contradicted digest §10.8 conflict 5, which
+# quotes Pokorny writing ⟨aí⟩ PRECISELY to distinguish it from long ⟨á⟩ plus a palatal glide.
+# CONFLICT: digest §10.6's *Goídelc* [ˈɡoːi̯ðʲelɡ] infobox transcription implies ⟨oí⟩ = /oːi̯/;
+# recorded, not generalized from.
+# `əi əu` are carried so the filter can pass a modern diphthong through (*Tadhg* /t̪ˠəiɡ/).
+nuclei = ai oi ui au eu iu ia ua əi əu
+
+[repair]
+# spec §4: "none beyond degemination". O-20 / §12.E: an unattested cluster is KEPT and
+# flagged UNATTESTED_CLUSTER, never rewritten — this strand has no whitelist to fall back on.
+cluster-fallback = keep
+# Degemination over repeated segments (I-2), OBSTRUENTS ONLY: digest §10.2 conv. 3 makes
+# ⟨ll nn rr mm⟩ the fortis spelling (O-2), so degeminating a sonorant would erase the
+# contrast the orthography carries. One line per [-sonorant] inventory member, the marginal
+# /p/ pair included; /vʲ/ is a filter-only transient ([substitute] (g) rewrites it before
+# this stage) and gets no line.
+bˠ bˠ -> bˠ                             %design   # digest §10.2 conv. 3 (doubling is fortis for sonorants only)
+bʲ bʲ -> bʲ                             %design   # digest §10.2 conv. 3
+t̪ˠ t̪ˠ -> t̪ˠ                             %design   # digest §10.2 conv. 3
+tʲ tʲ -> tʲ                             %design   # digest §10.2 conv. 3
+d̪ˠ d̪ˠ -> d̪ˠ                             %design   # digest §10.2 conv. 3
+dʲ dʲ -> dʲ                             %design   # digest §10.2 conv. 3
+k k -> k                                %design   # digest §10.2 conv. 3
+c c -> c                                %design   # digest §10.2 conv. 3
+ɡ ɡ -> ɡ                                %design   # digest §10.2 conv. 3
+ɟ ɟ -> ɟ                                %design   # digest §10.2 conv. 3
+pˠ pˠ -> pˠ                             %design   # digest §10.2 conv. 3; /p/ marginal (digest §10.1)
+pʲ pʲ -> pʲ                             %design   # digest §10.2 conv. 3; /p/ marginal (digest §10.1)
+β β -> β                                %design   # digest §10.2 conv. 3
+βʲ βʲ -> βʲ                             %design   # digest §10.2 conv. 3
+β̃ β̃ -> β̃                                %design   # digest §10.2 conv. 3 (⟨mm⟩ is /m/, never /β̃β̃/)
+β̃ʲ β̃ʲ -> β̃ʲ                              %design   # digest §10.2 conv. 3
+ð ð -> ð                                %design   # digest §10.2 conv. 3
+ðʲ ðʲ -> ðʲ                             %design   # digest §10.2 conv. 3
+θ θ -> θ                                %design   # digest §10.2 conv. 3
+θʲ θʲ -> θʲ                             %design   # digest §10.2 conv. 3
+x x -> x                                %design   # digest §10.2 conv. 3
+ç ç -> ç                                %design   # digest §10.2 conv. 3
+ɣ ɣ -> ɣ                                %design   # digest §10.2 conv. 3
+ɣʲ ɣʲ -> ɣʲ                             %design   # digest §10.2 conv. 3
+fˠ fˠ -> fˠ                             %design   # digest §10.2 conv. 3
+fʲ fʲ -> fʲ                             %design   # digest §10.2 conv. 3
+sˠ sˠ -> sˠ                             %design   # digest §10.2 conv. 3
+ʃ ʃ -> ʃ                                %design   # digest §10.2 conv. 3
+h h -> h                                %design   # digest §10.2 conv. 3
+
+[stress]
+# digest §10.3: "Stress is generally on the first syllable" [wiki-old-irish §Stress]; for
+# names, "including in nominal compounds" [utaustin-oldirish-lesson1 §1.2].
+procedure = initial
+mark = on
+
+[post-stress]
+# spec §4: "unstressed vowels are not reduced (unlike modern Irish)" — deliberately EMPTY.
+# digest §10.2's unstressed-vowel grid is a SPELLING matter and lives in the grapheme table
+# (Task 7) and [respell] (Task 11), not here.
