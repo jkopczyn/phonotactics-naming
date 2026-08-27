@@ -10,13 +10,13 @@ Irish: /ˈkɪə.ɾˠə/
 
 | construction | welsh | arabic-egy | georgian | dutch |
 |---|---|---|---|---|
-| VOC | ychira /ə.ˈχɪ.ra/ | akhiʼara /ʔa.xi.ˈʔa.ra/ | axviara /ɑxviɑrɑ/ | echiere /ə.ˈxi.rə/ |
-| GEN | cira /ˈkɪ.ra/ | kiʼara /ˈki.ʔa.ra/ | kviara /kʰviɑrɑ/ | kiere /ˈki.rə/ |
-| PATRO_O | ocira /ɔ.ˈkɪ.ra/ | ukiʼara /ʔu.ˈki.ʔa.ra/ | okviara /ɔkʰviɑrɑ/ | ookiere /oː.ˈki.rə/ |
-| PATRO_NI | nichira /nɪ.ˈχɪ.ra/ | nikhiʼara /ni.ˈxi.ʔa.ra/ | nixviara /nixviɑrɑ/ | njiechiere /nji.ˈxi.rə/ +1 |
-| DESC | cira /ˈkɪ.ra/ | kiʼara /ˈki.ʔa.ra/ | kviara /kʰviɑrɑ/ | kiere /ˈki.rə/ |
-| DESC+ADJ | ciraaidd /kɪ.ˈraː.aið/ | kiʼari /ˈki.ʔa.ri/ | kviarauli /kʰviɑrɑuli/ | kiereachtech /ki.rə.ˈɑx.təx/ |
-| DESC+NOUN | cira /ˈkɪ.ra/ | kiʼara /ˈki.ʔa.ra/ | kviara /kʰviɑrɑ/ | kiere /ˈki.rə/ |
+| VOC | ychira /ə.ˈχɪ.ra/ | akheera /ʔa.ˈxeː.ra/ | axviara /ɑxviɑrɑ/ | echiere /ə.ˈxi.rə/ |
+| GEN | cira /ˈkɪ.ra/ | keera /ˈkeː.ra/ | kviara /kʰviɑrɑ/ | kiere /ˈki.rə/ |
+| PATRO_O | ocira /ɔ.ˈkɪ.ra/ | ukeera /ʔu.ˈkeː.ra/ | okviara /ɔkʰviɑrɑ/ | ookiere /oː.ˈki.rə/ |
+| PATRO_NI | nichira /nɪ.ˈχɪ.ra/ | nikheera /ni.ˈxeː.ra/ | nixviara /nixviɑrɑ/ | njiechiere /nji.ˈxi.rə/ +1 |
+| DESC | cira /ˈkɪ.ra/ | keera /ˈkeː.ra/ | kviara /kʰviɑrɑ/ | kiere /ˈki.rə/ |
+| DESC+ADJ | ciraaidd /kɪ.ˈraː.aið/ | keeri /ˈkeː.ri/ | kviarauli /kʰviɑrɑuli/ | kiereachtech /ki.rə.ˈɑx.təx/ |
+| DESC+NOUN | cira /ˈkɪ.ra/ | keera /ˈkeː.ra/ | kviara /kʰviɑrɑ/ | kiere /ˈki.rə/ |
 
 ## Ciara — Ciara (f. given name) — INFERRED
 

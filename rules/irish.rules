@@ -21,6 +21,10 @@ marginal: vˠ
 # digest §1.2 — Connacht/Munster monophthongs [wiki-irish-phonology §Vowels]; the diphthongs
 # iə uə əi əu are two segments each (I-2) and are licensed as nuclei in [syllable] later.
 iː ɪ uː ʊ eː ɛ oː ɔ aː a ə
+# The non-schwa halves of those diphthongs. They are not Irish monophthongs (digest §1.2
+# has no short /i u/), only the segments the two-segment diphthong spelling needs — Tadhg
+# /t̪ˠəiɡ/, Brian /bʲɾʲiənˠ/ — hence marginal.
+marginal: i u
 
 [classes]
 # I-41 / spec §12.J: broad and slender are DECLARED classes, never [C ±back] bundles.
@@ -247,6 +251,13 @@ n̠ʲ  -> nʲ          %design # ditto, note 6
 g   -> ɡ           %design # ASCII duplicate of U+0261, tooling only (I-34)
 ɑ   -> a           %design # user transcription only, digest line 27 — NOT a digest §1.1 claim
 ɑː  -> aː          %design # ditto, line 27
+
+# The /iə/ diphthong is transcribed both ⟨iə⟩ and ⟨ɪə⟩; Irish has no /ɪə/ distinct from
+# /iə/ (digest §1.2 lists ɪ only as a short monophthong, and the diphthong inventory has
+# iə uə əi əu and no ɪə). The user's own *Ciara* /ˈkɪə.ɾˠə/ is that variant, so fold it
+# here — otherwise the downstream [syllable] nuclei lists do not recognise the nucleus and
+# the target syllabifies it as hiatus. Transcription variant, hence %design.
+ɪ   -> i  / _ ə    %design # transcription variant of the /iə/ diphthong; digest §1.2
 
 # NO `h -> ç` rule. The source (digest §1.1 lines 107-108 [wiki-irish-phonology
 # §Allophones]) says: "as the lenition of /tʲ/ and /ʃ/, /h/ is replaced by [ç] before back
