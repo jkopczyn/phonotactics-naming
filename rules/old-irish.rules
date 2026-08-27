@@ -1,0 +1,55 @@
+# old-irish.rules — the Old Irish target strand (spec docs/specs/2026-08-27-old-irish-design.md;
+# digest sources/irish/digest.md §10). Task 8: [meta] [inventory] [classes] and a temporary
+# [syllable]. Task 9: [substitute]. Task 10: [syllable] [repair] [stress] [post-stress].
+# Task 11: [respell]. Task 13: [mutations]. Task 14: [inflect]. Task 15: the templates section.
+# Every rule line cites its digest section, a bibkey, or a design decision (plan R32).
+
+[meta]
+name = Old Irish
+strand = old-irish
+grammar = graphemes
+digest = sources/irish/digest.md §10
+lexicon = rules/old-irish-lexicon.tsv
+orthography = rules/old-irish-orthography.tsv
+punctum = on
+# spec §11: an EXPLICIT declared mapping. `-` = no partner. Read by spelled.py's quality pass.
+quality-pairs = pˠ:pʲ bˠ:bʲ t̪ˠ:tʲ d̪ˠ:dʲ k:c ɡ:ɟ fˠ:fʲ sˠ:ʃ x:ç ɣ:ɣʲ β:βʲ β̃:β̃ʲ ð:ðʲ θ:θʲ mˠ:mʲ n̪ˠ:nʲ ŋ:ɲ l̪ˠ:lʲ ɾˠ:ɾʲ h:h w:-
+
+[inventory]
+# digest §10.1 chart [wiki-old-irish §Consonants]. Quality is NOT reversed (spec §4, O-3).
+bˠ bʲ t̪ˠ tʲ d̪ˠ dʲ k c ɡ ɟ
+# The lenited series (O-1). /xʲ/ IS ç; /ɣʲ/ is its own row (R26).
+β βʲ β̃ β̃ʲ ð ðʲ θ θʲ x ç ɣ ɣʲ
+# /s f h/ are inventory members (O-5, spec §11 (iii)); what CREATES them is restricted, not
+# what may appear.
+fˠ fʲ sˠ ʃ h
+# One sonorant series (O-2): fortis is a doubled GRAPHEME (Task 7), not a segment.
+mˠ mʲ n̪ˠ nʲ ŋ ɲ l̪ˠ lʲ ɾˠ ɾʲ
+# 5 short + 5 long [pokorny1914-oldirish-grammar p.6 §4] via digest §10.1, plus the
+# post-stress reduction vowel of the §10.2 grid.
+i e a o u iː eː aː oː uː ə
+# /p/ is "relatively rare… a recent import" (digest §10.1). /w/ is NOT an Old Irish phoneme
+# (S6) — the filter rewrites any survivor, so it is admitted only marginally, with its
+# slender partner. /ə/ is a reduction and must never be chosen by the inventory fallback.
+# Short /æ/ comes from u-infection of stressed /a/, "rampant in names in the prefix air-"
+# (digest §10.1) — name-relevant, already a features.tsv row, marginal (S5).
+# /hʲ/ "may have been the same sound as /h/ or /xʲ/" (digest §10.1) would sit here too, but
+# features.tsv has no hʲ row (Task 1 added only the lenited series), so it is not declared.
+marginal: pˠ pʲ w vʲ ə æ
+
+[classes]
+# spec §12.J / I-41, extended with the Old Irish lenited series (O-3).
+BROAD = pˠ bˠ t̪ˠ d̪ˠ fˠ sˠ w mˠ n̪ˠ l̪ˠ ɾˠ k ɡ x ɣ ŋ β β̃ ð θ
+SLEN  = pʲ bʲ tʲ dʲ fʲ ʃ vʲ mʲ nʲ lʲ ɾʲ c ɟ ç ɣʲ ɲ βʲ β̃ʲ ðʲ θʲ
+# digest §2.4: the epenthesis environment is after l n r m (O-15).
+SONORANT = mˠ mʲ n̪ˠ nʲ ŋ ɲ l̪ˠ lʲ ɾˠ ɾʲ
+# UNMARKED is declared for parity with the other rule files and is NOT used here: this file
+# has no [normalize] section, which is UNMARKED's only consumer (S17).
+UNMARKED = p b t d f v s m n l r
+
+[syllable]
+# TEMPORARY (Task 8): replaced wholesale by Task 10. Do not ship.
+template = any
+onsets   = any
+codas    = any
+sonority = off
