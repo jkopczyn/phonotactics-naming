@@ -32,3 +32,6 @@
   space — 11 test rows × 4 strands changed); /ɪə/ normalized to /iə/ (b11051a); Cairene
   emphasis narrowed to Hafez's environment, before back vowels only (65af470; 18 DESC rows
   lost an emphatic, Matánach/súil keep theirs). Suite 1001 passed / 2 xfailed.
+- 2026-08-26: Welsh gallery reviewed by owner; decisions: keep /iə uə/ → ɪ ʊ (Brian → Brin),
+  keep native Welsh spelling (f = /v/, w = /ʊ/) — no English-reader respelling variant.
+  Dutch gallery not yet reviewed by owner. Tool declared ready for trial use on real names.
