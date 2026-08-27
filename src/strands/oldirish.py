@@ -25,9 +25,9 @@ as the `respell` trace entry's `before`.
 
 The stem class (O-21, O-33, S22). A NON-EMPTY lexicon `stem` is a supplied class and contributes
 no assumption tag; a blank one is not a supplied class — it goes through `infer_stem` like a
-RETRO word and is tagged `stem:from-declension-*` or `stem:default-by-gender-*`. The same
-reading applies one level down: a modern `declension` that `inputs.infer` guessed (tagged
-`declension:*`) is not a supplied class either, and the entry falls to the gender default.
+RETRO word and is tagged `stem:from-declension-*` or `stem:default-by-gender-*`. A modern
+`declension` that `inputs.infer` guessed (tagged `declension:*`) maps to a stem class exactly
+as a supplied one does (spec §5); the two tags together report the chain.
 
 `adapt_oi` (O-11, O-14). The spelled words are finished by the time they arrive; each is
 rendered (with `[meta] punctum` applied to the STRING only) and reconstructed once by
@@ -135,12 +135,12 @@ def infer_stem(entry: "Entry") -> tuple[str, str]:
     """(Old Irish stem class, assumption tag) from `Entry.declension`, else the gender
     (plan Task 12 table; S22: an unclassified feminine is an ā-stem, not an o-stem).
 
-    Only a SUPPLIED modern declension counts. `inputs.infer` fills a blank one and tags the
-    entry `declension:inferred-*` / `declension:default-*`; that guess is not a class the
-    input gave (the O-33 reading), so such an entry takes the gender default and says so."""
+    A declension `inputs.infer` guessed counts like a supplied one (spec §5: "inferred from
+    the modern declension"); the guess is already reported by the entry's own
+    `declension:inferred-*` / `declension:default-*` tag, and the stem tag adds the mapping.
+    Draft 2 erased a guessed declension and fell to the gender default, so an inferred `d4`
+    such as *Ailbhe* was inflected as an o-stem (review-oi-grammar fix 1)."""
     declension = (entry.declension or "").strip().lower()
-    if any(tag.startswith("declension:") for tag in entry.assumptions):
-        declension = ""
     if declension == "m1":
         return "o", "stem:from-declension-m1"
     if declension == "f2":
@@ -364,9 +364,11 @@ def article(words: tuple[SpelledWord, ...], gender: str, case: str, oi: RuleFile
     ⟨-d⟩ stays only on a leniting form "before vowels or aspirated f, l, n, r"
     [pokorny1914-oldirish-grammar p.59 §132] — the lenited ⟨f⟩ is ⟨ḟ⟩ and lenited ⟨l n r⟩
     are unwritten, so the test is on the mutated word's first token; ⟨-t⟩ before ⟨s⟩ on the
-    same forms (digest §10.4: *int sléibe*, *int súil*), written here before the lenited
-    ⟨ṡ⟩. The parenthesized ⟨t⟩ of the m. nom. *in(t)* has no environment stated in the
-    digest and is not realized. Wikipedia's unqualified ⟨-d⟩ is the alternative reading."""
+    same forms (digest §10.4: *int sléibe*, *int súil*) — there the ⟨t⟩ REPLACES the written
+    lenition, so the noun keeps its plain ⟨s⟩ and the reconstruction reads /s/, not /h/
+    (review-oi-grammar fix 2; draft 2 wrote *int ṡléibe*). The parenthesized ⟨t⟩ of the m.
+    nom. *in(t)* has no environment stated in the digest and is not realized. Wikipedia's
+    unqualified ⟨-d⟩ is the alternative reading."""
     if not words:
         raise PipelineError(f"{oi.path}: ART() of an empty construction")
     gender = (gender or "m").strip().lower()[:1] or "m"
@@ -379,13 +381,14 @@ def article(words: tuple[SpelledWord, ...], gender: str, case: str, oi: RuleFile
     elif nasalizes:
         noun = apply_oi_mutation(noun, "NAS", oi)
         form, note = "a", "nom. n. aᴺ"
+    elif lenites and noun.graphemes[0] in _S_TOKENS:        # int sléibe: no written ⟨ṡ⟩
+        form = "int"
+        note = f"{case}. {gender}. in(d)ᴸ; -t before s replaces the written lenition"
     else:
         if lenites:
             noun = apply_oi_mutation(noun, "LEN", oi)
         first = noun.graphemes[0]
-        if lenites and first in _S_TOKENS:
-            form = "int"
-        elif lenites and (first[0] in _VOWEL_LETTERS or first in _LIQUIDS_AND_F):
+        if lenites and (first[0] in _VOWEL_LETTERS or first in _LIQUIDS_AND_F):
             form = "ind"
         else:
             form = "in"
@@ -509,9 +512,14 @@ class _OiBuilder:
 def _resolve_marker(stem: Stem, oi: RuleFile, trace: list[TraceEntry]) -> Stem:
     """spec §11: a RETRO word may carry the unresolved ending marker ⟨ə⟩; the nominative
     table realizes it by stem class BEFORE any case function sees the word, so no
-    genitive is derived from a marker."""
+    genitive is derived from a marker. An inert class (`indecl`, `irregular`) skips the
+    case tables, not the marker: spec §11 says "*-a* otherwise", so it takes `NOM_O`
+    (an inferred `d4` is exactly the vowel-final RETRO word that carries one)."""
     if not any(_ENDING_MARKER in w.graphemes for w in stem.words):
         return stem
+    if stem.stem in _INERT_STEMS:
+        words = apply_case(replace(stem, stem="o"), "nom", oi, trace=trace)
+        return replace(stem, words=words)
     return replace(stem, words=apply_case(stem, "nom", oi, trace=trace))
 
 

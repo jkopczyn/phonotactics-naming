@@ -155,6 +155,16 @@ def test_the_ending_marker_is_realized_by_stem_class():
     assert apply_case(o, "nom", OI)[0].render() == "cara"
 
 
+def test_the_ending_marker_is_realized_for_an_indeclinable_stem_too():
+    """spec §11: "*-e* for ā-stems, *-a* otherwise" — an inert class skips the case tables
+    but not the marker. Exposed by review-oi-grammar fix 1: a RETRO vowel-final word infers
+    `d4` -> `indecl`, and *an tsneachta* rendered as ⟨ə trechttə⟩."""
+    s = Stem(words=(SpelledWord.from_spelling("carə"),), gen=None, stem="indecl",
+             gender="m", flag="RETRO", assumptions=(), trace=())
+    out = build_oi_construction("DESC", {"NOUN": s}, OI, TABLE)
+    assert out[0].render() == "cara"
+
+
 def test_an_unknown_stem_class_falls_back_to_the_o_stem_with_a_note():
     s = Stem(words=(SpelledWord.from_spelling("fer"),), gen=None, stem="", gender="m",
              flag="RETRO", assumptions=(), trace=())
@@ -272,6 +282,20 @@ def test_the_article_is_old_irish_not_modern():
                 NOUN=ent("teach", "tʲax"))
     article = out.split()[1]
     assert article.startswith(("in", "a")) and not article.startswith(("an", "na"))
+
+
+def test_the_article_before_s_is_int_and_the_s_is_written_plain():
+    """review-oi-grammar fix 2 / digest §10.4: *int sléibe*, *int súil* — the ⟨-t⟩ sandhi
+    REPLACES the written lenition of ⟨s⟩; draft 2 gave *int ṡléibe*. The reconstruction reads
+    the written ⟨s⟩, not the lenited /h/."""
+    result = run_entry_oi(ent("Niall", "nʲiəl̪ˠ"), "OF", IRISH, OI, TABLE,
+                          slots={"NAME": ent("Niall", "nʲiəl̪ˠ"),
+                                 "NOUN": ent("sliabh", "ʃlʲiəv")})
+    assert result.respelling == "Níall int sléibe"
+    noun_ipa = result.ipa.split()[2]
+    assert noun_ipa.startswith("ʃ") and not noun_ipa.startswith("h")     # slender ⟨s⟩ = /ʃ/
+    art = [t for t in result.trace if t.rule_id == "templates:ART"][0]
+    assert art.after == "int sléibe"
 
 
 def test_capitalization_is_preserved_per_word():

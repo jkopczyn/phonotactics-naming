@@ -55,9 +55,25 @@ def test_a_miss_is_a_plain_retro():
 ])
 def test_the_stem_class_is_inferred_from_the_declension_then_the_gender(declension, gender,
                                                                        expected):
-    """spec §4 / O-21 / S22: draft 1 defaulted an unclassified feminine to `o`."""
-    stem, reason = infer_stem(entry("Xyz", "sˠiː", declension=declension, gender=gender))
+    """spec §4 / O-21 / S22: draft 1 defaulted an unclassified feminine to `o`. The blank
+    cases use a raw `Entry`: `inputs.infer` would fill the declension, and an inferred one
+    counts (review-oi-grammar fix 1)."""
+    stem, reason = infer_stem(Entry(orthography="Xyz", ipa="sˠiː", declension=declension,
+                                    gender=gender))
     assert stem == expected and reason.startswith("stem:")
+
+
+def test_an_inferred_modern_declension_selects_the_stem_class_like_a_supplied_one():
+    """review-oi-grammar fix 1: spec §5 and plan Task 12 map the modern declension to the
+    stem class with no exception for one `inputs.infer` guessed. *Ailbhe* is a lexicon row
+    with a blank `stem`; `infer` gives it `d4`, so it is `indecl` and GEN leaves it alone
+    (the erasing version treated it as an o-stem and produced *Ailbi*)."""
+    ailbhe = entry("Ailbhe", "ˈalʲvʲə", gender="m")
+    assert ailbhe.declension == "d4" and "declension:inferred-d4" in ailbhe.assumptions
+    stem = to_old_irish(ailbhe, LEX, OI, IRISH, TABLE)
+    assert stem.stem == "indecl" and "stem:from-declension-d4" in stem.assumptions
+    result = run_entry_oi(ailbhe, "GEN", IRISH, OI, TABLE)
+    assert result.respelling == "Ailbe"
 
 
 def test_a_blank_lexicon_stem_is_inferred_and_reported_not_silently_guessed():
