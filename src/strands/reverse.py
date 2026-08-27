@@ -513,8 +513,11 @@ def _invert_rule(rule: Rule, target: RuleFile, inventory: tuple[str, ...],
                     notes.append(f"{rid} skipped {seg}: {exc}")
                     continue
                 add((changed,), source((seg,), "rule"))
-                if context_free:
-                    covered.add((seg,))
+            if context_free:
+                # V-8/V-9: only the WHOLE target is covered. `a i -> [+long]` does not fire on a
+                # lone `a`, so `a` still needs its identity/fallback source; the ordinary
+                # replacement branch covers `segments` for the same reason.
+                covered.add(segments)
         return
 
     # A DELETION does not "cover" its target for V-8/V-9: `X -> 0` leaves nothing behind, so
@@ -643,9 +646,10 @@ def un_substitute(pattern: Pattern, smap: SourceMap, *,
 
     For every alternative whose segments are a key of `smap`, one new alternative per `Source`,
     with that source's `Step` APPENDED (steps are newest first, so the substitute step lands
-    oldest). An alternative with no entry is kept as it is, without a substitute step — the
-    over-generating reading of §3: it simply never verifies, and V-31 already gives a stepless
-    alternative the kind `identity`. `deletions` and `notes` are the other two members of the
+    oldest). An alternative with NO entry keeps an empty source list and so emits nothing: it has
+    no Irish source, and preserving the target-side alternative stepless would let the report
+    claim an Irish source it does not have (V-31). `deletions` and `notes` are the other two
+    members of the
     `source_map(...)` triple and are appended to the pattern's own (V-7), so the report's
     `possibly dropped` block can name a `[substitute]` deletion.
     """
@@ -664,11 +668,10 @@ def un_substitute(pattern: Pattern, smap: SourceMap, *,
                 alts.append(alt)
 
         for alt in slot.alts:
-            sources = smap.get(alt.segments, ())
-            if not sources:
-                keep(alt)
-                continue
-            for source in sources:
+            # V-31: an alternative with no entry in the map has no [substitute] source and is
+            # DROPPED — keeping it would leave a stepless alternative that later reporting would
+            # read as an Irish identity source (welsh `th` -> /θ/, which no Irish segment reaches).
+            for source in smap.get(alt.segments, ()):
                 keep(Alternative(segments=source.segments,
                                  steps=alt.steps + (Step(stage="substitute",
                                                          rule_id=source.rule_id,

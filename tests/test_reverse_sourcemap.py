@@ -244,3 +244,43 @@ def test_un_substitute_carries_the_substitute_deletions_into_the_pattern():
 def test_the_map_is_deterministic():
     assert smap(GEO)[0] == smap(GEO)[0]
     assert all(isinstance(v, tuple) for v in smap(GEO)[0].values())
+
+
+# ---- review fixes ------------------------------------------------------------------------------
+
+def test_un_substitute_drops_an_alternative_with_no_substitute_source():
+    """V-31: welsh `th` parses as /θ/, which no [substitute] source produces. Keeping it would
+    leave a stepless alternative that reporting reads as an Irish identity source."""
+    from strands.reverse import un_substitute
+    m, deletions, notes = smap(WEL)
+    assert ("θ",) not in m
+    p = _parse(WEL, "th")
+    assert [a.segments for a in p.slots[0].alts] == [("θ",)]
+    out = un_substitute(p, m, deletions=deletions, notes=notes)
+    assert out.slots[0].alts == ()
+
+
+def test_every_surviving_alternative_carries_a_substitute_step():
+    from strands.reverse import un_substitute
+    m, deletions, notes = smap(GEO)
+    out = un_substitute(_parse(GEO, "a"), m, deletions=deletions, notes=notes)
+    assert out.slots[0].alts
+    assert all(a.steps and a.steps[-1].stage == "substitute" for a in out.slots[0].alts)
+
+
+SYNTH_MULTI = parse_rules("""
+[meta]
+name = SynthMulti
+[inventory]
+p t a i aː iː
+[substitute]
+a i -> [+long]               # context-free feature change over a MULTI-item target
+""", TABLE, path="synth-multi")
+
+
+def test_a_multi_item_context_free_feature_change_covers_only_the_whole_target():
+    """V-8/V-9: an isolated `a` does not match `a i -> [+long]`, so it keeps its identity source."""
+    m, _deletions, _notes = smap(SYNTH_MULTI, irish_rf=SYNTH_IRISH)
+    assert ("aː",) in m and ("iː",) in m
+    assert "identity" in {s.kind for s in m.get(("a",), ())}
+    assert "identity" in {s.kind for s in m.get(("i",), ())}
