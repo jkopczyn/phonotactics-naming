@@ -34,6 +34,7 @@ class CheckError:
     code: str        # UNKNOWN_CLASS | UNKNOWN_FEATURE | OFF_INVENTORY | EPENTHESIS_NO_CONTEXT
                      # | UNKNOWN_STRESS_PARAM | UNREACHABLE_CHANGE | CLUSTER_OFF_INVENTORY
                      # | BAD_TEMPLATE_ARG | UNDEFINED_BACKREF | NUCLEUS_OFF_INVENTORY
+                     # | ORTH_UNKNOWN_UNIT | ORTH_BAD_POSITION (Old Irish Task 6, R9)
     message: str
     severity: str    # "error" | "warning"
 
@@ -45,6 +46,7 @@ class _Checker:
         self.inventory = frozenset(rf.inventory)
         self.out: list[CheckError] = []
         self._lines: list[str] | None = None
+        self._orth_units: dict[str, int] | None = None   # unit -> max alternative length
 
     def add(self, line: int, code: str, message: str, severity: str = "error") -> None:
         self.out.append(CheckError(line, code, message, severity))
@@ -71,6 +73,35 @@ class _Checker:
 
     # -- element visitors ------------------------------------------------------------------------
 
+    def orth(self, tag: str, line: int) -> None:
+        """`@orth("X")` / `orth="X"` (Old Irish O-6; R9): `X`, less a `:n` positional
+        suffix, must be a unit of `rules/irish-orthography.tsv`, else the item can never
+        match — an ERROR, since draft 1's warning let dead rules through. `n` must lie
+        within the unit's longest alternative."""
+        if self._orth_units is None:
+            from .orth import load_orth_table
+            self._orth_units = {unit: max(len(alt) for alt in alts)
+                                for unit, alts in load_orth_table()}
+        unit, sep, suffix = tag.rpartition(":")
+        if not (sep and suffix.isdigit()):
+            unit, suffix = tag, ""
+        arity = self._orth_units.get(unit)
+        if arity is None:
+            self.add(line, "ORTH_UNKNOWN_UNIT",
+                     f"orth unit {unit!r} is not in rules/irish-orthography.tsv; "
+                     f"@orth({tag!r}) can never match")
+            return
+        if suffix:
+            n = int(suffix)
+            if arity < 2:
+                self.add(line, "ORTH_BAD_POSITION",
+                         f"orth unit {unit!r} is single-segment, so its tag carries no "
+                         f"position; @orth({tag!r}) can never match")
+            elif not 1 <= n <= arity:
+                self.add(line, "ORTH_BAD_POSITION",
+                         f"orth unit {unit!r} has at most {arity} segments; position {n} "
+                         f"of @orth({tag!r}) can never match")
+
     def class_name(self, name: str, line: int) -> None:
         if name not in self.rf.classes:
             self.add(line, "UNKNOWN_CLASS", f"class {name} is not declared")
@@ -79,6 +110,8 @@ class _Checker:
         """Report the bundle's problems; True when every feature name is known."""
         if b.class_name is not None:
             self.class_name(b.class_name, line)
+        if b.orth is not None:
+            self.orth(b.orth, line)
         ok = True
         for feature in b.constraints:
             try:
@@ -97,6 +130,8 @@ class _Checker:
             for member in it.value:                               # type: ignore[union-attr]
                 if _CLASS_RE.match(member):
                     self.class_name(member, line)
+        elif it.kind == "orth":
+            self.orth(it.value, line)                             # type: ignore[arg-type]
 
     def context(self, seq: tuple[CtxItem, ...], line: int) -> None:
         for c in seq:
@@ -104,8 +139,12 @@ class _Checker:
                 self.item(c.atom, line)
 
     def matching_segments(self, it: ItemSpec) -> list[str]:
-        """Inventory segments an item can match (empty when the item names unknown things)."""
+        """Inventory segments an item can match (empty when the item names unknown things).
+        An `@orth` item matches by provenance, not phonology: []. A bundle carrying `orth=`
+        returns what its class/feature half matches."""
         inv = list(self.rf.inventory)
+        if it.kind == "orth":
+            return []
         if it.kind == "segment":
             return [it.value] if it.value in self.inventory else []      # type: ignore
         if it.kind == "class":

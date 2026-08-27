@@ -72,7 +72,17 @@ _NAME_RE = re.compile(r"[A-Za-z][A-Za-z0-9_-]*\Z")
 _SPECIALS = ("#", "$", ".", "ˈ")
 _SIGNS = {"+": "+", "-": "-", "−": "-", "0": "0"}
 # Characters that end a bare SEGMENT / class-name token (plan: reserved outside a SEGMENT).
-_TERMINATORS = frozenset(' \t[](){}"\\:*_#$.ˈ/%')
+_TERMINATORS = frozenset(' \t[](){}"\\:*_#$.ˈ/%@')
+# `@orth("…")` (Old Irish spec §4/§11, O-6): one double-quoted string, no spaces inside.
+_ORTH_RE = re.compile(r'@orth\(\s*"([^"\s]*)"\s*\)')
+_ORTH_MALFORMED = "@orth() takes one double-quoted string"
+_ORTH_INSIDE = "@orth() may not appear inside {} or []"
+_ORTH_IN_REPLACEMENT = "@orth() may not appear in a replacement"
+_ORTH_CAPTURE = "@orth() may not carry a capture"
+
+
+def _orth_value(raw: str) -> str:
+    return unicodedata.normalize("NFC", raw).casefold()
 
 
 # ---- data model -----------------------------------------------------------------------------
@@ -81,13 +91,17 @@ _TERMINATORS = frozenset(' \t[](){}"\\:*_#$.ˈ/%')
 class Bundle:
     class_name: str | None
     constraints: dict[str, str]        # canonical feature names (aliases resolved at parse)
+    orth: str | None = None            # `orth="bh"`: the segment's orth tag (Old Irish O-6);
+                                       # NFC + casefolded; never in a change bundle
 
 
 @dataclass(frozen=True)
 class ItemSpec:
-    kind: str                          # "segment" | "class" | "bundle" | "set"
+    kind: str                          # "segment" | "class" | "bundle" | "set" | "orth"
     value: str | Bundle | tuple[str, ...]
     capture: int | None = None         # from ":n" (I-33)
+    # kind "orth" (Old Irish spec §4/§11, O-6): `@orth("bh")`, sugar for `[orth="bh"]`;
+    # value is the NFC + casefolded tag, positional suffix included (`ia:1`).
 
 
 @dataclass(frozen=True)
@@ -206,7 +220,8 @@ class ParseError(Exception):
 
 @dataclass
 class _Tok:
-    """One scanned item: kind in {"word", "bundle", "set", "quoted", "backref", "special"}."""
+    """One scanned item: kind in {"word", "bundle", "set", "quoted", "backref", "special",
+    "orth"}."""
     kind: str
     text: str
     capture: int | None = None
@@ -236,7 +251,7 @@ class _LineParser:
             if quoted:
                 if ch == '"':
                     quoted = False
-            elif ch == '"':
+            elif ch == '"' and text.find('"', i + 1) >= 0:
                 quoted = True
             elif ch in "[{":
                 depth += 1
@@ -339,6 +354,12 @@ class _LineParser:
                     raise self.err("unclosed '\"'")
                 tok = _Tok("quoted", text[i + 1:j])
                 i = j + 1
+            elif ch == "@":
+                m = _ORTH_RE.match(text, i)
+                if not m or not m.group(1):
+                    raise self.err(_ORTH_MALFORMED)
+                tok = _Tok("orth", _orth_value(m.group(1)))
+                i = m.end()
             elif ch == "\\":
                 if i + 1 >= n or text[i + 1] not in "123456789":
                     raise self.err("backreference must be \\1 .. \\9")
@@ -402,8 +423,20 @@ class _LineParser:
             raise self.err("empty bundle '[]'")
         class_name: str | None = None
         constraints: dict[str, str] = {}
+        orth: str | None = None
         for k, p in enumerate(parts):
-            if p[0] in _SIGNS:
+            if p.startswith("@"):
+                raise self.err(_ORTH_INSIDE)
+            if p.startswith("orth="):
+                if change:
+                    raise self.err(_ORTH_IN_REPLACEMENT)
+                if orth is not None:
+                    raise self.err("a bundle may carry only one orth= constraint")
+                m = re.fullmatch(r'orth="([^"]*)"', p)
+                if not m or not m.group(1):
+                    raise self.err("orth= takes one double-quoted string")
+                orth = _orth_value(m.group(1))
+            elif p[0] in _SIGNS:
                 if len(p) < 2:
                     raise self.err(f"feature spec {p!r} needs a name")
                 constraints[self._feature(p[1:])] = _SIGNS[p[0]]
@@ -416,13 +449,15 @@ class _LineParser:
                                + ("" if k else " or a class name"))
         if change and not constraints:
             raise self.err("a feature-change bundle needs at least one ±feature")
-        return Bundle(class_name, constraints)
+        return Bundle(class_name, constraints, orth)
 
     def _set(self, inner: str) -> tuple[str, ...]:
         parts = inner.split()
         if not parts:
             raise self.err("empty set '{}'")
         for p in parts:
+            if p.startswith("@"):
+                raise self.err(_ORTH_INSIDE)
             if not _CLASS_RE.match(p) and p not in self.table:
                 raise self.err(f"unknown segment {p!r} in set")
         return tuple(parts)
@@ -440,6 +475,10 @@ class _LineParser:
             return ItemSpec("bundle", self._bundle(tok.text, change=False), tok.capture)
         if tok.kind == "set":
             return ItemSpec("set", self._set(tok.text), tok.capture)
+        if tok.kind == "orth":
+            if tok.capture is not None:
+                raise self.err(_ORTH_CAPTURE)
+            return ItemSpec("orth", tok.text)
         if tok.kind == "quoted":
             raise self.err(f"quoted text is not allowed in a {where}")
         if tok.kind == "backref":
@@ -466,6 +505,8 @@ class _LineParser:
         if not toks:
             raise self.err("empty replacement (write 0 for deletion)")
         for t in toks:
+            if t.kind == "orth":
+                raise self.err(_ORTH_IN_REPLACEMENT)
             if t.optional or t.star or t.capture is not None:
                 raise self.err("'()', '*' and captures are not allowed in a replacement")
         if len(toks) == 1 and toks[0].kind == "word" and toks[0].text == "0":
@@ -514,6 +555,8 @@ class _LineParser:
                 continue
             if t.kind in ("quoted", "backref"):
                 raise self.err(f"{t.kind} is not allowed in an environment")
+            if t.kind == "orth" and t.capture is not None:
+                raise self.err(_ORTH_CAPTURE)
             if t.capture is not None and (t.optional or t.star):
                 raise self.err("a capture cannot be attached to an optional or starred item "
                                "(I-9)")

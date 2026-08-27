@@ -51,9 +51,15 @@ def _class_members(name: str, rf: RuleFile, rule: Rule | None = None) -> tuple[s
         raise RuleError(f"undeclared class {name!r}{where}") from None
 
 
-def match_item(spec: ItemSpec, segment: str, rf: RuleFile, table: FeatureTable) -> bool:
-    """Does one target/context item match one segment?"""
+def match_item(spec: ItemSpec, segment: str, rf: RuleFile, table: FeatureTable, *,
+               word: Word | None = None, index: int | None = None) -> bool:
+    """Does one target/context item match one segment? `word`/`index` locate the segment
+    for the orth-tag channel (Old Irish spec §4/§11, O-6): an `@orth("…")` item or an
+    `orth=` bundle constraint compares against `word.tag_at(index)`, and matches nothing
+    when they are absent — the same "no tag, no match" behaviour as an untagged word."""
     kind, value = spec.kind, spec.value
+    if kind == "orth":
+        return _orth_ok(value, word, index)                         # type: ignore[arg-type]
     if kind == "segment":
         return segment == value
     if kind == "class":
@@ -67,6 +73,8 @@ def match_item(spec: ItemSpec, segment: str, rf: RuleFile, table: FeatureTable) 
         return False
     if kind == "bundle":
         assert isinstance(value, Bundle)
+        if value.orth is not None and not _orth_ok(value.orth, word, index):
+            return False
         if value.class_name is not None and segment not in _class_members(value.class_name, rf):
             return False
         try:
@@ -74,6 +82,12 @@ def match_item(spec: ItemSpec, segment: str, rf: RuleFile, table: FeatureTable) 
         except FeatureError as e:
             raise RuleError(str(e)) from None
     raise RuleError(f"unknown item kind {kind!r}")
+
+
+def _orth_ok(tag: str, word: Word | None, index: int | None) -> bool:
+    if word is None or index is None:
+        return False
+    return word.tag_at(index) == tag
 
 
 # ---- context matching -----------------------------------------------------------------------
@@ -131,7 +145,8 @@ def _match_ctx(items: Sequence[CtxItem], k: int, pos: int, step: int, word: Word
     p = pos
     while count < limit:
         s = seg_at(p)
-        if s is None or not match_item(atom, s, rf, table):
+        if s is None or not match_item(atom, s, rf, table, word=word,
+                                       index=p if step > 0 else p - 1):
             break
         count += 1
         p += step
@@ -164,7 +179,7 @@ def _match_target(word: Word, rule: Rule, start: int, rf: RuleFile,
         return None
     for j, spec in enumerate(rule.target):
         seg = word.segments[start + j]
-        if not match_item(spec, seg, rf, table):
+        if not match_item(spec, seg, rf, table, word=word, index=start + j):
             return None
         if spec.capture is not None:
             caps[spec.capture] = seg
