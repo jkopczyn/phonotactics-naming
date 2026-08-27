@@ -46,23 +46,33 @@ vocative is identity outside the masculine o-stem (O-30; digest §10.5 [pokorny1
 marker ⟨ə⟩ (⟨-e⟩ for an ā-stem, ⟨-a⟩ otherwise); `run_entry_oi` applies the nominative to
 every word before rendering, so no finished output carries the marker.
 
-Constructions. `DESC` and its two slot forms are supported here: this strand declares no
-`epithet-*` keys, so a slot resolves to "no affix" with an `epithet:<SLOT>-unmapped-in-Old
-Irish` assumption and `DESC+ADJ` equals `DESC` (R30, O-17). Every other name raises
-`ConstructionNotInStrand` until `[templates]` lands (plan Task 15).
+Constructions (spec §5, §11; plan Task 15). `build_oi_construction` is this strand's own
+template builder — `irish._Builder` is not reused, because its `ART` is hardcoded modern
+Irish (*an*/*na*, HPREF/TPREF; R22). It evaluates an `arg` item to the slot's `Stem`, a
+quoted literal as a SPELLING (O-25), `GEN NOM VOC DAT` through `apply_case`, `LEN NAS`
+through `apply_oi_mutation`, `LEN_IF_F` as lenition when the head is feminine, and `ART`
+as digest §10.4's article (`_article`: *in/ind/int*, *a*ᴺ, *inna*; no h- or t-prefix).
+A `" "` literal separates words; adjacent items without one are joined into a compound
+(`COLOUR LEN(NAME)`), which keeps the first element's capitalization and mutation. Every
+word re-applies its own capitalization at render (O-32). A construction with no template
+in this file (`PATRO_O`, `PATRO_NI`) raises `ConstructionNotInStrand` (O-17); an unsupplied
+slot raises `irish.MissingSlot`, so the CLI's skip logic is shared. `DESC` = `NOM(NOUN)`
+and its two slot forms resolve to "no affix" with an `epithet:<SLOT>-unmapped-in-Old
+Irish` assumption, so `DESC+ADJ` equals `DESC` (R30, O-17).
 """
 from __future__ import annotations
 
 import functools
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from typing import TYPE_CHECKING, Sequence
 
-from .dsl import RuleFile
+from .dsl import RuleFile, TemplateItem
 from .features import FeatureTable
-from .irish import normalize
+from .irish import MissingSlot, _head_name, normalize
 from .lexicon import LexEntry, read_lexicon
 from .orth import tag_word
-from .pipeline import (PipelineError, Result, lookup, parse_construction, resolve_epithet)
+from .pipeline import (ConstructionNotInStrand, PipelineError, Result, lookup,
+                       parse_construction, resolve_epithet)
 from .poststress import post_stress
 from .repair import repair
 from .respell import respell_traced
@@ -77,21 +87,18 @@ from .word import TraceEntry, Word
 if TYPE_CHECKING:
     from .inputs import Entry
 
-__all__ = ["OI_FLAGS", "LOOKUP_STAGE", "RECONSTRUCT_STAGE", "ConstructionNotInStrand", "Stem",
-           "infer_stem", "to_old_irish", "apply_oi_mutation", "CASE_TABLES", "PRIMITIVE_TABLES",
-           "apply_case", "adapt_oi", "run_entry_oi"]
+__all__ = ["OI_FLAGS", "LOOKUP_STAGE", "RECONSTRUCT_STAGE", "TEMPLATE_STAGE",
+           "ConstructionNotInStrand", "Stem", "infer_stem", "to_old_irish", "apply_oi_mutation",
+           "CASE_TABLES", "PRIMITIVE_TABLES", "apply_case", "CASE_FUNCTIONS", "article",
+           "build_oi_construction", "adapt_oi", "run_entry_oi"]
 
 OI_FLAGS = ("ATTESTED", "ATTESTED:MIr", "RETRO", "RETRO:loan", "RETRO:late")
 LOOKUP_STAGE = "lookup"
 RECONSTRUCT_STAGE = "reconstruct"
-_SUPPORTED = ("DESC",)          # Task 15 adds the rest via [templates]
+TEMPLATE_STAGE = "templates"
 _SLENDER_LETTERS = frozenset("eiéí")
 _VOWEL_LETTERS = frozenset("aeiouáéíóú")
-
-
-class ConstructionNotInStrand(PipelineError):
-    """The construction exists for the other targets but this strand has no template for
-    it (O-17). The CLI and gallery report it as a skip."""
+_ENDING_MARKER = "ə"                     # spec §11's unresolved ending token (Task 11)
 
 
 @dataclass(frozen=True)
@@ -321,6 +328,207 @@ def apply_case(stem: Stem, case: str, oi: RuleFile, *,
     return words
 
 
+# ---- the templates (spec §5, §11; digest §10.4-§10.5; plan Task 15) ------------------------
+
+CASE_FUNCTIONS: dict[str, str] = {"GEN": "gen", "NOM": "nom", "VOC": "voc", "DAT": "dat"}
+"""Template function name -> `apply_case` case (the built-ins `[meta] template-functions`
+declares besides ART and LEN_IF_F)."""
+
+_LIQUIDS_AND_F = frozenset({"ḟ", "f", "l", "n", "r"})    # [pokorny1914 p.59 §132]
+_S_TOKENS = frozenset({"s", "ṡ"})
+
+
+@dataclass(frozen=True)
+class _Val:
+    """A template item's value: spelled words, the stem they came from (None for a literal)
+    and the case last applied (the article reads it)."""
+    words: tuple[SpelledWord, ...]
+    stem: Stem | None = None
+    case: str = "nom"
+
+
+def article(words: tuple[SpelledWord, ...], gender: str, case: str, oi: RuleFile, *,
+            trace: list[TraceEntry] | None = None) -> tuple[SpelledWord, ...]:
+    """digest §10.4's article, singular, as (article word, mutated noun words):
+
+    | case / gender | form | mutation |
+    |---|---|---|
+    | nom. m.       | *in* (*int* before ⟨s⟩ is the leniting forms' sandhi, see below) | none |
+    | nom. f.       | *in(d)*ᴸ | LEN |
+    | nom. n.       | *a*ᴺ | NAS |
+    | gen. m./n.    | *in(d)*ᴸ | LEN |
+    | gen. f.       | *(in)na*ᴴ → *inna*; ᴴ is unwritten (digest §10.4) | none |
+    | dat.          | *-(si)n(d)*ᴸ → *in(d)* | LEN |
+
+    Final-consonant sandhi, the CONFLICT of digest §10.4 resolved for Pokorny (plan Task 15):
+    ⟨-d⟩ stays only on a leniting form "before vowels or aspirated f, l, n, r"
+    [pokorny1914-oldirish-grammar p.59 §132] — the lenited ⟨f⟩ is ⟨ḟ⟩ and lenited ⟨l n r⟩
+    are unwritten, so the test is on the mutated word's first token; ⟨-t⟩ before ⟨s⟩ on the
+    same forms (digest §10.4: *int sléibe*, *int súil*), written here before the lenited
+    ⟨ṡ⟩. The parenthesized ⟨t⟩ of the m. nom. *in(t)* has no environment stated in the
+    digest and is not realized. Wikipedia's unqualified ⟨-d⟩ is the alternative reading."""
+    if not words:
+        raise PipelineError(f"{oi.path}: ART() of an empty construction")
+    gender = (gender or "m").strip().lower()[:1] or "m"
+    lenites = (case == "nom" and gender == "f") or (case == "gen" and gender != "f") \
+        or case == "dat"
+    nasalizes = case == "nom" and gender == "n"
+    noun = words[0]
+    if case == "gen" and gender == "f":
+        form, note = "inna", "gen. f. (in)naᴴ; the aspiration is unwritten"
+    elif nasalizes:
+        noun = apply_oi_mutation(noun, "NAS", oi)
+        form, note = "a", "nom. n. aᴺ"
+    else:
+        if lenites:
+            noun = apply_oi_mutation(noun, "LEN", oi)
+        first = noun.graphemes[0]
+        if lenites and first in _S_TOKENS:
+            form = "int"
+        elif lenites and (first[0] in _VOWEL_LETTERS or first in _LIQUIDS_AND_F):
+            form = "ind"
+        else:
+            form = "in"
+        note = (f"{case}. {gender}. in(d)ᴸ; -d/-t sandhi per [pokorny1914 p.59 §132]"
+                if lenites else f"{case}. {gender}. in(t); no mutation")
+    out = (SpelledWord.from_spelling(form), noun, *words[1:])
+    if trace is not None:
+        trace.append(TraceEntry(stage=TEMPLATE_STAGE, rule_id="templates:ART", tag="attested",
+                                before=" ".join(w.render() for w in words),
+                                after=" ".join(w.render() for w in out),
+                                note=f"article, {note} (digest §10.4)"))
+    return out
+
+
+def _join_compound(a: tuple[SpelledWord, ...], b: tuple[SpelledWord, ...]
+                   ) -> tuple[SpelledWord, ...]:
+    """Adjacent template items with no `" "` between them form ONE written word (digest
+    §10.5 compounding; spec §5 COLOUR): the last word of `a` absorbs the first of `b`,
+    keeping `a`'s capitalization and initial mutation. The second element's own initial
+    mutation is then word-internal, where `spelling_to_ipa` reads ⟨b d g⟩ as lenited
+    post-vocalically by conv. 1 anyway; a written mutation (⟨th⟩, ⟨ṡ⟩) is in the tokens."""
+    if not a:
+        return b
+    if not b:
+        return a
+    joined = replace(a[-1], graphemes=a[-1].graphemes + b[0].graphemes)
+    return (*a[:-1], joined, *b[1:])
+
+
+class _OiBuilder:
+    def __init__(self, name: str, slots: dict[str, Stem], oi: RuleFile,
+                 trace: list[TraceEntry]) -> None:
+        self.name, self.slots, self.oi, self.trace = name, slots, oi, trace
+        try:
+            self.items = oi.templates[name]
+        except KeyError:
+            raise ConstructionNotInStrand(
+                f"{oi.path}: no [templates] entry {name!r} in this strand "
+                f"(have: {', '.join(sorted(oi.templates)) or 'none'})") from None
+        head = _head_name(self.items)
+        self.head: Stem | None = self.slot(head) if head is not None else None
+
+    def slot(self, arg: str) -> Stem:
+        try:
+            return self.slots[arg]
+        except KeyError:
+            raise MissingSlot(f"template {self.name} needs slot {arg!r} "
+                              f"(given: {', '.join(sorted(self.slots)) or 'none'})") from None
+
+    def evaluate(self, item: TemplateItem) -> _Val:
+        if item.conditional:
+            raise PipelineError(f"{self.oi.path}: template {self.name}: conditional items "
+                                "(`?`) are declension-tagged and have no meaning on the "
+                                "spelled word")
+        if item.kind == "literal":                               # O-25: a spelling
+            return _Val(spelling_to_words(item.value))
+        if item.kind == "arg":
+            stem = self.slot(item.value)
+            return _Val(stem.words, stem, "nom")
+        if item.child is None:
+            raise PipelineError(f"{self.oi.path}: template {self.name}: bare {item.value} "
+                                "may not be nested")
+        return self.call(item.value, self.evaluate(item.child))
+
+    def call(self, func: str, val: _Val) -> _Val:
+        oi = self.oi
+        if func in oi.grapheme_mutations:                        # LEN, NAS
+            if not val.words:
+                return val
+            mutated = (apply_oi_mutation(val.words[0], func, oi), *val.words[1:])
+            return replace(val, words=mutated)
+        if func in CASE_FUNCTIONS:
+            case = CASE_FUNCTIONS[func]
+            if val.stem is None:
+                raise PipelineError(f"{oi.path}: template {self.name}: {func}() of a literal")
+            # The case tables run on the CURRENT words (a mutation applied earlier is kept
+            # as metadata; an attested genitive replaces the words wholesale, so the
+            # metadata is re-applied afterwards).
+            stem = replace(val.stem, words=val.words)
+            words = apply_case(stem, case, oi, trace=self.trace)
+            initial = val.words[0].mutation if val.words else ""
+            if initial and words and not words[0].mutation:
+                words = (words[0].with_mutation(initial), *words[1:])
+            return _Val(words, val.stem, case)
+        if func == "LEN_IF_F":
+            # digest §10.4 [pokorny1914 p.8 §10]: lenited after a nom. sg. f. (S11: a
+            # deliberate narrowing of Pokorny's fuller trigger list — see the rule file).
+            if self.head is not None and (self.head.gender or "").lower().startswith("f"):
+                return self.call("LEN", val)
+            return val
+        if func == "ART":
+            gender = val.stem.gender if val.stem is not None else "m"
+            return _Val(article(val.words, gender, val.case, oi, trace=self.trace),
+                        val.stem, val.case)
+        raise PipelineError(f"{oi.path}: template {self.name}: unknown function {func!r}")
+
+    def build(self) -> tuple[SpelledWord, ...]:
+        words: list[SpelledWord] = []
+        current: tuple[SpelledWord, ...] = ()
+        case = "nom"
+        for item in self.items:
+            if item.kind == "literal" and not item.value.strip():      # " " = separator
+                words.extend(current)
+                current = ()
+                continue
+            if item.kind == "call" and item.child is None:            # bare FUNC (I-16)
+                val = self.call(item.value, _Val(current, self.head, case))
+                current, case = val.words, val.case
+                continue
+            val = self.evaluate(item)
+            current = _join_compound(current, val.words)
+            case = val.case
+        words.extend(current)
+        rendered = " ".join(w.render() for w in words)
+        self.trace.append(TraceEntry(stage=TEMPLATE_STAGE, rule_id=f"templates:{self.name}",
+                                     tag="", before="", after=rendered,
+                                     note=f"construction {self.name}, {len(words)} word(s)"))
+        return tuple(words)
+
+
+def _resolve_marker(stem: Stem, oi: RuleFile, trace: list[TraceEntry]) -> Stem:
+    """spec §11: a RETRO word may carry the unresolved ending marker ⟨ə⟩; the nominative
+    table realizes it by stem class BEFORE any case function sees the word, so no
+    genitive is derived from a marker."""
+    if not any(_ENDING_MARKER in w.graphemes for w in stem.words):
+        return stem
+    return replace(stem, words=apply_case(stem, "nom", oi, trace=trace))
+
+
+def build_oi_construction(name: str, slots: dict[str, Stem], oi: RuleFile,
+                          table: FeatureTable, *, trace: list[TraceEntry] | None = None
+                          ) -> tuple[SpelledWord, ...]:
+    """Apply `oi.templates[name]` to the slots' stems (spec §11; plan Task 15): one
+    spelled word per written word, capitalization per word (O-32). Raises
+    `ConstructionNotInStrand` for a name this file has no template for (O-17) and
+    `irish.MissingSlot` for an unsupplied slot. `table` is accepted for signature parity
+    with `irish.build_construction`; the grapheme grammar does not consult it."""
+    if trace is None:
+        trace = []
+    stems = {arg: _resolve_marker(stem, oi, trace) for arg, stem in slots.items()}
+    return _OiBuilder(name, stems, oi, trace).build()
+
+
 # ---- the assembly (O-11, O-14) ---------------------------------------------------------------
 
 def _punctum(oi: RuleFile) -> bool:
@@ -373,26 +581,52 @@ def adapt_oi(words: Sequence[SpelledWord], oi: RuleFile, table: FeatureTable, *,
 def run_entry_oi(entry: "Entry", construction: str, irish: RuleFile, oi: RuleFile,
                  table: FeatureTable, *, lexicon: dict[str, LexEntry] | None = None,
                  slots: "dict[str, Entry] | None" = None) -> Result:
-    """The Old Irish `run_entry` (O-9): fork, then assemble. `slots` is accepted for the
-    multi-slot templates of Task 15; `DESC` takes its head from `entry`."""
+    """The Old Irish `run_entry` (O-9): fork each slot's entry, build the template, assemble.
+    `slots` defaults to `{head: entry}` — the template's first argument slot (I-16), as in
+    `pipeline.run_entry`; a multi-slot template (ADJ, OF, COMPOUND, COLOUR) needs them
+    supplied and raises `MissingSlot` otherwise. Flags, assumptions and traces are the union
+    over the slots used, in template order."""
     name, slot = parse_construction(construction)
+    if name not in oi.templates:                                # O-17
+        raise ConstructionNotInStrand(f"{oi.path}: no template for {name!r} in this strand "
+                                      f"(have: {', '.join(sorted(oi.templates))})")
     if lexicon is None:
         lexicon = _default_lexicon()
-    stem = to_old_irish(entry, lexicon, oi, irish, table)
-    assumptions = list(entry.assumptions) + list(stem.assumptions)
+    items = oi.templates[name]
+    if slots is None:
+        head = _head_name(items)
+        slots = {head: entry} if head is not None else {}
+    used = [arg for arg in _template_args(items) if arg in slots]
+    stems = {arg: to_old_irish(slots[arg], lexicon, oi, irish, table) for arg in used}
+    assumptions: list[str] = []
+    flags: list[str] = []
+    trace: list[TraceEntry] = []
+    for arg in used:
+        stem = stems[arg]
+        for tag in (*slots[arg].assumptions, *stem.assumptions):
+            if tag not in assumptions:
+                assumptions.append(tag)
+        for flag in (stem.flag, *stem.engine_flags):
+            if flag not in flags:
+                flags.append(flag)
+        trace.extend(stem.trace)
     if slot is not None:
         epithet = resolve_epithet(oi, slot)
         if epithet is not None:
             raise PipelineError(f"{oi.path}: [meta] epithet-{slot} = {epithet}, but this "
                                 "strand's grammar is on graphemes and has no epithet affixation")
         assumptions.append(f"epithet:{slot}-unmapped-in-{oi.meta.get('name', oi.path)}")
-    if name not in _SUPPORTED:                              # Task 15
-        raise ConstructionNotInStrand(f"{oi.path}: no template for {name!r} in this strand "
-                                      f"(have: {', '.join(_SUPPORTED)})")
-    flags = [stem.flag]
-    for flag in stem.engine_flags:
-        if flag not in flags:
-            flags.append(flag)
-    trace = list(stem.trace)
-    words = apply_case(stem, "nom", oi, trace=trace)      # realizes the ending marker (spec §11)
+    words = build_oi_construction(name, stems, oi, table, trace=trace)
     return adapt_oi(words, oi, table, assumptions=assumptions, flags=flags, trace=trace)
+
+
+def _template_args(items: tuple[TemplateItem, ...]) -> list[str]:
+    """The argument slots a template names, in order, without repeats."""
+    out: list[str] = []
+    for item in items:
+        node: TemplateItem | None = item
+        while node is not None:
+            if node.kind == "arg" and node.value not in out:
+                out.append(node.value)
+            node = node.child
+    return out

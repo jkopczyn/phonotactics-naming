@@ -199,4 +199,8 @@ def test_unknown_target_name_raises():
 def test_constants():
     assert set(TARGETS) == {"welsh", "arabic-egy", "georgian", "dutch", "old-irish"}
     assert "DESC+ADJ" in CONSTRUCTIONS and "DESC+NOUN" in CONSTRUCTIONS
-    assert all(parse_construction(c)[0] in IRISH.templates for c in CONSTRUCTIONS)
+    # Old Irish plan Task 15 / O-17: every construction has a template in SOME strand's
+    # file — the shared ones in irish.rules, the eight formations in old-irish.rules.
+    oi = load_target("old-irish", TABLE)
+    assert all(parse_construction(c)[0] in IRISH.templates
+               or parse_construction(c)[0] in oi.templates for c in CONSTRUCTIONS)

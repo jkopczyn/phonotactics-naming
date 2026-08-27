@@ -16,7 +16,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from .dsl import (
-    Backref, Bundle, CtxItem, ItemSpec, Rule, RuleFile, TEMPLATE_ARGS, TEMPLATE_FUNCS,
+    Backref, Bundle, CtxItem, ItemSpec, Rule, RuleFile, TEMPLATE_ARGS, template_functions,
     TemplateItem,
 )
 from .features import FeatureError, FeatureTable
@@ -279,12 +279,17 @@ class _Checker:
                             else " (it takes none)"))
 
     def templates(self) -> None:
-        # 8. every arg and function name is from the fixed sets (I-16)
+        # 8. every arg name is from the fixed set (I-16); every function name is in the
+        # file's own registry (Old Irish spec §11, GPT #7) — the same `template_functions`
+        # the parser validates against, so the two cannot drift.
+        legal = template_functions(self.rf)
+
         def visit(item: TemplateItem, line: int) -> None:
             if item.kind == "arg" and item.value not in TEMPLATE_ARGS:
                 self.add(line, "BAD_TEMPLATE_ARG", f"unknown template argument {item.value!r}")
-            elif item.kind == "call" and item.value not in TEMPLATE_FUNCS:
-                self.add(line, "BAD_TEMPLATE_ARG", f"unknown template function {item.value!r}")
+            elif item.kind == "call" and item.value not in legal:
+                self.add(line, "BAD_TEMPLATE_ARG", f"unknown template function {item.value!r} "
+                         f"(not a sub-table of this file nor in [meta] template-functions)")
             if item.child is not None:
                 visit(item.child, line)
 

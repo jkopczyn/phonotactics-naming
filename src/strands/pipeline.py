@@ -53,20 +53,30 @@ if TYPE_CHECKING:
     from .inputs import Entry
     from .lexicon import LexEntry
 
-__all__ = ["EPITHET_SLOTS", "TARGETS", "CONSTRUCTIONS", "PipelineError", "Result",
-           "resolve_epithet", "affix_epithet", "adapt", "parse_construction", "lookup",
+__all__ = ["EPITHET_SLOTS", "TARGETS", "CONSTRUCTIONS", "PipelineError",
+           "ConstructionNotInStrand", "Result", "resolve_epithet", "affix_epithet", "adapt", "parse_construction", "lookup",
            "run_entry", "load_target", "stress_marked"]
 
 EPITHET_SLOTS = ("ADJ", "NOUN")      # I-39 / spec §12.H
 TARGETS = ("welsh", "arabic-egy", "georgian", "dutch", "old-irish")
+# The Old Irish formations (Old Irish spec §8 row O6; plan Task 15) are listed with the rest
+# so the CLI and the gallery can ask every strand for them; a strand whose [templates] has
+# no entry of that name raises `ConstructionNotInStrand` (O-17), which they report as a skip.
 CONSTRUCTIONS = ("VOC", "GEN", "PATRO_O", "PATRO_NI", "ADJ", "OF", "COMPOUND", "DESC",
-                 "DESC+ADJ", "DESC+NOUN")
+                 "DESC+ADJ", "DESC+NOUN",
+                 "MAEL", "GILLA", "CU", "FER", "COLOUR", "MAC", "UA", "INGEN")
 _RULES_DIR = Path(__file__).resolve().parents[2] / "rules"
 _EPITHET_STAGE = "epithet"
 
 
 class PipelineError(Exception):
     """A pipeline-level misuse: unknown target, slot, or epithet name."""
+
+
+class ConstructionNotInStrand(PipelineError):
+    """The construction is in `CONSTRUCTIONS` but the strand's templates have no entry of
+    that name (Old Irish spec §5, O-17): PATRO_O/PATRO_NI for old-irish, MAEL for the other
+    four. The CLI and the gallery report it as a skip, exactly like `MissingSlot`."""
 
 
 @dataclass(frozen=True)
@@ -226,6 +236,10 @@ def run_entry(entry: "Entry", construction: str, irish: RuleFile, target: RuleFi
     if target.meta.get("strand", "").strip() == "old-irish":        # O-9
         from .oldirish import run_entry_oi
         return run_entry_oi(entry, construction, irish, target, table, slots=slots)
+    if name not in irish.templates:                                 # O-17
+        raise ConstructionNotInStrand(
+            f"{irish.path}: no [templates] entry {name!r} for target {target.path} "
+            f"(have: {', '.join(sorted(irish.templates)) or 'none'})")
     if slots is None:
         head = _head_slot(irish, name)
         slots = {head: entry} if head is not None else {}

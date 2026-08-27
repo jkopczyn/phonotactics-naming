@@ -7,6 +7,9 @@
 name = Irish
 digest = sources/irish/digest.md
 dialect = C
+# The template built-ins this file may call besides its own [mutations]/[inflect] sub-tables
+# (one per-file registry, Old Irish spec §11 / GPT #7; semantics in irish.py).
+template-functions = GEN ART LEN_IF_F
 
 [inventory]
 # digest §1.1 — the 31-segment donor phoneme set [wiki-irish-phonology §Consonants]

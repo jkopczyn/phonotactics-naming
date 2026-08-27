@@ -12,6 +12,11 @@ digest = sources/irish/digest.md §10
 lexicon = rules/old-irish-lexicon.tsv
 orthography = rules/old-irish-orthography.tsv
 punctum = on
+# spec §11 / GPT #7: the template built-ins this file may call besides its own [mutations]
+# (LEN NAS) and [inflect] sub-tables — one per-file registry read by the parser and by
+# `strands check` (dsl.template_functions). Semantics in oldirish.build_oi_construction;
+# LEN_IF_F is the ADJ template's agreement lenition (plan Task 15 table), so it is declared too.
+template-functions = GEN NOM VOC DAT ART LEN_IF_F
 # spec §11: an EXPLICIT declared mapping. `-` = no partner. Read by spelled.py's quality pass.
 quality-pairs = pˠ:pʲ bˠ:bʲ t̪ˠ:tʲ d̪ˠ:dʲ k:c ɡ:ɟ fˠ:fʲ sˠ:ʃ x:ç ɣ:ɣʲ β:βʲ β̃:β̃ʲ ð:ðʲ θ:θʲ mˠ:mʲ n̪ˠ:nʲ ŋ:ɲ l̪ˠ:lʲ ɾˠ:ɾʲ h:h w:- vˠ:vʲ
 
@@ -756,3 +761,43 @@ DAT_O:
 # identity (digest §10.4): the dative's leniting mutation is supplied by the template.
 DAT_A:
 # identity, as DAT_O.
+
+[templates]
+# The constructions on SPELLED words (spec §5, §8 row O6, §11; O-10, O-25; plan Task 15).
+# An item is a quoted SPELLING (" " = word separator; O-25: never IPA), an argument slot
+# (NAME FATHER NOUN ADJ FIRST SECOND COLOUR), or FUNC(item). Functions: GEN NOM VOC DAT are
+# `oldirish.apply_case` over [inflect] by stem class (the lexicon's attested genitive wins);
+# LEN NAS are the [mutations] tables above; ART is this strand's own article (below). No
+# h-prefix and no t-prefix exist in this strand (spec §5). Each word keeps the capitalization
+# of its source (O-32): a lower-case element (*macc*, *aue*, *ingen*) stays lower-case.
+# Template lines take no %tag (the DSL has none for them); each comment opens with
+# `attested:` or `design:` instead, in the sense of spec §4 / plan R17.
+#
+# The article, ART(x) [digest §10.4 "The article"; wiki-old-irish-grammar §Declension of the
+# definite article]: sg. m. nom. in(t) · f. nom. in(d)ᴸ · n. nom. aᴺ · gen. m./n. in(d)ᴸ ·
+# f. gen. (in)naᴴ · dat. -(si)n(d)ᴸ · pl. (in)na. Written here as: *in* / *ind* / *int*, *a*,
+# *inna*; the ᴴ of the f. gen. is unwritten (aspiration "was not indicated at all", §10.4).
+# Final ⟨-d⟩ sandhi — CONFLICT (digest §10.4): Wikipedia keeps the -d "when the next word
+# begins in a vowel, a liquid, n, or f" unqualified; Pokorny restricts it to "before vowels
+# or aspirated f, l, n, r" [pokorny1914-oldirish-grammar p.59 §132]. This strand takes
+# Pokorny, the narrower cited rule: ⟨-d⟩ only on a LENITING form of the article, before a
+# vowel or a (lenited) ⟨f l n r⟩; ⟨-t⟩ before ⟨s⟩ (*int sléibe*, *int súil* — §10.4), which
+# after that same lenition is written ⟨ṡ⟩ here (O2 punctum). Singular only.
+#
+# PATRO_O / PATRO_NI would stand here for the other four targets; spec §5: the formations
+# below "replace PATRO_O/PATRO_NI, which do not apply to this strand" (O-17) — a request for
+# either raises ConstructionNotInStrand, a skip in the CLI and the gallery.
+DESC     = NOM(NOUN)                      # design: spec §11: NOM realizes the ending marker ⟨ə⟩ by stem class (Task 14); design: O-17 (DESC+ADJ = DESC, no epithet affixation)
+VOC      = "a" " " LEN(VOC(NAME))         # attested: digest §10.5: the particle a lenites [pokorny1914-oldirish-grammar p.8 §12]; VOC() = gen. for the masc. o-stem only, else identity (O-30; [pokorny1914-oldirish-grammar p.65 §142])
+GEN      = GEN(NAME)                      # attested: digest §10.5 stem-class table; [old-irish-lexicon] Níall/Néill, Cormac/Cormaic
+ADJ      = NAME " " LEN_IF_F(ADJ)         # attested: digest §10.4: an adjective is lenited after a nom. sg. f. [pokorny1914-oldirish-grammar p.8 §10]. S11: Pokorny also lenites it after a dat. sg., a voc. sg. of any gender and a gen./nom.-pl. masc. o-stem; the nom.-fem.-only trigger is a DELIBERATE NARROWING to the citation form this strand takes (spec §11)
+OF       = NAME " " ART(GEN(NOUN))        # attested: digest §10.4 article + digest §10.5 head-first genitive ("nominal modifiers… follow the noun" [utaustin-oldirish-lesson1 §2.1]); R22: this strand's own ART, not irish._article
+COMPOUND = FIRST LEN(SECOND)              # attested: digest §10.5 compounding rule 2: dag-theist, énḟlaith [pokorny1914-oldirish-grammar p.8 §16]. S9: Pokorny's blocking (before d t after l n s; after a homorganic consonant, p.9 §19) is NOT implemented
+MAEL     = "Máel" " " GEN(NAME)           # attested: spec §11 (i) / R21: NOT lenited — [old-irish-lexicon] Máel Coluim, Máel Muire, Máel Sechnaill (⟨S⟩, not ⟨Ṡ⟩, is decisive); digest §10.4 trigger table: a masc. nom. triggers nothing
+GILLA    = "Gilla" " " GEN(NAME)          # attested: spec §11 (i): not lenited — [old-irish-lexicon] Gilla Pátraic (Giolla row)
+CU       = "Cú" " " LEN(GEN(NAME))        # attested: spec §11 (i): lenites — digest §10.6 Cú Chulainn, gen. Con Culainn; [old-irish-lexicon] Cú Chulainn. S9: the blocking rule is NOT implemented (see COMPOUND)
+FER      = "Fer" " " GEN(NAME)            # attested: spec §5 / §8 row O6: Fer + genitive, no lenition — [old-irish-lexicon] Fer Diad (fear row)
+COLOUR   = COLOUR LEN(NAME)               # attested: spec §5: a COMPOUND (no " "), digest §10.5 compound lenition [pokorny1914-oldirish-grammar p.8 §16]; [old-irish-lexicon] Dubthach (dub + -thach, R31a), Donnchad. R31a: Dub-dá-leithe is three elements and is not the target
+MAC      = "macc" " " GEN(NAME)           # attested: digest §10.5 patronymics: Conchobar mac Nessa, Lug mac Ethnenn, Sualtaim mac Roich [utaustin-oldirish-lesson1 preamble]; [old-irish-lexicon] macc/maicc
+UA       = "aue" " " GEN(NAME)            # design: digest §10.5: "No Old Irish aue+genitive naming formula is stated" — the modern Ó/Ua rule projected backwards; the element is the lexicon's aue row (S10; [old-irish-lexicon] ua ~ aue, gen. aui)
+INGEN    = "ingen" " " LEN(GEN(NAME))     # design: S10, split citation — the FORMULA is design: digest §10.5 "not attested in these sources as a naming formula"; the MUTATION is attested: ingen is a fem. ā-stem ([old-irish-lexicon] ingen/ingine) and digest §10.4's trigger table makes the nom./voc. sg. of all feminines leniting

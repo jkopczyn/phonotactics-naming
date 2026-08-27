@@ -12,12 +12,10 @@ from strands.cli import main
 
 SNAPSHOT = ROOT / "tests" / "snapshots" / "gallery.md"
 
-# Task 12: the fifth target is dispatched but its [templates] are empty until Task 15, which
-# deletes these marks.
-_OI_PENDING = pytest.mark.xfail(strict=False, reason="old-irish templates land in Task 15")
-
-
-@_OI_PENDING
+# Old Irish plan Task 15 added the fifth strand's templates and the eight formations to
+# CONSTRUCTIONS, so the committed gallery is stale until Task 18 regenerates it and reviews
+# the diff (its step 4). Task 18 deletes this mark.
+@pytest.mark.xfail(strict=False, reason="gallery re-snapshot lands in Old Irish plan Task 18")
 def test_gallery_matches_the_committed_snapshot(tmp_path):
     out = tmp_path / "g.md"
     assert main(["gallery", str(ROOT / "sources" / "irish" / "test-words.tsv"),

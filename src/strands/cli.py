@@ -143,7 +143,7 @@ def run_rows(entries, constructions: Sequence[str], irish, targets, table) -> li
     """One row per entry × construction × strand, in that order. Skips (no IPA, missing
     slot) keep their row with a `skipped:` note (module docstring)."""
     from .irish import MissingSlot
-    from .pipeline import run_entry
+    from .pipeline import ConstructionNotInStrand, run_entry
     from .tokenize import SegmentError
     rows: list[dict[str, str]] = []
     for entry in entries:
@@ -162,6 +162,8 @@ def run_rows(entries, constructions: Sequence[str], irish, targets, table) -> li
                     except MissingSlot as e:
                         slot = str(e).split("slot ", 1)[-1].split(" ", 1)[0].strip("'\"")
                         notes.append(f"skipped:missing-slot-{slot}")
+                    except ConstructionNotInStrand:                 # Old Irish O-17
+                        notes.append("skipped:construction-not-in-strand")
                     except SegmentError as e:
                         raise RuntimeError(f"{entry.orthography} [{construction}, {name}]: {e}") from e
                     else:

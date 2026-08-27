@@ -1,43 +1,31 @@
 """Plan Task 28 (spec §8 layer 5): cross-target property checks over every test word, for
 every construction the CLI can build from a single entry (`run --construction all`, the
-gallery). Multi-slot templates (ADJ, OF, COMPOUND) raise MissingSlot and are skipped, exactly
-as `strands run` skips them."""
+gallery). Multi-slot templates (ADJ, OF, COMPOUND, COLOUR) raise MissingSlot and a
+construction the strand has no template for (Old Irish O-17: PATRO_* for old-irish, the
+eight formations for the other four) raises ConstructionNotInStrand; both are skipped,
+exactly as `strands run` skips them."""
 import functools
 
 import pytest
 
 from helpers import TABLE, entry_of, irish, read_allow_file, read_test_words
 from strands.irish import MissingSlot
-from strands.pipeline import CONSTRUCTIONS, TARGETS, load_target, parse_construction, run_entry
+from strands.pipeline import (CONSTRUCTIONS, ConstructionNotInStrand, TARGETS, load_target,
+                              run_entry)
 
 IRISH = irish()
 ROWS = read_test_words()
 ENTRIES = [entry_of(row) for row in ROWS]
 RF = {name: load_target(name, TABLE) for name in TARGETS}
 
-# Task 12: the fifth target is dispatched but its [templates] are empty until Task 15, which
-# deletes these marks.
-_OI_PENDING = pytest.mark.xfail(strict=False, reason="old-irish templates land in Task 15")
-
-
-def _case(name, construction, *, pending):
-    return pytest.param(name, construction, marks=[_OI_PENDING] if pending else [])
-
-
-# Until Task 15, old-irish supports only DESC (and its slot forms); the rest raise
-# ConstructionNotInStrand. The multi-word rows (*a Sheáin*) also leave the particle's
-# ending marker unresolved until DESC = NOM(NOUN) lands, so the stress check waits too.
-CASES = [_case(name, construction,
-               pending=name == "old-irish" and parse_construction(construction)[0] != "DESC")
-         for name in TARGETS for construction in CONSTRUCTIONS]
-STRESS_CASES = [_case(name, construction, pending=name == "old-irish")
-                for name in TARGETS for construction in CONSTRUCTIONS]
+CASES = [(name, construction) for name in TARGETS for construction in CONSTRUCTIONS]
+STRESS_CASES = CASES
 
 
 def _run(name, construction, i):
     try:
         return run_entry(ENTRIES[i], construction, IRISH, RF[name], TABLE)
-    except MissingSlot:
+    except (MissingSlot, ConstructionNotInStrand):
         return None
 
 
@@ -70,7 +58,6 @@ def test_every_output_segment_is_in_the_target_inventory(name, construction):
                 (name, construction, row["orthography"], word.segments)
 
 
-@_OI_PENDING
 def test_no_unrepaired_outside_the_allow_file():
     allowed = read_allow_file()
     bad = [(name, construction, row["orthography"])
@@ -94,11 +81,13 @@ def test_traces_are_never_empty(name):
     assert run_entry(ENTRIES[0], "DESC", IRISH, RF[name], TABLE).trace
 
 
-@_OI_PENDING
 def test_every_single_entry_construction_is_covered():
-    """The multi-slot templates are the only ones skipped for every entry."""
-    skipped = {c for name, c in CASES if not any(True for _ in _results(name, c))}
-    assert skipped == {"ADJ", "OF", "COMPOUND"}, skipped
+    """The multi-slot templates are the only ones skipped for every entry in EVERY strand
+    (a strand-less construction — PATRO_* for old-irish, the formations elsewhere — is
+    built by the strands that have it, Old Irish O-17)."""
+    skipped = {c for c in CONSTRUCTIONS
+               if not any(True for name in TARGETS for _ in _results(name, c))}
+    assert skipped == {"ADJ", "OF", "COMPOUND", "COLOUR"}, skipped
 
 
 # ---- lenition /h/ is not a dorsal fricative in any target -------------------------------

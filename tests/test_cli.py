@@ -2,16 +2,9 @@
 import csv
 import shutil
 
-import pytest
-
 from helpers import FIX, ROOT
 from strands.cli import main
 from strands.pipeline import TARGETS
-
-# Task 12: the fifth target is dispatched but its [templates] are empty until Task 15, which
-# deletes these marks.
-_OI_PENDING = pytest.mark.xfail(strict=False, reason="old-irish templates land in Task 15")
-
 
 def _rows(path):
     return list(csv.DictReader(path.open(encoding="utf-8"), delimiter="\t"))
@@ -36,7 +29,6 @@ def test_construction_all_includes_the_epithet_tags(tmp_path):
     assert {r["strand"] for r in rows} == {"arabic-egy"}
 
 
-@_OI_PENDING
 def test_run_is_deterministic(tmp_path):
     a, b = tmp_path / "a.tsv", tmp_path / "b.tsv"
     main(["run", str(FIX), "--out", str(a)]); main(["run", str(FIX), "--out", str(b)])
@@ -74,7 +66,6 @@ def test_explain_requires_a_strand():
     assert main(["explain", "kaː"]) == 2
 
 
-@_OI_PENDING
 def test_gallery_emits_markdown(tmp_path):
     out = tmp_path / "g.md"
     assert main(["gallery", str(FIX), "--out", str(out)]) == 0
@@ -84,7 +75,6 @@ def test_gallery_emits_markdown(tmp_path):
     assert "| welsh |" in text          # a column header names the strand
 
 
-@_OI_PENDING
 def test_gallery_shows_the_five_canon_names_verbatim(tmp_path):
     """Spec §12.J: the pre-existing strand-4 names are canon inputs, displayed in a
     reference row exactly as written and never adapted."""
@@ -108,7 +98,6 @@ def test_the_reference_row_is_not_produced_by_the_engine(monkeypatch):
     assert REFERENCE_NAMES == ("Tchaeul", "Th'tysh", "Kas'queil", "Xelxyx", "Ysclyth")
 
 
-@_OI_PENDING
 def test_gallery_is_deterministic(tmp_path):
     a, b = tmp_path / "a.md", tmp_path / "b.md"
     main(["gallery", str(FIX), "--out", str(a)]); main(["gallery", str(FIX), "--out", str(b)])
@@ -127,7 +116,6 @@ def test_lint_accept_rewrites_the_file(tmp_path):
     assert dst.read_text(encoding="utf-8") != before
 
 
-@_OI_PENDING
 def test_an_unreadable_orthography_is_skipped_with_a_note(tmp_path):
     """Since milestone 8 a missing `ipa` is constructed, so `skipped:no-ipa` is left only for
     an orthography `g2p` cannot read — and the row is kept, never an error."""
@@ -141,7 +129,6 @@ def test_an_unreadable_orthography_is_skipped_with_a_note(tmp_path):
     assert any("skipped" not in r["assumptions"] for r in rows)
 
 
-@_OI_PENDING
 def test_a_constructed_ipa_row_is_processed_normally(tmp_path):
     src = tmp_path / "in.tsv"
     src.write_text("orthography\tipa\nAisling\t\n", encoding="utf-8")
@@ -199,7 +186,6 @@ def test_lint_reports_an_unknown_segment_naming_the_word(tmp_path, capsys):
     assert "Bad" in err and "'Q'" in err
 
 
-@_OI_PENDING
 def test_unwritable_out_is_a_runtime_error(tmp_path, capsys):
     out = tmp_path / "no-such-dir" / "o.tsv"
     assert main(["run", str(FIX), "--strand", "welsh", "--construction", "DESC",

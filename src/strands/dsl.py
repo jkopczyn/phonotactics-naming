@@ -38,7 +38,7 @@ __all__ = [
     "SyllableSpec", "StressSpec", "Epithet", "TemplateItem",
     "ParseError", "parse_rules", "parse_rules_file",
     "SECTION_NAMES", "REWRITE_SECTIONS", "SUBTABLE_SECTIONS", "TAGS",
-    "STRESS_PROCEDURES", "TEMPLATE_ARGS", "TEMPLATE_FUNCS",
+    "STRESS_PROCEDURES", "TEMPLATE_ARGS", "template_functions",
 ]
 
 SECTION_NAMES: tuple[str, ...] = (
@@ -54,10 +54,14 @@ SUBTABLE_SECTIONS: tuple[str, ...] = ("mutations", "inflect")          # I-15
 CLUSTER_FALLBACK_VALUES: tuple[str, ...] = ("same-length", "keep")
 TAGS: tuple[str, ...] = ("attested", "design", "fallback")
 STRESS_PROCEDURES: tuple[str, ...] = ("initial", "penult", "cairene", "dutch-weight", "keep-source")
-TEMPLATE_ARGS: tuple[str, ...] = ("NAME", "FATHER", "NOUN", "ADJ", "FIRST", "SECOND")
-TEMPLATE_FUNCS: tuple[str, ...] = (
-    "LEN", "ECL", "HPREF", "TPREF", "GEN", "GEN_M1", "GEN_ACH", "GEN_F2", "GEN_M3",
-    "VOC_M1", "ART", "LEN_IF_F")
+# GPT #7: `COLOUR` joins the argument names for the Old Irish `COLOUR` formation (spec §8 row O6).
+TEMPLATE_ARGS: tuple[str, ...] = ("NAME", "FATHER", "NOUN", "ADJ", "FIRST", "SECOND", "COLOUR")
+# The template function names are NOT a fixed list (Old Irish spec §11, GPT #7): a call name
+# is legal in a file when it names one of the file's own mutation or inflection sub-tables
+# or one of the built-ins the file declares in `[meta] template-functions` (irish.rules:
+# `GEN ART LEN_IF_F`; old-irish.rules: `GEN NOM VOC DAT ART`). `template_functions(rf)` is
+# the one registry the parser and `strands check` both read, so they cannot drift.
+TEMPLATE_FUNCTIONS_KEY = "template-functions"
 _SYLLABLE_KEYS: frozenset[str] = frozenset((
     "template", "nuclei", "onsets", "codas", "onsets-tier", "codas-tier", "onset-required",
     "appendix", "domain", "sonority", "bans", "cluster-legality"))
@@ -904,6 +908,26 @@ class _SyllableBuilder:
             onset_pairs=_adjacent_pairs(self.onsets), coda_pairs=_adjacent_pairs(self.codas))
 
 
+def template_functions(rf: "RuleFile") -> frozenset[str]:
+    """The template call names legal in `rf` (Old Irish spec §11, GPT #7): the keys of its
+    mutation and inflection sub-tables (segment or grapheme) plus the built-ins declared in
+    `[meta] template-functions`. Read by the parser AND by `check.templates`."""
+    names: set[str] = set()
+    names.update(rf.mutations, rf.inflect, rf.grapheme_mutations, rf.grapheme_inflect)
+    names.update(rf.meta.get(TEMPLATE_FUNCTIONS_KEY, "").split())
+    return frozenset(names)
+
+
+def _template_calls(items: tuple[TemplateItem, ...]) -> list[str]:
+    out: list[str] = []
+    for item in items:
+        while item is not None:
+            if item.kind == "call":
+                out.append(item.value)
+            item = item.child
+    return out
+
+
 class _TemplateParser:
     """`NAME = t-item { t-item }` (I-16). Items: "quoted", ARG, FUNC(item), FUNC; `?` suffix."""
 
@@ -946,7 +970,10 @@ class _TemplateParser:
             self.i = j
             if name in TEMPLATE_ARGS:
                 item = TemplateItem("arg", name)
-            elif name in TEMPLATE_FUNCS:
+            else:
+                # A function call; the name is validated against `template_functions(rf)`
+                # once the whole file is parsed (the sub-tables it may name can follow the
+                # [templates] section).
                 self._ws()
                 if self.i < len(text) and text[self.i] == "(":
                     self.i += 1
@@ -961,10 +988,6 @@ class _TemplateParser:
                     item = TemplateItem("call", name, child)
                 else:
                     item = TemplateItem("call", name)   # applied to the head (I-16, R1)
-            else:
-                raise self.err(f"unknown template item {name!r}: expected a quoted literal, "
-                               "an argument (" + ", ".join(TEMPLATE_ARGS) + ") or a function ("
-                               + ", ".join(TEMPLATE_FUNCS) + ")")
         if self.i < len(text) and text[self.i] == "?":
             self.i += 1
             item = TemplateItem(item.kind, item.value, item.child, True)
@@ -1022,6 +1045,7 @@ def parse_rules(text: str, table: FeatureTable, path: str = "<string>") -> RuleF
     stress_line: int | None = None
     epithets: dict[str, Epithet] = {}
     templates: dict[str, tuple[TemplateItem, ...]] = {}
+    template_lines: dict[str, int] = {}
     subtables: dict[str, dict[str, list[Rule]]] = {name: {} for name in SUBTABLE_SECTIONS}
     gsubtables: dict[str, dict[str, list[object]]] = {name: {} for name in SUBTABLE_SECTIONS}
     grapheme_tokens: frozenset[str] | None = None
@@ -1121,6 +1145,7 @@ def parse_rules(text: str, table: FeatureTable, path: str = "<string>") -> RuleF
             if key in templates:
                 raise ParseError(f"template {key} declared twice", lineno, path)
             templates[key] = _TemplateParser(lineno, path).parse(value)
+            template_lines[key] = lineno
         elif section == "meta":
             key, value = _key_value(_strip_comment(line), lineno, path)
             if key == "grammar" and value != "graphemes":
@@ -1177,7 +1202,7 @@ def parse_rules(text: str, table: FeatureTable, path: str = "<string>") -> RuleF
             raise ParseError("[stress] needs 'procedure = ...'", stress_line, path)
         stress = StressSpec(stress_procedure, stress_params)
 
-    return RuleFile(
+    rf = RuleFile(
         path=str(path),
         meta=meta,
         inventory=tuple(inventory),
@@ -1196,6 +1221,19 @@ def parse_rules(text: str, table: FeatureTable, path: str = "<string>") -> RuleF
         cluster_fallback=cluster_fallback,
         overlay_undo=overlay_undo,
     )
+    # The per-file function registry (spec §11, GPT #7): every call names a sub-table of
+    # this file or a declared built-in. Checked after the whole file is read because the
+    # sub-tables may follow [templates].
+    legal = template_functions(rf)
+    for name, items in templates.items():
+        for func in _template_calls(items):
+            if func not in legal:
+                raise ParseError(
+                    f"template {name}: unknown template function {func!r}: expected a "
+                    "[mutations]/[inflect] sub-table of this file or a name in [meta] "
+                    f"{TEMPLATE_FUNCTIONS_KEY} (have: {', '.join(sorted(legal)) or 'none'})",
+                    template_lines[name], path)
+    return rf
 
 
 def parse_rules_file(path: str | Path, table: FeatureTable) -> RuleFile:
