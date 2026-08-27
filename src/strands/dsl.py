@@ -197,6 +197,11 @@ class RuleFile:
     templates: dict[str, tuple[TemplateItem, ...]] = field(default_factory=dict)
     mutations: dict[str, tuple[Rule, ...]] = field(default_factory=dict)   # I-15
     inflect: dict[str, tuple[Rule, ...]] = field(default_factory=dict)     # I-15
+    # `[meta] grammar = graphemes` (Old Irish spec §11, O-10): the sub-tables are
+    # GraphemeRule rewrites over the grapheme table and land here; `mutations`/`inflect`
+    # stay empty for such a file. Without the key these stay empty.
+    grapheme_mutations: dict[str, tuple[object, ...]] = field(default_factory=dict)
+    grapheme_inflect: dict[str, tuple[object, ...]] = field(default_factory=dict)
     overlay_undo: str | None = None         # [repair] directive: the overlay segment that may
                                             # be deleted again when the cluster its insertion
                                             # created is not licensed (owner decision
@@ -263,6 +268,18 @@ class _LineParser:
         return -1
 
     def parse(self, text: str) -> Rule:
+        target_text, repl_text, env_text, tag, comment, explicit_tag = self._split(text)
+        target = self._target(target_text)
+        replacement = self._replacement(repl_text)
+        left, right = self._environment(env_text, explicit_tag=explicit_tag)
+        return Rule(section=self.section, line=self.line,
+                    rule_id=f"{self.section}:{self.line}", target=target,
+                    replacement=replacement, left=left, right=right, tag=tag,
+                    comment=comment)
+
+    def _split(self, text: str) -> tuple[str, str, str | None, str, str, bool]:
+        """`TARGET -> REPLACEMENT [/ ENV] [%tag] [# comment]` -> (target text, replacement
+        text, environment text or None, tag, comment, whether the tag was explicit)."""
         arrow = self._find_outside(text, "->")
         if arrow < 0:
             raise self.err("rewrite line needs '->' (TARGET -> REPLACEMENT [/ ENV] [%tag])")
@@ -308,14 +325,7 @@ class _LineParser:
             repl_text, env_text = body[:slash], body[slash + 1:]
         else:
             repl_text, env_text = body, None
-
-        target = self._target(target_text)
-        replacement = self._replacement(repl_text)
-        left, right = self._environment(env_text, explicit_tag=pct >= 0)
-        return Rule(section=self.section, line=self.line,
-                    rule_id=f"{self.section}:{self.line}", target=target,
-                    replacement=replacement, left=left, right=right, tag=tag,
-                    comment=comment)
+        return target_text, repl_text, env_text, tag, comment, pct >= 0
 
     # -- item scanner -------------------------------------------------------------------------
 
@@ -585,6 +595,104 @@ class _LineParser:
         if toks[k].optional or toks[k].star or toks[k].capture is not None:
             raise self.err("'_' takes no suffix")
         return self._ctx_seq(toks[:k], "left"), self._ctx_seq(toks[k + 1:], "right")
+
+
+class _GraphemeLineParser(_LineParser):
+    """A `[mutations]`/`[inflect]` line of a `grammar = graphemes` file (Old Irish spec §11,
+    O-10; plan Task 7). Same line shape as a rewrite rule, but the items are GRAPHEME
+    TOKENS of the Old Irish grapheme table, the only other atoms are inline sets `{c t p}`,
+    the classes `V`/`C` (from the table's `role`) and `#`, and the result is a
+    `GraphemeRule`. Bundles, quoted text, backreferences, `@orth`, captures, `()` and `*`
+    are all errors: a grapheme rule has no features to constrain."""
+
+    def __init__(self, section: str, subtable: str, line: int, path: str,
+                 table: FeatureTable, tokens: frozenset[str]) -> None:
+        super().__init__(section, line, path, table)
+        self.subtable = subtable
+        self.tokens = tokens
+
+    def parse(self, text: str) -> "GraphemeRule":       # type: ignore[override]
+        from .spelled import GraphemeRule
+        target_text, repl_text, env_text, tag, comment, _ = self._split(text)
+        target = self._gtarget(target_text)
+        replacement = self._greplacement(repl_text)
+        left, right = self._genvironment(env_text)
+        return GraphemeRule(table=self.subtable, line=self.line,
+                            rule_id=f"{self.section}:{self.line}", target=target,
+                            replacement=replacement, left=left, right=right, tag=tag,
+                            comment=comment)
+
+    def _gatom(self, tok: _Tok, where: str, *, classes: bool) -> str:
+        if tok.capture is not None or tok.optional or tok.star:
+            raise self.err(f"captures, '()' and '*' are not allowed in a grapheme {where}")
+        if tok.kind == "word":
+            if tok.text in ("V", "C"):
+                if not classes:
+                    raise self.err(f"class {tok.text} is not allowed in a grapheme {where}")
+                return tok.text
+            if tok.text in self.tokens:
+                return tok.text
+            raise self.err(f"unknown grapheme token {tok.text!r} in {where}")
+        if tok.kind == "set":
+            if not classes:
+                raise self.err(f"an inline set is not allowed in a grapheme {where}")
+            members = tok.text.split()
+            if not members:
+                raise self.err("empty set '{}'")
+            for m in members:
+                if m not in self.tokens:
+                    raise self.err(f"unknown grapheme token {m!r} in set")
+            return "{" + " ".join(members) + "}"
+        raise self.err(f"{tok.text!r} is not a grapheme token; a grapheme {where} takes "
+                       "tokens, inline sets, V, C" + (" and #" if where == "environment"
+                                                      else ""))
+
+    def _gtarget(self, text: str) -> tuple[str, ...]:
+        toks = self._scan(text)
+        if not toks:
+            raise self.err("empty target")
+        if any(t.kind == "word" and t.text == "0" for t in toks):
+            if len(toks) != 1:
+                raise self.err("'0' must stand alone in a target")
+            return ()
+        return tuple(self._gatom(t, "target", classes=True) for t in toks)
+
+    def _greplacement(self, text: str) -> tuple[str, ...]:
+        toks = self._scan(text)
+        if not toks:
+            raise self.err("empty replacement (write 0 for deletion)")
+        if len(toks) == 1 and toks[0].kind == "word" and toks[0].text == "0":
+            return ()
+        return tuple(self._gatom(t, "replacement", classes=False) for t in toks)
+
+    def _genvironment(self, text: str | None) -> tuple[tuple[str, ...], tuple[str, ...]]:
+        if text is None:
+            return (), ()
+        toks = self._scan(text)
+        slots = [k for k, t in enumerate(toks) if t.kind == "special" and t.text == "_"]
+        if len(slots) != 1:
+            raise self.err("environment needs exactly one '_'")
+        k = slots[0]
+        if toks[k].optional or toks[k].star or toks[k].capture is not None:
+            raise self.err("'_' takes no suffix")
+
+        def side(items: list[_Tok], which: str) -> tuple[str, ...]:
+            out: list[str] = []
+            for j, t in enumerate(items):
+                if t.kind == "special":
+                    edge_ok = t.text == "#" and (
+                        (which == "left" and j == 0) or (which == "right" and j == len(items) - 1))
+                    if not edge_ok:
+                        if t.text == "#":
+                            raise self.err("comment after environment requires an explicit "
+                                           "%tag (I-3: '#' inside an environment is the word "
+                                           "edge)")
+                        raise self.err(f"{t.text!r} is not allowed in a grapheme environment")
+                    out.append("#")
+                else:
+                    out.append(self._gatom(t, "environment", classes=True))
+            return tuple(out)
+        return side(toks[:k], "left"), side(toks[k + 1:], "right")
 
 
 # ---- file parser ----------------------------------------------------------------------------
@@ -884,6 +992,22 @@ def _epithet(line: str, lineno: int, path: str, table: FeatureTable) -> Epithet:
     return Epithet(name, form, left, right)
 
 
+def _grapheme_tokens(orthography: str | None, line: int, path: str) -> frozenset[str]:
+    """The token vocabulary a `grammar = graphemes` file validates against: the grapheme
+    table named by `[meta] orthography` (relative to the project root), else the Old Irish
+    default."""
+    from .spelled import OI_ORTHOGRAPHY_PATH, SpelledError, load_graphemes
+    table_path = OI_ORTHOGRAPHY_PATH
+    if orthography:
+        table_path = Path(orthography)
+        if not table_path.is_absolute():
+            table_path = OI_ORTHOGRAPHY_PATH.parents[1] / table_path
+    try:
+        return frozenset(r.token for r in load_graphemes(table_path))
+    except (OSError, SpelledError) as e:
+        raise ParseError(f"cannot load grapheme table {table_path}: {e}", line, path) from e
+
+
 def parse_rules(text: str, table: FeatureTable, path: str = "<string>") -> RuleFile:
     text = unicodedata.normalize("NFC", text)
     meta: dict[str, str] = {}
@@ -899,6 +1023,8 @@ def parse_rules(text: str, table: FeatureTable, path: str = "<string>") -> RuleF
     epithets: dict[str, Epithet] = {}
     templates: dict[str, tuple[TemplateItem, ...]] = {}
     subtables: dict[str, dict[str, list[Rule]]] = {name: {} for name in SUBTABLE_SECTIONS}
+    gsubtables: dict[str, dict[str, list[object]]] = {name: {} for name in SUBTABLE_SECTIONS}
+    grapheme_tokens: frozenset[str] | None = None
     current_subtable: str | None = None
     cluster_fallback: str | None = None
     overlay_undo: str | None = None
@@ -945,19 +1071,27 @@ def parse_rules(text: str, table: FeatureTable, path: str = "<string>") -> RuleF
                 continue
             sections[section].append(_LineParser(section, lineno, path, table).parse(line))
         elif section in SUBTABLE_SECTIONS:
+            graphemes = meta.get("grammar") == "graphemes"
+            store = gsubtables if graphemes else subtables
             head = _SUBTABLE_HEAD_RE.match(line)
             if head and "->" not in line:
                 current_subtable = head.group(1)
-                if current_subtable in subtables[section]:
+                if current_subtable in store[section]:
                     raise ParseError(f"[{section}] table {current_subtable} declared twice",
                                      lineno, path)
-                subtables[section][current_subtable] = []
+                store[section][current_subtable] = []
                 continue
             if current_subtable is None:
                 raise ParseError(f"[{section}] rule before any 'NAME:' sub-table head (I-15)",
                                  lineno, path)
-            subtables[section][current_subtable].append(
-                _LineParser(section, lineno, path, table).parse(line))
+            if graphemes:
+                if grapheme_tokens is None:
+                    grapheme_tokens = _grapheme_tokens(meta.get("orthography"), lineno, path)
+                store[section][current_subtable].append(_GraphemeLineParser(
+                    section, current_subtable, lineno, path, table, grapheme_tokens).parse(line))
+            else:
+                store[section][current_subtable].append(
+                    _LineParser(section, lineno, path, table).parse(line))
         elif section == "syllable":
             assert syllable is not None
             syllable.entry(line, lineno)
@@ -989,6 +1123,9 @@ def parse_rules(text: str, table: FeatureTable, path: str = "<string>") -> RuleF
             templates[key] = _TemplateParser(lineno, path).parse(value)
         elif section == "meta":
             key, value = _key_value(_strip_comment(line), lineno, path)
+            if key == "grammar" and value != "graphemes":
+                raise ParseError(f"grammar must be 'graphemes' (Old Irish spec §11), not "
+                                 f"{value!r}; omit the key for a segment grammar", lineno, path)
             meta[key] = value
         elif section == "inventory":
             body = _strip_comment(line).strip()
@@ -1054,6 +1191,8 @@ def parse_rules(text: str, table: FeatureTable, path: str = "<string>") -> RuleF
         templates=templates,
         mutations={k: tuple(v) for k, v in subtables["mutations"].items()},
         inflect={k: tuple(v) for k, v in subtables["inflect"].items()},
+        grapheme_mutations={k: tuple(v) for k, v in gsubtables["mutations"].items()},
+        grapheme_inflect={k: tuple(v) for k, v in gsubtables["inflect"].items()},
         cluster_fallback=cluster_fallback,
         overlay_undo=overlay_undo,
     )

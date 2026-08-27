@@ -22,7 +22,7 @@ from .dsl import (
 from .features import FeatureError, FeatureTable
 from .stress.params import PROCEDURE_PARAMS
 
-__all__ = ["CheckError", "check_lexicon_file", "check_rule_file"]
+__all__ = ["CheckError", "check_grapheme_table", "check_lexicon_file", "check_rule_file"]
 
 _CLASS_RE = re.compile(r"[A-Z][A-Z0-9_]*\Z")
 _TEMPLATE_SPECIAL_SLOTS = frozenset({"C", "V", "N"})
@@ -330,3 +330,87 @@ def check_lexicon_file(path: str | Path) -> list[CheckError]:
     except LexiconError as e:
         return [CheckError(1, "LEX_HEADER", str(e), "error")]
     return validate(header, entries, path)
+
+
+# ---- the Old Irish grapheme table (Old Irish plan Task 7) ------------------------------------
+
+def check_grapheme_table(path: str | Path | None = None, table: FeatureTable | None = None
+                         ) -> list[CheckError]:
+    """Validate `rules/old-irish-orthography.tsv` (codes `GRAPH_*`): every `ipa` segment is
+    a features.tsv row; `env` is one of `spelled.ENVS`; `role` one of `spelled.ROLES` (seven
+    values — no `punctum` role, so the ⟨ṡ⟩/⟨ḟ⟩ rows validate as cons/silent carrying a
+    `punctum` column); a non-empty `punctum` is a single plain letter; EXACTLY one row has
+    `role = ending` (spec §11: one temporary escape hatch, not a family); no two rows share
+    `(token, env, left)`; and every token is reachable — some spelling that honours the
+    token's own `env`/`left` tokenizes to it (a token only ever shadowed by a longer one is
+    dead data). An unreadable table is a single GRAPH_HEADER error."""
+    from .features import load_features
+    from .spelled import (ENVS, OI_ORTHOGRAPHY_PATH, ROLES, SpelledError, load_graphemes,
+                          tokenize_spelling)
+
+    path = OI_ORTHOGRAPHY_PATH if path is None else Path(path)
+    if table is None:
+        table = load_features(OI_ORTHOGRAPHY_PATH.parent / "features.tsv")
+    try:
+        rows = load_graphemes(path)
+    except (OSError, SpelledError) as e:
+        return [CheckError(1, "GRAPH_HEADER", str(e), "error")]
+
+    out: list[CheckError] = []
+    seen: dict[tuple[str, str, str], int] = {}
+    endings: list[int] = []
+    for r in rows:
+        for seg in r.ipa:
+            if seg not in table:
+                out.append(CheckError(r.line, "GRAPH_UNKNOWN_SEGMENT",
+                                      f"token {r.token!r}: ipa segment {seg!r} is not a "
+                                      "features.tsv row", "error"))
+        if r.env not in ENVS:
+            out.append(CheckError(r.line, "GRAPH_BAD_ENV",
+                                  f"token {r.token!r}: env {r.env!r} is not one of "
+                                  + ", ".join(ENVS), "error"))
+        if r.role not in ROLES:
+            out.append(CheckError(r.line, "GRAPH_BAD_ROLE",
+                                  f"token {r.token!r}: role {r.role!r} is not one of "
+                                  + ", ".join(ROLES), "error"))
+        if r.punctum and not (len(r.punctum) == 1 and r.punctum.isalpha()):
+            out.append(CheckError(r.line, "GRAPH_BAD_PUNCTUM",
+                                  f"token {r.token!r}: punctum {r.punctum!r} must be a "
+                                  "single plain letter", "error"))
+        if r.role == "ending":
+            endings.append(r.line)
+        key = (r.token, r.env, r.left)
+        if key in seen:
+            out.append(CheckError(r.line, "GRAPH_DUPLICATE_ROW",
+                                  f"token {r.token!r} env {r.env!r} left {r.left or '-'!r} "
+                                  f"repeats line {seen[key]}", "error"))
+        else:
+            seen[key] = r.line
+    if len(endings) != 1:
+        out.append(CheckError(endings[1] if len(endings) > 1 else 0, "GRAPH_ENDING_COUNT",
+                              f"exactly one row must have role = ending (spec §11); found "
+                              f"{len(endings)}", "error"))
+
+    # Reachability: build the smallest spellings the token's rows allow and see whether
+    # tokenizing them yields the token.
+    first_line: dict[str, int] = {}
+    reachable: set[str] = set()
+    for r in rows:
+        first_line.setdefault(r.token, r.line)
+        if r.token in reachable:
+            continue
+        pres = [""] if r.env == "initial" else ([r.left[0]] if r.left else ["t", "a"])
+        posts = [""] if r.env == "final" else ["", "t", "a"]
+        for pre in pres:
+            for post in posts:
+                try:
+                    if r.token in tokenize_spelling(pre + r.token + post, rows):
+                        reachable.add(r.token)
+                except SpelledError:
+                    continue
+    for token, line in first_line.items():
+        if token not in reachable:
+            out.append(CheckError(line, "GRAPH_UNREACHABLE_TOKEN",
+                                  f"token {token!r} is never produced by tokenization "
+                                  "(shadowed by a longer token or its own env/left)", "error"))
+    return sorted(out, key=lambda e: (e.line, e.code, e.message))
