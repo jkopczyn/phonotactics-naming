@@ -206,3 +206,187 @@ mark = on
 # spec §4: "unstressed vowels are not reduced (unlike modern Irish)" — deliberately EMPTY.
 # digest §10.2's unstressed-vowel grid is a SPELLING matter and lives in the grapheme table
 # (Task 7) and [respell] (Task 11), not here.
+
+[respell]
+# Editorial Old Irish orthography (spec §6, §11; digest §10.2 conventions 1-6; plan Task 11).
+# This is the ONLY producer of a spelled word on the RETRO path: Task 12 hands the string to
+# `SpelledWord.from_spelling`, so every character written here must be a grapheme token of
+# rules/old-irish-orthography.tsv (R27; a property test asserts it). Chunks are opaque and
+# contexts read the ORIGINAL segment stream (I-19, spec §12.C), which is why the order below
+# is load-bearing: guards before the doubling table, diphthongs before single vowels, the
+# final ending marker before the schwa grid. Quality is not reversed (O-3): a slender
+# consonant is written with the same letter as its broad partner and marked only by the
+# §36 glide ⟨i⟩ (conv. 5).
+#
+# (1) Stops after a nasal or liquid keep their voice and are written SINGLE (digest §10.2
+#     conv. 4: "stops after ⟨l n r m⟩ are genuinely ambiguous" — *derc* /dʲerk/ ~ /dʲerɡ/,
+#     *imb* /imʲbʲ/, *bind*, *cerd*, *long*, *delg*; §10.4: nasalized ⟨mb nd ng⟩). These
+#     must precede table (6), which would otherwise write *mp* or *derc* for /dʲerɡ/.
+bˠ -> "b" / {mˠ mʲ} _                   %design   # digest §10.4 (⟨mb⟩ /m/); §10.2 conv. 4 (*imb* /imʲbʲ/)
+bʲ -> "b" / {mˠ mʲ} _                   %design   # digest §10.4; §10.2 conv. 4 (*imb*)
+d̪ˠ -> "d" / {n̪ˠ nʲ ɾˠ ɾʲ} _             %design   # digest §10.4 (⟨nd⟩); §10.2 conv. 4 (*bind*, *cerd*)
+dʲ -> "d" / {n̪ˠ nʲ ɾˠ ɾʲ} _             %design   # digest §10.4 (⟨nd⟩); §10.2 conv. 4 (*bind*, *cerd*)
+ɡ -> "g" / {ŋ ɲ l̪ˠ lʲ ɾˠ ɾʲ} _          %attested # digest §10.4 (⟨ng⟩); §10.2 conv. 4 (*long*, *delg*); lexicon dearg ~ derg
+ɟ -> "g" / {ŋ ɲ l̪ˠ lʲ ɾˠ ɾʲ} _          %design   # digest §10.4 (⟨ng⟩); §10.2 conv. 4 (*delg* /dʲelɡ/)
+k -> "c" / SONORANT _                   %attested # digest §10.2 conv. 4 (*derc*, *daltae* ~ *celtae*: no doubling after l n r m); lexicon adharc ~ adarc
+c -> "c" / SONORANT _                   %design   # digest §10.2 conv. 4
+t̪ˠ -> "t" / SONORANT _                  %design   # digest §10.2 conv. 4 (*daltae* /daLte/)
+tʲ -> "t" / SONORANT _                  %design   # digest §10.2 conv. 4
+pˠ -> "p" / SONORANT _                  %design   # digest §10.2 conv. 4; /p/ marginal (digest §10.1)
+pʲ -> "p" / SONORANT _                  %design   # digest §10.2 conv. 4; /p/ marginal (digest §10.1)
+#
+# (2) Unwritten lenition (digest §10.2 conv. 1): "b, d, g, m ... may represent the aspirated
+#     or the unaspirated sounds" [pokorny1914-oldirish-grammar p.7 §8]. THERE IS NO ⟨bh dh gh
+#     mh⟩ IN OLD IRISH — the single biggest visual difference from a modern name and the
+#     lexicon log's largest reversal class.
+β -> "b"                                %attested # digest §10.2 conv. 1 [pokorny1914-oldirish-grammar p.7 §8]; lexicon dubh ~ dub, sliabh ~ slíab
+βʲ -> "b"                               %attested # digest §10.2 conv. 1; lexicon sliabh ~ slíab (gen. sléibe)
+ð -> "d"                                %attested # digest §10.2 conv. 1; lexicon adharc ~ adarc
+ðʲ -> "d"                               %attested # digest §10.2 conv. 1; lexicon Lughaidh ~ Lugaid (final ⟨-aid⟩)
+ɣ -> "g"                                %attested # digest §10.2 conv. 1; lexicon Lughaidh ~ Lugaid
+ɣʲ -> "g"                               %attested # digest §10.2 conv. 1; lexicon Lughaidh ~ Lugaid (gen. Luigdech)
+β̃ -> "m"                                %attested # digest §10.2 conv. 1; lexicon lámh ~ lám
+β̃ʲ -> "m"                               %attested # digest §10.2 conv. 1; lexicon Niamh ~ ném
+#
+# (3) Written lenition: "only in the case of c, p, t is aspiration regularly expressed in
+#     writing" (conv. 1) — ⟨ch th ph⟩; "in later Old Irish, initial f s come to be written
+#     ḟ ṡ". ⟨ph⟩ and ⟨ṡ⟩ only where the SOURCE spelling was ⟨ph⟩ / ⟨sh⟩ (the orth tag
+#     survives [substitute]'s rewrite); an /f/ or /h/ of any other origin is ⟨f⟩ / ⟨h⟩.
+x -> "ch"                               %attested # digest §10.2 conv. 1; lexicon cloch ~ cloch
+ç -> "ch"                               %design   # digest §10.2 conv. 1 (⟨ch⟩ = /x/; /xʲ/ IS ç, O-1)
+θ -> "th"                               %attested # digest §10.2 conv. 1; lexicon bláth ~ bláth, cath ~ cath
+θʲ -> "th"                              %design   # digest §10.2 conv. 1
+@orth("ph") -> "ph"                     %design   # digest §10.2 conv. 1 (⟨ph⟩ = /f/); no attested pair (log finding 3)
+fˠ -> "f"                               %attested # digest §10.2 master table (⟨f⟩ = /f/); lexicon Fionn ~ Finn
+fʲ -> "f"                               %attested # digest §10.2 master table; lexicon fear ~ fer
+@orth("sh") -> "ṡ"                      %design   # digest §10.2 conv. 1 (later Old Irish ⟨ṡ⟩ = /h/); punctum = off renders ⟨s⟩ (O-14)
+h -> "h"                                %design   # digest §10.2 conv. 6 (⟨h⟩ = /h/ where a sound is written at all)
+#
+# (4) Diphthongs, before the single-vowel rules (I-19: each becomes ONE opaque chunk, so a
+#     claimed diphthong can never be re-matched as ⟨á⟩ + glide — digest §10.8 conflict 5).
+#     Values are the O-28 set (wiki-old-irish §Vowels); ⟨áe⟩ is the filter's default for
+#     modern ⟨ao⟩ (spec §8 row O1, O-13; the lexicon also writes ⟨aí⟩ and ⟨óe⟩).
+a i -> "áe"                             %design   # digest §10.1 diphthongs [pokorny1914-oldirish-grammar p.6 §4]; design: spec §8 row O1 (⟨ao⟩ -> ⟨áe⟩, O-13)
+o i -> "oí"                             %design   # digest §10.1 diphthongs; O-28
+u i -> "uí"                             %design   # digest §10.1 diphthongs; O-28
+a u -> "áu"                             %design   # digest §10.1 diphthongs; O-28
+e u -> "éu"                             %design   # digest §10.1 diphthongs; O-28 (lexicon éan ~ én, gen. éuin)
+i u -> "íu"                             %design   # digest §10.1 diphthongs; O-28
+i a -> "ía"                             %attested # digest §10.1 diphthongs; lexicon iasc ~ íasc, Niall ~ Níall
+u a -> "úa"                             %attested # digest §10.1 diphthongs; lexicon tuath ~ túath
+ə i -> "aí"                             %design   # digest §10.1 diphthongs (the modern /əi/ pass-through of [syllable] nuclei, O-28); lexicon Tadhg ~ Tadg is the lexicon's own spelling
+ə u -> "áu"                             %design   # digest §10.1 diphthongs (the modern /əu/ pass-through, O-28)
+#
+# (5) Length: the acute (spec §6; digest §10.1).
+aː -> "á"                               %attested # digest §10.1 long vowels; lexicon lámh ~ lám, bláth ~ bláth
+eː -> "é"                               %attested # digest §10.1 long vowels; lexicon éan ~ én
+iː -> "í"                               %design   # digest §10.1 long vowels
+oː -> "ó"                               %design   # digest §10.1 long vowels
+uː -> "ú"                               %design   # digest §10.1 long vowels
+#
+# (6) Conv. 2-3 doubling: "⟨c t p⟩ are voiced /ɡ d b/ non-initially unless doubled" —
+#     *macc* /mak/ vs *bec* /bʲeɡ/, *bratt* vs *brot*; "geminating a consonant ensures its
+#     unmutated sound". So a non-initial voiceless stop is doubled and a non-initial voiced
+#     stop is written with the voiceless letter. This restores *mac -> macc* with no lexical
+#     list. Initial = `# _`; (1) has already claimed the post-sonorant cases.
+k -> "c" / # _                          %attested # digest §10.2 master table; lexicon cloch ~ cloch, cath ~ cath
+k -> "cc"                               %attested # digest §10.2 conv. 2-3 (*macc* /mak/); lexicon mac ~ macc
+c -> "c" / # _                          %attested # digest §10.2 master table; lexicon ceann ~ cenn
+c -> "cc"                               %attested # digest §10.2 conv. 2-3; lexicon mac ~ macc (gen. maicc)
+t̪ˠ -> "t" / # _                         %attested # digest §10.2 master table; lexicon tuath ~ túath
+t̪ˠ -> "tt"                              %design   # digest §10.2 conv. 2-3 (*bratt* /brat/)
+tʲ -> "t" / # _                         %design   # digest §10.2 master table
+tʲ -> "tt"                              %design   # digest §10.2 conv. 2-3
+pˠ -> "p" / # _                         %design   # digest §10.2 master table; /p/ marginal (digest §10.1)
+pˠ -> "pp"                              %design   # digest §10.2 conv. 2-3 (⟨pp⟩ /p/)
+pʲ -> "p" / # _                         %design   # digest §10.2 master table; /p/ marginal
+pʲ -> "pp"                              %design   # digest §10.2 conv. 2-3
+ɡ -> "g" / # _                          %attested # digest §10.2 master table; lexicon gorm ~ gorm
+ɡ -> "c"                                %design   # digest §10.2 conv. 2 (*bec* /bʲeɡ/); the lexicon's own rows may keep ⟨g⟩ (Tadhg ~ Tadg)
+ɟ -> "g" / # _                          %design   # digest §10.2 master table
+ɟ -> "c"                                %design   # digest §10.2 conv. 2
+d̪ˠ -> "d" / # _                         %attested # digest §10.2 master table; lexicon dubh ~ dub, dearg ~ derg
+d̪ˠ -> "t"                               %design   # digest §10.2 conv. 2 (*brot* /brod/)
+dʲ -> "d" / # _                         %design   # digest §10.2 master table
+dʲ -> "t"                               %design   # digest §10.2 conv. 2
+bˠ -> "b" / # _                         %attested # digest §10.2 master table; lexicon bláth ~ bláth
+bˠ -> "p"                               %design   # digest §10.2 conv. 2 (non-initial ⟨p⟩ = /b/)
+bʲ -> "b" / # _                         %attested # digest §10.2 master table; lexicon bean ~ ben
+bʲ -> "p"                               %design   # digest §10.2 conv. 2
+#
+# (7) Sonorant geminates: "double letters mean fortis" (conv. 3), ⟨ll nn rr mm⟩ = /L N R m/
+#     (O-2: fortis is the doubled TOKEN, not a segment). R16, stated honestly: modern Irish
+#     has no geminates and nothing upstream creates one, so these lines fire only on a
+#     lexicon-sourced word, never on filter output. *ainm -> ainmm*, *cill -> cell*,
+#     *bainne -> bannae*, *Neasa -> Nessa* are NOT derivable and are lexicon-only; what IS
+#     delivered is the spelling of a geminate that already exists.
+l̪ˠ l̪ˠ -> "ll"                            %attested # digest §10.2 conv. 3 (⟨ll⟩ /L/); lexicon Niall ~ Níall
+lʲ lʲ -> "ll"                           %attested # digest §10.2 conv. 3; lexicon cill ~ cell (gen. cille)
+n̪ˠ n̪ˠ -> "nn"                            %attested # digest §10.2 conv. 3 (⟨nn⟩ /N/); lexicon Fionn ~ Finn
+nʲ nʲ -> "nn"                           %attested # digest §10.2 conv. 3; lexicon ceann ~ cenn (gen. cinn)
+ɾˠ ɾˠ -> "rr"                           %design   # digest §10.2 conv. 3 (⟨rr⟩ /R/)
+ɾʲ ɾʲ -> "rr"                           %design   # digest §10.2 conv. 3
+mˠ mˠ -> "mm"                           %attested # digest §10.2 conv. 3 (⟨mm⟩ /m/); lexicon ainm ~ ainmm
+mʲ mʲ -> "mm"                           %attested # digest §10.2 conv. 3; lexicon ainm ~ ainmm
+#
+# (8) The §36 glide (digest §10.2 conv. 5): "before a palatal consonant at the end of a word
+#     or of a syllable (except after í, é, and the diphthongs áe/aí, óe/oí, uí) a glide-vowel
+#     i is regularly inserted" — *muir* < *mori [pokorny1914-oldirish-grammar p.14 §36]. The
+#     glide precedes the whole final slender cluster (*cairt*). S20: the exception list is
+#     Pokorny's — í, é and the i-final diphthongs (already an ⟨i⟩, the set below omits i) —
+#     NOT short ⟨e⟩, and not ⟨ía úa⟩ (gen. *Bríain*). §39: no glide before a broad
+#     consonant (*fer*) — the SLEN class does that. The reduction vowel /ə/ is excluded: the
+#     grid in (10) writes its own ⟨ai⟩. §37's optional intervocalic glide is not written.
+#     "Or of a syllable" is written as "before a consonant" (conv. 5 (ii): slender "after a
+#     written i, when not followed by a vowel letter"), NOT with `.`: [syllable] has
+#     `onsets = any`, so every medial cluster is an onset and a `.` variant could never fire
+#     (*Muirchertach* syllabifies mˠu.ɾʲçeɾˠ.t̪ˠax). The two lines are disjoint by
+#     construction (a slender consonant is followed by `#`, a consonant, or a vowel), so a
+#     final cluster (*ceinn*, *cairt*) gets one glide, not two.
+0 -> "i" / {a e o u aː oː uː} _ SLEN #  %attested # digest §10.2 conv. 5 [pokorny1914-oldirish-grammar p.14 §36]; lexicon muir ~ muir, Colmán ~ Colmán (gen. Colmáin)
+0 -> "i" / {a e o u aː oː uː} _ SLEN C  %design   # digest §10.2 conv. 5 (ii) [wiki-old-irish §Orthography]; [pokorny1914-oldirish-grammar p.14 §36] ("or of a syllable")
+#
+# (9) Word-final /ə/ is the UNRESOLVED ENDING MARKER (spec §11): a grapheme token with an
+#     empty reconstruction, realized by Task 14's NOM_A / NOM_O by stem class (*-e* for
+#     ā-stems, *-a* otherwise). Never a finished output. Before (10), so the grid cannot
+#     claim it.
+ə -> "ə" / _ #                          %design   # design: spec §11 "unresolved ending marker"; digest §10.2 conv. 5 (the letter has no relation to the etymological vowel)
+#
+# (10) The post-stress /ə/ grid (digest §10.2 conv. 5 [wiki-old-irish §Vowels]): "the vowel
+#      letter has no relation to the etymological vowel" — it is chosen by the quality of
+#      the flanking consonants. Last line: a fallback for an unclassed neighbour (/h/, a
+#      vowel, the word start), so the marker token can never leak into a medial position.
+ə -> "a" / BROAD _ BROAD                %attested # digest §10.2 conv. 5 grid (*dígal* /ˈdʲiːɣəl/) [wiki-old-irish §Vowels]; lexicon Colmán ~ Colmán
+ə -> "ai" / BROAD _ SLEN                %attested # digest §10.2 conv. 5 grid (*dígail* /ˈdʲiːɣəlʲ/); lexicon Lughaidh ~ Lugaid
+ə -> "e" / SLEN _ BROAD                 %design   # digest §10.2 conv. 5 grid (*dliged* /ˈdʲlʲiɣʲəð/)
+ə -> "i" / SLEN _ SLEN                  %design   # digest §10.2 conv. 5 grid (*dligid* /ˈdʲlʲiɣʲəðʲ/)
+ə -> "a"                                %fallback # design: digest §10.2 conv. 5 (broad default where no flanking consonant is classed); keeps the ending token out of medial position
+#
+# (11) Identity (S21): written explicitly rather than left to the stage's pass-through, so
+#      the section is complete over the inventory and the R27 property is checkable.
+a -> "a"                                %attested # digest §10.1 short vowels; lexicon cath ~ cath
+e -> "e"                                %attested # digest §10.1 short vowels; lexicon fear ~ fer
+i -> "i"                                %attested # digest §10.1 short vowels; lexicon Fionn ~ Finn
+o -> "o"                                %attested # digest §10.1 short vowels; lexicon cloch ~ cloch
+u -> "u"                                %attested # digest §10.1 short vowels; lexicon dubh ~ dub
+æ -> "a"                                %design   # design: digest §10.1 (u-infected /a/, marginal); no held source gives its letter — ⟨a⟩ keeps the output tokenizable (R27)
+sˠ -> "s"                               %attested # digest §10.2 master table; lexicon sliabh ~ slíab
+ʃ -> "s"                                %attested # digest §10.2 master table (no slender letter, conv. 5); lexicon sliabh ~ slíab
+l̪ˠ -> "l"                               %attested # digest §10.2 master table; lexicon cloch ~ cloch
+lʲ -> "l"                               %attested # digest §10.2 master table; lexicon sliabh ~ slíab
+n̪ˠ -> "n"                               %attested # digest §10.2 master table; lexicon éan ~ én
+nʲ -> "n"                               %attested # digest §10.2 master table; lexicon Niall ~ Níall
+ɾˠ -> "r"                               %attested # digest §10.2 master table; lexicon gorm ~ gorm
+ɾʲ -> "r"                               %attested # digest §10.2 master table; lexicon muir ~ muir
+mˠ -> "m"                               %attested # digest §10.2 master table; lexicon mac ~ macc
+mʲ -> "m"                               %attested # digest §10.2 master table; lexicon Niamh ~ ném
+ŋ -> "n"                                %design   # digest §10.2 master table (⟨ng⟩ /ŋ/: the ⟨g⟩ is the stop's letter, written by (1))
+ɲ -> "n"                                %design   # digest §10.2 master table
+# Filter-only transients: [substitute] (g) rewrites /w vʲ/ before this stage; the lines
+# exist so that every INVENTORY member has a spelling (S6, R27).
+w -> "b"                                %design   # digest §10.1 chart (no /w/; lenited b = /v/~/β/, written ⟨b⟩ by conv. 1)
+vʲ -> "b"                               %design   # digest §10.1 chart
+#
+# (12) No h-prefix (spec §6; digest §10.2 conv. 6: "there is no consistent relationship"
+#      between the letter and the sound — *Ériu* ~ *Hériu*). Deliberately absent: nothing
+#      here or in [mutations] writes an ⟨h⟩ before a vowel.
