@@ -82,7 +82,9 @@ the engine plan's `I-n`. Numbers are stable across drafts; **O-8 is withdrawn**,
   `"NAS"`). It is **lossless**: `"".join(tokens)` is the written form up to capitalization, which is
   stored, not spelled. Tokens come from one table (`rules/old-irish-orthography.tsv`) that also
   carries each token's reconstruction, so there is no second alphabet to keep in sync. Silent
-  tokens (`ḟ`, the glide `i`) and the punctum forms (`ṡ`, `ḟ`) are ordinary tokens. Task 7 defines
+  tokens (`ḟ`, the glide `i`), the punctum forms (`ṡ`, `ḟ`) and the unresolved ending marker `ə`
+  are ordinary tokens — the punctum forms are `cons`/`silent` rows carrying a plain-letter
+  `punctum` column, not a role of their own. Task 7 defines
   it; every other Old Irish task consumes it. This replaces draft 1's IPA-internal grammar and is
   what makes the mutation/reconstruction bridge lossless (GPT P1 #1).
 - **O-10 Old Irish grammar operates on the spelled word, not on IPA** (spec §11, replacing draft
@@ -98,7 +100,8 @@ the engine plan's `I-n`. Numbers are stable across drafts; **O-8 is withdrawn**,
   requirement in the other direction, and draft 1's `respell(spelling_to_ipa(x)) == x` test is
   deleted: it was the constraint that made the bridge lossy.
 - **O-14 `punctum` is a rendering option applied after reconstruction** (spec §11, §8 row O2).
-  `[meta] punctum = on|off`, default `on`. `off` maps `ṡ→s`, `ḟ→f` in the **output string only**;
+  `[meta] punctum = on|off`, default `on`. `off` substitutes each token's plain form from the
+  grapheme table's **`punctum` column** (`ṡ→s`, `ḟ→f`) in the **output string only**;
   the tokens, the metadata and the IPA are unaffected, so the setting provably cannot change the
   IPA. A test asserts exactly that.
 
@@ -314,8 +317,8 @@ phonotactics/
 | 3 | Lexicon fix-up: stem classes, `kind` values, both verification files | 2 |
 | 4 | Middle Irish tier — the 49 unresolved names | 3 |
 | 5 | Orthography↔IPA aligner and the `Word.orth` channel | — |
-| 6 | The `@orth("…")` rule item with positional tags | 5 |
-| 7 | **`SpelledWord`, the grapheme table, `spelling_to_ipa`, grapheme rewrites** | 1 |
+| 6 | The `@orth("…")` rule item with positional tags | 2, 5 |
+| 7 | **`SpelledWord`, the grapheme table, `spelling_to_ipa`, grapheme rewrites** | 1, 6 |
 | 8 | `old-irish.rules`: `[meta] [inventory] [classes]` | 1, 7 |
 | 9 | `old-irish.rules [substitute]` — the retro-filter | 6, 8 |
 | 10 | `[syllable] [repair] [stress] [post-stress]` | 9 |
@@ -336,13 +339,19 @@ phonotactics/
 - `src/strands/oldirish.py` is created by Task **12** and extended by **13, 14, 15, 16** — the same
   chain, so it is serialised too. Draft 1's cycle (Task 15 editing a file Task 12 creates while
   Task 13 also edits it) is gone.
-- `src/strands/check.py` is edited by Tasks **2, 6, 7 and 14**. 2/6/7 are otherwise independent, so
-  **run them sequentially, or expect a mechanical merge**: the additions are in different functions
-  (`check_lexicon_file`, `Checker.item`, `check_grapheme_table`, `Checker.grapheme_rules`).
+- `src/strands/check.py` is edited by Tasks **2, 6, 7 and 14**, and the dependency table now
+  **serialises them: 2 → 6 → 7 → 14.** Task 6 depends on Task 2 and Task 7 depends on Task 6 *for
+  this reason and no other* — the four additions are in different functions
+  (`check_lexicon_file`, `Checker.item`, `check_grapheme_table`, `Checker.grapheme_rules`) and would
+  merge mechanically, but draft 2's "expect a mechanical merge" left two tasks free to run
+  concurrently on one file, which is not a dependency graph. If an executor prefers concurrency
+  over the ordering, the sanctioned alternative is to **split the checks into disjoint modules**
+  (`check_lexicon.py`, `check_orth.py`, `check_graphemes.py`, each exporting a function
+  `check.py` re-exports); take that route explicitly or take the ordering, not neither.
 - `src/strands/dsl.py` is edited by Tasks **6** and **15**; they are ordered by the chain.
 
-**Parallelism.** Tasks **1, 2 and 5** are fully independent and may run at once. Then **3, 6, 7**
-(7 needs 1). Then the long serial spine 8→9→10→11→12→13→14→15, with **4** and **17** able to run
+**Parallelism.** Tasks **1, 2 and 5** are fully independent and may run at once. Then **3** (needs
+2) and **6** (needs 5 and 2) in parallel, then **7** (needs 1 and 6). Then the long serial spine 8→9→10→11→12→13→14→15, with **4** and **17** able to run
 beside it (4 after 3; 17 after 15). Only Tasks 3 and 4 need network access, and both are
 extension/verification passes over an already-harvested, already-once-verified file (O-24) — but
 they are per-row research jobs with live page fetches, not "small extensions": budget them
@@ -1381,7 +1390,9 @@ failure is total and silent; the channel survives `replaced`, `split_words` **an
 
 ## Task 6: The `@orth("…")` rule item
 
-**Depends on:** Task 5. **Spec:** §4, §11. O-6. **Review:** R9.
+**Depends on:** Tasks 2 and 5 — Task 2 only because both edit `src/strands/check.py` and the
+plan serialises that file (2 → 6 → 7 → 14) rather than leaving a merge to chance.
+**Spec:** §4, §11. O-6. **Review:** R9.
 
 **Files:** modify `src/strands/dsl.py`, `src/strands/rewrite.py`, `src/strands/check.py`; test
 `tests/test_dsl_orth_atom.py`.
@@ -1577,8 +1588,9 @@ on the phonological half.
 ---
 ## Task 7: `SpelledWord`, the grapheme table, `spelling_to_ipa`, and grapheme rewrites
 
-**Depends on:** Task 1. **Spec:** §11 (the whole first bullet), §6; digest §10.2 (master table and
-conventions 1–6), §10.1. O-27, O-10, O-11, O-14, O-28, O-29, O-32.
+**Depends on:** Tasks 1 and 6 — Task 6 only for the `src/strands/check.py` serialisation
+(2 → 6 → 7 → 14); nothing here consumes `@orth`. **Spec:** §11 (the whole first bullet), §6;
+digest §10.2 (master table and conventions 1–6), §10.1. O-27, O-10, O-11, O-14, O-28, O-29, O-32.
 
 **This is the pivotal task of draft 2.** Everything Old Irish downstream of the retro-filter is
 expressed in the object it defines. Read spec §11 before starting.
@@ -1604,7 +1616,10 @@ class SpelledWord:
     def from_spelling(cls, text: str) -> "SpelledWord": ...
         """Tokenize a written Old Irish word. Lossless: `render()` returns `text` again."""
     def render(self, *, punctum: bool = True) -> str: ...
-        """The written form. `punctum=False` maps ṡ->s, ḟ->f in the OUTPUT ONLY (O-14)."""
+        """The written form. `punctum=False` substitutes each token's PLAIN FORM from the
+        grapheme table's `punctum` column (ṡ->s, ḟ->f) in the OUTPUT ONLY (O-14). The
+        substitution is data, not a hardcoded map, so a later punctum form needs a table row
+        and no code change."""
     def ipa(self) -> tuple[str, ...]: ...
         """= spelling_to_ipa(self). One-way and final (O-11)."""
 
@@ -1613,13 +1628,20 @@ class SpelledError(Exception): ...
 # ---- the table ----------------------------------------------------------------------------
 OI_ORTHOGRAPHY_PATH: Path                      # rules/old-irish-orthography.tsv
 
+ROLES = ("cons", "vowel", "long", "nasal", "glide", "silent", "ending")
+"""The complete `role` vocabulary. `glide` and `silent` produce no segment and mark quality
+or nothing; `ending` is the unresolved ending marker of spec §11 (see below). There is NO
+`punctum` role: a punctum form is an ordinary consonant or silent token that happens to have
+a plain-letter variant, which is the `punctum` COLUMN."""
+
 @dataclass(frozen=True)
 class GraphemeRow:
     token: str          # lower-case letters as written, 1-3 chars
     env: str            # "initial" | "noninitial" | "any"
     left: str           # letters that must precede (digest §10.2 conv.4), or "" for any
     ipa: tuple[str, ...]   # () = silent
-    role: str           # "cons" | "vowel" | "glide" | "silent" | "nasal" | "long"
+    role: str           # one of ROLES
+    punctum: str        # the plain-letter form for `punctum = off`, or "" for none
     note: str
 
 def load_graphemes(path=None) -> tuple[GraphemeRow, ...]   # LONGEST TOKEN FIRST, then file order
@@ -1657,66 +1679,77 @@ and the result is `GraphemeRule`, not `Rule`. `RuleFile` gains
 `mutations`/`inflect` fields stay empty for such a file, so `irish.rules` and the four targets are
 untouched. Without the meta key the parser behaves exactly as today.
 
-**The grapheme table.** Header `token  env  left  ipa  role  note`; `ipa` is `+`-joined or `-` for
-silent; `left` is a set of letters or `-`. Rows, transcribed from digest §10.2's master table and
-conventions, with the citation in `note`:
+**The grapheme table.** Header `token  env  left  ipa  role  punctum  note`; `ipa` is `+`-joined
+or `-` for silent; `left` is a set of letters or `-`; `role` is one of `ROLES`; `punctum` is the
+plain-letter form used when `punctum = off`, or `-` for none. Rows, transcribed from digest §10.2's
+master table and conventions, with the citation in `note` (the `punctum` column is `-` on every row
+except the two named):
 
-| token | env | left | ipa | role | source |
-|---|---|---|---|---|---|
-| `mb` | initial | – | `mˠ` | nasal | master table ⟨b⟩ eclipsed = **/m/** (O-29; §10.4's *a m-bo* is the counter-datum) |
-| `nd` | initial | – | `n̪ˠ` | nasal | master table ⟨d⟩ eclipsed |
-| `ng` | initial | – | `ŋ` | nasal | master table ⟨g⟩ eclipsed |
-| `ch` | any | – | `x` | cons | master table, ⟨c⟩ lenited |
-| `th` | any | – | `θ` | cons | master table |
-| `ph` | any | – | `fˠ` | cons | master table |
-| `ṡ` | any | – | `h` | punctum | master table ⟨ṡ sh⟩ = /h/ |
-| `sh` | any | – | `h` | cons | master table (the pre-punctum spelling) |
-| `ḟ` | any | – | `-` | punctum | master table ⟨ḟ fh⟩ = **∅** |
-| `fh` | any | – | `-` | silent | master table |
-| `cc` | any | – | `k` | cons | conv. 3 (geminate = unmutated) |
-| `tt` | any | – | `t̪ˠ` | cons | conv. 3 |
-| `pp` | any | – | `pˠ` | cons | conv. 3 |
-| `bb` | any | – | `bˠ` | cons | conv. 3 |
-| `ss` | any | – | `sˠ` | cons | conv. 3 (*Nessa*, *Fergusso* — R29a) |
-| `ll` | any | – | `l̪ˠ+l̪ˠ` | cons | conv. 3, fortis (O-2) |
-| `nn` | any | – | `n̪ˠ+n̪ˠ` | cons | conv. 3 |
-| `rr` | any | – | `ɾˠ+ɾˠ` | cons | conv. 3 |
-| `mm` | any | – | `mˠ+mˠ` | cons | conv. 3 |
-| `c` | initial | – | `k` | cons | master table |
-| `c` | noninitial | – | `ɡ` | cons | conv. 2 (*bec* /bʲeɡ/ vs *becc*) |
-| `t` | initial | – | `t̪ˠ` | cons | master table |
-| `t` | noninitial | – | `d̪ˠ` | cons | conv. 2 (*brot* /brod/) |
-| `p` | initial | – | `pˠ` | cons | master table |
-| `p` | noninitial | – | `bˠ` | cons | conv. 2 |
-| `b` | initial | – | `bˠ` | cons | master table |
-| `b` | noninitial | `m` | `bˠ` | cons | **conv. 4** — *imb* /imʲbʲ/ (R28) |
-| `b` | noninitial | – | `β` | cons | conv. 2 — *dub* /duv/, *marb* /marv/ |
-| `d` | initial | – | `d̪ˠ` | cons | master table |
-| `d` | noninitial | `nr` | `d̪ˠ` | cons | **conv. 4** — *bind*, *cerd* (R28) |
-| `d` | noninitial | – | `ð` | cons | conv. 2 — *mod* /moð/ |
-| `g` | initial | – | `ɡ` | cons | master table |
-| `g` | noninitial | `nlr` | `ɡ` | cons | **conv. 4** — *long* /Loŋɡ/, *delg* (R28); *ingen* /inʲɣʲən/ is the stated exception and is a lexicon row |
-| `g` | noninitial | – | `ɣ` | cons | conv. 2 — *mug* /muɣ/ |
-| `m` | initial | – | `mˠ` | cons | master table |
-| `m` | noninitial | – | `β̃` | cons | master table (non-initial ⟨m⟩ = /ṽ/) |
-| `f` `s` `h` `l` `n` `r` | any | – | `fˠ` `sˠ` `h` `l̪ˠ` `n̪ˠ` `ɾˠ` | cons | master table |
-| `aí` `áe` | any | – | `a+i` | vowel | §10.1 diphthongs, **O-28 values** |
-| `oí` `óe` | any | – | `o+i` | vowel | §10.1 |
-| `uí` | any | – | `u+i` | vowel | §10.1 |
-| `áu` | any | – | `a+u` | vowel | §10.1 |
-| `éu` `éo` | any | – | `e+u` | vowel | §10.1 |
-| `íu` | any | – | `i+u` | vowel | §10.1 |
-| `ía` | any | – | `i+a` | vowel | §10.1 |
-| `úa` | any | – | `u+a` | vowel | §10.1 |
-| `á` `é` `í` `ó` `ú` | any | – | `aː` `eː` `iː` `oː` `uː` | long | §10.1, and "all unstressed long vowels have been shortened" [pokorny1914 p.20 §56] applies only to *unaccented* letters |
-| `ae` | any | – | `ə` | vowel | §41 final ⟨-ae⟩ after a broad consonant (R29a) |
-| `ai` | any | – | `ə` | vowel | §41 final ⟨-ai⟩ |
-| `ea` | any | – | `a` | vowel | §40 final ⟨-ea⟩ after a slender consonant |
-| `eo` | any | – | `o` | vowel | §40 final ⟨-eo⟩ |
-| `iu` | any | – | `u` | vowel | §40 final ⟨-iu⟩ |
-| `a` `e` `o` `u` | any | – | `a` `e` `o` `u` | vowel | §10.1, five short vowels |
-| `i` | any | – | `i` | vowel | §10.1 |
-| `n-` | initial | – | `n̪ˠ` | nasal | §10.4 nasalization of a vowel-initial word |
+| token | env | left | ipa | role | punctum | source |
+|---|---|---|---|---|---|---|
+| `mb` | initial | – | `mˠ` | nasal | - | master table ⟨b⟩ eclipsed = **/m/** (O-29; §10.4's *a m-bo* is the counter-datum) |
+| `nd` | initial | – | `n̪ˠ` | nasal | - | master table ⟨d⟩ eclipsed |
+| `ng` | initial | – | `ŋ` | nasal | - | master table ⟨g⟩ eclipsed |
+| `ch` | any | – | `x` | cons | - | master table, ⟨c⟩ lenited |
+| `th` | any | – | `θ` | cons | - | master table |
+| `ph` | any | – | `fˠ` | cons | - | master table |
+| `ṡ` | any | – | `h` | cons | s | master table ⟨ṡ sh⟩ = /h/ |
+| `sh` | any | – | `h` | cons | - | master table (the pre-punctum spelling) |
+| `ḟ` | any | – | `-` | silent | f | master table ⟨ḟ fh⟩ = **∅** |
+| `fh` | any | – | `-` | silent | - | master table |
+| `cc` | any | – | `k` | cons | - | conv. 3 (geminate = unmutated) |
+| `tt` | any | – | `t̪ˠ` | cons | - | conv. 3 |
+| `pp` | any | – | `pˠ` | cons | - | conv. 3 |
+| `bb` | any | – | `bˠ` | cons | - | conv. 3 |
+| `ss` | any | – | `sˠ` | cons | - | conv. 3 (*Nessa*, *Fergusso* — R29a) |
+| `ll` | any | – | `l̪ˠ+l̪ˠ` | cons | - | conv. 3, fortis (O-2) |
+| `nn` | any | – | `n̪ˠ+n̪ˠ` | cons | - | conv. 3 |
+| `rr` | any | – | `ɾˠ+ɾˠ` | cons | - | conv. 3 |
+| `mm` | any | – | `mˠ+mˠ` | cons | - | conv. 3 |
+| `c` | initial | – | `k` | cons | - | master table |
+| `c` | noninitial | – | `ɡ` | cons | - | conv. 2 (*bec* /bʲeɡ/ vs *becc*) |
+| `t` | initial | – | `t̪ˠ` | cons | - | master table |
+| `t` | noninitial | – | `d̪ˠ` | cons | - | conv. 2 (*brot* /brod/) |
+| `p` | initial | – | `pˠ` | cons | - | master table |
+| `p` | noninitial | – | `bˠ` | cons | - | conv. 2 |
+| `b` | initial | – | `bˠ` | cons | - | master table |
+| `b` | noninitial | `m` | `bˠ` | cons | - | **conv. 4** — *imb* /imʲbʲ/ (R28) |
+| `b` | noninitial | – | `β` | cons | - | conv. 2 — *dub* /duv/, *marb* /marv/ |
+| `d` | initial | – | `d̪ˠ` | cons | - | master table |
+| `d` | noninitial | `nr` | `d̪ˠ` | cons | - | **conv. 4** — *bind*, *cerd* (R28) |
+| `d` | noninitial | – | `ð` | cons | - | conv. 2 — *mod* /moð/ |
+| `g` | initial | – | `ɡ` | cons | - | master table |
+| `g` | noninitial | `nlr` | `ɡ` | cons | - | **conv. 4** — *long* /Loŋɡ/, *delg* (R28); *ingen* /inʲɣʲən/ is the stated exception and is a lexicon row |
+| `g` | noninitial | – | `ɣ` | cons | - | conv. 2 — *mug* /muɣ/ |
+| `m` | initial | – | `mˠ` | cons | - | master table |
+| `m` | noninitial | – | `β̃` | cons | - | master table (non-initial ⟨m⟩ = /ṽ/) |
+| `f` `s` `h` `l` `n` `r` | any | – | `fˠ` `sˠ` `h` `l̪ˠ` `n̪ˠ` `ɾˠ` | cons | - | master table |
+| `aí` `áe` | any | – | `a+i` | vowel | - | §10.1 diphthongs, **O-28 values** |
+| `oí` `óe` | any | – | `o+i` | vowel | - | §10.1 |
+| `uí` | any | – | `u+i` | vowel | - | §10.1 |
+| `áu` | any | – | `a+u` | vowel | - | §10.1 |
+| `éu` `éo` | any | – | `e+u` | vowel | - | §10.1 |
+| `íu` | any | – | `i+u` | vowel | - | §10.1 |
+| `ía` | any | – | `i+a` | vowel | - | §10.1 |
+| `úa` | any | – | `u+a` | vowel | - | §10.1 |
+| `á` `é` `í` `ó` `ú` | any | – | `aː` `eː` `iː` `oː` `uː` | long | - | §10.1, and "all unstressed long vowels have been shortened" [pokorny1914 p.20 §56] applies only to *unaccented* letters |
+| `ae` | any | – | `ə` | vowel | - | §41 final ⟨-ae⟩ after a broad consonant (R29a) |
+| `ai` | any | – | `ə` | vowel | - | §41 final ⟨-ai⟩ |
+| `ea` | any | – | `a` | vowel | - | §40 final ⟨-ea⟩ after a slender consonant |
+| `eo` | any | – | `o` | vowel | - | §40 final ⟨-eo⟩ |
+| `iu` | any | – | `u` | vowel | - | §40 final ⟨-iu⟩ |
+| `a` `e` `o` `u` | any | – | `a` `e` `o` `u` | vowel | - | §10.1, five short vowels |
+| `i` | any | – | `i` | vowel | - | §10.1 |
+| `n-` | initial | – | `n̪ˠ` | nasal | - | §10.4 nasalization of a vowel-initial word |
+| `ə` | any | – | `-` | **ending** | - | **spec §11's unresolved ending marker.** Not a letter of the Old Irish alphabet and never a finished output: Task 11 writes it for a stem-final modern /ə/ the filter cannot resolve, and Task 14's `NOM_A`/`NOM_O` replace it with ⟨e⟩ or ⟨a⟩ by stem class. It is in the table for exactly one reason — so that `SpelledWord.from_spelling` can tokenize a `[respell]` output that still contains it. Its reconstruction is **empty**, so a leaked marker is silent rather than a bogus segment |
+
+**The ending marker is a token, not a letter.** `ə` is the single `role = ending` row. It exists
+only to keep the RETRO hand-off tokenizable: Task 11's `ə -> "ə" / _ #` emits it, Task 12 hands the
+string to `SpelledWord.from_spelling`, and Task 14 eliminates it. **An `ə` in a finished output is
+an error**, enforced in three places — `SpelledWord.render()` does *not* special-case it (so it
+would be visible), Task 18's property test asserts no gallery output contains it, and
+`check_grapheme_table` asserts there is exactly one `ending` row so nobody adds a second escape
+hatch. Its empty reconstruction means a leak degrades to a missing sound, not a wrong one.
 
 **Silent tokens and the glide.** The glide ⟨i⟩ of digest §10.2 conv. 5 §36 is **not** a separate
 letter in the source — it is an ⟨i⟩ that carries no vowel. It cannot therefore be a distinct table
@@ -1941,6 +1974,42 @@ def test_capitalization_and_mutation_survive_a_rewrite():
 
 # ---- failure ------------------------------------------------------------------------------
 
+# ---- the ending marker (spec §11) ---------------------------------------------------------
+
+def test_the_ending_marker_tokenizes_and_reconstructs_to_nothing():
+    """It exists so a [respell] output carrying an unresolved stem-final /ə/ can become a
+    SpelledWord at all (Task 11 -> Task 12). Its reconstruction is EMPTY."""
+    w = SpelledWord.from_spelling("carə")
+    assert w.graphemes == ("c", "a", "r", "ə") and w.render() == "carə"
+    assert spelling_to_ipa(w) == ("k", "a", "ɾˠ")
+
+
+def test_the_ending_marker_is_the_only_ending_role_row():
+    """check_grapheme_table enforces this: one temporary escape hatch, not a family."""
+    assert [r.token for r in load_graphemes() if r.role == "ending"] == ["ə"]
+
+
+def test_the_ending_marker_is_not_hidden_at_render_time():
+    """A leaked marker must be VISIBLE, so Task 18's property test can catch it. It is an
+    error in a finished output, never a silently-dropped character."""
+    assert "ə" in SpelledWord.from_spelling("carə").render()
+    assert "ə" in SpelledWord.from_spelling("carə").render(punctum=False)
+
+
+def test_punctum_off_uses_the_tables_punctum_column_not_a_hardcoded_map():
+    rows = {r.token: r.punctum for r in load_graphemes()}
+    assert rows["ṡ"] == "s" and rows["ḟ"] == "f"
+    assert all(r.punctum == "" for r in load_graphemes() if r.token not in ("ṡ", "ḟ"))
+
+
+def test_no_row_uses_a_punctum_role():
+    """The punctum forms are ordinary cons/silent rows with a plain-letter variant."""
+    from strands.spelled import ROLES
+    assert "punctum" not in ROLES
+    by_token = {r.token: r.role for r in load_graphemes()}
+    assert by_token["ṡ"] == "cons" and by_token["ḟ"] == "silent"
+
+
 def test_an_unknown_character_raises_and_names_it():
     with pytest.raises(SpelledError, match="z"):
         SpelledWord.from_spelling("fezr")
@@ -1974,7 +2043,10 @@ BROAD↔SLEN pairing is read from the declared class lists and never derived pos
 - [ ] **Step 5: Add the `grammar = graphemes` mode to `dsl.py` and the checks to `check.py`**
 
 `check_grapheme_table(path)` validates: every `ipa` segment is a `features.tsv` row; every `env` is
-one of the three; `role` is one of the six; no two rows have the same `(token, env, left)`; and
+one of the three; `role` is one of `spelled.ROLES` (**seven** values — `cons vowel long nasal
+glide silent ending`; there is no `punctum` role, so the ⟨ṡ⟩/⟨ḟ⟩ rows validate as `cons`/`silent`
+carrying a `punctum` column value); the `punctum` column, where non-empty, is a single plain letter;
+**exactly one row has `role = ending`**; no two rows have the same `(token, env, left)`; and
 every `token` is reachable — i.e. tokenizing the concatenation of all tokens yields each of them at
 least once. `Checker.grapheme_rules` (added in Task 14) will validate the sub-tables against it.
 
@@ -1992,8 +2064,10 @@ git commit -m "feat(spelled): lossless Old Irish spelled word, grapheme table, o
 **Acceptance:** every spelled word round-trips its own spelling; the digest's conv. 2, 3 and 4
 examples reconstruct; the glide ⟨i⟩ contributes no segment; doubled tokens keep one quality;
 unstressed non-final short vowels reduce; the eight diphthongs use the O-28 values; ⟨mb⟩ is a single
-nasal; ⟨ḟ⟩ is a written silent token; unwritten lenition changes the IPA and not the string;
-`punctum=off` changes the string and not the IPA; grapheme tables apply simultaneously or in order
+nasal; ⟨ḟ⟩ is a written silent token with `punctum = f`; the `ə` ending marker tokenizes,
+reconstructs to nothing, renders visibly and is the only `ending` row; unwritten lenition changes
+the IPA and not the string; `punctum=off` changes the string via the table's own column and not the
+IPA; grapheme tables apply simultaneously or in order
 as asked; the suite is unchanged.
 
 ---
