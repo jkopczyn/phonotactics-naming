@@ -1,5 +1,4 @@
-"""Tasks 13-15: Old Irish mutations, inflection and templates as GRAPHEME operations
-(spec §5, §11; digest §10.4-§10.5)."""
+"""Task 13: Old Irish mutations as GRAPHEME operations (spec §5, §11; digest §10.4)."""
 
 import pytest
 from helpers import irish, target

@@ -1,8 +1,11 @@
 # attested.csv format
 
-Tab-separated, UTF-8, one attested adaptation per line, header row:
+Comma-separated (RFC 4180), UTF-8, one attested adaptation per line, header row:
 
-    source_lang	source_form	source_ipa	target_form	target_ipa	process	provenance	note
+    source_lang,source_form,source_ipa,target_form,target_ipa,process,provenance,note
+
+An optional ninth column `layer` (`historical` | `modern` | `translit`; welsh only so far) tags
+the period of the evidence; readers ignore columns they do not know.
 
 - `source_lang` — ISO 639-3 of the donor (eng, fra, rus, gle, …).
 - `source_form` — donor orthography as given in the source document.

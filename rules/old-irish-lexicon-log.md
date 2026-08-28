@@ -362,7 +362,7 @@ reason the loan test has to be "is it in Old Irish?", not "is it ultimately fore
 ## Second pass (Task 3, 2026-08-27)
 
 Plan Task 3 (`docs/plans/2026-08-27-old-irish-plan.md`) re-worked the file row by row against
-spec §10. Both verification passes are now TSVs beside the file:
+spec §10. Both verification passes are now CSVs beside the file:
 `old-irish-lexicon.verification.csv` (the 35-row first pass above, transcribed from the
 verifying agent's own table — SKIP became `ok` with a note) and
 `old-irish-lexicon.verification2.csv` (this pass). File after the pass: **302 rows** (273

@@ -8,6 +8,8 @@ columns read as "". `infer()` fills what is missing and records every guess in
 
 Inference order (spec §5, I-38):
 
+0. `ipa` "" -> `construct_ipa(orthography, dialect)` via `strands.g2p` (milestone 8)
+                                    `ipa:constructed` + `g2p:<note>`, or `skipped:no-ipa`
 1. `dialect` "" -> "C"                                       `dialect:default-C`
 2. `gender` "" -> the known-name list (built from test-words.csv glosses that say
    "(m. given name)" / "(f. given name)"), then orthographic endings, else "m"
@@ -21,10 +23,11 @@ aliases such as ASCII `g` and quality-less consonants, which are in neither `BRO
 `SLEN`), so an alias-final feminine noun is `f2`, not the `m1` default, and the inferred
 `gen_ipa` is canonical. No stress is added to the stored `gen_ipa`.
 
-
+A row whose `ipa` cannot be constructed is kept, tagged `skipped:no-ipa`; steps 1–3 still
+run on its orthography and step 4 is skipped. Supplied values are never overwritten.
 
 `declension` is an optional input column (spec §12.K, 2026-08-27); when empty, the `GEN()`
-fallback of I-38) is treated as "not yet inferred": `infer()` re-derives it whenever it is ""
+fallback of I-38 is treated as "not yet inferred": `infer()` re-derives it whenever it is ""
 or "m1" and keeps any other value. A row that really is `m1` therefore always carries a
 `declension:inferred-m1` tag.
 """
@@ -50,6 +53,8 @@ __all__ = [
     "INPUT_COLUMNS",
     "DECLENSIONS",
     "Entry",
+    "InputError",
+    "construct_ipa",
     "read_input",
     "infer",
     "lint_report",

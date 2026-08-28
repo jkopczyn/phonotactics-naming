@@ -25,6 +25,7 @@ uv run strands lint names.csv
 ```
 ```
 indeagó	ipa = ˈɪnʲdʲəɡoː	ipa:constructed
+indeagó	dialect = C	dialect:default-C
 indeagó	gender = m	gender:default-m
 indeagó	declension = d4	declension:inferred-d4
 …
@@ -46,11 +47,12 @@ uv run strands run names.csv                            # every construction, al
 uv run strands gallery names.csv --out names.md         # the same as a Markdown table
 ```
 ```
-indeagó  welsh       injygo    ɪn.ˈdʒə.ɡɔ
-indeagó  arabic-egy  indagoo   ʔin.da.ˈɡoː
-indeagó  georgian    injiago   indʒiɑɡɔ
-indeagó  dutch       indjego   ˈɪn.djə.ɣoː
-indeagó  old-irish   indecó    inʲdʲəɡoː     RETRO
+orthography,construction,strand,respelling,ipa,flags,fallbacks,assumptions
+indeagó,DESC,welsh,injygo,ɪn.ˈdʒə.ɡɔ,,0,
+indeagó,DESC,arabic-egy,indagoo,ʔin.da.ˈɡoː,,0,
+indeagó,DESC,georgian,injiago,indʒiɑɡɔ,,0,
+indeagó,DESC,dutch,indjego,ˈɪn.djə.ɣoː,,0,
+indeagó,DESC,old-irish,indecó,inʲdʲəɡoː,RETRO,0,stem:from-declension-d4
 ```
 
 **Or skip the file.** For one word, `word` does steps 1–3 in place (the IPA is the same g2p
@@ -60,6 +62,13 @@ guess, shown on the first line so you can check it; `--trace` adds step 4 for on
 uv run strands word indeagó
 uv run strands word indeagó --strand welsh --trace
 uv run strands word indeagó --save              # keep it: writes 20260827-143000-indeagó.csv, as lint --accept would
+```
+```
+indeagó  welsh       injygo    ɪn.ˈdʒə.ɡɔ
+indeagó  arabic-egy  indagoo   ʔin.da.ˈɡoː
+indeagó  georgian    injiago   indʒiɑɡɔ
+indeagó  dutch       indjego   ˈɪn.djə.ɣoː
+indeagó  old-irish   indecó    inʲdʲəɡoː     RETRO
 ```
 
 **4. To see why**, give `explain` the IPA from the file (it does not take spelling as its
@@ -77,13 +86,31 @@ strands gallery INPUT.csv [--out FILE]
 strands lint INPUT.csv [--accept]
 strands explain IPA --strand X [--construction NAME] [--orthography TEXT] [--save [FILE]]
 strands word SPELLING [--strand X|all] [--construction NAME] [--trace] [--save [FILE]]
-strands check RULES.rules … | LEXICON.csv
+strands check [--features PATH] RULES.rules … | LEXICON.csv
+strands reverse PATTERN --strand X [--examples N] [--ipa]
 ```
 
 Defaults: `--strand all`; `--construction all` for `run`, `DESC` for `explain` and `word`; output to stdout
 without `--out`. Exit `0` ok, `1` runtime failure (printed on stderr), `2` usage error.
 
 Strands: `welsh` `arabic-egy` `georgian` `dutch` `old-irish`.
+
+`reverse` runs the pipeline backwards: given one strand and a target respelling — possibly a
+glob such as `Ar*v*`; `--ipa` reads the pattern as target IPA — it prints the constraint set
+(which Irish spellings can produce each target letter, what is unconstrained, what is excluded),
+an Irish spelling pattern, and a few examples, each one re-run forward through the engine before
+it is shown. It over-generates and may miss; `--examples 0` skips the verification pass.
+`--strand all` is refused, and `old-irish` is a lexicon lookup only.
+
+```sh
+uv run strands reverse injygo --strand welsh --examples 3
+```
+```
+verified examples (3 of 38 candidates tried; 0 fallbacks unless shown)
+  indeagó    injygo   ɪndʒəɡɔ
+  indegeo    injygo   ɪndʒəɡɔ
+  iaindeagó  injygo   ɪndʒəɡɔ
+```
 
 ## Input
 
@@ -107,7 +134,9 @@ Connacht (`C`) unless set; `declension` is one of `m1 ach f2 m3 d4`.
 
 ## Output
 
-Columns: `orthography construction strand respelling ipa flags fallbacks assumptions`.
+Columns (`run`; `gallery` is the same as a Markdown table, `word` as aligned lines, and
+`reverse` prints a constraint report instead): `orthography construction strand respelling ipa
+flags fallbacks assumptions`.
 
 - **respelling** — English-reader spelling in the target's convention (Welsh uses native spelling:
   single *f* = /v/, *w* = /u/).
@@ -136,4 +165,5 @@ uv run strands gallery sources/irish/test-words.csv --out tests/snapshots/galler
 src/strands/   engine          rules/      rule files, features, Old Irish lexicon
 sources/       digests + citations per language   tests/   pytest, snapshots/, ratchets/
 docs/specs/    design specs (authoritative)       notes/   project goals, reports, build log
+docs/plans/    implementation plans + reviews     names.csv, chat-imports/   input sample, origin chats
 ```

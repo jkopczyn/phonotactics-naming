@@ -1,4 +1,4 @@
-"""Tasks 8-11: `rules/old-irish.rules` as data (spec §4, §6, §11; digest §10)."""
+"""Task 8: `rules/old-irish.rules` as data (spec §4, §6, §11; digest §10)."""
 
 import pytest
 from helpers import ROOT, TABLE, target

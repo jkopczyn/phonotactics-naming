@@ -31,6 +31,7 @@ __all__ = [
     "FORMATION_ELEMENTS",
     "FORMATION_NAMES",
     "reference_row",
+    "run_cell",
     "render_cell",
     "render_gallery",
     "formation_block",

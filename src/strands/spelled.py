@@ -25,9 +25,8 @@ quality pass (conv. 5), and the post-stress reduction (conv. 5 grid; digest §10
 
 The quality pass never derives the BROAD↔SLEN pairing positionally (spec §11): it reads the
 explicit `quality-pairs` declaration of `old-irish.rules [meta]` by name, `w:-` marking a
-segment with no partner. Until that file exists (plan Task 8 follows this one) the same
-declaration is bootstrapped from `DECLARED_QUALITY_PAIRS` below; Task 8's key is authoritative
-whenever it is present.
+segment with no partner. `DECLARED_QUALITY_PAIRS` below is the fallback for a rule file that
+does not declare them; the rule file's key is authoritative whenever it is present.
 
 `punctum` is rendering only (O-14). `render(punctum=False)` substitutes each token's plain
 form from the table's `punctum` COLUMN (⟨ṡ⟩→s, ⟨ḟ⟩→f) in the output string alone; tokens,

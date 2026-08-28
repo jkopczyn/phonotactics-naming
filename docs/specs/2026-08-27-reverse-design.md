@@ -198,7 +198,7 @@ number of candidates actually run forward.
 
 - Unit: inversion of a five-line synthetic `[respell]`/`[substitute]` string covers literal,
   class, bundle, epenthesis, deletion, fallback, chain.
-- `g2p_inverse`: for every row of `sources/irish/test-words.tsv` with a hand IPA,
+- `g2p_inverse`: for every row of `sources/irish/test-words.csv` with a hand IPA,
   `spell(g2p(orth))` contains `orth` (casefolded) — ratcheted in `tests/ratchets/g2p_inverse.json`.
 - Round trip per strand, two rates measured by two runs because they cost very differently.
   **`admits`**: for every test-words row with a hand IPA, `reverse(forward(row).respelling)`

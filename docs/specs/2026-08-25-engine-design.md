@@ -157,7 +157,7 @@ Determinism: no randomness anywhere; identical input and rule files give identic
 
 ## 5. Input
 
-TSV, header row: `orthography ipa dialect gloss category gender gen_ipa pl_ipa note`.
+CSV, header row: `orthography,ipa,dialect,gloss,category,gender,gen_ipa,pl_ipa,note`.
 Only `orthography` is required. Missing `ipa` → constructed from the spelling by the
 provisional Irish G2P (`strands.g2p`, milestone 8, now implemented) and tagged
 `ipa:constructed`; only an orthography the reader cannot read leaves the row skipped
@@ -167,7 +167,7 @@ Missing `gen_ipa` → inferred by declension shape (broad-C-final m → slenderi
 `-aigh`; f + C → slenderize + `-e`; vowel-final → unchanged), tagged. Missing `dialect` →
 `C`. Constructions needing an absent field (`OF` without a noun, `PATRO` without a father)
 are skipped for that row with a note. `strands lint` lists rows with missing fields and the
-tool's guesses; `strands lint --accept` writes the guesses into the TSV.
+tool's guesses; `strands lint --accept` writes the guesses into the CSV.
 
 ## 6. CLI
 
@@ -381,7 +381,7 @@ contains whichever named regular inflections the plan enumerates (superset of th
 The five pre-existing strand-4 names are canon inputs, displayed verbatim in the gallery's
 reference row and never passed through the engine.
 
-**K. (2026-08-27)** The input TSV has an optional `declension` column (`m1 | ach | f2 | m3 |
+**K. (2026-08-27)** The input CSV has an optional `declension` column (`m1 | ach | f2 | m3 |
 d4`). Supplied values are honoured and validated; when empty it is inferred and reported in
 `assumptions`; `strands lint --accept` writes the inference back like `gender` and `gen_ipa`.
 IPA cells may be wrapped in `/…/` or `[…]`.

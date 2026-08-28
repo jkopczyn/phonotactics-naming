@@ -1,4 +1,4 @@
-"""Tasks 1-2: the reverse g2p (reverse spec §3.4; V-27, V-19, V-20, V-21)."""
+"""Task 1: the reverse g2p registry (reverse spec §3.4; V-27, V-19, V-21)."""
 
 import pytest
 
