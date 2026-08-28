@@ -34,13 +34,33 @@ Known limits, reported as notes rather than hidden: lexical noninitial stress (*
 /təˈbak/) is not predicted; the ⟨l n⟩ fortis/lenis choice follows the Wikipedia positional
 statement, which its own examples do not apply consistently; sandhi between words is not
 modelled.
+
+These tables and `split_nucleus` are read by `strands.g2p_inverse`, which enumerates which
+Irish spellings can read as a given segment. The inverse also transcribes the *procedural*
+branches of `_grapheme`, `_liquid`, `_rhotic`, `_sibilant`, the Connacht /w/ → /vˠ/ post-pass
+and `_epenthesis` into its own registry — **a change to any of those must be mirrored there**,
+and `tests/ratchets/g2p_inverse.json` is what notices if it is not.
 """
 
 from __future__ import annotations
 
 import unicodedata
 
-__all__ = ["g2p", "G2PError"]
+__all__ = [
+    "g2p",
+    "G2PError",
+    "CONSONANTS",
+    "VOWELS",
+    "VOWEL_PLUS_H",
+    "ECLIPSIS_INITIAL",
+    "SLENDER_LETTERS",
+    "BROAD_LETTERS",
+    "VOWEL_SEGMENTS",
+    "EPEN_C1",
+    "EPEN_C2_LIQUID",
+    "EPEN_C2_NASAL",
+    "split_nucleus",
+]
 
 
 class G2PError(ValueError):
@@ -705,3 +725,18 @@ def g2p(orthography: str, dialect: str = "C") -> tuple[str, list[str]]:
             pieces.extend(segs)
         words.append("".join(pieces))
     return " ".join(words), sorted(set(notes))
+
+
+# ---- public aliases ----------------------------------------------------------------------------
+# Shared with `strands.g2p_inverse` (reverse spec §5): the same objects, not copies, so the
+# inverse cannot drift from the forward tables. No behaviour change.
+
+CONSONANTS = _CONSONANTS  # shared with strands.g2p_inverse (reverse spec §3.4)
+ECLIPSIS_INITIAL = _ECLIPSIS_INITIAL
+VOWELS = _VOWELS
+VOWEL_PLUS_H = _VOWEL_PLUS_H
+SLENDER_LETTERS = _SLENDER_LETTERS
+BROAD_LETTERS = _BROAD_LETTERS
+VOWEL_SEGMENTS = _VOWEL_SEGMENTS
+EPEN_C1, EPEN_C2_LIQUID, EPEN_C2_NASAL = _EPEN_C1, _EPEN_C2_LIQUID, _EPEN_C2_NASAL
+split_nucleus = _split_nucleus

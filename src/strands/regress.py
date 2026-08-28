@@ -60,6 +60,7 @@ __all__ = [
     "load_ratchet",
     "assert_ratchet",
     "write_ratchet",
+    "write_json_ratchet",
 ]
 
 _ROOT = Path(__file__).resolve().parents[2]
@@ -322,4 +323,21 @@ def write_ratchet(report: RegressionReport) -> None:
     RATCHET_DIR.mkdir(parents=True, exist_ok=True)
     (RATCHET_DIR / f"{report.target}.json").write_text(
         json.dumps(data, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
+
+
+def write_json_ratchet(name: str, data: dict[str, float | int]) -> None:
+    """`tests/ratchets/<name>.json` for a ratchet that is not a `RegressionReport` — the
+    reverse tool's `g2p_inverse` and round-trip rates (reverse plan Task 2, Task 9).
+
+    Floats are floored to four decimals with `_floor4`, so the file can never record a floor
+    above the rate that produced it. Run BY HAND, never by a test — the same convention as
+    `write_ratchet()`.
+    """
+    out = {
+        key: (_floor4(value) if isinstance(value, float) else value) for key, value in data.items()
+    }
+    RATCHET_DIR.mkdir(parents=True, exist_ok=True)
+    (RATCHET_DIR / f"{name}.json").write_text(
+        json.dumps(out, indent=2, sort_keys=True) + "\n", encoding="utf-8"
     )

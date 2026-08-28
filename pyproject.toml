@@ -24,6 +24,7 @@ packages = ["src/strands"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src"]
+markers = ["slow: measured at the shipped candidate cap; excluded with -m 'not slow'"]
 
 [tool.ruff]
 target-version = "py312"
