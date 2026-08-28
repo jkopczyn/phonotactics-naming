@@ -92,10 +92,11 @@ def test_examples_are_one_per_irish_candidate_not_one_per_foreign_shape():
     keying the de-duplication on that shape leaves exactly one row — *cahal* showed ⟨cáhál⟩
     alone. The reader wants the Irish words, so `verify` de-duplicates by the candidate only
     (`expand` already emits each segment sequence once) and a repeated `ipa` column is fine.
-    ⟨cahal⟩ is the row that matters here: it is the silent-free spelling of /kahəl̪ˠ/, the
-    reading of *Cathal* (`spell()` offers no ⟨th⟩ spelling of /h/, so ⟨cathal⟩ itself is not
-    the row). It ranks eleventh of the sixteen matches, so the DEFAULT `--examples 8` still
-    does not reach it — a finding for the owner, not something this test can assert away."""
+    ⟨cahal⟩ is the row that matters here: it is the CHEAPEST silent-free spelling of /kahəl̪ˠ/,
+    the reading of *Cathal* — ⟨cathal⟩ is another spelling of the same candidate, and A1 prints
+    one per candidate. It ranks eleventh of the sixteen matches, so the DEFAULT `--examples 8`
+    still does not reach it — a finding for the owner, not something this test can assert away.
+    `test_the_row_for_cathal_is_listed_for_cahal_welsh` below measures both facts."""
     examples, _t, _c = verify(analysed(WEL, "cahal"), WEL, IRISH, TABLE, limit=40, cap=200)
     assert len(examples) > 1
     assert len({e.orthography for e in examples}) == len(examples)
@@ -303,3 +304,46 @@ def test_the_examined_candidate_stream_is_bounded_by_four_times_the_cap():
     assert examples == () and tried == 0
     assert len(seen) <= 4 * 10
     assert cap_hit is True
+
+
+# ---- fix round 2 follow-up ---------------------------------------------------------------------
+
+def test_cap_hit_is_true_when_the_forward_bound_is_reached_as_expansion_ends():
+    """D6: `cap_hit` means EITHER bound was reached. The loop set the flag only when a LATER
+    candidate found `tried >= cap`, so a run whose last spellable candidate is also the one that
+    fills the cap reported `cap_hit=False` while the cap was in fact binding — the report then
+    omitted its "stopped at the cap" note. Georgian literal `a` has exactly three spellable
+    candidates, so `cap=3` reaches the bound exactly as `expand` runs out."""
+    _e, tried, cap_hit = verify(analysed(GEO, "a"), GEO, IRISH, TABLE, limit=8, cap=3)
+    assert tried == 3
+    assert cap_hit is True
+
+
+def test_the_row_for_cathal_is_listed_for_cahal_welsh():
+    """D1's acceptance, stated in terms of what a row IS. ⟨Cathal⟩ and ⟨cahal⟩ are two spellings
+    of ONE Irish word — `g2p` reads both as /ˈkahəl̪ˠ/ — so they are one candidate, and A1 (still
+    in force: `spell(limit=1, silent=False, budget=128)`, one forward run per candidate) prints
+    the cheapest of them, ⟨cahal⟩. The claim in an earlier comment here, that `spell()` offers no
+    ⟨th⟩ spelling of /h/, is false: ⟨cathal⟩ is its thirteenth silent-free spelling of this
+    candidate, and only the one-spelling budget keeps it off the page.
+
+    Two facts the owner should see: the row sits eleventh of the sixteen matches — Irish /ə/
+    reaches Welsh ⟨a⟩ by a costlier route (rank 23) than /aː/ does (rank 2) — so the shipped
+    `--examples 8` does not reach it; and printing ⟨cathal⟩ instead of ⟨cahal⟩ would take a new
+    ruling on which spelling represents a candidate, not a bug fix.
+    """
+    from strands import g2p, g2p_inverse
+    from strands.g2p_inverse import _table, _unmark
+    from strands.tokenize import tokenize
+
+    def read(word):
+        return tuple(tokenize(_unmark(g2p.g2p(word)[0]), _table()).segments)
+
+    cathal = read("cathal")
+    assert read("cahal") == cathal                      # one candidate, two spellings
+    assert "cathal" in g2p_inverse.spell(cathal, limit=200, silent=False, budget=20000)
+
+    examples, _t, _c = verify(analysed(WEL, "cahal"), WEL, IRISH, TABLE, limit=40, cap=200)
+    orthographies = [e.orthography for e in examples]
+    assert "cahal" in orthographies
+    assert read(orthographies[orthographies.index("cahal")]) == cathal

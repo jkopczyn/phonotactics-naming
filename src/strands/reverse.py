@@ -1625,8 +1625,11 @@ def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTa
                              ipa=_unmark(result.ipa), flags=result.flags,
                              fallbacks=result.fallbacks, rank=candidate.rank,
                              spelling_index=0))
-    if produced >= examine:
-        cap_hit = True            # D6: `cap_hit` means EITHER bound — tried, or examined
+    if produced >= examine or tried >= cap:
+        # D6: `cap_hit` means EITHER bound — examined, or tried. The `tried` half is checked
+        # here as well as at the top of the loop: when the candidate that fills the cap is also
+        # the last one `expand` produces, no later iteration runs to notice it.
+        cap_hit = True
 
     ordered = sorted(found, key=lambda e: (e.fallbacks, len(e.flags), e.rank, e.spelling_index))
     return tuple(ordered[:limit]), tried, cap_hit
