@@ -954,9 +954,19 @@ def _forward_steps(steps: Sequence[Step]) -> tuple[Step, ...]:
 
 
 def _weakest_tag(steps: Sequence[Step]) -> str:
-    """The weakest tag across the walk under `attested < design < fallback`; an empty tag
-    counts as attested (V-31)."""
+    """The weakest tag across ONE walk under `attested < design < fallback`; an empty tag
+    counts as attested (V-31). A route is only as attested as its weakest step."""
     return _TAG_NAME[max((_TAG_RANK.get(step.tag, 0) for step in steps), default=0)]
+
+
+def _strongest_tag(tags: Sequence[str]) -> str:
+    """The strongest tag ACROSS merged routes (D2, and D3 for the dropped block).
+
+    Merging is the owner's ruling on B1: a constraint line claims "this Irish spelling can
+    produce this letter", and one attested route makes that claim attested however many
+    design-only routes reach the same letter beside it.
+    """
+    return _TAG_NAME[min((_TAG_RANK.get(tag, 0) for tag in tags), default=0)]
 
 
 def _dedupe(values: Sequence[str]) -> tuple[str, ...]:
@@ -997,26 +1007,24 @@ def _id_order(rule_id: str) -> tuple[int, int]:
 
 
 def _merge_lines(lines: Sequence[ConstraintLine]) -> tuple[ConstraintLine, ...]:
-    """One line per distinct `(kind, tag, description)` — B1's revision of V-31.
+    """One line per distinct `(kind, description)` — B1's revision of V-31, keyed as D2 rules.
 
     Context left the key (the owner reverses ruling 4 of the review round): the `a` of *cahal*
     reached /a/ through eleven post-stress rules with eleven environments and printed eleven
     identical-looking lines. The contexts are kept on the merged line for the exclusions block.
-    Tag STAYS in the key, as B1 writes it: a design-only route may not lose its `%design`
-    qualification because some other route to the same letter happens to be attested.
-
-    B1's two acceptance counts are not reachable under this key and are NOT what the code
-    follows (owner resolution pending, see `tests/test_reverse_report.py`): the `a` of *cahal*
-    prints six lines, not four, and the Georgian ⟨v⟩ prints five, not four — the broad ⟨v⟩'s
-    two Irish sources (`vˠ -> v %attested`, non-initial only, and `w -> v %design`) differ in
-    both tag and description and cannot merge.
+    The TAG left the key too (D2, resolving the conflict between B1's key and B1's own
+    acceptance counts in favour of the counts): the printed tag is the STRONGEST across the
+    merged routes, because the line claims "this Irish spelling can produce this letter" and
+    one attested route makes that claim attested. So the `a` of *cahal* prints four lines and
+    the Georgian ⟨v⟩ five — four sources plus the `/v/ + /v/` line, the `(non-initial)` split
+    being a description difference the owner accepts.
 
     Rule ids are the union over the group in forward order (stage, then line number).
     Sorted by kind, then design last, then first rule id, then description.
     """
-    merged: dict[tuple[str, str, str], ConstraintLine] = {}
+    merged: dict[tuple[str, str], ConstraintLine] = {}
     for line in lines:
-        key = (line.kind, line.tag, line.description)
+        key = (line.kind, line.description)
         seen = merged.get(key)
         if seen is None:
             merged[key] = line
@@ -1024,7 +1032,7 @@ def _merge_lines(lines: Sequence[ConstraintLine]) -> tuple[ConstraintLine, ...]:
         merged[key] = ConstraintLine(
             description=seen.description,
             rule_ids=tuple(sorted(_dedupe(seen.rule_ids + line.rule_ids), key=_id_order)),
-            tag=seen.tag, kind=seen.kind,
+            tag=_strongest_tag((seen.tag, line.tag)), kind=seen.kind,
             context=seen.context or line.context, label=seen.label,
             contexts=tuple(dict.fromkeys(seen.contexts + line.contexts)))
     return tuple(sorted(merged.values(),
@@ -1055,29 +1063,37 @@ def constraints(pattern: Pattern) -> tuple[Constraint, ...]:
 
 
 def dropped_lines(pattern: Pattern) -> tuple[ConstraintLine, ...]:
-    """The `possibly dropped` block: one line per `(segments, tag, context)`, once per WORD and
-    never a note on a slot (V-7, owner ruling).
+    """The `possibly dropped` block: ONE line per deleted segment, once per WORD and never a
+    note on a slot (V-7, owner ruling; D3).
 
-    The key includes the deleted segments — V-7 writes it as `(description, tag, context)`, but
-    the description of a deletion is the fixed phrase, so keying on it alone would merge
-    Welsh's `w -> 0` and `j -> 0` into one line and lose which segment went.
+    The key is the deleted segment's label alone (D3). V-7 wrote it as
+    `(description, tag, context)`, but the description of a deletion is the fixed phrase, so
+    keying on it would merge Welsh's `w -> 0` and `j -> 0` into one line and lose which segment
+    went; keying on tag and context instead split each segment across its rules, so ⟨w⟩ printed
+    twice and ⟨h⟩ printed twice. The rule ids are merged in forward order and capped by
+    `_rule_suffix` as a constraint line's are, and the tag is the strongest of the merged
+    routes (D2's rule).
 
     The label is the segment the SECTION deleted, so a `[substitute]` deletion labels an Irish
     segment and a `[repair]`/`[post-stress]` one labels a segment of the strand — each is the
     segment that would have gone missing at that stage, which is what the reader needs.
     """
-    merged: dict[tuple[str, str, str], ConstraintLine] = {}
+    merged: dict[str, ConstraintLine] = {}
     for deletion in pattern.deletions:
         label = "".join(deletion.segments)
         tag = _TAG_NAME[_TAG_RANK.get(deletion.tag, 0)]
-        key = (label, tag, deletion.context)
-        seen = merged.get(key)
-        rule_ids = (deletion.rule_id,) if seen is None else seen.rule_ids + (deletion.rule_id,)
-        merged[key] = ConstraintLine(
-            description=_DROPPED_PHRASE, rule_ids=_dedupe(rule_ids), tag=tag, kind="rule",
-            context=deletion.context, label=label,
-            contexts=((deletion.rule_id, deletion.context),) if deletion.context else ())
-    return tuple(sorted(merged.values(), key=lambda l: (l.rule_ids[0], l.label)))
+        seen = merged.get(label)
+        contexts = ((deletion.rule_id, deletion.context),) if deletion.context else ()
+        merged[label] = ConstraintLine(
+            description=_DROPPED_PHRASE,
+            rule_ids=tuple(sorted(_dedupe((seen.rule_ids if seen else ())
+                                          + (deletion.rule_id,)), key=_id_order)),
+            tag=tag if seen is None else _strongest_tag((seen.tag, tag)), kind="rule",
+            context=deletion.context if seen is None else (seen.context or deletion.context),
+            label=label,
+            contexts=tuple(dict.fromkeys((seen.contexts if seen else ()) + contexts)))
+    return tuple(sorted(merged.values(),
+                        key=lambda l: (_id_order(l.rule_ids[0]), l.rule_ids[0], l.label)))
 
 
 # ---- the Irish spelling pattern (spec §3.4, §4; V-14, V-30, R7) --------------------------------
@@ -1097,16 +1113,28 @@ def _is_nucleus(segments: tuple[str, ...]) -> bool:
 
 
 def _slot_quality(slot: Slot) -> str:
-    """The quality of a consonant slot: the first-listed reading's (V-14). `""` when the slot
-    is a nucleus, has no reading, or its reading admits either quality."""
+    """The one quality a consonant slot admits, or `""` when it admits more than one (D5).
+
+    V-14 read the first-listed reading of the first alternative, which made the filter act on a
+    quality the slot does not actually impose: the ⟨c⟩ of *cahal* has a broad AND a slender
+    Irish source, and reading only the first threw every broad vowel run out of the neighbouring
+    slot (`(eá|ea|io|iu)` where the constraint lines said `a, ea, ai, eai` and `á, …`). So the
+    quality is imposed only when EVERY reading of EVERY alternative agrees on it. `""` when the
+    slot is a nucleus, has no reading, admits either quality, or admits both.
+    """
+    qualities: set[str] = set()
     for alt in slot.alts:
-        if not alt.segments or _is_nucleus(alt.segments):
+        if not alt.segments:
+            continue                       # epenthesis spells nothing and imposes nothing
+        if _is_nucleus(alt.segments):
             return ""
         readings = g2p_inverse.readings_for(alt.segments)
-        if readings:
-            quality = readings[0].quality
-            return "" if quality == g2p_inverse.EITHER else quality
-    return ""
+        if not readings:
+            return ""
+        qualities.update(reading.quality for reading in readings)
+    if len(qualities) != 1 or g2p_inverse.EITHER in qualities:
+        return ""
+    return qualities.pop()
 
 
 def _slot_graphemes(slots: Sequence[Slot], index: int) -> tuple[str, ...]:
@@ -1167,6 +1195,17 @@ def _insertions(pattern: Pattern) -> tuple[tuple[int, int, tuple[Step, ...]], ..
                  for (start, stop), steps in sorted(spans.items()))
 
 
+def _insert_ids(steps: Sequence[Step]) -> str:
+    """D4: the insertion's rules as `repair:298 +4` — the FIRST rule id in forward order and a
+    count of the rest. The line carried a `(context: …)` dump of up to five environments; the
+    exclusions block is where contexts live, and B1 keeps `[repair]`/`[post-stress]` contexts
+    out of it deliberately."""
+    ids = tuple(sorted(_dedupe([step.rule_id for step in steps]), key=_id_order))
+    if not ids:
+        return "no rule"
+    return ids[0] + (f" +{len(ids) - 1}" if len(ids) > 1 else "")
+
+
 def _base_line(pattern: Pattern, *, drop: tuple[int, int] | None = None) -> str:
     """The rendering, with an optional group wrapped `( … )?` and `drop`'s span left out."""
     slots = pattern.slots
@@ -1180,7 +1219,10 @@ def _base_line(pattern: Pattern, *, drop: tuple[int, int] | None = None) -> str:
             continue
         if span is not None and span != drop:
             inner = "".join(_slot_text(slots, i) for i in range(span[0], span[1]))
-            parts.append(f"({inner})?")
+            # D5: a one-slot group is already parenthesised by `_slot_text`; `((a|b))?` was
+            # that alternation wrapped a second time.
+            parts.append(f"{inner}?" if span[1] - span[0] == 1 and inner.startswith("(")
+                         else f"({inner})?")
             index = span[1]
             continue
         parts.append(_slot_text(slots, index))
@@ -1197,10 +1239,8 @@ def render_pattern(pattern: Pattern) -> tuple[str, ...]:
     lines = [_base_line(pattern)]
     for start, stop, steps in _insertions(pattern):
         labels = "".join(pattern.slots[i].text for i in range(start, stop)) or "?"
-        contexts = _dedupe([step.context for step in steps if step.context])
-        detail = " ; ".join(contexts) if contexts else "no environment"
         without = _base_line(pattern, drop=(start, stop)).strip() or "(nothing)"
-        lines.append(f"  or, with {labels} inserted:  {without}   (context: {detail})")
+        lines.append(f"  or, with {labels} inserted:  {without}   ({_insert_ids(steps)})")
     return tuple(lines)
 
 
@@ -1540,16 +1580,17 @@ def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTa
     `tried` counts candidates RUN FORWARD and `cap` bounds that counter; a candidate with no
     silent-free spelling is skipped and does not count. Because such a candidate is free, the
     stream is bounded separately: `expand` is consumed at most `EXAMINE_FACTOR * cap` times
-    (A3), and `cap_hit` is true when either bound is reached.
+    (A3) — and that is also the cap `expand` itself is given (D6) — and `cap_hit` is true when
+    either bound is reached.
 
     Returns `(examples, tried, cap_hit)`; examples are sorted by
-    `(fallbacks, len(flags), rank, spelling_index)`, de-duplicated by the printed `ipa` shape
-    and truncated to `limit`. The de-duplication key is the foreign shape, not the Irish
-    orthography (A2 acceptance): distinct Irish words routinely collapse onto one foreign
-    result — ⟨árubh⟩ and ⟨arubh⟩ both reach Georgian /ɑruv/ — and a second row for a shape the
-    reader has already seen buys nothing. Keying on the shape subsumes the orthography key,
-    since the forward run is deterministic in the spelling; the best-ranked witness of each
-    shape is the one kept.
+    `(fallbacks, len(flags), rank, spelling_index)` and truncated to `limit`, with **one row per
+    Irish candidate** (D1, reversing A2). A2 keyed the de-duplication on the printed `ipa`
+    shape; for a LITERAL pattern every match has the same foreign shape by construction, so
+    *cahal* printed one row — ⟨cáhál⟩ — and the sixteen Irish words that reach it, *Cathal*
+    among them, were thrown away. The reader wants those. No de-duplication is needed beyond
+    what `expand` already guarantees: it emits each segment sequence once, and one spelling is
+    asked of each (A1).
     """
     cap = CAP if cap is None else cap        # C3: read at CALL time, so a test may lower `CAP`
     wanted = pattern.text if raw_pattern is None else raw_pattern
@@ -1559,7 +1600,10 @@ def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTa
     cap_hit = False
     examine = EXAMINE_FACTOR * cap
 
-    for candidate in itertools.islice(expand(pattern, cap=CAP), examine):
+    # D6: `expand`'s own cap is the EXAMINE bound, not `CAP`. It was `CAP`, so `Ar*v*` stopped
+    # after 2000 candidates PRODUCED — of which only 106 were spellable — and the forward-run
+    # cap was never the binding constraint.
+    for candidate in itertools.islice(expand(pattern, cap=examine), examine):
         produced += 1
         if tried >= cap:
             cap_hit = True
@@ -1581,20 +1625,11 @@ def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTa
                              ipa=_unmark(result.ipa), flags=result.flags,
                              fallbacks=result.fallbacks, rank=candidate.rank,
                              spelling_index=0))
-    if produced >= min(CAP, examine):
-        cap_hit = True
+    if produced >= examine:
+        cap_hit = True            # D6: `cap_hit` means EITHER bound — tried, or examined
 
     ordered = sorted(found, key=lambda e: (e.fallbacks, len(e.flags), e.rank, e.spelling_index))
-    examples: list[Example] = []
-    printed: set[str] = set()
-    for example in ordered:
-        if example.ipa in printed:
-            continue
-        printed.add(example.ipa)
-        examples.append(example)
-        if len(examples) == limit:
-            break
-    return tuple(examples), tried, cap_hit
+    return tuple(ordered[:limit]), tried, cap_hit
 
 
 # ---- old-irish (R6, spec §2) -------------------------------------------------------------------

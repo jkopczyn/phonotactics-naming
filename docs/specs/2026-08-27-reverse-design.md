@@ -118,7 +118,8 @@ silent ⟨dh gh th⟩, no vowel-plus-h run — so the eight spellings of one wor
 one a reader can use. A candidate with no silent-free spelling is skipped and does not count
 against the cap. The run is kept when `fnmatch(respelling, PATTERN)` (or, with `--ipa`, when
 the unmarked IPA matches). Kept examples are ranked by `(fallbacks, len(flags), candidate
-rank)`, de-duplicated by the printed foreign shape, and the first `--examples` printed with
+rank)`, ONE row per Irish candidate — never de-duplicated by the printed foreign shape, which
+for a literal pattern is the same for every match — and the first `--examples` printed with
 their respelling, IPA, flags and fallback count — the same quality signal the hand-run used.
 
 ## 4. Output
@@ -155,12 +156,19 @@ verified examples (6 of 40 tried; 0 fallbacks unless shown)
 Section order and content are the spec; exact spacing is the implementer's; the rule ids above are illustrative. Rule ids are
 `section:line` as in `explain`. Tags print only when `%design` or `%fallback`.
 
-Constraint lines are grouped by `(kind, tag, description)` alone — a context does not split a
-line. A line's rule ids are the union over its group, ordered by forward stage (substitute,
-repair, post-stress, respell) and then by line number, with at most four printed and the rest
-as `+N`. The `exclusions` block lists only epenthesis sources and `substitute`-stage sources
-that carry a context; a repair, post-stress or respell context is noise for the reader and is
-not printed. Descriptions and the spelling pattern are built from silent-free readings only.
+Constraint lines are grouped by `(kind, description)` alone — neither a context nor a tag
+splits a line. The tag printed is the STRONGEST across the merged routes (attested if any route
+is attested, else design, else fallback): the line claims "this Irish spelling can produce this
+letter", and one attested route makes that claim attested. A line's rule ids are the union over
+its group, ordered by forward stage (substitute, repair, post-stress, respell) and then by line
+number, with at most four printed and the rest as `+N`. The `possibly dropped` block groups the
+same way, by the deleted segment alone. The `exclusions` block lists only epenthesis sources
+and `substitute`-stage sources that carry a context; a repair, post-stress or respell context is
+noise for the reader and is not printed — and so an `or, with X inserted:` line of the spelling
+pattern ends in its rules, `(repair:298 +4)`, never in a context dump. Descriptions and the
+spelling pattern are built from silent-free readings only, and a slot's rendered alternation is
+the union of its alternatives' silent-free runs — filtered for caol le caol only when the
+neighbouring consonant slot admits a single quality.
 A slot whose Irish alternatives cover every short vowel describes as `any short vowel` (with
 ` (unstressed)` when every contributing source is a reduction), every long vowel as `any long
 vowel`, both as `any vowel`; any other run list longer than six items is cut at six with `…`.

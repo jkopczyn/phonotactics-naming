@@ -87,12 +87,20 @@ def test_no_orthography_is_printed_twice():
     assert len({e.orthography for e in examples}) == len(examples)
 
 
-def test_no_ipa_shape_is_printed_twice():
-    """A2 acceptance: the printed examples carry no repeated `ipa` column. Two different
-    Irish candidates (árubh and arubh, áráv and áráiv) can land on one foreign shape;
-    only the best-ranked of them is worth a row."""
-    examples, _t, _c = verify(analysed(GEO, "ar*v*"), GEO, IRISH, TABLE, limit=8, cap=200)
-    assert len({e.ipa for e in examples}) == len(examples)
+def test_examples_are_one_per_irish_candidate_not_one_per_foreign_shape():
+    """D1, reversing A2: for a LITERAL pattern every match has the same foreign shape, and
+    keying the de-duplication on that shape leaves exactly one row — *cahal* showed ⟨cáhál⟩
+    alone. The reader wants the Irish words, so `verify` de-duplicates by the candidate only
+    (`expand` already emits each segment sequence once) and a repeated `ipa` column is fine.
+    ⟨cahal⟩ is the row that matters here: it is the silent-free spelling of /kahəl̪ˠ/, the
+    reading of *Cathal* (`spell()` offers no ⟨th⟩ spelling of /h/, so ⟨cathal⟩ itself is not
+    the row). It ranks eleventh of the sixteen matches, so the DEFAULT `--examples 8` still
+    does not reach it — a finding for the owner, not something this test can assert away."""
+    examples, _t, _c = verify(analysed(WEL, "cahal"), WEL, IRISH, TABLE, limit=40, cap=200)
+    assert len(examples) > 1
+    assert len({e.orthography for e in examples}) == len(examples)
+    assert "cahal" in [e.orthography for e in examples]
+    assert len({e.ipa for e in examples}) == 1        # one literal pattern, one foreign shape
 
 
 @pytest.mark.slow

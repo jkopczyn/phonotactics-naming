@@ -161,9 +161,9 @@ def test_an_optional_group_is_one_parenthesised_span():
 
 
 def test_an_insertion_gets_its_own_or_line():
-    """V-14 (Q2)."""
+    """V-14 (Q2); the suffix is D4's rule ids, not a context dump."""
     out = render_pattern(analysed(GEO, "av"))
-    assert any(l.strip().startswith("or, with") and "context:" in l for l in out)
+    assert any(l.strip().startswith("or, with") and "substitute:" in l for l in out)
 
 
 def test_caol_le_caol_filters_the_vowel_letters_in_the_rendering():
@@ -179,9 +179,9 @@ def test_caol_le_caol_filters_the_vowel_letters_in_the_rendering():
 #                     and the _ALT_CAP `…` in the rendering. (The RULE_COL continuation line
 #                     itself is pinned by GOLDEN_EXCLUSIONS, whose exclusion line is long.)
 # GOLDEN_EXCLUSIONS   pins: the exclusions block, its `(rule context)` suffix on a continuation
-#                     line, and the `or, with … inserted` line of V-14.
+#                     line, and the `or, with … inserted` line of V-14 with D4's id suffix.
 # GOLDEN_DROPPED      pins: the once-per-word `possibly dropped` block (V-7), substitute
-#                     deletions included, and a slot note.
+#                     deletions included, D3's one line per deleted segment, and a slot note.
 # GOLDEN_EXAMPLES     pins: the examples block — header, columns, flags and a fallback count.
 # GOLDEN_SESSION      pins: the whole `ar*v*  [georgian]` block of spec §4.
 
@@ -243,7 +243,7 @@ exclusions
 
 Irish spelling pattern
   (bhf|bh|mh|v|w)
-  or, with v inserted:  (nothing)   (context: [BROAD -labial] _ [V +front])
+  or, with v inserted:  (nothing)   (substitute:65)
 
 verified examples: skipped (--examples 0)
 """
@@ -259,15 +259,12 @@ constraints
       note: no Irish source for 'u'
 
 possibly dropped
-  h   may have been dropped anywhere in this word             repair:280 %design
-  h   may have been dropped anywhere in this word             repair:282 %design
+  w   may have been dropped anywhere in this word             substitute:161,substitute:162
+  j   may have been dropped anywhere in this word             substitute:163,substitute:164
+  h   may have been dropped anywhere in this word             repair:280,repair:282 %design
   ɡ   may have been dropped anywhere in this word             repair:293 %design
   l   may have been dropped anywhere in this word             repair:308
   r   may have been dropped anywhere in this word             repair:308
-  w   may have been dropped anywhere in this word             substitute:161
-  w   may have been dropped anywhere in this word             substitute:162
-  j   may have been dropped anywhere in this word             substitute:163
-  j   may have been dropped anywhere in this word             substitute:164
 
 Irish spelling pattern
   ??
@@ -322,8 +319,8 @@ exclusions
                                                               (substitute:65 context)
 
 Irish spelling pattern
-  (á|eá|a|ea|io|iu|…)(rr|n|r)*(bhf|bh|mh|v|w)*
-  or, with v inserted:  (á|eá|a|ea|io|iu|…)(rr|n|r)**   (context: [BROAD -labial] _ [V +front])
+  (á|ái|eá|eái|a|ea|…)(rr|n|r)*(bhf|bh|mh|v|w)*
+  or, with v inserted:  (á|ái|eá|eái|a|ea|…)(rr|n|r)**   (substitute:65)
 
 verified examples: skipped (--examples 0)
 """
@@ -376,34 +373,31 @@ def test_an_ambiguous_chunk_keeps_every_target_alternative(rf, text, want):
 
 # ---- fix round Task B: report noise (B1 … B4) --------------------------------------------------
 
-#: B1 gives the grouping key as `(kind, tag, description)` AND, in its acceptance, two counts
-#: that key cannot produce. The key is what the code follows (a design-only route must keep its
-#: `%design`); the two counts are recorded here as strict xfails so the conflict is visible in
-#: the suite and cannot be lost, and so either resolution — the owner relaxing the counts, or
-#: the owner asking for a merge that drops the tag — turns a test red the moment it lands.
-_B1_COUNT_CONFLICT = ("B1's grouping key `(kind, tag, description)` cannot meet B1's own "
-                      "acceptance count; owner resolution pending")
-
-
-@pytest.mark.xfail(strict=True, reason=_B1_COUNT_CONFLICT)
 def test_the_a_slot_of_cahal_prints_at_most_four_lines():
-    """B1's acceptance: the `a` of *cahal* printed ~40 lines that all said "a/á". It prints
-    six under the required key — the attested and design routes to `a, ea, ai, eai` and to
-    `á, ái, eá, eái, a, ea, …` cannot merge, and the substitute route stays its own line."""
+    """D2's acceptance (B1's, with the owner's resolution): the `a` of *cahal* printed ~40
+    lines that all said "a/á". Under the `(kind, description)` key the attested and design
+    routes to one letter-set are one line, and four remain."""
     cs = constraints(analysed(WEL, "cahal"))
     assert len(cs[1].lines) <= 4, [l.description for l in cs[1].lines]
 
 
-def test_the_a_slot_of_cahal_is_six_lines_none_of_them_repeated():
-    """What the binding key actually yields: ~40 lines down to six, each a distinct
-    `(kind, tag, description)`, and no attested line laundering a design-only route."""
+def test_the_a_slot_of_cahal_is_four_lines_none_of_them_repeated():
+    """D2: ~40 lines down to four, each a distinct `(kind, description)`."""
     cs = constraints(analysed(WEL, "cahal"))
     lines_ = cs[1].lines
-    assert len(lines_) == 6, [l.description for l in lines_]
-    keys = [(l.kind, l.tag, l.description) for l in lines_]
-    assert len(set(keys)) == 6
-    assert [l.description for l in lines_ if not l.tag] == [   # "" is attested
-        "a, ea, ai, eai", "á, ái, eá, eái, a, ea, …"]
+    assert len(lines_) == 4, [l.description for l in lines_]
+    keys = [(l.kind, l.description) for l in lines_]
+    assert len(set(keys)) == 4
+
+
+def test_a_merged_line_keeps_the_strongest_tag_of_its_routes():
+    """D2: the tag printed is the STRONGEST across the merged routes — one attested route to
+    ⟨a, ea, ai, eai⟩ makes the claim "this Irish spelling can produce this letter" attested,
+    even though `post-stress:396` reaches it by design."""
+    cs = constraints(analysed(WEL, "cahal"))
+    (line,) = [l for l in cs[1].lines if l.description == "a, ea, ai, eai"]
+    assert line.tag == ""                                    # "" is attested
+    assert "post-stress:396" in line.rule_ids                # the %design route merged in
 
 
 def test_a_line_prints_at_most_four_rule_ids_then_a_count():
@@ -427,15 +421,13 @@ def test_rule_ids_are_ordered_by_forward_stage_then_line():
         assert FORWARD_STAGES.index("substitute") == 0
 
 
-@pytest.mark.xfail(strict=True, reason=_B1_COUNT_CONFLICT)
-def test_the_v_slot_of_the_session_case_prints_three_sources_and_one_design_line():
-    """B1's acceptance for `Ar*v*`: three sources (/w/-side, /vʲ/-side, inserted) plus at most
-    one `%design` line for `v v -> v`. Five print instead: the /w/-side is TWO Irish sources
-    (`vˠ -> v` attested, non-initial only, and `w -> v %design`), which differ in tag and in
-    description and so cannot merge under B1's own key; `inserted` is itself a `%design` line."""
+def test_the_v_slot_of_the_session_case_prints_four_sources_and_one_design_line():
+    """D2's acceptance for `Ar*v*`: at most four source lines plus at most one `/v/ + /v/`
+    line. The `(non-initial)` split is accepted, so the /w/-side is two lines (`vˠ -> v`
+    non-initial and `w -> v`) and four sources is the bar, not three."""
     cs = constraints(analysed(GEO, "ar*v*"))
     sources = [l for l in cs[3].lines if l.description != "/v/ + /v/"]
-    assert len(sources) == 3 and len(cs[3].lines) - len(sources) <= 1
+    assert len(sources) <= 4 and len(cs[3].lines) - len(sources) <= 1
 
 
 def test_the_v_slot_of_the_session_case_prints_its_sources_once_each():
@@ -477,3 +469,78 @@ def test_a_schwa_slot_says_any_short_vowel():
     """B3: the /ə/ line of the Welsh `a` slot, which listed twenty-three runs."""
     cs = constraints(analysed(WEL, "cahal"))
     assert "any short vowel (unstressed)" in [l.description for l in cs[1].lines]
+
+
+# ---- fix round Task D: examples, grouping, rendering (D2 … D5) ----------------------------------
+
+def test_a_dropped_segment_is_one_line_per_segment():
+    """D3: the `possibly dropped` block merges by the deleted segment's label — the two
+    `w -> 0` rules and the two `j -> 0` rules of welsh.rules are one line each, as are the two
+    `h` deletions of `[repair]`."""
+    dropped = dropped_lines(analysed(WEL, "uu"))
+    labels = [l.label for l in dropped]
+    assert labels == sorted(set(labels), key=labels.index)      # each label exactly once
+    (w,) = [l for l in dropped if l.label == "w"]
+    assert len(w.rule_ids) == 2 and all(r.startswith("substitute:") for r in w.rule_ids)
+
+
+def test_a_merged_dropped_line_keeps_the_strongest_tag():
+    """D3: the tag rule of D2 applies to the dropped block too."""
+    dropped = dropped_lines(analysed(WEL, "uu"))
+    (h,) = [l for l in dropped if l.label == "h"]
+    assert len(h.rule_ids) > 1 and h.tag in ("", "design")
+
+
+def test_an_insertion_line_cites_rule_ids_not_a_context_dump():
+    """D4: the `or, with X inserted:` line ends `(repair:298 +4)` — the first rule id in
+    forward order and a count. Contexts live in the exclusions block, never here."""
+    import re
+    out = [l for l in render_pattern(analysed(WEL, "cahal")) if "or, with" in l]
+    assert out
+    for line in out:
+        assert "context:" not in line
+        assert re.search(r"\((?:substitute|repair|post-stress|respell):\d+(?: \+\d+)?\)$", line), line
+
+
+def _as_regex(rendering: str) -> str:
+    """D5's helper: the rendered pattern as a regex. `(x|y)`, `(…)?`, `*` and `…` are the only
+    metacharacters the renderer emits."""
+    import re
+    out = []
+    for ch in rendering.strip():
+        if ch in ("*", "…"):
+            out.append("[^ ]*")
+        elif ch in "()|?":
+            out.append(ch)
+        else:
+            out.append(re.escape(ch))
+    return "".join(out)
+
+
+def test_the_rendering_never_doubles_its_parentheses():
+    """D5: `((eá|ea|io|iu))?` was one optional group wrapped round one alternation."""
+    for line in render_pattern(analysed(WEL, "cahal")) + render_pattern(analysed(GEO, "ar*v*")):
+        assert "((" not in line and "))" not in line
+
+
+def test_a_slot_renders_the_same_runs_its_constraint_lines_list():
+    """D5: the first vowel slot of *cahal* rendered `(eá|ea|io|iu)` while its constraint lines
+    listed `a, ea, ai, eai` and `á, …` — the caol-le-caol filter was applied against a
+    neighbouring slot that admits BOTH qualities. A slot's alternation is the union of its
+    alternatives' silent-free runs, filtered only when a neighbour admits one quality."""
+    import re
+    p = analysed(WEL, "cahal")
+    line = render_pattern(p)[0]
+    slot = constraints(p)[1]
+    listed = {run for l in slot.lines for run in l.description.split(", ") if run != "…"}
+    rendered = set(re.findall(r"\(([^()]*)\)", line)[1].split("|"))
+    assert {"a", "á"} <= rendered
+    assert rendered - {"…"} <= listed, rendered - listed
+
+
+def test_the_cahal_pattern_admits_the_literal_spelling_cathal():
+    """D5's acceptance: the rendering is a description of the Irish spellings that reach
+    ⟨cahal⟩, and *Cathal* is one of them."""
+    import re
+    rendering = render_pattern(analysed(WEL, "cahal"))[0]
+    assert re.fullmatch(_as_regex(rendering), "cathal"), rendering

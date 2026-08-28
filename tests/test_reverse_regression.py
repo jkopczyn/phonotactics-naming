@@ -158,14 +158,16 @@ def test_ardmhaor_is_admitted():
 
 @pytest.mark.slow
 @pytest.mark.xfail(strict=True, reason=(
-    "C2 FINDING, for owner review, not a test to delete. After A4 widened the palette the "
-    "pattern ADMITS /aːɾˠd̪ˠvˠiːɾˠ/ (the test above) and every piece is on offer — the first "
-    "`*` can be /d̪ˠ/ and the second /iːɾˠ/ — but that filling is nowhere near the front of the "
-    "stream: `expand` never reaches it inside 200_000 candidates, let alone the 2000 of R4's "
-    "cap, because both `*` slots offer 421 fillings each and the two-segment ones are ranked "
-    "last. So this is now an ENUMERATION ORDER limit, not the palette gap the previous round "
-    "reported. Fixing it means interleaving the `*` fillings (breadth over the cross product "
-    "rather than depth) or raising R4's cap — the owner's call."))
+    "C2 FINDING, for owner review, not a test to delete; RE-MEASURED after D6. After A4 widened "
+    "the palette the pattern ADMITS /aːɾˠd̪ˠvˠiːɾˠ/ (the test above) and every piece is on "
+    "offer — the first `*` can be /d̪ˠ/ and the second /iːɾˠ/ — but that filling is nowhere "
+    "near the front of the stream. D6 raised `expand`'s own cap from 2000 to EXAMINE_FACTOR * "
+    "cap = 8000, which took `Ar*v*` from 106 candidates tried to 608 and from 1 example to the "
+    "full 8 asked for; *ardmhaor* is still not among them, because both `*` slots offer 421 "
+    "fillings each and the two-segment ones are ranked last. So this remains an ENUMERATION "
+    "ORDER limit, not a cap that one more factor would fix: interleaving the `*` fillings "
+    "(breadth over the cross product rather than depth) is what would reach it — the owner's "
+    "call. `Ar*v*` costs 27 s at the shipped cap after D6."))
 def test_ardmhaor_verifies_for_the_session_case():
     """C2/spec §6 bullet 4: the word itself among the verified examples at the shipped cap."""
     from strands.reverse import CAP, verify
