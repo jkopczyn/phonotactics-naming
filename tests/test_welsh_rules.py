@@ -517,6 +517,7 @@ def test_no_final_obstruent_sonorant_cluster():
     son = set("m n ŋ l r ɬ w j".split())
     obs = set("p b t d k ɡ tʃ dʒ f v θ ð s ʃ χ z".split())
     for cl in TARGET.syllable.codas:
+        assert set(cl) <= son | obs, ("coda segment outside the Southern inventory", cl)
         if len(cl) > 1 and cl[0] in obs:
             assert cl[-1] in obs, ("O+S coda is barred in the South", cl)
 
