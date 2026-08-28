@@ -17,7 +17,7 @@ Sources read, by digest section (line ranges are located by heading, not hard-co
                 The "attested in neither position" set is excluded.
 
 Her notation -> this project's canonical IPA (digest §2.0; I-34): aspiration is unwritten
-(`t p k c č` = /tʰ pʰ kʰ ts tʃʰ/ — `c` maps to the chart's `ts`, features.tsv has no tsʰ row),
+(`t p k c č` = /tʰ pʰ kʰ ts tʃʰ/ — `c` maps to the chart's `ts`, features.csv has no tsʰ row),
 `j` = /dz/, `ǰ` = /dʒ/, `γ` = /ɣ/, `χ'` = /qʼ/, `x` = /x/, `g` = /ɡ/ (U+0261). Table (62)
 writes /dz/ as `ʒ` (the Caucasianist convention; her `ž` /ʒ/ is separate).
 

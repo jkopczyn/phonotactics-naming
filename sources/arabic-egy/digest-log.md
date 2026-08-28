@@ -120,7 +120,7 @@ format audit) was run against the finished digest. Findings applied:
    "otherwise stress the penult". The rule, the worked-example table (now 17 rows, each with its
    own citation and rule step) and the Abdel-Massih paragraph were all rewritten. **This was the
    one defect that would have mis-stressed a large share of generated names.**
-2. **attested.tsv: eleven invented `source_ipa` values removed.** The Khalifa rows carried English
+2. **attested.csv: eleven invented `source_ipa` values removed.** The Khalifa rows carried English
    IPA transcriptions that are not in Khalifa, who gives the donor word in orthography only.
    `source_ipa` is now empty in all 314 rows, and §7's claim about it corrected.
 3. **The Khalifa rows are *predicted* errors, not observed ones** — from a starred table headed
@@ -139,7 +139,7 @@ format audit) was run against the finished digest. Findings applied:
    possibly some or all S-resonant clusters", p.295) supports leaving it open. /sl sr/ stay with
    anaptyxis, which her Cairene data does settle.
 10. **§8.4's /əi/→/aj/, /əu/→/aw/ mapping is now tagged `(unattested)`.**
-11. **attested.tsv: Hafez's `ç` was decoded two ways** (emphatic in `bââçâ`, plain in `çâlsâ`).
+11. **attested.csv: Hafez's `ç` was decoded two ways** (emphatic in `bââçâ`, plain in `çâlsâ`).
     Both now read /sˤ/, with the mojibake noted.
 12. Smaller: the §2/§3.4 final-CC loan list no longer claims to come from §29/§32; `n → l`
     (journal) now records that Hafez's stated direction and her datum disagree; /g/ removed from
@@ -174,7 +174,7 @@ Sub-agents wrote cited findings files to a scratchpad; none wrote into this dire
 extractions were spot-checked by the lead against the PDF page images — Galal's two data sets
 (pp.2–3), because the `.txt` garbles several forms, and the Khalifa coda/onset statements
 (pp.92–99), because bib.md flags the venue as low-selectivity. Both checked out; the Galal forms
-in `attested.tsv` are the PDF readings, not the `.txt` ones.
+in `attested.csv` are the PDF readings, not the `.txt` ones.
 
 ---
 
@@ -195,7 +195,7 @@ exact-diacritic claim in the Hafez text, whose emphatic marks are stripped onlin
    **OPEN DECISION** box separating what the sources establish (stress assignment, and the native
    shortening rules that act on quantity *once present*) from what they do not (the input
    mapping), and lays out the two coherent positions. §4's restatement is qualified to match.
-2. **attested.tsv, three changes.** (a) Row 297 `bṛaavo /bɾˤaːvo/` → **`braavo /braːvo/`**; both
+2. **attested.csv, three changes.** (a) Row 297 `bṛaavo /bɾˤaːvo/` → **`braavo /braːvo/`**; both
    cited Abdel-Massih pages print it plain, and §8 already said so — the TSV contradicted the
    prose. (b) The two **Makkan (Hijazi)** rows (`birek` 'break', `ʔiskaib` 'Skype') are **removed**;
    the source labels them Makkan and they are not Egyptian data. (c) The eleven Khalifa
@@ -266,7 +266,7 @@ exact-diacritic claim in the Hafez text, whose emphatic marks are stripped onlin
 
 ### Disagreed with / not done
 
-- **No `layer` column was added to `attested.tsv`.** `../ATTESTED-FORMAT.md` fixes an eight-column
+- **No `layer` column was added to `attested.csv`.** `../ATTESTED-FORMAT.md` fixes an eight-column
   schema and is shared by every target language in this project; changing it unilaterally from one
   language's directory would desynchronise the others. The `PREDICTED-NOT-ATTESTED: ` note prefix
   is machine-filterable and keeps the file spec-compliant. **If the format owner wants a real

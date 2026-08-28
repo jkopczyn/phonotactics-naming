@@ -9,8 +9,8 @@ do not cd elsewhere, do not commit). Read first, in this order:
 
 Deliverables, written only inside sources/<dir>/:
 - `digest.md` — the template, filled. Keep the section numbering exactly.
-- `attested.tsv` — per ATTESTED-FORMAT.md, ≥30 rows for a target language (Irish: instead a
-  `test-words.tsv` of ≥40 Irish names/words with IPA, dialect-tagged, spanning the mismatch
+- `attested.csv` — per ATTESTED-FORMAT.md, ≥30 rows for a target language (Irish: instead a
+  `test-words.csv` of ≥40 Irish names/words with IPA, dialect-tagged, spanning the mismatch
   cases in §8 — these become the tool's input test set).
 - `digest-log.md` — short: which source was used for which section, what you could not
   resolve, anything in bib.md that turned out to be mis-described.

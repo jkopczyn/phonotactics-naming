@@ -1,20 +1,20 @@
 """Command-line entry point (spec §6; plan Tasks 6 and 27).
 
-    strands run   INPUT.tsv [--strand X|all] [--construction NAME|all] [--out out.tsv]
+    strands run   INPUT.csv [--strand X|all] [--construction NAME|all] [--out out.csv]
     strands explain WORD --strand X [--construction NAME] [--orthography TEXT] [--save [FILE]]
     strands word  SPELLING [--strand X|all] [--construction NAME] [--trace] [--save [FILE]]
     strands reverse PATTERN --strand X [--examples N] [--ipa]
-    strands gallery INPUT.tsv [--out gallery.md]
-    strands lint  INPUT.tsv [--accept]
-    strands check [--features PATH] RULES.rules|LEXICON.tsv ...
+    strands gallery INPUT.csv [--out gallery.md]
+    strands lint  INPUT.csv [--accept]
+    strands check [--features PATH] RULES.rules|LEXICON.csv ...
 
 Exit codes: 0 ok; 1 a runtime failure (unreadable input, parse error in a rule file, an
-input IPA containing a segment not in `features.tsv` — reported with the word and the
+input IPA containing a segment not in `features.csv` — reported with the word and the
 offending substring, spec §2 — an unwritable `--out`, `check` findings); 2 a usage error
 (unknown subcommand, strand or construction, missing argument). Runtime failures are
 diagnostics on stderr, never tracebacks.
 
-`run` writes one TSV row per (entry, construction, strand) — columns `orthography,
+`run` writes one CSV row per (entry, construction, strand) — columns `orthography,
 construction, strand, respelling, ipa, flags, fallbacks, assumptions` — in input /
 `CONSTRUCTIONS` / `TARGETS` order, so the file is byte-identical across runs. An entry
 without IPA, or a multi-slot template (ADJ, OF, COMPOUND) that a single entry cannot fill,
@@ -25,9 +25,9 @@ is SKIPPED: the row is still written, with empty output columns and a `skipped:.
 `#` citation comment where the id names a rule line. `gallery` is `gallery.render_gallery`.
 `word` is the no-file path: one Irish spelling, its IPA constructed by `strands.g2p` (so
 `assumptions` always carries `ipa:constructed`), one construction (default `DESC`), every
-strand by default, printed as aligned lines rather than TSV. `--trace` appends the `explain`
+strand by default, printed as aligned lines rather than CSV. `--trace` appends the `explain`
 derivation and so needs a single `--strand`. `--save [FILE]` (on `word` and `explain`)
-writes the entry as the minimal TSV `lint --accept` would produce, so a one-off word can
+writes the entry as the minimal CSV `lint --accept` would produce, so a one-off word can
 be kept and edited (`_save_entry`). `lint` prints `inputs.lint_report`; `--accept` writes the
 guesses back — including an `ipa`
 constructed from the spelling by `strands.g2p` (spec §5, milestone 8), which also gets a
@@ -62,7 +62,7 @@ from pathlib import Path
 from . import __version__
 
 COMMANDS = ("run", "explain", "word", "gallery", "lint", "check", "reverse")
-DEFAULT_FEATURES = Path(__file__).resolve().parents[2] / "rules" / "features.tsv"
+DEFAULT_FEATURES = Path(__file__).resolve().parents[2] / "rules" / "features.csv"
 RUN_COLUMNS = (
     "orthography",
     "construction",
@@ -193,16 +193,16 @@ def _write(text: str, out: str | None) -> None:
 
 
 def _save_entry(entry, save: str | bool, stem: str) -> None:
-    """`--save [FILE]` on `word` / `explain`: the minimal TSV `lint --accept` would produce
+    """`--save [FILE]` on `word` / `explain`: the minimal CSV `lint --accept` would produce
     for this one entry — the one-column file is written and `accept_guesses` fills it, so
-    the two cannot drift. FILE defaults to `YYYYMMDD-HHMMSS-<stem>.tsv` in the cwd. The
+    the two cannot drift. FILE defaults to `YYYYMMDD-HHMMSS-<stem>.csv` in the cwd. The
     path is echoed on stderr."""
     from datetime import datetime
 
     from .inputs import accept_guesses
 
     path = (
-        Path(save) if isinstance(save, str) else Path(f"{datetime.now():%Y%m%d-%H%M%S}-{stem}.tsv")
+        Path(save) if isinstance(save, str) else Path(f"{datetime.now():%Y%m%d-%H%M%S}-{stem}.csv")
     )
     try:
         path.write_text(f"orthography\n{entry.orthography}\n", encoding="utf-8")
@@ -265,9 +265,9 @@ def run_rows(entries, constructions: Sequence[str], irish, targets, table) -> li
     return rows
 
 
-def _write_tsv(rows: Sequence[dict[str, str]], out: str | None) -> None:
+def _write_csv(rows: Sequence[dict[str, str]], out: str | None) -> None:
     buf = io.StringIO()
-    writer = csv.DictWriter(buf, fieldnames=RUN_COLUMNS, delimiter="\t", lineterminator="\n")
+    writer = csv.DictWriter(buf, fieldnames=RUN_COLUMNS, lineterminator="\n")
     writer.writeheader()
     writer.writerows(rows)
     _write(buf.getvalue(), out)
@@ -279,7 +279,7 @@ def cmd_run(args: Sequence[str]) -> int:
     constructions = _constructions(opts.get("--construction"), "all")
     table, irish, targets = _load(strands)
     _, entries = _entries(path, irish, table)
-    _write_tsv(run_rows(entries, constructions, irish, targets, table), opts.get("--out"))
+    _write_csv(run_rows(entries, constructions, irish, targets, table), opts.get("--out"))
     return 0
 
 
@@ -478,8 +478,8 @@ def cmd_lint(args: Sequence[str]) -> int:
 
 
 def _check(argv: list[str]) -> int:
-    """`strands check [--features PATH] RULES... | LEXICON.tsv`: parse + static checks (Task 6);
-    a `.tsv` argument is validated as the Old Irish lexicon instead.
+    """`strands check [--features PATH] RULES... | LEXICON.csv`: parse + static checks (Task 6);
+    a `.csv` argument is validated as the Old Irish lexicon instead.
     Findings go to stderr as `path:line: CODE: message`. Exit 1 on a parse error or any
     error-severity finding; warnings alone exit 0."""
     from .check import check_rule_file
@@ -499,7 +499,7 @@ def _check(argv: list[str]) -> int:
         else:
             paths.append(arg)
     if not paths:
-        print("usage: strands check [--features PATH] RULES.rules|LEXICON.tsv ...", file=sys.stderr)
+        print("usage: strands check [--features PATH] RULES.rules|LEXICON.csv ...", file=sys.stderr)
         return 2
     try:
         table = load_features(features)
@@ -508,8 +508,8 @@ def _check(argv: list[str]) -> int:
         return 1
     failed = False
     for path in paths:
-        if path.endswith(".tsv"):
-            # Old Irish plan Task 2: a lexicon TSV routes to the LEX_* checks; warnings
+        if path.endswith(".csv"):
+            # Old Irish plan Task 2: a lexicon CSV routes to the LEX_* checks; warnings
             # (the Task 3 backlog) are listed but do not fail the run.
             from .check import check_lexicon_file
 
@@ -628,15 +628,15 @@ def cmd_reverse(args: Sequence[str]) -> int:
 # ---- dispatch -------------------------------------------------------------------------------
 
 _USAGE = {
-    "run": "strands run INPUT.tsv [--strand X|all] [--construction NAME|all] [--out out.tsv]",
+    "run": "strands run INPUT.csv [--strand X|all] [--construction NAME|all] [--out out.csv]",
     "explain": (
         "strands explain WORD --strand X [--construction NAME] [--orthography TEXT] [--save [FILE]]"
     ),
     "word": (
         "strands word SPELLING [--strand X|all] [--construction NAME] [--trace] [--save [FILE]]"
     ),
-    "gallery": "strands gallery INPUT.tsv [--out gallery.md]",
-    "lint": "strands lint INPUT.tsv [--accept]",
+    "gallery": "strands gallery INPUT.csv [--out gallery.md]",
+    "lint": "strands lint INPUT.csv [--accept]",
     "reverse": "strands reverse PATTERN --strand X [--examples N] [--ipa]",
 }
 _HANDLERS = {

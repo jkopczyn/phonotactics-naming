@@ -6,7 +6,7 @@ Design decisions (spec §9) taken as fixed and not relitigated.
 
 Overall: the plan is unusually thorough and its interpretation register (I-1…I-30) is the right
 device. The problems below are concentrated in three places: (a) the DSL cannot express several
-rules spec §7 requires; (b) `features.tsv` as specified in Task 1 disagrees in segment *spelling*
+rules spec §7 requires; (b) `features.csv` as specified in Task 1 disagrees in segment *spelling*
 and *coverage* with every downstream data file, which would break Tasks 3, 22 and 23–26; (c) the
 Task 23–26 citation tables contain a number of claims the digests do not support, several of which
 are load-bearing for the "digest-fact tests".
@@ -60,9 +60,9 @@ and Task 5's `mini.rules` fixture contains exactly those two lines in `[respell]
 Task 5 says "implement exactly this EBNF"; define them or the parser agent will guess (in particular
 whether `name` in `epithet-entry`/`tpl-entry`/`subtable-head` is the same as `class-name`).
 
-### B. `features.tsv` — segment inventory and spelling (Task 1)
+### B. `features.csv` — segment inventory and spelling (Task 1)
 
-**R6. PHOIBLE's segment spellings systematically disagree with the digests, `attested.tsv`, and the
+**R6. PHOIBLE's segment spellings systematically disagree with the digests, `attested.csv`, and the
 plan's own test assertions.** I read `chat-imports/phoible_inventories_starter.csv` (153 rows, 91
 unique phonemes, 38 features, **no cross-inventory feature conflicts** — the plan's step-2 "expected:
 no conflicts" is confirmed). But PHOIBLE writes dental/retracted coronals where everything else in
@@ -84,7 +84,7 @@ hand rows for `ʋ`, `tʃʰ`, and (see R7) the missing vowels. Task 1's step 5a g
 bases are absent: `ɡ ɾ ɣ w x` **are** present; `c ɟ ɲ ç e o` are the ones absent.
 
 **R7. Task 1's Irish segment list is incomplete — Task 3's stated acceptance is unreachable.** Task 3
-promises "every IPA string in `sources/irish/test-words.tsv` tokenizes without error (144 rows)".
+promises "every IPA string in `sources/irish/test-words.csv` tokenizes without error (144 rows)".
 Tokenizing all 144 rows against Task 1's declared 31 consonants + 11 vowels + 6 aliases, **24 rows
 fail**. Missing segments, with example rows:
 
@@ -116,7 +116,7 @@ Dutch 30/67.** The offenders are mostly data-hygiene, not phonology: ASCII `g` f
 Cairene 19, Welsh 4), ASCII `:` for `ː` and ASCII `'` for `ʼ` (Dutch), `[ ] / /` wrappers (Welsh, 16
 of 19 rows), and `e`/`o` (Cairene 142/65 — the digest's own transcription convention). Under I-24 a
 SegmentError is a hard error, so Mode L would crash the suite rather than score. Task 22 must add
-(a) a documented input-cleaning pass for `attested.tsv` (strip `[]//`, map `g→ɡ`, `:→ː`, `'→ʼ`), and
+(a) a documented input-cleaning pass for `attested.csv` (strip `[]//`, map `g→ɡ`, `:→ː`, `'→ʼ`), and
 (b) a `mode="error"` bucket so an untokenizable row is reported, not raised.
 
 **R10. Three of the four stated Mode L denominators are wrong.** Verified: Georgian has `target_ipa`
@@ -205,7 +205,7 @@ loan, lines 209–213), not a property of the CC entries. And the digest's appen
 *coronal obstruents*" (line 158), which Task 26 narrows to literally `appendix = s t` — flag the
 narrowing as `%design` or widen the set.
 
-**R22. Irish: "all 144 `test-words.tsv` rows tagged for mutations" (spec §8, plan Task 17) is false.**
+**R22. Irish: "all 144 `test-words.csv` rows tagged for mutations" (spec §8, plan Task 17) is false.**
 The file has 144 data rows; mutation tagging lives in the `features` column as `mut:` and **47 rows**
 carry it (`mut:lenition|eclipsis|hproth|tproth|nproth`). The 85 rows carrying `len:` are a *length*
 tag, unrelated to mutations. Restate the Task 17 test as "the 47 `mut:`-tagged rows"; the "144-word
@@ -218,7 +218,7 @@ transcriptions, digest.md:27). Task 19's rule line merges both under `# tooling 
 
 **R24. `declension` is inferred nowhere.** Task 18's `GEN()` dispatches on `Entry.declension`
 (`m1|ach|f2|m3|4`) and `VOC_M1?` gates on it, but Task 20's `infer()` covers only gender, gen_ipa and
-dialect (spec §5 says nothing about declension either), and `test-words.tsv` has no such column.
+dialect (spec §5 says nothing about declension either), and `test-words.csv` has no such column.
 Every construction test in Task 18 passes `declension=` by hand, so the gap is invisible until Task
 27 runs `--construction all` over the real file, where everything silently defaults to `m1`. Add a
 declension inference rule to Task 20 (ending-based, mirroring the gen_ipa heuristics) with its own
@@ -320,7 +320,7 @@ target's test module beside the digest-fact tests. The examples exist and are al
 **Georgian** (`sources/georgian/digest.md`)
 | Rule | Case | Digest line |
 |---|---|---|
-| degemination | *Twitter* → /tʼvitʼɛri/ | 989 (+ attested.tsv row 4) |
+| degemination | *Twitter* → /tʼvitʼɛri/ | 989 (+ attested.csv row 4) |
 | degemination | *puzzle* → /pʼazli/ | 948, 989, 1006 (+ row 16) |
 | degemination | *shopping* → /ʃɔpʼinɡi/ | 879, 989 (+ row 18) |
 | degemination (native) | /aleɡoria/, /kʼlasi/ | 992 |
@@ -341,7 +341,7 @@ target-file agents a hard target other than the Mode L percentage.
   agent "passes" them: Task 2 `test_loads_all_segments_in_file_order` ends in `or True`;
   Task 2 `test_nearest_breaks_ties_by_candidate_order` asserts `in {("d",),("t",)}` for the second
   case; Task 9 `test_ties_break_by_inventory_order` does the same. Compute the real expected values
-  once `features.tsv` exists and hard-code them.
+  once `features.csv` exists and hard-code them.
 - **S3.** Task 1 step 4 estimates "roughly 110 PHOIBLE unique" rows; the true count is **91**. Update
   the eyeball check (`wc -l` ≈ 145, not 155–165).
 - **S4.** Welsh onset tiers: the digest has a **fifth** tier, "E — ASSEMBLED/UNVERIFIED (do not encode

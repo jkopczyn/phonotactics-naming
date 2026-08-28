@@ -16,7 +16,7 @@ Report: "Ejectives in the feature table carry both `+ejective` and `+constricted
 features**. Cosmetic, but it's why the Georgian file reads oddly in that block."
 
 - There is no feature named `ejective`. The column is **`raisedLarynxEjective`**
-  (`rules/features.tsv` header, col 39); `constrictedGlottis` is col 36. `[+ejective]` would
+  (`rules/features.csv` header, col 39); `constrictedGlottis` is col 36. `[+ejective]` would
   not "reach nothing" — it would be a parse error on an unknown feature.
 - Georgian rules **do not write both features**. They write no feature bundle at all:
   `rules/georgian.rules:118-121` is seven explicit segment→segment lines
@@ -66,7 +66,7 @@ as process (§3).
 - Test count: **862 passed, 2 xfailed** (7m30s) — matches.
 - All four "Try it" commands exit 0 and do what the comment says; `explain` prints one line per
   rule with `%attested`/`%design` tag and a `[bibkey p.N]` / `digest §N line L` citation.
-- `sources/irish/test-words.tsv` holds exactly 144 data rows.
+- `sources/irish/test-words.csv` holds exactly 144 data rows.
 - Decision 3: `tests/test_rules_dutch.py` now asserts `rate("C") >= 0.7714` (27/35) and
   `rate("E") >= 0.1538` (4/26) as ordinary assertions, with `test_ratchet_does_not_slip`; the
   eight named Mode C misses are seven French final-stress loans plus `roos`. Correct.

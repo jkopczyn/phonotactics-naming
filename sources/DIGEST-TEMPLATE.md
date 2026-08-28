@@ -73,7 +73,7 @@ attachment conditions, example.
 
 ## 7. Attested adaptations
 
-Pointer to `attested.tsv` in this directory (format in `../ATTESTED-FORMAT.md`) and a count.
+Pointer to `attested.csv` in this directory (format in `../ATTESTED-FORMAT.md`) and a count.
 Summarize the provenance mix (loanword-paper tables vs. dictionary vs. transliteration
 practice) and any bias (e.g. all examples English-sourced).
 

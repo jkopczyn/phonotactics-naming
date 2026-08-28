@@ -21,7 +21,7 @@ Section numbers in the coverage notes refer to `../DIGEST-TEMPLATE.md` §0–§9
 - **Verification.** Confirmed. `lexibank/wold` is the live CLDF derivation; `clld/wold-data`
   also exists and is the older clld-app data repo — use `lexibank/wold`.
 - **Local files.** `wold-languages.csv` (all 41 recipient languages),
-  `wold-dutch-forms.csv` (1 588 Dutch forms), `wold-dutch-loanpairs.tsv` (339 donor→Dutch rows),
+  `wold-dutch-forms.csv` (1 588 Dutch forms), `wold-dutch-loanpairs.csv` (339 donor→Dutch rows),
   `wold-chapter-12-dutch-vandersijs.md`, `wold-chapter-34-qeqchi.md`,
   `wold-dutch-extract.py` (the regeneration script; documents the table shapes).
 
@@ -146,9 +146,9 @@ as a whole is not open (see the paywalled list).
   *WALS Online* (v2020.4). Zenodo. doi:10.5281/zenodo.13950591.
 - **URL.** https://wals.info/chapter/12 · /14 · /15 (values as TSV at `/feature/12A.tab` etc.)
 - **Access tier.** OA (CC BY 4.0). **Verification.** Confirmed.
-- **Local files.** `wals-12-syllable-structure.{html,txt}`, `wals-12A-values.tsv`,
-  `wals-14-stress.{html,txt}`, `wals-14A-values.tsv`, `wals-15-stress.{html,txt}`,
-  `wals-15A-values.tsv`.
+- **Local files.** `wals-12-syllable-structure.{html,txt}`, `wals-12A-values.csv`,
+  `wals-14-stress.{html,txt}`, `wals-14A-values.csv`, `wals-15-stress.{html,txt}`,
+  `wals-15A-values.csv`.
 
 **Values for our languages** (verbatim from the TSVs; blank = not in that chapter's sample):
 
@@ -262,7 +262,7 @@ as a whole is not open (see the paywalled list).
   (The parent volume itself is paywalled; this single chapter is legitimately open.)
 - **Verification.** Confirmed; 10 pp. of PDF (the chapter proper plus the repository cover sheet).
 - **Local files.** `vandersijs2009-dutch-loanwords-chapter.pdf`, `.txt`.
-- **Digest coverage.** The prose companion to `wold-dutch-loanpairs.tsv` — §7 provenance and §3
+- **Digest coverage.** The prose companion to `wold-dutch-loanpairs.csv` — §7 provenance and §3
   by inference (which donor languages, which periods, how the compiler judged integration).
   Also `wold-chapter-12-dutch-vandersijs.md` is the shorter online version of the same author's
   methodology notes (analyzability, dating, borrowed-status scale). **Hand this to the Dutch

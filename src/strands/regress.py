@@ -1,4 +1,4 @@
-"""Regression harness over `sources/<target>/attested.tsv` (plan Task 22; spec §8 layer 3 as
+"""Regression harness over `sources/<target>/attested.csv` (plan Task 22; spec §8 layer 3 as
 re-scoped by I-25).
 
 Two modes, decided per row:
@@ -133,12 +133,12 @@ class RegressionReport:
 
 
 def read_attested(target: str) -> list[dict[str, str]]:
-    """Rows of sources/<target>/attested.tsv, NFC-normalized (I-1). Drops rows whose `note`
+    """Rows of sources/<target>/attested.csv, NFC-normalized (I-1). Drops rows whose `note`
     starts with 'PREDICTED-NOT-ATTESTED:' (the 11 Cairene predictions)."""
-    path = SOURCES_DIR / target / "attested.tsv"
+    path = SOURCES_DIR / target / "attested.csv"
     out: list[dict[str, str]] = []
     with path.open(encoding="utf-8", newline="") as fh:
-        for raw in csv.DictReader(fh, delimiter="\t"):
+        for raw in csv.DictReader(fh):
             row = {k: unicodedata.normalize("NFC", v or "") for k, v in raw.items() if k}
             if row.get("note", "").startswith(PREDICTED_PREFIX):
                 continue

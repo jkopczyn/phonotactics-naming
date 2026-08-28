@@ -1,10 +1,10 @@
-"""Task 1a: PHOIBLE half of rules/features.tsv (plan I-34, I-35)."""
+"""Task 1a: PHOIBLE half of rules/features.csv (plan I-34, I-35)."""
 
 import csv
 import pathlib
 
 ROOT = pathlib.Path(__file__).parents[1]
-FEATURES = ROOT / "rules" / "features.tsv"
+FEATURES = ROOT / "rules" / "features.csv"
 PHOIBLE_38 = (
     "tone stress syllabic short long consonantal sonorant continuant delayedRelease "
     "approximant tap trill nasal lateral labial round labiodental coronal anterior "
@@ -17,12 +17,12 @@ PHOIBLE_38 = (
 
 def rows():
     with FEATURES.open(encoding="utf-8") as fh:
-        return list(csv.DictReader(fh, delimiter="\t"))
+        return list(csv.DictReader(fh))
 
 
 def test_header():
     with FEATURES.open(encoding="utf-8") as fh:
-        header = fh.readline().rstrip("\n").split("\t")
+        header = next(csv.reader(fh))
     assert header[:3] == ["segment", "class", "source"]
     assert header[3:] == PHOIBLE_38
 
@@ -78,7 +78,7 @@ def test_rebuild_is_byte_stable(tmp_path):
     import subprocess
     import sys
 
-    out = tmp_path / "f.tsv"
+    out = tmp_path / "f.csv"
     subprocess.run(
         [
             sys.executable,
@@ -91,6 +91,6 @@ def test_rebuild_is_byte_stable(tmp_path):
     committed = [
         ln
         for ln in FEATURES.read_text(encoding="utf-8").splitlines()
-        if "\tphoible:" in ln or ln.startswith("segment\t")
+        if ",phoible:" in ln or ln.startswith("segment,")
     ]
     assert out.read_text(encoding="utf-8").splitlines() == committed

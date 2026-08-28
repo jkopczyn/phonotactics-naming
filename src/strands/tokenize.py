@@ -1,11 +1,11 @@
 """Longest-match tokenizer, prosodic/boundary marks, and attested-data cleaning.
 
 Plan Task 3; spec §2 (segments are opaque tokens; tokenization is longest-match against
-features.tsv; an unknown segment is a hard error naming the word and the substring) and
+features.csv; an unknown segment is a hard error naming the word and the substring) and
 §12.F (the alias table applies to attested data only); interpretations I-1 (NFC on read),
 I-2 (diphthongs are two segments), I-24 (unknown segment raises for user input and rule
 files), I-34 (ASCII `g` is a canonical row and survives tokenize()), I-36 (cleaning pass for
-attested.tsv fields), I-40 (marks, including secondary stress).
+attested.csv fields), I-40 (marks, including secondary stress).
 """
 
 from __future__ import annotations
@@ -130,7 +130,7 @@ def detokenize(segments: Sequence[str]) -> str:
 def clean_attested(text: str, target: str) -> str:
     """I-36: strip wrapping [ ] and / /, ':'->'ː', ASCII 'g'->'ɡ'. The ASCII apostrophe
     is mapped to 'ʼ' ONLY for target == 'georgian' (national-2002 ejective mark); for
-    every other target it is a stress mark and is dropped. Used ONLY on attested.tsv
+    every other target it is a stress mark and is dropped. Used ONLY on attested.csv
     fields, never on user input."""
     s = unicodedata.normalize("NFC", text).strip()
     if len(s) >= 2 and ((s[0] == "[" and s[-1] == "]") or (s[0] == "/" and s[-1] == "/")):

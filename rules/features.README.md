@@ -1,14 +1,14 @@
-# rules/features.tsv — provenance
+# rules/features.csv — provenance
 
 Built by `rules/build_features.py` from `chat-imports/phoible_inventories_starter.csv` (PHOIBLE
 half, `source = phoible:<InventoryID>`) plus hand rows added in Task 1b (`source = hand:...`).
 Rebuild the PHOIBLE half with:
 
-    uv run python rules/build_features.py chat-imports/phoible_inventories_starter.csv rules/features.tsv
+    uv run python rules/build_features.py chat-imports/phoible_inventories_starter.csv rules/features.csv
 
 Re-sort a table that already contains hand rows (no re-import):
 
-    uv run python rules/build_features.py --sort-only rules/features.tsv rules/features.tsv
+    uv run python rules/build_features.py --sort-only rules/features.csv rules/features.csv
 
 Columns: `segment  class  source` + the 38 PHOIBLE features in PHOIBLE order. `class` is `C`
 for `SegmentClass=consonant`, `V` for `vowel`. Rows are sorted by (`class`, segment code
@@ -140,7 +140,7 @@ No consonant row carries `ː`: gemination is two identical segments everywhere (
 
 73 PHOIBLE + 40 hand = **113 rows** (86 consonants, 27 vowels). Test-covered by
 `tests/test_features_hand.py`, which also checks that all 64 segments used by
-`sources/irish/test-words.tsv` have a row.
+`sources/irish/test-words.csv` have a row.
 
 ## Old Irish lenited series (2026-08-27)
 

@@ -35,7 +35,7 @@ use it.
 overrides that file's §§1–11. Linguistic content: `sources/irish/digest.md §10` and the `bib.md`
 entries `pokorny1914-oldirish-grammar`, `strachan1909-oldirish-paradigms`, `wiki-old-irish`,
 `wiki-old-irish-grammar`, `wiki-old-irish-phonhistory`, `utaustin-oldirish-lesson1`, `edil`. Data
-already on disk: `rules/old-irish-lexicon.tsv` (299 rows) and `rules/old-irish-lexicon-log.md`.
+already on disk: `rules/old-irish-lexicon.csv` (299 rows) and `rules/old-irish-lexicon-log.md`.
 Reviews that shaped this draft: `docs/plans/review-oi-opus.md`. Task format:
 `docs/plans/2026-08-25-engine-plan.md`, whose interpretation register (I-1…I-41) is still in force
 and is not repeated here.
@@ -80,7 +80,7 @@ the engine plan's `I-n`. Numbers are stable across drafts; **O-8 is withdrawn**,
 - **O-27 The spelled word** (spec §11). Old Irish stages pass around a `SpelledWord`: an ordered
   tuple of **grapheme tokens** plus `capitalized: bool` and `mutation: str` (`""`, `"LEN"` or
   `"NAS"`). It is **lossless**: `"".join(tokens)` is the written form up to capitalization, which is
-  stored, not spelled. Tokens come from one table (`rules/old-irish-orthography.tsv`) that also
+  stored, not spelled. Tokens come from one table (`rules/old-irish-orthography.csv`) that also
   carries each token's reconstruction, so there is no second alphabet to keep in sync. Silent
   tokens (`ḟ`, the glide `i`), the punctum forms (`ṡ`, `ḟ`) and the unresolved ending marker `ə`
   are ordinary tokens — the punctum forms are `cons`/`silent` rows carrying a plain-letter
@@ -92,7 +92,7 @@ the engine plan's `I-n`. Numbers are stable across drafts; **O-8 is withdrawn**,
   spelled words; template literals are **spellings** (O-25). The engine's `Rule`/`apply_section`
   machinery is *not* reused for them — it is typed to IPA segments — so Task 7 provides a small
   grapheme-rewrite applier of its own, and `strands check` validates the tables against the
-  grapheme table rather than against `features.tsv`.
+  grapheme table rather than against `features.csv`.
 - **O-11 `spelling_to_ipa` runs once, at the end, and is one-way** (spec §11). It takes the finished
   `SpelledWord` (after mutation and inflection) and returns segments; `Result.ipa` joins segments
   **without separators inside a word** and with a single space between words (GPT P2). The
@@ -108,7 +108,7 @@ the engine plan's `I-n`. Numbers are stable across drafts; **O-8 is withdrawn**,
 ### Inventory and segments
 
 - **O-1 Segment spellings for the lenited series.** Spec §4 writes `/β ð ɣ μ θ x/`. Project canon
-  is IPA with diacritics (engine spec §12.F), so `μ` is written **`β̃`**. New `features.tsv` rows:
+  is IPA with diacritics (engine spec §12.F), so `μ` is written **`β̃`**. New `features.csv` rows:
   `β βʲ β̃ β̃ʲ θʲ ðʲ ɣʲ` — **seven, not draft 1's six** (R26): `j` is `sonorant +, consonantal −,
   approximant +`, a glide, so it is not the fricative /ɣʲ/ that digest §10.1 charts, and any
   `[C +continuant −sonorant]` bundle over the lenited series would silently miss it. Slender `/xʲ/`
@@ -227,11 +227,11 @@ the engine plan's `I-n`. Numbers are stable across drafts; **O-8 is withdrawn**,
   `stem:default-by-gender`.
 - **O-22 The Middle Irish tier.** `status = middle` → flag `ATTESTED:MIr`; identical to `attested`
   in every other respect. Spec §10 marks it a speculative default, so nothing branches on it.
-- **O-24 The lexicon already exists**, and so does its log. `rules/old-irish-lexicon.tsv` has 299
+- **O-24 The lexicon already exists**, and so does its log. `rules/old-irish-lexicon.csv` has 299
   rows (270 `attested`, 29 `none`, 163 with `oi_gen`), and a 35-row independent verification has
   been done — **recorded as a prose table in `rules/old-irish-lexicon-log.md` §"Sample
-  verification", not as a TSV** (R3: draft 1 claimed a `verification.tsv` that does not exist).
-  Task 3 back-fills that pass into `rules/old-irish-lexicon.verification.tsv` as part of writing its
+  verification", not as a TSV** (R3: draft 1 claimed a `verification.csv` that does not exist).
+  Task 3 back-fills that pass into `rules/old-irish-lexicon.verification.csv` as part of writing its
   own second pass, so the two are comparable.
 
 ### Measurement
@@ -239,7 +239,7 @@ the engine plan's `I-n`. Numbers are stable across drafts; **O-8 is withdrawn**,
 - **O-16 The filter regression compares written forms**, `Result.respelling` vs `oi_nom`, with a
   **character-level** Levenshtein distance, because `oi_nom` is a spelling.
 - **O-31 The regression population is 54 keys, measured** (R1; spec §11 fixes the definition). It is
-  the set of unique citation-form keys that are in `test-words.tsv` with hand IPA **and** have a
+  the set of unique citation-form keys that are in `test-words.csv` with hand IPA **and** have a
   form-bearing (`attested`/`middle`) lexicon row. Measured from the two committed files: 138
   distinct test-word keys (all with IPA), 74 direct lexicon hits, of which **20 are `status = none`
   and excluded**, leaving **n = 54**. Duplicate keys: 5, of which 4 are in the population. The
@@ -272,14 +272,14 @@ the engine plan's `I-n`. Numbers are stable across drafts; **O-8 is withdrawn**,
 ```
 phonotactics/
   rules/
-    features.tsv                     # Task 1: + 7 hand rows (β βʲ β̃ β̃ʲ θʲ ðʲ ɣʲ)
+    features.csv                     # Task 1: + 7 hand rows (β βʲ β̃ β̃ʲ θʲ ðʲ ɣʲ)
     features.README.md               # Task 1: their derivation
-    old-irish-lexicon.tsv            # EXISTS (299 rows). Task 2 adds `kind`; Tasks 3, 4 fix/extend
+    old-irish-lexicon.csv            # EXISTS (299 rows). Task 2 adds `kind`; Tasks 3, 4 fix/extend
     old-irish-lexicon-log.md         # EXISTS — the harvest log; Tasks 3, 4 append sections
-    old-irish-lexicon.verification.tsv   # Task 3 back-fills the first (35-row) pass from the log
-    old-irish-lexicon.verification2.tsv  # Task 3: the second pass
-    irish-orthography.tsv            # Task 5: modern grapheme -> segment table (the aligner)
-    old-irish-orthography.tsv        # Task 7: the Old Irish GRAPHEME TABLE (tokens + reconstruction)
+    old-irish-lexicon.verification.csv   # Task 3 back-fills the first (35-row) pass from the log
+    old-irish-lexicon.verification2.csv  # Task 3: the second pass
+    irish-orthography.csv            # Task 5: modern grapheme -> segment table (the aligner)
+    old-irish-orthography.csv        # Task 7: the Old Irish GRAPHEME TABLE (tokens + reconstruction)
     old-irish.rules                  # Tasks 8, 9, 10, 11, 13, 14, 15 — strictly in that order
   src/strands/
     word.py                          # Task 5: + the `orth` channel
@@ -312,7 +312,7 @@ phonotactics/
 
 | # | Task | Depends on |
 |---|---|---|
-| 1 | `features.tsv` hand rows for the Old Irish lenited series (7 rows) | — |
+| 1 | `features.csv` hand rows for the Old Irish lenited series (7 rows) | — |
 | 2 | Lexicon schema, reader, `strands check` validation | — |
 | 3 | Lexicon fix-up: stem classes, `kind` values, both verification files | 2 |
 | 4 | Middle Irish tier — the 49 unresolved names | 3 |
@@ -358,11 +358,11 @@ they are per-row research jobs with live page fetches, not "small extensions": b
 accordingly, and note that Task 3's 10% defect gate can stop the plan.
 
 ---
-## Task 1: `features.tsv` hand rows for the Old Irish lenited series
+## Task 1: `features.csv` hand rows for the Old Irish lenited series
 
 **Depends on:** — . **Spec:** §4 `[inventory]`; O-1, O-2, O-3. **Review:** R26, S18.
 
-**Files:** modify `rules/features.tsv` and `rules/features.README.md`; append to
+**Files:** modify `rules/features.csv` and `rules/features.README.md`; append to
 `tests/test_features_hand.py`.
 
 **Interfaces:** produces **seven** new tokenizable segments — `β βʲ β̃ β̃ʲ θʲ ðʲ ɣʲ` — usable from
@@ -435,7 +435,7 @@ def test_no_fortis_sonorant_rows_were_added():
 - [ ] **Step 2:** `uv run pytest tests/test_features_hand.py -q` → FAIL (`'β' not in TABLE.segments`).
 - [ ] **Step 3:** append the seven rows, copying the source row and editing only the named columns.
       Verify column counts:
-      `uv run python -c "import csv,pathlib; rows=list(csv.DictReader(pathlib.Path('rules/features.tsv').open(encoding='utf-8'),delimiter='\t')); print([r['segment'] for r in rows[-7:]], len({len(r) for r in rows}))"`
+      `uv run python -c "import csv,pathlib; rows=list(csv.DictReader(pathlib.Path('rules/features.csv').open(encoding='utf-8'),delimiter='\t')); print([r['segment'] for r in rows[-7:]], len({len(r) for r in rows}))"`
 - [ ] **Step 4:** append an "Old Irish lenited series (2026-08-27)" section to
       `rules/features.README.md`: per row, the source row, the features changed, the citation
       `digest §10.1 [wiki-old-irish §Consonants]`, and one sentence each recording O-1 (why `β̃`),
@@ -445,7 +445,7 @@ def test_no_fortis_sonorant_rows_were_added():
 - [ ] **Step 6: Commit**
 
 ```bash
-git add rules/features.tsv rules/features.README.md tests/test_features_hand.py
+git add rules/features.csv rules/features.README.md tests/test_features_hand.py
 git commit -m "feat(features): Old Irish lenited series rows (β βʲ β̃ β̃ʲ θʲ ðʲ ɣʲ)"
 ```
 
@@ -463,7 +463,7 @@ task writes the code that governs it. It must be green on the committed file **a
 R3a measured that draft 1's rules would have made it red on 41 rows — so the pre-Task-3 gaps are
 warnings, not errors.
 
-**Files:** create `src/strands/lexicon.py`; modify `rules/old-irish-lexicon.tsv` (**header only**,
+**Files:** create `src/strands/lexicon.py`; modify `rules/old-irish-lexicon.csv` (**header only**,
 add `kind`), `src/strands/check.py`, `src/strands/cli.py`; test `tests/test_lexicon.py`.
 
 **Interfaces:**
@@ -546,7 +546,7 @@ HEADER = "\t".join(LEXICON_COLUMNS)
 
 
 def write(tmp_path, *rows):
-    path = tmp_path / "lex.tsv"
+    path = tmp_path / "lex.csv"
     path.write_text("\n".join([HEADER, *rows]) + "\n", encoding="utf-8")
     return path
 
@@ -650,7 +650,7 @@ def test_a_row_task3_still_owes_a_stem_or_gender_is_a_warning(tmp_path):
 
 
 def test_a_wrong_header_is_reported_not_guessed(tmp_path):
-    path = tmp_path / "lex.tsv"
+    path = tmp_path / "lex.csv"
     path.write_text("orthography\toi_nom\n", encoding="utf-8")
     assert "LEX_HEADER" in codes(path)
 
@@ -684,7 +684,7 @@ Append to `tests/test_cli.py`:
 ```python
 def test_check_accepts_a_lexicon_tsv():
     from strands.cli import main
-    assert main(["check", str(ROOT / "rules" / "old-irish-lexicon.tsv")]) == 0
+    assert main(["check", str(ROOT / "rules" / "old-irish-lexicon.csv")]) == 0
 ```
 
 - [ ] **Step 2:** `uv run pytest tests/test_lexicon.py -q` → FAIL (`No module named 'strands.lexicon'`).
@@ -692,7 +692,7 @@ def test_check_accepts_a_lexicon_tsv():
       `orthography` is always the CITATION form and lookup never de-mutates (O-23); that every row
       cites a page; and that the four `LEX_*` warnings are a **data backlog owned by Task 3**, which
       promotes three of them to errors when it closes them.
-- [ ] **Step 4:** add `check_lexicon_file` to `check.py`; in `cli.py`, route a `.tsv` argument of
+- [ ] **Step 4:** add `check_lexicon_file` to `check.py`; in `cli.py`, route a `.csv` argument of
       `check` to it and exit 1 only on `severity == "error"`. (Confirm the existing handler does not
       already fail on warnings; the four target rule files emit none, so nothing changes for them.)
 - [ ] **Step 5:** add the `kind` column to the committed lexicon, **header plus one empty field per
@@ -701,7 +701,7 @@ def test_check_accepts_a_lexicon_tsv():
 ```bash
 uv run python - <<'PY'
 import pathlib
-p = pathlib.Path("rules/old-irish-lexicon.tsv")
+p = pathlib.Path("rules/old-irish-lexicon.csv")
 lines = p.read_text(encoding="utf-8").splitlines()
 head = lines[0].split("\t"); i = head.index("status") + 1
 head.insert(i, "kind")
@@ -715,18 +715,18 @@ p.write_text("\n".join(out) + "\n", encoding="utf-8")
 PY
 ```
 
-- [ ] **Step 6:** `uv run strands check rules/old-irish-lexicon.tsv` → warnings listed, **exit 0**;
+- [ ] **Step 6:** `uv run strands check rules/old-irish-lexicon.csv` → warnings listed, **exit 0**;
       `uv run pytest -q` → 1004+ passed, 2 xfailed.
 - [ ] **Step 7: Commit**
 
 ```bash
 git add src/strands/lexicon.py src/strands/check.py src/strands/cli.py \
-        rules/old-irish-lexicon.tsv tests/test_lexicon.py tests/test_cli.py
+        rules/old-irish-lexicon.csv tests/test_lexicon.py tests/test_cli.py
 git commit -m "feat(lexicon): schema, reader and check validation; kind column for RETRO:loan/late"
 ```
 
 **Acceptance:** the committed 299-row lexicon has **zero error findings** and a visible warning
-backlog; all four row shapes validate and map to their flags; `strands check` accepts a `.tsv`.
+backlog; all four row shapes validate and map to their flags; `strands check` accepts a `.csv`.
 
 ---
 
@@ -740,9 +740,9 @@ section. **Execute this with a different agent than the one that harvested the l
 per-row research job with live page fetches, not a small edit; budget it as such, and note that
 its 10% defect gate can stop the plan.
 
-**Files:** modify `rules/old-irish-lexicon.tsv`, `rules/old-irish-lexicon-log.md`,
-`src/strands/lexicon.py`; create `rules/old-irish-lexicon.verification.tsv` and
-`rules/old-irish-lexicon.verification2.tsv`; test `tests/test_lexicon_data.py`.
+**Files:** modify `rules/old-irish-lexicon.csv`, `rules/old-irish-lexicon-log.md`,
+`src/strands/lexicon.py`; create `rules/old-irish-lexicon.verification.csv` and
+`rules/old-irish-lexicon.verification2.csv`; test `tests/test_lexicon_data.py`.
 
 **Part A — reclassify the 37 `irregular` rows** (log finding 5; O-21). Spec §10 gave `velar`, `r`,
 `s`, `indecl` their own slots. Read each row's `note` — the harvest recorded the true class there —
@@ -795,7 +795,7 @@ confirm `oi_nom`; take the genitive and stem class from the page's inflection ta
 re-check the ā-stem group *adarc → adarcae*, *ferg → fergae*, *long → lungae* (R29): a bare ⟨-ae⟩
 with no palatalization does not fit the *túath/túaithe* paradigm and may be a data error.
 
-**Part F — back-fill the first pass** (R3). `rules/old-irish-lexicon.verification.tsv` does **not**
+**Part F — back-fill the first pass** (R3). `rules/old-irish-lexicon.verification.csv` does **not**
 exist; the first 35-row pass is a prose table in the log. Transcribe it into a TSV with the same
 header as the second pass so the two are comparable.
 
@@ -822,7 +822,7 @@ from helpers import ROOT, read_test_words
 from strands.check import check_lexicon_file
 from strands.lexicon import FORM_STATUSES, KINDS, STEMS, key, read_lexicon, read_rows
 
-PATH = ROOT / "rules" / "old-irish-lexicon.tsv"
+PATH = ROOT / "rules" / "old-irish-lexicon.csv"
 HEADER, ROWS = read_rows(PATH)
 LEX = read_lexicon(PATH)
 FORMS = [r for r in ROWS if r.status in FORM_STATUSES]
@@ -898,14 +898,14 @@ def test_old_irish_forms_carry_no_modern_lenition_digraphs():
 
 
 def test_the_measured_regression_overlap_is_intact():
-    """O-31: 54 form-bearing keys also in test-words.tsv with hand IPA."""
+    """O-31: 54 form-bearing keys also in test-words.csv with hand IPA."""
     keys = {key(r["orthography"]) for r in read_test_words() if r["ipa"]}
     overlap = {k for k in keys & set(LEX) if LEX[k].status in FORM_STATUSES}
     assert len(overlap) >= 54, len(overlap)
 
 
-@pytest.mark.parametrize("name", ["old-irish-lexicon.verification.tsv",
-                                  "old-irish-lexicon.verification2.tsv"])
+@pytest.mark.parametrize("name", ["old-irish-lexicon.verification.csv",
+                                  "old-irish-lexicon.verification2.csv"])
 def test_both_verification_files_exist_with_the_agreed_schema(name):
     """R3: the first pass was prose in the log; this task back-fills it."""
     header, rows = verification(name)
@@ -914,7 +914,7 @@ def test_both_verification_files_exist_with_the_agreed_schema(name):
 
 
 def test_every_verdict_is_explained_and_attributed():
-    for name in ("old-irish-lexicon.verification.tsv", "old-irish-lexicon.verification2.tsv"):
+    for name in ("old-irish-lexicon.verification.csv", "old-irish-lexicon.verification2.csv"):
         for r in verification(name)[1]:
             assert r["verdict"] in ("ok", "fixed", "removed"), r
             assert r["checked_by"].strip(), r
@@ -923,13 +923,13 @@ def test_every_verdict_is_explained_and_attributed():
 
 
 def test_the_second_pass_defect_rate_admits_the_genitive_less_rows():
-    rows = verification("old-irish-lexicon.verification2.tsv")[1]
+    rows = verification("old-irish-lexicon.verification2.csv")[1]
     defects = sum(r["verdict"] != "ok" for r in rows)
     assert defects <= len(rows) // 10, (defects, len(rows))
 
 
 def test_removed_rows_are_gone_and_kept_rows_are_present():
-    for r in verification("old-irish-lexicon.verification2.tsv")[1]:
+    for r in verification("old-irish-lexicon.verification2.csv")[1]:
         assert (key(r["orthography"]) in LEX) != (r["verdict"] == "removed"), r["orthography"]
 ```
 
@@ -941,13 +941,13 @@ def test_removed_rows_are_gone_and_kept_rows_are_present():
 - [ ] **Step 8:** append a "Second pass (Task 3)" section to the log: how many rows were
       reclassified into each new stem value, how many annotated exempt, the `kind` re-classification
       deltas, the verification counts, and any row removed.
-- [ ] **Step 9:** `uv run strands check rules/old-irish-lexicon.tsv` → **no findings**;
+- [ ] **Step 9:** `uv run strands check rules/old-irish-lexicon.csv` → **no findings**;
       `uv run pytest -q` → green.
 - [ ] **Step 10: Commit**
 
 ```bash
-git add rules/old-irish-lexicon.tsv rules/old-irish-lexicon-log.md \
-        rules/old-irish-lexicon.verification.tsv rules/old-irish-lexicon.verification2.tsv \
+git add rules/old-irish-lexicon.csv rules/old-irish-lexicon-log.md \
+        rules/old-irish-lexicon.verification.csv rules/old-irish-lexicon.verification2.csv \
         src/strands/lexicon.py tests/test_lexicon_data.py tests/test_lexicon.py
 git commit -m "data(lexicon): reclassify stems, classify none-rows by kind, add formation elements, second verification pass
 
@@ -972,7 +972,7 @@ without an Old Irish one", and it names two honest routes, one of which — "an 
 decision to admit Middle Irish forms as fallback ancestors with a distinct status value" — spec §10
 has now taken.
 
-**Files:** modify `rules/old-irish-lexicon.tsv` and `rules/old-irish-lexicon-log.md`; append to
+**Files:** modify `rules/old-irish-lexicon.csv` and `rules/old-irish-lexicon-log.md`; append to
 `tests/test_lexicon_data.py`.
 
 **Procedure, per unresolved headword:**
@@ -1038,11 +1038,11 @@ def test_the_lexicon_is_still_clean_and_within_its_size_bound():
 - [ ] **Step 3:** work the 49; write the rows; append a "Middle Irish tier (Task 4)" section to the
       log recording how many were revisited, how many written, and which stay unresolved with the
       unchanged reason.
-- [ ] **Step 4:** `uv run strands check rules/old-irish-lexicon.tsv` → silent; `uv run pytest -q` → green.
+- [ ] **Step 4:** `uv run strands check rules/old-irish-lexicon.csv` → silent; `uv run pytest -q` → green.
 - [ ] **Step 5: Commit**
 
 ```bash
-git add rules/old-irish-lexicon.tsv rules/old-irish-lexicon-log.md tests/test_lexicon_data.py
+git add rules/old-irish-lexicon.csv rules/old-irish-lexicon-log.md tests/test_lexicon_data.py
 git commit -m "data(lexicon): Middle Irish tier — N rows for names attested only in Middle Irish"
 ```
 
@@ -1056,7 +1056,7 @@ cites a page showing an unasterisked form, and says in its note that it is Middl
 **Depends on:** — . **Spec:** §4, §11 (positional tags, measured per-class coverage). O-6, O-7.
 **Review:** R5, R6, R7, R8, R10, S1, S2, S3.
 
-**Files:** create `src/strands/orth.py` and `rules/irish-orthography.tsv`; modify
+**Files:** create `src/strands/orth.py` and `rules/irish-orthography.csv`; modify
 `src/strands/word.py` and `src/strands/irish.py`; test `tests/test_orth_align.py`.
 
 **Interfaces:**
@@ -1088,7 +1088,7 @@ and each alternative in file order, if `segments[j:j+len(alt)] == alt`, recurse.
 Failure is total: `("",) * len(segs)`, never partial, never an exception.
 
 **Measured coverage (spec §11 requires the number, not a threshold).** The table below was executed
-against all **144** rows of `sources/irish/test-words.tsv` that carry IPA (all of them; 0
+against all **144** rows of `sources/irish/test-words.csv` that carry IPA (all of them; 0
 untokenizable), after `tokenize` + `irish.normalize`:
 
 | class | aligned/total | % |
@@ -1111,7 +1111,7 @@ the gap; write them, do not re-derive them.** Determinism was verified across th
 (*Colm, Sorcha, leanbh ×2, dearg, gorm, dorcha, ainm, long, gealbhan, dhearg, borb, fearg,
 seirbhís*), so the memo must prune only and never decide.
 
-**`rules/irish-orthography.tsv`** — header `unit  segments  note`; `segments` is a space-separated
+**`rules/irish-orthography.csv`** — header `unit  segments  note`; `segments` is a space-separated
 list of alternatives, each `+`-joined, `-` = silent. Write these rows in this order (the loader
 sorts by unit length; file order is the tie-break within a length and is load-bearing):
 
@@ -1367,7 +1367,7 @@ def test_every_reversal_class_aligns_completely(name):
       segments inherit `self.orth[start]`; a zero-width insertion gets `""`) and `split_words()`
       (slice on the same bounds); `traced()` uses `replace()` and needs nothing.
 - [ ] **Step 4:** fix `irish._join` per R7 above. Run `uv run pytest tests/test_irish_templates.py -q`.
-- [ ] **Step 5:** write `rules/irish-orthography.tsv` exactly as given, with the two flagged
+- [ ] **Step 5:** write `rules/irish-orthography.csv` exactly as given, with the two flagged
       comments.
 - [ ] **Step 6:** write `src/strands/orth.py`. Docstring: why spelling is needed (spec §4), the
       algorithm and its determinism, the total-failure rule (O-7), and the positional tags (O-6).
@@ -1378,7 +1378,7 @@ def test_every_reversal_class_aligns_completely(name):
 
 ```bash
 git add src/strands/orth.py src/strands/word.py src/strands/irish.py \
-        rules/irish-orthography.tsv tests/test_orth_align.py
+        rules/irish-orthography.csv tests/test_orth_align.py
 git commit -m "feat(orth): modern orthography-IPA aligner with positional tags (144/144 test words)"
 ```
 
@@ -1408,7 +1408,7 @@ behaviour as an untagged word. Every existing call site keeps working.
 malformed argument → `@orth() takes one double-quoted string`.
 
 **Check rules (R9 — draft 1's warning let dead rules through).** `ORTH_UNKNOWN_UNIT` is an
-**error**, not a warning: an `@orth("X")` whose `X` is not a unit of `rules/irish-orthography.tsv`
+**error**, not a warning: an `@orth("X")` whose `X` is not a unit of `rules/irish-orthography.csv`
 — after stripping a `:n` positional suffix — can never match, and draft 1's combination of a
 warning plus `matching_segments() == []` meant `RULE_NEVER_MATCHES` could not fire either, so
 `@orth("ai")` was undetectable dead code. A positional suffix is additionally checked against the
@@ -1597,7 +1597,7 @@ expressed in the object it defines. Read spec §11 before starting.
 
 **Files:**
 - Create: `src/strands/spelled.py`
-- Create: `rules/old-irish-orthography.tsv`
+- Create: `rules/old-irish-orthography.csv`
 - Modify: `src/strands/dsl.py` (a per-file `grammar = graphemes` mode for the sub-table sections)
 - Modify: `src/strands/check.py` (`check_grapheme_table`)
 - Test: `tests/test_spelled.py`
@@ -1626,7 +1626,7 @@ class SpelledWord:
 class SpelledError(Exception): ...
 
 # ---- the table ----------------------------------------------------------------------------
-OI_ORTHOGRAPHY_PATH: Path                      # rules/old-irish-orthography.tsv
+OI_ORTHOGRAPHY_PATH: Path                      # rules/old-irish-orthography.csv
 
 ROLES = ("cons", "vowel", "long", "nasal", "glide", "silent", "ending")
 """The complete `role` vocabulary. `glide` and `silent` produce no segment and mark quality
@@ -1672,7 +1672,7 @@ def apply_grapheme_table(word: SpelledWord, rules: Sequence[GraphemeRule],
 **The `dsl.py` change.** `[meta] grammar = graphemes` in a rule file makes the parser read
 `[mutations]`, `[inflect]` and `[templates]` as **grapheme** sections: the rewrite lines keep the
 familiar `TARGET -> REPLACEMENT [/ LEFT _ RIGHT] [%tag] [# comment]` shape, but the items are
-grapheme tokens (validated against the grapheme table, not `features.tsv`), the only context atoms
+grapheme tokens (validated against the grapheme table, not `features.csv`), the only context atoms
 are tokens, inline sets `{c t p}`, the classes `V`/`C` (derived from the table's `role`) and `#`,
 and the result is `GraphemeRule`, not `Rule`. `RuleFile` gains
 `grapheme_mutations: dict[str, tuple[GraphemeRule, ...]]` and `grapheme_inflect: …`; the existing
@@ -1826,7 +1826,7 @@ def test_capitalization_is_metadata_not_a_token():
 
 def test_the_table_is_sorted_longest_token_first():
     rows = load_graphemes()
-    assert OI_ORTHOGRAPHY_PATH == ROOT / "rules" / "old-irish-orthography.tsv"
+    assert OI_ORTHOGRAPHY_PATH == ROOT / "rules" / "old-irish-orthography.csv"
     assert [len(r.token) for r in rows] == sorted([len(r.token) for r in rows], reverse=True)
 
 
@@ -2026,7 +2026,7 @@ def test_a_multi_word_form_splits_into_words():
 Run: `uv run pytest tests/test_spelled.py -q`
 Expected: FAIL — `ModuleNotFoundError: No module named 'strands.spelled'`.
 
-- [ ] **Step 3: Write `rules/old-irish-orthography.tsv`**
+- [ ] **Step 3: Write `rules/old-irish-orthography.csv`**
 
 Exactly the table above. Where two rows share a token, write the more specific one first
 (`initial` before `noninitial`; a non-empty `left` before an empty one) — the loader sorts by token
@@ -2042,7 +2042,7 @@ BROAD↔SLEN pairing is read from the declared class lists and never derived pos
 
 - [ ] **Step 5: Add the `grammar = graphemes` mode to `dsl.py` and the checks to `check.py`**
 
-`check_grapheme_table(path)` validates: every `ipa` segment is a `features.tsv` row; every `env` is
+`check_grapheme_table(path)` validates: every `ipa` segment is a `features.csv` row; every `env` is
 one of the three; `role` is one of `spelled.ROLES` (**seven** values — `cons vowel long nasal
 glide silent ending`; there is no `punctum` role, so the ⟨ṡ⟩/⟨ḟ⟩ rows validate as `cons`/`silent`
 carrying a `punctum` column value); the `punctum` column, where non-empty, is a single plain letter;
@@ -2056,7 +2056,7 @@ going on: the mode must be inert without the meta key.
 - [ ] **Step 6: Run the tests and the suite; commit**
 
 ```bash
-git add src/strands/spelled.py rules/old-irish-orthography.tsv src/strands/dsl.py \
+git add src/strands/spelled.py rules/old-irish-orthography.csv src/strands/dsl.py \
         src/strands/check.py tests/test_spelled.py
 git commit -m "feat(spelled): lossless Old Irish spelled word, grapheme table, one-way reconstruction"
 ```
@@ -2078,7 +2078,7 @@ as asked; the suite is unchanged.
 **Files:** create `rules/old-irish.rules`; test `tests/test_rules_old_irish.py`.
 
 `[meta]` keys other tasks read: `name`, `strand = old-irish` (**the dispatch key**, O-9),
-`digest`, `lexicon`, `orthography = rules/old-irish-orthography.tsv`, `punctum = on`,
+`digest`, `lexicon`, `orthography = rules/old-irish-orthography.csv`, `punctum = on`,
 `grammar = graphemes` (Task 7's parser mode), and **`quality-pairs`** — the explicit BROAD↔SLEN
 mapping spec §11 requires, written `pˠ:pʲ bˠ:bʲ … w:-`, where `-` means "no partner". It is read by
 `spelled.py`'s quality pass and **never derived positionally**: draft 1 derived it from the two
@@ -2091,8 +2091,8 @@ name = Old Irish
 strand = old-irish
 grammar = graphemes
 digest = sources/irish/digest.md §10
-lexicon = rules/old-irish-lexicon.tsv
-orthography = rules/old-irish-orthography.tsv
+lexicon = rules/old-irish-lexicon.csv
+orthography = rules/old-irish-orthography.csv
 punctum = on
 # spec §11: an EXPLICIT declared mapping. `-` = no partner. Read by spelled.py's quality pass.
 quality-pairs = pˠ:pʲ bˠ:bʲ t̪ˠ:tʲ d̪ˠ:dʲ k:c ɡ:ɟ fˠ:fʲ sˠ:ʃ x:ç ɣ:ɣʲ β:βʲ β̃:β̃ʲ ð:ðʲ θ:θʲ mˠ:mʲ n̪ˠ:nʲ ŋ:ɲ l̪ˠ:lʲ ɾˠ:ɾʲ h:h w:-
@@ -2115,7 +2115,7 @@ i e a o u iː eː aː oː uː ə
 # slender partner. /ə/ is a reduction and must never be chosen by the inventory fallback.
 # /hʲ/ "may have been the same sound as /h/ or /xʲ/" and short /æ/ comes from u-infection of
 # stressed /a/, "rampant in names in the prefix air-" (digest §10.1) — both name-relevant,
-# both already features.tsv rows, both marginal (S5).
+# both already features.csv rows, both marginal (S5).
 marginal: pˠ pʲ w vʲ ə hʲ æ
 
 [classes]
@@ -2153,7 +2153,7 @@ def test_the_file_parses_and_check_reports_no_errors():
 def test_meta_declares_the_keys_the_pipeline_and_spelled_module_read():
     assert OI.meta["strand"] == "old-irish"          # O-9: the dispatch key
     assert OI.meta["grammar"] == "graphemes"         # O-10 / Task 7's parser mode
-    assert OI.meta["orthography"].endswith("old-irish-orthography.tsv")
+    assert OI.meta["orthography"].endswith("old-irish-orthography.csv")
     assert OI.meta.get("punctum", "on") in ("on", "off")
 
 
@@ -2281,7 +2281,7 @@ instantiates is `%attested` **and cites the pair**; ⟨ph⟩/⟨sh⟩ and the �
 The test asserts *a citation on every line*, not a tag.
 
 **Test fixtures must be real lexicon pairs (R18).** Draft 1 used *bád* and *garda* — a `none` row
-and a non-lexicon word — and `sʲaːnˠ`, which is not a `features.tsv` segment. Every fixture below is
+and a non-lexicon word — and `sʲaːnˠ`, which is not a `features.csv` segment. Every fixture below is
 an `attested` lexicon row.
 
 - [ ] **Step 1: Write the failing tests** — append:
@@ -2390,7 +2390,7 @@ def test_every_substitute_line_carries_a_citation_and_a_legal_tag():
       can never match.
 - [ ] **Step 4:** `uv run pytest tests/test_rules_old_irish.py -q` → PASS;
       `uv run strands check rules/old-irish.rules` → exit 0 (an `ORTH_UNKNOWN_UNIT` **error** names
-      a unit missing from `rules/irish-orthography.tsv`; add it there, do not silence it).
+      a unit missing from `rules/irish-orthography.csv`; add it there, do not silence it).
 - [ ] **Step 5:** `uv run pytest -q` → green. **Commit:**
       `feat(rules): old-irish [substitute] — quality-preserving, spelling-driven retro-filter`
 
@@ -2519,7 +2519,7 @@ R29d, S21.
 
 **What this section is now.** It is the **only** producer of a spelled word on the RETRO path:
 `respell()` returns a string, and Task 12 hands that string to `SpelledWord.from_spelling`. So
-every character it emits must be a grapheme token of `rules/old-irish-orthography.tsv` — a
+every character it emits must be a grapheme token of `rules/old-irish-orthography.csv` — a
 property test asserts exactly that, which is the check draft 1 lacked (R27: draft 1's `[respell]`
 fixtures and Task 12's reconstruction fixtures used *different alphabets*).
 
@@ -3466,7 +3466,7 @@ def filter_regression(entries, lexicon, oi, irish, table, *, g2p=None) -> Filter
 ```
 
 **The population, measured (O-31, R1).** Spec §11 fixes the definition: the unique citation-form
-keys that are in `test-words.tsv` **with hand IPA** and have a **form-bearing** lexicon row.
+keys that are in `test-words.csv` **with hand IPA** and have a **form-bearing** lexicon row.
 Recomputed from the two committed files:
 
 | population | count |
@@ -3648,7 +3648,7 @@ task adds:
    `--orthography TEXT`: when given it is the lookup key and the aligner's input; when absent,
    `explain --strand old-irish` runs the pure retro path and **prints a one-line note saying so**,
    because a silent `RETRO` looks like a lexicon miss.
-3. **`check`** already routes `.tsv` (Task 2); confirm `strands check rules/old-irish.rules` passes.
+3. **`check`** already routes `.csv` (Task 2); confirm `strands check rules/old-irish.rules` passes.
 4. `--strand all` now includes `old-irish`, changing every `run`/`gallery` output. Intended;
    Task 18 re-snapshots.
 
@@ -3657,7 +3657,7 @@ task adds:
 ```python
 def test_run_accepts_the_fifth_strand(tmp_path):
     from strands.cli import main
-    out = tmp_path / "out.tsv"
+    out = tmp_path / "out.csv"
     assert main(["run", str(FIX), "--strand", "old-irish", "--out", str(out)]) == 0
     assert "old-irish" in out.read_text(encoding="utf-8")
 
@@ -3665,7 +3665,7 @@ def test_run_accepts_the_fifth_strand(tmp_path):
 def test_a_construction_the_strand_lacks_is_a_skipped_row_not_an_error(tmp_path):
     """O-17: PATRO_NI for old-irish, MAEL for welsh — both are skips."""
     from strands.cli import main
-    out = tmp_path / "out.tsv"
+    out = tmp_path / "out.csv"
     assert main(["run", str(FIX), "--strand", "all", "--construction", "all",
                  "--out", str(out)]) == 0
     assert "skipped:construction-not-in-strand" in out.read_text(encoding="utf-8")
@@ -3715,7 +3715,7 @@ no new code — **verify that rather than adding any**.
 **The formation block (R31).** Draft 1 rendered "the five attested example names" from the lexicon
 by their modern keys — but *Maol Coluim*, *Giolla Pádraig*, *Fear Diad*, *Dubh-dá-leithe* and
 *Cú Chulainn* are **whole-name lexicon rows**, so lookup returns each as `ATTESTED` in one piece and
-the formation template is never exercised; and none of the five is a `test-words.tsv` row, so there
+the formation template is never exercised; and none of the five is a `test-words.csv` row, so there
 was no source of the `Entry` IPA `render_gallery` needs. Fixed: the block is built from the
 **element** rows (Task 3 guarantees they exist) — head *Maol*→*Máel*, *Giolla*→*Gilla*, *cú*,
 *fear*→*fer*, *mac*→*macc*, *inion*→*ingen*; governed *Colm*→*Colum*, *Pádraig*→*Pátraic*, and
@@ -3792,7 +3792,7 @@ here is a real bug in Task 10 — fix the rules, do not add the word to `tests/a
 - [ ] **Step 4:** regenerate and **read the diff**:
 
 ```bash
-uv run strands gallery sources/irish/test-words.tsv --out tests/snapshots/gallery.md
+uv run strands gallery sources/irish/test-words.csv --out tests/snapshots/gallery.md
 git diff --stat tests/snapshots/gallery.md
 ```
 

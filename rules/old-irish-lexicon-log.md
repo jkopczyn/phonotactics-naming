@@ -1,6 +1,6 @@
 # Old Irish lexicon — harvest log
 
-Companion to `rules/old-irish-lexicon.tsv`. Built 2026-08-27 for strand 5
+Companion to `rules/old-irish-lexicon.csv`. Built 2026-08-27 for strand 5
 (`docs/specs/2026-08-27-old-irish-design.md` §3). Harvested by six parallel sourcing agents
 (names, common nouns, adjectives/numerals/prefixes, wider given names, formation elements +
 paradigm words, gap-fill) plus a digest-sourced batch taken directly from
@@ -40,7 +40,7 @@ citations in the file that a web re-check cannot follow.
 
 ## Test-word coverage
 
-The 144 test-word rows in `sources/irish/test-words.tsv` reduce to 138 distinct orthography
+The 144 test-word rows in `sources/irish/test-words.csv` reduce to 138 distinct orthography
 keys. Against the lexicon:
 
 - **74 match a lexicon row directly.**
@@ -363,9 +363,9 @@ reason the loan test has to be "is it in Old Irish?", not "is it ultimately fore
 
 Plan Task 3 (`docs/plans/2026-08-27-old-irish-plan.md`) re-worked the file row by row against
 spec §10. Both verification passes are now TSVs beside the file:
-`old-irish-lexicon.verification.tsv` (the 35-row first pass above, transcribed from the
+`old-irish-lexicon.verification.csv` (the 35-row first pass above, transcribed from the
 verifying agent's own table — SKIP became `ok` with a note) and
-`old-irish-lexicon.verification2.tsv` (this pass). File after the pass: **302 rows** (273
+`old-irish-lexicon.verification2.csv` (this pass). File after the pass: **302 rows** (273
 form-bearing, 29 `none`, 168 with `oi_gen`).
 
 ### Stem reclassification (finding 5)
@@ -448,7 +448,7 @@ palatalised variant, not the rule.
 
 ### Check status
 
-`strands check rules/old-irish-lexicon.tsv` is silent. `LEX_NONE_NO_KIND`, `LEX_NONE_HAS_FORM`
+`strands check rules/old-irish-lexicon.csv` is silent. `LEX_NONE_NO_KIND`, `LEX_NONE_HAS_FORM`
 and `LEX_IRREGULAR_NO_GEN` are errors; `LEX_NEEDS_TASK3` no longer fires on `irregular` (a
 reserved class since §10) and is skipped for the two explained-blank prefixes.
 
@@ -515,4 +515,4 @@ Task 4 step 4 directs; the notes say so.
   `stríoc`, `matán` (the last three: still no Etymology section).
 - **Phrase**: `uisce beatha` — unchanged; use the element rows.
 
-`strands check rules/old-irish-lexicon.tsv` is silent.
+`strands check rules/old-irish-lexicon.csv` is silent.

@@ -6,7 +6,7 @@ import pytest
 
 from strands.features import FEATURE_NAMES, FeatureError, load_features
 
-TABLE = load_features(pathlib.Path(__file__).parents[1] / "rules" / "features.tsv")
+TABLE = load_features(pathlib.Path(__file__).parents[1] / "rules" / "features.csv")
 
 
 def test_table_has_38_features_and_124_segments():
@@ -69,7 +69,7 @@ def test_nearest_with_no_candidates_raises():
 
 
 def test_apply_changes_is_exact_lookup():
-    # Every ejective row in features.tsv carries raisedLarynxEjective=+ AND constrictedGlottis=+,
+    # Every ejective row in features.csv carries raisedLarynxEjective=+ AND constrictedGlottis=+,
     # so under exact lookup (I-4) `{ejective: +}` alone reaches no row (see next test).
     both = {"raisedLarynxEjective": "+", "constrictedGlottis": "+"}
     assert TABLE.apply_changes("k", both) == "kʼ"
@@ -129,12 +129,12 @@ def test_contains_and_vector():
 
 def test_load_missing_file_raises():
     with pytest.raises(FeatureError):
-        load_features(pathlib.Path(__file__).parent / "no-such-features.tsv")
+        load_features(pathlib.Path(__file__).parent / "no-such-features.csv")
 
 
 def test_apply_changes_prefers_the_canonical_row_over_an_input_alias():
     """I-34 / I-30: alias rows (`g`, `lˠ`, `l̠ʲ`, `nˠ`, `n̠ʲ`) copy their principal's vector;
-    an exact-lookup change must resolve to the principal spelling whatever the TSV order."""
+    an exact-lookup change must resolve to the principal spelling whatever the CSV order."""
 
     def toward(src, dst):
         return {

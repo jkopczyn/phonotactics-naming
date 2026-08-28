@@ -749,7 +749,7 @@ absolute coda duration values would still group /-m/ with the 'lenis' obstruents
 ## 3. Repair strategies (loanword adaptation)
 
 **Period warning, and it is the most important caveat in this digest.** The bulk of the attested
-data — `parry1923`, 653 of the 751 rows in `attested.tsv` — describes adaptation from **Middle and
+data — `parry1923`, 653 of the 751 rows in `attested.csv` — describes adaptation from **Middle and
 Early Modern English**, mostly between roughly 1300 and 1700. Several of its rules are dead: /tʃ dʒ/
 are now borrowed as /tʃ dʒ/, not as /ʃ/; final /p t k/ are now kept, not voiced. Rows carry the
 donor period in the `note` column wherever Parry-Williams gives one, and carry `layer=historical`
@@ -1560,7 +1560,7 @@ Notes for epithet building:
   enter the loan as an **unmutated radical** [wood1988 p.231].
 ## 7. Attested adaptations
 
-`attested.tsv` in this directory, per `../ATTESTED-FORMAT.md`. **751 rows.**
+`attested.csv` in this directory, per `../ATTESTED-FORMAT.md`. **751 rows.**
 
 **One addition to the format (revision 1): a ninth column, `layer`.** The eight specified columns
 keep their order and positions, so a positional 8-column reader is unaffected. Values:
@@ -1574,7 +1574,7 @@ keep their order and positions, so a positional 8-column reader is unaffected. V
 **A modern generator should be validated against `layer=modern` (93 rows) and must not be validated
 against `layer=historical`**, which would demand medieval outputs (/tʃ dʒ/ → /ʃ/, final stop
 voicing, mutation back-formation, initial l/r fortition). Filter with
-`awk -F'\t' '$9=="modern"' attested.tsv`.
+`awk -F'\t' '$9=="modern"' attested.csv`.
 
 Provenance mix:
 

@@ -58,7 +58,7 @@ I checked 33 cited claims, weighted toward the cluster inventory, repair rules, 
 - **3.0 adaptation registers:** instantiated in text by *grill, goal, cake, coat, drugs*.
 - **3.1 illicit onset:** the “keep it as marked foreign” option has in-text examples, but the /pn/ example is miscited. The **deletion tiebreaker has no adult-loan row and no concrete Dutch loan example**. The `/gr/ → /xr/` and `/g/ → /ɣ/` examples instantiate segment substitution, not repair of a cluster that Dutch bans. A rule-writer still has no attested adult onset-cluster repair.
 - **3.2 coda epenthesis:** instantiated by native in-text examples, *single*, and WOLD historical pairs. The exact formal environment is wrong, however, and WOLD does not independently verify donor pronunciations.
-- **3.3 t-deletion:** instantiated only by native morphological/casual-speech examples; no `attested.tsv` loan row instantiates it.
+- **3.3 t-deletion:** instantiated only by native morphological/casual-speech examples; no `attested.csv` loan row instantiates it.
 - **3.4 substitution table:** every row has an in-text example and most have a TSV row. `/æ/ → /ɛ/` is not deterministic: TSV also has retained /æ/ in *jam, superman,* and *tax*. French nasal preservation is word-specific. These alternatives need conditioning or explicit conflict/policy selection.
 - **3.5 edge/process rules:** final devoicing has TSV rows (*headset, rose, cruise, admission*). Voice assimilation, nasal assimilation, /n/-deletion, and glottal attack have in-text native/loan examples but no TSV rows. No final-vowel addition/prothesis is a “not covered” finding, not a rule.
 - **3.6 vowel adaptation:** examples exist, but they instantiate multiple competing outcomes, not the categorical “length → class, forced by coda” algorithm.
@@ -82,7 +82,7 @@ I checked 33 cited claims, weighted toward the cluster inventory, repair rules, 
 14. *templum → tempel* — WOLD **verifies the pair and target** `t ɛ m p ə l`; the `epenthesis` process tag is an analysis not stated by WOLD.
 15. *maiz → maïs* — WOLD **verifies the pair and target** `m ɑ j s`; the source has no Spanish IPA, so “hiatus resolved with glide” is inferred rather than directly attested.
 
-Also, §7 says the 15 Taalportaal donor forms are “stress-marked orthographic form only” while `attested.tsv` puts them in `source_ipa`. Resolve that file-format contradiction.
+Also, §7 says the 15 Taalportaal donor forms are “stress-marked orthographic form only” while `attested.csv` puts them in `source_ipa`. Resolve that file-format contradiction.
 
 ## 4. Internal contradictions and missing CONFLICT lines
 
@@ -94,7 +94,7 @@ Also, §7 says the 15 Taalportaal donor forms are “stress-marked orthographic 
 6. **French nasal “integration” vs lexical denasalization.** “Belgian keeps them” conflicts with *plafond, campagne, restaurant*. The rule must be lexical/loan-register-dependent or select a deliberate policy.
 7. **Stress algorithm vs source-stress default.** §4 first creates a target-native ordered procedure, then says most loans preserve source stress. State precedence. For the actual Irish input, source stress is available in IPA, so this choice materially changes every output.
 8. **`-achtig` classification.** §6 calls it consonant-initial; §3.5’s source classifies it with *-aardig* as a vowel-initial exception that nevertheless triggers devoicing.
-9. **TSV field contradiction.** §7 correctly says the French/Latin donor column is stress-marked orthography, while `attested.tsv` labels it `source_ipa`.
+9. **TSV field contradiction.** §7 correctly says the French/Latin donor column is stress-marked orthography, while `attested.csv` labels it `source_ipa`.
 10. **Irish coda /h/.** §8 mandates “deleted or moved,” but §3 has neither an attested deletion target nor a movement/metathesis rule. This should remain an explicit unresolved design decision.
 11. **Belgian/Netherlandic symbol normalization is unfinished.** The exhaustive onset/coda lists use Netherlandic `/x ɣ ʋ r/` conventions, while §1 defines Belgian targets differently. §8 then calls `/gl gr/` licit “as-is” while discussing `/ɣl ɣr/` and `/xl xr/`. Supply one normalized Belgian phonemic list before rules are encoded.
 
@@ -124,7 +124,7 @@ Concrete blockers for a deterministic Irish→Dutch rule file:
 5. Make substitution variation executable: add priorities/conditioning for `/æ/`, `/ʌ/`, foreign `/g/`, French nasals, and vowel length, or explicitly choose one strand policy under `CONFLICT:` lines.
 6. Set stress precedence between preserved Irish source stress and Dutch native tendencies; do not present the current tendency-derived ordering as sourced and exceptionless.
 7. Normalize all Netherlandic phonotactic data and IPA to one Belgian target representation before producing rules.
-8. Repair `attested.tsv` provenance semantics in the digest’s use of it: do not treat stress-marked orthography as `source_ipa`, and label WOLD process tags as inferred where donor IPA is absent. The *rapskills* row cannot attest `/æ/ → /ɛ/` as currently encoded.
+8. Repair `attested.csv` provenance semantics in the digest’s use of it: do not treat stress-marked orthography as `source_ipa`, and label WOLD process tags as inferred where donor IPA is absent. The *rapskills* row cannot attest `/æ/ → /ɛ/` as currently encoded.
 9. Supply a complete Irish-vowel and absent-segment mapping table, including voiceless sonorants, coda /h/, palatalized codas, and fallback labels.
 10. Choose a romanization that meets the English-reader requirement; native Dutch spelling alone does not.
 11. Correct *-achtig* to a vowel-initial, non-cohering exception, and replace malformed/shorthand citations with resolvable `bib.md` keys plus page/section locators.
@@ -132,5 +132,5 @@ Concrete blockers for a deterministic Irish→Dutch rule file:
 ### Suggestions
 
 - Add one worked derivation for *Matánach* and one cluster-heavy Irish name to expose rule ordering and unresolved choices.
-- Separate “modern productive loan repair,” “native phonological alternation,” and “historical adaptation” in §3/`attested.tsv`; they are currently mixed as if equally predictive.
+- Separate “modern productive loan repair,” “native phonological alternation,” and “historical adaptation” in §3/`attested.csv`; they are currently mixed as if equally predictive.
 - Preserve the useful Belgian survey percentages rather than collapsing them into categorical dialect rules.

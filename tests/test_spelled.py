@@ -89,7 +89,7 @@ def test_a_capital_after_the_written_nasal_prefix_is_kept():
 
 def test_the_table_is_sorted_longest_token_first():
     rows = load_graphemes()
-    assert OI_ORTHOGRAPHY_PATH == ROOT / "rules" / "old-irish-orthography.tsv"
+    assert OI_ORTHOGRAPHY_PATH == ROOT / "rules" / "old-irish-orthography.csv"
     assert [len(r.token) for r in rows] == sorted([len(r.token) for r in rows], reverse=True)
 
 
@@ -415,18 +415,18 @@ def test_the_committed_table_passes_check():
 
 
 def test_check_reports_bad_rows(tmp_path):
-    bad = tmp_path / "bad.tsv"
+    bad = tmp_path / "bad.csv"
     bad.write_text(
-        "token\tenv\tleft\tipa\trole\tpunctum\tnote\n"
-        "ch\tany\t-\tx\tcons\t-\tok\n"
-        "c\tany\t-\tqq\tcons\t-\tunknown ipa\n"
-        "c\tany\t-\tk\tcons\t-\tduplicate key\n"
-        "t\tmedial\t-\tt̪ˠ\tcons\t-\tbad env\n"
-        "p\tany\t-\tpˠ\tstop\t-\tbad role\n"
-        "ṡ\tany\t-\th\tcons\tss\tbad punctum\n"
-        "ə\tany\t-\t-\tending\t-\tone\n"
-        "ɨ\tany\t-\t-\tending\t-\ttwo\n"
-        "ll\tany\t-\tl̪ˠ+l̪ˠ\tcons\t-\tfine\n",
+        "token,env,left,ipa,role,punctum,note\n"
+        "ch,any,-,x,cons,-,ok\n"
+        "c,any,-,qq,cons,-,unknown ipa\n"
+        "c,any,-,k,cons,-,duplicate key\n"
+        "t,medial,-,t̪ˠ,cons,-,bad env\n"
+        "p,any,-,pˠ,stop,-,bad role\n"
+        "ṡ,any,-,h,cons,ss,bad punctum\n"
+        "ə,any,-,-,ending,-,one\n"
+        "ɨ,any,-,-,ending,-,two\n"
+        "ll,any,-,l̪ˠ+l̪ˠ,cons,-,fine\n",
         encoding="utf-8",
     )
     codes = {e.code for e in check_grapheme_table(bad, TABLE)}
@@ -443,13 +443,13 @@ def test_check_reports_bad_rows(tmp_path):
 def test_check_reports_an_unreachable_token(tmp_path):
     """`c` can never be tokenized when `cc` exists and `c` appears only inside it — i.e.
     a token that no spelling reaches."""
-    bad = tmp_path / "bad.tsv"
+    bad = tmp_path / "bad.csv"
     bad.write_text(
-        "token\tenv\tleft\tipa\trole\tpunctum\tnote\n"
-        "ab\tany\t-\ta+bˠ\tcons\t-\t-\n"
-        "a\tany\t-\ta\tvowel\t-\t-\n"
-        "b\tnoninitial\ta\tbˠ\tcons\t-\tonly after a, where ab wins\n"
-        "ə\tany\t-\t-\tending\t-\t-\n",
+        "token,env,left,ipa,role,punctum,note\n"
+        "ab,any,-,a+bˠ,cons,-,-\n"
+        "a,any,-,a,vowel,-,-\n"
+        'b,noninitial,a,bˠ,cons,-,"only after a, where ab wins"\n'
+        "ə,any,-,-,ending,-,-\n",
         encoding="utf-8",
     )
     codes = [e.code for e in check_grapheme_table(bad, TABLE)]

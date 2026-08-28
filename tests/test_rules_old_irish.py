@@ -16,7 +16,7 @@ def test_the_file_parses_and_check_reports_no_errors():
 def test_meta_declares_the_keys_the_pipeline_and_spelled_module_read():
     assert OI.meta["strand"] == "old-irish"  # O-9: the dispatch key
     assert OI.meta["grammar"] == "graphemes"  # O-10 / Task 7's parser mode
-    assert OI.meta["orthography"].endswith("old-irish-orthography.tsv")
+    assert OI.meta["orthography"].endswith("old-irish-orthography.csv")
     assert OI.meta.get("punctum", "on") in ("on", "off")
 
 
@@ -53,7 +53,7 @@ def test_the_marginal_set_is_exactly_the_documented_one():
     /æ/ name-relevant but uncertain.
 
     Task 8 deviation: the plan also lists /hʲ/ ("may have been the same sound as /h/ or
-    /xʲ/", digest §10.1) and says it is already a features.tsv row. It is not (Task 1 added
+    /xʲ/", digest §10.1) and says it is already a features.csv row. It is not (Task 1 added
     only the seven lenited-series rows), and a rule file may not name a segment the table
     lacks, so /hʲ/ is left out until a row exists."""
     assert set(OI.marginal) == {"pˠ", "pʲ", "w", "vʲ", "ə", "æ"}

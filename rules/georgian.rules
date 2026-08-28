@@ -14,7 +14,7 @@ epithet-NOUN = NOM_I
 # digest §1.1 chart [shosted2006 p.255]: 28 consonants, three-way laryngeal series
 # (voiced / voiceless aspirated / ejective). The chart writes the aspirated affricates bare
 # (`ts tʃ`); `tʃʰ` is the Task 1b hand row the spec (§7) and the slender-coronal rules use,
-# and `ts` keeps the chart's spelling (features.tsv has no `tsʰ` row).
+# and `ts` keeps the chart's spelling (features.csv has no `tsʰ` row).
 pʰ pʼ b tʰ tʼ d kʰ kʼ ɡ qʼ
 ts tsʼ dz tʃʰ tʃʼ dʒ
 m n v s z ʃ ʒ x ɣ h l

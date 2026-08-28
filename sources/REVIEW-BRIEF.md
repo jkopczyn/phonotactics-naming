@@ -1,9 +1,9 @@
 # Digest review brief (shared instructions for step-2 reviewers)
 
 Repo: /home/jkop/Code/phonotactics-naming. Read-only except for one output file.
-Do not cd elsewhere, do not commit, do not edit digest.md or attested.tsv.
+Do not cd elsewhere, do not commit, do not edit digest.md or attested.csv.
 
-Input: sources/<dir>/digest.md, attested.tsv, digest-log.md, bib.md, and the
+Input: sources/<dir>/digest.md, attested.csv, digest-log.md, bib.md, and the
 source `.txt`/`.pdf` files in that directory (and sources/infra/ for
 cross-linguistic items). Context: sources/DIGEST-TEMPLATE.md and
 ATTESTED-FORMAT.md say what the digest is supposed to be; notes/project-goals.md
@@ -19,9 +19,9 @@ sources/<dir>/review.md, with these sections:
    rule-writer would encode directly.
 2. **Uncited or under-cited claims.** Rules, lists, or mappings stated without a citation and
    without an `(unattested)` tag.
-3. **Rule/example consistency.** For each §3 rule, does at least one attested.tsv row or
+3. **Rule/example consistency.** For each §3 rule, does at least one attested.csv row or
    in-text example actually instantiate it? List rules with no instantiation. Check ~15
-   attested.tsv rows against their provenance.
+   attested.csv rows against their provenance.
 4. **Internal contradictions** between sections (e.g. §1 inventory vs §3 substitution table
    vs §8), and CONFLICT lines the digest should have but doesn't.
 5. **Fitness for purpose.** Where would a rule-writer be stuck or misled? What is missing

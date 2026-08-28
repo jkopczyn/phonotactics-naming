@@ -114,7 +114,7 @@ Source-side needs (Irish): an Irish phoneme inventory with the broad/slender pai
 
 - **Ciara**: the user's /ˈkɪə.ɾˠə/ has a broad /k/; spelling ⟨ci⟩ and attested *ciall* /ciəl̪ˠ/
   predict slender /c/ → /ˈciəɾˠə/ (inferred). Flagged, not silently corrected
-  (irish/digest.md §9.2, test-words.tsv).
+  (irish/digest.md §9.2, test-words.csv).
 - **Matánach and the Dutch fricative constraint**: the /x/ follows the schwa of *-ach*, not /ɑː/,
   so it passes Dutch's tense-vowel/voiceless-fricative ban unaltered; the ban bites only where a
   long vowel directly precedes a voiceless fricative (*bách*). Earlier notes said otherwise.

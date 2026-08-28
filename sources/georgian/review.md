@@ -136,7 +136,7 @@ the rendered glyphs; `j` is not one of the digest's declared Butskhrikidze symbo
     project convention; it does not support calling that stem an independently usable Georgian
     word-form.
 42. **VERIFIED — Wikipedia provenance disclosure.** `bib.md` defines `ka-wiki-title` as editorial
-    transliteration, not speech; all 88 such rows in `attested.tsv` say “target_ipa derived from
+    transliteration, not speech; all 88 such rows in `attested.csv` say “target_ipa derived from
     Georgian orthography.” The digest's §7 disclosure is accurate.
 43. **MISQUOTED — *Connacht* derived IPA.** The row gives target form **კონაქტი** but target IPA
     **/kʼɔnɑkʰtʼi/**. Georgian კ is /kʼ/, not /kʰ/; the mechanically derived form is
@@ -182,14 +182,14 @@ the rendered glyphs; `j` is not one of the digest's declared Butskhrikidze symbo
    unknown/mixed.
 10. **The Gabunia `target_form` spellings are derived but not tagged as derived.** Appendix B gives
     English item labels and Georgian IPA variants, not the Mkhedruli spellings found in
-    `attested.tsv`. Unlike the Wikipedia IPA derivations, these reconstructed orthographic forms are
+    `attested.csv`. Unlike the Wikipedia IPA derivations, these reconstructed orthographic forms are
     not disclosed in `provenance` or `note`, contrary to `ATTESTED-FORMAT.md`'s “as given” rule.
 
 ## 3. Rule/example consistency
 
 ### Rules lacking an attested instantiation
 
-- **/ð/ → /t, d, z/** has no `attested.tsv` row and no concrete loan example. It is only a prose
+- **/ð/ → /t, d, z/** has no `attested.csv` row and no concrete loan example. It is only a prose
   possibility in Gabunia p.14.
 - **Direct-perception /θ/ → /s/** has no Georgian loan row; the only `/θ/` item, *thriller*, is
   explicitly Russian-mediated and uses aspirated /tʰ/.
@@ -206,9 +206,9 @@ The remaining §3 processes do have examples: ejective and aspirate stop variant
 /w/→/u~v/, /ŋ/→/nɡ/, /j/→/i/ or revived ჲ, length loss, diphthong monophthongization/hiatus,
 nominative *-i*, and degemination.
 
-### `attested.tsv` provenance sample
+### `attested.csv` provenance sample
 
-I checked 15 `ka-wiki-title` rows against `ka-wiki-name-transliterations.tsv` and mechanically
+I checked 15 `ka-wiki-title` rows against `ka-wiki-name-transliterations.csv` and mechanically
 against the Georgian alphabet. All 15 Georgian strings match the harvested article titles. The
 IPA result is correct in 13/15:
 
@@ -249,7 +249,7 @@ than letting `epenthesis` imply an inserted phonological repair vowel.
 ## 4. Internal contradictions and missing CONFLICT lines
 
 1. **Native /h/ restriction versus loan /h/.** §2.8 says /h/ “never occurs in consonant sequences”;
-   §8.2 converts that into deletion outside initial/intervocalic position; yet §7/`attested.tsv`
+   §8.2 converts that into deletion outside initial/intervocalic position; yet §7/`attested.csv`
    includes *Stockholm* /stʼɔkʼhɔlmi/. Add a `CONFLICT:` between native-stem phonotactics and loan
    orthography; do not choose deletion from one *Tehran* title.
 2. **No cluster repair versus attested process labels.** §3 says final *-i* is morphological, but
@@ -338,10 +338,10 @@ than letting `epenthesis` imply an inserted phonological repair vowel.
 - Correct §5's five-name assessment: the 2002 national system does put apostrophes **after
   ejectives**, but the existing names do not follow it consistently. Fix the backwards analyses of
   *Kas'queil* and *Th'tysh* and the false `tch`≈`t'ch` equivalence.
-- Correct `attested.tsv`-derived claims in the digest: *Connacht* is /kʼɔnɑkʼtʼi/, not
+- Correct `attested.csv`-derived claims in the digest: *Connacht* is /kʼɔnɑkʼtʼi/, not
   /kʼɔnɑkʰtʼi/; no `/xt/→/kʰtʼ/` precedent follows. Treat *Stockholm* as a conflict for the proposed
   /h/-deletion rule.
-- Before using `attested.tsv` as test data, disclose derived Gabunia spellings, correct the two
+- Before using `attested.csv` as test data, disclose derived Gabunia spellings, correct the two
   sampled Wikipedia IPA defects, and distinguish editorial title language from historical donor
   language. Keep nominative *-i* morphologically separate from phonological epenthesis.
 - Mark the bare-stem, `y=i`, positional `/w/`, Irish diphthong, schwa, and palatalization policies as

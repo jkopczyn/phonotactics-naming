@@ -40,7 +40,7 @@ def test_the_reversal_keeps_quality():
     """R11: draft 1's single broad replacement flattened slender ⟨bh ch th⟩ to broad.
 
     Task 9 deviation: the plan wrote *cheann* as /ˈcaːn̪ˠ/ (the palatal STOP /c/, which
-    ⟨ch⟩ cannot align to); test-words.tsv has /çaːn̪ˠ/, which is used."""
+    ⟨ch⟩ cannot align to); test-words.csv has /çaːn̪ˠ/, which is used."""
     assert retro("vʲiː", "bhí")[0] == "βʲ"
     assert retro("ˈçaːn̪ˠ", "cheann")[0] == "ç"
 

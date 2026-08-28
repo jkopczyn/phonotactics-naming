@@ -63,7 +63,7 @@ EPEN_C1 = b d ɡ p t k f v ð s χ θ
 # monophthongise, "letting §8.7's length rules take over" — after L1 that is the short vowel.
 {i ɪ} ə -> ɪ                            %design   # design: digest §8.8 line 1708 open (option 1)
 {u ʊ} ə -> ʊ                            %design   # design: digest §8.8 line 1708 open (option 1)
-# --- vowels outside the Irish inventory that test-words.tsv's user transcriptions carry ---
+# --- vowels outside the Irish inventory that test-words.csv's user transcriptions carry ---
 # (o e æ õː: digest §1 line 192 table gives the nearest Southern vowel; õː is a nasalised oː).
 # Explicit so the nearest-segment fallback (Task 9) never guesses a LONG vowel for them.
 o -> ɔ                                  %design   # design: digest §1 line 192 (nearest Southern vowel; user transcription)

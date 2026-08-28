@@ -60,7 +60,7 @@
 
 ### §3 rule instantiation
 
-Using the review brief’s standard of an `attested.tsv` row **or an in-text example**, **no §3 rule lacks an instantiation**. The major rule families all have examples:
+Using the review brief’s standard of an `attested.csv` row **or an in-text example**, **no §3 rule lacks an instantiation**. The major rule families all have examples:
 
 - s+stop prothesis: *scarlet → ysgarlat*, *steward → ystiwart*, *instrument → ysturmant*;
 - `/kn-/` retention: *knave → cnaf*, *knock → cnoc*, *knot → cnot*;
@@ -73,7 +73,7 @@ Using the review brief’s standard of an `attested.tsv` row **or an in-text exa
 
 This is not the same as saying the rules are safe: several are historical, optional, dialectal, or inferred from one example.
 
-### `attested.tsv` provenance spot-check
+### `attested.csv` provenance spot-check
 
 17 rows checked:
 
@@ -119,7 +119,7 @@ This is not the same as saying the rules are safe: several are historical, optio
 5. **Irish `/ɣ, ç, iə, uə, mn-/` remain unresolved.** The sources provide historical analogies or inventory-nearest options, not loan rules. These must stay explicit design decisions.
 6. **Stress and length ordering is unresolved and load-bearing.** The system cannot implement both “Welsh assigns length after stress” and “source long vowels attract/retain stress” without a precedence rule and an exception policy.
 7. **The final C+sonorant repair is the strongest usable Southern rule**, but its alternatives need deterministic conditioning beyond the well-supported antepenult case. The sources say “tendency,” “may,” and “occasionally”; the digest currently formats them more categorically than the evidence warrants.
-8. **`attested.tsv` is excellent in size but weak for phonetic testing.** 653/751 rows are historical orthographic correspondences with blank IPA. It can test spelling/process provenance, not a modern segmental transducer, unless the modern subset is isolated.
+8. **`attested.csv` is excellent in size but weak for phonetic testing.** 653/751 rows are historical orthographic correspondences with blank IPA. It can test spelling/process provenance, not a modern segmental transducer, unless the modern subset is isolated.
 9. **Correct the four Wood page references before automated traceability work.** They currently point to p.233; the actual modern loan table is p.235.
 10. **The sources could support a cleaner evidence table without new acquisition.** In particular, `williams1994` supplies an exact Southern epenthesis environment; Breit supplies explicit onset-class constraints; Morris Jones supplies the broad s+C prothesis statement; these should be separated from the assembled lexical lists rather than merged into them.
 
@@ -133,12 +133,12 @@ This is not the same as saying the rules are safe: several are historical, optio
 4. Weaken §8.7’s long-vowel rule to the source’s actual strength: modern loans provide a usual lenition pattern with very limited examples, not a categorical Irish mapping.
 5. Separate traditional **Y Bowyseg** from modern administrative **Powys**. State that Breit groups Y Bowyseg with North/Mid Welsh, but Llanwrtyd’s dialect affiliation and phonotactics are unverified.
 6. Resolve the s+C scope/ordering contradiction: the formal rule covers only s+stop, while §8 applies it to all s+C, and the same clusters are also listed as licit. Encode pronunciation versus spelling and the stress condition explicitly.
-7. Correct the four `attested.tsv` citations for *map, siop, mat, cloc* from `wood1988 p.233` to `wood1988 p.235`.
+7. Correct the four `attested.csv` citations for *map, siop, mat, cloc* from `wood1988 p.233` to `wood1988 p.235`.
 8. Choose and document rule ordering for source vowel length versus Welsh stress/length assignment before generating names.
 
 ### Suggestions
 
 - Add per-member citations and IPA to every assembled cluster list.
-- Split `attested.tsv` into modern-rule and historical-evidence views without discarding either layer.
+- Split `attested.csv` into modern-rule and historical-evidence views without discarding either layer.
 - Preserve optionality words from the sources (`tendency`, `may`, `occasionally`, `usually`) until the project deliberately chooses deterministic defaults.
 - Keep the current explicit “no Irish→Welsh evidence” warning; it is accurate and important.

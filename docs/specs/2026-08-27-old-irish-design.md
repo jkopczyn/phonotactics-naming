@@ -19,7 +19,7 @@ manuscript-diplomatic transcription; verse/prose composition.
 ## 2. Architecture
 
 A fifth target in the existing engine: `rules/old-irish.rules` plus a lookup pre-pass fed by
-`rules/old-irish-lexicon.tsv`. Strand id `old-irish`. Same CLI, gallery, trace, tests.
+`rules/old-irish-lexicon.csv`. Strand id `old-irish`. Same CLI, gallery, trace, tests.
 
 Pipeline for a row (per word, after the Irish pre-pass template has been built as for the
 other strands, so mutations/inflections are already applied on the modern side):
@@ -40,7 +40,7 @@ other strands, so mutations/inflections are already applied on the modern side):
 
 Multi-word constructions are one word per template slot, as elsewhere.
 
-## 3. Lexicon (`rules/old-irish-lexicon.tsv`)
+## 3. Lexicon (`rules/old-irish-lexicon.csv`)
 
 Columns: `orthography` (modern citation form, the match key) · `oi_nom` · `oi_gen` ·
 `stem` (o | ā | i | u | n | dental | irregular) · `gender` (m | f | n) · `status`
@@ -192,7 +192,7 @@ These override §2, §4 and §5 where they conflict.
   unresolved ending marker; `[inflect]` realizes it by stem class (*-e* for ā-stems, *-a*
   otherwise). Tested end-to-end from a modern f2 word.
 - **Regression population**: the filter regression runs over the unique citation-form keys
-  that are both in `test-words.tsv` with hand IPA and have a form-bearing lexicon row
+  that are both in `test-words.csv` with hand IPA and have a form-bearing lexicon row
   (`attested` or `middle`); duplicate hand-IPA rows for a key use the first `src:attested`
   row. The plan states the measured n and ratchets it; the G2P-widened population is
   reported separately and not ratcheted.
@@ -209,4 +209,4 @@ These override §2, §4 and §5 where they conflict.
   loans; it is in the inventory, not phonemic in native stems.
 - **Aligner coverage** is a required, per-class measurement, not a threshold: the alignment
   table must include the epenthetic-schwa, eclipsis-digraph and doubled-letter units, and the
-  plan states the measured alignment rate on `test-words.tsv` per reversal class.
+  plan states the measured alignment rate on `test-words.csv` per reversal class.

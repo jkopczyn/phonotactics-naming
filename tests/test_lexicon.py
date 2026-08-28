@@ -17,18 +17,18 @@ from strands.lexicon import (
     read_rows,
 )
 
-HEADER = "\t".join(LEXICON_COLUMNS)
+HEADER = ",".join(LEXICON_COLUMNS)
 
 
 def write(tmp_path, *rows):
-    path = tmp_path / "lex.tsv"
+    path = tmp_path / "lex.csv"
     path.write_text("\n".join([HEADER, *rows]) + "\n", encoding="utf-8")
     return path
 
 
 def row(**kw):
     kw.setdefault("status", "attested")
-    return "\t".join(kw.get(c, "") for c in LEXICON_COLUMNS)
+    return ",".join(kw.get(c, "") for c in LEXICON_COLUMNS)
 
 
 ATTESTED = dict(
@@ -178,9 +178,9 @@ def test_a_blank_that_explains_itself_is_not_a_warning(tmp_path, prefix):
 def test_a_row_with_the_wrong_cell_count_is_an_error(tmp_path, cells):
     """The schema applies to every row, not only the header: a short row is not padded and a
     long one is not truncated silently (review oi-data-aligner finding 4)."""
-    good = row(**ATTESTED).split("\t")
+    good = row(**ATTESTED).split(",")
     bad = good[:cells] if cells < len(good) else good + ["stray"]
-    path = write(tmp_path, "\t".join(bad))
+    path = write(tmp_path, ",".join(bad))
     assert "LEX_ROW_SHAPE" in codes(path)
     assert [e.line for e in check_lexicon_file(path) if e.code == "LEX_ROW_SHAPE"] == [2]
     with pytest.raises(LexiconError):
@@ -188,8 +188,8 @@ def test_a_row_with_the_wrong_cell_count_is_an_error(tmp_path, cells):
 
 
 def test_a_wrong_header_is_reported_not_guessed(tmp_path):
-    path = tmp_path / "lex.tsv"
-    path.write_text("orthography\toi_nom\n", encoding="utf-8")
+    path = tmp_path / "lex.csv"
+    path.write_text("orthography,oi_nom\n", encoding="utf-8")
     assert "LEX_HEADER" in codes(path)
 
 

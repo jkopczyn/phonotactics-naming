@@ -211,7 +211,7 @@ class Pattern:
 
 class ReverseError(Exception):
     """A pattern that cannot be parsed: an unclosed `[`, `[!…]` (V-16), or — in --ipa mode —
-    a substring that is not a segment of features.tsv (V-33)."""
+    a substring that is not a segment of features.csv (V-33)."""
 
 
 # ---- contexts as text (V-12) ------------------------------------------------------------------
@@ -465,7 +465,7 @@ def _tokenize_span(span: str, table: FeatureTable) -> tuple[str, ...]:
     except SegmentError as exc:
         match = _UNKNOWN_SEGMENT_RE.search(str(exc))
         bad = match.group(2) if match else span
-        raise ReverseError(f"{bad!r} is not a segment in features.tsv") from None
+        raise ReverseError(f"{bad!r} is not a segment in features.csv") from None
 
 
 def parse_ipa_pattern(pattern: str, target: RuleFile, table: FeatureTable) -> Pattern:
@@ -2154,16 +2154,14 @@ def old_irish_report(word: str, matches: Sequence[tuple[str, str, str]]) -> list
 
 # ---- the round trip (spec §6 bullets 3-4; Task 9) ----------------------------------------------
 
-#: `sources/irish/test-words.tsv`, the same rows the `g2p_inverse` ratchet measures.
-TEST_WORDS = Path(__file__).resolve().parents[2] / "sources" / "irish" / "test-words.tsv"
+#: `sources/irish/test-words.csv`, the same rows the `g2p_inverse` ratchet measures.
+TEST_WORDS = Path(__file__).resolve().parents[2] / "sources" / "irish" / "test-words.csv"
 
 
 def read_hand_ipa_rows(path: Path | None = None) -> tuple[dict[str, str], ...]:
-    """Every `sources/irish/test-words.tsv` row with a hand IPA, in file order (spec §6)."""
+    """Every `sources/irish/test-words.csv` row with a hand IPA, in file order (spec §6)."""
     with (path or TEST_WORDS).open(encoding="utf-8") as fh:
-        return tuple(
-            row for row in csv.DictReader(fh, delimiter="\t") if (row.get("ipa") or "").strip()
-        )
+        return tuple(row for row in csv.DictReader(fh) if (row.get("ipa") or "").strip())
 
 
 def _admit_options(slot: Slot) -> tuple[tuple[str, ...], ...] | None:

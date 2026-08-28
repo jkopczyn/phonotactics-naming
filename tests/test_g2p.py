@@ -4,7 +4,7 @@ Two kinds of test:
 
 * **Unit tests per rule block**, each taking its expected value from the Wikipedia table the
   corresponding block of `strands.g2p` cites.
-* **A regression** over every `src:attested` / `src:user` row of `sources/irish/test-words.tsv`,
+* **A regression** over every `src:attested` / `src:user` row of `sources/irish/test-words.csv`,
   reporting the exact-match rate and a looser rate that ignores stress marks and syllable dots.
   Both are ratcheted in `tests/ratchets/g2p.json`.
 """
@@ -156,7 +156,7 @@ def test_empty_orthography_raises():
 
 
 def test_every_constructed_output_tokenizes():
-    """Requirement (8): whatever g2p emits must be a legal string over features.tsv."""
+    """Requirement (8): whatever g2p emits must be a legal string over features.csv."""
     for row in read_test_words():
         ipa, _ = g2p(row["orthography"], row.get("dialect") or "C")
         for word in ipa.split(" "):

@@ -584,8 +584,8 @@ Attested mappings first; `(fallback)` marks a feature-nearest guess.
 | /dʒ/ | **ʒ** (thence often ʃ) | 'Jeep' → /ʒebb/ [ema1958 §17]. |
 | /tʃ/ | **ʃ** | šebs 'chips', wenš 'winch', marš 'march', konšertu 'concerto', šiili 'Chile' [ema1958 §17]. Often retained: kalatʃ 'clutch', ʔisbiitʃ 'speech' [kwpl-ot-cairene-loan p.2–3]. |
 | /θ/ | **t** (English loans) / **s** (Classical loans) | tormos 'thermos', termometr, termostaat ~ sermostaat, and `talaata` 'three'; the /s/ side is the Classical stratum, `saqaafa` ~ `saʔaafa` < *thaqaafah* [ema1958 §16]. `CONFLICT:` "Non-Egyptianized loanwords having interdental consonants (/θ/, /ð/) are approximated to the sibilants [s], [z]" [wiki-egy-phonology §Consonants note 5]. |
-| /ð/ | **z** (learned) / **d** (inherited) | ʔizaːʕa < ʔiðaːʕa; deːl < *ðajl [wiki-egy-phonology §Consonants]. **Both examples are Arabic-internal history, not foreign loans**; no non-Arabic loan row instantiates this in `attested.tsv`. `not covered` by ema1958. |
-| /q/ (donor) | **ʔ** or **k** *(no attested row in `attested.tsv`)* | "Non-Egyptianized loanwords with /q/ may either be Egyptianized to [ʔ] or approximated to [k], with the front vowel /æ/ being backed to [ɑ] in a word having an open vowel in the latter case" [wiki-egy-phonology §Consonants note 5]. |
+| /ð/ | **z** (learned) / **d** (inherited) | ʔizaːʕa < ʔiðaːʕa; deːl < *ðajl [wiki-egy-phonology §Consonants]. **Both examples are Arabic-internal history, not foreign loans**; no non-Arabic loan row instantiates this in `attested.csv`. `not covered` by ema1958. |
+| /q/ (donor) | **ʔ** or **k** *(no attested row in `attested.csv`)* | "Non-Egyptianized loanwords with /q/ may either be Egyptianized to [ʔ] or approximated to [k], with the front vowel /æ/ being backed to [ɑ] in a word having an open vowel in the latter case" [wiki-egy-phonology §Consonants note 5]. |
 | /g/ (donor) | **g** *(inventory-based fallback — no attested identity loan row; Cairene simply has /g/)*, but **ʁ~ɣ** in a documented set | fonoXrââf 'phonograph', talleXrââf 'telegraph', mâXnâtiis 'magnet' — Hafez attributes this to Levantine jīm making ġayn the Arabic script's way of writing foreign /g/ [ema1958 §21, note 2]. A spelling-mediated, not a phonetic, repair. |
 | /ŋ/ | **OPEN DECISION** — see below | 'spring' → ʔispiriŋ [broselow-position-quality p.295]; weng 'wing', zegzaag, t(e)reng [ema1958 §24, §32], with no comment from either author. |
 | /x/, /ɣ/, /h/ | **x**, **ɣ**, **h** — native, no repair | [wiki-egy-phonology §Consonants]. Neither Hafez nor Galal has occasion to discuss them as inputs: `not covered` as a loan mapping, but the segments exist. |
@@ -675,7 +675,7 @@ telefezˈjoon 'television' [ema1958 §26].
 > only that vowels are "especially lengthened when they are in a stressed syllable" and that
 > stress follows EA rather than source patterns. She does not test, and her corpus cannot test,
 > whether donor quantity is preserved where Cairene would independently permit it — **every
-> `source_ipa` cell in `attested.tsv` is empty because no source states the donor pronunciation**
+> `source_ipa` cell in `attested.csv` is empty because no source states the donor pronunciation**
 > (§7). Several of her own forms are compatible with inheritance (`ˈluuri` < *lorry*,
 > `maˈdaam` < *madame*), and the digest cannot separate "inherited" from "assigned by stress and
 > coincidentally matching".
@@ -1238,7 +1238,7 @@ phrase.
 
 ## 7. Attested adaptations
 
-See **`attested.tsv`** in this directory (format: `../ATTESTED-FORMAT.md`).
+See **`attested.csv`** in this directory (format: `../ATTESTED-FORMAT.md`).
 
 **Count: 312 rows** (plus a header). Of these, **301 are attestations** and **11 are predicted,
 not observed** — the latter carry the literal token `PREDICTED-NOT-ATTESTED: ` at the start of the

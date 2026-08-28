@@ -1,6 +1,6 @@
 # digest-log — Irish (source side) + Old Irish
 
-Written 2026-08-24. Companion to `digest.md` and `test-words.tsv`.
+Written 2026-08-24. Companion to `digest.md` and `test-words.csv`.
 
 ## Which source carried which section
 
@@ -84,7 +84,7 @@ Irish-English, not a description of Irish). `quiggin1906-donegal` was used for t
    analysis and its notation is pre-IPA (′ for slender).
 4. **No IPA for Irish personal names anywhere in this source set.** `wiki-irish-name` has two
    large tables of names and zero pronunciations. eDIL has no bulk download or API. Hence 20
-   constructed rows in `test-words.tsv`.
+   constructed rows in `test-words.csv`.
 5. **Noun+noun compound lenition in Modern Irish** (the *Lasairchos* case) is unattested here.
    Old Irish **does** state it (`pokorny1914-oldirish-grammar` p.8 §16: "in the interior of nominal compounds
    aspiration takes place… after nouns"), so §10.5 gives the modern case an ancestor, but the

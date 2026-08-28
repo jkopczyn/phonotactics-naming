@@ -52,7 +52,7 @@ def test_derived_class_target():
 
 
 def test_feature_bundle_target_and_exact_feature_change():
-    # The plan's test writes `[+ejective]` alone, but in the committed features.tsv PHOIBLE's
+    # The plan's test writes `[+ejective]` alone, but in the committed features.csv PHOIBLE's
     # kʼ also carries constrictedGlottis=+ (Task 2 records the same deviation), so exact
     # lookup (I-4) needs both features; `[+ejective]` alone is a RuleError (next test).
     assert one(

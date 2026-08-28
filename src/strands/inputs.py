@@ -1,7 +1,7 @@
-"""Input TSV, inference of missing fields, and `strands lint` (plan Task 20; spec §5, §12.H).
+"""Input CSV, inference of missing fields, and `strands lint` (plan Task 20; spec §5, §12.H).
 
-An input file is a TSV whose header carries some of `INPUT_COLUMNS`; only `orthography` is
-required. Columns the spec does not name (test-words.tsv's `features`) are ignored; absent
+An input file is a CSV whose header carries some of `INPUT_COLUMNS`; only `orthography` is
+required. Columns the spec does not name (test-words.csv's `features`) are ignored; absent
 columns read as "". `infer()` fills what is missing and records every guess in
 `Entry.assumptions` as a `field:reason` tag, so `lint_report()` can list the guesses and
 `accept_guesses()` can write them back into the file.
@@ -9,7 +9,7 @@ columns read as "". `infer()` fills what is missing and records every guess in
 Inference order (spec §5, I-38):
 
 1. `dialect` "" -> "C"                                       `dialect:default-C`
-2. `gender` "" -> the known-name list (built from test-words.tsv glosses that say
+2. `gender` "" -> the known-name list (built from test-words.csv glosses that say
    "(m. given name)" / "(f. given name)"), then orthographic endings, else "m"
                                     `gender:known-name` / `gender:ending` / `gender:default-m`
 3. `declension` from ending shape + gender          `declension:inferred-<rule>`
@@ -97,7 +97,7 @@ _M3_ENDINGS = ("óir", "eoir", "úil")
 _VOWEL_LETTERS = "aeiouáéíóú"
 _SLENDER_LETTERS = "eiéí"
 _NAME_GLOSS_RE = re.compile(r"\(([mf])\. given name\)")
-_TEST_WORDS = Path(__file__).resolve().parents[2] / "sources" / "irish" / "test-words.tsv"
+_TEST_WORDS = Path(__file__).resolve().parents[2] / "sources" / "irish" / "test-words.csv"
 
 
 @dataclass(frozen=True)
@@ -125,7 +125,7 @@ def _nfc(s: str | None) -> str:
 
 def _read_rows(path: str | Path) -> tuple[list[str], list[dict[str, str]]]:
     with Path(path).open(encoding="utf-8", newline="") as fh:
-        reader = csv.DictReader(fh, delimiter="\t")
+        reader = csv.DictReader(fh)
         header = [_nfc(h) for h in (reader.fieldnames or [])]
         rows = [{_nfc(k): _nfc(v) for k, v in row.items() if k is not None} for row in reader]
     return header, rows
@@ -154,7 +154,7 @@ def _strip_delims(ipa: str) -> str:
 
 
 def read_input(path: str | Path) -> list[Entry]:
-    """Header must contain `orthography`; unknown columns (e.g. test-words.tsv's `features`)
+    """Header must contain `orthography`; unknown columns (e.g. test-words.csv's `features`)
     are ignored; missing ones read as "" (so `infer()` fills and tags them). A row with no
     `ipa` gets a constructed one from `strands.g2p`, tagged `ipa:constructed` (spec §5,
     milestone 8); only an orthography `g2p` cannot read leaves ipa='' and
@@ -336,7 +336,7 @@ def lint_report(entries: Sequence[Entry]) -> list[str]:
 
 
 def accept_guesses(path: str | Path, entries: Sequence[Entry]) -> None:
-    """`strands lint --accept`: write the inferred dialect / gender / gen_ipa into the TSV.
+    """`strands lint --accept`: write the inferred dialect / gender / gen_ipa into the CSV.
     Rows pair with `entries` by order (blank rows are skipped, as `read_input` does);
     existing columns — spec or not — are kept in place, and a missing spec column is
     appended to the header. Only empty cells are filled; nothing supplied is changed.
@@ -365,9 +365,7 @@ def accept_guesses(path: str | Path, entries: Sequence[Entry]) -> None:
                 else _CONSTRUCTED_NOTE
             )
     with path.open("w", encoding="utf-8", newline="") as fh:
-        writer = csv.DictWriter(
-            fh, fieldnames=header, delimiter="\t", extrasaction="ignore", lineterminator="\n"
-        )
+        writer = csv.DictWriter(fh, fieldnames=header, extrasaction="ignore", lineterminator="\n")
         writer.writeheader()
         for row in rows:
             writer.writerow({h: row.get(h, "") for h in header})

@@ -468,7 +468,7 @@ def _liquid(
     """⟨l n⟩: fortis /l̪ˠ l̠ʲ n̪ˠ n̠ʲ/ word-initially and for ⟨ll nn⟩ [wiki-irish-orthography
     §Grapheme to phoneme correspondence]. The non-initial row of that table reads "/lˠ/ or
     /l̪ˠ/" and its own examples do not choose consistently, so the rest is PROVISIONAL and was
-    settled by measuring the attested rows of test-words.tsv:
+    settled by measuring the attested rows of test-words.csv:
 
     * fortis after another consonant letter — *dorn* /d̪ˠoːɾˠn̪ˠ/, *glúin* /ɡl̪ˠuːnʲ/,
       *caisleán* /ˈkaʃl̠ʲaːnˠ/, *splanc* /sˠpˠl̪ˠaŋk/ — except ⟨n⟩ after ⟨s⟩, *sneachta*

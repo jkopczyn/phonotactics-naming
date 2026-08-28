@@ -13,7 +13,7 @@ Get them with e.g.
 
 Writes two files to the cwd:
     wold-<lang>-forms.csv       every form for that recipient language
-    wold-<lang>-loanpairs.tsv   one row per (target form, donor etymon) link
+    wold-<lang>-loanpairs.csv   one row per (target form, donor etymon) link
 
 Key facts about the shape of the data (checked 2026-08-24 against v4.2):
   * forms.csv    Language_ID selects the recipient language ('Dutch').
@@ -62,7 +62,7 @@ for b in rd('borrowings.csv'):
         form_id=t['ID'],
     ))
 rows.sort(key=lambda r: (r['source_languoid'], r['target_form']))
-with open('wold-%s-loanpairs.tsv' % lang.lower(), 'w', encoding='utf-8', newline='') as fh:
+with open('wold-%s-loanpairs.csv' % lang.lower(), 'w', encoding='utf-8', newline='') as fh:
     w = csv.DictWriter(fh, fieldnames=list(rows[0].keys()), delimiter='\t')
     w.writeheader()
     w.writerows(rows)

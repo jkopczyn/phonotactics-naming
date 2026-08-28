@@ -2,7 +2,7 @@
 
 Anything wrong in it is a rule-file bug, fixed in the rule files — never by editing the
 snapshot. Regenerate with
-    uv run strands gallery sources/irish/test-words.tsv --out tests/snapshots/gallery.md
+    uv run strands gallery sources/irish/test-words.csv --out tests/snapshots/gallery.md
 and review the diff in the commit.
 """
 
@@ -16,7 +16,7 @@ SNAPSHOT = ROOT / "tests" / "snapshots" / "gallery.md"
 def test_gallery_matches_the_committed_snapshot(tmp_path):
     out = tmp_path / "g.md"
     assert (
-        main(["gallery", str(ROOT / "sources" / "irish" / "test-words.tsv"), "--out", str(out)])
+        main(["gallery", str(ROOT / "sources" / "irish" / "test-words.csv"), "--out", str(out)])
         == 0
     )
     assert SNAPSHOT.exists(), "no committed snapshot — generate it and review the diff"

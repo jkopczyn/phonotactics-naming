@@ -75,7 +75,7 @@
 - Six sub-agents ran in parallel (inventory/§0–1; phonotactics/§2; Parry-Williams consonants;
   Parry-Williams vowels; stress and length/§4; Irish mismatches/§8). §5, §6 and the modern-loan
   attested rows were extracted by the lead. No sub-agent wrote `digest.md`.
-- `attested.tsv` was assembled from four scratch TSVs, deduplicated on
+- `attested.csv` was assembled from four scratch TSVs, deduplicated on
   (source_form, target_form, provenance). All 751 data rows have exactly 8 fields.
 - `iosad2017` page numbers are from the **preprint** (pp.1–50), not *Phonology* 34(1):121–162.
   `williams1994`, `williams1995`, `grawunder2015`, `coleman-stress`, `pmc-lexical-stress` have no
@@ -172,7 +172,7 @@ epenthesis) are tabulated with their costs. This resolves the apparent §2.2-vs-
 not a repair of an illicit cluster.
 
 **7. Four `wood1988` citations corrected** (review §6.7, §3): `p.233` → **`p.235`** for *map, siop,
-mat, cloc* in `attested.tsv`. The in-text §3.3 and §8.7 references were already correct
+mat, cloc* in `attested.csv`. The in-text §3.3 and §8.7 references were already correct
 (`pp.234–235` / `p.235`); the remaining `p.233` references in §2.7 and §4.3 are to Wood's *length
 rule*, a different passage, and are unchanged.
 
@@ -199,7 +199,7 @@ knock-on effects to check. **No recommendation is made — this is the user's de
   §8.6 row is now split into individually cited members plus an explicit "not licensed by any class
   statement in this corpus" group.
 
-## Change to `attested.tsv`
+## Change to `attested.csv`
 
 - **751 rows unchanged in content**; the four `wood1988 p.233` provenances corrected to `p.235`.
 - **A ninth column, `layer`, added**: `historical` (653), `modern` (93), `translit` (5). The eight
@@ -207,7 +207,7 @@ knock-on effects to check. **No recommendation is made — this is the user's de
   8-column reader is unaffected. This implements the review's "split into modern-rule and
   historical-evidence views without discarding either layer" as a tag rather than a file split, so
   nothing is duplicated. Documented in §7, including the filter
-  `awk -F'\t' '$9=="modern"' attested.tsv`.
+  `awk -F'\t' '$9=="modern"' attested.csv`.
 - The review's separate point that the file "is weak for phonetic testing" (653/751 rows have blank
   IPA on both sides) stands and is **not** fixable from these sources: Parry-Williams gives no
   pronunciations. The `layer` column at least makes the 93-row testable subset addressable.

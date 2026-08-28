@@ -1,0 +1,313 @@
+source_lang,source_form,source_ipa,target_form,target_ipa,process,provenance,note
+tur,nöbetçi (via Tk.),,nabatši,nabatʃi,substitution;vowel,ema1958 §17,emphatics unmarked in source; Tk. affricate ç -> ʃ
+tur,nöbetçi,,nobatši,nobatʃi,substitution,ema1958 §17,emphatics unmarked in source
+tur,makwagi (Tk. -ǧi agent suffix),,makwagi,makwagi,none,ema1958 §5,emphatics unmarked in source; agent noun in -gi
+tur,(?agzagi 'pharmacist'),,?agzagi,ʔagzagi,substitution,ema1958 §5,"emphatics unmarked in source; obsolescent, displaced by sajdali"
+ita,pizza,,bitsa,bitsa,substitution,ema1958 §5,emphatics unmarked in source; p -> b
+ita,pizza,,betsa,betsa,substitution;vowel,ema1958 §22,emphatics unmarked in source
+ita,pizza,,bedza,bedza,substitution;vowel,ema1958 §22,emphatics unmarked in source; ts -> dz: both members voiced
+spa,salsa,,çâlsâ,sˤɑlsɑ,substitution,ema1958 §5,"emphatics unmarked in source EXCEPT this one: the source prints ç, mojibake for emphatic s-dot; decoded as /sˤ/, same as bââçâ 'pass'"
+ita,teatro,,tijatru,tijatru,substitution;glide,ema1958 §5,"emphatics unmarked in source; obsolescent, displaced by mâsrâh"
+eng,hospital,,?esbetalja,ʔesbetalja,epenthesis;substitution;glide,ema1958 §5,"emphatics unmarked in source; obsolescent, displaced by mostašfa"
+fra,trottoir,,talletwââr,talletwɑːr,gemination;substitution;length,ema1958 §5,"emphatics unmarked in source; obsolescent, displaced by râsiif"
+fra,manoeuvre,,monâwrâ,monɑwrɑ,substitution;vowel,ema1958 §5,emphatics unmarked in source; v -> w
+eng,workshop,,warsa,warsa,deletion,ema1958 §5,emphatics unmarked in source; syllable omission + fem. -a; also warša §46
+ita,musica / fra musique,,musiiqâ,musiːqɑ,substitution;length,ema1958 §5,emphatics unmarked in source; k -> q
+fra,medaille,,medalja,medalja,glide,ema1958 §8,emphatics unmarked in source; free variant of madelja
+fra,medaille,,madelja,madelja,glide;vowel,ema1958 §8,emphatics unmarked in source
+eng,lamp,,lâmbâ,lɑmbɑ,substitution,ema1958 §8,emphatics unmarked in source; least integrated; pl lâmbâât
+eng,lamp,,lâmdâ,lɑmdɑ,substitution,ema1958 §8,emphatics unmarked in source; pl lomâd
+eng,lamp,,lândâ,lɑndɑ,substitution,ema1958 §8,emphatics unmarked in source; most integrated; pl lonâd
+fra,cravate,,gârâfâttâ,gɑrɑfɑttɑ,substitution;epenthesis;gemination,ema1958 §8,"emphatics unmarked in source; k->g, v->f"
+fra,cravate,,kârâfâttâ,kɑrɑfɑttɑ,substitution;epenthesis;gemination,ema1958 §8,emphatics unmarked in source; v->f
+fra,cravate,,kârâvâttâ,kɑrɑvɑttɑ,epenthesis;gemination,ema1958 §8,emphatics unmarked in source; v kept
+fra,cravate,,kârâvât,kɑrɑvɑt,epenthesis,ema1958 §8,emphatics unmarked in source
+fra,cravate,,kravat,kravat,none,ema1958 §8,emphatics unmarked in source; least integrated: initial cluster kept
+fra,pantalon,,bântâloon,bɑntɑloːn,substitution;length,ema1958 §14,emphatics unmarked in source; p->b initial; t -> emphatic
+fra,pendule,,banduul,banduːl,substitution;length,ema1958 §14,emphatics unmarked in source; Fr. u -> uu
+ita,prova,,boroovâ,boroːvɑ,substitution;epenthesis,ema1958 §14,emphatics unmarked in source; p->b; cluster broken
+fra,proteine / eng protein,,borotiin,borotiːn,substitution;epenthesis;length,ema1958 §14,emphatics unmarked in source
+fra,police,,boliis,boliːs,substitution;length,ema1958 §14,emphatics unmarked in source
+fra,passeport,,bâsboor,bɑsboːr,substitution;deletion;length,ema1958 §14,emphatics unmarked in source; p->b medial
+fra,passeport,,bâzboor,bɑzboːr,substitution;deletion;length,ema1958 §14,emphatics unmarked in source; s->z assimilating to following b
+fra,passeport,,bazabort,bazabort,substitution;epenthesis,ema1958 §22,emphatics unmarked in source
+fra,diplome,,debloom,debloːm,substitution;length,ema1958 §14,emphatics unmarked in source
+fra,diplome,,dabloom,dabloːm,substitution;vowel;length,ema1958 §14,emphatics unmarked in source
+fra,diplome,,dabloon,dabloːn,substitution;length,ema1958 §14,emphatics unmarked in source; m -> n
+eng,pipe,,bajeb,bajeb,substitution,ema1958 §14,emphatics unmarked in source; p->b in final position
+ita,villa,,vella,vella,vowel;gemination,ema1958 §15,emphatics unmarked in source; v kept; i->e
+ita,villa,,fella,fella,substitution;vowel;gemination,ema1958 §15,emphatics unmarked in source; v->f
+eng,Victoria,,fektorja,fektorja,substitution;glide,ema1958 §15,emphatics unmarked in source; v->f
+fra,vitesse,,vetees,veteːs,length,ema1958 §15,emphatics unmarked in source
+fra,vitesse,,fêtees,feteːs,substitution;length,ema1958 §15,emphatics unmarked in source; v->f
+eng,vitamin,,vetamiin,vetamiːn,length,ema1958 §15,emphatics unmarked in source
+eng,vitamin,,fetamiin,fetamiːn,substitution;length,ema1958 §15,emphatics unmarked in source
+eng,Mervat,,mervat,mervat,none,ema1958 §15,emphatics unmarked in source; personal name
+eng,Mervat,,merfat,merfat,substitution,ema1958 §15,emphatics unmarked in source
+eng,television,,telivizjoon,telivizjoːn,glide;length,ema1958 §15,emphatics unmarked in source
+fra,television,,telefezjoon,telefezjoːn,substitution;vowel;glide;length,ema1958 §15,emphatics unmarked in source; v->f
+eng,seven up,,sevenâbb,sevenɑbb,gemination,ema1958 §15,emphatics unmarked in source
+eng,seven up,,sefen,sefen,substitution;deletion,ema1958 §15,emphatics unmarked in source
+eng,seven up,,seven?âbb,sevenʔɑbb,gemination;epenthesis,ema1958 §34,emphatics unmarked in source; stressed final CVCC
+fra,couverture,,koverta,koverta,deletion,ema1958 §15,emphatics unmarked in source; fem. -a
+fra,couverture,,koberta,koberta,substitution;deletion,ema1958 §15,emphatics unmarked in source; v->b
+fra,couverture,,kaberta,kaberta,substitution;vowel;deletion,ema1958 §15,emphatics unmarked in source
+fra,vapeur,,wâbuur,wɑbuːr,substitution;length,ema1958 §15,emphatics unmarked in source; v->w
+fra,vapeur,,bâbuur,bɑbuːr,substitution;length,ema1958 §15,emphatics unmarked in source; v->b; pl bâwâbiir
+fra,vapeur,,bâguur,bɑguːr,substitution;length,ema1958 §15,emphatics unmarked in source
+eng,veranda,,vârândâ,vɑrɑndɑ,none,ema1958 §15,emphatics unmarked in source
+eng,veranda,,bârândâ,bɑrɑndɑ,substitution,ema1958 §15,emphatics unmarked in source; v->b
+eng,valve,,balf,balf,substitution;deletion;vowel,ema1958 §15,"emphatics unmarked in source; v->b, v->f; pl buluuf"
+fra,veto,,viitu,viːtu,length,ema1958 §15,"emphatics unmarked in source; v kept, no integration"
+fra,visa,,viiza,viːza,length,ema1958 §15,"emphatics unmarked in source; v kept, no integration"
+eng,thermos,,tormos,tormos,substitution;vowel,ema1958 §16,emphatics unmarked in source; θ -> t
+eng,thermometer,,termometr,termometr,substitution,ema1958 §16,emphatics unmarked in source; final cluster tr kept
+eng,thermostat,,termostaat,termostaːt,substitution;length,ema1958 §16,emphatics unmarked in source
+eng,thermostat,,sermostaat,sermostaːt,substitution;length,ema1958 §16,emphatics unmarked in source; θ -> s variant
+fra,garage,,garaağ,garaːʒ,length,ema1958 §16,"emphatics unmarked in source; ʒ kept, identical to model"
+fra,garage,,garaaš,garaːʃ,substitution;length,ema1958 §17,emphatics unmarked in source; ʒ -> ʃ
+fra,debrayage,,debrejaağ,debrejaːʒ,glide;length,ema1958 §17,emphatics unmarked in source
+fra,debrayage,,debrejaaš,debrejaːʃ,substitution;glide;length,ema1958 §17,emphatics unmarked in source; ʒ -> ʃ
+eng,jacket / fra jaquette,,ğaketta,ʒaketta,gemination,ema1958 §17,emphatics unmarked in source; urban; ʒ kept
+eng,jacket / fra jaquette,,šaketta,ʃaketta,substitution;gemination,ema1958 §17,emphatics unmarked in source; rural
+eng,jacket / fra jaquette,,daketta,daketta,substitution;gemination,ema1958 §17,emphatics unmarked in source; rural
+eng,jacket / fra jaquette,,zaketta,zaketta,substitution;gemination,ema1958 §17,emphatics unmarked in source; rural
+eng,jacket,,gaketta,gaketta,substitution;gemination,ema1958 §30,emphatics unmarked in source; construct gakettet el-badla
+eng,jeep,,ğebb,ʒebb,substitution;gemination,ema1958 §17,emphatics unmarked in source; dʒ -> ʒ
+eng,chips,,šebs,ʃebs,substitution,ema1958 §17,emphatics unmarked in source; tʃ -> ʃ
+eng,chips,,šibs,ʃibs,substitution,ema1958 §17,emphatics unmarked in source
+eng,winch,,wenš,wenʃ,substitution;vowel,ema1958 §17,emphatics unmarked in source; tʃ -> ʃ
+eng,march,,marš,marʃ,substitution,ema1958 §17,emphatics unmarked in source
+ita,concerto,,konšertu,konʃertu,substitution,ema1958 §17,emphatics unmarked in source
+eng,Chile,,šiili,ʃiːli,substitution;length,ema1958 §17,emphatics unmarked in source
+fra,tante,,tânt,tɑnt,substitution,ema1958 §20,emphatics unmarked in source; t -> emphatic before back vowel
+eng,battery / ita batteria,,bâttârejjâ,bɑttɑrejjɑ,gemination;glide,ema1958 §20,emphatics unmarked in source; construct bâttârejjet el-ʕârâbejjâ
+fra,point,,bont,bont,substitution,ema1958 §20,emphatics unmarked in source; p->b; t emphatic
+fra,capitaine / eng captain,,qobtâân,qobtɑːn,substitution;deletion;length,ema1958 §20,"emphatics unmarked in source; k->q, p->b"
+eng,table,,tâblejjâ,tɑblejjɑ,substitution;glide,ema1958 §20,emphatics unmarked in source; emphatic t + fem.
+ita,Italia,,etâljâ,etɑljɑ,substitution;glide,ema1958 §20,emphatics unmarked in source
+eng,shoot,,šuut,ʃuːt,substitution;length,ema1958 §20,emphatics unmarked in source; t emphatic
+ita,moda,,moodâ,moːdɑ,substitution;length,ema1958 §20,emphatics unmarked in source; d -> emphatic after back vowel
+fra,salon,,sâloon,sɑloːn,substitution;length,ema1958 §20,emphatics unmarked in source; s -> emphatic
+fra,salle,,sââlâ,sɑːlɑ,substitution;length,ema1958 §20,emphatics unmarked in source
+fra,vase,,vââzâ,vɑːzɑ,substitution;length,ema1958 §20,emphatics unmarked in source; z -> emphatic
+fra,commission / ita commissione,,qomisjoon,qomisjoːn,substitution;glide;length,ema1958 §20,emphatics unmarked in source; k -> q
+eng,phonograph,,fonoXrââf,fonoʁrɑːf,substitution;length,ema1958 §21,emphatics unmarked in source; g -> ʁ
+eng,telegraph,,talleXrââf,talleʁrɑːf,substitution;gemination;length,ema1958 §21,emphatics unmarked in source; g -> ʁ
+lat,magnetis / eng magnet,,mâXnâtiis,mɑʁnɑtiːs,substitution;length,ema1958 §21,emphatics unmarked in source; g -> ʁ
+eng,jeans,,gens,gens,substitution;vowel,ema1958 §22,emphatics unmarked in source; z -> s; i -> e
+eng,album,,?albuum,ʔalbuːm,epenthesis;length,ema1958 §22,emphatics unmarked in source; prothetic ʔ
+eng,album,,?alboom,ʔalboːm,epenthesis;length,ema1958 §22,emphatics unmarked in source
+eng,album,,?alboon,ʔalboːn,epenthesis;substitution;length,ema1958 §22,emphatics unmarked in source; m -> n
+eng,piston,,bestem,bestem,substitution;metathesis,ema1958 §22,emphatics unmarked in source; p->b; n -> m; pl basaatem
+fra,journal,,gornâân,gornɑːn,substitution;length,ema1958 §22,emphatics unmarked in source; l -> n (consonant copy)
+fra,journal,,gornââl,gornɑːl,substitution;length,ema1958 §22,"emphatics unmarked in source; also ğornâân, pl ğârâniin §46"
+fra,coiffeur,,kwafeer,kwafeːr,vowel;length,ema1958 §23,emphatics unmarked in source; Fr. eu -> ee
+fra,chauffeur,,šofeer,ʃofeːr,vowel;length,ema1958 §23,emphatics unmarked in source
+fra,docteur,,doktoor,doktoːr,vowel;length,ema1958 §23,emphatics unmarked in source; Fr. eu -> oo
+fra,moteur,,motoor,motoːr,vowel;length,ema1958 §23,emphatics unmarked in source
+fra,moteur,,mâtoor,mɑtoːr,vowel;length,ema1958 §23,emphatics unmarked in source; unstressed o -> a
+fra,caricature,,karikateer,karikateːr,vowel;length,ema1958 §23,emphatics unmarked in source; Fr. u -> ee
+fra,pedicure,,badikeer,badikeːr,substitution;vowel;length,ema1958 §23,emphatics unmarked in source; p -> b
+fra,manucure,,monokiir,monokiːr,vowel;length,ema1958 §23,emphatics unmarked in source; Fr. u -> ii
+fra,manucure,,manikiir,manikiːr,vowel;length,ema1958 §23,emphatics unmarked in source
+fra,jupe,,ğiiba,ʒiːba,vowel;length,ema1958 §23,emphatics unmarked in source; Fr. u -> ii; fem. -a; pl gibaat / ğupaat
+ita,manifesto,,manafesto,manafesto,vowel,ema1958 §24,emphatics unmarked in source; unstressed i -> a
+eng,wing,,weng,weng,vowel,ema1958 §24,emphatics unmarked in source; i -> e
+eng,switch,,sewetch,sewetch,epenthesis;vowel,ema1958 §24,emphatics unmarked in source
+eng,zigzag,,zegzaag,zegzaːg,vowel;length,ema1958 §24,emphatics unmarked in source
+fra,decor,,dikoor,dikoːr,length,ema1958 §24,emphatics unmarked in source; i kept (exception to i->e)
+fra,litre,,letr,letr,vowel,ema1958 §24,emphatics unmarked in source; final cluster tr kept
+eng,aluminium,,?alamonjom,ʔalamonjom,vowel;epenthesis;glide,ema1958 §25,emphatics unmarked in source; harmony: Ca-Ca-CoC-CoC
+fra,chiffonier,,šofoniira,ʃofoniːra,vowel;length,ema1958 §25,emphatics unmarked in source; harmony: Co-Co-CVVCV; fem. -a
+eng,gallon,,galoon,galoːn,length;stress,ema1958 §26,emphatics unmarked in source; o -> oo under final stress
+eng,lorry,,luuri,luːri,length;stress,ema1958 §26,emphatics unmarked in source; stressed initial syllable lengthened
+eng,cutout,,kataawet,kataːwet,length;glide,ema1958 §26,emphatics unmarked in source
+fra,madame,,madaam,madaːm,length;deletion,ema1958 §26,emphatics unmarked in source
+eng,sweater,,sewiitâr,sewiːtɑr,epenthesis;length,ema1958 §26,emphatics unmarked in source
+fra,dentelle,,dânteel,dɑnteːl,length,ema1958 §26,emphatics unmarked in source; also dântellâ §31
+fra,etiquette,,?etikeet,ʔetikeːt,epenthesis;length,ema1958 §26,emphatics unmarked in source; prothetic ʔ
+eng,telephone,,telifoon,telifoːn,length;stress,ema1958 §26,emphatics unmarked in source
+fra,accessoire,,?ekseswââr,ʔekseswɑːr,epenthesis;length,ema1958 §28,emphatics unmarked in source; prothetic ʔ before initial V
+fra,autobus,,?otobiis,ʔotobiːs,epenthesis;length,ema1958 §28,emphatics unmarked in source
+eng,hotel,,?oteel,ʔoteːl,epenthesis;deletion;length,ema1958 §28,emphatics unmarked in source
+fra,elastique,,?astek,ʔastek,epenthesis;deletion,ema1958 §28,emphatics unmarked in source; first syllable lost (heard as el-)
+eng,stretch,,?esteretš,ʔesteretʃ,epenthesis;substitution,ema1958 §29,emphatics unmarked in source; ʔeC-C prothesis + medial epenthesis
+eng,sport (cola),,?ezbort,ʔezbort,epenthesis;substitution,ema1958 §29,"emphatics unmarked in source; s->z, p->b; phrase ?ezborte koola"
+eng,Sprite,,?ezberâjt,ʔezberɑjt,epenthesis;substitution,ema1958 §29,emphatics unmarked in source
+eng,spray,,?ezbereej,ʔezbereːj,epenthesis;substitution;length,ema1958 §29,emphatics unmarked in source
+ita,studio,,?estodju,ʔestodju,epenthesis;glide,ema1958 §29,emphatics unmarked in source
+eng,stable,,?estâbl,ʔestɑbl,epenthesis,ema1958 §29,emphatics unmarked in source; final cluster bl kept; phrase meš estâbl
+fra,classeur,,?aklaseer,ʔaklaseːr,epenthesis;length,ema1958 §29,emphatics unmarked in source; prothetic ?ak-
+fra,classeur,,kelaseer,kelaseːr,epenthesis;length,ema1958 §29,emphatics unmarked in source; medial epenthesis instead of prothesis
+eng,princess,,berensiisa,berensiːsa,epenthesis;length,ema1958 §29,emphatics unmarked in source; p->b; fem. -a
+fra,creme,,kereema,kereːma,epenthesis;length,ema1958 §29,emphatics unmarked in source
+eng,foul,,fawel,fawel,epenthesis;glide,ema1958 §29,emphatics unmarked in source
+eng,offside,,?ofsâjed,ʔofsɑjed,epenthesis,ema1958 §29,emphatics unmarked in source
+eng,half time,,haftajem,haftajem,epenthesis;deletion,ema1958 §29,emphatics unmarked in source
+fra,prix fixe,,berifeks,berifeks,epenthesis;substitution,ema1958 §29,emphatics unmarked in source
+fra,platine,,belatiin,belatiːn,epenthesis;substitution;length,ema1958 §29,emphatics unmarked in source
+eng,sandwich,,sandawetš,sandawetʃ,epenthesis;substitution,ema1958 §29,emphatics unmarked in source
+fra,croissant,,korwâsoon,korwɑsoːn,epenthesis;glide;length,ema1958 §29,emphatics unmarked in source
+fra,balcon,,balakoona,balakoːna,epenthesis;length,ema1958 §29,emphatics unmarked in source; fem. -a
+eng,flannel,,fanella,fanella,deletion;gemination,ema1958 §30,emphatics unmarked in source; construct fanellet en-naadi
+eng,flannel,,falenna,falenna,metathesis;gemination,ema1958 §36,emphatics unmarked in source; transposed variant
+eng,caramel,,kârâmellâ,kɑrɑmellɑ,gemination;epenthesis,ema1958 §31,emphatics unmarked in source; CVCVCVCCV target pattern
+ita,manivela / fra manivelle,,manafella,manafella,gemination;vowel,ema1958 §31,emphatics unmarked in source
+fra,dentelle,,dântellâ,dɑntellɑ,gemination,ema1958 §31,emphatics unmarked in source; spelling-driven doubling
+ita,birra,,biira,biːra,length,ema1958 §31,emphatics unmarked in source; counterexample: no gemination
+ita,fattura,,fatuura,fatuːra,length,ema1958 §31,emphatics unmarked in source; counterexample: no gemination
+ita,fattura,,fâtuurâ,fɑtuːrɑ,length;stress,ema1958 §35,emphatics unmarked in source; pl fawatiir (broken) in EA
+eng,training suit,,t(e)reng,t(e)reng,deletion,ema1958 §32,emphatics unmarked in source; multiword reduced
+eng,automatic,,tomatiiki,tomatiːki,deletion;length,ema1958 §32,emphatics unmarked in source; initial syllable lost
+eng,automatic,,?omatiiki,ʔomatiːki,deletion;epenthesis;length,ema1958 §35,emphatics unmarked in source
+eng,automatic,,?otomatiiki,ʔotomatiːki,epenthesis;length,ema1958 §35,emphatics unmarked in source
+eng,automobile,,tombiil,tombiːl,deletion;length,ema1958 §32,emphatics unmarked in source
+eng,automobile,,?otombiil,ʔotombiːl,deletion;epenthesis;length,ema1958 §32,emphatics unmarked in source
+eng,accelerator,,?akserateer,ʔakserateːr,deletion;epenthesis;length,ema1958 §32,emphatics unmarked in source
+fra,cinema,,siinima,siːnima,length,ema1958 §32,emphatics unmarked in source
+ita,alfino 'bread',,fiinu,fiːnu,deletion;length,ema1958 §32,emphatics unmarked in source; first syllable lost (heard as el-)
+eng,power steering,,bâwâr,bɑwɑr,deletion;substitution,ema1958 §32,emphatics unmarked in source
+eng,self adhesive,,self,self,deletion,ema1958 §32,emphatics unmarked in source
+eng,answering machine,,?ânsâr,ʔɑnsɑr,deletion;epenthesis,ema1958 §32,emphatics unmarked in source
+eng,radar,,râdââr,rɑdɑːr,length;stress,ema1958 §34,emphatics unmarked in source
+eng,dollar,,dolââr,dolɑːr,length;stress,ema1958 §34,emphatics unmarked in source
+eng,overall,,?âvârool,ʔɑvɑroːl,epenthesis;length;stress,ema1958 §34,emphatics unmarked in source; v kept
+fra,secretaire,,sekerteer,sekerteːr,epenthesis;length;stress,ema1958 §34,"emphatics unmarked in source; fem. sekerteera, pl sekerteraat"
+eng,gentleman,,gentelmaan,gentelmaːn,epenthesis;length;stress,ema1958 §34,emphatics unmarked in source
+jpn,karate,,kârâtee,kɑrɑteː,length;stress,ema1958 §34,emphatics unmarked in source
+eng,ketchup,,katsabb,katsabb,substitution;gemination;stress,ema1958 §34,emphatics unmarked in source; p->b; final CVCC stressed
+eng,packet,,baaku,baːku,substitution;deletion;length;stress,ema1958 §35,emphatics unmarked in source; p->b; pl bawaaki
+eng,balloon,,balloona,balloːna,gemination;length;stress,ema1958 §35,emphatics unmarked in source; fem. -a
+ita,bagno,,banju,banju,glide;stress,ema1958 §35,emphatics unmarked in source
+fra,cassette,,kaset,kaset,stress,ema1958 §35,emphatics unmarked in source
+eng,shampoo,,šambu,ʃambu,substitution;deletion;stress,ema1958 §35,emphatics unmarked in source
+ita,radio,,radju,radju,glide;stress,ema1958 §35,emphatics unmarked in source; pl radââwi (broken)
+eng,pullover,,boloovâr,boloːvɑr,substitution;epenthesis;length,ema1958 §36,emphatics unmarked in source; p->b
+eng,pullover,,boroovâr,boroːvɑr,metathesis;substitution,ema1958 §36,emphatics unmarked in source; l/r transposed
+eng,pullover,,boroovâl,boroːvɑl,metathesis;substitution,ema1958 §36,emphatics unmarked in source
+fra,litre,,retl,retl,metathesis,ema1958 §36,emphatics unmarked in source; transposition of letr
+eng,penalty,,benalti,benalti,substitution,ema1958 §36,emphatics unmarked in source; p->b
+eng,penalty,,belenti,belenti,metathesis;substitution,ema1958 §36,emphatics unmarked in source; pl belentaat on transposed stem
+eng,television,,telivigen,telivigen,none,ema1958 §37,emphatics unmarked in source; deliberately unintegrated prestige form
+fra,jupes,,ğupaat,ʒupaːt,none,ema1958 §37,emphatics unmarked in source; prestige pl vs integrated gibaat
+eng,happy birthday,,hapi persdej,hapi persdej,none,ema1958 §38,emphatics unmarked in source; hypercorrect p
+ita,bravo,,prââvu,prɑːvu,none;length,ema1958 §38,emphatics unmarked in source; hypercorrect p; initial cluster kept
+ita,bravo,,berââvu,berɑːvu,epenthesis;length,ema1958 §38,emphatics unmarked in source
+ita,bravo,,brââvu,brɑːvu,none;length,ema1958 §38,emphatics unmarked in source; initial cluster tolerated
+eng,shock,,tšok,tʃok,none,ema1958 §38,emphatics unmarked in source; hypercorrect tʃ for ʃ
+spa,cafeteria,,kaveterja,kaveterja,none;glide,ema1958 §38,emphatics unmarked in source; hypercorrect v for f
+spa,cafeteria,,kafeterja,kafeterja,none;glide,ema1958 §38,emphatics unmarked in source
+fra,coiffeur,,kowafeer,kowafeːr,epenthesis;glide;length,ema1958 §43,emphatics unmarked in source; masc.
+fra,coiffeur (f.),,kowafeera,kowafeːra,epenthesis;glide;length,ema1958 §43,emphatics unmarked in source; fem. -a
+eng,cashier,,kašjeer,kaʃjeːr,substitution;glide;length,ema1958 §43,emphatics unmarked in source; masc.
+eng,cashier (f.),,kašjeera,kaʃjeːra,substitution;glide;length,ema1958 §43,emphatics unmarked in source; fem. -a
+fra,docteur (f.),,doktoorâ,doktoːrɑ,vowel;length,ema1958 §43,emphatics unmarked in source; pl dakatra (broken) for both genders
+fra,garcon,,gârsoon,gɑrsoːn,length,ema1958 §43,emphatics unmarked in source; no fem. form
+eng,typist,,tajbest,tajbest,substitution,ema1958 §43,emphatics unmarked in source; p->b; no fem. form
+eng,mechanic,,mekaniiki,mekaniːki,length,ema1958 §43,emphatics unmarked in source; no fem. form; -i ending
+eng,shot,,šootâ,ʃoːtɑ,substitution;length,ema1958 §44,emphatics unmarked in source; fem. -a
+eng,bomb / ita bomba,,bomba,bomba,none,ema1958 §44,emphatics unmarked in source; fem. by -a
+eng,ball 'scoop',,boola,boːla,length,ema1958 §44,emphatics unmarked in source; fem. -a
+eng,pass,,bââçâ,bɑːsˤɑ,substitution;length,ema1958 §44,"emphatics unmarked in source EXCEPT ç (mojibake for emphatic s-dot, decoded /sˤ/); p->b; fem. -a; pl bâçâât"
+eng,film,,felm,felm,vowel,ema1958 §46,"emphatics unmarked in source; pl ?aflaam (broken, cf. helm > ?ahlaam)"
+eng,douche,,došš,doʃʃ,gemination,ema1958 §46,emphatics unmarked in source; pl ?edšaaš (broken)
+eng,workshop,,warša,warʃa,deletion,ema1958 §46,"emphatics unmarked in source; pl weraš (broken, cf. halla > helal)"
+ita,polizza / fra police,,boliisâ,boliːsɑ,substitution;length,ema1958 §46,emphatics unmarked in source; pl bâwââles (cf. xaatem > xawaatem)
+ita,macchina / spa maquina,,makana,makana,deletion;vowel,ema1958 §50,"emphatics unmarked in source; EA; pl makan (broken, cf. samak)"
+ita,macchina,,makiina,makiːna,length,ema1958 §50,emphatics unmarked in source; MSA form; pl makinaat (sound)
+eng,militia,,melisja,melisja,glide,ema1958 §47,emphatics unmarked in source; pl melisjaat
+eng,banknote,,bankenoot,bankenoːt,epenthesis;length,ema1958 §52,emphatics unmarked in source; no plural; wara? bankenoot
+eng,computer,,kombjuutâr,kombjuːtɑr,substitution;glide;length,ema1958 §52,emphatics unmarked in source; p->b; pl periphrastic ?aghezet el-kombjuutâr
+eng,dish,,diss,diss,gemination,ema1958 §55,"emphatics unmarked in source; pl dessaat (sound), avoids clash with došš"
+eng,asphalt,,?asfalt,ʔasfalt,epenthesis,ema1958 §55,emphatics unmarked in source; also ?esfalt; Arabic spelling drives variation
+eng,trailer,,trella,trella,gemination,ema1958 §60,emphatics unmarked in source; initial cluster now tolerated
+fra,marche arriere,,maršedeer,marʃedeːr,substitution;length,ema1958 §62,emphatics unmarked in source; 'reverse gear'
+fra,marche arriere,,maršerjeer,marʃerjeːr,substitution;glide;length,ema1958 §62,emphatics unmarked in source
+fra,revers,,revers,revers,none,ema1958 §62,emphatics unmarked in source
+eng,finish,,fanne,fanne,deletion;gemination,ema1958 §63,emphatics unmarked in source; 'finished'
+eng,hydrogen,,hajedroğiin,hajedroʒiːn,epenthesis;length,ema1958 §40,"emphatics unmarked in source; root h-d-r-ğ > hadrağ, jehadrağ, hadrağa, mehadrağ"
+eng,nervous,,narfez,narfez,substitution;vowel,ema1958 §41,"emphatics unmarked in source; root n-r-f-z; also ?etnarfez, narfaza"
+eng,Pepsi,,nebebsi,nebebsi,substitution,ema1958 §41,emphatics unmarked in source; denominal verb (TV commercial)
+eng,Persil,,barseli,barseli,substitution,ema1958 §41,emphatics unmarked in source; denominal verb; also tebarseli
+eng,freezer,,firizar,,epenthesis,kwpl-ot-cairene-loan p.2 data(2a),anaptyxis /i/ inside /fr/; PDF-verified
+eng,Bristol (paper),,biristul,,epenthesis,kwpl-ot-cairene-loan p.2 data(2b),anaptyxis /i/ inside /br/; PDF-verified
+eng,printer,,birinter,,epenthesis;substitution,kwpl-ot-cairene-loan p.2 data(2c),anaptyxis inside /pr/; p->b; PDF-verified
+eng,Crimplene,,kirimbilin,,epenthesis;substitution,kwpl-ot-cairene-loan p.2 data(2d),anaptyxis inside /kr/ and /pl/; p->b; PDF-verified
+eng,stereo,,ʔistiryu,,epenthesis;glide,kwpl-ot-cairene-loan p.2 data(2e),prothesis ʔi- before /st/; PDF-verified
+eng,speech,,ʔisbiitʃ,,epenthesis;substitution,kwpl-ot-cairene-loan p.2 data(2f),prothesis ʔi- before /sp/; p->b; PDF-verified
+eng,spray,,ʔisbireeh,,epenthesis;substitution,kwpl-ot-cairene-loan p.2 data(2g),prothesis ʔi- before /sp/ AND anaptyxis in /pr/; p->b; PDF-verified
+eng,banknote,,bankinut,,epenthesis,kwpl-ot-cairene-loan p.2 data(2h),CCC /nkn/ broken after C2; PDF-verified
+eng,shark skin (cloth),,ʃarkiskiin,,epenthesis,kwpl-ot-cairene-loan p.2 data(2i),CCC /rks/ broken after C2; PDF-verified
+eng,postman,,bustiman,,epenthesis;substitution,kwpl-ot-cairene-loan p.2 data(2j),CCC /stm/ broken after C2; p->b; PDF-verified
+eng,projector,,burujiktur,,epenthesis;vowel;substitution,kwpl-ot-cairene-loan p.3 data(3a),epenthetic vowel [u] copying following round V; p->b; PDF-verified
+eng,fluorescent,,fulurusint,,epenthesis;vowel,kwpl-ot-cairene-loan p.3 data(3b),"printed ""florescent""; epenthetic [u]; PDF-verified"
+eng,fruit,,furuut,,epenthesis;vowel;length,kwpl-ot-cairene-loan p.3 data(3c),epenthetic [u] copying following /uː/; PDF-verified
+eng,group,,guruub,,epenthesis;vowel;length,kwpl-ot-cairene-loan p.3 data(3d),epenthetic [u] copying following /uː/; worked in detail p.15-17; PDF-verified
+eng,clutch (auto),,kalatʃ,,epenthesis;vowel,kwpl-ot-cairene-loan p.3 data(3e),epenthetic [a] copying following /a/; the only [a] case; PDF-verified
+eng,flash,,filaʃ,,epenthesis;vowel,kwpl-ot-cairene-loan p.3 data(3f),epenthetic [i] though following V is /a/ (no harmony); PDF-verified
+eng,clash,,kilaʃ,,epenthesis;vowel,kwpl-ot-cairene-loan p.3 data(3g),"printed ""kilæsh""; epenthetic [i]; PDF-verified"
+eng,staff,,ʔistaf,,epenthesis;vowel,kwpl-ot-cairene-loan p.3 data(3h),prothetic [i] does not harmonize with following /a/; PDF-verified
+eng,stock,,ʔistuk,,epenthesis;vowel,kwpl-ot-cairene-loan p.3 data(3i),prothetic [i] does not harmonize with following /u/; PDF-verified
+eng,stop,,ʔistub,,epenthesis;substitution,"kwpl-ot-cairene-loan p.3 data(3j), p.6-7",prothesis + p->b; Galal's worked p->b example; PDF-verified
+eng,freezer,,firiizar,firiːzar,epenthesis;length,broselow-position-quality p.295 ex.(2a),"independent attestation of the Galal form, with length marked"
+eng,plastic,,bilastik,bilastik,epenthesis;substitution,broselow-position-quality p.295 ex.(2a),anaptyxis /i/ in /pl/; p->b
+eng,slide,,silayd,silajd,epenthesis,broselow-position-quality p.295 ex.(2a),"anaptyxis /i/ in /sl/ - s+SONORANT patterns with obstruent+sonorant, not with s+stop"
+eng,sweater,,siwetar,siwetar,epenthesis,broselow-position-quality p.295 ex.(2a),anaptyxis /i/ in /sw/
+eng,ski,,ʔiskii,ʔiskiː,epenthesis,broselow-position-quality p.295 ex.(2b),prothesis + inserted glottal stop before /sk/; Broselow notes [sikii] would be licit yet is not used
+eng,study,,ʔistadi,ʔistadi,epenthesis,broselow-position-quality p.295 ex.(2b),prothesis + glottal stop before /st/
+eng,spring,,ʔispiriŋ,ʔispiriŋ,epenthesis,broselow-position-quality p.295 ex.(2b),prothesis before /sp/ AND anaptyxis in /pr/; NOTE /p/ and /ŋ/ both retained as printed
+eng,street,,ʔistiriit,ʔistiriːt,epenthesis,broselow-position-quality p.298 n.5,"3-consonant onset: prothesis + glottal stop + anaptyxis, two vowels inserted"
+fra,autobus,,ʔotobiis,ʔotobiːs,epenthesis,broselow-arabic-syll p.2; ema1958 §28,"Broselow says only ""borrowed into Arabic"" and does not name the dialect; the Cairene attestation of the same word is ema1958 §28 (/?otobiis/). Kept as one row, dual-provenanced, rather than as a general-Arabic duplicate"
+eng,garage,,garaaʃ,ɡɑˈɾɑːʃ,substitution;vowel,wiki-egy-phonology §Consonants,via Fr.; loan /ʒ/ merges with /ʃ/ even in educated speech; [ɑ] backing in a European loan
+eng,jacket,,jakitta,ʒæˈkettæ,substitution;gemination;vowel,wiki-egy-arabic §Romanization n.p-j-v-marginal,less-educated variant [zækettæ]; final -a added; geminate
+eng,Pepsi,,bebsi,ˈbebsi,substitution,wiki-egy-arabic §Romanization n.p-j-v-marginal,p->b; educated variant [ˈpepsi] retains /p/
+ita,villa,,villa,ˈvellæ,gemination;vowel,wiki-egy-arabic §Romanization n.p-j-v-marginal,less-educated [ˈfellæ] with v->f; geminate; final -a
+fra,parachute,,baraʃoot,bɑɾɑˈʃot,substitution;vowel,wiki-egy-phonology §Consonants note 4,Watson's evidence for emphatic /rˤ/ in European loans; whole-word [ɑ] backing
+ita,gamberi,,gambari,ɡæmˈbæɾi,substitution,wiki-egy-arabic §Sociolinguistic features,"'shrimp'; old borrowing, Hinds & Badawi 1986"
+eng,television,,telefezyoon,tel(e)vezˈjoːn,substitution;vowel;stress,wiki-egy-arabic §Sociolinguistic features,variant [tel(e)fezˈjoːn] with v->f
+eng,Peter,,Peter,ˈpiːteɾ,substitution,wiki-help-ipa-egy §Non-native Consonants,"variant [ˈpiːtɑɾ]; /p/ marginal, may be [b]"
+eng,Nivin,,Nevin,nɪˈviːn,substitution,wiki-help-ipa-egy §Non-native Consonants,"variant [neˈviːn]; /v/ marginal, may be [f]"
+fra,Georges,,George,ʒoɾʒ,substitution,wiki-help-ipa-egy §Non-native Consonants,"/ʒ/ marginal, may be [ʃ]"
+tur,pembe,,bamba,,substitution;vowel,wiki-egy-arabic §Color/defect nouns,'pink'; Hinds & Badawi 1986 p.104
+fra,beige,,beeع,,substitution,wiki-egy-arabic §Color/defect nouns,'beige'; Hinds & Badawi 1986 p.104; the article's own rendering is corrupt (Arabic ع mid-word) - see the abdelmassih-intro p.14 row beez /beːʒ/ for the reliable form
+eng,Allenby,,il-linbi,elˈlembi,substitution;gemination;vowel,wiki-egy-phonology §Assimilation,/nb/ -> [mb]; word-initial il- reanalyzed as the definite article
+eng,street,,ʔistiriit,,epenthesis,ijllnet-cairene-english-syll p.108,"PREDICTED-NOT-ATTESTED: PREDICTED L2 error (starred table headed ""Error""), not observed data, not a lexicalized loan; variant [sitriːt]; source_ipa not given by the paper"
+eng,spring,,ʔisbiring,,epenthesis;substitution,ijllnet-cairene-english-syll p.108,"PREDICTED-NOT-ATTESTED: PREDICTED L2 error (starred table headed ""Error""), not observed data, not a lexicalized loan; sCC onset; p->b; source_ipa not given by the paper"
+eng,spleen,,ʔisbileen,,epenthesis;substitution,ijllnet-cairene-english-syll p.108,"PREDICTED-NOT-ATTESTED: PREDICTED L2 error (starred table headed ""Error""), not observed data, not a lexicalized loan; source_ipa not given by the paper"
+eng,splash,,ʔisbilaʃ,,epenthesis;substitution,ijllnet-cairene-english-syll p.108,"PREDICTED-NOT-ATTESTED: PREDICTED L2 error (starred table headed ""Error""), not observed data, not a lexicalized loan; source_ipa not given by the paper"
+eng,play,,bilay,,epenthesis;substitution,ijllnet-cairene-english-syll p.108,"PREDICTED-NOT-ATTESTED: PREDICTED L2 error (starred table headed ""Error""), not observed data, not a lexicalized loan; p->b + anaptyxis; source_ipa not given by the paper"
+eng,floor,,filoor,,epenthesis,ijllnet-cairene-english-syll p.108,"PREDICTED-NOT-ATTESTED: PREDICTED L2 error (starred table headed ""Error""), not observed data, not a lexicalized loan; variant [ʔifloor]; source_ipa not given by the paper"
+eng,criticise,,kiritisaiz,,epenthesis,ijllnet-cairene-english-syll p.108,"PREDICTED-NOT-ATTESTED: PREDICTED L2 error (starred table headed ""Error""), not observed data, not a lexicalized loan; source_ipa not given by the paper"
+eng,institute,,ʔinistitjuːt,,epenthesis,ijllnet-cairene-english-syll p.109,"PREDICTED-NOT-ATTESTED: PREDICTED L2 error (starred table headed ""Error""), not observed data, not a lexicalized loan; onsetless word repaired with ʔ; source_ipa not given by the paper"
+eng,middle,,middile,,epenthesis,ijllnet-cairene-english-syll p.109,"PREDICTED-NOT-ATTESTED: PREDICTED L2 error (starred table headed ""Error""), not observed data, not a lexicalized loan; syllabic /l/ repaired by epenthesis; source_ipa not given by the paper"
+eng,strength,,strengith,,epenthesis,ijllnet-cairene-english-syll p.110,"PREDICTED-NOT-ATTESTED: PREDICTED L2 error (starred table headed ""Error""), not observed data, not a lexicalized loan; CCC coda broken before final C; source_ipa not given by the paper"
+eng,tempts,,tempits,,epenthesis,ijllnet-cairene-english-syll p.110,"PREDICTED-NOT-ATTESTED: PREDICTED L2 error (starred table headed ""Error""), not observed data, not a lexicalized loan; CCCC coda broken; source_ipa not given by the paper"
+fra,Paris,,paríis,paˈɾiːs,substitution;length,"abdelmassih-intro p.2, p.14","/p/ listed as occurring only in borrowings; donor inferred, not stated in source"
+ita,villa,,villa,ˈvilla,none,abdelmassih-intro p.2,"cited as one of three examples licensing /v/; donor inferred, not stated in source"
+fra,jaquette,,žakítta,ʒaˈkitta,substitution;gemination;vowel,abdelmassih-intro p.2,"glossed 'jacket'; cited as licensing /ž/; donor inferred (Fr or Eng), not stated in source"
+eng,television,,tilivizyóon,tiliviˈzjoːn,substitution;glide;length,abdelmassih-intro p.14,"v4 p.78 gives tilivisyoon with /s/ — internal conflict; donor inferred, not stated in source"
+ita,gelati,,žiláati,ʒiˈlaːti,substitution;length,abdelmassih-intro p.14,"glossed 'ice cream'; donor inferred, not stated in source"
+eng,aspirin,,ʔaspiríin,ʔaspiˈɾiːn,epenthesis;length,abdelmassih-intro p.14,"initial ʔ obligatory — EA words never begin with a vowel (p.24); donor inferred, not stated in source"
+fra,beige,,béež,beːʒ,substitution;length,abdelmassih-intro p.14,"donor inferred, not stated in source"
+fra,Belgique,,balžíka,balˈʒika,substitution,abdelmassih-intro p.14,"v3 p.142 gives baljiika — internal conflict; donor inferred, not stated in source"
+fra,Pakistan,,pakistáan,pakisˈtaːn,length,abdelmassih-intro p.14,"donor inferred, not stated in source"
+ita,bravo,,braavo,braːvo,none,abdelmassih-intro p.26; abdelmassih-v3 p.42,"cited by him as one of only two examples of a word-initial CC cluster; PLAIN /r/ - no emphatic dot in the source (an earlier draft had bṛaavo); donor inferred, not stated in source"
+fra,kilo,,kiilu,ˈkiːlu,length,abdelmassih-v3 p.18,"his own example of a vowel-final loan that takes no pronominal suffix; donor inferred, not stated in source"
+fra,radio,,radyu,ˈɾadju,glide;vowel,abdelmassih-v3 p.18,"same list of vowel-final loans; donor inferred, not stated in source"
+ita,bagno,,banyu,ˈbanju,glide;vowel,abdelmassih-v3 p.18,"glossed 'bathtub'; same list; donor inferred, not stated in source"
+ita,antenna,,antinna,anˈtinna,vowel,abdelmassih-v3 p.18,"same list; gemination retained; donor inferred, not stated in source"
+eng,basketball,,baskitbool,baskitboːl,epenthesis;length,abdelmassih-v4 p.71,"/i/ breaks the *skC cluster; donor inferred, not stated in source"
+ita,pagliaccio,,bilyatšu,biljatʃu,substitution;glide,abdelmassih-v4 p.71,"glossed 'clown'; /tʃ/ realised as a t+š sequence, not an affricate phoneme; donor inferred, not stated in source"
+eng,launch,,lanš,lanʃ,substitution,abdelmassih-v4 p.73,"glossed 'launch; boat (n)'; final CC licit only word-finally; donor inferred, not stated in source"
+ita,piano,,piyaanu,pijaːnu,glide;length,abdelmassih-v4 p.76,"/j/ inserted to break the vowel sequence; donor inferred, not stated in source"
+fra,placeur,,plaseer,plaseːɾ,length,abdelmassih-v4 p.79,"glossed 'movie usher' (ʕaamil sinima ~ plaseer); rare initial CC; donor inferred, not stated in source"
+fra,benzine,,banziin,banziːn,length,abdelmassih-v4 p.145,"glossed 'gasoline'; derived banziina 'gas station'; donor inferred, not stated in source"
+ita,bicicletta,,biskilitta,biskilitta,substitution;metathesis,abdelmassih-v4 p.145,"donor inferred, not stated in source"
+eng,express,,iksibrees,iksibɾeːs,epenthesis;length,abdelmassih-v4 p.146,"glossed 'express train'; initial /i/ prothesis + medial /i/; donor inferred, not stated in source"
+eng,captain,,kabtin,kabtin,substitution,abdelmassih-v4 p.147,"p>b; donor inferred, not stated in source"
+fra,caoutchouc,,kawitš,kawitʃ,substitution,abdelmassih-v4 p.147,"glossed 'tire'; final /tʃ/ as a t+š sequence; donor inferred, not stated in source"
+ita,locanda,,lukanḍa,lukandˤa,substitution,abdelmassih-v4 p.147,"glossed 'hotel'; /d/ emphaticised to /ḍ/; donor inferred, not stated in source"
+fra,salon,,ṣaloon,sˤaloːn,substitution;length,abdelmassih-v4 p.150,"glossed 'train compartment'; /s/ emphaticised to /ṣ/ next to back vowel; donor inferred, not stated in source"
+eng,tramway,,tiṛamwaay,tiɾˤamwaːj,epenthesis;length,abdelmassih-v4 p.150,"listed as ""tiṛaam ~ tiṛamwaay""; /i/ breaks the initial *tr cluster; donor inferred, not stated in source"
+fra,autobus,,utubiis,utubiːs,vowel;length,abdelmassih-v4 p.150,"donor inferred, not stated in source"

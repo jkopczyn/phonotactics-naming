@@ -1,0 +1,91 @@
+# Modern Irish orthography -> IPA alignment table (Old Irish spec §4, §11; plan Task 5, O-7).
+# Read by `strands.orth.load_orth_table`. Columns: unit, segments, note.
+# `segments` is a space-separated list of alternatives, each a `+`-joined segment sequence;
+# `-` = silent (consumes no segment). The loader sorts by unit length, LONGEST FIRST; within a
+# length, file order is the tie-break and is load-bearing (first complete path wins).
+# Segments are as they stand after `irish.normalize` (aliases folded, quality marked).
+#
+# Rows to read with care (plan Task 5):
+#   `n` has a silent `-` alternative. It fires on exactly one corpus word (*an tsneachta*,
+#     where the article's /n/ is lost before the t-prefix) and in principle lets the aligner
+#     swallow ANY <n>; the safety margin comes only from `nn` sorting first and from the
+#     silent alternative being tried last. Tighten deliberately if it misfires.
+#   `tsn`, `cn`, `mn` encode the Connacht/Ulster nasal -> liquid shift (digest §2.2), each
+#     resting on a SINGLE corpus word (*an tsneachta*, *cnoc*, *mná*). Real, but thin.
+unit,segments,note
+bhf,vˠ vʲ w,eclipsis of f (digest §3.2) — *bhfreagra* /vʲɾʲaɡɾˠə/
+tsn,tʲ+ɾʲ t̪ˠ+ɾˠ,t-prefix + the Connacht sn->sr shift — *an tsneachta*; single corpus word (see header)
+mb,mˠ mʲ,"eclipsis REPLACES: *mbean* /mʲanˠ/, not /mb/ (digest §3.2)"
+gc,ɡ ɟ,*gceann* /ɟaːn̪ˠ/
+nd,n̪ˠ nʲ,*ndroim* /n̪ˠɾˠiːmʲ/
+bp,bˠ bʲ,*bpeann* /bʲaːn̪ˠ/
+dt,d̪ˠ dʲ,*dteach* /dʲax/
+ng,ŋ ɲ ŋ+ɡ,eclipsed /ŋ ɲ/; the third alt is word-final <ng> — *long* /l̪ˠuːŋɡ/
+ts,t̪ˠ tʲ,"the t-prefix — *an tsúil*, *an tsaoil* (digest §3.3)"
+cn,k+ɾˠ c+ɾʲ,Connacht cn->cr — *cnoc* /kɾˠʊk/ (digest §2.2); single corpus word (see header). *cnaipe* /knˠapʲə/ keeps /kn/ and aligns by the plain c+n path
+mn,mˠ+ɾˠ mʲ+ɾʲ,Connacht mn->mr — *mná* /mˠɾˠaː/; single corpus word (see header)
+eabh,ə+u,digest §5.3 vowel+lenition
+eadh,ə+i ə aː,digest §5.3 vowel+lenition
+adh,ə+i ə aː,digest §5.3 vowel+lenition
+agh,ə+i aː,digest §5.3 vowel+lenition
+abh,ə+u aː,digest §5.3 vowel+lenition
+amh,ə+u aː ũː,digest §5.3 vowel+lenition
+bh,w vˠ vʲ,digest §5.3 lenition digraphs
+mh,w vˠ vʲ,digest §5.3 lenition digraphs
+dh,ɣ j -,the silent alt is needed by *Eoghan* /oːənˠ/
+gh,ɣ j -,digest §5.3 lenition digraphs
+th,h -,digest §5.3 lenition digraphs
+sh,h ç,digest §5.3 lenition digraphs
+ch,x ç,digest §5.3
+ph,fˠ fʲ,digest §5.3
+fh,-,digest §5.3: lenited f is silent
+aoi,iː,digest §5.1
+ao,iː eː,digest §5.1
+eoi,oː,digest §5.1
+eái,aː,digest §5.1
+eá,aː,digest §5.1
+iá,iə,digest §5.1
+ái,aː,digest §5.1
+aí,iː,digest §5.1
+oí,iː,digest §5.1
+uí,iː,digest §5.1
+ia,iə i+ə,digest §5.1
+ua,uə u+ə,digest §5.1
+ae,eː,digest §5.1
+eo,oː ɔ,digest §5.1
+ío,iː,S3: the ACCENTED spellings the corpus actually has (*stríoc*)
+iú,uː,"S3 (*ciúin*, *leisciúil*)"
+ei,ɛ eː,digest §5.1
+ea,a aː ɑ æ,æ: *Ard-Easpag*
+io,ɪ iː ʊ,"ʊ: *Siobhán*, *fionn*"
+iu,ʊ uː,digest §5.1
+oi,ɔ ɪ iː,iː: *droim*
+ui,ɪ ʊ,digest §5.1
+ai,a aː ə ɪ,"R10: draft 1 had NO `ai` row, so every <ai> tagged as `a`"
+nn,n̪ˠ nʲ,"doubled letters — one modern segment, but the right TAG"
+ll,l̪ˠ lʲ,doubled letters
+rr,ɾˠ ɾʲ,doubled letters
+mm,mˠ mʲ,doubled letters
+á,aː,long vowels
+é,eː,long vowels
+í,iː,long vowels
+ó,oː õː,õː: *ardnósach*
+ú,uː,long vowels
+a,a aː ə ɑ -,the `-` alternative is the caol-le-caol glide vowel (13 uses)
+e,ɛ eː ə -,glide alternative as for `a`
+i,ɪ iː ə i -,13 uses of the glide
+o,ɔ oː o ʊ uː ə -,glide alternative as for `a`
+u,ʊ uː ə u -,glide alternative as for `a`
+b,bˠ bʲ,consonants
+c,k c,consonants
+d,d̪ˠ dʲ,consonants
+f,fˠ fʲ,consonants
+g,ɡ ɟ,consonants
+h,h -,consonants
+l,l̪ˠ lʲ l̪ˠ+ə lʲ+ə,the +ə alternatives are digest §2.4 epenthesis — *Colm* /ˈkɔl̪ˠəmˠ/
+m,mˠ mʲ mˠ+ə mʲ+ə,epenthesis as for `l`
+n,n̪ˠ nʲ ŋ ɲ n̪ˠ+ə nʲ+ə -,epenthesis as for `l`; the silent alt is *an tsneachta* only (see header)
+p,pˠ pʲ,consonants
+r,ɾˠ ɾʲ ɾˠ+ə ɾʲ+ə,epenthesis as for `l`
+s,sˠ ʃ,consonants
+t,t̪ˠ tʲ,consonants

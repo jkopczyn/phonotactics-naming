@@ -1,0 +1,92 @@
+# Old Irish grapheme table (Old Irish spec §6, §11; plan Task 7, O-27, O-28, O-29, O-14).
+# Read by `strands.spelled.load_graphemes`. Columns: token env left ipa role punctum note.
+#   token    lower-case letters as written (1-3 chars); `n-` is the written nasal prefix.
+#   env      initial | noninitial | final | any. `initial` = the word's first token;
+#            `final` = its last token (the §40/§41 final digraphs must not swallow a medial
+#            glide ⟨i⟩: *athair* is a+th+a+i+r, not a+th+ai+r).
+#   left     letters, one of which must END the previous token (digest §10.2 conv. 4), or -.
+#   ipa      `+`-joined segments of features.csv, or - for silent.
+#   role     cons | vowel | long | nasal | glide | silent | ending (spelled.ROLES).
+#   punctum  the plain-letter form substituted when `punctum = off` (O-14), or -.
+# The loader sorts by token length, LONGEST FIRST; within a length, file order is the
+# tie-break. Where two rows share a token the more specific one comes first (`initial`
+# before `noninitial`; a non-empty `left` before an empty one): this order is load-bearing
+# for conv. 4. The BROAD/SLEN quality of a consonant is NOT in this table: it is the
+# reconstruction's quality pass (digest §10.2 conv. 5) over the declared `quality-pairs`.
+# Non-initial ⟨mb nd ng⟩ are cluster tokens (conv. 4: *imb* /imʲbʲ/, *long* /Loŋɡ/) so that
+# the nasal is a nasal and not the lenited /ṽ/ of a single non-initial ⟨m⟩.
+# ⟨mb⟩ CONFLICT (O-29): digest §10.2 master table says ⟨mb⟩ = /m/; §10.4's *a m-bo* /a mbo/
+# suggests a cluster. The master table is followed.
+token,env,left,ipa,role,punctum,note
+mb,initial,-,mˠ,nasal,-,digest §10.2 master table: ⟨b⟩ eclipsed = /m/ (O-29)
+nd,initial,-,n̪ˠ,nasal,-,digest §10.2 master table: ⟨d⟩ eclipsed
+ng,initial,-,ŋ,nasal,-,digest §10.2 master table: ⟨g⟩ eclipsed
+n-,initial,-,n̪ˠ,nasal,-,digest §10.4 nasalization of a vowel-initial word
+mb,noninitial,-,mˠ+bˠ,cons,-,"digest §10.2 conv. 4: after ⟨m⟩, ⟨b⟩ = /b/ and the ⟨m⟩ is the nasal — *imb* /imʲbʲ/ (R28)"
+nd,noninitial,-,n̪ˠ+d̪ˠ,cons,-,"digest §10.2 conv. 4: after ⟨n⟩, ⟨d⟩ = /d/ — *bind* (R28)"
+ng,noninitial,-,ŋ+ɡ,cons,-,"digest §10.2 conv. 4: after ⟨n⟩, ⟨g⟩ = /ɡ/ — *long* /Loŋɡ/ (R28); *ingen* /inʲɣʲən/ is the stated exception and is a lexicon row"
+ch,any,-,x,cons,-,digest §10.2 master table: ⟨c⟩ lenited
+th,any,-,θ,cons,-,digest §10.2 master table
+ph,any,-,fˠ,cons,-,digest §10.2 master table
+ṡ,any,-,h,cons,s,digest §10.2 master table: ⟨ṡ sh⟩ = /h/
+sh,any,-,h,cons,-,digest §10.2 master table (the pre-punctum spelling)
+ḟ,any,-,-,silent,f,digest §10.2 master table: ⟨ḟ fh⟩ = ∅
+fh,any,-,-,silent,-,digest §10.2 master table
+cc,any,-,k,cons,-,digest §10.2 conv. 3: geminate = unmutated
+tt,any,-,t̪ˠ,cons,-,digest §10.2 conv. 3
+pp,any,-,pˠ,cons,-,digest §10.2 conv. 3
+bb,any,-,bˠ,cons,-,digest §10.2 conv. 3
+ss,any,-,sˠ,cons,-,"digest §10.2 conv. 3 (*Nessa*, *Fergusso* — R29a)"
+ll,any,-,l̪ˠ+l̪ˠ,cons,-,digest §10.2 conv. 3: fortis (O-2)
+nn,any,-,n̪ˠ+n̪ˠ,cons,-,digest §10.2 conv. 3
+rr,any,-,ɾˠ+ɾˠ,cons,-,digest §10.2 conv. 3
+mm,any,-,mˠ+mˠ,cons,-,digest §10.2 conv. 3
+aí,any,-,a+i,vowel,-,digest §10.1 diphthongs; O-28 values (wiki-old-irish §Vowels)
+áe,any,-,a+i,vowel,-,digest §10.1; O-28
+oí,any,-,o+i,vowel,-,digest §10.1; O-28
+óe,any,-,o+i,vowel,-,digest §10.1; O-28
+uí,any,-,u+i,vowel,-,digest §10.1; O-28
+áu,any,-,a+u,vowel,-,digest §10.1; O-28
+éu,any,-,e+u,vowel,-,digest §10.1; O-28
+éo,any,-,e+u,vowel,-,digest §10.1; O-28
+íu,any,-,i+u,vowel,-,digest §10.1; O-28
+ía,any,-,i+a,vowel,-,digest §10.1; O-28
+úa,any,-,u+a,vowel,-,digest §10.1; O-28
+ae,final,-,e,vowel,-,[pokorny1914-oldirish-grammar §41] final /e/ after a broad consonant is written ⟨-ae⟩ (R29a); digest §10.1 *marbae* /ˈmarve/
+ai,final,-,i,vowel,-,[pokorny1914-oldirish-grammar §41] final /i/ after a broad consonant is written ⟨-ai⟩; digest §10.1 *marbai* /ˈmarvi/
+ea,final,-,a,vowel,-,[pokorny1914-oldirish-grammar §40] final ⟨-ea⟩ after a slender consonant
+eo,final,-,o,vowel,-,[pokorny1914-oldirish-grammar §40] final ⟨-eo⟩
+iu,final,-,u,vowel,-,[pokorny1914-oldirish-grammar §40] final ⟨-iu⟩
+c,initial,-,k,cons,-,digest §10.2 master table
+c,noninitial,-,ɡ,cons,-,digest §10.2 conv. 2: *bec* /bʲeɡ/ vs *becc*
+t,initial,-,t̪ˠ,cons,-,digest §10.2 master table
+t,noninitial,-,d̪ˠ,cons,-,digest §10.2 conv. 2: *brot* /brod/
+p,initial,-,pˠ,cons,-,digest §10.2 master table
+p,noninitial,-,bˠ,cons,-,digest §10.2 conv. 2
+b,initial,-,bˠ,cons,-,digest §10.2 master table
+b,noninitial,-,β,cons,-,"digest §10.2 conv. 2: *dub* /duv/, *marb* /marv/"
+d,initial,-,d̪ˠ,cons,-,digest §10.2 master table
+d,noninitial,r,d̪ˠ,cons,-,"digest §10.2 conv. 4: after ⟨r⟩, ⟨d⟩ = /d/ — *cerd* (R28); ⟨nd⟩ is its own row"
+d,noninitial,-,ð,cons,-,digest §10.2 conv. 2: *mod* /moð/
+g,initial,-,ɡ,cons,-,digest §10.2 master table
+g,noninitial,lr,ɡ,cons,-,"digest §10.2 conv. 4: after ⟨l r⟩, ⟨g⟩ = /ɡ/ — *delg* /dʲelɡ/ (R28); ⟨ng⟩ is its own row"
+g,noninitial,-,ɣ,cons,-,digest §10.2 conv. 2: *mug* /muɣ/
+m,initial,-,mˠ,cons,-,digest §10.2 master table
+m,noninitial,-,β̃,cons,-,digest §10.2 master table: non-initial ⟨m⟩ = /ṽ/
+f,any,-,fˠ,cons,-,digest §10.2 master table
+s,any,-,sˠ,cons,-,digest §10.2 master table
+h,any,-,h,cons,-,digest §10.2 master table (conv. 6: not a reliable sound)
+l,any,-,l̪ˠ,cons,-,digest §10.2 master table
+n,any,-,n̪ˠ,cons,-,digest §10.2 master table
+r,any,-,ɾˠ,cons,-,digest §10.2 master table
+á,any,-,aː,long,-,digest §10.1; [pokorny1914-oldirish-grammar p.20 §56] shortening applies only to unaccented letters
+é,any,-,eː,long,-,digest §10.1
+í,any,-,iː,long,-,digest §10.1
+ó,any,-,oː,long,-,digest §10.1
+ú,any,-,uː,long,-,digest §10.1
+a,any,-,a,vowel,-,digest §10.1: five short vowels
+e,any,-,e,vowel,-,digest §10.1
+i,any,-,i,vowel,-,digest §10.1; reclassified as a glide by the reconstruction (conv. 5 §36)
+o,any,-,o,vowel,-,digest §10.1
+u,any,-,u,vowel,-,digest §10.1
+ə,any,-,-,ending,-,"spec §11: the unresolved ending marker. Written by [respell] (Task 11), replaced by NOM_A/NOM_O (Task 14); never a finished output. Empty reconstruction, so a leak is silent, not a bogus segment"

@@ -34,7 +34,7 @@ def test_unmarked_consonant_takes_the_following_vowels_quality():
 
 
 def test_open_vowels_count_as_broad():
-    """/a aː ə/ are front=- back=- in features.tsv (the ECL prothesis rule's convention):
+    """/a aː ə/ are front=- back=- in features.csv (the ECL prothesis rule's convention):
     the broad environment is `[V -front]`, not `[V +back]`."""
     assert normalize(w("ta"), IRISH, TABLE).segments[0] == "t̪ˠ"
     assert normalize(w("saː"), IRISH, TABLE).segments[0] == "sˠ"
@@ -92,7 +92,7 @@ def test_h_is_never_rewritten_to_c_cedilla():
     has no provenance channel, and the following vowel is not the conditioning factor —
     *shúil* /huːlʲ/ (lenition of broad /sˠ/) has a back vowel and *héan* /heːnˠ/ a front
     one, and both are [h]. Inputs that mean [ç] transcribe it directly (*a Sheáin*
-    /ə çaːnʲ/, *cheann* /çaːn̪ˠ/ in test-words.tsv), so no rule fires here."""
+    /ə çaːnʲ/, *cheann* /çaːn̪ˠ/ in test-words.csv), so no rule fires here."""
     assert normalize(w("hax"), IRISH, TABLE).segments[0] == "h"  # theach
     assert normalize(w("huːlʲ"), IRISH, TABLE).segments[0] == "h"  # shúil
     assert normalize(w("heːnˠ"), IRISH, TABLE).segments[0] == "h"  # héan

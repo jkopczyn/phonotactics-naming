@@ -1,4 +1,4 @@
-"""Task 1b: hand-derived Irish, alias and target-gap rows in rules/features.tsv."""
+"""Task 1b: hand-derived Irish, alias and target-gap rows in rules/features.csv."""
 
 import csv
 import pathlib
@@ -13,8 +13,8 @@ HAND = (
 
 
 def rows():
-    with (ROOT / "rules" / "features.tsv").open(encoding="utf-8") as fh:
-        return list(csv.DictReader(fh, delimiter="\t"))
+    with (ROOT / "rules" / "features.csv").open(encoding="utf-8") as fh:
+        return list(csv.DictReader(fh))
 
 
 def test_all_41_hand_rows_present():
@@ -79,8 +79,8 @@ def test_every_segment_used_by_test_words_has_a_row():
     marks = set("ˈˌ. ")
     mods = set("ˠʲːʰʼˤ")
     used = set()
-    with (ROOT / "sources" / "irish" / "test-words.tsv").open(encoding="utf-8") as fh:
-        for row in csv.DictReader(fh, delimiter="\t"):
+    with (ROOT / "sources" / "irish" / "test-words.csv").open(encoding="utf-8") as fh:
+        for row in csv.DictReader(fh):
             cur = ""
             for ch in unicodedata.normalize("NFC", row["ipa"] or ""):
                 if ch in marks:

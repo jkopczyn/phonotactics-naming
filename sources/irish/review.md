@@ -76,7 +76,7 @@ The broad rule families are represented, but several directly stated mappings/tr
 - **Genitive/vocative:** represented by *mic, caisleáin,* and *a Sheáin*.
 - **Compounding:** prefixal and fixed-compound lenition are represented; the noun+noun rule is represented only by the user-supplied, explicitly unsupported *Lasairchos*.
 
-### `test-words.tsv` provenance spot-check (20 rows)
+### `test-words.csv` provenance spot-check (20 rows)
 
 | Row | Check | Result |
 |---|---|---|

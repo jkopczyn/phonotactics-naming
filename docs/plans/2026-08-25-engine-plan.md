@@ -14,7 +14,7 @@ current statement.
 target-language strands (Southern Welsh, Cairene Arabic, Standard Georgian, Belgian Dutch) via
 per-language rule files, emitting IPA + English-reader respelling + derivation trace.
 
-**Architecture:** A small standard-library Python package. A feature table (`rules/features.tsv`)
+**Architecture:** A small standard-library Python package. A feature table (`rules/features.csv`)
 gives every segment PHOIBLE-style features under the digests' segment spellings; a hand-written DSL
 parser reads one `.rules` file per language into typed section objects; a rewrite engine applies
 ordered rules to an immutable `Word`; a nucleus-aware syllabifier, an unconditional repair loop,
@@ -58,13 +58,13 @@ simplest reading. Implementers follow these, not their own reading.
 - **I-1 Unicode normalization.** All rule files, input TSVs and IPA strings are
   `unicodedata.normalize("NFC", s)` on read. Modifier letters (`ˠ ʲ ʼ ˤ ʰ ː`) and combining marks
   (`◌̪ U+032A`, `◌̠ U+0320`) survive NFC unchanged; NFC only regularizes composed vowels (`õ`).
-- **I-2 Diphthongs are two segments but one nucleus** (spec §12.B). `features.tsv` has **no**
+- **I-2 Diphthongs are two segments but one nucleus** (spec §12.B). `features.csv` has **no**
   diphthong rows — the 11 PHOIBLE diphthong rows (`ai au ɔi əi əu ɛu ɪu ʊi œy ɔu ɛi`) are dropped
   at import (I-35), because keeping them would make longest-match bind Irish `əi` to the Welsh
   diphthong row. Each `[syllable]` section declares `nuclei = iə uə əi əu` (etc.); the syllabifier
   groups a licensed vowel pair into one nucleus. Georgian declares no `nuclei`, which yields the
   attested hiatus. **Gemination is always two identical segments** (`tt`, not `tː`): there are no
-  length-marked consonant rows in `features.tsv`, and every degemination rule, repair-table row and
+  length-marked consonant rows in `features.csv`, and every degemination rule, repair-table row and
   ban is written over repeated segments.
 - **I-3 Comment vs word-edge `#`.** In a rewrite line *with* an environment, `#` inside the
   environment is the word-edge symbol; the environment runs to end-of-line or to the `%tag`.
@@ -72,7 +72,7 @@ simplest reading. Implementers follow these, not their own reading.
   raises `ParseError("comment after environment requires an explicit %tag", line)` otherwise.
 - **I-4 Bundle syntax.** A match bundle is `[` optional class-name, then `±feature` items `]`
   (≥1 element). On the right, `[...]` is always a feature-change bundle, may not carry a class
-  name, and resolves by **exact vector lookup** (spec §12.C): if no `features.tsv` segment has the
+  name, and resolves by **exact vector lookup** (spec §12.C): if no `features.csv` segment has the
   resulting vector, `strands check` reports `UNREACHABLE_CHANGE` and the engine raises at runtime.
   Approximation happens only in the fallback stage (Task 9), never inside a rule.
 - **I-5 Targets and replacements.** `TARGET` is a sequence of items (segment / class name / match
@@ -154,7 +154,7 @@ simplest reading. Implementers follow these, not their own reading.
 - **I-19 `[respell]`** operates over the annotated token stream (spec §12.C). A quoted replacement
   becomes an **opaque output chunk** that later rules do not rematch; segments not matched by any
   rule pass through as themselves; `.` and `ˈ` are stripped in code afterwards.
-- **I-20 `features.tsv` extra columns.** `segment`, `class`, `source` precede the 38 feature
+- **I-20 `features.csv` extra columns.** `segment`, `class`, `source` precede the 38 feature
   columns and take no part in distance. Inventories live in rule files; the table is the union.
 - **I-21 Trace ids.** `rule_id` = `"<section>:<line>"` in its rule file (e.g. `repair:87`).
 - **I-22 Regression "pass"** = exact string equality with the attested IPA after NFC, after the
@@ -205,7 +205,7 @@ simplest reading. Implementers follow these, not their own reading.
   `irish/digest.md` lines 130–141 (`# [wiki-help-ipa-irish notes 5,6]`); `ɑ ɑː` are **not** —
   they occur only in the user's own transcriptions (digest line 27), so their normalize lines are
   cited `# user transcription, digest line 27`, not §1.1 (R23). Both fold in `irish.rules
-  [normalize]`; both need `features.tsv` rows so tokenization succeeds first.
+  [normalize]`; both need `features.csv` rows so tokenization succeeds first.
 - **I-31 "C → C x" in spec §7 means an epenthesis rule** (R2), and its class term is `BROAD` or
   `SLEN`, never a `[C ±back]` bundle (spec §12.J). Georgian's `broad non-labial C → C v /
   _[V +front]` is written `0 -> v / [BROAD -labial] _ [V +front]`; Georgian's `slender C → C i` is
@@ -213,7 +213,7 @@ simplest reading. Implementers follow these, not their own reading.
   restricted to onset position. A bundle may carry a class name plus feature constraints
   (`[BROAD -labial]`), which is how the labial exclusion is written. Tasks 23a and 26 use exactly
   these forms.
-- **I-32 Feature aliases** (spec §12.C). `features.tsv`'s header block declares
+- **I-32 Feature aliases** (spec §12.C). `features.csv`'s header block declares
   `ejective = raisedLarynxEjective`, `voice = periodicGlottalSource`, `emphatic =
   retractedTongueRoot`, `aspirated = spreadGlottis`, `ejective`/`voice` usable in any bundle.
   Spec §7's `[STOP −voice]` also uses U+2212 MINUS SIGN; the parser accepts U+2212 and U+002D
@@ -225,15 +225,15 @@ simplest reading. Implementers follow these, not their own reading.
 - **I-34 Canonical segment spellings are the digests'** (spec §12.F, R6): `sˤ tˤ dˤ zˤ tʼ tʰ tʃ
   tʃʼ dʒ`, plain `t d s z n l`, and `ɡ` (U+0261) for the voiced velar stop. PHOIBLE's
   `◌̪`/`◌̠` diacritics are stripped at import via the map in Task 1a. **ASCII `g` (U+0067) is a
-  separate canonical row** — it occurs in `test-words.tsv` (*glúin* `gl̪ˠuːnʲ`) and in attested
+  separate canonical row** — it occurs in `test-words.csv` (*glúin* `gl̪ˠuːnʲ`) and in attested
   data — carrying the same vector as `ɡ`, and `irish.rules [normalize]` folds `g → ɡ`.
 - **I-35 PHOIBLE diphthong rows are dropped at import** (R8): `ai au ɔi əi əu ɛu ɪu ʊi œy ɔu ɛi`.
   Their members are declared per language in `[syllable] nuclei`.
-- **I-36 Attested-data cleaning pass** (R9). Before tokenizing an `attested.tsv` field the harness
+- **I-36 Attested-data cleaning pass** (R9). Before tokenizing an `attested.csv` field the harness
   applies, in order: strip wrapping `[ ]` and `/ /`; map ASCII `:`→`ː`; map ASCII `'`→`ʼ`
   **only when `target == "georgian"`** (in the Georgian data the apostrophe is the national-2002
   ejective mark; in the Dutch data it is a **stress mark** and must be dropped, not converted);
-  map ASCII `g`→`ɡ` **only in attested data** (not in `test-words.tsv`,
+  map ASCII `g`→`ɡ` **only in attested data** (not in `test-words.csv`,
   where `g` is canonical per I-34 — the two behaviours differ deliberately and each is tested).
   Rows still untokenizable are bucketed `mode="error"` with a count. Draft-1 measurements of the
   damage: Georgian 51/122, Cairene 168/279, Welsh 19/19, Dutch 30/67 untokenizable *before*
@@ -252,7 +252,7 @@ simplest reading. Implementers follow these, not their own reading.
   unmapped). `run_entry()` takes the tag, splits it, and passes the resolved epithet to `adapt()`;
   an unmapped slot means "no affix", not an error. `strands run --construction all` enumerates the
   Irish templates **and** the `DESC+ADJ` / `DESC+NOUN` tags.
-- **I-40 Marks.** `MARKS` includes secondary stress `ˌ` (four `test-words.tsv` rows use it:
+- **I-40 Marks.** `MARKS` includes secondary stress `ˌ` (four `test-words.csv` rows use it:
   *drochbhéasach*, *ardnósach*, *dualgas*, *Ard-Easpag*). Secondary stress is recorded on the
   `Word` and **never** carried into a target — targets assign their own stress. `Word.stress` is an
   index into `syllables`; `Tokenized.stress_index` is a *segment* index, and
@@ -263,7 +263,7 @@ simplest reading. Implementers follow these, not their own reading.
 ## DSL grammar (EBNF)
 
 Task 5a/5b must implement exactly this. All terminals are defined; nothing is left to inference
-(R5). `SEGMENT` is a whitespace-delimited token that is a single row of `features.tsv`; `CLUSTER`
+(R5). `SEGMENT` is a whitespace-delimited token that is a single row of `features.csv`; `CLUSTER`
 is a whitespace-delimited token that tokenizes (longest-match) into one or more segments.
 
 ```ebnf
@@ -407,7 +407,7 @@ phonotactics/
     gallery.py                    # Task 27
   rules/
     build_features.py             # Task 1a
-    features.tsv                  # Task 1a (PHOIBLE half) + Task 1b (hand rows)
+    features.csv                  # Task 1a (PHOIBLE half) + Task 1b (hand rows)
     features.README.md            # Tasks 1a/1b: normalization map, per-row derivation
     irish.rules                   # Tasks 17, 19, 18
     georgian.rules                # Tasks 23a, 23b
@@ -578,11 +578,11 @@ non-stdlib runtime dependency.
 
 **Depends on:** Task 0
 
-**Files:** create `rules/build_features.py`, `rules/features.tsv` (PHOIBLE half),
+**Files:** create `rules/build_features.py`, `rules/features.csv` (PHOIBLE half),
 `rules/features.README.md`, `tests/test_features_phoible.py`.
 
 **Interfaces:**
-- Produces `rules/features.tsv` with header
+- Produces `rules/features.csv` with header
   `segment<TAB>class<TAB>source<TAB>` + the 38 PHOIBLE feature columns in PHOIBLE order:
   `tone stress syllabic short long consonantal sonorant continuant delayedRelease approximant tap
   trill nasal lateral labial round labiodental coronal anterior distributed strident dorsal high
@@ -591,7 +591,7 @@ non-stdlib runtime dependency.
   loweredLarynxImplosive click`.
 - `build_features.py`: `main(csv_path: Path, out_path: Path, *, sort_only: bool = False) -> None`,
   run as `uv run python rules/build_features.py chat-imports/phoible_inventories_starter.csv
-  rules/features.tsv`.
+  rules/features.csv`.
 
 **Verified facts this task must reproduce** (measured against the committed CSV; the numbers are
 assertions, not estimates — R6, S3):
@@ -600,7 +600,7 @@ assertions, not estimates — R6, S3):
   inventory feature conflicts among identically-spelled phonemes.
 - **Normalization map** — strip `◌̪` (U+032A) and `◌̠` (U+0320), which affects exactly 15 spellings:
   `d̠ʒ→dʒ  d̪→d  d̪ˤ→dˤ  l̪→l  n̪→n  s̪→s  s̪ˤ→sˤ  t̪→t  t̪ˤ→tˤ  z̪→z  z̪ˤ→zˤ  t̠ʃ→tʃ  t̠ʃʼ→tʃʼ
-  t̪ʰ→tʰ  t̪ʼ→tʼ`. This makes the table agree with the digests, `attested.tsv`, and every test in
+  t̪ʰ→tʰ  t̪ʼ→tʼ`. This makes the table agree with the digests, `attested.csv`, and every test in
   this plan (I-34).
 - Normalization creates **7 collisions** where both spellings existed and their feature vectors
   differ: `d l n s t z tʰ`. **Policy:** keep the row whose original `Phoneme` was already the
@@ -617,7 +617,7 @@ assertions, not estimates — R6, S3):
 ```python
 import csv, pathlib
 ROOT = pathlib.Path(__file__).parents[1]
-FEATURES = ROOT / "rules" / "features.tsv"
+FEATURES = ROOT / "rules" / "features.csv"
 PHOIBLE_38 = ("tone stress syllabic short long consonantal sonorant continuant delayedRelease "
               "approximant tap trill nasal lateral labial round labiodental coronal anterior "
               "distributed strident dorsal high low front back tense retractedTongueRoot "
@@ -670,7 +670,7 @@ def test_known_target_segments_survive_import():
 
 def test_rebuild_is_byte_stable(tmp_path):
     import subprocess, sys
-    out = tmp_path / "f.tsv"
+    out = tmp_path / "f.csv"
     subprocess.run([sys.executable, str(ROOT / "rules" / "build_features.py"),
                     str(ROOT / "chat-imports" / "phoible_inventories_starter.csv"), str(out)],
                    check=True)
@@ -679,7 +679,7 @@ def test_rebuild_is_byte_stable(tmp_path):
     assert out.read_text(encoding="utf-8").splitlines() == committed
 ```
 
-- [ ] **Step 2: Run, watch it fail** (no `features.tsv`).
+- [ ] **Step 2: Run, watch it fail** (no `features.csv`).
 - [ ] **Step 3: Write `build_features.py` and generate the PHOIBLE half.**
 - [ ] **Step 4: Write `features.README.md`** — the normalization map, the 7 collisions with the
   discarded vectors, the dropped diphthongs, and the row count.
@@ -695,10 +695,10 @@ def test_rebuild_is_byte_stable(tmp_path):
 
 **Depends on:** Task 1a
 
-**Files:** modify `rules/features.tsv`, `rules/features.README.md`; create
+**Files:** modify `rules/features.csv`, `rules/features.README.md`; create
 `tests/test_features_hand.py`.
 
-**The exact hand-row list.** Measured by tokenizing all 144 `sources/irish/test-words.tsv` rows:
+**The exact hand-row list.** Measured by tokenizing all 144 `sources/irish/test-words.csv` rows:
 they use **64 distinct segments**, of which **31 are already in the PHOIBLE half** and **33 are
 not**. Draft 1's list was wrong (R7) — this is the corrected, complete set. Add exactly these
 **40** rows (33 Irish + 7 target gaps), `source = hand:irish` or `hand:target`:
@@ -740,7 +740,7 @@ HAND = ("pˠ bˠ t̪ˠ d̪ˠ fˠ sˠ mˠ n̪ˠ l̪ˠ ɾˠ vˠ pʲ bʲ tʲ dʲ f�
         "c ɟ ç ɲ lˠ l̠ʲ nˠ n̠ʲ o æ õː g ʋ tʃʰ e y œ ɔː ɛː").split()
 
 def rows():
-    with (ROOT / "rules" / "features.tsv").open(encoding="utf-8") as fh:
+    with (ROOT / "rules" / "features.csv").open(encoding="utf-8") as fh:
         return list(csv.DictReader(fh, delimiter="\t"))
 
 def test_all_40_hand_rows_present():
@@ -795,7 +795,7 @@ def test_every_segment_used_by_test_words_has_a_row():
     marks = set("ˈˌ. ")
     mods = set("ˠʲːʰʼˤ")
     used = set()
-    with (ROOT / "sources" / "irish" / "test-words.tsv").open(encoding="utf-8") as fh:
+    with (ROOT / "sources" / "irish" / "test-words.csv").open(encoding="utf-8") as fh:
         for row in csv.DictReader(fh, delimiter="\t"):
             cur = ""
             for ch in unicodedata.normalize("NFC", row["ipa"] or ""):
@@ -812,13 +812,13 @@ def test_every_segment_used_by_test_words_has_a_row():
 
 - [ ] **Step 2: Run, fail** (40 missing rows).
 - [ ] **Step 3: Append the hand rows** by the procedure above; re-sort with
-  `uv run python rules/build_features.py --sort-only rules/features.tsv`.
+  `uv run python rules/build_features.py --sort-only rules/features.csv`.
 - [ ] **Step 4: Extend `features.README.md`** with one line per hand row: segment, base row,
   conventions applied.
 - [ ] **Step 5: Run — all pass, including `test_every_segment_used_by_test_words_has_a_row`.**
 - [ ] **Step 6: Commit** — `feat(rules): hand-derived Irish, alias and target-gap feature rows`
 
-**Acceptance:** 113 rows; every one of the 64 segments used by `test-words.tsv` resolves; the
+**Acceptance:** 113 rows; every one of the 64 segments used by `test-words.csv` resolves; the
 Dutch nuclei `ɛi œy ɔu` tokenize; no consonant row carries `ː`.
 
 ---
@@ -867,7 +867,7 @@ class FeatureError(Exception): ...
 import pathlib, pytest
 from strands.features import load_features, FeatureError, FEATURE_NAMES
 
-TABLE = load_features(pathlib.Path(__file__).parents[1] / "rules" / "features.tsv")
+TABLE = load_features(pathlib.Path(__file__).parents[1] / "rules" / "features.csv")
 
 def test_table_has_38_features_and_113_segments():
     assert len(FEATURE_NAMES) == 38 and len(TABLE.segments) == 113
@@ -958,7 +958,7 @@ def detokenize(segments: Sequence[str]) -> str
 def clean_attested(text: str, target: str) -> str
     """I-36: strip wrapping [ ] and / /, ':'->'ː', ASCII 'g'->'ɡ'. The ASCII apostrophe
     is mapped to 'ʼ' ONLY for target == 'georgian' (national-2002 ejective mark); for
-    every other target it is a stress mark and is dropped. Used ONLY on attested.tsv
+    every other target it is a stress mark and is dropped. Used ONLY on attested.csv
     fields, never on user input."""
 class SegmentError(Exception): ...
 ```
@@ -971,7 +971,7 @@ from strands.features import load_features
 from strands.tokenize import tokenize, detokenize, clean_attested, SegmentError
 
 ROOT = pathlib.Path(__file__).parents[1]
-TABLE = load_features(ROOT / "rules" / "features.tsv")
+TABLE = load_features(ROOT / "rules" / "features.csv")
 
 def test_longest_match_prefers_diacritic_segments():
     assert tokenize("t̪ˠaː", TABLE).segments == ("t̪ˠ", "aː")
@@ -1025,11 +1025,11 @@ def test_apostrophe_is_an_ejective_mark_only_for_georgian():
     assert clean_attested("'kanto", "dutch") == "kanto"
 
 def test_clean_attested_is_not_applied_to_user_input():
-    """I-36/I-34: ASCII g is canonical in test-words.tsv and must survive tokenize()."""
+    """I-36/I-34: ASCII g is canonical in test-words.csv and must survive tokenize()."""
     assert tokenize("gl̪ˠuːnʲ", TABLE).segments[0] == "g"
 
 def test_all_144_test_word_rows_tokenize():
-    with (ROOT / "sources" / "irish" / "test-words.tsv").open(encoding="utf-8") as fh:
+    with (ROOT / "sources" / "irish" / "test-words.csv").open(encoding="utf-8") as fh:
         rows = list(csv.DictReader(fh, delimiter="\t"))
     assert len(rows) == 144
     for r in rows:
@@ -1039,7 +1039,7 @@ def test_all_144_test_word_rows_tokenize():
 - [ ] **Steps 2–4: fail, implement, pass. Step 5: Commit** —
   `feat(strands): longest-match tokenizer with marks and attested-data cleaning`
 
-**Acceptance:** all 144 `test-words.tsv` rows tokenize (this is the R7 enforcement point).
+**Acceptance:** all 144 `test-words.csv` rows tokenize (this is the R7 enforcement point).
 
 ---
 
@@ -1212,7 +1212,7 @@ from strands.word import Word
 
 ROOT = pathlib.Path(__file__).parents[1]
 FIXTURES = pathlib.Path(__file__).parent / "fixtures"
-TABLE = load_features(ROOT / "rules" / "features.tsv")
+TABLE = load_features(ROOT / "rules" / "features.csv")
 
 def w(ipa: str) -> Word:
     return Word.from_tokenized(tokenize(ipa, TABLE))
@@ -1227,7 +1227,7 @@ def rules_exist(name: str) -> bool:
     return (ROOT / "rules" / f"{name}.rules").exists()
 
 def read_test_words() -> list[dict[str, str]]:
-    with (ROOT / "sources" / "irish" / "test-words.tsv").open(encoding="utf-8") as fh:
+    with (ROOT / "sources" / "irish" / "test-words.csv").open(encoding="utf-8") as fh:
         return list(csv.DictReader(fh, delimiter="\t"))
 
 def mutation_rows() -> list[dict[str, str]]:
@@ -1242,7 +1242,7 @@ def entry_of(row: dict[str, str]):
                        dialect=row.get("dialect") or "C", gloss=row.get("gloss") or ""),
                  irish(), TABLE)
 
-FIX = FIXTURES / "input-sample.tsv"      # written in Task 20
+FIX = FIXTURES / "input-sample.csv"      # written in Task 20
 
 def read_allow_file_for(name: str) -> set[str]:
     return {ortho for tgt, ortho in read_allow_file() if tgt == name}
@@ -2643,7 +2643,7 @@ def test_all_five_inflections_exist():
     assert set(IRISH.inflect) == {"GEN_M1", "GEN_ACH", "GEN_F2", "GEN_M3", "VOC_M1"}
 
 def test_the_47_mutation_tagged_rows_apply_without_error():
-    """R22: test-words.tsv tags mutations as `mut:` in the `features` column — 47 rows.
+    """R22: test-words.csv tags mutations as `mut:` in the `features` column — 47 rows.
     (The 85 `len:` rows are a VOWEL LENGTH tag and are not mutation data.)"""
     rows = mutation_rows()
     assert len(rows) == 47
@@ -2804,7 +2804,7 @@ def test_every_test_word_normalizes_without_error():
 **Depends on:** Tasks 4, 17 (`infer()` calls `apply_inflection`, so slenderization has exactly one
 implementation — R27)
 
-**Files:** create `src/strands/inputs.py`, `tests/fixtures/input-sample.tsv`,
+**Files:** create `src/strands/inputs.py`, `tests/fixtures/input-sample.csv`,
 `tests/test_inputs.py`.
 
 **Interfaces:**
@@ -2828,7 +2828,7 @@ class Entry:
     assumptions: tuple[str, ...] = ()
 
 def read_input(path) -> list[Entry]
-    """Header must contain `orthography`; unknown columns (e.g. test-words.tsv's
+    """Header must contain `orthography`; unknown columns (e.g. test-words.csv's
     `features`) are ignored; missing ones default. A row with no `ipa` returns
     ipa='' and assumption 'skipped:no-ipa'."""
 def infer(entry: Entry, irish: RuleFile, table: FeatureTable) -> Entry
@@ -2838,7 +2838,7 @@ def accept_guesses(path, entries: Sequence[Entry]) -> None
 
 Inference, in order (spec §5 + spec §12.H):
 1. `dialect` empty → `C`, tag `dialect:default-C`.
-2. `gender` empty → known-name list (built from `test-words.tsv` glosses stating a gender), then
+2. `gender` empty → known-name list (built from `test-words.csv` glosses stating a gender), then
    endings (`-óg -eog` or a final slender consonant → `f`; `-ach -án -ín` → `m`), else `m`; tag
    `gender:known-name` / `gender:ending` / `gender:default-m`.
 3. **`declension`** (I-38, R24) → `-ach` final → `ach`; masculine + broad final C → `m1`;
@@ -2848,7 +2848,7 @@ Inference, in order (spec §5 + spec §12.H):
    `d4` returns the stem unchanged.
 5. A construction whose slot is absent is **skipped with a note**, never an error.
 
-- [ ] **Step 1: Write the fixture** — `tests/fixtures/input-sample.tsv`, 7 rows with the spec §5
+- [ ] **Step 1: Write the fixture** — `tests/fixtures/input-sample.csv`, 7 rows with the spec §5
   header, covering: a complete row; `NoIpa` (no `ipa`); no `gender`; no `gen_ipa`; a vowel-final
   name; an `-ach` epithet; an `-óir` agent noun.
 
@@ -2863,8 +2863,8 @@ def test_row_without_ipa_is_flagged_not_dropped():
     assert e.ipa == "" and "skipped:no-ipa" in e.assumptions
 
 def test_unknown_columns_are_ignored():
-    """test-words.tsv has `features`, not the spec §5 header."""
-    entries = read_input(ROOT / "sources" / "irish" / "test-words.tsv")
+    """test-words.csv has `features`, not the spec §5 header."""
+    entries = read_input(ROOT / "sources" / "irish" / "test-words.csv")
     assert len(entries) == 144
 
 def test_missing_dialect_defaults_to_C():
@@ -2901,7 +2901,7 @@ def test_lint_report_lists_one_line_per_guess():
     assert any("declension" in l for l in lines) and all(l.strip() for l in lines)
 
 def test_accept_writes_the_guesses_back(tmp_path):
-    dst = tmp_path / "in.tsv"; shutil.copy(FIX, dst)
+    dst = tmp_path / "in.csv"; shutil.copy(FIX, dst)
     accept_guesses(dst, [infer(x, IRISH, TABLE) for x in read_input(dst)])
     rows = list(csv.DictReader(dst.open(encoding="utf-8"), delimiter="\t"))
     assert all(r["gender"] for r in rows)
@@ -3497,7 +3497,7 @@ def test_stem_domain_is_used():
 # I-27 repair table — Georgian's only attested repair is degemination (review-opus §F).
 # Geminates are repeated segments, never `ː` (I-2).
 GEORGIAN_REPAIRS = [
-    ("tʼvitʼtʼɛri", "tʼvitʼɛri", "digest §3.6 line 989 (Twitter, attested.tsv row 4)"),
+    ("tʼvitʼtʼɛri", "tʼvitʼɛri", "digest §3.6 line 989 (Twitter, attested.csv row 4)"),
     ("pʼazzli",     "pʼazli",    "digest line 948/989/1006 (puzzle, row 16)"),
     ("ʃɔpʼpʼinɡi",  "ʃɔpʼinɡi",  "digest line 879/989 (shopping, row 18)"),
     ("alɛɡɡoria",   "alɛɡoria",  "digest line 992 (native)"),
@@ -3895,11 +3895,11 @@ targets)
 **Interfaces (spec §6):**
 
 ```
-strands run   INPUT.tsv [--strand welsh|arabic-egy|georgian|dutch|all]
-                        [--construction NAME|all] [--out out.tsv]
+strands run   INPUT.csv [--strand welsh|arabic-egy|georgian|dutch|all]
+                        [--construction NAME|all] [--out out.csv]
 strands explain WORD --strand X [--construction NAME]
-strands gallery INPUT.tsv [--out gallery.md]
-strands lint  INPUT.tsv [--accept]
+strands gallery INPUT.csv [--out gallery.md]
+strands lint  INPUT.csv [--accept]
 strands check RULES.rules
 ```
 
@@ -3925,7 +3925,7 @@ REFERENCE_NAMES = ("Tchaeul", "Th'tysh", "Kas'queil", "Xelxyx", "Ysclyth")
 
 ```python
 def test_run_writes_one_row_per_word_construction_strand(tmp_path):
-    out = tmp_path / "o.tsv"
+    out = tmp_path / "o.csv"
     assert main(["run", str(FIX), "--strand", "all", "--construction", "DESC",
                  "--out", str(out)]) == 0
     rows = list(csv.DictReader(out.open(encoding="utf-8"), delimiter="\t"))
@@ -3934,13 +3934,13 @@ def test_run_writes_one_row_per_word_construction_strand(tmp_path):
                             "flags", "fallbacks", "assumptions"}
 
 def test_construction_all_includes_the_epithet_tags(tmp_path):
-    out = tmp_path / "o.tsv"
+    out = tmp_path / "o.csv"
     main(["run", str(FIX), "--strand", "arabic-egy", "--construction", "all", "--out", str(out)])
     rows = list(csv.DictReader(out.open(encoding="utf-8"), delimiter="\t"))
     assert "DESC+ADJ" in {r["construction"] for r in rows}       # I-39 reachability
 
 def test_run_is_deterministic(tmp_path):
-    a, b = tmp_path / "a.tsv", tmp_path / "b.tsv"
+    a, b = tmp_path / "a.csv", tmp_path / "b.csv"
     main(["run", str(FIX), "--out", str(a)]); main(["run", str(FIX), "--out", str(b)])
     assert a.read_bytes() == b.read_bytes()
 
@@ -3981,13 +3981,13 @@ def test_lint_lists_inferred_fields(capsys):
     assert "declension" in capsys.readouterr().out
 
 def test_lint_accept_rewrites_the_file(tmp_path):
-    dst = tmp_path / "in.tsv"; shutil.copy(FIX, dst)
+    dst = tmp_path / "in.csv"; shutil.copy(FIX, dst)
     before = dst.read_text(encoding="utf-8")
     assert main(["lint", str(dst), "--accept"]) == 0
     assert dst.read_text(encoding="utf-8") != before
 
 def test_missing_slot_and_missing_ipa_are_skipped_with_a_note(tmp_path):
-    out = tmp_path / "o.tsv"
+    out = tmp_path / "o.csv"
     assert main(["run", str(FIX), "--construction", "PATRO_O", "--out", str(out)]) == 0
     rows = list(csv.DictReader(out.open(encoding="utf-8"), delimiter="\t"))
     assert any("skipped" in r["assumptions"] for r in rows)
@@ -4011,7 +4011,7 @@ def test_missing_slot_and_missing_ipa_are_skipped_with_a_note(tmp_path):
 # test_gallery_snapshot.py
 def test_gallery_matches_the_committed_snapshot(tmp_path):
     out = tmp_path / "g.md"
-    main(["gallery", str(ROOT / "sources" / "irish" / "test-words.tsv"), "--out", str(out)])
+    main(["gallery", str(ROOT / "sources" / "irish" / "test-words.csv"), "--out", str(out)])
     expected = (ROOT / "tests" / "snapshots" / "gallery.md").read_text(encoding="utf-8")
     assert out.read_text(encoding="utf-8") == expected, \
         "gallery changed — regenerate and review the diff in the commit"
@@ -4055,14 +4055,14 @@ def test_traces_are_never_empty():
 
 - [ ] **Step 2: Run — the snapshot test fails (no snapshot).**
 - [ ] **Step 3: Generate the snapshot**
-  `uv run strands gallery sources/irish/test-words.tsv --out tests/snapshots/gallery.md`
+  `uv run strands gallery sources/irish/test-words.csv --out tests/snapshots/gallery.md`
   and **read the diff** — this is the review artefact for the whole project. Anything wrong is a
   rule-file bug, fixed in Tasks 23–26, never by editing the snapshot.
 - [ ] **Step 4: Run the full suite — green.**
 - [ ] **Step 5: Commit** — `test(strands): gallery snapshot and cross-target property checks`
 
 **Acceptance:** milestone 7 complete; `uv run pytest` green from a clean checkout;
-`uv run strands run sources/irish/test-words.tsv --strand all --construction all` succeeds.
+`uv run strands run sources/irish/test-words.csv --strand all --construction all` succeeds.
 
 ---
 
@@ -4165,7 +4165,7 @@ deletion.
    class — a feature bundle cannot produce `t → t̪ˠ` (dental features) and there is no `kˠ` row at
    all. Task 19 gains a coverage test and an acceptance criterion that `irish.rules` passes
    `strands check` with zero error-severity findings.
-9. **`features.tsv` gains `e y œ ɔː ɛː`** (40 hand rows, **113** total): without `y` and `œ` the
+9. **`features.csv` gains `e y œ ɔː ɛː`** (40 hand rows, **113** total): without `y` and `œ` the
    declared Dutch nucleus `œy` cannot tokenize. A test asserts no consonant row carries `ː` —
    gemination is repeated segments everywhere.
 10. **I-36 cleaning is target-aware**: ASCII `'` → `ʼ` only for Georgian; in the Dutch data it is a
