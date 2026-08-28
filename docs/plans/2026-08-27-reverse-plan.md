@@ -438,11 +438,15 @@ with the V-number so the owner can overrule it.
   substitute one): `0` identity, `1` rule with `tag != "design"`, `2` rule with `tag == "design"`,
   `3` fallback, `4` epenthesis. An optional group offers "absent" at rank `0` and "present" at the
   group's own rank.
-- **V-23 The palette (R5).** In Irish IPA, matching the spec's letters:
-  `PALETTE = ("a", "ɛ", "ɪ", "ɔ", "ʊ", "ɾˠ", "l̪ˠ", "n̪ˠ", "mˠ", "sˠ", "d̪ˠ", "t̪ˠ", "k", "ɡ", "bˠ")`
-  — the five short vowels first, then `r l n m s d t c g b` in the spec's order, each in its broad
-  form. A `ONE` slot draws from its own inverted class when it has one, else from `PALETTE`. A `*`
-  slot yields 0, then 1, then 2 palette segments (`1 + 15 + 225 = 241` fillings, in that order).
+- **V-23 The palette (R5).** *Revised by fix-round ruling A4 (2026-08-27): the five long vowels
+  join the palette.* In Irish IPA, matching the spec's letters:
+  `PALETTE = ("a", "ɛ", "ɪ", "ɔ", "ʊ", "aː", "eː", "iː", "oː", "uː", "ɾˠ", "l̪ˠ", "n̪ˠ", "mˠ",
+  "sˠ", "d̪ˠ", "t̪ˠ", "k", "ɡ", "bˠ")` — the five short vowels first, then their five long
+  counterparts, then `r l n m s d t c g b` in the spec's order, each in its broad form. A `ONE`
+  slot draws from its own inverted class when it has one, else from `PALETTE`. A `*` slot yields
+  0, then 1, then 2 palette segments (`1 + 20 + 400 = 421` fillings, in that order). The long
+  vowels are what the session case needs: *ardmhaor* is /aːɾˠd̪ˠvˠiːɾˠ/, so under `ar*v*` the
+  trailing `*` has to supply /iː ɾˠ/, which a short-vowel-only palette can never reach.
 - **V-24 Enumeration order (spec §3.5 "breadth-first, cheapest first").** Per-slot option lists are
   built rank-ordered; an optional **group** contributes a single option list (`absent`, then each
   present combination) shared by the whole span. The candidate order is by **sum of chosen option
@@ -459,7 +463,12 @@ with the V-number so the owner can overrule it.
   `result = pipeline.run_entry(entry, "DESC", irish, target, table)`. `MissingSlot`,
   `SegmentError`, `RuleError` and `ConstructionNotInStrand` on a candidate are **caught and
   counted**, never propagated: a synthetic candidate is allowed to be unpronounceable.
-- **V-34 (F8) `verify` iterates every spelling, and the cap counts unique forward runs.** Draft 1
+- **V-34 (F8) `verify` iterates every spelling, and the cap counts unique forward runs.**
+  *Superseded by fix-round rulings A1-A3 (2026-08-27): `verify` runs `_forward` ONCE per
+  candidate, on one cheap silent-free spelling (`spell(..., limit=1, silent=False, budget=128)`);
+  `tried` counts candidates run forward, `cap` bounds that, a candidate with no silent-free
+  spelling is skipped without counting, and `expand` is consumed at most `4 * cap` times.
+  `Example.spelling_index` survives as 0.* Draft 1
   used `spell(candidate)[0]` only, which throws away most of what §3.4 produces: the spelling that
   actually matches the pattern is frequently not the first (Georgian `Ar*v*` wants `ardmhaor`, and
   ⟨bh⟩ precedes ⟨mh⟩ in the `g2p` table, so `ardbhaor` is proposed first). Revised:

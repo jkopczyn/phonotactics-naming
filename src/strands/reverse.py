@@ -27,9 +27,10 @@ expands over its own inventory (V-29). `un_substitute` walks a parsed pattern ba
 `widen` (§3.3) adds the `[repair]`/`[post-stress]` readings and the optional groups; the
 constraint set, `render_pattern` and `report` print §4; and `expand`/`verify` (§3.5) turn a
 pattern into concrete Irish candidates, cheapest first under a hard cap of 2000, spell each one
-with `g2p_inverse.spell` and run EVERY spelling forward through the real engine, keeping only
-what `fnmatchcase` says really matches (V-22 … V-26, V-34). Nothing is printed as a concrete
-word that has not been through `run_entry`. `old_irish_matches` is the one strand that
+with `g2p_inverse.spell` and run it ONCE forward through the real engine, keeping only what
+`fnmatchcase` says really matches (V-22 … V-26, V-34, and fix-round A1-A3: one silent-free
+spelling per candidate, and the candidate stream itself bounded). Nothing is printed as a
+concrete word that has not been through `run_entry`. `old_irish_matches` is the one strand that
 skips all of this: Old Irish is a lexicon fnmatch and nothing else (R6).
 """
 from __future__ import annotations
@@ -1249,7 +1250,7 @@ def report(word: str, strand: str, pattern: Pattern, examples: Sequence[Example]
     if not verified:
         out.append("verified examples: skipped (--examples 0)")
         return out
-    header = (f"verified examples ({len(examples)} of {tried} tried; "
+    header = (f"verified examples ({len(examples)} of {tried} candidates tried; "
               "0 fallbacks unless shown)")
     if cap_hit:
         header += "; candidate cap 2000 hit"
@@ -1262,8 +1263,14 @@ def report(word: str, strand: str, pattern: Pattern, examples: Sequence[Example]
 
 CAP = 2000                            # R4: candidates per word; no --cap flag in v1
 
-#: R5's palette in Irish IPA: the five short vowels, then `r l n m s d t c g b` broad (V-23).
-PALETTE = ("a", "ɛ", "ɪ", "ɔ", "ʊ", "ɾˠ", "l̪ˠ", "n̪ˠ", "mˠ", "sˠ",
+#: R5's palette in Irish IPA (V-23, revised by fix-round A4): the five short vowels, then their
+#: five LONG counterparts, then `r l n m s d t c g b` broad — 20 segments, so a `*` has
+#: 1 + 20 + 400 fillings. The long vowels are what *ardmhaor* /aːɾˠd̪ˠvˠiːɾˠ/ needs: with short
+#: vowels only, no filling of a `*` ever reaches /iː/ and the session case is unreachable by
+#: construction.
+PALETTE = ("a", "ɛ", "ɪ", "ɔ", "ʊ",
+           "aː", "eː", "iː", "oː", "uː",
+           "ɾˠ", "l̪ˠ", "n̪ˠ", "mˠ", "sˠ",
            "d̪ˠ", "t̪ˠ", "k", "ɡ", "bˠ")
 STAR_LENGTHS = (0, 1, 2)              # R5: a `*` is filled with 0, 1 then 2 palette segments
 
@@ -1319,8 +1326,8 @@ def _palette_options() -> list[_Option]:
 
 
 def _star_options() -> list[_Option]:
-    """0, then 1, then 2 palette segments — 1 + 15 + 225 = 241 fillings, in that order
-    (V-23)."""
+    """0, then 1, then 2 palette segments — 1 + 20 + 400 = 421 fillings, in that order
+    (V-23, A4)."""
     options = [_Option(segments=(), rank=0)]
     for length in STAR_LENGTHS[1:]:
         for combination in itertools.product(PALETTE, repeat=length):
@@ -1452,18 +1459,35 @@ def _forward(spelling: str, irish: RuleFile, target: RuleFile, table: FeatureTab
         return None
 
 
+#: A2: the spelling `verify` asks of each candidate — ONE, silent-free, on a small budget.
+_VERIFY_SPELL = {"limit": 1, "silent": False, "budget": 128}
+#: A3: `expand` is consumed at most this many times the forward-run cap. A candidate that has
+#: no silent-free spelling costs no forward run, so the forward cap alone cannot stop a word
+#: whose stream is mostly unspellable; this bound can.
+EXAMINE_FACTOR = 4
+
+
 def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTable,
            *, limit: int = 8, cap: int = CAP, ipa_mode: bool = False,
            raw_pattern: str | None = None) -> tuple[tuple[Example, ...], int, bool]:
     """Run candidates forward and keep the ones that really match (spec §3.5, V-26, V-34).
 
-    Every spelling `g2p_inverse.spell` returns is tried, not just the first: the spelling that
-    matches is frequently not the first one (Georgian `Ar*v*` wants *ardmhaor*, and ⟨bh⟩
-    precedes ⟨mh⟩ in the `g2p` table). A `(segments, spelling)` pair already tried is skipped
-    before any forward work — the same spelling reaches the same `Result` — so `tried` counts
-    UNIQUE forward runs, and `cap` bounds THAT counter only. The candidate stream keeps its own
-    `CAP` (V-24): a candidate whose `spell()` is empty costs no forward run, so it must not
-    consume the forward-run budget and hide a later candidate that matches.
+    **One forward run per candidate** (fix-round A1, revising V-26/V-34). Task 7 ran every
+    spelling `g2p_inverse.spell` returned, because the spelling that matches is frequently not
+    the first one. That is no longer true of anything the forward engine can see: for `DESC` the
+    forward result depends only on the Irish IPA the spelling reads back to — no foreign
+    strand's rules reference the orthography, and `inputs.infer`'s ending heuristics only set
+    declension and gender, which `DESC` never uses — and `spell()` guarantees every spelling it
+    returns reads back to exactly the candidate's segments. So all of a candidate's spellings
+    reach the same `Result`, and one of them is enough. That one is asked for cheaply
+    (`_VERIFY_SPELL`): silent-free, so the eight ⟨árubh árrubh árubhfh …⟩ spellings of one word
+    collapse to one, and on a small proposal budget. `Example.spelling_index` survives as 0 so
+    the report's format does not move.
+
+    `tried` counts candidates RUN FORWARD and `cap` bounds that counter; a candidate with no
+    silent-free spelling is skipped and does not count. Because such a candidate is free, the
+    stream is bounded separately: `expand` is consumed at most `EXAMINE_FACTOR * cap` times
+    (A3), and `cap_hit` is true when either bound is reached.
 
     Returns `(examples, tried, cap_hit)`; examples are sorted by
     `(fallbacks, len(flags), rank, spelling_index)`, de-duplicated by orthography and truncated
@@ -1471,38 +1495,34 @@ def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTa
     """
     wanted = pattern.text if raw_pattern is None else raw_pattern
     found: list[Example] = []
-    seen: set[tuple[tuple[str, ...], str]] = set()
     tried = 0
     produced = 0
     cap_hit = False
+    examine = EXAMINE_FACTOR * cap
 
-    for candidate in expand(pattern, cap=CAP):
+    for candidate in itertools.islice(expand(pattern, cap=CAP), examine):
         produced += 1
         if tried >= cap:
             cap_hit = True
             break
-        for index, spelling in enumerate(g2p_inverse.spell(candidate.segments)):
-            key = (candidate.segments, spelling)
-            if key in seen:
-                continue
-            seen.add(key)
-            if tried >= cap:
-                cap_hit = True
-                break
-            tried += 1
-            result = _forward(spelling, irish, target, table)
-            if result is None:
-                continue
-            text = _unmark(result.ipa) if ipa_mode else result.respelling
-            if not _matches(text, wanted):
-                continue
-            found.append(Example(orthography=spelling, respelling=result.respelling,
-                                 # Stress is ignored everywhere in reverse (V-18), and spec §4's
-                                 # own example block prints unmarked IPA.
-                                 ipa=_unmark(result.ipa), flags=result.flags,
-                                 fallbacks=result.fallbacks, rank=candidate.rank,
-                                 spelling_index=index))
-    if produced >= CAP:
+        spellings = g2p_inverse.spell(candidate.segments, **_VERIFY_SPELL)
+        if not spellings:
+            continue                   # costs no forward run, so it does not count as tried
+        spelling = spellings[0]
+        tried += 1
+        result = _forward(spelling, irish, target, table)
+        if result is None:
+            continue
+        text = _unmark(result.ipa) if ipa_mode else result.respelling
+        if not _matches(text, wanted):
+            continue
+        found.append(Example(orthography=spelling, respelling=result.respelling,
+                             # Stress is ignored everywhere in reverse (V-18), and spec §4's
+                             # own example block prints unmarked IPA.
+                             ipa=_unmark(result.ipa), flags=result.flags,
+                             fallbacks=result.fallbacks, rank=candidate.rank,
+                             spelling_index=0))
+    if produced >= min(CAP, examine):
         cap_hit = True
 
     ordered = sorted(found, key=lambda e: (e.fallbacks, len(e.flags), e.rank, e.spelling_index))

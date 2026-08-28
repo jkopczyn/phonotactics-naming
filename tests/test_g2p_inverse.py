@@ -255,3 +255,47 @@ def test_an_unregistered_vowel_run_is_described_per_sub_run():
 def test_a_vowel_with_no_reading_of_its_own_falls_back_to_slashes():
     assert ("e",) not in VOWEL_READINGS
     assert describe(("ɪ", "e")) == describe(("ɪ",)) + " + /e/"
+
+
+# ---- fix round Task A: cheap, silent-free spelling (A2) ---------------------------------------
+
+def test_silent_free_spelling_uses_no_silent_letter():
+    """A2: `silent=False` drops the silent readings — no ⟨fh⟩, no silent ⟨dh gh th⟩ — and the
+    `_VOWEL_PLUS_H` runs (⟨adh eadh agh …⟩) with them."""
+    out = spell(segs(g2p("ard")[0]), limit=40, silent=False)
+    assert out
+    for cand in out:
+        low = cand.casefold()
+        assert "fh" not in low
+        assert not any(run in low for run in ("adh", "agh", "eadh", "eagh", "idh", "igh"))
+
+
+def test_silent_free_spelling_still_recovers_ordinary_words():
+    for orth in ("mac", "bán", "dorn", "gorm"):
+        assert orth.casefold() in [c.casefold() for c in spell(segs(g2p(orth)[0]),
+                                                               silent=False)]
+
+
+def test_a_word_that_needs_a_silent_letter_has_no_silent_free_spelling():
+    """⟨fh⟩-initial *fhear* reads as /aɾˠ/-with-nothing; the silent-free pass simply skips such
+    a candidate (`verify` then does not count it as tried)."""
+    default = spell(segs(g2p("ardmhaor")[0]), limit=200)
+    assert "ardmhaor" in default
+    assert all("fh" not in c.casefold() for c in spell(segs(g2p("ardmhaor")[0]), limit=200,
+                                                       silent=False))
+
+
+def test_the_budget_is_a_keyword_and_bounds_the_search():
+    """A2: `verify` passes `budget=128`; a tiny budget returns fewer, never more."""
+    want = segs(g2p("ardmhaor")[0])
+    assert spell(want, limit=1, budget=16) == []      # too few proposals to reach a real one
+    assert spell(want, limit=1, budget=1024) != []
+
+
+def test_the_defaults_are_unchanged():
+    """The Task 2 ratchet keeps the defaults: silent readings on, the full proposal budget."""
+    import inspect
+    from strands.g2p_inverse import _PROPOSAL_BUDGET
+    sig = inspect.signature(spell)
+    assert sig.parameters["silent"].default is True
+    assert sig.parameters["budget"].default == _PROPOSAL_BUDGET

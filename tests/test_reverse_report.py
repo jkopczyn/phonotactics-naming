@@ -286,7 +286,7 @@ possibly dropped
 Irish spelling pattern
   (rr|n|r)
 
-verified examples (2 of 40 tried; 0 fallbacks unless shown)
+verified examples (2 of 40 candidates tried; 0 fallbacks unless shown)
   ardmhaor   ardvar   ɑrdvɑr
   arv        arv      ɑrv  UNATTESTED_CLUSTER:rv  fallbacks:1
 """

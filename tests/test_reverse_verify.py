@@ -25,11 +25,6 @@ def analysed(rf, text):
     return un_substitute(p, smap, deletions=deletions, notes=notes)
 
 
-def test_the_palette_is_the_spec_list_in_irish_ipa():
-    assert len(PALETTE) == 15 and PALETTE[:5] == ("a", "ɛ", "ɪ", "ɔ", "ʊ")
-    assert all(p in IRISH.inventory for p in PALETTE)
-
-
 def test_a_star_is_filled_with_zero_one_then_two_palette_segments():
     lengths = [len(c.segments) for c in itertools.islice(expand(analysed(GEO, "*")), 20)]
     assert lengths[0] == 0 and sorted(lengths) == lengths
@@ -75,22 +70,16 @@ def test_every_kept_example_really_matches_the_pattern_through_the_real_engine()
         assert fnmatch.fnmatchcase(unicodedata.normalize("NFC", e.respelling).casefold(), "ar*")
 
 
-def test_a_match_that_is_not_the_first_spelling_is_still_found():
-    """F8: draft 1 used `spell(...)[0]` only, which throws away most of what §3.4 produces —
-    the spelling that matches the pattern is frequently not the first one.
-
-    MEASURED deviation from the plan, which asserts `ardmhaor` here. That word's IPA is
-    /aːɾˠd̪ˠvˠiːɾˠ/, so under `ar*v*` the trailing `*` would have to supply /iː ɾˠ/ — and R5's
-    palette (V-23) is five SHORT vowels plus ten consonants, with no /iː/ in it. The candidate
-    is therefore unreachable by construction, not by the `spell(...)[0]` bug this test is
-    about; `spell(("aː","ɾˠ","d̪ˠ","vˠ","iː","ɾˠ"))` does return it, and Task 9's round trip is
-    where a real word re-enters. What F8 is actually about is pinned instead: a spelling at
-    index > 0 wins a place among the examples, which `spell(...)[0]` could never produce.
-    """
-    examples, _t, _c = verify(analysed(GEO, "ar*v*"), GEO, IRISH, TABLE, limit=40, cap=2000)
+def test_the_one_spelling_a_candidate_is_worth_still_finds_matches():
+    """A1 (was F8's `spell(...)[0]` test). Task 7 ran EVERY spelling of a candidate forward,
+    because the matching one is often not the first. A1 rules that out: `DESC` depends only on
+    the IPA a spelling reads back to, and `spell()` guarantees every returned spelling reads
+    back to the candidate's own segments, so all of a candidate's spellings reach the same
+    `Result`. One cheap silent-free spelling per candidate is therefore enough — and the
+    examples must still be found."""
+    examples, _t, _c = verify(analysed(GEO, "ar*v*"), GEO, IRISH, TABLE, limit=40, cap=400)
     assert examples
-    assert any(e.spelling_index > 0 for e in examples), [
-        (e.orthography, e.spelling_index) for e in examples]
+    assert all(e.spelling_index == 0 for e in examples)
 
 
 def test_no_orthography_is_printed_twice():
@@ -140,7 +129,7 @@ def test_an_unspellable_candidate_does_not_consume_the_forward_run_budget():
     first_three = [c.segments for c in itertools.islice(expand(p), 3)]
     assert len(first_three) == 3
 
-    def fake_spell(segments):
+    def fake_spell(segments, **kwargs):
         return ("arbitrary",) if segments == first_three[2] else ()
 
     def fake_forward(spelling, *args, **kwargs):
@@ -185,3 +174,107 @@ def test_a_present_group_option_carries_the_groups_own_rank():
     options = _group_options(p.slots, group)
     assert options[0].rank == 0 and options[0].segments == ()
     assert all(option.rank == 4 for option in options[1:])
+
+
+# ---- fix round Task A: verification cost, example diversity, palette (A1-A5) -----------------
+
+def test_the_palette_carries_the_long_vowels_too():
+    """A4 (R5 revised): five short vowels, their five long counterparts, then the ten
+    consonants — 20 entries, so a `*` has 1 + 20 + 400 fillings."""
+    assert len(PALETTE) == 20
+    assert PALETTE[:5] == ("a", "ɛ", "ɪ", "ɔ", "ʊ")
+    assert PALETTE[5:10] == ("aː", "eː", "iː", "oː", "uː")
+    assert all(p in IRISH.inventory for p in PALETTE)
+    assert len(set(PALETTE)) == 20
+
+
+def test_a_star_offers_one_then_twenty_then_four_hundred_fillings():
+    from strands.reverse import _star_options
+    options = _star_options()
+    assert len(options) == 1 + 20 + 400
+    assert options[0].segments == ()
+
+
+def test_verify_runs_one_forward_run_per_candidate():
+    """A1: `spell()` guarantees the spelling reads back to the candidate's segments and `DESC`
+    depends on nothing else, so a candidate is worth exactly one forward run."""
+    import types
+
+    from strands import reverse
+
+    p = analysed(GEO, "ar*")
+    runs: list[str] = []
+
+    def fake_spell(segments, **kwargs):
+        return ["aaa", "bbb", "ccc"]
+
+    def fake_forward(spelling, *args, **kwargs):
+        runs.append(spelling)
+        return types.SimpleNamespace(respelling="ar", ipa="ˈar", flags=(), fallbacks=0)
+
+    monkey = pytest.MonkeyPatch()
+    try:
+        monkey.setattr(reverse.g2p_inverse, "spell", fake_spell)
+        monkey.setattr(reverse, "_forward", fake_forward)
+        _examples, tried, _cap_hit = verify(p, GEO, IRISH, TABLE, limit=8, cap=5,
+                                            raw_pattern="ar*")
+    finally:
+        monkey.undo()
+    assert runs == ["aaa"] * 5                # the first spelling only, once per candidate
+    assert tried == 5
+
+
+def test_verify_asks_for_one_cheap_silent_free_spelling():
+    """A2: `spell(segments, limit=1, silent=False, budget=128)`."""
+    from strands import reverse
+
+    calls: list[tuple] = []
+
+    def fake_spell(segments, **kwargs):
+        calls.append((tuple(segments), kwargs))
+        return []
+
+    monkey = pytest.MonkeyPatch()
+    try:
+        monkey.setattr(reverse.g2p_inverse, "spell", fake_spell)
+        verify(analysed(GEO, "ar"), GEO, IRISH, TABLE, limit=2, cap=5)
+    finally:
+        monkey.undo()
+    assert calls
+    assert all(kw == {"limit": 1, "silent": False, "budget": 128} for _s, kw in calls)
+
+
+def test_every_example_spelling_index_is_zero():
+    """A1: one spelling per candidate, so the field stays for the golden format only."""
+    examples, _t, _c = verify(analysed(GEO, "ar*"), GEO, IRISH, TABLE, limit=8, cap=200)
+    assert examples and all(e.spelling_index == 0 for e in examples)
+
+
+def test_no_example_spelling_uses_a_silent_letter():
+    """A2 acceptance: no ⟨fh⟩ and no silent ⟨dh gh th⟩ among the examples."""
+    examples, _t, _c = verify(analysed(GEO, "ar*v*"), GEO, IRISH, TABLE, limit=8, cap=400)
+    for e in examples:
+        assert "fh" not in e.orthography.casefold()
+
+
+def test_the_examined_candidate_stream_is_bounded_by_four_times_the_cap():
+    """A3: an unspellable candidate costs no forward run, so the forward cap alone cannot stop
+    a word looping; `expand` is consumed at most `4 * cap` times."""
+    from strands import reverse
+
+    seen: list[tuple[str, ...]] = []
+
+    def fake_spell(segments, **kwargs):
+        seen.append(tuple(segments))
+        return []                              # nothing is ever spellable
+
+    monkey = pytest.MonkeyPatch()
+    try:
+        monkey.setattr(reverse.g2p_inverse, "spell", fake_spell)
+        examples, tried, cap_hit = verify(analysed(GEO, "a*a*"), GEO, IRISH, TABLE,
+                                          limit=8, cap=10)
+    finally:
+        monkey.undo()
+    assert examples == () and tried == 0
+    assert len(seen) <= 4 * 10
+    assert cap_hit is True

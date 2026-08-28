@@ -29,8 +29,8 @@ from typing import Sequence
 from . import g2p
 
 __all__ = ["Reading", "READINGS", "CONSONANT_READINGS", "VOWEL_READINGS",
-           "QUALITY_LEFT", "QUALITY_RIGHT", "BROAD_ON_THE_RIGHT", "readings_for", "describe",
-           "spell", "SPELL_LIMIT"]
+           "QUALITY_LEFT", "QUALITY_RIGHT", "BROAD_ON_THE_RIGHT", "VOWEL_PLUS_H_RUNS",
+           "readings_for", "describe", "spell", "SPELL_LIMIT"]
 
 Quality = str          # "broad" | "slender" | "either"
 Position = str         # "any" | "initial" | "noninitial"
@@ -183,6 +183,12 @@ def _vowel_index() -> dict[tuple[str, ...], tuple[str, ...]]:
 
 
 VOWEL_READINGS: dict[tuple[str, ...], tuple[str, ...]] = _vowel_index()
+
+#: The `_VOWEL_PLUS_H` runs — ⟨adh eadh agh aidh aigh …⟩ — as spelling runs. They are readings
+#: of a nucleus whose ⟨dh gh bh mh⟩ contributes no segment of its own, so they belong with the
+#: silent consonant readings: `spell(..., silent=False)` drops them (A2), and the report's
+#: descriptions and patterns drop them too (B2).
+VOWEL_PLUS_H_RUNS: frozenset[str] = frozenset(run + digraph for run, digraph in g2p.VOWEL_PLUS_H)
 
 # `_slender` reads quality off the flanking vowel LETTERS. ⟨ae⟩ is the exception `g2p` states;
 # V-19 extends it to the ⟨ae ao⟩ family, which is stricter than `_slender` for ⟨aei aoi⟩ (there
@@ -351,8 +357,13 @@ def _runs(segments: Sequence[str]) -> list[tuple[str, tuple[str, ...]]]:
     return [(kind, tuple(run)) for kind, run in out]
 
 
-def _run_spellings(run: tuple[str, ...], quality: Quality, at_word_start: bool):
+def _run_spellings(run: tuple[str, ...], quality: Quality, at_word_start: bool,
+                   silent: bool = True):
     """Every spelling of one consonant run at one quality, lazily (V-20 step 2).
+
+    `silent=False` (A2) drops the silent readings altogether — no ⟨fh⟩, no silent ⟨dh gh th⟩ —
+    which is the whole second pass below. `verify` spells that way: eight spellings of one word
+    that differ only in where a silent letter was inserted are eight of the same word.
 
     A recursive matcher: at each position, every `Reading` whose segments are a prefix of what
     is left, whose quality admits `quality` and whose position admits the position. Silent
@@ -389,12 +400,12 @@ def _run_spellings(run: tuple[str, ...], quality: Quality, at_word_start: bool):
                 yield from walk(i + width, False, silent_used, acc + [reading.grapheme],
                                 want_silent)
 
-    for want_silent in (False, True):
+    for want_silent in ((False, True) if silent else (False,)):
         yield from walk(0, at_word_start, False, [], want_silent)
 
 
 def _spell_run(run: Sequence[str], quality: Quality, at_word_start: bool, *,
-               cap: int = _PROPOSAL_BUDGET) -> list[str]:
+               cap: int = _PROPOSAL_BUDGET, silent: bool = True) -> list[str]:
     """The spellings of one consonant run, in registry order, bounded by `cap`.
 
     The bound belongs to the top-level enumeration, not to the matcher: `cap` is the caller's
@@ -403,7 +414,8 @@ def _spell_run(run: Sequence[str], quality: Quality, at_word_start: bool, *,
     order V-20 asks for. An internal cap smaller than the budget would instead drop ordinary
     spellings the caller did ask for — the IPA of *akkkkkkka* stopped recovering that spelling.
     """
-    return list(itertools.islice(_run_spellings(tuple(run), quality, at_word_start), cap))
+    return list(itertools.islice(_run_spellings(tuple(run), quality, at_word_start, silent),
+                                 cap))
 
 
 def _epenthetic(units: Sequence[tuple[str, tuple[str, ...]]], i: int) -> bool:
@@ -450,7 +462,7 @@ def _layouts(units: list[tuple[str, tuple[str, ...]]]) -> list[list[tuple[str, t
 
 
 def _options(units: Sequence[tuple[str, tuple[str, ...]]], i: int,
-             pending: Quality, cap: int) -> list[tuple[str, Quality]]:
+             pending: Quality, cap: int, silent: bool = True) -> list[tuple[str, Quality]]:
     """The spellings unit `i` admits, given the quality imposed from its left, each paired with
     the quality it imposes on its right (V-20 step 4).
 
@@ -463,10 +475,13 @@ def _options(units: Sequence[tuple[str, tuple[str, ...]]], i: int,
     if kind == "C":
         qualities = [pending] if pending in (BROAD, SLENDER) else [BROAD, SLENDER]
         for quality in qualities:
-            for text in _spell_run(run, quality, at_word_start=(i == 0), cap=cap):
+            for text in _spell_run(run, quality, at_word_start=(i == 0), cap=cap,
+                                   silent=silent):
                 out.append((text, quality))
         return out
     for spelling in VOWEL_READINGS.get(run, ()):
+        if not silent and spelling in VOWEL_PLUS_H_RUNS:
+            continue                   # A2: ⟨adh eadh agh …⟩ spell a nucleus with a mute letter
         if pending in (BROAD, SLENDER) and QUALITY_LEFT.get(spelling, EITHER) not in (
                 pending, EITHER):
             continue
@@ -474,7 +489,7 @@ def _options(units: Sequence[tuple[str, tuple[str, ...]]], i: int,
     return out
 
 
-def _candidates(units: Sequence[tuple[str, tuple[str, ...]]], cap: int):
+def _candidates(units: Sequence[tuple[str, tuple[str, ...]]], cap: int, silent: bool = True):
     """Every spelling of one layout, shortest first (V-20 step 5).
 
     "Registry order" over more than one unit has to be made a *total* order, and the nested
@@ -494,34 +509,42 @@ def _candidates(units: Sequence[tuple[str, tuple[str, ...]]], cap: int):
         if i == len(units):
             yield "".join(acc)
             continue
-        for j, (text, imposed) in enumerate(_options(units, i, pending, cap)):
+        for j, (text, imposed) in enumerate(_options(units, i, pending, cap, silent)):
             heapq.heappush(heap,
                            (cost + len(text), indices + (j,), i + 1, imposed, acc + (text,)))
 
 
-def spell(segments: Sequence[str], *, limit: int = SPELL_LIMIT) -> list[str]:
+def spell(segments: Sequence[str], *, limit: int = SPELL_LIMIT, silent: bool = True,
+          budget: int = _PROPOSAL_BUDGET) -> list[str]:
     """Irish IPA segments → the Irish spellings that read back as them (V-20).
 
     Candidates are enumerated shortest-first (`_candidates`) and every one is run through
     `g2p()`, kept only if it reads back to exactly `segments`: nothing leaves here unverified
-    (spec §3.4, last sentence). `limit` caps the **kept** spellings, and `_PROPOSAL_BUDGET`
-    bounds the search behind it — V-20 step 5 caps the enumeration instead, but the registry
+    (spec §3.4, last sentence). `limit` caps the **kept** spellings, and `budget` bounds the
+    search behind it — V-20 step 5 caps the enumeration instead, but the registry
     over-generates hard enough that a cap of 64 *proposals* returns only junk for a word like
     *ardmhaor* (247 shorter spellings precede it, almost none of which `g2p` accepts), and
     every caller wants `limit` real spellings. A word `g2p` refuses (no vowel letter) or one
     whose nucleus has no registered run simply yields nothing.
+
+    `silent=False` (fix-round A2) asks for **silent-free** readings only: no ⟨fh⟩, no silent
+    ⟨dh gh th⟩ and none of the `_VOWEL_PLUS_H` runs ⟨adh eadh agh …⟩. Eight spellings that
+    differ only in where a mute letter sits are eight of the same word, and `reverse.verify`
+    wants one cheap representative per candidate, not the family. `budget` is the caller's
+    proposal budget; it is still raised to `16 * limit` when a caller asks for many spellings,
+    so the defaults — the ones `tests/ratchets/g2p_inverse.json` measures — are unchanged.
     """
     from .tokenize import SegmentError, tokenize
 
     if limit <= 0:                     # V-20 step 5 caps the enumeration: nothing is asked for.
         return []
     want = tuple(segments)
-    budget = max(_PROPOSAL_BUDGET, 16 * limit)
+    budget = max(budget, 16 * limit)
     kept: list[str] = []
     seen: set[str] = set()
     tried = 0
     for layout in _layouts(_runs(want)):
-        for text in _candidates(layout, budget):
+        for text in _candidates(layout, budget, silent):
             if text in seen:
                 continue
             seen.add(text)
