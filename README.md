@@ -53,6 +53,15 @@ indeagó  dutch       indjego   ˈɪn.djə.ɣoː
 indeagó  old-irish   indecó    inʲdʲəɡoː     RETRO
 ```
 
+**Or skip the file.** For one word, `word` does steps 1–3 in place (the IPA is the same g2p
+guess, shown on the first line so you can check it; `--trace` adds step 4 for one strand):
+
+```sh
+uv run strands word indeagó
+uv run strands word indeagó --strand welsh --trace
+uv run strands word indeagó --save              # keep it: writes 20260827-143000-indeagó.tsv, as lint --accept would
+```
+
 **4. To see why**, give `explain` the IPA from the file (it does not take spelling as its
 argument) plus the spelling, which some rules read:
 
@@ -66,11 +75,12 @@ uv run strands explain "ˈɪnʲdʲəɡoː" --strand welsh --orthography indeagó
 strands run INPUT.tsv [--strand X|all] [--construction NAME|all] [--out FILE]
 strands gallery INPUT.tsv [--out FILE]
 strands lint INPUT.tsv [--accept]
-strands explain IPA --strand X [--construction NAME] [--orthography TEXT]
+strands explain IPA --strand X [--construction NAME] [--orthography TEXT] [--save [FILE]]
+strands word SPELLING [--strand X|all] [--construction NAME] [--trace] [--save [FILE]]
 strands check RULES.rules … | LEXICON.tsv
 ```
 
-Defaults: `--strand all`; `--construction all` for `run`, `DESC` for `explain`; output to stdout
+Defaults: `--strand all`; `--construction all` for `run`, `DESC` for `explain` and `word`; output to stdout
 without `--out`. Exit `0` ok, `1` runtime failure (printed on stderr), `2` usage error.
 
 Strands: `welsh` `arabic-egy` `georgian` `dutch` `old-irish`.

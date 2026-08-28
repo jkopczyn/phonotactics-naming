@@ -1,8 +1,10 @@
 """Plan Task 9: the inventory fallback (spec §4.2b, I-12, I-23)."""
+
 from helpers import TABLE
+
 from strands.dsl import parse_rules
-from strands.word import Word
 from strands.substitute import fallback, substitute_stage
+from strands.word import Word
 
 
 def test_off_inventory_segment_is_replaced_by_the_nearest():
@@ -16,7 +18,12 @@ def test_trace_entry_shape():
     out = fallback(Word(segments=("pˠ", "a")), rf, TABLE)
     (t,) = out.trace
     assert (t.stage, t.rule_id, t.tag, t.before, t.after) == (
-        "fallback", "fallback", "fallback", "pˠa", "ba")
+        "fallback",
+        "fallback",
+        "fallback",
+        "pˠa",
+        "ba",
+    )
 
 
 def test_marginal_segments_are_never_chosen():

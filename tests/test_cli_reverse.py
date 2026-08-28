@@ -1,4 +1,5 @@
 """Task 8: `strands reverse` at the CLI (reverse spec §2, §4, §6 bullet 5; R1, R6)."""
+
 import pytest
 
 from strands.cli import main
@@ -10,6 +11,7 @@ def small_cap(monkeypatch):
     CLI test that verifies anything lowers the module global rather than paying 2000 forward
     runs per word. Every other CLI test passes `--examples 0` and verifies nothing."""
     from strands import reverse
+
     monkeypatch.setattr(reverse, "CAP", 30)
 
 
@@ -20,7 +22,8 @@ def run(capsys, *args):
 
 
 def test_it_is_a_command_with_a_usage_line():
-    from strands.cli import COMMANDS, _HANDLERS, _USAGE
+    from strands.cli import _HANDLERS, _USAGE, COMMANDS
+
     assert "reverse" in COMMANDS and "reverse" in _HANDLERS
     assert _USAGE["reverse"] == "strands reverse PATTERN --strand X [--examples N] [--ipa]"
 
@@ -28,8 +31,12 @@ def test_it_is_a_command_with_a_usage_line():
 def test_a_simple_pattern_prints_the_spec_sections(capsys):
     code, out, _err = run(capsys, "ar", "--strand", "georgian", "--examples", "0")
     assert code == 0
-    for section in ("target segments:", "constraints", "Irish spelling pattern",
-                    "verified examples"):
+    for section in (
+        "target segments:",
+        "constraints",
+        "Irish spelling pattern",
+        "verified examples",
+    ):
         assert section in out
     assert out.startswith("ar  [georgian]\n")
 
@@ -79,17 +86,20 @@ def test_old_irish_with_no_match_says_none(capsys):
     assert "  none" in out
 
 
-@pytest.mark.parametrize("args,fragment", [
-    (["ar"], "needs --strand"),
-    (["ar", "--strand", "all"], "not all"),
-    (["ar", "--strand", "klingon"], "unknown strand"),
-    (["ar", "--strand", "georgian", "--examples", "-1"], "non-negative"),
-    (["ar", "--strand", "georgian", "--examples", "x"], "non-negative"),
-    (["[ao", "--strand", "georgian"], "["),
-    (["[!ao]", "--strand", "georgian"], "["),
-    (["ar", "--strand", "old-irish", "--ipa"], "old-irish"),
-    (["ɑQ", "--strand", "georgian", "--ipa"], "Q"),
-])
+@pytest.mark.parametrize(
+    "args,fragment",
+    [
+        (["ar"], "needs --strand"),
+        (["ar", "--strand", "all"], "not all"),
+        (["ar", "--strand", "klingon"], "unknown strand"),
+        (["ar", "--strand", "georgian", "--examples", "-1"], "non-negative"),
+        (["ar", "--strand", "georgian", "--examples", "x"], "non-negative"),
+        (["[ao", "--strand", "georgian"], "["),
+        (["[!ao]", "--strand", "georgian"], "["),
+        (["ar", "--strand", "old-irish", "--ipa"], "old-irish"),
+        (["ɑQ", "--strand", "georgian", "--ipa"], "Q"),
+    ],
+)
 def test_usage_errors_exit_two(capsys, args, fragment):
     code = main(["reverse", *args])
     _out, err = capsys.readouterr()

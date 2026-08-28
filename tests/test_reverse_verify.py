@@ -1,11 +1,21 @@
 """Task 7: candidate expansion and forward verification (reverse spec §3.5; V-22 … V-26, V-34)."""
+
 import itertools
 
 import pytest
-
 from helpers import TABLE, irish, target
-from strands.reverse import (CAP, PALETTE, expand, invert_respell, parse_pattern, source_map,
-                             un_substitute, verify, widen)
+
+from strands.reverse import (
+    CAP,
+    PALETTE,
+    expand,
+    invert_respell,
+    parse_pattern,
+    source_map,
+    un_substitute,
+    verify,
+    widen,
+)
 
 IRISH = irish()
 GEO = target("georgian")
@@ -40,6 +50,7 @@ def test_an_optional_group_is_present_or_absent_as_a_unit():
     SYNTH_GROUP, where both inserted segments are printed (arabic-egy's own pair is
     unreachable — V-30's accepted miss)."""
     from test_reverse_sourcemap import SYNTH_GROUP
+
     p = analysed(SYNTH_GROUP, "qisk")
     (group,) = p.groups
     inserted = ("q", "i")
@@ -61,9 +72,11 @@ def test_expansion_is_deterministic():
 
 # ---- verification (V-34 / F8) ---------------------------------------------------------------------
 
+
 def test_every_kept_example_really_matches_the_pattern_through_the_real_engine():
     import fnmatch
     import unicodedata
+
     examples, tried, _cap = verify(analysed(GEO, "ar*"), GEO, IRISH, TABLE, limit=5, cap=200)
     assert tried > 0
     for e in examples:
@@ -100,7 +113,7 @@ def test_examples_are_one_per_irish_candidate_not_one_per_foreign_shape():
     assert len(examples) > 1
     assert len({e.orthography for e in examples}) == len(examples)
     assert "cathal" in [e.orthography for e in examples]
-    assert len({e.ipa for e in examples}) == 1        # one literal pattern, one foreign shape
+    assert len({e.ipa for e in examples}) == 1  # one literal pattern, one foreign shape
 
 
 @pytest.mark.slow
@@ -131,15 +144,22 @@ def test_a_candidate_the_engine_cannot_run_is_counted_not_raised():
 
 def test_ipa_mode_matches_the_unmarked_ipa():
     from strands.reverse import parse_ipa_pattern
+
     smap, deletions, notes = source_map("substitute", GEO, IRISH, TABLE)
-    p = un_substitute(widen(parse_ipa_pattern("ɑr*", GEO, TABLE), GEO, IRISH, TABLE),
-                      smap, deletions=deletions, notes=notes)
-    examples, _t, _c = verify(p, GEO, IRISH, TABLE, limit=3, cap=200, ipa_mode=True,
-                              raw_pattern="ɑr*")
+    p = un_substitute(
+        widen(parse_ipa_pattern("ɑr*", GEO, TABLE), GEO, IRISH, TABLE),
+        smap,
+        deletions=deletions,
+        notes=notes,
+    )
+    examples, _t, _c = verify(
+        p, GEO, IRISH, TABLE, limit=3, cap=200, ipa_mode=True, raw_pattern="ɑr*"
+    )
     assert all(all(m not in e.ipa for m in ("ˈ", "ˌ", ".")) for e in examples)
 
 
 # ---- review fixes (task 7) ------------------------------------------------------------------------
+
 
 def test_an_unspellable_candidate_does_not_consume_the_forward_run_budget():
     """V-34: `cap` counts unique `(candidate, spelling)` FORWARD RUNS. A candidate whose
@@ -163,8 +183,7 @@ def test_an_unspellable_candidate_does_not_consume_the_forward_run_budget():
     try:
         monkey.setattr(reverse.g2p_inverse, "spell", fake_spell)
         monkey.setattr(reverse, "_forward", fake_forward)
-        examples, tried, _cap_hit = verify(p, GEO, IRISH, TABLE, limit=8, cap=2,
-                                           raw_pattern="ar")
+        examples, tried, _cap_hit = verify(p, GEO, IRISH, TABLE, limit=8, cap=2, raw_pattern="ar")
     finally:
         monkey.undo()
     assert tried == 1
@@ -177,11 +196,12 @@ def test_a_group_keeps_every_present_combination():
     import math
 
     from test_reverse_sourcemap import SYNTH_GROUP
+
     from strands.reverse import _group_options, _slot_options
 
     p = analysed(SYNTH_GROUP, "qisk")
     (group,) = p.groups
-    expected = math.prod(len(_slot_options(s)) for s in p.slots[group.start:group.stop])
+    expected = math.prod(len(_slot_options(s)) for s in p.slots[group.start : group.stop])
     assert expected > 64
     assert len(_group_options(p.slots, group)) == 1 + expected
 
@@ -190,17 +210,19 @@ def test_a_present_group_option_carries_the_groups_own_rank():
     """V-22: `present` costs the optional group's own rank (its epenthesis provenance), not
     the maximum rank of the slot alternatives that fill it."""
     from test_reverse_sourcemap import SYNTH_GROUP
+
     from strands.reverse import _group_options
 
     p = analysed(SYNTH_GROUP, "qisk")
     (group,) = p.groups
-    assert group.steps[-1].kind == "epenthesis"     # so the group's own rank is 4
+    assert group.steps[-1].kind == "epenthesis"  # so the group's own rank is 4
     options = _group_options(p.slots, group)
     assert options[0].rank == 0 and options[0].segments == ()
     assert all(option.rank == 4 for option in options[1:])
 
 
 # ---- fix round Task A: verification cost, example diversity, palette (A1-A5) -----------------
+
 
 def test_the_palette_carries_the_long_vowels_too():
     """A4 (R5 revised): five short vowels, their five long counterparts, then the ten
@@ -214,6 +236,7 @@ def test_the_palette_carries_the_long_vowels_too():
 
 def test_a_star_offers_one_then_twenty_then_four_hundred_fillings():
     from strands.reverse import _star_options
+
     options = _star_options()
     assert len(options) == 1 + 20 + 400
     assert options[0].segments == ()
@@ -240,11 +263,10 @@ def test_verify_runs_one_forward_run_per_candidate():
     try:
         monkey.setattr(reverse.g2p_inverse, "spell", fake_spell)
         monkey.setattr(reverse, "_forward", fake_forward)
-        _examples, tried, _cap_hit = verify(p, GEO, IRISH, TABLE, limit=8, cap=5,
-                                            raw_pattern="ar*")
+        _examples, tried, _cap_hit = verify(p, GEO, IRISH, TABLE, limit=8, cap=5, raw_pattern="ar*")
     finally:
         monkey.undo()
-    assert runs == ["aaa"] * 5                # the first spelling only, once per candidate
+    assert runs == ["aaa"] * 5  # the first spelling only, once per candidate
     assert tried == 5
 
 
@@ -293,13 +315,12 @@ def test_the_examined_candidate_stream_is_bounded_by_four_times_the_cap():
 
     def fake_spell(segments, **kwargs):
         seen.append(tuple(segments))
-        return []                              # nothing is ever spellable
+        return []  # nothing is ever spellable
 
     monkey = pytest.MonkeyPatch()
     try:
         monkey.setattr(reverse.g2p_inverse, "spell", fake_spell)
-        examples, tried, cap_hit = verify(analysed(GEO, "a*a*"), GEO, IRISH, TABLE,
-                                          limit=8, cap=10)
+        examples, tried, cap_hit = verify(analysed(GEO, "a*a*"), GEO, IRISH, TABLE, limit=8, cap=10)
     finally:
         monkey.undo()
     assert examples == () and tried == 0
@@ -308,6 +329,7 @@ def test_the_examined_candidate_stream_is_bounded_by_four_times_the_cap():
 
 
 # ---- fix round 2 follow-up ---------------------------------------------------------------------
+
 
 def test_cap_hit_is_true_when_the_forward_bound_is_reached_as_expansion_ends():
     """D6: `cap_hit` means EITHER bound was reached. The loop set the flag only when a LATER
@@ -335,10 +357,11 @@ def test_the_row_for_cathal_is_listed_for_cahal_welsh():
         return tuple(tokenize(_unmark(g2p.g2p(word)[0]), _table()).segments)
 
     cathal = read("cathal")
-    assert read("cahal") == cathal                      # one candidate, two spellings
+    assert read("cahal") == cathal  # one candidate, two spellings
     assert "cathal" in g2p_inverse.spell(cathal, limit=200, silent=False, budget=20000)
     # …and `verify`'s own wider tier reaches it too (`_VERIFY_SPELL_WIDE`).
     from strands.reverse import _VERIFY_SPELL_WIDE
+
     assert "cathal" in g2p_inverse.spell(cathal, **_VERIFY_SPELL_WIDE)
 
     examples, _t, _c = verify(analysed(WEL, "cahal"), WEL, IRISH, TABLE, limit=40, cap=200)
@@ -349,9 +372,11 @@ def test_the_row_for_cathal_is_listed_for_cahal_welsh():
 
 # ---- grapheme-preferred spellings and short-vowel-first ranking ---------------------------------
 
+
 def test_a_loan_letter_costs_two_each():
     """SPELLING_PENALTY rule 1: ⟨k v w j z x⟩ are not Irish letters."""
     from strands.reverse import SPELLING_PENALTY, spelling_penalty
+
     assert SPELLING_PENALTY["loan letter"] == 2
     assert spelling_penalty("cara") == 0
     assert spelling_penalty("kara") == 2
@@ -361,10 +386,11 @@ def test_a_loan_letter_costs_two_each():
 def test_a_bare_medial_h_costs_two_but_a_lenition_digraph_is_free():
     """SPELLING_PENALTY rule 2: Irish medial /h/ is normally written with a digraph."""
     from strands.reverse import SPELLING_PENALTY, spelling_penalty
+
     assert SPELLING_PENALTY["bare h"] == 2
     assert spelling_penalty("cahal") == 2
-    assert spelling_penalty("cathal") == 0          # ⟨th⟩ is a digraph
-    assert spelling_penalty("hata") == 0            # word-initial ⟨h⟩ is ordinary Irish
+    assert spelling_penalty("cathal") == 0  # ⟨th⟩ is a digraph
+    assert spelling_penalty("hata") == 0  # word-initial ⟨h⟩ is ordinary Irish
     for digraph in ("bh", "ch", "dh", "fh", "gh", "mh", "ph", "th"):
         assert spelling_penalty(f"a{digraph}a") == 0, digraph
 
@@ -373,6 +399,7 @@ def test_sh_for_h_costs_one_so_th_is_the_default_digraph():
     """SPELLING_PENALTY rule 2b (see the table's own note): ⟨sh⟩ is a real lenition spelling,
     so it costs far less than a bare ⟨h⟩, but ⟨th⟩ is the one a reader expects."""
     from strands.reverse import SPELLING_PENALTY, spelling_penalty
+
     assert SPELLING_PENALTY["sh for h"] == 1
     assert spelling_penalty("cashal") == 1
     assert spelling_penalty("cathal") < spelling_penalty("cashal") < spelling_penalty("cahal")
@@ -381,14 +408,16 @@ def test_sh_for_h_costs_one_so_th_is_the_default_digraph():
 def test_a_non_initial_bhf_costs_one():
     """SPELLING_PENALTY rule 3: eclipsis spelling in the middle of a word."""
     from strands.reverse import SPELLING_PENALTY, spelling_penalty
+
     assert SPELLING_PENALTY["non-initial bhf"] == 1
-    assert spelling_penalty("bhfear") == 0          # word-initial eclipsis is ordinary
+    assert spelling_penalty("bhfear") == 0  # word-initial eclipsis is ordinary
     assert spelling_penalty("arbhfar") == 1
 
 
 def test_a_doubled_r_l_or_n_costs_one_each():
     """SPELLING_PENALTY rule 4: the single letter is the default."""
     from strands.reverse import SPELLING_PENALTY, spelling_penalty
+
     assert SPELLING_PENALTY["doubled letter"] == 1
     assert spelling_penalty("carra") == 1
     assert spelling_penalty("calla") == 1
@@ -400,6 +429,7 @@ def _read(word):
     from strands import g2p
     from strands.g2p_inverse import _table, _unmark
     from strands.tokenize import tokenize
+
     return tuple(tokenize(_unmark(g2p.g2p(word)[0]), _table()).segments)
 
 
@@ -410,7 +440,7 @@ def test_the_short_vowel_shape_of_cahal_is_printed_as_cathal():
     examples, _t, _c = verify(analysed(WEL, "cahal"), WEL, IRISH, TABLE, limit=8, cap=200)
     orthographies = [e.orthography for e in examples]
     assert "cathal" in orthographies
-    assert _read("cathal") == _read("cahal")        # still one candidate, two spellings
+    assert _read("cathal") == _read("cahal")  # still one candidate, two spellings
     assert examples[orthographies.index("cathal")].penalty == 0
 
 
@@ -430,14 +460,23 @@ def test_examples_are_ranked_by_the_documented_key():
     not a field of `Example` — it is a property of the Irish candidate, and every spelling
     `spell()` returns reads back to that candidate, so the test recovers it from `g2p`."""
     examples, _t, _c = verify(analysed(GEO, "ar*"), GEO, IRISH, TABLE, limit=8, cap=200)
-    keys = [(e.fallbacks, len(e.flags),
-             sum(1 for seg in _read(e.orthography) if "ː" in seg),
-             e.rank, e.penalty, e.spelling_index) for e in examples]
+    keys = [
+        (
+            e.fallbacks,
+            len(e.flags),
+            sum(1 for seg in _read(e.orthography) if "ː" in seg),
+            e.rank,
+            e.penalty,
+            e.spelling_index,
+        )
+        for e in examples
+    ]
     assert keys == sorted(keys)
 
 
 def test_every_example_carries_the_penalty_of_its_printed_spelling():
     from strands.reverse import spelling_penalty
+
     examples, _t, _c = verify(analysed(GEO, "ar*v*"), GEO, IRISH, TABLE, limit=8, cap=200)
     assert examples
     assert all(e.penalty == spelling_penalty(e.orthography) for e in examples)
@@ -446,7 +485,8 @@ def test_every_example_carries_the_penalty_of_its_printed_spelling():
 def test_the_penalty_is_not_printed():
     """It is a ranking signal, not a column (owner's ruling)."""
     from strands.reverse import Example, _example_lines
-    line, = _example_lines([Example("cathal", "cahal", "kahal", (), 0, 0, 0, 7)])
+
+    (line,) = _example_lines([Example("cathal", "cahal", "kahal", (), 0, 0, 0, 7)])
     assert "7" not in line
 
 

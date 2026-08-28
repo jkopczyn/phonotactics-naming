@@ -18,6 +18,7 @@ contains that segment. Thus `0 -> i / # _ s k` on `ˈska` yields `i.ˈska`, not 
 drops `Word.stress`). If the nucleus itself is rewritten the parked index is lost; the
 stressed syllable's start in the edited word is used instead, when it survived.
 """
+
 from __future__ import annotations
 
 from dataclasses import replace
@@ -39,8 +40,11 @@ def _stressed_anchor(word: Word) -> int | None:
     if word.stress is None or not (0 <= word.stress < len(word.syllables)):
         return None
     start = word.syllables[word.stress]
-    stop = (word.syllables[word.stress + 1] if word.stress + 1 < len(word.syllables)
-            else len(word.segments))
+    stop = (
+        word.syllables[word.stress + 1]
+        if word.stress + 1 < len(word.syllables)
+        else len(word.segments)
+    )
     for a, _ in word.nuclei:
         if start <= a < stop:
             return a
@@ -54,7 +58,7 @@ def post_stress(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
     rules = rf.sections.get(STAGE, ())
     if not rules:
         return word
-    anchor = _stressed_anchor(word)                # identity of the stressed syllable, pre-edit
+    anchor = _stressed_anchor(word)  # identity of the stressed syllable, pre-edit
     out = word if anchor is None else replace(word, _pending_stress=anchor)
     changed = False
     for rule in rules:
@@ -63,6 +67,6 @@ def post_stress(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
         changed = changed or len(out.segments) != count
     if not changed:
         return out if anchor is None else replace(out, _pending_stress=word._pending_stress)
-    if out._pending_stress is None:                # nucleus rewritten: fall back to the start
+    if out._pending_stress is None:  # nucleus rewritten: fall back to the start
         out = replace(out, _pending_stress=_stressed_anchor(out))
     return syllabify(out, rf, table)

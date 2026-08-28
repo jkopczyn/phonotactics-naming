@@ -15,11 +15,12 @@ Two rates per strand, measured by two different runs because they cost very diff
 There is no floor (spec §6): the ratchet only forbids regression. Regenerate it by hand with
 the script in Task 9 Step 5 of `docs/plans/2026-08-27-reverse-plan.md`.
 """
+
 import json
 
 import pytest
-
 from helpers import ROOT, TABLE, irish, target
+
 from strands.reverse import read_hand_ipa_rows, reverse_regression
 
 IRISH = irish()
@@ -33,8 +34,7 @@ EXAMPLE_CAP = 200
 @pytest.fixture(scope="session")
 def admits():
     """The cheap run: `limit=0`, so `verify` is never called (F6 keeps it session-scoped)."""
-    return {name: reverse_regression(name, target(name), IRISH, TABLE, limit=0)
-            for name in STRANDS}
+    return {name: reverse_regression(name, target(name), IRISH, TABLE, limit=0) for name in STRANDS}
 
 
 @pytest.fixture(scope="session")
@@ -42,17 +42,20 @@ def examples():
     """The paid run. Session-scoped and requested only by `slow` tests, so `-m "not slow"`
     never pays for it."""
     rows = read_hand_ipa_rows()[:EXAMPLE_ROWS]
-    return {name: reverse_regression(name, target(name), IRISH, TABLE, cap=EXAMPLE_CAP,
-                                     rows=rows)
-            for name in STRANDS}
+    return {
+        name: reverse_regression(name, target(name), IRISH, TABLE, cap=EXAMPLE_CAP, rows=rows)
+        for name in STRANDS
+    }
 
 
 def ratchet(name):
-    return json.loads((ROOT / "tests" / "ratchets" / f"reverse-{name}.json")
-                      .read_text(encoding="utf-8"))
+    return json.loads(
+        (ROOT / "tests" / "ratchets" / f"reverse-{name}.json").read_text(encoding="utf-8")
+    )
 
 
 # ---- the ratchets ------------------------------------------------------------------------------
+
 
 def test_the_ratchet_files_all_exist_and_carry_the_four_keys():
     """Unmarked and cheap: a missing or malformed ratchet file fails fast."""
@@ -97,10 +100,11 @@ def test_a_row_is_found_by_any_spelling_that_reads_to_its_own_ipa():
     spelling of that reading — ⟨arbha⟩ for ⟨arḃa⟩-style variants — and the round trip is about
     the reading, not the choice of letters."""
     from strands.reverse import _reads_the_same
-    assert _reads_the_same("ardmhaor", "Ardmhaor")          # the fold survives
-    assert _reads_the_same("bord", "bhord") is False         # a real minimal pair does not
+
+    assert _reads_the_same("ardmhaor", "Ardmhaor")  # the fold survives
+    assert _reads_the_same("bord", "bhord") is False  # a real minimal pair does not
     assert not _reads_the_same("ardmhaor", "carraig")
-    assert not _reads_the_same("ardmhaor", "qqq")            # unreadable is not a match
+    assert not _reads_the_same("ardmhaor", "qqq")  # unreadable is not a match
 
 
 # ---- the smoke run -----------------------------------------------------------------------------
@@ -119,17 +123,19 @@ def test_the_smoke_run_is_deterministic_and_is_not_the_ratchet():
 
 # ---- the session case (spec §6 bullet 4) -------------------------------------------------------
 
+
 def _parse(rf, text):
     """The plan's Task 9 listing calls `_parse(geo, text)` without defining it; this is the
     parse half of `cli.cmd_reverse`'s own sequence (invert_respell -> parse_pattern)."""
     from strands.reverse import invert_respell, parse_pattern
+
     chunks, chunk_notes = invert_respell(rf, TABLE)
     return parse_pattern(text, chunks, notes=chunk_notes)
 
 
 def analysed_geo(text):
-    from strands.reverse import (invert_respell, parse_pattern, source_map, un_substitute,
-                                 widen)
+    from strands.reverse import source_map, un_substitute, widen
+
     geo = target("georgian")
     p = widen(_parse(geo, text), geo, IRISH, TABLE)
     smap, deletions, notes = source_map("substitute", geo, IRISH, TABLE)
@@ -138,12 +144,13 @@ def analysed_geo(text):
 
 def test_the_session_case_lists_exactly_the_three_v_sources():
     from strands.reverse import constraints
+
     _geo, p = analysed_geo("ar*v*")
     v = [c for c in constraints(p) if c.label == "v"][0]
     kinds = {(l.kind, l.description) for l in v.lines}
     assert ("epenthesis", "inserted, no Irish letter") in kinds
-    assert any("bh" in d for _k, d in kinds)          # /w/ from broad bh/mh
-    assert any("slender" in d for _k, d in kinds)     # /vʲ/ from slender bh/mh
+    assert any("bh" in d for _k, d in kinds)  # /w/ from broad bh/mh
+    assert any("slender" in d for _k, d in kinds)  # /vʲ/ from slender bh/mh
 
 
 def test_ardmhaor_is_admitted():
@@ -151,26 +158,32 @@ def test_ardmhaor_is_admitted():
     A4's long-vowel palette was widened for."""
     from strands import g2p
     from strands.reverse import pattern_admits, tokenize
+
     _geo, p = analysed_geo("ar*v*")
     segments = tokenize(g2p.g2p("ardmhaor")[0], TABLE).segments
     assert pattern_admits(p, segments)
 
 
 @pytest.mark.slow
-@pytest.mark.xfail(strict=True, reason=(
-    "C2 FINDING, for owner review, not a test to delete; RE-MEASURED after D6. After A4 widened "
-    "the palette the pattern ADMITS /aːɾˠd̪ˠvˠiːɾˠ/ (the test above) and every piece is on "
-    "offer — the first `*` can be /d̪ˠ/ and the second /iːɾˠ/ — but that filling is nowhere "
-    "near the front of the stream. D6 raised `expand`'s own cap from 2000 to EXAMINE_FACTOR * "
-    "cap = 8000, which took `Ar*v*` from 106 candidates tried to 608 and from 1 example to the "
-    "full 8 asked for; *ardmhaor* is still not among them, because both `*` slots offer 421 "
-    "fillings each and the two-segment ones are ranked last. So this remains an ENUMERATION "
-    "ORDER limit, not a cap that one more factor would fix: interleaving the `*` fillings "
-    "(breadth over the cross product rather than depth) is what would reach it — the owner's "
-    "call. `Ar*v*` costs 27 s at the shipped cap after D6."))
+@pytest.mark.xfail(
+    strict=True,
+    reason=(
+        "C2 FINDING, for owner review, not a test to delete; RE-MEASURED after D6. After A4 widened "
+        "the palette the pattern ADMITS /aːɾˠd̪ˠvˠiːɾˠ/ (the test above) and every piece is on "
+        "offer — the first `*` can be /d̪ˠ/ and the second /iːɾˠ/ — but that filling is nowhere "
+        "near the front of the stream. D6 raised `expand`'s own cap from 2000 to EXAMINE_FACTOR * "
+        "cap = 8000, which took `Ar*v*` from 106 candidates tried to 608 and from 1 example to the "
+        "full 8 asked for; *ardmhaor* is still not among them, because both `*` slots offer 421 "
+        "fillings each and the two-segment ones are ranked last. So this remains an ENUMERATION "
+        "ORDER limit, not a cap that one more factor would fix: interleaving the `*` fillings "
+        "(breadth over the cross product rather than depth) is what would reach it — the owner's "
+        "call. `Ar*v*` costs 27 s at the shipped cap after D6."
+    ),
+)
 def test_ardmhaor_verifies_for_the_session_case():
     """C2/spec §6 bullet 4: the word itself among the verified examples at the shipped cap."""
     from strands.reverse import CAP, verify
+
     geo, p = analysed_geo("ar*v*")
     examples, _t, _c = verify(p, geo, IRISH, TABLE, limit=40, cap=CAP)
     assert any(e.orthography == "ardmhaor" for e in examples), [e.orthography for e in examples]
@@ -179,29 +192,37 @@ def test_ardmhaor_verifies_for_the_session_case():
 # ---- `pattern_admits` itself (the plan lists no unit test for it; these are cheap and unmarked,
 # so the matcher's semantics are not covered by the slow pass alone) -----------------------------
 
-from strands.reverse import (ANY, ONE, SEG, Alternative, OptionalGroup,  # noqa: E402
-                             Pattern, Slot, pattern_admits)
+from strands.reverse import (  # noqa: E402
+    ANY,
+    ONE,
+    SEG,
+    Alternative,
+    OptionalGroup,
+    Pattern,
+    Slot,
+    pattern_admits,
+)
 
 
 def _seg(text, *sequences):
-    return Slot(kind=SEG, text=text,
-                alts=tuple(Alternative(segments=tuple(s)) for s in sequences))
+    return Slot(kind=SEG, text=text, alts=tuple(Alternative(segments=tuple(s)) for s in sequences))
 
 
 def test_a_seg_slot_admits_any_one_of_its_alternatives_in_full():
     p = Pattern(text="ab", slots=(_seg("a", ("a",), ("ɪ", "ə")), _seg("b", ("bˠ",))))
     assert pattern_admits(p, ("a", "bˠ"))
-    assert pattern_admits(p, ("ɪ", "ə", "bˠ"))          # a two-segment alternative, whole
-    assert not pattern_admits(p, ("ɪ", "bˠ"))           # half of one is not an alternative
+    assert pattern_admits(p, ("ɪ", "ə", "bˠ"))  # a two-segment alternative, whole
+    assert not pattern_admits(p, ("ɪ", "bˠ"))  # half of one is not an alternative
 
 
 def test_an_optional_group_is_skipped_as_a_unit_never_half():
     slots = (_seg("a", ("a",)), _seg("i", ("i",)), _seg("b", ("bˠ",)))
-    p = Pattern(text="aib", slots=slots,
-                groups=(OptionalGroup(start=0, stop=2, steps=(), note=""),))
-    assert pattern_admits(p, ("a", "i", "bˠ"))          # present
-    assert pattern_admits(p, ("bˠ",))                   # absent
-    assert not pattern_admits(p, ("i", "bˠ"))           # V-30: not half-present
+    p = Pattern(
+        text="aib", slots=slots, groups=(OptionalGroup(start=0, stop=2, steps=(), note=""),)
+    )
+    assert pattern_admits(p, ("a", "i", "bˠ"))  # present
+    assert pattern_admits(p, ("bˠ",))  # absent
+    assert not pattern_admits(p, ("i", "bˠ"))  # V-30: not half-present
 
 
 def test_a_star_consumes_any_run_and_a_bare_one_consumes_exactly_one():

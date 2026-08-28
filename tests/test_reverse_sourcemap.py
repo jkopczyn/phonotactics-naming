@@ -1,7 +1,8 @@
 """Task 4: inverting [substitute] (reverse spec §3.2, §6 bullet 1; V-3 … V-12, V-28, V-29)."""
-import pytest
 
+import pytest
 from helpers import TABLE, irish, target
+
 from strands.dsl import parse_rules
 from strands.reverse import invert_respell, parse_pattern, section_inventory, source_map
 
@@ -11,14 +12,19 @@ WEL = target("welsh")
 ARA = target("arabic-egy")
 DUT = target("dutch")
 
-SYNTH_IRISH = parse_rules("""
+SYNTH_IRISH = parse_rules(
+    """
 [meta]
 name = SynthIrish
 [inventory]
 pˠ pʲ k h a i
-""", TABLE, path="synth-irish")
+""",
+    TABLE,
+    path="synth-irish",
+)
 
-SYNTH_SUB = parse_rules("""
+SYNTH_SUB = parse_rules(
+    """
 [meta]
 name = SynthTarget
 [inventory]
@@ -32,7 +38,10 @@ k -> t                       # literal
 0 -> i / p _ a  %design      # epenthesis (I-3: a comment after an environment needs a %tag)
 h -> 0                       # deletion
 t -> p                       # chain: k -> t -> p, and k precedes t in file order
-""", TABLE, path="synth-target")
+""",
+    TABLE,
+    path="synth-target",
+)
 
 
 def smap(rf, section="substitute", irish_rf=None):
@@ -55,17 +64,18 @@ def _parse(rf, text):
 
 # ---- the synthetic file: every shape spec §6 names ---------------------------------------------
 
+
 def test_the_synthetic_file_covers_every_shape():
     m, deletions, _notes = smap(SYNTH_SUB, irish_rf=SYNTH_IRISH)
     got = {s.kind for ss in m.values() for s in ss}
     assert {"rule", "epenthesis", "fallback", "identity"} <= got
     assert any(d.segments == ("h",) for d in deletions)
     pairs = {(s.segments, s.kind) for s in m[("t",)]}
-    assert (("k",), "rule") in pairs                                  # literal
+    assert (("k",), "rule") in pairs  # literal
     ppairs = {(s.segments, s.kind) for s in m[("p",)]}
-    assert (("pʲ",), "rule") in ppairs                                # class
-    assert (("pˠ",), "rule") in ppairs                                # bundle
-    assert any(">" in s.rule_id and s.segments == ("k",) for s in m[("p",)])   # chain
+    assert (("pʲ",), "rule") in ppairs  # class
+    assert (("pˠ",), "rule") in ppairs  # bundle
+    assert any(">" in s.rule_id and s.segments == ("k",) for s in m[("p",)])  # chain
 
 
 def test_the_synthetic_fallback_uses_the_targets_own_nearest():
@@ -75,6 +85,7 @@ def test_the_synthetic_fallback_uses_the_targets_own_nearest():
 
 
 # ---- V-29 (F3): the inventory a section expands over --------------------------------------------
+
 
 def test_substitute_expands_over_irish_and_the_later_sections_over_the_target():
     assert section_inventory("substitute", ARA, IRISH) == tuple(IRISH.inventory)
@@ -106,6 +117,7 @@ def test_the_dutch_devoicing_rules_invert_over_dutch_segments():
 
 # ---- the real substitute sections ----------------------------------------------------------------
 
+
 def test_a_literal_segment_rule_inverts_literally():
     assert (("iː",), "rule") in srcs(GEO, ("i",))
 
@@ -133,6 +145,7 @@ def test_a_multi_segment_insertion_is_one_key():
 def test_invert_respell_notes_a_deleting_respell_rule():
     """V-30 accepted miss: `ʔ -> "" / # _` makes a group starting at /ʔ/ unreachable."""
     from strands.reverse import invert_respell
+
     _chunks, notes = invert_respell(ARA, TABLE)
     assert any("unreachable" in n for n in notes)
 
@@ -162,6 +175,7 @@ def test_a_multi_segment_rule_inverts_as_a_sequence():
 
 
 # ---- fallback, identity, ORDERED chains (F2) -----------------------------------------------------
+
 
 def test_the_fallback_maps_every_off_inventory_survivor():
     """MEASURED: no real strand has a survivor. Every Irish segment outside georgian's,
@@ -223,17 +237,18 @@ def test_a_context_bearing_rule_still_leaves_its_target_a_fallback_or_identity_s
 def test_un_substitute_appends_a_step_to_each_alternative():
     """V-31: provenance composes."""
     from strands.reverse import un_substitute
+
     p = _parse(GEO, "a")
     m, deletions, notes = smap(GEO)
     out = un_substitute(p, m, deletions=deletions, notes=notes)
-    assert any(len(a.steps) >= 2 and a.steps[-1].stage == "substitute"
-               for a in out.slots[0].alts)
+    assert any(len(a.steps) >= 2 and a.steps[-1].stage == "substitute" for a in out.slots[0].alts)
 
 
 def test_un_substitute_carries_the_substitute_deletions_into_the_pattern():
     """F3: draft 2 computed them and dropped them, so `possibly dropped` could never show a
     [substitute] deletion. welsh.rules:161-164 are the real ones (`w -> 0`, `j -> 0`)."""
     from strands.reverse import un_substitute
+
     p = _parse(WEL, "u")
     m, deletions, notes = smap(WEL)
     out = un_substitute(p, m, deletions=deletions, notes=notes)
@@ -248,10 +263,12 @@ def test_the_map_is_deterministic():
 
 # ---- review fixes ------------------------------------------------------------------------------
 
+
 def test_un_substitute_drops_an_alternative_with_no_substitute_source():
     """V-31: welsh `th` parses as /θ/, which no [substitute] source produces. Keeping it would
     leave a stepless alternative that reporting reads as an Irish identity source."""
     from strands.reverse import un_substitute
+
     m, deletions, notes = smap(WEL)
     assert ("θ",) not in m
     p = _parse(WEL, "th")
@@ -262,20 +279,25 @@ def test_un_substitute_drops_an_alternative_with_no_substitute_source():
 
 def test_every_surviving_alternative_carries_a_substitute_step():
     from strands.reverse import un_substitute
+
     m, deletions, notes = smap(GEO)
     out = un_substitute(_parse(GEO, "a"), m, deletions=deletions, notes=notes)
     assert out.slots[0].alts
     assert all(a.steps and a.steps[-1].stage == "substitute" for a in out.slots[0].alts)
 
 
-SYNTH_MULTI = parse_rules("""
+SYNTH_MULTI = parse_rules(
+    """
 [meta]
 name = SynthMulti
 [inventory]
 p t a i aː iː
 [substitute]
 a i -> [+long]               # context-free feature change over a MULTI-item target
-""", TABLE, path="synth-multi")
+""",
+    TABLE,
+    path="synth-multi",
+)
 
 
 def test_a_multi_item_context_free_feature_change_covers_only_the_whole_target():
@@ -290,12 +312,13 @@ def test_a_multi_item_context_free_feature_change_covers_only_the_whole_target()
 # Task 5: widening over [repair] / [post-stress] (spec §3.3; V-18, V-29, V-30, V-31)
 # ================================================================================================
 
-from strands.reverse import widen                                    # noqa: E402
+from strands.reverse import widen  # noqa: E402
 
 # V-30 accepted miss: no real strand shows a two-segment insertion in its respelling
 # (arabic-egy deletes the /ʔ/ of `0 -> ʔ i` with `ʔ -> "" / # _`), so the ATOMIC-GROUP
 # behaviour is tested on a synthetic file where both inserted segments are printed.
-SYNTH_GROUP = parse_rules("""
+SYNTH_GROUP = parse_rules(
+    """
 [meta]
 name = SynthGroup
 [inventory]
@@ -307,7 +330,10 @@ q -> "q"
 i -> "i"
 s -> "s"
 k -> "k"
-""", TABLE, path="synth-group")
+""",
+    TABLE,
+    path="synth-group",
+)
 
 
 def pat(rf, text):
@@ -351,11 +377,11 @@ def test_a_widened_alternative_records_the_widening_rule():
     """V-31 / F5: draft 1 lost the rule id and could not print a source for it."""
     p = pat(WEL, "â")
     widened = [a for s in p.slots for a in s.alts if a.segments == ("a",)]
-    assert widened and any(st.stage in ("post-stress", "repair")
-                           for a in widened for st in a.steps)
+    assert widened and any(st.stage in ("post-stress", "repair") for a in widened for st in a.steps)
 
 
 # ---- optional GROUPS (V-30 / F4) -----------------------------------------------------------------
+
 
 def test_a_single_segment_insertion_is_a_width_one_group():
     """Welsh prothetic ⟨y⟩ (`0 -> ə / # _ s {p t k}`)."""
@@ -404,8 +430,7 @@ def test_deletions_from_the_widened_sections_reach_the_pattern():
 
 def test_stress_is_ignored():
     for s in pat(WEL, "ysbryd").slots:
-        assert all(m not in seg for a in s.alts for seg in a.segments
-                   for m in ("ˈ", "ˌ", "."))
+        assert all(m not in seg for a in s.alts for seg in a.segments for m in ("ˈ", "ˌ", "."))
 
 
 def test_widening_only_grows_the_slot_set():

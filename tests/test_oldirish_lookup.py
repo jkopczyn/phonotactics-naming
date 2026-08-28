@@ -1,11 +1,17 @@
 """Task 12: the lookup stage and the Old Irish assembly (spec §2, §6, §11)."""
-import pytest
 
+import pytest
 from helpers import TABLE, irish, target
+
 from strands.inputs import Entry, infer
 from strands.lexicon import key, read_lexicon
-from strands.oldirish import (OI_FLAGS, ConstructionNotInStrand, infer_stem, run_entry_oi,
-                              to_old_irish)
+from strands.oldirish import (
+    OI_FLAGS,
+    ConstructionNotInStrand,
+    infer_stem,
+    run_entry_oi,
+    to_old_irish,
+)
 from strands.pipeline import TARGETS, load_target, lookup, run_entry
 from strands.spelled import SpelledWord, spelling_to_ipa
 
@@ -45,55 +51,66 @@ def test_a_loan_and_a_late_coinage_are_filtered_and_flagged_apart():
 
 
 def test_a_miss_is_a_plain_retro():
-    assert to_old_irish(entry("Splancarnach", "sˠpˠl̪ˠaŋkəɾˠnˠəx"), LEX, OI, IRISH,
-                        TABLE).flag == "RETRO"
+    assert (
+        to_old_irish(entry("Splancarnach", "sˠpˠl̪ˠaŋkəɾˠnˠəx"), LEX, OI, IRISH, TABLE).flag
+        == "RETRO"
+    )
 
 
 def spelling(orthography, ipa):
     """The whole RETRO path, as `strands run --construction DESC` renders it."""
-    return " ".join(word.render()
-                    for word in to_old_irish(entry(orthography, ipa), LEX, OI, IRISH,
-                                             TABLE).words)
+    return " ".join(
+        word.render() for word in to_old_irish(entry(orthography, ipa), LEX, OI, IRISH, TABLE).words
+    )
 
 
-@pytest.mark.parametrize("orthography,ipa,expected", [
-    ("Matánach", "ˈmˠat̪ˠɑːnˠəx", "Mattánach"),   # ⟨tt⟩ is conv. 2 doubling, not epenthesis
-    ("Gaelach", "ˈɡeːlˠəx", "Gélach"),
-    ("carrbhealach", "ˈkaːɾˠvʲalˠəx", "cárbelach"),
-    ("Séamus", "ˈʃeːmˠəsˠ", "Sémas"),
-    ("gorm", "ˈɡɔɾˠəmˠ", "gorm"),          # the §2.4 grid case still loses its schwa
-    ("bacach", "bˠəˈkax", "baccach"),      # the attested ⟨-ach⟩ pair is untouched
-])
+@pytest.mark.parametrize(
+    "orthography,ipa,expected",
+    [
+        ("Matánach", "ˈmˠat̪ˠɑːnˠəx", "Mattánach"),  # ⟨tt⟩ is conv. 2 doubling, not epenthesis
+        ("Gaelach", "ˈɡeːlˠəx", "Gélach"),
+        ("carrbhealach", "ˈkaːɾˠvʲalˠəx", "cárbelach"),
+        ("Séamus", "ˈʃeːmˠəsˠ", "Sémas"),
+        ("gorm", "ˈɡɔɾˠəmˠ", "gorm"),  # the §2.4 grid case still loses its schwa
+        ("bacach", "bˠəˈkax", "baccach"),  # the attested ⟨-ach⟩ pair is untouched
+    ],
+)
 def test_the_retro_path_keeps_the_unstressed_vowel_outside_the_epenthesis_grid(
-        orthography, ipa, expected):
+    orthography, ipa, expected
+):
     """Digest §2.4 (the grid) end to end: draft 1 wrote *Mattánch*, *Gélch*, *cárbelch*,
     *Séms*."""
     assert spelling(orthography, ipa) == expected
 
 
-@pytest.mark.parametrize("orthography,ipa,expected", [
-    ("splanc", "sˠpˠl̪ˠaŋk", "splanc"),
-    ("speal", "sˠpʲal", "spel"),
-    ("spraoi", "sˠpˠɾˠiː", "sprí"),
-    ("stríoc", "ʃtʲɾʲiːk", "strícc"),
-    ("scéal", "ʃceːl̪ˠ", "scél"),          # the attested lexicon spelling
-    ("cnoc", "kɾˠʊk", "cnocc"),            # post-vocalic /k/ still doubles (attested)
-    ("mac", "mˠak", "macc"),
-])
+@pytest.mark.parametrize(
+    "orthography,ipa,expected",
+    [
+        ("splanc", "sˠpˠl̪ˠaŋk", "splanc"),
+        ("speal", "sˠpʲal", "spel"),
+        ("spraoi", "sˠpˠɾˠiː", "sprí"),
+        ("stríoc", "ʃtʲɾʲiːk", "strícc"),
+        ("scéal", "ʃceːl̪ˠ", "scél"),  # the attested lexicon spelling
+        ("cnoc", "kɾˠʊk", "cnocc"),  # post-vocalic /k/ still doubles (attested)
+        ("mac", "mˠak", "macc"),
+    ],
+)
 def test_the_retro_path_does_not_double_a_voiceless_stop_after_s(orthography, ipa, expected):
     """Digest §10.2 conv. 2 end to end: draft 1 wrote *spplanc*, *sppel*, *spprí*,
     *sttrícc*, *sccél*."""
     assert spelling(orthography, ipa) == expected
 
 
-@pytest.mark.parametrize("orthography,ipa,expected", [
-    ("Niamh", "nʲiəw", "Ném"),             # lexicon oi_nom `ném`
-    ("Caoimhe", "ˈkiːvʲə", "Cóem"),        # lexicon oi_nom `cóem`
-    ("Sorcha", "ˈsˠɔɾˠəxə", "Sorchae"),    # lexicon oi_nom `sorchae`
-    ("bean", "bʲanˠ", "ben"),              # a common noun stays lower-case
-])
-def test_a_lookup_hit_takes_the_input_orthography_s_initial_capital(orthography, ipa,
-                                                                   expected):
+@pytest.mark.parametrize(
+    "orthography,ipa,expected",
+    [
+        ("Niamh", "nʲiəw", "Ném"),  # lexicon oi_nom `ném`
+        ("Caoimhe", "ˈkiːvʲə", "Cóem"),  # lexicon oi_nom `cóem`
+        ("Sorcha", "ˈsˠɔɾˠəxə", "Sorchae"),  # lexicon oi_nom `sorchae`
+        ("bean", "bʲanˠ", "ben"),  # a common noun stays lower-case
+    ],
+)
+def test_a_lookup_hit_takes_the_input_orthography_s_initial_capital(orthography, ipa, expected):
     """O-32. Several name rows were harvested from common-noun entries, so their `oi_nom`
     is lower-case; the RETRO path has always re-applied the input's capital and the lookup
     path must too. Done in the assembly, not by editing the lexicon — an ELEMENT row
@@ -111,17 +128,26 @@ def test_a_lexicon_spelling_that_is_already_capitalized_is_never_lower_cased():
     assert stem.words[0].render() == LEX[key("Niall")].oi_nom
 
 
-@pytest.mark.parametrize("declension,gender,expected", [
-    ("m1", "m", "o"), ("f2", "f", "ā"), ("ach", "m", "o"), ("d4", "m", "indecl"),
-    ("", "f", "ā"), ("", "m", "o"),
-])
-def test_the_stem_class_is_inferred_from_the_declension_then_the_gender(declension, gender,
-                                                                       expected):
+@pytest.mark.parametrize(
+    "declension,gender,expected",
+    [
+        ("m1", "m", "o"),
+        ("f2", "f", "ā"),
+        ("ach", "m", "o"),
+        ("d4", "m", "indecl"),
+        ("", "f", "ā"),
+        ("", "m", "o"),
+    ],
+)
+def test_the_stem_class_is_inferred_from_the_declension_then_the_gender(
+    declension, gender, expected
+):
     """spec §4 / O-21 / S22: draft 1 defaulted an unclassified feminine to `o`. The blank
     cases use a raw `Entry`: `inputs.infer` would fill the declension, and an inferred one
     counts (review-oi-grammar fix 1)."""
-    stem, reason = infer_stem(Entry(orthography="Xyz", ipa="sˠiː", declension=declension,
-                                    gender=gender))
+    stem, reason = infer_stem(
+        Entry(orthography="Xyz", ipa="sˠiː", declension=declension, gender=gender)
+    )
     assert stem == expected and reason.startswith("stem:")
 
 
@@ -149,8 +175,11 @@ def test_a_blank_lexicon_stem_is_inferred_and_reported_not_silently_guessed():
 
 
 def test_every_result_carries_exactly_one_of_the_five_flags():
-    for orthography, ipa in [("Niall", "nʲiəl̪ˠ"), ("Seán", "ʃaːnˠ"),
-                             ("Splancarnach", "sˠpˠl̪ˠaŋkəɾˠnˠəx")]:
+    for orthography, ipa in [
+        ("Niall", "nʲiəl̪ˠ"),
+        ("Seán", "ʃaːnˠ"),
+        ("Splancarnach", "sˠpˠl̪ˠaŋkəɾˠnˠəx"),
+    ]:
         result = run_entry_oi(entry(orthography, ipa), "DESC", IRISH, OI, TABLE)
         assert len([f for f in result.flags if f in OI_FLAGS]) == 1, result.flags
 
@@ -158,8 +187,9 @@ def test_every_result_carries_exactly_one_of_the_five_flags():
 def test_the_ipa_is_reconstructed_from_the_finished_written_form():
     """spec §6, §11 / O-11 — and GPT P2: no separator inside a word."""
     result = run_entry_oi(entry("Niall", "nʲiəl̪ˠ"), "DESC", IRISH, OI, TABLE)
-    rebuilt = " ".join("".join(spelling_to_ipa(SpelledWord.from_spelling(p)))
-                       for p in result.respelling.split(" "))
+    rebuilt = " ".join(
+        "".join(spelling_to_ipa(SpelledWord.from_spelling(p))) for p in result.respelling.split(" ")
+    )
     assert result.ipa == rebuilt
     assert "  " not in result.ipa
 
@@ -167,6 +197,7 @@ def test_the_ipa_is_reconstructed_from_the_finished_written_form():
 def test_punctum_off_changes_the_respelling_and_not_the_ipa():
     """O-14 / spec §11: a rendering option applied AFTER reconstruction."""
     from dataclasses import replace as _replace
+
     off = _replace(OI, meta={**OI.meta, "punctum": "off"})
     a = run_entry_oi(entry("Sean-", "ʃanˠ"), "DESC", IRISH, OI, TABLE)
     b = run_entry_oi(entry("Sean-", "ʃanˠ"), "DESC", IRISH, off, TABLE)
@@ -196,8 +227,7 @@ def test_a_multi_word_attested_form_becomes_several_words():
     row = LEX.get(key("Cú Chulainn"))
     if row is None:
         pytest.skip("no multi-word row in the lexicon")
-    assert len(to_old_irish(entry("Cú Chulainn", "kuː xʊl̪ˠənʲ"), LEX, OI, IRISH,
-                            TABLE).words) == 2
+    assert len(to_old_irish(entry("Cú Chulainn", "kuː xʊl̪ˠənʲ"), LEX, OI, IRISH, TABLE).words) == 2
 
 
 def test_the_result_is_deterministic():

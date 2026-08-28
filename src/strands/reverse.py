@@ -34,6 +34,7 @@ spellings is PRINTED is `SPELLING_PENALTY`'s ruling — the most Irish-looking o
 printed as a concrete word that has not been through `run_entry`. `old_irish_matches` is the
 one strand that skips all of this: Old Irish is a lexicon fnmatch and nothing else (R6).
 """
+
 from __future__ import annotations
 
 import csv
@@ -42,9 +43,9 @@ import heapq
 import itertools
 import re
 import unicodedata
+from collections.abc import Sequence
 from dataclasses import dataclass, replace
 from pathlib import Path
-from typing import Sequence
 
 from . import g2p_inverse
 from .dsl import Backref, Bundle, CtxItem, ItemSpec, QuotedText, Rule, RuleFile
@@ -53,21 +54,62 @@ from .rewrite import match_item
 from .tokenize import MARKS, SegmentError, tokenize
 
 __all__ = [
-    "ANY", "ONE", "SEG", "Step", "Alternative", "RespellSource", "Source", "Deletion",
-    "OptionalGroup", "Slot", "Pattern", "ReverseError", "env_text", "invert_respell",
-    "parse_pattern", "parse_ipa_pattern", "SourceMap", "section_inventory", "expand_target",
-    "source_map", "un_substitute", "WIDEN_SECTIONS", "widen", "RULE_COL", "FORWARD_STAGES",
-    "ConstraintLine", "Constraint", "Example", "format_rule_line", "constraints",
-    "dropped_lines", "render_pattern", "report", "CAP", "PALETTE", "STAR_LENGTHS",
-    "Candidate", "rank", "expand", "SPELLING_PENALTY", "spelling_penalty", "REFINE_HEAD",
-    "verify", "old_irish_matches", "old_irish_report",
-    "TEST_WORDS", "read_hand_ipa_rows", "pattern_admits", "ReverseRow", "ReverseReport",
+    "ANY",
+    "ONE",
+    "SEG",
+    "Step",
+    "Alternative",
+    "RespellSource",
+    "Source",
+    "Deletion",
+    "OptionalGroup",
+    "Slot",
+    "Pattern",
+    "ReverseError",
+    "env_text",
+    "invert_respell",
+    "parse_pattern",
+    "parse_ipa_pattern",
+    "SourceMap",
+    "section_inventory",
+    "expand_target",
+    "source_map",
+    "un_substitute",
+    "WIDEN_SECTIONS",
+    "widen",
+    "RULE_COL",
+    "FORWARD_STAGES",
+    "ConstraintLine",
+    "Constraint",
+    "Example",
+    "format_rule_line",
+    "constraints",
+    "dropped_lines",
+    "render_pattern",
+    "report",
+    "CAP",
+    "PALETTE",
+    "STAR_LENGTHS",
+    "Candidate",
+    "rank",
+    "expand",
+    "SPELLING_PENALTY",
+    "spelling_penalty",
+    "REFINE_HEAD",
+    "verify",
+    "old_irish_matches",
+    "old_irish_report",
+    "TEST_WORDS",
+    "read_hand_ipa_rows",
+    "pattern_admits",
+    "ReverseRow",
+    "ReverseReport",
     "reverse_regression",
 ]
 
 ANY, ONE, SEG = "any", "one", "seg"
 
-_EXPAND_CAP = 64                      # V-4: combinations per rule
+_EXPAND_CAP = 64  # V-4: combinations per rule
 # Marks are never part of a pattern's segment content (spec §2: "stress and syllable marks
 # ignored"; I-8, I-40).
 _MARK_CHARS = "".join(MARKS)
@@ -75,14 +117,16 @@ _MARK_CHARS = "".join(MARKS)
 
 # ---- data model -------------------------------------------------------------------------------
 
+
 @dataclass(frozen=True)
 class Step:
     """One stage of the walk back from a printed letter to an Irish segment (V-31)."""
-    stage: str                        # "respell" | "post-stress" | "repair" | "substitute"
+
+    stage: str  # "respell" | "post-stress" | "repair" | "substitute"
     rule_id: str
-    tag: str                          # "" | "attested" | "design" | "fallback"
+    tag: str  # "" | "attested" | "design" | "fallback"
     context: str
-    kind: str                         # "rule" | "fallback" | "identity" | "epenthesis"
+    kind: str  # "rule" | "fallback" | "identity" | "epenthesis"
 
 
 @dataclass(frozen=True)
@@ -91,6 +135,7 @@ class Alternative:
 
     `steps` is stored NEWEST FIRST — the respell step, then any `[repair]`/`[post-stress]`
     step, then the `[substitute]` step (V-31)."""
+
     segments: tuple[str, ...]
     steps: tuple[Step, ...] = ()
 
@@ -116,7 +161,7 @@ class Source:
     tag: str
     context: str
     kind: str
-    line: int = 0                     # V-28: the rule's own line, for the chain order guard
+    line: int = 0  # V-28: the rule's own line, for the chain order guard
     note: str = ""
 
 
@@ -131,32 +176,33 @@ class Deletion:
 @dataclass(frozen=True)
 class OptionalGroup:
     """A span of slots an insertion could have produced — present or absent as a unit (V-30)."""
-    start: int                        # inclusive slot index
-    stop: int                         # exclusive
+
+    start: int  # inclusive slot index
+    stop: int  # exclusive
     steps: tuple[Step, ...]
     note: str
 
 
 @dataclass(frozen=True)
 class Slot:
-    kind: str                         # ANY | ONE | SEG
-    text: str                         # the pattern text: "a", "?", "*", "[aeiou]"
+    kind: str  # ANY | ONE | SEG
+    text: str  # the pattern text: "a", "?", "*", "[aeiou]"
     alts: tuple[Alternative, ...] = ()
     notes: tuple[str, ...] = ()
     targets: tuple[tuple[str, ...], ...] = ()
-                                      # the distinct TARGET-side segment sequences this slot
-                                      # prints, for the report's `target segments:` line. Set at
-                                      # parse time — the walk back overwrites `alts` with Irish
-                                      # segments, so the target side is not recoverable later.
-                                      # An ambiguous chunk keeps EVERY alternative in respell
-                                      # file order (spec §3.1, V-1); the report joins the
-                                      # segments of one alternative with " " and the
-                                      # alternatives with "|". Empty falls back to `text`.
+    # the distinct TARGET-side segment sequences this slot
+    # prints, for the report's `target segments:` line. Set at
+    # parse time — the walk back overwrites `alts` with Irish
+    # segments, so the target side is not recoverable later.
+    # An ambiguous chunk keeps EVERY alternative in respell
+    # file order (spec §3.1, V-1); the report joins the
+    # segments of one alternative with " " and the
+    # alternatives with "|". Empty falls back to `text`.
 
 
 @dataclass(frozen=True)
 class Pattern:
-    text: str                         # the (casefolded, NFC) word pattern
+    text: str  # the (casefolded, NFC) word pattern
     slots: tuple[Slot, ...]
     groups: tuple[OptionalGroup, ...] = ()
     deletions: tuple[Deletion, ...] = ()
@@ -169,6 +215,7 @@ class ReverseError(Exception):
 
 
 # ---- contexts as text (V-12) ------------------------------------------------------------------
+
 
 def _bundle_text(bundle: Bundle) -> str:
     parts: list[str] = []
@@ -184,13 +231,13 @@ def _item_text(spec: ItemSpec) -> str:
     if spec.kind == "segment" or spec.kind == "class":
         return str(spec.value)
     if spec.kind == "set":
-        return "{" + " ".join(spec.value) + "}"           # type: ignore[arg-type]
+        return "{" + " ".join(spec.value) + "}"  # type: ignore[arg-type]
     if spec.kind == "orth":
         return f'@orth("{spec.value}")'
     if spec.kind == "bundle":
         assert isinstance(spec.value, Bundle)
         return _bundle_text(spec.value)
-    return str(spec.value)                                 # pragma: no cover - no other kinds
+    return str(spec.value)  # pragma: no cover - no other kinds
 
 
 def _ctx_text(item: CtxItem) -> str:
@@ -215,6 +262,7 @@ def env_text(rule: Rule) -> str:
 
 # ---- un-respell (spec §3.1, V-1) --------------------------------------------------------------
 
+
 def _fold(text: str) -> str:
     return unicodedata.normalize("NFC", text).casefold()
 
@@ -226,8 +274,9 @@ def _expand_item(spec: ItemSpec, rf: RuleFile, table: FeatureTable) -> tuple[str
     return tuple(seg for seg in rf.inventory if match_item(spec, seg, rf, table))
 
 
-def invert_respell(rf: RuleFile, table: FeatureTable
-                   ) -> tuple[dict[str, tuple[RespellSource, ...]], tuple[str, ...]]:
+def invert_respell(
+    rf: RuleFile, table: FeatureTable
+) -> tuple[dict[str, tuple[RespellSource, ...]], tuple[str, ...]]:
     """The chunk map of V-1: casefolded output chunk → the segment sequences that print it.
 
     Built from `rf.sections["respell"]` in file order. A quoted replacement whose target items
@@ -244,8 +293,11 @@ def invert_respell(rf: RuleFile, table: FeatureTable
     for rule in rf.sections.get("respell", ()):
         rid = rule.rule_id
         replacement = rule.replacement
-        if (isinstance(replacement, Bundle) or len(replacement) != 1
-                or not isinstance(replacement[0], QuotedText)):
+        if (
+            isinstance(replacement, Bundle)
+            or len(replacement) != 1
+            or not isinstance(replacement[0], QuotedText)
+        ):
             notes.append(f"{rid} skipped: replacement is not a single quoted chunk")
             continue
         if not rule.target:
@@ -259,8 +311,10 @@ def invert_respell(rf: RuleFile, table: FeatureTable
         combinations = list(itertools.islice(itertools.product(*expanded), _EXPAND_CAP + 1))
         if len(combinations) > _EXPAND_CAP:
             combinations = combinations[:_EXPAND_CAP]
-            notes.append(f"{rid} expanded to more than {_EXPAND_CAP} targets; kept the first "
-                         f"{_EXPAND_CAP} in inventory order")
+            notes.append(
+                f"{rid} expanded to more than {_EXPAND_CAP} targets; kept the first "
+                f"{_EXPAND_CAP} in inventory order"
+            )
 
         text = _fold(replacement[0].text)
         for segments in combinations:
@@ -270,23 +324,32 @@ def invert_respell(rf: RuleFile, table: FeatureTable
             # identity chunk is invented for a segment the strand never prints.
             claimed.add(segments)
             if text == "":
-                notes.append(f"{rid} deletes {' '.join(segments)}; a group starting there "
-                             f"is unreachable")
+                notes.append(
+                    f"{rid} deletes {' '.join(segments)}; a group starting there is unreachable"
+                )
                 continue
             chunks.setdefault(text, []).append(
-                RespellSource(segments=segments, rule_id=rid, tag=rule.tag,
-                              context=env_text(rule), line=rule.line))
+                RespellSource(
+                    segments=segments,
+                    rule_id=rid,
+                    tag=rule.tag,
+                    context=env_text(rule),
+                    line=rule.line,
+                )
+            )
 
     for seg in rf.inventory:
         if (seg,) in claimed:
             continue
         chunks.setdefault(_fold(seg), []).append(
-            RespellSource(segments=(seg,), rule_id="identity", tag="", context="", line=0))
+            RespellSource(segments=(seg,), rule_id="identity", tag="", context="", line=0)
+        )
 
     return {chunk: tuple(sources) for chunk, sources in chunks.items()}, tuple(notes)
 
 
 # ---- the glob parser (spec §3.1, V-2) ---------------------------------------------------------
+
 
 def _chunk_order(chunks: dict[str, tuple[RespellSource, ...]]) -> tuple[str, ...]:
     """Longest chunk first, then ascending by `str` — so Georgian `ts'` beats `ts` beats `t`."""
@@ -295,9 +358,18 @@ def _chunk_order(chunks: dict[str, tuple[RespellSource, ...]]) -> tuple[str, ...
 
 def _respell_alt(source: RespellSource) -> Alternative:
     kind = "identity" if source.rule_id == "identity" else "rule"
-    return Alternative(segments=source.segments,
-                       steps=(Step(stage="respell", rule_id=source.rule_id, tag=source.tag,
-                                   context=source.context, kind=kind),))
+    return Alternative(
+        segments=source.segments,
+        steps=(
+            Step(
+                stage="respell",
+                rule_id=source.rule_id,
+                tag=source.tag,
+                context=source.context,
+                kind=kind,
+            ),
+        ),
+    )
 
 
 def _dedupe_segments(sequences) -> tuple[tuple[str, ...], ...]:
@@ -310,14 +382,15 @@ def _class_body(text: str, start: int) -> tuple[str, int]:
     end = text.find("]", start + 1)
     if end == -1:
         raise ReverseError(f"unclosed '[' in pattern {text!r}")
-    body = text[start + 1:end]
+    body = text[start + 1 : end]
     if body[:1] in ("!", "^"):
         raise ReverseError("[!…] classes are not supported")
     return body, end + 1
 
 
-def parse_pattern(pattern: str, chunks: dict[str, tuple[RespellSource, ...]],
-                  *, notes: tuple[str, ...] = ()) -> Pattern:
+def parse_pattern(
+    pattern: str, chunks: dict[str, tuple[RespellSource, ...]], *, notes: tuple[str, ...] = ()
+) -> Pattern:
     """Parse one respelling glob into slots, greedily longest chunk first (V-2).
 
     `notes` is the second value of `invert_respell` and is copied in BEFORE the parser's own
@@ -355,8 +428,9 @@ def parse_pattern(pattern: str, chunks: dict[str, tuple[RespellSource, ...]],
                     slot_notes.append(note)
                     if note not in pattern_notes:
                         pattern_notes.append(note)
-            slots.append(Slot(kind=ONE, text=f"[{body}]", alts=tuple(alts),
-                              notes=tuple(slot_notes)))
+            slots.append(
+                Slot(kind=ONE, text=f"[{body}]", alts=tuple(alts), notes=tuple(slot_notes))
+            )
             continue
         chunk = next((c for c in order if c and text.startswith(c, pos)), None)
         if chunk is None:
@@ -367,9 +441,14 @@ def parse_pattern(pattern: str, chunks: dict[str, tuple[RespellSource, ...]],
             pos += 1
             continue
         sources = chunks[chunk]
-        slots.append(Slot(kind=SEG, text=chunk,
-                          alts=tuple(_respell_alt(s) for s in sources),
-                          targets=_dedupe_segments(s.segments for s in sources)))
+        slots.append(
+            Slot(
+                kind=SEG,
+                text=chunk,
+                alts=tuple(_respell_alt(s) for s in sources),
+                targets=_dedupe_segments(s.segments for s in sources),
+            )
+        )
         pos += len(chunk)
 
     return Pattern(text=text, slots=tuple(slots), notes=tuple(pattern_notes))
@@ -420,8 +499,14 @@ def parse_ipa_pattern(pattern: str, target: RuleFile, table: FeatureTable) -> Pa
         if not span:
             return
         for seg in _tokenize_span(span, table):
-            slots.append(Slot(kind=SEG, text=seg, alts=(Alternative(segments=(seg,)),),
-                              notes=note_unknown(seg)))
+            slots.append(
+                Slot(
+                    kind=SEG,
+                    text=seg,
+                    alts=(Alternative(segments=(seg,)),),
+                    notes=note_unknown(seg),
+                )
+            )
 
     while pos < len(text):
         ch = text[pos]
@@ -441,9 +526,14 @@ def parse_ipa_pattern(pattern: str, target: RuleFile, table: FeatureTable) -> Pa
             slot_notes: list[str] = []
             for seg in members:
                 slot_notes.extend(note_unknown(seg))
-            slots.append(Slot(kind=ONE, text=f"[{body}]",
-                              alts=tuple(Alternative(segments=(seg,)) for seg in members),
-                              notes=tuple(slot_notes)))
+            slots.append(
+                Slot(
+                    kind=ONE,
+                    text=f"[{body}]",
+                    alts=tuple(Alternative(segments=(seg,)) for seg in members),
+                    notes=tuple(slot_notes),
+                )
+            )
         span_start = pos
     flush(len(text))
 
@@ -454,8 +544,12 @@ def parse_ipa_pattern(pattern: str, target: RuleFile, table: FeatureTable) -> Pa
 
 SourceMap = dict[tuple[str, ...], tuple[Source, ...]]
 
-_STAGE_OF_SECTION = {"substitute": "substitute", "repair": "repair",
-                     "post-stress": "post-stress", "respell": "respell"}
+_STAGE_OF_SECTION = {
+    "substitute": "substitute",
+    "repair": "repair",
+    "post-stress": "post-stress",
+    "respell": "respell",
+}
 
 
 def section_inventory(section: str, target: RuleFile, irish: RuleFile) -> tuple[str, ...]:
@@ -471,8 +565,9 @@ def section_inventory(section: str, target: RuleFile, irish: RuleFile) -> tuple[
     return tuple(source)
 
 
-def _item_options(spec: ItemSpec, match_rf: RuleFile, inventory: Sequence[str],
-                  table: FeatureTable) -> tuple[str, ...]:
+def _item_options(
+    spec: ItemSpec, match_rf: RuleFile, inventory: Sequence[str], table: FeatureTable
+) -> tuple[str, ...]:
     """Every segment of `inventory` the item matches, in inventory order (V-4).
 
     A literal segment item yields itself whether or not it is in the inventory: georgian's
@@ -484,29 +579,35 @@ def _item_options(spec: ItemSpec, match_rf: RuleFile, inventory: Sequence[str],
     return tuple(seg for seg in inventory if match_item(spec, seg, match_rf, table))
 
 
-def _target_combinations(rule: Rule, match_rf: RuleFile, inventory: Sequence[str],
-                         table: FeatureTable):
+def _target_combinations(
+    rule: Rule, match_rf: RuleFile, inventory: Sequence[str], table: FeatureTable
+):
     """Lazily, every (segment sequence, captures) the rule's target can match."""
     options = [_item_options(spec, match_rf, inventory, table) for spec in rule.target]
     for combination in itertools.product(*options):
-        captures = {spec.capture: seg
-                    for spec, seg in zip(rule.target, combination)
-                    if spec.capture is not None}
+        captures = {
+            spec.capture: seg
+            for spec, seg in zip(rule.target, combination)
+            if spec.capture is not None
+        }
         yield combination, captures
 
 
-def expand_target(rule: Rule, match_rf: RuleFile, inventory: Sequence[str],
-                  table: FeatureTable) -> tuple[tuple[tuple[str, ...], dict[int, str]], ...]:
+def expand_target(
+    rule: Rule, match_rf: RuleFile, inventory: Sequence[str], table: FeatureTable
+) -> tuple[tuple[tuple[str, ...], dict[int, str]], ...]:
     """Each (segment sequence, captures) the rule's TARGET can match over `inventory`, in
     inventory order, capped at `_EXPAND_CAP` (V-4). `match_rf` supplies the class names (always
     the TARGET rule file — the rule's class names are its own file's); `inventory` is chosen by
     the caller per V-29."""
-    return tuple(itertools.islice(_target_combinations(rule, match_rf, inventory, table),
-                                  _EXPAND_CAP))
+    return tuple(
+        itertools.islice(_target_combinations(rule, match_rf, inventory, table), _EXPAND_CAP)
+    )
 
 
-def _capture_options(rule: Rule, n: int, match_rf: RuleFile, inventory: Sequence[str],
-                     table: FeatureTable) -> tuple[str, ...]:
+def _capture_options(
+    rule: Rule, n: int, match_rf: RuleFile, inventory: Sequence[str], table: FeatureTable
+) -> tuple[str, ...]:
     """The segments the CONTEXT item capturing `\\n` can match (V-6)."""
     for item in itertools.chain(rule.left, rule.right):
         if isinstance(item.atom, ItemSpec) and item.atom.capture == n:
@@ -514,28 +615,45 @@ def _capture_options(rule: Rule, n: int, match_rf: RuleFile, inventory: Sequence
     return ()
 
 
-def _invert_rule(rule: Rule, target: RuleFile, inventory: tuple[str, ...],
-                 table: FeatureTable, section: str,
-                 add, deletions: list[Deletion], notes: list[str],
-                 covered: set[tuple[str, ...]]) -> None:
+def _invert_rule(
+    rule: Rule,
+    target: RuleFile,
+    inventory: tuple[str, ...],
+    table: FeatureTable,
+    section: str,
+    add,
+    deletions: list[Deletion],
+    notes: list[str],
+    covered: set[tuple[str, ...]],
+) -> None:
     """One rule of one section, inverted by replacement shape (V-5, V-6, V-7)."""
     rid, tag, line = rule.rule_id, rule.tag, rule.line
     context = env_text(rule)
     context_free = not rule.left and not rule.right
     replacement = rule.replacement
 
-    combinations = list(itertools.islice(
-        _target_combinations(rule, target, inventory, table), _EXPAND_CAP + 1))
+    combinations = list(
+        itertools.islice(_target_combinations(rule, target, inventory, table), _EXPAND_CAP + 1)
+    )
     if len(combinations) > _EXPAND_CAP:
         combinations = combinations[:_EXPAND_CAP]
-        notes.append(f"{rid} expanded to more than {_EXPAND_CAP} targets; kept the first "
-                     f"{_EXPAND_CAP} in inventory order")
+        notes.append(
+            f"{rid} expanded to more than {_EXPAND_CAP} targets; kept the first "
+            f"{_EXPAND_CAP} in inventory order"
+        )
 
     def source(segments, kind, *, rule_id=rid, note="") -> Source:
-        return Source(segments=segments, rule_id=rule_id, tag=tag, context=context,
-                      kind=kind, line=line, note=note)
+        return Source(
+            segments=segments,
+            rule_id=rule_id,
+            tag=tag,
+            context=context,
+            kind=kind,
+            line=line,
+            note=note,
+        )
 
-    if isinstance(replacement, Bundle):                      # feature change
+    if isinstance(replacement, Bundle):  # feature change
         if not rule.target:
             notes.append(f"{rid} skipped: a feature change needs a target")
             return
@@ -556,7 +674,7 @@ def _invert_rule(rule: Rule, target: RuleFile, inventory: tuple[str, ...],
 
     # A DELETION does not "cover" its target for V-8/V-9: `X -> 0` leaves nothing behind, so
     # the fallback still has to offer X somewhere (the plan's synthetic /h/ is exactly this).
-    if replacement == ():                                    # deletion (V-7)
+    if replacement == ():  # deletion (V-7)
         if not rule.target:
             notes.append(f"{rid} skipped: a deletion needs a target")
             return
@@ -570,11 +688,13 @@ def _invert_rule(rule: Rule, target: RuleFile, inventory: tuple[str, ...],
 
     epenthesis = not rule.target
     for segments, captures in combinations:
-        unresolved = sorted({part.n for part in replacement
-                             if isinstance(part, Backref) and part.n not in captures})
+        unresolved = sorted(
+            {part.n for part in replacement if isinstance(part, Backref) and part.n not in captures}
+        )
         if not unresolved:
-            key = tuple(captures[part.n] if isinstance(part, Backref) else str(part)
-                        for part in replacement)
+            key = tuple(
+                captures[part.n] if isinstance(part, Backref) else str(part) for part in replacement
+            )
             if epenthesis:
                 # V-5/V-30: however many segments are inserted, they are ONE key.
                 add(key, source((), "epenthesis"))
@@ -588,15 +708,19 @@ def _invert_rule(rule: Rule, target: RuleFile, inventory: tuple[str, ...],
         # unknown at inversion time — one epenthesis source per segment that item can match.
         options = [_capture_options(rule, n, target, inventory, table) for n in unresolved]
         if any(not choices for choices in options):
-            notes.append(f"{rid} skipped: no context item captures "
-                         f"\\{unresolved[0]}")
+            notes.append(f"{rid} skipped: no context item captures \\{unresolved[0]}")
             continue
         note = "copies " + ", ".join(f"\\{n}" for n in unresolved) + " from the context"
         for assignment in itertools.islice(itertools.product(*options), _EXPAND_CAP):
             copied = dict(zip(unresolved, assignment))
-            key = tuple(copied[part.n] if isinstance(part, Backref) and part.n in copied
-                        else captures[part.n] if isinstance(part, Backref) else str(part)
-                        for part in replacement)
+            key = tuple(
+                copied[part.n]
+                if isinstance(part, Backref) and part.n in copied
+                else captures[part.n]
+                if isinstance(part, Backref)
+                else str(part)
+                for part in replacement
+            )
             add(key, source((), "epenthesis", note=note))
 
 
@@ -614,21 +738,31 @@ def _close_chains(smap: dict[tuple[str, ...], list[Source]], add, depth: int) ->
                     if earlier.kind != "rule":
                         continue
                     if earlier.segments == key or earlier.segments == step.segments:
-                        continue                              # cycle guard (v v -> v, …)
+                        continue  # cycle guard (v v -> v, …)
                     if earlier.line >= step.line:
-                        continue                              # V-28: the order guard
+                        continue  # V-28: the order guard
                     tag = "design" if "design" in (step.tag, earlier.tag) else step.tag
                     context = " ; ".join(x for x in (earlier.context, step.context) if x)
-                    additions.append((key, Source(
-                        segments=earlier.segments,
-                        rule_id=f"{earlier.rule_id}>{step.rule_id}",
-                        tag=tag, context=context, kind="rule", line=step.line)))
+                    additions.append(
+                        (
+                            key,
+                            Source(
+                                segments=earlier.segments,
+                                rule_id=f"{earlier.rule_id}>{step.rule_id}",
+                                tag=tag,
+                                context=context,
+                                kind="rule",
+                                line=step.line,
+                            ),
+                        )
+                    )
         for key, source in additions:
             add(key, source)
 
 
-def source_map(section: str, target: RuleFile, irish: RuleFile, table: FeatureTable,
-               *, depth: int = 3) -> tuple[SourceMap, tuple[Deletion, ...], tuple[str, ...]]:
+def source_map(
+    section: str, target: RuleFile, irish: RuleFile, table: FeatureTable, *, depth: int = 3
+) -> tuple[SourceMap, tuple[Deletion, ...], tuple[str, ...]]:
     """Invert one section: target-side segment sequence → the sources that can produce it (V-3).
 
     Built rule by rule in file order; then the ordered chain closure (V-11/V-28); then, for
@@ -645,7 +779,7 @@ def source_map(section: str, target: RuleFile, irish: RuleFile, table: FeatureTa
     def add(key: tuple[str, ...], source: Source) -> None:
         marker = (source.segments, source.rule_id)
         if marker in seen.setdefault(key, set()):
-            return                                            # dedupe by (segments, rule_id)
+            return  # dedupe by (segments, rule_id)
         seen[key].add(marker)
         smap.setdefault(key, []).append(source)
 
@@ -663,19 +797,34 @@ def source_map(section: str, target: RuleFile, irish: RuleFile, table: FeatureTa
                 continue
             if seg in target.inventory:
                 # V-9: the strand has this segment, so it can simply survive.
-                add((seg,), Source(segments=(seg,), rule_id="identity", tag="", context="",
-                                   kind="identity"))
+                add(
+                    (seg,),
+                    Source(
+                        segments=(seg,), rule_id="identity", tag="", context="", kind="identity"
+                    ),
+                )
             else:
-                add((table.nearest(seg, candidates, target.weights),),
-                    Source(segments=(seg,), rule_id="fallback", tag="fallback", context="",
-                           kind="fallback"))
+                add(
+                    (table.nearest(seg, candidates, target.weights),),
+                    Source(
+                        segments=(seg,),
+                        rule_id="fallback",
+                        tag="fallback",
+                        context="",
+                        kind="fallback",
+                    ),
+                )
 
-    return ({key: tuple(sources) for key, sources in smap.items()},
-            tuple(deletions), tuple(notes))
+    return ({key: tuple(sources) for key, sources in smap.items()}, tuple(deletions), tuple(notes))
 
 
-def un_substitute(pattern: Pattern, smap: SourceMap, *,
-                  deletions: Sequence[Deletion] = (), notes: Sequence[str] = ()) -> Pattern:
+def un_substitute(
+    pattern: Pattern,
+    smap: SourceMap,
+    *,
+    deletions: Sequence[Deletion] = (),
+    notes: Sequence[str] = (),
+) -> Pattern:
     """Walk each slot's alternatives back across `[substitute]` (V-3, V-31).
 
     For every alternative whose segments are a key of `smap`, one new alternative per `Source`,
@@ -706,18 +855,39 @@ def un_substitute(pattern: Pattern, smap: SourceMap, *,
             # DROPPED — keeping it would leave a stepless alternative that later reporting would
             # read as an Irish identity source (welsh `th` -> /θ/, which no Irish segment reaches).
             for source in smap.get(alt.segments, ()):
-                keep(Alternative(segments=source.segments,
-                                 steps=alt.steps + (Step(stage="substitute",
-                                                         rule_id=source.rule_id,
-                                                         tag=source.tag, context=source.context,
-                                                         kind=source.kind),)))
-        slots.append(Slot(kind=slot.kind, text=slot.text, alts=tuple(alts),
-                          notes=slot.notes, targets=slot.targets))
+                keep(
+                    Alternative(
+                        segments=source.segments,
+                        steps=alt.steps
+                        + (
+                            Step(
+                                stage="substitute",
+                                rule_id=source.rule_id,
+                                tag=source.tag,
+                                context=source.context,
+                                kind=source.kind,
+                            ),
+                        ),
+                    )
+                )
+        slots.append(
+            Slot(
+                kind=slot.kind,
+                text=slot.text,
+                alts=tuple(alts),
+                notes=slot.notes,
+                targets=slot.targets,
+            )
+        )
 
     extra = tuple(note for note in notes if note not in pattern.notes)
-    return Pattern(text=pattern.text, slots=tuple(slots), groups=pattern.groups,
-                   deletions=pattern.deletions + tuple(deletions),
-                   notes=pattern.notes + extra)
+    return Pattern(
+        text=pattern.text,
+        slots=tuple(slots),
+        groups=pattern.groups,
+        deletions=pattern.deletions + tuple(deletions),
+        notes=pattern.notes + extra,
+    )
 
 
 # ---- widening over [repair] / [post-stress] (spec §3.3, V-18, V-29, V-30, V-31) ----------------
@@ -733,8 +903,7 @@ def _group_note(steps: Sequence[Step], extra: Sequence[str] = ()) -> str:
     return "; ".join(parts)
 
 
-def _epenthesis_groups(slots: Sequence[Slot], smap: SourceMap, section: str
-                       ) -> list[OptionalGroup]:
+def _epenthesis_groups(slots: Sequence[Slot], smap: SourceMap, section: str) -> list[OptionalGroup]:
     """Every consecutive slot SPAN an insertion of this section could have produced (V-30).
 
     A group is found only where EVERY inserted segment has a slot that can read as it, so a
@@ -755,11 +924,13 @@ def _epenthesis_groups(slots: Sequence[Slot], smap: SourceMap, section: str
             continue
         width = len(inserted)
         for start in range(0, len(slots) - width + 1):
-            span = slots[start:start + width]
+            span = slots[start : start + width]
             if any(slot.kind != SEG for slot in span):
                 continue
-            if not all(any(alt.segments == (seg,) for alt in slot.alts)
-                       for slot, seg in zip(span, inserted)):
+            if not all(
+                any(alt.segments == (seg,) for alt in slot.alts)
+                for slot, seg in zip(span, inserted)
+            ):
                 continue
             bucket = spans.setdefault((start, start + width), [])
             for source in epenthetic:
@@ -767,11 +938,26 @@ def _epenthesis_groups(slots: Sequence[Slot], smap: SourceMap, section: str
                     bucket.append(source)
     found: list[OptionalGroup] = []
     for (start, stop), sources in sorted(spans.items()):
-        steps = tuple(dict.fromkeys(
-            Step(stage=section, rule_id=s.rule_id, tag=s.tag, context=s.context,
-                 kind="epenthesis") for s in sources))
-        found.append(OptionalGroup(start=start, stop=stop, steps=steps,
-                                   note=_group_note(steps, [s.note for s in sources])))
+        steps = tuple(
+            dict.fromkeys(
+                Step(
+                    stage=section,
+                    rule_id=s.rule_id,
+                    tag=s.tag,
+                    context=s.context,
+                    kind="epenthesis",
+                )
+                for s in sources
+            )
+        )
+        found.append(
+            OptionalGroup(
+                start=start,
+                stop=stop,
+                steps=steps,
+                note=_group_note(steps, [s.note for s in sources]),
+            )
+        )
     return found
 
 
@@ -794,29 +980,32 @@ def _merge_spans(candidates: Sequence[OptionalGroup]) -> list[OptionalGroup]:
     return out
 
 
-def _resolve_groups(candidates: Sequence[OptionalGroup], notes: list[str]
-                    ) -> tuple[OptionalGroup, ...]:
+def _resolve_groups(
+    candidates: Sequence[OptionalGroup], notes: list[str]
+) -> tuple[OptionalGroup, ...]:
     """Sorted by `(start, stop)` and non-overlapping; equal spans MERGE (`_merge_spans`), and on
     a partial overlap the earlier, then longer group wins and the other is dropped with a note
     (V-30)."""
-    ordered = sorted(_merge_spans(candidates),
-                     key=lambda g: (g.start, -(g.stop - g.start), g.steps[0].rule_id))
+    ordered = sorted(
+        _merge_spans(candidates), key=lambda g: (g.start, -(g.stop - g.start), g.steps[0].rule_id)
+    )
     kept: list[OptionalGroup] = []
     for group in ordered:
         clash = next((k for k in kept if k.start < group.stop and group.start < k.stop), None)
         if clash is None:
             kept.append(group)
             continue
-        note = (f"{group.steps[0].rule_id} could insert slots "
-                f"{group.start}-{group.stop - 1}, which overlaps "
-                f"{clash.steps[0].rule_id}; dropped")
+        note = (
+            f"{group.steps[0].rule_id} could insert slots "
+            f"{group.start}-{group.stop - 1}, which overlaps "
+            f"{clash.steps[0].rule_id}; dropped"
+        )
         if note not in notes:
             notes.append(note)
     return tuple(sorted(kept, key=lambda g: (g.start, g.stop)))
 
 
-def widen(pattern: Pattern, target: RuleFile, irish: RuleFile,
-          table: FeatureTable) -> Pattern:
+def widen(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTable) -> Pattern:
     """Widen a parsed pattern over `[repair]` and `[post-stress]` (spec §3.3, V-18).
 
     (a) Every slot alternative one of those rules could have PRODUCED gains that rule's target
@@ -852,29 +1041,48 @@ def widen(pattern: Pattern, target: RuleFile, irish: RuleFile,
             for alt in slot.alts:
                 for source in smap.get(alt.segments, ()):
                     if source.kind != "rule":
-                        continue                     # epenthesis becomes a group, not an alt
+                        continue  # epenthesis becomes a group, not an alt
                     new = Alternative(
                         segments=source.segments,
-                        steps=alt.steps + (Step(stage=section, rule_id=source.rule_id,
-                                                tag=source.tag, context=source.context,
-                                                kind=source.kind),))
+                        steps=alt.steps
+                        + (
+                            Step(
+                                stage=section,
+                                rule_id=source.rule_id,
+                                tag=source.tag,
+                                context=source.context,
+                                kind=source.kind,
+                            ),
+                        ),
+                    )
                     if (new.segments, new.steps) not in seen:
                         seen.add((new.segments, new.steps))
                         alts.append(new)
-            widened.append(Slot(kind=slot.kind, text=slot.text, alts=tuple(alts),
-                                notes=slot.notes, targets=slot.targets))
+            widened.append(
+                Slot(
+                    kind=slot.kind,
+                    text=slot.text,
+                    alts=tuple(alts),
+                    notes=slot.notes,
+                    targets=slot.targets,
+                )
+            )
         slots = widened
         candidates.extend(_epenthesis_groups(slots, smap, section))
 
-    return Pattern(text=pattern.text, slots=tuple(slots),
-                   groups=_resolve_groups(pattern.groups + tuple(candidates), notes),
-                   deletions=tuple(deletions), notes=tuple(notes))
+    return Pattern(
+        text=pattern.text,
+        slots=tuple(slots),
+        groups=_resolve_groups(pattern.groups + tuple(candidates), notes),
+        deletions=tuple(deletions),
+        notes=tuple(notes),
+    )
 
 
 # ---- the constraint set and the report (spec §4; V-7, V-13 … V-15, V-21, V-31, V-32) -----------
 
-RULE_COL = 62                         # V-32: a CODE-POINT index, not a display column
-_ALT_CAP = 6                          # V-14: alternatives printed per slot in the rendering
+RULE_COL = 62  # V-32: a CODE-POINT index, not a display column
+_ALT_CAP = 6  # V-14: alternatives printed per slot in the rendering
 
 #: The order everything is REPORTED in — the forward engine's order, not the walk's (V-31).
 FORWARD_STAGES = ("substitute", "repair", "post-stress", "respell")
@@ -884,8 +1092,12 @@ _TAG_RANK = {"": 0, "attested": 0, "design": 1, "fallback": 2}
 _TAG_NAME = ("", "design", "fallback")
 # V-15: a fixed phrase per source kind, never hand prose. `describe(())` is already
 # "inserted, no Irish letter", so epenthesis needs no suffix of its own.
-_KIND_PHRASE = {"identity": "", "rule": "", "fallback": " (nearest inventory match)",
-                "epenthesis": ""}
+_KIND_PHRASE = {
+    "identity": "",
+    "rule": "",
+    "fallback": " (nearest inventory match)",
+    "epenthesis": "",
+}
 _DROPPED_PHRASE = "may have been dropped anywhere in this word"
 
 
@@ -893,16 +1105,17 @@ _DROPPED_PHRASE = "may have been dropped anywhere in this word"
 class ConstraintLine:
     """One printed line of the constraint set: a group of alternatives that agree on
     `(kind, description)` (V-31, revised by fix-round B1 — context and tag left the key)."""
+
     description: str
     rule_ids: tuple[str, ...]
-    tag: str                          # "" | "design" | "fallback"
+    tag: str  # "" | "design" | "fallback"
     kind: str
-    context: str                      # one walk's context-bearing steps, joined " ; " — the
-                                      # FIRST contributing walk's, since B1 merges across
-                                      # contexts; `contexts` below carries all of them
-    label: str = ""                   # only the `possibly dropped` block uses this: its lines
-                                      # are not attached to a slot, so they carry their own
-                                      # label (the deleted segments)
+    context: str  # one walk's context-bearing steps, joined " ; " — the
+    # FIRST contributing walk's, since B1 merges across
+    # contexts; `contexts` below carries all of them
+    label: str = ""  # only the `possibly dropped` block uses this: its lines
+    # are not attached to a slot, so they carry their own
+    # label (the deleted segments)
     contexts: tuple[tuple[str, str], ...] = ()
     # ^ (rule_id, context) per context-bearing STEP of every merged walk, in forward stage
     # order. The exclusions block needs them apart, because it prints one line per step with
@@ -912,8 +1125,8 @@ class ConstraintLine:
 
 @dataclass(frozen=True)
 class Constraint:
-    label: str                        # the pattern text of the slot: "a", "*", "[aeiou]"
-    target: str                       # the target-side segments the slot prints
+    label: str  # the pattern text of the slot: "a", "*", "[aeiou]"
+    target: str  # the target-side segments the slot prints
     lines: tuple[ConstraintLine, ...]
     notes: tuple[str, ...]
     unconstrained: bool
@@ -923,6 +1136,7 @@ class Constraint:
 class Example:
     """One forward-verified concrete word (spec §3.5). Filled in by `verify` (Task 7); defined
     here because `report` prints it."""
+
     orthography: str
     respelling: str
     ipa: str
@@ -1038,14 +1252,23 @@ def _merge_lines(lines: Sequence[ConstraintLine]) -> tuple[ConstraintLine, ...]:
         merged[key] = ConstraintLine(
             description=seen.description,
             rule_ids=tuple(sorted(_dedupe(seen.rule_ids + line.rule_ids), key=_id_order)),
-            tag=_strongest_tag((seen.tag, line.tag)), kind=seen.kind,
-            context=seen.context or line.context, label=seen.label,
-            contexts=tuple(dict.fromkeys(seen.contexts + line.contexts)))
-    return tuple(sorted(merged.values(),
-                        key=lambda l: (_KIND_RANK.get(l.kind, 9),
-                                       1 if l.tag == "design" else 0,
-                                       l.rule_ids[0] if l.rule_ids else "",
-                                       l.description)))
+            tag=_strongest_tag((seen.tag, line.tag)),
+            kind=seen.kind,
+            context=seen.context or line.context,
+            label=seen.label,
+            contexts=tuple(dict.fromkeys(seen.contexts + line.contexts)),
+        )
+    return tuple(
+        sorted(
+            merged.values(),
+            key=lambda l: (
+                _KIND_RANK.get(l.kind, 9),
+                1 if l.tag == "design" else 0,
+                l.rule_ids[0] if l.rule_ids else "",
+                l.description,
+            ),
+        )
+    )
 
 
 def _target_text(slot: Slot) -> str:
@@ -1062,9 +1285,15 @@ def constraints(pattern: Pattern) -> tuple[Constraint, ...]:
     out: list[Constraint] = []
     for slot in pattern.slots:
         lines = _merge_lines([_line_of(alt) for alt in slot.alts])
-        out.append(Constraint(label=slot.text,
-                              target=_target_text(slot),
-                              lines=lines, notes=slot.notes, unconstrained=not lines))
+        out.append(
+            Constraint(
+                label=slot.text,
+                target=_target_text(slot),
+                lines=lines,
+                notes=slot.notes,
+                unconstrained=not lines,
+            )
+        )
     return tuple(out)
 
 
@@ -1092,23 +1321,30 @@ def dropped_lines(pattern: Pattern) -> tuple[ConstraintLine, ...]:
         contexts = ((deletion.rule_id, deletion.context),) if deletion.context else ()
         merged[label] = ConstraintLine(
             description=_DROPPED_PHRASE,
-            rule_ids=tuple(sorted(_dedupe((seen.rule_ids if seen else ())
-                                          + (deletion.rule_id,)), key=_id_order)),
-            tag=tag if seen is None else _strongest_tag((seen.tag, tag)), kind="rule",
+            rule_ids=tuple(
+                sorted(
+                    _dedupe((seen.rule_ids if seen else ()) + (deletion.rule_id,)), key=_id_order
+                )
+            ),
+            tag=tag if seen is None else _strongest_tag((seen.tag, tag)),
+            kind="rule",
             context=deletion.context if seen is None else (seen.context or deletion.context),
             label=label,
-            contexts=tuple(dict.fromkeys((seen.contexts if seen else ()) + contexts)))
-    return tuple(sorted(merged.values(),
-                        key=lambda l: (_id_order(l.rule_ids[0]), l.rule_ids[0], l.label)))
+            contexts=tuple(dict.fromkeys((seen.contexts if seen else ()) + contexts)),
+        )
+    return tuple(
+        sorted(merged.values(), key=lambda l: (_id_order(l.rule_ids[0]), l.rule_ids[0], l.label))
+    )
 
 
 # ---- the Irish spelling pattern (spec §3.4, §4; V-14, V-30, R7) --------------------------------
+
 
 def _graphemes_of(segments: tuple[str, ...]) -> tuple[str, ...]:
     """The Irish letters that read as this segment sequence — vowel runs first, then the
     consonant registry (V-27/V-19). No quality words: this is the pattern line, not the
     description column."""
-    runs = g2p_inverse.silent_free_runs(segments)   # B2: no ⟨adh eadh agh …⟩ in the pattern
+    runs = g2p_inverse.silent_free_runs(segments)  # B2: no ⟨adh eadh agh …⟩ in the pattern
     if runs:
         return tuple(runs)
     return _dedupe([reading.grapheme for reading in g2p_inverse.readings_for(segments)])
@@ -1131,7 +1367,7 @@ def _slot_quality(slot: Slot) -> str:
     qualities: set[str] = set()
     for alt in slot.alts:
         if not alt.segments:
-            continue                       # epenthesis spells nothing and imposes nothing
+            continue  # epenthesis spells nothing and imposes nothing
         if _is_nucleus(alt.segments):
             return ""
         readings = g2p_inverse.readings_for(alt.segments)
@@ -1156,7 +1392,7 @@ def _slot_graphemes(slots: Sequence[Slot], index: int) -> tuple[str, ...]:
     nucleus = False
     for alt in slot.alts:
         if not alt.segments:
-            continue                                  # epenthesis: no letter (V-14)
+            continue  # epenthesis: no letter (V-14)
         nucleus = nucleus or _is_nucleus(alt.segments)
         for grapheme in _graphemes_of(alt.segments):
             if grapheme not in graphemes:
@@ -1165,11 +1401,18 @@ def _slot_graphemes(slots: Sequence[Slot], index: int) -> tuple[str, ...]:
         return tuple(graphemes)
     left = _slot_quality(slots[index - 1]) if index else ""
     right = _slot_quality(slots[index + 1]) if index + 1 < len(slots) else ""
-    kept = [g for g in graphemes
-            if (not left or g2p_inverse.QUALITY_LEFT.get(g, g2p_inverse.EITHER)
-                in (left, g2p_inverse.EITHER))
-            and (not right or g2p_inverse.QUALITY_RIGHT.get(g, g2p_inverse.EITHER)
-                 in (right, g2p_inverse.EITHER))]
+    kept = [
+        g
+        for g in graphemes
+        if (
+            not left
+            or g2p_inverse.QUALITY_LEFT.get(g, g2p_inverse.EITHER) in (left, g2p_inverse.EITHER)
+        )
+        and (
+            not right
+            or g2p_inverse.QUALITY_RIGHT.get(g, g2p_inverse.EITHER) in (right, g2p_inverse.EITHER)
+        )
+    ]
     return tuple(kept or graphemes)
 
 
@@ -1193,12 +1436,18 @@ def _insertions(pattern: Pattern) -> tuple[tuple[int, int, tuple[Step, ...]], ..
     for group in pattern.groups:
         spans.setdefault((group.start, group.stop), []).extend(group.steps)
     for index, slot in enumerate(pattern.slots):
-        steps = [step for alt in slot.alts if not alt.segments for step in alt.steps
-                 if step.kind == "epenthesis"]
+        steps = [
+            step
+            for alt in slot.alts
+            if not alt.segments
+            for step in alt.steps
+            if step.kind == "epenthesis"
+        ]
         if steps:
             spans.setdefault((index, index + 1), []).extend(steps)
-    return tuple((start, stop, tuple(dict.fromkeys(steps)))
-                 for (start, stop), steps in sorted(spans.items()))
+    return tuple(
+        (start, stop, tuple(dict.fromkeys(steps))) for (start, stop), steps in sorted(spans.items())
+    )
 
 
 def _insert_ids(steps: Sequence[Step]) -> str:
@@ -1227,8 +1476,9 @@ def _base_line(pattern: Pattern, *, drop: tuple[int, int] | None = None) -> str:
             inner = "".join(_slot_text(slots, i) for i in range(span[0], span[1]))
             # D5: a one-slot group is already parenthesised by `_slot_text`; `((a|b))?` was
             # that alternation wrapped a second time.
-            parts.append(f"{inner}?" if span[1] - span[0] == 1 and inner.startswith("(")
-                         else f"({inner})?")
+            parts.append(
+                f"{inner}?" if span[1] - span[0] == 1 and inner.startswith("(") else f"({inner})?"
+            )
             index = span[1]
             continue
         parts.append(_slot_text(slots, index))
@@ -1259,7 +1509,7 @@ def render_pattern(pattern: Pattern) -> tuple[str, ...]:
 _PSEUDO_IDS = ("identity", "fallback")
 
 
-_ID_CAP = 4                           # B1: rule ids printed per line before `+N`
+_ID_CAP = 4  # B1: rule ids printed per line before `+N`
 
 
 def _rule_suffix(line: ConstraintLine) -> str:
@@ -1284,18 +1534,28 @@ def _example_lines(examples: Sequence[Example]) -> list[str]:
     return out
 
 
-def report(word: str, strand: str, pattern: Pattern, examples: Sequence[Example] = (),
-           *, tried: int = 0, cap_hit: bool = False, verified: bool = True) -> list[str]:
+def report(
+    word: str,
+    strand: str,
+    pattern: Pattern,
+    examples: Sequence[Example] = (),
+    *,
+    tried: int = 0,
+    cap_hit: bool = False,
+    verified: bool = True,
+) -> list[str]:
     """The whole §4 block for one word, as lines without newlines.
 
     Section order and content are the spec's; every rule-bearing line goes through the one
     formatter (V-32), so the rule column cannot drift between blocks.
     """
     found = constraints(pattern)
-    out = [f"{word}  [{strand}]",
-           "target segments: " + " ".join(c.target for c in found),
-           "",
-           "constraints"]
+    out = [
+        f"{word}  [{strand}]",
+        "target segments: " + " ".join(c.target for c in found),
+        "",
+        "constraints",
+    ]
 
     for constraint in found:
         if constraint.unconstrained:
@@ -1307,15 +1567,16 @@ def report(word: str, strand: str, pattern: Pattern, examples: Sequence[Example]
             out.append(f"      note: {note}")
     printed = {note for c in found for note in c.notes}
     for note in pattern.notes:
-        if note not in printed:            # a slot already printed its own note above
+        if note not in printed:  # a slot already printed its own note above
             out.append(f"  note: {note}")
 
     dropped = dropped_lines(pattern)
     if dropped:
         out.extend(["", "possibly dropped"])
         for line in dropped:
-            out.extend(format_rule_line(f"  {line.label:<3} ", line.description,
-                                        _rule_suffix(line)))
+            out.extend(
+                format_rule_line(f"  {line.label:<3} ", line.description, _rule_suffix(line))
+            )
 
     # V-13 (Q1), narrowed by B1: one line per context-bearing `[substitute]` step and per
     # epenthesis source, carrying that step's own environment verbatim, deduplicated by
@@ -1333,9 +1594,13 @@ def report(word: str, strand: str, pattern: Pattern, examples: Sequence[Example]
                 if (constraint.label, context) in seen_exclusions:
                     continue
                 seen_exclusions.add((constraint.label, context))
-                exclusions.extend(format_rule_line(
-                    f"  {constraint.label} ← ",
-                    f"{line.description}: only when  {context}", f"({rule_id} context)"))
+                exclusions.extend(
+                    format_rule_line(
+                        f"  {constraint.label} ← ",
+                        f"{line.description}: only when  {context}",
+                        f"({rule_id} context)",
+                    )
+                )
     if exclusions:
         out.extend(["", "exclusions"] + exclusions)
 
@@ -1346,8 +1611,9 @@ def report(word: str, strand: str, pattern: Pattern, examples: Sequence[Example]
     if not verified:
         out.append("verified examples: skipped (--examples 0)")
         return out
-    header = (f"verified examples ({len(examples)} of {tried} candidates tried; "
-              "0 fallbacks unless shown)")
+    header = (
+        f"verified examples ({len(examples)} of {tried} candidates tried; 0 fallbacks unless shown)"
+    )
     if cap_hit:
         header += "; candidate cap 2000 hit"
     out.append(header)
@@ -1357,18 +1623,36 @@ def report(word: str, strand: str, pattern: Pattern, examples: Sequence[Example]
 
 # ---- expansion and verification (spec §3.5; V-22 … V-26, V-30, V-34) ---------------------------
 
-CAP = 2000                            # R4: candidates per word; no --cap flag in v1
+CAP = 2000  # R4: candidates per word; no --cap flag in v1
 
 #: R5's palette in Irish IPA (V-23, revised by fix-round A4): the five short vowels, then their
 #: five LONG counterparts, then `r l n m s d t c g b` broad — 20 segments, so a `*` has
 #: 1 + 20 + 400 fillings. The long vowels are what *ardmhaor* /aːɾˠd̪ˠvˠiːɾˠ/ needs: with short
 #: vowels only, no filling of a `*` ever reaches /iː/ and the session case is unreachable by
 #: construction.
-PALETTE = ("a", "ɛ", "ɪ", "ɔ", "ʊ",
-           "aː", "eː", "iː", "oː", "uː",
-           "ɾˠ", "l̪ˠ", "n̪ˠ", "mˠ", "sˠ",
-           "d̪ˠ", "t̪ˠ", "k", "ɡ", "bˠ")
-STAR_LENGTHS = (0, 1, 2)              # R5: a `*` is filled with 0, 1 then 2 palette segments
+PALETTE = (
+    "a",
+    "ɛ",
+    "ɪ",
+    "ɔ",
+    "ʊ",
+    "aː",
+    "eː",
+    "iː",
+    "oː",
+    "uː",
+    "ɾˠ",
+    "l̪ˠ",
+    "n̪ˠ",
+    "mˠ",
+    "sˠ",
+    "d̪ˠ",
+    "t̪ˠ",
+    "k",
+    "ɡ",
+    "bˠ",
+)
+STAR_LENGTHS = (0, 1, 2)  # R5: a `*` is filled with 0, 1 then 2 palette segments
 
 _RANK_OF_KIND = {"identity": 0, "rule": 1, "fallback": 3, "epenthesis": 4}
 #: `ˈ ˌ .` only — `$` and the space of `MARKS` are not stress marks (V-25).
@@ -1384,6 +1668,7 @@ class Candidate:
 @dataclass(frozen=True)
 class _Option:
     """One filling of one unit — a slot, or a whole optional group (V-24)."""
+
     segments: tuple[str, ...]
     rank: int
 
@@ -1461,16 +1746,18 @@ def _group_options(slots: Sequence[Slot], group: OptionalGroup) -> list[_Option]
     option list is still cheapest first (V-24).
     """
     options = [_Option(segments=(), rank=0)]
-    per_slot = [_slot_options(slot) for slot in slots[group.start:group.stop]]
+    per_slot = [_slot_options(slot) for slot in slots[group.start : group.stop]]
     if any(not column for column in per_slot):
         return options
     present_rank = _rank_of_steps(group.steps)
     combinations = list(itertools.product(*per_slot))
     combinations.sort(key=lambda combo: sum(option.rank for option in combo))
     options.extend(
-        _Option(segments=tuple(seg for option in combo for seg in option.segments),
-                rank=present_rank)
-        for combo in combinations)
+        _Option(
+            segments=tuple(seg for option in combo for seg in option.segments), rank=present_rank
+        )
+        for combo in combinations
+    )
     return options
 
 
@@ -1524,7 +1811,7 @@ def expand(pattern: Pattern, *, cap: int = CAP):
             yield Candidate(segments=segments, rank=cost)
         for position, index in enumerate(indexes):
             if index + 1 < len(units[position]):
-                nxt = indexes[:position] + (index + 1,) + indexes[position + 1:]
+                nxt = indexes[:position] + (index + 1,) + indexes[position + 1 :]
                 if nxt not in queued:
                     queued.add(nxt)
                     heapq.heappush(heap, (cost + 1, nxt))
@@ -1547,11 +1834,11 @@ def _forward(spelling: str, irish: RuleFile, target: RuleFile, table: FeatureTab
     from .rewrite import RuleError
 
     try:
-        entry = inputs.infer(inputs.Entry(orthography=spelling, ipa=g2p.g2p(spelling)[0]),
-                             irish, table)
+        entry = inputs.infer(
+            inputs.Entry(orthography=spelling, ipa=g2p.g2p(spelling)[0]), irish, table
+        )
         return pipeline.run_entry(entry, "DESC", irish, target, table)
-    except (MissingSlot, SegmentError, RuleError, pipeline.ConstructionNotInStrand,
-            g2p.G2PError):
+    except (MissingSlot, SegmentError, RuleError, pipeline.ConstructionNotInStrand, g2p.G2PError):
         return None
 
 
@@ -1635,7 +1922,7 @@ def _best_spelling(segments: Sequence[str], first: Sequence[str]) -> tuple[str, 
             break
         spellings = g2p_inverse.spell(segments, **kwargs)
         if not spellings:
-            break                      # cannot happen: `first` is non-empty and a prefix
+            break  # cannot happen: `first` is non-empty and a prefix
         candidate, cost = _pick(spellings)
         if cost < penalty:
             best, penalty = candidate, cost
@@ -1650,8 +1937,10 @@ def _best_spelling(segments: Sequence[str], first: Sequence[str]) -> tuple[str, 
 _VERIFY_SPELL = {"limit": 1, "silent": False, "budget": 128}
 #: The widenings `_best_spelling` walks when the cheap spelling is not clean. `spell` raises any
 #: budget to `16 * limit`, so these are the smallest budgets each `limit` can be asked for.
-_SPELL_TIERS = ({"limit": 8, "silent": False, "budget": 128},
-                {"limit": 16, "silent": False, "budget": 256})
+_SPELL_TIERS = (
+    {"limit": 8, "silent": False, "budget": 128},
+    {"limit": 16, "silent": False, "budget": 256},
+)
 #: The widest tier, named for the tests that measure what it reaches.
 _VERIFY_SPELL_WIDE = _SPELL_TIERS[-1]
 #: A3: `expand` is consumed at most this many times the forward-run cap. A candidate that has
@@ -1663,11 +1952,12 @@ EXAMINE_FACTOR = 4
 @dataclass(frozen=True)
 class _Match:
     """One candidate the forward engine kept: everything the ranking and the row need."""
+
     candidate: Candidate
-    result: object                    # the `pipeline.Result` of the forward run
-    spelling: str                     # the orthography this row will print
-    long_vowels: int                  # candidate segments carrying `ː` (owner decision 2)
-    penalty: int                      # `spelling_penalty(spelling)`
+    result: object  # the `pipeline.Result` of the forward run
+    spelling: str  # the orthography this row will print
+    long_vowels: int  # candidate segments carrying `ː` (owner decision 2)
+    penalty: int  # `spelling_penalty(spelling)`
 
 
 #: How many rows deep the printed spelling is chosen properly, as a multiple of `--examples`
@@ -1679,22 +1969,42 @@ def _match_key(match: _Match) -> tuple[int, ...]:
     """The example ranking (owner decision 2): fallbacks and flags first — a row that needed a
     fallback or carries a flag is a worse guess however it is spelled — then the number of long
     vowels, then the candidate's rule cost, then how Irish the spelling looks."""
-    return (match.result.fallbacks, len(match.result.flags), match.long_vowels,
-            match.candidate.rank, match.penalty, 0)
+    return (
+        match.result.fallbacks,
+        len(match.result.flags),
+        match.long_vowels,
+        match.candidate.rank,
+        match.penalty,
+        0,
+    )
 
 
 def _example(match: _Match) -> Example:
-    return Example(orthography=match.spelling, respelling=match.result.respelling,
-                   # Stress is ignored everywhere in reverse (V-18), and spec §4's own example
-                   # block prints unmarked IPA.
-                   ipa=_unmark(match.result.ipa), flags=match.result.flags,
-                   fallbacks=match.result.fallbacks, rank=match.candidate.rank,
-                   spelling_index=0, penalty=match.penalty)
+    return Example(
+        orthography=match.spelling,
+        respelling=match.result.respelling,
+        # Stress is ignored everywhere in reverse (V-18), and spec §4's own example
+        # block prints unmarked IPA.
+        ipa=_unmark(match.result.ipa),
+        flags=match.result.flags,
+        fallbacks=match.result.fallbacks,
+        rank=match.candidate.rank,
+        spelling_index=0,
+        penalty=match.penalty,
+    )
 
 
-def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTable,
-           *, limit: int = 8, cap: int | None = None, ipa_mode: bool = False,
-           raw_pattern: str | None = None) -> tuple[tuple[Example, ...], int, bool]:
+def verify(
+    pattern: Pattern,
+    target: RuleFile,
+    irish: RuleFile,
+    table: FeatureTable,
+    *,
+    limit: int = 8,
+    cap: int | None = None,
+    ipa_mode: bool = False,
+    raw_pattern: str | None = None,
+) -> tuple[tuple[Example, ...], int, bool]:
     """Run candidates forward and keep the ones that really match (spec §3.5, V-26, V-34).
 
     **One forward run per candidate** (fix-round A1, revising V-26/V-34). Task 7 ran every
@@ -1736,7 +2046,7 @@ def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTa
     what `expand` already guarantees: it emits each segment sequence once, and one spelling is
     asked of each (A1).
     """
-    cap = CAP if cap is None else cap        # C3: read at CALL time, so a test may lower `CAP`
+    cap = CAP if cap is None else cap  # C3: read at CALL time, so a test may lower `CAP`
     wanted = pattern.text if raw_pattern is None else raw_pattern
     found: list[_Match] = []
     tried = 0
@@ -1754,7 +2064,7 @@ def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTa
             break
         spellings = g2p_inverse.spell(candidate.segments, **_VERIFY_SPELL)
         if not spellings:
-            continue                   # costs no forward run, so it does not count as tried
+            continue  # costs no forward run, so it does not count as tried
         tried += 1
         result = _forward(spellings[0], irish, target, table)
         if result is None:
@@ -1766,9 +2076,15 @@ def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTa
         # ruling (owner decision 2). A long vowel is reached by a cheaper `rank` than the
         # reduced /ə/ is, so without this the plain shape of a word sits past `--examples 8`.
         long_vowels = sum(1 for seg in candidate.segments if "ː" in seg)
-        found.append(_Match(candidate=candidate, result=result, spelling=spellings[0],
-                            long_vowels=long_vowels,
-                            penalty=spelling_penalty(spellings[0])))
+        found.append(
+            _Match(
+                candidate=candidate,
+                result=result,
+                spelling=spellings[0],
+                long_vowels=long_vowels,
+                penalty=spelling_penalty(spellings[0]),
+            )
+        )
     if produced >= examine or tried >= cap:
         # D6: `cap_hit` means EITHER bound — examined, or tried. The `tried` half is checked
         # here as well as at the top of the loop: when the candidate that fills the cap is also
@@ -1781,16 +2097,20 @@ def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTa
     # only LOWER it, so no row outside the head can be promoted into the printed rows by the
     # refinement, and no refined row can be pushed out by an unrefined one: the rows finally
     # printed are always inside the head.
-    ordered = sorted(found, key=_match_key)[:max(REFINE_HEAD * limit, REFINE_HEAD)]
+    ordered = sorted(found, key=_match_key)[: max(REFINE_HEAD * limit, REFINE_HEAD)]
     refined: list[_Match] = []
     for match in ordered:
         spelling, penalty = _best_spelling(match.candidate.segments, [match.spelling])
         refined.append(replace(match, spelling=spelling, penalty=penalty))
-    return (tuple(_example(match) for match in sorted(refined, key=_match_key)[:limit]),
-            tried, cap_hit)
+    return (
+        tuple(_example(match) for match in sorted(refined, key=_match_key)[:limit]),
+        tried,
+        cap_hit,
+    )
 
 
 # ---- old-irish (R6, spec §2) -------------------------------------------------------------------
+
 
 def old_irish_matches(pattern: str, path=None) -> tuple[tuple[str, str, str], ...]:
     """Old Irish is a lexicon lookup only (R6): no constraint set, no inversion.
@@ -1801,18 +2121,23 @@ def old_irish_matches(pattern: str, path=None) -> tuple[tuple[str, str, str], ..
     Old Irish form to match against.
     """
     from . import lexicon
-    rows = [(entry.oi_nom, entry.orthography, entry.flag)
-            for entry in lexicon.read_lexicon(path).values()
-            if entry.oi_nom and _matches(entry.oi_nom, pattern)]
+
+    rows = [
+        (entry.oi_nom, entry.orthography, entry.flag)
+        for entry in lexicon.read_lexicon(path).values()
+        if entry.oi_nom and _matches(entry.oi_nom, pattern)
+    ]
     return tuple(sorted(rows, key=lambda row: lexicon.key(row[1])))
 
 
 def old_irish_report(word: str, matches: Sequence[tuple[str, str, str]]) -> list[str]:
     """The old-irish block: the header, the "§3 does not apply" note, and the match table."""
-    out = [f"{word}  [old-irish]",
-           "note: old-irish is lexicon lookup only; §3's constraint set does not apply.",
-           "",
-           "matches"]
+    out = [
+        f"{word}  [old-irish]",
+        "note: old-irish is lexicon lookup only; §3's constraint set does not apply.",
+        "",
+        "matches",
+    ]
     if not matches:
         out.append("  none")
         return out
@@ -1832,11 +2157,12 @@ TEST_WORDS = Path(__file__).resolve().parents[2] / "sources" / "irish" / "test-w
 def read_hand_ipa_rows(path: Path | None = None) -> tuple[dict[str, str], ...]:
     """Every `sources/irish/test-words.tsv` row with a hand IPA, in file order (spec §6)."""
     with (path or TEST_WORDS).open(encoding="utf-8") as fh:
-        return tuple(row for row in csv.DictReader(fh, delimiter="\t")
-                     if (row.get("ipa") or "").strip())
+        return tuple(
+            row for row in csv.DictReader(fh, delimiter="\t") if (row.get("ipa") or "").strip()
+        )
 
 
-def _admit_options(slot: "Slot") -> tuple[tuple[str, ...], ...] | None:
+def _admit_options(slot: Slot) -> tuple[tuple[str, ...], ...] | None:
     """The segment sequences a slot admits, or `None` for "any single segment".
 
     Unlike `_slot_options` (V-23), admission does NOT draw on the palette: a `ONE` slot with no
@@ -1898,13 +2224,14 @@ def pattern_admits(pattern: Pattern, segments: Sequence[str]) -> bool:
 @dataclass(frozen=True)
 class ReverseRow:
     """One test-words row put through the round trip."""
+
     orthography: str
     respelling: str
-    admitted: bool                    # the row's own Irish IPA fits the pattern
-    found: bool                       # a spelling reading to the row's own IPA was verified
-    capped: bool                      # the candidate cap was hit (informational; C1 keeps
-                                      # capped rows inside the example denominator)
-    tried: int                        # forward runs spent on this row (0 when limit=0)
+    admitted: bool  # the row's own Irish IPA fits the pattern
+    found: bool  # a spelling reading to the row's own IPA was verified
+    capped: bool  # the candidate cap was hit (informational; C1 keeps
+    # capped rows inside the example denominator)
+    tried: int  # forward runs spent on this row (0 when limit=0)
 
 
 @dataclass(frozen=True)
@@ -1917,6 +2244,7 @@ class ReverseReport:
     `examples` rate over the first twelve rows at `cap=200`. One report describes one run;
     `admit_rate` is meaningful in both, `example_rate` only in the verified one.
     """
+
     strand: str
     cap: int
     rows: tuple[ReverseRow, ...]
@@ -1953,9 +2281,11 @@ class ReverseReport:
         return sum(1 for row in self.rows if row.found) / denominator
 
     def summary(self) -> str:
-        return (f"{self.strand}: admits {self.admit_rate:.4f} of {self.n}, "
-                f"examples {self.example_rate:.4f} of {self.example_denominator} "
-                f"({self.capped} capped, {len(self.skipped)} skipped, cap {self.cap})")
+        return (
+            f"{self.strand}: admits {self.admit_rate:.4f} of {self.n}, "
+            f"examples {self.example_rate:.4f} of {self.example_denominator} "
+            f"({self.capped} capped, {len(self.skipped)} skipped, cap {self.cap})"
+        )
 
     def misses(self, kind: str = "admits") -> tuple[str, ...]:
         """The orthographies that failed one rate — the first thing to look at when the
@@ -1984,9 +2314,16 @@ def _reads_the_same(one: str, other: str) -> bool:
         return False
 
 
-def reverse_regression(strand: str, target: RuleFile, irish: RuleFile, table: FeatureTable,
-                       *, cap: int = CAP, limit: int = 8,
-                       rows: Sequence[dict[str, str]] | None = None) -> ReverseReport:
+def reverse_regression(
+    strand: str,
+    target: RuleFile,
+    irish: RuleFile,
+    table: FeatureTable,
+    *,
+    cap: int = CAP,
+    limit: int = 8,
+    rows: Sequence[dict[str, str]] | None = None,
+) -> ReverseReport:
     """The round trip for one strand: forward, then reverse, then check (spec §6).
 
     For every test-words row with a hand IPA: run it forward to a respelling, reverse that
@@ -2012,18 +2349,29 @@ def reverse_regression(strand: str, target: RuleFile, irish: RuleFile, table: Fe
 
     measured: list[ReverseRow] = []
     skipped: list[tuple[str, str]] = []
-    for row in (read_hand_ipa_rows() if rows is None else rows):
+    for row in read_hand_ipa_rows() if rows is None else rows:
         orthography = row["orthography"]
         try:
             entry = inputs.infer(
-                inputs.Entry(orthography=orthography, ipa=row["ipa"],
-                             dialect=(row.get("dialect") or "C"),
-                             gloss=(row.get("gloss") or "")),
-                irish, table)
+                inputs.Entry(
+                    orthography=orthography,
+                    ipa=row["ipa"],
+                    dialect=(row.get("dialect") or "C"),
+                    gloss=(row.get("gloss") or ""),
+                ),
+                irish,
+                table,
+            )
             result = pipeline.run_entry(entry, "DESC", irish, target, table)
             segments = tokenize(row["ipa"], table).segments
-        except (MissingSlot, SegmentError, RuleError, FeatureError, InputError,
-                pipeline.ConstructionNotInStrand) as exc:
+        except (
+            MissingSlot,
+            SegmentError,
+            RuleError,
+            FeatureError,
+            InputError,
+            pipeline.ConstructionNotInStrand,
+        ) as exc:
             skipped.append((orthography, f"{type(exc).__name__}: {exc}"))
             continue
         # A respelling with a space is a multi-word construction; `reverse` is per word and the
@@ -2040,15 +2388,21 @@ def reverse_regression(strand: str, target: RuleFile, irish: RuleFile, table: Fe
         pattern = widen(pattern, target, irish, table)
         pattern = un_substitute(pattern, smap, deletions=deletions, notes=notes)
         if limit:
-            examples, tried, cap_hit = verify(pattern, target, irish, table,
-                                              limit=limit, cap=cap)
+            examples, tried, cap_hit = verify(pattern, target, irish, table, limit=limit, cap=cap)
         else:
             examples, tried, cap_hit = (), 0, False
-        measured.append(ReverseRow(
-            orthography=orthography, respelling=respelling,
-            admitted=pattern_admits(pattern, segments),
-            found=any(_reads_the_same(example.orthography, orthography)
-                      for example in examples),
-            capped=cap_hit, tried=tried))
-    return ReverseReport(strand=strand, cap=(cap if limit else 0), rows=tuple(measured),
-                         skipped=tuple(skipped))
+        measured.append(
+            ReverseRow(
+                orthography=orthography,
+                respelling=respelling,
+                admitted=pattern_admits(pattern, segments),
+                found=any(
+                    _reads_the_same(example.orthography, orthography) for example in examples
+                ),
+                capped=cap_hit,
+                tried=tried,
+            )
+        )
+    return ReverseReport(
+        strand=strand, cap=(cap if limit else 0), rows=tuple(measured), skipped=tuple(skipped)
+    )

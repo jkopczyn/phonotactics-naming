@@ -20,22 +20,38 @@ V-20 (`spell`, the run matcher and caol le caol),
 V-21 (`describe`, narrowed by the fix round's B2 … B4: silent-free readings, the vowel-set
 summaries, the positional labels).
 """
+
 from __future__ import annotations
 
 import heapq
 import itertools
+from collections.abc import Sequence
 from dataclasses import dataclass
-from typing import Sequence
 
 from . import g2p
 
-__all__ = ["Reading", "READINGS", "CONSONANT_READINGS", "VOWEL_READINGS",
-           "REDUCTION_RUNS", "SHORT_VOWELS", "LONG_VOWELS", "RUN_CAP", "silent_free_runs",
-           "QUALITY_LEFT", "QUALITY_RIGHT", "BROAD_ON_THE_RIGHT", "VOWEL_PLUS_H_RUNS",
-           "readings_for", "describe", "spell", "SPELL_LIMIT"]
+__all__ = [
+    "Reading",
+    "READINGS",
+    "CONSONANT_READINGS",
+    "VOWEL_READINGS",
+    "REDUCTION_RUNS",
+    "SHORT_VOWELS",
+    "LONG_VOWELS",
+    "RUN_CAP",
+    "silent_free_runs",
+    "QUALITY_LEFT",
+    "QUALITY_RIGHT",
+    "BROAD_ON_THE_RIGHT",
+    "VOWEL_PLUS_H_RUNS",
+    "readings_for",
+    "describe",
+    "spell",
+    "SPELL_LIMIT",
+]
 
-Quality = str          # "broad" | "slender" | "either"
-Position = str         # "any" | "initial" | "noninitial"
+Quality = str  # "broad" | "slender" | "either"
+Position = str  # "any" | "initial" | "noninitial"
 
 BROAD = "broad"
 SLENDER = "slender"
@@ -45,20 +61,27 @@ EITHER = "either"
 @dataclass(frozen=True)
 class Reading:
     """One way a grapheme can be read. `segments` is 0, 1 or 2 segments; `()` is silent."""
+
     grapheme: str
     segments: tuple[str, ...]
     quality: Quality
     position: Position
-    source: str                        # the g2p branch, e.g. "_liquid fortis", "connacht-w"
+    source: str  # the g2p branch, e.g. "_liquid fortis", "connacht-w"
 
 
 # ---- the consonant registry --------------------------------------------------------------------
 
+
 def _build_readings() -> tuple[Reading, ...]:
     out: list[Reading] = []
 
-    def add(grapheme: str, segments: Sequence[str] | None, quality: Quality,
-            position: Position, source: str) -> None:
+    def add(
+        grapheme: str,
+        segments: Sequence[str] | None,
+        quality: Quality,
+        position: Position,
+        source: str,
+    ) -> None:
         out.append(Reading(grapheme, tuple(segments or ()), quality, position, source))
 
     # `_CONSONANTS`: each grapheme × (broad, slender); `None` is a silent reading.
@@ -99,8 +122,10 @@ def _build_readings() -> tuple[Reading, ...]:
 
     # `_liquid`: ⟨l n⟩ are fortis or lenis by position, and the doubled ⟨ll nn⟩ are always
     # fortis. Which one `g2p` picks is a positional judgement this registry does not repeat.
-    for grapheme, fortis, lenis in (("l", ("l̪ˠ", "l̠ʲ"), ("lˠ", "lʲ")),
-                                    ("n", ("n̪ˠ", "n̠ʲ"), ("nˠ", "nʲ"))):
+    for grapheme, fortis, lenis in (
+        ("l", ("l̪ˠ", "l̠ʲ"), ("lˠ", "lʲ")),
+        ("n", ("n̪ˠ", "n̠ʲ"), ("nˠ", "nʲ")),
+    ):
         add(grapheme, [fortis[0]], BROAD, "any", "_liquid fortis")
         add(grapheme, [fortis[1]], SLENDER, "any", "_liquid fortis")
         add(grapheme, [lenis[0]], BROAD, "any", "_liquid lenis")
@@ -159,6 +184,7 @@ CONSONANT_READINGS: dict[tuple[str, ...], tuple[Reading, ...]] = _consonant_inde
 #: vowel reduces, and saying so is the difference between "any short vowel" and the truth.
 _REDUCTION: dict[tuple[str, ...], set[str]] = {}
 
+
 def _vowel_index() -> dict[tuple[str, ...], tuple[str, ...]]:
     """Segment sequence → the vowel runs that read as it (V-19).
 
@@ -193,7 +219,8 @@ def _vowel_index() -> dict[tuple[str, ...], tuple[str, ...]]:
 VOWEL_READINGS: dict[tuple[str, ...], tuple[str, ...]] = _vowel_index()
 
 REDUCTION_RUNS: dict[tuple[str, ...], frozenset[str]] = {
-    key: frozenset(runs) for key, runs in _REDUCTION.items()}
+    key: frozenset(runs) for key, runs in _REDUCTION.items()
+}
 
 #: The `_VOWEL_PLUS_H` runs — ⟨adh eadh agh aidh aigh …⟩ — as spelling runs. They are readings
 #: of a nucleus whose ⟨dh gh bh mh⟩ contributes no segment of its own, so they belong with the
@@ -240,6 +267,7 @@ QUALITY_LEFT, QUALITY_RIGHT = _quality_maps()
 
 # ---- lookups ---------------------------------------------------------------------------------
 
+
 def readings_for(segments: Sequence[str]) -> tuple[Reading, ...]:
     """Every registered reading of exactly this segment sequence, in registry order."""
     return CONSONANT_READINGS.get(tuple(segments), ())
@@ -274,7 +302,7 @@ def _describe_consonant(segments: tuple[str, ...]) -> str | None:
     qualities = {reading.quality for reading in rows}
     prefix = f"{qualities.pop()} " if len(qualities) == 1 and EITHER not in qualities else ""
     phrases = {grapheme: _grapheme_phrase(group) for grapheme, group in graphemes.items()}
-    if len(set(phrases.values())) == 1:                # one label for the whole list, not five
+    if len(set(phrases.values())) == 1:  # one label for the whole list, not five
         return prefix + "/".join(graphemes) + next(iter(phrases.values()))
     return prefix + "/".join(grapheme + phrase for grapheme, phrase in phrases.items())
 
@@ -284,15 +312,14 @@ def _describe_consonant(segments: tuple[str, ...]) -> str | None:
 #: which is what /ə/ is, because every unstressed short vowel reduces to it.
 SHORT_VOWELS = ("a", "ɛ", "ɪ", "ɔ", "ʊ")
 LONG_VOWELS = ("aː", "eː", "iː", "oː", "uː")
-RUN_CAP = 6                            # B3: runs listed before `…`
+RUN_CAP = 6  # B3: runs listed before `…`
 
 
 def silent_free_runs(segments: tuple[str, ...]) -> tuple[str, ...]:
     """The runs that read as `segments` with no mute letter in them (B2): the `_VOWEL_PLUS_H`
     runs ⟨adh eadh agh …⟩ spell a nucleus with a ⟨dh gh bh mh⟩ that contributes nothing, and
     they belong in `spell(silent=True)`, not in a description or a pattern."""
-    return tuple(run for run in VOWEL_READINGS.get(segments, ())
-                 if run not in VOWEL_PLUS_H_RUNS)
+    return tuple(run for run in VOWEL_READINGS.get(segments, ()) if run not in VOWEL_PLUS_H_RUNS)
 
 
 def _covers(runs: Sequence[str], vowels: Sequence[str]) -> bool:
@@ -311,8 +338,9 @@ def _describe_nucleus(segments: tuple[str, ...]) -> str | None:
         return None
     short, long = _covers(runs, SHORT_VOWELS), _covers(runs, LONG_VOWELS)
     if short or long:
-        summary = ("any vowel" if short and long else
-                   "any short vowel" if short else "any long vowel")
+        summary = (
+            "any vowel" if short and long else "any short vowel" if short else "any long vowel"
+        )
         reduced = REDUCTION_RUNS.get(segments, frozenset())
         return summary + (" (unstressed)" if all(run in reduced for run in runs) else "")
     if len(runs) > RUN_CAP:
@@ -334,7 +362,7 @@ def _split_vowel_run(run: tuple[str, ...]) -> list[str]:
         for j in range(len(run), i, -1):
             sub = run[i:j]
             if sub == run:
-                continue                   # the whole run is exactly what has no reading
+                continue  # the whole run is exactly what has no reading
             described = _describe_nucleus(sub)
             if described is not None:
                 parts.append(described)
@@ -379,12 +407,12 @@ def describe(segments: Sequence[str]) -> str:
                 j += 1
             run = segments[i:j]
             if run == segments:
-                parts.extend(_split_vowel_run(run))   # the progress guard, see above
+                parts.extend(_split_vowel_run(run))  # the progress guard, see above
             else:
                 parts.append(describe(run))
             i = j
             continue
-        parts.append(describe(segments[i:i + 1]))
+        parts.append(describe(segments[i : i + 1]))
         i += 1
     return " + ".join(parts)
 
@@ -408,6 +436,7 @@ def _table():
     if _TABLE is None:
         from .cli import DEFAULT_FEATURES
         from .features import load_features
+
         _TABLE = load_features(DEFAULT_FEATURES)
     return _TABLE
 
@@ -434,8 +463,9 @@ def _runs(segments: Sequence[str]) -> list[tuple[str, tuple[str, ...]]]:
     return [(kind, tuple(run)) for kind, run in out]
 
 
-def _run_spellings(run: tuple[str, ...], quality: Quality, at_word_start: bool,
-                   silent: bool = True):
+def _run_spellings(
+    run: tuple[str, ...], quality: Quality, at_word_start: bool, silent: bool = True
+):
     """Every spelling of one consonant run at one quality, lazily (V-20 step 2).
 
     `silent=False` (A2) drops the silent readings altogether — no ⟨fh⟩, no silent ⟨dh gh th⟩ —
@@ -452,6 +482,7 @@ def _run_spellings(run: tuple[str, ...], quality: Quality, at_word_start: bool,
     admissible everywhere, so in one pass the *dorn* spelling of /ɾˠn̪ˠ/ would sit behind five
     ⟨rrnn+silent⟩ ones and the caller's cap would cut it off.
     """
+
     def walk(i: int, at_start: bool, silent_used: bool, acc: list[str], want_silent: bool):
         if i == len(run) and silent_used == want_silent:
             yield "".join(acc)
@@ -472,17 +503,24 @@ def _run_spellings(run: tuple[str, ...], quality: Quality, at_word_start: bool,
                     yield from walk(i, False, True, acc + [reading.grapheme], want_silent)
                     continue
                 width = len(reading.segments)
-                if run[i:i + width] != reading.segments:
+                if run[i : i + width] != reading.segments:
                     continue
-                yield from walk(i + width, False, silent_used, acc + [reading.grapheme],
-                                want_silent)
+                yield from walk(
+                    i + width, False, silent_used, acc + [reading.grapheme], want_silent
+                )
 
-    for want_silent in ((False, True) if silent else (False,)):
+    for want_silent in (False, True) if silent else (False,):
         yield from walk(0, at_word_start, False, [], want_silent)
 
 
-def _spell_run(run: Sequence[str], quality: Quality, at_word_start: bool, *,
-               cap: int = _PROPOSAL_BUDGET, silent: bool = True) -> list[str]:
+def _spell_run(
+    run: Sequence[str],
+    quality: Quality,
+    at_word_start: bool,
+    *,
+    cap: int = _PROPOSAL_BUDGET,
+    silent: bool = True,
+) -> list[str]:
     """The spellings of one consonant run, in registry order, bounded by `cap`.
 
     The bound belongs to the top-level enumeration, not to the matcher: `cap` is the caller's
@@ -491,8 +529,7 @@ def _spell_run(run: Sequence[str], quality: Quality, at_word_start: bool, *,
     order V-20 asks for. An internal cap smaller than the budget would instead drop ordinary
     spellings the caller did ask for — the IPA of *akkkkkkka* stopped recovering that spelling.
     """
-    return list(itertools.islice(_run_spellings(tuple(run), quality, at_word_start, silent),
-                                 cap))
+    return list(itertools.islice(_run_spellings(tuple(run), quality, at_word_start, silent), cap))
 
 
 def _epenthetic(units: Sequence[tuple[str, tuple[str, ...]]], i: int) -> bool:
@@ -538,8 +575,13 @@ def _layouts(units: list[tuple[str, tuple[str, ...]]]) -> list[list[tuple[str, t
     return out
 
 
-def _options(units: Sequence[tuple[str, tuple[str, ...]]], i: int,
-             pending: Quality, cap: int, silent: bool = True) -> list[tuple[str, Quality]]:
+def _options(
+    units: Sequence[tuple[str, tuple[str, ...]]],
+    i: int,
+    pending: Quality,
+    cap: int,
+    silent: bool = True,
+) -> list[tuple[str, Quality]]:
     """The spellings unit `i` admits, given the quality imposed from its left, each paired with
     the quality it imposes on its right (V-20 step 4).
 
@@ -552,15 +594,16 @@ def _options(units: Sequence[tuple[str, tuple[str, ...]]], i: int,
     if kind == "C":
         qualities = [pending] if pending in (BROAD, SLENDER) else [BROAD, SLENDER]
         for quality in qualities:
-            for text in _spell_run(run, quality, at_word_start=(i == 0), cap=cap,
-                                   silent=silent):
+            for text in _spell_run(run, quality, at_word_start=(i == 0), cap=cap, silent=silent):
                 out.append((text, quality))
         return out
     for spelling in VOWEL_READINGS.get(run, ()):
         if not silent and spelling in VOWEL_PLUS_H_RUNS:
-            continue                   # A2: ⟨adh eadh agh …⟩ spell a nucleus with a mute letter
+            continue  # A2: ⟨adh eadh agh …⟩ spell a nucleus with a mute letter
         if pending in (BROAD, SLENDER) and QUALITY_LEFT.get(spelling, EITHER) not in (
-                pending, EITHER):
+            pending,
+            EITHER,
+        ):
             continue
         out.append((spelling, QUALITY_RIGHT.get(spelling, EITHER)))
     return out
@@ -580,19 +623,24 @@ def _candidates(units: Sequence[tuple[str, tuple[str, ...]]], cap: int, silent: 
     without materialising the product.
     """
     heap: list[tuple[int, tuple[int, ...], int, Quality, tuple[str, ...]]] = [
-        (0, (), 0, EITHER, ())]
+        (0, (), 0, EITHER, ())
+    ]
     while heap:
         cost, indices, i, pending, acc = heapq.heappop(heap)
         if i == len(units):
             yield "".join(acc)
             continue
         for j, (text, imposed) in enumerate(_options(units, i, pending, cap, silent)):
-            heapq.heappush(heap,
-                           (cost + len(text), indices + (j,), i + 1, imposed, acc + (text,)))
+            heapq.heappush(heap, (cost + len(text), indices + (j,), i + 1, imposed, acc + (text,)))
 
 
-def spell(segments: Sequence[str], *, limit: int = SPELL_LIMIT, silent: bool = True,
-          budget: int = _PROPOSAL_BUDGET) -> list[str]:
+def spell(
+    segments: Sequence[str],
+    *,
+    limit: int = SPELL_LIMIT,
+    silent: bool = True,
+    budget: int = _PROPOSAL_BUDGET,
+) -> list[str]:
     """Irish IPA segments → the Irish spellings that read back as them (V-20).
 
     Candidates are enumerated shortest-first (`_candidates`) and every one is run through
@@ -613,7 +661,7 @@ def spell(segments: Sequence[str], *, limit: int = SPELL_LIMIT, silent: bool = T
     """
     from .tokenize import SegmentError, tokenize
 
-    if limit <= 0:                     # V-20 step 5 caps the enumeration: nothing is asked for.
+    if limit <= 0:  # V-20 step 5 caps the enumeration: nothing is asked for.
         return []
     want = tuple(segments)
     budget = max(budget, 16 * limit)

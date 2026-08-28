@@ -1,11 +1,19 @@
 """Tasks 1-2: the reverse g2p (reverse spec §3.4; V-27, V-19, V-20, V-21)."""
+
 import pytest
 
 from strands import g2p as fwd
-from strands.g2p_inverse import (BROAD_ON_THE_RIGHT, CONSONANT_READINGS, QUALITY_LEFT,
-                                 QUALITY_RIGHT, READINGS, VOWEL_PLUS_H_RUNS, VOWEL_READINGS,
-                                 describe,
-                                 readings_for)
+from strands.g2p_inverse import (
+    BROAD_ON_THE_RIGHT,
+    CONSONANT_READINGS,
+    QUALITY_LEFT,
+    QUALITY_RIGHT,
+    READINGS,
+    VOWEL_PLUS_H_RUNS,
+    VOWEL_READINGS,
+    describe,
+    readings_for,
+)
 
 
 def spellings(segments):
@@ -25,11 +33,16 @@ def test_every_reading_names_the_g2p_branch_it_transcribes():
 
 # ---- the table branches -------------------------------------------------------------------------
 
-@pytest.mark.parametrize("segment,expected", [
-    ("w", ("bh", "mh", "v", "w")),
-    ("x", ("ch",)), ("ç", ("ch",)),
-    ("k", ("c", "k")),
-])
+
+@pytest.mark.parametrize(
+    "segment,expected",
+    [
+        ("w", ("bh", "mh", "v", "w")),
+        ("x", ("ch",)),
+        ("ç", ("ch",)),
+        ("k", ("c", "k")),
+    ],
+)
 def test_the_table_readings_are_registered(segment, expected):
     assert set(expected) <= set(spellings((segment,)))
 
@@ -41,10 +54,20 @@ def test_the_eclipsis_digraphs_are_initial_only():
 
 # ---- the PROCEDURAL branches (F1) — draft 1 had none of these ------------------------------------
 
-@pytest.mark.parametrize("segment,grapheme", [
-    ("l̪ˠ", "l"), ("l̠ʲ", "l"), ("lˠ", "l"), ("lʲ", "l"),
-    ("n̪ˠ", "n"), ("n̠ʲ", "n"), ("nˠ", "n"), ("nʲ", "n"),
-])
+
+@pytest.mark.parametrize(
+    "segment,grapheme",
+    [
+        ("l̪ˠ", "l"),
+        ("l̠ʲ", "l"),
+        ("lˠ", "l"),
+        ("lʲ", "l"),
+        ("n̪ˠ", "n"),
+        ("n̠ʲ", "n"),
+        ("nˠ", "n"),
+        ("nʲ", "n"),
+    ],
+)
 def test_single_l_and_n_read_as_both_fortis_and_lenis(segment, grapheme):
     """_liquid: draft 1 had only the doubled ⟨ll nn⟩ from _CONSONANTS."""
     assert grapheme in spellings((segment,))
@@ -60,8 +83,10 @@ def test_single_s_reads_as_both_sibilants():
     assert "s" in spellings(("sˠ",)) and "s" in spellings(("ʃ",))
 
 
-@pytest.mark.parametrize("segment,grapheme", [("j", "dh"), ("j", "gh"), ("ɣ", "dh"),
-                                              ("h", "sh"), ("ç", "sh"), ("h", "th")])
+@pytest.mark.parametrize(
+    "segment,grapheme",
+    [("j", "dh"), ("j", "gh"), ("ɣ", "dh"), ("h", "sh"), ("ç", "sh"), ("h", "th")],
+)
 def test_the_lenition_digraphs_are_registered(segment, grapheme):
     assert grapheme in spellings((segment,))
 
@@ -72,8 +97,10 @@ def test_the_silent_readings_exist():
     assert {"dh", "gh", "th", "fh"} <= silent
 
 
-@pytest.mark.parametrize("segments,grapheme", [(("ŋ", "ɡ"), "ng"), (("ɲ", "ɟ"), "ng"),
-                                               (("ŋ", "k"), "nc"), (("k", "s"), "x")])
+@pytest.mark.parametrize(
+    "segments,grapheme",
+    [(("ŋ", "ɡ"), "ng"), (("ɲ", "ɟ"), "ng"), (("ŋ", "k"), "nc"), (("k", "s"), "x")],
+)
 def test_the_two_segment_readings_are_registered_as_units(segments, grapheme):
     assert grapheme in spellings(segments)
 
@@ -88,12 +115,21 @@ def test_noninitial_w_also_reads_as_the_connacht_allophone():
 
 # ---- vowels ---------------------------------------------------------------------------------------
 
+
 # The plan's parametrization wrote the diphthong nuclei as single segments (`("əu",)`,
 # `("iə",)`); `g2p._split_nucleus` splits a diphthong into two segments (I-2), so the real
 # keys are `("ə", "u")` and `("i", "ə")`. Same runs, same intent.
-@pytest.mark.parametrize("nucleus,run", [(("aː",), "á"), (("iː",), "ao"), (("iː",), "aoi"),
-                                         (("i", "ə"), "ia"), (("ə", "u"), "abh"),
-                                         (("eː",), "ae")])
+@pytest.mark.parametrize(
+    "nucleus,run",
+    [
+        (("aː",), "á"),
+        (("iː",), "ao"),
+        (("iː",), "aoi"),
+        (("i", "ə"), "ia"),
+        (("ə", "u"), "abh"),
+        (("eː",), "ae"),
+    ],
+)
 def test_the_vowel_runs_that_read_as_a_nucleus(nucleus, run):
     assert run in VOWEL_READINGS[nucleus]
 
@@ -118,6 +154,7 @@ def test_caol_le_caol_is_read_off_the_letters_with_the_ae_ao_exception():
 
 # ---- describe -------------------------------------------------------------------------------------
 
+
 def test_describe_prefixes_the_quality_when_every_reading_agrees():
     assert describe(("vʲ",)).startswith("slender ")
     assert describe(("aː",)).startswith("á")
@@ -140,6 +177,7 @@ import json
 import unicodedata
 
 from helpers import ROOT, TABLE, read_test_words
+
 from strands.g2p import g2p
 from strands.g2p_inverse import spell
 from strands.tokenize import tokenize
@@ -153,8 +191,23 @@ def segs(ipa):
     return tuple(tokenize(ipa, TABLE).segments)
 
 
-@pytest.mark.parametrize("orth", ["mac", "bán", "ceist", "cáis", "fíon", "dorn", "teach",
-                                  "sean", "bean", "Colm", "gorm", "ardmhaor"])
+@pytest.mark.parametrize(
+    "orth",
+    [
+        "mac",
+        "bán",
+        "ceist",
+        "cáis",
+        "fíon",
+        "dorn",
+        "teach",
+        "sean",
+        "bean",
+        "Colm",
+        "gorm",
+        "ardmhaor",
+    ],
+)
 def test_spelling_a_words_own_ipa_recovers_the_word(orth):
     """F1: `dorn` needs single ⟨r n⟩, `sean` single ⟨s⟩, `gorm` the epenthetic schwa with no
     letter, `ardmhaor` the noninitial /w/ -> /vˠ/ post-pass. Draft 1 recovered none of them."""
@@ -188,7 +241,7 @@ def test_an_unknown_nucleus_is_unspellable_not_a_crash():
 
 
 def test_a_consonant_only_candidate_does_not_raise():
-    assert spell(("k",)) == []          # g2p raises G2PError; spell drops it
+    assert spell(("k",)) == []  # g2p raises G2PError; spell drops it
 
 
 @pytest.mark.parametrize("limit", [0, -1])
@@ -209,6 +262,7 @@ def test_the_result_is_capped_and_order_is_stable():
 
 
 # ---- the ratchet (spec §6 bullet 2) ----------------------------------------------------------
+
 
 def hand_ipa_rows():
     return [r for r in read_test_words() if (r.get("ipa") or "").strip()]
@@ -234,7 +288,8 @@ def test_the_contains_rate_does_not_fall():
     ratchet = json.loads(RATCHET.read_text(encoding="utf-8"))
     assert rate >= ratchet["contains"] - 1e-9, (
         f"contains {rate:.4f} < ratchet {ratchet['contains']}\n"
-        + "\n".join(f"  {o}\t{i}" for o, i in misses[:20]))
+        + "\n".join(f"  {o}\t{i}" for o, i in misses[:20])
+    )
 
 
 def test_the_ratchet_records_its_denominator():
@@ -243,6 +298,7 @@ def test_the_ratchet_records_its_denominator():
 
 
 # ---- V-21: an unregistered vowel run must still terminate (task 6 review) ------------------------
+
 
 def test_an_unregistered_vowel_run_is_described_per_sub_run():
     """`describe` used to recurse on the whole run forever when it had no `VOWEL_READINGS`
@@ -260,6 +316,7 @@ def test_a_vowel_with_no_reading_of_its_own_falls_back_to_slashes():
 
 # ---- fix round Task A: cheap, silent-free spelling (A2) ---------------------------------------
 
+
 def test_silent_free_spelling_uses_no_silent_letter():
     """A2: `silent=False` drops the silent readings — no ⟨fh⟩, no silent ⟨dh gh th⟩ — and the
     `_VOWEL_PLUS_H` runs (⟨adh eadh agh …⟩) with them."""
@@ -273,8 +330,7 @@ def test_silent_free_spelling_uses_no_silent_letter():
 
 def test_silent_free_spelling_still_recovers_ordinary_words():
     for orth in ("mac", "bán", "dorn", "gorm"):
-        assert orth.casefold() in [c.casefold() for c in spell(segs(g2p(orth)[0]),
-                                                               silent=False)]
+        assert orth.casefold() in [c.casefold() for c in spell(segs(g2p(orth)[0]), silent=False)]
 
 
 def test_a_word_that_needs_a_silent_letter_has_no_silent_free_spelling():
@@ -282,27 +338,31 @@ def test_a_word_that_needs_a_silent_letter_has_no_silent_free_spelling():
     a candidate (`verify` then does not count it as tried)."""
     default = spell(segs(g2p("ardmhaor")[0]), limit=200)
     assert "ardmhaor" in default
-    assert all("fh" not in c.casefold() for c in spell(segs(g2p("ardmhaor")[0]), limit=200,
-                                                       silent=False))
+    assert all(
+        "fh" not in c.casefold() for c in spell(segs(g2p("ardmhaor")[0]), limit=200, silent=False)
+    )
 
 
 def test_the_budget_is_a_keyword_and_bounds_the_search():
     """A2: `verify` passes `budget=128`; a tiny budget returns fewer, never more."""
     want = segs(g2p("ardmhaor")[0])
-    assert spell(want, limit=1, budget=16) == []      # too few proposals to reach a real one
+    assert spell(want, limit=1, budget=16) == []  # too few proposals to reach a real one
     assert spell(want, limit=1, budget=1024) != []
 
 
 def test_the_defaults_are_unchanged():
     """The Task 2 ratchet keeps the defaults: silent readings on, the full proposal budget."""
     import inspect
+
     from strands.g2p_inverse import _PROPOSAL_BUDGET
+
     sig = inspect.signature(spell)
     assert sig.parameters["silent"].default is True
     assert sig.parameters["budget"].default == _PROPOSAL_BUDGET
 
 
 # ---- fix round Task B: silent-free descriptions, vowel summaries, positional labels ------------
+
 
 def test_no_description_shows_a_vowel_plus_h_run():
     """B2: ⟨adh eadh agh …⟩ spell a nucleus with a mute letter and never reach a description."""

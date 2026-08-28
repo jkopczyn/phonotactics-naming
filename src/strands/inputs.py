@@ -23,38 +23,69 @@ aliases such as ASCII `g` and quality-less consonants, which are in neither `BRO
 
 
 
-`declension` is an optional input column (spec §12.K, 2026-08-27); when empty, the `GEN()` fallback of
-I-38) is treated as "not yet inferred": `infer()` re-derives it whenever it is "" or "m1"
-and keeps any other value. A row that really is `m1` therefore always carries a
+`declension` is an optional input column (spec §12.K, 2026-08-27); when empty, the `GEN()`
+fallback of I-38) is treated as "not yet inferred": `infer()` re-derives it whenever it is ""
+or "m1" and keeps any other value. A row that really is `m1` therefore always carries a
 `declension:inferred-m1` tag.
 """
+
 from __future__ import annotations
 
 import csv
 import functools
 import re
 import unicodedata
+from collections.abc import Sequence
 from dataclasses import dataclass, replace
 from pathlib import Path
-from typing import Sequence
 
 from .dsl import RuleFile
-from .g2p import G2PError, g2p
 from .features import FeatureTable
+from .g2p import G2PError, g2p
 from .irish import _normalize_rewrites, apply_inflection
 from .tokenize import tokenize
 from .word import Word
 
-__all__ = ["INPUT_COLUMNS", "DECLENSIONS", "Entry", "read_input", "infer", "lint_report",
-           "accept_guesses", "known_names"]
+__all__ = [
+    "INPUT_COLUMNS",
+    "DECLENSIONS",
+    "Entry",
+    "read_input",
+    "infer",
+    "lint_report",
+    "accept_guesses",
+    "known_names",
+]
 
-INPUT_COLUMNS = ("orthography", "ipa", "dialect", "gloss", "category",
-                 "gender", "declension", "gen_ipa", "pl_ipa", "note")
+INPUT_COLUMNS = (
+    "orthography",
+    "ipa",
+    "dialect",
+    "gloss",
+    "category",
+    "gender",
+    "declension",
+    "gen_ipa",
+    "pl_ipa",
+    "note",
+)
 DECLENSIONS = ("m1", "ach", "f2", "m3", "d4")
-_INFERRED_COLUMNS = ("ipa", "dialect", "gender", "declension", "gen_ipa")  # accept_guesses writes these
+_INFERRED_COLUMNS = (
+    "ipa",
+    "dialect",
+    "gender",
+    "declension",
+    "gen_ipa",
+)  # accept_guesses writes these
 _CONSTRUCTED_NOTE = "ipa constructed by g2p"
 _DEFAULT_DECLENSION = "m1"
-_DECLENSIONS = ("m1", "ach", "f2", "m3", "d4")   # accepted values of the optional `declension` column
+_DECLENSIONS = (
+    "m1",
+    "ach",
+    "f2",
+    "m3",
+    "d4",
+)  # accepted values of the optional `declension` column
 
 # Spec §5 ending heuristics, over NFC orthography (lower-cased). Order matters: the
 # masculine diminutive -ín ends in a slender consonant, so it is tested before the
@@ -77,7 +108,7 @@ class Entry:
     gloss: str = ""
     category: str = ""
     gender: str = "m"
-    declension: str = ""                       # m1 | ach | f2 | m3 | d4   (I-38); "" = infer
+    declension: str = ""  # m1 | ach | f2 | m3 | d4   (I-38); "" = infer
     gen_ipa: str = ""
     pl_ipa: str = ""
     note: str = ""
@@ -121,6 +152,7 @@ def _strip_delims(ipa: str) -> str:
         return t[1:-1].strip()
     return ipa
 
+
 def read_input(path: str | Path) -> list[Entry]:
     """Header must contain `orthography`; unknown columns (e.g. test-words.tsv's `features`)
     are ignored; missing ones read as "" (so `infer()` fills and tags them). A row with no
@@ -144,7 +176,7 @@ def read_input(path: str | Path) -> list[Entry]:
     return out
 
 
-@functools.lru_cache(maxsize=None)
+@functools.cache
 def known_names(path: str | Path = _TEST_WORDS) -> dict[str, str]:
     """orthography (lower-cased NFC) -> 'm' | 'f', from glosses stating a gender. Empty when
     the file is absent (installed package without the sources tree)."""
@@ -184,7 +216,9 @@ def _orth_slender_final(orth: str) -> bool | None:
     return vowels[-1] in _SLENDER_LETTERS
 
 
-def _final_quality(entry: Entry, word: Word | None, rf: RuleFile, table: FeatureTable) -> str | None:
+def _final_quality(
+    entry: Entry, word: Word | None, rf: RuleFile, table: FeatureTable
+) -> str | None:
     """'broad' | 'slender' for a consonant-final word, 'vowel' when vowel-final, None unknown."""
     seg = _final(word)
     if seg is not None:
@@ -254,8 +288,10 @@ def infer(entry: Entry, irish: RuleFile, table: FeatureTable) -> Entry:
 
     declension = (entry.declension or "").strip().lower()
     if declension and declension not in _DECLENSIONS:
-        raise InputError(f"{entry.orthography}: declension {entry.declension!r} is not one of "
-                         f"{', '.join(_DECLENSIONS)}")
+        raise InputError(
+            f"{entry.orthography}: declension {entry.declension!r} is not one of "
+            f"{', '.join(_DECLENSIONS)}"
+        )
     if not declension and not any(t.startswith("declension:") for t in tags):
         declension, tag = _infer_declension(entry, gender, quality)
         tags.append(tag)
@@ -265,11 +301,19 @@ def infer(entry: Entry, irish: RuleFile, table: FeatureTable) -> Entry:
         if declension == "d4":
             gen_ipa = word.ipa(marks=False)
         else:
-            gen_ipa = apply_inflection(word, f"GEN_{declension.upper()}", irish, table).ipa(marks=False)
+            gen_ipa = apply_inflection(word, f"GEN_{declension.upper()}", irish, table).ipa(
+                marks=False
+            )
         tags.append(f"gen_ipa:inferred-{declension}")
 
-    return replace(entry, dialect=dialect, gender=gender, declension=declension,
-                   gen_ipa=gen_ipa, assumptions=tuple(tags))
+    return replace(
+        entry,
+        dialect=dialect,
+        gender=gender,
+        declension=declension,
+        gen_ipa=gen_ipa,
+        assumptions=tuple(tags),
+    )
 
 
 def _field_of(tag: str) -> str:
@@ -306,19 +350,24 @@ def accept_guesses(path: str | Path, entries: Sequence[Entry]) -> None:
     for col in _INFERRED_COLUMNS:
         if col not in header:
             header.append(col)
-    for row, entry in zip(data_rows, entries):
+    for row, entry in zip(data_rows, entries, strict=True):
         if row.get("orthography") != entry.orthography:
-            raise InputError(f"{path}: row {row.get('orthography')!r} does not match entry "
-                             f"{entry.orthography!r}")
+            raise InputError(
+                f"{path}: row {row.get('orthography')!r} does not match entry {entry.orthography!r}"
+            )
         for col in _INFERRED_COLUMNS:
             if not row.get(col):
                 row[col] = getattr(entry, col)
         if "note" in header and "ipa:constructed" in entry.assumptions:
-            row["note"] = f"{row['note']}; {_CONSTRUCTED_NOTE}".lstrip("; ") \
-                if row.get("note") else _CONSTRUCTED_NOTE
+            row["note"] = (
+                f"{row['note']}; {_CONSTRUCTED_NOTE}".lstrip("; ")
+                if row.get("note")
+                else _CONSTRUCTED_NOTE
+            )
     with path.open("w", encoding="utf-8", newline="") as fh:
-        writer = csv.DictWriter(fh, fieldnames=header, delimiter="\t", extrasaction="ignore",
-                                lineterminator="\n")
+        writer = csv.DictWriter(
+            fh, fieldnames=header, delimiter="\t", extrasaction="ignore", lineterminator="\n"
+        )
         writer.writeheader()
         for row in rows:
             writer.writerow({h: row.get(h, "") for h in header})

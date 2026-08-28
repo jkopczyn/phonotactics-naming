@@ -23,31 +23,64 @@ context sequences, so — as in a rewrite environment (I-3) — `#` in them is t
 the sequence runs to end-of-line; a trailing comment is not possible on those two line kinds.
 Every other structured line takes a trailing `# comment`.
 """
+
 from __future__ import annotations
 
 import re
 import unicodedata
 from dataclasses import dataclass, field
 from pathlib import Path
+from typing import TYPE_CHECKING
 
-from .features import FeatureError, FeatureTable, DERIVED_CLASSES
+from .features import DERIVED_CLASSES, FeatureError, FeatureTable
 from .tokenize import SegmentError, tokenize
 
+if TYPE_CHECKING:
+    from .spelled import GraphemeRule
+
 __all__ = [
-    "Bundle", "ItemSpec", "CtxItem", "Rule", "Backref", "QuotedText", "RuleFile",
-    "SyllableSpec", "StressSpec", "Epithet", "TemplateItem",
-    "ParseError", "parse_rules", "parse_rules_file",
-    "SECTION_NAMES", "REWRITE_SECTIONS", "SUBTABLE_SECTIONS", "TAGS",
-    "STRESS_PROCEDURES", "TEMPLATE_ARGS", "template_functions",
+    "Bundle",
+    "ItemSpec",
+    "CtxItem",
+    "Rule",
+    "Backref",
+    "QuotedText",
+    "RuleFile",
+    "SyllableSpec",
+    "StressSpec",
+    "Epithet",
+    "TemplateItem",
+    "ParseError",
+    "parse_rules",
+    "parse_rules_file",
+    "SECTION_NAMES",
+    "REWRITE_SECTIONS",
+    "SUBTABLE_SECTIONS",
+    "TAGS",
+    "STRESS_PROCEDURES",
+    "TEMPLATE_ARGS",
+    "template_functions",
 ]
 
 SECTION_NAMES: tuple[str, ...] = (
-    "meta", "inventory", "classes", "weights", "substitute", "syllable", "repair",
-    "post-stress", "stress", "epithets", "respell", "templates", "mutations", "inflect",
+    "meta",
+    "inventory",
+    "classes",
+    "weights",
+    "substitute",
+    "syllable",
+    "repair",
+    "post-stress",
+    "stress",
+    "epithets",
+    "respell",
+    "templates",
+    "mutations",
+    "inflect",
     "normalize",
 )
 REWRITE_SECTIONS: tuple[str, ...] = ("substitute", "repair", "post-stress", "respell", "normalize")
-SUBTABLE_SECTIONS: tuple[str, ...] = ("mutations", "inflect")          # I-15
+SUBTABLE_SECTIONS: tuple[str, ...] = ("mutations", "inflect")  # I-15
 # [repair] `cluster-fallback` values (spec §12.E): "same-length" substitutes the nearest
 # attested cluster of the same length; "keep" leaves the illegal span alone, clears its
 # marks and flags it (owner decision 2026-08-25 for Georgian; digest §3.7).
@@ -62,9 +95,22 @@ TEMPLATE_ARGS: tuple[str, ...] = ("NAME", "FATHER", "NOUN", "ADJ", "FIRST", "SEC
 # `GEN ART LEN_IF_F`; old-irish.rules: `GEN NOM VOC DAT ART`). `template_functions(rf)` is
 # the one registry the parser and `strands check` both read, so they cannot drift.
 TEMPLATE_FUNCTIONS_KEY = "template-functions"
-_SYLLABLE_KEYS: frozenset[str] = frozenset((
-    "template", "nuclei", "onsets", "codas", "onsets-tier", "codas-tier", "onset-required",
-    "appendix", "domain", "sonority", "bans", "cluster-legality"))
+_SYLLABLE_KEYS: frozenset[str] = frozenset(
+    (
+        "template",
+        "nuclei",
+        "onsets",
+        "codas",
+        "onsets-tier",
+        "codas-tier",
+        "onset-required",
+        "appendix",
+        "domain",
+        "sonority",
+        "bans",
+        "cluster-legality",
+    )
+)
 _TIER_RE = re.compile(r"[A-Z][A-Z0-9]*\Z")
 _SUBTABLE_HEAD_RE = re.compile(r"([A-Za-z][A-Za-z0-9_-]*)\s*:\s*(?:#.*)?\Z")
 
@@ -91,26 +137,27 @@ def _orth_value(raw: str) -> str:
 
 # ---- data model -----------------------------------------------------------------------------
 
+
 @dataclass(frozen=True)
 class Bundle:
     class_name: str | None
-    constraints: dict[str, str]        # canonical feature names (aliases resolved at parse)
-    orth: str | None = None            # `orth="bh"`: the segment's orth tag (Old Irish O-6);
-                                       # NFC + casefolded; never in a change bundle
+    constraints: dict[str, str]  # canonical feature names (aliases resolved at parse)
+    orth: str | None = None  # `orth="bh"`: the segment's orth tag (Old Irish O-6);
+    # NFC + casefolded; never in a change bundle
 
 
 @dataclass(frozen=True)
 class ItemSpec:
-    kind: str                          # "segment" | "class" | "bundle" | "set" | "orth"
+    kind: str  # "segment" | "class" | "bundle" | "set" | "orth"
     value: str | Bundle | tuple[str, ...]
-    capture: int | None = None         # from ":n" (I-33)
+    capture: int | None = None  # from ":n" (I-33)
     # kind "orth" (Old Irish spec §4/§11, O-6): `@orth("bh")`, sugar for `[orth="bh"]`;
     # value is the NFC + casefolded tag, positional suffix included (`ia:1`).
 
 
 @dataclass(frozen=True)
 class CtxItem:
-    atom: ItemSpec | str               # str is one of "#", "$", ".", "ˈ"
+    atom: ItemSpec | str  # str is one of "#", "$", ".", "ˈ"
     optional: bool = False
     star: bool = False
 
@@ -129,8 +176,8 @@ class QuotedText:
 class Rule:
     section: str
     line: int
-    rule_id: str                       # f"{section}:{line}"
-    target: tuple[ItemSpec, ...]       # () = epenthesis
+    rule_id: str  # f"{section}:{line}"
+    target: tuple[ItemSpec, ...]  # () = epenthesis
     replacement: tuple[object, ...] | Bundle
     #   elements are str (segment), Backref(n), or QuotedText(s); Bundle = feature change;
     #   () = deletion
@@ -146,28 +193,29 @@ class SyllableSpec:
     `template`/`onsets`/`codas` None = `any`; `onset_required` False; `domain` "word";
     `sonority` off. `onsets`/`codas` are kept in FILE ORDER because cluster-fallback
     (§12.E) breaks ties by list order; the frozensets are only membership indexes."""
-    template: tuple[tuple[str, bool], ...] | None   # (slot, optional); None = "any"
-    nuclei: tuple[tuple[str, ...], ...]             # licensed vowel sequences (I-2)
-    onsets: tuple[tuple[str, ...], ...] | None      # COMPLETE, IN FILE ORDER (spec §12.D/§12.E)
+
+    template: tuple[tuple[str, bool], ...] | None  # (slot, optional); None = "any"
+    nuclei: tuple[tuple[str, ...], ...]  # licensed vowel sequences (I-2)
+    onsets: tuple[tuple[str, ...], ...] | None  # COMPLETE, IN FILE ORDER (spec §12.D/§12.E)
     codas: tuple[tuple[str, ...], ...] | None
-    onset_set: frozenset[tuple[str, ...]] | None    # derived from `onsets`, for membership tests
-    coda_set: frozenset[tuple[str, ...]] | None     # derived from `codas`
+    onset_set: frozenset[tuple[str, ...]] | None  # derived from `onsets`, for membership tests
+    coda_set: frozenset[tuple[str, ...]] | None  # derived from `codas`
     onset_tiers: dict[tuple[str, ...], str]
     coda_tiers: dict[tuple[str, ...], str]
-    onset_required: bool                            # default False (spec §12.D)
+    onset_required: bool  # default False (spec §12.D)
     appendix: tuple[str, ...]
-    domain: str                                     # "word" | "stem"
+    domain: str  # "word" | "stem"
     sonority: bool
     bans: tuple[tuple[CtxItem, ...], ...]
-    cluster_legality: str = "whole"                 # "whole" | "pairwise"; default = §12.D
-    onset_pairs: tuple[tuple[str, str], ...] = ()   # adjacent pairs inside `onsets`, first-seen
-    coda_pairs: tuple[tuple[str, str], ...] = ()    # adjacent pairs inside `codas`, first-seen
+    cluster_legality: str = "whole"  # "whole" | "pairwise"; default = §12.D
+    onset_pairs: tuple[tuple[str, str], ...] = ()  # adjacent pairs inside `onsets`, first-seen
+    coda_pairs: tuple[tuple[str, str], ...] = ()  # adjacent pairs inside `codas`, first-seen
 
 
 @dataclass(frozen=True)
 class StressSpec:
     procedure: str
-    params: dict[str, str]             # raw values; validated against stress/params.py by check
+    params: dict[str, str]  # raw values; validated against stress/params.py by check
 
 
 @dataclass(frozen=True)
@@ -180,10 +228,10 @@ class Epithet:
 
 @dataclass(frozen=True)
 class TemplateItem:
-    kind: str            # "literal" | "arg" | "call"
-    value: str           # literal text, argument name, or function name
-    child: "TemplateItem | None" = None    # the call's argument; None = applied to the head (I-16)
-    conditional: bool = False              # trailing "?"
+    kind: str  # "literal" | "arg" | "call"
+    value: str  # literal text, argument name, or function name
+    child: TemplateItem | None = None  # the call's argument; None = applied to the head (I-16)
+    conditional: bool = False  # trailing "?"
 
 
 @dataclass(frozen=True)
@@ -192,27 +240,27 @@ class RuleFile:
     meta: dict[str, str]
     inventory: tuple[str, ...]
     marginal: frozenset[str]
-    classes: dict[str, tuple[str, ...]]     # user + derived (I-11)
+    classes: dict[str, tuple[str, ...]]  # user + derived (I-11)
     weights: dict[str, float]
     sections: dict[str, tuple[Rule, ...]]
     syllable: SyllableSpec | None = None
     stress: StressSpec | None = None
     epithets: dict[str, Epithet] = field(default_factory=dict)
     templates: dict[str, tuple[TemplateItem, ...]] = field(default_factory=dict)
-    mutations: dict[str, tuple[Rule, ...]] = field(default_factory=dict)   # I-15
-    inflect: dict[str, tuple[Rule, ...]] = field(default_factory=dict)     # I-15
+    mutations: dict[str, tuple[Rule, ...]] = field(default_factory=dict)  # I-15
+    inflect: dict[str, tuple[Rule, ...]] = field(default_factory=dict)  # I-15
     # `[meta] grammar = graphemes` (Old Irish spec §11, O-10): the sub-tables are
     # GraphemeRule rewrites over the grapheme table and land here; `mutations`/`inflect`
     # stay empty for such a file. Without the key these stay empty.
     grapheme_mutations: dict[str, tuple[object, ...]] = field(default_factory=dict)
     grapheme_inflect: dict[str, tuple[object, ...]] = field(default_factory=dict)
-    overlay_undo: str | None = None         # [repair] directive: the overlay segment that may
-                                            # be deleted again when the cluster its insertion
-                                            # created is not licensed (owner decision
-                                            # 2026-08-25, Georgian Cʷ /v/)
-    cluster_fallback: str | None = None     # [repair] directive (spec §12.E): "same-length"
-                                            # (substitute the nearest attested cluster) or
-                                            # "keep" (leave it, clear the marks, flag it)
+    overlay_undo: str | None = None  # [repair] directive: the overlay segment that may
+    # be deleted again when the cluster its insertion
+    # created is not licensed (owner decision
+    # 2026-08-25, Georgian Cʷ /v/)
+    cluster_fallback: str | None = None  # [repair] directive (spec §12.E): "same-length"
+    # (substitute the nearest attested cluster) or
+    # "keep" (leave it, clear the marks, flag it)
 
 
 class ParseError(Exception):
@@ -227,10 +275,12 @@ class ParseError(Exception):
 
 # ---- lexical scanning of rewrite lines ------------------------------------------------------
 
+
 @dataclass
 class _Tok:
     """One scanned item: kind in {"word", "bundle", "set", "quoted", "backref", "special",
     "orth"}."""
+
     kind: str
     text: str
     capture: int | None = None
@@ -276,10 +326,17 @@ class _LineParser:
         target = self._target(target_text)
         replacement = self._replacement(repl_text)
         left, right = self._environment(env_text, explicit_tag=explicit_tag)
-        return Rule(section=self.section, line=self.line,
-                    rule_id=f"{self.section}:{self.line}", target=target,
-                    replacement=replacement, left=left, right=right, tag=tag,
-                    comment=comment)
+        return Rule(
+            section=self.section,
+            line=self.line,
+            rule_id=f"{self.section}:{self.line}",
+            target=target,
+            replacement=replacement,
+            left=left,
+            right=right,
+            tag=tag,
+            comment=comment,
+        )
 
     def _split(self, text: str) -> tuple[str, str, str | None, str, str, bool]:
         """`TARGET -> REPLACEMENT [/ ENV] [%tag] [# comment]` -> (target text, replacement
@@ -288,7 +345,7 @@ class _LineParser:
         if arrow < 0:
             raise self.err("rewrite line needs '->' (TARGET -> REPLACEMENT [/ ENV] [%tag])")
         target_text = text[:arrow]
-        rest = text[arrow + 2:]
+        rest = text[arrow + 2 :]
 
         # Explicit tag splits the line: everything after it may only be a comment.
         tag = "attested"
@@ -304,12 +361,15 @@ class _LineParser:
             word = m.group(1) if m else ""
             if word not in TAGS:
                 if 0 <= hash0 < pct:
-                    raise self.err("comment after environment requires an explicit %tag "
-                                   "(I-3: '#' inside an environment is the word edge)")
-                raise self.err(f"unknown tag %{word!s}; expected one of "
-                               + ", ".join("%" + t for t in TAGS))
+                    raise self.err(
+                        "comment after environment requires an explicit %tag "
+                        "(I-3: '#' inside an environment is the word edge)"
+                    )
+                raise self.err(
+                    f"unknown tag %{word!s}; expected one of " + ", ".join("%" + t for t in TAGS)
+                )
             tag = word
-            after = rest[pct + 1 + len(word):].strip()
+            after = rest[pct + 1 + len(word) :].strip()
             if after:
                 if not after.startswith("#"):
                     raise self.err(f"unexpected text after %{tag}: {after!r}")
@@ -322,11 +382,11 @@ class _LineParser:
         if pct < 0:
             hash_pos = self._find_outside(body, "#")
             if hash_pos >= 0 and (slash < 0 or hash_pos < slash):
-                comment = body[hash_pos + 1:]
+                comment = body[hash_pos + 1 :]
                 body = body[:hash_pos]
                 slash = -1
         if slash >= 0:
-            repl_text, env_text = body[:slash], body[slash + 1:]
+            repl_text, env_text = body[:slash], body[slash + 1 :]
         else:
             repl_text, env_text = body, None
         return target_text, repl_text, env_text, tag, comment, pct >= 0
@@ -354,19 +414,19 @@ class _LineParser:
                 j = text.find("]", i)
                 if j < 0:
                     raise self.err("unclosed '['")
-                tok = _Tok("bundle", text[i + 1:j])
+                tok = _Tok("bundle", text[i + 1 : j])
                 i = j + 1
             elif ch == "{":
                 j = text.find("}", i)
                 if j < 0:
                     raise self.err("unclosed '{'")
-                tok = _Tok("set", text[i + 1:j])
+                tok = _Tok("set", text[i + 1 : j])
                 i = j + 1
             elif ch == '"':
                 j = text.find('"', i + 1)
                 if j < 0:
                     raise self.err("unclosed '\"'")
-                tok = _Tok("quoted", text[i + 1:j])
+                tok = _Tok("quoted", text[i + 1 : j])
                 i = j + 1
             elif ch == "@":
                 m = _ORTH_RE.match(text, i)
@@ -388,9 +448,12 @@ class _LineParser:
                 j = i
                 while j < n:
                     c = text[j]
-                    if c == "_" and _CLASS_RE.match(text[i:j]) and j + 1 < n \
-                            and (text[j + 1].isupper() or text[j + 1].isdigit()
-                                 or text[j + 1] == "_"):
+                    if (
+                        c == "_"
+                        and _CLASS_RE.match(text[i:j])
+                        and j + 1 < n
+                        and (text[j + 1].isupper() or text[j + 1].isdigit() or text[j + 1] == "_")
+                    ):
                         j += 1
                         continue
                     if c in _TERMINATORS:
@@ -429,7 +492,7 @@ class _LineParser:
         try:
             return self.table.canonical_feature(name)
         except FeatureError:
-            return name          # reported by `strands check` as UNKNOWN_FEATURE
+            return name  # reported by `strands check` as UNKNOWN_FEATURE
 
     def _bundle(self, inner: str, *, change: bool) -> Bundle:
         parts = inner.split()
@@ -459,8 +522,10 @@ class _LineParser:
                     raise self.err(f"a feature-change bundle may not name a class ({p})")
                 class_name = p
             else:
-                raise self.err(f"bad bundle element {p!r}: expected ±feature"
-                               + ("" if k else " or a class name"))
+                raise self.err(
+                    f"bad bundle element {p!r}: expected ±feature"
+                    + ("" if k else " or a class name")
+                )
         if change and not constraints:
             raise self.err("a feature-change bundle needs at least one ±feature")
         return Bundle(class_name, constraints, orth)
@@ -535,8 +600,10 @@ class _LineParser:
                 if t.text == "0":
                     raise self.err("'0' must stand alone in a replacement")
                 if _CLASS_RE.match(t.text):
-                    raise self.err(f"bare class name {t.text!r} in a replacement; "
-                                   "capture the item and use a backreference (I-5)")
+                    raise self.err(
+                        f"bare class name {t.text!r} in a replacement; "
+                        "capture the item and use a backreference (I-5)"
+                    )
                 if t.text not in self.table:
                     raise self.err(f"unknown segment {t.text!r} in replacement")
                 out.append(t.text)
@@ -559,12 +626,16 @@ class _LineParser:
                 if t.capture is not None:
                     raise self.err(f"a capture cannot be attached to {t.text!r}")
                 if t.text == "#":
-                    edge_ok = (side == "left" and k == 0) or \
-                              (side == "right" and k == len(toks) - 1) or \
-                              (side == "ban" and k in (0, len(toks) - 1))
+                    edge_ok = (
+                        (side == "left" and k == 0)
+                        or (side == "right" and k == len(toks) - 1)
+                        or (side == "ban" and k in (0, len(toks) - 1))
+                    )
                     if not edge_ok:
-                        raise self.err("comment after environment requires an explicit %tag "
-                                       "(I-3: '#' inside an environment is the word edge)")
+                        raise self.err(
+                            "comment after environment requires an explicit %tag "
+                            "(I-3: '#' inside an environment is the word edge)"
+                        )
                 out.append(CtxItem(t.text, optional=t.optional, star=t.star))
                 continue
             if t.kind in ("quoted", "backref"):
@@ -572,8 +643,7 @@ class _LineParser:
             if t.kind == "orth" and t.capture is not None:
                 raise self.err(_ORTH_CAPTURE)
             if t.capture is not None and (t.optional or t.star):
-                raise self.err("a capture cannot be attached to an optional or starred item "
-                               "(I-9)")
+                raise self.err("a capture cannot be attached to an optional or starred item (I-9)")
             out.append(CtxItem(self._item(t, "environment"), optional=t.optional, star=t.star))
         return tuple(out)
 
@@ -587,8 +657,9 @@ class _LineParser:
             raise self.err("'_' is not allowed here (a ban is a plain sequence, I-14)")
         return self._ctx_seq(toks, "ban")
 
-    def _environment(self, text: str | None, *, explicit_tag: bool
-                     ) -> tuple[tuple[CtxItem, ...], tuple[CtxItem, ...]]:
+    def _environment(
+        self, text: str | None, *, explicit_tag: bool
+    ) -> tuple[tuple[CtxItem, ...], tuple[CtxItem, ...]]:
         if text is None:
             return (), ()
         toks = self._scan(text)
@@ -598,7 +669,7 @@ class _LineParser:
         k = slots[0]
         if toks[k].optional or toks[k].star or toks[k].capture is not None:
             raise self.err("'_' takes no suffix")
-        return self._ctx_seq(toks[:k], "left"), self._ctx_seq(toks[k + 1:], "right")
+        return self._ctx_seq(toks[:k], "left"), self._ctx_seq(toks[k + 1 :], "right")
 
 
 class _GraphemeLineParser(_LineParser):
@@ -609,22 +680,37 @@ class _GraphemeLineParser(_LineParser):
     `GraphemeRule`. Bundles, quoted text, backreferences, `@orth`, captures, `()` and `*`
     are all errors: a grapheme rule has no features to constrain."""
 
-    def __init__(self, section: str, subtable: str, line: int, path: str,
-                 table: FeatureTable, tokens: frozenset[str]) -> None:
+    def __init__(
+        self,
+        section: str,
+        subtable: str,
+        line: int,
+        path: str,
+        table: FeatureTable,
+        tokens: frozenset[str],
+    ) -> None:
         super().__init__(section, line, path, table)
         self.subtable = subtable
         self.tokens = tokens
 
-    def parse(self, text: str) -> "GraphemeRule":       # type: ignore[override]
+    def parse(self, text: str) -> GraphemeRule:  # type: ignore[override]
         from .spelled import GraphemeRule
+
         target_text, repl_text, env_text, tag, comment, _ = self._split(text)
         target = self._gtarget(target_text)
         replacement = self._greplacement(repl_text)
         left, right = self._genvironment(env_text)
-        return GraphemeRule(table=self.subtable, line=self.line,
-                            rule_id=f"{self.section}:{self.line}", target=target,
-                            replacement=replacement, left=left, right=right, tag=tag,
-                            comment=comment)
+        return GraphemeRule(
+            table=self.subtable,
+            line=self.line,
+            rule_id=f"{self.section}:{self.line}",
+            target=target,
+            replacement=replacement,
+            left=left,
+            right=right,
+            tag=tag,
+            comment=comment,
+        )
 
     def _gatom(self, tok: _Tok, where: str, *, classes: bool) -> str:
         if tok.capture is not None or tok.optional or tok.star:
@@ -647,9 +733,10 @@ class _GraphemeLineParser(_LineParser):
                 if m not in self.tokens:
                     raise self.err(f"unknown grapheme token {m!r} in set")
             return "{" + " ".join(members) + "}"
-        raise self.err(f"{tok.text!r} is not a grapheme token; a grapheme {where} takes "
-                       "tokens, inline sets, V, C" + (" and #" if where == "environment"
-                                                      else ""))
+        raise self.err(
+            f"{tok.text!r} is not a grapheme token; a grapheme {where} takes "
+            "tokens, inline sets, V, C" + (" and #" if where == "environment" else "")
+        )
 
     def _gtarget(self, text: str) -> tuple[str, ...]:
         toks = self._scan(text)
@@ -685,21 +772,26 @@ class _GraphemeLineParser(_LineParser):
             for j, t in enumerate(items):
                 if t.kind == "special":
                     edge_ok = t.text == "#" and (
-                        (which == "left" and j == 0) or (which == "right" and j == len(items) - 1))
+                        (which == "left" and j == 0) or (which == "right" and j == len(items) - 1)
+                    )
                     if not edge_ok:
                         if t.text == "#":
-                            raise self.err("comment after environment requires an explicit "
-                                           "%tag (I-3: '#' inside an environment is the word "
-                                           "edge)")
+                            raise self.err(
+                                "comment after environment requires an explicit "
+                                "%tag (I-3: '#' inside an environment is the word "
+                                "edge)"
+                            )
                         raise self.err(f"{t.text!r} is not allowed in a grapheme environment")
                     out.append("#")
                 else:
                     out.append(self._gatom(t, "environment", classes=True))
             return tuple(out)
-        return side(toks[:k], "left"), side(toks[k + 1:], "right")
+
+        return side(toks[:k], "left"), side(toks[k + 1 :], "right")
 
 
 # ---- file parser ----------------------------------------------------------------------------
+
 
 def _strip_comment(text: str) -> str:
     """Drop a trailing `# ...` from a non-rewrite entry line."""
@@ -728,23 +820,24 @@ def _strip_comment_quoted(text: str) -> str:
     return text
 
 
-def _cluster(token: str, table: FeatureTable, line: int, path: str, where: str
-             ) -> tuple[str, ...]:
+def _cluster(token: str, table: FeatureTable, line: int, path: str, where: str) -> tuple[str, ...]:
     """A CLUSTER token: longest-match tokenized into one or more segments."""
     if any(ch in token for ch in "#$.ˈˌ "):
         raise ParseError(f"cluster {token!r} in {where} may only contain segments", line, path)
     try:
         segs = tokenize(token, table).segments
     except SegmentError as e:
-        raise ParseError(f"unknown segment in cluster {token!r} in {where}: {e}",
-                         line, path) from None
+        raise ParseError(
+            f"unknown segment in cluster {token!r} in {where}: {e}", line, path
+        ) from None
     if not segs:
         raise ParseError(f"empty cluster in {where}", line, path)
     return segs
 
 
-def _cluster_list(value: str, table: FeatureTable, line: int, path: str, where: str
-                  ) -> tuple[tuple[str, ...], ...]:
+def _cluster_list(
+    value: str, table: FeatureTable, line: int, path: str, where: str
+) -> tuple[tuple[str, ...], ...]:
     tokens = value.split()
     if not tokens:
         raise ParseError(f"{where} needs at least one cluster (or 'any')", line, path)
@@ -756,8 +849,9 @@ def _cluster_list(value: str, table: FeatureTable, line: int, path: str, where: 
     return tuple(out)
 
 
-def _tiered_list(value: str, table: FeatureTable, line: int, path: str, where: str
-                 ) -> dict[tuple[str, ...], str]:
+def _tiered_list(
+    value: str, table: FeatureTable, line: int, path: str, where: str
+) -> dict[tuple[str, ...], str]:
     out: dict[tuple[str, ...], str] = {}
     tokens = value.split()
     if not tokens:
@@ -765,8 +859,12 @@ def _tiered_list(value: str, table: FeatureTable, line: int, path: str, where: s
     for tok in tokens:
         cluster, colon, tier = tok.rpartition(":")
         if not colon or not cluster or not _TIER_RE.match(tier):
-            raise ParseError(f"bad tier item {tok!r} in {where}: expected CLUSTER:TIER "
-                             "with TIER matching [A-Z][A-Z0-9]*", line, path)
+            raise ParseError(
+                f"bad tier item {tok!r} in {where}: expected CLUSTER:TIER "
+                "with TIER matching [A-Z][A-Z0-9]*",
+                line,
+                path,
+            )
         out[_cluster(cluster, table, line, path, where)] = tier
     return out
 
@@ -788,8 +886,12 @@ def _template_slots(value: str, line: int, path: str) -> tuple[tuple[str, bool],
             j += 1
         slot = value[i:j]
         if not slot or not _CLASS_RE.match(slot):
-            raise ParseError(f"bad template slot at {value[i:]!r}: expected C, V, N or a "
-                             "class name, optionally in ()", line, path)
+            raise ParseError(
+                f"bad template slot at {value[i:]!r}: expected C, V, N or a "
+                "class name, optionally in ()",
+                line,
+                path,
+            )
         i = j
         if optional:
             if i >= n or value[i] != ")":
@@ -801,13 +903,12 @@ def _template_slots(value: str, line: int, path: str) -> tuple[tuple[str, bool],
     return tuple(out)
 
 
-def _adjacent_pairs(clusters: tuple[tuple[str, ...], ...] | None
-                    ) -> tuple[tuple[str, str], ...]:
+def _adjacent_pairs(clusters: tuple[tuple[str, ...], ...] | None) -> tuple[tuple[str, str], ...]:
     """Every adjacent segment pair occurring inside some cluster of the list, in first-seen
     order (`cluster-legality = pairwise`; see syllabify.legal_onset)."""
     out: dict[tuple[str, str], None] = {}
     for cluster in clusters or ():
-        for a, b in zip(cluster, cluster[1:]):
+        for a, b in zip(cluster, cluster[1:], strict=False):
             out.setdefault((a, b), None)
     return tuple(out)
 
@@ -835,16 +936,21 @@ class _SyllableBuilder:
         key, _, rest = line.partition("=")
         key = key.strip()
         if key not in _SYLLABLE_KEYS:
-            raise ParseError(f"unknown [syllable] key {key!r}; expected one of "
-                             + ", ".join(sorted(_SYLLABLE_KEYS)), lineno, path)
+            raise ParseError(
+                f"unknown [syllable] key {key!r}; expected one of "
+                + ", ".join(sorted(_SYLLABLE_KEYS)),
+                lineno,
+                path,
+            )
         if key != "bans":
             if key in self.seen:
-                raise ParseError(f"[syllable] {key} given twice (first at line "
-                                 f"{self.seen[key]})", lineno, path)
+                raise ParseError(
+                    f"[syllable] {key} given twice (first at line {self.seen[key]})", lineno, path
+                )
             self.seen[key] = lineno
             _, value = _key_value(_strip_comment(line), lineno, path)
         else:
-            value = rest.strip()      # context sequence: `#` is the word edge (I-3)
+            value = rest.strip()  # context sequence: `#` is the word edge (I-3)
         if not value:
             raise ParseError(f"[syllable] {key} has no value", lineno, path)
         if key == "template":
@@ -853,19 +959,29 @@ class _SyllableBuilder:
             self.nuclei = _cluster_list(value, table, lineno, path, "nuclei")
             for nuc in self.nuclei:
                 if len(nuc) < 2:
-                    raise ParseError(f"nucleus {''.join(nuc)!r} is a single segment; `nuclei` "
-                                     "lists licensed vowel SEQUENCES (I-2)", lineno, path)
+                    raise ParseError(
+                        f"nucleus {''.join(nuc)!r} is a single segment; `nuclei` "
+                        "lists licensed vowel SEQUENCES (I-2)",
+                        lineno,
+                        path,
+                    )
                 for seg in nuc:
                     if table.value(seg, "syllabic") != "+":
-                        raise ParseError(f"nucleus {''.join(nuc)!r} contains the non-vowel "
-                                         f"{seg!r}; `nuclei` lists licensed VOWEL sequences "
-                                         "(I-2, spec §12.B)", lineno, path)
+                        raise ParseError(
+                            f"nucleus {''.join(nuc)!r} contains the non-vowel "
+                            f"{seg!r}; `nuclei` lists licensed VOWEL sequences "
+                            "(I-2, spec §12.B)",
+                            lineno,
+                            path,
+                        )
         elif key == "onsets":
-            self.onsets = None if value == "any" else \
-                _cluster_list(value, table, lineno, path, "onsets")
+            self.onsets = (
+                None if value == "any" else _cluster_list(value, table, lineno, path, "onsets")
+            )
         elif key == "codas":
-            self.codas = None if value == "any" else \
-                _cluster_list(value, table, lineno, path, "codas")
+            self.codas = (
+                None if value == "any" else _cluster_list(value, table, lineno, path, "codas")
+            )
         elif key == "onsets-tier":
             self.onset_tiers = _tiered_list(value, table, lineno, path, "onsets-tier")
         elif key == "codas-tier":
@@ -897,18 +1013,26 @@ class _SyllableBuilder:
 
     def build(self) -> SyllableSpec:
         return SyllableSpec(
-            template=self.template, nuclei=self.nuclei,
-            onsets=self.onsets, codas=self.codas,
+            template=self.template,
+            nuclei=self.nuclei,
+            onsets=self.onsets,
+            codas=self.codas,
             onset_set=None if self.onsets is None else frozenset(self.onsets),
             coda_set=None if self.codas is None else frozenset(self.codas),
-            onset_tiers=self.onset_tiers, coda_tiers=self.coda_tiers,
-            onset_required=self.onset_required, appendix=self.appendix,
-            domain=self.domain, sonority=self.sonority, bans=tuple(self.bans),
+            onset_tiers=self.onset_tiers,
+            coda_tiers=self.coda_tiers,
+            onset_required=self.onset_required,
+            appendix=self.appendix,
+            domain=self.domain,
+            sonority=self.sonority,
+            bans=tuple(self.bans),
             cluster_legality=self.cluster_legality,
-            onset_pairs=_adjacent_pairs(self.onsets), coda_pairs=_adjacent_pairs(self.codas))
+            onset_pairs=_adjacent_pairs(self.onsets),
+            coda_pairs=_adjacent_pairs(self.codas),
+        )
 
 
-def template_functions(rf: "RuleFile") -> frozenset[str]:
+def template_functions(rf: RuleFile) -> frozenset[str]:
     """The template call names legal in `rf` (Old Irish spec §11, GPT #7): the keys of its
     mutation and inflection sub-tables (segment or grapheme) plus the built-ins declared in
     `[meta] template-functions`. Read by the parser AND by `check.templates`."""
@@ -958,13 +1082,13 @@ class _TemplateParser:
             j = text.find('"', self.i + 1)
             if j < 0:
                 raise self.err("unclosed '\"' in template")
-            item = TemplateItem("literal", text[self.i + 1:j])
+            item = TemplateItem("literal", text[self.i + 1 : j])
             self.i = j + 1
         else:
             j = self.i
             while j < len(text) and (text[j].isalnum() or text[j] == "_"):
                 j += 1
-            name = text[self.i:j]
+            name = text[self.i : j]
             if not name:
                 raise self.err(f"unexpected {text[self.i]!r} in template")
             self.i = j
@@ -987,7 +1111,7 @@ class _TemplateParser:
                     self.i += 1
                     item = TemplateItem("call", name, child)
                 else:
-                    item = TemplateItem("call", name)   # applied to the head (I-16, R1)
+                    item = TemplateItem("call", name)  # applied to the head (I-16, R1)
         if self.i < len(text) and text[self.i] == "?":
             self.i += 1
             item = TemplateItem(item.kind, item.value, item.child, True)
@@ -1020,6 +1144,7 @@ def _grapheme_tokens(orthography: str | None, line: int, path: str) -> frozenset
     table named by `[meta] orthography` (relative to the project root), else the Old Irish
     default."""
     from .spelled import OI_ORTHOGRAPHY_PATH, SpelledError, load_graphemes
+
     table_path = OI_ORTHOGRAPHY_PATH
     if orthography:
         table_path = Path(orthography)
@@ -1077,8 +1202,11 @@ def parse_rules(text: str, table: FeatureTable, path: str = "<string>") -> RuleF
             if section == "repair" and re.match(r"overlay-undo\s*=", line):
                 _, value = _key_value(_strip_comment(line), lineno, path)
                 if value not in table.segments:
-                    raise ParseError(f"overlay-undo must name a segment in features.tsv, "
-                                     f"not {value!r}", lineno, path)
+                    raise ParseError(
+                        f"overlay-undo must name a segment in features.tsv, not {value!r}",
+                        lineno,
+                        path,
+                    )
                 if overlay_undo is not None:
                     raise ParseError("overlay-undo given twice", lineno, path)
                 overlay_undo = value
@@ -1086,9 +1214,13 @@ def parse_rules(text: str, table: FeatureTable, path: str = "<string>") -> RuleF
             if section == "repair" and re.match(r"cluster-fallback\s*=", line):
                 _, value = _key_value(_strip_comment(line), lineno, path)
                 if value not in CLUSTER_FALLBACK_VALUES:
-                    raise ParseError(f"cluster-fallback must be one of "
-                                     f"{', '.join(map(repr, CLUSTER_FALLBACK_VALUES))}, "
-                                     f"not {value!r} (spec §12.E)", lineno, path)
+                    raise ParseError(
+                        f"cluster-fallback must be one of "
+                        f"{', '.join(map(repr, CLUSTER_FALLBACK_VALUES))}, "
+                        f"not {value!r} (spec §12.E)",
+                        lineno,
+                        path,
+                    )
                 if cluster_fallback is not None:
                     raise ParseError("cluster-fallback given twice", lineno, path)
                 cluster_fallback = value
@@ -1101,21 +1233,27 @@ def parse_rules(text: str, table: FeatureTable, path: str = "<string>") -> RuleF
             if head and "->" not in line:
                 current_subtable = head.group(1)
                 if current_subtable in store[section]:
-                    raise ParseError(f"[{section}] table {current_subtable} declared twice",
-                                     lineno, path)
+                    raise ParseError(
+                        f"[{section}] table {current_subtable} declared twice", lineno, path
+                    )
                 store[section][current_subtable] = []
                 continue
             if current_subtable is None:
-                raise ParseError(f"[{section}] rule before any 'NAME:' sub-table head (I-15)",
-                                 lineno, path)
+                raise ParseError(
+                    f"[{section}] rule before any 'NAME:' sub-table head (I-15)", lineno, path
+                )
             if graphemes:
                 if grapheme_tokens is None:
                     grapheme_tokens = _grapheme_tokens(meta.get("orthography"), lineno, path)
-                store[section][current_subtable].append(_GraphemeLineParser(
-                    section, current_subtable, lineno, path, table, grapheme_tokens).parse(line))
+                store[section][current_subtable].append(
+                    _GraphemeLineParser(
+                        section, current_subtable, lineno, path, table, grapheme_tokens
+                    ).parse(line)
+                )
             else:
                 store[section][current_subtable].append(
-                    _LineParser(section, lineno, path, table).parse(line))
+                    _LineParser(section, lineno, path, table).parse(line)
+                )
         elif section == "syllable":
             assert syllable is not None
             syllable.entry(line, lineno)
@@ -1123,15 +1261,20 @@ def parse_rules(text: str, table: FeatureTable, path: str = "<string>") -> RuleF
             key, value = _key_value(_strip_comment(line), lineno, path)
             if key == "procedure":
                 if value not in STRESS_PROCEDURES:
-                    raise ParseError(f"unknown stress procedure {value!r}; expected one of "
-                                     + ", ".join(STRESS_PROCEDURES), lineno, path)
+                    raise ParseError(
+                        f"unknown stress procedure {value!r}; expected one of "
+                        + ", ".join(STRESS_PROCEDURES),
+                        lineno,
+                        path,
+                    )
                 if stress_procedure is not None:
                     raise ParseError("stress procedure given twice", lineno, path)
                 stress_procedure = value
             else:
                 if stress_procedure is None:
-                    raise ParseError("[stress] parameters must follow 'procedure = ...' "
-                                     "(I-17)", lineno, path)
+                    raise ParseError(
+                        "[stress] parameters must follow 'procedure = ...' (I-17)", lineno, path
+                    )
                 if key in stress_params:
                     raise ParseError(f"stress parameter {key} given twice", lineno, path)
                 stress_params[key] = value
@@ -1149,14 +1292,18 @@ def parse_rules(text: str, table: FeatureTable, path: str = "<string>") -> RuleF
         elif section == "meta":
             key, value = _key_value(_strip_comment(line), lineno, path)
             if key == "grammar" and value != "graphemes":
-                raise ParseError(f"grammar must be 'graphemes' (Old Irish spec §11), not "
-                                 f"{value!r}; omit the key for a segment grammar", lineno, path)
+                raise ParseError(
+                    f"grammar must be 'graphemes' (Old Irish spec §11), not "
+                    f"{value!r}; omit the key for a segment grammar",
+                    lineno,
+                    path,
+                )
             meta[key] = value
         elif section == "inventory":
             body = _strip_comment(line).strip()
             is_marginal = body.startswith("marginal:")
             if is_marginal:
-                body = body[len("marginal:"):]
+                body = body[len("marginal:") :]
             for seg in body.split():
                 if seg not in table:
                     raise ParseError(f"unknown segment {seg!r} in [inventory]", lineno, path)
@@ -1193,7 +1340,8 @@ def parse_rules(text: str, table: FeatureTable, path: str = "<string>") -> RuleF
     # time, so the whole table stands in). A [classes] redeclaration overrides.
     over = list(inventory) + [s for s in table.segments if s not in inventory]
     classes: dict[str, tuple[str, ...]] = {
-        name: table.derived_class(name, over) for name in DERIVED_CLASSES}
+        name: table.derived_class(name, over) for name in DERIVED_CLASSES
+    }
     classes.update(user_classes)
 
     stress: StressSpec | None = None
@@ -1232,7 +1380,9 @@ def parse_rules(text: str, table: FeatureTable, path: str = "<string>") -> RuleF
                     f"template {name}: unknown template function {func!r}: expected a "
                     "[mutations]/[inflect] sub-table of this file or a name in [meta] "
                     f"{TEMPLATE_FUNCTIONS_KEY} (have: {', '.join(sorted(legal)) or 'none'})",
-                    template_lines[name], path)
+                    template_lines[name],
+                    path,
+                )
     return rf
 
 

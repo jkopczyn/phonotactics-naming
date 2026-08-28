@@ -2,6 +2,7 @@
 __pycache__/
 *.pyc
 .pytest_cache/
+.worktrees/
 # downloaded source material: keep bib.md + text extracts + small data; drop binaries/scans
 sources/**/*.pdf
 sources/**/*.html
@@ -12,4 +13,3 @@ sources/**/*.zip
 sources/**/*.djvu
 # Taalportaal (INT) is all-rights-reserved; keep local only
 sources/dutch/taalportaal-*
-!sources/welsh/awbery1984/*.png

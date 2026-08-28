@@ -1,11 +1,20 @@
 """Task 3: un-respell, the glob parser and the IPA parser (reverse spec §3.1, §2;
 V-1, V-2, V-12, V-16, V-31, V-33)."""
-import pytest
 
+import pytest
 from helpers import TABLE, target
+
 from strands.dsl import parse_rules
-from strands.reverse import (ANY, ONE, SEG, ReverseError, env_text, invert_respell,
-                             parse_ipa_pattern, parse_pattern)
+from strands.reverse import (
+    ANY,
+    ONE,
+    SEG,
+    ReverseError,
+    env_text,
+    invert_respell,
+    parse_ipa_pattern,
+    parse_pattern,
+)
 
 GEO = target("georgian")
 WEL = target("welsh")
@@ -96,6 +105,7 @@ def test_respell_notes_reach_pattern_notes():
 
 # ---- the real files --------------------------------------------------------------------------
 
+
 def test_georgian_ambiguity_is_kept_as_alternatives():
     got = chunks(GEO)
     assert ("i",) in [s.segments for s in got["y"]]
@@ -147,14 +157,14 @@ def test_a_malformed_class_is_an_error_not_a_guess(bad):
 
 
 def test_env_text_renders_the_context_shapes():
-    epen = next(r for r in GEO.sections["substitute"]
-                if not r.target and r.replacement == ("v",))
+    epen = next(r for r in GEO.sections["substitute"] if not r.target and r.replacement == ("v",))
     assert env_text(epen) == "[BROAD -labial] _ [V +front]"
     plain = next(r for r in GEO.sections["substitute"] if not r.left and not r.right)
     assert env_text(plain) == ""
 
 
 # ---- --ipa mode (V-33 / F7) --------------------------------------------------------------------
+
 
 def test_ipa_literals_are_tokenized_not_scanned_by_code_point():
     """A code-point scan would split `aː` and `tʃʰ`."""
@@ -190,7 +200,7 @@ def test_an_unknown_ipa_substring_is_an_error_naming_it():
 
 
 def test_a_segment_outside_the_strand_is_a_note_not_an_error():
-    pat = parse_ipa_pattern("θ", GEO, TABLE)          # θ tokenizes; Georgian has no /θ/
+    pat = parse_ipa_pattern("θ", GEO, TABLE)  # θ tokenizes; Georgian has no /θ/
     assert any("georgian" in n.lower() or "θ" in n for n in pat.notes)
 
 

@@ -1,10 +1,12 @@
 """Plan Task 7: rewrite engine — matching, captures, backreferences, inline sets (I-5..I-9,
 I-33), simultaneous application (I-6), trace entries (I-21)."""
+
 import pytest
 from helpers import TABLE, w
+
 from strands.dsl import parse_rules
+from strands.rewrite import RuleError, apply_rule, apply_section, find_matches
 from strands.word import Word
-from strands.rewrite import apply_rule, apply_section, find_matches, RuleError
 
 
 def rr(src):
@@ -18,7 +20,12 @@ def one(src, ipa):
 
 
 def test_simple_substitution_applies_everywhere():
-    assert one("[inventory]\np b a\n[substitute]\np -> b\n", "papa").segments == ("b", "a", "b", "a")
+    assert one("[inventory]\np b a\n[substitute]\np -> b\n", "papa").segments == (
+        "b",
+        "a",
+        "b",
+        "a",
+    )
 
 
 def test_one_trace_entry_per_changing_rule():
@@ -34,8 +41,10 @@ def test_no_trace_entry_when_nothing_matches():
 
 
 def test_class_target():
-    assert one("[inventory]\np t a\n[classes]\nX = p t\n[substitute]\nX -> a\n",
-               "pt").segments == ("a", "a")
+    assert one("[inventory]\np t a\n[classes]\nX = p t\n[substitute]\nX -> a\n", "pt").segments == (
+        "a",
+        "a",
+    )
 
 
 def test_derived_class_target():
@@ -46,8 +55,10 @@ def test_feature_bundle_target_and_exact_feature_change():
     # The plan's test writes `[+ejective]` alone, but in the committed features.tsv PHOIBLE's
     # kʼ also carries constrictedGlottis=+ (Task 2 records the same deviation), so exact
     # lookup (I-4) needs both features; `[+ejective]` alone is a RuleError (next test).
-    assert one("[inventory]\nk kʼ a\n[substitute]\n[C -sonorant] -> [+ejective +constrictedGlottis]\n",
-               "ka").segments == ("kʼ", "a")
+    assert one(
+        "[inventory]\nk kʼ a\n[substitute]\n[C -sonorant] -> [+ejective +constrictedGlottis]\n",
+        "ka",
+    ).segments == ("kʼ", "a")
 
 
 def test_ejective_alone_is_unreachable_in_current_table():
@@ -62,12 +73,20 @@ def test_inexact_feature_change_raises_ruleerror():
 
 def test_deletion_and_epenthesis():
     assert one("[inventory]\np a\n[substitute]\np -> 0\n", "pap").segments == ("a",)
-    assert one("[inventory]\ns k i\n[substitute]\n0 -> i / # _ s\n",
-               "ski").segments == ("i", "s", "k", "i")
+    assert one("[inventory]\ns k i\n[substitute]\n0 -> i / # _ s\n", "ski").segments == (
+        "i",
+        "s",
+        "k",
+        "i",
+    )
 
 
 def test_word_edge_context():
-    assert one("[inventory]\nt d a\n[substitute]\nd -> t / _ #\n", "dad").segments == ("d", "a", "t")
+    assert one("[inventory]\nt d a\n[substitute]\nd -> t / _ #\n", "dad").segments == (
+        "d",
+        "a",
+        "t",
+    )
 
 
 def test_application_is_simultaneous_not_iterative():
@@ -145,7 +164,9 @@ def test_find_matches_returns_spans_and_captures():
 
 
 def test_bundle_with_class_name_restricts_members():
-    src = "[inventory]\np k a i\n[classes]\nBROAD = p k\n[substitute]\n0 -> i / [BROAD -labial] _ a\n"
+    src = (
+        "[inventory]\np k a i\n[classes]\nBROAD = p k\n[substitute]\n0 -> i / [BROAD -labial] _ a\n"
+    )
     assert one(src, "ka").segments == ("k", "i", "a")
     assert one(src, "pa").segments == ("p", "a")
 
@@ -172,6 +193,7 @@ def test_epenthesis_keeps_its_side_of_a_morpheme_boundary():
 
 
 # ---- origins: which segments a rule INSERTED (provenance for overlay-undo) ----------------------
+
 
 def test_an_epenthesis_rule_records_the_inserted_segment_in_origins():
     rf, rules = rr("[inventory]\nn v i a\n[substitute]\n0 -> v / n _ i\n")
