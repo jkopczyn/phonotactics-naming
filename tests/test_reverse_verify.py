@@ -64,7 +64,7 @@ def test_expansion_is_deterministic():
 def test_every_kept_example_really_matches_the_pattern_through_the_real_engine():
     import fnmatch
     import unicodedata
-    examples, tried, _cap = verify(analysed(GEO, "ar*"), GEO, IRISH, TABLE, limit=5, cap=300)
+    examples, tried, _cap = verify(analysed(GEO, "ar*"), GEO, IRISH, TABLE, limit=5, cap=200)
     assert tried > 0
     for e in examples:
         assert fnmatch.fnmatchcase(unicodedata.normalize("NFC", e.respelling).casefold(), "ar*")
@@ -77,13 +77,13 @@ def test_the_one_spelling_a_candidate_is_worth_still_finds_matches():
     back to the candidate's own segments, so all of a candidate's spellings reach the same
     `Result`. One cheap silent-free spelling per candidate is therefore enough — and the
     examples must still be found."""
-    examples, _t, _c = verify(analysed(GEO, "ar*v*"), GEO, IRISH, TABLE, limit=40, cap=400)
+    examples, _t, _c = verify(analysed(GEO, "ar*v*"), GEO, IRISH, TABLE, limit=40, cap=200)
     assert examples
     assert all(e.spelling_index == 0 for e in examples)
 
 
 def test_no_orthography_is_printed_twice():
-    examples, _t, _c = verify(analysed(GEO, "ar*"), GEO, IRISH, TABLE, limit=8, cap=400)
+    examples, _t, _c = verify(analysed(GEO, "ar*"), GEO, IRISH, TABLE, limit=8, cap=200)
     assert len({e.orthography for e in examples}) == len(examples)
 
 
@@ -91,13 +91,15 @@ def test_no_ipa_shape_is_printed_twice():
     """A2 acceptance: the printed examples carry no repeated `ipa` column. Two different
     Irish candidates (árubh and arubh, áráv and áráiv) can land on one foreign shape;
     only the best-ranked of them is worth a row."""
-    examples, _t, _c = verify(analysed(GEO, "ar*v*"), GEO, IRISH, TABLE, limit=8, cap=400)
+    examples, _t, _c = verify(analysed(GEO, "ar*v*"), GEO, IRISH, TABLE, limit=8, cap=200)
     assert len({e.ipa for e in examples}) == len(examples)
 
 
+@pytest.mark.slow
 def test_examples_of_the_session_case_are_six_distinct_shapes():
-    """A2 acceptance, measured on the session's own word: `Ar*v*` georgian shows at least six
-    DISTINCT Irish-through-Georgian shapes."""
+    """A2 acceptance, measured on the session's own word at the SHIPPED cap: `Ar*v*` georgian
+    shows at least six DISTINCT Irish-through-Georgian shapes. `slow` per C3 — it is the one
+    reverse test that spends the full 2000-candidate budget."""
     examples, _t, _c = verify(analysed(GEO, "Ar*v*"), GEO, IRISH, TABLE, limit=8, cap=2000)
     assert len({e.ipa for e in examples}) >= 6
 
@@ -110,7 +112,7 @@ def test_the_cap_counts_unique_forward_runs():
 
 
 def test_examples_are_ranked_by_fallbacks_then_flags_then_rank_then_spelling():
-    examples, _t, _c = verify(analysed(GEO, "ar*"), GEO, IRISH, TABLE, limit=8, cap=400)
+    examples, _t, _c = verify(analysed(GEO, "ar*"), GEO, IRISH, TABLE, limit=8, cap=200)
     keys = [(e.fallbacks, len(e.flags), e.rank, e.spelling_index) for e in examples]
     assert keys == sorted(keys)
 
@@ -267,7 +269,7 @@ def test_every_example_spelling_index_is_zero():
 
 def test_no_example_spelling_uses_a_silent_letter():
     """A2 acceptance: no ⟨fh⟩ and no silent ⟨dh gh th⟩ among the examples."""
-    examples, _t, _c = verify(analysed(GEO, "ar*v*"), GEO, IRISH, TABLE, limit=8, cap=400)
+    examples, _t, _c = verify(analysed(GEO, "ar*v*"), GEO, IRISH, TABLE, limit=8, cap=200)
     for e in examples:
         assert "fh" not in e.orthography.casefold()
 

@@ -1,61 +1,50 @@
-"""Task 9: the reverse round trip per strand (reverse spec §6 bullets 3-4).
+"""Task 9 (fix round C1): the reverse round trip per strand (reverse spec §6).
 
-The ratchet is measured at the SHIPPED cap (reverse.CAP = 2000), so it is slow; run
-`uv run pytest -q -m "not slow"` to skip it. The cap=200 run below is a smoke test, not a
-ratchet.
+Two rates per strand, measured by two different runs because they cost very differently:
 
-**The four ratchet files do not exist yet and the tests that read them are skipped until they
-do** (`needs_ratchets`). Generating them is Task 9 step 5, and it is BLOCKED on runtime: at
-`cap=CAP` one strand-row costs a `g2p_inverse.spell()` call per candidate the stream produces
-(0.3-1 s each for a long word; ~1300 candidates for Welsh *llasyrchos*), and the forward-run
-cap does not bound that, because a candidate that spells to nothing costs no forward run.
-Measured on this branch: Dutch ~7 s/row, arabic-egy ~16 s/row, Georgian 200 s+ on a single row
-and Welsh 20 min+ on a single row — hours per strand, not the ~2 minutes for four strands the
-plan's F9 assumed. The plan rules out the two obvious fixes (a smaller cap, a smaller row set)
-and sanctions "better pruning inside verify", which is a Task 7 change; it needs the owner's
-ruling.
+- **`admits`** — every `sources/irish/test-words.tsv` hand-IPA row, run forward and then
+  reversed with the **`--examples 0` machinery** (no verification at all), asking only whether
+  the row's own Irish IPA is admitted by the resulting pattern (`pattern_admits`). No forward
+  run is spent per candidate, so the whole thing is cheap and its ratchet test is unmarked.
+- **`examples`** — the FIRST `EXAMPLE_ROWS` hand-IPA rows only, at `cap=EXAMPLE_CAP`, asking
+  whether the row's own spelling — or any spelling that reads to the same Irish IPA — is among
+  the verified examples. Every row here pays up to `EXAMPLE_CAP` forward runs, so the fixture
+  is requested only by `slow` tests and `-m "not slow"` never builds it.
 
-For reference, `uv run pytest -q -m "not slow"` — the whole suite without this module's slow
-pass — takes about 13 minutes on this branch."""
+`tests/ratchets/reverse-<strand>.json` holds `admits`, `admits_n`, `examples`, `examples_n`.
+There is no floor (spec §6): the ratchet only forbids regression. Regenerate it by hand with
+the script in Task 9 Step 5 of `docs/plans/2026-08-27-reverse-plan.md`.
+"""
 import json
 
 import pytest
 
 from helpers import ROOT, TABLE, irish, target
-from strands.reverse import CAP, read_hand_ipa_rows, reverse_regression
+from strands.reverse import read_hand_ipa_rows, reverse_regression
 
 IRISH = irish()
 STRANDS = ("welsh", "georgian", "arabic-egy", "dutch")
 
+#: C1: the example rate is measured over the first twelve hand-IPA rows, at cap 200.
+EXAMPLE_ROWS = 12
+EXAMPLE_CAP = 200
+
 
 @pytest.fixture(scope="session")
-def full():
-    """F6: session-scoped, so `-m \"not slow\"` never pays for it. Only `slow` tests ask."""
-    return {name: reverse_regression(name, target(name), IRISH, TABLE, cap=CAP)
+def admits():
+    """The cheap run: `limit=0`, so `verify` is never called (F6 keeps it session-scoped)."""
+    return {name: reverse_regression(name, target(name), IRISH, TABLE, limit=0)
             for name in STRANDS}
 
 
-#: The plan calls the cap=200 run "a separate, FAST smoke test ... it asserts only that the
-#: machinery runs and is deterministic". Over all 144 hand-IPA rows it is not fast — a long
-#: word costs minutes at ANY cap, because `verify` pays a `g2p_inverse.spell()` call on every
-#: candidate the stream produces and the forward-run cap does not bound that — and the
-#: determinism check runs it twice. So the smoke run takes the first `SMOKE_ROWS` rows: the
-#: assertion is about the machinery, not a rate, and no ratchet is derived from it.
-SMOKE_ROWS = 2
-
-
 @pytest.fixture(scope="session")
-def smoke():
-    return reverse_regression("georgian", target("georgian"), IRISH, TABLE, cap=200,
-                              rows=read_hand_ipa_rows()[:SMOKE_ROWS])
-
-
-#: The ratchet-reading tests skip themselves while `tests/ratchets/reverse-*.json` is missing:
-#: as soon as step 5 has been run they run, with no further edit.
-needs_ratchets = pytest.mark.skipif(
-    not all((ROOT / "tests" / "ratchets" / f"reverse-{name}.json").exists()
-            for name in STRANDS),
-    reason="tests/ratchets/reverse-*.json not generated yet (Task 9 step 5, see docstring)")
+def examples():
+    """The paid run. Session-scoped and requested only by `slow` tests, so `-m "not slow"`
+    never pays for it."""
+    rows = read_hand_ipa_rows()[:EXAMPLE_ROWS]
+    return {name: reverse_regression(name, target(name), IRISH, TABLE, cap=EXAMPLE_CAP,
+                                     rows=rows)
+            for name in STRANDS}
 
 
 def ratchet(name):
@@ -63,46 +52,69 @@ def ratchet(name):
                       .read_text(encoding="utf-8"))
 
 
-@needs_ratchets
-@pytest.mark.slow
-@pytest.mark.parametrize("name", STRANDS)
-def test_the_ratchet_holds_at_the_shipped_cap(name, full):
-    """F9: the ratchet must describe the command the user actually runs."""
-    data, rep = ratchet(name), full[name]
-    assert rep.cap == CAP
-    assert rep.pattern_rate >= data["pattern"] - 1e-9, rep.summary()
-    assert rep.example_rate >= data["example"] - 1e-9, rep.summary()
+# ---- the ratchets ------------------------------------------------------------------------------
 
-
-@needs_ratchets
-@pytest.mark.slow
-@pytest.mark.parametrize("name", STRANDS)
-def test_the_ratchet_records_its_denominators(name, full):
-    data = ratchet(name)
-    assert set(data) == {"pattern", "example", "n", "capped"}
-    assert data["n"] == full[name].n
-
-
-@needs_ratchets
-@pytest.mark.slow
-@pytest.mark.parametrize("name", STRANDS)
-def test_the_example_rate_excludes_the_capped_rows(name, full):
-    """spec §6: 'when the candidate cap is not hit'."""
-    rep = full[name]
-    assert rep.example_denominator == rep.n - rep.capped
-
-
-@needs_ratchets
-def test_the_ratchet_files_all_exist_without_running_the_slow_pass():
-    """Unmarked, cheap: a missing or malformed ratchet file fails fast."""
+def test_the_ratchet_files_all_exist_and_carry_the_four_keys():
+    """Unmarked and cheap: a missing or malformed ratchet file fails fast."""
     for name in STRANDS:
-        assert set(ratchet(name)) == {"pattern", "example", "n", "capped"}
+        assert set(ratchet(name)) == {"admits", "admits_n", "examples", "examples_n"}
 
 
-def test_the_smoke_run_is_deterministic_and_is_not_the_ratchet(smoke):
-    again = reverse_regression("georgian", target("georgian"), IRISH, TABLE, cap=200,
-                               rows=read_hand_ipa_rows()[:SMOKE_ROWS])
-    assert again.rows == smoke.rows and smoke.cap == 200
+@pytest.mark.parametrize("name", STRANDS)
+def test_the_admit_ratchet_holds(name, admits):
+    """C1: all rows, unmarked, cheap — no verification is involved."""
+    data, rep = ratchet(name), admits[name]
+    assert rep.admit_rate >= data["admits"] - 1e-9, rep.summary()
+    assert rep.n == data["admits_n"], rep.summary()
+
+
+@pytest.mark.parametrize("name", STRANDS)
+def test_the_admit_run_spends_no_forward_runs(name, admits):
+    """`limit=0` is the `--examples 0` path: nothing is verified, so nothing is tried."""
+    rep = admits[name]
+    assert rep.cap == 0 and all(row.tried == 0 and not row.found for row in rep.rows)
+
+
+@pytest.mark.slow
+@pytest.mark.parametrize("name", STRANDS)
+def test_the_example_ratchet_holds(name, examples):
+    """C1: the first twelve rows at cap 200 — the expensive half of the round trip."""
+    data, rep = ratchet(name), examples[name]
+    assert rep.cap == EXAMPLE_CAP
+    assert rep.example_rate >= data["examples"] - 1e-9, rep.summary()
+    assert rep.n == data["examples_n"], rep.summary()
+
+
+@pytest.mark.slow
+@pytest.mark.parametrize("name", STRANDS)
+def test_the_example_run_reads_at_most_the_first_twelve_rows(name, examples):
+    assert examples[name].n <= EXAMPLE_ROWS
+
+
+def test_a_row_is_found_by_any_spelling_that_reads_to_its_own_ipa():
+    """C1: the row's orthography OR any spelling that reads to the same IPA counts. `verify`
+    returns one silent-free spelling per candidate (A2), which is frequently not the row's own
+    spelling of that reading — ⟨arbha⟩ for ⟨arḃa⟩-style variants — and the round trip is about
+    the reading, not the choice of letters."""
+    from strands.reverse import _reads_the_same
+    assert _reads_the_same("ardmhaor", "Ardmhaor")          # the fold survives
+    assert _reads_the_same("bord", "bhord") is False         # a real minimal pair does not
+    assert not _reads_the_same("ardmhaor", "carraig")
+    assert not _reads_the_same("ardmhaor", "qqq")            # unreadable is not a match
+
+
+# ---- the smoke run -----------------------------------------------------------------------------
+
+#: The determinism check runs the machinery twice, so it takes the first two rows only.
+SMOKE_ROWS = 2
+
+
+def test_the_smoke_run_is_deterministic_and_is_not_the_ratchet():
+    rows = read_hand_ipa_rows()[:SMOKE_ROWS]
+    kw = dict(cap=EXAMPLE_CAP, rows=rows)
+    a = reverse_regression("georgian", target("georgian"), IRISH, TABLE, **kw)
+    b = reverse_regression("georgian", target("georgian"), IRISH, TABLE, **kw)
+    assert a.rows == b.rows and a.cap == EXAMPLE_CAP
 
 
 # ---- the session case (spec §6 bullet 4) -------------------------------------------------------
@@ -134,18 +146,29 @@ def test_the_session_case_lists_exactly_the_three_v_sources():
     assert any("slender" in d for _k, d in kinds)     # /vʲ/ from slender bh/mh
 
 
+def test_ardmhaor_is_admitted():
+    """C2: unmarked and cheap — the pattern `Ar*v*` must ADMIT /aːɾˠd̪ˠvˠiːɾˠ/, which is what
+    A4's long-vowel palette was widened for."""
+    from strands import g2p
+    from strands.reverse import pattern_admits, tokenize
+    _geo, p = analysed_geo("ar*v*")
+    segments = tokenize(g2p.g2p("ardmhaor")[0], TABLE).segments
+    assert pattern_admits(p, segments)
+
+
+@pytest.mark.slow
 @pytest.mark.xfail(strict=True, reason=(
-    "Task 9 step 5/6 FINDING, for owner review, not a test to delete. `ardmhaor` really is a "
-    "verifying example — g2p reads it as /aːɾˠd̪ˠvˠiːɾˠ/, the forward run respells it 'ardvyr' "
-    "(/ɑrdvir/), which matches ar*v*, the pattern ADMITS its segments, and spell() proposes it "
-    "at spelling_index 27 of 64. It is excluded by R5's PALETTE (V-23): the second `*` has to "
-    "supply /iː ɾˠ/ and the palette holds the five SHORT vowels only, so no filling of that "
-    "slot ever reaches /iː/. Not the cap, not caol-le-caol, not a missing g2p_inverse reading. "
-    "The spec's own §4 illustration assumed 'ardmhaor' ends in /aː/ ('ardvar', /ɑrdvɑr/); the "
-    "engine's g2p says /iː/. Fixing it means widening the palette (an R5 decision) or letting "
-    "a `*` draw the long counterpart of each palette vowel — the owner's call."))
+    "C2 FINDING, for owner review, not a test to delete. After A4 widened the palette the "
+    "pattern ADMITS /aːɾˠd̪ˠvˠiːɾˠ/ (the test above) and every piece is on offer — the first "
+    "`*` can be /d̪ˠ/ and the second /iːɾˠ/ — but that filling is nowhere near the front of the "
+    "stream: `expand` never reaches it inside 200_000 candidates, let alone the 2000 of R4's "
+    "cap, because both `*` slots offer 421 fillings each and the two-segment ones are ranked "
+    "last. So this is now an ENUMERATION ORDER limit, not the palette gap the previous round "
+    "reported. Fixing it means interleaving the `*` fillings (breadth over the cross product "
+    "rather than depth) or raising R4's cap — the owner's call."))
 def test_ardmhaor_verifies_for_the_session_case():
-    from strands.reverse import verify
+    """C2/spec §6 bullet 4: the word itself among the verified examples at the shipped cap."""
+    from strands.reverse import CAP, verify
     geo, p = analysed_geo("ar*v*")
     examples, _t, _c = verify(p, geo, IRISH, TABLE, limit=40, cap=CAP)
     assert any(e.orthography == "ardmhaor" for e in examples), [e.orthography for e in examples]

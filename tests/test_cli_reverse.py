@@ -4,6 +4,15 @@ import pytest
 from strands.cli import main
 
 
+@pytest.fixture
+def small_cap(monkeypatch):
+    """C3: the CLI takes `verify`'s cap from `reverse.CAP` (there is no `--cap` flag, R4), so a
+    CLI test that verifies anything lowers the module global rather than paying 2000 forward
+    runs per word. Every other CLI test passes `--examples 0` and verifies nothing."""
+    from strands import reverse
+    monkeypatch.setattr(reverse, "CAP", 30)
+
+
 def run(capsys, *args):
     code = main(["reverse", *args])
     out, err = capsys.readouterr()
@@ -33,7 +42,7 @@ def test_the_session_case_lists_the_three_v_sources(capsys):
     assert "inserted, no Irish letter" in block and block.count("←") >= 4
 
 
-def test_examples_are_printed_and_capped(capsys):
+def test_examples_are_printed_and_capped(capsys, small_cap):
     code, out, _err = run(capsys, "ar*", "--strand", "georgian", "--examples", "3")
     assert code == 0 and "verified examples (" in out
     body = out.split("verified examples (")[1].splitlines()[1:]
@@ -87,7 +96,7 @@ def test_usage_errors_exit_two(capsys, args, fragment):
     assert code == 2 and fragment in err
 
 
-def test_output_is_byte_identical_across_runs(capsys):
+def test_output_is_byte_identical_across_runs(capsys, small_cap):
     _c, a, _e = run(capsys, "ar*v*", "--strand", "georgian", "--examples", "2")
     _c, b, _e = run(capsys, "ar*v*", "--strand", "georgian", "--examples", "2")
     assert a == b

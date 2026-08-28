@@ -2390,8 +2390,9 @@ a hand IPA:**
    **counted only over rows where the cap was not hit** (spec §6). Capped rows are excluded from
    this rate's denominator and counted as `capped`.
 
-Ratchet shape: `{"pattern": rate, "example": rate, "n": int, "capped": int}`. **No floor
-requirement.**
+Ratchet shape (fix-round C1): `{"admits": rate, "admits_n": int, "examples": rate,
+"examples_n": int}` — the two rates are measured by two runs, `admits` over all rows with
+`limit=0` and `examples` over the first twelve rows at `cap=200`. **No floor requirement.**
 
 **F9 — the ratchet is measured at the spec's cap.** Draft 1 measured at `cap=200`, which ratchets a
 number the shipped command never produces. Revised:
@@ -2526,22 +2527,28 @@ def test_ardmhaor_verifies_for_the_session_case():
 - [ ] **Step 3:** implement `pattern_admits`, `ReverseReport` (fields `rows`, `n`, `capped`, `cap`,
       `pattern_rate`, `example_rate`, `example_denominator`, `summary()`) and `reverse_regression`.
 - [ ] **Step 4:** add the `markers` line to `pyproject.toml` (keeping `testpaths` and `pythonpath`).
-- [ ] **Step 5:** write the four ratchets by hand, **at `cap=CAP`**:
+- [ ] **Step 5:** write the four ratchets by hand. Fix-round C1 replaces the single `cap=CAP`
+      run (hours per strand) with two runs: the cheap `admits` run over all rows with
+      `limit=0`, and the paid `examples` run over the first twelve rows at `cap=200`. The four
+      strands together take ~15 s.
 
 ```bash
 uv run python - <<'PY'
 import sys, time; sys.path.insert(0, "tests")
 from helpers import TABLE, irish, target
 from strands.regress import write_json_ratchet
-from strands.reverse import CAP, reverse_regression
+from strands.reverse import read_hand_ipa_rows, reverse_regression
 IR = irish()
+EXAMPLE_ROWS, EXAMPLE_CAP = 12, 200        # kept in step with tests/test_reverse_regression.py
+rows = read_hand_ipa_rows()[:EXAMPLE_ROWS]
 for name in ("welsh", "georgian", "arabic-egy", "dutch"):
     t0 = time.time()
-    rep = reverse_regression(name, target(name), IR, TABLE, cap=CAP)
+    admits = reverse_regression(name, target(name), IR, TABLE, limit=0)
+    examples = reverse_regression(name, target(name), IR, TABLE, cap=EXAMPLE_CAP, rows=rows)
     write_json_ratchet(f"reverse-{name}",
-                       {"pattern": rep.pattern_rate, "example": rep.example_rate,
-                        "n": rep.n, "capped": rep.capped})
-    print(name, rep.summary(), f"{time.time()-t0:.1f}s")
+                       {"admits": admits.admit_rate, "admits_n": admits.n,
+                        "examples": examples.example_rate, "examples_n": examples.n})
+    print(name, admits.summary(), "|", examples.summary(), f"{time.time()-t0:.1f}s")
 PY
 ```
 

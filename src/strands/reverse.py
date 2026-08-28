@@ -1518,7 +1518,7 @@ EXAMINE_FACTOR = 4
 
 
 def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTable,
-           *, limit: int = 8, cap: int = CAP, ipa_mode: bool = False,
+           *, limit: int = 8, cap: int | None = None, ipa_mode: bool = False,
            raw_pattern: str | None = None) -> tuple[tuple[Example, ...], int, bool]:
     """Run candidates forward and keep the ones that really match (spec §3.5, V-26, V-34).
 
@@ -1534,6 +1534,9 @@ def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTa
     collapse to one, and on a small proposal budget. `Example.spelling_index` survives as 0 so
     the report's format does not move.
 
+    `cap` defaults to the module-level `CAP` **at call time** (C3): the CLI tests lower it with
+    `monkeypatch.setattr(reverse, "CAP", …)`, which a default argument would not have seen.
+
     `tried` counts candidates RUN FORWARD and `cap` bounds that counter; a candidate with no
     silent-free spelling is skipped and does not count. Because such a candidate is free, the
     stream is bounded separately: `expand` is consumed at most `EXAMINE_FACTOR * cap` times
@@ -1548,6 +1551,7 @@ def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTa
     since the forward run is deterministic in the spelling; the best-ranked witness of each
     shape is the one kept.
     """
+    cap = CAP if cap is None else cap        # C3: read at CALL time, so a test may lower `CAP`
     wanted = pattern.text if raw_pattern is None else raw_pattern
     found: list[Example] = []
     tried = 0
@@ -1704,14 +1708,22 @@ class ReverseRow:
     orthography: str
     respelling: str
     admitted: bool                    # the row's own Irish IPA fits the pattern
-    found: bool                       # the row's own spelling is among the verified examples
-    capped: bool                      # the candidate cap was hit, so `found` says nothing
-    tried: int                        # unique forward runs spent on this row
+    found: bool                       # a spelling reading to the row's own IPA was verified
+    capped: bool                      # the candidate cap was hit (informational; C1 keeps
+                                      # capped rows inside the example denominator)
+    tried: int                        # forward runs spent on this row (0 when limit=0)
 
 
 @dataclass(frozen=True)
 class ReverseReport:
-    """The two rates of spec §6 bullet 3, per strand, with their denominators."""
+    """The two rates of spec §6, per strand, with their denominators.
+
+    Fix round C1 splits the two rates into two runs, because they cost very differently: the
+    `admits` rate is measured over every hand-IPA row with `limit=0` (the `--examples 0`
+    machinery — no verification at all, so `cap` is 0 and every row's `tried` is 0), and the
+    `examples` rate over the first twelve rows at `cap=200`. One report describes one run;
+    `admit_rate` is meaningful in both, `example_rate` only in the verified one.
+    """
     strand: str
     cap: int
     rows: tuple[ReverseRow, ...]
@@ -1731,11 +1743,13 @@ class ReverseReport:
 
     @property
     def example_denominator(self) -> int:
-        """spec §6: the example rate is counted only "when the candidate cap is not hit"."""
-        return self.n - self.capped
+        """C1: every measured row. Draft 1 excluded the rows that hit the cap; at `cap=200`
+        nearly every row hits it, which left the rate with almost no denominator, so the
+        revised §6 counts the twelve rows it names and keeps `capped` as information only."""
+        return self.n
 
     @property
-    def pattern_rate(self) -> float:
+    def admit_rate(self) -> float:
         return (sum(1 for row in self.rows if row.admitted) / self.n) if self.n else 0.0
 
     @property
@@ -1743,35 +1757,57 @@ class ReverseReport:
         denominator = self.example_denominator
         if not denominator:
             return 0.0
-        return sum(1 for row in self.rows if row.found and not row.capped) / denominator
+        return sum(1 for row in self.rows if row.found) / denominator
 
     def summary(self) -> str:
-        return (f"{self.strand}: pattern {self.pattern_rate:.4f} of {self.n}, "
-                f"example {self.example_rate:.4f} of {self.example_denominator} "
+        return (f"{self.strand}: admits {self.admit_rate:.4f} of {self.n}, "
+                f"examples {self.example_rate:.4f} of {self.example_denominator} "
                 f"({self.capped} capped, {len(self.skipped)} skipped, cap {self.cap})")
 
-    def misses(self, kind: str = "pattern") -> tuple[str, ...]:
+    def misses(self, kind: str = "admits") -> tuple[str, ...]:
         """The orthographies that failed one rate — the first thing to look at when the
         ratchet drops."""
-        if kind == "pattern":
+        if kind == "admits":
             return tuple(row.orthography for row in self.rows if not row.admitted)
-        return tuple(row.orthography for row in self.rows
-                     if not row.found and not row.capped)
+        return tuple(row.orthography for row in self.rows if not row.found)
+
+
+def _reads_the_same(one: str, other: str) -> bool:
+    """Do two Irish spellings read to the same IPA? (C1.)
+
+    The example rate asks whether the row's word came back, and `verify` returns ONE
+    silent-free spelling per candidate (A2) — frequently not the spelling the test-words row
+    happens to use for that reading. The round trip is about the reading, so the comparison is
+    made on `g2p`'s output, with the plain casefolded match kept as the fast path. A spelling
+    `g2p` cannot read matches nothing.
+    """
+    from . import g2p
+
+    if _fold(one) == _fold(other):
+        return True
+    try:
+        return g2p.g2p(one)[0] == g2p.g2p(other)[0]
+    except g2p.G2PError:
+        return False
 
 
 def reverse_regression(strand: str, target: RuleFile, irish: RuleFile, table: FeatureTable,
                        *, cap: int = CAP, limit: int = 8,
                        rows: Sequence[dict[str, str]] | None = None) -> ReverseReport:
-    """The round trip for one strand: forward, then reverse, then check (spec §6 bullet 3).
+    """The round trip for one strand: forward, then reverse, then check (spec §6).
 
     For every test-words row with a hand IPA: run it forward to a respelling, reverse that
     respelling as `cli.cmd_reverse` does, and measure two things — whether the row's own Irish
-    IPA is ADMITTED by the resulting pattern (`pattern_admits`), and whether the row's own
-    spelling is among the verified examples at `limit` (`verify`). The second is counted only
-    over rows where the cap was not hit; a capped row proves nothing either way.
+    IPA is ADMITTED by the resulting pattern (`pattern_admits`), and whether a spelling that
+    reads as the row does is among the verified examples at `limit` (`verify`).
+
+    **`limit=0` is the `--examples 0` path** (C1): `verify` is not called at all, so the run
+    costs one forward `run_entry` per row and nothing per candidate. That is how the `admits`
+    rate is measured over all 144 rows; the `examples` rate is measured separately, over the
+    first twelve rows at `cap=200`, because it pays up to `cap` forward runs per row.
 
     The three maps are built ONCE per strand, not per row — they depend on the rule files
-    alone. `cap` is `verify`'s forward-run budget; the ratchet is measured at `CAP` (F9).
+    alone. `cap` is `verify`'s forward-run budget, and is reported as 0 for an unverified run.
     """
     from . import inputs, pipeline
     from .inputs import InputError
@@ -1810,12 +1846,16 @@ def reverse_regression(strand: str, target: RuleFile, irish: RuleFile, table: Fe
             continue
         pattern = widen(pattern, target, irish, table)
         pattern = un_substitute(pattern, smap, deletions=deletions, notes=notes)
-        examples, tried, cap_hit = verify(pattern, target, irish, table, limit=limit, cap=cap)
-        want = _fold(orthography)
+        if limit:
+            examples, tried, cap_hit = verify(pattern, target, irish, table,
+                                              limit=limit, cap=cap)
+        else:
+            examples, tried, cap_hit = (), 0, False
         measured.append(ReverseRow(
             orthography=orthography, respelling=respelling,
             admitted=pattern_admits(pattern, segments),
-            found=any(_fold(example.orthography) == want for example in examples),
+            found=any(_reads_the_same(example.orthography, orthography)
+                      for example in examples),
             capped=cap_hit, tried=tried))
-    return ReverseReport(strand=strand, cap=cap, rows=tuple(measured),
+    return ReverseReport(strand=strand, cap=(cap if limit else 0), rows=tuple(measured),
                          skipped=tuple(skipped))

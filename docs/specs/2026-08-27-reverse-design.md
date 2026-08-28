@@ -104,13 +104,22 @@ IPA before it is used as an example.
 Expand the Irish-IPA pattern to concrete candidates, breadth-first, cheapest first:
 alternatives ordered by source kind (`identity` < `rule attested` < `rule design` <
 `fallback` < `epenthesis`), optional slots first absent then present, `ONE` filled from the
-inverted class or from a fixed palette (short vowels *a e i o u*, then *r l n m s d t c g b*),
-`*` filled with 0, 1, then 2 palette segments. Hard cap 2000 candidates per word (`log` the
-cap when hit). Each candidate is spelled (§3.4), read back with `g2p`, run through
-`run_entry(... "DESC" ...)` for the strand, and kept when `fnmatch(respelling, PATTERN)`
-(or, with `--ipa`, when the unmarked IPA matches). Kept examples are ranked by
-`(fallbacks, len(flags), candidate rank)` and the first `--examples` printed with their
-respelling, IPA, flags and fallback count — the same quality signal the hand-run used.
+inverted class or from a fixed palette (the five short vowels *a e i o u*, then their five
+long counterparts *aː eː iː oː uː*, then *r l n m s d t c g b* — 20 entries), `*` filled with
+0, 1, then 2 palette segments. Hard cap 2000 candidates **run forward** per word (`log` the
+cap when hit); since a candidate that cannot be spelled costs no forward run, the candidate
+stream itself is consumed at most 4 × that.
+
+Each candidate is spelled ONCE (§3.4) and run through `run_entry(... "DESC" ...)` for the
+strand: the forward result depends only on the Irish IPA the spelling reads back to, and
+`spell()` guarantees every spelling it returns reads back to the candidate's own segments, so
+one spelling per candidate is enough. That one is asked for **silent-free** — no ⟨fh⟩, no
+silent ⟨dh gh th⟩, no vowel-plus-h run — so the eight spellings of one word collapse to the
+one a reader can use. A candidate with no silent-free spelling is skipped and does not count
+against the cap. The run is kept when `fnmatch(respelling, PATTERN)` (or, with `--ipa`, when
+the unmarked IPA matches). Kept examples are ranked by `(fallbacks, len(flags), candidate
+rank)`, de-duplicated by the printed foreign shape, and the first `--examples` printed with
+their respelling, IPA, flags and fallback count — the same quality signal the hand-run used.
 
 ## 4. Output
 
@@ -146,6 +155,18 @@ verified examples (6 of 40 tried; 0 fallbacks unless shown)
 Section order and content are the spec; exact spacing is the implementer's; the rule ids above are illustrative. Rule ids are
 `section:line` as in `explain`. Tags print only when `%design` or `%fallback`.
 
+Constraint lines are grouped by `(kind, tag, description)` alone — a context does not split a
+line. A line's rule ids are the union over its group, ordered by forward stage (substitute,
+repair, post-stress, respell) and then by line number, with at most four printed and the rest
+as `+N`. The `exclusions` block lists only epenthesis sources and `substitute`-stage sources
+that carry a context; a repair, post-stress or respell context is noise for the reader and is
+not printed. Descriptions and the spelling pattern are built from silent-free readings only.
+A slot whose Irish alternatives cover every short vowel describes as `any short vowel` (with
+` (unstressed)` when every contributing source is a reduction), every long vowel as `any long
+vowel`, both as `any vowel`; any other run list longer than six items is cut at six with `…`.
+The examples header reads `verified examples (N of M candidates tried; …)`, where M is the
+number of candidates actually run forward.
+
 ## 5. Code
 
 - `src/strands/reverse.py`: `invert_respell`, `source_map` (per section), `parse_pattern`,
@@ -163,13 +184,17 @@ Section order and content are the spec; exact spacing is the implementer's; the 
   class, bundle, epenthesis, deletion, fallback, chain.
 - `g2p_inverse`: for every row of `sources/irish/test-words.tsv` with a hand IPA,
   `spell(g2p(orth))` contains `orth` (casefolded) — ratcheted in `tests/ratchets/g2p_inverse.json`.
-- Round trip per strand: for every test-words row, `reverse(forward(row).respelling)`'s Irish
-  spelling pattern matches the row's spelling, and — separately — the row appears among the
-  verified examples when the candidate cap is not hit. Both rates ratcheted in
-  `tests/ratchets/reverse-<strand>.json` (no floor requirement; the ratchet only forbids
-  regression).
+- Round trip per strand, two rates measured by two runs because they cost very differently.
+  **`admits`**: for every test-words row with a hand IPA, `reverse(forward(row).respelling)`
+  — run with the `--examples 0` machinery, so nothing is verified — yields a pattern that
+  admits the row's own Irish IPA. All rows; cheap, so it is not marked `slow`.
+  **`examples`**: the row's spelling, or any spelling that reads to the same IPA, is among the
+  verified examples at `cap=200`, over the first twelve hand-IPA rows only; marked `slow`.
+  Both rates ratcheted in `tests/ratchets/reverse-<strand>.json` as `admits`, `admits_n`,
+  `examples`, `examples_n` (no floor requirement; the ratchet only forbids regression).
 - Session case: `reverse("Ar*v*", georgian)` lists exactly the three `v` sources
-  (/w/, /vʲ/, epenthesis) and `ardmhaor` verifies.
+  (/w/, /vʲ/, epenthesis) and the pattern admits *ardmhaor*'s /aːɾˠd̪ˠvˠiːɾˠ/; that the word
+  itself reaches the verified examples is a separate `slow` test.
 - CLI: exit codes, `--ipa`, unknown letter note, old-irish lookup, multi-word.
 
 ## 7. Decisions
@@ -180,6 +205,6 @@ Section order and content are the spec; exact spacing is the implementer's; the 
 | R2 | Context handling in inversion | carry as text; forward engine enforces | evaluate contexts symbolically | `reverse.source_map` |
 | R3 | Deletions | note only, never expanded | expand at literal-context edges | `reverse` |
 | R4 | Candidate cap | 2000 / word | `--cap` flag | `reverse.expand` |
-| R5 | Palette for wildcards | 5 vowels + 10 consonants, ≤2 segments per `*` | larger; from Irish frequency | `reverse.expand` |
+| R5 | Palette for wildcards | 5 short + 5 long vowels + 10 consonants, ≤2 segments per `*` | larger; from Irish frequency | `reverse.expand` |
 | R6 | Old Irish | lexicon fnmatch only | invert retro grammar | `reverse` |
 | R7 | Rendering ambiguity | alternation `(a|o)`, never a pick | pick most common | `g2p_inverse` |
