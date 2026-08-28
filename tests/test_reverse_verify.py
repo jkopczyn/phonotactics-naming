@@ -87,6 +87,21 @@ def test_no_orthography_is_printed_twice():
     assert len({e.orthography for e in examples}) == len(examples)
 
 
+def test_no_ipa_shape_is_printed_twice():
+    """A2 acceptance: the printed examples carry no repeated `ipa` column. Two different
+    Irish candidates (árubh and arubh, áráv and áráiv) can land on one foreign shape;
+    only the best-ranked of them is worth a row."""
+    examples, _t, _c = verify(analysed(GEO, "ar*v*"), GEO, IRISH, TABLE, limit=8, cap=400)
+    assert len({e.ipa for e in examples}) == len(examples)
+
+
+def test_examples_of_the_session_case_are_six_distinct_shapes():
+    """A2 acceptance, measured on the session's own word: `Ar*v*` georgian shows at least six
+    DISTINCT Irish-through-Georgian shapes."""
+    examples, _t, _c = verify(analysed(GEO, "Ar*v*"), GEO, IRISH, TABLE, limit=8, cap=2000)
+    assert len({e.ipa for e in examples}) >= 6
+
+
 def test_the_cap_counts_unique_forward_runs():
     """V-34: `tried` and the cap are the same counter, and a repeated spelling is skipped
     before any forward work."""

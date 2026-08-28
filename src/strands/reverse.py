@@ -1490,8 +1490,13 @@ def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTa
     (A3), and `cap_hit` is true when either bound is reached.
 
     Returns `(examples, tried, cap_hit)`; examples are sorted by
-    `(fallbacks, len(flags), rank, spelling_index)`, de-duplicated by orthography and truncated
-    to `limit`.
+    `(fallbacks, len(flags), rank, spelling_index)`, de-duplicated by the printed `ipa` shape
+    and truncated to `limit`. The de-duplication key is the foreign shape, not the Irish
+    orthography (A2 acceptance): distinct Irish words routinely collapse onto one foreign
+    result — ⟨árubh⟩ and ⟨arubh⟩ both reach Georgian /ɑruv/ — and a second row for a shape the
+    reader has already seen buys nothing. Keying on the shape subsumes the orthography key,
+    since the forward run is deterministic in the spelling; the best-ranked witness of each
+    shape is the one kept.
     """
     wanted = pattern.text if raw_pattern is None else raw_pattern
     found: list[Example] = []
@@ -1529,9 +1534,9 @@ def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTa
     examples: list[Example] = []
     printed: set[str] = set()
     for example in ordered:
-        if example.orthography in printed:
+        if example.ipa in printed:
             continue
-        printed.add(example.orthography)
+        printed.add(example.ipa)
         examples.append(example)
         if len(examples) == limit:
             break
