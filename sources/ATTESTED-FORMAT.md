@@ -1,4 +1,4 @@
-# attested.tsv format
+# attested.csv format
 
 Tab-separated, UTF-8, one attested adaptation per line, header row:
 

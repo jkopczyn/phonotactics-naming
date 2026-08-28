@@ -7,7 +7,7 @@ What the spelled word is (spec §11, O-27). Every Old Irish stage downstream of 
 retro-filter — lookup, `[mutations]`, `[inflect]`, `[templates]` — passes around a
 `SpelledWord`: an ordered tuple of lower-case GRAPHEME TOKENS plus two pieces of metadata,
 `capitalized` and the initial `mutation` (`""`, `"LEN"` or `"NAS"`). The tokens come from one
-table, `rules/old-irish-orthography.tsv`, which also carries each token's reconstruction, so
+table, `rules/old-irish-orthography.csv`, which also carries each token's reconstruction, so
 there is no second alphabet to keep in sync. Silent tokens (⟨ḟ⟩), the punctum forms (⟨ṡ ḟ⟩)
 and the unresolved ending marker ⟨ə⟩ are ordinary tokens.
 
@@ -36,6 +36,7 @@ metadata and IPA are untouched, so the setting provably cannot change the IPA.
 
 from __future__ import annotations
 
+import csv
 import re
 import unicodedata
 from collections.abc import Mapping, Sequence
@@ -64,7 +65,7 @@ __all__ = [
 ]
 
 _ROOT = Path(__file__).resolve().parents[2]
-OI_ORTHOGRAPHY_PATH: Path = _ROOT / "rules" / "old-irish-orthography.tsv"
+OI_ORTHOGRAPHY_PATH: Path = _ROOT / "rules" / "old-irish-orthography.csv"
 OI_RULES_PATH: Path = _ROOT / "rules" / "old-irish.rules"
 
 ROLES: tuple[str, ...] = ("cons", "vowel", "long", "nasal", "glide", "silent", "ending")
@@ -143,14 +144,14 @@ def load_graphemes(path: Path | None = None) -> tuple[GraphemeRow, ...]:
         line = unicodedata.normalize("NFC", raw)
         if not line.strip() or line.lstrip().startswith("#"):
             continue
-        cells = [c.strip() for c in line.split("\t")]
+        cells = [c.strip() for c in next(csv.reader([line]))]
         if not header_seen:
             if tuple(cells[:7]) != _HEADER:
                 raise SpelledError(f"{path}:{n}: expected header {' '.join(_HEADER)!r}")
             header_seen = True
             continue
         if len(cells) < 6:
-            raise SpelledError(f"{path}:{n}: expected at least 6 tab-separated cells")
+            raise SpelledError(f"{path}:{n}: expected at least 6 comma-separated cells")
         cells += [""] * (7 - len(cells))
         token, env, left, ipa, role, punctum, note = cells[:7]
         if not token:

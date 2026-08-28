@@ -11,7 +11,7 @@ IPA, and a rule-by-rule trace with citations. Deterministic; Python ≥ 3.12 and
 
 You have an Irish word — say *indeagó* — and want its adaptations.
 
-**1. Put it in a TSV.** One column is enough:
+**1. Put it in a CSV.** One column is enough:
 
 ```
 orthography
@@ -21,7 +21,7 @@ indeagó
 **2. Let the tool fill in what it needs, and check its guesses:**
 
 ```sh
-uv run strands lint names.tsv
+uv run strands lint names.csv
 ```
 ```
 indeagó	ipa = ˈɪnʲdʲəɡoː	ipa:constructed
@@ -35,15 +35,15 @@ words; compounds are the weak spot (write them hyphenated, *Ard-ghal*, or give t
 Fix anything wrong by adding the column to the file; then write the rest back:
 
 ```sh
-uv run strands lint names.tsv --accept
+uv run strands lint names.csv --accept
 ```
 
 **3. Adapt:**
 
 ```sh
-uv run strands run names.tsv --construction DESC        # citation form, all five strands
-uv run strands run names.tsv                            # every construction, all strands
-uv run strands gallery names.tsv --out names.md         # the same as a Markdown table
+uv run strands run names.csv --construction DESC        # citation form, all five strands
+uv run strands run names.csv                            # every construction, all strands
+uv run strands gallery names.csv --out names.md         # the same as a Markdown table
 ```
 ```
 indeagó  welsh       injygo    ɪn.ˈdʒə.ɡɔ
@@ -59,7 +59,7 @@ guess, shown on the first line so you can check it; `--trace` adds step 4 for on
 ```sh
 uv run strands word indeagó
 uv run strands word indeagó --strand welsh --trace
-uv run strands word indeagó --save              # keep it: writes 20260827-143000-indeagó.tsv, as lint --accept would
+uv run strands word indeagó --save              # keep it: writes 20260827-143000-indeagó.csv, as lint --accept would
 ```
 
 **4. To see why**, give `explain` the IPA from the file (it does not take spelling as its
@@ -72,12 +72,12 @@ uv run strands explain "ˈɪnʲdʲəɡoː" --strand welsh --orthography indeagó
 ## Commands
 
 ```
-strands run INPUT.tsv [--strand X|all] [--construction NAME|all] [--out FILE]
-strands gallery INPUT.tsv [--out FILE]
-strands lint INPUT.tsv [--accept]
+strands run INPUT.csv [--strand X|all] [--construction NAME|all] [--out FILE]
+strands gallery INPUT.csv [--out FILE]
+strands lint INPUT.csv [--accept]
 strands explain IPA --strand X [--construction NAME] [--orthography TEXT] [--save [FILE]]
 strands word SPELLING [--strand X|all] [--construction NAME] [--trace] [--save [FILE]]
-strands check RULES.rules … | LEXICON.tsv
+strands check RULES.rules … | LEXICON.csv
 ```
 
 Defaults: `--strand all`; `--construction all` for `run`, `DESC` for `explain` and `word`; output to stdout
@@ -87,9 +87,9 @@ Strands: `welsh` `arabic-egy` `georgian` `dutch` `old-irish`.
 
 ## Input
 
-TSV, header from: `orthography ipa dialect gloss category gender declension gen_ipa pl_ipa note`.
+CSV, header from: `orthography ipa dialect gloss category gender declension gen_ipa pl_ipa note`.
 Only `orthography` is required; anything else missing is inferred and tagged. IPA may be wrapped
-in `/…/`. Irish IPA conventions are those of `sources/irish/test-words.tsv` (144 worked rows):
+in `/…/`. Irish IPA conventions are those of `sources/irish/test-words.csv` (144 worked rows):
 ʲ/ˠ on consonants, plain *k ɡ x ɣ ŋ* broad and *c ɟ ç j ɲ* slender, `ː` length; `dˠ tˠ rˠ` and
 `ɪə` are accepted as variants. Multi-word inputs are adapted word by word. `dialect` is
 Connacht (`C`) unless set; `declension` is one of `m1 ach f2 m3 d4`.
@@ -121,13 +121,13 @@ Columns: `orthography construction strand respelling ipa flags fallbacks assumpt
 ## Changing a strand
 
 All language behaviour is data in `rules/` (`<strand>.rules`, `irish.rules` for the source side,
-`features.tsv`, and for Old Irish `old-irish-lexicon.tsv`). Each rule line carries `%attested` or
+`features.csv`, and for Old Irish `old-irish-lexicon.csv`). Each rule line carries `%attested` or
 `%design` and a citation; `explain` prints them. After editing:
 
 ```sh
 uv run strands check rules/georgian.rules
 uv run pytest -q
-uv run strands gallery sources/irish/test-words.tsv --out tests/snapshots/gallery.md   # if the snapshot test fails: regenerate, then read the diff before committing
+uv run strands gallery sources/irish/test-words.csv --out tests/snapshots/gallery.md   # if the snapshot test fails: regenerate, then read the diff before committing
 ```
 
 ## Layout

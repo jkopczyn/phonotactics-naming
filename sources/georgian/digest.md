@@ -878,8 +878,8 @@ Only six English consonants are declared absent from Georgian by `gabunia2021`: 
 | **/w/** | **/v/** medially; **/u/** word-initially | /u…/ everywhere | See §3.3 — this is a `CONFLICT:`. |
 | **/ŋ/** | **/nɡ/** | — | `CONFLICT:` Gabunia's *prose* says /ŋ/ "does not show variation … and is substituted by /n/" [gabunia2021 p.14], but **her own data give [nɡ]**: *casting* → /kʼastinɡi/, *shopping* → /ʃɔpʼinɡi/ [gabunia2021 pp.50–51]. Rayfield is uniform: ფიშინგი, დრიბლინგი, ბულინგი, ფიტინგი [rayfield2023 pp.21, 23, 24]; the Wikipedia harvest agrees (*inglisi*, *springstʼini*, *vashingtʼoni*, *volpʰgang*). **Take the data: /ŋ/ → /nɡ/.** |
 | **/j/** | **/i/** | ჲ (revived) | "graphemically substituted by /i/ - yoghurt – iogurti (იოგურტი)"; "even though it is not graphically present in Georgian, ჲ (or /j/) still exists as an allophone" [gabunia2021 p.14]. `CONFLICT:` Rayfield, two years later: "One positive result … is the revival of a lost letter, ჲ replacing initial y in **ჲოგურტი**, ჲახტა, ჲუნორი" [rayfield2023 p.25] — the *same word*, spelled two ways in the two sources. |
-| **/θ/** | /tʰ/, /t/ or /s/ | — | [gabunia2021 p.14]. Apridonidze's *theater* has /θ/ → /tʰ/ [gabunia2021 p.16]. Loan datum: *thriller* → **თ**რილერი, aspirate, via Russian триллер [asaturova-garibashvili p.354]. `CONFLICT:` in the *L2* direction (Georgians speaking English), /θ/ → **/s/** and /ð/ → **/z/** is by far the most-reported error, 91 judge mentions [georgian-accented-speech p.36]. **The two routes differ: direct perception gives /s z/; loanword adaptation, being orthography- and Russian-mediated, gives /tʰ d/.** Do not merge them. Note the asymmetry in support: the /s z/ route rests on L2 *judge reports*, and the only /θ/ loan row in `attested.tsv` (*thriller*) is Russian-mediated with /tʰ/. |
-| **/ð/** | /t/, /d/ or /z/ | — | [gabunia2021 p.14] — **prose only. No loan example anywhere in this source set, and no row in `attested.tsv`.** Do not implement as a settled mapping. |
+| **/θ/** | /tʰ/, /t/ or /s/ | — | [gabunia2021 p.14]. Apridonidze's *theater* has /θ/ → /tʰ/ [gabunia2021 p.16]. Loan datum: *thriller* → **თ**რილერი, aspirate, via Russian триллер [asaturova-garibashvili p.354]. `CONFLICT:` in the *L2* direction (Georgians speaking English), /θ/ → **/s/** and /ð/ → **/z/** is by far the most-reported error, 91 judge mentions [georgian-accented-speech p.36]. **The two routes differ: direct perception gives /s z/; loanword adaptation, being orthography- and Russian-mediated, gives /tʰ d/.** Do not merge them. Note the asymmetry in support: the /s z/ route rests on L2 *judge reports*, and the only /θ/ loan row in `attested.csv` (*thriller*) is Russian-mediated with /tʰ/. |
+| **/ð/** | /t/, /d/ or /z/ | — | [gabunia2021 p.14] — **prose only. No loan example anywhere in this source set, and no row in `attested.csv`.** Do not implement as a settled mapping. |
 | **/h/** | **/h/** — retained | — | Not discussed by `gabunia2021`, but corroboration is unanimous: *hobi* < hobby, *horori* < horror [asaturova-garibashvili p.353]; *seqondhendi* [kirvalidze2017 p.293]; ჰედლაინი, ჰავბეკი, ჰუქერი, ჰეითერები [rayfield2023 pp.18, 21, 23, 24]. See §8.2 for the positional restriction. |
 | /v z s r l dʒ ʒ/ | unchanged | — | All present in the Georgian inventory; `gabunia2021` lists them as non-problems [gabunia2021 p.14]. |
 
@@ -1343,7 +1343,7 @@ already appear without the nominative -i, which supports §5's D4.
 ---
 ## 7. Attested adaptations
 
-`attested.tsv` in this directory — **143 rows**, per `../ATTESTED-FORMAT.md`.
+`attested.csv` in this directory — **143 rows**, per `../ATTESTED-FORMAT.md`.
 
 **Provenance mix:**
 
@@ -1483,7 +1483,7 @@ VV** — the exceptions Butskhrikidze lists are all loans (*musaipi*, *paipuri*,
 vowels do meet they are **heterosyllabic** [shosted2006 p.262].
 
 Recommended mapping — **`(unattested)`, a PROJECT OVERLAY extrapolated from the loan pattern and
-stated by no source; no row in `attested.tsv` instantiates any of these four**:
+stated by no source; no row in `attested.csv` instantiates any of these four**:
 `/iə/ → /iɑ/` · `/uə/ → /uɑ/` · `/əi/ → /ɛi/` · `/əu/ → /ɔu/`, each as two syllables.
 The alternative — monophthongize to the first element — is simpler and equally defensible; the
 loan evidence favours keeping both vowels.
@@ -1644,7 +1644,7 @@ named; none is a rule any source states.
 | `y` = orthographic /i/ | 5.3 D3 | No Georgian source at all. Purely orthographic, so phonologically free. |
 | `x` for ხ, `tch` for ჭ | 5.3 D1–D2 | `x` has spelling precedent (ISO 9984); `tch` has none (`peacecorps` writes `t'ch`). |
 | Positional /w/ → /u/ ~ /v/ | 3.3, 8.2 | `(unattested)` as a rule; synthesized from four partial sources, and conflates /w/ with mediating-language ⟨W⟩ = /v/. |
-| Irish diphthongs → VV hiatus | 8.3 | `(unattested)`; no row in `attested.tsv` instantiates it. |
+| Irish diphthongs → VV hiatus | 8.3 | `(unattested)`; no row in `attested.csv` instantiates it. |
 | /ə/ → /ɑ/ or /ɛ/ | 8.2 | `(unattested)`; Georgian has no schwa and the intrusive vocoid is not a usable target. |
 | Palatalization options A–D | 8.1 | No attested Georgian treatment exists; all four are overlays. |
 | Ejective as the default for /p t k/ | 3.1 | The official norm, but a minority of measured tokens; a design choice. |

@@ -37,6 +37,7 @@ silent unit (`-`) consumes no segment and leaves no tag.
 
 from __future__ import annotations
 
+import csv
 import unicodedata
 from collections.abc import Sequence
 from pathlib import Path
@@ -45,7 +46,7 @@ from .word import TraceEntry, Word
 
 __all__ = ["ORTH_TABLE_PATH", "OrthError", "Table", "align", "load_orth_table", "tag_word"]
 
-ORTH_TABLE_PATH: Path = Path(__file__).resolve().parents[2] / "rules" / "irish-orthography.tsv"
+ORTH_TABLE_PATH: Path = Path(__file__).resolve().parents[2] / "rules" / "irish-orthography.csv"
 
 STAGE = "irish"
 _DROP = str.maketrans("", "", "-'’ ")
@@ -62,7 +63,7 @@ _cache: dict[Path, Table] = {}
 
 
 def load_orth_table(path: Path | None = None) -> Table:
-    """Read `rules/irish-orthography.tsv` (UTF-8, NFC per I-1). `#` lines are comments; the
+    """Read `rules/irish-orthography.csv` (UTF-8, NFC per I-1). `#` lines are comments; the
     first non-comment line is the header `unit  segments  note`. Rows are sorted by unit
     length, longest first; the sort is stable, so file order breaks ties (O-7)."""
     path = ORTH_TABLE_PATH if path is None else Path(path)
@@ -75,14 +76,14 @@ def load_orth_table(path: Path | None = None) -> Table:
         line = unicodedata.normalize("NFC", raw)
         if not line.strip() or line.lstrip().startswith("#"):
             continue
-        cells = line.split("\t")
+        cells = next(csv.reader([line]))
         if not header_seen:
             if cells[:2] != ["unit", "segments"]:
-                raise OrthError(f"{path}:{n}: expected header 'unit\\tsegments\\tnote'")
+                raise OrthError(f"{path}:{n}: expected header 'unit,segments,note'")
             header_seen = True
             continue
         if len(cells) < 2:
-            raise OrthError(f"{path}:{n}: expected at least 2 tab-separated cells")
+            raise OrthError(f"{path}:{n}: expected at least 2 comma-separated cells")
         unit = cells[0].strip().casefold()
         if not unit:
             raise OrthError(f"{path}:{n}: empty unit")

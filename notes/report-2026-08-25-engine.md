@@ -11,10 +11,10 @@ now fixed.
 Try it:
 ```
 cd phonotactics
-uv run strands gallery sources/irish/test-words.tsv --out /tmp/gallery.md   # 144 words × constructions × 4 strands
-uv run strands run my.tsv --strand all --construction DESC                   # TSV in, TSV out
+uv run strands gallery sources/irish/test-words.csv --out /tmp/gallery.md   # 144 words × constructions × 4 strands
+uv run strands run my.csv --strand all --construction DESC                   # TSV in, TSV out
 uv run strands explain ˈl̪ˠɑsˠəɾʲxosˠ --strand georgian                     # derivation with rule tags + citations
-uv run strands lint my.tsv [--accept]                                        # fill missing columns from inferences
+uv run strands lint my.csv [--accept]                                        # fill missing columns from inferences
 ```
 `DESC` is the citation-form construction (the spec's `NAME`); `explain` takes IPA.
 

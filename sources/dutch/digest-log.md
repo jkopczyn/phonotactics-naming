@@ -11,13 +11,13 @@
 | 4 | `taalportaal-stress-*` (all nine pages); `vandersijs1996-leenwoordenboek` p.60 |
 | 5 | `wiki-nl-orthography`; `names-wiki-translit`; `vandersijs1999-transcriptie`; `names-wiki-spellinguitspraak` |
 | 6 | `booij2014-word-formation` pp.11–16; `taalportaal-nasal-assimilation` §diminutive; `taalportaal-coda-cooccurrence-restrictions` Table 6; `verhoeven2005` p.244; `wiki-nl-language` §Grammar |
-| 7 | `attested.tsv`; provenance counts in §7 |
+| 7 | `attested.csv`; provenance counts in §7 |
 | 8 | assembled from §1–§4 plus `wiki-nl-phonology` §Allophony (the /Cj/ palatalization facts), `booij2011-msc` p.2056 (*Pjotr, Tjeerd, Kjeld*), `verhoeven2005` pp.244–245 |
 
 ## Sources deliberately not used
 - `loan-uu-contrastief-fonemen` and `loan-brand-berns2023` — both are L2-acquisition contrastive
   analyses (Dutch speakers producing French/English), the wrong direction, as bib.md warns. No rows
-  from them are in `attested.tsv` and no §3 claim rests on them.
+  from them are in `attested.csv` and no §3 claim rests on them.
 - `twpl-clusterreduction` — cited once in §3.1 and §9 as a *tiebreaker only*, and explicitly flagged
   as child-acquisition data, not loan data.
 - `nagy2007-*` (abstract + Hungarian summary) — read for framing only; contains no data tables.
@@ -36,9 +36,9 @@
 
 1. **WOLD is not orthography-only.** Both bib.md's `wold-dutch` entry and the task brief say WOLD
    gives orthographic forms with no adapted IPA, so `target_ipa` would have to stay blank. In fact
-   `sources/infra/wold-dutch-loanpairs.tsv` carries a `target_ipa` column with van der Sijs's
+   `sources/infra/wold-dutch-loanpairs.csv` carries a `target_ipa` column with van der Sijs's
    space-separated phonemic segmentation for every row (e.g. *juist* `j œy s t`). The 20 WOLD rows
-   in `attested.tsv` therefore have `target_ipa` filled. The *donor* side genuinely has no IPA
+   in `attested.csv` therefore have `target_ipa` filled. The *donor* side genuinely has no IPA
    anywhere in WOLD, as `infra/bib.md` correctly notes. The transcription is **Netherlandic**
    (`ʋ`, `ɛi ɑu`, positional `ɣ`/`x`), so each such row is tagged in its note.
 2. **"A-class" / "B-class" are used with opposite polarity by Taalportaal and by Kager & Pater.**
@@ -145,7 +145,7 @@ foreign /g/ and the French nasals rather than choosing. Table rows rewritten acc
 source-symbol → Belgian-target-symbol table plus the full normalized Belgian phoneme list to encode
 rules over. Netherlandic-only data is tagged at the point of use.
 
-**§6.8 — attested.tsv.** The 15 Taalportaal rows had a stress-marked orthographic form
+**§6.8 — attested.csv.** The 15 Taalportaal rows had a stress-marked orthographic form
 (`ad.mis.'sion`) in `source_ipa`; that field is now blank on those rows and the form is carried in
 `note` with a warning. All 20 WOLD rows now carry `process tag inferred (WOLD gives no donor IPA)`
 in the note. The *rapskills* row no longer claims `/æ/ → /ɛ/`: `source_form` is *skills* (what the

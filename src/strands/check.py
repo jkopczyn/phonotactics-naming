@@ -84,7 +84,7 @@ class _Checker:
 
     def orth(self, tag: str, line: int) -> None:
         """`@orth("X")` / `orth="X"` (Old Irish O-6; R9): `X`, less a `:n` positional
-        suffix, must be a unit of `rules/irish-orthography.tsv`, else the item can never
+        suffix, must be a unit of `rules/irish-orthography.csv`, else the item can never
         match — an ERROR, since draft 1's warning let dead rules through. `n` must lie
         within the unit's longest alternative."""
         if self._orth_units is None:
@@ -101,7 +101,7 @@ class _Checker:
             self.add(
                 line,
                 "ORTH_UNKNOWN_UNIT",
-                f"orth unit {unit!r} is not in rules/irish-orthography.tsv; "
+                f"orth unit {unit!r} is not in rules/irish-orthography.csv; "
                 f"@orth({tag!r}) can never match",
             )
             return
@@ -231,7 +231,7 @@ class _Checker:
                     self.add(
                         line,
                         "UNREACHABLE_CHANGE",
-                        "no features.tsv segment has the vector produced by the "
+                        "no features.csv segment has the vector produced by the "
                         "feature-change bundle for "
                         + ", ".join(repr(s) for s in failing)
                         + " (spec §12.C)",
@@ -431,7 +431,7 @@ def check_rule_file(rf: RuleFile, table: FeatureTable) -> list[CheckError]:
 
 
 def check_lexicon_file(path: str | Path) -> list[CheckError]:
-    """Read and validate `old-irish-lexicon.tsv` (codes `LEX_*`, see `lexicon.validate`).
+    """Read and validate `old-irish-lexicon.csv` (codes `LEX_*`, see `lexicon.validate`).
     An unreadable file is a single LEX_HEADER error at line 1 rather than an exception."""
     from .lexicon import LexiconError, read_rows, validate
 
@@ -448,8 +448,8 @@ def check_lexicon_file(path: str | Path) -> list[CheckError]:
 def check_grapheme_table(
     path: str | Path | None = None, table: FeatureTable | None = None
 ) -> list[CheckError]:
-    """Validate `rules/old-irish-orthography.tsv` (codes `GRAPH_*`): every `ipa` segment is
-    a features.tsv row; `env` is one of `spelled.ENVS`; `role` one of `spelled.ROLES` (seven
+    """Validate `rules/old-irish-orthography.csv` (codes `GRAPH_*`): every `ipa` segment is
+    a features.csv row; `env` is one of `spelled.ENVS`; `role` one of `spelled.ROLES` (seven
     values — no `punctum` role, so the ⟨ṡ⟩/⟨ḟ⟩ rows validate as cons/silent carrying a
     `punctum` column); a non-empty `punctum` is a single plain letter; EXACTLY one row has
     `role = ending` (spec §11: one temporary escape hatch, not a family); no two rows share
@@ -468,7 +468,7 @@ def check_grapheme_table(
 
     path = OI_ORTHOGRAPHY_PATH if path is None else Path(path)
     if table is None:
-        table = load_features(OI_ORTHOGRAPHY_PATH.parent / "features.tsv")
+        table = load_features(OI_ORTHOGRAPHY_PATH.parent / "features.csv")
     try:
         rows = load_graphemes(path)
     except (OSError, SpelledError) as e:
@@ -484,7 +484,7 @@ def check_grapheme_table(
                     CheckError(
                         r.line,
                         "GRAPH_UNKNOWN_SEGMENT",
-                        f"token {r.token!r}: ipa segment {seg!r} is not a features.tsv row",
+                        f"token {r.token!r}: ipa segment {seg!r} is not a features.csv row",
                         "error",
                     )
                 )

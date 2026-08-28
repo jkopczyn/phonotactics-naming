@@ -65,7 +65,7 @@ runs every headword of the REGRESSION POPULATION through the retro-filter with t
 withheld — `run_entry_oi(..., lexicon={})` on `DESC`, i.e. the forced RETRO path, ending
 marker realized — and compares `Result.respelling` with the row's `oi_nom` as WRITTEN forms
 (O-16): NFC + casefold, character-level Levenshtein via `regress.edit_distance`. The
-population is the unique citation-form keys that are in `test-words.tsv` with hand IPA AND
+population is the unique citation-form keys that are in `test-words.csv` with hand IPA AND
 have a form-bearing (`attested`/`middle`) lexicon row; a `none` row has no `oi_nom` and is
 excluded (O-31; measured 58 at the time of writing, plan draft 3 said 54 before Task 4's
 Middle Irish rows). A key with several hand-IPA rows takes the first row tagged

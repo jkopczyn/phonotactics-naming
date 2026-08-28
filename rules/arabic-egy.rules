@@ -29,7 +29,7 @@ tˤ dˤ sˤ zˤ
 # digest §1 "Additions to the PHOIBLE row": loan-only, marginal /p v ʒ/ (lines 90-92), /q/
 # (line 95, learned vocabulary), /tʃ/ (line 97, "increasingly retained"). [ɾ] is in free
 # variation with /r/ (§8.3 line 1507; wiki-help-ipa-egy note 2) and the attested rows print
-# it. /lˤ rˤ bˤ mˤ/ (lines 93-94) have no features.tsv rows and are omitted (see [substitute]).
+# it. /lˤ rˤ bˤ mˤ/ (lines 93-94) have no features.csv rows and are omitted (see [substitute]).
 marginal: p v ʒ q tʃ ɾ
 # digest §1 line 129 "Vowels": short /i u a/, long /iː uː eː oː aː/.
 i u a iː uː eː oː aː
@@ -89,9 +89,9 @@ sˠ -> sˤ / _ BACKV          %attested # digest §8.1 line 1330 `s -> sˤ`, env
 t̪ˠ -> t                     %design   # design: §9.9 narrowed — elsewhere plain
 d̪ˠ -> d                     %design   # design: §9.9 narrowed — elsewhere plain
 sˠ -> s                     %design   # design: §9.9 narrowed — elsewhere plain
-l̪ˠ -> l                     %design   # design: §9.9 — /lˤ/ (digest §8.1 line 1376) has no features.tsv row; plain /l/
+l̪ˠ -> l                     %design   # design: §9.9 — /lˤ/ (digest §8.1 line 1376) has no features.csv row; plain /l/
 n̪ˠ -> n                     %design   # design: §9.9 — digest §8.1 line 1383 / §8.3 line 1509: no /nˤ/ anywhere
-ɾˠ -> r                     %design   # design: §9.9 — /rˤ/ (digest §8.1 line 1377) has no features.tsv row; /r/ ~ [ɾ] (§8.3 line 1507)
+ɾˠ -> r                     %design   # design: §9.9 — /rˤ/ (digest §8.1 line 1377) has no features.csv row; /r/ ~ [ɾ] (§8.3 line 1507)
 tʲ -> t                     %design   # design: §9.1 (digest §8.1 line 1303)
 dʲ -> d                     %design   # design: §9.1
 nʲ -> n                     %design   # design: §9.1 (digest §8.3 line 1509)

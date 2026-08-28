@@ -266,7 +266,7 @@ van der Sijs, Nicoline (2009). "Dutch vocabulary." In M. Haspelmath & U. Tadmor 
 - Files: none here by design; the infra agent handles the download.
 - Covers: §7 the machine-readable gold set — donor language and borrowed status per meaning.
   Caveat for the digest: WOLD gives **orthographic** forms and source languages, not adapted IPA,
-  so it supplies the *pairs* but not the *pronunciations*; `attested.tsv`'s `target_ipa` column
+  so it supplies the *pairs* but not the *pronunciations*; `attested.csv`'s `target_ipa` column
   will be blank for WOLD-sourced rows unless another source supplies it.
 
 ### `nagy2008-frans`
@@ -362,7 +362,7 @@ Universiteit Utrecht. (Dutch-language.)
   and a 1–3 integration score. Verified rows: *to tape* /tuː teɪp/ → [tep] / [ɑftep]; *to
   download* /tuː daʊnloʊd/ → [dɑun tə lodə] (note the Dutch verbal morphology); *superman*
   /ˈsuːpəmæn/ → [ˈsuːpəmænɑχtɪɣ]; *core business* and *I owe you* borrowed with source
-  pronunciation intact (score 2). This is `attested.tsv` material almost as-is.
+  pronunciation intact (score 2). This is `attested.csv` material almost as-is.
 
 ### `loan-posthumus1988-uitspraak`
 Posthumus, J. (1988). "De uitspraak van Engelse leenwoorden." *Onze Taal* 57, 112–113.
@@ -448,7 +448,7 @@ Utrecht. (Dutch-language.)
 - ⚠️ **Direction caveat:** this is L2-acquisition contrastive analysis (foreigners learning Dutch),
   *not* loanword nativization. Use it as a segment-correspondence lookup and a feature-distance
   sanity check; do not cite it as adaptation evidence in §3, and do not put rows from it in
-  `attested.tsv`.
+  `attested.csv`.
 
 ### `loan-brand-berns2023`
 Brand, Sophie & Berns, Janine (2023). "Van klank naar schrift en andersom: obstakels in productie

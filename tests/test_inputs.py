@@ -1,4 +1,4 @@
-"""Task 20: input TSV reader, gender / declension / genitive inference, lint (spec §5, §12.H)."""
+"""Task 20: input CSV reader, gender / declension / genitive inference, lint (spec §5, §12.H)."""
 
 import csv
 import shutil
@@ -43,8 +43,8 @@ def test_constructed_ipa_feeds_the_later_inference_steps():
 
 
 def test_unknown_columns_are_ignored():
-    """test-words.tsv has `features`, not the spec §5 header."""
-    entries = read_input(ROOT / "sources" / "irish" / "test-words.tsv")
+    """test-words.csv has `features`, not the spec §5 header."""
+    entries = read_input(ROOT / "sources" / "irish" / "test-words.csv")
     assert len(entries) == 144
     assert entries[0].orthography == "Ciara" and entries[0].gender == ""
 
@@ -62,7 +62,7 @@ def test_gender_from_ending_and_default():
 
 
 def test_gender_from_known_name_list():
-    """Built from test-words.tsv glosses of the form '(f. given name)'."""
+    """Built from test-words.csv glosses of the form '(f. given name)'."""
     e = infer(Entry("Oisín", ipa="ɔʃiːnʲ", gender=""), IRISH, TABLE)
     assert e.gender == "m" and "gender:known-name" in e.assumptions
     e = infer(Entry("Niamh", ipa="nʲiəw", gender=""), IRISH, TABLE)
@@ -129,10 +129,10 @@ def test_lint_report_lists_one_line_per_guess():
 
 
 def test_accept_writes_the_guesses_back(tmp_path):
-    dst = tmp_path / "in.tsv"
+    dst = tmp_path / "in.csv"
     shutil.copy(FIX, dst)
     accept_guesses(dst, [infer(x, IRISH, TABLE) for x in read_input(dst)])
-    rows = list(csv.DictReader(dst.open(encoding="utf-8"), delimiter="\t"))
+    rows = list(csv.DictReader(dst.open(encoding="utf-8")))
     assert all(r["gender"] for r in rows)
     assert all(r["dialect"] for r in rows)
     assert [r["orthography"] for r in rows] == [e.orthography for e in read_input(FIX)]
@@ -166,9 +166,9 @@ def test_unmarked_input_inflects_to_the_canonical_genitive():
 def test_ipa_column_accepts_slash_and_bracket_delimiters(tmp_path):
     """Owner request 2026-08-27: `/iːˈdɑːn/` is read as `iːˈdɑːn` (also `[...]`), for ipa,
     gen_ipa and pl_ipa; a bare transcription is unchanged."""
-    f = tmp_path / "in.tsv"
+    f = tmp_path / "in.csv"
     f.write_text(
-        "orthography\tipa\tgen_ipa\nÉadan\t/iːˈdɑːn/\t[iːˈdɑːnʲ]\nSeán\tʃaːnˠ\t\n", encoding="utf-8"
+        "orthography,ipa,gen_ipa\nÉadan,/iːˈdɑːn/,[iːˈdɑːnʲ]\nSeán,ʃaːnˠ,\n", encoding="utf-8"
     )
     rows = read_input(f)
     assert rows[0].ipa == "iːˈdɑːn" and rows[0].gen_ipa == "iːˈdɑːnʲ"
@@ -183,10 +183,9 @@ def test_declension_column_is_read_written_and_validated(tmp_path):
 
     from strands.inputs import InputError
 
-    f = tmp_path / "in.tsv"
+    f = tmp_path / "in.csv"
     f.write_text(
-        "orthography\tipa\tgender\tdeclension\nSeán\tʃaːnˠ\tm\t\nBríd\tbʲɾʲiːdʲ\tf\tf2\n",
-        encoding="utf-8",
+        "orthography,ipa,gender,declension\nSeán,ʃaːnˠ,m,\nBríd,bʲɾʲiːdʲ,f,f2\n", encoding="utf-8"
     )
     entries = [infer(x, IRISH, TABLE) for x in read_input(f)]
     assert entries[0].declension == "m1" and any(
@@ -196,10 +195,10 @@ def test_declension_column_is_read_written_and_validated(tmp_path):
         a.startswith("declension:") for a in entries[1].assumptions
     )
     accept_guesses(f, entries)
-    rows = list(csv.DictReader(f.open(encoding="utf-8"), delimiter="\t"))
+    rows = list(csv.DictReader(f.open(encoding="utf-8")))
     assert rows[0]["declension"] == "m1" and rows[1]["declension"] == "f2"
     again = [infer(x, IRISH, TABLE) for x in read_input(f)]
     assert not any(a.startswith("declension:") for e in again for a in e.assumptions)
-    f.write_text("orthography\tipa\tdeclension\nX\tʃaːnˠ\tq9\n", encoding="utf-8")
+    f.write_text("orthography,ipa,declension\nX,ʃaːnˠ,q9\n", encoding="utf-8")
     with pytest.raises(InputError):
         infer(read_input(f)[0], IRISH, TABLE)

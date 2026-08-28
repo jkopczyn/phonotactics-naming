@@ -2,7 +2,7 @@
 
 Two rates per strand, measured by two different runs because they cost very differently:
 
-- **`admits`** — every `sources/irish/test-words.tsv` hand-IPA row, run forward and then
+- **`admits`** — every `sources/irish/test-words.csv` hand-IPA row, run forward and then
   reversed with the **`--examples 0` machinery** (no verification at all), asking only whether
   the row's own Irish IPA is admitted by the resulting pattern (`pattern_admits`). No forward
   run is spent per candidate, so the whole thing is cheap and its ratchet test is unmarked.

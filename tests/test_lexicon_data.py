@@ -8,7 +8,7 @@ from helpers import ROOT, read_test_words
 from strands.check import check_lexicon_file
 from strands.lexicon import FORM_STATUSES, KINDS, key, read_lexicon, read_rows
 
-PATH = ROOT / "rules" / "old-irish-lexicon.tsv"
+PATH = ROOT / "rules" / "old-irish-lexicon.csv"
 HEADER, ROWS = read_rows(PATH)
 LEX = read_lexicon(PATH)
 FORMS = [r for r in ROWS if r.status in FORM_STATUSES]
@@ -22,7 +22,7 @@ VERIF_COLUMNS = ("orthography", "source", "field", "verdict", "checked_by", "not
 
 def verification(name):
     with (ROOT / "rules" / name).open(encoding="utf-8", newline="") as fh:
-        reader = csv.DictReader(fh, delimiter="\t")
+        reader = csv.DictReader(fh)
         return list(reader.fieldnames or []), list(reader)
 
 
@@ -100,14 +100,14 @@ def test_old_irish_forms_carry_no_modern_lenition_digraphs():
 
 
 def test_the_measured_regression_overlap_is_intact():
-    """O-31: 54 form-bearing keys also in test-words.tsv with hand IPA."""
+    """O-31: 54 form-bearing keys also in test-words.csv with hand IPA."""
     keys = {key(r["orthography"]) for r in read_test_words() if r["ipa"]}
     overlap = {k for k in keys & set(LEX) if LEX[k].status in FORM_STATUSES}
     assert len(overlap) >= 54, len(overlap)
 
 
 @pytest.mark.parametrize(
-    "name", ["old-irish-lexicon.verification.tsv", "old-irish-lexicon.verification2.tsv"]
+    "name", ["old-irish-lexicon.verification.csv", "old-irish-lexicon.verification2.csv"]
 )
 def test_both_verification_files_exist_with_the_agreed_schema(name):
     """R3: the first pass was prose in the log; this task back-fills it."""
@@ -117,7 +117,7 @@ def test_both_verification_files_exist_with_the_agreed_schema(name):
 
 
 def test_every_verdict_is_explained_and_attributed():
-    for name in ("old-irish-lexicon.verification.tsv", "old-irish-lexicon.verification2.tsv"):
+    for name in ("old-irish-lexicon.verification.csv", "old-irish-lexicon.verification2.csv"):
         for r in verification(name)[1]:
             assert r["verdict"] in ("ok", "fixed", "removed"), r
             assert r["checked_by"].strip(), r
@@ -126,13 +126,13 @@ def test_every_verdict_is_explained_and_attributed():
 
 
 def test_the_second_pass_defect_rate_admits_the_genitive_less_rows():
-    rows = verification("old-irish-lexicon.verification2.tsv")[1]
+    rows = verification("old-irish-lexicon.verification2.csv")[1]
     defects = sum(r["verdict"] != "ok" for r in rows)
     assert defects <= len(rows) // 10, (defects, len(rows))
 
 
 def test_removed_rows_are_gone_and_kept_rows_are_present():
-    for r in verification("old-irish-lexicon.verification2.tsv")[1]:
+    for r in verification("old-irish-lexicon.verification2.csv")[1]:
         assert (key(r["orthography"]) in LEX) != (r["verdict"] == "removed"), r["orthography"]
 
 

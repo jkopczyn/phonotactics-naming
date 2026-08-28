@@ -265,7 +265,7 @@ word-initial cluster. After other consonants, they are replaced by /ɾˠ, ɾʲ/"
 **Because Connacht is our reference dialect, /kn ɡn tn mn/ mostly do NOT reach the targets —
 they arrive as /kɾˠ ɡɾˠ t̪ˠɾˠ mˠɾˠ/.** This deletes one whole row from the target digests'
 "Irish initial clusters the target bans" list. It is worth carrying both variants in the test
-set (see `test-words.tsv`, *cnoc*).
+set (see `test-words.csv`, *cnoc*).
 
 **Mutation-environment onsets — the much larger set.** Because Irish mutates word-initially,
 an inflected name or epithet can begin with clusters that are impossible in the citation form
@@ -455,7 +455,7 @@ rather than two) rather than to dialect [irish-schwa-kwpl §5, §5.1].
 §9.6 on whether the tool should be told which is which. The paper's **15 near-minimal pairs**
 (underlying vs. epenthetic schwa: *anam*/*ainm*, *talamh*/*sealbh*, *cothrom*/*gorm*,
 *léirigh*/*dearg*, *gaineamh*/*banbh*, …) [irish-schwa-kwpl p.5] are a ready-made discriminating
-sub-suite and several are in `test-words.tsv`.
+sub-suite and several are in `test-words.csv`.
 
 ---
 
@@ -835,7 +835,7 @@ bulk download or public API, so query it per word at generation time [bib.md §e
 
 ## 7. Test words
 
-See **`test-words.tsv`** in this directory (not `attested.tsv` — this is the source side, so the
+See **`test-words.csv`** in this directory (not `attested.csv` — this is the source side, so the
 file is the tool's **input** test set rather than a record of adaptations).
 
 Columns: `orthography, ipa, dialect, gloss, category, features, note`.
@@ -1034,7 +1034,7 @@ Each target digest must give a row for each.
 | **/pˠ pʲ/** | ⟨p⟩ | **low in native vocabulary** — the article does not flag it as marginal, but ⟨p⟩ is mostly in loans and in eclipsed/lenited forms | *poll*, *príosún*, *pic*. Not a problem for any target. |
 | **/ŋ/, /ɲ/** | eclipsis of /ɡ/, /ɟ/; ⟨ng⟩ | moderate, and crucially **word-initial** after eclipsis | *ngasúr* /ˈŋasˠuːɾˠ/, *ngeata* /ˈɲat̪ˠə/, *long* /l̪ˠuːŋɡ/, *rinc* /ɾˠɪɲc/, *cuing* /kɪɲɟ/, *nglúin* /ŋl̪ˠuːnʲ/. Word-initially they arise **only** from eclipsis, so only if the generator emits eclipsed forms (§9.1). Whether a target bans initial /ŋ ɲ/: check each target digest. |
 | **/ɾˠ/ vs /ɾʲ/** | everywhere | **very high** | Both are taps in the transcription, but /ɾʲ/'s primary allophone is a palatalized postalveolar **fricative [ɹ̝ʲ]** [wiki-irish-phonology §Allophones]. A target with a single /r/ or /ɾ/ must choose whether the slender member becomes /rʲ/, /rj/, /ʒ/-ish, or merges. Note Irish has **no trill** in the modern dialects — the four historical rhotics merged to two taps [wiki-irish-phonology §Fortis and lenis sonorants]. Also note the **/ɾˠ before slender coronals** exception of §2.3, which delivers quality-mismatched /ɾˠtʲ/, /ɾˠdʲ/, /ɾˠʃ/, /ɾˠnʲ/, /ɾˠlʲ/. |
-| **/l̪ˠ lʲ n̪ˠ nʲ/** (the laterals and nasals) | everywhere | **very high** | ⚠️ **Source strings do not use one symbol set** — see §8.6; the Wikipedia articles print /lˠ l̠ʲ nˠ n̠ʲ/ in individual transcriptions (*béal* /bʲeːlˠ/, *leanbh* /ˈl̠ʲanˠəw/, *naomh* /n̪ˠiːw/ ~ lenited /nˠiːw/) and this digest and `test-words.tsv` reproduce them verbatim; the two-way normalization of §1.1 is applied to the `features` **tags**, not to the `ipa` column. Broad /l̪ˠ n̪ˠ/ are **dental**; slender /lʲ nʲ/ alveolar/alveolo-palatal [wiki-irish-phonology §Allophones]. The four-way fortis/lenis system of the IPA key (/l̪ˠ lˠ l̠ʲ lʲ/, /n̪ˠ nˠ n̠ʲ nʲ/) is not distinguished by any modern dialect [wiki-help-ipa-irish notes 5, 6] — so treat input as two-way per §1.1. A target must decide: dental vs. alveolar (usually free), and slender /lʲ nʲ/ vs /lj nj/ vs /ʎ ɲ/. |
+| **/l̪ˠ lʲ n̪ˠ nʲ/** (the laterals and nasals) | everywhere | **very high** | ⚠️ **Source strings do not use one symbol set** — see §8.6; the Wikipedia articles print /lˠ l̠ʲ nˠ n̠ʲ/ in individual transcriptions (*béal* /bʲeːlˠ/, *leanbh* /ˈl̠ʲanˠəw/, *naomh* /n̪ˠiːw/ ~ lenited /nˠiːw/) and this digest and `test-words.csv` reproduce them verbatim; the two-way normalization of §1.1 is applied to the `features` **tags**, not to the `ipa` column. Broad /l̪ˠ n̪ˠ/ are **dental**; slender /lʲ nʲ/ alveolar/alveolo-palatal [wiki-irish-phonology §Allophones]. The four-way fortis/lenis system of the IPA key (/l̪ˠ lˠ l̠ʲ lʲ/, /n̪ˠ nˠ n̠ʲ nʲ/) is not distinguished by any modern dialect [wiki-help-ipa-irish notes 5, 6] — so treat input as two-way per §1.1. A target must decide: dental vs. alveolar (usually free), and slender /lʲ nʲ/ vs /lj nj/ vs /ʎ ɲ/. |
 | **Voiceless sonorants** | — | **not a phoneme; a phonetic effect** | Two sources describe them. Quiggin documents voiceless L, l, L′, l′, N, n, N′, r, r′ "with strongly breathed off-glide", arising from historical sonorant + *th*/*f(h)* clusters, mainly in the future tense [quiggin1906-donegal §213, §220, §227, §232, §242, §248, §259, §264, §279, §288]. Ní Chasaide reports nasals and liquids are **devoiced before and after voiceless plosives**, and that prepausal /l n/ devoice [nichasaide1999-ipa-irish p.113]. Neither is a contrastive segment. **The `../../notes/project-goals.md` note "Irish lenition outputs [v w j h] and voiceless sonorants" is only half right**: [v w j h] are phonemic lenition outputs; the voiceless sonorants are allophonic and mostly verbal-morphological. **Recommendation: do not put voiceless sonorants in the input inventory.** |
 | **/sˠ/ vs /ʃ/** | everywhere | very high | The one broad/slender pair most targets can carry losslessly (§8.1). |
 | **/t̪ˠ d̪ˠ/ dental** | everywhere | very high | Note the PHOIBLE convention warning that applies to the Arabic row: UPSID dental diacritics there mark plain coronals, not true dentals [../../notes/project-goals.md]. Irish's **are** true dentals [wiki-irish-phonology §Allophones]. |
@@ -1098,8 +1098,8 @@ from §7 and §8.2.
 
 | | What it is | Where it lives |
 |---|---|---|
-| **`ipa` column / quoted transcriptions** | **Verbatim as the source printed it.** May be phonemic (`/…/`) or phonetic (`[…]`); may use the four-way L/N symbols; may print ⟨r⟩ where the scheme's symbol is ⟨ɾˠ⟩. **Never silently renormalized** — that would destroy the audit trail back to the source. | `test-words.tsv` `ipa`; every `/…/` in this digest |
-| **`features` tags** | **Underlying phonemes of the Connacht/standard system of §1.1.** Normalized: /lˠ l̠ʲ nˠ n̠ʲ/ → /l̪ˠ lʲ n̪ˠ nʲ/; a surface [vˠ] of the phoneme /w/ tags `seg:w`; a lowered [ɪə] of /iə/ tags `dip:iə`. | `test-words.tsv` `features` |
+| **`ipa` column / quoted transcriptions** | **Verbatim as the source printed it.** May be phonemic (`/…/`) or phonetic (`[…]`); may use the four-way L/N symbols; may print ⟨r⟩ where the scheme's symbol is ⟨ɾˠ⟩. **Never silently renormalized** — that would destroy the audit trail back to the source. | `test-words.csv` `ipa`; every `/…/` in this digest |
+| **`features` tags** | **Underlying phonemes of the Connacht/standard system of §1.1.** Normalized: /lˠ l̠ʲ nˠ n̠ʲ/ → /l̪ˠ lʲ n̪ˠ nʲ/; a surface [vˠ] of the phoneme /w/ tags `seg:w`; a lowered [ɪə] of /iə/ tags `dip:iə`. | `test-words.csv` `features` |
 
 **Consequences the rule-writer must expect:**
 1. **The `ipa` column is not yet a canonical input format.** A deterministic adapter needs one
@@ -1138,7 +1138,7 @@ from §7 and §8.2.
    **The complete form /ˈciəɾˠə/ is an inference, not attested** — no held source gives any
    pronunciation for the name *Ciara* (`wiki-irish-name` lists names without IPA). So: the
    slender-initial finding is firm; the full transcription is this digest's reconstruction and
-   the user should confirm it rather than have the tool assume it. `test-words.tsv` carries the
+   the user should confirm it rather than have the tool assume it. `test-words.csv` carries the
    user's form as the live row and the inferred form as a second, explicitly-inferred row.
 3. **Noun+noun compound lenition** (§3.6) is unattested in this source set; the *Lasairchos*
    transcription implies it applies. Confirm before generating compound epithets in bulk.

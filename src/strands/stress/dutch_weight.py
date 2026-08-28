@@ -12,7 +12,7 @@ dutch.rules). Six ordered steps:
 
 Readings the digest leaves open (kept as simple as possible):
 - A-class (tense) = `tense=+` or `long=+`; everything else is B-class (lax). `ɑ` has
-  `tense=0` in features.tsv and so falls to B-class, which is what the digest says of it.
+  `tense=0` in features.csv and so falls to B-class, which is what the digest says of it.
 - "Schwa" is the segment `ə` itself (spec I-1: NFC; no other reduced vowel is in play).
 - A diphthong is a branching nucleus (spec §12.B) — the `[syllable] nuclei =` list decides.
 - Step 1 uses the RIGHTMOST schwa syllable that has a non-schwa syllable before it, and

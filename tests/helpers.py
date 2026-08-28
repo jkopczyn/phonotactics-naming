@@ -10,7 +10,7 @@ from strands.word import Word
 
 ROOT = pathlib.Path(__file__).parents[1]
 FIXTURES = pathlib.Path(__file__).parent / "fixtures"
-TABLE = load_features(ROOT / "rules" / "features.tsv")
+TABLE = load_features(ROOT / "rules" / "features.csv")
 
 
 def w(ipa: str) -> Word:
@@ -30,8 +30,8 @@ def rules_exist(name: str) -> bool:
 
 
 def read_test_words() -> list[dict[str, str]]:
-    with (ROOT / "sources" / "irish" / "test-words.tsv").open(encoding="utf-8") as fh:
-        return list(csv.DictReader(fh, delimiter="\t"))
+    with (ROOT / "sources" / "irish" / "test-words.csv").open(encoding="utf-8") as fh:
+        return list(csv.DictReader(fh))
 
 
 def mutation_rows() -> list[dict[str, str]]:
@@ -56,7 +56,7 @@ def entry_of(row: dict[str, str]):
     )
 
 
-FIX = FIXTURES / "input-sample.tsv"  # written in Task 20
+FIX = FIXTURES / "input-sample.csv"  # written in Task 20
 
 
 def read_allow_file_for(name: str) -> set[str]:
@@ -70,6 +70,6 @@ def read_allow_file() -> set[tuple[str, str]]:
     out = set()
     for line in path.read_text(encoding="utf-8").splitlines():
         if line.strip() and not line.startswith("#"):
-            tgt, ortho, *_ = line.split("\t")
+            tgt, ortho, *_ = line.split(",")
             out.add((tgt, ortho))
     return out

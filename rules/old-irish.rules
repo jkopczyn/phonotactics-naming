@@ -9,8 +9,8 @@ name = Old Irish
 strand = old-irish
 grammar = graphemes
 digest = sources/irish/digest.md §10
-lexicon = rules/old-irish-lexicon.tsv
-orthography = rules/old-irish-orthography.tsv
+lexicon = rules/old-irish-lexicon.csv
+orthography = rules/old-irish-orthography.csv
 punctum = on
 # spec §11 / GPT #7: the template built-ins this file may call besides its own [mutations]
 # (LEN NAS) and [inflect] sub-tables — one per-file registry read by the parser and by
@@ -37,9 +37,9 @@ i e a o u iː eː aː oː uː ə
 # (S6) — the filter rewrites any survivor, so it is admitted only marginally, with its
 # slender partner. /ə/ is a reduction and must never be chosen by the inventory fallback.
 # Short /æ/ comes from u-infection of stressed /a/, "rampant in names in the prefix air-"
-# (digest §10.1) — name-relevant, already a features.tsv row, marginal (S5).
+# (digest §10.1) — name-relevant, already a features.csv row, marginal (S5).
 # /hʲ/ "may have been the same sound as /h/ or /xʲ/" (digest §10.1) would sit here too, but
-# features.tsv has no hʲ row (Task 1 added only the lenited series), so it is not declared.
+# features.csv has no hʲ row (Task 1 added only the lenited series), so it is not declared.
 marginal: pˠ pʲ w vʲ ə æ
 
 [classes]
@@ -223,7 +223,7 @@ mark = on
 # Editorial Old Irish orthography (spec §6, §11; digest §10.2 conventions 1-6; plan Task 11).
 # This is the ONLY producer of a spelled word on the RETRO path: Task 12 hands the string to
 # `SpelledWord.from_spelling`, so every character written here must be a grapheme token of
-# rules/old-irish-orthography.tsv (R27; a property test asserts it). Chunks are opaque and
+# rules/old-irish-orthography.csv (R27; a property test asserts it). Chunks are opaque and
 # contexts read the ORIGINAL segment stream (I-19, spec §12.C), which is why the order below
 # is load-bearing: guards before the doubling table, diphthongs before single vowels, the
 # final ending marker before the schwa grid. Quality is not reversed (O-3): a slender

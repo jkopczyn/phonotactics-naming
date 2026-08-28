@@ -1203,7 +1203,7 @@ def parse_rules(text: str, table: FeatureTable, path: str = "<string>") -> RuleF
                 _, value = _key_value(_strip_comment(line), lineno, path)
                 if value not in table.segments:
                     raise ParseError(
-                        f"overlay-undo must name a segment in features.tsv, not {value!r}",
+                        f"overlay-undo must name a segment in features.csv, not {value!r}",
                         lineno,
                         path,
                     )

@@ -313,7 +313,7 @@ def test_mode_e_meets_the_bar():
 
 def test_error_bucket_is_small():
     """Plan cap: ≤ 6 (10% of 67). Every error is an untokenizable SOURCE-side English symbol
-    (ʌ ×4, ɒ, the t̯ diacritic): features.tsv (Task 1b) has no rows for them. The French
+    (ʌ ×4, ɒ, the t̯ diacritic): features.csv (Task 1b) has no rows for them. The French
     nasal œ̃ of *parfum* tokenizes (Belgian speakers keep it, digest §3.2.1 via nagy2008)."""
     rep = run_regression("dutch", TABLE)
     errors = [r for r in rep.rows if r.mode == "error"]

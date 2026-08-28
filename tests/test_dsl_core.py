@@ -121,7 +121,7 @@ def test_syllable_and_stress_marks_are_rejected_in_targets():
 def test_unknown_section_and_unknown_segment_and_missing_arrow_raise_with_line_numbers():
     # Deviation from the plan text: it used `Q -> p` for the unknown-segment case, but `Q`
     # is a class name by I-10, and Task 6 requires undeclared class names to PARSE so that
-    # `check` can report UNKNOWN_CLASS with a line number. `ʘ` is not a features.tsv row.
+    # `check` can report UNKNOWN_CLASS with a line number. `ʘ` is not a features.csv row.
     for src, ln in [
         ("[frobnicate]\n", 1),
         ("[inventory]\np\n[substitute]\nʘ -> p\n", 4),

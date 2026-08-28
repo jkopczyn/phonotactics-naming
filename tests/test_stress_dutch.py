@@ -9,7 +9,7 @@ from strands.stress import assign_stress
 from strands.stress.dutch_weight import SCHWA
 from strands.syllabify import syllabify
 
-# The plan's inventory lists a short `ø`; rules/features.tsv has no `ø` row (only `øː`), and
+# The plan's inventory lists a short `ø`; rules/features.csv has no `ø` row (only `øː`), and
 # [inventory] rejects unknown segments, so `ø` is omitted here. No test word uses it.
 DUTCH = (
     "[inventory]\np b t d k ɡ f v s z ʃ ʒ x ɣ h m n ŋ l r ʋ j "

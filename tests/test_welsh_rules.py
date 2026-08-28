@@ -68,7 +68,7 @@ def test_no_unrepaired_on_the_144_word_set():
 
 
 def test_every_output_segment_is_in_the_inventory_and_no_fallback_segment():
-    """Every Irish segment (and the few user-transcription vowels test-words.tsv carries)
+    """Every Irish segment (and the few user-transcription vowels test-words.csv carries)
     has an explicit [substitute] line, so the nearest-segment fallback (Task 9) never
     has to guess."""
     inv = set(TARGET.inventory)
@@ -379,7 +379,7 @@ def test_regression_meets_the_bar():
     counts = rep.counts()
     assert counts["E"] == 0 and rep.mode_e_is_empty()
     # 19 rows carry target_ipa; 4 carry a consonant-length ː (mapː ʃopː matː klokː) that no
-    # features.tsv row licenses (I-2) and land in the error bucket, so 15 reach Mode C.
+    # features.csv row licenses (I-2) and land in the error bucket, so 15 reach Mode C.
     assert counts["C"] == 15, rep.summary()
     assert rep.rate("C") >= 0.70, rep.summary()
 

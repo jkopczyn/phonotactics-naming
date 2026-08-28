@@ -7,6 +7,7 @@ I-12 (distance), I-20 (extra columns), I-32 (feature aliases).
 
 from __future__ import annotations
 
+import csv
 import unicodedata
 from collections.abc import Sequence
 from pathlib import Path
@@ -21,7 +22,7 @@ __all__ = [
     "load_features",
 ]
 
-# The 38 PHOIBLE features, in features.tsv column order.
+# The 38 PHOIBLE features, in features.csv column order.
 FEATURE_NAMES: tuple[str, ...] = (
     "tone",
     "stress",
@@ -63,7 +64,7 @@ FEATURE_NAMES: tuple[str, ...] = (
     "click",
 )
 
-# I-32 / spec §12.C. A `# alias = column` line in the features.tsv header block may add more.
+# I-32 / spec §12.C. A `# alias = column` line in the features.csv header block may add more.
 FEATURE_ALIASES: dict[str, str] = {
     "ejective": "raisedLarynxEjective",
     "voice": "periodicGlottalSource",
@@ -126,7 +127,7 @@ class FeatureTable:
         return len(self.segments)
 
     def canonical_feature(self, name: str) -> str:
-        """Resolve an alias (or a column name) to the features.tsv column name."""
+        """Resolve an alias (or a column name) to the features.csv column name."""
         if name in self._index:
             return name
         if name in self._aliases:
@@ -256,7 +257,7 @@ class FeatureTable:
 
 
 def load_features(path: str | Path) -> FeatureTable:
-    """Read features.tsv (UTF-8, NFC per I-1). `# alias = column` header lines add aliases."""
+    """Read features.csv (UTF-8, NFC per I-1). `# alias = column` header lines add aliases."""
     path = Path(path)
     try:
         text = path.read_text(encoding="utf-8")
@@ -281,7 +282,7 @@ def load_features(path: str | Path) -> FeatureTable:
                     )
                 aliases[alias] = target
             continue
-        fields = line.split("\t")
+        fields = next(csv.reader([line]))
         if header is None:
             header = fields
             expected = list(_EXTRA_COLUMNS) + list(FEATURE_NAMES)

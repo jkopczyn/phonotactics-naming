@@ -74,7 +74,7 @@ def test_eclipsis_of_a_vowel_initial_word_prefixes_n():
 
 
 def test_eclipsis_of_a_back_or_open_vowel_initial_word_prefixes_broad_n():
-    # digest §3.3: *a n-aois* /n̪ˠV/ — open /a aː ə/ are front=- in features.tsv
+    # digest §3.3: *a n-aois* /n̪ˠV/ — open /a aː ə/ are front=- in features.csv
     assert ipa(apply_mutation(w("aːsˠ"), "ECL", IRISH, TABLE)) == "n̪ˠaːsˠ"
     assert ipa(apply_mutation(w("uːlʲ"), "ECL", IRISH, TABLE)) == "n̪ˠuːlʲ"
 
@@ -155,7 +155,7 @@ def test_broad_and_slender_classes_are_declared():
 
 
 def test_the_47_mutation_tagged_rows_apply_without_error():
-    """R22: test-words.tsv tags mutations as `mut:` in the `features` column — 47 rows.
+    """R22: test-words.csv tags mutations as `mut:` in the `features` column — 47 rows.
     (The 85 `len:` rows are a VOWEL LENGTH tag and are not mutation data.)"""
     rows = mutation_rows()
     assert len(rows) == 47

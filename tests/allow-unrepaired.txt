@@ -1,2 +1,2 @@
-# Plan Task 28: words allowed to carry the UNREPAIRED flag, one per line: <target>\t<orthography>.
+# Plan Task 28: words allowed to carry the UNREPAIRED flag, one per line: <target>,<orthography>.
 # Empty on purpose — every test word must be fully repaired by every target.

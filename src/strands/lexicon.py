@@ -1,4 +1,4 @@
-"""The Old Irish lexicon: `rules/old-irish-lexicon.tsv` (Old Irish spec §3, §7, §10; plan Task 2).
+"""The Old Irish lexicon: `rules/old-irish-lexicon.csv` (Old Irish spec §3, §7, §10; plan Task 2).
 
 The file maps a modern Irish CITATION form (`orthography`) to its attested Old Irish nominative
 and genitive spellings, stem class and gender, or records that no Old Irish form exists
@@ -19,6 +19,7 @@ class the cited sources do not show; Task 14 infers and tags it, O-33) is exempt
 
 from __future__ import annotations
 
+import csv
 import re
 import unicodedata
 from dataclasses import dataclass
@@ -101,7 +102,7 @@ def key(text: str) -> str:
 
 
 def default_lexicon_path() -> Path:
-    return Path(__file__).resolve().parents[2] / "rules" / "old-irish-lexicon.tsv"
+    return Path(__file__).resolve().parents[2] / "rules" / "old-irish-lexicon.csv"
 
 
 def _nfc(s: str) -> str:
@@ -122,12 +123,12 @@ def read_rows(path: str | Path | None = None) -> tuple[list[str], list[LexEntry]
     lines = text.splitlines()
     if not lines:
         raise LexiconError(f"empty lexicon {path}")
-    header = [c.strip() for c in lines[0].split("\t")]
+    header = [c.strip() for c in next(csv.reader([lines[0]]))]
     entries: list[LexEntry] = []
     for lineno, line in enumerate(lines[1:], start=2):
         if not line.strip() or line.lstrip().startswith("#"):
             continue
-        cells = [c.strip() for c in line.split("\t")]
+        cells = [c.strip() for c in next(csv.reader([line]))]
         width = len(LEXICON_COLUMNS)
         entries.append(LexEntry(*(cells + [""] * width)[:width], line=lineno, cells=len(cells)))
     return header, entries
@@ -167,7 +168,7 @@ def validate(header: list[str], entries: list[LexEntry], path: str | Path | None
             add(
                 e.line,
                 "LEX_ROW_SHAPE",
-                f"{e.orthography!r}: {e.cells} tab-separated cells; expected "
+                f"{e.orthography!r}: {e.cells} comma-separated cells; expected "
                 f"{len(LEXICON_COLUMNS)}",
             )
         k = key(e.orthography)

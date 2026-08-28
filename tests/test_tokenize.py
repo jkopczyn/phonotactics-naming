@@ -10,7 +10,7 @@ from strands.features import load_features
 from strands.tokenize import SegmentError, clean_attested, detokenize, tokenize
 
 ROOT = pathlib.Path(__file__).parents[1]
-TABLE = load_features(ROOT / "rules" / "features.tsv")
+TABLE = load_features(ROOT / "rules" / "features.csv")
 
 
 def test_longest_match_prefers_diacritic_segments():
@@ -78,13 +78,13 @@ def test_apostrophe_is_an_ejective_mark_only_for_georgian():
 
 
 def test_clean_attested_is_not_applied_to_user_input():
-    """I-36/I-34: ASCII g is canonical in test-words.tsv and must survive tokenize()."""
+    """I-36/I-34: ASCII g is canonical in test-words.csv and must survive tokenize()."""
     assert tokenize("gl̪ˠuːnʲ", TABLE).segments[0] == "g"
 
 
 def test_all_144_test_word_rows_tokenize():
-    with (ROOT / "sources" / "irish" / "test-words.tsv").open(encoding="utf-8") as fh:
-        rows = list(csv.DictReader(fh, delimiter="\t"))
+    with (ROOT / "sources" / "irish" / "test-words.csv").open(encoding="utf-8") as fh:
+        rows = list(csv.DictReader(fh))
     assert len(rows) == 144
     for r in rows:
         tokenize(r["ipa"], TABLE)  # must not raise

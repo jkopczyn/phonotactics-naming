@@ -1,8 +1,8 @@
-"""Build the PHOIBLE half of ``rules/features.tsv`` from the starter CSV (plan Task 1a).
+"""Build the PHOIBLE half of ``rules/features.csv`` from the starter CSV (plan Task 1a).
 
 Usage::
 
-    uv run python rules/build_features.py chat-imports/phoible_inventories_starter.csv rules/features.tsv
+    uv run python rules/build_features.py chat-imports/phoible_inventories_starter.csv rules/features.csv
 
 Normalization (plan I-34, spec §12.F): PHOIBLE's dental ``◌̪`` (U+032A) and retracted ``◌̠``
 (U+0320) diacritics are stripped so segment spellings agree with the digests. Where the stripped
@@ -16,6 +16,7 @@ Standard library only.
 from __future__ import annotations
 
 import csv
+import io
 import sys
 import unicodedata
 from pathlib import Path
@@ -135,35 +136,39 @@ def sort_rows(rows: list[list[str]]) -> list[list[str]]:
     return sorted(rows, key=lambda r: (r[1], r[0]))
 
 
-def read_tsv(path: Path) -> list[list[str]]:
+def read_csv(path: Path) -> list[list[str]]:
     with path.open(encoding="utf-8", newline="") as fh:
-        reader = csv.reader(fh, delimiter="\t")
+        reader = csv.reader(fh)
         header = next(reader)
         if header != HEADER:
             raise BuildError(f"{path}: unexpected header")
         return [row for row in reader if row]
 
 
-def write_tsv(rows: list[list[str]], out_path: Path) -> None:
-    lines = ["\t".join(HEADER)] + ["\t".join(r) for r in rows]
+def write_csv(rows: list[list[str]], out_path: Path) -> None:
+    buf = io.StringIO()
+    writer = csv.writer(buf, lineterminator="\n")
+    writer.writerow(HEADER)
+    writer.writerows(rows)
+    lines = buf.getvalue().splitlines()
     out_path.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
 
 
 def main(csv_path: Path, out_path: Path, *, sort_only: bool = False) -> None:
     """Build ``out_path``.
 
-    With ``sort_only=True``, ``csv_path`` is instead an existing ``features.tsv`` (PHOIBLE rows plus
+    With ``sort_only=True``, ``csv_path`` is instead an existing ``features.csv`` (PHOIBLE rows plus
     any hand rows) that is re-sorted into canonical order without re-importing PHOIBLE.
     """
-    rows = read_tsv(csv_path) if sort_only else import_phoible(csv_path)
+    rows = read_csv(csv_path) if sort_only else import_phoible(csv_path)
     if len({r[0] for r in rows}) != len(rows):
         raise BuildError("duplicate segments in output")
-    write_tsv(sort_rows(rows), out_path)
+    write_csv(sort_rows(rows), out_path)
 
 
 if __name__ == "__main__":
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     flags = {a for a in sys.argv[1:] if a.startswith("--")}
     if len(args) != 2 or flags - {"--sort-only"}:
-        sys.exit("usage: build_features.py [--sort-only] <phoible.csv | features.tsv> <features.tsv>")
+        sys.exit("usage: build_features.py [--sort-only] <phoible.csv | features.csv> <features.csv>")
     main(Path(args[0]), Path(args[1]), sort_only="--sort-only" in flags)

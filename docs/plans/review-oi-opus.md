@@ -45,7 +45,7 @@ concentrated in four places:
 
 **R1. Task 17's denominator is 54, not 74, and two of its tests will fail.**
 The harvest log's "74 direct hits" counts *all* lexicon statuses. Recomputed from
-`rules/old-irish-lexicon.tsv` and `sources/irish/test-words.tsv`:
+`rules/old-irish-lexicon.csv` and `sources/irish/test-words.csv`:
 
 | population | count |
 |---|---|
@@ -71,15 +71,15 @@ Other measured class sizes over the 54: quality-digraph 21, geminate 12, ch-th 9
 lenition-digraph 7, ua-ia 4, an-suffix 3, r-stem 1. The plan's parenthetical counts (~50, ~49, 51,
 47, 33) are whole-lexicon numbers and should be labelled as such.
 
-**R3. `rules/old-irish-lexicon.verification.tsv` does not exist.** The File structure block and
+**R3. `rules/old-irish-lexicon.verification.csv` does not exist.** The File structure block and
 O-24 both say it does ("EXISTS — the first (35-row) verification pass"). The first pass is recorded
 as a prose table in `rules/old-irish-lexicon-log.md` §"Sample verification". Task 3 is told to
-create `…verification2.tsv` with a header that has no `verification.tsv` to match. Fix the file
+create `…verification2.csv` with a header that has no `verification.csv` to match. Fix the file
 structure, and say whether Task 3 should also back-fill the first pass into a TSV.
 
 **R3a. Task 2's `check` rules make the committed lexicon red, contradicting Task 2's own test.**
 `test_the_committed_lexicon_has_no_errors` asserts zero `severity == "error"` findings on
-`rules/old-irish-lexicon.tsv` as committed. Under Task 2's own validation table it will produce, on
+`rules/old-irish-lexicon.csv` as committed. Under Task 2's own validation table it will produce, on
 today's file:
 
 | code | rows | why |
@@ -143,7 +143,7 @@ schwa, which the table cannot produce.
 (`ORTH_UNKNOWN_UNIT`) and makes `Checker.matching_segments` return `[]` for orth items, so
 `RULE_NEVER_MATCHES` cannot fire either. Combined with R10 below, `@orth("ai")` is dead code that
 nothing reports. Either make an unknown unit an error, or add a test that every `@orth` unit
-referenced by `old-irish.rules` is a unit of `rules/irish-orthography.tsv`.
+referenced by `old-irish.rules` is a unit of `rules/irish-orthography.csv`.
 
 ### C. Task 9, the retro-filter
 
@@ -208,7 +208,7 @@ the test locks the file into `%design` permanently. Make the test "every line ca
 **R18. Test fixtures drawn from non-lexicon or `none` rows.** `retro("waːd̪ˠ","bhád")` — *bád* is a
 `status = none` loan row; `retro("ɣaːɾˠd̪ˠaː","gharda")` — *garda* is not in the lexicon and the rule
 is an identity, so the assertion is vacuous; the two eclipsis tests use *páirc* (absent) and *bád*;
-`retro("sʲaːnˠ","Seán")` uses `sʲ`, which is not a `features.tsv` row (the segment is `ʃ`), on
+`retro("sʲaːnˠ","Seán")` uses `sʲ`, which is not a `features.csv` row (the segment is `ʃ`), on
 another `none` row. Spec §7 requires "each reversal rule against a lexicon pair". Replace with real
 pairs: ⟨bh⟩ *dubh ~ dub* / *sliabh ~ slíab*; ⟨gh⟩ *Lughaidh ~ Lugaid*; ⟨ao⟩ *aon ~ óen* /
 *caol ~ coíl*; the digraph class *bean ~ ben* / *dearg ~ derg*; ⟨ua ia⟩ *tuath ~ túath* /
@@ -387,7 +387,7 @@ behaviour (an unmapped slot is "no affix", so `DESC+ADJ` should equal `DESC`) an
 
 **R31. Task 19's formation block has no source of modern IPA.** It renders "the five attested
 example names… taken from the lexicon by their modern keys" — *Maol Coluim*, *Giolla Pádraig*,
-*Fear Diad*, *Dubh-dá-leithe*, *Cú Chulainn*. None of these is a row of `sources/irish/test-words.tsv`
+*Fear Diad*, *Dubh-dá-leithe*, *Cú Chulainn*. None of these is a row of `sources/irish/test-words.csv`
 (only *Colm* and *Pádraig* are), and `render_gallery` takes `Entry` objects with IPA. Say where the
 `Entry` comes from. Note also that all five *are* whole-name lexicon rows, so the lookup returns
 them `ATTESTED` as a unit and the formation template is never exercised — spec §7 wants the
@@ -462,7 +462,7 @@ conflict. State the full serialisation on that file.
   the log's split.
 - **S5. Inventory gaps, both citeable.** `/hʲ/` (digest §10.1: "may have been the same sound as /h/
   or /xʲ/") and the marginal short `/æ ~ œ/` (from u-infection of stressed /a/, "rampant in names in
-  the prefix *air-*" — i.e. name-relevant; both rows already exist in `features.tsv`).
+  the prefix *air-*" — i.e. name-relevant; both rows already exist in `features.csv`).
 - **S6. `w` is not an Old Irish phoneme.** Digest §10.1 has no /w/. Task 9 rewrites any survivor, so
   mark it `marginal:` rather than a full inventory member; its slender partner `vʲ` is in neither
   the inventory nor `SLEN`, an asymmetry `irish.rules` does not have.
@@ -503,7 +503,7 @@ conflict. State the full serialisation on that file.
 - **S17. `UNMARKED` is dead weight here.** In `irish.rules` it exists as the `[normalize]`
   quality-inference source and nothing else consumes it; `old-irish.rules` has no `[normalize]`.
   Harmless, but worth a comment.
-- **S18. `source` column convention.** Existing hand rows in `features.tsv` use `hand:irish`; Task 1
+- **S18. `source` column convention.** Existing hand rows in `features.csv` use `hand:irish`; Task 1
   specifies `hand: old-irish digest §10.1`. Prefer `hand:old-irish`, with the digest reference in
   `features.README.md` where Step 4 already puts it.
 - **S19. Add the cheap invariance regressions the log recommends** — the ⟨-án⟩ diminutive

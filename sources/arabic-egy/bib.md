@@ -29,7 +29,7 @@ DOI 10.4000/ema.1958. Online since 08 July 2008.
   segments EA lacks and what replaces them).
 - **Caveat, stated by the journal**: the online transcriptions, unlike the print original, do
   **not** mark emphatic consonants. Any emphatic in an example taken from this file is
-  unrecoverable and must be marked as such in `attested.tsv`. The article's own transcription
+  unrecoverable and must be marked as such in `attested.csv`. The article's own transcription
   key is in its Appendix ("symbols used").
 
 ### `kwpl-ot-cairene-loan`

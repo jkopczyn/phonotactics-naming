@@ -438,7 +438,7 @@ That is a finding, not an omission — say so in the rule file rather than inven
   choice to be made and labelled, not a rule this digest can supply.
 - **(design fallback) — epenthesize into the onset.** No Dutch source here attests it at all.
 - Attested change to an onset: `/ɡr/ → /xr/` in *grotte* → *grot* [xrɔt]; `/ɡ/ → /ɣ/` in *cigarette*
-  → *sigaret* [siːɣaːrɛt] [wold-dutch, `infra/wold-dutch-loanpairs.tsv`; van der Sijs's
+  → *sigaret* [siːɣaːrɛt] [wold-dutch, `infra/wold-dutch-loanpairs.csv`; van der Sijs's
   Netherlandic transcription — Belgian keeps /ɣ/ in both].
 
 ### 3.2 Illicit coda cluster
@@ -473,11 +473,11 @@ That is a finding, not an omission — say so in the rule file rather than inven
   Netherlands [devoic-jansen2021-schwa p.7, citing Sebregts 2014, Kloots et al. 2009].
 - **Historical loans show a schwa in the corresponding position**: French *ministre* → *minister*
   [miːnɪstər]; Latin *templum* → *tempel* [tɛmpəl]; Latin *fenestra* → *venster* [vɛnstər]
-  [wold-dutch, `infra/wold-dutch-loanpairs.tsv`, van der Sijs's Netherlandic transcription].
+  [wold-dutch, `infra/wold-dutch-loanpairs.csv`, van der Sijs's Netherlandic transcription].
   **Caveat: WOLD supplies the orthographic donor form and the Dutch IPA only — no donor
   pronunciation.** That these pairs arose by *synchronic* schwa epenthesis rather than by centuries
   of independent development is an **inference**, and the `epenthesis` tag on those rows in
-  `attested.tsv` is labelled accordingly.
+  `attested.csv` is labelled accordingly.
 - **English syllabic sonorants become /ə/+C**: *single* /ˈsɪŋɡl/ → [sɪŋɡəl]
   [loan-vandijk-toename p.26].
 
@@ -511,11 +511,11 @@ phrasal. If the strand needs it, mark it as a policy choice.
 | /θ/ | /t/ | *thinner* → *tinner* | [loan-posthumus1988-uitspraak §repertoire] |
 | /ð/ | /d/ | *the* → *de* | [loan-posthumus1988-uitspraak §aanpassingsrepertoire] |
 | /dʒ/ | /ʃ/ ("sj"), or /j/ in established words, or /ts/ finally | *jam* → *sjem*; *joker, jumbo, jumper* with /j/; *bridge* → *brits* | [loan-posthumus1988-uitspraak §c–d] |
-| /tʃ/ | /ʃ/ carefully, /s/ casually (final) | *match* → *mets*, *kitsch* → *kiets*; *lunch* → [lʏnʃ] | [loan-posthumus1988-uitspraak §c; wold-dutch, `infra/wold-dutch-loanpairs.tsv`] |
+| /tʃ/ | /ʃ/ carefully, /s/ casually (final) | *match* → *mets*, *kitsch* → *kiets*; *lunch* → [lʏnʃ] | [loan-posthumus1988-uitspraak §c; wold-dutch, `infra/wold-dutch-loanpairs.csv`] |
 | /ʃ/ | kept (loan phoneme) or → /s/ finally in casual style | *douche* → *does*, *finish* → *fienis* | [loan-posthumus1988-uitspraak §b] |
 | /ʒ/ | kept (loan phoneme); prescriptively → /ɣ/ | *gendarme, horloge* keep [ʒ]; *garage, bagage, intrige* with the g of *gaan* | [vandersijs1996-leenwoordenboek p.57; loan-mars1994-vreemde p.141 — prescriptive, not a measured rule] |
 | /æ/ | **/ɛ/** when the word is integrated; **retained [æ]** in unintegrated tokens — conditioned by integration score, not by phonology (see CONFLICT below) | integrated: *match* = *set*, *jackpot* → [dʒɛkpɔt], *slash* → [slɛʃ], *happy* → [hɛpi] (all score 3); retained: *jam* → [dʒæmə], *superman* → [ˈsuːpəmænɑχtɪɣ], *tax* → [sœykərtæks] | [loan-posthumus1988-uitspraak §aanpassingsrepertoire; loan-vandijk-toename pp.24–33] |
-| /ʌ/ | /ɑ/ **or** /ʏ/ — both attested, no conditioning stated (see CONFLICT below) | *fuck* → [fɑk], *fucking* → [ˈfɑkɪŋ]; *bubble* → [bʏblɪŋ], *multinationals* → [mʏlti-], *lunch* → [lʏnʃ], *bus* → [bʏs] | [loan-vandijk-toename pp.25,27,29; wold-dutch, `infra/wold-dutch-loanpairs.tsv`] |
+| /ʌ/ | /ɑ/ **or** /ʏ/ — both attested, no conditioning stated (see CONFLICT below) | *fuck* → [fɑk], *fucking* → [ˈfɑkɪŋ]; *bubble* → [bʏblɪŋ], *multinationals* → [mʏlti-], *lunch* → [lʏnʃ], *bus* → [bʏs] | [loan-vandijk-toename pp.25,27,29; wold-dutch, `infra/wold-dutch-loanpairs.csv`] |
 | /eɪ/ | **/eː/** (Belgian monophthong) | *tape* → [tep], *fake* → [fekə], *race* → [res] | [loan-vandijk-toename pp.24,32] |
 | /oʊ/ | **/oː/** | *show* → [ʃo], *download* → [lodə] | [loan-vandijk-toename pp.24,25] |
 | /iː uː/ | shortened to /i u/ | *groupies* → [ɡrupiz], *issue* → [ɪʃu] | [loan-vandijk-toename pp.26,31] |
@@ -564,7 +564,7 @@ they do not, the decision is flagged rather than made.
   (*miljard* [mɪljɑrt] → *miljardair* [mɪljɑrdɛːr]); consonant-initial suffixes plus *-aardig*,
   *-achtig* do (*hond* [hɔnt] → *hondje* [hɔntjə]) [taalportaal-final-devoicing §The influence of suffixes, Tables 2–3].
   In loans: *headset* → [hɛːtsɛt] [loan-vandijk-toename p.27]; *rose* → *roos* [roːs]
-  [wold-dutch, `infra/wold-dutch-loanpairs.tsv`]; and **English final voiced obstruents are devoiced
+  [wold-dutch, `infra/wold-dutch-loanpairs.csv`]; and **English final voiced obstruents are devoiced
   with the vowel held long**: *cruise* → [kruːs], contrasting native *kroes*
   [loan-posthumus1988-uitspraak §aanpassingsrepertoire]. Counter-case to keep in view: *groupies* is
   transcribed [ɡrupiz] with a voiced final [loan-vandijk-toename p.26], so unassimilated (score-2/3)
@@ -604,7 +604,7 @@ they do not, the decision is flagged rather than made.
   and where the two §2 restrictions apply, the coda decides the class. Evidence *for*: French /a/ in
   *calme, palme* surfaces as Dutch **lax** /ɑ/ before the non-coronal cluster — *kalm* [kɑlm],
   *palm* [pɑlm] — exactly what `*[Vː]CC[-cor]` predicts [wold-dutch,
-  `infra/wold-dutch-loanpairs.tsv`; kager-pater2012 p.6]. Evidence *against* a categorical rule:
+  `infra/wold-dutch-loanpairs.csv`; kager-pater2012 p.6]. Evidence *against* a categorical rule:
   these are medieval loans and WOLD gives no donor pronunciation, so the mechanism is inferred; and
   the modern data show competing outcomes for the *same* word class (*team, pool, keeper* have both
   long-loan-vowel and short-native-vowel pronunciations [loan-posthumus1988-uitspraak §e–f];
@@ -616,8 +616,8 @@ they do not, the decision is flagged rather than made.
   long-loan-vowel and short-native-vowel pronunciations [loan-posthumus1988-uitspraak §e–f].
 - Unstressed reduced vowels in the donor are typically **restored from spelling**, not kept as schwa
   (§3.4).
-- French final /e/ can be reinterpreted as the diphthong /ɛi/: *vallée* → *vallei* [vɑlɛi] [wold-dutch, `infra/wold-dutch-loanpairs.tsv`; process inferred].
-- Hiatus in the donor gets a glide: *maíz* → *maïs* [mɑjs] [wold-dutch, `infra/wold-dutch-loanpairs.tsv`; process inferred —
+- French final /e/ can be reinterpreted as the diphthong /ɛi/: *vallée* → *vallei* [vɑlɛi] [wold-dutch, `infra/wold-dutch-loanpairs.csv`; process inferred].
+- Hiatus in the donor gets a glide: *maíz* → *maïs* [mɑjs] [wold-dutch, `infra/wold-dutch-loanpairs.csv`; process inferred —
   WOLD gives no Spanish pronunciation].
 
 ### 3.7 Anything else
@@ -837,7 +837,7 @@ describes Dutch patronymic or surname formation; do not invent it from general k
 
 ## 7. Attested adaptations
 
-See `attested.tsv` in this directory — **90 data rows** (plus header).
+See `attested.csv` in this directory — **90 data rows** (plus header).
 
 Provenance mix:
 - **31 rows, English → Dutch, both sides in IPA**, transcribed off Dutch television
@@ -849,7 +849,7 @@ Provenance mix:
   stress-marked form is carried in `note`. These are the stress rows.
 - **20 rows from WOLD** (van der Sijs's Dutch vocabulary) — donor orthography + Dutch IPA. NB
   **bib.md and the task brief describe WOLD as orthography-only; the extracted
-  `infra/wold-dutch-loanpairs.tsv` in fact carries a segmented Dutch IPA column**, so these rows
+  `infra/wold-dutch-loanpairs.csv` in fact carries a segmented Dutch IPA column**, so these rows
   have `target_ipa` filled. The transcription is **Netherlandic** (`ʋ`, `ɛi ɑu`, positional `ɣ/x`);
   apply the §0 normalization layer before using it. Donor side has **no IPA anywhere in WOLD**, so
   `source_ipa` is blank — and consequently **every `process` tag on a WOLD row is an inference from

@@ -58,8 +58,8 @@
 
 ### §3 rules lacking a proper instantiation
 
-- **Donor `/ð/ → z` (learned) or `/d/` (inherited)** has only inherited/learned Arabic historical examples in the prose and no non-Arabic loan row in `attested.tsv`. It should not masquerade as a demonstrated foreign-loan mapping.
-- **Donor `/q/ → ʔ ~ k`** has no `attested.tsv` row.
+- **Donor `/ð/ → z` (learned) or `/d/` (inherited)** has only inherited/learned Arabic historical examples in the prose and no non-Arabic loan row in `attested.csv`. It should not masquerade as a demonstrated foreign-loan mapping.
+- **Donor `/q/ → ʔ ~ k`** has no `attested.csv` row.
 - **`/g/ → g normally`** has no explicitly cited source→target identity example in the substitution row; only exceptional `/g/ → ɣ~ʁ` is instantiated.
 - **Three-member donor coda repair** is instantiated only by Khalifa's predicted L2 forms `strengith, tempits`, not observed Cairene loans. The digest flags this correctly, but a rule file must keep it at prediction-level confidence.
 - All central epenthesis rules do have real lexical-loan instantiations: internal onset epenthesis (`firizar`, `bilastik`), /s/+stop prothesis (`ʔiskii`, `ʔistadi`, `ʔistub`), combined sCC repair (`ʔistiriit` in Broselow 2015), and medial C2–C3 repair (`bankinut`, `ʃarkiskiin`, `bustiman`).
@@ -70,9 +70,9 @@ I checked 23 rows directly against the cited pages/PDF tables: Galal rows 233–
 
 - **Galal rows 233–252: VERIFIED against PDF pp.2–3.** The table forms and the notes about position/quality match. This PDF check is necessary because OCR mangles `ʔ, ʃ, tʃ` and several vowels.
 - **Broselow rows 253–260: VERIFIED.** In particular, row 259 preserves both `[p]` and `[ŋ]` in printed `[ʔispiriŋ]`, and row 260's three repairs are explicitly discussed in p.298 n.5.
-- **Rows 261–262 are not Egyptian Arabic data.** The source labels `birek` ‘break’ and `ʔiskaib` ‘Skype’ as **Makkan Arabic** [broselow-position-quality p.295]. Their notes admit this, but they do not belong in Egyptian `attested.tsv`; remove them or move them to a comparison file. This also changes §7's “10 rows from Broselow's Cairene English-loan list” to eight Cairene rows plus two Makkan controls.
+- **Rows 261–262 are not Egyptian Arabic data.** The source labels `birek` ‘break’ and `ʔiskaib` ‘Skype’ as **Makkan Arabic** [broselow-position-quality p.295]. Their notes admit this, but they do not belong in Egyptian `attested.csv`; remove them or move them to a comparison file. This also changes §7's “10 rows from Broselow's Cairene English-loan list” to eight Cairene rows plus two Makkan controls.
 - **Row 263 is under-provenanced for this target.** Broselow says only “vowel-initial words borrowed into Arabic” and gives `[ʔotobiis]`; she does not identify the dialect there [broselow-arabic-syll p.2]. The identical Cairene Hafez row already exists (row 132), so either add `ema1958 §28` to the provenance/note or drop the duplicate general-Arabic row.
-- **Khalifa rows 277–287: correctly tagged as predicted errors.** The forms are starred and prospective, not observed. However, their presence in `attested.tsv` conflicts with the filename/format's “attested adaptation” meaning. At minimum add a machine-filterable provenance/status field or move them to a separate predicted fixture; free-text notes are too easy for a rule learner to ignore.
+- **Khalifa rows 277–287: correctly tagged as predicted errors.** The forms are starred and prospective, not observed. However, their presence in `attested.csv` conflicts with the filename/format's “attested adaptation” meaning. At minimum add a machine-filterable provenance/status field or move them to a separate predicted fixture; free-text notes are too easy for a rule learner to ignore.
 - **Row 297 is wrong.** It records `bṛaavo /bɾˤaːvo/`; both cited Abdel-Massih pages print plain `/braavo/`, with no dot under `r` [abdelmassih-intro p.26 PDF; abdelmassih-v3 p.42]. The digest itself correctly says `braavo` is not a loan-emphasis case.
 - **Rows 312–314 are VERIFIED against the PDF images:** `lukanḍa`, `ṣaloon`, `tiṛamwaay` have the claimed emphatic consonants.
 - **Format defect:** all 28 Abdel-Massih-derived `target_ipa` cells include literal slash delimiters (`/paˈɾiːs/`, etc.), unlike the rest of the TSV and unlike the format specification. Strip delimiters before machine use.
@@ -80,7 +80,7 @@ I checked 23 rows directly against the cited pages/PDF tables: Galal rows 233–
 ## 4. Internal contradictions and missing CONFLICT lines
 
 1. **Direct contradiction: final devoicing.** §1 says Abdel-Massih reports utterance-final devoicing of `/r l/` after voiceless obstruents. §3.7 then says “No final devoicing is reported by any source.” The intended claim is evidently **no final obstruent devoicing**. Rewrite it that way; otherwise §3.7 contradicts §1 and §8.3.
-2. **Direct contradiction: `braavo`.** Digest §8 correctly says Abdel-Massih prints plain `braavo`; `attested.tsv` row 297 says emphatic `bṛaavo`. Fix the TSV row.
+2. **Direct contradiction: `braavo`.** Digest §8 correctly says Abdel-Massih prints plain `braavo`; `attested.csv` row 297 says emphatic `bṛaavo`. Fix the TSV row.
 3. **Evidence conflict hidden by categorical wording: donor length.** §3.8/§4 claim donor length is erased, while §7 says donor pronunciation is absent in every row. The held data can establish Cairene stress assignment and native shortening, not categorical source-quantity noninheritance. This needs an explicit `not covered`/open-question line.
 4. **Target-inventory decision not surfaced as a CONFLICT: `/ŋ/`.** §1 calls it nonphonemic/allophonic, while §3.6 and §8.3 recommend retaining loan `[ŋ]`. Broselow provides one printed retained loan, but the digest never decides whether the rule file's output inventory admits marginal `/ŋ/` or rewrites it to an `/n/`+/g/ sequence. Record this as a register/inventory conflict like `/p v ʒ tʃ/`.
 5. **Initial-cluster generalization is broader than its own open questions.** §3.1 announces a complete sonority-conditioned algorithm; §8.5/§9 later admit `/sm sn sr kn gn mn/` are unresolved. The headline rule should be narrowed to attested classes: obstruent+liquid/glide examples versus /s/+stop, with the remaining classes explicitly outside its domain.
@@ -96,14 +96,14 @@ I checked 23 rows directly against the cited pages/PDF tables: Galal rows 233–
 - **Correct the emphasis evidence before broad→emphatic design work.** Add Broselow's other possible `/mˤ/` examples; correct `braavo`; retain the three PDF-verified loan-emphasis cases. Exact Hafez diacritics remain unavailable, so do not use absence of emphasis in Hafez-derived TSV IPA as negative evidence.
 - **Specify the `/ŋ/` output representation.** “Retain /ŋ/” is supported by one Broselow transcription, but conflicts with the core inventory. Decide whether it is a marginal admitted segment or an orthographic `ng` sequence.
 - **For long generated forms, label the parity stress rule's status.** It is based on Cairene pronunciation of Classical Arabic because long all-light strings are unattested in native Cairene. It is still the best available extension, but should not be presented as directly observed native lexical phonotactics.
-- **Parser hygiene:** strip slash delimiters from 28 Abdel-Massih IPA cells, and make observed/predicted/comparison status machine-readable before using `attested.tsv` as tests.
+- **Parser hygiene:** strip slash delimiters from 28 Abdel-Massih IPA cells, and make observed/predicted/comparison status machine-readable before using `attested.csv` as tests.
 
 ## 6. Verdict
 
 ### Required fixes before use
 
 1. Retract or qualify the categorical claim that donor vowel length is not inherited; mark Irish quantity mapping unresolved.
-2. Correct `attested.tsv` row 297 from emphatic `bṛaavo` to plain `braavo`, remove the two Makkan rows, and segregate/filter the eleven Khalifa predictions.
+2. Correct `attested.csv` row 297 from emphatic `bṛaavo` to plain `braavo`, remove the two Makkan rows, and segregate/filter the eleven Khalifa predictions.
 3. Change “no final devoicing” to “no final **obstruent** devoicing.”
 4. Restrict the onset algorithm to attested cluster classes; mark `/sr/` (as well as `/sm sn kn gn mn/`) unresolved.
 5. Correct the `/mˤ/` summary: Broselow gives three possible exception sets, not only `mayya`.

@@ -30,7 +30,7 @@ appendix-narrowed = design: digest §2 line 158
 # (§2 line 166). /h/ = Verhoeven's ɦ (§0 line 34).
 p b t d k f v s z x ɣ h m n ŋ r l ʋ j
 # (c) (ɲ) from diminutives / loans, (ʃ) (ʒ) (g) loan phonemes, (ʔ) the vowel attack
-# [verhoeven2005 pp.244–245, digest §1 lines 83–90]; ɱ ʎ ʀ have no features.tsv row. `w` is the
+# [verhoeven2005 pp.244–245, digest §1 lines 83–90]; ɱ ʎ ʀ have no features.csv row. `w` is the
 # foreign [w] of the loan onsets *pointe, etui, voile, moiré, nuit, bavarois* (§2 lines 184–187),
 # distinct from native ʋ (the two-labial ban *pʋ, line 196); Irish /w/ maps to ʋ, never here.
 # `ts` `tʃ` are the loan onsets of *tsaar*, *chip* (§2 line 184) and the coda of *muts* (line 262),
@@ -41,12 +41,12 @@ i ɪ eː ɛ ɑ aː ɔ oː u ʏ yː øː ə
 # Members of the diphthongs ɛi œy ɔu (I-2: two segments, one nucleus — see [syllable] nuclei);
 # /y/ also stands alone in learned loans (*communie* [kɔ.ˈmy.ni], §3.4 line 522).
 œ y
-# Delta 2 — the loan vowels /ɛː ɔː/ (§1 line 116; /œː/ has no features.tsv row)
+# Delta 2 — the loan vowels /ɛː ɔː/ (§1 line 116; /œː/ has no features.csv row)
 marginal: ɛː ɔː
 # The French nasal of *parfum* [pɑrfœ̃]: Belgian/southern speakers keep it (95%) where the
-# Netherlandic norm adapts to [ʏm] (§3.4 line 523 [nagy2008-frans §3.2.1]; attested.tsv row *parfum*).
+# Netherlandic norm adapts to [ʏm] (§3.4 line 523 [nagy2008-frans §3.2.1]; attested.csv row *parfum*).
 marginal: œ̃
-# TRANSCRIPTION VARIANTS, not Belgian phonemes: the Netherlandic sources behind attested.tsv
+# TRANSCRIPTION VARIANTS, not Belgian phonemes: the Netherlandic sources behind attested.csv
 # write the A-class vowels /aː eː oː/ as `a e o` and WOLD writes /i u/ as `iː uː` (digest §0
 # lines 30–31, the normalization layer). The harness (I-25 Mode C) checks attested rows against
 # this inventory without applying that layer, so the variants are admitted here as marginals
@@ -134,7 +134,7 @@ o -> ɔ                                  %design   # design (explicit vowel mapp
 æ -> ɛ                                  %design   # design: digest §3.4 line 539 — "for a fully nativizing strand, /æ/ → /ɛ/. Not decided here"
 e ɪ -> eː                               %attested # digest §3.4 line 519 [loan-vandijk-toename pp.24,32] English /eɪ/ → Belgian /eː/ (*tape* [tep])
 o ʊ -> oː                               %attested # digest §3.4 line 520 [loan-vandijk-toename pp.24,25] English /oʊ/ → /oː/ (*show* [ʃo])
-e -> ɛ                                  %attested # digest §7 attested.tsv *sexy* [sɛksi], *checken* [tʃɛkə] [loan-vandijk-toename pp.26,33]: English /e/ → /ɛ/
+e -> ɛ                                  %attested # digest §7 attested.csv *sexy* [sɛksi], *checken* [tʃɛkə] [loan-vandijk-toename pp.26,33]: English /e/ → /ɛ/
 # /ə/ → /ə/ is a no-op: direct (digest §8.3 line 949, %attested), subject to Dutch's own schwa
 # restrictions (never stressed — see [stress]).
 # ---- Irish diphthongs (I-2: two segments; Dutch licenses none of them as nuclei)
@@ -203,7 +203,7 @@ bans = [V +long] ŋ
 NAS -> 0 / # _ [C +consonantal +sonorant] %design   # design: digest §3.1 line 435 open; §8.4 line 1010 ("delete a member … not settled by these sources")
 # ---- hiatus resolution (digest §2 lines 368–381) [taalportaal-hiatus-resolution §readmore ex.2]:
 #      a transitional glide agreeing with the first vowel, which is always A-class; none after /a/
-#      or schwa (case 4). Case 3 ([ɥ] after /œy/) has no features.tsv row. Applying the rule to
+#      or schwa (case 4). Case 3 ([ɥ] after /œy/) has no features.csv row. Applying the rule to
 #      Irish input (*Eoghan* /oːə/) is the digest's route (i) for hiatus, line 979–985 — design.
 0 -> j / {i eː} _ V                     %design   # design: digest §2 line 373 case 1 (*hiaat* [hijat]); §8.3 line 985 "applying it to Irish input is not [sourced]"
 0 -> ʋ / {u oː} _ V                     %design   # design: digest §2 line 375 case 2 (*Ruanda* [ruʋanda]); §8.3 line 985

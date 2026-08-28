@@ -28,7 +28,7 @@ def cl(ipa: str) -> tuple[str, ...]:
 
 # The 32 of table (53) minus `zg` / `žg` (S8: "almost unattested", `zg` marked impossible in
 # table (62) p.110). Her notation -> IPA per §2.0: t = tʰ, p = pʰ, k = kʰ, c = ts (the chart's
-# spelling, features.tsv has no tsʰ row), č = tʃʰ, j = dz, ǰ = dʒ, γ = ɣ, χ' = qʼ.
+# spelling, features.csv has no tsʰ row), č = tʃʰ, j = dz, ǰ = dʒ, γ = ɣ, χ' = qʼ.
 HARMONIC = [
     "bɡ",
     "dɡ",
@@ -225,7 +225,7 @@ def test_attested_loan_interludes_parse():
 # ---- I-27 repair table — Georgian's only attested repair is degemination (review-opus §F) ------
 # Geminates are repeated segments, never `ː` (I-2).
 GEORGIAN_REPAIRS = [
-    ("tʼvitʼtʼɛri", "tʼvitʼɛri", "digest §3.6 line 989 (Twitter, attested.tsv row 4)"),
+    ("tʼvitʼtʼɛri", "tʼvitʼɛri", "digest §3.6 line 989 (Twitter, attested.csv row 4)"),
     ("pʼazzli", "pʼazli", "digest line 948/989/1006 (puzzle, row 16)"),
     ("ʃɔpʼpʼinɡi", "ʃɔpʼinɡi", "digest line 879/989 (shopping, row 18)"),
     ("alɛɡɡoria", "alɛɡoria", "digest line 992 (native)"),

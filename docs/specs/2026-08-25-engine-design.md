@@ -28,10 +28,10 @@ Repo layout:
   pyproject.toml
   src/strands/            # the engine
   rules/
-    features.tsv          # segment → PHOIBLE-style features (all languages)
+    features.csv          # segment → PHOIBLE-style features (all languages)
     irish.rules           # pre-pass: templates, mutation tables, normalization
     welsh.rules  arabic-egy.rules  georgian.rules  dutch.rules
-  tests/                  # pytest; fixtures point at sources/*/attested.tsv, irish/test-words.tsv
+  tests/                  # pytest; fixtures point at sources/*/attested.csv, irish/test-words.csv
   docs/specs/             # this file
   sources/  notes/  chat-imports/   # existing
 ```
@@ -40,7 +40,7 @@ Repo layout:
 
 **Segment**: an IPA string — base symbol plus diacritics — treated as an opaque token
 (`tʲ`, `t̪ˠ`, `tʼ`, `sˤ`, `aː`). Tokenization is longest-match against the segment list in
-`features.tsv`; an input containing a segment not in the table is a hard error naming the
+`features.csv`; an input containing a segment not in the table is a hard error naming the
 word and the offending substring.
 
 **Word**: a list of segments plus parallel annotations: syllable boundaries, stress
@@ -48,7 +48,7 @@ word and the offending substring.
 "illegal" mark set by syllabification. Words carry a trace: an ordered list of
 `(stage, rule_id, rule_tag, before, after)`.
 
-**Feature table** (`rules/features.tsv`): one row per segment, columns = PHOIBLE's 38 features
+**Feature table** (`rules/features.csv`): one row per segment, columns = PHOIBLE's 38 features
 with values `+`, `-`, `0` (undefined). The four target inventories are copied from
 `chat-imports/phoible_inventories_starter.csv`. Irish segments and all diacritic segments are
 added by hand with these conventions: slender = `+front -back` on the consonant, broad =
@@ -172,10 +172,10 @@ tool's guesses; `strands lint --accept` writes the guesses into the TSV.
 ## 6. CLI
 
 ```
-strands run   INPUT.tsv [--strand welsh|arabic-egy|georgian|dutch|all] [--construction NAME|all] [--out out.tsv]
+strands run   INPUT.csv [--strand welsh|arabic-egy|georgian|dutch|all] [--construction NAME|all] [--out out.csv]
 strands explain WORD --strand X [--construction NAME]     # derivation trace with rule tags + citations
-strands gallery INPUT.tsv [--out gallery.md]              # words × constructions × strands, Markdown
-strands lint  INPUT.tsv [--accept]
+strands gallery INPUT.csv [--out gallery.md]              # words × constructions × strands, Markdown
+strands lint  INPUT.csv [--accept]
 strands check RULES.rules                                  # parse + static checks (undefined segments/classes)
 ```
 
@@ -222,14 +222,14 @@ Every rule line in a target file carries a `# [key p.N]` citation to its digest 
 Test-first at every milestone (`pytest`). Layers:
 1. **Parser**: every DSL construct round-trips; malformed lines raise with line numbers.
 2. **Stage unit tests**: mutation tables against `sources/irish/digest.md §3` exemplar triads
-   and all 144 `test-words.tsv` rows tagged for mutations; syllabifier against each target's
+   and all 144 `test-words.csv` rows tagged for mutations; syllabifier against each target's
    lists (positive and negative cases); each repair rule against the attested rows that
    instantiate it; each stress procedure against the digests' worked tables (Cairene 17 rows,
    Dutch examples, Welsh length tree, Georgian initial).
 3. **Regression against attested data**: for each target, run the attested *source* forms
    (where source IPA exists) through stages 2–7 and compare to attested target IPA; report
    pass rate per target, assert it does not decrease (ratchet file committed with the tests).
-4. **Gallery snapshot**: `strands gallery` over `test-words.tsv` committed as a snapshot;
+4. **Gallery snapshot**: `strands gallery` over `test-words.csv` committed as a snapshot;
    changes must be intentional (diff reviewed in commit).
 5. **Property checks**: determinism (run twice, identical); every output segment in the
    target inventory; no `UNREPAIRED` on the 144-word set for any strand unless listed in an
@@ -309,7 +309,7 @@ is a nucleus.
 - Class names and `#`/`$` are allowed in TARGET only via captures (a class item must be
   captured to be reproduced); REPLACEMENT contains only literal segments, `0`, backreferences
   and a single feature-change bundle.
-- Feature aliases: `features.tsv` header may declare aliases (`ejective = raisedLarynxEjective`,
+- Feature aliases: `features.csv` header may declare aliases (`ejective = raisedLarynxEjective`,
   `voice = periodicGlottalSource`, `long = long`, `emphatic = retractedTongueRoot`); bundles
   may use either name. Predeclared classes additionally include `LIQ`, `NAS`, `STOP`, `FRIC`,
   `GLIDE`, derived from features at load time.
@@ -348,7 +348,7 @@ the span falls through to `cluster-fallback`. Provenance comes from `Word.origin
 never undone.
 
 **F. Segment spelling canon.** Canonical segment spellings are the digests' (`sˤ tʼ tʃ dʒ`,
-plain `g`), not PHOIBLE's (`s̪ˤ t̪ʼ t̠ʃ d̠ʒ ɡ`). `features.tsv` is built with a normalization
+plain `g`), not PHOIBLE's (`s̪ˤ t̪ʼ t̠ʃ d̠ʒ ɡ`). `features.csv` is built with a normalization
 map from PHOIBLE spellings; the tokenizer accepts an alias table (ASCII `g`→`ɡ` is *not*
 applied — `g` is canonical; `:`→`ː`, `'`→`ʼ` in ejective context, bracket stripping) for
 reading attested data, and regression harnesses report untokenizable rows as skipped with

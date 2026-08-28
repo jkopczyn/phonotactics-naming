@@ -21,7 +21,7 @@ Not used, and why:
   phonetics, and §6 was fully covered by `wiki-ka-grammar`.
 - `linguo-cultural-pragmatic-loanwords` (Kirvalidze 2017) and `problems-regulating-english-loanwords`
   (Asaturova & Garibashvili) turned out to be **more useful than bib.md predicted**, and are cited
-  in §3 and used for 6 rows of `attested.tsv`. Kirvalidze independently transcribes the ფ of loans
+  in §3 and used for 6 rows of `attested.csv`. Kirvalidze independently transcribes the ფ of loans
   as `[p]` (*flirti* [plɪrtɪ], *fantastiuri* [pantastiurɪ]), which is the strongest corroboration
   of /f/ → /pʰ/ outside `gabunia2021`; and she gives the same transphonemization typology and the
   same Russian-mediation examples, from the same source lineage. Asaturova & Garibashvili state no
@@ -66,7 +66,7 @@ Not used, and why:
 7. **`shosted-chikovani2006.txt` is in SIL IPA93 legacy encoding**, not Unicode: `Ó`=ʰ, `|`=ɾ,
    `A`=ɑ, `E`=ɛ, `O`=ɔ, `S`=ʃ, `Z`=ʒ, `G`=ɣ, `X`=χ, `/`=ʔ, `F`=ɸ. Readable once you know, but
    `grep` for IPA characters will find nothing.
-8. **`ka-wiki-name-transliterations.tsv` contains more translation rows than bib.md's two
+8. **`ka-wiki-name-transliterations.csv` contains more translation rows than bib.md's two
    examples suggest.** Discarded as translations or native-form substitutions rather than
    transliterations: Alexander the Great, Charlemagne, Christmas, Denmark (*dania*), England
    (*inglisi*), France (*sakartvelo*-pattern *sapranget-i*), Germany, Iceland, Ireland,
@@ -125,7 +125,7 @@ Not used, and why:
    /ɡv-/ and /m-/ are counted. Nobody in the source set acknowledges anybody else's figure.
 6. **Syllabic sonorants: Butskhrikidze yes, Crouch flatly no** (§2.11). Both are recent and both
    argue from data. Left as `CONFLICT:`.
-7. **`target_ipa` in `attested.tsv` for the `ka-wiki-title` rows is derived, not quoted.** The
+7. **`target_ipa` in `attested.csv` for the `ka-wiki-title` rows is derived, not quoted.** The
    source (Georgian Wikipedia article titles) gives Mkhedruli only. The IPA column was produced by
    mechanical letter-by-letter transliteration, which is defensible because Georgian orthography
    is stated to be one-to-one with the phoneme inventory [shosted2006 p.255] — but it is a
@@ -240,10 +240,10 @@ stated letter→IPA table (now printed in §7), and the table's კ/ქ distinct
 | §5 five-name assessment | §5.2 replaced by a **literal parse** table whose verdict is that **none of the five is readable** under the national system, listing the exact non-national conventions each needs; the backwards *Kas'queil* and *Th'tysh* analyses are withdrawn and the standard's consonant-then-apostrophe direction is restated; `tch` ≈ `t'ch` equivalence withdrawn; `aeu` requalified as violating *native monomorphemic* phonotactics only, per §2.9; §5.3 relabels D1–D4 a **project overlay on the national base**, with D5 noting that following the standard respells *Kas'queil* → *Kasq'ueil*; an honest "poor matches" summary added |
 | /h/ and *Stockholm* | §8.2's "delete elsewhere" **withdrawn**; new `CONFLICT:` — *Stockholm* /stʼɔkʼhɔlmi/ and *Beethoven* /bɛtʰhɔvɛni/ both put /h/ in a cluster, while the one deletion (*Tehran*) is intervocalic, i.e. the position the native rule allows, so the old rule was backwards relative to its own data. Marked unresolved; §9 gains an entry |
 | `/st/` | §8.4 no longer calls it cluster repair: the cluster is retained and only the stop series changes, so it belongs to the §3.1 rule and must not be encoded separately; "single most reliable repair" withdrawn; *casting* → კასტინგი noted as a counterexample |
-| attested.tsv — Gabunia | 24 Appendix-B rows now say in `provenance` that `target_ipa` is as printed but the **Mkhedruli `target_form` is DERIVED** (Appendix B gives IPA only) |
-| attested.tsv — donor language | `source_lang` on all 88 wiki rows changed `eng` → **`und`**; provenance now reads "en.wikipedia article title = editorial source string, NOT a known historical donor form; mediation unknown/mixed"; asserted routes in notes softened to "(route inferred)" |
-| attested.tsv — IPA defects | *O'Connor*'s ASCII apostrophe → word boundary; three hyphens → boundaries; all 88 re-derived from the stated table |
-| attested.tsv — nominative -i | All 63 rows tagged `epenthesis` now begin their `note` with "nominative -i = morphological case suffix, NOT phonological epenthesis". The tag itself is kept for schema compliance (`ATTESTED-FORMAT.md` has no morphological tag) and §7 gains a numbered disclosure warning that **no row in the file instantiates phonological epenthesis** |
+| attested.csv — Gabunia | 24 Appendix-B rows now say in `provenance` that `target_ipa` is as printed but the **Mkhedruli `target_form` is DERIVED** (Appendix B gives IPA only) |
+| attested.csv — donor language | `source_lang` on all 88 wiki rows changed `eng` → **`und`**; provenance now reads "en.wikipedia article title = editorial source string, NOT a known historical donor form; mediation unknown/mixed"; asserted routes in notes softened to "(route inferred)" |
+| attested.csv — IPA defects | *O'Connor*'s ASCII apostrophe → word boundary; three hyphens → boundaries; all 88 re-derived from the stated table |
+| attested.csv — nominative -i | All 63 rows tagged `epenthesis` now begin their `note` with "nominative -i = morphological case suffix, NOT phonological epenthesis". The tag itself is kept for schema compliance (`ATTESTED-FORMAT.md` has no morphological tag) and §7 gains a numbered disclosure warning that **no row in the file instantiates phonological epenthesis** |
 | Overlays and OPEN DECISIONs | §9 gains a summary table listing all nine — bare-stem output, `y`=/i/, `x`/`tch`, positional /w/, Irish diphthongs, /ə/, palatalization options A–D, ejective default, word-level harmony — each with its evidential status. Individually tagged in place: §3.1, §3.3, §8.1, §8.2, §8.3, §8.6, §5.3 |
 | Under-cited inferences | `(unattested)` added to the positional /w/ rule, the Irish diphthong mappings, /æ/→/ɛ~ɑ/, /ʌ/→/ɑ/, and the /ə/ fallback; /ð/ → /t d z/ flagged as prose-only with no example anywhere in the source set |
 | §6.1 bare stem | "*k'ats-* is as much a Georgian word-form as *k'atsi*" **withdrawn** — a bare stem is a bound form; what the source licenses is the weaker point that the stem's segmental material is well-formed Georgian. The -i rule's scope narrowed to "the right edge of the inflected nominal", and a new `CONFLICT:` records that no source explains why native consonant-final personal names (Davit, Tamar) escape it |

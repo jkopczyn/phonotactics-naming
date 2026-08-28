@@ -1,4 +1,4 @@
-"""Task 1 (Old Irish plan): the lenited series in features.tsv (digest §10.1; O-1, O-2, R26)."""
+"""Task 1 (Old Irish plan): the lenited series in features.csv (digest §10.1; O-1, O-2, R26)."""
 
 import csv
 
@@ -10,11 +10,11 @@ from strands.tokenize import tokenize
 
 
 def rows():
-    with (ROOT / "rules" / "features.tsv").open(encoding="utf-8") as fh:
-        return list(csv.DictReader(fh, delimiter="\t"))
+    with (ROOT / "rules" / "features.csv").open(encoding="utf-8") as fh:
+        return list(csv.DictReader(fh))
 
 
-TABLE = load_features(ROOT / "rules" / "features.tsv")
+TABLE = load_features(ROOT / "rules" / "features.csv")
 OLD_IRISH_ROWS = ("β", "βʲ", "β̃", "β̃ʲ", "θʲ", "ðʲ", "ɣʲ")
 
 

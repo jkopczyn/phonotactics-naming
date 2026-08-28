@@ -19,7 +19,7 @@ w vʲ ɣ j
 mˠ mʲ n̪ˠ nʲ ŋ ɲ
 l̪ˠ lʲ ɾˠ ɾʲ
 # [vˠ] is the Connacht non-initial allophone of /w/ (digest §1.1 [wiki-irish-phonology
-# §Allophones]); test-words.tsv transcribes it (*Niamh* /nʲiəvˠ/), so it is accepted here.
+# §Allophones]); test-words.csv transcribes it (*Niamh* /nʲiəvˠ/), so it is accepted here.
 marginal: vˠ
 # digest §1.2 — Connacht/Munster monophthongs [wiki-irish-phonology §Vowels]; the diphthongs
 # iə uə əi əu are two segments each (I-2) and are licensed as nuclei in [syllable] later.
@@ -33,7 +33,7 @@ marginal: i u
 # I-41 / spec §12.J: broad and slender are DECLARED classes, never [C ±back] bundles.
 BROAD = pˠ bˠ t̪ˠ d̪ˠ fˠ sˠ w vˠ mˠ n̪ˠ l̪ˠ ɾˠ k ɡ x ɣ ŋ
 SLEN  = pʲ bʲ tʲ dʲ fʲ ʃ vʲ mʲ nʲ lʲ ɾʲ c ɟ ç j ɲ
-# Quality-less plain consonants (front/back = 0 in features.tsv) that [normalize] assigns a
+# Quality-less plain consonants (front/back = 0 in features.csv) that [normalize] assigns a
 # quality to (I-41 / spec §12.J). Every member must be the target of a [normalize] line in
 # both environments (_ V and V _ #); tests/test_irish_normalize.py checks the coverage.
 # The dorsals are NOT members: on this project's convention (as on Wikipedia's) the broad
@@ -89,7 +89,7 @@ fˠ -> w  / #_      %attested # [wiki-irish-mutations §Summary table]
 fʲ -> vʲ / #_      %attested # [wiki-irish-mutations §Summary table]
 # n-prothesis (digest §3.3 [wiki-irish-mutations §Changes to vowel-initial words]): slender
 # before a front vowel, broad otherwise. `[V -front]` (not `+back`) so the open vowels
-# /a aː ə/ — front=- back=- in features.tsv — take the broad nasal (*a n-aois*, *a n-athair*).
+# /a aː ə/ — front=- back=- in features.csv — take the broad nasal (*a n-aois*, *a n-athair*).
 # The slender rule runs first, so the broad rule never sees a vowel-initial word twice.
 0  -> nʲ / # _ [V +front]   %attested # [wiki-irish-mutations §Changes to vowel-initial words]
 0  -> n̪ˠ / # _ [V -front]   %attested # [wiki-irish-mutations §Changes to vowel-initial words]
@@ -110,7 +110,7 @@ sˠ -> t̪ˠ / #_      %attested # [wiki-irish-orthography §Grapheme to phoneme
 [inflect]
 # digest §3.5 [wiki-irish-declension §Declension, §Vocative]. Slenderization and broadening
 # are written as EXPLICIT segment -> segment lines, not `[+front -back]` bundles: in
-# features.tsv the ʲ rows also carry high=+ where the ˠ rows have high=0 (and /w/ ↔ /vʲ/,
+# features.csv the ʲ rows also carry high=+ where the ˠ rows have high=0 (and /w/ ↔ /vʲ/,
 # /ɣ/ ↔ /j/ differ in more than quality), so a bundle would resolve to no row (I-4). Only
 # the dorsals k/c ɡ/ɟ x/ç ŋ/ɲ would survive as bundles; one convention is used throughout.
 

@@ -125,7 +125,7 @@ be tested, so actually runs in parallel from the start) → Old Irish last.
 - `sources/<lang>/bib.md` — reconstructed bibliography with access tier (replaces the lost
   claude.ai file).
 - `sources/<lang>/digest.md` — filled template.
-- `sources/<lang>/attested.tsv` — source form, target form, provenance; seed of the test suite.
+- `sources/<lang>/attested.csv` — source form, target form, provenance; seed of the test suite.
 - `sources/irish/inventory.md` — broad/slender pairs, lenition outputs, length, stress.
 - A short decisions list for the user: broad/slender treatment per target; Belgian vs
   Netherlandic; strand-4 overlay vs pure Georgian; which paywalled monographs to buy/borrow.
@@ -155,7 +155,7 @@ Acquisition done for infra, irish, arabic-egy, welsh, georgian (dutch in progres
 `bib.md`, PDFs with `.txt` extractions (PDF/HTML gitignored; bib carries URLs). Corrections:
 - **WOLD Dutch is weaker than claimed above**: no source-side pronunciations anywhere in WOLD
   (`Source_Form_ID` empty throughout); donors mostly medieval French/Latin; ~23 English items.
-  Extract at `infra/wold-dutch-loanpairs.tsv` (339 rows). Not a gold set on its own.
+  Extract at `infra/wold-dutch-loanpairs.csv` (339 rows). Not a gold set on its own.
 - LAPSyD's Welsh is **Northern** and its Irish is Donegal; WALS 12A omits Welsh/Dutch and lumps
   Egyptian Arabic with Georgian — use LAPSyD's O/N/C index, not WALS 12A. Easterday 2019
   (LangSci, CC BY) is the better syllable typology and treats Georgian as a core case.

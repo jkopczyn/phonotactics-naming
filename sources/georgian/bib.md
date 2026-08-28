@@ -155,7 +155,7 @@ Covers §3 substitution and §7 attested data:
 - **Every borrowed noun takes final -i** — visible in all ~24 items.
 - English long vowels shortened; diphthongs discussed; /æ/ → /ɛ/.
 - **Appendix B** (p. 51–52 of the PDF) is a table of ~24 English items × 2–4 Georgian
-  pronunciation variants, all in IPA — lift these straight into `attested.tsv`.
+  pronunciation variants, all in IPA — lift these straight into `attested.csv`.
 Caveat for the digest: the thesis's variable is *sociolinguistic*, so each item has a
 "Georgian-like / mixed / English-like" set. For a name generator, take the **Georgian-like**
 column as the grammar and treat the rest as evidence of how far the prestige layer deviates.
@@ -279,11 +279,11 @@ practice, and traditional nominal paradigms. **Do not use for phonetics** — pr
 ## Datasets produced here
 
 ### `ka-wiki-titles` (dataset, not a publication)
-`ka-wiki-name-transliterations.tsv` — 118 rows, harvested 2026-08-24 from the en-Wikipedia API
+`ka-wiki-name-transliterations.csv` — 118 rows, harvested 2026-08-24 from the en-Wikipedia API
 (`action=query&prop=langlinks&lllang=ka`) over a seed list of English/Irish/international personal
 names, place names and international loanwords. Two columns: English article title, Georgian
 article title (Mkhedruli).
-**§7 raw material.** Provenance tag for `attested.tsv`: `ka-wiki-title`. Caveats, which the digest
+**§7 raw material.** Provenance tag for `attested.csv`: `ka-wiki-title`. Caveats, which the digest
 must apply: (a) these are editorial transliterations, not speech, and many are mediated by Russian
 rather than English; (b) some rows are *translations*, not transliterations (e.g. "Alexander the
 Great" → ალექსანდრე მაკედონელი) and must be discarded; (c) they do show, in bulk, the two
