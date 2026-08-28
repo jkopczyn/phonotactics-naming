@@ -1,15 +1,18 @@
 """Task 1a: PHOIBLE half of rules/features.tsv (plan I-34, I-35)."""
+
 import csv
 import pathlib
 
 ROOT = pathlib.Path(__file__).parents[1]
 FEATURES = ROOT / "rules" / "features.tsv"
-PHOIBLE_38 = ("tone stress syllabic short long consonantal sonorant continuant delayedRelease "
-              "approximant tap trill nasal lateral labial round labiodental coronal anterior "
-              "distributed strident dorsal high low front back tense retractedTongueRoot "
-              "advancedTongueRoot periodicGlottalSource epilaryngealSource spreadGlottis "
-              "constrictedGlottis fortis lenis raisedLarynxEjective loweredLarynxImplosive "
-              "click").split()
+PHOIBLE_38 = (
+    "tone stress syllabic short long consonantal sonorant continuant delayedRelease "
+    "approximant tap trill nasal lateral labial round labiodental coronal anterior "
+    "distributed strident dorsal high low front back tense retractedTongueRoot "
+    "advancedTongueRoot periodicGlottalSource epilaryngealSource spreadGlottis "
+    "constrictedGlottis fortis lenis raisedLarynxEjective loweredLarynxImplosive "
+    "click"
+).split()
 
 
 def rows():
@@ -30,8 +33,15 @@ def test_phoible_half_has_73_rows():
 
 def test_dental_and_retracted_diacritics_are_stripped():
     segs = {r["segment"] for r in rows()}
-    for canonical, phoible in [("dʒ", "d̠ʒ"), ("sˤ", "s̪ˤ"), ("tʼ", "t̪ʼ"), ("tʃ", "t̠ʃ"),
-                               ("tʰ", "t̪ʰ"), ("tˤ", "t̪ˤ"), ("d", "d̪")]:
+    for canonical, phoible in [
+        ("dʒ", "d̠ʒ"),
+        ("sˤ", "s̪ˤ"),
+        ("tʼ", "t̪ʼ"),
+        ("tʃ", "t̠ʃ"),
+        ("tʰ", "t̪ʰ"),
+        ("tˤ", "t̪ˤ"),
+        ("d", "d̪"),
+    ]:
         assert canonical in segs and phoible not in segs
 
 
@@ -67,10 +77,20 @@ def test_known_target_segments_survive_import():
 def test_rebuild_is_byte_stable(tmp_path):
     import subprocess
     import sys
+
     out = tmp_path / "f.tsv"
-    subprocess.run([sys.executable, str(ROOT / "rules" / "build_features.py"),
-                    str(ROOT / "chat-imports" / "phoible_inventories_starter.csv"), str(out)],
-                   check=True)
-    committed = [l for l in FEATURES.read_text(encoding="utf-8").splitlines()
-                 if "\tphoible:" in l or l.startswith("segment\t")]
+    subprocess.run(
+        [
+            sys.executable,
+            str(ROOT / "rules" / "build_features.py"),
+            str(ROOT / "chat-imports" / "phoible_inventories_starter.csv"),
+            str(out),
+        ],
+        check=True,
+    )
+    committed = [
+        ln
+        for ln in FEATURES.read_text(encoding="utf-8").splitlines()
+        if "\tphoible:" in ln or ln.startswith("segment\t")
+    ]
     assert out.read_text(encoding="utf-8").splitlines() == committed

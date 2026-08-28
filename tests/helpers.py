@@ -1,9 +1,10 @@
 """Shared test helpers (plan Task 5a). Imported as `from helpers import ...`."""
+
 import csv
 import pathlib
 
-from strands.features import load_features
 from strands.dsl import parse_rules_file
+from strands.features import load_features
 from strands.tokenize import tokenize
 from strands.word import Word
 
@@ -42,12 +43,20 @@ def mutation_rows() -> list[dict[str, str]]:
 def entry_of(row: dict[str, str]):
     """A test-words row -> an inferred Entry. Available from Task 20 on."""
     from strands.inputs import Entry, infer
-    return infer(Entry(orthography=row["orthography"], ipa=row["ipa"],
-                       dialect=row.get("dialect") or "C", gloss=row.get("gloss") or ""),
-                 irish(), TABLE)
+
+    return infer(
+        Entry(
+            orthography=row["orthography"],
+            ipa=row["ipa"],
+            dialect=row.get("dialect") or "C",
+            gloss=row.get("gloss") or "",
+        ),
+        irish(),
+        TABLE,
+    )
 
 
-FIX = FIXTURES / "input-sample.tsv"      # written in Task 20
+FIX = FIXTURES / "input-sample.tsv"  # written in Task 20
 
 
 def read_allow_file_for(name: str) -> set[str]:

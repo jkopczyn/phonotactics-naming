@@ -83,26 +83,39 @@ supplied every form-bearing row without a hand IPA is added with `constructed=Tr
 is where the ~20 ⟨ao⟩ pairs live. `rate(..., constructed=False)` is what the ratchet keys
 off, so G2P accuracy can never move a filter number.
 """
+
 from __future__ import annotations
 
 import functools
 import unicodedata
+from collections.abc import Callable, Sequence
 from dataclasses import dataclass, replace
-from typing import TYPE_CHECKING, Callable, Sequence
+from typing import TYPE_CHECKING
 
 from .dsl import RuleFile, TemplateItem
 from .features import FeatureTable
 from .irish import MissingSlot, _head_name, normalize
 from .lexicon import FORM_STATUSES, LexEntry, key, read_lexicon
 from .orth import tag_word
-from .pipeline import (ConstructionNotInStrand, PipelineError, Result, lookup,
-                       parse_construction, resolve_epithet)
+from .pipeline import (
+    ConstructionNotInStrand,
+    PipelineError,
+    Result,
+    lookup,
+    parse_construction,
+    resolve_epithet,
+)
 from .poststress import post_stress
-from .repair import repair
 from .regress import edit_distance
+from .repair import repair
 from .respell import respell_traced
-from .spelled import (SpelledWord, apply_grapheme_table, parse_quality_pairs, spelling_to_ipa,
-                      spelling_to_words)
+from .spelled import (
+    SpelledWord,
+    apply_grapheme_table,
+    parse_quality_pairs,
+    spelling_to_ipa,
+    spelling_to_words,
+)
 from .stress import assign_stress
 from .substitute import substitute_stage
 from .syllabify import syllabify
@@ -112,11 +125,29 @@ from .word import TraceEntry, Word
 if TYPE_CHECKING:
     from .inputs import Entry
 
-__all__ = ["OI_FLAGS", "LOOKUP_STAGE", "RECONSTRUCT_STAGE", "TEMPLATE_STAGE",
-           "ConstructionNotInStrand", "Stem", "infer_stem", "to_old_irish", "apply_oi_mutation",
-           "CASE_TABLES", "PRIMITIVE_TABLES", "apply_case", "CASE_FUNCTIONS", "article",
-           "build_oi_construction", "adapt_oi", "run_entry_oi",
-           "FilterRow", "FilterReport", "REVERSAL_CLASSES", "filter_regression"]
+__all__ = [
+    "OI_FLAGS",
+    "LOOKUP_STAGE",
+    "RECONSTRUCT_STAGE",
+    "TEMPLATE_STAGE",
+    "ConstructionNotInStrand",
+    "Stem",
+    "infer_stem",
+    "to_old_irish",
+    "apply_oi_mutation",
+    "CASE_TABLES",
+    "PRIMITIVE_TABLES",
+    "apply_case",
+    "CASE_FUNCTIONS",
+    "article",
+    "build_oi_construction",
+    "adapt_oi",
+    "run_entry_oi",
+    "FilterRow",
+    "FilterReport",
+    "REVERSAL_CLASSES",
+    "filter_regression",
+]
 
 OI_FLAGS = ("ATTESTED", "ATTESTED:MIr", "RETRO", "RETRO:loan", "RETRO:late")
 LOOKUP_STAGE = "lookup"
@@ -124,19 +155,19 @@ RECONSTRUCT_STAGE = "reconstruct"
 TEMPLATE_STAGE = "templates"
 _SLENDER_LETTERS = frozenset("eiéí")
 _VOWEL_LETTERS = frozenset("aeiouáéíóú")
-_ENDING_MARKER = "ə"                     # spec §11's unresolved ending token (Task 11)
+_ENDING_MARKER = "ə"  # spec §11's unresolved ending token (Task 11)
 
 
 @dataclass(frozen=True)
 class Stem:
-    words: tuple[SpelledWord, ...]          # the Old Irish nominative, one per written word
-    gen: tuple[SpelledWord, ...] | None     # the attested genitive, when the lexicon gave one
-    stem: str                               # a lexicon.STEMS value, looked up or inferred
+    words: tuple[SpelledWord, ...]  # the Old Irish nominative, one per written word
+    gen: tuple[SpelledWord, ...] | None  # the attested genitive, when the lexicon gave one
+    stem: str  # a lexicon.STEMS value, looked up or inferred
     gender: str
-    flag: str                               # one of OI_FLAGS
+    flag: str  # one of OI_FLAGS
     assumptions: tuple[str, ...]
     trace: tuple[TraceEntry, ...]
-    engine_flags: tuple[str, ...] = ()      # the retro-filter's own flags (UNATTESTED_CLUSTER:…,
+    engine_flags: tuple[str, ...] = ()  # the retro-filter's own flags (UNATTESTED_CLUSTER:…,
     # O-20), kept apart from `flag` so the lookup flag stays exactly one of OI_FLAGS
 
 
@@ -146,6 +177,7 @@ def _default_lexicon() -> dict[str, LexEntry]:
 
 
 # ---- the stem class (O-21, O-33, S22) ------------------------------------------------------
+
 
 def _slender_final(orthography: str) -> bool:
     """A consonant-final word whose last vowel letter is ⟨e i é í⟩ (the orthographic test
@@ -157,7 +189,7 @@ def _slender_final(orthography: str) -> bool:
     return bool(vowels) and vowels[-1] in _SLENDER_LETTERS
 
 
-def infer_stem(entry: "Entry") -> tuple[str, str]:
+def infer_stem(entry: Entry) -> tuple[str, str]:
     """(Old Irish stem class, assumption tag) from `Entry.declension`, else the gender
     (plan Task 12 table; S22: an unclassified feminine is an ā-stem, not an o-stem).
 
@@ -186,6 +218,7 @@ def infer_stem(entry: "Entry") -> tuple[str, str]:
 
 # ---- the retro path (spec §2 step 2, §11) ----------------------------------------------------
 
+
 def _match_capitalization(word: SpelledWord, orthography: str) -> SpelledWord:
     """O-32: a written word takes the input orthography's initial capital. Lower-casing is
     never forced — a lexicon spelling that is already capitalized (*Niall*) keeps its
@@ -195,16 +228,18 @@ def _match_capitalization(word: SpelledWord, orthography: str) -> SpelledWord:
     return word
 
 
-def _match_first(words: tuple[SpelledWord, ...] | None, orthography: str
-                 ) -> tuple[SpelledWord, ...] | None:
+def _match_first(
+    words: tuple[SpelledWord, ...] | None, orthography: str
+) -> tuple[SpelledWord, ...] | None:
     """`_match_capitalization` over the FIRST word of a spelling (*Cú Chulainn*)."""
     if not words:
         return words
     return (_match_capitalization(words[0], orthography), *words[1:])
 
 
-def _retro_words(entry: "Entry", oi: RuleFile, irish: RuleFile, table: FeatureTable
-                 ) -> tuple[tuple[SpelledWord, ...], tuple[str, ...], tuple[TraceEntry, ...]]:
+def _retro_words(
+    entry: Entry, oi: RuleFile, irish: RuleFile, table: FeatureTable
+) -> tuple[tuple[SpelledWord, ...], tuple[str, ...], tuple[TraceEntry, ...]]:
     """Stages 2–7 on the citation-form IPA, one written word per space-separated word; the
     `[respell]` output is tokenized into the spelled word. Returns (words, flags, trace)."""
     pieces = Word.from_tokenized(tokenize(entry.ipa, table)).split_words()
@@ -215,7 +250,7 @@ def _retro_words(entry: "Entry", oi: RuleFile, irish: RuleFile, table: FeatureTa
     words: list[SpelledWord] = []
     flags: list[str] = []
     trace: list[TraceEntry] = []
-    for piece, orth in zip(pieces, orth_words):
+    for piece, orth in zip(pieces, orth_words, strict=True):
         word = normalize(piece, irish, table, dialect=dialect)
         word = tag_word(word, orth)
         word = substitute_stage(word, oi, table)
@@ -225,7 +260,7 @@ def _retro_words(entry: "Entry", oi: RuleFile, irish: RuleFile, table: FeatureTa
         word = post_stress(word, oi, table)
         spelling, respell_trace = respell_traced(word, oi, table)
         spelled = SpelledWord.from_spelling(spelling)
-        spelled = _match_capitalization(spelled, orth)      # O-32
+        spelled = _match_capitalization(spelled, orth)  # O-32
         words.append(spelled)
         trace.extend(word.trace)
         trace.extend(respell_trace)
@@ -237,8 +272,10 @@ def _retro_words(entry: "Entry", oi: RuleFile, irish: RuleFile, table: FeatureTa
 
 # ---- the fork (spec §2 steps 1–2) ----------------------------------------------------------
 
-def to_old_irish(entry: "Entry", lexicon: dict[str, LexEntry], oi: RuleFile, irish: RuleFile,
-                 table: FeatureTable) -> Stem:
+
+def to_old_irish(
+    entry: Entry, lexicon: dict[str, LexEntry], oi: RuleFile, irish: RuleFile, table: FeatureTable
+) -> Stem:
     """Lookup on the citation form (O-23); a form-bearing row supplies its spelling verbatim
     and the filter never runs; a `none` row or a miss goes through the retro-filter."""
     row = lookup(entry, lexicon)
@@ -249,37 +286,61 @@ def to_old_irish(entry: "Entry", lexicon: dict[str, LexEntry], oi: RuleFile, iri
         # capitalized. Done here, not by editing the lexicon, so the element rows
         # (*dub*, *macc*, *ingen*) — whose own orthography is lower-case — stay lower-case.
         words = _match_first(spelling_to_words(row.oi_nom), entry.orthography)
-        gen = _match_first(spelling_to_words(row.oi_gen), entry.orthography) \
-            if row.oi_gen else None
+        gen = _match_first(spelling_to_words(row.oi_gen), entry.orthography) if row.oi_gen else None
         if row.stem:
             stem = row.stem
-        else:                                               # O-33 / R31d
+        else:  # O-33 / R31d
             stem, tag = infer_stem(entry)
             assumptions.append(tag)
         gender = row.gender or entry.gender
-        trace = (TraceEntry(stage=LOOKUP_STAGE, rule_id="lookup:hit", tag="attested",
-                            before=entry.orthography, after=row.oi_nom,
-                            note=f"{row.status} row, line {row.line}: {row.source}"),)
+        trace = (
+            TraceEntry(
+                stage=LOOKUP_STAGE,
+                rule_id="lookup:hit",
+                tag="attested",
+                before=entry.orthography,
+                after=row.oi_nom,
+                note=f"{row.status} row, line {row.line}: {row.source}",
+            ),
+        )
         return Stem(words, gen, stem, gender, row.flag, tuple(assumptions), trace)
     words, flags, retro_trace = _retro_words(entry, oi, irish, table)
     stem, tag = infer_stem(entry)
     assumptions.append(tag)
     if row is None:
-        head = TraceEntry(stage=LOOKUP_STAGE, rule_id="lookup:miss", tag="",
-                          before=entry.orthography, after=entry.orthography,
-                          note="no lexicon row for the citation form; retro-filter")
+        head = TraceEntry(
+            stage=LOOKUP_STAGE,
+            rule_id="lookup:miss",
+            tag="",
+            before=entry.orthography,
+            after=entry.orthography,
+            note="no lexicon row for the citation form; retro-filter",
+        )
         flag = "RETRO"
-    else:                                                   # O-12, O-18
-        head = TraceEntry(stage=LOOKUP_STAGE, rule_id="lookup:none", tag="",
-                          before=entry.orthography, after=entry.orthography,
-                          note=f"none row ({row.kind}), line {row.line}: {row.source}; "
-                               "retro-filter")
+    else:  # O-12, O-18
+        head = TraceEntry(
+            stage=LOOKUP_STAGE,
+            rule_id="lookup:none",
+            tag="",
+            before=entry.orthography,
+            after=entry.orthography,
+            note=f"none row ({row.kind}), line {row.line}: {row.source}; retro-filter",
+        )
         flag = row.flag
-    return Stem(words, None, stem, entry.gender, flag, tuple(assumptions),
-                (head, *retro_trace), engine_flags=flags)
+    return Stem(
+        words,
+        None,
+        stem,
+        entry.gender,
+        flag,
+        tuple(assumptions),
+        (head, *retro_trace),
+        engine_flags=flags,
+    )
 
 
 # ---- the mutations (spec §5, §11; digest §10.4; plan Task 13) ------------------------------
+
 
 def apply_oi_mutation(word: SpelledWord, name: str, oi: RuleFile) -> SpelledWord:
     """Apply `oi.grapheme_mutations[name]` (`LEN` or `NAS`) to a spelled word and set
@@ -288,8 +349,11 @@ def apply_oi_mutation(word: SpelledWord, name: str, oi: RuleFile) -> SpelledWord
     (digest §10.2 conv. 1; spec §11 (ii)) — which `spelling_to_ipa` reads. A mutation table
     is applied simultaneously, like the segment engine's (`irish._apply_table`)."""
     if name not in oi.grapheme_mutations:
-        raise PipelineError(f"{oi.path}: no [mutations] table {name!r} (have: "
-                            + ", ".join(sorted(oi.grapheme_mutations)) + ")")
+        raise PipelineError(
+            f"{oi.path}: no [mutations] table {name!r} (have: "
+            + ", ".join(sorted(oi.grapheme_mutations))
+            + ")"
+        )
     rules = oi.grapheme_mutations[name]
     return apply_grapheme_table(word, rules, simultaneous=True).with_mutation(name)  # type: ignore[arg-type]
 
@@ -297,14 +361,22 @@ def apply_oi_mutation(word: SpelledWord, name: str, oi: RuleFile) -> SpelledWord
 # ---- the inflection (spec §5, §11; digest §10.5; plan Task 14) -----------------------------
 
 CASE_TABLES: dict[tuple[str, str], str] = {
-    ("gen", "o"): "GEN_O", ("gen", "ā"): "GEN_A", ("gen", "i"): "GEN_I", ("gen", "u"): "GEN_U",
-    ("gen", "n"): "GEN_N", ("gen", "dental"): "GEN_DENT", ("gen", "velar"): "GEN_VELAR",
-    ("gen", "r"): "GEN_R", ("gen", "s"): "GEN_S",
+    ("gen", "o"): "GEN_O",
+    ("gen", "ā"): "GEN_A",
+    ("gen", "i"): "GEN_I",
+    ("gen", "u"): "GEN_U",
+    ("gen", "n"): "GEN_N",
+    ("gen", "dental"): "GEN_DENT",
+    ("gen", "velar"): "GEN_VELAR",
+    ("gen", "r"): "GEN_R",
+    ("gen", "s"): "GEN_S",
     # VOC_O = GEN_O (digest §10.5 [pokorny1914 p.65 §142]): the DSL has no table aliasing,
     # so the o-stem vocative resolves to the genitive table by name here.
     ("voc", "o"): "GEN_O",
-    ("nom", "ā"): "NOM_A", ("nom", ""): "NOM_O",        # "" = every other class
-    ("dat", "o"): "DAT_O", ("dat", "ā"): "DAT_A",
+    ("nom", "ā"): "NOM_A",
+    ("nom", ""): "NOM_O",  # "" = every other class
+    ("dat", "o"): "DAT_O",
+    ("dat", "ā"): "DAT_A",
 }
 """(case, lexicon stem) -> `[inflect]` sub-table (O-26). `indecl` and `irregular` have no
 table (they are inert in `apply_case`)."""
@@ -321,17 +393,27 @@ suffix) and is written inline."""
 _INERT_STEMS = ("indecl", "irregular")
 
 
-def _case_note(trace: list[TraceEntry] | None, case: str, stem: Stem, rule_id: str, note: str,
-               after: str) -> None:
+def _case_note(
+    trace: list[TraceEntry] | None, case: str, stem: Stem, rule_id: str, note: str, after: str
+) -> None:
     if trace is None:
         return
     before = " ".join(w.render() for w in stem.words)
-    trace.append(TraceEntry(stage="inflect", rule_id=rule_id, tag="", before=before,
-                            after=after, note=f"{case}: {note}"))
+    trace.append(
+        TraceEntry(
+            stage="inflect",
+            rule_id=rule_id,
+            tag="",
+            before=before,
+            after=after,
+            note=f"{case}: {note}",
+        )
+    )
 
 
-def apply_case(stem: Stem, case: str, oi: RuleFile, *,
-               trace: list[TraceEntry] | None = None) -> tuple[SpelledWord, ...]:
+def apply_case(
+    stem: Stem, case: str, oi: RuleFile, *, trace: list[TraceEntry] | None = None
+) -> tuple[SpelledWord, ...]:
     """The case form of a stem, one spelled word per written word. Precedence — the lexicon
     is authoritative, the table is the fallback (plan Task 14):
 
@@ -343,14 +425,26 @@ def apply_case(stem: Stem, case: str, oi: RuleFile, *,
 
     For `nom`, every class but `ā` takes `NOM_O` (the `("nom", "")` entry). A table is
     applied to every written word of the stem; `trace`, when given, receives one entry."""
-    after = lambda words: " ".join(w.render() for w in words)      # noqa: E731
+    after = lambda words: " ".join(w.render() for w in words)  # noqa: E731
     if case == "gen" and stem.gen is not None:
-        _case_note(trace, case, stem, "inflect:attested", "attested genitive, verbatim "
-                   "(precedence rule 1)", after(stem.gen))
+        _case_note(
+            trace,
+            case,
+            stem,
+            "inflect:attested",
+            "attested genitive, verbatim (precedence rule 1)",
+            after(stem.gen),
+        )
         return stem.gen
     if stem.stem in _INERT_STEMS:
-        _case_note(trace, case, stem, f"inflect:{stem.stem}", f"{stem.stem} stem: unchanged",
-                   after(stem.words))
+        _case_note(
+            trace,
+            case,
+            stem,
+            f"inflect:{stem.stem}",
+            f"{stem.stem} stem: unchanged",
+            after(stem.words),
+        )
         return stem.words
     key = (case, stem.stem)
     if case == "nom" and stem.stem != "ā":
@@ -358,19 +452,30 @@ def apply_case(stem: Stem, case: str, oi: RuleFile, *,
     name = CASE_TABLES.get(key)
     note = f"table {name}"
     if name is None and case == "voc":
-        _case_note(trace, case, stem, "inflect:voc-identity",
-                   "vocative = nominative outside the masculine o-stem (O-30; digest §10.5 "
-                   "[pokorny1914 p.65 §142])", after(stem.words))
+        _case_note(
+            trace,
+            case,
+            stem,
+            "inflect:voc-identity",
+            "vocative = nominative outside the masculine o-stem (O-30; digest §10.5 "
+            "[pokorny1914 p.65 §142])",
+            after(stem.words),
+        )
         return stem.words
     if name is None:
         name = "GEN_O"
         note = f"case:{case}-fallback-o (no table for stem {stem.stem!r})"
     if name not in oi.grapheme_inflect:
-        raise PipelineError(f"{oi.path}: no [inflect] table {name!r} (have: "
-                            + ", ".join(sorted(oi.grapheme_inflect)) + ")")
+        raise PipelineError(
+            f"{oi.path}: no [inflect] table {name!r} (have: "
+            + ", ".join(sorted(oi.grapheme_inflect))
+            + ")"
+        )
     rules = oi.grapheme_inflect[name]
-    words = tuple(apply_grapheme_table(w, rules, simultaneous=False)  # type: ignore[arg-type]
-                  for w in stem.words)
+    words = tuple(
+        apply_grapheme_table(w, rules, simultaneous=False)  # type: ignore[arg-type]
+        for w in stem.words
+    )
     _case_note(trace, case, stem, f"inflect:{name}", note, after(words))
     return words
 
@@ -381,7 +486,7 @@ CASE_FUNCTIONS: dict[str, str] = {"GEN": "gen", "NOM": "nom", "VOC": "voc", "DAT
 """Template function name -> `apply_case` case (the built-ins `[meta] template-functions`
 declares besides ART and LEN_IF_F)."""
 
-_LIQUIDS_AND_F = frozenset({"ḟ", "f", "l", "n", "r"})    # [pokorny1914 p.59 §132]
+_LIQUIDS_AND_F = frozenset({"ḟ", "f", "l", "n", "r"})  # [pokorny1914 p.59 §132]
 _S_TOKENS = frozenset({"s", "ṡ"})
 
 
@@ -389,13 +494,20 @@ _S_TOKENS = frozenset({"s", "ṡ"})
 class _Val:
     """A template item's value: spelled words, the stem they came from (None for a literal)
     and the case last applied (the article reads it)."""
+
     words: tuple[SpelledWord, ...]
     stem: Stem | None = None
     case: str = "nom"
 
 
-def article(words: tuple[SpelledWord, ...], gender: str, case: str, oi: RuleFile, *,
-            trace: list[TraceEntry] | None = None) -> tuple[SpelledWord, ...]:
+def article(
+    words: tuple[SpelledWord, ...],
+    gender: str,
+    case: str,
+    oi: RuleFile,
+    *,
+    trace: list[TraceEntry] | None = None,
+) -> tuple[SpelledWord, ...]:
     """digest §10.4's article, singular, as (article word, mutated noun words):
 
     | case / gender | form | mutation |
@@ -419,8 +531,9 @@ def article(words: tuple[SpelledWord, ...], gender: str, case: str, oi: RuleFile
     if not words:
         raise PipelineError(f"{oi.path}: ART() of an empty construction")
     gender = (gender or "m").strip().lower()[:1] or "m"
-    lenites = (case == "nom" and gender == "f") or (case == "gen" and gender != "f") \
-        or case == "dat"
+    lenites = (
+        (case == "nom" and gender == "f") or (case == "gen" and gender != "f") or case == "dat"
+    )
     nasalizes = case == "nom" and gender == "n"
     noun = words[0]
     if case == "gen" and gender == "f":
@@ -428,7 +541,7 @@ def article(words: tuple[SpelledWord, ...], gender: str, case: str, oi: RuleFile
     elif nasalizes:
         noun = apply_oi_mutation(noun, "NAS", oi)
         form, note = "a", "nom. n. aᴺ"
-    elif lenites and noun.graphemes[0] in _S_TOKENS:        # int sléibe: no written ⟨ṡ⟩
+    elif lenites and noun.graphemes[0] in _S_TOKENS:  # int sléibe: no written ⟨ṡ⟩
         form = "int"
         note = f"{case}. {gender}. in(d)ᴸ; -t before s replaces the written lenition"
     else:
@@ -439,19 +552,29 @@ def article(words: tuple[SpelledWord, ...], gender: str, case: str, oi: RuleFile
             form = "ind"
         else:
             form = "in"
-        note = (f"{case}. {gender}. in(d)ᴸ; -d/-t sandhi per [pokorny1914 p.59 §132]"
-                if lenites else f"{case}. {gender}. in(t); no mutation")
+        note = (
+            f"{case}. {gender}. in(d)ᴸ; -d/-t sandhi per [pokorny1914 p.59 §132]"
+            if lenites
+            else f"{case}. {gender}. in(t); no mutation"
+        )
     out = (SpelledWord.from_spelling(form), noun, *words[1:])
     if trace is not None:
-        trace.append(TraceEntry(stage=TEMPLATE_STAGE, rule_id="templates:ART", tag="attested",
-                                before=" ".join(w.render() for w in words),
-                                after=" ".join(w.render() for w in out),
-                                note=f"article, {note} (digest §10.4)"))
+        trace.append(
+            TraceEntry(
+                stage=TEMPLATE_STAGE,
+                rule_id="templates:ART",
+                tag="attested",
+                before=" ".join(w.render() for w in words),
+                after=" ".join(w.render() for w in out),
+                note=f"article, {note} (digest §10.4)",
+            )
+        )
     return out
 
 
-def _join_compound(a: tuple[SpelledWord, ...], b: tuple[SpelledWord, ...]
-                   ) -> tuple[SpelledWord, ...]:
+def _join_compound(
+    a: tuple[SpelledWord, ...], b: tuple[SpelledWord, ...]
+) -> tuple[SpelledWord, ...]:
     """Adjacent template items with no `" "` between them form ONE written word (digest
     §10.5 compounding; spec §5 COLOUR): the last word of `a` absorbs the first of `b`,
     keeping `a`'s capitalization and initial mutation. The second element's own initial
@@ -466,15 +589,17 @@ def _join_compound(a: tuple[SpelledWord, ...], b: tuple[SpelledWord, ...]
 
 
 class _OiBuilder:
-    def __init__(self, name: str, slots: dict[str, Stem], oi: RuleFile,
-                 trace: list[TraceEntry]) -> None:
+    def __init__(
+        self, name: str, slots: dict[str, Stem], oi: RuleFile, trace: list[TraceEntry]
+    ) -> None:
         self.name, self.slots, self.oi, self.trace = name, slots, oi, trace
         try:
             self.items = oi.templates[name]
         except KeyError:
             raise ConstructionNotInStrand(
                 f"{oi.path}: no [templates] entry {name!r} in this strand "
-                f"(have: {', '.join(sorted(oi.templates)) or 'none'})") from None
+                f"(have: {', '.join(sorted(oi.templates)) or 'none'})"
+            ) from None
         head = _head_name(self.items)
         self.head: Stem | None = self.slot(head) if head is not None else None
 
@@ -482,27 +607,32 @@ class _OiBuilder:
         try:
             return self.slots[arg]
         except KeyError:
-            raise MissingSlot(f"template {self.name} needs slot {arg!r} "
-                              f"(given: {', '.join(sorted(self.slots)) or 'none'})") from None
+            raise MissingSlot(
+                f"template {self.name} needs slot {arg!r} "
+                f"(given: {', '.join(sorted(self.slots)) or 'none'})"
+            ) from None
 
     def evaluate(self, item: TemplateItem) -> _Val:
         if item.conditional:
-            raise PipelineError(f"{self.oi.path}: template {self.name}: conditional items "
-                                "(`?`) are declension-tagged and have no meaning on the "
-                                "spelled word")
-        if item.kind == "literal":                               # O-25: a spelling
+            raise PipelineError(
+                f"{self.oi.path}: template {self.name}: conditional items "
+                "(`?`) are declension-tagged and have no meaning on the "
+                "spelled word"
+            )
+        if item.kind == "literal":  # O-25: a spelling
             return _Val(spelling_to_words(item.value))
         if item.kind == "arg":
             stem = self.slot(item.value)
             return _Val(stem.words, stem, "nom")
         if item.child is None:
-            raise PipelineError(f"{self.oi.path}: template {self.name}: bare {item.value} "
-                                "may not be nested")
+            raise PipelineError(
+                f"{self.oi.path}: template {self.name}: bare {item.value} may not be nested"
+            )
         return self.call(item.value, self.evaluate(item.child))
 
     def call(self, func: str, val: _Val) -> _Val:
         oi = self.oi
-        if func in oi.grapheme_mutations:                        # LEN, NAS
+        if func in oi.grapheme_mutations:  # LEN, NAS
             if not val.words:
                 return val
             mutated = (apply_oi_mutation(val.words[0], func, oi), *val.words[1:])
@@ -528,8 +658,9 @@ class _OiBuilder:
             return val
         if func == "ART":
             gender = val.stem.gender if val.stem is not None else "m"
-            return _Val(article(val.words, gender, val.case, oi, trace=self.trace),
-                        val.stem, val.case)
+            return _Val(
+                article(val.words, gender, val.case, oi, trace=self.trace), val.stem, val.case
+            )
         raise PipelineError(f"{oi.path}: template {self.name}: unknown function {func!r}")
 
     def build(self) -> tuple[SpelledWord, ...]:
@@ -537,11 +668,11 @@ class _OiBuilder:
         current: tuple[SpelledWord, ...] = ()
         case = "nom"
         for item in self.items:
-            if item.kind == "literal" and not item.value.strip():      # " " = separator
+            if item.kind == "literal" and not item.value.strip():  # " " = separator
                 words.extend(current)
                 current = ()
                 continue
-            if item.kind == "call" and item.child is None:            # bare FUNC (I-16)
+            if item.kind == "call" and item.child is None:  # bare FUNC (I-16)
                 val = self.call(item.value, _Val(current, self.head, case))
                 current, case = val.words, val.case
                 continue
@@ -550,9 +681,16 @@ class _OiBuilder:
             case = val.case
         words.extend(current)
         rendered = " ".join(w.render() for w in words)
-        self.trace.append(TraceEntry(stage=TEMPLATE_STAGE, rule_id=f"templates:{self.name}",
-                                     tag="", before="", after=rendered,
-                                     note=f"construction {self.name}, {len(words)} word(s)"))
+        self.trace.append(
+            TraceEntry(
+                stage=TEMPLATE_STAGE,
+                rule_id=f"templates:{self.name}",
+                tag="",
+                before="",
+                after=rendered,
+                note=f"construction {self.name}, {len(words)} word(s)",
+            )
+        )
         return tuple(words)
 
 
@@ -570,9 +708,14 @@ def _resolve_marker(stem: Stem, oi: RuleFile, trace: list[TraceEntry]) -> Stem:
     return replace(stem, words=apply_case(stem, "nom", oi, trace=trace))
 
 
-def build_oi_construction(name: str, slots: dict[str, Stem], oi: RuleFile,
-                          table: FeatureTable, *, trace: list[TraceEntry] | None = None
-                          ) -> tuple[SpelledWord, ...]:
+def build_oi_construction(
+    name: str,
+    slots: dict[str, Stem],
+    oi: RuleFile,
+    table: FeatureTable,
+    *,
+    trace: list[TraceEntry] | None = None,
+) -> tuple[SpelledWord, ...]:
     """Apply `oi.templates[name]` to the slots' stems (spec §11; plan Task 15): one
     spelled word per written word, capitalization per word (O-32). Raises
     `ConstructionNotInStrand` for a name this file has no template for (O-17) and
@@ -585,6 +728,7 @@ def build_oi_construction(name: str, slots: dict[str, Stem], oi: RuleFile,
 
 
 # ---- the assembly (O-11, O-14) ---------------------------------------------------------------
+
 
 def _punctum(oi: RuleFile) -> bool:
     return oi.meta.get("punctum", "on").strip().lower() != "off"
@@ -599,14 +743,19 @@ def _phonology_of(segments: tuple[str, ...], oi: RuleFile, table: FeatureTable) 
     return assign_stress(syllabify(word, oi, table), oi, table)
 
 
-def adapt_oi(words: Sequence[SpelledWord], oi: RuleFile, table: FeatureTable, *,
-             assumptions: Sequence[str] = (), flags: Sequence[str] = (),
-             trace: Sequence[TraceEntry] = ()) -> Result:
+def adapt_oi(
+    words: Sequence[SpelledWord],
+    oi: RuleFile,
+    table: FeatureTable,
+    *,
+    assumptions: Sequence[str] = (),
+    flags: Sequence[str] = (),
+    trace: Sequence[TraceEntry] = (),
+) -> Result:
     """Render and reconstruct finished spelled words. `punctum` touches the written string
     only (O-14); `ipa` is `spelling_to_ipa` per word, segments joined with no separator
     inside a word and a single space between words (O-11, GPT P2)."""
-    pairs = (parse_quality_pairs(oi.meta["quality-pairs"])
-             if "quality-pairs" in oi.meta else None)
+    pairs = parse_quality_pairs(oi.meta["quality-pairs"]) if "quality-pairs" in oi.meta else None
     punctum = _punctum(oi)
     spellings: list[str] = []
     ipas: list[str] = []
@@ -619,9 +768,16 @@ def adapt_oi(words: Sequence[SpelledWord], oi: RuleFile, table: FeatureTable, *,
         spellings.append(spelling)
         ipas.append(ipa)
         out_words.append(_phonology_of(segments, oi, table))
-        out_trace.append(TraceEntry(stage=RECONSTRUCT_STAGE, rule_id="spelling_to_ipa", tag="",
-                                    before=word.render(), after=ipa,
-                                    note=f"mutation={word.mutation or '-'}"))
+        out_trace.append(
+            TraceEntry(
+                stage=RECONSTRUCT_STAGE,
+                rule_id="spelling_to_ipa",
+                tag="",
+                before=word.render(),
+                after=ipa,
+                note=f"mutation={word.mutation or '-'}",
+            )
+        )
     return Result(
         respelling=" ".join(spellings),
         ipa=" ".join(ipas),
@@ -633,18 +789,27 @@ def adapt_oi(words: Sequence[SpelledWord], oi: RuleFile, table: FeatureTable, *,
     )
 
 
-def run_entry_oi(entry: "Entry", construction: str, irish: RuleFile, oi: RuleFile,
-                 table: FeatureTable, *, lexicon: dict[str, LexEntry] | None = None,
-                 slots: "dict[str, Entry] | None" = None) -> Result:
+def run_entry_oi(
+    entry: Entry,
+    construction: str,
+    irish: RuleFile,
+    oi: RuleFile,
+    table: FeatureTable,
+    *,
+    lexicon: dict[str, LexEntry] | None = None,
+    slots: dict[str, Entry] | None = None,
+) -> Result:
     """The Old Irish `run_entry` (O-9): fork each slot's entry, build the template, assemble.
     `slots` defaults to `{head: entry}` — the template's first argument slot (I-16), as in
     `pipeline.run_entry`; a multi-slot template (ADJ, OF, COMPOUND, COLOUR) needs them
     supplied and raises `MissingSlot` otherwise. Flags, assumptions and traces are the union
     over the slots used, in template order."""
     name, slot = parse_construction(construction)
-    if name not in oi.templates:                                # O-17
-        raise ConstructionNotInStrand(f"{oi.path}: no template for {name!r} in this strand "
-                                      f"(have: {', '.join(sorted(oi.templates))})")
+    if name not in oi.templates:  # O-17
+        raise ConstructionNotInStrand(
+            f"{oi.path}: no template for {name!r} in this strand "
+            f"(have: {', '.join(sorted(oi.templates))})"
+        )
     if lexicon is None:
         lexicon = _default_lexicon()
     items = oi.templates[name]
@@ -668,8 +833,10 @@ def run_entry_oi(entry: "Entry", construction: str, irish: RuleFile, oi: RuleFil
     if slot is not None:
         epithet = resolve_epithet(oi, slot)
         if epithet is not None:
-            raise PipelineError(f"{oi.path}: [meta] epithet-{slot} = {epithet}, but this "
-                                "strand's grammar is on graphemes and has no epithet affixation")
+            raise PipelineError(
+                f"{oi.path}: [meta] epithet-{slot} = {epithet}, but this "
+                "strand's grammar is on graphemes and has no epithet affixation"
+            )
         assumptions.append(f"epithet:{slot}-unmapped-in-{oi.meta.get('name', oi.path)}")
     words = build_oi_construction(name, stems, oi, table, trace=trace)
     return adapt_oi(words, oi, table, assumptions=assumptions, flags=flags, trace=trace)
@@ -689,7 +856,7 @@ def _template_args(items: tuple[TemplateItem, ...]) -> list[str]:
 
 # ---- the filter regression (spec §7, §11; plan Task 16) -------------------------------------
 
-_REGRESSION_CONSTRUCTION = "DESC"        # NOM(NOUN): the nominative, marker realized
+_REGRESSION_CONSTRUCTION = "DESC"  # NOM(NOUN): the nominative, marker realized
 _R_STEM_HEADWORDS = frozenset({"athair", "bráthair", "máthair"})
 
 
@@ -706,7 +873,7 @@ def _ends_with(*parts: str) -> Callable[[str, str], bool]:
 
 
 def _doubled_letters(text: str) -> set[str]:
-    return {a for a, b in zip(text, text[1:]) if a == b and a.isalpha()}
+    return {a for a, b in zip(text, text[1:], strict=False) if a == b and a.isalpha()}
 
 
 def _new_geminate(modern: str, oi: str) -> bool:
@@ -732,12 +899,12 @@ takes both."""
 
 @dataclass(frozen=True)
 class FilterRow:
-    orthography: str                        # the modern citation form as written in the row
-    expected: str                           # the lexicon's oi_nom
-    got: str                                # Result.respelling from the forced RETRO path
-    distance: int                           # character-level Levenshtein (O-16)
-    classes: tuple[str, ...]                # the REVERSAL_CLASSES the pair falls in
-    constructed: bool = False               # True when the IPA came from the G2P
+    orthography: str  # the modern citation form as written in the row
+    expected: str  # the lexicon's oi_nom
+    got: str  # Result.respelling from the forced RETRO path
+    distance: int  # character-level Levenshtein (O-16)
+    classes: tuple[str, ...]  # the REVERSAL_CLASSES the pair falls in
+    constructed: bool = False  # True when the IPA came from the G2P
 
 
 @dataclass(frozen=True)
@@ -755,8 +922,9 @@ class FilterReport:
             return 0.0
         return sum(1 for r in rows if r.distance <= max_distance) / len(rows)
 
-    def by_class(self, max_distance: int = 0, constructed: bool | None = None
-                 ) -> dict[str, tuple[int, int]]:
+    def by_class(
+        self, max_distance: int = 0, constructed: bool | None = None
+    ) -> dict[str, tuple[int, int]]:
         """name -> (rows within `max_distance`, rows in the class), every class present."""
         rows = self._select(constructed)
         out: dict[str, tuple[int, int]] = {}
@@ -767,26 +935,30 @@ class FilterReport:
 
     def summary(self) -> str:
         hand = self._select(False)
-        lines = [f"filter regression: n={len(hand)} exact={self.rate(0, False):.4f} "
-                 f"lev1={self.rate(1, False):.4f}"]
+        lines = [
+            f"filter regression: n={len(hand)} exact={self.rate(0, False):.4f} "
+            f"lev1={self.rate(1, False):.4f}"
+        ]
         wide = self._select(True)
         if wide:
-            lines.append(f"  G2P-widened (not ratcheted): +{len(wide)} rows, "
-                         f"exact={self.rate(0):.4f} lev1={self.rate(1):.4f} over "
-                         f"{len(self.rows)}")
+            lines.append(
+                f"  G2P-widened (not ratcheted): +{len(wide)} rows, "
+                f"exact={self.rate(0):.4f} lev1={self.rate(1):.4f} over "
+                f"{len(self.rows)}"
+            )
         for name, (p, t) in self.by_class(constructed=None if wide else False).items():
             lines.append(f"  {name:18} {p:3}/{t:3}")
         return "\n".join(lines)
 
 
-def _src_attested(entry: "Entry") -> bool:
+def _src_attested(entry: Entry) -> bool:
     """O-31's tie-break tag, read from wherever a caller carried it (`assumptions`, `note`
     or a `features` attribute); `Entry` has no `features` column of its own."""
     haystack = (*entry.assumptions, entry.note, getattr(entry, "features", "") or "")
     return any("src:attested" in h for h in haystack)
 
 
-def _choose(entries: Sequence["Entry"]) -> "Entry":
+def _choose(entries: Sequence[Entry]) -> Entry:
     """The first row tagged src:attested, else the first in file order (O-31)."""
     for entry in entries:
         if _src_attested(entry):
@@ -794,27 +966,45 @@ def _choose(entries: Sequence["Entry"]) -> "Entry":
     return entries[0]
 
 
-def _filter_row(entry: "Entry", row: LexEntry, oi: RuleFile, irish: RuleFile,
-                table: FeatureTable, *, constructed: bool) -> FilterRow:
+def _filter_row(
+    entry: Entry,
+    row: LexEntry,
+    oi: RuleFile,
+    irish: RuleFile,
+    table: FeatureTable,
+    *,
+    constructed: bool,
+) -> FilterRow:
     result = run_entry_oi(entry, _REGRESSION_CONSTRUCTION, irish, oi, table, lexicon={})
     got, want = _fold(result.respelling), _fold(row.oi_nom)
     modern = _fold(entry.orthography)
     classes = tuple(name for name, pred in REVERSAL_CLASSES.items() if pred(modern, want))
-    return FilterRow(orthography=row.orthography, expected=row.oi_nom,
-                     got=result.respelling, distance=edit_distance(got, want),
-                     classes=classes, constructed=constructed)
+    return FilterRow(
+        orthography=row.orthography,
+        expected=row.oi_nom,
+        got=result.respelling,
+        distance=edit_distance(got, want),
+        classes=classes,
+        constructed=constructed,
+    )
 
 
-def filter_regression(entries: Sequence["Entry"], lexicon: dict[str, LexEntry], oi: RuleFile,
-                      irish: RuleFile, table: FeatureTable, *,
-                      g2p: "Callable[[str, str], tuple[str, list[str]]] | None" = None
-                      ) -> FilterReport:
+def filter_regression(
+    entries: Sequence[Entry],
+    lexicon: dict[str, LexEntry],
+    oi: RuleFile,
+    irish: RuleFile,
+    table: FeatureTable,
+    *,
+    g2p: Callable[[str, str], tuple[str, list[str]]] | None = None,
+) -> FilterReport:
     """Run the retro-filter over the regression population (module docstring) and compare
     written forms with `oi_nom`. `entries` are the hand-IPA rows (an entry without IPA is
     ignored); with `g2p` every form-bearing lexicon row without one is added, its IPA
     constructed and the row marked `constructed=True`. Rows come out in lexicon file order."""
     from .inputs import Entry, infer
-    by_key: dict[str, list["Entry"]] = {}
+
+    by_key: dict[str, list[Entry]] = {}
     for entry in entries:
         if entry.ipa.strip():
             by_key.setdefault(key(entry.orthography), []).append(entry)
@@ -823,12 +1013,19 @@ def filter_regression(entries: Sequence["Entry"], lexicon: dict[str, LexEntry], 
         if row.status not in FORM_STATUSES:
             continue
         if k in by_key:
-            rows.append(_filter_row(_choose(by_key[k]), row, oi, irish, table,
-                                    constructed=False))
+            rows.append(_filter_row(_choose(by_key[k]), row, oi, irish, table, constructed=False))
         elif g2p is not None:
             ipa, _notes = g2p(row.orthography, "C")
-            entry = infer(Entry(orthography=row.orthography, ipa=ipa, dialect="C",
-                                gender=row.gender or "m", assumptions=("ipa:constructed",)),
-                          irish, table)
+            entry = infer(
+                Entry(
+                    orthography=row.orthography,
+                    ipa=ipa,
+                    dialect="C",
+                    gender=row.gender or "m",
+                    assumptions=("ipa:constructed",),
+                ),
+                irish,
+                table,
+            )
             rows.append(_filter_row(entry, row, oi, irish, table, constructed=True))
     return FilterReport(rows=tuple(rows))

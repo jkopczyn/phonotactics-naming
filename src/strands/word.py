@@ -2,7 +2,8 @@
 
 Plan Task 4; spec §2 (a Word is a list of segments plus parallel annotations: syllable
 boundaries, primary stress, morpheme boundaries `$`, a per-segment "illegal" mark, the
-provenance of inserted segments (`origins`), and an ordered trace of `(stage, rule_id, rule_tag, before, after)`), §4 (output IPA carries stress
+provenance of inserted segments (`origins`), and an ordered trace of
+`(stage, rule_id, rule_tag, before, after)`), §4 (output IPA carries stress
 and syllable marks; flags carry `UNREPAIRED` and the fallback count); interpretations I-21
 (`rule_id` = "<section>:<line>"), I-40 (secondary stress is recorded and never carried into a
 target), S1 (`Tokenized.stress_index` is a SEGMENT index, `Word.stress` is an index into
@@ -15,10 +16,11 @@ Index conventions:
 - `morphemes`: boundary positions `0..len(segments)` (a `$` sits BEFORE segment i).
 - `stress`: index into `syllables`.
 """
+
 from __future__ import annotations
 
+from collections.abc import Sequence
 from dataclasses import dataclass, field, replace
-from typing import Sequence
 
 from .tokenize import Tokenized
 
@@ -27,9 +29,9 @@ __all__ = ["TraceEntry", "Word"]
 
 @dataclass(frozen=True)
 class TraceEntry:
-    stage: str          # "irish" | "substitute" | "syllabify" | "repair" | "stress" | ...
-    rule_id: str        # "<section>:<line>" (I-21) or a stage id like "fallback"
-    tag: str            # "attested" | "design" | "fallback" | ""
+    stage: str  # "irish" | "substitute" | "syllabify" | "repair" | "stress" | ...
+    rule_id: str  # "<section>:<line>" (I-21) or a stage id like "fallback"
+    tag: str  # "attested" | "design" | "fallback" | ""
     before: str
     after: str
     note: str = ""
@@ -38,25 +40,25 @@ class TraceEntry:
 @dataclass(frozen=True)
 class Word:
     segments: tuple[str, ...]
-    syllables: tuple[int, ...] = ()                 # segment index each syllable starts at
-    nuclei: tuple[tuple[int, int], ...] = ()        # (start, stop) segment spans, one per nucleus
-    stress: int | None = None                       # index into `syllables`
+    syllables: tuple[int, ...] = ()  # segment index each syllable starts at
+    nuclei: tuple[tuple[int, int], ...] = ()  # (start, stop) segment spans, one per nucleus
+    stress: int | None = None  # index into `syllables`
     morphemes: frozenset[int] = frozenset()
     illegal: frozenset[int] = frozenset()
     flags: tuple[str, ...] = ()
     trace: tuple[TraceEntry, ...] = ()
-    secondary: tuple[int, ...] = ()                 # I-40: segment indices carrying ˌ; never output
-    _pending_stress: int | None = field(default=None)   # S1: segment index awaiting syllabify()
-    word_breaks: frozenset[int] = frozenset()       # spec §3: positions 0<i<len where a new
+    secondary: tuple[int, ...] = ()  # I-40: segment indices carrying ˌ; never output
+    _pending_stress: int | None = field(default=None)  # S1: segment index awaiting syllabify()
+    word_breaks: frozenset[int] = frozenset()  # spec §3: positions 0<i<len where a new
     # space-separated WORD starts. A Word carries these only through the Irish pre-pass
     # (stage 1), where an input such as *an tsúil* /ən̪ˠ t̪ˠuːlʲ/ is assembled and mutated as
     # one object; `split_words()` breaks it apart before stages 2-7, which are per-word.
-    origins: frozenset[tuple[int, str]] = frozenset()   # (segment index, rule_id) of INSERTED
+    origins: frozenset[tuple[int, str]] = frozenset()  # (segment index, rule_id) of INSERTED
     # material — provenance for `[repair] overlay-undo`, which deletes an overlay segment again
     # when the cluster it created is not licensed. Only insertion rules (empty TARGET) record
     # here; a replacement is not "inserted material". Indices shift with `replaced()`, and an
     # origin inside a replaced span is dropped with the segment.
-    orth: tuple[str, ...] = ()                      # Old Irish spec §4/§11 (plan Task 5, O-6):
+    orth: tuple[str, ...] = ()  # Old Irish spec §4/§11 (plan Task 5, O-6):
     # the per-segment ORTH TAG channel — the modern spelling unit each segment came from, as
     # set by `orth.tag_word`. Empty when no alignment was attempted or it failed (O-7);
     # otherwise EXACTLY `len(segments)` long. A multi-segment unit tags positionally
@@ -67,7 +69,7 @@ class Word:
         return self.orth[i] if self.orth else ""
 
     @classmethod
-    def from_tokenized(cls, tok: Tokenized) -> "Word":
+    def from_tokenized(cls, tok: Tokenized) -> Word:
         """Build a Word from tokenizer output. `tok.stress_index` is a SEGMENT index; it is
         parked in `_pending_stress` and converted to a syllable index by `syllabify()`
         (Task 10), so `stress` is always None here (S1). Explicit "." boundaries are kept
@@ -83,7 +85,7 @@ class Word:
             word_breaks=frozenset(i for i in tok.words if i),
         )
 
-    def split_words(self) -> list["Word"]:
+    def split_words(self) -> list[Word]:
         """One Word per `word_breaks` span (spec §3). Annotations are re-based on each
         span; the trace stays with the FIRST piece so that rejoining the pieces' traces
         (as `adapt()` does) neither loses nor double-counts an entry."""
@@ -92,30 +94,36 @@ class Word:
         bounds = [0, *sorted(self.word_breaks), len(self.segments)]
         stressed = self.syllables[self.stress] if self.stress is not None else None
         out: list[Word] = []
-        for k, (a, b) in enumerate(zip(bounds, bounds[1:])):
+        for k, (a, b) in enumerate(zip(bounds, bounds[1:], strict=False)):
             if a >= b:
                 continue
             syllables = tuple(s - a for s in self.syllables if a <= s < b)
-            stress = (syllables.index(stressed - a)
-                      if stressed is not None and a <= stressed < b
-                      and (stressed - a) in syllables else None)
-            pending = (self._pending_stress - a
-                       if self._pending_stress is not None
-                       and a <= self._pending_stress < b else None)
-            out.append(Word(
-                segments=self.segments[a:b],
-                syllables=syllables,
-                nuclei=tuple((x - a, y - a) for x, y in self.nuclei if a <= x and y <= b),
-                stress=stress,
-                morphemes=frozenset(m - a for m in self.morphemes if a < m < b),
-                illegal=frozenset(i - a for i in self.illegal if a <= i < b),
-                flags=self.flags,
-                trace=self.trace if k == 0 else (),
-                secondary=tuple(i - a for i in self.secondary if a <= i < b),
-                _pending_stress=pending,
-                origins=frozenset((i - a, r) for i, r in self.origins if a <= i < b),
-                orth=self.orth[a:b],
-            ))
+            stress = (
+                syllables.index(stressed - a)
+                if stressed is not None and a <= stressed < b and (stressed - a) in syllables
+                else None
+            )
+            pending = (
+                self._pending_stress - a
+                if self._pending_stress is not None and a <= self._pending_stress < b
+                else None
+            )
+            out.append(
+                Word(
+                    segments=self.segments[a:b],
+                    syllables=syllables,
+                    nuclei=tuple((x - a, y - a) for x, y in self.nuclei if a <= x and y <= b),
+                    stress=stress,
+                    morphemes=frozenset(m - a for m in self.morphemes if a < m < b),
+                    illegal=frozenset(i - a for i in self.illegal if a <= i < b),
+                    flags=self.flags,
+                    trace=self.trace if k == 0 else (),
+                    secondary=tuple(i - a for i in self.secondary if a <= i < b),
+                    _pending_stress=pending,
+                    origins=frozenset((i - a, r) for i, r in self.origins if a <= i < b),
+                    orth=self.orth[a:b],
+                )
+            )
         return out
 
     def ipa(self, *, marks: bool = True) -> str:
@@ -135,8 +143,9 @@ class Word:
             out.append(seg)
         return "".join(out)
 
-    def replaced(self, start: int, stop: int, new: Sequence[str], *,
-                 before_boundary: bool = False) -> "Word":
+    def replaced(
+        self, start: int, stop: int, new: Sequence[str], *, before_boundary: bool = False
+    ) -> Word:
         """Return a copy with `segments[start:stop]` replaced by `new`. Annotations before the
         span are kept, those after it are shifted by the length change, and those inside it
         are dropped — except a syllable start at exactly `start`, which survives when `new`
@@ -202,26 +211,28 @@ class Word:
             nuclei=nuclei,
             stress=stress_syll,
             morphemes=frozenset(j for i in self.morphemes if (j := boundary(i)) is not None),
-            word_breaks=frozenset(j for i in self.word_breaks
-                                  if (j := boundary(i)) is not None and 0 < j),
+            word_breaks=frozenset(
+                j for i in self.word_breaks if (j := boundary(i)) is not None and 0 < j
+            ),
             illegal=frozenset(j for i in self.illegal if (j := seg_index(i)) is not None),
-            origins=frozenset((j, rid) for i, rid in self.origins
-                              if (j := seg_index(i)) is not None),
+            origins=frozenset(
+                (j, rid) for i, rid in self.origins if (j := seg_index(i)) is not None
+            ),
             secondary=tuple(j for i in self.secondary if (j := seg_index(i)) is not None),
             _pending_stress=pending,
             orth=orth,
         )
 
-    def with_origins(self, indices: "Sequence[int]", rule_id: str) -> "Word":
+    def with_origins(self, indices: Sequence[int], rule_id: str) -> Word:
         """Record `indices` as segments inserted by `rule_id` (provenance for overlay-undo)."""
         if not indices:
             return self
         return replace(self, origins=self.origins | {(i, rule_id) for i in indices})
 
-    def traced(self, entry: TraceEntry) -> "Word":
+    def traced(self, entry: TraceEntry) -> Word:
         return replace(self, trace=self.trace + (entry,))
 
-    def with_flag(self, flag: str) -> "Word":
+    def with_flag(self, flag: str) -> Word:
         if flag in self.flags:
             return self
         return replace(self, flags=self.flags + (flag,))

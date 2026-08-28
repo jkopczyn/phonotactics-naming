@@ -1,15 +1,17 @@
 """Plan Task 11: the unconditional repair loop and `cluster-fallback` (spec §12.A, §12.E)."""
-import pytest
 
+import pytest
 from helpers import TABLE, w
+
 from strands.dsl import ParseError, parse_rules
-from strands.repair import (MAX_REPAIR_PASSES, cluster_fallback, cluster_keep,
-                            overlay_undo, repair)
+from strands.repair import MAX_REPAIR_PASSES, cluster_fallback, cluster_keep, overlay_undo, repair
 from strands.syllabify import syllabify
 
-SRC = ("[inventory]\ns k i a t d\n[syllable]\ntemplate = (C)N(C)\nonsets = s k i t d\n"
-       "codas = s k t\nsonority = off\n"
-       "[repair]\n0 -> i / # _ s [C -sonorant]   %attested\nd -> t / _ #   %attested\n")
+SRC = (
+    "[inventory]\ns k i a t d\n[syllable]\ntemplate = (C)N(C)\nonsets = s k i t d\n"
+    "codas = s k t\nsonority = off\n"
+    "[repair]\n0 -> i / # _ s [C -sonorant]   %attested\nd -> t / _ #   %attested\n"
+)
 
 
 def test_repair_fixes_an_illegal_onset_and_clears_the_mark():
@@ -33,8 +35,10 @@ def test_resyllabification_happens_after_a_count_changing_rule():
 
 def test_count_preserving_repair_can_clear_illegality():
     """The draft-1 loop could not do this; §12.A's re-syllabify-after-any-change can."""
-    src = ("[inventory]\np t a\n[syllable]\ntemplate = (C)N(C)\nonsets = t\ncodas = t\n"
-           "sonority = off\n[repair]\np -> t   %design\n")
+    src = (
+        "[inventory]\np t a\n[syllable]\ntemplate = (C)N(C)\nonsets = t\ncodas = t\n"
+        "sonority = off\n[repair]\np -> t   %design\n"
+    )
     rf = parse_rules(src, TABLE)
     out = repair(syllabify(w("pa"), rf, TABLE), rf, TABLE)
     assert out.illegal == frozenset() and "UNREPAIRED" not in out.flags
@@ -49,28 +53,34 @@ def test_repair_trace_entries_carry_the_stage_and_rule_id():
 
 
 def test_unrepairable_word_is_flagged_and_the_loop_terminates():
-    src = ("[inventory]\nk t a\n[syllable]\ntemplate = (C)N\nonsets = k\ncodas = k\n"
-           "sonority = off\n[repair]\nk -> k   %design\n")
+    src = (
+        "[inventory]\nk t a\n[syllable]\ntemplate = (C)N\nonsets = k\ncodas = k\n"
+        "sonority = off\n[repair]\nk -> k   %design\n"
+    )
     rf = parse_rules(src, TABLE)
     out = repair(syllabify(w("kta"), rf, TABLE), rf, TABLE)
     assert "UNREPAIRED" in out.flags
 
 
 def test_cycle_detection_stops_an_oscillating_rule_set():
-    src = ("[inventory]\na b\n[syllable]\ntemplate = N\nonsets = any\ncodas = any\n"
-           "sonority = off\nbans = a\n[repair]\na -> b   %design\nb -> a   %design\n")
+    src = (
+        "[inventory]\na b\n[syllable]\ntemplate = N\nonsets = any\ncodas = any\n"
+        "sonority = off\nbans = a\n[repair]\na -> b   %design\nb -> a   %design\n"
+    )
     rf = parse_rules(src, TABLE)
     out = repair(syllabify(w("a"), rf, TABLE), rf, TABLE)
     assert "UNREPAIRED" in out.flags
-    assert len([t for t in out.trace if t.stage == "repair"]) < 100   # bounded, not runaway
+    assert len([t for t in out.trace if t.stage == "repair"]) < 100  # bounded, not runaway
     # the string returned to its starting point after one pass: cycle detected, one pass run
     assert len([t for t in out.trace if t.stage == "repair"]) == 2
 
 
 def test_pass_cap_bounds_a_rule_set_that_keeps_changing():
     """A word that grows every pass never repeats a string; only the cap stops it."""
-    src = ("[inventory]\na b\n[syllable]\ntemplate = N\nonsets = any\ncodas = any\n"
-           "sonority = off\nbans = a\n[repair]\n0 -> b / _ #   %design\n")
+    src = (
+        "[inventory]\na b\n[syllable]\ntemplate = N\nonsets = any\ncodas = any\n"
+        "sonority = off\nbans = a\n[repair]\n0 -> b / _ #   %design\n"
+    )
     rf = parse_rules(src, TABLE)
     out = repair(syllabify(w("a"), rf, TABLE), rf, TABLE)
     assert "UNREPAIRED" in out.flags
@@ -78,8 +88,10 @@ def test_pass_cap_bounds_a_rule_set_that_keeps_changing():
 
 
 def test_repair_without_a_repair_section_is_a_no_op_on_a_legal_word():
-    rf = parse_rules("[inventory]\nk a\n[syllable]\ntemplate = (C)N\nonsets = k\ncodas = any\n"
-                     "sonority = off\n", TABLE)
+    rf = parse_rules(
+        "[inventory]\nk a\n[syllable]\ntemplate = (C)N\nonsets = k\ncodas = any\nsonority = off\n",
+        TABLE,
+    )
     x = syllabify(w("ka"), rf, TABLE)
     assert repair(x, rf, TABLE) == x
 
@@ -88,8 +100,10 @@ def test_cluster_fallback_replaces_an_illegal_span_with_a_same_length_attested_c
     """Spec §12.E — synthetic, as no attested Georgian example exists. `tl` is exactly
     two features from both `pl` and `kl` (plan S2: the real winner was computed), so list
     order decides and `pl`, listed first, wins."""
-    src = ("[inventory]\np t k s l a\n[syllable]\ntemplate = (C)(C)N\nonsets = p t k s l pl kl\n"
-           "codas = any\nsonority = off\n[repair]\ncluster-fallback = same-length\n")
+    src = (
+        "[inventory]\np t k s l a\n[syllable]\ntemplate = (C)(C)N\nonsets = p t k s l pl kl\n"
+        "codas = any\nsonority = off\n[repair]\ncluster-fallback = same-length\n"
+    )
     rf = parse_rules(src, TABLE)
     assert TABLE.distance("t", "p") == TABLE.distance("t", "k")
     out = repair(syllabify(w("tla"), rf, TABLE), rf, TABLE)
@@ -99,8 +113,10 @@ def test_cluster_fallback_replaces_an_illegal_span_with_a_same_length_attested_c
 
 
 def test_cluster_fallback_ties_break_by_list_order():
-    src = ("[inventory]\np t k s l a\n[syllable]\ntemplate = (C)(C)N\nonsets = p t k s l kl pl\n"
-           "codas = any\nsonority = off\n[repair]\ncluster-fallback = same-length\n")
+    src = (
+        "[inventory]\np t k s l a\n[syllable]\ntemplate = (C)(C)N\nonsets = p t k s l kl pl\n"
+        "codas = any\nsonority = off\n[repair]\ncluster-fallback = same-length\n"
+    )
     rf = parse_rules(src, TABLE)
     # `sl` is equidistant (4.0) from `kl` and `pl`; `kl` is listed first here.
     assert TABLE.distance("s", "k") == TABLE.distance("s", "p")
@@ -109,8 +125,10 @@ def test_cluster_fallback_ties_break_by_list_order():
 
 
 def test_cluster_fallback_handles_a_coda_span():
-    src = ("[inventory]\np t k l a\n[syllable]\ntemplate = (C)N(C)(C)\nonsets = p t k l\n"
-           "codas = p t k l lp lt\nsonority = off\n[repair]\ncluster-fallback = same-length\n")
+    src = (
+        "[inventory]\np t k l a\n[syllable]\ntemplate = (C)N(C)(C)\nonsets = p t k l\n"
+        "codas = p t k l lp lt\nsonority = off\n[repair]\ncluster-fallback = same-length\n"
+    )
     rf = parse_rules(src, TABLE)
     out = repair(syllabify(w("alk"), rf, TABLE), rf, TABLE)
     # `lk` is equidistant from `lp` and `lt`; `lp` is listed first.
@@ -118,8 +136,10 @@ def test_cluster_fallback_handles_a_coda_span():
 
 
 def test_cluster_fallback_trace_entry_shape():
-    src = ("[inventory]\np t k s l a\n[syllable]\ntemplate = (C)(C)N\nonsets = p t k s l pl kl\n"
-           "codas = any\nsonority = off\n[repair]\ncluster-fallback = same-length\n")
+    src = (
+        "[inventory]\np t k s l a\n[syllable]\ntemplate = (C)(C)N\nonsets = p t k s l pl kl\n"
+        "codas = any\nsonority = off\n[repair]\ncluster-fallback = same-length\n"
+    )
     rf = parse_rules(src, TABLE)
     out = cluster_fallback(syllabify(w("tla"), rf, TABLE), rf, TABLE)
     (t,) = [t for t in out.trace if t.tag == "fallback"]
@@ -127,15 +147,19 @@ def test_cluster_fallback_trace_entry_shape():
 
 
 def test_cluster_fallback_with_no_candidate_leaves_unrepaired():
-    src = ("[inventory]\np t l a\n[syllable]\ntemplate = (C)(C)(C)N\nonsets = p t l\n"
-           "codas = any\nsonority = off\n[repair]\ncluster-fallback = same-length\n")
+    src = (
+        "[inventory]\np t l a\n[syllable]\ntemplate = (C)(C)(C)N\nonsets = p t l\n"
+        "codas = any\nsonority = off\n[repair]\ncluster-fallback = same-length\n"
+    )
     rf = parse_rules(src, TABLE)
     assert "UNREPAIRED" in repair(syllabify(w("ptla"), rf, TABLE), rf, TABLE).flags
 
 
 def test_cluster_fallback_is_off_unless_declared():
-    src = ("[inventory]\np t k s l a\n[syllable]\ntemplate = (C)(C)N\nonsets = p t k s l pl kl\n"
-           "codas = any\nsonority = off\n")
+    src = (
+        "[inventory]\np t k s l a\n[syllable]\ntemplate = (C)(C)N\nonsets = p t k s l pl kl\n"
+        "codas = any\nsonority = off\n"
+    )
     rf = parse_rules(src, TABLE)
     x = syllabify(w("tla"), rf, TABLE)
     assert cluster_fallback(x, rf, TABLE) == x
@@ -150,8 +174,10 @@ def test_repair_is_deterministic():
 
 # ---- cluster-fallback = keep (owner decision 2026-08-25; digest §3.7) ---------------------------
 
-KEEP_SRC = ("[inventory]\np t k s l a\n[syllable]\ntemplate = (C)(C)N\nonsets = p t k s l pl kl\n"
-            "codas = any\nsonority = off\n[repair]\ncluster-fallback = keep\n")
+KEEP_SRC = (
+    "[inventory]\np t k s l a\n[syllable]\ntemplate = (C)(C)N\nonsets = p t k s l pl kl\n"
+    "codas = any\nsonority = off\n[repair]\ncluster-fallback = keep\n"
+)
 
 
 def test_cluster_keep_leaves_the_span_unchanged_and_clears_the_marks():
@@ -184,13 +210,16 @@ def test_cluster_keep_trace_entry_shape():
     (t,) = [t for t in out.trace if t.rule_id == "cluster-keep"]
     assert (t.stage, t.rule_id, t.tag) == ("repair", "cluster-keep", "design")
     assert (t.before, t.after) == ("tla", "tla")
-    assert t.note == ("tl: unattested cluster kept (Georgian imports foreign clusters intact; "
-                      "digest §3.7)")
+    assert t.note == (
+        "tl: unattested cluster kept (Georgian imports foreign clusters intact; digest §3.7)"
+    )
 
 
 def test_cluster_keep_handles_a_coda_span():
-    src = ("[inventory]\np t k l a\n[syllable]\ntemplate = (C)N(C)(C)\nonsets = p t k l\n"
-           "codas = p t k l lp lt\nsonority = off\n[repair]\ncluster-fallback = keep\n")
+    src = (
+        "[inventory]\np t k l a\n[syllable]\ntemplate = (C)N(C)(C)\nonsets = p t k l\n"
+        "codas = p t k l lp lt\nsonority = off\n[repair]\ncluster-fallback = keep\n"
+    )
     rf = parse_rules(src, TABLE)
     out = repair(syllabify(w("alk"), rf, TABLE), rf, TABLE)
     assert out.segments == ("a", "l", "k") and out.illegal == frozenset()
@@ -198,18 +227,24 @@ def test_cluster_keep_handles_a_coda_span():
 
 
 def test_cluster_keep_flags_one_cluster_per_span():
-    src = ("[inventory]\np t k l a\n[syllable]\ntemplate = (C)(C)N(C)(C)\nonsets = p t k l tl\n"
-           "codas = p t k l lp\nsonority = off\n[repair]\ncluster-fallback = keep\n")
+    src = (
+        "[inventory]\np t k l a\n[syllable]\ntemplate = (C)(C)N(C)(C)\nonsets = p t k l tl\n"
+        "codas = p t k l lp\nsonority = off\n[repair]\ncluster-fallback = keep\n"
+    )
     rf = parse_rules(src, TABLE)
     out = repair(syllabify(w("plalk"), rf, TABLE), rf, TABLE)
     assert out.segments == ("p", "l", "a", "l", "k")
-    assert [f for f in out.flags if f.startswith("UNATTESTED_CLUSTER")] == \
-        ["UNATTESTED_CLUSTER:pl", "UNATTESTED_CLUSTER:lk"]
+    assert [f for f in out.flags if f.startswith("UNATTESTED_CLUSTER")] == [
+        "UNATTESTED_CLUSTER:pl",
+        "UNATTESTED_CLUSTER:lk",
+    ]
 
 
 def test_cluster_keep_is_off_unless_declared():
-    src = ("[inventory]\np t k s l a\n[syllable]\ntemplate = (C)(C)N\nonsets = p t k s l pl kl\n"
-           "codas = any\nsonority = off\n")
+    src = (
+        "[inventory]\np t k s l a\n[syllable]\ntemplate = (C)(C)N\nonsets = p t k s l pl kl\n"
+        "codas = any\nsonority = off\n"
+    )
     rf = parse_rules(src, TABLE)
     x = syllabify(w("tla"), rf, TABLE)
     assert cluster_keep(x, rf, TABLE) == x
@@ -217,22 +252,27 @@ def test_cluster_keep_is_off_unless_declared():
 
 
 def test_cluster_fallback_directive_rejects_an_unknown_value():
-    src = ("[inventory]\np a\n[syllable]\ntemplate = (C)N\nonsets = p\ncodas = any\n"
-           "sonority = off\n[repair]\ncluster-fallback = nearest\n")
+    src = (
+        "[inventory]\np a\n[syllable]\ntemplate = (C)N\nonsets = p\ncodas = any\n"
+        "sonority = off\n[repair]\ncluster-fallback = nearest\n"
+    )
     with pytest.raises(ParseError):
         parse_rules(src, TABLE)
 
 
 # ---- overlay-undo (owner decision 2026-08-25) ---------------------------------------------------
 
-UNDO_SRC = ("[inventory]\nn v i r m\n[substitute]\n0 -> v / {n r} _ i   %design\n"
-            "[syllable]\ntemplate = (C)(C)(C)N(C)\nonsets = n v r m nr nrv rv\ncodas = m\n"
-            "sonority = off\n[repair]\noverlay-undo = v\ncluster-fallback = keep\n")
+UNDO_SRC = (
+    "[inventory]\nn v i r m\n[substitute]\n0 -> v / {n r} _ i   %design\n"
+    "[syllable]\ntemplate = (C)(C)(C)N(C)\nonsets = n v r m nr nrv rv\ncodas = m\n"
+    "sonority = off\n[repair]\noverlay-undo = v\ncluster-fallback = keep\n"
+)
 
 
 def _substituted(src, ipa):
     rf = parse_rules(src, TABLE)
     from strands.substitute import substitute_stage
+
     return rf, syllabify(substitute_stage(w(ipa), rf, TABLE), rf, TABLE)
 
 
@@ -281,7 +321,8 @@ def test_overlay_undo_only_deletes_segments_the_substitute_stage_inserted():
 
 def test_overlay_undo_is_off_unless_declared():
     src = UNDO_SRC.replace("overlay-undo = v\n", "").replace(
-        "onsets = n v r m nr nrv rv", "onsets = n v r m nr rv")
+        "onsets = n v r m nr nrv rv", "onsets = n v r m nr rv"
+    )
     rf, x = _substituted(src, "ni")
     assert overlay_undo(x, rf, TABLE) is x
     out = repair(x, rf, TABLE)

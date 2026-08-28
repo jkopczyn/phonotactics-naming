@@ -16,6 +16,7 @@ with a blank `stem` or `gender` that does not explain itself: a `note` starting
 `no nominal paradigm:` (adjective / numeral / prefix / phrase) or `unattested:` (a noun whose
 class the cited sources do not show; Task 14 infers and tags it, O-33) is exempt.
 """
+
 from __future__ import annotations
 
 import re
@@ -24,13 +25,33 @@ from dataclasses import dataclass
 from pathlib import Path
 
 __all__ = [
-    "EXEMPT_NOTE_PREFIXES", "FORM_STATUSES", "GENDERS", "KINDS", "LEXICON_COLUMNS", "STATUSES", "STEMS",
-    "LexEntry", "LexiconError", "default_lexicon_path", "key", "read_lexicon", "read_rows",
+    "EXEMPT_NOTE_PREFIXES",
+    "FORM_STATUSES",
+    "GENDERS",
+    "KINDS",
+    "LEXICON_COLUMNS",
+    "STATUSES",
+    "STEMS",
+    "LexEntry",
+    "LexiconError",
+    "default_lexicon_path",
+    "key",
+    "read_lexicon",
+    "read_rows",
     "validate",
 ]
 
-LEXICON_COLUMNS = ("orthography", "oi_nom", "oi_gen", "stem", "gender", "status",
-                   "kind", "source", "note")
+LEXICON_COLUMNS = (
+    "orthography",
+    "oi_nom",
+    "oi_gen",
+    "stem",
+    "gender",
+    "status",
+    "kind",
+    "source",
+    "note",
+)
 STEMS = ("o", "ā", "i", "u", "n", "dental", "velar", "r", "s", "indecl", "irregular")
 GENDERS = ("m", "f", "n")
 STATUSES = ("attested", "middle", "none")
@@ -62,7 +83,7 @@ class LexEntry:
     source: str = ""
     note: str = ""
     line: int = 0
-    cells: int = len(LEXICON_COLUMNS)   # the row's ACTUAL cell count (LEX_ROW_SHAPE)
+    cells: int = len(LEXICON_COLUMNS)  # the row's ACTUAL cell count (LEX_ROW_SHAPE)
 
     @property
     def flag(self) -> str:
@@ -108,8 +129,7 @@ def read_rows(path: str | Path | None = None) -> tuple[list[str], list[LexEntry]
             continue
         cells = [c.strip() for c in line.split("\t")]
         width = len(LEXICON_COLUMNS)
-        entries.append(LexEntry(*(cells + [""] * width)[:width], line=lineno,
-                                cells=len(cells)))
+        entries.append(LexEntry(*(cells + [""] * width)[:width], line=lineno, cells=len(cells)))
     return header, entries
 
 
@@ -121,8 +141,10 @@ def read_lexicon(path: str | Path | None = None) -> dict[str, LexEntry]:
     errors = [e for e in validate(header, entries, path) if e.severity == "error"]
     if errors:
         first = errors[0]
-        raise LexiconError(f"{path}:{first.line}: {first.code}: {first.message}"
-                           + (f" (+{len(errors) - 1} more)" if len(errors) > 1 else ""))
+        raise LexiconError(
+            f"{path}:{first.line}: {first.code}: {first.message}"
+            + (f" (+{len(errors) - 1} more)" if len(errors) > 1 else "")
+        )
     return {key(e.orthography): e for e in entries}
 
 
@@ -137,21 +159,22 @@ def validate(header: list[str], entries: list[LexEntry], path: str | Path | None
         out.append(CheckError(line, code, message, severity))
 
     if tuple(header) != LEXICON_COLUMNS:
-        add(1, "LEX_HEADER",
-            f"header is {header!r}; expected {list(LEXICON_COLUMNS)!r}")
+        add(1, "LEX_HEADER", f"header is {header!r}; expected {list(LEXICON_COLUMNS)!r}")
 
     seen: dict[str, int] = {}
     for e in entries:
         if e.cells != len(LEXICON_COLUMNS):
-            add(e.line, "LEX_ROW_SHAPE",
+            add(
+                e.line,
+                "LEX_ROW_SHAPE",
                 f"{e.orthography!r}: {e.cells} tab-separated cells; expected "
-                f"{len(LEXICON_COLUMNS)}")
+                f"{len(LEXICON_COLUMNS)}",
+            )
         k = key(e.orthography)
         if not k:
             add(e.line, "LEX_NO_KEY", "empty orthography")
         elif k in seen:
-            add(e.line, "LEX_DUPLICATE_KEY",
-                f"key {k!r} already on line {seen[k]}")
+            add(e.line, "LEX_DUPLICATE_KEY", f"key {k!r} already on line {seen[k]}")
         else:
             seen[k] = e.line
 
@@ -160,9 +183,12 @@ def validate(header: list[str], entries: list[LexEntry], path: str | Path | None
         if not e.source:
             add(e.line, "LEX_NO_SOURCE", f"{e.orthography!r}: no source cited")
         elif not any(p.match(e.source) for p in _SOURCE_SHAPES):
-            add(e.line, "LEX_SOURCE_SHAPE",
+            add(
+                e.line,
+                "LEX_SOURCE_SHAPE",
                 f"{e.orthography!r}: source {e.source!r} is not a URL, 'digest §10.n', "
-                "'strachan1909 p.N' or 'pokorny1914 p.N'")
+                "'strachan1909 p.N' or 'pokorny1914 p.N'",
+            )
         if e.stem and e.stem not in STEMS:
             add(e.line, "LEX_STEM", f"{e.orthography!r}: stem {e.stem!r} not in {STEMS}")
         if e.gender and e.gender not in GENDERS:
@@ -170,25 +196,40 @@ def validate(header: list[str], entries: list[LexEntry], path: str | Path | None
 
         if e.status in FORM_STATUSES:
             if not e.oi_nom:
-                add(e.line, "LEX_ATTESTED_NO_NOM",
-                    f"{e.orthography!r}: status {e.status} but no oi_nom")
+                add(
+                    e.line,
+                    "LEX_ATTESTED_NO_NOM",
+                    f"{e.orthography!r}: status {e.status} but no oi_nom",
+                )
             if e.kind:
-                add(e.line, "LEX_KIND_ON_FORM_ROW",
-                    f"{e.orthography!r}: kind {e.kind!r} on a {e.status} row")
+                add(
+                    e.line,
+                    "LEX_KIND_ON_FORM_ROW",
+                    f"{e.orthography!r}: kind {e.kind!r} on a {e.status} row",
+                )
             if (not e.stem or not e.gender) and not e.note.startswith(EXEMPT_NOTE_PREFIXES):
-                add(e.line, "LEX_NEEDS_TASK3",
+                add(
+                    e.line,
+                    "LEX_NEEDS_TASK3",
                     f"{e.orthography!r}: stem={e.stem or '-'} gender={e.gender or '-'} "
-                    "(blank, and the note does not explain it)", "warning")
+                    "(blank, and the note does not explain it)",
+                    "warning",
+                )
         elif e.status == "none":
             if e.oi_nom or e.oi_gen or e.stem or e.gender:
-                add(e.line, "LEX_NONE_HAS_FORM",
-                    f"{e.orthography!r}: status none but carries a form/stem/gender")
+                add(
+                    e.line,
+                    "LEX_NONE_HAS_FORM",
+                    f"{e.orthography!r}: status none but carries a form/stem/gender",
+                )
             if e.kind not in KINDS:
-                add(e.line, "LEX_NONE_NO_KIND",
-                    f"{e.orthography!r}: status none needs kind in {KINDS}")
+                add(
+                    e.line,
+                    "LEX_NONE_NO_KIND",
+                    f"{e.orthography!r}: status none needs kind in {KINDS}",
+                )
         if e.stem == "irregular" and not e.oi_gen:
-            add(e.line, "LEX_IRREGULAR_NO_GEN",
-                f"{e.orthography!r}: stem irregular needs oi_gen")
+            add(e.line, "LEX_IRREGULAR_NO_GEN", f"{e.orthography!r}: stem irregular needs oi_gen")
 
     out.sort(key=lambda c: (c.line, c.code))
     return out

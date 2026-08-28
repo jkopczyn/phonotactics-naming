@@ -1,4 +1,5 @@
 """Task 4: immutable Word model and derivation trace."""
+
 import dataclasses
 
 import pytest
@@ -36,8 +37,16 @@ def test_replaced_drops_marks_inside_the_span():
 
 
 def test_replaced_shifts_syllables_nuclei_and_illegal_after_the_span():
-    x = w("p", "a", "t", "a", syllables=(0, 2), nuclei=((1, 2), (3, 4)), stress=1,
-          illegal=frozenset({3}))
+    x = w(
+        "p",
+        "a",
+        "t",
+        "a",
+        syllables=(0, 2),
+        nuclei=((1, 2), (3, 4)),
+        stress=1,
+        illegal=frozenset({3}),
+    )
     y = x.replaced(0, 1, ("s", "p"))
     assert y.segments == ("s", "p", "a", "t", "a")
     assert y.syllables == (0, 3) and y.nuclei == ((2, 3), (4, 5))
@@ -78,8 +87,11 @@ def test_traced_appends_and_is_immutable():
 
 
 def test_fallback_count():
-    x = (w("a").traced(TraceEntry("substitute", "fallback", "fallback", "q", "k"))
-              .traced(TraceEntry("substitute", "substitute:1", "attested", "p", "b")))
+    x = (
+        w("a")
+        .traced(TraceEntry("substitute", "fallback", "fallback", "q", "k"))
+        .traced(TraceEntry("substitute", "substitute:1", "attested", "p", "b"))
+    )
     assert x.fallback_count() == 1
 
 
@@ -95,14 +107,15 @@ def test_word_is_hashable_and_frozen():
 
 def test_replaced_insertion_can_sit_before_a_morpheme_boundary():
     x = w("p", morphemes=frozenset({1}))
-    assert x.replaced(1, 1, ("i",)).morphemes == frozenset({1})                          # $ i
-    assert x.replaced(1, 1, ("i",), before_boundary=True).morphemes == frozenset({2})    # i $
+    assert x.replaced(1, 1, ("i",)).morphemes == frozenset({1})  # $ i
+    assert x.replaced(1, 1, ("i",), before_boundary=True).morphemes == frozenset({2})  # i $
     # a non-empty span: a boundary at `start` stays put either way
     y = w("p", "a", morphemes=frozenset({1}))
     assert y.replaced(1, 2, ("i", "u"), before_boundary=True).morphemes == frozenset({1})
 
 
 # ---- origins: provenance of inserted segments (overlay-undo, spec §12.E note) -------------------
+
 
 def test_origins_shift_with_later_annotations():
     x = w("n", "v", "i", origins=frozenset({(1, "substitute:65")}))

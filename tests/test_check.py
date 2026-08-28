@@ -1,8 +1,9 @@
 """Plan Task 6: `strands check` static checks and the stress-parameter registry (I-17)."""
-import pytest
-from helpers import TABLE, FIXTURES
-from strands.dsl import parse_rules, parse_rules_file
+
+from helpers import FIXTURES, TABLE
+
 from strands.check import check_rule_file
+from strands.dsl import parse_rules, parse_rules_file
 
 
 def codes(src):
@@ -14,8 +15,9 @@ def test_clean_file_has_no_findings():
 
 
 def test_undeclared_class_reported_with_its_line():
-    errs = check_rule_file(parse_rules("[inventory]\np b\n[substitute]\np -> b / _ NOSUCH\n",
-                                       TABLE), TABLE)
+    errs = check_rule_file(
+        parse_rules("[inventory]\np b\n[substitute]\np -> b / _ NOSUCH\n", TABLE), TABLE
+    )
     assert errs[0].code == "UNKNOWN_CLASS" and errs[0].line == 4
 
 
@@ -38,7 +40,8 @@ def test_epenthesis_without_context():
 
 def test_unknown_stress_parameter():
     assert "UNKNOWN_STRESS_PARAM" in codes(
-        "[inventory]\np\n[stress]\nprocedure = penult\nwindow = 3\n")
+        "[inventory]\np\n[stress]\nprocedure = penult\nwindow = 3\n"
+    )
 
 
 def test_known_stress_parameter_passes():
@@ -70,8 +73,7 @@ def test_defined_backreference_is_clean():
 
 
 def test_unknown_class_in_ban_and_subtable():
-    src = ("[inventory]\np a\n[syllable]\nbans = NOSUCH a\n"
-           "[mutations]\nLEN:\np -> a / _ OTHER\n")
+    src = "[inventory]\np a\n[syllable]\nbans = NOSUCH a\n[mutations]\nLEN:\np -> a / _ OTHER\n"
     assert codes(src) == ["UNKNOWN_CLASS", "UNKNOWN_CLASS"]
 
 
@@ -87,8 +89,9 @@ def test_mini_fixture_has_no_errors():
 
 
 def test_registry_is_data_only():
-    from strands.stress.params import PROCEDURE_PARAMS
     from strands.dsl import STRESS_PROCEDURES
+    from strands.stress.params import PROCEDURE_PARAMS
+
     assert set(PROCEDURE_PARAMS) == set(STRESS_PROCEDURES)
     assert PROCEDURE_PARAMS["penult"] == frozenset()
     assert "window" in PROCEDURE_PARAMS["dutch-weight"]
@@ -97,22 +100,25 @@ def test_registry_is_data_only():
 
 def test_cli_check_exit_codes(tmp_path, capsys):
     from strands.cli import main
-    bad = tmp_path / "x.rules"; bad.write_text("[inventory]\np a\n[substitute]\n0 -> a\n",
-                                               encoding="utf-8")
+
+    bad = tmp_path / "x.rules"
+    bad.write_text("[inventory]\np a\n[substitute]\n0 -> a\n", encoding="utf-8")
     assert main(["check", str(bad)]) == 1
     assert "EPENTHESIS_NO_CONTEXT" in capsys.readouterr().err
-    warn = tmp_path / "w.rules"; warn.write_text("[inventory]\np\n[substitute]\np -> b\n",
-                                                 encoding="utf-8")
-    assert main(["check", str(warn)]) == 0        # warnings alone do not fail
+    warn = tmp_path / "w.rules"
+    warn.write_text("[inventory]\np\n[substitute]\np -> b\n", encoding="utf-8")
+    assert main(["check", str(warn)]) == 0  # warnings alone do not fail
     assert "OFF_INVENTORY" in capsys.readouterr().err
-    ok = tmp_path / "y.rules"; ok.write_text("[inventory]\np b\n[substitute]\np -> b\n",
-                                             encoding="utf-8")
+    ok = tmp_path / "y.rules"
+    ok.write_text("[inventory]\np b\n[substitute]\np -> b\n", encoding="utf-8")
     assert main(["check", str(ok)]) == 0
 
 
 def test_cli_check_parse_error_exits_1(tmp_path, capsys):
     from strands.cli import main
-    bad = tmp_path / "x.rules"; bad.write_text("p -> b\n", encoding="utf-8")
+
+    bad = tmp_path / "x.rules"
+    bad.write_text("p -> b\n", encoding="utf-8")
     assert main(["check", str(bad)]) == 1
     assert "x.rules:1:" in capsys.readouterr().err
 
@@ -122,7 +128,7 @@ def test_unreachable_change_for_any_segment_a_target_position_can_match():
     check must flag a bundle that fails for any segment any target position can match —
     not pass because the first position's first candidate succeeds."""
     src = "[inventory]\na b\n[substitute]\na b -> [+syllabic]\n"
-    assert "UNREACHABLE_CHANGE" in codes(src)              # `b` has no [+syllabic] row
+    assert "UNREACHABLE_CHANGE" in codes(src)  # `b` has no [+syllabic] row
     assert "UNREACHABLE_CHANGE" in codes("[inventory]\nk kʼ\n[substitute]\n{k kʼ} -> [+voice]\n")
     assert "UNREACHABLE_CHANGE" not in codes("[inventory]\nk p\n[substitute]\n{k p} -> [+voice]\n")
     assert "UNREACHABLE_CHANGE" not in codes("[inventory]\nk p\n[substitute]\nk p -> [+voice]\n")

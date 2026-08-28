@@ -1,10 +1,11 @@
 """Task 16: the filter regression (spec §7, §11). A low rate is a finding, not a failure —
 see the module docstring in oldirish.py."""
+
 import json
 
 import pytest
-
 from helpers import ROOT, TABLE, irish, read_test_words, target
+
 from strands.inputs import Entry, infer
 from strands.lexicon import FORM_STATUSES, key, read_lexicon
 from strands.oldirish import REVERSAL_CLASSES, filter_regression
@@ -14,9 +15,15 @@ IRISH = irish()
 OI = target("old-irish")
 LEX = read_lexicon()
 RATCHET = ROOT / "tests" / "ratchets" / "old-irish.json"
-ENTRIES = [infer(Entry(orthography=r["orthography"], ipa=r["ipa"],
-                       dialect=r.get("dialect") or "C"), IRISH, TABLE)
-           for r in read_test_words() if r["ipa"]]
+ENTRIES = [
+    infer(
+        Entry(orthography=r["orthography"], ipa=r["ipa"], dialect=r.get("dialect") or "C"),
+        IRISH,
+        TABLE,
+    )
+    for r in read_test_words()
+    if r["ipa"]
+]
 REPORT = filter_regression(ENTRIES, LEX, OI, IRISH, TABLE)
 
 
@@ -81,4 +88,4 @@ def test_a_g2p_widens_the_population_without_moving_the_ratchet():
     assert len(wide.rows) > len(REPORT.rows)
     assert wide.rate(0, constructed=False) == REPORT.rate(0)
     assert any(r.constructed for r in wide.rows)
-    assert wide.by_class()["ao"][1] >= 15        # R2: O1 is measurable only here
+    assert wide.by_class()["ao"][1] >= 15  # R2: O1 is measurable only here

@@ -35,6 +35,7 @@ Known limits, reported as notes rather than hidden: lexical noninitial stress (*
 statement, which its own examples do not apply consistently; sandhi between words is not
 modelled.
 """
+
 from __future__ import annotations
 
 import unicodedata
@@ -67,40 +68,40 @@ _PROCLITIC_IPA = {"an": "ən̪ˠ", "na": "n̪ˠə", "a": "ə", "mo": "mˠə"}
 # [wiki-irish-orthography §Grapheme to phoneme correspondence], consonant rows, Connacht column.
 # Value: (broad, slender). `None` means "silent". Longest match wins inside a consonant run.
 _CONSONANTS: dict[str, tuple[str, str]] = {
-    "bhf": ("w", "vʲ"),        # eclipsis of ⟨f⟩: bhfuinneog /ˈwɪn̠ʲoːɡ/, bhfíon /vʲiːnˠ/
-    "bh": ("w", "vʲ"),         # bhain /wanʲ/, bhéal /vʲeːlˠ/
-    "mh": ("w", "vʲ"),         # mhór /woːɾˠ/, mhilis /ˈvʲɪlʲəʃ/
-    "ph": ("fˠ", "fʲ"),        # pholl /fˠoːl̪ˠ/, phríosún /ˈfʲɾʲiːsˠuːnˠ/
-    "ch": ("x", "ç"),          # cháis /xaːʃ/, cheist /çɛʃtʲ/
-    "fh": (None, None),        # fhuinneog /ˈɪn̠ʲoːɡ/ — silent
+    "bhf": ("w", "vʲ"),  # eclipsis of ⟨f⟩: bhfuinneog /ˈwɪn̠ʲoːɡ/, bhfíon /vʲiːnˠ/
+    "bh": ("w", "vʲ"),  # bhain /wanʲ/, bhéal /vʲeːlˠ/
+    "mh": ("w", "vʲ"),  # mhór /woːɾˠ/, mhilis /ˈvʲɪlʲəʃ/
+    "ph": ("fˠ", "fʲ"),  # pholl /fˠoːl̪ˠ/, phríosún /ˈfʲɾʲiːsˠuːnˠ/
+    "ch": ("x", "ç"),  # cháis /xaːʃ/, cheist /çɛʃtʲ/
+    "fh": (None, None),  # fhuinneog /ˈɪn̠ʲoːɡ/ — silent
     "b": ("bˠ", "bʲ"),
     "c": ("k", "c"),
     "d": ("d̪ˠ", "dʲ"),
     "f": ("fˠ", "fʲ"),
     "g": ("ɡ", "ɟ"),
-    "h": ("h", "h"),           # hata /ˈhat̪ˠə/, na héisc /n̪ˠə heːʃc/
-    "j": ("dʒ", "dʒ"),         # loan consonant
+    "h": ("h", "h"),  # hata /ˈhat̪ˠə/, na héisc /n̪ˠə heːʃc/
+    "j": ("dʒ", "dʒ"),  # loan consonant
     "k": ("k", "c"),
-    "ll": ("l̪ˠ", "l̠ʲ"),        # poll /pˠoːl̪ˠ/, coill /kəil̠ʲ/
+    "ll": ("l̪ˠ", "l̠ʲ"),  # poll /pˠoːl̪ˠ/, coill /kəil̠ʲ/
     "m": ("mˠ", "mʲ"),
-    "nn": ("n̪ˠ", "n̠ʲ"),        # ceann /caːn̪ˠ/, tinneas /ˈtʲɪn̠ʲəsˠ/
+    "nn": ("n̪ˠ", "n̠ʲ"),  # ceann /caːn̪ˠ/, tinneas /ˈtʲɪn̠ʲəsˠ/
     "p": ("pˠ", "pʲ"),
-    "rr": ("ɾˠ", "ɾˠ"),        # carr /kaːɾˠ/
+    "rr": ("ɾˠ", "ɾˠ"),  # carr /kaːɾˠ/
     "t": ("t̪ˠ", "tʲ"),
-    "v": ("w", "vʲ"),          # loan consonant: vóta /ˈwoːt̪ˠə/, veidhlín /ˈvʲəilʲiːnʲ/
+    "v": ("w", "vʲ"),  # loan consonant: vóta /ˈwoːt̪ˠə/, veidhlín /ˈvʲəilʲiːnʲ/
     "w": ("w", "vʲ"),
-    "z": ("zˠ", "ʒ"),          # loan consonant
+    "z": ("zˠ", "ʒ"),  # loan consonant
 }
 
 # Word-initial eclipsis digraphs [wiki-irish-mutations §Summary table; wiki-irish-orthography].
 _ECLIPSIS_INITIAL: dict[str, tuple[str, str]] = {
-    "mb": ("mˠ", "mʲ"),        # mbaineann /ˈmˠanʲən̪ˠ/, mbéal /mʲeːlˠ/
-    "nd": ("n̪ˠ", "n̠ʲ"),        # ndorn /n̪ˠoːɾˠn̪ˠ/, ndearg /ˈn̠ʲaɾˠəɡ/
-    "bp": ("bˠ", "bʲ"),        # bpoll /bˠoːl̪ˠ/, bpríosún /ˈbʲɾʲiːsˠuːnˠ/
-    "dt": ("d̪ˠ", "dʲ"),        # dtaisce /ˈd̪ˠaʃcə/, dtír /dʲiːɾʲ/
-    "gc": ("ɡ", "ɟ"),          # gcáis /ɡaːʃ/, gceist /ɟɛʃtʲ/
-    "ng": ("ŋ", "ɲ"),          # ngasúr /ˈŋasˠuːɾˠ/, ngeata /ˈɲat̪ˠə/
-    "ts": ("t̪ˠ", "tʲ"),        # an tsolais /ə(n̪ˠ) ˈt̪ˠɔlˠəʃ/, an tSín /ə(nʲ) tʲiːnʲ/
+    "mb": ("mˠ", "mʲ"),  # mbaineann /ˈmˠanʲən̪ˠ/, mbéal /mʲeːlˠ/
+    "nd": ("n̪ˠ", "n̠ʲ"),  # ndorn /n̪ˠoːɾˠn̪ˠ/, ndearg /ˈn̠ʲaɾˠəɡ/
+    "bp": ("bˠ", "bʲ"),  # bpoll /bˠoːl̪ˠ/, bpríosún /ˈbʲɾʲiːsˠuːnˠ/
+    "dt": ("d̪ˠ", "dʲ"),  # dtaisce /ˈd̪ˠaʃcə/, dtír /dʲiːɾʲ/
+    "gc": ("ɡ", "ɟ"),  # gcáis /ɡaːʃ/, gceist /ɟɛʃtʲ/
+    "ng": ("ŋ", "ɲ"),  # ngasúr /ˈŋasˠuːɾˠ/, ngeata /ˈɲat̪ˠə/
+    "ts": ("t̪ˠ", "tʲ"),  # an tsolais /ə(n̪ˠ) ˈt̪ˠɔlˠəʃ/, an tSín /ə(nʲ) tʲiːnʲ/
 }
 
 # ---- the vowel table -------------------------------------------------------------------------
@@ -111,46 +112,65 @@ _LONG_OR_DIPH = frozenset({"iː", "eː", "aː", "oː", "uː", "iə", "uə", "əi
 
 _VOWELS: dict[str, tuple[str, tuple[tuple[str, str], ...]]] = {
     # a, ea: fan /fˠanˠ/, bean /bʲanˠ/; garda /ˈɡaːɾˠd̪ˠə/; mall /mˠaːl̪ˠ/, am /aːmˠ/
-    "a":   ("a", (("rd", "aː"), ("llnn_m", "aː"))),
-    "ea":  ("a", (("rd", "aː"), ("llnn_m", "aː"))),
-    "ai":  ("a", (("rd", "aː"), ("llnn", "aː"))),   # airne /aːɾˠn̠ʲə/, crainn /kɾˠaːn̠ʲ/
+    "a": ("a", (("rd", "aː"), ("llnn_m", "aː"))),
+    "ea": ("a", (("rd", "aː"), ("llnn_m", "aː"))),
+    "ai": ("a", (("rd", "aː"), ("llnn", "aː"))),  # airne /aːɾˠn̠ʲə/, crainn /kɾˠaːn̠ʲ/
     "eai": ("a", (("rd", "aː"), ("llnn", "aː"))),
-    "á":   ("aː", ()), "ái": ("aː", ()),            # bán /bˠaːnˠ/, dáil /d̪ˠaːlʲ/
-    "eá":  ("aː", ()), "eái": ("aː", ()),           # Seán /ʃaːnˠ/, caisleán /ˈkaʃl̠ʲaːnˠ/
-    "ae":  ("eː", ()), "aei": ("eː", ()),           # Gaelach /ˈɡeːlˠəx/
-    "aí":  ("iː", ()), "aío": ("iː", ()),           # gutaí /ˈɡʊt̪ˠiː/
-    "ao":  ("iː", ()),                              # saol /sˠiːlˠ/, an tsaoil /ən̪ˠ t̪ˠiːlʲ/
-    "aoi": ("iː", ()),                              # gaois /ɡiːʃ/, naoi /ˈn̪ˠiː/
+    "á": ("aː", ()),
+    "ái": ("aː", ()),  # bán /bˠaːnˠ/, dáil /d̪ˠaːlʲ/
+    "eá": ("aː", ()),
+    "eái": ("aː", ()),  # Seán /ʃaːnˠ/, caisleán /ˈkaʃl̠ʲaːnˠ/
+    "ae": ("eː", ()),
+    "aei": ("eː", ()),  # Gaelach /ˈɡeːlˠəx/
+    "aí": ("iː", ()),
+    "aío": ("iː", ()),  # gutaí /ˈɡʊt̪ˠiː/
+    "ao": ("iː", ()),  # saol /sˠiːlˠ/, an tsaoil /ən̪ˠ t̪ˠiːlʲ/
+    "aoi": ("iː", ()),  # gaois /ɡiːʃ/, naoi /ˈn̪ˠiː/
     # e, ei: te /tʲɛ/, ceist /cɛʃtʲ/; eirleach /ˈeːɾˠl̠ʲəx/; creimeadh /ˈcɾʲɪmʲə/; greim /ɟɾʲiːmʲ/
-    "e":   ("ɛ", (("rd", "eː"), ("nn_m", "iː"), ("mmhn", "ɪ"))),
-    "ei":  ("ɛ", (("rd", "eː"), ("nn_m", "iː"), ("mmhn", "ɪ"))),
-    "é":   ("eː", ()), "éa": ("eː", ()), "éi": ("eː", ()),   # sé /ʃeː/, buidéal /ˈbˠɪdʲeːlˠ/
-    "eo":  ("oː", ()), "eoi": ("oː", ()),           # ceol /coːlˠ/ (the four /ɔ/ words are lexical)
+    "e": ("ɛ", (("rd", "eː"), ("nn_m", "iː"), ("mmhn", "ɪ"))),
+    "ei": ("ɛ", (("rd", "eː"), ("nn_m", "iː"), ("mmhn", "ɪ"))),
+    "é": ("eː", ()),
+    "éa": ("eː", ()),
+    "éi": ("eː", ()),  # sé /ʃeː/, buidéal /ˈbˠɪdʲeːlˠ/
+    "eo": ("oː", ()),
+    "eoi": ("oː", ()),  # ceol /coːlˠ/ (the four /ɔ/ words are lexical)
     # i: pic /pʲɪc/; cill /ciːl̠ʲ/, im /iːmʲ/
-    "i":   ("ɪ", (("llnn_m", "iː"),)),
-    "í":   ("iː", ()), "ío": ("iː", ()),            # cailín /ˈkalʲiːnʲ/, síol /ʃiːlˠ/
-    "ia":  ("iə", ()), "iai": ("iə", ()),           # Diarmaid /dʲiərmədʲ/, bliain /bʲlʲiənʲ/
-    "iá":  ("iːaː", ()), "iái": ("iːaː", ()),       # bián /ˈbʲiːaːnˠ/
+    "i": ("ɪ", (("llnn_m", "iː"),)),
+    "í": ("iː", ()),
+    "ío": ("iː", ()),  # cailín /ˈkalʲiːnʲ/, síol /ʃiːlˠ/
+    "ia": ("iə", ()),
+    "iai": ("iə", ()),  # Diarmaid /dʲiərmədʲ/, bliain /bʲlʲiənʲ/
+    "iá": ("iːaː", ()),
+    "iái": ("iːaː", ()),  # bián /ˈbʲiːaːnˠ/
     # io: siopa /ˈʃʊpˠə/, Siobhán /ˈʃʊwaːnˠ/; fios /fʲɪsˠ/; fionn /fʲʊn̪ˠ/
-    "io":  ("ʊ", (("nn", "ʊ"), ("dhlnrsst", "ɪ"))),
-    "ió":  ("iːoː", ()), "iói": ("iːoː", ()),       # sióg /ˈʃiːoːɡ/
-    "iu":  ("ʊ", ()),                               # fliuch /fʲlʲʊx/
-    "iú":  ("uː", ()), "iúi": ("uː", ()),           # siúl /ʃuːlˠ/, ciúin /cuːnʲ/
+    "io": ("ʊ", (("nn", "ʊ"), ("dhlnrsst", "ɪ"))),
+    "ió": ("iːoː", ()),
+    "iói": ("iːoː", ()),  # sióg /ˈʃiːoːɡ/
+    "iu": ("ʊ", ()),  # fliuch /fʲlʲʊx/
+    "iú": ("uː", ()),
+    "iúi": ("uː", ()),  # siúl /ʃuːlˠ/, ciúin /cuːnʲ/
     # o: post /pˠɔsˠt̪ˠ/; bord /bˠoːɾˠd̪ˠ/; conradh /ˈkʊnˠɾˠə/; fonn /fˠuːn̪ˠ/, long /l̪ˠuːŋɡ/
-    "o":   ("ɔ", (("rd", "oː"), ("nn_ng", "uː"), ("nm", "ʊ"))),
-    "ó":   ("oː", ()), "ói": ("oː", ()),            # póg /pˠoːɡ/, bádóir /ˈbˠaːd̪ˠoːɾʲ/
+    "o": ("ɔ", (("rd", "oː"), ("nn_ng", "uː"), ("nm", "ʊ"))),
+    "ó": ("oː", ()),
+    "ói": ("oː", ()),  # póg /pˠoːɡ/, bádóir /ˈbˠaːd̪ˠoːɾʲ/
     # oi: scoil /sˠkɛlʲ/; cois /kɔʃ/; coirnéal /ˈkoːɾˠn̠ʲeːlˠ/; anois /əˈnˠɪʃ/; droim /d̪ˠɾˠiːmʲ/
-    "oi":  ("ɛ", (("rd", "oː"), ("oi_back", "ɔ"), ("nn_m", "iː"), ("ll", "əi"), ("nm", "ɪ"))),
-    "oí":  ("iː", ()), "oío": ("iː", ()),           # croíonna /ˈkɾˠiːn̪ˠə/
+    "oi": ("ɛ", (("rd", "oː"), ("oi_back", "ɔ"), ("nn_m", "iː"), ("ll", "əi"), ("nm", "ɪ"))),
+    "oí": ("iː", ()),
+    "oío": ("iː", ()),  # croíonna /ˈkɾˠiːn̪ˠə/
     # u: dubh /d̪ˠʊw/; burla /ˈbˠuːɾˠl̪ˠə/
-    "u":   ("ʊ", (("rd", "uː"),)),
-    "ú":   ("uː", ()), "úi": ("uː", ()),            # tús /t̪ˠuːsˠ/, súil /suːlʲ/
-    "ua":  ("uə", ()), "uai": ("uə", ()),           # fuar /fˠuəɾˠ/, fuair /fˠuəɾʲ/
-    "uá":  ("uːaː", ()), "uái": ("uːaː", ()),       # ruán /ˈɾˠuːaːnˠ/
+    "u": ("ʊ", (("rd", "uː"),)),
+    "ú": ("uː", ()),
+    "úi": ("uː", ()),  # tús /t̪ˠuːsˠ/, súil /suːlʲ/
+    "ua": ("uə", ()),
+    "uai": ("uə", ()),  # fuar /fˠuəɾˠ/, fuair /fˠuəɾʲ/
+    "uá": ("uːaː", ()),
+    "uái": ("uːaː", ()),  # ruán /ˈɾˠuːaːnˠ/
     # ui: duine /ˈd̪ˠɪnʲə/; tuirne /ˈt̪ˠuːɾˠn̠ʲə/; suim /sˠiːmʲ/
-    "ui":  ("ɪ", (("rd", "uː"), ("llnn_m", "iː"))),
-    "uí":  ("iː", ()), "uío": ("iː", ()),           # buíon /bˠiːnˠ/
-    "uó":  ("uːoː", ()), "uói": ("uːoː", ()),       # cruóg /ˈkɾˠuːoːɡ/
+    "ui": ("ɪ", (("rd", "uː"), ("llnn_m", "iː"))),
+    "uí": ("iː", ()),
+    "uío": ("iː", ()),  # buíon /bˠiːnˠ/
+    "uó": ("uːoː", ()),
+    "uói": ("uːoː", ()),  # cruóg /ˈkɾˠuːoːɡ/
 }
 
 # ---- short vowel + ⟨bh dh gh mh⟩ ---------------------------------------------------------------
@@ -158,39 +178,54 @@ _VOWELS: dict[str, tuple[str, tuple[tuple[str, str], ...]]] = {
 # (vowel run, digraph); value is (stressed, unstressed). The digraph is consumed with the vowel,
 # and a vowel run immediately following it is absorbed (adharc /əiɾˠk/, deagha /d̪ˠəi/).
 _VOWEL_PLUS_H: dict[tuple[str, str], tuple[str, str]] = {
-    ("a", "bh"): ("əu", "əu"), ("ea", "bh"): ("əu", "əu"),      # Feabhra /ˈfʲəuɾˠə/
-    ("a", "dh"): ("əi", "ə"), ("ea", "dh"): ("əi", "ə"),        # adharc /əiɾˠk/, briseadh /ˈbʲɾʲɪʃə/
-    ("a", "gh"): ("əi", "ə"), ("ea", "gh"): ("əi", "ə"),        # meadhg /mʲəiɡ/, margadh /ˈmˠaɾˠəɡə/
-    ("ai", "dh"): ("əi", "ə"), ("ai", "gh"): ("əi", "ə"),       # aidhleann /ˈəilʲən̪ˠ/, bacaigh
-    ("a", "mh"): ("əu", "əw"), ("ea", "mh"): ("əu", "əw"),      # Samhain /sˠəunʲ/, creideamh /ˈcɾʲɛdʲəw/
-    ("ei", "dh"): ("əi", "əi"), ("ei", "gh"): ("əi", "əi"),     # feidhm /fʲəimʲ/, leigheas /l̠ʲəisˠ/
-    ("i", "dh"): ("iː", "ə"), ("i", "gh"): ("iː", "ə"),         # ligh /l̠ʲiː/, tuillidh /ˈt̪ˠɪl̠ʲiː/
-    ("ui", "dh"): ("iː", "ə"), ("ui", "gh"): ("iː", "ə"),
-    ("o", "bh"): ("əu", "əu"), ("o", "dh"): ("əu", "əu"),       # lobhra /ˈl̪ˠəuɾˠə/, bodhar /bˠəuɾˠ/
+    ("a", "bh"): ("əu", "əu"),
+    ("ea", "bh"): ("əu", "əu"),  # Feabhra /ˈfʲəuɾˠə/
+    ("a", "dh"): ("əi", "ə"),
+    ("ea", "dh"): ("əi", "ə"),  # adharc /əiɾˠk/, briseadh /ˈbʲɾʲɪʃə/
+    ("a", "gh"): ("əi", "ə"),
+    ("ea", "gh"): ("əi", "ə"),  # meadhg /mʲəiɡ/, margadh /ˈmˠaɾˠəɡə/
+    ("ai", "dh"): ("əi", "ə"),
+    ("ai", "gh"): ("əi", "ə"),  # aidhleann /ˈəilʲən̪ˠ/, bacaigh
+    ("a", "mh"): ("əu", "əw"),
+    ("ea", "mh"): ("əu", "əw"),  # Samhain /sˠəunʲ/, creideamh /ˈcɾʲɛdʲəw/
+    ("ei", "dh"): ("əi", "əi"),
+    ("ei", "gh"): ("əi", "əi"),  # feidhm /fʲəimʲ/, leigheas /l̠ʲəisˠ/
+    ("i", "dh"): ("iː", "ə"),
+    ("i", "gh"): ("iː", "ə"),  # ligh /l̠ʲiː/, tuillidh /ˈt̪ˠɪl̠ʲiː/
+    ("ui", "dh"): ("iː", "ə"),
+    ("ui", "gh"): ("iː", "ə"),
+    ("o", "bh"): ("əu", "əu"),
+    ("o", "dh"): ("əu", "əu"),  # lobhra /ˈl̪ˠəuɾˠə/, bodhar /bˠəuɾˠ/
     ("o", "gh"): ("əu", "əu"),
-    ("oi", "dh"): ("əi", "əi"), ("oi", "gh"): ("əi", "əi"),     # oidhre /əiɾʲə/, oigheann /əin̪ˠ/
-    ("o", "mh"): ("oː", "oː"),                                  # Domhnach /ˈd̪ˠoːnˠəx/, comhar /koːɾˠ/
-    ("u", "bh"): ("ʊw", "ʊw"), ("iu", "bh"): ("ʊw", "ʊw"),      # dubh /d̪ˠʊw/, tiubh /tʲʊw/
-    ("u", "mh"): ("uː", "uː"), ("iu", "mh"): ("uː", "uː"),      # cumhra /ˈkuːɾˠə/, ciumhais /cuːʃ/
+    ("oi", "dh"): ("əi", "əi"),
+    ("oi", "gh"): ("əi", "əi"),  # oidhre /əiɾʲə/, oigheann /əin̪ˠ/
+    ("o", "mh"): ("oː", "oː"),  # Domhnach /ˈd̪ˠoːnˠəx/, comhar /koːɾˠ/
+    ("u", "bh"): ("ʊw", "ʊw"),
+    ("iu", "bh"): ("ʊw", "ʊw"),  # dubh /d̪ˠʊw/, tiubh /tʲʊw/
+    ("u", "mh"): ("uː", "uː"),
+    ("iu", "mh"): ("uː", "uː"),  # cumhra /ˈkuːɾˠə/, ciumhais /cuːʃ/
 }
 
 # ---- epenthesis ------------------------------------------------------------------------------
 # digest §2.4: ∅ → ə / {ɾˠ ɾʲ l lʲ n nʲ} _ C[labial or dorsal, except the voiceless stops]
 # [wiki-irish-phonology §Post-vocalic consonant clusters and epenthesis; wiki-clusterchart].
 _EPEN_C1 = frozenset({"ɾˠ", "ɾʲ", "l̪ˠ", "lˠ", "lʲ", "l̠ʲ", "n̪ˠ", "nˠ", "nʲ", "n̠ʲ"})
-_EPEN_C2_LIQUID = frozenset({"bˠ", "bʲ", "ɡ", "ɟ", "fˠ", "fʲ", "w", "vˠ", "vʲ", "mˠ", "mʲ",
-                             "x", "ç", "ɣ", "j"})     # dorcha /ˈd̪ˠɔɾˠəxə/, digest §2.4
-_EPEN_C2_NASAL = frozenset({"bˠ", "bʲ", "fˠ", "fʲ", "w", "vˠ", "vʲ", "mˠ", "mʲ"})   # n rows only
+_EPEN_C2_LIQUID = frozenset(
+    {"bˠ", "bʲ", "ɡ", "ɟ", "fˠ", "fʲ", "w", "vˠ", "vʲ", "mˠ", "mʲ", "x", "ç", "ɣ", "j"}
+)  # dorcha /ˈd̪ˠɔɾˠəxə/, digest §2.4
+_EPEN_C2_NASAL = frozenset({"bˠ", "bʲ", "fˠ", "fʲ", "w", "vˠ", "vʲ", "mˠ", "mʲ"})  # n rows only
 _EPEN_NASALS = frozenset({"n̪ˠ", "nˠ", "nʲ", "n̠ʲ"})
 
 _BACK_VOWELS = frozenset({"a", "aː", "ɔ", "oː", "ʊ", "uː", "əu"})
 
-_VOWEL_SEGMENTS = frozenset({"a", "aː", "e", "eː", "i", "iː", "o", "oː", "u", "uː",
-                             "ɛ", "ɔ", "ɪ", "ʊ", "ə", "æ"})
+_VOWEL_SEGMENTS = frozenset(
+    {"a", "aː", "e", "eː", "i", "iː", "o", "oː", "u", "uː", "ɛ", "ɔ", "ɪ", "ʊ", "ə", "æ"}
+)
 _LONG_SEGMENTS = frozenset({"aː", "eː", "iː", "oː", "uː", "æː"})
 
 
 # ---- the walk --------------------------------------------------------------------------------
+
 
 def _runs(word: str) -> list[tuple[str, str]]:
     """The word as alternating ('V', letters) / ('C', letters) runs."""
@@ -231,7 +266,7 @@ def _vowel_value(run: str, nxt: str | None, word_final_run: bool, notes: list[st
         else:
             raise G2PError(f"unknown vowel sequence {run!r}")
     default, overrides = entry
-    c = (nxt or "")
+    c = nxt or ""
     for name, value in overrides:
         if _vowel_condition(name, c, word_final_run):
             return value
@@ -240,35 +275,36 @@ def _vowel_value(run: str, nxt: str | None, word_final_run: bool, notes: list[st
 
 def _vowel_condition(name: str, c: str, final: bool) -> bool:
     """The named context conditions of the `_VOWELS` overrides, over the FOLLOWING letters."""
-    if name == "rd":            # before ⟨rd, rl, rn, rr⟩
+    if name == "rd":  # before ⟨rd, rl, rn, rr⟩
         return c[:2] in ("rd", "rl", "rn", "rr")
-    if name == "ll":            # before syllable-final ⟨ll⟩
+    if name == "ll":  # before syllable-final ⟨ll⟩
         return c[:2] == "ll"
-    if name == "llnn":          # before syllable-final ⟨ll, nn⟩
+    if name == "llnn":  # before syllable-final ⟨ll, nn⟩
         return c[:2] in ("ll", "nn")
-    if name == "llnn_m":        # before syllable-final ⟨ll, nn⟩ and word-final -⟨m⟩
+    if name == "llnn_m":  # before syllable-final ⟨ll, nn⟩ and word-final -⟨m⟩
         return c[:2] in ("ll", "nn") or (final and c == "m")
-    if name == "nn":            # before syllable-final ⟨nn⟩
+    if name == "nn":  # before syllable-final ⟨nn⟩
         return c[:2] == "nn"
-    if name == "nn_m":          # before syllable-final ⟨nn⟩ and word-final -⟨m⟩
+    if name == "nn_m":  # before syllable-final ⟨nn⟩ and word-final -⟨m⟩
         return c[:2] == "nn" or (final and c == "m")
-    if name == "nn_ng":         # before syllable-final ⟨nn⟩ and word-final -⟨ng⟩. The C column
+    if name == "nn_ng":  # before syllable-final ⟨nn⟩ and word-final -⟨ng⟩. The C column
         # also lengthens before final -⟨m⟩, but the attested *chrom* /xɾˠɔmˠ/ does not.
         return c[:2] == "nn" or (final and c == "ng")
-    if name == "mmhn":          # ⟨e⟩ before ⟨m, mh, n⟩
+    if name == "mmhn":  # ⟨e⟩ before ⟨m, mh, n⟩
         return c[:2] == "mh" or c[:1] in ("m", "n")
-    if name == "nm":            # next to ⟨m⟩, ⟨n⟩ — conradh /ˈkʊnˠɾˠə/, cromóg /ˈkɾˠʊmˠoːɡ/.
+    if name == "nm":  # next to ⟨m⟩, ⟨n⟩ — conradh /ˈkʊnˠɾˠə/, cromóg /ˈkɾˠʊmˠoːɡ/.
         # Not when the nasal is word-final: the attested *chrom* is /xɾˠɔmˠ/, not */xɾˠʊmˠ/.
         return c[:1] in ("m", "n") and not final
-    if name == "dhlnrsst":      # ⟨io⟩ before /d h l n ɾ s ʃ t/
+    if name == "dhlnrsst":  # ⟨io⟩ before /d h l n ɾ s ʃ t/
         return c[:1] in ("d", "h", "l", "n", "r", "s", "t")
-    if name == "oi_back":       # ⟨oi⟩ before /ɾh ɾʃ ɾtʲ ʃ xtʲ/
+    if name == "oi_back":  # ⟨oi⟩ before /ɾh ɾʃ ɾtʲ ʃ xtʲ/
         return c in ("rth", "rs", "rt", "s") or c[:3] == "cht"
     return False
 
 
-def _consonant_segments(run: str, slender: bool, word: str, start: int, dialect: str,
-                        notes: list[str]) -> list[str]:
+def _consonant_segments(
+    run: str, slender: bool, word: str, start: int, dialect: str, notes: list[str]
+) -> list[str]:
     """One consonant run → segments, longest match first. `start` is the run's offset in the
     word, so that the "initially" rows of the table can be told apart from the rest."""
     out: list[str] = []
@@ -277,11 +313,12 @@ def _consonant_segments(run: str, slender: bool, word: str, start: int, dialect:
         at_word_start = (start + i) == 0
         run_initial = start == 0
         for size in (3, 2, 1):
-            g = run[i:i + size]
+            g = run[i : i + size]
             if not g:
                 continue
-            seg = _grapheme(g, slender, at_word_start, run_initial, run, i, word,
-                            start + i, dialect, notes)
+            seg = _grapheme(
+                g, slender, at_word_start, run_initial, run, i, word, start + i, dialect, notes
+            )
             if seg is not None:
                 out.extend(seg)
                 i += size
@@ -292,9 +329,18 @@ def _consonant_segments(run: str, slender: bool, word: str, start: int, dialect:
     return out
 
 
-def _grapheme(g: str, slender: bool, at_word_start: bool, run_initial: bool,
-              run: str, i: int, word: str, pos: int, dialect: str,
-              notes: list[str]) -> list[str] | None:
+def _grapheme(
+    g: str,
+    slender: bool,
+    at_word_start: bool,
+    run_initial: bool,
+    run: str,
+    i: int,
+    word: str,
+    pos: int,
+    dialect: str,
+    notes: list[str],
+) -> list[str] | None:
     """A single grapheme → 0..2 segments, or None when `g` is not in the tables."""
     idx = 1 if slender else 0
 
@@ -324,24 +370,33 @@ def _grapheme(g: str, slender: bool, at_word_start: bool, run_initial: bool,
                 return []
         return ["h"]
 
-    if g == "ch" and slender and run[i + 2:i + 3] == "t":
-        return ["x"]            # slender ⟨ch⟩ before ⟨t⟩ is /x/: boichte /bˠɔxtʲə/
+    if g == "ch" and slender and run[i + 2 : i + 3] == "t":
+        return ["x"]  # slender ⟨ch⟩ before ⟨t⟩ is /x/: boichte /bˠɔxtʲə/
 
     if g == "ng" and not at_word_start:
-        return ["ŋ", "ɡ"] if not slender else ["ɲ", "ɟ"]   # long /l̪ˠuːŋɡ/, cuing /kɪɲɟ/
+        return ["ŋ", "ɡ"] if not slender else ["ɲ", "ɟ"]  # long /l̪ˠuːŋɡ/, cuing /kɪɲɟ/
 
     if g == "nc":
-        return ["ŋ", "k"] if not slender else ["ɲ", "c"]   # ancaire /ˈaŋkəɾʲə/, rinc /ɾˠɪɲc/
+        return ["ŋ", "k"] if not slender else ["ɲ", "c"]  # ancaire /ˈaŋkəɾʲə/, rinc /ɾˠɪɲc/
 
     if g == "dt" and not at_word_start:
-        return ["t̪ˠ"] if not slender else ["tʲ"]            # greadta /ˈɟɾʲat̪ˠə/
+        return ["t̪ˠ"] if not slender else ["tʲ"]  # greadta /ˈɟɾʲat̪ˠə/
 
     if g == "x":
         return ["k", "s"]
 
     if g in ("l", "n"):
-        return _liquid(g, slender, at_word_start, run_initial, run, i, dialect, notes,
-                       prevocalic=i + 1 == len(run) and pos + 1 < len(word))
+        return _liquid(
+            g,
+            slender,
+            at_word_start,
+            run_initial,
+            run,
+            i,
+            dialect,
+            notes,
+            prevocalic=i + 1 == len(run) and pos + 1 < len(word),
+        )
 
     if g in ("r", "rr"):
         return [_rhotic(g, slender, at_word_start, run, i, word)]
@@ -379,8 +434,17 @@ def _prev_vowel_run(word: str, run: str) -> str:
     return prev
 
 
-def _liquid(g: str, slender: bool, at_word_start: bool, run_initial: bool, run: str, i: int,
-            dialect: str, notes: list[str], prevocalic: bool = True) -> list[str]:
+def _liquid(
+    g: str,
+    slender: bool,
+    at_word_start: bool,
+    run_initial: bool,
+    run: str,
+    i: int,
+    dialect: str,
+    notes: list[str],
+    prevocalic: bool = True,
+) -> list[str]:
     """⟨l n⟩: fortis /l̪ˠ l̠ʲ n̪ˠ n̠ʲ/ word-initially and for ⟨ll nn⟩ [wiki-irish-orthography
     §Grapheme to phoneme correspondence]. The non-initial row of that table reads "/lˠ/ or
     /l̪ˠ/" and its own examples do not choose consistently, so the rest is PROVISIONAL and was
@@ -394,17 +458,16 @@ def _liquid(g: str, slender: bool, at_word_start: bool, run_initial: bool, run: 
 
     Whole-file exact match: 0.57 with the bare Wikipedia rule, 0.47 with fortis everywhere,
     0.73 with this."""
-    if (g == "n" and run_initial and i > 0
-            and dialect == "C" and not run[:i].endswith(("s", "sh"))):
+    if g == "n" and run_initial and i > 0 and dialect == "C" and not run[:i].endswith(("s", "sh")):
         # [C] ⟨n⟩ after a non-⟨s(h)⟩ word-initial consonant is /ɾˠ ɾʲ/: mná /mˠɾˠaː/,
         # cnaipe /ˈkɾˠapʲə/ [wiki-irish-orthography]. Only inside a word-initial cluster.
         notes.append("cn-gn-mn-as-r")
         return ["ɾʲ" if slender else "ɾˠ"]
     fortis = at_word_start
-    if i > 0:                       # after another consonant letter in the same run
-        fortis = not (g == "n" and run[:i].endswith("s"))     # sneachta /ˈʃnʲaxt̪ˠə/
+    if i > 0:  # after another consonant letter in the same run
+        fortis = not (g == "n" and run[:i].endswith("s"))  # sneachta /ˈʃnʲaxt̪ˠə/
     elif g == "l" and not slender and not prevocalic:
-        fortis = True               # Colm /ˈkɔl̪ˠəmˠ/, dualgas /ˈd̪ˠuəl̪ˠɡəsˠ/, scéal /ʃceːl̪ˠ/
+        fortis = True  # Colm /ˈkɔl̪ˠəmˠ/, dualgas /ˈd̪ˠuəl̪ˠɡəsˠ/, scéal /ʃceːl̪ˠ/
     if fortis:
         return [("l̠ʲ" if slender else "l̪ˠ") if g == "l" else ("n̠ʲ" if slender else "n̪ˠ")]
     return [("lʲ" if slender else "lˠ") if g == "l" else ("nʲ" if slender else "nˠ")]
@@ -420,8 +483,8 @@ def _rhotic(g: str, slender: bool, at_word_start: bool, run: str, i: int, word: 
         return "ɾˠ"
     if i > 0 and run[i - 1] == "s":
         return "ɾˠ"
-    nxt = run[i + 1:i + 2]
-    if nxt and (nxt in "dhlnrst" or run[i + 1:i + 3] == "th"):
+    nxt = run[i + 1 : i + 2]
+    if nxt and (nxt in "dhlnrst" or run[i + 1 : i + 3] == "th"):
         return "ɾˠ"
     return "ɾʲ"
 
@@ -431,12 +494,13 @@ def _sibilant(slender: bool, at_word_start: bool, run: str, i: int) -> str:
     sméar /sˠmʲeːɾˠ/ vs sean /ʃanˠ/ [wiki-irish-orthography]."""
     if not slender:
         return "sˠ"
-    if at_word_start and run[i + 1:i + 2] in ("f", "m", "p", "r"):
+    if at_word_start and run[i + 1 : i + 2] in ("f", "m", "p", "r"):
         return "sˠ"
     return "ʃ"
 
 
 # ---- stress ----------------------------------------------------------------------------------
+
 
 def _stress_index(nuclei: list[str], dialect: str, orth: str) -> int:
     """Which syllable carries primary stress (digest §4.1). Connacht/Ulster: the first.
@@ -456,8 +520,8 @@ def _stress_index(nuclei: list[str], dialect: str, orth: str) -> int:
 
 # ---- the word --------------------------------------------------------------------------------
 
-def _word_segments(word: str, dialect: str, notes: list[str],
-                   proclitic: bool) -> list[str]:
+
+def _word_segments(word: str, dialect: str, notes: list[str], proclitic: bool) -> list[str]:
     runs = _runs(word)
     if not any(k == "V" for k, _ in runs):
         raise G2PError(f"{word!r}: no vowel letter")
@@ -466,7 +530,7 @@ def _word_segments(word: str, dialect: str, notes: list[str],
     # is placed; `absorbed` marks a vowel run swallowed by a `_VOWEL_PLUS_H` match.
     v_indices = [i for i, (k, _) in enumerate(runs) if k == "V"]
     nuclei: list[str] = []
-    plus_h: dict[int, tuple[str, str]] = {}     # vowel-run index -> (stressed, unstressed)
+    plus_h: dict[int, tuple[str, str]] = {}  # vowel-run index -> (stressed, unstressed)
     absorbed: set[int] = set()
     for i in v_indices:
         if i in absorbed:
@@ -477,7 +541,7 @@ def _word_segments(word: str, dialect: str, notes: list[str],
             plus_h[i] = _VOWEL_PLUS_H[key]
             nuclei.append(_VOWEL_PLUS_H[key][0])
             if i + 2 < len(runs) and len(nxt) == 2:
-                absorbed.add(i + 2)             # adharc /əiɾˠk/: the second ⟨a⟩ is not read
+                absorbed.add(i + 2)  # adharc /əiɾˠk/: the second ⟨a⟩ is not read
             continue
         nuclei.append(_vowel_value(runs[i][1], nxt, i + 2 >= len(runs), notes))
     live = [i for i in v_indices if i not in absorbed]
@@ -492,8 +556,11 @@ def _word_segments(word: str, dialect: str, notes: list[str],
             next_v = next((runs[j][1] for j in range(i + 1, len(runs)) if runs[j][0] == "V"), None)
             slen = _slender(prev_v, next_v)
             skip = 2 if (i - 1) in plus_h and text[:2] in ("bh", "dh", "gh", "mh") else 0
-            out.extend(_consonant_segments(text[skip:], slen, word, _offset(runs, i) + skip,
-                                           dialect, notes))
+            out.extend(
+                _consonant_segments(
+                    text[skip:], slen, word, _offset(runs, i) + skip, dialect, notes
+                )
+            )
             continue
         if i in absorbed:
             continue
@@ -508,8 +575,12 @@ def _word_segments(word: str, dialect: str, notes: list[str],
                 # The lengthening overrides of `_VOWELS` are listed under "stressed" in the
                 # source table, so an unstressed syllable falls back to the row's default and
                 # reduces if that is short: *Muireann* /ˈmˠɪɾʲən̪ˠ/, not */ˈmˠɪɾʲaːn̪ˠ/.
-                base = (_VOWELS.get(runs[i][1]) or _VOWELS.get(runs[i][1][:2])
-                        or _VOWELS.get(runs[i][1][:1]) or (value, ()))[0]
+                base = (
+                    _VOWELS.get(runs[i][1])
+                    or _VOWELS.get(runs[i][1][:2])
+                    or _VOWELS.get(runs[i][1][:1])
+                    or (value, ())
+                )[0]
                 value = "ə" if _short(base) else base
         out.extend(_split_nucleus(value))
 
@@ -547,8 +618,8 @@ def _split_nucleus(value: str) -> list[str]:
     out: list[str] = []
     i = 0
     while i < len(value):
-        if value[i + 1:i + 2] == "ː":
-            out.append(value[i:i + 2])
+        if value[i + 1 : i + 2] == "ː":
+            out.append(value[i : i + 2])
             i += 2
         else:
             out.append(value[i])
@@ -572,9 +643,10 @@ def _epenthesis(segs: list[str], syllables: int, notes: list[str]) -> list[str]:
         if nxt not in allowed:
             continue
         prev = segs[i - 1] if i else None
-        if prev in _LONG_SEGMENTS or (i >= 2 and segs[i - 1] == "ə" and segs[i - 2] in
-                                      ("i", "u", "ə")):
-            continue                            # long vowel or diphthong before the cluster
+        if prev in _LONG_SEGMENTS or (
+            i >= 2 and segs[i - 1] == "ə" and segs[i - 2] in ("i", "u", "ə")
+        ):
+            continue  # long vowel or diphthong before the cluster
         if prev is not None and prev in ("i", "u") and i >= 1:
             continue
         out.append("ə")
@@ -583,6 +655,7 @@ def _epenthesis(segs: list[str], syllables: int, notes: list[str]) -> list[str]:
 
 
 # ---- the entry point -------------------------------------------------------------------------
+
 
 def g2p(orthography: str, dialect: str = "C") -> tuple[str, list[str]]:
     """Modern Irish spelling → (IPA in this project's convention, notes).
@@ -619,8 +692,9 @@ def g2p(orthography: str, dialect: str = "C") -> tuple[str, list[str]]:
             if len(parts) == 1 and part in _PROCLITIC_IPA:
                 pieces.append(_PROCLITIC_IPA[part])
                 continue
-            segs = _word_segments(part, dialect, notes,
-                                  proclitic=len(parts) == 1 and part in _PROCLITICS)
+            segs = _word_segments(
+                part, dialect, notes, proclitic=len(parts) == 1 and part in _PROCLITICS
+            )
             if len(parts) > 1 and segs and segs[0] != "ˈ":
                 segs = ["ˈ"] + segs
             if k > 0:

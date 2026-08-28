@@ -7,9 +7,10 @@ several words through the Irish pre-pass, so that each word runs through the tar
 2-7 on its own — its own syllabification, stress and word-edge rules — and the respelling and
 IPA join with a single space.
 """
-import pytest
 
+import pytest
 from helpers import TABLE, irish, read_test_words
+
 from strands.inputs import Entry, infer
 from strands.pipeline import TARGETS, load_target, run_entry
 
@@ -20,8 +21,8 @@ RF = {name: load_target(name, TABLE) for name in TARGETS}
 MULTI = [row for row in read_test_words() if " " in row["ipa"].strip()]
 
 _ROW_STRANDS = [
-    pytest.param(row, name, id=f"{row['orthography']}-{name}")
-    for row in MULTI for name in TARGETS]
+    pytest.param(row, name, id=f"{row['orthography']}-{name}") for row in MULTI for name in TARGETS
+]
 
 
 def _run(ipa: str, strand: str):

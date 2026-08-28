@@ -43,10 +43,11 @@ discarded), so the function is idempotent and safe to call after every repair ru
 `RuleError` from a ban that names an undeclared class is a rule-file bug and propagates;
 nothing about the WORD ever raises.
 """
+
 from __future__ import annotations
 
+from collections.abc import Sequence
 from dataclasses import replace
-from typing import Sequence
 
 from .dsl import CtxItem, RuleFile, SyllableSpec
 from .features import FeatureTable
@@ -63,15 +64,19 @@ _RULE_ID = "syllable"
 
 # ---- sonority (I-13) ------------------------------------------------------------------------
 
+
 def sonority(segment: str, table: FeatureTable) -> int:
     v = table.value
     if v(segment, "syllabic") == "+":
         return 5
     if v(segment, "sonorant") == "+" and v(segment, "consonantal") == "-":
         return 4
-    if (v(segment, "consonantal") == "+" and v(segment, "sonorant") == "+"
-            and v(segment, "coronal") == "+"
-            and "+" in (v(segment, "lateral"), v(segment, "tap"), v(segment, "trill"))):
+    if (
+        v(segment, "consonantal") == "+"
+        and v(segment, "sonorant") == "+"
+        and v(segment, "coronal") == "+"
+        and "+" in (v(segment, "lateral"), v(segment, "tap"), v(segment, "trill"))
+    ):
         return 3
     if v(segment, "nasal") == "+":
         return 2
@@ -86,12 +91,16 @@ def _is_vowel(segment: str, table: FeatureTable) -> bool:
 
 def _is_sibilant(segment: str, table: FeatureTable) -> bool:
     v = table.value
-    return (v(segment, "coronal") == "+" and v(segment, "strident") == "+"
-            and v(segment, "continuant") == "+" and v(segment, "sonorant") == "-")
+    return (
+        v(segment, "coronal") == "+"
+        and v(segment, "strident") == "+"
+        and v(segment, "continuant") == "+"
+        and v(segment, "sonorant") == "-"
+    )
 
 
 def _strictly(values: Sequence[int], rising: bool) -> bool:
-    return all((b > a) if rising else (b < a) for a, b in zip(values, values[1:]))
+    return all((b > a) if rising else (b < a) for a, b in zip(values, values[1:], strict=False))
 
 
 def _sonority_ok(cluster: tuple[str, ...], table: FeatureTable, *, onset: bool) -> bool:
@@ -107,8 +116,10 @@ def _sonority_ok(cluster: tuple[str, ...], table: FeatureTable, *, onset: bool) 
 
 # ---- nuclei (§12.B) -------------------------------------------------------------------------
 
-def group_nuclei(segments: Sequence[str], spec: SyllableSpec,
-                 table: FeatureTable) -> list[tuple[int, int]]:
+
+def group_nuclei(
+    segments: Sequence[str], spec: SyllableSpec, table: FeatureTable
+) -> list[tuple[int, int]]:
     """Spec §12.B: maximal vowel runs are split into nuclei; a sequence listed in
     spec.nuclei is ONE nucleus (longest licensed sequence first); otherwise each vowel is
     its own nucleus (hiatus). Returns half-open (start, stop) spans in order."""
@@ -122,8 +133,11 @@ def group_nuclei(segments: Sequence[str], spec: SyllableSpec,
         width = 1
         for nuc in licensed:
             k = len(nuc)
-            if (i + k <= n and tuple(segments[i:i + k]) == nuc
-                    and all(_is_vowel(s, table) for s in nuc)):
+            if (
+                i + k <= n
+                and tuple(segments[i : i + k]) == nuc
+                and all(_is_vowel(s, table) for s in nuc)
+            ):
                 width = k
                 break
         out.append((i, i + width))
@@ -132,6 +146,7 @@ def group_nuclei(segments: Sequence[str], spec: SyllableSpec,
 
 
 # ---- cluster legality (§3, §12.D) ---------------------------------------------------------------
+
 
 def _template_limits(spec: SyllableSpec) -> tuple[int | None, int | None]:
     """(max onset length, max coda length) from the template's slot counts; None = any."""
@@ -144,8 +159,11 @@ def _template_limits(spec: SyllableSpec) -> tuple[int | None, int | None]:
     return None, None
 
 
-def _pairwise_ok(cluster: tuple[str, ...], listed: frozenset[tuple[str, ...]] | None,
-                 pairs: tuple[tuple[str, str], ...]) -> bool:
+def _pairwise_ok(
+    cluster: tuple[str, ...],
+    listed: frozenset[tuple[str, ...]] | None,
+    pairs: tuple[tuple[str, str], ...],
+) -> bool:
     """`cluster-legality = pairwise` (§12.D variant, Butskhrikidze 2002): underlying Georgian
     clusters are maximally BIconsonantal — the longer surface clusters of the whitelists arise
     by syncope from CVC sequences (sources/georgian/digest.md §2.1, §2.13). So a cluster is
@@ -157,13 +175,13 @@ def _pairwise_ok(cluster: tuple[str, ...], listed: frozenset[tuple[str, ...]] | 
     if len(cluster) == 1:
         return cluster in listed
     pairset = frozenset(pairs)
-    return all(pair in pairset for pair in zip(cluster, cluster[1:]))
+    return all(pair in pairset for pair in zip(cluster, cluster[1:], strict=False))
 
 
 def legal_onset(cluster: tuple[str, ...], spec: SyllableSpec, table: FeatureTable) -> bool:
     cluster = tuple(cluster)
     if not cluster:
-        return True                                   # §12.D; onset-required is checked by the caller
+        return True  # §12.D; onset-required is checked by the caller
     limit, _ = _template_limits(spec)
     if limit is not None and len(cluster) > limit:
         return False
@@ -194,8 +212,9 @@ def legal_coda(cluster: tuple[str, ...], spec: SyllableSpec, table: FeatureTable
     return True
 
 
-def _legal_final_coda(cluster: tuple[str, ...], spec: SyllableSpec, table: FeatureTable,
-                      *, word_final: bool) -> bool:
+def _legal_final_coda(
+    cluster: tuple[str, ...], spec: SyllableSpec, table: FeatureTable, *, word_final: bool
+) -> bool:
     """A coda, optionally followed (word-finally only) by up to len(appendix) appendix
     segments."""
     if legal_coda(cluster, spec, table):
@@ -204,16 +223,18 @@ def _legal_final_coda(cluster: tuple[str, ...], spec: SyllableSpec, table: Featu
         return False
     allowed = set(spec.appendix)
     for k in range(1, min(len(spec.appendix), len(cluster)) + 1):
-        tail = cluster[len(cluster) - k:]
-        if all(s in allowed for s in tail) and legal_coda(cluster[:len(cluster) - k], spec, table):
+        tail = cluster[len(cluster) - k :]
+        if all(s in allowed for s in tail) and legal_coda(cluster[: len(cluster) - k], spec, table):
             return True
     return False
 
 
 # ---- bans (I-14) ---------------------------------------------------------------------------------
 
-def _ban_end(items: Sequence[CtxItem], k: int, pos: int, word: Word, rf: RuleFile,
-             table: FeatureTable) -> int | None:
+
+def _ban_end(
+    items: Sequence[CtxItem], k: int, pos: int, word: Word, rf: RuleFile, table: FeatureTable
+) -> int | None:
     """Longest end position of a match of items[k:] starting at boundary `pos`, or None."""
     if k == len(items):
         return pos
@@ -226,7 +247,11 @@ def _ban_end(items: Sequence[CtxItem], k: int, pos: int, word: Word, rf: RuleFil
     n = len(word.segments)
     limit = n - pos if item.star else 1
     count = 0
-    while count < limit and pos + count < n and match_item(atom, word.segments[pos + count], rf, table):
+    while (
+        count < limit
+        and pos + count < n
+        and match_item(atom, word.segments[pos + count], rf, table)
+    ):
         count += 1
     minimum = 0 if (item.star or item.optional) else 1
     while count >= minimum:
@@ -237,8 +262,9 @@ def _ban_end(items: Sequence[CtxItem], k: int, pos: int, word: Word, rf: RuleFil
     return None
 
 
-def _banned_spans(word: Word, rf: RuleFile, table: FeatureTable,
-                  inner_boundaries: frozenset[int]) -> set[int]:
+def _banned_spans(
+    word: Word, rf: RuleFile, table: FeatureTable, inner_boundaries: frozenset[int]
+) -> set[int]:
     spec = rf.syllable
     assert spec is not None
     marked: set[int] = set()
@@ -249,20 +275,22 @@ def _banned_spans(word: Word, rf: RuleFile, table: FeatureTable,
             if end is None or end <= start:
                 continue
             if any(start < b < end for b in inner_boundaries):
-                continue                              # stem domain: a ban never straddles `$`
+                continue  # stem domain: a ban never straddles `$`
             marked.update(range(start, end))
     return marked
 
 
 # ---- the parse -----------------------------------------------------------------------------------
 
-def _split_interlude(cluster: tuple[str, ...], spec: SyllableSpec, table: FeatureTable
-                     ) -> tuple[int, bool]:
+
+def _split_interlude(
+    cluster: tuple[str, ...], spec: SyllableSpec, table: FeatureTable
+) -> tuple[int, bool]:
     """(onset start offset within the interlude, legal?). Maximal onset subject to legality;
     when nothing works the boundary goes before the minimum-sonority segment (rightmost
     on ties)."""
     m = len(cluster)
-    for k in range(m, -1, -1):                        # k = onset length, longest first
+    for k in range(m, -1, -1):  # k = onset length, longest first
         split = m - k
         if legal_onset(cluster[split:], spec, table) and legal_coda(cluster[:split], spec, table):
             return split, True
@@ -312,13 +340,13 @@ def syllabify(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
         elif not legal_onset(onset, spec, table):
             illegal.update(range(a, first))
         # interludes
-        for (_, stop), (nxt, _) in zip(nucs, nucs[1:]):
+        for (_, stop), (nxt, _) in zip(nucs, nucs[1:], strict=False):
             inter = segs[stop:nxt]
             split, ok = _split_interlude(inter, spec, table)
             if not ok:
                 illegal.update(range(stop, nxt))
             elif split == len(inter) and spec.onset_required:
-                illegal.add(nxt)                      # §12.D: an onsetless syllable (hiatus)
+                illegal.add(nxt)  # §12.D: an onsetless syllable (hiatus)
             starts.append(stop + split)
         # domain-final coda
         last_stop = nucs[-1][1]
@@ -327,8 +355,7 @@ def syllabify(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
             illegal.update(range(last_stop, b))
 
     syllables = tuple(starts)
-    out = replace(word, syllables=syllables, nuclei=tuple(nuclei), stress=None,
-                  illegal=frozenset())
+    out = replace(word, syllables=syllables, nuclei=tuple(nuclei), stress=None, illegal=frozenset())
     illegal |= _banned_spans(out, rf, table, frozenset(cuts))
 
     # S1: stress index conversion (pending segment index, or an earlier syllable index)
@@ -342,12 +369,26 @@ def syllabify(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
     out = replace(out, stress=stress, illegal=frozenset(illegal), _pending_stress=None)
     note = ""
     if illegal:
-        note = "illegal: " + " ".join(
-            f"{i}:{segs[i]}" for i in sorted(illegal))
-    return out.traced(TraceEntry(stage=_STAGE, rule_id=_RULE_ID, tag="",
-                                 before=word.ipa(), after=out.ipa(), note=note))
+        note = "illegal: " + " ".join(f"{i}:{segs[i]}" for i in sorted(illegal))
+    return out.traced(
+        TraceEntry(
+            stage=_STAGE, rule_id=_RULE_ID, tag="", before=word.ipa(), after=out.ipa(), note=note
+        )
+    )
 
 
-_ANY = SyllableSpec(template=None, nuclei=(), onsets=None, codas=None, onset_set=None,
-                    coda_set=None, onset_tiers={}, coda_tiers={}, onset_required=False,
-                    appendix=(), domain="word", sonority=False, bans=())
+_ANY = SyllableSpec(
+    template=None,
+    nuclei=(),
+    onsets=None,
+    codas=None,
+    onset_set=None,
+    coda_set=None,
+    onset_tiers={},
+    coda_tiers={},
+    onset_required=False,
+    appendix=(),
+    domain="word",
+    sonority=False,
+    bans=(),
+)

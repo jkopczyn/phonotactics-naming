@@ -7,11 +7,12 @@ I-2 (diphthongs are two segments), I-24 (unknown segment raises for user input a
 files), I-34 (ASCII `g` is a canonical row and survives tokenize()), I-36 (cleaning pass for
 attested.tsv fields), I-40 (marks, including secondary stress).
 """
+
 from __future__ import annotations
 
 import unicodedata
+from collections.abc import Sequence
 from dataclasses import dataclass
-from typing import Sequence
 
 from .features import FeatureTable
 
@@ -34,17 +35,17 @@ class SegmentError(Exception):
 @dataclass(frozen=True)
 class Tokenized:
     segments: tuple[str, ...]
-    stress_index: int | None          # SEGMENT index of the primary-stressed syllable's start
-    secondary: tuple[int, ...]        # segment indices carrying ˌ
+    stress_index: int | None  # SEGMENT index of the primary-stressed syllable's start
+    secondary: tuple[int, ...]  # segment indices carrying ˌ
     syllable_starts: tuple[int, ...]  # from explicit "." marks; empty when the input has none
-    morphemes: frozenset[int]         # positions 0..len carrying "$"
-    words: tuple[int, ...]            # segment index each space-separated word starts at
+    morphemes: frozenset[int]  # positions 0..len carrying "$"
+    words: tuple[int, ...]  # segment index each space-separated word starts at
 
 
 def _longest_match(text: str, pos: int, table: FeatureTable, max_len: int) -> str | None:
     """Longest segment in `table` that is a prefix of `text[pos:]`, or None."""
     for n in range(min(max_len, len(text) - pos), 0, -1):
-        candidate = text[pos:pos + n]
+        candidate = text[pos : pos + n]
         if candidate in table:
             return candidate
     return None
@@ -67,7 +68,7 @@ def tokenize(text: str, table: FeatureTable) -> Tokenized:
     saw_dot = False
     morphemes: set[int] = set()
     words: list[int] = []
-    at_word_start = True   # the next segment begins a word
+    at_word_start = True  # the next segment begins a word
 
     pos = 0
     while pos < len(text):
@@ -96,9 +97,7 @@ def tokenize(text: str, table: FeatureTable) -> Tokenized:
             end = pos
             while end < len(text) and text[end] not in MARKS:
                 end += 1
-            raise SegmentError(
-                f"unknown segment {text[pos:end]!r} at position {pos} in {text!r}"
-            )
+            raise SegmentError(f"unknown segment {text[pos:end]!r} at position {pos} in {text!r}")
         if at_word_start:
             words.append(len(segments))
             at_word_start = False

@@ -44,10 +44,10 @@ Template function semantics (plan Task 18):
   *an tsolais* /ə(n̪ˠ) t̪ˠ.../, *an tSín* /ə(nʲ) tʲ.../). The case is genitive iff the argument
   went through a GEN function.
 """
+
 from __future__ import annotations
 
 from dataclasses import dataclass, replace
-
 from typing import TYPE_CHECKING
 
 from .dsl import Rule, RuleFile, TemplateItem
@@ -56,11 +56,20 @@ from .rewrite import _replacement, apply_section, find_matches
 from .tokenize import tokenize
 from .word import TraceEntry, Word
 
-if TYPE_CHECKING:                       # inputs.py imports apply_inflection from here
+if TYPE_CHECKING:  # inputs.py imports apply_inflection from here
     from .inputs import Entry
 
-__all__ = ["IrishError", "MissingSlot", "apply_mutation", "apply_inflection", "normalize",
-           "build_construction", "MUTATIONS", "INFLECTIONS", "UNSTRESSED_DIALECTS"]
+__all__ = [
+    "IrishError",
+    "MissingSlot",
+    "apply_mutation",
+    "apply_inflection",
+    "normalize",
+    "build_construction",
+    "MUTATIONS",
+    "INFLECTIONS",
+    "UNSTRESSED_DIALECTS",
+]
 
 STAGE = "irish"
 MUTATIONS = ("LEN", "ECL", "HPREF", "TPREF")
@@ -79,13 +88,16 @@ class MissingSlot(IrishError):
     """A template argument the construction needs was not supplied."""
 
 
-def _subtable(kind: str, tables: dict[str, tuple[Rule, ...]], name: str,
-              rf: RuleFile) -> tuple[Rule, ...]:
+def _subtable(
+    kind: str, tables: dict[str, tuple[Rule, ...]], name: str, rf: RuleFile
+) -> tuple[Rule, ...]:
     try:
         return tables[name]
     except KeyError:
-        raise IrishError(f"{rf.path}: no [{kind}] sub-table {name!r} "
-                         f"(have: {', '.join(sorted(tables)) or 'none'})") from None
+        raise IrishError(
+            f"{rf.path}: no [{kind}] sub-table {name!r} "
+            f"(have: {', '.join(sorted(tables)) or 'none'})"
+        ) from None
 
 
 def _apply_table(word: Word, rules: tuple[Rule, ...], rf: RuleFile, table: FeatureTable) -> Word:
@@ -114,12 +126,13 @@ def _apply_table(word: Word, rules: tuple[Rule, ...], rf: RuleFile, table: Featu
         out = out.replaced(start, stop, new)
     after = out.ipa()
     fired = []
-    for rule in rules:                       # file order, one entry per contributing rule
+    for rule in rules:  # file order, one entry per contributing rule
         if any(e[3] is rule for e in edits) and rule not in fired:
             fired.append(rule)
     for rule in fired:
-        out = out.traced(TraceEntry(stage=STAGE, rule_id=rule.rule_id, tag=rule.tag,
-                                    before=before, after=after))
+        out = out.traced(
+            TraceEntry(stage=STAGE, rule_id=rule.rule_id, tag=rule.tag, before=before, after=after)
+        )
     return out
 
 
@@ -150,15 +163,21 @@ def normalize(word: Word, rf: RuleFile, table: FeatureTable, *, dialect: str = "
         return out
     before = out.ipa()
     out = replace(out, _pending_stress=0)
-    return out.traced(TraceEntry(stage=STAGE, rule_id="stress:irish-initial", tag="attested",
-                                 before=before, after=out.ipa(),
-                                 note=f"Connacht initial stress (digest §4.1), dialect={dialect}"))
+    return out.traced(
+        TraceEntry(
+            stage=STAGE,
+            rule_id="stress:irish-initial",
+            tag="attested",
+            before=before,
+            after=out.ipa(),
+            note=f"Connacht initial stress (digest §4.1), dialect={dialect}",
+        )
+    )
 
 
 # ---- templates (Task 18) ---------------------------------------------------------------------
 
-_GEN_BY_DECLENSION = {"m1": "GEN_M1", "ach": "GEN_ACH", "f2": "GEN_F2", "m3": "GEN_M3",
-                      "d4": None}
+_GEN_BY_DECLENSION = {"m1": "GEN_M1", "ach": "GEN_ACH", "f2": "GEN_F2", "m3": "GEN_M3", "d4": None}
 _GEN_FUNCS = frozenset({"GEN", "GEN_M1", "GEN_ACH", "GEN_F2", "GEN_M3"})
 _DECLENSION_TAGS = ("M1", "ACH", "F2", "M3", "D4")
 _SIBILANTS = ("sˠ", "ʃ")
@@ -168,8 +187,9 @@ _SIBILANTS = ("sˠ", "ʃ")
 class _Val:
     """An evaluated template item: its segments as a Word, the Entry whose gender /
     declension tags it carries (None for a literal), and whether it is in the genitive."""
+
     word: Word
-    entry: "Entry | None" = None
+    entry: Entry | None = None
     genitive: bool = False
 
 
@@ -190,9 +210,11 @@ def _join(a: Word, b: Word) -> Word:
     if pending is None and b._pending_stress is not None:
         pending = b._pending_stress + n
     orth: tuple[str, ...] = ()
-    if a.orth or b.orth:                       # R7: the orth channel survives a join; an
-        orth = ((a.orth or ("",) * n)          # untagged side is padded with "" so the
-                + (b.orth or ("",) * len(b.segments)))   # channel stays segment-length
+    if a.orth or b.orth:  # R7: the orth channel survives a join; an
+        orth = (
+            (a.orth or ("",) * n)  # untagged side is padded with "" so the
+            + (b.orth or ("",) * len(b.segments))
+        )  # channel stays segment-length
     return Word(
         segments=a.segments + b.segments,
         orth=orth,
@@ -207,10 +229,12 @@ def _join(a: Word, b: Word) -> Word:
 
 def _head_name(items: tuple[TemplateItem, ...]) -> str | None:
     """The construction's head = the first argument slot in the template (I-16)."""
+
     def walk(item: TemplateItem) -> str | None:
         if item.kind == "arg":
             return item.value
         return walk(item.child) if item.child is not None else None
+
     for item in items:
         found = walk(item)
         if found is not None:
@@ -218,16 +242,20 @@ def _head_name(items: tuple[TemplateItem, ...]) -> str | None:
     return None
 
 
-def _condition_holds(item: TemplateItem, head: "Entry | None", name: str, rf: RuleFile) -> bool:
+def _condition_holds(item: TemplateItem, head: Entry | None, name: str, rf: RuleFile) -> bool:
     """`FUNC_M1?`: the suffix after the last `_` is a declension tag; the item applies only
     when the head carries that declension (I-16 / R1)."""
     tag = item.value.rpartition("_")[2].upper() if item.kind == "call" else ""
     if tag not in _DECLENSION_TAGS:
-        raise IrishError(f"{rf.path}: template {name}: conditional item {item.value!r}? "
-                         f"has no declension tag (one of {', '.join(_DECLENSION_TAGS)})")
+        raise IrishError(
+            f"{rf.path}: template {name}: conditional item {item.value!r}? "
+            f"has no declension tag (one of {', '.join(_DECLENSION_TAGS)})"
+        )
     if head is None:
-        raise IrishError(f"{rf.path}: template {name}: conditional item {item.value!r}? "
-                         "but the template has no head slot")
+        raise IrishError(
+            f"{rf.path}: template {name}: conditional item {item.value!r}? "
+            "but the template has no head slot"
+        )
     return (head.declension or "").lower() == tag.lower()
 
 
@@ -241,17 +269,30 @@ def _apply_gen(val: _Val, rf: RuleFile, table: FeatureTable) -> _Val:
         before = word.ipa()
         gen = Word.from_tokenized(tokenize(supplied, table))
         gen = _normalize_rewrites(replace(gen, trace=word.trace, flags=word.flags), rf, table)
-        word = gen.traced(TraceEntry(stage=STAGE, rule_id="templates:GEN", tag="attested",
-                                     before=before, after=gen.ipa(),
-                                     note="supplied gen_ipa used (spec §5), not derived"))
+        word = gen.traced(
+            TraceEntry(
+                stage=STAGE,
+                rule_id="templates:GEN",
+                tag="attested",
+                before=before,
+                after=gen.ipa(),
+                note="supplied gen_ipa used (spec §5), not derived",
+            )
+        )
     elif decl not in _GEN_BY_DECLENSION:
         inflection = "GEN_M1"
         before = word.ipa()
         word = apply_inflection(word, inflection, rf, table)
-        word = word.traced(TraceEntry(stage=STAGE, rule_id="templates:GEN", tag="design",
-                                      before=before, after=word.ipa(),
-                                      note=f"declension {decl!r} unknown; assumed m1 "
-                                           "(GEN_M1, I-38)"))
+        word = word.traced(
+            TraceEntry(
+                stage=STAGE,
+                rule_id="templates:GEN",
+                tag="design",
+                before=before,
+                after=word.ipa(),
+                note=f"declension {decl!r} unknown; assumed m1 (GEN_M1, I-38)",
+            )
+        )
     else:
         inflection = _GEN_BY_DECLENSION[decl]
         if inflection is not None:
@@ -268,52 +309,63 @@ def _article(val: _Val, rf: RuleFile, table: FeatureTable) -> _Val:
     first = noun.segments[0]
     vowel_initial = table.value(first, "syllabic") == "+"
     feminine = gender == "f"
-    if feminine and val.genitive:                       # *na hoíche* (digest §3.3, §6 row 9)
+    if feminine and val.genitive:  # *na hoíche* (digest §3.3, §6 row 9)
         art_segments: tuple[str, ...] = ("n̪ˠ", "ə")
         if vowel_initial:
             noun = apply_mutation(noun, "HPREF", rf, table)
     else:
-        lenites = val.genitive != feminine               # masc. gen. or fem. nom. (digest §3.4)
+        lenites = val.genitive != feminine  # masc. gen. or fem. nom. (digest §3.4)
         if lenites:
-            if first in _SIBILANTS:                      # *an tsolais*, *an tSín* (digest §3.1)
+            if first in _SIBILANTS:  # *an tsolais*, *an tSín* (digest §3.1)
                 noun = apply_mutation(noun, "TPREF", rf, table)
             elif not vowel_initial and table.value(first, "coronal") != "+":
                 noun = apply_mutation(noun, "LEN", rf, table)
             # a coronal blocks lenition (*an deoch*, *an tí*); a vowel takes nothing
-        elif vowel_initial:                              # masc. nom.: *an t-éan* (digest §3.3)
+        elif vowel_initial:  # masc. nom.: *an t-éan* (digest §3.3)
             noun = apply_mutation(noun, "TPREF", rf, table)
         first = noun.segments[0]
-        slender = (first in rf.classes.get("SLEN", ())
-                   or (table.value(first, "syllabic") == "+"
-                       and table.value(first, "front") == "+"))
+        slender = first in rf.classes.get("SLEN", ()) or (
+            table.value(first, "syllabic") == "+" and table.value(first, "front") == "+"
+        )
         art_segments = ("ə", "nʲ" if slender else "n̪ˠ")
     before = noun.ipa()
     out = _join(Word(segments=art_segments), noun)
-    out = out.traced(TraceEntry(stage=STAGE, rule_id="templates:ART", tag="attested",
-                                before=before, after=out.ipa(),
-                                note=f"article, gender={gender}, "
-                                     f"case={'gen' if val.genitive else 'nom'} (digest §3.4)"))
+    out = out.traced(
+        TraceEntry(
+            stage=STAGE,
+            rule_id="templates:ART",
+            tag="attested",
+            before=before,
+            after=out.ipa(),
+            note=f"article, gender={gender}, case={'gen' if val.genitive else 'nom'} (digest §3.4)",
+        )
+    )
     return _Val(out, val.entry, val.genitive)
 
 
 class _Builder:
-    def __init__(self, name: str, slots: "dict[str, Entry]", rf: RuleFile,
-                 table: FeatureTable) -> None:
+    def __init__(
+        self, name: str, slots: dict[str, Entry], rf: RuleFile, table: FeatureTable
+    ) -> None:
         self.name, self.slots, self.rf, self.table = name, slots, rf, table
         try:
             self.items = rf.templates[name]
         except KeyError:
-            raise IrishError(f"{rf.path}: no [templates] entry {name!r} "
-                             f"(have: {', '.join(sorted(rf.templates)) or 'none'})") from None
+            raise IrishError(
+                f"{rf.path}: no [templates] entry {name!r} "
+                f"(have: {', '.join(sorted(rf.templates)) or 'none'})"
+            ) from None
         head = _head_name(self.items)
-        self.head: "Entry | None" = self.slot(head) if head is not None else None
+        self.head: Entry | None = self.slot(head) if head is not None else None
 
-    def slot(self, arg: str) -> "Entry":
+    def slot(self, arg: str) -> Entry:
         try:
             return self.slots[arg]
         except KeyError:
-            raise MissingSlot(f"template {self.name} needs slot {arg!r} "
-                              f"(given: {', '.join(sorted(self.slots)) or 'none'})") from None
+            raise MissingSlot(
+                f"template {self.name} needs slot {arg!r} "
+                f"(given: {', '.join(sorted(self.slots)) or 'none'})"
+            ) from None
 
     def evaluate(self, item: TemplateItem) -> _Val:
         """A literal or a slot, or a function of one; never a bare function (those act on
@@ -325,8 +377,9 @@ class _Builder:
             word = Word.from_tokenized(tokenize(e.ipa, self.table))
             return _Val(_normalize_rewrites(word, self.rf, self.table), e)
         if item.child is None:
-            raise IrishError(f"{self.rf.path}: template {self.name}: bare {item.value} "
-                             "may not be nested")
+            raise IrishError(
+                f"{self.rf.path}: template {self.name}: bare {item.value} may not be nested"
+            )
         return self.call(item.value, self.evaluate(item.child))
 
     def call(self, func: str, val: _Val) -> _Val:
@@ -334,8 +387,11 @@ class _Builder:
         if func in MUTATIONS:
             return _Val(apply_mutation(val.word, func, rf, table), val.entry, val.genitive)
         if func in INFLECTIONS:
-            return _Val(apply_inflection(val.word, func, rf, table), val.entry,
-                        val.genitive or func in _GEN_FUNCS)
+            return _Val(
+                apply_inflection(val.word, func, rf, table),
+                val.entry,
+                val.genitive or func in _GEN_FUNCS,
+            )
         if func == "GEN":
             return _apply_gen(val, rf, table)
         if func == "LEN_IF_F":
@@ -352,7 +408,7 @@ class _Builder:
         for item in self.items:
             if item.conditional and not _condition_holds(item, self.head, self.name, self.rf):
                 continue
-            if item.kind == "literal" and not item.value.strip():      # " " = word separator
+            if item.kind == "literal" and not item.value.strip():  # " " = word separator
                 if current.segments:
                     words.extend(current.split_words())
                 current = Word(segments=())
@@ -368,14 +424,24 @@ class _Builder:
         if current.segments:
             words.extend(current.split_words())
         joined = " ".join(w.ipa() for w in words)
-        return [w.traced(TraceEntry(stage=STAGE, rule_id=f"templates:{self.name}", tag="",
-                                    before="", after=joined,
-                                    note=f"construction {self.name}, word {i + 1} of {len(words)}"))
-                for i, w in enumerate(words)]
+        return [
+            w.traced(
+                TraceEntry(
+                    stage=STAGE,
+                    rule_id=f"templates:{self.name}",
+                    tag="",
+                    before="",
+                    after=joined,
+                    note=f"construction {self.name}, word {i + 1} of {len(words)}",
+                )
+            )
+            for i, w in enumerate(words)
+        ]
 
 
-def build_construction(name: str, slots: "dict[str, Entry]", rf: RuleFile,
-                       table: FeatureTable) -> list[Word]:
+def build_construction(
+    name: str, slots: dict[str, Entry], rf: RuleFile, table: FeatureTable
+) -> list[Word]:
     """Apply rf.templates[name]; one Word per space-separated word (I-16) — both the `" "`
     separators written in the template and any spaces inside a slot's own IPA (*an tsúil*
     /ən̪ˠ t̪ˠuːlʲ/, spec §3). The construction is assembled and mutated as ONE object, so a

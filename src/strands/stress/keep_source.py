@@ -2,6 +2,7 @@
 (plan Task 12; spec §3). Takes no parameters. The syllabifier has already converted the
 source's segment-index mark to a syllable index (S1); secondary stress is ignored (I-40).
 """
+
 from __future__ import annotations
 
 from ..dsl import StressSpec

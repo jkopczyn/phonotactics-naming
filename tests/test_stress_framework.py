@@ -1,13 +1,17 @@
 """Plan Task 12: stress package — registry, syllable weight, `initial`, `keep-source`."""
+
 import pytest
 from helpers import TABLE, w
-from strands.dsl import parse_rules
-from strands.syllabify import syllabify
-from strands.stress import PROCEDURES, assign_stress, syllable_weight, StressError
-from strands.stress.params import PROCEDURE_PARAMS
 
-BASE = ("[inventory]\np t k a aː i n s\n[syllable]\ntemplate = (C)N(C)(C)\nonsets = p t k n s\n"
-        "codas = p t k n s\nsonority = off\n")
+from strands.dsl import parse_rules
+from strands.stress import PROCEDURES, StressError, assign_stress, syllable_weight
+from strands.stress.params import PROCEDURE_PARAMS
+from strands.syllabify import syllabify
+
+BASE = (
+    "[inventory]\np t k a aː i n s\n[syllable]\ntemplate = (C)N(C)(C)\nonsets = p t k n s\n"
+    "codas = p t k n s\nsonority = off\n"
+)
 
 
 def stressed(src, ipa):
@@ -46,21 +50,29 @@ def test_trace_entry():
 def test_syllable_weight_counts_nuclei():
     rf = parse_rules(BASE + "nuclei = ai\n[stress]\nprocedure = initial\n", TABLE)
     out = syllabify(w("pai"), rf, TABLE)
-    assert syllable_weight(out, 0, TABLE) == "heavy"      # branching nucleus, open syllable
+    assert syllable_weight(out, 0, TABLE) == "heavy"  # branching nucleus, open syllable
 
 
 def test_weight_classes():
     rf = parse_rules(BASE + "[stress]\nprocedure = initial\n", TABLE)
     out = syllabify(w("patakaːnt"), rf, TABLE)
-    assert {syllable_weight(out, i, TABLE) for i in range(len(out.syllables))} <= \
-        {"light", "heavy", "superheavy"}
+    assert {syllable_weight(out, i, TABLE) for i in range(len(out.syllables))} <= {
+        "light",
+        "heavy",
+        "superheavy",
+    }
 
 
 def test_weight_each_class():
     rf = parse_rules(BASE + "[stress]\nprocedure = initial\n", TABLE)
     out = syllabify(w("pa.taː.pan.taːn.pant"), rf, TABLE)
-    assert [syllable_weight(out, i, TABLE) for i in range(5)] == \
-        ["light", "heavy", "heavy", "superheavy", "superheavy"]
+    assert [syllable_weight(out, i, TABLE) for i in range(5)] == [
+        "light",
+        "heavy",
+        "heavy",
+        "superheavy",
+        "superheavy",
+    ]
 
 
 def test_unknown_procedure_raises():
@@ -69,8 +81,10 @@ def test_unknown_procedure_raises():
 
 
 def test_assign_stress_rejects_unregistered_procedure_directly():
-    from strands.dsl import RuleFile, StressSpec
     from dataclasses import replace
+
+    from strands.dsl import StressSpec
+
     rf = parse_rules(BASE + "[stress]\nprocedure = initial\n", TABLE)
     bogus = replace(rf, stress=StressSpec("wibble", {}))
     with pytest.raises(StressError):

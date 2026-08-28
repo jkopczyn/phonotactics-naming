@@ -1,8 +1,10 @@
 """Plan Task 8: the substitute stage (spec §4.2a)."""
+
 from helpers import TABLE
+
 from strands.dsl import parse_rules
-from strands.word import Word
 from strands.substitute import substitute
+from strands.word import Word
 
 
 def test_runs_the_section_in_order():

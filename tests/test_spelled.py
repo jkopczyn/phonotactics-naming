@@ -12,14 +12,24 @@ plan's tests say they quote):
     table row. Conv. 5 (i) makes the ⟨c⟩ of *cinn* slender and conv. 2 makes the ⟨d⟩ of
     *claideb* /ðʲ/ (digest /klaðʲəv/).
 """
-import pytest
 
+import pytest
 from helpers import ROOT, TABLE
+
 from strands.check import check_grapheme_table
 from strands.dsl import parse_rules
-from strands.spelled import (OI_ORTHOGRAPHY_PATH, ROLES, GraphemeRule, SpelledError,
-                             SpelledWord, apply_grapheme_table, load_graphemes,
-                             spelling_to_ipa, spelling_to_words, tokenize_spelling)
+from strands.spelled import (
+    OI_ORTHOGRAPHY_PATH,
+    ROLES,
+    GraphemeRule,
+    SpelledError,
+    SpelledWord,
+    apply_grapheme_table,
+    load_graphemes,
+    spelling_to_ipa,
+    spelling_to_words,
+    tokenize_spelling,
+)
 
 
 def ipa(text, mutation=""):
@@ -28,10 +38,31 @@ def ipa(text, mutation=""):
 
 # ---- losslessness: the property the whole design exists for ------------------------------
 
-@pytest.mark.parametrize("text", [
-    "macc", "bec", "dub", "cloch", "bláth", "túath", "fer", "coll", "claideb", "carae",
-    "muir", "dígal", "brithem", "Ériu", "Máel Coluim", "ṡúil", "ḟer", "mbó", "Nessa",
-])
+
+@pytest.mark.parametrize(
+    "text",
+    [
+        "macc",
+        "bec",
+        "dub",
+        "cloch",
+        "bláth",
+        "túath",
+        "fer",
+        "coll",
+        "claideb",
+        "carae",
+        "muir",
+        "dígal",
+        "brithem",
+        "Ériu",
+        "Máel Coluim",
+        "ṡúil",
+        "ḟer",
+        "mbó",
+        "Nessa",
+    ],
+)
 def test_a_spelled_word_round_trips_its_own_spelling(text):
     """O-27: `"".join(tokens)` IS the written form. This is the losslessness claim."""
     for part in text.split(" "):
@@ -65,7 +96,7 @@ def test_the_table_is_sorted_longest_token_first():
 def test_tokenization_respects_the_env_of_the_only_rows_a_token_has():
     """⟨mb nd ng⟩ are INITIAL nasal tokens; inside a word the letters are two tokens."""
     assert tokenize_spelling("mbó") == ("mb", "ó")
-    assert tokenize_spelling("imb") == ("i", "mb")          # conv. 4: the /mb/ cluster
+    assert tokenize_spelling("imb") == ("i", "mb")  # conv. 4: the /mb/ cluster
     assert tokenize_spelling("marb") == ("m", "a", "r", "b")
     assert tokenize_spelling("delg") == ("d", "e", "l", "g")
 
@@ -79,29 +110,36 @@ def test_the_final_digraphs_do_not_swallow_a_medial_glide():
 
 # ---- reconstruction: the digest's own worked examples --------------------------------------
 
-@pytest.mark.parametrize("text,expected", [
-    ("macc", ("mˠ", "a", "k")),           # conv. 2-3: doubled = fortis
-    ("bec", ("bʲ", "e", "ɡ")),            # conv. 2: non-initial ⟨c⟩ = /ɡ/ — digest /bʲeɡ/
-    ("bratt", ("bˠ", "ɾˠ", "a", "t̪ˠ")),
-    ("brot", ("bˠ", "ɾˠ", "o", "d̪ˠ")),
-    ("dub", ("d̪ˠ", "u", "β")),
-    ("mod", ("mˠ", "o", "ð")),
-    ("mug", ("mˠ", "u", "ɣ")),
-    ("ech", ("e", "x")),
-    ("áth", ("aː", "θ")),
-])
+
+@pytest.mark.parametrize(
+    "text,expected",
+    [
+        ("macc", ("mˠ", "a", "k")),  # conv. 2-3: doubled = fortis
+        ("bec", ("bʲ", "e", "ɡ")),  # conv. 2: non-initial ⟨c⟩ = /ɡ/ — digest /bʲeɡ/
+        ("bratt", ("bˠ", "ɾˠ", "a", "t̪ˠ")),
+        ("brot", ("bˠ", "ɾˠ", "o", "d̪ˠ")),
+        ("dub", ("d̪ˠ", "u", "β")),
+        ("mod", ("mˠ", "o", "ð")),
+        ("mug", ("mˠ", "u", "ɣ")),
+        ("ech", ("e", "x")),
+        ("áth", ("aː", "θ")),
+    ],
+)
 def test_the_digests_worked_examples_reconstruct(text, expected):
     """Every pair is printed in digest §10.2 conventions 2 and 3."""
     assert ipa(text) == expected
 
 
-@pytest.mark.parametrize("text,expected", [
-    ("imb", ("i", "mʲ", "bʲ")),          # conv. 4: after ⟨m⟩, ⟨b⟩ = /b/ — digest /imʲbʲ/
-    ("marb", ("mˠ", "a", "ɾˠ", "β")),    # conv. 4: after ⟨r⟩, ⟨b⟩ = /v/
-    ("bind", ("bʲ", "i", "nʲ", "dʲ")),   # conv. 4: after ⟨n⟩, ⟨d⟩ = /d/; conv. 5 (ii) slender
-    ("long", ("l̪ˠ", "o", "ŋ", "ɡ")),     # conv. 4: after ⟨n⟩, ⟨g⟩ = /ɡ/
-    ("delg", ("dʲ", "e", "l̪ˠ", "ɡ")),    # digest /dʲelɡ/
-])
+@pytest.mark.parametrize(
+    "text,expected",
+    [
+        ("imb", ("i", "mʲ", "bʲ")),  # conv. 4: after ⟨m⟩, ⟨b⟩ = /b/ — digest /imʲbʲ/
+        ("marb", ("mˠ", "a", "ɾˠ", "β")),  # conv. 4: after ⟨r⟩, ⟨b⟩ = /v/
+        ("bind", ("bʲ", "i", "nʲ", "dʲ")),  # conv. 4: after ⟨n⟩, ⟨d⟩ = /d/; conv. 5 (ii) slender
+        ("long", ("l̪ˠ", "o", "ŋ", "ɡ")),  # conv. 4: after ⟨n⟩, ⟨g⟩ = /ɡ/
+        ("delg", ("dʲ", "e", "l̪ˠ", "ɡ")),  # digest /dʲelɡ/
+    ],
+)
 def test_convention_4_stops_after_l_n_r_m(text, expected):
     """digest §10.2 conv. 4 — draft 1 omitted this entirely (R28) and reconstructed
     *derg*, *long*, *ferg* wrongly; all three are lexicon rows."""
@@ -111,8 +149,8 @@ def test_convention_4_stops_after_l_n_r_m(text, expected):
 def test_the_glide_i_contributes_no_segment_and_slenderizes():
     """digest §10.2 conv. 5 §36 (R29a): *muir* < *mori*."""
     assert ipa("muir") == ("mˠ", "u", "ɾʲ")
-    assert ipa("cnáim") == ("k", "n̪ˠ", "aː", "β̃ʲ")     # master table: non-initial ⟨m⟩ = /ṽ/
-    assert ipa("athair") == ("a", "θ", "ə", "ɾʲ")       # 2nd-syllable ⟨a⟩ reduces (step 5)
+    assert ipa("cnáim") == ("k", "n̪ˠ", "aː", "β̃ʲ")  # master table: non-initial ⟨m⟩ = /ṽ/
+    assert ipa("athair") == ("a", "θ", "ə", "ɾʲ")  # 2nd-syllable ⟨a⟩ reduces (step 5)
 
 
 def test_an_onset_cluster_takes_the_quality_of_its_vowel():
@@ -136,22 +174,33 @@ def test_a_vowel_i_before_a_final_consonant_slenderizes_it():
 def test_a_doubled_token_takes_one_quality_for_both_halves():
     """R29b: the geminate must not split. It is ONE token (O-2)."""
     assert ipa("coll") == ("k", "o", "l̪ˠ", "l̪ˠ")
-    assert ipa("cinn") == ("c", "i", "nʲ", "nʲ")         # conv. 5 (i): ⟨c⟩ before ⟨i⟩ is slender
+    assert ipa("cinn") == ("c", "i", "nʲ", "nʲ")  # conv. 5 (i): ⟨c⟩ before ⟨i⟩ is slender
 
 
 def test_unstressed_vowels_reduce_but_final_and_long_ones_do_not():
     """digest §10.2 conv. 5 grid; §10.1 'word-finally, all ten combinations occur'."""
     assert ipa("dígal") == ("dʲ", "iː", "ɣ", "ə", "l̪ˠ")
-    assert ipa("claideb") == ("k", "l̪ˠ", "a", "ðʲ", "ə", "β")   # digest /klaðʲəv/
-    assert ipa("carae")[-1] == "e"           # §41: final ⟨-ae⟩ WRITES /e/ after a broad C
-    assert ipa("daltai")[-1] == "i"          # §41: final ⟨-ai⟩ writes /i/
+    assert ipa("claideb") == ("k", "l̪ˠ", "a", "ðʲ", "ə", "β")  # digest /klaðʲəv/
+    assert ipa("carae")[-1] == "e"  # §41: final ⟨-ae⟩ WRITES /e/ after a broad C
+    assert ipa("daltai")[-1] == "i"  # §41: final ⟨-ai⟩ writes /i/
     assert ipa("brithem") == ("bʲ", "ɾʲ", "i", "θʲ", "ə", "β̃")  # non-initial ⟨m⟩ = /ṽ/
 
 
-@pytest.mark.parametrize("text,final", [
-    ("marba", "a"), ("léicea", "a"), ("marbae", "e"), ("léice", "e"), ("marbai", "i"),
-    ("léici", "i"), ("súlo", "o"), ("doirseo", "o"), ("marbu", "u"), ("léiciu", "u"),
-])
+@pytest.mark.parametrize(
+    "text,final",
+    [
+        ("marba", "a"),
+        ("léicea", "a"),
+        ("marbae", "e"),
+        ("léice", "e"),
+        ("marbai", "i"),
+        ("léici", "i"),
+        ("súlo", "o"),
+        ("doirseo", "o"),
+        ("marbu", "u"),
+        ("léiciu", "u"),
+    ],
+)
 def test_the_ten_final_vowel_spellings_of_digest_10_1(text, final):
     """digest §10.1: word-finally all ten short-vowel × quality combinations occur, and the
     §40/§41 digraphs ⟨-ea -eo -iu -ae -ai⟩ spell the vowel, not a schwa (review oi-data-aligner
@@ -171,13 +220,22 @@ def test_the_u_glide_is_not_a_nucleus():
     syllable-final consonant. Under O-4 (three-way quality is spelling only) it contributes no
     segment and never becomes a /ə/ syllable (review oi-data-aligner finding 3)."""
     assert ipa("fiuss") == ("fʲ", "i", "sˠ")
-    assert ipa("firu")[-1] == "u"            # §38's other example: word-FINAL ⟨u⟩ is a vowel
+    assert ipa("firu")[-1] == "u"  # §38's other example: word-FINAL ⟨u⟩ is a vowel
 
 
-@pytest.mark.parametrize("text,expected", [
-    ("aí", ("a", "i")), ("oí", ("o", "i")), ("uí", ("u", "i")), ("áu", ("a", "u")),
-    ("éu", ("e", "u")), ("íu", ("i", "u")), ("ía", ("i", "a")), ("úa", ("u", "a")),
-])
+@pytest.mark.parametrize(
+    "text,expected",
+    [
+        ("aí", ("a", "i")),
+        ("oí", ("o", "i")),
+        ("uí", ("u", "i")),
+        ("áu", ("a", "u")),
+        ("éu", ("e", "u")),
+        ("íu", ("i", "u")),
+        ("ía", ("i", "a")),
+        ("úa", ("u", "a")),
+    ],
+)
 def test_the_eight_diphthongs_use_the_wiki_old_irish_values(text, expected):
     """O-28 / R19: `wiki-old-irish` §Vowels gives ai oi ui au eu iu ia ua. Draft 1's
     `aːi`/`iə` contradicted digest §10.8 conflict 5 and used the modern reduction vowel."""
@@ -199,6 +257,7 @@ def test_lenited_f_is_written_and_silent():
 
 
 # ---- the mutation metadata ----------------------------------------------------------------
+
 
 def test_unwritten_lenition_lives_in_the_metadata_and_changes_only_the_ipa():
     """digest §10.2 conv. 1: *a bo* /a vo/ is still WRITTEN *bo*. This is the single reason
@@ -222,20 +281,32 @@ def test_an_unknown_mutation_name_is_rejected():
 
 # ---- punctum is rendering only (O-14) -----------------------------------------------------
 
+
 def test_punctum_off_changes_the_string_and_provably_not_the_ipa():
     w = SpelledWord.from_spelling("ṡúil")
     assert w.render(punctum=True) == "ṡúil"
     assert w.render(punctum=False) == "súil"
-    assert spelling_to_ipa(w) == spelling_to_ipa(SpelledWord.from_spelling(w.render(punctum=False))) \
+    assert (
+        spelling_to_ipa(w) == spelling_to_ipa(SpelledWord.from_spelling(w.render(punctum=False)))
         or spelling_to_ipa(w)[0] == "h"
+    )
 
 
 # ---- grapheme rewrites (O-10) -------------------------------------------------------------
 
+
 def rule(target, replacement, left=(), right=(), table="T"):
-    return GraphemeRule(table=table, line=1, rule_id="t:1", target=tuple(target),
-                        replacement=tuple(replacement), left=tuple(left), right=tuple(right),
-                        tag="attested", comment="")
+    return GraphemeRule(
+        table=table,
+        line=1,
+        rule_id="t:1",
+        target=tuple(target),
+        replacement=tuple(replacement),
+        left=tuple(left),
+        right=tuple(right),
+        tag="attested",
+        comment="",
+    )
 
 
 def test_a_grapheme_rewrite_edits_tokens_not_letters():
@@ -248,14 +319,18 @@ def test_a_grapheme_rewrite_edits_tokens_not_letters():
 def test_a_mutation_table_is_simultaneous_and_first_rule_wins():
     """The `irish._apply_table` contract: `c -> ch` must not feed `ch -> x`."""
     rules = [rule(("c",), ("ch",), left=("#",)), rule(("ch",), ("x",), left=("#",))]
-    assert apply_grapheme_table(SpelledWord.from_spelling("cenn"), rules,
-                                simultaneous=True).render() == "chenn"
+    assert (
+        apply_grapheme_table(SpelledWord.from_spelling("cenn"), rules, simultaneous=True).render()
+        == "chenn"
+    )
 
 
 def test_an_inflection_table_is_ordered_and_each_rule_sees_the_last_output():
     rules = [rule(("c",), ("ch",), left=("#",)), rule(("ch",), ("x",), left=("#",))]
-    assert apply_grapheme_table(SpelledWord.from_spelling("cenn"), rules,
-                                simultaneous=False).render() == "xenn"
+    assert (
+        apply_grapheme_table(SpelledWord.from_spelling("cenn"), rules, simultaneous=False).render()
+        == "xenn"
+    )
 
 
 def test_capitalization_and_mutation_survive_a_rewrite():
@@ -270,15 +345,20 @@ def test_sets_classes_and_insertion_are_the_only_other_atoms():
     out = apply_grapheme_table(w, [rule(("{c t p}",), ("th",), left=("#",))], simultaneous=True)
     assert out.render() == "thech"
     nas = [rule((), ("n-",), left=("#",), right=("V",))]
-    assert apply_grapheme_table(SpelledWord.from_spelling("Ériu"), nas,
-                                simultaneous=True).render() == "n-Ériu"
+    assert (
+        apply_grapheme_table(SpelledWord.from_spelling("Ériu"), nas, simultaneous=True).render()
+        == "n-Ériu"
+    )
     assert apply_grapheme_table(w, nas, simultaneous=True).render() == "tech"
     drop = [rule(("C",), (), left=("V",), right=("#",))]
-    assert apply_grapheme_table(SpelledWord.from_spelling("fer"), drop,
-                                simultaneous=False).render() == "fe"
+    assert (
+        apply_grapheme_table(SpelledWord.from_spelling("fer"), drop, simultaneous=False).render()
+        == "fe"
+    )
 
 
 # ---- the ending marker (spec §11) ---------------------------------------------------------
+
 
 def test_the_ending_marker_tokenizes_and_reconstructs_to_nothing():
     """It exists so a [respell] output carrying an unresolved stem-final /ə/ can become a
@@ -315,6 +395,7 @@ def test_no_row_uses_a_punctum_role():
 
 # ---- failure ------------------------------------------------------------------------------
 
+
 def test_an_unknown_character_raises_and_names_it():
     with pytest.raises(SpelledError, match="z"):
         SpelledWord.from_spelling("fezr")
@@ -327,6 +408,7 @@ def test_a_multi_word_form_splits_into_words():
 
 
 # ---- check_grapheme_table -----------------------------------------------------------------
+
 
 def test_the_committed_table_passes_check():
     assert check_grapheme_table(OI_ORTHOGRAPHY_PATH, TABLE) == []
@@ -345,10 +427,17 @@ def test_check_reports_bad_rows(tmp_path):
         "ə\tany\t-\t-\tending\t-\tone\n"
         "ɨ\tany\t-\t-\tending\t-\ttwo\n"
         "ll\tany\t-\tl̪ˠ+l̪ˠ\tcons\t-\tfine\n",
-        encoding="utf-8")
+        encoding="utf-8",
+    )
     codes = {e.code for e in check_grapheme_table(bad, TABLE)}
-    assert codes >= {"GRAPH_UNKNOWN_SEGMENT", "GRAPH_DUPLICATE_ROW", "GRAPH_BAD_ENV",
-                     "GRAPH_BAD_ROLE", "GRAPH_BAD_PUNCTUM", "GRAPH_ENDING_COUNT"}
+    assert codes >= {
+        "GRAPH_UNKNOWN_SEGMENT",
+        "GRAPH_DUPLICATE_ROW",
+        "GRAPH_BAD_ENV",
+        "GRAPH_BAD_ROLE",
+        "GRAPH_BAD_PUNCTUM",
+        "GRAPH_ENDING_COUNT",
+    }
 
 
 def test_check_reports_an_unreachable_token(tmp_path):
@@ -361,7 +450,8 @@ def test_check_reports_an_unreachable_token(tmp_path):
         "a\tany\t-\ta\tvowel\t-\t-\n"
         "b\tnoninitial\ta\tbˠ\tcons\t-\tonly after a, where ab wins\n"
         "ə\tany\t-\t-\tending\t-\t-\n",
-        encoding="utf-8")
+        encoding="utf-8",
+    )
     codes = [e.code for e in check_grapheme_table(bad, TABLE)]
     assert "GRAPH_UNREACHABLE_TOKEN" in codes
 
@@ -404,6 +494,7 @@ def test_grammar_graphemes_reads_subtables_as_grapheme_rules():
 
 def test_grammar_graphemes_rejects_a_non_grapheme_item():
     from strands.dsl import ParseError
+
     with pytest.raises(ParseError, match="grapheme"):
         parse_rules(GRAPHEME_FILE.replace("{c t p} -> ch", "z -> ch"), TABLE)
     with pytest.raises(ParseError, match="grapheme"):

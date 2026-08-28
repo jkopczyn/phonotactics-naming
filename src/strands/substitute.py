@@ -12,6 +12,7 @@ bundles inside rules resolve by exact lookup. One trace entry per replaced segme
 `stage="fallback"`, `rule_id="fallback"`, `tag="fallback"`, so `Word.fallback_count()` counts
 them. `substitute_stage()` is the two in sequence.
 """
+
 from __future__ import annotations
 
 from .dsl import RuleFile
@@ -46,9 +47,16 @@ def fallback(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
         new = table.nearest(seg, candidates, rf.weights)
         before = out.ipa()
         out = out.replaced(i, i + 1, (new,))
-        out = out.traced(TraceEntry(stage=FALLBACK, rule_id=FALLBACK, tag=FALLBACK,
-                                    before=before, after=out.ipa(),
-                                    note=f"{seg} -> {new}"))
+        out = out.traced(
+            TraceEntry(
+                stage=FALLBACK,
+                rule_id=FALLBACK,
+                tag=FALLBACK,
+                before=before,
+                after=out.ipa(),
+                note=f"{seg} -> {new}",
+            )
+        )
     return out
 
 

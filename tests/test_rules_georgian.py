@@ -6,7 +6,9 @@ calls `adapt()`, `repair()` or the regression harness. Substitution is tested th
 follow-ups (-uli dissimilation, syncope before -eb-) through `post_stress()` on hand-built
 affixed Words.
 """
+
 from helpers import TABLE, target, w
+
 from strands.check import check_rule_file
 from strands.poststress import post_stress
 from strands.respell import respell
@@ -27,6 +29,7 @@ def spell(*segments):
 
 # ---- common tests (parse / citation half; the pipeline half lives in Task 23b) -------------
 
+
 def test_rule_file_parses_and_checks_clean():
     errs = [e for e in check_rule_file(TARGET, TABLE) if e.severity == "error"]
     assert errs == [], errs
@@ -36,8 +39,10 @@ def test_every_rule_line_carries_a_citation():
     for section in TARGET.sections.values():
         for r in section:
             assert r.comment.strip(), r.rule_id
-            assert ("[" in r.comment or "design:" in r.comment or "digest §" in r.comment), \
-                (r.rule_id, r.comment)
+            assert "[" in r.comment or "design:" in r.comment or "digest §" in r.comment, (
+                r.rule_id,
+                r.comment,
+            )
 
 
 def test_tags_are_design_where_the_digest_leaves_the_question_open():
@@ -45,18 +50,22 @@ def test_tags_are_design_where_the_digest_leaves_the_question_open():
     subs = TARGET.sections["substitute"]
     by_repl = {}
     for r in subs:
-        for seg in (r.replacement if isinstance(r.replacement, tuple) else ()):
+        for seg in r.replacement if isinstance(r.replacement, tuple) else ():
             by_repl.setdefault(seg, []).append(r)
     for seg in ("pʰ", "kʼ", "tʃʰ", "dʒ"):
         assert seg in by_repl, seg
     for r in by_repl["kʼ"] + by_repl["tʃʰ"] + by_repl["dʒ"]:
         assert r.tag == "design", (r.rule_id, r.tag)
-    f_rules = [r for r in subs if r.target and r.target[0].kind == "segment"
-               and r.target[0].value in ("fˠ", "fʲ", "f")]
+    f_rules = [
+        r
+        for r in subs
+        if r.target and r.target[0].kind == "segment" and r.target[0].value in ("fˠ", "fʲ", "f")
+    ]
     assert f_rules and all(r.tag == "attested" for r in f_rules)
 
 
 # ---- inventory / classes --------------------------------------------------------------------
+
 
 def test_inventory_is_the_shosted_chart():
     """digest §1.1 [shosted2006 p.255]: 28 consonants + 5 vowels; tʃʰ from the Task 1b rows."""
@@ -64,15 +73,13 @@ def test_inventory_is_the_shosted_chart():
     for seg in "pʰ pʼ b tʰ tʼ d kʰ kʼ ɡ qʼ ts tsʼ dz tʃʰ tʃʼ dʒ m n v s z ʃ ʒ x ɣ h l".split():
         assert seg in inv, seg
     assert {"i", "ɛ", "ɑ", "ɔ", "u"} <= inv
-    assert "f" not in inv and "ŋ" not in inv and "w" not in inv       # §1.4, §3.2
-    assert not any(s.endswith("ː") for s in inv)                       # §4.4
+    assert "f" not in inv and "ŋ" not in inv and "w" not in inv  # §1.4, §3.2
+    assert not any(s.endswith("ː") for s in inv)  # §4.4
 
 
 def test_broad_and_slender_are_declared_classes():
-    assert TARGET.classes["BROAD"] == tuple(
-        "pˠ bˠ t̪ˠ d̪ˠ fˠ sˠ w vˠ mˠ n̪ˠ l̪ˠ ɾˠ k ɡ x ɣ ŋ".split())
-    assert TARGET.classes["SLEN"] == tuple(
-        "pʲ bʲ tʲ dʲ fʲ ʃ vʲ mʲ nʲ lʲ ɾʲ c ɟ ç j ɲ".split())
+    assert TARGET.classes["BROAD"] == tuple("pˠ bˠ t̪ˠ d̪ˠ fˠ sˠ w vˠ mˠ n̪ˠ l̪ˠ ɾˠ k ɡ x ɣ ŋ".split())
+    assert TARGET.classes["SLEN"] == tuple("pʲ bʲ tʲ dʲ fʲ ʃ vʲ mʲ nʲ lʲ ɾʲ c ɟ ç j ɲ".split())
 
 
 def test_syllable_block_is_loadable():
@@ -84,6 +91,7 @@ def test_syllable_block_is_loadable():
 
 
 # ---- substitute ---------------------------------------------------------------------------------
+
 
 def test_irish_p_t_k_are_aspirated_by_default_per_decision_9_4():
     """Named for the decision, not for a digest fact: digest §3.1 line 868 recommends the
@@ -104,14 +112,15 @@ def test_f_stays_aspirated_after_a_consonant():
     assert sub("sˠfˠaː") == ("s", "pʰ", "ɑ")
 
 
-def test_broad_nonlabial_before_a_front_vowel_gets_v():      # Cʷ, decision 5
+def test_broad_nonlabial_before_a_front_vowel_gets_v():  # Cʷ, decision 5
     assert sub("kiː")[1] == "v"
 
 
 def test_the_cw_rule_uses_the_BROAD_class():
     """Spec §12.J: `[C +back]` would exclude plain /k/, the very segment this targets."""
-    rule = [r for r in TARGET.sections["substitute"]
-            if r.replacement == ("v",) and r.target == ()][0]
+    rule = [r for r in TARGET.sections["substitute"] if r.replacement == ("v",) and r.target == ()][
+        0
+    ]
     assert rule.left[-1].atom.value.class_name == "BROAD"
 
 
@@ -148,7 +157,7 @@ def test_w_becomes_v():
 def test_long_vowels_shorten_and_schwa_is_a():
     assert sub("t̪ˠaː") == ("tʰ", "ɑ")
     assert sub("mˠoːɾˠ") == ("m", "ɔ", "r")
-    assert sub("pˠeː") == ("pʰ", "ɛ")          # labial: no Cʷ
+    assert sub("pˠeː") == ("pʰ", "ɛ")  # labial: no Cʷ
     assert sub("bˠə") == ("b", "ɑ")
 
 
@@ -167,13 +176,15 @@ def test_substitute_output_is_all_inventory():
 
 # ---- stress -------------------------------------------------------------------------------------
 
+
 def test_stress_is_initial_and_unmarked():
     assert TARGET.stress is not None
-    assert TARGET.stress.procedure == "initial"                       # §4.1
-    assert TARGET.stress.params.get("mark") == "off"                  # §4.3
+    assert TARGET.stress.procedure == "initial"  # §4.1
+    assert TARGET.stress.params.get("mark") == "off"  # §4.3
 
 
 # ---- epithets -----------------------------------------------------------------------------------
+
 
 def test_epithets_declared():
     for name in ("NOM_I", "URI", "ELI", "SHVILI", "DZE", "EBI"):
@@ -207,12 +218,12 @@ def test_uri_dissimilates_to_uli_after_a_rhotic_stem():
 
 def test_syncope_before_eb():
     """digest §6.2 [wiki-ka §Morphophonology]: megobari -> megobrebi."""
-    got = post_stress(_affixed(("m", "ɛ", "ɡ", "ɔ", "b", "ɑ", "r"), ("ɛ", "b", "i")),
-                      TARGET, TABLE)
+    got = post_stress(_affixed(("m", "ɛ", "ɡ", "ɔ", "b", "ɑ", "r"), ("ɛ", "b", "i")), TARGET, TABLE)
     assert "".join(got.segments) == "mɛɡɔbrɛbi"
 
 
 # ---- respell ------------------------------------------------------------------------------------
+
 
 def test_personal_names_are_emitted_as_a_bare_stem():
     assert not spell("kʰ", "a", "n").endswith("i")
@@ -234,9 +245,28 @@ def test_d5_places_the_apostrophe_after_the_consonant():
 
 def test_national_2002_table():
     """[ungegn-georgian p.1], the 33-letter table, minus the D1/D2 overlays."""
-    pairs = {"pʰ": "p", "pʼ": "p'", "tʰ": "t", "tʼ": "t'", "kʰ": "k", "kʼ": "k'", "qʼ": "q'",
-             "ts": "ts", "tsʼ": "ts'", "dz": "dz", "tʃʰ": "ch", "dʒ": "j", "ʃ": "sh",
-             "ʒ": "zh", "ɣ": "gh", "ɡ": "g", "ɑ": "a", "ɛ": "e", "ɔ": "o", "r": "r"}
+    pairs = {
+        "pʰ": "p",
+        "pʼ": "p'",
+        "tʰ": "t",
+        "tʼ": "t'",
+        "kʰ": "k",
+        "kʼ": "k'",
+        "qʼ": "q'",
+        "ts": "ts",
+        "tsʼ": "ts'",
+        "dz": "dz",
+        "tʃʰ": "ch",
+        "dʒ": "j",
+        "ʃ": "sh",
+        "ʒ": "zh",
+        "ɣ": "gh",
+        "ɡ": "g",
+        "ɑ": "a",
+        "ɛ": "e",
+        "ɔ": "o",
+        "r": "r",
+    }
     for seg, letters in pairs.items():
         assert spell(seg, "u") == letters + "u", seg
 
@@ -245,9 +275,9 @@ def test_y_for_i_in_a_non_initial_closed_syllable():
     """digest §5.3 D3 / spec §9.8: Xelxyx = /xɛlxix/."""
     word = Word(segments=("x", "ɛ", "l", "x", "i", "x"), syllables=(0, 3), stress=0)
     assert respell(word, TARGET, TABLE) == "xelxyx"
-    word = Word(segments=("tʰ", "tʼ", "i", "ʃ"), syllables=(0,), stress=0)   # initial: stays i
+    word = Word(segments=("tʰ", "tʼ", "i", "ʃ"), syllables=(0,), stress=0)  # initial: stays i
     assert respell(word, TARGET, TABLE) == "tt'ish"
-    word = Word(segments=("b", "ɑ", "k", "i"), syllables=(0, 2), stress=0)   # open: stays i
+    word = Word(segments=("b", "ɑ", "k", "i"), syllables=(0, 2), stress=0)  # open: stays i
     assert respell(word, TARGET, TABLE) == "baki"
 
 

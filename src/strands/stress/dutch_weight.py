@@ -24,6 +24,7 @@ Readings the digest leaves open (kept as simple as possible):
   schwa is enforced at every candidate: a schwa syllable is never returned while the
   word has a non-schwa one (see `_clamp`).
 """
+
 from __future__ import annotations
 
 from ..dsl import StressSpec
@@ -48,15 +49,17 @@ def _nucleus(word: Word, i: int) -> tuple[int, int] | None:
 
 def _has_schwa(word: Word, i: int) -> bool:
     nuc = _nucleus(word, i)
-    return nuc is not None and any(s == SCHWA for s in word.segments[nuc[0]:nuc[1]])
+    return nuc is not None and any(s == SCHWA for s in word.segments[nuc[0] : nuc[1]])
 
 
 def _is_a_class(word: Word, i: int, table: FeatureTable) -> bool:
     nuc = _nucleus(word, i)
     if nuc is None:
         return False
-    return any(table.value(s, "tense") == "+" or table.value(s, "long") == "+"
-               for s in word.segments[nuc[0]:nuc[1]])
+    return any(
+        table.value(s, "tense") == "+" or table.value(s, "long") == "+"
+        for s in word.segments[nuc[0] : nuc[1]]
+    )
 
 
 def _is_diphthong(word: Word, i: int) -> bool:
@@ -103,8 +106,12 @@ def dutch_weight(word: Word, spec: StressSpec, table: FeatureTable) -> int | Non
     if _coda_count(word, penult) >= 1 and not _has_schwa(word, penult):
         return penult
     # step 4: closed lax final -> antepenult
-    if n >= 3 and _coda_count(word, final) >= 1 and not _is_a_class(word, final, table) \
-            and not _has_schwa(word, antepenult):
+    if (
+        n >= 3
+        and _coda_count(word, final) >= 1
+        and not _is_a_class(word, final, table)
+        and not _has_schwa(word, antepenult)
+    ):
         return _clamp(word, antepenult, lo)
     # step 5: default penult
     return _clamp(word, penult, lo)

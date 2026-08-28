@@ -1,8 +1,9 @@
 """Plan Task 26: `rules/dutch.rules` — the Belgian Dutch target (sources/dutch/digest.md
 §1–§6, §8; spec §7 Dutch, decisions 9.16–9.18). Written before the rule file (spec §12.I)."""
-import pytest
 
+import pytest
 from helpers import TABLE, entry_of, irish, read_allow_file_for, read_test_words, target, w
+
 from strands.check import check_rule_file
 from strands.pipeline import adapt, run_entry
 from strands.regress import assert_ratchet, run_regression
@@ -15,6 +16,7 @@ IRISH = irish()
 
 # ---- common tests (plan "Tasks 23a–26" preamble) ----------------------------------------------
 
+
 def test_rule_file_parses_and_checks_clean():
     errs = [e for e in check_rule_file(TARGET, TABLE) if e.severity == "error"]
     assert errs == [], errs
@@ -24,8 +26,10 @@ def test_every_rule_line_carries_a_citation():
     for section in TARGET.sections.values():
         for r in section:
             assert r.comment.strip(), r.rule_id
-            assert ("[" in r.comment or "design:" in r.comment or "digest §" in r.comment), \
-                (r.rule_id, r.comment)
+            assert "[" in r.comment or "design:" in r.comment or "digest §" in r.comment, (
+                r.rule_id,
+                r.comment,
+            )
 
 
 def test_mutation_output_segments_all_survive():
@@ -37,12 +41,16 @@ def test_mutation_output_segments_all_survive():
 
 
 def test_no_unrepaired_on_the_144_word_set():
-    bad = [row["orthography"] for row in read_test_words()
-           if "UNREPAIRED" in run_entry(entry_of(row), "DESC", IRISH, TARGET, TABLE).flags]
+    bad = [
+        row["orthography"]
+        for row in read_test_words()
+        if "UNREPAIRED" in run_entry(entry_of(row), "DESC", IRISH, TARGET, TABLE).flags
+    ]
     assert set(bad) <= read_allow_file_for("dutch"), sorted(bad)
 
 
 # ---- task-specific tests (plan Task 26, step 1) ------------------------------------------------
+
 
 @pytest.mark.parametrize("construction", ["VOC", "PATRO_O", "PATRO_NI"])
 @pytest.mark.parametrize("orthography", ["shnámh", "sneachta", "sméara"])
@@ -54,6 +62,7 @@ def test_lenited_h_plus_sonorant_is_repaired_after_a_prefix_too(orthography, con
     r = run_entry(entry_of(row), construction, IRISH, TARGET, TABLE)
     assert "UNREPAIRED" not in r.flags, r.ipa
     assert "h" not in r.words[0].segments, r.ipa
+
 
 def test_slender_consonant_in_an_onset_gets_a_yod_and_in_a_coda_is_plain():
     assert adapt([w("tʲaː")], TARGET, TABLE).words[0].segments[:2] == ("t", "j")
@@ -88,14 +97,15 @@ def test_matanach_does_not_trigger_the_fricative_ban():
 def test_bach_does_trigger_it():
     """digest line 308: the ban bites when a long vowel directly precedes."""
     out = adapt([w("bˠaːx")], TARGET, TABLE).words[0].segments
-    assert out[-1] == "ɣ"                      # decision 9.18: voice the fricative
+    assert out[-1] == "ɣ"  # decision 9.18: voice the fricative
 
 
 def test_appendix_narrowing_is_declared():
     """R21: the digest licenses up to three coronal obstruents; `s t` is a narrowing and
     must say so, or the set must be the full coronal-obstruent list."""
-    coronal_obstruents = {seg for seg in TARGET.inventory
-                          if TABLE.matches(seg, {"coronal": "+", "sonorant": "-"})}
+    coronal_obstruents = {
+        seg for seg in TARGET.inventory if TABLE.matches(seg, {"coronal": "+", "sonorant": "-"})
+    }
     if set(TARGET.syllable.appendix) < coronal_obstruents:
         assert "appendix-narrowed" in TARGET.meta
     else:
@@ -111,11 +121,11 @@ def test_onset_list_sizes_match_the_digest():
     native = {c for c, t in tiers.items() if t == "NATIVE"}
     loan = {c for c, t in tiers.items() if t == "LOAN"}
     design = {c for c, t in tiers.items() if t == "DESIGN"}
-    norm = {c for c, t in tiers.items() if t == "NORM"}       # Belgian ɣl ɣr ɣn (§0 line 35)
+    norm = {c for c, t in tiers.items() if t == "NORM"}  # Belgian ɣl ɣr ɣn (§0 line 35)
     assert set(tiers.values()) == {"NATIVE", "LOAN", "DESIGN", "NORM"}
     assert len([c for c in native if len(c) == 2]) == 30
     assert len([c for c in loan if len(c) == 2]) == 25
-    assert {("ts",), ("tʃ",)} <= loan                    # the two affricate "clusters"
+    assert {("ts",), ("tʃ",)} <= loan  # the two affricate "clusters"
     assert len([c for c in native | loan if len(c) == 3]) == 7
     assert len([c for c in native if len(c) == 3]) == 4
     assert design and all(len(c) == 2 and c[1] == "j" for c in design), design
@@ -162,16 +172,19 @@ def test_achtig_attaches_and_devoices_the_stem_final_obstruent():
     assert r.respelling == "rootachtech"
 
 
-@pytest.mark.parametrize("ipa,spelling,why", [
-    ("mˠaːnˠ",   "maan",   "§5 step 2: long V in a closed syllable doubles the vowel letter"),
-    ("mˠaːnˠə",  "mane",   "§5 step 2: long V in an open syllable is written single (ma-nen)"),
-    ("l̪ˠat̪ˠ",   "lat",    "§5 step 4: no double consonant at the end of a word"),
-    ("l̪ˠat̪ˠə",  "latte",  "§5 step 3: short V before a single intervocalic C doubles the C"),
-    ("bˠoːnˠ",   "boon",   "§5 table: /oː/ checked = oo"),
-    ("bˠoːnˠə",  "bone",   "§5 table: /oː/ free = o"),
-    ("mˠʊsˠ",    "mus",    "§5 table: /ʏ/ = u (mus)"),
-    ("dʲiːfˠ",   "dief",   "§5 table: /i/ = ie; slender onset dʲ → dj"),
-])
+@pytest.mark.parametrize(
+    "ipa,spelling,why",
+    [
+        ("mˠaːnˠ", "maan", "§5 step 2: long V in a closed syllable doubles the vowel letter"),
+        ("mˠaːnˠə", "mane", "§5 step 2: long V in an open syllable is written single (ma-nen)"),
+        ("l̪ˠat̪ˠ", "lat", "§5 step 4: no double consonant at the end of a word"),
+        ("l̪ˠat̪ˠə", "latte", "§5 step 3: short V before a single intervocalic C doubles the C"),
+        ("bˠoːnˠ", "boon", "§5 table: /oː/ checked = oo"),
+        ("bˠoːnˠə", "bone", "§5 table: /oː/ free = o"),
+        ("mˠʊsˠ", "mus", "§5 table: /ʏ/ = u (mus)"),
+        ("dʲiːfˠ", "dief", "§5 table: /i/ = ie; slender onset dʲ → dj"),
+    ],
+)
 def test_doubling_algorithm_in_the_respelling(ipa, spelling, why):
     got = adapt([w(ipa)], TARGET, TABLE).respelling
     assert got == spelling.replace("dief", "djief"), why
@@ -179,37 +192,41 @@ def test_doubling_algorithm_in_the_respelling(ipa, spelling, why):
 
 def test_respelling_of_the_dutch_specific_letters():
     """§5 "Phoneme → spelling": ɣ→g, x→ch, ʋ→w, u→oe, øː→eu, ɛi→ei, œy→ui, ɔu→ou, ŋ→ng."""
+
     def sp(ipa):
         return adapt([w(ipa)], TARGET, TABLE).respelling
+
     assert sp("ɣaːl̪ˠ") == "gaal"
     assert sp("bˠɔx") == "boch"
     assert sp("waːl̪ˠ") == "waal"
     assert sp("bˠuːk") == "boek"
-    assert sp("bˠəil̪ˠ") == "beil"           # Irish /əi/ → Dutch /ɛi/ (§8.3 line 986)
-    assert sp("bˠəul̪ˠ") == "boul"           # Irish /əu/ → Dutch /ɔu/
+    assert sp("bˠəil̪ˠ") == "beil"  # Irish /əi/ → Dutch /ɛi/ (§8.3 line 986)
+    assert sp("bˠəul̪ˠ") == "boul"  # Irish /əu/ → Dutch /ɔu/
     assert sp("ɾˠɪŋ") == "ring"
 
 
 # ---- I-27 repair table (review-opus §F, digest line refs) ---------------------------------------
 
 DUTCH_REPAIRS = [
-    ("mɛlk",   "mɛlək",  "§3.2 line 457 — melk, schwa epenthesis"),
-    ("kɑlm",   "kɑləm",  "§3.2 line 456 — kalm"),
-    ("hɛrfst", "hɛrəfst","§3.2 line 457/470 — herfst DOES epenthesize (R20b)"),
-    ("hɑls",   "hɑls",   "§3.2 line 465 — hals blocks (homorganic)"),
-    ("hɑrt",   "hɑrt",   "§3.2 line 467 — hart blocks (coronal C2)"),
-    ("hɑnd",   "hɑnt",   "§3.5 line 363/561 — hand, final devoicing"),
-    ("ett",    "et",     "§2 lines 353-355 — eet, degemination (repeated segments, I-2)"),
+    ("mɛlk", "mɛlək", "§3.2 line 457 — melk, schwa epenthesis"),
+    ("kɑlm", "kɑləm", "§3.2 line 456 — kalm"),
+    ("hɛrfst", "hɛrəfst", "§3.2 line 457/470 — herfst DOES epenthesize (R20b)"),
+    ("hɑls", "hɑls", "§3.2 line 465 — hals blocks (homorganic)"),
+    ("hɑrt", "hɑrt", "§3.2 line 467 — hart blocks (coronal C2)"),
+    ("hɑnd", "hɑnt", "§3.5 line 363/561 — hand, final devoicing"),
+    ("ett", "et", "§2 lines 353-355 — eet, degemination (repeated segments, I-2)"),
     ("ɡroːttə", "ɡroːtə", "§2 lines 353-355 — grootte"),
-    ("bɑːx",   "bɑːɣ",   "§8.6 line 308 — bách, tense-V + voiceless fricative (design 9.18)"),
-    ("hoːrn",  "hoːrən", "§3.2 line 458 — hoorn: r + n is NOT homorganic, epenthesis applies"),
-    ("kɑft",   "kɑft",   "§3.2 line 470 — kaft: no schwa inside a consonant + appendix"),
+    ("bɑːx", "bɑːɣ", "§8.6 line 308 — bách, tense-V + voiceless fricative (design 9.18)"),
+    ("hoːrn", "hoːrən", "§3.2 line 458 — hoorn: r + n is NOT homorganic, epenthesis applies"),
+    ("kɑft", "kɑft", "§3.2 line 470 — kaft: no schwa inside a consonant + appendix"),
 ]
 
 
 @pytest.mark.parametrize("before,after,cite", DUTCH_REPAIRS)
 def test_repair_table(before, after, cite):
-    assert repair(syllabify(w(before), TARGET, TABLE), TARGET, TABLE).ipa(marks=False) == after, cite
+    assert repair(syllabify(w(before), TARGET, TABLE), TARGET, TABLE).ipa(marks=False) == after, (
+        cite
+    )
 
 
 def test_matanach_control_row():
@@ -223,7 +240,7 @@ def test_matanach_control_row():
     assert r.ipa.replace(".", "") == "mɑˈtaːnəx"
     assert r.respelling == "mattanech"
     assert "UNREPAIRED" not in r.flags
-    assert not [t for t in r.trace if t.stage == "fallback"]      # no inventory fallback fired
+    assert not [t for t in r.trace if t.stage == "fallback"]  # no inventory fallback fired
 
 
 def test_lasairchos_control_row():
@@ -236,6 +253,7 @@ def test_lasairchos_control_row():
 
 
 # ---- regression (I-25 Mode C and Mode E) --------------------------------------------------------
+
 
 def test_row_accounting():
     """I-25: 90 rows, 67 with target_ipa, 32 with both sides. The 32 two-sided rows go to
@@ -269,8 +287,16 @@ def test_regression_measured_rate():
     rep = run_regression("dutch", TABLE)
     assert rep.rate("C") >= 0.77, rep.summary()
     failing = {r.target_ipa for r in rep.rows if r.mode == "C" and not r.passed}
-    assert failing <= {"ɑ.lə.ɣo.ˈri", "ɑ.nɑr.ˈxi", "ɑ.na.to.ˈmi", "e.nɛr.ˈʒi", "me.laŋ.xo.ˈli",
-                       "pro.fe.ˈsi", "ɛn.si.klo.pe.ˈdi", "roːs"}, failing
+    assert failing <= {
+        "ɑ.lə.ɣo.ˈri",
+        "ɑ.nɑr.ˈxi",
+        "ɑ.na.to.ˈmi",
+        "e.nɛr.ˈʒi",
+        "me.laŋ.xo.ˈli",
+        "pro.fe.ˈsi",
+        "ɛn.si.klo.pe.ˈdi",
+        "roːs",
+    }, failing
 
 
 def test_mode_e_meets_the_bar():

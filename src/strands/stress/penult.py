@@ -7,6 +7,7 @@ count every time — never carried from the source and never from an earlier run
 affixation (an epithet suffix, an Irish inflection) shifts it rightward as in *ysgrif* →
 *ysgrifen* → *ysgrifennydd* [breit2019 p.74].
 """
+
 from __future__ import annotations
 
 from ..dsl import StressSpec
