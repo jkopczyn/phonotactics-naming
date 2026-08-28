@@ -587,7 +587,7 @@ def _target_combinations(
     for combination in itertools.product(*options):
         captures = {
             spec.capture: seg
-            for spec, seg in zip(rule.target, combination)
+            for spec, seg in zip(rule.target, combination, strict=True)
             if spec.capture is not None
         }
         yield combination, captures
@@ -712,7 +712,7 @@ def _invert_rule(
             continue
         note = "copies " + ", ".join(f"\\{n}" for n in unresolved) + " from the context"
         for assignment in itertools.islice(itertools.product(*options), _EXPAND_CAP):
-            copied = dict(zip(unresolved, assignment))
+            copied = dict(zip(unresolved, assignment, strict=True))
             key = tuple(
                 copied[part.n]
                 if isinstance(part, Backref) and part.n in copied
@@ -844,7 +844,7 @@ def un_substitute(
         alts: list[Alternative] = []
         seen: set[tuple[tuple[str, ...], tuple[Step, ...]]] = set()
 
-        def keep(alt: Alternative) -> None:
+        def keep(alt: Alternative, *, seen=seen, alts=alts) -> None:
             marker = (alt.segments, alt.steps)
             if marker not in seen:
                 seen.add(marker)
@@ -929,7 +929,7 @@ def _epenthesis_groups(slots: Sequence[Slot], smap: SourceMap, section: str) -> 
                 continue
             if not all(
                 any(alt.segments == (seg,) for alt in slot.alts)
-                for slot, seg in zip(span, inserted)
+                for slot, seg in zip(span, inserted, strict=True)
             ):
                 continue
             bucket = spans.setdefault((start, start + width), [])
@@ -1261,11 +1261,11 @@ def _merge_lines(lines: Sequence[ConstraintLine]) -> tuple[ConstraintLine, ...]:
     return tuple(
         sorted(
             merged.values(),
-            key=lambda l: (
-                _KIND_RANK.get(l.kind, 9),
-                1 if l.tag == "design" else 0,
-                l.rule_ids[0] if l.rule_ids else "",
-                l.description,
+            key=lambda ln: (
+                _KIND_RANK.get(ln.kind, 9),
+                1 if ln.tag == "design" else 0,
+                ln.rule_ids[0] if ln.rule_ids else "",
+                ln.description,
             ),
         )
     )
@@ -1333,7 +1333,9 @@ def dropped_lines(pattern: Pattern) -> tuple[ConstraintLine, ...]:
             contexts=tuple(dict.fromkeys((seen.contexts if seen else ()) + contexts)),
         )
     return tuple(
-        sorted(merged.values(), key=lambda l: (_id_order(l.rule_ids[0]), l.rule_ids[0], l.label))
+        sorted(
+            merged.values(), key=lambda ln: (_id_order(ln.rule_ids[0]), ln.rule_ids[0], ln.label)
+        )
     )
 
 
@@ -1804,7 +1806,9 @@ def expand(pattern: Pattern, *, cap: int = CAP):
     count = 0
     while heap and count < cap:
         cost, indexes = heapq.heappop(heap)
-        segments = tuple(seg for unit, i in zip(units, indexes) for seg in unit[i].segments)
+        segments = tuple(
+            seg for unit, i in zip(units, indexes, strict=True) for seg in unit[i].segments
+        )
         if segments not in emitted:
             emitted.add(segments)
             count += 1

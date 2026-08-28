@@ -59,10 +59,10 @@ def test_a_long_description_pushes_the_rules_to_a_continuation_line():
 
 def test_the_formatter_never_leaves_trailing_whitespace():
     for out in (format_rule_line("  a   ← ", "a", ""), format_rule_line("", "b", "r:1")):
-        assert all(l == l.rstrip() for l in out)
+        assert all(ln == ln.rstrip() for ln in out)
 
 
-# ---- the constraint set ---------------------------------------------------------------------------
+# ---- the constraint set --------------------------------------------------------------------------
 
 
 def test_a_wildcard_slot_is_unconstrained():
@@ -81,7 +81,7 @@ def test_context_no_longer_splits_a_line():
     kind, TAG and description are ONE line however many contexts they carry between them. The
     `a` of *cahal* reaches /a/ through eleven post-stress rules with eleven environments."""
     cs = constraints(analysed(WEL, "cahal"))
-    (line,) = [l for l in cs[1].lines if l.description == "a, ea, ai, eai" and not l.tag]
+    (line,) = [ln for ln in cs[1].lines if ln.description == "a, ea, ai, eai" and not ln.tag]
     assert len(line.contexts) > 1 and len(line.rule_ids) > 4
 
 
@@ -107,14 +107,14 @@ def test_a_SUBSTITUTE_deletion_reaches_the_block_and_the_report():
     between source_map and the Pattern, so only [repair]/[post-stress] deletions ever showed.
     The repair/post-stress ones are filtered out here so the assertion cannot pass on them."""
     subs = [
-        l
-        for l in dropped_lines(analysed(WEL, "uu"))
-        if any(r.startswith("substitute:") for r in l.rule_ids)
+        ln
+        for ln in dropped_lines(analysed(WEL, "uu"))
+        if any(r.startswith("substitute:") for r in ln.rule_ids)
     ]
-    assert subs, [l.rule_ids for l in dropped_lines(analysed(WEL, "uu"))]
+    assert subs, [ln.rule_ids for ln in dropped_lines(analysed(WEL, "uu"))]
     text = "\n".join(lines(WEL, "uu", verified=False))
     assert "possibly dropped" in text
-    assert any(r in text for l in subs for r in l.rule_ids)
+    assert any(r in text for ln in subs for r in ln.rule_ids)
 
 
 def test_a_two_context_alternative_is_one_line_and_one_exclusion():
@@ -143,7 +143,7 @@ def test_a_two_context_alternative_is_one_line_and_one_exclusion():
     assert "substitute:70" in excl[0] and "respell:330" not in "".join(excl)
 
 
-# ---- the report ------------------------------------------------------------------------------------
+# ---- the report ----------------------------------------------------------------------------------
 
 
 def test_the_header_and_the_target_segment_line():
@@ -171,7 +171,7 @@ def test_examples_zero_says_it_skipped_verification():
     assert "verified examples: skipped (--examples 0)" in lines(GEO, "ar", verified=False)
 
 
-# ---- the Irish spelling pattern ---------------------------------------------------------------------
+# ---- the Irish spelling pattern ------------------------------------------------------------------
 
 
 def test_alternation_is_printed_never_a_pick():
@@ -187,7 +187,7 @@ def test_an_optional_group_is_one_parenthesised_span():
 def test_an_insertion_gets_its_own_or_line():
     """V-14 (Q2); the suffix is D4's rule ids, not a context dump."""
     out = render_pattern(analysed(GEO, "av"))
-    assert any(l.strip().startswith("or, with") and "substitute:" in l for l in out)
+    assert any(ln.strip().startswith("or, with") and "substitute:" in ln for ln in out)
 
 
 def test_caol_le_caol_filters_the_vowel_letters_in_the_rendering():
@@ -195,7 +195,7 @@ def test_caol_le_caol_filters_the_vowel_letters_in_the_rendering():
     assert "e|" not in line
 
 
-# ---- the six goldens (F6) ---------------------------------------------------------------------------
+# ---- the six goldens (F6) ------------------------------------------------------------------------
 # Each compares the ENTIRE report() output. Regenerate deliberately, never by pasting a diff.
 # GOLDEN_SIMPLE       pins: header, target segments, two normal constraint lines at RULE_COL,
 #                     the `possibly dropped` block, no exclusions, verification skipped.
@@ -409,15 +409,15 @@ def test_the_a_slot_of_cahal_prints_at_most_four_lines():
     lines that all said "a/á". Under the `(kind, description)` key the attested and design
     routes to one letter-set are one line, and four remain."""
     cs = constraints(analysed(WEL, "cahal"))
-    assert len(cs[1].lines) <= 4, [l.description for l in cs[1].lines]
+    assert len(cs[1].lines) <= 4, [ln.description for ln in cs[1].lines]
 
 
 def test_the_a_slot_of_cahal_is_four_lines_none_of_them_repeated():
     """D2: ~40 lines down to four, each a distinct `(kind, description)`."""
     cs = constraints(analysed(WEL, "cahal"))
     lines_ = cs[1].lines
-    assert len(lines_) == 4, [l.description for l in lines_]
-    keys = [(l.kind, l.description) for l in lines_]
+    assert len(lines_) == 4, [ln.description for ln in lines_]
+    keys = [(ln.kind, ln.description) for ln in lines_]
     assert len(set(keys)) == 4
 
 
@@ -426,7 +426,7 @@ def test_a_merged_line_keeps_the_strongest_tag_of_its_routes():
     ⟨a, ea, ai, eai⟩ makes the claim "this Irish spelling can produce this letter" attested,
     even though `post-stress:396` reaches it by design."""
     cs = constraints(analysed(WEL, "cahal"))
-    (line,) = [l for l in cs[1].lines if l.description == "a, ea, ai, eai"]
+    (line,) = [ln for ln in cs[1].lines if ln.description == "a, ea, ai, eai"]
     assert line.tag == ""  # "" is attested
     assert "post-stress:396" in line.rule_ids  # the %design route merged in
 
@@ -434,7 +434,7 @@ def test_a_merged_line_keeps_the_strongest_tag_of_its_routes():
 def test_a_line_prints_at_most_four_rule_ids_then_a_count():
     """B1: the union of a group's rule ids can be twenty; four and `+N` is what is printed."""
     cs = constraints(analysed(WEL, "cahal"))
-    (line,) = [l for l in cs[1].lines if l.description == "a, ea, ai, eai" and not l.tag]
+    (line,) = [ln for ln in cs[1].lines if ln.description == "a, ea, ai, eai" and not ln.tag]
     suffix = _rule_suffix(line)
     ids, _, rest = suffix.partition(" +")
     assert len(ids.split(",")) == 4
@@ -456,7 +456,7 @@ def test_the_v_slot_of_the_session_case_prints_four_sources_and_one_design_line(
     line. The `(non-initial)` split is accepted, so the /w/-side is two lines (`vˠ -> v`
     non-initial and `w -> v`) and four sources is the bar, not three."""
     cs = constraints(analysed(GEO, "ar*v*"))
-    sources = [l for l in cs[3].lines if l.description != "/v/ + /v/"]
+    sources = [ln for ln in cs[3].lines if ln.description != "/v/ + /v/"]
     assert len(sources) <= 4 and len(cs[3].lines) - len(sources) <= 1
 
 
@@ -464,7 +464,7 @@ def test_the_v_slot_of_the_session_case_prints_its_sources_once_each():
     """What the binding key yields: one line per Irish source of the Georgian ⟨v⟩ — the broad
     /vˠ/ and /w/ readings apart, the slender one, `v v -> v`, and the inserted one."""
     cs = constraints(analysed(GEO, "ar*v*"))
-    assert [l.description for l in cs[3].lines] == [
+    assert [ln.description for ln in cs[3].lines] == [
         "broad bhf/bh/mh/v/w (non-initial)",  # vˠ -> v, the Connacht reading of ⟨bh mh⟩
         "slender bhf/bh/mh/v/w",  # vʲ -> v
         "broad bhf/bh/mh/v/w",  # w -> v %design
@@ -478,15 +478,15 @@ def test_only_substitute_and_epenthesis_contexts_reach_the_exclusions():
     environment. Only the `[substitute]` steps and the epenthesis sources are left."""
     out = lines(WEL, "cahal", verified=False)
     excl = out[out.index("exclusions") + 1 : out.index("Irish spelling pattern") - 1]
-    assert excl and not any("post-stress:" in l or "respell:" in l for l in excl)
+    assert excl and not any("post-stress:" in ln or "respell:" in ln for ln in excl)
 
 
 def test_the_exclusions_dedupe_by_label_and_context():
     out = lines(WEL, "cahal", verified=False)
     excl = [
-        l
-        for l in out[out.index("exclusions") + 1 : out.index("Irish spelling pattern") - 1]
-        if l.startswith("  ")
+        ln
+        for ln in out[out.index("exclusions") + 1 : out.index("Irish spelling pattern") - 1]
+        if ln.startswith("  ")
     ]
     assert len(excl) == len(set(excl))
     assert len(excl) <= 6
@@ -501,7 +501,7 @@ def test_the_pattern_shows_no_vowel_plus_h_run():
 def test_a_schwa_slot_says_any_short_vowel():
     """B3: the /ə/ line of the Welsh `a` slot, which listed twenty-three runs."""
     cs = constraints(analysed(WEL, "cahal"))
-    assert "any short vowel (unstressed)" in [l.description for l in cs[1].lines]
+    assert "any short vowel (unstressed)" in [ln.description for ln in cs[1].lines]
 
 
 # ---- fix round Task D: examples, grouping, rendering (D2 … D5) ----------------------------------
@@ -512,16 +512,16 @@ def test_a_dropped_segment_is_one_line_per_segment():
     `w -> 0` rules and the two `j -> 0` rules of welsh.rules are one line each, as are the two
     `h` deletions of `[repair]`."""
     dropped = dropped_lines(analysed(WEL, "uu"))
-    labels = [l.label for l in dropped]
+    labels = [ln.label for ln in dropped]
     assert labels == sorted(set(labels), key=labels.index)  # each label exactly once
-    (w,) = [l for l in dropped if l.label == "w"]
+    (w,) = [ln for ln in dropped if ln.label == "w"]
     assert len(w.rule_ids) == 2 and all(r.startswith("substitute:") for r in w.rule_ids)
 
 
 def test_a_merged_dropped_line_keeps_the_strongest_tag():
     """D3: the tag rule of D2 applies to the dropped block too."""
     dropped = dropped_lines(analysed(WEL, "uu"))
-    (h,) = [l for l in dropped if l.label == "h"]
+    (h,) = [ln for ln in dropped if ln.label == "h"]
     assert len(h.rule_ids) > 1 and h.tag in ("", "design")
 
 
@@ -530,7 +530,7 @@ def test_an_insertion_line_cites_rule_ids_not_a_context_dump():
     forward order and a count. Contexts live in the exclusions block, never here."""
     import re
 
-    out = [l for l in render_pattern(analysed(WEL, "cahal")) if "or, with" in l]
+    out = [ln for ln in render_pattern(analysed(WEL, "cahal")) if "or, with" in ln]
     assert out
     for line in out:
         assert "context:" not in line
@@ -571,7 +571,7 @@ def test_a_slot_renders_the_same_runs_its_constraint_lines_list():
     p = analysed(WEL, "cahal")
     line = render_pattern(p)[0]
     slot = constraints(p)[1]
-    listed = {run for l in slot.lines for run in l.description.split(", ") if run != "…"}
+    listed = {run for ln in slot.lines for run in ln.description.split(", ") if run != "…"}
     rendered = set(re.findall(r"\(([^()]*)\)", line)[1].split("|"))
     assert {"a", "á"} <= rendered
     assert rendered - {"…"} <= listed, rendered - listed

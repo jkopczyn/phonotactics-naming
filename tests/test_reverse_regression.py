@@ -147,7 +147,7 @@ def test_the_session_case_lists_exactly_the_three_v_sources():
 
     _geo, p = analysed_geo("ar*v*")
     v = [c for c in constraints(p) if c.label == "v"][0]
-    kinds = {(l.kind, l.description) for l in v.lines}
+    kinds = {(ln.kind, ln.description) for ln in v.lines}
     assert ("epenthesis", "inserted, no Irish letter") in kinds
     assert any("bh" in d for _k, d in kinds)  # /w/ from broad bh/mh
     assert any("slender" in d for _k, d in kinds)  # /vʲ/ from slender bh/mh
@@ -168,16 +168,16 @@ def test_ardmhaor_is_admitted():
 @pytest.mark.xfail(
     strict=True,
     reason=(
-        "C2 FINDING, for owner review, not a test to delete; RE-MEASURED after D6. After A4 widened "
-        "the palette the pattern ADMITS /aːɾˠd̪ˠvˠiːɾˠ/ (the test above) and every piece is on "
-        "offer — the first `*` can be /d̪ˠ/ and the second /iːɾˠ/ — but that filling is nowhere "
-        "near the front of the stream. D6 raised `expand`'s own cap from 2000 to EXAMINE_FACTOR * "
-        "cap = 8000, which took `Ar*v*` from 106 candidates tried to 608 and from 1 example to the "
-        "full 8 asked for; *ardmhaor* is still not among them, because both `*` slots offer 421 "
-        "fillings each and the two-segment ones are ranked last. So this remains an ENUMERATION "
-        "ORDER limit, not a cap that one more factor would fix: interleaving the `*` fillings "
-        "(breadth over the cross product rather than depth) is what would reach it — the owner's "
-        "call. `Ar*v*` costs 27 s at the shipped cap after D6."
+        "C2 FINDING, for owner review, not a test to delete; RE-MEASURED after D6. After A4 "
+        "widened the palette the pattern ADMITS /aːɾˠd̪ˠvˠiːɾˠ/ (the test above) and every piece "
+        "is on offer — the first `*` can be /d̪ˠ/ and the second /iːɾˠ/ — but that filling is "
+        "nowhere near the front of the stream. D6 raised `expand`'s own cap from 2000 to "
+        "EXAMINE_FACTOR * cap = 8000, which took `Ar*v*` from 106 candidates tried to 608 and "
+        "from 1 example to the full 8 asked for; *ardmhaor* is still not among them, because both "
+        "`*` slots offer 421 fillings each and the two-segment ones are ranked last. So this "
+        "remains an ENUMERATION ORDER limit, not a cap that one more factor would fix: "
+        "interleaving the `*` fillings (breadth over the cross product rather than depth) is what "
+        "would reach it — the owner's call. `Ar*v*` costs 27 s at the shipped cap after D6."
     ),
 )
 def test_ardmhaor_verifies_for_the_session_case():

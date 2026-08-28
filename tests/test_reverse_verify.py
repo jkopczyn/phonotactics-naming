@@ -70,7 +70,7 @@ def test_expansion_is_deterministic():
     assert a == b
 
 
-# ---- verification (V-34 / F8) ---------------------------------------------------------------------
+# ---- verification (V-34 / F8)
 
 
 def test_every_kept_example_really_matches_the_pattern_through_the_real_engine():
@@ -158,7 +158,7 @@ def test_ipa_mode_matches_the_unmarked_ipa():
     assert all(all(m not in e.ipa for m in ("ˈ", "ˌ", ".")) for e in examples)
 
 
-# ---- review fixes (task 7) ------------------------------------------------------------------------
+# ---- review fixes (task 7)
 
 
 def test_an_unspellable_candidate_does_not_consume_the_forward_run_budget():

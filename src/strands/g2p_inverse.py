@@ -561,7 +561,7 @@ def _layouts(units: list[tuple[str, tuple[str, ...]]]) -> list[list[tuple[str, t
         return [units]
     out: list[list[tuple[str, tuple[str, ...]]]] = []
     for drops in itertools.product((True, False), repeat=len(epen)):
-        dropped = {i for i, drop in zip(epen, drops) if drop}
+        dropped = {i for i, drop in zip(epen, drops, strict=True) if drop}
         layout: list[tuple[str, tuple[str, ...]]] = []
         for i, (kind, run) in enumerate(units):
             if i in dropped:

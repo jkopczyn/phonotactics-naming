@@ -419,7 +419,7 @@ def test_groups_are_sorted_and_non_overlapping():
     p = pat(WEL, "ysbryd")
     spans = [(g.start, g.stop) for g in p.groups]
     assert spans == sorted(spans)
-    assert all(a[1] <= b[0] for a, b in zip(spans, spans[1:]))
+    assert all(a[1] <= b[0] for a, b in zip(spans, spans[1:], strict=False))
 
 
 def test_deletions_from_the_widened_sections_reach_the_pattern():
@@ -436,7 +436,7 @@ def test_stress_is_ignored():
 def test_widening_only_grows_the_slot_set():
     before = _parse(WEL, "â")
     after = widen(before, WEL, IRISH, TABLE)
-    for b, a in zip(before.slots, after.slots):
+    for b, a in zip(before.slots, after.slots, strict=True):
         assert {x.segments for x in b.alts} <= {x.segments for x in a.alts}
 
 

@@ -53,7 +53,7 @@ def test_examples_are_printed_and_capped(capsys, small_cap):
     code, out, _err = run(capsys, "ar*", "--strand", "georgian", "--examples", "3")
     assert code == 0 and "verified examples (" in out
     body = out.split("verified examples (")[1].splitlines()[1:]
-    assert len([l for l in body if l.startswith("  ")]) <= 3
+    assert len([ln for ln in body if ln.startswith("  ")]) <= 3
 
 
 def test_examples_zero_skips_verification(capsys):
