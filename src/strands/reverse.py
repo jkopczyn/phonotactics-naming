@@ -970,7 +970,10 @@ def _line_of(alt: Alternative) -> ConstraintLine:
     contexts = tuple((step.rule_id, step.context) for step in steps if step.context)
     return ConstraintLine(
         description=g2p_inverse.describe(alt.segments) + _KIND_PHRASE.get(kind, ""),
-        rule_ids=_dedupe([step.rule_id for step in steps]),
+        # B1's forward order (stage, then line number) applies to every line, merged or not:
+        # `_forward_steps` orders by the STEP's stage, which puts an `identity`/`fallback`
+        # pseudo-id wherever its step sat rather than last.
+        rule_ids=tuple(sorted(_dedupe([step.rule_id for step in steps]), key=_id_order)),
         tag=_weakest_tag(steps),
         kind=kind,
         context=" ; ".join(context for _rid, context in contexts),
@@ -993,33 +996,27 @@ def _id_order(rule_id: str) -> tuple[int, int]:
     return (FORWARD_STAGES.index(stage), int(head) if head.isdigit() else 0)
 
 
-def _strongest_tag(tags: Sequence[str]) -> str:
-    """The BEST tag over a group of merged lines under `attested < design < fallback`.
-
-    Within one walk the weakest step decides (`_weakest_tag`): a chain is only as good as its
-    worst link. Across the alternative routes of one merged line the opposite holds — the line
-    says "this letter can come from these Irish spellings", and one attested route is enough to
-    make that attested. The design-only routes are still named in the rule column.
-    """
-    return _TAG_NAME[min((_TAG_RANK.get(tag, 0) for tag in tags), default=0)]
-
-
 def _merge_lines(lines: Sequence[ConstraintLine]) -> tuple[ConstraintLine, ...]:
-    """One line per distinct `(kind, description)` — B1's revision of V-31.
+    """One line per distinct `(kind, tag, description)` — B1's revision of V-31.
 
     Context left the key (the owner reverses ruling 4 of the review round): the `a` of *cahal*
     reached /a/ through eleven post-stress rules with eleven environments and printed eleven
     identical-looking lines. The contexts are kept on the merged line for the exclusions block.
-    Tag left the key with it — B1's acceptance counts the two broad Georgian ⟨v⟩ sources
-    (`vˠ -> v %attested` and `w -> v %design`) as ONE line — and the merged line takes the
-    strongest tag of the group.
+    Tag STAYS in the key, as B1 writes it: a design-only route may not lose its `%design`
+    qualification because some other route to the same letter happens to be attested.
+
+    B1's two acceptance counts are not reachable under this key and are NOT what the code
+    follows (owner resolution pending, see `tests/test_reverse_report.py`): the `a` of *cahal*
+    prints six lines, not four, and the Georgian ⟨v⟩ prints five, not four — the broad ⟨v⟩'s
+    two Irish sources (`vˠ -> v %attested`, non-initial only, and `w -> v %design`) differ in
+    both tag and description and cannot merge.
 
     Rule ids are the union over the group in forward order (stage, then line number).
     Sorted by kind, then design last, then first rule id, then description.
     """
-    merged: dict[tuple[str, str], ConstraintLine] = {}
+    merged: dict[tuple[str, str, str], ConstraintLine] = {}
     for line in lines:
-        key = (line.kind, line.description)
+        key = (line.kind, line.tag, line.description)
         seen = merged.get(key)
         if seen is None:
             merged[key] = line
@@ -1027,7 +1024,7 @@ def _merge_lines(lines: Sequence[ConstraintLine]) -> tuple[ConstraintLine, ...]:
         merged[key] = ConstraintLine(
             description=seen.description,
             rule_ids=tuple(sorted(_dedupe(seen.rule_ids + line.rule_ids), key=_id_order)),
-            tag=_strongest_tag((seen.tag, line.tag)), kind=seen.kind,
+            tag=seen.tag, kind=seen.kind,
             context=seen.context or line.context, label=seen.label,
             contexts=tuple(dict.fromkeys(seen.contexts + line.contexts)))
     return tuple(sorted(merged.values(),

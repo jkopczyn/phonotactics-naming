@@ -62,10 +62,11 @@ def test_lines_are_grouped_and_ordered_by_source_kind():
 
 def test_context_no_longer_splits_a_line():
     """B1 (the owner reverses ruling 4 of the review round): two alternatives that agree on
-    kind and description are ONE line however many contexts they carry between them. The `a` of
-    *cahal* reaches /a/ through eleven post-stress rules with eleven different environments."""
+    kind, TAG and description are ONE line however many contexts they carry between them. The
+    `a` of *cahal* reaches /a/ through eleven post-stress rules with eleven environments."""
     cs = constraints(analysed(WEL, "cahal"))
-    (line,) = [l for l in cs[1].lines if l.description == "a, ea, ai, eai"]
+    (line,) = [l for l in cs[1].lines
+               if l.description == "a, ea, ai, eai" and not l.tag]
     assert len(line.contexts) > 1 and len(line.rule_ids) > 4
 
 
@@ -375,16 +376,41 @@ def test_an_ambiguous_chunk_keeps_every_target_alternative(rf, text, want):
 
 # ---- fix round Task B: report noise (B1 … B4) --------------------------------------------------
 
+#: B1 gives the grouping key as `(kind, tag, description)` AND, in its acceptance, two counts
+#: that key cannot produce. The key is what the code follows (a design-only route must keep its
+#: `%design`); the two counts are recorded here as strict xfails so the conflict is visible in
+#: the suite and cannot be lost, and so either resolution — the owner relaxing the counts, or
+#: the owner asking for a merge that drops the tag — turns a test red the moment it lands.
+_B1_COUNT_CONFLICT = ("B1's grouping key `(kind, tag, description)` cannot meet B1's own "
+                      "acceptance count; owner resolution pending")
+
+
+@pytest.mark.xfail(strict=True, reason=_B1_COUNT_CONFLICT)
 def test_the_a_slot_of_cahal_prints_at_most_four_lines():
-    """B1's acceptance: the `a` of *cahal* printed ~40 lines that all said "a/á"."""
+    """B1's acceptance: the `a` of *cahal* printed ~40 lines that all said "a/á". It prints
+    six under the required key — the attested and design routes to `a, ea, ai, eai` and to
+    `á, ái, eá, eái, a, ea, …` cannot merge, and the substitute route stays its own line."""
     cs = constraints(analysed(WEL, "cahal"))
     assert len(cs[1].lines) <= 4, [l.description for l in cs[1].lines]
+
+
+def test_the_a_slot_of_cahal_is_six_lines_none_of_them_repeated():
+    """What the binding key actually yields: ~40 lines down to six, each a distinct
+    `(kind, tag, description)`, and no attested line laundering a design-only route."""
+    cs = constraints(analysed(WEL, "cahal"))
+    lines_ = cs[1].lines
+    assert len(lines_) == 6, [l.description for l in lines_]
+    keys = [(l.kind, l.tag, l.description) for l in lines_]
+    assert len(set(keys)) == 6
+    assert [l.description for l in lines_ if not l.tag] == [   # "" is attested
+        "a, ea, ai, eai", "á, ái, eá, eái, a, ea, …"]
 
 
 def test_a_line_prints_at_most_four_rule_ids_then_a_count():
     """B1: the union of a group's rule ids can be twenty; four and `+N` is what is printed."""
     cs = constraints(analysed(WEL, "cahal"))
-    (line,) = [l for l in cs[1].lines if l.description == "a, ea, ai, eai"]
+    (line,) = [l for l in cs[1].lines
+               if l.description == "a, ea, ai, eai" and not l.tag]
     suffix = _rule_suffix(line)
     ids, _, rest = suffix.partition(" +")
     assert len(ids.split(",")) == 4
@@ -401,9 +427,20 @@ def test_rule_ids_are_ordered_by_forward_stage_then_line():
         assert FORWARD_STAGES.index("substitute") == 0
 
 
+@pytest.mark.xfail(strict=True, reason=_B1_COUNT_CONFLICT)
+def test_the_v_slot_of_the_session_case_prints_three_sources_and_one_design_line():
+    """B1's acceptance for `Ar*v*`: three sources (/w/-side, /vʲ/-side, inserted) plus at most
+    one `%design` line for `v v -> v`. Five print instead: the /w/-side is TWO Irish sources
+    (`vˠ -> v` attested, non-initial only, and `w -> v %design`), which differ in tag and in
+    description and so cannot merge under B1's own key; `inserted` is itself a `%design` line."""
+    cs = constraints(analysed(GEO, "ar*v*"))
+    sources = [l for l in cs[3].lines if l.description != "/v/ + /v/"]
+    assert len(sources) == 3 and len(cs[3].lines) - len(sources) <= 1
+
+
 def test_the_v_slot_of_the_session_case_prints_its_sources_once_each():
-    """B1's acceptance: one line per Irish source of the Georgian ⟨v⟩ — the broad /w/ and
-    /vˠ/ readings, the slender one, the inserted one, and `v v -> v`."""
+    """What the binding key yields: one line per Irish source of the Georgian ⟨v⟩ — the broad
+    /vˠ/ and /w/ readings apart, the slender one, `v v -> v`, and the inserted one."""
     cs = constraints(analysed(GEO, "ar*v*"))
     assert [l.description for l in cs[3].lines] == [
         "broad bhf/bh/mh/v/w (non-initial)",     # vˠ -> v, the Connacht reading of ⟨bh mh⟩
