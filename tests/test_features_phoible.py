@@ -89,8 +89,8 @@ def test_rebuild_is_byte_stable(tmp_path):
         check=True,
     )
     committed = [
-        l
-        for l in FEATURES.read_text(encoding="utf-8").splitlines()
-        if "\tphoible:" in l or l.startswith("segment\t")
+        ln
+        for ln in FEATURES.read_text(encoding="utf-8").splitlines()
+        if "\tphoible:" in ln or ln.startswith("segment\t")
     ]
     assert out.read_text(encoding="utf-8").splitlines() == committed

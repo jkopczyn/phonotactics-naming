@@ -434,7 +434,7 @@ def test_capitalization_is_preserved_per_word():
 def test_the_unattested_formations_are_tagged_design():
     text = (ROOT / "rules" / "old-irish.rules").read_text(encoding="utf-8")
     for name in ("UA", "INGEN"):
-        line = [l for l in text.splitlines() if l.strip().startswith(name + " ")][0]
+        line = [ln for ln in text.splitlines() if ln.strip().startswith(name + " ")][0]
         assert "design" in line, line
 
 

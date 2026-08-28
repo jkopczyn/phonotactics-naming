@@ -51,7 +51,10 @@ def cairene(word: Word, spec: StressSpec, table: FeatureTable) -> int | None:
         return n - 1
     penult, antepenult = n - 2, n - 3
     if antepenult >= 0:  # step 2
-        light = lambda i: syllable_weight(word, i, table) == "light"
+
+        def light(i: int) -> bool:
+            return syllable_weight(word, i, table) == "light"
+
         if light(penult) and light(antepenult):
             pre = antepenult - 1
             if pre < 0 or not light(pre):

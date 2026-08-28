@@ -2,7 +2,8 @@
 
 Plan Task 4; spec §2 (a Word is a list of segments plus parallel annotations: syllable
 boundaries, primary stress, morpheme boundaries `$`, a per-segment "illegal" mark, the
-provenance of inserted segments (`origins`), and an ordered trace of `(stage, rule_id, rule_tag, before, after)`), §4 (output IPA carries stress
+provenance of inserted segments (`origins`), and an ordered trace of
+`(stage, rule_id, rule_tag, before, after)`), §4 (output IPA carries stress
 and syllable marks; flags carry `UNREPAIRED` and the fallback count); interpretations I-21
 (`rule_id` = "<section>:<line>"), I-40 (secondary stress is recorded and never carried into a
 target), S1 (`Tokenized.stress_index` is a SEGMENT index, `Word.stress` is an index into

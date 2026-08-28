@@ -123,9 +123,9 @@ def test_infer_is_idempotent():
 
 def test_lint_report_lists_one_line_per_guess():
     lines = lint_report([infer(x, IRISH, TABLE) for x in read_input(FIX)])
-    assert any("declension" in l for l in lines) and all(l.strip() for l in lines)
-    assert any("NoIpa" in l and "ipa = " in l and "ipa:constructed" in l for l in lines)
-    assert any(l.startswith("Bríd") and "gender" in l for l in lines)
+    assert any("declension" in ln for ln in lines) and all(ln.strip() for ln in lines)
+    assert any("NoIpa" in ln and "ipa = " in ln and "ipa:constructed" in ln for ln in lines)
+    assert any(ln.startswith("Bríd") and "gender" in ln for ln in lines)
 
 
 def test_accept_writes_the_guesses_back(tmp_path):

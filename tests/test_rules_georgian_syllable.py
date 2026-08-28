@@ -281,7 +281,7 @@ def test_the_temporary_syllable_block_from_23a_is_gone():
     assert "TEMPORARY" not in (ROOT / "rules" / "georgian.rules").read_text(encoding="utf-8")
 
 
-# ---- the full-pipeline tests, moved here from 23a (fix 2): they need [syllable] -------------------
+# ---- the full-pipeline tests, moved here from 23a (fix 2): they need [syllable] ------------
 
 
 def test_rule_file_parses_and_checks_clean():

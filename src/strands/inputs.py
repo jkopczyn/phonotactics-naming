@@ -23,9 +23,9 @@ aliases such as ASCII `g` and quality-less consonants, which are in neither `BRO
 
 
 
-`declension` is an optional input column (spec §12.K, 2026-08-27); when empty, the `GEN()` fallback of
-I-38) is treated as "not yet inferred": `infer()` re-derives it whenever it is "" or "m1"
-and keeps any other value. A row that really is `m1` therefore always carries a
+`declension` is an optional input column (spec §12.K, 2026-08-27); when empty, the `GEN()`
+fallback of I-38) is treated as "not yet inferred": `infer()` re-derives it whenever it is ""
+or "m1" and keeps any other value. A row that really is `m1` therefore always carries a
 `declension:inferred-m1` tag.
 """
 

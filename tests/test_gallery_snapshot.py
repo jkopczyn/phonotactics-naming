@@ -57,7 +57,7 @@ def test_the_formation_block_is_a_deterministic_function_of_the_rule_files():
     lines = formation_block(irish(), oi, TABLE)
     assert lines == formation_block(irish(), oi, TABLE)
     assert lines[0] == "## Old Irish formations"
-    rows = [l for l in lines if l.startswith("| ")]
+    rows = [ln for ln in lines if ln.startswith("| ")]
     for name in ("MAEL", "GILLA", "CU", "FER", "COLOUR", "MAC", "UA", "INGEN"):
-        assert any(l.startswith(f"| {name} |") for l in rows), name
-    assert any("!ATTESTED" in l for l in rows)
+        assert any(ln.startswith(f"| {name} |") for ln in rows), name
+    assert any("!ATTESTED" in ln for ln in rows)
