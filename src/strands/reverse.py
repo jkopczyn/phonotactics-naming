@@ -34,12 +34,14 @@ skips all of this: Old Irish is a lexicon fnmatch and nothing else (R6).
 """
 from __future__ import annotations
 
+import csv
 import fnmatch
 import heapq
 import itertools
 import re
 import unicodedata
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Sequence
 
 from . import g2p_inverse
@@ -56,6 +58,8 @@ __all__ = [
     "ConstraintLine", "Constraint", "Example", "format_rule_line", "constraints",
     "dropped_lines", "render_pattern", "report", "CAP", "PALETTE", "STAR_LENGTHS",
     "Candidate", "rank", "expand", "verify", "old_irish_matches", "old_irish_report",
+    "TEST_WORDS", "read_hand_ipa_rows", "pattern_admits", "ReverseRow", "ReverseReport",
+    "reverse_regression",
 ]
 
 ANY, ONE, SEG = "any", "one", "seg"
@@ -1545,3 +1549,198 @@ def old_irish_report(word: str, matches: Sequence[tuple[str, str, str]]) -> list
     for oi_nom, orthography, flag in matches:
         out.append(f"  {oi_nom:<{w1}}{orthography:<{w2}}{flag}".rstrip())
     return out
+
+
+# ---- the round trip (spec §6 bullets 3-4; Task 9) ----------------------------------------------
+
+#: `sources/irish/test-words.tsv`, the same rows the `g2p_inverse` ratchet measures.
+TEST_WORDS = Path(__file__).resolve().parents[2] / "sources" / "irish" / "test-words.tsv"
+
+
+def read_hand_ipa_rows(path: Path | None = None) -> tuple[dict[str, str], ...]:
+    """Every `sources/irish/test-words.tsv` row with a hand IPA, in file order (spec §6)."""
+    with (path or TEST_WORDS).open(encoding="utf-8") as fh:
+        return tuple(row for row in csv.DictReader(fh, delimiter="\t")
+                     if (row.get("ipa") or "").strip())
+
+
+def _admit_options(slot: "Slot") -> tuple[tuple[str, ...], ...] | None:
+    """The segment sequences a slot admits, or `None` for "any single segment".
+
+    Unlike `_slot_options` (V-23), admission does NOT draw on the palette: a `ONE` slot with no
+    inverted class constrains nothing, so it admits any one segment, and a `SEG` slot whose
+    alternatives were all dropped admits nothing at all.
+    """
+    if slot.alts:
+        return tuple(alt.segments for alt in slot.alts)
+    return None if slot.kind == ONE else ()
+
+
+def pattern_admits(pattern: Pattern, segments: Sequence[str]) -> bool:
+    """Does this Irish segment sequence fit the pattern? (spec §6 bullet 3.)
+
+    A greedy left-to-right matcher with backtracking over the slots: `ANY` consumes any run
+    (the report calls it "unconstrained", so admission puts no length bound on it — `expand`'s
+    0/1/2-segment palette bound is a budget for ENUMERATION, not a claim about the pattern);
+    `ONE` consumes one of its alternatives, or any single segment when it has none; a `SEG`
+    slot consumes one of its alternatives' whole sequences; and an optional group is skipped as
+    a UNIT (V-30), never half-skipped. Memoized on `(slot index, segment position)`, so a
+    pattern of several `*` slots cannot go exponential.
+    """
+    segs = tuple(seg for seg in segments if seg not in MARKS)
+    slots = pattern.slots
+    starts = {group.start: group.stop for group in pattern.groups}
+    failed: set[tuple[int, int]] = set()
+
+    def match(index: int, position: int) -> bool:
+        key = (index, position)
+        if key in failed:
+            return False
+        if index == len(slots):
+            return position == len(segs)
+        # A group's span is skipped whole, or matched slot by slot from here on; `stop` is
+        # always greater than `start`, so the skip cannot recurse on itself.
+        if index in starts and match(starts[index], position):
+            return True
+        slot = slots[index]
+        if slot.kind == ANY:
+            for taken in range(len(segs) - position + 1):
+                if match(index + 1, position + taken):
+                    return True
+        else:
+            options = _admit_options(slot)
+            if options is None:
+                if position < len(segs) and match(index + 1, position + 1):
+                    return True
+            else:
+                for option in options:
+                    end = position + len(option)
+                    if segs[position:end] == tuple(option) and match(index + 1, end):
+                        return True
+        failed.add(key)
+        return False
+
+    return match(0, 0)
+
+
+@dataclass(frozen=True)
+class ReverseRow:
+    """One test-words row put through the round trip."""
+    orthography: str
+    respelling: str
+    admitted: bool                    # the row's own Irish IPA fits the pattern
+    found: bool                       # the row's own spelling is among the verified examples
+    capped: bool                      # the candidate cap was hit, so `found` says nothing
+    tried: int                        # unique forward runs spent on this row
+
+
+@dataclass(frozen=True)
+class ReverseReport:
+    """The two rates of spec §6 bullet 3, per strand, with their denominators."""
+    strand: str
+    cap: int
+    rows: tuple[ReverseRow, ...]
+    #: rows the FORWARD run could not produce a respelling for (a construction not in the
+    #: strand, a missing slot, an untokenizable hand IPA). There is no respelling to reverse,
+    #: so they are outside the round trip and outside both denominators; they are kept here so
+    #: a strand that silently stopped adapting anything is visible.
+    skipped: tuple[tuple[str, str], ...] = ()
+
+    @property
+    def n(self) -> int:
+        return len(self.rows)
+
+    @property
+    def capped(self) -> int:
+        return sum(1 for row in self.rows if row.capped)
+
+    @property
+    def example_denominator(self) -> int:
+        """spec §6: the example rate is counted only "when the candidate cap is not hit"."""
+        return self.n - self.capped
+
+    @property
+    def pattern_rate(self) -> float:
+        return (sum(1 for row in self.rows if row.admitted) / self.n) if self.n else 0.0
+
+    @property
+    def example_rate(self) -> float:
+        denominator = self.example_denominator
+        if not denominator:
+            return 0.0
+        return sum(1 for row in self.rows if row.found and not row.capped) / denominator
+
+    def summary(self) -> str:
+        return (f"{self.strand}: pattern {self.pattern_rate:.4f} of {self.n}, "
+                f"example {self.example_rate:.4f} of {self.example_denominator} "
+                f"({self.capped} capped, {len(self.skipped)} skipped, cap {self.cap})")
+
+    def misses(self, kind: str = "pattern") -> tuple[str, ...]:
+        """The orthographies that failed one rate — the first thing to look at when the
+        ratchet drops."""
+        if kind == "pattern":
+            return tuple(row.orthography for row in self.rows if not row.admitted)
+        return tuple(row.orthography for row in self.rows
+                     if not row.found and not row.capped)
+
+
+def reverse_regression(strand: str, target: RuleFile, irish: RuleFile, table: FeatureTable,
+                       *, cap: int = CAP, limit: int = 8,
+                       rows: Sequence[dict[str, str]] | None = None) -> ReverseReport:
+    """The round trip for one strand: forward, then reverse, then check (spec §6 bullet 3).
+
+    For every test-words row with a hand IPA: run it forward to a respelling, reverse that
+    respelling as `cli.cmd_reverse` does, and measure two things — whether the row's own Irish
+    IPA is ADMITTED by the resulting pattern (`pattern_admits`), and whether the row's own
+    spelling is among the verified examples at `limit` (`verify`). The second is counted only
+    over rows where the cap was not hit; a capped row proves nothing either way.
+
+    The three maps are built ONCE per strand, not per row — they depend on the rule files
+    alone. `cap` is `verify`'s forward-run budget; the ratchet is measured at `CAP` (F9).
+    """
+    from . import inputs, pipeline
+    from .inputs import InputError
+    from .irish import MissingSlot
+    from .rewrite import RuleError
+
+    chunks, chunk_notes = invert_respell(target, table)
+    smap, deletions, notes = source_map("substitute", target, irish, table)
+
+    measured: list[ReverseRow] = []
+    skipped: list[tuple[str, str]] = []
+    for row in (read_hand_ipa_rows() if rows is None else rows):
+        orthography = row["orthography"]
+        try:
+            entry = inputs.infer(
+                inputs.Entry(orthography=orthography, ipa=row["ipa"],
+                             dialect=(row.get("dialect") or "C"),
+                             gloss=(row.get("gloss") or "")),
+                irish, table)
+            result = pipeline.run_entry(entry, "DESC", irish, target, table)
+            segments = tokenize(row["ipa"], table).segments
+        except (MissingSlot, SegmentError, RuleError, FeatureError, InputError,
+                pipeline.ConstructionNotInStrand) as exc:
+            skipped.append((orthography, f"{type(exc).__name__}: {exc}"))
+            continue
+        # A respelling with a space is a multi-word construction; `reverse` is per word and the
+        # row's own spelling is one word, so there is nothing to compare (none occur today).
+        if not result.respelling.strip() or " " in result.respelling.strip():
+            skipped.append((orthography, f"respelling {result.respelling!r} is not one word"))
+            continue
+        respelling = result.respelling.strip()
+        try:
+            pattern = parse_pattern(respelling, chunks, notes=chunk_notes)
+        except ReverseError as exc:
+            skipped.append((orthography, f"ReverseError: {exc}"))
+            continue
+        pattern = widen(pattern, target, irish, table)
+        pattern = un_substitute(pattern, smap, deletions=deletions, notes=notes)
+        examples, tried, cap_hit = verify(pattern, target, irish, table, limit=limit, cap=cap)
+        want = _fold(orthography)
+        measured.append(ReverseRow(
+            orthography=orthography, respelling=respelling,
+            admitted=pattern_admits(pattern, segments),
+            found=any(_fold(example.orthography) == want for example in examples),
+            capped=cap_hit, tried=tried))
+    return ReverseReport(strand=strand, cap=cap, rows=tuple(measured),
+                         skipped=tuple(skipped))
