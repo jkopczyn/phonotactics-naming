@@ -17,7 +17,8 @@ is the only judge — `spell()` runs every candidate spelling back through it be
 
 Interpretations: V-27 (the registry over every emission path), V-19 (the derived indexes),
 V-20 (`spell`, the run matcher and caol le caol),
-V-21 (`describe`).
+V-21 (`describe`, narrowed by the fix round's B2 … B4: silent-free readings, the vowel-set
+summaries, the positional labels).
 """
 from __future__ import annotations
 
@@ -29,6 +30,7 @@ from typing import Sequence
 from . import g2p
 
 __all__ = ["Reading", "READINGS", "CONSONANT_READINGS", "VOWEL_READINGS",
+           "REDUCTION_RUNS", "SHORT_VOWELS", "LONG_VOWELS", "RUN_CAP", "silent_free_runs",
            "QUALITY_LEFT", "QUALITY_RIGHT", "BROAD_ON_THE_RIGHT", "VOWEL_PLUS_H_RUNS",
            "readings_for", "describe", "spell", "SPELL_LIMIT"]
 
@@ -152,6 +154,11 @@ CONSONANT_READINGS: dict[tuple[str, ...], tuple[Reading, ...]] = _consonant_inde
 
 # ---- the vowel registry --------------------------------------------------------------------
 
+#: Segment key → the runs registered for it BY THE UNSTRESSED REDUCTION PASS alone. `describe`
+#: needs it for B3's ` (unstressed)`: /ə/'s whole run list is there because an unstressed short
+#: vowel reduces, and saying so is the difference between "any short vowel" and the truth.
+_REDUCTION: dict[tuple[str, ...], set[str]] = {}
+
 def _vowel_index() -> dict[tuple[str, ...], tuple[str, ...]]:
     """Segment sequence → the vowel runs that read as it (V-19).
 
@@ -179,10 +186,14 @@ def _vowel_index() -> dict[tuple[str, ...], tuple[str, ...]]:
     for run, (default, _overrides) in g2p.VOWELS.items():
         if len(default) == 1 and default != "ə":
             add("ə", run)
+            _REDUCTION.setdefault(tuple(g2p.split_nucleus("ə")), set()).add(run)
     return {key: tuple(rows) for key, rows in index.items()}
 
 
 VOWEL_READINGS: dict[tuple[str, ...], tuple[str, ...]] = _vowel_index()
+
+REDUCTION_RUNS: dict[tuple[str, ...], frozenset[str]] = {
+    key: frozenset(runs) for key, runs in _REDUCTION.items()}
 
 #: The `_VOWEL_PLUS_H` runs — ⟨adh eadh agh aidh aigh …⟩ — as spelling runs. They are readings
 #: of a nucleus whose ⟨dh gh bh mh⟩ contributes no segment of its own, so they belong with the
@@ -234,22 +245,79 @@ def readings_for(segments: Sequence[str]) -> tuple[Reading, ...]:
     return CONSONANT_READINGS.get(tuple(segments), ())
 
 
+#: B4: a reading of THIS segment sequence that only fires in one position says so. The cn/gn/mn
+#: branch gets its own words — "non-initial" is true of it but useless, since what it really
+#: means is "⟨n⟩ after the c/g/m of *cnaipe, gnó, mná*".
+_POSITION_PHRASE = {"initial": " (initial)", "noninitial": " (non-initial)"}
+_CN_GN_MN = "_liquid cn-gn-mn"
+
+
+def _grapheme_phrase(rows: Sequence[Reading]) -> str:
+    """The positional label for one grapheme's rows under one segment sequence (B4).
+
+    Labelled only when EVERY row agrees: a grapheme that also has an unrestricted reading of
+    the same segments is not restricted at all.
+    """
+    if all(row.source == _CN_GN_MN for row in rows):
+        return " (after c/g/m)"
+    positions = {row.position for row in rows}
+    return _POSITION_PHRASE.get(positions.pop(), "") if len(positions) == 1 else ""
+
+
 def _describe_consonant(segments: tuple[str, ...]) -> str | None:
     rows = readings_for(segments)
     if not rows:
         return None
-    graphemes: list[str] = []
+    graphemes: dict[str, list[Reading]] = {}
     for reading in rows:
-        if reading.grapheme not in graphemes:
-            graphemes.append(reading.grapheme)
+        graphemes.setdefault(reading.grapheme, []).append(reading)
     qualities = {reading.quality for reading in rows}
     prefix = f"{qualities.pop()} " if len(qualities) == 1 and EITHER not in qualities else ""
-    return prefix + "/".join(graphemes)
+    phrases = {grapheme: _grapheme_phrase(group) for grapheme, group in graphemes.items()}
+    if len(set(phrases.values())) == 1:                # one label for the whole list, not five
+        return prefix + "/".join(graphemes) + next(iter(phrases.values()))
+    return prefix + "/".join(grapheme + phrase for grapheme, phrase in phrases.items())
+
+
+#: B3: the vowel-set summaries. A nucleus whose runs are exactly the runs of every short (or
+#: every long) vowel is `any short vowel` / `any long vowel` rather than a list of thirteen —
+#: which is what /ə/ is, because every unstressed short vowel reduces to it.
+SHORT_VOWELS = ("a", "ɛ", "ɪ", "ɔ", "ʊ")
+LONG_VOWELS = ("aː", "eː", "iː", "oː", "uː")
+RUN_CAP = 6                            # B3: runs listed before `…`
+
+
+def silent_free_runs(segments: tuple[str, ...]) -> tuple[str, ...]:
+    """The runs that read as `segments` with no mute letter in them (B2): the `_VOWEL_PLUS_H`
+    runs ⟨adh eadh agh …⟩ spell a nucleus with a ⟨dh gh bh mh⟩ that contributes nothing, and
+    they belong in `spell(silent=True)`, not in a description or a pattern."""
+    return tuple(run for run in VOWEL_READINGS.get(segments, ())
+                 if run not in VOWEL_PLUS_H_RUNS)
+
+
+def _covers(runs: Sequence[str], vowels: Sequence[str]) -> bool:
+    """Does `runs` contain every silent-free run of every one of `vowels` (B3)?
+
+    Containment, not overlap: ⟨a⟩ is also a run of /aː/ (a `_VOWELS` context override), so an
+    overlap test would call /ə/'s list "any long vowel" too.
+    """
+    kept = set(runs)
+    return all(set(silent_free_runs((vowel,))) <= kept for vowel in vowels)
 
 
 def _describe_nucleus(segments: tuple[str, ...]) -> str | None:
-    runs = VOWEL_READINGS.get(segments)
-    return ", ".join(runs) if runs else None
+    runs = silent_free_runs(segments)
+    if not runs:
+        return None
+    short, long = _covers(runs, SHORT_VOWELS), _covers(runs, LONG_VOWELS)
+    if short or long:
+        summary = ("any vowel" if short and long else
+                   "any short vowel" if short else "any long vowel")
+        reduced = REDUCTION_RUNS.get(segments, frozenset())
+        return summary + (" (unstressed)" if all(run in reduced for run in runs) else "")
+    if len(runs) > RUN_CAP:
+        return ", ".join(runs[:RUN_CAP]) + ", …"
+    return ", ".join(runs)
 
 
 def _split_vowel_run(run: tuple[str, ...]) -> list[str]:
@@ -279,10 +347,19 @@ def _split_vowel_run(run: tuple[str, ...]) -> list[str]:
 
 
 def describe(segments: Sequence[str]) -> str:
-    """The report's description column for a segment sequence (V-21).
+    """The report's description column for a segment sequence (V-21, fix-round B2 … B4).
 
     Never a pick: every reading is listed (R7). Not g2p-checked — it is a description of what
-    the tables say, not a claim about a concrete word.
+    the tables say, not a claim about a concrete word. Three things narrow what is *printed*,
+    none of them a claim either:
+
+    * B2 — silent-free readings only. The `_VOWEL_PLUS_H` runs ⟨adh eadh agh …⟩ spell a nucleus
+      with a mute ⟨dh gh bh mh⟩; they belong to `spell(silent=True)`, not to a description.
+    * B3 — a nucleus whose runs are exactly the runs of every short vowel is `any short vowel`
+      (`(unstressed)` when the registry has them only through the reduction pass, as /ə/ does);
+      likewise `any long vowel` and `any vowel`. Otherwise the list, cut at `RUN_CAP` with `…`.
+    * B4 — a reading that only fires in one position says so: ` (initial)`, ` (non-initial)`,
+      or ` (after c/g/m)` for the cn/gn/mn ⟨n⟩.
     """
     segments = tuple(segments)
     if not segments:

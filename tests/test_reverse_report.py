@@ -3,7 +3,8 @@ V-31, V-32). The golden tests are the layout contract (F6)."""
 import pytest
 
 from helpers import TABLE, irish, target
-from strands.reverse import (RULE_COL, Example, constraints, dropped_lines, format_rule_line,
+from strands.reverse import (FORWARD_STAGES, RULE_COL, Example, _id_order, _rule_suffix,
+                             constraints, dropped_lines, format_rule_line,
                              invert_respell, parse_pattern, render_pattern, report,
                              source_map, un_substitute, widen)
 
@@ -59,11 +60,13 @@ def test_lines_are_grouped_and_ordered_by_source_kind():
     assert kinds == sorted(kinds, key=["identity", "rule", "fallback", "epenthesis"].index)
 
 
-def test_two_sources_with_different_contexts_are_two_lines():
-    """F5: draft 1's key omitted context and merged them."""
-    cs = constraints(analysed(GEO, "v"))
-    ctxs = [l.context for l in cs[0].lines]
-    assert len(set(ctxs)) > 1
+def test_context_no_longer_splits_a_line():
+    """B1 (the owner reverses ruling 4 of the review round): two alternatives that agree on
+    kind and description are ONE line however many contexts they carry between them. The `a` of
+    *cahal* reaches /a/ through eleven post-stress rules with eleven different environments."""
+    cs = constraints(analysed(WEL, "cahal"))
+    (line,) = [l for l in cs[1].lines if l.description == "a, ea, ai, eai"]
+    assert len(line.contexts) > 1 and len(line.rule_ids) > 4
 
 
 def test_the_epenthesis_line_says_no_irish_letter():
@@ -95,10 +98,10 @@ def test_a_SUBSTITUTE_deletion_reaches_the_block_and_the_report():
     assert any(r in text for l in subs for r in l.rule_ids)
 
 
-def test_a_two_context_alternative_is_one_line_and_two_exclusions():
-    """F4 re-check / V-31: an alternative whose walk crosses two context-bearing rules
-    collapses to ONE constraint line (contexts joined) and prints TWO exclusion lines (one per
-    step, each with its own rule id)."""
+def test_a_two_context_alternative_is_one_line_and_one_exclusion():
+    """F4 re-check / V-31, revised by B1: an alternative whose walk crosses two context-bearing
+    rules collapses to ONE constraint line (contexts joined), and the exclusions block prints
+    only the SUBSTITUTE-stage step — a repair/post-stress/respell environment is noise there."""
     from strands.reverse import Alternative, Pattern, Slot, Step
     a = Alternative(("ɑ",), (
         Step("respell", "respell:330", "attested", "V _ #", "rule"),
@@ -111,10 +114,10 @@ def test_a_two_context_alternative_is_one_line_and_two_exclusions():
     assert line.rule_ids == ("substitute:70", "respell:330")
     assert line.tag == "design" and line.kind == "rule"
     out = report("a", "georgian", p, verified=False)
-    excl = out[out.index("exclusions") + 1:]
-    excl = [l for l in excl if l.startswith("  ")][:2]
-    assert len(excl) == 2
-    assert "substitute:70" in excl[0] and "respell:330" in excl[1]
+    rest = out[out.index("exclusions") + 1:]
+    excl = rest[:rest.index("")]
+    assert len(excl) == 1                     # B1: the respell context is noise, and is gone
+    assert "substitute:70" in excl[0] and "respell:330" not in "".join(excl)
 
 
 # ---- the report ------------------------------------------------------------------------------------
@@ -171,8 +174,9 @@ def test_caol_le_caol_filters_the_vowel_letters_in_the_rendering():
 # Each compares the ENTIRE report() output. Regenerate deliberately, never by pasting a diff.
 # GOLDEN_SIMPLE       pins: header, target segments, two normal constraint lines at RULE_COL,
 #                     the `possibly dropped` block, no exclusions, verification skipped.
-# GOLDEN_CONTINUATION pins: a description past RULE_COL - 1, whose rule ids go to a
-#                     continuation line indented RULE_COL; and the _ALT_CAP `…` in the rendering.
+# GOLDEN_CONTINUATION pins: B3's vowel-set summary and six-run cap in the description column,
+#                     and the _ALT_CAP `…` in the rendering. (The RULE_COL continuation line
+#                     itself is pinned by GOLDEN_EXCLUSIONS, whose exclusion line is long.)
 # GOLDEN_EXCLUSIONS   pins: the exclusions block, its `(rule context)` suffix on a continuation
 #                     line, and the `or, with … inserted` line of V-14.
 # GOLDEN_DROPPED      pins: the once-per-word `possibly dropped` block (V-7), substitute
@@ -185,8 +189,8 @@ r  [georgian]
 target segments: r
 
 constraints
-  r   ← rr/n/r                                                substitute:96,respell:354
-      ← slender n/r                                           substitute:97,respell:354
+  r   ← rr/n (after c/g/m)/r                                  substitute:96,respell:354
+      ← slender n (after c/g/m)/r                             substitute:97,respell:354
 
 possibly dropped
   ɑ   may have been dropped anywhere in this word             post-stress:316
@@ -203,10 +207,9 @@ a  [georgian]
 target segments: ɑ
 
 constraints
-  a   ← á, ái, eá, eái, a, ea, ai, eai                        substitute:49,respell:349
+  a   ← á, ái, eá, eái, a, ea, …                              substitute:49,respell:349
       ← a, ea, ai, eai                                        substitute:52,respell:349
-      ← adh, eadh, agh, eagh, aidh, aigh, idh, igh, uidh, uigh, a, ea, ai, eai, e, ei, i, io, iu, o, oi, u, ui
-                                                              substitute:57,respell:349 %design
+      ← any short vowel (unstressed)                          substitute:57,respell:349 %design
 
 possibly dropped
   ɑ   may have been dropped anywhere in this word             post-stress:316
@@ -223,7 +226,7 @@ v  [georgian]
 target segments: v
 
 constraints
-  v   ← broad bhf/bh/mh/v/w                                   substitute:108
+  v   ← broad bhf/bh/mh/v/w (non-initial)                     substitute:108
       ← slender bhf/bh/mh/v/w                                 substitute:109
       ← broad bhf/bh/mh/v/w                                   substitute:107 %design
       ← /v/ + /v/                                             substitute:129 %design
@@ -276,8 +279,8 @@ r  [georgian]
 target segments: r
 
 constraints
-  r   ← rr/n/r                                                substitute:96,respell:354
-      ← slender n/r                                           substitute:97,respell:354
+  r   ← rr/n (after c/g/m)/r                                  substitute:96,respell:354
+      ← slender n (after c/g/m)/r                             substitute:97,respell:354
 
 possibly dropped
   ɑ   may have been dropped anywhere in this word             post-stress:316
@@ -296,14 +299,13 @@ ar*v*  [georgian]
 target segments: ɑ r * v *
 
 constraints
-  a   ← á, ái, eá, eái, a, ea, ai, eai                        substitute:49,respell:349
+  a   ← á, ái, eá, eái, a, ea, …                              substitute:49,respell:349
       ← a, ea, ai, eai                                        substitute:52,respell:349
-      ← adh, eadh, agh, eagh, aidh, aigh, idh, igh, uidh, uigh, a, ea, ai, eai, e, ei, i, io, iu, o, oi, u, ui
-                                                              substitute:57,respell:349 %design
-  r   ← rr/n/r                                                substitute:96,respell:354
-      ← slender n/r                                           substitute:97,respell:354
+      ← any short vowel (unstressed)                          substitute:57,respell:349 %design
+  r   ← rr/n (after c/g/m)/r                                  substitute:96,respell:354
+      ← slender n (after c/g/m)/r                             substitute:97,respell:354
   *   unconstrained
-  v   ← broad bhf/bh/mh/v/w                                   substitute:108
+  v   ← broad bhf/bh/mh/v/w (non-initial)                     substitute:108
       ← slender bhf/bh/mh/v/w                                 substitute:109
       ← broad bhf/bh/mh/v/w                                   substitute:107 %design
       ← /v/ + /v/                                             substitute:129 %design
@@ -319,8 +321,8 @@ exclusions
                                                               (substitute:65 context)
 
 Irish spelling pattern
-  (á|eá|a|ea|adh|eadh|…)(rr|n|r)*(bhf|bh|mh|v|w)*
-  or, with v inserted:  (á|eá|a|ea|adh|eadh|…)(rr|n|r)**   (context: [BROAD -labial] _ [V +front])
+  (á|eá|a|ea|io|iu|…)(rr|n|r)*(bhf|bh|mh|v|w)*
+  or, with v inserted:  (á|eá|a|ea|io|iu|…)(rr|n|r)**   (context: [BROAD -labial] _ [V +front])
 
 verified examples: skipped (--examples 0)
 """
@@ -369,3 +371,72 @@ def test_an_ambiguous_chunk_keeps_every_target_alternative(rf, text, want):
     (constraint,) = constraints(analysed(rf, text))
     assert constraint.target == want
     assert lines(rf, text, verified=False)[1] == f"target segments: {want}"
+
+
+# ---- fix round Task B: report noise (B1 … B4) --------------------------------------------------
+
+def test_the_a_slot_of_cahal_prints_at_most_four_lines():
+    """B1's acceptance: the `a` of *cahal* printed ~40 lines that all said "a/á"."""
+    cs = constraints(analysed(WEL, "cahal"))
+    assert len(cs[1].lines) <= 4, [l.description for l in cs[1].lines]
+
+
+def test_a_line_prints_at_most_four_rule_ids_then_a_count():
+    """B1: the union of a group's rule ids can be twenty; four and `+N` is what is printed."""
+    cs = constraints(analysed(WEL, "cahal"))
+    (line,) = [l for l in cs[1].lines if l.description == "a, ea, ai, eai"]
+    suffix = _rule_suffix(line)
+    ids, _, rest = suffix.partition(" +")
+    assert len(ids.split(",")) == 4
+    printed = [r for r in line.rule_ids if r not in ("identity", "fallback")]
+    assert int(rest) == len(printed) - 4
+
+
+def test_rule_ids_are_ordered_by_forward_stage_then_line():
+    """B1: substitute, repair, post-stress, respell — then line number within a stage."""
+    cs = constraints(analysed(WEL, "cahal"))
+    for line in cs[1].lines:
+        order = [_id_order(r) for r in line.rule_ids]
+        assert order == sorted(order), line.rule_ids
+        assert FORWARD_STAGES.index("substitute") == 0
+
+
+def test_the_v_slot_of_the_session_case_prints_its_sources_once_each():
+    """B1's acceptance: one line per Irish source of the Georgian ⟨v⟩ — the broad /w/ and
+    /vˠ/ readings, the slender one, the inserted one, and `v v -> v`."""
+    cs = constraints(analysed(GEO, "ar*v*"))
+    assert [l.description for l in cs[3].lines] == [
+        "broad bhf/bh/mh/v/w (non-initial)",     # vˠ -> v, the Connacht reading of ⟨bh mh⟩
+        "slender bhf/bh/mh/v/w",                 # vʲ -> v
+        "broad bhf/bh/mh/v/w",                   # w -> v %design
+        "/v/ + /v/",                             # v v -> v %design
+        "inserted, no Irish letter",             # 0 -> v %design
+    ]
+
+
+def test_only_substitute_and_epenthesis_contexts_reach_the_exclusions():
+    """B1: *cahal* printed twenty-odd exclusion lines, every one of them a post-stress
+    environment. Only the `[substitute]` steps and the epenthesis sources are left."""
+    out = lines(WEL, "cahal", verified=False)
+    excl = out[out.index("exclusions") + 1:out.index("Irish spelling pattern") - 1]
+    assert excl and not any("post-stress:" in l or "respell:" in l for l in excl)
+
+
+def test_the_exclusions_dedupe_by_label_and_context():
+    out = lines(WEL, "cahal", verified=False)
+    excl = [l for l in out[out.index("exclusions") + 1:out.index("Irish spelling pattern") - 1]
+            if l.startswith("  ")]
+    assert len(excl) == len(set(excl))
+    assert len(excl) <= 6
+
+
+def test_the_pattern_shows_no_vowel_plus_h_run():
+    """B2: ⟨adh eadh agh …⟩ are silent-letter readings and leave the rendering too."""
+    for line in render_pattern(analysed(GEO, "ar*v*")):
+        assert "adh" not in line and "agh" not in line
+
+
+def test_a_schwa_slot_says_any_short_vowel():
+    """B3: the /ə/ line of the Welsh `a` slot, which listed twenty-three runs."""
+    cs = constraints(analysed(WEL, "cahal"))
+    assert "any short vowel (unstressed)" in [l.description for l in cs[1].lines]

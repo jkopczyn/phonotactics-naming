@@ -890,19 +890,22 @@ _DROPPED_PHRASE = "may have been dropped anywhere in this word"
 @dataclass(frozen=True)
 class ConstraintLine:
     """One printed line of the constraint set: a group of alternatives that agree on
-    `(kind, tag, description, context)` (V-31)."""
+    `(kind, description)` (V-31, revised by fix-round B1 — context and tag left the key)."""
     description: str
     rule_ids: tuple[str, ...]
     tag: str                          # "" | "design" | "fallback"
     kind: str
-    context: str                      # every context-bearing step's context, joined " ; "
+    context: str                      # one walk's context-bearing steps, joined " ; " — the
+                                      # FIRST contributing walk's, since B1 merges across
+                                      # contexts; `contexts` below carries all of them
     label: str = ""                   # only the `possibly dropped` block uses this: its lines
                                       # are not attached to a slot, so they carry their own
                                       # label (the deleted segments)
     contexts: tuple[tuple[str, str], ...] = ()
-    # ^ (rule_id, context) per context-bearing STEP, in forward stage order. `context` above is
-    # these joined; the exclusions block needs them apart, because it prints one line per step
-    # with that step's own rule id (V-13, V-31).
+    # ^ (rule_id, context) per context-bearing STEP of every merged walk, in forward stage
+    # order. The exclusions block needs them apart, because it prints one line per step with
+    # that step's own rule id — the `[substitute]` steps and the epenthesis sources only, and
+    # deduplicated by (slot label, context) (V-13, V-31, B1).
 
 
 @dataclass(frozen=True)
@@ -975,21 +978,57 @@ def _line_of(alt: Alternative) -> ConstraintLine:
     )
 
 
+def _id_order(rule_id: str) -> tuple[int, int]:
+    """A rule id's place in the forward order: its stage, then its line number (B1).
+
+    The id carries both — `"post-stress:374"`, or `"post-stress:374>post-stress:396"` for a
+    chain, whose first link is what orders it. The pseudo-ids `identity`/`fallback` (V-8/V-9)
+    have no stage and sort last; `_rule_suffix` drops them from the column anyway whenever a
+    real id shares the line.
+    """
+    stage, _, rest = rule_id.partition(":")
+    if stage not in FORWARD_STAGES or not rest:
+        return (len(FORWARD_STAGES), 0)
+    head = rest.split(">")[0]
+    return (FORWARD_STAGES.index(stage), int(head) if head.isdigit() else 0)
+
+
+def _strongest_tag(tags: Sequence[str]) -> str:
+    """The BEST tag over a group of merged lines under `attested < design < fallback`.
+
+    Within one walk the weakest step decides (`_weakest_tag`): a chain is only as good as its
+    worst link. Across the alternative routes of one merged line the opposite holds — the line
+    says "this letter can come from these Irish spellings", and one attested route is enough to
+    make that attested. The design-only routes are still named in the rule column.
+    """
+    return _TAG_NAME[min((_TAG_RANK.get(tag, 0) for tag in tags), default=0)]
+
+
 def _merge_lines(lines: Sequence[ConstraintLine]) -> tuple[ConstraintLine, ...]:
-    """One line per distinct `(description, kind, tag, context)`; merged lines concatenate
-    their rule ids, first occurrence winning (V-31). Sorted by kind, then design last, then
-    first rule id, then description."""
-    merged: dict[tuple[str, str, str, str], ConstraintLine] = {}
+    """One line per distinct `(kind, description)` — B1's revision of V-31.
+
+    Context left the key (the owner reverses ruling 4 of the review round): the `a` of *cahal*
+    reached /a/ through eleven post-stress rules with eleven environments and printed eleven
+    identical-looking lines. The contexts are kept on the merged line for the exclusions block.
+    Tag left the key with it — B1's acceptance counts the two broad Georgian ⟨v⟩ sources
+    (`vˠ -> v %attested` and `w -> v %design`) as ONE line — and the merged line takes the
+    strongest tag of the group.
+
+    Rule ids are the union over the group in forward order (stage, then line number).
+    Sorted by kind, then design last, then first rule id, then description.
+    """
+    merged: dict[tuple[str, str], ConstraintLine] = {}
     for line in lines:
-        key = (line.description, line.kind, line.tag, line.context)
+        key = (line.kind, line.description)
         seen = merged.get(key)
         if seen is None:
             merged[key] = line
             continue
         merged[key] = ConstraintLine(
             description=seen.description,
-            rule_ids=_dedupe(seen.rule_ids + line.rule_ids),
-            tag=seen.tag, kind=seen.kind, context=seen.context, label=seen.label,
+            rule_ids=tuple(sorted(_dedupe(seen.rule_ids + line.rule_ids), key=_id_order)),
+            tag=_strongest_tag((seen.tag, line.tag)), kind=seen.kind,
+            context=seen.context or line.context, label=seen.label,
             contexts=tuple(dict.fromkeys(seen.contexts + line.contexts)))
     return tuple(sorted(merged.values(),
                         key=lambda l: (_KIND_RANK.get(l.kind, 9),
@@ -1050,7 +1089,7 @@ def _graphemes_of(segments: tuple[str, ...]) -> tuple[str, ...]:
     """The Irish letters that read as this segment sequence — vowel runs first, then the
     consonant registry (V-27/V-19). No quality words: this is the pattern line, not the
     description column."""
-    runs = g2p_inverse.VOWEL_READINGS.get(segments)
+    runs = g2p_inverse.silent_free_runs(segments)   # B2: no ⟨adh eadh agh …⟩ in the pattern
     if runs:
         return tuple(runs)
     return _dedupe([reading.grapheme for reading in g2p_inverse.readings_for(segments)])
@@ -1177,10 +1216,14 @@ def render_pattern(pattern: Pattern) -> tuple[str, ...]:
 _PSEUDO_IDS = ("identity", "fallback")
 
 
+_ID_CAP = 4                           # B1: rule ids printed per line before `+N`
+
+
 def _rule_suffix(line: ConstraintLine) -> str:
     tag = f" %{line.tag}" if line.tag in ("design", "fallback") else ""
     ids = tuple(r for r in line.rule_ids if r not in _PSEUDO_IDS) or line.rule_ids
-    return ",".join(ids) + tag
+    rest = f" +{len(ids) - _ID_CAP}" if len(ids) > _ID_CAP else ""
+    return ",".join(ids[:_ID_CAP]) + rest + tag
 
 
 def _example_lines(examples: Sequence[Example]) -> list[str]:
@@ -1231,12 +1274,22 @@ def report(word: str, strand: str, pattern: Pattern, examples: Sequence[Example]
             out.extend(format_rule_line(f"  {line.label:<3} ", line.description,
                                         _rule_suffix(line)))
 
-    # V-13 (Q1): one line per context-bearing STEP, carrying that step's own environment
-    # verbatim. Nothing here negates or evaluates a context (R2).
+    # V-13 (Q1), narrowed by B1: one line per context-bearing `[substitute]` step and per
+    # epenthesis source, carrying that step's own environment verbatim, deduplicated by
+    # `(label, context)`. A `[repair]`/`[post-stress]`/`[respell]` environment is noise here —
+    # *cahal* printed twenty-odd of them, all saying where a Welsh vowel is long. Nothing here
+    # negates or evaluates a context (R2).
     exclusions: list[str] = []
+    seen_exclusions: set[tuple[str, str]] = set()
     for constraint in found:
         for line in constraint.lines:
             for rule_id, context in line.contexts:
+                substitute = FORWARD_STAGES.index("substitute")
+                if line.kind != "epenthesis" and _id_order(rule_id)[0] != substitute:
+                    continue
+                if (constraint.label, context) in seen_exclusions:
+                    continue
+                seen_exclusions.add((constraint.label, context))
                 exclusions.extend(format_rule_line(
                     f"  {constraint.label} ← ",
                     f"{line.description}: only when  {context}", f"({rule_id} context)"))

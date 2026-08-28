@@ -3,7 +3,8 @@ import pytest
 
 from strands import g2p as fwd
 from strands.g2p_inverse import (BROAD_ON_THE_RIGHT, CONSONANT_READINGS, QUALITY_LEFT,
-                                 QUALITY_RIGHT, READINGS, VOWEL_READINGS, describe,
+                                 QUALITY_RIGHT, READINGS, VOWEL_PLUS_H_RUNS, VOWEL_READINGS,
+                                 describe,
                                  readings_for)
 
 
@@ -299,3 +300,49 @@ def test_the_defaults_are_unchanged():
     sig = inspect.signature(spell)
     assert sig.parameters["silent"].default is True
     assert sig.parameters["budget"].default == _PROPOSAL_BUDGET
+
+
+# ---- fix round Task B: silent-free descriptions, vowel summaries, positional labels ------------
+
+def test_no_description_shows_a_vowel_plus_h_run():
+    """B2: ⟨adh eadh agh …⟩ spell a nucleus with a mute letter and never reach a description."""
+    for key in VOWEL_READINGS:
+        text = describe(key)
+        assert not any(f"{run}," in text + "," for run in VOWEL_PLUS_H_RUNS), (key, text)
+
+
+def test_the_schwa_is_summarised_as_any_short_vowel():
+    """B3: /ə/'s runs are exactly the runs of the five short vowels, and every one of them is
+    in the registry because of the unstressed reduction."""
+    assert describe(("ə",)) == "any short vowel (unstressed)"
+
+
+def test_an_ordinary_nucleus_keeps_its_run_listing():
+    assert describe(("a",)) == "a, ea, ai, eai"
+
+
+def test_a_long_run_list_is_cut_at_six():
+    """B3: more than six runs print the first six and `…`."""
+    text = describe(("iː",))
+    assert text.endswith(", …") and len(text.split(", ")) == 7
+
+
+def test_the_cn_gn_mn_reading_says_where_it_applies():
+    """B4: ⟨n⟩ reads as /ɾˠ/ only in the cn/gn/mn branch."""
+    assert "n (after c/g/m)" in describe(("ɾˠ",))
+
+
+def test_an_initial_only_reading_is_labelled_initial():
+    """B4: eclipsis ⟨mb⟩ is word-initial only, plain ⟨m⟩ is not."""
+    assert describe(("mˠ",)) == "broad m/mb (initial)"
+
+
+def test_a_label_every_reading_shares_is_printed_once():
+    """The Connacht /w/ → /vˠ/ pass is non-initial throughout, so the label goes on the list,
+    not on each of its five graphemes."""
+    assert describe(("vˠ",)) == "broad bhf/bh/mh/v/w (non-initial)"
+
+
+def test_a_noninitial_only_reading_is_labelled_non_initial():
+    """B4: ⟨dt⟩ is `_grapheme dt`, which never fires word-initially."""
+    assert "dt (non-initial)" in describe(("t̪ˠ",))
