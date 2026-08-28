@@ -322,3 +322,73 @@ def test_check_passes_on_the_old_irish_rule_file():
     from strands.cli import main
 
     assert main(["check", str(ROOT / "rules" / "old-irish.rules")]) == 0
+
+
+# ---- word: one spelling in, all strands out, no file ------------------------------------------
+
+
+def test_word_takes_a_spelling_and_prints_every_strand(capsys):
+    assert main(["word", "indeagó"]) == 0
+    out = capsys.readouterr().out
+    assert "ipa:constructed" in out  # g2p built the source IPA
+    for name in TARGETS:
+        assert name in out
+    assert "injygo" in out  # the README's welsh line
+
+
+def test_word_trace_needs_one_strand_and_prints_the_derivation(capsys):
+    assert main(["word", "Niall", "--strand", "old-irish", "--trace"]) == 0
+    out = capsys.readouterr().out
+    assert "ATTESTED" in out  # spelling is the lexicon key
+    assert "->" in out
+    assert main(["word", "Niall", "--trace"]) == 2  # all strands + trace is a usage error
+
+
+def test_word_rejects_unknown_strand_and_unfillable_construction(capsys):
+    assert main(["word", "Niall", "--strand", "klingon"]) == 2
+    rc = main(["word", "Niall", "--strand", "welsh", "--construction", "ADJ"])
+    err = capsys.readouterr().err
+    assert rc == 2 and "Traceback" not in err and "ADJ" in err
+
+
+def test_word_save_writes_the_lint_accept_tsv(tmp_path, capsys):
+    """--save FILE is byte-identical to `lint --accept` on the one-column file."""
+    ref = tmp_path / "ref.tsv"
+    ref.write_text("orthography\nindeagó\n", encoding="utf-8")
+    main(["lint", str(ref), "--accept"])
+    out = tmp_path / "saved.tsv"
+    assert main(["word", "indeagó", "--save", str(out)]) == 0
+    assert out.read_bytes() == ref.read_bytes()
+    assert main(["word", "--save", str(out), "indeagó"]) == 0  # flag before the positional
+
+
+def test_word_save_defaults_to_a_timestamped_name(tmp_path, monkeypatch, capsys):
+    import re
+
+    monkeypatch.chdir(tmp_path)
+    assert main(["word", "indeagó", "--save"]) == 0
+    (saved,) = tmp_path.iterdir()
+    assert re.fullmatch(r"\d{8}-\d{6}-indeagó\.tsv", saved.name)
+    assert saved.name in capsys.readouterr().err
+    assert "ipa\t" in saved.read_text(encoding="utf-8")
+
+
+def test_explain_save_keeps_the_given_ipa(tmp_path, capsys):
+    out = tmp_path / "s.tsv"
+    assert (
+        main(
+            ["explain", "nʲiəl̪ˠ", "--strand", "welsh", "--orthography", "Niall", "--save", str(out)]
+        )
+        == 0
+    )
+    rows = _rows(out)
+    assert rows == [
+        dict(
+            orthography="Niall",
+            ipa="nʲiəl̪ˠ",
+            dialect="C",
+            gender="m",
+            declension="m1",
+            gen_ipa=rows[0]["gen_ipa"],
+        )
+    ]
