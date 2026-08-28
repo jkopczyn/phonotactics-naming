@@ -30,9 +30,13 @@ import re
 import unicodedata
 from dataclasses import dataclass, field
 from pathlib import Path
+from typing import TYPE_CHECKING
 
 from .features import DERIVED_CLASSES, FeatureError, FeatureTable
 from .tokenize import SegmentError, tokenize
+
+if TYPE_CHECKING:
+    from .spelled import GraphemeRule
 
 __all__ = [
     "Bundle",
@@ -904,7 +908,7 @@ def _adjacent_pairs(clusters: tuple[tuple[str, ...], ...] | None) -> tuple[tuple
     order (`cluster-legality = pairwise`; see syllabify.legal_onset)."""
     out: dict[tuple[str, str], None] = {}
     for cluster in clusters or ():
-        for a, b in zip(cluster, cluster[1:]):
+        for a, b in zip(cluster, cluster[1:], strict=False):
             out.setdefault((a, b), None)
     return tuple(out)
 

@@ -100,7 +100,7 @@ def _is_sibilant(segment: str, table: FeatureTable) -> bool:
 
 
 def _strictly(values: Sequence[int], rising: bool) -> bool:
-    return all((b > a) if rising else (b < a) for a, b in zip(values, values[1:]))
+    return all((b > a) if rising else (b < a) for a, b in zip(values, values[1:], strict=False))
 
 
 def _sonority_ok(cluster: tuple[str, ...], table: FeatureTable, *, onset: bool) -> bool:
@@ -175,7 +175,7 @@ def _pairwise_ok(
     if len(cluster) == 1:
         return cluster in listed
     pairset = frozenset(pairs)
-    return all(pair in pairset for pair in zip(cluster, cluster[1:]))
+    return all(pair in pairset for pair in zip(cluster, cluster[1:], strict=False))
 
 
 def legal_onset(cluster: tuple[str, ...], spec: SyllableSpec, table: FeatureTable) -> bool:
@@ -340,7 +340,7 @@ def syllabify(word: Word, rf: RuleFile, table: FeatureTable) -> Word:
         elif not legal_onset(onset, spec, table):
             illegal.update(range(a, first))
         # interludes
-        for (_, stop), (nxt, _) in zip(nucs, nucs[1:]):
+        for (_, stop), (nxt, _) in zip(nucs, nucs[1:], strict=False):
             inter = segs[stop:nxt]
             split, ok = _split_interlude(inter, spec, table)
             if not ok:

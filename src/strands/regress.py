@@ -255,7 +255,7 @@ def _run_row(row: dict[str, str], target: str, rf: RuleFile, table: FeatureTable
     gots: list[str] = []
     distance = 0
     pieces = attested.split()
-    for word, piece in zip(target_words, pieces):
+    for word, piece in zip(target_words, pieces, strict=True):
         ok, got, d = _mode_c(word, piece, rf, table)
         passed = passed and ok
         gots.append(got)

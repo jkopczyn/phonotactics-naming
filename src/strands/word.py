@@ -94,7 +94,7 @@ class Word:
         bounds = [0, *sorted(self.word_breaks), len(self.segments)]
         stressed = self.syllables[self.stress] if self.stress is not None else None
         out: list[Word] = []
-        for k, (a, b) in enumerate(zip(bounds, bounds[1:])):
+        for k, (a, b) in enumerate(zip(bounds, bounds[1:], strict=False)):
             if a >= b:
                 continue
             syllables = tuple(s - a for s in self.syllables if a <= s < b)

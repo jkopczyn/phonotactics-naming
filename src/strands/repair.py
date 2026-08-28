@@ -119,7 +119,7 @@ def _best_cluster(
     for cand in candidates:
         if len(cand) != len(span):
             continue
-        d = sum(table.distance(x, y, rf.weights) for x, y in zip(span, cand))
+        d = sum(table.distance(x, y, rf.weights) for x, y in zip(span, cand, strict=True))
         if best is None or d < best_d:
             best, best_d = cand, d
     return best

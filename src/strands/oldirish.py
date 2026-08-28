@@ -250,7 +250,7 @@ def _retro_words(
     words: list[SpelledWord] = []
     flags: list[str] = []
     trace: list[TraceEntry] = []
-    for piece, orth in zip(pieces, orth_words):
+    for piece, orth in zip(pieces, orth_words, strict=True):
         word = normalize(piece, irish, table, dialect=dialect)
         word = tag_word(word, orth)
         word = substitute_stage(word, oi, table)
@@ -873,7 +873,7 @@ def _ends_with(*parts: str) -> Callable[[str, str], bool]:
 
 
 def _doubled_letters(text: str) -> set[str]:
-    return {a for a, b in zip(text, text[1:]) if a == b and a.isalpha()}
+    return {a for a, b in zip(text, text[1:], strict=False) if a == b and a.isalpha()}
 
 
 def _new_geminate(modern: str, oi: str) -> bool:

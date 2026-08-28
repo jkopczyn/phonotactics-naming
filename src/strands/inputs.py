@@ -350,7 +350,7 @@ def accept_guesses(path: str | Path, entries: Sequence[Entry]) -> None:
     for col in _INFERRED_COLUMNS:
         if col not in header:
             header.append(col)
-    for row, entry in zip(data_rows, entries):
+    for row, entry in zip(data_rows, entries, strict=True):
         if row.get("orthography") != entry.orthography:
             raise InputError(
                 f"{path}: row {row.get('orthography')!r} does not match entry {entry.orthography!r}"

@@ -190,7 +190,11 @@ class FeatureTable:
         """I-12: sum of weights over features where both are defined (+/-) and differ."""
         va, vb = self._seg(a), self._seg(b)
         w = self._weights(weights)
-        return sum(w[i] for i, (x, y) in enumerate(zip(va, vb)) if x != y and x != "0" and y != "0")
+        return sum(
+            w[i]
+            for i, (x, y) in enumerate(zip(va, vb, strict=True))
+            if x != y and x != "0" and y != "0"
+        )
 
     def nearest(
         self, segment: str, candidates: Sequence[str], weights: dict[str, float] | None = None

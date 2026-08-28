@@ -138,7 +138,9 @@ def test_apply_changes_prefers_the_canonical_row_over_an_input_alias():
 
     def toward(src, dst):
         return {
-            f: y for f, x, y in zip(FEATURE_NAMES, TABLE.vector(src), TABLE.vector(dst)) if x != y
+            f: y
+            for f, x, y in zip(FEATURE_NAMES, TABLE.vector(src), TABLE.vector(dst), strict=True)
+            if x != y
         }
 
     assert TABLE.apply_changes("k", {"voice": "+"}) == "ɡ"
