@@ -20,17 +20,11 @@ their respelling, IPA, flags and fallback count. Globs `* ? [aeiou]`; `--example
 
 ## Decisions I want from you
 
-1. **Which spelling represents a candidate.** Each verified example is one Irish *sound shape*
-   printed under its cheapest silent-free spelling. For welsh `cahal` the /kahəl̪ˠ/ shape (see
-   point 2: `--examples 11` to reach it) prints as *cahal*, never *Cathal* — both read
-   /kahəl̪ˠ/, and ⟨th⟩ for /h/ ranks 13th among the 60 silent-free spellings. Options:
-   keep (simplest); print two or three spellings per shape; prefer spellings with the "usual"
-   Irish graphemes (⟨th⟩ for /h/, ⟨bh/mh⟩ for /v w/) via a small preference table. I lean to the
-   preference table — it is what makes a guess look like an Irish word.
-2. **Example ranking.** Candidates come out cheapest-first by rule kind (identity < attested <
-   design < fallback), so for `cahal` the long-vowel *cáhál* leads and the short-vowel shape
-   is 11th, past the default 8. Ranking by "fewest long vowels / fewest design routes" would
-   put the plain shape first. Cheap to change; I have not.
+1. **Which spelling represents a candidate.** Done: a candidate is printed under the
+   lowest-penalty of its silent-free spellings under `reverse.SPELLING_PENALTY`, so welsh
+   `cahal` now leads with *cathal*.
+2. **Example ranking.** Done: the number of long vowels in the candidate enters the sort key
+   just before its rule cost, so the plain /kahəl̪ˠ/ shape leads `cahal` instead of *cáhál*.
 3. **The session case — a real open call.** `Ar*v*` on georgian lists the `v` sources you
    found by hand (broad *bh/mh* twice, /vˠ/ non-initial and /w/; slender *bh/mh*; inserted *v*
    before a front vowel after a broad non-labial C, with its context under `exclusions`), plus
@@ -73,8 +67,9 @@ No rule file or forward stage changed (`g2p.py` gained public aliases only).
 - Round-trip ratchets over `test-words.tsv` (no floor, regression-only): the row's own IPA is
   admitted by the reversed pattern for welsh 67 %, georgian 72 %, arabic 71 %, dutch 51 % of
   133 rows; the row's spelling (or a homophone) appears among examples at cap 200 for
-  2/11, 5/11, 5/11, 0/11 of the first twelve rows. Dutch is low on both — its `[post-stress]` reductions and
-  cluster repairs widen slots the most; not investigated further.
+  6/11, 5/11, 5/11, 0/11 of the first twelve rows (welsh was 2/11 before the ranking
+  change). Dutch is low on both — its `[post-stress]` reductions and cluster repairs widen
+  slots the most; not investigated further.
 - Old Irish: fnmatch over the lexicon's Old Irish forms only; the retro grammar is not inverted.
 
 ## Process and cost

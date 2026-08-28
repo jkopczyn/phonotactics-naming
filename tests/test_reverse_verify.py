@@ -92,25 +92,29 @@ def test_examples_are_one_per_irish_candidate_not_one_per_foreign_shape():
     keying the de-duplication on that shape leaves exactly one row — *cahal* showed ⟨cáhál⟩
     alone. The reader wants the Irish words, so `verify` de-duplicates by the candidate only
     (`expand` already emits each segment sequence once) and a repeated `ipa` column is fine.
-    ⟨cahal⟩ is the row that matters here: it is the CHEAPEST silent-free spelling of /kahəl̪ˠ/,
-    the reading of *Cathal* — ⟨cathal⟩ is another spelling of the same candidate, and A1 prints
-    one per candidate. It ranks eleventh of the sixteen matches, so the DEFAULT `--examples 8`
-    still does not reach it — a finding for the owner, not something this test can assert away.
-    `test_the_row_for_cathal_is_listed_for_cahal_welsh` below measures both facts."""
+    ⟨cathal⟩ is the row that matters here: it is the candidate /kahəl̪ˠ/, printed under the
+    lowest-penalty of the silent-free spellings on offer (change 1 — it was ⟨cahal⟩, the first).
+    `test_the_row_for_cathal_is_listed_for_cahal_welsh` below measures the same fact against
+    `g2p`."""
     examples, _t, _c = verify(analysed(WEL, "cahal"), WEL, IRISH, TABLE, limit=40, cap=200)
     assert len(examples) > 1
     assert len({e.orthography for e in examples}) == len(examples)
-    assert "cahal" in [e.orthography for e in examples]
+    assert "cathal" in [e.orthography for e in examples]
     assert len({e.ipa for e in examples}) == 1        # one literal pattern, one foreign shape
 
 
 @pytest.mark.slow
-def test_examples_of_the_session_case_are_six_distinct_shapes():
+def test_examples_of_the_session_case_are_five_distinct_shapes():
     """A2 acceptance, measured on the session's own word at the SHIPPED cap: `Ar*v*` georgian
-    shows at least six DISTINCT Irish-through-Georgian shapes. `slow` per C3 — it is the one
-    reverse test that spends the full 2000-candidate budget."""
+    shows several DISTINCT Irish-through-Georgian shapes. `slow` per C3 — it is the one reverse
+    test that spends the full 2000-candidate budget.
+
+    The bar was SIX, and change 2 costs one of them: ranking by fewest long vowels groups the
+    plain shapes together at the top, so ⟨árvá⟩ /ɑrvɑ/, ⟨árvae⟩ /ɑrvɛ/ and ⟨áirrveá⟩ /ɑrviɑ/
+    drop past the eighth row and /ɑruvl/ and /ɑriuvl/ take their place. Five distinct shapes of
+    eight rows is the new reading of the same acceptance."""
     examples, _t, _c = verify(analysed(GEO, "Ar*v*"), GEO, IRISH, TABLE, limit=8, cap=2000)
-    assert len({e.ipa for e in examples}) >= 6
+    assert len({e.ipa for e in examples}) >= 5
 
 
 def test_the_cap_counts_unique_forward_runs():
@@ -118,12 +122,6 @@ def test_the_cap_counts_unique_forward_runs():
     before any forward work."""
     _e, tried, cap_hit = verify(analysed(GEO, "a*a*"), GEO, IRISH, TABLE, limit=1, cap=10)
     assert tried <= 10 and cap_hit is True
-
-
-def test_examples_are_ranked_by_fallbacks_then_flags_then_rank_then_spelling():
-    examples, _t, _c = verify(analysed(GEO, "ar*"), GEO, IRISH, TABLE, limit=8, cap=200)
-    keys = [(e.fallbacks, len(e.flags), e.rank, e.spelling_index) for e in examples]
-    assert keys == sorted(keys)
 
 
 def test_a_candidate_the_engine_cannot_run_is_counted_not_raised():
@@ -250,8 +248,11 @@ def test_verify_runs_one_forward_run_per_candidate():
     assert tried == 5
 
 
-def test_verify_asks_for_one_cheap_silent_free_spelling():
-    """A2: `spell(segments, limit=1, silent=False, budget=128)`."""
+def test_verify_asks_for_one_cheap_silent_free_spelling_per_candidate():
+    """A2 still holds for the FORWARD run: `spell(segments, limit=1, silent=False, budget=128)`
+    for every candidate. Change 1 widens the search only for a candidate that has already
+    matched — see `test_a_matching_candidate_is_spelled_again_more_widely_only_when_it_must_be`.
+    """
     from strands import reverse
 
     calls: list[tuple] = []
@@ -322,15 +323,9 @@ def test_cap_hit_is_true_when_the_forward_bound_is_reached_as_expansion_ends():
 def test_the_row_for_cathal_is_listed_for_cahal_welsh():
     """D1's acceptance, stated in terms of what a row IS. ⟨Cathal⟩ and ⟨cahal⟩ are two spellings
     of ONE Irish word — `g2p` reads both as /ˈkahəl̪ˠ/ — so they are one candidate, and A1 (still
-    in force: `spell(limit=1, silent=False, budget=128)`, one forward run per candidate) prints
-    the cheapest of them, ⟨cahal⟩. The claim in an earlier comment here, that `spell()` offers no
-    ⟨th⟩ spelling of /h/, is false: ⟨cathal⟩ is its thirteenth silent-free spelling of this
-    candidate, and only the one-spelling budget keeps it off the page.
-
-    Two facts the owner should see: the row sits eleventh of the sixteen matches — Irish /ə/
-    reaches Welsh ⟨a⟩ by a costlier route (rank 23) than /aː/ does (rank 2) — so the shipped
-    `--examples 8` does not reach it; and printing ⟨cathal⟩ instead of ⟨cahal⟩ would take a new
-    ruling on which spelling represents a candidate, not a bug fix.
+    in force: one forward run per candidate) prints ONE of them. Which one is change 1's ruling:
+    the lowest-penalty spelling under `SPELLING_PENALTY`, which is ⟨cathal⟩ — a bare medial ⟨h⟩
+    costs 2 and the ⟨th⟩ digraph costs nothing.
     """
     from strands import g2p, g2p_inverse
     from strands.g2p_inverse import _table, _unmark
@@ -342,8 +337,143 @@ def test_the_row_for_cathal_is_listed_for_cahal_welsh():
     cathal = read("cathal")
     assert read("cahal") == cathal                      # one candidate, two spellings
     assert "cathal" in g2p_inverse.spell(cathal, limit=200, silent=False, budget=20000)
+    # …and `verify`'s own wider tier reaches it too (`_VERIFY_SPELL_WIDE`).
+    from strands.reverse import _VERIFY_SPELL_WIDE
+    assert "cathal" in g2p_inverse.spell(cathal, **_VERIFY_SPELL_WIDE)
 
     examples, _t, _c = verify(analysed(WEL, "cahal"), WEL, IRISH, TABLE, limit=40, cap=200)
     orthographies = [e.orthography for e in examples]
-    assert "cahal" in orthographies
-    assert read(orthographies[orthographies.index("cahal")]) == cathal
+    assert "cathal" in orthographies
+    assert read(orthographies[orthographies.index("cathal")]) == cathal
+
+
+# ---- grapheme-preferred spellings and short-vowel-first ranking ---------------------------------
+
+def test_a_loan_letter_costs_two_each():
+    """SPELLING_PENALTY rule 1: ⟨k v w j z x⟩ are not Irish letters."""
+    from strands.reverse import SPELLING_PENALTY, spelling_penalty
+    assert SPELLING_PENALTY["loan letter"] == 2
+    assert spelling_penalty("cara") == 0
+    assert spelling_penalty("kara") == 2
+    assert spelling_penalty("kava") == 4
+
+
+def test_a_bare_medial_h_costs_two_but_a_lenition_digraph_is_free():
+    """SPELLING_PENALTY rule 2: Irish medial /h/ is normally written with a digraph."""
+    from strands.reverse import SPELLING_PENALTY, spelling_penalty
+    assert SPELLING_PENALTY["bare h"] == 2
+    assert spelling_penalty("cahal") == 2
+    assert spelling_penalty("cathal") == 0          # ⟨th⟩ is a digraph
+    assert spelling_penalty("hata") == 0            # word-initial ⟨h⟩ is ordinary Irish
+    for digraph in ("bh", "ch", "dh", "fh", "gh", "mh", "ph", "th"):
+        assert spelling_penalty(f"a{digraph}a") == 0, digraph
+
+
+def test_sh_for_h_costs_one_so_th_is_the_default_digraph():
+    """SPELLING_PENALTY rule 2b (see the table's own note): ⟨sh⟩ is a real lenition spelling,
+    so it costs far less than a bare ⟨h⟩, but ⟨th⟩ is the one a reader expects."""
+    from strands.reverse import SPELLING_PENALTY, spelling_penalty
+    assert SPELLING_PENALTY["sh for h"] == 1
+    assert spelling_penalty("cashal") == 1
+    assert spelling_penalty("cathal") < spelling_penalty("cashal") < spelling_penalty("cahal")
+
+
+def test_a_non_initial_bhf_costs_one():
+    """SPELLING_PENALTY rule 3: eclipsis spelling in the middle of a word."""
+    from strands.reverse import SPELLING_PENALTY, spelling_penalty
+    assert SPELLING_PENALTY["non-initial bhf"] == 1
+    assert spelling_penalty("bhfear") == 0          # word-initial eclipsis is ordinary
+    assert spelling_penalty("arbhfar") == 1
+
+
+def test_a_doubled_r_l_or_n_costs_one_each():
+    """SPELLING_PENALTY rule 4: the single letter is the default."""
+    from strands.reverse import SPELLING_PENALTY, spelling_penalty
+    assert SPELLING_PENALTY["doubled letter"] == 1
+    assert spelling_penalty("carra") == 1
+    assert spelling_penalty("calla") == 1
+    assert spelling_penalty("canna") == 1
+    assert spelling_penalty("carranna") == 2
+
+
+def _read(word):
+    from strands import g2p
+    from strands.g2p_inverse import _table, _unmark
+    from strands.tokenize import tokenize
+    return tuple(tokenize(_unmark(g2p.g2p(word)[0]), _table()).segments)
+
+
+def test_the_short_vowel_shape_of_cahal_is_printed_as_cathal():
+    """Change 1: the representative spelling of a candidate is the LOWEST-penalty one among the
+    silent-free spellings on offer, not the first. /kahəl̪ˠ/ printed ⟨cahal⟩ (a bare medial
+    ⟨h⟩); ⟨cathal⟩ is a later spelling of the same candidate and costs nothing."""
+    examples, _t, _c = verify(analysed(WEL, "cahal"), WEL, IRISH, TABLE, limit=8, cap=200)
+    orthographies = [e.orthography for e in examples]
+    assert "cathal" in orthographies
+    assert _read("cathal") == _read("cahal")        # still one candidate, two spellings
+    assert examples[orthographies.index("cathal")].penalty == 0
+
+
+def test_the_short_vowel_shape_outranks_the_long_vowel_one():
+    """Change 2: `long_vowels` enters the sort key before `rank`, so the plain /kahəl̪ˠ/ shape
+    leads and /kaːhaːl̪ˠ/ (two long vowels, but a cheaper rule route) follows."""
+    examples, _t, _c = verify(analysed(WEL, "cahal"), WEL, IRISH, TABLE, limit=40, cap=200)
+    shapes = [_read(e.orthography) for e in examples]
+    short = shapes.index(_read("cahal"))
+    long = shapes.index(_read("cáhál"))
+    assert short < long
+    assert short == 0
+
+
+def test_examples_are_ranked_by_the_documented_key():
+    """`(fallbacks, len(flags), long_vowels, rank, penalty, spelling_index)`. `long_vowels` is
+    not a field of `Example` — it is a property of the Irish candidate, and every spelling
+    `spell()` returns reads back to that candidate, so the test recovers it from `g2p`."""
+    examples, _t, _c = verify(analysed(GEO, "ar*"), GEO, IRISH, TABLE, limit=8, cap=200)
+    keys = [(e.fallbacks, len(e.flags),
+             sum(1 for seg in _read(e.orthography) if "ː" in seg),
+             e.rank, e.penalty, e.spelling_index) for e in examples]
+    assert keys == sorted(keys)
+
+
+def test_every_example_carries_the_penalty_of_its_printed_spelling():
+    from strands.reverse import spelling_penalty
+    examples, _t, _c = verify(analysed(GEO, "ar*v*"), GEO, IRISH, TABLE, limit=8, cap=200)
+    assert examples
+    assert all(e.penalty == spelling_penalty(e.orthography) for e in examples)
+
+
+def test_the_penalty_is_not_printed():
+    """It is a ranking signal, not a column (owner's ruling)."""
+    from strands.reverse import Example, _example_lines
+    line, = _example_lines([Example("cathal", "cahal", "kahal", (), 0, 0, 0, 7)])
+    assert "7" not in line
+
+
+def test_a_matching_candidate_is_spelled_again_more_widely_only_when_it_must_be():
+    """Change 1's cost control: the wider `_SPELL_TIERS` searches are paid for only by a
+    candidate that matched the pattern AND whose cheap spelling is penalized."""
+    from strands import reverse
+    from strands.reverse import _SPELL_TIERS
+
+    calls: list[dict] = []
+    real = reverse.g2p_inverse.spell
+
+    def spy(segments, **kwargs):
+        calls.append(kwargs)
+        return real(segments, **kwargs)
+
+    monkey = pytest.MonkeyPatch()
+    try:
+        monkey.setattr(reverse.g2p_inverse, "spell", spy)
+        examples, _t, _c = verify(analysed(WEL, "cahal"), WEL, IRISH, TABLE, limit=8, cap=200)
+    finally:
+        monkey.undo()
+    cheap = [kw for kw in calls if kw == reverse._VERIFY_SPELL]
+    wide = [kw for kw in calls if kw != reverse._VERIFY_SPELL]
+    assert all(kw in _SPELL_TIERS for kw in wide)
+    # every candidate pays the cheap search; only the refined head pays a wide one, at most
+    # twice each — sixteen candidates match here, so the head is all of them.
+    assert 0 < len(wide) <= 2 * reverse.REFINE_HEAD * 8
+    assert len(wide) < len(cheap)
+    assert "cathal" in [e.orthography for e in examples]

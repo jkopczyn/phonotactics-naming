@@ -117,10 +117,18 @@ one spelling per candidate is enough. That one is asked for **silent-free** — 
 silent ⟨dh gh th⟩, no vowel-plus-h run — so the eight spellings of one word collapse to the
 one a reader can use. A candidate with no silent-free spelling is skipped and does not count
 against the cap. The run is kept when `fnmatch(respelling, PATTERN)` (or, with `--ipa`, when
-the unmarked IPA matches). Kept examples are ranked by `(fallbacks, len(flags), candidate
-rank)`, ONE row per Irish candidate — never de-duplicated by the printed foreign shape, which
-for a literal pattern is the same for every match — and the first `--examples` printed with
-their respelling, IPA, flags and fallback count — the same quality signal the hand-run used.
+the unmarked IPA matches). A kept candidate is then printed under the most Irish-looking of its
+silent-free spellings rather than the first one: a small preference table (`SPELLING_PENALTY`)
+charges 2 for a loan letter ⟨k v w j z x⟩ and for a non-initial bare ⟨h⟩ outside a lenition
+digraph, 1 for ⟨sh⟩ where ⟨th⟩ would do, for a non-initial ⟨bhf⟩ and for each of ⟨rr ll nn⟩,
+and the lowest-penalty spelling wins with `spell()`'s order breaking ties — so /kahəl̪ˠ/ prints
+as *cathal*, not *cahal*. Kept examples are ranked by `(fallbacks, len(flags), long vowels in
+the candidate, candidate rank, spelling penalty)`, where counting long vowels early puts the
+plain shape of a word ahead of the long-vowel shapes that reach a strand by a cheaper rule
+route; they are ONE row per Irish candidate — never de-duplicated by the printed foreign shape,
+which for a literal pattern is the same for every match — and the first `--examples` printed
+with their respelling, IPA, flags and fallback count — the same quality signal the hand-run
+used.
 
 ## 4. Output
 

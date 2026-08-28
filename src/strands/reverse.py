@@ -28,10 +28,11 @@ expands over its own inventory (V-29). `un_substitute` walks a parsed pattern ba
 constraint set, `render_pattern` and `report` print §4; and `expand`/`verify` (§3.5) turn a
 pattern into concrete Irish candidates, cheapest first under a hard cap of 2000, spell each one
 with `g2p_inverse.spell` and run it ONCE forward through the real engine, keeping only what
-`fnmatchcase` says really matches (V-22 … V-26, V-34, and fix-round A1-A3: one silent-free
-spelling per candidate, and the candidate stream itself bounded). Nothing is printed as a
-concrete word that has not been through `run_entry`. `old_irish_matches` is the one strand that
-skips all of this: Old Irish is a lexicon fnmatch and nothing else (R6).
+`fnmatchcase` says really matches (V-22 … V-26, V-34, and fix-round A1-A3: one forward run per
+candidate, and the candidate stream itself bounded). Which of a candidate's silent-free
+spellings is PRINTED is `SPELLING_PENALTY`'s ruling — the most Irish-looking one. Nothing is
+printed as a concrete word that has not been through `run_entry`. `old_irish_matches` is the
+one strand that skips all of this: Old Irish is a lexicon fnmatch and nothing else (R6).
 """
 from __future__ import annotations
 
@@ -41,7 +42,7 @@ import heapq
 import itertools
 import re
 import unicodedata
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from pathlib import Path
 from typing import Sequence
 
@@ -58,7 +59,8 @@ __all__ = [
     "source_map", "un_substitute", "WIDEN_SECTIONS", "widen", "RULE_COL", "FORWARD_STAGES",
     "ConstraintLine", "Constraint", "Example", "format_rule_line", "constraints",
     "dropped_lines", "render_pattern", "report", "CAP", "PALETTE", "STAR_LENGTHS",
-    "Candidate", "rank", "expand", "verify", "old_irish_matches", "old_irish_report",
+    "Candidate", "rank", "expand", "SPELLING_PENALTY", "spelling_penalty", "REFINE_HEAD",
+    "verify", "old_irish_matches", "old_irish_report",
     "TEST_WORDS", "read_hand_ipa_rows", "pattern_admits", "ReverseRow", "ReverseReport",
     "reverse_regression",
 ]
@@ -928,6 +930,10 @@ class Example:
     fallbacks: int
     rank: int
     spelling_index: int
+    #: The `spelling_penalty` of `orthography` — how un-Irish the printed spelling looks. A
+    #: RANKING signal only (owner's ruling): it is never printed. Defaulted so the report's
+    #: goldens can build an `Example` positionally without it.
+    penalty: int = 0
 
 
 def format_rule_line(prefix: str, description: str, suffix: str) -> list[str]:
@@ -1549,12 +1555,141 @@ def _forward(spelling: str, irish: RuleFile, target: RuleFile, table: FeatureTab
         return None
 
 
-#: A2: the spelling `verify` asks of each candidate — ONE, silent-free, on a small budget.
+# ---- which spelling represents a candidate (owner decision 1) ----------------------------------
+
+#: How much each un-Irish grapheme costs the spelling that carries it. A candidate is printed
+#: under its LOWEST-penalty silent-free spelling, ties broken by `spell()`'s own order, so a
+#: guess looks like an Irish word: /kahəl̪ˠ/ prints as *cathal*, not *cahal*.
+#:
+#: - **loan letter** — ⟨k v w j z x⟩ are not letters of the Irish alphabet, so every one of them
+#:   is a sign that `spell()` fell back on a foreign reading.
+#: - **bare h** — a non-initial ⟨h⟩ that is not the second letter of a lenition digraph. Irish
+#:   medial /h/ is normally written ⟨th⟩ or ⟨sh⟩; a lone ⟨h⟩ between vowels is a respelling
+#:   convention, not Irish orthography. Word-initial ⟨h⟩ (*hata*) is ordinary and free.
+#: - **sh for h** — ⟨sh⟩ IS a real lenition spelling and costs far less than a bare ⟨h⟩, but
+#:   ⟨th⟩ is the one a reader expects, so ⟨sh⟩ carries a nudge that breaks the tie between them.
+#:   This entry is the one piece of the table the owner did not specify; drop it and /kahəl̪ˠ/
+#:   prints as *cashal*, which is equally Irish-looking and equally correct.
+#: - **non-initial bhf** — eclipsis, which belongs at the head of a word, not inside one.
+#: - **doubled letter** — ⟨rr ll nn⟩; the single letter is the default spelling of these.
+SPELLING_PENALTY = {
+    "loan letter": 2,
+    "bare h": 2,
+    "sh for h": 1,
+    "non-initial bhf": 1,
+    "doubled letter": 1,
+}
+
+_LOAN_LETTERS = frozenset("kvwjzx")
+#: The letters ⟨h⟩ lenites: ⟨bh ch dh fh gh mh ph sh th⟩. An ⟨h⟩ after one of these is a
+#: digraph, not a bare ⟨h⟩.
+_LENITABLE = frozenset("bcdfgmpst")
+_DOUBLES = ("rr", "ll", "nn")
+
+
+def spelling_penalty(spelling: str) -> int:
+    """How un-Irish this spelling looks, under `SPELLING_PENALTY`. Lower is better; 0 is clean.
+
+    Every rule counts every occurrence, so *kava* costs twice what *kara* does. Nothing here
+    judges whether the spelling is CORRECT — `spell()` has already guaranteed that `g2p` reads
+    it back to the candidate's own segments — only which of several correct spellings to print.
+    """
+    text = _fold(spelling)
+    total = SPELLING_PENALTY["loan letter"] * sum(1 for ch in text if ch in _LOAN_LETTERS)
+    for index, ch in enumerate(text):
+        if ch != "h" or index == 0:
+            continue
+        previous = text[index - 1]
+        if previous not in _LENITABLE:
+            total += SPELLING_PENALTY["bare h"]
+        elif previous == "s":
+            total += SPELLING_PENALTY["sh for h"]
+    total += SPELLING_PENALTY["non-initial bhf"] * text[1:].count("bhf")
+    total += SPELLING_PENALTY["doubled letter"] * sum(text.count(pair) for pair in _DOUBLES)
+    return total
+
+
+def _pick(spellings: Sequence[str]) -> tuple[str, int]:
+    """The lowest-penalty spelling and its penalty; `spell()`'s own order breaks ties."""
+    index = min(range(len(spellings)), key=lambda i: (spelling_penalty(spellings[i]), i))
+    return spellings[index], spelling_penalty(spellings[index])
+
+
+def _best_spelling(segments: Sequence[str], first: Sequence[str]) -> tuple[str, int]:
+    """The spelling that represents this candidate, and its penalty (owner decision 1).
+
+    `first` is the cheap `_VERIFY_SPELL` result the forward run already paid for. When it is
+    clean nothing more is asked; otherwise each `_SPELL_TIERS` widening is tried in turn, and
+    the search stops at the first clean spelling. A wider tier's list is a superset of a
+    narrower one's (`spell` enumerates in a fixed order and `limit` only truncates), so the
+    penalty can only fall.
+
+    Both tiers are needed for /kahəl̪ˠ/: ⟨cahal⟩ is its FIRST silent-free spelling and carries a
+    bare medial ⟨h⟩, and ⟨cathal⟩ is its THIRTEENTH. They are paid for only by the `REFINE_HEAD`
+    rows that can reach the page — a few dozen per word, against the thousands of candidates
+    `verify` spells — which is what keeps §3.5's timing bar intact.
+    """
+    best, penalty = _pick(first)
+    for kwargs in _SPELL_TIERS:
+        if penalty == 0:
+            break
+        spellings = g2p_inverse.spell(segments, **kwargs)
+        if not spellings:
+            break                      # cannot happen: `first` is non-empty and a prefix
+        candidate, cost = _pick(spellings)
+        if cost < penalty:
+            best, penalty = candidate, cost
+    return best, penalty
+
+
+#: A2: the spelling `verify` runs FORWARD — one, silent-free, on a small budget. The forward
+#: result depends only on the Irish IPA the spelling reads back to, and every spelling `spell()`
+#: returns reads back to the candidate's own segments, so the cheapest one is as good as any
+#: for the run. Which spelling is PRINTED is a different question, answered by `_best_spelling`
+#: and only for a candidate that matched.
 _VERIFY_SPELL = {"limit": 1, "silent": False, "budget": 128}
+#: The widenings `_best_spelling` walks when the cheap spelling is not clean. `spell` raises any
+#: budget to `16 * limit`, so these are the smallest budgets each `limit` can be asked for.
+_SPELL_TIERS = ({"limit": 8, "silent": False, "budget": 128},
+                {"limit": 16, "silent": False, "budget": 256})
+#: The widest tier, named for the tests that measure what it reaches.
+_VERIFY_SPELL_WIDE = _SPELL_TIERS[-1]
 #: A3: `expand` is consumed at most this many times the forward-run cap. A candidate that has
 #: no silent-free spelling costs no forward run, so the forward cap alone cannot stop a word
 #: whose stream is mostly unspellable; this bound can.
 EXAMINE_FACTOR = 4
+
+
+@dataclass(frozen=True)
+class _Match:
+    """One candidate the forward engine kept: everything the ranking and the row need."""
+    candidate: Candidate
+    result: object                    # the `pipeline.Result` of the forward run
+    spelling: str                     # the orthography this row will print
+    long_vowels: int                  # candidate segments carrying `ː` (owner decision 2)
+    penalty: int                      # `spelling_penalty(spelling)`
+
+
+#: How many rows deep the printed spelling is chosen properly, as a multiple of `--examples`
+#: (and as a floor). See the comment in `verify`: the head can only be reordered internally.
+REFINE_HEAD = 4
+
+
+def _match_key(match: _Match) -> tuple[int, ...]:
+    """The example ranking (owner decision 2): fallbacks and flags first — a row that needed a
+    fallback or carries a flag is a worse guess however it is spelled — then the number of long
+    vowels, then the candidate's rule cost, then how Irish the spelling looks."""
+    return (match.result.fallbacks, len(match.result.flags), match.long_vowels,
+            match.candidate.rank, match.penalty, 0)
+
+
+def _example(match: _Match) -> Example:
+    return Example(orthography=match.spelling, respelling=match.result.respelling,
+                   # Stress is ignored everywhere in reverse (V-18), and spec §4's own example
+                   # block prints unmarked IPA.
+                   ipa=_unmark(match.result.ipa), flags=match.result.flags,
+                   fallbacks=match.result.fallbacks, rank=match.candidate.rank,
+                   spelling_index=0, penalty=match.penalty)
 
 
 def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTable,
@@ -1569,10 +1704,14 @@ def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTa
     strand's rules reference the orthography, and `inputs.infer`'s ending heuristics only set
     declension and gender, which `DESC` never uses — and `spell()` guarantees every spelling it
     returns reads back to exactly the candidate's segments. So all of a candidate's spellings
-    reach the same `Result`, and one of them is enough. That one is asked for cheaply
-    (`_VERIFY_SPELL`): silent-free, so the eight ⟨árubh árrubh árubhfh …⟩ spellings of one word
-    collapse to one, and on a small proposal budget. `Example.spelling_index` survives as 0 so
-    the report's format does not move.
+    reach the same `Result`, and one of them is enough. The spellings are asked for
+    cheaply (`_VERIFY_SPELL`): silent-free, so the eight ⟨árubh árrubh árubhfh …⟩ spellings of
+    one word collapse to a handful, and on a small proposal budget. WHICH one of them is printed
+    is `spelling_penalty`'s ruling, not `spell()`'s order (owner decision 1): a bare medial ⟨h⟩
+    or a loan letter costs 2, so /kahəl̪ˠ/ prints as ⟨cathal⟩ where it used to print ⟨cahal⟩.
+    `Example.spelling_index` survives as 0 — the pick is made inside `_best_spelling`, where
+    ties are broken by `spell()`'s order, so nothing downstream needs the index — and the
+    report's format does not move.
 
     `cap` defaults to the module-level `CAP` **at call time** (C3): the CLI tests lower it with
     `monkeypatch.setattr(reverse, "CAP", …)`, which a default argument would not have seen.
@@ -1584,7 +1723,12 @@ def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTa
     either bound is reached.
 
     Returns `(examples, tried, cap_hit)`; examples are sorted by
-    `(fallbacks, len(flags), rank, spelling_index)` and truncated to `limit`, with **one row per
+    `(fallbacks, len(flags), long_vowels, rank, penalty, spelling_index)` — where `long_vowels`
+    counts the candidate's long Irish vowels (owner decision 2: a long vowel survives into a
+    strand by a cheaper `rank` than the reduced /ə/ does, so *cáhál* used to fill all eight rows
+    of *cahal* ahead of the plain shape) — and truncated to `limit`. The `penalty` of a row is
+    exact for the `REFINE_HEAD` head the truncation can draw on and is the cheap spelling's
+    elsewhere; nothing outside that head can reach the page. One row per
     Irish candidate** (D1, reversing A2). A2 keyed the de-duplication on the printed `ipa`
     shape; for a LITERAL pattern every match has the same foreign shape by construction, so
     *cahal* printed one row — ⟨cáhál⟩ — and the sixteen Irish words that reach it, *Cathal*
@@ -1594,7 +1738,7 @@ def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTa
     """
     cap = CAP if cap is None else cap        # C3: read at CALL time, so a test may lower `CAP`
     wanted = pattern.text if raw_pattern is None else raw_pattern
-    found: list[Example] = []
+    found: list[_Match] = []
     tried = 0
     produced = 0
     cap_hit = False
@@ -1611,28 +1755,39 @@ def verify(pattern: Pattern, target: RuleFile, irish: RuleFile, table: FeatureTa
         spellings = g2p_inverse.spell(candidate.segments, **_VERIFY_SPELL)
         if not spellings:
             continue                   # costs no forward run, so it does not count as tried
-        spelling = spellings[0]
         tried += 1
-        result = _forward(spelling, irish, target, table)
+        result = _forward(spellings[0], irish, target, table)
         if result is None:
             continue
         text = _unmark(result.ipa) if ipa_mode else result.respelling
         if not _matches(text, wanted):
             continue
-        found.append(Example(orthography=spelling, respelling=result.respelling,
-                             # Stress is ignored everywhere in reverse (V-18), and spec §4's
-                             # own example block prints unmarked IPA.
-                             ipa=_unmark(result.ipa), flags=result.flags,
-                             fallbacks=result.fallbacks, rank=candidate.rank,
-                             spelling_index=0))
+        # The number of LONG Irish vowels in the candidate — the second half of the ranking
+        # ruling (owner decision 2). A long vowel is reached by a cheaper `rank` than the
+        # reduced /ə/ is, so without this the plain shape of a word sits past `--examples 8`.
+        long_vowels = sum(1 for seg in candidate.segments if "ː" in seg)
+        found.append(_Match(candidate=candidate, result=result, spelling=spellings[0],
+                            long_vowels=long_vowels,
+                            penalty=spelling_penalty(spellings[0])))
     if produced >= examine or tried >= cap:
         # D6: `cap_hit` means EITHER bound — examined, or tried. The `tried` half is checked
         # here as well as at the top of the loop: when the candidate that fills the cap is also
         # the last one `expand` produces, no later iteration runs to notice it.
         cap_hit = True
 
-    ordered = sorted(found, key=lambda e: (e.fallbacks, len(e.flags), e.rank, e.spelling_index))
-    return tuple(ordered[:limit]), tried, cap_hit
+    # The head is ranked on the CHEAP spelling's penalty, then re-spelled properly and ranked
+    # again (owner decision 1 costs a second `spell()` search, and `Ar*v*` matches 518 of the
+    # 608 candidates it runs). `penalty` sits BELOW `rank` in the key and a wider search can
+    # only LOWER it, so no row outside the head can be promoted into the printed rows by the
+    # refinement, and no refined row can be pushed out by an unrefined one: the rows finally
+    # printed are always inside the head.
+    ordered = sorted(found, key=_match_key)[:max(REFINE_HEAD * limit, REFINE_HEAD)]
+    refined: list[_Match] = []
+    for match in ordered:
+        spelling, penalty = _best_spelling(match.candidate.segments, [match.spelling])
+        refined.append(replace(match, spelling=spelling, penalty=penalty))
+    return (tuple(_example(match) for match in sorted(refined, key=_match_key)[:limit]),
+            tried, cap_hit)
 
 
 # ---- old-irish (R6, spec §2) -------------------------------------------------------------------
